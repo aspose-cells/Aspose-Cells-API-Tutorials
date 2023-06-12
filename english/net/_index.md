@@ -12,4 +12,4 @@ is_root: true
 ## Tutorials
 | Title | Description |
 | --- | --- | 
-| [Excel Worksheet C# Tutorials](./Excel Worksheet C# Tutorials) |  |
+| [Excel Worksheet C# Tutorials](./excel-worksheet-csharp-tutorials/) | Aspose.Cells C# tutorials offer step-by-step instructions for manipulating Excel spreadsheets with ease and efficiency. |
