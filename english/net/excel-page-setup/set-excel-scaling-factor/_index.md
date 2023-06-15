@@ -2,7 +2,7 @@
 title: Set Excel Scaling Factor
 linktitle: Set Excel Scaling Factor
 second_title: Aspose.Cells for .NET API Reference
-description: Learn to Easily manipulate Excel files and customize the scaling factor using Aspose.Cells for .NET.
+description: Learn to easily manipulate Excel files and customize the scaling factor using Aspose.Cells for .NET.
 type: docs
 weight: 180
 url: /net/excel-page-setup/set-excel-scaling-factor/
