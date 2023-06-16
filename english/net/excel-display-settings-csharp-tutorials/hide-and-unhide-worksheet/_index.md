@@ -9,41 +9,67 @@ url: /net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 ---
 In this tutorial, we will take you step by step to explain the following C# source code which is used to hide and show a worksheet using Aspose.Cells for .NET. Follow the steps below:
 
-## Step 1: Create a file stream containing the Excel file to open
+## Step 1: Preparing the environment
+
+Before you start, make sure you have Aspose.Cells for .NET installed on your system. If you don't already have it installed, you can download it from Aspose's official website. Once installed, you can create a new project in your preferred integrated development environment (IDE).
+
+## Step 2: Import required namespaces
+
+In your C# source file, add the necessary namespaces to use the features of Aspose.Cells. Add the following lines to the beginning of your file:
+
 ```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
+using Aspose.Cells;
+using System.IO;
 ```
 
-## Step 2: Instantiate a Workbook object by opening the Excel file via file flow
+## Step 3: Load the Excel file
+
+Before hiding or unhiding a worksheet, you must load the Excel file into your application. Make sure you have the Excel file you want to use in the same directory as your project. Use the following code to load the Excel file:
+
 ```csharp
+string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
+FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
-## Step 3: Access the first worksheet of the Excel file
+Be sure to replace "PATH TO YOUR DOCUMENTS DIRECTORY" with the actual path to the directory containing your Excel file.
+
+## Step 4: Access the spreadsheet
+
+Once the Excel file is loaded, you can navigate to the worksheet you want to hide or unhide. Use the following code to access the first worksheet in the file:
+
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-## Step 4: Hide the first worksheet of the Excel file
+## Step 5: Hide the worksheet
+
+Now that you have accessed the worksheet, you can hide it using the `IsVisible` property. Use the following code to hide the first worksheet in the file:
+
 ```csharp
 worksheet. IsVisible = false;
 ```
 
-## Step 5: Display the first worksheet of the Excel file (if necessary)
+## Step 6: Redisplay the worksheet
+
+If you want to redisplay the previously hidden worksheet, you can use the same code by changing the value of the `IsVisible` property. Use the following code to redisplay the first worksheet:
+
 ```csharp
-//worksheet.IsVisible = true;
+worksheet. IsVisible = true;
 ```
 
-## Step 6: Save modified Excel file in default format (i.e. Excel 2003)
+## Step 7: Save Changes
+
+Once you
+
+  have hidden or unhided the worksheet as needed, you must save the changes to the Excel file. Use the following code to save changes:
+
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
-```
-
-## Step 7: Close the file stream to release all resources
-```csharp
 fstream.Close();
 ```
+
+Make sure to specify the correct output path to save the modified Excel file.
 
 ### Sample source code for Hide And Unhide Worksheet using Aspose.Cells for .NET 
 
