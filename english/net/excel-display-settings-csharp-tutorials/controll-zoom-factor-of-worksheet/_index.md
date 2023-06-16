@@ -91,6 +91,3 @@ Aspose.Cells for .NET offers features such as creating, editing, converting and 
 
 Aspose.Cells for .NET supports multiple file formats including XLSX, XLSM, CSV, HTML, PDF, and many more.
 
-**Is there a free trial version of Aspose.Cells for .NET?**
-
-Yes, you can download a free trial version of Aspose.Cells for .NET from the official website and try it in your project.

@@ -96,10 +96,6 @@ You have now learned how to add a new worksheet in Excel using Aspose.Cells for 
 
 Yes, Aspose.Cells supports multiple programming languages such as Java, Python, Ruby, and many more.
 
-**Do I have to buy a license to use Aspose.Cells?**
-
-Yes, Aspose.Cells is a commercial library and requires the purchase of a license for production use. However, you can also use a free trial version to evaluate its features.
-
 **Can I add formatting to cells in the newly created worksheet?**
 
 A: Yes, you can apply formatting to cells using the methods provided by the Worksheet class of Aspose.Cells. You can set the cell style, change the background color, apply borders, etc.
