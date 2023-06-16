@@ -73,20 +73,20 @@ workbook.Save(dataDir + "output.xls");
 
 In this step-by-step guide, you learned how to hide worksheet tabs using Aspose.Cells for .NET. By using the appropriate methods and properties from the Aspose.Cells library, you can further customize your Excel files to your needs.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
     
 Aspose.Cells for .NET is a popular software library for manipulating Excel files in .NET applications.
 
-**Can I selectively hide certain tabs in a worksheet rather than hiding them all?**
+#### Can I selectively hide certain tabs in a worksheet rather than hiding them all?
    
 Yes, using Aspose.Cells you can selectively hide certain tabs of a worksheet by manipulating the appropriate properties.
 
-**Does Aspose.Cells support other Excel file editing features?**
+#### Does Aspose.Cells support other Excel file editing features?
 
 Yes, Aspose.Cells offers a wide range of features for editing and manipulating Excel files, such as adding data, formatting, creating charts, etc.
 
-**Q: Does Aspose.Cells only work with Excel files in .xls format?**
+#### Q: Does Aspose.Cells only work with Excel files in .xls format?
 
 No, Aspose.Cells supports various Excel file formats including .xls and .xlsx.

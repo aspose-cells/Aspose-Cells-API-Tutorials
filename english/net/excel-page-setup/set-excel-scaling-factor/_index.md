@@ -87,14 +87,14 @@ Congratulation ! You have learned how to set the scaling factor in an Excel spre
 
 ### FAQs
 
-**1. How to set scaling factor in Excel spreadsheet with Aspose.Cells for .NET?**
+#### 1. How to set scaling factor in Excel spreadsheet with Aspose.Cells for .NET?
 
 Use the `Zoom` property of the `PageSetup` object to set the scaling factor. For example, `worksheet.PageSetup.Zoom = 100;` will set the scaling factor to 100%.
 
-**2. Can I customize the scaling factor according to my needs?**
+#### 2. Can I customize the scaling factor according to my needs?
 
 Yes, you can adjust the scaling factor by changing the value assigned to the `Zoom` property. For example, `worksheet.PageSetup.Zoom = 75;` will set the scaling factor to 75%.
 
-**3. Is it possible to save the Excel workbook with the defined scaling factor?**
+#### 3. Is it possible to save the Excel workbook with the defined scaling factor?
 
 Yes, you can use the `Save` method of the `Workbook` object to save the Excel workbook with the defined scaling factor.

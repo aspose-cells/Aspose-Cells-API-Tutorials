@@ -148,22 +148,22 @@ You have just followed a step by step tutorial to protect a column in an Excel s
 
 ## Frequently Asked Questions
 
-**Q: Why is it important to protect specific columns in an Excel spreadsheet?**
+#### Q: Why is it important to protect specific columns in an Excel spreadsheet?
 
 A: Protecting specific columns in an Excel spreadsheet helps restrict access and modification of sensitive data, thus ensuring information integrity and confidentiality.
 
-**Q: Does Aspose.Cells for .NET support other features for handling Excel files?**
+#### Q: Does Aspose.Cells for .NET support other features for handling Excel files?
 
 A: Yes, Aspose.Cells for .NET offers a wide range of features including creating, editing, converting and reporting Excel files.
 
-**Q: How can I unlock all columns in an Excel spreadsheet?**
+#### Q: How can I unlock all columns in an Excel spreadsheet?
 
 A: In Aspose.Cells for .NET, you can use a loop to loop through all columns and set the lock style to "false" to unlock all columns.
 
-**Q: How can I protect an Excel spreadsheet using Aspose.Cells for .NET?**
+#### Q: How can I protect an Excel spreadsheet using Aspose.Cells for .NET?
 
 A: You can use the `Protect` method of the worksheet object to protect the sheet with different levels of protection such as structure protection, cell protection, etc.
 
-**Q: Can I apply these column protection concepts in other types of Excel files?**
+#### Q: Can I apply these column protection concepts in other types of Excel files?
 
 A: Yes, the column protection concepts in Aspose.Cells for .NET are applicable to all types of Excel files, such as Excel 97-2003 files (.xls) and newer Excel files (.xlsx).

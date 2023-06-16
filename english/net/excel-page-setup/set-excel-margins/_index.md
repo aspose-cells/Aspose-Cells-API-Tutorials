@@ -94,22 +94,22 @@ You have now learned how to set margins in Excel using Aspose.Cells for .NET. Th
 
 ### FAQ (Frequently Asked Questions)
 
-**1. How can I specify custom margins for my spreadsheet?**
+#### 1. How can I specify custom margins for my spreadsheet?
 
 You can specify custom margins using the `BottomMargin`, `LeftMargin`, `RightMargin`, and `TopMargin` properties of the `PageSetup` object. Simply set the desired values for each property to adjust the margins as needed.
 
-**2. Can I set different margins for different worksheets in the same workbook?**
+#### 2. Can I set different margins for different worksheets in the same workbook?
 
 Yes, you can set different margins for each worksheet in the same workbook. Just access the `PageSetup` object of each worksheet individually and set the specific margins for each one.
 
-**3. Do the defined margins also apply to the printing of the workbook?**
+#### 3. Do the defined margins also apply to the printing of the workbook?
 
 Yes, the margins set using Aspose.Cells also apply when printing the workbook. The specified margins will be taken into account when generating the printed output of the workbook.
 
-**4. Can I change the margins of an existing Excel file using Aspose.Cells?**
+#### 4. Can I change the margins of an existing Excel file using Aspose.Cells?
 
 Yes, you can change the margins of an existing Excel file by loading the file with Aspose.Cells, accessing each worksheet's `PageSetup` object, and changing the values of the margins properties. Then save the modified file to apply the new margins.
 
-**5. How do I remove margins from a spreadsheet?**
+#### 5. How do I remove margins from a spreadsheet?
 
 To remove the margins from a worksheet, you can simply set the values of the `BottomMargin`, `LeftMargin`, `RightMargin` and `TopMargin` properties to zero. This will reset the margins to their default (usually zero).

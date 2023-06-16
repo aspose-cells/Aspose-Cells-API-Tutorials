@@ -68,21 +68,21 @@ fstream.Close();
 
 This step-by-step guide showed you how to display or hide row and column headers in an Excel spreadsheet using Aspose.Cells for .NET. Using the provided C# source code, you can easily customize the display of headers in your Excel files.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library for manipulating Excel files in .NET applications.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you need to download the relevant package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
-**How can I show or hide row and column headers of an Excel spreadsheet with Aspose.Cells for .NET?**
+#### How can I show or hide row and column headers of an Excel spreadsheet with Aspose.Cells for .NET?
 
 You can use the `IsRowColumnHeadersVisible` property of the `Worksheet` object to display or hide row and column headers. Set it to `true` to show them and to `false` to hide them.
 
-**What other Excel file formats are supported by Aspose.Cells for .NET?**
+#### What other Excel file formats are supported by Aspose.Cells for .NET?
 
 Aspose.Cells for .NET supports various Excel file formats, such as XLS, XLSX, CSV, HTML, PDF, and many more.
 

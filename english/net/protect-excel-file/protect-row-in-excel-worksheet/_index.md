@@ -145,19 +145,19 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 Congratulation ! You now have C# source code that allows you to protect rows in an Excel spreadsheet using the Aspose.Cells library for .NET. Be sure to follow the steps carefully and customize the code to your specific needs.
 
-## FAQs (Frequently Asked Questions)
+### FAQs (Frequently Asked Questions)
 
-1. Does this code work with recent versions of Excel?
-    A: Yes, this code works with recent versions of Excel, including files in Excel 2010 and above format.
+#### Does this code work with recent versions of Excel?
+Yes, this code works with recent versions of Excel, including files in Excel 2010 and above format.
 
-2. Can I protect only specific rows instead of all rows in the worksheet?
-    A: Yes, you can modify the code to specify the specific rows you want to protect. You will need to adjust the loop and indices accordingly.
+#### Can I protect only specific rows instead of all rows in the worksheet?
+Yes, you can modify the code to specify the specific rows you want to protect. You will need to adjust the loop and indices accordingly.
 
-3. How can I unlock locked lines again?
-    A: You can use the `IsLocked` method of the `Style` object to set the value to `false` and unlock the rows.
+#### How can I unlock locked lines again?
+You can use the `IsLocked` method of the `Style` object to set the value to `false` and unlock the rows.
 
-4. Is it possible to protect multiple worksheets in the same Excel workbook?
-    A: Yes, you can repeat the steps of creating a worksheet, setting the style and protecting for each worksheet in the workbook.
+#### Is it possible to protect multiple worksheets in the same Excel workbook?
+Yes, you can repeat the steps of creating a worksheet, setting the style and protecting for each worksheet in the workbook.
 
-5. How can I change the spreadsheet protection password?
-    A: You can change the password using the `Protect` method and specifying a new password as an argument.
+#### How can I change the spreadsheet protection password?
+You can change the password using the `Protect` method and specifying a new password as an argument.

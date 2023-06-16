@@ -104,10 +104,10 @@ In this tutorial, you learned how to implement custom size of a worksheet using 
 
 ### Frequently Asked Questions (FAQ)
 
-**Question 1: Can I further customize the spreadsheet layout?**
+#### Question 1: Can I further customize the spreadsheet layout?
 
 Yes, Aspose.Cells offers many options to customize your worksheet layout. You can set custom dimensions, page orientation, margins, headers and footers, and much more.
 
-**Question 2: What other output formats does Aspose.Cells support?**
+#### Question 2: What other output formats does Aspose.Cells support?
 
 Aspose.Cells supports many different output formats, including PDF, XLSX, XLS, CSV, HTML, TXT and many more. You can choose the desired output format according to your needs.

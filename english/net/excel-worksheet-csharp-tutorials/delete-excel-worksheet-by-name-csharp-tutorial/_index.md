@@ -75,24 +75,24 @@ workbook.Save(dataDir + "output.out.xls");
 
 In this tutorial, we covered the step-by-step process of deleting an Excel spreadsheet by name using Aspose.Cells for .NET. By following the code examples and explanations provided, you should now have a good understanding of how to perform this task in your C# applications. Aspose.Cells for .NET offers a comprehensive set of features for working with Excel files, allowing you to easily manipulate spreadsheets and related data.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library that allows developers to create, manipulate and convert Excel files in their .NET applications. It offers a wide range of features for working with spreadsheets, cells, formulas, styles and more.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you can download the installation package from the Aspose Releases (https://releases.aspose.com/cells/net) and follow the instructions provided. You will need a valid license to use the library in your applications.
 
-**Can I delete multiple worksheets at once?**
+#### Can I delete multiple worksheets at once?
 
 Yes, you can delete multiple worksheets using Aspose.Cells for .NET. You can simply repeat the delete step for each worksheet you want to delete.
 
-**How do I know if a spreadsheet exists before deleting it?**
+#### How do I know if a spreadsheet exists before deleting it?
 
 Before deleting a worksheet, you can check if it exists using the `Contains()` method of the `Worksheets` object of the `Workbook` object. This method takes the spreadsheet name as a parameter and returns `true` if the spreadsheet exists, otherwise it returns `false`.
 
-**Is it possible to recover a deleted spreadsheet?**
+#### Is it possible to recover a deleted spreadsheet?
 
 Unfortunately, once a spreadsheet is deleted, it cannot be recovered directly from the Excel file. It is recommended to create a backup of your Excel file before deleting a spreadsheet to avoid data loss.

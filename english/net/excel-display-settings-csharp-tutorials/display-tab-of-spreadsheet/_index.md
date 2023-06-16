@@ -56,25 +56,25 @@ workbook.Settings.ShowTabs = true;
 workbook.Save(dataDir + "output.xls");
 ```
 
-## Conclusion
+### Conclusion
 
 This step-by-step guide showed you how to show the tab of an Excel spreadsheet using Aspose.Cells for .NET. Using the provided C# source code, you can easily customize the display of tabs in your Excel files.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library for manipulating Excel files in .NET applications.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you need to download the relevant package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
-**How to display the tab of an Excel spreadsheet using Aspose.Cells for .NET?**
+#### How to display the tab of an Excel spreadsheet using Aspose.Cells for .NET?
 
 You can use the `ShowTabs` property of the `Workbook.Settings` object and set it to `true` to show the worksheet tab.
 
-**What other Excel file formats are supported by Aspose.Cells for .NET?**
+#### What other Excel file formats are supported by Aspose.Cells for .NET?
 
 Aspose.Cells for .NET supports a variety of Excel file formats, such as XLS, XLSX, CSV, HTML, PDF, etc.
 

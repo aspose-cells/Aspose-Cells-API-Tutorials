@@ -108,14 +108,14 @@ Congratulation ! You now have C# source code that allows you to protect an Excel
 
 ### FAQs (Frequently Asked Questions)
 
-1. Is it possible to protect multiple worksheets in one Excel file?
+#### Is it possible to protect multiple worksheets in one Excel file?
 A: Yes, you can protect multiple worksheets in one Excel file by repeating steps 4-6 for each worksheet.
 
-2. How can I specify specific permissions for authorized users?
+#### How can I specify specific permissions for authorized users?
 A: You can use the additional options provided by the `Protect` method to specify specific permissions for authorized users. See the Aspose.Cells documentation for more information.
 
-3. Can I protect the Excel file itself with a password?
+#### Can I protect the Excel file itself with a password?
 A: Yes, you can password protect the Excel file itself using other methods provided by the Aspose.Cells library. Please refer to the documentation for specific examples.
 
-4. Does the Aspose.Cells library support other Excel file formats?
+#### Does the Aspose.Cells library support other Excel file formats?
 A: Yes, Aspose.Cells library supports a wide range of Excel file formats, including XLSX, XLSM, XLSB, CSV, etc.

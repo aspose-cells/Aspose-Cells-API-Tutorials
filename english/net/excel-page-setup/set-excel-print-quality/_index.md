@@ -88,14 +88,14 @@ Congratulation ! You have learned how to set the print quality of an Excel sprea
 ## FAQs
 
 
-**1. Can I customize the print quality of different worksheets in the same Excel file?**
+#### 1. Can I customize the print quality of different worksheets in the same Excel file?
 
 Yes, you can customize the print quality of each worksheet individually by going to the corresponding Worksheet object and setting the appropriate print quality.
 
-**2. What other print options can I customize with Aspose.Cells for .NET?**
+#### 2. What other print options can I customize with Aspose.Cells for .NET?
 
 In addition to print quality, you can customize various other print options such as margins, page orientation, print scale, etc.
 
-**3. Does Aspose.Cells for .NET support different Excel file formats?**
+#### 3. Does Aspose.Cells for .NET support different Excel file formats?
 
 Yes, Aspose.Cells for .NET supports a wide range of Excel file formats including XLSX, XLS, CSV, HTML, PDF, etc.

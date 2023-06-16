@@ -88,20 +88,20 @@ Congratulation ! You learned how to retrieve page dimensions using Aspose.Cells 
 
 Don't forget to further explore the documentation of Aspose.Cells to discover all the powerful features it offers.
 
-## FAQ's
+### FAQ's
 
-**1. What other paper sizes does Aspose.Cells for .NET support?**
+#### 1. What other paper sizes does Aspose.Cells for .NET support?
 
 Aspose.Cells for .NET supports a variety of paper sizes including A1, A5, B4, B5, Executive, Legal, Letter and many more. You can check the documentation for the full list of supported paper sizes.
 
-**2. Can I set custom page dimensions with Aspose.Cells for .NET?**
+#### 2. Can I set custom page dimensions with Aspose.Cells for .NET?
 
 Yes, you can set custom page dimensions by specifying the desired width and height. Aspose.Cells offers full flexibility to customize page dimensions to your needs.
 
-**3. Can I get page dimensions in units other than inches?**
+#### 3. Can I get page dimensions in units other than inches?
 
 Yes, Aspose.Cells for .NET allows you to get page dimensions in different units, including inches, centimeters, millimeters, and points.
 
-**4. Does Aspose.Cells for .NET support other page settings editing features?**
+#### 4. Does Aspose.Cells for .NET support other page settings editing features?
 
 Yes, Aspose.Cells offers a full range of features for editing page settings, including setting margins, orientation, headers and footers, etc.

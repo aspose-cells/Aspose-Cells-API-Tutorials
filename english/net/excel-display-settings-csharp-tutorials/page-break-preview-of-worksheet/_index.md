@@ -99,21 +99,21 @@ fstream.Close();
 
 In this tutorial, you learned how to display the page break preview of an worksheet using Aspose.Cells for .NET. By following the steps described, you can easily control the appearance and layout of your Excel files.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a popular software library for manipulating Excel files in .NET applications.
 
-**Can I show the page-by preview for a specific worksheet instead of the whole worksheet?**
+#### Can I show the page-by preview for a specific worksheet instead of the whole worksheet?
 
 Yes, using Aspose.Cells you can enable page break preview for a specific worksheet by accessing the corresponding Worksheet object.
 
-**Does Aspose.Cells support other Excel file editing features?**
+#### Does Aspose.Cells support other Excel file editing features?
 
 Yes, Aspose.Cells offers a wide range of features for editing and manipulating Excel files, such as adding data, formatting, creating charts, etc.
 
-**Does Aspose.Cells only work with Excel files in .xls format?**
+#### Does Aspose.Cells only work with Excel files in .xls format?
 
 No, Aspose.Cells supports various Excel file formats including .xls and .xlsx.
 	

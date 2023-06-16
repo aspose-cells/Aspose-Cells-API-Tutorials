@@ -79,21 +79,21 @@ book.Save(dataDir + "output.xls");
 
 In this tutorial, you learned how to remove panes from an Excel worksheet using Aspose.Cells for .NET. By following the steps described, you can easily customize the appearance and behavior of your Excel files.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a popular software library for manipulating Excel files in .NET applications.
 
-**How can I set the active cell of a worksheet in Aspose.Cells?**
+#### How can I set the active cell of a worksheet in Aspose.Cells?
 
 You can set the active cell using the `ActiveCell` property of the Worksheet object.
 
-**Can I remove only horizontal or vertical panes from the worksheet window?**
+#### Can I remove only horizontal or vertical panes from the worksheet window?
 
 Yes, using Aspose.Cells you can remove only horizontal or vertical panes using the appropriate methods such as `RemoveHorizontalSplit` or `RemoveVerticalSplit`.
 
-**Does Aspose.Cells only work with Excel files in .xls format?**
+#### Does Aspose.Cells only work with Excel files in .xls format?
 
 No, Aspose.Cells supports various Excel file formats including .xls and .xlsx.
 	

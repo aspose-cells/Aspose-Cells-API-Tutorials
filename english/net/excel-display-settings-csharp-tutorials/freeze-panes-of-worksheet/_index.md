@@ -70,21 +70,21 @@ fstream.Close();
 
 This step-by-step guide showed you how to lock panes in an Excel spreadsheet using Aspose.Cells for .NET. Using the provided C# source code, you can easily customize pane lock settings to better organize and visualize your data in Excel files.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library for manipulating Excel files in .NET applications.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you need to download the relevant package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
-**How to lock panes in an Excel worksheet using Aspose.Cells for .NET?**
+#### How to lock panes in an Excel worksheet using Aspose.Cells for .NET?
 
 You can use the `FreezePanes` method of the `Worksheet` object to lock the panes of a worksheet. Specify the cells to lock by providing row and column indices.
 
-**Can I customize pane lock settings with Aspose.Cells for .NET?**
+#### Can I customize pane lock settings with Aspose.Cells for .NET?
 
 Yes, using the `FreezePanes` method, you can specify which cells to lock as needed, providing the appropriate row and column indices.
 

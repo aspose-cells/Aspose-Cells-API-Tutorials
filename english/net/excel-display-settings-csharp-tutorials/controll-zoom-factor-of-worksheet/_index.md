@@ -71,23 +71,21 @@ fstream.Close();
 
 This step-by-step guide showed you how to control the zoom factor of a worksheet using Aspose.Cells for .NET. Using the provided C# source code, you can easily adjust the zoom factor of a worksheet in your .NET applications.
 
-If you have any additional questions or issues, feel free to check out the official Aspose.Cells documentation for more information.
+### Frequently Asked Questions (FAQ)
 
-## Frequently Asked Questions (FAQ)
-
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a feature-rich filing library for manipulating Excel files in .NET applications.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you need to download the corresponding NuGet package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
-**What features does Aspose.Cells for .NET offer?**
+#### What features does Aspose.Cells for .NET offer?
 
 Aspose.Cells for .NET offers features such as creating, editing, converting and advanced manipulation of Excel files.
 
-**What file formats are supported by Aspose.Cells for .NET?**
+#### What file formats are supported by Aspose.Cells for .NET?
 
 Aspose.Cells for .NET supports multiple file formats including XLSX, XLSM, CSV, HTML, PDF, and many more.
 

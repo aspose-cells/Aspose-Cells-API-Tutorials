@@ -125,24 +125,24 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 
 You have now learned how to remove existing printer settings from worksheets in Excel using Aspose.Cells for .NET. This tutorial walked you through every step of the process, from setting up the environment to navigating through spreadsheets and clearing printer settings. You can now use this knowledge to manage printer settings in your Excel files.
 
-## FAQ's
+### FAQ's
 
-**Q1: How do I know if a spreadsheet has existing printer settings?**
+#### Q1: How do I know if a spreadsheet has existing printer settings?
 
 A1: You can check if printer settings exist for a worksheet by accessing the `PrinterSettings` property of the `PageSetup` object. If the value is non-null, it means there are existing printer settings.
 
-**Q2: Can I delete printer settings for a specific spreadsheet only?**
+#### Q2: Can I delete printer settings for a specific spreadsheet only?
 
 A2: Yes, you can use the same approach to remove printer settings for a specific worksheet by accessing that worksheet's `PageSetup` object.
 
-**Q3: Does this method remove other layout settings as well?**
+#### Q3: Does this method remove other layout settings as well?
 
 A3: No, this method only deletes printer settings. Other layout settings, such as margins, paper orientation, etc., remain unchanged.
 
-**Q4: Does this method work for all Excel file formats, such as .xls and .xlsx?**
+#### Q4: Does this method work for all Excel file formats, such as .xls and .xlsx?
 
 A4: Yes, this method works for all Excel file formats supported by Aspose.Cells, including .xls and .xlsx.
 
-**Q5: Are changes made to printer settings permanent in the edited Excel file?**
+#### Q5: Are changes made to printer settings permanent in the edited Excel file?
 
 A5: Yes, changes to printer settings are permanently saved in the edited Excel file.

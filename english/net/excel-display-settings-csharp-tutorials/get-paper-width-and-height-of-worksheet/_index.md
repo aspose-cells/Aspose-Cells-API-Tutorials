@@ -71,20 +71,20 @@ Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup
 
 You learned how to use Aspose.Cells for .NET to get the paper width and height of a spreadsheet. This feature can be useful for the configuration and precise layout of your Excel documents.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library for manipulating and processing Excel files in .NET applications. It offers many features for creating, modifying, converting and analyzing Excel files.
 
-**How can I get the paper size of a spreadsheet with Aspose.Cells for .NET?**
+#### How can I get the paper size of a spreadsheet with Aspose.Cells for .NET?
 
 You can use the `PageSetup` class of the `Worksheet` object to access the paper size. Use the `PaperSize` property to set the paper size and the `PaperWidth` and `PaperHeight` properties to get the paper width and height respectively.
 
-**What paper sizes does Aspose.Cells for .NET support?**
+#### What paper sizes does Aspose.Cells for .NET support?
 
 Aspose.Cells for .NET supports a wide range of commonly used paper sizes, such as A2, A3, A4, and Letter, as well as many other custom sizes.
 
-**Can I customize the paper size of a spreadsheet with Aspose.Cells for .NET?**
+#### Can I customize the paper size of a spreadsheet with Aspose.Cells for .NET?
 
 Yes, you can set a custom paper size by specifying the exact width and height dimensions using the `PaperWidth` and `PaperHeight` properties of the `PageSetup` class.

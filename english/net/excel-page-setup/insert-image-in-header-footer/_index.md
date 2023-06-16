@@ -165,21 +165,21 @@ Congratulation ! You now know how to insert an image in the header or footer of 
 
 ### FAQ's
 
-**Q1: Is it possible to insert multiple images in the header or footer of an Excel document?**
+#### Q1: Is it possible to insert multiple images in the header or footer of an Excel document?
 
 A1: Yes, you can insert multiple images into the header or footer of an Excel document by repeating steps 8 and 9 for each additional image.
 
-**Q2: What image formats are supported for insertion in header or footer?**
+#### Q2: What image formats are supported for insertion in header or footer?
 A2: Aspose.Cells supports a variety of common image formats such as JPEG, PNG, GIF, BMP, etc.
 
-**Q3: Can I further customize the appearance of the header or footer?**
+#### Q3: Can I further customize the appearance of the header or footer?
 
 A3: Yes, you can use special scripts and codes to further format and customize the appearance of the header or footer. Refer to the Aspose.Cells documentation for more information on customization options.
 
-**Q4: Does Aspose.Cells work with different versions of Excel?**
+#### Q4: Does Aspose.Cells work with different versions of Excel?
 
 A4: Yes, Aspose.Cells is compatible with different versions of Excel including Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016 and Excel 2019.
 
-**Q5: Is it possible to insert images in other parts of the Excel document, such as cells or charts?**
+#### Q5: Is it possible to insert images in other parts of the Excel document, such as cells or charts?
 
 A5: Yes, Aspose.Cells provides extensive functionality for inserting images into different parts of the Excel document, including cells, charts and drawing objects.

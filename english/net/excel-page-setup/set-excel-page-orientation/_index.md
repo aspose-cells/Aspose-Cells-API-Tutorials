@@ -85,19 +85,19 @@ In this tutorial, we have learned how to set Excel page orientation using Aspose
 
 ## FAQs
 
-**Q1:** Can I set the page orientation to landscape instead of portrait?
+#### Q1: Can I set the page orientation to landscape instead of portrait?
 
-**A1:** Yes, absolutely! Instead of assigning the `PageOrientationType.Portrait` value, you can use `PageOrientationType.Landscape` to set the page orientation to landscape.
+A1: Yes, absolutely! Instead of assigning the `PageOrientationType.Portrait` value, you can use `PageOrientationType.Landscape` to set the page orientation to landscape.
 
-**Q2:** Does Aspose.Cells support other file formats apart from Excel?
+#### Q2: Does Aspose.Cells support other file formats apart from Excel?
 
-**A2:** Yes, Aspose.Cells supports a wide range of file formats, including XLS, XLSX, CSV, HTML, PDF, and many more. It provides APIs to create, manipulate, and convert files in various formats.
+A2: Yes, Aspose.Cells supports a wide range of file formats, including XLS, XLSX, CSV, HTML, PDF, and many more. It provides APIs to create, manipulate, and convert files in various formats.
 
-**Q3:** Can I set different page orientations for different worksheets within the same Excel file?
+#### Q3: Can I set different page orientations for different worksheets within the same Excel file?
 
-**A3:** Yes, you can set different page orientations for different worksheets by accessing the `PageSetup` object of each worksheet individually and modifying its `Orientation` property accordingly.
+A3: Yes, you can set different page orientations for different worksheets by accessing the `PageSetup` object of each worksheet individually and modifying its `Orientation` property accordingly.
 
-**Q4:** Is Aspose.Cells compatible with both .NET Framework and .NET Core?
+#### Q4: Is Aspose.Cells compatible with both .NET Framework and .NET Core?
 
-**A4:** Yes, Aspose.Cells is compatible with both .NET Framework and .NET Core. It supports a wide range of .NET versions, allowing you to use it in various development environments.
+A4: Yes, Aspose.Cells is compatible with both .NET Framework and .NET Core. It supports a wide range of .NET versions, allowing you to use it in various development environments.
 

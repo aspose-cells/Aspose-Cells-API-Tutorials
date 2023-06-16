@@ -87,14 +87,14 @@ Congratulation ! You have now learned how to set the print area of an Excel work
 
 ### FAQ's
 
-**1. Can I further customize the layout of the print area, such as orientation and margins?**
+#### 1. Can I further customize the layout of the print area, such as orientation and margins?
 
 Yes, you can access other PageSetup properties such as page orientation, margins, scale, etc. to further customize your print area layout.
 
-**2. Does Aspose.Cells for .NET support other Excel file formats, such as XLSX and CSV?**
+#### 2. Does Aspose.Cells for .NET support other Excel file formats, such as XLSX and CSV?
 
 Yes, Aspose.Cells for .NET supports a variety of Excel file formats including XLSX, XLS, CSV, HTML, PDF and many more.
 
-**3. Is Aspose.Cells for .NET compatible with all versions of .NET Framework?**
+#### 3. Is Aspose.Cells for .NET compatible with all versions of .NET Framework?
 
 Aspose.Cells for .NET is compatible with .NET Framework 2.0 or later, including versions 3.5, 4.0, 4.5, 4.6, etc.

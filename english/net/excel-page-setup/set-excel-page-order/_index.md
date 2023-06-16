@@ -72,20 +72,20 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 In this tutorial, we explained how to set page order in an Excel file using Aspose.Cells for .NET. By following the steps provided, you can easily configure the document directory, instantiate a Workbook object, get the PageSetup reference, set the page print order, and save the workbook.
 
-## FAQ's
+### FAQ's
 
-**Q1: Why is it important to set page order in an Excel file?**
+#### Q1: Why is it important to set page order in an Excel file?
 
 Defining the order of pages in an Excel file is important because it determines how the pages will be printed or displayed. By specifying a specific order, you can organize the data logically and make the file easier to read or print.
 
-**Q2: Can I use other page print orders with Aspose.Cells for .NET?**
+#### Q2: Can I use other page print orders with Aspose.Cells for .NET?
 
 Yes, Aspose.Cells for .NET supports multiple page print orders such as "DownThenOver", "OverThenDown", "DownThenOverThenDownAgain", etc. You can choose the one that best suits your needs.
 
-**Q3: Can I set additional options for printing pages with Aspose.Cells for .NET?**
+#### Q3: Can I set additional options for printing pages with Aspose.Cells for .NET?
 
 Yes, you can set various page printing options such as scale, orientation, margins, etc., using the properties of the PageSetup object in Aspose.Cells for .NET.
 
-**Q4: Does Aspose.Cells for .NET support other Excel file formats?**
+#### Q4: Does Aspose.Cells for .NET support other Excel file formats?
 
 Yes, Aspose.Cells for .NET supports a wide range of Excel file formats such as XLSX, XLS, CSV, HTML, PDF, etc. You can easily convert between these formats using the features provided by the library.

@@ -71,22 +71,22 @@ This step-by-step guide showed you how to control the tab bar width of an Excel 
 
 ## Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library for manipulating Excel files in .NET applications.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you need to download the relevant package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
-**What features does Aspose.Cells for .NET offer?**
+#### What features does Aspose.Cells for .NET offer?
 
 Aspose.Cells for .NET offers many features, such as creating, modifying, converting and manipulating Excel files.
 
-**How to hide tabs in Excel spreadsheet with Aspose.Cells for .NET?**
+#### How to hide tabs in Excel spreadsheet with Aspose.Cells for .NET?
 
 You can hide the tabs of a worksheet by using the `ShowTabs` property of the `Settings` object of the `Workbook` class and setting it to `false`.
 
-**How to adjust tab bar width with Aspose.Cells for .NET?**
+#### How to adjust tab bar width with Aspose.Cells for .NET?
 
 You can adjust the width of the tab bar by using the `SheetTabBarWidth` property of the `Settings` object of the `Workbook` class and assigning it a numerical value in points.

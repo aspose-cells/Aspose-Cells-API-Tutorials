@@ -90,22 +90,22 @@ You have now learned how to manage paper size in an Excel document using Aspose.
 
 ### FAQ's
 
-**Q1: Can I set a custom paper size other than A4?**
+#### Q1: Can I set a custom paper size other than A4?
 
 A1: Yes, Aspose.Cells supports a variety of predefined paper sizes as well as the ability to set a custom paper size by specifying the desired dimensions.
 
-**Q2: How can I know the current paper size in an Excel document?**
+#### Q2: How can I know the current paper size in an Excel document?
 
 A2: You can use the `PageSetup.PaperSize` property of the `Worksheet` object to get the currently set paper size.
 
-**Q3: Is it possible to set extra page margins with paper size?**
+#### Q3: Is it possible to set extra page margins with paper size?
 
 A3: Yes, you can use `PageSetup.LeftMargin`, `PageSetup.RightMargin`, `PageSetup.TopMargin` and `PageSetup.BottomMargin` properties to set additional page margins besides paper size.
 
-**Q4: Does this method work for all Excel file formats, such as .xls and .xlsx?**
+#### Q4: Does this method work for all Excel file formats, such as .xls and .xlsx?
 
 A4: Yes, this method works for both .xls and .xlsx file formats.
 
-**Q5: Can I apply different paper sizes to different worksheets in the same workbook?**
+#### Q5: Can I apply different paper sizes to different worksheets in the same workbook?
 
 A5: Yes, you can apply different paper sizes to different worksheets in the same workbook by using the `PageSetup.PaperSize` property of each worksheet.

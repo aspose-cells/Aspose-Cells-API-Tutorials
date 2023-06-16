@@ -75,24 +75,24 @@ workbook.Save(dataDir + "output.out.xls");
 
 In this tutorial, we covered the step-by-step process of deleting an Excel worksheet by index using Aspose.Cells for .NET. By following the code examples and explanations provided, you should now have a good understanding of how to perform this task in your C# applications. Aspose.Cells for .NET offers a comprehensive set of features for working with Excel files, allowing you to easily manipulate worksheets and related data.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library that allows developers to create, manipulate and convert Excel files in their .NET applications. It offers a wide range of features for working with worksheets, cells, formulas, styles and more.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you can download the installation package from the Aspose Releases (https://releases.aspose.com/cells/net) and follow the instructions provided. You will need a valid license to use the library in your applications.
 
-**Can I delete multiple worksheets at once?**
+#### Can I delete multiple worksheets at once?
 
 Yes, you can delete multiple worksheets using Aspose.Cells for .NET. You can simply repeat the delete step for each worksheet you want to delete.
 
-**Is it possible to recover a deleted worksheet?**
+#### Is it possible to recover a deleted worksheet?
 
 Unfortunately, once a worksheet is deleted, it cannot be recovered directly from the Excel file. It is recommended to create a backup of your Excel file before deleting a worksheet to avoid data loss.
 
-**Is Aspose.Cells for .NET compatible with different versions of Excel?**
+#### Is Aspose.Cells for .NET compatible with different versions of Excel?
 
 Yes, Aspose.Cells for .NET is compatible with different versions of Excel including Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016, Excel 2019 and Excel for Office 365. It supports file formats .xls and .xlsx.

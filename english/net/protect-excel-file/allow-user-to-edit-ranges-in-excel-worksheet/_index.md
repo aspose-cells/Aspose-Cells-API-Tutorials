@@ -132,14 +132,14 @@ You have now learned how to use Aspose.Cells for .NET to allow the user to edit 
 
 ### FAQs
 
-**1. How to allow user to edit specific ranges in Excel spreadsheet?**
+#### 1. How to allow user to edit specific ranges in Excel spreadsheet?
 
 You can use the `ProtectedRangeCollection` class to define allowed ranges of modification. Use the `Add` method to create a new protected range with the desired cells.
 
-**2. Can I set a password for authorized modification ranges?**
+#### 2. Can I set a password for authorized modification ranges?
 
 Yes, you can specify a password using the `Password` property of the `ProtectedRange` object. This will restrict access only to users with the password.
 
-**3. How do I protect the spreadsheet once the allowed ranges are set?**
+#### 3. How do I protect the spreadsheet once the allowed ranges are set?
 
 Use the `Protect` method of the `Worksheet` object to protect the worksheet. This will prevent any changes outside of the allowed ranges, possibly prompting for a password if you specified one.

@@ -148,11 +148,11 @@ Protecting data in Excel files is crucial to prevent unauthorized access or unwa
 
 ### FAQs
 
-**1. Does specific row protection work in all versions of Excel?**
+#### Does specific row protection work in all versions of Excel?
 Yes, specific row protection using Aspose.Cells for .NET works in all supported versions of Excel.
 
-**2. Can I protect multiple specific rows in an Excel spreadsheet?**
+#### Can I protect multiple specific rows in an Excel spreadsheet?
 Yes, you can protect multiple specific rows using similar methods described in this guide.
 
-**3. How can I unlock a specific row in an Excel spreadsheet?**
+#### How can I unlock a specific row in an Excel spreadsheet?
 To unlock a specific row, you must modify the source code accordingly using the `IsLocked` method of the `Style` object.

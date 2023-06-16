@@ -154,22 +154,22 @@ Congratulation ! You now have C# source code that allows you to protect specific
 
 ### FAQs (Frequently Asked Questions)
 
-1. Does this code work with recent versions of Excel?
+#### Does this code work with recent versions of Excel?
 
-    A: Yes, this code works with recent versions of Excel, including files in Excel 2010 and above format.
+Yes, this code works with recent versions of Excel, including files in Excel 2010 and above format.
 
-2. Can I protect other cells besides A1, B1 and C1?
+#### Can I protect other cells besides A1, B1 and C1?
 
-    A: Yes, you can modify the code to lock other specific cells by adjusting the cell references in the corresponding lines of code.
+Yes, you can modify the code to lock other specific cells by adjusting the cell references in the corresponding lines of code.
 
-3. How can I unlock locked cells again?
+#### How can I unlock locked cells again?
 
-    A: You can use `SetStyle` method with `IsLocked` set to `false` to unlock cells.
+You can use `SetStyle` method with `IsLocked` set to `false` to unlock cells.
 
-4. Can I add more worksheets to the workbook?
+#### Can I add more worksheets to the workbook?
 
-    A: Yes, you can add other worksheets to the workbook using the `Worksheets.Add()` method and repeat the cell protection steps for each worksheet.
+Yes, you can add other worksheets to the workbook using the `Worksheets.Add()` method and repeat the cell protection steps for each worksheet.
 
-5. How can I change the save format of the Excel file?
+#### How can I change the save format of the Excel file?
 
-    A: You can change the save format using the `SaveFormat` method with the desired format, for example `SaveFormat.Xlsx` for Excel 2007 and later.
+You can change the save format using the `SaveFormat` method with the desired format, for example `SaveFormat.Xlsx` for Excel 2007 and later.

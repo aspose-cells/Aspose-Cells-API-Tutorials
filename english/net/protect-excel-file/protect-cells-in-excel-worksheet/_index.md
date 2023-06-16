@@ -142,16 +142,16 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 Congratulation ! You have learned how to protect specific cells in an Excel spreadsheet using Aspose.Cells for .NET. You can now apply this technique in your own projects and improve the security of your Excel files.
 
 
-**FAQs**
+### FAQs
 
-1. Q: Why should I use Aspose.Cells for .NET to protect cells in an Excel spreadsheet?
-    - A: Aspose.Cells for .NET is a powerful library that makes it easy to work with Excel files. It offers advanced features to protect cells, unlock ranges, etc.
+#### Q: Why should I use Aspose.Cells for .NET to protect cells in an Excel spreadsheet?
+A: Aspose.Cells for .NET is a powerful library that makes it easy to work with Excel files. It offers advanced features to protect cells, unlock ranges, etc.
 
-2. Q: Is it possible to protect ranges of cells instead of individual cells?
-    - A: Yes, you can define specific cell ranges to protect using the `ApplyStyle` method with an appropriate `StyleFlag`.
+#### Q: Is it possible to protect ranges of cells instead of individual cells?
+A: Yes, you can define specific cell ranges to protect using the `ApplyStyle` method with an appropriate `StyleFlag`.
 
-3. Q: How can I open the protected Excel file after saving it?
-    - A: When you open the protected Excel file, you will need to provide the password specified when protecting the worksheet.
+#### Q: How can I open the protected Excel file after saving it?
+A: When you open the protected Excel file, you will need to provide the password specified when protecting the worksheet.
 
-4. Q: Are there other types of protection that I can apply to an Excel spreadsheet?
-    - A: Yes, Aspose.Cells for .NET supports multiple types of protection, such as structure protection, window protection, etc. You can choose the appropriate type of protection according to your needs.
+#### Q: Are there other types of protection that I can apply to an Excel spreadsheet?
+A: Yes, Aspose.Cells for .NET supports multiple types of protection, such as structure protection, window protection, etc. You can choose the appropriate type of protection according to your needs.

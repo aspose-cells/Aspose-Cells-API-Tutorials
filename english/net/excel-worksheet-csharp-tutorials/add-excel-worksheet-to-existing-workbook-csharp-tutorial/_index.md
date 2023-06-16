@@ -100,24 +100,24 @@ fstream.Close();
 
 In this tutorial we have covered the step by step process of adding a new fire Connect to an existing Excel workbook using Aspose.Cells for .NET. By following the code examples and explanations provided, you should now have a good understanding of how to perform this task in your C# applications. Aspose.Cells for .NET offers a comprehensive set of features for working with Excel files, allowing you to automate various Excel-related tasks efficiently.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful .NET library that allows developers to create, manipulate and convert Excel files in their applications. It offers a wide range of features for working with spreadsheets, cells, formulas, styles, and more.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you can download the installation package from the Aspose Releases (https://releases.aspose.com/cells/net) and follow the installation instructions provided. You will also need a valid license to use the library in your applications.
 
-**Can I add multiple spreadsheets using Aspose.Cells for .NET?**
+#### Can I add multiple spreadsheets using Aspose.Cells for .NET?
 
 Yes, you can add multiple worksheets to one Excel file using Aspose.Cells for .NET. You can use the `Worksheets.Add()` method of the `Workbook` object to add new worksheets at different positions in the workbook.
 
-**How can I format the cells in the Excel file?**
+#### How can I format the cells in the Excel file?
 
 Aspose.Cells for .NET offers different methods and properties to format cells in an Excel file. You can set cell values, apply formatting options such as font style, color, alignment, borders, and more. See the documentation and sample code provided by Aspose.Cells for more detailed information on cell formatting.
 
-**Is Aspose.Cells for .NET compatible with different versions of Excel?**
+#### Is Aspose.Cells for .NET compatible with different versions of Excel?
 
 Yes, Aspose.Cells for .NET is compatible with different versions of Excel including Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016, Excel 2019 and Excel for Office 365. It supports both the format .xls and the newer .xlsx format.

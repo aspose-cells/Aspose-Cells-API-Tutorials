@@ -90,21 +90,21 @@ workbook.Save(dataDir + "output.out.xls");
 
 You have now learned how to add a new worksheet in Excel using Aspose.Cells for .NET. You can use this method to manipulate and generate Excel files using C#. Aspose.Cells offers many powerful features to simplify the handling of Excel files in your applications.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**Can I use Aspose.Cells with other programming languages than C#?**
+#### Can I use Aspose.Cells with other programming languages than C#?
 
 Yes, Aspose.Cells supports multiple programming languages such as Java, Python, Ruby, and many more.
 
-**Can I add formatting to cells in the newly created worksheet?**
+#### Can I add formatting to cells in the newly created worksheet?
 
 A: Yes, you can apply formatting to cells using the methods provided by the Worksheet class of Aspose.Cells. You can set the cell style, change the background color, apply borders, etc.
 
-**How can I access cell data from the new worksheet?**
+#### How can I access cell data from the new worksheet?
 
 You can access cell data using the properties and methods provided by the Worksheet class of Aspose.Cells. For example, you can use the Cells property to access a specific cell and retrieve or modify its value.
 
-**Does Aspose.Cells support formulas in Excel?**
+#### Does Aspose.Cells support formulas in Excel?
 
 Yes, Aspose.Cells supports Excel formulas. You can set formulas in worksheet cells using the SetFormula method of the Cell class.
 

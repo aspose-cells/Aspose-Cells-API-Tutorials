@@ -99,14 +99,14 @@ Congratulation ! You have learned how to set print titles in an Excel spreadshee
 
 ### FAQs
 
-**1. Can I set print titles for specific columns in Excel?**
+#### 1. Can I set print titles for specific columns in Excel?
 
 Yes, with Aspose.Cells for .NET you can set specific columns as print titles using the `PrintTitleColumns` property of the `PageSetup` object.
 
-**2. Is it possible to define both column and print row titles?**
+#### 2. Is it possible to define both column and print row titles?
 
 Yes, you can set both print column and row titles using the `PrintTitleColumns` and `PrintTitleRows` properties of the `PageSetup` object.
 
-**3. What other layout settings can I customize with Aspose.Cells for .NET?**
+#### 3. What other layout settings can I customize with Aspose.Cells for .NET?
 
 With Aspose.Cells for .NET, you can customize various page layout settings, such as margins, page orientation, print scale, and more.

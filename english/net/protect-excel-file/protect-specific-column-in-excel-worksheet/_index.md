@@ -161,14 +161,14 @@ In this tutorial, we have explained the step-by-step process of protecting a spe
 
 ### Frequently Asked Questions (FAQs)
 
-1. **Can I protect multiple columns using this method?**
-   Yes, you can protect multiple columns by modifying the code accordingly. Simply loop through the desired column range and apply the locking styles and flags.
+#### Can I protect multiple columns using this method?
+Yes, you can protect multiple columns by modifying the code accordingly. Simply loop through the desired column range and apply the locking styles and flags.
 
-2. **Is it possible to password-protect the protected worksheet?**
-   Yes, you can add password protection to the protected worksheet by specifying the password while calling the `Protect` method.
+#### Is it possible to password-protect the protected worksheet?
+Yes, you can add password protection to the protected worksheet by specifying the password while calling the `Protect` method.
 
-3. **Does Aspose.Cells for .NET support other Excel file formats?**
-   Yes, Aspose.Cells for .NET supports various Excel file formats, including XLS, XLSX, XLSM, and more.
+#### Does Aspose.Cells for .NET support other Excel file formats?
+Yes, Aspose.Cells for .NET supports various Excel file formats, including XLS, XLSX, XLSM, and more.
 
-4. **Can I protect specific rows instead of columns?**
-   Yes, you can modify the code to protect specific rows instead of columns by applying the styles and flags to row cells instead of column cells.
+#### Can I protect specific rows instead of columns?
+Yes, you can modify the code to protect specific rows instead of columns by applying the styles and flags to row cells instead of column cells.

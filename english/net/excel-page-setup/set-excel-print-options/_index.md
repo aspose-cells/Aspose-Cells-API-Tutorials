@@ -137,14 +137,14 @@ You have now learned how to set print options for an Excel workbook using Aspose
 ### FAQs
 
 
-**1. Can I further customize print options, such as margins or page orientation?**
+#### 1. Can I further customize print options, such as margins or page orientation?
 
 Yes, Aspose.Cells for .NET offers a wide range of customizable printing options, such as margins, page orientation, scale, etc.
 
-**2. Does Aspose.Cells for .NET support other Excel file formats?**
+#### 2. Does Aspose.Cells for .NET support other Excel file formats?
 
 Yes, Aspose.Cells for .NET supports a variety of Excel file formats, such as XLSX, XLS, CSV, HTML, PDF, etc.
 
-**3. Is Aspose.Cells for .NET compatible with all versions of .NET Framework?**
+#### 3. Is Aspose.Cells for .NET compatible with all versions of .NET Framework?
 
 Aspose.Cells for .NET is compatible with .NET Framework 2.0 or later, including versions 3.5, 4.0, 4.5, 4.6, etc.

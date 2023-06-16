@@ -96,24 +96,24 @@ fstream.Close();
 
 Congratulation ! You have learned how to hide and show a spreadsheet using Aspose.Cells for .NET. You can now use this feature to control the visibility of your spreadsheets in your Excel files.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 You can install Aspose.Cells for .NET by downloading the relevant NuGet package from [Aspose Releases](https://releases/aspose.com/cells/net/) and adding it to your Visual Studio project.
 
-**What is the minimum required version of .NET Framework to use Aspose.Cells for .NET?**
+#### What is the minimum required version of .NET Framework to use Aspose.Cells for .NET?
 
 Aspose.Cells for .NET supports .NET Framework 2.0 and later.
 
-**Can I open and edit existing Excel files with Aspose.Cells for .NET?**
+#### Can I open and edit existing Excel files with Aspose.Cells for .NET?
 
 Yes, you can open and edit existing Excel files using Aspose.Cells for .NET. You can access worksheets, cells, formulas and other elements of the Excel file.
 
-**Does Aspose.Cells for .NET support reporting and exporting to other file formats?**
+#### Does Aspose.Cells for .NET support reporting and exporting to other file formats?
 
 Yes, Aspose.Cells for .NET supports report generation and export to formats like PDF, HTML, CSV, TXT, etc.
 
-**Is the modification of the Excel file permanent?**
+#### Is the modification of the Excel file permanent?
 
 Yes, the Excel file edit is permanent once you save it. Be sure to save a backup copy before making any changes to the original file.

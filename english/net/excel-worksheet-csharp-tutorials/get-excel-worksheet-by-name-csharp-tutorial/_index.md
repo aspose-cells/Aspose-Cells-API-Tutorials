@@ -93,24 +93,24 @@ Console.WriteLine(cell.Value);
 
 In this tutorial, we have covered the step-by-step process to get a specific Excel worksheet by its name using Aspose.Cells for .NET. You can now use this knowledge to manipulate and process data in your Excel files efficiently and accurately.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
-**What is Aspose.Cells for .NET?**
+#### What is Aspose.Cells for .NET?
 
 Aspose.Cells for .NET is a powerful library that allows developers to create, manipulate and convert Excel files in their .NET applications. It offers a wide range of features for working with worksheets, cells, formulas, styles and more.
 
-**How can I install Aspose.Cells for .NET?**
+#### How can I install Aspose.Cells for .NET?
 
 To install Aspose.Cells for .NET, you can download the installation package from the Aspose.Releases (https://releases.aspose.com/cells/net) and follow the instructions provided. You will need a valid license to use the library in your applications.
 
-**Can I get an Excel worksheet using its name in Aspose.Cells for .NET?**
+#### Can I get an Excel worksheet using its name in Aspose.Cells for .NET?
 
 Yes, you can get an Excel worksheet using its name in Aspose.Cells for .NET. You can use the `Worksheets` property of the `Workbook` object and index the name of the worksheet to access it.
 
-**What if the worksheet name does not exist in the Excel file?**
+#### What if the worksheet name does not exist in the Excel file?
 
 If the specified worksheet name does not exist in the Excel file, an exception will be thrown when trying to access that worksheet. Be sure to check that the name of the worksheet is entered correctly and that it exists in the Excel file before accessing it.
 
-**Can I use Aspose.Cells for .NET to manipulate cell data in a worksheet?**
+#### Can I use Aspose.Cells for .NET to manipulate cell data in a worksheet?
 
 Yes, Aspose.Cells for .NET offers many features to manipulate cell data in a worksheet. You can read and write cell values, apply formats, add formulas, merge cells, perform math operations, and more. The library provides a comprehensive interface for working with cell data in Excel.

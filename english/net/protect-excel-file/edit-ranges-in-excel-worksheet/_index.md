@@ -126,16 +126,16 @@ book.Save(dataDir + "protectedrange.out.xls");
 Congratulation ! You learned how to allow users to edit specific ranges in an Excel spreadsheet using Aspose.Cells for .NET. You can now apply this technique in your own projects and improve the security of your Excel files.
 
 
-**FAQs**
+#### FAQs
 
-1. Q: Why should I use Aspose.Cells for .NET to edit ranges in an Excel spreadsheet?
-    - A: Aspose.Cells for .NET offers a powerful and easy to use API for working with Excel files. It provides advanced features, such as range manipulation, worksheet protection, etc.
+#### Q: Why should I use Aspose.Cells for .NET to edit ranges in an Excel spreadsheet?
+A: Aspose.Cells for .NET offers a powerful and easy to use API for working with Excel files. It provides advanced features, such as range manipulation, worksheet protection, etc.
 
-2. Q: Can I set multiple editable ranges in a worksheet?
-    - A: Yes, you can define multiple editable ranges using the `Add` method of the `ProtectedRangeCollection` collection. Each range can have its own protection settings.
+#### Q: Can I set multiple editable ranges in a worksheet?
+A: Yes, you can define multiple editable ranges using the `Add` method of the `ProtectedRangeCollection` collection. Each range can have its own protection settings.
 
-3. Q: Is it possible to delete an editable range after defining it?
-    - A: Yes, you can use the `RemoveAt` method of the `ProtectedRangeCollection` collection to remove a specific editable range by specifying its index.
+####  Q: Is it possible to delete an editable range after defining it?
+A: Yes, you can use the `RemoveAt` method of the `ProtectedRangeCollection` collection to remove a specific editable range by specifying its index.
 
-4. Q: How can I open the protected Excel file after saving it?
-    - A: You will need to provide the password specified when creating the protected range to open the protected Excel file. Be sure to keep the password in a safe place to prevent loss of access to data.
+#### Q: How can I open the protected Excel file after saving it?
+A: You will need to provide the password specified when creating the protected range to open the protected Excel file. Be sure to keep the password in a safe place to prevent loss of access to data.
