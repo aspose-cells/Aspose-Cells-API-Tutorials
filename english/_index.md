@@ -15,5 +15,7 @@ Aspose.Cells for .NET tutorials and code-snippets for creating, editing, convert
 
 These are links to some useful resources:
  
-
-
+- [Excel Worksheet](./net/excel-worksheet-csharp-tutorials/)
+- [Excel Display Settings](./net/excel-display-settings-csharp-tutorials)
+- [Excel Page Setup](./net/excel-page-setup)
+- [Protect Excel File](./net/protect-excel-file/)
