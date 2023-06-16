@@ -68,7 +68,7 @@ Aspose.Cells for .NET is a powerful library for manipulating Excel files in .NET
 
 **How can I install Aspose.Cells for .NET?**
 
-To install Aspose.Cells for .NET, you need to download the relevant package from Aspose official website and add it to your .NET project.
+To install Aspose.Cells for .NET, you need to download the relevant package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
 **How to display the tab of an Excel spreadsheet using Aspose.Cells for .NET?**
 
@@ -78,6 +78,3 @@ You can use the `ShowTabs` property of the `Workbook.Settings` object and set it
 
 Aspose.Cells for .NET supports a variety of Excel file formats, such as XLS, XLSX, CSV, HTML, PDF, etc.
 
-**Is there a free trial version of Aspose.Cells for .NET?**
-
-Yes, you can download a free trial version of Aspose.Cells for .NET from the official website and try it in your project before you decide to buy it.

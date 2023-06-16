@@ -1,6 +1,6 @@
 ---
 title: Delete Excel Worksheet By Name C# Tutorial
-linktitle: Delete Excel Worksheet By Name C# Tutorial
+linktitle: Delete Excel Worksheet By Name
 second_title: Aspose.Cells for .NET API Reference
 description: Easily delete a specific Excel worksheet by name using Aspose.Cells for .NET. Detailed tutorial with code examples.
 type: docs

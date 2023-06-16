@@ -1,6 +1,6 @@
 ---
 title: Excel Worksheet C# Tutorials
-linktitle: Excel Worksheet C# Tutorials
+linktitle: Excel Worksheet
 type: docs
 weight: 12
 url: /net/excel-worksheet-csharp-tutorials/

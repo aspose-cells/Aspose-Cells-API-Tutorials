@@ -1,6 +1,6 @@
 ---
 title: Get Excel Worksheet By Name C# Tutorial
-linktitle: Get Excel Worksheet By Name C# Tutorial
+linktitle: Get Excel Worksheet By Name
 second_title: Aspose.Cells for .NET API Reference
 description: Learn how to get an Excel worksheet by name using Aspose.Cells for .NET. Step by step tutorial with code examples.
 type: docs

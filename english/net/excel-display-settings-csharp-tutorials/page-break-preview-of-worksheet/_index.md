@@ -105,10 +105,6 @@ In this tutorial, you learned how to display the page break preview of an worksh
 
 Aspose.Cells for .NET is a popular software library for manipulating Excel files in .NET applications.
 
-**Where can I find documentation for Aspose.Cells for .NET?**
-
-Full documentation of Aspose.Cells for .NET is available on Aspose official website.
-
 **Can I show the page-by preview for a specific worksheet instead of the whole worksheet?**
 
 Yes, using Aspose.Cells you can enable page break preview for a specific worksheet by accessing the corresponding Worksheet object.

@@ -88,11 +88,3 @@ Aspose.Cells for .NET supports a wide range of commonly used paper sizes, such a
 **Can I customize the paper size of a spreadsheet with Aspose.Cells for .NET?**
 
 Yes, you can set a custom paper size by specifying the exact width and height dimensions using the `PaperWidth` and `PaperHeight` properties of the `PageSetup` class.
-
-**How can I download Aspose.Cells for .NET?**
-
-You can download Aspose.Cells for .NET from Aspose official website at: [https://www.aspose.com/en/cells/net](https://www.aspose .com/fr/cells/net)
-
-**Is there any sample code and documentation for using Aspose.Cells for .NET?**
-
-Yes, Aspose.Cells for .NET has extensive documentation and many code examples available on the Aspose site. You can consult the documentation and examples to learn how to use all the features offered by the library.

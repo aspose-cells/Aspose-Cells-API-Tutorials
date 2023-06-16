@@ -78,7 +78,7 @@ Aspose.Cells for .NET is a powerful library for manipulating Excel files in .NET
 
 **How can I install Aspose.Cells for .NET?**
 
-To install Aspose.Cells for .NET, you need to download the relevant package from Aspose official website and add it to your .NET project.
+To install Aspose.Cells for .NET, you need to download the relevant package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
 **How to lock panes in an Excel worksheet using Aspose.Cells for .NET?**
 
@@ -88,6 +88,3 @@ You can use the `FreezePanes` method of the `Worksheet` object to lock the panes
 
 Yes, using the `FreezePanes` method, you can specify which cells to lock as needed, providing the appropriate row and column indices.
 
-**Is there a free trial version of Aspose.Cells for .NET?**
-
-Yes, you can download a free trial version of Aspose.Cells for .NET from the official website and try it in your project before you decide to buy it.

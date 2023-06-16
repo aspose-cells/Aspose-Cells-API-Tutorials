@@ -74,7 +74,7 @@ Congratulation ! You have learned how to hide and show a spreadsheet using Aspos
 
 **How can I install Aspose.Cells for .NET?**
 
-You can install Aspose.Cells for .NET by downloading the relevant NuGet package and adding it to your Visual Studio project.
+You can install Aspose.Cells for .NET by downloading the relevant NuGet package from [Aspose Releases](https://releases/aspose.com/cells/net/) and adding it to your Visual Studio project.
 
 **What is the minimum required version of .NET Framework to use Aspose.Cells for .NET?**
 

@@ -81,7 +81,7 @@ Aspose.Cells for .NET is a feature-rich filing library for manipulating Excel fi
 
 **How can I install Aspose.Cells for .NET?**
 
-To install Aspose.Cells for .NET, you need to download the corresponding NuGet package and add it to your .NET project.
+To install Aspose.Cells for .NET, you need to download the corresponding NuGet package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
 **What features does Aspose.Cells for .NET offer?**
 

@@ -77,7 +77,7 @@ Aspose.Cells for .NET is a powerful library for manipulating Excel files in .NET
 
 **How can I install Aspose.Cells for .NET?**
 
-To install Aspose.Cells for .NET, you need to download the relevant package from Aspose official website and add it to your .NET project.
+To install Aspose.Cells for .NET, you need to download the relevant package from [Aspose Releases](https://releases/aspose.com/cells/net/) and add it to your .NET project.
 
 **How can I show or hide gridlines in an Excel spreadsheet with Aspose.Cells for .NET?**
 
@@ -87,6 +87,4 @@ You can use the `IsGridlinesVisible` property of the `Worksheet` object to show 
 
 Aspose.Cells for .NET supports various Excel file formats, such as XLS, XLSX, CSV, HTML, PDF, and many more.
 
-**Is there a free trial version of Aspose.Cells for .NET?**
 
-Yes, you can download a free trial version of Aspose.Cells for .NET from the official website and try it in your project before you decide to buy it.

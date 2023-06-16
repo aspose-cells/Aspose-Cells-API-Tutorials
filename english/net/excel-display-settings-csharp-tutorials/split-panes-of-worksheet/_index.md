@@ -86,10 +86,6 @@ In this tutorial, you learned how to split panes in an Excel worksheet using Asp
 
 Aspose.Cells for .NET is a popular software library for manipulating Excel files in .NET applications.
 
-**Where can I find documentation for Aspose.Cells for .NET?**
-
-Full documentation of Aspose.Cells for .NET is available on Aspose official website.
-
 **How can I set the active cell of a worksheet in Aspose.Cells?**
 
 You can set the active cell using the `ActiveCell` property of the Worksheet object.

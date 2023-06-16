@@ -1,6 +1,6 @@
 ---
 title: Add Excel Worksheet To Existing Workbook C# Tutorial
-linktitle: Add Excel Worksheet To Existing Workbook C# Tutorial
+linktitle: Add Excel Worksheet To Existing Workbook
 second_title: Aspose.Cells for .NET API Reference
 description: Easily add a new sheet to an existing Excel workbook using Aspose.Cells for .NET. Step by step tutorial with code examples.
 type: docs

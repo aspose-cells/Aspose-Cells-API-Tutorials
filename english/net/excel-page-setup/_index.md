@@ -2,11 +2,14 @@
 title: Excel Page Setup
 linktitle: Excel Page Setup
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: Check out the Aspose.Cells for .NET tutorials on setting up Excel's page layout. Customize your Excel files with ease.
 type: docs
 weight: 12
 url: /net/excel-page-setup/
 ---
+Check out tutorials on setting up Excel layout and page setup with Aspose.Cells for .NET. These detailed tutorials will guide you step by step to customize the layout and page setup of your Excel files using C# source code. You'll learn how to set page size and orientation, set margins, add headers and footers, manage print options, and more. With Aspose.Cells, you can easily control all aspects of the layout of your Excel files, allowing you to create personalized professional reports and documents.
+
+Whether you need to create invoices, financial reports, dashboards, or any other Excel document, these tutorials will give you the knowledge to manipulate the layout to suit your needs. Explore the powerful features of Aspose.Cells to customize and optimize the layout of your Excel files, and create professional, well-structured documents with ease.
 
 ## Tutorials 
 | Title | Description |

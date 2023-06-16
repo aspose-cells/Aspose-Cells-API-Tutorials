@@ -1,6 +1,6 @@
 ---
 title: Add New Sheet In Excel C# Tutorial
-linktitle: Add New Sheet In Excel C# Tutorial
+linktitle: Add New Sheet In Excel
 second_title: Aspose.Cells for .NET API Reference
 description: Learn how to add a new sheet in Excel using Aspose.Cells for .NET. Step by step tutorial with source code in C#.
 type: docs
