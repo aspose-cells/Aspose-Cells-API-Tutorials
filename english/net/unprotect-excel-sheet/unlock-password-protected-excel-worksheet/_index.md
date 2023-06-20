@@ -2,7 +2,7 @@
 title: Unlock Password Protected Excel Worksheet
 linktitle: Unlock Password Protected Excel Worksheet
 second_title: Aspose.Cells for .NET API Reference
-description: Learn how to unlock a protected Excel spreadsheet using Aspose.Cells for .NET. Step by step tutorial in C#.
+description: Learn how to unlock a password protected Excel spreadsheet using Aspose.Cells for .NET. Step by step tutorial in C#.
 type: docs
 weight: 10
 url: /net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
