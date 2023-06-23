@@ -19,3 +19,9 @@ Whether you're a beginner or an experienced developer, Aspose.Cells for .NET tut
 | [Excel Display Settings](./excel-display-settings-csharp-tutorials) | Check out Aspose.Cells C# tutorials to customize the Excel display. Change fonts, colors, formats and create attractive reports. |
 | [Excel Page Setup](./excel-page-setup) | Check out the Aspose.Cells for .NET tutorials on setting up Excel's page layout. Customize your Excel files with ease. |
 | [Protect Excel File](./protect-excel-file/) | Check out the Aspose.Cells for .NET tutorials on protecting Excel files. Learn how to secure your confidential data with C#. |
+| [Excel Workbook](./excel-workbook/) | Explore Aspose.Cells for .NET tutorials to master working with Excel workbooks using step-by-step code examples. |
+| [Excel Copy Worksheet](./excel-copy-worksheet/) | Learn how to copy and customize Excel spreadsheets with Aspose.Cells for .NET. Detailed tutorials to master data manipulation and formatting. |
+| [Excel Page Breaks](./excel-page-breaks/) | Check out detailed tutorials on Excel page breaks with Aspose.Cells for .NET. Improve the layout of your Excel workbooks with ease. |
+| [Unprotect Excel Sheet](./unprotect-excel-sheet/) | Learn how to unprotect an Excel spreadsheet using Aspose.Cells for .NET. Detailed tutorials for developers in C#. |
+| [Excel Security](./excel-security/) | Discover comprehensive Excel security tutorials with Aspose.Cells for .NET. Protect your Excel files and control access to sensitive data. |
+| [Unprotect Excel Sheet](./unprotect-excel-sheet/) | Learn how to unprotect an Excel spreadsheet using Aspose.Cells for .NET. Detailed tutorials for developers in C#. |
