@@ -61,12 +61,12 @@ Filtering defined names when loading an Excel workbook can be critical for many 
 
 #### Q: Does Aspose.Cells support other programming languages besides C#?
     
-	 A: Yes, Aspose.Cells is a cross-platform library that supports many programming languages such as Java, Python, C++, and many more.
+A: Yes, Aspose.Cells is a cross-platform library that supports many programming languages such as Java, Python, C++, and many more.
 
 #### Q: Can I filter other data types when loading a workbook with Aspose.Cells?
     
-	 A: Yes, Aspose.Cells offers a range of filtering options for data including formulas, styles, macros, etc.
+A: Yes, Aspose.Cells offers a range of filtering options for data including formulas, styles, macros, etc.
 
 #### Q: Does Aspose.Cells retain the formatting and properties of the original workbook?
     
-	 A: Yes, Aspose.Cells retains formatting, styles, formulas and other properties of the original workbook when working with Excel files.
+A: Yes, Aspose.Cells retains formatting, styles, formulas and other properties of the original workbook when working with Excel files.

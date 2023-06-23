@@ -87,12 +87,12 @@ Congratulation ! You have learned how to use the Aspose.Cells library for .NET t
 
 #### Q: What is Xades?
 
-	 A: Xades is an advanced electronic signature standard used to ensure the integrity and authenticity of digital documents.
+A: Xades is an advanced electronic signature standard used to ensure the integrity and authenticity of digital documents.
 
 #### Q: Can I use other types of digital signatures with Aspose.Cells?
 
-	 A: Yes, Aspose.Cells also supports other types of digital signatures, such as XMLDSig signatures and PKCS#7 signatures.
+A: Yes, Aspose.Cells also supports other types of digital signatures, such as XMLDSig signatures and PKCS#7 signatures.
 
 #### Q: Can I apply a signature to other file types than Excel files?
  
-	 A: Yes, Aspose.Cells also allows applying digital signatures to other supported file types such as Word, PDF and PowerPoint files.
+A: Yes, Aspose.Cells also allows applying digital signatures to other supported file types such as Word, PDF and PowerPoint files.

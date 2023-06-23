@@ -77,21 +77,21 @@ Generating the print preview of a workbook is a powerful feature offered by Aspo
 
 #### Q: How can I specify a different source directory to load my Workbook?
     
-	 A: You can use the `Set_SourceDirectory` method to specify a different source directory. For example: `RunExamples.Set_SourceDirectory("Path_to_the_source_directory")`.
+A: You can use the `Set_SourceDirectory` method to specify a different source directory. For example: `RunExamples.Set_SourceDirectory("Path_to_the_source_directory")`.
 
 #### Q: Can I customize the image and print options when generating the print preview?
     
-	 A: Yes, you can customize image and print options by changing the properties of the `ImageOrPrintOptions` object. For example, you can set image resolution, output file format, etc.
+A: Yes, you can customize image and print options by changing the properties of the `ImageOrPrintOptions` object. For example, you can set image resolution, output file format, etc.
 
 #### Q: Is it possible to generate a print preview for multiple worksheets in a Workbook?
     
-	 A: Yes, you can iterate over the different worksheets in the Workbook and generate a print preview for each sheet using the `SheetPrintingPreview` class.
+A: Yes, you can iterate over the different worksheets in the Workbook and generate a print preview for each sheet using the `SheetPrintingPreview` class.
 
 #### Q: How do I save the print preview as an image or PDF file?
     
-	 A: You can use `ToImage` or `ToPdf` method of `WorkbookPrintingPreview` or `SheetPrintingPreview` object to save print preview as image or PDF file.
+A: You can use `ToImage` or `ToPdf` method of `WorkbookPrintingPreview` or `SheetPrintingPreview` object to save print preview as image or PDF file.
 
 #### Q: What can I do with the print preview once generated?
     
-	 A: Once you have generated the print preview, you can view it on screen, save it as an image or PDF file, or use it for other operations such as sending by email or print.
+A: Once you have generated the print preview, you can view it on screen, save it as an image or PDF file, or use it for other operations such as sending by email or print.
 	

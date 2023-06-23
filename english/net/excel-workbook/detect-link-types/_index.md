@@ -91,28 +91,28 @@ Congratulation ! You have learned how to detect link types in an Excel workbook 
 
 #### Q: How can I install Aspose.Cells for .NET in my project?
 
-	 A: You can install Aspose.Cells for .NET using the NuGet package manager. Search for [Aspose Releases](https://releases.aspose.com/cells/net) in the NuGet Package Manager Console and install the latest version.
+A: You can install Aspose.Cells for .NET using the NuGet package manager. Search for [Aspose Releases](https://releases.aspose.com/cells/net) in the NuGet Package Manager Console and install the latest version.
 
 #### Q: Can I detect link types in specific worksheets rather than the first sheet?
 
-	 A: Yes, you can modify the `workbook.Worksheets[0]` index to access a specific worksheet. For example, to access the second sheet, use `workbook.Worksheets[1]`.
+A: Yes, you can modify the `workbook.Worksheets[0]` index to access a specific worksheet. For example, to access the second sheet, use `workbook.Worksheets[1]`.
 
 #### Q: Is it possible to modify the types of links detected in the range?
 
-	 A: Yes, you can browse hyperlinks and perform editing operations, such as updating URLs or removing unwanted links.
+A: Yes, you can browse hyperlinks and perform editing operations, such as updating URLs or removing unwanted links.
 
 #### Q: What types of links are possible in Aspose.Cells for .NET?
 
-	 A: Possible link types include hyperlinks, links to other worksheets, links to external files, links to websites, etc.
+A: Possible link types include hyperlinks, links to other worksheets, links to external files, links to websites, etc.
 
 #### Q: Does Aspose.Cells for .NET support creating new links in a spreadsheet?
 
-	 A: Yes, Aspose.Cells for .NET supports creating new links using the `Hyperlink` class and its associated properties. You can add hyperlinks, links to URLs, links to other spreadsheets, etc.
+A: Yes, Aspose.Cells for .NET supports creating new links using the `Hyperlink` class and its associated properties. You can add hyperlinks, links to URLs, links to other spreadsheets, etc.
 
 #### Q: Can I use Aspose.Cells for .NET in web applications?
 
-	 A: Yes, Aspose.Cells for .NET can be used in web applications. You can embed it in ASP.NET, ASP.NET Core, and other .NET-based web frameworks.
+A: Yes, Aspose.Cells for .NET can be used in web applications. You can embed it in ASP.NET, ASP.NET Core, and other .NET-based web frameworks.
 
 #### Q: Are there any file size limits when using Aspose.Cells for .NET?
 
-	 A: Aspose.Cells for .NET can process large Excel workbooks without specific limitation. However, the actual file size may be limited by available system resources.
+A: Aspose.Cells for .NET can process large Excel workbooks without specific limitation. However, the actual file size may be limited by available system resources.

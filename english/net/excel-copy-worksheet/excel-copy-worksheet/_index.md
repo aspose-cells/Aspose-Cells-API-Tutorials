@@ -93,16 +93,16 @@ Congratulation ! You have now learned how to copy an Excel worksheet using Aspos
 
 #### Q. Is Aspose.Cells compatible with other programming languages?
 
-	 A. Yes, Aspose.Cells supports multiple programming languages including C#, Java, Python and many more.
+A. Yes, Aspose.Cells supports multiple programming languages including C#, Java, Python and many more.
 
 #### Q. Can I copy a worksheet to another Excel workbook?
 
-     A. Yes, you can use the `AddCopy` method to copy a worksheet to another Excel workbook.
+A. Yes, you can use the `AddCopy` method to copy a worksheet to another Excel workbook.
 
 #### Q. Does Aspose.Cells preserve formulas and formatting when copying the worksheet?
 
-	 A. Yes, Aspose.Cells preserves formulas, formatting and other properties when copying a worksheet.
+A. Yes, Aspose.Cells preserves formulas, formatting and other properties when copying a worksheet.
 
 #### Q. Does Aspose.Cells require a license for commercial use?
 
-     A. Yes, Aspose.Cells is a commercial product and requires the purchase of a license for commercial use. You can find more licensing information on Aspose's official website.
+A. Yes, Aspose.Cells is a commercial product and requires the purchase of a license for commercial use. You can find more licensing information on Aspose's official website.

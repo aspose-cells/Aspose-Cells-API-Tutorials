@@ -66,20 +66,20 @@ Congratulation ! You learned how to create a shared workbook using Aspose.Cells 
 
 #### Q: What is a shared workbook?
 
-	 A: A shared workbook is an Excel workbook that can be used simultaneously by multiple users to collaborate on data. Each user can make changes to the workbook and other users will see updates in real time.
+A: A shared workbook is an Excel workbook that can be used simultaneously by multiple users to collaborate on data. Each user can make changes to the workbook and other users will see updates in real time.
 
 #### Q: How to enable sharing of a workbook in Aspose.Cells for .NET?
 
-	 A: To enable sharing of a workbook in Aspose.Cells for .NET, you must set the `Shared` property of the Workbook object to `true`. This will allow users to work on the workbook simultaneously.
+A: To enable sharing of a workbook in Aspose.Cells for .NET, you must set the `Shared` property of the Workbook object to `true`. This will allow users to work on the workbook simultaneously.
 
 #### Q: Can I restrict user permissions in a shared workbook?
 
-	 A: Yes, you can restrict user permissions in a shared workbook using Excel's security features. You can set specific permissions for each user, such as the ability to edit, read only, etc.
+A: Yes, you can restrict user permissions in a shared workbook using Excel's security features. You can set specific permissions for each user, such as the ability to edit, read only, etc.
 
 #### Q: How can I share the workbook with other users?
 
-	 A: Once you have created the shared workbook, you can share it with other users by sending them the Excel file. Other users will be able to open the file and work on it simultaneously.
+A: Once you have created the shared workbook, you can share it with other users by sending them the Excel file. Other users will be able to open the file and work on it simultaneously.
 
 #### Q: Are all Excel features supported in a shared workbook?
 
-	 A: Most Excel features are supported in a shared workbook. However, some advanced features, such as macros and add-ins, may have limitations or restrictions when used in a shared workbook.
+A: Most Excel features are supported in a shared workbook. However, some advanced features, such as macros and add-ins, may have limitations or restrictions when used in a shared workbook.

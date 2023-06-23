@@ -113,20 +113,20 @@ Congratulation ! You have now learned how to add a digital signature to an alrea
 
 #### Q: What is Aspose.Cells for .NET?
 
-	 A: Aspose.Cells for .NET is a powerful class library that allows .NET developers to create, modify, convert and manipulate Excel files with ease.
+A: Aspose.Cells for .NET is a powerful class library that allows .NET developers to create, modify, convert and manipulate Excel files with ease.
 
 #### Q: What is a digital signature in an Excel file?
 
-	 A: A digital signature in an Excel file is an electronic mark that guarantees the authenticity, integrity and origin of the document. It is used to verify that the file has not been modified since it was signed and comes from a reliable source.
+A: A digital signature in an Excel file is an electronic mark that guarantees the authenticity, integrity and origin of the document. It is used to verify that the file has not been modified since it was signed and comes from a reliable source.
 
 #### Q: What are the benefits of adding a digital signature to an Excel file?
 
-	 A: Adding a digital signature to an Excel file provides several benefits, including protection against unauthorized changes, ensuring data integrity, authenticating the author of the document, and providing confidence in the information 'it contains.
+A: Adding a digital signature to an Excel file provides several benefits, including protection against unauthorized changes, ensuring data integrity, authenticating the author of the document, and providing confidence in the information 'it contains.
 
 #### Q: Can I add multiple digital signatures to an Excel file?
 
-	 A: Yes, Aspose.Cells allows you to add multiple digital signatures to an Excel file. You can create a collection of digital signatures and add them to the file in one operation.
+A: Yes, Aspose.Cells allows you to add multiple digital signatures to an Excel file. You can create a collection of digital signatures and add them to the file in one operation.
 
 #### Q: What are the requirements for adding a digital signature to an Excel file?
 
-	 A: To add a digital signature to an Excel file, you need a valid digital certificate which will be used to sign the document. Make sure you have the correct certificate and password before adding the digital signature.
+A: To add a digital signature to an Excel file, you need a valid digital certificate which will be used to sign the document. Make sure you have the correct certificate and password before adding the digital signature.

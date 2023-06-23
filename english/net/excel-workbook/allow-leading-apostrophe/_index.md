@@ -120,20 +120,20 @@ Congratulation ! You learned how to allow the use of a leading apostrophe in an 
 
 #### Q: What is leading apostrophe permission in an Excel workbook?
 
-	 A: Allowing the initial apostrophe in an Excel workbook allows data that begins with an apostrophe to be displayed correctly without converting it to a text style. This is useful when you want to keep the apostrophe as part of the data.
+A: Allowing the initial apostrophe in an Excel workbook allows data that begins with an apostrophe to be displayed correctly without converting it to a text style. This is useful when you want to keep the apostrophe as part of the data.
 
 #### Q: Why do I need to turn off automatic conversion of initial apostrophes?
 
-	 A: By disabling the automatic conversion of leading quotes, you can preserve their use as it is in your data. This avoids any unintended modification of the data while opening or manipulating the Excel workbook.
+A: By disabling the automatic conversion of leading quotes, you can preserve their use as it is in your data. This avoids any unintended modification of the data while opening or manipulating the Excel workbook.
 
 #### Q: How to set datasource in designer workbook?
 
-	 A: To set the data source in the designer workbook, you can use the `SetDataSource` method specifying the name of the data source and a list of corresponding data objects.
+A: To set the data source in the designer workbook, you can use the `SetDataSource` method specifying the name of the data source and a list of corresponding data objects.
 
 #### Q: Does allowing leading apostrophe affect other data in Excel workbook?
 
-	 A: No, allowing the leading apostrophe only affects data beginning with an apostrophe. Other data in the Excel workbook remains unchanged.
+A: No, allowing the leading apostrophe only affects data beginning with an apostrophe. Other data in the Excel workbook remains unchanged.
 
 #### Q: Can I use this feature with other Excel file formats?
 
-	 A: Yes, you can use this feature with other Excel file formats supported by Aspose.Cells, such as .xls, .xlsm, etc.
+A: Yes, you can use this feature with other Excel file formats supported by Aspose.Cells, such as .xls, .xlsm, etc.

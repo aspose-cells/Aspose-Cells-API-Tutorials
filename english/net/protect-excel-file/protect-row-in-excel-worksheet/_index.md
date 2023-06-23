@@ -148,16 +148,21 @@ Congratulation ! You now have C# source code that allows you to protect rows in 
 ### FAQs (Frequently Asked Questions)
 
 #### Does this code work with recent versions of Excel?
+
 Yes, this code works with recent versions of Excel, including files in Excel 2010 and above format.
 
 #### Can I protect only specific rows instead of all rows in the worksheet?
+
 Yes, you can modify the code to specify the specific rows you want to protect. You will need to adjust the loop and indices accordingly.
 
 #### How can I unlock locked lines again?
+
 You can use the `IsLocked` method of the `Style` object to set the value to `false` and unlock the rows.
 
 #### Is it possible to protect multiple worksheets in the same Excel workbook?
+
 Yes, you can repeat the steps of creating a worksheet, setting the style and protecting for each worksheet in the workbook.
 
 #### How can I change the spreadsheet protection password?
+
 You can change the password using the `Protect` method and specifying a new password as an argument.

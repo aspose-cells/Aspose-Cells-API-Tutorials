@@ -98,7 +98,7 @@ Yes, Aspose.Cells supports multiple programming languages such as Java, Python, 
 
 #### Can I add formatting to cells in the newly created worksheet?
 
-A: Yes, you can apply formatting to cells using the methods provided by the Worksheet class of Aspose.Cells. You can set the cell style, change the background color, apply borders, etc.
+Yes, you can apply formatting to cells using the methods provided by the Worksheet class of Aspose.Cells. You can set the cell style, change the background color, apply borders, etc.
 
 #### How can I access cell data from the new worksheet?
 

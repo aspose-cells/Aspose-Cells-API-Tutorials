@@ -72,16 +72,16 @@ Protecting or unprotecting a shared workbook with a password is essential to ens
 
 #### Q: What types of protection can I apply to a workbook shared with Aspose.Cells?
     
-	 A: With Aspose.Cells, you can protect a shared workbook by specifying a password to prevent unauthorized access, modification or deletion of data.
+A: With Aspose.Cells, you can protect a shared workbook by specifying a password to prevent unauthorized access, modification or deletion of data.
 
 #### Q: Can I protect a shared workbook without specifying a password?
     
-	 A: Yes, you can protect a shared workbook without specifying a password. However, it is recommended to use a strong password for better security.
+A: Yes, you can protect a shared workbook without specifying a password. However, it is recommended to use a strong password for better security.
 
 #### Q: How can I unprotect a workbook shared with Aspose.Cells?
     
-	 A: To unprotect a shared workbook, you must specify the same password that was used when protecting the workbook. This allows the protection to be removed and the data to be freely accessed.
+A: To unprotect a shared workbook, you must specify the same password that was used when protecting the workbook. This allows the protection to be removed and the data to be freely accessed.
 
 #### Q: Does protecting a shared workbook affect the features and formulas in the workbook?
     
-	 A: When you protect a shared workbook, users can still access features and formulas present in the workbook. Protection only affects structural changes to the workbook.
+A: When you protect a shared workbook, users can still access features and formulas present in the workbook. Protection only affects structural changes to the workbook.

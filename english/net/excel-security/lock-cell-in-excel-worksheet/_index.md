@@ -83,20 +83,20 @@ In this step by step guide, we have explained how to lock a cell in an Excel spr
 
 #### Q. Can I lock multiple cells in an Excel worksheet?
 	 
-	 A. Yes, you can lock as many cells as you need using the method described in this guide. You just need to repeat steps 4 and 5 for each cell you want to lock.
+A. Yes, you can lock as many cells as you need using the method described in this guide. You just need to repeat steps 4 and 5 for each cell you want to lock.
 
 #### Q. How can I unlock a locked cell in an Excel worksheet?
 
-	 A. To unlock a locked cell, you can use the `IsLocked` method and set it to `false`. Make sure you navigate to the correct cell in the spreadsheet.
+A. To unlock a locked cell, you can use the `IsLocked` method and set it to `false`. Make sure you navigate to the correct cell in the spreadsheet.
 
 #### Q. Can I protect an Excel spreadsheet with a password?
 
-	 A. Yes, Aspose.Cells offers the possibility to protect an Excel spreadsheet with a password. You can use the `Protect` method by specifying the protection type `ProtectionType.All` and providing a password.
+A. Yes, Aspose.Cells offers the possibility to protect an Excel spreadsheet with a password. You can use the `Protect` method by specifying the protection type `ProtectionType.All` and providing a password.
 
 #### Q. Can I apply styles to locked cells?
 
-	 A. Yes, you can apply styles to locked cells using the functionality provided by Aspose.Cells. You can set font styles, formatting, border styles, etc., for locked cells.
+A. Yes, you can apply styles to locked cells using the functionality provided by Aspose.Cells. You can set font styles, formatting, border styles, etc., for locked cells.
 
 #### Q. Can I lock a range of cells rather than a single cell?
 
-	 A. Yes, you can lock a range of cells using the same steps described in this guide. Instead of specifying a single cell, you can specify a range of cells, for example: `worksheet.Cells["A1:B5"].GetStyle().IsLocked = true;`.
+A. Yes, you can lock a range of cells using the same steps described in this guide. Instead of specifying a single cell, you can specify a range of cells, for example: `worksheet.Cells["A1:B5"].GetStyle().IsLocked = true;`.

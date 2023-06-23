@@ -84,22 +84,22 @@ In this article, we learned how to copy page configuration settings from one wor
 
 ### FAQs
 
-Q: Can I copy page configuration settings between different workbook instances?
+#### Q: Can I copy page configuration settings between different workbook instances?
 
 A: Yes, you can copy page setup settings between different workbook instances using the `PageSetup.Copy` method of the Aspose.Cells library.
 
-Q: Can I copy other page setup settings, like orientation or margins?
+#### Q: Can I copy other page setup settings, like orientation or margins?
 
 A: Yes, you can copy other page setup settings using the `PageSetup.Copy` method with the appropriate options. For example, you can copy orientation using `CopyOptions.Orientation` and margins using `CopyOptions.Margins`.
 
-Q: How do I know what options are available for paper size?
+#### Q: How do I know what options are available for paper size?
 
 A: You can check the Aspose.Cells library API Reference for available options for paper size. There is an enum called `PaperSizeType` which lists the different supported paper sizes.
 
-Q: How can I download the Aspose.Cells library for .NET?
+#### Q: How can I download the Aspose.Cells library for .NET?
 
 A: You can download Aspose.Cells library for .NET from [Aspose Releases](https://releases.aspose.com/cells/net). There are free trial versions available, as well as paid licenses for commercial use.
 
-Q: Does the Aspose.Cells library support other programming languages?
+#### Q: Does the Aspose.Cells library support other programming languages?
 
 A: Yes, the Aspose.Cells library supports multiple programming languages including C#, Java, Python, and many more.

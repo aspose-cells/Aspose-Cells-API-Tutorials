@@ -82,12 +82,12 @@ Congratulation ! You learned how to work with content type properties using Aspo
 
 #### Q: Are content type properties compatible with all versions of Excel?
 
-	 A: Yes, content type properties are compatible with Excel files created in all versions of Excel.
+A: Yes, content type properties are compatible with Excel files created in all versions of Excel.
 
 #### Q: Can I edit content type properties after adding them to the Excel workbook?
 
-	 A: Yes, you can change the content type properties at any time by going to the `ContentTypeProperties` collection of the `Workbook` class and using the and p methodsappropriate properties.
+A: Yes, you can change the content type properties at any time by going to the `ContentTypeProperties` collection of the `Workbook` class and using the and p methodsappropriate properties.
 
 #### Q: Are content type properties supported when saving to PDF?
 
-	 A: No, content type properties are not supported when saving to PDF. They are specific to Excel files.
+A: No, content type properties are not supported when saving to PDF. They are specific to Excel files.

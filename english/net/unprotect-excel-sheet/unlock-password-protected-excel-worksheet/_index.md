@@ -93,7 +93,9 @@ Feel free to further explore the features offered by Aspose.Cells for more advan
 ### FAQs
 
 #### Q: What if the spreadsheet is password protected?
+
 A: If the spreadsheet is password protected, you must provide the appropriate password in the `Unprotect()` method to be able to unlock it.
 
 #### Q: Are there any restrictions or precautions when unlocking a protected Excel spreadsheet?
+
 A: Yes, make sure you have the necessary permissions to unlock the spreadsheet. Also, be sure to follow your organization's security policies when using this feature.

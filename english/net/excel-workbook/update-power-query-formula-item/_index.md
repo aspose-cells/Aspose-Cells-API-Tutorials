@@ -91,15 +91,15 @@ Updating Power Query formula elements is an essential operation when using Aspos
 
 #### Q: What is Power Query in Excel?
      
-	 A: Power Query is a feature in Excel that helps collect, transform, and load data from different sources. It offers powerful tools to clean, combine and reshape data before importing it into Excel.
+A: Power Query is a feature in Excel that helps collect, transform, and load data from different sources. It offers powerful tools to clean, combine and reshape data before importing it into Excel.
 
 #### Q: How do I know if a Power Query formula item was updated successfully?
     A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
 
 #### Q: Can I update multiple Power Query formula items at once?
     
-	 A: Yes, you can loop through the Power Query formula item collection and update multiple items in a single loop, depending on your specific needs.
+A: Yes, you can loop through the Power Query formula item collection and update multiple items in a single loop, depending on your specific needs.
 
 #### Q: Are there other operations I can perform on Power Query formulas with Aspose.Cells?
     
-	 A: Yes, Aspose.Cells offers a full range of features for working with Power Query formulas, including creating, deleting, copying and searching formulas in an Excel workbook.
+A: Yes, Aspose.Cells offers a full range of features for working with Power Query formulas, including creating, deleting, copying and searching formulas in an Excel workbook.

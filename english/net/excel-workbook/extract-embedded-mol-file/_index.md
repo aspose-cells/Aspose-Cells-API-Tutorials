@@ -80,12 +80,12 @@ Congratulation ! You have learned how to extract an embedded MOL file from an Ex
 
 #### Q: What is a MOL file?
  
-	 A: A MOL file is a file format used to represent chemical structures in computational chemistry. It contains information about atoms, bonds and other molecular properties.
+A: A MOL file is a file format used to represent chemical structures in computational chemistry. It contains information about atoms, bonds and other molecular properties.
 
 #### Q: Does this method work with all Excel file types?
 
-	 A: Yes, this method works with all Excel file types supported by Aspose.Cells.
+A: Yes, this method works with all Excel file types supported by Aspose.Cells.
 
 #### Q: Can I extract multiple MOL files at once?
 
-	 A: Yes, you can extract multiple MOL files at once by iterating through OLE objects on each sheet in the workbook.
+A: Yes, you can extract multiple MOL files at once by iterating through OLE objects on each sheet in the workbook.

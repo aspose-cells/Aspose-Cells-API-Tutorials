@@ -81,16 +81,16 @@ Retrieving OData details from an Excel workbook is now easy with Aspose.Cells fo
 
 #### Q: Does Aspose.Cells support other data sources besides OData?
     
-	 A: Yes, Aspose.Cells supports multiple data sources such as SQL databases, CSV files, web services, etc.
+A: Yes, Aspose.Cells supports multiple data sources such as SQL databases, CSV files, web services, etc.
 
 #### Q: How can I use retrieved OData details in my application?
     
-	 A: Once you have retrieved the OData details using Aspose.Cells, you can use them for data analysis, report generation or any other manipulation in your application.
+A: Once you have retrieved the OData details using Aspose.Cells, you can use them for data analysis, report generation or any other manipulation in your application.
 
 #### Q: Can I filter or sort OData data when retrieving with Aspose.Cells?
     
-	 A: Yes, Aspose.Cells offers advanced functionality to filter, sort and manipulate OData data to meet your specific needs.
+A: Yes, Aspose.Cells offers advanced functionality to filter, sort and manipulate OData data to meet your specific needs.
 
 #### Q: Can I automate the process of retrieving OData details with Aspose.Cells?
     
-	 A: Yes, you can automate the process of retrieving OData details by integrating Aspose.Cells into your workflows or by using programming scripts.
+A: Yes, you can automate the process of retrieving OData details by integrating Aspose.Cells into your workflows or by using programming scripts.

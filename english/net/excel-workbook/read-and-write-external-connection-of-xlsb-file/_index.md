@@ -86,20 +86,20 @@ Reading and writing external connections to an XLSB file allows you to manipulat
 
 #### Q: What is an external connection in an XLSB file?
     
-	 A: An external connection in an XLSB file refers to a connection established with an external data source such as a database. It allows you to import data from this external source into the Excel workbook.
+A: An external connection in an XLSB file refers to a connection established with an external data source such as a database. It allows you to import data from this external source into the Excel workbook.
 
 #### Q: Can I have multiple external connections in an XLSB file?
      
-	 A: Yes, you can have multiple external connections in an XLSB file. You can manage them individually by accessing each connection object.
+A: Yes, you can have multiple external connections in an XLSB file. You can manage them individually by accessing each connection object.
 
 #### Q: How can I read the details of an external connection in an XLSB file with Aspose.Cells?
      
-	 A: You can use the functionality provided by Aspose.Cells to access properties of an external connection, such as connection name, associated command, and connection information.
+A: You can use the functionality provided by Aspose.Cells to access properties of an external connection, such as connection name, associated command, and connection information.
 
 #### Q: Is it possible to modify an external connection in an XLSB file with Aspose.Cells?
      
-	 A: Yes, you can modify the properties of an external connection, such as the connection name, to meet your specific needs. Aspose.Cells provides methods to make these changes.
+A: Yes, you can modify the properties of an external connection, such as the connection name, to meet your specific needs. Aspose.Cells provides methods to make these changes.
 
 #### Q: How can I save changes made to an external connection to an XLSB file with Aspose.Cells?
      
-	 A: Once you have made the necessary changes to an external connection, you can simply save the modified Excel XLSB file using the appropriate method provided by Aspose.Cells.
+A: Once you have made the necessary changes to an external connection, you can simply save the modified Excel XLSB file using the appropriate method provided by Aspose.Cells.

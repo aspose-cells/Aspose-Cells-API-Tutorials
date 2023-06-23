@@ -76,14 +76,18 @@ access to spreadsheets and automatic paper size checking. Now you can use this k
 
 ### FAQs
 
-Q: How can I load workbooks with Aspose.Cells for .NET?
+#### Q: How can I load workbooks with Aspose.Cells for .NET?
+
 A: You can load workbooks using the Workbook class from the Aspose.Cells library. Use the Workbook.Load method to load a workbook from a file.
 
-Q: Can I check the automatic paper size for other spreadsheets?
+#### Q: Can I check the automatic paper size for other spreadsheets?
+
 A: Yes, you can check the automatic paper size for any worksheet by accessing the PageSetup.IsAutomaticPaperSize property of the corresponding Worksheet object.
 
-Q: How can I change the automatic paper size of a spreadsheet?
+#### Q: How can I change the automatic paper size of a spreadsheet?
+
 A: To change the automatic paper size of a worksheet, you can use the PageSetup.IsAutomaticPaperSize property and set it to the desired value (true or false).
 
-Q: What other features does Aspose.Cells for .NET offer?
+#### Q: What other features does Aspose.Cells for .NET offer?
+
 A: Aspose.Cells for .NET offers many features for working with spreadsheets, such as creating, modifying and converting workbooks, as well as manipulating data, formulas and formatting.

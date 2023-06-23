@@ -116,20 +116,20 @@ Congratulation ! You learned how to adjust the compression level in an Excel wor
 
 #### Q: What is compression in an Excel workbook?
 
-	 A: Compression in an Excel workbook is a process of reducing file size by using compression algorithms. This reduces the storage space required and improves performance when loading and manipulating the file.
+A: Compression in an Excel workbook is a process of reducing file size by using compression algorithms. This reduces the storage space required and improves performance when loading and manipulating the file.
 
 #### Q: What levels of compression are available with Aspose.Cells?
 
-	 A: With Aspose.Cells, you can adjust the compression level from 1 to 9. The higher the compression level, the smaller the file size will be, but it can also increase processing time.
+A: With Aspose.Cells, you can adjust the compression level from 1 to 9. The higher the compression level, the smaller the file size will be, but it can also increase processing time.
 
 #### Q: How do I choose the right compression level for my Excel workbook?
 
-	 A: The choice of compression level depends on your specific needs. If you want maximum compression and processing time is not an issue, you can go for level 9. If you prefer a compromise between file size and processing time, you can choose an intermediate level.
+A: The choice of compression level depends on your specific needs. If you want maximum compression and processing time is not an issue, you can go for level 9. If you prefer a compromise between file size and processing time, you can choose an intermediate level.
 
 #### Q: Does compression affect data quality in Excel workbook?
 
-	 A: No, the compression does not affect the data quality in the Excel workbook. It simply reduces the file size using compression techniques without altering the data itself.
+A: No, the compression does not affect the data quality in the Excel workbook. It simply reduces the file size using compression techniques without altering the data itself.
 
 #### Q: Can I adjust the compression level after saving the Excel file?
 
-	 A: No, once you save the Excel file with a specific compression level, you cannot adjust the compression level later. You will need to save the file again with the new compression level if you wish to modify it.
+A: No, once you save the Excel file with a specific compression level, you cannot adjust the compression level later. You will need to save the file again with the new compression level if you wish to modify it.

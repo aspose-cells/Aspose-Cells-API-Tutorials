@@ -102,16 +102,16 @@ Congratulation ! You have now learned how to move a worksheet into an Excel work
 
 #### Q. Can I move a worksheet to another position in the same Excel workbook?
 
-	 A. Yes, you can move a worksheet to another position in the same Excel workbook using `MoveTo` method of Worksheet object. Just specify the index of the destination position in the workbook.
+A. Yes, you can move a worksheet to another position in the same Excel workbook using `MoveTo` method of Worksheet object. Just specify the index of the destination position in the workbook.
 
 #### Q. Can I move a worksheet to another Excel workbook?
 
-	 A. Yes, you can move a worksheet to another Excel workbook using the `MoveTo` method of the Worksheet object. Just specify the index of the destination position in the target workbook.
+A. Yes, you can move a worksheet to another Excel workbook using the `MoveTo` method of the Worksheet object. Just specify the index of the destination position in the target workbook.
 
 #### Q. Does the supplied source code work with other Excel file formats, such as XLSX?
 
-	 A. Yes, the provided source code works with other Excel file formats, including XLSX. Aspose.Cells for .NET supports a variety of Excel file formats, allowing you to manipulate and move worksheet into different file types.
+A. Yes, the provided source code works with other Excel file formats, including XLSX. Aspose.Cells for .NET supports a variety of Excel file formats, allowing you to manipulate and move worksheet into different file types.
 
 #### Q. How can I specify the output file path and name when saving the modified Excel file?
 
-	 A. When saving the modified Excel file, use the `Save` method of the Workbook object specifying the full path and name of the output file. Be sure to specify the appropriate file extension, such as `.xls` or `.xlsx`, depending on the desired file format.
+A. When saving the modified Excel file, use the `Save` method of the Workbook object specifying the full path and name of the output file. Be sure to specify the appropriate file extension, such as `.xls` or `.xlsx`, depending on the desired file format.

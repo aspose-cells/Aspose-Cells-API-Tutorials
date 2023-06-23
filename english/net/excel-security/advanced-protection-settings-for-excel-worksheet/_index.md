@@ -133,17 +133,17 @@ Congratulation ! You have now learned how to set advanced protection settings fo
 ### FAQs
 
 #### Q: How can I create a new C# project in my IDE?
-	 
-	 A: The steps to create a new C# project may vary depending on the IDE you are using. Consult your IDE's documentation for detailed instructions.
+
+A: The steps to create a new C# project may vary depending on the IDE you are using. Consult your IDE's documentation for detailed instructions.
 
 #### Q: Is it possible to set custom protection settings other than those mentioned in the tutorial?
 
-	 A: Yes, Aspose.Cells offers a wide range of protection settings that you can customize to your specific needs. See the Aspose.Cells documentation for more details.
+A: Yes, Aspose.Cells offers a wide range of protection settings that you can customize to your specific needs. See the Aspose.Cells documentation for more details.
 
 #### Q: What is the file format used to save the modified Excel file in the sample code?
 
-	 A: In the sample code, the modified Excel file is saved in Excel 97-2003 (.xls) format. You can choose other formats supported by Aspose.Cells if needed.
+A: In the sample code, the modified Excel file is saved in Excel 97-2003 (.xls) format. You can choose other formats supported by Aspose.Cells if needed.
 
 #### Q: How can I access other worksheets in the Excel file?
 
-	 A: You can access other worksheets using index or sheet name, for example: `Worksheet worksheet = excel.Worksheets[1];` or `Worksheet worksheet = excel.Worksheets[" SheetName"];`.
+A: You can access other worksheets using index or sheet name, for example: `Worksheet worksheet = excel.Worksheets[1];` or `Worksheet worksheet = excel.Worksheets[" SheetName"];`.

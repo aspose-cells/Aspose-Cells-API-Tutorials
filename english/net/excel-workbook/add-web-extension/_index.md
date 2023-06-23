@@ -110,16 +110,16 @@ Congratulation ! You have now learned how to add a web extension using Aspose.Ce
 
 #### Q: What is a web extension in an Excel workbook?
 
-	 A: A web extension in an Excel workbook is a component that allows you to add additional functionality to Excel by integrating web applications. It can offer interactive features, custom dashboards, external integrations, and more.
+A: A web extension in an Excel workbook is a component that allows you to add additional functionality to Excel by integrating web applications. It can offer interactive features, custom dashboards, external integrations, and more.
 
 #### Q: How to add web extension to Excel workbook with Aspose.Cells?
 
-	 A: To add a web extension to an Excel workbook with Aspose.Cells, you can follow the steps provided in our step by step guide. Use the `WebExtensionCollection` and `WebExtensionTaskPaneCollection` classes to add and configure the web extension and associated task pane.
+A: To add a web extension to an Excel workbook with Aspose.Cells, you can follow the steps provided in our step by step guide. Use the `WebExtensionCollection` and `WebExtensionTaskPaneCollection` classes to add and configure the web extension and associated task pane.
 
 #### Q: What information is required to add a web extension?
 
-	 A: When adding a web extension, you must provide the extension SKU ID, store name, and store type. This information helps to identify and load the extension correctly.
+A: When adding a web extension, you must provide the extension SKU ID, store name, and store type. This information helps to identify and load the extension correctly.
 
 #### Q: Can I add multiple web extensions to a single Excel workbook?
 
-	 A: Yes, you can add multiple Web Extensions to a single Excel workbook. Use the `Add` method of the web extensions collection to add each extension, then associate them with the corresponding task panes.
+A: Yes, you can add multiple Web Extensions to a single Excel workbook. Use the `Add` method of the web extensions collection to add each extension, then associate them with the corresponding task panes.

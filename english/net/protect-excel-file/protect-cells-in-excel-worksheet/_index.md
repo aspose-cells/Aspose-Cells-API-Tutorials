@@ -145,13 +145,17 @@ Congratulation ! You have learned how to protect specific cells in an Excel spre
 ### FAQs
 
 #### Q: Why should I use Aspose.Cells for .NET to protect cells in an Excel spreadsheet?
+
 A: Aspose.Cells for .NET is a powerful library that makes it easy to work with Excel files. It offers advanced features to protect cells, unlock ranges, etc.
 
 #### Q: Is it possible to protect ranges of cells instead of individual cells?
+
 A: Yes, you can define specific cell ranges to protect using the `ApplyStyle` method with an appropriate `StyleFlag`.
 
 #### Q: How can I open the protected Excel file after saving it?
+
 A: When you open the protected Excel file, you will need to provide the password specified when protecting the worksheet.
 
 #### Q: Are there other types of protection that I can apply to an Excel spreadsheet?
+
 A: Yes, Aspose.Cells for .NET supports multiple types of protection, such as structure protection, window protection, etc. You can choose the appropriate type of protection according to your needs.

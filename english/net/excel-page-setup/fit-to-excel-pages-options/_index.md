@@ -68,18 +68,18 @@ In this article, we learned how to configure fit to pages in Excel using Aspose.
 
 ### FAQs
 
-Q: How can I install Aspose.Cells for .NET?
+#### Q: How can I install Aspose.Cells for .NET?
 
 A: To install Aspose.Cells for .NET, you can use the NuGet package manager in Visual Studio. Find the "Aspose.Cells" package and install it in your project.
 
-Q: Can I fit pages both height and width?
+#### Q: Can I fit pages both height and width?
 
 A: Yes, you can adjust both height and width of the worksheet using the `FitToPagesTall` and `FitToPagesWide` properties. You can specify the desired number of pages for each dimension.
 
-Q: How can I customize the Fit to Pages options?
+#### Q: How can I customize the Fit to Pages options?
 
 A: In addition to specifying the number of pages, you can also customize other fit-to-pages options such as worksheet scale, paper orientation, margins, and more. Use the properties available in the `PageSetup` object for this.
 
-Q: Can I use Aspose.Cells for .NET to process existing workbooks?
+#### Q: Can I use Aspose.Cells for .NET to process existing workbooks?
 
 A: Yes, you can use Aspose.Cells for .NET to open and edit existing workbooks. You can access worksheets, cells, formulas, styles, and other workbook items to perform various operations.

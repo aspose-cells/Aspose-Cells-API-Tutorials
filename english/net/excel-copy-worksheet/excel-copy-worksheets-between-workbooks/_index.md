@@ -91,12 +91,12 @@ Congratulation ! You have now learned how to copy worksheets between Excel workb
 
 #### Q. What libraries are needed to use Aspose.Cells for .NET?
 
-     A. To use Aspose.Cells for .NET, you must include the Aspose.Cells library in your project. Make sure you have referenced this library correctly in your integrated development environment (IDE).
+A. To use Aspose.Cells for .NET, you must include the Aspose.Cells library in your project. Make sure you have referenced this library correctly in your integrated development environment (IDE).
 
 #### Q. Does Aspose.Cells support other Excel file formats, such as XLSX?
 
-	 A. Yes, Aspose.Cells supports various Excel file formats including XLSX, XLS, CSV, HTML, and many more. You can manipulate these file formats using the features of Aspose.Cells for .NET.
+A. Yes, Aspose.Cells supports various Excel file formats including XLSX, XLS, CSV, HTML, and many more. You can manipulate these file formats using the features of Aspose.Cells for .NET.
 
 #### Q. Can I customize the layout options when copying the spreadsheet?
 
-     A. Yes, you can customize the page setup options when copying the spreadsheet using the properties of the `PageSetup` object. You can specify page headers, footers, margins, orientations, etc.
+A. Yes, you can customize the page setup options when copying the spreadsheet using the properties of the `PageSetup` object. You can specify page headers, footers, margins, orientations, etc.

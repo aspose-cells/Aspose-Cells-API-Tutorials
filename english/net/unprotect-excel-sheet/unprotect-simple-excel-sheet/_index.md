@@ -81,10 +81,13 @@ for more advanced operations on Excel files.
 ### FAQs
 
 #### Q: What precautions should I take when unlocking an Excel spreadsheet?
+
 A: When unlocking an Excel spreadsheet, make sure you have the necessary permissions to access the file. Also, be sure to use the correct unlock method and provide the correct password, if applicable.
 
 #### Q: How do I know if the spreadsheet is password protected?
+
 A: You can check if a worksheet is password protected using properties or methods provided by the Aspose.Cells library for .NET. For example, you can use the `IsProtected()` method of the Worksheet object to check if the worksheet is protected.
 
 #### Q: I get an exception when trying to unlock the spreadsheet. What should I do ?
+
 A: If you encounter an exception while unlocking the spreadsheet, please make sure you have correctly specified the path to the Excel file and check that you have the necessary permissions to access it. If the problem persists, feel free to contact Aspose.Cells support for further assistance.

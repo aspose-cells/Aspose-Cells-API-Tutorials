@@ -82,16 +82,16 @@ In this tutorial, we learned how to access web extension information using Aspos
 
 #### Q: What is Aspose.Cells for .NET?
 
-	 A: Aspose.Cells for .NET is a powerful class library that allows .NET developers to create, modify, convert and manipulate Excel files with ease.
+A: Aspose.Cells for .NET is a powerful class library that allows .NET developers to create, modify, convert and manipulate Excel files with ease.
 
 #### Q: Does Aspose.Cells support other programming languages?
 
-	 A: Yes, Aspose.Cells supports multiple programming languages like C#, VB.NET, Java, PHP, Python, etc.
+A: Yes, Aspose.Cells supports multiple programming languages like C#, VB.NET, Java, PHP, Python, etc.
 
 #### Q: Can I use Aspose.Cells in commercial projects?
 
-	 A: Yes, Aspose.Cells is a commercial library and can be used in commercial projects according to the license agreement.
+A: Yes, Aspose.Cells is a commercial library and can be used in commercial projects according to the license agreement.
 
 #### Q: Is there additional documentation on Aspose.Cells?
 
-	 A: Yes, you can check out the full Aspose.Cells documentation on the official Aspose website for more information and resources.
+A: Yes, you can check out the full Aspose.Cells documentation on the official Aspose website for more information and resources.

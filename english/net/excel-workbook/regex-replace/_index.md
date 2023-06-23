@@ -82,21 +82,21 @@ Regex replacement is a powerful technique for dynamically modifying data in an E
 
 #### Q: What is Regex Replacement?
     
-	 A: Regex replacement is a technique used to replace text patterns based on regular expressions in an Excel file. This allows for quick and accurate changes to the data.
+A: Regex replacement is a technique used to replace text patterns based on regular expressions in an Excel file. This allows for quick and accurate changes to the data.
 
 #### Q: Is Regex replacement case sensitive?
     
-	 A: No, with Aspose.Cells you can specify whether the Regex replacement should be case sensitive or not. You have full control over this feature.
+A: No, with Aspose.Cells you can specify whether the Regex replacement should be case sensitive or not. You have full control over this feature.
 
 #### Q: How can I specify an exact match of cell content when replacing Regex?
     
-	 A: Aspose.Cells allows you to define whether the Regex replacement should exactly match the cell content or not. You can adjust this option according to your needs.
+A: Aspose.Cells allows you to define whether the Regex replacement should exactly match the cell content or not. You can adjust this option according to your needs.
 
 #### Q: Can I use advanced regular expressions when replacing Regex with Aspose.Cells?
     
-	 A: Yes, Aspose.Cells supports advanced regular expressions, allowing you to perform complex and sophisticated replacements in your Excel files.
+A: Yes, Aspose.Cells supports advanced regular expressions, allowing you to perform complex and sophisticated replacements in your Excel files.
 
 #### Q: How can I check if the Regex replacement was successful?
     
-	 A: After performing the Regex replacement, you can verify if the operation was successful by checking the output and ensuring that the output Excel file was created correctly.
+A: After performing the Regex replacement, you can verify if the operation was successful by checking the output and ensuring that the output Excel file was created correctly.
 	
