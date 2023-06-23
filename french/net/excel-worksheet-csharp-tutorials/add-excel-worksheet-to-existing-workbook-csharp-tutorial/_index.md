@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Étape 3 : instancier un objet de classeur
 
- Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook` objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
+ Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook`objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
 
 ```csharp
 // Instancier un objet Workbook
@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  Vous pouvez définir le nom de la feuille nouvellement ajoutée à l'aide de la`Name` propriété de la`Worksheet` objet.
 
 ```csharp
-//Obtenir la référence de la nouvelle feuille ajoutée en passant son index de feuille
+// Obtenir la référence de la nouvelle feuille ajoutée en passant son index de feuille
 Worksheet worksheet = workbook.Worksheets[i];
 // Définir le nom de la nouvelle feuille
 worksheet.Name = "My Worksheet";

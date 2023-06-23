@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definieren Sie das Stilobjekt.
 Style style;
-//Definieren Sie das Styleflag-Objekt.
+// Definieren Sie das Styleflag-Objekt.
 StyleFlag flag;
 // Gehen Sie alle Spalten im Arbeitsblatt durch und entsperren Sie sie.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Verschließe es.
 style.IsLocked = true;
-// Instanziieren Sie die Flagge.
+//Instanziieren Sie die Flagge.
 flag = new StyleFlag();
 // Legen Sie die Sperreinstellung fest.
 flag.Locked = true;

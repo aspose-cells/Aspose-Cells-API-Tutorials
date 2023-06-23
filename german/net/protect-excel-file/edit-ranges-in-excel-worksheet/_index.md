@@ -33,7 +33,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- In diesem Codeausschnitt definieren wir zunächst den Pfad zu dem Verzeichnis, in dem die Excel-Datei gespeichert wird. Als nächstes erstellen wir eine neue Instanz von`Workbook` Klasse und rufen Sie den Verweis auf das erste Arbeitsblatt mithilfe von ab`Worksheets`Eigentum.
+ In diesem Codeausschnitt definieren wir zunächst den Pfad zu dem Verzeichnis, in dem die Excel-Datei gespeichert wird. Als nächstes erstellen wir eine neue Instanz von`Workbook` Klasse und rufen Sie den Verweis auf das erste Arbeitsblatt mithilfe von ab`Worksheets` Eigentum.
 
 ## Schritt 3: Bearbeitbare Bereiche abrufen
 
@@ -129,13 +129,17 @@ Herzlichen Glückwunsch! Sie haben gelernt, wie Sie Benutzern mit Aspose.Cells f
 #### FAQs
 
 #### F: Warum sollte ich Aspose.Cells für .NET verwenden, um Bereiche in einer Excel-Tabelle zu bearbeiten?
+
 A: Aspose.Cells für .NET bietet eine leistungsstarke und benutzerfreundliche API für die Arbeit mit Excel-Dateien. Es bietet erweiterte Funktionen wie Bereichsmanipulation, Arbeitsblattschutz usw.
 
 #### F: Kann ich in einem Arbeitsblatt mehrere bearbeitbare Bereiche festlegen?
+
  A: Ja, Sie können mit dem mehrere bearbeitbare Bereiche definieren`Add` Methode der`ProtectedRangeCollection` Sammlung. Jeder Bereich kann seine eigenen Schutzeinstellungen haben.
 
 ####  F: Ist es möglich, einen bearbeitbaren Bereich zu löschen, nachdem er definiert wurde?
+
  A: Ja, Sie können das verwenden`RemoveAt` Methode der`ProtectedRangeCollection` -Sammlung, um einen bestimmten bearbeitbaren Bereich durch Angabe seines Index zu entfernen.
 
 #### F: Wie kann ich die geschützte Excel-Datei öffnen, nachdem ich sie gespeichert habe?
+
 A: Sie müssen das beim Erstellen des geschützten Bereichs angegebene Passwort angeben, um die geschützte Excel-Datei zu öffnen. Bewahren Sie das Passwort unbedingt an einem sicheren Ort auf, um einen Verlust des Zugriffs auf die Daten zu verhindern.

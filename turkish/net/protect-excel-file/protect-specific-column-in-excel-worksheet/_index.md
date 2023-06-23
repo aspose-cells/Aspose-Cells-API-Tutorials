@@ -11,7 +11,7 @@ C# dilinde Excel çalışma sayfalarıyla çalışırken, yanlışlıkla yapıla
 
 ## Bir Excel Çalışma Sayfasında Belirli Sütunları Korumaya Genel Bakış
 
-Bir Excel çalışma sayfasındaki belirli sütunların korunması, bu sütunların kilitli kalmasını ve uygun yetkilendirme olmadan değiştirilememesini sağlar. Bu, kullanıcıların çalışma sayfasının geri kalanıyla etkileşime girmesine izin verirken belirli verilere veya formüllere düzenleme erişimini kısıtlamak istediğinizde özellikle kullanışlıdır. Aspose.Cells for .NET kitaplığı, sütun koruması da dahil olmak üzere, Excel dosyalarını program aracılığıyla işlemek için kapsamlı bir dizi özellik sağlar.
+Bir Excel çalışma sayfasındaki belirli sütunların korunması, bu sütunların kilitli kalmasını ve uygun yetkilendirme olmadan değiştirilememesini sağlar. Bu, kullanıcıların çalışma sayfasının geri kalanıyla etkileşime girmesine izin verirken belirli verilere veya formüllere düzenleme erişimini kısıtlamak istediğinizde özellikle kullanışlıdır. Aspose.Cells for .NET kitaplığı, sütun koruması da dahil olmak üzere, Excel dosyalarını program aracılığıyla işlemek için kapsamlı bir dizi özellik sunar.
 
 ## Ortamı Kurma
 
@@ -84,7 +84,7 @@ style.IsLocked = true;
 Belirli bir sütunu kilitledikten sonra, stili ve bayrağı o sütuna uygulamamız gerekir. İşte kod parçacığı:
 
 ```csharp
-// Bayrağı somutlaştırın.
+//Bayrağı somutlaştırın.
 flag = new StyleFlag();
 
 // Kilit ayarını yapın.
@@ -128,7 +128,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Stil nesnesini tanımlayın.
 Style style;
-//styleflag nesnesini tanımlayın.
+// styleflag nesnesini tanımlayın.
 StyleFlag flag;
 // Çalışma sayfasındaki tüm sütunlarda dolaşın ve bunların kilidini açın.
 for (int i = 0; i <= 255; i++)
@@ -143,7 +143,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Kilitle.
 style.IsLocked = true;
-// Bayrağı somutlaştırın.
+//Bayrağı somutlaştırın.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;
@@ -162,13 +162,17 @@ Bu eğitimde, Aspose.Cells for .NET kitaplığını kullanarak bir Excel çalı�
 ### Sıkça Sorulan Sorular (SSS)
 
 #### Bu yöntemi kullanarak birden çok sütunu koruyabilir miyim?
+
 Evet, kodu uygun şekilde değiştirerek birden çok sütunu koruyabilirsiniz. İstenen sütun aralığında dolaşın ve kilitleme stillerini ve işaretlerini uygulayın.
 
 #### Korumalı çalışma sayfasını parola ile korumak mümkün müdür?
+
  Evet, korumalı çalışma sayfasına parolayı çağırırken parolayı belirterek parola koruması ekleyebilirsiniz.`Protect` yöntem.
 
 #### Aspose.Cells for .NET diğer Excel dosya formatlarını destekliyor mu?
+
 Evet, Aspose.Cells for .NET, XLS, XLSX, XLSM ve daha fazlasını içeren çeşitli Excel dosya formatlarını destekler.
 
 #### Sütunlar yerine belirli satırları koruyabilir miyim?
+
 Evet, stilleri ve bayrakları sütun hücreleri yerine satır hücrelerine uygulayarak, sütunlar yerine belirli satırları korumak için kodu değiştirebilirsiniz.

@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## 3. Adım: Bir Çalışma Kitabı Nesnesi Başlatın
 
- Excel dosyasını açtıktan sonra, bir örnek oluşturmanız gerekir.`Workbook` nesne. Bu nesne, Excel çalışma kitabını temsil eder ve çalışma kitabını işlemek için çeşitli yöntemler ve özellikler sunar.
+ Excel dosyasını açtıktan sonra, bir örnek oluşturmanız gerekir.`Workbook`nesne. Bu nesne, Excel çalışma kitabını temsil eder ve çalışma kitabını işlemek için çeşitli yöntemler ve özellikler sunar.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesinin örneğini oluşturun
@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  Yeni eklenen sayfanın adını kullanarak ayarlayabilirsiniz.`Name` mülkiyeti`Worksheet` nesne.
 
 ```csharp
-//Sayfa dizinini geçirerek eklenen yeni sayfanın referansını alın
+// Sayfa dizinini geçirerek eklenen yeni sayfanın referansını alın
 Worksheet worksheet = workbook.Worksheets[i];
 // Yeni sayfanın adını tanımlayın
 worksheet.Name = "My Worksheet";

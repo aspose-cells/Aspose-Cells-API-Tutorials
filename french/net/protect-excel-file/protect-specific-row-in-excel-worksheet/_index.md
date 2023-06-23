@@ -71,7 +71,7 @@ style = sheet.Cells.Rows[0].Style;
 // Verrouille le.
 style. IsLocked = true;
 
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 
 // Définissez le paramètre de verrouillage.
@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Définissez l'objet de style.
 Style style;
-//Définissez l'objet styleflag.
+// Définissez l'objet styleflag.
 StyleFlag flag;
 // Parcourez toutes les colonnes de la feuille de calcul et déverrouillez-les.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Verrouille le.
 style.IsLocked = true;
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 // Définissez le paramètre de verrouillage.
 flag.Locked = true;
@@ -149,10 +149,13 @@ La protection des données dans les fichiers Excel est cruciale pour empêcher t
 ### FAQ
 
 #### La protection de ligne spécifique fonctionne-t-elle dans toutes les versions d'Excel ?
+
 Oui, la protection de ligne spécifique à l'aide d'Aspose.Cells pour .NET fonctionne dans toutes les versions prises en charge d'Excel.
 
 #### Puis-je protéger plusieurs lignes spécifiques dans une feuille de calcul Excel ?
+
 Oui, vous pouvez protéger plusieurs lignes spécifiques en utilisant des méthodes similaires décrites dans ce guide.
 
 #### Comment puis-je déverrouiller une ligne spécifique dans une feuille de calcul Excel ?
+
  Pour déverrouiller une ligne spécifique, vous devez modifier le code source en conséquence à l'aide de la`IsLocked` méthode de la`Style` objet.

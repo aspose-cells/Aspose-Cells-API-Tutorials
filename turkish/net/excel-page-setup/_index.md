@@ -1,6 +1,6 @@
 ---
-title: Excel Sayfa Yapısı
-linktitle: Excel Sayfa Yapısı
+title: Excel Sayfa Düzeni
+linktitle: Excel Sayfa Düzeni
 second_title: Aspose.Cells for .NET API Referansı
 description: Excel'in sayfa düzenini ayarlamakla ilgili Aspose.Cells for .NET eğitimlerine göz atın. Excel dosyalarınızı kolaylıkla özelleştirin.
 type: docs

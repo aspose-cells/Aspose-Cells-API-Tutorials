@@ -28,7 +28,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## Steg 3: Dölj kalkylbladsflikarna
 
-För att dölja kalkylbladsflikar kan du använda`ShowTabs` egendom av`Settings` föremålet för`Workbook` klass. Ställ in den på`false` för att dölja flikarna.
+ För att dölja kalkylbladsflikar kan du använda`ShowTabs` egendom av`Settings` föremålet för`Workbook` klass. Ställ in den på`false` för att dölja flikarna.
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,4 +89,4 @@ Aspose.Cells för .NET erbjuder många funktioner, som att skapa, ändra, konver
 
 #### Hur man justerar flikfältets bredd med Aspose.Cells för .NET?
 
- Du kan justera bredden på flikfältet genom att använda`SheetTabBarWidth` egendom av`Settings` föremålet för`Workbook` klass och tilldela den ett numeriskt värde i poäng.
+Du kan justera bredden på flikfältet genom att använda`SheetTabBarWidth` egendom av`Settings` föremålet för`Workbook` klass och tilldela den ett numeriskt värde i poäng.

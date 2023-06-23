@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /it/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
-In questa guida, ti illustreremo come utilizzare Aspose.Cells per .NET per consentire all'utente di modificare intervalli specifici in un foglio di calcolo Excel. Seguire i passaggi seguenti per eseguire questa operazione.
+In questa guida, ti illustreremo come utilizzare Aspose.Cells per .NET per consentire all'utente di modificare intervalli specifici in un foglio di calcolo Excel. Seguire i passaggi seguenti per eseguire questa attività.
 
 ## Passaggio 1: configurazione dell'ambiente
 

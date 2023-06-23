@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /sv/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 ---
-den här artikeln tar vi dig steg för steg för att förklara följande C#-källkod: Kopiera sidkonfigurationsinställningar från ett annat kalkylblad med Aspose.Cells för .NET. Vi kommer att använda Aspose.Cells-biblioteket för .NET för att utföra denna operation. Om du vill kopiera sidinställningar från ett kalkylblad till ett annat följer du stegen nedan.
+I den här artikeln tar vi dig steg för steg för att förklara följande C#-källkod: Kopiera sidkonfigurationsinställningar från ett annat kalkylblad med Aspose.Cells för .NET. Vi kommer att använda Aspose.Cells-biblioteket för .NET för att utföra denna operation. Om du vill kopiera sidinställningar från ett kalkylblad till ett annat följer du stegen nedan.
 
 ## Steg 1: Skapa arbetsboken
 Det första steget är att skapa en arbetsbok. I vårt fall kommer vi att använda Workbook-klassen som tillhandahålls av Aspose.Cells-biblioteket. Här är koden för att skapa en arbetsbok:
@@ -32,7 +32,7 @@ Worksheet TestSheet1 = wb. Worksheets["TestSheet1"];
 Worksheet TestSheet2 = wb. Worksheets["TestSheet2"];
 ```
 
-## Steg 4: Ställa in pappersstorlek
+## Steg 4: Ställ in pappersstorlek
  I det här steget kommer vi att ställa in pappersstorleken för kalkylbladet "TestSheet1". Vi kommer att använda`PageSetup.PaperSize` egenskap för att ställa in pappersstorleken. Till exempel kommer vi att ställa in pappersstorleken till "PaperA3ExtraTransverse". Här är koden för det:
 
 ```csharp
@@ -40,7 +40,7 @@ TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
 ```
 
 ## Steg 5: Kopiera inställningar för sidinställningar
- Nu kommer vi att kopiera sidkonfigurationsinställningarna från kalkylbladet "TestSheet1" till "TestSheet2". Vi kommer att använda`PageSetup.Copy` metod för att utföra denna operation. Här är koden för det:
+Nu kommer vi att kopiera sidkonfigurationsinställningarna från kalkylbladet "TestSheet1" till "TestSheet2". Vi kommer att använda`PageSetup.Copy` metod för att utföra denna operation. Här är koden för det:
 
 ```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
@@ -80,26 +80,26 @@ Console.WriteLine("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorkshee
 ```
 
 ## Slutsats
-I den här artikeln lärde vi oss hur man kopierar sidkonfigurationsinställningar från ett kalkylblad till ett annat med Aspose.Cells för .NET. Vi gick igenom följande steg: skapa arbetsboken, lägga till testark, komma åt arbetsbladen, ställa in pappersstorleken, kopiera sidinställningarna och skriva ut pappersstorlekar. Nu kan du använda denna kunskap för att kopiera sidkonfigurationsinställningar till dina egna projekt.
+den här artikeln lärde vi oss hur man kopierar sidkonfigurationsinställningar från ett kalkylblad till ett annat med Aspose.Cells för .NET. Vi gick igenom följande steg: skapa arbetsboken, lägga till testark, komma åt arbetsbladen, ställa in pappersstorleken, kopiera sidinställningarna och skriva ut pappersstorlekar. Nu kan du använda denna kunskap för att kopiera sidkonfigurationsinställningar till dina egna projekt.
 
 ### Vanliga frågor
 
-F: Kan jag kopiera sidkonfigurationsinställningar mellan olika arbetsboksinstanser?
+#### F: Kan jag kopiera sidkonfigurationsinställningar mellan olika arbetsboksinstanser?
 
  S: Ja, du kan kopiera sidinställningar mellan olika arbetsboksinstanser med hjälp av`PageSetup.Copy` metod för Aspose.Cells-biblioteket.
 
-F: Kan jag kopiera andra sidinställningar, som orientering eller marginaler?
+#### F: Kan jag kopiera andra sidinställningar, som orientering eller marginaler?
 
  S: Ja, du kan kopiera andra sidinställningar med hjälp av`PageSetup.Copy` metod med lämpliga alternativ. Du kan till exempel kopiera orientering med`CopyOptions.Orientation` och marginaler med hjälp av`CopyOptions.Margins`.
 
-F: Hur vet jag vilka alternativ som finns tillgängliga för pappersstorlek?
+#### F: Hur vet jag vilka alternativ som finns tillgängliga för pappersstorlek?
 
- S: Du kan kontrollera Aspose.Cells biblioteks API-referens för tillgängliga alternativ för pappersstorlek. Det finns en uppräkning som heter`PaperSizeType` som listar de olika pappersstorlekarna som stöds.
+S: Du kan kontrollera Aspose.Cells biblioteks API-referens för tillgängliga alternativ för pappersstorlek. Det finns en uppräkning som heter`PaperSizeType` som listar de olika pappersstorlekarna som stöds.
 
-F: Hur kan jag ladda ner Aspose.Cells-biblioteket för .NET?
+#### F: Hur kan jag ladda ner Aspose.Cells-biblioteket för .NET?
 
  S: Du kan ladda ner Aspose.Cells-biblioteket för .NET från[Aspose släpper](https://releases.aspose.com/cells/net). Det finns gratis testversioner tillgängliga, såväl som betalda licenser för kommersiellt bruk.
 
-F: Stöder Aspose.Cells-biblioteket andra programmeringsspråk?
+#### F: Stöder Aspose.Cells-biblioteket andra programmeringsspråk?
 
 S: Ja, Aspose.Cells-biblioteket stöder flera programmeringsspråk inklusive C#, Java, Python och många fler.

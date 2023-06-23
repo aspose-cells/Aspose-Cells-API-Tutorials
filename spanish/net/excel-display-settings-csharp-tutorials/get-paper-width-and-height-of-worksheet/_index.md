@@ -87,4 +87,4 @@ Aspose.Cells para .NET admite una amplia gama de tamaños de papel de uso común
 
 #### ¿Puedo personalizar el tamaño del papel de una hoja de cálculo con Aspose.Cells para .NET?
 
-Sí, puede configurar un tamaño de papel personalizado especificando las dimensiones exactas de ancho y alto usando el`PaperWidth` y`PaperHeight` propiedades de la`PageSetup` clase.
+ Sí, puede configurar un tamaño de papel personalizado especificando las dimensiones exactas de ancho y alto usando el`PaperWidth` y`PaperHeight` propiedades de la`PageSetup` clase.

@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /it/net/excel-page-setup/set-excel-scaling-factor/
 ---
-In questa guida, ti illustreremo come impostare il fattore di scala in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Seguire i passaggi seguenti per eseguire questa operazione.
+In questa guida, ti illustreremo come impostare il fattore di scala in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Seguire i passaggi seguenti per eseguire questa attività.
 
 ## Passaggio 1: configurazione dell'ambiente
 

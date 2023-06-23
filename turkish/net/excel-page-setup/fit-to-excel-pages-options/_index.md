@@ -68,18 +68,18 @@ Bu yazıda, Aspose.Cells for .NET kullanarak Excel'de sayfalara sığdırmayı n
 
 ### SSS
 
-S: Aspose.Cells for .NET'i nasıl kurabilirim?
+#### S: Aspose.Cells for .NET'i nasıl kurabilirim?
 
 C: Aspose.Cells for .NET'i kurmak için Visual Studio'da NuGet paket yöneticisini kullanabilirsiniz. "Aspose.Cells" paketini bulun ve projenize kurun.
 
-S: Sayfaları hem yüksekliğe hem de genişliğe sığdırabilir miyim?
+#### S: Sayfaları hem yüksekliğe hem de genişliğe sığdırabilir miyim?
 
  C: Evet, çalışma sayfasının hem yüksekliğini hem de genişliğini ayarlayabilirsiniz.`FitToPagesTall` Ve`FitToPagesWide` özellikler. Her boyut için istediğiniz sayfa sayısını belirleyebilirsiniz.
 
-S: Sayfalara Sığdır seçeneklerini nasıl özelleştirebilirim?
+#### S: Sayfalara Sığdır seçeneklerini nasıl özelleştirebilirim?
 
 C: Sayfa sayısını belirtmenin yanı sıra, çalışma sayfası ölçeği, kağıt yönü, kenar boşlukları ve daha fazlası gibi diğer sayfalara sığdır seçeneklerini de özelleştirebilirsiniz. içinde bulunan özellikleri kullanın.`PageSetup` bunun için itiraz edin.
 
-S: Mevcut çalışma kitaplarını işlemek için Aspose.Cells for .NET'i kullanabilir miyim?
+#### S: Mevcut çalışma kitaplarını işlemek için Aspose.Cells for .NET'i kullanabilir miyim?
 
 C: Evet, mevcut çalışma kitaplarını açmak ve düzenlemek için Aspose.Cells for .NET'i kullanabilirsiniz. Çeşitli işlemleri gerçekleştirmek için çalışma sayfalarına, hücrelere, formüllere, stillere ve diğer çalışma kitabı öğelerine erişebilirsiniz.

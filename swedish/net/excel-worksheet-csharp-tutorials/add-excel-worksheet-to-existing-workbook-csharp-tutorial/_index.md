@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Steg 3: Instantiera ett arbetsboksobjekt
 
- Efter att ha öppnat Excel-filen måste du instansiera en`Workbook` objekt. Det här objektet representerar Excel-arbetsboken och erbjuder olika metoder och egenskaper för att manipulera arbetsboken.
+ Efter att ha öppnat Excel-filen måste du instansiera en`Workbook`objekt. Det här objektet representerar Excel-arbetsboken och erbjuder olika metoder och egenskaper för att manipulera arbetsboken.
 
 ```csharp
 // Instantiera ett arbetsboksobjekt
@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  Du kan ställa in namnet på det nyligen tillagda arket med hjälp av`Name` egendom av`Worksheet` objekt.
 
 ```csharp
-//Få referensen till det nya arket som lagts till genom att skicka dess arkindex
+// Få referensen till det nya arket som lagts till genom att skicka dess arkindex
 Worksheet worksheet = workbook.Worksheets[i];
 // Definiera namnet på det nya arket
 worksheet.Name = "My Worksheet";
@@ -98,7 +98,7 @@ fstream.Close();
 
 ## Slutsats
 
-den här handledningen har vi täckt processen steg för steg för att lägga till en ny brand Anslut till en befintlig Excel-arbetsbok med Aspose.Cells för .NET. Genom att följa kodexemplen och förklaringarna som tillhandahålls bör du nu ha en god förståelse för hur du utför denna uppgift i dina C#-applikationer. Aspose.Cells för .NET erbjuder en omfattande uppsättning funktioner för att arbeta med Excel-filer, så att du kan automatisera olika Excel-relaterade uppgifter effektivt.
+I den här handledningen har vi täckt processen steg för steg för att lägga till en ny brand Anslut till en befintlig Excel-arbetsbok med Aspose.Cells för .NET. Genom att följa kodexemplen och förklaringarna som tillhandahålls bör du nu ha en god förståelse för hur du utför denna uppgift i dina C#-applikationer. Aspose.Cells för .NET erbjuder en omfattande uppsättning funktioner för att arbeta med Excel-filer, så att du kan automatisera olika Excel-relaterade uppgifter effektivt.
 
 ### Vanliga frågor (FAQ)
 

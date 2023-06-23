@@ -40,7 +40,7 @@ TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
 ```
 
 ## Étape 5 : copie des paramètres de mise en page
- Nous allons maintenant copier les paramètres de configuration de la page de la feuille de calcul "TestSheet1" vers "TestSheet2". Nous utiliserons le`PageSetup.Copy` méthode pour effectuer cette opération. Voici le code pour cela :
+Nous allons maintenant copier les paramètres de configuration de la page de la feuille de calcul "TestSheet1" vers "TestSheet2". Nous utiliserons le`PageSetup.Copy` méthode pour effectuer cette opération. Voici le code pour cela :
 
 ```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
@@ -84,22 +84,22 @@ Dans cet article, nous avons appris à copier les paramètres de configuration d
 
 ### FAQ
 
-Q : Puis-je copier les paramètres de configuration de page entre différentes instances de classeur ?
+#### Q : Puis-je copier les paramètres de configuration de page entre différentes instances de classeur ?
 
  R : Oui, vous pouvez copier les paramètres de mise en page entre différentes instances de classeur à l'aide de l'outil`PageSetup.Copy` méthode de la bibliothèque Aspose.Cells.
 
-Q : Puis-je copier d'autres paramètres de mise en page, comme l'orientation ou les marges ?
+#### Q : Puis-je copier d'autres paramètres de mise en page, comme l'orientation ou les marges ?
 
  R : Oui, vous pouvez copier d'autres paramètres de configuration de page à l'aide de`PageSetup.Copy` méthode avec les options appropriées. Par exemple, vous pouvez copier l'orientation à l'aide de`CopyOptions.Orientation` et les marges en utilisant`CopyOptions.Margins`.
 
-: Comment savoir quelles options sont disponibles pour le format de papier ?
+#### Q : Comment savoir quelles options sont disponibles pour le format de papier ?
 
- R : Vous pouvez consulter la référence de l'API de la bibliothèque Aspose.Cells pour connaître les options disponibles pour la taille du papier. Il existe une énumération appelée`PaperSizeType` qui répertorie les différents formats de papier pris en charge.
+R : Vous pouvez consulter la référence de l'API de la bibliothèque Aspose.Cells pour connaître les options disponibles pour la taille du papier. Il existe une énumération appelée`PaperSizeType` qui répertorie les différents formats de papier pris en charge.
 
-Q : Comment puis-je télécharger la bibliothèque Aspose.Cells pour .NET ?
+#### Q : Comment puis-je télécharger la bibliothèque Aspose.Cells pour .NET ?
 
  R : Vous pouvez télécharger la bibliothèque Aspose.Cells pour .NET à partir de[Aspose Communiqués](https://releases.aspose.com/cells/net). Des versions d'essai gratuites sont disponibles, ainsi que des licences payantes à usage commercial.
 
-Q : La bibliothèque Aspose.Cells prend-elle en charge d'autres langages de programmation ?
+#### Q : La bibliothèque Aspose.Cells prend-elle en charge d'autres langages de programmation ?
 
 R : Oui, la bibliothèque Aspose.Cells prend en charge plusieurs langages de programmation, notamment C#, Java, Python et bien d'autres.

@@ -65,7 +65,7 @@ pageSetup.PrintHeadings = true;
 
 ## Schritt 8: Schwarzweiß-Druckmodus aktivieren
 
-Um das Drucken des Arbeitsblatts im Schwarzweißmodus zu ermöglichen, verwenden Sie den folgenden Code:
+Um das Drucken des Arbeitsblatts im Schwarzweißmodus zu aktivieren, verwenden Sie den folgenden Code:
 
 ```csharp
 pageSetup.BlackAndWhite = true;
@@ -87,7 +87,7 @@ Um das Drucken der Tabelle im Entwurfsmodus zu aktivieren, verwenden Sie den fol
 pageSetup.PrintDraft = true;
 ```
 
-## Schritt 11: Aktivieren Sie das Drucken von Zellfehlern als N/A
+## Schritt 11: Aktivieren Sie das Drucken von Zellenfehlern als N/A
 
 Damit Zellfehler gedruckt werden können als
 

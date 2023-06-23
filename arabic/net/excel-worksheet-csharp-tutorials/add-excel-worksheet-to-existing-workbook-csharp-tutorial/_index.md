@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## الخطوة 3: إنشاء كائن مصنف
 
- بعد فتح ملف Excel ، تحتاج إلى إنشاء ملف`Workbook` هدف. يمثل هذا الكائن مصنف Excel ويقدم أساليب وخصائص متنوعة لمعالجة المصنف.
+ بعد فتح ملف Excel ، تحتاج إلى إنشاء ملف`Workbook`هدف. يمثل هذا الكائن مصنف Excel ويقدم أساليب وخصائص متنوعة لمعالجة المصنف.
 
 ```csharp
 // إنشاء كائن مصنف
@@ -37,7 +37,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
-## الخطوة 4: إضافة ورقة جديدة إلى المصنف
+## الخطوة 4: أضف ورقة جديدة إلى المصنف
 
  لإضافة ورقة عمل جديدة إلى المصنف ، يمكنك استخدام ملحق`Worksheets.Add()` طريقة`Workbook` هدف. تقوم هذه الطريقة بإرجاع فهرس الورقة المضافة حديثًا.
 
@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  يمكنك تعيين اسم الورقة المضافة حديثًا باستخدام ملف`Name` ممتلكات`Worksheet` هدف.
 
 ```csharp
-//احصل على مرجع الورقة الجديدة المضافة عن طريق تمرير فهرس الورقة الخاص بها
+// احصل على مرجع الورقة الجديدة المضافة عن طريق تمرير فهرس الورقة الخاص بها
 Worksheet worksheet = workbook.Worksheets[i];
 // حدد اسم الورقة الجديدة
 worksheet.Name = "My Worksheet";

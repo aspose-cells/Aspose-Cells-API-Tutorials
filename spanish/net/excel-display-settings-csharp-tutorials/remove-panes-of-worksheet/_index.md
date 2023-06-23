@@ -65,7 +65,7 @@ book.Save(dataDir + "output.xls");
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Cree una instancia de un nuevo libro de trabajo y abra un archivo de plantilla
+// Cree una instancia de un nuevo libro de trabajo y abra un archivo de plantilla
 Workbook book = new Workbook(dataDir + "Book1.xls");
 // Establecer la celda activa
 book.Worksheets[0].ActiveCell = "A20";
@@ -87,7 +87,7 @@ Aspose.Cells for .NET es una biblioteca de software popular para manipular archi
 
 #### ¿Cómo puedo configurar la celda activa de una hoja de trabajo en Aspose.Cells?
 
- Puede establecer la celda activa usando el`ActiveCell` propiedad del objeto Hoja de trabajo.
+ Puede establecer la celda activa usando el`ActiveCell`propiedad del objeto Hoja de trabajo.
 
 #### ¿Puedo eliminar solo paneles horizontales o verticales de la ventana de la hoja de trabajo?
 

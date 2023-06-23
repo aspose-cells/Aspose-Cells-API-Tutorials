@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Applicazione delle impostazioni di blocco dei riquadri
+//Applicazione delle impostazioni di blocco dei riquadri
 worksheet.FreezePanes(3, 2, 3, 2);
 // Salvataggio del file Excel modificato
 workbook.Save(dataDir + "output.xls");

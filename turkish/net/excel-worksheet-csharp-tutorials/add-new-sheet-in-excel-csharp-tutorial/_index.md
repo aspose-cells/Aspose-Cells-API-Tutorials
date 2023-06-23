@@ -98,7 +98,7 @@ Evet, Aspose.Cells Java, Python, Ruby ve daha pek çok programlama dilini destek
 
 #### Yeni oluşturulan çalışma sayfasındaki hücrelere biçimlendirme ekleyebilir miyim?
 
-C: Evet, Aspose.Cells'in Worksheet sınıfı tarafından sağlanan yöntemleri kullanarak hücrelere biçimlendirme uygulayabilirsiniz. Hücre stilini ayarlayabilir, arka plan rengini değiştirebilir, kenarlıklar uygulayabilir vb.
+Evet, Aspose.Cells'in Worksheet sınıfı tarafından sağlanan yöntemleri kullanarak hücrelere biçimlendirme uygulayabilirsiniz. Hücre stilini ayarlayabilir, arka plan rengini değiştirebilir, kenarlıklar uygulayabilir vb.
 
 #### Yeni çalışma sayfasından hücre verilerine nasıl erişebilirim?
 

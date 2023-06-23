@@ -71,7 +71,7 @@ style = sheet.Cells.Rows[0].Style;
 // Bloccalo.
 style. IsLocked = true;
 
-// Crea un'istanza della bandiera.
+//Crea un'istanza della bandiera.
 flag = new StyleFlag();
 
 // Impostare il parametro di blocco.
@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definire l'oggetto stile.
 Style style;
-//Definire l'oggetto styleflag.
+// Definire l'oggetto styleflag.
 StyleFlag flag;
 // Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Bloccalo.
 style.IsLocked = true;
-// Crea un'istanza della bandiera.
+//Crea un'istanza della bandiera.
 flag = new StyleFlag();
 // Impostare l'impostazione di blocco.
 flag.Locked = true;
@@ -149,10 +149,13 @@ La protezione dei dati nei file Excel è fondamentale per impedire accessi non a
 ### Domande frequenti
 
 #### La protezione delle righe specifiche funziona in tutte le versioni di Excel?
+
 Sì, la protezione di riga specifica che utilizza Aspose.Cells per .NET funziona in tutte le versioni supportate di Excel.
 
 #### Posso proteggere più righe specifiche in un foglio di calcolo Excel?
+
 Sì, puoi proteggere più righe specifiche utilizzando metodi simili descritti in questa guida.
 
 #### Come posso sbloccare una riga specifica in un foglio di calcolo Excel?
+
  Per sbloccare una riga specifica, è necessario modificare di conseguenza il codice sorgente utilizzando il file`IsLocked` metodo del`Style` oggetto.

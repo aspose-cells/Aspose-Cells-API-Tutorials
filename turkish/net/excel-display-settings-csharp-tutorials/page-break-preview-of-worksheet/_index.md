@@ -32,7 +32,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Adım 4: Excel dosyasını açma
 
- Oluşturmak`FileStream`açılacak Excel dosyasını içeren nesne:
+ Oluşturmak`FileStream` açılacak Excel dosyasını içeren nesne:
 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

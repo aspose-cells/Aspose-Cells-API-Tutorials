@@ -29,7 +29,7 @@ Ställ in katalogen där Excel-dokumentet du vill arbeta med finns. Använd föl
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-Var noga med att ange hela katalogsökvägen.
+Var noga med att ange den fullständiga katalogsökvägen.
 
 ## Steg 4: Skapa ett arbetsboksobjekt
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /sv/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tutorial/
 ---
-I den här handledningen kommer vi att förklara steg för steg C#-källkoden för att lägga till ett nytt ark i Excel med Aspose.Cells för .NET. Att lägga till ett nytt kalkylblad i en Excel-arbetsbok är en vanlig operation när du skapar rapporter eller manipulerar data. Aspose.Cells är ett kraftfullt bibliotek som gör det enkelt att manipulera och generera Excel-filer med .NET. Följ stegen nedan för att förstå och implementera denna kod.
+den här handledningen kommer vi att förklara steg för steg C#-källkoden för att lägga till ett nytt ark i Excel med Aspose.Cells för .NET. Att lägga till ett nytt kalkylblad i en Excel-arbetsbok är en vanlig operation när du skapar rapporter eller manipulerar data. Aspose.Cells är ett kraftfullt bibliotek som gör det enkelt att manipulera och generera Excel-filer med .NET. Följ stegen nedan för att förstå och implementera denna kod.
 
 ## Steg 1: Installation av dokumentkatalog
 
@@ -98,7 +98,7 @@ Ja, Aspose.Cells stöder flera programmeringsspråk som Java, Python, Ruby och m
 
 #### Kan jag lägga till formatering till celler i det nyskapade kalkylbladet?
 
-S: Ja, du kan tillämpa formatering på celler med metoderna som tillhandahålls av Worksheet-klassen Aspose.Cells. Du kan ställa in cellstilen, ändra bakgrundsfärgen, tillämpa ramar osv.
+Ja, du kan tillämpa formatering på celler med metoderna som tillhandahålls av Worksheet-klassen Aspose.Cells. Du kan ställa in cellstilen, ändra bakgrundsfärgen, tillämpa ramar osv.
 
 #### Hur kan jag komma åt celldata från det nya kalkylbladet?
 

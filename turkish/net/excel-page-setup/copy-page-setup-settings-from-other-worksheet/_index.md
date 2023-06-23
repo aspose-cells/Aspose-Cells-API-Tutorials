@@ -40,7 +40,7 @@ TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
 ```
 
 ## Adım 5: Sayfa Yapısı Ayarlarını Kopyalama
- Şimdi sayfa yapılandırma ayarlarını "TestSheet1" çalışma sayfasından "TestSheet2"ye kopyalayacağız. biz kullanacağız`PageSetup.Copy` Bu işlemi gerçekleştirmek için yöntem. İşte bunun için kod:
+Şimdi sayfa yapılandırma ayarlarını "TestSheet1" çalışma sayfasından "TestSheet2"ye kopyalayacağız. biz kullanacağız`PageSetup.Copy` Bu işlemi gerçekleştirmek için yöntem. İşte bunun için kod:
 
 ```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
@@ -84,22 +84,22 @@ Bu makalede, Aspose.Cells for .NET kullanarak sayfa yapılandırma ayarlarının
 
 ### SSS
 
-S: Farklı çalışma kitabı örnekleri arasında sayfa yapılandırma ayarlarını kopyalayabilir miyim?
+#### S: Farklı çalışma kitabı örnekleri arasında sayfa yapılandırma ayarlarını kopyalayabilir miyim?
 
  Y: Evet, farklı çalışma kitabı örnekleri arasında sayfa yapısı ayarlarını kopyalayabilirsiniz.`PageSetup.Copy` Aspose.Cells kitaplığının yöntemi.
 
-S: Yön veya kenar boşlukları gibi diğer sayfa düzeni ayarlarını kopyalayabilir miyim?
+#### S: Yön veya kenar boşlukları gibi diğer sayfa düzeni ayarlarını kopyalayabilir miyim?
 
  A: Evet, diğer sayfa kurulum ayarlarını kullanarak kopyalayabilirsiniz.`PageSetup.Copy` Uygun seçeneklerle yöntem. Örneğin, yönlendirmeyi kullanarak kopyalayabilirsiniz.`CopyOptions.Orientation` ve kenar boşluklarını kullanarak`CopyOptions.Margins`.
 
-S: Kağıt boyutu için hangi seçeneklerin mevcut olduğunu nasıl bilebilirim?
+#### S: Kağıt boyutu için hangi seçeneklerin mevcut olduğunu nasıl bilebilirim?
 
- C: Mevcut kağıt boyutu seçenekleri için Aspose.Cells library API Reference'a bakabilirsiniz. diye bir numara var`PaperSizeType` desteklenen farklı kağıt boyutlarını listeler.
+C: Mevcut kağıt boyutu seçenekleri için Aspose.Cells library API Reference'a bakabilirsiniz. diye bir numara var`PaperSizeType` desteklenen farklı kağıt boyutlarını listeler.
 
-S: .NET için Aspose.Cells kitaplığını nasıl indirebilirim?
+#### S: .NET için Aspose.Cells kitaplığını nasıl indirebilirim?
 
  C: .NET için Aspose.Cells kitaplığını adresinden indirebilirsiniz.[Bültenler](https://releases.aspose.com/cells/net). Ücretsiz deneme sürümlerinin yanı sıra ticari kullanım için ücretli lisanslar da mevcuttur.
 
-S: Aspose.Cells kütüphanesi diğer programlama dillerini destekliyor mu?
+#### S: Aspose.Cells kütüphanesi diğer programlama dillerini destekliyor mu?
 
 C: Evet, Aspose.Cells kitaplığı C#, Java, Python ve daha birçok programlama dilini destekler.

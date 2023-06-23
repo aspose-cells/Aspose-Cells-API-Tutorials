@@ -116,7 +116,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crear un nuevo libro de trabajo.
 Workbook wb = new Workbook();
-// Cree un objeto de hoja de cálculo y obtenga la primera hoja.
+// Cree un objeto de hoja de trabajo y obtenga la primera hoja.
 Worksheet sheet = wb.Worksheets[0];
 // Defina el objeto de estilo.
 Style style;
@@ -141,7 +141,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Finalmente, proteja la hoja ahora.
+// Finalmente, proteja la hoja ahora.
 sheet.Protect(ProtectionType.All);
 // Guarde el archivo de Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);

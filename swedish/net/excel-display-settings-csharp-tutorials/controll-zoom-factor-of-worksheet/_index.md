@@ -31,7 +31,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## Steg 3: Öppna kalkylarket och ändra zoomfaktorn
 
- I det här steget kommer vi åt det första kalkylbladet i Excel-arbetsboken med hjälp av index`0` och ställ in kalkylbladets zoomfaktor till`75`.
+ det här steget kommer vi åt det första kalkylbladet i Excel-arbetsboken med hjälp av index`0` och ställ in kalkylbladets zoomfaktor till`75`.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -40,7 +40,7 @@ worksheet. Zoom = 75;
 
 ## Steg 4: Spara ändringarna och stäng filen
 
- När vi ändrar kalkylbladets zoomfaktor sparar vi ändringarna i Excel-filen med hjälp av`Save` metod för`Workbook`objekt. Sedan stänger vi filströmmen för att frigöra alla använda resurser.
+ När vi ändrar kalkylbladets zoomfaktor sparar vi ändringarna i Excel-filen med hjälp av`Save` metod för`Workbook` objekt. Sedan stänger vi filströmmen för att frigöra alla använda resurser.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");

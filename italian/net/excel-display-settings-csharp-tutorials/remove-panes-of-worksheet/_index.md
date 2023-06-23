@@ -65,7 +65,7 @@ book.Save(dataDir + "output.xls");
 ```csharp
 // Il percorso della directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Creare un'istanza di una nuova cartella di lavoro e aprire un file modello
+// Creare un'istanza di una nuova cartella di lavoro e aprire un file modello
 Workbook book = new Workbook(dataDir + "Book1.xls");
 // Imposta la cella attiva
 book.Worksheets[0].ActiveCell = "A20";
@@ -87,7 +87,7 @@ Aspose.Cells per .NET è una popolare libreria software per la manipolazione di 
 
 #### Come posso impostare la cella attiva di un foglio di lavoro in Aspose.Cells?
 
- È possibile impostare la cella attiva utilizzando il`ActiveCell` proprietà dell'oggetto Worksheet.
+ È possibile impostare la cella attiva utilizzando il`ActiveCell`proprietà dell'oggetto Worksheet.
 
 #### Posso rimuovere solo i riquadri orizzontali o verticali dalla finestra del foglio di lavoro?
 

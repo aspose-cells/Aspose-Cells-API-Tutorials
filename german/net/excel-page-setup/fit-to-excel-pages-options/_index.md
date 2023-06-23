@@ -68,18 +68,18 @@ In diesem Artikel haben wir gelernt, wie man mit Aspose.Cells für .NET die Anpa
 
 ### FAQs
 
-F: Wie kann ich Aspose.Cells für .NET installieren?
+#### F: Wie kann ich Aspose.Cells für .NET installieren?
 
 A: Um Aspose.Cells für .NET zu installieren, können Sie den NuGet-Paketmanager in Visual Studio verwenden. Suchen Sie das Paket „Aspose.Cells“ und installieren Sie es in Ihrem Projekt.
 
-F: Kann ich Seiten sowohl in der Höhe als auch in der Breite anpassen?
+#### F: Kann ich Seiten sowohl in der Höhe als auch in der Breite anpassen?
 
  A: Ja, Sie können sowohl die Höhe als auch die Breite des Arbeitsblatts anpassen`FitToPagesTall` Und`FitToPagesWide` Eigenschaften. Sie können für jede Dimension die gewünschte Anzahl an Seiten angeben.
 
-F: Wie kann ich die Optionen „An Seiten anpassen“ anpassen?
+#### F: Wie kann ich die Optionen „An Seiten anpassen“ anpassen?
 
 A: Zusätzlich zur Angabe der Anzahl der Seiten können Sie auch andere Optionen zur Seitenanpassung anpassen, z. B. den Arbeitsblattmaßstab, die Papierausrichtung, die Ränder und mehr. Nutzen Sie die in der verfügbaren Eigenschaften`PageSetup` Einspruch hierfür einlegen.
 
-F: Kann ich Aspose.Cells für .NET verwenden, um vorhandene Arbeitsmappen zu verarbeiten?
+#### F: Kann ich Aspose.Cells für .NET verwenden, um vorhandene Arbeitsmappen zu verarbeiten?
 
 A: Ja, Sie können Aspose.Cells für .NET verwenden, um vorhandene Arbeitsmappen zu öffnen und zu bearbeiten. Sie können auf Arbeitsblätter, Zellen, Formeln, Stile und andere Arbeitsmappenelemente zugreifen, um verschiedene Vorgänge auszuführen.

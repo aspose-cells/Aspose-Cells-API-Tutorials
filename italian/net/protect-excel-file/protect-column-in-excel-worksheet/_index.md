@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definire l'oggetto stile.
 Style style;
-//Definire l'oggetto styleflag.
+// Definire l'oggetto styleflag.
 StyleFlag flag;
 // Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Bloccalo.
 style.IsLocked = true;
-// Crea un'istanza della bandiera.
+//Crea un'istanza della bandiera.
 flag = new StyleFlag();
 // Impostare l'impostazione di blocco.
 flag.Locked = true;

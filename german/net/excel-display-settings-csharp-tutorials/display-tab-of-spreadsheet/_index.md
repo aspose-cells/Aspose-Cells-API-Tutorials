@@ -72,7 +72,7 @@ Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Bearbeiten von Ex
 
 #### Wie zeige ich die Registerkarte einer Excel-Tabelle mit Aspose.Cells für .NET an?
 
- Du kannst den ... benutzen`ShowTabs` Eigentum der`Workbook.Settings` Objekt und setzen Sie es auf`true` um die Registerkarte „Arbeitsblatt“ anzuzeigen.
+ Du kannst den ... benutzen`ShowTabs` Eigentum der`Workbook.Settings` Objekt und setzen Sie es auf`true` , um die Registerkarte „Arbeitsblatt“ anzuzeigen.
 
 #### Welche anderen Excel-Dateiformate werden von Aspose.Cells für .NET unterstützt?
 

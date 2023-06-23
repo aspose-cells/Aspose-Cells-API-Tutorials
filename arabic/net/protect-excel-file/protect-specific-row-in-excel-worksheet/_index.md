@@ -71,7 +71,7 @@ style = sheet.Cells.Rows[0].Style;
 // أغلق.
 style. IsLocked = true;
 
-// تجسيد العلم.
+//تجسيد العلم.
 flag = new StyleFlag();
 
 // اضبط معلمة القفل.
@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // تحديد كائن النمط.
 Style style;
-//تحديد كائن styleflag.
+// تحديد كائن styleflag.
 StyleFlag flag;
 // قم بالتكرار خلال جميع الأعمدة في ورقة العمل وقم بإلغاء تأمينها.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // أغلق.
 style.IsLocked = true;
-// تجسيد العلم.
+//تجسيد العلم.
 flag = new StyleFlag();
 // اضبط إعداد القفل.
 flag.Locked = true;
@@ -149,10 +149,13 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ### أسئلة وأجوبة
 
 #### هل تعمل حماية صف معينة في جميع إصدارات Excel؟
+
 نعم ، تعمل حماية الصفوف المحددة باستخدام Aspose.Cells for .NET في جميع الإصدارات المدعومة من Excel.
 
 #### هل يمكنني حماية عدة صفوف محددة في جدول بيانات Excel؟
+
 نعم ، يمكنك حماية عدة صفوف محددة باستخدام طرق مماثلة موصوفة في هذا الدليل.
 
 #### كيف يمكنني فتح صف معين في جدول بيانات Excel؟
+
  لإلغاء تأمين صف معين ، يجب عليك تعديل كود المصدر وفقًا لذلك باستخدام ملف`IsLocked` طريقة`Style` هدف.

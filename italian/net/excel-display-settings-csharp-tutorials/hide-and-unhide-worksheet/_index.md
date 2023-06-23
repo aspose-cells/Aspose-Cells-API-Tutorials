@@ -52,7 +52,7 @@ worksheet. IsVisible = false;
 
 ## Passaggio 6: visualizzare nuovamente il foglio di lavoro
 
- Se desideri visualizzare nuovamente il foglio di lavoro precedentemente nascosto, puoi utilizzare lo stesso codice modificando il valore di`IsVisible` proprietà. Utilizzare il codice seguente per visualizzare nuovamente il primo foglio di lavoro:
+Se desideri visualizzare nuovamente il foglio di lavoro precedentemente nascosto, puoi utilizzare lo stesso codice modificando il valore di`IsVisible` proprietà. Utilizzare il codice seguente per visualizzare nuovamente il primo foglio di lavoro:
 
 ```csharp
 worksheet. IsVisible = true;

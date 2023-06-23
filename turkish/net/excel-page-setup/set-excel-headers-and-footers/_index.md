@@ -118,7 +118,7 @@ Aspose.Cells for .NET'i kurmak için kurulum paketini Aspose resmi web sitesinde
 Evet, Aspose.Cells for .NET ile üst bilgileri ve alt bilgileri ayarlama yöntemi, desteklenen tüm Excel sürümleriyle çalışır.
 
 #### 3. Üst bilgileri ve alt bilgileri daha fazla özelleştirebilir miyim?
-Evet, Aspose.Cells üst bilgileri ve alt bilgileri özelleştirmek için metin yerleşimi, renk, yazı tipi, sayfa numaraları ve daha fazlası dahil olmak üzere kapsamlı bir özellik yelpazesi sunar.
+Evet, Aspose.Cells üst bilgileri ve alt bilgileri özelleştirmek için metin yerleşimi, renk, yazı tipi, sayfa numaraları ve daha fazlası dahil olmak üzere çok çeşitli özellikler sunar.
 
 #### 4. Üstbilgilere ve altbilgilere nasıl dinamik bilgi ekleyebilirim?
 Geçerli tarih, saat, dosya adı, sayfa numarası gibi dinamik bilgileri üstbilgilere ve altbilgilere eklemek için özel değişkenleri ve biçimlendirme kodlarını kullanabilirsiniz.

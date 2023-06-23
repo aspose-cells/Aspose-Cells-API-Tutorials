@@ -19,3 +19,9 @@ Ya sea que sea un desarrollador principiante o experimentado, los tutoriales de 
 | [Configuración de visualización de Excel](./excel-display-settings-csharp-tutorials) | Consulte los tutoriales de C# de Aspose.Cells para personalizar la visualización de Excel. Cambie fuentes, colores, formatos y cree informes atractivos. |
 | [Configuración de página de Excel](./excel-page-setup) | Consulte los tutoriales de Aspose.Cells para .NET sobre cómo configurar el diseño de página de Excel. Personaliza tus archivos de Excel con facilidad. |
 | [Proteger archivo de Excel](./protect-excel-file/) | Consulte los tutoriales de Aspose.Cells para .NET sobre la protección de archivos de Excel. Aprenda a proteger sus datos confidenciales con C#. |
+| [Libro de Excel](./excel-workbook/) | Explore los tutoriales de Aspose.Cells para .NET para dominar el trabajo con libros de Excel usando ejemplos de código paso a paso. |
+| [Hoja de trabajo de copia de Excel](./excel-copy-worksheet/) | Aprenda a copiar y personalizar hojas de cálculo de Excel con Aspose.Cells para .NET. Tutoriales detallados para dominar la manipulación y el formateo de datos. |
+| [Saltos de página de Excel](./excel-page-breaks/) | Consulte tutoriales detallados sobre saltos de página de Excel con Aspose.Cells para .NET. Mejore el diseño de sus libros de Excel con facilidad. |
+| [Desproteger hoja de Excel](./unprotect-excel-sheet/) | Aprenda a desproteger una hoja de cálculo de Excel usando Aspose.Cells para .NET. Tutoriales detallados para desarrolladores en C#. |
+| [Excel Seguridad](./excel-security/) | Descubra completos tutoriales de seguridad de Excel con Aspose.Cells para .NET. Proteja sus archivos de Excel y controle el acceso a datos confidenciales. |
+| [Desproteger hoja de Excel](./unprotect-excel-sheet/) | Aprenda a desproteger una hoja de cálculo de Excel usando Aspose.Cells para .NET. Tutoriales detallados para desarrolladores en C#. |

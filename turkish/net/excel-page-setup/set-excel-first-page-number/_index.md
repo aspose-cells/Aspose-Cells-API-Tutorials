@@ -88,7 +88,7 @@ Artık Aspose.Cells for .NET kullanarak Excel'de ilk sayfa numarasını nasıl a
 
 #### S2: Mevcut bir e-tablonun ilk sayfa numarasını nasıl kontrol edebilirim?
 
- A2: Mevcut bir çalışma sayfasının ilk sayfa numarasını şu adrese erişerek kontrol edebilirsiniz:`FirstPageNumber` mülkiyeti`PageSetup` bu çalışma sayfasına karşılık gelen nesne.
+ A2: Mevcut bir çalışma sayfasının ilk sayfa numarasını şu adrese erişerek kontrol edebilirsiniz:`FirstPageNumber` mülkiyeti`PageSetup` o çalışma sayfasına karşılık gelen nesne.
 
 #### S3: Sayfa numaralandırma varsayılan olarak her zaman 1'den mi başlar?
 

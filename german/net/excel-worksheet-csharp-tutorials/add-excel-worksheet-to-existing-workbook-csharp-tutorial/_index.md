@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Schritt 3: Instanziieren Sie ein Arbeitsmappenobjekt
 
- Nach dem Öffnen der Excel-Datei müssen Sie a instanziieren`Workbook` Objekt. Dieses Objekt stellt die Excel-Arbeitsmappe dar und bietet verschiedene Methoden und Eigenschaften zum Bearbeiten der Arbeitsmappe.
+ Nach dem Öffnen der Excel-Datei müssen Sie a instanziieren`Workbook`Objekt. Dieses Objekt stellt die Excel-Arbeitsmappe dar und bietet verschiedene Methoden und Eigenschaften zum Bearbeiten der Arbeitsmappe.
 
 ```csharp
 // Instanziieren Sie ein Workbook-Objekt
@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  Sie können den Namen des neu hinzugefügten Blattes mit festlegen`Name` Eigentum der`Worksheet` Objekt.
 
 ```csharp
-//Erhalten Sie die Referenz des neu hinzugefügten Blattes, indem Sie dessen Blattindex übergeben
+// Erhalten Sie die Referenz des neu hinzugefügten Blattes, indem Sie dessen Blattindex übergeben
 Worksheet worksheet = workbook.Worksheets[i];
 // Definieren Sie den Namen des neuen Blattes
 worksheet.Name = "My Worksheet";

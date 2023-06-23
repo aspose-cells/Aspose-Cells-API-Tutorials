@@ -15,7 +15,7 @@ Innan du börjar, se till att du har installerat Aspose.Cells för .NET och stä
 
 ## Steg 2: Importera nödvändiga beroenden
 
-I ditt .NET-projekt lägger du till en referens till Aspose.Cells-biblioteket. Du kan göra detta genom att använda ditt användargränssnitt för integrerad utvecklingsmiljö (IDE) eller genom att manuellt lägga till referensen till DLL-filen.
+ditt .NET-projekt lägger du till en referens till Aspose.Cells-biblioteket. Du kan göra detta genom att använda ditt användargränssnitt för integrerad utvecklingsmiljö (IDE) eller genom att manuellt lägga till referensen till DLL-filen.
 
 ## Steg 3: Kodinitiering
 
@@ -71,7 +71,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## Slutsats
 
-I den här steg-för-steg-guiden lärde du dig hur du döljer kalkylbladsflikar med Aspose.Cells för .NET. Genom att använda lämpliga metoder och egenskaper från Aspose.Cells-biblioteket kan du ytterligare anpassa dina Excel-filer efter dina behov.
+den här steg-för-steg-guiden lärde du dig hur du döljer kalkylbladsflikar med Aspose.Cells för .NET. Genom att använda lämpliga metoder och egenskaper från Aspose.Cells-biblioteket kan du ytterligare anpassa dina Excel-filer efter dina behov.
 
 ### Vanliga frågor (FAQ)
 

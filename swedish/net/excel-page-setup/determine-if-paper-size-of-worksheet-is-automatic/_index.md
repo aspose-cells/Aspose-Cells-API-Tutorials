@@ -76,14 +76,18 @@ tillgång till kalkylblad och automatisk pappersstorlekskontroll. Nu kan du anv�
 
 ### Vanliga frågor
 
-F: Hur kan jag ladda arbetsböcker med Aspose.Cells för .NET?
+#### F: Hur kan jag ladda arbetsböcker med Aspose.Cells för .NET?
+
 S: Du kan ladda arbetsböcker med klassen Workbook från Aspose.Cells-biblioteket. Använd metoden Workbook.Load för att ladda en arbetsbok från en fil.
 
-F: Kan jag kontrollera den automatiska pappersstorleken för andra kalkylblad?
+#### F: Kan jag kontrollera den automatiska pappersstorleken för andra kalkylblad?
+
 S: Ja, du kan kontrollera den automatiska pappersstorleken för alla kalkylblad genom att gå till egenskapen PageSetup.IsAutomaticPaperSize för motsvarande kalkylbladsobjekt.
 
-F: Hur kan jag ändra den automatiska pappersstorleken för ett kalkylark?
+#### F: Hur kan jag ändra den automatiska pappersstorleken för ett kalkylark?
+
 S: För att ändra den automatiska pappersstorleken för ett kalkylblad kan du använda egenskapen PageSetup.IsAutomaticPaperSize och ställa in det på önskat värde (sant eller falskt).
 
-F: Vilka andra funktioner erbjuder Aspose.Cells för .NET?
+#### F: Vilka andra funktioner erbjuder Aspose.Cells för .NET?
+
 S: Aspose.Cells för .NET erbjuder många funktioner för att arbeta med kalkylblad, som att skapa, ändra och konvertera arbetsböcker, samt manipulera data, formler och formatering.

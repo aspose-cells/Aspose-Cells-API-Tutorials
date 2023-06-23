@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(InputPath, FileMode.Open);
 
 ## Steg 4: Instantiera ett arbetsboksobjekt
 
- Efter att ha öppnat Excel-filen måste du instansiera en`Workbook` objekt. Det här objektet representerar Excel-arbetsboken och erbjuder olika metoder och egenskaper för att manipulera arbetsboken.
+ Efter att ha öppnat Excel-filen måste du instansiera en`Workbook`objekt. Det här objektet representerar Excel-arbetsboken och erbjuder olika metoder och egenskaper för att manipulera arbetsboken.
 
 ```csharp
 // Instantiera ett arbetsboksobjekt
@@ -55,7 +55,7 @@ För att komma åt ett specifikt kalkylblad efter namn, kan du använda`Workshee
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 ```
 
-## Steg 6: Få åtkomst till en specifik cell
+## Steg 6: Gå till en specifik cell
 
  När du har navigerat till önskat kalkylblad kan du navigera till en specifik cell med hjälp av`Cells` egendom av`Worksheet` objekt och indexera cellreferensen.
 

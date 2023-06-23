@@ -45,7 +45,7 @@ Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.Pa
 
 ## Étape 5 : Définissez le format de papier sur A4 et imprimez la largeur et la hauteur en pouces
 
-Nous allons maintenant définir le format de papier sur A4 et imprimer la largeur et la hauteur de la page en pouces. Voici le code :
+Nous allons maintenant définir le format de papier sur A4 et imprimer la largeur et la hauteur de la page en pouces. Voici le code :
 
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
@@ -54,7 +54,7 @@ Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.Pa
 
 ## Étape 6 : Définissez le format de papier sur Lettre et imprimez la largeur et la hauteur en pouces
 
-Enfin, nous définirons le format de papier sur Lettre et imprimerons la largeur et la hauteur de la page en pouces. Voici le code :
+Enfin, nous définirons le format de papier sur Lettre et imprimerons la largeur et la hauteur de la page en pouces. Voici le code :
 
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;

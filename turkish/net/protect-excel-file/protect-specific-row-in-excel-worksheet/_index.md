@@ -71,7 +71,7 @@ style = sheet.Cells.Rows[0].Style;
 // Kilitle.
 style. IsLocked = true;
 
-// Bayrağı somutlaştırın.
+//Bayrağı somutlaştırın.
 flag = new StyleFlag();
 
 // Kilit parametresini ayarlayın.
@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Stil nesnesini tanımlayın.
 Style style;
-//styleflag nesnesini tanımlayın.
+// styleflag nesnesini tanımlayın.
 StyleFlag flag;
 // Çalışma sayfasındaki tüm sütunlarda dolaşın ve bunların kilidini açın.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Kilitle.
 style.IsLocked = true;
-// Bayrağı somutlaştırın.
+//Bayrağı somutlaştırın.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;
@@ -149,10 +149,13 @@ Excel dosyalarındaki verileri korumak, yetkisiz erişimi veya istenmeyen deği�
 ### SSS
 
 #### Belirli satır koruması Excel'in tüm sürümlerinde çalışır mı?
+
 Evet, Aspose.Cells for .NET kullanan belirli satır koruması, Excel'in desteklenen tüm sürümlerinde çalışır.
 
 #### Bir Excel elektronik tablosundaki birden çok belirli satırı koruyabilir miyim?
+
 Evet, bu kılavuzda açıklanan benzer yöntemleri kullanarak birden çok belirli satırı koruyabilirsiniz.
 
 #### Bir Excel elektronik tablosundaki belirli bir satırın kilidini nasıl açabilirim?
+
  Belirli bir satırın kilidini açmak için kaynak kodunu kullanarak uygun şekilde değiştirmelisiniz.`IsLocked` yöntemi`Style` nesne.

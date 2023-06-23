@@ -80,7 +80,7 @@ Aspose.Cells för .NET är ett kraftfullt bibliotek för att manipulera Excel-fi
 
 #### Hur kan jag visa eller dölja rad- och kolumnrubriker i ett Excel-kalkylblad med Aspose.Cells för .NET?
 
- Du kan använda`IsRowColumnHeadersVisible` egendom av`Worksheet` objekt för att visa eller dölja rad- och kolumnrubriker. Ställ in den på`true` att visa dem och till`false` att dölja dem.
+ Du kan använda`IsRowColumnHeadersVisible` egendom av`Worksheet`objekt för att visa eller dölja rad- och kolumnrubriker. Ställ in den på`true` att visa dem och till`false` att dölja dem.
 
 #### Vilka andra Excel-filformat stöds av Aspose.Cells för .NET?
 

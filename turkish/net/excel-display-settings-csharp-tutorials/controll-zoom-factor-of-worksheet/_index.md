@@ -31,7 +31,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## 3. Adım: Elektronik tabloya erişin ve yakınlaştırma faktörünü değiştirin
 
- Bu adımda index kullanarak Excel çalışma kitabının ilk çalışma sayfasına erişiyoruz.`0` ve çalışma sayfası yakınlaştırma faktörünü şu şekilde ayarlayın:`75`.
+Bu adımda index kullanarak Excel çalışma kitabının ilk çalışma sayfasına erişiyoruz.`0` ve çalışma sayfası yakınlaştırma faktörünü şu şekilde ayarlayın:`75`.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -40,7 +40,7 @@ worksheet. Zoom = 75;
 
 ## 4. Adım: Değişiklikleri kaydedin ve dosyayı kapatın
 
- Çalışma sayfası yakınlaştırma faktörünü değiştirdikten sonra, değişiklikleri kullanarak Excel dosyasına kaydediyoruz.`Save` yöntemi`Workbook`nesne. Ardından, kullanılan tüm kaynakları serbest bırakmak için dosya akışını kapatırız.
+ Çalışma sayfası yakınlaştırma faktörünü değiştirdikten sonra, değişiklikleri kullanarak Excel dosyasına kaydediyoruz.`Save` yöntemi`Workbook` nesne. Ardından, kullanılan tüm kaynakları serbest bırakmak için dosya akışını kapatırız.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");

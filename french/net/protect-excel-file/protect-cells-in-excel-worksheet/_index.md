@@ -25,14 +25,14 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-// Créer un nouveau classeur
+//Créer un nouveau classeur
 Workbook workbook = new Workbook();
 
 // Obtenir la première feuille de calcul
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- Dans cet extrait de code, nous définissons d'abord le chemin d'accès au répertoire où le fichier Excel sera enregistré. Ensuite, nous créons une nouvelle instance de`Workbook` classe et obtenir la référence à la première feuille de calcul en utilisant le`Worksheets`propriété.
+ Dans cet extrait de code, nous définissons d'abord le chemin d'accès au répertoire où le fichier Excel sera enregistré. Ensuite, nous créons une nouvelle instance de`Workbook` classe et obtenir la référence à la première feuille de calcul en utilisant le`Worksheets` propriété.
 
 ## Étape 3 : Définir le style de cellule
 
@@ -131,7 +131,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Enfin, Protégez la feuille maintenant.
+// Enfin, Protégez la feuille maintenant.
 sheet.Protect(ProtectionType.All);
 // Enregistrez le fichier excel.
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
@@ -145,13 +145,17 @@ Félicitation ! Vous avez appris à protéger des cellules spécifiques dans une
 ### FAQ
 
 #### Q : Pourquoi devrais-je utiliser Aspose.Cells pour .NET pour protéger les cellules d'une feuille de calcul Excel ?
+
 R : Aspose.Cells pour .NET est une bibliothèque puissante qui facilite le travail avec les fichiers Excel. Il offre des fonctionnalités avancées pour protéger les cellules, déverrouiller les plages, etc.
 
 #### Q : Est-il possible de protéger des plages de cellules au lieu de cellules individuelles ?
+
  R : Oui, vous pouvez définir des plages de cellules spécifiques à protéger à l'aide de`ApplyStyle` méthode avec une méthode appropriée`StyleFlag`.
 
 #### Q : Comment puis-je ouvrir le fichier Excel protégé après l'avoir enregistré ?
+
 R : Lorsque vous ouvrez le fichier Excel protégé, vous devrez fournir le mot de passe spécifié lors de la protection de la feuille de calcul.
 
 #### Q : Existe-t-il d'autres types de protection que je peux appliquer à une feuille de calcul Excel ?
+
 : Oui, Aspose.Cells pour .NET prend en charge plusieurs types de protection, tels que la protection de la structure, la protection des fenêtres, etc. Vous pouvez choisir le type de protection approprié en fonction de vos besoins.

@@ -114,7 +114,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Stil nesnesini tanımlayın.
 Style style;
-//styleflag nesnesini tanımlayın.
+// styleflag nesnesini tanımlayın.
 StyleFlag flag;
 // Çalışma sayfasındaki tüm sütunlarda dolaşın ve bunların kilidini açın.
 for (int i = 0; i <= 255; i++)
@@ -129,7 +129,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Kilitle.
 style.IsLocked = true;
-// Bayrağı somutlaştırın.
+//Bayrağı somutlaştırın.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;
@@ -148,16 +148,21 @@ Tebrikler! Artık Aspose.Cells library for .NET'i kullanarak bir Excel elektroni
 ### SSS (Sıkça Sorulan Sorular)
 
 #### Bu kod, Excel'in son sürümleriyle çalışır mı?
+
 Evet, bu kod, Excel 2010 ve üzeri formattaki dosyalar dahil olmak üzere Excel'in son sürümleriyle çalışır.
 
 #### Çalışma sayfasındaki tüm satırlar yerine yalnızca belirli satırları koruyabilir miyim?
+
 Evet, korumak istediğiniz belirli satırları belirtmek için kodu değiştirebilirsiniz. Döngüyü ve indeksleri buna göre ayarlamanız gerekecektir.
 
 #### Kilitli hatları tekrar nasıl açabilirim?
+
  kullanabilirsiniz`IsLocked` yöntemi`Style` değeri ayarlamak için nesne`false` ve satırların kilidini açın.
 
-#### Aynı Excel çalışma kitabında birden çok çalışma sayfasını korumak mümkün mü?
+#### Aynı Excel çalışma kitabında birden çok çalışma sayfasını korumak mümkün müdür?
+
 Evet, çalışma kitabı oluşturma, stil belirleme ve koruma adımlarını çalışma kitabındaki her çalışma sayfası için tekrarlayabilirsiniz.
 
 #### Elektronik tablo koruma parolasını nasıl değiştirebilirim?
+
  kullanarak parolayı değiştirebilirsiniz.`Protect` yöntem ve bağımsız değişken olarak yeni bir parola belirtmek.

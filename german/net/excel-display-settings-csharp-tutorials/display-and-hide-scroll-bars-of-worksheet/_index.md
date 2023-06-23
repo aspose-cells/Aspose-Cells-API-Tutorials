@@ -81,7 +81,7 @@ Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Bearbeiten von Ex
 
 #### Wie kann ich mit Aspose.Cells für .NET Bildlaufleisten in einer Excel-Tabelle anzeigen oder ausblenden?
 
- Du kannst den ... benutzen`IsVScrollBarVisible` Und`IsHScrollBarVisible` Eigenschaften der`Workbook.Settings`Objekt zum Anzeigen bzw. Ausblenden der vertikalen und horizontalen Bildlaufleiste in einem Excel-Arbeitsblatt.
+ Du kannst den ... benutzen`IsVScrollBarVisible` Und`IsHScrollBarVisible` Eigenschaften der`Workbook.Settings` Objekt zum Anzeigen bzw. Ausblenden der vertikalen und horizontalen Bildlaufleiste in einem Excel-Arbeitsblatt.
 
 #### Welche anderen Excel-Dateiformate werden von Aspose.Cells für .NET unterstützt?
 

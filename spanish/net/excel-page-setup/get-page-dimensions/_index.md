@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /es/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells para .NET es una poderosa biblioteca que permite a los desarrolladores trabajar con archivos de Microsoft Excel mediante programación. Ofrece una amplia gama de funciones para manipular documentos de Excel, incluida la capacidad de obtener dimensiones de página. En este tutorial, lo guiaremos a través de los pasos para recuperar las dimensiones de la página usando Aspose.Cells para .NET.
+Aspose.Cells para .NET es una potente biblioteca que permite a los desarrolladores trabajar con archivos de Microsoft Excel mediante programación. Ofrece una amplia gama de funciones para manipular documentos de Excel, incluida la capacidad de obtener las dimensiones de la página. En este tutorial, lo guiaremos a través de los pasos para recuperar las dimensiones de la página usando Aspose.Cells para .NET.
 
 ## Paso 1: crear una instancia de la clase Workbook
 

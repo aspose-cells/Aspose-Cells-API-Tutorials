@@ -65,7 +65,7 @@ book.Save(dataDir + "output.xls");
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instantiera en ny arbetsbok och öppna en mallfil
+// Instantiera en ny arbetsbok och öppna en mallfil
 Workbook book = new Workbook(dataDir + "Book1.xls");
 // Ställ in den aktiva cellen
 book.Worksheets[0].ActiveCell = "A20";
@@ -87,7 +87,7 @@ Aspose.Cells för .NET är ett populärt programbibliotek för att manipulera Ex
 
 #### Hur kan jag ställa in den aktiva cellen i ett kalkylblad i Aspose.Cells?
 
- Du kan ställa in den aktiva cellen med hjälp av`ActiveCell` egenskapen för kalkylbladsobjektet.
+ Du kan ställa in den aktiva cellen med hjälp av`ActiveCell`egenskapen för kalkylbladsobjektet.
 
 #### Kan jag ta bort endast horisontella eller vertikala rutor från kalkylbladsfönstret?
 

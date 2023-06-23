@@ -25,14 +25,14 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-// Skapa en ny arbetsbok
+//Skapa en ny arbetsbok
 Workbook workbook = new Workbook();
 
 // Skaffa det första arbetsbladet
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- I det här kodavsnittet definierar vi först sökvägen till katalogen där Excel-filen ska sparas. Därefter skapar vi en ny instans av`Workbook` klass och få referensen till det första kalkylbladet med hjälp av`Worksheets`fast egendom.
+ I det här kodavsnittet definierar vi först sökvägen till katalogen där Excel-filen ska sparas. Därefter skapar vi en ny instans av`Workbook` klass och få referensen till det första kalkylbladet med hjälp av`Worksheets` fast egendom.
 
 ## Steg 3: Definiera cellstil
 
@@ -131,7 +131,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Slutligen, Skydda arket nu.
+// Slutligen, Skydda arket nu.
 sheet.Protect(ProtectionType.All);
 // Spara excel-filen.
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
@@ -145,13 +145,17 @@ Grattis! Du har lärt dig hur du skyddar specifika celler i ett Excel-kalkylblad
 ### Vanliga frågor
 
 #### F: Varför ska jag använda Aspose.Cells för .NET för att skydda celler i ett Excel-kalkylblad?
+
 S: Aspose.Cells för .NET är ett kraftfullt bibliotek som gör det enkelt att arbeta med Excel-filer. Den erbjuder avancerade funktioner för att skydda celler, låsa upp intervall, etc.
 
 #### F: Är det möjligt att skydda cellområden istället för enskilda celler?
+
  S: Ja, du kan definiera specifika cellområden för att skydda med hjälp av`ApplyStyle` metod med en lämplig`StyleFlag`.
 
 #### F: Hur kan jag öppna den skyddade Excel-filen efter att ha sparat den?
+
 S: När du öppnar den skyddade Excel-filen måste du ange lösenordet som anges när du skyddar kalkylbladet.
 
 #### F: Finns det andra typer av skydd som jag kan tillämpa på ett Excel-kalkylblad?
+
 S: Ja, Aspose.Cells för .NET stöder flera typer av skydd, såsom strukturskydd, fönsterskydd, etc. Du kan välja lämplig typ av skydd efter dina behov.

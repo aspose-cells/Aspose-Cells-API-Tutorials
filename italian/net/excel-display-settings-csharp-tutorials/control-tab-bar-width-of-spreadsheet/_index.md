@@ -28,7 +28,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## Passaggio 3: nascondi le schede del foglio di lavoro
 
-Per nascondere le schede del foglio di lavoro, puoi utilizzare il file`ShowTabs` proprietà del`Settings` oggetto del`Workbook` classe. Impostalo su`false` per nascondere le schede.
+ Per nascondere le schede del foglio di lavoro, puoi utilizzare il file`ShowTabs` proprietà del`Settings` oggetto del`Workbook` classe. Impostalo su`false` per nascondere le schede.
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,4 +89,4 @@ Aspose.Cells per .NET offre molte funzionalità, come la creazione, la modifica,
 
 #### Come regolare la larghezza della barra delle schede con Aspose.Cells per .NET?
 
- È possibile regolare la larghezza della barra delle schede utilizzando il`SheetTabBarWidth` proprietà del`Settings` oggetto del`Workbook` class e assegnandole un valore numerico in punti.
+È possibile regolare la larghezza della barra delle schede utilizzando il`SheetTabBarWidth` proprietà del`Settings` oggetto del`Workbook` class e assegnandole un valore numerico in punti.

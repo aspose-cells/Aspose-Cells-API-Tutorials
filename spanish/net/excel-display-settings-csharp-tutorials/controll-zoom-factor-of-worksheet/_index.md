@@ -31,7 +31,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## Paso 3: acceda a la hoja de cálculo y cambie el factor de zoom
 
- En este paso, accedemos a la primera hoja de trabajo del libro de Excel usando index`0` y establezca el factor de zoom de la hoja de cálculo en`75`.
+En este paso, accedemos a la primera hoja de trabajo del libro de Excel usando index`0` y establezca el factor de zoom de la hoja de cálculo en`75`.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -40,7 +40,7 @@ worksheet. Zoom = 75;
 
 ## Paso 4: Guarda los cambios y cierra el archivo
 
- Una vez que cambiamos el factor de zoom de la hoja de trabajo, guardamos los cambios en el archivo de Excel usando el`Save` metodo de la`Workbook`objeto. Luego cerramos el flujo de archivos para liberar todos los recursos usados.
+ Una vez que cambiamos el factor de zoom de la hoja de trabajo, guardamos los cambios en el archivo de Excel usando el`Save` metodo de la`Workbook` objeto. Luego cerramos el flujo de archivos para liberar todos los recursos usados.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");

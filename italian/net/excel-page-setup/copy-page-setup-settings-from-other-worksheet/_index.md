@@ -40,7 +40,7 @@ TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
 ```
 
 ## Passaggio 5: copia delle impostazioni di configurazione della pagina
- Ora copieremo le impostazioni di configurazione della pagina dal foglio di lavoro "TestSheet1" a "TestSheet2". Useremo il`PageSetup.Copy` metodo per eseguire questa operazione. Ecco il codice per questo:
+Ora copieremo le impostazioni di configurazione della pagina dal foglio di lavoro "TestSheet1" a "TestSheet2". Useremo il`PageSetup.Copy` metodo per eseguire questa operazione. Ecco il codice per questo:
 
 ```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
@@ -84,22 +84,22 @@ In questo articolo, abbiamo imparato come copiare le impostazioni di configurazi
 
 ### Domande frequenti
 
-D: Posso copiare le impostazioni di configurazione della pagina tra diverse istanze della cartella di lavoro?
+#### D: Posso copiare le impostazioni di configurazione della pagina tra diverse istanze della cartella di lavoro?
 
  R: Sì, puoi copiare le impostazioni di configurazione della pagina tra diverse istanze della cartella di lavoro utilizzando il file`PageSetup.Copy` metodo della libreria Aspose.Cells.
 
-D: Posso copiare altre impostazioni di configurazione della pagina, come l'orientamento o i margini?
+#### D: Posso copiare altre impostazioni di configurazione della pagina, come l'orientamento o i margini?
 
  R: Sì, puoi copiare altre impostazioni di configurazione della pagina utilizzando il file`PageSetup.Copy` metodo con le opzioni appropriate. Ad esempio, puoi copiare l'orientamento utilizzando`CopyOptions.Orientation` e margini utilizzando`CopyOptions.Margins`.
 
-D: Come faccio a sapere quali opzioni sono disponibili per il formato carta?
+#### D: Come faccio a sapere quali opzioni sono disponibili per il formato carta?
 
- R: È possibile controllare il riferimento API della libreria Aspose.Cells per le opzioni disponibili per il formato carta. C'è un enum chiamato`PaperSizeType` che elenca i diversi formati carta supportati.
+R: È possibile controllare il riferimento API della libreria Aspose.Cells per le opzioni disponibili per il formato carta. C'è un enum chiamato`PaperSizeType` che elenca i diversi formati carta supportati.
 
-D: Come posso scaricare la libreria Aspose.Cells per .NET?
+#### D: Come posso scaricare la libreria Aspose.Cells per .NET?
 
  R: Puoi scaricare la libreria Aspose.Cells per .NET da[Aspose Rilasci](https://releases.aspose.com/cells/net). Sono disponibili versioni di prova gratuite e licenze a pagamento per uso commerciale.
 
-D: La libreria Aspose.Cells supporta altri linguaggi di programmazione?
+#### D: La libreria Aspose.Cells supporta altri linguaggi di programmazione?
 
 R: Sì, la libreria Aspose.Cells supporta più linguaggi di programmazione tra cui C#, Java, Python e molti altri.

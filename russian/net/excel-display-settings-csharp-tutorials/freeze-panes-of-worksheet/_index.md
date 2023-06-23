@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Доступ к первому рабочему листу в файле Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Применение настроек стоп-кадра
+//Применение настроек стоп-кадра
 worksheet.FreezePanes(3, 2, 3, 2);
 // Сохранение измененного файла Excel
 workbook.Save(dataDir + "output.xls");

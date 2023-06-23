@@ -40,7 +40,7 @@ TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
 ```
 
 ## Schritt 5: Kopieren der Seiteneinrichtungseinstellungen
- Jetzt kopieren wir die Seitenkonfigurationseinstellungen vom Arbeitsblatt „TestSheet1“ nach „TestSheet2“. Wir werden das verwenden`PageSetup.Copy` Methode zum Ausführen dieser Operation. Hier ist der Code dafür:
+Jetzt kopieren wir die Seitenkonfigurationseinstellungen vom Arbeitsblatt „TestSheet1“ nach „TestSheet2“. Wir werden das verwenden`PageSetup.Copy` Methode zum Ausführen dieser Operation. Hier ist der Code dafür:
 
 ```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
@@ -84,22 +84,22 @@ In diesem Artikel haben wir gelernt, wie man mit Aspose.Cells für .NET Seitenko
 
 ### FAQs
 
-F: Kann ich Seitenkonfigurationseinstellungen zwischen verschiedenen Arbeitsmappeninstanzen kopieren?
+#### F: Kann ich Seitenkonfigurationseinstellungen zwischen verschiedenen Arbeitsmappeninstanzen kopieren?
 
  A: Ja, Sie können Seiteneinrichtungseinstellungen zwischen verschiedenen Arbeitsmappeninstanzen kopieren`PageSetup.Copy` Methode der Aspose.Cells-Bibliothek.
 
-F: Kann ich andere Seiteneinrichtungseinstellungen kopieren, z. B. Ausrichtung oder Ränder?
+#### F: Kann ich andere Seiteneinrichtungseinstellungen kopieren, z. B. Ausrichtung oder Ränder?
 
  A: Ja, Sie können andere Seiteneinrichtungseinstellungen mit kopieren`PageSetup.Copy` Methode mit den entsprechenden Optionen. Beispielsweise können Sie die Ausrichtung mit kopieren`CopyOptions.Orientation` und Ränder verwenden`CopyOptions.Margins`.
 
-F: Woher weiß ich, welche Optionen für das Papierformat verfügbar sind?
+#### F: Woher weiß ich, welche Optionen für das Papierformat verfügbar sind?
 
- A: Sie können in der API-Referenz der Aspose.Cells-Bibliothek nach verfügbaren Optionen für das Papierformat suchen. Es gibt eine Enumeration namens`PaperSizeType` Hier sind die verschiedenen unterstützten Papierformate aufgeführt.
+A: Sie können in der API-Referenz der Aspose.Cells-Bibliothek nach verfügbaren Optionen für das Papierformat suchen. Es gibt eine Enumeration namens`PaperSizeType` Hier sind die verschiedenen unterstützten Papierformate aufgeführt.
 
-F: Wie kann ich die Aspose.Cells-Bibliothek für .NET herunterladen?
+#### F: Wie kann ich die Aspose.Cells-Bibliothek für .NET herunterladen?
 
  A: Sie können die Aspose.Cells-Bibliothek für .NET unter herunterladen[Aspose-Veröffentlichungen](https://releases.aspose.com/cells/net). Es stehen kostenlose Testversionen sowie kostenpflichtige Lizenzen für die kommerzielle Nutzung zur Verfügung.
 
-F: Unterstützt die Aspose.Cells-Bibliothek andere Programmiersprachen?
+#### F: Unterstützt die Aspose.Cells-Bibliothek andere Programmiersprachen?
 
 A: Ja, die Aspose.Cells-Bibliothek unterstützt mehrere Programmiersprachen, darunter C#, Java, Python und viele mehr.

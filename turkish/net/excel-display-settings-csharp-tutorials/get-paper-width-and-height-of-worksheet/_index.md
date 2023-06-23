@@ -87,4 +87,4 @@ Aspose.Cells for .NET, A2, A3, A4 ve Letter gibi çok çeşitli yaygın olarak k
 
 #### Aspose.Cells for .NET ile bir elektronik tablonun kağıt boyutunu özelleştirebilir miyim?
 
-Evet, kullanarak tam genişlik ve yükseklik boyutlarını belirterek özel bir kağıt boyutu ayarlayabilirsiniz.`PaperWidth` Ve`PaperHeight` özellikleri`PageSetup` sınıf.
+ Evet, kullanarak tam genişlik ve yükseklik boyutlarını belirterek özel bir kağıt boyutu ayarlayabilirsiniz.`PaperWidth` Ve`PaperHeight` özellikleri`PageSetup` sınıf.

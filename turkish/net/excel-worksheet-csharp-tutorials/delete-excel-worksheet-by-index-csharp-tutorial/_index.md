@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## 3. Adım: Bir Çalışma Kitabı Nesnesi Başlatın
 
- Excel dosyasını açtıktan sonra, bir örnek oluşturmanız gerekir.`Workbook` nesne. Bu nesne, Excel çalışma kitabını temsil eder ve çalışma kitabını işlemek için çeşitli yöntemler ve özellikler sunar.
+ Excel dosyasını açtıktan sonra, bir örnek oluşturmanız gerekir.`Workbook`nesne. Bu nesne, Excel çalışma kitabını temsil eder ve çalışma kitabını işlemek için çeşitli yöntemler ve özellikler sunar.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesinin örneğini oluşturun
@@ -51,7 +51,7 @@ workbook.Worksheets.RemoveAt(0);
  Çalışma sayfasını sildikten sonra, değiştirilmiş Excel çalışma kitabını kullanarak kaydedebilirsiniz.`Save()` yöntemi`Workbook` nesne.
 
 ```csharp
-//Excel çalışma kitabını kaydetme
+// Excel çalışma kitabını kaydetme
 workbook.Save(dataDir + "output.out.xls");
 ```
 
@@ -83,7 +83,7 @@ Aspose.Cells for .NET, geliştiricilerin kendi .NET uygulamalarında Excel dosya
 
 #### Aspose.Cells for .NET'i nasıl kurabilirim?
 
-Aspose.Cells for .NET'i kurmak için kurulum paketini Aspose Releases'ten indirebilirsiniz (https://releases.aspose.com/cells/net) ve sağlanan talimatları izleyin. Kitaplığı uygulamalarınızda kullanmak için geçerli bir lisansa ihtiyacınız olacak.
+Aspose.Cells for .NET'i kurmak için kurulum paketini Aspose Releases'ten indirebilirsiniz (https://releases.aspose.com/cells/net) ve sağlanan talimatları izleyin. Kitaplığı uygulamalarınızda kullanmak için geçerli bir lisansa ihtiyacınız olacaktır.
 
 #### Aynı anda birden çok çalışma sayfasını silebilir miyim?
 

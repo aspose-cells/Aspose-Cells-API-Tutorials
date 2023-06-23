@@ -98,7 +98,7 @@ Ja, Aspose.Cells unterstützt mehrere Programmiersprachen wie Java, Python, Ruby
 
 #### Kann ich Zellen im neu erstellten Arbeitsblatt formatieren?
 
-A: Ja, Sie können Zellen mithilfe der von der Worksheet-Klasse von Aspose.Cells bereitgestellten Methoden formatieren. Sie können den Zellenstil festlegen, die Hintergrundfarbe ändern, Rahmen anwenden usw.
+Ja, Sie können mithilfe der von der Worksheet-Klasse von Aspose.Cells bereitgestellten Methoden Formatierungen auf Zellen anwenden. Sie können den Zellenstil festlegen, die Hintergrundfarbe ändern, Rahmen anwenden usw.
 
 #### Wie kann ich im neuen Arbeitsblatt auf Zelldaten zugreifen?
 

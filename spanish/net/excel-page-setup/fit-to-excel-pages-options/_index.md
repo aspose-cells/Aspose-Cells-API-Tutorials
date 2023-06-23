@@ -68,18 +68,18 @@ En este artículo, aprendimos cómo configurar el ajuste a las páginas en Excel
 
 ### preguntas frecuentes
 
-P: ¿Cómo puedo instalar Aspose.Cells para .NET?
+#### P: ¿Cómo puedo instalar Aspose.Cells para .NET?
 
 R: Para instalar Aspose.Cells para .NET, puede usar el administrador de paquetes NuGet en Visual Studio. Busque el paquete "Aspose.Cells" e instálelo en su proyecto.
 
-P: ¿Puedo ajustar páginas tanto de alto como de ancho?
+#### P: ¿Puedo ajustar páginas tanto de alto como de ancho?
 
  R: Sí, puede ajustar tanto el alto como el ancho de la hoja de trabajo usando el`FitToPagesTall` y`FitToPagesWide` propiedades. Puede especificar el número deseado de páginas para cada dimensión.
 
-P: ¿Cómo puedo personalizar las opciones de Ajustar a las páginas?
+#### P: ¿Cómo puedo personalizar las opciones de Ajustar a las páginas?
 
 R: Además de especificar el número de páginas, también puede personalizar otras opciones de ajuste a las páginas, como la escala de la hoja de trabajo, la orientación del papel, los márgenes y más. Utilice las propiedades disponibles en el`PageSetup` objeto para esto.
 
-P: ¿Puedo usar Aspose.Cells para .NET para procesar libros de trabajo existentes?
+#### P: ¿Puedo usar Aspose.Cells para .NET para procesar libros de trabajo existentes?
 
 R: Sí, puede usar Aspose.Cells para .NET para abrir y editar libros de trabajo existentes. Puede acceder a hojas de trabajo, celdas, fórmulas, estilos y otros elementos del libro de trabajo para realizar varias operaciones.

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /tr/net/protect-excel-file/protect-specific-cells-in-a-excel-worksheet/
 ---
-Bu eğitimde, bir Excel elektronik tablosundaki belirli hücreleri korumak için Aspose.Cells kitaplığını kullanan C# kaynak koduna bakacağız. Kodun her adımını inceleyeceğiz ve nasıl çalıştığını açıklayacağız. İstenen sonuçları elde etmek için talimatları dikkatlice izleyin.
+Bu öğreticide, bir Excel elektronik tablosundaki belirli hücreleri korumak için Aspose.Cells kitaplığını kullanan C# kaynak koduna bakacağız. Kodun her adımını inceleyeceğiz ve nasıl çalıştığını açıklayacağız. İstenen sonuçları elde etmek için talimatları dikkatlice izleyin.
 
 ## 1. Adım: Önkoşullar
 
@@ -141,7 +141,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Son olarak, sayfayı şimdi koruyun.
+// Son olarak, sayfayı şimdi koruyun.
 sheet.Protect(ProtectionType.All);
 // Excel dosyasını kaydedin.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
@@ -150,7 +150,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Çözüm
 
-Tebrikler! Artık, Aspose.Cells for .NET kitaplığını kullanarak bir Excel çalışma sayfasındaki belirli hücreleri korumanıza izin veren C# kaynak koduna sahipsiniz. Kodu özel ihtiyaçlarınıza uyacak şekilde özelleştirmekten çekinmeyin.
+Tebrikler! Artık Aspose.Cells library for .NET'i kullanarak bir Excel çalışma sayfasındaki belirli hücreleri korumanıza izin veren C# kaynak koduna sahipsiniz. Kodu özel ihtiyaçlarınıza uyacak şekilde özelleştirmekten çekinmeyin.
 
 ### SSS (Sıkça Sorulan Sorular)
 
@@ -160,7 +160,7 @@ Evet, bu kod, Excel 2010 ve üzeri formattaki dosyalar dahil olmak üzere Excel'
 
 #### A1, B1 ve C1 dışındaki hücreleri koruyabilir miyim?
 
-Evet, karşılık gelen kod satırlarındaki hücre referanslarını ayarlayarak diğer belirli hücreleri kilitlemek için kodu değiştirebilirsiniz.
+Evet, karşılık gelen kod satırlarındaki hücre referanslarını ayarlayarak, diğer belirli hücreleri kilitlemek için kodu değiştirebilirsiniz.
 
 #### Kilitli hücrelerin kilidini tekrar nasıl açabilirim?
 

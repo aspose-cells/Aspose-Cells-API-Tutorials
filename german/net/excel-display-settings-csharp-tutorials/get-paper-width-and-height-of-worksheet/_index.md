@@ -87,4 +87,4 @@ Aspose.Cells für .NET unterstützt eine Vielzahl häufig verwendeter Papierform
 
 #### Kann ich die Papiergröße einer Tabelle mit Aspose.Cells für .NET anpassen?
 
-Ja, Sie können ein benutzerdefiniertes Papierformat festlegen, indem Sie mithilfe von die genauen Breiten- und Höhenabmessungen angeben`PaperWidth` Und`PaperHeight` Eigenschaften der`PageSetup` Klasse.
+ Ja, Sie können ein benutzerdefiniertes Papierformat festlegen, indem Sie mithilfe von die genauen Breiten- und Höhenabmessungen angeben`PaperWidth` Und`PaperHeight` Eigenschaften der`PageSetup` Klasse.

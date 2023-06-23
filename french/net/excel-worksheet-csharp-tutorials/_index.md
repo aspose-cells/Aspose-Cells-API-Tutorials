@@ -13,7 +13,7 @@ Que vous soyez un débutant ou un développeur C# expérimenté, ces didacticiel
 ## Tutoriels
 | Titre | Description |
 | --- | --- | 
-| [Ajouter une feuille de calcul Excel au classeur existant Tutoriel C#](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Ajoutez facilement une nouvelle feuille à un classeur Excel existant à l'aide d'Aspose.Cells pour .NET. Tutoriel étape par étape avec des exemples de code. |  
+| [Ajouter une feuille de calcul Excel au classeur existant Tutoriel C #](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Ajoutez facilement une nouvelle feuille à un classeur Excel existant à l'aide d'Aspose.Cells pour .NET. Tutoriel étape par étape avec des exemples de code. |  
 | [Ajouter une nouvelle feuille dans le didacticiel Excel C #](./add-new-sheet-in-excel-csharp-tutorial/) | Apprenez à ajouter une nouvelle feuille dans Excel en utilisant Aspose.Cells pour .NET. Tutoriel étape par étape avec le code source en C#. |  
 | [Supprimer une feuille de calcul Excel par index C # Tutoriel](./delete-excel-worksheet-by-index-csharp-tutorial/) | Supprimez facilement une feuille de calcul Excel spécifique à l'aide d'Aspose.Cells pour .NET. Tutoriel détaillé avec des exemples de code. |  
 | [Supprimer une feuille de calcul Excel par nom Tutoriel C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Supprimez facilement une feuille de calcul Excel spécifique par son nom à l'aide d'Aspose.Cells pour .NET. Tutoriel détaillé avec des exemples de code. |  

@@ -109,13 +109,17 @@ Herzlichen Glückwunsch! Sie verfügen jetzt über C#-Quellcode, mit dem Sie ein
 ### FAQs (häufig gestellte Fragen)
 
 #### Ist es möglich, mehrere Arbeitsblätter in einer Excel-Datei zu schützen?
+
 A: Ja, Sie können mehrere Arbeitsblätter in einer Excel-Datei schützen, indem Sie die Schritte 4 bis 6 für jedes Arbeitsblatt wiederholen.
 
 #### Wie kann ich bestimmte Berechtigungen für autorisierte Benutzer festlegen?
+
  A: Sie können die zusätzlichen Optionen nutzen, die von bereitgestellt werden`Protect`Methode zum Festlegen spezifischer Berechtigungen für autorisierte Benutzer. Weitere Informationen finden Sie in der Aspose.Cells-Dokumentation.
 
 #### Kann ich die Excel-Datei selbst mit einem Passwort schützen?
+
 A: Ja, Sie können die Excel-Datei selbst mit anderen Methoden der Aspose.Cells-Bibliothek mit einem Passwort schützen. Spezifische Beispiele finden Sie in der Dokumentation.
 
 #### Unterstützt die Aspose.Cells-Bibliothek andere Excel-Dateiformate?
+
 A: Ja, die Aspose.Cells-Bibliothek unterstützt eine Vielzahl von Excel-Dateiformaten, einschließlich XLSX, XLSM, XLSB, CSV usw.

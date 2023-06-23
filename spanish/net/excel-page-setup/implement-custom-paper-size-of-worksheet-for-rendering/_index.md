@@ -38,7 +38,7 @@ Después de crear el objeto Libro de trabajo, puede acceder a la primera hoja de
 Worksheet ws = wb.Worksheets[0];
 ```
 
-## Paso 4: Configuración del tamaño de la hoja de cálculo personalizada
+## Paso 4: Configuración del tamaño de la hoja de trabajo personalizada
 
  Ahora puede configurar el tamaño de la hoja de trabajo personalizado usando`CustomPaperSize(width, height)` método de la clase PageSetup.
 

@@ -52,7 +52,7 @@ worksheet. IsVisible = false;
 
 ## Étape 6 : réafficher la feuille de calcul
 
- Si vous souhaitez réafficher la feuille de calcul précédemment masquée, vous pouvez utiliser le même code en modifiant la valeur de la`IsVisible` propriété. Utilisez le code suivant pour réafficher la première feuille de calcul :
+Si vous souhaitez réafficher la feuille de calcul précédemment masquée, vous pouvez utiliser le même code en modifiant la valeur de la`IsVisible` propriété. Utilisez le code suivant pour réafficher la première feuille de calcul :
 
 ```csharp
 worksheet. IsVisible = true;

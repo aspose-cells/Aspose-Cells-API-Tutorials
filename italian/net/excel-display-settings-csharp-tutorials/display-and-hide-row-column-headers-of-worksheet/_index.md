@@ -80,7 +80,7 @@ Aspose.Cells per .NET è una potente libreria per la manipolazione di file Excel
 
 #### Come posso mostrare o nascondere le intestazioni di righe e colonne di un foglio di calcolo Excel con Aspose.Cells per .NET?
 
- Puoi usare il`IsRowColumnHeadersVisible` proprietà del`Worksheet` oggetto per visualizzare o nascondere le intestazioni di righe e colonne. Impostalo su`true` mostrarli e a`false` per nasconderli.
+ Puoi usare il`IsRowColumnHeadersVisible` proprietà del`Worksheet`oggetto per visualizzare o nascondere le intestazioni di righe e colonne. Impostalo su`true` mostrarli e a`false` per nasconderli.
 
 #### Quali altri formati di file Excel sono supportati da Aspose.Cells per .NET?
 

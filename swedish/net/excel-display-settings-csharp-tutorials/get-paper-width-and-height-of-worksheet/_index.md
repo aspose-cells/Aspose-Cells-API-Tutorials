@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /sv/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
 ---
-I den här handledningen tar vi dig steg för steg för att förklara följande C#-källkod för att få pappersbredden och höjden på ett kalkylblad med Aspose.Cells för .NET. Följ stegen nedan:
+den här handledningen tar vi dig steg för steg för att förklara följande C#-källkod för att få pappersbredden och höjden på ett kalkylblad med Aspose.Cells för .NET. Följ stegen nedan:
 
 ## Steg 1: Skapa arbetsboken
  Börja med att skapa en ny arbetsbok med hjälp av`Workbook` klass:
@@ -87,4 +87,4 @@ Aspose.Cells för .NET stöder ett brett utbud av vanliga pappersstorlekar, sås
 
 #### Kan jag anpassa pappersstorleken för ett kalkylark med Aspose.Cells för .NET?
 
-Ja, du kan ställa in en anpassad pappersstorlek genom att ange exakta bredd- och höjdmått med hjälp av`PaperWidth` och`PaperHeight` egenskaper hos`PageSetup` klass.
+ Ja, du kan ställa in en anpassad pappersstorlek genom att ange exakta bredd- och höjdmått med hjälp av`PaperWidth` och`PaperHeight` egenskaper hos`PageSetup` klass.

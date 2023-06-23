@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
-// Anwenden der Einstellungen für eingefrorene Fenster
+//Anwenden der Einstellungen für eingefrorene Fenster
 worksheet.FreezePanes(3, 2, 3, 2);
 // Speichern der geänderten Excel-Datei
 workbook.Save(dataDir + "output.xls");

@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## الخطوة 3: إنشاء كائن مصنف
 
- بعد فتح ملف Excel ، تحتاج إلى إنشاء ملف`Workbook` هدف. يمثل هذا الكائن مصنف Excel ويقدم أساليب وخصائص متنوعة لمعالجة المصنف.
+ بعد فتح ملف Excel ، تحتاج إلى إنشاء ملف`Workbook`هدف. يمثل هذا الكائن مصنف Excel ويقدم أساليب وخصائص متنوعة لمعالجة المصنف.
 
 ```csharp
 // إنشاء كائن مصنف
@@ -51,7 +51,7 @@ workbook.Worksheets.RemoveAt("Sheet1");
  بمجرد حذف ورقة العمل ، يمكنك حفظ مصنف Excel المعدل باستخدام ملف`Save()` طريقة`Workbook` هدف.
 
 ```csharp
-//احفظ مصنف Excel
+// احفظ مصنف Excel
 workbook.Save(dataDir + "output.out.xls");
 ```
 

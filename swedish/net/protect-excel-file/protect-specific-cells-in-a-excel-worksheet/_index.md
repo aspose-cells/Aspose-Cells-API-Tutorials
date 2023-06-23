@@ -11,7 +11,7 @@ I den här handledningen kommer vi att titta på C#-källkoden som använder Asp
 
 ## Steg 1: Förutsättningar
 
-Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan hämta det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
+Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan få det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
 
 ## Steg 2: Importera nödvändiga namnrymder
 
@@ -141,7 +141,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Slutligen, Skydda arket nu.
+// Slutligen, Skydda arket nu.
 sheet.Protect(ProtectionType.All);
 // Spara excel-filen.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);

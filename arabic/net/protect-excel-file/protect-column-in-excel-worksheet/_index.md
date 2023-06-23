@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // تحديد كائن النمط.
 Style style;
-//تحديد كائن styleflag.
+// تحديد كائن styleflag.
 StyleFlag flag;
 // قم بالتكرار خلال جميع الأعمدة في ورقة العمل وقم بإلغاء تأمينها.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // أغلق.
 style.IsLocked = true;
-// تجسيد العلم.
+//تجسيد العلم.
 flag = new StyleFlag();
 // اضبط إعداد القفل.
 flag.Locked = true;
@@ -150,7 +150,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 #### س: ما سبب أهمية حماية أعمدة معينة في جدول بيانات Excel؟
 
-ج: تساعد حماية أعمدة معينة في جدول بيانات Excel على تقييد الوصول إلى البيانات الحساسة وتعديلها ، وبالتالي ضمان سلامة المعلومات وسريتها.
+ج: تساعد حماية أعمدة معينة في جدول بيانات Excel في تقييد الوصول إلى البيانات الحساسة وتعديلها ، وبالتالي ضمان سلامة المعلومات وسريتها.
 
 #### س: هل يدعم Aspose.Cells for .NET ميزات أخرى للتعامل مع ملفات Excel؟
 
@@ -158,7 +158,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 #### س: كيف يمكنني فتح جميع الأعمدة في جدول بيانات Excel؟
 
-ج: في Aspose.Cells for .NET ، يمكنك استخدام حلقة للتكرار خلال جميع الأعمدة وتعيين نمط القفل على "خطأ" لفتح جميع الأعمدة.
+ج: في Aspose.Cells for .NET ، يمكنك استخدام حلقة للتكرار خلال جميع الأعمدة وتعيين نمط القفل على "false" لفتح جميع الأعمدة.
 
 #### س: كيف يمكنني حماية جدول بيانات Excel باستخدام Aspose.Cells for .NET؟
 

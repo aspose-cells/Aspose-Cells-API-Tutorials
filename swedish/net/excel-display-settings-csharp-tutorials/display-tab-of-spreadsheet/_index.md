@@ -72,7 +72,7 @@ Aspose.Cells för .NET är ett kraftfullt bibliotek för att manipulera Excel-fi
 
 #### Hur visar man fliken i ett Excel-kalkylblad med Aspose.Cells för .NET?
 
- Du kan använda`ShowTabs` egendom av`Workbook.Settings` objekt och ställ in det på`true`för att visa kalkylbladsfliken.
+ Du kan använda`ShowTabs` egendom av`Workbook.Settings` objekt och ställ in det på`true` för att visa kalkylbladsfliken.
 
 #### Vilka andra Excel-filformat stöds av Aspose.Cells för .NET?
 

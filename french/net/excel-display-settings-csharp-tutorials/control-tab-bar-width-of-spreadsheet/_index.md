@@ -28,7 +28,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## Étape 3 : Masquer les onglets de la feuille de calcul
 
-Pour masquer les onglets de la feuille de calcul, vous pouvez utiliser le`ShowTabs` propriété de la`Settings` objet de la`Workbook` classe. Réglez-le sur`false` pour masquer les onglets.
+ Pour masquer les onglets de la feuille de calcul, vous pouvez utiliser le`ShowTabs` propriété de la`Settings` objet de la`Workbook` classe. Réglez-le sur`false` pour masquer les onglets.
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,4 +89,4 @@ Aspose.Cells pour .NET offre de nombreuses fonctionnalités, telles que la créa
 
 #### Comment ajuster la largeur de la barre d'onglets avec Aspose.Cells pour .NET ?
 
- Vous pouvez régler la largeur de la barre d'onglets à l'aide de la`SheetTabBarWidth` propriété de la`Settings` objet de la`Workbook` classe et en lui attribuant une valeur numérique en points.
+Vous pouvez régler la largeur de la barre d'onglets à l'aide de la`SheetTabBarWidth` propriété de la`Settings` objet de la`Workbook` classe et en lui attribuant une valeur numérique en points.

@@ -84,7 +84,7 @@ style.IsLocked = true;
 Efter att ha låst den specifika kolumnen måste vi tillämpa stilen och flaggan på den kolumnen. Här är kodavsnittet:
 
 ```csharp
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 
 // Ställ in låsinställningen.
@@ -128,7 +128,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definiera stilobjektet.
 Style style;
-//Definiera styleflag-objektet.
+// Definiera styleflag-objektet.
 StyleFlag flag;
 // Gå igenom alla kolumner i kalkylbladet och lås upp dem.
 for (int i = 0; i <= 255; i++)
@@ -143,7 +143,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Lås den.
 style.IsLocked = true;
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 // Ställ in låsinställningen.
 flag.Locked = true;
@@ -162,13 +162,17 @@ I den här handledningen har vi förklarat steg-för-steg-processen för att sky
 ### Vanliga frågor (FAQs)
 
 #### Kan jag skydda flera kolumner med den här metoden?
+
 Ja, du kan skydda flera kolumner genom att ändra koden därefter. Gå helt enkelt igenom det önskade kolumnområdet och använd låsstilarna och flaggorna.
 
 #### Är det möjligt att lösenordsskydda det skyddade kalkylbladet?
+
  Ja, du kan lägga till lösenordsskydd till det skyddade kalkylbladet genom att ange lösenordet när du anropar`Protect` metod.
 
 #### Stöder Aspose.Cells for .NET andra Excel-filformat?
+
 Ja, Aspose.Cells för .NET stöder olika Excel-filformat, inklusive XLS, XLSX, XLSM och mer.
 
 #### Kan jag skydda specifika rader istället för kolumner?
+
 Ja, du kan ändra koden för att skydda specifika rader istället för kolumner genom att tillämpa stilarna och flaggorna på radceller istället för kolumner.

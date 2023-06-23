@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(InputPath, FileMode.Open);
 
 ## Passaggio 4: creare un'istanza di un oggetto cartella di lavoro
 
- Dopo aver aperto il file Excel, è necessario creare un'istanza di a`Workbook` oggetto. Questo oggetto rappresenta la cartella di lavoro di Excel e offre vari metodi e proprietà per manipolare la cartella di lavoro.
+ Dopo aver aperto il file Excel, è necessario creare un'istanza di a`Workbook`oggetto. Questo oggetto rappresenta la cartella di lavoro di Excel e offre vari metodi e proprietà per manipolare la cartella di lavoro.
 
 ```csharp
 // Crea un'istanza di un oggetto Workbook

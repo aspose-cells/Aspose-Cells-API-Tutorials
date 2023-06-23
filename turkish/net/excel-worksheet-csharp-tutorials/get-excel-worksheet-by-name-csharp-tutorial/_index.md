@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(InputPath, FileMode.Open);
 
 ## 4. Adım: Bir Çalışma Kitabı Nesnesi Başlatın
 
- Excel dosyasını açtıktan sonra, bir örnek oluşturmanız gerekir.`Workbook` nesne. Bu nesne, Excel çalışma kitabını temsil eder ve çalışma kitabını işlemek için çeşitli yöntemler ve özellikler sunar.
+ Excel dosyasını açtıktan sonra, bir örnek oluşturmanız gerekir.`Workbook`nesne. Bu nesne, Excel çalışma kitabını temsil eder ve çalışma kitabını işlemek için çeşitli yöntemler ve özellikler sunar.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesinin örneğini oluşturun
@@ -101,7 +101,7 @@ Aspose.Cells for .NET, geliştiricilerin kendi .NET uygulamalarında Excel dosya
 
 #### Aspose.Cells for .NET'i nasıl kurabilirim?
 
-Aspose.Cells for .NET'i kurmak için kurulum paketini Aspose.Releases (https://releases.aspose.com/cells/net) ve sağlanan talimatları izleyin. Kitaplığı uygulamalarınızda kullanmak için geçerli bir lisansa ihtiyacınız olacak.
+Aspose.Cells for .NET'i kurmak için kurulum paketini Aspose.Releases (https://releases.aspose.com/cells/net) ve sağlanan talimatları izleyin. Kitaplığı uygulamalarınızda kullanmak için geçerli bir lisansa ihtiyacınız olacaktır.
 
 #### Aspose.Cells for .NET'te adını kullanarak bir Excel çalışma sayfası alabilir miyim?
 

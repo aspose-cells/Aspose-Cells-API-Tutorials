@@ -114,7 +114,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definire l'oggetto stile.
 Style style;
-//Definire l'oggetto styleflag.
+// Definire l'oggetto styleflag.
 StyleFlag flag;
 // Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
@@ -129,7 +129,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Bloccalo.
 style.IsLocked = true;
-// Crea un'istanza della bandiera.
+//Crea un'istanza della bandiera.
 flag = new StyleFlag();
 // Impostare l'impostazione di blocco.
 flag.Locked = true;
@@ -148,16 +148,21 @@ Congratulazioni! Ora hai il codice sorgente C# che ti consente di proteggere le 
 ### FAQ (Domande frequenti)
 
 #### Questo codice funziona con le versioni recenti di Excel?
+
 Sì, questo codice funziona con le versioni recenti di Excel, inclusi i file in formato Excel 2010 e versioni successive.
 
 #### Posso proteggere solo righe specifiche invece di tutte le righe nel foglio di lavoro?
+
 Sì, puoi modificare il codice per specificare le righe specifiche che desideri proteggere. Dovrai regolare il loop e gli indici di conseguenza.
 
 #### Come posso sbloccare nuovamente le linee bloccate?
+
  Puoi usare il`IsLocked` metodo del`Style` oggetto a cui impostare il valore`false` e sbloccare le righe.
 
 #### È possibile proteggere più fogli di lavoro nella stessa cartella di lavoro di Excel?
+
 Sì, puoi ripetere i passaggi di creazione di un foglio di lavoro, impostazione dello stile e protezione per ogni foglio di lavoro nella cartella di lavoro.
 
 #### Come posso modificare la password di protezione del foglio di calcolo?
+
  È possibile modificare la password utilizzando il`Protect` metodo e specificando una nuova password come argomento.

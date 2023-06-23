@@ -80,7 +80,7 @@ Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Bearbeiten von Ex
 
 #### Wie kann ich mit Aspose.Cells für .NET Zeilen- und Spaltenüberschriften einer Excel-Tabelle ein- oder ausblenden?
 
- Du kannst den ... benutzen`IsRowColumnHeadersVisible` Eigentum der`Worksheet` Objekt zum Anzeigen oder Ausblenden von Zeilen- und Spaltenüberschriften. Stellen Sie es ein`true` ihnen zu zeigen und zu`false` um sie zu verstecken.
+ Du kannst den ... benutzen`IsRowColumnHeadersVisible` Eigentum der`Worksheet`Objekt zum Anzeigen oder Ausblenden von Zeilen- und Spaltenüberschriften. Stellen Sie es ein`true` ihnen zu zeigen und zu`false` um sie zu verstecken.
 
 #### Welche anderen Excel-Dateiformate werden von Aspose.Cells für .NET unterstützt?
 

@@ -84,7 +84,7 @@ style.IsLocked = true;
 Dopo aver bloccato la colonna specifica, dobbiamo applicare lo stile e il flag a quella colonna. Ecco lo snippet di codice:
 
 ```csharp
-// Crea un'istanza della bandiera.
+//Crea un'istanza della bandiera.
 flag = new StyleFlag();
 
 // Impostare l'impostazione di blocco.
@@ -128,7 +128,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definire l'oggetto stile.
 Style style;
-//Definire l'oggetto styleflag.
+// Definire l'oggetto styleflag.
 StyleFlag flag;
 // Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
@@ -143,7 +143,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Bloccalo.
 style.IsLocked = true;
-// Crea un'istanza della bandiera.
+//Crea un'istanza della bandiera.
 flag = new StyleFlag();
 // Impostare l'impostazione di blocco.
 flag.Locked = true;
@@ -162,13 +162,17 @@ In questo tutorial, abbiamo spiegato il processo dettagliato di protezione di un
 ### Domande frequenti (FAQ)
 
 #### Posso proteggere più colonne utilizzando questo metodo?
+
 Sì, puoi proteggere più colonne modificando il codice di conseguenza. Basta scorrere l'intervallo di colonne desiderato e applicare gli stili e i flag di blocco.
 
 #### È possibile proteggere con password il foglio di lavoro protetto?
+
  Sì, puoi aggiungere la protezione tramite password al foglio di lavoro protetto specificando la password mentre chiami il file`Protect` metodo.
 
 #### Aspose.Cells per .NET supporta altri formati di file Excel?
+
 Sì, Aspose.Cells per .NET supporta vari formati di file Excel, inclusi XLS, XLSX, XLSM e altri.
 
 #### Posso proteggere righe specifiche anziché colonne?
+
 Sì, puoi modificare il codice per proteggere righe specifiche anziché colonne applicando gli stili e i flag alle celle di riga anziché alle celle di colonna.

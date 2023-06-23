@@ -72,7 +72,7 @@ Aspose.Cells for .NET es una poderosa biblioteca para manipular archivos de Exce
 
 #### ¿Cómo mostrar la pestaña de una hoja de cálculo de Excel usando Aspose.Cells para .NET?
 
- Puedes usar el`ShowTabs` propiedad de la`Workbook.Settings` objeto y establecerlo en`true`para mostrar la pestaña de la hoja de cálculo.
+ Puedes usar el`ShowTabs` propiedad de la`Workbook.Settings` objeto y establecerlo en`true` para mostrar la pestaña de la hoja de trabajo.
 
 #### ¿Qué otros formatos de archivo de Excel son compatibles con Aspose.Cells para .NET?
 

@@ -87,4 +87,4 @@ Aspose.Cells pour .NET prend en charge une large gamme de formats de papier cour
 
 #### Puis-je personnaliser la taille du papier d'une feuille de calcul avec Aspose.Cells pour .NET ?
 
-Oui, vous pouvez définir un format de papier personnalisé en spécifiant les dimensions exactes de largeur et de hauteur à l'aide du`PaperWidth` et`PaperHeight` propriétés de la`PageSetup` classe.
+ Oui, vous pouvez définir un format de papier personnalisé en spécifiant les dimensions exactes de largeur et de hauteur à l'aide du`PaperWidth` et`PaperHeight` propriétés de la`PageSetup` classe.

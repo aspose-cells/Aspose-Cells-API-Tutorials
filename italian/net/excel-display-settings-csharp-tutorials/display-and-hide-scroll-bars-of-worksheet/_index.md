@@ -81,7 +81,7 @@ Aspose.Cells per .NET è una potente libreria per la manipolazione di file Excel
 
 #### Come posso visualizzare o nascondere le barre di scorrimento in un foglio di calcolo Excel con Aspose.Cells per .NET?
 
- Puoi usare il`IsVScrollBarVisible` E`IsHScrollBarVisible` proprietà del`Workbook.Settings`oggetto per visualizzare o nascondere rispettivamente la barra di scorrimento verticale e orizzontale in un foglio di lavoro di Excel.
+ Puoi usare il`IsVScrollBarVisible` E`IsHScrollBarVisible` proprietà del`Workbook.Settings` oggetto per visualizzare o nascondere rispettivamente la barra di scorrimento verticale e orizzontale in un foglio di lavoro di Excel.
 
 #### Quali altri formati di file Excel sono supportati da Aspose.Cells per .NET?
 

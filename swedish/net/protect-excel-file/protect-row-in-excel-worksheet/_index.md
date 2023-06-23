@@ -11,7 +11,7 @@ I den här handledningen ska vi titta på en del C#-källkod som använder Aspos
 
 ## Steg 1: Förutsättningar
 
-Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan hämta det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
+Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan få det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
 
 ## Steg 2: Importera nödvändiga namnrymder
 
@@ -114,7 +114,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definiera stilobjektet.
 Style style;
-//Definiera styleflag-objektet.
+// Definiera styleflag-objektet.
 StyleFlag flag;
 // Gå igenom alla kolumner i kalkylbladet och lås upp dem.
 for (int i = 0; i <= 255; i++)
@@ -129,7 +129,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Lås den.
 style.IsLocked = true;
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 // Ställ in låsinställningen.
 flag.Locked = true;
@@ -148,16 +148,21 @@ Grattis! Du har nu C#-källkod som låter dig skydda rader i ett Excel-kalkylbla
 ### Vanliga frågor (vanliga frågor)
 
 #### Fungerar den här koden med de senaste versionerna av Excel?
+
 Ja, den här koden fungerar med de senaste versionerna av Excel, inklusive filer i Excel 2010 och högre format.
 
 #### Kan jag skydda endast specifika rader istället för alla rader i kalkylbladet?
+
 Ja, du kan ändra koden för att specificera de specifika raderna du vill skydda. Du måste justera loopen och indexen därefter.
 
 #### Hur kan jag låsa upp låsta linjer igen?
+
  Du kan använda`IsLocked` metod för`Style` objekt att ställa in värdet på`false` och lås upp raderna.
 
 #### Är det möjligt att skydda flera kalkylblad i samma Excel-arbetsbok?
+
 Ja, du kan upprepa stegen att skapa ett kalkylblad, ställa in stilen och skydda för varje kalkylblad i arbetsboken.
 
 #### Hur kan jag ändra lösenordet för kalkylbladsskydd?
+
  Du kan ändra lösenordet med hjälp av`Protect` metod och ange ett nytt lösenord som ett argument.

@@ -25,7 +25,7 @@ Este código comprueba si el directorio ya existe y lo crea si no es así.
 
 ## Paso 2: Creación de un nuevo libro de trabajo
 
-A continuación, crearemos un nuevo libro de Excel y obtendremos la primera hoja de cálculo. Usa el siguiente código:
+A continuación, crearemos un nuevo libro de Excel y obtendremos la primera hoja de trabajo. Usa el siguiente código:
 
 ```csharp
 // Crear un nuevo libro de trabajo.
@@ -111,11 +111,11 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crear un nuevo libro de trabajo.
 Workbook wb = new Workbook();
-// Cree un objeto de hoja de cálculo y obtenga la primera hoja.
+// Cree un objeto de hoja de trabajo y obtenga la primera hoja.
 Worksheet sheet = wb.Worksheets[0];
 // Defina el objeto de estilo.
 Style style;
-//Defina el objeto de marca de estilo.
+// Defina el objeto de marca de estilo.
 StyleFlag flag;
 // Recorra todas las columnas de la hoja de trabajo y desbloquéelas.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Ciérralo.
 style.IsLocked = true;
-// Crea una instancia de la bandera.
+//Crea una instancia de la bandera.
 flag = new StyleFlag();
 // Establezca la configuración de bloqueo.
 flag.Locked = true;

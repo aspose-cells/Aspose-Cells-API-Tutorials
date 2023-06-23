@@ -33,7 +33,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- En este fragmento de código, primero definimos la ruta al directorio donde se guardará el archivo de Excel. A continuación, creamos una nueva instancia del`Workbook` clase y obtenga la referencia a la primera hoja de trabajo usando el`Worksheets`propiedad.
+ En este fragmento de código, primero definimos la ruta al directorio donde se guardará el archivo de Excel. A continuación, creamos una nueva instancia del`Workbook` clase y obtenga la referencia a la primera hoja de trabajo usando el`Worksheets` propiedad.
 
 ## Paso 3: obtenga rangos editables
 
@@ -129,13 +129,17 @@ book.Save(dataDir + "protectedrange.out.xls");
 #### preguntas frecuentes
 
 #### P: ¿Por qué debo usar Aspose.Cells for .NET para editar rangos en una hoja de cálculo de Excel?
+
 R: Aspose.Cells para .NET ofrece una API poderosa y fácil de usar para trabajar con archivos de Excel. Proporciona funciones avanzadas, como manipulación de rangos, protección de hojas de trabajo, etc.
 
 #### P: ¿Puedo configurar múltiples rangos editables en una hoja de trabajo?
+
  R: Sí, puede definir múltiples rangos editables usando el`Add` metodo de la`ProtectedRangeCollection` recopilación. Cada rango puede tener sus propios ajustes de protección.
 
 ####  P: ¿Es posible eliminar un rango editable después de definirlo?
+
  R: Sí, puede utilizar el`RemoveAt` metodo de la`ProtectedRangeCollection` colección para eliminar un rango editable específico especificando su índice.
 
 #### P: ¿Cómo puedo abrir el archivo de Excel protegido después de guardarlo?
+
 R: Deberá proporcionar la contraseña especificada al crear el rango protegido para abrir el archivo de Excel protegido. Asegúrese de guardar la contraseña en un lugar seguro para evitar la pérdida de acceso a los datos.

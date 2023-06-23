@@ -25,14 +25,14 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-// Crear un nuevo libro de trabajo
+//Crear un nuevo libro de trabajo
 Workbook workbook = new Workbook();
 
 // Obtener la primera hoja de trabajo
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- En este fragmento de código, primero definimos la ruta al directorio donde se guardará el archivo de Excel. A continuación, creamos una nueva instancia del`Workbook` clase y obtenga la referencia a la primera hoja de trabajo usando el`Worksheets`propiedad.
+ En este fragmento de código, primero definimos la ruta al directorio donde se guardará el archivo de Excel. A continuación, creamos una nueva instancia del`Workbook` clase y obtenga la referencia a la primera hoja de trabajo usando el`Worksheets` propiedad.
 
 ## Paso 3: definir el estilo de celda
 
@@ -106,7 +106,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crear un nuevo libro de trabajo.
 Workbook wb = new Workbook();
-// Cree un objeto de hoja de cálculo y obtenga la primera hoja.
+// Cree un objeto de hoja de trabajo y obtenga la primera hoja.
 Worksheet sheet = wb.Worksheets[0];
 // Defina el objeto de estilo.
 Style style;
@@ -131,7 +131,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Finalmente, proteja la hoja ahora.
+// Finalmente, proteja la hoja ahora.
 sheet.Protect(ProtectionType.All);
 // Guarde el archivo de Excel.
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
@@ -145,13 +145,17 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ### preguntas frecuentes
 
 #### P: ¿Por qué debo usar Aspose.Cells for .NET para proteger celdas en una hoja de cálculo de Excel?
+
 R: Aspose.Cells for .NET es una potente biblioteca que facilita el trabajo con archivos de Excel. Ofrece funciones avanzadas para proteger celdas, desbloquear rangos, etc.
 
 #### P: ¿Es posible proteger rangos de celdas en lugar de celdas individuales?
+
  R: Sí, puede definir rangos de celdas específicos para proteger usando el`ApplyStyle` método con una adecuada`StyleFlag`.
 
 #### P: ¿Cómo puedo abrir el archivo de Excel protegido después de guardarlo?
+
 R: Cuando abra el archivo de Excel protegido, deberá proporcionar la contraseña especificada al proteger la hoja de trabajo.
 
 #### P: ¿Existen otros tipos de protección que pueda aplicar a una hoja de cálculo de Excel?
+
 R: Sí, Aspose.Cells para .NET admite varios tipos de protección, como protección de estructuras, protección de ventanas, etc. Puede elegir el tipo de protección adecuado según sus necesidades.

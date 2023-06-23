@@ -76,14 +76,18 @@ acceso a hojas de cálculo y comprobación automática del tamaño del papel. Ah
 
 ### preguntas frecuentes
 
-P: ¿Cómo puedo cargar libros de trabajo con Aspose.Cells para .NET?
+#### P: ¿Cómo puedo cargar libros de trabajo con Aspose.Cells para .NET?
+
 R: Puede cargar libros de trabajo mediante la clase Workbook de la biblioteca Aspose.Cells. Utilice el método Workbook.Load para cargar un libro de trabajo desde un archivo.
 
-P: ¿Puedo verificar el tamaño de papel automático para otras hojas de cálculo?
+#### P: ¿Puedo verificar el tamaño de papel automático para otras hojas de cálculo?
+
 R: Sí, puede verificar el tamaño de papel automático para cualquier hoja de cálculo accediendo a la propiedad PageSetup.IsAutomaticPaperSize del objeto Hoja de cálculo correspondiente.
 
-P: ¿Cómo puedo cambiar el tamaño de papel automático de una hoja de cálculo?
+#### P: ¿Cómo puedo cambiar el tamaño de papel automático de una hoja de cálculo?
+
 R: Para cambiar el tamaño de papel automático de una hoja de trabajo, puede usar la propiedad PageSetup.IsAutomaticPaperSize y establecerla en el valor deseado (verdadero o falso).
 
-P: ¿Qué otras funciones ofrece Aspose.Cells para .NET?
+#### P: ¿Qué otras funciones ofrece Aspose.Cells para .NET?
+
 R: Aspose.Cells para .NET ofrece muchas funciones para trabajar con hojas de cálculo, como la creación, modificación y conversión de libros de trabajo, así como la manipulación de datos, fórmulas y formateo.

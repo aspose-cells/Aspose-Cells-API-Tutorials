@@ -11,7 +11,7 @@ den här handledningen kommer vi att titta på en del C#-källkod som använder 
 
 ## Steg 1: Förutsättningar
 
-Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan hämta det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
+Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan få det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
 
 ## Steg 2: Importera nödvändiga namnrymder
 
@@ -71,7 +71,7 @@ excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 Se till att ange rätt sökväg för att spara den modifierade Excel-filen.
 
-## Steg 7: Stäng File Stream
+## Steg 7: Stäng filström
 
 För att frigöra alla resurser måste vi stänga filströmmen som används för att ladda Excel-filen. Använd följande kod för att stänga filströmmen:
 
@@ -109,13 +109,17 @@ Grattis! Du har nu C#-källkod som låter dig skydda ett Excel-kalkylblad med As
 ### Vanliga frågor (vanliga frågor)
 
 #### Är det möjligt att skydda flera kalkylblad i en Excel-fil?
+
 S: Ja, du kan skydda flera kalkylblad i en Excel-fil genom att upprepa steg 4-6 för varje kalkylblad.
 
 #### Hur kan jag ange specifika behörigheter för auktoriserade användare?
+
  S: Du kan använda de ytterligare alternativen som tillhandahålls av`Protect`metod för att ange specifika behörigheter för auktoriserade användare. Se Aspose.Cells dokumentation för mer information.
 
 #### Kan jag skydda själva Excel-filen med ett lösenord?
+
 S: Ja, du kan lösenordsskydda själva Excel-filen med andra metoder som tillhandahålls av Aspose.Cells-biblioteket. Se dokumentationen för specifika exempel.
 
 #### Stöder Aspose.Cells-biblioteket andra Excel-filformat?
+
 S: Ja, Aspose.Cells-biblioteket stöder ett brett utbud av Excel-filformat, inklusive XLSX, XLSM, XLSB, CSV, etc.

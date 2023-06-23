@@ -23,7 +23,7 @@ using Aspose.Cells;
 
 ## Paso 3: establecer el directorio de documentos
 
-Establezca el directorio donde se encuentra el documento de Excel con el que desea trabajar. Use el siguiente código para establecer el directorio:
+Establezca el directorio donde se encuentra el documento de Excel con el que desea trabajar. Use el siguiente código para configurar el directorio:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";

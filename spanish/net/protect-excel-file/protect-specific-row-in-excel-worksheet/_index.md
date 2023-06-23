@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /es/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 ---
-Proteger los datos confidenciales en una hoja de cálculo de Excel es fundamental para garantizar la seguridad de la información. Aspose.Cells para .NET ofrece una solución poderosa para proteger filas específicas en una hoja de cálculo de Excel. Esta guía lo guiará a través de cómo proteger una fila específica en una hoja de cálculo de Excel utilizando el código fuente de C# proporcionado. Siga estos sencillos pasos para configurar la protección de filas en sus archivos de Excel.
+Proteger los datos confidenciales en una hoja de cálculo de Excel es fundamental para garantizar la seguridad de la información. Aspose.Cells para .NET ofrece una solución poderosa para proteger filas específicas en una hoja de cálculo de Excel. Esta guía lo guiará a través de cómo proteger una fila específica en una hoja de cálculo de Excel utilizando el código fuente de C# provisto. Siga estos sencillos pasos para configurar la protección de filas en sus archivos de Excel.
 
 ## Paso 1: importa las bibliotecas requeridas
 
@@ -71,7 +71,7 @@ style = sheet.Cells.Rows[0].Style;
 // Ciérralo.
 style. IsLocked = true;
 
-// Crea una instancia de la bandera.
+//Crea una instancia de la bandera.
 flag = new StyleFlag();
 
 // Configure el parámetro de bloqueo.
@@ -111,11 +111,11 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crear un nuevo libro de trabajo.
 Workbook wb = new Workbook();
-// Cree un objeto de hoja de cálculo y obtenga la primera hoja.
+// Cree un objeto de hoja de trabajo y obtenga la primera hoja.
 Worksheet sheet = wb.Worksheets[0];
 // Defina el objeto de estilo.
 Style style;
-//Defina el objeto de marca de estilo.
+// Defina el objeto de marca de estilo.
 StyleFlag flag;
 // Recorra todas las columnas de la hoja de trabajo y desbloquéelas.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Ciérralo.
 style.IsLocked = true;
-// Crea una instancia de la bandera.
+//Crea una instancia de la bandera.
 flag = new StyleFlag();
 // Establezca la configuración de bloqueo.
 flag.Locked = true;
@@ -149,10 +149,13 @@ La protección de los datos en los archivos de Excel es crucial para evitar el a
 ### preguntas frecuentes
 
 #### ¿Funciona la protección de fila específica en todas las versiones de Excel?
+
 Sí, la protección de filas específicas con Aspose.Cells para .NET funciona en todas las versiones compatibles de Excel.
 
 #### ¿Puedo proteger varias filas específicas en una hoja de cálculo de Excel?
+
 Sí, puede proteger varias filas específicas utilizando métodos similares a los descritos en esta guía.
 
 #### ¿Cómo puedo desbloquear una fila específica en una hoja de cálculo de Excel?
+
  Para desbloquear una fila específica, debe modificar el código fuente en consecuencia usando el`IsLocked` metodo de la`Style` objeto.

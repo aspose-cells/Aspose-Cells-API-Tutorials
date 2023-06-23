@@ -71,7 +71,7 @@ style = sheet.Cells.Rows[0].Style;
 // Lås den.
 style. IsLocked = true;
 
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 
 // Ställ in låsparametern.
@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definiera stilobjektet.
 Style style;
-//Definiera styleflag-objektet.
+// Definiera styleflag-objektet.
 StyleFlag flag;
 // Gå igenom alla kolumner i kalkylbladet och lås upp dem.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Lås den.
 style.IsLocked = true;
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 // Ställ in låsinställningen.
 flag.Locked = true;
@@ -149,10 +149,13 @@ Att skydda data i Excel-filer är avgörande för att förhindra obehörig åtko
 ### Vanliga frågor
 
 #### Fungerar specifikt radskydd i alla versioner av Excel?
+
 Ja, specifikt radskydd med Aspose.Cells för .NET fungerar i alla versioner av Excel som stöds.
 
 #### Kan jag skydda flera specifika rader i ett Excel-kalkylblad?
+
 Ja, du kan skydda flera specifika rader med liknande metoder som beskrivs i den här guiden.
 
 #### Hur kan jag låsa upp en specifik rad i ett Excel-kalkylblad?
+
  För att låsa upp en specifik rad måste du ändra källkoden i enlighet med detta med hjälp av`IsLocked` metod för`Style` objekt.

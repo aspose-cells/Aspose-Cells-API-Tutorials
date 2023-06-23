@@ -76,14 +76,18 @@ accès aux feuilles de calcul et vérification automatique du format de papier. 
 
 ### FAQ
 
-Q : Comment puis-je charger des classeurs avec Aspose.Cells pour .NET ?
+#### Q : Comment puis-je charger des classeurs avec Aspose.Cells pour .NET ?
+
 R : Vous pouvez charger des classeurs à l'aide de la classe Workbook de la bibliothèque Aspose.Cells. Utilisez la méthode Workbook.Load pour charger un classeur à partir d'un fichier.
 
-Q : Puis-je vérifier le format de papier automatique pour d'autres feuilles de calcul ?
+#### Q : Puis-je vérifier le format de papier automatique pour d'autres feuilles de calcul ?
+
 R : Oui, vous pouvez vérifier le format de papier automatique pour n'importe quelle feuille de calcul en accédant à la propriété PageSetup.IsAutomaticPaperSize de l'objet Worksheet correspondant.
 
-Q : Comment puis-je modifier le format de papier automatique d'une feuille de calcul ?
+#### Q : Comment puis-je modifier le format de papier automatique d'une feuille de calcul ?
+
 R : Pour modifier le format de papier automatique d'une feuille de calcul, vous pouvez utiliser la propriété PageSetup.IsAutomaticPaperSize et la définir sur la valeur souhaitée (true ou false).
 
-Q : Quelles autres fonctionnalités Aspose.Cells pour .NET offre-t-il ?
+#### Q : Quelles autres fonctionnalités Aspose.Cells pour .NET offre-t-il ?
+
 R : Aspose.Cells pour .NET offre de nombreuses fonctionnalités pour travailler avec des feuilles de calcul, telles que la création, la modification et la conversion de classeurs, ainsi que la manipulation de données, de formules et de mise en forme.

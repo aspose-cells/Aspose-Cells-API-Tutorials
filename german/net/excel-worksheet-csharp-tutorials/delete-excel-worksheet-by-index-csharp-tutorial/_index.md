@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Schritt 3: Instanziieren Sie ein Arbeitsmappenobjekt
 
- Nach dem Öffnen der Excel-Datei müssen Sie a instanziieren`Workbook` Objekt. Dieses Objekt stellt die Excel-Arbeitsmappe dar und bietet verschiedene Methoden und Eigenschaften zum Bearbeiten der Arbeitsmappe.
+ Nach dem Öffnen der Excel-Datei müssen Sie a instanziieren`Workbook`Objekt. Dieses Objekt stellt die Excel-Arbeitsmappe dar und bietet verschiedene Methoden und Eigenschaften zum Bearbeiten der Arbeitsmappe.
 
 ```csharp
 // Instanziieren Sie ein Workbook-Objekt
@@ -51,7 +51,7 @@ workbook.Worksheets.RemoveAt(0);
  Nachdem Sie das Arbeitsblatt gelöscht haben, können Sie die geänderte Excel-Arbeitsmappe mit speichern`Save()` Methode der`Workbook` Objekt.
 
 ```csharp
-//Speichern Sie die Excel-Arbeitsmappe
+// Speichern Sie die Excel-Arbeitsmappe
 workbook.Save(dataDir + "output.out.xls");
 ```
 

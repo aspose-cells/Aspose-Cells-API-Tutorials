@@ -72,7 +72,7 @@ Aspose.Cells per .NET è una potente libreria per la manipolazione di file Excel
 
 #### Come visualizzare la scheda di un foglio di calcolo Excel utilizzando Aspose.Cells per .NET?
 
- Puoi usare il`ShowTabs` proprietà del`Workbook.Settings` oggetto e impostarlo su`true`per mostrare la scheda del foglio di lavoro.
+ Puoi usare il`ShowTabs` proprietà del`Workbook.Settings` oggetto e impostarlo su`true` per mostrare la scheda del foglio di lavoro.
 
 #### Quali altri formati di file Excel sono supportati da Aspose.Cells per .NET?
 

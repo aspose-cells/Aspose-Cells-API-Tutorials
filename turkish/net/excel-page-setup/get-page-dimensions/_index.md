@@ -76,7 +76,7 @@ Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSet
 // Kağıt boyutunu A4 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Kağıt boyutunu Letter olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
+// Kağıt boyutunu Letter olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");

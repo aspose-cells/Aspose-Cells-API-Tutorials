@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Excel dosyasındaki ilk çalışma sayfasına erişme
 Worksheet worksheet = workbook.Worksheets[0];
-// Bölmeleri dondur ayarlarını uygulama
+//Bölmeleri dondur ayarlarını uygulama
 worksheet.FreezePanes(3, 2, 3, 2);
 // Değiştirilen Excel dosyasını kaydetme
 workbook.Save(dataDir + "output.xls");

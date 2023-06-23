@@ -25,14 +25,14 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-// Yeni bir çalışma kitabı oluştur
+//Yeni bir çalışma kitabı oluştur
 Workbook workbook = new Workbook();
 
 // İlk çalışma sayfasını al
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- Bu kod parçacığında öncelikle Excel dosyasının kaydedileceği dizinin yolunu tanımlıyoruz. Ardından, yeni bir örneğini oluşturuyoruz`Workbook` class ve kullanarak ilk çalışma sayfasına referans alın.`Worksheets`mülk.
+ Bu kod parçacığında öncelikle Excel dosyasının kaydedileceği dizinin yolunu tanımlıyoruz. Ardından, yeni bir örneğini oluşturuyoruz`Workbook` class ve kullanarak ilk çalışma sayfasına referans alın.`Worksheets` mülk.
 
 ## 3. Adım: Hücre Stilini Tanımlayın
 
@@ -79,7 +79,7 @@ sheet.Cells["C1"].SetStyle(style);
 Artık korunacak hücreleri tanımladığımıza göre, çalışma sayfasının kendisini koruyabiliriz. Aşağıdaki kodu kullanın:
 
 ```csharp
-// Çalışma sayfasını koruyun
+// çalışma sayfasını koruyun
 leaf.Protect(ProtectionType.All);
 ```
 
@@ -131,7 +131,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Son olarak, sayfayı şimdi koruyun.
+// Son olarak, sayfayı şimdi koruyun.
 sheet.Protect(ProtectionType.All);
 // Excel dosyasını kaydedin.
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
@@ -145,13 +145,17 @@ Tebrikler! Aspose.Cells for .NET kullanarak bir Excel elektronik tablosundaki be
 ### SSS
 
 #### S: Bir Excel elektronik tablosundaki hücreleri korumak için neden Aspose.Cells for .NET kullanmalıyım?
+
 Y: Aspose.Cells for .NET, Excel dosyalarıyla çalışmayı kolaylaştıran güçlü bir kitaplıktır. Hücreleri korumak, aralıkları açmak vb. için gelişmiş özellikler sunar.
 
 #### S: Bireysel hücreler yerine hücre aralıklarını korumak mümkün müdür?
+
  A: Evet, kullanarak korumak için belirli hücre aralıkları tanımlayabilirsiniz.`ApplyStyle` yöntemi ile uygun`StyleFlag`.
 
 #### S: Korumalı Excel dosyasını kaydettikten sonra nasıl açabilirim?
+
 C: Korumalı Excel dosyasını açtığınızda, çalışma sayfasını korurken belirtilen parolayı girmeniz gerekecektir.
 
 #### S: Bir Excel elektronik tablosuna uygulayabileceğim başka koruma türleri var mı?
+
 C: Evet, Aspose.Cells for .NET, yapı koruması, pencere koruması vb. gibi birçok koruma türünü destekler. İhtiyaçlarınıza göre uygun koruma türünü seçebilirsiniz.

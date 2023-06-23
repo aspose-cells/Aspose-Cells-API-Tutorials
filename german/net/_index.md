@@ -19,3 +19,9 @@ Unabhängig davon, ob Sie Anfänger oder erfahrener Entwickler sind, bieten Ihne
 | [Excel-Anzeigeeinstellungen](./excel-display-settings-csharp-tutorials) | Sehen Sie sich die Aspose.Cells C#-Tutorials an, um die Excel-Anzeige anzupassen. Ändern Sie Schriftarten, Farben und Formate und erstellen Sie attraktive Berichte. |
 | [Excel-Seiteneinrichtung](./excel-page-setup) | Sehen Sie sich die Aspose.Cells for .NET-Tutorials zum Einrichten des Excel-Seitenlayouts an. Passen Sie Ihre Excel-Dateien ganz einfach an. |
 | [Excel-Datei schützen](./protect-excel-file/) | Sehen Sie sich die Aspose.Cells for .NET-Tutorials zum Schutz von Excel-Dateien an. Erfahren Sie, wie Sie Ihre vertraulichen Daten mit C# schützen. |
+| [Excel-Arbeitsmappe](./excel-workbook/) | Entdecken Sie Aspose.Cells für .NET-Tutorials, um die Arbeit mit Excel-Arbeitsmappen anhand von Schritt-für-Schritt-Codebeispielen zu erlernen. |
+| [Excel-Kopierarbeitsblatt](./excel-copy-worksheet/) | Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für .NET kopieren und anpassen. Ausführliche Tutorials zur Beherrschung der Datenmanipulation und -formatierung. |
+| [Excel-Seitenumbrüche](./excel-page-breaks/) | Schauen Sie sich detaillierte Tutorials zu Excel-Seitenumbrüchen mit Aspose.Cells für .NET an. Verbessern Sie ganz einfach das Layout Ihrer Excel-Arbeitsmappen. |
+| [Excel-Tabellenschutz aufheben](./unprotect-excel-sheet/) | Erfahren Sie, wie Sie den Schutz einer Excel-Tabelle mit Aspose.Cells für .NET aufheben. Detaillierte Tutorials für Entwickler in C#. |
+| [Excel-Sicherheit](./excel-security/) | Entdecken Sie umfassende Excel-Sicherheits-Tutorials mit Aspose.Cells für .NET. Schützen Sie Ihre Excel-Dateien und kontrollieren Sie den Zugriff auf sensible Daten. |
+| [Excel-Tabellenschutz aufheben](./unprotect-excel-sheet/) | Erfahren Sie, wie Sie den Schutz einer Excel-Tabelle mit Aspose.Cells für .NET aufheben. Detaillierte Tutorials für Entwickler in C#. |

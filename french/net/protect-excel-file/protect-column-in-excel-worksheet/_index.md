@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Définissez l'objet de style.
 Style style;
-//Définissez l'objet styleflag.
+// Définissez l'objet styleflag.
 StyleFlag flag;
 // Parcourez toutes les colonnes de la feuille de calcul et déverrouillez-les.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Verrouille le.
 style.IsLocked = true;
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 // Définissez le paramètre de verrouillage.
 flag.Locked = true;
@@ -158,7 +158,7 @@ R : Oui, Aspose.Cells pour .NET offre un large éventail de fonctionnalités, n
 
 #### Q : Comment puis-je déverrouiller toutes les colonnes d'une feuille de calcul Excel ?
 
-R : Dans Aspose.Cells pour .NET, vous pouvez utiliser une boucle pour parcourir toutes les colonnes et définir le style de verrouillage sur "false" pour déverrouiller toutes les colonnes.
+: Dans Aspose.Cells pour .NET, vous pouvez utiliser une boucle pour parcourir toutes les colonnes et définir le style de verrouillage sur "false" pour déverrouiller toutes les colonnes.
 
 #### Q : Comment puis-je protéger une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET ?
 

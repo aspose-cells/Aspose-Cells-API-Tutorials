@@ -76,14 +76,18 @@ Zugriff auf Tabellenkalkulationen und automatische Überprüfung der Papiergrö�
 
 ### FAQs
 
-F: Wie kann ich Arbeitsmappen mit Aspose.Cells für .NET laden?
+#### F: Wie kann ich Arbeitsmappen mit Aspose.Cells für .NET laden?
+
 A: Sie können Arbeitsmappen mit der Workbook-Klasse aus der Aspose.Cells-Bibliothek laden. Verwenden Sie die Workbook.Load-Methode, um eine Arbeitsmappe aus einer Datei zu laden.
 
-F: Kann ich das automatische Papierformat für andere Tabellenkalkulationen überprüfen?
+#### F: Kann ich das automatische Papierformat für andere Tabellenkalkulationen überprüfen?
+
 A: Ja, Sie können die automatische Papiergröße für jedes Arbeitsblatt überprüfen, indem Sie auf die PageSetup.IsAutomaticPaperSize-Eigenschaft des entsprechenden Worksheet-Objekts zugreifen.
 
-F: Wie kann ich das automatische Papierformat einer Tabellenkalkulation ändern?
-A: Um die automatische Papiergröße eines Arbeitsblatts zu ändern, können Sie die Eigenschaft PageSetup.IsAutomaticPaperSize verwenden und sie auf den gewünschten Wert (wahr oder falsch) setzen.
+#### F: Wie kann ich das automatische Papierformat einer Tabellenkalkulation ändern?
 
-F: Welche weiteren Funktionen bietet Aspose.Cells für .NET?
+A: Um die automatische Papiergröße eines Arbeitsblatts zu ändern, können Sie die Eigenschaft PageSetup.IsAutomaticPaperSize verwenden und sie auf den gewünschten Wert (wahr oder falsch) festlegen.
+
+#### F: Welche weiteren Funktionen bietet Aspose.Cells für .NET?
+
 A: Aspose.Cells für .NET bietet viele Funktionen für die Arbeit mit Tabellenkalkulationen, z. B. das Erstellen, Ändern und Konvertieren von Arbeitsmappen sowie das Bearbeiten von Daten, Formeln und Formatierungen.

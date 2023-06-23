@@ -43,7 +43,7 @@ Worksheet ws = wb.Worksheets[0];
  Artık kullanarak özel çalışma sayfası boyutunu ayarlayabilirsiniz.`CustomPaperSize(width, height)` PageSetup sınıfının yöntemi.
 
 ```csharp
-// Özel çalışma sayfası boyutunu ayarlayın (inç olarak)
+// Özel çalışma sayfası boyutunu ayarlayın (inç cinsinden)
 ws.PageSetup.CustomPaperSize(6, 4);
 ```
 

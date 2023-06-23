@@ -99,7 +99,7 @@ int sheetCount = wb.Worksheets.Count;
 //Iterar todas las hojas
 for (int i = 0; i < sheetCount; i++)
 {
-    //Acceder a la i-ésima hoja de cálculo
+    //Acceder a la i-ésima hoja de trabajo
     Worksheet ws = wb.Worksheets[i];
     //Acceder a la configuración de la página de la hoja de trabajo
     PageSetup ps = ws.PageSetup;

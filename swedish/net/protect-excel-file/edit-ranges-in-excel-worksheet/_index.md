@@ -33,7 +33,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- I det här kodavsnittet definierar vi först sökvägen till katalogen där Excel-filen ska sparas. Därefter skapar vi en ny instans av`Workbook` klass och få referensen till det första kalkylbladet med hjälp av`Worksheets`fast egendom.
+ I det här kodavsnittet definierar vi först sökvägen till katalogen där Excel-filen ska sparas. Därefter skapar vi en ny instans av`Workbook` klass och få referensen till det första kalkylbladet med hjälp av`Worksheets` fast egendom.
 
 ## Steg 3: Få redigerbara intervall
 
@@ -129,13 +129,17 @@ Grattis! Du lärde dig hur man tillåter användare att redigera specifika inter
 #### Vanliga frågor
 
 #### F: Varför ska jag använda Aspose.Cells för .NET för att redigera intervall i ett Excel-kalkylblad?
+
 S: Aspose.Cells för .NET erbjuder ett kraftfullt och lättanvänt API för att arbeta med Excel-filer. Den tillhandahåller avancerade funktioner, såsom räckviddsmanipulation, kalkylbladsskydd, etc.
 
 #### F: Kan jag ställa in flera redigerbara intervall i ett kalkylblad?
+
  S: Ja, du kan definiera flera redigerbara intervall med hjälp av`Add` metod för`ProtectedRangeCollection` samling. Varje område kan ha sina egna skyddsinställningar.
 
 ####  F: Är det möjligt att ta bort ett redigerbart område efter att ha definierat det?
+
  A: Ja, du kan använda`RemoveAt` metod för`ProtectedRangeCollection` samling för att ta bort ett specifikt redigerbart område genom att ange dess index.
 
 #### F: Hur kan jag öppna den skyddade Excel-filen efter att ha sparat den?
+
 S: Du måste ange lösenordet som anges när du skapar det skyddade intervallet för att öppna den skyddade Excel-filen. Se till att förvara lösenordet på ett säkert ställe för att förhindra förlust av åtkomst till data.

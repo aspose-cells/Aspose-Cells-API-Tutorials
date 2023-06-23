@@ -125,7 +125,7 @@ pageSetup.BlackAndWhite = true;
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
 // Consentire di stampare fogli di lavoro con qualità bozza
 pageSetup.PrintDraft = true;
-// Consentire di stampare gli errori di cella come N/D
+// Consentire di stampare gli errori di cella come N/A
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 // Salva la cartella di lavoro.
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");

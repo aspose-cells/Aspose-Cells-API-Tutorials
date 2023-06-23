@@ -98,7 +98,7 @@ Oui, Aspose.Cells prend en charge plusieurs langages de programmation tels que J
 
 #### Puis-je ajouter une mise en forme aux cellules de la feuille de calcul nouvellement créée ?
 
-R : Oui, vous pouvez appliquer une mise en forme aux cellules à l'aide des méthodes fournies par la classe Worksheet de Aspose.Cells. Vous pouvez définir le style de cellule, modifier la couleur d'arrière-plan, appliquer des bordures, etc.
+Oui, vous pouvez appliquer une mise en forme aux cellules à l'aide des méthodes fournies par la classe Worksheet de Aspose.Cells. Vous pouvez définir le style de cellule, modifier la couleur d'arrière-plan, appliquer des bordures, etc.
 
 #### Comment puis-je accéder aux données des cellules à partir de la nouvelle feuille de calcul ?
 

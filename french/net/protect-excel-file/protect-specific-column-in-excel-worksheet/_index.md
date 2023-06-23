@@ -84,7 +84,7 @@ style.IsLocked = true;
 Après avoir verrouillé la colonne spécifique, nous devons appliquer le style et l'indicateur à cette colonne. Voici l'extrait de code :
 
 ```csharp
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 
 // Définissez le paramètre de verrouillage.
@@ -128,7 +128,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Définissez l'objet de style.
 Style style;
-//Définissez l'objet styleflag.
+// Définissez l'objet styleflag.
 StyleFlag flag;
 // Parcourez toutes les colonnes de la feuille de calcul et déverrouillez-les.
 for (int i = 0; i <= 255; i++)
@@ -143,7 +143,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Verrouille le.
 style.IsLocked = true;
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 // Définissez le paramètre de verrouillage.
 flag.Locked = true;
@@ -162,13 +162,17 @@ Dans ce didacticiel, nous avons expliqué le processus étape par étape de prot
 ### Foire aux questions (FAQ)
 
 #### Puis-je protéger plusieurs colonnes en utilisant cette méthode ?
+
 Oui, vous pouvez protéger plusieurs colonnes en modifiant le code en conséquence. Parcourez simplement la plage de colonnes souhaitée et appliquez les styles de verrouillage et les drapeaux.
 
 #### Est-il possible de protéger par mot de passe la feuille de calcul protégée ?
+
  Oui, vous pouvez ajouter une protection par mot de passe à la feuille de calcul protégée en spécifiant le mot de passe lors de l'appel du`Protect` méthode.
 
 #### Aspose.Cells pour .NET prend-il en charge d'autres formats de fichiers Excel ?
+
 Oui, Aspose.Cells pour .NET prend en charge divers formats de fichiers Excel, notamment XLS, XLSX, XLSM, etc.
 
 #### Puis-je protéger des lignes spécifiques au lieu de colonnes ?
+
 Oui, vous pouvez modifier le code pour protéger des lignes spécifiques au lieu de colonnes en appliquant les styles et les indicateurs aux cellules de ligne au lieu des cellules de colonne.

@@ -66,7 +66,7 @@ book.Save(dataDir + "output.xls");
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instanziieren Sie eine neue Arbeitsmappe und öffnen Sie eine Vorlagendatei
+// Instanziieren Sie eine neue Arbeitsmappe und öffnen Sie eine Vorlagendatei
 Workbook book = new Workbook(dataDir + "Book1.xls");
 // Legen Sie die aktive Zelle fest
 book.Worksheets[0].ActiveCell = "A20";
@@ -88,7 +88,7 @@ Aspose.Cells für .NET ist eine beliebte Softwarebibliothek zum Bearbeiten von E
 
 #### Wie kann ich die aktive Zelle eines Arbeitsblatts in Aspose.Cells festlegen?
 
- Sie können die aktive Zelle mit festlegen`ActiveCell` Eigenschaft des Worksheet-Objekts.
+ Sie können die aktive Zelle mit festlegen`ActiveCell`Eigenschaft des Worksheet-Objekts.
 
 #### Kann ich nur die horizontalen oder vertikalen Bereiche des Arbeitsblattfensters teilen?
 

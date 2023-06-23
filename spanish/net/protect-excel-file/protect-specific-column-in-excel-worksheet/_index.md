@@ -15,7 +15,7 @@ La protección de columnas específicas en una hoja de cálculo de Excel garanti
 
 ## Configuración del entorno
 
-Antes de comenzar, asegúrese de tener instalada la biblioteca Aspose.Cells para .NET en su entorno de desarrollo. Puede descargar la biblioteca desde el sitio web oficial de Aspose e instalarla utilizando el instalador proporcionado.
+Antes de comenzar, asegúrese de tener instalada la biblioteca Aspose.Cells para .NET en su entorno de desarrollo. Puede descargar la biblioteca desde el sitio web oficial de Aspose e instalarla utilizando el instalador provisto.
 
 ## Creación de un nuevo libro de trabajo y hoja de trabajo
 
@@ -33,7 +33,7 @@ if (!IsExists)
 // Crear un nuevo libro de trabajo.
 Workbook wb = new Workbook();
 
-// Cree un objeto de hoja de cálculo y obtenga la primera hoja.
+// Cree un objeto de hoja de trabajo y obtenga la primera hoja.
 Worksheet sheet = wb.Worksheets[0];
 ```
 
@@ -84,7 +84,7 @@ style.IsLocked = true;
 Después de bloquear la columna específica, debemos aplicar el estilo y la bandera a esa columna. Aquí está el fragmento de código:
 
 ```csharp
-// Crea una instancia de la bandera.
+//Crea una instancia de la bandera.
 flag = new StyleFlag();
 
 // Establezca la configuración de bloqueo.
@@ -124,11 +124,11 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crear un nuevo libro de trabajo.
 Workbook wb = new Workbook();
-// Cree un objeto de hoja de cálculo y obtenga la primera hoja.
+// Cree un objeto de hoja de trabajo y obtenga la primera hoja.
 Worksheet sheet = wb.Worksheets[0];
 // Defina el objeto de estilo.
 Style style;
-//Defina el objeto de marca de estilo.
+// Defina el objeto de marca de estilo.
 StyleFlag flag;
 // Recorra todas las columnas de la hoja de trabajo y desbloquéelas.
 for (int i = 0; i <= 255; i++)
@@ -143,7 +143,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Ciérralo.
 style.IsLocked = true;
-// Crea una instancia de la bandera.
+//Crea una instancia de la bandera.
 flag = new StyleFlag();
 // Establezca la configuración de bloqueo.
 flag.Locked = true;
@@ -162,13 +162,17 @@ En este tutorial, hemos explicado el proceso paso a paso para proteger una colum
 ### Preguntas frecuentes (FAQ)
 
 #### ¿Puedo proteger varias columnas con este método?
+
 Sí, puede proteger varias columnas modificando el código en consecuencia. Simplemente recorra el rango de columnas deseado y aplique los estilos de bloqueo y las banderas.
 
 #### ¿Es posible proteger con contraseña la hoja de trabajo protegida?
+
  Sí, puede agregar protección con contraseña a la hoja de trabajo protegida especificando la contraseña mientras llama al`Protect` método.
 
 #### ¿Aspose.Cells para .NET es compatible con otros formatos de archivo de Excel?
+
 Sí, Aspose.Cells para .NET admite varios formatos de archivo de Excel, incluidos XLS, XLSX, XLSM y más.
 
 #### ¿Puedo proteger filas específicas en lugar de columnas?
+
 Sí, puede modificar el código para proteger filas específicas en lugar de columnas aplicando los estilos y las banderas a las celdas de las filas en lugar de a las celdas de las columnas.

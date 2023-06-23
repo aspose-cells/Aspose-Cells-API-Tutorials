@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
-// Använder inställningar för frysta rutor
+//Använder inställningar för frysta rutor
 worksheet.FreezePanes(3, 2, 3, 2);
 // Sparar den ändrade Excel-filen
 workbook.Save(dataDir + "output.xls");

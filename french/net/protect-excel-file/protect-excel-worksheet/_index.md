@@ -109,13 +109,17 @@ Félicitation ! Vous disposez maintenant d'un code source C# qui vous permet de 
 ### FAQ (Foire Aux Questions)
 
 #### Est-il possible de protéger plusieurs feuilles de calcul dans un seul fichier Excel ?
+
 R : Oui, vous pouvez protéger plusieurs feuilles de calcul dans un seul fichier Excel en répétant les étapes 4 à 6 pour chaque feuille de calcul.
 
 #### Comment puis-je spécifier des autorisations spécifiques pour les utilisateurs autorisés ?
+
  R : Vous pouvez utiliser les options supplémentaires fournies par le`Protect`méthode pour spécifier des autorisations spécifiques pour les utilisateurs autorisés. Voir la documentation Aspose.Cells pour plus d'informations.
 
 #### Puis-je protéger le fichier Excel lui-même avec un mot de passe ?
+
 R : Oui, vous pouvez protéger par mot de passe le fichier Excel lui-même en utilisant d'autres méthodes fournies par la bibliothèque Aspose.Cells. Veuillez vous référer à la documentation pour des exemples spécifiques.
 
 #### La bibliothèque Aspose.Cells prend-elle en charge d'autres formats de fichiers Excel ?
+
 R : Oui, la bibliothèque Aspose.Cells prend en charge une large gamme de formats de fichiers Excel, notamment XLSX, XLSM, XLSB, CSV, etc.

@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Application des paramètres de volets figés
+//Application des paramètres de volets figés
 worksheet.FreezePanes(3, 2, 3, 2);
 // Enregistrement du fichier Excel modifié
 workbook.Save(dataDir + "output.xls");

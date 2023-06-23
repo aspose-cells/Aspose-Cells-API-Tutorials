@@ -87,4 +87,4 @@ Aspose.Cells per .NET supporta un'ampia gamma di formati carta comunemente usati
 
 #### Posso personalizzare il formato carta di un foglio di calcolo con Aspose.Cells per .NET?
 
-Sì, puoi impostare un formato carta personalizzato specificando le dimensioni esatte di larghezza e altezza utilizzando il`PaperWidth` E`PaperHeight` proprietà del`PageSetup` classe.
+ Sì, puoi impostare un formato carta personalizzato specificando le dimensioni esatte di larghezza e altezza utilizzando il`PaperWidth` E`PaperHeight` proprietà del`PageSetup` classe.

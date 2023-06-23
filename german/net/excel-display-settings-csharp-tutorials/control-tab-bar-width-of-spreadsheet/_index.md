@@ -28,7 +28,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## Schritt 3: Blenden Sie die Arbeitsblattregisterkarten aus
 
-Um Arbeitsblattregisterkarten auszublenden, können Sie die verwenden`ShowTabs` Eigentum der`Settings` Gegenstand der`Workbook` Klasse. Stellen Sie es ein`false` um die Tabs auszublenden.
+ Um Arbeitsblattregisterkarten auszublenden, können Sie die verwenden`ShowTabs` Eigentum der`Settings` Gegenstand der`Workbook` Klasse. Stellen Sie es ein`false` um die Tabs auszublenden.
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,4 +89,4 @@ Aspose.Cells für .NET bietet viele Funktionen, wie das Erstellen, Ändern, Konv
 
 #### Wie passt man die Breite der Tab-Leiste mit Aspose.Cells für .NET an?
 
- Sie können die Breite der Tab-Leiste anpassen, indem Sie verwenden`SheetTabBarWidth` Eigentum der`Settings` Gegenstand der`Workbook` Klasse und weist ihr einen numerischen Wert in Punkten zu.
+Sie können die Breite der Tab-Leiste anpassen, indem Sie verwenden`SheetTabBarWidth` Eigentum der`Settings` Gegenstand der`Workbook` Klasse und weist ihr einen numerischen Wert in Punkten zu.

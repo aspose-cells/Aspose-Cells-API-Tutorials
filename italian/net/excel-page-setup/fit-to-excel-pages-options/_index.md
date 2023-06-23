@@ -68,18 +68,18 @@ In questo articolo, abbiamo imparato come configurare l'adattamento alle pagine 
 
 ### Domande frequenti
 
-D: Come posso installare Aspose.Cells per .NET?
+#### D: Come posso installare Aspose.Cells per .NET?
 
 R: Per installare Aspose.Cells per .NET, puoi utilizzare il gestore di pacchetti NuGet in Visual Studio. Trova il pacchetto "Aspose.Cells" e installalo nel tuo progetto.
 
-D: Posso adattare le pagine sia in altezza che in larghezza?
+#### D: Posso adattare le pagine sia in altezza che in larghezza?
 
- A: Sì, puoi regolare sia l'altezza che la larghezza del foglio di lavoro utilizzando il file`FitToPagesTall` E`FitToPagesWide` proprietà. È possibile specificare il numero desiderato di pagine per ciascuna dimensione.
+ A: Sì, puoi regolare sia l'altezza che la larghezza del foglio di lavoro utilizzando il file`FitToPagesTall` E`FitToPagesWide` proprietà. È possibile specificare il numero desiderato di pagine per ogni dimensione.
 
-D: Come posso personalizzare le opzioni Adatta alle pagine?
+#### D: Come posso personalizzare le opzioni Adatta alle pagine?
 
 R: Oltre a specificare il numero di pagine, puoi anche personalizzare altre opzioni di adattamento alle pagine come la scala del foglio di lavoro, l'orientamento della carta, i margini e altro. Utilizzare le proprietà disponibili in`PageSetup` oggetto per questo.
 
-D: Posso utilizzare Aspose.Cells per .NET per elaborare le cartelle di lavoro esistenti?
+#### D: Posso utilizzare Aspose.Cells per .NET per elaborare le cartelle di lavoro esistenti?
 
 R: Sì, puoi utilizzare Aspose.Cells per .NET per aprire e modificare cartelle di lavoro esistenti. Puoi accedere a fogli di lavoro, celle, formule, stili e altri elementi della cartella di lavoro per eseguire varie operazioni.

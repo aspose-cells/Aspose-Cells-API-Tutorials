@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Acceso a la primera hoja de trabajo en el archivo de Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Aplicar la configuración de congelar paneles
+//Aplicar la configuración de congelar paneles
 worksheet.FreezePanes(3, 2, 3, 2);
 // Guardar el archivo de Excel modificado
 workbook.Save(dataDir + "output.xls");

@@ -86,7 +86,7 @@ Ora hai imparato come impostare il numero della prima pagina in Excel utilizzand
 
  A1: Sì, puoi impostare un numero di prima pagina diverso per ogni foglio di lavoro accedendo a`FirstPageNumber`proprietà del rispettivo foglio di lavoro`PageSetup` oggetto.
 
-#### D2: Come posso controllare il numero della prima pagina di un foglio di calcolo esistente?
+#### D2: Come posso controllare il numero della prima pagina di un foglio di lavoro esistente?
 
  A2: è possibile controllare il numero della prima pagina di un foglio di lavoro esistente accedendo a`FirstPageNumber` proprietà del`PageSetup` oggetto corrispondente a quel foglio di lavoro.
 

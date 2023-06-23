@@ -33,7 +33,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- Bu kod parçacığında öncelikle Excel dosyasının kaydedileceği dizinin yolunu tanımlıyoruz. Ardından, yeni bir örneğini oluşturuyoruz`Workbook` class ve kullanarak ilk çalışma sayfasına referans alın.`Worksheets`mülk.
+ Bu kod parçacığında öncelikle Excel dosyasının kaydedileceği dizinin yolunu tanımlıyoruz. Ardından, yeni bir örneğini oluşturuyoruz`Workbook` class ve kullanarak ilk çalışma sayfasına referans alın.`Worksheets` mülk.
 
 ## 3. Adım: Düzenlenebilir Aralıkları Alın
 
@@ -59,7 +59,7 @@ rangeProtected = rangesEditable[index];
 
  Bu kodda, yeni bir örnek oluşturuyoruz.`ProtectedRange` sınıflandırın ve kullanın`Add` korunacak aralığı belirtme yöntemi.
 
-## 5. Adım: Parolayı Belirtin
+## Adım 5: Parolayı Belirtin
 
 Güvenliği artırmak için, korunan aralık için bir parola belirleyebilirsiniz. İşte nasıl:
 
@@ -73,7 +73,7 @@ protectedBeach.Password = "YOUR_PASSWORD";
 Artık korumalı aralığı ayarladığımıza göre, yetkisiz değişiklikleri önlemek için çalışma sayfasını koruyabiliriz. Aşağıdaki kodu kullanın:
 
 ```csharp
-// Çalışma sayfasını koruyun
+// çalışma sayfasını koruyun
 leaf.Protect(ProtectionType.All);
 ```
 
@@ -129,13 +129,17 @@ Tebrikler! Aspose.Cells for .NET kullanarak kullanıcıların bir Excel elektron
 #### SSS
 
 #### S: Bir Excel elektronik tablosundaki aralıkları düzenlemek için neden Aspose.Cells for .NET kullanmalıyım?
+
 Y: Aspose.Cells for .NET, Excel dosyalarıyla çalışmak için güçlü ve kullanımı kolay bir API sunar. Menzil değiştirme, çalışma sayfası koruması vb. gibi gelişmiş özellikler sağlar.
 
 #### S: Bir çalışma sayfasında birden çok düzenlenebilir aralık ayarlayabilir miyim?
+
  A: Evet, kullanarak birden fazla düzenlenebilir aralık tanımlayabilirsiniz.`Add` yöntemi`ProtectedRangeCollection` Toplamak. Her aralığın kendi koruma ayarları olabilir.
 
 ####  S: Düzenlenebilir bir aralığı tanımladıktan sonra silmek mümkün müdür?
+
  C: Evet, kullanabilirsiniz`RemoveAt` yöntemi`ProtectedRangeCollection` dizini belirterek belirli bir düzenlenebilir aralığı kaldırmak için koleksiyon.
 
 #### S: Korumalı Excel dosyasını kaydettikten sonra nasıl açabilirim?
-C: Korumalı Excel dosyasını açmak için korumalı aralığı oluştururken belirtilen parolayı sağlamanız gerekir. Verilere erişimin kaybolmasını önlemek için parolayı güvenli bir yerde sakladığınızdan emin olun.
+
+C: Korumalı Excel dosyasını açmak için korumalı aralığı oluştururken belirtilen parolayı sağlamanız gerekecektir. Verilere erişimin kaybolmasını önlemek için parolayı güvenli bir yerde sakladığınızdan emin olun.

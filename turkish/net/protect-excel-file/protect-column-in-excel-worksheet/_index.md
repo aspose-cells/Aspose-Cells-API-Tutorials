@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Stil nesnesini tanımlayın.
 Style style;
-//styleflag nesnesini tanımlayın.
+// styleflag nesnesini tanımlayın.
 StyleFlag flag;
 // Çalışma sayfasındaki tüm sütunlarda dolaşın ve bunların kilidini açın.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Kilitle.
 style.IsLocked = true;
-// Bayrağı somutlaştırın.
+//Bayrağı somutlaştırın.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;

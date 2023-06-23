@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Paso 3: crear una instancia de un objeto de libro de trabajo
 
- Después de abrir el archivo de Excel, debe crear una instancia de`Workbook` objeto. Este objeto representa el libro de Excel y ofrece varios métodos y propiedades para manipular el libro.
+ Después de abrir el archivo de Excel, debe crear una instancia de`Workbook`objeto. Este objeto representa el libro de Excel y ofrece varios métodos y propiedades para manipular el libro.
 
 ```csharp
 // Crear una instancia de un objeto Workbook
@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  Puede establecer el nombre de la hoja recién agregada usando el`Name` propiedad de la`Worksheet` objeto.
 
 ```csharp
-//Obtener la referencia de la nueva hoja añadida pasando su índice de hoja
+// Obtener la referencia de la nueva hoja añadida pasando su índice de hoja
 Worksheet worksheet = workbook.Worksheets[i];
 // Definir el nombre de la nueva hoja.
 worksheet.Name = "My Worksheet";

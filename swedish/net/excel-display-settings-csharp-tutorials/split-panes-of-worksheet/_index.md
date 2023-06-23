@@ -66,7 +66,7 @@ book.Save(dataDir + "output.xls");
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instantiera en ny arbetsbok och öppna en mallfil
+// Instantiera en ny arbetsbok och öppna en mallfil
 Workbook book = new Workbook(dataDir + "Book1.xls");
 // Ställ in den aktiva cellen
 book.Worksheets[0].ActiveCell = "A20";
@@ -78,7 +78,7 @@ book.Save(dataDir + "output.xls");
 
 ## Slutsats
 
-I den här handledningen lärde du dig hur du delar upp rutor i ett Excel-kalkylblad med Aspose.Cells för .NET. Genom att följa de beskrivna stegen kan du enkelt anpassa utseendet och beteendet för dina Excel-filer.
+den här handledningen lärde du dig hur du delar upp rutor i ett Excel-kalkylblad med Aspose.Cells för .NET. Genom att följa de beskrivna stegen kan du enkelt anpassa utseendet och beteendet för dina Excel-filer.
 
 ### Vanliga frågor (FAQ)
 
@@ -88,7 +88,7 @@ Aspose.Cells för .NET är ett populärt programbibliotek för att manipulera Ex
 
 #### Hur kan jag ställa in den aktiva cellen i ett kalkylblad i Aspose.Cells?
 
- Du kan ställa in den aktiva cellen med hjälp av`ActiveCell` egenskapen för kalkylbladsobjektet.
+ Du kan ställa in den aktiva cellen med hjälp av`ActiveCell`egenskapen för kalkylbladsobjektet.
 
 #### Kan jag bara dela de horisontella eller vertikala rutorna i kalkylbladsfönstret?
 

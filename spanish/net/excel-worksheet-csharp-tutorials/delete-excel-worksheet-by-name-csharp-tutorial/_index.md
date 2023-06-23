@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Paso 3: crear una instancia de un objeto de libro de trabajo
 
- Después de abrir el archivo de Excel, debe crear una instancia de`Workbook` objeto. Este objeto representa el libro de Excel y ofrece varios métodos y propiedades para manipular el libro.
+ Después de abrir el archivo de Excel, debe crear una instancia de`Workbook`objeto. Este objeto representa el libro de Excel y ofrece varios métodos y propiedades para manipular el libro.
 
 ```csharp
 // Crear una instancia de un objeto Workbook
@@ -51,7 +51,7 @@ workbook.Worksheets.RemoveAt("Sheet1");
  Una vez que haya eliminado la hoja de trabajo, puede guardar el libro de trabajo de Excel modificado usando el`Save()` metodo de la`Workbook` objeto.
 
 ```csharp
-//Guardar el libro de Excel
+// Guardar el libro de Excel
 workbook.Save(dataDir + "output.out.xls");
 ```
 

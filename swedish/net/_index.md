@@ -19,3 +19,9 @@ Oavsett om du är nybörjare eller en erfaren utvecklare ger Aspose.Cells för .
 | [Excel-skärminställningar](./excel-display-settings-csharp-tutorials) | Kolla in Aspose.Cells C#-tutorials för att anpassa Excel-skärmen. Ändra typsnitt, färger, format och skapa attraktiva rapporter. |
 | [Excel sidinställningar](./excel-page-setup) | Kolla in Aspose.Cells för .NET-handledningarna om hur du ställer in Excels sidlayout. Anpassa dina Excel-filer med lätthet. |
 | [Skydda Excel-fil](./protect-excel-file/) | Kolla in Aspose.Cells för .NET handledningar om att skydda Excel-filer. Lär dig hur du säkrar dina konfidentiella data med C#. |
+| [Excel arbetsbok](./excel-workbook/) | Utforska Aspose.Cells för .NET-självstudier för att bemästra arbetet med Excel-arbetsböcker med hjälp av steg-för-steg-kodexempel. |
+| [Excel kopia arbetsblad](./excel-copy-worksheet/) | Lär dig hur du kopierar och anpassar Excel-kalkylblad med Aspose.Cells för .NET. Detaljerade handledningar för masterdatamanipulering och formatering. |
+| [Sidbrytningar i Excel](./excel-page-breaks/) | Kolla in detaljerade handledningar om Excel-sidbrytningar med Aspose.Cells för .NET. Förbättra layouten på dina Excel-arbetsböcker med lätthet. |
+| [Ta bort skyddet av Excel-ark](./unprotect-excel-sheet/) | Lär dig hur du avskyddar ett Excel-kalkylblad med Aspose.Cells för .NET. Detaljerade tutorials för utvecklare i C#. |
+| [Excel säkerhet](./excel-security/) | Upptäck omfattande säkerhetshandledningar i Excel med Aspose.Cells för .NET. Skydda dina Excel-filer och kontrollera åtkomsten till känsliga data. |
+| [Ta bort skyddet av Excel-ark](./unprotect-excel-sheet/) | Lär dig hur du avskyddar ett Excel-kalkylblad med Aspose.Cells för .NET. Detaljerade tutorials för utvecklare i C#. |

@@ -25,14 +25,14 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-// Crea una nuova cartella di lavoro
+//Crea una nuova cartella di lavoro
 Workbook workbook = new Workbook();
 
 // Ottieni il primo foglio di lavoro
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- In questo frammento di codice, per prima cosa definiamo il percorso della directory in cui verrà salvato il file Excel. Successivamente, creiamo una nuova istanza di`Workbook` class e ottenere il riferimento al primo foglio di lavoro utilizzando il file`Worksheets`proprietà.
+ In questo frammento di codice, per prima cosa definiamo il percorso della directory in cui verrà salvato il file Excel. Successivamente, creiamo una nuova istanza di`Workbook` class e ottenere il riferimento al primo foglio di lavoro utilizzando il file`Worksheets` proprietà.
 
 ## Passaggio 3: definire lo stile della cella
 
@@ -131,7 +131,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Infine, proteggi il foglio ora.
+// Infine, proteggi il foglio ora.
 sheet.Protect(ProtectionType.All);
 // Salva il file excel.
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
@@ -145,13 +145,17 @@ Congratulazioni! Hai imparato a proteggere celle specifiche in un foglio di calc
 ### Domande frequenti
 
 #### D: Perché dovrei usare Aspose.Cells per .NET per proteggere le celle in un foglio di calcolo Excel?
+
 R: Aspose.Cells per .NET è una potente libreria che semplifica il lavoro con i file Excel. Offre funzionalità avanzate per proteggere le celle, sbloccare gli intervalli, ecc.
 
 #### D: È possibile proteggere intervalli di celle anziché singole celle?
+
  R: Sì, puoi definire intervalli di celle specifici da proteggere utilizzando il`ApplyStyle` metodo con un appropriato`StyleFlag`.
 
 #### D: Come posso aprire il file Excel protetto dopo averlo salvato?
+
 R: Quando apri il file Excel protetto, dovrai fornire la password specificata durante la protezione del foglio di lavoro.
 
 #### D: Esistono altri tipi di protezione che posso applicare a un foglio di calcolo Excel?
+
 R: Sì, Aspose.Cells per .NET supporta più tipi di protezione, come la protezione della struttura, la protezione delle finestre, ecc. Puoi scegliere il tipo di protezione appropriato in base alle tue esigenze.

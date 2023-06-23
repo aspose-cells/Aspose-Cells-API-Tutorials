@@ -109,13 +109,17 @@ fstream.Close();
 ### Preguntas frecuentes (Preguntas frecuentes)
 
 #### ¿Es posible proteger varias hojas de trabajo en un archivo de Excel?
+
 R: Sí, puede proteger varias hojas de trabajo en un archivo de Excel repitiendo los pasos 4 a 6 para cada hoja de trabajo.
 
 #### ¿Cómo puedo especificar permisos específicos para usuarios autorizados?
+
  R: Puede utilizar las opciones adicionales proporcionadas por el`Protect`para especificar permisos específicos para usuarios autorizados. Consulte la documentación de Aspose.Cells para obtener más información.
 
 #### ¿Puedo proteger el propio archivo de Excel con una contraseña?
+
 R: Sí, puede proteger con contraseña el propio archivo de Excel utilizando otros métodos proporcionados por la biblioteca Aspose.Cells. Consulte la documentación para ver ejemplos específicos.
 
 #### ¿La biblioteca Aspose.Cells admite otros formatos de archivo de Excel?
+
 R: Sí, la biblioteca Aspose.Cells admite una amplia gama de formatos de archivo de Excel, incluidos XLSX, XLSM, XLSB, CSV, etc.

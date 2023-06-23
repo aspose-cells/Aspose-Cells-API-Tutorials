@@ -142,4 +142,4 @@ Ahora ha aprendido a usar Aspose.Cells para .NET para permitir que el usuario ed
 
 #### 3. ¿Cómo protejo la hoja de cálculo una vez que se establecen los rangos permitidos?
 
- Utilizar el`Protect` metodo de la`Worksheet` objeto para proteger la hoja de trabajo. Esto evitará cualquier cambio fuera de los rangos permitidos, posiblemente solicitando una contraseña si especificó una.
+ Utilizar el`Protect` metodo de la`Worksheet` objeto para proteger la hoja de cálculo. Esto evitará cualquier cambio fuera de los rangos permitidos, posiblemente solicitando una contraseña si especificó una.

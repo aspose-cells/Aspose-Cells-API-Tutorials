@@ -17,5 +17,5 @@ Bunlar bazı faydalı kaynaklara bağlantılar:
  
 - [Excel Çalışma Sayfası](./net/excel-worksheet-csharp-tutorials/)
 - [Excel Görüntü Ayarları](./net/excel-display-settings-csharp-tutorials)
-- [Excel Sayfa Yapısı](./net/excel-page-setup)
+- [Excel Sayfa Düzeni](./net/excel-page-setup)
 - [Excel Dosyasını Koru](./net/protect-excel-file/)

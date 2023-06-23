@@ -25,14 +25,14 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-// Erstellen Sie eine neue Arbeitsmappe
+//Erstellen Sie eine neue Arbeitsmappe
 Workbook workbook = new Workbook();
 
 // Holen Sie sich das erste Arbeitsblatt
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- In diesem Codeausschnitt definieren wir zunächst den Pfad zu dem Verzeichnis, in dem die Excel-Datei gespeichert wird. Als nächstes erstellen wir eine neue Instanz von`Workbook` Klasse und rufen Sie den Verweis auf das erste Arbeitsblatt mithilfe von ab`Worksheets`Eigentum.
+ In diesem Codeausschnitt definieren wir zunächst den Pfad zu dem Verzeichnis, in dem die Excel-Datei gespeichert wird. Als nächstes erstellen wir eine neue Instanz von`Workbook` Klasse und rufen Sie den Verweis auf das erste Arbeitsblatt mithilfe von ab`Worksheets` Eigentum.
 
 ## Schritt 3: Zellenstil definieren
 
@@ -131,7 +131,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Zum Schluss schützen Sie das Blatt jetzt.
+// Zum Schluss schützen Sie das Blatt jetzt.
 sheet.Protect(ProtectionType.All);
 // Speichern Sie die Excel-Datei.
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
@@ -145,13 +145,17 @@ Herzlichen Glückwunsch! Sie haben gelernt, wie Sie mit Aspose.Cells für .NET b
 ### FAQs
 
 #### F: Warum sollte ich Aspose.Cells für .NET verwenden, um Zellen in einer Excel-Tabelle zu schützen?
+
 A: Aspose.Cells für .NET ist eine leistungsstarke Bibliothek, die die Arbeit mit Excel-Dateien erleichtert. Es bietet erweiterte Funktionen zum Schutz von Zellen, zum Entsperren von Bereichen usw.
 
 #### F: Ist es möglich, Zellbereiche statt einzelner Zellen zu schützen?
+
  A: Ja, Sie können bestimmte zu schützende Zellbereiche definieren`ApplyStyle` Methode mit einem geeigneten`StyleFlag`.
 
 #### F: Wie kann ich die geschützte Excel-Datei öffnen, nachdem ich sie gespeichert habe?
+
 A: Wenn Sie die geschützte Excel-Datei öffnen, müssen Sie das beim Schutz des Arbeitsblatts angegebene Passwort angeben.
 
 #### F: Gibt es andere Arten von Schutz, die ich auf eine Excel-Tabelle anwenden kann?
+
 A: Ja, Aspose.Cells für .NET unterstützt mehrere Schutzarten, z. B. Strukturschutz, Fensterschutz usw. Sie können die geeignete Schutzart entsprechend Ihren Anforderungen auswählen.

@@ -47,7 +47,7 @@ Esto agregará una nueva hoja de trabajo al objeto Workbook y obtendrá una refe
 
 ## Paso 4: Establecer el nombre de la nueva hoja de cálculo
 
-El cuarto paso es dar un nombre a la nueva hoja de trabajo. Puede usar el siguiente código para establecer el nombre de la hoja de trabajo:
+El cuarto paso es dar un nombre a la nueva hoja de cálculo. Puede usar el siguiente código para establecer el nombre de la hoja de trabajo:
 
 ```csharp
 worksheet.Name = "My Worksheet";
@@ -98,9 +98,9 @@ Sí, Aspose.Cells admite múltiples lenguajes de programación como Java, Python
 
 #### ¿Puedo agregar formato a las celdas en la hoja de trabajo recién creada?
 
-R: Sí, puede aplicar formato a las celdas utilizando los métodos proporcionados por la clase Worksheet de Aspose.Cells. Puede establecer el estilo de celda, cambiar el color de fondo, aplicar bordes, etc.
+Sí, puede aplicar formato a las celdas utilizando los métodos proporcionados por la clase Worksheet de Aspose.Cells. Puede establecer el estilo de celda, cambiar el color de fondo, aplicar bordes, etc.
 
-#### ¿Cómo puedo acceder a los datos de las celdas desde la nueva hoja de cálculo?
+#### ¿Cómo puedo acceder a los datos de las celdas desde la nueva hoja de trabajo?
 
 Puede acceder a los datos de las celdas utilizando las propiedades y los métodos proporcionados por la clase Worksheet de Aspose.Cells. Por ejemplo, puede usar la propiedad Celdas para acceder a una celda específica y recuperar o modificar su valor.
 

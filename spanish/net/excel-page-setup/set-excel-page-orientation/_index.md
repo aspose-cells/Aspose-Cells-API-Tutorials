@@ -44,7 +44,7 @@ A continuación, debemos acceder a la hoja de trabajo dentro del archivo de Exce
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-## Paso 4: Establecer la orientación de la página en Vertical
+## Paso 4: Establecer la orientación de la página en Retrato
 
 Ahora es el momento de establecer la orientación de la página. Aspose.Cells proporciona la propiedad PageSetup para cada hoja de trabajo, lo que nos permite personalizar varias configuraciones relacionadas con la página. Para establecer la orientación de la página, debemos asignar el valor PageOrientationType.Portrait a la propiedad Orientación del objeto PageSetup.
 

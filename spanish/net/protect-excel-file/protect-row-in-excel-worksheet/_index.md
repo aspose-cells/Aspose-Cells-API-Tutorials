@@ -110,11 +110,11 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crear un nuevo libro de trabajo.
 Workbook wb = new Workbook();
-// Cree un objeto de hoja de cálculo y obtenga la primera hoja.
+// Cree un objeto de hoja de trabajo y obtenga la primera hoja.
 Worksheet sheet = wb.Worksheets[0];
 // Defina el objeto de estilo.
 Style style;
-//Defina el objeto de marca de estilo.
+// Defina el objeto de marca de estilo.
 StyleFlag flag;
 // Recorra todas las columnas de la hoja de trabajo y desbloquéelas.
 for (int i = 0; i <= 255; i++)
@@ -129,7 +129,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Ciérralo.
 style.IsLocked = true;
-// Crea una instancia de la bandera.
+//Crea una instancia de la bandera.
 flag = new StyleFlag();
 // Establezca la configuración de bloqueo.
 flag.Locked = true;
@@ -148,16 +148,21 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ### Preguntas frecuentes (Preguntas frecuentes)
 
 #### ¿Este código funciona con versiones recientes de Excel?
+
 Sí, este código funciona con versiones recientes de Excel, incluidos archivos en formato Excel 2010 y superior.
 
-#### ¿Puedo proteger solo filas específicas en lugar de todas las filas de la hoja de trabajo?
+#### ¿Puedo proteger solo filas específicas en lugar de todas las filas de la hoja de cálculo?
+
 Sí, puede modificar el código para especificar las filas específicas que desea proteger. Deberá ajustar el bucle y los índices en consecuencia.
 
 #### ¿Cómo puedo desbloquear líneas bloqueadas nuevamente?
+
  Puedes usar el`IsLocked` metodo de la`Style` objeto para establecer el valor en`false` y desbloquear las filas.
 
 #### ¿Es posible proteger varias hojas de cálculo en el mismo libro de Excel?
+
 Sí, puede repetir los pasos de crear una hoja de trabajo, configurar el estilo y proteger cada hoja de trabajo del libro.
 
 #### ¿Cómo puedo cambiar la contraseña de protección de la hoja de cálculo?
+
  Puede cambiar la contraseña utilizando el`Protect` y especificando una nueva contraseña como argumento.

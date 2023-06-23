@@ -28,7 +28,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## Paso 3: ocultar las pestañas de la hoja de trabajo
 
-Para ocultar las pestañas de la hoja de trabajo, puede usar el`ShowTabs` propiedad de la`Settings` objeto de la`Workbook` clase. Configúralo en`false` para ocultar las pestañas.
+ Para ocultar las pestañas de la hoja de trabajo, puede usar el`ShowTabs` propiedad de la`Settings` objeto de la`Workbook` clase. Configúralo en`false` para ocultar las pestañas.
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,4 +89,4 @@ Aspose.Cells for .NET ofrece muchas funciones, como crear, modificar, convertir 
 
 #### ¿Cómo ajustar el ancho de la barra de pestañas con Aspose.Cells para .NET?
 
- Puede ajustar el ancho de la barra de pestañas usando el`SheetTabBarWidth` propiedad de la`Settings` objeto de la`Workbook` clase y asignándole un valor numérico en puntos.
+Puede ajustar el ancho de la barra de pestañas usando el`SheetTabBarWidth` propiedad de la`Settings` objeto de la`Workbook` clase y asignándole un valor numérico en puntos.

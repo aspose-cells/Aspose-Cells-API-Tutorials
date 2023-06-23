@@ -114,7 +114,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Définissez l'objet de style.
 Style style;
-//Définissez l'objet styleflag.
+// Définissez l'objet styleflag.
 StyleFlag flag;
 // Parcourez toutes les colonnes de la feuille de calcul et déverrouillez-les.
 for (int i = 0; i <= 255; i++)
@@ -129,7 +129,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Verrouille le.
 style.IsLocked = true;
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 // Définissez le paramètre de verrouillage.
 flag.Locked = true;
@@ -148,16 +148,21 @@ Félicitation ! Vous disposez maintenant d'un code source C# qui vous permet de 
 ### FAQ (Foire Aux Questions)
 
 #### Ce code fonctionne-t-il avec les versions récentes d'Excel ?
+
 Oui, ce code fonctionne avec les versions récentes d'Excel, y compris les fichiers au format Excel 2010 et supérieur.
 
 #### Puis-je protéger uniquement des lignes spécifiques au lieu de toutes les lignes de la feuille de calcul ?
+
 Oui, vous pouvez modifier le code pour spécifier les lignes spécifiques que vous souhaitez protéger. Vous devrez ajuster la boucle et les indices en conséquence.
 
 #### Comment puis-je déverrouiller à nouveau les lignes verrouillées ?
+
  Vous pouvez utiliser le`IsLocked` méthode de la`Style` objet pour définir la valeur à`false` et déverrouiller les rangées.
 
 #### Est-il possible de protéger plusieurs feuilles de calcul dans le même classeur Excel ?
+
 Oui, vous pouvez répéter les étapes de création d'une feuille de calcul, de définition du style et de protection pour chaque feuille de calcul du classeur.
 
 #### Comment puis-je modifier le mot de passe de protection de la feuille de calcul ?
+
  Vous pouvez modifier le mot de passe à l'aide du`Protect` méthode et en spécifiant un nouveau mot de passe comme argument.

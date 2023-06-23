@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(InputPath, FileMode.Open);
 
 ## Étape 4 : instancier un objet de classeur
 
- Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook` objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
+ Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook`objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
 
 ```csharp
 // Instancier un objet Workbook

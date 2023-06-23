@@ -76,14 +76,18 @@ elektronik tablolara ve otomatik kağıt boyutu kontrolüne erişim. Artık bu b
 
 ### SSS
 
-S: Çalışma kitaplarını Aspose.Cells for .NET ile nasıl yükleyebilirim?
+#### S: Çalışma kitaplarını Aspose.Cells for .NET ile nasıl yükleyebilirim?
+
 C: Aspose.Cells kitaplığından Workbook sınıfını kullanarak çalışma kitaplarını yükleyebilirsiniz. Bir dosyadan çalışma kitabı yüklemek için Workbook.Load yöntemini kullanın.
 
-S: Diğer elektronik tablolar için otomatik kağıt boyutunu kontrol edebilir miyim?
+#### S: Diğer elektronik tablolar için otomatik kağıt boyutunu kontrol edebilir miyim?
+
 C: Evet, ilgili Worksheet nesnesinin PageSetup.IsAutomaticPaperSize özelliğine erişerek herhangi bir çalışma sayfası için otomatik kağıt boyutunu kontrol edebilirsiniz.
 
-S: Bir elektronik tablonun otomatik kağıt boyutunu nasıl değiştirebilirim?
+#### S: Bir elektronik tablonun otomatik kağıt boyutunu nasıl değiştirebilirim?
+
 C: Bir çalışma sayfasının otomatik kağıt boyutunu değiştirmek için PageSetup.IsAutomaticPaperSize özelliğini kullanabilir ve bunu istenen değere (doğru veya yanlış) ayarlayabilirsiniz.
 
-S: Aspose.Cells for .NET başka hangi özellikleri sunuyor?
+#### S: Aspose.Cells for .NET başka hangi özellikleri sunuyor?
+
 Y: Aspose.Cells for .NET, çalışma kitaplarını oluşturma, değiştirme ve dönüştürmenin yanı sıra verileri, formülleri ve biçimlendirmeyi değiştirme gibi elektronik tablolarla çalışmak için birçok özellik sunar.

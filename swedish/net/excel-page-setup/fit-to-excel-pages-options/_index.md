@@ -68,18 +68,18 @@ I den här artikeln lärde vi oss hur man konfigurerar anpassning till sidor i E
 
 ### Vanliga frågor
 
-F: Hur kan jag installera Aspose.Cells för .NET?
+#### F: Hur kan jag installera Aspose.Cells för .NET?
 
 S: För att installera Aspose.Cells för .NET kan du använda NuGet-pakethanteraren i Visual Studio. Hitta paketet "Aspose.Cells" och installera det i ditt projekt.
 
-F: Kan jag passa sidor både i höjd och bredd?
+#### F: Kan jag passa sidor både i höjd och bredd?
 
  S: Ja, du kan justera både höjd och bredd på kalkylbladet med hjälp av`FitToPagesTall` och`FitToPagesWide` egenskaper. Du kan ange önskat antal sidor för varje dimension.
 
-F: Hur kan jag anpassa alternativen Anpassa till sidor?
+#### F: Hur kan jag anpassa alternativen Anpassa till sidor?
 
 S: Förutom att ange antalet sidor kan du även anpassa andra alternativ för passning till sidor som kalkylbladsskala, pappersorientering, marginaler och mer. Använd de egenskaper som finns tillgängliga i`PageSetup` objekt för detta.
 
-F: Kan jag använda Aspose.Cells för .NET för att bearbeta befintliga arbetsböcker?
+#### F: Kan jag använda Aspose.Cells för .NET för att bearbeta befintliga arbetsböcker?
 
 S: Ja, du kan använda Aspose.Cells för .NET för att öppna och redigera befintliga arbetsböcker. Du kan komma åt kalkylblad, celler, formler, stilar och andra arbetsboksobjekt för att utföra olika operationer.

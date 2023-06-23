@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Étape 3 : instancier un objet de classeur
 
- Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook` objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
+ Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook`objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
 
 ```csharp
 // Instancier un objet Workbook
@@ -51,7 +51,7 @@ workbook.Worksheets.RemoveAt(0);
  Une fois que vous avez supprimé la feuille de calcul, vous pouvez enregistrer le classeur Excel modifié à l'aide de la`Save()` méthode de la`Workbook` objet.
 
 ```csharp
-//Enregistrer le classeur Excel
+// Enregistrer le classeur Excel
 workbook.Save(dataDir + "output.out.xls");
 ```
 
@@ -95,4 +95,4 @@ Malheureusement, une fois qu'une feuille de calcul est supprimée, elle ne peut 
 
 #### Aspose.Cells for .NET est-il compatible avec différentes versions d'Excel ?
 
-Oui, Aspose.Cells pour .NET est compatible avec différentes versions d'Excel, notamment Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016, Excel 2019 et Excel pour Office 365. Il prend en charge les formats de fichiers .xls et .xlsx.
+Oui, Aspose.Cells pour .NET est compatible avec différentes versions d'Excel, notamment Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016, Excel 2019 et Excel pour Office 365. Il prend en charge les formats de fichier .xls et .xlsx.

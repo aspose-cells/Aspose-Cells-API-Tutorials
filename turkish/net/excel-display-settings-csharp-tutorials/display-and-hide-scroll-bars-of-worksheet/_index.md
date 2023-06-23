@@ -81,7 +81,7 @@ Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için 
 
 #### Aspose.Cells for .NET ile bir Excel elektronik tablosunda kaydırma çubuklarını nasıl görüntüleyebilir veya gizleyebilirim?
 
- kullanabilirsiniz`IsVScrollBarVisible` Ve`IsHScrollBarVisible` özellikleri`Workbook.Settings`bir Excel çalışma sayfasında sırasıyla dikey ve yatay kaydırma çubuğunu görüntülemek veya gizlemek için nesne.
+ kullanabilirsiniz`IsVScrollBarVisible` Ve`IsHScrollBarVisible` özellikleri`Workbook.Settings` bir Excel çalışma sayfasında sırasıyla dikey ve yatay kaydırma çubuğunu görüntülemek veya gizlemek için nesne.
 
 #### Aspose.Cells for .NET başka hangi Excel dosya formatlarını destekliyor?
 

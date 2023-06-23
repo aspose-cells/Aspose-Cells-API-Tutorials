@@ -114,7 +114,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definieren Sie das Stilobjekt.
 Style style;
-//Definieren Sie das Styleflag-Objekt.
+// Definieren Sie das Styleflag-Objekt.
 StyleFlag flag;
 // Gehen Sie alle Spalten im Arbeitsblatt durch und entsperren Sie sie.
 for (int i = 0; i <= 255; i++)
@@ -129,7 +129,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Verschließe es.
 style.IsLocked = true;
-// Instanziieren Sie die Flagge.
+//Instanziieren Sie die Flagge.
 flag = new StyleFlag();
 // Legen Sie die Sperreinstellung fest.
 flag.Locked = true;
@@ -148,16 +148,21 @@ Herzlichen Glückwunsch! Sie verfügen jetzt über C#-Quellcode, der es Ihnen er
 ### FAQs (häufig gestellte Fragen)
 
 #### Funktioniert dieser Code mit neueren Versionen von Excel?
+
 Ja, dieser Code funktioniert mit neueren Versionen von Excel, einschließlich Dateien im Format Excel 2010 und höher.
 
 #### Kann ich nur bestimmte Zeilen statt aller Zeilen im Arbeitsblatt schützen?
+
 Ja, Sie können den Code ändern, um die spezifischen Zeilen anzugeben, die Sie schützen möchten. Sie müssen die Schleife und die Indizes entsprechend anpassen.
 
 #### Wie kann ich gesperrte Leitungen wieder entsperren?
+
  Du kannst den ... benutzen`IsLocked` Methode der`Style` Objekt, auf das der Wert gesetzt werden soll`false` und entsperren Sie die Reihen.
 
 #### Ist es möglich, mehrere Arbeitsblätter in derselben Excel-Arbeitsmappe zu schützen?
+
 Ja, Sie können die Schritte zum Erstellen eines Arbeitsblatts, Festlegen des Stils und Schützen für jedes Arbeitsblatt in der Arbeitsmappe wiederholen.
 
 #### Wie kann ich das Passwort für den Tabellenkalkulationsschutz ändern?
+
  Sie können das Passwort mit ändern`Protect` -Methode und Angabe eines neuen Passworts als Argument.

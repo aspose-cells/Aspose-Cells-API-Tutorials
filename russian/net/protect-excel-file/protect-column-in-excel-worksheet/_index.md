@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Определите объект стиля.
 Style style;
-//Определите объект styleflag.
+// Определите объект styleflag.
 StyleFlag flag;
 // Прокрутите все столбцы на листе и разблокируйте их.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Закрой.
 style.IsLocked = true;
-// Создайте экземпляр флага.
+//Создайте экземпляр флага.
 flag = new StyleFlag();
 // Установите настройку блокировки.
 flag.Locked = true;

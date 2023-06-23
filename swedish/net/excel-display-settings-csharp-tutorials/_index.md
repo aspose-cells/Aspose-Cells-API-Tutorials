@@ -18,7 +18,7 @@ Aspose.Cells för .NET är ett kraftfullt och omfattande bibliotek som låter di
 | [Kontroll zoomfaktor för arbetsblad](./controll-zoom-factor-of-worksheet/) | Styr zoomfaktorn i Excel-kalkylbladet med Aspose.Cells för .NET. |  
 | [Visa Och Dölj Rutnät Av Kalkylblad](./display-and-hide-gridlines-of-worksheet/) | Styr visningen av rutnät i Excel-kalkylblad med Aspose.Cells för .NET. |  
 | [Visa och dölj radkolumnrubriker av arbetsblad](./display-and-hide-row-column-headers-of-worksheet/) | Visa eller dölj rad- och kolumnrubriker i Excel-kalkylblad med Aspose.Cells för .NET. |  
-| [Visa och dölja rullningslister av arbetsblad](./display-and-hide-scroll-bars-of-worksheet/) | Visa eller dölj rullningslister i Excel-kalkylblad med Aspose.Cells för .NET. |  
+| [Visa och dölj rullningslister av arbetsblad](./display-and-hide-scroll-bars-of-worksheet/) | Visa eller dölj rullningslister i Excel-kalkylblad med Aspose.Cells för .NET. |  
 | [Visa Fliken Av Kalkylarket](./display-tab-of-spreadsheet/) | Visa en Excel-kalkylbladsflik med Aspose.Cells för .NET. |  
 | [Frys rutor av arbetsblad](./freeze-panes-of-worksheet/) | Hantera enkelt frysa rutor i Excel-kalkylblad med Aspose.Cells för .NET. |  
 | [Få pappersbredd och höjd på arbetsbladet](./get-paper-width-and-height-of-worksheet/) | Skapa en steg-för-steg-guide för att förklara följande C#-källkod för att få pappersbredden och höjden på ett kalkylblad med Aspose.Cells för .NET. |  

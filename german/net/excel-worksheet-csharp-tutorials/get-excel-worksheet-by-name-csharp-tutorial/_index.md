@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(InputPath, FileMode.Open);
 
 ## Schritt 4: Instanziieren Sie ein Arbeitsmappenobjekt
 
- Nach dem Öffnen der Excel-Datei müssen Sie a instanziieren`Workbook` Objekt. Dieses Objekt stellt die Excel-Arbeitsmappe dar und bietet verschiedene Methoden und Eigenschaften zum Bearbeiten der Arbeitsmappe.
+ Nach dem Öffnen der Excel-Datei müssen Sie a instanziieren`Workbook`Objekt. Dieses Objekt stellt die Excel-Arbeitsmappe dar und bietet verschiedene Methoden und Eigenschaften zum Bearbeiten der Arbeitsmappe.
 
 ```csharp
 // Instanziieren Sie ein Workbook-Objekt

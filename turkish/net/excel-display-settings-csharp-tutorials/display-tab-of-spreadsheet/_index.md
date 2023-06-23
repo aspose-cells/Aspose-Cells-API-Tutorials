@@ -72,7 +72,7 @@ Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için 
 
 #### Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunun sekmesi nasıl görüntülenir?
 
- kullanabilirsiniz`ShowTabs` mülkiyeti`Workbook.Settings` nesne ve onu ayarla`true`çalışma sayfası sekmesini göstermek için
+ kullanabilirsiniz`ShowTabs` mülkiyeti`Workbook.Settings` nesne ve onu ayarla`true` çalışma sayfası sekmesini göstermek için
 
 #### Aspose.Cells for .NET başka hangi Excel dosya formatlarını destekliyor?
 

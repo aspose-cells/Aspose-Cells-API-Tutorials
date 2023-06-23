@@ -76,14 +76,18 @@ accesso a fogli di calcolo e controllo automatico del formato carta. Ora puoi ut
 
 ### Domande frequenti
 
-D: Come posso caricare cartelle di lavoro con Aspose.Cells per .NET?
+#### D: Come posso caricare cartelle di lavoro con Aspose.Cells per .NET?
+
 A: Puoi caricare cartelle di lavoro usando la classe Workbook dalla libreria Aspose.Cells. Usare il metodo Workbook.Load per caricare una cartella di lavoro da un file.
 
-D: Posso controllare il formato carta automatico per altri fogli di calcolo?
+#### D: Posso controllare il formato carta automatico per altri fogli di calcolo?
+
 R: Sì, puoi controllare il formato carta automatico per qualsiasi foglio di lavoro accedendo alla proprietà PageSetup.IsAutomaticPaperSize dell'oggetto Worksheet corrispondente.
 
-D: Come posso modificare il formato carta automatico di un foglio di calcolo?
+#### D: Come posso modificare il formato carta automatico di un foglio di calcolo?
+
 R: Per modificare il formato carta automatico di un foglio di lavoro, è possibile utilizzare la proprietà PageSetup.IsAutomaticPaperSize e impostarla sul valore desiderato (vero o falso).
 
-D: Quali altre funzionalità offre Aspose.Cells per .NET?
+#### D: Quali altre funzionalità offre Aspose.Cells per .NET?
+
 R: Aspose.Cells per .NET offre molte funzionalità per lavorare con fogli di calcolo, come la creazione, la modifica e la conversione di cartelle di lavoro, nonché la manipolazione di dati, formule e formattazione.

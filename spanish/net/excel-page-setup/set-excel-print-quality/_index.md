@@ -90,7 +90,7 @@ workbook.Save(dataDir + "SetPrintQuality_out.xls");
 
 #### 1. ¿Puedo personalizar la calidad de impresión de diferentes hojas de trabajo en el mismo archivo de Excel?
 
-Sí, puede personalizar la calidad de impresión de cada hoja de trabajo individualmente yendo al objeto Hoja de trabajo correspondiente y configurando la calidad de impresión apropiada.
+Sí, puede personalizar la calidad de impresión de cada hoja de trabajo individualmente yendo al objeto Hoja de trabajo correspondiente y configurando la calidad de impresión adecuada.
 
 #### 2. ¿Qué otras opciones de impresión puedo personalizar con Aspose.Cells para .NET?
 

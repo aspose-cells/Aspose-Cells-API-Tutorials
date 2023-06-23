@@ -45,7 +45,7 @@ workbook.Settings.IsHScrollBarVisible = false;
 workbook.Save(dataDir + "output.xls");
 ```
 
-### Ejemplo de código fuente para Mostrar y ocultar barras de desplazamiento de la hoja de trabajo usando Aspose.Cells para .NET 
+### Ejemplo de código fuente para mostrar y ocultar barras de desplazamiento de la hoja de trabajo usando Aspose.Cells para .NET 
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -81,7 +81,7 @@ Aspose.Cells for .NET es una poderosa biblioteca para manipular archivos de Exce
 
 #### ¿Cómo puedo mostrar u ocultar las barras de desplazamiento en una hoja de cálculo de Excel con Aspose.Cells para .NET?
 
- Puedes usar el`IsVScrollBarVisible` y`IsHScrollBarVisible` propiedades de la`Workbook.Settings`objeto para mostrar u ocultar la barra de desplazamiento vertical y horizontal respectivamente en una hoja de cálculo de Excel.
+ Puedes usar el`IsVScrollBarVisible` y`IsHScrollBarVisible` propiedades de la`Workbook.Settings` objeto para mostrar u ocultar la barra de desplazamiento vertical y horizontal respectivamente en una hoja de cálculo de Excel.
 
 #### ¿Qué otros formatos de archivo de Excel son compatibles con Aspose.Cells para .NET?
 

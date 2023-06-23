@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(InputPath, FileMode.Open);
 
 ## Paso 4: crear una instancia de un objeto de libro de trabajo
 
- Después de abrir el archivo de Excel, debe crear una instancia de`Workbook` objeto. Este objeto representa el libro de Excel y ofrece varios métodos y propiedades para manipular el libro.
+ Después de abrir el archivo de Excel, debe crear una instancia de`Workbook`objeto. Este objeto representa el libro de Excel y ofrece varios métodos y propiedades para manipular el libro.
 
 ```csharp
 // Crear una instancia de un objeto Workbook
@@ -48,7 +48,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## Paso 5: acceda a una hoja de trabajo por nombre
 
-Para acceder a una hoja de trabajo específica por su nombre, puede usar el`Worksheets` propiedad de la`Workbook` objeto e indexe el nombre de la hoja de trabajo.
+Para acceder a una hoja de trabajo específica por su nombre, puede usar el`Worksheets` propiedad de la`Workbook` objeto e indexe el nombre de la hoja de cálculo.
 
 ```csharp
 // Acceder a una hoja de trabajo usando su nombre de hoja
@@ -113,4 +113,4 @@ Si el nombre de la hoja de trabajo especificada no existe en el archivo de Excel
 
 #### ¿Puedo usar Aspose.Cells for .NET para manipular datos de celdas en una hoja de trabajo?
 
-Sí, Aspose.Cells para .NET ofrece muchas funciones para manipular datos de celdas en una hoja de trabajo. Puede leer y escribir valores de celda, aplicar formatos, agregar fórmulas, combinar celdas, realizar operaciones matemáticas y más. La biblioteca proporciona una interfaz completa para trabajar con datos de celdas en Excel.
+Sí, Aspose.Cells para .NET ofrece muchas funciones para manipular datos de celdas en una hoja de cálculo. Puede leer y escribir valores de celda, aplicar formatos, agregar fórmulas, combinar celdas, realizar operaciones matemáticas y más. La biblioteca proporciona una interfaz completa para trabajar con datos de celdas en Excel.

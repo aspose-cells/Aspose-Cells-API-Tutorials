@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Étape 3 : instancier un objet de classeur
 
- Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook` objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
+ Après avoir ouvert le fichier Excel, vous devez instancier un`Workbook`objet. Cet objet représente le classeur Excel et propose diverses méthodes et propriétés pour manipuler le classeur.
 
 ```csharp
 // Instancier un objet Workbook
@@ -51,7 +51,7 @@ workbook.Worksheets.RemoveAt("Sheet1");
  Une fois que vous avez supprimé la feuille de calcul, vous pouvez enregistrer le classeur Excel modifié à l'aide de la`Save()` méthode de la`Workbook` objet.
 
 ```csharp
-//Enregistrer le classeur Excel
+// Enregistrer le classeur Excel
 workbook.Save(dataDir + "output.out.xls");
 ```
 
@@ -73,7 +73,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons couvert le processus étape par étape de suppression d'une feuille de calcul Excel par son nom à l'aide d'Aspose.Cells pour .NET. En suivant les exemples de code et les explications fournis, vous devriez maintenant avoir une bonne compréhension de la façon d'effectuer cette tâche dans vos applications C#. Aspose.Cells pour .NET offre un ensemble complet de fonctionnalités pour travailler avec des fichiers Excel, vous permettant de manipuler facilement des feuilles de calcul et des données associées.
+Dans ce didacticiel, nous avons couvert le processus étape par étape de suppression d'une feuille de calcul Excel par son nom à l'aide d'Aspose.Cells pour .NET. En suivant les exemples de code et les explications fournis, vous devriez maintenant avoir une bonne compréhension de la façon d'effectuer cette tâche dans vos applications C#. Aspose.Cells pour .NET offre un ensemble complet de fonctionnalités pour travailler avec des fichiers Excel, vous permettant de manipuler facilement des feuilles de calcul et des données connexes.
 
 ### Foire aux questions (FAQ)
 

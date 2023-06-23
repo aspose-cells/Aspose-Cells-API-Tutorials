@@ -52,7 +52,7 @@ worksheet. IsVisible = false;
 
 ## Schritt 6: Zeigen Sie das Arbeitsblatt erneut an
 
- Wenn Sie das zuvor ausgeblendete Arbeitsblatt erneut anzeigen möchten, können Sie denselben Code verwenden, indem Sie den Wert von ändern`IsVisible` Eigentum. Verwenden Sie den folgenden Code, um das erste Arbeitsblatt erneut anzuzeigen:
+Wenn Sie das zuvor ausgeblendete Arbeitsblatt erneut anzeigen möchten, können Sie denselben Code verwenden, indem Sie den Wert von ändern`IsVisible` Eigentum. Verwenden Sie den folgenden Code, um das erste Arbeitsblatt erneut anzuzeigen:
 
 ```csharp
 worksheet. IsVisible = true;

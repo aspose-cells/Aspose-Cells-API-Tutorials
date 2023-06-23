@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Steg 3: Instantiera ett arbetsboksobjekt
 
- Efter att ha öppnat Excel-filen måste du instansiera en`Workbook` objekt. Det här objektet representerar Excel-arbetsboken och erbjuder olika metoder och egenskaper för att manipulera arbetsboken.
+ Efter att ha öppnat Excel-filen måste du instansiera en`Workbook`objekt. Det här objektet representerar Excel-arbetsboken och erbjuder olika metoder och egenskaper för att manipulera arbetsboken.
 
 ```csharp
 // Instantiera ett arbetsboksobjekt
@@ -51,7 +51,7 @@ workbook.Worksheets.RemoveAt("Sheet1");
  När du har tagit bort kalkylbladet kan du spara den ändrade Excel-arbetsboken med hjälp av`Save()` metod för`Workbook` objekt.
 
 ```csharp
-//Spara Excel-arbetsboken
+// Spara Excel-arbetsboken
 workbook.Save(dataDir + "output.out.xls");
 ```
 

@@ -109,13 +109,17 @@ Congratulazioni! Ora disponi del codice sorgente C# che ti consente di protegger
 ### FAQ (Domande frequenti)
 
 #### È possibile proteggere più fogli di lavoro in un unico file Excel?
+
 R: Sì, puoi proteggere più fogli di lavoro in un file Excel ripetendo i passaggi 4-6 per ciascun foglio di lavoro.
 
 #### Come posso specificare autorizzazioni specifiche per gli utenti autorizzati?
+
  R: È possibile utilizzare le opzioni aggiuntive fornite dal`Protect`metodo per specificare autorizzazioni specifiche per gli utenti autorizzati. Vedere la documentazione di Aspose.Cells per ulteriori informazioni.
 
 #### Posso proteggere il file Excel stesso con una password?
+
 A: Sì, puoi proteggere con password il file Excel stesso utilizzando altri metodi forniti dalla libreria Aspose.Cells. Fare riferimento alla documentazione per esempi specifici.
 
 #### La libreria Aspose.Cells supporta altri formati di file Excel?
+
 R: Sì, la libreria Aspose.Cells supporta un'ampia gamma di formati di file Excel, inclusi XLSX, XLSM, XLSB, CSV, ecc.

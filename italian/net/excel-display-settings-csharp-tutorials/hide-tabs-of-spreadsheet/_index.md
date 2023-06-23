@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /it/net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadsheet/
 ---
-fogli di calcolo sono potenti strumenti per l'organizzazione e l'analisi dei dati. A volte potresti voler nascondere determinate schede in un foglio di calcolo per privacy o semplicità. In questa guida, ti mostreremo come nascondere le schede in un foglio di lavoro utilizzando Aspose.Cells per .NET, una popolare libreria software per l'elaborazione di file Excel.
+I fogli di calcolo sono potenti strumenti per l'organizzazione e l'analisi dei dati. A volte potresti voler nascondere determinate schede in un foglio di calcolo per privacy o semplicità. In questa guida, ti mostreremo come nascondere le schede in un foglio di lavoro utilizzando Aspose.Cells per .NET, una popolare libreria software per l'elaborazione di file Excel.
 
 ## Passaggio 1: configurazione dell'ambiente
 

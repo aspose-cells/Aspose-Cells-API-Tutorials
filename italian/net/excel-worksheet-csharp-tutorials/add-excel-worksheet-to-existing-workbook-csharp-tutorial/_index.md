@@ -29,7 +29,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Passaggio 3: creare un'istanza di un oggetto cartella di lavoro
 
- Dopo aver aperto il file Excel, è necessario creare un'istanza di a`Workbook` oggetto. Questo oggetto rappresenta la cartella di lavoro di Excel e offre vari metodi e proprietà per manipolare la cartella di lavoro.
+ Dopo aver aperto il file Excel, è necessario creare un'istanza di a`Workbook`oggetto. Questo oggetto rappresenta la cartella di lavoro di Excel e offre vari metodi e proprietà per manipolare la cartella di lavoro.
 
 ```csharp
 // Crea un'istanza di un oggetto Workbook
@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  È possibile impostare il nome del foglio appena aggiunto utilizzando il file`Name` proprietà del`Worksheet` oggetto.
 
 ```csharp
-//Ottenere il riferimento del nuovo foglio aggiunto passando il relativo indice del foglio
+// Ottenere il riferimento del nuovo foglio aggiunto passando il relativo indice del foglio
 Worksheet worksheet = workbook.Worksheets[i];
 // Definire il nome del nuovo foglio
 worksheet.Name = "My Worksheet";

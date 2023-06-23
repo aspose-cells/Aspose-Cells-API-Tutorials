@@ -115,7 +115,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definiera stilobjektet.
 Style style;
-//Definiera styleflag-objektet.
+// Definiera styleflag-objektet.
 StyleFlag flag;
 // Gå igenom alla kolumner i kalkylbladet och lås upp dem.
 for (int i = 0; i <= 255; i++)
@@ -130,7 +130,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Lås den.
 style.IsLocked = true;
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 // Ställ in låsinställningen.
 flag.Locked = true;

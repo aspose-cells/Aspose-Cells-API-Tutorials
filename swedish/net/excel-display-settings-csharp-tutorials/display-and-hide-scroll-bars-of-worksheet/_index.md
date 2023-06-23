@@ -1,13 +1,13 @@
 ---
-title: Visa och dölja rullningslister av arbetsblad
-linktitle: Visa och dölja rullningslister av arbetsblad
+title: Visa och dölj rullningslister av arbetsblad
+linktitle: Visa och dölj rullningslister av arbetsblad
 second_title: Aspose.Cells för .NET API-referens
 description: Visa eller dölj rullningslister i Excel-kalkylblad med Aspose.Cells för .NET.
 type: docs
 weight: 50
 url: /sv/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
 ---
-den här handledningen kommer vi att visa dig hur du visar eller döljer vertikala och horisontella rullningslister i ett Excel-kalkylblad med C#-källkod med Aspose.Cells för .NET. Följ stegen nedan för att få önskat resultat.
+I den här handledningen kommer vi att visa dig hur du visar eller döljer vertikala och horisontella rullningslister i ett Excel-kalkylblad med C#-källkod med Aspose.Cells för .NET. Följ stegen nedan för att få önskat resultat.
 
 ## Steg 1: Importera nödvändiga bibliotek
 
@@ -81,7 +81,7 @@ Aspose.Cells för .NET är ett kraftfullt bibliotek för att manipulera Excel-fi
 
 #### Hur kan jag visa eller dölja rullningslister i ett Excel-kalkylblad med Aspose.Cells för .NET?
 
- Du kan använda`IsVScrollBarVisible` och`IsHScrollBarVisible` egenskaper hos`Workbook.Settings`objekt för att visa eller dölja den vertikala respektive horisontella rullningslisten i ett Excel-kalkylblad.
+ Du kan använda`IsVScrollBarVisible` och`IsHScrollBarVisible` egenskaper hos`Workbook.Settings` objekt för att visa eller dölja den vertikala respektive horisontella rullningslisten i ett Excel-kalkylblad.
 
 #### Vilka andra Excel-filformat stöds av Aspose.Cells för .NET?
 

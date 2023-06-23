@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// تطبيق إعدادات تجميد الأجزاء
+//تطبيق إعدادات تجميد الأجزاء
 worksheet.FreezePanes(3, 2, 3, 2);
 // حفظ ملف Excel المعدل
 workbook.Save(dataDir + "output.xls");

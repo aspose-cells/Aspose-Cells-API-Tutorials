@@ -80,7 +80,7 @@ Aspose.Cells pour .NET est une bibliothèque puissante pour manipuler des fichie
 
 #### Comment puis-je afficher ou masquer les en-têtes de ligne et de colonne d'une feuille de calcul Excel avec Aspose.Cells pour .NET ?
 
- Vous pouvez utiliser le`IsRowColumnHeadersVisible` propriété de la`Worksheet` objet pour afficher ou masquer les en-têtes de ligne et de colonne. Réglez-le sur`true` pour les montrer et pour`false` pour les cacher.
+ Vous pouvez utiliser le`IsRowColumnHeadersVisible` propriété de la`Worksheet`objet pour afficher ou masquer les en-têtes de ligne et de colonne. Réglez-le sur`true` pour les montrer et pour`false` pour les cacher.
 
 #### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
 

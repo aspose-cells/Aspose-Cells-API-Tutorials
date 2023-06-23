@@ -31,7 +31,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## Schritt 3: Greifen Sie auf die Tabelle zu und ändern Sie den Zoomfaktor
 
- In diesem Schritt greifen wir über den Index auf das erste Arbeitsblatt der Excel-Arbeitsmappe zu`0` und stellen Sie den Zoomfaktor des Arbeitsblatts auf ein`75`.
+In diesem Schritt greifen wir über den Index auf das erste Arbeitsblatt der Excel-Arbeitsmappe zu`0` und stellen Sie den Zoomfaktor des Arbeitsblatts auf ein`75`.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -40,7 +40,7 @@ worksheet. Zoom = 75;
 
 ## Schritt 4: Änderungen speichern und die Datei schließen
 
- Sobald wir den Zoomfaktor des Arbeitsblatts ändern, speichern wir die Änderungen mithilfe von in der Excel-Datei`Save` Methode der`Workbook`Objekt. Anschließend schließen wir den Dateistream, um alle verwendeten Ressourcen freizugeben.
+ Sobald wir den Zoomfaktor des Arbeitsblatts ändern, speichern wir die Änderungen mithilfe von in der Excel-Datei`Save` Methode der`Workbook` Objekt. Anschließend schließen wir den Dateistream, um alle verwendeten Ressourcen freizugeben.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");

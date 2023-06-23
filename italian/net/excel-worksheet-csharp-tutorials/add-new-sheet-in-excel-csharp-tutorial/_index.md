@@ -98,7 +98,7 @@ Sì, Aspose.Cells supporta più linguaggi di programmazione come Java, Python, R
 
 #### Posso aggiungere la formattazione alle celle nel foglio di lavoro appena creato?
 
-A: Sì, puoi applicare la formattazione alle celle utilizzando i metodi forniti dalla classe Foglio di lavoro di Aspose.Cells. Puoi impostare lo stile della cella, cambiare il colore di sfondo, applicare i bordi, ecc.
+Sì, puoi applicare la formattazione alle celle utilizzando i metodi forniti dalla classe Worksheet di Aspose.Cells. Puoi impostare lo stile della cella, cambiare il colore di sfondo, applicare i bordi, ecc.
 
 #### Come posso accedere ai dati delle celle dal nuovo foglio di lavoro?
 

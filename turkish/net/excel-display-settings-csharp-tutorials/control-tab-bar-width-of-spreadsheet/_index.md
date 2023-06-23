@@ -28,7 +28,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## 3. Adım: Çalışma sayfası sekmelerini gizleyin
 
-Çalışma sayfası sekmelerini gizlemek için,`ShowTabs` mülkiyeti`Settings` nesnesi`Workbook` sınıf. şuna ayarla:`false` sekmeleri gizlemek için
+ Çalışma sayfası sekmelerini gizlemek için,`ShowTabs` mülkiyeti`Settings` nesnesi`Workbook` sınıf. şuna ayarla:`false` sekmeleri gizlemek için
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,4 +89,4 @@ Aspose.Cells for .NET, Excel dosyaları oluşturmak, değiştirmek, dönüştür
 
 #### Aspose.Cells for .NET ile sekme çubuğu genişliği nasıl ayarlanır?
 
- kullanarak sekme çubuğunun genişliğini ayarlayabilirsiniz.`SheetTabBarWidth` mülkiyeti`Settings` nesnesi`Workbook` sınıfı ve ona puan cinsinden sayısal bir değer atamak.
+kullanarak sekme çubuğunun genişliğini ayarlayabilirsiniz.`SheetTabBarWidth` mülkiyeti`Settings` nesnesi`Workbook` sınıfı ve ona puan cinsinden sayısal bir değer atamak.

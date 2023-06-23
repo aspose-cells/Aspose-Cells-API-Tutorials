@@ -141,7 +141,7 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-//Zum Schluss schützen Sie das Blatt jetzt.
+// Zum Schluss schützen Sie das Blatt jetzt.
 sheet.Protect(ProtectionType.All);
 // Speichern Sie die Excel-Datei.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);

@@ -52,7 +52,7 @@ worksheet. IsVisible = false;
 
 ## Paso 6: Vuelva a mostrar la hoja de trabajo
 
- Si desea volver a mostrar la hoja de trabajo previamente oculta, puede usar el mismo código cambiando el valor de la`IsVisible` propiedad. Utilice el siguiente código para volver a mostrar la primera hoja de cálculo:
+Si desea volver a mostrar la hoja de trabajo previamente oculta, puede usar el mismo código cambiando el valor de la`IsVisible` propiedad. Utilice el siguiente código para volver a mostrar la primera hoja de cálculo:
 
 ```csharp
 worksheet. IsVisible = true;
@@ -94,7 +94,7 @@ fstream.Close();
 
 ## Conclusión
 
-¡Felicidades! Ha aprendido a ocultar y mostrar una hoja de cálculo con Aspose.Cells para .NET. Ahora puede usar esta función para controlar la visibilidad de sus hojas de cálculo en sus archivos de Excel.
+¡Felicidades! Ha aprendido a ocultar y mostrar una hoja de cálculo utilizando Aspose.Cells para .NET. Ahora puede usar esta función para controlar la visibilidad de sus hojas de cálculo en sus archivos de Excel.
 
 ### Preguntas frecuentes (FAQ)
 

@@ -84,7 +84,7 @@ style.IsLocked = true;
 Nachdem wir die spezifische Spalte gesperrt haben, müssen wir den Stil und das Flag auf diese Spalte anwenden. Hier ist der Codeausschnitt:
 
 ```csharp
-// Instanziieren Sie die Flagge.
+//Instanziieren Sie die Flagge.
 flag = new StyleFlag();
 
 // Legen Sie die Sperreinstellung fest.
@@ -128,7 +128,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0];
 // Definieren Sie das Stilobjekt.
 Style style;
-//Definieren Sie das Styleflag-Objekt.
+// Definieren Sie das Styleflag-Objekt.
 StyleFlag flag;
 // Gehen Sie alle Spalten im Arbeitsblatt durch und entsperren Sie sie.
 for (int i = 0; i <= 255; i++)
@@ -143,7 +143,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Verschließe es.
 style.IsLocked = true;
-// Instanziieren Sie die Flagge.
+//Instanziieren Sie die Flagge.
 flag = new StyleFlag();
 // Legen Sie die Sperreinstellung fest.
 flag.Locked = true;
@@ -162,13 +162,17 @@ In diesem Tutorial haben wir den Schritt-für-Schritt-Prozess zum Schutz einer b
 ### Häufig gestellte Fragen (FAQs)
 
 #### Kann ich mit dieser Methode mehrere Spalten schützen?
+
 Ja, Sie können mehrere Spalten schützen, indem Sie den Code entsprechend ändern. Gehen Sie einfach den gewünschten Spaltenbereich durch und wenden Sie die Sperrstile und Flags an.
 
 #### Ist es möglich, das geschützte Arbeitsblatt mit einem Passwort zu schützen?
+
  Ja, Sie können dem geschützten Arbeitsblatt einen Passwortschutz hinzufügen, indem Sie beim Aufrufen das Passwort angeben`Protect` Methode.
 
 #### Unterstützt Aspose.Cells für .NET andere Excel-Dateiformate?
+
 Ja, Aspose.Cells für .NET unterstützt verschiedene Excel-Dateiformate, darunter XLS, XLSX, XLSM und mehr.
 
 #### Kann ich bestimmte Zeilen anstelle von Spalten schützen?
+
 Ja, Sie können den Code ändern, um bestimmte Zeilen statt Spalten zu schützen, indem Sie die Stile und Flags auf Zeilenzellen statt auf Spaltenzellen anwenden.

@@ -65,7 +65,7 @@ book.Save(dataDir + "output.xls");
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Yeni bir çalışma kitabı oluşturun ve bir şablon dosyası açın
+// Yeni bir çalışma kitabı oluşturun ve bir şablon dosyası açın
 Workbook book = new Workbook(dataDir + "Book1.xls");
 // Etkin hücreyi ayarla
 book.Worksheets[0].ActiveCell = "A20";
@@ -87,7 +87,7 @@ Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için 
 
 #### Aspose.Cells'te bir çalışma sayfasının aktif hücresini nasıl ayarlayabilirim?
 
- Aktif hücreyi kullanarak ayarlayabilirsiniz.`ActiveCell` Çalışma Sayfası nesnesinin özelliği.
+ Aktif hücreyi kullanarak ayarlayabilirsiniz.`ActiveCell`Çalışma Sayfası nesnesinin özelliği.
 
 #### Çalışma sayfası penceresinden yalnızca yatay veya dikey bölmeleri kaldırabilir miyim?
 

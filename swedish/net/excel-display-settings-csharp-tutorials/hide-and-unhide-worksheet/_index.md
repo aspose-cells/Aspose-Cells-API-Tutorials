@@ -52,7 +52,7 @@ worksheet. IsVisible = false;
 
 ## Steg 6: Visa arbetsbladet igen
 
- Om du vill visa det tidigare dolda kalkylbladet igen kan du använda samma kod genom att ändra värdet på`IsVisible` fast egendom. Använd följande kod för att visa det första kalkylbladet igen:
+Om du vill visa det tidigare dolda kalkylbladet igen kan du använda samma kod genom att ändra värdet på`IsVisible` fast egendom. Använd följande kod för att visa det första kalkylbladet igen:
 
 ```csharp
 worksheet. IsVisible = true;

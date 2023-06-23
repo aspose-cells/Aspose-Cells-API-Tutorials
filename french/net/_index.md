@@ -19,3 +19,9 @@ Que vous soyez un débutant ou un développeur expérimenté, les didacticiels A
 | [Paramètres d'affichage Excel](./excel-display-settings-csharp-tutorials) | Consultez les tutoriels Aspose.Cells C# pour personnaliser l'affichage d'Excel. Changez les polices, les couleurs, les formats et créez des rapports attrayants. |
 | [Mise en page Excel](./excel-page-setup) | Consultez les didacticiels Aspose.Cells pour .NET sur la configuration de la mise en page d'Excel. Personnalisez facilement vos fichiers Excel. |
 | [Protéger le fichier Excel](./protect-excel-file/) | Consultez les didacticiels Aspose.Cells pour .NET sur la protection des fichiers Excel. Découvrez comment sécuriser vos données confidentielles avec C#. |
+| [Classeur Excel](./excel-workbook/) | Explorez les didacticiels Aspose.Cells pour .NET pour maîtriser l'utilisation des classeurs Excel à l'aide d'exemples de code étape par étape. |
+| [Feuille de travail de copie Excel](./excel-copy-worksheet/) | Apprenez à copier et personnaliser des feuilles de calcul Excel avec Aspose.Cells pour .NET. Tutoriels détaillés pour maîtriser la manipulation et le formatage des données. |
+| [Sauts de page Excel](./excel-page-breaks/) | Consultez des didacticiels détaillés sur les sauts de page Excel avec Aspose.Cells pour .NET. Améliorez facilement la mise en page de vos classeurs Excel. |
+| [Déprotéger la feuille Excel](./unprotect-excel-sheet/) | Découvrez comment déprotéger une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Tutoriels détaillés pour les développeurs en C#. |
+| [Sécurité Excel](./excel-security/) | Découvrez des didacticiels de sécurité Excel complets avec Aspose.Cells pour .NET. Protégez vos fichiers Excel et contrôlez l'accès aux données sensibles. |
+| [Déprotéger la feuille Excel](./unprotect-excel-sheet/) | Découvrez comment déprotéger une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Tutoriels détaillés pour les développeurs en C#. |

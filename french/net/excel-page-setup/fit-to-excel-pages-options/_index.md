@@ -68,18 +68,18 @@ Dans cet article, nous avons appris à configurer l'ajustement aux pages dans Ex
 
 ### FAQ
 
-Q : Comment puis-je installer Aspose.Cells pour .NET ?
+#### Q : Comment puis-je installer Aspose.Cells pour .NET ?
 
 R : Pour installer Aspose.Cells pour .NET, vous pouvez utiliser le gestionnaire de packages NuGet dans Visual Studio. Trouvez le package "Aspose.Cells" et installez-le dans votre projet.
 
-Q : Puis-je ajuster les pages à la fois en hauteur et en largeur ?
+#### Q : Puis-je ajuster les pages à la fois en hauteur et en largeur ?
 
  R : Oui, vous pouvez ajuster la hauteur et la largeur de la feuille de calcul à l'aide du`FitToPagesTall` et`FitToPagesWide` propriétés. Vous pouvez spécifier le nombre de pages souhaité pour chaque dimension.
 
-Q : Comment puis-je personnaliser les options Ajuster aux pages ?
+#### Q : Comment puis-je personnaliser les options Ajuster aux pages ?
 
  : En plus de spécifier le nombre de pages, vous pouvez également personnaliser d'autres options d'ajustement aux pages telles que l'échelle de la feuille de calcul, l'orientation du papier, les marges, etc. Utilisez les propriétés disponibles dans le`PageSetup` objet pour cela.
 
-Q : Puis-je utiliser Aspose.Cells pour .NET pour traiter des classeurs existants ?
+#### Q : Puis-je utiliser Aspose.Cells pour .NET pour traiter des classeurs existants ?
 
 R : Oui, vous pouvez utiliser Aspose.Cells pour .NET pour ouvrir et modifier des classeurs existants. Vous pouvez accéder à des feuilles de calcul, des cellules, des formules, des styles et d'autres éléments de classeur pour effectuer diverses opérations.

@@ -1,6 +1,6 @@
 ---
-title: Copiar configuración de configuración de página desde otra hoja de cálculo
-linktitle: Copiar configuración de configuración de página desde otra hoja de cálculo
+title: Copiar configuración de configuración de página desde otra hoja de trabajo
+linktitle: Copiar configuración de configuración de página desde otra hoja de trabajo
 second_title: Referencia de API de Aspose.Cells para .NET
 description: Aprenda a copiar los ajustes de configuración de la página de una hoja de cálculo a otra usando Aspose.Cells para .NET. Una guía paso a paso para optimizar el uso de esta biblioteca.
 type: docs
@@ -40,7 +40,7 @@ TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
 ```
 
 ## Paso 5: Copia de la configuración de configuración de página
- Ahora copiaremos los ajustes de configuración de la página de la hoja de trabajo "TestSheet1" a "TestSheet2". Usaremos el`PageSetup.Copy` método para realizar esta operación. Aquí está el código para eso:
+Ahora copiaremos los ajustes de configuración de la página de la hoja de trabajo "TestSheet1" a "TestSheet2". Usaremos el`PageSetup.Copy` método para realizar esta operación. Aquí está el código para eso:
 
 ```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
@@ -84,22 +84,22 @@ En este artículo, aprendimos cómo copiar los ajustes de configuración de la p
 
 ### preguntas frecuentes
 
-P: ¿Puedo copiar los ajustes de configuración de la página entre diferentes instancias del libro de trabajo?
+#### P: ¿Puedo copiar los ajustes de configuración de la página entre diferentes instancias del libro de trabajo?
 
  R: Sí, puede copiar la configuración de configuración de la página entre diferentes instancias del libro de trabajo usando el`PageSetup.Copy` método de la biblioteca Aspose.Cells.
 
-P: ¿Puedo copiar otras configuraciones de configuración de página, como la orientación o los márgenes?
+#### P: ¿Puedo copiar otras configuraciones de configuración de página, como la orientación o los márgenes?
 
  R: Sí, puede copiar otras configuraciones de configuración de página usando el`PageSetup.Copy` método con las opciones apropiadas. Por ejemplo, puede copiar la orientación usando`CopyOptions.Orientation` y márgenes utilizando`CopyOptions.Margins`.
 
-P: ¿Cómo sé qué opciones están disponibles para el tamaño del papel?
+#### P: ¿Cómo sé qué opciones están disponibles para el tamaño del papel?
 
- R: Puede consultar la referencia de la API de la biblioteca Aspose.Cells para conocer las opciones disponibles para el tamaño del papel. Hay una enumeración llamada`PaperSizeType` que enumera los diferentes tamaños de papel admitidos.
+R: Puede consultar la referencia de la API de la biblioteca Aspose.Cells para conocer las opciones disponibles para el tamaño del papel. Hay una enumeración llamada`PaperSizeType` que enumera los diferentes tamaños de papel admitidos.
 
-P: ¿Cómo puedo descargar la biblioteca Aspose.Cells para .NET?
+#### P: ¿Cómo puedo descargar la biblioteca Aspose.Cells para .NET?
 
  R: Puede descargar la biblioteca Aspose.Cells para .NET desde[Lanzamientos de Aspose](https://releases.aspose.com/cells/net). Hay versiones de prueba gratuitas disponibles, así como licencias pagas para uso comercial.
 
-P: ¿La biblioteca Aspose.Cells admite otros lenguajes de programación?
+#### P: ¿La biblioteca Aspose.Cells admite otros lenguajes de programación?
 
 R: Sí, la biblioteca Aspose.Cells admite varios lenguajes de programación, incluidos C#, Java, Python y muchos más.

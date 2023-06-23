@@ -52,7 +52,7 @@ worksheet. IsVisible = false;
 
 ## 6. Adım: Çalışma sayfasını yeniden görüntüleyin
 
- Daha önce gizlenen çalışma sayfasını yeniden görüntülemek isterseniz, aynı kodu, değerini değiştirerek kullanabilirsiniz.`IsVisible` mülk. İlk çalışma sayfasını yeniden görüntülemek için aşağıdaki kodu kullanın:
+Daha önce gizlenen çalışma sayfasını yeniden görüntülemek isterseniz, aynı kodu, değerini değiştirerek kullanabilirsiniz.`IsVisible` mülk. İlk çalışma sayfasını yeniden görüntülemek için aşağıdaki kodu kullanın:
 
 ```csharp
 worksheet. IsVisible = true;

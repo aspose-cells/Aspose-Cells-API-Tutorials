@@ -66,7 +66,7 @@ book.Save(dataDir + "output.xls");
 ```csharp
 // Chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instancier un nouveau classeur et ouvrir un fichier de modèle
+// Instancier un nouveau classeur et ouvrir un fichier de modèle
 Workbook book = new Workbook(dataDir + "Book1.xls");
 // Définir la cellule active
 book.Worksheets[0].ActiveCell = "A20";
@@ -88,7 +88,7 @@ Aspose.Cells pour .NET est une bibliothèque logicielle populaire pour manipuler
 
 #### Comment définir la cellule active d'une feuille de calcul dans Aspose.Cells ?
 
- Vous pouvez définir la cellule active à l'aide de la`ActiveCell` propriété de l'objet Worksheet.
+ Vous pouvez définir la cellule active à l'aide de la`ActiveCell`propriété de l'objet Worksheet.
 
 #### Puis-je uniquement diviser les volets horizontaux ou verticaux de la fenêtre de la feuille de calcul ?
 

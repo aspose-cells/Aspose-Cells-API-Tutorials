@@ -80,7 +80,7 @@ Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için 
 
 #### Aspose.Cells for .NET ile bir Excel elektronik tablosunun satır ve sütun başlıklarını nasıl gösterebilir veya gizleyebilirim?
 
- kullanabilirsiniz`IsRowColumnHeadersVisible` mülkiyeti`Worksheet` Satır ve sütun başlıklarını görüntülemek veya gizlemek için nesne. şuna ayarla:`true` onlara göstermek ve`false` onları gizlemek için.
+ kullanabilirsiniz`IsRowColumnHeadersVisible` mülkiyeti`Worksheet`Satır ve sütun başlıklarını görüntülemek veya gizlemek için nesne. şuna ayarla:`true` onlara göstermek ve`false` onları gizlemek için.
 
 #### Aspose.Cells for .NET başka hangi Excel dosya formatlarını destekliyor?
 

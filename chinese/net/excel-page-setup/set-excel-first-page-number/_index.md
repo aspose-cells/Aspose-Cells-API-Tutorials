@@ -7,15 +7,15 @@ type: docs
 weight: 90
 url: /zh/net/excel-page-setup/set-excel-first-page-number/
 ---
-在本教程中，我们将带您了解如何使用 Aspose.Cells for .NET 在 Excel 中设置首页页码。我们将使用 C# 源代码来说明该过程。
+在本教程中，我们将引导您了解如何使用 Aspose.Cells for .NET 在 Excel 中设置首页页码。我们将使用 C# 源代码来说明该过程。
 
-## 第 1 步：设置环境
+## 第一步：搭建环境
 
-确保你的机器上安装了 Aspose.Cells for .NET。还要在您喜欢的开发环境中创建一个新项目。
+确保您的计算机上安装了 Aspose.Cells for .NET。还可以在您首选的开发环境中创建一个新项目。
 
 ## 第二步：导入必要的库
 
-在您的代码文件中，导入使用 Aspose.Cells 所需的库。下面是相应的代码：
+在您的代码文件中，导入使用 Aspose.Cells 所需的库。这是相应的代码：
 
 ```csharp
 using Aspose.Cells;
@@ -31,9 +31,9 @@ string dataDir = "YOUR DATA DIRECTORY";
 
 请务必指定完整的目录路径。
 
-## 第 4 步：创建工作簿和工作表
+## 步骤 4：创建工作簿和工作表
 
-创建一个新的工作簿对象并使用以下代码导航到工作簿中的第一个工作表：
+创建一个新的 Workbook 对象并使用以下代码导航到工作簿中的第一个工作表：
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -44,15 +44,15 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 第五步：设置首页页码
 
-使用以下代码设置工作表页数的第一页：
+使用以下代码设置工作表第一页的页码：
 
 ```csharp
 worksheet.PageSetup.FirstPageNumber = 2;
 ```
 
-这会将第一个页码设置为 2。
+这会将首页页码设置为 2。
 
-## 第 6 步：保存修改后的工作簿
+## 第6步：保存修改后的工作簿
 
 使用以下代码保存修改后的工作簿：
 
@@ -66,11 +66,11 @@ workbook.Save(dataDir + "OutputFileName.xls");
 ```csharp
 //文档目录的路径。
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//实例化工作簿对象
+//实例化 Workbook 对象
 Workbook workbook = new Workbook();
 //访问 Excel 文件中的第一个工作表
 Worksheet worksheet = workbook.Worksheets[0];
-//设置工作表页面的第一页码
+//设置工作表页面的首页页码
 worksheet.PageSetup.FirstPageNumber = 2;
 //保存工作簿。
 workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
@@ -78,26 +78,26 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 
 ## 结论
 
-您现在已经学习了如何使用 Aspose.Cells for .NET 在 Excel 中设置首页页码。本教程带您完成了从设置环境到设置首页页码的每一步。您现在可以使用这些知识来自定义 Excel 文件中的页码。
+您现在已经了解了如何使用 Aspose.Cells for .NET 在 Excel 中设置首页页码。本教程将引导您完成该过程的每一步，从设置环境到设置首页页码。现在，您可以使用这些知识来自定义 Excel 文件中的页码。
 
 ### 常见问题解答
 
 #### Q1：我可以为每个工作表设置不同的首页页码吗？
 
- A1：是的，您可以通过访问`FirstPageNumber`各自工作表的属性`PageSetup`目的。
+ A1：是的，您可以通过访问为每个工作表设置不同的首页页码`FirstPageNumber`各自工作表的属性`PageSetup`目的。
 
 #### Q2：如何查看现有电子表格的首页页码？
 
- A2：您可以通过访问`FirstPageNumber`的财产`PageSetup`对应于该工作表的对象。
+ A2：您可以通过访问查看现有工作表的首页页码`FirstPageNumber`的财产`PageSetup`与该工作表对应的对象。
 
-#### Q3：页码是否默认总是从1开始？
+#### Q3：页码默认都是从1开始吗？
 
-A3：是的，在 Excel 中页码默认从 1 开始。但是，您可以使用本教程中显示的代码来设置不同的首页编号。
+A3：是的，Excel 中页码默认从 1 开始。但是，您可以使用本教程中显示的代码来设置不同的首页页码。
 
-#### Q4：编辑后的 Excel 文件中首页页码的更改是永久性的吗？
+#### 问题 4：对首页页码的更改会永久保留在编辑的 Excel 文件中吗？
 
-A4: 是的，对首页页码所做的更改将永久保存在修改后的 Excel 文件中。
+A4：是的，对首页页码所做的更改将永久保存在修改后的 Excel 文件中。
 
-#### Q5：此方法是否适用于所有 Excel 文件格式，例如 .xls 和 .xlsx？
+#### Q5：此方法适用于所有 Excel 文件格式，例如 .xls 和 .xlsx 吗？
 
 A5：是的，此方法适用于 Aspose.Cells 支持的所有 Excel 文件格式，包括 .xls 和 .xlsx。

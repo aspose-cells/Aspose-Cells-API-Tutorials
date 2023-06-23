@@ -80,7 +80,7 @@ Aspose.Cells for .NET es una poderosa biblioteca para manipular archivos de Exce
 
 #### ¿Cómo puedo mostrar u ocultar encabezados de fila y columna de una hoja de cálculo de Excel con Aspose.Cells para .NET?
 
- Puedes usar el`IsRowColumnHeadersVisible` propiedad de la`Worksheet` objeto para mostrar u ocultar encabezados de fila y columna. Configúralo en`true` para mostrarles y para`false` para ocultarlos.
+ Puedes usar el`IsRowColumnHeadersVisible` propiedad de la`Worksheet`objeto para mostrar u ocultar encabezados de fila y columna. Configúralo en`true` para mostrarles y para`false` para ocultarlos.
 
 #### ¿Qué otros formatos de archivo de Excel son compatibles con Aspose.Cells para .NET?
 

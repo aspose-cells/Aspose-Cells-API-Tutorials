@@ -72,7 +72,7 @@ Aspose.Cells pour .NET est une bibliothèque puissante pour manipuler des fichie
 
 #### Comment afficher l'onglet d'une feuille de calcul Excel en utilisant Aspose.Cells pour .NET ?
 
- Vous pouvez utiliser le`ShowTabs` propriété de la`Workbook.Settings` objet et réglez-le sur`true`pour afficher l'onglet de la feuille de calcul.
+ Vous pouvez utiliser le`ShowTabs` propriété de la`Workbook.Settings` objet et réglez-le sur`true` pour afficher l'onglet de la feuille de calcul.
 
 #### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
 
