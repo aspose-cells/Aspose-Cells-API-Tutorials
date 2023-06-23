@@ -24,7 +24,6 @@ url: /net/excel-workbook/
 | [Password Protect Or Unprotect Shared Workbook](./password-protect-or-unprotect-shared-workbook/) | Learn how to password protect or unprotect a shared workbook using Aspose.Cells for .NET. |  
 | [Read And Write External Connection Of XLSB File](./read-and-write-external-connection-of-xlsb-file/) | Learn how to read and modify the external connections of an XLSB file using Aspose.Cells for .NET. |  
 | [Regex Replace](./regex-replace/) | Learn how to perform Regex replacement in Excel files using Aspose.Cells for .NET. |  
-| [Stop Conversion Or Loading Using Interrupt Monitor](./stop-conversion-or-loading-using-interrupt-monitor/) |  |  
 | [Update Power Query Formula Item](./update-power-query-formula-item/) | Learn how to update Power Query formula elements in Excel files using Aspose.Cells for .NET. |  
 | [Workbook Print Preview](./workbook-print-preview/) | Learn how to generate a print preview of a workbook using Aspose.Cells for .NET. |  
 | [Working With Content Type Properties](./working-with-content-type-properties/) | Learn how to work with content type properties using Aspose.Cells for .NET. |  
