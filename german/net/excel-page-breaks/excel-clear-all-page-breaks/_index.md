@@ -1,6 +1,6 @@
 ---
-title: Excel: Alle Seitenumbrüche löschen
-linktitle: Excel: Alle Seitenumbrüche löschen
+title: Excel Alle Seitenumbrüche löschen
+linktitle: Excel Alle Seitenumbrüche löschen
 second_title: Aspose.Cells für .NET API-Referenz
 description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Seitenumbrüche in Excel entfernen. Schritt-für-Schritt-Anleitung zum Bereinigen Ihrer Excel-Dateien.
 type: docs
