@@ -2,7 +2,7 @@
 title: Excel Workbook Automation
 linktitle: Excel Workbook Automation
 second_title: Aspose.Cells Java Excel Processing API
-description: Learn Excel Workbook Automation in Java with Aspose.Cells: Create, Read, Update Excel files programmatically. Get started now!
+description: Learn Excel Workbook Automation in Java with Aspose.Cells. Create, Read, Update Excel files programmatically. Get started now!
 type: docs
 weight: 16
 url: /java/spreadsheet-automation/excel-workbook-automation/
