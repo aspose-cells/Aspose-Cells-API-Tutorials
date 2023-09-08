@@ -21,7 +21,7 @@ Stellen Sie sicher, dass Sie Aspose.Cells für .NET installiert und ein C#-Proje
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt austauschen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt ersetzen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 3: Erstellen Sie einen Dateistream, um die Excel-Datei zu öffnen
 
@@ -81,7 +81,7 @@ fstream.Close();
 	
 ### Beispielquellcode für erweiterte Schutzeinstellungen für Excel-Arbeitsblätter mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

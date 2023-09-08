@@ -22,7 +22,7 @@ Aspose.Cells är ett funktionsrikt bibliotek som låter utvecklare skapa, manipu
 Innan vi börjar arbeta med Excel-filen måste vi sätta upp dokumentkatalogen. Ersätt platshållaren "DIN DOKUMENTKATOGRAF" i kodavsnittet med den faktiska sökvägen till katalogen där du vill spara utdatafilen.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -67,7 +67,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 ### Exempel på källkod för Set Excel Page Orientation med Aspose.Cells för .NET 
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();

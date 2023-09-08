@@ -63,7 +63,7 @@ book.Save(dataDir + "output.xls");
 
 ### Exempel på källkod för Ta bort paneler i arbetsbladet med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera en ny arbetsbok och öppna en mallfil
 Workbook book = new Workbook(dataDir + "Book1.xls");

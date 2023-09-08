@@ -2,20 +2,20 @@
 title: Excel Çalışma Sayfasını Koruyun
 linktitle: Excel Çalışma Sayfasını Koruyun
 second_title: Aspose.Cells for .NET API Referansı
-description: Bu eğitimde Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunu nasıl koruyacağınızı keşfedin. C# ile adım adım kılavuz.
+description: Bu eğitimde Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunu nasıl koruyacağınızı keşfedin. C#'ta adım adım kılavuz.
 type: docs
 weight: 50
 url: /tr/net/protect-excel-file/protect-excel-worksheet/
 ---
-Bu öğreticide, bir Excel elektronik tablosunu korumak için Aspose.Cells kitaplığını kullanan bazı C# kaynak kodlarına bakacağız. Kodun her adımını inceleyeceğiz ve nasıl çalıştığını açıklayacağız. İstenen sonuçları elde etmek için talimatları dikkatlice uyguladığınızdan emin olun.
+Bu eğitimde, bir Excel elektronik tablosunu korumak için Aspose.Cells kütüphanesini kullanan bazı C# kaynak kodlarına bakacağız. Kodun her adımını inceleyeceğiz ve nasıl çalıştığını açıklayacağız. İstenilen sonuçları elde etmek için talimatları dikkatlice takip ettiğinizden emin olun.
 
 ## 1. Adım: Önkoşullar
 
-Başlamadan önce, .NET için Aspose.Cells kitaplığını kurduğunuzdan emin olun. Aspose resmi sitesinden temin edebilirsiniz. Ayrıca, Visual Studio'nun veya başka herhangi bir C# geliştirme ortamının yeni bir sürümüne sahip olduğunuzdan emin olun.
+Başlamadan önce .NET için Aspose.Cells kütüphanesini kurduğunuzdan emin olun. Aspose'un resmi web sitesinden alabilirsiniz. Ayrıca Visual Studio'nun veya başka bir C# geliştirme ortamının güncel bir sürümüne sahip olduğunuzdan emin olun.
 
 ## 2. Adım: Gerekli ad alanlarını içe aktarın
 
-Aspose.Cells kütüphanesini kullanmak için gerekli namespace'leri kodumuza import etmemiz gerekiyor. C# kaynak dosyanızın en üstüne aşağıdaki satırları ekleyin:
+Aspose.Cells kütüphanesini kullanmak için gerekli ad alanlarını kodumuza aktarmamız gerekiyor. C# kaynak dosyanızın en üstüne aşağıdaki satırları ekleyin:
 
 ```csharp
 using Aspose.Cells;
@@ -24,25 +24,25 @@ using System.IO;
 
 ## 3. Adım: Excel dosyasını yükleyin
 
-Bu adımda korumak istediğimiz Excel dosyasını yükleyeceğiz. Excel dosyasını içeren dizine doğru yolu belirttiğinizden emin olun. Dosyayı yüklemek için aşağıdaki kodu kullanın:
+Bu adımda korumak istediğimiz Excel dosyasını yükleyeceğiz. Excel dosyasını içeren dizinin doğru yolunu belirttiğinizden emin olun. Dosyayı yüklemek için aşağıdaki kodu kullanın:
 
 ```csharp
-// Belgeler dizinine giden yol.
+// Belgeler dizininin yolu.
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
 // Açılacak Excel dosyasını içeren bir dosya akışı oluşturun.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
-// Bir Çalışma Kitabı nesnesi örneği oluşturun.
-//Dosya akışı aracılığıyla Excel dosyasını açın.
+// Bir Çalışma Kitabı nesnesinin örneğini oluşturun.
+//Excel dosyasını dosya akışı yoluyla açın.
 Workbook excel = new Workbook(fstream);
 ```
 
- değiştirdiğinizden emin olun`"YOUR_DOCUMENTS_DIR"` belgeler dizininize uygun yolla.
+ Değiştirdiğinizden emin olun`"YOUR_DOCUMENTS_DIR"` Belgeler dizininize uygun yol ile.
 
-## 4. Adım: Elektronik tabloya erişin
+## 4. Adım: E-tabloya erişin
 
-Artık Excel dosyasını yüklediğimize göre, ilk çalışma sayfasına erişebiliriz. İlk çalışma sayfasına erişmek için aşağıdaki kodu kullanın:
+Artık Excel dosyasını yüklediğimize göre ilk çalışma sayfasına erişebiliriz. İlk çalışma sayfasına erişmek için aşağıdaki kodu kullanın:
 
 ```csharp
 // Excel dosyasındaki ilk çalışma sayfasına erişim.
@@ -51,18 +51,18 @@ Worksheet worksheet = excel.Worksheets[0];
 
 ## 5. Adım: Çalışma sayfasını koruyun
 
-Bu adımda elektronik tabloyu bir parola kullanarak koruyacağız. Elektronik tabloyu korumak için aşağıdaki kodu kullanın:
+Bu adımda elektronik tabloyu bir şifre kullanarak koruyacağız. Elektronik tabloyu korumak için aşağıdaki kodu kullanın:
 
 ```csharp
-// Çalışma sayfasını bir parola ile koruyun.
+// Çalışma sayfasını bir parolayla koruyun.
 worksheet.Protect(ProtectionType.All, "YOUR_PASSWORD", null);
 ```
 
- Yer değiştirmek`"YOUR_PASSWORD"` e-tabloyu korumak için kullanmak istediğiniz parola ile.
+ Yer değiştirmek`"YOUR_PASSWORD"` e-tabloyu korumak için kullanmak istediğiniz şifreyle.
 
-## 6. Adım: Artık koruduğumuza göre Değiştirilmiş Excel Dosyasını kaydedin
+## Adım 6: Artık koruduğumuza göre Değiştirilmiş Excel Dosyasını Kaydedin
 
-elektronik tablo olarak, değiştirilen Excel dosyasını varsayılan biçimde kaydedeceğiz. Excel dosyasını kaydetmek için aşağıdaki kodu kullanın:
+e-tabloda, değiştirilen Excel dosyasını varsayılan formatta kaydedeceğiz. Excel dosyasını kaydetmek için aşağıdaki kodu kullanın:
 
 ```csharp
 // Değiştirilen Excel dosyasını varsayılan biçimde kaydedin.
@@ -73,7 +73,7 @@ Değiştirilen Excel dosyasını kaydetmek için doğru yolu belirttiğinizden e
 
 ## 7. Adım: Dosya Akışını Kapatın
 
-Tüm kaynakları serbest bırakmak için, Excel dosyasını yüklemek için kullanılan dosya akışını kapatmamız gerekiyor. Dosya akışını kapatmak için aşağıdaki kodu kullanın:
+Tüm kaynakları serbest bırakmak için Excel dosyasını yüklemek için kullanılan dosya akışını kapatmamız gerekir. Dosya akışını kapatmak için aşağıdaki kodu kullanın:
 
 ```csharp
 // Tüm kaynakları serbest bırakmak için dosya akışını kapatın.
@@ -83,9 +83,9 @@ fstream.Close();
 Bu adımı kodunuzun sonuna eklediğinizden emin olun.
 
 
-### Aspose.Cells for .NET kullanan Protect Excel Worksheet için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel Çalışma Sayfasını Koru için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Açılacak Excel dosyasını içeren bir dosya akışı oluşturma
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
@@ -94,9 +94,9 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook excel = new Workbook(fstream);
 // Excel dosyasındaki ilk çalışma sayfasına erişme
 Worksheet worksheet = excel.Worksheets[0];
-// Çalışma sayfasını bir parola ile koruma
+// Çalışma sayfasını parolayla koruma
 worksheet.Protect(ProtectionType.All, "aspose", null);
-// Değiştirilen Excel dosyasını varsayılan biçimde kaydetme
+// Değiştirilen Excel dosyasını varsayılan formatta kaydetme
 excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 // Tüm kaynakları serbest bırakmak için dosya akışını kapatma
 fstream.Close();
@@ -104,22 +104,22 @@ fstream.Close();
 
 ## Çözüm
 
-Tebrikler! Artık bir Excel elektronik tablosunu Aspose.Cells library for .NET kullanarak korumanıza izin veren C# kaynak kodunuz var. Adımları dikkatli bir şekilde uyguladığınızdan ve kodu özel ihtiyaçlarınıza göre özelleştirdiğinizden emin olun.
+Tebrikler! Artık .NET için Aspose.Cells kütüphanesini kullanarak bir Excel elektronik tablosunu korumanıza olanak tanıyan C# kaynak kodunuz var. Adımları dikkatlice takip ettiğinizden ve kodu özel ihtiyaçlarınıza göre özelleştirdiğinizden emin olun.
 
-### SSS (Sıkça Sorulan Sorular)
+### SSS (Sık Sorulan Sorular)
 
-#### Birden çok çalışma sayfasını tek bir Excel dosyasında korumak mümkün müdür?
+#### Birden fazla çalışma sayfasını tek bir Excel dosyasında korumak mümkün müdür?
 
-Y: Evet, her çalışma sayfası için 4-6. adımları tekrarlayarak tek bir Excel dosyasında birden çok çalışma sayfasını koruyabilirsiniz.
+C: Evet, her çalışma sayfası için 4-6 arasındaki adımları tekrarlayarak birden fazla çalışma sayfasını tek bir Excel dosyasında koruyabilirsiniz.
 
 #### Yetkili kullanıcılar için belirli izinleri nasıl belirleyebilirim?
 
- C: tarafından sağlanan ek seçenekleri kullanabilirsiniz.`Protect`yetkili kullanıcılar için belirli izinleri belirleme yöntemi. Daha fazla bilgi için Aspose.Cells belgelerine bakın.
+ C: Sağlanan ek seçenekleri kullanabilirsiniz.`Protect`Yetkili kullanıcılar için belirli izinleri belirleme yöntemi. Daha fazla bilgi için Aspose.Cells belgelerine bakın.
 
 #### Excel dosyasının kendisini bir parola ile koruyabilir miyim?
 
-C: Evet, Aspose.Cells kitaplığı tarafından sağlanan diğer yöntemleri kullanarak Excel dosyasının kendisini parola ile koruyabilirsiniz. Belirli örnekler için lütfen belgelere bakın.
+C: Evet, Aspose.Cells kütüphanesinin sağladığı diğer yöntemleri kullanarak Excel dosyasını şifreyle koruyabilirsiniz. Belirli örnekler için lütfen belgelere bakın.
 
 #### Aspose.Cells kütüphanesi diğer Excel dosya formatlarını destekliyor mu?
 
-C: Evet, Aspose.Cells kitaplığı, XLSX, XLSM, XLSB, CSV, vb. dahil olmak üzere çok çeşitli Excel dosya formatlarını destekler.
+C: Evet, Aspose.Cells kütüphanesi XLSX, XLSM, XLSB, CSV vb. dahil çok çeşitli Excel dosya formatlarını destekler.

@@ -61,7 +61,7 @@ Das Filtern definierter Namen beim Laden einer Excel-Arbeitsmappe kann für viel
 
 #### F: Unterstützt Aspose.Cells neben C# auch andere Programmiersprachen?
     
-A: Ja, Aspose.Cells ist eine plattformübergreifende Bibliothek, die viele Programmiersprachen wie Java, Python, C unterstützt++, und viele mehr.
+A: Ja, Aspose.Cells ist eine plattformübergreifende Bibliothek, die viele Programmiersprachen wie Java, Python, C unterstützt++und viele mehr.
 
 #### F: Kann ich beim Laden einer Arbeitsmappe mit Aspose.Cells andere Datentypen filtern?
     

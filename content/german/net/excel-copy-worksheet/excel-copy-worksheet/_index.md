@@ -30,11 +30,11 @@ using Aspose.Cells;
 string dataDir = "PATH_TO_YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Unbedingt austauschen`"PATH_TO_YOUR_DOCUMENT_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt ersetzen`"PATH_TO_YOUR_DOCUMENT_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 4: Vorhandene Excel-Datei laden
 
- Benutzen Sie die`Workbook`Klasse aus Aspose.Cells, um die vorhandene Excel-Datei zu öffnen. Benutzen Sie die`InputPath` Variable zur Angabe des Dateipfads:
+ Benutzen Sie die`Workbook` Klasse aus Aspose.Cells, um die vorhandene Excel-Datei zu öffnen. Benutzen Sie die`InputPath` Variable zur Angabe des Dateipfads:
 
 ```csharp
 string InputPath = dataDir + "book1.xls";
@@ -70,7 +70,7 @@ Geben Sie unbedingt den gewünschten Pfad und Dateinamen für die Ausgabedatei a
 ### Beispielquellcode für Excel Copy Worksheet mit Aspose.Cells für .NET 
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 // Öffnen Sie eine vorhandene Excel-Datei.

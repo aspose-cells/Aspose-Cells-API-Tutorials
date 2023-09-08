@@ -21,7 +21,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie Aspose.Cells für .NET installi
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt austauschen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt ersetzen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 3: Erstellen Sie eine neue Excel-Arbeitsmappe
 
@@ -116,7 +116,7 @@ Geben Sie unbedingt den gewünschten Pfad und Dateinamen für die Ausgabedatei a
 
 ### Beispielquellcode für Excel-Arbeitsblatt aus anderer Arbeitsmappe kopieren mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie eine neue Arbeitsmappe.
 Workbook excelWorkbook0 = new Workbook();

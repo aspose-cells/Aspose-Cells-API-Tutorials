@@ -49,7 +49,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ### Beispielquellcode für „An Excel-Seiten anpassen“-Optionen mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();

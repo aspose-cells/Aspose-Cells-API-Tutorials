@@ -1,40 +1,40 @@
 ---
-title: Excel Çalışma Sayfasında Hücreleri Koruyun
-linktitle: Excel Çalışma Sayfasında Hücreleri Koruyun
+title: Excel Çalışma Sayfasındaki Hücreleri Koruyun
+linktitle: Excel Çalışma Sayfasındaki Hücreleri Koruyun
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET ile Excel'de belirli hücreleri nasıl koruyacağınızı öğrenin. C# ile adım adım öğretici.
+description: Aspose.Cells for .NET ile Excel'deki belirli hücreleri nasıl koruyacağınızı öğrenin. C#'ta adım adım eğitim.
 type: docs
 weight: 30
 url: /tr/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
-Microsoft Excel, elektronik tablo oluşturmak ve yönetmek için yaygın olarak kullanılan bir araçtır. Excel'in temel özelliklerinden biri, veri bütünlüğünü korumak için belirli hücreleri koruma yeteneğidir. Bu eğitimde, Aspose.Cells for .NET kullanarak bir Excel elektronik tablosundaki belirli hücreleri korumanız için size adım adım rehberlik edeceğiz. Aspose.Cells for .NET, büyük esneklik ve gelişmiş özelliklerle Excel dosyalarının işlenmesini kolaylaştıran güçlü bir programlama kitaplığıdır. Önemli hücrelerinizi nasıl koruyacağınızı ve verilerinizi nasıl güvende tutacağınızı öğrenmek için verilen adımları izleyin.
+Microsoft Excel, elektronik tablolar oluşturmak ve yönetmek için yaygın olarak kullanılan bir araçtır. Excel'in temel özelliklerinden biri, veri bütünlüğünü korumak için belirli hücreleri koruma yeteneğidir. Bu eğitimde, Aspose.Cells for .NET'i kullanarak bir Excel tablosundaki belirli hücreleri korumanız için size adım adım rehberlik edeceğiz. Aspose.Cells for .NET, mükemmel esneklik ve gelişmiş özelliklerle Excel dosyalarını yönetmeyi kolaylaştıran güçlü bir programlama kütüphanesidir. Önemli hücrelerinizi nasıl koruyacağınızı ve verilerinizi nasıl güvende tutacağınızı öğrenmek için verilen adımları izleyin.
 
 ## 1. Adım: Ortamı ayarlama
 
-Geliştirme ortamınızda Aspose.Cells for .NET'in kurulu olduğundan emin olun. Aspose resmi web sitesinden kitaplığı indirin ve kurulum talimatları için belgelere bakın.
+Geliştirme ortamınızda Aspose.Cells for .NET'in kurulu olduğundan emin olun. Kütüphaneyi Aspose resmi web sitesinden indirin ve kurulum talimatları için belgelere bakın.
 
 ## Adım 2: Çalışma Kitabını ve Çalışma Sayfasını Başlatma
 
-Başlamak için yeni bir çalışma kitabı oluşturmamız ve hücreleri korumak istediğimiz çalışma sayfasına referans almamız gerekiyor. Aşağıdaki kodu kullanın:
+Başlamak için yeni bir çalışma kitabı oluşturmamız ve hücreleri korumak istediğimiz çalışma sayfasının referansını almamız gerekiyor. Aşağıdaki kodu kullanın:
 
 ```csharp
-// Belgeler dizinine giden yol.
+// Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
-// Zaten yoksa dizini oluşturun.
+// Zaten mevcut değilse dizini oluşturun.
 bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-//Yeni bir çalışma kitabı oluştur
+// Yeni bir çalışma kitabı oluştur
 Workbook workbook = new Workbook();
 
-// İlk çalışma sayfasını al
+// İlk çalışma sayfasını alın
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- Bu kod parçacığında öncelikle Excel dosyasının kaydedileceği dizinin yolunu tanımlıyoruz. Ardından, yeni bir örneğini oluşturuyoruz`Workbook` class ve kullanarak ilk çalışma sayfasına referans alın.`Worksheets` mülk.
+ Bu kod parçasında öncelikle Excel dosyasının kaydedileceği dizinin yolunu tanımlıyoruz. Daha sonra yeni bir örneğini oluşturuyoruz.`Workbook` sınıfını kullanın ve kullanarak ilk çalışma sayfasına referans alın.`Worksheets` mülk.
 
-## 3. Adım: Hücre Stilini Tanımlayın
+## Adım 3: Hücre Stilini Tanımlayın
 
 Şimdi korumak istediğimiz hücrelerin stilini tanımlamamız gerekiyor. Aşağıdaki kodu kullanın:
 
@@ -42,7 +42,7 @@ Worksheet sheet = workbook.Worksheets[0];
 // Stil nesnesini tanımlayın
 Styling styling;
 
-// Çalışma sayfasındaki tüm sütunlarda dolaşın ve kilidini açın
+// Çalışma sayfasındaki tüm sütunlar arasında dolaşın ve bunların kilidini açın
 for (int i = 0; i <= 255; i++)
 {
      style = sheet.Cells.Columns[(byte)i].Style;
@@ -51,7 +51,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
- Bu kodda, çalışma sayfasındaki tüm sütunlar arasında dolaşmak ve stillerini ayarlayarak hücrelerinin kilidini açmak için bir döngü kullanıyoruz.`IsLocked` mülkiyet`false` . daha sonra kullanırız`ApplyStyle` stili sütunlara uygulama yöntemi`StyleFlag` Hücreleri kilitlemek için bayrak.
+ Bu kodda, çalışma sayfasındaki tüm sütunlar arasında döngü yapmak ve stilin ayarını yaparak hücrelerinin kilidini açmak için bir döngü kullanıyoruz.`IsLocked` mülkiyet`false` . Daha sonra şunu kullanırız:`ApplyStyle` stili sütunlara uygulama yöntemi`StyleFlag` hücreleri kilitlemek için bayrak.
 
 ## Adım 4: Belirli Hücreleri Koruyun
 
@@ -72,47 +72,47 @@ style. IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
 ```
 
- Bu kodda, her belirli hücrenin stilini kullanarak elde ederiz.`GetStyle` yöntemini ve ardından`IsLocked` stilin özelliği`true`hücreyi kilitlemek için. Son olarak, güncellenen stili kullanarak her hücreye uyguluyoruz.`SetStyle` yöntem.
+ Bu kodda, her bir hücrenin stilini aşağıdakileri kullanarak elde ederiz:`GetStyle` yöntemini ayarladık ve sonra`IsLocked` stilin özelliği`true`Hücreyi kilitlemek için. Son olarak güncellenen stili her hücreye aşağıdaki komutu kullanarak uyguluyoruz:`SetStyle` yöntem.
 
-## 5. Adım: Çalışma sayfasını koruma
+## Adım 5: Çalışma sayfasını koruma
 
-Artık korunacak hücreleri tanımladığımıza göre, çalışma sayfasının kendisini koruyabiliriz. Aşağıdaki kodu kullanın:
+Artık korunacak hücreleri tanımladığımıza göre çalışma sayfasının kendisini koruyabiliriz. Aşağıdaki kodu kullanın:
 
 ```csharp
-// çalışma sayfasını koruyun
+// Çalışma sayfasını koruyun
 leaf.Protect(ProtectionType.All);
 ```
 
- Bu kod kullanır`Protect` çalışma sayfasını belirtilen koruma türüyle koruma yöntemi, bu durumda`ProtectionType.All` çalışma sayfasındaki tüm öğeleri korur.
+ Bu kod şunu kullanır:`Protect` bu durumda çalışma sayfasını belirtilen koruma türüyle koruma yöntemi`ProtectionType.All` çalışma sayfasındaki tüm öğeleri korur.
 
-## 6. Adım: Excel dosyasını kaydedin
+## Adım 6: Excel dosyasını kaydedin
 
-Son olarak Excel dosyasını yapılan değişikliklerle kaydediyoruz. Aşağıdaki kodu kullanın:
+Son olarak yaptığımız değişikliklerin bulunduğu Excel dosyasını kaydediyoruz. Aşağıdaki kodu kullanın:
 
 ```csharp
 // Excel dosyasını kaydedin
 workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
 
- Bu kodda kullandığımız`Save` çalışma kitabını belirtilen dizine kaydetme yöntemi`Excel97To2003` biçim.
+ Bu kodda şunu kullanıyoruz:`Save` çalışma kitabını belirtilen dizine kaydetme yöntemi`Excel97To2003` biçim.
 
-### Aspose.Cells for .NET kullanarak Excel'de Hücreleri Koru Çalışma Sayfası için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel Çalışma Sayfasındaki Hücreleri Korumak için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Halihazırda mevcut değilse, dizin oluşturun.
+// Henüz mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Yeni bir çalışma kitabı oluşturun.
 Workbook wb = new Workbook();
-// Bir çalışma sayfası nesnesi oluşturun ve ilk sayfayı alın.
+// Bir çalışma sayfası nesnesi oluşturun ve ilk sayfayı edinin.
 Worksheet sheet = wb.Worksheets[0];
 // Stil nesnesini tanımlayın.
 Style style;
-// styleflag nesnesini tanımlayın
+// Stil bayrağı nesnesini tanımlayın
 StyleFlag styleflag;
-// Çalışma sayfasındaki tüm sütunlarda dolaşın ve bunların kilidini açın.
+// Çalışma sayfasındaki tüm sütunlar arasında dolaşın ve bunların kilidini açın.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -139,23 +139,23 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 
 ## Çözüm
 
-Tebrikler! Aspose.Cells for .NET kullanarak bir Excel elektronik tablosundaki belirli hücreleri nasıl koruyacağınızı öğrendiniz. Artık bu tekniği kendi projelerinizde uygulayabilir ve Excel dosyalarınızın güvenliğini artırabilirsiniz.
+Tebrikler! Aspose.Cells for .NET'i kullanarak bir Excel tablosundaki belirli hücreleri nasıl koruyacağınızı öğrendiniz. Artık bu tekniği kendi projelerinizde uygulayabilir ve Excel dosyalarınızın güvenliğini artırabilirsiniz.
 
 
 ### SSS
 
-#### S: Bir Excel elektronik tablosundaki hücreleri korumak için neden Aspose.Cells for .NET kullanmalıyım?
+#### S: Bir Excel tablosundaki hücreleri korumak için neden Aspose.Cells for .NET kullanmalıyım?
 
-Y: Aspose.Cells for .NET, Excel dosyalarıyla çalışmayı kolaylaştıran güçlü bir kitaplıktır. Hücreleri korumak, aralıkları açmak vb. için gelişmiş özellikler sunar.
+C: Aspose.Cells for .NET, Excel dosyalarıyla çalışmayı kolaylaştıran güçlü bir kütüphanedir. Hücreleri korumak, aralıkların kilidini açmak vb. için gelişmiş özellikler sunar.
 
-#### S: Bireysel hücreler yerine hücre aralıklarını korumak mümkün müdür?
+#### S: Tek tek hücreler yerine hücre aralıklarını korumak mümkün mü?
 
- A: Evet, kullanarak korumak için belirli hücre aralıkları tanımlayabilirsiniz.`ApplyStyle` yöntemi ile uygun`StyleFlag`.
+ C: Evet, korumayı kullanarak belirli hücre aralıklarını tanımlayabilirsiniz.`ApplyStyle` uygun bir yöntemle`StyleFlag`.
 
 #### S: Korumalı Excel dosyasını kaydettikten sonra nasıl açabilirim?
 
-C: Korumalı Excel dosyasını açtığınızda, çalışma sayfasını korurken belirtilen parolayı girmeniz gerekecektir.
+C: Korumalı Excel dosyasını açtığınızda, çalışma sayfasını korurken belirttiğiniz şifreyi girmeniz gerekecektir.
 
-#### S: Bir Excel elektronik tablosuna uygulayabileceğim başka koruma türleri var mı?
+#### S: Excel elektronik tablosuna uygulayabileceğim başka koruma türleri var mı?
 
-C: Evet, Aspose.Cells for .NET, yapı koruması, pencere koruması vb. gibi birçok koruma türünü destekler. İhtiyaçlarınıza göre uygun koruma türünü seçebilirsiniz.
+C: Evet, Aspose.Cells for .NET yapı koruması, pencere koruması vb. gibi birden fazla koruma türünü destekler. İhtiyaçlarınıza göre uygun koruma türünü seçebilirsiniz.

@@ -1,17 +1,17 @@
 ---
 title: Imposta il fattore di scala di Excel
 linktitle: Imposta il fattore di scala di Excel
-second_title: Riferimento all'API Aspose.Cells per .NET
+second_title: Aspose.Cells per riferimento API .NET
 description: Impara a manipolare facilmente i file Excel e personalizzare il fattore di scala utilizzando Aspose.Cells per .NET.
 type: docs
 weight: 180
 url: /it/net/excel-page-setup/set-excel-scaling-factor/
 ---
-In questa guida, ti illustreremo come impostare il fattore di scala in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Seguire i passaggi seguenti per eseguire questa attività.
+In questa guida ti spiegheremo come impostare il fattore di scala in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Seguire i passaggi seguenti per eseguire questa attività.
 
 ## Passaggio 1: configurazione dell'ambiente
 
-Assicurati di aver impostato il tuo ambiente di sviluppo e installato Aspose.Cells per .NET. È possibile scaricare l'ultima versione della libreria dal sito Web ufficiale di Aspose.
+Assicurati di aver configurato il tuo ambiente di sviluppo e installato Aspose.Cells per .NET. È possibile scaricare l'ultima versione della libreria dal sito Web ufficiale di Aspose.
 
 ## Passaggio 2: importa gli spazi dei nomi richiesti
 
@@ -23,7 +23,7 @@ using Aspose.Cells;
 
 ## Passaggio 3: impostazione del percorso della directory dei documenti
 
- Dichiara un`dataDir` variabile per specificare il percorso della directory in cui si desidera salvare il file Excel generato:
+ Dichiarare a`dataDir` variabile per specificare il percorso della directory in cui si desidera salvare il file Excel generato:
 
 ```csharp
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
@@ -33,7 +33,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
 ## Passaggio 4: creazione di un oggetto cartella di lavoro
 
-Crea un'istanza di un oggetto Workbook che rappresenta la cartella di lavoro di Excel che desideri creare:
+Crea un'istanza di un oggetto cartella di lavoro che rappresenta la cartella di lavoro di Excel che desideri creare:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -49,7 +49,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Passaggio 6: impostare il fattore di scala
 
-Impostare il fattore di scala utilizzando il seguente codice:
+Imposta il fattore di scala utilizzando il seguente codice:
 
 ```csharp
 worksheet.PageSetup.Zoom = 100;
@@ -57,7 +57,7 @@ worksheet.PageSetup.Zoom = 100;
 
 Qui abbiamo impostato il fattore di scala su 100, il che significa che il foglio di calcolo verrà visualizzato al 100% delle dimensioni normali una volta stampato.
 
-## Passaggio 7: salvare la cartella di lavoro di Excel
+## Passaggio 7: salvataggio della cartella di lavoro di Excel
 
  Per salvare la cartella di lavoro di Excel con il fattore di scala definito, utilizzare il file`Save` metodo dell'oggetto Workbook:
 
@@ -67,15 +67,15 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 
 Ciò salverà la cartella di lavoro di Excel con il nome file "ScalingFactor_out.xls" nella directory specificata.
 
-### Esempio di codice sorgente per Imposta fattore di scala Excel utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per impostare il fattore di scala di Excel utilizzando Aspose.Cells per .NET 
 ```csharp
-// Il percorso della directory dei documenti.
+//Il percorso della directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Istanziare un oggetto Workbook
+// Creazione di un'istanza di un oggetto cartella di lavoro
 Workbook workbook = new Workbook();
 // Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Impostare il fattore di scala su 100
+// Impostando il fattore di scala su 100
 worksheet.PageSetup.Zoom = 100;
 // Salva la cartella di lavoro.
 workbook.Save(dataDir + "ScalingFactor_out.xls");
@@ -83,7 +83,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 
 ## Conclusione
 
-Congratulazioni! Hai imparato come impostare il fattore di scala in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Il fattore di scala consente di regolare le dimensioni del foglio di calcolo durante la stampa per una visualizzazione ottimale.
+Congratulazioni! Hai imparato come impostare il fattore di scala in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Il fattore di scala consente di regolare la dimensione del foglio di calcolo durante la stampa per una visualizzazione ottimale.
 
 ### Domande frequenti
 
@@ -95,6 +95,6 @@ Congratulazioni! Hai imparato come impostare il fattore di scala in un foglio di
 
  Sì, puoi regolare il fattore di scala modificando il valore assegnato a`Zoom` proprietà. Per esempio,`worksheet.PageSetup.Zoom = 75;` imposterà il fattore di scala al 75%.
 
-#### 3. È possibile salvare la cartella di lavoro di Excel con il fattore di scala definito?
+#### 3. È possibile salvare la cartella di lavoro Excel con il fattore di scala definito?
 
  Sì, puoi usare il`Save` metodo del`Workbook` oggetto per salvare la cartella di lavoro di Excel con il fattore di scala definito.

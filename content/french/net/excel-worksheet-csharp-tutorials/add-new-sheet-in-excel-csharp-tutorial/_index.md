@@ -1,20 +1,20 @@
 ---
-title: Ajouter une nouvelle feuille dans le didacticiel Excel C #
+title: Ajouter une nouvelle feuille dans le didacticiel Excel C#
 linktitle: Ajouter une nouvelle feuille dans Excel
 second_title: Référence de l'API Aspose.Cells pour .NET
-description: Apprenez à ajouter une nouvelle feuille dans Excel en utilisant Aspose.Cells pour .NET. Tutoriel étape par étape avec le code source en C#.
+description: Découvrez comment ajouter une nouvelle feuille dans Excel à l'aide d'Aspose.Cells pour .NET. Tutoriel étape par étape avec le code source en C#.
 type: docs
 weight: 20
 url: /fr/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tutorial/
 ---
-Dans ce didacticiel, nous expliquerons étape par étape le code source C # pour ajouter une nouvelle feuille dans Excel à l'aide d'Aspose.Cells pour .NET. L'ajout d'une nouvelle feuille de calcul à un classeur Excel est une opération courante lors de la création de rapports ou de la manipulation de données. Aspose.Cells est une bibliothèque puissante qui facilite la manipulation et la génération de fichiers Excel à l'aide de .NET. Suivez les étapes ci-dessous pour comprendre et mettre en œuvre ce code.
+Dans ce didacticiel, nous expliquerons étape par étape le code source C# pour ajouter une nouvelle feuille dans Excel à l'aide d'Aspose.Cells pour .NET. L'ajout d'une nouvelle feuille de calcul à un classeur Excel est une opération courante lors de la création de rapports ou de la manipulation de données. Aspose.Cells est une bibliothèque puissante qui facilite la manipulation et la génération de fichiers Excel à l'aide de .NET. Suivez les étapes ci-dessous pour comprendre et implémenter ce code.
 
-## Étape 1 : configuration du répertoire de documents
+## Étape 1 : configuration du répertoire de documents
 
-La première étape consiste à définir le répertoire du document dans lequel le fichier Excel sera enregistré. Si le répertoire n'existe pas, nous le créons à l'aide du code suivant :
+La première étape consiste à définir le répertoire du document dans lequel le fichier Excel sera enregistré. Si le répertoire n'existe pas, on le crée à l'aide du code suivant :
 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 // Créez le répertoire s'il n'existe pas déjà.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -22,9 +22,9 @@ if (!IsExists)
 System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Assurez-vous de remplacer "VOTRE RÉPERTOIRE DE DOCUMENTS" par le chemin approprié vers votre répertoire de documents.
+Assurez-vous de remplacer « VOTRE RÉPERTOIRE DE DOCUMENTS » par le chemin approprié vers votre répertoire de documents.
 
-## Étape 2 : instanciation d'un objet de classeur
+## Étape 2 : instancier un objet classeur
 
 La deuxième étape consiste à instancier un objet Workbook, qui représente le classeur Excel. Utilisez le code suivant :
 
@@ -34,7 +34,7 @@ Workbook workbook = new Workbook();
 
 Cet objet sera utilisé pour ajouter une nouvelle feuille de calcul et effectuer d'autres opérations sur le classeur Excel.
 
-## Étape 3 : Ajouter une nouvelle feuille de calcul
+## Étape 3 : Ajouter une nouvelle feuille de calcul
 
 La troisième étape consiste à ajouter une nouvelle feuille de calcul à l'objet Workbook. Utilisez le code suivant :
 
@@ -43,9 +43,9 @@ int index = workbook. Worksheets. Add();
 Worksheet worksheet = workbook.Worksheets[index];
 ```
 
-Cela ajoutera une nouvelle feuille de calcul à l'objet Workbook et vous obtiendrez une référence à cette feuille de calcul à l'aide de son index.
+Cela ajoutera une nouvelle feuille de calcul à l'objet Workbook et vous obtiendrez une référence à cette feuille de calcul en utilisant son index.
 
-## Étape 4 : Définition du nom de la nouvelle feuille de calcul
+## Étape 4 : Définir le nom de la nouvelle feuille de calcul
 
 La quatrième étape consiste à donner un nom à la nouvelle feuille de calcul. Vous pouvez utiliser le code suivant pour définir le nom de la feuille de calcul :
 
@@ -53,11 +53,11 @@ La quatrième étape consiste à donner un nom à la nouvelle feuille de calcul.
 worksheet.Name = "My Worksheet";
 ```
 
-Remplacez "Ma feuille de calcul" par le nom souhaité pour la nouvelle feuille.
+Remplacez « Ma feuille de calcul » par le nom souhaité pour la nouvelle feuille.
 
-## Étape 5 : Enregistrer le fichier Excel
+## Étape 5 : Sauvegarde du fichier Excel
 
-Enfin, la dernière étape consiste à enregistrer le fichier Excel. Utilisez le code suivant :
+Enfin, la dernière étape consiste à sauvegarder le fichier Excel. Utilisez le code suivant :
 
 ```csharp
 string filePath = dataDir + "output.out.xls";
@@ -68,7 +68,7 @@ Cela enregistrera le classeur Excel avec la nouvelle feuille de calcul dans le r
 
 ### Exemple de code source pour le didacticiel Ajouter une nouvelle feuille dans Excel C# à l'aide d'Aspose.Cells pour .NET 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -78,32 +78,32 @@ if (!IsExists)
 Workbook workbook = new Workbook();
 // Ajout d'une nouvelle feuille de calcul à l'objet Workbook
 int i = workbook.Worksheets.Add();
-// Obtenir la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
+// Obtention de la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
 Worksheet worksheet = workbook.Worksheets[i];
 // Définition du nom de la feuille de calcul nouvellement ajoutée
 worksheet.Name = "My Worksheet";
-// Enregistrement du fichier Excel
+// Sauvegarde du fichier Excel
 workbook.Save(dataDir + "output.out.xls");
 ```
 
 ## Conclusion
 
-Vous avez maintenant appris à ajouter une nouvelle feuille de calcul dans Excel à l'aide d'Aspose.Cells pour .NET. Vous pouvez utiliser cette méthode pour manipuler et générer des fichiers Excel à l'aide de C#. Aspose.Cells propose de nombreuses fonctionnalités puissantes pour simplifier la manipulation des fichiers Excel dans vos applications.
+Vous avez maintenant appris à ajouter une nouvelle feuille de calcul dans Excel à l'aide d'Aspose.Cells pour .NET. Vous pouvez utiliser cette méthode pour manipuler et générer des fichiers Excel à l'aide de C#. Aspose.Cells propose de nombreuses fonctionnalités puissantes pour simplifier la gestion des fichiers Excel dans vos applications.
 
 ### Foire aux questions (FAQ)
 
-#### Puis-je utiliser Aspose.Cells avec d'autres langages de programmation que C# ?
+#### Puis-je utiliser Aspose.Cells avec d’autres langages de programmation que C# ?
 
 Oui, Aspose.Cells prend en charge plusieurs langages de programmation tels que Java, Python, Ruby et bien d'autres.
 
 #### Puis-je ajouter une mise en forme aux cellules de la feuille de calcul nouvellement créée ?
 
-Oui, vous pouvez appliquer une mise en forme aux cellules à l'aide des méthodes fournies par la classe Worksheet de Aspose.Cells. Vous pouvez définir le style de cellule, modifier la couleur d'arrière-plan, appliquer des bordures, etc.
+Oui, vous pouvez appliquer une mise en forme aux cellules à l'aide des méthodes fournies par la classe Worksheet d'Aspose.Cells. Vous pouvez définir le style de cellule, modifier la couleur d'arrière-plan, appliquer des bordures, etc.
 
 #### Comment puis-je accéder aux données des cellules à partir de la nouvelle feuille de calcul ?
 
-Vous pouvez accéder aux données des cellules à l'aide des propriétés et des méthodes fournies par la classe Worksheet de Aspose.Cells. Par exemple, vous pouvez utiliser la propriété Cells pour accéder à une cellule spécifique et récupérer ou modifier sa valeur.
+Vous pouvez accéder aux données des cellules à l'aide des propriétés et méthodes fournies par la classe Worksheet d'Aspose.Cells. Par exemple, vous pouvez utiliser la propriété Cells pour accéder à une cellule spécifique et récupérer ou modifier sa valeur.
 
-#### Aspose.Cells prend-il en charge les formules dans Excel ?
+#### Aspose.Cells prend-il en charge les formules dans Excel ?
 
-Oui, Aspose.Cells prend en charge les formules Excel. Vous pouvez définir des formules dans des cellules de feuille de calcul à l'aide de la méthode SetFormula de la classe Cell.
+Oui, Aspose.Cells prend en charge les formules Excel. Vous pouvez définir des formules dans les cellules d'une feuille de calcul à l'aide de la méthode SetFormula de la classe Cell.

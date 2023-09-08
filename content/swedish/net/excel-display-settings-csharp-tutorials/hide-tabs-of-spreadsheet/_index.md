@@ -57,7 +57,7 @@ workbook.Save(dataDir + "output.xls");
 
 ### Exempel på källkod för Hide Tabs Of Spreadsheet med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Öppnar Excel-filen
 Workbook workbook = new Workbook(dataDir + "book1.xls");

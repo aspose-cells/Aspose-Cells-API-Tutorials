@@ -49,7 +49,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ### Exempel på källkod för Fit To Excel Pages-alternativ med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();

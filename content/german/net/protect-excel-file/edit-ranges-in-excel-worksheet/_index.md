@@ -88,7 +88,7 @@ workbook.Save(dataDir + "protectedrange.out.xls");
 
 ### Beispielquellcode für „Bereiche im Excel-Arbeitsblatt bearbeiten“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);

@@ -9,7 +9,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 ---
 Dans ce didacticiel, nous allons vous montrer comment afficher l'onglet d'une feuille de calcul Excel à l'aide du code source C# avec Aspose.Cells pour .NET. Suivez les étapes ci-dessous pour obtenir le résultat souhaité.
 
-## Étape 1 : Importer les bibliothèques nécessaires
+## Étape 1 : Importez les bibliothèques nécessaires
 
 Assurez-vous d'avoir installé la bibliothèque Aspose.Cells pour .NET et importez les bibliothèques nécessaires dans votre projet C#.
 
@@ -28,31 +28,31 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## Étape 3 : Afficher l'onglet de la feuille de calcul
 
- Utilisez le`ShowTabs` propriété de la`Workbook.Settings` objet pour afficher l'onglet de la feuille de calcul Excel.
+ Utilisez le`ShowTabs` propriété du`Workbook.Settings` objet pour afficher l’onglet de la feuille de calcul Excel.
 
 ```csharp
 workbook.Settings.ShowTabs = true;
 ```
 
-## Étape 4 : Enregistrer les modifications
+## Étape 4 : Enregistrer les modifications
 
- Une fois les modifications nécessaires effectuées, enregistrez le fichier Excel modifié à l'aide de la`Save` méthode de la`Workbook` objet.
+ Une fois que vous avez apporté les modifications nécessaires, enregistrez le fichier Excel modifié à l'aide du`Save` méthode du`Workbook` objet.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-### Exemple de code source pour l'onglet Afficher de la feuille de calcul à l'aide de Aspose.Cells pour .NET 
+### Exemple de code source pour l'onglet d'affichage d'une feuille de calcul à l'aide d'Aspose.Cells pour .NET 
 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanciation d'un objet Workbook
 // Ouverture du fichier Excel
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 // Masquer les onglets du fichier Excel
 workbook.Settings.ShowTabs = true;
-// Enregistrement du fichier Excel modifié
+// Sauvegarde du fichier Excel modifié
 workbook.Save(dataDir + "output.xls");
 ```
 
@@ -62,18 +62,18 @@ Ce guide étape par étape vous a montré comment afficher l'onglet d'une feuill
 
 ### Foire aux questions (FAQ)
 
-#### Qu'est-ce qu'Aspose.Cells pour .NET ?
+#### Qu’est-ce qu’Aspose.Cells pour .NET ?
 
-Aspose.Cells pour .NET est une bibliothèque puissante pour manipuler des fichiers Excel dans des applications .NET.
+Aspose.Cells for .NET est une puissante bibliothèque permettant de manipuler des fichiers Excel dans des applications .NET.
 
-#### Comment puis-je installer Aspose.Cells pour .NET ?
+#### Comment puis-je installer Aspose.Cells pour .NET ?
 
- Pour installer Aspose.Cells pour .NET, vous devez télécharger le package correspondant à partir de[Aspose Communiqués](https://releases/aspose.com/cells/net/) et ajoutez-le à votre projet .NET.
+ Pour installer Aspose.Cells pour .NET, vous devez télécharger le package correspondant à partir de[Aspose les versions](https://releases/aspose.com/cells/net/) et ajoutez-le à votre projet .NET.
 
-#### Comment afficher l'onglet d'une feuille de calcul Excel en utilisant Aspose.Cells pour .NET ?
+#### Comment afficher l'onglet d'une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET ?
 
- Vous pouvez utiliser le`ShowTabs` propriété de la`Workbook.Settings` objet et réglez-le sur`true` pour afficher l'onglet de la feuille de calcul.
+ Vous pouvez utiliser le`ShowTabs` propriété du`Workbook.Settings` objet et réglez-le sur`true` pour afficher l'onglet de la feuille de calcul.
 
-#### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
+#### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
 
-Aspose.Cells pour .NET prend en charge une variété de formats de fichiers Excel, tels que XLS, XLSX, CSV, HTML, PDF, etc.
+Aspose.Cells for .NET prend en charge une variété de formats de fichiers Excel, tels que XLS, XLSX, CSV, HTML, PDF, etc.

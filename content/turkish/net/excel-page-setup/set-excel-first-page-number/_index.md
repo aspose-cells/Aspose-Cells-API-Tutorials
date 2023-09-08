@@ -2,7 +2,7 @@
 title: Excel İlk Sayfa Numarasını Ayarla
 linktitle: Excel İlk Sayfa Numarasını Ayarla
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak Excel'de ilk sayfa numarasını nasıl ayarlayacağınızı öğrenin.
+description: Aspose.Cells for .NET'i kullanarak Excel'de ilk sayfa numarasını nasıl ayarlayacağınızı öğrenin.
 type: docs
 weight: 90
 url: /tr/net/excel-page-setup/set-excel-first-page-number/
@@ -11,11 +11,11 @@ Bu eğitimde, Aspose.Cells for .NET kullanarak Excel'de ilk sayfa numarasını n
 
 ## 1. Adım: Ortamı ayarlama
 
-Makinenizde Aspose.Cells for .NET'in kurulu olduğundan emin olun. Ayrıca tercih ettiğiniz geliştirme ortamında yeni bir proje oluşturun.
+Aspose.Cells for .NET'in makinenizde kurulu olduğundan emin olun. Ayrıca tercih ettiğiniz geliştirme ortamında yeni bir proje oluşturun.
 
 ## 2. Adım: Gerekli kitaplıkları içe aktarın
 
-Kod dosyanızda, Aspose.Cells ile çalışmak için gereken kütüphaneleri içe aktarın. İşte ilgili kod:
+Aspose.Cells ile çalışmak için gereken kütüphaneleri kod dosyanıza aktarın. İşte ilgili kod:
 
 ```csharp
 using Aspose.Cells;
@@ -44,7 +44,7 @@ Bu, çalışma sayfası içeren boş bir çalışma kitabı oluşturacaktır.
 
 ## Adım 5: İlk sayfanın numarasını ayarlama
 
-Aşağıdaki kodu kullanarak çalışma sayfası sayfalarının ilk sayfasının numarasını ayarlayın:
+Aşağıdaki kodu kullanarak çalışma sayfası sayfalarının ilk sayfasının sayısını ayarlayın:
 
 ```csharp
 worksheet.PageSetup.FirstPageNumber = 2;
@@ -52,7 +52,7 @@ worksheet.PageSetup.FirstPageNumber = 2;
 
 Bu, ilk sayfa numarasını 2 olarak ayarlayacaktır.
 
-## Adım 6: Değiştirilmiş Çalışma Kitabını Kaydetme
+## Adım 6: Değiştirilen Çalışma Kitabını Kaydetme
 
 Değiştirilen çalışma kitabını aşağıdaki kodu kullanarak kaydedin:
 
@@ -62,9 +62,9 @@ workbook.Save(dataDir + "OutputFileName.xls");
 
 Bu, değiştirilen çalışma kitabını belirtilen veri dizinine kaydedecektir.
 
-### Aspose.Cells for .NET kullanarak Excel İlk Sayfa Numarasını Ayarlamak için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel İlk Sayfa Numarasını Ayarlama için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Bir Çalışma Kitabı nesnesinin örneğini oluşturma
 Workbook workbook = new Workbook();
@@ -78,26 +78,26 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 
 ## Çözüm
 
-Artık Aspose.Cells for .NET kullanarak Excel'de ilk sayfa numarasını nasıl ayarlayacağınızı öğrendiniz. Bu öğretici, ortamın ayarlanmasından ilk sayfa numarasının ayarlanmasına kadar sürecin her adımında size yol gösterdi. Artık bu bilgiyi, Excel dosyalarınızdaki sayfa numaralandırmayı özelleştirmek için kullanabilirsiniz.
+Artık Aspose.Cells for .NET kullanarak Excel'de ilk sayfa numarasını nasıl ayarlayacağınızı öğrendiniz. Bu eğitim, ortamın ayarlanmasından ilk sayfa numarasının ayarlanmasına kadar sürecin her adımında size yol gösterdi. Artık bu bilgiyi Excel dosyalarınızdaki sayfa numaralandırmasını özelleştirmek için kullanabilirsiniz.
 
-### SSS
+### SSS'ler
 
 #### S1: Her çalışma sayfası için farklı bir ilk sayfa numarası ayarlayabilir miyim?
 
- A1: Evet, her çalışma sayfası için farklı bir ilk sayfa numarası belirleyebilirsiniz.`FirstPageNumber`ilgili çalışma sayfasının özelliği`PageSetup` nesne.
+ Cevap1: Evet, her çalışma sayfası için farklı bir ilk sayfa numarası ayarlayabilirsiniz.`FirstPageNumber`ilgili çalışma sayfasının özelliği`PageSetup` nesne.
 
 #### S2: Mevcut bir e-tablonun ilk sayfa numarasını nasıl kontrol edebilirim?
 
- A2: Mevcut bir çalışma sayfasının ilk sayfa numarasını şu adrese erişerek kontrol edebilirsiniz:`FirstPageNumber` mülkiyeti`PageSetup` o çalışma sayfasına karşılık gelen nesne.
+ Cevap2: Mevcut bir çalışma sayfasının ilk sayfa numarasını şuraya erişerek kontrol edebilirsiniz:`FirstPageNumber` mülkiyeti`PageSetup` bu çalışma sayfasına karşılık gelen nesne.
 
-#### S3: Sayfa numaralandırma varsayılan olarak her zaman 1'den mi başlar?
+#### S3: Sayfa numaralandırması varsayılan olarak her zaman 1'den mi başlar?
 
-A3: Evet, sayfa numaralandırma Excel'de varsayılan olarak 1'den başlar. Ancak, farklı bir ilk sayfa numarası ayarlamak için bu eğitimde gösterilen kodu kullanabilirsiniz.
+C3: Evet, Excel'de sayfa numaralandırma varsayılan olarak 1'den başlar. Ancak farklı bir ilk sayfa numarası ayarlamak için bu eğitimde gösterilen kodu kullanabilirsiniz.
 
-#### S4: Düzenlenen Excel dosyasında ilk sayfa numarasındaki değişiklikler kalıcı mı?
+#### S4: Düzenlenen Excel dosyasındaki ilk sayfa numarasındaki değişiklikler kalıcı mıdır?
 
-A4: Evet, ilk sayfa numarasında yapılan değişiklikler değiştirilen Excel dosyasına kalıcı olarak kaydedilir.
+Cevap4: Evet, ilk sayfa numarasında yapılan değişiklikler kalıcı olarak değiştirilen Excel dosyasına kaydedilir.
 
-#### S5: Bu yöntem, .xls ve .xlsx gibi tüm Excel dosya biçimleri için çalışıyor mu?
+#### S5: Bu yöntem .xls ve .xlsx gibi tüm Excel dosya formatlarında işe yarar mı?
 
-C5: Evet, bu yöntem .xls ve .xlsx dahil Aspose.Cells tarafından desteklenen tüm Excel dosya formatlarında çalışır.
+Cevap5: Evet, bu yöntem Aspose.Cells tarafından desteklenen .xls ve .xlsx dahil tüm Excel dosya formatlarında işe yarar.

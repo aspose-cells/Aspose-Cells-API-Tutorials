@@ -21,7 +21,7 @@ In diesem ersten Schritt definieren wir das Quellverzeichnis, in dem sich die Ex
 ## Schritt 2: Excel-Arbeitsmappe laden
 
 ```csharp
-//Laden Sie die Excel-Arbeitsmappe
+// Laden Sie die Excel-Arbeitsmappe
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

@@ -20,7 +20,7 @@ När installationen är klar, skapa ett nytt C#-projekt i din föredragna integr
  I den medföljande källkoden måste du ange katalogsökvägen där Excel-filen som innehåller sidbrytningen som du vill ta bort finns. Ändra`dataDir` variabel genom att ersätta "DIN DOKUMENTKATOGRAF" med den absoluta sökvägen till katalogen på din maskin.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
 ```
 
@@ -54,7 +54,7 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 ### Exempel på källkod för Excel Ta bort specifik sidbrytning med Aspose.Cells för .NET 
 ```csharp
 
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");

@@ -1,27 +1,27 @@
 ---
-title: Regex Remplacer
-linktitle: Regex Remplacer
+title: Remplacer l'expression régulière
+linktitle: Remplacer l'expression régulière
 second_title: Référence de l'API Aspose.Cells pour .NET
-description: Apprenez à effectuer le remplacement Regex dans les fichiers Excel à l'aide de Aspose.Cells pour .NET.
+description: Découvrez comment effectuer le remplacement Regex dans des fichiers Excel à l'aide d'Aspose.Cells pour .NET.
 type: docs
 weight: 140
 url: /fr/net/excel-workbook/regex-replace/
 ---
-Le remplacement de texte basé sur des expressions régulières (Regex) est une tâche courante lors de la manipulation de données dans des fichiers Excel. Avec Aspose.Cells pour .NET, vous pouvez facilement effectuer un remplacement Regex en suivant ces étapes :
+Le remplacement de texte basé sur des expressions régulières (Regex) est une tâche courante lors de la manipulation de données dans des fichiers Excel. Avec Aspose.Cells pour .NET, vous pouvez facilement effectuer un remplacement Regex en suivant ces étapes :
 
-## Étape 1 : Spécifiez le répertoire source et le répertoire de sortie
+## Étape 1 : Spécifiez le répertoire source et le répertoire de sortie
 
-Tout d'abord, vous devez spécifier le répertoire source où se trouve le fichier Excel contenant les données à remplacer, ainsi que le répertoire de sortie où vous souhaitez enregistrer le fichier modifié. Voici comment procéder avec Aspose.Cells :
+Tout d'abord, vous devez préciser le répertoire source où se trouve le fichier Excel contenant les données à remplacer, ainsi que le répertoire de sortie où vous souhaitez enregistrer le fichier modifié. Voici comment procéder à l'aide d'Aspose.Cells :
 
 ```csharp
-// répertoire des sources
+// répertoire source
 string sourceDir = RunExamples.Get_SourceDirectory();
 
 // Répertoire de sortie
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-## Étape 2 : Chargez le fichier Excel source
+## Étape 2 : Chargez le fichier Excel source
 
 Ensuite, vous devez charger le fichier Excel source sur lequel vous souhaitez effectuer le remplacement Regex. Voici comment procéder :
 
@@ -30,9 +30,9 @@ Ensuite, vous devez charger le fichier Excel source sur lequel vous souhaitez ef
 Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ```
 
-## Étape 3 : Effectuer le remplacement de Regex
+## Étape 3 : Effectuer le remplacement de Regex
 
-Après avoir téléchargé le fichier, vous pouvez définir des options de remplacement, y compris la sensibilité à la casse et la correspondance exacte du contenu des cellules. Voici un exemple de code pour effectuer le remplacement de Regex :
+Après avoir téléchargé le fichier, vous pouvez définir des options de remplacement, notamment le respect de la casse et la correspondance exacte du contenu des cellules. Voici un exemple de code pour effectuer le remplacement de Regex :
 
 ```csharp
 // Définir les options de remplacement
@@ -47,9 +47,9 @@ replace. RegexKey = true;
 workbook. Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 ```
 
-## Étape 4 : Enregistrez le fichier Excel de sortie
+## Étape 4 : Enregistrez le fichier Excel de sortie
 
-Une fois le remplacement de Regex terminé, vous pouvez enregistrer le fichier Excel modifié dans le répertoire de sortie spécifié. Voici comment procéder :
+Une fois le remplacement de Regex effectué, vous pouvez enregistrer le fichier Excel modifié dans le répertoire de sortie spécifié. Voici comment procéder :
 
 ```csharp
 // Enregistrez le fichier Excel de sortie
@@ -57,9 +57,9 @@ workbook.Save(outputDir + "RegexReplace_out.xlsx");
 Console.WriteLine("RegexReplace executed successfully.\r\n");
 ```
 
-### Exemple de code source pour Regex Replace à l'aide d'Aspose.Cells pour .NET 
+### Exemple de code source pour Regex Replace à l’aide d’Aspose.Cells pour .NET 
 ```csharp
-//Répertoire des sources
+//Répertoire source
 string sourceDir = RunExamples.Get_SourceDirectory();
 //Répertoire de sortie
 string outputDir = RunExamples.Get_OutputDirectory();
@@ -67,7 +67,7 @@ Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ReplaceOptions replace = new ReplaceOptions();
 replace.CaseSensitive = false;
 replace.MatchEntireCellContents = false;
-// Définir sur true pour indiquer que la clé recherchée est regex
+// Définir sur true pour indiquer que la clé recherchée est une regex
 replace.RegexKey = true;
 workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 workbook.Save(outputDir + "RegexReplace_out.xlsx");
@@ -76,13 +76,13 @@ Console.WriteLine("RegexReplace executed successfully.");
 
 ## Conclusion
 
-Le remplacement Regex est une technique puissante pour modifier dynamiquement les données dans un fichier Excel. Avec Aspose.Cells pour .NET, vous pouvez facilement effectuer un remplacement Regex en suivant les étapes décrites ci-dessus. Expérimentez avec vos propres expressions régulières et profitez de la flexibilité offerte par Aspose.Cells.
+Le remplacement des expressions régulières est une technique puissante pour modifier dynamiquement les données dans un fichier Excel. Avec Aspose.Cells pour .NET, vous pouvez facilement effectuer un remplacement Regex en suivant les étapes décrites ci-dessus. Expérimentez avec vos propres expressions régulières et profitez de la flexibilité offerte par Aspose.Cells.
 
 ### FAQ
 
-#### Q : Qu'est-ce que le remplacement d'expression régulière ?
+#### Q : Qu'est-ce que le remplacement des expressions régulières ?
     
-R : Le remplacement d'expression régulière est une technique utilisée pour remplacer des modèles de texte basés sur des expressions régulières dans un fichier Excel. Cela permet des modifications rapides et précises des données.
+R : Le remplacement Regex est une technique utilisée pour remplacer des modèles de texte basés sur des expressions régulières dans un fichier Excel. Cela permet des modifications rapides et précises des données.
 
 #### Q : Le remplacement de Regex est-il sensible à la casse ?
     
@@ -90,7 +90,7 @@ R : Non, avec Aspose.Cells, vous pouvez spécifier si le remplacement de Regex 
 
 #### Q : Comment puis-je spécifier une correspondance exacte du contenu de la cellule lors du remplacement de Regex ?
     
-R : Aspose.Cells vous permet de définir si le remplacement Regex doit correspondre exactement au contenu de la cellule ou non. Vous pouvez ajuster cette option selon vos besoins.
+R : Aspose.Cells vous permet de définir si le remplacement Regex doit correspondre exactement au contenu de la cellule ou non. Vous pouvez ajuster cette option en fonction de vos besoins.
 
 #### Q : Puis-je utiliser des expressions régulières avancées lors du remplacement de Regex par Aspose.Cells ?
     

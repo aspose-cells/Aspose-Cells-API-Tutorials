@@ -23,11 +23,11 @@ In diesem ersten Schritt definieren wir die Quell- und Ausgabeverzeichnisse für
 ## Schritt 2: Excel-Arbeitsmappe laden
 
 ```csharp
-//Laden Sie die Excel-Arbeitsmappe
+// Laden Sie die Excel-Arbeitsmappe
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Wir laden die Excel-Arbeitsmappe aus der angegebenen Datei mit`Workbook` Klasse von Aspose.Cells.
+Wir laden die Excel-Arbeitsmappe aus der angegebenen Datei mit`Workbook` Klasse von Aspose.Cells.
 
 ## Schritt 3: Sicherungsoptionen festlegen
 

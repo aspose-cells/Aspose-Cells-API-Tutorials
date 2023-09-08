@@ -1,13 +1,13 @@
 ---
-title: Çalışma Sayfasının Bölme Bölmeleri
-linktitle: Çalışma Sayfasının Bölme Bölmeleri
+title: Çalışma Sayfasının Bölünmüş Bölmeleri
+linktitle: Çalışma Sayfasının Bölünmüş Bölmeleri
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında bölmeleri bölmek için adım adım kılavuz.
+description: Aspose.Cells for .NET kullanarak Excel çalışma sayfasındaki bölmeleri bölmek için adım adım kılavuz.
 type: docs
 weight: 130
 url: /tr/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
-Bu eğitimde, Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında bölmelerin nasıl bölüneceğini açıklayacağız. İstediğiniz sonucu elde etmek için şu adımları izleyin:
+Bu eğitimde Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki bölmelerin nasıl bölüneceğini açıklayacağız. İstenilen sonucu elde etmek için şu adımları izleyin:
 
 ## 1. Adım: Ortamı ayarlama
 
@@ -15,13 +15,13 @@ Aspose.Cells for .NET'i kurduğunuzdan ve geliştirme ortamınızı kurduğunuzd
 
 ## 2. Adım: Gerekli bağımlılıkları içe aktarın
 
-Aspose.Cells'ten sınıfları kullanmak için gerekli direktifleri ekleyin:
+Aspose.Cells'teki sınıfları kullanmak için gerekli yönergeleri ekleyin:
 
 ```csharp
 using Aspose.Cells;
 ```
 
-## 3. Adım: Kod başlatma
+## 3. Adım: Kodun başlatılması
 
 Excel belgelerinizi içeren dizinin yolunu başlatarak başlayın:
 
@@ -31,7 +31,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Adım 4: Excel dosyasını açma
 
- Yeni bir örnek oluştur`Workbook` nesnesini seçin ve Excel dosyasını kullanarak açın.`Open` yöntem:
+ Yeni bir örnek oluştur`Workbook` nesneyi kullanın ve Excel dosyasını kullanarak açın.`Open` yöntem:
 
 ```csharp
 Workbook book = new Workbook(dataDir + "Book1.xls");
@@ -39,7 +39,7 @@ Workbook book = new Workbook(dataDir + "Book1.xls");
 
 ## Adım 5: Etkin hücreyi tanımlayın
 
- Çalışma sayfasının aktif hücresini kullanarak ayarlayın.`ActiveCell` mülk:
+ Çalışma sayfasının etkin hücresini kullanarak ayarlayın.`ActiveCell` mülk:
 
 ```csharp
 book.Worksheets[0].ActiveCell = "A20";
@@ -53,22 +53,22 @@ book.Worksheets[0].ActiveCell = "A20";
 book.Worksheets[0].Split();
 ```
 
-## 7. Adım: Değişiklikleri Kaydetme
+## Adım 7: Değişiklikleri Kaydetme
 
-Excel dosyasında yapılan değişiklikleri kaydedin:
+Excel dosyasına yapılan değişiklikleri kaydedin:
 
 ```csharp
 book.Save(dataDir + "output.xls");
 ```
 
-### Aspose.Cells for .NET kullanan Çalışma Sayfasının Bölünmüş Bölmeleri için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanan Çalışma Sayfasını Bölme Panelleri için örnek kaynak kodu 
 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Yeni bir çalışma kitabı oluşturun ve bir şablon dosyası açın
 Workbook book = new Workbook(dataDir + "Book1.xls");
-// Etkin hücreyi ayarla
+// Aktif hücreyi ayarla
 book.Worksheets[0].ActiveCell = "A20";
 // Çalışma sayfası penceresini bölme
 book.Worksheets[0].Split();
@@ -78,22 +78,22 @@ book.Save(dataDir + "output.xls");
 
 ## Çözüm
 
-Bu öğreticide, Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında bölmeleri nasıl ayıracağınızı öğrendiniz. Açıklanan adımları izleyerek, Excel dosyalarınızın görünümünü ve davranışını kolayca özelleştirebilirsiniz.
+Bu eğitimde Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki bölmeleri nasıl böleceğinizi öğrendiniz. Açıklanan adımları izleyerek Excel dosyalarınızın görünümünü ve davranışını kolayca özelleştirebilirsiniz.
 
 ### Sık Sorulan Sorular (SSS)
 
 #### Aspose.Cells for .NET nedir?
 
-Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için popüler bir yazılım kitaplığıdır.
+Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için kullanılan popüler bir yazılım kütüphanesidir.
 
 #### Aspose.Cells'te bir çalışma sayfasının aktif hücresini nasıl ayarlayabilirim?
 
- Aktif hücreyi kullanarak ayarlayabilirsiniz.`ActiveCell`Çalışma Sayfası nesnesinin özelliği.
+ Etkin hücreyi kullanarak ayarlayabilirsiniz.`ActiveCell`Çalışma Sayfası nesnesinin özelliği.
 
 #### Çalışma sayfası penceresinin yalnızca yatay veya dikey bölmelerini bölebilir miyim?
 
- Evet, Aspose.Cells kullanarak yalnızca yatay veya dikey bölmeleri aşağıdaki gibi uygun yöntemlerle ayırabilirsiniz.`SplitColumn` veya`SplitRow`.
+ Evet, Aspose.Cells'i kullanarak aşağıdaki gibi uygun yöntemleri kullanarak yalnızca yatay veya dikey bölmeleri bölebilirsiniz.`SplitColumn` veya`SplitRow`.
 
-#### Aspose.Cells sadece .xls formatındaki Excel dosyalarıyla mı çalışır?
+#### Aspose.Cells yalnızca .xls formatındaki Excel dosyalarıyla mı çalışır?
 
-Hayır, Aspose.Cells, .xls ve .xlsx dahil olmak üzere çeşitli Excel dosya formatlarını destekler.
+Hayır, Aspose.Cells .xls ve .xlsx dahil olmak üzere çeşitli Excel dosya formatlarını destekler.

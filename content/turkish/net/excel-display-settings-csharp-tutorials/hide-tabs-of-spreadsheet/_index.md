@@ -1,25 +1,25 @@
 ---
-title: Elektronik Tablo Sekmelerini Gizle
-linktitle: Elektronik Tablo Sekmelerini Gizle
+title: Elektronik Tablonun Sekmelerini Gizle
+linktitle: Elektronik Tablonun Sekmelerini Gizle
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak bir Excel elektronik tablosundaki sekmeleri gizlemek için adım adım kılavuz.
+description: Aspose.Cells for .NET kullanarak bir Excel tablosundaki sekmeleri gizlemek için adım adım kılavuz.
 type: docs
 weight: 100
 url: /tr/net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadsheet/
 ---
-Elektronik tablolar, verileri düzenlemek ve analiz etmek için güçlü araçlardır. Bazen gizlilik veya basitlik için bir e-tablodaki belirli sekmeleri gizlemek isteyebilirsiniz. Bu kılavuzda, Excel dosyalarını işlemek için popüler bir yazılım kitaplığı olan Aspose.Cells for .NET'i kullanarak bir çalışma sayfasındaki sekmeleri nasıl gizleyeceğinizi göstereceğiz.
+Elektronik tablolar verileri düzenlemek ve analiz etmek için güçlü araçlardır. Bazen gizlilik veya basitlik için bir e-tablodaki belirli sekmeleri gizlemek isteyebilirsiniz. Bu kılavuzda, Excel dosyalarını işlemek için popüler bir yazılım kütüphanesi olan Aspose.Cells for .NET'i kullanarak bir çalışma sayfasındaki sekmeleri nasıl gizleyeceğinizi göstereceğiz.
 
 ## 1. Adım: Ortamı ayarlama
 
-Başlamadan önce Aspose.Cells for .NET'i kurduğunuzdan ve geliştirme ortamınızı kurduğunuzdan emin olun. Ayrıca, sekmeleri gizlemek istediğiniz Excel dosyasının bir kopyasına sahip olduğunuzdan emin olun.
+Başlamadan önce Aspose.Cells for .NET'i kurduğunuzdan ve geliştirme ortamınızı kurduğunuzdan emin olun. Ayrıca sekmeleri gizlemek istediğiniz Excel dosyasının bir kopyasına sahip olduğunuzdan emin olun.
 
 ## 2. Adım: Gerekli bağımlılıkları içe aktarın
 
-.NET projenizde Aspose.Cells kitaplığına bir referans ekleyin. Bunu, tümleşik geliştirme ortamı (IDE) kullanıcı arabiriminizi kullanarak veya başvuruyu DLL dosyasına el ile ekleyerek yapabilirsiniz.
+.NET projenize Aspose.Cells kütüphanesine bir referans ekleyin. Bunu, entegre geliştirme ortamı (IDE) kullanıcı arayüzünü kullanarak veya referansı DLL dosyasına manuel olarak ekleyerek yapabilirsiniz.
 
-## 3. Adım: Kod başlatma
+## 3. Adım: Kodun başlatılması
 
-Aspose.Cells'ten sınıfları kullanmak için gerekli direktifleri dahil ederek başlayın:
+Aspose.Cells'teki sınıfları kullanmak için gerekli yönergeleri ekleyerek başlayın:
 
 ```csharp
 using Aspose.Cells;
@@ -39,7 +39,7 @@ Mevcut Excel dosyasını açmak için Workbook sınıfını kullanın:
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-## 5. Adım: Sekmeleri Gizleme
+## Adım 5: Sekmeleri Gizleme
 
  Kullan`Settings.ShowTabs` çalışma sayfası sekmelerini gizleme özelliği:
 
@@ -47,37 +47,37 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 workbook.Settings.ShowTabs = false;
 ```
 
-## 6. Adım: Değişiklikleri Kaydet
+## Adım 6: Değişiklikleri Kaydet
 
-Excel dosyasında yapılan değişiklikleri kaydedin:
+Excel dosyasına yapılan değişiklikleri kaydedin:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-### Aspose.Cells for .NET kullanarak Elektronik Tablo Sekmelerini Gizle için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Elektronik Tablo Sekmelerini Gizlemek için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Excel dosyasını açma
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 // Excel dosyasının sekmelerini gizleme
 workbook.Settings.ShowTabs = false;
 // Excel dosyasının sekmelerini gösterir
-//workbook.Settings.ShowTabs = true;
+//çalışma kitabı.Settings.ShowTabs = true;
 // Değiştirilen Excel dosyasını kaydetme
 workbook.Save(dataDir + "output.xls");
 ```
 
 ## Çözüm
 
-Bu adım adım kılavuzda, Aspose.Cells for .NET kullanarak çalışma sayfası sekmelerini nasıl gizleyeceğinizi öğrendiniz. Aspose.Cells kitaplığından uygun yöntemleri ve özellikleri kullanarak, Excel dosyalarınızı ihtiyaçlarınıza göre daha da özelleştirebilirsiniz.
+Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak çalışma sayfası sekmelerini nasıl gizleyeceğinizi öğrendiniz. Aspose.Cells kütüphanesindeki uygun yöntem ve özellikleri kullanarak Excel dosyalarınızı ihtiyaçlarınıza göre daha da özelleştirebilirsiniz.
 
 ### Sık Sorulan Sorular (SSS)
 
 #### Aspose.Cells for .NET nedir?
     
-Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için popüler bir yazılım kitaplığıdır.
+Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için kullanılan popüler bir yazılım kütüphanesidir.
 
 #### Bir çalışma sayfasındaki belirli sekmeleri hepsini gizlemek yerine seçerek gizleyebilir miyim?
    
@@ -85,8 +85,8 @@ Evet, Aspose.Cells'i kullanarak uygun özellikleri değiştirerek bir çalışma
 
 #### Aspose.Cells diğer Excel dosya düzenleme özelliklerini destekliyor mu?
 
-Evet, Aspose.Cells, Excel dosyalarını düzenlemek ve işlemek için veri ekleme, biçimlendirme, çizelge oluşturma vb. gibi çok çeşitli özellikler sunar.
+Evet, Aspose.Cells, Excel dosyalarını düzenlemek ve değiştirmek için veri ekleme, biçimlendirme, grafik oluşturma vb. gibi çok çeşitli özellikler sunar.
 
-#### S: Aspose.Cells sadece .xls formatındaki Excel dosyalarıyla mı çalışır?
+#### S: Aspose.Cells yalnızca .xls formatındaki Excel dosyalarıyla mı çalışır?
 
-Hayır, Aspose.Cells, .xls ve .xlsx dahil olmak üzere çeşitli Excel dosya formatlarını destekler.
+Hayır, Aspose.Cells .xls ve .xlsx dahil olmak üzere çeşitli Excel dosya formatlarını destekler.

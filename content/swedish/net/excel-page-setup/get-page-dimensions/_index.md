@@ -17,7 +17,7 @@ Till att börja med måste vi skapa en instans av klassen Workbook, som represen
 Workbook book = new Workbook();
 ```
 
-## Steg 2: Få åtkomst till kalkylarket
+## Steg 2: Åtkomst till kalkylarket
 
 Därefter måste vi navigera till kalkylbladet i arbetsboken där vi vill ställa in sidmåtten. I det här exemplet, anta att vi vill arbeta med det första kalkylbladet. Vi kan komma åt den med följande kod:
 

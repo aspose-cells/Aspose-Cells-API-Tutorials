@@ -74,7 +74,7 @@ Stellen Sie sicher, dass Sie den richtigen Ausgabepfad angeben, um die geändert
 ### Beispielquellcode für das Ausblenden und Einblenden von Arbeitsblättern mit Aspose.Cells für .NET 
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

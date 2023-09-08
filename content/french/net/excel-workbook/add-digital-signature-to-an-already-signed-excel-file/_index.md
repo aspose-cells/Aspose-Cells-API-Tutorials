@@ -7,12 +7,12 @@ type: docs
 weight: 30
 url: /fr/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
 ---
-Dans ce guide étape par étape, nous expliquerons le code source C # fourni qui vous permettra d'ajouter une signature numérique à un fichier Excel déjà signé à l'aide d'Aspose.Cells pour .NET. Suivez les étapes ci-dessous pour ajouter une nouvelle signature numérique à un fichier Excel existant.
+Dans ce guide étape par étape, nous expliquerons le code source C# fourni qui vous permettra d'ajouter une signature numérique à un fichier Excel déjà signé à l'aide d'Aspose.Cells pour .NET. Suivez les étapes ci-dessous pour ajouter une nouvelle signature numérique à un fichier Excel existant.
 
-## Étape 1 : Définir les répertoires source et de sortie
+## Étape 1 : Définir les répertoires source et de sortie
 
 ```csharp
-// répertoire des sources
+// répertoire source
 string sourceDir = RunExamples.Get_SourceDirectory();
 
 // Répertoire de sortie
@@ -21,16 +21,16 @@ string outputDir = RunExamples.Get_OutputDirectory();
 
 Dans cette première étape, nous définissons les répertoires source et de sortie qui seront utilisés pour charger le fichier Excel existant et enregistrer le fichier avec la nouvelle signature numérique.
 
-## Étape 2 : Charger le fichier Excel existant
+## Étape 2 : Charger le fichier Excel existant
 
 ```csharp
 // Charger le classeur Excel déjà signé
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Ici, nous chargeons le fichier Excel déjà signé en utilisant le`Workbook` classe d'Aspose.cellules.
+ Ici, nous chargeons le fichier Excel déjà signé en utilisant le`Workbook` classe d’Aspose.Cells.
 
-## Étape 3 : créer la collection de signatures numériques
+## Étape 3 : Créer la collection de signatures numériques
 
 ```csharp
 // Créer la collection de signatures numériques
@@ -39,7 +39,7 @@ Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Asp
 
  Nous créons une nouvelle collection de signatures numériques en utilisant le`DigitalSignatureCollection` classe.
 
-## Étape 4 : Créer un nouveau certificat
+## Étape 4 : Créer un nouveau certificat
 
 ```csharp
 // Créer un nouveau certificat
@@ -58,16 +58,16 @@ Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.Dig
 dsCollection.Add(signature);
 ```
 
- Nous créons une nouvelle signature numérique en utilisant le`DigitalSignature` class et ajoutez-le à la collection de signatures numériques.
+ Nous créons une nouvelle signature numérique en utilisant le`DigitalSignature` classe et ajoutez-le à la collection de signatures numériques.
 
-## Étape 6 : Ajouter la collection de signatures numériques au classeur
+## Étape 6 : Ajouter la collection de signatures numériques au classeur
 
 ```csharp
 //Ajouter la collection de signatures numériques au classeur
 workbook.AddDigitalSignature(dsCollection);
 ```
 
- Nous ajoutons la collection de signatures numériques au classeur Excel existant à l'aide de la`AddDigitalSignature()` méthode.
+ Nous ajoutons la collection de signatures numériques au classeur Excel existant en utilisant le`AddDigitalSignature()` méthode.
 
 ## Étape 7 : Enregistrez et fermez le classeur
 
@@ -81,25 +81,25 @@ Nous enregistrons le classeur avec la nouvelle signature numérique dans le rép
 
 ### Exemple de code source pour ajouter une signature numérique à un fichier Excel déjà signé à l'aide d'Aspose.Cells pour .NET 
 ```csharp
-//Répertoire des sources
+//Répertoire source
 string sourceDir = RunExamples.Get_SourceDirectory();
 //Répertoire de sortie
 string outputDir = RunExamples.Get_OutputDirectory();
 //Fichier de certificat et son mot de passe
 string certFileName = sourceDir + "AsposeDemo.pfx";
 string password = "aspose";
-//Chargez le classeur qui est déjà signé numériquement pour ajouter une nouvelle signature numérique
+//Chargez le classeur déjà signé numériquement pour ajouter une nouvelle signature numérique
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
-//Créer la collection de signature numérique
+//Créer la collection de signatures numériques
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 //Créer un nouveau certificat
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
-//Créez une nouvelle signature numérique et ajoutez-la dans la collection de signatures numériques
+//Créez une nouvelle signature numérique et ajoutez-la à la collection de signatures numériques
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 dsCollection.Add(signature);
 //Ajouter une collection de signatures numériques dans le classeur
 workbook.AddDigitalSignature(dsCollection);
-//Enregistrez le classeur et jetez-le.
+//Enregistrez le classeur et supprimez-le.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
@@ -113,15 +113,15 @@ Félicitation ! Vous avez maintenant appris à ajouter une signature numérique 
 
 #### Q : Qu'est-ce qu'Aspose.Cells pour .NET ?
 
-R : Aspose.Cells pour .NET est une puissante bibliothèque de classes qui permet aux développeurs .NET de créer, modifier, convertir et manipuler facilement des fichiers Excel.
+R : Aspose.Cells for .NET est une puissante bibliothèque de classes qui permet aux développeurs .NET de créer, modifier, convertir et manipuler facilement des fichiers Excel.
 
-#### Q : Qu'est-ce qu'une signature numérique dans un fichier Excel ?
+#### Q : Qu'est-ce qu'une signature numérique dans un fichier Excel ?
 
 R : Une signature numérique dans un fichier Excel est une marque électronique qui garantit l'authenticité, l'intégrité et l'origine du document. Il permet de vérifier que le fichier n'a pas été modifié depuis sa signature et qu'il provient d'une source fiable.
 
-#### Q : Quels sont les avantages d'ajouter une signature numérique à un fichier Excel ?
+#### Q : Quels sont les avantages de l’ajout d’une signature numérique à un fichier Excel ?
 
-R : L'ajout d'une signature numérique à un fichier Excel offre plusieurs avantages, notamment la protection contre les modifications non autorisées, la garantie de l'intégrité des données, l'authentification de l'auteur du document et la confiance dans les informations qu'il contient.
+R : L'ajout d'une signature numérique à un fichier Excel offre plusieurs avantages, notamment une protection contre les modifications non autorisées, la garantie de l'intégrité des données, l'authentification de l'auteur du document et la confiance dans les informations qu'il contient.
 
 #### Q : Puis-je ajouter plusieurs signatures numériques à un fichier Excel ?
 

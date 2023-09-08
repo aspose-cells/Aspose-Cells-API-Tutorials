@@ -32,7 +32,7 @@ WorkbookDesigner designer = new WorkbookDesigner();
 ## Schritt 3: Excel-Arbeitsmappe laden
 
 ```csharp
-//Laden Sie die Excel-Arbeitsmappe
+// Laden Sie die Excel-Arbeitsmappe
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
 workbook.Settings.QuotePrefixToStyle = false;
 designer.Workbook = workbook;

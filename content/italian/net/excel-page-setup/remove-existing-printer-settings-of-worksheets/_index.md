@@ -1,13 +1,13 @@
 ---
-title: Rimuovi le impostazioni della stampante esistenti dei fogli di lavoro
-linktitle: Rimuovi le impostazioni della stampante esistenti dei fogli di lavoro
-second_title: Riferimento all'API Aspose.Cells per .NET
-description: Scopri come rimuovere le impostazioni della stampante esistenti dai fogli di calcolo Excel con Aspose.Cells per .NET.
+title: Rimuovi le impostazioni della stampante esistente dei fogli di lavoro
+linktitle: Rimuovi le impostazioni della stampante esistente dei fogli di lavoro
+second_title: Aspose.Cells per riferimento API .NET
+description: Scopri come rimuovere le impostazioni della stampante esistente dai fogli di calcolo Excel con Aspose.Cells per .NET.
 type: docs
 weight: 80
 url: /it/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 ---
-In questo tutorial, ti guideremo passo dopo passo su come rimuovere le impostazioni della stampante esistenti dai fogli di lavoro in Excel utilizzando Aspose.Cells per .NET. Useremo il codice sorgente C# per illustrare il processo.
+In questo tutorial, ti spiegheremo passo dopo passo come rimuovere le impostazioni della stampante esistenti dai fogli di lavoro in Excel utilizzando Aspose.Cells per .NET. Utilizzeremo il codice sorgente C# per illustrare il processo.
 
 ## Passaggio 1: configurazione dell'ambiente
 
@@ -15,7 +15,7 @@ Assicurati di avere Aspose.Cells per .NET installato sul tuo computer. Crea anch
 
 ## Passaggio 2: importa le librerie necessarie
 
-Nel tuo file di codice, importa le librerie necessarie per lavorare con Aspose.Cells. Ecco il codice corrispondente:
+Nel file di codice, importa le librerie necessarie per lavorare con Aspose.Cells. Ecco il codice corrispondente:
 
 ```csharp
 using Aspose.Cells;
@@ -23,28 +23,28 @@ using Aspose.Cells;
 
 ## Passaggio 3: imposta le directory di origine e di output
 
-Impostare rispettivamente le directory di origine e di output in cui si trova il file Excel originale e in cui si desidera salvare il file modificato. Usa il seguente codice:
+Imposta rispettivamente le directory di origine e di output in cui si trova il file Excel originale e dove desideri salvare il file modificato. Utilizza il seguente codice:
 
 ```csharp
 string sourceDir = "SOURCE DIRECTORY PATH";
 string outputDir = "OUTPUT DIRECTORY PATH";
 ```
 
-Assicurati di specificare i percorsi di directory completi.
+Assicurati di specificare i percorsi completi delle directory.
 
 ## Passaggio 4: caricamento del file Excel di origine
 
-Carica il file Excel di origine utilizzando il seguente codice:
+Caricare il file Excel di origine utilizzando il seguente codice:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "fileName.xlsx");
 ```
 
-Questo caricherà il file Excel specificato nell'oggetto cartella di lavoro.
+Ciò caricherà il file Excel specificato nell'oggetto cartella di lavoro.
 
-## Passaggio 5: navigare nei fogli di lavoro
+## Passaggio 5: esplorare i fogli di lavoro
 
-Scorri tutti i fogli di lavoro nella cartella di lavoro usando un ciclo. Usa il seguente codice:
+Scorrere tutti i fogli di lavoro nella cartella di lavoro utilizzando un ciclo. Utilizza il seguente codice:
 
 ```csharp
 int sheetCount = wb. Worksheets. Count;
@@ -58,7 +58,7 @@ for (int i = 0; i < sheetCount; i++)
 
 ## Passaggio 6: eliminare le impostazioni della stampante esistenti
 
-Controlla se esistono impostazioni della stampante per ogni foglio di lavoro e cancellale se necessario. Usa il seguente codice:
+Controlla se esistono impostazioni della stampante per ciascun foglio di lavoro ed eliminale se necessario. Utilizza il seguente codice:
 
 ```csharp
 PageSetup ps = ws.PageSetup;
@@ -78,7 +78,7 @@ if (ps.PrinterSettings != null)
 
 ## Passaggio 7: salvataggio della cartella di lavoro modificata
 
-Salva la cartella di lavoro modificata utilizzando il seguente codice:
+Salvare la cartella di lavoro modificata utilizzando il seguente codice:
 
 ```csharp
 wb.Save(outputDir + "modifiedFilename.xlsx");
@@ -88,7 +88,7 @@ Ciò salverà la cartella di lavoro modificata nella directory di output specifi
 
 ### Codice sorgente di esempio per rimuovere le impostazioni della stampante esistente dei fogli di lavoro utilizzando Aspose.Cells per .NET 
 ```csharp
-//Rubrica di origine
+//Directory di origine
 string sourceDir = RunExamples.Get_SourceDirectory();
 //Cartella di destinazione
 string outputDir = RunExamples.Get_OutputDirectory();
@@ -101,9 +101,9 @@ for (int i = 0; i < sheetCount; i++)
 {
     //Accedi all'i-esimo foglio di lavoro
     Worksheet ws = wb.Worksheets[i];
-    //Accedere all'impostazione della pagina del foglio di lavoro
+    //Accedi alla configurazione della pagina del foglio di lavoro
     PageSetup ps = ws.PageSetup;
-    //Controlla se esistono impostazioni della stampante per questo foglio di lavoro
+    //Controlla se esistono le impostazioni della stampante per questo foglio di lavoro
     if (ps.PrinterSettings != null)
     {
         //Stampa il seguente messaggio
@@ -123,23 +123,23 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 
 ## Conclusione
 
-Ora hai imparato come rimuovere le impostazioni della stampante esistenti dai fogli di lavoro in Excel utilizzando Aspose.Cells per .NET. Questo tutorial ti ha guidato attraverso ogni fase del processo, dalla configurazione dell'ambiente alla navigazione tra i fogli di calcolo e alla cancellazione delle impostazioni della stampante. Ora puoi usare questa conoscenza per gestire le impostazioni della stampante nei tuoi file Excel.
+Ora hai imparato come rimuovere le impostazioni della stampante esistente dai fogli di lavoro in Excel utilizzando Aspose.Cells per .NET. Questo tutorial ti ha guidato attraverso ogni fase del processo, dalla configurazione dell'ambiente alla navigazione nei fogli di calcolo e alla cancellazione delle impostazioni della stampante. Ora puoi utilizzare queste conoscenze per gestire le impostazioni della stampante nei file Excel.
 
-### FAQ
+### Domande frequenti
 
-#### D1: Come faccio a sapere se un foglio di calcolo dispone di impostazioni della stampante esistenti?
+#### Q1: Come faccio a sapere se un foglio di calcolo presenta impostazioni della stampante esistenti?
 
- A1: è possibile verificare se esistono impostazioni della stampante per un foglio di lavoro accedendo a`PrinterSettings` proprietà del`PageSetup` oggetto. Se il valore non è nullo, significa che esistono impostazioni della stampante esistenti.
+ A1: È possibile verificare se esistono impostazioni della stampante per un foglio di lavoro accedendo a`PrinterSettings` proprietà del`PageSetup` oggetto. Se il valore è diverso da null, significa che esistono impostazioni della stampante esistenti.
 
-#### D2: Posso eliminare le impostazioni della stampante solo per un foglio di calcolo specifico?
+#### Q2: Posso eliminare le impostazioni della stampante solo per un foglio di calcolo specifico?
 
- A2: Sì, è possibile utilizzare lo stesso approccio per rimuovere le impostazioni della stampante per un foglio di lavoro specifico accedendo a quel foglio di lavoro`PageSetup` oggetto.
+ R2: Sì, puoi utilizzare lo stesso approccio per rimuovere le impostazioni della stampante per un foglio di lavoro specifico accedendo`PageSetup` oggetto.
 
-#### D3: Questo metodo rimuove anche altre impostazioni di layout?
+#### Q3: Questo metodo rimuove anche altre impostazioni di layout?
 
-A3: No, questo metodo elimina solo le impostazioni della stampante. Altre impostazioni di layout, come margini, orientamento della carta, ecc., rimangono invariate.
+R3: No, questo metodo elimina solo le impostazioni della stampante. Altre impostazioni di layout, come margini, orientamento della carta, ecc., rimangono invariate.
 
-#### D4: Questo metodo funziona per tutti i formati di file Excel, ad esempio .xls e .xlsx?
+#### Q4: questo metodo funziona con tutti i formati di file Excel, come .xls e .xlsx?
 
 A4: Sì, questo metodo funziona per tutti i formati di file Excel supportati da Aspose.Cells, inclusi .xls e .xlsx.
 

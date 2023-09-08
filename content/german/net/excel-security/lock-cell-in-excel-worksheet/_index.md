@@ -22,7 +22,7 @@ using Aspose.Cells;
 Der erste Schritt besteht darin, die Excel-Datei zu laden, in der Sie eine Zelle sperren möchten. Stellen Sie sicher, dass Sie den richtigen Pfad zu Ihrem Dokumentverzeichnis angegeben haben:
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
@@ -64,7 +64,7 @@ Herzlichen Glückwunsch! Sie haben nun mit Aspose.Cells für .NET erfolgreich ei
 
 ### Beispielquellcode für „Zelle im Excel-Arbeitsblatt sperren“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 // Zugriff auf das erste Arbeitsblatt in der Excel-Datei

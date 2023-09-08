@@ -7,9 +7,9 @@ type: docs
 weight: 50
 url: /es/net/excel-workbook/adjust-compression-level/
 ---
-En este tutorial paso a paso, explicaremos el código fuente C# provisto que le permitirá ajustar el nivel de compresión usando Aspose.Cells para .NET. Siga los pasos a continuación para ajustar el nivel de compresión en su libro de Excel.
+En este tutorial paso a paso, explicaremos el código fuente C# proporcionado que le permitirá ajustar el nivel de compresión usando Aspose.Cells para .NET. Siga los pasos a continuación para ajustar el nivel de compresión en su libro de Excel.
 
-## Paso 1: Establecer directorios de origen y salida
+## Paso 1: configurar los directorios de origen y de salida
 
 ```csharp
 // directorio fuente
@@ -18,25 +18,25 @@ string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
 ```
 
-En este primer paso, definimos los directorios de origen y salida para los archivos de Excel.
+En este primer paso, definimos los directorios de origen y salida de los archivos de Excel.
 
 ## Paso 2: cargar el libro de Excel
 
 ```csharp
-//Cargar el libro de Excel
+// Cargue el libro de Excel
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Cargamos el libro de Excel desde el archivo especificado usando el`Workbook` clase de Aspose.Cells.
+Cargamos el libro de Excel desde el archivo especificado usando el`Workbook` clase de Aspose.Cells.
 
-## Paso 3: Establecer opciones de copia de seguridad
+## Paso 3: configurar las opciones de copia de seguridad
 
 ```csharp
-// Definir opciones de copia de seguridad
+// Definir opciones de respaldo
 XlsbSaveOptions options = new XlsbSaveOptions();
 ```
 
- Creamos una instancia del`XlsbSaveOptions` class para configurar las opciones de guardado.
+ Creamos una instancia del`XlsbSaveOptions` clase para configurar las opciones de guardado.
 
 ## Paso 4: Ajuste el nivel de compresión (Nivel 1)
 
@@ -78,11 +78,11 @@ elapsedMs = watch. ElapsedMilliseconds;
 Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
 ```
 
- Repetimos el proceso por última vez para ajustar el nivel de compresión a`Level9` y guarde el libro de Excel con esta opción.
+ Repetimos el proceso una última vez para ajustar el nivel de compresión a`Level9` y guarde el libro de Excel con esta opción.
 
-### Ejemplo de código fuente para ajustar el nivel de compresión usando Aspose.Cells para .NET 
+### Código fuente de muestra para ajustar el nivel de compresión usando Aspose.Cells para .NET 
 ```csharp
-//directorio de origen
+//Directorio fuente
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
@@ -110,19 +110,19 @@ Console.WriteLine("AdjustCompressionLevel executed successfully.");
 
 ## Conclusión
 
-¡Felicidades! Aprendió a ajustar el nivel de compresión en un libro de Excel usando Aspose.Cells para .NET. Experimente con diferentes niveles de compresión para encontrar el que mejor se adapte a sus necesidades.
+¡Enhorabuena! Aprendió a ajustar el nivel de compresión en un libro de Excel usando Aspose.Cells para .NET. Experimente con diferentes niveles de compresión para encontrar el que mejor se adapte a sus necesidades.
 
-### preguntas frecuentes
+### Preguntas frecuentes
 
 #### P: ¿Qué es la compresión en un libro de Excel?
 
-R: La compresión en un libro de Excel es un proceso de reducción del tamaño del archivo mediante el uso de algoritmos de compresión. Esto reduce el espacio de almacenamiento necesario y mejora el rendimiento al cargar y manipular el archivo.
+R: La compresión en un libro de Excel es un proceso de reducción del tamaño del archivo mediante el uso de algoritmos de compresión. Esto reduce el espacio de almacenamiento requerido y mejora el rendimiento al cargar y manipular el archivo.
 
 #### P: ¿Qué niveles de compresión están disponibles con Aspose.Cells?
 
 R: Con Aspose.Cells, puede ajustar el nivel de compresión de 1 a 9. Cuanto mayor sea el nivel de compresión, menor será el tamaño del archivo, pero también puede aumentar el tiempo de procesamiento.
 
-#### P: ¿Cómo elijo el nivel de compresión adecuado para mi libro de Excel?
+#### P: ¿Cómo elijo el nivel de compresión correcto para mi libro de Excel?
 
 R: La elección del nivel de compresión depende de sus necesidades específicas. Si desea la máxima compresión y el tiempo de procesamiento no es un problema, puede optar por el nivel 9. Si prefiere un compromiso entre el tamaño del archivo y el tiempo de procesamiento, puede elegir un nivel intermedio.
 

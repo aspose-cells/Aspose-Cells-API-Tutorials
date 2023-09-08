@@ -1,13 +1,13 @@
 ---
-title: Accedere alle informazioni sull'estensione Web
-linktitle: Accedere alle informazioni sull'estensione Web
-second_title: Riferimento all'API Aspose.Cells per .NET
-description: Accedi alle informazioni sulle estensioni web con Aspose.Cells per .NET.
+title: Accedi alle informazioni sull'estensione Web
+linktitle: Accedi alle informazioni sull'estensione Web
+second_title: Aspose.Cells per riferimento API .NET
+description: Accedi alle informazioni sull'estensione web con Aspose.Cells per .NET.
 type: docs
 weight: 10
 url: /it/net/excel-workbook/access-web-extension-information/
 ---
-L'accesso alle informazioni sulle estensioni Web è una caratteristica essenziale durante lo sviluppo di applicazioni che utilizzano Aspose.Cells per .NET. In questa guida passo passo, spiegheremo il codice sorgente C# fornito che ti consentirà di accedere alle informazioni sull'estensione web utilizzando Aspose.Cells per .NET. Ti forniremo anche una conclusione e una risposta in formato Markdown per facilitarne la comprensione. Segui i passaggi seguenti per ottenere preziose informazioni sulle estensioni web.
+L'accesso alle informazioni sull'estensione web è una funzionalità essenziale quando si sviluppano applicazioni utilizzando Aspose.Cells per .NET. In questa guida passo passo, spiegheremo il codice sorgente C# fornito che ti consentirà di accedere alle informazioni sull'estensione web utilizzando Aspose.Cells per .NET. Ti forniremo anche una conclusione e una risposta in formato Markdown per facilitarne la comprensione. Segui i passaggi seguenti per ottenere informazioni preziose sulle estensioni web.
 
 ## Passaggio 1: imposta la directory di origine
 
@@ -16,7 +16,7 @@ L'accesso alle informazioni sulle estensioni Web è una caratteristica essenzial
 string sourceDir = RunExamples.Get_SourceDirectory();
 ```
 
-In questo primo passaggio, definiamo la directory di origine che verrà utilizzata per caricare il file Excel contenente le informazioni sull'estensione web.
+In questo primo passaggio definiamo la directory di origine che verrà utilizzata per caricare il file Excel contenente le informazioni sull'estensione web.
 
 ## Passaggio 2: caricare il file Excel
 
@@ -27,7 +27,7 @@ Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 
 Qui carichiamo il file Excel di esempio che contiene le informazioni sull'estensione web che vogliamo recuperare.
 
-## Passaggio 3: accedere alle informazioni dalla finestra dell'attività dell'estensione web
+## Passaggio 3: accedi alle informazioni dalla finestra delle attività dell'estensione web
 
 ```csharp
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
@@ -43,7 +43,7 @@ Console.WriteLine("Web Extension ID: " + taskPane.WebExtension.Id);
 }
 ```
 
-In questo passaggio, accediamo alle informazioni di ciascuna finestra dell'attività di estensione Web presente nel file Excel. Visualizziamo diverse proprietà come larghezza, visibilità, stato di blocco, stato home, nome del negozio, tipo di negozio e ID estensione web.
+In questo passaggio, accediamo alle informazioni di ciascuna finestra di attività dell'estensione web presente nel file Excel. Mostriamo diverse proprietà come larghezza, visibilità, stato di blocco, stato di residenza, nome del negozio, tipo di negozio e ID estensione web.
 
 ## Passaggio 4: mostra il messaggio di successo
 
@@ -51,13 +51,13 @@ In questo passaggio, accediamo alle informazioni di ciascuna finestra dell'attiv
 Console.WriteLine("AccessWebExtensionInformation executed successfully.");
 ```
 
-Infine, viene visualizzato un messaggio che indica che l'accesso alle informazioni dell'estensione Web è stato eseguito correttamente.
+Infine, visualizziamo un messaggio che indica che l'accesso alle informazioni sull'estensione web è stato effettuato correttamente.
 
-### Esempio di codice sorgente per accedere alle informazioni sulle estensioni Web utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per accedere alle informazioni sull'estensione Web utilizzando Aspose.Cells per .NET 
 ```csharp
-//Rubrica di origine
+//Directory di origine
 string sourceDir = RunExamples.Get_SourceDirectory();
-//Carica il file Excel di esempio
+//Caricare il file Excel di esempio
 Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
 foreach (WebExtensionTaskPane taskPane in taskPanes)
@@ -75,7 +75,7 @@ Console.WriteLine("AccessWebExtensionInformation executed successfully.");
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come accedere alle informazioni sulle estensioni Web utilizzando Aspose.Cells per .NET. Seguendo i passaggi forniti, sarai in grado di estrarre facilmente le informazioni sulle finestre delle attività da un'estensione Web in un file Excel.
+In questo tutorial, abbiamo imparato come accedere alle informazioni sull'estensione web utilizzando Aspose.Cells per .NET. Seguendo i passaggi forniti, sarai in grado di estrarre facilmente le informazioni delle finestre delle attività da un'estensione web in un file Excel.
 
 
 ### Domande frequenti
@@ -88,10 +88,10 @@ R: Aspose.Cells per .NET è una potente libreria di classi che consente agli svi
 
 R: Sì, Aspose.Cells supporta più linguaggi di programmazione come C#, VB.NET, Java, PHP, Python, ecc.
 
-#### D: Posso usare Aspose.Cells in progetti commerciali?
+#### D: Posso utilizzare Aspose.Cells in progetti commerciali?
 
 R: Sì, Aspose.Cells è una libreria commerciale e può essere utilizzata in progetti commerciali secondo il contratto di licenza.
 
-#### D: C'è documentazione aggiuntiva su Aspose.Cells?
+#### D: Esiste documentazione aggiuntiva su Aspose.Cells?
 
-A: Sì, puoi consultare la documentazione completa di Aspose.Cells sul sito Web ufficiale di Aspose per ulteriori informazioni e risorse.
+R: Sì, puoi consultare la documentazione completa di Aspose.Cells sul sito Web ufficiale di Aspose per ulteriori informazioni e risorse.

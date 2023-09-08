@@ -74,7 +74,7 @@ Se till att ange rätt utdatasökväg för att spara den modifierade Excel-filen
 ### Exempel på källkod för Hide And Unhide Worksheet med Aspose.Cells för .NET 
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa en filström som innehåller Excel-filen som ska öppnas
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

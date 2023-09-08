@@ -79,7 +79,7 @@ Detta kommer att spara Excel-arbetsboken med filnamnet "SetPrintTitle_out.xls" i
 
 ### Exempel på källkod för Set Excel Print Title med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();

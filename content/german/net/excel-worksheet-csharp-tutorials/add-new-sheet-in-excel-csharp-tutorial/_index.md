@@ -14,7 +14,7 @@ In diesem Tutorial erklären wir Schritt für Schritt den C#-Quellcode zum Hinzu
 Der erste Schritt besteht darin, das Dokumentverzeichnis zu definieren, in dem die Excel-Datei gespeichert wird. Wenn das Verzeichnis nicht existiert, erstellen wir es mit dem folgenden Code:
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 // Erstellen Sie das Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -68,7 +68,7 @@ Dadurch wird die Excel-Arbeitsmappe mit dem neuen Arbeitsblatt im von Ihnen ange
 
 ### Beispielquellcode für das C#-Tutorial „Neues Blatt in Excel hinzufügen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);

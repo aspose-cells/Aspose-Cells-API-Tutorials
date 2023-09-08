@@ -11,7 +11,7 @@ url: /zh/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rende
 
 ## 第 1 步：创建输出文件夹
 
-在开始之前，您需要创建一个输出文件夹，用于保存生成的 PDF 文件。您可以为输出文件夹使用任何您想要的路径。
+开始之前，您需要创建一个输出文件夹，用于保存生成的 PDF 文件。您可以为输出文件夹使用任何您想要的路径。
 
 ```csharp
 //输出目录

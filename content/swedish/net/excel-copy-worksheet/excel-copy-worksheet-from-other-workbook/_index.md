@@ -116,7 +116,7 @@ Var noga med att ange önskad sökväg och filnamn för utdatafilen.
 
 ### Exempel på källkod för Excel Kopiera arbetsblad från annan arbetsbok med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa en ny arbetsbok.
 Workbook excelWorkbook0 = new Workbook();

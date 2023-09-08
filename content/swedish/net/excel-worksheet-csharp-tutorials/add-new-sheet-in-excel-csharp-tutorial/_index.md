@@ -14,7 +14,7 @@ den här handledningen kommer vi att förklara steg för steg C#-källkoden för
 Det första steget är att definiera dokumentkatalogen där Excel-filen ska sparas. Om katalogen inte finns skapar vi den med följande kod:
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 // Skapa katalogen om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -68,7 +68,7 @@ Detta kommer att spara Excel-arbetsboken med det nya kalkylbladet i dokumentkata
 
 ### Exempel på källkod för Lägg till nytt blad i Excel C# Tutorial med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);

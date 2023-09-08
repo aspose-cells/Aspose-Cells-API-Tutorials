@@ -1,13 +1,13 @@
 ---
-title: Aggiungi estensione Web
-linktitle: Aggiungi estensione Web
-second_title: Riferimento all'API Aspose.Cells per .NET
-description: Aggiungi facilmente l'estensione web alle cartelle di lavoro di Excel con Aspose.Cells per .NET.
+title: Aggiungi estensione web
+linktitle: Aggiungi estensione web
+second_title: Aspose.Cells per riferimento API .NET
+description: Aggiungi facilmente un'estensione web alle tue cartelle di lavoro Excel con Aspose.Cells per .NET.
 type: docs
 weight: 40
 url: /it/net/excel-workbook/add-web-extension/
 ---
-In questo tutorial passo passo, spiegheremo il codice sorgente C# fornito che ti permetterà di aggiungere un'estensione web usando Aspose.Cells per .NET. Seguire i passaggi seguenti per aggiungere un'estensione Web alla cartella di lavoro di Excel.
+In questo tutorial passo passo, spiegheremo il codice sorgente C# fornito che ti consentirà di aggiungere un'estensione web utilizzando Aspose.Cells per .NET. Segui i passaggi seguenti per aggiungere un'estensione web alla cartella di lavoro di Excel.
 
 ## Passaggio 1: imposta la directory di output
 
@@ -16,25 +16,25 @@ In questo tutorial passo passo, spiegheremo il codice sorgente C# fornito che ti
 string outDir = RunExamples.Get_OutputDirectory();
 ```
 
-In questo primo passaggio, definiamo la directory di output in cui verrà salvata la cartella di lavoro di Excel modificata.
+In questo primo passaggio, definiamo la directory di output in cui verrà salvata la cartella di lavoro Excel modificata.
 
-## Passaggio 2: creare una nuova cartella di lavoro
+## Passaggio 2: crea una nuova cartella di lavoro
 
 ```csharp
-//Crea una nuova cartella di lavoro
+// Crea una nuova cartella di lavoro
 Workbook workbook = new Workbook();
 ```
 
- Qui stiamo creando una nuova cartella di lavoro di Excel utilizzando il file`Workbook` classe da Aspose.Cells.
+Qui stiamo creando una nuova cartella di lavoro Excel utilizzando il file`Workbook` classe da Aspose.Cells.
 
-## Passaggio 3: accedere alla raccolta di estensioni Web
+## Passaggio 3: accedi alla raccolta di estensioni Web
 
 ```csharp
 // Accedi alla raccolta di estensioni web
 WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
 ```
 
- Accediamo alla raccolta di estensioni Web della cartella di lavoro di Excel utilizzando il file`WebExtensions` proprietà del`Worksheets` oggetto.
+ Accediamo alla raccolta di estensioni web della cartella di lavoro di Excel utilizzando il file`WebExtensions` proprietà del`Worksheets` oggetto.
 
 ## Passaggio 4: aggiungi una nuova estensione web
 
@@ -49,14 +49,14 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 Stiamo aggiungendo una nuova estensione web alla raccolta di estensioni. Definiamo l'ID di riferimento, il nome del negozio e il tipo di negozio dell'estensione.
 
-## Passaggio 5: accedere alla raccolta di riquadri attività dell'estensione Web
+## Passaggio 5: accedere alla raccolta del riquadro attività delle estensioni Web
 
 ```csharp
-// Accedere alla raccolta del riquadro attività dell'estensione Web
+// Accedi alla raccolta del riquadro attività dell'estensione Web
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
 ```
 
- Si accede alla raccolta di riquadri attività di Excel Workbook Web Extension utilizzando il file`WebExtensionTaskPanes` proprietà del`Worksheets` oggetto.
+ Accediamo alla raccolta di riquadri attività dell'estensione Web cartella di lavoro Excel utilizzando il file`WebExtensionTaskPanes` proprietà del`Worksheets` oggetto.
 
 ## Passaggio 6: aggiungere un nuovo riquadro attività
 
@@ -69,21 +69,21 @@ taskPane. DockState = "right";
 taskPane. WebExtension = extension;
 ```
 
-Stiamo aggiungendo un nuovo riquadro attività alla raccolta di riquadri attività. Impostiamo la visibilità del riquadro, il suo stato di ancoraggio e l'estensione web associata.
+Stiamo aggiungendo un nuovo riquadro attività alla raccolta di riquadri attività. Impostiamo la visibilità del riquadro, il suo stato di aggancio e l'estensione web associata.
 
 ## Passaggio 7: salvare e chiudere la cartella di lavoro
 
 ```csharp
-// Salva e chiudi la cartella di lavoro
+// Salvare e chiudere la cartella di lavoro
 workbook.Save(outDir + "AddWebExtension_Out.xlsx");
 Console.WriteLine("AddWebExtension executed successfully.");
 ```
 
 Salviamo la cartella di lavoro modificata nella directory di output specificata e quindi la chiudiamo.
 
-### Esempio di codice sorgente per Aggiungi estensione Web utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per Aggiungi estensione Web utilizzando Aspose.Cells per .NET 
 ```csharp
-//Rubrica di origine
+//Directory di origine
 string outDir = RunExamples.Get_OutputDirectory();
 Workbook workbook = new Workbook();
 WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
@@ -104,17 +104,17 @@ Console.WriteLine("AddWebExtension executed successfully.");
 
 ## Conclusione
 
-Congratulazioni! Ora hai imparato come aggiungere un'estensione web usando Aspose.Cells per .NET. Sperimenta con il codice ed esplora le funzionalità aggiuntive di Aspose.Cells per ottenere il massimo dalla manipolazione delle estensioni Web nelle cartelle di lavoro di Excel.
+Congratulazioni! Ora hai imparato come aggiungere un'estensione web utilizzando Aspose.Cells per .NET. Sperimenta il codice ed esplora funzionalità aggiuntive di Aspose.Cells per ottenere il massimo dalla manipolazione delle estensioni web nelle cartelle di lavoro di Excel.
 
 ## Domande frequenti
 
 #### D: Cos'è un'estensione Web in una cartella di lavoro di Excel?
 
-R: Un'estensione Web in una cartella di lavoro di Excel è un componente che consente di aggiungere funzionalità aggiuntive a Excel mediante l'integrazione di applicazioni Web. Può offrire funzionalità interattive, dashboard personalizzati, integrazioni esterne e altro ancora.
+R: Un'estensione Web in una cartella di lavoro di Excel è un componente che consente di aggiungere funzionalità aggiuntive a Excel integrando applicazioni Web. Può offrire funzionalità interattive, dashboard personalizzate, integrazioni esterne e altro ancora.
 
-#### Q: Come aggiungere un'estensione web alla cartella di lavoro di Excel con Aspose.Cells?
+#### D: Come aggiungere un'estensione Web alla cartella di lavoro di Excel con Aspose.Cells?
 
- A: Per aggiungere un'estensione web a una cartella di lavoro di Excel con Aspose.Cells, puoi seguire i passaggi forniti nella nostra guida passo passo. Usa il`WebExtensionCollection` E`WebExtensionTaskPaneCollection` classi per aggiungere e configurare l'estensione Web e il riquadro attività associato.
+ R: Per aggiungere un'estensione web a una cartella di lavoro Excel con Aspose.Cells, puoi seguire i passaggi forniti nella nostra guida passo passo. Usa il`WebExtensionCollection` E`WebExtensionTaskPaneCollection` classi per aggiungere e configurare l'estensione Web e il riquadro attività associato.
 
 #### D: Quali informazioni sono necessarie per aggiungere un'estensione web?
 
@@ -122,4 +122,4 @@ R: Quando aggiungi un'estensione web, devi fornire l'ID SKU dell'estensione, il 
 
 #### D: Posso aggiungere più estensioni Web a una singola cartella di lavoro di Excel?
 
- R: Sì, puoi aggiungere più estensioni Web a una singola cartella di lavoro di Excel. Usa il`Add` metodo della raccolta delle estensioni Web per aggiungere ciascuna estensione, quindi associarle ai riquadri attività corrispondenti.
+ R: Sì, puoi aggiungere più estensioni Web a una singola cartella di lavoro di Excel. Usa il`Add` metodo della raccolta di estensioni Web per aggiungere ciascuna estensione, quindi associarle ai riquadri attività corrispondenti.

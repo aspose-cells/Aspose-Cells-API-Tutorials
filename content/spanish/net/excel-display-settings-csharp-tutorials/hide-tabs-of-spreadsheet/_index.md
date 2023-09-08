@@ -7,19 +7,19 @@ type: docs
 weight: 100
 url: /es/net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadsheet/
 ---
-Las hojas de cálculo son herramientas poderosas para organizar y analizar datos. A veces, es posible que desee ocultar ciertas pestañas en una hoja de cálculo por privacidad o simplicidad. En esta guía, le mostraremos cómo ocultar pestañas en una hoja de trabajo utilizando Aspose.Cells para .NET, una popular biblioteca de software para procesar archivos de Excel.
+Las hojas de cálculo son herramientas poderosas para organizar y analizar datos. A veces es posible que desees ocultar ciertas pestañas en una hoja de cálculo por motivos de privacidad o simplicidad. En esta guía, le mostraremos cómo ocultar pestañas en una hoja de cálculo usando Aspose.Cells para .NET, una popular biblioteca de software para procesar archivos de Excel.
 
-## Paso 1: Configuración del entorno
+## Paso 1: configurar el entorno
 
-Antes de comenzar, asegúrese de haber instalado Aspose.Cells para .NET y configure su entorno de desarrollo. Además, asegúrese de tener una copia del archivo de Excel en el que desea ocultar las pestañas.
+Antes de comenzar, asegúrese de haber instalado Aspose.Cells para .NET y configurar su entorno de desarrollo. Además, asegúrese de tener una copia del archivo de Excel en el que desea ocultar pestañas.
 
-## Paso 2: Importa las dependencias necesarias
+## Paso 2: Importe las dependencias necesarias
 
-En su proyecto .NET, agregue una referencia a la biblioteca Aspose.Cells. Puede hacerlo utilizando la interfaz de usuario del entorno de desarrollo integrado (IDE) o agregando manualmente la referencia al archivo DLL.
+En su proyecto .NET, agregue una referencia a la biblioteca Aspose.Cells. Puede hacerlo utilizando la interfaz de usuario de su entorno de desarrollo integrado (IDE) o agregando manualmente la referencia al archivo DLL.
 
-## Paso 3: Inicialización del código
+## Paso 3: inicialización del código
 
-Comience por incluir las directivas necesarias para usar las clases de Aspose.Cells:
+Comience incluyendo las directivas necesarias para usar las clases de Aspose.Cells:
 
 ```csharp
 using Aspose.Cells;
@@ -31,9 +31,9 @@ A continuación, inicialice la ruta al directorio que contiene sus documentos de
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-## Paso 4: Abrir el archivo de Excel
+## Paso 4: abrir el archivo Excel
 
-Use la clase Workbook para abrir el archivo de Excel existente:
+Utilice la clase Libro de trabajo para abrir el archivo de Excel existente:
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -47,7 +47,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 workbook.Settings.ShowTabs = false;
 ```
 
-## Paso 6: Guardar cambios
+## Paso 6: guardar cambios
 
 Guarde los cambios realizados en el archivo de Excel:
 
@@ -55,33 +55,33 @@ Guarde los cambios realizados en el archivo de Excel:
 workbook.Save(dataDir + "output.xls");
 ```
 
-### Ejemplo de código fuente para Ocultar pestañas de hoja de cálculo usando Aspose.Cells para .NET 
+### Código fuente de muestra para ocultar pestañas de hoja de cálculo usando Aspose.Cells para .NET 
 ```csharp
-// La ruta al directorio de documentos.
+//La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Abriendo el archivo de Excel
+// Abrir el archivo Excel
 Workbook workbook = new Workbook(dataDir + "book1.xls");
-// Ocultar las pestañas del archivo de Excel
+// Ocultar las pestañas del archivo Excel
 workbook.Settings.ShowTabs = false;
-// Muestra las pestañas del archivo de Excel
-//libro de trabajo.Configuraciones.ShowTabs = verdadero;
-// Guardar el archivo de Excel modificado
+// Muestra las pestañas del archivo Excel.
+//libro de trabajo.Settings.ShowTabs = verdadero;
+// Guardar el archivo Excel modificado
 workbook.Save(dataDir + "output.xls");
 ```
 
 ## Conclusión
 
-En esta guía paso a paso, aprendió a ocultar las pestañas de las hojas de trabajo con Aspose.Cells para .NET. Al usar los métodos y propiedades apropiados de la biblioteca Aspose.Cells, puede personalizar aún más sus archivos de Excel según sus necesidades.
+En esta guía paso a paso, aprendió cómo ocultar pestañas de hojas de trabajo usando Aspose.Cells para .NET. Al utilizar los métodos y propiedades apropiados de la biblioteca Aspose.Cells, puede personalizar aún más sus archivos de Excel según sus necesidades.
 
 ### Preguntas frecuentes (FAQ)
 
 #### ¿Qué es Aspose.Cells para .NET?
     
-Aspose.Cells for .NET es una biblioteca de software popular para manipular archivos de Excel en aplicaciones .NET.
+Aspose.Cells para .NET es una biblioteca de software popular para manipular archivos de Excel en aplicaciones .NET.
 
 #### ¿Puedo ocultar selectivamente ciertas pestañas en una hoja de trabajo en lugar de ocultarlas todas?
    
-Sí, con Aspose.Cells puede ocultar de forma selectiva ciertas pestañas de una hoja de trabajo manipulando las propiedades apropiadas.
+Sí, usando Aspose.Cells puedes ocultar selectivamente ciertas pestañas de una hoja de trabajo manipulando las propiedades apropiadas.
 
 #### ¿Aspose.Cells admite otras funciones de edición de archivos de Excel?
 
@@ -89,4 +89,4 @@ Sí, Aspose.Cells ofrece una amplia gama de funciones para editar y manipular ar
 
 #### P: ¿Aspose.Cells solo funciona con archivos de Excel en formato .xls?
 
-No, Aspose.Cells admite varios formatos de archivo de Excel, incluidos .xls y .xlsx.
+No, Aspose.Cells admite varios formatos de archivos de Excel, incluidos .xls y .xlsx.

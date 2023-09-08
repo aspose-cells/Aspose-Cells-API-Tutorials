@@ -13,7 +13,7 @@ Microsoft Excel ist eine beliebte Anwendung zum Verwalten und Analysieren von Da
 Definieren Sie zunächst das Verzeichnis, in dem Sie die Excel-Datei speichern möchten. Verwenden Sie den folgenden Code:
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 // Erstellen Sie das Verzeichnis, falls es nicht vorhanden ist.
 bool exists = System.IO.Directory.Exists(dataDir);
@@ -103,7 +103,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ### Beispielquellcode für „Spalte im Excel-Arbeitsblatt schützen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);

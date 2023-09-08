@@ -29,7 +29,7 @@ using Aspose.Cells;
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt austauschen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
+ Unbedingt ersetzen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
 
 ## Schritt 4: Erstellen eines Arbeitsmappenobjekts
 
@@ -79,7 +79,7 @@ Dadurch wird die Excel-Arbeitsmappe mit dem Dateinamen „SetPrintTitle_out.xls�
 
 ### Beispielquellcode für „Excel-Drucktitel festlegen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();

@@ -22,7 +22,7 @@ using Aspose.Cells;
 Det första steget är att ladda Excel-filen som du vill låsa en cell i. Se till att du har angett rätt sökväg till din dokumentkatalog:
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
@@ -64,7 +64,7 @@ Grattis! Du har nu framgångsrikt låst en specifik cell i ett Excel-kalkylblad 
 
 ### Exempel på källkod för låscell i Excel-arbetsblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 // Åtkomst till det första kalkylbladet i Excel-filen

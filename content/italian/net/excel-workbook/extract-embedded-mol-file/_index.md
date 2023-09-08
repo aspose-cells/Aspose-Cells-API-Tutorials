@@ -1,13 +1,13 @@
 ---
 title: Estrai il file Mol incorporato
 linktitle: Estrai il file Mol incorporato
-second_title: Riferimento all'API Aspose.Cells per .NET
-description: Scopri come estrarre facilmente i file MOL incorporati da una cartella di lavoro di Excel utilizzando Aspose.Cells per .NET.
+second_title: Aspose.Cells per riferimento API .NET
+description: Scopri come estrarre facilmente file MOL incorporati da una cartella di lavoro di Excel utilizzando Aspose.Cells per .NET.
 type: docs
 weight: 90
 url: /it/net/excel-workbook/extract-embedded-mol-file/
 ---
-In questo tutorial, ti guideremo passo dopo passo su come estrarre un file MOL incorporato da una cartella di lavoro di Excel utilizzando la libreria Aspose.Cells per .NET. Imparerai come sfogliare i fogli della cartella di lavoro, estrarre gli oggetti OLE corrispondenti e salvare i file MOL estratti. Seguire i passaggi seguenti per completare correttamente questa attività.
+In questo tutorial, ti guideremo passo dopo passo come estrarre un file MOL incorporato da una cartella di lavoro di Excel utilizzando la libreria Aspose.Cells per .NET. Imparerai come sfogliare i fogli della cartella di lavoro, estrarre gli oggetti OLE corrispondenti e salvare i file MOL estratti. Seguire i passaggi seguenti per completare questa attività con successo.
 
 ## Passaggio 1: definire le directory di origine e di output
 Innanzitutto, dobbiamo definire le directory di origine e di output nel nostro codice. Queste directory indicano dove si trova la cartella di lavoro Excel di origine e dove verranno salvati i file MOL estratti. Ecco il codice corrispondente:
@@ -29,8 +29,8 @@ Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 
 Assicurati di specificare correttamente il nome del file di origine nel codice.
 
-## Passaggio 3: attraversa i fogli ed estrai i file MOL
-Ora passeremo in rassegna ogni foglio della cartella di lavoro ed estraiamo gli oggetti OLE corrispondenti, che contengono i file MOL. Ecco il codice corrispondente:
+## Passaggio 3: Attraversa i fogli ed estrai i file MOL
+Ora scorreremo ogni foglio della cartella di lavoro ed estrarremo gli oggetti OLE corrispondenti, che contengono i file MOL. Ecco il codice corrispondente:
 
 ```csharp
 var index = 1;
@@ -51,7 +51,7 @@ Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 
 Questo codice scorre ogni foglio della cartella di lavoro, recupera gli oggetti OLE e salva i file MOL estratti nella directory di output.
 
-### Esempio di codice sorgente per Extract Embedded Mol File utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per estrarre il file Mol incorporato utilizzando Aspose.Cells per .NET 
 ```csharp
 //directory
 string SourceDir = RunExamples.Get_SourceDirectory();
@@ -74,18 +74,18 @@ Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 ```
 
 ## Conclusione
-Congratulazioni! Hai imparato come estrarre un file MOL incorporato da una cartella di lavoro di Excel utilizzando Aspose.Cells per .NET. Ora puoi applicare questa conoscenza per estrarre i file MOL dalle tue cartelle di lavoro di Excel. Sentiti libero di esplorare ulteriormente la libreria Aspose.Cells e conoscere le sue altre potenti funzionalità.
+Congratulazioni! Hai imparato come estrarre un file MOL incorporato da una cartella di lavoro di Excel utilizzando Aspose.Cells per .NET. Ora puoi applicare queste conoscenze per estrarre file MOL dalle tue cartelle di lavoro Excel. Sentiti libero di esplorare ulteriormente la libreria Aspose.Cells e conoscere le sue altre potenti funzionalità.
 
 ### Domande frequenti
 
-#### D: Che cos'è un file MOL?
+#### D: Cos'è un file MOL?
  
-A: Un file MOL è un formato di file utilizzato per rappresentare strutture chimiche nella chimica computazionale. Contiene informazioni su atomi, legami e altre proprietà molecolari.
+R: Un file MOL è un formato di file utilizzato per rappresentare strutture chimiche nella chimica computazionale. Contiene informazioni su atomi, legami e altre proprietà molecolari.
 
-#### D: Questo metodo funziona con tutti i tipi di file Excel?
+#### D: questo metodo funziona con tutti i tipi di file Excel?
 
-A: Sì, questo metodo funziona con tutti i tipi di file Excel supportati da Aspose.Cells.
+R: Sì, questo metodo funziona con tutti i tipi di file Excel supportati da Aspose.Cells.
 
 #### D: Posso estrarre più file MOL contemporaneamente?
 
-R: Sì, puoi estrarre più file MOL contemporaneamente scorrendo gli oggetti OLE su ciascun foglio della cartella di lavoro.
+R: Sì, puoi estrarre più file MOL contemporaneamente eseguendo l'iterazione degli oggetti OLE su ciascun foglio della cartella di lavoro.

@@ -29,7 +29,7 @@ Ställ in katalogen där Excel-dokumentet du vill arbeta med finns. Använd föl
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-Var noga med att ange den fullständiga katalogsökvägen.
+Var noga med att ange hela katalogsökvägen.
 
 ## Steg 4: Skapa ett arbetsboksobjekt
 
@@ -130,7 +130,7 @@ Se till att alltid stänga FileStreams när du är klar med dem.
 
 ### Exempel på källkod för Infoga bild i sidhuvud med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 //Skapa ett arbetsboksobjekt
 Workbook workbook = new Workbook();

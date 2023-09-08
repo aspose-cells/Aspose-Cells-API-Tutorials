@@ -2,20 +2,20 @@
 title: Excel Kenar Boşluklarını Ayarla
 linktitle: Excel Kenar Boşluklarını Ayarla
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak Excel'de kenar boşluklarını nasıl ayarlayacağınızı öğrenin. C# ile adım adım öğretici.
+description: Aspose.Cells for .NET'i kullanarak Excel'de kenar boşluklarını nasıl ayarlayacağınızı öğrenin. C#'ta adım adım eğitim.
 type: docs
 weight: 110
 url: /tr/net/excel-page-setup/set-excel-margins/
 ---
-Bu eğitimde, Aspose.Cells for .NET kullanarak Excel'de kenar boşluklarını nasıl ayarlayacağınızı adım adım anlatacağız. Süreci göstermek için C# kaynak kodunu kullanacağız.
+Bu eğitimde, Aspose.Cells for .NET'i kullanarak Excel'de kenar boşluklarını nasıl ayarlayacağınızı size adım adım anlatacağız. Süreci göstermek için C# kaynak kodunu kullanacağız.
 
 ## 1. Adım: Ortamı ayarlama
 
-Makinenizde Aspose.Cells for .NET'in kurulu olduğundan emin olun. Ayrıca tercih ettiğiniz geliştirme ortamında yeni bir proje oluşturun.
+Aspose.Cells for .NET'in makinenizde kurulu olduğundan emin olun. Ayrıca tercih ettiğiniz geliştirme ortamında yeni bir proje oluşturun.
 
 ## 2. Adım: Gerekli kitaplıkları içe aktarın
 
-Kod dosyanızda, Aspose.Cells ile çalışmak için gereken kütüphaneleri içe aktarın. İşte ilgili kod:
+Aspose.Cells ile çalışmak için gereken kütüphaneleri kod dosyanıza aktarın. İşte ilgili kod:
 
 ```csharp
 using Aspose.Cells;
@@ -55,9 +55,9 @@ pageSetup.RightMargin = 1;
 pageSetup.TopMargin = 3;
 ```
 
-Bu, sırasıyla çalışma sayfasının alt, sol, sağ ve üst kenar boşluklarını ayarlayacaktır.
+Bu, çalışma sayfasının sırasıyla alt, sol, sağ ve üst kenar boşluklarını ayarlayacaktır.
 
-## Adım 6: Değiştirilmiş Çalışma Kitabını Kaydetme
+## Adım 6: Değiştirilen Çalışma Kitabını Kaydetme
 
 Değiştirilen çalışma kitabını aşağıdaki kodu kullanarak kaydedin:
 
@@ -67,17 +67,17 @@ workbook.Save(dataDir + "OutputFileName.xls");
 
 Bu, değiştirilen çalışma kitabını belirtilen veri dizinine kaydedecektir.
 
-### Aspose.Cells for .NET kullanarak Set Excel Margins için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel Kenar Boşluklarını Ayarlama için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Çalışma kitabı nesnesi oluşturma
 Workbook workbook = new Workbook();
-// Çalışma kitabındaki çalışma sayfalarını al
+// Çalışma kitabındaki çalışma sayfalarını alın
 WorksheetCollection worksheets = workbook.Worksheets;
 // İlk (varsayılan) çalışma sayfasını alın
 Worksheet worksheet = worksheets[0];
-// pagesetup nesnesini al
+// Sayfa kurulumu nesnesini alın
 PageSetup pageSetup = worksheet.PageSetup;
 // Alt, sol, sağ ve üst sayfa kenar boşluklarını ayarlayın
 pageSetup.BottomMargin = 2;
@@ -90,26 +90,26 @@ workbook.Save(dataDir + "SetMargins_out.xls");
 
 ## Çözüm
 
-Artık Aspose.Cells for .NET kullanarak Excel'de kenar boşluklarını nasıl ayarlayacağınızı öğrendiniz. Bu öğretici, ortamın ayarlanmasından değiştirilen çalışma kitabının kaydedilmesine kadar sürecin her adımında size yol gösterdi. Excel dosyalarınızda daha fazla değişiklik yapmak için Aspose.Cells'in özelliklerini daha fazla keşfetmekten çekinmeyin.
+Artık Aspose.Cells for .NET'i kullanarak Excel'de kenar boşluklarını nasıl ayarlayacağınızı öğrendiniz. Bu eğitim, ortamın ayarlanmasından değiştirilen çalışma kitabının kaydedilmesine kadar sürecin her adımında size yol gösterdi. Excel dosyalarınızda daha fazla değişiklik yapmak için Aspose.Cells'in özelliklerini daha fazla keşfetmekten çekinmeyin.
 
 ### SSS (Sıkça Sorulan Sorular)
 
-#### 1. Elektronik tablom için özel kenar boşluklarını nasıl belirleyebilirim?
+#### 1. E-tablom için özel kenar boşluklarını nasıl belirleyebilirim?
 
- kullanarak özel kenar boşlukları belirleyebilirsiniz.`BottomMargin`, `LeftMargin`, `RightMargin` , Ve`TopMargin` özellikleri`PageSetup` nesne. Kenar boşluklarını gerektiği gibi ayarlamak için her özellik için istenen değerleri ayarlamanız yeterlidir.
+ Özel kenar boşluklarını kullanarak belirtebilirsiniz.`BottomMargin`, `LeftMargin`, `RightMargin` , Ve`TopMargin` özellikleri`PageSetup` nesne. Kenar boşluklarını gerektiği gibi ayarlamak için her özellik için istenen değerleri ayarlamanız yeterlidir.
 
-#### 2. Aynı çalışma kitabında farklı çalışma sayfaları için farklı kenar boşlukları ayarlayabilir miyim?
+#### 2. Aynı çalışma kitabındaki farklı çalışma sayfaları için farklı kenar boşlukları ayarlayabilir miyim?
 
- Evet, aynı çalışma kitabındaki her çalışma sayfası için farklı kenar boşlukları ayarlayabilirsiniz. Sadece şuraya erişin:`PageSetup` her çalışma sayfasının nesnesini ayrı ayrı seçin ve her biri için belirli kenar boşluklarını ayarlayın.
+ Evet, aynı çalışma kitabındaki her çalışma sayfası için farklı kenar boşlukları ayarlayabilirsiniz. Sadece şuraya erişin:`PageSetup` Her çalışma sayfasının nesnesini ayrı ayrı seçin ve her biri için belirli kenar boşluklarını ayarlayın.
 
-#### 3. Tanımlanan kenar boşlukları çalışma kitabının yazdırılması için de geçerli mi?
+#### 3. Tanımlanan kenar boşlukları çalışma kitabının yazdırılmasında da geçerli midir?
 
-Evet, Aspose.Cells kullanılarak ayarlanan kenar boşlukları, çalışma kitabını yazdırırken de geçerlidir. Çalışma kitabının yazdırılan çıktısı oluşturulurken belirtilen kenar boşlukları dikkate alınacaktır.
+Evet, Aspose.Cells kullanılarak ayarlanan kenar boşlukları çalışma kitabı yazdırılırken de geçerlidir. Çalışma kitabının basılı çıktısı oluşturulurken belirtilen kenar boşlukları dikkate alınacaktır.
 
-#### 4. Mevcut bir Excel dosyasının kenar boşluklarını Aspose.Cells kullanarak değiştirebilir miyim?
+#### 4. Aspose.Cells'i kullanarak mevcut bir Excel dosyasının kenar boşluklarını değiştirebilir miyim?
 
- Evet, mevcut bir Excel dosyasının kenar boşluklarını, dosyayı Aspose.Cells ile yükleyerek her bir çalışma sayfasının kenar boşluklarını değiştirebilirsiniz.`PageSetup` nesne ve kenar boşlukları özelliklerinin değerlerini değiştirme. Ardından, yeni kenar boşluklarını uygulamak için değiştirilen dosyayı kaydedin.
+ Evet, mevcut bir Excel dosyasının kenar boşluklarını, dosyayı Aspose.Cells ile yükleyerek ve her çalışma sayfasının çalışma sayfasına erişerek değiştirebilirsiniz.`PageSetup` nesneyi kullanma ve kenar boşlukları özelliklerinin değerlerini değiştirme. Daha sonra yeni kenar boşluklarını uygulamak için değiştirilen dosyayı kaydedin.
 
-#### 5. Bir e-tablodan kenar boşluklarını nasıl kaldırabilirim?
+#### 5. Bir elektronik tablodaki kenar boşluklarını nasıl kaldırabilirim?
 
- Bir çalışma sayfasından kenar boşluklarını kaldırmak için, kenar boşluklarının değerlerini kolayca ayarlayabilirsiniz.`BottomMargin`, `LeftMargin`, `RightMargin` Ve`TopMargin` özellikleri sıfır. Bu, kenar boşluklarını varsayılan değerlerine (genellikle sıfır) sıfırlar.
+ Bir çalışma sayfasındaki kenar boşluklarını kaldırmak için, yalnızca değerleri ayarlayabilirsiniz.`BottomMargin`, `LeftMargin`, `RightMargin` Ve`TopMargin` özellikleri sıfır. Bu, kenar boşluklarını varsayılan değerlerine (genellikle sıfır) sıfırlayacaktır.

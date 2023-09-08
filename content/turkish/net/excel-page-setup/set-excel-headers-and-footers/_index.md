@@ -1,22 +1,22 @@
 ---
-title: Excel Üst Bilgilerini ve Alt Bilgilerini Ayarlama
-linktitle: Excel Üst Bilgilerini ve Alt Bilgilerini Ayarlama
+title: Excel Üstbilgilerini ve Altbilgilerini Ayarlama
+linktitle: Excel Üstbilgilerini ve Altbilgilerini Ayarlama
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak Excel'de üst bilgileri ve alt bilgileri nasıl ayarlayacağınızı öğrenin.
+description: Aspose.Cells for .NET'i kullanarak Excel'de üstbilgi ve altbilgileri nasıl ayarlayacağınızı öğrenin.
 type: docs
 weight: 100
 url: /tr/net/excel-page-setup/set-excel-headers-and-footers/
 ---
 
-Bu eğitimde, Aspose.Cells for .NET kullanarak Excel'de üst bilgileri ve alt bilgileri nasıl ayarlayacağınızı adım adım göstereceğiz. Süreci göstermek için C# kaynak kodunu kullanacağız.
+Bu eğitimde size Aspose.Cells for .NET kullanarak Excel'de üstbilgi ve altbilgilerin nasıl ayarlanacağını adım adım göstereceğiz. Süreci göstermek için C# kaynak kodunu kullanacağız.
 
 ## 1. Adım: Ortamı ayarlama
 
-Makinenizde Aspose.Cells for .NET'in kurulu olduğundan emin olun. Ayrıca tercih ettiğiniz geliştirme ortamında yeni bir proje oluşturun.
+Aspose.Cells for .NET'in makinenizde kurulu olduğundan emin olun. Ayrıca tercih ettiğiniz geliştirme ortamında yeni bir proje oluşturun.
 
 ## 2. Adım: Gerekli kitaplıkları içe aktarın
 
-Kod dosyanızda, Aspose.Cells ile çalışmak için gereken kütüphaneleri içe aktarın. İşte ilgili kod:
+Aspose.Cells ile çalışmak için gereken kütüphaneleri kod dosyanıza aktarın. İşte ilgili kod:
 
 ```csharp
 using Aspose.Cells;
@@ -41,11 +41,11 @@ Workbook excel = new Workbook();
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 ```
 
-Bu, çalışma sayfası içeren boş bir çalışma kitabı oluşturacak ve o çalışma sayfasının PageSetup nesnesine erişim sağlayacaktır.
+Bu, çalışma sayfası içeren boş bir çalışma kitabı oluşturacak ve bu çalışma sayfasının PageSetup nesnesine erişim sağlayacaktır.
 
 ## Adım 5: Başlıkları Ayarlama
 
- kullanarak elektronik tablo başlıklarını ayarlayın.`SetHeader` PageSetup nesnesinin yöntemleri. İşte örnek bir kod:
+ Elektronik tablo başlıklarını kullanarak ayarlayın.`SetHeader` PageSetup nesnesinin yöntemleri. İşte örnek bir kod:
 
 ```csharp
 pageSetup.SetHeader(0, "&A");
@@ -55,9 +55,9 @@ pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 Bu, sırasıyla başlıklardaki çalışma sayfası adını, geçerli tarih ve saati ve dosya adını ayarlayacaktır.
 
-## 6. Adım: Alt bilgileri tanımlama
+## Adım 6: Altbilgileri tanımlama
 
- kullanarak elektronik tablo altbilgilerini ayarlayın.`SetFooter` PageSetup nesnesinin yöntemleri. İşte örnek bir kod:
+ Elektronik tablo altbilgilerini şunu kullanarak ayarlayın:`SetFooter` PageSetup nesnesinin yöntemleri. İşte örnek bir kod:
 
 ```csharp
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
@@ -65,9 +65,9 @@ pageSetup.SetFooter(1, "&P");
 pageSetup.SetFooter(2, "&N");
 ```
 
-Bu, sırasıyla bir metin dizesi, geçerli sayfa numarası ve altbilgilerdeki toplam sayfa sayısını ayarlayacaktır.
+Bu sırasıyla bir metin dizesini, geçerli sayfa numarasını ve altbilgilerdeki toplam sayfa sayısını ayarlayacaktır.
 
-## 7. Adım: Değiştirilmiş Çalışma Kitabını Kaydetme
+## Adım 7: Değiştirilen Çalışma Kitabını Kaydetme
 
 Değiştirilen çalışma kitabını aşağıdaki kodu kullanarak kaydedin:
 
@@ -77,28 +77,28 @@ excel.Save(dataDir + "OutputFileName.xls");
 
 Bu, değiştirilen çalışma kitabını belirtilen veri dizinine kaydedecektir.
 
-### Aspose.Cells for .NET kullanarak Excel Üst Bilgilerini ve Alt Bilgilerini Ayarlamak için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel Üstbilgilerini ve Altbilgilerini Ayarlama için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Bir Çalışma Kitabı nesnesinin örneğini oluşturma
 Workbook excel = new Workbook();
-// Çalışma sayfasının PageSetup referansını alma
+// Çalışma sayfasının PageSetup referansının alınması
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
-// Çalışma sayfası adını başlığın sol kısmında ayarlama
+// Başlığın sol bölümünde çalışma sayfası adının ayarlanması
 pageSetup.SetHeader(0, "&A");
 //Başlığın orta bölümünde geçerli tarihi ve geçerli saati ayarlama
 // ve başlığın yazı tipini değiştirme
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
-// Geçerli dosya adını başlığın sağ bölümünde ayarlama ve değiştirme
+// Geçerli dosya adını başlığın sağ kısmında ayarlamak ve değiştirmek
 // başlığın yazı tipi
 pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
-// Altbilginin sol kısmında bir dize ayarlama ve yazı tipini değiştirme
-// bu dizenin bir bölümünün ("123")
+// Alt bilginin sol kısmına bir dize ayarlama ve yazı tipini değiştirme
+// bu dizenin bir kısmının ("123")
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 // Geçerli sayfa numarasını altbilginin orta bölümünde ayarlama
 pageSetup.SetFooter(1, "&P");
-// Sayfa sayısını altbilginin sağ kısmında ayarlama
+// Altbilginin sağ bölümünde sayfa sayısını ayarlama
 pageSetup.SetFooter(2, "&N");
 // Çalışma Kitabını kaydedin.
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
@@ -107,21 +107,21 @@ excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 
 ## Çözüm
 
-Artık Aspose.Cells for .NET kullanarak Excel'de üst bilgileri ve alt bilgileri nasıl ayarlayacağınızı öğrendiniz. Bu öğretici, ortamın ayarlanmasından değiştirilen çalışma kitabının kaydedilmesine kadar sürecin her adımında size yol gösterdi. Excel dosyalarınızda daha fazla değişiklik yapmak için Aspose.Cells'in özelliklerini daha fazla keşfetmekten çekinmeyin.
+Artık Aspose.Cells for .NET'i kullanarak Excel'de üstbilgi ve altbilgileri nasıl ayarlayacağınızı öğrendiniz. Bu eğitim, ortamın ayarlanmasından değiştirilen çalışma kitabının kaydedilmesine kadar sürecin her adımında size yol gösterdi. Excel dosyalarınızda daha fazla değişiklik yapmak için Aspose.Cells'in özelliklerini daha fazla keşfetmekten çekinmeyin.
 
 ### Sık Sorulan Sorular (SSS)
 
 #### 1. Aspose.Cells for .NET'i sistemime nasıl kurabilirim?
-Aspose.Cells for .NET'i kurmak için kurulum paketini Aspose resmi web sitesinden indirmeniz ve belgelerde verilen talimatları izlemeniz gerekir.
+Aspose.Cells for .NET'i yüklemek için Aspose resmi web sitesinden kurulum paketini indirmeniz ve belgelerde verilen talimatları izlemeniz gerekir.
 
 #### 2. Bu yöntem Excel'in tüm sürümlerinde çalışır mı?
-Evet, Aspose.Cells for .NET ile üst bilgileri ve alt bilgileri ayarlama yöntemi, desteklenen tüm Excel sürümleriyle çalışır.
+Evet, Aspose.Cells for .NET ile üstbilgi ve altbilgileri ayarlama yöntemi, desteklenen tüm Excel sürümleriyle çalışır.
 
-#### 3. Üst bilgileri ve alt bilgileri daha fazla özelleştirebilir miyim?
-Evet, Aspose.Cells üst bilgileri ve alt bilgileri özelleştirmek için metin yerleşimi, renk, yazı tipi, sayfa numaraları ve daha fazlası dahil olmak üzere çok çeşitli özellikler sunar.
+#### 3. Üstbilgileri ve altbilgileri daha da özelleştirebilir miyim?
+Evet, Aspose.Cells üstbilgileri ve altbilgileri özelleştirmek için metin yerleşimi, renk, yazı tipi, sayfa numaraları ve daha fazlası dahil olmak üzere çok çeşitli özellikler sunar.
 
-#### 4. Üstbilgilere ve altbilgilere nasıl dinamik bilgi ekleyebilirim?
-Geçerli tarih, saat, dosya adı, sayfa numarası gibi dinamik bilgileri üstbilgilere ve altbilgilere eklemek için özel değişkenleri ve biçimlendirme kodlarını kullanabilirsiniz.
+#### 4. Üstbilgilere ve altbilgilere dinamik bilgileri nasıl ekleyebilirim?
+Üstbilgilere ve altbilgilere geçerli tarih, saat, dosya adı, sayfa numarası vb. gibi dinamik bilgiler eklemek için özel değişkenleri ve biçimlendirme kodlarını kullanabilirsiniz.
 
-#### 5. Üst bilgileri ve alt bilgileri ayarladıktan sonra kaldırabilir miyim?
- Evet, kullanarak üstbilgileri ve altbilgileri kaldırabilirsiniz.`ClearHeaderFooter` yöntemi`PageSetup` nesne. Bu, varsayılan üst bilgileri ve alt bilgileri geri yükleyecektir.
+#### 5. Üstbilgileri ve altbilgileri ayarladıktan sonra kaldırabilir miyim?
+ Evet, üstbilgileri ve altbilgileri şunu kullanarak kaldırabilirsiniz:`ClearHeaderFooter` yöntemi`PageSetup` nesne. Bu, varsayılan üstbilgileri ve altbilgileri geri yükleyecektir.

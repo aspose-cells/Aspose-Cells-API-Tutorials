@@ -23,7 +23,7 @@ using Aspose.Cells;
 Nach dem Importieren der erforderlichen Bibliotheken können Sie eine neue Excel-Arbeitsmappe und ein neues Arbeitsblatt erstellen. So geht's:
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
@@ -103,7 +103,7 @@ Nachdem Sie diese Schritte ausgeführt haben, haben Sie eine bestimmte Zeile in 
 
 ### Beispielquellcode für „Spezifische Zeile im Excel-Arbeitsblatt schützen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);

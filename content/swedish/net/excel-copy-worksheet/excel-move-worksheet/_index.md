@@ -24,7 +24,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
  Se till att byta ut`"YOUR_DOCUMENTS_DIRECTORY"` med den faktiska sökvägen till din katalog.
 
-## Steg 3: Definiera indatafilens sökväg
+## Steg 3: Definiera sökvägen till indatafilen
 
  Deklarera en`InputPath` variabel och initiera den med den fullständiga sökvägen till den befintliga Excel-fil som du vill ändra. Till exempel :
 
@@ -78,7 +78,7 @@ Var noga med att ange önskad sökväg och filnamn för utdatafilen.
 
 ### Exempel på källkod för Excel Move Worksheet med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 // Öppna en befintlig excel-fil.

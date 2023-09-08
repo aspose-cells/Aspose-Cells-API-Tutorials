@@ -14,7 +14,7 @@ In diesem Tutorial erklären wir Ihnen Schritt für Schritt den folgenden C#-Que
 Zunächst müssen Sie den Verzeichnispfad festlegen, in dem sich Ihre Excel-Datei befindet. Ersetzen Sie „IHR DOKUMENTVERZEICHNIS“ im Code durch den tatsächlichen Pfad Ihrer Excel-Datei.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -58,7 +58,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ### Beispielquellcode für das C#-Tutorial „Excel-Arbeitsblatt nach Namen löschen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

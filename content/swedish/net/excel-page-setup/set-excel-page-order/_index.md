@@ -14,7 +14,7 @@ den här artikeln kommer vi att guida dig steg för steg för att förklara föl
  Innan du börjar måste du konfigurera dokumentkatalogen där du vill spara Excel-filen. Du kan ange katalogsökvägen genom att ersätta värdet på`dataDir` variabel med din egen väg.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
@@ -56,7 +56,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ### Exempel på källkod för Set Excel Page Order med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();

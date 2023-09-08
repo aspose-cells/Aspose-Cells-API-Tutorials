@@ -109,7 +109,7 @@ Detta kommer att spara Excel-arbetsboken med filnamnet "OtherPrintOptions_out.xl
 
 ### Exempel på källkod för Ställ in Excel-utskriftsalternativ med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();

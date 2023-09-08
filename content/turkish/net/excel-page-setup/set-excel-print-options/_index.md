@@ -1,39 +1,39 @@
 ---
-title: Excel Yazdırma Seçeneklerini Ayarlayın
-linktitle: Excel Yazdırma Seçeneklerini Ayarlayın
+title: Excel Yazdırma Seçeneklerini Ayarlama
+linktitle: Excel Yazdırma Seçeneklerini Ayarlama
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET'i kullanarak Excel dosyalarını değiştirmeyi ve yazdırma seçeneklerini özelleştirmeyi öğrenin.
+description: Aspose.Cells for .NET'i kullanarak Excel dosyalarını yönetmeyi ve yazdırma seçeneklerini kolaylıkla özelleştirmeyi öğrenin.
 type: docs
 weight: 150
 url: /tr/net/excel-page-setup/set-excel-print-options/
 ---
-Bu kılavuzda, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı için yazdırma seçeneklerini nasıl ayarlayacağınız konusunda size yol göstereceğiz. Bu görevi gerçekleştirmek için sağlanan C# kaynak kodunda size adım adım yol göstereceğiz.
+Bu kılavuzda, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabının yazdırma seçeneklerini nasıl ayarlayacağınız konusunda size yol göstereceğiz. Bu görevi gerçekleştirmek için size sağlanan C# kaynak kodunu adım adım anlatacağız.
 
 ## 1. Adım: Ortamı ayarlama
 
-Başlamadan önce, geliştirme ortamınızı kurduğunuzdan ve Aspose.Cells for .NET'i kurduğunuzdan emin olun. Kütüphanenin en son sürümünü Aspose resmi web sitesinden indirebilirsiniz.
+Başlamadan önce geliştirme ortamınızı kurduğunuzdan ve Aspose.Cells for .NET'i kurduğunuzdan emin olun. Kütüphanenin son sürümünü Aspose resmi web sitesinden indirebilirsiniz.
 
 ## 2. Adım: Gerekli ad alanlarını içe aktarın
 
-C# projenizde, Aspose.Cells ile çalışmak için gerekli ad alanlarını içe aktarın:
+Aspose.Cells ile çalışmak için C# projenize gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Cells;
 ```
 
-## 3. Adım: Belgeler dizinine giden yolu ayarlama
+## 3. Adım: Belgeler dizininin yolunu ayarlama
 
- ilan etmek`dataDir` oluşturulan Excel dosyasını kaydetmek istediğiniz dizinin yolunu belirtmek için değişken:
+ bir beyan`dataDir` Oluşturulan Excel dosyasını kaydetmek istediğiniz dizinin yolunu belirtmek için değişken:
 
 ```csharp
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- değiştirdiğinizden emin olun`"YOUR_DOCUMENT_DIRECTORY"` sisteminizdeki doğru yol ile.
+ Değiştirdiğinizden emin olun`"YOUR_DOCUMENT_DIRECTORY"` sisteminizde doğru yolla.
 
-## 4. Adım: Çalışma Kitabı Nesnesi Oluşturma
+## Adım 4: Çalışma Kitabı Nesnesi Oluşturma
 
-Oluşturmak istediğiniz Excel çalışma kitabını temsil eden bir Çalışma Kitabı nesnesi örneği oluşturun:
+Oluşturmak istediğiniz Excel çalışma kitabını temsil eden bir Çalışma Kitabı nesnesinin örneğini oluşturun:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -47,15 +47,15 @@ Yazdırma seçeneklerini ayarlamak için öncelikle çalışma sayfasından Page
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
-## 6. Adım: Kılavuz Çizgilerini Yazdırmayı Etkinleştirin
+## Adım 6: Kılavuz Çizgilerini Yazdırmayı Etkinleştirin
 
-Izgara çizgilerinin yazdırılmasını etkinleştirmek için aşağıdaki kodu kullanın:
+Kılavuz çizgilerinin yazdırılmasını etkinleştirmek için aşağıdaki kodu kullanın:
 
 ```csharp
 pageSetup. PrintGridlines = true;
 ```
 
-## 7. Adım: Satır/Sütun Başlığı Yazdırmayı Etkinleştirin
+## Adım 7: Satır/Sütun Başlığı Yazdırmayı Etkinleştirin
 
 Satır ve sütun başlıklarının yazdırılmasını etkinleştirmek için aşağıdaki kodu kullanın:
 
@@ -63,7 +63,7 @@ Satır ve sütun başlıklarının yazdırılmasını etkinleştirmek için aşa
 pageSetup.PrintHeadings = true;
 ```
 
-## 8. Adım: Siyah Beyaz Yazdırma Modunu Etkinleştirme
+## Adım 8: Siyah Beyaz Yazdırma Modunu Etkinleştirme
 
 Çalışma sayfasının siyah beyaz modda yazdırılmasını etkinleştirmek için aşağıdaki kodu kullanın:
 
@@ -71,15 +71,15 @@ pageSetup.PrintHeadings = true;
 pageSetup.BlackAndWhite = true;
 ```
 
-## 9. Adım: Geri Bildirim Yazdırmayı Etkinleştirme
+## Adım 9: Geri Bildirimli Yazdırmayı Etkinleştirme
 
-Yorumların elektronik tabloda göründükleri gibi yazdırılmasına izin vermek için aşağıdaki kodu kullanın:
+Yorumların e-tabloda göründükleri şekilde yazdırılmasına izin vermek için aşağıdaki kodu kullanın:
 
 ```csharp
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
 ```
 
-## 10. Adım: Taslak Modu Yazdırmayı Etkinleştirin
+## Adım 10: Taslak Modunda Yazdırmayı Etkinleştirin
 
 Elektronik tablonun taslak modunda yazdırılmasını etkinleştirmek için aşağıdaki kodu kullanın:
 
@@ -89,9 +89,9 @@ pageSetup.PrintDraft = true;
 
 ## Adım 11: Hücre Hatalarını Yok Olarak Yazdırmayı Etkinleştirin
 
-Hücre hatalarının şu şekilde yazdırılmasına izin vermek için
+Hücre hatalarının şu şekilde yazdırılmasına izin vermek için:
 
-  N/A'dan daha fazla, aşağıdaki kodu kullanın:
+  Yok'tan ziyade aşağıdaki kodu kullanın:
 
 ```csharp
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
@@ -107,32 +107,32 @@ workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 
 Bu, Excel çalışma kitabını "OtherPrintOptions_out.xls" dosya adıyla belirtilen dizine kaydedecektir.
 
-### Aspose.Cells for .NET kullanarak Excel Yazdırma Seçeneklerini Ayarlamak için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel Yazdırma Seçeneklerini Ayarlama için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Bir Çalışma Kitabı nesnesinin örneğini oluşturma
 Workbook workbook = new Workbook();
-// Çalışma sayfasının PageSetup referansını alma
+// Çalışma sayfasının PageSetup referansının alınması
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 // Kılavuz çizgilerini yazdırmaya izin verme
 pageSetup.PrintGridlines = true;
-// Satır/sütun başlıklarını yazdırmaya izin verme
+// Satır/sütun başlıklarının yazdırılmasına izin verilmesi
 pageSetup.PrintHeadings = true;
 // Çalışma sayfasının siyah beyaz modda yazdırılmasına izin verilmesi
 pageSetup.BlackAndWhite = true;
 // Yorumların çalışma sayfasında görüntülendiği şekilde yazdırılmasına izin verilmesi
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
-// Taslak kalitesinde çalışma sayfası yazdırmaya izin verme
+// Taslak kalitesinde çalışma sayfasının yazdırılmasına izin verilmesi
 pageSetup.PrintDraft = true;
-// Hücre hatalarını N/A olarak yazdırmaya izin verme
+// Hücre hatalarının Yok olarak yazdırılmasına izin veriliyor
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 // Çalışma kitabını kaydedin.
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
 ## Çözüm
 
-Artık Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı için yazdırma seçeneklerini nasıl ayarlayacağınızı öğrendiniz. Bu güçlü ve kullanıcı dostu kitaplık, Excel çalışma kitaplarınızın yazdırma ayarlarını kolay ve verimli bir şekilde özelleştirmenize olanak tanır.
+Artık Aspose.Cells for .NET kullanarak bir Excel çalışma kitabının yazdırma seçeneklerini nasıl ayarlayacağınızı öğrendiniz. Bu güçlü ve kullanıcı dostu kitaplık, Excel çalışma kitaplarınızın yazdırma ayarlarını kolay ve verimli bir şekilde özelleştirmenize olanak tanır.
 
 ### SSS
 
@@ -143,8 +143,8 @@ Evet, Aspose.Cells for .NET kenar boşlukları, sayfa yönü, ölçek vb. gibi �
 
 #### 2. Aspose.Cells for .NET diğer Excel dosya formatlarını destekliyor mu?
 
-Evet, Aspose.Cells for .NET, XLSX, XLS, CSV, HTML, PDF, vb. gibi çeşitli Excel dosya formatlarını destekler.
+Evet, Aspose.Cells for .NET, XLSX, XLS, CSV, HTML, PDF vb. gibi çeşitli Excel dosya formatlarını destekler.
 
 #### 3. Aspose.Cells for .NET, .NET Framework'ün tüm sürümleriyle uyumlu mu?
 
-Aspose.Cells for .NET, 3.5, 4.0, 4.5, 4.6 vb. sürümleri dahil olmak üzere .NET Framework 2.0 veya üstü ile uyumludur.
+Aspose.Cells for .NET, 3.5, 4.0, 4.5, 4.6 vb. sürümler de dahil olmak üzere .NET Framework 2.0 veya sonraki sürümleriyle uyumludur.

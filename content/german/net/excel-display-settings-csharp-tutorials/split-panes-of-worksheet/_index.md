@@ -64,7 +64,7 @@ book.Save(dataDir + "output.xls");
 ### Beispielquellcode für Split Panes Of Worksheet mit Aspose.Cells für .NET 
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren Sie eine neue Arbeitsmappe und öffnen Sie eine Vorlagendatei
 Workbook book = new Workbook(dataDir + "Book1.xls");

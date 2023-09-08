@@ -14,7 +14,7 @@ I den här handledningen kommer vi att guida dig steg för steg för att förkla
 För att börja måste du ställa in katalogsökvägen där din Excel-fil finns. Ersätt "DIN DOKUMENTKATOLOG" i koden med den faktiska sökvägen till din Excel-fil.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -55,7 +55,7 @@ För att komma åt ett specifikt kalkylblad efter namn, kan du använda`Workshee
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 ```
 
-## Steg 6: Gå till en specifik cell
+## Steg 6: Få åtkomst till en specifik cell
 
  När du har navigerat till önskat kalkylblad kan du navigera till en specifik cell med hjälp av`Cells` egendom av`Worksheet` objekt och indexera cellreferensen.
 
@@ -75,7 +75,7 @@ Console.WriteLine(cell.Value);
 
 ### Exempel på källkod för Get Excel Worksheet By Name C# Tutorial med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xlsx";
 // Skapa en filström som innehåller Excel-filen som ska öppnas

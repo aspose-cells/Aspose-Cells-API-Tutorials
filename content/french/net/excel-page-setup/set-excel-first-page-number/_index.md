@@ -1,19 +1,19 @@
 ---
-title: Définir le numéro de la première page Excel
-linktitle: Définir le numéro de la première page Excel
+title: Définir le numéro de première page Excel
+linktitle: Définir le numéro de première page Excel
 second_title: Référence de l'API Aspose.Cells pour .NET
-description: Apprenez à définir le premier numéro de page dans Excel à l'aide de Aspose.Cells pour .NET.
+description: Découvrez comment définir le numéro de la première page dans Excel à l'aide d'Aspose.Cells pour .NET.
 type: docs
 weight: 90
 url: /fr/net/excel-page-setup/set-excel-first-page-number/
 ---
-Dans ce didacticiel, nous vous expliquerons comment définir le premier numéro de page dans Excel à l'aide d'Aspose.Cells pour .NET. Nous utiliserons le code source C# pour illustrer le processus.
+Dans ce didacticiel, nous vous expliquerons comment définir le numéro de la première page dans Excel à l'aide d'Aspose.Cells pour .NET. Nous utiliserons le code source C# pour illustrer le processus.
 
-## Étape 1 : Configurer l'environnement
+## Étape 1 : Configuration de l'environnement
 
-Assurez-vous que Aspose.Cells pour .NET est installé sur votre machine. Créez également un nouveau projet dans votre environnement de développement préféré.
+Assurez-vous que Aspose.Cells pour .NET est installé sur votre ordinateur. Créez également un nouveau projet dans votre environnement de développement préféré.
 
-## Étape 2 : Importer les bibliothèques nécessaires
+## Étape 2 : Importer les bibliothèques nécessaires
 
 Dans votre fichier de code, importez les bibliothèques nécessaires pour travailler avec Aspose.Cells. Voici le code correspondant :
 
@@ -21,7 +21,7 @@ Dans votre fichier de code, importez les bibliothèques nécessaires pour travai
 using Aspose.Cells;
 ```
 
-## Étape 3 : Définir le répertoire de données
+## Étape 3 : Définir le répertoire de données
 
 Définissez le répertoire de données dans lequel vous souhaitez enregistrer le fichier Excel modifié. Utilisez le code suivant :
 
@@ -29,7 +29,7 @@ Définissez le répertoire de données dans lequel vous souhaitez enregistrer le
 string dataDir = "YOUR DATA DIRECTORY";
 ```
 
-Assurez-vous de spécifier le chemin d'accès complet au répertoire.
+Assurez-vous de spécifier le chemin complet du répertoire.
 
 ## Étape 4 : Création du classeur et de la feuille de calcul
 
@@ -42,7 +42,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 Cela créera un classeur vide avec une feuille de calcul.
 
-## Étape 5 : Définition du numéro de la première page
+## Étape 5 : Définir le numéro de la première page
 
 Définissez le numéro de la première page des pages de la feuille de calcul à l'aide du code suivant :
 
@@ -50,9 +50,9 @@ Définissez le numéro de la première page des pages de la feuille de calcul à
 worksheet.PageSetup.FirstPageNumber = 2;
 ```
 
-Cela définira le premier numéro de page sur 2.
+Cela définira le numéro de la première page sur 2.
 
-## Étape 6 : enregistrement du classeur modifié
+## Étape 6 : enregistrement du classeur modifié
 
 Enregistrez le classeur modifié à l'aide du code suivant :
 
@@ -62,15 +62,15 @@ workbook.Save(dataDir + "OutputFileName.xls");
 
 Cela enregistrera le classeur modifié dans le répertoire de données spécifié.
 
-### Exemple de code source pour définir le numéro de la première page Excel à l'aide d'Aspose.Cells pour .NET 
+### Exemple de code source pour définir le numéro de première page Excel à l’aide d’Aspose.Cells pour .NET 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 // Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Définition du premier numéro de page des pages de la feuille de calcul
+// Définition du numéro de première page des pages de la feuille de calcul
 worksheet.PageSetup.FirstPageNumber = 2;
 // Enregistrez le classeur.
 workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
@@ -78,26 +78,26 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 
 ## Conclusion
 
-Vous avez maintenant appris à définir le premier numéro de page dans Excel à l'aide d'Aspose.Cells pour .NET. Ce didacticiel vous a guidé à chaque étape du processus, de la configuration de l'environnement à la définition du premier numéro de page. Vous pouvez maintenant utiliser ces connaissances pour personnaliser la numérotation des pages dans vos fichiers Excel.
+Vous avez maintenant appris à définir le numéro de la première page dans Excel à l'aide d'Aspose.Cells pour .NET. Ce didacticiel vous a guidé à travers chaque étape du processus, de la configuration de l'environnement à la définition du premier numéro de page. Vous pouvez désormais utiliser ces connaissances pour personnaliser la numérotation des pages dans vos fichiers Excel.
 
 ### FAQ
 
 #### Q1 : Puis-je définir un numéro de première page différent pour chaque feuille de calcul ?
 
- R1 : Oui, vous pouvez définir un numéro de première page différent pour chaque feuille de calcul en accédant au`FirstPageNumber`propriété de la feuille de calcul respective`PageSetup` objet.
+ A1 : Oui, vous pouvez définir un numéro de première page différent pour chaque feuille de calcul en accédant au`FirstPageNumber`propriété de la feuille de calcul respective`PageSetup` objet.
 
 #### Q2 : Comment puis-je vérifier le numéro de la première page d'une feuille de calcul existante ?
 
- A2 : Vous pouvez vérifier le numéro de la première page d'une feuille de calcul existante en accédant au`FirstPageNumber` propriété de la`PageSetup` objet correspondant à cette feuille de calcul.
+ A2 : Vous pouvez vérifier le numéro de la première page d'une feuille de calcul existante en accédant au`FirstPageNumber` propriété du`PageSetup` objet correspondant à cette feuille de calcul.
 
-#### Q3 : La numérotation des pages commence-t-elle toujours à partir de 1 par défaut ?
+#### Q3 : La numérotation des pages commence-t-elle toujours à 1 par défaut ?
 
-A3 : Oui, la numérotation des pages commence à partir de 1 par défaut dans Excel. Cependant, vous pouvez utiliser le code présenté dans ce didacticiel pour définir un numéro de première page différent.
+A3 : Oui, la numérotation des pages commence à 1 par défaut dans Excel. Cependant, vous pouvez utiliser le code présenté dans ce didacticiel pour définir un numéro de première page différent.
 
-#### Q4 : Les modifications apportées au premier numéro de page sont-elles permanentes dans le fichier Excel modifié ?
+#### Q4 : Les modifications apportées au numéro de la première page sont-elles permanentes dans le fichier Excel modifié ?
 
-R4 : Oui, les modifications apportées au premier numéro de page sont enregistrées de manière permanente dans le fichier Excel modifié.
+A4 : Oui, les modifications apportées au premier numéro de page sont enregistrées définitivement dans le fichier Excel modifié.
 
-#### Q5 : Cette méthode fonctionne-t-elle pour tous les formats de fichier Excel, tels que .xls et .xlsx ?
+#### Q5 : Cette méthode fonctionne-t-elle pour tous les formats de fichiers Excel, tels que .xls et .xlsx ?
 
 A5 : Oui, cette méthode fonctionne pour tous les formats de fichiers Excel pris en charge par Aspose.Cells, y compris .xls et .xlsx.

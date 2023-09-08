@@ -61,7 +61,7 @@ Filtrering av definierade namn när du läser in en Excel-arbetsbok kan vara avg
 
 #### F: Stöder Aspose.Cells andra programmeringsspråk förutom C#?
     
-S: Ja, Aspose.Cells är ett plattformsoberoende bibliotek som stöder många programmeringsspråk som Java, Python, C++, och många fler.
+S: Ja, Aspose.Cells är ett plattformsoberoende bibliotek som stöder många programmeringsspråk som Java, Python, C++och många fler.
 
 #### F: Kan jag filtrera andra datatyper när jag laddar en arbetsbok med Aspose.Cells?
     

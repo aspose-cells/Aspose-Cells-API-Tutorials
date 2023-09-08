@@ -57,7 +57,7 @@ workbook.Save(dataDir + "output.xls");
 
 ### Beispielquellcode für das Ausblenden von Tabellenkalkulationstabellen mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Öffnen der Excel-Datei
 Workbook workbook = new Workbook(dataDir + "book1.xls");

@@ -1,7 +1,7 @@
 ---
-title: Ottieni dettagli Odata
-linktitle: Ottieni dettagli Odata
-second_title: Riferimento all'API Aspose.Cells per .NET
+title: Ottieni i dettagli Odata
+linktitle: Ottieni i dettagli Odata
+second_title: Aspose.Cells per riferimento API .NET
 description: Scopri come recuperare i dettagli OData da una cartella di lavoro di Excel utilizzando Aspose.Cells per .NET.
 type: docs
 weight: 110
@@ -11,7 +11,7 @@ L'uso di OData è comune quando si tratta di recuperare dati strutturati da orig
 
 ## Passaggio 1: specificare la directory di origine
 
-Innanzitutto, è necessario specificare la directory di origine in cui si trova il file Excel contenente i dettagli OData. Ecco come farlo usando Aspose.Cells:
+Innanzitutto, è necessario specificare la directory di origine in cui si trova il file Excel contenente i dettagli OData. Ecco come farlo utilizzando Aspose.Cells:
 
 ```csharp
 // directory di origine
@@ -27,15 +27,15 @@ Una volta specificata la directory di origine, è possibile caricare la cartella
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
-## Passaggio 3: ottenere i dettagli OData
+## Passaggio 3: ottieni i dettagli OData
 
-Dopo aver caricato la cartella di lavoro, puoi accedere ai dettagli OData usando la raccolta PowerQueryFormulas. Ecco come:
+Dopo aver caricato la cartella di lavoro, puoi accedere ai dettagli OData utilizzando la raccolta PowerQueryFormulas. Ecco come:
 
 ```csharp
 // Recupera la raccolta di formule di Power Query
 PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
 
-// Esamina ogni formula di Power Query
+// Esamina ciascuna formula di Power Query
 foreach(PowerQueryFormula PQF in PQFcoll)
 {
 Console.WriteLine("Connection name: " + PQF.Name);
@@ -43,7 +43,7 @@ Console.WriteLine("Connection name: " + PQF.Name);
 // Recupera la raccolta di elementi della formula di Power Query
 PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
 
-// Scorri ogni elemento della formula di Power Query
+// Scorrere ogni elemento della formula di Power Query
 foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
 {
 Console.WriteLine("Name: " + PQFI.Name);
@@ -54,7 +54,7 @@ Console.WriteLine("Value: " + PQFI.Value);
 Console.WriteLine("GetOdataDetails executed successfully.");
 ```
 
-### Esempio di codice sorgente per Ottieni dettagli Odata usando Aspose.Cells per .NET 
+### Codice sorgente di esempio per Ottieni dettagli Odata utilizzando Aspose.Cells per .NET 
 ```csharp
 // directory di origine
 string SourceDir = RunExamples.Get_SourceDirectory();
@@ -75,17 +75,17 @@ Console.WriteLine("GetOdataDetails executed successfully.");
 
 ## Conclusione
 
-Recuperare i dettagli OData da una cartella di lavoro di Excel è ora facile con Aspose.Cells per .NET. Seguendo i passaggi descritti in questa guida, sarai in grado di accedere ed elaborare i dati OData in modo efficiente. Sperimenta con i tuoi file Excel contenenti dettagli OData e ottieni il massimo da questa potente funzionalità.
+Recuperare i dettagli OData da una cartella di lavoro di Excel è ora facile con Aspose.Cells per .NET. Seguendo i passaggi descritti in questa guida, sarai in grado di accedere ed elaborare i dati OData in modo efficiente. Sperimenta i tuoi file Excel contenenti dettagli OData e ottieni il massimo da questa potente funzionalità.
 
 ### Domande frequenti
 
 #### D: Aspose.Cells supporta altre origini dati oltre a OData?
     
-A: Sì, Aspose.Cells supporta più origini dati come database SQL, file CSV, servizi web, ecc.
+R: Sì, Aspose.Cells supporta più origini dati come database SQL, file CSV, servizi Web, ecc.
 
 #### D: Come posso utilizzare i dettagli OData recuperati nella mia applicazione?
     
-A: Dopo aver recuperato i dettagli OData utilizzando Aspose.Cells, puoi utilizzarli per l'analisi dei dati, la generazione di report o qualsiasi altra manipolazione nella tua applicazione.
+R: Dopo aver recuperato i dettagli OData utilizzando Aspose.Cells, puoi utilizzarli per l'analisi dei dati, la generazione di report o qualsiasi altra manipolazione nella tua applicazione.
 
 #### D: Posso filtrare o ordinare i dati OData durante il recupero con Aspose.Cells?
     

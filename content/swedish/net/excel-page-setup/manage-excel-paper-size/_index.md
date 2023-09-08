@@ -29,7 +29,7 @@ Ställ in katalogen där Excel-dokumentet du vill arbeta med finns. Använd föl
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-Var noga med att ange den fullständiga katalogsökvägen.
+Var noga med att ange hela katalogsökvägen.
 
 ## Steg 4: Skapa ett arbetsboksobjekt
 
@@ -73,7 +73,7 @@ Detta kommer att spara arbetsboken med ändringarna i den angivna katalogen.
 
 ### Exempel på källkod för Hantera Excel-pappersstorlek med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();

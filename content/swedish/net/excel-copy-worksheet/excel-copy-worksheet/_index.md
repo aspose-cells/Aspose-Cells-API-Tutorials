@@ -8,7 +8,7 @@ weight: 20
 url: /sv/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 
-den här guiden kommer vi att förklara hur man kopierar ett Excel-kalkylblad med Aspose.Cells-biblioteket för .NET. Vi förser dig med C#-källkod och leder dig genom stegen som krävs för att slutföra denna uppgift. I slutet kommer vi att visa dig det förväntade resultatet. Följ instruktionerna nedan för att komma igång.
+I den här guiden kommer vi att förklara hur man kopierar ett Excel-kalkylblad med Aspose.Cells-biblioteket för .NET. Vi förser dig med C#-källkod och leder dig genom stegen som krävs för att slutföra denna uppgift. I slutet kommer vi att visa dig det förväntade resultatet. Följ instruktionerna nedan för att komma igång.
 
 ## Steg 1: Förberedelser
 
@@ -34,7 +34,7 @@ string dataDir = "PATH_TO_YOUR_DOCUMENT_DIRECTORY";
 
 ## Steg 4: Ladda befintlig Excel-fil
 
- Använd`Workbook`klass från Aspose.Cells för att öppna den befintliga Excel-filen. Använd`InputPath` variabel för att ange filsökvägen:
+ Använd`Workbook` klass från Aspose.Cells för att öppna den befintliga Excel-filen. Använd`InputPath` variabel för att ange filsökvägen:
 
 ```csharp
 string InputPath = dataDir + "book1.xls";
@@ -51,7 +51,7 @@ Workbook wb = new Workbook(InputPath);
 WorksheetCollection sheets = wb.Worksheets;
 ```
 
- Använd sedan`AddCopy` metod för att kopiera det angivna arbetsbladet. Till exempel, för att kopiera "Sheet1":
+ Använd sedan`AddCopy` metod för att kopiera det angivna kalkylbladet. Till exempel, för att kopiera "Sheet1":
 
 ```csharp
 sheets.AddCopy("Sheet1");
@@ -70,7 +70,7 @@ Var noga med att ange önskad sökväg och filnamn för utdatafilen.
 ### Exempel på källkod för Excel Copy Worksheet med Aspose.Cells för .NET 
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 // Öppna en befintlig Excel-fil.

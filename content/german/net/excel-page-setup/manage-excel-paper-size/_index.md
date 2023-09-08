@@ -73,7 +73,7 @@ Dadurch wird die Arbeitsmappe mit den Änderungen im angegebenen Verzeichnis ges
 
 ### Beispielquellcode für „Excel-Papiergröße verwalten“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();

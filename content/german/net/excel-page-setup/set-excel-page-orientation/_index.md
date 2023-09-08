@@ -22,7 +22,7 @@ Aspose.Cells ist eine funktionsreiche Bibliothek, die es Entwicklern ermöglicht
 Bevor wir mit der Excel-Datei arbeiten, müssen wir das Dokumentenverzeichnis einrichten. Ersetzen Sie den Platzhalter „IHR DOKUMENTVERZEICHNIS“ im Codeausschnitt durch den tatsächlichen Pfad zu dem Verzeichnis, in dem Sie die Ausgabedatei speichern möchten.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -67,7 +67,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 ### Beispielquellcode zum Festlegen der Excel-Seitenausrichtung mit Aspose.Cells für .NET 
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();

@@ -14,7 +14,7 @@ In diesem Tutorial führen wir Sie Schritt für Schritt durch die Erläuterung d
 Zunächst müssen Sie den Verzeichnispfad festlegen, in dem sich Ihre Excel-Datei befindet. Ersetzen Sie „IHR DOKUMENTVERZEICHNIS“ im Code durch den tatsächlichen Pfad Ihrer Excel-Datei.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -75,7 +75,7 @@ Console.WriteLine(cell.Value);
 
 ### Beispielquellcode für das C#-Tutorial „Excel-Arbeitsblatt nach Namen abrufen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xlsx";
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält

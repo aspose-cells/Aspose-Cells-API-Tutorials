@@ -130,7 +130,7 @@ Stellen Sie sicher, dass Sie FileStreams immer schließen, wenn Sie sie nicht me
 
 ### Beispielquellcode für „Bild in Kopf- und Fußzeile einfügen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 //Erstellen eines Workbook-Objekts
 Workbook workbook = new Workbook();

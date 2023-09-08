@@ -1,13 +1,13 @@
 ---
 title: Imposta i margini di Excel
 linktitle: Imposta i margini di Excel
-second_title: Riferimento all'API Aspose.Cells per .NET
+second_title: Aspose.Cells per riferimento API .NET
 description: Scopri come impostare i margini in Excel utilizzando Aspose.Cells per .NET. Tutorial passo passo in C#.
 type: docs
 weight: 110
 url: /it/net/excel-page-setup/set-excel-margins/
 ---
-In questo tutorial, ti guideremo passo dopo passo su come impostare i margini in Excel usando Aspose.Cells per .NET. Useremo il codice sorgente C# per illustrare il processo.
+In questo tutorial, ti guideremo passo dopo passo su come impostare i margini in Excel utilizzando Aspose.Cells per .NET. Utilizzeremo il codice sorgente C# per illustrare il processo.
 
 ## Passaggio 1: configurazione dell'ambiente
 
@@ -15,7 +15,7 @@ Assicurati di avere Aspose.Cells per .NET installato sul tuo computer. Crea anch
 
 ## Passaggio 2: importa le librerie necessarie
 
-Nel tuo file di codice, importa le librerie necessarie per lavorare con Aspose.Cells. Ecco il codice corrispondente:
+Nel file di codice, importa le librerie necessarie per lavorare con Aspose.Cells. Ecco il codice corrispondente:
 
 ```csharp
 using Aspose.Cells;
@@ -23,7 +23,7 @@ using Aspose.Cells;
 
 ## Passaggio 3: impostare la directory dei dati
 
-Impostare la directory dei dati in cui si desidera salvare il file Excel modificato. Usa il seguente codice:
+Imposta la directory dei dati in cui desideri salvare il file Excel modificato. Utilizza il seguente codice:
 
 ```csharp
 string dataDir = "YOUR DATA DIRECTORY";
@@ -33,7 +33,7 @@ Assicurati di specificare il percorso completo della directory.
 
 ## Passaggio 4: creazione della cartella di lavoro e del foglio di lavoro
 
-Crea un nuovo oggetto cartella di lavoro e passa al primo foglio di lavoro nella cartella di lavoro utilizzando il codice seguente:
+Crea un nuovo oggetto cartella di lavoro e vai al primo foglio di lavoro nella cartella di lavoro utilizzando il seguente codice:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -41,11 +41,11 @@ WorksheetCollection worksheets = workbook. Worksheets;
 Worksheet worksheet = worksheets[0];
 ```
 
-Questo creerà una cartella di lavoro vuota con un foglio di lavoro e fornirà l'accesso a quel foglio di lavoro.
+Ciò creerà una cartella di lavoro vuota con un foglio di lavoro e fornirà l'accesso a quel foglio di lavoro.
 
 ## Passaggio 5: impostazione dei margini
 
-Accedere all'oggetto PageSetup del foglio di lavoro e impostare i margini utilizzando le proprietà BottomMargin, LeftMargin, RightMargin e TopMargin. Ecco un codice di esempio:
+Accedi all'oggetto PageSetup del foglio di lavoro e imposta i margini utilizzando le proprietà BottomMargin, LeftMargin, RightMargin e TopMargin. Ecco un codice di esempio:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;
@@ -55,11 +55,11 @@ pageSetup.RightMargin = 1;
 pageSetup.TopMargin = 3;
 ```
 
-Questo imposterà rispettivamente i margini inferiore, sinistro, destro e superiore del foglio di lavoro.
+Ciò imposterà rispettivamente i margini inferiore, sinistro, destro e superiore del foglio di lavoro.
 
 ## Passaggio 6: salvataggio della cartella di lavoro modificata
 
-Salva la cartella di lavoro modificata utilizzando il seguente codice:
+Salvare la cartella di lavoro modificata utilizzando il seguente codice:
 
 ```csharp
 workbook.Save(dataDir + "OutputFileName.xls");
@@ -67,9 +67,9 @@ workbook.Save(dataDir + "OutputFileName.xls");
 
 Ciò salverà la cartella di lavoro modificata nella directory dei dati specificata.
 
-### Esempio di codice sorgente per Set Excel Margins using Aspose.Cells for .NET 
+### Codice sorgente di esempio per impostare i margini di Excel utilizzando Aspose.Cells per .NET 
 ```csharp
-// Il percorso della directory dei documenti.
+//Il percorso della directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Creare un oggetto cartella di lavoro
 Workbook workbook = new Workbook();
@@ -77,7 +77,7 @@ Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.Worksheets;
 // Ottieni il primo foglio di lavoro (predefinito).
 Worksheet worksheet = worksheets[0];
-// Ottenere l'oggetto pagesetup
+// Ottieni l'oggetto pagesetup
 PageSetup pageSetup = worksheet.PageSetup;
 // Imposta i margini inferiore, sinistro, destro e superiore della pagina
 pageSetup.BottomMargin = 2;
@@ -92,24 +92,24 @@ workbook.Save(dataDir + "SetMargins_out.xls");
 
 Ora hai imparato come impostare i margini in Excel utilizzando Aspose.Cells per .NET. Questo tutorial ti ha guidato attraverso ogni fase del processo, dalla configurazione dell'ambiente al salvataggio della cartella di lavoro modificata. Sentiti libero di esplorare ulteriormente le funzionalità di Aspose.Cells per eseguire ulteriori manipolazioni nei tuoi file Excel.
 
-### FAQ (Domande frequenti)
+### FAQ (domande frequenti)
 
 #### 1. Come posso specificare margini personalizzati per il mio foglio di calcolo?
 
- È possibile specificare margini personalizzati utilizzando il file`BottomMargin`, `LeftMargin`, `RightMargin` , E`TopMargin` proprietà del`PageSetup` oggetto. Basta impostare i valori desiderati per ciascuna proprietà per regolare i margini secondo necessità.
+ È possibile specificare margini personalizzati utilizzando il file`BottomMargin`, `LeftMargin`, `RightMargin` , E`TopMargin` proprietà del`PageSetup` oggetto. Imposta semplicemente i valori desiderati per ciascuna proprietà per regolare i margini secondo necessità.
 
 #### 2. Posso impostare margini diversi per fogli di lavoro diversi nella stessa cartella di lavoro?
 
- Sì, puoi impostare margini diversi per ogni foglio di lavoro nella stessa cartella di lavoro. Basta accedere al`PageSetup` oggetto di ciascun foglio di lavoro individualmente e impostare i margini specifici per ciascuno di essi.
+ Sì, puoi impostare margini diversi per ciascun foglio di lavoro nella stessa cartella di lavoro. Basta accedere a`PageSetup` oggetto di ciascun foglio di lavoro individualmente e impostare i margini specifici per ciascuno di essi.
 
-#### 3. I margini definiti valgono anche per la stampa del quaderno?
+#### 3. I margini definiti valgono anche per la stampa della cartella di lavoro?
 
-Sì, i margini impostati utilizzando Aspose.Cells si applicano anche durante la stampa della cartella di lavoro. I margini specificati verranno presi in considerazione durante la generazione dell'output stampato della cartella di lavoro.
+Sì, i margini impostati utilizzando Aspose.Cells si applicano anche quando si stampa la cartella di lavoro. I margini specificati verranno presi in considerazione durante la generazione dell'output stampato della cartella di lavoro.
 
 #### 4. Posso modificare i margini di un file Excel esistente utilizzando Aspose.Cells?
 
- Sì, puoi modificare i margini di un file Excel esistente caricando il file con Aspose.Cells, accedendo a ciascun foglio di lavoro`PageSetup` oggetto e modificando i valori delle proprietà margins. Quindi salvare il file modificato per applicare i nuovi margini.
+ Sì, puoi modificare i margini di un file Excel esistente caricando il file con Aspose.Cells, accedendo a ciascun foglio di lavoro`PageSetup` oggetto e modificando i valori delle proprietà dei margini. Quindi salva il file modificato per applicare i nuovi margini.
 
 #### 5. Come rimuovo i margini da un foglio di calcolo?
 
- Per rimuovere i margini da un foglio di lavoro, puoi semplicemente impostare i valori di`BottomMargin`, `LeftMargin`, `RightMargin` E`TopMargin` proprietà a zero. Ciò ripristinerà i margini al valore predefinito (solitamente zero).
+ Per rimuovere i margini da un foglio di lavoro, puoi semplicemente impostare i valori di`BottomMargin`, `LeftMargin`, `RightMargin` E`TopMargin` proprietà a zero. Ciò ripristinerà i margini al loro valore predefinito (solitamente zero).

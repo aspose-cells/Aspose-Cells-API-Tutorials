@@ -2,7 +2,7 @@
 title: Schützen Sie das Excel-Arbeitsblatt
 linktitle: Schützen Sie das Excel-Arbeitsblatt
 second_title: Aspose.Cells für .NET API-Referenz
-description: Entdecken Sie in diesem Tutorial, wie Sie eine Excel-Tabelle mit Aspose.Cells für .NET schützen. Schritt-für-Schritt-Anleitung in C#.
+description: Erfahren Sie in diesem Tutorial, wie Sie eine Excel-Tabelle mit Aspose.Cells für .NET schützen. Schritt-für-Schritt-Anleitung in C#.
 type: docs
 weight: 50
 url: /de/net/protect-excel-file/protect-excel-worksheet/
@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook excel = new Workbook(fstream);
 ```
 
- Unbedingt austauschen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
+ Unbedingt ersetzen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
 
 ## Schritt 4: Greifen Sie auf die Tabelle zu
 
@@ -85,7 +85,7 @@ Fügen Sie diesen Schritt unbedingt am Ende Ihres Codes ein.
 
 ### Beispielquellcode für Protect Excel Worksheet mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

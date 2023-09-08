@@ -33,7 +33,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 Workbook wb = new Workbook();
 ```
 
- Unbedingt austauschen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
+ Unbedingt ersetzen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
 
 ## Schritt 4: Erstellen einer Tabelle
 
@@ -102,7 +102,7 @@ Stellen Sie sicher, dass Sie den richtigen Pfad zum Speichern der geänderten Ex
 
 ### Beispielquellcode für „Zeile im Excel-Arbeitsblatt schützen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);

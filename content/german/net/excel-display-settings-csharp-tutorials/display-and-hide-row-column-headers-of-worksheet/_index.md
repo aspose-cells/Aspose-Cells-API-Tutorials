@@ -47,7 +47,7 @@ workbook.Save(dataDir + "output.xls");
 
 ### Beispielquellcode für das Anzeigen und Ausblenden von Zeilenspaltenköpfen eines Arbeitsblatts mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

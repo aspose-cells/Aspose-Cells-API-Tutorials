@@ -32,7 +32,7 @@ WorkbookDesigner designer = new WorkbookDesigner();
 ## Steg 3: Ladda Excel-arbetsbok
 
 ```csharp
-//Ladda Excel-arbetsboken
+// Ladda Excel-arbetsboken
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
 workbook.Settings.QuotePrefixToStyle = false;
 designer.Workbook = workbook;
