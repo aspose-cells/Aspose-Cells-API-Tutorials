@@ -1,8 +1,8 @@
 ---
-title: Получить ширину бумаги и высоту листа
-linktitle: Получить ширину бумаги и высоту листа
-second_title: Справочник по Aspose.Cells для .NET API
-description: Создайте пошаговое руководство, чтобы объяснить следующий исходный код C#, чтобы получить ширину и высоту бумаги электронной таблицы с помощью Aspose.Cells для .NET.
+title: Получить ширину и высоту листа бумаги
+linktitle: Получить ширину и высоту листа бумаги
+second_title: Справочник по API Aspose.Cells для .NET
+description: Создайте пошаговое руководство, объясняющее следующий исходный код C# для получения ширины и высоты листа электронной таблицы с помощью Aspose.Cells для .NET.
 type: docs
 weight: 80
 url: /ru/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
@@ -16,22 +16,22 @@ url: /ru/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-
 Workbook wb = new Workbook();
 ```
 
-## Шаг 2: доступ к первому рабочему листу
- Затем перейдите к первому рабочему листу в рабочей книге с помощью`Worksheet` сорт:
+## Шаг 2. Доступ к первому листу
+ Затем перейдите к первому листу в книге, используя`Worksheet` сорт:
 
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
 
-## Шаг 3. Установите размер бумаги на A2 и укажите ширину и высоту бумаги в дюймах.
- Использовать`PaperSize` собственность`PageSetup` объект, чтобы установить размер бумаги на A2, затем используйте`PaperWidth` и`PaperHeight` свойства, чтобы получить ширину и высоту бумаги соответственно. Отобразите эти значения с помощью`Console.WriteLine` метод:
+## Шаг 3. Установите размер бумаги A2 и укажите ширину и высоту бумаги в дюймах.
+ Использовать`PaperSize` собственность`PageSetup` объект, чтобы установить размер бумаги A2, затем используйте`PaperWidth` и`PaperHeight` свойства, чтобы получить ширину и высоту бумаги соответственно. Отобразите эти значения с помощью`Console.WriteLine` метод:
 
 ```csharp
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
-## Шаг 4. Повторите шаги для других форматов бумаги.
+## Шаг 4. Повторите действия для бумаги других размеров.
 Повторите предыдущие шаги, изменив размер бумаги на A3, A4 и Letter, а затем отобразив значения ширины и высоты бумаги для каждого размера:
 
 ```csharp
@@ -45,23 +45,23 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
-### Пример исходного кода для получения ширины и высоты листа бумаги с использованием Aspose.Cells для .NET 
+### Пример исходного кода для получения ширины и высоты листа с помощью Aspose.Cells для .NET 
 
 ```csharp
 //Создать книгу
 Workbook wb = new Workbook();
-//Доступ к первому рабочему листу
+//Доступ к первому листу
 Worksheet ws = wb.Worksheets[0];
-//Установите размер бумаги на A2 и распечатайте ширину и высоту бумаги в дюймах.
+//Установите размер бумаги A2 и напечатайте ширину и высоту бумаги в дюймах.
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Установите размер бумаги на A3 и распечатайте ширину и высоту бумаги в дюймах.
+//Установите размер бумаги A3 и напечатайте ширину и высоту бумаги в дюймах.
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Установите размер бумаги на A4 и распечатайте ширину и высоту бумаги в дюймах.
+//Установите размер бумаги A4 и напечатайте ширину и высоту бумаги в дюймах.
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Установите размер бумаги на Letter и напечатайте ширину и высоту бумаги в дюймах.
+//Установите размер бумаги Letter и напечатайте ширину и высоту бумаги в дюймах.
 ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
@@ -69,7 +69,7 @@ Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup
 
 ## Заключение
 
-Вы узнали, как использовать Aspose.Cells для .NET, чтобы получить ширину и высоту бумаги электронной таблицы. Эта функция может быть полезна для настройки и точной компоновки ваших документов Excel.
+Вы узнали, как использовать Aspose.Cells для .NET, чтобы получить ширину и высоту листа электронной таблицы. Эта функция может быть полезна для настройки и точного макета ваших документов Excel.
 
 ### Часто задаваемые вопросы (FAQ)
 
@@ -77,14 +77,14 @@ Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup
 
 Aspose.Cells for .NET — это мощная библиотека для управления и обработки файлов Excel в приложениях .NET. Он предлагает множество функций для создания, изменения, преобразования и анализа файлов Excel.
 
-#### Как я могу получить размер листа электронной таблицы с помощью Aspose.Cells для .NET?
+#### Как я могу получить размер бумаги электронной таблицы с помощью Aspose.Cells для .NET?
 
- Вы можете использовать`PageSetup` класс`Worksheet` объекта для доступа к размеру бумаги. Использовать`PaperSize` свойство для установки размера бумаги и`PaperWidth` и`PaperHeight` свойства, чтобы получить ширину и высоту бумаги соответственно.
+ Вы можете использовать`PageSetup` класс`Worksheet` объект для доступа к размеру бумаги. Использовать`PaperSize` свойство для установки размера бумаги и`PaperWidth` и`PaperHeight` свойства, чтобы получить ширину и высоту бумаги соответственно.
 
-#### Какие форматы бумаги поддерживает Aspose.Cells для .NET?
+#### Какие размеры бумаги поддерживает Aspose.Cells for .NET?
 
-Aspose.Cells для .NET поддерживает широкий диапазон широко используемых форматов бумаги, таких как A2, A3, A4 и Letter, а также многие другие нестандартные форматы.
+Aspose.Cells для .NET поддерживает широкий диапазон часто используемых форматов бумаги, таких как A2, A3, A4 и Letter, а также множество других нестандартных размеров.
 
-#### Могу ли я настроить размер листа электронной таблицы с помощью Aspose.Cells для .NET?
+#### Могу ли я настроить размер бумаги электронной таблицы с помощью Aspose.Cells для .NET?
 
- Да, вы можете установить пользовательский размер бумаги, указав точные размеры ширины и высоты с помощью`PaperWidth` и`PaperHeight` свойства`PageSetup` сорт.
+ Да, вы можете установить нестандартный размер бумаги, указав точные размеры ширины и высоты с помощью`PaperWidth` и`PaperHeight` свойства`PageSetup` сорт.

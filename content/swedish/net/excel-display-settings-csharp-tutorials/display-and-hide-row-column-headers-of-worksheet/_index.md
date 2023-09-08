@@ -47,7 +47,7 @@ workbook.Save(dataDir + "output.xls");
 
 ### Exempel på källkod för att visa och dölja radkolumnrubriker i arbetsblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa en filström som innehåller Excel-filen som ska öppnas
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

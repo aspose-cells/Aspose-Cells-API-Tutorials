@@ -49,7 +49,7 @@ workbook.Save(dataDir + "output.xls");
 ### Exempel på källkod för Freeze Panes Of Worksheet med Aspose.Cells för .NET 
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa en filström som innehåller Excel-filen som ska öppnas
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
-//Använder inställningar för frysta rutor
+// Använder inställningar för frysta rutor
 worksheet.FreezePanes(3, 2, 3, 2);
 // Sparar den ändrade Excel-filen
 workbook.Save(dataDir + "output.xls");

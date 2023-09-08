@@ -23,11 +23,11 @@ I detta första steg definierar vi käll- och utdatakatalogerna för Excel-filer
 ## Steg 2: Ladda Excel-arbetsbok
 
 ```csharp
-//Ladda Excel-arbetsboken
+// Ladda Excel-arbetsboken
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Vi laddar Excel-arbetsboken från den angivna filen med hjälp av`Workbook` klass från Aspose.Cells.
+Vi laddar Excel-arbetsboken från den angivna filen med hjälp av`Workbook` klass från Aspose.Cells.
 
 ## Steg 3: Ställ in alternativ för säkerhetskopiering
 

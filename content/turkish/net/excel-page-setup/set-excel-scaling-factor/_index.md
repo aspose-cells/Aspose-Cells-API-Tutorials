@@ -1,39 +1,39 @@
 ---
-title: Excel Ölçeklendirme Faktörünü Ayarla
-linktitle: Excel Ölçeklendirme Faktörünü Ayarla
+title: Excel Ölçekleme Faktörünü Ayarla
+linktitle: Excel Ölçekleme Faktörünü Ayarla
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak Excel dosyalarını kolayca değiştirmeyi ve ölçekleme faktörünü özelleştirmeyi öğrenin.
+description: Aspose.Cells for .NET'i kullanarak Excel dosyalarını kolayca yönetmeyi ve ölçeklendirme faktörünü özelleştirmeyi öğrenin.
 type: docs
 weight: 180
 url: /tr/net/excel-page-setup/set-excel-scaling-factor/
 ---
-Bu kılavuzda, Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunda ölçekleme faktörünü nasıl ayarlayacağınız konusunda size yol göstereceğiz. Bu görevi gerçekleştirmek için aşağıdaki adımları izleyin.
+Bu kılavuzda, Aspose.Cells for .NET kullanarak bir Excel tablosunda ölçeklendirme faktörünün nasıl ayarlanacağı konusunda size yol göstereceğiz. Bu görevi gerçekleştirmek için aşağıdaki adımları izleyin.
 
 ## 1. Adım: Ortamı ayarlama
 
-Geliştirme ortamınızı kurduğunuzdan ve Aspose.Cells for .NET'i kurduğunuzdan emin olun. Kütüphanenin en son sürümünü Aspose resmi web sitesinden indirebilirsiniz.
+Geliştirme ortamınızı kurduğunuzdan ve Aspose.Cells for .NET'i kurduğunuzdan emin olun. Kütüphanenin son sürümünü Aspose resmi web sitesinden indirebilirsiniz.
 
 ## 2. Adım: Gerekli ad alanlarını içe aktarın
 
-C# projenizde, Aspose.Cells ile çalışmak için gerekli ad alanlarını içe aktarın:
+Aspose.Cells ile çalışmak için C# projenize gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Cells;
 ```
 
-## 3. Adım: Belgeler dizinine giden yolu ayarlama
+## 3. Adım: Belgeler dizininin yolunu ayarlama
 
- ilan etmek`dataDir` oluşturulan Excel dosyasını kaydetmek istediğiniz dizinin yolunu belirtmek için değişken:
+ bir beyan`dataDir` Oluşturulan Excel dosyasını kaydetmek istediğiniz dizinin yolunu belirtmek için değişken:
 
 ```csharp
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- değiştirdiğinizden emin olun`"YOUR_DOCUMENT_DIRECTORY"` sisteminizdeki doğru yol ile.
+ Değiştirdiğinizden emin olun`"YOUR_DOCUMENT_DIRECTORY"` sisteminizde doğru yolla.
 
-## 4. Adım: Çalışma Kitabı Nesnesi Oluşturma
+## Adım 4: Çalışma Kitabı Nesnesi Oluşturma
 
-Oluşturmak istediğiniz Excel çalışma kitabını temsil eden bir Çalışma Kitabı nesnesi örneği oluşturun:
+Oluşturmak istediğiniz Excel çalışma kitabını temsil eden bir Çalışma Kitabı nesnesinin örneğini oluşturun:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -47,7 +47,7 @@ Aşağıdaki kodu kullanarak Excel çalışma kitabındaki ilk çalışma sayfas
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-## 6. Adım: Ölçeklendirme Faktörünü Ayarlayın
+## Adım 6: Ölçekleme Faktörünü Ayarlayın
 
 Aşağıdaki kodu kullanarak ölçeklendirme faktörünü ayarlayın:
 
@@ -55,11 +55,11 @@ Aşağıdaki kodu kullanarak ölçeklendirme faktörünü ayarlayın:
 worksheet.PageSetup.Zoom = 100;
 ```
 
-Burada ölçekleme faktörünü 100 olarak ayarladık, bu, elektronik tablo yazdırıldığında normal boyutun %100'ünde görüntüleneceği anlamına gelir.
+Burada ölçeklendirme faktörünü 100 olarak ayarladık; bu, elektronik tablonun yazdırıldığında %100 normal boyutta görüntüleneceği anlamına gelir.
 
-## 7. Adım: Excel çalışma kitabını kaydetme
+## Adım 7: Excel çalışma kitabını kaydetme
 
- Excel çalışma kitabını tanımlanan ölçekleme faktörüyle kaydetmek için,`Save` Çalışma Kitabı nesnesinin yöntemi:
+ Excel çalışma kitabını tanımlanmış ölçeklendirme faktörüyle kaydetmek için`Save` Çalışma Kitabı nesnesinin yöntemi:
 
 ```csharp
 workbook.Save(dataDir + "ScalingFactor_out.xls");
@@ -67,15 +67,15 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 
 Bu, Excel çalışma kitabını "ScalingFactor_out.xls" dosya adıyla belirtilen dizine kaydedecektir.
 
-### Aspose.Cells for .NET kullanarak Set Excel Scaling Factor için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel Ölçeklendirme Faktörünü Ayarlama için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Bir Çalışma Kitabı nesnesinin örneğini oluşturma
 Workbook workbook = new Workbook();
 // Excel dosyasındaki ilk çalışma sayfasına erişme
 Worksheet worksheet = workbook.Worksheets[0];
-// Ölçekleme faktörünü 100 olarak ayarlama
+// Ölçeklendirme faktörünü 100'e ayarlama
 worksheet.PageSetup.Zoom = 100;
 // Çalışma kitabını kaydedin.
 workbook.Save(dataDir + "ScalingFactor_out.xls");
@@ -83,18 +83,18 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 
 ## Çözüm
 
-Tebrikler! Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunda ölçeklendirme faktörünün nasıl ayarlanacağını öğrendiniz. Ölçekleme faktörü, en uygun görüntü için yazdırırken hesap tablosunun boyutunu ayarlamanıza olanak tanır.
+Tebrikler! Aspose.Cells for .NET'i kullanarak bir Excel tablosunda ölçeklendirme faktörünü nasıl ayarlayacağınızı öğrendiniz. Ölçeklendirme faktörü, en iyi görüntüyü elde etmek için yazdırırken elektronik tablonun boyutunu ayarlamanıza olanak tanır.
 
 ### SSS
 
-#### 1. Aspose.Cells for .NET ile Excel elektronik tablosunda ölçekleme faktörü nasıl ayarlanır?
+#### 1. Aspose.Cells for .NET ile Excel tablosunda ölçeklendirme faktörü nasıl ayarlanır?
 
- Kullan`Zoom` mülkiyeti`PageSetup`Ölçekleme faktörünü ayarlamak için nesne. Örneğin,`worksheet.PageSetup.Zoom = 100;` ölçeklendirme faktörünü %100 olarak ayarlayacaktır.
+ Kullan`Zoom` mülkiyeti`PageSetup`Ölçeklendirme faktörünü ayarlamak için nesne. Örneğin,`worksheet.PageSetup.Zoom = 100;` ölçeklendirme faktörünü %100'e ayarlayacaktır.
 
 #### 2. Ölçeklendirme faktörünü ihtiyaçlarıma göre özelleştirebilir miyim?
 
- Evet, ölçeklendirme faktörüne atanan değeri değiştirerek ölçekleme faktörünü ayarlayabilirsiniz.`Zoom` mülk. Örneğin,`worksheet.PageSetup.Zoom = 75;` ölçeklendirme faktörünü %75 olarak ayarlayacaktır.
+ Evet, ölçeklendirme faktörüne atanan değeri değiştirerek ölçeklendirme faktörünü ayarlayabilirsiniz.`Zoom` mülk. Örneğin,`worksheet.PageSetup.Zoom = 75;` ölçeklendirme faktörünü %75'e ayarlayacaktır.
 
-#### 3. Excel çalışma kitabını tanımlanan ölçekleme faktörü ile kaydetmek mümkün müdür?
+#### 3. Excel çalışma kitabını tanımlanan ölçeklendirme faktörüyle kaydetmek mümkün müdür?
 
- Evet, kullanabilirsiniz`Save` yöntemi`Workbook` Excel çalışma kitabını tanımlanan ölçeklendirme faktörüyle kaydetmek için nesne.
+ Evet, kullanabilirsiniz`Save` yöntemi`Workbook` Excel çalışma kitabını tanımlanan ölçeklendirme faktörüyle kaydetme nesnesi.

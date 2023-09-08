@@ -11,7 +11,7 @@ den här handledningen kommer vi att titta på en del C#-källkod som använder 
 
 ## Steg 1: Förutsättningar
 
-Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan få det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
+Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan hämta det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
 
 ## Steg 2: Importera nödvändiga namnrymder
 
@@ -71,7 +71,7 @@ excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 Se till att ange rätt sökväg för att spara den modifierade Excel-filen.
 
-## Steg 7: Stäng filström
+## Steg 7: Stäng File Stream
 
 För att frigöra alla resurser måste vi stänga filströmmen som används för att ladda Excel-filen. Använd följande kod för att stänga filströmmen:
 
@@ -85,7 +85,7 @@ Se till att inkludera detta steg i slutet av koden.
 
 ### Exempel på källkod för Protect Excel-arbetsblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa en filström som innehåller Excel-filen som ska öppnas
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

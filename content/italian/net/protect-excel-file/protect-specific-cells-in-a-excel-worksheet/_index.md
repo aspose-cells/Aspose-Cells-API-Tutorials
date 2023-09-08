@@ -1,17 +1,17 @@
 ---
 title: Proteggi celle specifiche in un foglio di lavoro Excel
 linktitle: Proteggi celle specifiche in un foglio di lavoro Excel
-second_title: Riferimento all'API Aspose.Cells per .NET
+second_title: Aspose.Cells per riferimento API .NET
 description: Scopri come proteggere celle specifiche in Excel con Aspose.Cells per .NET. Tutorial passo passo in C#.
 type: docs
 weight: 70
 url: /it/net/protect-excel-file/protect-specific-cells-in-a-excel-worksheet/
 ---
-In questo tutorial, esamineremo il codice sorgente C# che utilizza la libreria Aspose.Cells per proteggere celle specifiche in un foglio di calcolo Excel. Esamineremo ogni passaggio del codice e spiegheremo come funziona. Seguire attentamente le istruzioni per ottenere i risultati desiderati.
+In questo tutorial esamineremo il codice sorgente C# che utilizza la libreria Aspose.Cells per proteggere celle specifiche in un foglio di calcolo Excel. Esamineremo ogni passaggio del codice e spiegheremo come funziona. Seguire attentamente le istruzioni per ottenere i risultati desiderati.
 
 ## Passaggio 1: prerequisiti
 
-Prima di iniziare, assicurati di aver installato la libreria Aspose.Cells per .NET. Puoi ottenerlo dal sito ufficiale di Aspose. Assicurati inoltre di disporre di una versione recente di Visual Studio o di qualsiasi altro ambiente di sviluppo C#.
+Prima di iniziare, assicurati di aver installato la libreria Aspose.Cells per .NET. Puoi ottenerlo dal sito ufficiale di Aspose. Assicurati inoltre di avere una versione recente di Visual Studio o qualsiasi altro ambiente di sviluppo C#.
 
 ## Passaggio 2: importa gli spazi dei nomi richiesti
 
@@ -21,9 +21,9 @@ Per utilizzare la libreria Aspose.Cells, dobbiamo importare gli spazi dei nomi n
 using Aspose.Cells;
 ```
 
-## Passaggio 3: creazione di una cartella di lavoro di Excel
+## Passaggio 3: creazione di una cartella di lavoro Excel
 
-In questo passaggio, creeremo una nuova cartella di lavoro di Excel. Utilizzare il codice seguente per creare una cartella di lavoro di Excel:
+In questo passaggio creeremo una nuova cartella di lavoro Excel. Utilizzare il codice seguente per creare una cartella di lavoro di Excel:
 
 ```csharp
 // Percorso della directory dei documenti.
@@ -37,7 +37,7 @@ Workbook wb = new Workbook();
 
 ## Passaggio 4: creazione di un foglio di calcolo
 
-Ora che abbiamo creato la cartella di lavoro di Excel, creiamo un foglio di lavoro e otteniamo il primo foglio. Usa il seguente codice:
+Ora che abbiamo creato la cartella di lavoro di Excel, creiamo un foglio di lavoro e otteniamo il primo foglio. Utilizza il seguente codice:
 
 ```csharp
 // Crea un oggetto foglio di calcolo e ottieni il primo foglio.
@@ -46,19 +46,19 @@ Worksheet sheet = wb.Worksheets[0];
 
 ## Passaggio 5: definizione dello stile
 
-In questo passaggio, definiremo lo stile da applicare a celle specifiche. Usa il seguente codice:
+In questo passaggio, definiremo lo stile da applicare a celle specifiche. Utilizza il seguente codice:
 
 ```csharp
-// Definizione dell'oggetto stile.
+// Definizione dell'oggetto di stile.
 Styling styling;
 ```
 
-## Passaggio 6: loop per sbloccare tutte le colonne
+## Passaggio 6: esegui il ciclo per sbloccare tutte le colonne
 
-Ora passeremo in rassegna tutte le colonne del foglio di lavoro e le sbloccheremo. Usa il seguente codice:
+Ora scorreremo tutte le colonne del foglio di lavoro e le sbloccheremo. Utilizza il seguente codice:
 
 ```csharp
-// Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
+// Scorri tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
 {
      style = sheet.Cells.Columns[(byte)i].Style;
@@ -69,10 +69,10 @@ for (int i = 0; i <= 255; i++)
 
 ## Passaggio 7: blocco di celle specifiche
 
-In questo passaggio, bloccheremo celle specifiche. Usa il seguente codice:
+In questo passaggio, bloccheremo celle specifiche. Utilizza il seguente codice:
 
 ```csharp
-//Blocco di tutte e tre le celle... cioè A1, B1, C1.
+//Bloccare tutte e tre le celle... cioè A1, B1, C1.
 style = sheet.Cells["A1"].GetStyle();
 style. IsLocked = true;
 sheet.Cells["A1"].SetStyle(style);
@@ -86,18 +86,18 @@ style. IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
 ```
 
-## Passaggio 8: protezione del foglio di lavoro
+## Passaggio 8: proteggere il foglio di lavoro
 
-Infine, proteggeremo il foglio di lavoro per impedire la modifica di celle specifiche. Usa il seguente codice:
+Infine, proteggeremo il foglio di lavoro per impedire la modifica di celle specifiche. Utilizza il seguente codice:
 
 ```csharp
 // Proteggi il foglio di lavoro.
 sheet.Protect(ProtectionType.All);
 ```
 
-## Passaggio 9: salvare il file Excel
+## Passaggio 9: salvataggio del file Excel
 
-Ora salveremo il file Excel modificato. Usa il seguente codice:
+Ora salveremo il file Excel modificato. Utilizza il seguente codice:
 
 ```csharp
 // Salva il file Excel.
@@ -106,9 +106,9 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 Assicurati di specificare il percorso corretto per salvare il file Excel modificato.
 
-### Esempio di codice sorgente per Proteggi celle specifiche in un foglio di lavoro Excel utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per Proteggi celle specifiche in un foglio di lavoro Excel utilizzando Aspose.Cells per .NET 
 ```csharp
-// Il percorso della directory dei documenti.
+//Il percorso della directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Crea directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -116,13 +116,13 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crea una nuova cartella di lavoro.
 Workbook wb = new Workbook();
-// Crea un oggetto foglio di lavoro e ottieni il primo foglio.
+// Creare un oggetto del foglio di lavoro e ottenere il primo foglio.
 Worksheet sheet = wb.Worksheets[0];
-// Definire l'oggetto stile.
+// Definire l'oggetto di stile.
 Style style;
 // Definire l'oggetto styleflag
 StyleFlag styleflag;
-// Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
+// Scorri tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -131,7 +131,7 @@ for (int i = 0; i <= 255; i++)
     styleflag.Locked = true;
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
 }
-// Blocca le tre celle ... cioè A1, B1, C1.
+// Blocca le tre celle... cioè A1, B1, C1.
 style = sheet.Cells["A1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["A1"].SetStyle(style);
@@ -141,26 +141,26 @@ sheet.Cells["B1"].SetStyle(style);
 style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
-// Infine, proteggi il foglio ora.
+// Infine, Proteggi il foglio adesso.
 sheet.Protect(ProtectionType.All);
-// Salva il file excel.
+// Salva il file Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
 
 ## Conclusione
 
-Congratulazioni! Ora hai il codice sorgente C# che ti consente di proteggere celle specifiche in un foglio di lavoro di Excel utilizzando la libreria Aspose.Cells per .NET. Sentiti libero di personalizzare il codice in base alle tue esigenze specifiche.
+Congratulazioni! Ora disponi di codice sorgente C# che ti consente di proteggere celle specifiche in un foglio di lavoro Excel utilizzando la libreria Aspose.Cells per .NET. Sentiti libero di personalizzare il codice in base alle tue esigenze specifiche.
 
-### FAQ (Domande frequenti)
+### FAQ (domande frequenti)
 
 #### Questo codice funziona con le versioni recenti di Excel?
 
 Sì, questo codice funziona con le versioni recenti di Excel, inclusi i file in formato Excel 2010 e versioni successive.
 
-#### Posso proteggere altre celle oltre ad A1, B1 e C1?
+#### Posso proteggere altre cellule oltre ad A1, B1 e C1?
 
-Sì, puoi modificare il codice per bloccare altre celle specifiche regolando i riferimenti di cella nelle righe di codice corrispondenti.
+Sì, puoi modificare il codice per bloccare altre celle specifiche modificando i riferimenti di cella nelle righe di codice corrispondenti.
 
 #### Come posso sbloccare nuovamente le celle bloccate?
 
@@ -168,7 +168,7 @@ Sì, puoi modificare il codice per bloccare altre celle specifiche regolando i r
 
 #### Posso aggiungere più fogli di lavoro alla cartella di lavoro?
 
- Sì, puoi aggiungere altri fogli di lavoro alla cartella di lavoro utilizzando il file`Worksheets.Add()`metodo e ripetere i passaggi di protezione della cella per ogni foglio di lavoro.
+ Sì, puoi aggiungere altri fogli di lavoro alla cartella di lavoro utilizzando il file`Worksheets.Add()`metodo e ripetere i passaggi di protezione cellulare per ciascun foglio di lavoro.
 
 #### Come posso modificare il formato di salvataggio del file Excel?
 

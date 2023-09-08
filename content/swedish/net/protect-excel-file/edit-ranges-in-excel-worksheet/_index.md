@@ -88,7 +88,7 @@ workbook.Save(dataDir + "protectedrange.out.xls");
 
 ### Exempel på källkod för Redigera intervall i Excel-arbetsblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);

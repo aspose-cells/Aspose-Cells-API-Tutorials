@@ -21,11 +21,11 @@ In diesem ersten Schritt definieren wir das Ausgabeverzeichnis, in dem die geän
 ## Schritt 2: Erstellen Sie eine neue Arbeitsmappe
 
 ```csharp
-//Erstellen Sie eine neue Arbeitsmappe
+// Erstellen Sie eine neue Arbeitsmappe
 Workbook workbook = new Workbook();
 ```
 
- Hier erstellen wir eine neue Excel-Arbeitsmappe mit`Workbook` Klasse von Aspose.Cells.
+Hier erstellen wir eine neue Excel-Arbeitsmappe mit`Workbook` Klasse von Aspose.Cells.
 
 ## Schritt 3: Greifen Sie auf die Web Extensions Collection zu
 

@@ -7,9 +7,9 @@ type: docs
 weight: 150
 url: /fr/net/excel-page-setup/set-excel-print-options/
 ---
-Dans ce guide, nous vous expliquerons comment définir les options d'impression d'un classeur Excel à l'aide d'Aspose.Cells pour .NET. Nous vous guiderons pas à pas dans le code source C# fourni pour accomplir cette tâche.
+Dans ce guide, nous vous expliquerons comment définir les options d'impression pour un classeur Excel à l'aide d'Aspose.Cells pour .NET. Nous vous guiderons étape par étape à travers le code source C# fourni pour accomplir cette tâche.
 
-## Étape 1 : Configurer l'environnement
+## Étape 1 : Configuration de l'environnement
 
 Avant de commencer, assurez-vous d'avoir configuré votre environnement de développement et installé Aspose.Cells pour .NET. Vous pouvez télécharger la dernière version de la bibliothèque sur le site officiel d'Aspose.
 
@@ -21,17 +21,17 @@ Dans votre projet C#, importez les espaces de noms nécessaires pour travailler 
 using Aspose.Cells;
 ```
 
-## Étape 3 : Définition du chemin d'accès au répertoire des documents
+## Étape 3 : Définition du chemin d'accès au répertoire des documents
 
- Déclarer un`dataDir` variable pour spécifier le chemin d'accès au répertoire où vous souhaitez enregistrer le fichier Excel généré :
+ Déclarer un`dataDir` variable pour spécifier le chemin d'accès au répertoire dans lequel vous souhaitez enregistrer le fichier Excel généré :
 
 ```csharp
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Assurez-vous de remplacer`"YOUR_DOCUMENT_DIRECTORY"` avec le bon chemin sur votre système.
+ Assurez-vous de remplacer`"YOUR_DOCUMENT_DIRECTORY"` avec le chemin correct sur votre système.
 
-## Étape 4 : Création d'un objet de classeur
+## Étape 4 : Création d'un objet classeur
 
 Instanciez un objet Workbook qui représente le classeur Excel que vous souhaitez créer :
 
@@ -39,7 +39,7 @@ Instanciez un objet Workbook qui représente le classeur Excel que vous souhaite
 Workbook workbook = new Workbook();
 ```
 
-## Étape 5 : Obtention de la référence PageSetup de la feuille de calcul
+## Étape 5 : Obtention de la référence PageSetup de la feuille de calcul
 
 Pour définir les options d'impression, nous devons d'abord obtenir la référence PageSetup à partir de la feuille de calcul. Utilisez le code suivant pour obtenir la référence :
 
@@ -47,17 +47,17 @@ Pour définir les options d'impression, nous devons d'abord obtenir la référen
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
-## Étape 6 : Activer l'impression des lignes de grille
+## Étape 6 : Activer l'impression des lignes de grille
 
-Pour activer l'impression des lignes de grille, utilisez le code suivant :
+Pour permettre l'impression des lignes de quadrillage, utilisez le code suivant :
 
 ```csharp
 pageSetup. PrintGridlines = true;
 ```
 
-## Étape 7 : Activer l'impression d'en-tête de ligne/colonne
+## Étape 7 : Activer l’impression des en-têtes de ligne/colonne
 
-Pour activer l'impression des en-têtes de ligne et de colonne, utilisez le code suivant :
+Pour activer l'impression des en-têtes de lignes et de colonnes, utilisez le code suivant :
 
 ```csharp
 pageSetup.PrintHeadings = true;
@@ -71,9 +71,9 @@ Pour activer l'impression de la feuille de calcul en mode noir et blanc, utilise
 pageSetup.BlackAndWhite = true;
 ```
 
-## Étape 9 : Activation de l'impression des commentaires
+## Étape 9 : Activation de l'impression des commentaires
 
-Pour autoriser l'impression des commentaires tels qu'ils apparaissent sur la feuille de calcul, utilisez le code suivant :
+Pour permettre l'impression des commentaires tels qu'ils apparaissent sur la feuille de calcul, utilisez le code suivant :
 
 ```csharp
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
@@ -87,9 +87,9 @@ Pour activer l'impression de la feuille de calcul en mode brouillon, utilisez le
 pageSetup.PrintDraft = true;
 ```
 
-## Étape 11 : Activez l'impression des erreurs de cellule en tant que N/A
+## Étape 11 : Activer l'impression des erreurs de cellule en tant que N/A
 
-Pour permettre aux erreurs de cellule d'être imprimées comme
+Pour permettre aux erreurs de cellule d'être imprimées sous forme
 
   que N/A, utilisez le code suivant :
 
@@ -97,33 +97,33 @@ Pour permettre aux erreurs de cellule d'être imprimées comme
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 ```
 
-## Étape 12 : Enregistrer le classeur Excel
+## Étape 12 : Enregistrement du classeur Excel
 
- Pour enregistrer le classeur Excel avec les options d'impression définies, utilisez le`Save` méthode de l'objet Workbook :
+ Pour enregistrer le classeur Excel avec les options d'impression définies, utilisez le`Save` méthode de l'objet Workbook :
 
 ```csharp
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
 
-Cela enregistrera le classeur Excel avec le nom de fichier "OtherPrintOptions_out.xls" dans le répertoire spécifié.
+Cela enregistrera le classeur Excel avec le nom de fichier « OtherPrintOptions_out.xls » dans le répertoire spécifié.
 
-### Exemple de code source pour définir les options d'impression Excel à l'aide de Aspose.Cells pour .NET 
+### Exemple de code source pour définir les options d'impression Excel à l'aide d'Aspose.Cells pour .NET 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 // Obtention de la référence du PageSetup de la feuille de calcul
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
-// Autoriser l'impression du quadrillage
+// Permettre d'imprimer un quadrillage
 pageSetup.PrintGridlines = true;
 // Permettre d'imprimer les en-têtes de lignes/colonnes
 pageSetup.PrintHeadings = true;
 // Permettre d'imprimer une feuille de calcul en mode noir et blanc
 pageSetup.BlackAndWhite = true;
-// Permettre d'imprimer les commentaires tels qu'ils sont affichés sur la feuille de calcul
+// Permettre d'imprimer les commentaires tels qu'affichés sur la feuille de calcul
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
-// Permettre d'imprimer une feuille de calcul avec une qualité brouillon
+// Permet d'imprimer une feuille de calcul avec une qualité de brouillon
 pageSetup.PrintDraft = true;
 // Permettre d'imprimer les erreurs de cellule comme N/A
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
@@ -132,7 +132,7 @@ workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
 ## Conclusion
 
-Vous avez maintenant appris à définir les options d'impression d'un classeur Excel à l'aide d'Aspose.Cells pour .NET. Cette bibliothèque puissante et conviviale vous permet de personnaliser les paramètres d'impression de vos classeurs Excel de manière simple et efficace.
+Vous avez maintenant appris à définir les options d'impression pour un classeur Excel à l'aide d'Aspose.Cells pour .NET. Cette bibliothèque puissante et conviviale vous permet de personnaliser les paramètres d'impression de vos classeurs Excel de manière simple et efficace.
 
 ### FAQ
 
@@ -141,10 +141,10 @@ Vous avez maintenant appris à définir les options d'impression d'un classeur E
 
 Oui, Aspose.Cells pour .NET offre une large gamme d'options d'impression personnalisables, telles que les marges, l'orientation de la page, l'échelle, etc.
 
-#### 2. Aspose.Cells pour .NET prend-il en charge d'autres formats de fichiers Excel ?
+#### 2. Aspose.Cells for .NET prend-il en charge d'autres formats de fichiers Excel ?
 
-Oui, Aspose.Cells pour .NET prend en charge une variété de formats de fichiers Excel, tels que XLSX, XLS, CSV, HTML, PDF, etc.
+Oui, Aspose.Cells for .NET prend en charge une variété de formats de fichiers Excel, tels que XLSX, XLS, CSV, HTML, PDF, etc.
 
-#### 3. Aspose.Cells pour .NET est-il compatible avec toutes les versions de .NET Framework ?
+#### 3. Aspose.Cells for .NET est-il compatible avec toutes les versions de .NET Framework ?
 
-Aspose.Cells pour .NET est compatible avec .NET Framework 2.0 ou version ultérieure, y compris les versions 3.5, 4.0, 4.5, 4.6, etc.
+Aspose.Cells for .NET est compatible avec .NET Framework 2.0 ou version ultérieure, y compris les versions 3.5, 4.0, 4.5, 4.6, etc.

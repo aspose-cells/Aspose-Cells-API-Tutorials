@@ -100,7 +100,7 @@ Var noga med att ange önskat filnamn och rätt sökväg.
 
 ### Exempel på källkod för Tillåt användare att redigera intervall i Excel-kalkylblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);

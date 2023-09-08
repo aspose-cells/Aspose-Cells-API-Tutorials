@@ -21,13 +21,13 @@ I detta första steg definierar vi källkatalogen där Excel-arbetsboken som inn
 ## Steg 2: Ladda Excel-arbetsbok
 
 ```csharp
-//Ladda Excel-arbetsboken
+// Ladda Excel-arbetsboken
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
 Vi laddar Excel-arbetsboken med hjälp av källfilens sökväg.
 
-## Steg 3: Skaffa kalkylarket
+## Steg 3: Skaffa kalkylbladet
 
 ```csharp
 // Hämta det första kalkylbladet (standard)

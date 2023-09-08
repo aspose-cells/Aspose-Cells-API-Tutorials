@@ -23,7 +23,7 @@ using Aspose.Cells;
 Efter att ha importerat de nödvändiga biblioteken kan du skapa en ny Excel-arbetsbok och ett nytt kalkylblad. Så här gör du:
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 // Skapa en katalog om den inte redan finns.
@@ -103,7 +103,7 @@ Efter att ha följt dessa steg har du framgångsrikt skyddat en specifik rad i d
 
 ### Exempel på källkod för Protect Specific Row In Excel-arbetsblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);

@@ -30,7 +30,7 @@ Ställ in datakatalogen där du vill spara den modifierade Excel-filen. Använd 
 string dataDir = "YOUR DATA DIRECTORY";
 ```
 
-Var noga med att ange den fullständiga katalogsökvägen.
+Var noga med att ange hela katalogsökvägen.
 
 ## Steg 4: Skapa arbetsboken och arbetsbladet
 
@@ -79,7 +79,7 @@ Detta kommer att spara den modifierade arbetsboken i den angivna datakatalogen.
 
 ### Exempel på källkod för Ställ in sidhuvuden och sidfötter i Excel med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook excel = new Workbook();

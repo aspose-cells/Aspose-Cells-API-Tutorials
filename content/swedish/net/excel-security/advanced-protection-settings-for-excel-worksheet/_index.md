@@ -49,7 +49,7 @@ Navigera till det första kalkylbladet i Excel-filen:
 Worksheet worksheet = excel.Worksheets[0];
 ```
 
-## Steg 6: Ange skyddsinställningar för kalkylblad
+## Steg 6: Ställ in skyddsinställningar för kalkylblad
 
 Använd kalkylbladsobjektegenskaper för att ställa in kalkylbladsskydd efter behov. Till exempel :
 
@@ -81,7 +81,7 @@ fstream.Close();
 	
 ### Exempel på källkod för avancerade skyddsinställningar för Excel-arbetsblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa en filström som innehåller Excel-filen som ska öppnas
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);

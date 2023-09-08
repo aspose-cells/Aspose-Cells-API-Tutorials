@@ -79,7 +79,7 @@ Dadurch wird die geänderte Arbeitsmappe im angegebenen Datenverzeichnis gespeic
 
 ### Beispielquellcode für das Festlegen von Excel-Kopf- und -Fußzeilen mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook excel = new Workbook();

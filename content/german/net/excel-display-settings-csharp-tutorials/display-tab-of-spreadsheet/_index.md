@@ -45,7 +45,7 @@ workbook.Save(dataDir + "output.xls");
 ### Beispielquellcode für „Display Tab Of Spreadsheet“ mit Aspose.Cells für .NET 
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei

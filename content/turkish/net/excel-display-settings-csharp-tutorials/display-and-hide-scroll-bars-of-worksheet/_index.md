@@ -11,16 +11,16 @@ Bu eğitimde, Aspose.Cells for .NET ile C# kaynak kodunu kullanarak bir Excel ç
 
 ## 1. Adım: Gerekli kitaplıkları içe aktarın
 
-.NET için Aspose.Cells kitaplığını kurduğunuzdan ve gerekli kitaplıkları C# projenize aktardığınızdan emin olun.
+.NET için Aspose.Cells kütüphanesini kurduğunuzdan emin olun ve gerekli kütüphaneleri C# projenize aktarın.
 
 ```csharp
 using Aspose.Cells;
 using System.IO;
 ```
 
-## 2. Adım: Dizin yolunu ayarlayın ve Excel dosyasını açın
+## Adım 2: Dizin yolunu ayarlayın ve Excel dosyasını açın
 
- Excel dosyanızı içeren dizinin yolunu ayarlayın, ardından bir dosya akışı oluşturarak ve bir örnek oluşturarak dosyayı açın.`Workbook` nesne.
+ Excel dosyanızı içeren dizinin yolunu ayarlayın, ardından bir dosya akışı oluşturup bir örnek oluşturarak dosyayı açın.`Workbook` nesne.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -28,9 +28,9 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
-## 3. Adım: Kaydırma Çubuklarını Gizle
+## 3. Adım: Kaydırma Çubuklarını Gizleyin
 
- Kullan`IsVScrollBarVisible` Ve`IsHScrollBarVisible` özellikleri`Workbook.Settings` çalışma sayfasının dikey ve yatay kaydırma çubuklarını gizlemek için nesne.
+ Kullan`IsVScrollBarVisible` Ve`IsHScrollBarVisible` özellikleri`Workbook.Settings` Çalışma sayfasının dikey ve yatay kaydırma çubuklarını gizlemek için nesne.
 
 ```csharp
 workbook.Settings.IsVScrollBarVisible = false;
@@ -45,10 +45,10 @@ workbook.Settings.IsHScrollBarVisible = false;
 workbook.Save(dataDir + "output.xls");
 ```
 
-### Aspose.Cells for .NET kullanarak Çalışma Sayfasının Kaydırma Çubuklarını Göster ve Gizle için örnek kaynak kodu 
+### Aspose.Cells for .NET Kullanarak Çalışma Sayfasının Kaydırma Çubuklarını Görüntülemek ve Gizlemek için örnek kaynak kodu 
 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Açılacak Excel dosyasını içeren bir dosya akışı oluşturma
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
@@ -67,21 +67,21 @@ fstream.Close();
 
 ### Çözüm
 
-Bu adım adım kılavuz, Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunda dikey ve yatay kaydırma çubuklarını nasıl görüntüleyeceğinizi veya gizleyeceğinizi gösterdi. Sağlanan C# kaynak kodunu kullanarak, Excel dosyalarınızdaki kaydırma çubuklarının görünümünü kolayca özelleştirebilirsiniz.
+Bu adım adım kılavuz, Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunda dikey ve yatay kaydırma çubuklarının nasıl görüntüleneceğini veya gizleneceğini gösterdi. Sağlanan C# kaynak kodunu kullanarak Excel dosyalarınızdaki kaydırma çubuklarının görünümünü kolayca özelleştirebilirsiniz.
 
 ### Sık Sorulan Sorular (SSS)
 
 #### Aspose.Cells for .NET nedir?
 
-Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için güçlü bir kitaplıktır.
+Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını işlemek için güçlü bir kütüphanedir.
 
 #### Aspose.Cells for .NET'i nasıl kurabilirim?
 
- Aspose.Cells for .NET'i kurmak için ilgili paketi adresinden indirmeniz gerekir.[Bültenler](https://releases/aspose.com/cells/net/) ve .NET projenize ekleyin.
+ Aspose.Cells for .NET'i kurmak için ilgili paketi adresinden indirmeniz gerekmektedir.[Sürümleri Aspose](https://releases/aspose.com/cells/net/) ve bunu .NET projenize ekleyin.
 
-#### Aspose.Cells for .NET ile bir Excel elektronik tablosunda kaydırma çubuklarını nasıl görüntüleyebilir veya gizleyebilirim?
+#### Aspose.Cells for .NET ile bir Excel tablosundaki kaydırma çubuklarını nasıl görüntüleyebilir veya gizleyebilirim?
 
- kullanabilirsiniz`IsVScrollBarVisible` Ve`IsHScrollBarVisible` özellikleri`Workbook.Settings` bir Excel çalışma sayfasında sırasıyla dikey ve yatay kaydırma çubuğunu görüntülemek veya gizlemek için nesne.
+ Şunu kullanabilirsiniz:`IsVScrollBarVisible` Ve`IsHScrollBarVisible` özellikleri`Workbook.Settings` Bir Excel çalışma sayfasında sırasıyla dikey ve yatay kaydırma çubuğunu görüntülemek veya gizlemek için nesne.
 
 #### Aspose.Cells for .NET başka hangi Excel dosya formatlarını destekliyor?
 

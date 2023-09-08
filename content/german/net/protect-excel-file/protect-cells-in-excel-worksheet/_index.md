@@ -25,7 +25,7 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-//Erstellen Sie eine neue Arbeitsmappe
+// Erstellen Sie eine neue Arbeitsmappe
 Workbook workbook = new Workbook();
 
 // Holen Sie sich das erste Arbeitsblatt
@@ -98,7 +98,7 @@ workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 
 ### Beispielquellcode für „Zellen im Excel-Arbeitsblatt schützen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);

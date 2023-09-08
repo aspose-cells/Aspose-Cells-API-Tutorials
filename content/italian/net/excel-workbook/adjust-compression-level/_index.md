@@ -1,13 +1,13 @@
 ---
 title: Regola il livello di compressione
 linktitle: Regola il livello di compressione
-second_title: Riferimento all'API Aspose.Cells per .NET
-description: Riduci le dimensioni delle cartelle di lavoro di Excel regolando il livello di compressione con Aspose.Cells per .NET.
+second_title: Aspose.Cells per riferimento API .NET
+description: Riduci la dimensione delle cartelle di lavoro di Excel regolando il livello di compressione con Aspose.Cells per .NET.
 type: docs
 weight: 50
 url: /it/net/excel-workbook/adjust-compression-level/
 ---
-In questo tutorial passo-passo, spiegheremo il codice sorgente C# fornito che ti permetterà di regolare il livello di compressione usando Aspose.Cells per .NET. Seguire i passaggi seguenti per regolare il livello di compressione nella cartella di lavoro di Excel.
+In questo tutorial passo passo, spiegheremo il codice sorgente C# fornito che ti consentirà di regolare il livello di compressione utilizzando Aspose.Cells per .NET. Segui i passaggi seguenti per regolare il livello di compressione nella cartella di lavoro di Excel.
 
 ## Passaggio 1: imposta le directory di origine e di output
 
@@ -18,25 +18,25 @@ string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
 ```
 
-In questo primo passaggio, definiamo le directory di origine e di output per i file Excel.
+In questo primo passaggio definiamo le directory di origine e di output per i file Excel.
 
 ## Passaggio 2: caricare la cartella di lavoro di Excel
 
 ```csharp
-//Carica la cartella di lavoro di Excel
+// Carica la cartella di lavoro di Excel
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Carichiamo la cartella di lavoro di Excel dal file specificato utilizzando l'estensione`Workbook` classe da Aspose.Cells.
+Carichiamo la cartella di lavoro di Excel dal file specificato utilizzando il file`Workbook` classe da Aspose.Cells.
 
 ## Passaggio 3: imposta le opzioni di backup
 
 ```csharp
-// Definisci le opzioni di backup
+// Definire le opzioni di backup
 XlsbSaveOptions options = new XlsbSaveOptions();
 ```
 
- Creiamo un'istanza di`XlsbSaveOptions` class per impostare le opzioni di salvataggio.
+ Creiamo un'istanza di`XlsbSaveOptions` classe per impostare le opzioni di salvataggio.
 
 ## Passaggio 4: regolare il livello di compressione (Livello 1)
 
@@ -66,7 +66,7 @@ Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
 
  Ripetiamo il processo per regolare il livello di compressione`Level6` e salva la cartella di lavoro di Excel con questa opzione.
 
-## Passaggio 6: regolare il livello di compressione (livello 9)
+## Passaggio 6: regolare il livello di compressione (Livello 9)
 
 ```csharp
 // Regola il livello di compressione (Livello 9)
@@ -80,9 +80,9 @@ Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
 
  Ripetiamo il processo un'ultima volta per regolare il livello di compressione`Level9` e salva la cartella di lavoro di Excel con questa opzione.
 
-### Esempio di codice sorgente per regolare il livello di compressione utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per regolare il livello di compressione utilizzando Aspose.Cells per .NET 
 ```csharp
-//Rubrica di origine
+//Directory di origine
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
@@ -120,9 +120,9 @@ R: La compressione in una cartella di lavoro di Excel è un processo di riduzion
 
 #### D: Quali livelli di compressione sono disponibili con Aspose.Cells?
 
-A: Con Aspose.Cells, puoi regolare il livello di compressione da 1 a 9. Maggiore è il livello di compressione, minore sarà la dimensione del file, ma può anche aumentare il tempo di elaborazione.
+R: Con Aspose.Cells, puoi regolare il livello di compressione da 1 a 9. Maggiore è il livello di compressione, minore sarà la dimensione del file, ma può anche aumentare il tempo di elaborazione.
 
-#### D: Come faccio a scegliere il giusto livello di compressione per la mia cartella di lavoro di Excel?
+#### D: Come faccio a scegliere il livello di compressione corretto per la mia cartella di lavoro di Excel?
 
 R: La scelta del livello di compressione dipende dalle tue esigenze specifiche. Se desideri la massima compressione e il tempo di elaborazione non è un problema, puoi scegliere il livello 9. Se preferisci un compromesso tra dimensione del file e tempo di elaborazione, puoi scegliere un livello intermedio.
 
@@ -132,4 +132,4 @@ R: No, la compressione non influisce sulla qualità dei dati nella cartella di l
 
 #### D: Posso regolare il livello di compressione dopo aver salvato il file Excel?
 
-R: No, una volta salvato il file Excel con un livello di compressione specifico, non è possibile regolare il livello di compressione in un secondo momento. Sarà necessario salvare nuovamente il file con il nuovo livello di compressione se si desidera modificarlo.
+R: No, una volta salvato il file Excel con un livello di compressione specifico, non è possibile modificare il livello di compressione in un secondo momento. Dovrai salvare nuovamente il file con il nuovo livello di compressione se desideri modificarlo.

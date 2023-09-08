@@ -20,7 +20,7 @@ När installationen är klar, skapa ett nytt C#-projekt i din föredragna integr
  I den medföljande källkoden måste du ange katalogsökvägen där du vill spara den genererade Excel-filen. Ändra`dataDir` variabel genom att ersätta "DIN DOKUMENTKATOGRAF" med den absoluta sökvägen till katalogen på din maskin.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
 ```
 
@@ -59,7 +59,7 @@ workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 ```
 ### Exempel på källkod för Excel Lägg till sidbrytningar med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();

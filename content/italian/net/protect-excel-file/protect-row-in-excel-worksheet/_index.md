@@ -1,17 +1,17 @@
 ---
-title: Proteggi riga nel foglio di lavoro di Excel
-linktitle: Proteggi riga nel foglio di lavoro di Excel
-second_title: Riferimento all'API Aspose.Cells per .NET
+title: Proteggi riga nel foglio di lavoro Excel
+linktitle: Proteggi riga nel foglio di lavoro Excel
+second_title: Aspose.Cells per riferimento API .NET
 description: Scopri in questo tutorial come proteggere le righe di un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Tutorial passo passo in C#.
 type: docs
 weight: 60
 url: /it/net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
-In questo tutorial, esamineremo un codice sorgente C# che utilizza la libreria Aspose.Cells per proteggere le righe in un foglio di calcolo Excel. Esamineremo ogni passaggio del codice e spiegheremo come funziona. Seguire attentamente le istruzioni per ottenere i risultati desiderati.
+In questo tutorial esamineremo alcuni codici sorgente C# che utilizzano la libreria Aspose.Cells per proteggere le righe in un foglio di calcolo Excel. Esamineremo ogni passaggio del codice e spiegheremo come funziona. Seguire attentamente le istruzioni per ottenere i risultati desiderati.
 
 ## Passaggio 1: prerequisiti
 
-Prima di iniziare, assicurati di aver installato la libreria Aspose.Cells per .NET. Puoi ottenerlo dal sito ufficiale di Aspose. Assicurati inoltre di disporre di una versione recente di Visual Studio o di qualsiasi altro ambiente di sviluppo C#.
+Prima di iniziare, assicurati di aver installato la libreria Aspose.Cells per .NET. Puoi ottenerlo dal sito ufficiale di Aspose. Assicurati inoltre di avere una versione recente di Visual Studio o qualsiasi altro ambiente di sviluppo C#.
 
 ## Passaggio 2: importa gli spazi dei nomi richiesti
 
@@ -21,9 +21,9 @@ Per utilizzare la libreria Aspose.Cells, dobbiamo importare gli spazi dei nomi n
 using Aspose.Cells;
 ```
 
-## Passaggio 3: creazione di una cartella di lavoro di Excel
+## Passaggio 3: creazione di una cartella di lavoro Excel
 
-In questo passaggio, creeremo una nuova cartella di lavoro di Excel. Utilizzare il codice seguente per creare una cartella di lavoro di Excel:
+In questo passaggio creeremo una nuova cartella di lavoro Excel. Utilizzare il codice seguente per creare una cartella di lavoro di Excel:
 
 ```csharp
 // Percorso della directory dei documenti.
@@ -37,7 +37,7 @@ Workbook wb = new Workbook();
 
 ## Passaggio 4: creazione di un foglio di calcolo
 
-Ora che abbiamo creato la cartella di lavoro di Excel, creiamo un foglio di lavoro e otteniamo il primo foglio. Usa il seguente codice:
+Ora che abbiamo creato la cartella di lavoro di Excel, creiamo un foglio di lavoro e otteniamo il primo foglio. Utilizza il seguente codice:
 
 ```csharp
 // Crea un oggetto foglio di calcolo e ottieni il primo foglio.
@@ -46,19 +46,19 @@ Worksheet sheet = wb.Worksheets[0];
 
 ## Passaggio 5: definizione dello stile
 
-In questo passaggio definiremo lo stile da applicare alle righe del foglio di calcolo. Usa il seguente codice:
+In questo passaggio definiremo lo stile da applicare alle righe del foglio di calcolo. Utilizza il seguente codice:
 
 ```csharp
-// Definizione dell'oggetto stile.
+// Definizione dell'oggetto di stile.
 Styling styling;
 ```
 
-## Passaggio 6: loop per sbloccare tutte le colonne
+## Passaggio 6: esegui il ciclo per sbloccare tutte le colonne
 
-Ora passeremo in rassegna tutte le colonne del foglio di lavoro e le sbloccheremo. Usa il seguente codice:
+Ora scorreremo tutte le colonne del foglio di lavoro e le sbloccheremo. Utilizza il seguente codice:
 
 ```csharp
-// Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
+// Scorri tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
 {
      style = sheet.Cells.Columns[(byte)i].Style;
@@ -69,29 +69,29 @@ for (int i = 0; i <= 255; i++)
 
 ## Passaggio 7: bloccare la prima riga
 
-In questo passaggio, bloccheremo la prima riga del foglio di lavoro. Usa il seguente codice:
+In questo passaggio, bloccheremo la prima riga del foglio di lavoro. Utilizza il seguente codice:
 
 ```csharp
 // Ottieni lo stile della prima riga.
 style = sheet.Cells.Rows[0].Style;
 // Blocca lo stile.
 style. IsLocked = true;
-// Applicare lo stile alla prima riga.
+// Applica lo stile alla prima riga.
 sheet.Cells.ApplyRowStyle(0, style);
 ```
 
-## Passaggio 8: protezione del foglio di lavoro
+## Passaggio 8: proteggere il foglio di lavoro
 
-Ora che abbiamo impostato gli stili e bloccato le righe, proteggiamo il foglio di calcolo. Usa il seguente codice:
+Ora che abbiamo impostato gli stili e bloccato le righe, proteggiamo il foglio di calcolo. Utilizza il seguente codice:
 
 ```csharp
 // Proteggi il foglio di lavoro.
 sheet.Protect(ProtectionType.All);
 ```
 
-## Passaggio 9: salvare il file Excel
+## Passaggio 9: salvataggio del file Excel
 
-Infine, salveremo il file Excel modificato. Usa il seguente codice:
+Infine, salveremo il file Excel modificato. Utilizza il seguente codice:
 
 ```csharp
 // Salva il file Excel.
@@ -100,9 +100,9 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 Assicurati di specificare il percorso corretto per salvare il file Excel modificato.
 
-### Esempio di codice sorgente per Proteggi riga nel foglio di lavoro Excel utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per Proteggi riga nel foglio di lavoro Excel utilizzando Aspose.Cells per .NET 
 ```csharp
-// Il percorso della directory dei documenti.
+//Il percorso della directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Crea directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -110,13 +110,13 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crea una nuova cartella di lavoro.
 Workbook wb = new Workbook();
-// Crea un oggetto foglio di lavoro e ottieni il primo foglio.
+// Creare un oggetto del foglio di lavoro e ottenere il primo foglio.
 Worksheet sheet = wb.Worksheets[0];
-// Definire l'oggetto stile.
+// Definire l'oggetto di stile.
 Style style;
 // Definire l'oggetto styleflag.
 StyleFlag flag;
-// Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
+// Scorri tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -129,31 +129,31 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Bloccalo.
 style.IsLocked = true;
-//Crea un'istanza della bandiera.
+//Istanziare la bandiera.
 flag = new StyleFlag();
-// Impostare l'impostazione di blocco.
+// Configurare l'impostazione del blocco.
 flag.Locked = true;
-// Applicare lo stile alla prima riga.
+// Applica lo stile alla prima riga.
 sheet.Cells.ApplyRowStyle(0, style, flag);
 // Proteggi il foglio.
 sheet.Protect(ProtectionType.All);
-// Salva il file excel.
+// Salva il file Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
 ## Conclusione
 
-Congratulazioni! Ora hai il codice sorgente C# che ti consente di proteggere le righe in un foglio di calcolo Excel utilizzando la libreria Aspose.Cells per .NET. Assicurati di seguire attentamente i passaggi e personalizzare il codice in base alle tue esigenze specifiche.
+Congratulazioni! Ora disponi di codice sorgente C# che ti consente di proteggere le righe in un foglio di calcolo Excel utilizzando la libreria Aspose.Cells per .NET. Assicurati di seguire attentamente i passaggi e di personalizzare il codice in base alle tue esigenze specifiche.
 
-### FAQ (Domande frequenti)
+### FAQ (domande frequenti)
 
 #### Questo codice funziona con le versioni recenti di Excel?
 
 Sì, questo codice funziona con le versioni recenti di Excel, inclusi i file in formato Excel 2010 e versioni successive.
 
-#### Posso proteggere solo righe specifiche invece di tutte le righe nel foglio di lavoro?
+#### Posso proteggere solo righe specifiche anziché tutte le righe nel foglio di lavoro?
 
-Sì, puoi modificare il codice per specificare le righe specifiche che desideri proteggere. Dovrai regolare il loop e gli indici di conseguenza.
+Sì, puoi modificare il codice per specificare le righe specifiche che desideri proteggere. Sarà necessario regolare di conseguenza il loop e gli indici.
 
 #### Come posso sbloccare nuovamente le linee bloccate?
 
@@ -161,7 +161,7 @@ Sì, puoi modificare il codice per specificare le righe specifiche che desideri 
 
 #### È possibile proteggere più fogli di lavoro nella stessa cartella di lavoro di Excel?
 
-Sì, puoi ripetere i passaggi di creazione di un foglio di lavoro, impostazione dello stile e protezione per ogni foglio di lavoro nella cartella di lavoro.
+Sì, puoi ripetere i passaggi di creazione di un foglio di lavoro, impostazione dello stile e protezione per ciascun foglio di lavoro nella cartella di lavoro.
 
 #### Come posso modificare la password di protezione del foglio di calcolo?
 

@@ -7,23 +7,23 @@ type: docs
 weight: 130
 url: /tr/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 ---
-Bir XLSB dosyasına dış bağlantıları okumak ve yazmak, Excel çalışma kitaplarınızdaki dış kaynaklardan gelen verileri değiştirmek için çok önemlidir. Aspose.Cells for .NET ile aşağıdaki adımları kullanarak dış bağlantıları kolayca okuyabilir ve yazabilirsiniz:
+Bir XLSB dosyasına harici bağlantıları okumak ve yazmak, Excel çalışma kitaplarınızdaki harici kaynaklardan gelen verileri işlemek için çok önemlidir. Aspose.Cells for .NET ile aşağıdaki adımları kullanarak harici bağlantıları kolayca okuyabilir ve yazabilirsiniz:
 
-## Adım 1: Kaynak dizini ve çıktı dizini belirtin
+## Adım 1: Kaynak dizini ve çıktı dizinini belirtin
 
-Öncelikle, harici bağlantıyı içeren XLSB dosyasının bulunduğu kaynak dizini ve değiştirilen dosyayı kaydetmek istediğiniz çıkış dizinini belirtmeniz gerekir. Aspose.Cells kullanarak bunu şu şekilde yapabilirsiniz:
+Öncelikle, harici bağlantıyı içeren XLSB dosyasının bulunduğu kaynak dizinin yanı sıra, değiştirilen dosyayı kaydetmek istediğiniz çıkış dizinini de belirtmeniz gerekir. Aspose.Cells'i kullanarak bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-// kaynak dizin
+// kaynak dizini
 string sourceDir = RunExamples.Get_SourceDirectory();
 
 // Çıkış dizini
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-## 2. Adım: Kaynak Excel XLSB dosyasını yükleyin
+## Adım 2: Kaynak Excel XLSB dosyasını yükleyin
 
-Ardından, harici bağlantı okuma ve yazma işlemlerini gerçekleştirmek istediğiniz kaynak Excel XLSB dosyasını yüklemeniz gerekir. İşte örnek bir kod:
+Daha sonra harici bağlantı okuma ve yazma işlemlerini gerçekleştirmek istediğiniz kaynak Excel XLSB dosyasını yüklemeniz gerekmektedir. İşte örnek bir kod:
 
 ```csharp
 // Kaynak Excel XLSB dosyasını yükleyin
@@ -47,9 +47,9 @@ Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
 dbCon.Name = "NewCustomer";
 ```
 
-## 4. Adım: Çıktı Excel XLSB dosyasını kaydedin
+## Adım 4: Çıktı Excel XLSB dosyasını kaydedin
 
-Gerekli değişiklikleri yaptıktan sonra, değiştirilen Excel XLSB dosyasını belirtilen çıkış dizinine kaydedebilirsiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Gerekli değişiklikleri yaptıktan sonra değiştirilen Excel XLSB dosyasını belirtilen çıktı dizinine kaydedebilirsiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 // Çıktı Excel XLSB dosyasını kaydedin
@@ -57,7 +57,7 @@ wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
 ```
 
-### Aspose.Cells for .NET kullanarak XLSB Dosyasının Harici Bağlantısını Okumak ve Yazmak için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak XLSB Dosyasının Harici Bağlantısını Okuma ve Yazma için örnek kaynak kodu 
 ```csharp
 //Kaynak dizini
 string sourceDir = RunExamples.Get_SourceDirectory();
@@ -67,7 +67,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 //Aslında bir DB Bağlantısı olan ilk harici bağlantıyı okuyun
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
-//DB-Connection'ın Adını, Komutunu ve Bağlantı Bilgilerini yazdırın
+//DB Bağlantısının Adını, Komutunu ve Bağlantı Bilgisini Yazdırın
 Console.WriteLine("Connection Name: " + dbCon.Name);
 Console.WriteLine("Command: " + dbCon.Command);
 Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
@@ -80,26 +80,26 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 
 ## Çözüm
 
-Dış bağlantıları bir XLSB dosyasına okumak ve yazmak, Excel çalışma kitaplarınızdaki dış kaynaklardan gelen verileri değiştirmenize olanak tanır. Aspose.Cells for .NET ile dış bağlantılara kolayca erişebilir, bağlantı bilgilerini okuyup değiştirebilir ve değişiklikleri kaydedebilirsiniz. Kendi XLSB dosyalarınızla deneyler yapın ve Excel uygulamalarınızda harici bağlantıların gücünden yararlanın.
+XLSB dosyasına harici bağlantıları okumak ve yazmak, Excel çalışma kitaplarınızdaki harici kaynaklardan gelen verileri değiştirmenize olanak tanır. Aspose.Cells for .NET ile harici bağlantılara kolayca erişebilir, bağlantı bilgilerini okuyup değiştirebilir ve değişiklikleri kaydedebilirsiniz. Kendi XLSB dosyalarınızla denemeler yapın ve Excel uygulamalarınızda harici bağlantıların gücünden yararlanın.
 
 ### SSS
 
-#### S: Bir XLSB dosyasındaki harici bağlantı nedir?
+#### S: XLSB dosyasındaki harici bağlantı nedir?
     
-Y: Bir XLSB dosyasındaki harici bağlantı, veritabanı gibi harici bir veri kaynağıyla kurulan bağlantıyı ifade eder. Bu dış kaynaktan Excel çalışma kitabına veri aktarmanıza olanak tanır.
+C: XLSB dosyasındaki harici bağlantı, veritabanı gibi harici bir veri kaynağıyla kurulan bağlantıyı ifade eder. Bu harici kaynaktan verileri Excel çalışma kitabına aktarmanıza olanak tanır.
 
-#### S: Bir XLSB dosyasında birden çok harici bağlantıya sahip olabilir miyim?
+#### S: Bir XLSB dosyasında birden fazla harici bağlantıya sahip olabilir miyim?
      
-C: Evet, bir XLSB dosyasında birden çok harici bağlantınız olabilir. Her bağlantı nesnesine erişerek bunları ayrı ayrı yönetebilirsiniz.
+C: Evet, bir XLSB dosyasında birden fazla harici bağlantınız olabilir. Her bağlantı nesnesine erişerek bunları ayrı ayrı yönetebilirsiniz.
 
-#### S: Bir XLSB dosyasındaki harici bağlantının ayrıntılarını Aspose.Cells ile nasıl okuyabilirim?
+#### S: Aspose.Cells ile XLSB dosyasındaki harici bağlantının ayrıntılarını nasıl okuyabilirim?
      
-C: Bağlantı adı, ilişkili komut ve bağlantı bilgileri gibi harici bir bağlantının özelliklerine erişmek için Aspose.Cells tarafından sağlanan işlevselliği kullanabilirsiniz.
+C: Bağlantı adı, ilişkili komut ve bağlantı bilgileri gibi harici bağlantı özelliklerine erişmek için Aspose.Cells tarafından sağlanan işlevselliği kullanabilirsiniz.
 
-#### S: Bir XLSB dosyasındaki harici bir bağlantıyı Aspose.Cells ile değiştirmek mümkün müdür?
+#### S: XLSB dosyasındaki harici bağlantıyı Aspose.Cells ile değiştirmek mümkün müdür?
      
-C: Evet, özel ihtiyaçlarınızı karşılamak için harici bir bağlantının bağlantı adı gibi özelliklerini değiştirebilirsiniz. Aspose.Cells, bu değişiklikleri yapmak için yöntemler sağlar.
+C: Evet, özel ihtiyaçlarınızı karşılamak için harici bir bağlantının bağlantı adı gibi özelliklerini değiştirebilirsiniz. Aspose.Cells bu değişiklikleri yapmak için yöntemler sağlar.
 
-#### S: Harici bağlantıda yaptığım değişiklikleri Aspose.Cells ile bir XLSB dosyasına nasıl kaydedebilirim?
+#### S: Harici bağlantıda yapılan değişiklikleri Aspose.Cells ile XLSB dosyasına nasıl kaydedebilirim?
      
-C: Harici bir bağlantıda gerekli değişiklikleri yaptıktan sonra, Aspose.Cells tarafından sağlanan uygun yöntemi kullanarak değiştirilen Excel XLSB dosyasını kolayca kaydedebilirsiniz.
+C: Harici bağlantıda gerekli değişiklikleri yaptıktan sonra, değiştirilen Excel XLSB dosyasını Aspose.Cells tarafından sağlanan uygun yöntemi kullanarak kaydedebilirsiniz.

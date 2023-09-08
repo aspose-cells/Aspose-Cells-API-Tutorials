@@ -25,7 +25,7 @@ bool exists = System.IO.Directory.Exists(dataDir);
 if (! exists)
      System.IO.Directory.CreateDirectory(dataDir);
 
-//Skapa en ny arbetsbok
+// Skapa en ny arbetsbok
 Workbook workbook = new Workbook();
 
 // Skaffa det första arbetsbladet
@@ -98,7 +98,7 @@ workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 
 ### Exempel på källkod för Protect Cells In Excel Worksheet med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);

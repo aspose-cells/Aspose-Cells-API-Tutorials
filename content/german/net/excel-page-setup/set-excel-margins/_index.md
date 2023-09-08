@@ -69,7 +69,7 @@ Dadurch wird die geänderte Arbeitsmappe im angegebenen Datenverzeichnis gespeic
 
 ### Beispielquellcode zum Festlegen von Excel-Rändern mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Arbeitsmappenobjekt
 Workbook workbook = new Workbook();

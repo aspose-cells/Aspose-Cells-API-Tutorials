@@ -1,22 +1,22 @@
 ---
-title: Excel Çalışma Kitabını Korumalı Yazarken Yazarı Belirtin
-linktitle: Excel Çalışma Kitabını Korumalı Yazarken Yazarı Belirtin
+title: Excel Çalışma Kitabını Yazmaya Karşı Yazarken Belirleyin
+linktitle: Excel Çalışma Kitabını Yazmaya Karşı Yazarken Belirleyin
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak Excel çalışma kitaplarınızı nasıl koruyacağınızı ve özelleştireceğinizi öğrenin. C# ile adım adım öğretici.
+description: Aspose.Cells for .NET'i kullanarak Excel çalışma kitaplarınızı nasıl koruyacağınızı ve özelleştireceğinizi öğrenin. C#'ta adım adım eğitim.
 type: docs
 weight: 30
 url: /tr/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
 
-Bu eğitimde, Aspose.Cells for .NET kitaplığını kullanarak bir Excel çalışma kitabını yazmaya karşı korurken yazarı nasıl belirteceğinizi göstereceğiz.
+Bu eğitimde, .NET için Aspose.Cells kütüphanesini kullanarak bir Excel çalışma kitabını yazmaya karşı korurken yazarın nasıl belirleneceğini göstereceğiz.
 
-## 1. Adım: Ortamı hazırlamak
+## Adım 1: Ortamın hazırlanması
 
-Başlamadan önce makinenizde Aspose.Cells for .NET'in kurulu olduğundan emin olun. Aspose resmi web sitesinden kitaplığı indirin ve verilen kurulum talimatlarını izleyin.
+Başlamadan önce makinenizde Aspose.Cells for .NET'in kurulu olduğundan emin olun. Kütüphaneyi Aspose resmi web sitesinden indirin ve verilen kurulum talimatlarını izleyin.
 
-## 2. Adım: Kaynak ve çıkış dizinlerini yapılandırma
+## Adım 2: Kaynak ve çıktı dizinlerini yapılandırma
 
-Sağlanan kaynak kodunda, kaynak ve çıktı dizinlerini belirtmeniz gerekir. Değiştirmek`sourceDir` Ve`outputDir` "KAYNAK DİZİNİNİZ" ve "ÇIKTI DİZİNİNİZ"i makinenizdeki ilgili mutlak yollarla değiştirerek değişkenler.
+Sağlanan kaynak kodunda kaynak ve çıktı dizinlerini belirtmeniz gerekir. Değiştirmek`sourceDir` Ve`outputDir` "KAYNAK DİZİNİNİZ" ve "ÇIKTI DİZINİNİZ" i makinenizdeki ilgili mutlak yollarla değiştirerek değişkenleri değiştirin.
 
 ```csharp
 // Kaynak dizini
@@ -35,34 +35,34 @@ Başlamak için boş bir Excel çalışma kitabını temsil eden bir Çalışma 
 Workbook wb = new Workbook();
 ```
 
-## 4. Adım: Parola ile yazma koruması
+## 4. Adım: Şifreyle yazma koruması
 
- Ardından, kullanarak Excel çalışma kitabını korumak için bir parola belirliyoruz.`WriteProtection.Password` Çalışma Kitabı nesnesinin özelliği.
+ Daha sonra, Excel çalışma kitabını yazma koruması için kullanarak bir parola belirliyoruz.`WriteProtection.Password` Çalışma Kitabı nesnesinin özelliği.
 
 ```csharp
-// Koruma çalışma kitabını parola ile yazın.
+// Korumalı çalışma kitabını parolayla yazın.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
-## Adım 5: Yazar belirtimi
+## Adım 5: Yazarın belirtimi
 
  Şimdi Excel çalışma kitabının yazarını kullanarak belirtiyoruz.`WriteProtection.Author` Çalışma Kitabı nesnesinin özelliği.
 
 ```csharp
-// Çalışma kitabını yazmaya karşı korurken yazarı belirtin.
+// Yazma korumalı çalışma kitabını yazarken belirtin.
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
-## 6. Adım: Yedekleme Korumalı Excel Çalışma Kitabı
+## Adım 6: Yedekleme Korumalı Excel Çalışma Kitabı
 
- Yazma koruması ve yazar belirlendikten sonra, Excel çalışma kitabını XLSX biçiminde kaydedebiliriz.`Save()` yöntem.
+ Yazma koruması ve yazar belirtildikten sonra Excel çalışma kitabını aşağıdaki komutu kullanarak XLSX formatında kaydedebiliriz:`Save()` yöntem.
 
 ```csharp
-// Çalışma kitabını XLSX biçiminde kaydedin.
+// Çalışma kitabını XLSX formatında kaydedin.
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
-### Aspose.Cells for .NET kullanarak Excel Çalışma Kitabını Yazmaya Karşı Korurken Yazarı Belirtin için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Excel Çalışma Kitabını Yazarken Yazarken Koruma Koruması için örnek kaynak kodu 
 ```csharp
 //Kaynak dizini
 string sourceDir = "YOUR SOURCE DIRECTORY";
@@ -73,37 +73,37 @@ string outputDir = "YOUR OUTPUT DIRECTORY";
 // Boş çalışma kitabı oluşturun.
 Workbook wb = new Workbook();
 
-// Koruma çalışma kitabını parola ile yazın.
+// Korumalı çalışma kitabını parolayla yazın.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 
-// Çalışma kitabını yazmaya karşı korurken yazarı belirtin.
+// Yazma korumalı çalışma kitabını yazarken belirtin.
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 
-// Çalışma kitabını XLSX biçiminde kaydedin.
+// Çalışma kitabını XLSX formatında kaydedin.
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 
 ```
 
 ## Çözüm
 
-Tebrikler! Artık bir Excel çalışma kitabını Aspose.Cells for .NET ile yazmaya karşı korurken yazarı nasıl belirteceğinizi öğrendiniz. Excel çalışma kitaplarınızı korumak ve özelleştirmek için bu adımları kendi projelerinize uygulayabilirsiniz.
+Tebrikler! Artık bir Excel çalışma kitabını Aspose.Cells for .NET ile yazmaya karşı korurken yazarın nasıl belirleneceğini öğrendiniz. Excel çalışma kitaplarınızı korumak ve özelleştirmek için bu adımları kendi projelerinize uygulayabilirsiniz.
 
-Excel dosyaları üzerinde daha gelişmiş işlemler için Aspose.Cells for .NET'in özelliklerini keşfetmekten çekinmeyin.
+Excel dosyalarında daha gelişmiş işlemler için Aspose.Cells for .NET'in özelliklerini daha fazla keşfetmekten çekinmeyin.
 
 ## SSS
 
-#### S: Korumalı bir Excel çalışma kitabını parola belirtmeden yazabilir miyim?
+#### S: Bir Excel çalışma kitabını parola belirtmeden yazma koruması yapabilir miyim?
 
- C: Evet, Çalışma Kitabı nesnesinin`WriteProtect()` bir Excel çalışma kitabını yazmaya karşı korumak için bir parola belirlemeden yöntem. Bu, parola gerektirmeden çalışma kitabındaki değişiklikleri kısıtlayacaktır.
+ C: Evet, Çalışma Kitabı nesnesinin`WriteProtect()` Excel çalışma kitabını yazmaya karşı korumak için parola belirtmeden yöntem. Bu, çalışma kitabında parola gerektirmeden yapılan değişiklikleri kısıtlayacaktır.
 
-#### S: Bir Excel çalışma kitabından yazma korumasını nasıl kaldırırım?
+#### S: Bir Excel çalışma kitabından yazma korumasını nasıl kaldırabilirim?
 
- Y: Bir Excel çalışma kitabından yazma korumasını kaldırmak için,`Unprotect()` Çalışma Sayfası nesnesinin yöntemi veya`RemoveWriteProtection()` Özel kullanım durumunuza bağlı olarak Çalışma Kitabı nesnesinin yöntemi. .
+ C: Bir Excel çalışma kitabından yazma korumasını kaldırmak için`Unprotect()` Çalışma Sayfası nesnesinin yöntemi veya`RemoveWriteProtection()` Özel kullanım durumunuza bağlı olarak Çalışma Kitabı nesnesinin yöntemini kullanın. .
 
-#### S: Excel çalışma kitabımı korumak için parolamı unuttum. Ne yapabilirim ?
+#### S: Excel çalışma kitabımı korumak için şifreyi unuttum. Ne yapabilirim ?
 
-A: Excel çalışma kitabınızı korumak için parolayı unuttuysanız, doğrudan kaldıramazsınız. Ancak, korumalı Excel dosyaları için parola kurtarma özellikleri sağlayan üçüncü taraf özel araçları kullanmayı deneyebilirsiniz.
+C: Excel çalışma kitabınızı korumak için gereken şifreyi unuttuysanız, onu doğrudan kaldıramazsınız. Ancak korumalı Excel dosyaları için parola kurtarma özellikleri sağlayan özel üçüncü taraf araçlarını kullanmayı deneyebilirsiniz.
 
-#### S: Bir Excel çalışma kitabını yazmaya karşı korurken birden çok yazar belirtmek mümkün müdür?
+#### S: Bir Excel çalışma kitabını yazmaya karşı korurken birden fazla yazar belirtmek mümkün müdür?
 
-C: Hayır, Aspose.Cells for .NET kitaplığı, bir Excel çalışma kitabını yazmaya karşı korurken tek bir yazarın belirtilmesine izin verir. Birden fazla yazar belirtmek istiyorsanız, doğrudan Excel dosyasını değiştirerek özel çözümler düşünmeniz gerekecektir.
+C: Hayır, Aspose.Cells for .NET kitaplığı, bir Excel çalışma kitabını yazmaya karşı korurken tek bir yazarın belirtilmesine olanak tanır. Birden fazla yazar belirtmek istiyorsanız doğrudan Excel dosyasını işleyerek özel çözümleri düşünmeniz gerekecektir.

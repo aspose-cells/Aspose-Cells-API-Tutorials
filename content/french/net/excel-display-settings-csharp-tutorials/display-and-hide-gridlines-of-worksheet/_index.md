@@ -9,7 +9,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/display-and-hide-gridlines-
 ---
 Dans ce didacticiel, nous allons vous montrer comment afficher et masquer le quadrillage dans une feuille de calcul Excel à l'aide du code source C# avec Aspose.Cells pour .NET. Suivez les étapes ci-dessous pour obtenir le résultat souhaité.
 
-## Étape 1 : Importer les bibliothèques nécessaires
+## Étape 1 : Importez les bibliothèques nécessaires
 
 Assurez-vous d'avoir installé la bibliothèque Aspose.Cells pour .NET et importez les bibliothèques nécessaires dans votre projet C#.
 
@@ -28,38 +28,38 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
-## Étape 3 : Accédez à la première feuille de calcul et masquez le quadrillage
+## Étape 3 : accédez à la première feuille de calcul et masquez le quadrillage
 
- Accédez à la première feuille de calcul du fichier Excel à l'aide de la`Worksheets` propriété de la`Workbook` objet. Utilisez ensuite le`IsGridlinesVisible` propriété de la`Worksheet` objet pour masquer le quadrillage.
+ Accédez à la première feuille de calcul du fichier Excel à l'aide du`Worksheets` propriété du`Workbook` objet. Utilisez ensuite le`IsGridlinesVisible` propriété du`Worksheet` objet pour masquer le quadrillage.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.IsGridlinesVisible = false;
 ```
 
-## Étape 4 : Enregistrer les modifications
+## Étape 4 : Enregistrer les modifications
 
- Une fois les modifications nécessaires effectuées, enregistrez le fichier Excel modifié à l'aide de la`Save` méthode de la`Workbook` objet.
+ Une fois que vous avez apporté les modifications nécessaires, enregistrez le fichier Excel modifié à l'aide du`Save` méthode du`Workbook` objet.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-### Exemple de code source pour afficher et masquer le quadrillage de la feuille de calcul à l'aide de Aspose.Cells pour .NET 
+### Exemple de code source pour afficher et masquer le quadrillage d'une feuille de calcul à l'aide d'Aspose.Cells pour .NET 
 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Création d'un flux de fichier contenant le fichier Excel à ouvrir
+// Création d'un flux de fichiers contenant le fichier Excel à ouvrir
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 // Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook workbook = new Workbook(fstream);
 // Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Masquer les lignes de grille de la première feuille de calcul du fichier Excel
+// Masquer les lignes du quadrillage de la première feuille de calcul du fichier Excel
 worksheet.IsGridlinesVisible = false;
-// Enregistrement du fichier Excel modifié
+// Sauvegarde du fichier Excel modifié
 workbook.Save(dataDir + "output.xls");
 // Fermeture du flux de fichiers pour libérer toutes les ressources
 fstream.Close();
@@ -67,23 +67,23 @@ fstream.Close();
 
 ## Conclusion
 
-Ce guide étape par étape vous a montré comment afficher et masquer le quadrillage dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. À l'aide du code source C# fourni, vous pouvez facilement personnaliser l'affichage du quadrillage dans vos fichiers Excel.
+Ce guide étape par étape vous a montré comment afficher et masquer le quadrillage dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. À l’aide du code source C# fourni, vous pouvez facilement personnaliser l’affichage du quadrillage dans vos fichiers Excel.
 
 ### Foire aux questions (FAQ)
 
-#### Qu'est-ce qu'Aspose.Cells pour .NET ?
+#### Qu’est-ce qu’Aspose.Cells pour .NET ?
 
-Aspose.Cells pour .NET est une bibliothèque puissante pour manipuler des fichiers Excel dans des applications .NET.
+Aspose.Cells for .NET est une puissante bibliothèque permettant de manipuler des fichiers Excel dans des applications .NET.
 
-#### Comment puis-je installer Aspose.Cells pour .NET ?
+#### Comment puis-je installer Aspose.Cells pour .NET ?
 
- Pour installer Aspose.Cells pour .NET, vous devez télécharger le package correspondant à partir de[Aspose Communiqués](https://releases/aspose.com/cells/net/) et ajoutez-le à votre projet .NET.
+ Pour installer Aspose.Cells pour .NET, vous devez télécharger le package correspondant à partir de[Aspose les versions](https://releases/aspose.com/cells/net/) et ajoutez-le à votre projet .NET.
 
-#### Comment puis-je afficher ou masquer le quadrillage dans une feuille de calcul Excel avec Aspose.Cells pour .NET ?
+#### Comment puis-je afficher ou masquer le quadrillage dans une feuille de calcul Excel avec Aspose.Cells pour .NET ?
 
- Vous pouvez utiliser le`IsGridlinesVisible` propriété de la`Worksheet` objet pour afficher ou masquer le quadrillage. Réglez-le sur`true` pour les montrer et pour`false` pour les cacher.
+ Vous pouvez utiliser le`IsGridlinesVisible` propriété du`Worksheet` objet pour afficher ou masquer le quadrillage. Réglez-le sur`true` pour leur montrer et pour`false` pour les cacher.
 
-#### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
+#### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
 
-Aspose.Cells pour .NET prend en charge divers formats de fichiers Excel, tels que XLS, XLSX, CSV, HTML, PDF et bien d'autres.
+Aspose.Cells for .NET prend en charge divers formats de fichiers Excel, tels que XLS, XLSX, CSV, HTML, PDF et bien d'autres.
 

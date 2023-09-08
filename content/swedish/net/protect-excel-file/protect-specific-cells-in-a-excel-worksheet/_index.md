@@ -11,7 +11,7 @@ I den här handledningen kommer vi att titta på C#-källkoden som använder Asp
 
 ## Steg 1: Förutsättningar
 
-Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan få det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
+Innan du börjar, se till att du har installerat Aspose.Cells-biblioteket för .NET. Du kan hämta det från Asposes officiella hemsida. Se också till att du har en senaste version av Visual Studio eller någon annan C#-utvecklingsmiljö.
 
 ## Steg 2: Importera nödvändiga namnrymder
 
@@ -108,7 +108,7 @@ Se till att ange rätt sökväg för att spara den modifierade Excel-filen.
 
 ### Exempel på källkod för att skydda specifika celler i ett Excel-kalkylblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);

@@ -1,29 +1,29 @@
 ---
-title: Excel Copier des feuilles de calcul entre des classeurs
-linktitle: Excel Copier des feuilles de calcul entre des classeurs
+title: Copier des feuilles de calcul Excel entre des classeurs
+linktitle: Copier des feuilles de calcul Excel entre des classeurs
 second_title: Référence de l'API Aspose.Cells pour .NET
 description: Copiez facilement des feuilles de calcul entre des classeurs Excel à l'aide d'Aspose.Cells pour .NET.
 type: docs
 weight: 30
 url: /fr/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
-Dans ce didacticiel, nous vous guiderons à travers les étapes pour copier des feuilles de calcul entre des classeurs Excel à l'aide de la bibliothèque Aspose.Cells pour .NET. Suivez les instructions ci-dessous pour effectuer cette tâche.
+Dans ce didacticiel, nous vous guiderons à travers les étapes de copie de feuilles de calcul entre classeurs Excel à l'aide de la bibliothèque Aspose.Cells pour .NET. Suivez les instructions ci-dessous pour terminer cette tâche.
 
 ## Étape 1 : Préparation
 
 Assurez-vous d'avoir installé Aspose.Cells pour .NET et créé un projet C# dans votre environnement de développement intégré (IDE) préféré.
 
-## Étape 2 : Définissez le chemin d'accès au répertoire de documents
+## Étape 2 : Définir le chemin du répertoire du document
 
- Déclarer un`dataDir` variable et initialisez-la avec le chemin d'accès à votre répertoire de documents. Par exemple :
+ Déclarer un`dataDir` variable et initialisez-la avec le chemin d’accès à votre répertoire de documents. Par exemple :
 
 ```csharp
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Assurez-vous de remplacer`"YOUR_DOCUMENTS_DIRECTORY"` avec le chemin d'accès réel à votre répertoire.
+ Assurez-vous de remplacer`"YOUR_DOCUMENTS_DIRECTORY"` avec le chemin réel de votre répertoire.
 
-## Étape 3 : Définissez le chemin d'accès au fichier d'entrée
+## Étape 3 : Définir le chemin du fichier d’entrée
 
  Déclarer un`InputPath` variable et initialisez-la avec le chemin complet du fichier Excel à partir duquel vous souhaitez copier la feuille de calcul. Par exemple :
 
@@ -35,13 +35,13 @@ string InputPath = dataDir + "book1.xls";
 
 ## Étape 4 : Créer un premier classeur Excel
 
- Utilisez le`Workbook` class de Aspose.Cells pour créer un premier classeur Excel et ouvrir le fichier spécifié :
+ Utilisez le`Workbook` classe de Aspose.Cells pour créer un premier classeur Excel et ouvrir le fichier spécifié :
 
 ```csharp
 Workbook excelWorkbook0 = new Workbook(InputPath);
 ```
 
-## Étape 5 : Créer un deuxième classeur Excel
+## Étape 5 : Créez un deuxième classeur Excel
 
 Créez un deuxième classeur Excel :
 
@@ -49,7 +49,7 @@ Créez un deuxième classeur Excel :
 Workbook excelWorkbook1 = new Workbook();
 ```
 
-## Étape 6 : Copiez la feuille de calcul du premier classeur vers le deuxième classeur
+## Étape 6 : Copiez la feuille de calcul du premier classeur vers le deuxième classeur
 
  Utilisez le`Copy`méthode pour copier la première feuille de calcul du premier classeur vers le deuxième classeur :
 
@@ -67,12 +67,12 @@ excelWorkbook1.Save(dataDir + "Copy WorksheetsBetweenWorkbooks_out.xls");
 
 Assurez-vous de spécifier le chemin et le nom de fichier souhaités pour le fichier de sortie.
 
-### Exemple de code source pour Excel Copier des feuilles de calcul entre des classeurs à l'aide d'Aspose.Cells pour .NET 
+### Exemple de code source pour la copie de feuilles de calcul Excel entre classeurs à l'aide d'Aspose.Cells pour .NET 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
-// Créer un classeur.
+// Créez un classeur.
 // Ouvrez un fichier dans le premier livre.
 Workbook excelWorkbook0 = new Workbook(InputPath);
 // Créez un autre classeur.
@@ -93,10 +93,10 @@ Félicitation ! Vous avez maintenant appris à copier des feuilles de calcul ent
 
 A. Pour utiliser Aspose.Cells pour .NET, vous devez inclure la bibliothèque Aspose.Cells dans votre projet. Assurez-vous d'avoir correctement référencé cette bibliothèque dans votre environnement de développement intégré (IDE).
 
-#### Q. Aspose.Cells prend-il en charge d'autres formats de fichiers Excel, tels que XLSX ?
+#### Q. Aspose.Cells prend-il en charge d'autres formats de fichiers Excel, tels que XLSX ?
 
 A. Oui, Aspose.Cells prend en charge divers formats de fichiers Excel, notamment XLSX, XLS, CSV, HTML et bien d'autres. Vous pouvez manipuler ces formats de fichiers à l'aide des fonctionnalités d'Aspose.Cells pour .NET.
 
 #### Q. Puis-je personnaliser les options de mise en page lors de la copie de la feuille de calcul ?
 
-A.  Oui, vous pouvez personnaliser les options de mise en page lors de la copie de la feuille de calcul à l'aide des propriétés du`PageSetup` objet. Vous pouvez spécifier des en-têtes de page, des pieds de page, des marges, des orientations, etc.
+A.  Oui, vous pouvez personnaliser les options de mise en page lors de la copie de la feuille de calcul à l'aide des propriétés du`PageSetup` objet. Vous pouvez spécifier les en-têtes de page, les pieds de page, les marges, les orientations, etc.

@@ -52,14 +52,14 @@ workbook.Save(dataDir + "output.xls");
 
 ### Exempel på källkod för kontrollflikens bredd på kalkylbladet med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 // Öppnar Excel-filen
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 // Döljer flikarna i Excel-filen
 workbook.Settings.ShowTabs = true;
-// Justering av arkets flikstapelbredd
+// Justering av arkflikens bredd
 workbook.Settings.SheetTabBarWidth = 800;
 // Sparar den ändrade Excel-filen
 workbook.Save(dataDir + "output.xls");

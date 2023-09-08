@@ -22,7 +22,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die Aspose.Cells for .NET-Bibliothe
 Um mit dem Schutz bestimmter Spalten zu beginnen, müssen wir mit Aspose.Cells für .NET eine neue Arbeitsmappe und ein neues Arbeitsblatt erstellen. Hier ist der Codeausschnitt:
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
@@ -116,7 +116,7 @@ Stellen Sie sicher, dass Sie „output.out.xls“ durch den gewünschten Dateina
 
 ### Beispielquellcode für „Spezifische Spalte im Excel-Arbeitsblatt schützen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);

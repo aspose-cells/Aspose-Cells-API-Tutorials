@@ -22,7 +22,7 @@ Innan vi börjar, se till att du har Aspose.Cells för .NET-biblioteket installe
 För att börja skydda specifika kolumner måste vi skapa en ny arbetsbok och arbetsblad med Aspose.Cells för .NET. Här är kodavsnittet:
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Skapa katalog om den inte redan finns.
@@ -116,7 +116,7 @@ Se till att ersätta "output.out.xls" med önskat filnamn och filtillägg.
 
 ### Exempel på källkod för Protect Specific Column i Excel-arbetsblad med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);

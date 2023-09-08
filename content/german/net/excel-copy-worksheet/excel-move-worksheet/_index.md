@@ -22,7 +22,7 @@ Stellen Sie sicher, dass Sie Aspose.Cells für .NET installiert und ein C#-Proje
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt austauschen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt ersetzen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 3: Definieren Sie den Eingabedateipfad
 
@@ -78,7 +78,7 @@ Geben Sie unbedingt den gewünschten Pfad und Dateinamen für die Ausgabedatei a
 
 ### Beispielquellcode für Excel Move Worksheet mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 // Öffnen Sie eine vorhandene Excel-Datei.

@@ -64,7 +64,7 @@ Dadurch wird die geänderte Arbeitsmappe im angegebenen Datenverzeichnis gespeic
 
 ### Beispielquellcode für „Erste Seitenzahl in Excel festlegen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();

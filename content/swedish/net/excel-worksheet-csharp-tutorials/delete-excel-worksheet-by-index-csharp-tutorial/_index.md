@@ -14,7 +14,7 @@ I den här handledningen tar vi dig steg för steg för att förklara C#-källko
 För att börja måste du ställa in katalogsökvägen där din Excel-fil finns. Ersätt "DIN DOKUMENTKATOLOG" i koden med den faktiska sökvägen till din Excel-fil.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -58,14 +58,14 @@ workbook.Save(dataDir + "output.out.xls");
 
 ### Exempel på källkod för Ta bort Excel-kalkylblad efter index C# Tutorial med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Skapa en filström som innehåller Excel-filen som ska öppnas
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 // Instantiera ett arbetsboksobjekt
 // Öppna Excel-filen genom filströmmen
 Workbook workbook = new Workbook(fstream);
-// Ta bort ett kalkylblad med dess arkindex
+//Ta bort ett kalkylblad med dess arkindex
 workbook.Worksheets.RemoveAt(0);
 // Spara arbetsboken
 workbook.Save(dataDir + "output.out.xls");

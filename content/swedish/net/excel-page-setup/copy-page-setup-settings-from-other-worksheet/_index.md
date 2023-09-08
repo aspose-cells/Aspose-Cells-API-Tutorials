@@ -32,7 +32,7 @@ Worksheet TestSheet1 = wb. Worksheets["TestSheet1"];
 Worksheet TestSheet2 = wb. Worksheets["TestSheet2"];
 ```
 
-## Steg 4: Ställ in pappersstorlek
+## Steg 4: Ställa in pappersstorlek
  I det här steget kommer vi att ställa in pappersstorleken för kalkylbladet "TestSheet1". Vi kommer att använda`PageSetup.PaperSize` egenskap för att ställa in pappersstorleken. Till exempel kommer vi att ställa in pappersstorleken till "PaperA3ExtraTransverse". Här är koden för det:
 
 ```csharp

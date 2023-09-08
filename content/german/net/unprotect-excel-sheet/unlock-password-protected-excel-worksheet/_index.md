@@ -20,7 +20,7 @@ Erstellen Sie nach Abschluss der Installation ein neues C#-Projekt in Ihrer bevo
  Im bereitgestellten Quellcode müssen Sie den Verzeichnispfad angeben, in dem sich die Excel-Datei befindet, die Sie entsperren möchten. Modifiziere den`dataDir` Variable, indem Sie „IHR DOKUMENTVERZEICHNIS“ durch den absoluten Pfad des Verzeichnisses auf Ihrem Computer ersetzen.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
 ```
 
@@ -66,7 +66,7 @@ workbook.Save(dataDir + "output.out.xls");
 ```csharp
 try
 {
-    // Der Pfad zum Dokumentenverzeichnis.
+    //Der Pfad zum Dokumentenverzeichnis.
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     // Instanziieren eines Workbook-Objekts
     Workbook workbook = new Workbook(dataDir + "book1.xls");

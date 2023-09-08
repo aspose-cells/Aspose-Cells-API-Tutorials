@@ -2,14 +2,14 @@
 title: Afficher et masquer les barres de défilement de la feuille de calcul
 linktitle: Afficher et masquer les barres de défilement de la feuille de calcul
 second_title: Référence de l'API Aspose.Cells pour .NET
-description: Affichez ou masquez les barres de défilement dans la feuille de calcul Excel à l'aide de Aspose.Cells pour .NET.
+description: Affichez ou masquez les barres de défilement dans la feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET.
 type: docs
 weight: 50
 url: /fr/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
 ---
 Dans ce didacticiel, nous allons vous montrer comment afficher ou masquer les barres de défilement verticales et horizontales dans une feuille de calcul Excel à l'aide du code source C# avec Aspose.Cells pour .NET. Suivez les étapes ci-dessous pour obtenir le résultat souhaité.
 
-## Étape 1 : Importer les bibliothèques nécessaires
+## Étape 1 : Importez les bibliothèques nécessaires
 
 Assurez-vous d'avoir installé la bibliothèque Aspose.Cells pour .NET et importez les bibliothèques nécessaires dans votre projet C#.
 
@@ -28,29 +28,29 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
-## Étape 3 : Masquer les barres de défilement
+## Étape 3 : Masquer les barres de défilement
 
- Utilisez le`IsVScrollBarVisible` et`IsHScrollBarVisible` propriétés de la`Workbook.Settings` objet pour masquer les barres de défilement verticales et horizontales de la feuille de calcul.
+ Utilisez le`IsVScrollBarVisible` et`IsHScrollBarVisible` propriétés du`Workbook.Settings` objet pour masquer les barres de défilement verticales et horizontales de la feuille de calcul.
 
 ```csharp
 workbook.Settings.IsVScrollBarVisible = false;
 workbook.Settings.IsHScrollBarVisible = false;
 ```
 
-## Étape 4 : Enregistrer les modifications
+## Étape 4 : Enregistrer les modifications
 
- Une fois les modifications nécessaires effectuées, enregistrez le fichier Excel modifié à l'aide de la`Save` méthode de la`Workbook` objet.
+ Une fois que vous avez apporté les modifications nécessaires, enregistrez le fichier Excel modifié à l'aide du`Save` méthode du`Workbook` objet.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-### Exemple de code source pour afficher et masquer les barres de défilement de la feuille de calcul à l'aide de Aspose.Cells pour .NET 
+### Exemple de code source pour afficher et masquer les barres de défilement d'une feuille de calcul à l'aide d'Aspose.Cells pour .NET 
 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Création d'un flux de fichier contenant le fichier Excel à ouvrir
+// Création d'un flux de fichiers contenant le fichier Excel à ouvrir
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 // Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook(fstream);
 workbook.Settings.IsVScrollBarVisible = false;
 // Masquer la barre de défilement horizontale du fichier Excel
 workbook.Settings.IsHScrollBarVisible = false;
-// Enregistrement du fichier Excel modifié
+// Sauvegarde du fichier Excel modifié
 workbook.Save(dataDir + "output.xls");
 // Fermeture du flux de fichiers pour libérer toutes les ressources
 fstream.Close();
@@ -71,18 +71,18 @@ Ce guide étape par étape vous a montré comment afficher ou masquer les barres
 
 ### Foire aux questions (FAQ)
 
-#### Qu'est-ce qu'Aspose.Cells pour .NET ?
+#### Qu’est-ce qu’Aspose.Cells pour .NET ?
 
-Aspose.Cells pour .NET est une bibliothèque puissante pour manipuler des fichiers Excel dans des applications .NET.
+Aspose.Cells for .NET est une puissante bibliothèque permettant de manipuler des fichiers Excel dans des applications .NET.
 
-#### Comment puis-je installer Aspose.Cells pour .NET ?
+#### Comment puis-je installer Aspose.Cells pour .NET ?
 
- Pour installer Aspose.Cells pour .NET, vous devez télécharger le package correspondant à partir de[Aspose Communiqués](https://releases/aspose.com/cells/net/) et ajoutez-le à votre projet .NET.
+ Pour installer Aspose.Cells pour .NET, vous devez télécharger le package correspondant à partir de[Aspose les versions](https://releases/aspose.com/cells/net/) et ajoutez-le à votre projet .NET.
 
 #### Comment puis-je afficher ou masquer les barres de défilement dans une feuille de calcul Excel avec Aspose.Cells pour .NET ?
 
- Vous pouvez utiliser le`IsVScrollBarVisible` et`IsHScrollBarVisible` propriétés de la`Workbook.Settings` objet pour afficher ou masquer respectivement la barre de défilement verticale et horizontale dans une feuille de calcul Excel.
+ Vous pouvez utiliser le`IsVScrollBarVisible` et`IsHScrollBarVisible` propriétés du`Workbook.Settings` objet pour afficher ou masquer respectivement la barre de défilement verticale et horizontale dans une feuille de calcul Excel.
 
-#### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
+#### Quels autres formats de fichiers Excel sont pris en charge par Aspose.Cells pour .NET ?
 
-Aspose.Cells pour .NET prend en charge une variété de formats de fichiers Excel, tels que XLS, XLSX, CSV, HTML, PDF, etc.
+Aspose.Cells for .NET prend en charge une variété de formats de fichiers Excel, tels que XLS, XLSX, CSV, HTML, PDF, etc.

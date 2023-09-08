@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /tr/net/excel-workbook/add-web-extension/
 ---
-Bu adım adım öğreticide, Aspose.Cells for .NET kullanarak bir web uzantısı eklemenizi sağlayacak, sağlanan C# kaynak kodunu açıklayacağız. Excel çalışma kitabınıza bir web uzantısı eklemek için aşağıdaki adımları izleyin.
+Bu adım adım eğitimde, Aspose.Cells for .NET kullanarak bir web uzantısı eklemenizi sağlayacak C# kaynak kodunu açıklayacağız. Excel çalışma kitabınıza web uzantısı eklemek için aşağıdaki adımları izleyin.
 
 ## 1. Adım: Çıkış dizinini ayarlayın
 
@@ -16,16 +16,16 @@ Bu adım adım öğreticide, Aspose.Cells for .NET kullanarak bir web uzantısı
 string outDir = RunExamples.Get_OutputDirectory();
 ```
 
-Bu ilk adımda, değiştirilen Excel çalışma kitabının kaydedileceği çıktı dizinini tanımlıyoruz.
+Bu ilk adımda değiştirilen Excel çalışma kitabının kaydedileceği çıktı dizinini tanımlıyoruz.
 
-## 2. Adım: Yeni bir çalışma kitabı oluşturun
+## Adım 2: Yeni bir çalışma kitabı oluşturun
 
 ```csharp
-//Yeni bir çalışma kitabı oluştur
+// Yeni bir çalışma kitabı oluştur
 Workbook workbook = new Workbook();
 ```
 
- Burada kullanarak yeni bir Excel çalışma kitabı oluşturuyoruz.`Workbook` Aspose.Cells'ten sınıf.
+Burada aşağıdakileri kullanarak yeni bir Excel çalışma kitabı oluşturuyoruz:`Workbook` Aspose.Cells'ten sınıf.
 
 ## 3. Adım: Web Uzantıları Koleksiyonuna Erişin
 
@@ -47,9 +47,9 @@ extension.Reference.StoreName = "en-US";
 extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 ```
 
-Uzantı koleksiyonuna yeni bir web uzantısı ekliyoruz. Uzantının referans kimliğini, mağaza adını ve mağaza tipini tanımlarız.
+Uzantı koleksiyonuna yeni bir web uzantısı ekliyoruz. Uzantının referans kimliğini, mağaza adını ve mağaza tipini tanımlıyoruz.
 
-## 5. Adım: Web Uzantısı Görev Bölmesi Koleksiyonuna Erişin
+## Adım 5: Web Uzantısı Görev Bölmesi Koleksiyonuna Erişin
 
 ```csharp
 // Web uzantısının görev bölmesi koleksiyonuna erişin
@@ -61,7 +61,7 @@ WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskP
 ## 6. Adım: Yeni bir görev bölmesi ekleyin
 
 ```csharp
-// Yeni bir görev bölmesi ekle
+// Yeni bir görev bölmesi ekleme
 int taskPaneIndex = taskPanes.Add();
 WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
 taskPane. IsVisible = true;
@@ -69,9 +69,9 @@ taskPane. DockState = "right";
 taskPane. WebExtension = extension;
 ```
 
-Görev bölmesi koleksiyonuna yeni bir görev bölmesi ekliyoruz. Bölmenin görünürlüğünü, yerleştirme durumunu ve ilişkili web uzantısını ayarladık.
+Görev bölmesi koleksiyonuna yeni bir görev bölmesi ekliyoruz. Bölmenin görünürlüğünü, kenetlenme durumunu ve ilgili web uzantısını ayarlıyoruz.
 
-## 7. Adım: Çalışma kitabını kaydedin ve kapatın
+## Adım 7: Çalışma kitabını kaydedin ve kapatın
 
 ```csharp
 // Çalışma kitabını kaydedin ve kapatın
@@ -79,9 +79,9 @@ workbook.Save(outDir + "AddWebExtension_Out.xlsx");
 Console.WriteLine("AddWebExtension executed successfully.");
 ```
 
-Değiştirilen çalışma kitabını belirtilen çıktı dizinine kaydedip ardından kapatıyoruz.
+Değiştirilen çalışma kitabını belirtilen çıktı dizinine kaydedip sonra kapatıyoruz.
 
-### Aspose.Cells for .NET kullanarak Add Web Extension için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Web Uzantısı Ekleme için örnek kaynak kodu 
 ```csharp
 //Kaynak dizini
 string outDir = RunExamples.Get_OutputDirectory();
@@ -104,22 +104,22 @@ Console.WriteLine("AddWebExtension executed successfully.");
 
 ## Çözüm
 
-Tebrikler! Artık Aspose.Cells for .NET kullanarak bir web uzantısını nasıl ekleyeceğinizi öğrendiniz. Excel çalışma kitaplarınızdaki web uzantılarını manipüle etmekten en iyi şekilde yararlanmak için kodla denemeler yapın ve Aspose.Cells'in ek özelliklerini keşfedin.
+Tebrikler! Artık Aspose.Cells for .NET kullanarak bir web uzantısının nasıl ekleneceğini öğrendiniz. Kodlarla denemeler yapın ve Aspose.Cells'in ek özelliklerini keşfederek Excel çalışma kitaplarınızda web uzantılarını düzenlemeden en iyi şekilde yararlanın.
 
 ## SSS
 
 #### S: Excel çalışma kitabındaki web uzantısı nedir?
 
-Y: Excel çalışma kitabındaki bir web uzantısı, web uygulamalarını tümleştirerek Excel'e ek işlevler eklemenizi sağlayan bir bileşendir. Etkileşimli özellikler, özel panolar, harici entegrasyonlar ve daha fazlasını sunabilir.
+C: Excel çalışma kitabındaki web uzantısı, web uygulamalarını entegre ederek Excel'e ek işlevler eklemenizi sağlayan bir bileşendir. Etkileşimli özellikler, özel kontrol panelleri, harici entegrasyonlar ve daha fazlasını sunabilir.
 
 #### S: Aspose.Cells ile Excel çalışma kitabına web uzantısı nasıl eklenir?
 
- C: Aspose.Cells ile bir Excel çalışma kitabına web uzantısı eklemek için adım adım kılavuzumuzda verilen adımları takip edebilirsiniz. Kullan`WebExtensionCollection` Ve`WebExtensionTaskPaneCollection` web uzantısını ve ilişkili görev bölmesini eklemek ve yapılandırmak için sınıflar.
+ C: Aspose.Cells ile bir Excel çalışma kitabına web uzantısı eklemek için adım adım kılavuzumuzda verilen adımları takip edebilirsiniz. Kullan`WebExtensionCollection` Ve`WebExtensionTaskPaneCollection` web uzantısını ve ilgili görev bölmesini eklemek ve yapılandırmak için sınıflar.
 
 #### S: Bir web uzantısı eklemek için hangi bilgiler gereklidir?
 
-C: Bir web uzantısı eklerken, uzantı SKU Kimliği, mağaza adı ve mağaza tipini sağlamalısınız. Bu bilgiler, uzantının doğru şekilde tanımlanmasına ve yüklenmesine yardımcı olur.
+C: Bir web uzantısı eklerken uzantı SKU kimliğini, mağaza adını ve mağaza türünü sağlamanız gerekir. Bu bilgi, uzantının doğru şekilde tanımlanmasına ve yüklenmesine yardımcı olur.
 
-#### S: Tek bir Excel çalışma kitabına birden çok web uzantısı ekleyebilir miyim?
+#### S: Tek bir Excel çalışma kitabına birden fazla web uzantısı ekleyebilir miyim?
 
- Y: Evet, tek bir Excel çalışma kitabına birden çok Web Uzantısı ekleyebilirsiniz. Kullan`Add` her bir uzantıyı eklemek için web uzantıları koleksiyonunun yöntemini kullanın, ardından bunları karşılık gelen görev bölmeleriyle ilişkilendirin.
+ C: Evet, tek bir Excel çalışma kitabına birden çok Web Uzantısı ekleyebilirsiniz. Kullan`Add` Her bir uzantıyı eklemek ve ardından bunları ilgili görev bölmeleriyle ilişkilendirmek için web uzantıları koleksiyonunun yöntemini kullanın.

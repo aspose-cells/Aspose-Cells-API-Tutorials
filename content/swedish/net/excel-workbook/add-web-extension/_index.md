@@ -21,11 +21,11 @@ I detta första steg definierar vi utdatakatalogen där den modifierade Excel-ar
 ## Steg 2: Skapa en ny arbetsbok
 
 ```csharp
-//Skapa en ny arbetsbok
+// Skapa en ny arbetsbok
 Workbook workbook = new Workbook();
 ```
 
- Här skapar vi en ny Excel-arbetsbok med hjälp av`Workbook` klass från Aspose.Cells.
+Här skapar vi en ny Excel-arbetsbok med hjälp av`Workbook` klass från Aspose.Cells.
 
 ## Steg 3: Öppna webbtilläggssamlingen
 

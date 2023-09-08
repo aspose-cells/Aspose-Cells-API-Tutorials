@@ -29,7 +29,7 @@ using Aspose.Cells;
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt austauschen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
+ Unbedingt ersetzen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
 
 ## Schritt 4: Erstellen eines Arbeitsmappenobjekts
 
@@ -65,7 +65,7 @@ pageSetup.PrintHeadings = true;
 
 ## Schritt 8: Schwarzweiß-Druckmodus aktivieren
 
-Um das Drucken des Arbeitsblatts im Schwarzweißmodus zu aktivieren, verwenden Sie den folgenden Code:
+Um das Drucken des Arbeitsblatts im Schwarzweißmodus zu ermöglichen, verwenden Sie den folgenden Code:
 
 ```csharp
 pageSetup.BlackAndWhite = true;
@@ -87,7 +87,7 @@ Um das Drucken der Tabelle im Entwurfsmodus zu aktivieren, verwenden Sie den fol
 pageSetup.PrintDraft = true;
 ```
 
-## Schritt 11: Aktivieren Sie das Drucken von Zellenfehlern als N/A
+## Schritt 11: Aktivieren Sie das Drucken von Zellfehlern als N/A
 
 Damit Zellfehler gedruckt werden können als
 
@@ -109,7 +109,7 @@ Dadurch wird die Excel-Arbeitsmappe mit dem Dateinamen „OtherPrintOptions_out.
 
 ### Beispielquellcode für „Excel-Druckoptionen festlegen“ mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();

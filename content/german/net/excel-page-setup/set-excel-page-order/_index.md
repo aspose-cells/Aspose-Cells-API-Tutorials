@@ -14,7 +14,7 @@ In diesem Artikel erklären wir Ihnen Schritt für Schritt den folgenden C#-Quel
  Bevor Sie beginnen, müssen Sie das Dokumentverzeichnis konfigurieren, in dem Sie die Excel-Datei speichern möchten. Sie können den Verzeichnispfad angeben, indem Sie den Wert von ersetzen`dataDir` Variable mit Ihrem eigenen Pfad.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
@@ -56,7 +56,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ### Beispielquellcode zum Festlegen der Excel-Seitenreihenfolge mit Aspose.Cells für .NET 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();

@@ -18,7 +18,7 @@ Innan du börjar, se till att du har Aspose.Cells för .NET installerat på din 
  I den medföljande källkoden måste du ange katalogsökvägen där Excel-filen du vill låsa upp finns. Ändra`dataDir` variabel genom att ersätta "DIN DOKUMENTKATOGRAF" med den absoluta sökvägen till katalogen på din maskin.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
 ```
 
@@ -59,7 +59,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 ### Exempel på källkod för Unprotect Simple Excel-ark med Aspose.Cells för .NET 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook(dataDir + "book1.xls");

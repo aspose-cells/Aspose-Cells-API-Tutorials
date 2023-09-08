@@ -1,32 +1,32 @@
 ---
-title: Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleyin
-linktitle: Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleyin
+title: Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme
+linktitle: Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET ile bir hesap tablosunun kağıt boyutunun otomatik olup olmadığını nasıl belirleyeceğinizi öğrenin.
+description: Aspose.Cells for .NET ile bir elektronik tablonun kağıt boyutunun otomatik olup olmadığını nasıl belirleyeceğinizi öğrenin.
 type: docs
 weight: 20
 url: /tr/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-Bu yazıda, aşağıdaki C# kaynak kodunu açıklamak için size adım adım yol göstereceğiz: Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirleyin. Bu işlemi gerçekleştirmek için .NET için Aspose.Cells kütüphanesini kullanacağız. Bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirlemek için aşağıdaki adımları izleyin.
+Bu makalede sizi adım adım aşağıdaki C# kaynak kodunu açıklamaya yönlendireceğiz: Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirleyin. Bu işlemi gerçekleştirmek için .NET için Aspose.Cells kütüphanesini kullanacağız. Bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirlemek için aşağıdaki adımları izleyin.
 
 ## 1. Adım: Çalışma kitaplarını yükleme
-İlk adım, çalışma kitaplarını yüklemektir. İki çalışma kitabımız olacak: biri otomatik kağıt boyutu devre dışı, diğeri otomatik kağıt boyutu etkin. İşte çalışma kitaplarını yüklemek için kod:
+İlk adım çalışma kitaplarını yüklemektir. İki çalışma kitabımız olacak: biri otomatik kağıt boyutu devre dışı, diğeri ise otomatik kağıt boyutu etkin. Çalışma kitaplarını yüklemek için gereken kod:
 
 ```csharp
-// kaynak dizin
+// kaynak dizini
 string sourceDir = "YOUR_SOURCE_DIR";
 // Çıkış dizini
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-// İlk çalışma kitabını otomatik kağıt boyutu devre dışı bırakılmış olarak yükleyin
+// İlk çalışma kitabını otomatik kağıt boyutu devre dışı bırakılarak yükleyin
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
 
-// Otomatik kağıt boyutu etkinken ikinci çalışma kitabını yükle
+// İkinci çalışma kitabını otomatik kağıt boyutu etkin olarak yükleyin
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
 ```
 
-## 2. Adım: Elektronik Tablolara Erişim
-Artık çalışma kitaplarını yüklediğimize göre, otomatik kağıt boyutunu kontrol edebilmemiz için çalışma sayfalarına erişmemiz gerekiyor. İki çalışma kitabının ilk çalışma sayfasına gideceğiz. İşte ona erişmek için kod:
+## Adım 2: E-Tablolara Erişim
+Artık çalışma kitaplarını yüklediğimize göre, otomatik kağıt boyutunu kontrol edebilmek için çalışma sayfalarına erişmemiz gerekiyor. İki çalışma kitabının ilk çalışma sayfasına gideceğiz. İşte ona erişmenizi sağlayacak kod:
 
 ```csharp
 //İlk çalışma kitabının ilk çalışma sayfasına git
@@ -37,26 +37,26 @@ Worksheet ws12 = wb2.Worksheets[0];
 ```
 
 ## 3. Adım: Otomatik kağıt boyutunu kontrol edin
- Bu adımda, çalışma sayfası kağıt boyutunun otomatik olup olmadığını kontrol edeceğiz. biz kullanacağız`PageSetup.IsAutomaticPaperSize` Bu bilgiyi almak için özellik. Daha sonra sonucu göstereceğiz. İşte bunun için kod:
+ Bu adımda çalışma sayfası kağıt boyutunun otomatik olup olmadığını kontrol edeceğiz. kullanacağız`PageSetup.IsAutomaticPaperSize` Bu bilgiyi almak için özellik. Daha sonra sonucu göstereceğiz. İşte bunun için kod:
 
 ```csharp
-// İlk çalışma kitabının ilk çalışma sayfasının IsAutomaticPaperSize özelliğini görüntüleyin
+// İlk çalışma kitabındaki ilk çalışma sayfasının IsAutomaticPaperSize özelliğini görüntüleme
 Console.WriteLine("First worksheet in first workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 
-// İkinci çalışma kitabında ilk çalışma sayfasının IsAutomaticPaperSize özelliğini görüntüleyin
+// İlk çalışma sayfasının IsAutomaticPaperSize özelliğini ikinci çalışma kitabında görüntüleme
 Console.WriteLine("First worksheet of second workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
 
 ```
 
-### Aspose.Cells for .NET kullanarak Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme için örnek kaynak kodu 
+### Aspose.Cells for .NET Kullanarak Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirlemek için örnek kaynak kodu 
 ```csharp
 //Kaynak dizini
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
 //Çıkış dizini
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
-//Otomatik kağıt boyutu yanlış olan ilk çalışma kitabını yükle
+//Otomatik kağıt boyutuna sahip ilk çalışma kitabını yükleyin yanlış
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-//Otomatik kağıt boyutu true olan ikinci çalışma kitabını yükleyin
+//Otomatik kağıt boyutu doğru olan ikinci çalışma kitabını yükleyin
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
 //Her iki çalışma kitabının da ilk çalışma sayfasına erişin
 Worksheet ws11 = wb1.Worksheets[0];
@@ -70,24 +70,24 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 
 ## Çözüm
-Bu makalede, Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını nasıl belirleyeceğimizi öğrendik. Şu adımları takip ettik: çalışma kitaplarını yüklemek,
+Bu makalede Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını nasıl belirleyeceğimizi öğrendik. Şu adımları izledik: çalışma kitaplarını yükleme,
 
-elektronik tablolara ve otomatik kağıt boyutu kontrolüne erişim. Artık bu bilgiyi elektronik tablolarınızın kağıt boyutunun otomatik olup olmadığını belirlemek için kullanabilirsiniz.
+elektronik tablolara erişim ve otomatik kağıt boyutu kontrolü. Artık bu bilgiyi e-tablolarınızın kağıt boyutunun otomatik olup olmadığını belirlemek için kullanabilirsiniz.
 
 ### SSS
 
-#### S: Çalışma kitaplarını Aspose.Cells for .NET ile nasıl yükleyebilirim?
+#### S: Aspose.Cells for .NET ile çalışma kitaplarını nasıl yükleyebilirim?
 
-C: Aspose.Cells kitaplığından Workbook sınıfını kullanarak çalışma kitaplarını yükleyebilirsiniz. Bir dosyadan çalışma kitabı yüklemek için Workbook.Load yöntemini kullanın.
+C: Aspose.Cells kütüphanesindeki Workbook sınıfını kullanarak çalışma kitaplarını yükleyebilirsiniz. Bir dosyadan çalışma kitabı yüklemek için Workbook.Load yöntemini kullanın.
 
 #### S: Diğer elektronik tablolar için otomatik kağıt boyutunu kontrol edebilir miyim?
 
-C: Evet, ilgili Worksheet nesnesinin PageSetup.IsAutomaticPaperSize özelliğine erişerek herhangi bir çalışma sayfası için otomatik kağıt boyutunu kontrol edebilirsiniz.
+C: Evet, ilgili Worksheet nesnesinin PageSetup.IsAutomaticPaperSize özelliğine erişerek herhangi bir çalışma sayfasının otomatik kağıt boyutunu kontrol edebilirsiniz.
 
-#### S: Bir elektronik tablonun otomatik kağıt boyutunu nasıl değiştirebilirim?
+#### S: Bir e-tablonun otomatik kağıt boyutunu nasıl değiştirebilirim?
 
-C: Bir çalışma sayfasının otomatik kağıt boyutunu değiştirmek için PageSetup.IsAutomaticPaperSize özelliğini kullanabilir ve bunu istenen değere (doğru veya yanlış) ayarlayabilirsiniz.
+C: Bir çalışma sayfasının otomatik kağıt boyutunu değiştirmek için PageSetup.IsAutomaticPaperSize özelliğini kullanabilir ve bunu istediğiniz değere (doğru veya yanlış) ayarlayabilirsiniz.
 
 #### S: Aspose.Cells for .NET başka hangi özellikleri sunuyor?
 
-Y: Aspose.Cells for .NET, çalışma kitaplarını oluşturma, değiştirme ve dönüştürmenin yanı sıra verileri, formülleri ve biçimlendirmeyi değiştirme gibi elektronik tablolarla çalışmak için birçok özellik sunar.
+C: Aspose.Cells for .NET, elektronik tablolarla çalışmak için çalışma kitaplarını oluşturma, değiştirme ve dönüştürmenin yanı sıra verileri, formülleri ve biçimlendirmeyi değiştirme gibi birçok özellik sunar.

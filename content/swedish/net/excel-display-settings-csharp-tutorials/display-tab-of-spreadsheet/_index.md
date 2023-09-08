@@ -45,7 +45,7 @@ workbook.Save(dataDir + "output.xls");
 ### Exempel på källkod för Visa Tab Of Spreadsheet med Aspose.Cells för .NET 
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Instantiera ett arbetsboksobjekt
 // Öppnar Excel-filen

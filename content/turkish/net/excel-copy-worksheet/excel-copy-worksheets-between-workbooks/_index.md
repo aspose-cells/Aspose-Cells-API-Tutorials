@@ -1,47 +1,47 @@
 ---
-title: Çalışma Kitapları Arasında Excel Kopyalama Çalışma Sayfaları
-linktitle: Çalışma Kitapları Arasında Excel Kopyalama Çalışma Sayfaları
+title: Çalışma Kitapları Arasında Excel Çalışma Sayfalarını Kopyalama
+linktitle: Çalışma Kitapları Arasında Excel Çalışma Sayfalarını Kopyalama
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak çalışma sayfalarını Excel çalışma kitapları arasında kolayca kopyalayın.
+description: Aspose.Cells for .NET'i kullanarak çalışma sayfalarını Excel çalışma kitapları arasında kolayca kopyalayın.
 type: docs
 weight: 30
 url: /tr/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
-Bu eğitimde, Aspose.Cells for .NET kütüphanesini kullanarak çalışma sayfalarını Excel çalışma kitapları arasında kopyalama adımlarında size rehberlik edeceğiz. Bu görevi tamamlamak için aşağıdaki talimatları izleyin.
+Bu eğitimde, .NET için Aspose.Cells kütüphanesini kullanarak çalışma sayfalarını Excel çalışma kitapları arasında kopyalama adımlarında size rehberlik edeceğiz. Bu görevi tamamlamak için aşağıdaki talimatları izleyin.
 
 ## Adım 1: Hazırlık
 
 Aspose.Cells for .NET'i kurduğunuzdan ve tercih ettiğiniz entegre geliştirme ortamında (IDE) bir C# projesi oluşturduğunuzdan emin olun.
 
-## 2. Adım: Belge dizini yolunu ayarlayın
+## Adım 2: Belge dizini yolunu ayarlayın
 
- ilan etmek`dataDir` değişken ve onu belgeler dizininizin yolu ile başlatın. Örneğin :
+ bir beyan`dataDir` değişkeni oluşturun ve onu belgeler dizininizin yolu ile başlatın. Örneğin :
 
 ```csharp
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- değiştirdiğinizden emin olun`"YOUR_DOCUMENTS_DIRECTORY"` dizininize giden gerçek yolla.
+ Değiştirdiğinizden emin olun`"YOUR_DOCUMENTS_DIRECTORY"` Dizininizin gerçek yolu ile.
 
 ## 3. Adım: Giriş dosyası yolunu tanımlayın
 
- ilan etmek`InputPath` değişkenini seçin ve elektronik tabloyu kopyalamak istediğiniz Excel dosyasının tam yolu ile başlatın. Örneğin :
+ bir beyan`InputPath` değişkeni seçin ve e-tabloyu kopyalamak istediğiniz Excel dosyasının tam yoluyla başlatın. Örneğin :
 
 ```csharp
 string InputPath = dataDir + "book1.xls";
 ```
 
- Excel dosyasına sahip olduğunuzdan emin olun`book1.xls` Belgeler dizininizde veya doğru dosya adını ve konumunu belirtin.
+ Excel dosyanızın olduğundan emin olun`book1.xls` belgeler dizininizde veya doğru dosya adını ve konumunu belirtin.
 
 ## 4. Adım: İlk Excel çalışma kitabını oluşturun
 
- Kullan`Workbook` İlk Excel çalışma kitabını oluşturmak ve belirtilen dosyayı açmak için Aspose.Cells sınıfı:
+ Kullan`Workbook` Aspose.Cells sınıfı, ilk Excel çalışma kitabını oluşturmak ve belirtilen dosyayı açmak için:
 
 ```csharp
 Workbook excelWorkbook0 = new Workbook(InputPath);
 ```
 
-## 5. Adım: İkinci bir Excel çalışma kitabı oluşturun
+## Adım 5: İkinci bir Excel çalışma kitabı oluşturun
 
 İkinci bir Excel çalışma kitabı oluşturun:
 
@@ -49,15 +49,15 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Workbook excelWorkbook1 = new Workbook();
 ```
 
-## Adım 6: Çalışma sayfasını birinci çalışma kitabından ikinci çalışma kitabına kopyalayın
+## Adım 6: Çalışma sayfasını ilk çalışma kitabından ikinci çalışma kitabına kopyalayın
 
- Kullan`Copy`ilk çalışma kitabındaki ilk çalışma sayfasını ikinci çalışma kitabına kopyalama yöntemi:
+ Kullan`Copy`İlk çalışma sayfasını birinci çalışma kitabından ikinci çalışma kitabına kopyalama yöntemi:
 
 ```csharp
 excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 ```
 
-## 7. Adım: Excel dosyasını kaydedin
+## Adım 7: Excel dosyasını kaydedin
 
 Kopyalanan e-tabloyu içeren Excel dosyasını kaydedin:
 
@@ -65,15 +65,15 @@ Kopyalanan e-tabloyu içeren Excel dosyasını kaydedin:
 excelWorkbook1.Save(dataDir + "Copy WorksheetsBetweenWorkbooks_out.xls");
 ```
 
-Çıktı dosyası için istenen yolu ve dosya adını belirttiğinizden emin olun.
+Çıktı dosyası için istediğiniz yolu ve dosya adını belirttiğinizden emin olun.
 
-### Aspose.Cells for .NET kullanarak Excel Çalışma Sayfalarını Çalışma Kitapları Arasında Kopyalamak için örnek kaynak kodu 
+### Aspose.Cells for .NET kullanarak Çalışma Kitapları Arasında Excel Kopyalama Çalışma Sayfaları için örnek kaynak kodu 
 ```csharp
-// Belgeler dizininin yolu.
+//Belgeler dizininin yolu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 // Bir Çalışma Kitabı oluşturun.
-// İlk kitapta bir dosya açın.
+// İlk kitaba bir dosya açın.
 Workbook excelWorkbook0 = new Workbook(InputPath);
 // Başka bir Çalışma Kitabı oluşturun.
 Workbook excelWorkbook1 = new Workbook();
@@ -85,18 +85,18 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 
 ## Çözüm
 
-Tebrikler! Artık Aspose.Cells for .NET kullanarak çalışma sayfalarını Excel çalışma kitapları arasında nasıl kopyalayacağınızı öğrendiniz. Excel dosyalarını verimli bir şekilde işlemek için bu yöntemi kendi projelerinizde kullanmaktan çekinmeyin.
+Tebrikler! Artık Aspose.Cells for .NET kullanarak çalışma sayfalarını Excel çalışma kitapları arasında nasıl kopyalayacağınızı öğrendiniz. Excel dosyalarını verimli bir şekilde değiştirmek için bu yöntemi kendi projelerinizde kullanmaktan çekinmeyin.
 
 ### SSS
 
 #### S. Aspose.Cells for .NET'i kullanmak için hangi kütüphanelere ihtiyaç var?
 
-A. Aspose.Cells for .NET'i kullanmak için Aspose.Cells kütüphanesini projenize dahil etmelisiniz. Tümleşik geliştirme ortamınızda (IDE) bu kitaplığa doğru şekilde başvurduğunuzdan emin olun.
+A. Aspose.Cells for .NET'i kullanmak için Aspose.Cells kütüphanesini projenize dahil etmelisiniz. Bu kitaplığa tümleşik geliştirme ortamınızda (IDE) doğru şekilde başvuruda bulunduğunuzdan emin olun.
 
-#### S. Aspose.Cells, XLSX gibi diğer Excel dosya formatlarını destekliyor mu?
+#### S. Aspose.Cells XLSX gibi diğer Excel dosya formatlarını destekliyor mu?
 
-A. Evet, Aspose.Cells, XLSX, XLS, CSV, HTML ve çok daha fazlasını içeren çeşitli Excel dosya formatlarını destekler. Aspose.Cells for .NET'in özelliklerini kullanarak bu dosya formatlarını değiştirebilirsiniz.
+A. Evet, Aspose.Cells XLSX, XLS, CSV, HTML ve çok daha fazlasını içeren çeşitli Excel dosya formatlarını destekler. Aspose.Cells for .NET'in özelliklerini kullanarak bu dosya formatlarını değiştirebilirsiniz.
 
 #### S. Elektronik tabloyu kopyalarken düzen seçeneklerini özelleştirebilir miyim?
 
-A.  Evet, elektronik tabloyu kopyalarken sayfa düzeni seçeneklerini özelleştirebilirsiniz.`PageSetup` nesne. Sayfa üst bilgilerini, alt bilgilerini, kenar boşluklarını, yönlendirmeleri vb. belirtebilirsiniz.
+A.  Evet, e-tabloyu kopyalarken sayfa düzeni seçeneklerini, e-tablonun özelliklerini kullanarak özelleştirebilirsiniz.`PageSetup` nesne. Sayfa üstbilgilerini, altbilgilerini, kenar boşluklarını, yönlendirmeleri vb. belirtebilirsiniz.

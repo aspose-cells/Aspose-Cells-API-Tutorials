@@ -2,23 +2,23 @@
 title: Trabajar con propiedades de tipo de contenido
 linktitle: Trabajar con propiedades de tipo de contenido
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Aprenda a trabajar con propiedades de tipo de contenido mediante Aspose.Cells para .NET.
+description: Aprenda a trabajar con propiedades de tipo de contenido usando Aspose.Cells para .NET.
 type: docs
 weight: 180
 url: /es/net/excel-workbook/working-with-content-type-properties/
 ---
-Las propiedades del tipo de contenido juegan un papel fundamental en la gestión y manipulación de archivos de Excel mediante la biblioteca Aspose.Cells para .NET. Estas propiedades le permiten definir metadatos adicionales para archivos de Excel, lo que facilita la organización y búsqueda de datos. En este tutorial, lo guiaremos paso a paso para comprender y trabajar con propiedades de tipo de contenido mediante código C# de muestra.
+Las propiedades del tipo de contenido desempeñan un papel vital en la gestión y manipulación de archivos de Excel utilizando la biblioteca Aspose.Cells para .NET. Estas propiedades le permiten definir metadatos adicionales para archivos de Excel, lo que facilita la organización y búsqueda de datos. En este tutorial, lo guiaremos paso a paso para comprender y trabajar con propiedades de tipo de contenido utilizando código C# de muestra.
 
-## requisitos previos
+## Requisitos previos
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
 - Aspose.Cells para .NET instalado en su máquina de desarrollo.
 - Un entorno de desarrollo integrado (IDE) compatible con C#, como Visual Studio.
 
-## Paso 1: Configuración del entorno
+## Paso 1: configurar el entorno
 
-Antes de comenzar a trabajar con propiedades de tipo de contenido, asegúrese de haber configurado su entorno de desarrollo con Aspose.Cells para .NET. Puede agregar la referencia a la biblioteca Aspose.Cells en su proyecto e importar el espacio de nombres requerido en su clase.
+Antes de comenzar a trabajar con propiedades de tipo de contenido, asegúrese de haber configurado su entorno de desarrollo con Aspose.Cells para .NET. Puede agregar la referencia a la biblioteca Aspose.Cells en su proyecto e importar el espacio de nombres requerido a su clase.
 
 ```csharp
 using Aspose.Cells;
@@ -36,32 +36,32 @@ string outputDir = RunExamples.Get_OutputDirectory();
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
 ```
 
-## Paso 3: agregar propiedades de tipo de contenido
+## Paso 3: Agregar propiedades de tipo de contenido
 
- Ahora que tenemos nuestro libro de trabajo de Excel, podemos agregar propiedades de tipo de contenido usando el`Add` metodo de la`ContentTypeProperties` colección de la`Workbook` clase. Cada propiedad está representada por un nombre y un valor. TÚ
+ Ahora que tenemos nuestro libro de Excel, podemos agregar propiedades de tipo de contenido usando el`Add` método de la`ContentTypeProperties` colección de la`Workbook` clase. Cada propiedad está representada por un nombre y un valor. TÚ
 
   También puede especificar el tipo de datos de la propiedad.
 
 ```csharp
-// Agregar la primera propiedad de tipo de contenido
+// Agregue la primera propiedad de tipo de contenido
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 workbook.ContentTypeProperties[index].IsNillable = false;
 
-// Agregar la segunda propiedad de tipo de contenido
+// Agregue la segunda propiedad de tipo de contenido
 index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-## Paso 4: Guardar el libro de Excel
+## Paso 4: guardar el libro de Excel
 
- Después de agregar las propiedades del tipo de contenido, podemos guardar el libro de Excel con los cambios. Utilizar el`Save` metodo de la`Workbook` class para especificar el directorio de salida y el nombre del archivo.
+ Después de agregar las propiedades del tipo de contenido, podemos guardar el libro de Excel con los cambios. Utilizar el`Save` método de la`Workbook` clase para especificar el directorio de salida y el nombre del archivo.
 
 ```csharp
-// Guardar el libro de Excel
+// Guarde el libro de Excel
 workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
 ```
 
-### Ejemplo de código fuente para trabajar con propiedades de tipo de contenido usando Aspose.Cells para .NET 
+### Código fuente de muestra para trabajar con propiedades de tipo de contenido usando Aspose.Cells para .NET 
 ```csharp
 //directorio fuente
 string outputDir = RunExamples.Get_OutputDirectory();
@@ -76,9 +76,9 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 
 ## Conclusión
 
-¡Felicidades! Aprendió a trabajar con propiedades de tipo de contenido usando Aspose.Cells para .NET. Ahora puede agregar metadatos personalizados a sus archivos de Excel y administrarlos de manera más eficiente.
+¡Enhorabuena! Aprendiste a trabajar con propiedades de tipo de contenido usando Aspose.Cells para .NET. Ahora puede agregar metadatos personalizados a sus archivos de Excel y administrarlos de manera más eficiente.
 
-### preguntas frecuentes
+### Preguntas frecuentes
 
 #### P: ¿Las propiedades de tipo de contenido son compatibles con todas las versiones de Excel?
 
@@ -86,8 +86,8 @@ R: Sí, las propiedades del tipo de contenido son compatibles con los archivos d
 
 #### P: ¿Puedo editar las propiedades del tipo de contenido después de agregarlas al libro de Excel?
 
- R: Sí, puede cambiar las propiedades del tipo de contenido en cualquier momento yendo a la`ContentTypeProperties` colección de la`Workbook` class y usando las propiedades apropiadas de los métodos y p.
+ R: Sí, puedes cambiar las propiedades del tipo de contenido en cualquier momento yendo a la página`ContentTypeProperties` colección de la`Workbook` clase y usando los métodos y p propiedades apropiadas.
 
-#### P: ¿Se admiten las propiedades de tipo de contenido al guardar en PDF?
+#### P: ¿Se admiten propiedades de tipo de contenido al guardar en PDF?
 
-R: No, las propiedades de tipo de contenido no se admiten al guardar en PDF. Son específicos de los archivos de Excel.
+R: No, las propiedades del tipo de contenido no se admiten al guardar en PDF. Son específicos de archivos de Excel.

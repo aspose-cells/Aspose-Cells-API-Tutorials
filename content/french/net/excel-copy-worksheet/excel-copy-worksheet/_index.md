@@ -1,6 +1,6 @@
 ---
-title: Feuille de travail de copie Excel
-linktitle: Feuille de travail de copie Excel
+title: Feuille de calcul de copie Excel
+linktitle: Feuille de calcul de copie Excel
 second_title: Référence de l'API Aspose.Cells pour .NET
 description: Copiez une feuille de calcul Excel sur une autre avec Aspose.Cells pour .NET.
 type: docs
@@ -8,21 +8,21 @@ weight: 20
 url: /fr/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 
-Dans ce guide, nous expliquerons comment copier une feuille de calcul Excel à l'aide de la bibliothèque Aspose.Cells pour .NET. Nous vous fournirons le code source C# et vous guiderons à travers les étapes nécessaires pour accomplir cette tâche. À la fin, nous vous montrerons le résultat attendu. Suivez les instructions ci-dessous pour commencer.
+Dans ce guide, nous expliquerons comment copier une feuille de calcul Excel à l'aide de la bibliothèque Aspose.Cells pour .NET. Nous vous fournirons le code source C# et vous guiderons à travers les étapes nécessaires pour accomplir cette tâche. A la fin, nous vous montrerons le résultat attendu. Suivez les instructions ci-dessous pour commencer.
 
 ## Étape 1 : Préparation
 
 Avant de commencer, assurez-vous d'avoir installé Aspose.Cells pour .NET et créé un projet C# dans votre environnement de développement intégré (IDE) préféré. Assurez-vous également d'avoir une copie du fichier Excel que vous souhaitez manipuler.
 
-## Étape 2 : Importer les bibliothèques requises
+## Étape 2 : Importer les bibliothèques requises
 
- Dans votre fichier source C#, importez les bibliothèques nécessaires depuis Aspose.Cells à l'aide de`using` directif:
+ Dans votre fichier source C#, importez les bibliothèques nécessaires depuis Aspose.Cells à l'aide du`using` directif:
 
 ```csharp
 using Aspose.Cells;
 ```
 
-## Étape 3 : Définissez le chemin d'accès au fichier
+## Étape 3 : Définir le chemin du fichier
 
  Déclarer un`dataDir` variable et initialisez-la avec le répertoire contenant votre fichier Excel. Par exemple :
 
@@ -30,11 +30,11 @@ using Aspose.Cells;
 string dataDir = "PATH_TO_YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Assurez-vous de remplacer`"PATH_TO_YOUR_DOCUMENT_DIRECTORY"` avec le chemin d'accès réel à votre répertoire.
+ Assurez-vous de remplacer`"PATH_TO_YOUR_DOCUMENT_DIRECTORY"` avec le chemin réel de votre répertoire.
 
-## Étape 4 : Charger le fichier Excel existant
+## Étape 4 : Charger le fichier Excel existant
 
- Utilisez le`Workbook`classe de Aspose.Cells pour ouvrir le fichier Excel existant. Utilisez le`InputPath` variable pour spécifier le chemin du fichier :
+ Utilisez le`Workbook` classe d’Aspose.Cells pour ouvrir le fichier Excel existant. Utilisez le`InputPath` variable pour spécifier le chemin du fichier :
 
 ```csharp
 string InputPath = dataDir + "book1.xls";
@@ -43,15 +43,15 @@ Workbook wb = new Workbook(InputPath);
 
  Assurez-vous d'avoir remplacé`"book1.xls"` avec le nom réel de votre fichier Excel.
 
-## Étape 5 : Copiez la feuille de calcul
+## Étape 5 : Copiez la feuille de calcul
 
- Nous allons maintenant copier la feuille de calcul existante dans une nouvelle feuille de calcul. Utilisez le`Worksheets` propriété de la`Workbook` objet pour accéder à la collection de feuilles de calcul :
+ Nous allons maintenant copier la feuille de calcul existante dans une nouvelle feuille de calcul. Utilisez le`Worksheets` propriété du`Workbook` objet pour accéder à la collection de feuilles de calcul :
 
 ```csharp
 WorksheetCollection sheets = wb.Worksheets;
 ```
 
- Utilisez ensuite le`AddCopy` méthode pour copier la feuille de calcul spécifiée. Par exemple, pour copier "Feuille1":
+ Utilisez ensuite le`AddCopy` méthode pour copier la feuille de calcul spécifiée. Par exemple, pour copier « Sheet1 » :
 
 ```csharp
 sheets.AddCopy("Sheet1");
@@ -59,7 +59,7 @@ sheets.AddCopy("Sheet1");
 
 ## Étape 6 : Enregistrez le fichier Excel
 
- Utilisez le`Save` méthode de la`Workbook` objet pour enregistrer les modifications dans un nouveau fichier :
+ Utilisez le`Save` méthode du`Workbook` objet pour enregistrer les modifications dans un nouveau fichier :
 
 ```csharp
 wb.Save(dataDir + "CopyWithinWorkbook_out.xls");
@@ -67,18 +67,18 @@ wb.Save(dataDir + "CopyWithinWorkbook_out.xls");
 
 Assurez-vous de spécifier le chemin et le nom de fichier souhaités pour le fichier de sortie.
 
-### Exemple de code source pour Excel Copy Worksheet à l'aide d'Aspose.Cells pour .NET 
+### Exemple de code source pour une feuille de calcul de copie Excel à l'aide d'Aspose.Cells pour .NET 
 
 ```csharp
-// Chemin d'accès au répertoire des documents.
+//Le chemin d'accès au répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 // Ouvrez un fichier Excel existant.
 Workbook wb = new Workbook(InputPath);
-// Créer un objet Worksheets avec référence à
+// Créez un objet Worksheets en référence à
 // les feuilles du cahier d'exercices.
 WorksheetCollection sheets = wb.Worksheets;
-// Copier des données dans une nouvelle feuille à partir d'une feuille existante
+// Copier les données dans une nouvelle feuille à partir d'une feuille existante
 // feuille dans le classeur.
 sheets.AddCopy("Sheet1");
 // Enregistrez le fichier Excel.
@@ -91,18 +91,18 @@ Félicitation ! Vous avez maintenant appris à copier une feuille de calcul Exce
 
 ### FAQ
 
-#### Q. Aspose.Cells est-il compatible avec d'autres langages de programmation ?
+#### Q. Aspose.Cells est-il compatible avec d’autres langages de programmation ?
 
 A. Oui, Aspose.Cells prend en charge plusieurs langages de programmation, notamment C#, Java, Python et bien d'autres.
 
-#### Q. Puis-je copier une feuille de calcul dans un autre classeur Excel ?
+#### Q. Puis-je copier une feuille de calcul vers un autre classeur Excel ?
 
 A.  Oui, vous pouvez utiliser le`AddCopy` méthode pour copier une feuille de calcul dans un autre classeur Excel.
 
-#### Q. Aspose.Cells conserve-t-il les formules et la mise en forme lors de la copie de la feuille de calcul ?
+#### Q. Aspose.Cells conserve-t-il les formules et le formatage lors de la copie de la feuille de calcul ?
 
-A. Oui, Aspose.Cells conserve les formules, la mise en forme et d'autres propriétés lors de la copie d'une feuille de calcul.
+A. Oui, Aspose.Cells préserve les formules, le formatage et d'autres propriétés lors de la copie d'une feuille de calcul.
 
-#### Q. Aspose.Cells nécessite-t-il une licence pour une utilisation commerciale ?
+#### Q. Aspose.Cells nécessite-t-il une licence pour une utilisation commerciale ?
 
-A. Oui, Aspose.Cells est un produit commercial et nécessite l'achat d'une licence pour une utilisation commerciale. Vous pouvez trouver plus d'informations sur les licences sur le site officiel d'Aspose.
+A. Oui, Aspose.Cells est un produit commercial et nécessite l’achat d’une licence pour une utilisation commerciale. Vous pouvez trouver plus d’informations sur les licences sur le site officiel d’Aspose.

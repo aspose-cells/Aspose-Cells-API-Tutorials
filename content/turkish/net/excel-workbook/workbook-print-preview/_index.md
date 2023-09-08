@@ -1,57 +1,57 @@
 ---
-title: Çalışma Kitabı Baskı Önizleme
-linktitle: Çalışma Kitabı Baskı Önizleme
+title: Çalışma Kitabı Yazdırma Önizleme
+linktitle: Çalışma Kitabı Yazdırma Önizleme
 second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak bir çalışma kitabının baskı önizlemesini nasıl oluşturacağınızı öğrenin.
+description: Aspose.Cells for .NET kullanarak bir çalışma kitabının baskı ön izlemesini nasıl oluşturacağınızı öğrenin.
 type: docs
 weight: 170
 url: /tr/net/excel-workbook/workbook-print-preview/
 ---
-Bir Çalışma Kitabının baskı önizlemesi, Aspose.Cells for .NET ile Excel dosyalarıyla çalışırken önemli bir özelliktir. Aşağıdaki adımları izleyerek kolayca bir baskı ön izleme oluşturabilirsiniz:
+Çalışma Kitabının baskı önizlemesi, Aspose.Cells for .NET ile Excel dosyalarıyla çalışırken önemli bir özelliktir. Aşağıdaki adımları izleyerek kolayca bir baskı önizlemesi oluşturabilirsiniz:
 
 ## 1. Adım: Kaynak dizini belirtin
 
-Öncelikle, önizlemesini yapmak istediğiniz Excel dosyasının bulunduğu kaynak dizini belirtmeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Öncelikle önizlemesini yapmak istediğiniz Excel dosyasının bulunduğu kaynak dizini belirtmeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-// kaynak dizin
+// kaynak dizini
 string sourceDir = RunExamples.Get_SourceDirectory();
 ```
 
-## 2. Adım: Çalışma Kitabını Yükleyin
+## Adım 2: Çalışma Kitabını Yükleyin
 
-Ardından, Çalışma Kitabı çalışma kitabını belirtilen Excel dosyasından yüklemeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Daha sonra Çalışma Kitabı çalışma kitabını belirtilen Excel dosyasından yüklemeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-// Çalışma Kitabı çalışma kitabını yükleyin
+// Çalışma Kitabı çalışma kitabını yükleme
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
-## 3. Adım: Görüntü ve yazdırma seçeneklerini yapılandırın
+## 3. Adım: Görüntüyü ve yazdırma seçeneklerini yapılandırın
 
-Baskı ön izlemeyi oluşturmadan önce, görüntüyü ve baskı seçeneklerini gerektiği gibi yapılandırabilirsiniz. Bu örnekte, varsayılan seçenekleri kullanıyoruz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Baskı önizlemeyi oluşturmadan önce görüntüyü ve yazdırma seçeneklerini gerektiği gibi yapılandırabilirsiniz. Bu örnekte varsayılan seçenekleri kullanıyoruz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-// Resim ve baskı seçenekleri
+// Resim ve yazdırma seçenekleri
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
-## 4. Adım: Çalışma kitabının baskı ön izlemesini oluşturun
+## 4. Adım: Çalışma kitabının baskı önizlemesini oluşturun
 
-Artık WorkbookPrintingPreview sınıfını kullanarak Workbook çalışma kitabının baskı ön izlemesini oluşturabilirsiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Artık WorkbookPrintingPreview sınıfını kullanarak Workbook çalışma kitabının baskı önizlemesini oluşturabilirsiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-// Çalışma kitabının baskı önizlemesi
+// Çalışma kitabının önizlemesini yazdır
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
 Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
 ```
 
-## Adım 5: Çalışma sayfasının baskı ön izlemesini oluşturun
+## Adım 5: Çalışma sayfasının baskı önizlemesini oluşturun
 
 Belirli bir çalışma sayfasının baskı önizlemesini oluşturmak istiyorsanız SheetPrintingPreview sınıfını kullanabilirsiniz. İşte bir örnek :
 
 ```csharp
-// Çalışma sayfasının baskı önizlemesi
+// Çalışma sayfasının önizlemesini yazdır
 SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0], imgOptions);
 Console.WriteLine("Number of worksheet pages: " + preview2.EvaluatedPageCount);
 ```
@@ -71,27 +71,27 @@ Console.WriteLine("PrintPreview executed successfully.");
 
 ## Çözüm
 
-Bir çalışma kitabının baskı önizlemesini oluşturmak, Aspose.Cells for .NET tarafından sunulan güçlü bir özelliktir. Yukarıda verilen adımları takip ederek, Excel çalışma kitabınızı kolayca önizleyebilir ve yazdırılacak sayfa sayısı hakkında bilgi alabilirsiniz.
+Bir çalışma kitabının baskı ön izlemesini oluşturmak Aspose.Cells for .NET tarafından sunulan güçlü bir özelliktir. Yukarıda verilen adımları takip ederek Excel çalışma kitabınızı kolayca önizleyebilir ve yazdırılacak sayfa sayısı hakkında bilgi alabilirsiniz.
 
 ### SSS
 
 #### S: Çalışma Kitabımı yüklemek için farklı bir kaynak dizini nasıl belirleyebilirim?
     
- C: Şunu kullanabilirsiniz:`Set_SourceDirectory` farklı bir kaynak dizini belirtme yöntemi. Örneğin:`RunExamples.Set_SourceDirectory("Path_to_the_source_directory")`.
+ C: Kullanabilirsiniz`Set_SourceDirectory` Farklı bir kaynak dizini belirtme yöntemini kullanın. Örneğin:`RunExamples.Set_SourceDirectory("Path_to_the_source_directory")`.
 
-#### S: Baskı ön izleme oluştururken görüntü ve baskı seçeneklerini özelleştirebilir miyim?
+#### S: Baskı önizlemesini oluştururken görüntüyü ve yazdırma seçeneklerini özelleştirebilir miyim?
     
- C: Evet, görüntü ve yazdırma seçeneklerini, özellikleri değiştirerek özelleştirebilirsiniz.`ImageOrPrintOptions` nesne. Örneğin, görüntü çözünürlüğünü, çıktı dosyası biçimini vb. ayarlayabilirsiniz.
+ C: Evet, görselin özelliklerini değiştirerek görsel ve baskı seçeneklerini özelleştirebilirsiniz.`ImageOrPrintOptions` nesne. Örneğin, görüntü çözünürlüğünü, çıktı dosyası formatını vb. ayarlayabilirsiniz.
 
-#### S: Bir Çalışma Kitabında birden çok çalışma sayfası için baskı ön izleme oluşturmak mümkün müdür?
+#### S: Bir Çalışma Kitabındaki birden çok çalışma sayfası için baskı önizlemesi oluşturmak mümkün müdür?
     
-C: Evet, Çalışma Kitabındaki farklı çalışma sayfalarını yineleyebilir ve her sayfa için bir baskı ön izleme oluşturabilirsiniz.`SheetPrintingPreview` sınıf.
+C: Evet, Çalışma Kitabındaki farklı çalışma sayfalarını yineleyebilir ve her sayfa için bir baskı ön izlemesi oluşturabilirsiniz.`SheetPrintingPreview` sınıf.
 
-#### S: Baskı ön izlemeyi resim veya PDF dosyası olarak nasıl kaydedebilirim?
+#### S: Baskı önizlemeyi resim veya PDF dosyası olarak nasıl kaydederim?
     
- A: kullanabilirsiniz`ToImage` veya`ToPdf` yöntemi`WorkbookPrintingPreview` veya`SheetPrintingPreview` baskı ön izlemeyi görüntü veya PDF dosyası olarak kaydetmek için nesne.
+ C: Kullanabilirsiniz`ToImage` veya`ToPdf` yöntemi`WorkbookPrintingPreview` veya`SheetPrintingPreview` Baskı önizlemesini görüntü veya PDF dosyası olarak kaydetmek için nesneyi seçin.
 
-#### S: Oluşturulduktan sonra baskı ön izleme ile ne yapabilirim?
+#### S: Baskı ön izleme oluşturulduktan sonra ne yapabilirim?
     
-C: Baskı ön izlemeyi oluşturduktan sonra ekranda görüntüleyebilir, resim veya PDF dosyası olarak kaydedebilir veya e-postayla gönderme veya yazdırma gibi diğer işlemler için kullanabilirsiniz.
+C: Baskı önizlemesini oluşturduktan sonra bunu ekranda görüntüleyebilir, resim veya PDF dosyası olarak kaydedebilir veya e-postayla gönderme veya yazdırma gibi diğer işlemler için kullanabilirsiniz.
 	

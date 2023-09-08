@@ -1,13 +1,13 @@
 ---
-title: Proteggi riga specifica nel foglio di lavoro di Excel
-linktitle: Proteggi riga specifica nel foglio di lavoro di Excel
-second_title: Riferimento all'API Aspose.Cells per .NET
-description: Proteggi una riga specifica in Excel con Aspose.Cells per .NET. Guida passo dopo passo per proteggere i tuoi dati riservati.
+title: Proteggi riga specifica nel foglio di lavoro Excel
+linktitle: Proteggi riga specifica nel foglio di lavoro Excel
+second_title: Aspose.Cells per riferimento API .NET
+description: Proteggi una riga specifica in Excel con Aspose.Cells per .NET. Guida passo passo per proteggere i tuoi dati riservati.
 type: docs
 weight: 90
 url: /it/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 ---
-La protezione dei dati riservati in un foglio di calcolo Excel è essenziale per garantire la sicurezza delle informazioni. Aspose.Cells per .NET offre una potente soluzione per proteggere righe specifiche in un foglio di calcolo Excel. Questa guida illustra come proteggere una riga specifica in un foglio di lavoro di Excel utilizzando il codice sorgente C# fornito. Segui questi semplici passaggi per configurare la protezione delle righe nei tuoi file Excel.
+La protezione dei dati riservati in un foglio di calcolo Excel è essenziale per garantire la sicurezza delle informazioni. Aspose.Cells per .NET offre una potente soluzione per proteggere righe specifiche in un foglio di calcolo Excel. Questa guida ti spiegherà come proteggere una riga specifica in un foglio di lavoro Excel utilizzando il codice sorgente C# fornito. Segui questi semplici passaggi per impostare la protezione delle righe nei tuoi file Excel.
 
 ## Passaggio 1: importa le librerie richieste
 
@@ -23,7 +23,7 @@ using Aspose.Cells;
 Dopo aver importato le librerie richieste, puoi creare una nuova cartella di lavoro Excel e un nuovo foglio di lavoro. Ecco come farlo:
 
 ```csharp
-// Il percorso della directory dei documenti.
+//Il percorso della directory dei documenti.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 // Crea una directory se non esiste già.
@@ -43,13 +43,13 @@ Worksheet sheet = wb.Worksheets[0];
 Ora imposteremo lo stile della cella e il flag di stile per sbloccare tutte le colonne nel foglio di lavoro. Ecco il codice necessario:
 
 ```csharp
-// Imposta lo stile dell'oggetto.
+// Imposta l'oggetto di stile.
 Styling styling;
 
 // Imposta l'oggetto styleflag.
 StyleFlag flag;
 
-// Scorri tutte le colonne nel foglio di lavoro e sbloccale.
+// Scorri tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
 {
      style = sheet.Cells.Columns[(byte)i].Style;
@@ -71,17 +71,17 @@ style = sheet.Cells.Rows[0].Style;
 // Bloccalo.
 style. IsLocked = true;
 
-//Crea un'istanza della bandiera.
+//Istanziare la bandiera.
 flag = new StyleFlag();
 
-// Impostare il parametro di blocco.
+// Imposta il parametro di blocco.
 flag. Locked = true;
 
-// Applicare lo stile alla prima riga.
+// Applica lo stile alla prima riga.
 sheet.Cells.ApplyRowStyle(0, style, flag);
 ```
 
-## Passaggio 5: protezione del foglio di lavoro
+## Passaggio 5: proteggere il foglio di lavoro
 
 Infine, proteggeremo l'intero foglio di lavoro Excel per impedire modifiche non autorizzate. Ecco come:
 
@@ -90,9 +90,9 @@ Infine, proteggeremo l'intero foglio di lavoro Excel per impedire modifiche non 
 sheet.Protect(ProtectionType.All);
 ```
 
-## Passaggio 6: salvare il file Excel protetto
+## Passaggio 6: salva il file Excel protetto
 
-Una volta che hai finito di proteggere la riga specifica nel foglio di lavoro di Excel, puoi salvare il file Excel protetto sul tuo sistema. Ecco come:
+Una volta terminata la protezione della riga specifica nel foglio di lavoro Excel, puoi salvare il file Excel protetto sul tuo sistema. Ecco come:
 
 ```csharp
 // Salva il file Excel.
@@ -101,9 +101,9 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 Dopo aver seguito questi passaggi, avrai protetto con successo una riga specifica nel tuo foglio di calcolo Excel utilizzando Aspose.Cells per .NET.
 
-### Esempio di codice sorgente per Proteggi riga specifica nel foglio di lavoro Excel utilizzando Aspose.Cells per .NET 
+### Codice sorgente di esempio per Proteggi riga specifica nel foglio di lavoro Excel utilizzando Aspose.Cells per .NET 
 ```csharp
-// Il percorso della directory dei documenti.
+//Il percorso della directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Crea directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -111,13 +111,13 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 // Crea una nuova cartella di lavoro.
 Workbook wb = new Workbook();
-// Crea un oggetto foglio di lavoro e ottieni il primo foglio.
+// Creare un oggetto del foglio di lavoro e ottenere il primo foglio.
 Worksheet sheet = wb.Worksheets[0];
-// Definire l'oggetto stile.
+// Definire l'oggetto di stile.
 Style style;
 // Definire l'oggetto styleflag.
 StyleFlag flag;
-// Passa in rassegna tutte le colonne del foglio di lavoro e sbloccale.
+// Scorri tutte le colonne del foglio di lavoro e sbloccale.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -130,27 +130,27 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Bloccalo.
 style.IsLocked = true;
-//Crea un'istanza della bandiera.
+//Istanziare la bandiera.
 flag = new StyleFlag();
-// Impostare l'impostazione di blocco.
+// Configurare l'impostazione del blocco.
 flag.Locked = true;
-// Applicare lo stile alla prima riga.
+// Applica lo stile alla prima riga.
 sheet.Cells.ApplyRowStyle(0, style, flag);
 // Proteggi il foglio.
 sheet.Protect(ProtectionType.All);
-// Salva il file excel.
+// Salva il file Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
 ## Conclusione
 
-La protezione dei dati nei file Excel è fondamentale per impedire accessi non autorizzati o modifiche indesiderate. Utilizzando la libreria Aspose.Cells per .NET, puoi facilmente proteggere righe specifiche in un foglio di calcolo Excel utilizzando il codice sorgente C# fornito. Segui questa guida dettagliata per aggiungere un ulteriore livello di sicurezza ai tuoi file Excel.
+La protezione dei dati nei file Excel è fondamentale per impedire accessi non autorizzati o modifiche indesiderate. Utilizzando la libreria Aspose.Cells per .NET, puoi facilmente proteggere righe specifiche in un foglio di calcolo Excel utilizzando il codice sorgente C# fornito. Segui questa guida passo passo per aggiungere un ulteriore livello di sicurezza ai tuoi file Excel.
 
 ### Domande frequenti
 
-#### La protezione delle righe specifiche funziona in tutte le versioni di Excel?
+#### La protezione specifica delle righe funziona in tutte le versioni di Excel?
 
-Sì, la protezione di riga specifica che utilizza Aspose.Cells per .NET funziona in tutte le versioni supportate di Excel.
+Sì, la protezione specifica delle righe utilizzando Aspose.Cells per .NET funziona in tutte le versioni supportate di Excel.
 
 #### Posso proteggere più righe specifiche in un foglio di calcolo Excel?
 

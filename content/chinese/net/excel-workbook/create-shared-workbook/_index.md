@@ -82,4 +82,4 @@ Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 
 #### 问：共享工作簿是否支持所有 Excel 功能？
 
-答：共享工作簿支持大多数 Excel 功能。但是，某些高级功能（例如宏和加载项）在共享工作簿中使用时可能有限制或限制。
+答：共享工作簿支持大多数 Excel 功能。但是，某些高级功能（例如宏和加载项）在共享工作簿中使用时可能有限制或约束。
