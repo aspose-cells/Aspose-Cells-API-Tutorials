@@ -14,7 +14,6 @@ url: /java/data-validation-rules/
 ### [Data Validation Error Messages](./data-validation-error-messages/)
 ### [Cascading Dropdowns in Excel](./cascading-dropdowns-in-excel/)
 ### [Date Validation in Spreadsheets](./date-validation-in-spreadsheets/)
-### [Numeric Data Validation Tips](./numeric-data-validation-tips/)
 ### [List Data Validation in Excel](./list-data-validation-in-excel/)
 ### [Conditional Data Validation](./conditional-data-validation/)
 ### [Input Message in Data Validation](./input-message-in-data-validation/)
