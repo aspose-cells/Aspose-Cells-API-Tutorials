@@ -10,11 +10,20 @@ url: /java/data-validation-rules/
 
 ## Data Validation Rules Tutorials
 ### [Creating Custom Data Validation](./creating-custom-data-validation/)
+Learn how to create custom data validation using Aspose.Cells for Java. Step-by-step guide with source code.
 ### [Dynamic Dropdown Lists in Excel](./dynamic-dropdown-lists-in-excel/)
+Discover the Power of Dynamic Dropdown Lists in Excel. Step-by-step guide using Aspose.Cells for Java. Enhance your spreadsheets with interactive data selection.
 ### [Data Validation Error Messages](./data-validation-error-messages/)
+Optimize your data validation error messages with Aspose.Cells for Java. Learn to create, customize, and improve user experience.
 ### [Cascading Dropdowns in Excel](./cascading-dropdowns-in-excel/)
+Learn how to create cascading dropdowns in Excel using Aspose.Cells for Java. This step-by-step guide provides source code and expert tips for efficient Excel spreadsheet manipulation.
 ### [Date Validation in Spreadsheets](./date-validation-in-spreadsheets/)
+Learn how to perform date validation in Excel spreadsheets using Aspose.Cells for Java. Ensure data accuracy and integrity with our step-by-step guide. Explore powerful Excel manipulation techniques.
+### [Numeric Data Validation Tips](./numeric-data-validation-tips/)
+Master Numeric Data Validation with Aspose.Cells for Java. Learn How to Ensure Data Accuracy and Prevent Errors in Your Java Applications.
 ### [List Data Validation in Excel](./list-data-validation-in-excel/)
+Learn Data Validation in Excel using Aspose.Cells for Java. Implement rules, error messages, and more.
 ### [Conditional Data Validation](./conditional-data-validation/)
+Learn how to implement conditional data validation using Aspose.Cells for Java. Step-by-step guide with source code for accurate data handling in Excel spreadsheets.
 ### [Input Message in Data Validation](./input-message-in-data-validation/)
-### [Advanced Data Validation Techniques](./advanced-data-validation-techniques/)
+Learn how to enhance data validation in Excel using Aspose.Cells for Java. Step-by-step guide with code examples to improve data accuracy and user guidance.
