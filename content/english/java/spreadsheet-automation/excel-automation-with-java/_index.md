@@ -87,7 +87,7 @@ worksheet.getCells().get("A1").setStyle(style);
 
 ## 7. Advanced Excel Automation
 
-Explore advanced topics such as handling pivot tables, data validation, and more using Aspose.Cells. The official documentation provides detailed guidance.
+Explore advanced topics such as handling pivot tables, data validation, and more using Aspose.Cells. The documentation provides detailed guidance.
 
 ## 8. Conclusion
 
@@ -113,7 +113,7 @@ Aspose.Cells for Java empowers you to automate Excel tasks efficiently. With the
 
 ###  Can I try Aspose.Cells before purchasing?
 
-	Yes, you can download a free trial version from the official website.
+	Yes, you can download a free trial version from the website.
 
 ---
 

@@ -27,7 +27,7 @@ Before we begin, make sure you have the following prerequisites in place:
 
 To add Aspose.Cells for Java to your project, follow these steps:
 
-1. Download the Aspose.Cells for Java library from the official website [here](https://releases.aspose.com/cells/java/).
+1. Download the Aspose.Cells for Java library from the website [here](https://releases.aspose.com/cells/java/).
 2. Include the downloaded JAR file in your project's classpath.
 
 ## Writing the CSV Export Code

@@ -78,7 +78,7 @@ Yes, you can import data from multiple Excel files by repeating the steps outlin
 
 ### 2. How do I handle Excel files with complex formatting?
 
-Aspose.Cells for Java provides extensive formatting options and tools for handling complex Excel files. You can refer to the official documentation for more details.
+Aspose.Cells for Java provides extensive formatting options and tools for handling complex Excel files. You can refer to the documentation for more details.
 
 ### 3. Is Aspose.Cells for Java suitable for batch processing of Excel files?
 
@@ -90,6 +90,6 @@ Absolutely! Aspose.Cells for Java supports both importing and exporting data to 
 
 ### 5. Are there any licensing requirements for using Aspose.Cells for Java?
 
-Yes, please review the licensing information on the official Aspose website for details on licensing and pricing.
+Yes, please review the licensing information on the Aspose website for details on licensing and pricing.
 
 Feel free to explore further and adapt the code examples to meet your specific requirements. Happy coding!

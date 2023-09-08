@@ -15,11 +15,11 @@ Before we begin, make sure you have the following prerequisites in place:
 
 ## 1. Java Development Environment
 
-Ensure you have a Java development environment set up on your system. You can download and install the latest Java Development Kit (JDK) from the official Oracle website.
+Ensure you have a Java development environment set up on your system. You can download and install the latest Java Development Kit (JDK) from the Oracle website.
 
 ## 2. Aspose.Cells for Java Library
 
-You'll need to download and include the Aspose.Cells for Java library in your project. You can obtain the library from the official Aspose website or add it as a Maven dependency.
+You'll need to download and include the Aspose.Cells for Java library in your project. You can obtain the library from the Aspose website or add it as a Maven dependency.
 
 ## Step 1: Create a Java Project
 
@@ -55,7 +55,7 @@ Compile and run your Java application. Once the code is executed successfully, y
 
 Congratulations! You've successfully exported an Excel file to HTML using Aspose.Cells for Java. This step-by-step guide should help you get started with this process in your Java applications.
 
-For more advanced features and customization options, refer to the official Aspose.Cells for Java documentation.
+For more advanced features and customization options, refer to the Aspose.Cells for Java documentation.
 
 
 ## FAQs
@@ -67,10 +67,10 @@ For more advanced features and customization options, refer to the official Aspo
    - A: Absolutely! Aspose.Cells is well-suited for batch processing, making it easy to automate tasks involving multiple Excel files.
 
 ### Q: Are there any licensing requirements for using Aspose.Cells for Java?
-   - A: Yes, Aspose.Cells requires a valid license for production use. You can obtain a license from the official Aspose website.
+   - A: Yes, Aspose.Cells requires a valid license for production use. You can obtain a license from the Aspose website.
 
 ### Q: Can I export specific sheets from an Excel workbook to HTML?
    - A: Yes, you can export specific sheets by specifying the sheet names or indices in your code.
 
 ### Q: Where can I find more examples and resources for Aspose.Cells for Java?
-   - A: Visit the official Aspose.Cells documentation and forums for a wealth of examples, tutorials, and support.
+   - A: Visit the Aspose.Cells documentation and forums for a wealth of examples, tutorials, and support.

@@ -115,4 +115,4 @@ Congratulations! You've successfully learned how to export Excel data to XML in 
    Yes, you can customize the XML export format using Aspose.Cells' extensive APIs to meet your specific requirements.
 
 ### 5. Are there any licensing requirements for using Aspose.Cells for Java?
-   Yes, you will need to obtain a valid license from Aspose to use the library in a production environment. Visit their official website for licensing details.
+   Yes, you will need to obtain a valid license from Aspose to use the library in a production environment. Visit their website for licensing details.

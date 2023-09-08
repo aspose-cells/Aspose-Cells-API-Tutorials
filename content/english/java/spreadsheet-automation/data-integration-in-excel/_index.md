@@ -84,7 +84,7 @@ Data integration in Excel becomes a breeze with Aspose.Cells for Java. You've le
 
 ### Q1: Is Aspose.Cells for Java free to use?
 
-Aspose.Cells for Java offers a free trial, but a license is required for full use. Check their official website for pricing details.
+Aspose.Cells for Java offers a free trial, but a license is required for full use. Check their website for pricing details.
 
 ### Q2: Can I integrate data from databases into Excel?
 

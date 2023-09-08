@@ -106,6 +106,6 @@ Automating data entry with Aspose.Cells for Java streamlines your data managemen
    You can implement data validation rules using Aspose.Cells, as demonstrated in the article.
 
 ### Where can I find more resources and documentation for Aspose.Cells for Java?
-   You can explore the official documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
+   You can explore the documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Now you have the knowledge and tools to automate data entry effectively using Aspose.Cells for Java. Start improving your data handling processes and elevate your business efficiency.

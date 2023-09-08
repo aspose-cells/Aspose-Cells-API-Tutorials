@@ -14,7 +14,7 @@ Discover the power of Aspose.Cells for Java in our Spreadsheet Automation Tutori
 
 ### Getting Started with Aspose.Cells
 
-Get a head start by downloading Aspose.Cells for Java from the official source. Our tutorial guides you through integration, making it easy to automate your Java spreadsheet tasks.
+Get a head start by downloading Aspose.Cells for Java from the source. Our tutorial guides you through integration, making it easy to automate your Java spreadsheet tasks.
 
 ### Data Manipulation Made Easy
 

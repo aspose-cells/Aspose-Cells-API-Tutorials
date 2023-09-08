@@ -17,7 +17,7 @@ Before diving into the implementation, let's grasp the fundamentals of data vali
 ## Step 1: Setting Up Your Environment
 To begin our journey, we first need to set up the development environment. Follow these steps:
 
-1. Install Java Development Kit (JDK): Ensure you have JDK installed on your system. You can download it from the official Oracle website.
+1. Install Java Development Kit (JDK): Ensure you have JDK installed on your system. You can download it from the Oracle website.
 
 2. Download Aspose.Cells: Visit the [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/) to get the library. Follow the installation instructions provided.
 

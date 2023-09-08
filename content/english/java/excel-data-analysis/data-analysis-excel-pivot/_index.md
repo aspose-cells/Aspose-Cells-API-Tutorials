@@ -2,7 +2,7 @@
 title: Data Analysis Excel Pivot
 linktitle: Data Analysis Excel Pivot
 second_title: Aspose.Cells Java Excel Processing API
-description: Learn Data Analysis in Excel with Aspose.Cells for Java: Step-by-step guide for effective pivot table usage.
+description: Learn Data Analysis in Excel with Aspose.Cells for Java. Step-by-step guide for effective pivot table usage.
 type: docs
 weight: 13
 url: /java/excel-data-analysis/data-analysis-excel-pivot/

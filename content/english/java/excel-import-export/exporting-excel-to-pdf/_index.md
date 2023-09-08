@@ -14,9 +14,9 @@ In this comprehensive guide, we will walk you through the process of exporting a
 
 Before we delve into the process, ensure that you have the following prerequisites set up:
 
-1. Java Development Environment: Make sure you have Java installed on your system. You can download and install Java from the official website if you haven't already.
+1. Java Development Environment: Make sure you have Java installed on your system. You can download and install Java from the website if you haven't already.
 
-2. Aspose.Cells for Java Library: Obtain the Aspose.Cells for Java library from the official Aspose website. Download the library and add it to your project's classpath.
+2. Aspose.Cells for Java Library: Obtain the Aspose.Cells for Java library from the Aspose website. Download the library and add it to your project's classpath.
 
 ## Step 1: Create a Java Project
 
@@ -99,4 +99,4 @@ While Aspose.Cells is optimized for efficient handling of large Excel files, con
 
 Q5: Where can I find more documentation and examples for Aspose.Cells?
 
-Explore the official Aspose.Cells API documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for comprehensive documentation and a wealth of examples to further expand your knowledge.
+Explore the Aspose.Cells API documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for comprehensive documentation and a wealth of examples to further expand your knowledge.

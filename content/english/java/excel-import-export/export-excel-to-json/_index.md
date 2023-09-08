@@ -67,6 +67,6 @@ Congratulations! You've successfully exported Excel data to JSON using Aspose.Ce
    Yes, you can customize the JSON output format using options provided by Aspose.Cells for Java's JsonSaveOptions.
 
 ### Is there a trial version of Aspose.Cells for Java available?
-   Yes, you can download a trial version of Aspose.Cells for Java from their official website to evaluate its features.
+   Yes, you can download a trial version of Aspose.Cells for Java from their website to evaluate its features.
 
 Feel free to explore further possibilities with Aspose.Cells for Java to enhance your data processing capabilities.
