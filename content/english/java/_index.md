@@ -16,15 +16,12 @@ is_root: true
 
 ### [Excel Pivot Tables](./excel-pivot-tables/)
 Master Excel Pivot Tables with Aspose.Cells for Java. Learn how to create, customize, and analyze data effortlessly.
-### [Excel Data Visualization](./excel-data-visualization/)
 
 ### [Advanced Excel Charts](./advanced-excel-charts/)
 
 ### [Excel Import Export](./excel-import-export/)
 
 ### [Excel Data Security](./excel-data-security/)
-
-### [Excel Formulas](./excel-formulas/)
 
 ### [Spreadsheet Automation](./spreadsheet-automation/)
 Unlock the power of Aspose.Cells for Java with our comprehensive tutorials. Learn spreadsheet automation step by step for efficient Java development.
