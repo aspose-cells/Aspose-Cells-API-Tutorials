@@ -95,4 +95,4 @@ In diesem Tutorial haben wir den Prozess der Erstellung von Pivot-Tabellen mithi
 ### Wie kann ich die Erstellung von Pivot-Tabellen in Java-Anwendungen automatisieren?
    Sie können die Erstellung von Pivot-Tabellen in Java mithilfe der Aspose.Cells für Java-API automatisieren, wie in diesem Tutorial gezeigt.
 
-Jetzt verfügen Sie über das Wissen und den Code, um mit Aspose.Cells leistungsstarke Pivot-Tabellen in Java zu erstellen. Experimentieren Sie mit verschiedenen Datenquellen und Konfigurationen, um Ihre Pivot-Tabellen an Ihre spezifischen Bedürfnisse anzupassen. Viel Spaß bei der Datenanalyse!
+Jetzt verfügen Sie über das Wissen und den Code, um mit Aspose.Cells leistungsstarke Pivot-Tabellen in Java zu erstellen. Experimentieren Sie mit verschiedenen Datenquellen und Konfigurationen, um Ihre Pivot-Tabellen an Ihre spezifischen Anforderungen anzupassen. Viel Spaß bei der Datenanalyse!

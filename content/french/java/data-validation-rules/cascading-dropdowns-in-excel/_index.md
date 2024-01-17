@@ -22,7 +22,7 @@ Avant de nous lancer dans ce voyage, assurez-vous d’avoir les conditions préa
 
 ## La mise en scène
 
-Notre objectif est de créer une feuille Excel avec des listes déroulantes en cascade. Imaginez un scénario dans lequel vous avez une liste de pays et lorsque vous sélectionnez un pays, une liste de villes de ce pays devrait être disponible pour la sélection. Décomposons les étapes pour y parvenir.
+Notre objectif est de créer une feuille Excel avec des listes déroulantes en cascade. Imaginez un scénario dans lequel vous disposez d'une liste de pays et lorsque vous sélectionnez un pays, une liste de villes de ce pays devrait être disponible pour la sélection. Décomposons les étapes pour y parvenir.
 
 ## Étape 1 : Création du classeur Excel
 

@@ -30,7 +30,7 @@ Sobald Sie die Bibliothek bereit haben, können Sie mit den folgenden Schritten 
 import com.aspose.cells.*;
 ```
 
-### Schritt 2: Initialisieren Sie ein Arbeitsmappenobjekt.
+### Schritt 2: Initialisieren Sie ein Workbook-Objekt.
 
 ```java
 Workbook workbook = new Workbook();

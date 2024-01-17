@@ -75,7 +75,7 @@ Zu diesem Zeitpunkt haben Sie eine Excel-Datei erfolgreich in ein PDF-Dokument k
 
 ## Abschluss
 
-Glückwunsch! Sie beherrschen die Kunst, Excel-Dateien mithilfe der Aspose.Cells for Java-Bibliothek in PDF zu exportieren. Dieses leistungsstarke Tool vereinfacht die programmgesteuerte Bearbeitung von Excel-Dateien und ermöglicht Ihnen die mühelose Generierung von PDF-Dokumenten aus Ihren Excel-Daten.
+Glückwunsch! Sie beherrschen die Kunst des Exportierens von Excel-Dateien in PDF mithilfe der Aspose.Cells for Java-Bibliothek. Dieses leistungsstarke Tool vereinfacht die programmgesteuerte Bearbeitung von Excel-Dateien und ermöglicht Ihnen die mühelose Generierung von PDF-Dokumenten aus Ihren Excel-Daten.
 
 ---
 

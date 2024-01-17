@@ -33,7 +33,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 Workbook wb = new Workbook();
 ```
 
- Unbedingt ersetzen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
+ Unbedingt austauschen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
 
 ## Schritt 4: Erstellen einer Tabelle
 

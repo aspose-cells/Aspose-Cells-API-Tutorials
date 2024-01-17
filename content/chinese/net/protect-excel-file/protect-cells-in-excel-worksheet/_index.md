@@ -121,7 +121,7 @@ for (int i = 0; i <= 255; i++)
     styleflag.Locked = true;
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
 }
-//锁定三个单元格...即A1、B1、C1。
+//锁定三个单元格...即 A1、B1、C1。
 style = sheet.Cells["A1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["A1"].SetStyle(style);

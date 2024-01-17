@@ -101,7 +101,7 @@ Oui, vous pouvez effectuer divers calculs dans des tableaux croisés dynamiques,
 
 ### Aspose.Cells for Java est-il adapté aux grands ensembles de données ?
 
-Oui, Aspose.Cells for Java est conçu pour gérer efficacement de grands ensembles de données. Il fournit des fonctionnalités telles que la pagination de données et le streaming pour optimiser les performances avec des quantités importantes de données.
+Oui, Aspose.Cells for Java est conçu pour gérer efficacement de grands ensembles de données. Il fournit des fonctionnalités telles que la pagination et le streaming de données pour optimiser les performances avec des quantités importantes de données.
 
 ### Puis-je automatiser les tâches d'analyse de données avec Aspose.Cells pour Java ?
 

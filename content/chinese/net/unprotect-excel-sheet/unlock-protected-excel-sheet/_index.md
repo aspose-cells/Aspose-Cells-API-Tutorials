@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /zh/net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 ---
-保护 Excel 电子表格通常用于限制对数据的访问和修改。在本教程中，我们将逐步指导您理解和实现所提供的 C# 源代码，以使用适用于 .NET 的 Aspose.Cells 库解锁受保护的 Excel 电子表格。
+保护 Excel 电子表格通常用于限制对数据的访问和修改。在本教程中，我们将指导您逐步理解和实现所提供的 C# 源代码，以使用适用于 .NET 的 Aspose.Cells 库解锁受保护的 Excel 电子表格。
 
 ## 第一步：准备环境
 

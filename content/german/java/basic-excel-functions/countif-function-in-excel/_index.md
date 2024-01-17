@@ -106,7 +106,7 @@ workbook.save("CountifExample.xlsx");
 
 ## Behebung häufiger Probleme
 
-Wenn bei der Verwendung von Aspose.Cells für Java oder der Implementierung der ZÄHLENWENN-Funktion Probleme auftreten, finden Sie Lösungen in der Dokumentation und in den Foren.
+Wenn bei der Verwendung von Aspose.Cells für Java oder der Implementierung der COUNTIF-Funktion Probleme auftreten, finden Sie Lösungen in der Dokumentation und in den Foren.
 
 ## Best Practices für die Verwendung von COUNTIF
 

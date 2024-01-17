@@ -73,7 +73,7 @@ Glückwunsch! Sie haben gelernt, wie Sie mit Aspose.Cells für Java Daten in das
 ## FAQs
 
 ### 1. Kann ich das CSV-Trennzeichen anpassen?
-    Ja, Sie können das Trennzeichen anpassen, indem Sie das ändern`options.setSeparator(',')` Zeile im Code. Ersetzen`','` mit Ihrem Wunschtrennzeichen.
+    Ja, Sie können das Trennzeichen anpassen, indem Sie das ändern`options.setSeparator(',')` Zeile im Code. Ersetzen`','` mit Ihrem Wunschtrenner.
 
 ### 2. Ist Aspose.Cells für große Datenmengen geeignet?
    Ja, Aspose.Cells kann große Datenmengen effizient verarbeiten und bietet verschiedene Optimierungsoptionen.

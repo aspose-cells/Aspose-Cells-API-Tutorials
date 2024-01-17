@@ -129,4 +129,4 @@ Vous pouvez personnaliser l'apparence des cellules en modifiant les polices, les
 
 ### Où puis-je accéder à des fonctionnalités plus avancées d’Aspose.Cells pour Java ?
 
-Pour une liste complète des fonctionnalités et des fonctionnalités avancées, reportez-vous à la documentation Aspose.Cells for Java.
+Pour une liste complète des fonctionnalités et des fonctionnalités avancées, reportez-vous à la documentation Aspose.Cells pour Java.

@@ -73,7 +73,7 @@ Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSet
 // اضبط حجم الورق على A3 وقم بطباعة عرض الورق وارتفاعه بالبوصة
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// اضبط حجم الورق على A4 وطباعة عرض الورق وارتفاعه بالبوصة
+// اضبط حجم الورق على A4 وقم بطباعة عرض الورق وارتفاعه بالبوصة
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 // اضبط حجم الورق على Letter وقم بطباعة عرض الورق وارتفاعه بالبوصة

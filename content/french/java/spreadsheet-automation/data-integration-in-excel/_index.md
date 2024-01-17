@@ -92,7 +92,7 @@ Oui, Aspose.Cells pour Java prend en charge l'intégration de bases de données.
 
 ### Q3 : Existe-t-il des limites à la taille des données pouvant être intégrées ?
 
-La taille des données intégrées dépend de la mémoire de votre système et des limitations d'Excel. Aspose.Cells pour Java lui-même n'impose pas de limites de taille strictes.
+La taille des données intégrées dépend de la mémoire de votre système et des limites d'Excel. Aspose.Cells pour Java lui-même n'impose pas de limites de taille strictes.
 
 ### Q4 : Puis-je automatiser les tâches d'intégration de données avec Aspose.Cells pour Java ?
 

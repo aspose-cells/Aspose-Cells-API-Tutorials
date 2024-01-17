@@ -49,7 +49,7 @@ double total = worksheet.getCells().get("A4").getDoubleValue();
 
 ### Formule MOYENNE
 
-La formule MOYENNE calcule la moyenne d’une plage de nombres. Voici comment l'appliquer avec Aspose.Cells :
+La formule MOYENNE calcule la moyenne d'une plage de nombres. Voici comment l'appliquer avec Aspose.Cells :
 
 ```java
 // Créer un classeur (s'il n'est pas déjà créé)

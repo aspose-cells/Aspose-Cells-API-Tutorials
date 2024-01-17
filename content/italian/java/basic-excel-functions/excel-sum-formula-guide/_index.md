@@ -2,7 +2,7 @@
 title: Guida alla formula SOMMA di Excel
 linktitle: Guida alla formula SOMMA di Excel
 second_title: Aspose.Cells API di elaborazione Java Excel
-description: Sblocca la potenza della formula SOMMA di Excel con Aspose.Cells per Java. la tua guida completa all'automazione di Excel.
+description: Sblocca la potenza della formula SOMMA di Excel con Aspose.Cells per Java la tua guida completa all'automazione di Excel.
 type: docs
 weight: 10
 url: /it/java/basic-excel-functions/excel-sum-formula-guide/

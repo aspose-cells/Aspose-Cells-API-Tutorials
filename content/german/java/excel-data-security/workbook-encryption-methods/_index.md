@@ -14,7 +14,7 @@ Im heutigen digitalen Zeitalter ist Datensicherheit von größter Bedeutung. Wen
 
 ## Grundlegendes zur Arbeitsmappenverschlüsselung
 
-Bevor wir uns mit den Implementierungsdetails befassen, wollen wir zunächst verstehen, was Arbeitsmappenverschlüsselung ist und warum sie wichtig ist. Bei der Arbeitsmappenverschlüsselung handelt es sich um den Prozess der Sicherung des Inhalts einer Excel-Arbeitsmappe durch Anwendung von Verschlüsselungsalgorithmen auf die darin enthaltenen Daten. Dadurch wird sichergestellt, dass nur autorisierte Benutzer mit dem Entschlüsselungsschlüssel auf den Inhalt der Arbeitsmappe zugreifen und diese anzeigen können, sodass Ihre sensiblen Daten vor neugierigen Blicken geschützt sind.
+Bevor wir uns mit den Implementierungsdetails befassen, wollen wir zunächst verstehen, was Arbeitsmappenverschlüsselung ist und warum sie wichtig ist. Unter Arbeitsmappenverschlüsselung versteht man den Prozess der Sicherung des Inhalts einer Excel-Arbeitsmappe durch Anwendung von Verschlüsselungsalgorithmen auf die darin enthaltenen Daten. Dadurch wird sichergestellt, dass nur autorisierte Benutzer mit dem Entschlüsselungsschlüssel auf den Inhalt der Arbeitsmappe zugreifen und diese anzeigen können, sodass Ihre sensiblen Daten vor neugierigen Blicken geschützt sind.
 
 ## Voraussetzungen
 

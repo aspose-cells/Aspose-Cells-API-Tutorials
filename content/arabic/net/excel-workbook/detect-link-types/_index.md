@@ -93,7 +93,7 @@ Console.WriteLine("DetectLinkTypes executed successfully.");
 
  ج: يمكنك تثبيت Aspose.Cells لـ .NET باستخدام مدير الحزم NuGet. بحث عن[إصدارات Aspose](https://releases.aspose.com/cells/net) في وحدة تحكم NuGet Package Manager وقم بتثبيت أحدث إصدار.
 
-#### س: هل يمكنني اكتشاف أنواع الارتباطات في أوراق عمل محددة بدلاً من الورقة الأولى؟
+#### س: هل يمكنني اكتشاف أنواع الارتباطات في أوراق عمل معينة بدلاً من الورقة الأولى؟
 
  ج: نعم، يمكنك تعديل`workbook.Worksheets[0]` الفهرس للوصول إلى ورقة عمل محددة. على سبيل المثال، للوصول إلى الورقة الثانية، استخدم`workbook.Worksheets[1]`.
 

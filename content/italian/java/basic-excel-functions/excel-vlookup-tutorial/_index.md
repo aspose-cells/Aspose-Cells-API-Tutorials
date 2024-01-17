@@ -2,7 +2,7 @@
 title: Esercitazione su CERCA.VERT di Excel
 linktitle: Esercitazione su CERCA.VERT di Excel
 second_title: Aspose.Cells API di elaborazione Java Excel
-description: Sblocca la potenza di CERCA.VERT di Excel con Aspose.Cells per Java. la tua guida definitiva per il recupero dei dati senza sforzo.
+description: Sblocca la potenza di CERCA.VERT di Excel con Aspose.Cells per Java la tua guida definitiva per il recupero dei dati senza sforzo.
 type: docs
 weight: 12
 url: /it/java/basic-excel-functions/excel-vlookup-tutorial/

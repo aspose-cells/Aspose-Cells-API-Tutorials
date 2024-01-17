@@ -97,7 +97,7 @@ sheet.Protect(ProtectionType.All);
 
 ## Étape 9 : Sauvegarde du fichier Excel
 
-Nous allons maintenant sauvegarder le fichier Excel modifié. Utilisez le code suivant :
+Nous allons maintenant enregistrer le fichier Excel modifié. Utilisez le code suivant :
 
 ```csharp
 // Enregistrez le fichier Excel.

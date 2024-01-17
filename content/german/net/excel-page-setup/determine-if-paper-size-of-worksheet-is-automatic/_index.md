@@ -86,8 +86,8 @@ A: Ja, Sie können die automatische Papiergröße für jedes Arbeitsblatt überp
 
 #### F: Wie kann ich das automatische Papierformat einer Tabellenkalkulation ändern?
 
-A: Um die automatische Papiergröße eines Arbeitsblatts zu ändern, können Sie die Eigenschaft PageSetup.IsAutomaticPaperSize verwenden und sie auf den gewünschten Wert (wahr oder falsch) festlegen.
+A: Um die automatische Papiergröße eines Arbeitsblatts zu ändern, können Sie die Eigenschaft PageSetup.IsAutomaticPaperSize verwenden und sie auf den gewünschten Wert (wahr oder falsch) setzen.
 
 #### F: Welche weiteren Funktionen bietet Aspose.Cells für .NET?
 
-A: Aspose.Cells für .NET bietet viele Funktionen für die Arbeit mit Tabellenkalkulationen, z. B. das Erstellen, Ändern und Konvertieren von Arbeitsmappen sowie das Bearbeiten von Daten, Formeln und Formatierungen.
+A: Aspose.Cells für .NET bietet viele Funktionen für die Arbeit mit Tabellenkalkulationen, wie zum Beispiel das Erstellen, Ändern und Konvertieren von Arbeitsmappen sowie das Bearbeiten von Daten, Formeln und Formatierungen.

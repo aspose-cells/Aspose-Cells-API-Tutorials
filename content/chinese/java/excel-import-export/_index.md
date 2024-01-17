@@ -2,7 +2,7 @@
 title: Excel 导入导出
 linktitle: Excel 导入导出
 second_title: Aspose.Cells Java Excel 处理 API
-description: 使用 Aspose.Cells for Java 轻松导入和导出 Excel 文件。探索无缝数据交换的分步教程。今天掌握 Excel 处理！
+description: 使用 Aspose.Cells for Java 轻松导入和导出 Excel 文件。探索无缝数据交换的分步教程。今天就掌握 Excel 处理吧！
 type: docs
 weight: 16
 url: /zh/java/excel-import-export/

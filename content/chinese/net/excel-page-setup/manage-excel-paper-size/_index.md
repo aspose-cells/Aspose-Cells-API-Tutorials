@@ -79,7 +79,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 //访问 Excel 文件中的第一个工作表
 Worksheet worksheet = workbook.Worksheets[0];
-//将纸张尺寸设置为 A4
+//将纸张尺寸设置为A4
 worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 //保存工作簿。
 workbook.Save(dataDir + "ManagePaperSize_out.xls");

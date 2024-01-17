@@ -14,7 +14,7 @@ url: /zh/java/basic-excel-functions/min-function-in-excel-explained/
 
 ## 了解 MIN 函数
 
-Excel 中的 MIN 函数是一种基本数学函数，可帮助您确定给定数字集或单元格范围内的最小值。它通常用于需要识别数据点集合中的最低值的场景。
+Excel 中的 MIN 函数是一种基本数学函数，可帮助您确定给定数字集或单元格范围内的最小值。它通常用于需要确定数据点集合中的最低值的场景。
 
 ### MIN 函数的语法
 

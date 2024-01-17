@@ -112,7 +112,7 @@ Worksheet sheet = wb.Worksheets[0];
 Style style;
 // تحديد كائن styleflag
 StyleFlag styleflag;
-// قم بالمرور عبر كافة الأعمدة الموجودة في ورقة العمل وقم بإلغاء تأمينها.
+// قم بالمرور عبر كافة الأعمدة الموجودة في ورقة العمل وقم بإلغاء قفلها.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;

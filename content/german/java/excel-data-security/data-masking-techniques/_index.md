@@ -32,7 +32,7 @@ Die Datenmaskierung ist aus verschiedenen Gründen unerlässlich:
 
 - Sicherheit: Es hilft, unbefugten Zugriff auf sensible Daten zu verhindern und verringert so das Risiko von Datenschutzverletzungen.
 - Compliance: Viele Vorschriften wie DSGVO und HIPAA erfordern den Schutz persönlicher und vertraulicher Informationen.
-- Testen und Entwicklung: Maskierte Daten ermöglichen es Entwicklern und Testern, mit realistischen Datensätzen zu arbeiten, ohne die Sicherheit zu beeinträchtigen.
+- Testen und Entwicklung: Maskierte Daten ermöglichen Entwicklern und Testern, mit realistischen Datensätzen zu arbeiten, ohne die Sicherheit zu beeinträchtigen.
 
 ## Erste Schritte mit Aspose.Cells für Java
 
@@ -116,7 +116,7 @@ Aspose.Cells zielt hauptsächlich auf Java ab, Aspose bietet jedoch auch Bibliot
 
 Datenmaskierungstechniken sind in der Regel so konzipiert, dass sie irreversibel sind und sicherstellen, dass vertrauliche Informationen nicht einfach aufgedeckt werden können.
 
-### Gibt es irgendwelche Leistungsaspekte bei der Verwendung der Datenmaskierung?
+### Gibt es Leistungsaspekte bei der Verwendung der Datenmaskierung?
 
 Die Auswirkungen der Datenmaskierung auf die Leistung hängen weitgehend von der Komplexität Ihres Datensatzes und den spezifischen verwendeten Maskierungstechniken ab. Es ist wichtig, für Ihren spezifischen Anwendungsfall zu testen und zu optimieren.
 

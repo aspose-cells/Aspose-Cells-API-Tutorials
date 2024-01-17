@@ -120,7 +120,7 @@ Dadurch wird die Arbeitsmappe mit den Änderungen im angegebenen Verzeichnis ges
 
 ## Schritt 12: Schließen des FileStream
 
-Stellen Sie nach dem Lesen der Binärdaten aus dem Bild sicher, dass Sie FileStream schließen, um die Ressourcen freizugeben. Verwenden Sie den folgenden Code, um den FileStream zu schließen:
+Stellen Sie nach dem Lesen der Binärdaten aus dem Bild sicher, dass Sie den FileStream schließen, um die Ressourcen freizugeben. Verwenden Sie den folgenden Code, um den FileStream zu schließen:
 
 ```csharp
 inFile.Close();

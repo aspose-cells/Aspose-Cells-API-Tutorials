@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /it/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-csharp-tutorial/
 ---
-In questo tutorial, ti guideremo passo passo per spiegare il codice sorgente C# di seguito che consiste nell'eliminare un foglio di lavoro Excel utilizzando Aspose.Cells per .NET. Includeremo un codice di esempio per ogni passaggio per aiutarti a comprendere il processo in dettaglio.
+In questo tutorial, ti guideremo passo dopo passo per spiegare il codice sorgente C# di seguito che consiste nell'eliminare un foglio di lavoro Excel utilizzando Aspose.Cells per .NET. Includeremo un codice di esempio per ogni passaggio per aiutarti a comprendere il processo in dettaglio.
 
 ## Passaggio 1: definire la directory dei documenti
 

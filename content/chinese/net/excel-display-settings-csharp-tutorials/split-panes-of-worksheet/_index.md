@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook book = new Workbook(dataDir + "Book1.xls");
 //设置活动单元格
 book.Worksheets[0].ActiveCell = "A20";
-//拆分工作表窗口
+//分割工作表窗口
 book.Worksheets[0].Split();
 //保存 Excel 文件
 book.Save(dataDir + "output.xls");

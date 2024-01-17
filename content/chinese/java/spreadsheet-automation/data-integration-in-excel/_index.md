@@ -8,7 +8,7 @@ weight: 19
 url: /zh/java/spreadsheet-automation/data-integration-in-excel/
 ---
 
-数据集成是使用 Excel 的一个重要方面，使您能够汇集各种来源的信息，进行分析并做出明智的决策。在本指南中，我们将引导您完成使用 Aspose.Cells for Java 在 Excel 中进行数据集成的过程。您将找到分步说明和源代码示例来简化您的工作流程。
+数据集成是使用 Excel 的一个重要方面，它使您能够汇集各种来源的信息，进行分析并做出明智的决策。在本指南中，我们将引导您完成使用 Aspose.Cells for Java 在 Excel 中进行数据集成的过程。您将找到分步说明和源代码示例来简化您的工作流程。
 
 ## 一、简介
 

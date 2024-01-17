@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /de/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 ---
-Der Passwortschutz einer Excel-Tabelle wird häufig zum Schutz vertraulicher Daten verwendet. In diesem Tutorial führen wir Sie Schritt für Schritt durch das Verständnis und die Implementierung des bereitgestellten C#-Quellcodes zum Entsperren einer passwortgeschützten Excel-Tabelle mithilfe der Aspose.Cells-Bibliothek für .NET.
+Der Passwortschutz einer Excel-Tabelle wird häufig zum Schutz sensibler Daten verwendet. In diesem Tutorial führen wir Sie Schritt für Schritt durch das Verständnis und die Implementierung des bereitgestellten C#-Quellcodes zum Entsperren einer passwortgeschützten Excel-Tabelle mithilfe der Aspose.Cells-Bibliothek für .NET.
 
 ## Schritt 1: Vorbereiten der Umgebung
 
