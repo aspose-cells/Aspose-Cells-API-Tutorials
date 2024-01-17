@@ -114,4 +114,4 @@ A. Evet, sağlanan kaynak kodu XLSX dahil diğer Excel dosya formatlarıyla çal
 
 #### S. Değiştirilen Excel dosyasını kaydederken çıktı dosyasının yolunu ve adını nasıl belirleyebilirim?
 
-A.  Değiştirilen Excel dosyasını kaydederken`Save` Çıkış dosyasının tam yolunu ve adını belirten Çalışma Kitabı nesnesinin yöntemi. gibi uygun dosya uzantısını belirttiğinizden emin olun.`.xls` veya`.xlsx`İstenilen dosya formatına bağlı olarak.
+A.  Değiştirilen Excel dosyasını kaydederken,`Save` Çıkış dosyasının tam yolunu ve adını belirten Çalışma Kitabı nesnesinin yöntemi. gibi uygun dosya uzantısını belirttiğinizden emin olun.`.xls` veya`.xlsx`İstenilen dosya formatına bağlı olarak.

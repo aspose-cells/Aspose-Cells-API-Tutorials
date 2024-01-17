@@ -73,7 +73,7 @@ Esto guardará el libro de Excel con el nombre de archivo "SetPrintArea_out.xls"
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Crear instancias de un objeto de libro de trabajo
 Workbook workbook = new Workbook();
-// Obteniendo la referencia del PageSetup de la hoja de trabajo
+// Obteniendo la referencia del PageSetup de la hoja de cálculo
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 // Especificación del rango de celdas (desde la celda A1 hasta la celda T35) del área de impresión
 pageSetup.PrintArea = "A1:T35";

@@ -47,7 +47,7 @@ Worksheet worksheet = workbook.Worksheets[0];
  Ahora desbloquearemos la hoja de trabajo usando el`Unprotect()` método del objeto Hoja de trabajo. Deje la cadena de contraseña en blanco (`""`) si la hoja de cálculo no está protegida con contraseña.
 
 ```csharp
-// Desproteger la hoja de trabajo con una contraseña
+// Desproteger la hoja de trabajo con contraseña
 worksheet.Unprotect("");
 ```
 
@@ -72,7 +72,7 @@ try
     Workbook workbook = new Workbook(dataDir + "book1.xls");
     // Accediendo a la primera hoja de trabajo en el archivo de Excel
     Worksheet worksheet = workbook.Worksheets[0];
-    // Desproteger la hoja de trabajo con una contraseña
+    // Desproteger la hoja de trabajo con contraseña
     worksheet.Unprotect("");
     // Guardar libro de trabajo
     workbook.Save(dataDir + "output.out.xls");

@@ -29,7 +29,7 @@ Ställ in datakatalogen där du vill spara den modifierade Excel-filen. Använd 
 string dataDir = "YOUR DATA DIRECTORY";
 ```
 
-Var noga med att ange hela katalogsökvägen.
+Var noga med att ange den fullständiga katalogsökvägen.
 
 ## Steg 4: Skapa arbetsboken och arbetsbladet
 
@@ -50,7 +50,7 @@ Ställ in numret på den första sidan av kalkylbladssidorna med följande kod:
 worksheet.PageSetup.FirstPageNumber = 2;
 ```
 
-Detta kommer att ställa in första sidnumret till 2.
+Detta kommer att ställa in det första sidnumret till 2.
 
 ## Steg 6: Spara den modifierade arbetsboken
 

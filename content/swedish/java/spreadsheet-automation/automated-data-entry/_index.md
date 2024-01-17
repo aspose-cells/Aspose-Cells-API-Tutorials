@@ -25,7 +25,7 @@ Innan vi går in i de tekniska detaljerna, låt oss förstå varför automatiser
 
  För att komma igång, se till att du har Aspose.Cells för Java installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/java/).
 
-### 2. Initiering av Aspose.Cells
+### 2. Initialisering av Aspose.Cells
 
 Låt oss nu skapa en Java-applikation och initiera Aspose.Cells:
 

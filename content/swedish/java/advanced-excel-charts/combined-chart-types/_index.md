@@ -49,7 +49,7 @@ int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Lägga till data i diagrammet
+## Lägga till data till diagrammet
 
 Nu när vi har skapat ett kombinerat diagram, låt oss lägga till lite data till det.
 

@@ -36,7 +36,7 @@ Antes de generar la vista previa de impresión, puede configurar la imagen y las
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
-## Paso 4: genere la vista previa de impresión del libro
+## Paso 4: genere la vista previa de impresión del libro de trabajo
 
 Ahora puede generar la vista previa de impresión del libro de trabajo utilizando la clase WorkbookPrintingPreview. He aquí cómo hacerlo:
 

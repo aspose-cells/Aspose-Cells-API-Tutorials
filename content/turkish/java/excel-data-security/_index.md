@@ -9,7 +9,7 @@ url: /tr/java/excel-data-security/
 ---
 
 ## giriiş
-Verilerin kral olduğu bir çağda, Excel elektronik tablolarınızın güvenliğinin sağlanması çok önemlidir. İster hassas mali verilerle, ister gizli iş raporlarıyla, ister diğer kritik bilgilerle uğraşıyor olun, Excel dosyalarınızı yetkisiz erişime ve kurcalamaya karşı korumak çok önemlidir. Aspose.Cells for Java, Excel veri güvenliğinizi güçlendirmek için güçlü araçlar sağlar ve bu eğitimde, değerli verilerinizi korumanız için gerekli adımları size anlatacağız.
+Verilerin kral olduğu bir çağda, Excel elektronik tablolarınızın güvenliğinin sağlanması çok önemlidir. İster hassas mali verilerle, ister gizli iş raporlarıyla, ister diğer kritik bilgilerle uğraşıyor olun, Excel dosyalarınızı yetkisiz erişime ve kurcalamaya karşı korumak çok önemlidir. Aspose.Cells for Java, Excel veri güvenliğinizi güçlendirecek güçlü araçlar sağlar ve bu eğitimde, değerli verilerinizi korumanız için gerekli adımları size anlatacağız.
 
 
 ## Şifre Koruması

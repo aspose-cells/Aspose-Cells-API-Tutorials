@@ -99,7 +99,7 @@ sheet.Cells.Columns[0].ApplyStyle(style, flag);
 Para finalizar la protección, debemos proteger la hoja de trabajo para asegurarnos de que las columnas bloqueadas no se puedan modificar. Aquí está el fragmento de código:
 
 ```csharp
-// Protege la sábana.
+// Protege la hoja.
 sheet.Protect(ProtectionType.All);
 ```
 
@@ -149,7 +149,7 @@ flag = new StyleFlag();
 flag.Locked = true;
 // Aplica el estilo a la primera columna.
 sheet.Cells.Columns[0].ApplyStyle(style, flag);
-// Protege la sábana.
+// Protege la hoja.
 sheet.Protect(ProtectionType.All);
 // Guarde el archivo de Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);

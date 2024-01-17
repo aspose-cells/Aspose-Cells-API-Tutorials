@@ -34,7 +34,7 @@ Workbook workbook = new Workbook(filePath);
 
 ## Steg 3: Gå till pivottabellen
 
-Leta reda på pivottabellen i din arbetsbok. Du kan göra detta genom att ange dess ark och namn.
+Leta upp pivottabellen i din arbetsbok. Du kan göra detta genom att ange dess ark och namn.
 
 ```java
 String sheetName = "Sheet1"; // Ersätt med ditt arknamn

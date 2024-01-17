@@ -24,7 +24,7 @@ Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan e
 
 Amacımız basamaklı açılır menülere sahip bir Excel sayfası oluşturmaktır. Bir ülke listenizin olduğu ve bir ülke seçtiğinizde o ülkedeki şehirlerin bir listesinin seçime açık olması gereken bir senaryo düşünün. Bunu başarmak için adımları inceleyelim.
 
-## Adım 1: Excel Çalışma Kitabının Oluşturulması
+## Adım 1: Excel Çalışma Kitabını Oluşturma
 
 Öncelikle Aspose.Cells for Java'yı kullanarak bir Excel çalışma kitabı oluşturalım. İki sayfa ekleyeceğiz: biri ülke listesi için, diğeri şehir listesi için.
 
@@ -115,7 +115,7 @@ Evet, Aspose.Cells for Java çok yönlüdür ve her boyuttaki projede kullanıla
 
 ### Aspose.Cells for Java ile basamaklı açılan menüleri uygulamak için ileri düzey programlama becerilerine ihtiyacım var mı?
 
-Java'yı temel düzeyde anlamak yararlı olsa da Aspose.Cells for Java, süreç boyunca size yol gösterecek kapsamlı belgeler ve örnekler sağlar. Biraz özveri ve pratikle bu özelliğe hakim olabilirsiniz.
+Java'nın temel düzeyde anlaşılması yararlı olsa da Aspose.Cells for Java, süreç boyunca size yol gösterecek kapsamlı belgeler ve örnekler sağlar. Biraz özveri ve pratikle bu özelliğe hakim olabilirsiniz.
 
 ### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 

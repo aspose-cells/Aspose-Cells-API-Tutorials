@@ -87,7 +87,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 // Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
-// Visar kalkylbladet i förhandsvisning av sidbrytning
+// Visar arbetsbladet i förhandsvisning av sidbrytning
 worksheet.IsPageBreakPreview = true;
 // Sparar den ändrade Excel-filen
 workbook.Save(dataDir + "output.xls");

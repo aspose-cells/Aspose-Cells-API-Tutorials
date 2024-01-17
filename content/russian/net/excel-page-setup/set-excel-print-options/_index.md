@@ -147,4 +147,4 @@ workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 
 #### 3. Совместим ли Aspose.Cells для .NET со всеми версиями .NET Framework?
 
-Aspose.Cells для .NET совместим с .NET Framework 2.0 или более поздней версии, включая версии 3.5, 4.0, 4.5, 4.6 и т. д.
+Aspose.Cells для .NET совместим с .NET Framework 2.0 или более поздней версии, включая версии 3.5, 4.0, 4.5, 4.6 и т. д.

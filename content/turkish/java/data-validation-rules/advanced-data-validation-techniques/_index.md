@@ -98,7 +98,7 @@ Kesinlikle! Aspose.Cells for Java, Excel elektronik tablolarında tarih ve saat 
 
 ### Liste verilerinin doğrulanması için önceden tanımlanmış seçenekler var mı?
 
-Evet, liste verilerinin doğrulanması için önceden tanımlanmış seçeneklerle açılır listeler tanımlayabilirsiniz.
+Evet, liste verilerinin doğrulanması için önceden tanımlanmış seçeneklerle açılır listeleri tanımlayabilirsiniz.
 
 ### Aspose.Cells for Java hakkında daha fazla belgeyi nerede bulabilirim?
 

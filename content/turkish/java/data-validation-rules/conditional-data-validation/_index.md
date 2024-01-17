@@ -10,7 +10,7 @@ url: /tr/java/data-validation-rules/conditional-data-validation/
 
 ## Aspose.Cells for Java'ya Giriş
 
-Koşullu veri doğrulamanın detaylarına dalmadan önce Aspose.Cells for Java'yı kısaca tanıtalım. Aspose.Cells, geliştiricilerin Microsoft Excel'e ihtiyaç duymadan Excel elektronik tabloları oluşturmasına, değiştirmesine ve yönetmesine olanak tanıyan güçlü bir Java kitaplığıdır. Veri doğrulama da dahil olmak üzere Excel dosyalarıyla çalışmak için çok çeşitli özellikler sunar.
+Koşullu veri doğrulamanın detaylarına dalmadan önce Aspose.Cells for Java'yı kısaca tanıtalım. Aspose.Cells, geliştiricilerin Microsoft Excel'e ihtiyaç duymadan Excel elektronik tabloları oluşturmasına, işlemesine ve yönetmesine olanak tanıyan güçlü bir Java kitaplığıdır. Veri doğrulama da dahil olmak üzere Excel dosyalarıyla çalışmak için çok çeşitli özellikler sağlar.
 
 ## Önkoşullar
 

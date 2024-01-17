@@ -10,7 +10,7 @@ url: /es/java/data-validation-rules/date-validation-in-spreadsheets/
 
 ## Introducción
 
-En el mundo del procesamiento de datos, las hojas de cálculo son herramientas indispensables y los desarrolladores de Java a menudo se encuentran trabajando con datos de hojas de cálculo. Garantizar la integridad de los datos es crucial, especialmente cuando se trata de fechas. En esta guía, exploraremos cómo realizar la validación de fechas en hojas de cálculo usando Aspose.Cells para Java, una potente API para trabajar con archivos de Excel.
+En el mundo del procesamiento de datos, las hojas de cálculo son herramientas indispensables y los desarrolladores de Java a menudo se encuentran trabajando con datos de hojas de cálculo. Garantizar la integridad de los datos es crucial, especialmente cuando se trata de fechas. En esta guía, exploraremos cómo realizar la validación de fechas en hojas de cálculo usando Aspose.Cells para Java, una poderosa API para trabajar con archivos de Excel.
 
 ## Requisitos previos
 

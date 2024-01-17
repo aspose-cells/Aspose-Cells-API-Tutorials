@@ -10,7 +10,7 @@ url: /tr/java/basic-excel-functions/excel-date-functions-tutorial/
 
 ## Excel Tarih İşlevleri Eğitimine Giriş
 
-Bu kapsamlı eğitimde, Excel tarih fonksiyonlarını ve tarihle ilgili verilerle çalışmak için Aspose.Cells for Java'nın gücünden nasıl yararlanılabileceğini keşfedeceğiz. İster tecrübeli bir geliştirici olun ister Aspose.Cells'e yeni başlıyor olun, bu kılavuz Excel'deki tarih fonksiyonlarının potansiyelinden yararlanmanıza yardımcı olacaktır. O halde hadi dalalım!
+Bu kapsamlı eğitimde, Excel tarih fonksiyonlarını ve tarihle ilgili verilerle çalışmak için Aspose.Cells for Java'nın gücünden nasıl yararlanılabileceğini keşfedeceğiz. İster deneyimli bir geliştirici olun ister Aspose.Cells'e yeni başlıyor olun, bu kılavuz Excel'deki tarih fonksiyonlarının potansiyelinden yararlanmanıza yardımcı olacaktır. O halde hadi dalalım!
 
 ## Excel'de Tarih İşlevlerini Anlamak
 

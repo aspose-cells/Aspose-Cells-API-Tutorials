@@ -14,7 +14,7 @@ Günümüzün dijital çağında, veri doğrulama, Excel elektronik tablolarınd
 
 ## Veri Doğrulamayı Anlamak
 
-Aspose.Cells for Java kullanarak veri doğrulama uygulamasının teknik detaylarına dalmadan önce, veri doğrulamanın ne olduğunu ve neden önemli olduğunu anlamak için biraz zaman ayıralım.
+Aspose.Cells for Java kullanarak veri doğrulama uygulamasının teknik detaylarına dalmadan önce, veri doğrulamanın ne olduğunu ve neden önemli olduğunu anlamak için biraz duralım.
 
 ### Veri Doğrulama Nedir?
 

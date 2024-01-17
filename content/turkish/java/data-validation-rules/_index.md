@@ -26,7 +26,7 @@ Excel'deki Dinamik Açılır Listelerin Gücünü Keşfedin. Aspose.Cells for Ja
 Aspose.Cells for Java ile veri doğrulama hata mesajlarınızı optimize edin. Kullanıcı deneyimini oluşturmayı, özelleştirmeyi ve iyileştirmeyi öğrenin.
 ### [Excel'de Basamaklı Açılan Menüler](./cascading-dropdowns-in-excel/)
 Aspose.Cells for Java'yı kullanarak Excel'de basamaklı açılır menüleri nasıl oluşturacağınızı öğrenin. Bu adım adım kılavuz, verimli Excel elektronik tablosu manipülasyonu için kaynak kodu ve uzman ipuçları sağlar.
-### [E-tablolarda Tarih Doğrulama](./date-validation-in-spreadsheets/)
+### [E-Tablolarda Tarih Doğrulaması](./date-validation-in-spreadsheets/)
 Aspose.Cells for Java kullanarak Excel elektronik tablolarında tarih doğrulamanın nasıl gerçekleştirileceğini öğrenin. Adım adım kılavuzumuzla veri doğruluğunu ve bütünlüğünü sağlayın. Güçlü Excel işleme tekniklerini keşfedin.
 ### [Sayısal Veri Doğrulama İpuçları](./numeric-data-validation-tips/)
 Aspose.Cells for Java ile Sayısal Veri Doğrulamada Uzmanlaşın. Java Uygulamalarınızda Veri Doğruluğunu Nasıl Sağlayacağınızı ve Hataları Nasıl Önleyeceğinizi Öğrenin.

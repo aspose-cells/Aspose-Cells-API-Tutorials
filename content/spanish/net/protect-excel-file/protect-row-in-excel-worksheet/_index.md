@@ -135,7 +135,7 @@ flag = new StyleFlag();
 flag.Locked = true;
 // Aplica el estilo a la primera fila.
 sheet.Cells.ApplyRowStyle(0, style, flag);
-// Protege la sábana.
+// Protege la hoja.
 sheet.Protect(ProtectionType.All);
 // Guarde el archivo de Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);

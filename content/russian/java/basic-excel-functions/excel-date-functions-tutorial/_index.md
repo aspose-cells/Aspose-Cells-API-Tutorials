@@ -103,7 +103,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("2023-09-07");
 worksheet.getCells().get("A2").putValue("2023-08-01");
 
-// Рассчитайте разницу, используя РАЗДАТ.
+// Вычислите разницу, используя РАЗДАТ.
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
 //Получите разницу в днях

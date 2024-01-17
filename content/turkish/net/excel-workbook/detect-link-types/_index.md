@@ -115,4 +115,4 @@ C: Evet, Aspose.Cells for .NET web uygulamalarında kullanılabilir. Bunu ASP.NE
 
 #### S: Aspose.Cells for .NET'i kullanırken herhangi bir dosya boyutu sınırı var mı?
 
-C: Aspose.Cells for .NET, büyük Excel çalışma kitaplarını belirli bir sınırlama olmaksızın işleyebilir. Ancak gerçek dosya boyutu mevcut sistem kaynaklarıyla sınırlı olabilir.
+C: Aspose.Cells for .NET, büyük Excel çalışma kitaplarını belirli bir sınırlama olmadan işleyebilir. Ancak gerçek dosya boyutu mevcut sistem kaynaklarıyla sınırlı olabilir.

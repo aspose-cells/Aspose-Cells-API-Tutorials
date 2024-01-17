@@ -30,7 +30,7 @@ Ställ in datakatalogen där du vill spara den modifierade Excel-filen. Använd 
 string dataDir = "YOUR DATA DIRECTORY";
 ```
 
-Var noga med att ange hela katalogsökvägen.
+Var noga med att ange den fullständiga katalogsökvägen.
 
 ## Steg 4: Skapa arbetsboken och arbetsbladet
 

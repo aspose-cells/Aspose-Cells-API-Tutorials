@@ -83,7 +83,7 @@ Esto guardará el libro de Excel con el nombre de archivo "SetPrintTitle_out.xls
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Crear instancias de un objeto de libro de trabajo
 Workbook workbook = new Workbook();
-// Obteniendo la referencia del PageSetup de la hoja de trabajo
+// Obteniendo la referencia del PageSetup de la hoja de cálculo
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 // Definición de los números de columna A y B como columnas de título
 pageSetup.PrintTitleColumns = "$A:$B";

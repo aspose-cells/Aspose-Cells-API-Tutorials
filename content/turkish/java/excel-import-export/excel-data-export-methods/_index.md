@@ -177,6 +177,6 @@ C: Evet, Aspose, kullanıcıların yardım arayabileceği, deneyimlerini paylaş
 
 ## Çözüm
 
-Bu kapsamlı kılavuzda Aspose.Cells for Java kullanarak Excel veri aktarma yöntemlerini inceledik ve her yöntem için kaynak kodu örnekleri sunduk. İster geliştirici ister iş uzmanı olun, bu yöntemlerde uzmanlaşmak size Excel verilerini ustalıkla kullanma gücü verecektir.
+Bu kapsamlı kılavuzda Aspose.Cells for Java'yı kullanarak Excel veri aktarma yöntemlerini inceledik ve her yöntem için kaynak kodu örnekleri sunduk. İster geliştirici ister iş uzmanı olun, bu yöntemlerde uzmanlaşmak size Excel verilerini ustalıkla kullanma gücü verecektir.
 
 Artık pratik bilgi ve kaynak kodu örnekleriyle donatılmış olarak Aspose.Cells for Java ile veri aktarımında uzmanlaşmaya hazırsınız. Veri dışa aktarma yeteneklerinizi keşfetmeye, denemeye ve geliştirmeye bugün başlayın.

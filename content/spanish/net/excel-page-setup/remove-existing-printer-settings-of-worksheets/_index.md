@@ -32,7 +32,7 @@ string outputDir = "OUTPUT DIRECTORY PATH";
 
 Asegúrese de especificar rutas de directorio completas.
 
-## Paso 4: cargar el archivo fuente de Excel
+## Paso 4: cargar el archivo Excel de origen
 
 Cargue el archivo fuente de Excel usando el siguiente código:
 

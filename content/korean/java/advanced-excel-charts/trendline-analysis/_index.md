@@ -1,0 +1,95 @@
+---
+title: 추세선 분석
+linktitle: 추세선 분석
+second_title: Aspose.Cells Java Excel 처리 API
+description: Aspose.Cells를 사용한 Java의 마스터 추세선 분석. 단계별 지침과 코드 예제를 통해 데이터 기반 통찰력을 만드는 방법을 알아보세요.
+type: docs
+weight: 15
+url: /ko/java/advanced-excel-charts/trendline-analysis/
+---
+
+## 소개 추세선 분석
+
+이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 추세선 분석을 수행하는 방법을 살펴보겠습니다. 추세선 분석은 패턴을 이해하고 데이터 기반 결정을 내리는 데 도움이 됩니다. 소스 코드 예제와 함께 단계별 지침을 제공하겠습니다.
+
+## 전제 조건
+
+시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
+
+- 시스템에 Java가 설치되어 있습니다.
+-  Java 라이브러리용 Aspose.Cells. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/java/).
+
+## 1단계: 프로젝트 설정
+
+1. 즐겨 사용하는 IDE에서 새 Java 프로젝트를 만듭니다.
+
+2. JAR 파일을 포함시켜 프로젝트에 Aspose.Cells for Java 라이브러리를 추가하세요.
+
+## 2단계: 데이터 로드
+
+```java
+// 필요한 라이브러리 가져오기
+import com.aspose.cells.*;
+
+// 엑셀 파일 불러오기
+Workbook workbook = new Workbook("your_excel_file.xlsx");
+
+// 워크시트에 액세스
+Worksheet worksheet = workbook.getWorksheets().get(0);
+```
+
+## 3단계: 차트 만들기
+
+```java
+// 차트 만들기
+int chartIndex = worksheet.getCharts().add(ChartType.LINE, 5, 0, 15, 5);
+Chart chart = worksheet.getCharts().get(chartIndex);
+
+// 차트의 데이터 소스 지정
+chart.getNSeries().add("A1:A10", true);
+```
+
+## 4단계: 추세선 추가
+
+```java
+// 차트에 추세선 추가
+Trendline trendline = chart.getNSeries().get(0).getTrendlines().add(TrendlineType.LINEAR);
+
+// 추세선 옵션 사용자 정의
+trendline.setDisplayEquation(true);
+trendline.setDisplayRSquaredValue(true);
+```
+
+## 5단계: 차트 사용자 정의
+
+```java
+// 차트 제목 및 축 사용자 정의
+chart.getTitle().setText("Trendline Analysis");
+chart.getCategoryAxis().getTitle().setText("X-Axis");
+chart.getValueAxis().getTitle().setText("Y-Axis");
+
+//차트와 함께 Excel 파일을 저장하세요.
+workbook.save("output.xlsx");
+```
+
+## 6단계: 결과 분석
+
+이제 추세선이 추가된 차트가 생겼습니다. 생성된 Excel 파일을 사용하여 추세선, 계수 및 R-제곱 값을 추가로 분석할 수 있습니다.
+
+##결론
+
+이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 추세선 분석을 수행하는 방법을 배웠습니다. 샘플 Excel 통합 문서를 만들고, 데이터를 추가하고, 차트를 만들고, 추세선을 추가하여 데이터를 시각화하고 분석했습니다. 이제 이러한 기술을 사용하여 자신의 데이터 세트에 대한 추세선 분석을 수행할 수 있습니다.
+
+## FAQ
+
+### 추세선 유형을 어떻게 변경할 수 있나요?
+
+ 추세선 유형을 변경하려면`TrendlineType` 추세선을 추가할 때의 열거형입니다. 예를 들어`TrendlineType.POLYNOMIAL` 다항식 추세선의 경우.
+
+### 추세선 모양을 사용자 정의할 수 있나요?
+
+ 예, 다음과 같은 속성에 액세스하여 추세선 모양을 맞춤 설정할 수 있습니다.`setLineFormat()` 그리고`setWeight()` 추세선 개체의
+
+### 차트를 이미지나 PDF로 내보내려면 어떻게 해야 합니까?
+
+Aspose.Cells를 사용하여 차트를 다양한 형식으로 내보낼 수 있습니다. 자세한 지침은 설명서를 참조하세요.

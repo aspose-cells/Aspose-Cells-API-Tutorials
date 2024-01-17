@@ -158,4 +158,4 @@ C: Korumalı Excel dosyasını açtığınızda, çalışma sayfasını korurken
 
 #### S: Excel elektronik tablosuna uygulayabileceğim başka koruma türleri var mı?
 
-C: Evet, Aspose.Cells for .NET yapı koruması, pencere koruması vb. gibi birden fazla koruma türünü destekler. İhtiyaçlarınıza göre uygun koruma türünü seçebilirsiniz.
+C: Evet, Aspose.Cells for .NET, yapı koruması, pencere koruması vb. gibi birden fazla koruma türünü destekler. İhtiyaçlarınıza göre uygun koruma türünü seçebilirsiniz.

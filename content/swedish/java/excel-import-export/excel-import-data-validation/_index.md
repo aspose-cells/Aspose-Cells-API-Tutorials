@@ -19,7 +19,7 @@ För att börja vår resa måste vi först ställa in utvecklingsmiljön. Följ 
 
 1. Installera Java Development Kit (JDK): Se till att du har JDK installerat på ditt system. Du kan ladda ner den från Oracles webbplats.
 
-2.  Ladda ner Aspose.Cells: Besök[Aspose.Cells för Java nedladdningssida](https://releases.aspose.com/cells/java/) för att få biblioteket. Följ installationsanvisningarna.
+2.  Ladda ner Aspose.Cells: Besök[Aspose.Cells för Java nedladdningssida](https://releases.aspose.com/cells/java/) för att få biblioteket. Följ installationsinstruktionerna som tillhandahålls.
 
 3. Skapa ett Java-projekt: Skapa ett nytt Java-projekt i din föredragna Integrated Development Environment (IDE).
 

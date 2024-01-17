@@ -10,13 +10,13 @@ is_root: true
 
 ## Aspose.Cells för .NET Tutorials
 {{% alert color="primary" %}}
-Aspose.Cells för .NET tutorials och kodsnuttar för att skapa, redigera, konvertera, skriva ut och många fler funktioner för Excel-filer i din applikation. 
+Aspose.Cells för .NET handledning och kodsnuttar för att skapa, redigera, konvertera, skriva ut och många fler funktioner för Excel-filer i din applikation. 
 {{% /alert %}}
 
 Det här är länkar till några användbara resurser:
  
 - [Excel arbetsblad](./net/excel-worksheet-csharp-tutorials/)
-- [Excel-skärminställningar](./net/excel-display-settings-csharp-tutorials)
+- [Visningsinställningar för Excel](./net/excel-display-settings-csharp-tutorials)
 - [Excel sidinställningar](./net/excel-page-setup)
 - [Skydda Excel-fil](./net/protect-excel-file/)
 

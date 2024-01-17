@@ -71,7 +71,7 @@ Aspose.Cells for Java API'de pivot tablo stillerini özelleştirmek oldukça bas
 ### Pivot tablolar için önceden tanımlanmış stiller mevcut mu?
    Evet, Aspose.Cells for Java, aralarından seçim yapabileceğiniz çeşitli yerleşik stiller sunar.
 
-### Pivot tablolara koşullu biçimlendirme eklemek mümkün müdür?
+### Pivot tablolara koşullu biçimlendirme eklemek mümkün mü?
    Kesinlikle, pivot tablolarınızdaki belirli verileri vurgulamak için koşullu biçimlendirme uygulayabilirsiniz.
 
 ### Pivot tabloları farklı dosya formatlarına aktarabilir miyim?

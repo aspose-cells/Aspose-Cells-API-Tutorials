@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /tr/net/excel-workbook/create-shared-workbook/
 ---
-Bu eğitimde, Aspose.Cells for .NET'i kullanarak paylaşılan bir çalışma kitabı oluşturmanıza olanak tanıyan, sağlanan C# kaynak kodunu size anlatacağız. Bu işlemi gerçekleştirmek için aşağıdaki adımları izleyin.
+Bu eğitimde, Aspose.Cells for .NET'i kullanarak paylaşılan bir çalışma kitabı oluşturmanıza olanak tanıyan sağlanan C# kaynak kodunu size anlatacağız. Bu işlemi gerçekleştirmek için aşağıdaki adımları izleyin.
 
 ## 1. Adım: Çıkış dizinini ayarlayın
 

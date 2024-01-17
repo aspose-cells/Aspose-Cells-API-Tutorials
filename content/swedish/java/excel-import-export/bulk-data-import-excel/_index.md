@@ -16,7 +16,7 @@ Import av massdata från Excel är ett vanligt krav i många Java-applikationer.
 
 ## Förutsättningar
 
-Innan vi dyker in i implementeringen, se till att du har följande förutsättningar på plats:
+Innan vi går in i implementeringen, se till att du har följande förutsättningar på plats:
 
 -  Aspose.Cells for Java Library: Ladda ner och installera biblioteket från[här](https://releases.aspose.com/cells/java/).
 

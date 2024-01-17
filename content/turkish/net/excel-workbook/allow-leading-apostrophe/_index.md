@@ -120,7 +120,7 @@ Tebrikler! Aspose.Cells for .NET'i kullanarak bir Excel çalışma kitabında ba
 
 #### S: Excel çalışma kitabındaki kesme işareti izni nedir?
 
-C: Excel çalışma kitabında ilk kesme işaretine izin verilmesi, kesme işaretiyle başlayan verilerin metin stiline dönüştürülmeden doğru şekilde görüntülenmesine olanak tanır. Kesme işaretini verilerin bir parçası olarak tutmak istediğinizde bu kullanışlıdır.
+C: Excel çalışma kitabındaki ilk kesme işaretine izin vermek, kesme işaretiyle başlayan verilerin metin stiline dönüştürülmeden doğru şekilde görüntülenmesine olanak tanır. Kesme işaretini verilerin bir parçası olarak tutmak istediğinizde bu kullanışlıdır.
 
 #### S: Neden ilk kesme işaretlerinin otomatik dönüştürülmesini kapatmam gerekiyor?
 

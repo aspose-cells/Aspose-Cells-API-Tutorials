@@ -23,7 +23,7 @@ Genom att behärska Excel-dataanalys med Aspose.Cells för Java får du en konku
 ## Självstudier för Excel-dataanalys
 ### [Dataanalysfunktioner Excel](./data-analysis-functions-excel/)
 Lås upp kraften med dataanalys i Excel med Aspose.Cells för Java. Lär dig sortering, filtrering, beräkningar och pivottabeller.
-### [Avancerad dataanalys i Excel](./advanced-data-analysis-excel/)
+### [Avancerad dataanalys Excel](./advanced-data-analysis-excel/)
 Bemästra avancerad dataanalys i Excel med Aspose.Cells för Java. Lär dig steg för steg, med exempel på källkod.
 ### [Dataanalys Excel Pivot](./data-analysis-excel-pivot/)
 Lär dig dataanalys i Excel med Aspose.Cells för Java: Steg-för-steg-guide för effektiv användning av pivottabeller.

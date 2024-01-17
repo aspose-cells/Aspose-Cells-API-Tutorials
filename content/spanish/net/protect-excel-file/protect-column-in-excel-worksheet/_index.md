@@ -136,7 +136,7 @@ flag = new StyleFlag();
 flag.Locked = true;
 // Aplica el estilo a la primera columna.
 sheet.Cells.Columns[0].ApplyStyle(style, flag);
-// Protege la sábana.
+// Protege la hoja.
 sheet.Protect(ProtectionType.All);
 // Guarde el archivo de Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
@@ -166,4 +166,4 @@ R: En Aspose.Cells para .NET, puede usar un bucle para recorrer todas las column
 
 #### P: ¿Puedo aplicar estos conceptos de protección de columnas en otros tipos de archivos de Excel?
 
-R: Sí, los conceptos de protección de columnas en Aspose.Cells para .NET son aplicables a todo tipo de archivos de Excel, como archivos de Excel 97-2003 (.xls) y archivos de Excel más nuevos (.xlsx).
+R: Sí, los conceptos de protección de columnas en Aspose.Cells para .NET son aplicables a todos los tipos de archivos de Excel, como archivos de Excel 97-2003 (.xls) y archivos de Excel más nuevos (.xlsx).

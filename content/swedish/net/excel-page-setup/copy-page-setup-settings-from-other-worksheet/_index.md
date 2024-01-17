@@ -16,7 +16,7 @@ Det första steget är att skapa en arbetsbok. I vårt fall kommer vi att använ
 Workbook wb = new Workbook();
 ```
 
-## Steg 2: Lägga till testarbetsblad
+## Steg 2: Lägga till testkalkylblad
 Efter att ha skapat arbetsboken måste vi lägga till testkalkylblad. I det här exemplet kommer vi att lägga till två kalkylblad. Här är koden för att lägga till två kalkylblad:
 
 ```csharp

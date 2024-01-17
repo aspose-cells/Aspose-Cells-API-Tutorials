@@ -87,7 +87,7 @@ formatCondition.setStyle(style);
 
 Este fragmento de código bloquea las celdas que contienen valores entre 0 y 100, lo que garantiza que solo se puedan realizar cambios autorizados en esas celdas.
 
-## Proteger hojas de trabajo enteras
+## Proteger hojas de trabajo completas
 
 En algunos casos, es posible que desee bloquear una hoja de trabajo completa para evitar modificaciones. Aspose.Cells para Java hace que esto sea muy sencillo:
 

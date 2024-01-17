@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /tr/net/excel-workbook/xades-signature-support/
 ---
-Bu yazımızda, .NET için Aspose.Cells kütüphanesini kullanarak Xades imza desteği ile ilgili olan aşağıdaki C# kaynak kodunu açıklamaya adım adım gideceğiz. Bir Excel dosyasına Xades dijital imzası eklemek için bu kütüphaneyi nasıl kullanacağınızı öğreneceksiniz. Ayrıca size imzalama süreci ve yürütülmesi hakkında genel bir bakış sunacağız. Kesin sonuçlar elde etmek için aşağıdaki adımları izleyin.
+Bu yazımızda, .NET için Aspose.Cells kütüphanesini kullanarak Xades imza desteği ile ilgili olan aşağıdaki C# kaynak kodunu açıklamanıza adım adım yol göstereceğiz. Bir Excel dosyasına Xades dijital imzası eklemek için bu kütüphaneyi nasıl kullanacağınızı öğreneceksiniz. Ayrıca size imzalama süreci ve yürütülmesi hakkında genel bir bakış sunacağız. Kesin sonuçlar elde etmek için aşağıdaki adımları izleyin.
 
 ## 1. Adım: Kaynak ve çıktı dizinlerini tanımlayın
 Başlamak için kodumuzda kaynak ve çıktı dizinlerini tanımlamamız gerekiyor. Bu dizinler kaynak dosyaların nerede bulunduğunu ve çıktı dosyasının nereye kaydedileceğini gösterir. İşte ilgili kod:

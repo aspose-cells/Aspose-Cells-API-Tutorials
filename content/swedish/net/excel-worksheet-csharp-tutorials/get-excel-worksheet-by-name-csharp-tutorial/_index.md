@@ -55,7 +55,7 @@ För att komma åt ett specifikt kalkylblad efter namn, kan du använda`Workshee
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 ```
 
-## Steg 6: Få åtkomst till en specifik cell
+## Steg 6: Gå till en specifik cell
 
  När du har navigerat till önskat kalkylblad kan du navigera till en specifik cell med hjälp av`Cells` egendom av`Worksheet` objekt och indexera cellreferensen.
 

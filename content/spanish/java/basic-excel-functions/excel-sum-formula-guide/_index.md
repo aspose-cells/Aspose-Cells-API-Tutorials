@@ -2,7 +2,7 @@
 title: Guía de fórmulas SUMA de Excel
 linktitle: Guía de fórmulas SUMA de Excel
 second_title: API de procesamiento de Excel Java de Aspose.Cells
-description: Desbloquee el poder de la fórmula SUM de Excel con Aspose.Cells para Java. su guía completa para la automatización de Excel.
+description: Desbloquee el poder de la fórmula SUM de Excel con Aspose.Cells para Java su guía completa para la automatización de Excel.
 type: docs
 weight: 10
 url: /es/java/basic-excel-functions/excel-sum-formula-guide/
@@ -10,7 +10,7 @@ url: /es/java/basic-excel-functions/excel-sum-formula-guide/
 
 ## Introducción
 
-Microsoft Excel es una herramienta omnipresente para trabajar con datos y la fórmula SUMA es una de sus funciones más básicas pero potentes. Aspose.Cells para Java lleva la manipulación de Excel al siguiente nivel, permitiéndole automatizar tareas, generar informes y realizar cálculos complejos sin esfuerzo. Esta guía le ayudará a desbloquear todo el potencial de la fórmula SUM con Aspose.Cells.
+Microsoft Excel es una herramienta omnipresente para trabajar con datos y la fórmula SUMA es una de sus funciones más básicas pero poderosas. Aspose.Cells para Java lleva la manipulación de Excel al siguiente nivel, permitiéndole automatizar tareas, generar informes y realizar cálculos complejos sin esfuerzo. Esta guía le ayudará a desbloquear todo el potencial de la fórmula SUM con Aspose.Cells.
 
 ## ¿Qué es Aspose.Cells para Java?
 
@@ -39,7 +39,7 @@ Este código configura un nuevo libro de trabajo y lo guarda como "sample.xlsx".
 
 ## Agregar datos a la hoja de trabajo
 
-Ahora que tenemos nuestro libro de trabajo, necesitamos agregarle algunos datos. Así es como puedes agregar números a las celdas de una hoja de cálculo:
+Ahora que tenemos nuestro libro de trabajo, necesitamos agregarle algunos datos. Así es como puedes agregar números a las celdas de una hoja de trabajo:
 
 ```java
 // Acceder a una celda y agregar datos
