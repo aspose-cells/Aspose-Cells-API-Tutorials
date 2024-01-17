@@ -45,7 +45,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0); // Ändern Sie den Index 
 Exportieren wir nun die Arbeitsblattdaten in XML.
 
 ```java
-// Erstellen Sie einen Stream zur Speicherung der XML-Daten
+// Erstellen Sie einen Stream zur Aufnahme der XML-Daten
 ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
 // Exportieren Sie die Arbeitsblattdaten nach XML
@@ -79,7 +79,7 @@ public class ExcelToXMLExporter {
             // Greifen Sie auf das Arbeitsblatt zu
             Worksheet worksheet = workbook.getWorksheets().get(0); // Ändern Sie den Index nach Bedarf
 
-            // Erstellen Sie einen Stream zur Speicherung der XML-Daten
+            // Erstellen Sie einen Stream zur Aufnahme der XML-Daten
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
             // Exportieren Sie die Arbeitsblattdaten nach XML

@@ -108,13 +108,13 @@ Tebrikler! Artık .NET için Aspose.Cells kütüphanesini kullanarak bir Excel e
 
 ### SSS (Sık Sorulan Sorular)
 
-#### Birden fazla çalışma sayfasını tek bir Excel dosyasında korumak mümkün müdür?
+#### Birden fazla çalışma sayfasını tek bir Excel dosyasında korumak mümkün mü?
 
 C: Evet, her çalışma sayfası için 4-6 arasındaki adımları tekrarlayarak birden fazla çalışma sayfasını tek bir Excel dosyasında koruyabilirsiniz.
 
 #### Yetkili kullanıcılar için belirli izinleri nasıl belirleyebilirim?
 
- C: Sağlanan ek seçenekleri kullanabilirsiniz.`Protect`Yetkili kullanıcılar için belirli izinleri belirleme yöntemi. Daha fazla bilgi için Aspose.Cells belgelerine bakın.
+ C: Sağlanan ek seçenekleri kullanabilirsiniz.`Protect`Yetkili kullanıcılar için belirli izinleri belirtme yöntemi. Daha fazla bilgi için Aspose.Cells belgelerine bakın.
 
 #### Excel dosyasının kendisini bir parola ile koruyabilir miyim?
 

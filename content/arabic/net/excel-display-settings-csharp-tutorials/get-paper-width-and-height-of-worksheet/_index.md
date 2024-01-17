@@ -58,7 +58,7 @@ Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.Pap
 //اضبط حجم الورق على A3 وقم بطباعة عرض الورق وارتفاعه بالبوصة
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//اضبط حجم الورق على A4 وطباعة عرض الورق وارتفاعه بالبوصة
+//اضبط حجم الورق على A4 وقم بطباعة عرض الورق وارتفاعه بالبوصة
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 //اضبط حجم الورق على Letter وقم بطباعة عرض الورق وارتفاعه بالبوصة

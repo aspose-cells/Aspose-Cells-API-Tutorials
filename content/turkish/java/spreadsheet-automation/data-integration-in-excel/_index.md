@@ -92,7 +92,7 @@ Evet, Aspose.Cells for Java veritabanı entegrasyonunu destekler. Veritabanları
 
 ### S3: Entegre edilebilecek veri boyutunda herhangi bir sınırlama var mı?
 
-Entegre verilerin boyutu sisteminizin belleğine ve Excel'in sınırlamalarına bağlıdır. Aspose.Cells for Java'nın kendisi katı boyut sınırları uygulamamaktadır.
+Entegre verilerin boyutu sisteminizin belleğine ve Excel'in sınırlamalarına bağlıdır. Aspose.Cells for Java'nın kendisi katı boyut sınırları uygulamaz.
 
 ### S4: Aspose.Cells for Java ile veri entegrasyon görevlerini otomatikleştirebilir miyim?
 

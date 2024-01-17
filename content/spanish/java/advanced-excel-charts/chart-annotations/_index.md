@@ -2,7 +2,7 @@
 title: Anotaciones de gráficos
 linktitle: Anotaciones de gráficos
 second_title: API de procesamiento de Excel Java de Aspose.Cells
-description: Mejore sus gráficos con anotaciones de gráficos utilizando Aspose.Cells para Java. una guía paso a paso. Aprenda a agregar anotaciones para la visualización de datos informativos.
+description: Mejore sus gráficos con anotaciones de gráficos utilizando Aspose.Cells para Java una guía paso a paso. Aprenda a agregar anotaciones para la visualización de datos informativos.
 type: docs
 weight: 16
 url: /es/java/advanced-excel-charts/chart-annotations/

@@ -48,7 +48,7 @@ worksheet.getCells().get("B1").putValue("Price");
 
 ```java
 // إنشاء صيغة
-worksheet.getCells().get("C2").setFormula("=B2*1.1"); // يحسب زيادة بنسبة 10٪ في السعر
+worksheet.getCells().get("C2").setFormula("=B2*1.1"); // يحسب زيادة 10٪ في السعر
 ```
 
 ## الخطوة 5: تطبيق الأنماط والتنسيق

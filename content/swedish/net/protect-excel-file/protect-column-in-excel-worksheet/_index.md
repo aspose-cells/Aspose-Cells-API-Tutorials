@@ -8,7 +8,7 @@ weight: 40
 url: /sv/net/protect-excel-file/protect-column-in-excel-worksheet/
 ---
 Microsoft Excel är ett populärt program för att hantera och analysera data i form av kalkylblad. Skyddet av känsliga uppgifter är väsentligt för att garantera informationens integritet och konfidentialitet. I den här handledningen guidar vi dig steg för steg för att skydda en specifik kolumn i ett Excel-kalkylblad med hjälp av Aspose.Cells for .NET-biblioteket. Aspose.Cells för .NET erbjuder kraftfulla funktioner för att hantera och skydda Excel-filer. Följ stegen som tillhandahålls för att lära dig hur du skyddar dina data i en specifik kolumn och säkrar ditt Excel-kalkylblad.
-## Steg 1: Directory Setup
+## Steg 1: Kataloginställning
 
 Börja med att definiera katalogen där du vill spara Excel-filen. Använd följande kod:
 

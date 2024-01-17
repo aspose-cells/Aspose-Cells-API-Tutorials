@@ -14,7 +14,7 @@ Microsoft Excel è una potente applicazione per fogli di calcolo che offre un'am
 
 ## Cos'è Aspose.Cells per Java?
 
-Aspose.Cells for Java è una libreria Java ricca di funzionalità che consente agli sviluppatori di creare, manipolare e convertire file Excel senza sforzo. Fornisce un'ampia gamma di funzionalità per l'automazione di Excel, rendendolo la scelta ideale per aziende e sviluppatori che devono lavorare con file Excel a livello di codice nelle applicazioni Java.
+Aspose.Cells for Java è una libreria Java ricca di funzionalità che consente agli sviluppatori di creare, manipolare e convertire file Excel senza sforzo. Fornisce un'ampia gamma di funzionalità per l'automazione di Excel, rendendolo la scelta ideale per aziende e sviluppatori che necessitano di lavorare con file Excel a livello di codice nelle applicazioni Java.
 
 ## Installazione di Aspose.Cells per Java
 

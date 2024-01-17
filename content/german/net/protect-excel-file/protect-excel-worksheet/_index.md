@@ -38,7 +38,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook excel = new Workbook(fstream);
 ```
 
- Unbedingt ersetzen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
+ Unbedingt austauschen`"YOUR_DOCUMENTS_DIR"` mit dem entsprechenden Pfad zu Ihrem Dokumentenverzeichnis.
 
 ## Schritt 4: Greifen Sie auf die Tabelle zu
 

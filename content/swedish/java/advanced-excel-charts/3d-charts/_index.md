@@ -58,7 +58,7 @@ Skapa ett nytt arbetsboksobjekt för att börja arbeta med Excel-filer.
 Workbook workbook = new Workbook();
 ```
 
-### Lägga till data i diagrammet
+### Lägga till data till diagrammet
 
 Låt oss lägga till några exempeldata till vårt diagram.
 

@@ -10,7 +10,7 @@ url: /sv/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Introduktion till Cascading Dropdowns i Excel
 
-I en värld av kalkylarksmanipulering står Aspose.Cells för Java som en kraftfull verktygslåda som ger utvecklare möjlighet att arbeta med Excel-filer effektivt. En av de spännande funktioner som den erbjuder är möjligheten att skapa överlappande rullgardinsmenyer i Excel, så att användare kan välja alternativ dynamiskt baserat på ett tidigare val. I den här steg-för-steg-guiden kommer vi att dyka in i processen att implementera kaskadrullgardinsmenyn med Aspose.Cells för Java. Så, låt oss komma igång!
+I en värld av kalkylarksmanipulation står Aspose.Cells för Java som en kraftfull verktygslåda som ger utvecklare möjlighet att arbeta med Excel-filer effektivt. En av de spännande funktionerna som den erbjuder är möjligheten att skapa överlappande rullgardinsmenyer i Excel, så att användare kan välja alternativ dynamiskt baserat på ett tidigare val. I den här steg-för-steg-guiden kommer vi att dyka in i processen att implementera kaskadrullgardinsmenyn med Aspose.Cells för Java. Så, låt oss komma igång!
 
 ## Förutsättningar
 
@@ -107,7 +107,7 @@ För att lägga till fler länder och städer måste du uppdatera respektive bla
 
 ### Kan jag använda den här tekniken i kombination med andra Excel-funktioner?
 
-Absolut! Du kan kombinera överlappande rullgardinsmenyer med olika Excel-funktioner som villkorlig formatering, formler och diagram för att skapa kraftfulla och interaktiva kalkylblad skräddarsydda för dina specifika behov.
+Absolut! Du kan kombinera överlappande rullgardinsmenyer med olika Excel-funktioner som villkorlig formatering, formler och diagram för att skapa kraftfulla och interaktiva kalkylblad som är skräddarsydda för dina specifika behov.
 
 ### Är Aspose.Cells for Java lämplig för både små och stora projekt?
 

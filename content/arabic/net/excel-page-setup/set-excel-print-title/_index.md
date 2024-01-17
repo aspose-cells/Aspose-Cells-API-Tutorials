@@ -31,7 +31,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
  تأكد من استبدال`"YOUR_DOCUMENT_DIRECTORY"` بالمسار الصحيح على نظامك.
 
-## الخطوة 4: إنشاء كائن مصنف
+## الخطوة 4: إنشاء كائن المصنف
 
 قم بإنشاء مثيل لكائن مصنف يمثل مصنف Excel الذي تريد إنشاءه:
 
@@ -105,7 +105,7 @@ workbook.Save(dataDir + "SetPrintTitle_out.xls");
 
 #### 2. هل من الممكن تحديد عناوين الأعمدة وصفوف الطباعة؟
 
- نعم، يمكنك تعيين عناوين الأعمدة والصفوف للطباعة باستخدام الزر`PrintTitleColumns` و`PrintTitleRows` خصائص`PageSetup` هدف.
+ نعم، يمكنك تعيين عناوين الأعمدة والصفوف للطباعة باستخدام`PrintTitleColumns` و`PrintTitleRows` خصائص`PageSetup` هدف.
 
 #### 3. ما هي إعدادات التخطيط الأخرى التي يمكنني تخصيصها باستخدام Aspose.Cells لـ .NET؟
 

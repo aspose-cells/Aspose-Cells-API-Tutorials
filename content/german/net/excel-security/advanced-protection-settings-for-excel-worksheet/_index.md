@@ -21,7 +21,7 @@ Stellen Sie sicher, dass Sie Aspose.Cells für .NET installiert und ein C#-Proje
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt ersetzen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt austauschen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 3: Erstellen Sie einen Dateistream, um die Excel-Datei zu öffnen
 
@@ -31,7 +31,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Stellen Sie sicher, dass Sie über die Excel-Datei verfügen`book1.xls` in Ihrem Dokumentenverzeichnis oder geben Sie den richtigen Dateinamen und Speicherort an.
+ Stellen Sie sicher, dass Sie über die Excel-Datei verfügen`book1.xls` in Ihrem Dokumentenverzeichnis oder geben Sie den korrekten Dateinamen und Speicherort an.
 
 ## Schritt 4: Instanziieren Sie ein Arbeitsmappenobjekt und öffnen Sie die Excel-Datei
 

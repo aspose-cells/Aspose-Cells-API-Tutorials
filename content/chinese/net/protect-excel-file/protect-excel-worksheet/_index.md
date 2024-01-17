@@ -71,7 +71,7 @@ excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 确保指定正确的路径来保存修改后的 Excel 文件。
 
-## 第7步：关闭文件流
+## 步骤7：关闭文件流
 
 要释放所有资源，我们需要关闭用于加载 Excel 文件的文件流。使用以下代码关闭文件流：
 

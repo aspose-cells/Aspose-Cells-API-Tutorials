@@ -21,7 +21,7 @@ Avant de plonger dans le code, assurez-vous que les outils de développement Jav
 Pour commencer, vous devrez télécharger et installer Aspose.Cells pour Java. Suivez ces étapes simples :
 
 1.  Visite[Aspose.Cells pour Java Documentation](https://reference.aspose.com/cells/java/).
-2. Téléchargez la dernière version d'Aspose.Cells pour Java.
+2. Téléchargez la dernière version d’Aspose.Cells pour Java.
 3. Suivez les instructions d'installation fournies dans la documentation.
 
 ## Chargement et création d'une feuille de calcul

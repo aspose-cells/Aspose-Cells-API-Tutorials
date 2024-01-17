@@ -1,6 +1,6 @@
 ---
-title: Avancerad dataanalys i Excel
-linktitle: Avancerad dataanalys i Excel
+title: Avancerad dataanalys Excel
+linktitle: Avancerad dataanalys Excel
 second_title: Aspose.Cells Java Excel Processing API
 description: Bemästra avancerad dataanalys i Excel med Aspose.Cells för Java. Lär dig steg för steg, med exempel på källkod.
 type: docs
@@ -35,7 +35,7 @@ import com.aspose.cells.*;
 
 ## Ladda och manipulera Excel-filer
 
-En av kärnfunktionerna i Aspose.Cells för Java är möjligheten att ladda och manipulera Excel-filer sömlöst. Du kan öppna befintliga Excel-filer, skapa nya och ändra deras innehåll programmatiskt.
+En av kärnfunktionerna i Aspose.Cells för Java är förmågan att ladda och manipulera Excel-filer sömlöst. Du kan öppna befintliga Excel-filer, skapa nya och ändra deras innehåll programmatiskt.
 
 ```java
 // Ladda en befintlig Excel-fil

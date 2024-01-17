@@ -25,7 +25,7 @@ Att automatisera Excel-diagram ger flera fördelar:
 
 Innan du börjar, se till att du har Aspose.Cells för Java installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/java/).
 
-### 2. Initiering av Aspose.Cells
+### 2. Initialisering av Aspose.Cells
 
 Låt oss börja med att skapa en Java-applikation och initiera Aspose.Cells:
 
@@ -56,7 +56,7 @@ Worksheet worksheet = workbook.getWorksheets().add("ChartSheet");
 
 ### 4. Skapa ett diagram
 
-Låt oss skapa ett diagram på arbetsbladet. Till exempel skapar vi ett kolumndiagram:
+Låt oss skapa ett diagram på kalkylbladet. Till exempel skapar vi ett kolumndiagram:
 
 ```java
 // Lägg till ett diagram i arbetsbladet

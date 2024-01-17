@@ -11,7 +11,7 @@ url: /ar/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
 
 ## الخطوة 1: التحضير
 
-قبل البدء، تأكد من تثبيت Aspose.Cells لـ .NET وإنشاء مشروع C# في بيئة التطوير المتكاملة (IDE) المفضلة لديك.
+قبل أن تبدأ، تأكد من تثبيت Aspose.Cells لـ .NET وإنشاء مشروع C# في بيئة التطوير المتكاملة (IDE) المفضلة لديك.
 
 ## الخطوة 2: قم بتعيين مسار دليل المستند
 

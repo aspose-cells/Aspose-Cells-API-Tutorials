@@ -59,7 +59,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 // Döljer flikarna i Excel-filen
 workbook.Settings.ShowTabs = true;
-// Justering av arkflikens bredd
+// Justering av arkets flikstapelbredd
 workbook.Settings.SheetTabBarWidth = 800;
 // Sparar den ändrade Excel-filen
 workbook.Save(dataDir + "output.xls");

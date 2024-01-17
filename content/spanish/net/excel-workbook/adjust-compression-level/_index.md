@@ -32,7 +32,7 @@ Cargamos el libro de Excel desde el archivo especificado usando el`Workbook` cla
 ## Paso 3: configurar las opciones de copia de seguridad
 
 ```csharp
-// Definir opciones de respaldo
+// Definir opciones de copia de seguridad
 XlsbSaveOptions options = new XlsbSaveOptions();
 ```
 

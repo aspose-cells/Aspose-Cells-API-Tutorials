@@ -10,7 +10,7 @@ url: /zh/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Excel 中的级联下拉菜单简介
 
-在电子表格操作领域，Aspose.Cells for Java 是一个强大的工具包，使开发人员能够高效地处理 Excel 文件。它提供的有趣功能之一是能够在 Excel 中创建级联下拉列表，允许用户根据先前的选择动态选择选项。在本分步指南中，我们将深入研究使用 Aspose.Cells for Java 实现级联下拉列表的过程。那么，让我们开始吧！
+在电子表格操作领域，Aspose.Cells for Java 是一个强大的工具包，使开发人员能够高效地处理 Excel 文件。它提供的有趣功能之一是能够在 Excel 中创建级联下拉列表，允许用户根据先前的选择动态选择选项。在本分步指南中，我们将深入研究使用 Aspose.Cells for Java 实现级联下拉菜单的过程。那么，让我们开始吧！
 
 ## 先决条件
 
@@ -71,7 +71,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
     @Override
     public void cellChanged(Cell cell) {
         if (cell.getName().equals("B2")) {
-            //清除之前的城市下拉列表
+            //清除之前的城市下拉菜单
             citySheet.getCells().get("B2").setValue("");
             
             //确定所选国家

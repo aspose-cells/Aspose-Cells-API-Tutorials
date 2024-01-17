@@ -83,7 +83,7 @@ Esto guardará el libro modificado en el directorio de datos especificado.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Crear instancias de un objeto de libro de trabajo
 Workbook excel = new Workbook();
-// Obteniendo la referencia del PageSetup de la hoja de trabajo
+// Obteniendo la referencia del PageSetup de la hoja de cálculo
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 // Configurar el nombre de la hoja de trabajo en la sección izquierda del encabezado
 pageSetup.SetHeader(0, "&A");

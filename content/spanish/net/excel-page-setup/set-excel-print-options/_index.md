@@ -113,7 +113,7 @@ Esto guardará el libro de Excel con el nombre de archivo "OtherPrintOptions_out
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Crear instancias de un objeto de libro de trabajo
 Workbook workbook = new Workbook();
-// Obteniendo la referencia del PageSetup de la hoja de trabajo
+// Obteniendo la referencia del PageSetup de la hoja de cálculo
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 // Permitir imprimir líneas de cuadrícula
 pageSetup.PrintGridlines = true;

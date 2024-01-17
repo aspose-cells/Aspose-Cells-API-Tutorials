@@ -16,7 +16,7 @@ Bu derste Aspose.Cells for Java kullanarak Excel'de CONCATENATE fonksiyonunun na
 
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1. Java Geliştirme Ortamı: Eclipse veya IntelliJ IDEA gibi uygun bir Tümleşik Geliştirme Ortamı (IDE) ile birlikte Java'nın sisteminizde yüklü olması gerekir.
+1. Java Geliştirme Ortamı: Sisteminizde Java'nın ve Eclipse veya IntelliJ IDEA gibi uygun bir Tümleşik Geliştirme Ortamının (IDE) yüklü olması gerekir.
 
 2. Aspose.Cells for Java: Aspose.Cells for Java kütüphanesinin kurulu olması gerekir. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 

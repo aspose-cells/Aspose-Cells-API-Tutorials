@@ -22,7 +22,7 @@ Stellen Sie sicher, dass Sie Aspose.Cells für .NET installiert und ein C#-Proje
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt ersetzen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt austauschen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 3: Definieren Sie den Eingabedateipfad
 
@@ -32,7 +32,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 string InputPath = dataDir + "book1.xls";
 ```
 
- Stellen Sie sicher, dass Sie über die Excel-Datei verfügen`book1.xls` in Ihrem Dokumentenverzeichnis oder geben Sie den richtigen Dateinamen und Speicherort an.
+ Stellen Sie sicher, dass Sie über die Excel-Datei verfügen`book1.xls` in Ihrem Dokumentenverzeichnis oder geben Sie den korrekten Dateinamen und Speicherort an.
 
 ## Schritt 4: Öffnen Sie die Excel-Datei
 
@@ -84,7 +84,7 @@ string InputPath = dataDir + "book1.xls";
 // Öffnen Sie eine vorhandene Excel-Datei.
 Workbook wb = new Workbook(InputPath);
 // Erstellen Sie ein Worksheets-Objekt mit Verweis auf
-// die Blätter des Arbeitsbuches.
+// die Blätter des Arbeitsbuchs.
 WorksheetCollection sheets = wb.Worksheets;
 // Holen Sie sich das erste Arbeitsblatt.
 Worksheet worksheet = sheets[0];

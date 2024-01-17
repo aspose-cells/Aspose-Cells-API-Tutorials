@@ -39,7 +39,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Därefter behöver vi lite data för att plotta på diagrammet. För det här exemplet skapar vi en enkel datauppsättning.
 
 ```java
-// Lägger till data i arbetsbladet
+// Lägger till data till arbetsbladet
 worksheet.getCells().get("A1").putValue("Month");
 worksheet.getCells().get("B1").putValue("Sales");
 

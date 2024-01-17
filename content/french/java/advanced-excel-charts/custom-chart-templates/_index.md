@@ -27,7 +27,7 @@ Pour suivre ce tutoriel, assurez-vous d'avoir les prérequis suivants :
 
 ### Étape 1 : Configuration de votre projet
 
-Commencez par créer un nouveau projet Java dans votre environnement de développement intégré (IDE) préféré. Assurez-vous d'ajouter la bibliothèque Aspose.Cells for Java aux dépendances de votre projet.
+Commencez par créer un nouveau projet Java dans votre environnement de développement intégré (IDE) préféré. Assurez-vous d'ajouter la bibliothèque Aspose.Cells pour Java aux dépendances de votre projet.
 
 ### Étape 2 : initialisation d’Aspose.Cells
 

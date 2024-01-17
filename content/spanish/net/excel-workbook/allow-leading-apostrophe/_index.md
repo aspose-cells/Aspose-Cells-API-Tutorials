@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /es/net/excel-workbook/allow-leading-apostrophe/
 ---
-En este tutorial paso a paso, explicaremos el código fuente de C# proporcionado que le permitirá permitir el uso de un apóstrofo inicial en un libro de Excel usando Aspose.Cells para .NET. Siga los pasos a continuación para realizar esta operación.
+En este tutorial paso a paso, explicaremos el código fuente de C# proporcionado que le permitirá permitir el uso de un apóstrofe inicial en un libro de Excel usando Aspose.Cells para .NET. Siga los pasos a continuación para realizar esta operación.
 
 ## Paso 1: configurar los directorios de origen y de salida
 
@@ -120,7 +120,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 
 #### P: ¿Qué es el permiso de apóstrofo inicial en un libro de Excel?
 
-R: Permitir el apóstrofe inicial en un libro de Excel permite que los datos que comienzan con un apóstrofo se muestren correctamente sin convertirlos a un estilo de texto. Esto resulta útil cuando desea mantener el apóstrofo como parte de los datos.
+R: Permitir el apóstrofo inicial en un libro de Excel permite que los datos que comienzan con un apóstrofo se muestren correctamente sin convertirlos a un estilo de texto. Esto resulta útil cuando desea mantener el apóstrofo como parte de los datos.
 
 #### P: ¿Por qué necesito desactivar la conversión automática de apóstrofes iniciales?
 

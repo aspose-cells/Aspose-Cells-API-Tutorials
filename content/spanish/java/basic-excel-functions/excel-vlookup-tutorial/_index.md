@@ -2,7 +2,7 @@
 title: Tutorial de BUSCARV en Excel
 linktitle: Tutorial de BUSCARV en Excel
 second_title: API de procesamiento de Excel Java de Aspose.Cells
-description: Desbloquee el poder de la BUSCARV de Excel con Aspose.Cells para Java. su guía definitiva para la recuperación de datos sin esfuerzo.
+description: Desbloquee el poder de la BUSCARV de Excel con Aspose.Cells para Java su guía definitiva para la recuperación de datos sin esfuerzo.
 type: docs
 weight: 12
 url: /es/java/basic-excel-functions/excel-vlookup-tutorial/

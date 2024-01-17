@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /it/net/excel-workbook/extract-embedded-mol-file/
 ---
-In questo tutorial, ti guideremo passo dopo passo come estrarre un file MOL incorporato da una cartella di lavoro di Excel utilizzando la libreria Aspose.Cells per .NET. Imparerai come sfogliare i fogli della cartella di lavoro, estrarre gli oggetti OLE corrispondenti e salvare i file MOL estratti. Seguire i passaggi seguenti per completare questa attività con successo.
+In questo tutorial ti spiegheremo passo dopo passo come estrarre un file MOL incorporato da una cartella di lavoro di Excel utilizzando la libreria Aspose.Cells per .NET. Imparerai come sfogliare i fogli della cartella di lavoro, estrarre gli oggetti OLE corrispondenti e salvare i file MOL estratti. Seguire i passaggi seguenti per completare questa attività con successo.
 
 ## Passaggio 1: definire le directory di origine e di output
 Innanzitutto, dobbiamo definire le directory di origine e di output nel nostro codice. Queste directory indicano dove si trova la cartella di lavoro Excel di origine e dove verranno salvati i file MOL estratti. Ecco il codice corrispondente:

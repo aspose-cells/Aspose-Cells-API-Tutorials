@@ -18,7 +18,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 - Excel-Datei: Bereiten Sie die Excel-Datei vor, die Sie in JSON konvertieren möchten.
 
 ## Schritt 1: Aspose.Cells für Java importieren
-Zunächst müssen Sie die Aspose.Cells-Bibliothek in Ihr Java-Projekt importieren. Fügen Sie Ihrem Java-Code die folgende Zeile hinzu:
+Zuerst müssen Sie die Aspose.Cells-Bibliothek in Ihr Java-Projekt importieren. Fügen Sie Ihrem Java-Code die folgende Zeile hinzu:
 
 ```java
 import com.aspose.cells.*;

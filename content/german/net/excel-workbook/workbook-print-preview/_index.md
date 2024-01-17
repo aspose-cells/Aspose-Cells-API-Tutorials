@@ -46,7 +46,7 @@ WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptio
 Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
 ```
 
-## Schritt 5: Erzeugen Sie die Druckvorschau des Arbeitsblatts
+## Schritt 5: Generieren Sie die Druckvorschau des Arbeitsblatts
 
 Wenn Sie die Druckvorschau eines bestimmten Arbeitsblatts generieren möchten, können Sie die Klasse SheetPrintingPreview verwenden. Hier ist ein Beispiel :
 

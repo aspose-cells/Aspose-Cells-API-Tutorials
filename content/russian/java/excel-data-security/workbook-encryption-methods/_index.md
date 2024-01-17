@@ -29,7 +29,7 @@ url: /ru/java/excel-data-security/workbook-encryption-methods/
 
 ### Шаг 1. Импортируйте Aspose.Cells для библиотеки Java
 
-Начните с импорта библиотеки Aspose.Cells for Java в ваш проект Java. Вы можете сделать это, добавив библиотеку в путь к классам вашего проекта.
+Начните с импорта библиотеки Aspose.Cells for Java в свой проект Java. Вы можете сделать это, добавив библиотеку в путь к классам вашего проекта.
 
 ```java
 import com.aspose.cells.*;

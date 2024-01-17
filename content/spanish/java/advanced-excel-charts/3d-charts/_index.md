@@ -152,7 +152,7 @@ Sí, puede exportar gráficos 3D creados con Aspose.Cells para Java a varios for
 
 ### ¿Es posible crear gráficos 3D interactivos con Aspose.Cells para Java?
 
-Aspose.Cells para Java se centra principalmente en la creación de gráficos 3D estáticos para archivos de Excel. Para gráficos interactivos con interactividad avanzada, podría considerar usar otras bibliotecas o herramientas de visualización en combinación con sus archivos de Excel.
+Aspose.Cells para Java se centra principalmente en la creación de gráficos 3D estáticos para archivos de Excel. Para gráficos interactivos con interactividad avanzada, podría considerar utilizar otras bibliotecas o herramientas de visualización en combinación con sus archivos de Excel.
 
 ### ¿Puedo automatizar el proceso de actualización de datos en mis gráficos 3D?
 

@@ -38,6 +38,6 @@ Mejore sus gráficos con anotaciones de gráficos utilizando Aspose.Cells para J
 ### [Animación del gráfico](./chart-animation/)
 Aprenda a crear animaciones de gráficos cautivadoras con Aspose.Cells para Java. Guía paso a paso y código fuente incluidos para visualización dinámica de datos.
 ### [Gráficos en cascada](./waterfall-charts/)
-Aprenda a crear impresionantes gráficos en cascada con Aspose.Cells para Java. Guía paso a paso con código fuente para una visualización de datos efectiva.
+Aprenda a crear impresionantes gráficos en cascada con Aspose.Cells para Java. Guía paso a paso con código fuente para una visualización de datos eficaz.
 ### [Interactividad de gráficos](./chart-interactivity/)
 Aprenda a crear gráficos interactivos utilizando Aspose.Cells para Java. Mejore la visualización de sus datos con interactividad.

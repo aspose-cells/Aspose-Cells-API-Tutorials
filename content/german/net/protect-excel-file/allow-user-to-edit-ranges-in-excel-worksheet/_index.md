@@ -29,7 +29,7 @@ using Aspose.Cells;
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt ersetzen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
+ Unbedingt austauschen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
 
 ## Schritt 4: Erstellen eines Arbeitsmappenobjekts
 
@@ -74,7 +74,7 @@ Hier haben wir einen geschützten Bereich „r2“ erstellt, der sich von Zelle 
 protectedRange.Password = "YOUR_PASSWORD";
 ```
 
- Unbedingt ersetzen`"YOUR_PASSWORD"` mit dem gewünschten Passwort.
+ Unbedingt austauschen`"YOUR_PASSWORD"` mit dem gewünschten Passwort.
 
 ## Schritt 9: Schützen des Arbeitsblatts
 
@@ -98,7 +98,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 Geben Sie unbedingt den gewünschten Dateinamen und den richtigen Pfad an.
 
-### Beispielquellcode für „Benutzer darf Bereiche in Excel-Arbeitsblättern bearbeiten“ mithilfe von Aspose.Cells für .NET 
+### Beispielquellcode für „Benutzer darf Bereiche in Excel-Arbeitsblättern bearbeiten“ mit Aspose.Cells für .NET 
 ```csharp
 //Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";

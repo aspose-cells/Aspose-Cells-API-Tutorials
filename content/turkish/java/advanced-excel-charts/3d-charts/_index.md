@@ -18,7 +18,7 @@ Aspose.Cells for Java, çeşitli grafik türlerinin oluşturulması da dahil olm
 
 ## 3D grafikler oluşturmak için neden Aspose.Cells for Java kullanmalısınız?
 
-Aspose.Cells for Java, Excel dosyaları ve grafikleriyle çalışmak için kapsamlı bir dizi özellik ve araç sunar. 3B grafikler de dahil olmak üzere grafikleri oluşturmak, özelleştirmek ve değiştirmek için kullanıcı dostu bir arayüz sağlar. Ayrıca Aspose.Cells for Java, oluşturulan grafiklerin çok çeşitli Excel sürümleriyle uyumlu olmasını sağlar ve bu da onu grafik oluşturma için güvenilir bir seçim haline getirir.
+Aspose.Cells for Java, Excel dosyaları ve grafikleriyle çalışmak için kapsamlı bir dizi özellik ve araç sunar. 3B grafikler de dahil olmak üzere grafikleri oluşturmak, özelleştirmek ve değiştirmek için kullanıcı dostu bir arayüz sağlar. Ayrıca Aspose.Cells for Java, oluşturulan grafiklerin çok çeşitli Excel sürümleriyle uyumlu olmasını sağlar ve bu da onu grafik oluşturmak için güvenilir bir seçim haline getirir.
 
 ## Java için Aspose.Cells'i Kurma
 

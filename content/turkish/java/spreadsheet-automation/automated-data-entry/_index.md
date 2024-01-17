@@ -73,7 +73,7 @@ loadOptions.setConvertNumericData(true);
 worksheet.getCells().importCsv("data.csv", 0, 0, loadOptions);
 ```
 
-### 5. Veri Doğrulama
+### 5. Veri Doğrulaması
 
 Veri doğrulama kurallarını uygulayarak veri doğruluğunu sağlayın. Örneğin girişi sayısal değerlerle sınırlayın:
 

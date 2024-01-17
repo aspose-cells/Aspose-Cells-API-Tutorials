@@ -79,7 +79,7 @@ Una vez guardado, cierre la secuencia de archivos para liberar todos los recurso
 fstream.Close();
 ```
 	
-### Código fuente de muestra para la configuración de protección avanzada para la hoja de cálculo de Excel usando Aspose.Cells para .NET 
+### Código fuente de muestra para configuración de protección avanzada para hoja de trabajo de Excel usando Aspose.Cells para .NET 
 ```csharp
 //La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";

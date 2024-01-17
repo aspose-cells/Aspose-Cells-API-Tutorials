@@ -42,7 +42,7 @@ workbook.Worksheets[0].HorizontalPageBreaks.RemoveAt(0);
 workbook.Worksheets[0].VerticalPageBreaks.RemoveAt(0);
 ```
 
-## 第 5 步：保存 Excel 文件
+## 步骤 5：保存 Excel 文件
 
 删除特定分页符后，我们可以保存最终的 Excel 文件。使用`Save()`方法来指定输出文件的完整路径。
 

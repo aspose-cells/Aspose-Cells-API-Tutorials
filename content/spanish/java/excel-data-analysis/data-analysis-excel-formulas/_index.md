@@ -100,7 +100,7 @@ Sí, puede utilizar Aspose.Cells para Java tanto en aplicaciones web como de esc
 
 ### ¿Existe alguna limitación en el tamaño de los archivos de Excel que puedo manipular con Aspose.Cells?
 
-Aspose.Cells para Java puede manejar archivos grandes de Excel con facilidad, por lo que no necesita preocuparse por las limitaciones de tamaño.
+Aspose.Cells para Java puede manejar archivos Excel grandes con facilidad, por lo que no necesita preocuparse por las limitaciones de tamaño.
 
 ### ¿Aspose.Cells admite fórmulas de Excel en diferentes idiomas?
 

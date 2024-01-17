@@ -10,7 +10,7 @@ url: /de/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Einführung in kaskadierende Dropdown-Listen in Excel
 
-In der Welt der Tabellenkalkulationsbearbeitung steht Aspose.Cells für Java als leistungsstarkes Toolkit, das Entwicklern die effiziente Arbeit mit Excel-Dateien ermöglicht. Eine der faszinierenden Funktionen, die es bietet, ist die Möglichkeit, kaskadierende Dropdown-Listen in Excel zu erstellen, sodass Benutzer Optionen dynamisch basierend auf einer vorherigen Auswahl auswählen können. In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit der Implementierung kaskadierender Dropdowns mithilfe von Aspose.Cells für Java. Also lasst uns anfangen!
+In der Welt der Tabellenkalkulationsbearbeitung gilt Aspose.Cells für Java als leistungsstarkes Toolkit, das Entwicklern die effiziente Arbeit mit Excel-Dateien ermöglicht. Eine der faszinierenden Funktionen, die es bietet, ist die Möglichkeit, kaskadierende Dropdown-Listen in Excel zu erstellen, sodass Benutzer Optionen dynamisch basierend auf einer vorherigen Auswahl auswählen können. In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit der Implementierung kaskadierender Dropdowns mithilfe von Aspose.Cells für Java. Also lasst uns anfangen!
 
 ## Voraussetzungen
 
@@ -97,7 +97,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ## Abschluss
 
-In diesem umfassenden Leitfaden haben wir untersucht, wie Sie mit Aspose.Cells für Java kaskadierende Dropdown-Listen in Excel erstellen. Wir begannen mit der Einrichtung der Voraussetzungen, der Erstellung der Excel-Arbeitsmappe, dem Auffüllen von Daten und befassten uns dann mit den Feinheiten der Erstellung von Dropdown-Listen und der Implementierung des dynamischen Kaskadenverhaltens. Als Entwickler verfügen Sie nun über das Wissen und die Tools, um Ihre Excel-Dateien mit interaktiven Dropdowns zu erweitern und so ein nahtloses Benutzererlebnis zu bieten.
+In diesem umfassenden Leitfaden haben wir untersucht, wie Sie mit Aspose.Cells für Java kaskadierende Dropdown-Listen in Excel erstellen. Wir begannen mit der Einrichtung der Voraussetzungen, der Erstellung der Excel-Arbeitsmappe, dem Auffüllen von Daten und befassten uns dann mit den Feinheiten der Erstellung von Dropdown-Listen und der Implementierung des dynamischen Kaskadenverhaltens. Als Entwickler verfügen Sie jetzt über das Wissen und die Tools, um Ihre Excel-Dateien mit interaktiven Dropdowns zu erweitern und so ein nahtloses Benutzererlebnis zu bieten.
 
 ## FAQs
 

@@ -14,7 +14,7 @@ url: /ar/net/excel-workbook/
 ## دروس 
 | عنوان | وصف |
 | --- | --- |
-| [الوصول إلى معلومات ملحق الويب](./access-web-extension-information/) | يمكنك الوصول إلى معلومات ملحق الويب باستخدام Aspose.Cells لـ .NET. |  
+| [الوصول إلى معلومات ملحق الويب](./access-web-extension-information/) | قم بالوصول إلى معلومات ملحق الويب باستخدام Aspose.Cells لـ .NET. |  
 | [إضافة التوقيع الرقمي إلى ملف Excel الموقع بالفعل](./add-digital-signature-to-an-already-signed-excel-file/) | يمكنك بسهولة إضافة التوقيعات الرقمية إلى ملفات Excel الموجودة باستخدام Aspose.Cells لـ .NET. |  
 | [إضافة ملحق الويب](./add-web-extension/) | يمكنك بسهولة إضافة امتداد الويب إلى مصنفات Excel الخاصة بك باستخدام Aspose.Cells for .NET. |  
 | [ضبط مستوى الضغط](./adjust-compression-level/) | قم بتقليل حجم مصنفات Excel الخاصة بك عن طريق ضبط مستوى الضغط باستخدام Aspose.Cells لـ .NET. |  

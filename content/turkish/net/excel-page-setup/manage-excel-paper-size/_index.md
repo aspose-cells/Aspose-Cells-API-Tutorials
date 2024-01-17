@@ -98,7 +98,7 @@ Cevap1: Evet, Aspose.Cells önceden tanımlanmış çeşitli kağıt boyutların
 
  A2: kullanabilirsiniz`PageSetup.PaperSize` mülkiyeti`Worksheet` Geçerli olarak ayarlanmış kağıt boyutunu elde etmek için nesneyi seçin.
 
-#### S3: Kağıt boyutuna göre ekstra sayfa kenar boşlukları ayarlamak mümkün müdür?
+#### S3: Kağıt boyutuna göre ekstra sayfa kenar boşlukları ayarlamak mümkün mü?
 
  A3: Evet, kullanabilirsiniz`PageSetup.LeftMargin`, `PageSetup.RightMargin`, `PageSetup.TopMargin` Ve`PageSetup.BottomMargin` kağıt boyutunun yanı sıra ek sayfa kenar boşlukları ayarlama özellikleri.
 

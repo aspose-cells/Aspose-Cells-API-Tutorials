@@ -45,7 +45,7 @@ Workbook excel = new Workbook(fstream);
 Ahora que hemos cargado el archivo Excel, podemos acceder a la primera hoja de trabajo. Utilice el siguiente código para acceder a la primera hoja de trabajo:
 
 ```csharp
-// Acceso a la primera hoja de cálculo del archivo Excel.
+// Acceso a la primera hoja de trabajo del archivo Excel.
 Worksheet worksheet = excel.Worksheets[0];
 ```
 

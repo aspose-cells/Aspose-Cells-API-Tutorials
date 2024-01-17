@@ -1,6 +1,6 @@
 ---
-title: Visa Och Dölj Rutnät Av Kalkylblad
-linktitle: Visa Och Dölj Rutnät Av Kalkylblad
+title: Visa Och Dölj Stödlinjer Av Kalkylblad
+linktitle: Visa Och Dölj Stödlinjer Av Kalkylblad
 second_title: Aspose.Cells för .NET API-referens
 description: Styr visningen av rutnät i Excel-kalkylblad med Aspose.Cells för .NET.
 type: docs

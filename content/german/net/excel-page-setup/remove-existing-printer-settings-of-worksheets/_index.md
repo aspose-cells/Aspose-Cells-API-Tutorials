@@ -23,7 +23,7 @@ using Aspose.Cells;
 
 ## Schritt 3: Quell- und Ausgabeverzeichnis festlegen
 
-Legen Sie die Quell- und Ausgabeverzeichnisse fest, in denen sich die ursprüngliche Excel-Datei befindet bzw. in denen Sie die geänderte Datei speichern möchten. Verwenden Sie den folgenden Code:
+Legen Sie die Quell- und Ausgabeverzeichnisse fest, in denen sich die ursprüngliche Excel-Datei befindet bzw. wo Sie die geänderte Datei speichern möchten. Verwenden Sie den folgenden Code:
 
 ```csharp
 string sourceDir = "SOURCE DIRECTORY PATH";

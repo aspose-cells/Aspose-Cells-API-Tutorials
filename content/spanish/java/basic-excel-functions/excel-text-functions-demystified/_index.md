@@ -37,7 +37,7 @@ cell.setFormula("=CONCATENATE(A1,B1)");
 workbook.calculateFormula();
 ```
 
-Ahora, la celda C1 contendrá "¡Hola mundo!".
+Ahora, la celda C1 contendrá "¡Hola, mundo!".
 
 ## IZQUIERDA y DERECHA: extracción de texto
 

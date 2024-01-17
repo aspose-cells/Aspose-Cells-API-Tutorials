@@ -14,7 +14,7 @@ Dijital çağda hassas verilerinizin güvenliğini sağlamak çok önemlidir. Ex
 
 ## Önkoşullar
 
-Aspose.Cells for Java ile Excel parola koruması dünyasına dalmadan önce gerekli araçlara ve bilgilere sahip olduğunuzdan emin olmanız gerekir:
+Aspose.Cells for Java ile Excel şifre koruması dünyasına dalmadan önce gerekli araçlara ve bilgilere sahip olduğunuzdan emin olmanız gerekir:
 
 - Java Geliştirme Ortamı
 -  Aspose.Cells for Java API (İndirebilirsiniz[Burada](https://releases.aspose.com/cells/java/)

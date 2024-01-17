@@ -67,7 +67,7 @@ fstream.Close();
 
 ### Çözüm
 
-Bu adım adım kılavuz, Aspose.Cells for .NET kullanarak bir Excel elektronik tablosunda dikey ve yatay kaydırma çubuklarının nasıl görüntüleneceğini veya gizleneceğini gösterdi. Sağlanan C# kaynak kodunu kullanarak Excel dosyalarınızdaki kaydırma çubuklarının görünümünü kolayca özelleştirebilirsiniz.
+Bu adım adım kılavuz, Aspose.Cells for .NET kullanarak bir Excel tablosunda dikey ve yatay kaydırma çubuklarının nasıl görüntüleneceği veya gizleneceğini gösterdi. Sağlanan C# kaynak kodunu kullanarak Excel dosyalarınızdaki kaydırma çubuklarının görünümünü kolayca özelleştirebilirsiniz.
 
 ### Sık Sorulan Sorular (SSS)
 

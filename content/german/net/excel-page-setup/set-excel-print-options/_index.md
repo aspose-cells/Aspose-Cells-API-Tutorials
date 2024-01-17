@@ -29,7 +29,7 @@ using Aspose.Cells;
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt ersetzen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
+ Unbedingt austauschen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
 
 ## Schritt 4: Erstellen eines Arbeitsmappenobjekts
 
@@ -65,7 +65,7 @@ pageSetup.PrintHeadings = true;
 
 ## Schritt 8: Schwarzweiß-Druckmodus aktivieren
 
-Um das Drucken des Arbeitsblatts im Schwarzweißmodus zu ermöglichen, verwenden Sie den folgenden Code:
+Um das Drucken des Arbeitsblatts im Schwarzweißmodus zu aktivieren, verwenden Sie den folgenden Code:
 
 ```csharp
 pageSetup.BlackAndWhite = true;

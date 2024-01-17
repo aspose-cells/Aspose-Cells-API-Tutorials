@@ -95,7 +95,7 @@ Cevap2: Evet, Aspose.Cells XLS, XLSX, CSV, HTML, PDF ve çok daha fazlasını i�
 
 #### S3: Aynı Excel dosyasındaki farklı çalışma sayfaları için farklı sayfa yönlendirmeleri ayarlayabilir miyim?
 
- C3: Evet, farklı çalışma sayfaları için farklı sayfa yönlendirmelerini şu adrese erişerek ayarlayabilirsiniz:`PageSetup` her çalışma sayfasının nesnesini ayrı ayrı ve değiştirerek`Orientation` buna göre mülk.
+ Cevap3: Evet, farklı çalışma sayfaları için farklı sayfa yönlendirmelerini şu adrese erişerek ayarlayabilirsiniz:`PageSetup` her çalışma sayfasının nesnesini ayrı ayrı ve değiştirerek`Orientation` buna göre mülk.
 
 #### S4: Aspose.Cells hem .NET Framework hem de .NET Core ile uyumlu mu?
 

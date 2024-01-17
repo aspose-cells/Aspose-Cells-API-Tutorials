@@ -2,7 +2,7 @@
 title: الوصول إلى معلومات ملحق الويب
 linktitle: الوصول إلى معلومات ملحق الويب
 second_title: Aspose.Cells لمرجع .NET API
-description: يمكنك الوصول إلى معلومات ملحق الويب باستخدام Aspose.Cells لـ .NET.
+description: قم بالوصول إلى معلومات ملحق الويب باستخدام Aspose.Cells لـ .NET.
 type: docs
 weight: 10
 url: /ar/net/excel-workbook/access-web-extension-information/

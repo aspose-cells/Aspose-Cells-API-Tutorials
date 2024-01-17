@@ -21,7 +21,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie Aspose.Cells für .NET installi
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
- Unbedingt ersetzen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt austauschen`"YOUR_DOCUMENTS_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 3: Erstellen Sie eine neue Excel-Arbeitsmappe
 

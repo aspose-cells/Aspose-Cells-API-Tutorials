@@ -83,7 +83,7 @@ workbook.Save(dataDir + "SetPrintQuality_out.xls");
 
 ## Conclusión
 
-¡Enhorabuena! Ha aprendido a configurar la calidad de impresión de una hoja de cálculo de Excel utilizando Aspose.Cells para .NET. Ahora puede personalizar la calidad de impresión de sus archivos de Excel según sus preferencias y necesidades específicas.
+¡Enhorabuena! Ha aprendido cómo configurar la calidad de impresión de una hoja de cálculo de Excel usando Aspose.Cells para .NET. Ahora puede personalizar la calidad de impresión de sus archivos de Excel según sus preferencias y necesidades específicas.
 
 ## Preguntas frecuentes
 

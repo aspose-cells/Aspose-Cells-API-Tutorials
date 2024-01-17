@@ -15,7 +15,7 @@ Les règles de validation des données sont un aspect crucial de la création et
 Aspose.Cells vous permet de créer des règles de validation de données personnalisées adaptées à vos besoins spécifiques. Que vous limitiez les valeurs d'entrée, définissiez des plages de dates ou mettiez en œuvre des conditions complexes, nos didacticiels vous guideront tout au long du processus. Débloquez la possibilité d’éviter les erreurs et de maintenir la cohérence des données dans vos feuilles Excel.
 
 ## Des feuilles Excel sans erreur simplifiées
-En suivant nos didacticiels complets sur les règles de validation des données à l'aide d'Aspose.Cells pour Java, vous acquerrez l'expertise nécessaire pour créer des feuilles Excel sans erreurs. Améliorez la précision de vos données, rationalisez vos processus et devenez un utilisateur compétent d’Excel. Commencez votre voyage aujourd'hui et excellez dans Excel !"
+En suivant nos didacticiels complets sur les règles de validation des données à l'aide d'Aspose.Cells pour Java, vous acquerrez l'expertise nécessaire pour créer des feuilles Excel sans erreur. Améliorez la précision de vos données, rationalisez vos processus et devenez un utilisateur compétent d’Excel. Commencez votre voyage aujourd'hui et excellez dans Excel !"
 
 ## Didacticiels sur les règles de validation des données
 ### [Création d'une validation de données personnalisée](./creating-custom-data-validation/)

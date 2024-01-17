@@ -67,7 +67,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Заменять`"path/to/output/pdf/file.pdf"` укажите предпочитаемый путь вывода и имя файла полученного PDF-документа.
+ Заменять`"path/to/output/pdf/file.pdf"` укажите предпочтительный путь вывода и имя файла полученного PDF-документа.
 
 ## Шаг 4. Улучшите свое Java-приложение
 

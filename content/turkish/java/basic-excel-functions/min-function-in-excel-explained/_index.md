@@ -14,7 +14,7 @@ Veri işleme ve analiz dünyasında Excel güvenilir bir araç olarak duruyor. K
 
 ## MIN Fonksiyonunu Anlamak
 
-Excel'deki MIN işlevi, belirli bir sayı kümesi veya hücre aralığındaki en küçük değeri belirlemenize yardımcı olan temel bir matematik işlevidir. Genellikle bir dizi veri noktası arasında en düşük değeri belirlemeniz gereken senaryolarda kullanılır.
+Excel'deki MIN işlevi, belirli bir sayı kümesi veya hücre aralığındaki en küçük değeri belirlemenize yardımcı olan temel bir matematik işlevidir. Genellikle bir dizi veri noktası arasında en düşük değeri tanımlamanız gereken senaryolarda kullanılır.
 
 ### MIN Fonksiyonunun Sözdizimi
 

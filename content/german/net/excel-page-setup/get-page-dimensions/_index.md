@@ -34,7 +34,7 @@ sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 ```
 
-## Schritt 4: Stellen Sie das Papierformat auf A3 ein und geben Sie Breite und Höhe in Zoll an
+## Schritt 4: Stellen Sie das Papierformat auf A3 ein und geben Sie Breite und Höhe in Zoll ein
 
 Als nächstes stellen wir das Papierformat auf A3 ein und drucken die Seitenbreite und -höhe in Zoll. Hier ist der entsprechende Code:
 

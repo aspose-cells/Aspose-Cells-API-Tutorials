@@ -30,7 +30,7 @@ using Aspose.Cells;
 string dataDir = "PATH_TO_YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Unbedingt ersetzen`"PATH_TO_YOUR_DOCUMENT_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
+ Unbedingt austauschen`"PATH_TO_YOUR_DOCUMENT_DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Verzeichnis.
 
 ## Schritt 4: Vorhandene Excel-Datei laden
 
@@ -76,7 +76,7 @@ string InputPath = dataDir + "book1.xls";
 // Öffnen Sie eine vorhandene Excel-Datei.
 Workbook wb = new Workbook(InputPath);
 // Erstellen Sie ein Worksheets-Objekt mit Verweis auf
-// die Blätter des Arbeitsbuches.
+// die Blätter des Arbeitsbuchs.
 WorksheetCollection sheets = wb.Worksheets;
 // Kopieren Sie Daten von einem vorhandenen in ein neues Blatt
 // Blatt innerhalb der Arbeitsmappe.

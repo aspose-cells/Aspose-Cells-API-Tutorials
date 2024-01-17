@@ -11,7 +11,7 @@ C#'ta Excel çalışma sayfalarıyla çalışırken, yanlışlıkla yapılan de�
 
 ## Excel Çalışma Sayfasındaki Belirli Sütunları Korumaya Genel Bakış
 
-Bir Excel çalışma sayfasındaki belirli sütunların korunması, bu sütunların kilitli kalmasını ve uygun yetkilendirme olmadan değiştirilememesini sağlar. Bu, özellikle kullanıcıların çalışma sayfasının geri kalanıyla etkileşimde bulunmasına izin verirken belirli verilere veya formüllere düzenleme erişimini kısıtlamak istediğinizde kullanışlıdır. Aspose.Cells for .NET kitaplığı, Excel dosyalarını programlı olarak yönetmek için sütun koruması da dahil olmak üzere kapsamlı bir dizi özellik sunar.
+Bir Excel çalışma sayfasındaki belirli sütunların korunması, bu sütunların kilitli kalmasını ve uygun yetkilendirme olmadan değiştirilememesini sağlar. Bu, kullanıcıların çalışma sayfasının geri kalanıyla etkileşimde bulunmasına izin verirken belirli verilere veya formüllere düzenleme erişimini kısıtlamak istediğinizde özellikle kullanışlıdır. Aspose.Cells for .NET kitaplığı, Excel dosyalarını programlı olarak yönetmek için sütun koruması da dahil olmak üzere kapsamlı bir dizi özellik sunar.
 
 ## Ortamın Ayarlanması
 
@@ -157,7 +157,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Cells for .NET kütüphanesini kullanarak bir Excel çalışma sayfasındaki belirli bir sütunu korumanın adım adım sürecini açıkladık. Yeni bir çalışma kitabı ve çalışma sayfası oluşturarak, stil ve stil bayrağı nesnelerini tanımlayarak başladık ve ardından belirli sütunların kilidini açıp kilitlemeye başladık. Son olarak çalışma sayfasını koruma altına aldık ve değiştirilen Excel dosyasını kaydettik. Bu kılavuzu takip ederek artık C# ve Aspose.Cells for .NET kullanarak Excel çalışma sayfalarındaki belirli sütunları koruyabileceksiniz.
+Bu eğitimde, Aspose.Cells for .NET kütüphanesini kullanarak bir Excel çalışma sayfasındaki belirli bir sütunu korumanın adım adım sürecini açıkladık. Yeni bir çalışma kitabı ve çalışma sayfası oluşturarak, stil ve stil bayrağı nesnelerini tanımlayarak başladık ve ardından belirli sütunların kilidini açıp kilitlemeye devam ettik. Son olarak çalışma sayfasını koruma altına aldık ve değiştirilen Excel dosyasını kaydettik. Bu kılavuzu takip ederek artık C# ve Aspose.Cells for .NET kullanarak Excel çalışma sayfalarındaki belirli sütunları koruyabileceksiniz.
 
 ### Sıkça Sorulan Sorular (SSS)
 

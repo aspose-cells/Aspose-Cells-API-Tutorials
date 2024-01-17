@@ -49,7 +49,7 @@ Styling styling;
 // قم بتعيين كائن styleflag.
 StyleFlag flag;
 
-// قم بالمرور عبر كافة الأعمدة في ورقة العمل وقم بإلغاء قفلها.
+// قم بالمرور عبر كافة الأعمدة في ورقة العمل وقم بإلغاء تأمينها.
 for (int i = 0; i <= 255; i++)
 {
      style = sheet.Cells.Columns[(byte)i].Style;
@@ -117,7 +117,7 @@ Worksheet sheet = wb.Worksheets[0];
 Style style;
 // تحديد كائن styleflag.
 StyleFlag flag;
-// قم بالمرور عبر كافة الأعمدة الموجودة في ورقة العمل وقم بإلغاء تأمينها.
+// قم بالمرور عبر كافة الأعمدة الموجودة في ورقة العمل وقم بإلغاء قفلها.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;

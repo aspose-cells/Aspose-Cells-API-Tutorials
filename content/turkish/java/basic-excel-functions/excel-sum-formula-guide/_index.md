@@ -2,7 +2,7 @@
 title: Excel SUM Formül Kılavuzu
 linktitle: Excel SUM Formül Kılavuzu
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel SUM Formülünün Gücünün Kilidini Açın - Kapsamlı Excel Otomasyon Kılavuzunuz.
+description: Aspose.Cells for Java ile Excel SUM Formülünün Gücünün Kilidini Açın - Kapsamlı Excel Otomasyon Rehberiniz.
 type: docs
 weight: 10
 url: /tr/java/basic-excel-functions/excel-sum-formula-guide/

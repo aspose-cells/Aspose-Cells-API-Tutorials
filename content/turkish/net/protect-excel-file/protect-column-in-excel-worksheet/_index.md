@@ -166,4 +166,4 @@ C: Aspose.Cells for .NET'te, tüm sütunlar arasında geçiş yapmak için bir d
 
 #### S: Bu sütun koruma kavramlarını diğer Excel dosyası türlerine uygulayabilir miyim?
 
-C: Evet, Aspose.Cells for .NET'teki sütun koruma konseptleri, Excel 97-2003 dosyaları (.xls) ve daha yeni Excel dosyaları (.xlsx) gibi tüm Excel dosyası türlerine uygulanabilir.
+C: Evet, Aspose.Cells for .NET'teki sütun koruma kavramları, Excel 97-2003 dosyaları (.xls) ve daha yeni Excel dosyaları (.xlsx) gibi tüm Excel dosyası türlerine uygulanabilir.

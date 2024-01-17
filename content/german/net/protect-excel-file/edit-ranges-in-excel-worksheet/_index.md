@@ -16,7 +16,7 @@ Stellen Sie sicher, dass Aspose.Cells für .NET in Ihrer Entwicklungsumgebung in
 
 ## Schritt 2: Arbeitsmappe und Arbeitsblatt initialisieren
 
-Zunächst müssen wir eine neue Arbeitsmappe erstellen und den Verweis auf das Arbeitsblatt abrufen, in dem wir die Änderung von Bereichen zulassen möchten. Verwenden Sie dazu den folgenden Code:
+Zunächst müssen wir eine neue Arbeitsmappe erstellen und den Verweis auf das Arbeitsblatt abrufen, in dem Bereiche geändert werden sollen. Verwenden Sie dazu den folgenden Code:
 
 ```csharp
 // Pfad zum Dokumentenverzeichnis.

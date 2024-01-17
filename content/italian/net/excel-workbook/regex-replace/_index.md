@@ -98,5 +98,5 @@ R: Sì, Aspose.Cells supporta espressioni regolari avanzate, consentendoti di es
 
 #### D: Come posso verificare se la sostituzione di Regex ha avuto successo?
     
-R: Dopo aver eseguito la sostituzione di Regex, puoi verificare se l'operazione ha avuto successo controllando l'output e assicurandoti che il file Excel di output sia stato creato correttamente.
+R: Dopo aver eseguito la sostituzione di Regex, puoi verificare se l'operazione è andata a buon fine controllando l'output e assicurandoti che il file Excel di output sia stato creato correttamente.
 	

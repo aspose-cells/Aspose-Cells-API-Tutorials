@@ -102,4 +102,4 @@ R: Sì, puoi scorrere la raccolta di elementi della formula Power Query e aggior
 
 #### D: ci sono altre operazioni che posso eseguire sulle formule di Power Query con Aspose.Cells?
     
-R: Sì, Aspose.Cells offre una gamma completa di funzionalità per lavorare con le formule di Power Query, tra cui la creazione, l'eliminazione, la copia e la ricerca di formule in una cartella di lavoro di Excel.
+R: Sì, Aspose.Cells offre una gamma completa di funzionalità per lavorare con le formule di Power Query, inclusa la creazione, l'eliminazione, la copia e la ricerca di formule in una cartella di lavoro di Excel.

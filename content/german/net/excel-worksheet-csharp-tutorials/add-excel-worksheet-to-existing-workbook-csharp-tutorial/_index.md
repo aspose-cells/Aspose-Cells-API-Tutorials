@@ -51,7 +51,7 @@ int i = workbook. Worksheets. Add();
  Sie können den Namen des neu hinzugefügten Blattes mit festlegen`Name` Eigentum der`Worksheet` Objekt.
 
 ```csharp
-// Erhalten Sie die Referenz des neu hinzugefügten Blattes, indem Sie dessen Blattindex übergeben
+// Erhalten Sie die Referenz des neu hinzugefügten Blatts, indem Sie dessen Blattindex übergeben
 Worksheet worksheet = workbook.Worksheets[i];
 // Definieren Sie den Namen des neuen Blattes
 worksheet.Name = "My Worksheet";
