@@ -14,16 +14,16 @@ Aspose.Cells for .NET is a powerful and comprehensive library that allows you to
 ## Tutorials 
 | Title | Description |
 | --- | --- |
-| [Control Tab Bar Width Of Spreadsheet](./control-tab-bar-width-of-spreadsheet/) | Control the tab bar width of an Excel spreadsheet with Aspose.Cells for .NET. |  
-| [Controll Zoom Factor Of Worksheet](./controll-zoom-factor-of-worksheet/) | Control the zoom factor of Excel worksheet with Aspose.Cells for .NET. |  
-| [Display And Hide Gridlines Of Worksheet](./display-and-hide-gridlines-of-worksheet/) | Control the display of gridlines in Excel worksheet with Aspose.Cells for .NET. |  
-| [Display And Hide Row Column Headers Of Worksheet](./display-and-hide-row-column-headers-of-worksheet/) | Display or hide row and column headers in Excel worksheet using Aspose.Cells for .NET. |  
+| [Control Tab Bar Width Of Spreadsheet](./control-tab-bar-width-of-spreadsheet/) | Learn how to control the sheet tab bar width in Excel using Aspose.Cells for .NET with this step-by-step tutorial. Customize your Excel files efficiently. |  
+| [Controll Zoom Factor Of Worksheet](./controll-zoom-factor-of-worksheet/) | Learn how to control the zoom factor of Excel worksheets using Aspose.Cells for .NET in simple steps. Enhance readability in your spreadsheets. |  
+| [Display And Hide Gridlines Of Worksheet](./display-and-hide-gridlines-of-worksheet/) | Learn how to display and hide gridlines in Excel worksheets using Aspose.Cells for .NET. Step-by-step tutorial with code examples and explanations. |  
+| [Display And Hide Row Column Headers Of Worksheet](./display-and-hide-row-column-headers-of-worksheet/) | Learn how to hide row and column headers in Excel using Aspose.Cells for .NET with this step-by-step guide. |  
 | [Display And Hide Scroll Bars Of Worksheet](./display-and-hide-scroll-bars-of-worksheet/) | Display or hide scroll bars in Excel worksheet using Aspose.Cells for .NET. |  
-| [Display Tab Of Spreadsheet](./display-tab-of-spreadsheet/) | Display an Excel spreadsheet tab using Aspose.Cells for .NET. |  
-| [Freeze Panes Of Worksheet](./freeze-panes-of-worksheet/) | Easily manipulate freeze panes of Excel worksheet with Aspose.Cells for .NET. |  
-| [Get Paper Width And Height Of Worksheet](./get-paper-width-and-height-of-worksheet/) | Create a step by step guide to explain the following C# source code to get the paper width and height of a spreadsheet using Aspose.Cells for .NET. |  
-| [Hide And Unhide Worksheet](./hide-and-unhide-worksheet/) | A powerful library for working with Excel files, including creating, modifying and manipulating data. |  
-| [Hide Tabs Of Spreadsheet](./hide-tabs-of-spreadsheet/) | Step-by-step guide to hide tabs in an Excel spreadsheet using Aspose.Cells for .NET. |  
-| [Page Break Preview Of Worksheet](./page-break-preview-of-worksheet/) | Step by step guide to show page break preview of worksheet using Aspose.Cells for .NET. |  
-| [Remove Panes Of Worksheet](./remove-panes-of-worksheet/) | Step by step guide to remove panes from an Excel worksheet using Aspose.Cells for .NET. |  
-| [Split Panes Of Worksheet](./split-panes-of-worksheet/) | Step-by-step guide to split panes in an Excel worksheet using Aspose.Cells for .NET. |  
+| [Display Tab Of Spreadsheet](./display-tab-of-spreadsheet/) | Learn how to display the tab of a spreadsheet using Aspose.Cells for .NET in this step-by-step guide. Master Excel automation with ease in C#. |  
+| [Freeze Panes Of Worksheet](./freeze-panes-of-worksheet/) | Learn how to freeze panes in Excel using Aspose.Cells for .NET with this comprehensive tutorial, complete with step-by-step instructions and essential tips. |  
+| [Get Paper Width And Height Of Worksheet](./get-paper-width-and-height-of-worksheet/) | Learn how to get the paper width and height of worksheets in Aspose.Cells for .NET with a simple step-by-step guide. |  
+| [Hide And Unhide Worksheet](./hide-and-unhide-worksheet/) | Master Excel worksheet manipulation with this complete guide to hiding and un-hiding sheets using Aspose.Cells for .NET. Streamline your data management. |  
+| [Hide Tabs Of Spreadsheet](./hide-tabs-of-spreadsheet/) | Hide tabs in an Excel spreadsheet using Aspose.Cells for .NET. Learn how to programmatically hide and show sheet tabs in just a few simple steps. |  
+| [Page Break Preview Of Worksheet](./page-break-preview-of-worksheet/) | Learn to use Aspose.Cells for .NET to enable page break previews in Excel worksheets through a simple step-by-step tutorial. |  
+| [Remove Panes Of Worksheet](./remove-panes-of-worksheet/) | Discover how to effortlessly remove panes from an Excel worksheet using Aspose.Cells for .NET with our step-by-step guide. |  
+| [Split Panes Of Worksheet](./split-panes-of-worksheet/) | Learn how to split worksheet panes in Aspose.Cells for .NET with our step-by-step guide. Improve Excel file navigation with this easy tutorial. |  
