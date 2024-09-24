@@ -12,6 +12,6 @@ Discover in-depth tutorials on Excel security with Aspose.Cells for .NET. In the
 ## Tutorials 
 | Title | Description |
 | --- | --- |
-| [Advanced Protection Settings For Excel Worksheet](./advanced-protection-settings-for-excel-worksheet/) | Protect your Excel files by setting advanced protection settings with Aspose.Cells for .NET. |  
-| [Lock Cell In Excel Worksheet](./lock-cell-in-excel-worksheet/) | Step by step guide to lock a cell in Excel Worksheet using Aspose.Cells for .NET. |  
-| [Specify Author While Write Protecting Excel Workbook](./specify-author-while-write-protecting-excel-workbook/) | Learn how to protect and customize your Excel workbooks using Aspose.Cells for .NET. Step by step tutorial in C#. |  
+| [Advanced Protection Settings For Excel Worksheet](./advanced-protection-settings-for-excel-worksheet/) | Secure your Excel data with advanced protection settings using Aspose.Cells for .NET! Learn to implement controls step by step in this comprehensive tutorial. |  
+| [Lock Cell In Excel Worksheet](./lock-cell-in-excel-worksheet/) | Learn to lock cells in Excel worksheets using Aspose.Cells for .NET. Easy step-by-step tutorial for secure data management. |  
+| [Specify Author While Write Protecting Excel Workbook](./specify-author-while-write-protecting-excel-workbook/) | Learn how to write protect your Excel workbook while specifying an author using Aspose.Cells for .NET in this step-by-step guide. |  
