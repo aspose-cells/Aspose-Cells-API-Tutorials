@@ -15,5 +15,5 @@ Aspose.Cells for .NET is a powerful and user-friendly library that lets you work
 | Title | Description |
 | --- | --- |
 | [Unlock Password Protected Excel Worksheet](./unlock-password-protected-excel-worksheet/) | Learn how to unlock a password protected Excel spreadsheet using Aspose.Cells for .NET. Step by step tutorial in C#. |  
-| [Unlock Protected Excel Sheet](./unlock-protected-excel-sheet/) | Learn how to unlock a protected Excel spreadsheet using Aspose.Cells for .NET. Step by step tutorial in C#. |  
-| [Unprotect Simple Excel Sheet](./unprotect-simple-excel-sheet/) | Learn how to Unprotect an Excel spreadsheet with Aspose.Cells for .NET. Step by step tutorial in C#. |  
+| [Unlock Protected Excel Sheet](./unlock-protected-excel-sheet/) | Learn how to unlock protected Excel sheets using Aspose.Cells for .NET in this beginner-friendly, step-by-step tutorial.  |  
+| [Unprotect Simple Excel Sheet](./unprotect-simple-excel-sheet/) | Learn how to easily unprotect Excel sheets using Aspose.Cells for .NET with this step-by-step guide. Regain access to your data in no time. |  
