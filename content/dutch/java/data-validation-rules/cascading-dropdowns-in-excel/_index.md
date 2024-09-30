@@ -1,32 +1,32 @@
 ---
-title: Trapsgewijze vervolgkeuzelijsten in Excel
-linktitle: Trapsgewijze vervolgkeuzelijsten in Excel
+title: Cascaderende vervolgkeuzelijsten in Excel
+linktitle: Cascaderende vervolgkeuzelijsten in Excel
 second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Leer hoe u trapsgewijze vervolgkeuzelijsten in Excel kunt maken met Aspose.Cells voor Java. Deze stapsgewijze handleiding biedt broncode en tips van experts voor efficiënte manipulatie van Excel-spreadsheets.
+description: Leer hoe u cascaded dropdowns in Excel maakt met Aspose.Cells voor Java. Deze stapsgewijze handleiding biedt broncode en deskundige tips voor efficiënte Excel-spreadsheetmanipulatie.
 type: docs
 weight: 13
 url: /nl/java/data-validation-rules/cascading-dropdowns-in-excel/
 ---
 
-## Inleiding tot trapsgewijze vervolgkeuzelijsten in Excel
+## Inleiding tot Cascading Dropdowns in Excel
 
-In de wereld van spreadsheetmanipulatie is Aspose.Cells voor Java een krachtige toolkit waarmee ontwikkelaars efficiënt met Excel-bestanden kunnen werken. Een van de intrigerende functies die het biedt, is de mogelijkheid om trapsgewijze vervolgkeuzelijsten in Excel te maken, waardoor gebruikers dynamisch opties kunnen selecteren op basis van een eerdere selectie. In deze stapsgewijze handleiding duiken we in het proces van het implementeren van trapsgewijze vervolgkeuzelijsten met behulp van Aspose.Cells voor Java. Dus laten we beginnen!
+In de wereld van spreadsheetmanipulatie staat Aspose.Cells voor Java bekend als een krachtige toolkit die ontwikkelaars in staat stelt om efficiënt met Excel-bestanden te werken. Een van de intrigerende functies die het biedt, is de mogelijkheid om cascading dropdowns in Excel te maken, waardoor gebruikers opties dynamisch kunnen selecteren op basis van een eerdere selectie. In deze stapsgewijze handleiding duiken we in het proces van het implementeren van cascading dropdowns met behulp van Aspose.Cells voor Java. Dus laten we beginnen!
 
 ## Vereisten
 
-Voordat we aan deze reis beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we aan deze reis beginnen, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
 
--  Aspose.Cells voor Java: download en installeer het van[hier](https://releases.aspose.com/cells/java/).
-- Java-ontwikkelomgeving: Er moet een Java-ontwikkelomgeving op uw computer zijn geïnstalleerd.
-- Basiskennis van Excel: Bekendheid met Excel en de basisconcepten ervan zal nuttig zijn.
+-  Aspose.Cells voor Java: Download en installeer het vanaf[hier](https://releases.aspose.com/cells/java/).
+- Java-ontwikkelomgeving: Er moet een Java-ontwikkelomgeving op uw computer zijn ingesteld.
+- Basiskennis van Excel: Kennis van Excel en de basisconcepten ervan is nuttig.
 
-## Het podium opzetten
+## Het decor klaarzetten
 
-Ons doel is om een Excel-blad te maken met trapsgewijze vervolgkeuzelijsten. Stel je een scenario voor waarin je een lijst met landen hebt, en wanneer je een land selecteert, moet er een lijst met steden in dat land beschikbaar zijn voor selectie. Laten we de stappen uiteenzetten om dit te bereiken.
+Ons doel is om een Excel-sheet te maken met trapsgewijze dropdowns. Stel je een scenario voor waarin je een lijst met landen hebt en wanneer je een land selecteert, zou er een lijst met steden in dat land beschikbaar moeten zijn voor selectie. Laten we de stappen om dit te bereiken, opsplitsen.
 
 ## Stap 1: De Excel-werkmap maken
 
-Laten we eerst een Excel-werkmap maken met Aspose.Cells voor Java. We zullen twee bladen toevoegen: één voor de landenlijst en één voor de stedenlijst.
+Laten we eerst een Excel-werkmap maken met Aspose.Cells voor Java. We voegen twee bladen toe: één voor de landenlijst en één voor de stedenlijst.
 
 ```java
 // Java-code om een Excel-werkmap te maken
@@ -36,12 +36,12 @@ countrySheet.setName("Countries");
 Worksheet citySheet = workbook.getWorksheets().add("Cities");
 ```
 
-## Stap 2: Gegevens invullen
+## Stap 2: Gegevens vullen
 
-Nu moeten we onze werkbladen vullen met gegevens. In het blad "Landen" zullen we de landen opsommen, en in het blad "Steden" zullen we het in eerste instantie leeg laten, omdat we het later dynamisch zullen vullen.
+Nu moeten we onze werkbladen vullen met data. In het werkblad "Landen" zullen we de landen vermelden, en in het werkblad "Steden" zullen we het in eerste instantie leeg laten, omdat we het later dynamisch zullen vullen.
 
 ```java
-//Java-code om het blad "Landen" in te vullen
+//Java-code om het werkblad "Landen" in te vullen
 countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
@@ -49,46 +49,46 @@ countrySheet.getCells().get("A4").putValue("UK");
 // Voeg indien nodig meer landen toe
 ```
 
-## Stap 3: De vervolgkeuzelijsten maken
+## Stap 3: De dropdowns maken
 
-Vervolgens maken we vervolgkeuzelijsten voor de kolommen Land en Stad. Deze vervolgkeuzelijsten worden zo aan elkaar gekoppeld dat wanneer een land wordt geselecteerd, de vervolgkeuzelijst voor steden dienovereenkomstig wordt bijgewerkt.
+Vervolgens maken we dropdownlijsten voor de kolommen land en stad. Deze dropdowns worden op een manier gekoppeld dat wanneer een land wordt geselecteerd, de dropdown van de stad dienovereenkomstig wordt bijgewerkt.
 
 ```java
-// Java-code om vervolgkeuzelijsten te maken
+// Java-code om dropdownlijsten te maken
 DataValidationCollection validations = countrySheet.getDataValidations();
 DataValidation validation = validations.get(validations.add(1, 1, countrySheet.getCells().getMaxDataRow(), 1));
 validation.setType(DataValidationType.LIST);
 validation.setFormula1("Countries!$A$2:$A$4"); // Verwijzing naar de landenlijst
 ```
 
-## Stap 4: Trapsgewijze vervolgkeuzelijsten implementeren
+## Stap 4: Cascading Dropdowns implementeren
 
-Nu komt het spannende gedeelte: het implementeren van trapsgewijze vervolgkeuzelijsten. We zullen Aspose.Cells voor Java gebruiken om de vervolgkeuzelijst met steden dynamisch bij te werken op basis van het geselecteerde land.
+Nu komt het spannende gedeelte: het implementeren van cascading dropdowns. We gebruiken Aspose.Cells voor Java om de city dropdown dynamisch bij te werken op basis van het geselecteerde land.
 
 ```java
-// Java-code om trapsgewijze vervolgkeuzelijsten te implementeren
+// Java-code om cascade-dropdowns te implementeren
 countrySheet.getCells().setCellObserver(new ICellObserver() {
     @Override
     public void cellChanged(Cell cell) {
         if (cell.getName().equals("B2")) {
-            // Wis de vervolgkeuzelijst voor de vorige stad
+            // Wis vorige stad dropdown
             citySheet.getCells().get("B2").setValue("");
             
             // Bepaal het geselecteerde land
             String selectedCountry = cell.getStringValue();
             
-            // Vul op basis van het geselecteerde land de vervolgkeuzelijst met steden in
+            // Vul de vervolgkeuzelijst met steden in op basis van het geselecteerde land
             switch (selectedCountry) {
                 case "USA":
                     validation.setFormula1("Cities!$A$2:$A$4"); // Vul met Amerikaanse steden
                     break;
                 case "Canada":
-                    validation.setFormula1("Cities!$B$2:$B$4"); // Vul met Canadese steden
+                    validation.setFormula1("Cities!$B$2:$B$4"); // Bevolk met Canadese steden
                     break;
                 case "UK":
-                    validation.setFormula1("Cities!$C$2:$C$4"); // Bevolken met Britse steden
+                    validation.setFormula1("Cities!$C$2:$C$4"); // Bevolk met Britse steden
                     break;
-                // Voeg meer cases toe voor andere landen
+                // Voeg meer gevallen toe voor andere landen
             }
         }
     }
@@ -97,26 +97,26 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ## Conclusie
 
-In deze uitgebreide handleiding hebben we onderzocht hoe u trapsgewijze vervolgkeuzelijsten in Excel kunt maken met behulp van Aspose.Cells voor Java. We zijn begonnen met het instellen van de vereisten, het maken van de Excel-werkmap, het invullen van gegevens en hebben ons vervolgens verdiept in de fijne kneepjes van het maken van vervolgkeuzelijsten en het implementeren van het dynamische trapsgewijze gedrag. Als ontwikkelaar beschikt u nu over de kennis en hulpmiddelen om uw Excel-bestanden uit te breiden met interactieve vervolgkeuzelijsten, waardoor een naadloze gebruikerservaring ontstaat.
+In deze uitgebreide gids hebben we onderzocht hoe u cascaderende dropdowns in Excel kunt maken met Aspose.Cells voor Java. We begonnen met het instellen van de vereisten, het maken van de Excel-werkmap, het vullen van gegevens en verdiepten ons vervolgens in de complexiteit van het maken van dropdowns en het implementeren van het dynamische cascaderende gedrag. Als ontwikkelaar hebt u nu de kennis en tools om uw Excel-bestanden te verbeteren met interactieve dropdowns, wat zorgt voor een naadloze gebruikerservaring.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik meer landen en steden toevoegen aan de vervolgkeuzelijsten?
+### Hoe kan ik meer landen en steden toevoegen aan de dropdownmenu's?
 
-Als u meer landen en steden wilt toevoegen, moet u de respectieve bladen in uw Excel-werkmap bijwerken. Vouw eenvoudig de lijsten in de tabbladen "Landen" en "Steden" uit, en de vervolgkeuzelijsten bevatten automatisch de nieuwe vermeldingen.
+Om meer landen en steden toe te voegen, moet u de betreffende werkbladen in uw Excel-werkmap bijwerken. Vouw de lijsten in de werkbladen "Landen" en "Steden" uit en de vervolgkeuzelijsten bevatten automatisch de nieuwe items.
 
 ### Kan ik deze techniek gebruiken in combinatie met andere Excel-functies?
 
-Absoluut! U kunt trapsgewijze vervolgkeuzelijsten combineren met verschillende Excel-functies, zoals voorwaardelijke opmaak, formules en grafieken, om krachtige en interactieve spreadsheets te maken die zijn afgestemd op uw specifieke behoeften.
+Absoluut! U kunt trapsgewijze dropdowns combineren met verschillende Excel-functies zoals voorwaardelijke opmaak, formules en grafieken om krachtige en interactieve spreadsheets te maken die zijn afgestemd op uw specifieke behoeften.
 
-### Is Aspose.Cells voor Java geschikt voor zowel kleine als grootschalige projecten?
+### Is Aspose.Cells voor Java geschikt voor zowel kleine als grote projecten?
 
-Ja, Aspose.Cells voor Java is veelzijdig en kan worden gebruikt in projecten van elke omvang. Of u nu aan een klein hulpprogramma of aan een complexe bedrijfstoepassing werkt, Aspose.Cells voor Java kan uw Excel-gerelateerde taken stroomlijnen.
+Ja, Aspose.Cells voor Java is veelzijdig en kan worden gebruikt in projecten van alle groottes. Of u nu werkt aan een klein hulpprogramma of een complexe bedrijfsapplicatie, Aspose.Cells voor Java kan uw Excel-gerelateerde taken stroomlijnen.
 
-### Heb ik geavanceerde programmeervaardigheden nodig om trapsgewijze vervolgkeuzelijsten te implementeren met Aspose.Cells voor Java?
+### Heb ik geavanceerde programmeervaardigheden nodig om cascading dropdowns te implementeren met Aspose.Cells voor Java?
 
-Hoewel een basiskennis van Java nuttig is, biedt Aspose.Cells voor Java uitgebreide documentatie en voorbeelden om u door het proces te begeleiden. Met wat toewijding en oefening kun je deze functie onder de knie krijgen.
+Hoewel een basiskennis van Java nuttig is, biedt Aspose.Cells voor Java uitgebreide documentatie en voorbeelden om u door het proces te leiden. Met wat toewijding en oefening kunt u deze functie onder de knie krijgen.
 
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Cells voor Java?
 
- U kunt toegang krijgen tot uitgebreide documentatie en bronnen voor Aspose.Cells voor Java op[hier](https://reference.aspose.com/cells/java/).
+ U kunt uitgebreide documentatie en bronnen voor Aspose.Cells voor Java raadplegen op[hier](https://reference.aspose.com/cells/java/).

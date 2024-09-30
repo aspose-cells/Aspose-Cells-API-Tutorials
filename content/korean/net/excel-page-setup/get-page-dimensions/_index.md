@@ -1,107 +1,143 @@
 ---
 title: 페이지 크기 가져오기
 linktitle: 페이지 크기 가져오기
-second_title: .NET API 참조용 Aspose.Cells
-description: .NET용 Aspose.Cells를 사용하여 Excel에서 페이지 크기를 검색하는 방법을 알아보세요. C#의 소스 코드를 단계별로 안내합니다.
+second_title: .NET API 참조를 위한 Aspose.Cells
+description: 이 단계별 가이드에서 Aspose.Cells for .NET을 사용하여 페이지 크기를 가져오는 방법을 알아보세요. Excel 파일을 사용하는 개발자에게 완벽합니다.
 type: docs
 weight: 40
 url: /ko/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells for .NET은 개발자가 Microsoft Excel 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. 페이지 크기를 가져오는 기능을 포함하여 Excel 문서를 조작하기 위한 다양한 기능을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Cells를 사용하여 페이지 크기를 검색하는 단계를 안내합니다.
+## 소개
 
-## 1단계: Workbook 클래스의 인스턴스 만들기
+.NET 애플리케이션에서 스프레드시트를 처리하는 경우 Aspose.Cells 라이브러리는 개발자가 Excel 파일을 쉽게 조작할 수 있는 강력한 도구로 돋보입니다. 하지만 이 강력한 라이브러리를 사용하여 다양한 용지 크기에 대한 페이지 크기를 어떻게 얻을 수 있을까요? 이 튜토리얼에서는 프로세스를 단계별로 살펴보고 Aspose.Cells의 작동 방식에 대한 통찰력을 얻을 뿐만 아니라 프로젝트에서 사용하는 데 능숙해지도록 하겠습니다. 
 
-시작하려면 Excel 통합 문서를 나타내는 Workbook 클래스의 인스턴스를 만들어야 합니다. 이는 다음 코드를 사용하여 달성할 수 있습니다.
+## 필수 조건 
+
+코딩 부분으로 넘어가기 전에 효과적으로 따라가기 위해 꼭 준비해야 할 몇 가지 사항이 있습니다.
+
+### 비주얼 스튜디오
+컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 여기서 .NET 코드를 작성하고 실행합니다.
+
+### Aspose.Cells 라이브러리
+프로젝트에서 Aspose.Cells 라이브러리를 다운로드하고 참조해야 합니다. 다음에서 얻을 수 있습니다.
+-  다운로드 링크:[.NET용 Aspose.Cells](https://releases.aspose.com/cells/net/)
+
+### C#의 기본 지식
+C#에 대한 기본적인 이해가 있다면 유익할 것입니다. 이 튜토리얼은 따라하기 쉬운 기본 프로그래밍 개념을 사용합니다.
+
+갈 준비가 되셨나요? 시작해 볼까요!
+
+## 패키지 가져오기
+
+우리 여정의 첫 번째 단계는 필요한 Aspose.Cells 패키지를 C# 프로젝트로 가져오는 것입니다. 다음은 이를 수행하는 방법입니다.
+
+### 새 프로젝트 만들기
+
+ Visual Studio를 열고 새 C# 콘솔 애플리케이션 프로젝트를 만듭니다. 원하는 대로 이름을 지정할 수 있습니다.`GetPageDimensions`.
+
+### 참조 추가
+
+Aspose.Cells를 사용하려면 라이브러리에 참조를 추가해야 합니다.
+- 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 버튼으로 클릭합니다.
+- “NuGet 패키지 관리”를 선택하세요.
+- “Aspose.Cells”를 검색하여 설치하세요.
+
+### 사용 지침 추가
+
+ 당신의 맨 위에`Program.cs` 파일에서 Aspose.Cells 기능에 액세스하려면 이 지시문을 삽입하세요.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+이제 필요한 패키지를 가져왔으니, 잘 진행되셨습니다! 
+
+이제 각 단계를 거쳐 다양한 크기의 용지 크기를 검색하는 방법을 알아보겠습니다. 
+
+## 1단계: Workbook 클래스 인스턴스 생성
+
+가장 먼저 해야 할 일은 Aspose.Cells에서 Workbook 클래스의 인스턴스를 만드는 것입니다. 이 클래스는 Excel 파일을 나타냅니다.
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## 2단계: 스프레드시트에 액세스하기
+여기서는 스프레드시트 데이터와 구성을 보관할 새 통합 문서를 만듭니다.
 
-다음으로 페이지 크기를 설정하려는 통합 문서의 워크시트로 이동해야 합니다. 이 예에서는 첫 번째 워크시트로 작업한다고 가정합니다. 다음 코드를 사용하여 액세스할 수 있습니다.
+## 2단계: 첫 번째 워크시트에 액세스
+
+통합 문서 인스턴스를 만든 후에는 첫 번째 워크시트에 액세스해야 합니다. 각 통합 문서에는 여러 워크시트가 포함될 수 있지만 이 데모에서는 첫 번째 워크시트에 집중하겠습니다.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## 3단계: 용지 크기를 A2로 설정하고 인쇄 너비와 높이를 인치 단위로 설정합니다.
+이 줄은 첫 번째 워크시트를 가져와서 용지 크기를 설정하고 각각의 치수를 검색할 수 있도록 합니다.
 
-이제 용지 크기를 A2로 설정하고 페이지 너비와 높이를 인치 단위로 인쇄하겠습니다. 이는 다음 코드를 사용하여 달성할 수 있습니다.
+## 3단계: 용지 크기를 A2로 설정하고 치수 검색
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 4단계: 용지 크기를 A3으로 설정하고 인쇄 너비와 높이(인치)를 설정합니다.
-
-다음으로 용지 크기를 A3으로 설정하고 페이지 너비와 높이를 인치 단위로 인쇄하겠습니다. 해당 코드는 다음과 같습니다.
+이제 용지 크기를 설정하고 치수를 잡을 시간입니다! A2 용지 크기로 시작합니다.
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 5단계: 용지 크기를 A4로 설정하고 인쇄 너비와 높이(인치)를 설정합니다.
-
-이제 용지 크기를 A4로 설정하고 페이지 너비와 높이를 인치 단위로 인쇄하겠습니다. 코드는 다음과 같습니다.
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 6단계: 용지 크기를 Letter로 설정하고 너비와 높이를 인치 단위로 인쇄합니다.
-
-마지막으로 용지 크기를 Letter로 설정하고 페이지 너비와 높이를 인치 단위로 인쇄합니다. 코드는 다음과 같습니다.
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### .NET용 Aspose.Cells를 사용하여 페이지 차원 가져오기의 샘플 소스 코드 
-```csharp
-// Workbook 클래스의 인스턴스 만들기
-Workbook book = new Workbook();
-// 첫 번째 워크시트에 액세스
-Worksheet sheet = book.Worksheets[0];
-// 용지 크기를 A2로 설정하고 용지 너비와 높이를 인치 단위로 인쇄합니다.
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// 용지 크기를 A3으로 설정하고 용지 너비와 높이를 인치 단위로 인쇄합니다.
+```
+
+이 코드는 용지 크기를 A2로 설정하고 너비와 높이를 즉시 출력합니다. Aspose.Cells의 아름다움은 단순함에 있습니다!
+
+## 4단계: 다른 용지 크기에 대해 반복
+
+A3, A4, Letter와 같은 다른 용지 크기에도 이 과정을 반복해야 합니다. 방법은 다음과 같습니다.
+
+A3의 경우:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// 용지 크기를 A4로 설정하고 용지 너비와 높이를 인치 단위로 인쇄합니다.
+```
+
+A4의 경우:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// 용지 크기를 Letter로 설정하고 용지 너비와 높이를 인치 단위로 인쇄합니다.
+```
+
+편지의 경우:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## 5단계: 출력의 결론
+
+마지막으로, 전체 작업이 성공적으로 완료되었는지 확인하고 싶을 것입니다. 이 상태를 콘솔에 간단히 기록할 수 있습니다.
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## 결론
 
-축하합니다! .NET용 Aspose.Cells를 사용하여 페이지 크기를 검색하는 방법을 배웠습니다. 이 기능은 Excel 파일의 페이지 크기를 기반으로 특정 작업을 수행해야 할 때 유용할 수 있습니다.
+축하합니다! 이제 Aspose.Cells for .NET을 사용하여 다양한 용지 크기에 대한 페이지 치수를 검색하는 방법을 성공적으로 배웠습니다. 보고 도구, 자동화된 스프레드시트 또는 데이터 분석 기능을 개발하든 다양한 형식에 대한 페이지 치수를 가져올 수 있는 기능은 매우 귀중할 수 있습니다. 
 
-Aspose.Cells가 제공하는 모든 강력한 기능을 알아보려면 Aspose.Cells의 문서를 더 자세히 살펴보세요.
+## 자주 묻는 질문
 
-### FAQ
+### Aspose.Cells란 무엇인가요?
+Aspose.Cells는 Microsoft Excel이 없어도 Excel 파일을 만들고, 조작하고, 변환하는 데 사용되는 .NET 라이브러리입니다.
 
-#### 1. Aspose.Cells for .NET은 어떤 다른 용지 크기를 지원합니까?
+### Aspose.Cells를 사용하려면 Microsoft Excel을 설치해야 합니까?
+아니요, Aspose.Cells는 독립 실행형 라이브러리이므로 Excel을 설치할 필요가 없습니다.
 
-.NET용 Aspose.Cells는 A1, A5, B4, B5, Executive, Legal, Letter 등을 포함한 다양한 용지 크기를 지원합니다. 지원되는 용지 크기의 전체 목록은 설명서를 확인하세요.
+### Aspose.Cells에 대한 더 많은 예를 어디에서 볼 수 있나요?
+ 여기에서 문서를 확인할 수 있습니다.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).
 
-#### 2. .NET용 Aspose.Cells를 사용하여 사용자 정의 페이지 크기를 설정할 수 있습니까?
+### Aspose.Cells의 무료 체험판이 있나요?
+ 네! 무료 체험판을 다음에서 받으실 수 있습니다:[Aspose.Cells 무료 체험판](https://releases.aspose.com/).
 
-예, 원하는 너비와 높이를 지정하여 사용자 정의 페이지 크기를 설정할 수 있습니다. Aspose.Cells는 귀하의 필요에 맞게 페이지 크기를 사용자 정의할 수 있는 완전한 유연성을 제공합니다.
-
-#### 3. 인치가 아닌 다른 단위로 페이지 치수를 얻을 수 있나요?
-
-예, .NET용 Aspose.Cells를 사용하면 인치, 센티미터, 밀리미터, 포인트 등 다양한 단위로 페이지 치수를 얻을 수 있습니다.
-
-#### 4. .NET용 Aspose.Cells는 다른 페이지 설정 편집 기능을 지원합니까?
-
-예, Aspose.Cells는 여백, 방향, 머리글 및 바닥글 설정 등을 포함하여 페이지 설정 편집을 위한 모든 기능을 제공합니다.
+### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
+ Aspose 지원 포럼을 방문하면 도움을 받을 수 있습니다.[Aspose.Cells 지원](https://forum.aspose.com/c/cells/9).

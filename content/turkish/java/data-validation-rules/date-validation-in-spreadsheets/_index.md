@@ -1,8 +1,8 @@
 ---
-title: E-tablolarda Tarih Doğrulama
-linktitle: E-tablolarda Tarih Doğrulama
+title: E-Tablolarda Tarih Doğrulaması
+linktitle: E-Tablolarda Tarih Doğrulaması
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel elektronik tablolarında tarih doğrulamanın nasıl gerçekleştirileceğini öğrenin. Adım adım kılavuzumuzla veri doğruluğunu ve bütünlüğünü sağlayın. Güçlü Excel işleme tekniklerini keşfedin.
+description: Aspose.Cells for Java kullanarak Excel elektronik tablolarında tarih doğrulamasının nasıl gerçekleştirileceğini öğrenin. Adım adım kılavuzumuzla veri doğruluğunu ve bütünlüğünü sağlayın. Güçlü Excel işleme tekniklerini keşfedin.
 type: docs
 weight: 14
 url: /tr/java/data-validation-rules/date-validation-in-spreadsheets/
@@ -10,28 +10,28 @@ url: /tr/java/data-validation-rules/date-validation-in-spreadsheets/
 
 ## giriiş
 
-Veri işleme dünyasında elektronik tablolar vazgeçilmez araçlardır ve Java geliştiricileri sıklıkla kendilerini elektronik tablo verileriyle çalışırken bulur. Veri bütünlüğünü sağlamak, özellikle tarihlerle uğraşırken çok önemlidir. Bu kılavuzda, Excel dosyalarıyla çalışmak için güçlü bir API olan Aspose.Cells for Java'yı kullanarak elektronik tablolarda tarih doğrulamanın nasıl gerçekleştirileceğini keşfedeceğiz.
+Veri işleme dünyasında, elektronik tablolar vazgeçilmez araçlardır ve Java geliştiricileri kendilerini sıklıkla elektronik tablo verileriyle çalışırken bulurlar. Özellikle tarihlerle uğraşırken veri bütünlüğünün sağlanması çok önemlidir. Bu kılavuzda, Excel dosyalarıyla çalışmak için güçlü bir API olan Java için Aspose.Cells'i kullanarak elektronik tablolarda tarih doğrulamasının nasıl gerçekleştirileceğini inceleyeceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Tarih doğrulamaya geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
+Tarih doğrulama işlemine geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
 - Java geliştirme ortamı kuruldu.
--  Aspose.Cells for Java kütüphanesinden indirildi[Burada](https://releases.aspose.com/cells/java/).
+-  Java kütüphanesi için Aspose.Cells indirildi[Burada](https://releases.aspose.com/cells/java/).
 - Java'da Excel dosyalarıyla çalışmaya ilişkin temel bilgiler.
 
-## Java için Aspose.Cells'i kurma
+## Java için Aspose.Cells Kurulumu
 
-Başlamak için Aspose.Cells kütüphanesini Java projenize eklemeniz gerekir. Bu adımları takip et:
+Başlamak için, Java projenize Aspose.Cells kütüphanesini eklemeniz gerekir. Şu adımları izleyin:
 
-1.  Sağlanan kaynaktan Aspose.Cells for Java kütüphanesini indirin[bağlantı](https://releases.aspose.com/cells/java/).
+1.  Sağlanan kaynaktan Aspose.Cells for Java kitaplığını indirin[bağlantı](https://releases.aspose.com/cells/java/).
 
-2. İndirilen JAR dosyasını projenizin sınıf yoluna ekleyin.
+2. İndirdiğiniz JAR dosyasını projenizin sınıf yoluna ekleyin.
 
-3. Artık Java uygulamanızda Aspose.Cells ile çalışmaya hazırsınız.
+3. Artık Java uygulamanızda Aspose.Cells ile çalışmaya başlamaya hazırsınız.
 
 ## Adım 1: Excel Dosyasını Yükleme
 
-Tarihleri doğrulamadan önce üzerinde çalışacağımız bir Excel dosyasına ihtiyacımız var. Bu örnek için mevcut bir dosyayı yükleyelim:
+Tarihleri doğrulamadan önce, çalışmak için bir Excel dosyasına ihtiyacımız var. Bu örnek için mevcut bir dosyayı yükleyelim:
 
 ```java
 // Excel dosyasını yükleyin
@@ -40,24 +40,24 @@ Workbook workbook = new Workbook("your_excel_file.xlsx");
 
 ## Adım 2: Bir Çalışma Sayfasına Erişim
 
-Daha sonra, tarih doğrulamayı gerçekleştirmek istediğimiz belirli çalışma sayfasına erişeceğiz:
+Daha sonra tarih doğrulaması yapmak istediğimiz belirli çalışma sayfasına erişeceğiz:
 
 ```java
-// Çalışma sayfasına ada göre erişme
+// Çalışma sayfasına isme göre erişin
 Worksheet worksheet = workbook.getWorksheets().get("Sheet1");
 ```
 
-## 3. Adım: Tarihleri Doğrulama
+## Adım 3: Tarihleri Doğrulama
 
-Şimdi en önemli kısım geliyor; e-tablodaki tarihlerin doğrulanması. Hücreleri yineleyeceğiz ve geçerli tarihler içerip içermediklerini kontrol edeceğiz:
+Şimdi kritik kısım geliyor - elektronik tablodaki tarihleri doğrulamak. Hücrelerde yineleme yapacağız ve geçerli tarihler içerip içermediklerini kontrol edeceğiz:
 
 ```java
-// Hücreler arasında yineleme
+// Hücreler arasında yineleme yapın
 for (int row = 0; row < worksheet.getCells().getMaxDataRow(); row++) {
     for (int col = 0; col < worksheet.getCells().getMaxDataColumn(); col++) {
         Cell cell = worksheet.getCells().get(row, col);
 
-        // Hücrenin tarih içerip içermediğini kontrol edin
+        // Hücrenin bir tarih içerip içermediğini kontrol edin
         if (cell.getType() == CellValueType.IS_DATE) {
             // Tarih doğrulama mantığınızı burada gerçekleştirin
             Date date = cell.getDateValue();
@@ -73,7 +73,7 @@ for (int row = 0; row < worksheet.getCells().getMaxDataRow(); row++) {
 
 Bu örnekte, bir hücredeki tarihin gelecekte olup olmadığını kontrol ettik ve doğruysa "Geçersiz Tarih" olarak işaretledik. Doğrulama mantığını gereksinimlerinize göre özelleştirebilirsiniz.
 
-## Adım 4: Güncellenmiş Excel Dosyasını Kaydetme
+## Adım 4: Güncellenen Excel Dosyasını Kaydetme
 
 Tarihleri doğruladıktan sonra güncellenen Excel dosyasını kaydetmek önemlidir:
 
@@ -84,26 +84,26 @@ workbook.save("updated_excel_file.xlsx");
 
 ## Çözüm
 
-Bu kılavuzda Aspose.Cells for Java kullanarak elektronik tablolarda tarih doğrulamanın nasıl yapılacağını öğrendik. Tarih verilerinin doğruluğunun sağlanması çeşitli uygulamalarda hayati öneme sahiptir ve Aspose.Cells ile bunu başarmak için emrinizde güçlü bir araç var.
+Bu kılavuzda, Java için Aspose.Cells kullanarak elektronik tablolarda tarih doğrulamasının nasıl gerçekleştirileceğini öğrendik. Çeşitli uygulamalarda tarih verilerinin doğruluğunun sağlanması hayati önem taşır ve Aspose.Cells ile bunu başarmak için emrinizde güçlü bir araç bulunur.
 
-## SSS'ler
+## SSS
 
-### Aspose.Cells for Java'yı nasıl yüklerim?
+### Java için Aspose.Cells'i nasıl yüklerim?
 
-Aspose.Cells for Java kütüphanesini Aspose web sitesinden indirebilir ve Java projenizin sınıf yoluna ekleyebilirsiniz.
+Aspose.Cells for Java kütüphanesini Aspose web sitesinden indirip Java projenizin sınıf yoluna ekleyebilirsiniz.
 
-### Tarihleri verilen örnek dışında belirli kriterlere göre doğrulayabilir miyim?
+### Verilen örnek dışında belirli kriterlere göre tarihleri doğrulayabilir miyim?
 
-Kesinlikle! Tarih doğrulama mantığını özel gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Bu örnek, temel bir doğrulama yaklaşımını göstermektedir.
+Kesinlikle! Tarih doğrulama mantığını özel gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Bu örnek temel bir doğrulama yaklaşımını göstermektedir.
 
-### Aspose.Cells for Java'yı kullanmak için herhangi bir lisans gereksinimi var mı?
+### Java için Aspose.Cells'i kullanmak için herhangi bir lisanslama gereksinimi var mı?
 
-Evet, Aspose.Cells for Java belirli kullanım senaryoları için lisans gerektirebilir. Lisans ayrıntıları için Aspose web sitesine bakın.
+Evet, Aspose.Cells for Java belirli kullanım senaryoları için lisans gerektirebilir. Lisanslama ayrıntıları için Aspose web sitesini kontrol edin.
 
-### Aspose.Cells for Java diğer Excel işlemlerini destekliyor mu?
+### Java için Aspose.Cells diğer Excel işlemlerini destekliyor mu?
 
-Evet, Aspose.Cells for Java, Excel dosyalarıyla çalışmak için okuma, yazma, biçimlendirme ve daha fazlasını içeren çok çeşitli özellikler sunar. Ayrıntılı bilgi için belgeleri inceleyin.
+Evet, Java için Aspose.Cells, Excel dosyalarıyla çalışmak için okuma, yazma, biçimlendirme ve daha fazlası dahil olmak üzere çok çeşitli özellikler sunar. Ayrıntılı bilgi için belgeleri inceleyin.
 
-### Aspose.Cells for Java için daha fazla kaynağı ve örneği nerede bulabilirim?
+### Java için Aspose.Cells hakkında daha fazla kaynak ve örneği nerede bulabilirim?
 
- Şuraya başvurabilirsiniz:[Java API Referansı için Aspose.Cells](https://reference.aspose.com/cells/java/) Kapsamlı belgeler ve örnekler için.
+ Şuna başvurabilirsiniz:[Java API Referansı için Aspose.Cells](https://reference.aspose.com/cells/java/) kapsamlı dokümantasyon ve örnekler için.

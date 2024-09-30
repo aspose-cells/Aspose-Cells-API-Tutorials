@@ -8,7 +8,7 @@ weight: 10
 url: /hu/java/excel-pivot-tables/creating-pivot-tables/
 ---
 ## Bevezetés
-A pivot táblák nélkülözhetetlen eszközök az adatok elemzéséhez és megjelenítéséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre kimutatástáblákat az Aspose.Cells for Java API használatával. A folyamat zökkenőmentessé tétele érdekében lépésről lépésre útmutatást adunk a forráskód példáival együtt.
+A pivot táblák nélkülözhetetlen eszközök az adatok elemzéséhez és megjelenítéséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhatók létre kimutatások az Aspose.Cells for Java API használatával. A folyamat zökkenőmentessé tétele érdekében lépésről lépésre útmutatást adunk a forráskód példáival együtt.
 
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy telepítve van az Aspose.Cells for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
@@ -38,7 +38,7 @@ Adja meg azt az adattartományt, amelyet fel szeretne venni a kimutatástábláz
 String sourceData = "Sheet1!A1:D100"; // Módosítsa ezt az adattartományra
 ```
 
-## 4. lépés: Hozzon létre egy kimutatástáblát
+## 4. lépés: Hozzon létre egy kimutatást
 Most hozzuk létre a kimutatástáblát.
 
 ```java

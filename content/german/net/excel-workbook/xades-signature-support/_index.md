@@ -1,98 +1,127 @@
 ---
-title: Xades-Signaturunterstützung
-linktitle: Xades-Signaturunterstützung
+title: Xades Signatur-Unterstützung
+linktitle: Xades Signatur-Unterstützung
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Xades-Signatur zu einer Excel-Datei hinzufügen.
+description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Xades-Signaturen zu Excel-Dateien hinzufügen. Sichern Sie Ihre Dokumente.
 type: docs
 weight: 190
 url: /de/net/excel-workbook/xades-signature-support/
 ---
-In diesem Artikel erklären wir Ihnen Schritt für Schritt den folgenden C#-Quellcode, der sich mit der Xades-Signaturunterstützung mithilfe der Aspose.Cells-Bibliothek für .NET befasst. Sie erfahren, wie Sie mit dieser Bibliothek eine digitale Xades-Signatur zu einer Excel-Datei hinzufügen. Außerdem geben wir Ihnen einen Überblick über den Unterzeichnungsprozess und dessen Durchführung. Befolgen Sie die nachstehenden Schritte, um aussagekräftige Ergebnisse zu erhalten.
+## Einführung
 
-## Schritt 1: Definieren Sie Quell- und Ausgabeverzeichnisse
-Zunächst müssen wir die Quell- und Ausgabeverzeichnisse in unserem Code definieren. Diese Verzeichnisse geben an, wo sich die Quelldateien befinden und wo die Ausgabedatei gespeichert wird. Hier ist der entsprechende Code:
+In der heutigen digitalen Welt ist die Sicherung von Dokumenten wichtiger denn je. Egal, ob Sie mit vertraulichen Geschäftsinformationen oder persönlichen Daten arbeiten, die Gewährleistung der Integrität und Authentizität Ihrer Dateien ist von größter Bedeutung. Eine Möglichkeit, dies zu erreichen, sind digitale Signaturen und insbesondere Xades-Signaturen. Wenn Sie ein .NET-Entwickler sind und Xades-Signaturunterstützung in Ihren Anwendungen implementieren möchten, sind Sie hier richtig! In diesem Handbuch führen wir Sie durch den Prozess des Hinzufügens von Xades-Signaturen zu Excel-Dateien mithilfe von Aspose.Cells für .NET. Lassen Sie uns also direkt loslegen!
 
-```csharp
-// Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Ausgabe Verzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+## Voraussetzungen
 
-Passen Sie die Verzeichnispfade unbedingt nach Bedarf an.
+Bevor wir beginnen, müssen Sie einige Dinge vorbereitet haben:
 
-## Schritt 2: Laden der Excel-Arbeitsmappe
-Der nächste Schritt besteht darin, die Excel-Arbeitsmappe zu laden, zu der wir die digitale Xades-Signatur hinzufügen möchten. Hier ist der Code zum Laden der Arbeitsmappe:
+1.  Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können sie ganz einfach von der[Aspose-Website](https://releases.aspose.com/cells/net/).
+2. Entwicklungsumgebung: Eine funktionierende .NET-Entwicklungsumgebung (wie Visual Studio), in der Sie Ihren Code schreiben und ausführen können.
+3. Digitales Zertifikat: Sie benötigen ein gültiges digitales Zertifikat (PFX-Datei) mit Passwort. Dieses Zertifikat ist für die Erstellung der digitalen Signatur erforderlich.
+4. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, verstehen Sie die Beispiele besser.
 
-```csharp
-Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
-```
+Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Implementierung von Xades-Signaturen in Ihren Excel-Dateien beginnen!
 
-Stellen Sie sicher, dass Sie den Namen der Quelldatei im Code korrekt angeben.
+## Pakete importieren
 
-## Schritt 3: Konfigurieren der digitalen Signatur
-Jetzt konfigurieren wir die digitale Signatur von Xades, indem wir die erforderlichen Informationen bereitstellen. Wir müssen die PFX-Datei angeben, die das digitale Zertifikat enthält, sowie das zugehörige Passwort. Hier ist der entsprechende Code:
+Um mit Aspose.Cells für .NET zu arbeiten, müssen Sie die erforderlichen Namespaces importieren. So können Sie das tun:
 
 ```csharp
-string password = "pfxPassword";
-string pfx = "pfxFile";
-DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
-signature.XAdESType = XAdESType.XAdES;
+using Aspose.Cells.DigitalSignatures;
+using System;
+using System.IO;
 ```
 
-Ersetzen Sie unbedingt „pfxPassword“ durch Ihr tatsächliches Passwort und „pfxFile“ durch den Pfad zur PFX-Datei.
+Diese Namespaces bieten Zugriff auf die Klassen und Methoden, die zum Arbeiten mit Excel-Dateien und Verwalten digitaler Signaturen erforderlich sind.
 
-## Schritt 4: Hinzufügen der digitalen Signatur
-Nachdem wir nun die digitale Signatur konfiguriert haben, können wir sie der Excel-Arbeitsmappe hinzufügen. Hier ist der entsprechende Code:
+Nachdem wir nun alles eingerichtet haben, unterteilen wir den Vorgang des Hinzufügens einer Xades-Signatur zu einer Excel-Datei in klare, überschaubare Schritte.
 
-```csharp
-DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
-dsCollection.Add(signature);
-workbook.SetDigitalSignature(dsCollection);
-```
+## Schritt 1: Richten Sie Ihre Quell- und Ausgabeverzeichnisse ein
 
-In diesem Schritt wird die digitale Signatur von Xades zur Excel-Arbeitsmappe hinzugefügt.
+Zuerst müssen wir definieren, wo sich unsere Excel-Quelldatei befindet und wo wir die signierte Ausgabedatei speichern möchten. Dies ist ein entscheidender Schritt, da er dabei hilft, Ihre Dateien effizient zu organisieren.
 
-## Schritt 5: Speichern der Arbeitsmappe mit der Signatur
-Abschließend speichern wir die Excel-Arbeitsmappe mit der hinzugefügten digitalen Signatur. Hier ist der entsprechende Code:
-
-```csharp
-workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
-```
-
-Passen Sie den Namen der Ausgabedatei unbedingt Ihren Bedürfnissen an.
-
-### Beispielquellcode für Xades Signature Support mit Aspose.Cells für .NET 
 ```csharp
 //Quellverzeichnis
 string sourceDir = RunExamples.Get_SourceDirectory();
-//Ausgabe Verzeichnis
+// Ausgabeverzeichnis
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+
+ In diesem Codeausschnitt`RunExamples.Get_SourceDirectory()` Und`RunExamples.Get_OutputDirectory()` sind Methoden, die die Pfade zu Ihren Quell- bzw. Ausgabeverzeichnissen zurückgeben. Stellen Sie sicher, dass Sie diese durch die tatsächlichen Pfade ersetzen, wenn Sie diese Methoden nicht verwenden.
+
+## Schritt 2: Laden Sie die Arbeitsmappe
+
+Als Nächstes laden wir die Excel-Arbeitsmappe, die wir signieren möchten. Hier laden Sie Ihre vorhandene Excel-Datei.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
-string password = "pfxPassword";
-string pfx = "pfxFile";
+```
+
+ Hier erstellen wir eine neue Instanz des`Workbook` Klasse, wobei der Pfad der Excel-Quelldatei übergeben wird. Stellen Sie sicher, dass der Dateiname mit dem in Ihrem Quellverzeichnis übereinstimmt.
+
+## Schritt 3: Bereiten Sie Ihr digitales Zertifikat vor
+
+Um eine digitale Signatur zu erstellen, müssen Sie Ihr digitales Zertifikat laden. Dazu müssen Sie die PFX-Datei lesen und das entsprechende Passwort eingeben.
+
+```csharp
+string password = "pfxPassword"; // Ersetzen Sie es durch Ihr PFX-Passwort.
+string pfx = "pfxFile"; // Ersetzen Sie es durch den Pfad zu Ihrer PFX-Datei
+```
+
+ Ersetzen Sie in diesem Schritt`pfxPassword` mit Ihrem aktuellen Passwort und`pfxFile`mit dem Pfad zu Ihrer PFX-Datei. Dies ist der Schlüssel zum Signieren Ihres Dokuments!
+
+## Schritt 4: Erstellen der digitalen Signatur
+
+ Erstellen wir nun die digitale Signatur mit dem`DigitalSignature` Klasse. Hier geschieht die Magie!
+
+```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
+```
+
+ In diesem Snippet lesen wir die PFX-Datei in ein Byte-Array und erstellen ein neues`DigitalSignature` Objekt. Wir setzen auch die`XAdESType` Zu`XAdES`, die für unsere Unterschrift unabdingbar ist.
+
+## Schritt 5: Hinzufügen der Signatur zur Arbeitsmappe
+
+Nachdem die digitale Signatur erstellt wurde, besteht der nächste Schritt darin, sie der Arbeitsmappe hinzuzufügen.
+
+```csharp
 DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
 dsCollection.Add(signature);
 workbook.SetDigitalSignature(dsCollection);
+```
+
+ Hier erstellen wir eine`DigitalSignatureCollection`, fügen Sie unsere Signatur hinzu und legen Sie diese Sammlung dann in der Arbeitsmappe fest. So fügen wir die Signatur an die Excel-Datei an.
+
+## Schritt 6: Speichern Sie die signierte Arbeitsmappe
+
+Abschließend wird die signierte Arbeitsmappe im Ausgabeverzeichnis gespeichert. Damit ist der Vorgang abgeschlossen.
+
+```csharp
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 
+ In diesem Code speichern wir die Arbeitsmappe unter einem neuen Namen,`XAdESSignatureSupport_out.xlsx`, im Ausgabeverzeichnis. Sobald dieser Schritt abgeschlossen ist, wird in der Konsole eine Erfolgsmeldung angezeigt.
+
 ## Abschluss
-Herzlichen Glückwunsch! Sie haben gelernt, wie Sie mit der Aspose.Cells-Bibliothek für .NET einer Excel-Datei eine digitale Xades-Signatur hinzufügen. Wenn Sie die in diesem Artikel beschriebenen Schritte befolgen, können Sie diese Funktionalität in Ihren eigenen Projekten implementieren. Fühlen Sie sich frei, mehr mit der Bibliothek zu experimentieren und andere leistungsstarke Funktionen zu entdecken, die sie bietet.
 
-### FAQs
+Und da haben Sie es! Sie haben Ihrer Excel-Datei mithilfe von Aspose.Cells für .NET erfolgreich eine Xades-Signatur hinzugefügt. Dieser Vorgang erhöht nicht nur die Sicherheit Ihrer Dokumente, sondern schafft auch Vertrauen bei Ihren Benutzern, indem er die Authentizität Ihrer Dateien gewährleistet. 
+Digitale Signaturen sind ein wesentlicher Bestandteil des modernen Dokumentenmanagements und mit der Leistung von Aspose.Cells können Sie sie problemlos in Ihre Anwendungen implementieren.
 
-#### F: Was ist Xades?
+## Häufig gestellte Fragen
 
-A: Xades ist ein fortschrittlicher Standard für elektronische Signaturen, der die Integrität und Authentizität digitaler Dokumente gewährleistet.
+### Was ist die Signatur von Xades?
+Xades (XML Advanced Electronic Signatures) ist ein Standard für digitale Signaturen, der zusätzliche Funktionen zur Gewährleistung der Integrität und Authentizität elektronischer Dokumente bietet.
 
-#### F: Kann ich mit Aspose.Cells andere Arten digitaler Signaturen verwenden?
+### Benötige ich ein digitales Zertifikat, um eine Xades-Signatur zu erstellen?
+Ja, Sie benötigen ein gültiges digitales Zertifikat (PFX-Datei), um eine Xades-Signatur zu erstellen.
 
-A: Ja, Aspose.Cells unterstützt auch andere Arten digitaler Signaturen, wie XMLDSig-Signaturen und PKCS#7-Signaturen.
+### Kann ich Aspose.Cells für .NET vor dem Kauf testen?
+ Auf jeden Fall! Sie erhalten eine kostenlose Testversion von[Aspose-Website](https://releases.aspose.com/).
 
-#### F: Kann ich eine Signatur auf andere Dateitypen als Excel-Dateien anwenden?
- 
-A: Ja, Aspose.Cells ermöglicht auch die Anwendung digitaler Signaturen auf andere unterstützte Dateitypen wie Word-, PDF- und PowerPoint-Dateien.
+### Ist Aspose.Cells mit allen Versionen von .NET kompatibel?
+Aspose.Cells unterstützt verschiedene Versionen des .NET-Frameworks. Überprüfen Sie die[Dokumentation](https://reference.aspose.com/cells/net/) für Kompatibilitätsdetails.
+
+### Wo erhalte ich Unterstützung, wenn Probleme auftreten?
+ Besuchen Sie die[Aspose-Forum](https://forum.aspose.com/c/cells/9) für die Unterstützung und Hilfe der Community.

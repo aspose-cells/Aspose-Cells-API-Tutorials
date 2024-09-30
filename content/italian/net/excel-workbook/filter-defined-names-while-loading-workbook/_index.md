@@ -1,72 +1,109 @@
 ---
 title: Filtra i nomi definiti durante il caricamento della cartella di lavoro
 linktitle: Filtra i nomi definiti durante il caricamento della cartella di lavoro
-second_title: Aspose.Cells per riferimento API .NET
-description: Scopri come filtrare i nomi definiti durante il caricamento di una cartella di lavoro Excel con Aspose.Cells per .NET.
+second_title: Riferimento API Aspose.Cells per .NET
+description: In questa guida completa scoprirai come filtrare i nomi definiti durante il caricamento di una cartella di lavoro con Aspose.Cells per .NET.
 type: docs
 weight: 100
 url: /it/net/excel-workbook/filter-defined-names-while-loading-workbook/
 ---
-Quando si lavora con cartelle di lavoro di Excel in un'applicazione .NET, è spesso necessario filtrare i dati durante il caricamento. Aspose.Cells per .NET è una potente libreria per manipolare facilmente le cartelle di lavoro di Excel. In questa guida, ti mostreremo come filtrare i nomi definiti durante il caricamento di una cartella di lavoro utilizzando Aspose.Cells per .NET. Segui questi semplici passaggi per ottenere i risultati desiderati:
+## Introduzione
 
-## Passaggio 1: specificare le opzioni di caricamento
+Se ti stai addentrando nella manipolazione dei file Excel con Aspose.Cells per .NET, sei arrivato sulla pagina giusta! In questo articolo, esploreremo come filtrare i nomi definiti durante il caricamento di una cartella di lavoro, una delle tante potenti funzionalità di questa fantastica API. Che tu stia puntando a una gestione avanzata dei dati o che tu abbia semplicemente bisogno di un modo comodo per gestire i tuoi documenti Excel a livello di programmazione, questa guida ti coprirà.
 
-Innanzitutto è necessario specificare le opzioni di caricamento per definire il comportamento di caricamento della cartella di lavoro. Nel nostro caso, vogliamo ignorare i nomi impostati al momento del caricamento. Ecco come farlo utilizzando Aspose.Cells:
+## Prerequisiti
+
+Prima di immergerci, assicuriamoci di avere a disposizione tutti gli strumenti necessari. Ecco cosa ti serve:
+
+- Conoscenza di base della programmazione C#: è necessario avere familiarità con la sintassi e i concetti di programmazione.
+-  Aspose.Cells per la libreria .NET: assicurati di averla installata e pronta all'uso. Puoi scaricare la libreria da questo[collegamento](https://releases.aspose.com/cells/net/).
+- Visual Studio o qualsiasi IDE C#: un ambiente di sviluppo è fondamentale per scrivere e testare il codice.
+-  Esempio di file Excel: utilizzeremo un file Excel denominato`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`Puoi creare questo file manualmente o scaricarlo quando necessario.
+
+## Importa pacchetti
+
+Prima le cose importanti! Devi importare i namespace Aspose.Cells pertinenti. Ecco come fare:
 
 ```csharp
-// Specifica le opzioni di caricamento
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Questi namespace consentono di sfruttare tutta la potenza della libreria Aspose.Cells per manipolare efficacemente i file Excel.
+
+Analizziamo nel dettaglio il processo di filtraggio dei nomi definiti durante il caricamento di una cartella di lavoro in passaggi chiari e gestibili.
+
+## Passaggio 1: specificare le opzioni di carico
+
+La prima cosa che faremo è creare un'istanza di`LoadOptions` classe. Questa classe ci aiuterà a specificare come vogliamo caricare il nostro file Excel.
+
+```csharp
 LoadOptions opts = new LoadOptions();
-
-// Non caricare nomi definiti
-opts. LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-## Passaggio 2: caricare la cartella di lavoro
+ Qui, stiamo inizializzando un nuovo oggetto di`LoadOptions` classe. Questo oggetto consente varie configurazioni, che imposteremo nel passaggio successivo.
 
-Una volta configurate le opzioni di caricamento, è possibile caricare la cartella di lavoro di Excel dal file di origine. Assicurati di specificare il percorso file corretto. Ecco un codice di esempio:
+## Passaggio 2: imposta il filtro di caricamento
 
-```csharp
-// Carica la cartella di lavoro
-Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
-```
-
-## Passaggio 3: salva la cartella di lavoro filtrata
-
-Dopo aver caricato la cartella di lavoro, è possibile eseguire altre operazioni o modifiche secondo necessità. Quindi puoi salvare la cartella di lavoro filtrata in un file di output. Ecco come:
+Successivamente, dobbiamo definire quali dati vogliamo filtrare durante il caricamento della cartella di lavoro. In questo caso, vogliamo evitare di caricare i nomi definiti.
 
 ```csharp
-// Salva la cartella di lavoro Excel filtrata
-wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
-```
-
-### Codice sorgente di esempio per Filtra nomi definiti durante il caricamento della cartella di lavoro utilizzando Aspose.Cells per .NET 
-```csharp
-//Specificare le opzioni di caricamento
-LoadOptions opts = new LoadOptions();
-//Non vogliamo caricare nomi definiti
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
-//Carica la cartella di lavoro
+```
+
+La tilde (~) indica che vogliamo escludere i nomi definiti dal processo di caricamento. Questo è fondamentale se vuoi mantenere il tuo carico di lavoro leggero ed evitare dati non necessari che possono complicare la tua elaborazione.
+
+## Passaggio 3: caricare la cartella di lavoro
+
+Ora che le nostre opzioni di caricamento sono specificate, è il momento di caricare la cartella di lavoro stessa. Utilizza il codice seguente:
+
+```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
-//Salva il file Excel di output, interromperà la formula in C1
+```
+
+ In questa riga, stai creando una nuova istanza di`Workbook`classe, passando il percorso al tuo file Excel di esempio e le opzioni di caricamento. Questo carica la tua cartella di lavoro con i nomi definiti filtrati come specificato.
+
+## Passaggio 4: salvare il file di output
+
+Dopo aver caricato la cartella di lavoro come richiesto, il passo successivo è salvare l'output. Ricorda, poiché abbiamo filtrato i nomi definiti, è importante notare come questo potrebbe influenzare le tue formule esistenti.
+
+```csharp
 wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
+```
+
+Questa riga salva la tua nuova cartella di lavoro in una directory di output specificata. Se la tua cartella di lavoro originale conteneva formule che utilizzavano nomi definiti nei loro calcoli, tieni presente che queste formule potrebbero interrompersi a causa del filtraggio.
+
+## Passaggio 5: conferma dell'esecuzione
+
+Infine, possiamo confermare che la nostra operazione è andata a buon fine. È una buona norma fornire feedback nella tua console per assicurarti che tutto sia andato liscio.
+
+```csharp
 Console.WriteLine("FilterDefinedNamesWhileLoadingWorkbook executed successfully.");
 ```
 
+Con questa riga si fornisce una chiara indicazione che l'operazione è stata completata senza problemi.
+
 ## Conclusione
 
-Il filtraggio dei nomi definiti durante il caricamento di una cartella di lavoro di Excel può essere fondamentale per molte applicazioni. Aspose.Cells per .NET semplifica questo compito fornendo opzioni flessibili per caricare e filtrare i dati. Seguendo i passaggi di questa guida, sarai in grado di filtrare in modo efficace i nomi definiti e ottenere i risultati desiderati nelle cartelle di lavoro di Excel.
+Ed ecco fatto! Il filtraggio dei nomi definiti durante il caricamento di una cartella di lavoro con Aspose.Cells per .NET può essere ottenuto con pochi semplici passaggi. Questo processo è estremamente utile negli scenari in cui è necessario semplificare l'elaborazione dei dati o impedire che dati non necessari influiscano sui calcoli.
 
+Seguendo questa guida, puoi caricare con sicurezza i tuoi file Excel controllando quali dati vuoi escludere. Sia che tu stia sviluppando applicazioni che gestiscono grandi set di dati o implementando una logica aziendale specifica, padroneggiare questa funzionalità non farà che migliorare le tue capacità di manipolazione di Excel.
 
-### Domande frequenti
+## Domande frequenti
 
-#### D: Aspose.Cells supporta altri linguaggi di programmazione oltre a C#?
-    
-R: Sì, Aspose.Cells è una libreria multipiattaforma che supporta molti linguaggi di programmazione come Java, Python, C++e molti altri.
+### Che cos'è Aspose.Cells?
+Aspose.Cells è una potente libreria .NET che consente di creare, manipolare e gestire file Excel a livello di programmazione.
 
-#### D: Posso filtrare altri tipi di dati durante il caricamento di una cartella di lavoro con Aspose.Cells?
-    
-R: Sì, Aspose.Cells offre una gamma di opzioni di filtro per i dati tra cui formule, stili, macro, ecc.
+### Posso filtrare altri tipi di dati durante il caricamento di una cartella di lavoro?
+Sì, Aspose.Cells offre varie opzioni di caricamento per filtrare diversi tipi di dati, tra cui grafici, immagini e convalide dei dati.
 
-#### D: Aspose.Cells conserva la formattazione e le proprietà della cartella di lavoro originale?
-    
-R: Sì, Aspose.Cells mantiene la formattazione, gli stili, le formule e altre proprietà della cartella di lavoro originale quando si lavora con file Excel.
+### Cosa succede alle mie formule dopo aver filtrato i nomi definiti?
+Filtrare i nomi definiti può portare a formule non funzionanti se fanno riferimento a quei nomi. Dovrai adattare le tue formule di conseguenza.
+
+### È disponibile una prova gratuita per Aspose.Cells?
+ Sì, puoi ottenere una prova gratuita di Aspose.Cells per testarne le capacità prima di acquistarlo. Dai un'occhiata[Qui](https://releases.aspose.com/).
+
+### Dove posso trovare altri esempi e documentazione?
+ Puoi trovare una documentazione completa e altri esempi nella pagina di riferimento di Aspose.Cells[Qui](https://reference.aspose.com/cells/net/).

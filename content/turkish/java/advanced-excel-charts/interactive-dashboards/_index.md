@@ -1,8 +1,8 @@
 ---
-title: İnteraktif Kontrol Panelleri
-linktitle: İnteraktif Kontrol Panelleri
+title: Etkileşimli Panolar
+linktitle: Etkileşimli Panolar
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Etkileşimli Kontrol Panelleri Oluşturmayı öğrenin. Dinamik veri görselleştirmeleri oluşturmak için adım adım kılavuz.
+description: Java için Aspose.Cells ile Etkileşimli Panolar Oluşturmayı Öğrenin. Dinamik veri görselleştirmeleri oluşturmak için adım adım kılavuz.
 type: docs
 weight: 10
 url: /tr/java/advanced-excel-charts/interactive-dashboards/
@@ -10,24 +10,24 @@ url: /tr/java/advanced-excel-charts/interactive-dashboards/
 
 ## giriiş
 
-Veriye dayalı karar vermenin hızlı dünyasında, etkileşimli kontrol panelleri çok önemli bir rol oynamaktadır. Verileri görselleştirmek için dinamik ve sezgisel bir yol sağlayarak işletmelerin içgörü toplamasını ve bilinçli seçimler yapmasını kolaylaştırırlar. Aspose.Cells for Java, ham verileri anlamlı ve etkileşimli görselleştirmelere dönüştürebilen etkileşimli kontrol panelleri oluşturmak için güçlü bir araç seti sunar. Bu adım adım kılavuzda, sıfırdan etkileşimli kontrol panelleri oluşturmak için Aspose.Cells for Java'dan nasıl yararlanılacağını keşfedeceğiz.
+Veri odaklı karar alma süreçlerinin hızlı dünyasında, etkileşimli gösterge panelleri önemli bir rol oynar. Verileri görselleştirmek için dinamik ve sezgisel bir yol sunarak işletmelerin içgörüler elde etmesini ve bilinçli seçimler yapmasını kolaylaştırır. Aspose.Cells for Java, ham verileri anlamlı ve etkileşimli görselleştirmelere dönüştürebilen etkileşimli gösterge panelleri oluşturmak için güçlü bir araç seti sunar. Bu adım adım kılavuzda, sıfırdan etkileşimli gösterge panelleri oluşturmak için Aspose.Cells for Java'yı nasıl kullanacağınızı keşfedeceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Ayrıntılara dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Ayrıntılara girmeden önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Aspose.Cells for Java: Aspose.Cells for Java kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/cells/java/).
+-  Java için Aspose.Cells: Java için Aspose.Cells kitaplığını indirin ve yükleyin[Burada](https://releases.aspose.com/cells/java/).
 
 ## Projenizi Kurma
 
-Başlamak için tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi oluşturun ve Aspose.Cells for Java kütüphanesini projenizin sınıf yoluna ekleyin.
+Başlamak için, tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi oluşturun ve Aspose.Cells for Java kitaplığını projenizin sınıf yoluna ekleyin.
 
-## Boş Çalışma Kitabı Oluşturma
+## Boş Bir Çalışma Kitabı Oluşturma
 
-Etkileşimli kontrol panelimizin temelini oluşturacak boş bir Excel çalışma kitabı oluşturarak başlayalım.
+Etkileşimli panomuzun temelini oluşturacak boş bir Excel çalışma kitabı oluşturarak başlayalım.
 
 ```java
-// Aspose.Cells kütüphanesini içe aktarın
+// Aspose.Cells kitaplığını içe aktarın
 import com.aspose.cells.*;
 
 // Yeni bir çalışma kitabı oluştur
@@ -36,13 +36,13 @@ Workbook workbook = new Workbook();
 
 ## Veri Ekleme
 
-Kontrol panelimizi etkileşimli hale getirmek için verilere ihtiyacımız var. Örnek veriler oluşturabilir veya bunları harici bir kaynaktan alabilirsiniz. Bu örnek için bazı örnek veriler oluşturacağız.
+Pano'muzu etkileşimli hale getirmek için verilere ihtiyacımız var. Örnek verileri üretebilir veya harici bir kaynaktan alabilirsiniz. Bu örnek için bazı örnek veriler oluşturacağız.
 
 ```java
 // İlk çalışma sayfasına erişin
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Çalışma sayfasını verilerle doldurma
+// Çalışma sayfasını verilerle doldurun
 worksheet.getCells().get("A1").putValue("Month");
 worksheet.getCells().get("A2").putValue("January");
 worksheet.getCells().get("A3").putValue("February");
@@ -51,14 +51,14 @@ worksheet.getCells().get("A3").putValue("February");
 
 ## Etkileşimli Öğeler Oluşturma
 
-Şimdi kontrol panelimize grafikler, düğmeler ve açılır menüler gibi etkileşimli öğeler ekleyelim.
+Şimdi gösterge panelimize grafikler, butonlar ve açılır menüler gibi etkileşimli öğeler ekleyelim.
 
-### Grafik Ekleme
+### Bir Grafik Ekleme
 
-Grafikler verileri görsel olarak temsil etmenin harika bir yoludur. Basit bir sütun grafiği ekleyelim.
+Grafikler, verileri görsel olarak temsil etmenin harika bir yoludur. Basit bir sütun grafiği ekleyelim.
 
 ```java
-// Çalışma sayfasına sütun grafiği ekleme
+// Çalışma sayfasına bir sütun grafiği ekleyin
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
@@ -71,10 +71,10 @@ chart.getNSeries().add("A2:A13", true);
 
 ### Düğme Ekleme
 
-Düğmeler kontrol panelimizde eylemleri tetikleyebilir. Tıklandığında grafik verilerini güncelleyen bir buton ekleyelim.
+Düğmeler panomuzda eylemleri tetikleyebilir. Tıklandığında grafik verilerini güncelleyen bir düğme ekleyelim.
 
 ```java
-// Çalışma sayfasına düğme ekleme
+// Çalışma sayfasına bir düğme ekleyin
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
@@ -85,37 +85,37 @@ button.setHyperlink("Sheet1!A2");
 button.setLinkedCell("Sheet1!A3");
 ```
 
-## Kontrol Panelini Kaydetme ve Görüntüleme
+## Pano'yu Kaydetme ve Görüntüleme
 
-Kontrol panelinizi özelleştirdikten sonra onu bir Excel dosyası olarak kaydedin ve eklediğiniz öğelerle etkileşim kurmak için görüntüleyin.
+Pano'nuzu özelleştirdikten sonra, bunu bir Excel dosyası olarak kaydedin ve eklediğiniz öğelerle etkileşim kurmak için görüntüleyin.
 
 ```java
-// Çalışma kitabını Excel dosyası olarak kaydetme
+// Çalışma kitabını Excel dosyası olarak kaydedin
 workbook.save("InteractiveDashboard.xlsx");
 ```
 
 ## Çözüm
 
-Tebrikler! Aspose.Cells for Java'yı kullanarak etkileşimli kontrol panellerinin nasıl oluşturulacağını öğrendiniz. Bu güçlü kitaplık, karar verme süreçlerinizi geliştirerek dinamik ve ilgi çekici veri görselleştirmeleri oluşturmanıza olanak tanır. Özel ihtiyaçlarınıza göre uyarlanmış kontrol panelleri oluşturmak için çeşitli grafik türlerini, etkileşim seçeneklerini ve tasarım öğelerini deneyin.
+Tebrikler! Java için Aspose.Cells kullanarak etkileşimli panolar oluşturmayı öğrendiniz. Bu güçlü kütüphane, karar alma süreçlerinizi geliştirerek dinamik ve ilgi çekici veri görselleştirmeleri oluşturmanıza olanak tanır. Belirli ihtiyaçlarınıza göre uyarlanmış panolar oluşturmak için çeşitli grafik türleri, etkileşim seçenekleri ve tasarım öğeleriyle deneyler yapın.
 
-## SSS'ler
+## SSS
 
 ### Grafiklerimin görünümünü nasıl özelleştirebilirim?
 
 Aspose.Cells for Java'nın API'sini kullanarak başlıklar, etiketler, renkler ve stiller gibi çeşitli grafik özelliklerine erişerek grafik görünümünü özelleştirebilirsiniz.
 
-### Harici kaynaklardan gelen verileri kontrol panelime entegre edebilir miyim?
+### Dış kaynaklardan gelen verileri gösterge paneline entegre edebilir miyim?
 
-Evet, Aspose.Cells for Java, veritabanları ve harici dosyalar da dahil olmak üzere çeşitli kaynaklardan verileri içe aktarmanıza ve bunları kontrol panelinize eklemenize olanak tanır.
+Evet, Java için Aspose.Cells, veritabanları ve harici dosyalar da dahil olmak üzere çeşitli kaynaklardan veri içe aktarmanıza ve bunları panonuza eklemenize olanak tanır.
 
 ### Ekleyebileceğim etkileşimli öğelerin sayısında herhangi bir sınırlama var mı?
 
-Kontrol panelinize ekleyebileceğiniz etkileşimli öğelerin sayısı, mevcut bellek ve sistem kaynaklarıyla sınırlıdır. Kontrol panelinizi tasarlarken performans hususlarını göz önünde bulundurun.
+Panonuza ekleyebileceğiniz etkileşimli öğelerin sayısı, kullanılabilir bellek ve sistem kaynaklarıyla sınırlıdır. Panonuzu tasarlarken performans hususlarını göz önünde bulundurun.
 
-### Etkileşimli kontrol panelimi PDF veya HTML gibi diğer formatlara aktarabilir miyim?
+### Etkileşimli panomu PDF veya HTML gibi diğer formatlara aktarabilir miyim?
 
-Evet, Aspose.Cells for Java, etkileşimli kontrol panelinizi PDF ve HTML de dahil olmak üzere çeşitli formatlara aktarma olanağı sunarak daha geniş bir kitlenin erişebilmesini sağlar.
+Evet, Aspose.Cells for Java, etkileşimli panonuzu PDF ve HTML dahil olmak üzere çeşitli formatlara aktarma olanağı sunarak daha geniş bir kitleye ulaşmasını sağlar.
 
-### Aspose.Cells for Java büyük ölçekli veri görselleştirme projelerine uygun mu?
+### Aspose.Cells for Java büyük ölçekli veri görselleştirme projeleri için uygun mudur?
 
-Evet, Aspose.Cells for Java hem küçük hem de büyük ölçekli veri görselleştirme projeleri için çok uygundur. Esnekliği ve kapsamlı özellikleri, onu farklı gereksinimler için sağlam bir seçim haline getiriyor.
+Evet, Aspose.Cells for Java hem küçük ölçekli hem de büyük ölçekli veri görselleştirme projeleri için oldukça uygundur. Esnekliği ve kapsamlı özellik seti onu çeşitli gereksinimler için sağlam bir seçim haline getirir.

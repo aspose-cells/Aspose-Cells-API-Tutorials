@@ -1,145 +1,144 @@
 ---
-title: Permitir al usuario editar rangos en la hoja de cálculo de Excel
-linktitle: Permitir al usuario editar rangos en la hoja de cálculo de Excel
+title: Permitir al usuario editar rangos en una hoja de cálculo de Excel
+linktitle: Permitir al usuario editar rangos en una hoja de cálculo de Excel
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Permita a los usuarios editar rangos específicos en una hoja de cálculo de Excel usando Aspose.Cells para .NET. Guía paso a paso con código fuente en C#.
+description: Permitir a los usuarios editar rangos específicos en una hoja de cálculo de Excel mediante Aspose.Cells para .NET. Guía paso a paso con código fuente en C#.
 type: docs
 weight: 10
 url: /es/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
-En esta guía, le explicaremos cómo utilizar Aspose.Cells para .NET para permitir al usuario editar rangos específicos en una hoja de cálculo de Excel. Siga los pasos a continuación para realizar esta tarea.
+## Introducción
 
-## Paso 1: configurar el entorno
+Cuando se trata de trabajar con hojas de cálculo de Excel, la flexibilidad suele ser clave, especialmente cuando varios usuarios necesitan acceso para editar áreas específicas sin comprometer la integridad de los datos de toda la hoja. ¡Aquí es donde Aspose.Cells para .NET brilla! En este tutorial, analizaremos en profundidad cómo permitir que los usuarios editen determinados rangos dentro de una hoja de cálculo de Excel y, al mismo tiempo, proteger el resto del documento. Al final de este artículo, no solo comprenderá los conceptos, sino que también tendrá un ejemplo tangible con el que trabajar. 
 
-Asegúrese de haber configurado su entorno de desarrollo e instalado Aspose.Cells para .NET. Puede descargar la última versión de la biblioteca desde el sitio web oficial de Aspose.
+## Prerrequisitos
 
-## Paso 2: importar los espacios de nombres necesarios
+Antes de entrar en materia, asegurémonos de que tienes todo lo que necesitas para comenzar:
 
-En su proyecto C#, importe los espacios de nombres necesarios para trabajar con Aspose.Cells:
+1. Entorno de desarrollo .NET: debe tener configurado un entorno de desarrollo .NET en funcionamiento (puede ser Visual Studio o cualquier otro IDE de su elección).
+2.  Biblioteca Aspose.Cells para .NET: Descargue e instale la biblioteca Aspose.Cells. Puede encontrarla[aquí](https://releases.aspose.com/cells/net/).
+3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a navegar por los ejemplos de código fácilmente.
+4. Comprender los conceptos básicos de Excel: saber cómo funciona Excel proporcionará una base para las funcionalidades que analizaremos.
+
+¡Una vez que hayas cumplido con estos requisitos previos, estarás listo para comenzar!
+
+## Importar paquetes
+
+Antes de comenzar a codificar, debemos asegurarnos de que nuestro proyecto reconozca el espacio de nombres Aspose.Cells. A continuación, se muestra cómo importar los paquetes necesarios:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Paso 3: configurar la ruta al directorio de documentos
+Ahora que hemos importado lo que necesitamos, profundicemos en nuestro tutorial paso a paso.
 
- Declarar un`dataDir` variable para especificar la ruta al directorio donde desea guardar el archivo de Excel generado:
+## Paso 1: Configurar el directorio de documentos
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
-
- Asegúrate de reemplazar`"YOUR_DOCUMENT_DIRECTORY"` con la ruta correcta en su sistema.
-
-## Paso 4: crear un objeto de libro de trabajo
-
-Cree una instancia de un nuevo objeto Libro de trabajo que represente el libro de Excel que desea crear:
+Para cualquier operación con archivos, es fundamental tener una ubicación definida donde se guardarán nuestros documentos. Configuremos nuestro directorio de trabajo para almacenar los archivos de Excel.
 
 ```csharp
-Workbook book = new Workbook();
-```
-
-## Paso 5: Acceso a la primera hoja de trabajo
-
-Navegue a la primera hoja de trabajo del libro de Excel usando el siguiente código:
-
-```csharp
-Worksheet sheet = book.Worksheets[0];
-```
-
-## Paso 6: Recuperar rangos de modificación autorizados
-
- Obtenga la colección de rangos de edición permitidos usando el`AllowEditRanges` propiedad:
-
-```csharp
-ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-```
-
-## Paso 7: definir un rango protegido
-
- Defina un rango protegido usando el`Add` método de la`AllowEditRanges` recopilación:
-
-```csharp
-int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-protectedRange protectedRange = allowRanges[idx];
-```
-
-Aquí hemos creado un rango protegido "r2" que se extiende desde la celda A1 hasta la celda C3.
-
-## Paso 8: especificar la contraseña
-
- Especifique una contraseña para el rango protegido usando el`Password` propiedad:
-
-```csharp
-protectedRange.Password = "YOUR_PASSWORD";
-```
-
- Asegúrate de reemplazar`"YOUR_PASSWORD"` con la contraseña deseada.
-
-## Paso 9: Proteger la hoja de trabajo
-
- Proteja la hoja de trabajo usando el`Protect` método de la`Worksheet` objeto:
-
-```csharp
-sheet.Protect(ProtectionType.All);
-```
-
-Esto protegerá la hoja de cálculo evitando cualquier modificación fuera de los rangos permitidos.
-
-## Paso 10: Registrar el
-
-  archivo Excel
-
- Guarde el archivo Excel generado usando el`Save` método de la`Workbook` objeto:
-
-```csharp
-book.Save(dataDir + "protectedrange.out.xls");
-```
-
-Asegúrese de especificar el nombre del archivo deseado y la ruta correcta.
-
-### Código fuente de muestra para permitir al usuario editar rangos en una hoja de cálculo de Excel usando Aspose.Cells para .NET 
-```csharp
-//La ruta al directorio de documentos.
+// La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Cree un directorio si aún no está presente.
+
+// Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
+```
+
+ Primero, reemplace`"YOUR DOCUMENT DIRECTORY"`con la ruta donde quieres que se guarden tus archivos. Este código comprueba si el directorio existe; si no existe, crea uno.
+
+## Paso 2: Crear una instancia de un nuevo libro de trabajo
+
+Con nuestro directorio de trabajo listo, es momento de crear nuestro libro de Excel. 
+
+```csharp
 // Crear una instancia de un nuevo libro de trabajo
 Workbook book = new Workbook();
+```
+
+ Aquí, estamos creando una nueva instancia de`Workbook` clase proporcionada por Aspose.Cells, que nos permite manipular el archivo Excel.
+
+## Paso 3: Acceda a la hoja de cálculo predeterminada
+
+Cada libro de trabajo recién creado incluye al menos una hoja de trabajo. Accedamos a ella.
+
+```csharp
 // Obtenga la primera hoja de trabajo (predeterminada)
 Worksheet sheet = book.Worksheets[0];
-// Obtenga Permitir rangos de edición
+```
+
+En este fragmento de código, accedemos a la primera hoja de trabajo de nuestro libro, que manipularemos en los pasos siguientes.
+
+## Paso 4: Obtener rangos de edición permitidos
+
+ Para habilitar rangos específicos de la hoja de cálculo para su edición, necesitamos acceder a la`AllowEditRanges` propiedad.
+
+```csharp
+// Obtener los rangos de edición permitidos
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-// Definir rango protegido
+```
+
+Esta colección nos permitirá administrar qué rangos son editables en nuestra hoja de cálculo.
+
+## Paso 5: Definir el rango protegido
+
+continuación, definamos qué parte de la hoja de cálculo queremos proteger y al mismo tiempo permitir ediciones en un rango específico.
+
+```csharp
+// Definir ProtectedRange
 ProtectedRange proteced_range;
+
 // Crear el rango
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
+
 // Especifique la contraseña
 proteced_range.Password = "123";
-// proteger la hoja
+```
+
+En este paso, agregamos un nuevo rango editable llamado "r2" que permite realizar ediciones en las celdas desde la fila 1 columna 1 hasta la fila 3 columna 3. Además, configuramos una contraseña para proteger este rango, garantizando así que solo los usuarios autorizados puedan modificarlo.
+
+## Paso 6: Proteger la hoja de trabajo
+
+Ahora que hemos configurado nuestro rango editable, necesitamos proteger la hoja de cálculo.
+
+```csharp
+// Proteger la hoja
 sheet.Protect(ProtectionType.All);
-// Guarde el archivo de Excel
+```
+
+Este código protegerá la totalidad de la hoja de cálculo contra cualquier cambio no deseado, excepto el rango que acabamos de especificar.
+
+## Paso 7: Guarde el archivo Excel
+
+Guardemos el libro de trabajo para que podamos ver nuestros cambios reflejados en un archivo de Excel.
+
+```csharp
+// Guardar el archivo Excel
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+Asegúrate de ajustar el nombre del archivo según sea necesario. Esto creará un archivo de Excel en el directorio especificado con la configuración que hemos configurado.
+
 ## Conclusión
 
-Ahora ha aprendido a utilizar Aspose.Cells para .NET para permitir al usuario editar rangos específicos en una hoja de cálculo de Excel. No dude en explorar más a fondo las funciones que ofrece Aspose.Cells para satisfacer sus necesidades específicas.
+¡Y ya está! Ha creado con éxito una hoja de cálculo de Excel que restringe las modificaciones a un rango designado y, al mismo tiempo, protege el resto de la hoja. El uso de Aspose.Cells para .NET hace que la gestión de este tipo de tareas sea mucho más sencilla y eficiente. Tanto si está desarrollando una aplicación compleja como si solo necesita gestionar datos de forma segura, estas funciones pueden mejorar significativamente su flujo de trabajo.
 
+## Preguntas frecuentes
 
-### Preguntas frecuentes
+### ¿Qué es Aspose.Cells?
+Aspose.Cells es una potente biblioteca .NET para manejar archivos Excel, que ofrece funcionalidades como crear, editar y convertir hojas de cálculo mediante programación.
 
-#### 1. ¿Cómo permitir que el usuario edite rangos específicos en una hoja de cálculo de Excel?
+### ¿Puedo aplicar múltiples rangos editables?
+ ¡Por supuesto! Puedes llamar al`Add` método en el`allowRanges` Recopilar varias veces para especificar múltiples rangos editables.
 
- Puedes usar el`ProtectedRangeCollection` clase para definir los rangos de modificación permitidos. Utilizar el`Add` Método para crear un nuevo rango protegido con las celdas deseadas.
+### ¿Qué pasa si olvido la contraseña?
+Lamentablemente, si olvida la contraseña de un rango editable, deberá eliminar la protección o acceder al archivo de una manera predefinida que puede implicar credenciales.
 
-#### 2. ¿Puedo establecer una contraseña para los rangos de modificación autorizados?
+### ¿Existe una versión gratuita de Aspose.Cells?
+Sí, Aspose ofrece una prueba gratuita que puedes utilizar para explorar las funciones antes de comprar.
 
- Sí, puede especificar una contraseña utilizando el`Password` propiedad de la`ProtectedRange` objeto. Esto restringirá el acceso sólo a los usuarios con la contraseña.
-
-#### 3. ¿Cómo protejo la hoja de cálculo una vez establecidos los rangos permitidos?
-
- Utilizar el`Protect` método de la`Worksheet` objeto para proteger la hoja de trabajo. Esto evitará cualquier cambio fuera de los rangos permitidos, posiblemente solicitando una contraseña si especificó una.
+### ¿Dónde puedo encontrar más información sobre Aspose.Cells?
+ Puedes comprobarlo[documentación](https://reference.aspose.com/cells/net/) para guías detalladas y referencias.

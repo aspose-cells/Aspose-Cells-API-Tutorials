@@ -2,104 +2,136 @@
 title: Läs och skriv extern anslutning av XLSB-fil
 linktitle: Läs och skriv extern anslutning av XLSB-fil
 second_title: Aspose.Cells för .NET API-referens
-description: Lär dig hur du läser och ändrar de externa anslutningarna för en XLSB-fil med Aspose.Cells för .NET.
+description: Lär dig hur du hanterar externa anslutningar i XLSB-filer med Aspose.Cells för .NET i denna omfattande handledning.
 type: docs
 weight: 130
 url: /sv/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 ---
-Att läsa och skriva externa anslutningar till en XLSB-fil är viktigt för att manipulera data från externa källor i dina Excel-arbetsböcker. Med Aspose.Cells för .NET kan du enkelt läsa och skriva externa anslutningar genom att använda följande steg:
+## Introduktion
 
-## Steg 1: Ange källkatalog och utdatakatalog
+Hej alla Excel-entusiaster! Är du redo att dyka in i den fascinerande världen av XLSB-filer och externa anslutningar? Om du någonsin har arbetat med Excel vet du hur kraftfullt och mångsidigt det kan vara, men ibland kommer det med sina egenheter – särskilt när det gäller anslutningar till externa databaser. Det är där Aspose.Cells för .NET kommer till undsättning! Detta fiffiga bibliotek låter dig manipulera Excel-filer på ett enkelt sätt. I den här artikeln går vi igenom en steg-för-steg-guide om hur du läser och skriver externa anslutningar i en XLSB-fil.
 
-Först måste du ange källkatalogen där XLSB-filen som innehåller den externa anslutningen finns, samt utdatakatalogen där du vill spara den ändrade filen. Så här gör du med Aspose.Cells:
+## Förutsättningar
+
+Innan vi börjar, här är några saker du behöver:
+
+1. Grundläggande kunskaper om C#: Att känna sig runt C#-programmeringsspråket kommer att hjälpa oerhört. Om du är bekväm med att skriva C#-kod är du bra att gå!
+2.  Aspose.Cells för .NET: Du måste ha detta bibliotek installerat i din utvecklingsmiljö. Om du inte har gjort det ännu kan du enkelt ladda ner det[här](https://releases.aspose.com/cells/net/). 
+3. En IDE: Du behöver en kodredigerare eller en Integrated Development Environment (IDE) som Visual Studio. 
+4. Exempel på XLSB-fil: Vi kommer att arbeta med en XLSB-exempelfil som innehåller externa anslutningar. Du kan skapa dina egna eller ladda ner prover online. 
+
+När du har alla dessa förutsättningar på plats är vi redo att hoppa in i koden!
+
+## Importera paket
+
+Till att börja med, låt oss importera de nödvändiga paketen i vårt projekt. Se till att du har lagt till en referens till Aspose.Cells i ditt projekt. Så här kan du göra det i C#:
 
 ```csharp
-// källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
 
+Dessa importer ger dig tillgång till den funktionalitet du behöver för att manipulera Excel-filer och deras anslutningar.
+
+## Steg 1: Konfigurera kataloger
+
+Innan du arbetar med din XLSB-fil måste du ställa in dina käll- och utdatakataloger. Detta steg är viktigt för att hålla dina filer organiserade.
+
+```csharp
+//Källkatalog
+string sourceDir = RunExamples.Get_SourceDirectory();
 // Utdatakatalog
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-## Steg 2: Ladda källfilen för Excel XLSB
+ I det här kodavsnittet`RunExamples.Get_SourceDirectory()` och`RunExamples.Get_OutputDirectory()`antas hämta respektive sökväg för var dina in- och utdatafiler kommer att finnas. Du kan ersätta dessa metoder med hårdkodade sökvägar om du föredrar det.
 
-Därefter måste du ladda källfilen för Excel XLSB som du vill utföra läs- och skrivoperationer för extern anslutning. Här är en exempelkod:
+## Steg 2: Ladda XLSB-filen
+
+Nu är det dags att ladda din Excel-fil till ett arbetsboksobjekt. Detta ger dig möjlighet att manipulera data inom.
 
 ```csharp
-// Ladda källfilen för Excel XLSB
+// Ladda källfilen Excel Xlsb
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
 
-## Steg 3: Läs och ändra den externa anslutningen
+ Se bara till att din XLSB-fil finns i det angivna`sourceDir`. Om sökvägen är korrekt kommer din arbetsbok att vara redo för manipulation!
 
-Efter att ha laddat filen kan du komma åt den första externa anslutningen som egentligen är en databasanslutning. Du kan läsa och ändra olika egenskaper för den externa anslutningen. Här är hur:
+## Steg 3: Få åtkomst till externa anslutningar
+
+Med arbetsboken laddad kan du komma åt dess externa anslutningar. I vårt fall kommer vi att hämta den första databasanslutningen.
 
 ```csharp
-// Läs den första externa anslutningen som är en databasanslutning
+// Läs den första externa anslutningen som egentligen är en DB-Anslutning
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
-
-// Visa databasanslutningens namn, kommando och anslutningsinformation
-Console.WriteLine("Connection name: " + dbCon.Name);
-Console.WriteLine("Command: " + dbCon.Command);
-Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
-
-// Ändra namnet på anslutningen
-dbCon.Name = "NewCustomer";
 ```
 
-## Steg 4: Spara den utgående Excel XLSB-filen
+ Här,`DataConnections[0]` hänvisar till den första kopplingen i arbetsboken. Vi gjuter det som en`DBConnection` typ för ytterligare manipulation.
 
-När du har gjort de nödvändiga ändringarna kan du spara den modifierade Excel XLSB-filen i den angivna utdatakatalogen. Så här gör du:
+## Steg 4: Extrahera anslutningsinformation
+
+Nu när du har tillgång till databasanslutningen, låt oss extrahera och skriva ut dess detaljer till konsolen. Detta hjälper oss att se exakt vad vi arbetar med.
 
 ```csharp
-// Spara den utgående Excel XLSB-filen
-wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
-Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
-```
-
-### Exempel på källkod för läs och skriv extern anslutning av XLSB-fil med Aspose.Cells för .NET 
-```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
-//Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
-//Ladda källfilen Excel Xlsb
-Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
-//Läs den första externa anslutningen som egentligen är en DB-Anslutning
-Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
-//Skriv ut namn, kommando och anslutningsinformation för DB-anslutningen
+// Skriv ut namn, kommando och anslutningsinformation för DB-anslutningen
 Console.WriteLine("Connection Name: " + dbCon.Name);
 Console.WriteLine("Command: " + dbCon.Command);
 Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
-//Ändra anslutningsnamnet
+```
+
+Detta steg låter dig verifiera det aktuella tillståndet för din externa anslutning. Du kommer att se anslutningsnamnet, det använda kommandot och anslutningsinformationen utskriven till konsolen.
+
+## Steg 5: Ändra anslutningen
+
+Ibland är ett namnbyte allt som behövs för att göra saker tydligare eller för att matcha nya namnkonventioner. Låt oss ändra det befintliga anslutningsnamnet till något mer relevant.
+
+```csharp
+// Ändra anslutningsnamnet
 dbCon.Name = "NewCust";
-//Spara Excel Xlsb-filen
+```
+
+Denna kodrad byter effektivt namn på din anslutning från dess ursprungliga namn till "NewCust". Det är en enkel men ändå effektfull förändring!
+
+## Steg 6: Spara dina ändringar
+
+När du har gjort ändringar vill du spara dina ändringar tillbaka till XLSB-filen. Så här gör du:
+
+```csharp
+// Spara Excel Xlsb-filen
 wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
+```
+
+Den här kodraden sparar din uppdaterade arbetsbok och behåller alla dina ändringar, inklusive det nya anslutningsnamnet.
+
+## Steg 7: Bekräfta exekvering
+
+Låt oss slutligen bekräfta att allt fungerade smidigt. Ett enkelt meddelande i slutet kommer att göra det tydligt.
+
+```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
 ```
 
+Detta meddelande kommer att försäkra dig om att din kod kördes framgångsrikt och att alla ändringar sparades som förväntat.
+
 ## Slutsats
 
-Genom att läsa och skriva externa anslutningar till en XLSB-fil kan du manipulera data från externa källor i dina Excel-arbetsböcker. Med Aspose.Cells för .NET kan du enkelt komma åt externa anslutningar, läsa och ändra anslutningsinformation och spara ändringar. Experimentera med dina egna XLSB-filer och utnyttja kraften i externa anslutningar i dina Excel-program.
+Och där har du det! Du har framgångsrikt lärt dig hur man läser och skriver externa anslutningar i XLSB-filer med Aspose.Cells för .NET. Genom att följa dessa steg kan du effektivt hantera dina Excel-dataanslutningar, vilket gör ditt arbete med Excel mycket mer strömlinjeformat och mindre frustrerande. Kom ihåg att oavsett om du hanterar omfattande datauppsättningar eller bara organiserar din information, har Aspose.Cells de verktyg du behöver.
 
-### Vanliga frågor
+## FAQ's
 
-#### F: Vad är en extern anslutning i en XLSB-fil?
-    
-S: En extern anslutning i en XLSB-fil hänvisar till en anslutning som upprättats med en extern datakälla såsom en databas. Det låter dig importera data från denna externa källa till Excel-arbetsboken.
+### Vad är en XLSB fil?  
+En XLSB-fil är ett binärt Excel-filformat som lagrar kalkylbladsdata i ett binärt format, vilket gör det mer kompakt och snabbare att öppna.
 
-#### F: Kan jag ha flera externa anslutningar i en XLSB-fil?
-     
-S: Ja, du kan ha flera externa anslutningar i en XLSB-fil. Du kan hantera dem individuellt genom att komma åt varje anslutningsobjekt.
+### Hur installerar jag Aspose.Cells för .NET?  
+Du kan enkelt ladda ner den från Asposes webbplats[här](https://releases.aspose.com/cells/net/).
 
-#### F: Hur kan jag läsa detaljerna för en extern anslutning i en XLSB-fil med Aspose.Cells?
-     
-S: Du kan använda funktionerna som tillhandahålls av Aspose.Cells för att komma åt egenskaper för en extern anslutning, såsom anslutningsnamn, tillhörande kommando och anslutningsinformation.
+### Kan jag använda Aspose.Cells gratis?  
+ Ja! Du kan börja med en gratis provperiod, som är tillgänglig[här](https://releases.aspose.com/).
 
-#### F: Är det möjligt att modifiera en extern anslutning i en XLSB-fil med Aspose.Cells?
-     
-S: Ja, du kan ändra egenskaperna för en extern anslutning, till exempel anslutningens namn, för att möta dina specifika behov. Aspose.Cells tillhandahåller metoder för att göra dessa ändringar.
+### Stöder Aspose.Cells andra filformat?  
+Absolut! Aspose.Cells stöder en mängd olika filformat, inklusive XLSX, CSV och mer.
 
-#### F: Hur kan jag spara ändringar som gjorts på en extern anslutning till en XLSB-fil med Aspose.Cells?
-     
-S: När du har gjort de nödvändiga ändringarna i en extern anslutning kan du helt enkelt spara den modifierade Excel XLSB-filen med hjälp av lämplig metod från Aspose.Cells.
+### Var kan jag söka hjälp om jag stöter på problem?  
+ Du kan få stöd från Aspose-forumen[här](https://forum.aspose.com/c/cells/9).

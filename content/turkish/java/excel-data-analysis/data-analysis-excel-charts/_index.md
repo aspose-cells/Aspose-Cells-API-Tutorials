@@ -2,7 +2,7 @@
 title: Veri Analizi Excel Grafikleri
 linktitle: Veri Analizi Excel Grafikleri
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Veri Analizinde Mükemmelliğin Kilidini Açın. Çarpıcı Excel Grafikleri ve Raporları oluşturun.
+description: Java için Aspose.Cells ile Veri Analizinde Mükemmelliğin Kilidini Açın. Çarpıcı Excel Grafikleri ve Raporları Oluşturun.
 type: docs
 weight: 15
 url: /tr/java/excel-data-analysis/data-analysis-excel-charts/
@@ -10,37 +10,37 @@ url: /tr/java/excel-data-analysis/data-analysis-excel-charts/
 
 ## giriiş
 
-Veri analizi dünyasında Excel güçlü bir araç olmaya devam ediyor. Kullanıcıların verileri kolaylıkla işlemesine ve görselleştirmesine olanak tanır. Excel dosyalarıyla çalışmaya özel bir API olan Aspose.Cells for Java, veri analizini bir sonraki seviyeye taşıyor. Bu makalede, veri analizi gerçekleştirmek ve ilgi çekici Excel grafiklerini adım adım oluşturmak için Aspose.Cells for Java'nın nasıl kullanılacağını inceleyeceğiz.
+Veri analizi dünyasında Excel güçlü bir araç olmaya devam ediyor. Kullanıcıların verileri kolayca işlemesine ve görselleştirmesine olanak tanır. Excel dosyalarıyla çalışmaya adanmış bir API olan Aspose.Cells for Java, veri analizini bir üst seviyeye taşır. Bu makalede, adım adım veri analizi yapmak ve ilgi çekici Excel grafikleri oluşturmak için Aspose.Cells for Java'nın nasıl kullanılacağını inceleyeceğiz.
 
-## Önkoşullar
+## Ön koşullar
 
-Aspose.Cells for Java ile veri analizi dünyasına dalmadan önce aşağıdaki önkoşulları yerine getirmeniz gerekir:
+Aspose.Cells for Java ile veri analizi dünyasına dalmadan önce, aşağıdaki ön koşulların mevcut olması gerekir:
 
-- Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan emin olun.
+- Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
 
--  Aspose.Cells for Java: Aspose.Cells for Java kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/cells/java/).
+-  Java için Aspose.Cells: Java için Aspose.Cells kitaplığını indirin ve yükleyin[Burada](https://releases.aspose.com/cells/java/).
 
-- Veri Kaynağı: Analize hazır bir veri kümesi bulundurun. CSV dosyası veya veritabanı gibi herhangi bir veri kaynağını kullanabilirsiniz.
+- Veri Kaynağı: Analiz için hazır bir veri setiniz olsun. CSV dosyası veya veritabanı gibi herhangi bir veri kaynağını kullanabilirsiniz.
 
 ## Projenizi Kurma
 
-Aspose.Cells for Java ile veri analizi yolculuğumuza başlamak için şu adımları izleyin:
+Java için Aspose.Cells ile veri analizi yolculuğumuza başlamak için şu adımları izleyin:
 
-1. Java Projesi Oluşturun: Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi oluşturarak başlayın.
+1. Bir Java Projesi Oluşturun: Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi oluşturarak başlayın.
 
-2. Aspose.Cells for Java Kütüphanesini Ekle: Aspose.Cells for Java kütüphanesini sınıf yoluna ekleyerek projenize dahil edin.
+2. Aspose.Cells for Java Kütüphanesini Ekleyin: Aspose.Cells for Java kütüphanesini sınıf yoluna ekleyerek projenize ekleyin.
 
-3. Aspose.Cells Sınıflarını İçe Aktar: Java dosyanızın başlangıcında gerekli Aspose.Cells sınıflarını içe aktarın.
+3. Aspose.Cells Sınıflarını İçe Aktar: Java dosyanızın başına gerekli Aspose.Cells sınıflarını içe aktarın.
 
-## Veri yükleniyor
+## Veriler yükleniyor
 
-Veri analizinin ilk adımı verilerinizi Java uygulamanıza yüklemektir. Aspose.Cells for Java bunu yapmanın çeşitli yollarını sunar:
+Veri analizindeki ilk adım, verilerinizi Java uygulamanıza yüklemektir. Java için Aspose.Cells bunu yapmanın çeşitli yollarını sunar:
 
 ```java
 // CSV dosyasından veri yükleme
 Workbook workbook = new Workbook("data.csv");
 
-// Veritabanından veri yükleme
+// Bir veritabanından veri yükleme
 String connectionString = "jdbc:your_database_connection_string";
 String query = "SELECT * FROM your_table";
 QueryTable queryTable = workbook.getWorksheets().get(0).getQueryTables().addQueryTable(query, connectionString);
@@ -48,41 +48,41 @@ QueryTable queryTable = workbook.getWorksheets().get(0).getQueryTables().addQuer
 
 ## Veri Manipülasyonu
 
-Verileriniz yüklendikten sonra Aspose.Cells for Java'yı kullanarak verileri değiştirebilirsiniz. Verilerinizi analize hazırlamak için sıralama, filtreleme ve veri dönüştürme gibi işlemleri gerçekleştirin.
+Verileriniz yüklendikten sonra, Aspose.Cells for Java kullanarak bunları işleyebilirsiniz. Verilerinizi analize hazırlamak için sıralama, filtreleme ve veri dönüştürme gibi işlemler gerçekleştirin.
 
 ```java
-// Verileri belirli bir sütuna göre sıralama
+// Verileri belirli bir sütuna göre sırala
 worksheet.getCells().sort(0, true);
 
-// Belirli verileri görüntülemek için filtre uygulama
+// Belirli verileri görüntülemek için bir filtre uygulayın
 AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange("A1:D1");
 
-//Veri dönüşümü gerçekleştirin
-// (örn. para birimi dönüştürme, yüzde hesaplama)
+//Veri dönüşümünü gerçekleştirin
+// (örneğin, para birimi dönüştürme, yüzde hesaplama)
 ```
 
 ## Excel Grafikleri Oluşturma
 
-Şimdi işin heyecan verici kısmına geçelim; işlenmiş verilerinizi kullanarak Excel grafikleri oluşturmaya. Aspose.Cells for Java, basit çubuk grafiklerden karmaşık radar grafiklerine kadar çok çeşitli grafik türleri sunar.
+Şimdi heyecan verici kısma geçelim: İşlenmiş verilerinizi kullanarak Excel grafikleri oluşturma. Java için Aspose.Cells, basit çubuk grafiklerinden karmaşık radar grafiklerine kadar çok çeşitli grafik türleri sunar.
 
 ```java
-// Çubuk grafik oluşturma
+// Bir çubuk grafik oluşturun
 int chartIndex = worksheet.getCharts().addChart(ChartType.BAR, 5, 1, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Grafiğe veri serisi ekleme
+// Grafiğe veri serileri ekleyin
 chart.getNSeries().add("Sheet1!A1:A5", true);
 chart.getNSeries().add("Sheet1!B1:B5", true);
 
-// Grafik görünümünü özelleştirme
+// Grafik görünümünü özelleştirin
 chart.getChartArea().getBorder().setVisible(false);
 chart.setTitle("Sales Analysis");
 ```
 
 ## Excel Dosyasını Dışa Aktarma
 
-Excel grafiklerinizi oluşturduktan sonra çalışma kitabınızı XLSX veya PDF gibi seçtiğiniz bir dosya biçimine aktarabilirsiniz.
+Excel grafiklerinizi oluşturduktan sonra çalışma kitabınızı XLSX veya PDF gibi istediğiniz bir dosya biçimine aktarabilirsiniz.
 
 ```java
 workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
@@ -90,26 +90,26 @@ workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 
 ## Çözüm
 
-Bu eğitimde Aspose.Cells for Java'yı kullanarak veri analizi yapmayı ve Excel grafikleri oluşturmayı araştırdık. Aspose.Cells, güçlü özellikleri ve kullanım kolaylığı ile ham verileri anlamlı grafik ve raporlara dönüştürme sürecini basitleştirir.
+Bu eğitimde, Aspose.Cells for Java kullanarak veri analizi yapmayı ve Excel grafikleri oluşturmayı inceledik. Güçlü özellikleri ve kullanım kolaylığıyla Aspose.Cells, ham verileri içgörülü grafiklere ve raporlara dönüştürme sürecini basitleştirir.
 
-## SSS'ler
+## SSS
 
-### Aspose.Cells for Java'yı nasıl yüklerim?
+### Java için Aspose.Cells'i nasıl yüklerim?
 
- Aspose.Cells for Java'yı yüklemek için şu adresteki indirme sayfasını ziyaret edin:[bu bağlantı](https://releases.aspose.com/cells/java/) ve verilen kurulum talimatlarını izleyin.
+ Java için Aspose.Cells'i yüklemek için şu indirme sayfasını ziyaret edin:[bu bağlantı](https://releases.aspose.com/cells/java/) ve verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Cells for Java'yı diğer Java kütüphaneleriyle birlikte kullanabilir miyim?
 
-Evet, veri analizi yeteneklerinizi daha da geliştirmek için Aspose.Cells for Java'yı diğer Java kütüphaneleriyle entegre edebilirsiniz. Uyumluluk ve entegrasyonla ilgili ayrıntılar için belgelere bakın.
+Evet, veri analizi yeteneklerinizi daha da geliştirmek için Aspose.Cells for Java'yı diğer Java kütüphaneleriyle entegre edebilirsiniz. Uyumluluk ve entegrasyon hakkında ayrıntılar için belgelere bakın.
 
-### Aspose.Cells for Java'yı kullanmak için herhangi bir lisans gereksinimi var mı?
+### Java için Aspose.Cells'i kullanmak için herhangi bir lisanslama gereksinimi var mı?
 
-Evet, Aspose.Cells for Java ticari kullanım için geçerli bir lisans gerektirir. Aspose web sitesinden lisans alabilirsiniz.
+Evet, Aspose.Cells for Java ticari kullanım için geçerli bir lisans gerektirir. Lisansı Aspose web sitesinden edinebilirsiniz.
 
-### Aspose.Cells for Java ile ne tür Excel grafikleri oluşturabilirim?
+### Aspose.Cells for Java ile hangi tür Excel grafikleri oluşturabilirim?
 
-Aspose.Cells for Java, çubuk grafikler, çizgi grafikler, pasta grafikler ve daha fazlasını içeren çok çeşitli grafik türlerini destekler. Desteklenen grafik türlerinin ve özelleştirme seçeneklerinin tam listesi için belgelere bakın.
+Java için Aspose.Cells, çubuk grafikler, çizgi grafikler, pasta grafikler ve daha fazlası dahil olmak üzere çok çeşitli grafik türlerini destekler. Desteklenen grafik türlerinin ve özelleştirme seçeneklerinin tam listesi için belgeleri inceleyin.
 
-### Aspose.Cells for Java hakkında daha fazla kaynağı ve öğreticiyi nerede bulabilirim?
+### Java için Aspose.Cells hakkında daha fazla kaynak ve öğreticiyi nerede bulabilirim?
 
- Aspose.Cells for Java hakkında daha fazla kaynak ve eğitim için şu adresteki belgeleri ziyaret edin:[Burada](https://reference.aspose.com/cells/java/).
+ Java için Aspose.Cells hakkında daha fazla kaynak ve eğitim için şu adresteki belgeleri ziyaret edin:[Burada](https://reference.aspose.com/cells/java/).

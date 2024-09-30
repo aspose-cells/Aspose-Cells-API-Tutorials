@@ -26,7 +26,7 @@ import com.aspose.cells.*;
 ```
 
 ## Steg 3: Ladda din Excel-fil
- Ladda din Excel-fil som innehåller pivottabellen i din Java-applikation. Byta ut`"your-file.xlsx"` med sökvägen till din Excel-fil.
+ Ladda din Excel-fil som innehåller pivottabellen i din Java-applikation. Ersätta`"your-file.xlsx"` med sökvägen till din Excel-fil.
 
 ```java
 Workbook workbook = new Workbook("your-file.xlsx");

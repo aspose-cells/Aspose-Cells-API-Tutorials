@@ -22,7 +22,7 @@ url: /zh-hant/java/excel-data-security/excel-password-protection/
 
 ## 設定環境
 
-首先，您應該設定您的開發環境。按著這些次序：
+首先，您應該設定您的開發環境。請依照下列步驟操作：
 
 1. 如果尚未安裝 Java，請安裝。
 2. 從提供的連結下載 Aspose.Cells for Java。

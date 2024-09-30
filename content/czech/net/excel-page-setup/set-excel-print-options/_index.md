@@ -2,149 +2,157 @@
 title: Nastavte možnosti tisku aplikace Excel
 linktitle: Nastavte možnosti tisku aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se snadno manipulovat se soubory aplikace Excel a přizpůsobovat možnosti tisku pomocí Aspose.Cells pro .NET.
+description: Naučte se, jak nastavit možnosti tisku v Excelu pomocí Aspose.Cells for .NET, pomocí tohoto komplexního průvodce krok za krokem.
 type: docs
 weight: 150
 url: /cs/net/excel-page-setup/set-excel-print-options/
 ---
-V této příručce vás provedeme nastavením možností tisku pro sešit aplikace Excel pomocí Aspose.Cells for .NET. Pro splnění tohoto úkolu vás krok za krokem provedeme poskytnutým zdrojovým kódem C#.
+## Zavedení
 
-## Krok 1: Nastavení prostředí
+Už vás nebaví předkládat excelové listy, které po vytištění vypadají polovičatě? Tak to jste na správném místě! Dnes se ponoříme do světa Aspose.Cells for .NET, robustní knihovny, která umožňuje vývojářům snadno vytvářet, manipulovat a tisknout tabulky aplikace Excel. V tomto tutoriálu se zaměříme na nastavení možností tisku v dokumentu aplikace Excel. Představte si toto: vytvořili jste dokonalou tabulku plnou cenných dat, grafů a postřehů, ale pokud jde o tisk, vypadá nevýrazně a neprofesionálně. Pojďme se zbavit těchto potíží a naučte se, jak snadno připravit dokumenty k tisku! 
 
-Než začnete, ujistěte se, že jste nastavili vývojové prostředí a nainstalovali Aspose.Cells for .NET. Nejnovější verzi knihovny si můžete stáhnout z oficiálních stránek Aspose.
+## Předpoklady
 
-## Krok 2: Importujte požadované jmenné prostory
+Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli hladce pokračovat:
 
-Ve svém projektu C# importujte potřebné jmenné prostory pro práci s Aspose.Cells:
+1. Visual Studio nebo jakékoli .NET IDE: Budete chtít spolehlivé vývojové prostředí.
+2. Aspose.Cells Library for .NET: Ujistěte se, že jste tuto knihovnu nainstalovali; můžete si to stáhnout[zde](https://releases.aspose.com/cells/net/).
+3. Základní znalost C#: Znalost konceptů programování v C# vám pomůže procházet příklady, které probereme.
+4. .NET Framework: Ujistěte se, že váš projekt cílí na verzi .NET, která podporuje Aspose.Cells.
+   
+Jakmile budete mít tyto náležitosti na místě, spusťte naše IDE a ponořte se do toho!
+
+## Importujte balíčky
+
+Chcete-li začít používat Aspose.Cells ve svém projektu, budete muset importovat příslušné jmenné prostory. Tento krok je zásadní, protože umožňuje přístup ke všem funkcím, které knihovna poskytuje.
+
+### Otevřete své IDE
+
+Nejprve spusťte své Visual Studio nebo preferované .NET IDE. Položme základy tím, že naimportujeme správný balíček a připravíme ho k použití.
+
+### Přidejte odkaz do Aspose.Cells
+
+Do projektu musíte přidat odkaz na knihovnu Aspose.Cells. Zde je postup:
+
+- V aplikaci Visual Studio klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení.
+- Klikněte na „Spravovat balíčky NuGet“.
+- Vyhledejte „Aspose.Cells“ a klikněte na „Instalovat“. 
+
+Tímto způsobem zajistíte, že všechny potřebné funkce Aspose.Cells budete mít na dosah ruky.
+
+### Použití jmenného prostoru
+
+V horní části hlavního souboru CS budete muset zahrnout jmenný prostor Aspose.Cells. Takto by měl kód vypadat:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
+using System;
 ```
 
-## Krok 3: Nastavení cesty k adresáři dokumentů
+Po vytřídění jsme připraveni nastavit naše možnosti tisku!
 
- Prohlásit a`dataDir` proměnnou zadejte cestu k adresáři, kam chcete uložit vygenerovaný soubor Excel:
+Teď si ušpiníme ruce a ponoříme se do kódu! Postupně si projdeme nastavení různých možností tisku.
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
+## Krok 1: Definujte adresář dokumentů
 
- Nezapomeňte vyměnit`"YOUR_DOCUMENT_DIRECTORY"` se správnou cestou ve vašem systému.
-
-## Krok 4: Vytvoření objektu sešitu
-
-Vytvořte instanci objektu Workbook, který představuje sešit aplikace Excel, který chcete vytvořit:
+První krok zahrnuje určení, kde bude soubor Excel umístěn. Namísto napevno kódovaných cest po celém kódu, mějme v něm pořádek a pořádek.
 
 ```csharp
-Workbook workbook = new Workbook();
-```
-
-## Krok 5: Získání reference PageSetup listu
-
-Chcete-li nastavit možnosti tisku, musíme nejprve získat odkaz PageSetup z listu. K získání reference použijte následující kód:
-
-```csharp
-PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
-```
-
-## Krok 6: Povolte tisk čar mřížky
-
-Chcete-li povolit tisk čar mřížky, použijte následující kód:
-
-```csharp
-pageSetup. PrintGridlines = true;
-```
-
-## Krok 7: Povolte tisk záhlaví řádků/sloupců
-
-Chcete-li povolit tisk záhlaví řádků a sloupců, použijte následující kód:
-
-```csharp
-pageSetup.PrintHeadings = true;
-```
-
-## Krok 8: Povolení režimu černobílého tisku
-
-Chcete-li povolit tisk listu v černobílém režimu, použijte následující kód:
-
-```csharp
-pageSetup.BlackAndWhite = true;
-```
-
-## Krok 9: Povolení tisku zpětné vazby
-
-Chcete-li povolit tisk komentářů tak, jak se objevují v tabulce, použijte následující kód:
-
-```csharp
-pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
-```
-
-## Krok 10: Povolte tisk v režimu konceptu
-
-Chcete-li povolit tisk tabulky v režimu konceptu, použijte následující kód:
-
-```csharp
-pageSetup.PrintDraft = true;
-```
-
-## Krok 11: Povolte tisk chyb buněk jako N/A
-
-Chcete-li umožnit tisk chyb buněk jako
-
-  než N/A, použijte následující kód:
-
-```csharp
-pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
-```
-
-## Krok 12: Uložení sešitu aplikace Excel
-
- Chcete-li uložit sešit Excel s nastavenými možnostmi tisku, použijte`Save` metoda objektu Workbook:
-
-```csharp
-workbook.Save(dataDir + "OtherPrintOptions_out.xls");
-```
-
-Tím se uloží sešit aplikace Excel s názvem souboru "OtherPrintOptions_out.xls" do zadaného adresáře.
-
-### Ukázkový zdrojový kód pro Set Excel Print Options pomocí Aspose.Cells pro .NET 
-```csharp
-//Cesta k adresáři dokumentů.
+// Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+
+ Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete soubor Excel uložit. Berte to jako nastavení pracovního prostoru před zahájením projektu!
+
+## Krok 2: Vytvořte instanci sešitu
+
+ Dále budeme muset vytvořit a`Workbook` objekt. Tento objekt funguje jako kontejner pro vaše data tabulky.
+
+```csharp
 // Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
+```
+
+Zde jednoduše vytváříme instanci nového sešitu. Představte si to jako vytažení prázdného listu papíru; jste připraveni začít psát!
+
+## Krok 3: Otevřete Nastavení stránky
+
+ Chcete-li ovládat, jak se bude váš list Excel tisknout, budete potřebovat přístup k`PageSetup` vlastnost pracovního listu.
+
+```csharp
 // Získání odkazu na PageSetup listu
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
+```
+
+V tomto řádku získáváme nastavení stránky pro první list v našem sešitu. Je to jako otevřít sešit, abyste se připravili na schůzku. Potřebujete správné nastavení!
+
+## Krok 4: Nakonfigurujte možnosti tisku
+
+Nyní přichází ta zábavná část! Můžeme přizpůsobit různá nastavení tisku, aby náš tištěný Excel vypadal profesionálně.
+
+```csharp
 // Umožňuje tisknout mřížku
 pageSetup.PrintGridlines = true;
+
 // Umožňuje tisk záhlaví řádků/sloupců
 pageSetup.PrintHeadings = true;
+
 // Umožňuje tisk listu v černobílém režimu
 pageSetup.BlackAndWhite = true;
+
 // Umožňuje tisknout komentáře, jak jsou zobrazeny na listu
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
+
 // Umožňuje tisk listu v kvalitě konceptu
 pageSetup.PrintDraft = true;
+
 // Umožňuje tisknout chyby buněk jako N/A
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
+```
+
+Každý řádek zde představuje možnost, která vylepšuje vzhled dokumentu při tisku:
+
+1. Mřížka tisku: Díky tomu jsou ta otravná prázdná místa na listu viditelná, což pomáhá ostatním snadno sledovat. 
+   
+2. Tisk záhlaví: Včetně záhlaví řádků a sloupců dává vašim datům kontext, podobně jako rejstřík knihy.
+
+3. Černobílý režim: Ideální pro ty, kteří chtějí ušetřit na barevném tisku. 
+
+4. Tisk komentářů na místě: Prezentace komentářů přímo v buňkách přidává čtenářům kontext, podobně jako poznámky pod čarou v článku.
+
+5. Kvalita konceptu tisku: Pokud se jedná pouze o hrubou kopii, nemusíte používat plnou kvalitu. Je to jako skicování před malováním!
+
+6. Chyby tisku jako N/A: Zobrazení chyb jako N/A udržuje výtisk čistý a srozumitelný a zabraňuje zmatkům.
+
+## Krok 5: Uložte sešit
+
+Jakmile vše nastavíte tak, jak chcete, je konečně čas uložit sešit.
+
+```csharp
 // Uložte sešit.
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
+
+tomto kroku uložíme sešit do námi určeného adresáře. Je to jako nalepit konečnou nálepku na svůj krásně vytvořený projekt!
+
 ## Závěr
 
-Nyní jste se naučili, jak nastavit možnosti tisku pro sešit aplikace Excel pomocí Aspose.Cells pro .NET. Tato výkonná a uživatelsky přívětivá knihovna vám umožňuje snadno a efektivně přizpůsobit nastavení tisku vašich excelových sešitů.
+Gratuluji! Nyní jste vybaveni dovednostmi pro nastavení možností tisku pomocí Aspose.Cells pro .NET. Jen se zamyslete nad dopadem dobře prezentované tištěné tabulky! Už žádné matné dokumenty; místo toho pokaždé poskytujete čisté, profesionálně vypadající výtisky. 
 
-### Nejčastější dotazy
+## FAQ
 
+### Co je Aspose.Cells?  
+Aspose.Cells je výkonná knihovna .NET, která umožňuje manipulaci a správu souborů aplikace Excel.
 
-#### 1. Mohu dále upravit možnosti tisku, jako jsou okraje nebo orientace stránky?
+### Mohu získat bezplatnou zkušební verzi Aspose.Cells?  
+ Ano, máte přístup k bezplatné zkušební verzi Aspose.Cells[zde](https://releases.aspose.com/).
 
-Ano, Aspose.Cells for .NET nabízí širokou škálu přizpůsobitelných možností tisku, jako jsou okraje, orientace stránky, měřítko atd.
+### Jak získám dočasnou licenci pro Aspose.Cells?  
+ Prostřednictvím tohoto můžete požádat o dočasnou licenci[odkaz](https://purchase.aspose.com/temporary-license/).
 
-#### 2. Podporuje Aspose.Cells for .NET další formáty souborů Excel?
+### Kde najdu pomoc nebo podporu pro Aspose.Cells?  
+ Navštivte fórum Aspose pro podporu[zde](https://forum.aspose.com/c/cells/9).
 
-Ano, Aspose.Cells for .NET podporuje různé formáty souborů Excel, jako jsou XLSX, XLS, CSV, HTML, PDF atd.
-
-#### 3. Je Aspose.Cells for .NET kompatibilní se všemi verzemi .NET Framework?
-
-Aspose.Cells for .NET je kompatibilní s rozhraním .NET Framework 2.0 nebo novějším, včetně verzí 3.5, 4.0, 4.5, 4.6 atd.
+### Je Aspose.Cells vhodný pro velké soubory Excel?  
+Absolutně! Aspose.Cells je navržen tak, aby efektivně zpracovával velké soubory aplikace Excel.

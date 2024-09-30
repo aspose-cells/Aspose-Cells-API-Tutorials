@@ -1,85 +1,120 @@
 ---
 title: Buat Buku Kerja Bersama
 linktitle: Buat Buku Kerja Bersama
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Buat buku kerja bersama Excel dengan Aspose.Cells untuk .NET untuk mengaktifkan kolaborasi data secara bersamaan.
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang mudah ini. Sempurna untuk meningkatkan kolaborasi tim.
 type: docs
 weight: 70
 url: /id/net/excel-workbook/create-shared-workbook/
 ---
-Dalam tutorial ini, kami akan memandu Anda melalui kode sumber C# yang disediakan yang memungkinkan Anda membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah di bawah ini untuk melakukan operasi ini.
+## Perkenalan
 
-## Langkah 1: Tetapkan direktori keluaran
+Membuat buku kerja bersama dapat mengubah cara kerja kolaborasi, terutama jika Anda mengelola data lintas tim atau departemen yang berbeda. Dengan Aspose.Cells untuk .NET, Anda memiliki alat yang tangguh untuk mengelola file Excel secara terprogram. Panduan ini akan memandu Anda melalui langkah-langkah untuk membuat buku kerja bersama, yang akan membuat kolaborasi Anda lebih lancar dan efisien. Baik Anda seorang pemula atau pengembang berpengalaman, Anda akan dimanjakan dengan tutorial sederhana namun hebat ini!
+
+## Prasyarat
+
+Sebelum kita menyelami seluk-beluk pembuatan buku kerja bersama, mari kita selesaikan beberapa hal:
+
+1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah lingkungan pengembangan tempat Anda dapat menulis dan menjalankan kode.
+2.  Aspose.Cells untuk .NET: Anda harus memiliki pustaka Aspose.Cells. Anda dapat mengunduhnya dari[Unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Contoh ini akan berfungsi dengan .NET Core atau .NET Framework 4.x.
+4. Pengetahuan Dasar tentang C#: Sedikit pengetahuan tentang pemrograman C# akan sangat membantu. Jika Anda dapat menulis kode dasar, Anda akan berhasil!
+
+Setelah Anda memiliki prasyarat ini, Anda siap untuk mulai membuat buku kerja bersama Anda.
+
+## Paket Impor
+
+Sekarang setelah lingkungan kita siap, mari impor paket-paket yang diperlukan agar kita dapat memulai. Berikut ini cara melakukannya:
+
+### Buat Proyek Baru
+1. Buka Visual Studio.
+2. Buat proyek konsol C# baru.
+3. Beri nama proyek Anda seperti "SharedWorkbookExample".
+
+### Instal Aspose.Cells
+1. Klik kanan pada proyek Anda di Solution Explorer dan pilih “Kelola Paket NuGet”.
+2. Cari "Aspose.Cells" dan instal. Ini akan menambahkan referensi yang diperlukan ke proyek Anda.
+
+### Tambahkan Menggunakan Arahan
+ Di bagian atas Anda`Program.cs` file, tambahkan perintah berikut menggunakan:
 
 ```csharp
-// Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-Pada langkah pertama ini, kita menentukan direktori keluaran tempat buku kerja bersama akan disimpan.
+Dan begitu saja, Anda telah menyiapkan diri untuk meraih kesuksesan! Mari kita telusuri langkah-langkah pembuatan buku kerja bersama.
 
-## Langkah 2: Buat Objek Buku Kerja
+Sekarang kita masuk ke bagian yang menarik! Berikut cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET, dipecah menjadi beberapa langkah yang mudah diikuti.
 
-```csharp
-// Buat objek Buku Kerja
-Workbook wb = new Workbook();
-```
+## Langkah 1: Mengatur Direktori Output
 
-Kami membuat objek Buku Kerja baru yang akan mewakili buku kerja Excel kami.
+Pada langkah ini, Anda akan menentukan di mana file output akan disimpan. Ini seperti memutuskan di mana akan meletakkan kue yang baru dipanggang — Anda ingin memastikan kue tersebut mudah ditemukan nanti!
 
-## Langkah 3: Aktifkan Berbagi Buku Kerja
-
-```csharp
-// Bagikan buku kerja
-wb.Settings.Shared = true;
-```
-
- Kami mengaktifkan fitur berbagi buku kerja dengan mengatur`Shared` milik objek Buku Kerja`true`.
-
-## Langkah 4: Simpan buku kerja bersama
-
-```csharp
-// Simpan buku kerja bersama
-wb.Save(outputDir + "outputSharedWorkbook.xlsx");
-```
-
-Kami menyimpan buku kerja bersama dengan menentukan jalur dan nama file keluaran.
-
-### Contoh kode sumber untuk Membuat Buku Kerja Bersama menggunakan Aspose.Cells untuk .NET 
 ```csharp
 //Direktori keluaran
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Di sini, kami menggunakan metode`RunExamples.Get_OutputDirectory()` untuk menentukan folder tempat file Excel yang dihasilkan akan disimpan. Pastikan metode ini ditetapkan dalam kode Anda untuk pemrosesan keluaran yang tepat.
+
+## Langkah 2: Buat Objek Buku Kerja
+
+Selanjutnya, fokus kita beralih ke pembuatan buku kerja. Di sinilah keajaiban terjadi!
+
+```csharp
 //Buat objek Buku Kerja
 Workbook wb = new Workbook();
+```
+ Dengan membuat instance`Workbook` kelas, kita menyiapkan buku kerja baru dalam memori. Anggap saja ini seperti membuka lembar kosong baru di Excel, menunggu untuk diisi dengan data.
+
+## Langkah 3: Bagikan Buku Kerja
+
+Saatnya menjadikan buku kerja Anda sebuah mahakarya kolaboratif! Dengan membagikannya, banyak pengguna dapat mengaksesnya secara bersamaan.
+
+```csharp
 //Bagikan Buku Kerja
 wb.Settings.Shared = true;
+```
+ Pengaturan`wb.Settings.Shared` ke`true` menunjukkan bahwa buku kerja ini dapat diakses oleh beberapa pengguna sekaligus. Ini seperti memberikan kunci rumah Anda kepada teman-teman — mereka dapat datang dan pergi sesuka hati!
+
+## Langkah 4: Simpan Buku Kerja Bersama
+
+Sekarang buku kerja Anda sudah siap untuk dibagikan, saatnya menyimpan perubahan. Inilah saatnya untuk menentukan kebenaran!
+
+```csharp
 //Simpan Buku Kerja Bersama
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
+```
+ Di sini, kami menyimpan buku kerja bersama kami dengan nama`outputSharedWorkbook.xlsx` di direktori keluaran yang ditentukan. Ini akan menghasilkan berkas Excel yang sekarang dapat dibagikan dan dimodifikasi oleh banyak pengguna.
+
+## Langkah 5: Menampilkan Pesan Sukses
+
+Untuk mengonfirmasi bahwa semuanya berjalan lancar, mari cetak pesan sukses.
+
+```csharp
 Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
+Baris kode sederhana ini menampilkan pesan ke konsol yang menunjukkan bahwa tugas kita telah berhasil diselesaikan. Seperti teriakan kemenangan di garis akhir!
 
-## Kesimpulan
+## Kesimpulan 
 
-Selamat! Anda mempelajari cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET. Buku kerja bersama bisa digunakan oleh beberapa pengguna secara bersamaan untuk berkolaborasi pada data. Bereksperimenlah dengan data Anda sendiri dan jelajahi lebih jauh fitur Aspose.Cells untuk membuat buku kerja Excel yang canggih dan dipersonalisasi.
+Membuat buku kerja bersama bukan hanya tentang membuat file Excel; tetapi juga tentang meningkatkan kolaborasi dan efisiensi antar tim. Dengan Aspose.Cells untuk .NET, prosesnya mudah dan ramah pengguna. Dengan mengikuti langkah-langkah yang diuraikan di sini, Anda dapat dengan mudah membuat buku kerja yang memungkinkan banyak pengguna berinteraksi dengannya secara bersamaan. Jadi, tunggu apa lagi? Terjunlah dan mulailah membuat buku kerja bersama yang memberdayakan tim Anda untuk berkolaborasi seperti yang belum pernah terjadi sebelumnya!
 
-### FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T: Apa yang dimaksud dengan buku kerja bersama?
+### Apa itu buku kerja bersama?
+Buku kerja bersama adalah berkas Excel yang memungkinkan banyak pengguna berkolaborasi secara bersamaan.
 
-J: Buku kerja bersama adalah buku kerja Excel yang bisa digunakan secara bersamaan oleh beberapa pengguna untuk berkolaborasi pada data. Setiap pengguna bisa membuat perubahan pada buku kerja dan pengguna lain akan melihat pembaruan secara real time.
+### Bisakah saya membatalkan pembagian buku kerja setelah dibagikan?
+ Ya, Anda dapat membatalkan pembagian buku kerja dengan mengatur`Shared` properti untuk`false`.
 
-#### T: Bagaimana cara mengaktifkan berbagi buku kerja di Aspose.Cells untuk .NET?
+### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
+Ya, lisensi diperlukan untuk penggunaan Aspose.Cells secara komersial. Anda juga dapat memperoleh uji coba gratis untuk menguji fitur-fiturnya.
 
- J: Untuk mengaktifkan berbagi buku kerja di Aspose.Cells untuk .NET, Anda harus mengatur`Shared` milik objek Buku Kerja`true`. Ini akan memungkinkan pengguna untuk mengerjakan buku kerja secara bersamaan.
+### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?
+ Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Dukungan Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
-#### T: Bisakah saya membatasi izin pengguna di buku kerja bersama?
-
-J: Ya, Anda bisa membatasi izin pengguna di buku kerja bersama menggunakan fitur keamanan Excel. Anda dapat mengatur izin khusus untuk setiap pengguna, seperti kemampuan untuk mengedit, hanya membaca, dll.
-
-#### T: Bagaimana cara berbagi buku kerja dengan pengguna lain?
-
-J: Setelah Anda membuat buku kerja bersama, Anda bisa membaginya dengan pengguna lain dengan mengirimkan file Excel kepada mereka. Pengguna lain akan dapat membuka file dan mengerjakannya secara bersamaan.
-
-#### T: Apakah semua fitur Excel didukung di buku kerja bersama?
-
-J: Sebagian besar fitur Excel didukung di buku kerja bersama. Namun, beberapa fitur tingkat lanjut, seperti makro dan add-in, mungkin memiliki batasan atau pembatasan saat digunakan dalam buku kerja bersama.
+### Bagaimana cara mulai menggunakan Aspose.Cells?
+ Mulailah dengan mengunduh perpustakaan dari[Unduhan Aspose.Cells](https://releases.aspose.com/cells/net/)halaman dan ikuti langkah-langkah instalasi yang disebutkan dalam panduan ini.

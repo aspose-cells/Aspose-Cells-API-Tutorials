@@ -15,7 +15,7 @@ V tomto komplexním průvodci vás provedeme procesem exportu dat Excelu do XML 
 Než začneme, ujistěte se, že máte následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Knihovna Aspose.Cells for Java, kterou si můžete stáhnout[tady](https://releases.aspose.com/cells/java/).
+-  Knihovna Aspose.Cells for Java, kterou si můžete stáhnout[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Nastavení vašeho projektu
 
@@ -98,7 +98,7 @@ public class ExcelToXMLExporter {
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili exportovat data Excelu do XML v Javě pomocí Aspose.Cells for Java. Tento podrobný průvodce vám poskytl znalosti a zdrojový kód potřebný k bezproblémovému provedení tohoto úkolu.
+Gratuluji! Úspěšně jste se naučili exportovat data Excelu do XML v Javě pomocí Aspose.Cells for Java. Tento podrobný průvodce vám poskytl znalosti a zdrojový kód potřebný k bezproblémovému provedení tohoto úkolu.
 
 ## Nejčastější dotazy
 

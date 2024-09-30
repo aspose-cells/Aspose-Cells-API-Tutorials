@@ -10,35 +10,35 @@ url: /id/java/advanced-excel-charts/chart-interactivity/
 
 ## Perkenalan
 
-Bagan interaktif menambahkan dimensi baru pada visualisasi data, memungkinkan pengguna menjelajahi dan memahami data dengan lebih baik. Dalam tutorial ini, kami akan menunjukkan cara membuat grafik interaktif menggunakan Aspose.Cells untuk Java. Anda akan mempelajari cara menambahkan fitur seperti keterangan alat, label data, dan fungsi penelusuran hingga detail ke bagan Anda, sehingga membuat presentasi data Anda lebih menarik.
+Bagan interaktif menambahkan dimensi baru pada visualisasi data, yang memungkinkan pengguna menjelajahi dan memahami data dengan lebih baik. Dalam tutorial ini, kami akan menunjukkan cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Anda akan mempelajari cara menambahkan fitur seperti tooltip, label data, dan fungsi drill-down ke bagan Anda, yang membuat presentasi data Anda lebih menarik.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-- Lingkungan Pengembangan Jawa
-- Aspose.Cells untuk Perpustakaan Java (Unduh dari[Di Sini](https://releases.aspose.com/cells/java/)
+Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+- Lingkungan Pengembangan Java
+- Aspose.Cells untuk Pustaka Java (Unduh dari[Di Sini](https://releases.aspose.com/cells/java/)
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
 1. Buat proyek Java baru di IDE favorit Anda.
-2. Tambahkan pustaka Aspose.Cells for Java ke proyek Anda dengan menyertakan file JAR.
+2. Tambahkan pustaka Aspose.Cells untuk Java ke proyek Anda dengan menyertakan file JAR.
 
 ## Langkah 2: Memuat Data
 
 Untuk membuat grafik interaktif, Anda memerlukan data. Mari kita mulai dengan memuat beberapa contoh data dari file Excel menggunakan Aspose.Cells.
 
 ```java
-// Muat file Excel
+// Memuat file Excel
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ## Langkah 3: Membuat Bagan
 
-Sekarang, mari buat bagan dan tambahkan ke lembar kerja.
+Sekarang, mari membuat bagan dan menambahkannya ke lembar kerja.
 
 ```java
-// Buat bagan kolom
+// Membuat bagan kolom
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
@@ -46,16 +46,16 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 ## Langkah 4: Menambahkan Interaktivitas
 
 ### 4.1. Menambahkan Tooltip
-Untuk menambahkan tooltip ke rangkaian bagan Anda, gunakan kode berikut:
+Untuk menambahkan keterangan alat ke rangkaian grafik Anda, gunakan kode berikut:
 
 ```java
-// Aktifkan tooltips untuk titik data
+// Aktifkan tooltip untuk titik data
 chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
 ### 4.2. Menambahkan Label Data
-Untuk menambahkan label data ke rangkaian bagan Anda, gunakan kode ini:
+Untuk menambahkan label data ke rangkaian grafik Anda, gunakan kode ini:
 
 ```java
 // Aktifkan label data untuk titik data
@@ -63,12 +63,12 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3. Menerapkan Penelusuran
-Untuk menerapkan fungsi penelusuran hingga detail, Anda dapat menggunakan hyperlink atau membuat tindakan kustom. Berikut ini contoh menambahkan hyperlink ke titik data:
+### 4.3. Menerapkan Drill-Down
+Untuk menerapkan fungsi drill-down, Anda dapat menggunakan hyperlink atau membuat tindakan kustom. Berikut ini contoh penambahan hyperlink ke titik data:
 
 ```java
 // Tambahkan hyperlink ke titik data
-String url = "https://contoh.com/data-details";
+String url = "https://contoh.com/data-detail";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
@@ -82,22 +82,22 @@ workbook.save("interactive_chart_output.xlsx");
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami telah menunjukkan kepada Anda cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menambahkan keterangan alat, label data, dan bahkan menerapkan fungsi penelusuran hingga detail. Fitur-fitur ini meningkatkan interaktivitas diagram Anda dan meningkatkan pemahaman data bagi pengguna Anda.
+Dalam tutorial ini, kami telah menunjukkan kepada Anda cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menambahkan keterangan alat, label data, dan bahkan menerapkan fungsi drill-down. Fitur-fitur ini meningkatkan interaktivitas bagan Anda dan meningkatkan pemahaman data bagi pengguna Anda.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Anda dapat mengubah tipe bagan dengan memodifikasi`ChartType` parameter saat membuat grafik. Misalnya saja ganti`ChartType.COLUMN` dengan`ChartType.LINE` untuk membuat diagram garis.
+ Anda dapat mengubah jenis grafik dengan memodifikasi`ChartType` parameter saat membuat grafik. Misalnya, ganti`ChartType.COLUMN` dengan`ChartType.LINE` untuk membuat diagram garis.
 
-### Bisakah saya menyesuaikan tampilan tooltips?
+### Bisakah saya menyesuaikan tampilan tooltip?
 
 Ya, Anda dapat menyesuaikan tampilan tooltip dengan menyesuaikan properti seperti ukuran font dan warna latar belakang melalui Aspose.Cells API.
 
 ### Bagaimana cara menangani interaksi pengguna dalam aplikasi web?
 
-Untuk menangani interaksi pengguna, Anda dapat menggunakan JavaScript bersama aplikasi web Anda untuk menangkap peristiwa yang dipicu oleh interaksi bagan seperti klik atau tindakan arahkan kursor.
+Untuk menangani interaksi pengguna, Anda dapat menggunakan JavaScript bersama dengan aplikasi web Anda untuk menangkap peristiwa yang dipicu oleh interaksi bagan seperti klik atau tindakan mengarahkan kursor.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
 
- Anda dapat menjelajahi lebih banyak contoh dan dokumentasi mendetail tentang penggunaan Aspose.Cells untuk Java di[Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
+ Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Cells untuk Java di[Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/).

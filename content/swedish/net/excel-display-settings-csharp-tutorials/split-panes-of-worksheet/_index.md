@@ -2,98 +2,107 @@
 title: Delade rutor av arbetsblad
 linktitle: Delade rutor av arbetsblad
 second_title: Aspose.Cells för .NET API-referens
-description: Steg-för-steg-guide för att dela rutor i ett Excel-kalkylblad med Aspose.Cells för .NET.
+description: Lär dig hur du delar upp kalkylbladsrutor i Aspose.Cells för .NET med vår steg-för-steg-guide. Förbättra Excel-filnavigering med denna enkla handledning.
 type: docs
 weight: 130
 url: /sv/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
-I den här handledningen kommer vi att förklara hur man delar upp rutor i ett Excel-kalkylblad med Aspose.Cells för .NET. Följ dessa steg för att få önskat resultat:
+## Introduktion
 
-## Steg 1: Sätta upp miljön
+Är du redo att dela upp rutor i ett Excel-kalkylblad med Aspose.Cells för .NET? Föreställ dig detta: du har ett gigantiskt Excel-ark och du är trött på att ständigt rulla tillbaka till rubrikerna bara för att komma ihåg vilken kolumn du arbetar med. Ange "Delade fönster". Denna praktiska funktion låter dig frysa en del av ditt kalkylblad, vilket gör det mycket lättare att navigera. Oavsett om du arbetar med finansiell data, lagerhantering eller massiva datauppsättningar, kan delade rutor förbättra din produktivitet tiofaldigt. 
 
-Se till att du har installerat Aspose.Cells för .NET och ställt in din utvecklingsmiljö. Se också till att du har en kopia av Excel-filen du vill dela rutor på.
+## Förutsättningar
 
-## Steg 2: Importera nödvändiga beroenden
+Innan vi börjar dela upp rutor som en kalkylbladsguide, låt oss göra rätt inställningar. Här är vad du behöver:
 
-Lägg till de nödvändiga direktiven för att använda klasserna från Aspose.Cells:
+-  Aspose.Cells för .NET: Se till att du har laddat ner och installerat det. Om du inte har det ännu, ta den[här](https://releases.aspose.com/cells/net/).
+- .NET Framework: Den här guiden förutsätter att du arbetar i en .NET-miljö.
+- En Excel-arbetsbok: Vi använder ett exempel på en Excel-fil för att visa hur den här funktionen fungerar.
+-  En tillfällig eller fullständig licens: Aspose.Cells kräver en licens. Om du bara provar det, skaffa en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license/) för att undvika utvärderingsbegränsningar.
+
+## Importera paket
+
+Innan vi dyker in i kod, låt oss först importera de nödvändiga namnrymden. Du kan egentligen inte göra någonting i Aspose.Cells utan att inkludera dessa.
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Steg 3: Kodinitiering
+Nu när vi har täckt det väsentliga, låt oss gå vidare till den spännande delen – dela rutorna!
 
-Börja med att initiera sökvägen till katalogen som innehåller dina Excel-dokument:
+## Steg 1: Instantiera en arbetsbok
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-```
+ Det första steget i denna process är att skapa en`Workbook` objekt, som kommer att representera Excel-filen du vill ändra. I det här fallet kommer vi att ladda en fil från en katalog. Det här är din duk, Excel-arket som du ska arbeta med din magi på.
 
-## Steg 4: Öppna Excel-filen
-
- Instantiera en ny`Workbook` objekt och öppna Excel-filen med hjälp av`Open` metod:
+Innan vi kan dela upp rutor behöver vi en arbetsbok att arbeta med! Detta steg är lika viktigt som att öppna en bok innan du börjar läsa den.
 
 ```csharp
-Workbook book = new Workbook(dataDir + "Book1.xls");
-```
-
-## Steg 5: Definiera den aktiva cellen
-
- Ställ in den aktiva cellen i kalkylbladet med hjälp av`ActiveCell` fast egendom:
-
-```csharp
-book.Worksheets[0].ActiveCell = "A20";
-```
-
-## Steg 6: Uppdelning av flikarna
-
- Dela upp kalkylbladet med hjälp av`Split` metod:
-
-```csharp
-book.Worksheets[0].Split();
-```
-
-## Steg 7: Spara ändringar
-
-Spara ändringarna som gjorts i Excel-filen:
-
-```csharp
-book.Save(dataDir + "output.xls");
-```
-
-### Exempel på källkod för delade paneler av arbetsblad med Aspose.Cells för .NET 
-
-```csharp
-//Sökvägen till dokumentkatalogen.
+//Sökvägen till dokumentkatalogen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+
 // Instantiera en ny arbetsbok och öppna en mallfil
 Workbook book = new Workbook(dataDir + "Book1.xls");
+```
+
+ I koden ovan, ersätt`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där din Excel-fil finns. De`Workbook` klass laddar Excel-filen i minnet.
+
+## Steg 2: Ställ in den aktiva cellen
+
+ Efter att ha laddat arbetsboken är det dags att ställa in den aktiva cellen. I Excel-termer är den aktiva cellen den som för närvarande är vald eller i fokus. I den här handledningen väljer vi cell`A20` i det första arbetsbladet.
+
+Att ställa in den aktiva cellen är avgörande eftersom rutuppdelningen börjar från denna aktiva cell. Det är som att välja var du ska göra det första snittet i en pizza – välj din skiva!
+
+```csharp
 // Ställ in den aktiva cellen
 book.Worksheets[0].ActiveCell = "A20";
+```
+
+ Denna kodbit gör`A20` den aktiva cellen. Det är viktigt eftersom delning sker runt denna punkt, precis som hur din navigering i Excel ofta centreras kring en specifik cell.
+
+## Steg 3: Dela upp arbetsbladet
+
+Nu när den aktiva cellen är inställd, låt oss gå till den roliga delen – dela upp kalkylbladet! Det här steget är där magin händer. Du kommer att kunna dela upp kalkylbladet i flera rutor för enklare visning och navigering.
+
+Detta är kärnan i hela handledningen. Genom att dela upp kalkylbladet skapar du separata rutor som låter dig bläddra igenom olika delar av ditt Excel-ark utan att tappa rubriker eller andra viktiga områden ur sikte.
+
+```csharp
 // Dela upp kalkylbladets fönster
 book.Worksheets[0].Split();
-// Spara excel-filen
+```
+
+ Med`Split()` metod, säger du till Aspose.Cells att dela upp kalkylbladet i den aktiva cellen (`A20` i detta fall). Från denna punkt skapar Excel en division i arket som separerar rutor så att du kan navigera självständigt.
+
+## Steg 4: Spara arbetsboken
+
+Efter att ha delat upp rutorna är allt som återstår att spara ditt arbete. Detta sista steg kommer att säkerställa att dina ändringar sparas i den angivna utdatafilen.
+
+Vad hjälper allt ditt hårda arbete om du inte sparar det? Spara säkerställer att dina vackert delade rutor hålls intakta för framtida användning.
+
+```csharp
+// Spara Excel-filen
 book.Save(dataDir + "output.xls");
 ```
+
+ Här, den`Save()`metod sparar arbetsboken med dina nyligen delade rutor till en utdata Excel-fil. Ändringarna du gjort är nu redo för dig – eller någon annan – att använda.
 
 ## Slutsats
 
-den här handledningen lärde du dig hur du delar upp rutor i ett Excel-kalkylblad med Aspose.Cells för .NET. Genom att följa de beskrivna stegen kan du enkelt anpassa utseendet och beteendet för dina Excel-filer.
+Och där har du det! Du har precis lärt dig hur du delar upp rutor i ett Excel-kalkylblad med Aspose.Cells för .NET. Inget mer oändligt rullande eller tappa reda på dina data. Denna metod gör hanteringen av stora Excel-filer mycket mindre överväldigande och mycket effektivare. Med möjligheten att dela rutor kan du nu hålla reda på viktiga datapunkter medan du arbetar med komplexa kalkylblad.
 
-### Vanliga frågor (FAQ)
+## FAQ's
 
-#### Vad är Aspose.Cells för .NET?
+### Kan jag dela upp fler än två rutor?  
+ Ja, du kan dela upp kalkylbladet i flera rutor genom att ange olika aktiva celler och anropa`Split()` metod.
 
-Aspose.Cells för .NET är ett populärt programbibliotek för att manipulera Excel-filer i .NET-applikationer.
+### Vad är skillnaden mellan att dela rutor och frysa rutor?  
+Med delade rutor kan du rulla i båda rutor oberoende av varandra. Frysande rutor låser rubrikerna eller specifika rader/kolumner så att de förblir synliga när du rullar.
 
-#### Hur kan jag ställa in den aktiva cellen i ett kalkylblad i Aspose.Cells?
+### Kan jag ta bort splittringen efter att ha applicerat den?  
+Ja, du kan ta bort uppdelningen genom att antingen stänga och öppna arbetsboken igen eller genom att programmera återställa den.
 
- Du kan ställa in den aktiva cellen med hjälp av`ActiveCell`egenskapen för kalkylbladsobjektet.
+### Fungerar delningsrutor på samma sätt för olika Excel-filformat (XLS, XLSX)?  
+ Ja, den`Split()` Metoden fungerar för både XLS- och XLSX-format.
 
-#### Kan jag bara dela de horisontella eller vertikala rutorna i kalkylbladsfönstret?
-
- Ja, med Aspose.Cells kan du bara dela horisontella eller vertikala rutor med lämpliga metoder som t.ex`SplitColumn` eller`SplitRow`.
-
-#### Fungerar Aspose.Cells bara med Excel-filer i .xls-format?
-
-Nej, Aspose.Cells stöder olika Excel-filformat inklusive .xls och .xlsx.
+### Kan jag använda Aspose.Cells utan licens?  
+ Ja, men det kommer med begränsningar. För en fullständig upplevelse är det bäst att använda en[tillfällig](https://purchase.aspose.com/temporary-license/) eller[betald licens](https://purchase.aspose.com/buy).

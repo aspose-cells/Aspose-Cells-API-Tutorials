@@ -16,7 +16,7 @@ Az adatvizualizáció világában a diagramok kulcsfontosságú szerepet játsza
 
 Mielőtt belemerülnénk a kombinált diagramok létrehozásába, röviden ismerjük meg, mi is az Aspose.Cells for Java. Ez egy Java-alapú könyvtár, amely átfogó funkcionalitást biztosít az Excel-táblázatokkal való munkavégzéshez. Ez magában foglalja az Excel-fájlokon belüli diagramok programozott létrehozásának, szerkesztésének és javításának lehetőségét.
 
-## Elkezdeni
+## Kezdő lépések
 
  A kombinált diagramok létrehozásának megkezdéséhez telepítenie kell az Aspose.Cells for Java programot, és be kell állítania a Java projektben. A könyvtár letölthető az Aspose webhelyéről a következő hivatkozás segítségével:[Töltse le az Aspose.Cells for Java programot](https://releases.aspose.com/cells/java/).
 
@@ -110,7 +110,7 @@ Ebben a cikkben megvizsgáltuk, hogyan hozhat létre kombinált diagramtípusoka
 
 ### Hogyan telepíthetem az Aspose.Cells for Java programot?
 
- Az Aspose.Cells for Java telepítéséhez látogasson el az Aspose webhelyére, és töltse le a könyvtárat innen[ez a link](https://releases.aspose.com/cells/java/). Kövesse a dokumentációban található telepítési utasításokat.
+ Az Aspose.Cells for Java telepítéséhez látogasson el az Aspose webhelyére, és töltse le a könyvtárat innen[ezt a linket](https://releases.aspose.com/cells/java/). Kövesse a dokumentációban található telepítési utasításokat.
 
 ### Létrehozhatok más típusú diagramokat az Aspose.Cells for Java segítségével?
 

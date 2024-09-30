@@ -17,7 +17,7 @@ V tomto tutoriálu prozkoumáme, jak provádět analýzu trendových linií pomo
 Než začneme, ujistěte se, že máte následující předpoklady:
 
 - Java nainstalovaná ve vašem systému.
--  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Nastavení projektu
 

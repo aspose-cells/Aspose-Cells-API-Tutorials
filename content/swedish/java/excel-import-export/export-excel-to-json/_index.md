@@ -32,7 +32,7 @@ Ladda sedan Excel-filen du vill exportera till JSON. Du kan använda följande k
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Byta ut`"your_excel_file.xlsx"` med sökvägen till din Excel-fil.
+ Ersätta`"your_excel_file.xlsx"` med sökvägen till din Excel-fil.
 
 ## Steg 3: Konvertera till JSON
 Låt oss nu konvertera Excel-data till JSON-format. Använd följande kod för att utföra konverteringen:

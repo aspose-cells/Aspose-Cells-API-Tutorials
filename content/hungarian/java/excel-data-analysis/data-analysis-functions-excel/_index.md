@@ -26,7 +26,7 @@ Workbook workbook = new Workbook("example.xlsx");
 ```
 
 ## Adatok rendezése
-Az adatok rendezése az Excelben gyakori feladat. Az Aspose.Cells lehetővé teszi az adatok növekvő vagy csökkenő sorrendbe rendezését egy vagy több oszlop alapján. Az adatok rendezésének módja:
+Az adatok rendezése Excelben gyakori feladat. Az Aspose.Cells lehetővé teszi az adatok növekvő vagy csökkenő sorrendbe rendezését egy vagy több oszlop alapján. Az adatok rendezésének módja:
 
 ```java
 // Szerezd meg azt a munkalapot, ahol az adataid vannak
@@ -36,7 +36,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 CellArea cellArea = new CellArea();
 cellArea.startRow = 1; //Kezdje a második sorból (feltételezve, hogy az első sor fejléc)
 cellArea.startColumn = 0; // Kezdje az első oszloptól
-cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Az utolsó adatsor lekérése
+cellArea.endRow = worksheet.getCells().getMaxDataRow(); // Lekérni az utolsó sort az adatokkal
 cellArea.endColumn = worksheet.getCells().getMaxDataColumn(); // Szerezze meg az utolsó oszlopot az adatokkal
 
 // Hozzon létre egy rendezési beállítások objektumot

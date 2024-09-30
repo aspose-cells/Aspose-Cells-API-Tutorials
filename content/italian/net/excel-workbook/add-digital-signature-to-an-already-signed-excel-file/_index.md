@@ -1,132 +1,152 @@
 ---
-title: Aggiungi la firma digitale a un file Excel già firmato
-linktitle: Aggiungi la firma digitale a un file Excel già firmato
-second_title: Aspose.Cells per riferimento API .NET
-description: Aggiungi facilmente firme digitali ai file Excel esistenti con Aspose.Cells per .NET.
+title: Aggiungere la firma digitale a un file Excel già firmato
+linktitle: Aggiungere la firma digitale a un file Excel già firmato
+second_title: Riferimento API Aspose.Cells per .NET
+description: Scopri come aggiungere una firma digitale a un file Excel già firmato utilizzando Aspose.Cells per .NET con questa guida dettagliata passo dopo passo.
 type: docs
 weight: 30
 url: /it/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
 ---
-In questa guida passo passo, spiegheremo il codice sorgente C# fornito che ti consentirà di aggiungere una firma digitale a un file Excel già firmato utilizzando Aspose.Cells per .NET. Seguire i passaggi seguenti per aggiungere una nuova firma digitale a un file Excel esistente.
+## Introduzione
+
+Nel mondo digitale odierno, proteggere i documenti è più importante che mai. Le firme digitali forniscono un modo per garantire l'autenticità e l'integrità dei tuoi file, specialmente quando si tratta di informazioni sensibili. Se stai lavorando con file Excel e vuoi aggiungere una nuova firma digitale a una cartella di lavoro che è già stata firmata, sei nel posto giusto! In questa guida, ti guideremo attraverso il processo di aggiunta di una firma digitale a un file Excel già firmato utilizzando Aspose.Cells per .NET. Quindi, tuffiamoci dentro!
+
+## Prerequisiti
+
+Prima di addentrarci nei dettagli della codifica, ecco alcune cose che devi sapere:
+
+1.  Aspose.Cells per .NET: assicurati di avere la libreria Aspose.Cells installata nel tuo progetto .NET. Puoi scaricarla da[sito](https://releases.aspose.com/cells/net/).
+2.  File del certificato: avrai bisogno di un file del certificato valido (solitamente un`.pfx` file) che contiene il tuo certificato digitale. Assicurati di conoscere la password per questo file.
+3. Ambiente di sviluppo: configura il tuo ambiente di sviluppo con Visual Studio o qualsiasi altro IDE che supporti .NET.
+4. Conoscenza di base di C#: la familiarità con la programmazione C# ti aiuterà a seguire il corso senza problemi.
+5. File di esempio: avere un file Excel di esempio che è già firmato digitalmente. Questo sarà il file a cui aggiungerai una nuova firma.
+
+Ora che abbiamo tutto a posto, iniziamo a programmare!
+
+## Importa pacchetti
+
+Per iniziare, dovrai importare i pacchetti necessari nel tuo file C#. Ecco come fare:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Questi spazi dei nomi ti consentiranno di lavorare con i file Excel e di gestire le firme digitali senza problemi.
 
 ## Passaggio 1: imposta le directory di origine e di output
 
-```csharp
-// directory di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
+Prima di poter manipolare i file Excel, devi definire dove si trovano i file sorgente e dove vuoi salvare il file di output. Ecco come fare:
 
-// Cartella di destinazione
+```csharp
+//Elenco di origine
+string sourceDir = RunExamples.Get_SourceDirectory();
+// Directory di uscita
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-In questo primo passaggio definiamo le directory di origine e di output che verranno utilizzate per caricare il file Excel esistente e salvare il file con la nuova firma digitale.
+In questo passaggio, stiamo usando un metodo per ottenere i percorsi per le directory di origine e di output. Assicuratevi che queste directory esistano e contengano i file richiesti.
 
-## Passaggio 2: carica il file Excel esistente
+## Passaggio 2: caricare la cartella di lavoro già firmata
+
+Successivamente, dovrai caricare la cartella di lavoro di Excel che vuoi modificare. Questo viene fatto creando un'istanza di`Workbook` classe e passando il percorso del file firmato.
 
 ```csharp
-// Carica la cartella di lavoro Excel già firmata
+// Caricare la cartella di lavoro già firmata digitalmente
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Qui carichiamo il file Excel già firmato utilizzando il file`Workbook` classe di Aspose.Cells.
+ Qui stiamo caricando la cartella di lavoro denominata`sampleDigitallySignedByCells.xlsx`Assicurati che questo file sia già firmato.
 
-## Passaggio 3: creare la raccolta di firme digitali
+## Passaggio 3: creare una raccolta di firme digitali
+
+Ora, creiamo una raccolta di firme digitali. Questa raccolta conterrà tutte le firme digitali che vuoi aggiungere alla cartella di lavoro.
 
 ```csharp
-// Creare la raccolta delle firme digitali
+// Creare la raccolta di firme digitali
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
- Creiamo una nuova raccolta di firme digitali utilizzando il file`DigitalSignatureCollection` classe.
+Questo passaggio è fondamentale perché consente di gestire più firme se necessario.
 
-## Passaggio 4: crea un nuovo certificato
+## Passaggio 4: creare un nuovo certificato
+
+ Devi caricare il tuo file di certificato per creare una nuova firma digitale. Qui è dove specifichi il percorso al tuo`.pfx` file e la sua password.
 
 ```csharp
-// Crea un nuovo certificato
+// File del certificato e relativa password
+string certFileName = sourceDir + "AsposeDemo.pfx";
+string password = "aspose";
+
+// Crea nuovo certificato
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
-Qui creiamo un nuovo certificato dal file e dalla password forniti.
+ Assicurati di sostituire`AsposeDemo.pfx` e la password con il nome effettivo del file del certificato e la password.
 
-## Passaggio 5: aggiungi una nuova firma digitale alla raccolta
+## Passaggio 5: creare la firma digitale
+
+Con il certificato in mano, ora puoi creare una firma digitale. Dovrai anche fornire un motivo per la firma e la data e l'ora correnti.
 
 ```csharp
-// Creare una nuova firma digitale
-Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added a new digital signature to the already signed workbook.", DateTime.Now);
-
-// Aggiungi la firma digitale alla raccolta
-dsCollection.Add(signature);
+// Crea una nuova firma digitale e aggiungila alla raccolta di firme digitali
+Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 ```
 
- Creiamo una nuova firma digitale utilizzando il file`DigitalSignature` classe e aggiungerla alla raccolta delle firme digitali.
+Questo passaggio aggiunge la nuova firma alla raccolta, che verrà poi applicata alla cartella di lavoro.
 
 ## Passaggio 6: aggiungere la raccolta di firme digitali alla cartella di lavoro
 
+Ora è il momento di aggiungere la raccolta di firme digitali alla cartella di lavoro. È qui che avviene la magia!
+
 ```csharp
-//Aggiungere la raccolta di firme digitali alla cartella di lavoro
+// Aggiungere la raccolta di firme digitali all'interno della cartella di lavoro
 workbook.AddDigitalSignature(dsCollection);
 ```
 
- Aggiungiamo la raccolta di firme digitali alla cartella di lavoro Excel esistente utilizzando il file`AddDigitalSignature()` metodo.
+Eseguendo questa riga, di fatto si allega la nuova firma digitale alla cartella di lavoro già firmata.
 
-## Passaggio 7: salvare e chiudere la cartella di lavoro
+## Passaggio 7: salvare ed eliminare la cartella di lavoro
+
+Infine, dovrai salvare la cartella di lavoro modificata nella directory di output e rilasciare tutte le risorse utilizzate.
 
 ```csharp
-// Salvare la cartella di lavoro e chiuderla
+// Salvare la cartella di lavoro ed eliminarla.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
 
-Salviamo la cartella di lavoro con la nuova firma digitale nella directory di output specificata, quindi la chiudiamo e liberiamo le risorse associate.
+Questo passaggio garantisce che le modifiche vengano salvate e che la cartella di lavoro venga eliminata correttamente per liberare risorse.
 
-### Codice sorgente di esempio per aggiungere firma digitale a un file Excel già firmato utilizzando Aspose.Cells per .NET 
+## Passaggio 8: conferma dell'esecuzione
+
+Per concludere, è una buona idea confermare che il tuo codice è stato eseguito correttamente. Puoi farlo con un semplice messaggio della console.
+
 ```csharp
-//Directory di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
-//Cartella di destinazione
-string outputDir = RunExamples.Get_OutputDirectory();
-//File del certificato e relativa password
-string certFileName = sourceDir + "AsposeDemo.pfx";
-string password = "aspose";
-//Caricare la cartella di lavoro già firmata digitalmente per aggiungere una nuova firma digitale
-Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
-//Creare la raccolta di firme digitali
-Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-//Crea nuovo certificato
-System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
-//Crea una nuova firma digitale e aggiungila alla raccolta di firme digitali
-Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
-dsCollection.Add(signature);
-//Aggiungi la raccolta di firme digitali all'interno della cartella di lavoro
-workbook.AddDigitalSignature(dsCollection);
-//Salvare la cartella di lavoro e smaltirla.
-workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
-workbook.Dispose();
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
+Ciò fornisce un feedback che l'operazione è andata a buon fine, il che è sempre bello da vedere!
+
 ## Conclusione
 
-Congratulazioni! Ora hai imparato come aggiungere una firma digitale a un file Excel già firmato utilizzando Aspose.Cells per .NET. Le firme digitali aggiungono un ulteriore livello di sicurezza ai tuoi file Excel, garantendone l'autenticità e l'integrità.
+Ed ecco fatto! Hai aggiunto con successo una nuova firma digitale a un file Excel già firmato utilizzando Aspose.Cells per .NET. Le firme digitali sono un modo potente per garantire l'autenticità dei tuoi documenti e ora sai come gestirle a livello di programmazione. Che tu stia lavorando su documenti finanziari, contratti o qualsiasi informazione sensibile, l'implementazione di firme digitali può migliorare la sicurezza e l'affidabilità.
 
-### Domande frequenti
+## Domande frequenti
 
-#### D: Cos'è Aspose.Cells per .NET?
+### Cos'è una firma digitale?
+La firma digitale è un metodo crittografico utilizzato per convalidare l'autenticità e l'integrità di un messaggio o di un documento.
 
-R: Aspose.Cells per .NET è una potente libreria di classi che consente agli sviluppatori .NET di creare, modificare, convertire e manipolare file Excel con facilità.
+### Posso aggiungere più firme digitali allo stesso file Excel?
+Sì, puoi creare una raccolta di firme digitali e aggiungere più firme alla stessa cartella di lavoro.
 
-#### D: Cos'è una firma digitale in un file Excel?
+### Quali formati supporta Aspose.Cells per le firme digitali?
+ Aspose.Cells supporta vari formati, tra cui`.pfx` per i certificati.
 
-R: La firma digitale in un file Excel è un marchio elettronico che garantisce l'autenticità, l'integrità e l'origine del documento. Viene utilizzato per verificare che il file non sia stato modificato da quando è stato firmato e provenga da una fonte affidabile.
+### Ho bisogno di una versione specifica di .NET per utilizzare Aspose.Cells?
+ Controllare il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) per la compatibilità con la tua versione .NET.
 
-#### D: Quali sono i vantaggi derivanti dall'aggiunta di una firma digitale a un file Excel?
-
-R: L'aggiunta di una firma digitale a un file Excel offre numerosi vantaggi, tra cui la protezione contro modifiche non autorizzate, la garanzia dell'integrità dei dati, l'autenticazione dell'autore del documento e la garanzia delle informazioni in esso contenute.
-
-#### D: Posso aggiungere più firme digitali a un file Excel?
-
-R: Sì, Aspose.Cells ti consente di aggiungere più firme digitali a un file Excel. È possibile creare una raccolta di firme digitali e aggiungerle al file in un'unica operazione.
-
-#### D: Quali sono i requisiti per aggiungere una firma digitale a un file Excel?
-
-R: Per aggiungere una firma digitale a un file Excel, è necessario un certificato digitale valido che verrà utilizzato per firmare il documento. Assicurati di avere il certificato e la password corretti prima di aggiungere la firma digitale.
+### Come posso ottenere una licenza temporanea per Aspose.Cells?
+ Puoi richiedere una licenza temporanea da[Pagina di acquisto di Aspose](https://purchase.aspose.com/temporary-license/).

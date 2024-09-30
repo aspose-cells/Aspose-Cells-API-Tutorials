@@ -8,7 +8,7 @@ weight: 10
 url: /hu/java/excel-import-export/bulk-data-import-excel/
 ---
 
-Ebben az átfogó útmutatóban végigvezetjük az Excelből történő tömeges adatimportálás folyamatán a hatékony Aspose.Cells for Java API használatával. Akár nagy adathalmazról van szó, akár csak az adatfeldolgozás egyszerűsítését szeretné elérni, ez a forráskód-példákat tartalmazó, lépésről lépésre bemutatott oktatóanyag segít céljai hatékony elérésében.
+Ebben az átfogó útmutatóban végigvezetjük az Excelből történő tömeges adatimportálás folyamatán a hatékony Aspose.Cells for Java API használatával. Akár nagy adathalmazról van szó, akár csak az adatfeldolgozás egyszerűsítését szeretné elérni, ez a forráskód-példákat tartalmazó, lépésről lépésre mutató oktatóanyag segít hatékonyan elérni céljait.
 
 ## Bevezetés
 

@@ -1,16 +1,44 @@
 ---
-title: Xades 署名のサポート
-linktitle: Xades 署名のサポート
+title: Xades 署名サポート
+linktitle: Xades 署名サポート
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Xades 署名を Excel ファイルに追加する方法を学習します。
+description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel ファイルに Xades 署名を追加する方法を説明します。ドキュメントを保護します。
 type: docs
 weight: 190
 url: /ja/net/excel-workbook/xades-signature-support/
 ---
-この記事では、.NET 用の Aspose.Cells ライブラリを使用した Xades 署名のサポートに関する以下の C# ソース コードを段階的に説明します。このライブラリを使用して Xades デジタル署名を Excel ファイルに追加する方法を説明します。また、署名プロセスとその実行の概要についても説明します。最終的な結果を得るには、以下の手順に従ってください。
+## 導入
 
-## ステップ 1: ソース ディレクトリと出力ディレクトリを定義する
-まず、コード内でソース ディレクトリと出力ディレクトリを定義する必要があります。これらのディレクトリは、ソース ファイルの場所と出力ファイルの保存場所を示します。対応するコードは次のとおりです。
+今日のデジタル世界では、ドキュメントのセキュリティ保護がこれまで以上に重要になっています。機密性の高いビジネス情報を扱う場合でも、個人データを扱う場合でも、ファイルの整合性と信頼性を確保することが最も重要です。これを実現する方法の 1 つは、デジタル署名、具体的には Xades 署名を使用することです。アプリケーションに Xades 署名サポートを実装しようとしている .NET 開発者であれば、このガイドはまさにうってつけです。このガイドでは、Aspose.Cells for .NET を使用して Excel ファイルに Xades 署名を追加する手順を説明します。それでは、早速始めましょう。
+
+## 前提条件
+
+始める前に、いくつか準備しておく必要があります。
+
+1.  Aspose.Cells for .NET: Aspose.Cellsライブラリがインストールされていることを確認してください。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
+2. 開発環境: コードを記述して実行できる、実用的な .NET 開発環境 (Visual Studio など)。
+3. デジタル証明書: パスワード付きの有効なデジタル証明書 (PFX ファイル) が必要です。この証明書は、デジタル署名を作成するために不可欠です。
+4. C# の基礎知識: C# プログラミングに精通していると、例をよりよく理解するのに役立ちます。
+
+これらの前提条件を整理したら、Excel ファイルに Xades 署名を実装する準備が整います。
+
+## パッケージのインポート
+
+Aspose.Cells for .NET を使用するには、必要な名前空間をインポートする必要があります。その方法は次のとおりです。
+
+```csharp
+using Aspose.Cells.DigitalSignatures;
+using System;
+using System.IO;
+```
+
+これらの名前空間は、Excel ファイルの操作やデジタル署名の管理に必要なクラスとメソッドへのアクセスを提供します。
+
+これですべての設定が完了したので、Xades 署名を Excel ファイルに追加するプロセスを明確で管理しやすい手順に分解してみましょう。
+
+## ステップ1: ソースディレクトリと出力ディレクトリを設定する
+
+まず、ソース Excel ファイルの場所と、署名された出力ファイルを保存する場所を定義する必要があります。これは、ファイルを効率的に整理するのに役立つため、重要なステップです。
 
 ```csharp
 //ソースディレクトリ
@@ -19,31 +47,43 @@ string sourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-必要に応じてディレクトリ パスを調整してください。
+このコードスニペットでは、`RunExamples.Get_SourceDirectory()`そして`RunExamples.Get_OutputDirectory()`は、それぞれソース ディレクトリと出力ディレクトリへのパスを返すメソッドです。これらのメソッドを使用していない場合は、必ず実際のパスに置き換えてください。
 
-## ステップ 2: Excel ワークブックをロードする
-次のステップでは、Xades デジタル署名を追加する Excel ワークブックをロードします。ワークブックをロードするコードは次のとおりです。
+## ステップ2: ワークブックを読み込む
+
+次に、署名する Excel ブックを読み込みます。ここで、既存の Excel ファイルを読み込みます。
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
 
-コード内でソース ファイル名を正しく指定してください。
+ここで、新しいインスタンスを作成します。`Workbook`クラスに、ソース Excel ファイルのパスを渡します。ファイル名がソース ディレクトリにあるファイル名と一致していることを確認します。
 
-## ステップ 3: デジタル署名の構成
-次に、必要な情報を入力して Xades デジタル署名を構成します。デジタル証明書を含む PFX ファイルと、関連するパスワードを指定する必要があります。対応するコードは次のとおりです。
+## ステップ3: デジタル証明書を準備する
+
+デジタル署名を作成するには、デジタル証明書を読み込む必要があります。これには、PFX ファイルの読み取りとパスワードの提供が含まれます。
 
 ```csharp
-string password = "pfxPassword";
-string pfx = "pfxFile";
+string password = "pfxPassword"; // PFXパスワードに置き換えます
+string pfx = "pfxFile"; //PFXファイルへのパスに置き換えます
+```
+
+このステップでは、`pfxPassword`実際のパスワードと`pfxFile`PFX ファイルへのパスを入力します。これがドキュメントに署名するための鍵となります。
+
+## ステップ4: デジタル署名を作成する
+
+それでは、デジタル署名を作成しましょう。`DigitalSignature`クラス。ここで魔法が起きます！
+
+```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
 ```
 
-「pfxPassword」を実際のパスワードに置き換え、「pfxFile」を PFX ファイルへのパスに置き換えてください。
+このスニペットでは、PFXファイルをバイト配列に読み込み、新しい`DigitalSignature`オブジェクトを設定します。`XAdESType`に`XAdES`、これは私たちの署名にとって不可欠です。
 
-## ステップ 4: デジタル署名を追加する
-デジタル署名を構成したので、それを Excel ワークブックに追加できます。対応するコードは次のとおりです。
+## ステップ5: ワークブックに署名を追加する
+
+デジタル署名を作成したら、次の手順ではそれをワークブックに追加します。
 
 ```csharp
 DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
@@ -51,48 +91,37 @@ dsCollection.Add(signature);
 workbook.SetDigitalSignature(dsCollection);
 ```
 
-この手順では、Xades デジタル署名を Excel ブックに追加します。
+ここでは、`DigitalSignatureCollection`署名を追加し、このコレクションをブックに設定します。これが、Excel ファイルに署名を添付する方法です。
 
-## ステップ 5: 署名付きでワークブックを保存する
-最後に、デジタル署名を追加して Excel ブックを保存します。対応するコードは次のとおりです。
+## ステップ6: 署名されたワークブックを保存する
+
+最後に、署名されたワークブックを出力ディレクトリに保存します。この手順でプロセスが完了します。
 
 ```csharp
-workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
-```
-
-必要に応じて出力ファイルの名前を変更してください。
-
-### Aspose.Cells for .NET を使用した Xades 署名サポートのサンプル ソース コード 
-```csharp
-//ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
-//出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
-string password = "pfxPassword";
-string pfx = "pfxFile";
-DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
-signature.XAdESType = XAdESType.XAdES;
-DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
-dsCollection.Add(signature);
-workbook.SetDigitalSignature(dsCollection);
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 
+このコードでは、ワークブックを新しい名前で保存します。`XAdESSignatureSupport_out.xlsx`、出力ディレクトリに保存されます。この手順が完了すると、コンソールに成功メッセージが表示されます。
+
 ## 結論
-おめでとうございます！ .NET 用の Aspose.Cells ライブラリを使用して Xades デジタル署名を Excel ファイルに追加する方法を学習しました。この記事で説明する手順に従うことで、この機能を独自のプロジェクトに実装できるようになります。ライブラリを自由に試してみて、ライブラリが提供する他の強力な機能を発見してください。
 
-### よくある質問
+これで完了です。Aspose.Cells for .NET を使用して、Excel ファイルに Xades 署名を正常に追加できました。このプロセスにより、ドキュメントのセキュリティが強化されるだけでなく、ファイルの信頼性が確保され、ユーザーとの信頼関係も構築されます。 
+デジタル署名は現代のドキュメント管理に不可欠な要素であり、Aspose.Cells の力により、アプリケーションに簡単に実装できます。
 
-#### Q：ザデスとは何ですか？
+## よくある質問
 
-A: Xades は、デジタル ドキュメントの完全性と信頼性を保証するために使用される高度な電子署名標準です。
+### Xades の署名とは何ですか?
+Xades (XML Advanced Electronic Signatures) は、電子文書の整合性と信頼性を確保するための追加機能を提供するデジタル署名の標準です。
 
-#### Q: Aspose.Cells で他のタイプのデジタル署名を使用できますか?
+### Xades 署名を作成するにはデジタル証明書が必要ですか?
+はい、Xades 署名を作成するには有効なデジタル証明書 (PFX ファイル) が必要です。
 
-A: はい、Aspose.Cells は、XMLDSig 署名や PKCS#7 署名など、他のタイプのデジタル署名もサポートしています。
+### 購入前に Aspose.Cells for .NET をテストできますか?
+もちろんです！無料トライアルは[Aspose ウェブサイト](https://releases.aspose.com/).
 
-#### Q: Excel ファイル以外のファイル タイプに署名を適用できますか?
- 
-A: はい、Aspose.Cells では、Word、PDF、PowerPoint ファイルなど、サポートされている他のファイル タイプにデジタル署名を適用することもできます。
+### Aspose.Cells は .NET のすべてのバージョンと互換性がありますか?
+Aspose.Cellsは.NETフレームワークのさまざまなバージョンをサポートしています。[ドキュメント](https://reference.aspose.com/cells/net/)互換性の詳細については、こちらをご覧ください。
+
+### 問題が発生した場合、どこでサポートを受けることができますか?
+訪問することができます[Aspose フォーラム](https://forum.aspose.com/c/cells/9)コミュニティのサポートと支援のため。

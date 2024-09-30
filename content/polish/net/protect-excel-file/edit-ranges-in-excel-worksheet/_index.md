@@ -1,145 +1,152 @@
 ---
-title: Edytuj zakresy w arkuszu programu Excel
-linktitle: Edytuj zakresy w arkuszu programu Excel
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Dowiedz się, jak edytować określone zakresy w arkuszu kalkulacyjnym Excel za pomocą Aspose.Cells dla .NET. Samouczek krok po kroku w języku C#.
+title: Edytuj zakresy w arkuszu kalkulacyjnym programu Excel
+linktitle: Edytuj zakresy w arkuszu kalkulacyjnym programu Excel
+second_title: Aspose.Cells dla .NET API Reference
+description: Naucz się edytować zakresy w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET dzięki temu kompleksowemu przewodnikowi zawierającemu instrukcje krok po kroku.
 type: docs
 weight: 20
 url: /pl/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 ---
-Microsoft Excel to potężne narzędzie do tworzenia arkuszy kalkulacyjnych i zarządzania nimi, oferujące wiele funkcji kontroli i zabezpieczania danych. Jedną z takich funkcji jest umożliwienie użytkownikom edytowania określonych zakresów w arkuszu przy jednoczesnej ochronie innych części. W tym samouczku poprowadzimy Cię krok po kroku, jak wdrożyć tę funkcjonalność przy użyciu Aspose.Cells dla .NET, popularnej biblioteki do programowej pracy z plikami Excel.
+## Wstęp
 
-Korzystanie z Aspose.Cells dla .NET pozwoli Ci z łatwością manipulować zakresami w arkuszu kalkulacyjnym Excel, zapewniając przyjazny dla użytkownika interfejs i zaawansowane funkcje. Wykonaj poniższe kroki, aby umożliwić użytkownikom edycję określonych zakresów w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET.
-## Krok 1: Konfigurowanie środowiska
+Jeśli chodzi o edycję arkuszy kalkulacyjnych programu Excel, jedną z najpotężniejszych funkcji, która się przydaje, jest możliwość ochrony określonych obszarów, a jednocześnie zezwalania na edycję innych. Może to być niezwykle przydatne w środowiskach współpracy, w których wielu użytkowników potrzebuje dostępu, ale powinno modyfikować tylko wyznaczone komórki. Dzisiaj zagłębimy się w to, jak wykorzystać Aspose.Cells dla .NET do zarządzania edytowalnymi zakresami w arkuszu kalkulacyjnym programu Excel. Więc weź swój ulubiony napój do kodowania i zaczynajmy!
 
-Upewnij się, że w środowisku programistycznym zainstalowano Aspose.Cells for .NET. Pobierz bibliotekę z oficjalnej strony Aspose i sprawdź dokumentację zawierającą instrukcje instalacji.
+## Wymagania wstępne
 
-## Krok 2: Inicjowanie skoroszytu i arkusza kalkulacyjnego
+Zanim przejdziemy do kodowania, upewnijmy się, że wszystko jest gotowe. Oto, czego potrzebujesz:
 
-Na początek musimy utworzyć nowy skoroszyt i uzyskać odwołanie do arkusza, w którym chcemy zezwolić na zmianę zakresów. Aby to osiągnąć, użyj poniższego kodu:
+1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. Wersja community działa doskonale.
+2.  Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3. Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# okaże się bardzo przydatna.
+4. Konfiguracja projektu: Utwórz nową aplikację konsolową C# w programie Visual Studio.
+
+Flawless — wszystko gotowe! Teraz zanurkujmy w sedno kodu.
+
+## Importuj pakiety
+
+Po skonfigurowaniu projektu, pierwszym krokiem jest zaimportowanie niezbędnej przestrzeni nazw Aspose.Cells. Aby to zrobić, po prostu umieść następujący wiersz na górze pliku kodu:
+
+```csharp
+using Aspose.Cells;
+```
+
+Dzięki temu będziesz mieć dostęp do wszystkich funkcjonalności udostępnianych przez Aspose.Cells w swoim projekcie.
+
+## Krok 1: Skonfiguruj katalog
+
+Zanim zaczniesz pracować z plikami Excela, dobrym pomysłem jest utworzenie katalogu, w którym będą się znajdować Twoje pliki. Ten krok zapewnia, że Twoja aplikacja wie, gdzie odczytywać i zapisywać dane.
+
+Przedstawmy kod służący do tworzenia katalogu (jeśli jeszcze nie istnieje):
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-// Utwórz katalog, jeśli jeszcze nie istnieje.
-bool exists = System.IO.Directory.Exists(dataDir);
-if (! exists)
-     System.IO.Directory.CreateDirectory(dataDir);
-
-// Utwórz wystąpienie nowego skoroszytu
-Workbook workbook = new Workbook();
-
-// Pobierz pierwszy arkusz (domyślnie)
-Worksheet sheet = workbook.Worksheets[0];
-```
-
- W tym fragmencie kodu najpierw definiujemy ścieżkę do katalogu, w którym zostanie zapisany plik Excel. Następnie tworzymy nową instancję pliku`Workbook` klasę i uzyskaj odwołanie do pierwszego arkusza za pomocą metody`Worksheets` nieruchomość.
-
-## Krok 3: Uzyskaj edytowalne zakresy
-
-Teraz musimy pobrać zakresy, w których chcemy zezwolić na modyfikację. Użyj następującego kodu:
-
-```csharp
-// Uzyskaj modyfikowalne zakresy
-ProtectedRangeCollection EditableRanges = Sheet.AllowEditRanges;
-```
-
-## Krok 4: Ustaw chroniony zakres
-
-Zanim umożliwimy modyfikację zakresów, musimy zdefiniować zakres chroniony. Oto jak:
-
-```csharp
-// Zdefiniuj chroniony zakres
-ProtectedRange ProtectedRange;
-
-// Utwórz zakres
-int index = ModifiableRanges.Add("r2", 1, 1, 3, 3);
-rangeProtected = rangesEditable[index];
-```
-
- W tym kodzie tworzymy nową instancję klasy`ProtectedRange` klasę i użyj`Add` metoda określania zakresu do ochrony.
-
-## Krok 5: Podaj hasło
-
-Aby zwiększyć bezpieczeństwo, możesz określić hasło dla chronionego zakresu. Oto jak:
-
-```csharp
-// Określ hasło
-protectedBeach.Password = "YOUR_PASSWORD";
-```
-
-## Krok 6: Chroń arkusz
-
-Teraz, gdy ustawiliśmy chroniony zakres, możemy zabezpieczyć arkusz, aby zapobiec nieautoryzowanym modyfikacjom. Użyj następującego kodu:
-
-```csharp
-// Chroń arkusz
-leaf.Protect(ProtectionType.All);
-```
-
-## Krok 7: Zapisz plik Excel
-
-Na koniec zapisujemy plik Excel z dokonanymi zmianami. Oto niezbędny kod:
-
-```csharp
-// Zapisz plik Excela
-workbook.Save(dataDir + "protectedrange.out.xls");
-```
-
-### Przykładowy kod źródłowy edycji zakresów w arkuszu programu Excel przy użyciu Aspose.Cells dla .NET 
-```csharp
-//Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Utwórz katalog, jeśli jeszcze nie istnieje.
+// Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
+```
 
-// Utwórz wystąpienie nowego skoroszytu
+ Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz przechowywać swoje pliki. Może to być coś takiego`@"C:\ExcelFiles\"`.
+
+## Krok 2: Utwórz nowy skoroszyt
+
+Teraz, gdy Twój katalog jest już gotowy, utwórzmy nowy skoroszyt programu Excel. Jest to podobne do uruchomienia pustego płótna przed rozpoczęciem malowania.
+
+```csharp
+// Utwórz nowy skoroszyt
 Workbook book = new Workbook();
+```
 
-// Pobierz pierwszy (domyślny) arkusz
+Dzięki temu pusty skoroszyt będzie gotowy!
+
+## Krok 3: Pobierz pierwszy arkusz roboczy
+
+Każdy skoroszyt domyślnie zawiera co najmniej jeden arkusz. Musisz pobrać ten arkusz, aby wykonać na nim operacje.
+
+```csharp
+// Pobierz pierwszy (domyślny) arkusz kalkulacyjny
 Worksheet sheet = book.Worksheets[0];
+```
 
-// Uzyskaj Zezwalaj na zakresy edycji
+Tutaj uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego, co można porównać do otwarcia czystej kartki papieru w notatniku.
+
+## Krok 4: Uzyskaj opcję Zezwalaj na edycję zakresów
+
+Zanim będziemy mogli skonfigurować edytowalne zakresy, musimy pobrać kolekcję chronionych zakresów z naszego arkusza kalkulacyjnego.
+
+```csharp
+// Pobierz opcję Zezwalaj na edycję zakresów
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
+```
 
-// Zdefiniuj chroniony zakres
+Ta linia pobiera kolekcję, w której będziesz zarządzać swoimi chronionymi zakresami. Dobrze jest wiedzieć, co jest dostępne pod maską!
+
+## Krok 5: Zdefiniuj i utwórz zakres chroniony
+
+tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
+
+```csharp
+// Zdefiniuj ProtectedRange
 ProtectedRange proteced_range;
 
 // Utwórz zakres
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
+```
 
-// Określ hasło
+W powyższym kodzie tworzymy chroniony zakres o nazwie „r2”, który umożliwia edycję komórek od wiersza 1, kolumny 1 do wiersza 3, kolumny 3 (co w żargonie Excela oznacza blok A1 do C3). Możesz dostosować te indeksy według potrzeb.
+
+## Krok 6: Ustaw hasło 
+
+Ustawienie hasła dla chronionego zakresu zapewnia, że tylko osoby znające hasło mogą modyfikować zdefiniowany obszar. Ten krok zwiększa bezpieczeństwo arkusza kalkulacyjnego.
+
+```csharp
+// Podaj hasło
 proteced_range.Password = "YOUR_PASSWORD";
+```
 
-// Chroń prześcieradło
+ Zastępować`"YOUR_PASSWORD"` z hasłem, które sam wybierzesz. Pamiętaj tylko, żeby nie było za proste — pomyśl o tym jak o zamykaniu skrzyni ze skarbami!
+
+## Krok 7: Zabezpiecz arkusz
+
+Teraz, gdy zdefiniowaliśmy zakres edytowalny i zabezpieczyliśmy go hasłem, czas zabezpieczyć cały arkusz kalkulacyjny.
+
+```csharp
+// Chroń arkusz
 sheet.Protect(ProtectionType.All);
+```
 
+Wywołując tę metodę, zasadniczo nakładasz blokadę na cały arkusz kalkulacyjny. Można zmienić tylko zakresy zdefiniowane do edycji.
+
+## Krok 8: Zapisz plik Excel
+
+W końcu dotarliśmy do ostatniego kroku naszego samouczka — zapisania skoroszytu w zdefiniowanym katalogu!
+
+```csharp
 // Zapisz plik Excela
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+ Spowoduje to zapisanie chronionego skoroszytu jako`protectedrange.out.xls` w podanym przez Ciebie katalogu.
+
 ## Wniosek
 
-Gratulacje! Nauczyłeś się, jak pozwolić użytkownikom na edycję określonych zakresów w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Możesz teraz zastosować tę technikę we własnych projektach i poprawić bezpieczeństwo swoich plików Excel.
+I masz to! Udało Ci się utworzyć arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET, zdefiniować edytowalne zakresy, ustawić hasło i zabezpieczyć arkusz — wszystko w kilku prostych krokach. Teraz możesz udostępnić swój skoroszyt współpracownikom, zwiększając współpracę przy jednoczesnym zachowaniu bezpieczeństwa ważnych danych.
 
+## Najczęściej zadawane pytania
 
-#### Często zadawane pytania
+### Czym jest Aspose.Cells?  
+Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 
-#### P: Dlaczego powinienem używać Aspose.Cells dla .NET do edycji zakresów w arkuszu kalkulacyjnym Excel?
+### Czy mogę chronić wybrane komórki w arkuszu kalkulacyjnym Excel?  
+Tak, używając Aspose.Cells, możesz zdefiniować konkretne zakresy edytowalne i zabezpieczyć resztę arkusza kalkulacyjnego.
 
-Odp.: Aspose.Cells dla .NET oferuje potężne i łatwe w użyciu API do pracy z plikami Excel. Zapewnia zaawansowane funkcje, takie jak manipulacja zakresami, ochrona arkusza itp.
+### Czy jest dostępna wersja próbna Aspose.Cells?  
+ Oczywiście! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
-#### P: Czy mogę ustawić wiele edytowalnych zakresów w arkuszu?
+### Czy mogę używać Aspose.Cells z innymi językami programowania?  
+Choć ten samouczek skupia się na platformie .NET, Aspose.Cells jest dostępny dla kilku języków programowania, w tym Java i Cloud APIs.
 
- O: Tak, możesz zdefiniować wiele edytowalnych zakresów za pomocą`Add` metoda`ProtectedRangeCollection` kolekcja. Każdy zakres może mieć własne ustawienia zabezpieczeń.
-
-####  P: Czy można usunąć zakres edytowalny po jego zdefiniowaniu?
-
- Odp.: Tak, możesz użyć`RemoveAt` metoda`ProtectedRangeCollection` kolekcja, aby usunąć określony zakres edytowalny, określając jego indeks.
-
-#### P: Jak mogę otworzyć chroniony plik Excel po jego zapisaniu?
-
-Odp.: Aby otworzyć chroniony plik Excel, konieczne będzie podanie hasła określonego podczas tworzenia chronionego zakresu. Pamiętaj, aby zachować hasło w bezpiecznym miejscu, aby zapobiec utracie dostępu do danych.
+### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?  
+Możesz zapoznać się z pełną dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).

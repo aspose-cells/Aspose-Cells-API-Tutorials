@@ -93,7 +93,7 @@ workbook.save("sample.xlsx");
 
 ## 使用 Aspose.Cells 進行條件求和
 
-Aspose.Cells 還允許您實作條件 SUM 公式，這對於複雜的資料分析非常有用。您可以使用類似的功能`SUMIF`和`SUMIFS`對您的金額套用條件。
+Aspose.Cells 還允許您實作條件 SUM 公式，這對於複雜的資料分析非常有用。您可以使用類似的函數`SUMIF`和`SUMIFS`對您的金額套用條件。
 
 ```java
 //條件求和

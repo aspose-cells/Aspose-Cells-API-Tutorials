@@ -2,147 +2,160 @@
 title: Odebrat existující nastavení tiskárny z listů
 linktitle: Odebrat existující nastavení tiskárny z listů
 second_title: Aspose.Cells for .NET API Reference
-description: Zjistěte, jak odstranit stávající nastavení tiskárny z tabulek aplikace Excel pomocí Aspose.Cells for .NET.
+description: Objevte podrobného průvodce odstraněním nastavení tiskárny z excelových listů pomocí Aspose.Cells for .NET, čímž bez námahy vylepšíte kvalitu tisku vašeho dokumentu.
 type: docs
 weight: 80
 url: /cs/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 ---
-V tomto tutoriálu vás krok za krokem provedeme, jak odstranit stávající nastavení tiskárny z listů v Excelu pomocí Aspose.Cells for .NET. Pro ilustraci procesu použijeme zdrojový kód C#.
+## Zavedení
 
-## Krok 1: Nastavení prostředí
+Ať už vyvíjíte aplikace, které manipulují se soubory aplikace Excel, nebo se jen vrtíte pro osobní použití, pochopení toho, jak spravovat nastavení listu, je zásadní. Proč? Protože nesprávná konfigurace tiskárny může znamenat rozdíl mezi dobře vytištěnou zprávou a chybným tiskem. Navíc v éře dynamické správy dokumentů vám možnost snadného odstranění těchto nastavení může ušetřit čas a zdroje.
 
-Ujistěte se, že máte na svém počítači nainstalovaný Aspose.Cells for .NET. Vytvořte také nový projekt ve vámi preferovaném vývojovém prostředí.
+## Předpoklady
 
-## Krok 2: Importujte potřebné knihovny
+Než začneme odstraňovat tato otravná nastavení tiskárny, budete potřebovat několik věcí. Zde je rychlý kontrolní seznam, abyste se ujistili, že jste připraveni:
 
-Do souboru kódu importujte knihovny potřebné pro práci s Aspose.Cells. Zde je odpovídající kód:
+1. Nainstalované Visual Studio: K zápisu a spuštění kódu .NET je nutné vývojové prostředí. Pokud ji ještě nemáte, přejděte na web sady Visual Studio a stáhněte si nejnovější verzi.
+2.  Aspose.Cells for .NET: Tuto knihovnu budete potřebovat ve svém projektu. Můžete si jej stáhnout z[Aspose stránku vydání](https://releases.aspose.com/cells/net/).
+3. Vzorový soubor Excel: Pro tento návod budete potřebovat vzorový soubor Excel obsahující nastavení tiskárny. Můžete si jej vytvořit nebo použít ukázkový soubor poskytovaný Aspose.
+
+Nyní, když máme vše, co potřebujeme, vrhněme se na kód!
+
+## Importujte balíčky
+
+Abychom mohli začít, musíme do našeho projektu .NET importovat potřebné jmenné prostory. Postup:
+
+### Otevřete svůj projekt
+
+Otevřete svůj stávající projekt sady Visual Studio nebo vytvořte nový projekt aplikace konzoly.
+
+### Přidat reference
+
+ Ve svém projektu přejděte na`References` , klikněte pravým tlačítkem a vyberte`Add Reference...`Vyhledejte knihovnu Aspose.Cells a přidejte ji do svého projektu.
+
+### Importujte požadované jmenné prostory
+
+V horní části souboru kódu uveďte tyto jmenné prostory:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
+using System;
 ```
 
-## Krok 3: Nastavte zdrojový a výstupní adresář
+Tyto jmenné prostory poskytují přístup k funkcím, které potřebujeme k manipulaci se soubory aplikace Excel pomocí Aspose.Cells.
 
-Nastavte zdrojový a výstupní adresář, kde se nachází původní soubor Excel a kam chcete uložit upravený soubor. Použijte následující kód:
+Nyní si rozeberme proces odebrání nastavení tiskárny z listů aplikace Excel do zvládnutelných kroků.
 
-```csharp
-string sourceDir = "SOURCE DIRECTORY PATH";
-string outputDir = "OUTPUT DIRECTORY PATH";
-```
+## Krok 1: Definujte zdrojový a výstupní adresář
 
-Nezapomeňte zadat úplné cesty k adresáři.
+Chcete-li začít, musíte určit, kde se nachází zdrojový soubor aplikace Excel a kam chcete upravený soubor uložit.
 
-## Krok 4: Načtení zdrojového souboru Excel
-
-Načtěte zdrojový soubor Excel pomocí následujícího kódu:
-
-```csharp
-Workbook wb = new Workbook(sourceDir + "fileName.xlsx");
-```
-
-Tím se zadaný soubor Excel načte do objektu Sešit.
-
-## Krok 5: Procházejte listy
-
-Procházejte všechny listy v sešitu pomocí smyčky. Použijte následující kód:
-
-```csharp
-int sheetCount = wb. Worksheets. Count;
-
-for (int i = 0; i < sheetCount; i++)
-{
-     Worksheet ws = wb.Worksheets[i];
-     // Zbytek kódu bude přidán v dalším kroku.
-}
-```
-
-## Krok 6: Odstraňte existující nastavení tiskárny
-
-Zkontrolujte, zda pro každý list existují nastavení tiskárny a v případě potřeby je odstraňte. Použijte následující kód:
-
-```csharp
-PageSetup ps = ws.PageSetup;
-
-if (ps.PrinterSettings != null)
-{
-     Console.WriteLine("Printer settings for this spreadsheet exist.");
-     Console.WriteLine("Sheet name: " + ws.Name);
-     Console.WriteLine("Paper size: " + ps.PaperSize);
-
-     ps.PrinterSettings = null;
-
-     Console.WriteLine("Printer settings for this spreadsheet have been removed by setting them to null.");
-     Console.WriteLine("");
-}
-```
-
-## Krok 7: Uložení upraveného sešitu
-
-Uložte upravený sešit pomocí následujícího kódu:
-
-```csharp
-wb.Save(outputDir + "modifiedFilename.xlsx");
-```
-
-Tím se upravený sešit uloží do zadaného výstupního adresáře.
-
-### Ukázkový zdrojový kód pro odstranění existujících nastavení tiskárny z pracovních listů pomocí Aspose.Cells pro .NET 
 ```csharp
 //Zdrojový adresář
 string sourceDir = RunExamples.Get_SourceDirectory();
 //Výstupní adresář
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+
+ Tady byste vyměnili`RunExamples.Get_SourceDirectory()` a`RunExamples.Get_OutputDirectory()` se skutečnými cestami, kde jsou uloženy vaše soubory.
+
+## Krok 2: Načtěte soubor Excel
+
+Dále musíme načíst náš sešit (soubor Excel) ke zpracování. To se provádí pouze jedním řádkem kódu.
+
+```csharp
 //Načtěte zdrojový soubor Excel
 Workbook wb = new Workbook(sourceDir + "sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx");
+```
+
+Tento řádek otevře soubor Excel a připraví jej na úpravy.
+
+## Krok 3: Získejte počet listů
+
+Nyní, když máme náš sešit, pojďme zjistit, kolik listů obsahuje:
+
+```csharp
 //Získejte počty listů sešitu
 int sheetCount = wb.Worksheets.Count;
-//Opakujte všechny listy
+```
+
+To nám pomůže efektivně procházet každým pracovním listem.
+
+## Krok 4: Iterujte každý list
+
+S počtem listů po ruce je čas projít každý list v sešitu. U každého z nich budete chtít zkontrolovat stávající nastavení tiskárny.
+
+```csharp
 for (int i = 0; i < sheetCount; i++)
 {
     //Otevřete i-tý pracovní list
     Worksheet ws = wb.Worksheets[i];
-    //Přístup k nastavení stránky listu
-    PageSetup ps = ws.PageSetup;
-    //Zkontrolujte, zda existují nastavení tiskárny pro tento list
-    if (ps.PrinterSettings != null)
-    {
-        //Vytiskněte následující zprávu
-        Console.WriteLine("PrinterSettings of this worksheet exist.");
-        //Název tiskového listu a jeho velikost papíru
-        Console.WriteLine("Sheet Name: " + ws.Name);
-        Console.WriteLine("Paper Size: " + ps.PaperSize);
-        //Odeberte nastavení tiskárny jejich nastavením na hodnotu null
-        ps.PrinterSettings = null;
-        Console.WriteLine("Printer settings of this worksheet are now removed by setting it null.");
-        Console.WriteLine("");
-    }//-li
-}//pro
+```
+
+V této smyčce přistupujeme ke každému listu jeden po druhém.
+
+## Krok 5: Otevřete a zkontrolujte nastavení tiskárny
+
+Dále se ponoříme do podrobností každého listu, abychom získali přístup k nastavení stránky a zkontrolovali nastavení tiskárny.
+
+```csharp
+//Přístup k nastavení stránky listu
+PageSetup ps = ws.PageSetup;
+//Zkontrolujte, zda existují nastavení tiskárny pro tento list
+if (ps.PrinterSettings != null)
+{
+    //Vytiskněte následující zprávu
+    Console.WriteLine("PrinterSettings of this worksheet exist.");
+    //Název listu a velikost papíru
+    Console.WriteLine("Sheet Name: " + ws.Name);
+    Console.WriteLine("Paper Size: " + ps.PaperSize);
+```
+
+ Zde, pokud`PrinterSettings` Pokud jsou nalezeny, poskytujeme prostřednictvím konzole zpětnou vazbu s uvedením názvu listu a jeho velikosti papíru.
+
+## Krok 6: Odeberte nastavení tiskárny
+
+Tohle je ten velký okamžik! Nyní odstraníme nastavení tiskárny tak, že je nastavíme na hodnotu null:
+
+```csharp
+    //Odeberte nastavení tiskárny jejich nastavením na hodnotu null
+    ps.PrinterSettings = null;
+    Console.WriteLine("Printer settings of this worksheet are now removed by setting it null.");
+    Console.WriteLine("");
+}
+```
+
+V tomto úryvku účinně vymažeme nastavení tiskárny, takže vše bude uklizené a úhledné.
+
+## Krok 7: Uložte sešit
+
+Po zpracování všech listů je důležité sešit uložit, aby se zachovaly provedené změny.
+
+```csharp
 //Uložte sešit
 wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 ```
 
+A stejně tak se váš nový soubor, bez jakýchkoli starých nastavení tiskárny, uloží do určeného výstupního adresáře!
+
 ## Závěr
 
-Nyní jste se naučili, jak odstranit stávající nastavení tiskárny z listů v Excelu pomocí Aspose.Cells for .NET. Tento výukový program vás provede každým krokem procesu, od nastavení prostředí až po procházení tabulkami a vymazání nastavení tiskárny. Nyní můžete tyto znalosti využít ke správě nastavení tiskárny v souborech aplikace Excel.
+A tady to máte! Pomocí Aspose.Cells for .NET jste úspěšně prošli všemi výhodami odebrání nastavení tiskárny z listů aplikace Excel. Je docela úžasné, jak jen pár řádků kódu dokáže uklidit vaše dokumenty a výrazně zjednodušit váš tisk, že? Pamatujte, že s velkou mocí (jako u Aspose.Cells) přichází velká zodpovědnost – proto vždy svůj kód před nasazením v produkčním prostředí otestujte.
 
-### FAQ
+## FAQ
 
-#### Q1: Jak zjistím, zda tabulka má existující nastavení tiskárny?
+### Co je Aspose.Cells?  
+Aspose.Cells je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel v aplikacích .NET.
 
- A1: Chcete-li zkontrolovat, zda existují nastavení tiskárny pro list, přejděte na stránku`PrinterSettings` vlastnictvím`PageSetup` objekt. Pokud hodnota není null, znamená to, že existují existující nastavení tiskárny.
+### Mohu používat Aspose.Cells zdarma?  
+ Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání jejích funkcí. Podívejte se na[odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/).
 
-#### Q2: Mohu odstranit nastavení tiskárny pouze pro konkrétní tabulku?
+### Musím nainstalovat Microsoft Excel, abych mohl používat Aspose.Cells?  
+Ne, Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel. Nemusíte mít na svém počítači nainstalovaný Excel.
 
- Odpověď 2: Ano, stejný přístup můžete použít k odebrání nastavení tiskárny pro konkrétní list přístupem k tomuto listu`PageSetup` objekt.
+### Jak mohu získat podporu, pokud narazím na problémy?  
+ Můžete navštívit[Aspose fórum](https://forum.aspose.com/c/cells/9) za podporu komunity a zdroje.
 
-#### Q3: Odebere tato metoda také další nastavení rozvržení?
-
-Odpověď 3: Ne, tato metoda odstraní pouze nastavení tiskárny. Ostatní nastavení rozvržení, jako jsou okraje, orientace papíru atd., zůstávají beze změny.
-
-#### Q4: Funguje tato metoda pro všechny formáty souborů aplikace Excel, například .xls a .xlsx?
-
-Odpověď 4: Ano, tato metoda funguje pro všechny formáty souborů aplikace Excel podporované Aspose.Cells, včetně .xls a .xlsx.
-
-#### Q5: Jsou změny provedené v nastavení tiskárny v upraveném souboru Excel trvalé?
-
-Odpověď 5: Ano, změny nastavení tiskárny jsou trvale uloženy v upraveném souboru aplikace Excel.
+### Je k dispozici dočasná licence?  
+ Absolutně! Můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro přístup ke všem funkcím bez omezení po omezenou dobu.

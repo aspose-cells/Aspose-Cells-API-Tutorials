@@ -1,132 +1,152 @@
 ---
 title: Dodaj podpis cyfrowy do już podpisanego pliku Excel
 linktitle: Dodaj podpis cyfrowy do już podpisanego pliku Excel
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Z łatwością dodawaj podpisy cyfrowe do istniejących plików Excel za pomocą Aspose.Cells dla .NET.
+second_title: Aspose.Cells dla .NET API Reference
+description: Dowiedz się, jak dodać podpis cyfrowy do już podpisanego pliku Excela za pomocą Aspose.Cells dla .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
 type: docs
 weight: 30
 url: /pl/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
 ---
-W tym przewodniku krok po kroku wyjaśnimy dostarczony kod źródłowy C#, który pozwoli Ci dodać podpis cyfrowy do już podpisanego pliku Excel przy użyciu Aspose.Cells dla .NET. Wykonaj poniższe czynności, aby dodać nowy podpis cyfrowy do istniejącego pliku Excel.
+## Wstęp
 
-## Krok 1: Ustaw katalogi źródłowe i wyjściowe
+dzisiejszym cyfrowym świecie zabezpieczanie dokumentów jest ważniejsze niż kiedykolwiek. Podpisy cyfrowe zapewniają sposób na zapewnienie autentyczności i integralności plików, zwłaszcza w przypadku poufnych informacji. Jeśli pracujesz z plikami Excela i chcesz dodać nowy podpis cyfrowy do skoroszytu, który został już podpisany, jesteś we właściwym miejscu! W tym przewodniku przeprowadzimy Cię przez proces dodawania podpisu cyfrowego do już podpisanego pliku Excela przy użyciu Aspose.Cells dla .NET. Więc do dzieła!
+
+## Wymagania wstępne
+
+Zanim przejdziemy do szczegółów kodowania, jest kilka rzeczy, które musisz mieć na miejscu:
+
+1.  Aspose.Cells dla .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w projekcie .NET. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/cells/net/).
+2.  Plik certyfikatu: Będziesz potrzebować ważnego pliku certyfikatu (zwykle`.pfx` plik) zawierający Twój certyfikat cyfrowy. Upewnij się, że znasz hasło do tego pliku.
+3. Środowisko programistyczne: Skonfiguruj środowisko programistyczne za pomocą programu Visual Studio lub innego środowiska IDE obsługującego platformę .NET.
+4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci płynnie nadążać za nauką.
+5. Przykładowe pliki: Posiadaj przykładowy plik Excel, który jest już podpisany cyfrowo. Będzie to plik, do którego dodasz nowy podpis.
+
+Teraz, gdy wszystko mamy już gotowe, możemy zacząć kodowanie!
+
+## Importuj pakiety
+
+Aby zacząć, musisz zaimportować niezbędne pakiety do pliku C#. Oto, jak to zrobić:
 
 ```csharp
-// katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
 
+Te przestrzenie nazw umożliwią Ci pracę z plikami Excela i bezproblemową obsługę podpisów cyfrowych.
+
+## Krok 1: Skonfiguruj katalogi źródłowe i wyjściowe
+
+Zanim będziesz mógł manipulować plikami Excela, musisz zdefiniować, gdzie znajdują się pliki źródłowe i gdzie chcesz zapisać plik wyjściowy. Oto, jak to zrobić:
+
+```csharp
+//Katalog źródłowy
+string sourceDir = RunExamples.Get_SourceDirectory();
 // Katalog wyjściowy
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-tym pierwszym kroku definiujemy katalogi źródłowe i wyjściowe, które zostaną użyte do załadowania istniejącego pliku Excel i zapisania pliku z nowym podpisem cyfrowym.
+W tym kroku używamy metody, aby uzyskać ścieżki do katalogów źródłowych i wyjściowych. Upewnij się, że te katalogi istnieją i zawierają wymagane pliki.
 
-## Krok 2: Załaduj istniejący plik Excel
+## Krok 2: Załaduj już podpisany skoroszyt
+
+Następnie musisz załadować skoroszyt programu Excel, który chcesz zmodyfikować. Można to zrobić, tworząc wystąpienie`Workbook` klasy i przekazując ścieżkę do podpisanego pliku.
 
 ```csharp
-// Załaduj już podpisany skoroszyt programu Excel
+// Załaduj skoroszyt, który jest już podpisany cyfrowo
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Tutaj ładujemy już podpisany plik Excel za pomocą`Workbook` klasa Aspose.Cells.
+ Tutaj ładujemy skoroszyt o nazwie`sampleDigitallySignedByCells.xlsx`. Upewnij się, że ten plik jest już podpisany.
 
 ## Krok 3: Utwórz kolekcję podpisów cyfrowych
+
+Teraz utwórzmy kolekcję podpisów cyfrowych. Ta kolekcja będzie zawierać wszystkie podpisy cyfrowe, które chcesz dodać do skoroszytu.
 
 ```csharp
 // Utwórz kolekcję podpisów cyfrowych
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
- Tworzymy nową kolekcję podpisów cyfrowych za pomocą`DigitalSignatureCollection` klasa.
+Ten krok jest bardzo istotny, ponieważ umożliwia zarządzanie wieloma podpisami, jeżeli zajdzie taka potrzeba.
 
 ## Krok 4: Utwórz nowy certyfikat
 
+ Musisz załadować plik certyfikatu, aby utworzyć nowy podpis cyfrowy. Tutaj określasz ścieżkę do swojego`.pfx` plik i jego hasło.
+
 ```csharp
+// Plik certyfikatu i jego hasło
+string certFileName = sourceDir + "AsposeDemo.pfx";
+string password = "aspose";
+
 // Utwórz nowy certyfikat
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
-Tutaj tworzymy nowy certyfikat z podanego pliku i hasła.
+ Pamiętaj o wymianie`AsposeDemo.pfx` i hasło zawierające nazwę pliku certyfikatu i hasło.
 
-## Krok 5: Dodaj nowy podpis cyfrowy do kolekcji
+## Krok 5: Utwórz podpis cyfrowy
+
+Mając certyfikat w ręku, możesz teraz utworzyć podpis cyfrowy. Będziesz także chciał podać powód podpisu oraz bieżącą datę i godzinę.
 
 ```csharp
-// Utwórz nowy podpis cyfrowy
-Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added a new digital signature to the already signed workbook.", DateTime.Now);
-
-// Dodaj podpis cyfrowy do kolekcji
-dsCollection.Add(signature);
+// Utwórz nowy podpis cyfrowy i dodaj go do kolekcji podpisów cyfrowych
+Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 ```
 
- Tworzymy nowy podpis cyfrowy za pomocą`DigitalSignature` class i dodaj ją do kolekcji podpisów cyfrowych.
+Ten krok spowoduje dodanie nowego podpisu do kolekcji, który później zastosujesz w skoroszycie.
 
 ## Krok 6: Dodaj kolekcję podpisów cyfrowych do skoroszytu
 
+Teraz czas dodać kolekcję podpisów cyfrowych do skoroszytu. To tutaj dzieje się magia!
+
 ```csharp
-//Dodaj kolekcję podpisów cyfrowych do skoroszytu
+// Dodaj kolekcję podpisów cyfrowych w skoroszycie
 workbook.AddDigitalSignature(dsCollection);
 ```
 
- Do istniejącego skoroszytu programu Excel dodajemy kolekcję podpisów cyfrowych za pomocą`AddDigitalSignature()` metoda.
+Wykonując tę linię, skutecznie dołączasz nowy podpis cyfrowy do już podpisanego skoroszytu.
 
-## Krok 7: Zapisz i zamknij skoroszyt
+## Krok 7: Zapisz i usuń skoroszyt
+
+Na koniec należy zapisać zmodyfikowany skoroszyt w katalogu wyjściowym i zwolnić wszelkie używane zasoby.
 
 ```csharp
-// Zapisz skoroszyt i zamknij go
+// Zapisz skoroszyt i usuń go.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
 
-Zapisujemy skoroszyt z nowym podpisem cyfrowym w określonym katalogu wyjściowym, następnie zamykamy go i zwalniamy powiązane zasoby.
+Ten krok zapewnia zapisanie zmian i prawidłowe usunięcie skoroszytu w celu zwolnienia zasobów.
 
-### Przykładowy kod źródłowy funkcji dodawania podpisu cyfrowego do już podpisanego pliku Excel przy użyciu Aspose.Cells dla platformy .NET 
+## Krok 8: Potwierdź wykonanie
+
+Podsumowując, dobrym pomysłem jest potwierdzenie, że kod został wykonany pomyślnie. Możesz to zrobić za pomocą prostego komunikatu konsoli.
+
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
-//Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
-//Plik certyfikatu i jego hasło
-string certFileName = sourceDir + "AsposeDemo.pfx";
-string password = "aspose";
-//Załaduj skoroszyt, który jest już podpisany cyfrowo, aby dodać nowy podpis cyfrowy
-Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
-//Utwórz kolekcję podpisów cyfrowych
-Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-//Utwórz nowy certyfikat
-System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
-//Utwórz nowy podpis cyfrowy i dodaj go do kolekcji podpisów cyfrowych
-Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
-dsCollection.Add(signature);
-//Dodaj kolekcję podpisów cyfrowych do skoroszytu
-workbook.AddDigitalSignature(dsCollection);
-//Zapisz skoroszyt i usuń go.
-workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
-workbook.Dispose();
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
+W ten sposób otrzymasz informację zwrotną, że operacja zakończyła się sukcesem, a to zawsze miło zobaczyć!
+
 ## Wniosek
 
-Gratulacje! Nauczyłeś się teraz, jak dodać podpis cyfrowy do już podpisanego pliku Excel przy użyciu Aspose.Cells dla .NET. Podpisy cyfrowe dodają dodatkową warstwę zabezpieczeń do plików Excel, zapewniając ich autentyczność i integralność.
+I masz to! Udało Ci się dodać nowy podpis cyfrowy do już podpisanego pliku Excela przy użyciu Aspose.Cells dla .NET. Podpisy cyfrowe to potężny sposób na zapewnienie autentyczności dokumentów, a teraz wiesz, jak nimi zarządzać programowo. Niezależnie od tego, czy pracujesz nad dokumentami finansowymi, umowami czy jakimikolwiek poufnymi informacjami, wdrożenie podpisów cyfrowych może zwiększyć bezpieczeństwo i zaufanie.
 
-### Często zadawane pytania
+## Najczęściej zadawane pytania
 
-#### P: Co to jest Aspose.Cells dla .NET?
+### Czym jest podpis cyfrowy?
+Podpis cyfrowy to metoda kryptograficzna stosowana w celu potwierdzenia autentyczności i integralności wiadomości lub dokumentu.
 
-O: Aspose.Cells dla .NET to potężna biblioteka klas, która pozwala programistom .NET z łatwością tworzyć, modyfikować, konwertować i manipulować plikami Excel.
+### Czy mogę dodać wiele podpisów cyfrowych do tego samego pliku Excel?
+Tak, możesz utworzyć kolekcję podpisów cyfrowych i dodać wiele podpisów do tego samego skoroszytu.
 
-#### P: Co to jest podpis cyfrowy w pliku Excel?
+### Jakie formaty podpisów cyfrowych obsługuje Aspose.Cells?
+ Aspose.Cells obsługuje różne formaty, w tym:`.pfx` dla certyfikatów.
 
-Odp.: Podpis cyfrowy w pliku Excel to znak elektroniczny gwarantujący autentyczność, integralność i pochodzenie dokumentu. Służy do sprawdzenia, czy plik nie był modyfikowany od momentu podpisania i czy pochodzi z wiarygodnego źródła.
+### Czy do korzystania z Aspose.Cells potrzebuję konkretnej wersji .NET?
+ Sprawdź[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) w celu zapewnienia zgodności z Twoją wersją .NET.
 
-#### P: Jakie są korzyści z dodania podpisu cyfrowego do pliku Excel?
-
-Odp.: Dodanie podpisu cyfrowego do pliku Excel zapewnia szereg korzyści, w tym ochronę przed nieautoryzowanymi zmianami, zapewnienie integralności danych, uwierzytelnienie autora dokumentu i pewność zawartych w nim informacji.
-
-#### P: Czy mogę dodać wiele podpisów cyfrowych do pliku Excel?
-
-O: Tak, Aspose.Cells umożliwia dodanie wielu podpisów cyfrowych do pliku Excel. Możesz utworzyć kolekcję podpisów cyfrowych i dodać je do pliku w jednej operacji.
-
-#### P: Jakie są wymagania dotyczące dodawania podpisu cyfrowego do pliku Excel?
-
-Odp.: Aby dodać podpis cyfrowy do pliku Excel, potrzebujesz ważnego certyfikatu cyfrowego, który będzie używany do podpisania dokumentu. Przed dodaniem podpisu cyfrowego upewnij się, że masz prawidłowy certyfikat i hasło.
+### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?
+ Możesz poprosić o tymczasową licencję[Strona zakupu Aspose](https://purchase.aspose.com/temporary-license/).

@@ -14,7 +14,7 @@ V tomto tutoriálu vás provedeme procesem exportu dat aplikace Excel do formát
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
--  Aspose.Cells for Java: Stáhněte si a nainstalujte knihovnu Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Stáhněte si a nainstalujte knihovnu Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/).
 - Soubor Excel: Připravte soubor Excel, který chcete převést na JSON.
 
 ## Krok 1: Import Aspose.Cells pro Java
@@ -51,7 +51,7 @@ Tento kód uloží data aplikace Excel jako soubor JSON s názvem „output.json
 Nyní můžete s daty JSON pracovat podle potřeby. Můžete jej analyzovat, manipulovat s ním nebo jej použít ve svých aplikacích.
 
 ## Závěr
-Gratulujeme! Úspěšně jste exportovali data Excelu do JSON pomocí Aspose.Cells for Java. Tento podrobný průvodce vám poskytl potřebný zdrojový kód pro zefektivnění procesu. Nyní můžete ve svých aplikacích Java efektivně převádět soubory Excel do formátu JSON.
+Gratuluji! Úspěšně jste exportovali data Excelu do JSON pomocí Aspose.Cells for Java. Tento podrobný průvodce vám poskytl potřebný zdrojový kód pro zefektivnění procesu. Nyní můžete ve svých aplikacích Java efektivně převádět soubory Excel do formátu JSON.
 
 ## Nejčastější dotazy
 ### Mohu exportovat více listů aplikace Excel do jednoho souboru JSON?

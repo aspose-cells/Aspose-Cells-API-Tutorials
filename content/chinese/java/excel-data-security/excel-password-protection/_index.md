@@ -2,7 +2,7 @@
 title: Excel 密码保护
 linktitle: Excel 密码保护
 second_title: Aspose.Cells Java Excel 处理 API
-description: 了解如何使用 Aspose.Cells for Java 通过 Excel 密码保护来增强数据安全性。带有源代码的分步指南，可实现最终数据机密性。
+description: 了解如何使用 Aspose.Cells for Java 通过 Excel 密码保护增强数据安全性。带有源代码的分步指南，可实现终极数据保密性。
 type: docs
 weight: 10
 url: /zh/java/excel-data-security/excel-password-protection/
@@ -10,19 +10,19 @@ url: /zh/java/excel-data-security/excel-password-protection/
 
 ## Excel 密码保护简介
 
-在数字时代，保护敏感数据至关重要。 Excel 电子表格通常包含需要保护的关键信息。在本教程中，我们将探讨如何使用 Aspose.Cells for Java 实现 Excel 密码保护。本分步指南将引导您完成整个过程，确保您的数据保密。
+在数字时代，保护您的敏感数据至关重要。Excel 电子表格通常包含需要保护的关键信息。在本教程中，我们将探讨如何使用 Aspose.Cells for Java 实现 Excel 密码保护。本分步指南将引导您完成整个过程，确保您的数据保持机密。
 
 ## 先决条件
 
-在深入使用 Aspose.Cells for Java 进行 Excel 密码保护的世界之前，您需要确保您拥有必要的工具和知识：
+在使用 Aspose.Cells for Java 进行 Excel 密码保护之前，您需要确保拥有必要的工具和知识：
 
-- Java开发环境
+- Java 开发环境
 -  Aspose.Cells for Java API（您可以下载[这里](https://releases.aspose.com/cells/java/)
-- Java编程基础知识
+- Java 编程基础知识
 
 ## 设置环境
 
-首先，您应该设置您的开发环境。按着这些次序：
+首先，您应该设置您的开发环境。请按照以下步骤操作：
 
 1. 如果尚未安装 Java，请安装。
 2. 从提供的链接下载 Aspose.Cells for Java。
@@ -30,7 +30,7 @@ url: /zh/java/excel-data-security/excel-password-protection/
 
 ## 创建示例 Excel 文件
 
-我们首先创建一个示例 Excel 文件，我们将使用密码保护该文件。
+让我们首先创建一个用密码保护的示例 Excel 文件。
 
 ```java
 import com.aspose.cells.*;
@@ -43,7 +43,7 @@ public class ExcelPasswordProtection {
         //访问第一个工作表
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        //添加一些数据到工作表
+        //向工作表添加一些数据
         worksheet.getCells().get("A1").putValue("Confidential Data");
         worksheet.getCells().get("A2").putValue("More Sensitive Info");
 
@@ -58,11 +58,11 @@ public class ExcelPasswordProtection {
 }
 ```
 
-在此代码中，我们创建了一个包含一些数据的简单 Excel 文件。现在，让我们继续使用密码来保护它。
+在此代码中，我们创建了一个包含一些数据的简单 Excel 文件。现在，让我们继续用密码保护它。
 
 ## 保护 Excel 文件
 
-要为 Excel 文件添加密码保护，请按照下列步骤操作：
+要为 Excel 文件添加密码保护，请按照以下步骤操作：
 
 1. 加载 Excel 文件。
 2. 应用密码保护。
@@ -96,30 +96,30 @@ public class ExcelPasswordProtection {
 }
 ```
 
-在此代码中，我们加载之前创建的 Excel 文件、设置密码并保护工作簿。您可以更换`"MySecretPassword"`使用您想要的密码。
+在此代码中，我们加载先前创建的 Excel 文件，设置密码并保护工作簿。您可以替换`"MySecretPassword"`输入您想要的密码。
 
 ## 结论
 
-在本教程中，我们学习了如何使用 Aspose.Cells for Java 向 Excel 文件添加密码保护。这是保护敏感数据和维护机密性的一项重要技术。只需几行代码，您就可以确保只有授权用户才能访问您的 Excel 电子表格。
+在本教程中，我们学习了如何使用 Aspose.Cells for Java 为 Excel 文件添加密码保护。这是保护敏感数据和维护机密性的重要技术。只需几行代码，您就可以确保只有授权用户才能访问您的 Excel 电子表格。
 
 ## 常见问题解答
 
-### 如何从 Excel 文件中删除密码保护？
+### 如何删除 Excel 文件的密码保护？
 
-您可以通过加载受保护的 Excel 文件、提供正确的密码，然后保存不受保护的工作簿来删除密码保护。
+您可以通过加载受保护的 Excel 文件、提供正确的密码，然后在没有保护的情况下保存工作簿来删除密码保护。
 
 ### 我可以为同一个 Excel 文件中的不同工作表设置不同的密码吗？
 
-是的，您可以使用 Aspose.Cells for Java 为同一 Excel 文件中的各个工作表设置不同的密码。
+是的，您可以使用 Aspose.Cells for Java 为同一个 Excel 文件中的各个工作表设置不同的密码。
 
-### 是否可以保护 Excel 工作表中的特定单元格或区域？
+### 是否可以保护 Excel 工作表中的特定单元格或范围？
 
-当然。您可以通过使用 Aspose.Cells for Java 设置工作表保护选项来保护特定单元格或范围。
+当然。您可以使用 Aspose.Cells for Java 设置工作表保护选项来保护特定单元格或范围。
 
 ### 我可以更改已受保护的 Excel 文件的密码吗？
 
 是的，您可以通过加载文件、设置新密码并保存来更改已受保护的 Excel 文件的密码。
 
-### Excel 文件中的密码保护是否有任何限制？
+### Excel 文件中的密码保护有什么限制吗？
 
-Excel 文件中的密码保护是一项强大的安全措施，但必须选择强密码并对其保密，以最大限度地提高安全性。
+Excel 文件中的密码保护是一种强大的安全措施，但必须选择强密码并保密以最大限度地提高安全性。

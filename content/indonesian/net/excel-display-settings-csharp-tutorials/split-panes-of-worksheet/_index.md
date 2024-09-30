@@ -1,99 +1,108 @@
 ---
-title: Pisahkan Panel Lembar Kerja
-linktitle: Pisahkan Panel Lembar Kerja
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Panduan langkah demi langkah untuk membagi panel di lembar kerja Excel menggunakan Aspose.Cells untuk .NET.
+title: Membagi Panel Lembar Kerja
+linktitle: Membagi Panel Lembar Kerja
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara membagi panel lembar kerja di Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan navigasi file Excel dengan tutorial mudah ini.
 type: docs
 weight: 130
 url: /id/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
-Dalam tutorial ini, kami akan menjelaskan cara membagi panel di lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah berikut untuk mendapatkan hasil yang diinginkan:
+## Perkenalan
 
-## Langkah 1: Menyiapkan lingkungan
+Apakah Anda siap untuk membagi panel lembar kerja Excel menggunakan Aspose.Cells untuk .NET? Bayangkan ini: Anda memiliki lembar Excel yang sangat besar, dan Anda lelah terus-menerus menggulir kembali ke tajuk hanya untuk mengingat kolom mana yang sedang Anda kerjakan. Masukkan "Split Panes." Fitur praktis ini memungkinkan Anda untuk membekukan sebagian lembar kerja Anda, sehingga lebih mudah dinavigasi. Baik Anda bekerja dengan data keuangan, manajemen inventaris, atau kumpulan data besar, membagi panel dapat meningkatkan produktivitas Anda sepuluh kali lipat. 
 
-Pastikan Anda telah menginstal Aspose.Cells untuk .NET dan menyiapkan lingkungan pengembangan Anda. Selain itu, pastikan Anda memiliki salinan file Excel yang ingin Anda pisahkan panelnya.
+## Prasyarat
 
-## Langkah 2: Impor dependensi yang diperlukan
+Sebelum kita mulai membagi panel seperti panduan spreadsheet, mari kita atur pengaturan kita dengan benar. Berikut ini yang Anda perlukan:
 
-Tambahkan arahan yang diperlukan untuk menggunakan kelas dari Aspose.Cells:
+-  Aspose.Cells untuk .NET: Pastikan Anda telah mengunduh dan menginstalnya. Jika belum, unduh dan instal[Di Sini](https://releases.aspose.com/cells/net/).
+- .NET Framework: Panduan ini mengasumsikan Anda bekerja di lingkungan .NET.
+- Buku Kerja Excel: Kami akan menggunakan contoh file Excel untuk menunjukkan cara kerja fitur ini.
+-  Lisensi Sementara atau Penuh: Aspose.Cells memerlukan lisensi. Jika Anda baru mencobanya, dapatkan lisensi[lisensi sementara gratis](https://purchase.aspose.com/temporary-license/) untuk menghindari keterbatasan evaluasi.
+
+## Paket Impor
+
+Sebelum kita mulai membuat kode, mari impor namespace yang diperlukan terlebih dahulu. Anda tidak dapat melakukan apa pun di Aspose.Cells tanpa menyertakan namespace ini.
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Langkah 3: Inisialisasi kode
+Setelah kita bahas hal-hal penting, mari kita lanjut ke bagian yang menarik—membagi panel!
 
-Mulailah dengan menginisialisasi jalur ke direktori yang berisi dokumen Excel Anda:
+## Langkah 1: Buat Instansiasi Buku Kerja
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-```
+ Langkah pertama dalam proses ini adalah membuat`Workbook` objek, yang akan mewakili berkas Excel yang ingin Anda ubah. Dalam kasus ini, kita akan memuat berkas dari direktori. Ini adalah kanvas Anda, lembar Excel tempat Anda akan melakukan keajaiban.
 
-## Langkah 4: Membuka file Excel
-
- Buat instance yang baru`Workbook` objek dan buka file Excel menggunakan`Open` metode:
+Sebelum kita dapat membagi panel, kita memerlukan buku kerja untuk bekerja! Langkah ini sama pentingnya dengan membuka buku sebelum Anda mulai membacanya.
 
 ```csharp
-Workbook book = new Workbook(dataDir + "Book1.xls");
-```
-
-## Langkah 5: Tentukan sel aktif
-
- Atur sel aktif lembar kerja menggunakan`ActiveCell` Properti:
-
-```csharp
-book.Worksheets[0].ActiveCell = "A20";
-```
-
-## Langkah 6: Pembagian penutup
-
- Pisahkan jendela lembar kerja menggunakan`Split` metode:
-
-```csharp
-book.Worksheets[0].Split();
-```
-
-## Langkah 7: Menyimpan Perubahan
-
-Simpan perubahan yang dilakukan pada file Excel:
-
-```csharp
-book.Save(dataDir + "output.xls");
-```
-
-### Contoh kode sumber untuk Split Panes Of Worksheet menggunakan Aspose.Cells untuk .NET 
-
-```csharp
-//Jalur ke direktori dokumen.
+//Jalur ke direktori dokumen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat instance buku kerja baru dan Buka file templat
+
+// Buat buku kerja baru dan buka file templat
 Workbook book = new Workbook(dataDir + "Book1.xls");
-// Atur sel aktif
+```
+
+ Pada kode di atas, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda berada.`Workbook` kelas memuat berkas Excel ke dalam memori.
+
+## Langkah 2: Mengatur Sel Aktif
+
+ Setelah memuat buku kerja, saatnya untuk mengatur sel aktif. Dalam istilah Excel, sel aktif adalah sel yang saat ini dipilih atau menjadi fokus. Dalam tutorial ini, kita akan memilih sel`A20` pada lembar kerja pertama.
+
+Menetapkan sel aktif sangat penting karena pemisahan panel dimulai dari sel aktif ini. Ini seperti memilih tempat untuk membuat potongan pertama pada pizza—pilih potongan Anda!
+
+```csharp
+// Mengatur sel aktif
 book.Worksheets[0].ActiveCell = "A20";
-// Pisahkan jendela lembar kerja
+```
+
+ Potongan kode ini membuat`A20` sel yang aktif. Hal ini penting karena pemisahan terjadi di sekitar titik ini, seperti halnya navigasi di Excel yang sering kali berpusat di sekitar sel tertentu.
+
+## Langkah 3: Membagi Lembar Kerja
+
+Sekarang sel aktif sudah ditetapkan, mari beralih ke bagian yang menyenangkan—membagi lembar kerja! Langkah ini adalah tempat keajaiban terjadi. Anda akan dapat membagi lembar kerja menjadi beberapa panel untuk memudahkan tampilan dan navigasi.
+
+Inilah inti dari keseluruhan tutorial. Dengan membagi lembar kerja, Anda membuat panel terpisah yang memungkinkan Anda menggulir berbagai bagian lembar Excel tanpa kehilangan tajuk atau area penting lainnya.
+
+```csharp
+// Membagi jendela lembar kerja
 book.Worksheets[0].Split();
-// Simpan file excelnya
+```
+
+ Dengan`Split()` metode, Anda memberi tahu Aspose.Cells untuk membagi lembar kerja di sel aktif (`A20` dalam kasus ini). Dari titik ini, Excel membuat pembagian pada lembar yang memisahkan panel agar Anda dapat menavigasi secara independen.
+
+## Langkah 4: Simpan Buku Kerja
+
+Setelah membagi panel, yang tersisa hanyalah menyimpan pekerjaan Anda. Langkah terakhir ini akan memastikan bahwa perubahan Anda disimpan dalam berkas keluaran yang ditentukan.
+
+Apa gunanya semua kerja keras Anda jika Anda tidak menyimpannya? Menyimpannya memastikan bahwa kaca yang Anda bagi dengan indah tetap utuh untuk penggunaan di masa mendatang.
+
+```csharp
+// Simpan file Excel
 book.Save(dataDir + "output.xls");
 ```
+
+ Di sini,`Save()`metode menyimpan buku kerja dengan panel yang baru Anda bagi menjadi file Excel keluaran. Perubahan yang Anda buat kini siap untuk Anda—atau orang lain—gunakan.
 
 ## Kesimpulan
 
-Dalam tutorial ini, Anda mempelajari cara membagi panel di lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Dengan mengikuti langkah-langkah yang dijelaskan, Anda bisa dengan mudah mengkustomisasi tampilan dan perilaku file Excel Anda.
+Nah, itu dia! Anda baru saja mempelajari cara membagi panel dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tidak ada lagi pengguliran tanpa henti atau kehilangan jejak data Anda. Metode ini membuat penanganan file Excel yang besar jauh lebih mudah dan jauh lebih efisien. Dengan kemampuan untuk membagi panel, kini Anda dapat melacak titik data penting saat bekerja dengan lembar kerja yang rumit.
 
-### Pertanyaan yang Sering Diajukan (FAQ)
+## Pertanyaan yang Sering Diajukan
 
-#### Apa itu Aspose.Cells untuk .NET?
+### Bisakah saya membagi lebih dari dua panel?  
+ Ya, Anda dapat membagi lembar kerja menjadi beberapa panel dengan menentukan sel aktif yang berbeda dan memanggil`Split()` metode.
 
-Aspose.Cells for .NET adalah perpustakaan perangkat lunak populer untuk memanipulasi file Excel dalam aplikasi .NET.
+### Apa perbedaan antara panel terpisah dan panel beku?  
+Memisahkan panel memungkinkan Anda untuk menggulir di kedua panel secara terpisah. Membekukan panel akan mengunci tajuk atau baris/kolom tertentu sehingga tetap terlihat saat menggulir.
 
-#### Bagaimana cara mengatur sel aktif lembar kerja di Aspose.Cells?
+### Bisakah saya menghilangkan bagian yang terbelah setelah mengaplikasikannya?  
+Ya, Anda dapat menghapus pemisahan tersebut dengan menutup dan membuka kembali buku kerja atau mengatur ulang secara terprogram.
 
- Anda dapat mengatur sel aktif menggunakan`ActiveCell`milik objek Lembar Kerja.
+### Apakah pemisahan panel berfungsi sama untuk format file Excel yang berbeda (XLS, XLSX)?  
+ Ya, itu`Split()` Metode ini berfungsi untuk format XLS dan XLSX.
 
-#### Bisakah saya membagi panel horizontal atau vertikal saja pada jendela lembar kerja?
-
- Ya, dengan menggunakan Aspose.Cells Anda hanya dapat membagi panel horizontal atau vertikal menggunakan metode yang sesuai seperti`SplitColumn` atau`SplitRow`.
-
-#### Apakah Aspose.Cells hanya berfungsi dengan file Excel dalam format .xls?
-
-Tidak, Aspose.Cells mendukung berbagai format file Excel termasuk .xls dan .xlsx.
+### Bisakah saya menggunakan Aspose.Cells tanpa lisensi?  
+ Ya, tetapi ada batasannya. Untuk pengalaman yang lengkap, sebaiknya gunakan[sementara](https://purchase.aspose.com/temporary-license/) atau[lisensi berbayar](https://purchase.aspose.com/buy).

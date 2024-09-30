@@ -1,105 +1,152 @@
 ---
-title: 他のワークシートからページ設定設定をコピー
-linktitle: 他のワークシートからページ設定設定をコピー
+title: 他のワークシートからページ設定をコピーする
+linktitle: 他のワークシートからページ設定をコピーする
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して、あるスプレッドシートから別のスプレッドシートにページ構成設定をコピーする方法を学びます。このライブラリの使用を最適化するためのステップバイステップのガイド。
+description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してワークシート間でページ設定をコピーする方法を学習します。これは、スプレッドシート管理を強化するのに最適です。
 type: docs
 weight: 10
 url: /ja/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 ---
-この記事では、次の C# ソース コードについて順を追って説明します。 Aspose.Cells for .NET を使用して、別のスプレッドシートからページ構成設定をコピーします。この操作を実行するには、.NET 用の Aspose.Cells ライブラリを使用します。ページ設定設定をあるワークシートから別のワークシートにコピーする場合は、次の手順に従います。
+## 導入
 
-## ステップ 1: ワークブックの作成
-最初のステップはワークブックを作成することです。この例では、Aspose.Cells ライブラリによって提供される Workbook クラスを使用します。ワークブックを作成するコードは次のとおりです。
+ページ設定をあるワークシートから別のワークシートに複製しなければならない状況に遭遇したことはありませんか? 財務レポートやプロジェクト タイムラインを扱う場合でも、プレゼンテーションの統一性が重要です。Aspose.Cells for .NET を使用すると、ワークシート間でページ設定を簡単にコピーできます。このガイドでは、.NET や Aspose.Cells を使い始めたばかりの方でも、プロセスをステップごとにわかりやすく説明します。準備はできましたか? さあ、始めましょう!
+
+## 前提条件
+
+コードに進む前に、準備しておく必要のある重要な項目がいくつかあります。
+
+1. .NET 開発環境: Visual Studio やその他の任意の IDE など、.NET 互換の環境が設定されていることを確認します。
+2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリが必要になります。[ここからダウンロード](https://releases.aspose.com/cells/net/).
+3. C# の基本的な理解: C# の基礎を理解することは、概念をより深く理解するのに役立ちます。
+4.  Aspose.Cellsドキュメント:[ドキュメント](https://reference.aspose.com/cells/net/)後で役に立つかもしれない高度な設定や追加機能など。
+
+前提条件が整ったので、必要なパッケージをインポートしましょう。
+
+## パッケージのインポート
+
+プロジェクトで Aspose.Cells の使用を開始するには、コードに次のパッケージをインポートする必要があります。
+
+```csharp
+using System.IO;
+using Aspose.Cells;
+using System;
+```
+
+この 1 行で、Aspose.Cells ライブラリの強力なコンポーネントすべてにアクセスできます。
+
+各部分を完全に理解できるように、プロセス全体を管理しやすいステップに分解してみましょう。ワークブックを作成し、2 つのワークシートを追加し、一方のページ設定を変更して、その設定を別のワークシートにコピーします。
+
+## ステップ1: ワークブックを作成する
+
+ワークブックを作成する:
+まず、インスタンスを作成する必要があります`Workbook`クラス。これが基本的に出発点となります。 
 
 ```csharp
 Workbook wb = new Workbook();
 ```
 
-## ステップ 2: テスト ワークシートの追加
-ワークブックを作成した後、テスト ワークシートを追加する必要があります。この例では、2 つのワークシートを追加します。 2 つのワークシートを追加するコードは次のとおりです。
+この行は、ワークシートを保存するワークブックを初期化します。
+
+## ステップ2: ワークシートを追加する
+
+ワークブックにワークシートを追加する:
+ワークブックが完成したら、次はワークシートを追加します。
 
 ```csharp
 wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-## ステップ 3: ワークシートへのアクセス
-ワークシートを追加したので、設定を変更できるようにワークシートにアクセスする必要があります。 「TestSheet1」と「TestSheet2」のワークシートに、それぞれの名前を使用してアクセスします。これにアクセスするコードは次のとおりです。
+ここでは、「TestSheet1」と「TestSheet2」という名前の 2 つのワークシートを追加しました。これは、ワークブック内に 2 つの異なるページを作成し、コンテンツを個別に管理するようなものです。
+
+## ステップ3: ワークシートにアクセスする
+
+ワークシートにアクセスする:
+次に、新しく作成したワークシートにアクセスして変更を加える必要があります。
 
 ```csharp
-Worksheet TestSheet1 = wb. Worksheets["TestSheet1"];
-Worksheet TestSheet2 = wb. Worksheets["TestSheet2"];
-```
-
-## ステップ 4: 用紙サイズの設定
-このステップでは、「TestSheet1」ワークシートの用紙サイズを設定します。を使用します。`PageSetup.PaperSize`用紙サイズを設定するプロパティ。ここでは例として、用紙サイズを「PaperA3ExtraTransverse」に設定します。そのコードは次のとおりです。
-
-```csharp
-TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
-```
-
-## ステップ 5: ページ設定の設定をコピーする
-次に、ページ構成設定を「TestSheet1」ワークシートから「TestSheet2」にコピーします。を使用します。`PageSetup.Copy`この操作を実行するメソッド。そのコードは次のとおりです。
-
-```csharp
-TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
-```
-
-## ステップ 6: 用紙サイズを印刷する
-ページ設定設定をコピーした後、2 つのワークシートの用紙サイズを印刷します。我々は使用するだろう`Console.WriteLine`用紙サイズを表示します。そのコードは次のとおりです。
-
-```csharp
-Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
-Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
-```
-
-### Aspose.Cells for .NET を使用して他のワークシートからページ設定設定をコピーするためのサンプル ソース コード 
-```csharp
-//ワークブックの作成
-Workbook wb = new Workbook();
-//つのテスト ワークシートを追加する
-wb.Worksheets.Add("TestSheet1");
-wb.Worksheets.Add("TestSheet2");
-//両方のワークシートに TestSheet1 および TestSheet2 としてアクセスします
 Worksheet TestSheet1 = wb.Worksheets["TestSheet1"];
 Worksheet TestSheet2 = wb.Worksheets["TestSheet2"];
-//TestSheet1の用紙サイズをPaperA3ExtraTransverseに設定します
+```
+
+これで、両方のワークシートへの参照ができたので、そのプロパティを簡単に調整できるようになりました。
+
+## ステップ4: TestSheet1の用紙サイズを設定する
+
+ページ設定を変更する:
+ 「TestSheet1」の用紙サイズを次のように設定しましょう。`PaperA3ExtraTransverse`.
+
+```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
-//両方のワークシートの用紙サイズを印刷します。
+```
+
+ドキュメントが特定の印刷レイアウト用である場合、この手順は非常に重要です。アートワークのキャンバス サイズを選択するようなものです。
+
+## ステップ5: 現在の用紙サイズを印刷する
+
+現在の用紙サイズを確認:
+ここで、コピー操作前の現在の用紙サイズを確認してみましょう。
+
+```csharp
 Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
-Console.WriteLine();
-//PageSetup を TestSheet1 から TestSheet2 にコピーします
+```
+
+これにより、両方のワークシートの現在のページ設定がコンソールに出力されます。変更を加える前に、必ず内容を確認することをお勧めします。
+
+## ステップ 6: TestSheet1 から TestSheet2 にページ設定をコピーする
+
+ページ設定をコピーします。
+ここからが面白いところです! 「TestSheet1」から「TestSheet2」にすべてのページ設定をコピーできます。
+
+```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
-//両方のワークシートの用紙サイズを印刷します。
+```
+
+このコード行は、基本的に「TestSheet1」のすべての書式設定を取得し、「TestSheet2」に適用します。これは、1 ページのスナップショットを撮って別のページに貼り付けるようなものです。
+
+## ステップ7: 更新された用紙サイズを印刷する
+
+用紙サイズを再度確認してください:
+最後に、設定が正常にコピーされたことを確認しましょう。
+
+```csharp
 Console.WriteLine("After Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("After Paper Size: " + TestSheet2.PageSetup.PaperSize);
 Console.WriteLine();
 Console.WriteLine("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet executed successfully.\r\n");
 ```
 
+コピー操作後、両方のワークシートのページ サイズが一致することがわかります。これで完了です。設定はシームレスに転送されました。
+
+## ステップ8: ワークブックを保存する
+
+変更を保存します:
+大変な作業が終わったら、ワークブックを保存することを忘れないでください。
+
+```csharp
+wb.Save("CopiedPageSetupExample.xlsx");
+```
+
+すべての変更を確実に保持するには、ワークブックを保存することが不可欠です。この手順は、ドキュメントを終了した後に「保存」を押すようなものだと考えてください。進行状況を失わないために重要です。
+
 ## 結論
-この記事では、Aspose.Cells for .NET を使用して、あるワークシートから別のワークシートにページ構成設定をコピーする方法を学びました。次の手順を実行しました: ワークブックの作成、テスト ワークシートの追加、ワークシートへのアクセス、用紙サイズの設定、ページ設定設定のコピー、および用紙サイズの印刷。この知識を利用して、ページ構成設定を独自のプロジェクトにコピーできるようになりました。
 
-### よくある質問
+Aspose.Cells for .NET を使用すると、ワークシートの管理が簡単になります。ページ設定をワークシート間で簡単にコピーできるため、ドキュメント全体の一貫性を保つことができます。このガイドで説明されている詳細な手順に従うと、ワークブックのページ設定を自信を持って操作し、書式設定にかかる時間を節約できます。 
 
-#### Q: 異なるワークブック インスタンス間でページ構成設定をコピーできますか?
+## よくある質問
 
- A: はい。`PageSetup.Copy` Aspose.Cells ライブラリのメソッド。
+### Aspose.Cells とは何ですか?  
+Aspose.Cells は、.NET アプリケーションでスプレッドシートを操作するための強力なライブラリです。
 
-#### Q: 方向や余白など、他のページ設定設定をコピーできますか?
+### Aspose.Cells を他のプログラミング言語で使用できますか?  
+Aspose.Cells は主に .NET 言語をサポートしていますが、他の言語用の Aspose ライブラリも存在します。
 
- A: はい、次のコマンドを使用して他のページ設定設定をコピーできます。`PageSetup.Copy`メソッドに適切なオプションを付けます。たとえば、次を使用して方向をコピーできます。`CopyOptions.Orientation`とマージンを使用して`CopyOptions.Margins`.
+### Aspose.Cells の無料トライアルはありますか?  
+はい、ダウンロードできます[無料トライアル](https://releases.aspose.com/) Aspose.Cells の。
 
-#### Q: 用紙サイズに使用できるオプションを確認するにはどうすればよいですか?
+### Aspose.Cells のサポートを受けるにはどうすればよいですか?  
+サポートは以下からアクセスできます。[Aspose フォーラム](https://forum.aspose.com/c/cells/9).
 
-A: 用紙サイズに使用できるオプションについては、Aspose.Cells ライブラリ API リファレンスを確認してください。という列挙型があります`PaperSizeType`これは、サポートされているさまざまな用紙サイズのリストです。
-
-#### Q: .NET 用の Aspose.Cells ライブラリをダウンロードするにはどうすればよいですか?
-
- A: .NET 用の Aspose.Cells ライブラリは、以下からダウンロードできます。[アスポーズリリース](https://releases.aspose.com/cells/net)。無料の試用版のほか、商用利用可能な有料ライセンスもあります。
-
-#### Q: Aspose.Cells ライブラリは他のプログラミング言語をサポートしていますか?
-
-A: はい、Aspose.Cells ライブラリは、C#、Java、Python などを含む複数のプログラミング言語をサポートしています。
+### Aspose.Cells の一時ライセンスを取得できますか?  
+もちろんです！[一時ライセンス](https://purchase.aspose.com/temporary-license/)製品を評価するため。

@@ -21,7 +21,7 @@ Mielőtt belevágnánk a dátumellenőrzésbe, győződjön meg arról, hogy a k
 
 ## Az Aspose.Cells beállítása Java számára
 
-A kezdéshez hozzá kell adnia az Aspose.Cells könyvtárat a Java projekthez. Kovesd ezeket a lepeseket:
+A kezdéshez hozzá kell adnia az Aspose.Cells könyvtárat a Java projekthez. Kövesse az alábbi lépéseket:
 
 1.  Töltse le az Aspose.Cells for Java könyvtárat a rendelkezésre állóból[link](https://releases.aspose.com/cells/java/).
 

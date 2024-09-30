@@ -2,84 +2,119 @@
 title: 创建共享工作簿
 linktitle: 创建共享工作簿
 second_title: Aspose.Cells for .NET API 参考
-description: 使用 Aspose.Cells for .NET 创建 Excel 共享工作簿以实现并发数据协作。
+description: 通过本简单的分步指南学习如何使用 Aspose.Cells for .NET 创建共享工作簿。非常适合增强团队协作。
 type: docs
 weight: 70
 url: /zh/net/excel-workbook/create-shared-workbook/
 ---
-在本教程中，我们将引导您完成所提供的 C# 源代码，该代码将允许您使用 Aspose.Cells for .NET 创建共享工作簿。请按照以下步骤执行此操作。
+## 介绍
 
-## 第1步：设置输出目录
+创建共享工作簿可以彻底改变协作，特别是当您在不同团队或部门之间处理数据时。使用 Aspose.Cells for .NET，您可以使用强大的工具以编程方式管理 Excel 文件。本指南将引导您完成创建共享工作簿的步骤，使您的协作更加精简和高效。无论您是新手还是经验丰富的开发人员，这个简单而强大的教程都会让您大饱眼福！
+
+## 先决条件
+
+在深入讨论创建共享工作簿的细节之前，让我们先理清一些事情：
+
+1. Visual Studio：确保您的计算机上安装了 Visual Studio。它是一个开发环境，您可以在其中编写和运行代码。
+2.  Aspose.Cells for .NET：您需要有 Aspose.Cells 库。您可以从以下位置下载[Aspose.Cells 下载](https://releases.aspose.com/cells/net/).
+3. .NET Framework：确保已安装 .NET Framework。此示例适用于 .NET Core 或 .NET Framework 4.x。
+4. C# 基础知识：熟悉一点 C# 编程会大有帮助。如果您可以编写基本代码，那就没问题了！
+
+一旦满足这些先决条件，您就可以开始创建共享工作簿了。
+
+## 导入包
+
+现在我们已经准备好了环境，让我们导入必要的包以便开始。具体操作如下：
+
+### 创建新项目
+1. 打开 Visual Studio。
+2. 创建一个新的 C# 控制台项目。
+3. 将您的项目命名为“SharedWorkbookExample”。
+
+### 安装 Aspose.Cells
+1. 在解决方案资源管理器中右键单击您的项目并选择“管理 NuGet 包”。
+2. 搜索“Aspose.Cells”并安装。这将向您的项目添加必要的引用。
+
+### 添加使用指令
+在你的顶部`Program.cs`文件中，添加以下 using 指令：
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+就这样，您就成功了！让我们来看看创建共享工作簿的步骤。
+
+现在我们进入最精彩的部分！以下是使用 Aspose.Cells for .NET 创建共享工作簿的方法，分为几个简单易懂的步骤。
+
+## 步骤 1：设置输出目录
+
+在此步骤中，您将定义输出文件的保存位置。这就像决定将新鲜出炉的饼干放在哪里一样——您要确保它们以后很容易找到！
 
 ```csharp
 //输出目录
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
+这里我们使用一个方法`RunExamples.Get_OutputDirectory()`指定将保存生成的 Excel 文件的文件夹。请确保在代码中定义此方法，以便正确进行输出处理。
 
-在第一步中，我们定义将保存共享工作簿的输出目录。
+## 步骤 2：创建工作簿对象
 
-## 第 2 步：创建工作簿对象
+接下来，我们的重点转移到创建工作簿。这就是奇迹发生的地方！
 
 ```csharp
 //创建工作簿对象
 Workbook wb = new Workbook();
 ```
+通过实例化`Workbook`类中，我们在内存中准备一个新的工作簿。可以将其想象为在 Excel 中打开一个新的空白表，等待填充数据。
 
-我们正在创建一个新的 Workbook 对象来代表我们的 Excel 工作簿。
+## 步骤 3：共享工作簿
 
-## 步骤 3：启用工作簿共享
+是时候让您的工作簿成为协作杰作了！共享它允许多个用户同时访问它。
 
 ```csharp
-//分享工作簿
+//共享工作簿
 wb.Settings.Shared = true;
 ```
-
-我们通过设置来启用工作簿的共享功能`Shared`Workbook 对象的属性`true`.
+环境`wb.Settings.Shared`到`true`表示此工作簿可同时由多个用户访问。这就像将您家的钥匙交给朋友一样 — 他们可以随意进出！
 
 ## 步骤 4：保存共享工作簿
 
+现在您的工作簿已全部准备好共享，是时候保存更改了。这是关键时刻！
+
 ```csharp
 //保存共享工作簿
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
 ```
+在这里，我们将共享工作簿保存为`outputSharedWorkbook.xlsx`在指定的输出目录中。这将生成一个 Excel 文件，该文件现在可以由多个用户共享和修改。
 
-我们通过指定输出文件的路径和名称来保存共享工作簿。
+## 步骤 5：显示成功消息
 
-### 使用 Aspose.Cells for .NET 创建共享工作簿的示例源代码 
+为了确认一切顺利，让我们打印一条成功消息。
+
 ```csharp
-//输出目录
-string outputDir = RunExamples.Get_OutputDirectory();
-//创建工作簿对象
-Workbook wb = new Workbook();
-//分享工作簿
-wb.Settings.Shared = true;
-//保存共享工作簿
-wb.Save(outputDir + "outputSharedWorkbook.xlsx");
 Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
+这行简单的代码向控制台输出一条消息，表明我们的任务已成功完成。这就像在终点线上发出的胜利欢呼！
 
-## 结论
+## 结论 
 
-恭喜！您学习了如何使用 Aspose.Cells for .NET 创建共享工作簿。多个用户可以同时使用共享工作簿来协作处理数据。使用您自己的数据进行实验并进一步探索 Aspose.Cells 的功能，以创建强大且个性化的 Excel 工作簿。
+创建共享工作簿不仅仅是生成 Excel 文件；它还可以增强团队之间的协作和效率。使用 Aspose.Cells for .NET，该过程简单易用。按照此处概述的步骤，您可以轻松创建一个允许多个用户同时与其交互的工作簿。那么还等什么？深入研究并开始构建共享工作簿，让您的团队能够以前所未有的方式进行协作！
 
-### 常见问题解答
+## 常见问题解答
 
-#### 问：什么是共享工作簿？
+### 什么是共享工作簿？
+共享工作簿是一个允许多个用户同时协作处理的 Excel 文件。
 
-答：共享工作簿是可供多个用户同时使用以协作处理数据的 Excel 工作簿。每个用户都可以对工作簿进行更改，其他用户将实时看到更新。
+### 一旦共享了工作簿，我可以取消共享吗？
+是的，您可以通过设置`Shared`财产`false`.
 
-#### 问：如何在 Aspose.Cells for .NET 中启用工作簿共享？
+### 我需要许可证才能使用 Aspose.Cells 吗？
+是的，Aspose.Cells 的商业使用需要许可证。您还可以获得免费试用版来测试其功能。
 
-答：要在 Aspose.Cells for .NET 中启用工作簿共享，您必须设置`Shared`Workbook 对象的属性`true`。这将允许用户同时处理工作簿。
+### 我可以在哪里获得 Aspose.Cells 的支持？
+您可以在以下位置寻求支持并提出问题[Aspose.Cells 支持论坛](https://forum.aspose.com/c/cells/9).
 
-#### 问：我可以限制共享工作簿中的用户权限吗？
-
-答：是的，您可以使用 Excel 的安全功能限制共享工作簿中的用户权限。您可以为每个用户设置特定的权限，例如编辑、只读等。
-
-#### 问：如何与其他用户共享工作簿？
-
-答：创建共享工作簿后，您可以通过向其他用户发送 Excel 文件来与他们共享。其他用户将能够打开该文件并同时对其进行处理。
-
-#### 问：共享工作簿是否支持所有 Excel 功能？
-
-答：共享工作簿支持大多数 Excel 功能。但是，某些高级功能（例如宏和加载项）在共享工作簿中使用时可能有限制或约束。
+### 如何开始使用 Aspose.Cells？
+首先从[Aspose.Cells 下载](https://releases.aspose.com/cells/net/)页面并按照本指南中提到的安装步骤进行操作。

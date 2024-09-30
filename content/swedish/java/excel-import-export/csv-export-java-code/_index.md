@@ -73,7 +73,7 @@ Grattis! Du har lärt dig hur du exporterar data till CSV-format med Aspose.Cell
 ## Vanliga frågor
 
 ### 1. Kan jag anpassa CSV-separatortecknet?
-    Ja, du kan anpassa separatortecknet genom att ändra`options.setSeparator(',')` rad i koden. Byta ut`','` med önskad separator.
+    Ja, du kan anpassa separatortecknet genom att ändra`options.setSeparator(',')` rad i koden. Ersätta`','` med önskad separator.
 
 ### 2. Är Aspose.Cells lämplig för stora datamängder?
    Ja, Aspose.Cells kan effektivt hantera stora datamängder och erbjuder olika optimeringsalternativ.

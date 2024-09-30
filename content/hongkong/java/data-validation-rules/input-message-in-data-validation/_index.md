@@ -63,7 +63,7 @@ validation.setInputMessage("Please enter a number between 1 and 100.");
 
 ## 數據驗證錯誤警報
 
-除了輸入訊息之外，您還可以設定錯誤警報，以便在使用者輸入無效資料時通知他們。
+除了輸入訊息之外，您還可以設定錯誤警報，以便在使用者輸入無效資料時通知使用者。
 
 ```java
 //設定資料驗證錯誤警報

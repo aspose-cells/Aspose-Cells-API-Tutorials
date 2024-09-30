@@ -2,108 +2,112 @@
 title: 寫入保護 Excel 工作簿時指定作者
 linktitle: 寫入保護 Excel 工作簿時指定作者
 second_title: Aspose.Cells for .NET API 參考
-description: 了解如何使用 Aspose.Cells for .NET 保護和自訂 Excel 工作簿。 C# 逐步教學。
+description: 在此逐步指南中，了解如何使用 Aspose.Cells for .NET 指定作者的同時對 Excel 工作簿進行寫入保護。
 type: docs
 weight: 30
 url: /zh-hant/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
+## 介紹
 
-在本教學中，我們將向您展示如何在使用 .NET 的 Aspose.Cells 庫對 Excel 工作簿進行寫入保護時指定作者。
+當談到在 .NET 應用程式中處理 Excel 檔案時，Aspose.Cells 是許多開發人員的首選解決方案。其豐富的功能可讓您輕鬆產生、操作和保護 Excel 文件。開發人員面臨的一項常見要求是寫入 Excel 工作簿，同時確保其免受未經授權的編輯。此外，指定作者對於共享文件時的追蹤目的非常有用。在本指南中，我們將深入探討如何在使用 Aspose.Cells for .NET 撰寫保護 Excel 工作簿時指定作者。
 
-## 第一步：準備環境
+## 先決條件
 
-在開始之前，請確保您的電腦上安裝了 Aspose.Cells for .NET。從 Aspose 官方網站下載該程式庫並按照提供的安裝說明進行操作。
+在我們深入了解實施的實質之前，有必要先打下堅實的基礎。以下是您開始使用所需的先決條件：
 
-## 第 2 步：設定來源目錄和輸出目錄
+1. Visual Studio：您需要安裝有效的 Visual Studio。您將在此處編寫和編譯 .NET 程式碼。
+2. .NET Framework：確保您已安裝 .NET Framework。 Aspose.Cells 支援各種版本，因此請選擇適合您的應用程式的版本。
+3.  Aspose.Cells 函式庫：您需要擁有 Aspose.Cells 函式庫。您可以從[官方下載頁面](https://releases.aspose.com/cells/net/).
+4. 對 C# 的基本了解：熟悉 C# 將幫助您輕鬆完成編碼過程。
 
-在提供的原始程式碼中，您必須指定來源目錄和輸出目錄。修改`sourceDir`和`outputDir`透過將「YOUR SOURCE DIRECTORY」和「YOUR OUTPUT DIRECTORY」替換為電腦上對應的絕對路徑來變更變數。
+## 導入包
 
-```csharp
-//原始碼目錄
-string sourceDir = "PATH TO YOUR SOURCE DIRECTORY";
-
-//輸出目錄
-string outputDir = "YOUR OUTPUT DIRECTORY PATH";
-```
-
-## 步驟 3：建立一個空白的 Excel 工作簿
-
-首先，我們建立一個代表空 Excel 工作簿的 Workbook 物件。
+為了充分利用 Aspose.Cells 提供的功能，我們首先導入必要的套件。透過新增以下 using 指令來開始您的 C# 檔案：
 
 ```csharp
-//建立空工作簿。
-Workbook wb = new Workbook();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## 第四步：用密碼寫保護
+該指令將允許您存取 Aspose.Cells 庫中包含的類別和方法。現在我們已經導入了包，讓我們繼續有趣的部分——編寫程式碼！
 
-接下來，我們使用以下指令指定一個密碼來寫入保護 Excel 工作簿`WriteProtection.Password`Workbook 物件的屬性。
+## 第 1 步：設定您的目錄
 
-```csharp
-//使用密碼寫入保護工作簿。
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-```
+在啟動工作簿之前，最好先設定來源檔案所在的路徑以及要儲存輸出的位置。具體做法如下：
 
-## 第 5 步：作者說明
-
-現在我們使用以下命令指定 Excel 工作簿的作者`WriteProtection.Author`Workbook 物件的屬性。
-
-```csharp
-//寫入保護工作簿時指定作者。
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-```
-
-## 步驟 6：備份受保護的 Excel 工作簿
-
-一旦指定了寫入保護和作者，我們就可以使用以下命令將 Excel 工作簿儲存為 XLSX 格式：`Save()`方法。
-
-```csharp
-//將工作簿儲存為 XLSX 格式。
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-```
-
-### 使用 Aspose.Cells for .NET 寫入保護 Excel 工作簿時指定作者的範例原始程式碼 
 ```csharp
 //原始碼目錄
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 //輸出目錄
 string outputDir = "YOUR OUTPUT DIRECTORY";
+```
 
+確保更換`"YOUR SOURCE DIRECTORY"`和`"YOUR OUTPUT DIRECTORY"`與您機器上的實際路徑。將此視為在開始製作傑作之前創建一個整潔的工作空間！
+
+## 第 2 步：建立一個空白工作簿
+
+現在我們已經設定了目錄，下一步是建立一個空工作簿。這本質上是您將在其中寫入資料的畫布。
+
+```csharp
 //建立空工作簿。
 Workbook wb = new Workbook();
+```
 
+就像藝術家從空白畫布開始一樣，您也從一個空工作簿開始，稍後可以在其中添加資料或格式。
+
+## 步驟 3：寫入保護工作簿
+
+寫入保護是至關重要的方面，特別是如果您想確保資料的完整性保持不變。您可以使用密碼來做到這一點。
+
+```csharp
 //使用密碼寫入保護工作簿。
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
+```
 
+在此行中，替換`"YOUR_PASSWORD"`使用您選擇的強密碼。這個密碼就像一扇上鎖的門，只有擁有鑰匙（密碼）的人才能進入。
+
+## 第 4 步：指定作者
+
+現在我們將指定工作簿的作者。這對於問責制特別有用，並允許其他人查看誰創建或修改了文件。
+
+```csharp
 //寫入保護工作簿時指定作者。
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
+```
 
+確保更換`"YOUR_AUTHOR"`以及您想要與文件關聯的名稱。將此視為在您的藝術作品上簽名 - 它讓人們知道該感謝誰創作了這件作品！
+
+## 第 5 步：儲存工作簿
+
+最後一步是以所需的格式儲存工作簿。在本例中，我們將其儲存為 XLSX 檔案。 
+
+```csharp
 //將工作簿儲存為 XLSX 格式。
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-
 ```
+
+這裡，輸出檔案將保存在您指定的輸出目錄中，名稱為`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`。這是您的辛勤工作終於得到回報的地方，您可以與其他人分享您的工作簿，因為您知道它受到了很好的保護！
 
 ## 結論
 
-恭喜！現在您已經了解如何在使用 Aspose.Cells for .NET 對 Excel 工作簿進行寫入保護時指定作者。您可以將這些步驟套用到您自己的專案中，以保護和自訂您的 Excel 工作簿。
-
-請隨意進一步探索 Aspose.Cells for .NET 的功能，以對 Excel 檔案進行更進階的操作。
+現在你就得到它了！您已經了解如何建立 Excel 工作簿、使用密碼設定寫入保護、指定作者以及使用 Aspose.Cells for .NET 無縫保存它。這種功能組合不僅可以保護您的數據，還可以保持其完整性並提供正確的歸屬。
 
 ## 常見問題解答
 
-#### Q：我可以在不指定密碼的情況下對 Excel 工作簿進行寫入保護嗎？
+### 我可以自訂寫入保護密碼嗎？  
+是的，您可以根據您的需求自訂密碼。只需更換`YOUR_PASSWORD`使用您想要的密碼。
 
-答：是的，您可以使用 Workbook 物件的`WriteProtect()`方法無需指定密碼即可對 Excel 工作簿進行寫入保護。這將限制對工作簿的更改，而無需密碼。
+### Aspose.Cells 可以免費使用嗎？  
+Aspose.Cells 是一個付費庫，但您可以在有限的時間內免費試用。參觀[免費試用連結](https://releases.aspose.com/)開始吧。
 
-#### Q：如何取消 Excel 工作簿的寫入保護？
+### 如何購買 Aspose.Cells 庫？  
+您可以透過他們的網站購買 Aspose.Cells[購買頁面](https://purchase.aspose.com/buy).
 
-答：要取消 Excel 工作簿的寫入保護，您可以使用`Unprotect()`Worksheet 物件的方法或`RemoveWriteProtection()`Workbook 物件的方法，取決於您的具體用例。 。
+### 我可以在 Web 應用程式中使用這種方法嗎？  
+絕對地！ Aspose.Cells 使用 .NET 在桌面和 Web 應用程式中無縫運作。
 
-#### Q：我忘了保護 Excel 工作簿的密碼。我能做些什麼 ？
-
-答：如果您忘記了保護 Excel 工作簿的密碼，則無法直接將其刪除。但是，您可以嘗試使用專門的第三方工具，為受保護的 Excel 檔案提供密碼復原功能。
-
-#### Q：對 Excel 工作簿進行寫入保護時是否可以指定多位作者？
-
-答：不可以，Aspose.Cells for .NET 函式庫允許在對 Excel 工作簿進行寫入保護時指定單一作者。如果要指定多個作者，則需要考慮透過直接操作 Excel 檔案來自訂解決方案。
+### 如果我需要支持，我該怎麼辦？  
+對於問題和故障排除，Aspose 社群非常有幫助。你可以訪問他們的[支援論壇](https://forum.aspose.com/c/cells/9)尋求幫助。

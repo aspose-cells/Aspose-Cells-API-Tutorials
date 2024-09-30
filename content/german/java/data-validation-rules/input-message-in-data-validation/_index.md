@@ -1,6 +1,6 @@
 ---
-title: Eingabenachricht bei der Datenvalidierung
-linktitle: Eingabenachricht bei der Datenvalidierung
+title: Eingabenachricht bei der Datenüberprüfung
+linktitle: Eingabenachricht bei der Datenüberprüfung
 second_title: Aspose.Cells Java Excel-Verarbeitungs-API
 description: Erfahren Sie, wie Sie die Datenvalidierung in Excel mit Aspose.Cells für Java verbessern. Schritt-für-Schritt-Anleitung mit Codebeispielen zur Verbesserung der Datengenauigkeit und Benutzerführung.
 type: docs
@@ -10,11 +10,11 @@ url: /de/java/data-validation-rules/input-message-in-data-validation/
 
 ## Einführung in die Datenvalidierung
 
-Die Datenvalidierung ist eine Funktion in Excel, die dabei hilft, die Datengenauigkeit und -konsistenz aufrechtzuerhalten, indem sie die Art der Daten einschränkt, die in eine Zelle eingegeben werden können. Es stellt sicher, dass Benutzer gültige Informationen eingeben, wodurch Fehler reduziert und die Datenqualität verbessert werden.
+Die Datenüberprüfung ist eine Funktion in Excel, die dabei hilft, die Genauigkeit und Konsistenz von Daten aufrechtzuerhalten, indem sie die Art der Daten einschränkt, die in eine Zelle eingegeben werden können. Sie stellt sicher, dass Benutzer gültige Informationen eingeben, wodurch Fehler reduziert und die Datenqualität verbessert wird.
 
 ## Was ist Aspose.Cells für Java?
 
-Aspose.Cells für Java ist eine Java-basierte API, die es Entwicklern ermöglicht, Excel-Tabellen zu erstellen, zu bearbeiten und zu verwalten, ohne Microsoft Excel zu benötigen. Es bietet zahlreiche Funktionen für die programmgesteuerte Arbeit mit Excel-Dateien und ist damit ein wertvolles Werkzeug für Java-Entwickler.
+Aspose.Cells für Java ist eine Java-basierte API, mit der Entwickler Excel-Tabellen erstellen, bearbeiten und verwalten können, ohne Microsoft Excel zu benötigen. Es bietet eine breite Palette von Funktionen für die programmgesteuerte Arbeit mit Excel-Dateien und ist damit ein wertvolles Tool für Java-Entwickler.
 
 ## Einrichten Ihrer Entwicklungsumgebung
 
@@ -22,26 +22,26 @@ Bevor wir beginnen, stellen Sie sicher, dass auf Ihrem System eine Java-Entwickl
 
 ## Erstellen eines neuen Java-Projekts
 
-Erstellen Sie zunächst ein neues Java-Projekt in der von Ihnen gewählten IDE. Geben Sie ihm einen aussagekräftigen Namen, z. B. „DataValidationDemo“.
+Erstellen Sie zunächst ein neues Java-Projekt in der von Ihnen gewählten IDE. Geben Sie ihm einen aussagekräftigen Namen, beispielsweise „DataValidationDemo“.
 
 ## Hinzufügen von Aspose.Cells für Java zu Ihrem Projekt
 
 Um Aspose.Cells für Java in Ihrem Projekt zu verwenden, müssen Sie die Aspose.Cells-Bibliothek hinzufügen. Sie können die Bibliothek von der Website herunterladen und zum Klassenpfad Ihres Projekts hinzufügen.
 
-## Hinzufügen einer Datenvalidierung zu einem Arbeitsblatt
+## Hinzufügen einer Datenüberprüfung zu einem Arbeitsblatt
 
-Nachdem Sie Ihr Projekt nun eingerichtet haben, beginnen wir mit dem Hinzufügen der Datenvalidierung zu einem Arbeitsblatt. Erstellen Sie zunächst eine neue Excel-Arbeitsmappe und ein Arbeitsblatt.
+Nachdem Sie Ihr Projekt nun eingerichtet haben, können wir mit der Datenüberprüfung zu einem Arbeitsblatt beginnen. Erstellen Sie zunächst eine neue Excel-Arbeitsmappe und ein Arbeitsblatt.
 
 ```java
-// Erstellen Sie eine neue Arbeitsmappe
+// Erstellen einer neuen Arbeitsmappe
 Workbook workbook = new Workbook();
 // Greifen Sie auf das erste Arbeitsblatt zu
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Validierungskriterien definieren
+## Definieren von Validierungskriterien
 
-Sie können Validierungskriterien definieren, um die Art der Daten einzuschränken, die in eine Zelle eingegeben werden können. Beispielsweise können Sie nur ganze Zahlen zwischen 1 und 100 zulassen.
+Sie können Validierungskriterien definieren, um den Datentyp einzuschränken, der in eine Zelle eingegeben werden kann. Sie können beispielsweise nur ganze Zahlen zwischen 1 und 100 zulassen.
 
 ```java
 // Definieren Sie Datenvalidierungskriterien
@@ -54,30 +54,30 @@ validation.setFormula2("100");
 
 ## Eingabenachricht zur Datenvalidierung
 
-Eingabemeldungen bieten Benutzern Hinweise zur Art der Daten, die sie eingeben sollten. Mit Aspose.Cells für Java können Sie Ihren Datenvalidierungsregeln Eingabenachrichten hinzufügen.
+Eingabemeldungen geben Benutzern Hinweise, welche Art von Daten sie eingeben sollen. Sie können Ihren Datenüberprüfungsregeln mit Aspose.Cells für Java Eingabemeldungen hinzufügen.
 
 ```java
-// Legen Sie die Eingabenachricht für die Datenvalidierung fest
+// Eingabenachricht für die Datenvalidierung festlegen
 validation.setInputMessage("Please enter a number between 1 and 100.");
 ```
 
-## Fehlerwarnungen für die Datenvalidierung
+## Fehlermeldungen zur Datenvalidierung
 
-Zusätzlich zu Eingabemeldungen können Sie Fehlerwarnungen einrichten, um Benutzer zu benachrichtigen, wenn sie ungültige Daten eingeben.
+Zusätzlich zu Eingabenachrichten können Sie Fehlerwarnungen einrichten, um Benutzer zu benachrichtigen, wenn sie ungültige Daten eingeben.
 
 ```java
-// Legen Sie eine Fehlerwarnung für die Datenvalidierung fest
+// Fehlerwarnung für die Datenüberprüfung festlegen
 validation.setShowError(true);
 validation.setErrorTitle("Invalid Data");
 validation.setErrorMessage("Please enter a valid number between 1 and 100.");
 ```
 
-## Anwenden der Datenvalidierung auf Zellen
+## Anwenden der Datenüberprüfung auf Zellen
 
-Nachdem Sie nun Ihre Datenvalidierungsregeln definiert haben, können Sie sie auf bestimmte Zellen in Ihrem Arbeitsblatt anwenden.
+Nachdem Sie Ihre Datenüberprüfungsregeln definiert haben, können Sie sie auf bestimmte Zellen in Ihrem Arbeitsblatt anwenden.
 
 ```java
-// Wenden Sie die Datenvalidierung auf einen Bereich von Zellen an
+// Anwenden der Datenüberprüfung auf einen Zellbereich
 CellArea area = new CellArea();
 area.startRow = 0;
 area.endRow = 9;
@@ -86,57 +86,57 @@ area.endColumn = 0;
 validation.addArea(area);
 ```
 
-## Arbeiten mit verschiedenen Datentypen
+## Arbeiten mit unterschiedlichen Datentypen
 
-Mit Aspose.Cells für Java können Sie zur Datenvalidierung mit verschiedenen Datentypen arbeiten, darunter ganze Zahlen, Dezimalzahlen, Datumsangaben und Text.
+Aspose.Cells für Java ermöglicht Ihnen die Arbeit mit verschiedenen Datentypen zur Datenvalidierung, darunter ganze Zahlen, Dezimalzahlen, Daten und Text.
 
 ```java
-// Stellen Sie den Datenvalidierungstyp auf „Dezimal“ ein
+// Legen Sie den Datenüberprüfungstyp auf Dezimal fest.
 validation.setType(DataValidationType.DECIMAL);
 ```
 
-## Anpassen von Datenvalidierungsnachrichten
+## Anpassen von Datenvalidierungsmeldungen
 
-Sie können Eingabemeldungen und Fehlerwarnungen anpassen, um Benutzern spezifische Anweisungen und Anleitungen zu geben.
+Sie können Eingabemeldungen und Fehlermeldungen anpassen, um den Benutzern spezifische Anweisungen und Anleitungen zu geben.
 
 ```java
-// Passen Sie Eingabe- und Fehlermeldungen an
+// Eingabenachricht und Fehlermeldung anpassen
 validation.setInputMessage("Please enter a decimal number.");
 validation.setErrorMessage("Invalid input. Please enter a valid decimal number.");
 ```
 
 ## Validieren von Datumseinträgen
 
-Mithilfe der Datenvalidierung kann auch sichergestellt werden, dass Datumseinträge innerhalb eines bestimmten Bereichs oder Formats liegen.
+Mithilfe der Datenüberprüfung können Sie außerdem sicherstellen, dass die Datumseinträge innerhalb eines bestimmten Bereichs oder Formats liegen.
 
 ```java
-// Stellen Sie den Datenvalidierungstyp auf „Datum“ ein
+// Datenvalidierungstyp auf Datum festlegen
 validation.setType(DataValidationType.DATE);
 ```
 
 ## Erweiterte Datenvalidierungstechniken
 
-Aspose.Cells für Java bietet erweiterte Techniken zur Datenvalidierung, wie zum Beispiel benutzerdefinierte Formeln und kaskadierende Validierung.
+Aspose.Cells für Java bietet erweiterte Techniken zur Datenvalidierung, wie benutzerdefinierte Formeln und kaskadierende Validierung.
 
 ## Abschluss
 
-In diesem Artikel haben wir untersucht, wie man mit Aspose.Cells für Java Eingabenachrichten zu Datenvalidierungsregeln hinzufügt. Die Datenvalidierung ist ein entscheidender Aspekt für die Aufrechterhaltung der Datengenauigkeit in Excel, und Aspose.Cells erleichtert die Implementierung und Anpassung dieser Regeln in Ihren Java-Anwendungen. Indem Sie die in diesem Leitfaden beschriebenen Schritte befolgen, können Sie die Benutzerfreundlichkeit und Datenqualität Ihrer Excel-Arbeitsmappen verbessern.
+In diesem Artikel haben wir untersucht, wie Sie mit Aspose.Cells für Java Eingabenachrichten zu Datenvalidierungsregeln hinzufügen. Die Datenvalidierung ist ein entscheidender Aspekt zur Aufrechterhaltung der Datengenauigkeit in Excel, und Aspose.Cells erleichtert die Implementierung und Anpassung dieser Regeln in Ihren Java-Anwendungen. Indem Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie die Benutzerfreundlichkeit und Datenqualität Ihrer Excel-Arbeitsmappen verbessern.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### Wie füge ich die Datenvalidierung mehreren Zellen gleichzeitig hinzu?
+### Wie füge ich mehreren Zellen gleichzeitig eine Datenüberprüfung hinzu?
 
- Um die Datenvalidierung mehreren Zellen hinzuzufügen, können Sie einen Zellbereich definieren und die Validierungsregeln auf diesen Bereich anwenden. Mit Aspose.Cells für Java können Sie mithilfe von einen Zellbereich angeben`CellArea` Klasse.
+ Um die Datenvalidierung auf mehrere Zellen anzuwenden, können Sie einen Zellbereich definieren und die Validierungsregeln auf diesen Bereich anwenden. Aspose.Cells für Java ermöglicht Ihnen die Angabe eines Zellbereichs mit dem`CellArea` Klasse.
 
-### Kann ich benutzerdefinierte Formeln zur Datenvalidierung verwenden?
+### Kann ich zur Datenüberprüfung benutzerdefinierte Formeln verwenden?
 
-Ja, Sie können benutzerdefinierte Formeln zur Datenvalidierung in Aspose.Cells für Java verwenden. Dadurch können Sie komplexe Validierungsregeln basierend auf Ihren spezifischen Anforderungen erstellen.
+Ja, Sie können benutzerdefinierte Formeln zur Datenvalidierung in Aspose.Cells für Java verwenden. Auf diese Weise können Sie komplexe Validierungsregeln basierend auf Ihren spezifischen Anforderungen erstellen.
 
-### Wie entferne ich die Datenvalidierung aus einer Zelle?
+### Wie entferne ich die Datenüberprüfung aus einer Zelle?
 
- Um die Datenvalidierung aus einer Zelle zu entfernen, können Sie einfach die aufrufen`removeDataValidation`Methode auf der Zelle. Dadurch werden alle vorhandenen Validierungsregeln für diese Zelle entfernt.
+ Um die Datenvalidierung aus einer Zelle zu entfernen, können Sie einfach den`removeDataValidation`-Methode auf der Zelle. Dadurch werden alle vorhandenen Validierungsregeln für diese Zelle entfernt.
 
-### Kann ich für verschiedene Validierungsregeln unterschiedliche Fehlermeldungen festlegen?
+### Kann ich für unterschiedliche Validierungsregeln unterschiedliche Fehlermeldungen festlegen?
 
 Ja, Sie können in Aspose.Cells für Java unterschiedliche Fehlermeldungen für unterschiedliche Validierungsregeln festlegen. Jede Datenvalidierungsregel verfügt über eigene Eingabenachrichten- und Fehlermeldungseigenschaften, die Sie anpassen können.
 

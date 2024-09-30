@@ -1,33 +1,33 @@
 ---
-title: Kontrola dostępu do plików
-linktitle: Kontrola dostępu do plików
-second_title: Aspose.Cells API przetwarzania Java Excel
-description: Dowiedz się, jak kontrolować dostęp do plików za pomocą Aspose.Cells for Java API. Przewodnik krok po kroku z kodem źródłowym i często zadawanymi pytaniami.
+title: Audyt dostępu do plików
+linktitle: Audyt dostępu do plików
+second_title: Aspose.Cells Java Excel Processing API
+description: Dowiedz się, jak audytować dostęp do plików za pomocą Aspose.Cells for Java API. Przewodnik krok po kroku z kodem źródłowym i FAQ.
 type: docs
 weight: 16
 url: /pl/java/excel-data-security/auditing-file-access/
 ---
 
-## Wprowadzenie do kontroli dostępu do plików
+## Wprowadzenie do audytu dostępu do plików
 
-tym samouczku przyjrzymy się, jak kontrolować dostęp do plików za pomocą interfejsu API Aspose.Cells for Java. Aspose.Cells to potężna biblioteka Java, która umożliwia tworzenie, manipulowanie i zarządzanie arkuszami kalkulacyjnymi Excel. Pokażemy, jak śledzić i rejestrować działania związane z dostępem do plików w aplikacji Java za pomocą tego interfejsu API.
+tym samouczku pokażemy, jak audytować dostęp do plików za pomocą interfejsu API Aspose.Cells for Java. Aspose.Cells to potężna biblioteka Java, która umożliwia tworzenie, manipulowanie i zarządzanie arkuszami kalkulacyjnymi Excela. Pokażemy, jak śledzić i rejestrować działania związane z dostępem do plików w aplikacji Java za pomocą tego interfejsu API.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące wymagania wstępne:
+Zanim zaczniesz, upewnij się, że spełniasz następujące wymagania wstępne:
 
-- [Zestaw programistyczny Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) zainstalowany w Twoim systemie.
--  Aspose.Cells dla biblioteki Java. Można go pobrać z[Witryna internetowa Aspose.Cells dla języka Java](https://releases.aspose.com/cells/java/).
+- [Zestaw narzędzi programistycznych Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) zainstalowany w Twoim systemie.
+-  Biblioteka Aspose.Cells for Java. Można ją pobrać ze strony[Aspose.Cells dla witryny Java](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Konfigurowanie projektu Java
 
 1. Utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
 
-2. Dodaj bibliotekę Aspose.Cells for Java do swojego projektu, dołączając pobrany wcześniej plik JAR.
+2. Dodaj bibliotekę Aspose.Cells for Java do swojego projektu, dołączając plik JAR, który pobrałeś wcześniej.
 
 ## Krok 2: Tworzenie rejestratora audytu
 
- W tym kroku utworzymy klasę odpowiedzialną za rejestrowanie czynności związanych z dostępem do plików. nazwijmy to`FileAccessLogger.java`. Oto podstawowa implementacja:
+ W tym kroku utworzymy klasę odpowiedzialną za rejestrowanie aktywności dostępu do plików. Nazwijmy ją`FileAccessLogger.java`Oto podstawowa implementacja:
 
 ```java
 import java.io.FileWriter;
@@ -51,11 +51,11 @@ public class FileAccessLogger {
 }
 ```
 
-Ten rejestrator rejestruje zdarzenia dostępu w pliku tekstowym.
+Ten rejestrator zapisuje zdarzenia dostępu w pliku tekstowym.
 
 ## Krok 3: Używanie Aspose.Cells do wykonywania operacji na plikach
 
- Teraz zintegrujmy Aspose.Cells z naszym projektem, aby wykonywać operacje na plikach i uzyskać dostęp do dzienników. Stworzymy klasę o nazwie`ExcelFileManager.java`:
+ Teraz zintegrujmy Aspose.Cells z naszym projektem, aby wykonywać operacje na plikach i rejestrować działania dostępu. Utworzymy klasę o nazwie`ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -85,9 +85,9 @@ public class ExcelFileManager {
 }
 ```
 
-## Krok 4: Korzystanie z rejestratora audytu w aplikacji
+## Krok 4: Korzystanie z Audit Logger w aplikacji
 
- Teraz, gdy mamy swoje`FileAccessLogger` I`ExcelFileManager` klas, możesz użyć ich w swojej aplikacji w następujący sposób:
+ Teraz, gdy mamy nasze`FileAccessLogger` I`ExcelFileManager` klas, możesz ich używać w swojej aplikacji w następujący sposób:
 
 ```java
 public class Main {
@@ -95,7 +95,7 @@ public class Main {
         String username = "john_doe"; // Zastąp rzeczywistą nazwą użytkownika
         String filename = "example.xlsx"; // Zastąp rzeczywistą ścieżką pliku
 
-        // Otwórz plik Excela
+        // Otwórz plik Excel
         ExcelFileManager.openExcelFile(filename, username);
 
         // Wykonaj operacje na pliku Excel
@@ -108,22 +108,22 @@ public class Main {
 
 ## Wniosek
 
-W tym obszernym przewodniku zagłębiliśmy się w świat Aspose.Cells for Java API i zademonstrowaliśmy, jak kontrolować dostęp do plików w aplikacjach Java. Postępując zgodnie ze szczegółowymi instrukcjami i korzystając z przykładów kodu źródłowego, uzyskałeś cenne informacje na temat wykorzystania możliwości tej potężnej biblioteki.
+W tym kompleksowym przewodniku zagłębiliśmy się w świat Aspose.Cells for Java API i pokazaliśmy, jak audytować dostęp do plików w aplikacjach Java. Postępując zgodnie z instrukcjami krok po kroku i wykorzystując przykłady kodu źródłowego, uzyskałeś cenne informacje na temat wykorzystania możliwości tej potężnej biblioteki.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak mogę odzyskać dziennik audytu?
+### Jak mogę pobrać dziennik audytu?
 
-Aby pobrać dziennik audytu, możesz po prostu przeczytać zawartość pliku`file_access_log.txt` plik, korzystając z możliwości odczytu plików Java.
+Aby pobrać dziennik audytu, wystarczy przeczytać jego zawartość`file_access_log.txt` plik korzystając z możliwości odczytu plików języka Java.
 
-### Czy mogę dostosować format dziennika lub miejsce docelowe?
+### Czy mogę dostosować format i miejsce docelowe dziennika?
 
- Tak, możesz dostosować format dziennika i miejsce docelowe, modyfikując plik`FileAccessLogger` klasa. Możesz zmienić ścieżkę pliku dziennika, format wpisu dziennika, a nawet użyć innej biblioteki rejestrowania, takiej jak Log4j.
+ Tak, możesz dostosować format i miejsce docelowe dziennika, modyfikując`FileAccessLogger` Klasa. Możesz zmienić ścieżkę pliku dziennika, format wpisu dziennika, a nawet użyć innej biblioteki dziennika, takiej jak Log4j.
 
-### Czy istnieje sposób filtrowania wpisów dziennika według użytkownika lub pliku?
+### Czy istnieje sposób na filtrowanie wpisów w dzienniku według użytkownika lub pliku?
 
- Możesz zaimplementować logikę filtrowania w pliku`FileAccessLogger` klasa. Dodaj warunki do wpisów dziennika na podstawie kryteriów użytkownika lub pliku przed zapisaniem do pliku dziennika.
+ Możesz zaimplementować logikę filtrowania w`FileAccessLogger` klasa. Dodaj warunki do wpisów dziennika na podstawie kryteriów użytkownika lub pliku przed zapisaniem do pliku dziennika.
 
-### Jakie inne działania mogę rejestrować oprócz otwierania i zapisywania plików?
+### Jakie inne akcje mogę rejestrować oprócz otwierania i zapisywania plików?
 
- Możesz przedłużyć`ExcelFileManager` class do rejestrowania innych działań, takich jak edytowanie, usuwanie lub udostępnianie plików, w zależności od wymagań aplikacji.
+ Możesz rozszerzyć`ExcelFileManager` Klasa służąca do rejestrowania innych działań, takich jak edycja, usuwanie lub udostępnianie plików, w zależności od wymagań aplikacji.

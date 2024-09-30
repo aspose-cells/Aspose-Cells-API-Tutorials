@@ -60,7 +60,7 @@ pivotTable.calculateData();
 ```
 
 ## Következtetés
-Gratulálunk! Megtanulta, hogyan hozhat létre számított mezőket a kimutatástáblázatokban az Aspose.Cells for Java használatával. Ez lehetővé teszi, hogy egyéni számításokat végezzen az adatokon az Excelben, javítva ezzel az adatelemzési képességeket.
+Gratulálok! Megtanulta, hogyan hozhat létre számított mezőket a kimutatástáblázatokban az Aspose.Cells for Java használatával. Ez lehetővé teszi, hogy egyéni számításokat végezzen az adatokon az Excelben, javítva ezzel az adatelemzési képességeket.
 
 ## GYIK
 ### Mi a teendő, ha összetettebb számításokat kell végrehajtanom a kimutatásban?

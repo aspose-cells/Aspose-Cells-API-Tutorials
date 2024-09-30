@@ -1,135 +1,151 @@
 ---
-title: Điều chỉnh mức nén
-linktitle: Điều chỉnh mức nén
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Giảm kích thước sổ làm việc Excel của bạn bằng cách điều chỉnh mức nén bằng Aspose.Cells for .NET.
+title: Điều chỉnh mức độ nén
+linktitle: Điều chỉnh mức độ nén
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách điều chỉnh mức độ nén cho các tệp Excel bằng Aspose.Cells cho .NET. Tối ưu hóa kích thước tệp của bạn một cách hiệu quả với hướng dẫn từng bước này.
 type: docs
 weight: 50
 url: /vi/net/excel-workbook/adjust-compression-level/
 ---
-Trong hướng dẫn từng bước này, chúng tôi sẽ giải thích mã nguồn C# được cung cấp để cho phép bạn điều chỉnh mức độ nén bằng Aspose.Cells cho .NET. Hãy làm theo các bước bên dưới để điều chỉnh mức độ nén trong sổ làm việc Excel của bạn.
+## Giới thiệu
 
-## Bước 1: Đặt thư mục nguồn và đầu ra
+Khi nói đến việc xử lý các tệp Excel lớn, lưu trữ hiệu quả là chìa khóa. Cho dù bạn là nhà phát triển muốn tối ưu hóa kích thước tệp hay nhà phân tích dữ liệu muốn tăng tốc độ truyền tệp, việc hiểu cách điều chỉnh mức nén trong Aspose.Cells cho .NET có thể là một bước ngoặt. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để điều chỉnh mức nén khi lưu tệp Excel, đảm bảo bạn duy trì hiệu suất mà không ảnh hưởng đến chất lượng.
 
-```csharp
-// thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Thư mục đầu ra
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## Điều kiện tiên quyết
 
-Trong bước đầu tiên này, chúng tôi xác định thư mục nguồn và đầu ra cho các tệp Excel.
+Trước khi đi sâu vào chi tiết về các mức nén, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-## Bước 2: Tải sổ làm việc Excel
+1. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# là điều cần thiết. Nếu bạn thoải mái với các biến, vòng lặp và các thao tác tệp cơ bản, bạn đã sẵn sàng!
+2. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/cells/net/) . Nếu bạn mới bắt đầu, hãy cân nhắc dùng thử miễn phí[đây](https://releases.aspose.com/).
+3. Môi trường phát triển: Thiết lập môi trường phát triển, lý tưởng nhất là Visual Studio, để viết và thực thi mã C#. 
+4. Tệp Excel mẫu: Chuẩn bị một tệp Excel lớn để thử nghiệm. Bạn có thể tạo một tệp hoặc sử dụng bất kỳ tệp nào hiện có, nhưng hãy đảm bảo tệp đủ lớn để thấy được hiệu ứng nén.
 
-```csharp
-// Tải sổ làm việc Excel
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+Với những điều kiện tiên quyết này, chúng ta hãy bắt đầu nhé!
 
-Chúng tôi tải sổ làm việc Excel từ tệp được chỉ định bằng cách sử dụng`Workbook` lớp từ Aspose.Cells.
+## Nhập gói
 
-## Bước 3: Đặt tùy chọn sao lưu
+Trước khi chúng ta có thể thao tác với các tệp Excel, chúng ta cần nhập các không gian tên cần thiết. Đây là bước quan trọng cho phép chúng ta truy cập các lớp và phương thức do Aspose.Cells cung cấp.
+
+### Nhập không gian tên Aspose.Cells
 
 ```csharp
-// Xác định các tùy chọn sao lưu
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- Chúng tôi tạo một thể hiện của`XlsbSaveOptions` class để thiết lập các tùy chọn lưu.
+ Đoạn mã này nhập`Aspose.Cells` không gian tên, chứa tất cả các lớp cần thiết để làm việc với các tệp Excel.`Aspose.Cells.Xlsb` không gian tên dành riêng để xử lý các định dạng tệp XLSB.
 
-## Bước 4: Điều chỉnh mức độ nén (Level 1)
+Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình điều chỉnh mức nén thành các bước dễ quản lý. Chúng ta sẽ lưu một sổ làm việc với các mức nén khác nhau và đo thời gian thực hiện cho từng thao tác. 
 
-```csharp
-// Điều chỉnh mức độ nén (Cấp 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## Bước 1: Thiết lập thư mục của bạn
 
- Chúng tôi điều chỉnh mức độ nén bằng cách cài đặt`CompressionType` ĐẾN`Level1`. Sau đó, chúng tôi lưu sổ làm việc Excel với tùy chọn nén được chỉ định này.
+Trước tiên, chúng ta cần xác định nơi lưu trữ các tệp của mình. Điều này bao gồm việc chỉ định thư mục nguồn cho tệp đầu vào và thư mục đầu ra cho các tệp nén của chúng ta.
 
-## Bước 5: Điều chỉnh mức độ nén (Level 6)
-
-```csharp
-// Điều chỉnh mức độ nén (Cấp 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- Chúng tôi lặp lại quá trình để điều chỉnh mức độ nén thành`Level6` và lưu sổ làm việc Excel với tùy chọn này.
-
-## Bước 6: Điều chỉnh mức độ nén (Level 9)
-
-```csharp
-// Điều chỉnh mức độ nén (Cấp 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- Chúng tôi lặp lại quy trình lần cuối để điều chỉnh mức nén thành`Level9` và lưu sổ làm việc Excel với tùy chọn này.
-
-### Mã nguồn mẫu để Điều chỉnh mức nén bằng Aspose.Cells cho .NET 
 ```csharp
 //Thư mục nguồn
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ Đây,`RunExamples.Get_SourceDirectory()` Và`RunExamples.Get_OutputDirectory()` là các phương pháp trả về đường dẫn đến thư mục nguồn và thư mục đầu ra của bạn. 
+
+## Bước 2: Tải Workbook
+
+Tiếp theo, chúng ta sẽ tải bảng tính Excel mà chúng ta muốn nén. Đây là nơi bạn sẽ trỏ đến tệp Excel lớn của mình.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ Dòng này khởi tạo một cái mới`Workbook` đối tượng với tệp đã chỉ định. Đảm bảo đường dẫn tệp là chính xác; nếu không, bạn sẽ gặp lỗi.
+
+## Bước 3: Tạo tùy chọn lưu cho XLSB
+
+ Bây giờ, chúng ta sẽ tạo một thể hiện của`XlsbSaveOptions`, cho phép chúng ta chỉ định cách chúng ta muốn lưu sổ làm việc, bao gồm cả mức độ nén.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+Dòng này chuẩn bị các tùy chọn chúng ta sẽ sử dụng để lưu bảng tính ở định dạng XLSB.
+
+## Bước 4: Thiết lập và đo mức độ nén
+
+Bây giờ đến phần thú vị! Chúng ta sẽ lưu sổ làm việc bằng các mức nén khác nhau và đo thời gian thực hiện cho từng thao tác. 
+
+### Nén mức 1
+
+Chúng ta hãy bắt đầu với mức nén thấp nhất:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Trong đoạn mã này, chúng tôi đặt loại nén thành Mức 1, lưu sổ làm việc và ghi lại thời gian thực hiện. 
+
+### Nén mức 6
+
+Tiếp theo, chúng ta sẽ thử mức nén trung bình:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Lần này, chúng tôi đặt loại nén thành Mức 6 và lặp lại thao tác lưu.
+
+### Nén mức 9
+
+Cuối cùng, hãy lưu bằng mức nén cao nhất:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+Ở bước này, chúng ta đặt loại nén thành Mức 9, loại này sẽ tạo ra kích thước tệp nhỏ nhất nhưng có thể mất nhiều thời gian hơn để lưu.
+
+## Bước 5: Đầu ra cuối cùng
+
+Sau khi thực hiện tất cả các bước trên, bạn sẽ thấy thời gian đã trôi qua cho mỗi mức nén được in ra bảng điều khiển. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Dòng này xác nhận rằng toàn bộ quá trình đã hoàn tất mà không có vấn đề gì.
+
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã học cách điều chỉnh mức độ nén trong sổ làm việc Excel bằng Aspose.Cells for .NET. Hãy thử nghiệm với nhiều mức độ nén khác nhau để tìm ra mức nén phù hợp nhất với nhu cầu của bạn.
+Điều chỉnh mức độ nén khi lưu tệp Excel bằng Aspose.Cells cho .NET là một kỹ thuật đơn giản nhưng mạnh mẽ. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể dễ dàng điều chỉnh kích thước tệp, giúp chúng dễ quản lý hơn khi lưu trữ và chuyển. Cho dù bạn cần truy cập nhanh vào dữ liệu hay đang tìm cách tối ưu hóa hiệu suất ứng dụng của mình, việc thành thạo các kỹ thuật này chắc chắn sẽ nâng cao kỹ năng của bạn với tư cách là một nhà phát triển.
 
-### Câu hỏi thường gặp
+## Câu hỏi thường gặp
 
-#### Hỏi: Nén trong sổ làm việc Excel là gì?
+### Aspose.Cells là gì?
+Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 
-Đáp: Nén trong sổ làm việc Excel là một quá trình giảm kích thước tệp bằng cách sử dụng thuật toán nén. Điều này làm giảm dung lượng lưu trữ cần thiết và cải thiện hiệu suất khi tải và thao tác với tệp.
+### Làm thế nào để tải xuống Aspose.Cells?
+ Bạn có thể tải xuống thư viện Aspose.Cells từ[trang web](https://releases.aspose.com/cells/net/).
 
-#### Câu hỏi: Aspose.Cells có những mức độ nén nào?
+### Tôi có thể sử dụng Aspose.Cells miễn phí không?
+ Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể truy cập[đây](https://releases.aspose.com/).
 
-Trả lời: Với Aspose.Cells, bạn có thể điều chỉnh mức nén từ 1 đến 9. Mức nén càng cao thì kích thước tệp sẽ càng nhỏ nhưng cũng có thể tăng thời gian xử lý.
+### Có những mức độ nén nào?
+Aspose.Cells hỗ trợ nhiều mức nén khác nhau, từ Mức 1 (nén ít nhất) đến Mức 9 (nén tối đa).
 
-#### Hỏi: Làm cách nào để chọn mức nén phù hợp cho sổ làm việc Excel của tôi?
-
-Đáp: Việc lựa chọn mức độ nén tùy thuộc vào nhu cầu cụ thể của bạn. Nếu muốn thời gian nén và xử lý tối đa không phải là vấn đề, bạn có thể chọn cấp độ 9. Nếu muốn thỏa hiệp giữa kích thước tệp và thời gian xử lý, bạn có thể chọn cấp độ trung gian.
-
-#### Hỏi: Việc nén có ảnh hưởng đến chất lượng dữ liệu trong sổ làm việc Excel không?
-
-Trả lời: Không, việc nén không ảnh hưởng đến chất lượng dữ liệu trong sổ làm việc Excel. Nó chỉ đơn giản là giảm kích thước tệp bằng cách sử dụng các kỹ thuật nén mà không làm thay đổi dữ liệu.
-
-#### Hỏi: Tôi có thể điều chỉnh mức độ nén sau khi lưu file Excel không?
-
-Trả lời: Không, khi bạn lưu tệp Excel với mức nén cụ thể, bạn không thể điều chỉnh mức nén sau này. Bạn sẽ cần lưu lại tệp với mức nén mới nếu bạn muốn sửa đổi nó.
+### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
+ Bạn có thể nhận được hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

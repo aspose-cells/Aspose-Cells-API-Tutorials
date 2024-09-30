@@ -2,106 +2,142 @@
 title: 取得頁面尺寸
 linktitle: 取得頁面尺寸
 second_title: Aspose.Cells for .NET API 參考
-description: 了解如何使用 Aspose.Cells for .NET 在 Excel 中擷取頁面尺寸。帶有 C# 原始程式碼的逐步指南。
+description: 在此逐步指南中了解如何使用 Aspose.Cells for .NET 取得頁面尺寸。非常適合使用 Excel 檔案的開發人員。
 type: docs
 weight: 40
 url: /zh-hant/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells for .NET 是一個功能強大的程式庫，可讓開發人員以程式設計方式處理 Microsoft Excel 檔案。它提供了廣泛的用於操作 Excel 文件的功能，包括獲取頁面尺寸的功能。在本教學中，我們將引導您完成使用 Aspose.Cells for .NET 擷取頁面尺寸的步驟。
+## 介紹
 
-## 步驟 1：建立 Workbook 類別的實例
+當談到在 .NET 應用程式中處理電子表格時，Aspose.Cells 庫作為一個強大的工具脫穎而出，它允許開發人員輕鬆操作 Excel 文件。但是如何使用這個強大的庫獲得各種紙張尺寸的頁面尺寸呢？在本教程中，我們將逐步完成該過程，確保您不僅深入了解 Aspose.Cells 的工作原理，而且還能夠熟練地在專案中使用它。 
 
-首先，我們需要建立 Workbook 類別的一個實例，它代表 Excel 工作簿。這可以使用以下程式碼來實現：
+## 先決條件 
+
+在我們進入編碼部分之前，您需要準備好一些東西才能有效地遵循：
+
+### 視覺工作室
+確保您的電腦上安裝了 Visual Studio。您將在此處編寫和執行 .NET 程式碼。
+
+### Aspose.Cells 庫
+您需要下載並在專案中引用 Aspose.Cells 庫。您可以從以下位置取得：
+- 下載連結：[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)
+
+### C#基礎知識
+如果您對 C# 有基本的了解，將會很有幫助。本教程將採用易於理解的基本程式設計概念。
+
+準備出發了嗎？讓我們開始吧！
+
+## 導入包
+
+我們旅程的第一步是將必要的 Aspose.Cells 套件匯入到我們的 C# 專案中。您可以這樣做：
+
+### 建立一個新項目
+
+開啟 Visual Studio 並建立一個新的 C# 控制台應用程式專案。你可以隨意命名，我們一起來吧`GetPageDimensions`.
+
+### 新增參考文獻
+
+要使用Aspose.Cells，您需要新增對庫的參考：
+- 在解決方案資源管理器中以滑鼠右鍵按一下您的專案。
+- 選擇“管理 NuGet 套件”。
+- 搜尋“Aspose.Cells”並安裝它。
+
+### 新增使用指令
+
+在你的頂部`Program.cs`文件中，插入此 using 指令來存取 Aspose.Cells 功能：
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+現在我們已經導入了必要的包，您就可以順利進行了！ 
+
+現在讓我們透過每個步驟來探索如何檢索各種紙張尺寸的尺寸。 
+
+## 第 1 步：建立 Workbook 類別的實例
+
+您需要做的第一件事是從 Aspose.Cells 建立 Workbook 類別的實例。此類代表一個 Excel 文件。
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## 第 2 步：存取電子表格
+在這裡，我們只需建立一個新工作簿來保存電子表格資料和配置。
 
-接下來，我們需要導覽到工作簿中要設定頁面尺寸的工作表。在此範例中，假設我們要使用第一個工作表。我們可以使用以下程式碼存取它：
+## 第 2 步：存取第一個工作表
+
+建立工作簿實例後，您將需要存取第一個工作表。每個工作簿可以包含多個工作表，但對於本演示，我們將堅持使用第一個工作表。
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## 步驟 3：將紙張尺寸設為 A2，並以英吋為單位列印寬度和高度
+該行獲取第一個工作表，允許我們設定紙張尺寸並檢索它們各自的尺寸。
 
-現在我們將紙張尺寸設為A2，並以英吋為單位列印頁面寬度和高度。這可以使用以下程式碼來實現：
+## 步驟 3：將紙張尺寸設定為 A2 並擷取尺寸
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 步驟 4：將紙張尺寸設為 A3，並以英吋為單位列印寬度和高度
-
-接下來，我們將紙張尺寸設為 A3 並以英吋為單位列印頁面寬度和高度。這是對應的程式碼：
+現在是時候設定紙張尺寸並獲得尺寸了！我們從 A2 紙張尺寸開始。
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 步驟 5：將紙張尺寸設為 A4，並以英吋為單位列印寬度和高度
-
-現在，我們將紙張尺寸設為 A4，並以英吋為單位列印頁面寬度和高度。這是代碼：
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 步驟 6：將紙張尺寸設定為 Letter 並以英吋為單位列印寬度和高度
-
-最後，我們將紙張尺寸設為 Letter 並以英吋為單位列印頁面寬度和高度。這是代碼：
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### 使用 Aspose.Cells for .NET 取得頁面尺寸的範例原始程式碼 
-```csharp
-//建立 Workbook 類別的實例
-Workbook book = new Workbook();
-//訪問第一個工作表
-Worksheet sheet = book.Worksheets[0];
-//將紙張尺寸設定為 A2 並以英吋為單位列印紙張寬度和高度
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-//將紙張尺寸設為 A3 並以英吋為單位列印紙張寬度和高度
+```
+
+此代碼將紙張尺寸設為 A2 並立即輸出寬度和高度。 Aspose.Cells 的美妙之處在於它的簡單性！
+
+## 步驟 4：對其他紙張尺寸重複此操作
+
+您需要對 A3、A4 和 Letter 等其他紙張尺寸重複此過程。您可以按照以下方法執行此操作：
+
+對於A3：
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-//將紙張尺寸設為 A4 並以英吋為單位列印紙張寬度和高度
+```
+
+對於 A4：
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-//將紙張尺寸設為 Letter 並列印紙張寬度和高度（以英吋為單位）
+```
+
+對於信件：
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## 第 5 步：輸出結論
+
+最後，您需要確認整個操作已成功完成。您可以簡單地將此狀態記錄到控制台：
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## 結論
 
-恭喜！您學習如何使用 Aspose.Cells for .NET 擷取頁面尺寸。當您需要根據 Excel 文件中的頁面尺寸執行特定操作時，此功能非常有用。
+恭喜！您現在已經成功學習如何使用 Aspose.Cells for .NET 擷取不同紙張尺寸的頁面尺寸。無論您是在開發報告工具、自動電子表格或資料分析功能，能夠提取各種格式的頁面尺寸都是非常寶貴的。 
 
-不要忘記進一步探索 Aspose.Cells 的文檔，以發現它提供的所有強大功能。
+## 常見問題解答
 
-### 常見問題解答
+### 什麼是 Aspose.Cells？
+Aspose.Cells 是一個 .NET 函式庫，用於建立、操作和轉換 Excel 文件，而無需 Microsoft Excel。
 
-#### 1. Aspose.Cells for .NET 支援哪些其他紙張尺寸？
+### 我需要安裝 Microsoft Excel 才能使用 Aspose.Cells 嗎？
+不需要，Aspose.Cells 是一個獨立的函式庫，不需要安裝 Excel。
 
-Aspose.Cells for .NET 支援多種紙張尺寸，包括 A1、A5、B4、B5、Executive、Legal、Letter 等。您可以查看文件以取得支援的紙張尺寸的完整清單。
+### 在哪裡可以找到更多 Aspose.Cells 範例？
+您可以在此處查看文件：[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/).
 
-#### 2. 我可以使用 Aspose.Cells for .NET 設定自訂頁面尺寸嗎？
+### Aspose.Cells 有免費試用版嗎？
+是的！您可以從以下位置取得免費試用版：[Aspose.Cells 免費試用版](https://releases.aspose.com/).
 
-是的，您可以透過指定所需的寬度和高度來設定自訂頁面尺寸。 Aspose.Cells 提供了完全的靈活性，可以根據您的需求自訂頁面尺寸。
-
-#### 3. 我可以獲得英吋以外的頁面尺寸嗎？
-
-是的，Aspose.Cells for .NET 可讓您取得不同單位的頁面尺寸，包括英吋、公分、毫米和磅。
-
-#### 4. Aspose.Cells for .NET支援其他頁面設定編輯功能嗎？
-
-是的，Aspose.Cells 提供了編輯頁面設定的全套功能，包括設定邊距、方向、頁首和頁尾等。
+### 我如何獲得 Aspose.Cells 的支援？
+您可以透過造訪 Aspose 支援論壇獲得協助：[Aspose.Cells 支持](https://forum.aspose.com/c/cells/9).

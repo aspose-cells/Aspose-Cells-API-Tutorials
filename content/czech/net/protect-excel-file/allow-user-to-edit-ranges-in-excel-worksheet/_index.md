@@ -7,139 +7,138 @@ type: docs
 weight: 10
 url: /cs/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
-V této příručce vás provedeme tím, jak používat Aspose.Cells pro .NET, aby uživatel mohl upravovat konkrétní rozsahy v tabulce aplikace Excel. Chcete-li provést tento úkol, postupujte podle následujících kroků.
+## Zavedení
 
-## Krok 1: Nastavení prostředí
+Pokud jde o práci s excelovými listy, flexibilita je často klíčová – zvláště když více uživatelů potřebuje přístup k úpravám konkrétních oblastí, aniž by byla ohrožena integrita dat celého listu. To je místo, kde Aspose.Cells pro .NET září! V tomto tutoriálu se ponoříme do toho, jak umožnit uživatelům upravovat určité rozsahy v listu aplikace Excel a zároveň chránit zbytek dokumentu. Na konci tohoto článku nejen pochopíte pojmy, ale budete mít také hmatatelný příklad, se kterým můžete pracovat. 
 
-Ujistěte se, že jste nastavili vývojové prostředí a nainstalovali Aspose.Cells for .NET. Nejnovější verzi knihovny si můžete stáhnout z oficiálních stránek Aspose.
+## Předpoklady
 
-## Krok 2: Importujte požadované jmenné prostory
+Než se vrhneme na to, abychom mohli začít, ujistěte se, že máte vše, co potřebujete:
 
-Ve svém projektu C# importujte potřebné jmenné prostory pro práci s Aspose.Cells:
+1. Vývojové prostředí .NET: Měli byste mít nastavené funkční vývojové prostředí .NET (může to být Visual Studio nebo jakékoli jiné IDE dle vašeho výběru).
+2.  Aspose.Cells for .NET Library: Stáhněte a nainstalujte knihovnu Aspose.Cells. Můžete to najít[zde](https://releases.aspose.com/cells/net/).
+3. Základní znalost C#: Znalost programování v C# vám pomůže snadno procházet příklady kódu.
+4. Pochopení základů Excelu: Znalost toho, jak Excel funguje, poskytne základ pro funkce, o kterých budeme diskutovat.
+
+Jakmile jsou tyto předpoklady seřazeny, můžete vyrazit!
+
+## Importujte balíčky
+
+Než začneme kódovat, musíme se ujistit, že náš projekt rozpozná jmenný prostor Aspose.Cells. Zde je návod, jak importovat potřebné balíčky:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Krok 3: Nastavení cesty k adresáři dokumentů
+Nyní, když jsme importovali, co potřebujeme, pojďme se ponořit do našeho tutoriálu krok za krokem.
 
- Prohlásit a`dataDir` proměnnou zadejte cestu k adresáři, kam chcete uložit vygenerovaný soubor Excel:
+## Krok 1: Nastavte adresář dokumentů
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
-
- Nezapomeňte vyměnit`"YOUR_DOCUMENT_DIRECTORY"` se správnou cestou ve vašem systému.
-
-## Krok 4: Vytvoření objektu sešitu
-
-Vytvořte instanci nového objektu Workbook, který představuje sešit Excel, který chcete vytvořit:
+Pro jakékoli operace se soubory je klíčové mít definované místo, kam se budou naše dokumenty ukládat. Pojďme nastavit náš pracovní adresář pro ukládání souborů aplikace Excel.
 
 ```csharp
-Workbook book = new Workbook();
-```
-
-## Krok 5: Přístup k prvnímu listu
-
-Přejděte na první list v sešitu aplikace Excel pomocí následujícího kódu:
-
-```csharp
-Worksheet sheet = book.Worksheets[0];
-```
-
-## Krok 6: Načtení povolených rozsahů úprav
-
- Získejte kolekci povolených rozsahů úprav pomocí`AllowEditRanges` vlastnictví:
-
-```csharp
-ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-```
-
-## Krok 7: Definujte chráněný rozsah
-
- Definujte chráněný rozsah pomocí`Add` metoda`AllowEditRanges` sbírka:
-
-```csharp
-int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-protectedRange protectedRange = allowRanges[idx];
-```
-
-Zde jsme vytvořili chráněný rozsah "r2", který sahá od buňky A1 do buňky C3.
-
-## Krok 8: Zadání hesla
-
- Zadejte heslo pro chráněný rozsah pomocí`Password` vlastnictví:
-
-```csharp
-protectedRange.Password = "YOUR_PASSWORD";
-```
-
- Nezapomeňte vyměnit`"YOUR_PASSWORD"` s požadovaným heslem.
-
-## Krok 9: Ochrana listu
-
- Chraňte pracovní list pomocí`Protect` metoda`Worksheet` objekt:
-
-```csharp
-sheet.Protect(ProtectionType.All);
-```
-
-To ochrání tabulku tím, že zabrání jakýmkoli úpravám mimo povolené rozsahy.
-
-## Krok 10: Registrace
-
-  Excel soubor
-
- Uložte vygenerovaný soubor Excel pomocí`Save` metoda`Workbook` objekt:
-
-```csharp
-book.Save(dataDir + "protectedrange.out.xls");
-```
-
-Nezapomeňte zadat požadovaný název souboru a správnou cestu.
-
-### Ukázkový zdrojový kód pro Povolit uživateli upravovat rozsahy v listu Excel pomocí Aspose.Cells for .NET 
-```csharp
-//Cesta k adresáři dokumentů.
+// Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+
 // Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
+```
+
+ Nejprve vyměňte`"YOUR DOCUMENT DIRECTORY"` cestou, kam chcete soubory uložit. Tento kód zkontroluje, zda adresář existuje; pokud ne, vytvoří jeden.
+
+## Krok 2: Vytvořte nový sešit
+
+S připraveným pracovním adresářem je čas vytvořit náš excelový sešit. 
+
+```csharp
 // Vytvořte nový sešit
 Workbook book = new Workbook();
+```
+
+ Zde vytváříme novou instanci`Workbook` třídy poskytované Aspose.Cells, která nám umožňuje manipulovat se souborem Excel.
+
+## Krok 3: Přístup k výchozímu listu
+
+Každý nově vytvořený sešit je dodáván s alespoň jedním pracovním listem. Pojďme k tomu přistupovat.
+
+```csharp
 // Získejte první (výchozí) list
 Worksheet sheet = book.Worksheets[0];
+```
+
+V tomto fragmentu kódu přistupujeme k prvnímu listu našeho sešitu, se kterým budeme v následujících krocích manipulovat.
+
+## Krok 4: Získejte Povolit úpravy rozsahů
+
+ Chcete-li povolit konkrétní rozsahy listu pro úpravy, musíme získat přístup k`AllowEditRanges` vlastnictví.
+
+```csharp
 // Získejte možnosti Povolit úpravy rozsahů
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
+```
+
+Tato kolekce nám umožní spravovat, které rozsahy lze v našem listu upravovat.
+
+## Krok 5: Definujte chráněný rozsah
+
+Dále definujme, kterou část listu chceme chránit a zároveň povolit úpravy zadaného rozsahu.
+
+```csharp
 // Definujte ProtectedRange
 ProtectedRange proteced_range;
+
 // Vytvořte rozsah
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
+
 // Zadejte heslo
 proteced_range.Password = "123";
+```
+
+V tomto kroku přidáváme nový upravitelný rozsah nazvaný „r2“, který umožňuje úpravy v buňkách od řádku 1, sloupce 1 po řádek 3, sloupec 3. Navíc nastavujeme heslo pro ochranu tohoto rozsahu, což zajišťuje, že pouze oprávnění uživatelé mohou upravit to.
+
+## Krok 6: Chraňte pracovní list
+
+Nyní, když jsme nastavili náš upravitelný rozsah, musíme chránit list.
+
+```csharp
 // Chraňte list
 sheet.Protect(ProtectionType.All);
+```
+
+Tento kód ochrání celý list před nežádoucími změnami, s výjimkou rozsahu, který jsme právě zadali.
+
+## Krok 7: Uložte soubor Excel
+
+Uložme sešit, abychom viděli, jak se naše změny projeví v souboru aplikace Excel.
+
+```csharp
 // Uložte soubor aplikace Excel
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+Nezapomeňte upravit název souboru podle potřeby. Tím se ve vašem zadaném adresáři vytvoří soubor Excel s nastavením, které jsme nakonfigurovali.
+
 ## Závěr
 
-Nyní jste se naučili, jak používat Aspose.Cells pro .NET, abyste umožnili uživateli upravovat konkrétní rozsahy v tabulce Excel. Neváhejte dále prozkoumat funkce nabízené Aspose.Cells, abyste splnili své specifické potřeby.
+Tady to máš! Úspěšně jste vytvořili list aplikace Excel, který omezuje úpravy na určený rozsah a zároveň chrání zbytek listu. Pomocí Aspose.Cells pro .NET je správa těchto druhů úkolů mnohem jednodušší a efektivnější. Ať už vyvíjíte složitou aplikaci nebo jen potřebujete bezpečně spravovat data, tyto funkce mohou výrazně zlepšit váš pracovní postup.
 
+## FAQ
 
-### Nejčastější dotazy
+### Co je Aspose.Cells?
+Aspose.Cells je výkonná knihovna .NET pro práci se soubory aplikace Excel, která nabízí funkce, jako je vytváření, úprava a převod tabulek programově.
 
-#### 1. Jak umožnit uživateli upravovat konkrétní rozsahy v tabulce Excel?
+### Mohu použít více upravitelných rozsahů?
+ Absolutně! Můžete zavolat na`Add` metoda na`allowRanges` sbírat vícekrát, abyste určili více upravitelných rozsahů.
 
- Můžete použít`ProtectedRangeCollection` třídy k definování povolených rozsahů úprav. Použijte`Add` způsob vytvoření nového chráněného rozsahu s požadovanými buňkami.
+### Co se stane, když zapomenu heslo?
+Bohužel, pokud zapomenete heslo pro upravitelný rozsah, budete muset odstranit ochranu nebo přistupovat k souboru předem definovaným způsobem, který může zahrnovat přihlašovací údaje.
 
-#### 2. Mohu nastavit heslo pro autorizované rozsahy úprav?
+### Existuje bezplatná verze Aspose.Cells?
+Ano, Aspose poskytuje bezplatnou zkušební verzi, kterou můžete využít k prozkoumání funkcí před nákupem.
 
- Ano, můžete zadat heslo pomocí`Password` vlastnictvím`ProtectedRange` objekt. To omezí přístup pouze uživatelům s heslem.
-
-#### 3. Jak mohu chránit tabulku, jakmile jsou nastaveny povolené rozsahy?
-
- Použijte`Protect` metoda`Worksheet` objekt k ochraně listu. Tím zabráníte jakýmkoli změnám mimo povolené rozsahy a případně budete vyzváni k zadání hesla, pokud jste nějaké zadali.
+### Kde najdu více informací o Aspose.Cells?
+ Můžete zkontrolovat[dokumentace](https://reference.aspose.com/cells/net/) pro podrobné návody a reference.

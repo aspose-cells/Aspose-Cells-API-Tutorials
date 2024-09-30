@@ -8,7 +8,7 @@ weight: 10
 url: /cs/java/advanced-excel-charts/interactive-dashboards/
 ---
 
-## Úvod
+## Zavedení
 
 rychle se rozvíjejícím světě rozhodování založeného na datech hrají interaktivní řídicí panely klíčovou roli. Poskytují dynamický a intuitivní způsob vizualizace dat, což firmám usnadňuje získávání informací a informovaná rozhodnutí. Aspose.Cells for Java nabízí výkonnou sadu nástrojů pro vytváření interaktivních řídicích panelů, které mohou transformovat nezpracovaná data do smysluplných a interaktivních vizualizací. V tomto podrobném průvodci prozkoumáme, jak využít Aspose.Cells pro Java k vytvoření interaktivních řídicích panelů od nuly.
 
@@ -16,7 +16,7 @@ rychle se rozvíjejícím světě rozhodování založeného na datech hrají in
 
 Než se ponoříme do podrobností, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Cells for Java: Stáhněte si a nainstalujte knihovnu Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Stáhněte si a nainstalujte knihovnu Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/).
 
 ## Nastavení vašeho projektu
 
@@ -96,7 +96,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ## Závěr
 
-Gratulujeme! Naučili jste se vytvářet interaktivní řídicí panely pomocí Aspose.Cells for Java. Tato výkonná knihovna vám umožňuje vytvářet dynamické a poutavé vizualizace dat, které zlepšují vaše rozhodovací procesy. Experimentujte s různými typy grafů, možnostmi interaktivity a prvky návrhu a vytvořte řídicí panely přizpůsobené vašim konkrétním potřebám.
+Gratuluji! Naučili jste se vytvářet interaktivní řídicí panely pomocí Aspose.Cells for Java. Tato výkonná knihovna vám umožňuje vytvářet dynamické a poutavé vizualizace dat, které zlepšují vaše rozhodovací procesy. Experimentujte s různými typy grafů, možnostmi interaktivity a prvky návrhu a vytvořte řídicí panely přizpůsobené vašim konkrétním potřebám.
 
 ## FAQ
 

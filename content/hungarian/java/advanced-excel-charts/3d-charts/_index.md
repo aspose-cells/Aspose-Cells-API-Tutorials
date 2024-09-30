@@ -40,7 +40,7 @@ license.setLicense("path_to_license_file.xml");
 
 ## Alapvető 3D-s diagram készítése
 
-Most, hogy be van állítva az Aspose.Cells for Java, hozzunk létre egy alapvető 3D diagramot.
+Most, hogy beállítottuk az Aspose.Cells for Java programot, hozzunk létre egy alapvető 3D diagramot.
 
 ### Szükséges könyvtárak importálása
 
@@ -138,7 +138,7 @@ Az Aspose.Cells for Java lehetővé teszi, hogy különböző forrásokból szá
 
 ## Következtetés
 
-Ebben a cikkben megvizsgáltuk, hogyan hozhat létre 3D diagramokat az Aspose.Cells for Java használatával. Megbeszéltük a beállítást, az alapvető diagramkészítést, a testreszabást és a 3D-s diagramokkal végzett munka speciális funkcióit. Az Aspose.Cells for Java robusztus és felhasználóbarát platformot biztosít tetszetős és informatív 3D diagramok készítéséhez Excelben.
+Ebben a cikkben megvizsgáltuk, hogyan hozhat létre 3D diagramokat az Aspose.Cells for Java használatával. Megbeszéltük a beállítást, az alapvető diagramkészítést, a testreszabást és a 3D diagramokkal való munkavégzés speciális funkcióit. Az Aspose.Cells for Java robusztus és felhasználóbarát platformot biztosít tetszetős és informatív 3D diagramok készítéséhez Excelben.
 
 ## GYIK
 

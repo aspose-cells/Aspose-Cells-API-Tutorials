@@ -1,105 +1,126 @@
 ---
-title: Update Power Query-formule-item
-linktitle: Update Power Query-formule-item
+title: Power Query-formule-item bijwerken
+linktitle: Power Query-formule-item bijwerken
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u Power Query-formule-elementen in Excel-bestanden kunt bijwerken met Aspose.Cells voor .NET.
+description: Werk Power Query-formule-items eenvoudig bij in Excel met Aspose.Cells voor .NET. Stapsgewijze handleiding om uw gegevensmanipulatieprocessen te stroomlijnen.
 type: docs
 weight: 160
 url: /nl/net/excel-workbook/update-power-query-formula-item/
 ---
-Het bijwerken van een Power Query-formule-item is een veel voorkomende bewerking bij het werken met gegevens in Excel-bestanden. Met Aspose.Cells voor .NET kunt u eenvoudig een Power Query-formule-item bijwerken door deze stappen te volgen:
+## Invoering
 
-## Stap 1: Geef de bron- en uitvoermappen op
+Als u ooit met Excel hebt gewerkt, weet u hoe krachtig het kan zijn, vooral wanneer u zich in Power Query's verdiept. Dit is de geheime saus waarmee u moeiteloos uw gegevens kunt transformeren, opschonen en analyseren. Een handige manier om uw Power Query-formules in Excel te manipuleren, is via Aspose.Cells voor .NET. Vandaag gaan we u stap voor stap door het updaten van Power Query-formule-items leiden. Dus pak uw programmeerhoed en laten we beginnen!
 
-Eerst moet u de bronmap opgeven waar het Excel-bestand met de Power Query-formules die moeten worden bijgewerkt, zich bevindt, evenals de uitvoermap waar u het gewijzigde bestand wilt opslaan. Hier leest u hoe u dit doet met Aspose.Cells:
+## Vereisten
 
-```csharp
-// bronmap
-string SourceDir = RunExamples.Get_SourceDirectory();
+Voordat u in de code duikt, moet u een aantal zaken instellen:
 
-// Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: U hebt een geïntegreerde ontwikkelomgeving (IDE) nodig om uw .NET-code te schrijven en uit te voeren. Visual Studio is de beste keuze.
+2.  Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells-bibliotheek binnen uw project beschikbaar hebt. U kunt deze downloaden van de[plaats](https://releases.aspose.com/cells/net/).
+3. Basiskennis van C#: We nemen dit samen door, maar enige basiskennis van C# is zeker nuttig, vooral bij het navigeren door verschillende klassen en methoden.
+4. Voorbeeld Excel-bestanden: U hebt de Excel-bestanden nodig die in het codefragment worden genoemd. Zorg ervoor dat u het volgende hebt:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## Stap 2: Laad de bron-Excel-werkmap
+5. .NET Framework: Zorg ervoor dat uw project gericht is op een compatibele versie van .NET Framework.
 
-Vervolgens moet u de Excel-bronwerkmap laden waarin u het Power Query-formule-item wilt bijwerken. Hier leest u hoe u het moet doen:
+Nu we onze kit klaar hebben, kunnen we beginnen met het leukste gedeelte: code schrijven!
 
-```csharp
-// Laad de bron-Excel-werkmap
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## Pakketten importeren
 
-## Stap 3: Blader door Power Query-formule-items en werk deze bij
-
-Nadat u de werkmap hebt geladen, kunt u naar de Power Query-formuleverzameling navigeren en door elke formule en de bijbehorende elementen bladeren. In dit voorbeeld zoeken we naar het formule-item met de naam 'Bron' en werken we de waarde ervan bij. Hier volgt een voorbeeldcode voor het bijwerken van een Power Query-formule-item:
+Allereerst wilt u de benodigde namespaces importeren. Dit is hoe u dat doet:
 
 ```csharp
-// Toegang tot de Power Query-formuleverzameling
-DataMashup mashupData = workbook.DataMashup;
-
-// Loop door Power Query-formules en hun elementen
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## Stap 4: Sla de uitgevoerde Excel-werkmap op
+Door deze namespaces toe te voegen, laat u de compiler weten dat u van plan bent de klassen en methoden uit de Aspose.Cells-bibliotheek te gebruiken. Deze stap is cruciaal omdat het de basis legt voor de code die volgt.
 
-Nadat u het Power Query-formule-item hebt bijgewerkt, kunt u de gewijzigde Excel-werkmap opslaan in de opgegeven uitvoermap. Hier leest u hoe u het moet doen:
+Laten we de code snippet die je hebt aangeleverd eens uitsplitsen. Deze tutorial leidt je door elk onderdeel, zodat je zeker weet dat je begrijpt wat er gebeurt.
 
-```csharp
-// Sla de uitgevoerde Excel-werkmap op
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## Stap 1: Werkmappen instellen
 
-### Voorbeeldbroncode voor het bijwerken van het Power Query-formule-item met Aspose.Cells voor .NET 
+In deze stap definiëren we waar onze bron- en uitvoerbestanden zich bevinden. Dit zorgt ervoor dat Aspose weet waar het naar uw Excel-bestanden moet zoeken.
+
 ```csharp
 // Werkende mappen
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Hier gebruiken we een hypothetische methode`RunExamples.Get_SourceDirectory()` om het pad naar onze bronbestanden op te halen. Op dezelfde manier,`RunExamples.Get_OutputDirectory()` haalt het pad op waar we onze output opslaan. Zorg ervoor dat deze methoden geldige paden op uw machine retourneren.
+
+## Stap 2: Laad de werkmap
+
+Laten we nu het Excel-bestand laden waarin de Power Query zich bevindt.
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ De`Workbook`class is uw toegangspunt tot het Excel-bestand. Door het pad van ons bronbestand door te geven, maken we een instantie waarmee we het kunnen manipuleren. U kunt het zich voorstellen als het openen van een boek: u bereidt zich voor om de inhoud te lezen (of te bewerken).
+
+## Stap 3: Toegang tot de data-mashup
+
+Vervolgens gaan we de Power Query-formules openen die zijn opgeslagen in de Data Mashup van de werkmap.
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ De`DataMashup` klasse bevat alle Power Query-formules die aan uw werkmap zijn gekoppeld. Dit is waar we ons zware werk doen, net als wanneer u een gereedschapskist opent voor reparaties.
+
+## Stap 4: Loop door Power Query-formules
+
+Nu komt het gedeelte waarin we door de Power Query-formules itereren om de specifieke formule te vinden die we willen bijwerken.
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
+```
+
+-  We doorlopen elk`PowerQueryFormula` in`mashupData`.
+-  Binnen die lus duiken we in elk`PowerQueryFormulaItem`.
+- We controleren of de naam van het item overeenkomt met 'Bron'. Als dat het geval is, werken we de waarde bij zodat deze naar ons nieuwe bronbestand linkt.
+
+Dit is te vergelijken met het vinden van de juiste pagina in een handleiding en het vervolgens doorvoeren van de nodige updates: het is een eenvoudig en nauwkeurig proces.
+
+## Stap 5: Sla de bijgewerkte werkmap op
+
+Nadat u de wijzigingen hebt doorgevoerd, is het tijd om deze op te slaan.
+
+```csharp
 // Sla de uitvoerwerkmap op.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ De`Save` methode schrijft de bijgewerkte werkmap naar de opgegeven uitvoermap. Het is alsof u uw bewerkingen in een nieuwe versie van de handleiding verzegelt, klaar voor anderen om te gebruiken!
 
 ## Conclusie
 
-Het bijwerken van Power Query-formule-elementen is een essentiële bewerking bij het gebruik van Aspose.Cells om gegevens in Excel-bestanden te manipuleren en verwerken. Door de bovenstaande stappen te volgen, kunt u formule-elementen eenvoudig bijwerken
+Gefeliciteerd! U hebt met succes een Power Query-formule-item bijgewerkt met Aspose.Cells voor .NET. Met deze methode kunt u de wijziging van Power Query-formules in uw Excel-bestanden automatiseren, waardoor u kostbare tijd en moeite bespaart.
 
-### Veelgestelde vragen
+## Veelgestelde vragen
 
-#### Vraag: Wat is Power Query in Excel?
-     
-A: Power Query is een functie in Excel waarmee u gegevens uit verschillende bronnen kunt verzamelen, transformeren en laden. Het biedt krachtige tools om gegevens op te schonen, te combineren en opnieuw vorm te geven voordat deze in Excel worden geïmporteerd.
+### Wat is Aspose.Cells?
+Aspose.Cells is een krachtige bibliotheek voor het bewerken van Excel-bestanden in .NET-toepassingen zonder dat Microsoft Excel geïnstalleerd hoeft te zijn.
 
-#### V: Hoe weet ik of een Power Query-formule-item met succes is bijgewerkt?
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### Heb ik Microsoft Excel nodig om Aspose.Cells uit te voeren?
+Nee, met Aspose.Cells kunt u programmatisch Excel-bestanden maken en bewerken zonder dat u Excel op uw server of ontwikkelcomputer nodig hebt.
 
-#### V: Kan ik meerdere Power Query-formule-items tegelijk bijwerken?
-    
-A: Ja, u kunt de verzameling Power Query-formule-items doorlopen en meerdere items in één lus bijwerken, afhankelijk van uw specifieke behoeften.
+### Met welke typen Excel-bestanden kan ik werken met Aspose.Cells?
+Met Aspose.Cells kunt u werken met .xlsx, .xls, .xlsm en diverse andere Excel-indelingen.
 
-#### V: Zijn er andere bewerkingen die ik kan uitvoeren op Power Query-formules met Aspose.Cells?
-    
-A: Ja, Aspose.Cells biedt een volledige reeks functies voor het werken met Power Query-formules, inclusief het maken, verwijderen, kopiëren en doorzoeken van formules in een Excel-werkmap.
+### Is er een proefversie beschikbaar voor Aspose.Cells?
+ Ja, u kunt een gratis proefversie downloaden van de[Aspose Cells-releasepagina](https://releases.aspose.com/).
+
+### Hoe kan ik ondersteuning krijgen voor Aspose.Cells?
+ U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9), waar u vragen kunt stellen en antwoorden kunt vinden van de community en het Aspose-team.

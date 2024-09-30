@@ -71,7 +71,7 @@ pivotTable.addFieldToArea(0, PivotFieldType.DATA); // Lägg till den första kol
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // Använd SUM-funktionen
 ```
 
-## Anpassa pivottabellens layout
+## Anpassa pivottabellslayout
 
 För att göra vår pivottabell mer informativ kan vi anpassa dess layout, som att lägga till filter, sortera och ändra fältpositioner.
 

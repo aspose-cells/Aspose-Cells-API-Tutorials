@@ -1,8 +1,8 @@
 ---
-title: Analiza danych Excel Pivot
-linktitle: Analiza danych Excel Pivot
-second_title: Aspose.Cells API przetwarzania Java Excel
-description: Naucz się analizy danych w Excelu z Aspose.Cells dla Java. Przewodnik krok po kroku dotyczący efektywnego wykorzystania tabeli przestawnej.
+title: Analiza danych w programie Excel Pivot
+linktitle: Analiza danych w programie Excel Pivot
+second_title: Aspose.Cells Java Excel Processing API
+description: Poznaj analizę danych w programie Excel z Aspose.Cells dla Java. Przewodnik krok po kroku dotyczący efektywnego korzystania z tabeli przestawnej.
 type: docs
 weight: 13
 url: /pl/java/excel-data-analysis/data-analysis-excel-pivot/
@@ -10,39 +10,39 @@ url: /pl/java/excel-data-analysis/data-analysis-excel-pivot/
 
 ## Wprowadzenie do Aspose.Cells dla Java
 
-Zanim zagłębimy się w sedno analizy danych, zapoznajmy się z Aspose.Cells dla Java. Ta biblioteka Java jest częścią rodziny produktów Aspose.Cells, znanej ze swoich możliwości w obsłudze plików Excel. Aspose.Cells for Java umożliwia programowe tworzenie, modyfikowanie i manipulowanie skoroszytami, arkuszami kalkulacyjnymi, wykresami i tabelami przestawnymi programu Excel.
+Zanim zagłębimy się w szczegóły analizy danych, zapoznajmy się z Aspose.Cells dla Javy. Ta biblioteka Javy jest częścią rodziny produktów Aspose.Cells, znanej ze swoich możliwości obsługi plików Excel. Aspose.Cells dla Javy umożliwia programowe tworzenie, modyfikowanie i manipulowanie skoroszytami, arkuszami kalkulacyjnymi, wykresami i tabelami przestawnymi programu Excel.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Aby postępować zgodnie z tym przewodnikiem, będziesz potrzebować:
+Aby skorzystać z tego przewodnika, będziesz potrzebować następujących rzeczy:
 
 - Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
--  Aspose.Cells for Java: Pobierz i dołącz bibliotekę Aspose.Cells for Java do swojego projektu. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/cells/java/).
-- Przykładowe dane: Przygotuj dane Excel, które chcesz analizować.
+-  Aspose.Cells dla Java: Pobierz i uwzględnij bibliotekę Aspose.Cells dla Java w swoim projekcie. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/cells/java/).
+- Przykładowe dane: Przygotuj dane w programie Excel, które chcesz analizować.
 
 ## Tworzenie nowego skoroszytu programu Excel
 
-Zacznijmy od utworzenia nowego skoroszytu programu Excel przy użyciu Aspose.Cells dla Java. Będzie to stanowić podstawę naszej analizy danych.
+Zacznijmy od utworzenia nowego skoroszytu Excela przy użyciu Aspose.Cells for Java. Będzie to stanowić podstawę do analizy danych.
 
 ```java
-// Kod Java umożliwiający utworzenie nowego skoroszytu programu Excel
+// Kod Java do utworzenia nowego skoroszytu programu Excel
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Importowanie danych do Excela
+## Importowanie danych do programu Excel
 
-Teraz, gdy mamy pusty skoroszyt, możemy zaimportować do niego nasze dane. Możesz odczytywać dane z różnych źródeł, takich jak bazy danych, pliki CSV, a nawet ręcznie wprowadzać dane.
+Teraz, gdy mamy pusty skoroszyt, możemy zaimportować do niego nasze dane. Możesz odczytać dane z różnych źródeł, takich jak bazy danych, pliki CSV, a nawet ręcznie wprowadzić dane.
 
 ```java
-// Kod Java do importowania danych do Excela
+// Kod Java do importowania danych do programu Excel
 Cells cells = worksheet.getCells();
 cells.importData(yourDataArray, 0, 0, importOptions);
 ```
 
 ## Tworzenie tabel przestawnych
 
-Tabele przestawne to skuteczny sposób podsumowywania i analizowania danych w programie Excel. Utwórzmy tabelę przestawną w naszym skoroszycie, aby ułatwić analizę danych.
+Tabele przestawne to potężny sposób na podsumowanie i analizę danych w programie Excel. Utwórzmy tabelę przestawną w naszym skoroszycie, aby ułatwić analizę danych.
 
 ```java
 // Kod Java do tworzenia tabeli przestawnej
@@ -63,50 +63,50 @@ pivotFields.add(cells, 0); // Dodaj pierwszą kolumnę jako pole wiersza
 
 ## Agregowanie danych
 
-Po skonfigurowaniu tabeli przestawnej możemy agregować i podsumowywać dane w oparciu o nasze wymagania. Można określić funkcje agregujące, takie jak suma, średnia, liczba itp.
+Po skonfigurowaniu tabeli przestawnej możemy agregować i podsumowywać dane na podstawie naszych wymagań. Możesz określić funkcje agregacji, takie jak suma, średnia, liczba itp.
 
 ```java
 // Kod Java do agregowania danych w tabeli przestawnej
 pivotTable.addFieldToArea(0, PivotFieldType.DATA); // Dodaj pierwszą kolumnę jako pole danych
-pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // Skorzystaj z funkcji SUMA
+pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // Użyj funkcji SUMA
 ```
 
 ## Dostosowywanie układu tabeli przestawnej
 
-Aby nasza tabela przestawna była bardziej informacyjna, możemy dostosować jej układ, na przykład dodając filtry, sortując i zmieniając pozycje pól.
+Aby nasza tabela przestawna zawierała więcej informacji, możemy dostosować jej układ, na przykład dodając filtry, sortując i zmieniając pozycje pól.
 
 ```java
-// Kod Java umożliwiający dostosowanie układu tabeli przestawnej
+// Kod Java do dostosowywania układu tabeli przestawnej
 pivotTable.addFieldToArea(1, PivotFieldType.PAGE); // Dodaj drugą kolumnę jako pole strony (filtr)
-pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // Wyłącz automatyczne podsumy
+pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // Wyłącz automatyczne sumy częściowe
 ```
 
-## Analizowanie danych
+## Analiza danych
 
-Teraz, gdy utworzyliśmy i dostosowaliśmy naszą tabelę przestawną, czas przeanalizować dane. Tabeli przestawnej można używać do generowania spostrzeżeń, wykrywania trendów i podejmowania świadomych decyzji.
+Teraz, gdy utworzyliśmy i dostosowaliśmy naszą tabelę przestawną, czas przeanalizować dane. Możesz użyć tabeli przestawnej, aby generować spostrzeżenia, wykrywać trendy i podejmować świadome decyzje.
 
 ## Wniosek
 
-tym przewodniku omówiliśmy, jak przeprowadzić analizę danych w programie Excel przy użyciu Aspose.Cells dla Java. Zaczęliśmy od utworzenia nowego skoroszytu, zaimportowania danych i utworzenia tabeli przestawnej. Następnie zdefiniowaliśmy pola tabeli przestawnej, zagregowaliśmy dane i dostosowaliśmy układ. Mając do dyspozycji te narzędzia, możesz odblokować pełen potencjał analizy danych w programie Excel z wykorzystaniem języka Java.
+tym przewodniku przyjrzeliśmy się sposobowi przeprowadzania analizy danych w programie Excel przy użyciu Aspose.Cells dla języka Java. Zaczęliśmy od utworzenia nowego skoroszytu, zaimportowania danych i utworzenia tabeli przestawnej. Następnie zdefiniowaliśmy pola tabeli przestawnej, zagregowaliśmy dane i dostosowaliśmy układ. Dzięki tym narzędziom możesz odblokować pełny potencjał analizy danych w programie Excel z językiem Java.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Cells dla Java?
 
- Możesz pobrać Aspose.Cells dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/cells/java/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby skonfigurować go w projekcie Java.
+ Możesz pobrać Aspose.Cells dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/cells/java/). Postępuj zgodnie z instrukcjami instalacji, aby skonfigurować go w swoim projekcie Java.
 
 ### Czy mogę wykonywać zaawansowane obliczenia w tabelach przestawnych?
 
-Tak, w tabelach przestawnych możesz wykonywać różne obliczenia, w tym sumę, średnią, liczbę i inne. Aspose.Cells for Java oferuje szerokie wsparcie w zakresie dostosowywania obliczeń w tabeli przestawnej.
+Tak, możesz wykonywać różne obliczenia w tabelach przestawnych, w tym sumy, średnie, liczby i inne. Aspose.Cells for Java oferuje rozbudowane wsparcie dla dostosowywania obliczeń tabeli przestawnej.
 
 ### Czy Aspose.Cells for Java nadaje się do dużych zbiorów danych?
 
-Tak, Aspose.Cells for Java został zaprojektowany do wydajnej obsługi dużych zbiorów danych. Zapewnia funkcje takie jak stronicowanie i przesyłanie strumieniowe danych, aby zoptymalizować wydajność przy znacznych ilościach danych.
+Tak, Aspose.Cells for Java jest zaprojektowany do wydajnego obsługiwania dużych zestawów danych. Oferuje funkcje takie jak stronicowanie danych i strumieniowanie, aby zoptymalizować wydajność przy dużych ilościach danych.
 
-### Czy mogę zautomatyzować zadania analizy danych za pomocą Aspose.Cells dla Java?
+### Czy mogę zautomatyzować zadania związane z analizą danych za pomocą Aspose.Cells dla Java?
 
-Absolutnie! Aspose.Cells for Java pozwala zautomatyzować zadania analizy danych poprzez pisanie kodu Java w celu manipulowania plikami Excel. Możesz zaplanować te zadania lub zintegrować je ze swoimi aplikacjami, aby zapewnić płynną automatyzację.
+Oczywiście! Aspose.Cells for Java pozwala na automatyzację zadań analizy danych poprzez pisanie kodu Java do manipulowania plikami Excel. Możesz zaplanować te zadania lub zintegrować je ze swoimi aplikacjami w celu bezproblemowej automatyzacji.
 
-### Czy są jakieś wymagania licencyjne dla Aspose.Cells dla Java?
+### Czy istnieją jakieś wymagania licencyjne dla Aspose.Cells dla Java?
 
-Tak, Aspose.Cells for Java jest biblioteką komercyjną i będziesz potrzebować ważnej licencji, aby używać jej w swoich projektach. Odwiedź witrynę Aspose, aby uzyskać szczegółowe informacje na temat licencji i cen.
+Tak, Aspose.Cells for Java jest biblioteką komercyjną i będziesz potrzebować ważnej licencji, aby używać jej w swoich projektach. Odwiedź stronę Aspose, aby uzyskać szczegóły dotyczące licencjonowania i informacje o cenach.

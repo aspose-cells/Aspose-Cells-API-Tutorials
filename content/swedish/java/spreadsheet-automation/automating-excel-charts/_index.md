@@ -25,7 +25,7 @@ Att automatisera Excel-diagram ger flera fördelar:
 
 Innan du börjar, se till att du har Aspose.Cells för Java installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/java/).
 
-### 2. Initialisering av Aspose.Cells
+### 2. Initiering av Aspose.Cells
 
 Låt oss börja med att skapa en Java-applikation och initiera Aspose.Cells:
 

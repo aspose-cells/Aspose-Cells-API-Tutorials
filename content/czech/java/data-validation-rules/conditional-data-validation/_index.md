@@ -17,7 +17,7 @@ Než se vrhneme na detaily podmíněné validace dat, pojďme si krátce předst
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Vytvořte nový projekt Java
 
@@ -89,7 +89,7 @@ V tomto tutoriálu jsme prozkoumali, jak implementovat podmíněné ověřován�
 
 ### Jak nainstaluji Aspose.Cells for Java?
 
- Aspose.Cells for Java lze nainstalovat stažením knihovny z webové stránky na adrese[tady](https://releases.aspose.com/cells/java/).
+ Aspose.Cells for Java lze nainstalovat stažením knihovny z webové stránky na adrese[zde](https://releases.aspose.com/cells/java/).
 
 ### Mohu použít podmíněné ověření dat na více buněk najednou?
 

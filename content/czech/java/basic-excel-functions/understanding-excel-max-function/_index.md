@@ -8,7 +8,7 @@ weight: 16
 url: /cs/java/basic-excel-functions/understanding-excel-max-function/
 ---
 
-## Úvod
+## Zavedení
 
 Funkce MAX v Excelu je cenným nástrojem pro analýzu dat. Umožňuje rychle najít největší hodnotu v zadaném rozsahu buněk. Ať už pracujete s finančními daty, čísly prodeje nebo jakýmkoli jiným typem číselných dat, funkce MAX vám může pomoci snadno identifikovat nejvyšší hodnotu.
 
@@ -92,7 +92,7 @@ Funkce MAX najde maximální číselnou hodnotu v rozsahu, zatímco funkce MAXA 
 
 ### Mohu použít funkci MAX s podmíněnými kritérii?
 
-Ano můžeš. Funkci MAX můžete kombinovat s logickými funkcemi, jako je IF, abyste našli maximální hodnotu na základě konkrétních podmínek.
+Ano, můžete. Funkci MAX můžete kombinovat s logickými funkcemi, jako je IF, abyste našli maximální hodnotu na základě konkrétních podmínek.
 
 ### Jak se vypořádám s chybami při použití funkce MAX v Aspose.Cells?
 
@@ -104,4 +104,4 @@ Ano, Aspose.Cells for Java je navržen tak, aby efektivně zpracovával velké s
 
 ### Kde najdu další dokumentaci a příklady pro Aspose.Cells pro Javu?
 
- Můžete se podívat na dokumentaci Aspose.Cells for Java na adrese[tady](https://reference.aspose.com/cells/java/) pro vyčerpávající informace a příklady.
+ Můžete se podívat na dokumentaci Aspose.Cells for Java na adrese[zde](https://reference.aspose.com/cells/java/) pro vyčerpávající informace a příklady.

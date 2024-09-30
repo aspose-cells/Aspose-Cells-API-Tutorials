@@ -1,169 +1,143 @@
 ---
 title: Salin Lembar Kerja Excel Dari Buku Kerja Lain
 linktitle: Salin Lembar Kerja Excel Dari Buku Kerja Lain
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Salin lembar kerja Excel dengan mudah dari satu buku kerja ke buku kerja lainnya menggunakan Aspose.Cells untuk .NET.
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara menyalin lembar kerja dari satu buku kerja Excel ke buku kerja lainnya menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini.
 type: docs
 weight: 10
 url: /id/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
 ---
-Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah untuk menyalin lembar kerja Excel dari buku kerja lain menggunakan perpustakaan Aspose.Cells untuk .NET. Ikuti petunjuk di bawah ini untuk menyelesaikan tugas ini.
+## Perkenalan
 
-## Langkah 1: Persiapan
+Pernahkah Anda merasa kesulitan dengan beberapa buku kerja Excel, mencoba menjaga data Anda tetap teratur dan mudah diakses? Jika demikian, Anda tidak sendirian! Banyak dari kita yang harus mengelola berbagai file, baik untuk pekerjaan maupun proyek pribadi. Kabar baiknya adalah Anda dapat mempermudah hidup Anda dengan sedikit bantuan dari Aspose.Cells for .NET. Pustaka canggih ini memungkinkan Anda untuk memanipulasi file Excel dengan mudah, termasuk menyalin lembar kerja dari satu buku kerja ke buku kerja lainnya. Dalam panduan ini, kami akan memandu Anda melalui langkah-langkah untuk melakukannya, memastikan Anda dapat menyederhanakan alur kerja dan meningkatkan produktivitas.
 
-Sebelum memulai, pastikan Anda telah menginstal Aspose.Cells untuk .NET dan membuat proyek C# di lingkungan pengembangan terintegrasi (IDE) pilihan Anda.
+## Prasyarat
 
-## Langkah 2: Tetapkan jalur direktori dokumen
+Sebelum masuk ke bagian pengodean, mari persiapkan semua yang Anda butuhkan. Jangan khawatir; ini bukan ilmu roket! Berikut ini yang Anda perlukan:
 
- Nyatakan a`dataDir` variabel dan inisialisasi dengan jalur ke direktori dokumen Anda. Misalnya :
+1. Visual Studio (atau IDE .NET apa pun): Anda harus menyiapkan lingkungan pengembangan .NET di komputer Anda.
+2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan menginstal Aspose.Cells. Jika Anda belum memilikinya, Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/cells/net/).
+3. Pemahaman Dasar tentang C#: Sedikit pengetahuan dengan pemrograman C# akan membuat perjalanan ini lebih lancar, tetapi jangan stres jika Anda baru memulai!
+4. .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang kompatibel.
+5. Pengaturan Sistem: Pastikan Anda dapat menjalankan dan menguji aplikasi Anda tanpa batasan apa pun.
+
+Sekarang setelah semuanya siap, mari kita mulai membuat kode!
+
+## Paket Impor
+
+Sebelum kita mulai menerapkan fungsionalitasnya, kita perlu mengimpor paket-paket yang diperlukan. Dengan cara ini, Anda akan memiliki akses ke semua fitur yang ditawarkan Aspose.Cells. Berikut panduan langkah demi langkahnya:
+
+### Tambahkan Pernyataan Penggunaan
+
+Buka berkas C# Anda dan tambahkan perintah berikut di bagian atas:
 
 ```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
+using System.IO;
+using Aspose.Cells;
+using System;
 ```
 
- Pastikan untuk mengganti`"YOUR_DOCUMENTS_DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Paket ini adalah inti dari pustaka Aspose dan akan memberi Anda akses ke semua kelas dan metodenya.
 
-## Langkah 3: Buat buku kerja Excel baru
+Sekarang setelah semuanya siap, mari kita masuk ke bagian yang menarik—menyalin lembar kerja dari satu buku kerja ke buku kerja lainnya! Kita akan membaginya menjadi beberapa langkah yang jelas.
 
- Menggunakan`Workbook` kelas dari Aspose.Cells untuk membuat buku kerja Excel baru:
+## Langkah 1: Siapkan Direktori Dokumen
+
+Pertama, kita perlu menentukan di mana file Excel akan disimpan. Tentukan jalur direktori dokumen Anda:
 
 ```csharp
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Perbarui ini ke direktori Anda yang sebenarnya
+```
+ Itu`dataDir` variabel akan menyimpan jalur tempat Anda menyimpan berkas Excel akhir. Pastikan Anda mengganti "DIREKTORI DOKUMEN ANDA" dengan jalur sebenarnya di sistem Anda.
+
+## Langkah 2: Buat Buku Kerja Baru dan Isi dengan Data
+
+Selanjutnya, mari buat buku kerja pertama kita dan tambahkan beberapa contoh data ke dalamnya. Berikut caranya:
+
+```csharp
+// Buat Buku Kerja baru
 Workbook excelWorkbook0 = new Workbook();
-```
-
-## Langkah 4: Dapatkan lembar kerja pertama di buku kerja
-
-Navigasikan ke lembar kerja pertama di buku kerja menggunakan indeks 0:
-
-```csharp
+// Dapatkan lembar kerja pertama di buku
 Worksheet ws0 = excelWorkbook0.Worksheets[0];
-```
 
-## Langkah 5: Tambahkan data ke baris header (A1:A4)
-
- Gunakan`for` loop untuk menambahkan data ke baris header (A1:A4):
-
-```csharp
+// Taruh beberapa data ke dalam baris header (A1:A4)
 for (int i = 0; i < 5; i++)
 {
-     ws0.Cells[i, 0].PutValue(string.Format("Header row {0}", i));
+    ws0.Cells[i, 0].PutValue(string.Format("Header Row {0}", i));
 }
-```
 
-## Langkah 6: Tambahkan data detail (A5:A999)
-
- Gunakan yang lain`for` loop untuk menambahkan data detail (A5:A999):
-
-```csharp
+// Taruh beberapa data detail (A5:A999)
 for (int i = 5; i < 1000; i++)
 {
-     ws0.Cells[i, 0].PutValue(string.Format("Detail row {0}", i));
+    ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
+Di sini, kita membuat buku kerja pertama dan mengisi lembar kerja pertama (`ws0`dengan tajuk dan baris detail. Data simulasi ini akan membantu Anda memvisualisasikan proses penyalinan nanti.
 
-## Langkah 7: Tetapkan opsi tata letak
+## Langkah 3: Siapkan Pengaturan Halaman untuk Pencetakan
 
- Atur opsi pengaturan halaman untuk lembar kerja menggunakan`PageSetup` obyek:
+Mari konfigurasikan pengaturan halaman untuk mengulang baris tajuk saat mencetak, supaya kita dapat melihat fitur tersebut beraksi:
 
 ```csharp
+// Tentukan objek pagesetup berdasarkan lembar kerja pertama
 PageSetup pagesetup = ws0.PageSetup;
+// Lima baris pertama diulang di setiap halaman
 pagesetup.PrintTitleRows = "$1:$5";
 ```
+ Bagian ini menentukan bagaimana dokumen Anda akan dicetak. Dengan mengatur`PrintTitleRows`, kami memastikan bahwa lima baris pertama akan muncul pada setiap halaman yang dicetak, yang sangat berguna untuk keterbacaan.
 
-## Langkah 8: Buat buku kerja Excel lainnya
+## Langkah 4: Buat Buku Kerja Kedua
 
-Buat buku kerja Excel lainnya:
+Sekarang, kita perlu membuat buku kerja lain tempat kita akan menyalin lembar kerja pertama:
 
 ```csharp
+// Buat Buku Kerja lainnya
 Workbook excelWorkbook1 = new Workbook();
-```
-
-## Langkah 9: Dapatkan lembar kerja pertama dari buku kerja kedua
-
-Navigasikan ke lembar kerja pertama di buku kerja kedua:
-
-```csharp
+// Dapatkan lembar kerja pertama di buku
 Worksheet ws1 = excelWorkbook1.Worksheets[0];
-```
-
-## Langkah 10: Beri nama lembar kerja
-
-beri nama apinya
-
-pulau perhitungan:
-
-```csharp
+// Beri nama lembar kerja
 ws1.Name = "MySheet";
 ```
+Kami telah membuat buku kerja baru (`excelWorkbook1`) dan mengganti nama lembar kerja pertama menjadi "MySheet". Sebaiknya Anda memberi nama yang bermakna pada lembar kerja Anda agar lebih mudah diakses nanti.
 
-## Langkah 11: Salin data dari lembar kerja pertama dari buku kerja pertama ke lembar kerja pertama dari buku kerja kedua
+## Langkah 5: Salin Lembar Kerja
 
-Salin data dari lembar kerja pertama dari buku kerja pertama ke lembar kerja pertama dari buku kerja kedua:
+Mari salin konten dari lembar kerja buku kerja pertama ke buku kerja kedua:
 
 ```csharp
+// Salin data dari lembar kerja pertama buku kerja pertama ke dalam
+// lembar kerja pertama dari buku kerja kedua
 ws1.Copy(ws0);
 ```
+ Itu`Copy` metode mengambil semua konten dari lembar kerja sumber (`ws0`) dan menduplikasinya ke lembar kerja tujuan (`ws1`). Sederhana sekali, bukan?
 
-## Langkah 12: Simpan file Excel
+## Langkah 6: Simpan Buku Kerja Baru
 
-Simpan file Excelnya:
+Terakhir, mari simpan buku kerja yang baru kita buat:
 
 ```csharp
-excelWorkbook1.Save(dataDir + "CopyWorkbookSheetToOther_out.xls");
-```
-
-Pastikan untuk menentukan jalur dan nama file yang diinginkan untuk file keluaran.
-
-### Contoh kode sumber untuk Excel Salin Lembar Kerja Dari Buku Kerja Lain menggunakan Aspose.Cells untuk .NET 
-```csharp
-//Jalur ke direktori dokumen.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat Buku Kerja baru.
-Workbook excelWorkbook0 = new Workbook();
-// Dapatkan lembar kerja pertama di buku.
-Worksheet ws0 = excelWorkbook0.Worksheets[0];
-// Masukkan beberapa data ke dalam baris header (A1:A4)
-for (int i = 0; i < 5; i++)
-{
-	ws0.Cells[i, 0].PutValue(string.Format("Header Row {0}", i));
-}
-// Masukkan beberapa data detail (A5:A999)
-for (int i = 5; i < 1000; i++)
-{
-	ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
-}
-// Tentukan objek pagesetup berdasarkan lembar kerja pertama.
-PageSetup pagesetup = ws0.PageSetup;
-// Lima baris pertama diulangi di setiap halaman...
-// Hal ini dapat dilihat pada print preview.
-pagesetup.PrintTitleRows = "$1:$5";
-// Buat Buku Kerja lain.
-Workbook excelWorkbook1 = new Workbook();
-// Dapatkan lembar kerja pertama di buku.
-Worksheet ws1 = excelWorkbook1.Worksheets[0];
-// Beri nama lembar kerja.
-ws1.Name = "MySheet";
-// Salin data dari lembar kerja pertama dari buku kerja pertama ke dalam
-// lembar kerja pertama dari buku kerja kedua.
-ws1.Copy(ws0);
-// Simpan file excelnya.
+// Simpan file excelnya
 excelWorkbook1.Save(dataDir + "CopyWorksheetFromWorkbookToOther_out.xls");
 ```
+Baris ini akan menyimpan buku kerja kedua Anda di jalur yang ditentukan. Jangan lupa untuk memeriksa apakah semuanya terlihat baik setelah Anda menjalankan kode Anda!
 
 ## Kesimpulan
 
-Selamat! Anda sekarang telah mempelajari cara menyalin lembar kerja Excel dari buku kerja lain menggunakan Aspose.Cells untuk .NET. Jangan ragu untuk menggunakan metode ini dalam proyek Anda sendiri untuk memanipulasi file Excel secara efisien.
+Nah, itu dia! Anda telah berhasil mempelajari cara menyalin lembar kerja dari satu buku kerja ke buku kerja lain menggunakan Aspose.Cells for .NET. Ini adalah keterampilan yang sangat berguna, terutama saat menangani sejumlah besar data yang tersebar di berbagai berkas. Hanya dengan beberapa baris kode, Anda dapat mengatur, mengelola, dan mengakses data Excel dengan lebih mudah.
 
-### FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T. Pustaka apa yang diperlukan untuk menggunakan Aspose.Cells untuk .NET?
+### Apa itu Aspose.Cells?  
+Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, mengonversi, dan merender file Excel dalam berbagai format.
 
-A. Untuk menggunakan Aspose.Cells untuk .NET, Anda harus menyertakan perpustakaan Aspose.Cells dalam proyek Anda. Pastikan Anda telah mereferensikan perpustakaan ini dengan benar di lingkungan pengembangan terintegrasi (IDE) Anda.
+### Bisakah saya menggunakan Aspose.Cells secara gratis?  
+ Ya, Aspose.Cells menawarkan uji coba gratis, yang dapat Anda akses[Di Sini](https://releases.aspose.com/).
 
-#### T. Apakah Aspose.Cells mendukung format file Excel lainnya, seperti XLSX?
+### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Cells?  
+ Anda dapat meminta lisensi sementara dengan mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).
 
-A. Ya, Aspose.Cells mendukung berbagai format file Excel termasuk XLSX, XLS, CSV, HTML, dan masih banyak lagi. Anda dapat memanipulasi format file ini menggunakan fitur Aspose.Cells untuk .NET.
+### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells?  
+ Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
 
-#### T. Bisakah saya mengkustomisasi opsi tata letak saat menyalin lembar kerja?
-
-A.  Ya, Anda bisa mengkustomisasi opsi pengaturan halaman saat menyalin lembar kerja menggunakan properti`PageSetup` obyek. Anda dapat menentukan header halaman, footer, margin, orientasi, dll.
+### Apakah ada dukungan yang tersedia untuk pengguna Aspose.Cells?  
+ Tentu saja! Anda bisa mendapatkan dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).

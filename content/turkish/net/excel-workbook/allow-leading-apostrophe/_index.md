@@ -1,139 +1,158 @@
 ---
-title: Baştaki Kesme İşaretine İzin Ver
-linktitle: Baştaki Kesme İşaretine İzin Ver
-second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET ile Excel çalışma kitaplarında kesme işaretine izin verin.
+title: Önde Kesme İşaretine İzin Ver
+linktitle: Önde Kesme İşaretine İzin Ver
+second_title: Aspose.Cells for .NET API Başvurusu
+description: Aspose.Cells for .NET ile Excel'de öndeki kesme işaretlerini zahmetsizce yönetin. Bu kapsamlı eğitim, sizi adım adım süreç boyunca yönlendirir.
 type: docs
 weight: 60
 url: /tr/net/excel-workbook/allow-leading-apostrophe/
 ---
-Bu adım adım eğitimde, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabında baştaki kesme işaretinin kullanımına izin vermenizi sağlayacak sağlanan C# kaynak kodunu açıklayacağız. Bu işlemi gerçekleştirmek için aşağıdaki adımları izleyin.
+## giriiş
 
-## 1. Adım: Kaynak ve çıkış dizinlerini ayarlayın
+Aspose.Cells for .NET'i kullanarak elektronik tabloları sorunsuz bir şekilde yönetmeye yönelik bu adım adım kılavuza hoş geldiniz, özellikle hücre değerlerindeki önde gelen kesme işaretlerini ele almaya odaklanıyoruz. Verileri etkili bir şekilde yönetme yeteneği, günümüzün veri merkezli dünyasında hayati öneme sahiptir. Excel'in bazen kesme işaretiyle başlayan metin değerlerini nasıl farklı şekilde ele aldığını hiç fark ettiniz mi? Excel görevlerini .NET koduyla otomatikleştiriyorsanız bu beklenmedik sonuçlara yol açabilir. Korkmayın! Bu eğitim, bu konuda size yardımcı olacaktır. 
 
-```csharp
-// kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Çıkış dizini
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+## Ön koşullar
 
-Bu ilk adımda Excel dosyalarının kaynak ve çıktı dizinlerini tanımlıyoruz.
+Koda dalmadan önce, karşılamanız gereken birkaç ön koşul şunlardır:
 
-## 2. Adım: WorkbookDesigner nesnesini örnekleyin
+1. Temel .NET Bilgisi: .NET framework'üne aşinalık şarttır. Zaten C# veya VB.NET ile uğraşıyorsanız, kendinizi hazır sayın.
+2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells'in kurulu olması gerekir. Bunu NuGet paket yöneticisi aracılığıyla kolayca yapabilir veya şuradan indirebilirsiniz:[Aspose sitesi](https://releases.aspose.com/cells/net/).
+3. IDE Kurulumu: Kodlama için Visual Studio gibi Entegre Geliştirme Ortamınızın (IDE) hazır olduğundan emin olun.
+4. Örnek Excel Dosyası: Kodda çalışacağımız örnek dosyayı ("AllowLeadingApostropheSample.xlsx") kullanabilirsiniz.
 
-```csharp
-// WorkbookDesigner nesnesini örneklendirme
-WorkbookDesigner designer = new WorkbookDesigner();
-```
+Artık ön koşulları tamamladığımıza göre gerekli paketleri içe aktaralım ve projemizi kuralım.
 
- Bunun bir örneğini oluşturuyoruz`WorkbookDesigner` Aspose.Cells'ten sınıf.
+## Paketleri İçe Aktar
 
-## Adım 3: Excel Çalışma Kitabını Yükleyin
+Başlamak için bazı temel paketleri içe aktarmanız gerekecek. Bunu şu şekilde yapabilirsiniz:
 
 ```csharp
-// Excel çalışma kitabını yükleyin
-Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
-designer.Workbook = workbook;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.Collections.Generic;
 ```
 
-Excel çalışma kitabını belirtilen dosyadan yüklüyoruz ve ilk kesme işaretlerinin otomatik olarak metin stiline dönüştürülmesini devre dışı bırakıyoruz.
+Projenize Aspose.Cells'e referanslar eklediğinizden emin olun. Visual Studio kullanıyorsanız, bunu NuGet Paket Yöneticisi altında "Aspose.Cells"i arayarak yapabilirsiniz.
 
-## Adım 4: Veri Kaynağını Ayarlayın
+Netliği sağlamak için görevlerimizi yönetilebilir adımlara böleceğiz.
 
-```csharp
-// Tasarımcı çalışma kitabı için veri kaynağını tanımlama
-List<DataObject> list = new List<DataObject>
-{
-new DataObject
-{
-Id=1,
-Name = "demo"
-},
-new DataObject
-{
-ID=2,
-Name = "'demo"
-}
-};
-designer.SetDataSource("sampleData", list);
-```
+## Adım 1: Kaynak ve Çıktı Dizinlerini Ayarlama
 
- Veri nesnelerinin bir listesini tanımlarız ve`SetDataSource` Tasarımcı çalışma kitabının veri kaynağını ayarlama yöntemi.
+Bu adımda giriş ve çıkış dosyalarımızın nerede bulunacağını tanımlamamız gerekiyor.
 
-## 5. Adım: Akıllı işaretleyicileri işleyin
-
-```csharp
-// Akıllı işaretleyicileri işleyin
-designer. Process();
-```
-
- biz kullanıyoruz`Process` Tasarımcı çalışma kitabındaki akıllı işaretçileri işleme yöntemi.
-
-## Adım 6: Değiştirilen Excel çalışma kitabını kaydedin
-
-```csharp
-// Değiştirilen Excel çalışma kitabını kaydedin
-designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
-```
-
-Değiştirilen Excel çalışma kitabını yapılan değişikliklerle birlikte kaydediyoruz.
-
-### Aspose.Cells for .NET kullanarak Öndeki Kesme İşaretine İzin Ver için örnek kaynak kodu 
 ```csharp
 //Kaynak dizini
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
-// WorkbookDesigner nesnesini örneklendirme
+```
+
+ Burada yardımcı yöntemleri kullanıyoruz`Get_SourceDirectory()` Ve`Get_OutputDirectory()` dosya yollarımızı kolayca ayarlamak için. Bu yolları dizin yapınıza göre özelleştirebilirsiniz.
+
+## Adım 2: Bir Çalışma Kitabı Tasarımcısı Nesnesi Oluşturun
+
+Şimdi Aspose.Cells'de akıllı işaretçilerle çalışmak için çok önemli olan WorkbookDesigner'ı örneklendireceğiz.
+
+```csharp
+// Bir WorkbookDesigner nesnesini örneklendirme
 WorkbookDesigner designer = new WorkbookDesigner();
+```
+
+ The`WorkbookDesigner` çalışma kitabımızın tasarımını ve veri bağlamasını yönetir, verileri görsel formata dönüştürürken hayatımızı kolaylaştırır.
+
+## Adım 3: Mevcut Çalışma Kitabını Yükleyin
+
+Daha sonra akıllı işaretleyicilerimizi içeren mevcut çalışma kitabını yükleyeceğiz.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
+```
+
+Buradaki örnek Excel dosyasının bu özelliğin yararlı olması için akıllı işaretçiler içermesi gerekir. Bu şekilde işaretçileri özel verilerimizle değiştirebiliriz.
+
+## Adım 4: Çalışma Kitabı Ayarlarını Yapılandırın
+
+Şimdi, çalışma kitabı ayarlarının öndeki kesme işaretlerini uygun şekilde işleyecek şekilde yapılandırıldığından emin olmak isteyeceksiniz.
+
+```csharp
 workbook.Settings.QuotePrefixToStyle = false;
-// Akıllı işaretleyiciler içeren bir tasarımcı e-tablosu açın
-designer.Workbook = workbook;
+```
+
+ Ayarlayarak`QuotePrefixToStyle`false olarak ayarladığımızda, Aspose.Cells'e öndeki kesme işaretlerini normal karakterler olarak ele almasını ve böylece bunları çıktımızda doğru bir şekilde işlememizi sağlıyoruz.
+
+## Adım 5: Akıllı İşaretleyiciler için Veri Yükle
+
+Excel şablonundaki akıllı işaretçilerin yerini alacak veri kaynağımızı oluşturmanın zamanı geldi.
+
+```csharp
 List<DataObject> list = new List<DataObject>
 {
-	new DataObject
-	{
-		 Id =1,
-		 Name = "demo"
-	},
-	new DataObject
-	{
-		Id=2,
-		Name = "'demo"
-	}
+    new DataObject { Id = 1, Name = "demo" },
+    new DataObject { Id = 2, Name = "'demo" }
 };
-// Tasarımcı e-tablosunun veri kaynağını ayarlama
+```
+
+ Bir liste oluşturuyoruz`DataObject`, isimlerden birinin kasıtlı olarak önde gelen bir kesme işareti içerdiği yer. Bu, Aspose.Cells'in bu tür senaryolarla nasıl başa çıktığını göstermeye yardımcı olacaktır.
+
+## Adım 6: Veri Kaynağını Tasarımcıya Bağlayın
+
+Şimdi veri kaynağımızı çalışma kitabı tasarımcısına bağlayacağız.
+
+```csharp
 designer.SetDataSource("sampleData", list);
-// Akıllı işaretleyicileri işleyin
+```
+
+"sampleData"nın Excel dosyanızdaki akıllı işaretçilerle eşleştiğinden emin olun. Bu şekilde, Aspose.Cells verileri nereye ekleyeceğini bilir.
+
+## Adım 7: Akıllı İşaretleyicileri İşleyin
+
+Sağladığımız verilerle akıllı işaretçileri işlemeye geçelim.
+
+```csharp
 designer.Process();
+```
+
+İşte sihrin gerçekleştiği yer burası; Aspose.Cells verilerinizi alır ve Excel çalışma kitabındaki belirlenmiş akıllı işaretçileri doldurur.
+
+## Adım 8: İşlenmiş Çalışma Kitabını Kaydedin
+
+Son olarak güncellenen çalışma kitabını yeni bir dosyaya kaydediyoruz.
+
+```csharp
 designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
+```
+
+Bu, düzenlediğimiz Excel dosyasını yeni bir adla kaydeder ve orijinal dosyanın üzerine yazmamızı engeller.
+
+## Adım 9: Başarılı Yürütmeyi Onaylayın
+
+Son adımımız, işlemin başarılı olduğunu kullanıcıya bildirmektir.
+
+```csharp
 Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 ```
 
+Bu basit konsol çıktısı, tüm adımların herhangi bir aksama olmadan yürütüldüğünden emin olmanızı sağlayabilir.
+
 ## Çözüm
 
-Tebrikler! Aspose.Cells for .NET'i kullanarak bir Excel çalışma kitabında baştaki kesme işaretinin kullanımına nasıl izin vereceğinizi öğrendiniz. Excel çalışma kitaplarınızı daha da özelleştirmek için kendi verilerinizle denemeler yapın.
+Bu kılavuzda, .NET için Aspose.Cells kullanarak Excel'de önde gelen kesme işaretlerini işlemenin inceliklerini inceledik. Ortamınızı kurmaktan Excel dosyalarını etkili bir şekilde düzenlemeye kadar, sayısal dizelerle ve otomatik biçimlendirmeyle çalışırken sıklıkla karşılaşılan potansiyel tuzakları ortadan kaldırmayı öğrendiniz.
 
-### SSS
+Artık raporlar oluşturuyor, veri analizi için işlevler oluşturuyor veya veri içe ve dışa aktarımlarını yönetiyor olun, bu senaryolarla güvenle başa çıkmanızı sağlayacak araçlara sahipsiniz!
 
-#### S: Excel çalışma kitabındaki kesme işareti izni nedir?
+## SSS
 
-C: Excel çalışma kitabındaki ilk kesme işaretine izin vermek, kesme işaretiyle başlayan verilerin metin stiline dönüştürülmeden doğru şekilde görüntülenmesine olanak tanır. Kesme işaretini verilerin bir parçası olarak tutmak istediğinizde bu kullanışlıdır.
+### Aspose.Cells Nedir?
+Aspose.Cells, Excel dosyalarını birden fazla formatta programlı olarak oluşturmak, düzenlemek ve dönüştürmek için güçlü bir .NET kütüphanesidir.
 
-#### S: Neden ilk kesme işaretlerinin otomatik dönüştürülmesini kapatmam gerekiyor?
+### Aspose.Cells'i ücretsiz kullanabilir miyim?
+ Evet, ücretsiz denemeye kaydolarak Aspose.Cells'i kullanabilirsiniz[Burada](https://releases.aspose.com/).
 
-C: Baştaki alıntıların otomatik olarak dönüştürülmesini devre dışı bırakarak, bunların verilerinizdeki kullanımını koruyabilirsiniz. Bu, Excel çalışma kitabını açarken veya değiştirirken verilerde istenmeyen değişiklikler yapılmasını önler.
+### Aspose.Cells için nasıl destek alabilirim?
+ Yardım alabilir ve soru sorabilirsiniz.[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
 
-#### S: Tasarımcı çalışma kitabında veri kaynağı nasıl ayarlanır?
+### Aspose.Cells hangi dosya türlerini destekler?
+Aspose.Cells, XLS, XLSX, CSV ve daha birçok formatı destekler.
 
- C: Veri kaynağını tasarımcı çalışma kitabında ayarlamak için`SetDataSource` veri kaynağının adını ve karşılık gelen veri nesnelerinin listesini belirten yöntem.
-
-#### S: Başta kesme işaretine izin verilmesi Excel çalışma kitabındaki diğer verileri etkiler mi?
-
-C: Hayır, baştaki kesme işaretine izin vermek yalnızca kesme işaretiyle başlayan verileri etkiler. Excel çalışma kitabındaki diğer veriler değişmeden kalır.
-
-#### S: Bu özelliği diğer Excel dosya formatlarıyla kullanabilir miyim?
-
-C: Evet, bu özelliği Aspose.Cells tarafından desteklenen .xls, .xlsm vb. gibi diğer Excel dosya formatlarıyla kullanabilirsiniz.
+### Aspose.Cells için lisans nasıl satın alabilirim?
+ Aspose.Cells için lisansı doğrudan satın alma sayfasından satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

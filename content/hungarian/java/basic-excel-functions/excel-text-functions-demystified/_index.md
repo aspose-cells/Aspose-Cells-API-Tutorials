@@ -12,7 +12,7 @@ url: /hu/java/basic-excel-functions/excel-text-functions-demystified/
 
 Ebben az oktatóanyagban az Aspose.Cells for Java API használatával elmélyülünk az Excel szövegkezelésének világában. Akár tapasztalt Excel-felhasználó, akár csak most kezdi, a szöveges függvények megértése jelentősen javíthatja táblázatkezelési készségeit. Különböző szöveges függvényeket vizsgálunk meg, és gyakorlati példákkal illusztráljuk a használatukat.
 
-## Elkezdeni
+## Kezdő lépések
 
  Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Cells for Java telepítve van. Letöltheti[itt](https://releases.aspose.com/cells/java/). Miután beállította, merüljön el az Excel szöveges funkcióinak lenyűgöző világában.
 
@@ -121,7 +121,7 @@ cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 workbook.calculateFormula();
 ```
 
-A B5 cellában a "9" lesz (a "for" pozíciója), a C5 cellában pedig a "Keressen velem".
+A B5 cellában a „9” lesz (a „for”) helye, a C5 cellában pedig a „Keressen velem”.
 
 ## Következtetés
 

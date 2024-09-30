@@ -53,7 +53,7 @@ Zkompilujte a spusťte svou Java aplikaci. Jakmile je kód úspěšně spuštěn
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste exportovali soubor Excel do HTML pomocí Aspose.Cells for Java. Tento podrobný průvodce by vám měl pomoci začít s tímto procesem ve vašich aplikacích Java.
+Gratuluji! Úspěšně jste exportovali soubor Excel do HTML pomocí Aspose.Cells for Java. Tento podrobný průvodce by vám měl pomoci začít s tímto procesem ve vašich aplikacích Java.
 
 Pokročilejší funkce a možnosti přizpůsobení naleznete v dokumentaci Aspose.Cells for Java.
 

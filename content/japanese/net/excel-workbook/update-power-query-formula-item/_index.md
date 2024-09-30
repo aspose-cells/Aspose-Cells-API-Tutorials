@@ -1,105 +1,126 @@
 ---
-title: Power Query の数式項目を更新する
-linktitle: Power Query の数式項目を更新する
+title: Power Query 数式項目の更新
+linktitle: Power Query 数式項目の更新
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel ファイル内の Power Query 数式要素を更新する方法を学習します。
+description: Aspose.Cells for .NET を使用して、Excel の Power Query 数式項目を簡単に更新できます。データ操作プロセスを効率化するためのステップ バイ ステップ ガイドです。
 type: docs
 weight: 160
 url: /ja/net/excel-workbook/update-power-query-formula-item/
 ---
-Power Query の数式項目の更新は、Excel ファイル内のデータを操作する場合の一般的な操作です。 Aspose.Cells for .NET を使用すると、次の手順に従って Power Query の数式項目を簡単に更新できます。
+## 導入
 
-## ステップ 1: ソース ディレクトリと出力ディレクトリを指定する
+Excel を使用したことがある方なら、特に Power Queries を使い始めると、その威力に驚くことでしょう。Power Queries は、データを簡単に変換、クリーンアップ、分析できる秘密のツールです。Excel で Power Query の数式を操作する便利な方法の 1 つは、Aspose.Cells for .NET を使用することです。今日は、Power Query の数式項目を更新する手順を順を追って説明します。では、コーディングの知識を身につけて、始めましょう。
 
-まず、更新する Power Query 式を含む Excel ファイルが配置されているソース ディレクトリと、変更したファイルを保存する出力ディレクトリを指定する必要があります。 Aspose.Cells を使用してこれを行う方法は次のとおりです。
+## 前提条件
 
-```csharp
-//ソースディレクトリ
-string SourceDir = RunExamples.Get_SourceDirectory();
+コードに進む前に、設定しておきたいことがいくつかあります。
 
-//出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: .NET コードを記述して実行するには、統合開発環境 (IDE) が必要です。Visual Studio が最適です。
+2.  Aspose.Cellsライブラリ: プロジェクト内でAspose.Cellsライブラリが利用可能であることを確認してください。[サイト](https://releases.aspose.com/cells/net/).
+3. C# の基礎知識: これを一緒に進めていく中で、C# の基礎知識をある程度持っていると、特にさまざまなクラスやメソッドを操作するときに役立ちます。
+4. サンプル Excel ファイル: コード スニペットに記載されている Excel ファイルが必要です。次のものを用意してください。
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## ステップ 2: ソース Excel ワークブックをロードする
+5. .NET Framework: プロジェクトが互換性のあるバージョンの .NET Framework をターゲットにしていることを確認します。
 
-次に、Power Query 数式項目を更新するソース Excel ブックを読み込む必要があります。その方法は次のとおりです。
+キットの準備ができたので、楽しい部分、つまりコードの作成に進むことができます。
 
-```csharp
-//ソース Excel ワークブックをロードします
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## パッケージのインポート
 
-## ステップ 3: Power Query の数式項目を参照して更新する
-
-ブックを読み込んだ後、Power Query 数式コレクションに移動し、各数式とその要素を参照できます。この例では、「Source」という名前の数式項目を検索し、その値を更新します。 Power Query の数式項目を更新するサンプル コードを次に示します。
+まず最初に、必要な名前空間をインポートする必要があります。手順は次のとおりです。
 
 ```csharp
-// Power Query 数式コレクションにアクセスする
-DataMashup mashupData = workbook.DataMashup;
-
-//Power Query の数式とその要素をループする
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## ステップ 4: 出力された Excel ワークブックを保存する
+これらの名前空間を追加することで、Aspose.Cells ライブラリのクラスとメソッドを使用するつもりであることをコンパイラに知らせます。この手順は、後続のコードの基礎となるため、非常に重要です。
 
-Power Query の数式項目を更新したら、変更した Excel ブックを指定した出力ディレクトリに保存できます。その方法は次のとおりです。
+提供されたコード スニペットを分解してみましょう。このチュートリアルでは、各部分を順に説明して、何が起こっているのか理解できるようにします。
 
-```csharp
-//出力された Excel ワークブックを保存する
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## ステップ1: 作業ディレクトリを設定する
 
-### Aspose.Cells for .NET を使用した Power Query 数式項目の更新のサンプル ソース コード 
+この手順では、ソース ファイルと出力ファイルの場所を定義します。これにより、Aspose が Excel ファイルの検索場所を認識できるようになります。
+
 ```csharp
 //作業ディレクトリ
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ここでは仮説的な方法を採用しています`RunExamples.Get_SourceDirectory()`ソースファイルへのパスを取得します。同様に、`RunExamples.Get_OutputDirectory()`出力を保存するパスを取得します。これらのメソッドがマシン上で有効なパスを返すことを確認してください。
+
+## ステップ2: ワークブックを読み込む
+
+ここで、Power Query が存在する Excel ファイルを読み込みます。
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+の`Workbook`クラスは Excel ファイルへのエントリ ポイントです。ソース ファイルのパスを渡すことで、それを操作できるインスタンスを作成します。本を開くようなものだと想像してください。つまり、その内容を読む (または編集する) 準備をするのです。
+
+## ステップ3: データマッシュアップにアクセスする
+
+次に、ワークブックのデータ マッシュアップに保存されている Power Query 数式にアクセスします。
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+の`DataMashup`クラスには、ワークブックに関連付けられたすべての Power Query 数式が含まれています。修理のために工具箱を開けるときのように、ここで大変な作業を行います。
+
+## ステップ4: Power Queryの数式をループする
+
+ここで、Power Query の数式を反復処理して、更新する特定の数式を検索します。
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
-//出力されたワークブックを保存します。
+```
+
+- それぞれをループします`PowerQueryFormula`で`mashupData`.
+- そのループの中で、私たちはそれぞれに深く入り込みます`PowerQueryFormulaItem`.
+- アイテムの名前が「ソース」と一致するかどうかを確認します。一致する場合は、その値を更新して新しいソース ファイルにリンクします。
+
+これは、マニュアルで適切なページを見つけて、必要な更新を行うのと似ており、単純かつ細心の注意を要するプロセスです。
+
+## ステップ5: 更新されたワークブックを保存する
+
+更新を行ったら、変更を保存します。
+
+```csharp
+//出力ワークブックを保存します。
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+の`Save`メソッドは、更新されたワークブックを指定された出力ディレクトリに書き込みます。これは、編集内容をマニュアルの新しいバージョンに封印し、他の人が使用できるように準備するようなものです。
 
 ## 結論
 
-Power Query の数式要素の更新は、Aspose.Cells を使用して Excel ファイル内のデータを操作および処理する場合に不可欠な操作です。上記の手順に従うことで、数式要素を簡単に更新できます
+おめでとうございます! Aspose.Cells for .NET を使用して Power Query 数式項目を正常に更新しました。この方法を使用すると、Excel ファイル内の Power Query 数式の変更を自動化できるため、貴重な時間と労力を節約できます。
 
-### よくある質問
+## よくある質問
 
-#### Q: Excel の Power Query とは何ですか?
-     
-A: Power Query は、さまざまなソースからデータを収集、変換、ロードするのに役立つ Excel の機能です。 Excel にインポートする前にデータをクリーンアップ、結合、再形成するための強力なツールを提供します。
+### Aspose.Cells とは何ですか?
+Aspose.Cells は、Microsoft Excel をインストールしなくても .NET アプリケーションで Excel ファイルを操作するための強力なライブラリです。
 
-#### Q: Power Query の数式項目が正常に更新されたかどうかを確認するにはどうすればよいですか?
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### Aspose.Cells を実行するには Microsoft Excel が必要ですか?
+いいえ、Aspose.Cells を使用すると、サーバーまたは開発マシンに Excel がなくても、プログラムで Excel ファイルを作成および編集できます。
 
-#### Q: 複数の Power Query 数式アイテムを一度に更新できますか?
-    
-A: はい、特定のニーズに応じて、Power Query の数式項目コレクションをループし、1 回のループで複数の項目を更新できます。
+### Aspose.Cells を使用して操作できる Excel ファイルの種類は何ですか?
+Aspose.Cells を使用すると、.xlsx、.xls、.xlsm、およびその他のいくつかの Excel 形式を操作できます。
 
-#### Q: Aspose.Cells を使用して Power Query の数式に対して実行できる操作は他にもありますか?
-    
-A: はい、Aspose.Cells は、Excel ブック内の数式の作成、削除、コピー、検索など、Power Query 数式を操作するためのあらゆる機能を提供します。
+### Aspose.Cells の試用版はありますか?
+はい、無料試用版をこちらからダウンロードできます。[Aspose Cells リリースページ](https://releases.aspose.com/).
+
+### Aspose.Cells のサポートを受けるにはどうすればよいですか?
+サポートは以下からアクセスできます。[Aspose フォーラム](https://forum.aspose.com/c/cells/9)では、コミュニティや Aspose チームから質問したり回答を見つけることができます。

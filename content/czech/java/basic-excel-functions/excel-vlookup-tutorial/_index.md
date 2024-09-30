@@ -8,7 +8,7 @@ weight: 12
 url: /cs/java/basic-excel-functions/excel-vlookup-tutorial/
 ---
 
-## Úvod
+## Zavedení
 
 V tomto komplexním tutoriálu se ponoříme do světa Excel VLOOKUP pomocí výkonného Aspose.Cells for Java API. Ať už jste začátečník nebo zkušený vývojář, tento průvodce vás provede kroky využití potenciálu Aspose.Cells for Java k bezproblémovému provádění operací VLOOKUP.
 
@@ -17,7 +17,7 @@ V tomto komplexním tutoriálu se ponoříme do světa Excel VLOOKUP pomocí vý
 Než se ponoříme do toho nejnutnějšího, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Java JDK.
--  Aspose.Cells for Java: Stáhněte si a nainstalujte Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Stáhněte si a nainstalujte Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/).
 
 ## Začínáme
 
@@ -77,7 +77,7 @@ if (cell != null) {
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak provádět operace SVYHLEDAT pomocí Aspose.Cells for Java. Toto výkonné rozhraní API zjednodušuje složité úlohy aplikace Excel, takže vaše vývojová cesta je plynulejší.
+Gratuluji! Úspěšně jste se naučili, jak provádět operace SVYHLEDAT pomocí Aspose.Cells for Java. Toto výkonné rozhraní API zjednodušuje složité úlohy aplikace Excel, takže vaše vývojová cesta je plynulejší.
 
 Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve vašich projektech Excel!
 
@@ -91,7 +91,7 @@ Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve 
 
 Aspose.Cells for Java je navržen speciálně pro vývojáře Java. Aspose však nabízí knihovny i pro jiné programovací jazyky. Pro více informací se určitě podívejte na jejich web.
 
-### Je Aspose.Cells for Java k použití zdarma?
+### Je Aspose.Cells for Java zdarma k použití?
 
 Aspose.Cells for Java není bezplatná knihovna a vyžaduje platnou licenci pro komerční použití. Podrobnosti o cenách a informace o licencích najdete na webu Aspose.
 
@@ -101,4 +101,4 @@ Ano, Excel nabízí různé funkce jako HLOOKUP, INDEX MATCH a další jako alte
 
 ### Kde najdu další dokumentaci Aspose?
 
- Úplnou dokumentaci k Aspose.Cells for Java naleznete na stránce dokumentace na adrese[tady](https://reference.aspose.com/cells/java/).
+ Úplnou dokumentaci k Aspose.Cells for Java naleznete na stránce dokumentace na adrese[zde](https://reference.aspose.com/cells/java/).

@@ -123,7 +123,7 @@ Fedezze fel az adatellenőrzés hatékony és eredményes megvalósításának l
 
 ## Következtetés
 
-Egy olyan korban, amikor az adatok a királyok, ezek biztosítása nem lehetőség, hanem szükségszerűség. Az Aspose.Cells for Java olyan eszközökkel látja el Önt, amelyek segítségével robusztus adatellenőrzési mechanizmusokat valósíthat meg, védve az adatok integritását és biztonságát.
+Egy olyan korban, ahol az adatok a királyok, ezek biztosítása nem lehetőség, hanem szükségszerűség. Az Aspose.Cells for Java olyan eszközökkel látja el Önt, amelyek segítségével robusztus adatellenőrzési mechanizmusokat valósíthat meg, védve az adatok integritását és biztonságát.
 
 ## GYIK
 

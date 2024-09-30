@@ -1,93 +1,122 @@
 ---
-title: Bỏ bảo vệ bảng Excel đơn giản
-linktitle: Bỏ bảo vệ bảng Excel đơn giản
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tìm hiểu cách Bỏ bảo vệ bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước trong C#.
+title: Bỏ bảo vệ bảng tính Excel đơn giản
+linktitle: Bỏ bảo vệ bảng tính Excel đơn giản
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách dễ dàng bỏ bảo vệ các trang tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Truy cập lại dữ liệu của bạn ngay lập tức.
 type: docs
 weight: 30
 url: /vi/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
 ---
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước cần thiết để mở khóa bảng tính Excel đơn giản bằng thư viện Aspose.Cells cho .NET.
+## Giới thiệu
 
-## Bước 1: Chuẩn bị môi trường
+Tệp Excel là thành phần chính trong quản lý dữ liệu cá nhân và doanh nghiệp, cho phép người dùng sắp xếp và phân tích thông tin của họ một cách hiệu quả. Tuy nhiên, đôi khi chúng ta gặp phải một trang tính Excel bị khóa, khiến chúng ta phải đau đầu — đặc biệt là khi chúng ta quên mật khẩu. Rất may, thư viện Aspose.Cells dành cho .NET cung cấp một giải pháp tuyệt vời để dễ dàng bỏ bảo vệ các trang tính Excel đơn giản. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước cần thiết để bỏ bảo vệ một trang tính Excel, lưu công việc của bạn và tiếp tục xử lý dữ liệu của bạn một cách trơn tru. Vì vậy, nếu bạn đã sẵn sàng lấy lại quyền kiểm soát các bảng tính của mình, hãy bắt đầu thôi!
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for .NET trên máy của mình. Tải xuống thư viện từ trang web chính thức của Aspose và làm theo hướng dẫn cài đặt được cung cấp.
+## Điều kiện tiên quyết
 
-## Bước 2: Cấu hình đường dẫn thư mục tài liệu
+Trước khi đi sâu vào quá trình gỡ bỏ bảo vệ thực tế, bạn cần chuẩn bị một số thứ sau:
 
- Trong mã nguồn được cung cấp, bạn cần chỉ định đường dẫn thư mục chứa tệp Excel bạn muốn mở khóa. Sửa đổi`dataDir` bằng cách thay thế "THƯ VIỆN TÀI LIỆU CỦA BẠN" bằng đường dẫn tuyệt đối của thư mục trên máy của bạn.
+1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio để phát triển .NET. Môi trường này giúp bạn làm việc dễ dàng hơn với các thư viện Aspose.Cells một cách liền mạch.
+2.  Thư viện Aspose.Cells: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt được cách mã tương tác với thư viện Aspose.Cells.
+4. Tệp Excel mẫu: Chuẩn bị một tệp Excel đơn giản được bảo vệ bằng mật khẩu hoặc không có mật khẩu để kiểm tra quá trình bỏ bảo vệ.
+5. Microsoft Excel (tùy chọn): Luôn tiện lợi khi có Excel bên cạnh để xác minh rằng những thay đổi do Aspose.Cells thực hiện là chính xác.
+
+## Nhập gói
+
+Bây giờ chúng ta đã sắp xếp mọi thứ, hãy nhanh chóng thiết lập môi trường của mình. Để sử dụng Aspose.Cells trong dự án của bạn, hãy bắt đầu bằng cách nhập không gian tên cần thiết. Sau đây là cách bạn có thể thực hiện:
+
+### Thiết lập dự án của bạn
+
+ Mở Visual Studio của bạn và tạo một dự án C# mới. Trong`Solution Explorer` , nhấp chuột phải vào dự án của bạn và chọn Thêm mục mới.... Chọn Lớp C# và đặt tên phù hợp (ví dụ:`ExcelUnprotector.cs`).
+
+### Cài đặt Aspose.Cells
+
+Nếu bạn chưa cài đặt Aspose.Cells, bạn có thể cài đặt bằng NuGet. Thực hiện theo các bước đơn giản sau:
+
+- Mở NuGet Package Manager (nhấp chuột phải vào dự án của bạn trong Solution Explorer và chọn Manage NuGet Packages).
+- Tìm kiếm Aspose.Cells.
+- Nhấp vào Cài đặt.
+
+### Nhập không gian tên
+
+Ở đầu tệp C# của bạn, hãy thêm:
 
 ```csharp
-//Đường dẫn đến thư mục tài liệu.
-string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
+using System.IO;
+using Aspose.Cells;
 ```
 
-## Bước 3: Tạo đối tượng sổ làm việc
+Bây giờ, bạn đã sẵn sàng để bắt đầu viết code!
 
-Để bắt đầu, chúng ta cần tạo một đối tượng Workbook đại diện cho tệp Excel của mình. Sử dụng hàm tạo của lớp Workbook và chỉ định đường dẫn đầy đủ của tệp Excel để mở.
+Chúng ta hãy chia nhỏ quá trình hủy bảo vệ thành các bước chi tiết.
+
+## Bước 1: Xác định đường dẫn thư mục
+
+Điều đầu tiên bạn cần làm là chỉ định đường dẫn đến thư mục chứa tệp Excel của bạn. Điều này rất quan trọng vì nó cho chương trình biết nơi tìm tệp bạn muốn bỏ bảo vệ.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay đổi đường dẫn này thành đường dẫn thực tế của bạn
+```
+
+ Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế dẫn đến tệp Excel của bạn.
+
+## Bước 2: Khởi tạo đối tượng Workbook
+
+ Tiếp theo, bạn cần tạo một phiên bản của`Workbook` lớp để mở tệp Excel của bạn.
+
+```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-## Bước 4: Truy cập bảng tính
+Bằng cách cung cấp đường dẫn đến tệp Excel của bạn (`book1.xls`), bạn đang tải tài liệu vào bộ nhớ để có thể thao tác với nó.
 
- Tiếp theo, chúng ta cần điều hướng đến bảng tính đầu tiên trong tệp Excel. Sử dụng`Worksheets` thuộc tính của đối tượng Workbook để truy cập vào bộ sưu tập các trang tính, sau đó sử dụng thuộc tính`[0]` chỉ mục để truy cập trang tính đầu tiên.
+## Bước 3: Truy cập vào Bảng tính
+
+Bây giờ, hãy truy cập vào trang tính bạn muốn bỏ bảo vệ. Nói chung, nếu bạn chỉ có một trang tính, đó là trang tính đầu tiên (chỉ mục 0).
 
 ```csharp
-// Truy cập bảng tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-## Bước 5: Mở khóa bảng tính
+Trong dòng này, chúng ta đang nhắm đến trang tính đầu tiên. Nếu bạn cần bỏ bảo vệ một trang tính khác, chỉ cần thay đổi số chỉ mục cho phù hợp.
 
- Bây giờ chúng ta sẽ mở khóa bảng tính bằng cách sử dụng`Unprotect()` phương thức của đối tượng Worksheet. Phương pháp này không yêu cầu mật khẩu.
+## Bước 4: Bỏ bảo vệ trang tính
+
+Đây là phần quan trọng — bỏ bảo vệ bảng tính! Nếu không có mật khẩu nào được đặt, thì đây là một câu lệnh đơn giản:
 
 ```csharp
-// Bỏ bảo vệ bảng tính không cần mật khẩu
 worksheet.Unprotect();
 ```
 
-## Bước 6: Lưu file Excel đã mở khóa
+Mã này sẽ loại bỏ hiệu quả mọi lớp bảo vệ trên bảng tính mục tiêu của bạn, cho phép bạn chỉnh sửa và thao tác thoải mái!
 
-Sau khi bảng tính được mở khóa, chúng ta có thể lưu tệp Excel cuối cùng. Sử dụng`Save()` phương pháp chỉ định đường dẫn đầy đủ của tệp đầu ra và định dạng lưu.
+## Bước 5: Lưu sổ làm việc
+
+Sau khi bỏ bảo vệ bảng tính, bước cuối cùng là lưu các thay đổi của bạn trở lại một tệp. Bạn có thể lưu dưới dạng tệp mới hoặc ghi đè lên tệp gốc.
 
 ```csharp
-// Lưu sổ làm việc
 workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
-### Mã nguồn mẫu cho Bảng tính Excel đơn giản không bảo vệ bằng Aspose.Cells for .NET 
-```csharp
-//Đường dẫn đến thư mục tài liệu.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Khởi tạo một đối tượng Workbook
-Workbook workbook = new Workbook(dataDir + "book1.xls");
-// Truy cập bảng tính đầu tiên trong tệp Excel
-Worksheet worksheet = workbook.Worksheets[0];
-// Bỏ bảo vệ bảng tính không cần mật khẩu
-worksheet.Unprotect();
-// Lưu sổ làm việc
-workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
-```
+
+ Ở đây, chúng tôi đang lưu sổ làm việc không được bảo vệ vào một tệp mới có tên`output.out.xls` trong cùng một thư mục.`SaveFormat.Excel97To2003` tham số chỉ định định dạng mà bạn muốn lưu.
 
 ## Phần kết luận
 
-Xin chúc mừng! Bây giờ bạn đã học cách mở khóa bảng tính Excel đơn giản bằng Aspose.Cells cho .NET. Bằng cách làm theo các bước trong hướng dẫn này, bạn có thể dễ dàng áp dụng tính năng này cho các dự án của riêng mình.
+Trong một thế giới bị dữ liệu thống trị, việc biết cách thao tác và quản lý bảng tính Excel của bạn là rất quan trọng. Sử dụng Aspose.Cells cho .NET cung cấp một cách mạnh mẽ để xử lý các hoạt động tệp Excel, bao gồm cả việc bỏ bảo vệ các trang tính của bạn. Chỉ với một vài dòng mã, bạn đã lấy lại quyền truy cập vào nội dung được bảo vệ của mình và có thể tiếp tục công việc mà không gặp trở ngại nào. Vì vậy, lần tới khi bạn gặp phải một trang tính Excel bị khóa, bạn sẽ biết chính xác phải làm gì!
 
-Hãy thoải mái khám phá thêm các tính năng của Aspose.Cells
-để biết thêm các thao tác nâng cao trên tệp Excel.
+## Câu hỏi thường gặp
 
-### Câu hỏi thường gặp
+### Tôi có thể bỏ bảo vệ trang tính Excel có mật khẩu không?
+Không, phương pháp được cung cấp chỉ hoạt động mà không cần mật khẩu. Nếu mật khẩu được đặt, bạn sẽ cần mật khẩu để bỏ bảo vệ trang tính.
 
-#### Hỏi: Tôi nên thực hiện các biện pháp phòng ngừa nào khi mở khóa bảng tính Excel?
+### Có cách nào để thay đổi mật khẩu của trang tính Excel bằng Aspose.Cells không?
+Có, bạn có thể bảo vệ và đặt mật khẩu mới trên trang tính Excel bằng các phương pháp của thư viện.
 
-Đáp: Khi mở khóa bảng tính Excel, hãy đảm bảo bạn có các quyền cần thiết để truy cập vào tệp. Ngoài ra, hãy đảm bảo sử dụng đúng phương pháp mở khóa và cung cấp mật khẩu chính xác, nếu có.
+### Aspose.Cells có hỗ trợ các định dạng Excel mới hơn không?
+Chắc chắn rồi! Thư viện hỗ trợ cả định dạng Excel cũ và mới (.xls và .xlsx).
 
-#### Hỏi: Làm cách nào để biết bảng tính có được bảo vệ bằng mật khẩu hay không?
+### Tôi có thể sử dụng Aspose.Cells miễn phí không?
+ Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells[đây](https://releases.aspose.com/).
 
- Đáp: Bạn có thể kiểm tra xem một trang tính có được bảo vệ bằng mật khẩu hay không bằng cách sử dụng các thuộc tính hoặc phương thức do thư viện Aspose.Cells dành cho .NET cung cấp. Ví dụ: bạn có thể sử dụng`IsProtected()` của đối tượng Worksheet để kiểm tra xem bảng tính có được bảo vệ hay không.
-
-#### Hỏi: Tôi gặp ngoại lệ khi cố gắng mở khóa bảng tính. Tôi nên làm gì ?
-
-Đáp: Nếu bạn gặp phải ngoại lệ khi mở khóa bảng tính, vui lòng đảm bảo rằng bạn đã chỉ định chính xác đường dẫn đến tệp Excel và kiểm tra xem bạn có các quyền cần thiết để truy cập vào tệp đó hay không. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ của Aspose.Cells để được hỗ trợ thêm.
+### Tôi có thể tìm thêm thông tin về cách sử dụng Aspose.Cells ở đâu?
+ Bạn có thể tham khảo[tài liệu](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.

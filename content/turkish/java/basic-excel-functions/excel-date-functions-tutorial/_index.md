@@ -1,54 +1,54 @@
 ---
-title: Excel Tarih İşlevleri Eğitimi
-linktitle: Excel Tarih İşlevleri Eğitimi
+title: Excel Tarih Fonksiyonları Eğitimi
+linktitle: Excel Tarih Fonksiyonları Eğitimi
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java'yı kullanarak Excel Tarih İşlevlerini öğrenin. Kaynak koduyla adım adım öğreticileri keşfedin.
+description: Java için Aspose.Cells kullanarak Excel Tarih Fonksiyonlarını öğrenin. Kaynak kodlu adım adım öğreticileri keşfedin.
 type: docs
 weight: 19
 url: /tr/java/basic-excel-functions/excel-date-functions-tutorial/
 ---
 
-## Excel Tarih İşlevleri Eğitimine Giriş
+## Excel Tarih Fonksiyonlarına Giriş Eğitimi
 
-Bu kapsamlı eğitimde, Excel tarih fonksiyonlarını ve tarihle ilgili verilerle çalışmak için Aspose.Cells for Java'nın gücünden nasıl yararlanılabileceğini keşfedeceğiz. İster deneyimli bir geliştirici olun ister Aspose.Cells'e yeni başlıyor olun, bu kılavuz Excel'deki tarih fonksiyonlarının potansiyelinden yararlanmanıza yardımcı olacaktır. O halde hadi dalalım!
+Bu kapsamlı eğitimde, Excel tarih işlevlerini ve tarihle ilgili verilerle çalışmak için Aspose.Cells for Java'nın gücünden nasıl yararlanacağınızı keşfedeceğiz. İster deneyimli bir geliştirici olun, ister Aspose.Cells ile yeni başlıyor olun, bu kılavuz Excel'deki tarih işlevlerinin potansiyelinden yararlanmanıza yardımcı olacak. Hadi başlayalım!
 
-## Excel'de Tarih İşlevlerini Anlamak
+## Excel'de Tarih Fonksiyonlarını Anlama
 
-Excel, tarihle ilgili karmaşık hesaplamaları basitleştiren çok çeşitli tarih işlevlerine sahiptir. Bu işlevler tarih aritmetiği, tarihler arasındaki farkı bulma ve daha fazlası gibi görevler için inanılmaz derecede faydalıdır. Bazı yaygın tarih işlevlerini inceleyelim:
+Excel, karmaşık tarihle ilgili hesaplamaları basitleştiren geniş bir tarih işlevi yelpazesine sahiptir. Bu işlevler, tarih aritmetiği, tarihler arasındaki farkı bulma ve daha fazlası gibi görevler için inanılmaz derecede faydalıdır. Bazı yaygın tarih işlevlerini inceleyelim:
 
-### TARİH İşlevi
+### DATE İşlevi
 
-DATE işlevi, sağlanan yıl, ay ve gün değerlerini kullanarak bir tarih oluşturur. Aspose.Cells for Java ile nasıl kullanılacağını göstereceğiz.
+DATE işlevi, sağlanan yıl, ay ve gün değerlerini kullanarak bir tarih oluşturur. Java için Aspose.Cells ile nasıl kullanılacağını göstereceğiz.
 
-### BUGÜN Fonksiyonu
+### BUGÜN İşlevi
 
-BUGÜN işlevi geçerli tarihi döndürür. Aspose.Cells'i kullanarak bu bilgiyi programlı olarak nasıl alacağınızı öğrenin.
+TODAY işlevi geçerli tarihi döndürür. Bu bilgiyi Aspose.Cells kullanarak programatik olarak nasıl alacağınızı öğrenin.
 
-### TARİHLİ EĞER İşlevi
+### DATEDIF İşlevi
 
-DATEDIF, iki tarih arasındaki farkı hesaplayarak sonucu çeşitli birimlerle (örn. gün, ay, yıl) görüntüler. Bu fonksiyonun Aspose.Cells for Java ile nasıl uygulanacağını keşfedin.
+DATEDIF iki tarih arasındaki farkı hesaplar ve sonucu çeşitli birimlerde (örneğin, gün, ay, yıl) görüntüler. Bu işlevin Java için Aspose.Cells ile nasıl uygulanacağını keşfedin.
 
 ### EOMONTH İşlevi
 
 EOMONTH, belirli bir tarih için ayın son gününü döndürür. Aspose.Cells ile ay sonu tarihini nasıl alacağınızı öğrenin.
 
-## Aspose.Cells for Java ile çalışma
+## Java için Aspose.Cells ile Çalışma
 
-Artık Excel tarih fonksiyonlarının temellerini ele aldığımıza göre, bu fonksiyonlarla programlı olarak çalışmak için Aspose.Cells for Java kullanımına geçelim.
+Excel tarih fonksiyonlarının temellerini ele aldığımıza göre, şimdi bu fonksiyonlarla programlı olarak çalışmak için Aspose.Cells for Java'yı kullanmaya geçelim.
 
 ### Aspose.Cells'i Kurma
 
-Kodlamaya başlamadan önce projemizde Aspose.Cells for Java'yı kurmamız gerekiyor. Başlamak için şu adımları izleyin.
+Kodlamaya başlamadan önce projemizde Java için Aspose.Cells'i kurmamız gerekiyor. Başlamak için şu adımları izleyin.
 
 1. Aspose.Cells'i indirin ve yükleyin: Ziyaret edin[Java için Aspose.Cells](https://releases.aspose.com/cells/java/) ve en son sürümü indirin.
 
-2. Aspose.Cells'i Projenize Dahil Edin: Aspose.Cells kütüphanesini Java projenize ekleyin.
+2. Projenize Aspose.Cells'i Ekleyin: Aspose.Cells kütüphanesini Java projenize ekleyin.
 
 3. Lisans Yapılandırması: Aspose.Cells'i kullanmak için geçerli bir lisansınız olduğundan emin olun.
 
-### Aspose.Cells ile DATE Fonksiyonunu Kullanmak
+### Aspose.Cells ile DATE Fonksiyonunu Kullanma
 
-Aspose.Cells for Java kullanarak Excel'de DATE fonksiyonunun nasıl kullanılacağına dair pratik bir örnekle başlayalım.
+Aspose.Cells for Java'yı kullanarak Excel'de DATE fonksiyonunun nasıl kullanılacağına dair pratik bir örnekle başlayalım.
 
 ```java
 // Yeni bir çalışma kitabı oluştur
@@ -57,19 +57,19 @@ Workbook workbook = new Workbook();
 // İlk çalışma sayfasına erişin
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// DATE işlevini kullanarak tarihi ayarlayın
+// DATE fonksiyonunu kullanarak tarihi ayarlayın
 worksheet.getCells().get("A1").putValue("=DATE(2023, 9, 7)");
 
-// Hesaplanan tarih değerini alın
+// Hesaplanan tarih değerini al
 String calculatedDate = worksheet.getCells().get("A1").getStringValue();
 
 // Sonucu yazdır
 System.out.println("Calculated Date: " + calculatedDate);
 ```
 
-### BUGÜN Fonksiyonu ile Çalışma
+### BUGÜN İşlevi ile Çalışma
 
-Şimdi Aspose.Cells for Java ile BUGÜN fonksiyonunu kullanarak güncel tarihi nasıl alacağınızı keşfedelim.
+Şimdi, Aspose.Cells for Java ile TODAY fonksiyonunu kullanarak geçerli tarihin nasıl alınacağını inceleyelim.
 
 ```java
 // Yeni bir çalışma kitabı oluştur
@@ -78,19 +78,19 @@ Workbook workbook = new Workbook();
 // İlk çalışma sayfasına erişin
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Geçerli tarihi almak için BUGÜN işlevini kullanın
+// Güncel tarihi almak için BUGÜN işlevini kullanın
 worksheet.getCells().get("A1").setFormula("=TODAY()");
 
-// Geçerli tarih değerini alın
+// Güncel tarih değerini al
 String currentDate = worksheet.getCells().get("A1").getStringValue();
 
 // Sonucu yazdır
 System.out.println("Current Date: " + currentDate);
 ```
 
-### DATEDIF ile Tarih Farklarını Hesaplama
+### DATEDIF ile Tarih Farklarının Hesaplanması
 
-Excel'deki ETARİHLİ fonksiyonu ile tarih farklarını kolaylıkla hesaplayabilirsiniz. Bunu Aspose.Cells for Java kullanarak nasıl yapacağınız aşağıda açıklanmıştır.
+Excel'deki DATEDIF işleviyle tarih farklarını kolayca hesaplayabilirsiniz. İşte Java için Aspose.Cells kullanarak bunu nasıl yapacağınız.
 
 ```java
 // Yeni bir çalışma kitabı oluştur
@@ -103,19 +103,19 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("2023-09-07");
 worksheet.getCells().get("A2").putValue("2023-08-01");
 
-// DATEDIF kullanarak farkı hesaplayın
+// Farkı DATEDIF kullanarak hesaplayın
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-//Günlerdeki farkı öğrenin
+//Günlerdeki farkı alın
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
 // Sonucu yazdır
 System.out.println("Days Difference: " + daysDifference);
 ```
 
-### Ay Sonunu Bulma
+### Ay Sonunu Bulmak
 
-Aspose.Cells for Java'da, EOMONTH fonksiyonunu kullanarak belirli bir tarihe ait ay sonunu kolayca bulabilirsiniz.
+Java için Aspose.Cells ile EOMONTH fonksiyonunu kullanarak belirli bir tarihe ait ay sonunu kolayca bulabilirsiniz.
 
 ```java
 // Yeni bir çalışma kitabı oluştur
@@ -124,10 +124,10 @@ Workbook workbook = new Workbook();
 // İlk çalışma sayfasına erişin
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Tarih değeri ayarlayın
+// Bir tarih değeri ayarlayın
 worksheet.getCells().get("A1").putValue("2023-09-07");
 
-// EOMONTH kullanarak ayın sonunu hesaplayın
+// EOMONTH kullanarak ay sonunu hesaplayın
 worksheet.getCells().get("A2").setFormula("=EOMONTH(A1, 0)");
 
 // Ay sonu tarihini alın
@@ -139,35 +139,35 @@ System.out.println("End of Month: " + endOfMonth);
 
 ## Çözüm
 
-Bu eğitimde Excel'in tarih işlevlerine ve Aspose.Cells for Java kullanılarak bunlarla nasıl çalışılacağına ilişkin kapsamlı bir genel bakış sunulmaktadır. Aspose.Cells'i nasıl kuracağınızı, DATE, TODAY, DATEDIF ve EOMONTH işlevlerini nasıl kullanacağınızı ve tarih hesaplamalarını programlı olarak nasıl yapacağınızı öğrendiniz. Bu bilgiyle Excel'de tarihle ilgili görevlerinizi kolaylaştırabilir ve Java uygulamalarınızı geliştirebilirsiniz.
+Bu eğitim, Excel tarih işlevlerine ve Java için Aspose.Cells kullanarak bunlarla nasıl çalışılacağına dair kapsamlı bir genel bakış sağlamıştır. Aspose.Cells'i nasıl kuracağınızı, DATE, TODAY, DATEDIF ve EOMONTH işlevlerini nasıl kullanacağınızı ve tarih hesaplamalarını programlı olarak nasıl yapacağınızı öğrendiniz. Bu bilgiyle Excel'deki tarihle ilgili görevlerinizi kolaylaştırabilir ve Java uygulamalarınızı geliştirebilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Aspose.Cells for Java'da tarihleri nasıl formatlarım?
+### Java için Aspose.Cells'de tarihleri nasıl biçimlendiririm?
 
- Aspose.Cells'te tarihleri biçimlendirmek basittir. Şunu kullanabilirsiniz:`Style` tarih formatlarını tanımlamak ve bunları hücrelere uygulamak için sınıf. Örneğin tarihleri "gg-AA-yyyy" biçiminde görüntülemek için:
+ Aspose.Cells'de tarihleri biçimlendirmek basittir. Şunu kullanabilirsiniz:`Style` tarih biçimlerini tanımlamak ve bunları hücrelere uygulamak için sınıf. Örneğin, tarihleri "gg-AA-yyyy" biçiminde görüntülemek için:
 
 ```java
-// Tarih stili oluşturma
+// Bir tarih stili oluşturun
 Style dateStyle = workbook.createStyle();
 dateStyle.setCustom("dd-MM-yyyy");
 
-// Stili bir hücreye uygulama
+// Stili bir hücreye uygula
 worksheet.getCells().get("A1").setStyle(dateStyle);
 ```
 
-### Aspose.Cells ile ileri tarih hesaplamaları yapabilir miyim?
+### Aspose.Cells ile gelişmiş tarih hesaplamaları yapabilir miyim?
 
-Evet, Aspose.Cells ile ileri tarih hesaplamaları yapabilirsiniz. Excel tarih işlevlerini ve Aspose.Cells API'yi birleştirerek tarihle ilgili karmaşık görevleri verimli bir şekilde gerçekleştirebilirsiniz.
+Evet, Aspose.Cells ile gelişmiş tarih hesaplamaları yapabilirsiniz. Excel tarih işlevlerini ve Aspose.Cells API'sini birleştirerek karmaşık tarihle ilgili görevleri verimli bir şekilde halledebilirsiniz.
 
-### Aspose.Cells büyük ölçekli veri işlemeye uygun mu?
+### Aspose.Cells büyük ölçekli veri işleme için uygun mudur?
 
-Aspose.Cells for Java, hem küçük ölçekli hem de büyük ölçekli tarih işleme için çok uygundur. Yüksek performans ve güvenilirlik sunarak çeşitli uygulamalarda tarihle ilgili verilerin işlenmesi için mükemmel bir seçimdir.
+Java için Aspose.Cells hem küçük ölçekli hem de büyük ölçekli tarih işleme için oldukça uygundur. Yüksek performans ve güvenilirlik sunar ve bu da onu çeşitli uygulamalarda tarihle ilgili verileri işlemek için mükemmel bir seçim haline getirir.
 
 ### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Aspose.Cells for Java ile ilgili kapsamlı belgelere ve kaynaklara şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/cells/java/).
+ Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve kaynaklara şu adresten erişebilirsiniz:[Burada](https://reference.aspose.com/cells/java/).
 
-### Aspose.Cells for Java'yı nasıl kullanmaya başlayabilirim?
+### Java için Aspose.Cells'i nasıl kullanmaya başlayabilirim?
 
- Aspose.Cells for Java'yı kullanmaya başlamak için kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/cells/java/) ve kurulum için belgelere bakın ve
+ Java için Aspose.Cells'i kullanmaya başlamak için kitaplığı şu adresten indirin:[Burada](https://releases.aspose.com/cells/java/) ve kurulum için belgelere bakın ve

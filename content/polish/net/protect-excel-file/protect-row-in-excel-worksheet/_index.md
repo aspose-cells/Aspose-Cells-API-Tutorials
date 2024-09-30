@@ -1,122 +1,77 @@
 ---
-title: Chroń wiersz w arkuszu programu Excel
-linktitle: Chroń wiersz w arkuszu programu Excel
-second_title: Aspose.Cells dla .NET API odniesienia
-description: W tym samouczku dowiesz się, jak chronić wiersze arkusza kalkulacyjnego Excel za pomocą Aspose.Cells dla .NET. Samouczek krok po kroku w języku C#.
+title: Chroń wiersz w arkuszu kalkulacyjnym programu Excel
+linktitle: Chroń wiersz w arkuszu kalkulacyjnym programu Excel
+second_title: Aspose.Cells dla .NET API Reference
+description: Odkryj w tym samouczku, jak chronić wiersze arkusza kalkulacyjnego Excela za pomocą Aspose.Cells dla .NET. Samouczek krok po kroku w C#.
 type: docs
 weight: 60
 url: /pl/net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
-W tym samouczku przyjrzymy się kodowi źródłowemu C#, który używa biblioteki Aspose.Cells do ochrony wierszy w arkuszu kalkulacyjnym programu Excel. Przejdziemy przez każdy krok kodu i wyjaśnimy, jak to działa. Postępuj zgodnie z instrukcjami, aby uzyskać pożądane rezultaty.
+## Wstęp
 
-## Krok 1: Warunki wstępne
+Podczas pracy z arkuszami Excela często konieczne jest zabezpieczenie określonych wierszy w celu zachowania integralności danych. Niezależnie od tego, czy zarządzasz projektem zespołowym, nadzorujesz raport finansowy, czy udostępniasz dokumentację, ograniczenie dostępu do określonych wierszy może zapobiec niechcianym zmianom. W tym samouczku przyjrzymy się, jak wykorzystać Aspose.Cells dla .NET do zabezpieczenia określonych wierszy w arkuszu kalkulacyjnym Excela. Więc chwyć swój kapelusz kodera i zanurzmy się w ekscytującym świecie manipulacji Excelem za pomocą C#!
 
-Zanim zaczniesz, upewnij się, że zainstalowałeś bibliotekę Aspose.Cells dla .NET. Można go pobrać z oficjalnej strony Aspose. Upewnij się także, że masz najnowszą wersję programu Visual Studio lub innego środowiska programistycznego C#.
+## Wymagania wstępne
 
-## Krok 2: Zaimportuj wymagane przestrzenie nazw
+Zanim przejdziemy do części praktycznej, upewnijmy się, że wszystko jest gotowe. Oto kilka wymagań wstępnych:
 
-Aby skorzystać z biblioteki Aspose.Cells, musimy zaimportować do naszego kodu niezbędne przestrzenie nazw. Dodaj następujące wiersze na górze pliku źródłowego C#:
+1.  Aspose.Cells dla .NET: Pobierz bibliotekę ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Upewnij się, że masz najnowszą wersję, aby korzystać ze wszystkich nowych funkcji i poprawek błędów.
+2. Visual Studio: Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio (Community, Professional lub Enterprise), pomoże Ci efektywnie kompilować i uruchamiać kod w języku C#.
+3. .NET Framework: Będziesz potrzebować zgodnej wersji .NET Framework. Aspose.Cells obsługuje wiele wersji, więc upewnij się, że Twoja jest aktualna. 
+4. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# będzie pomocna podczas pisania kodu w tym przewodniku.
+5.  Dokumentacja referencyjna: Zapoznaj się z[Dokumentacja Aspose.Cells dla .NET](https://reference.aspose.com/cells/net/) aby uzyskać dodatkowe informacje na temat zastosowanych metod i klas.
+
+## Importuj pakiety
+
+Pierwszym krokiem w naszej podróży jest zaimportowanie niezbędnych pakietów do naszego projektu C#. Aspose.Cells działa poprzez zestaw klas, które musimy uwzględnić:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Krok 3: Tworzenie skoroszytu programu Excel
+Teraz, gdy zaimportowaliśmy wymagane pakiety, przeanalizujmy kroki tworzenia skoroszytu programu Excel i ochrony konkretnego wiersza. 
 
-W tym kroku utworzymy nowy skoroszyt programu Excel. Użyj poniższego kodu, aby utworzyć skoroszyt programu Excel:
+## Krok 1: Zdefiniuj katalog
 
-```csharp
-// Ścieżka do katalogu dokumentów.
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-
-// Utwórz nowy skoroszyt.
-Workbook wb = new Workbook();
-```
-
- Pamiętaj o wymianie`"YOUR_DOCUMENTS_DIR"` z odpowiednią ścieżką do katalogu dokumentów.
-
-## Krok 4: Tworzenie arkusza kalkulacyjnego
-
-Teraz, gdy utworzyliśmy skoroszyt programu Excel, utwórzmy arkusz i zdobądźmy pierwszy arkusz. Użyj następującego kodu:
+tym kroku określimy lokalizację, w której zostanie zapisany nasz plik Excel. Ważne jest, aby upewnić się, że ten katalog istnieje, w przeciwnym razie utworzymy go programowo, jeśli będzie to konieczne.
 
 ```csharp
-// Utwórz obiekt arkusza kalkulacyjnego i uzyskaj pierwszy arkusz.
-Worksheet sheet = wb.Worksheets[0];
-```
-
-## Krok 5: Definiowanie stylu
-
-W tym kroku zdefiniujemy styl, który zostanie zastosowany do wierszy arkusza kalkulacyjnego. Użyj następującego kodu:
-
-```csharp
-// Definicja obiektu stylu.
-Styling styling;
-```
-
-## Krok 6: Pętla odblokowująca wszystkie kolumny
-
-Teraz przejdziemy przez wszystkie kolumny w arkuszu i odblokujemy je. Użyj następującego kodu:
-
-```csharp
-// Przejdź przez wszystkie kolumny w arkuszu i odblokuj je.
-for (int i = 0; i <= 255; i++)
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp ścieżką swojego dokumentu
+bool IsExists = Directory.Exists(dataDir);
+if (!IsExists)
 {
-     style = sheet.Cells.Columns[(byte)i].Style;
-     style. IsLocked = false;
-     sheet.Cells.Columns[(byte)i].ApplyStyle(style);
+    Directory.CreateDirectory(dataDir);
 }
 ```
+ W tym kodzie zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, pod którą chcesz zapisać plik Excela.
 
-## Krok 7: Blokowanie pierwszej linii
+## Krok 2: Utwórz nowy skoroszyt
 
-W tym kroku zablokujemy pierwszy wiersz arkusza. Użyj następującego kodu:
-
-```csharp
-// Zdobądź styl pierwszej linii.
-style = sheet.Cells.Rows[0].Style;
-// Zablokuj styl.
-style. IsLocked = true;
-// Zastosuj styl do pierwszej linii.
-sheet.Cells.ApplyRowStyle(0, style);
-```
-
-## Krok 8: Ochrona arkusza
-
-Teraz, gdy ustawiliśmy style i zablokowaliśmy wiersze, chrońmy arkusz kalkulacyjny. Użyj następującego kodu:
+Następnie utworzymy nowy skoroszyt, w którym będą wykonywane wszelkie manipulacje. To fundamentalny krok, taki jak położenie fundamentu przed zbudowaniem wymarzonego domu.
 
 ```csharp
-// Chroń arkusz.
-sheet.Protect(ProtectionType.All);
-```
-
-## Krok 9: Zapisywanie pliku Excel
-
-Na koniec zapiszemy zmodyfikowany plik Excel. Użyj następującego kodu:
-
-```csharp
-// Zapisz plik Excela.
-wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
-```
-
-Upewnij się, że podałeś poprawną ścieżkę do zapisania zmodyfikowanego pliku Excel.
-
-### Przykładowy kod źródłowy narzędzia Protect Row In Excel przy użyciu Aspose.Cells dla .NET 
-```csharp
-//Ścieżka do katalogu dokumentów.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Utwórz katalog, jeśli jeszcze nie istnieje.
-bool IsExists = System.IO.Directory.Exists(dataDir);
-if (!IsExists)
-    System.IO.Directory.CreateDirectory(dataDir);
-// Utwórz nowy skoroszyt.
 Workbook wb = new Workbook();
-// Utwórz obiekt arkusza i uzyskaj pierwszy arkusz.
-Worksheet sheet = wb.Worksheets[0];
-// Zdefiniuj obiekt stylu.
+```
+ Ta linia inicjuje nową instancję`Workbook` klasie, tworząc dla nas nowy arkusz ćwiczeń.
+
+## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
+
+Mając już utworzony skoroszyt, możemy zająć się pierwszym arkuszem. Pamiętaj, że plik Excela może zawierać wiele arkuszy, więc wybór właściwego jest kluczowy.
+
+```csharp
+Worksheet sheet = wb.Worksheets[0]; // Dostęp do pierwszego arkusza
+```
+
+## Krok 4: Odblokuj wszystkie kolumny
+
+Przed zablokowaniem konkretnego wiersza, dobrą praktyką jest odblokowanie wszystkich kolumn na początku. Pozwala nam to kontrolować, które dane pozostają edytowalne później.
+
+```csharp
 Style style;
-// Zdefiniuj obiekt styleflag.
 StyleFlag flag;
-// Przejdź przez wszystkie kolumny w arkuszu i odblokuj je.
+
+// Przejdź przez wszystkie kolumny i odblokuj je
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -125,44 +80,57 @@ for (int i = 0; i <= 255; i++)
     flag.Locked = true;
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
 }
-// Zdobądź styl pierwszego rzędu.
-style = sheet.Cells.Rows[0].Style;
-// Zablokuj to.
-style.IsLocked = true;
-//Utwórz instancję flagi.
+```
+Pętla ta przechodzi przez pierwsze 256 kolumn, odblokowując każdą z nich, aby zapewnić domyślne uprawnienia do edycji.
+
+## Krok 5: Zablokowanie określonego wiersza
+
+Teraz będziemy blokować pierwszy wiersz naszego arkusza kalkulacyjnego. Ten krok zapewnia, że użytkownicy nie będą mogli wprowadzać nieautoryzowanych zmian w krytycznych danych zawartych w tym wierszu.
+
+```csharp
+style = sheet.Cells.Rows[0].Style; // Uzyskaj styl pierwszego rzędu
+style.IsLocked = true; // Zablokuj rząd
 flag = new StyleFlag();
-// Ustaw ustawienie blokady.
-flag.Locked = true;
-// Zastosuj styl do pierwszego wiersza.
-sheet.Cells.ApplyRowStyle(0, style, flag);
-// Chroń prześcieradło.
-sheet.Protect(ProtectionType.All);
-// Zapisz plik Excela.
+flag.Locked = true; // Ustaw flagę blokady
+sheet.Cells.ApplyRowStyle(0, style, flag); // Zastosuj styl do pierwszego wiersza
+```
+Tutaj pobieramy styl dla pierwszego wiersza, oznaczamy go jako zablokowany i stosujemy styl blokowania. Jest to analogiczne do zakładania blokady na ważną szufladę — niezbędne do zabezpieczenia poufnych informacji!
+
+## Krok 6: Ochrona arkusza
+
+ Mając nasz wiersz zablokowany, zróbmy ten dodatkowy krok i w pełni zabezpieczmy arkusz kalkulacyjny. Wymusi to blokadę we wszystkich funkcjonalnościach zdefiniowanych w`ProtectionType`.
+
+```csharp
+sheet.Protect(ProtectionType.All); // Chroń arkusz za pomocą wszystkich funkcji
+```
+Po zastosowaniu tej ochrony użytkownicy nie mogą edytować zablokowanego wiersza ani wprowadzać żadnych zmian, które mogłyby wpłynąć na zablokowane obszary.
+
+## Krok 7: Zapisywanie skoroszytu
+
+Ostatni krok obejmuje zapisanie skoroszytu. To tutaj cała nasza ciężka praca się opłaca i możemy zobaczyć, jak nasz piękny, chroniony arkusz kalkulacyjny ożywa!
+
+```csharp
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
+Upewnij się, że nazwa i format zapisanego pliku odpowiadają Twoim wymaganiom. W tym przypadku zapisujemy go w starszym formacie Excel (Excel 97-2003).
 
 ## Wniosek
 
-Gratulacje! Masz teraz kod źródłowy C#, który pozwala chronić wiersze w arkuszu kalkulacyjnym Excel przy użyciu biblioteki Aspose.Cells dla .NET. Postępuj dokładnie zgodnie z instrukcjami i dostosuj kod do swoich konkretnych potrzeb.
+I masz to! Udało Ci się skutecznie nauczyć, jak chronić konkretny wiersz w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu nie tylko utworzyłeś skoroszyt, ale także zabezpieczyłeś poufne informacje, zapewniając, że Twoje pliki programu Excel pozostaną nienaruszone i wiarygodne. Niezależnie od tego, czy jest to raport finansowy, arkusz obecności czy plan projektu współpracy, ochrona kluczowych danych jest niezbędna. 
 
-### Często zadawane pytania (często zadawane pytania)
+## Najczęściej zadawane pytania
 
-#### Czy ten kod działa z najnowszymi wersjami programu Excel?
+### Czym jest Aspose.Cells?
+Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca użytkownikom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 
-Tak, ten kod działa z najnowszymi wersjami programu Excel, w tym z plikami w formacie Excel 2010 i nowszym.
+### Czy mogę chronić wiele wierszy jednocześnie za pomocą Aspose.Cells?
+Tak, możesz rozszerzyć technikę blokowania, powtarzając wiele wierszy i stosując podobne zmiany stylu w każdym z nich.
 
-#### Czy mogę chronić tylko określone wiersze zamiast wszystkich wierszy w arkuszu?
+### Czy istnieje sposób na odblokowanie rzędów po zabezpieczeniu?
+ Tak, możesz najpierw usunąć ochronę arkusza, a następnie dostosować`IsLocked` właściwość żądanych wierszy, a następnie ponowne zastosowanie ochrony.
 
-Tak, możesz zmodyfikować kod, aby określić konkretne wiersze, które chcesz chronić. Będziesz musiał odpowiednio dostosować pętlę i indeksy.
+### Czy Aspose.Cells obsługuje inne formaty oprócz Excela?
+Oczywiście! Aspose.Cells może konwertować i zapisywać skoroszyty do różnych formatów, w tym CSV, PDF i HTML.
 
-#### Jak mogę ponownie odblokować zablokowane linie?
-
- Możesz skorzystać z`IsLocked` metoda`Style` obiekt, dla którego chcesz ustawić wartość`false` i odblokuj rzędy.
-
-#### Czy można chronić wiele arkuszy w tym samym skoroszycie programu Excel?
-
-Tak, możesz powtórzyć kroki tworzenia arkusza, ustawiania stylu i ochrony każdego arkusza w skoroszycie.
-
-#### Jak mogę zmienić hasło zabezpieczające arkusz kalkulacyjny?
-
- Hasło możesz zmienić za pomocą przycisku`Protect` metodę i podanie nowego hasła jako argumentu.
+### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
+ Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania pomocy i wskazówek od społeczności.

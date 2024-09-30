@@ -32,7 +32,7 @@ url: /zh-hant/java/excel-data-analysis/data-analysis-excel-charts/
 
 3. 匯入 Aspose.Cells 類別：在 Java 檔案的開頭匯入必要的 Aspose.Cells 類別。
 
-## 載入資料中
+## 載入數據
 
 資料分析的第一步是將資料載入到 Java 應用程式中。 Aspose.Cells for Java 提供了多種方法來執行此操作：
 
@@ -102,7 +102,7 @@ workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 
 是的，您可以將 Aspose.Cells for Java 與其他 Java 程式庫集成，以進一步增強您的資料分析能力。有關相容性和整合的詳細信息，請參閱文件。
 
-### 使用 Aspose.Cells for Java 是否有任何授權要求？
+### 使用 Aspose.Cells for Java 有任何授權要求嗎？
 
 是的，Aspose.Cells for Java 需要有效的商業用途授權。您可以從 Aspose 網站取得許可證。
 

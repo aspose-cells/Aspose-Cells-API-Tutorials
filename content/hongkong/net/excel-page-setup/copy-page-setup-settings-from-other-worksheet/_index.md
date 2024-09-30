@@ -2,104 +2,151 @@
 title: 從其他工作表複製頁面設定設置
 linktitle: 從其他工作表複製頁面設定設置
 second_title: Aspose.Cells for .NET API 參考
-description: 了解如何使用 Aspose.Cells for .NET 將頁面配置設定從一個電子表格複製到另一個電子表格。優化該庫的使用的分步指南。
+description: 透過此逐步指南，學習使用 Aspose.Cells for .NET 在工作表之間複製頁面設定設置，非常適合增強電子表格管理。
 type: docs
 weight: 10
 url: /zh-hant/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 ---
-在本文中，我們將帶您逐步解釋以下 C# 原始程式碼：使用 Aspose.Cells for .NET 從另一個電子表格複製頁面配置設定。我們將使用 .NET 的 Aspose.Cells 函式庫來執行此操作。如果您要將頁面設定設定從一個工作表複製到另一個工作表，請依照下列步驟操作。
+## 介紹
+
+您是否曾經遇到過需要將頁面設定從一個工作表複製到另一個工作表的情況？無論您是處理財務報告還是專案時間表，簡報的一致性都是關鍵。使用 Aspose.Cells for .NET，您可以輕鬆地在工作表之間複製頁面設定。本指南將逐步引導您完成整個過程，即使您剛開始使用 .NET 或 Aspose.Cells，也能使其變得簡單明了。準備好潛入了嗎？讓我們開始吧！
+
+## 先決條件
+
+在我們開始編寫程式碼之前，您需要準備好一些基本專案：
+
+1. .NET 開發環境：確保設定了 .NET 相容環境，例如 Visual Studio 或您選擇的任何其他 IDE。
+2.  Aspose.Cells 庫：您將需要 Aspose.Cells 庫。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
+3. C# 的基本了解：了解 C# 的基礎知識肯定會幫助您更好地掌握概念。
+4.  Aspose.Cells 文件：熟悉[文件](https://reference.aspose.com/cells/net/)對於您以後可能會發現有用的任何高級配置或附加功能。
+
+現在我們已經解決了先決條件，讓我們導入所需的套件！
+
+## 導入包
+
+要開始在專案中使用 Aspose.Cells，您需要在程式碼中匯入以下套件：
+
+```csharp
+using System.IO;
+using Aspose.Cells;
+using System;
+```
+
+這一行可讓您存取 Aspose.Cells 庫的所有強大元件。
+
+讓我們將整個過程分解為可管理的步驟，以確保您完全理解每個部分。我們將建立一個工作簿，新增兩個工作表，修改其中一個工作表的頁面設置，然後將這些設定複製到另一個工作表。
 
 ## 第 1 步：建立工作簿
-第一步是建立工作簿。在我們的範例中，我們將使用 Aspose.Cells 函式庫提供的 Workbook 類別。以下是建立工作簿的程式碼：
+
+建立您的工作簿：
+首先，您需要建立一個實例`Workbook`班級。這本質上是您的起點。 
 
 ```csharp
 Workbook wb = new Workbook();
 ```
 
-## 第 2 步：新增測試工作表
-建立工作簿後，我們需要新增測試工作表。在此範例中，我們將新增兩個工作表。以下是新增兩個工作表的程式碼：
+此行初始化將在其中儲存工作表的工作簿。
+
+## 第 2 步：新增工作表
+
+將工作表新增至您的工作簿：
+現在您已經有了工作簿，是時候添加一些工作表了。
 
 ```csharp
 wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
+
+在這裡，我們新增了兩個名為「TestSheet1」和「TestSheet2」的工作表。這就像在工作簿中建立兩個不同的頁面，您可以在其中獨立管理內容。
 
 ## 第 3 步：訪問工作表
-現在我們已經添加了工作表，我們需要訪問它們才能更改其設定。我們將使用「TestSheet1」和「TestSheet2」工作表的名稱來存取它們。這是存取它的程式碼：
+
+造訪您的工作表：
+接下來，您需要造訪新建立的工作表以進行修改。
 
 ```csharp
-Worksheet TestSheet1 = wb. Worksheets["TestSheet1"];
-Worksheet TestSheet2 = wb. Worksheets["TestSheet2"];
-```
-
-## 步驟 4：設定紙張尺寸
-在此步驟中，我們將設定「TestSheet1」工作表的紙張大小。我們將使用`PageSetup.PaperSize`屬性來設定紙張尺寸。例如，我們將紙張尺寸設定為「PaperA3ExtraTransverse」。這是代碼：
-
-```csharp
-TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
-```
-
-## 步驟 5：複製頁面設置
-現在我們將頁面配置設定從「TestSheet1」工作表複製到「TestSheet2」。我們將使用`PageSetup.Copy`方法來執行此操作。這是代碼：
-
-```csharp
-TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
-```
-
-## 步驟 6：列印紙張尺寸
-複製頁面設定設定後，我們將列印兩個工作表的紙張尺寸。我們將使用`Console.WriteLine`顯示紙張尺寸。這是代碼：
-
-```csharp
-Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
-Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
-```
-
-### 使用 Aspose.Cells for .NET 從其他工作表複製頁面設定設定的範例原始程式碼 
-```csharp
-//建立工作簿
-Workbook wb = new Workbook();
-//新增兩個測試工作表
-wb.Worksheets.Add("TestSheet1");
-wb.Worksheets.Add("TestSheet2");
-//存取兩個工作表作為 TestSheet1 和 TestSheet2
 Worksheet TestSheet1 = wb.Worksheets["TestSheet1"];
 Worksheet TestSheet2 = wb.Worksheets["TestSheet2"];
-//將 TestSheet1 的紙張尺寸設定為 PaperA3ExtraTransverse
+```
+
+現在您已經引用了兩個工作表，因此您可以輕鬆調整它們的屬性。
+
+## 步驟 4：設定 TestSheet1 的紙張尺寸
+
+修改頁面設定：
+我們將“TestSheet1”的紙張尺寸設定為`PaperA3ExtraTransverse`.
+
+```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
-//列印兩張工作紙的紙張尺寸
+```
+
+如果您的文件適用於特定的列印佈局，則此步驟至關重要。這就像為您的藝術品選擇畫布尺寸一樣。
+
+## 步驟 5：列印目前紙張尺寸
+
+檢查目前紙張尺寸：
+現在，讓我們看看影印作業之前目前的紙張尺寸是多少。
+
+```csharp
 Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
-Console.WriteLine();
-//將 PageSetup 從 TestSheet1 複製到 TestSheet2
+```
+
+這會將兩個工作表的目前頁面設定輸出到控制台。在進行更改之前驗證一下您擁有的內容總是好的，對吧？
+
+## 步驟 6：將頁面設定從 TestSheet1 複製到 TestSheet2
+
+複製頁面設定設定：
+令人興奮的部分來了！您可以將所有頁面設定從“TestSheet1”複製到“TestSheet2”。
+
+```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
-//列印兩張工作紙的紙張尺寸
+```
+
+這行程式碼本質上採用「TestSheet1」的所有格式並將其應用於「TestSheet2」。這就像拍攝一頁的快照並將其貼到另一頁上！
+
+## 步驟 7：列印更新的紙張尺寸
+
+再次檢查紙張尺寸：
+最後，我們確認設定已成功複製。
+
+```csharp
 Console.WriteLine("After Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("After Paper Size: " + TestSheet2.PageSetup.PaperSize);
 Console.WriteLine();
 Console.WriteLine("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet executed successfully.\r\n");
 ```
 
+複製操作後，您應該會看到兩個工作表的頁面大小相符。就是這樣！設定已無縫傳輸。
+
+## 第 8 步：儲存您的工作簿
+
+儲存您的變更：
+完成所有這些艱苦的工作後，不要忘記保存您的工作簿！
+
+```csharp
+wb.Save("CopiedPageSetupExample.xlsx");
+```
+
+保存工作簿對於確保所有變更保留至關重要。想像一下，此步驟是在完成文件後點擊「儲存」——對於不丟失任何進度至關重要！
+
 ## 結論
-在本文中，我們學習如何使用 Aspose.Cells for .NET 將頁面配置設定從一個工作表複製到另一個工作表。我們完成了以下步驟：建立工作簿、新增測試工作表、存取工作表、設定紙張尺寸、複製頁面設定設定和列印紙張尺寸。現在您可以使用這些知識將頁面配置設定複製到您自己的專案中。
 
-### 常見問題解答
+使用 Aspose.Cells for .NET 讓管理工作表變得輕而易舉。您可以輕鬆地將頁面設定從一個工作表複製到另一個工作表，從而幫助您保持整個文件的一致性。透過本指南中概述的詳細步驟，您可以自信地操作工作簿的頁面設定並節省格式設定時間。 
 
-#### Q：我可以在不同的工作簿實例之間複製頁面配置設定嗎？
+## 常見問題解答
 
-答：是的，您可以使用以下命令在不同工作簿實例之間複製頁面設定設定`PageSetup.Copy`Aspose.Cells 函式庫的方法。
+### 什麼是 Aspose.Cells？  
+Aspose.Cells 是一個功能強大的函式庫，用於在 .NET 應用程式中處理電子表格。
 
-#### Q：我可以複製其他頁面設置，例如方向或邊距嗎？
+### 我可以將 Aspose.Cells 與其他程式語言一起使用嗎？  
+Aspose.Cells 主要支援 .NET 語言，但也有其他適用於不同語言的 Aspose 函式庫。
 
-答：是的，您可以使用複製其他頁面設定設置`PageSetup.Copy`方法與適當的選項。例如，您可以使用複製方向`CopyOptions.Orientation`和邊距使用`CopyOptions.Margins`.
+### Aspose.Cells 是否有免費試用版？  
+是的，您可以下載一個[免費試用](https://releases.aspose.com/) Aspose.Cells 的。
 
-#### Q：我如何知道紙張尺寸有哪些可用選項？
+### 我如何獲得 Aspose.Cells 的支援？  
+您可以透過以下方式獲得支持[Aspose論壇](https://forum.aspose.com/c/cells/9).
 
-答：您可以查看 Aspose.Cells 庫 API 參考以取得可用的紙張尺寸選項。有一個列舉叫做`PaperSizeType`其中列出了支援的不同紙張尺寸。
-
-#### Q：如何下載 .NET 的 Aspose.Cells 函式庫？
-
-答：您可以從以下位置下載 .NET 的 Aspose.Cells 函式庫：[Aspose 發布](https://releases.aspose.com/cells/net)。有免費試用版以及商業用途的付費許可證。
-
-#### Q：Aspose.Cells 函式庫支援其他程式語言嗎？
-
-答：是的，Aspose.Cells 函式庫支援多種程式語言，包括 C#、Java、Python 等。
+### 我可以獲得 Aspose.Cells 的臨時許可證嗎？  
+絕對地！您可以請求[臨時執照](https://purchase.aspose.com/temporary-license/)來評估產品。

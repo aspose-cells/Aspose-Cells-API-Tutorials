@@ -1,139 +1,158 @@
 ---
-title: Cho phép dấu nháy đơn hàng đầu
-linktitle: Cho phép dấu nháy đơn hàng đầu
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Cho phép dấu nháy đơn đứng đầu trong sổ làm việc Excel với Aspose.Cells for .NET.
+title: Cho phép dấu nháy đơn đứng đầu
+linktitle: Cho phép dấu nháy đơn đứng đầu
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Quản lý dấu nháy đơn đầu tiên trong Excel một cách dễ dàng với Aspose.Cells cho .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước trong suốt quá trình.
 type: docs
 weight: 60
 url: /vi/net/excel-workbook/allow-leading-apostrophe/
 ---
-Trong hướng dẫn từng bước này, chúng tôi sẽ giải thích mã nguồn C# được cung cấp, mã này sẽ cho phép bạn cho phép sử dụng dấu nháy đơn ở đầu trong sổ làm việc Excel bằng Aspose.Cells cho .NET. Thực hiện theo các bước dưới đây để thực hiện thao tác này.
+## Giới thiệu
 
-## Bước 1: Đặt thư mục nguồn và đầu ra
+Chào mừng bạn đến với hướng dẫn từng bước này về cách sử dụng Aspose.Cells cho .NET để quản lý bảng tính một cách liền mạch, đặc biệt tập trung vào việc xử lý dấu nháy đơn đầu trong các giá trị ô. Khả năng quản lý dữ liệu hiệu quả là rất quan trọng trong thế giới tập trung vào dữ liệu ngày nay. Bạn đã bao giờ nhận thấy Excel đôi khi có thể xử lý các giá trị văn bản bắt đầu bằng dấu nháy đơn khác nhau chưa? Điều này có thể dẫn đến kết quả không mong muốn nếu bạn đang tự động hóa các tác vụ Excel bằng mã .NET. Đừng lo lắng! Hướng dẫn này sẽ giúp bạn điều hướng qua điều đó. 
 
-```csharp
-// thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+## Điều kiện tiên quyết
 
-Trong bước đầu tiên này, chúng tôi xác định thư mục nguồn và đầu ra cho các tệp Excel.
+Trước khi tìm hiểu sâu hơn về mã, đây là một số điều kiện tiên quyết bạn cần đáp ứng:
 
-## Bước 2: Khởi tạo đối tượng WorkbookDesigner
+1. Kiến thức cơ bản về .NET: Sự quen thuộc với .NET framework là điều cần thiết. Nếu bạn đã từng làm việc với C# hoặc VB.NET, hãy coi như bạn đã sẵn sàng.
+2. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể dễ dàng thực hiện việc này thông qua trình quản lý gói NuGet hoặc tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+3. Thiết lập IDE: Đảm bảo bạn có Môi trường phát triển tích hợp (IDE) như Visual Studio để sẵn sàng cho việc mã hóa.
+4. Tệp Excel mẫu: Bạn có thể sử dụng tệp mẫu ("AllowLeadingApostropheSample.xlsx") mà chúng ta sẽ làm việc trong mã.
 
-```csharp
-// Khởi tạo đối tượng WorkbookDesigner
-WorkbookDesigner designer = new WorkbookDesigner();
-```
+Bây giờ bạn đã kiểm tra các điều kiện tiên quyết, hãy nhập các gói cần thiết và thiết lập dự án của mình.
 
- Chúng tôi tạo một thể hiện của`WorkbookDesigner` lớp từ Aspose.Cells.
+## Nhập gói
 
-## Bước 3: Tải sổ làm việc Excel
+Để bắt đầu, bạn sẽ cần nhập một số gói thiết yếu. Sau đây là cách bạn có thể thực hiện:
 
 ```csharp
-// Tải sổ làm việc Excel
-Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
-designer.Workbook = workbook;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.Collections.Generic;
 ```
 
-Chúng tôi tải sổ làm việc Excel từ tệp đã chỉ định và tắt tính năng tự động chuyển đổi dấu nháy đơn ban đầu thành kiểu văn bản.
+Đảm bảo bạn đã thêm tham chiếu đến Aspose.Cells vào dự án của mình. Nếu bạn đang sử dụng Visual Studio, bạn có thể thực hiện việc này bằng cách tìm kiếm "Aspose.Cells" trong NuGet Package Manager.
 
-## Bước 4: Đặt nguồn dữ liệu
+Chúng tôi sẽ chia nhỏ nhiệm vụ thành các bước dễ quản lý để đảm bảo rõ ràng.
 
-```csharp
-// Xác định nguồn dữ liệu cho sổ làm việc của nhà thiết kế
-List<DataObject> list = new List<DataObject>
-{
-new DataObject
-{
-Id=1,
-Name = "demo"
-},
-new DataObject
-{
-ID=2,
-Name = "'demo"
-}
-};
-designer.SetDataSource("sampleData", list);
-```
+## Bước 1: Thiết lập thư mục nguồn và đầu ra
 
- Chúng tôi xác định danh sách các đối tượng dữ liệu và sử dụng`SetDataSource` phương pháp đặt nguồn dữ liệu cho sổ làm việc của nhà thiết kế.
+Ở bước này, chúng ta cần xác định vị trí lưu trữ các tập tin đầu vào và đầu ra.
 
-## Bước 5: Xử lý điểm đánh dấu thông minh
-
-```csharp
-// Xử lý điểm đánh dấu thông minh
-designer. Process();
-```
-
- Chúng tôi sử dụng`Process` phương pháp xử lý điểm đánh dấu thông minh trong sổ làm việc của nhà thiết kế.
-
-## Bước 6: Lưu sổ làm việc Excel đã sửa đổi
-
-```csharp
-// Lưu sổ làm việc Excel đã sửa đổi
-designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
-```
-
-Chúng tôi lưu sổ làm việc Excel đã sửa đổi với những thay đổi được thực hiện.
-
-### Mã nguồn mẫu cho Cho phép dấu nháy đơn hàng đầu bằng Aspose.Cells for .NET 
 ```csharp
 //Thư mục nguồn
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+
+ Ở đây, chúng tôi đang sử dụng các phương pháp tiện ích`Get_SourceDirectory()` Và`Get_OutputDirectory()` để thiết lập đường dẫn tệp của chúng tôi một cách thuận tiện. Bạn có thể tùy chỉnh các đường dẫn này theo cấu trúc thư mục của mình.
+
+## Bước 2: Tạo đối tượng Workbook Designer
+
+Bây giờ, chúng ta sẽ khởi tạo WorkbookDesigner, thành phần rất quan trọng để làm việc với các điểm đánh dấu thông minh trong Aspose.Cells.
+
+```csharp
 // Khởi tạo đối tượng WorkbookDesigner
 WorkbookDesigner designer = new WorkbookDesigner();
+```
+
+ Các`WorkbookDesigner` quản lý thiết kế và liên kết dữ liệu của bảng tính, giúp chúng ta dễ dàng hơn khi chuyển đổi dữ liệu sang định dạng trực quan.
+
+## Bước 3: Tải Workbook hiện có
+
+Tiếp theo, chúng ta sẽ tải bảng tính hiện có chứa các điểm đánh dấu thông minh của mình.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
+```
+
+Tệp Excel mẫu ở đây cần chứa các điểm đánh dấu thông minh để tính năng này hữu ích. Theo cách này, chúng ta có thể thay thế các điểm đánh dấu bằng dữ liệu tùy chỉnh của mình.
+
+## Bước 4: Cấu hình Cài đặt Sổ làm việc
+
+Bây giờ, bạn sẽ muốn đảm bảo rằng cài đặt sổ làm việc được cấu hình để xử lý dấu nháy đơn ở đầu một cách thích hợp.
+
+```csharp
 workbook.Settings.QuotePrefixToStyle = false;
-// Mở bảng tính thiết kế có chứa các điểm đánh dấu thông minh
-designer.Workbook = workbook;
+```
+
+ Bằng cách thiết lập`QuotePrefixToStyle`thành sai, chúng ta đang hướng dẫn Aspose.Cells xử lý các dấu nháy đơn đứng đầu như các ký tự thông thường, cho phép chúng ta xử lý chúng một cách chính xác trong đầu ra.
+
+## Bước 5: Tải dữ liệu cho Smart Markers
+
+Đã đến lúc tạo nguồn dữ liệu của chúng ta, nguồn dữ liệu này sẽ thay thế các dấu hiệu thông minh trong mẫu Excel.
+
+```csharp
 List<DataObject> list = new List<DataObject>
 {
-	new DataObject
-	{
-		 Id =1,
-		 Name = "demo"
-	},
-	new DataObject
-	{
-		Id=2,
-		Name = "'demo"
-	}
+    new DataObject { Id = 1, Name = "demo" },
+    new DataObject { Id = 2, Name = "'demo" }
 };
-// Đặt nguồn dữ liệu cho bảng tính thiết kế
+```
+
+ Chúng tôi đang tạo một danh sách`DataObject`, trong đó một trong các tên cố ý bao gồm dấu nháy đơn ở đầu. Điều này sẽ giúp minh họa cách Aspose.Cells xử lý các tình huống như vậy.
+
+## Bước 6: Liên kết Nguồn dữ liệu với Nhà thiết kế
+
+Bây giờ, chúng ta sẽ liên kết nguồn dữ liệu với trình thiết kế bảng tính.
+
+```csharp
 designer.SetDataSource("sampleData", list);
-// Xử lý các điểm đánh dấu thông minh
+```
+
+Đảm bảo rằng "sampleData" khớp với các điểm đánh dấu thông minh trong tệp Excel của bạn. Theo cách này, Aspose.Cells biết nơi chèn dữ liệu.
+
+## Bước 7: Xử lý các điểm đánh dấu thông minh
+
+Chúng ta hãy tiến hành xử lý các điểm đánh dấu thông minh bằng dữ liệu đã cung cấp.
+
+```csharp
 designer.Process();
+```
+
+Dòng này chính là nơi phép thuật xảy ra; Aspose.Cells sẽ lấy dữ liệu của bạn và điền vào các dấu hiệu thông minh được chỉ định trong sổ làm việc Excel.
+
+## Bước 8: Lưu sổ làm việc đã xử lý
+
+Cuối cùng, chúng ta lưu bảng tính đã cập nhật vào một tệp mới.
+
+```csharp
 designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
+```
+
+Thao tác này sẽ lưu bảng tính Excel đã chỉnh sửa của chúng ta với tên mới, đảm bảo chúng ta không ghi đè lên tệp gốc.
+
+## Bước 9: Xác nhận thực hiện thành công
+
+Bước cuối cùng của chúng tôi là thông báo cho người dùng biết thao tác đã thành công.
+
+```csharp
 Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 ```
 
+Đầu ra giao diện điều khiển đơn giản này có thể giúp bạn yên tâm rằng tất cả các bước đã được thực hiện mà không có bất kỳ trục trặc nào.
+
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã học cách cho phép sử dụng dấu nháy đơn ở đầu trong sổ làm việc Excel bằng Aspose.Cells for .NET. Thử nghiệm với dữ liệu của riêng bạn để tùy chỉnh thêm sổ làm việc Excel của bạn.
+Trong hướng dẫn này, chúng tôi đã điều hướng qua những phức tạp của việc xử lý dấu nháy đơn đầu tiên trong Excel bằng Aspose.Cells cho .NET. Từ việc thiết lập môi trường của bạn đến việc thao tác các tệp Excel một cách hiệu quả, bạn đã học cách loại bỏ những cạm bẫy tiềm ẩn thường gặp khi làm việc với chuỗi số và định dạng tự động.
 
-### Câu hỏi thường gặp
+Bây giờ, cho dù bạn đang tạo báo cáo, tạo chức năng phân tích dữ liệu hay quản lý nhập và xuất dữ liệu, bạn đều có các công cụ để xử lý các tình huống đó một cách tự tin!
 
-#### Hỏi: Quyền dấu nháy đơn đứng đầu trong sổ làm việc Excel là gì?
+## Câu hỏi thường gặp
 
-Trả lời: Việc cho phép dấu nháy đơn đầu tiên trong sổ làm việc Excel sẽ cho phép dữ liệu bắt đầu bằng dấu nháy đơn được hiển thị chính xác mà không cần chuyển đổi nó thành kiểu văn bản. Điều này rất hữu ích khi bạn muốn giữ dấu nháy đơn như một phần của dữ liệu.
+### Aspose.Cells là gì?
+Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel theo nhiều định dạng theo cách lập trình.
 
-#### Hỏi: Tại sao tôi cần tắt chức năng tự động chuyển đổi dấu nháy đơn đầu tiên?
+### Tôi có thể sử dụng Aspose.Cells miễn phí không?
+ Có, bạn có thể sử dụng Aspose.Cells bằng cách đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
 
-Đáp: Bằng cách tắt tính năng tự động chuyển đổi các dấu ngoặc kép ở đầu, bạn có thể duy trì việc sử dụng chúng như trong dữ liệu của mình. Điều này tránh mọi sửa đổi ngoài ý muốn của dữ liệu trong khi mở hoặc thao tác với sổ làm việc Excel.
+### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
+ Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 
-#### Câu hỏi: Làm cách nào để đặt nguồn dữ liệu trong sổ làm việc của nhà thiết kế?
+### Aspose.Cells hỗ trợ những loại tệp nào?
+Aspose.Cells hỗ trợ nhiều định dạng khác nhau, chẳng hạn như XLS, XLSX, CSV và nhiều định dạng khác.
 
- Đáp: Để đặt nguồn dữ liệu trong sổ làm việc của nhà thiết kế, bạn có thể sử dụng`SetDataSource` phương thức chỉ định tên của nguồn dữ liệu và danh sách các đối tượng dữ liệu tương ứng.
-
-#### Hỏi: Việc cho phép dấu nháy đơn đứng đầu có ảnh hưởng đến dữ liệu khác trong sổ làm việc Excel không?
-
-Đáp: Không, việc cho phép dấu nháy đơn ở đầu chỉ ảnh hưởng đến dữ liệu bắt đầu bằng dấu nháy đơn. Các dữ liệu khác trong sổ làm việc Excel không thay đổi.
-
-#### Hỏi: Tôi có thể sử dụng tính năng này với các định dạng tệp Excel khác không?
-
-Trả lời: Có, bạn có thể sử dụng tính năng này với các định dạng tệp Excel khác được Aspose.Cells hỗ trợ, chẳng hạn như .xls, .xlsm, v.v.
+### Làm thế nào để mua giấy phép sử dụng Aspose.Cells?
+ Bạn có thể mua giấy phép cho Aspose.Cells trực tiếp từ trang mua hàng của họ[đây](https://purchase.aspose.com/buy).

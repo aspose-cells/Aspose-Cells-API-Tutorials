@@ -1,122 +1,77 @@
 ---
-title: Lindungi Baris Di Lembar Kerja Excel
-linktitle: Lindungi Baris Di Lembar Kerja Excel
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Temukan dalam tutorial ini cara melindungi baris spreadsheet Excel menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah di C#.
+title: Lindungi Baris Dalam Lembar Kerja Excel
+linktitle: Lindungi Baris Dalam Lembar Kerja Excel
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Temukan dalam tutorial ini cara melindungi baris-baris lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah dalam C#.
 type: docs
 weight: 60
 url: /id/net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
-Dalam tutorial ini, kita akan melihat beberapa kode sumber C# yang menggunakan perpustakaan Aspose.Cells untuk melindungi baris dalam spreadsheet Excel. Kami akan memandu setiap langkah kode dan menjelaskan cara kerjanya. Ikuti instruksi dengan seksama untuk mendapatkan hasil yang diinginkan.
+## Perkenalan
 
-## Langkah 1: Prasyarat
+Saat bekerja dengan lembar Excel, sering kali perlu melindungi baris tertentu untuk menjaga integritas data. Baik Anda mengelola proyek tim, mengawasi laporan keuangan, atau berbagi dokumentasi, membatasi akses ke baris tertentu dapat mencegah perubahan yang tidak diinginkan. Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan Aspose.Cells for .NET untuk melindungi baris tertentu dalam lembar kerja Excel. Jadi, ambil topi pengodean Anda, dan mari selami dunia manipulasi Excel yang menarik dengan C#!
 
-Sebelum memulai, pastikan Anda telah menginstal perpustakaan Aspose.Cells untuk .NET. Anda bisa mendapatkannya dari situs resmi Aspose. Pastikan juga Anda memiliki versi terbaru Visual Studio atau lingkungan pengembangan C# lainnya.
+## Prasyarat
 
-## Langkah 2: Impor namespace yang diperlukan
+Sebelum kita mulai praktiknya, pastikan Anda sudah menyiapkan semuanya. Berikut ini beberapa prasyaratnya:
 
-Untuk menggunakan perpustakaan Aspose.Cells, kita perlu mengimpor namespace yang diperlukan ke dalam kode kita. Tambahkan baris berikut ke bagian atas file sumber C# Anda:
+1.  Aspose.Cells untuk .NET: Unduh pustaka dari[Situs web Aspose](https://releases.aspose.com/cells/net/)Pastikan Anda memiliki versi terbaru untuk semua fitur baru dan perbaikan bug.
+2. Visual Studio: Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio (Komunitas, Profesional, atau Perusahaan) akan membantu Anda mengompilasi dan menjalankan kode C# secara efektif.
+3. .NET Framework: Anda memerlukan versi .NET Framework yang kompatibel. Aspose.Cells mendukung beberapa versi, jadi pastikan versi Anda sudah yang terbaru. 
+4. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# akan bermanfaat saat kita menulis kode di seluruh panduan ini.
+5.  Dokumentasi Referensi: Biasakan diri Anda dengan[Dokumentasi Aspose.Cells untuk .NET](https://reference.aspose.com/cells/net/) untuk rincian tambahan tentang metode dan kelas yang digunakan.
+
+## Paket Impor
+
+Langkah pertama dalam perjalanan kita adalah mengimpor paket-paket yang diperlukan dalam proyek C# kita. Aspose.Cells beroperasi melalui serangkaian kelas yang perlu kita sertakan:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Langkah 3: Membuat buku kerja Excel
+Sekarang setelah kita mengimpor paket yang diperlukan, mari kita ikuti langkah-langkah untuk membuat buku kerja Excel dan melindungi baris tertentu. 
 
-Pada langkah ini, kita akan membuat buku kerja Excel baru. Gunakan kode berikut untuk membuat buku kerja Excel:
+## Langkah 1: Tentukan Direktori
 
-```csharp
-// Jalur ke direktori dokumen.
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-
-// Buat buku kerja baru.
-Workbook wb = new Workbook();
-```
-
- Pastikan untuk mengganti`"YOUR_DOCUMENTS_DIR"` dengan jalur yang sesuai ke direktori dokumen Anda.
-
-## Langkah 4: Membuat spreadsheet
-
-Sekarang kita telah membuat buku kerja Excel, mari buat lembar kerja dan dapatkan lembar pertama. Gunakan kode berikut:
+Pada langkah ini, kita akan menentukan lokasi penyimpanan berkas Excel. Penting untuk memastikan bahwa direktori ini ada, atau kita akan membuatnya secara terprogram jika diperlukan.
 
 ```csharp
-// Buat objek spreadsheet dan dapatkan lembar pertama.
-Worksheet sheet = wb.Worksheets[0];
-```
-
-## Langkah 5: Mendefinisikan Gaya
-
-Pada langkah ini, kita akan menentukan gaya yang akan diterapkan pada baris spreadsheet. Gunakan kode berikut:
-
-```csharp
-// Definisi objek gaya.
-Styling styling;
-```
-
-## Langkah 6: Ulangi untuk membuka kunci semua kolom
-
-Sekarang kita akan menelusuri semua kolom di lembar kerja dan membuka kuncinya. Gunakan kode berikut:
-
-```csharp
-// Ulangi semua kolom di lembar kerja dan buka kuncinya.
-for (int i = 0; i <= 255; i++)
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ganti dengan jalur dokumen Anda
+bool IsExists = Directory.Exists(dataDir);
+if (!IsExists)
 {
-     style = sheet.Cells.Columns[(byte)i].Style;
-     style. IsLocked = false;
-     sheet.Cells.Columns[(byte)i].ApplyStyle(style);
+    Directory.CreateDirectory(dataDir);
 }
 ```
+ Dalam kode ini, ganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas Excel Anda.
 
-## Langkah 7: Mengunci baris pertama
+## Langkah 2: Buat Buku Kerja Baru
 
-Pada langkah ini, kita akan mengunci baris pertama lembar kerja. Gunakan kode berikut:
-
-```csharp
-// Dapatkan gaya baris pertama.
-style = sheet.Cells.Rows[0].Style;
-// Kunci gayanya.
-style. IsLocked = true;
-// Terapkan gaya ke baris pertama.
-sheet.Cells.ApplyRowStyle(0, style);
-```
-
-## Langkah 8: Melindungi lembar kerja
-
-Sekarang kita telah mengatur gaya dan mengunci baris, mari lindungi spreadsheet. Gunakan kode berikut:
+Selanjutnya, kita akan membuat buku kerja baru tempat semua manipulasi akan dilakukan. Ini adalah langkah mendasar, seperti meletakkan fondasi sebelum membangun rumah impian Anda.
 
 ```csharp
-// Lindungi lembar kerja.
-sheet.Protect(ProtectionType.All);
-```
-
-## Langkah 9: Menyimpan file Excel
-
-Terakhir, kami akan menyimpan file Excel yang dimodifikasi. Gunakan kode berikut:
-
-```csharp
-// Simpan file Excelnya.
-wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
-```
-
-Pastikan untuk menentukan jalur yang benar untuk menyimpan file Excel yang dimodifikasi.
-
-### Contoh kode sumber untuk Melindungi Baris Di Lembar Kerja Excel menggunakan Aspose.Cells untuk .NET 
-```csharp
-//Jalur ke direktori dokumen.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat direktori jika belum ada.
-bool IsExists = System.IO.Directory.Exists(dataDir);
-if (!IsExists)
-    System.IO.Directory.CreateDirectory(dataDir);
-// Buat buku kerja baru.
 Workbook wb = new Workbook();
-// Buat objek lembar kerja dan dapatkan lembar pertama.
-Worksheet sheet = wb.Worksheets[0];
-// Tentukan objek gaya.
+```
+ Baris ini menginisialisasi instance baru dari`Workbook` kelas, membuat lembar kerja baru untuk kita kerjakan.
+
+## Langkah 3: Akses Lembar Kerja
+
+Setelah buku kerja dibuat, mari kita mulai lembar kerja pertama. Ingat, file Excel dapat berisi beberapa lembar, jadi memilih lembar kerja yang tepat sangatlah penting.
+
+```csharp
+Worksheet sheet = wb.Worksheets[0]; // Mengakses lembar pertama
+```
+
+## Langkah 4: Buka Kunci Semua Kolom
+
+Sebelum mengunci baris tertentu, ada baiknya untuk membuka kunci semua kolom terlebih dahulu. Ini memungkinkan kita untuk mengontrol data mana yang tetap dapat diedit nanti.
+
+```csharp
 Style style;
-// Tentukan objek styleflag.
 StyleFlag flag;
-// Ulangi semua kolom di lembar kerja dan buka kuncinya.
+
+// Ulangi semua kolom dan buka kuncinya
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -125,44 +80,57 @@ for (int i = 0; i <= 255; i++)
     flag.Locked = true;
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
 }
-// Dapatkan gaya baris pertama.
-style = sheet.Cells.Rows[0].Style;
-// Kunci itu.
-style.IsLocked = true;
-//Buat contoh benderanya.
+```
+Perulangan ini mengulangi 256 kolom pertama, membuka kunci setiap kolom untuk memastikan izin pengeditan default.
+
+## Langkah 5: Mengunci Baris Tertentu
+
+Sekarang, kita akan menargetkan baris pertama lembar kerja kita untuk dikunci. Langkah ini memastikan bahwa pengguna tidak dapat membuat perubahan yang tidak sah pada data penting yang terdapat dalam baris ini.
+
+```csharp
+style = sheet.Cells.Rows[0].Style; // Dapatkan gaya baris pertama
+style.IsLocked = true; // Kunci barisnya
 flag = new StyleFlag();
-// Atur pengaturan kunci.
-flag.Locked = true;
-// Terapkan gaya ke baris pertama.
-sheet.Cells.ApplyRowStyle(0, style, flag);
-// Lindungi lembaran itu.
-sheet.Protect(ProtectionType.All);
-// Simpan file excelnya.
+flag.Locked = true; // Mengatur bendera kunci
+sheet.Cells.ApplyRowStyle(0, style, flag); // Terapkan gaya ke baris pertama
+```
+Di sini, kita mengambil gaya untuk baris pertama, menandainya sebagai terkunci, dan menerapkan gaya penguncian. Ini sama halnya dengan mengunci laci penting—penting untuk mengamankan informasi sensitif!
+
+## Langkah 6: Melindungi Lembaran
+
+ Dengan baris yang terkunci, mari kita ambil langkah ekstra dan melindungi lembar kerja sepenuhnya. Ini akan memberlakukan kunci di semua fungsi yang didefinisikan dalam`ProtectionType`.
+
+```csharp
+sheet.Protect(ProtectionType.All); // Lindungi lembaran dengan semua fitur
+```
+Dengan menerapkan perlindungan ini, pengguna tidak dapat mengedit baris yang terkunci atau membuat perubahan apa pun yang dapat memengaruhi area yang terkunci.
+
+## Langkah 7: Menyimpan Buku Kerja
+
+Langkah terakhir adalah menyimpan buku kerja. Di sinilah semua kerja keras kita terbayar, dan kita dapat melihat lembar kerja kita yang indah dan terlindungi menjadi nyata!
+
+```csharp
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
+Pastikan nama dan format file yang disimpan sesuai dengan kebutuhan Anda. Dalam kasus ini, kami menyimpannya sebagai format Excel lama (Excel 97-2003).
 
 ## Kesimpulan
 
-Selamat! Anda sekarang memiliki kode sumber C# yang memungkinkan Anda melindungi baris dalam spreadsheet Excel menggunakan pustaka Aspose.Cells untuk .NET. Pastikan untuk mengikuti langkah-langkahnya dengan cermat dan sesuaikan kode dengan kebutuhan spesifik Anda.
+Nah, itu dia! Anda telah berhasil mempelajari cara melindungi baris tertentu dalam lembar kerja Excel menggunakan Aspose.Cells for .NET. Hanya dengan beberapa baris kode, Anda tidak hanya membuat buku kerja, tetapi juga berhasil mengamankan informasi sensitif, memastikan bahwa file Excel Anda tetap utuh dan dapat dipercaya. Baik itu laporan keuangan, lembar kehadiran, atau rencana proyek kolaboratif, melindungi data penting sangatlah penting. 
 
-### FAQ (Pertanyaan yang Sering Diajukan)
+## Pertanyaan yang Sering Diajukan
 
-#### Apakah kode ini berfungsi dengan versi terbaru Excel?
+### Apa itu Aspose.Cells?
+Aspose.Cells adalah pustaka hebat untuk .NET yang memungkinkan pengguna membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
 
-Ya, kode ini berfungsi dengan versi terbaru Excel, termasuk file dalam format Excel 2010 dan yang lebih baru.
+### Bisakah saya melindungi beberapa baris sekaligus dengan Aspose.Cells?
+Ya, Anda dapat memperluas teknik penguncian dengan mengulangi beberapa baris dan menerapkan perubahan gaya yang serupa pada masing-masing baris.
 
-#### Bisakah saya memproteksi hanya baris tertentu dan bukan semua baris di lembar kerja?
+### Apakah ada cara untuk membuka kunci baris setelah perlindungan?
+ Ya, Anda dapat membuka perlindungan lembar terlebih dahulu dan kemudian menyesuaikannya`IsLocked` properti baris yang diinginkan, kemudian terapkan kembali perlindungan.
 
-Ya, Anda dapat mengubah kode untuk menentukan baris tertentu yang ingin Anda lindungi. Anda perlu menyesuaikan loop dan indeksnya.
+### Apakah Aspose.Cells mendukung format lain selain Excel?
+Tentu saja! Aspose.Cells dapat mengonversi dan menyimpan buku kerja ke dalam berbagai format, termasuk CSV, PDF, dan HTML.
 
-#### Bagaimana cara membuka kembali saluran yang terkunci?
-
- Anda dapat menggunakan`IsLocked` metode`Style` objek untuk menetapkan nilainya`false` dan membuka kunci baris.
-
-#### Apakah mungkin untuk memproteksi beberapa lembar kerja dalam buku kerja Excel yang sama?
-
-Ya, Anda bisa mengulangi langkah-langkah membuat lembar kerja, mengatur gaya dan memproteksi setiap lembar kerja di buku kerja.
-
-#### Bagaimana cara mengubah kata sandi perlindungan spreadsheet?
-
- Anda dapat mengubah kata sandi menggunakan`Protect` metode dan menentukan kata sandi baru sebagai argumen.
+### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?
+ Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan dan panduan komunitas.

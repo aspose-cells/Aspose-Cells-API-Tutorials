@@ -1,105 +1,126 @@
 ---
 title: อัปเดตรายการสูตร Power Query
 linktitle: อัปเดตรายการสูตร Power Query
-second_title: Aspose.Cells สำหรับการอ้างอิง .NET API
-description: เรียนรู้วิธีอัปเดตองค์ประกอบสูตร Power Query ในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET
+second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
+description: อัปเดตรายการสูตร Power Query ใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อปรับปรุงกระบวนการจัดการข้อมูลของคุณ
 type: docs
 weight: 160
 url: /th/net/excel-workbook/update-power-query-formula-item/
 ---
-การอัปเดตรายการสูตร Power Query เป็นการดำเนินการทั่วไปเมื่อทำงานกับข้อมูลในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET คุณสามารถอัปเดตรายการสูตร Power Query ได้อย่างง่ายดายโดยทำตามขั้นตอนเหล่านี้:
+## การแนะนำ
 
-## ขั้นตอนที่ 1: ระบุไดเร็กทอรีต้นทางและเอาต์พุต
+หากคุณเคยทำงานกับ Excel คุณจะรู้ว่า Excel มีประสิทธิภาพเพียงใด โดยเฉพาะอย่างยิ่งเมื่อคุณเริ่มเรียนรู้ Power Query ซึ่งเป็นเคล็ดลับที่ช่วยให้คุณแปลง ทำความสะอาด และวิเคราะห์ข้อมูลได้อย่างง่ายดาย วิธีหนึ่งที่ชาญฉลาดในการจัดการสูตร Power Query ใน Excel คือการใช้ Aspose.Cells สำหรับ .NET วันนี้ เราจะแนะนำคุณเกี่ยวกับการอัปเดตรายการสูตร Power Query ทีละขั้นตอน ดังนั้น คว้าหมวกแห่งการเขียนโค้ดของคุณแล้วเริ่มกันเลย!
 
-ขั้นแรก คุณต้องระบุไดเรกทอรีต้นทางซึ่งมีไฟล์ Excel ที่มีสูตร Power Query ที่จะอัปเดต รวมถึงไดเรกทอรีผลลัพธ์ที่คุณต้องการบันทึกไฟล์ที่แก้ไข ต่อไปนี้เป็นวิธีดำเนินการโดยใช้ Aspose.Cells:
+## ข้อกำหนดเบื้องต้น
+
+ก่อนที่คุณจะเริ่มเขียนโค้ด มีบางสิ่งที่คุณจะต้องตั้งค่าไว้:
+
+1. Visual Studio: คุณจะต้องมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เพื่อเขียนและรันโค้ด .NET Visual Studio เป็นตัวเลือกที่เหมาะสมที่สุด
+2.  ไลบรารี Aspose.Cells: ตรวจสอบว่าคุณมีไลบรารี Aspose.Cells อยู่ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/cells/net/).
+3. ความรู้พื้นฐานเกี่ยวกับ C#: ในขณะที่เราจะเดินผ่านสิ่งนี้ไปด้วยกัน การมีความเข้าใจพื้นฐานเกี่ยวกับ C# บางอย่างก็จะเป็นประโยชน์อย่างแน่นอน โดยเฉพาะอย่างยิ่งเมื่อนำทางผ่านคลาสและวิธีการที่แตกต่างกัน
+4. ไฟล์ Excel ตัวอย่าง: คุณจะต้องมีไฟล์ Excel ที่ระบุไว้ในโค้ดตัวอย่าง โปรดตรวจสอบว่าคุณมี:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
+
+5. .NET Framework: ตรวจสอบให้แน่ใจว่าโครงการของคุณกำหนดเป้าหมายไปที่ .NET Framework เวอร์ชันที่เข้ากันได้
+
+ตอนนี้เรามีชุดอุปกรณ์พร้อมแล้ว เราสามารถเริ่มดำเนินการกับส่วนสนุก ๆ ได้เลย: การเขียนโค้ด!
+
+## แพ็คเกจนำเข้า
+
+ขั้นแรก คุณต้องนำเข้าเนมสเปซที่จำเป็น วิธีดำเนินการมีดังนี้:
 
 ```csharp
-// ไดเรกทอรีต้นทาง
-string SourceDir = RunExamples.Get_SourceDirectory();
-
-// ไดเร็กทอรีเอาต์พุต
-string outputDir = RunExamples.Get_OutputDirectory();
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## ขั้นตอนที่ 2: โหลดเวิร์กบุ๊ก Excel ต้นฉบับ
+การเพิ่มเนมสเปซเหล่านี้แสดงว่าคุณกำลังแจ้งให้คอมไพเลอร์ทราบว่าคุณต้องการใช้คลาสและเมธอดจากไลบรารี Aspose.Cells ขั้นตอนนี้มีความสำคัญมาก เนื่องจากเป็นการวางรากฐานสำหรับโค้ดที่จะตามมา
 
-ถัดไป คุณต้องโหลดเวิร์กบุ๊ก Excel ต้นทางที่คุณต้องการอัปเดตรายการสูตร Power Query ต่อไปนี้เป็นวิธีดำเนินการ:
+มาแยกส่วนโค้ดที่คุณให้มากัน บทช่วยสอนนี้จะอธิบายแต่ละส่วนให้คุณเข้าใจอย่างถ่องแท้ว่าเกิดอะไรขึ้น
 
-```csharp
-// โหลดสมุดงาน Excel ต้นฉบับ
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีการทำงาน
 
-## ขั้นตอนที่ 3: เรียกดูและอัปเดตรายการสูตร Power Query
-
-หลังจากโหลดเวิร์กบุ๊กแล้ว คุณสามารถนำทางไปยังคอลเลกชันสูตร Power Query และเรียกดูแต่ละสูตรและองค์ประกอบต่างๆ ได้ ในตัวอย่างนี้ เรากำลังมองหารายการสูตรที่มีชื่อว่า "แหล่งที่มา" และอัปเดตค่าของมัน นี่คือโค้ดตัวอย่างในการอัปเดตรายการสูตร Power Query:
+ในขั้นตอนนี้ เราจะกำหนดว่าไฟล์ต้นทางและไฟล์เอาท์พุตของเราอยู่ที่ใด ซึ่งจะทำให้ Aspose ทราบว่าจะต้องค้นหาไฟล์ Excel ของคุณที่ใด
 
 ```csharp
-// เข้าถึงคอลเลกชันสูตร Power Query
-DataMashup mashupData = workbook.DataMashup;
-
-// วนซ้ำสูตร Power Query และองค์ประกอบต่างๆ
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
-```
-
-## ขั้นตอนที่ 4: บันทึกเวิร์กบุ๊ก Excel เอาท์พุต
-
-เมื่อคุณอัปเดตรายการสูตร Power Query แล้ว คุณสามารถบันทึกเวิร์กบุ๊ก Excel ที่แก้ไขลงในไดเร็กทอรีเอาต์พุตที่ระบุได้ ต่อไปนี้เป็นวิธีดำเนินการ:
-
-```csharp
-// บันทึกเวิร์กบุ๊ก Excel เอาท์พุต
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
-
-### ซอร์สโค้ดตัวอย่างสำหรับอัปเดตรายการสูตร Power Query โดยใช้ Aspose.Cells สำหรับ .NET 
-```csharp
-// ไดเร็กทอรีการทำงาน
+// ไดเรกทอรีการทำงาน
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ ที่นี่เราใช้วิธีการเชิงสมมติฐาน`RunExamples.Get_SourceDirectory()` เพื่อดึงเส้นทางไปยังไฟล์ต้นฉบับของเรา ในทำนองเดียวกัน`RunExamples.Get_OutputDirectory()` รับเส้นทางที่เราจะบันทึกผลลัพธ์ของเรา ตรวจสอบให้แน่ใจว่าวิธีการเหล่านี้ส่งคืนเส้นทางที่ถูกต้องบนเครื่องของคุณ
+
+## ขั้นตอนที่ 2: โหลดเวิร์กบุ๊ก
+
+ตอนนี้เรามาโหลดไฟล์ Excel ที่มี Power Query อยู่กัน
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ การ`Workbook`คลาสคือจุดเข้าสู่ไฟล์ Excel ของคุณ โดยการผ่านเส้นทางของไฟล์ต้นฉบับของเรา เราจะสร้างอินสแตนซ์ที่ให้เราจัดการไฟล์นั้นได้ ลองนึกภาพว่าเหมือนกับการเปิดหนังสือ—คุณกำลังเตรียมอ่าน (หรือแก้ไข) เนื้อหาของหนังสือ
+
+## ขั้นตอนที่ 3: เข้าถึง Data Mashup
+
+ต่อไปเราจะเข้าถึงสูตร Power Query ที่เก็บไว้ใน Data Mashup ของเวิร์กบุ๊ก
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ การ`DataMashup` คลาสนี้ประกอบด้วยสูตร Power Query ทั้งหมดที่เกี่ยวข้องกับเวิร์กบุ๊กของคุณ นี่คือจุดที่เราจะทำงานหนักๆ เหมือนกับตอนที่คุณเปิดกล่องเครื่องมือเพื่อซ่อมแซม
+
+## ขั้นตอนที่ 4: วนซ้ำสูตร Power Query
+
+ตอนนี้มาถึงส่วนที่เราต้องการดำเนินการซ้ำผ่านสูตร Power Query เพื่อค้นหาสูตรที่เราต้องการอัปเดต
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
-// บันทึกสมุดงานผลลัพธ์
+```
+
+-  เราวนผ่านแต่ละ`PowerQueryFormula` ใน`mashupData`.
+-  ภายในลูปนั้น เราจะเจาะลึกแต่ละอย่าง`PowerQueryFormulaItem`.
+- เราตรวจสอบว่าชื่อรายการตรงกับ "แหล่งที่มา" หรือไม่ หากตรงกัน เราจะอัปเดตค่าเพื่อลิงก์ไปยังไฟล์แหล่งที่มาใหม่ของเรา
+
+คล้ายกับการค้นหาหน้าที่ถูกต้องในคู่มือ จากนั้นทำการอัปเดตตามที่จำเป็น ซึ่งเป็นกระบวนการตรงไปตรงมาและพิถีพิถัน
+
+## ขั้นตอนที่ 5: บันทึกสมุดงานที่อัปเดต
+
+หลังจากทำการอัปเดตแล้วก็ถึงเวลาบันทึกการเปลี่ยนแปลงของเรา
+
+```csharp
+// บันทึกสมุดงานเอาท์พุต
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ การ`Save` วิธีการนี้จะเขียนเวิร์กบุ๊กที่อัปเดตไปยังไดเร็กทอรีเอาต์พุตที่ระบุ เหมือนกับการปิดผนึกการแก้ไขของคุณในคู่มือเวอร์ชันใหม่ที่พร้อมให้ผู้อื่นนำไปใช้!
 
 ## บทสรุป
 
-การอัปเดตองค์ประกอบสูตร Power Query เป็นการดำเนินการที่สำคัญเมื่อใช้ Aspose.Cells เพื่อจัดการและประมวลผลข้อมูลในไฟล์ Excel เมื่อทำตามขั้นตอนข้างต้น คุณจะอัปเดตองค์ประกอบสูตรได้อย่างง่ายดาย
+ขอแสดงความยินดี! คุณได้อัปเดตรายการสูตร Power Query สำเร็จแล้วโดยใช้ Aspose.Cells สำหรับ .NET ด้วยวิธีนี้ คุณสามารถทำให้การปรับเปลี่ยนสูตร Power Query ในไฟล์ Excel เป็นแบบอัตโนมัติ ช่วยประหยัดเวลาและความพยายามอันมีค่าของคุณ
 
-### คำถามที่พบบ่อย
+## คำถามที่พบบ่อย
 
-#### ถาม: Power Query ใน Excel คืออะไร
-     
-ตอบ: Power Query เป็นฟีเจอร์ใน Excel ที่ช่วยรวบรวม แปลง และโหลดข้อมูลจากแหล่งต่างๆ มีเครื่องมืออันทรงพลังในการล้าง รวม และจัดรูปแบบข้อมูลใหม่ก่อนที่จะนำเข้าไปยัง Excel
+### Aspose.Cells คืออะไร?
+Aspose.Cells เป็นไลบรารีอันทรงพลังสำหรับการจัดการไฟล์ Excel ในแอปพลิเคชัน .NET โดยไม่จำเป็นต้องติดตั้ง Microsoft Excel
 
-#### ถาม: ฉันจะรู้ได้อย่างไรว่ารายการสูตร Power Query ได้รับการอัปเดตสำเร็จแล้ว
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### ฉันต้องมี Microsoft Excel จึงจะเรียกใช้ Aspose.Cells ได้หรือไม่
+ไม่ Aspose.Cells ช่วยให้คุณสามารถสร้างและแก้ไขไฟล์ Excel ตามโปรแกรมโดยไม่ต้องใช้ Excel บนเซิร์ฟเวอร์หรือเครื่องพัฒนาของคุณ
 
-#### ถาม: ฉันสามารถอัปเดตรายการสูตร Power Query หลายรายการพร้อมกันได้หรือไม่
-    
-ตอบ: ได้ คุณสามารถวนซ้ำคอลเลกชันรายการสูตร Power Query และอัปเดตหลายรายการในการวนรอบเดียวได้ ขึ้นอยู่กับความต้องการเฉพาะของคุณ
+### ฉันสามารถทำงานกับไฟล์ Excel ประเภทใดได้บ้างโดยใช้ Aspose.Cells?
+คุณสามารถทำงานกับ .xlsx, .xls, .xlsm และรูปแบบ Excel อื่นๆ อีกมากมายได้โดยใช้ Aspose.Cells
 
-#### ถาม: มีการดำเนินการอื่นๆ ที่ฉันสามารถทำได้บนสูตร Power Query ด้วย Aspose.Cells หรือไม่
-    
-ตอบ: ใช่ Aspose.Cells มีฟีเจอร์ครบครันสำหรับการทำงานกับสูตร Power Query รวมถึงการสร้าง การลบ การคัดลอก และการค้นหาสูตรในเวิร์กบุ๊ก Excel
+### มีเวอร์ชันทดลองใช้สำหรับ Aspose.Cells หรือไม่
+ ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก[หน้าการเปิดตัว Aspose Cells](https://releases.aspose.com/).
+
+### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร?
+ คุณสามารถเข้าถึงการสนับสนุนได้ผ่านทาง[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)ซึ่งคุณสามารถถามคำถามและหาคำตอบจากชุมชนและทีมงาน Aspose ได้

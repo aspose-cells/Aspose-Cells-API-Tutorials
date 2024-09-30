@@ -1,19 +1,19 @@
 ---
 title: Tutorial Aspose.Cells
-additionalTitle: Asumsikan Referensi API
-description: Tutorial dan cuplikan kode rangkaian produk Aspose.Cells. Ini mencakup tutorial dasar dan lanjutan penggunaan Aspose.Cells.
+additionalTitle: Referensi API Aspose
+description: Tutorial dan cuplikan kode dari keluarga produk Aspose.Cells. Termasuk tutorial dasar dan lanjutan tentang penggunaan Aspose.Cells.
 type: docs
 weight: 11
 url: /id/
 is_root: true
 ---
 
-## Aspose.Cells untuk Tutorial .NET
+## Tutorial Aspose.Cells untuk .NET
 {{% alert color="primary" %}}
-Aspose.Cells untuk tutorial .NET dan cuplikan kode untuk membuat, mengedit, mengonversi, mencetak, dan banyak lagi fitur lainnya untuk file Excel di aplikasi Anda. 
+Tutorial Aspose.Cells untuk .NET dan cuplikan kode untuk membuat, mengedit, mengonversi, mencetak, dan banyak fitur lainnya untuk file Excel di aplikasi Anda. 
 {{% /alert %}}
 
-Ini adalah tautan ke beberapa sumber yang bermanfaat:
+Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
  
 - [Lembar Kerja Excel](./net/excel-worksheet-csharp-tutorials/)
 - [Pengaturan Tampilan Excel](./net/excel-display-settings-csharp-tutorials)
@@ -22,15 +22,15 @@ Ini adalah tautan ke beberapa sumber yang bermanfaat:
 
 ## Aspose.Cells untuk Tutorial Java
 {{% alert color="primary" %}}
-Jelajahi Aspose.Cells untuk tutorial Java. Manipulasi file Master Excel dengan contoh kode. Tingkatkan keterampilan Java Anda hari ini!
+Jelajahi tutorial Aspose.Cells untuk Java. Kuasai manipulasi file Excel dengan contoh kode. Tingkatkan keterampilan Java Anda hari ini!
 {{% /alert %}}
 
-Ini adalah tautan ke beberapa sumber yang bermanfaat:
+Berikut ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Fungsi Dasar Excel](./java/basic-excel-functions/)
 - [Aturan Validasi Data](./java/data-validation-rules/)
 - [Analisis Data Excel](./java/excel-data-analysis/)
 - [Tabel Pivot Excel](./java/excel-pivot-tables/)
-- [Bagan Excel Tingkat Lanjut](./java/advanced-excel-charts/)
-- [Ekspor Impor Excel](./java/excel-import-export/)
+- [Bagan Excel Lanjutan](./java/advanced-excel-charts/)
+- [Impor Ekspor Excel](./java/excel-import-export/)
 - [Keamanan Data Excel](./java/excel-data-security/)
-- [Otomatisasi Lembar Bentang](./java/spreadsheet-automation/)
+- [Otomatisasi Lembar Kerja](./java/spreadsheet-automation/)

@@ -1,185 +1,151 @@
 ---
-title: Wstaw obraz w stopce nagłówka
-linktitle: Wstaw obraz w stopce nagłówka
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Dowiedz się, jak wstawić obraz do nagłówka lub stopki dokumentu Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z kodem źródłowym w języku C#.
+title: Wstaw obraz w nagłówku i stopce
+linktitle: Wstaw obraz w nagłówku i stopce
+second_title: Aspose.Cells dla .NET API Reference
+description: Dowiedz się, jak wstawiać obrazy do nagłówków i stopek za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
 type: docs
 weight: 60
 url: /pl/net/excel-page-setup/insert-image-in-header-footer/
 ---
-Możliwość wstawienia obrazu w nagłówku lub stopce dokumentu Excel może być bardzo przydatna przy dostosowywaniu raportów lub dodawaniu logo firmy. W tym artykule poprowadzimy Cię krok po kroku, jak wstawić obraz w nagłówku lub stopce dokumentu Excel za pomocą Aspose.Cells dla .NET. Dowiesz się, jak to osiągnąć, korzystając z kodu źródłowego C#.
+## Wstęp
 
-## Krok 1: Konfigurowanie środowiska
+Podczas pracy z plikami Excela nagłówki i stopki odgrywają kluczową rolę w dostarczaniu kontekstu i cennych informacji. Wyobraź sobie, że tworzysz raport dla swojej firmy, a logo firmy musi być obecne w nagłówku, aby nadać mu profesjonalny charakter. W tym przewodniku pokażemy Ci, jak używać Aspose.Cells dla .NET, aby wstawić obraz w nagłówku lub stopce arkuszy Excela.
 
-Zanim zaczniesz, upewnij się, że masz zainstalowany Aspose.Cells for .NET na swoim komputerze. Utwórz także nowy projekt w preferowanym środowisku programistycznym.
+## Wymagania wstępne
 
-## Krok 2: Zaimportuj niezbędne biblioteki
+Zanim zagłębisz się w kod, musisz przygotować kilka rzeczy:
 
-W pliku kodu zaimportuj biblioteki potrzebne do pracy z Aspose.Cells. Oto odpowiedni kod:
+1. Aspose.Cells dla biblioteki .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w środowisku .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Visual Studio lub inne środowisko IDE: Będziesz potrzebować zintegrowanego środowiska programistycznego, aby pisać i wykonywać kod C#.
+3.  Przykładowy obraz: Przygotuj obraz, który chcesz wstawić do nagłówka lub stopki. W naszym przykładzie użyjemy logo firmy o nazwie`aspose-logo.jpg`.
+4. Podstawowa znajomość języka C#: Choć nie jest to obowiązkowe, zrozumienie języka C# ułatwi Ci korzystanie z tego samouczka.
+5. Dostęp do systemu plików: Upewnij się, że masz dostęp do systemu plików, w którym będziesz mógł odczytać obraz i zapisać plik Excela.
+
+## Importuj pakiety
+
+Aby zacząć, musisz zaimportować niezbędne przestrzenie nazw do pliku C#. Oto krótkie podsumowanie:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
+using System;
 ```
 
-## Krok 3: Ustaw katalog dokumentów
+Te importy zapewnią dostęp do wszystkich klas, których potrzebujemy do obsługi plików Excela i plików w systemie.
 
-Ustaw katalog, w którym znajduje się dokument Excel, z którym chcesz pracować. Użyj poniższego kodu, aby ustawić katalog:
+## Krok 1: Konfigurowanie ścieżki katalogu
+
+Najpierw musisz określić katalog, w którym znajdują się pliki i obrazy Excela. Zaktualizuj ścieżkę, aby pasowała do Twojej lokalnej struktury.
 
 ```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizuj odpowiednio
 ```
 
-Pamiętaj, aby podać pełną ścieżkę katalogu.
+ Ta linia ustawia`dataDir` zmienna, która jest ścieżką bazową do zlokalizowania obrazu, który chcesz wstawić do nagłówka.
 
-## Krok 4: Tworzenie obiektu skoroszytu
+## Krok 2: Tworzenie obiektu skoroszytu
 
-Obiekt Workbook reprezentuje dokument Excel, z którym będziesz pracować. Możesz go utworzyć za pomocą następującego kodu:
+Następnie musisz utworzyć nowy skoroszyt, do którego dodasz swój obraz.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Spowoduje to utworzenie nowego, pustego obiektu skoroszytu.
+ Ta linia kodu inicjuje nową instancję`Workbook` Klasa umożliwiająca pracę z arkuszami kalkulacyjnymi programu Excel.
 
-## Krok 5: Zapisywanie adresu URL obrazu
+## Krok 3: Definiowanie ścieżki obrazu
 
-Zdefiniuj adres URL lub ścieżkę obrazu, który chcesz wstawić w nagłówku lub stopce. Użyj poniższego kodu, aby zapisać adres URL obrazu:
+ Czas utworzyć zmienną typu string, która będzie zawierać ścieżkę do obrazu, którego chcesz użyć. W naszym przypadku używamy`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
 ```
 
-Upewnij się, że określona ścieżka jest poprawna i obraz istnieje w tej lokalizacji.
+Tutaj łączymy ścieżkę katalogu z nazwą pliku logo.
 
-## Krok 6: Otwieranie pliku obrazu
+## Krok 4: Odczyt obrazu jako danych binarnych
 
-Aby otworzyć plik obrazu, użyjemy obiektu FileStream i odczytamy dane binarne z obrazu. Oto odpowiedni kod:
+Aby wstawić obraz do nagłówka, musimy odczytać plik obrazu jako dane binarne.
 
 ```csharp
-FileStream inFile;
-byte[] binaryData;
-
-inFile = new System.IO.FileStream(logo_url, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-binaryData = new Byte[inFile.Length];
+FileStream inFile = new FileStream(logo_url, FileMode.Open, FileAccess.Read);
+byte[] binaryData = new byte[inFile.Length];
 long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 ```
 
-Upewnij się, że ścieżka obrazu jest poprawna i masz odpowiednie uprawnienia dostępu do niego.
+-  Ten`FileStream` służy do otwierania obrazu w trybie odczytu.
+-  Następnie deklarujemy tablicę bajtów`binaryData` do przechowywania danych obrazu.
+-  Na koniec odczytujemy dane obrazu z`FileStream`.
 
-## Krok 7: Konfiguracja PageSetup
+## Krok 5: Dostęp do obiektu ustawień strony
 
-Obiekt PageSetup służy do ustawiania ustawień strony dokumentu Excel, w tym nagłówka i stopki. Użyj poniższego kodu, aby uzyskać obiekt PageSetup z pierwszego arkusza:
+ Aby dokonać zmian w nagłówku, musimy uzyskać dostęp do`PageSetup` obiekt związany z pierwszym arkuszem kalkulacyjnym. 
 
 ```csharp
-PageSetup pageSetup = workbook. Worksheets
-
-[0].PageSetup;
+PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
-Umożliwi to dostęp do ustawień strony pierwszego arkusza w skoroszycie.
+ Tutaj dostajemy`PageSetup` obiekt, który umożliwia manipulowanie ustawieniami drukowania arkusza kalkulacyjnego.
 
-## Krok 8: Dodanie obrazu do nagłówka
+## Krok 6: Wstawianie obrazu do nagłówka
 
-Użyj metody SetHeaderPicture() obiektu PageSetup, aby ustawić obraz w środkowej części nagłówka strony. Oto odpowiedni kod:
+Mając już dane binarne obrazu, możemy wstawić je do nagłówka.
 
 ```csharp
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
-Spowoduje to dodanie określonego obrazu do nagłówka strony.
+ Ten wiersz umieszcza obraz w środkowej części nagłówka. Parametr`1` określa sekcję nagłówka.
 
-## Krok 9: Dodanie skryptu do nagłówka
+## Krok 7: Ustawianie zawartości nagłówka
 
-Aby dodać skrypt do nagłówka strony, użyj metody SetHeader() obiektu PageSetup. Oto odpowiedni kod:
-
-```csharp
-pageSetup.SetHeader(1, "&G");
-```
-
-Spowoduje to dodanie określonego skryptu do nagłówka strony. W tym przykładzie skrypt „&G” wyświetla numer strony.
-
-## Krok 10: Dodaj nazwę arkusza do nagłówka
-
-Aby wyświetlić nazwę arkusza w nagłówku strony, użyj ponownie metody SetHeader() obiektu PageSetup. Oto odpowiedni kod:
+Teraz, gdy mamy już gotowy obraz, możemy dodać trochę tekstu do nagłówka, aby uwydatnić jego kontekst. 
 
 ```csharp
-pageSetup.SetHeader(2, "&A");
+pageSetup.SetHeader(1, "&G"); // Wstawia obraz
+pageSetup.SetHeader(2, "&A"); // Wstawia nazwę arkusza
 ```
 
-Spowoduje to dodanie nazwy arkusza do nagłówka strony. Do przedstawienia nazwy arkusza używany jest skrypt „&A”.
+- Pierwszy wiersz wstawia symbol zastępczy obrazu (`&G`).
+- Drugi wiersz dodaje nazwę arkusza w prawej części nagłówka, używając symbolu zastępczego (`&A`).
 
-## Krok 11: Zapisywanie skoroszytu
+## Krok 8: Zapisywanie skoroszytu
 
-Aby zapisać zmiany w skoroszycie, użyj metody Save() obiektu Workbook. Oto odpowiedni kod:
+Po wprowadzeniu wszystkich niezbędnych zmian nadszedł czas na zapisanie skoroszytu.
 
 ```csharp
 workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
 ```
 
-Spowoduje to zapisanie skoroszytu ze zmianami w określonym katalogu.
+Ten wiersz zapisuje skoroszyt pod określoną nazwą pliku w katalogu, który zdefiniowałeś wcześniej.
 
-## Krok 12: Zamykanie strumienia plików
+## Krok 9: Zamykanie FileStream
 
-Po odczytaniu danych binarnych z obrazu pamiętaj o zamknięciu FileStream, aby zwolnić zasoby. Użyj poniższego kodu, aby zamknąć FileStream:
+ Na koniec nie zapomnij zamknąć swojego`FileStream` aby uwolnić zasoby.
 
 ```csharp
 inFile.Close();
 ```
 
-Pamiętaj, aby zawsze zamykać FileStreams po zakończeniu ich używania.
+Dzięki temu Twoja aplikacja będzie uporządkowana i zapobiegniesz wyciekom pamięci.
 
-### Przykładowy kod źródłowy dla Wstaw obraz w stopce nagłówka przy użyciu Aspose.Cells dla .NET 
-```csharp
-//Ścieżka do katalogu dokumentów.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Tworzenie obiektu skoroszytu
-Workbook workbook = new Workbook();
-// Tworzenie zmiennej łańcuchowej do przechowywania adresu URL logo/zdjęcia
-string logo_url = dataDir + "aspose-logo.jpg";
-// Deklarowanie obiektu FileStream
-FileStream inFile;
-// Deklarowanie tablicy bajtów
-byte[] binaryData;
-// Utworzenie instancji obiektu FileStream w celu otwarcia logo/obrazka w strumieniu
-inFile = new System.IO.FileStream(logo_url, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-// Tworzenie instancji tablicy bajtów rozmiaru obiektu FileStream
-binaryData = new Byte[inFile.Length];
-// Odczytuje blok bajtów ze strumienia i zapisuje dane w danym buforze tablicy bajtów.
-long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
-// Tworzenie obiektu PageSetup w celu pobrania ustawień strony pierwszego arkusza skoroszytu
-PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
-// Ustawienie logo/obrazka w środkowej części nagłówka strony
-pageSetup.SetHeaderPicture(1, binaryData);
-// Ustawianie skryptu dla logo/zdjęcia
-pageSetup.SetHeader(1, "&G");
-// Ustawienie nazwy arkusza w prawej części nagłówka strony ze skryptem
-pageSetup.SetHeader(2, "&A");
-// Zapisywanie skoroszytu
-workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
-//Zamknięcie obiektu FileStream
-inFile.Close();       
-```
 ## Wniosek
 
-Gratulacje! Teraz wiesz, jak wstawić obraz w nagłówku lub stopce dokumentu Excel przy użyciu Aspose.Cells dla .NET. Ten samouczek przeprowadził Cię przez każdy etap procesu, od skonfigurowania środowiska po zapisanie zmodyfikowanego skoroszytu. Możesz swobodnie eksperymentować z funkcjami Aspose.Cells, aby tworzyć spersonalizowane i profesjonalne dokumenty Excel.
+Gratulacje! Udało Ci się dodać obraz do nagłówka pliku Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jest to logo firmy, czy inspirujący cytat, nagłówki mogą znacznie zwiększyć profesjonalizm Twoich dokumentów. Teraz możesz zastosować tę wiedzę w różnych projektach — wyobraź sobie, jak dopracowane będą Twoje raporty z dostosowanymi nagłówkami i stopkami!
 
-### Często zadawane pytania
+## Najczęściej zadawane pytania
 
-#### P1: Czy można wstawić wiele obrazów w nagłówku lub stopce dokumentu Excel?
+### Jakie formaty plików graficznych obsługuje Aspose.Cells?
+Aspose.Cells obsługuje wiele formatów, w tym JPEG, PNG, BMP, GIF i TIFF.
 
-O1: Tak, możesz wstawić wiele obrazów do nagłówka lub stopki dokumentu Excel, powtarzając kroki 8 i 9 dla każdego dodatkowego obrazu.
+### Czy mogę wstawić wiele obrazów do nagłówka/stopki?
+Tak, możesz wstawiać oddzielne obrazy w różnych sekcjach nagłówka lub stopki, używając różnych symboli zastępczych.
 
-#### P2: Jakie formaty obrazów są obsługiwane podczas wstawiania w nagłówku lub stopce?
-O2: Aspose.Cells obsługuje wiele popularnych formatów obrazów, takich jak JPEG, PNG, GIF, BMP itp.
+### Czy Aspose.Cells jest darmowy?
+ Aspose.Cells oferuje bezpłatną wersję próbną, ale dostępna jest wersja licencjonowana, która zapewnia pełny dostęp i dodatkowe funkcje. Możesz uzyskać[tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/).
 
-#### P3: Czy mogę dodatkowo dostosować wygląd nagłówka lub stopki?
+### Jak mogę rozwiązać problem z wyświetlaniem obrazów?
+Upewnij się, że ścieżka do obrazu jest poprawna i plik istnieje. Sprawdź również zgodność formatu obrazu.
 
-O3: Tak, możesz użyć specjalnych skryptów i kodów w celu dalszego formatowania i dostosowania wyglądu nagłówka lub stopki. Więcej informacji na temat opcji dostosowywania można znaleźć w dokumentacji Aspose.Cells.
-
-#### P4: Czy Aspose.Cells współpracuje z różnymi wersjami programu Excel?
-
-O4: Tak, Aspose.Cells jest kompatybilny z różnymi wersjami programu Excel, w tym Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016 i Excel 2019.
-
-#### P5: Czy można wstawiać obrazy w innych częściach dokumentu Excel, takich jak komórki lub wykresy?
-
-O5: Tak, Aspose.Cells zapewnia rozbudowaną funkcjonalność wstawiania obrazów do różnych części dokumentu Excel, w tym do komórek, wykresów i obiektów rysunkowych.
+### Gdzie mogę znaleźć dodatkową dokumentację dotyczącą Aspose.Cells?
+ Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).

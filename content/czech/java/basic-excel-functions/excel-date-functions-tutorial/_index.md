@@ -166,8 +166,8 @@ Aspose.Cells for Java se dobře hodí pro zpracování dat v malém i velkém m�
 
 ### Kde najdu další zdroje a dokumentaci k Aspose.Cells for Java?
 
- Máte přístup ke komplexní dokumentaci a zdrojům pro Aspose.Cells for Java na[tady](https://reference.aspose.com/cells/java/).
+ Máte přístup ke komplexní dokumentaci a zdrojům pro Aspose.Cells for Java na[zde](https://reference.aspose.com/cells/java/).
 
 ### Jak mohu začít s Aspose.Cells for Java?
 
- Chcete-li začít s Aspose.Cells for Java, stáhněte si knihovnu z[tady](https://releases.aspose.com/cells/java/) a podívejte se do dokumentace k instalaci a
+ Chcete-li začít s Aspose.Cells for Java, stáhněte si knihovnu z[zde](https://releases.aspose.com/cells/java/) a podívejte se do dokumentace k instalaci a

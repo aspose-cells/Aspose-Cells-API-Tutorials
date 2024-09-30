@@ -1,93 +1,113 @@
 ---
-title: Bepaal of het papierformaat van het werkblad automatisch is
-linktitle: Bepaal of het papierformaat van het werkblad automatisch is
+title: Bepalen of het papierformaat van het werkblad automatisch is
+linktitle: Bepalen of het papierformaat van het werkblad automatisch is
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u kunt bepalen of het papierformaat van een spreadsheet automatisch is met Aspose.Cells voor .NET.
+description: Leer hoe u kunt bepalen of het papierformaat van een werkblad automatisch is met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
 type: docs
 weight: 20
 url: /nl/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-In dit artikel nemen we je stap voor stap mee om de volgende C#-broncode uit te leggen: Bepaal of het papierformaat van een werkblad automatisch is met behulp van Aspose.Cells voor .NET. We zullen de Aspose.Cells-bibliotheek voor .NET gebruiken om deze bewerking uit te voeren. Volg de onderstaande stappen om te bepalen of het papierformaat van een werkblad automatisch is.
+## Invoering
 
-## Stap 1: Werkmappen laden
-De eerste stap is het laden van de werkmappen. We hebben twee werkmappen: één met automatisch papierformaat uitgeschakeld en de andere met automatisch papierformaat ingeschakeld. Hier is de code om de werkmappen te laden:
+Als u zich verdiept in de wereld van spreadsheetmanipulatie met Aspose.Cells voor .NET, dan hebt u een fantastische keuze gemaakt. De mogelijkheid om Excel-bestanden programmatisch aan te passen en te beheren, kan talloze taken vereenvoudigen, waardoor uw werk efficiënter wordt. In deze gids richten we ons op een specifieke taak: bepalen of de papierformaatinstellingen van een werkblad automatisch zijn. Dus pak uw programmeerhoed en laten we beginnen!
+
+## Vereisten
+
+Voordat we in de code duiken, willen we controleren of je alles hebt wat je nodig hebt:
+
+### Basiskennis van C#
+Hoewel Aspose.Cells veel taken vereenvoudigt, is een fundamenteel begrip van C# cruciaal. U moet vertrouwd zijn met het lezen en schrijven van basis C#-code.
+
+### Aspose.Cells voor .NET
+ Zorg ervoor dat Aspose.Cells in uw project is geïnstalleerd. U kunt het downloaden van de[website](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
+
+### Ontwikkelomgeving
+U zou een IDE als Visual Studio moeten hebben ingesteld. Dit begeleidt u door het effectief verwerken en testen van uw code.
+
+### Voorbeeld Excel-bestanden
+U hebt voorbeeld bestanden nodig (`samplePageSetupIsAutomaticPaperSize-False.xlsx` En`samplePageSetupIsAutomaticPaperSize-True.xlsx`) voor testdoeleinden. Zorg ervoor dat deze bestanden in uw bronmap staan.
+
+## Pakketten importeren
+
+Om met Aspose.Cells in C# te werken, moet u de benodigde pakketten importeren. Bovenaan uw C#-bestand voegt u het volgende toe:
 
 ```csharp
-// bronmap
-string sourceDir = "YOUR_SOURCE_DIR";
-// Uitvoermap
-string outputDir = "YOUR_OUTPUT_DIRECTORY";
-
-// Laad de eerste werkmap met automatisch papierformaat uitgeschakeld
-Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-
-// Laad een tweede werkmap met automatisch papierformaat ingeschakeld
-Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
 ```
 
-## Stap 2: Toegang tot spreadsheets
-Nu we de werkmappen hebben geladen, moeten we toegang krijgen tot de werkbladen zodat we het automatische papierformaat kunnen controleren. We gaan naar het eerste werkblad van de twee werkmappen. Hier is de code om er toegang toe te krijgen:
+Hiermee laat u de compiler weten dat u de Aspose.Cells-bibliotheek en de System-naamruimte wilt gebruiken voor basisfunctionaliteit.
+
+Laten we het opsplitsen in een duidelijke, stapsgewijze tutorial, zodat je het gemakkelijk kunt volgen. Klaar om te beginnen? Hier gaan we!
+
+## Stap 1: Stel uw bron- en uitvoermappen in
+
+Allereerst wilt u uw bron- en uitvoermappen definiëren. Deze mappen bevatten uw invoerbestanden en waar u de uitvoer wilt opslaan. Dit is hoe u dat doet:
 
 ```csharp
-//Ga naar het eerste werkblad van de eerste werkmap
-Worksheet ws11 = wb1.Worksheets[0];
-
-// Ga naar het eerste werkblad van de tweede werkmap
-Worksheet ws12 = wb2.Worksheets[0];
-```
-
-## Stap 3: Controleer het automatische papierformaat
- In deze stap controleren we of het papierformaat van het werkblad automatisch is. Wij zullen gebruik maken van de`PageSetup.IsAutomaticPaperSize` eigendom om deze informatie te verkrijgen. Wij zullen dan het resultaat weergeven. Hier is de code daarvoor:
-
-```csharp
-// Geef de eigenschap IsAutomaticPaperSize van het eerste werkblad in de eerste werkmap weer
-Console.WriteLine("First worksheet in first workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
-
-// Geef de eigenschap IsAutomaticPaperSize van het eerste werkblad in de tweede werkmap weer
-Console.WriteLine("First worksheet of second workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-
-```
-
-### Voorbeeldbroncode voor Bepalen of het papierformaat van het werkblad automatisch is met behulp van Aspose.Cells voor .NET 
-```csharp
-//Bronmap
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
-//Uitvoermap
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
-//Laad de eerste werkmap met automatisch papierformaat false
+```
+
+ Vervangen`YOUR_SOURCE_DIRECTORY` En`YOUR_OUTPUT_DIRECTORY` met de werkelijke paden op uw systeem waar de bestanden worden opgeslagen.
+
+## Stap 2: Laad de Excel-werkmappen
+
+Nu u uw directory's hebt ingesteld, laden we de werkboeken. We laden twee werkboeken: één met automatische papiergrootte ingesteld op false en de andere met automatische papiergrootte ingesteld op true. Dit is de code:
+
+```csharp
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-//Laad de tweede werkmap met automatisch papierformaat waar
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
-//Toegang tot het eerste werkblad van beide werkmappen
+```
+
+## Stap 3: Toegang tot het eerste werkblad
+
+Nu de werkboeken zijn geladen, is het tijd om het eerste werkblad van elk werkboek te openen. Het mooie van Aspose.Cells is dat dit belachelijk eenvoudig is:
+
+```csharp
 Worksheet ws11 = wb1.Worksheets[0];
 Worksheet ws12 = wb2.Worksheets[0];
-//Druk de eigenschap PageSetup.IsAutomaticPaperSize van beide werkbladen af
+```
+
+Deze code haalt het eerste werkblad (index 0) uit beide werkmappen. 
+
+## Stap 4: Controleer de instelling voor het papierformaat
+
+ Nu komt het leuke gedeelte! U wilt controleren of de papierformaatinstelling automatisch is voor elk werkblad. Dit doet u door de`IsAutomaticPaperSize` eigendom van de`PageSetup` klasse. Gebruik het volgende codefragment:
+
+```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-Console.WriteLine();
+```
+
+ Hier printen we de resultaten naar de console. Je zult zien`True` of`False`, afhankelijk van de instellingen voor elk werkblad.
+
+## Stap 5: Rond het af
+
+Tot slot is het een goede gewoonte om feedback te geven dat uw code succesvol is uitgevoerd. Voeg een eenvoudig bericht toe aan het einde van uw hoofdmethode:
+
+```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");
 ```
 
+## Conclusie 
 
-## Conclusie
-In dit artikel hebben we geleerd hoe we kunnen bepalen of het papierformaat van een werkblad automatisch is met behulp van Aspose.Cells voor .NET. We hebben de volgende stappen gevolgd: het laden van de werkmappen,
+En zo heb je de basis gelegd voor het bepalen of het papierformaat van een werkblad automatisch is met Aspose.Cells voor .NET! Je hebt je door het importeren van pakketten, het laden van werkmappen, het openen van werkbladen en het controleren van de eigenschap papierformaat gehaast: allemaal essentiële vaardigheden bij het programmatisch manipuleren van Excel-bestanden. Vergeet niet dat hoe meer je experimenteert met verschillende functies van Aspose.Cells, hoe krachtiger je applicaties zullen worden.
 
-toegang tot spreadsheets en automatische controle van het papierformaat. Nu kunt u deze kennis gebruiken om te bepalen of het papierformaat van uw spreadsheets automatisch is.
+## Veelgestelde vragen
 
-### Veelgestelde vragen
+### Wat is Aspose.Cells?
+Aspose.Cells is een .NET-bibliotheek die is ontworpen voor het programmatisch beheren van Excel-spreadsheetbestanden zonder dat Excel geïnstalleerd hoeft te worden.
 
-#### Vraag: Hoe kan ik werkmappen laden met Aspose.Cells voor .NET?
+### Kan ik Aspose.Cells gebruiken voor niet-Windows-omgevingen?
+Ja! Aspose.Cells ondersteunt cross-platform ontwikkeling, zodat u in verschillende omgevingen kunt werken waar .NET beschikbaar is.
 
-A: U kunt werkmappen laden met behulp van de Workbook-klasse uit de Aspose.Cells-bibliotheek. Gebruik de Workbook.Load-methode om een werkmap uit een bestand te laden.
+### Heb ik een licentie nodig voor Aspose.Cells?
+Hoewel u kunt beginnen met een gratis proefperiode, vereist voortgezet gebruik een gekochte licentie. Meer details vindt u[hier](https://purchase.aspose.com/buy).
 
-#### Vraag: Kan ik het automatische papierformaat voor andere spreadsheets controleren?
+### Hoe kan ik controleren of het papierformaat van een werkblad automatisch wordt aangepast in C#?
+ Zoals in de gids wordt getoond, kunt u de`IsAutomaticPaperSize` eigendom van de`PageSetup` klas.
 
-A: Ja, u kunt het automatische papierformaat voor elk werkblad controleren door de eigenschap PageSetup.IsAutomaticPaperSize van het overeenkomstige werkbladobject te openen.
-
-#### Vraag: Hoe kan ik het automatische papierformaat van een spreadsheet wijzigen?
-
-A: Om het automatische papierformaat van een werkblad te wijzigen, kunt u de eigenschap PageSetup.IsAutomaticPaperSize gebruiken en deze instellen op de gewenste waarde (true of false).
-
-#### Vraag: Welke andere functies biedt Aspose.Cells voor .NET?
-
-A: Aspose.Cells voor .NET biedt veel functies voor het werken met spreadsheets, zoals het maken, wijzigen en converteren van werkmappen, en het manipuleren van gegevens, formules en opmaak.
+### Waar kan ik meer informatie vinden over Aspose.Cells?
+ U kunt uitgebreide documentatie en tutorials vinden[hier](https://reference.aspose.com/cells/net/).

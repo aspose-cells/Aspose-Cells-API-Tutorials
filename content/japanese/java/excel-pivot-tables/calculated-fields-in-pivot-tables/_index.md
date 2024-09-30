@@ -1,47 +1,47 @@
 ---
-title: ピボット テーブルの計算フィールド
-linktitle: ピボット テーブルの計算フィールド
+title: ピボットテーブルの計算フィールド
+linktitle: ピボットテーブルの計算フィールド
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用してピボット テーブルに計算フィールドを作成する方法を学びます。 Excel のカスタム計算を使用してデータ分析を強化します。
+description: Aspose.Cells for Java を使用してピボット テーブルに計算フィールドを作成する方法を学びます。Excel のカスタム計算を使用してデータ分析を強化します。
 type: docs
 weight: 15
 url: /ja/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 ---
 ## 導入
-ピボット テーブルは、Excel でデータを分析および要約するための強力なツールです。ただし、場合によっては、ピボット テーブル内のデータに対してカスタム計算を実行する必要があります。このチュートリアルでは、Aspose.Cells for Java を使用してピボット テーブルに計算フィールドを作成し、データ分析を次のレベルに引き上げる方法を説明します。
+ピボット テーブルは、Excel でデータを分析および要約するための強力なツールです。ただし、ピボット テーブル内のデータに対してカスタム計算を実行する必要がある場合もあります。このチュートリアルでは、Aspose.Cells for Java を使用してピボット テーブルに計算フィールドを作成し、データ分析を次のレベルに引き上げる方法を説明します。
 
 ### 前提条件
-始める前に、以下のものがあることを確認してください。
-- Aspose.Cells for Java ライブラリがインストールされています。
-- Java プログラミングの基本的な知識。
+始める前に、以下のものを用意してください。
+- Aspose.Cells for Java ライブラリがインストールされました。
+- Java プログラミングの基礎知識。
 
-## ステップ 1: Java プロジェクトをセットアップする
-まず、お気に入りの IDE で新しい Java プロジェクトを作成し、Aspose.Cells for Java ライブラリを含めます。ライブラリはからダウンロードできます[ここ](https://releases.aspose.com/cells/java/).
+## ステップ1: Javaプロジェクトの設定
+まず、お気に入りのIDEで新しいJavaプロジェクトを作成し、Aspose.Cells for Javaライブラリを含めます。ライブラリは以下からダウンロードできます。[ここ](https://releases.aspose.com/cells/java/).
 
-## ステップ 2: 必要なクラスをインポートする
+## ステップ2: 必要なクラスのインポート
 Java コードで、Aspose.Cells から必要なクラスをインポートします。これらのクラスは、ピボット テーブルと計算フィールドの操作に役立ちます。
 
 ```java
 import com.aspose.cells.*;
 ```
 
-## ステップ 3: Excel ファイルをロードする
-ピボット テーブルを含む Excel ファイルを Java アプリケーションにロードします。交換する`"your-file.xlsx"`Excel ファイルへのパスを含めます。
+## ステップ3: Excelファイルの読み込み
+ピボットテーブルを含むExcelファイルをJavaアプリケーションに読み込みます。`"your-file.xlsx"`Excel ファイルへのパスを入力します。
 
 ```java
 Workbook workbook = new Workbook("your-file.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## ステップ 4: ピボット テーブルへのアクセス
+## ステップ4: ピボットテーブルにアクセスする
 ピボット テーブルを操作するには、ワークシートでピボット テーブルにアクセスする必要があります。ピボット テーブルの名前が「PivotTable1」であるとします。
 
 ```java
 PivotTable pivotTable = worksheet.getPivotTables().get("PivotTable1");
 ```
 
-## ステップ 5: 計算フィールドの作成
-次に、ピボット テーブルに計算フィールドを作成しましょう。 2 つの既存フィールド「Field1」と「Field2」の合計を計算し、計算フィールドに「Total」という名前を付けます。
+## ステップ5: 計算フィールドの作成
+次に、ピボット テーブルに計算フィールドを作成します。既存の 2 つのフィールド「Field1」と「Field2」の合計を計算し、計算フィールドに「Total」という名前を付けます。
 
 ```java
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Field1");
@@ -51,7 +51,7 @@ PivotFieldCollection pivotFields = pivotTable.getDataFields();
 pivotFields.add("Total", "Field1+Field2");
 ```
 
-## ステップ 6: ピボット テーブルを更新する
+## ステップ6: ピボットテーブルを更新する
 計算フィールドを追加した後、ピボット テーブルを更新して変更を確認します。
 
 ```java
@@ -60,20 +60,20 @@ pivotTable.calculateData();
 ```
 
 ## 結論
-おめでとう！ Aspose.Cells for Java を使用してピボット テーブルに計算フィールドを作成する方法を学習しました。これにより、Excel 内でデータに対してカスタム計算を実行できるようになり、データ分析機能が強化されます。
+おめでとうございます! Aspose.Cells for Java を使用してピボット テーブルに計算フィールドを作成する方法を学習しました。これにより、Excel 内でデータに対してカスタム計算を実行できるようになり、データ分析機能が強化されます。
 
 ## よくある質問
-### ピボット テーブルでさらに複雑な計算を実行する必要がある場合はどうすればよいですか?
+### ピボット テーブルでより複雑な計算を実行する場合はどうすればよいでしょうか?
    計算フィールドで関数とフィールド参照を組み合わせることで、より複雑な数式を作成できます。
 
-### 計算フィールドが不要になった場合、削除できますか?
-   はい、ピボット テーブルから計算フィールドを削除するには、`pivotFields`コレクションを実行し、名前でフィールドを削除します。
+### 計算フィールドが不要になった場合は削除できますか?
+   はい、ピボットテーブルから計算フィールドを削除するには、`pivotFields`コレクションからフィールドを名前で削除します。
 
 ### Aspose.Cells for Java は大規模なデータセットに適していますか?
-   はい、Aspose.Cells for Java は、大きな Excel ファイルとデータセットを効率的に処理できるように設計されています。
+   はい、Aspose.Cells for Java は、大規模な Excel ファイルとデータセットを効率的に処理できるように設計されています。
 
-### ピボット テーブルの計算フィールドに制限はありますか?
-   計算フィールドには、特定の種類の計算がサポートされていないなど、いくつかの制限があります。詳細についてはドキュメントを必ずご確認ください。
+### ピボット テーブルの計算フィールドには制限がありますか?
+   計算フィールドには、特定の種類の計算がサポートされていないなど、いくつかの制限があります。詳細については、必ずドキュメントを確認してください。
 
-### Aspose.Cells for Java に関するその他のリソースはどこで見つけられますか?
-    API ドキュメントは次の場所で参照できます。[Aspose.Cells for Java ドキュメント](https://reference.aspose.com/cells/java/).
+### Aspose.Cells for Java に関するその他のリソースはどこで見つかりますか?
+    APIドキュメントは以下からご覧いただけます。[Aspose.Cells for Java ドキュメント](https://reference.aspose.com/cells/java/).

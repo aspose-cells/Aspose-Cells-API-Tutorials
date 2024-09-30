@@ -1,96 +1,131 @@
 ---
-title: Obtenha detalhes do Odata
-linktitle: Obtenha detalhes do Odata
+title: Obter detalhes do Odata
+linktitle: Obter detalhes do Odata
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda como recuperar detalhes OData de uma pasta de trabalho do Excel usando Aspose.Cells for .NET.
+description: Descubra como extrair detalhes do OData do Excel usando o Aspose.Cells para .NET neste tutorial detalhado passo a passo.
 type: docs
 weight: 110
 url: /pt/net/excel-workbook/get-odata-details/
 ---
-O uso de OData é comum quando se trata de recuperar dados estruturados de fontes de dados externas. Com Aspose.Cells for .NET, você pode recuperar facilmente detalhes OData de uma pasta de trabalho do Excel. Siga as etapas abaixo para obter os resultados desejados:
+## Introdução
 
-## Etapa 1: especifique o diretório de origem
+No mundo em constante evolução do gerenciamento de dados, a capacidade de conectar, analisar e manipular dados de forma eficiente se tornou uma necessidade primordial para desenvolvedores e organizações. Entre no Aspose.Cells para .NET — uma API poderosa projetada para trabalhar com arquivos do Excel programaticamente. Um de seus recursos estelares está na integração do OData, permitindo que os usuários interajam perfeitamente com fontes de dados complexas. Esteja você trabalhando em um projeto de inteligência empresarial de larga escala ou simplesmente procurando otimizar seus processos de dados, entender como obter detalhes do OData pode aumentar muito suas capacidades. Neste guia, percorreremos o processo passo a passo de extração de detalhes do OData usando o Aspose.Cells para .NET.
 
-Primeiro, você precisa especificar o diretório de origem onde está localizado o arquivo Excel que contém os detalhes do OData. Veja como fazer isso usando Aspose.Cells:
+## Pré-requisitos
+
+Antes de mergulharmos fundo no código, vamos garantir que você tenha tudo o que precisa para acompanhar este tutorial. Aqui está o que você vai precisar:
+
+1. Visual Studio: Certifique-se de ter o Visual Studio instalado. É o ambiente ideal para desenvolvimento .NET.
+2. Biblioteca Aspose.Cells: Baixe e instale a biblioteca Aspose.Cells para .NET do[Página de downloads do Aspose](https://releases.aspose.com/cells/net/) . Você também pode experimentar uma versão de teste gratuita em[aqui](https://releases.aspose.com/).
+3. Conhecimento básico de C#: A familiaridade com a programação em C# ajudará você a entender melhor as nuances do código.
+4. Um arquivo Excel de exemplo: para este tutorial, usaremos um arquivo Excel chamado "ODataSample.xlsx", que deve ser armazenado em seu diretório de trabalho.
+
+Depois de ter esses componentes prontos, você estará pronto para começar a extrair detalhes do OData sem esforço!
+
+## Pacotes de importação
+
+Vamos começar nossa jornada de codificação importando os pacotes necessários para nosso projeto. Esses pacotes fornecerão as classes e métodos necessários para trabalhar com OData em Aspose.Cells.
+
+### Criar um novo projeto C#
+
+1. Abra o Visual Studio.
+2. Clique em "Criar um novo projeto".
+3. Escolha "Aplicativo de console (.NET Core)" ou "Aplicativo de console (.NET Framework)" — sua preferência será suficiente.
+4. Dê um nome ao seu projeto (por exemplo, ODataDetailsExtractor) e clique em “Criar”.
+
+### Instalar pacote Aspose.Cells NuGet
+
+Para trabalhar com o Aspose.Cells, você precisa instalá-lo por meio do Gerenciador de Pacotes NuGet:
+
+1. Clique com o botão direito do mouse no seu projeto no Solution Explorer.
+2. Selecione "Gerenciar pacotes NuGet".
+3. Na aba "Navegar", procure por "Aspose.Cells".
+4. Clique em “Instalar” para adicionar o pacote ao seu projeto.
+
+### Incluir namespaces necessários
+
+ Assim que a instalação terminar, você vai querer adicionar os namespaces necessários na parte superior do seu`Program.cs` arquivo:
 
 ```csharp
-// diretório de origem
-string SourceDir = RunExamples.Get_SourceDirectory();
+using Aspose.Cells.QueryTables;
+using System;
 ```
 
-## Etapa 2: carregar a pasta de trabalho
+Isso nos dará acesso às classes e métodos que usaremos em todo o nosso código.
 
-Depois que o diretório de origem for especificado, você poderá carregar a pasta de trabalho do Excel do arquivo. Aqui está um exemplo de código:
+Agora que configuramos nosso ambiente de desenvolvimento, é hora de escrever o código principal para extrair detalhes do OData do nosso arquivo Excel. Esse processo pode ser dividido em etapas gerenciáveis.
+
+## Etapa 1: Configurar a pasta de trabalho
+
+ Nesta etapa inicial, você criará uma instância do`Workbook` classe e carregue seu arquivo Excel:
 
 ```csharp
-// Carregar a pasta de trabalho
+// Defina o diretório de origem
+string SourceDir = RunExamples.Get_SourceDirectory();
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
-## Etapa 3: obtenha os detalhes do OData
+ Aqui,`RunExamples.Get_SourceDirectory()` é um método personalizado que você pode ter em seu projeto que recupera o caminho para a pasta que contém seu arquivo de amostra. Certifique-se de substituir isso pelo caminho real, se necessário.
 
-Depois de carregar a pasta de trabalho, você poderá acessar os detalhes do OData usando a coleção PowerQueryFormulas. Veja como:
+## Etapa 2: acessar fórmulas do Power Query
+
+Em seguida, você acessará as fórmulas do Power Query na sua pasta de trabalho, que contêm os detalhes do OData:
 
 ```csharp
-// Recuperar a coleção de fórmulas do Power Query
 PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
-
-// Percorra cada fórmula do Power Query
-foreach(PowerQueryFormula PQF in PQFcoll)
-{
-Console.WriteLine("Connection name: " + PQF.Name);
-
-// Recuperar a coleção de elementos da fórmula do Power Query
-PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-
-// Iterar através de cada elemento da fórmula do Power Query
-foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
-{
-Console.WriteLine("Name: " + PQFI.Name);
-Console.WriteLine("Value: " + PQFI.Value);
-}
-}
-
-Console.WriteLine("GetOdataDetails executed successfully.");
 ```
 
-### Exemplo de código-fonte para obter detalhes do Odata usando Aspose.Cells for .NET 
+Esta linha inicializa uma coleção de fórmulas do Power Query, preparando-nos para percorrer e recuperar os detalhes necessários.
+
+## Etapa 3: faça um loop pelas fórmulas
+
+Agora, use um loop para percorrer cada fórmula do Power Query, recuperando seu nome e itens associados:
+
 ```csharp
-// diretório de origem
-string SourceDir = RunExamples.Get_SourceDirectory();
-Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
-PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
 foreach (PowerQueryFormula PQF in PQFcoll)
 {
-	Console.WriteLine("Connection Name: " + PQF.Name);
-	PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-	foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
-	{
-		Console.WriteLine("Name: " + PQFI.Name);
-		Console.WriteLine("Value: " + PQFI.Value);
-	}
+    Console.WriteLine("Connection Name: " + PQF.Name);
+    PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+    
+    foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
+    {
+        Console.WriteLine("Name: " + PQFI.Name);
+        Console.WriteLine("Value: " + PQFI.Value);
+    }
 }
+```
+
+Neste bloco, nós:
+- Imprima o nome da conexão de cada fórmula do Power Query.
+- Acesse os itens dentro de cada fórmula e imprima seus nomes e valores.
+
+## Etapa 4: Executar e verificar
+
+ Por fim, você precisa garantir que o código seja executado corretamente e retorne a saída esperada. Adicione a seguinte linha no final do seu`Main` método:
+
+```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
 ```
+
+Uma vez adicionado, execute seu projeto. Você deve ver os nomes de conexão junto com seus itens correspondentes claramente impressos no console.
 
 ## Conclusão
 
-Recuperar detalhes OData de uma pasta de trabalho do Excel agora é fácil com Aspose.Cells for .NET. Seguindo as etapas descritas neste guia, você poderá acessar e processar dados OData com eficiência. Experimente seus próprios arquivos Excel contendo detalhes OData e aproveite ao máximo esse recurso poderoso.
+aí está! Em algumas etapas simples, você aproveitou o poder do Aspose.Cells para .NET para extrair detalhes do OData de um arquivo Excel. É incrível como pode ser simples mergulhar em tarefas complexas de gerenciamento de dados com as ferramentas e instruções certas. Ao usar o Aspose.Cells, você não está apenas facilitando seu trabalho; você está desbloqueando um novo reino de possibilidades para manipulação de dados. Agora que você entendeu o básico, vá em frente e explore seus recursos mais a fundo — é uma virada de jogo!
 
-### Perguntas frequentes
+## Perguntas frequentes
 
-#### P: O Aspose.Cells oferece suporte a outras fontes de dados além do OData?
-    
-R: Sim, Aspose.Cells oferece suporte a várias fontes de dados, como bancos de dados SQL, arquivos CSV, serviços da web, etc.
+### O que é Aspose.Cells para .NET?
+Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manipular e converter documentos do Excel sem precisar do Microsoft Excel.
 
-#### P: Como posso usar detalhes OData recuperados em meu aplicativo?
-    
-R: Depois de recuperar os detalhes do OData usando Aspose.Cells, você poderá usá-los para análise de dados, geração de relatórios ou qualquer outra manipulação em seu aplicativo.
+### Posso usar o Aspose.Cells sem uma licença?
+Sim, você pode baixar uma versão de avaliação gratuita no site deles; no entanto, ela tem algumas limitações.
 
-#### P: Posso filtrar ou classificar dados OData ao recuperar com Aspose.Cells?
-    
-R: Sim, Aspose.Cells oferece funcionalidade avançada para filtrar, classificar e manipular dados OData para atender às suas necessidades específicas.
+### O que são fórmulas do Power Query?
+As fórmulas do Power Query permitem que os usuários conectem, combinem e transformem dados de várias fontes no Excel.
 
-#### P: Posso automatizar o processo de recuperação de detalhes OData com Aspose.Cells?
-    
-R: Sim, você pode automatizar o processo de recuperação de detalhes OData integrando Aspose.Cells em seus fluxos de trabalho ou usando scripts de programação.
+### Como posso obter suporte para o Aspose.Cells?
+ Você pode visitar o[Fórum Aspose](https://forum.aspose.com/c/cells/9) para apoio e ajuda da comunidade.
+
+### Onde posso comprar o Aspose.Cells?
+Você pode comprar Aspose.Cells em seu[página de compra](https://purchase.aspose.com/buy).

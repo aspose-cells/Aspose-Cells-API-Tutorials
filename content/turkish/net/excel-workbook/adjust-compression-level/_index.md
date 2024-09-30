@@ -1,135 +1,151 @@
 ---
-title: Sıkıştırma Düzeyini Ayarlayın
-linktitle: Sıkıştırma Düzeyini Ayarlayın
-second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET ile sıkıştırma düzeyini ayarlayarak Excel çalışma kitaplarınızın boyutunu azaltın.
+title: Sıkıştırma Seviyesini Ayarla
+linktitle: Sıkıştırma Seviyesini Ayarla
+second_title: Aspose.Cells for .NET API Başvurusu
+description: Aspose.Cells for .NET kullanarak Excel dosyaları için sıkıştırma seviyelerini nasıl ayarlayacağınızı öğrenin. Bu adım adım kılavuzla dosya boyutlarınızı verimli bir şekilde optimize edin.
 type: docs
 weight: 50
 url: /tr/net/excel-workbook/adjust-compression-level/
 ---
-Bu adım adım eğitimde, Aspose.Cells for .NET'i kullanarak sıkıştırma düzeyini ayarlamanıza olanak tanıyan sağlanan C# kaynak kodunu açıklayacağız. Excel çalışma kitabınızdaki sıkıştırma düzeyini ayarlamak için aşağıdaki adımları izleyin.
+## giriiş
 
-## 1. Adım: Kaynak ve çıkış dizinlerini ayarlayın
+Büyük Excel dosyalarını işlemek söz konusu olduğunda, verimli depolama anahtardır. İster dosya boyutlarını optimize etmek isteyen bir geliştirici olun, ister dosya transferlerini hızlandırmak isteyen bir veri analisti olun, Aspose.Cells for .NET'te sıkıştırma seviyelerinin nasıl ayarlanacağını anlamak oyunun kurallarını değiştirebilir. Bu kılavuzda, Excel dosyalarını kaydederken sıkıştırma seviyelerini ayarlama adımlarında size yol göstereceğiz ve kaliteyi feda etmeden performansınızı korumanızı sağlayacağız.
 
-```csharp
-// kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Çıkış dizini
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## Ön koşullar
 
-Bu ilk adımda Excel dosyalarının kaynak ve çıktı dizinlerini tanımlıyoruz.
+Sıkıştırma seviyelerinin ayrıntılarına dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-## Adım 2: Excel Çalışma Kitabını Yükleyin
+1. Temel C# Bilgisi: C# programlamanın temellerini anlamak esastır. Değişkenler, döngüler ve temel dosya işlemleri konusunda rahatsanız, hazırsınız demektir!
+2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) . Eğer yeni başlıyorsanız, ücretsiz bir deneme sürümü almayı düşünün[Burada](https://releases.aspose.com/).
+3. Geliştirme Ortamı: C# kodunuzu yazmak ve yürütmek için geliştirme ortamınızı, tercihen Visual Studio'yu kurun. 
+4. Örnek Excel Dosyası: Test için büyük bir Excel dosyası hazırlayın. Bir tane oluşturabilir veya mevcut herhangi bir dosyayı kullanabilirsiniz, ancak sıkıştırmanın etkilerini görebilecek kadar büyük olduğundan emin olun.
 
-```csharp
-// Excel çalışma kitabını yükleyin
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+Tüm bu ön koşullar sağlandıktan sonra başlayalım!
 
-Excel çalışma kitabını belirtilen dosyadan kullanarak yüklüyoruz.`Workbook` Aspose.Cells'ten sınıf.
+## Paketleri İçe Aktar
 
-## 3. Adım: Yedekleme seçeneklerini ayarlayın
+Excel dosyalarını düzenleyebilmemiz için, gerekli ad alanlarını içe aktarmamız gerekir. Bu, Aspose.Cells tarafından sağlanan sınıflara ve yöntemlere erişmemizi sağlayan önemli bir adımdır.
+
+### Aspose.Cells Ad Alanını İçe Aktar
 
 ```csharp
-// Yedekleme seçeneklerini tanımlayın
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- Bunun bir örneğini oluşturuyoruz`XlsbSaveOptions` Kaydetme seçeneklerini ayarlamak için sınıf.
+ Bu kod parçacığı şunları içe aktarır:`Aspose.Cells` Excel dosyalarıyla çalışmak için gereken tüm sınıfları içeren namespace.`Aspose.Cells.Xlsb` namespace özellikle XLSB dosya formatlarını işlemek içindir.
 
-## 4. Adım: Sıkıştırma düzeyini ayarlayın (Seviye 1)
+Artık her şeyi ayarladığımıza göre, sıkıştırma seviyelerini ayarlama sürecini yönetilebilir adımlara bölelim. Farklı sıkıştırma seviyelerine sahip bir çalışma kitabı kaydedeceğiz ve her işlem için geçen süreyi ölçeceğiz. 
 
-```csharp
-// Sıkıştırma düzeyini ayarlayın (Seviye 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## Adım 1: Dizinlerinizi Ayarlayın
 
- Sıkıştırma seviyesini ayarlayarak ayarlıyoruz`CompressionType` ile`Level1`. Daha sonra belirtilen bu sıkıştırma seçeneği ile Excel çalışma kitabını kaydediyoruz.
+İlk önce, dosyalarımızın nerede saklanacağını tanımlamamız gerekiyor. Bu, girdi dosyamız için kaynak dizinini ve sıkıştırılmış dosyalarımız için çıktı dizinini belirtmeyi içerir.
 
-## 5. Adım: Sıkıştırma düzeyini ayarlayın (Seviye 6)
-
-```csharp
-// Sıkıştırma seviyesini ayarlayın (Seviye 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- Sıkıştırma seviyesini ayarlamak için işlemi tekrarlıyoruz.`Level6` ve bu seçenekle Excel çalışma kitabını kaydedin.
-
-## 6. Adım: Sıkıştırma düzeyini ayarlayın (Seviye 9)
-
-```csharp
-// Sıkıştırma seviyesini ayarlayın (Seviye 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- Sıkıştırma seviyesini ayarlamak için işlemi son bir kez tekrarlıyoruz.`Level9` ve bu seçenekle Excel çalışma kitabını kaydedin.
-
-### Aspose.Cells for .NET kullanarak Sıkıştırma Düzeyini Ayarlamak için örnek kaynak kodu 
 ```csharp
 //Kaynak dizini
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ Burada,`RunExamples.Get_SourceDirectory()` Ve`RunExamples.Get_OutputDirectory()` sırasıyla kaynak ve çıktı dizinlerinize giden yolları döndüren yöntemlerdir. 
+
+## Adım 2: Çalışma Kitabını Yükleyin
+
+Sonra, sıkıştırmak istediğimiz Excel çalışma kitabını yükleyeceğiz. Burada büyük Excel dosyanıza işaret edeceksiniz.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ Bu satır yeni bir satır başlatır`Workbook` Belirtilen dosyaya sahip nesne. Dosya yolunun doğru olduğundan emin olun; aksi takdirde hatalarla karşılaşırsınız.
+
+## Adım 3: XLSB için Kaydetme Seçenekleri Oluşturun
+
+ Şimdi, bir örnek oluşturacağız`XlsbSaveOptions`, çalışma kitabımızı nasıl kaydetmek istediğimizi, sıkıştırma düzeyi de dahil olmak üzere, belirtmemize olanak tanır.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+Bu satır, çalışma kitabımızı XLSB formatında kaydetmek için kullanacağımız seçenekleri hazırlar.
+
+## Adım 4: Sıkıştırma Düzeylerini Ayarlayın ve Ölçün
+
+Şimdi eğlenceli kısma geliyoruz! Çalışma kitabını farklı sıkıştırma seviyeleri kullanarak kaydedeceğiz ve her işlem için geçen süreyi ölçeceğiz. 
+
+### Seviye 1 Sıkıştırma
+
+En düşük sıkıştırma seviyesiyle başlayalım:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Bu kod parçacığında sıkıştırma türünü Düzey 1 olarak ayarlıyoruz, çalışma kitabını kaydediyoruz ve harcanan zamanı günlüğe kaydediyoruz. 
+
+### Seviye 6 Sıkıştırma
+
+Daha sonra orta seviye sıkıştırma seviyesini deneyeceğiz:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Bu sefer sıkıştırma türünü Level 6 olarak ayarlayıp kaydetme işlemini tekrarlıyoruz.
+
+### Seviye 9 Sıkıştırma
+
+Son olarak en yüksek sıkıştırma seviyesini kullanarak kaydedelim:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+Bu adımda sıkıştırma türünü Düzey 9 olarak ayarlıyoruz; bu, en küçük dosya boyutunu sağlamalı, ancak kaydedilmesi daha uzun sürebilir.
+
+## Adım 5: Son Çıktı
+
+Yukarıdaki tüm adımları uyguladıktan sonra, her sıkıştırma seviyesi için geçen sürelerin konsola yazdırıldığını göreceksiniz. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Bu satır tüm sürecin sorunsuz tamamlandığını teyit eder.
+
 ## Çözüm
 
-Tebrikler! Aspose.Cells for .NET'i kullanarak bir Excel çalışma kitabındaki sıkıştırma düzeyini nasıl ayarlayacağınızı öğrendiniz. İhtiyaçlarınıza en uygun olanı bulmak için farklı sıkıştırma düzeylerini deneyin.
+Excel dosyalarını Aspose.Cells for .NET ile kaydederken sıkıştırma seviyelerini ayarlamak basit ama güçlü bir tekniktir. Bu kılavuzda özetlenen adımları izleyerek dosya boyutlarını kolayca değiştirebilir, depolama ve transfer için daha yönetilebilir hale getirebilirsiniz. Verilere hızlı erişime ihtiyacınız olsun veya uygulamanızın performansını optimize etmek isteyin, bu tekniklerde ustalaşmak şüphesiz bir geliştirici olarak becerilerinizi geliştirecektir.
 
-### SSS
+## SSS
 
-#### S: Excel çalışma kitabında sıkıştırma nedir?
+### Aspose.Cells Nedir?
+Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir .NET kütüphanesidir.
 
-C: Excel çalışma kitabındaki sıkıştırma, sıkıştırma algoritmaları kullanılarak dosya boyutunun küçültülmesi işlemidir. Bu, gereken depolama alanını azaltır ve dosyayı yüklerken ve işlerken performansı artırır.
+### Aspose.Cells'i nasıl indirebilirim?
+ Aspose.Cells kütüphanesini şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/).
 
-#### S: Aspose.Cells'te hangi sıkıştırma seviyeleri mevcut?
+### Aspose.Cells'i ücretsiz kullanabilir miyim?
+ Evet, Aspose erişebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
 
-C: Aspose.Cells ile sıkıştırma seviyesini 1'den 9'a kadar ayarlayabilirsiniz. Sıkıştırma seviyesi ne kadar yüksek olursa dosya boyutu o kadar küçük olur, ancak aynı zamanda işlem süresini de artırabilir.
+### Farklı sıkıştırma seviyeleri nelerdir?
+Aspose.Cells, Seviye 1'den (en az sıkıştırma) Seviye 9'a (maksimum sıkıştırma) kadar çeşitli sıkıştırma seviyelerini destekler.
 
-#### S: Excel çalışma kitabım için doğru sıkıştırma düzeyini nasıl seçerim?
-
-C: Sıkıştırma seviyesinin seçimi özel ihtiyaçlarınıza bağlıdır. Maksimum sıkıştırma istiyorsanız ve işlem süresi sorun değilse, 9. seviyeye geçebilirsiniz. Dosya boyutu ile işlem süresi arasında bir uzlaşma tercih ediyorsanız, orta seviyeyi seçebilirsiniz.
-
-#### S: Sıkıştırma Excel çalışma kitabındaki veri kalitesini etkiler mi?
-
-C: Hayır, sıkıştırma Excel çalışma kitabındaki veri kalitesini etkilemez. Verinin kendisini değiştirmeden sıkıştırma tekniklerini kullanarak dosya boyutunu azaltır.
-
-#### S: Excel dosyasını kaydettikten sonra sıkıştırma düzeyini ayarlayabilir miyim?
-
-C: Hayır, Excel dosyasını belirli bir sıkıştırma düzeyiyle kaydettikten sonra sıkıştırma düzeyini daha sonra ayarlayamazsınız. Değiştirmek isterseniz dosyayı yeni sıkıştırma düzeyiyle yeniden kaydetmeniz gerekecektir.
+### Aspose.Cells için desteği nereden bulabilirim?
+ Destek alabilir ve sorularınızı sorabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/cells/9).

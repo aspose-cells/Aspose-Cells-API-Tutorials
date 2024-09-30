@@ -2,104 +2,125 @@
 title: Aktualizujte položku vzorce Power Query
 linktitle: Aktualizujte položku vzorce Power Query
 second_title: Aspose.Cells for .NET API Reference
-description: Přečtěte si, jak aktualizovat prvky vzorců Power Query v souborech Excel pomocí Aspose.Cells for .NET.
+description: Položky vzorců Power Query v Excelu snadno aktualizujte pomocí Aspose.Cells for .NET. Podrobný průvodce pro zefektivnění vašich procesů manipulace s daty.
 type: docs
 weight: 160
 url: /cs/net/excel-workbook/update-power-query-formula-item/
 ---
-Aktualizace položky vzorce Power Query je běžnou operací při práci s daty v souborech aplikace Excel. Pomocí Aspose.Cells for .NET můžete snadno aktualizovat položku vzorce Power Query podle následujících kroků:
+## Zavedení
 
-## Krok 1: Zadejte zdrojový a výstupní adresář
+Pokud jste někdy pracovali s Excelem, víte, jak výkonný může být – zvláště když se začnete ponořit do Power Queries. Toto je tajná omáčka, která vám umožňuje transformovat, čistit a analyzovat vaše data bez námahy. Jeden šikovný způsob, jak manipulovat se vzorci Power Query v Excelu, je přes Aspose.Cells for .NET. Dnes vás provedeme aktualizací položek vzorce Power Query krok za krokem. Takže popadněte svůj kódovací klobouk a můžeme začít!
 
-Nejprve musíte určit zdrojový adresář, kde se nachází soubor Excel obsahující vzorce Power Query k aktualizaci, a také výstupní adresář, kam chcete upravený soubor uložit. Zde je návod, jak to udělat pomocí Aspose.Cells:
+## Předpoklady
 
-```csharp
-// zdrojový adresář
-string SourceDir = RunExamples.Get_SourceDirectory();
+Než se ponoříte do kódu, je několik věcí, které budete chtít nastavit:
 
-// Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: K psaní a spouštění kódu .NET budete potřebovat integrované vývojové prostředí (IDE). Visual Studio je tou správnou volbou.
+2.  Knihovna Aspose.Cells: Ujistěte se, že máte v projektu k dispozici knihovnu Aspose.Cells. Můžete si jej stáhnout z[místo](https://releases.aspose.com/cells/net/).
+3. Základní znalost C#: I když si tím společně projdeme, určité základní znalosti C# jistě pomohou, zvláště při procházení různými třídami a metodami.
+4. Ukázkové soubory aplikace Excel: Budete potřebovat soubory aplikace Excel uvedené ve fragmentu kódu. Ujistěte se, že máte:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## Krok 2: Načtěte zdrojový sešit aplikace Excel
+5. .NET Framework: Ujistěte se, že váš projekt cílí na kompatibilní verzi rozhraní .NET Framework.
 
-Dále je třeba načíst zdrojový excelový sešit, ve kterém chcete aktualizovat položku vzorce Power Query. Jak na to:
+Nyní, když máme naši sadu připravenou, můžeme přistoupit k té zábavné části: psaní kódu!
 
-```csharp
-// Načtěte zdrojový excelový sešit
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## Importujte balíčky
 
-## Krok 3: Procházejte a aktualizujte položky vzorce Power Query
-
-Po načtení sešitu můžete přejít do kolekce vzorců Power Query a procházet každý vzorec a jeho prvky. V tomto příkladu hledáme položku vzorce s názvem "Zdroj" a aktualizujeme její hodnotu. Zde je ukázkový kód pro aktualizaci položky vzorce Power Query:
+Nejprve budete chtít importovat potřebné jmenné prostory. Jak na to:
 
 ```csharp
-// Přístup ke kolekci vzorců Power Query
-DataMashup mashupData = workbook.DataMashup;
-
-// Procházejte vzorce Power Query a jejich prvky
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## Krok 4: Uložte výstupní excelový sešit
+Přidáním těchto jmenných prostorů dáváte kompilátoru vědět, že máte v úmyslu použít třídy a metody z knihovny Aspose.Cells. Tento krok je zásadní, protože pokládá základy pro kód, který následuje.
 
-Jakmile aktualizujete položku vzorce Power Query, můžete upravený sešit Excel uložit do určeného výstupního adresáře. Jak na to:
+Pojďme si rozebrat fragment kódu, který jste poskytli. Tento tutoriál vás provede každou částí a zajistí, že pochopíte, co se děje.
 
-```csharp
-// Uložte výstupní excelový sešit
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## Krok 1: Nastavte pracovní adresáře
 
-### Ukázka zdrojového kódu pro položku Update Power Query Formula Item pomocí Aspose.Cells for .NET 
+V tomto kroku definujeme, kde jsou umístěny naše zdrojové a výstupní soubory. To zajišťuje, že Aspose ví, kde hledat vaše soubory Excel.
+
 ```csharp
 // Pracovní adresáře
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Zde používáme hypotetickou metodu`RunExamples.Get_SourceDirectory()` pro získání cesty k našim zdrojovým souborům. Podobně,`RunExamples.Get_OutputDirectory()` dostane cestu, kam uložíme náš výstup. Ujistěte se, že tyto metody vracejí platné cesty na vašem počítači.
+
+## Krok 2: Načtěte sešit
+
+Nyní načteme soubor Excel, kde je umístěn Power Query.
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ The`Workbook`třída je vaším vstupním bodem do souboru Excel. Předáním cesty k našemu zdrojovému souboru vytváříme instanci, která nám umožňuje s ním manipulovat. Můžete si to představit jako otevření knihy – připravujete se na čtení (nebo úpravu) jejího obsahu.
+
+## Krok 3: Přístup k Data Mashup
+
+Dále přistoupíme k vzorcům Power Query uloženým v sešitu Data Mashup.
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ The`DataMashup` třída obsahuje všechny vzorce Power Query přidružené k vašemu sešitu. Tady budeme těžce zvedat, podobně jako když otevřete krabici s nářadím pro opravy.
+
+## Krok 4: Procházení vzorců Power Query
+
+Nyní přichází část, kde iterujeme vzorce Power Query, abychom našli ten konkrétní, který chceme aktualizovat.
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
+```
+
+-  Procházíme každým`PowerQueryFormula` v`mashupData`.
+-  V rámci této smyčky se ponoříme do každého`PowerQueryFormulaItem`.
+- Zkontrolujeme, zda se název položky shoduje se „Zdroj“. Pokud ano, aktualizujeme jeho hodnotu, aby odkazovala na náš nový zdrojový soubor.
+
+Je to podobné, jako byste našli správnou stránku v příručce a poté provedli potřebné aktualizace – je to přímočarý a pečlivý proces.
+
+## Krok 5: Uložte aktualizovaný sešit
+
+Po provedení aktualizací je čas uložit naše změny.
+
+```csharp
 // Uložte výstupní sešit.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ The`Save` metoda zapíše aktualizovaný sešit do zadaného výstupního adresáře. Je to jako zapečetění vašich úprav v nové verzi manuálu, připravené pro ostatní!
 
 ## Závěr
 
-Aktualizace prvků vzorce Power Query je nezbytnou operací při použití Aspose.Cells k manipulaci a zpracování dat v souborech aplikace Excel. Podle výše uvedených kroků můžete snadno aktualizovat prvky vzorce
+Gratuluji! Úspěšně jste aktualizovali položku vzorce Power Query pomocí Aspose.Cells for .NET. Pomocí této metody můžete automatizovat úpravy vzorců Power Query v souborech Excelu, což vám ušetří drahocenný čas a úsilí.
 
-### Nejčastější dotazy
+## FAQ
 
-#### Otázka: Co je Power Query v Excelu?
-     
-Odpověď: Power Query je funkce v Excelu, která pomáhá shromažďovat, transformovat a načítat data z různých zdrojů. Nabízí výkonné nástroje pro čištění, kombinování a přetváření dat před jejich importem do Excelu.
+### Co je Aspose.Cells?
+Aspose.Cells je výkonná knihovna pro manipulaci se soubory aplikace Excel v aplikacích .NET bez nutnosti instalace aplikace Microsoft Excel.
 
-#### Otázka: Jak zjistím, zda byla položka vzorce Power Query úspěšně aktualizována?
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### Potřebuji ke spuštění Aspose.Cells Microsoft Excel?
+Ne, Aspose.Cells vám umožňuje vytvářet a upravovat soubory Excelu programově bez nutnosti aplikace Excel na vašem serveru nebo vývojovém počítači.
 
-#### Otázka: Mohu aktualizovat více položek vzorce Power Query najednou?
-    
-Odpověď: Ano, můžete procházet kolekci položek vzorců Power Query a aktualizovat více položek v jedné smyčce v závislosti na vašich konkrétních potřebách.
+### jakými typy souborů Excel mohu pracovat pomocí Aspose.Cells?
+Pomocí Aspose.Cells můžete pracovat s .xlsx, .xls, .xlsm a několika dalšími formáty aplikace Excel.
 
-#### Otázka: Existují další operace, které mohu provádět se vzorci Power Query pomocí Aspose.Cells?
-    
-Odpověď: Ano, Aspose.Cells nabízí celou řadu funkcí pro práci se vzorci Power Query, včetně vytváření, mazání, kopírování a vyhledávání vzorců v excelovém sešitu.
+### Je k dispozici zkušební verze pro Aspose.Cells?
+ Ano, můžete si stáhnout bezplatnou zkušební verzi z[Stránka vydání Aspose Cells](https://releases.aspose.com/).
+
+### Jak mohu získat podporu pro Aspose.Cells?
+ K podpoře se můžete dostat přes[Aspose fórum](https://forum.aspose.com/c/cells/9), kde můžete klást otázky a hledat odpovědi od komunity a týmu Aspose.

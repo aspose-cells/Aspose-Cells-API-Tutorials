@@ -2,117 +2,146 @@
 title: Linktypen erkennen
 linktitle: Linktypen erkennen
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erkennen Sie Linktypen in einer Excel-Arbeitsmappe mit Aspose.Cells für .NET.
+description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinktypen in Excel erkennen. Einfache Schritte und Codebeispiele enthalten.
 type: docs
 weight: 80
 url: /de/net/excel-workbook/detect-link-types/
 ---
-In diesem Tutorial führen wir Sie Schritt für Schritt durch den bereitgestellten C#-Quellcode, der es Ihnen ermöglicht, Linktypen in einer Excel-Arbeitsmappe mithilfe von Aspose.Cells für .NET zu erkennen. Befolgen Sie die nachstehenden Schritte, um diesen Vorgang auszuführen.
+## Einführung
 
-## Schritt 1: Quellverzeichnis festlegen
+Haben Sie schon einmal tief in einer Tabellenkalkulation gesteckt und die überall in Ihrem Excel-Dokument verstreuten Hyperlinks genau untersucht? Damit sind Sie nicht allein! Hyperlinks sind entscheidend, um die Navigation zu verbessern und dynamische Ressourcen in Ihre Tabellenkalkulationen einzubinden. Aber verstehen Sie den Unterschied zwischen diesen Links? Egal, ob Sie ein angehender Excel-Enthusiast oder ein erfahrener Profi sind: Wenn Sie wissen, wie Sie Linktypen erkennen und kategorisieren, können Sie Ihre Datenverwaltung erheblich optimieren. Hier kommt Aspose.Cells für .NET ins Spiel, eine leistungsstarke Bibliothek, die die Arbeit mit Excel-Dateien in .NET-Anwendungen vereinfacht. In diesem Tutorial führen wir Sie durch die Erkennung von Hyperlinktypen mit Aspose.Cells. Am Ende verfügen Sie über das Wissen, um Hyperlinks in Ihren Excel-Dokumenten effizient zu handhaben.
+
+## Voraussetzungen
+
+Bevor wir uns mit der Untersuchung der Hyperlink-Typen befassen, müssen Sie sicherstellen, dass Sie über die richtigen Tools und Kenntnisse verfügen. Folgendes benötigen Sie:
+
+1. Grundkenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung helfen Ihnen, problemlos mitzukommen.
+2. Visual Studio installiert: Sie müssen Visual Studio oder eine andere kompatible IDE auf Ihrem Computer installieren, um Ihre .NET-Anwendungen ausführen zu können.
+3.  Aspose.Cells für .NET-Bibliothek: Falls noch nicht geschehen, müssen Sie die Aspose.Cells-Bibliothek herunterladen und installieren. Sie finden sie[Hier](https://releases.aspose.com/cells/net/).
+4.  Beispiel-Excel-Datei: Stellen Sie für dieses Tutorial sicher, dass Sie eine Excel-Datei mit dem Namen haben`LinkTypes.xlsx`. Es kann von Grund auf neu erstellt oder aus dem Internet heruntergeladen werden.
+
+Wenn diese Voraussetzungen erfüllt sind, kann es losgehen!
+
+## Pakete importieren
+
+Beginnen wir mit dem Importieren der erforderlichen Pakete. In Ihrer C#-Anwendung müssen Sie auf die Aspose.Cells-Bibliothek und alle anderen erforderlichen Namespaces verweisen. So richten Sie das ein.
+
+### Richten Sie Ihr Projekt ein
+
+Öffnen Sie Visual Studio und erstellen Sie eine neue Konsolenanwendung. Sobald Ihr Projekt fertig ist, führen Sie die folgenden Schritte aus:
+
+1. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf das Projekt.
+2. Wählen Sie „NuGet-Pakete verwalten“.
+3. Suchen Sie nach „Aspose.Cells“ und installieren Sie es.
+
+### Erforderliche Namespaces importieren
+
+Importieren wir nun die für unsere Aufgabe benötigten Namespaces. Fügen Sie oben in Ihrer Datei Program.cs die folgenden Zeilen hinzu:
 
 ```csharp
-// Quellverzeichnis
+using Aspose.Cells.WebExtensions;
+using System;
+```
+
+Nachdem diese Importe durchgeführt wurden, können wir beginnen, unsere Excel-Datei wie ein Profi zu bearbeiten!
+
+Jetzt geht der Spaß erst richtig los! Wir zerlegen den von Ihnen bereitgestellten Codeausschnitt in eine Schritt-für-Schritt-Anleitung. Jeder Schritt erklärt klar und prägnant, was wir tun.
+
+## Schritt 1: Definieren Sie das Quellverzeichnis
+
+ Hier geben wir an, wo sich unsere Excel-Datei befindet. Lassen Sie uns das Quellverzeichnis festlegen, damit Aspose.Cells weiß, wo sich unsere`LinkTypes.xlsx`.
+
+```csharp
+// Definieren Sie das Quellverzeichnis
 string SourceDir = RunExamples.Get_SourceDirectory();
 ```
 
-In diesem ersten Schritt definieren wir das Quellverzeichnis, in dem sich die Excel-Arbeitsmappe mit den Links befindet.
+Diese Zeile verweist auf das Verzeichnis, das die Excel-Datei enthält. Stellen Sie sicher, dass Sie den Pfad entsprechend dem Speicherort Ihrer Datei anpassen.
 
-## Schritt 2: Excel-Arbeitsmappe laden
+## Schritt 2: Laden Sie die Arbeitsmappe
+
+Als Nächstes laden wir unsere Arbeitsmappe. Das ist, als ob Ihre Excel-Datei im Hintergrund geöffnet wird, sodass wir ihren Inhalt lesen und bearbeiten können.
 
 ```csharp
-// Laden Sie die Excel-Arbeitsmappe
+// Laden der Arbeitsmappe
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
-Wir laden die Excel-Arbeitsmappe mithilfe des Quelldateipfads.
+ Folgendes passiert: Wir erstellen eine Instanz des`Workbook` Klasse und übergeben Sie den Pfad unserer Excel-Datei. Wenn alles glatt läuft, ist Ihre Arbeitsmappe jetzt einsatzbereit!
 
-## Schritt 3: Holen Sie sich die Tabelle
+## Schritt 3: Zugriff auf das Arbeitsblatt
+
+Jede Arbeitsmappe kann mehrere Arbeitsblätter enthalten. Für dieses Beispiel arbeiten wir mit dem ersten Arbeitsblatt. Greifen wir darauf zu!
 
 ```csharp
-// Erstes Arbeitsblatt abrufen (Standard)
+// Holen Sie sich das erste (Standard-)Arbeitsblatt
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Wir erhalten das erste Arbeitsblatt der Arbeitsmappe. Sie können das ändern`[0]` index, um bei Bedarf auf ein bestimmtes Arbeitsblatt zuzugreifen.
+ Was wir hier tun, ist einfach das erste Arbeitsblatt in unserer Arbeitsmappe auszuwählen. Der Index`[0]` bedeutet „zuerst“, genau wie Zählen in der Welt der Programmierung.
 
-## Schritt 4: Erstellen Sie einen Zellbereich
+## Schritt 4: Erstellen Sie einen Bereich
+
+ Nun definieren wir einen Bereich innerhalb des Arbeitsblatts. Ein Bereich ermöglicht es uns, bestimmte Zellen für unsere Operationen anzusprechen. In diesem Fall erstellen wir einen Bereich von`A1` Zu`A7`, das unsere Hyperlinks enthält.
 
 ```csharp
-// Erstellen Sie einen Zellbereich A1:B3
+// Erstellen Sie einen Bereich A1:B3
 Range range = worksheet.Cells.CreateRange("A1", "A7");
 ```
 
-Wir erstellen einen Zellbereich, in diesem Beispiel von Zelle A1 bis Zelle A7. Sie können Zellbezüge nach Bedarf anpassen.
+Mit diesem Bereich können wir problemlos Hyperlinks innerhalb dieser Zellen abrufen.
 
-## Schritt 5: Bringen Sie die Hyperlinks in Reichweite
+## Schritt 5: Hyperlinks abrufen
 
-```csharp
-// Holen Sie sich die Hyperlinks im Bereich
-Hyperlink[] hyperlinks = range.Hyperlinks;
-```
-
-Wir erhalten alle im angegebenen Bereich vorhandenen Hyperlinks.
-
-## Schritt 6: Durchsuchen Sie Hyperlinks und zeigen Sie Linktypen an
+Jetzt kommt der spannende Teil: das Herausziehen der Hyperlinks! Wir extrahieren die Hyperlinks aus unserem definierten Bereich.
 
 ```csharp
-foreach (Hyperlink link in hyperlinks)
-{
-Console.WriteLine(link.TextToDisplay + ": " + link.LinkType);
-}
-```
-
-Wir durchlaufen jeden Link und zeigen den Anzeigetext und den zugehörigen Linktyp an.
-
-### Beispielquellcode für die Erkennung von Linktypen mithilfe von Aspose.Cells für .NET 
-```csharp
-//Quellverzeichnis
-string SourceDir = RunExamples.Get_SourceDirectory();
-Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
-// Rufen Sie das erste (Standard-)Arbeitsblatt ab
-Worksheet worksheet = workbook.Worksheets[0];
-// Erstellen Sie einen Bereich A2:B3
-Range range = worksheet.Cells.CreateRange("A1", "A7");
 // Holen Sie sich Hyperlinks in Reichweite
 Hyperlink[] hyperlinks = range.Hyperlinks;
+```
+
+ Jetzt,`hyperlinks` enthält ein Array aller Hyperlinks, die innerhalb des angegebenen Bereichs gefunden wurden. Stellen Sie sich vor, Sie hätten eine Schatzkiste voller wertvoller Links, die darauf warten, untersucht zu werden!
+
+## Schritt 6: Durch Hyperlinks schleifen
+
+Hier durchlaufen wir jeden Hyperlink und drucken seinen Anzeigetext zusammen mit seinem Typ.
+
+```csharp
 foreach (Hyperlink link in hyperlinks)
 {
-	Console.WriteLine(link.TextToDisplay + ": " + link.LinkType);
+    Console.WriteLine(link.TextToDisplay + ": " + link.LinkType);
 }
+```
+
+ Diese Schleife nimmt jeden Hyperlink, greift auf seine Eigenschaften zu und zeigt sie in der Konsole an.`TextToDisplay` Eigenschaft gibt uns den in der Zelle sichtbaren Text, während`LinkType` sagt uns, um welche Art von Hyperlink es sich handelt (z. B. extern, intern, E-Mail usw.). Das ist, als würde Ihnen mitgeteilt, ob der Link zu einer anderen Webseite, einem anderen Teil derselben Tabelle oder einem E-Mail-Entwurf führt!
+
+## Schritt 7: Abschließende Bestätigungsnachricht
+
+Fügen wir abschließend eine einfache Bestätigungsnachricht hinzu, um anzuzeigen, dass der Vorgang erfolgreich abgeschlossen wurde.
+
+```csharp
 Console.WriteLine("DetectLinkTypes executed successfully.");
 ```
 
+Damit können wir bestätigen, dass unser Programm reibungslos lief. Ein sanfter Stupser sagt: „Hey, alles fertig!“
+
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben gelernt, wie Sie mit Aspose.Cells für .NET Linktypen in einer Excel-Arbeitsmappe erkennen. Mit dieser Funktion können Sie mit den in Ihren Excel-Arbeitsmappen vorhandenen Hyperlinks arbeiten. Erkunden Sie weiterhin die Funktionen von Aspose.Cells, um die Verarbeitungsmöglichkeiten Ihrer Excel-Arbeitsmappe zu erweitern.
+Herzlichen Glückwunsch! Sie haben gerade den Prozess zum Erkennen von Hyperlinktypen in einer Excel-Datei mit Aspose.Cells für .NET durchlaufen. Jetzt wissen Sie, wie Sie eine Arbeitsmappe laden, einen Bereich erstellen und Hyperlinks zusammen mit ihren Typen extrahieren. Ist es nicht cool, wie ein paar Codezeilen so viele Informationen enthüllen können?
 
-### FAQs
+## Häufig gestellte Fragen
 
-#### F: Wie kann ich Aspose.Cells für .NET in meinem Projekt installieren?
+### Was ist Aspose.Cells für .NET?  
+Aspose.Cells für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Excel-Dateien in .NET-Anwendungen zu bearbeiten, ohne dass Microsoft Excel installiert sein muss.
 
- A: Sie können Aspose.Cells für .NET mit dem NuGet-Paketmanager installieren. Suchen nach[Aspose-Veröffentlichungen](https://releases.aspose.com/cells/net) in der NuGet Package Manager-Konsole und installieren Sie die neueste Version.
+### Wie installiere ich Aspose.Cells?  
+Sie können Aspose.Cells über NuGet in Visual Studio installieren, indem Sie in der Option „NuGet-Pakete verwalten“ nach „Aspose.Cells“ suchen.
 
-#### F: Kann ich Linktypen in bestimmten Arbeitsblättern und nicht im ersten Blatt erkennen?
+### Kann ich Aspose.Cells zum Erstellen von Excel-Dateien verwenden?  
+Auf jeden Fall! Aspose.Cells kann Excel-Dateien sowohl lesen als auch erstellen und ermöglicht so umfangreiche Datenbearbeitungs- und Berichtsfunktionen.
 
- A: Ja, Sie können das ändern`workbook.Worksheets[0]` index, um auf ein bestimmtes Arbeitsblatt zuzugreifen. Um beispielsweise auf das zweite Blatt zuzugreifen, verwenden Sie`workbook.Worksheets[1]`.
+### Mit welchen Arten von Hyperlinks kann ich arbeiten?  
+Sie können mit internen, externen und E-Mail-basierten Dokumenten sowie sogar mit Linktypen zu anderen Dokumenten in Ihren Excel-Dateien arbeiten.
 
-#### F: Ist es möglich, die im Bereich erkannten Linktypen zu ändern?
-
-A: Ja, Sie können Hyperlinks durchsuchen und Bearbeitungsvorgänge durchführen, z. B. URLs aktualisieren oder unerwünschte Links entfernen.
-
-#### F: Welche Arten von Links sind in Aspose.Cells für .NET möglich?
-
-A: Zu den möglichen Linktypen gehören Hyperlinks, Links zu anderen Arbeitsblättern, Links zu externen Dateien, Links zu Websites usw.
-
-#### F: Unterstützt Aspose.Cells für .NET das Erstellen neuer Links in einer Tabelle?
-
- A: Ja, Aspose.Cells für .NET unterstützt das Erstellen neuer Links mithilfe von`Hyperlink` Klasse und die damit verbundenen Eigenschaften. Sie können Hyperlinks, Links zu URLs, Links zu anderen Tabellenkalkulationen usw. hinzufügen.
-
-#### F: Kann ich Aspose.Cells für .NET in Webanwendungen verwenden?
-
-A: Ja, Aspose.Cells für .NET kann in Webanwendungen verwendet werden. Sie können es in ASP.NET, ASP.NET Core und andere .NET-basierte Web-Frameworks einbetten.
-
-#### F: Gibt es Dateigrößenbeschränkungen bei der Verwendung von Aspose.Cells für .NET?
-
-A: Aspose.Cells für .NET kann ohne besondere Einschränkung große Excel-Arbeitsmappen verarbeiten. Die tatsächliche Dateigröße kann jedoch durch die verfügbaren Systemressourcen begrenzt sein.
+### Wo erhalte ich Support für Aspose.Cells?  
+ Für Support besuchen Sie das Aspose-Forum[Hier](https://forum.aspose.com/c/cells/9).

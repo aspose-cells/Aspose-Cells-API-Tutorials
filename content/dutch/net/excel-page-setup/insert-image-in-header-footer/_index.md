@@ -1,185 +1,151 @@
 ---
-title: Afbeelding invoegen in koptekst-voettekst
-linktitle: Afbeelding invoegen in koptekst-voettekst
+title: Afbeelding invoegen in koptekst/voettekst
+linktitle: Afbeelding invoegen in koptekst/voettekst
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u een afbeelding invoegt in de kop- of voettekst van een Excel-document met Aspose.Cells voor .NET. Stap voor stap handleiding met broncode in C#.
+description: Leer hoe u afbeeldingen in kopteksten en voetteksten kunt invoegen met Aspose.Cells voor .NET met deze uitgebreide stapsgewijze handleiding.
 type: docs
 weight: 60
 url: /nl/net/excel-page-setup/insert-image-in-header-footer/
 ---
-De mogelijkheid om een afbeelding in de kop- of voettekst van een Excel-document in te voegen kan erg handig zijn voor het aanpassen van uw rapporten of het toevoegen van bedrijfslogo's. In dit artikel begeleiden we u stap voor stap bij het invoegen van een afbeelding in de kop- of voettekst van een Excel-document met behulp van Aspose.Cells voor .NET. U leert hoe u dit kunt bereiken met behulp van C#-broncode.
+## Invoering
 
-## Stap 1: De omgeving instellen
+Bij het werken met Excel-bestanden spelen headers en footers een cruciale rol bij het bieden van context en waardevolle informatie. Stel je voor dat je een rapport voor je bedrijf opstelt en het bedrijfslogo moet in de header aanwezig zijn om het een professionele uitstraling te geven. In deze handleiding laten we je zien hoe je Aspose.Cells voor .NET gebruikt om een afbeelding in de header of footer van je Excel-sheets in te voegen.
 
-Zorg ervoor dat Aspose.Cells voor .NET op uw computer is geïnstalleerd voordat u begint. Maak ook een nieuw project aan in de ontwikkelomgeving van uw voorkeur.
+## Vereisten
 
-## Stap 2: Importeer de benodigde bibliotheken
+Voordat u zich in de daadwerkelijke code verdiept, moet u een aantal dingen paraat hebben:
 
-Importeer in uw codebestand de bibliotheken die nodig zijn om met Aspose.Cells te werken. Hier is de bijbehorende code:
+1. Aspose.Cells voor .NET-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek in uw .NET-omgeving hebt geïnstalleerd. Als u deze nog niet hebt, kunt u[download het hier](https://releases.aspose.com/cells/net/).
+2. Visual Studio of een andere IDE: U hebt een geïntegreerde ontwikkelomgeving nodig om uw C#-code te schrijven en uit te voeren.
+3.  Een voorbeeldafbeelding: Bereid een afbeelding voor die u in de header of footer wilt invoegen. Voor ons voorbeeld gebruiken we een bedrijfslogo genaamd`aspose-logo.jpg`.
+4. Basiskennis van C#: Hoewel het niet verplicht is, zal een goede kennis van C# het makkelijker maken om deze tutorial te volgen.
+5. Toegang tot bestandssysteem: Zorg ervoor dat u toegang hebt tot het bestandssysteem waar u de afbeelding kunt lezen en het Excel-bestand kunt opslaan.
+
+## Pakketten importeren
+
+Om te beginnen moet u de benodigde namespaces importeren in uw C#-bestand. Hier is een korte uitsplitsing:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
+using System;
 ```
 
-## Stap 3: Stel de documentmap in
+Deze imports bieden toegang tot alle klassen die we nodig hebben om Excel-bestanden te bewerken en bestanden op het systeem te beheren.
 
-Stel de map in waar het Excel-document waarmee u wilt werken zich bevindt. Gebruik de volgende code om de map in te stellen:
+## Stap 1: Het directorypad instellen
+
+Eerst moet u de directory opgeven waar uw Excel-bestanden en afbeeldingen zich bevinden. Werk het pad bij zodat het past bij uw lokale structuur.
 
 ```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Dienovereenkomstig bijwerken
 ```
 
-Zorg ervoor dat u het volledige mappad opgeeft.
+ Deze lijn stelt de`dataDir` variabele, die het basispad is voor het vinden van de afbeelding die u in de header wilt invoegen.
 
-## Stap 4: Een werkmapobject maken
+## Stap 2: Een werkmapobject maken
 
-Het Workbook-object vertegenwoordigt het Excel-document waarmee u gaat werken. Je kunt het maken met de volgende code:
+Vervolgens moet u een nieuwe werkmap maken waaraan u uw afbeelding toevoegt.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Hierdoor wordt een nieuw leeg werkmapobject gemaakt.
+ Deze regel code initialiseert een nieuw exemplaar van de`Workbook` klasse, waarmee u Excel-spreadsheets kunt bewerken.
 
-## Stap 5: De afbeeldings-URL opslaan
+## Stap 3: Het pad van de afbeelding definiëren
 
-Definieer de URL of het pad van de afbeelding die u in de kop- of voettekst wilt invoegen. Gebruik de volgende code om de afbeeldings-URL op te slaan:
+ Het is tijd om een stringvariabele te maken om het pad naar de afbeelding die u wilt gebruiken vast te leggen. In ons geval gebruiken we`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
 ```
 
-Zorg ervoor dat het opgegeven pad correct is en dat de afbeelding op die locatie bestaat.
+Hier voegen we het directorypad samen met de naam van het logobestand.
 
-## Stap 6: Het afbeeldingsbestand openen
+## Stap 4: De afbeelding lezen als binaire gegevens
 
-Om het afbeeldingsbestand te openen, gebruiken we een FileStream-object en lezen we de binaire gegevens uit de afbeelding. Hier is de bijbehorende code:
+Om de afbeelding in de header in te voegen, moeten we het afbeeldingsbestand als binaire gegevens lezen.
 
 ```csharp
-FileStream inFile;
-byte[] binaryData;
-
-inFile = new System.IO.FileStream(logo_url, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-binaryData = new Byte[inFile.Length];
+FileStream inFile = new FileStream(logo_url, FileMode.Open, FileAccess.Read);
+byte[] binaryData = new byte[inFile.Length];
 long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 ```
 
-Zorg ervoor dat het afbeeldingspad correct is en dat u over de juiste toegangsrechten beschikt.
+-  De`FileStream` wordt gebruikt om de afbeelding in leesmodus te openen.
+-  Vervolgens declareren we een byte-array`binaryData` om de beeldgegevens vast te houden.
+-  Ten slotte lezen we de beeldgegevens van de`FileStream`.
 
-## Stap 7: Configureren van de PageSetup
+## Stap 5: Toegang krijgen tot het pagina-instellingsobject
 
-Het PageSetup-object wordt gebruikt om de pagina-instellingen van het Excel-document in te stellen, inclusief de kop- en voettekst. Gebruik de volgende code om het PageSetup-object van het eerste werkblad op te halen:
+ Om wijzigingen in de header aan te brengen, moeten we toegang krijgen tot de`PageSetup` object dat aan het eerste werkblad is gekoppeld. 
 
 ```csharp
-PageSetup pageSetup = workbook. Worksheets
-
-[0].PageSetup;
+PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
-Hiermee krijgt u toegang tot de pagina-instellingen voor het eerste werkblad in de werkmap.
+ Hier krijgen we de`PageSetup` object, waarmee we de afdrukinstellingen voor het werkblad kunnen aanpassen.
 
-## Stap 8: De afbeelding aan de header toevoegen
+## Stap 6: De afbeelding in de header invoegen
 
-Gebruik de SetHeaderPicture() -methode van het PageSetup-object om de afbeelding in het middelste gedeelte van de paginakop in te stellen. Hier is de bijbehorende code:
+Nu we de binaire gegevens van de afbeelding bij de hand hebben, kunnen we deze in de header invoegen.
 
 ```csharp
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
-Hierdoor wordt de opgegeven afbeelding aan de paginakop toegevoegd.
+ Deze regel plaatst de afbeelding in het centrale gedeelte van de header. De parameter`1` specificeert de headersectie.
 
-## Stap 9: Een script aan de header toevoegen
+## Stap 7: De headerinhoud instellen
 
-Als u script aan de paginakop wilt toevoegen, gebruikt u de SetHeader()-methode van het PageSetup-object. Hier is de bijbehorende code:
-
-```csharp
-pageSetup.SetHeader(1, "&G");
-```
-
-Hierdoor wordt het opgegeven script aan de paginakop toegevoegd. In dit voorbeeld geeft het script "&G" het paginanummer weer.
-
-## Stap 10: Voeg de bladnaam toe aan de koptekst
-
-Om de bladnaam in de paginakop weer te geven, gebruikt u opnieuw de SetHeader()-methode van het PageSetup-object. Hier is de bijbehorende code:
+Nu de afbeelding op de juiste plek staat, kunnen we wat tekst aan de header toevoegen om de context ervan te verbeteren. 
 
 ```csharp
-pageSetup.SetHeader(2, "&A");
+pageSetup.SetHeader(1, "&G"); // Voegt de afbeelding in
+pageSetup.SetHeader(2, "&A"); // Voegt de bladnaam in
 ```
 
-Hiermee wordt de bladnaam aan de paginakop toegevoegd. Het "&A"-script wordt gebruikt om de bladnaam weer te geven.
+- De eerste regel voegt de tijdelijke aanduiding voor de afbeelding in (`&G`).
+- De tweede regel voegt de bladnaam toe aan het rechtergedeelte van de koptekst, met behulp van de tijdelijke aanduiding (`&A`).
 
-## Stap 11: De werkmap opslaan
+## Stap 8: De werkmap opslaan
 
-Als u wijzigingen in de werkmap wilt opslaan, gebruikt u de Save()-methode van het Workbook-object. Hier is de bijbehorende code:
+Nadat u alle benodigde wijzigingen hebt aangebracht, is het tijd om de werkmap op te slaan.
 
 ```csharp
 workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
 ```
 
-Hiermee wordt de werkmap opgeslagen met de wijzigingen in de opgegeven map.
+Met deze regel wordt de werkmap met de opgegeven bestandsnaam opgeslagen in de map die u eerder hebt gedefinieerd.
 
-## Stap 12: FileStream sluiten
+## Stap 9: De FileStream sluiten
 
-Nadat u de binaire gegevens van de afbeelding hebt gelezen, moet u FileStream sluiten om de bronnen vrij te maken. Gebruik de volgende code om FileStream te sluiten:
+ Vergeet ten slotte niet om uw`FileStream` om de middelen vrij te maken.
 
 ```csharp
 inFile.Close();
 ```
 
-Zorg ervoor dat u FileStreams altijd sluit als u klaar bent met het gebruik ervan.
+Zo blijft uw applicatie overzichtelijk en voorkomt u geheugenlekken.
 
-### Voorbeeldbroncode voor het invoegen van een afbeelding in de koptekstvoettekst met Aspose.Cells voor .NET 
-```csharp
-//Het pad naar de documentenmap.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Een werkmapobject maken
-Workbook workbook = new Workbook();
-// Een stringvariabele maken om de URL van het logo/de afbeelding op te slaan
-string logo_url = dataDir + "aspose-logo.jpg";
-// Een FileStream-object declareren
-FileStream inFile;
-// Een byte-array declareren
-byte[] binaryData;
-// Het exemplaar van het FileStream-object maken om het logo/de afbeelding in de stream te openen
-inFile = new System.IO.FileStream(logo_url, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-// Instantie van de byte-array van de grootte van het FileStream-object
-binaryData = new Byte[inFile.Length];
-// Leest een blok bytes uit de stroom en schrijft gegevens in een bepaalde buffer of byte-array.
-long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
-// Een PageSetup-object maken om de pagina-instellingen van het eerste werkblad van de werkmap op te halen
-PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
-// Het logo/afbeelding instellen in het centrale gedeelte van de paginakop
-pageSetup.SetHeaderPicture(1, binaryData);
-// Het script voor het logo/de afbeelding instellen
-pageSetup.SetHeader(1, "&G");
-// De naam van het blad instellen in het rechtergedeelte van de paginakop met het script
-pageSetup.SetHeader(2, "&A");
-// De werkmap opslaan
-workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
-//Het FileStream-object sluiten
-inFile.Close();       
-```
 ## Conclusie
 
-Gefeliciteerd! U weet nu hoe u een afbeelding in de kop- of voettekst van een Excel-document kunt invoegen met Aspose.Cells voor .NET. In deze zelfstudie wordt u door elke stap van het proces geleid, van het instellen van de omgeving tot het opslaan van de gewijzigde werkmap. Voel je vrij om meer te experimenteren met de functies van Aspose.Cells om gepersonaliseerde en professionele Excel-documenten te maken.
+Gefeliciteerd! U hebt met succes een afbeelding toegevoegd aan de header van een Excel-bestand met Aspose.Cells voor .NET. Of het nu een bedrijfslogo of een inspirerend citaat is, headers kunnen de professionaliteit van uw documenten aanzienlijk verbeteren. Nu kunt u deze kennis toepassen op verschillende projecten: stel u eens voor hoe gepolijst uw rapporten eruit zullen zien met aangepaste headers en footers!
 
-### Veelgestelde vragen
+## Veelgestelde vragen
 
-#### Vraag 1: Is het mogelijk om meerdere afbeeldingen in de kop- of voettekst van een Excel-document in te voegen?
+### Welke bestandsformaten ondersteunt Aspose.Cells voor afbeeldingen?
+Aspose.Cells ondersteunt verschillende formaten, waaronder JPEG, PNG, BMP, GIF en TIFF.
 
-A1: Ja, u kunt meerdere afbeeldingen in de kop- of voettekst van een Excel-document invoegen door stap 8 en 9 voor elke extra afbeelding te herhalen.
+### Kan ik meerdere afbeeldingen in de kop-/voettekst invoegen?
+Ja, u kunt afzonderlijke afbeeldingen in verschillende secties van de kop- of voettekst invoegen door verschillende tijdelijke aanduidingen te gebruiken.
 
-#### Vraag 2: Welke afbeeldingsformaten worden ondersteund voor invoeging in kop- of voettekst?
-A2: Aspose.Cells ondersteunt een verscheidenheid aan veelgebruikte afbeeldingsformaten zoals JPEG, PNG, GIF, BMP, enz.
+### Is Aspose.Cells gratis?
+ Aspose.Cells biedt een gratis proefperiode, maar er is een gelicentieerde versie beschikbaar voor volledige toegang en extra functies. U kunt een[tijdelijke licentie hier](https://purchase.aspose.com/temporary-license/).
 
-#### V3: Kan ik het uiterlijk van de kop- of voettekst verder aanpassen?
+### Hoe kan ik problemen oplossen met afbeeldingen die niet worden weergegeven?
+Zorg ervoor dat het pad van de afbeelding correct is en dat het bestand bestaat. Controleer ook de compatibiliteit van de afbeeldingsindeling.
 
-A3: Ja, u kunt speciale scripts en codes gebruiken om het uiterlijk van de kop- of voettekst verder op te maken en aan te passen. Raadpleeg de Aspose.Cells-documentatie voor meer informatie over aanpassingsopties.
-
-#### V4: Werkt Aspose.Cells met verschillende versies van Excel?
-
-A4: Ja, Aspose.Cells is compatibel met verschillende versies van Excel, waaronder Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016 en Excel 2019.
-
-#### Vraag 5: Is het mogelijk om afbeeldingen in andere delen van het Excel-document in te voegen, zoals cellen of grafieken?
-
-A5: Ja, Aspose.Cells biedt uitgebreide functionaliteit voor het invoegen van afbeeldingen in verschillende delen van het Excel-document, inclusief cellen, grafieken en tekenobjecten.
+### Waar kan ik aanvullende documentatie voor Aspose.Cells vinden?
+ Gedetailleerde documentatie vindt u hier[hier](https://reference.aspose.com/cells/net/).

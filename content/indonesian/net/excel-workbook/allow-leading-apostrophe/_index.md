@@ -1,139 +1,158 @@
 ---
-title: Izinkan Apostrof Terkemuka
-linktitle: Izinkan Apostrof Terkemuka
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Izinkan tanda kutip utama di buku kerja Excel dengan Aspose.Cells untuk .NET.
+title: Izinkan Apostrof Utama
+linktitle: Izinkan Apostrof Utama
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Kelola apostrof awal di Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Tutorial komprehensif ini memandu Anda langkah demi langkah melalui prosesnya.
 type: docs
 weight: 60
 url: /id/net/excel-workbook/allow-leading-apostrophe/
 ---
-Dalam tutorial langkah demi langkah ini, kami akan menjelaskan kode sumber C# yang disediakan yang memungkinkan Anda mengizinkan penggunaan tanda kutip utama di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah di bawah ini untuk melakukan operasi ini.
+## Perkenalan
 
-## Langkah 1: Tetapkan direktori sumber dan keluaran
+Selamat datang di panduan langkah demi langkah tentang cara menggunakan Aspose.Cells untuk .NET guna mengelola lembar kerja dengan lancar, khususnya berfokus pada penanganan apostrof awal dalam nilai sel. Kemampuan mengelola data secara efektif sangat penting dalam dunia yang berpusat pada data saat ini. Pernahkah Anda memperhatikan bagaimana Excel terkadang dapat memperlakukan nilai teks yang diawali dengan apostrof secara berbeda? Hal ini dapat menyebabkan hasil yang tidak diharapkan jika Anda mengotomatiskan tugas Excel dengan kode .NET. Jangan khawatir! Tutorial ini akan membantu Anda mengatasinya. 
 
-```csharp
-// direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+## Prasyarat
 
-Pada langkah pertama ini, kami menentukan direktori sumber dan keluaran untuk file Excel.
+Sebelum menyelami kodenya, berikut adalah beberapa prasyarat yang perlu Anda penuhi:
 
-## Langkah 2: Buat instance objek WorkbookDesigner
+1. Pengetahuan Dasar tentang .NET: Keakraban dengan framework .NET sangatlah penting. Jika Anda sudah menguasai C# atau VB.NET, anggaplah Anda sudah siap.
+2. Pustaka Aspose.Cells untuk .NET: Anda harus menginstal Aspose.Cells. Anda dapat melakukannya dengan mudah melalui pengelola paket NuGet atau mengunduhnya dari[Situs Aspose](https://releases.aspose.com/cells/net/).
+3. Penyiapan IDE: Pastikan Anda memiliki Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio yang siap untuk pengkodean.
+4. Contoh File Excel: Anda dapat menggunakan file contoh ("AllowLeadingApostropheSample.xlsx") yang akan kita gunakan dalam kode.
 
-```csharp
-// Membuat instance objek WorkbookDesigner
-WorkbookDesigner designer = new WorkbookDesigner();
-```
+Sekarang setelah Anda memenuhi prasyarat, mari impor paket yang diperlukan dan siapkan proyek kita.
 
- Kami membuat sebuah instance dari`WorkbookDesigner` kelas dari Aspose.Cells.
+## Paket Impor
 
-## Langkah 3: Muat Buku Kerja Excel
+Untuk memulai, Anda perlu mengimpor beberapa paket penting. Berikut cara melakukannya:
 
 ```csharp
-// Muat buku kerja Excel
-Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
-designer.Workbook = workbook;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.Collections.Generic;
 ```
 
-Kami memuat buku kerja Excel dari file yang ditentukan dan menonaktifkan konversi otomatis apostrof awal ke gaya teks.
+Pastikan Anda telah menambahkan referensi ke Aspose.Cells di proyek Anda. Jika Anda menggunakan Visual Studio, Anda dapat melakukannya dengan mencari "Aspose.Cells" di bawah NuGet Package Manager.
 
-## Langkah 4: Tetapkan Sumber Data
+Kami akan membagi tugas kami menjadi langkah-langkah yang dapat dikelola untuk memastikan kejelasan.
 
-```csharp
-// Tentukan sumber data untuk buku kerja desainer
-List<DataObject> list = new List<DataObject>
-{
-new DataObject
-{
-Id=1,
-Name = "demo"
-},
-new DataObject
-{
-ID=2,
-Name = "'demo"
-}
-};
-designer.SetDataSource("sampleData", list);
-```
+## Langkah 1: Menyiapkan Direktori Sumber dan Output
 
- Kami mendefinisikan daftar objek data dan menggunakan`SetDataSource` metode untuk mengatur sumber data untuk buku kerja desainer.
+Pada langkah ini, kita perlu menentukan di mana file masukan dan keluaran kita akan ditempatkan.
 
-## Langkah 5: Proses penanda cerdas
-
-```csharp
-// Proses penanda cerdas
-designer. Process();
-```
-
- Kami menggunakan`Process` metode untuk memproses penanda cerdas di buku kerja desainer.
-
-## Langkah 6: Simpan buku kerja Excel yang dimodifikasi
-
-```csharp
-// Simpan buku kerja Excel yang dimodifikasi
-designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
-```
-
-Kami menyimpan buku kerja Excel yang dimodifikasi dengan perubahan yang dilakukan.
-
-### Contoh kode sumber untuk Izinkan Apostrof Terkemuka menggunakan Aspose.Cells untuk .NET 
 ```csharp
 //Direktori sumber
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+
+ Di sini, kami menggunakan metode utilitas`Get_SourceDirectory()` Dan`Get_OutputDirectory()` untuk mengatur jalur berkas dengan mudah. Anda dapat menyesuaikan jalur ini sesuai dengan struktur direktori Anda.
+
+## Langkah 2: Buat Objek Desainer Buku Kerja
+
+Sekarang, kita akan membuat WorkbookDesigner, yang sangat penting untuk bekerja dengan penanda pintar di Aspose.Cells.
+
+```csharp
 // Membuat instance objek WorkbookDesigner
 WorkbookDesigner designer = new WorkbookDesigner();
+```
+
+ Itu`WorkbookDesigner` mengelola desain dan pengikatan data buku kerja kita, membuat hidup kita lebih mudah saat mengonversi data ke dalam format visual.
+
+## Langkah 3: Muat Buku Kerja yang Ada
+
+Berikutnya, kita akan memuat buku kerja yang ada yang berisi penanda pintar kita.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
+```
+
+File Excel contoh di sini perlu berisi penanda cerdas agar fitur ini bermanfaat. Dengan cara ini, kita dapat mengganti penanda dengan data kustom kita.
+
+## Langkah 4: Konfigurasikan Pengaturan Buku Kerja
+
+Sekarang, Anda perlu memastikan pengaturan buku kerja dikonfigurasikan untuk menangani apostrof di depan dengan tepat.
+
+```csharp
 workbook.Settings.QuotePrefixToStyle = false;
-// Buka spreadsheet desainer yang berisi penanda cerdas
-designer.Workbook = workbook;
+```
+
+ Dengan pengaturan`QuotePrefixToStyle`menjadi false, kami menginstruksikan Aspose.Cells untuk memperlakukan apostrof di depan sebagai karakter biasa, yang memungkinkan kami menanganinya secara akurat dalam keluaran kami.
+
+## Langkah 5: Muat Data untuk Penanda Cerdas
+
+Sekarang saatnya membuat sumber data kita, yang akan menggantikan penanda pintar dalam templat Excel.
+
+```csharp
 List<DataObject> list = new List<DataObject>
 {
-	new DataObject
-	{
-		 Id =1,
-		 Name = "demo"
-	},
-	new DataObject
-	{
-		Id=2,
-		Name = "'demo"
-	}
+    new DataObject { Id = 1, Name = "demo" },
+    new DataObject { Id = 2, Name = "'demo" }
 };
-// Tetapkan sumber data untuk spreadsheet desainer
+```
+
+ Kami sedang membuat daftar`DataObject`, di mana salah satu nama sengaja menyertakan apostrof di awal. Ini akan membantu mengilustrasikan bagaimana Aspose.Cells menangani skenario semacam itu.
+
+## Langkah 6: Ikat Sumber Data ke Desainer
+
+Sekarang, kita akan mengikat sumber data kita ke perancang buku kerja.
+
+```csharp
 designer.SetDataSource("sampleData", list);
-// Proses penanda pintar
+```
+
+Pastikan "sampleData" cocok dengan penanda cerdas dalam berkas Excel Anda. Dengan cara ini, Aspose.Cells mengetahui tempat memasukkan data.
+
+## Langkah 7: Memproses Penanda Cerdas
+
+Mari kita lanjutkan untuk memproses penanda pintar dengan data yang telah kita sediakan.
+
+```csharp
 designer.Process();
+```
+
+Baris ini adalah tempat keajaiban terjadi; Aspose.Cells mengambil data Anda dan mengisi penanda pintar yang ditentukan dalam buku kerja Excel.
+
+## Langkah 8: Simpan Buku Kerja yang Diproses
+
+Terakhir, kami menyimpan buku kerja yang telah diperbarui ke berkas baru.
+
+```csharp
 designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
+```
+
+Ini menyimpan lembar Excel yang telah kita manipulasi dengan nama baru, memastikan kita tidak menimpa file asli.
+
+## Langkah 9: Konfirmasikan Eksekusi yang Berhasil
+
+Langkah terakhir kita adalah memberi tahu pengguna bahwa operasinya berhasil.
+
+```csharp
 Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 ```
 
+Keluaran konsol sederhana ini dapat meyakinkan Anda bahwa semua langkah telah dieksekusi tanpa hambatan apa pun.
+
 ## Kesimpulan
 
-Selamat! Anda mempelajari cara mengizinkan penggunaan tanda kutip di depan dalam buku kerja Excel menggunakan Aspose.Cells untuk .NET. Bereksperimenlah dengan data Anda sendiri untuk mengkustomisasi lebih lanjut buku kerja Excel Anda.
+Dalam panduan ini, kami telah menjelajahi seluk-beluk penanganan apostrof di Excel menggunakan Aspose.Cells untuk .NET. Dari menyiapkan lingkungan hingga memanipulasi file Excel secara efektif, Anda telah belajar menghilangkan potensi jebakan yang sering ditemui saat bekerja dengan string numerik dan pemformatan otomatis.
 
-### FAQ
+Sekarang, apakah Anda membuat laporan, membuat fungsionalitas untuk analisis data, atau mengelola impor dan ekspor data, Anda memiliki alat untuk menangani skenario tersebut dengan percaya diri!
 
-#### T: Apa yang dimaksud dengan izin apostrof di buku kerja Excel?
+## Pertanyaan yang Sering Diajukan
 
-J: Mengizinkan tanda kutip awal di buku kerja Excel memungkinkan data yang dimulai dengan tanda kutip ditampilkan dengan benar tanpa mengonversinya menjadi gaya teks. Ini berguna bila Anda ingin menyimpan apostrof sebagai bagian dari data.
+### Apa itu Aspose.Cells?
+Aspose.Cells adalah pustaka .NET yang canggih untuk membuat, memanipulasi, dan mengonversi file Excel dalam berbagai format secara terprogram.
 
-#### T: Mengapa saya perlu menonaktifkan konversi otomatis apostrof awal?
+### Bisakah saya menggunakan Aspose.Cells secara gratis?
+ Ya, Anda dapat menggunakan Aspose.Cells dengan mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
 
-J: Dengan menonaktifkan konversi otomatis kutipan terkemuka, Anda dapat mempertahankan penggunaannya seperti yang ada di data Anda. Hal ini menghindari modifikasi data yang tidak diinginkan saat membuka atau memanipulasi buku kerja Excel.
+### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
+ Anda dapat menemukan bantuan dan mengajukan pertanyaan di[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
 
-#### T: Bagaimana cara mengatur sumber data di buku kerja desainer?
+### Jenis file apa yang didukung Aspose.Cells?
+Aspose.Cells mendukung berbagai format, seperti XLS, XLSX, CSV, dan banyak lainnya.
 
- J: Untuk mengatur sumber data di buku kerja desainer, Anda bisa menggunakan`SetDataSource` metode yang menentukan nama sumber data dan daftar objek data terkait.
-
-#### T: Apakah mengizinkan apostrof di depan memengaruhi data lain di buku kerja Excel?
-
-J: Tidak, mengizinkan apostrof di depan hanya memengaruhi data yang diawali dengan apostrof. Data lain di buku kerja Excel tetap tidak berubah.
-
-#### T: Dapatkah saya menggunakan fitur ini dengan format file Excel lainnya?
-
-A: Ya, Anda dapat menggunakan fitur ini dengan format file Excel lain yang didukung oleh Aspose.Cells, seperti .xls, .xlsm, dll.
+### Bagaimana cara membeli lisensi untuk Aspose.Cells?
+ Anda dapat membeli lisensi untuk Aspose.Cells langsung dari halaman pembelian mereka[Di Sini](https://purchase.aspose.com/buy).

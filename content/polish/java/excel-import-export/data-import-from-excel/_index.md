@@ -1,21 +1,21 @@
 ---
-title: Import danych z Excela
-linktitle: Import danych z Excela
-second_title: Aspose.Cells API przetwarzania Java Excel
-description: Dowiedz się, jak importować dane z programu Excel za pomocą Aspose.Cells dla Java. Obszerny przewodnik z kodem źródłowym umożliwiający bezproblemowe wyszukiwanie danych.
+title: Import danych z programu Excel
+linktitle: Import danych z programu Excel
+second_title: Aspose.Cells Java Excel Processing API
+description: Dowiedz się, jak importować dane z programu Excel za pomocą Aspose.Cells for Java. Kompleksowy przewodnik z kodem źródłowym do bezproblemowego pobierania danych.
 type: docs
 weight: 16
 url: /pl/java/excel-import-export/data-import-from-excel/
 ---
 
-W tym obszernym przewodniku przeprowadzimy Cię przez proces importowania danych z plików Excel przy użyciu potężnej biblioteki Aspose.Cells for Java. Niezależnie od tego, czy pracujesz nad analizą danych, raportowaniem, czy jakąkolwiek aplikacją Java wymagającą integracji danych Excel, Aspose.Cells upraszcza to zadanie. Zacznijmy.
+W tym kompleksowym przewodniku przeprowadzimy Cię przez proces importowania danych z plików Excela przy użyciu potężnej biblioteki Aspose.Cells for Java. Niezależnie od tego, czy pracujesz nad analizą danych, raportowaniem, czy jakąkolwiek aplikacją Java, która wymaga integracji danych Excela, Aspose.Cells upraszcza to zadanie. Zaczynajmy.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
+Zanim zaczniesz pisać kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Środowisko programistyczne Java: Upewnij się, że w systemie zainstalowano pakiet Java JDK.
-2.  Aspose.Cells for Java: Pobierz i dołącz bibliotekę Aspose.Cells for Java do swojego projektu. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/cells/java/).
+1. Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowany Java JDK.
+2.  Aspose.Cells dla Java: Pobierz i uwzględnij bibliotekę Aspose.Cells dla Java w swoim projekcie. Link do pobrania znajdziesz[Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Tworzenie projektu Java
 
@@ -26,10 +26,10 @@ Zanim zagłębisz się w kod, upewnij się, że spełnione są następujące wym
 
 Aby dodać Aspose.Cells for Java do swojego projektu, wykonaj następujące kroki:
 
-1.  Pobierz bibliotekę Aspose.Cells for Java ze strony internetowej[Tutaj](https://releases.aspose.com/cells/java/).
-2. Dołącz pobrany plik JAR do ścieżki klas swojego projektu.
+1.  Pobierz bibliotekę Aspose.Cells dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/cells/java/).
+2. Dodaj pobrany plik JAR do ścieżki klas swojego projektu.
 
-## Odczyt danych z Excela
+## Odczytywanie danych z programu Excel
 
 Teraz napiszmy kod Java, aby odczytać dane z pliku Excel za pomocą Aspose.Cells. Oto prosty przykład:
 
@@ -42,14 +42,14 @@ public class ExcelDataImport {
         // Załaduj plik Excel
         Workbook workbook = new Workbook("input.xlsx");
 
-        // Uzyskaj dostęp do arkusza
+        // Uzyskaj dostęp do arkusza kalkulacyjnego
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         //Dostęp do danych komórki (np. A1)
         Cell cell = worksheet.getCells().get("A1");
         System.out.println("Data in cell A1: " + cell.getStringValue());
 
-        // Dostęp i iteracja po wierszach i kolumnach
+        // Uzyskaj dostęp i przejrzyj wiersze i kolumny
         for (int row = 0; row < worksheet.getCells().getMaxDataRow() + 1; row++) {
             for (int col = 0; col < worksheet.getCells().getMaxDataColumn() + 1; col++) {
                 Cell dataCell = worksheet.getCells().get(row, col);
@@ -61,32 +61,32 @@ public class ExcelDataImport {
 }
 ```
 
-W tym kodzie ładujemy skoroszyt programu Excel, uzyskujemy dostęp do określonej komórki (A1) i wykonujemy iterację po wszystkich wierszach i kolumnach, aby odczytać i wyświetlić dane.
+W tym kodzie ładujemy skoroszyt programu Excel, uzyskujemy dostęp do konkretnej komórki (A1) i przechodzimy przez wszystkie wiersze i kolumny, aby odczytać i wyświetlić dane.
 
-## Uruchamianie Kodeksu
+## Uruchamianie kodu
 
-Skompiluj i uruchom kod Java w swoim IDE. Upewnij się, że w katalogu projektu masz plik Excel o nazwie „input.xlsx”. Kod wyświetli dane w komórce A1 i wszystkie dane w arkuszu.
+Skompiluj i uruchom kod Java w swoim IDE. Upewnij się, że masz plik Excel o nazwie „input.xlsx” w katalogu projektu. Kod wyświetli dane w komórce A1 i wszystkie dane w arkuszu kalkulacyjnym.
 
 ## Wniosek
 
-Nauczyłeś się teraz, jak importować dane z Excela przy użyciu Aspose.Cells dla Java. Ta biblioteka oferuje szerokie możliwości pracy z plikami Excel w aplikacjach Java, dzięki czemu integracja danych jest prosta.
+Teraz wiesz, jak importować dane z Excela za pomocą Aspose.Cells dla Java. Ta biblioteka oferuje szerokie możliwości pracy z plikami Excela w aplikacjach Java, dzięki czemu integracja danych staje się dziecinnie prosta.
 
 
 ## Często zadawane pytania
 
-### 1. Czy mogę importować dane z konkretnych arkuszy Excel?
-   Tak, możesz uzyskiwać dostęp do danych i importować je z określonych arkuszy w skoroszycie programu Excel za pomocą Aspose.Cells.
+### 1. Czy mogę importować dane z określonych arkuszy Excela?
+   Tak, możesz uzyskać dostęp do danych z określonych arkuszy w skoroszycie programu Excel i zaimportować je do niego, korzystając z Aspose.Cells.
 
-### 2. Czy Aspose.Cells obsługuje formaty plików Excel inne niż XLSX?
+### 2. Czy Aspose.Cells obsługuje inne formaty plików Excel niż XLSX?
    Tak, Aspose.Cells obsługuje różne formaty plików Excel, w tym XLS, XLSX, CSV i inne.
 
-### 3. Jak obsługiwać formuły Excel w zaimportowanych danych?
-   Aspose.Cells zapewnia metody oceny i pracy z formułami programu Excel podczas importu danych.
+### 3. Jak mogę obsługiwać formuły Excela w importowanych danych?
+   Aspose.Cells udostępnia metody umożliwiające ocenę formuł programu Excel i pracę z nimi podczas importowania danych.
 
-### 4. Czy przy importowaniu dużych plików Excel uwzględnia się wydajność?
-   Aspose.Cells jest zoptymalizowany do wydajnej obsługi dużych plików Excel.
+### 4. Czy importowanie dużych plików Excela wiąże się z pewnymi problemami wydajnościowymi?
+   Aspose.Cells jest zoptymalizowany pod kątem wydajnej obsługi dużych plików Excel.
 
 ### 5. Gdzie mogę znaleźć więcej dokumentacji i przykładów?
-    Odwiedź dokumentację Aspose.Cells[Tutaj](https://reference.aspose.com/cells/java/) szczegółowe zasoby i przykłady.
+    Odwiedź dokumentację Aspose.Cells[Tutaj](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady.
 
-Zachęcamy do dalszej eksploracji i dostosowania tego kodu do konkretnych wymagań dotyczących importu danych. Miłego kodowania!
+Możesz swobodnie eksplorować dalej i dostosować ten kod do swoich konkretnych wymagań importu danych. Miłego kodowania!

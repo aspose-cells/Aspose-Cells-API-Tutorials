@@ -2,134 +2,150 @@
 title: Upravte úroveň komprese
 linktitle: Upravte úroveň komprese
 second_title: Aspose.Cells for .NET API Reference
-description: Zmenšete velikost svých excelových sešitů úpravou úrovně komprese pomocí Aspose.Cells for .NET.
+description: Naučte se, jak upravit úrovně komprese pro soubory Excel pomocí Aspose.Cells for .NET. Pomocí tohoto podrobného průvodce efektivně optimalizujte velikost souborů.
 type: docs
 weight: 50
 url: /cs/net/excel-workbook/adjust-compression-level/
 ---
-V tomto tutoriálu krok za krokem vysvětlíme poskytnutý zdrojový kód C#, který vám umožní upravit úroveň komprese pomocí Aspose.Cells for .NET. Chcete-li upravit úroveň komprese v sešitu aplikace Excel, postupujte podle následujících kroků.
+## Zavedení
 
-## Krok 1: Nastavte zdrojový a výstupní adresář
+Pokud jde o manipulaci s velkými soubory aplikace Excel, efektivní úložiště je klíčové. Ať už jste vývojář, který hledá optimalizaci velikosti souborů, nebo datový analytik, který chce urychlit přenos souborů, pochopení toho, jak upravit úrovně komprese v Aspose.Cells pro .NET, může změnit hru. V této příručce vás provedeme kroky k úpravě úrovní komprese při ukládání souborů aplikace Excel, čímž zajistíme zachování výkonu bez obětování kvality.
 
-```csharp
-// zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Výstupní adresář
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## Předpoklady
 
-V tomto prvním kroku definujeme zdrojový a výstupní adresář pro soubory Excel.
+Než se ponoříme do těch nejhrubších úrovní komprese, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
 
-## Krok 2: Načtěte sešit aplikace Excel
+1. Základní znalost C#: Základní znalost programování v C# je nezbytná. Pokud jste spokojeni s proměnnými, smyčkami a základními operacemi se soubory, můžete začít!
+2. Aspose.Cells for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/cells/net/) . Pokud právě začínáte, zvažte možnost bezplatné zkušební verze[zde](https://releases.aspose.com/).
+3. Vývojové prostředí: Nastavte své vývojové prostředí, ideálně Visual Studio, pro psaní a spouštění vašeho kódu C#. 
+4. Ukázkový soubor Excel: Připravte si velký soubor Excel k testování. Můžete vytvořit jeden nebo použít jakýkoli existující soubor, ale ujistěte se, že je dostatečně velký, abyste viděli účinky komprese.
 
-```csharp
-// Načtěte sešit aplikace Excel
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+S těmito předpoklady můžeme začít!
 
-Sešit Excel načteme ze zadaného souboru pomocí`Workbook` třídy od Aspose.Cells.
+## Importujte balíčky
 
-## Krok 3: Nastavte možnosti zálohování
+Než budeme moci manipulovat se soubory Excelu, musíme importovat potřebné jmenné prostory. Toto je zásadní krok, který nám umožňuje přístup ke třídám a metodám poskytovaným Aspose.Cells.
+
+### Importujte jmenný prostor Aspose.Cells
 
 ```csharp
-// Definujte možnosti zálohování
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- Vytvoříme instanci`XlsbSaveOptions` třídy pro nastavení možností uložení.
+ Tento fragment kódu importuje soubor`Aspose.Cells` jmenný prostor, který obsahuje všechny třídy potřebné pro práci se soubory Excel. The`Aspose.Cells.Xlsb` jmenný prostor je speciálně pro zpracování formátů souborů XLSB.
 
-## Krok 4: Upravte úroveň komprese (Úroveň 1)
+Nyní, když máme vše nastaveno, rozdělíme proces úpravy úrovní komprese do zvládnutelných kroků. Uložíme sešit s různými úrovněmi komprese a změříme čas potřebný pro každou operaci. 
 
-```csharp
-// Upravte úroveň komprese (Úroveň 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## Krok 1: Nastavte své adresáře
 
- Úroveň komprese upravíme nastavením`CompressionType` na`Level1`. Poté sešit Excel uložíme se zadanou možností komprese.
+Nejprve musíme definovat, kde budou naše soubory uloženy. To zahrnuje specifikaci zdrojového adresáře pro náš vstupní soubor a výstupního adresáře pro naše komprimované soubory.
 
-## Krok 5: Upravte úroveň komprese (Úroveň 6)
-
-```csharp
-// Upravte úroveň komprese (úroveň 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- Opakujeme proces, abychom upravili úroveň komprese`Level6` a uložte sešit Excel s touto možností.
-
-## Krok 6: Upravte úroveň komprese (Úroveň 9)
-
-```csharp
-// Upravte úroveň komprese (Úroveň 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- Proces zopakujeme naposledy, abychom upravili úroveň komprese`Level9` a uložte sešit Excel s touto možností.
-
-### Ukázkový zdrojový kód pro Upravit úroveň komprese pomocí Aspose.Cells pro .NET 
 ```csharp
 //Zdrojový adresář
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ Zde,`RunExamples.Get_SourceDirectory()` a`RunExamples.Get_OutputDirectory()` jsou metody, které vracejí cesty ke zdrojovému a výstupnímu adresáři. 
+
+## Krok 2: Načtěte sešit
+
+Dále načteme excelový sešit, který chceme komprimovat. Zde ukážete na svůj velký soubor Excel.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ Tento řádek inicializuje nový`Workbook` objekt se zadaným souborem. Ujistěte se, že cesta k souboru je správná; jinak narazíte na chyby.
+
+## Krok 3: Vytvořte možnosti uložení pro XLSB
+
+ Nyní vytvoříme instanci`XlsbSaveOptions`, což nám umožňuje určit, jak chceme náš sešit uložit, včetně úrovně komprese.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+Tento řádek připravuje možnosti, které použijeme pro uložení našeho sešitu ve formátu XLSB.
+
+## Krok 4: Nastavte a změřte úrovně komprese
+
+Nyní přichází ta zábavná část! Sešit uložíme pomocí různých úrovní komprese a změříme čas potřebný pro každou operaci. 
+
+### Komprese úrovně 1
+
+Začněme s nejnižší úrovní komprese:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+V tomto úryvku nastavíme typ komprese na úroveň 1, uložíme sešit a zaprotokolujeme čas. 
+
+### Komprese úrovně 6
+
+Dále vyzkoušíme střední úroveň komprese:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Tentokrát nastavíme typ komprese na úroveň 6 a zopakujeme operaci uložení.
+
+### Komprese úrovně 9
+
+Nakonec uložme pomocí nejvyšší úrovně komprese:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+V tomto kroku nastavíme typ komprese na úroveň 9, což by mělo poskytnout nejmenší velikost souboru, ale uložení může trvat déle.
+
+## Krok 5: Konečný výstup
+
+Po provedení všech výše uvedených kroků uvidíte na konzole vytištěné uplynulé časy pro každou úroveň komprese. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Tento řádek potvrzuje, že celý proces proběhl bez problémů.
+
 ## Závěr
 
-gratuluji! Naučili jste se, jak upravit úroveň komprese v sešitu aplikace Excel pomocí Aspose.Cells for .NET. Experimentujte s různými úrovněmi komprese, abyste našli tu, která nejlépe vyhovuje vašim potřebám.
+Úprava úrovní komprese při ukládání souborů aplikace Excel pomocí Aspose.Cells for .NET je přímočará, ale výkonná technika. Podle kroků uvedených v této příručce můžete snadno manipulovat s velikostí souborů a usnadnit jejich správu pro ukládání a přenos. Ať už potřebujete rychlý přístup k datům nebo hledáte optimalizaci výkonu své aplikace, zvládnutí těchto technik nepochybně zlepší vaše vývojářské dovednosti.
 
-### Nejčastější dotazy
+## FAQ
 
-#### Otázka: Co je komprese v sešitu aplikace Excel?
+### Co je Aspose.Cells?
+Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory Excelu programově.
 
-Odpověď: Komprese v sešitu aplikace Excel je proces zmenšení velikosti souboru pomocí kompresních algoritmů. To snižuje požadovaný úložný prostor a zlepšuje výkon při načítání a manipulaci se souborem.
+### Jak si stáhnu Aspose.Cells?
+ Knihovnu Aspose.Cells si můžete stáhnout z[webové stránky](https://releases.aspose.com/cells/net/).
 
-#### Otázka: Jaké úrovně komprese jsou dostupné s Aspose.Cells?
+### Mohu používat Aspose.Cells zdarma?
+ Ano, Aspose nabízí bezplatnou zkušební verzi, ke které máte přístup[zde](https://releases.aspose.com/).
 
-Odpověď: Pomocí Aspose.Cells můžete upravit úroveň komprese od 1 do 9. Čím vyšší úroveň komprese, tím menší bude velikost souboru, ale může to také prodloužit dobu zpracování.
+### Jaké jsou dostupné různé úrovně komprese?
+Aspose.Cells podporuje více úrovní komprese od úrovně 1 (nejmenší komprese) po úroveň 9 (maximální komprese).
 
-#### Otázka: Jak mohu vybrat správnou úroveň komprese pro sešit aplikace Excel?
-
-Odpověď: Volba úrovně komprese závisí na vašich konkrétních potřebách. Pokud chcete maximální kompresi a doba zpracování není problém, můžete přejít na úroveň 9. Pokud dáváte přednost kompromisu mezi velikostí souboru a dobou zpracování, můžete zvolit střední úroveň.
-
-#### Otázka: Ovlivňuje komprese kvalitu dat v sešitu aplikace Excel?
-
-Odpověď: Ne, komprese neovlivňuje kvalitu dat v sešitu aplikace Excel. Jednoduše zmenší velikost souboru pomocí kompresních technik, aniž by se změnila samotná data.
-
-#### Otázka: Mohu upravit úroveň komprese po uložení souboru Excel?
-
-Odpověď: Ne, jakmile uložíte soubor Excel se specifickou úrovní komprese, nelze úroveň komprese později upravit. Budete-li jej chtít upravit, budete muset soubor znovu uložit s novou úrovní komprese.
+### Kde najdu podporu pro Aspose.Cells?
+ Můžete získat podporu a klást otázky na[Aspose fórum](https://forum.aspose.com/c/cells/9).

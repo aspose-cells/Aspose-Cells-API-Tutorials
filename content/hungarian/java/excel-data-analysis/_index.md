@@ -10,7 +10,7 @@ url: /hu/java/excel-data-analysis/
 
 ## Bevezetés az Excel adatelemzésbe az Aspose.Cells for Java segítségével
 
-Az adatelemzés terén az Excel továbbra is a sarokköve a különféle iparágakban dolgozó szakemberek számára. Az Aspose.Cells for Java robusztus képességeivel a Java fejlesztők új magasságokba emelhetik adatelemző játékukat. Ez a funkciókban gazdag API-csomag lehetővé teszi az Excel-táblázatok egyszerű feldolgozását, manipulálását és betekintést nyerhet.
+Az adatelemzés terén az Excel továbbra is a sarokköve a különféle iparágakban dolgozó szakemberek számára. Az Aspose.Cells for Java robusztus képességeivel a Java fejlesztők új magasságokba emelhetik adatelemző játékukat. Ez a funkciókban gazdag API-csomag lehetővé teszi az Excel-táblázatok egyszerű feldolgozását, kezelését és betekintést nyerhet.
 
 ## Lépésről lépésre oktatóanyagok Java fejlesztőknek
 

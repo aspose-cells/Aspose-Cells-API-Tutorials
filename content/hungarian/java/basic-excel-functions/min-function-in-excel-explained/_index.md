@@ -76,7 +76,7 @@ cell.setFormula("=MIN(A1:A10)");
 A képlet alkalmazása után újra kell számolnia a munkalapot az eredmény eléréséhez:
 
 ```java
-// Számítsa ki a munkalapot!
+// Számítsa ki a munkalapot
 workbook.calculateFormula();
 ```
 

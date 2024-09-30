@@ -38,7 +38,7 @@ Most, hogy megismertük az alapokat, merüljünk el az Aspose.Cells for Java has
 
 Az Aspose.Cells for Java egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és kezelését. Átfogó támogatást nyújt az adatok ellenőrzéséhez, lehetővé téve érvényesítési szabályok, feltételek és egyéni hibaüzenetek meghatározását az Excel cellákhoz.
 
-Íme egy lépésről lépésre bemutatott útmutató az adatok érvényesítésének végrehajtásához az Excelben az Aspose.Cells for Java használatával:
+Íme egy lépésenkénti útmutató az adatellenőrzés végrehajtásához az Excelben az Aspose.Cells for Java használatával:
 
 ### 1. lépés: Állítsa be fejlesztői környezetét
 
@@ -46,7 +46,7 @@ Az Aspose.Cells for Java használatának megkezdése előtt be kell állítania 
 
 ### 2. lépés: Hozzon létre egy új Excel-munkafüzetet
 
- A kezdéshez hozzon létre egy új Excel-munkafüzetet az Aspose.Cells for Java segítségével. Ezt úgy teheti meg, hogy példányosítja a`Workbook` tárgy:
+ A kezdéshez hozzon létre egy új Excel-munkafüzetet az Aspose.Cells for Java segítségével. Ezt úgy teheti meg, hogy példányosítja a`Workbook` objektum:
 
 ```java
 Workbook workbook = new Workbook();

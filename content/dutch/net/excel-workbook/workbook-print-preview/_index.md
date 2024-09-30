@@ -1,97 +1,143 @@
 ---
-title: Afdrukvoorbeeld van werkmap
-linktitle: Afdrukvoorbeeld van werkmap
+title: Werkboek Afdrukvoorbeeld
+linktitle: Werkboek Afdrukvoorbeeld
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u een afdrukvoorbeeld van een werkmap kunt genereren met Aspose.Cells voor .NET.
+description: Leer hoe u afdrukvoorbeelden voor Excel-bestanden maakt met Aspose.Cells voor .NET. Leer coderingsstappen in een gedetailleerde, eenvoudig te volgen tutorial.
 type: docs
 weight: 170
 url: /nl/net/excel-workbook/workbook-print-preview/
 ---
-Afdrukvoorbeeld van een werkmap is een essentiële functie bij het werken met Excel-bestanden met Aspose.Cells voor .NET. U kunt eenvoudig een afdrukvoorbeeld genereren door deze stappen te volgen:
+## Invoering
 
-## Stap 1: Geef de bronmap op
+Als het gaat om het beheren en manipuleren van Excel-bestanden, is Aspose.Cells voor .NET een krachtige bibliotheek die opvalt. Als u ooit hebt geprobeerd om een voorproefje te krijgen van hoe uw werkmap eruit zou zien als deze werd afgedrukt, weet u dat u soms een beetje hulp nodig hebt om alles precies goed te krijgen. Daar komen afdrukvoorbeelden om de hoek kijken! In deze tutorial duiken we diep in het rijk van afdrukvoorbeelden met Aspose.Cells voor .NET. We zullen onderzoeken hoe u deze bibliotheek kunt gebruiken om nauwkeurige weergaven van uw Excel-bestanden te krijgen voordat u ze naar de printer stuurt. Maak u geen zorgen als u hier nieuw in bent; ik zal u stap voor stap door elk detail leiden. Dus pak uw favoriete drankje en laten we beginnen aan deze opwindende reis!
 
-Eerst moet u de bronmap opgeven waar het Excel-bestand waarvan u een voorbeeld wilt bekijken, zich bevindt. Hier leest u hoe u het moet doen:
+## Vereisten
+
+Voordat we beginnen met coderen, zorgen we ervoor dat je alles hebt wat je nodig hebt om te beginnen. Hier is een checklist met vereisten:
+
+1. Visual Studio: U hebt een IDE nodig en Visual Studio is een uitstekende keuze voor .NET-projecten.
+2. Aspose.Cells voor .NET: U kunt de bibliotheek downloaden of, als u dat liever wilt, beginnen met de gratis proefversie om uw voeten nat te maken. Ga gewoon naar[deze link](https://releases.aspose.com).
+3. Basiskennis van C#: Als u de basisprincipes van C# begrijpt, kunt u de cursus zonder problemen volgen.
+4. .NET Framework: Zorg ervoor dat er een compatibele versie van .NET Framework op uw computer is geïnstalleerd.
+5.  Een voorbeeld van een Excel-bestand: Voor deze tutorial hebt u een Excel-bestand nodig om mee te werken. U kunt een voorbeeldbestand gebruiken met de naam`Book1.xlsx`.
+
+Nu de motoren op toeren zijn, kunnen we de benodigde pakketten importeren en aan de slag gaan!
+
+## Pakketten importeren
+
+Om te beginnen importeren we de pakketten die we nodig hebben voor onze taak. Dit is een eenvoudige manier om dit te doen:
+
+### Open uw Visual Studio-project
+
+Begin met het openen van uw bestaande project of maak een nieuw project als u helemaal opnieuw begint. Visual Studio maakt alles gebruiksvriendelijk en deze eenvoudige zet vormt de basis voor uw hele operatie.
+
+### Verwijzing naar Aspose.Cells toevoegen
+
+Klik in uw Solution Explorer met de rechtermuisknop op uw project en selecteer Manage NuGet Packages. Zoek naar Aspose.Cells en installeer het. Dit is cruciaal omdat deze bibliotheek alle magische mogelijkheden heeft die we nodig hebben om onze afdrukvoorbeelden uit te voeren.
+
+### Noodzakelijke naamruimten opnemen
+
+Bovenaan uw C#-bestand wilt u een paar namespaces opnemen om toegang te krijgen tot de klassen die u gaat gebruiken. Dit is hoe het eruitziet:
 
 ```csharp
-// bronmap
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
+```
+
+Het is alsof u de deur opent naar een compleet nieuwe wereld van functionaliteiten waarmee u moeiteloos Excel-bestanden kunt bewerken.
+
+Nu we alles op zijn plaats hebben, gaan we stapsgewijs in op het maken van een afdrukvoorbeeld van een werkmap met behulp van Aspose.Cells.
+
+## Stap 1: Definieer de bronmap
+
+Om ons avontuur in print previews te beginnen, moeten we definiëren waar ons bron Excel-bestand zich bevindt. Dit is uw toegangspunt, dus laten we het instellen:
+
+```csharp
+//Bron directory
 string sourceDir = RunExamples.Get_SourceDirectory();
 ```
+
+ Deze code helpt ons het pad te vinden waar`Book1.xlsx` bevindt, waardoor toekomstige referenties veel gemakkelijker worden.
 
 ## Stap 2: Laad de werkmap
 
-Vervolgens moet u de werkmap Werkmap laden vanuit het opgegeven Excel-bestand. Hier leest u hoe u het moet doen:
+Nu we onze directory hebben, laden we de werkmap in onze applicatie. Deze stap stelt ons in staat om het bestand te manipuleren:
 
 ```csharp
-// Laad de werkmap Werkmap
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
-## Stap 3: Configureer afbeeldings- en afdrukopties
+ Hier maken we een instantie van de`Workbook` class terwijl we het pad naar ons Excel-bestand invoeren. Dit is vergelijkbaar met het openen van een boek om de inhoud ervan te lezen; met deze stap hebben we onze werkmap geopend.
 
-Voordat u het afdrukvoorbeeld genereert, kunt u de afbeelding en afdrukopties naar wens configureren. In dit voorbeeld gebruiken we de standaardopties. Hier leest u hoe u het moet doen:
+## Stap 3: Afdrukopties instellen
+
+Voordat we de afdrukvoorbeeld genereren, moeten we de opties instellen voor hoe het wordt weergegeven. Dit is alsof je het juiste recept kiest voordat je je maaltijd kookt:
 
 ```csharp
-// Afbeeldings- en printopties
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
-## Stap 4: Genereer het afdrukvoorbeeld van de werkmap
+ In dit geval maken we een instantie van`ImageOrPrintOptions`, wat ons enige flexibiliteit geeft in hoe we ons afdrukvoorbeeld willen bekijken.
 
-Nu kunt u het afdrukvoorbeeld van de Workbook-werkmap genereren met behulp van de WorkbookPrintingPreview-klasse. Hier leest u hoe u het moet doen:
+## Stap 4: Maak het afdrukvoorbeeld van de werkmap
+
+Nu is het tijd voor de echte magie! We genereren het afdrukvoorbeeld van de werkmap. Dit is hoe:
 
 ```csharp
-// Afdrukvoorbeeld van de werkmap
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
+```
+
+Op dit moment maken we een preview van ons hele werkboek. Zie dit als een blik op de pagina's van je boek voordat je begint met lezen; je krijgt een overzicht van wat je te wachten staat.
+
+## Stap 5: Evalueer het aantal pagina's
+
+Hoeveel pagina's zal uw werkboek in beslag nemen als het wordt afgedrukt? Laten we dat uitzoeken met de volgende code:
+
+```csharp
 Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
 ```
 
-## Stap 5: Genereer het afdrukvoorbeeld van het werkblad
+Deze regel code geeft ons het totale aantal pagina's in de werkmap. Het is een essentieel stukje informatie, vooral als u van plan bent om het document af te drukken.
 
-Als u het afdrukvoorbeeld van een specifiek werkblad wilt genereren, kunt u de klasse SheetPrintingPreview gebruiken. Hier is een voorbeeld :
+## Stap 6: Maak een afdrukvoorbeeld van het vel
+
+Soms wilt u misschien alleen de preview van een specifiek werkblad zien. Laten we dat nu doen:
 
 ```csharp
-// Afdrukvoorbeeld van het werkblad
-SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0], imgOptions);
-Console.WriteLine("Number of worksheet pages: " + preview2.EvaluatedPageCount);
-```
-
-### Voorbeeldbroncode voor afdrukvoorbeeld van werkmap met Aspose.Cells voor .NET 
-```csharp
-//Bronmap
-string sourceDir = RunExamples.Get_SourceDirectory();
-Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
-ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
-Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
 SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0], imgOptions);
 Console.WriteLine("Worksheet page count: " + preview2.EvaluatedPageCount);
+```
+
+In dit fragment halen we het eerste werkblad op en genereren we een afdrukvoorbeeld, vergelijkbaar met het focussen op een bepaald hoofdstuk van uw boek. Dit geeft ons het aantal pagina's voor alleen dat werkblad.
+
+## Stap 7: Succesbericht
+
+Het is altijd fijn om af te sluiten met een vriendelijk berichtje om te bevestigen dat alles soepel is verlopen:
+
+```csharp
 Console.WriteLine("PrintPreview executed successfully.");
 ```
 
+Deze regel is als de finishing touch na het afronden van een project: altijd handig om te weten dat je goed werk hebt geleverd!
+
 ## Conclusie
 
-Het genereren van een afdrukvoorbeeld van een werkmap is een krachtige functie die wordt aangeboden door Aspose.Cells voor .NET. Door de bovenstaande stappen te volgen, kunt u eenvoudig een voorbeeld van uw Excel-werkmap bekijken en informatie krijgen over het aantal af te drukken pagina's.
+En daar heb je het! Je hebt met succes een afdrukvoorbeeld ingesteld voor je Excel-werkmap met Aspose.Cells voor .NET. We hebben alles behandeld, van het importeren van pakketten tot het evalueren van paginatellingen voor zowel de hele werkmap als afzonderlijke werkbladen. Het is verbazingwekkend hoe gemakkelijk het kan zijn om te visualiseren hoe je werkmap eruit zal zien wanneer deze wordt afgedrukt, toch? Door Aspose.Cells te gebruiken, krijg je krachtige tools tot je beschikking. Of je nu een ervaren ontwikkelaar bent of iemand die net begint, deze bibliotheek biedt de flexibiliteit en functionaliteit die je nodig hebt om je Excel-bestandsbeheer naar een hoger niveau te tillen.
 
-### Veelgestelde vragen
+## Veelgestelde vragen
 
-#### Vraag: Hoe kan ik een andere bronmap opgeven om mijn werkmap te laden?
-    
- Antwoord: U kunt de`Set_SourceDirectory` methode om een andere bronmap op te geven. Bijvoorbeeld:`RunExamples.Set_SourceDirectory("Path_to_the_source_directory")`.
+### Wat is Aspose.Cells?
+Aspose.Cells is een krachtige bibliotheek voor het verwerken van Excel-bestandsindelingen en biedt functies zoals gegevensmanipulatie, opmaak en het weergeven van afdrukvoorbeelden.
 
-#### Vraag: Kan ik de afbeeldings- en afdrukopties aanpassen bij het genereren van het afdrukvoorbeeld?
-    
- A: Ja, u kunt afbeeldings- en afdrukopties aanpassen door de eigenschappen van het`ImageOrPrintOptions` voorwerp. U kunt bijvoorbeeld de afbeeldingsresolutie, het uitvoerbestandsformaat, enz. instellen.
+### Moet ik Aspose.Cells kopen om het te kunnen gebruiken?
+ U kunt beginnen met een gratis proefversie die beschikbaar is op[deze link](https://releases.aspose.com) voordat u besluit een licentie aan te schaffen.
 
-#### Vraag: Is het mogelijk om een afdrukvoorbeeld te genereren voor meerdere werkbladen in een werkmap?
-    
-A: Ja, u kunt de verschillende werkbladen in de werkmap doorlopen en voor elk werkblad een afdrukvoorbeeld genereren met behulp van de`SheetPrintingPreview` klas.
+### Kan ik Aspose.Cells in elke .NET-toepassing gebruiken?
+Ja, Aspose.Cells is ontworpen om te werken met elke .NET-toepassing, waaronder ASP.NET, WinForms en meer.
 
-#### Vraag: Hoe bewaar ik het afdrukvoorbeeld als afbeelding of PDF-bestand?
-    
- EEN: U kunt gebruiken`ToImage` of`ToPdf` methode van`WorkbookPrintingPreview` of`SheetPrintingPreview` object om het afdrukvoorbeeld op te slaan als afbeelding of PDF-bestand.
+### Waar kan ik meer gedetailleerde documentatie vinden?
+ U kunt uitgebreide documentatie bekijken op[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).
 
-#### Vraag: Wat kan ik doen met het afdrukvoorbeeld nadat het is gegenereerd?
-    
-A: Nadat u het afdrukvoorbeeld heeft gegenereerd, kunt u het op het scherm bekijken, opslaan als afbeelding of PDF-bestand of gebruiken voor andere bewerkingen, zoals verzenden per e-mail of afdrukken.
-	
+### Wat als ik problemen ondervind bij het gebruik van Aspose.Cells?
+ Als u problemen ondervindt of vragen heeft, kunt u ondersteuning zoeken via het Aspose-forum:[Aspose-ondersteuning](https://forum.aspose.com/c/cells/9).

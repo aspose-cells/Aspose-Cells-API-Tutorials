@@ -8,11 +8,11 @@ weight: 16
 url: /cs/java/spreadsheet-automation/excel-workbook-automation/
 ---
 
-## Úvod
+## Zavedení
 V tomto tutoriálu prozkoumáme, jak automatizovat operace sešitu aplikace Excel pomocí knihovny Aspose.Cells for Java. Aspose.Cells je výkonné Java API, které umožňuje vytvářet, manipulovat a spravovat soubory Excelu programově.
 
 ## Předpoklady
- Než začneme, ujistěte se, že máte do projektu přidánu knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+ Než začneme, ujistěte se, že máte do projektu přidánu knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Vytvořte nový sešit Excel
 Začněme vytvořením nového excelového sešitu pomocí Aspose.Cells. Níže je uveden příklad, jak to provést:
@@ -89,10 +89,10 @@ V tomto tutoriálu jsme probrali základy automatizace sešitů Excel pomocí As
 Zde jsou některé běžné otázky související s automatizací sešitů Excel:
 
 ### Mohu automatizovat úlohy Excelu v Javě bez nainstalovaného Excelu na mém počítači?
-   Ano můžeš. Aspose.Cells for Java umožňuje pracovat se soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
+   Ano, můžete. Aspose.Cells for Java umožňuje pracovat se soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
 
 ### Jak naformátuji buňky nebo aplikuji styly na data aplikace Excel pomocí Aspose.Cells?
-   Pomocí Aspose.Cells můžete na buňky aplikovat různé formátování a styly. Podrobné příklady naleznete v dokumentaci API.
+   Pomocí Aspose.Cells můžete na buňky použít různé formátování a styly. Podrobné příklady naleznete v dokumentaci API.
 
 ### Je Aspose.Cells for Java kompatibilní s různými formáty souborů aplikace Excel?
    Ano, Aspose.Cells podporuje různé formáty souborů Excel, včetně XLS, XLSX, XLSM a dalších.

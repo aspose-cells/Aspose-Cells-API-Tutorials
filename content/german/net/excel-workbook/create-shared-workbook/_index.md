@@ -1,85 +1,120 @@
 ---
-title: Erstellen Sie eine freigegebene Arbeitsmappe
-linktitle: Erstellen Sie eine freigegebene Arbeitsmappe
+title: Gemeinsam genutzte Arbeitsmappe erstellen
+linktitle: Gemeinsam genutzte Arbeitsmappe erstellen
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erstellen Sie mit Aspose.Cells für .NET eine freigegebene Excel-Arbeitsmappe, um die gleichzeitige Datenzusammenarbeit zu ermöglichen.
+description: Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine freigegebene Arbeitsmappe erstellen. Perfekt zur Verbesserung der Teamzusammenarbeit.
 type: docs
 weight: 70
 url: /de/net/excel-workbook/create-shared-workbook/
 ---
-In diesem Tutorial führen wir Sie durch den bereitgestellten C#-Quellcode, der es Ihnen ermöglicht, eine freigegebene Arbeitsmappe mit Aspose.Cells für .NET zu erstellen. Befolgen Sie die nachstehenden Schritte, um diesen Vorgang auszuführen.
+## Einführung
 
-## Schritt 1: Ausgabeverzeichnis festlegen
+Das Erstellen einer freigegebenen Arbeitsmappe kann die Zusammenarbeit grundlegend verändern, insbesondere wenn Sie Daten zwischen verschiedenen Teams oder Abteilungen jonglieren. Mit Aspose.Cells für .NET steht Ihnen ein robustes Tool zur Verfügung, mit dem Sie Excel-Dateien programmgesteuert verwalten können. Diese Anleitung führt Sie durch die Schritte zum Erstellen einer freigegebenen Arbeitsmappe, wodurch Ihre Zusammenarbeit effizienter und reibungsloser wird. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, dieses einfache, aber leistungsstarke Tutorial wird Sie begeistern!
+
+## Voraussetzungen
+
+Bevor wir uns mit den Einzelheiten der Erstellung einer freigegebenen Arbeitsmappe befassen, sollten wir ein paar Dinge klären:
+
+1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Es ist eine Entwicklungsumgebung, in der Sie Ihren Code schreiben und ausführen können.
+2.  Aspose.Cells für .NET: Sie benötigen die Bibliothek Aspose.Cells. Sie können sie hier herunterladen:[Aspose.Cells Downloads](https://releases.aspose.com/cells/net/).
+3. .NET Framework: Stellen Sie sicher, dass Sie das .NET Framework installiert haben. Dieses Beispiel funktioniert mit .NET Core oder .NET Framework 4.x.
+4. Grundkenntnisse in C#: Etwas Vertrautheit mit der C#-Programmierung wird Ihnen sehr helfen. Wenn Sie einfachen Code schreiben können, sollte es für Sie kein Problem sein!
+
+Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer freigegebenen Arbeitsmappe beginnen.
+
+## Pakete importieren
+
+Nachdem wir nun unsere Umgebung vorbereitet haben, importieren wir die erforderlichen Pakete, damit wir loslegen können. So können Sie das tun:
+
+### Neues Projekt erstellen
+1. Öffnen Sie Visual Studio.
+2. Erstellen Sie ein neues C#-Konsolenprojekt.
+3. Geben Sie Ihrem Projekt einen Namen wie „SharedWorkbookExample“.
+
+### Installieren Sie Aspose.Cells
+1. Klicken Sie im Solution Explorer mit der rechten Maustaste auf Ihr Projekt und wählen Sie „NuGet-Pakete verwalten“ aus.
+2. Suchen Sie nach „Aspose.Cells“ und installieren Sie es. Dadurch werden Ihrem Projekt die erforderlichen Referenzen hinzugefügt.
+
+### Using-Direktiven hinzufügen
+ Ganz oben auf Ihrer`Program.cs` Fügen Sie die folgende Using-Direktive hinzu:
 
 ```csharp
-// Ausgabe Verzeichnis
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Und schon haben Sie die Weichen für den Erfolg gestellt! Lassen Sie uns die Schritte zum Erstellen einer freigegebenen Arbeitsmappe durchgehen.
+
+Jetzt kommen wir zum interessanten Teil! Hier erfahren Sie, wie Sie mit Aspose.Cells für .NET eine freigegebene Arbeitsmappe erstellen, unterteilt in leicht verständliche Schritte.
+
+## Schritt 1: Festlegen des Ausgabeverzeichnisses
+
+In diesem Schritt legen Sie fest, wo die Ausgabedatei gespeichert wird. Das ist wie die Entscheidung, wo Sie Ihre frisch gebackenen Kekse ablegen – Sie möchten sicherstellen, dass Sie sie später leicht finden können!
+
+```csharp
+//Ausgabeverzeichnis
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
+ Hier verwenden wir eine Methode`RunExamples.Get_OutputDirectory()` um den Ordner anzugeben, in dem die generierte Excel-Datei gespeichert wird. Stellen Sie sicher, dass diese Methode in Ihrem Code für eine ordnungsgemäße Ausgabeverarbeitung definiert ist.
 
-In diesem ersten Schritt definieren wir das Ausgabeverzeichnis, in dem die freigegebene Arbeitsmappe gespeichert wird.
+## Schritt 2: Erstellen des Arbeitsmappenobjekts
 
-## Schritt 2: Erstellen Sie ein Arbeitsmappenobjekt
-
-```csharp
-// Erstellen Sie ein Workbook-Objekt
-Workbook wb = new Workbook();
-```
-
-Wir erstellen ein neues Workbook-Objekt, das unsere Excel-Arbeitsmappe darstellt.
-
-## Schritt 3: Aktivieren Sie die Arbeitsmappenfreigabe
+Als Nächstes konzentrieren wir uns auf die Erstellung der Arbeitsmappe. Hier geschieht die Magie!
 
 ```csharp
-// Teilen Sie die Arbeitsmappe
-wb.Settings.Shared = true;
-```
-
- Wir aktivieren die Freigabefunktion der Arbeitsmappe, indem wir Folgendes festlegen`Shared` Eigenschaft des Workbook-Objekts auf`true`.
-
-## Schritt 4: Speichern Sie die freigegebene Arbeitsmappe
-
-```csharp
-// Speichern Sie die freigegebene Arbeitsmappe
-wb.Save(outputDir + "outputSharedWorkbook.xlsx");
-```
-
-Wir speichern die freigegebene Arbeitsmappe, indem wir den Pfad und Namen der Ausgabedatei angeben.
-
-### Beispielquellcode für „Freigegebene Arbeitsmappe erstellen“ mit Aspose.Cells für .NET 
-```csharp
-//Ausgabe Verzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
 //Arbeitsmappenobjekt erstellen
 Workbook wb = new Workbook();
-//Teilen Sie die Arbeitsmappe
+```
+ Durch die Instanziierung der`Workbook` Klasse bereiten wir eine neue Arbeitsmappe im Speicher vor. Stellen Sie sich das so vor, als ob Sie in Excel ein neues leeres Blatt öffnen, das darauf wartet, mit Daten gefüllt zu werden.
+
+## Schritt 3: Teilen Sie die Arbeitsmappe
+
+Es ist Zeit, aus Ihrer Arbeitsmappe ein gemeinschaftliches Meisterwerk zu machen! Durch die Freigabe können mehrere Benutzer gleichzeitig darauf zugreifen.
+
+```csharp
+//Arbeitsmappe freigeben
 wb.Settings.Shared = true;
-//Speichern Sie die freigegebene Arbeitsmappe
+```
+ Einstellung`wb.Settings.Shared` Zu`true` gibt an, dass mehrere Benutzer gleichzeitig auf diese Arbeitsmappe zugreifen können. Das ist, als würden Sie Ihren Freunden die Schlüssel zu Ihrem Haus geben – sie können kommen und gehen, wann sie wollen!
+
+## Schritt 4: Speichern der freigegebenen Arbeitsmappe
+
+Jetzt ist Ihre Arbeitsmappe für die Freigabe bereit. Jetzt ist es an der Zeit, die Änderungen zu speichern. Dies ist der Moment der Wahrheit!
+
+```csharp
+//Speichern der freigegebenen Arbeitsmappe
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
+```
+ Hier speichern wir unsere freigegebene Arbeitsmappe unter dem Namen`outputSharedWorkbook.xlsx` im angegebenen Ausgabeverzeichnis. Dadurch wird eine Excel-Datei generiert, die nun von mehreren Benutzern gemeinsam genutzt und geändert werden kann.
+
+## Schritt 5: Eine Erfolgsmeldung anzeigen
+
+Um zu bestätigen, dass alles reibungslos verlaufen ist, drucken wir eine Erfolgsmeldung aus.
+
+```csharp
 Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
+Diese einfache Codezeile gibt eine Meldung an die Konsole aus, die angibt, dass unsere Aufgabe erfolgreich abgeschlossen wurde. Es ist wie ein Siegesschrei an der Ziellinie!
 
-## Abschluss
+## Abschluss 
 
-Herzlichen Glückwunsch! Sie haben gelernt, wie Sie mit Aspose.Cells für .NET eine freigegebene Arbeitsmappe erstellen. Die freigegebene Arbeitsmappe kann von mehreren Benutzern gleichzeitig verwendet werden, um gemeinsam an Daten zu arbeiten. Experimentieren Sie mit Ihren eigenen Daten und erkunden Sie die Funktionen von Aspose.Cells weiter, um leistungsstarke und personalisierte Excel-Arbeitsmappen zu erstellen.
+Beim Erstellen einer freigegebenen Arbeitsmappe geht es nicht nur darum, eine Excel-Datei zu generieren; es geht auch darum, die Zusammenarbeit und Effizienz zwischen Teams zu verbessern. Mit Aspose.Cells für .NET ist der Vorgang unkompliziert und benutzerfreundlich. Wenn Sie die hier beschriebenen Schritte befolgen, können Sie mühelos eine Arbeitsmappe erstellen, mit der mehrere Benutzer gleichzeitig arbeiten können. Worauf also warten? Legen Sie los und beginnen Sie mit dem Erstellen freigegebener Arbeitsmappen, die Ihren Teams eine nie dagewesene Zusammenarbeit ermöglichen!
 
-### FAQs
+## Häufig gestellte Fragen
 
-#### F: Was ist eine freigegebene Arbeitsmappe?
+### Was ist eine freigegebene Arbeitsmappe?
+Eine freigegebene Arbeitsmappe ist eine Excel-Datei, an der mehrere Benutzer gleichzeitig zusammenarbeiten können.
 
-A: Eine freigegebene Arbeitsmappe ist eine Excel-Arbeitsmappe, die von mehreren Benutzern gleichzeitig zur Zusammenarbeit an Daten verwendet werden kann. Jeder Benutzer kann Änderungen an der Arbeitsmappe vornehmen und andere Benutzer sehen Aktualisierungen in Echtzeit.
+### Kann ich die Freigabe einer Arbeitsmappe wieder aufheben, nachdem sie freigegeben wurde?
+ Ja, Sie können die Freigabe einer Arbeitsmappe aufheben, indem Sie`Shared` Eigentum an`false`.
 
-#### F: Wie aktiviere ich die Freigabe einer Arbeitsmappe in Aspose.Cells für .NET?
+### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?
+Ja, für die kommerzielle Nutzung von Aspose.Cells ist eine Lizenz erforderlich. Sie können auch eine kostenlose Testversion erhalten, um die Funktionen zu testen.
 
- A: Um die Freigabe einer Arbeitsmappe in Aspose.Cells für .NET zu aktivieren, müssen Sie Folgendes festlegen`Shared` Eigenschaft des Workbook-Objekts auf`true`. Dadurch können Benutzer gleichzeitig an der Arbeitsmappe arbeiten.
+### Wo erhalte ich Support für Aspose.Cells?
+ Sie finden Unterstützung und können Fragen stellen auf der[Aspose.Cells Support Forum](https://forum.aspose.com/c/cells/9).
 
-#### F: Kann ich Benutzerberechtigungen in einer freigegebenen Arbeitsmappe einschränken?
-
-A: Ja, Sie können Benutzerberechtigungen in einer freigegebenen Arbeitsmappe mithilfe der Sicherheitsfunktionen von Excel einschränken. Sie können für jeden Benutzer bestimmte Berechtigungen festlegen, z. B. die Möglichkeit zum Bearbeiten, nur zum Lesen usw.
-
-#### F: Wie kann ich die Arbeitsmappe mit anderen Benutzern teilen?
-
-A: Sobald Sie die freigegebene Arbeitsmappe erstellt haben, können Sie sie mit anderen Benutzern teilen, indem Sie ihnen die Excel-Datei senden. Andere Benutzer können die Datei öffnen und gleichzeitig daran arbeiten.
-
-#### F: Werden alle Excel-Funktionen in einer freigegebenen Arbeitsmappe unterstützt?
-
-A: Die meisten Excel-Funktionen werden in einer freigegebenen Arbeitsmappe unterstützt. Für einige erweiterte Funktionen wie Makros und Add-Ins können jedoch Einschränkungen oder Einschränkungen gelten, wenn sie in einer freigegebenen Arbeitsmappe verwendet werden.
+### Wie beginne ich mit der Verwendung von Aspose.Cells?
+ Laden Sie zunächst die Bibliothek herunter von der[Aspose.Cells Downloads](https://releases.aspose.com/cells/net/)Seite und befolgen Sie die in diesem Handbuch beschriebenen Installationsschritte.

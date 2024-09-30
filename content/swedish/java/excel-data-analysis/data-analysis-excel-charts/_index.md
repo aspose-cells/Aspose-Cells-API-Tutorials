@@ -46,7 +46,7 @@ String query = "SELECT * FROM your_table";
 QueryTable queryTable = workbook.getWorksheets().get(0).getQueryTables().addQueryTable(query, connectionString);
 ```
 
-## Manipulation av data
+## Datamanipulation
 
 När din data väl har laddats kan du manipulera den med Aspose.Cells för Java. Utför operationer som sortering, filtrering och datatransformation för att förbereda dina data för analys.
 
@@ -96,7 +96,7 @@ I den här handledningen har vi utforskat hur man utför dataanalys och skapar E
 
 ### Hur installerar jag Aspose.Cells för Java?
 
- För att installera Aspose.Cells för Java, besök nedladdningssidan på[den här länken](https://releases.aspose.com/cells/java/) och följ installationsanvisningarna.
+ För att installera Aspose.Cells för Java, besök nedladdningssidan på[denna länk](https://releases.aspose.com/cells/java/) och följ installationsanvisningarna.
 
 ### Kan jag använda Aspose.Cells för Java med andra Java-bibliotek?
 

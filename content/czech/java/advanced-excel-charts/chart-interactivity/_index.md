@@ -8,7 +8,7 @@ weight: 19
 url: /cs/java/advanced-excel-charts/chart-interactivity/
 ---
 
-## Úvod
+## Zavedení
 
 Interaktivní grafy dodávají vizualizaci dat nový rozměr a umožňují uživatelům lépe prozkoumat a porozumět datům. V tomto tutoriálu vám ukážeme, jak vytvořit interaktivní grafy pomocí Aspose.Cells for Java. Dozvíte se, jak do grafů přidat funkce, jako jsou popisky, popisky dat a funkce rozbalování, díky čemuž budou vaše prezentace dat poutavější.
 
@@ -16,7 +16,7 @@ Interaktivní grafy dodávají vizualizaci dat nový rozměr a umožňují uživ
 
 Než začneme, ujistěte se, že máte následující předpoklady:
 - Vývojové prostředí Java
-- Aspose.Cells for Java Library (stáhnout z[tady](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java Library (stáhnout z[zde](https://releases.aspose.com/cells/java/)
 
 ## Krok 1: Nastavení vašeho projektu Java
 

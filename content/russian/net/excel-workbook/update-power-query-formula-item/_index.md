@@ -1,105 +1,126 @@
 ---
-title: Обновление элемента формулы Power Query
-linktitle: Обновление элемента формулы Power Query
-second_title: Справочник по API Aspose.Cells для .NET
-description: Узнайте, как обновить элементы формулы Power Query в файлах Excel с помощью Aspose.Cells для .NET.
+title: Обновить элемент формулы Power Query
+linktitle: Обновить элемент формулы Power Query
+second_title: Справочник API Aspose.Cells для .NET
+description: Легко обновляйте элементы формулы Power Query в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство по оптимизации процессов обработки данных.
 type: docs
 weight: 160
 url: /ru/net/excel-workbook/update-power-query-formula-item/
 ---
-Обновление элемента формулы Power Query — обычная операция при работе с данными в файлах Excel. С помощью Aspose.Cells для .NET вы можете легко обновить элемент формулы Power Query, выполнив следующие действия:
+## Введение
 
-## Шаг 1. Укажите исходный и выходной каталоги.
+Если вы когда-либо работали с Excel, вы знаете, насколько мощным он может быть, особенно когда вы начинаете погружаться в Power Query. Это секретный соус, который позволяет вам преобразовывать, очищать и анализировать ваши данные без усилий. Один изящный способ манипулировать вашими формулами Power Query в Excel — через Aspose.Cells для .NET. Сегодня мы проведем вас через обновление элементов формулы Power Query шаг за шагом. Итак, хватайте свою шляпу кодера, и давайте начнем!
 
-Сначала вам необходимо указать исходный каталог, в котором находится файл Excel, содержащий обновляемые формулы Power Query, а также выходной каталог, в котором вы хотите сохранить измененный файл. Вот как это сделать с помощью Aspose.Cells:
+## Предпосылки
 
-```csharp
-// исходный каталог
-string SourceDir = RunExamples.Get_SourceDirectory();
+Прежде чем погрузиться в код, вам нужно настроить несколько вещей:
 
-// Выходной каталог
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: Вам понадобится интегрированная среда разработки (IDE) для написания и запуска вашего кода .NET. Visual Studio — это лучший выбор.
+2.  Библиотека Aspose.Cells: Убедитесь, что в вашем проекте доступна библиотека Aspose.Cells. Вы можете загрузить ее с[сайт](https://releases.aspose.com/cells/net/).
+3. Базовые знания C#: Хотя мы и рассмотрим это вместе, наличие некоторых базовых знаний C#, безусловно, будет полезно, особенно при навигации по различным классам и методам.
+4. Образцы файлов Excel: Вам понадобятся файлы Excel, упомянутые в фрагменте кода. Убедитесь, что у вас есть:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## Шаг 2. Загрузите исходную книгу Excel.
+5. .NET Framework: убедитесь, что ваш проект ориентирован на совместимую версию .NET Framework.
 
-Затем вам необходимо загрузить исходную книгу Excel, в которой вы хотите обновить элемент формулы Power Query. Вот как это сделать:
+Теперь, когда наш комплект готов, мы можем приступить к самой интересной части: написанию кода!
 
-```csharp
-// Загрузите исходную книгу Excel
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## Импортные пакеты
 
-## Шаг 3. Просмотр и обновление элементов формулы Power Query
-
-После загрузки книги вы можете перейти к коллекции формул Power Query и просмотреть каждую формулу и ее элементы. В этом примере мы ищем элемент формулы с именем «Источник» и обновляем его значение. Вот пример кода для обновления элемента формулы Power Query:
+Первым делом вам нужно импортировать необходимые пространства имен. Вот как это сделать:
 
 ```csharp
-// Доступ к коллекции формул Power Query
-DataMashup mashupData = workbook.DataMashup;
-
-// Перебирать формулы Power Query и их элементы.
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## Шаг 4. Сохраните выходную книгу Excel.
+Добавляя эти пространства имен, вы даете понять компилятору, что вы собираетесь использовать классы и методы из библиотеки Aspose.Cells. Этот шаг имеет решающее значение, поскольку он закладывает основу для последующего кода.
 
-После обновления элемента формулы Power Query вы можете сохранить измененную книгу Excel в указанном выходном каталоге. Вот как это сделать:
+Давайте разберем предоставленный вами фрагмент кода. Этот урок проведет вас через каждую часть, гарантируя, что вы поймете, что происходит.
 
-```csharp
-// Сохраните выходную книгу Excel.
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## Шаг 1: Настройка рабочих каталогов
 
-### Пример исходного кода для обновления элемента формулы Power Query с использованием Aspose.Cells для .NET 
+На этом этапе мы определим, где находятся наши исходные и выходные файлы. Это гарантирует, что Aspose будет знать, где искать ваши файлы Excel.
+
 ```csharp
 // Рабочие каталоги
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Здесь мы используем гипотетический метод`RunExamples.Get_SourceDirectory()` чтобы получить путь к нашим исходным файлам. Аналогично,`RunExamples.Get_OutputDirectory()` получает путь, по которому мы сохраним наш вывод. Убедитесь, что эти методы возвращают допустимые пути на вашей машине.
+
+## Шаг 2: Загрузите рабочую книгу
+
+Теперь давайте загрузим файл Excel, в котором находится Power Query.
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ The`Workbook`class — это ваша точка входа в файл Excel. Передавая путь к нашему исходному файлу, мы создаем экземпляр, который позволяет нам манипулировать им. Вы можете представить это как открытие книги — вы готовитесь прочитать (или отредактировать) ее содержимое.
+
+## Шаг 3: Получите доступ к Data Mashup
+
+Далее мы получим доступ к формулам Power Query, хранящимся в Data Mashup рабочей книги.
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ The`DataMashup` class содержит все формулы Power Query, связанные с вашей рабочей книгой. Здесь мы будем выполнять тяжелую работу, как когда вы открываете ящик с инструментами для ремонта.
+
+## Шаг 4: Цикл по формулам Power Query
+
+Теперь наступает этап, в котором мы перебираем формулы Power Query, чтобы найти конкретную формулу, которую хотим обновить.
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
+```
+
+-  Мы просматриваем каждый`PowerQueryFormula` в`mashupData`.
+-  В этом цикле мы погружаемся в каждый`PowerQueryFormulaItem`.
+- Мы проверяем, совпадает ли имя элемента с «Источником». Если это так, мы обновляем его значение, чтобы оно ссылалось на наш новый исходный файл.
+
+Это похоже на поиск нужной страницы в руководстве и последующее внесение необходимых изменений — это простой и кропотливый процесс.
+
+## Шаг 5: Сохраните обновленную рабочую книгу.
+
+После внесения обновлений пришло время сохранить изменения.
+
+```csharp
 // Сохраните выходную книгу.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ The`Save` метод записывает обновленную рабочую книгу в указанный выходной каталог. Это как запечатывание ваших правок в новой версии руководства, готовой для использования другими!
 
 ## Заключение
 
-Обновление элементов формулы Power Query — важная операция при использовании Aspose.Cells для манипулирования и обработки данных в файлах Excel. Следуя инструкциям выше, вы можете легко обновить элементы формулы.
+Поздравляем! Вы успешно обновили элемент формулы Power Query с помощью Aspose.Cells for .NET. С помощью этого метода вы можете автоматизировать изменение формул Power Query в файлах Excel, экономя драгоценное время и усилия.
 
-### Часто задаваемые вопросы
+## Часто задаваемые вопросы
 
-#### Вопрос: Что такое Power Query в Excel?
-     
-Ответ: Power Query — это функция Excel, которая помогает собирать, преобразовывать и загружать данные из разных источников. Он предлагает мощные инструменты для очистки, объединения и изменения данных перед их импортом в Excel.
+### Что такое Aspose.Cells?
+Aspose.Cells — мощная библиотека для работы с файлами Excel в приложениях .NET без необходимости установки Microsoft Excel.
 
-#### Вопрос: Как узнать, был ли успешно обновлен элемент формулы Power Query?
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### Нужен ли мне Microsoft Excel для запуска Aspose.Cells?
+Нет, Aspose.Cells позволяет вам создавать и редактировать файлы Excel программным способом, не требуя наличия Excel на вашем сервере или компьютере для разработки.
 
-#### Вопрос: Могу ли я обновить несколько элементов формулы Power Query одновременно?
-    
-О: Да, вы можете просмотреть коллекцию элементов формулы Power Query и обновить несколько элементов за один цикл, в зависимости от ваших конкретных потребностей.
+### С какими типами файлов Excel я могу работать с помощью Aspose.Cells?
+С помощью Aspose.Cells вы можете работать с .xlsx, .xls, .xlsm и несколькими другими форматами Excel.
 
-#### Вопрос: Есть ли другие операции, которые я могу выполнять с формулами Power Query с помощью Aspose.Cells?
-    
-О: Да, Aspose.Cells предлагает полный набор функций для работы с формулами Power Query, включая создание, удаление, копирование и поиск формул в книге Excel.
+### Существует ли пробная версия Aspose.Cells?
+ Да, вы можете загрузить бесплатную пробную версию с сайта[Страница релиза Aspose Cells](https://releases.aspose.com/).
+
+### Как я могу получить поддержку по Aspose.Cells?
+ Вы можете получить поддержку через[Форум Aspose](https://forum.aspose.com/c/cells/9), где вы можете задать вопросы и найти ответы от сообщества и команды Aspose.

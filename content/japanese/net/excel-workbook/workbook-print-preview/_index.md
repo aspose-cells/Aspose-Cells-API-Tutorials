@@ -2,96 +2,142 @@
 title: ワークブックの印刷プレビュー
 linktitle: ワークブックの印刷プレビュー
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用してワークブックの印刷プレビューを生成する方法を学習します。
+description: Aspose.Cells for .NET を使用して Excel ファイルの印刷プレビューを作成する方法を学びます。詳細でわかりやすいチュートリアルでコーディング手順を学びます。
 type: docs
 weight: 170
 url: /ja/net/excel-workbook/workbook-print-preview/
 ---
-ワークブックの印刷プレビューは、Aspose.Cells for .NET を使用して Excel ファイルを操作する場合に不可欠な機能です。次の手順に従って、印刷プレビューを簡単に生成できます。
+## 導入
 
-## ステップ 1: ソース ディレクトリを指定する
+Excel ファイルの管理と操作に関しては、Aspose.Cells for .NET は傑出した強力なライブラリです。ワークブックが印刷されたときにどのように表示されるかをチラ見したことがあるなら、物事を完璧にするために少し手助けが必要なことがあることをご存知でしょう。そこで、印刷プレビューが役立ちます。このチュートリアルでは、Aspose.Cells for .NET を使用して印刷プレビューの領域を詳しく見ていきます。このライブラリを使用して、Excel ファイルをプリンターに送信する前に、その正確な表現を取得する方法を探ります。初めてでも心配しないでください。詳細をステップ バイ ステップで説明します。では、お気に入りの飲み物を手に取り、このエキサイティングな旅を始めましょう。
 
-まず、プレビューする Excel ファイルが配置されているソース ディレクトリを指定する必要があります。その方法は次のとおりです。
+## 前提条件
+
+コーディング作業を始める前に、始めるのに必要なものがすべて揃っていることを確認しましょう。前提条件のチェックリストは次のとおりです。
+
+1. Visual Studio: IDE が必要になります。Visual Studio は .NET プロジェクトに最適です。
+2. Aspose.Cells for .NET: ライブラリをダウンロードするか、または、お好みに応じて、まずは無料トライアル版で試してみることもできます。[このリンク](https://releases.aspose.com).
+3. C# の基礎知識: C# の基礎を理解しておくと、問題なく理解できるようになります。
+4. .NET Framework: 互換性のあるバージョンの .NET Framework がマシンにインストールされていることを確認します。
+5. サンプルExcelファイル: このチュートリアルでは、Excelファイルが必要になります。サンプルファイルとして、`Book1.xlsx`.
+
+エンジンの準備ができたので、必要なパッケージをインポートして作業を開始しましょう。
+
+## パッケージのインポート
+
+まず、タスクに必要なパッケージをインポートしましょう。簡単な方法は次のとおりです。
+
+### Visual Studioプロジェクトを開く
+
+まず、既存のプロジェクトを開くか、最初から始める場合は新しいプロジェクトを作成します。Visual Studio ではすべてがユーザーフレンドリーになっており、この簡単な操作で操作全体の基盤が設定されます。
+
+### Aspose.Cells への参照を追加する
+
+ソリューション エクスプローラーで、プロジェクトを右クリックし、[NuGet パッケージの管理] を選択します。Aspose.Cells を検索してインストールします。このライブラリには、印刷プレビューを実行するために必要なすべての機能が含まれているため、これは非常に重要です。
+
+### 必要な名前空間を含める
+
+C# ファイルの先頭に、使用するクラスにアクセスするためのいくつかの名前空間を含める必要があります。次のようになります。
+
+```csharp
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
+```
+
+これは、Excel ファイルを楽々と操作できるまったく新しい機能の世界への扉を開くようなものです。
+
+これで準備はすべて整いましたので、Aspose.Cells を使用してワークブックの印刷プレビューを作成する手順を詳しく説明します。
+
+## ステップ1: ソースディレクトリを定義する
+
+印刷プレビューの冒険を始めるには、ソース Excel ファイルの場所を定義する必要があります。これがエントリ ポイントなので、設定しましょう。
 
 ```csharp
 //ソースディレクトリ
 string sourceDir = RunExamples.Get_SourceDirectory();
 ```
 
-## ステップ 2: ワークブックをロードする
+このコードは、`Book1.xlsx`が存在するため、将来の参照がはるかに簡単になります。
 
-次に、指定した Excel ファイルから Workbook ワークブックをロードする必要があります。その方法は次のとおりです。
+## ステップ2: ワークブックを読み込む
+
+ディレクトリができたので、ワークブックをアプリケーションに読み込みます。この手順により、ファイルを操作できるようになります。
 
 ```csharp
-// Workbook ワークブックをロードする
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
-## ステップ 3: 画像と印刷のオプションを構成する
+ここでは、`Workbook`クラスに Excel ファイルへのパスを渡します。これは、本を開いて内容を読むのに似ています。この手順で、ワークブックを開きました。
 
-印刷プレビューを生成する前に、必要に応じて画像と印刷のオプションを構成できます。この例では、デフォルトのオプションを使用しています。その方法は次のとおりです。
+## ステップ3: 印刷オプションを設定する
+
+印刷プレビューを生成する前に、どのようにレンダリングするかのオプションを設定する必要があります。これは、食事を作る前に適切なレシピを選択するようなものです。
 
 ```csharp
-//画像と印刷のオプション
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
-## ステップ 4: ワークブックの印刷プレビューを生成する
+この場合、インスタンスを作成します`ImageOrPrintOptions`これにより、印刷プレビューの表示方法を柔軟に選択できるようになります。
 
-WorkbookPrintingPreview クラスを使用して、Workbook ワークブックの印刷プレビューを生成できるようになりました。その方法は次のとおりです。
+## ステップ4: ワークブックの印刷プレビューを作成する
+
+いよいよ、本当の魔法の始まりです。ワークブックの印刷プレビューを生成します。方法は次のとおりです。
 
 ```csharp
-//ワークブックの印刷プレビュー
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
+```
+
+現時点では、ワークブック全体のプレビューを作成しています。これは、読み始める前に本のページを覗き見しているようなもので、何が含まれているかの概要を把握していることになります。
+
+## ステップ5: ページ数を評価する
+
+ワークブックを印刷すると何ページになるでしょうか? 次のコードで確認してみましょう。
+
+```csharp
 Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
 ```
 
-## ステップ 5: ワークシートの印刷プレビューを生成する
+このコード行は、ワークブック内のページの合計数を示します。これは、特にドキュメントを印刷する予定がある場合に重要な情報です。
 
-特定のワークシートの印刷プレビューを生成したい場合は、SheetPrintingPreview クラスを使用できます。以下に例を示します。
+## ステップ6: シートの印刷プレビューを作成する
+
+場合によっては、特定のワークシートのプレビューのみを表示したいことがあります。今すぐそれを実行してみましょう。
 
 ```csharp
-//ワークシートの印刷プレビュー
-SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0], imgOptions);
-Console.WriteLine("Number of worksheet pages: " + preview2.EvaluatedPageCount);
-```
-
-### Aspose.Cells for .NET を使用したワークブック印刷プレビューのサンプル ソース コード 
-```csharp
-//ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
-Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
-ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
-Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
 SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0], imgOptions);
 Console.WriteLine("Worksheet page count: " + preview2.EvaluatedPageCount);
+```
+
+このスニペットでは、本の特定の章に焦点を合わせるのと同様に、最初のワークシートを取得してその印刷プレビューを生成しています。これにより、そのシートのページ数がわかります。
+
+## ステップ7: 成功メッセージ
+
+すべてが順調に進んだことを確認するために、フレンドリーなメッセージで締めくくるのは常に良いことです。
+
+```csharp
 Console.WriteLine("PrintPreview executed successfully.");
 ```
 
+このセリフは、プロジェクトを完了した後の最後の仕上げのようなものです。良い仕事をしたという実感を得るのに常に役立ちます。
+
 ## 結論
 
-ワークブックの印刷プレビューの生成は、Aspose.Cells for .NET によって提供される強力な機能です。上記の手順に従うと、Excel ワークブックを簡単にプレビューし、印刷するページ数に関する情報を取得できます。
+これで完了です。Aspose.Cells for .NET を使用して、Excel ブックの印刷プレビューを正常に設定できました。パッケージのインポートから、ブック全体と個々のワークシートのページ数の評価まで、すべてを説明しました。ブックが印刷されたときにどのように表示されるかを視覚化することがいかに簡単であるかは驚くべきことです。Aspose.Cells を利用することで、強力なツールを自由に利用できるようになります。経験豊富な開発者でも、初心者でも、このライブラリは Excel ファイル管理を次のレベルに引き上げるために必要な柔軟性と機能を提供します。
 
-### よくある質問
+## よくある質問
 
-#### Q: ワークブックをロードするために別のソース ディレクトリを指定するにはどうすればよいですか?
-    
- A: を使用できます。`Set_SourceDirectory`別のソース ディレクトリを指定するメソッド。例えば：`RunExamples.Set_SourceDirectory("Path_to_the_source_directory")`.
+### Aspose.Cells とは何ですか?
+Aspose.Cells は、Excel ファイル形式を処理するための強力なライブラリであり、データ操作、書式設定、印刷プレビューのレンダリングなどの機能を提供します。
 
-#### Q: 印刷プレビューを生成するときに画像と印刷のオプションをカスタマイズできますか?
-    
- A: はい、プロパティを変更することで、画像と印刷のオプションをカスタマイズできます。`ImageOrPrintOptions`物体。たとえば、画像の解像度、出力ファイル形式などを設定できます。
+### 使用するには Aspose.Cells を購入する必要がありますか?
+まずは無料トライアル版をご利用ください。[このリンク](https://releases.aspose.com)ライセンスを購入する前に。
 
-#### Q: ワークブック内の複数のワークシートの印刷プレビューを生成することはできますか?
-    
-A: はい、ワークブック内のさまざまなワークシートを反復処理し、各シートの印刷プレビューを生成できます。`SheetPrintingPreview`クラス。
+### Aspose.Cells はどの .NET アプリケーションでも使用できますか?
+はい、Aspose.Cells は、ASP.NET、WinForms など、あらゆる .NET アプリケーションで動作するように設計されています。
 
-#### Q: 印刷プレビューを画像または PDF ファイルとして保存するにはどうすればよいですか?
-    
- A: 使用できます`ToImage`または`ToPdf`の方法`WorkbookPrintingPreview`または`SheetPrintingPreview`印刷プレビューを画像または PDF ファイルとして保存するオブジェクト。
+### より詳細なドキュメントはどこで見つかりますか?
+詳細なドキュメントは以下でご覧いただけます。[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/).
 
-#### Q: 生成された印刷プレビューでは何ができるのですか?
-    
-A: 印刷プレビューを生成したら、画面上で表示したり、画像または PDF ファイルとして保存したり、電子メールでの送信や印刷などの他の操作に使用したりできます。
-	
+### Aspose.Cells の使用中に問題が発生した場合はどうすればよいですか?
+問題が発生した場合や質問がある場合は、Aspose フォーラムからサポートを受けることができます。[Aspose サポート](https://forum.aspose.com/c/cells/9).

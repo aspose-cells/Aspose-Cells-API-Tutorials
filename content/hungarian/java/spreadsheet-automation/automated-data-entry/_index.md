@@ -19,7 +19,7 @@ Mielőtt belemerülnénk a technikai részletekbe, értsük meg, miért elengedh
 3. Konzisztencia: Az automatizált folyamatok egységes adatformátumot tartanak fenn.
 4. Skálázhatóság: Nagy mennyiségű adat egyszerű kezelése automatizálással.
 
-## Elkezdeni
+## Kezdő lépések
 
 ### 1. A környezet beállítása
 

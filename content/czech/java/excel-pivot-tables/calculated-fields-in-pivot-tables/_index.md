@@ -7,7 +7,7 @@ type: docs
 weight: 15
 url: /cs/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 ---
-## Úvod
+## Zavedení
 Kontingenční tabulky jsou mocným nástrojem pro analýzu a sumarizaci dat v Excelu. Někdy však potřebujete provést vlastní výpočty s daty v kontingenční tabulce. V tomto tutoriálu vám ukážeme, jak vytvořit vypočítaná pole v kontingenčních tabulkách pomocí Aspose.Cells for Java, což vám umožní posunout analýzu dat na další úroveň.
 
 ### Předpoklady
@@ -16,7 +16,7 @@ Než začneme, ujistěte se, že máte následující:
 - Základní znalost programování v Javě.
 
 ## Krok 1: Nastavení projektu Java
- Nejprve vytvořte nový Java projekt ve svém oblíbeném IDE a zahrňte knihovnu Aspose.Cells for Java. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/cells/java/).
+ Nejprve vytvořte nový Java projekt ve svém oblíbeném IDE a zahrňte knihovnu Aspose.Cells for Java. Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 2: Import nezbytných tříd
 Ve svém kódu Java importujte potřebné třídy z Aspose.Cells. Tyto třídy vám pomohou pracovat s kontingenčními tabulkami a vypočítanými poli.
@@ -60,7 +60,7 @@ pivotTable.calculateData();
 ```
 
 ## Závěr
-Gratulujeme! Naučili jste se vytvářet vypočítaná pole v kontingenčních tabulkách pomocí Aspose.Cells for Java. To vám umožní provádět vlastní výpočty s vašimi daty v aplikaci Excel, což rozšíří možnosti analýzy dat.
+Gratuluji! Naučili jste se vytvářet vypočítaná pole v kontingenčních tabulkách pomocí Aspose.Cells for Java. To vám umožní provádět vlastní výpočty s vašimi daty v aplikaci Excel, což rozšíří možnosti analýzy dat.
 
 ## Nejčastější dotazy
 ### Co když mám v kontingenční tabulce provádět složitější výpočty?

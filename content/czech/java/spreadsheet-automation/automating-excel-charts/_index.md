@@ -23,7 +23,7 @@ Automatizace grafů Excel nabízí několik výhod:
 
 ### 1. Nastavení prostředí
 
-Než začnete, ujistěte se, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+Než začnete, ujistěte se, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ### 2. Inicializace Aspose.Cells
 

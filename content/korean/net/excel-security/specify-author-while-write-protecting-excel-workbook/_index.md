@@ -1,109 +1,113 @@
 ---
-title: Excel 통합 문서 쓰기를 보호하는 동안 작성자 지정
-linktitle: Excel 통합 문서 쓰기를 보호하는 동안 작성자 지정
-second_title: .NET API 참조용 Aspose.Cells
-description: .NET용 Aspose.Cells를 사용하여 Excel 통합 문서를 보호하고 사용자 지정하는 방법을 알아보세요. C#의 단계별 튜토리얼입니다.
+title: Excel 통합 문서 쓰기 보호 중 작성자 지정
+linktitle: Excel 통합 문서 쓰기 보호 중 작성자 지정
+second_title: .NET API 참조를 위한 Aspose.Cells
+description: 이 단계별 가이드에서는 Aspose.Cells for .NET을 사용하여 작성자를 지정하면서 Excel 통합 문서에 쓰기 보호를 설정하는 방법을 알아봅니다.
 type: docs
 weight: 30
 url: /ko/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
+## 소개
 
-이 튜토리얼에서는 .NET용 Aspose.Cells 라이브러리를 사용하여 Excel 통합 문서 쓰기 보호 시 작성자를 지정하는 방법을 보여줍니다.
+.NET 애플리케이션에서 Excel 파일을 작업할 때 Aspose.Cells는 많은 개발자에게 꼭 필요한 솔루션입니다. 풍부한 기능 세트를 사용하면 Excel 파일을 쉽게 생성, 조작 및 보호할 수 있습니다. 개발자가 직면하는 일반적인 요구 사항 중 하나는 무단 편집으로부터 보호하면서 Excel 통합 문서에 쓰는 것입니다. 또한 작성자를 지정하면 문서를 공유할 때 추적 목적으로 매우 유용할 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 통합 문서를 쓰기 보호하면서 작성자를 지정하는 방법에 대해 자세히 알아보겠습니다.
 
-## 1단계: 환경 준비
+## 필수 조건
 
-시작하기 전에 컴퓨터에 .NET용 Aspose.Cells가 설치되어 있는지 확인하세요. Aspose 공식 웹사이트에서 라이브러리를 다운로드하고 제공된 설치 지침을 따르세요.
+구현의 핵심을 파고들기 전에 튼튼한 기초를 갖추는 것이 필수적입니다. 시작하기 위해 필요한 전제 조건은 다음과 같습니다.
 
-## 2단계: 소스 및 출력 디렉터리 구성
+1. Visual Studio: Visual Studio의 작동 설치가 필요합니다. 여기서 .NET 코드를 작성하고 컴파일합니다.
+2. .NET Framework: .NET Framework가 설치되어 있는지 확인하세요. Aspose.Cells는 다양한 버전을 지원하므로 애플리케이션에 맞는 버전을 선택하세요.
+3.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 필요합니다. 다음에서 얻을 수 있습니다.[공식 다운로드 페이지](https://releases.aspose.com/cells/net/).
+4. C#에 대한 기본적인 이해: C#에 익숙하면 코딩 과정을 손쉽게 진행할 수 있습니다.
 
-제공된 소스 코드에서 소스 및 출력 디렉터리를 지정해야 합니다. 수정하다`sourceDir` 그리고`outputDir` "YOUR SOURCE DIRECTORY" 및 "YOUR OUTPUT DIRECTORY"를 컴퓨터의 해당 절대 경로로 대체하여 변수를 변경합니다.
+## 패키지 가져오기
+
+Aspose.Cells에서 제공하는 기능을 최대한 활용하려면 필요한 패키지를 가져오는 것으로 시작해 보겠습니다. 다음 using 지시문을 추가하여 C# 파일을 시작합니다.
 
 ```csharp
-// 소스 디렉터리
-string sourceDir = "PATH TO YOUR SOURCE DIRECTORY";
-
-// 출력 디렉토리
-string outputDir = "YOUR OUTPUT DIRECTORY PATH";
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## 3단계: 빈 Excel 통합 문서 만들기
+이 지시문을 사용하면 Aspose.Cells 라이브러리에 포함된 클래스와 메서드에 액세스할 수 있습니다. 이제 패키지를 가져왔으니, 재미있는 부분인 코드 작성으로 넘어가겠습니다!
 
-시작하려면 빈 Excel 통합 문서를 나타내는 Workbook 개체를 만듭니다.
+## 1단계: 디렉토리 설정
 
-```csharp
-// 빈 통합 문서를 만듭니다.
-Workbook wb = new Workbook();
-```
-
-## 4단계: 비밀번호로 쓰기 방지
-
- 다음으로, 다음을 사용하여 Excel 통합 문서 쓰기를 보호하기 위한 비밀번호를 지정합니다.`WriteProtection.Password` 통합 문서 개체의 속성입니다.
+통합 문서를 시작하기 전에 소스 파일이 있는 경로와 출력을 저장할 위치를 설정하는 것이 좋습니다. 방법은 다음과 같습니다.
 
 ```csharp
-// 비밀번호로 통합 문서를 보호하세요.
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-```
-
-## 5단계: 작성자 사양
-
- 이제 다음을 사용하여 Excel 통합 문서의 작성자를 지정합니다.`WriteProtection.Author` 통합 문서 개체의 속성입니다.
-
-```csharp
-// 통합 문서 쓰기를 보호하는 동안 작성자를 지정하세요.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-```
-
-## 6단계: 보호된 Excel 통합 문서 백업
-
- 쓰기 방지 및 작성자가 지정되면 다음을 사용하여 Excel 통합 문서를 XLSX 형식으로 저장할 수 있습니다.`Save()` 방법.
-
-```csharp
-// 통합 문서를 XLSX 형식으로 저장합니다.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-```
-
-### .NET용 Aspose.Cells를 사용하여 쓰기 보호하는 동안 작성자 지정 Excel 통합 문서에 대한 샘플 소스 코드 
-```csharp
-//소스 디렉터리
+//소스 디렉토리
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
-//출력 디렉토리
+// 출력 디렉토리
 string outputDir = "YOUR OUTPUT DIRECTORY";
+```
 
+ 교체를 꼭 해주세요`"YOUR SOURCE DIRECTORY"` 그리고`"YOUR OUTPUT DIRECTORY"` 머신에 실제 경로가 있습니다. 걸작을 만들기 전에 깔끔한 작업 공간을 만드는 것으로 생각하세요!
+
+## 2단계: 빈 통합 문서 만들기
+
+이제 디렉토리를 설정했으니 다음 단계는 빈 워크북을 만드는 것입니다. 이것은 본질적으로 데이터를 쓸 캔버스입니다.
+
+```csharp
 // 빈 통합 문서를 만듭니다.
 Workbook wb = new Workbook();
-
-// 비밀번호로 통합 문서를 보호하세요.
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-
-// 통합 문서 쓰기를 보호하는 동안 작성자를 지정하세요.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-
-// 통합 문서를 XLSX 형식으로 저장합니다.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-
 ```
+
+예술가가 빈 캔버스에서 시작하는 것처럼, 나중에 데이터나 서식을 추가할 수 있는 빈 통합 문서에서 시작하는 것입니다.
+
+## 3단계: 통합 문서 쓰기 보호
+
+쓰기 보호는 중요한 측면이며, 특히 데이터의 무결성이 그대로 유지되도록 하려는 경우 더욱 그렇습니다. 비밀번호로 이를 수행할 수 있습니다.
+
+```csharp
+// 비밀번호로 통합 문서를 쓰기 보호합니다.
+wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
+```
+
+ 이 줄에서 다음을 바꾸세요.`"YOUR_PASSWORD"` 선택한 강력한 비밀번호로. 이 비밀번호는 잠긴 문과 같은 역할을 합니다. 즉, 열쇠(비밀번호)가 있는 사람만 들어갈 수 있습니다.
+
+## 4단계: 작성자 지정
+
+이제 통합 문서의 작성자를 지정하겠습니다. 이는 특히 책임을 묻는 데 유용하며 다른 사람들이 파일을 만든 사람이나 수정한 사람을 볼 수 있게 해줍니다.
+
+```csharp
+// 통합 문서를 쓰기 보호하는 동안 작성자를 지정하세요.
+wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
+```
+
+ 교체를 꼭 해주세요`"YOUR_AUTHOR"` 문서와 연관시키고 싶은 이름으로. 이것을 아트워크에 서명하는 것으로 생각하세요. 그러면 사람들이 이 작품에 대해 누구에게 감사해야 할지 알 수 있습니다!
+
+## 5단계: 통합 문서 저장
+
+마지막 단계는 원하는 형식으로 통합 문서를 저장하는 것입니다. 이 경우 XLSX 파일로 저장합니다. 
+
+```csharp
+// XLSX 형식으로 통합 문서를 저장합니다.
+wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
+```
+
+ 여기에서 출력 파일은 지정된 출력 디렉토리에 이름으로 저장됩니다.`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. 이제 여러분의 노고가 마침내 보상을 받고, 여러분의 통합 문서가 잘 보호된다는 사실을 알면서 다른 사람들과 공유할 수 있습니다!
 
 ## 결론
 
-축하합니다! 이제 Aspose.Cells for .NET을 사용하여 Excel 통합 문서 쓰기 보호 시 작성자를 지정하는 방법을 배웠습니다. 이러한 단계를 자신의 프로젝트에 적용하여 Excel 통합 문서를 보호하고 사용자 지정할 수 있습니다.
-
-Excel 파일에 대한 고급 작업을 수행하려면 .NET용 Aspose.Cells의 기능을 더 자세히 살펴보세요.
+이제 다 봤습니다! Aspose.Cells for .NET을 사용하여 Excel 통합 문서를 만들고, 암호로 쓰기 보호를 설정하고, 작성자를 지정하고, 원활하게 저장하는 방법을 배웠습니다. 이러한 기능의 조합은 데이터를 보호할 뿐만 아니라 무결성을 유지하고 적절한 귀속을 제공합니다.
 
 ## 자주 묻는 질문
 
-#### Q: 비밀번호를 지정하지 않고 Excel 통합 문서 쓰기를 보호할 수 있나요?
+### 쓰기 보호에 대한 비밀번호를 사용자 정의할 수 있나요?  
+ 네, 필요에 따라 비밀번호를 사용자 정의할 수 있습니다. 그냥 바꾸세요`YOUR_PASSWORD` 원하는 비밀번호를 입력하세요.
 
- A: 예, 통합 문서 개체의`WriteProtect()` Excel 통합 문서 쓰기를 보호하려면 암호를 지정하지 않고 메서드를 사용하세요. 이렇게 하면 비밀번호를 요구하지 않고 통합 문서에 대한 변경이 제한됩니다.
+### Aspose.Cells는 무료로 사용할 수 있나요?  
+ Aspose.Cells는 유료 라이브러리이지만 제한된 시간 평가판으로 무료로 사용해 볼 수 있습니다. 방문[무료 체험 링크](https://releases.aspose.com/) 시작하려면 클릭하세요.
 
-#### Q: Excel 통합 문서에서 쓰기 방지를 어떻게 제거합니까?
+### Aspose.Cells 라이브러리는 어떻게 구매하나요?  
+ Aspose.Cells는 다음을 통해 구매할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
 
- A: Excel 통합 문서에서 쓰기 금지를 제거하려면 다음을 사용할 수 있습니다.`Unprotect()` Worksheet 개체의 메서드 또는`RemoveWriteProtection()` 특정 사용 사례에 따라 Workbook 개체의 메서드를 사용합니다. .
+### 이 방법을 웹 애플리케이션에 사용할 수 있나요?  
+물론입니다! Aspose.Cells는 .NET을 사용하여 데스크톱과 웹 애플리케이션에서 모두 원활하게 작동합니다.
 
-#### Q: Excel 통합 문서를 보호하기 위한 비밀번호를 잊어버렸습니다. 어떡해 ?
-
-A: Excel 통합 문서를 보호하기 위한 비밀번호를 잊어버린 경우 비밀번호를 직접 제거할 수 없습니다. 그러나 보호된 Excel 파일에 대한 암호 복구 기능을 제공하는 전문적인 타사 도구를 사용해 볼 수 있습니다.
-
-#### Q: Excel 통합 문서 쓰기 금지 시 작성자를 여러 명 지정할 수 있나요?
-
-A: 아니요. .NET용 Aspose.Cells 라이브러리를 사용하면 Excel 통합 문서 쓰기 금지 시 단일 작성자를 지정할 수 있습니다. 여러 명의 작성자를 지정하려면 엑셀 파일을 직접 조작하는 방식의 맞춤형 솔루션을 고려해야 합니다.
+### 지원이 필요하면 어떻게 해야 하나요?  
+ 질문과 문제 해결을 위해 Aspose 커뮤니티가 매우 유용합니다.[지원 포럼](https://forum.aspose.com/c/cells/9) 도움이 필요하면.

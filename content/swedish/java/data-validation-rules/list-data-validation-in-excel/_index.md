@@ -56,7 +56,7 @@ Workbook workbook = new Workbook();
 
 Därefter definierar du datavalideringsreglerna för specifika celler i ditt Excel-kalkylblad. Du kan ställa in olika valideringskriterier, till exempel:
 
-- Heltal
+- Hela siffror
 - Decimaltal
 - Textlängd
 - Datumintervall

@@ -19,7 +19,7 @@ A kötegelt Excel feldolgozás automatizálása számos előnnyel jár:
 3. Konzisztencia: Egyenletes adatformázás fenntartása a fájlok között.
 4. Méretezhetőség: Nagy mennyiségű Excel-fájlt könnyedén kezelhet.
 
-## Elkezdeni
+## Kezdő lépések
 
 ### 1. A környezet beállítása
 
@@ -86,7 +86,7 @@ Egyéni kötegelt feldolgozási feladatokat határozhat meg sajátos igényei sz
 
 ## Következtetés
 
-A kötegelt Excel-feldolgozás automatizálása az Aspose.Cells for Java segítségével leegyszerűsíti több Excel-fájl kezelését, növeli a hatékonyságot és csökkenti a hibák számát. A mellékelt forráskód-példákkal optimalizálhatja a kötegelt feldolgozási feladatokat a Java alkalmazásokban.
+A kötegelt Excel-feldolgozás automatizálása az Aspose.Cells for Java segítségével leegyszerűsíti több Excel-fájl kezelését, növeli a hatékonyságot és csökkenti a hibákat. A mellékelt forráskód-példákkal optimalizálhatja a kötegelt feldolgozási feladatokat a Java alkalmazásokban.
 
 ## GYIK
 

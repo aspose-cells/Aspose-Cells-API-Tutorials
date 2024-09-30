@@ -2,131 +2,151 @@
 title: Přidejte digitální podpis do již podepsaného souboru aplikace Excel
 linktitle: Přidejte digitální podpis do již podepsaného souboru aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: Snadno přidávejte digitální podpisy do stávajících souborů aplikace Excel pomocí Aspose.Cells pro .NET.
+description: Naučte se, jak přidat digitální podpis do již podepsaného souboru Excel pomocí Aspose.Cells for .NET, pomocí tohoto podrobného průvodce krok za krokem.
 type: docs
 weight: 30
 url: /cs/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
 ---
-V tomto podrobném průvodci vysvětlíme poskytnutý zdrojový kód C#, který vám umožní přidat digitální podpis do již podepsaného souboru Excel pomocí Aspose.Cells for .NET. Chcete-li přidat nový digitální podpis do existujícího souboru aplikace Excel, postupujte podle následujících kroků.
+## Zavedení
 
-## Krok 1: Nastavte zdrojový a výstupní adresář
+dnešním digitálním světě je zabezpečení dokumentů důležitější než kdy jindy. Digitální podpisy poskytují způsob, jak zajistit autenticitu a integritu vašich souborů, zejména při práci s citlivými informacemi. Pokud pracujete se soubory aplikace Excel a chcete přidat nový digitální podpis do sešitu, který již byl podepsán, jste na správném místě! V této příručce vás provedeme procesem přidání digitálního podpisu do již podepsaného souboru Excel pomocí Aspose.Cells for .NET. Takže, pojďme se ponořit!
+
+## Předpoklady
+
+Než se pustíme do hrubky kódování, je třeba mít na paměti několik věcí:
+
+1.  Aspose.Cells for .NET: Ujistěte se, že máte v projektu .NET nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout z[místo](https://releases.aspose.com/cells/net/).
+2.  Soubor certifikátu: Budete potřebovat platný soubor certifikátu (obvykle a`.pfx` soubor), který obsahuje váš digitální certifikát. Ujistěte se, že znáte heslo pro tento soubor.
+3. Vývojové prostředí: Nastavte své vývojové prostředí pomocí sady Visual Studio nebo jiného IDE, které podporuje .NET.
+4. Základní znalost C#: Znalost programování v C# vám pomůže hladce pokračovat.
+5. Ukázkové soubory: Mějte ukázkový soubor Excel, který je již digitálně podepsán. Toto bude soubor, do kterého přidáte nový podpis.
+
+Nyní, když máme vše na svém místě, můžeme začít kódovat!
+
+## Importujte balíčky
+
+Chcete-li začít, budete muset importovat potřebné balíčky do souboru C#. Postup je následující:
 
 ```csharp
-// zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
 
+Tyto jmenné prostory vám umožní pracovat se soubory aplikace Excel a bezproblémově zpracovávat digitální podpisy.
+
+## Krok 1: Nastavte zdrojové a výstupní adresáře
+
+Než budete moci manipulovat se soubory aplikace Excel, musíte definovat, kde jsou umístěny zdrojové soubory a kam chcete uložit výstupní soubor. Jak na to:
+
+```csharp
+//Zdrojový adresář
+string sourceDir = RunExamples.Get_SourceDirectory();
 // Výstupní adresář
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-tomto prvním kroku definujeme zdrojové a výstupní adresáře, které budou použity k načtení stávajícího souboru Excel a uložení souboru s novým digitálním podpisem.
+V tomto kroku používáme metodu k získání cest pro zdrojový a výstupní adresář. Ujistěte se, že tyto adresáře existují a obsahují požadované soubory.
 
-## Krok 2: Načtěte existující soubor Excel
+## Krok 2: Načtěte již podepsaný sešit
+
+Dále budete muset načíst sešit aplikace Excel, který chcete upravit. To se provádí vytvořením instance souboru`Workbook` třídy a předání cesty k podepsanému souboru.
 
 ```csharp
-// Načtěte již podepsaný excelový sešit
+// Načtěte sešit, který je již digitálně podepsán
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Zde načteme již podepsaný soubor Excel pomocí`Workbook` třídy Aspose.Cells.
+ Zde načítáme sešit s názvem`sampleDigitallySignedByCells.xlsx`. Ujistěte se, že tento soubor je již podepsán.
 
-## Krok 3: Vytvořte kolekci digitálních podpisů
+## Krok 3: Vytvořte sbírku digitálních podpisů
+
+Nyní vytvoříme sbírku digitálních podpisů. Tato kolekce bude obsahovat všechny digitální podpisy, které chcete přidat do sešitu.
 
 ```csharp
 // Vytvořte kolekci digitálních podpisů
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
- Vytváříme novou kolekci digitálních podpisů pomocí`DigitalSignatureCollection` třída.
+Tento krok je zásadní, protože umožňuje v případě potřeby spravovat více podpisů.
 
 ## Krok 4: Vytvořte nový certifikát
 
+ Chcete-li vytvořit nový digitální podpis, musíte načíst soubor certifikátu. Zde zadáte cestu k vašemu`.pfx` soubor a jeho heslo.
+
 ```csharp
+// Soubor certifikátu a jeho heslo
+string certFileName = sourceDir + "AsposeDemo.pfx";
+string password = "aspose";
+
 // Vytvořte nový certifikát
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
-Zde vytvoříme nový certifikát z poskytnutého souboru a hesla.
+ Nezapomeňte vyměnit`AsposeDemo.pfx` a heslo se skutečným názvem souboru certifikátu a heslem.
 
-## Krok 5: Přidejte do sbírky nový digitální podpis
+## Krok 5: Vytvořte digitální podpis
 
-```csharp
-// Vytvořte nový digitální podpis
-Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added a new digital signature to the already signed workbook.", DateTime.Now);
-
-// Přidejte digitální podpis do sbírky
-dsCollection.Add(signature);
-```
-
- Vytvoříme nový digitální podpis pomocí`DigitalSignature` třídy a přidejte jej do sbírky digitálních podpisů.
-
-## Krok 6: Přidejte do sešitu kolekci digitálních podpisů
+S certifikátem v ruce nyní můžete vytvořit digitální podpis. Budete také chtít uvést důvod podpisu a aktuální datum a čas.
 
 ```csharp
-//Přidejte kolekci digitálních podpisů do sešitu
-workbook.AddDigitalSignature(dsCollection);
-```
-
- Sbírku digitálních podpisů přidáváme do stávajícího excelového sešitu pomocí`AddDigitalSignature()` metoda.
-
-## Krok 7: Uložte a zavřete sešit
-
-```csharp
-// Uložte sešit a zavřete jej
-workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
-workbook.Dispose();
-```
-
-Sešit s novým digitálním podpisem uložíme do určeného výstupního adresáře, poté jej zavřeme a uvolníme související prostředky.
-
-### Ukázkový zdrojový kód pro přidání digitálního podpisu do již podepsaného souboru aplikace Excel pomocí Aspose.Cells for .NET 
-```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
-//Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
-//Soubor certifikátu a jeho heslo
-string certFileName = sourceDir + "AsposeDemo.pfx";
-string password = "aspose";
-//Chcete-li přidat nový digitální podpis, načtěte sešit, který je již digitálně podepsán
-Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
-//Vytvořte kolekci digitálních podpisů
-Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-//Vytvořte nový certifikát
-System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
-//Vytvořte nový digitální podpis a přidejte jej do sbírky digitálních podpisů
+// Vytvořte nový digitální podpis a přidejte jej do sbírky digitálních podpisů
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
-dsCollection.Add(signature);
-//Přidejte do sešitu kolekci digitálních podpisů
+```
+
+Tento krok přidá nový podpis do vaší kolekce, který později použijete na sešit.
+
+## Krok 6: Přidejte do sešitu sbírku digitálních podpisů
+
+Nyní je čas přidat kolekci digitálních podpisů do sešitu. Tady se děje kouzlo!
+
+```csharp
+// Přidejte do sešitu kolekci digitálních podpisů
 workbook.AddDigitalSignature(dsCollection);
-//Uložte sešit a zlikvidujte jej.
+```
+
+Spuštěním tohoto řádku efektivně připojíte nový digitální podpis k již podepsanému sešitu.
+
+## Krok 7: Uložte a zlikvidujte sešit
+
+Nakonec budete chtít uložit upravený sešit do výstupního adresáře a uvolnit všechny používané prostředky.
+
+```csharp
+// Uložte sešit a zlikvidujte jej.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
+```
+
+Tento krok zajistí, že se provedené změny uloží a sešit se správně zlikviduje, aby se uvolnily prostředky.
+
+## Krok 8: Potvrďte provedení
+
+Abychom to uzavřeli, je dobré potvrdit, že váš kód byl úspěšně proveden. Můžete to udělat pomocí jednoduché konzolové zprávy.
+
+```csharp
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
+To poskytuje zpětnou vazbu, že vaše operace byla úspěšná, což je vždy příjemné vidět!
+
 ## Závěr
 
-gratuluji! Nyní jste se naučili, jak přidat digitální podpis do již podepsaného souboru Excel pomocí Aspose.Cells for .NET. Digitální podpisy dodávají vašim souborům Excel další vrstvu zabezpečení a zajišťují jejich pravost a integritu.
+A tady to máte! Úspěšně jste přidali nový digitální podpis do již podepsaného souboru Excel pomocí Aspose.Cells for .NET. Digitální podpisy jsou účinným způsobem, jak zajistit pravost vašich dokumentů, a nyní víte, jak je spravovat programově. Ať už pracujete na finančních dokumentech, smlouvách nebo jakýchkoli citlivých informacích, implementace digitálních podpisů může zvýšit bezpečnost a důvěru.
 
-### FAQ
+## FAQ
 
-#### Otázka: Co je Aspose.Cells pro .NET?
+### Co je digitální podpis?
+Digitální podpis je kryptografická metoda používaná k ověření pravosti a integrity zprávy nebo dokumentu.
 
-Odpověď: Aspose.Cells for .NET je výkonná knihovna tříd, která umožňuje vývojářům .NET snadno vytvářet, upravovat, převádět a manipulovat se soubory aplikace Excel.
+### Mohu přidat více digitálních podpisů do stejného souboru aplikace Excel?
+Ano, můžete vytvořit kolekci digitálních podpisů a přidat více podpisů do stejného sešitu.
 
-#### Otázka: Co je digitální podpis v souboru aplikace Excel?
+### Jaké formáty podporuje Aspose.Cells pro digitální podpisy?
+ Aspose.Cells podporuje různé formáty, včetně`.pfx` pro certifikáty.
 
-Odpověď: Digitální podpis v souboru Excel je elektronická značka, která zaručuje pravost, integritu a původ dokumentu. Používá se k ověření, že soubor nebyl od podepsání změněn a pochází ze spolehlivého zdroje.
+### Potřebuji pro použití Aspose.Cells konkrétní verzi .NET?
+ Zkontrolujte[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro kompatibilitu s vaší verzí .NET.
 
-#### Otázka: Jaké jsou výhody přidání digitálního podpisu do souboru aplikace Excel?
-
-Odpověď: Přidání digitálního podpisu do souboru Excel poskytuje několik výhod, včetně ochrany proti neoprávněným změnám, zajištění integrity dat, ověření autora dokumentu a poskytnutí důvěry v informace, které obsahuje.
-
-#### Otázka: Mohu do souboru aplikace Excel přidat více digitálních podpisů?
-
-Odpověď: Ano, Aspose.Cells vám umožňuje přidat více digitálních podpisů do souboru aplikace Excel. Můžete vytvořit kolekci digitálních podpisů a přidat je do souboru v jedné operaci.
-
-#### Otázka: Jaké jsou požadavky na přidání digitálního podpisu do souboru aplikace Excel?
-
-Odpověď: Chcete-li přidat digitální podpis do souboru aplikace Excel, potřebujete platný digitální certifikát, který bude použit k podepsání dokumentu. Před přidáním digitálního podpisu se ujistěte, že máte správný certifikát a heslo.
+### Jak mohu získat dočasnou licenci pro Aspose.Cells?
+ Můžete požádat o dočasnou licenci z[Nákupní stránka Aspose](https://purchase.aspose.com/temporary-license/).

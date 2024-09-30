@@ -15,7 +15,7 @@ url: /zh-hant/java/data-validation-rules/
 Aspose.Cells 使您能夠根據您的特定需求建立自訂資料驗證規則。無論您是限制輸入值、設定日期範圍或實施複雜的條件，我們的教學課程都將引導您完成整個過程。解鎖防止錯誤並保持 Excel 工作表中資料一致性的能力。
 
 ## 無錯誤的 Excel 工作表變得簡單
-透過遵循我們關於使用 Aspose.Cells for Java 的資料驗證規則的綜合教程，您將獲得創建無錯誤的 Excel 工作表所需的專業知識。提高資料準確性、簡化流程並成為熟練的 Excel 使用者。今天就開始您的旅程，在 Excel 中脫穎而出！”
+透過遵循我們關於使用 Aspose.Cells for Java 的資料驗證規則的綜合教程，您將獲得創建無錯誤的 Excel 工作表所需的專業知識。提高資料準確性、簡化流程並成為熟練的 Excel 使用者。今天就開始您的旅程，在 Excel 中脫穎而出！
 
 ## 資料驗證規則教程
 ### [建立自訂資料驗證](./creating-custom-data-validation/)

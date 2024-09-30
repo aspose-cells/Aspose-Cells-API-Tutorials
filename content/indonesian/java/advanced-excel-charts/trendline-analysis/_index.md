@@ -8,7 +8,7 @@ weight: 15
 url: /id/java/advanced-excel-charts/trendline-analysis/
 ---
 
-## Pendahuluan Analisis Garis Tren
+## Pengantar Analisis Garis Tren
 
 Dalam tutorial ini, kita akan mempelajari cara melakukan Analisis Garis Tren menggunakan Aspose.Cells untuk Java. Analisis garis tren membantu dalam memahami pola dan membuat keputusan berdasarkan data. Kami akan memberikan petunjuk langkah demi langkah beserta contoh kode sumber.
 
@@ -16,22 +16,22 @@ Dalam tutorial ini, kita akan mempelajari cara melakukan Analisis Garis Tren men
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-- Java diinstal pada sistem Anda.
--  Aspose.Cells untuk perpustakaan Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+- Java terinstal di sistem Anda.
+-  Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Menyiapkan Proyek
 
 1. Buat proyek Java baru di IDE favorit Anda.
 
-2. Tambahkan pustaka Aspose.Cells for Java ke proyek Anda dengan menyertakan file JAR.
+2. Tambahkan pustaka Aspose.Cells untuk Java ke proyek Anda dengan menyertakan file JAR.
 
-## Langkah 2: Muat Data
+## Langkah 2: Memuat Data
 
 ```java
-// Impor perpustakaan yang diperlukan
+// Impor pustaka yang diperlukan
 import com.aspose.cells.*;
 
-// Muat file Excel
+// Memuat file Excel
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 
 // Akses lembar kerja
@@ -41,11 +41,11 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ## Langkah 3: Buat Bagan
 
 ```java
-// Buat bagan
+// Membuat bagan
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// Tentukan sumber data untuk diagram
+// Tentukan sumber data untuk bagan
 chart.getNSeries().add("A1:A10", true);
 ```
 
@@ -60,10 +60,10 @@ trendline.setDisplayEquation(true);
 trendline.setDisplayRSquaredValue(true);
 ```
 
-## Langkah 5: Sesuaikan Bagan
+## Langkah 5: Kustomisasi Bagan
 
 ```java
-// Sesuaikan judul dan sumbu bagan
+// Sesuaikan judul dan sumbu grafik
 chart.getTitle().setText("Trendline Analysis");
 chart.getCategoryAxis().getTitle().setText("X-Axis");
 chart.getValueAxis().getTitle().setText("Y-Axis");
@@ -74,15 +74,15 @@ workbook.save("output.xlsx");
 
 ## Langkah 6: Analisis Hasil
 
-Sekarang, Anda memiliki grafik dengan garis tren yang ditambahkan. Anda dapat menganalisis lebih lanjut garis tren, koefisien, dan nilai R-kuadrat menggunakan file Excel yang dihasilkan.
+Sekarang, Anda memiliki bagan dengan garis tren yang ditambahkan. Anda dapat menganalisis lebih lanjut garis tren, koefisien, dan nilai R-kuadrat menggunakan berkas Excel yang dihasilkan.
 
 ##Kesimpulan
 
-Dalam tutorial ini, kita telah mempelajari cara melakukan Analisis Garis Tren menggunakan Aspose.Cells untuk Java. Kami membuat contoh buku kerja Excel, menambahkan data, membuat bagan, dan menambahkan garis tren untuk memvisualisasikan dan menganalisis data. Anda sekarang dapat menggunakan teknik ini untuk melakukan analisis garis tren pada kumpulan data Anda sendiri.
+Dalam tutorial ini, kita telah mempelajari cara melakukan Analisis Garis Tren menggunakan Aspose.Cells untuk Java. Kita telah membuat contoh buku kerja Excel, menambahkan data, membuat bagan, dan menambahkan garis tren untuk memvisualisasikan dan menganalisis data. Kini Anda dapat menggunakan teknik ini untuk melakukan analisis garis tren pada kumpulan data Anda sendiri.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengubah tipe garis tren?
+### Bagaimana cara mengubah jenis garis tren?
 
  Untuk mengubah jenis garis tren, ubah`TrendlineType` enumerasi saat menambahkan garis tren. Misalnya, gunakan`TrendlineType.POLYNOMIAL` untuk garis tren polinomial.
 
@@ -90,6 +90,6 @@ Dalam tutorial ini, kita telah mempelajari cara melakukan Analisis Garis Tren me
 
  Ya, Anda dapat menyesuaikan tampilan garis tren dengan mengakses properti seperti`setLineFormat()` Dan`setWeight()` dari objek garis tren.
 
-### Bagaimana cara mengekspor grafik ke gambar atau PDF?
+### Bagaimana cara mengekspor bagan ke gambar atau PDF?
 
-Anda dapat mengekspor grafik ke berbagai format menggunakan Aspose.Cells. Lihat dokumentasi untuk petunjuk rinci.
+Anda dapat mengekspor diagram ke berbagai format menggunakan Aspose.Cells. Lihat dokumentasi untuk petunjuk terperinci.

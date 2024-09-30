@@ -1,6 +1,6 @@
 ---
-title: Ekspor CSV Kode Java
-linktitle: Ekspor CSV Kode Java
+title: Ekspor Kode Java CSV
+linktitle: Ekspor Kode Java CSV
 second_title: API Pemrosesan Java Excel Aspose.Cells
 description: Pelajari cara mengekspor data ke format CSV menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk ekspor CSV yang lancar.
 type: docs
@@ -9,30 +9,30 @@ url: /id/java/excel-import-export/csv-export-java-code/
 ---
 
 
-Dalam panduan langkah demi langkah ini, kita akan mempelajari cara mengekspor data ke format CSV menggunakan pustaka Aspose.Cells untuk Java yang canggih. Baik Anda sedang mengerjakan proyek berbasis data atau perlu membuat file CSV dari aplikasi Java Anda, Aspose.Cells memberikan solusi sederhana dan efisien. Mari selami prosesnya.
+Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara mengekspor data ke format CSV menggunakan pustaka Aspose.Cells for Java yang canggih. Baik Anda sedang mengerjakan proyek berbasis data atau perlu membuat file CSV dari aplikasi Java Anda, Aspose.Cells menyediakan solusi yang sederhana dan efisien. Mari kita bahas prosesnya.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java JDK di sistem Anda.
-2.  Aspose.Cells for Java: Unduh dan sertakan perpustakaan Aspose.Cells for Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cells/java/).
+1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java JDK pada sistem Anda.
+2.  Aspose.Cells untuk Java: Unduh dan sertakan pustaka Aspose.Cells untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Membuat Proyek Java
 
-1. Buka Java Integrated Development Environment (IDE) favorit Anda atau gunakan editor teks pilihan Anda.
+1. Buka Lingkungan Pengembangan Terpadu (IDE) Java favorit Anda atau gunakan editor teks pilihan Anda.
 2. Buat proyek Java baru atau buka yang sudah ada.
 
-## Menambahkan Perpustakaan Aspose.Cells
+## Menambahkan Pustaka Aspose.Cells
 
-Untuk menambahkan Aspose.Cells for Java ke proyek Anda, ikuti langkah-langkah berikut:
+Untuk menambahkan Aspose.Cells untuk Java ke proyek Anda, ikuti langkah-langkah berikut:
 
-1.  Unduh perpustakaan Aspose.Cells untuk Java dari situs web[Di Sini](https://releases.aspose.com/cells/java/).
-2. Sertakan file JAR yang diunduh di classpath proyek Anda.
+1.  Unduh pustaka Aspose.Cells untuk Java dari situs web[Di Sini](https://releases.aspose.com/cells/java/).
+2. Sertakan file JAR yang diunduh dalam classpath proyek Anda.
 
 ## Menulis Kode Ekspor CSV
 
-Sekarang, mari tulis kode Java untuk mengekspor data ke file CSV menggunakan Aspose.Cells. Berikut ini contoh sederhananya:
+Sekarang, mari kita tulis kode Java untuk mengekspor data ke file CSV menggunakan Aspose.Cells. Berikut contoh sederhananya:
 
 ```java
 import com.aspose.cells.*;
@@ -40,7 +40,7 @@ import java.io.*;
 
 public class CsvExportExample {
     public static void main(String[] args) throws Exception {
-        // Muat buku kerja Excel
+        // Memuat buku kerja Excel
         Workbook workbook = new Workbook("input.xlsx");
 
         // Akses lembar kerja
@@ -66,25 +66,25 @@ Kompilasi dan jalankan kode Java di IDE Anda. Pastikan Anda memiliki file Excel 
 
 ## Kesimpulan
 
-Selamat! Anda telah mempelajari cara mengekspor data ke format CSV menggunakan Aspose.Cells untuk Java. Pustaka serbaguna ini menyederhanakan proses bekerja dengan file Excel di aplikasi Java.
+Selamat! Anda telah mempelajari cara mengekspor data ke format CSV menggunakan Aspose.Cells untuk Java. Pustaka serbaguna ini menyederhanakan proses bekerja dengan file Excel dalam aplikasi Java.
 
 ---
 
-## FAQ
+## Tanya Jawab Umum
 
-### 1. Bisakah saya menyesuaikan karakter pemisah CSV?
-    Ya, Anda dapat menyesuaikan karakter pemisah dengan memodifikasi`options.setSeparator(',')` baris dalam kode. Mengganti`','` dengan pemisah yang Anda inginkan.
+### 1. Dapatkah saya menyesuaikan karakter pemisah CSV?
+    Ya, Anda dapat menyesuaikan karakter pemisah dengan memodifikasi`options.setSeparator(',')` baris dalam kode. Ganti`','` dengan pemisah yang Anda inginkan.
 
 ### 2. Apakah Aspose.Cells cocok untuk kumpulan data besar?
    Ya, Aspose.Cells dapat menangani kumpulan data besar secara efisien dan menyediakan berbagai opsi pengoptimalan.
 
-### 3. Bisakah saya mengekspor sel lembar kerja tertentu ke CSV?
-   Tentu saja, Anda bisa menentukan rentang sel yang akan diekspor dengan memanipulasi data lembar kerja sebelum menyimpannya.
+### 3. Dapatkah saya mengekspor sel lembar kerja tertentu ke CSV?
+   Tentu saja, Anda dapat menentukan rentang sel untuk diekspor dengan memanipulasi data lembar kerja sebelum menyimpannya.
 
 ### 4. Apakah Aspose.Cells mendukung format ekspor lainnya?
-   Ya, Aspose.Cells mendukung berbagai format ekspor, termasuk XLS, XLSX, PDF, dan lainnya.
+   Ya, Aspose.Cells mendukung berbagai format ekspor, termasuk XLS, XLSX, PDF, dan banyak lagi.
 
-### 5. Di mana saya dapat menemukan dokumentasi dan contoh lainnya?
-    Kunjungi dokumentasi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/java/) untuk sumber daya dan contoh yang komprehensif.
+### 5. Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
+    Kunjungi dokumentasi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/java/) untuk sumber daya dan contoh yang lengkap.
 
-Jangan ragu untuk menjelajahi lebih jauh dan menyesuaikan kode ini agar sesuai dengan kebutuhan spesifik Anda. Selamat membuat kode!
+Jangan ragu untuk mengeksplorasi lebih jauh dan mengadaptasi kode ini agar sesuai dengan kebutuhan spesifik Anda. Selamat membuat kode!

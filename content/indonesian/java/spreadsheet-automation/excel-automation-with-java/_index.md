@@ -2,22 +2,22 @@
 title: Otomatisasi Excel dengan Java
 linktitle: Otomatisasi Excel dengan Java
 second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara mengotomatiskan tugas Excel di Java dengan contoh kode sumber menggunakan Aspose.Cells, perpustakaan canggih untuk manipulasi Excel.
+description: Pelajari cara mengotomatiskan tugas Excel di Java dengan contoh kode sumber menggunakan Aspose.Cells, pustaka hebat untuk manipulasi Excel.
 type: docs
 weight: 18
 url: /id/java/spreadsheet-automation/excel-automation-with-java/
 ---
 
-Otomatisasi Excel di Java menjadi mudah dengan Aspose.Cells, perpustakaan serbaguna yang memungkinkan Anda memanipulasi file Excel secara terprogram. Dalam panduan ini, kami akan membahas berbagai tugas otomatisasi Excel dengan contoh kode sumber.
+Otomatisasi Excel di Java menjadi mudah dengan Aspose.Cells, pustaka serbaguna yang memungkinkan Anda memanipulasi file Excel secara terprogram. Dalam panduan ini, kami akan membahas berbagai tugas otomatisasi Excel dengan contoh kode sumber.
 
 
-## 1. Perkenalan
+## 1. Pendahuluan
 
-Otomatisasi Excel melibatkan tugas-tugas seperti membaca, menulis, dan memanipulasi file Excel. Aspose.Cells menyederhanakan tugas-tugas ini dengan Java API-nya.
+Otomatisasi Excel melibatkan tugas-tugas seperti membaca, menulis, dan memanipulasi file Excel. Aspose.Cells menyederhanakan tugas-tugas ini dengan API Java-nya.
 
 ## 2. Menyiapkan Proyek Java Anda
 
- Untuk memulai, unduh Aspose.Cells untuk Java dari[Di Sini](https://releases.aspose.com/cells/java/). Sertakan perpustakaan dalam proyek Java Anda. Berikut cuplikan kode untuk menambahkan Aspose.Cells ke proyek Gradle Anda:
+ Untuk memulai, unduh Aspose.Cells untuk Java dari[Di Sini](https://releases.aspose.com/cells/java/)Sertakan pustaka tersebut dalam proyek Java Anda. Berikut cuplikan kode untuk menambahkan Aspose.Cells ke proyek Gradle Anda:
 
 ```gradle
 dependencies {
@@ -27,10 +27,10 @@ dependencies {
 
 ## 3. Membaca File Excel
 
-Pelajari cara membaca file Excel menggunakan Aspose.Cells. Berikut contoh membaca data dari file Excel:
+Pelajari cara membaca file Excel menggunakan Aspose.Cells. Berikut ini contoh pembacaan data dari file Excel:
 
 ```java
-// Muat file Excel
+// Memuat file Excel
 Workbook workbook = new Workbook("example.xlsx");
 
 // Akses lembar kerja pertama
@@ -72,10 +72,10 @@ worksheet.getCells().get("A2").putValue("New Data");
 
 ## 6. Memformat Lembar Excel
 
-Pelajari cara memformat lembar Excel, termasuk memformat sel dan menambahkan bagan. Contoh: Memformat sel.
+Pelajari cara memformat lembar Excel, termasuk pemformatan sel dan penambahan diagram. Contoh: Memformat sel.
 
 ```java
-// Format sel
+// Memformat sel
 Style style = worksheet.getCells().get("A1").getStyle();
 style.getFont().setName("Arial");
 style.getFont().setSize(12);
@@ -87,13 +87,13 @@ worksheet.getCells().get("A1").setStyle(style);
 
 ## 7. Otomatisasi Excel Tingkat Lanjut
 
-Jelajahi topik tingkat lanjut seperti menangani tabel pivot, validasi data, dan lainnya menggunakan Aspose.Cells. Dokumentasi memberikan panduan rinci.
+Jelajahi topik-topik lanjutan seperti penanganan tabel pivot, validasi data, dan lainnya menggunakan Aspose.Cells. Dokumentasi menyediakan panduan terperinci.
 
 ## 8. Kesimpulan
 
-Aspose.Cells untuk Java memberdayakan Anda untuk mengotomatiskan tugas-tugas Excel secara efisien. Dengan contoh kode sumber ini, Anda dapat memulai proyek otomatisasi Excel Anda di Java.
+Aspose.Cells untuk Java memungkinkan Anda mengotomatiskan tugas Excel secara efisien. Dengan contoh kode sumber ini, Anda dapat memulai proyek otomatisasi Excel Anda di Java.
 
-## 9. FAQ
+## 9. Tanya Jawab Umum
 
 ### Apakah Aspose.Cells kompatibel dengan Excel 2019?
 

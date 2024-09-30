@@ -61,7 +61,7 @@ Datavalidering är processen att kontrollera noggrannheten, integriteten och ful
 ### Varför är datavalidering viktigt?
 Datavalidering är viktigt eftersom det hjälper till att upprätthålla data noggrannhet och konsistens. Det förhindrar inmatning av felaktiga eller ofullständiga data, vilket leder till bättre beslutsfattande och datakvalitet.
 
-### Kan jag anpassa regler för datavalidering?
+### Kan jag anpassa datavalideringsregler?
 Ja, du kan anpassa reglerna för datavalidering för att matcha de specifika kraven för din applikation. Aspose.Cells för Java erbjuder flexibilitet när det gäller att definiera regler.
 
 ### Vilka typer av datavalidering stöds?

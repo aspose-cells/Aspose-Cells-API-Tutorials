@@ -1,93 +1,113 @@
 ---
-title: Określ, czy rozmiar papieru w arkuszu jest automatyczny
-linktitle: Określ, czy rozmiar papieru w arkuszu jest automatyczny
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Dowiedz się, jak określić, czy rozmiar papieru arkusza kalkulacyjnego jest automatyczny, za pomocą Aspose.Cells dla .NET.
+title: Określ, czy rozmiar papieru arkusza kalkulacyjnego jest automatyczny
+linktitle: Określ, czy rozmiar papieru arkusza kalkulacyjnego jest automatyczny
+second_title: Aspose.Cells dla .NET API Reference
+description: Dowiedz się, jak ustalić, czy rozmiar papieru arkusza kalkulacyjnego jest automatyczny, korzystając z Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić implementację.
 type: docs
 weight: 20
 url: /pl/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-tym artykule poprowadzimy Cię krok po kroku do wyjaśnienia następującego kodu źródłowego C#: Ustal, czy rozmiar papieru w arkuszu kalkulacyjnym jest automatyczny, używając Aspose.Cells dla .NET. Do wykonania tej operacji użyjemy biblioteki Aspose.Cells dla .NET. Wykonaj poniższe czynności, aby określić, czy rozmiar papieru w arkuszu jest automatyczny.
+## Wstęp
 
-## Krok 1: Ładowanie skoroszytów
-Pierwszym krokiem jest załadowanie skoroszytów. Będziemy mieć dwa skoroszyty: jeden z wyłączonym automatycznym rozmiarem papieru, a drugi z włączonym automatycznym rozmiarem papieru. Oto kod ładujący skoroszyty:
+Jeśli zanurzasz się w świecie manipulacji arkuszami kalkulacyjnymi przy użyciu Aspose.Cells dla .NET, dokonałeś fantastycznego wyboru. Możliwość programowego dostosowywania i zarządzania plikami Excel może uprościć wiele zadań, czyniąc Twoją pracę bardziej wydajną. W tym przewodniku skupimy się na konkretnym zadaniu: określeniu, czy ustawienia rozmiaru papieru arkusza kalkulacyjnego są automatyczne. Więc chwyć swój kapelusz kodera i zaczynajmy!
+
+## Wymagania wstępne
+
+Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
+
+### Podstawowa wiedza z języka C#
+Podczas gdy Aspose.Cells upraszcza wiele zadań, podstawowa znajomość języka C# jest kluczowa. Powinieneś czuć się swobodnie czytając i pisząc podstawowy kod C#.
+
+### Aspose.Cells dla .NET
+ Upewnij się, że Aspose.Cells jest zainstalowany w Twoim projekcie. Możesz go pobrać ze strony[strona internetowa](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
+
+### Środowisko programistyczne
+Powinieneś mieć skonfigurowane IDE, takie jak Visual Studio. Poprowadzi Cię to przez efektywne zarządzanie i testowanie kodu.
+
+### Przykładowe pliki Excela
+Będziesz potrzebować przykładowych plików (`samplePageSetupIsAutomaticPaperSize-False.xlsx` I`samplePageSetupIsAutomaticPaperSize-True.xlsx`) w celach testowych. Upewnij się, że te pliki znajdują się w katalogu źródłowym.
+
+## Importuj pakiety
+
+Aby pracować z Aspose.Cells w C#, musisz zaimportować niezbędne pakiety. Na górze pliku C# umieść:
 
 ```csharp
-// katalog źródłowy
-string sourceDir = "YOUR_SOURCE_DIR";
-// Katalog wyjściowy
-string outputDir = "YOUR_OUTPUT_DIRECTORY";
-
-// Załaduj pierwszy skoroszyt z wyłączonym automatycznym rozmiarem papieru
-Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-
-// Załaduj drugi skoroszyt z włączoną funkcją automatycznego rozmiaru papieru
-Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
 ```
 
-## Krok 2: Dostęp do arkuszy kalkulacyjnych
-Teraz, gdy załadowaliśmy skoroszyty, musimy uzyskać dostęp do arkuszy, aby sprawdzić automatyczny rozmiar papieru. Przejdziemy do pierwszego arkusza z dwóch skoroszytów. Oto kod umożliwiający dostęp do niego:
+Informuje kompilator, że chcesz użyć biblioteki Aspose.Cells i przestrzeni nazw System w celu uzyskania podstawowej funkcjonalności.
+
+Podzielmy to na przejrzysty samouczek krok po kroku, abyś mógł łatwo śledzić. Gotowy do drogi? Zaczynamy!
+
+## Krok 1: Skonfiguruj katalogi źródłowe i wyjściowe
+
+Po pierwsze, musisz zdefiniować katalogi źródłowe i wyjściowe. Te katalogi będą zawierać pliki wejściowe i miejsce, w którym chcesz zapisać dane wyjściowe. Oto, jak to zrobić:
 
 ```csharp
-//Przejdź do pierwszego arkusza pierwszego skoroszytu
-Worksheet ws11 = wb1.Worksheets[0];
-
-// Przejdź do pierwszego arkusza drugiego skoroszytu
-Worksheet ws12 = wb2.Worksheets[0];
-```
-
-## Krok 3: Sprawdź automatyczny rozmiar papieru
- W tym kroku sprawdzimy, czy rozmiar papieru arkusza jest automatyczny. Będziemy korzystać z`PageSetup.IsAutomaticPaperSize` właściwość, aby uzyskać te informacje. Następnie wyświetlimy wynik. Oto kod do tego:
-
-```csharp
-// Wyświetl właściwość IsAutomaticPaperSize pierwszego arkusza w pierwszym skoroszycie
-Console.WriteLine("First worksheet in first workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
-
-// Wyświetl właściwość IsAutomaticPaperSize pierwszego arkusza w drugim skoroszycie
-Console.WriteLine("First worksheet of second workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-
-```
-
-### Przykładowy kod źródłowy dla określenia, czy rozmiar papieru w arkuszu jest automatyczny przy użyciu Aspose.Cells dla .NET 
-```csharp
-//Katalog źródłowy
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
-//Katalog wyjściowy
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
-//Załaduj pierwszy skoroszyt, w którym automatyczny rozmiar papieru jest fałszywy
+```
+
+ Zastępować`YOUR_SOURCE_DIRECTORY` I`YOUR_OUTPUT_DIRECTORY` z rzeczywistymi ścieżkami w systemie, w których będą przechowywane pliki.
+
+## Krok 2: Załaduj skoroszyty programu Excel
+
+Teraz, gdy ustawiłeś już swoje katalogi, załadujmy skoroszyty. Załadujemy dwa skoroszyty — jeden z automatycznym rozmiarem papieru ustawionym na false, a drugi z ustawionym na true. Oto kod:
+
+```csharp
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-//Załaduj drugi skoroszyt z ustawionym automatycznym rozmiarem papieru
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
-//Uzyskaj dostęp do pierwszego arkusza obu skoroszytów
+```
+
+## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+
+Po załadowaniu skoroszytów nadszedł czas na dostęp do pierwszego arkusza z każdego skoroszytu. Piękno Aspose.Cells polega na tym, że jest to śmiesznie proste:
+
+```csharp
 Worksheet ws11 = wb1.Worksheets[0];
 Worksheet ws12 = wb2.Worksheets[0];
-//Wydrukuj właściwość PageSetup.IsAutomaticPaperSize obu arkuszy
+```
+
+Ten kod pobiera pierwszy arkusz kalkulacyjny (indeks 0) z obu skoroszytów. 
+
+## Krok 4: Sprawdź ustawienie rozmiaru papieru
+
+ Teraz zaczyna się zabawa! Będziesz chciał sprawdzić, czy ustawienie rozmiaru papieru jest automatyczne dla każdego arkusza kalkulacyjnego. Można to zrobić, sprawdzając`IsAutomaticPaperSize` własność`PageSetup` klasa. Użyj następującego fragmentu kodu:
+
+```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-Console.WriteLine();
+```
+
+ Tutaj drukujemy wyniki na konsoli. Zobaczysz`True` Lub`False`, w zależności od ustawień dla każdego arkusza kalkulacyjnego.
+
+## Krok 5: Podsumowanie
+
+Na koniec, dobrym nawykiem jest zapewnienie informacji zwrotnej, że Twój kod został wykonany pomyślnie. Dodaj prostą wiadomość na końcu swojej metody main:
+
+```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");
 ```
 
+## Wniosek 
 
-## Wniosek
-tym artykule dowiedzieliśmy się, jak określić, czy rozmiar papieru w arkuszu kalkulacyjnym jest automatyczny przy użyciu Aspose.Cells dla .NET. Wykonaliśmy następujące kroki: załadowanie skoroszytów,
+I tak po prostu, położyłeś podwaliny pod ustalenie, czy rozmiar papieru arkusza kalkulacyjnego jest automatyczny, używając Aspose.Cells dla .NET! Szybko zaimportowałeś pakiety, wczytałeś skoroszyty, uzyskałeś dostęp do arkuszy kalkulacyjnych i sprawdziłeś właściwość rozmiaru papieru — wszystkie te umiejętności są niezbędne przy programowym manipulowaniu plikami Excela. Pamiętaj, im więcej eksperymentujesz z różnymi funkcjami Aspose.Cells, tym potężniejsze staną się Twoje aplikacje.
 
-dostęp do arkuszy kalkulacyjnych i automatyczne sprawdzanie formatu papieru. Teraz możesz wykorzystać tę wiedzę, aby określić, czy rozmiar papieru w arkuszach kalkulacyjnych jest automatyczny.
+## Najczęściej zadawane pytania
 
-### Często zadawane pytania
+### Czym jest Aspose.Cells?
+Aspose.Cells to biblioteka .NET przeznaczona do programowego zarządzania plikami arkuszy kalkulacyjnych Excel bez konieczności instalowania programu Excel.
 
-#### P: Jak mogę załadować skoroszyty za pomocą Aspose.Cells dla .NET?
+### Czy mogę używać Aspose.Cells w środowiskach innych niż Windows?
+Tak! Aspose.Cells obsługuje rozwój międzyplatformowy, więc możesz pracować w różnych środowiskach, w których dostępny jest .NET.
 
-Odp.: Możesz ładować skoroszyty za pomocą klasy Workbook z biblioteki Aspose.Cells. Użyj metody Workbook.Load, aby załadować skoroszyt z pliku.
+### Czy potrzebuję licencji na Aspose.Cells?
+Chociaż możesz zacząć od bezpłatnego okresu próbnego, dalsze korzystanie wymaga zakupionej licencji. Więcej szczegółów można znaleźć[Tutaj](https://purchase.aspose.com/buy).
 
-#### P: Czy mogę sprawdzić automatyczny rozmiar papieru w innych arkuszach kalkulacyjnych?
+### Jak mogę sprawdzić, czy rozmiar papieru arkusza kalkulacyjnego jest automatyczny w języku C#?
+ Jak pokazano w przewodniku, możesz sprawdzić`IsAutomaticPaperSize` własność`PageSetup` klasa.
 
-Odp.: Tak, możesz sprawdzić automatyczny rozmiar papieru dla dowolnego arkusza, uzyskując dostęp do właściwości PageSetup.IsAutomaticPaperSize odpowiedniego obiektu Worksheet.
-
-#### P: Jak mogę zmienić automatyczny rozmiar papieru arkusza kalkulacyjnego?
-
-Odp.: Aby zmienić automatyczny rozmiar papieru w arkuszu, możesz użyć właściwości PageSetup.IsAutomaticPaperSize i ustawić dla niej żądaną wartość (prawda lub fałsz).
-
-#### P: Jakie inne funkcje oferuje Aspose.Cells dla .NET?
-
-Odp.: Aspose.Cells dla .NET oferuje wiele funkcji do pracy z arkuszami kalkulacyjnymi, takich jak tworzenie, modyfikowanie i konwertowanie skoroszytów, a także manipulowanie danymi, formułami i formatowaniem.
+### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?
+ Można znaleźć obszerną dokumentację i samouczki[Tutaj](https://reference.aspose.com/cells/net/).

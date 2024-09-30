@@ -2,104 +2,136 @@
 title: XLSB檔案的外部連線讀寫
 linktitle: XLSB檔案的外部連線讀寫
 second_title: Aspose.Cells for .NET API 參考
-description: 了解如何使用 Aspose.Cells for .NET 讀取和修改 XLSB 檔案的外部連線。
+description: 在此綜合教學中了解如何使用 Aspose.Cells for .NET 管理 XLSB 檔案中的外部連線。
 type: docs
 weight: 130
 url: /zh-hant/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 ---
-讀取和寫入 XLSB 檔案的外部連線對於在 Excel 工作簿中操作來自外部來源的資料至關重要。使用 Aspose.Cells for .NET，您可以使用以下步驟輕鬆讀取和寫入外部連線：
+## 介紹
 
-## 步驟1：指定來源目錄和輸出目錄
+嘿，Excel 愛好者！您準備好進入 XLSB 檔案和外部連接的迷人世界了嗎？如果您曾經使用過 Excel，您就會知道它有多強大和多用途，但有時它也有其怪癖，尤其是在處理與外部資料庫的連接時。這就是 Aspose.Cells for .NET 的用武之地！這個漂亮的庫允許您以簡單的方式操作 Excel 文件。在本文中，我們將引導您逐步了解如何在 XLSB 檔案中讀取和寫入外部連線。
 
-首先，您必須指定包含外部連線的 XLSB 檔案所在的來源目錄，以及要儲存修改後的檔案的輸出目錄。以下是使用 Aspose.Cells 執行此操作的方法：
+## 先決條件
 
-```csharp
-//來源目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
+在我們開始之前，您需要以下一些東西：
 
-//輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. C# 基礎知識：了解 C# 程式語言將有很大幫助。如果您能夠輕鬆編寫 C# 程式碼，那麼就可以開始了！
+2.  Aspose.Cells for .NET：您需要在開發環境中安裝此程式庫。如果您還沒有這樣做，您可以輕鬆下載[這裡](https://releases.aspose.com/cells/net/). 
+3. IDE：您需要一個程式碼編輯器或整合開發環境 (IDE)，例如 Visual Studio。 
+4. 範例 XLSB 檔案：我們將使用包含外部連接的範例 XLSB 檔案。您可以建立自己的範例或線上下載範例。 
 
-## 步驟 2：載入來源 Excel XLSB 文件
+一旦滿足了所有這些先決條件，我們就可以開始編寫程式碼了！
 
-接下來，您需要載入要對其進行外部連線讀寫操作的來源Excel XLSB檔案。這是範例程式碼：
+## 導入包
 
-```csharp
-//載入來源 Excel XLSB 文件
-Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
-```
-
-## 第三步：讀取並修改外部連接
-
-載入檔案後，您可以存取第一個外部連接，它實際上是一個資料庫連接。您可以讀取和修改外部連線的各種屬性。就是這樣：
+首先，讓我們在專案中導入必要的套件。確保您已在專案中新增對 Aspose.Cells 的引用。以下是在 C# 中執行此操作的方法：
 
 ```csharp
-//讀取第一個外部連接，這是一個資料庫連接
-Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
-
-//顯示資料庫連線名稱、命令和連接訊息
-Console.WriteLine("Connection name: " + dbCon.Name);
-Console.WriteLine("Command: " + dbCon.Command);
-Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
-
-//修改連接名稱
-dbCon.Name = "NewCustomer";
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## 步驟 4：儲存輸出 Excel XLSB 文件
+透過這些匯入，您可以存取操作 Excel 檔案及其連接所需的功能。
 
-進行必要的變更後，您可以將修改後的 Excel XLSB 檔案儲存到指定的輸出目錄。操作方法如下：
+## 第 1 步：設定目錄
 
-```csharp
-//儲存輸出 Excel XLSB 文件
-wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
-Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
-```
+在使用 XLSB 檔案之前，您需要設定來源目錄和輸出目錄。此步驟對於保持文件井井有條至關重要。
 
-### 使用 Aspose.Cells for .NET 讀取和寫入 XLSB 檔案外部連接的範例原始程式碼 
 ```csharp
 //原始碼目錄
 string sourceDir = RunExamples.Get_SourceDirectory();
 //輸出目錄
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+
+在此程式碼片段中，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`假定取得輸入和輸出檔案所在位置的對應路徑。如果您願意，可以用硬編碼路徑替換這些方法。
+
+## 第 2 步：載入 XLSB 文件
+
+現在是時候將 Excel 檔案載入到 Workbook 物件中了。這使您能夠操縱其中的數據。
+
+```csharp
 //載入來源 Excel Xlsb 文件
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
+```
+
+只需確保您的 XLSB 檔案位於指定的位置`sourceDir`。如果路徑正確，您的工作簿就可以進行操作了！
+
+## 第 3 步：存取外部連接
+
+載入工作簿後，您可以存取其外部連線。在我們的例子中，我們將檢索第一個資料庫連線。
+
+```csharp
 //讀取第一個外部連接，它實際上是一個 DB-Connection
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
+```
+
+這裡，`DataConnections[0]`指工作簿中的第一個連接。我們將其鑄造為`DBConnection`類型以進行進一步操作。
+
+## 第 4 步：提取連接訊息
+
+現在您已經可以存取資料庫連線了，讓我們提取其詳細資訊並將其列印到控制台。這將幫助我們準確地了解我們正在做什麼。
+
+```csharp
 //列印 DB 連接的名稱、命令和連接訊息
 Console.WriteLine("Connection Name: " + dbCon.Name);
 Console.WriteLine("Command: " + dbCon.Command);
 Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
+```
+
+此步驟可讓您驗證外部連線的目前狀態。您將看到連接名稱、使用的命令以及列印到控制台的連接資訊。
+
+## 步驟5：修改連接
+
+有時，只需更改名稱即可使事情變得更清晰或符合新的命名約定。讓我們將現有的連線名稱變更為更相關的名稱。
+
+```csharp
 //修改連接名稱
 dbCon.Name = "NewCust";
+```
+
+這行程式碼有效地將您的連線從原始名稱重新命名為“NewCust”。這是一個簡單但有影響力的改變！
+
+## 第 6 步：儲存您的更改
+
+進行修改後，您需要將變更儲存回 XLSB 檔案。操作方法如下：
+
+```csharp
 //儲存 Excel Xlsb 文件
 wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
+```
+
+此行程式碼儲存更新的工作簿，保留所有更改，包括新的連線名稱。
+
+## 第7步：確認執行
+
+最後，讓我們確認一切順利。最後一條簡單的訊息就會清楚地說明這一點。
+
+```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
 ```
 
+此訊息將向您保證您的程式碼已成功運行，並且所有變更均已按預期保存。
+
 ## 結論
 
-透過讀取和寫入 XLSB 檔案的外部連接，您可以在 Excel 工作簿中操作來自外部來源的資料。使用 Aspose.Cells for .NET，您可以輕鬆存取外部連接、讀取和修改連接資訊以及儲存變更。試驗您自己的 XLSB 檔案並利用 Excel 應用程式中外部連接的強大功能。
+現在你就得到它了！您已成功學習如何使用 Aspose.Cells for .NET 在 XLSB 檔案中讀取和寫入外部連線。透過執行這些步驟，您可以有效地管理 Excel 資料連接，讓您的 Excel 工作更加簡化、更少令人沮喪。請記住，無論您是處理大量資料集還是只是組織訊息，Aspose.Cells 都能提供您所需的工具。
 
-### 常見問題解答
+## 常見問題解答
 
-#### Q：XLSB 檔案中的外部連線是什麼？
-    
-答：XLSB檔案中的外部連線是指與外部資料來源（例如資料庫）建立的連線。它允許您將此外部來源中的資料匯入到 Excel 工作簿中。
+### 什麼是 .XLSB 檔？  
+XLSB 檔案是一種二進位 Excel 檔案格式，以二進位格式儲存電子表格數據，使其更加緊湊且開啟速度更快。
 
-#### Q：XLSB 檔案中可以有多個外部連線嗎？
-     
-答：是的，一個 XLSB 檔案中可以有多個外部連線。您可以透過存取每個連接對象來單獨管理它們。
+### 如何安裝 Aspose.Cells for .NET？  
+您可以輕鬆地從 Aspose 網站下載它[這裡](https://releases.aspose.com/cells/net/).
 
-#### Q：如何使用 Aspose.Cells 讀取 XLSB 檔案中外部連接的詳細資訊？
-     
-答：您可以使用Aspose.Cells提供的功能來存取外部連線的屬性，例如連線名稱、關聯指令和連線資訊。
+### 我可以免費使用 Aspose.Cells 嗎？  
+是的！您可以從免費試用開始[這裡](https://releases.aspose.com/).
 
-#### Q：是否可以使用 Aspose.Cells 修改 XLSB 檔案中的外部連線？
-     
-答：是的，您可以修改外部連線的屬性，例如連線名稱，以滿足您的特定需求。 Aspose.Cells 提供了進行這些更改的方法。
+### Aspose.Cells 支援其他檔案格式嗎？  
+絕對地！ Aspose.Cells 支援多種檔案格式，包括 XLSX、CSV 等。
 
-#### Q：如何使用 Aspose.Cells 將對外部連線所做的變更儲存到 XLSB 檔案中？
-     
-答：對外部連線進行必要的變更後，您可以使用 Aspose.Cells 提供的適當方法簡單地儲存修改後的 Excel XLSB 檔案。
+### 如果遇到問題，我可以在哪裡尋求協助？  
+您可以從 Aspose 論壇獲得支持[這裡](https://forum.aspose.com/c/cells/9).

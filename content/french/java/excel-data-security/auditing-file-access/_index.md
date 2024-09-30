@@ -10,24 +10,24 @@ url: /fr/java/excel-data-security/auditing-file-access/
 
 ## Introduction à l'audit de l'accès aux fichiers
 
-Dans ce didacticiel, nous explorerons comment auditer l'accès aux fichiers à l'aide de l'API Aspose.Cells pour Java. Aspose.Cells est une puissante bibliothèque Java qui vous permet de créer, manipuler et gérer des feuilles de calcul Excel. Nous montrerons comment suivre et enregistrer les activités d'accès aux fichiers dans votre application Java à l'aide de cette API.
+Dans ce didacticiel, nous allons découvrir comment auditer l'accès aux fichiers à l'aide de l'API Aspose.Cells pour Java. Aspose.Cells est une puissante bibliothèque Java qui vous permet de créer, de manipuler et de gérer des feuilles de calcul Excel. Nous allons vous montrer comment suivre et consigner les activités d'accès aux fichiers dans votre application Java à l'aide de cette API.
 
-## Conditions préalables
+## Prérequis
 
 Avant de commencer, assurez-vous de disposer des prérequis suivants :
 
 - [Kit de développement Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) installé sur votre système.
--  Aspose.Cells pour la bibliothèque Java. Vous pouvez le télécharger depuis le[Site Web Aspose.Cells pour Java](https://releases.aspose.com/cells/java/).
+-  Bibliothèque Aspose.Cells pour Java. Vous pouvez la télécharger à partir du[Site Web Aspose.Cells pour Java](https://releases.aspose.com/cells/java/).
 
-## Étape 1 : configuration de votre projet Java
+## Étape 1 : Configuration de votre projet Java
 
 1. Créez un nouveau projet Java dans votre environnement de développement intégré (IDE) préféré.
 
-2. Ajoutez la bibliothèque Aspose.Cells for Java à votre projet en incluant le fichier JAR que vous avez téléchargé précédemment.
+2. Ajoutez la bibliothèque Aspose.Cells pour Java à votre projet en incluant le fichier JAR que vous avez téléchargé précédemment.
 
-## Étape 2 : Création du journal d'audit
+## Étape 2 : création de l'enregistreur d'audit
 
- Dans cette étape, nous allons créer une classe responsable de la journalisation des activités d'accès aux fichiers. Appelons-le`FileAccessLogger.java`. Voici une implémentation de base :
+ Dans cette étape, nous allons créer une classe chargée de consigner les activités d'accès aux fichiers. Appelons-la`FileAccessLogger.java`Voici une implémentation de base :
 
 ```java
 import java.io.FileWriter;
@@ -53,9 +53,9 @@ public class FileAccessLogger {
 
 Cet enregistreur enregistre les événements d'accès dans un fichier texte.
 
-## Étape 3 : Utilisation d'Aspose.Cells pour effectuer des opérations sur les fichiers
+## Étape 3 : Utilisation d'Aspose.Cells pour effectuer des opérations sur les fichiers
 
- Maintenant, intégrons Aspose.Cells dans notre projet pour effectuer des opérations sur les fichiers et enregistrer les activités d'accès. Nous allons créer une classe appelée`ExcelFileManager.java`:
+ Intégrons maintenant Aspose.Cells dans notre projet pour effectuer des opérations sur les fichiers et enregistrer les activités d'accès. Nous allons créer une classe appelée`ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -65,7 +65,7 @@ public class ExcelFileManager {
     public static void openExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook(filename);
-            // Effectuer des opérations sur le classeur si nécessaire
+            // Effectuer des opérations sur le classeur selon les besoins
             FileAccessLogger.logAccess(username, filename, "opened");
         } catch (Exception e) {
             e.printStackTrace();
@@ -75,7 +75,7 @@ public class ExcelFileManager {
     public static void saveExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook();
-            // Effectuer des opérations sur le classeur si nécessaire
+            // Effectuer des opérations sur le classeur selon les besoins
             workbook.save(filename, FileFormatType.XLSX);
             FileAccessLogger.logAccess(username, filename, "saved");
         } catch (Exception e) {
@@ -93,14 +93,14 @@ public class ExcelFileManager {
 public class Main {
     public static void main(String[] args) {
         String username = "john_doe"; // Remplacer par le nom d'utilisateur réel
-        String filename = "example.xlsx"; // Remplacer par le chemin du fichier réel
+        String filename = "example.xlsx"; // Remplacer par le chemin d'accès réel du fichier
 
-        // Ouvrez le fichier Excel
+        // Ouvrir le fichier Excel
         ExcelFileManager.openExcelFile(filename, username);
 
         // Effectuer des opérations sur le fichier Excel
 
-        // Enregistrez le fichier Excel
+        // Enregistrer le fichier Excel
         ExcelFileManager.saveExcelFile(filename, username);
     }
 }
@@ -108,22 +108,22 @@ public class Main {
 
 ## Conclusion
 
-Dans ce guide complet, nous avons plongé dans le monde de l'API Aspose.Cells pour Java et démontré comment auditer l'accès aux fichiers dans vos applications Java. En suivant les instructions étape par étape et en utilisant des exemples de code source, vous avez acquis des informations précieuses sur la manière d'exploiter les capacités de cette puissante bibliothèque.
+Dans ce guide complet, nous avons exploré le monde de l'API Aspose.Cells pour Java et montré comment auditer l'accès aux fichiers dans vos applications Java. En suivant les instructions étape par étape et en utilisant des exemples de code source, vous avez acquis des informations précieuses sur l'exploitation des capacités de cette puissante bibliothèque.
 
 ## FAQ
 
 ### Comment puis-je récupérer le journal d'audit ?
 
-Pour récupérer le journal d'audit, vous pouvez simplement lire le contenu du`file_access_log.txt` fichier en utilisant les capacités de lecture de fichiers de Java.
+Pour récupérer le journal d'audit, vous pouvez simplement lire le contenu du`file_access_log.txt` fichier utilisant les capacités de lecture de fichiers de Java.
 
-### Puis-je personnaliser le format ou la destination du journal ?
+### Puis-je personnaliser le format ou la destination du journal ?
 
- Oui, vous pouvez personnaliser le format et la destination du journal en modifiant le`FileAccessLogger` classe. Vous pouvez modifier le chemin du fichier journal, le format d'entrée du journal ou même utiliser une autre bibliothèque de journalisation comme Log4j.
+ Oui, vous pouvez personnaliser le format et la destination du journal en modifiant le`FileAccessLogger` classe. Vous pouvez modifier le chemin du fichier journal, le format de l'entrée du journal ou même utiliser une bibliothèque de journalisation différente comme Log4j.
 
-### Existe-t-il un moyen de filtrer les entrées du journal par utilisateur ou par fichier ?
+### Existe-t-il un moyen de filtrer les entrées de journal par utilisateur ou par fichier ?
 
- Vous pouvez implémenter une logique de filtrage dans le`FileAccessLogger` classe. Ajoutez des conditions aux entrées de journal en fonction de critères d'utilisateur ou de fichier avant d'écrire dans le fichier journal.
+ Vous pouvez implémenter une logique de filtrage dans le`FileAccessLogger` classe. Ajoutez des conditions aux entrées du journal en fonction des critères de l'utilisateur ou du fichier avant d'écrire dans le fichier journal.
 
 ### Quelles autres actions puis-je enregistrer en plus de l’ouverture et de l’enregistrement de fichiers ?
 
- Vous pouvez prolonger le`ExcelFileManager` classe pour enregistrer d'autres actions telles que la modification, la suppression ou le partage de fichiers, en fonction des exigences de votre application.
+ Vous pouvez étendre le`ExcelFileManager` classe pour enregistrer d'autres actions telles que la modification, la suppression ou le partage de fichiers, en fonction des exigences de votre application.

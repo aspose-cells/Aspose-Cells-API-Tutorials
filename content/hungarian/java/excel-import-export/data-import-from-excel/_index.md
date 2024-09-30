@@ -8,7 +8,7 @@ weight: 16
 url: /hu/java/excel-import-export/data-import-from-excel/
 ---
 
-Ebben az átfogó útmutatóban végigvezetjük az adatok Excel-fájlokból történő importálásának folyamatán a hatékony Aspose.Cells for Java könyvtár használatával. Legyen szó adatelemzésről, jelentéskészítésről vagy bármilyen Excel adatintegrációt igénylő Java-alkalmazásról, az Aspose.Cells leegyszerűsíti a feladatot. Kezdjük el.
+Ebben az átfogó útmutatóban végigvezetjük az adatok Excel-fájlokból történő importálásának folyamatán a hatékony Aspose.Cells for Java könyvtár használatával. Legyen szó adatelemzésről, jelentéskészítésről vagy bármilyen Excel adatintegrációt igénylő Java-alkalmazásról, az Aspose.Cells leegyszerűsíti a feladatot. Kezdjük.
 
 ## Előfeltételek
 

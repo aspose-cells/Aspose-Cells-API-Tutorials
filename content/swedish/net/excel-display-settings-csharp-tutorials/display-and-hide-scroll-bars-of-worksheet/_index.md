@@ -1,88 +1,135 @@
 ---
-title: Visa och dölja rullningslister av arbetsblad
-linktitle: Visa och dölja rullningslister av arbetsblad
+title: Visa och dölj rullningslister av arbetsblad
+linktitle: Visa och dölj rullningslister av arbetsblad
 second_title: Aspose.Cells för .NET API-referens
-description: Visa eller dölj rullningslister i Excel-kalkylblad med Aspose.Cells för .NET.
+description: Lär dig hur du visar och döljer rullningslister i Excel-kalkylblad med Aspose.Cells för .NET med denna detaljerade, lättanvända handledning.
 type: docs
 weight: 50
 url: /sv/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
 ---
-I den här handledningen kommer vi att visa dig hur du visar eller döljer vertikala och horisontella rullningslister i ett Excel-kalkylblad med C#-källkod med Aspose.Cells för .NET. Följ stegen nedan för att få önskat resultat.
+## Introduktion
 
-## Steg 1: Importera nödvändiga bibliotek
+Att hantera Excel-filer programmatiskt kan ofta verka som magi! Oavsett om du vill förbättra användarupplevelsen eller förenkla gränssnittet för din kalkylarksapplikation, är det viktigt att kontrollera visuella komponenter som rullningslister. I den här guiden kommer vi att utforska hur du visar och döljer rullningslisterna i ett kalkylblad med Aspose.Cells för .NET. Om du är ny på detta eller vill förfina dina kunskaper, är du på rätt plats!
 
-Se till att du har installerat Aspose.Cells-biblioteket för .NET och importera de nödvändiga biblioteken till ditt C#-projekt.
+## Förutsättningar
+
+Innan du börjar, låt oss se till att du har allt du behöver:
+
+1. Grundläggande kunskaper om C#: En grundläggande förståelse för C#-programmering kommer att vara till hjälp, eftersom vi kommer att skriva kodavsnitt på detta språk.
+2.  Aspose.Cells för .NET: Du behöver Aspose.Cells-biblioteket. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
+3. IDE-installation: En integrerad utvecklingsmiljö (IDE) som Visual Studio eller en kodredigerare för att skriva och köra C#-kod.
+4.  Excel-fil: Ett exempel på Excel-fil (t.ex.`book1.xls`) som du kan redigera och testa.
+
+När du har uppfyllt dessa förutsättningar kan vi dyka ner i koden.
+
+## Importera nödvändiga paket
+
+För att arbeta med Aspose.Cells måste du först importera de nödvändiga namnrymden i din C#-kod. Så här gör du:
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## Steg 2: Ställ in katalogsökväg och öppna Excel-fil
+- `System.IO` låter dig hantera filinmatning och filutmatning.
+- `Aspose.Cells` är biblioteket som tillhandahåller alla nödvändiga funktioner för att manipulera Excel-filer.
 
- Ställ in sökvägen till katalogen som innehåller din Excel-fil och öppna sedan filen genom att skapa en filström och instansiera en`Workbook` objekt.
+Låt oss nu dela upp uppgiften i lättsmälta steg.
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-Workbook workbook = new Workbook(fstream);
-```
+## Steg 1: Definiera filsökvägen
 
-## Steg 3: Dölj rullningslister
+Det är här du anger sökvägen till Excel-filen du vill arbeta med.
 
- Använd`IsVScrollBarVisible` och`IsHScrollBarVisible` egenskaper hos`Workbook.Settings` objekt för att dölja de vertikala och horisontella rullningslisterna i kalkylbladet.
 
 ```csharp
-workbook.Settings.IsVScrollBarVisible = false;
-workbook.Settings.IsHScrollBarVisible = false;
-```
-
-## Steg 4: Spara ändringar
-
- När du har gjort de nödvändiga ändringarna, spara den modifierade Excel-filen med hjälp av`Save` metod för`Workbook` objekt.
-
-```csharp
-workbook.Save(dataDir + "output.xls");
-```
-
-### Exempel på källkod för att visa och dölja rullningslister i arbetsbladet med Aspose.Cells för .NET 
-
-```csharp
-//Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Skapa en filström som innehåller Excel-filen som ska öppnas
+```
+  
+ Ersätta`YOUR DOCUMENT DIRECTORY` med den faktiska sökvägen där din Excel-fil är lagrad. Detta gör att ditt program kan hitta de nödvändiga filerna som det kommer att manipulera.
+
+## Steg 2: Skapa en filström
+
+Här skapar du en filström för att läsa Excel-filen.
+
+
+```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-// Instantiera ett arbetsboksobjekt
-// Öppna Excel-filen genom filströmmen
+```
+  
+ De`FileStream`klass gör att du kan läsa från och skriva till filer. I det här fallet öppnar vi vår Excel-fil i läsläge.
+
+## Steg 3: Instantiera ett arbetsboksobjekt
+
+ Därefter måste du skapa en`Workbook` objekt som representerar din Excel-fil i koden.
+
+
+```csharp
 Workbook workbook = new Workbook(fstream);
-// Döljer den vertikala rullningslisten i Excel-filen
+```
+  
+ Detta`Workbook` objektet innehåller nu alla data och inställningar i din Excel-fil, vilket möjliggör manipulering senare i processen.
+
+## Steg 4: Dölj den vertikala rullningslisten
+
+Nu kommer det roliga! Du kan dölja den vertikala rullningslisten för att skapa ett renare gränssnitt.
+
+
+```csharp
 workbook.Settings.IsVScrollBarVisible = false;
-// Döljer den horisontella rullningslisten i Excel-filen
+```
+  
+ Genom att ställa in`IsVScrollBarVisible` till`false`, är den vertikala rullningslisten dold. Detta kan vara särskilt användbart när du vill begränsa rullningen på ett användarvänligt sätt.
+
+## Steg 5: Dölj den horisontella rullningslisten
+
+Precis som med den vertikala rullningen kan du också dölja den horisontella rullningslisten.
+
+
+```csharp
 workbook.Settings.IsHScrollBarVisible = false;
-// Sparar den ändrade Excel-filen
+```
+  
+Här gör vi också den horisontella rullningslisten osynlig. Detta ger dig större kontroll över kalkylbladets utseende.
+
+## Steg 6: Spara den modifierade Excel-filen
+
+När du har ändrat synlighetsinställningarna måste du spara dina ändringar. 
+
+
+```csharp
 workbook.Save(dataDir + "output.xls");
-// Stänger filströmmen för att frigöra alla resurser
+```
+  
+Denna kod sparar den modifierade arbetsboken under ett nytt namn (`output.xls`). Det förhindrar att din originalfil skrivs över, vilket gör att du kan behålla en säkerhetskopia.
+
+## Steg 7: Stäng filströmmen
+
+Slutligen, kom alltid ihåg att stänga dina filströmmar för att frigöra systemresurser.
+
+
+```csharp
 fstream.Close();
 ```
+  
+Att stänga streamen är en bra praxis för att förhindra minnesläckor och hålla din applikation igång smidigt.
 
-### Slutsats
+## Slutsats
 
-Denna steg-för-steg-guide visade dig hur du visar eller döljer vertikala och horisontella rullningslister i ett Excel-kalkylblad med Aspose.Cells för .NET. Med den medföljande C#-källkoden kan du enkelt anpassa visningen av rullningslister i dina Excel-filer.
+Genom att följa dessa enkla steg har du lärt dig hur du visar och döljer rullningslisterna i ett kalkylblad med Aspose.Cells för .NET. Detta förbättrar inte bara estetiken hos dina Excel-filer utan förbättrar också användarupplevelsen, särskilt när du presenterar data eller formulär. 
 
-### Vanliga frågor (FAQ)
+## FAQ's
 
-#### Vad är Aspose.Cells för .NET?
+### Kan jag visa rullningslisterna igen efter att ha gömt dem?  
+ Ja! Du behöver bara ställa in`IsVScrollBarVisible` och`IsHScrollBarVisible` tillbaka till`true`.
 
-Aspose.Cells för .NET är ett kraftfullt bibliotek för att manipulera Excel-filer i .NET-applikationer.
+### Är Aspose.Cells gratis att använda?  
+ Aspose.Cells är inte helt gratis, men du kan prova det gratis under en begränsad tid eller överväga att köpa[en tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
-#### Hur kan jag installera Aspose.Cells för .NET?
+### Vilka typer av Excel-filer kan jag manipulera med Aspose.Cells?  
+Du kan arbeta med olika Excel-format, inklusive .xls, .xlsx, .xlsm, .xlsb, etc.
 
- För att installera Aspose.Cells för .NET måste du ladda ner det relevanta paketet från[Aspose släpper](https://releases/aspose.com/cells/net/) och lägg till det i ditt .NET-projekt.
+### Var kan jag hitta fler exempel?  
+ Kontrollera[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) för ytterligare exempel och handledning.
 
-#### Hur kan jag visa eller dölja rullningslister i ett Excel-kalkylblad med Aspose.Cells för .NET?
-
- Du kan använda`IsVScrollBarVisible` och`IsHScrollBarVisible` egenskaper hos`Workbook.Settings` objekt för att visa eller dölja den vertikala respektive horisontella rullningslisten i ett Excel-kalkylblad.
-
-#### Vilka andra Excel-filformat stöds av Aspose.Cells för .NET?
-
-Aspose.Cells för .NET stöder en mängd olika Excel-filformat, som XLS, XLSX, CSV, HTML, PDF, etc.
+### Vad händer om jag stöter på problem när jag använder Aspose.Cells?  
+ Du kan söka hjälp eller rapportera problem i Asposes supportforum[här](https://forum.aspose.com/c/cells/9).

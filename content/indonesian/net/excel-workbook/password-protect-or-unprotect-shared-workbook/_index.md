@@ -1,87 +1,120 @@
 ---
-title: Lindungi Kata Sandi Atau Buka Proteksi Buku Kerja Bersama
-linktitle: Lindungi Kata Sandi Atau Buka Proteksi Buku Kerja Bersama
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Pelajari cara memproteksi atau membuka proteksi buku kerja bersama dengan kata sandi menggunakan Aspose.Cells untuk .NET.
+title: Melindungi atau Membuka Proteksi Buku Kerja Bersama dengan Kata Sandi
+linktitle: Melindungi atau Membuka Proteksi Buku Kerja Bersama dengan Kata Sandi
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Amankan file Excel yang Anda bagikan menggunakan Aspose.Cells untuk .NET dengan panduan mudah kami tentang perlindungan kata sandi dan teknik tidak terlindungi.
 type: docs
 weight: 120
 url: /id/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
 ---
-Melindungi buku kerja bersama dengan kata sandi penting untuk memastikan privasi data. Dengan Aspose.Cells untuk .NET, Anda dapat dengan mudah memproteksi atau membuka proteksi buku kerja bersama menggunakan kata sandi. Ikuti langkah-langkah di bawah ini untuk mendapatkan hasil yang diinginkan:
+## Perkenalan
 
-## Langkah 1: Tentukan direktori keluaran
+Dalam ruang kerja digital saat ini, berbagi dokumen merupakan skenario umum yang memerlukan pertimbangan keamanan yang cermat. Saat bekerja dengan file Excel, terutama buku kerja bersama, melindungi informasi sensitif menjadi sangat penting. Dalam panduan ini, saya akan memandu Anda melalui langkah-langkah untuk melindungi dan membuka proteksi kata sandi buku kerja bersama menggunakan Aspose.Cells for .NET. Pada akhirnya, Anda akan merasa yakin dalam mengelola keamanan Excel seperti seorang profesional!
 
-Pertama, Anda perlu menentukan direktori keluaran tempat file Excel yang dilindungi akan disimpan. Berikut cara melakukannya menggunakan Aspose.Cells:
+## Prasyarat
+
+Sebelum kita masuk ke kode, pastikan Anda telah menyiapkan hal berikut:
+
+- Pengetahuan Dasar C#: Anda tidak perlu menjadi ahli pengkodean, tetapi Anda harus merasa nyaman dengan sintaksis dan konsep C#.
+-  Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka di proyek Anda. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+- .NET SDK: Pastikan Anda telah menginstal .NET SDK untuk menjalankan aplikasi.
+- Visual Studio atau IDE apa pun: Siapkan lingkungan pengkodean pilihan Anda untuk menulis dan mengeksekusi kode.
+
+## Paket Impor
+
+Untuk memulai, Anda perlu mengimpor paket yang diperlukan. Dalam proyek C# Anda, sertakan pustaka Aspose.Cells. Berikut cara melakukannya:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Dengan paket yang tepat, kita dapat menavigasi dengan lancar melalui pembuatan, perlindungan, dan penghapusan perlindungan buku kerja bersama kita. 
+
+## Langkah 1: Siapkan Direktori Output
+
+Hal pertama yang perlu Anda lakukan adalah menentukan di mana file output Anda akan disimpan. Ini seperti menyiapkan folder sebelum membuat karya seni Anda. Berikut caranya:
 
 ```csharp
 // Direktori keluaran
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-## Langkah 2: Buat file Excel kosong
+Baris kode ini mengambil jalur direktori tempat file yang dihasilkan akan disimpan. Pastikan direktori ini ada; jika tidak, Anda mungkin menghadapi kesalahan file tidak ditemukan nanti.
 
-Kemudian Anda dapat membuat file Excel kosong yang ingin Anda terapkan proteksi atau tidak proteksi. Berikut ini contoh kodenya:
+## Langkah 2: Buat Buku Kerja Baru
+
+Berikutnya, kita akan membuat contoh buku kerja Excel baru. Anggap saja ini seperti meletakkan kanvas kosong untuk memulai karya agung Anda.
 
 ```csharp
-// Buat buku kerja Excel kosong
+// Buat file Excel kosong
 Workbook wb = new Workbook();
 ```
 
-## Langkah 3: Proteksi atau buka proteksi buku kerja bersama
+Baris ini menginisialisasi objek buku kerja baru bernama`wb`Sekarang kita siap mengerjakan kanvas baru ini.
 
-Setelah membuat buku kerja, Anda bisa memproteksi atau membuka proteksi buku kerja bersama dengan menentukan kata sandi yang sesuai. Begini caranya:
+## Langkah 3: Lindungi Buku Kerja Bersama dengan Kata Sandi
+
+Sekarang tibalah bagian yang menarik – melindungi buku kerja kita. Dengan menerapkan kata sandi, Anda memastikan bahwa hanya mereka yang memiliki kredensial yang tepat yang dapat membuat perubahan. Berikut cara melakukannya:
 
 ```csharp
-// Lindungi buku kerja bersama dengan kata sandi
+// Lindungi Buku Kerja Bersama dengan Kata Sandi
 wb.ProtectSharedWorkbook("1234");
+```
 
-// Batalkan komentar pada baris ini untuk membuka proteksi buku kerja bersama
+Dalam kasus ini, "1234" adalah kata sandi kita. Anda dapat mengubahnya sesuai keinginan Anda. Perintah ini mengunci buku kerja, mencegah penyuntingan yang tidak sah.
+
+## Langkah 4: (Opsional) Buka Proteksi Buku Kerja
+
+Jika Anda berubah pikiran atau perlu mengedit buku kerja nanti, Anda dapat membukanya dengan mudah dengan menghapus komentar pada baris di bawah ini. Ini seperti memiliki kunci brankas:
+
+```csharp
+// Hapus komentar pada baris ini untuk Membuka Proteksi Buku Kerja Bersama
 // wb.UnprotectSharedWorkbook("1234");
 ```
 
-## Langkah 4: Simpan file Excel keluaran
+Saat Anda siap mengedit lagi, cukup panggil metode ini dengan kata sandi yang benar.
 
-Setelah Anda menerapkan proteksi atau pembatalan proteksi, Anda dapat menyimpan file Excel yang dilindungi ke direktori keluaran yang ditentukan. Berikut cara melakukannya:
+## Langkah 5: Simpan File Excel Output
+
+Sentuhan terakhir adalah menyimpan buku kerja Anda. Di sinilah kerja keras Anda disimpan untuk penggunaan di masa mendatang—mirip seperti menyimpan dokumen di komputer Anda.
 
 ```csharp
-// Simpan file keluaran Excel
+// Simpan file Excel keluaran
 wb.Save(outputDir + "outputProtectSharedWorkbook.xlsx");
+```
+
+Baris ini menyimpan buku kerja Anda yang dilindungi dalam direktori keluaran yang ditunjuk dengan nama "outputProtectSharedWorkbook.xlsx". 
+
+## Langkah 6: Verifikasi Eksekusi
+
+Setelah menyimpan buku kerja, sebaiknya Anda memeriksa apakah semuanya berjalan lancar. Berikut ini pesan konfirmasi sederhana:
+
+```csharp
 Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfully.\r\n");
 ```
 
-### Contoh kode sumber untuk Buku Kerja Bersama yang Dilindungi atau Dilindungi Kata Sandi menggunakan Aspose.Cells untuk .NET 
-```csharp
-//Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
-//Buat file Excel kosong
-Workbook wb = new Workbook();
-//Lindungi Buku Kerja Bersama dengan Kata Sandi
-wb.ProtectSharedWorkbook("1234");
-//Batalkan komentar pada baris ini untuk Membuka Proteksi Buku Kerja Bersama
-//wb.UnprotectSharedWorkbook("1234");
-//Simpan file keluaran Excel
-wb.Save(outputDir + "outputProtectSharedWorkbook.xlsx");
-Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfully.\r\n");
-```
+Dengan ini, Anda akan tahu kode Anda dijalankan seperti yang diharapkan dan berkas Excel Anda sudah siap!
 
 ## Kesimpulan
 
-Memproteksi atau membuka proteksi buku kerja bersama dengan kata sandi sangat penting untuk memastikan keamanan data. Dengan Aspose.Cells untuk .NET Anda dapat dengan mudah menambahkan fungsi ini ke file Excel Anda. Dengan mengikuti langkah-langkah dalam panduan ini, Anda bisa secara efektif memproteksi atau membuka proteksi buku kerja bersama menggunakan kata sandi. Bereksperimenlah dengan file Excel Anda sendiri dan pastikan untuk menjaga keamanan data sensitif Anda.
+Dalam tutorial ini, kami telah membahas cara melindungi dan membuka proteksi buku kerja bersama menggunakan Aspose.Cells for .NET. Dengan mengikuti langkah-langkah ini, Anda dapat memastikan file Excel Anda tetap aman sekaligus tetap memungkinkan kolaborasi. Baik Anda berbagi data keuangan sensitif atau informasi klien, melindungi pekerjaan Anda sangat penting dalam lingkungan saat ini.
 
-### FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T: Jenis perlindungan apa yang bisa saya terapkan pada buku kerja yang dibagikan dengan Aspose.Cells?
-    
-J: Dengan Aspose.Cells, Anda bisa melindungi buku kerja bersama dengan menentukan kata sandi untuk mencegah akses tidak sah, modifikasi, atau penghapusan data.
+### Bisakah saya menggunakan kata sandi yang lebih rumit?
+Tentu saja! Anda dapat menggunakan string apa pun yang memenuhi persyaratan kebijakan kata sandi Anda.
 
-#### T: Bisakah saya memproteksi buku kerja bersama tanpa menentukan kata sandi?
-    
-J: Ya, Anda bisa memproteksi buku kerja bersama tanpa menentukan kata sandi. Namun, disarankan untuk menggunakan kata sandi yang kuat untuk keamanan yang lebih baik.
+### Apa yang terjadi jika saya lupa kata sandinya?
+Sayangnya, jika Anda lupa kata sandinya, Anda tidak akan dapat membuka proteksi buku kerja tanpa menggunakan alat pihak ketiga atau ahli.
 
-#### T: Bagaimana cara membuka proteksi buku kerja yang dibagikan dengan Aspose.Cells?
-    
-J: Untuk membuka proteksi buku kerja bersama, Anda harus menentukan kata sandi yang sama yang digunakan saat memproteksi buku kerja. Hal ini memungkinkan perlindungan dihapus dan data dapat diakses secara bebas.
+### Apakah Aspose.Cells gratis untuk digunakan?
+ Aspose.Cells adalah produk komersial, tetapi Anda dapat mencobanya secara gratis untuk waktu terbatas melalui uji coba gratis mereka:[Uji coba gratis](https://releases.aspose.com/).
 
-#### T: Apakah memproteksi buku kerja bersama memengaruhi fitur dan rumus dalam buku kerja?
-    
-J: Saat Anda memproteksi buku kerja bersama, pengguna masih bisa mengakses fitur dan rumus yang ada di buku kerja. Perlindungan hanya mempengaruhi perubahan struktural pada buku kerja.
+### Apakah ada cara untuk menggunakan ini dalam bahasa pemrograman lain?
+Aspose.Cells terutama mendukung .NET, tetapi mereka juga memiliki pustaka untuk Java dan bahasa lainnya. Kunjungi situs mereka untuk informasi lebih lanjut!
+
+### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
+ Anda dapat meminta bantuan melalui forum dukungan mereka:[Dukungan Aspose](https://forum.aspose.com/c/cells/9).

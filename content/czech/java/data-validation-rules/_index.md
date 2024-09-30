@@ -12,7 +12,7 @@ url: /cs/java/data-validation-rules/
 Pravidla ověřování dat jsou zásadním aspektem vytváření a správy listů Excel. S Aspose.Cells for Java můžete zlepšit své dovednosti v Excelu a zajistit přesnost dat bez námahy. V této sérii výukových programů se ponoříme hluboko do světa pravidel ověřování dat a provedeme vás každým krokem tohoto procesu.
 
 ## Vytváření vlastních pravidel ověřování
-Aspose.Cells vám umožňuje vytvářet vlastní pravidla ověřování dat přizpůsobená vašim konkrétním potřebám. Ať už omezujete vstupní hodnoty, nastavujete rozsahy dat nebo implementujete složité podmínky, naše výukové programy vás provedou celým procesem. Odemkněte schopnost předcházet chybám a udržovat konzistenci dat v listech aplikace Excel.
+Aspose.Cells vám umožňuje vytvářet vlastní pravidla ověřování dat přizpůsobená vašim konkrétním potřebám. Ať už omezujete vstupní hodnoty, nastavujete rozsahy dat nebo implementujete složité podmínky, naše výukové programy vás provedou celým procesem. Odemkněte možnost předcházet chybám a udržovat konzistenci dat v listech aplikace Excel.
 
 ## Bezchybné excelové listy snadno a rychle
 Sledováním našich komplexních výukových programů o pravidlech ověřování dat pomocí Aspose.Cells for Java získáte odborné znalosti potřebné k vytváření bezchybných listů aplikace Excel. Zvyšte přesnost svých dat, zefektivněte procesy a staňte se zkušeným uživatelem Excelu. Začněte svou cestu ještě dnes a excelujte v Excelu!"

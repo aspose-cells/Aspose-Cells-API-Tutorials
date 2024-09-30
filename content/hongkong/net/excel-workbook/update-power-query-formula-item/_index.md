@@ -2,104 +2,125 @@
 title: 更新 Power Query 公式項
 linktitle: 更新 Power Query 公式項
 second_title: Aspose.Cells for .NET API 參考
-description: 了解如何使用 Aspose.Cells for .NET 更新 Excel 檔案中的 Power Query 公式元素。
+description: 使用 Aspose.Cells for .NET 輕鬆更新 Excel 中的 Power Query 公式項目。簡化資料操作流程的逐步指南。
 type: docs
 weight: 160
 url: /zh-hant/net/excel-workbook/update-power-query-formula-item/
 ---
-更新 Power Query 公式項目是處理 Excel 檔案中的資料時的常見操作。使用 Aspose.Cells for .NET，您可以依照下列步驟輕鬆更新 Power Query 公式項目：
+## 介紹
 
-## 第 1 步：指定來源目錄和輸出目錄
+如果您曾經使用過 Excel，您就會知道它有多強大，尤其是當您開始深入研究 Power Queries 時。這些都是讓您輕鬆轉換、清理和分析資料的秘訣。在 Excel 中操作 Power Query 公式的巧妙方法是透過 Aspose.Cells for .NET。今天，我們將指導您逐步更新 Power Query 公式項目。所以，拿起你的編碼帽子，讓我們開始吧！
 
-首先，您需要指定包含要更新的 Power Query 公式的 Excel 檔案所在的來源目錄，以及要儲存修改後的檔案的輸出目錄。以下是使用 Aspose.Cells 執行此操作的方法：
+## 先決條件
 
-```csharp
-//來源目錄
-string SourceDir = RunExamples.Get_SourceDirectory();
+在深入研究程式碼之前，您需要設定一些內容：
 
-//輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio：您需要一個整合開發環境 (IDE) 來編寫和執行 .NET 程式碼。 Visual Studio 是首選。
+2.  Aspose.Cells 庫：確保您的專案中有可用的 Aspose.Cells 庫。您可以從[地點](https://releases.aspose.com/cells/net/).
+3. C# 的基本知識：雖然我們將一起完成這個過程，但對 C# 有一些基本的了解肯定會有所幫助，特別是在瀏覽不同的類別和方法時。
+4. 範例 Excel 檔案：您將需要程式碼片段中提到的 Excel 檔案。確保您有：
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## 步驟 2：載入來源 Excel 工作簿
+5. .NET Framework：確保您的專案是針對 .NET Framework 的相容版本。
 
-接下來，您需要載入要更新 Power Query 公式項目的來源 Excel 工作簿。操作方法如下：
+現在我們已經準備好了工具包，我們可以繼續有趣的部分：編寫程式碼！
 
-```csharp
-//載入來源 Excel 工作簿
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## 導入包
 
-## 步驟 3：瀏覽並更新 Power Query 公式項
-
-載入工作簿後，您可以導覽至 Power Query 公式集合併瀏覽每個公式及其元素。在此範例中，我們正在尋找名稱為“Source”的公式項目並更新其值。以下是更新 Power Query 公式項目的範例程式碼：
+首先，您需要匯入必要的名稱空間。操作方法如下：
 
 ```csharp
-//造訪 Power Query 公式集合
-DataMashup mashupData = workbook.DataMashup;
-
-//循環存取 Power Query 公式及其元素
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## 步驟 4：儲存輸出的 Excel 工作簿
+透過新增這些命名空間，您可以讓編譯器知道您打算使用 Aspose.Cells 庫中的類別和方法。這一步至關重要，因為它為後續程式碼奠定了基礎。
 
-更新 Power Query 公式項目後，您可以將修改後的 Excel 工作簿儲存到指定的輸出目錄。操作方法如下：
+讓我們分解一下您提供的程式碼片段。本教學將引導您完成每個部分，確保您了解正在發生的事情。
 
-```csharp
-//儲存輸出的 Excel 工作簿
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## 第 1 步：設定工作目錄
 
-### 使用 Aspose.Cells for .NET 更新 Power Query 公式項目的範例原始程式碼 
+在此步驟中，我們將定義來源檔案和輸出檔案的位置。這可確保 Aspose 知道在哪裡找到您的 Excel 檔案。
+
 ```csharp
 //工作目錄
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+在這裡，我們使用一種假設方法`RunExamples.Get_SourceDirectory()`取得我們的來源檔案的路徑。相似地，`RunExamples.Get_OutputDirectory()`獲取我們保存輸出的路徑。確保這些方法返回您電腦上的有效路徑。
+
+## 第 2 步：載入工作簿
+
+現在，讓我們載入 Power Query 所在的 Excel 檔案。
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+這`Workbook`class 是 Excel 檔案的入口點。透過傳遞來源檔案的路徑，我們建立了一個允許我們操作它的實例。您可以將其想像為打開一本書 - 您準備閱讀（或編輯）其內容。
+
+## 第 3 步：存取資料混搭
+
+接下來，我們將存取儲存在工作簿的資料混搭中的 Power Query 公式。
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+這`DataMashup`類別包含與您的工作簿關聯的所有 Power Query 公式。這是我們進行繁重工作的地方，就像您打開工具箱進行維修一樣。
+
+## 步驟 4： 循環存取 Power Query 公式
+
+現在是我們迭代 Power Query 公式以尋找我們要更新的特定公式的部分。
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
+```
+
+- 我們循環遍歷每個`PowerQueryFormula`在`mashupData`.
+- 在這個循環中，我們深入研究每個`PowerQueryFormulaItem`.
+- 我們檢查項目名稱是否與「來源」相符。如果是，我們將更新其值以連結到新的來源檔案。
+
+這類似於在手冊中找到正確的頁面，然後進行必要的更新——這是一個簡單而細緻的過程。
+
+## 步驟 5：儲存更新的工作簿
+
+進行更新後，是時候儲存我們的變更了。
+
+```csharp
 //儲存輸出工作簿。
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+這`Save`方法將更新的工作簿寫入指定的輸出目錄。這就像將您的編輯密封在新版本的手冊中，以供其他人使用！
 
 ## 結論
 
-使用 Aspose.Cells 操作和處理 Excel 檔案中的資料時，更新 Power Query 公式元素是一項重要操作。按照上面給出的步驟，您可以輕鬆更新公式元素
+恭喜！您已使用 Aspose.Cells for .NET 成功更新了 Power Query 公式項目。透過此方法，您可以自動修改 Excel 檔案中的 Power Query 公式，從而節省您寶貴的時間和精力。
 
-### 常見問題解答
+## 常見問題解答
 
-#### Q：Excel 中的 Power Query 是什麼？
-     
-答：Power Query 是 Excel 中的功能，可協助收集、轉換和載入來自不同來源的資料。它提供了強大的工具，可以在將資料匯入 Excel 之前清理、組合和重塑資料。
+### 什麼是 Aspose.Cells？
+Aspose.Cells 是一個功能強大的程式庫，用於在 .NET 應用程式中操作 Excel 文件，而無需安裝 Microsoft Excel。
 
-#### Q：如何知道 Power Query 公式項目是否已成功更新？
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### 我需要 Microsoft Excel 才能執行 Aspose.Cells 嗎？
+不需要，Aspose.Cells 使您能夠以程式設計方式建立和編輯 Excel 文件，而無需在伺服器或開發電腦上安裝 Excel。
 
-#### Q：我可以一次更新多個 Power Query 公式項目嗎？
-    
-答：是的，您可以循環遍歷 Power Query 公式項目集合併在單一循環中更新多個項目，具體取決於您的特定需求。
+### 我可以使用 Aspose.Cells 處理哪些類型的 Excel 檔案？
+您可以使用 Aspose.Cells 處理 .xlsx、.xls、.xlsm 和其他幾種 Excel 格式。
 
-#### Q：我可以使用 Aspose.Cells 對 Power Query 公式執行其他操作嗎？
-    
-答：是的，Aspose.Cells 提供了使用 Power Query 公式的全套功能，包括在 Excel 工作簿中建立、刪除、複製和搜尋公式。
+### Aspose.Cells 有試用版嗎？
+是的，您可以從以下位置下載免費試用版[Aspose Cells 發佈頁面](https://releases.aspose.com/).
+
+### 我如何獲得 Aspose.Cells 的支援？
+您可以透過以下方式獲得支持[Aspose論壇](https://forum.aspose.com/c/cells/9)，您可以在其中提出問題並從社區和 Aspose 團隊中找到答案。

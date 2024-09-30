@@ -2,184 +2,150 @@
 title: Vložit obrázek do záhlaví, zápatí
 linktitle: Vložit obrázek do záhlaví, zápatí
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se vložit obrázek do záhlaví nebo zápatí dokumentu aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem se zdrojovým kódem v C#.
+description: Naučte se vkládat obrázky do záhlaví a zápatí pomocí Aspose.Cells for .NET s tímto komplexním průvodcem krok za krokem.
 type: docs
 weight: 60
 url: /cs/net/excel-page-setup/insert-image-in-header-footer/
 ---
-Možnost vložit obrázek do záhlaví nebo zápatí dokumentu aplikace Excel může být velmi užitečná pro přizpůsobení vašich sestav nebo přidání loga společnosti. V tomto článku vás krok za krokem provedeme vložením obrázku do záhlaví nebo zápatí dokumentu aplikace Excel pomocí Aspose.Cells for .NET. Naučíte se, jak toho dosáhnout pomocí zdrojového kódu C#.
+## Zavedení
 
-## Krok 1: Nastavení prostředí
+Při práci se soubory Excel hrají záhlaví a zápatí zásadní roli při poskytování kontextu a cenných informací. Představte si, že připravujete zprávu pro svou firmu a logo společnosti musí být přítomno v záhlaví, aby tomu dodalo profesionální nádech. V této příručce vám ukážeme, jak použít Aspose.Cells pro .NET k vložení obrázku do záhlaví nebo zápatí vašich excelových listů.
 
-Než začnete, ujistěte se, že máte na svém počítači nainstalovaný Aspose.Cells for .NET. Vytvořte také nový projekt ve vámi preferovaném vývojovém prostředí.
+## Předpoklady
 
-## Krok 2: Importujte potřebné knihovny
+Než se ponoříte do skutečného kódu, musíte mít připraveno několik věcí:
 
-Do souboru kódu importujte knihovny potřebné pro práci s Aspose.Cells. Zde je odpovídající kód:
+1. Knihovna Aspose.Cells for .NET: Ujistěte se, že máte ve svém prostředí .NET nainstalovanou knihovnu Aspose.Cells. Pokud ho ještě nemáte, můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
+2. Visual Studio nebo jakékoli jiné IDE: K psaní a spouštění kódu C# budete potřebovat integrované vývojové prostředí.
+3.  Ukázkový obrázek: Připravte si obrázek, který chcete vložit do záhlaví nebo zápatí. Pro náš příklad použijeme logo společnosti tzv`aspose-logo.jpg`.
+4. Základní znalost C#: I když to není povinné, porozumění C# vám usnadní sledování tohoto návodu.
+5. Přístup k systému souborů: Ujistěte se, že máte přístup k systému souborů, kde si přečtete obrázek a uložíte soubor Excel.
+
+## Importujte balíčky
+
+Chcete-li začít, musíte do souboru C# importovat potřebné jmenné prostory. Zde je rychlý rozpis:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
+using System;
 ```
 
-## Krok 3: Nastavte adresář dokumentů
+Tyto importy poskytnou přístup ke všem třídám, které potřebujeme k manipulaci se soubory aplikace Excel a zpracování souborů v systému.
 
-Nastavte adresář, kde se nachází Excelový dokument, se kterým chcete pracovat. K nastavení adresáře použijte následující kód:
+## Krok 1: Nastavení cesty k adresáři
+
+Nejprve budete muset určit adresář, kde jsou umístěny soubory a obrázky aplikace Excel. Aktualizujte cestu, aby odpovídala vaší místní struktuře.
 
 ```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Podle toho aktualizujte
 ```
 
-Nezapomeňte zadat úplnou cestu k adresáři.
+ Tento řádek nastavuje`dataDir` proměnná, což je základní cesta pro umístění obrázku, který chcete vložit do záhlaví.
 
-## Krok 4: Vytvoření objektu sešitu
+## Krok 2: Vytvoření objektu sešitu
 
-Objekt Workbook představuje dokument Excel, se kterým budete pracovat. Můžete jej vytvořit pomocí následujícího kódu:
+Dále musíte vytvořit nový sešit, kam přidáte svůj obrázek.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Tím se vytvoří nový prázdný objekt sešit.
+ Tento řádek kódu inicializuje novou instanci souboru`Workbook` třídy, což vám umožní manipulovat s tabulkami aplikace Excel.
 
-## Krok 5: Uložení adresy URL obrázku
+## Krok 3: Definování cesty obrazu
 
-Definujte adresu URL nebo cestu k obrázku, který chcete vložit do záhlaví nebo zápatí. K uložení adresy URL obrázku použijte následující kód:
+ Je čas vytvořit řetězcovou proměnnou, která bude obsahovat cestu k obrázku, který chcete použít. V našem případě používáme`aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
 ```
 
-Ujistěte se, že zadaná cesta je správná a že obrázek v daném umístění existuje.
+Zde zřetězíme cestu k adresáři s názvem souboru loga.
 
-## Krok 6: Otevření souboru obrázku
+## Krok 4: Čtení obrázku jako binárních dat
 
-K otevření souboru obrázku použijeme objekt FileStream a načteme binární data z obrázku. Zde je odpovídající kód:
+Abychom vložili obrázek do záhlaví, musíme soubor obrázku načíst jako binární data.
 
 ```csharp
-FileStream inFile;
-byte[] binaryData;
-
-inFile = new System.IO.FileStream(logo_url, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-binaryData = new Byte[inFile.Length];
+FileStream inFile = new FileStream(logo_url, FileMode.Open, FileAccess.Read);
+byte[] binaryData = new byte[inFile.Length];
 long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 ```
 
-Ujistěte se, že cesta k obrázku je správná a že máte správná oprávnění k přístupu k ní.
+-  The`FileStream` slouží k otevření obrázku v režimu čtení.
+-  Poté deklarujeme bajtové pole`binaryData` pro uložení obrazových dat.
+-  Nakonec načteme obrazová data z`FileStream`.
 
-## Krok 7: Konfigurace PageSetup
+## Krok 5: Přístup k objektu Nastavení stránky
 
-Objekt PageSetup se používá k nastavení stránky dokumentu aplikace Excel včetně záhlaví a zápatí. Pomocí následujícího kódu získáte objekt PageSetup prvního listu:
+ Chcete-li provést změny v záhlaví, musíme získat přístup k`PageSetup` objekt spojený s prvním listem. 
 
 ```csharp
-PageSetup pageSetup = workbook. Worksheets
-
-[0].PageSetup;
+PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
-To vám umožní přístup k nastavení stránky pro první list v sešitu.
+ Tady, dostáváme`PageSetup` objekt, který nám umožňuje manipulovat s nastavením tisku pro list.
 
-## Krok 8: Přidání obrázku do záhlaví
+## Krok 6: Vložení obrázku do záhlaví
 
-Pomocí metody SetHeaderPicture() objektu PageSetup nastavte obrázek do střední části záhlaví stránky. Zde je odpovídající kód:
+S binárními daty obrázku je nyní můžeme vložit do záhlaví.
 
 ```csharp
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
-Tím se do záhlaví stránky přidá zadaný obrázek.
+ Tento řádek umístí obrázek do střední části záhlaví. Parametr`1` určuje sekci záhlaví.
 
-## Krok 9: Přidání skriptu do záhlaví
+## Krok 7: Nastavení obsahu záhlaví
 
-Chcete-li přidat skript do záhlaví stránky, použijte metodu SetHeader() objektu PageSetup. Zde je odpovídající kód:
-
-```csharp
-pageSetup.SetHeader(1, "&G");
-```
-
-Tím se do záhlaví stránky přidá zadaný skript. V tomto příkladu skript "&G" zobrazuje číslo stránky.
-
-## Krok 10: Přidejte název listu do záhlaví
-
-Chcete-li zobrazit název listu v záhlaví stránky, použijte znovu metodu SetHeader() objektu PageSetup. Zde je odpovídající kód:
+Nyní, když máme náš obrázek na místě, přidáme do záhlaví nějaký text, abychom zlepšili jeho kontext. 
 
 ```csharp
-pageSetup.SetHeader(2, "&A");
+pageSetup.SetHeader(1, "&G"); // Vloží obrázek
+pageSetup.SetHeader(2, "&A"); // Vloží název listu
 ```
 
-Tím se do záhlaví stránky přidá název listu. Skript "&A" se používá k reprezentaci názvu listu.
+- První řádek vloží zástupný symbol obrázku (`&G`).
+- Druhý řádek přidá název listu do pravé části záhlaví pomocí zástupného symbolu (`&A`).
 
-## Krok 11: Uložení sešitu
+## Krok 8: Uložení sešitu
 
-Chcete-li uložit změny do sešitu, použijte metodu Save() objektu Sešit. Zde je odpovídající kód:
+Po provedení všech potřebných změn je čas sešit uložit.
 
 ```csharp
 workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
 ```
 
-Tím se sešit uloží se změnami do zadaného adresáře.
+Tento řádek uloží sešit se zadaným názvem souboru do adresáře, který jste definovali dříve.
 
-## Krok 12: Zavření FileStream
+## Krok 9: Zavření FileStream
 
-Po přečtení binárních dat z bitové kopie nezapomeňte zavřít FileStream, abyste uvolnili prostředky. K uzavření FileStream použijte následující kód:
+ Nakonec nezapomeňte zavřít svůj`FileStream` uvolnit zdroje.
 
 ```csharp
 inFile.Close();
 ```
 
-Nezapomeňte FileStreams vždy zavřít, když je skončíte.
+Vaše aplikace tak bude uklizená a zabrání se únikům paměti.
 
-### Ukázkový zdrojový kód pro vložení obrázku do záhlaví zápatí pomocí Aspose.Cells pro .NET 
-```csharp
-//Cesta k adresáři dokumentů.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Vytvoření objektu sešitu
-Workbook workbook = new Workbook();
-// Vytvoření proměnné řetězce pro uložení adresy URL loga/obrázku
-string logo_url = dataDir + "aspose-logo.jpg";
-// Deklarace objektu FileStream
-FileStream inFile;
-// Deklarace bajtového pole
-byte[] binaryData;
-// Vytvoření instance objektu FileStream pro otevření loga/obrázku ve streamu
-inFile = new System.IO.FileStream(logo_url, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-// Instantování bajtového pole velikosti objektu FileStream
-binaryData = new Byte[inFile.Length];
-// Čte blok bajtů z proudu a zapisuje data do dané vyrovnávací paměti nebo pole bajtů.
-long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
-// Vytvoření objektu PageSetup pro získání nastavení stránky prvního listu sešitu
-PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
-// Nastavení loga/obrázku ve střední části záhlaví stránky
-pageSetup.SetHeaderPicture(1, binaryData);
-// Nastavení skriptu pro logo/obrázek
-pageSetup.SetHeader(1, "&G");
-// Nastavení názvu listu v pravé části záhlaví stránky se skriptem
-pageSetup.SetHeader(2, "&A");
-// Ukládání sešitu
-workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
-//Zavření objektu FileStream
-inFile.Close();       
-```
 ## Závěr
 
-gratuluji! Nyní víte, jak vložit obrázek do záhlaví nebo zápatí dokumentu aplikace Excel pomocí Aspose.Cells for .NET. Tento kurz vás provede každým krokem procesu, od nastavení prostředí až po uložení upraveného sešitu. Nebojte se více experimentovat s funkcemi Aspose.Cells a vytvářet personalizované a profesionální dokumenty Excel.
+Gratuluji! Úspěšně jste přidali obrázek do záhlaví souboru aplikace Excel pomocí Aspose.Cells for .NET. Ať už jde o firemní logo nebo inspirativní citát, záhlaví může výrazně zvýšit profesionalitu vašich dokumentů. Nyní můžete tyto znalosti aplikovat na různé projekty – představte si, jak budou vypadat vaše zprávy s přizpůsobenými záhlavími a zápatími!
 
-### FAQ
+## FAQ
 
-#### Q1: Je možné vložit více obrázků do záhlaví nebo zápatí dokumentu aplikace Excel?
+### Jaké formáty souborů podporuje Aspose.Cells pro obrázky?
+Aspose.Cells podporuje různé formáty, včetně JPEG, PNG, BMP, GIF a TIFF.
 
-Odpověď 1: Ano, do záhlaví nebo zápatí dokumentu aplikace Excel můžete vložit více obrázků opakováním kroků 8 a 9 pro každý další obrázek.
+### Mohu do záhlaví/zápatí vložit více obrázků?
+Ano, do různých částí záhlaví nebo zápatí můžete vložit samostatné obrázky pomocí různých zástupných symbolů.
 
-#### Q2: Jaké formáty obrázků jsou podporovány pro vložení do záhlaví nebo zápatí?
-A2: Aspose.Cells podporuje řadu běžných obrazových formátů, jako jsou JPEG, PNG, GIF, BMP atd.
+### Je Aspose.Cells zdarma?
+ Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plný přístup a další funkce je k dispozici licencovaná verze. Můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/).
 
-#### Q3: Mohu dále upravit vzhled záhlaví nebo zápatí?
+### Jak mohu vyřešit problémy s nezobrazováním obrázků?
+Ujistěte se, že cesta k obrázku je správná a soubor existuje. Zkontrolujte také kompatibilitu formátu obrázku.
 
-A3: Ano, můžete použít speciální skripty a kódy k dalšímu formátování a přizpůsobení vzhledu záhlaví nebo zápatí. Další informace o možnostech přizpůsobení naleznete v dokumentaci Aspose.Cells.
-
-#### Q4: Funguje Aspose.Cells s různými verzemi aplikace Excel?
-
-Odpověď 4: Ano, Aspose.Cells je kompatibilní s různými verzemi aplikace Excel včetně Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016 a Excel 2019.
-
-#### Q5: Je možné vkládat obrázky do jiných částí dokumentu aplikace Excel, jako jsou buňky nebo grafy?
-
-Odpověď 5: Ano, Aspose.Cells poskytuje rozsáhlé funkce pro vkládání obrázků do různých částí dokumentu aplikace Excel, včetně buněk, grafů a nakreslených objektů.
+### Kde najdu další dokumentaci pro Aspose.Cells?
+ Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).

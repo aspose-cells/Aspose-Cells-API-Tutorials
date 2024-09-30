@@ -92,7 +92,7 @@ A MAX függvény a maximális számértéket keresi meg egy tartományban, míg 
 
 ### Használhatom a MAX függvényt feltételes feltételekkel?
 
-Igen tudsz. Kombinálhatja a MAX függvényt olyan logikai függvényekkel, mint az IF, hogy meghatározott feltételek alapján megtalálja a maximális értéket.
+Igen, megteheti. Kombinálhatja a MAX függvényt olyan logikai függvényekkel, mint az IF, hogy meghatározott feltételek alapján megtalálja a maximális értéket.
 
 ### Hogyan kezelhetem a hibákat az Aspose.Cells MAX függvényének használatakor?
 

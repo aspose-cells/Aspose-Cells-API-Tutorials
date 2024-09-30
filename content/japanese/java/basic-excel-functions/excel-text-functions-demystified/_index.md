@@ -1,24 +1,24 @@
 ---
-title: Excel テキスト関数の謎を解く
-linktitle: Excel テキスト関数の謎を解く
+title: Excel のテキスト関数の謎を解明
+linktitle: Excel のテキスト関数の謎を解明
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用して Excel テキスト関数の秘密を解き明かしましょう。 Excel でテキストを簡単に操作、抽出、変換する方法を学びます。
+description: Aspose.Cells for Java で Excel テキスト関数の秘密を解き明かしましょう。Excel でテキストを簡単に操作、抽出、変換する方法を学びます。
 type: docs
 weight: 18
 url: /ja/java/basic-excel-functions/excel-text-functions-demystified/
 ---
 
-# Aspose.Cells for Java を使用して解明された Excel テキスト関数
+# Aspose.Cells for Java を使用して Excel テキスト関数を解明する
 
-このチュートリアルでは、Aspose.Cells for Java API を使用した Excel でのテキスト操作の世界を詳しく説明します。 Excel の熟練ユーザーであっても、初心者であっても、テキスト関数を理解することでスプレッドシートのスキルを大幅に向上させることができます。さまざまなテキスト関数を検討し、その使用法を示す実践的な例を示します。
+このチュートリアルでは、Aspose.Cells for Java API を使用して Excel でのテキスト操作の世界を詳しく見ていきます。Excel の熟練ユーザーでも、初心者でも、テキスト関数を理解することでスプレッドシートのスキルを大幅に向上できます。さまざまなテキスト関数について説明し、その使用方法を示す実用的な例を示します。
 
 ## はじめる
 
-始める前に、Aspose.Cells for Java がインストールされていることを確認してください。ダウンロードできます[ここ](https://releases.aspose.com/cells/java/)。セットアップが完了したら、Excel テキスト関数の魅力的な世界に飛び込みましょう。
+始める前に、Aspose.Cells for Javaがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/cells/java/)設定が完了したら、Excel テキスト関数の魅力的な世界に飛び込んでみましょう。
 
-## CONCATENATE - テキストを結合する
+## CONCATENATE - テキストの結合
 
-の`CONCATENATE`関数を使用すると、異なるセルのテキストを結合できます。 Aspose.Cells for Java を使用してそれを行う方法を見てみましょう。
+の`CONCATENATE`関数を使用すると、異なるセルのテキストを結合できます。Aspose.Cells for Java でこれを行う方法を見てみましょう。
 
 ```java
 // Aspose.Cells を使用してテキストを連結する Java コード
@@ -30,108 +30,108 @@ cell.putValue("Hello, ");
 cell = worksheet.getCells().get("B1");
 cell.putValue("World!");
 
-//A1 と B1 を C1 に連結します
+//A1とB1を連結してC1にする
 cell = worksheet.getCells().get("C1");
 cell.setFormula("=CONCATENATE(A1,B1)");
 
 workbook.calculateFormula();
 ```
 
-これで、セル C1 には「Hello, World!」が含まれます。
+これで、セル C1 に「Hello, World!」が含まれるようになります。
 
-## LEFT と RIGHT - テキストの抽出
+## LEFTとRIGHT - テキストの抽出
 
-の`LEFT`そして`RIGHT`関数を使用すると、テキスト文字列の左側または右側から指定した数の文字を抽出できます。使用方法は次のとおりです。
+の`LEFT`そして`RIGHT`関数を使用すると、テキスト文字列の左または右から指定した数の文字を抽出できます。使用方法は次のとおりです。
 
 ```java
 // Aspose.Cells を使用してテキストを抽出する Java コード
 Cell cell = worksheet.getCells().get("A2");
 cell.putValue("Excel Rocks!");
 
-//最初の 5 文字を抽出します
+//最初の5文字を抽出する
 cell = worksheet.getCells().get("B2");
 cell.setFormula("=LEFT(A2, 5)");
 
-//最後の 5 文字を抽出する
+//最後の5文字を抽出する
 cell = worksheet.getCells().get("C2");
 cell.setFormula("=RIGHT(A2, 5)");
 
 workbook.calculateFormula();
 ```
 
-セル B2 には「Excel」が、セル C2 には「Rocks!」が表示されます。
+セル B2 には「Excel」、セル C2 には「Rocks!」と表示されます。
 
-## LEN - 文字数のカウント
+## LEN - 文字数を数える
 
-の`LEN`関数は、テキスト文字列内の文字数をカウントします。 Aspose.Cells for Java でそれを使用する方法を見てみましょう。
+の`LEN`関数はテキスト文字列内の文字数をカウントします。Aspose.Cells for Java でこの関数を使用する方法を見てみましょう。
 
 ```java
-// Aspose.Cells を使用して文字を数える Java コード
+// Aspose.Cells を使用して文字数をカウントする Java コード
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
-//文字を数える
+//文字数を数える
 cell = worksheet.getCells().get("B3");
 cell.setFormula("=LEN(A3)");
 
 workbook.calculateFormula();
 ```
 
-「Excel」には5文字あるため、セルB3には「5」が入ります。
+「Excel」には 5 つの文字があるため、セル B3 には「5」が含まれます。
 
-## UPPER と LOWER - 大文字と小文字の変更
+## 大文字と小文字の変更
 
-の`UPPER`そして`LOWER`関数を使用すると、テキストを大文字または小文字に変換できます。その方法は次のとおりです。
+の`UPPER`そして`LOWER`関数を使用すると、テキストを大文字または小文字に変換できます。方法は次のとおりです。
 
 ```java
 // Aspose.Cells を使用して大文字と小文字を変更する Java コード
 Cell cell = worksheet.getCells().get("A4");
 cell.putValue("java programming");
 
-//大文字に変換する
+//大文字に変換
 cell = worksheet.getCells().get("B4");
 cell.setFormula("=UPPER(A4)");
 
-//小文字に変換する
+//小文字に変換
 cell = worksheet.getCells().get("C4");
 cell.setFormula("=LOWER(A4)");
 
 workbook.calculateFormula();
 ```
 
-セル B4 には「JAVA プログラミング」が、セル C4 には「Java プログラミング」が含まれます。
+セル B4 には「JAVA PROGRAMMING」が含まれ、セル C4 には「Java プログラミング」が含まれます。
 
-## FIND と REPLACE - テキストの検索と置換
+## 検索と置換 - テキストの検索と置換
 
-の`FIND`関数を使用すると、文字列内の特定の文字またはテキストの位置を見つけることができます。`REPLACE`関数はテキストを置換するのに役立ちます。実際の動作を見てみましょう:
+の`FIND`関数を使用すると、文字列内の特定の文字またはテキストの位置を特定できますが、`REPLACE`関数はテキストの置換に役立ちます。実際に動作を見てみましょう。
 
 ```java
 // Aspose.Cells を使用して検索および置換する Java コード
 Cell cell = worksheet.getCells().get("A5");
 cell.putValue("Search for me");
 
-//「for」の位置を調べます
+//「for」の位置を見つける
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 
-//「for」を「with」に置き換えます
+//「for」を「with」に置き換える
 cell = worksheet.getCells().get("C5");
 cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 
 workbook.calculateFormula();
 ```
 
-セル B5 には「9」（「for」の位置）、セル C5 には「Search with me」が含まれます。
+セル B5 には「9」（「for」の位置）が含まれ、セル C5 には「Search with me」が含まれます。
 
 ## 結論
 
-Excel のテキスト関数は、テキスト データを操作および分析するための強力なツールです。 Aspose.Cells for Java を使用すると、これらの関数を Java アプリケーションに簡単に組み込むことができ、テキスト関連のタスクを自動化し、Excel の機能を強化できます。 Aspose.Cells for Java を使用して、さらに多くのテキスト関数を探索し、Excel の可能性を最大限に引き出します。
+Excel のテキスト関数は、テキスト データを操作および分析するための強力なツールです。Aspose.Cells for Java を使用すると、これらの関数を Java アプリケーションに簡単に組み込むことができ、テキスト関連のタスクを自動化して Excel の機能を強化できます。Aspose.Cells for Java でさらに多くのテキスト関数を調べ、Excel の潜在能力を最大限に引き出してください。
 
 ## よくある質問
 
 ### 複数のセルのテキストを連結するにはどうすればよいですか?
 
-複数のセルのテキストを連結するには、`CONCATENATE`関数。例えば：
+複数のセルのテキストを連結するには、`CONCATENATE`関数。例:
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
@@ -139,23 +139,23 @@ cell.setFormula("=CONCATENATE(A1, B1)");
 
 ### テキスト文字列から最初と最後の文字を抽出できますか?
 
-はい、使用できます`LEFT`そして`RIGHT`テキスト文字列の先頭または末尾から文字を抽出する関数。例えば：
+はい、`LEFT`そして`RIGHT`テキスト文字列の先頭または末尾から文字を抽出する関数。例:
 ```java
 Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
 ```
 
-### テキスト文字列内の文字数をカウントするにはどうすればよいですか?
+### テキスト文字列内の文字数をカウントするにはどうすればよいでしょうか?
 
-使用`LEN`テキスト文字列内の文字数をカウントする関数。例えば：
+使用`LEN`テキスト文字列内の文字数をカウントする関数。例:
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
 ```
 
-### テキストの大文字と小文字を変更することはできますか?
+### テキストの大文字と小文字を変更することは可能ですか?
 
-はい、次のコマンドを使用してテキストを大文字または小文字に変換できます。`UPPER`そして`LOWER`機能。例えば：
+はい、テキストを大文字または小文字に変換できます。`UPPER`そして`LOWER`機能。例:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
@@ -163,7 +163,7 @@ cell.setFormula("=UPPER(A4)");
 
 ### 文字列内のテキストを検索して置換するにはどうすればよいですか?
 
-文字列内のテキストを検索して置換するには、`FIND`そして`REPLACE`機能。例えば：
+文字列内のテキストを検索して置換するには、`FIND`そして`REPLACE`機能。例:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");

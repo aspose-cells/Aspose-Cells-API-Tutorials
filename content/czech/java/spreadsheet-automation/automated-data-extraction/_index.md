@@ -26,7 +26,7 @@ Automatizovaná extrakce dat nabízí několik výhod:
 
 ### 1. Nastavení prostředí
 
- Nejprve se ujistěte, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+ Nejprve se ujistěte, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ### 2. Inicializace Aspose.Cells
 

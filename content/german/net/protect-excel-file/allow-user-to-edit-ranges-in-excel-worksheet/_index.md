@@ -1,145 +1,144 @@
 ---
-title: Erlauben Sie dem Benutzer, Bereiche im Excel-Arbeitsblatt zu bearbeiten
-linktitle: Erlauben Sie dem Benutzer, Bereiche im Excel-Arbeitsblatt zu bearbeiten
+title: Benutzern das Bearbeiten von Bereichen im Excel-Arbeitsblatt gestatten
+linktitle: Benutzern das Bearbeiten von Bereichen im Excel-Arbeitsblatt gestatten
 second_title: Aspose.Cells für .NET API-Referenz
-description: Ermöglichen Sie Benutzern das Bearbeiten bestimmter Bereiche in einer Excel-Tabelle mit Aspose.Cells für .NET. Schritt-für-Schritt-Anleitung mit Quellcode in C#.
+description: Ermöglichen Sie Benutzern, bestimmte Bereiche in einer Excel-Tabelle mit Aspose.Cells für .NET zu bearbeiten. Schritt-für-Schritt-Anleitung mit Quellcode in C#.
 type: docs
 weight: 10
 url: /de/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
-In diesem Leitfaden führen wir Sie durch die Verwendung von Aspose.Cells für .NET, damit der Benutzer bestimmte Bereiche in einer Excel-Tabelle bearbeiten kann. Führen Sie die folgenden Schritte aus, um diese Aufgabe auszuführen.
+## Einführung
 
-## Schritt 1: Einrichten der Umgebung
+Beim Arbeiten mit Excel-Arbeitsblättern ist Flexibilität oft entscheidend – insbesondere, wenn mehrere Benutzer Zugriff benötigen, um bestimmte Bereiche zu bearbeiten, ohne die Datenintegrität des gesamten Blatts zu beeinträchtigen. Hier glänzt Aspose.Cells für .NET! In diesem Tutorial werden wir uns damit befassen, wie Benutzer bestimmte Bereiche in einem Excel-Arbeitsblatt bearbeiten können, während der Rest des Dokuments geschützt bleibt. Am Ende dieses Artikels werden Sie nicht nur die Konzepte verstehen, sondern auch ein konkretes Beispiel haben, mit dem Sie arbeiten können. 
 
-Stellen Sie sicher, dass Sie Ihre Entwicklungsumgebung eingerichtet und Aspose.Cells für .NET installiert haben. Sie können die neueste Version der Bibliothek von der offiziellen Website von Aspose herunterladen.
+## Voraussetzungen
 
-## Schritt 2: Erforderliche Namespaces importieren
+Bevor wir ins Detail gehen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg brauchen:
 
-Importieren Sie in Ihrem C#-Projekt die erforderlichen Namespaces, um mit Aspose.Cells zu arbeiten:
+1. .NET-Entwicklungsumgebung: Sie sollten eine funktionierende .NET-Entwicklungsumgebung eingerichtet haben (dies kann Visual Studio oder eine andere IDE Ihrer Wahl sein).
+2.  Aspose.Cells für .NET-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek herunter und installieren Sie sie. Sie finden sie[Hier](https://releases.aspose.com/cells/net/).
+3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie problemlos durch die Codebeispiele navigieren.
+4. Die Grundlagen von Excel verstehen: Wenn Sie wissen, wie Excel funktioniert, bilden Sie die Grundlage für die Funktionen, die wir besprechen werden.
+
+Sobald diese Voraussetzungen erfüllt sind, kann es losgehen!
+
+## Pakete importieren
+
+Bevor wir mit dem Programmieren beginnen, müssen wir sicherstellen, dass unser Projekt den Aspose.Cells-Namespace erkennt. So importieren Sie die erforderlichen Pakete:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Schritt 3: Legen Sie den Pfad zum Dokumentenverzeichnis fest
+Nachdem wir nun alles importiert haben, was wir brauchen, können wir uns Schritt für Schritt in unser Tutorial stürzen.
 
- Erkläre a`dataDir` Variable, um den Pfad zu dem Verzeichnis anzugeben, in dem Sie die generierte Excel-Datei speichern möchten:
+## Schritt 1: Einrichten des Dokumentverzeichnisses
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
-
- Unbedingt austauschen`"YOUR_DOCUMENT_DIRECTORY"` mit dem richtigen Pfad auf Ihrem System.
-
-## Schritt 4: Erstellen eines Arbeitsmappenobjekts
-
-Instanziieren Sie ein neues Workbook-Objekt, das die Excel-Arbeitsmappe darstellt, die Sie erstellen möchten:
+Für alle Dateivorgänge ist es wichtig, einen definierten Speicherort für unsere Dokumente zu haben. Richten wir unser Arbeitsverzeichnis zum Speichern der Excel-Dateien ein.
 
 ```csharp
-Workbook book = new Workbook();
-```
-
-## Schritt 5: Zugriff auf das erste Arbeitsblatt
-
-Navigieren Sie mit dem folgenden Code zum ersten Arbeitsblatt in der Excel-Arbeitsmappe:
-
-```csharp
-Worksheet sheet = book.Worksheets[0];
-```
-
-## Schritt 6: Autorisierte Änderungsbereiche abrufen
-
- Rufen Sie die Sammlung der zulässigen Bearbeitungsbereiche mithilfe von ab`AllowEditRanges` Eigentum:
-
-```csharp
-ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-```
-
-## Schritt 7: Definieren Sie einen geschützten Bereich
-
- Definieren Sie einen geschützten Bereich mithilfe von`Add` Methode der`AllowEditRanges` Sammlung:
-
-```csharp
-int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-protectedRange protectedRange = allowRanges[idx];
-```
-
-Hier haben wir einen geschützten Bereich „r2“ erstellt, der sich von Zelle A1 bis Zelle C3 erstreckt.
-
-## Schritt 8: Passwort festlegen
-
- Geben Sie mithilfe von ein Passwort für den geschützten Bereich an`Password` Eigentum:
-
-```csharp
-protectedRange.Password = "YOUR_PASSWORD";
-```
-
- Unbedingt austauschen`"YOUR_PASSWORD"` mit dem gewünschten Passwort.
-
-## Schritt 9: Schützen des Arbeitsblatts
-
- Schützen Sie das Arbeitsblatt mit dem`Protect` Methode der`Worksheet` Objekt:
-
-```csharp
-sheet.Protect(ProtectionType.All);
-```
-
-Dadurch wird die Tabelle geschützt, indem jegliche Änderung außerhalb der zulässigen Bereiche verhindert wird.
-
-## Schritt 10: Registrieren des
-
-  Excel-Datei
-
- Speichern Sie die generierte Excel-Datei mit`Save` Methode der`Workbook` Objekt:
-
-```csharp
-book.Save(dataDir + "protectedrange.out.xls");
-```
-
-Geben Sie unbedingt den gewünschten Dateinamen und den richtigen Pfad an.
-
-### Beispielquellcode für „Benutzer darf Bereiche in Excel-Arbeitsblättern bearbeiten“ mit Aspose.Cells für .NET 
-```csharp
-//Der Pfad zum Dokumentenverzeichnis.
+// Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+
 // Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
-// Instanziieren Sie eine neue Arbeitsmappe
+```
+
+ Ersetzen Sie zunächst`"YOUR DOCUMENT DIRECTORY"`mit dem Pfad, in dem Ihre Dateien gespeichert werden sollen. Dieser Code prüft, ob das Verzeichnis existiert. Wenn nicht, wird eines erstellt.
+
+## Schritt 2: Instanziieren einer neuen Arbeitsmappe
+
+Nachdem unser Arbeitsverzeichnis bereit ist, ist es Zeit, unsere Excel-Arbeitsmappe zu erstellen. 
+
+```csharp
+// Instanziieren einer neuen Arbeitsmappe
 Workbook book = new Workbook();
-// Rufen Sie das erste (Standard-)Arbeitsblatt ab
+```
+
+ Hier erstellen wir eine neue Instanz des`Workbook` Von Aspose.Cells bereitgestellte Klasse, die es uns ermöglicht, die Excel-Datei zu bearbeiten.
+
+## Schritt 3: Zugriff auf das Standardarbeitsblatt
+
+Jede neu erstellte Arbeitsmappe enthält mindestens ein Arbeitsblatt. Greifen wir darauf zu.
+
+```csharp
+// Holen Sie sich das erste (Standard-)Arbeitsblatt
 Worksheet sheet = book.Worksheets[0];
-// Rufen Sie „Bearbeitungsbereiche zulassen“ ab
+```
+
+In diesem Codeausschnitt greifen wir auf das erste Arbeitsblatt unserer Arbeitsmappe zu, das wir in den nachfolgenden Schritten bearbeiten werden.
+
+## Schritt 4: Bereiche zum Bearbeiten zulassen
+
+ Um bestimmte Bereiche des Arbeitsblatts für die Bearbeitung freizugeben, müssen wir auf die`AllowEditRanges` Eigentum.
+
+```csharp
+// Holen Sie sich die zulässigen Bearbeitungsbereiche
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
+```
+
+Mit dieser Sammlung können wir verwalten, welche Bereiche in unserem Arbeitsblatt bearbeitet werden können.
+
+## Schritt 5: Definieren Sie den geschützten Bereich
+
+Als Nächstes definieren wir, welchen Teil des Arbeitsblatts wir schützen möchten, während wir Änderungen an einem angegebenen Bereich zulassen möchten.
+
+```csharp
 // Definieren Sie ProtectedRange
 ProtectedRange proteced_range;
+
 // Erstellen Sie den Bereich
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
-// Geben Sie das Passwort an
+
+// Geben Sie das Kennwort an
 proteced_range.Password = "123";
+```
+
+In diesem Schritt fügen wir einen neuen bearbeitbaren Bereich namens „r2“ hinzu, der Änderungen in den Zellen von Zeile 1, Spalte 1 bis Zeile 3, Spalte 3 ermöglicht. Zusätzlich legen wir ein Kennwort fest, um diesen Bereich zu schützen und sicherzustellen, dass nur autorisierte Benutzer ihn ändern können.
+
+## Schritt 6: Schützen Sie das Arbeitsblatt
+
+Nachdem wir nun unseren bearbeitbaren Bereich eingerichtet haben, müssen wir das Arbeitsblatt schützen.
+
+```csharp
 // Schützen Sie das Blatt
 sheet.Protect(ProtectionType.All);
+```
+
+Dieser Code schützt das gesamte Arbeitsblatt vor unerwünschten Änderungen, mit Ausnahme des gerade angegebenen Bereichs.
+
+## Schritt 7: Speichern Sie die Excel-Datei
+
+Speichern wir die Arbeitsmappe, damit wir unsere Änderungen in einer Excel-Datei sehen können.
+
+```csharp
 // Speichern Sie die Excel-Datei
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+Denken Sie daran, den Dateinamen nach Bedarf anzupassen. Dadurch wird eine Excel-Datei mit den von uns konfigurierten Einstellungen in Ihrem angegebenen Verzeichnis erstellt.
+
 ## Abschluss
 
-Sie haben nun gelernt, wie Sie Aspose.Cells für .NET verwenden, um dem Benutzer die Bearbeitung bestimmter Bereiche in einer Excel-Tabelle zu ermöglichen. Fühlen Sie sich frei, die von Aspose.Cells angebotenen Funktionen weiter zu erkunden, um Ihren spezifischen Anforderungen gerecht zu werden.
+Da haben Sie es! Sie haben erfolgreich ein Excel-Arbeitsblatt erstellt, das Änderungen auf einen bestimmten Bereich beschränkt und gleichzeitig den Rest des Blattes schützt. Die Verwendung von Aspose.Cells für .NET macht die Verwaltung dieser Art von Aufgaben viel einfacher und effizienter. Egal, ob Sie eine komplexe Anwendung entwickeln oder nur Daten sicher verwalten müssen, diese Funktionen können Ihren Arbeitsablauf erheblich verbessern.
 
+## Häufig gestellte Fragen
 
-### FAQs
+### Was ist Aspose.Cells?
+Aspose.Cells ist eine leistungsstarke .NET-Bibliothek zur Verarbeitung von Excel-Dateien und bietet Funktionen wie das programmgesteuerte Erstellen, Bearbeiten und Konvertieren von Tabellen.
 
-#### 1. Wie kann ein Benutzer bestimmte Bereiche in einer Excel-Tabelle bearbeiten?
+### Kann ich mehrere bearbeitbare Bereiche anwenden?
+ Absolut! Sie können anrufen unter`Add` Methode auf der`allowRanges` Sammlung mehrmals, um mehrere bearbeitbare Bereiche anzugeben.
 
- Du kannst den ... benutzen`ProtectedRangeCollection` Klasse, um zulässige Änderungsbereiche zu definieren. Benutzen Sie die`Add` Methode zum Erstellen eines neuen geschützten Bereichs mit den gewünschten Zellen.
+### Was passiert, wenn ich das Passwort vergesse?
+Wenn Sie das Kennwort für einen bearbeitbaren Bereich vergessen, müssen Sie leider den Schutz entfernen oder auf eine vordefinierte Weise auf die Datei zugreifen, wofür möglicherweise Anmeldeinformationen erforderlich sind.
 
-#### 2. Kann ich für autorisierte Änderungsbereiche ein Passwort festlegen?
+### Gibt es eine kostenlose Version von Aspose.Cells?
+Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Funktionen vor dem Kauf erkunden können.
 
- Ja, Sie können mit dem ein Passwort festlegen`Password` Eigentum der`ProtectedRange` Objekt. Dadurch wird der Zugriff nur auf Benutzer mit Passwort beschränkt.
-
-#### 3. Wie schütze ich die Tabelle, nachdem die zulässigen Bereiche festgelegt wurden?
-
- Benutzen Sie die`Protect` Methode der`Worksheet` Objekt zum Schutz des Arbeitsblatts. Dadurch wird verhindert, dass Änderungen außerhalb der zulässigen Bereiche erfolgen und möglicherweise zur Eingabe eines Kennworts aufgefordert werden, sofern Sie eines angegeben haben.
+### Wo finde ich weitere Informationen zu Aspose.Cells?
+ Sie können die[Dokumentation](https://reference.aspose.com/cells/net/) für detaillierte Anleitungen und Referenzen.

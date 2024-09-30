@@ -1,107 +1,143 @@
 ---
-title: Nhận kích thước trang
-linktitle: Nhận kích thước trang
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tìm hiểu cách truy xuất kích thước trang trong Excel bằng Aspose.Cells for .NET. Hướng dẫn từng bước với mã nguồn trong C#.
+title: Nhận Kích thước Trang
+linktitle: Nhận Kích thước Trang
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách lấy kích thước trang bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển làm việc với các tệp Excel.
 type: docs
 weight: 40
 url: /vi/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Excel theo chương trình. Nó cung cấp nhiều tính năng để thao tác với tài liệu Excel, bao gồm khả năng lấy kích thước trang. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để truy xuất kích thước trang bằng Aspose.Cells cho .NET.
+## Giới thiệu
 
-## Bước 1: Tạo một thể hiện của lớp Workbook
+Khi nói đến việc xử lý bảng tính trong các ứng dụng .NET, thư viện Aspose.Cells nổi bật như một công cụ mạnh mẽ cho phép các nhà phát triển dễ dàng thao tác các tệp Excel. Nhưng làm thế nào để bạn có được kích thước trang cho nhiều kích cỡ giấy khác nhau bằng thư viện mạnh mẽ này? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước trong quy trình, đảm bảo rằng bạn không chỉ hiểu rõ hơn về cách hoạt động của Aspose.Cells mà còn trở nên thành thạo khi sử dụng nó trong các dự án của mình. 
 
-Để bắt đầu, chúng ta cần tạo một thể hiện của lớp Workbook, đại diện cho sổ làm việc Excel. Điều này có thể đạt được bằng cách sử dụng đoạn mã sau:
+## Điều kiện tiên quyết 
+
+Trước khi đi sâu vào phần mã hóa, bạn cần chuẩn bị một số điều sau để có thể thực hiện hiệu quả:
+
+### Studio trực quan
+Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và thực thi mã .NET của mình.
+
+### Thư viện Aspose.Cells
+Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể lấy nó từ:
+-  Liên kết tải xuống:[Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/)
+
+### Kiến thức cơ bản về C#
+Sẽ rất có lợi nếu bạn có hiểu biết cơ bản về C#. Hướng dẫn này sẽ sử dụng các khái niệm lập trình cơ bản dễ hiểu.
+
+Bạn đã sẵn sàng chưa? Hãy bắt đầu thôi!
+
+## Nhập gói
+
+Bước đầu tiên trong hành trình của chúng ta là nhập các gói Aspose.Cells cần thiết vào dự án C# của chúng ta. Sau đây là cách bạn có thể thực hiện:
+
+### Tạo một dự án mới
+
+ Mở Visual Studio và tạo một dự án C# Console Application mới. Bạn có thể đặt tên bất kỳ theo ý thích, chúng ta hãy bắt đầu với`GetPageDimensions`.
+
+### Thêm tài liệu tham khảo
+
+Để sử dụng Aspose.Cells, bạn cần thêm tham chiếu đến thư viện:
+- Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
+- Chọn “Quản lý gói NuGet”.
+- Tìm kiếm “Aspose.Cells” và cài đặt.
+
+### Thêm Sử dụng Chỉ thị
+
+ Ở đầu trang của bạn`Program.cs` tệp, chèn lệnh này để truy cập chức năng Aspose.Cells:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Bây giờ chúng ta đã nhập các gói cần thiết, bạn đã sẵn sàng rồi! 
+
+Bây giờ chúng ta hãy cùng khám phá cách lấy kích thước của nhiều kích cỡ giấy khác nhau bằng cách thực hiện từng bước. 
+
+## Bước 1: Tạo một phiên bản của lớp Workbook
+
+Điều đầu tiên bạn cần làm là tạo một thể hiện của lớp Workbook từ Aspose.Cells. Lớp này biểu diễn một tệp Excel.
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## Bước 2: Truy cập bảng tính
+Ở đây, chúng ta chỉ cần tạo một bảng tính mới để lưu trữ dữ liệu và cấu hình bảng tính của chúng ta.
 
-Tiếp theo, chúng ta cần điều hướng đến trang tính trong sổ làm việc nơi chúng ta muốn đặt kích thước trang. Trong ví dụ này, giả sử chúng ta muốn làm việc với bảng tính đầu tiên. Chúng ta có thể truy cập nó bằng mã sau:
+## Bước 2: Truy cập vào Bảng tính đầu tiên
+
+Sau khi tạo một phiên bản của sổ làm việc, bạn sẽ muốn truy cập vào trang tính đầu tiên. Mỗi sổ làm việc có thể chứa nhiều trang tính, nhưng đối với phần trình bày này, chúng ta sẽ chỉ tập trung vào trang tính đầu tiên.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## Bước 3: Đặt khổ giấy thành A2 và in chiều rộng và chiều cao tính bằng inch
+Dòng này lấy bảng tính đầu tiên, cho phép chúng ta thiết lập kích thước giấy và lấy kích thước tương ứng của chúng.
 
-Bây giờ chúng ta sẽ đặt khổ giấy thành A2 và in chiều rộng và chiều cao của trang tính bằng inch. Điều này có thể đạt được bằng cách sử dụng đoạn mã sau:
+## Bước 3: Thiết lập kích thước giấy thành A2 và lấy kích thước
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Bước 4: Đặt khổ giấy thành A3 và in chiều rộng và chiều cao tính bằng inch
-
-Tiếp theo, chúng ta sẽ đặt khổ giấy thành A3 và in chiều rộng và chiều cao của trang tính bằng inch. Đây là mã tương ứng:
+Bây giờ là lúc thiết lập kích thước giấy và lấy kích thước! Chúng ta bắt đầu với kích thước giấy A2.
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Bước 5: Đặt khổ giấy thành A4 và in chiều rộng và chiều cao tính bằng inch
-
-Bây giờ chúng ta sẽ đặt khổ giấy thành A4 và in chiều rộng và chiều cao của trang tính bằng inch. Đây là mã:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Bước 6: Đặt khổ giấy thành Letter và in chiều rộng và chiều cao tính bằng inch
-
-Cuối cùng, chúng ta sẽ đặt khổ giấy thành Letter và in chiều rộng và chiều cao của trang tính bằng inch. Đây là mã:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### Mã nguồn mẫu để Nhận kích thước trang bằng Aspose.Cells cho .NET 
-```csharp
-// Tạo một thể hiện của lớp Workbook
-Workbook book = new Workbook();
-// Truy cập bảng tính đầu tiên
-Worksheet sheet = book.Worksheets[0];
-// Đặt khổ giấy thành A2 và in chiều rộng và chiều cao của giấy tính bằng inch
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Đặt khổ giấy thành A3 và in chiều rộng và chiều cao của giấy tính bằng inch
+```
+
+Mã này đặt kích thước giấy thành A2 và ngay lập tức xuất ra chiều rộng và chiều cao. Vẻ đẹp của Aspose.Cells nằm ở sự đơn giản của nó!
+
+## Bước 4: Lặp lại cho các kích thước giấy khác
+
+Bạn sẽ muốn lặp lại quy trình này cho các kích thước giấy khác như A3, A4 và Letter. Sau đây là cách bạn có thể thực hiện:
+
+Đối với A3:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Đặt khổ giấy thành A4 và in chiều rộng và chiều cao của giấy tính bằng inch
+```
+
+Đối với A4:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Đặt khổ giấy thành Letter và in chiều rộng và chiều cao của giấy tính bằng inch
+```
+
+Đối với Thư:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## Bước 5: Kết luận của Đầu ra
+
+Cuối cùng, bạn sẽ muốn xác nhận toàn bộ hoạt động đã hoàn tất thành công. Bạn chỉ cần ghi lại trạng thái này vào bảng điều khiển:
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã học cách truy xuất kích thước trang bằng Aspose.Cells cho .NET. Tính năng này có thể hữu ích khi bạn cần thực hiện các thao tác cụ thể dựa trên kích thước trang trong tệp Excel của mình.
+Xin chúc mừng! Bây giờ bạn đã học thành công cách lấy kích thước trang cho các kích thước giấy khác nhau bằng Aspose.Cells cho .NET. Cho dù bạn đang phát triển các công cụ báo cáo, bảng tính tự động hay các chức năng phân tích dữ liệu, khả năng lấy kích thước trang cho nhiều định dạng khác nhau có thể vô cùng hữu ích. 
 
-Đừng quên khám phá thêm tài liệu của Aspose.Cells để khám phá tất cả các tính năng mạnh mẽ mà nó cung cấp.
+## Câu hỏi thường gặp
 
-### Câu hỏi thường gặp
+### Aspose.Cells là gì?
+Aspose.Cells là thư viện .NET được sử dụng để tạo, xử lý và chuyển đổi các tệp Excel mà không cần đến Microsoft Excel.
 
-#### 1. Aspose.Cells for .NET hỗ trợ những khổ giấy nào khác?
+### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?
+Không, Aspose.Cells là một thư viện độc lập và không yêu cầu phải cài đặt Excel.
 
-Aspose.Cells for .NET hỗ trợ nhiều khổ giấy khác nhau bao gồm A1, A5, B4, B5, Executive, Legal, Letter và nhiều khổ giấy khác. Bạn có thể kiểm tra tài liệu để biết danh sách đầy đủ các khổ giấy được hỗ trợ.
+### Tôi có thể tìm thêm ví dụ về Aspose.Cells ở đâu?
+ Bạn có thể xem tài liệu ở đây:[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
 
-#### 2. Tôi có thể đặt kích thước trang tùy chỉnh bằng Aspose.Cells cho .NET không?
+### Có phiên bản dùng thử miễn phí của Aspose.Cells không?
+ Có! Bạn có thể nhận phiên bản dùng thử miễn phí từ:[Dùng thử miễn phí Aspose.Cells](https://releases.aspose.com/).
 
-Có, bạn có thể đặt kích thước trang tùy chỉnh bằng cách chỉ định chiều rộng và chiều cao mong muốn. Aspose.Cells cung cấp đầy đủ tính linh hoạt để tùy chỉnh kích thước trang theo nhu cầu của bạn.
-
-#### 3. Tôi có thể lấy kích thước trang theo đơn vị khác inch không?
-
-Có, Aspose.Cells for .NET cho phép bạn lấy kích thước trang theo các đơn vị khác nhau, bao gồm inch, cm, milimét và điểm.
-
-#### 4. Aspose.Cells for .NET có hỗ trợ các tính năng chỉnh sửa cài đặt trang khác không?
-
-Có, Aspose.Cells cung cấp đầy đủ các tính năng để chỉnh sửa cài đặt trang, bao gồm cài đặt lề, hướng, đầu trang và chân trang, v.v.
+### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
+ Bạn có thể nhận trợ giúp bằng cách truy cập diễn đàn hỗ trợ Aspose:[Hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9).

@@ -1,105 +1,126 @@
 ---
-title: Perbarui Item Rumus Power Query
-linktitle: Perbarui Item Rumus Power Query
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Pelajari cara memperbarui elemen rumus Power Query dalam file Excel menggunakan Aspose.Cells untuk .NET.
+title: Memperbarui Item Rumus Power Query
+linktitle: Memperbarui Item Rumus Power Query
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Memperbarui item rumus Power Query di Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk menyederhanakan proses manipulasi data Anda.
 type: docs
 weight: 160
 url: /id/net/excel-workbook/update-power-query-formula-item/
 ---
-Memperbarui item rumus Power Query adalah operasi umum saat bekerja dengan data dalam file Excel. Dengan Aspose.Cells untuk .NET, Anda dapat dengan mudah memperbarui item rumus Power Query dengan mengikuti langkah-langkah berikut:
+## Perkenalan
 
-## Langkah 1: Tentukan direktori sumber dan keluaran
+Jika Anda pernah bekerja dengan Excel, Anda tahu betapa hebatnya Excel—terutama saat Anda mulai mendalami Power Query. Ini adalah resep rahasia yang memungkinkan Anda mengubah, membersihkan, dan menganalisis data dengan mudah. Salah satu cara praktis untuk memanipulasi rumus Power Query di Excel adalah melalui Aspose.Cells untuk .NET. Hari ini, kami akan memandu Anda memperbarui item rumus Power Query langkah demi langkah. Jadi, ambil topi koding Anda, dan mari kita mulai!
 
-Pertama, Anda perlu menentukan direktori sumber tempat file Excel yang berisi rumus Power Query yang akan diperbarui berada, serta direktori keluaran tempat Anda ingin menyimpan file yang dimodifikasi. Berikut cara melakukannya menggunakan Aspose.Cells:
+## Prasyarat
 
-```csharp
-// direktori sumber
-string SourceDir = RunExamples.Get_SourceDirectory();
+Sebelum Anda masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
-// Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: Anda memerlukan lingkungan pengembangan terpadu (IDE) untuk menulis dan menjalankan kode .NET. Visual Studio adalah pilihan terbaik.
+2.  Pustaka Aspose.Cells: Pastikan Anda memiliki pustaka Aspose.Cells yang tersedia dalam proyek Anda. Anda dapat mengunduhnya dari[lokasi](https://releases.aspose.com/cells/net/).
+3. Pengetahuan Dasar C#: Saat kita membahas ini bersama-sama, memiliki pemahaman mendasar tentang C# tentu akan membantu, terutama saat menjelajahi berbagai kelas dan metode.
+4. Contoh File Excel: Anda akan memerlukan file Excel yang disebutkan dalam cuplikan kode. Pastikan Anda memiliki:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## Langkah 2: Muat buku kerja Excel sumber
+5. .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang kompatibel.
 
-Selanjutnya, Anda perlu memuat buku kerja Excel sumber tempat Anda ingin memperbarui item rumus Power Query. Berikut cara melakukannya:
+Sekarang perlengkapan kita sudah siap, kita dapat melanjutkan ke bagian yang menyenangkan: menulis kode!
 
-```csharp
-// Muat buku kerja Excel sumber
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## Paket Impor
 
-## Langkah 3: Telusuri dan Perbarui Item Rumus Power Query
-
-Setelah memuat buku kerja, Anda bisa menavigasi ke kumpulan rumus Power Query dan menelusuri setiap rumus dan elemennya. Dalam contoh ini, kita mencari item rumus dengan nama "Sumber" dan memperbarui nilainya. Berikut ini contoh kode untuk memperbarui item rumus Power Query:
+Pertama-tama, Anda perlu mengimpor namespace yang diperlukan. Berikut cara melakukannya:
 
 ```csharp
-// Akses kumpulan rumus Power Query
-DataMashup mashupData = workbook.DataMashup;
-
-// Ulangi rumus Power Query dan elemennya
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## Langkah 4: Simpan buku kerja Excel keluaran
+Dengan menambahkan namespace ini, Anda memberi tahu kompiler bahwa Anda bermaksud menggunakan kelas dan metode dari pustaka Aspose.Cells. Langkah ini penting karena meletakkan dasar bagi kode yang mengikutinya.
 
-Setelah Anda memperbarui item rumus Power Query, Anda bisa menyimpan buku kerja Excel yang dimodifikasi ke direktori output yang ditentukan. Berikut cara melakukannya:
+Mari kita bahas cuplikan kode yang Anda berikan. Tutorial ini akan memandu Anda melalui setiap bagian, memastikan Anda memahami apa yang sedang terjadi.
 
-```csharp
-// Simpan buku kerja Excel keluaran
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## Langkah 1: Siapkan Direktori Kerja
 
-### Contoh kode sumber untuk Memperbarui Item Rumus Power Query menggunakan Aspose.Cells untuk .NET 
+Pada langkah ini, kita akan menentukan di mana file sumber dan output kita berada. Ini memastikan bahwa Aspose tahu di mana mencari file Excel Anda.
+
 ```csharp
 // Direktori kerja
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Di sini, kami menggunakan metode hipotetis`RunExamples.Get_SourceDirectory()` untuk mengambil jalur ke file sumber kami. Demikian pula,`RunExamples.Get_OutputDirectory()` mendapatkan jalur tempat kita akan menyimpan output. Pastikan metode ini mengembalikan jalur yang valid pada komputer Anda.
+
+## Langkah 2: Muat Buku Kerja
+
+Sekarang, mari muat berkas Excel tempat Power Query berada.
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ Itu`Workbook`class adalah titik masuk Anda ke berkas Excel. Dengan meneruskan jalur berkas sumber, kita menciptakan contoh yang memungkinkan kita untuk memanipulasinya. Anda dapat membayangkannya seperti membuka buku—Anda bersiap untuk membaca (atau mengedit) isinya.
+
+## Langkah 3: Akses Data Mashup
+
+Berikutnya, kita akan mengakses rumus Power Query yang disimpan dalam Data Mashup buku kerja.
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ Itu`DataMashup` kelas berisi semua rumus Power Query yang terkait dengan buku kerja Anda. Di sinilah kita akan melakukan pekerjaan berat, seperti saat Anda membuka kotak peralatan untuk perbaikan.
+
+## Langkah 4: Ulangi Rumus Power Query
+
+Sekarang tibalah saatnya kita mengulangi rumus Power Query untuk menemukan rumus spesifik yang ingin kita perbarui.
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
+```
+
+-  Kami mengulang setiap`PowerQueryFormula` di dalam`mashupData`.
+-  Dalam lingkaran itu, kita menyelami masing-masing`PowerQueryFormulaItem`.
+- Kami memeriksa apakah nama item tersebut cocok dengan "Sumber". Jika cocok, kami memperbarui nilainya untuk menautkan ke berkas sumber baru kami.
+
+Ini mirip dengan menemukan halaman yang tepat dalam sebuah manual dan kemudian membuat pembaruan yang diperlukan—ini adalah proses yang mudah dan teliti.
+
+## Langkah 5: Simpan Buku Kerja yang Diperbarui
+
+Setelah melakukan pembaruan, waktunya menyimpan perubahan.
+
+```csharp
 // Simpan buku kerja keluaran.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ Itu`Save` metode menulis buku kerja yang diperbarui ke direktori keluaran yang ditentukan. Ini seperti menyegel suntingan Anda dalam versi baru manual, siap digunakan orang lain!
 
 ## Kesimpulan
 
-Memperbarui elemen rumus Power Query merupakan operasi penting saat menggunakan Aspose.Cells untuk memanipulasi dan memproses data dalam file Excel. Dengan mengikuti langkah-langkah yang diberikan di atas, Anda dapat dengan mudah memperbarui elemen rumus
+Selamat! Anda telah berhasil memperbarui item rumus Power Query menggunakan Aspose.Cells for .NET. Dengan metode ini, Anda dapat mengotomatiskan modifikasi rumus Power Query dalam file Excel Anda, sehingga menghemat waktu dan tenaga Anda.
 
-### FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T: Apa itu Power Query di Excel?
-     
-J: Power Query adalah fitur di Excel yang membantu mengumpulkan, mengubah, dan memuat data dari berbagai sumber. Ia menawarkan alat canggih untuk membersihkan, menggabungkan, dan membentuk ulang data sebelum mengimpornya ke Excel.
+### Apa itu Aspose.Cells?
+Aspose.Cells adalah pustaka yang hebat untuk memanipulasi file Excel dalam aplikasi .NET tanpa perlu menginstal Microsoft Excel.
 
-#### T: Bagaimana cara mengetahui apakah item rumus Power Query berhasil diperbarui?
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### Apakah saya perlu Microsoft Excel untuk menjalankan Aspose.Cells?
+Tidak, Aspose.Cells memungkinkan Anda membuat dan mengedit file Excel secara terprogram tanpa memerlukan Excel di server atau mesin pengembangan Anda.
 
-#### T: Bisakah saya memperbarui beberapa item rumus Power Query sekaligus?
-    
-J: Ya, Anda bisa mengulang kumpulan item rumus Power Query dan memperbarui beberapa item dalam satu putaran, bergantung pada kebutuhan spesifik Anda.
+### Jenis file Excel apa yang dapat saya gunakan menggunakan Aspose.Cells?
+Anda dapat bekerja dengan .xlsx, .xls, .xlsm, dan beberapa format Excel lainnya menggunakan Aspose.Cells.
 
-#### T: Apakah ada operasi lain yang bisa saya lakukan pada rumus Power Query dengan Aspose.Cells?
-    
-J: Ya, Aspose.Cells menawarkan serangkaian fitur lengkap untuk bekerja dengan rumus Power Query, termasuk membuat, menghapus, menyalin, dan mencari rumus di buku kerja Excel.
+### Apakah ada versi uji coba yang tersedia untuk Aspose.Cells?
+ Ya, Anda dapat mengunduh versi uji coba gratis dari[Halaman rilis Aspose Cells](https://releases.aspose.com/).
+
+### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
+ Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9), tempat Anda dapat mengajukan pertanyaan dan mendapatkan jawaban dari komunitas dan tim Aspose.

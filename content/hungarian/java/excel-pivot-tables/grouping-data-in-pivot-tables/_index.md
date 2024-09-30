@@ -32,7 +32,7 @@ sourceData.endRow = 19; // 20 sornyi adatot feltételezve
 sourceData.startColumn = 0;
 sourceData.endColumn = 3; // 4 oszlopos adatot feltételezve
 
-// Hozzon létre egy kimutatási táblát az adattartomány alapján
+// Hozzon létre egy kimutatástáblát az adattartomány alapján
 int index = worksheet.getPivotTables().add(sourceData, "A1", "PivotTable1");
 
 // Szerezze le a pivot táblát index szerint
@@ -52,7 +52,7 @@ workbook.save("output.xlsx");
 
 ## 2. lépés: Csoportosítsa az adatokat
 
- Az Aspose.Cells for Java programban a pivot táblán belül csoportosíthatja az adatokat a segítségével`PivotField` osztály. Íme egy példa egy mező csoportosítására a kimutatástáblában:
+ Az Aspose.Cells for Java alkalmazásban a pivot táblán belül csoportosíthatja az adatokat a következővel`PivotField` osztály. Íme egy példa egy mező csoportosítására a kimutatástáblában:
 
 ```java
 // Nyissa meg a „Termék” mezőt a kimutatásban
@@ -93,7 +93,7 @@ Az adatok pivot táblákban történő csoportosítása értékes technika az ad
 
 ### 1. Mi a célja a pivot tábláknak az Excelben?
 
-Az Excel kimutatásai nagy adatkészletek összegzésére és elemzésére szolgálnak. Lehetővé teszik az adatok egyéni nézeteinek létrehozását, megkönnyítve a minták és trendek azonosítását.
+Az Excel kimutatástáblái nagy adatkészletek összegzésére és elemzésére szolgálnak. Lehetővé teszik az adatok egyéni nézeteinek létrehozását, megkönnyítve a minták és trendek azonosítását.
 
 ### 2. Hogyan szabhatom testre az adatok csoportosítását egy pivot táblában?
 

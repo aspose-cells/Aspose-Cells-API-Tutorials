@@ -8,9 +8,9 @@ weight: 18
 url: /hu/java/excel-pivot-tables/customizing-pivot-table-styles/
 ---
 
-A kimutatástáblák hatékony eszközök az adatok táblázatokban történő összegzésére és elemzésére. Az Aspose.Cells for Java API-val nemcsak pivot táblákat hozhat létre, hanem azok stílusát is testreszabhatja, hogy az adatmegjelenítést vizuálisan vonzóvá tegyük. Ebben a lépésről lépésre bemutatjuk, hogyan érheti el ezt a forráskód példáival.
+A kimutatástáblák hatékony eszközök az adatok táblázatokban történő összegzésére és elemzésére. Az Aspose.Cells for Java API-val nemcsak pivot táblákat hozhat létre, hanem azok stílusát is testreszabhatja, hogy az adatmegjelenítést vizuálisan vonzóvá tegye. Ebben a lépésről lépésre bemutatjuk, hogyan érheti el ezt a forráskód példáival.
 
-## Elkezdeni
+## Kezdő lépések
 
  A pivot tábla stílusok testreszabása előtt győződjön meg arról, hogy az Aspose.Cells for Java könyvtár integrálva van a projektbe. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
 

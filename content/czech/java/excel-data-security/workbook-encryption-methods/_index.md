@@ -21,7 +21,7 @@ Než se ponoříme do podrobností implementace, pojďme nejprve pochopit, co je
 Než začneme pracovat s Aspose.Cells pro Java a šifrování, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Knihovna Aspose.Cells for Java, kterou si můžete stáhnout[tady](https://releases.aspose.com/cells/java/).
+-  Knihovna Aspose.Cells for Java, kterou si můžete stáhnout[zde](https://releases.aspose.com/cells/java/).
 
 ## Začínáme
 
@@ -73,7 +73,7 @@ workbook.save("path/to/encrypted/workbook.xlsx");
 
 ## Závěr
 
-Zabezpečení sešitů aplikace Excel pomocí šifrování je zásadním krokem v ochraně citlivých dat. Aspose.Cells for Java tento proces zjednodušuje tím, že nabízí různé metody šifrování, které můžete snadno integrovat do svých aplikací Java. Ať už dáváte přednost šifrování založenému na hesle nebo pokročilému šifrování AES, Aspose.Cells vás pokryje.
+Zabezpečení sešitů aplikace Excel pomocí šifrování je zásadním krokem v ochraně citlivých dat. Aspose.Cells for Java tento proces zjednodušuje tím, že nabízí různé metody šifrování, které můžete snadno integrovat do svých aplikací Java. Ať už dáváte přednost šifrování založenému na hesle nebo pokročilému šifrování AES, Aspose.Cells vám pomůže.
 
 ## FAQ
 

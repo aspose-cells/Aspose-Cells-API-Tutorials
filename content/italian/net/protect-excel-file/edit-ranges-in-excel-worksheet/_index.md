@@ -1,145 +1,152 @@
 ---
 title: Modifica intervalli nel foglio di lavoro Excel
 linktitle: Modifica intervalli nel foglio di lavoro Excel
-second_title: Aspose.Cells per riferimento API .NET
-description: Impara a modificare intervalli specifici in un foglio di calcolo Excel con Aspose.Cells per .NET. Tutorial passo passo in C#.
+second_title: Riferimento API Aspose.Cells per .NET
+description: Impara a modificare gli intervalli nei fogli di lavoro di Excel utilizzando Aspose.Cells per .NET con questa guida completa con istruzioni dettagliate.
 type: docs
 weight: 20
 url: /it/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 ---
-Microsoft Excel è un potente strumento per creare e gestire fogli di calcolo, offrendo molte funzionalità per controllare e proteggere i dati. Una di queste funzionalità è consentire agli utenti di modificare intervalli specifici in un foglio di lavoro proteggendo al contempo altre parti. In questo tutorial, ti guideremo passo dopo passo per implementare questa funzionalità utilizzando Aspose.Cells per .NET, una libreria popolare per lavorare con file Excel a livello di codice.
+## Introduzione
 
-L'utilizzo di Aspose.Cells per .NET ti consentirà di manipolare facilmente gli intervalli in un foglio di calcolo Excel, fornendo un'interfaccia intuitiva e funzionalità avanzate. Seguire i passaggi seguenti per consentire agli utenti di modificare intervalli specifici in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET.
-## Passaggio 1: configurazione dell'ambiente
+Quando si tratta di modificare fogli di calcolo Excel, una delle funzionalità più potenti che torna utile è la possibilità di proteggere determinate aree consentendo modifiche in altre. Ciò può essere incredibilmente utile in ambienti collaborativi in cui più utenti hanno bisogno di accedere ma devono modificare solo celle designate. Oggi, approfondiremo come sfruttare Aspose.Cells per .NET per gestire intervalli modificabili all'interno di un foglio di lavoro Excel. Quindi, prendi la tua bevanda di programmazione preferita e iniziamo!
 
-Assicurati di avere Aspose.Cells per .NET installato nel tuo ambiente di sviluppo. Scarica la libreria dal sito Web ufficiale di Aspose e controlla la documentazione per le istruzioni di installazione.
+## Prerequisiti
 
-## Passaggio 2: inizializzazione della cartella di lavoro e del foglio di lavoro
+Prima di buttarci nella codifica, assicuriamoci che tutto sia pronto. Ecco cosa ti serve:
 
-Per iniziare, dobbiamo creare una nuova cartella di lavoro e ottenere il riferimento al foglio di lavoro in cui vogliamo consentire la modifica degli intervalli. Utilizzare il seguente codice per ottenere ciò:
+1. Visual Studio: assicurati di avere Visual Studio installato. La community edition funziona perfettamente.
+2.  Libreria Aspose.Cells: hai bisogno della libreria Aspose.Cells per .NET. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
+3. Conoscenza di base del linguaggio C#: una conoscenza di base del linguaggio C# sarà molto utile.
+4. Impostazione del progetto: creare una nuova applicazione console C# in Visual Studio.
+
+Flawless: sei pronto! Ora, tuffiamoci nei dettagli del codice.
+
+## Importa pacchetti
+
+Una volta impostato il progetto, il primo passo consiste nell'importare il namespace Aspose.Cells necessario. Per farlo, basta includere la seguente riga in cima al file di codice:
 
 ```csharp
-// Percorso della directory dei documenti.
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-// Crea la directory se non esiste già.
-bool exists = System.IO.Directory.Exists(dataDir);
-if (! exists)
-     System.IO.Directory.CreateDirectory(dataDir);
-
-// Creare un'istanza di una nuova cartella di lavoro
-Workbook workbook = new Workbook();
-
-// Ottieni il primo foglio di lavoro (impostazione predefinita)
-Worksheet sheet = workbook.Worksheets[0];
+using Aspose.Cells;
 ```
 
- In questo frammento di codice definiamo innanzitutto il percorso della directory in cui verrà salvato il file Excel. Successivamente, creiamo una nuova istanza di`Workbook` class e ottieni il riferimento al primo foglio di lavoro utilizzando il file`Worksheets` proprietà.
+Ciò ti consentirà di accedere a tutte le funzionalità fornite da Aspose.Cells nel tuo progetto.
 
-## Passaggio 3: ottieni intervalli modificabili
+## Passaggio 1: impostare la directory
 
-Ora dobbiamo recuperare gli intervalli in cui vogliamo consentire la modifica. Utilizza il seguente codice:
+Prima di iniziare a lavorare con i file Excel, è una buona idea stabilire una directory in cui risiederanno i tuoi file. Questo passaggio assicura che la tua applicazione sappia dove leggere e scrivere i dati.
 
-```csharp
-// Ottieni gli intervalli modificabili
-ProtectedRangeCollection EditableRanges = Sheet.AllowEditRanges;
-```
-
-## Passaggio 4: imposta l'intervallo protetto
-
-Prima di consentire la modifica degli intervalli, è necessario definire un intervallo protetto. Ecco come:
+Diamo un'occhiata al codice per creare una directory (se non esiste già):
 
 ```csharp
-// Definire un intervallo protetto
-ProtectedRange ProtectedRange;
-
-// Crea l'intervallo
-int index = ModifiableRanges.Add("r2", 1, 1, 3, 3);
-rangeProtected = rangesEditable[index];
-```
-
- In questo codice creiamo una nuova istanza di`ProtectedRange` classe e utilizzare il file`Add` metodo per specificare l'intervallo da proteggere.
-
-## Passaggio 5: specificare la password
-
-Per migliorare la sicurezza, è possibile specificare una password per l'intervallo protetto. Ecco come:
-
-```csharp
-// Specificare la password
-protectedBeach.Password = "YOUR_PASSWORD";
-```
-
-## Passaggio 6: proteggere il foglio di lavoro
-
-Ora che abbiamo impostato l'intervallo protetto, possiamo proteggere il foglio di lavoro per impedire modifiche non autorizzate. Utilizza il seguente codice:
-
-```csharp
-// Proteggi il foglio di lavoro
-leaf.Protect(ProtectionType.All);
-```
-
-## Passaggio 7: salva il file Excel
-
-Infine, salviamo il file Excel con le modifiche apportate. Ecco il codice necessario:
-
-```csharp
-// Salva il file Excel
-workbook.Save(dataDir + "protectedrange.out.xls");
-```
-
-### Codice sorgente di esempio per Modifica intervalli nel foglio di lavoro Excel utilizzando Aspose.Cells per .NET 
-```csharp
-//Il percorso della directory dei documenti.
+// Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crea directory se non è già presente.
+// Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
+```
 
-// Creare un'istanza di una nuova cartella di lavoro
+ Sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso in cui vuoi archiviare i tuoi file. Potrebbe essere qualcosa del tipo`@"C:\ExcelFiles\"`.
+
+## Passaggio 2: creare una nuova cartella di lavoro
+
+Ora che la tua directory è pronta, creiamo una nuova cartella di lavoro Excel. È come accendere una tela bianca prima di iniziare a dipingere.
+
+```csharp
+// Crea un'istanza di una nuova cartella di lavoro
 Workbook book = new Workbook();
+```
 
-// Ottieni il primo foglio di lavoro (predefinito).
+Con questo, il tuo quaderno di lavoro vuoto è pronto per essere utilizzato!
+
+## Passaggio 3: Ottieni il primo foglio di lavoro
+
+Ogni cartella di lavoro contiene almeno un foglio di lavoro di default. Devi recuperare quel foglio di lavoro per eseguire operazioni su di esso.
+
+```csharp
+// Ottieni il primo foglio di lavoro (predefinito)
 Worksheet sheet = book.Worksheets[0];
+```
 
+Qui accediamo al primo foglio di lavoro, che è simile all'apertura di un nuovo foglio di carta nel tuo quaderno.
+
+## Passaggio 4: Ottieni gli intervalli di modifica consentiti
+
+Prima di poter impostare gli intervalli modificabili, dobbiamo recuperare la raccolta di intervalli protetti dal nostro foglio di lavoro.
+
+```csharp
 // Ottieni gli intervalli di modifica consentiti
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
+```
 
-// Definire l'intervallo protetto
+Questa riga recupera la collezione in cui gestirai i tuoi range protetti. È bene sapere cosa c'è di disponibile sotto il cofano!
+
+## Passaggio 5: definire e creare un intervallo protetto
+
+questo punto, siamo pronti a definire in quale intervallo vuoi consentire le modifiche. Creiamo questo intervallo.
+
+```csharp
+// Definisci ProtectedRange
 ProtectedRange proteced_range;
 
 // Crea l'intervallo
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
+```
 
+Nel codice sopra, stiamo creando un intervallo protetto denominato "r2" che consente la modifica nelle celle dalla riga 1, colonna 1 alla riga 3, colonna 3 (che nel gergo di Excel si traduce in un blocco da A1 a C3). È possibile modificare questi indici in base alle proprie esigenze.
+
+## Passaggio 6: imposta una password 
+
+Impostando una password per l'intervallo protetto si garantisce che solo coloro che hanno la password possano modificare l'area definita. Questo passaggio aumenta la sicurezza del tuo foglio di calcolo.
+
+```csharp
 // Specificare la password
 proteced_range.Password = "YOUR_PASSWORD";
+```
 
+ Sostituire`"YOUR_PASSWORD"` con una password a tua scelta. Ricorda solo di non semplificare troppo le cose: pensa a chiudere a chiave il tuo forziere del tesoro!
+
+## Passaggio 7: proteggere il foglio
+
+Ora che abbiamo definito e protetto con una password il nostro intervallo modificabile, è il momento di proteggere l'intero foglio di lavoro.
+
+```csharp
 // Proteggi il foglio
 sheet.Protect(ProtectionType.All);
+```
 
-// Salva il file Excel
+Invocando questo metodo, stai essenzialmente mettendo un blocco sull'intero foglio di lavoro. Solo gli intervalli definiti per la modifica possono essere modificati.
+
+## Passaggio 8: salvare il file Excel
+
+Siamo finalmente giunti all'ultimo passaggio del nostro tutorial: salvare la cartella di lavoro nella directory definita!
+
+```csharp
+// Salvare il file Excel
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+ Questo salverà la tua cartella di lavoro protetta come`protectedrange.out.xls` nella directory specificata.
+
 ## Conclusione
 
-Congratulazioni! Hai imparato come consentire agli utenti di modificare intervalli specifici in un foglio di calcolo Excel utilizzando Aspose.Cells per .NET. Ora puoi applicare questa tecnica ai tuoi progetti e migliorare la sicurezza dei tuoi file Excel.
+Ed ecco fatto! Hai creato con successo un foglio di lavoro Excel usando Aspose.Cells per .NET, definito intervalli modificabili, impostato una password e protetto il foglio, il tutto in pochi semplici passaggi. Ora puoi condividere la tua cartella di lavoro con i colleghi, migliorando la collaborazione e mantenendo al sicuro i dati essenziali.
 
+## Domande frequenti
 
-#### Domande frequenti
+### Che cos'è Aspose.Cells?  
+Aspose.Cells è una potente libreria .NET che consente agli sviluppatori di creare, manipolare e convertire file Excel a livello di programmazione.
 
-#### D: Perché dovrei utilizzare Aspose.Cells per .NET per modificare gli intervalli in un foglio di calcolo Excel?
+### Posso proteggere celle specifiche in un foglio di lavoro Excel?  
+Sì, utilizzando Aspose.Cells è possibile definire intervalli modificabili specifici e proteggere il resto del foglio di lavoro.
 
-R: Aspose.Cells per .NET offre un'API potente e facile da usare per lavorare con file Excel. Fornisce funzionalità avanzate, come la manipolazione della gamma, la protezione del foglio di lavoro, ecc.
+### Esiste una versione di prova disponibile per Aspose.Cells?  
+ Assolutamente! Puoi scaricare una prova gratuita[Qui](https://releases.aspose.com/).
 
-#### D: Posso impostare più intervalli modificabili in un foglio di lavoro?
+### Posso usare Aspose.Cells con altri linguaggi di programmazione?  
+Sebbene questo tutorial si concentri su .NET, Aspose.Cells è disponibile per diversi linguaggi di programmazione, tra cui Java e Cloud API.
 
- R: Sì, puoi definire più intervalli modificabili utilizzando`Add` metodo del`ProtectedRangeCollection` collezione. Ciascun intervallo può avere le proprie impostazioni di protezione.
-
-####  D: È possibile eliminare un intervallo modificabile dopo averlo definito?
-
- R: Sì, puoi utilizzare il`RemoveAt` metodo del`ProtectedRangeCollection` collection per rimuovere un intervallo modificabile specifico specificandone l'indice.
-
-#### D: Come posso aprire il file Excel protetto dopo averlo salvato?
-
-R: Sarà necessario fornire la password specificata durante la creazione dell'intervallo protetto per aprire il file Excel protetto. Assicurati di conservare la password in un luogo sicuro per evitare di perdere l'accesso ai dati.
+### Dove posso trovare maggiori informazioni su Aspose.Cells?  
+Puoi esplorare la documentazione completa[Qui](https://reference.aspose.com/cells/net/).

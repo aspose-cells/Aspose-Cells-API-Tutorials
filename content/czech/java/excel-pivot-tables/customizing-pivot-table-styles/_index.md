@@ -12,7 +12,7 @@ Kontingenční tabulky jsou výkonné nástroje pro sumarizaci a analýzu dat v 
 
 ## Začínáme
 
- Před přizpůsobením stylů kontingenční tabulky se ujistěte, že máte do projektu integrovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+ Před přizpůsobením stylů kontingenční tabulky se ujistěte, že máte do projektu integrovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Vytvořte kontingenční tabulku
 
@@ -61,7 +61,7 @@ workbook.save("output.xlsx");
 
 ## Závěr
 
-Přizpůsobení stylů kontingenční tabulky v Aspose.Cells for Java API je přímočaré a umožňuje vám vytvářet vizuálně ohromující sestavy a prezentace vašich dat. Experimentujte s různými styly a nechte své kontingenční stoly vyniknout.
+Přizpůsobení stylů kontingenčních tabulek v Aspose.Cells for Java API je přímočaré a umožňuje vám vytvářet vizuálně úžasné sestavy a prezentace vašich dat. Experimentujte s různými styly a nechte své kontingenční stoly vyniknout.
 
 ## Nejčastější dotazy
 

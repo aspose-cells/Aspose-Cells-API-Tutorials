@@ -1,22 +1,22 @@
 ---
 title: Tùy chỉnh kiểu bảng Pivot
 linktitle: Tùy chỉnh kiểu bảng Pivot
-second_title: API xử lý Java Excel của Aspose.Cells
-description: Tìm hiểu cách tùy chỉnh kiểu bảng tổng hợp trong Aspose.Cells cho API Java. Tạo các bảng tổng hợp hấp dẫn trực quan một cách dễ dàng.
+second_title: API xử lý Excel Java của Aspose.Cells
+description: Tìm hiểu cách tùy chỉnh kiểu bảng trục trong Aspose.Cells cho Java API. Tạo các bảng trục hấp dẫn về mặt hình ảnh một cách dễ dàng.
 type: docs
 weight: 18
 url: /vi/java/excel-pivot-tables/customizing-pivot-table-styles/
 ---
 
-Bảng tổng hợp là công cụ mạnh mẽ để tóm tắt và phân tích dữ liệu trong bảng tính. Với Aspose.Cells for Java API, bạn không chỉ có thể tạo các bảng tổng hợp mà còn có thể tùy chỉnh kiểu của chúng để làm cho bản trình bày dữ liệu của bạn trở nên hấp dẫn về mặt trực quan. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách đạt được điều này bằng các ví dụ về mã nguồn.
+Pivot table là công cụ mạnh mẽ để tóm tắt và phân tích dữ liệu trong bảng tính. Với Aspose.Cells for Java API, bạn không chỉ có thể tạo pivot table mà còn có thể tùy chỉnh kiểu của chúng để làm cho bản trình bày dữ liệu của bạn hấp dẫn về mặt trực quan. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách thực hiện điều này bằng các ví dụ về mã nguồn.
 
 ## Bắt đầu
 
- Trước khi tùy chỉnh các kiểu bảng tổng hợp, hãy đảm bảo bạn đã tích hợp thư viện Aspose.Cells for Java vào dự án của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/cells/java/).
+ Trước khi tùy chỉnh kiểu bảng trục, hãy đảm bảo bạn đã tích hợp thư viện Aspose.Cells for Java vào dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 
-## Bước 1: Tạo Bảng tổng hợp
+## Bước 1: Tạo Bảng Pivot
 
-Để bắt đầu tùy chỉnh kiểu, bạn cần có bảng tổng hợp. Đây là một ví dụ cơ bản về việc tạo một cái:
+Để bắt đầu tùy chỉnh kiểu, bạn cần một bảng trục. Sau đây là ví dụ cơ bản về cách tạo một bảng trục:
 
 ```java
 // Khởi tạo một sổ làm việc
@@ -25,27 +25,27 @@ Workbook workbook = new Workbook();
 // Truy cập bảng tính
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Tạo một bảng tổng hợp
+// Tạo một bảng trục
 PivotTableCollection pivotTables = worksheet.getPivotTables();
 int index = pivotTables.add("=A1:D6", "E3", "PivotTable1");
 PivotTable pivotTable = pivotTables.get(index);
 ```
 
-## Bước 2: Tùy chỉnh kiểu bảng Pivot
+## Bước 2: Tùy chỉnh Kiểu Bảng Pivot
 
-Bây giờ chúng ta hãy đi vào phần tùy chỉnh. Bạn có thể thay đổi nhiều khía cạnh khác nhau về kiểu của bảng tổng hợp, bao gồm phông chữ, màu sắc và định dạng. Dưới đây là ví dụ về việc thay đổi phông chữ và màu nền của tiêu đề bảng trụ:
+Bây giờ, chúng ta hãy đi vào phần tùy chỉnh. Bạn có thể thay đổi nhiều khía cạnh khác nhau của kiểu bảng trục, bao gồm phông chữ, màu sắc và định dạng. Sau đây là ví dụ về việc thay đổi phông chữ và màu nền của tiêu đề bảng trục:
 
 ```java
-// Tùy chỉnh kiểu tiêu đề bảng trụ
+// Tùy chỉnh kiểu tiêu đề bảng trục
 Style pivotTableHeaderStyle = pivotTable.getTableStyleOption().getFirstRowStyle();
 pivotTableHeaderStyle.getFont().setBold(true);
 pivotTableHeaderStyle.getFont().setColor(Color.getBlue());
 pivotTableHeaderStyle.setForegroundColor(Color.getLightGray());
 ```
 
-## Bước 3: Áp dụng Kiểu tùy chỉnh cho Bảng tổng hợp
+## Bước 3: Áp dụng Kiểu tùy chỉnh cho Bảng Pivot
 
-Sau khi tùy chỉnh kiểu, hãy áp dụng kiểu đó cho bảng tổng hợp:
+Sau khi tùy chỉnh kiểu, hãy áp dụng kiểu đó vào bảng trục:
 
 ```java
 pivotTable.setStyleType(StyleType.PIVOT_TABLE_STYLE_LIGHT_16);
@@ -53,7 +53,7 @@ pivotTable.setStyleType(StyleType.PIVOT_TABLE_STYLE_LIGHT_16);
 
 ## Bước 4: Lưu sổ làm việc
 
-Đừng quên lưu sổ làm việc của bạn để xem bảng tổng hợp tùy chỉnh:
+Đừng quên lưu bảng tính của bạn để xem bảng trục tùy chỉnh:
 
 ```java
 workbook.save("output.xlsx");
@@ -61,23 +61,23 @@ workbook.save("output.xlsx");
 
 ## Phần kết luận
 
-Việc tùy chỉnh các kiểu bảng trụ trong Aspose.Cells cho Java API rất đơn giản và cho phép bạn tạo các báo cáo và bản trình bày trực quan ấn tượng về dữ liệu của mình. Hãy thử nghiệm các phong cách khác nhau và làm cho bảng tổng hợp của bạn trở nên nổi bật.
+Tùy chỉnh kiểu bảng trục trong Aspose.Cells for Java API rất đơn giản và cho phép bạn tạo các báo cáo và bản trình bày dữ liệu trực quan tuyệt đẹp. Thử nghiệm với nhiều kiểu khác nhau và làm cho bảng trục của bạn nổi bật.
 
 ## Câu hỏi thường gặp
 
-### Tôi có thể tùy chỉnh kích thước phông chữ của dữ liệu bảng tổng hợp không?
+### Tôi có thể tùy chỉnh kích thước phông chữ của dữ liệu bảng trục không?
    Có, bạn có thể điều chỉnh kích thước phông chữ và các thuộc tính định dạng khác theo sở thích của mình.
 
-### Có các kiểu được xác định trước cho bảng trụ không?
-   Có, Aspose.Cells for Java cung cấp một số kiểu dựng sẵn để bạn lựa chọn.
+### Có các kiểu định sẵn nào dành cho bảng trục không?
+   Có, Aspose.Cells for Java cung cấp nhiều kiểu tích hợp để bạn lựa chọn.
 
-### Có thể thêm định dạng có điều kiện vào bảng tổng hợp không?
-   Hoàn toàn có thể, bạn có thể áp dụng định dạng có điều kiện để làm nổi bật dữ liệu cụ thể trong bảng tổng hợp của mình.
+### Có thể thêm định dạng có điều kiện vào bảng trục không?
+   Hoàn toàn có thể áp dụng định dạng có điều kiện để làm nổi bật dữ liệu cụ thể trong bảng tổng hợp của bạn.
 
-### Tôi có thể xuất bảng tổng hợp sang các định dạng tệp khác nhau không?
-   Aspose.Cells cho Java cho phép bạn lưu bảng tổng hợp của mình ở nhiều định dạng khác nhau, bao gồm Excel, PDF, v.v.
+### Tôi có thể xuất bảng trục sang các định dạng tệp khác không?
+   Aspose.Cells for Java cho phép bạn lưu các bảng tổng hợp ở nhiều định dạng khác nhau, bao gồm Excel, PDF, v.v.
 
-### Tôi có thể tìm thêm tài liệu về tùy chỉnh bảng tổng hợp ở đâu?
-    Bạn có thể tham khảo tài liệu API tại[Aspose.Cells cho tài liệu tham khảo API Java](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết.
+### Tôi có thể tìm thêm tài liệu về tùy chỉnh bảng trục ở đâu?
+    Bạn có thể tham khảo tài liệu API tại[Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết.
 
-Bây giờ bạn đã có kiến thức để tạo và tùy chỉnh các kiểu bảng tổng hợp trong Aspose.Cells cho Java. Khám phá sâu hơn và làm cho bản trình bày dữ liệu của bạn thực sự đặc biệt!
+Bây giờ bạn đã có kiến thức để tạo và tùy chỉnh các kiểu bảng trục trong Aspose.Cells for Java. Khám phá thêm và làm cho các bài thuyết trình dữ liệu của bạn thực sự đặc biệt!

@@ -101,7 +101,7 @@ try {
 
 Slå alltid in din kod i ett try-catch-block för att hantera undantag effektivt.
 
-## Ytterligare egenskaper
+## Ytterligare funktioner
 
 Aspose.Cells för Java erbjuder ett brett utbud av funktioner utöver vad vi har behandlat i den här artikeln. Du kan skapa diagram, pivottabeller, utföra avancerade beräkningar och mycket mer. Utforska dokumentationen för omfattande information.
 

@@ -1,6 +1,6 @@
 ---
-title: Felmeddelanden för datavalidering
-linktitle: Felmeddelanden för datavalidering
+title: Datavalideringsfelmeddelanden
+linktitle: Datavalideringsfelmeddelanden
 second_title: Aspose.Cells Java Excel Processing API
 description: Optimera dina datavalideringsfelmeddelanden med Aspose.Cells för Java. Lär dig att skapa, anpassa och förbättra användarupplevelsen.
 type: docs

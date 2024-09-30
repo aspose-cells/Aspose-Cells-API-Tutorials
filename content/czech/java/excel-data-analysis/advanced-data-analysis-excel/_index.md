@@ -8,7 +8,7 @@ weight: 12
 url: /cs/java/excel-data-analysis/advanced-data-analysis-excel/
 ---
 
-## Úvod
+## Zavedení
 
 Excel je nepochybně všestranným nástrojem pro analýzu dat, ale pokud jde o manipulaci s velkými datovými sadami, provádění složitých výpočtů a automatizaci opakujících se úloh, potřebujete specializované řešení. Aspose.Cells for Java je API založené na Javě, které umožňuje vývojářům a datovým analytikům pracovat se soubory Excelu programově a nabízí pokročilé funkce pro analýzu dat, které přesahují nativní možnosti Excelu.
 
@@ -18,7 +18,7 @@ Než se ponoříme do světa pokročilé analýzy dat s Aspose.Cells for Java, b
 
 - Základní znalost programování v Javě.
 - Vývojové prostředí nastavené s Javou a vámi preferovaným IDE.
--  Knihovna Aspose.Cells for Java, kterou si můžete stáhnout[tady](https://releases.aspose.com/cells/java/).
+-  Knihovna Aspose.Cells for Java, kterou si můžete stáhnout[zde](https://releases.aspose.com/cells/java/).
 - Excelová tabulka s ukázkovými daty pro práci.
 
 ## Nastavení Aspose.Cells pro Java
@@ -70,7 +70,7 @@ AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange(range);
 autoFilter.filter(0, "Criteria");
 
-// Spojit buňky
+// Sloučit buňky
 range.merge();
 ```
 
@@ -181,7 +181,7 @@ Aspose.Cells for Java můžete pozvednout své možnosti analýzy dat v Excelu d
 
 Chcete-li nainstalovat Aspose.Cells for Java, postupujte takto:
 
-1.  Stáhněte si knihovnu z[tady](https://releases.aspose.com/cells/java/).
+1.  Stáhněte si knihovnu z[zde](https://releases.aspose.com/cells/java/).
 2. Přidejte knihovnu do svého projektu Java.
 3. Importujte potřebné balíčky do svého kódu.
 

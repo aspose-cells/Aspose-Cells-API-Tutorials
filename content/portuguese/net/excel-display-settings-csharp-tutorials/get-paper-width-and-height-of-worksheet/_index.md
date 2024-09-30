@@ -1,60 +1,78 @@
 ---
-title: Obtenha a largura do papel e a altura da planilha
-linktitle: Obtenha a largura do papel e a altura da planilha
+title: Obter largura e altura do papel da planilha
+linktitle: Obter largura e altura do papel da planilha
 second_title: Referência da API Aspose.Cells para .NET
-description: Crie um guia passo a passo para explicar o seguinte código-fonte C# para obter a largura e a altura do papel de uma planilha usando Aspose.Cells for .NET.
+description: Aprenda como obter a largura e a altura do papel das planilhas no Aspose.Cells para .NET com um guia passo a passo simples.
 type: docs
 weight: 80
 url: /pt/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
 ---
-Neste tutorial, iremos guiá-lo passo a passo para explicar o seguinte código-fonte C# para obter a largura e a altura do papel de uma planilha usando Aspose.Cells for .NET. Siga os passos abaixo:
+## Introdução
 
-## Etapa 1: crie a pasta de trabalho
- Comece criando uma nova pasta de trabalho usando o`Workbook` aula:
+Já tentou imprimir uma planilha do Excel e lidou com as dimensões confusas de vários tamanhos de papel? Se você é como eu, sabe que nada pode estragar seu dia tanto quanto um layout que não sai certo! Quer você esteja imprimindo relatórios, faturas ou apenas uma lista simples, entender como ajustar as dimensões do papel programaticamente pode lhe poupar um monte de problemas. Hoje, estamos mergulhando no mundo do Aspose.Cells para .NET para examinar como recuperar e definir tamanhos de papel diretamente em seu aplicativo. Vamos arregaçar as mangas e entrar nos detalhes do gerenciamento dessas dimensões de papel!
 
-```csharp
-Workbook wb = new Workbook();
-```
+## Pré-requisitos 
 
-## Passo 2: Acesse a primeira planilha
- Em seguida, navegue até a primeira planilha da pasta de trabalho usando o`Worksheet` aula:
+Antes de entrarmos na mágica da codificação, vamos reunir o que você precisa para começar:
 
-```csharp
-Worksheet ws = wb.Worksheets[0];
-```
+1. Noções básicas de C#: Você deve ter uma noção introdutória de C#. Se você é novo em programação, não se preocupe! Vamos manter isso direto.
+2.  Biblioteca Aspose.Cells: Certifique-se de ter a biblioteca Aspose.Cells para .NET instalada em sua máquina. Você pode baixá-la em[este link](https://releases.aspose.com/cells/net/).
+3. Ambiente de desenvolvimento .NET: configure o Visual Studio ou qualquer IDE de sua escolha para escrever e executar seu código C#. Se não tiver certeza de onde começar, o Visual Studio Community Edition é uma escolha sólida.
+4.  Referências e documentação: Familiarize-se com a documentação do Aspose.Cells para obter insights mais profundos. Você pode encontrá-la[aqui](https://reference.aspose.com/cells/net/).
+5. Conhecimento básico sobre arquivos do Excel: entender como os arquivos do Excel são estruturados (planilhas, linhas e colunas) será muito útil.
 
-## Etapa 3: Defina o tamanho do papel como A2 e mostre a largura e a altura do papel em polegadas
- Use o`PaperSize` propriedade do`PageSetup` objeto para definir o tamanho do papel como A2 e, em seguida, use o`PaperWidth` e`PaperHeight` propriedades para obter a largura e a altura do papel, respectivamente. Exiba esses valores usando o`Console.WriteLine` método:
+Ótimo! Agora que verificamos o essencial, vamos direto para a importação dos pacotes necessários.
 
-```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-```
+## Pacotes de importação
 
-## Etapa 4: Repita as etapas para outros tamanhos de papel
-Repita as etapas anteriores, alterando o tamanho do papel para A3, A4 e Letter e exibindo os valores de largura e altura do papel para cada tamanho:
+ Para tornar nossas vidas mais fáceis e aproveitar todo o poder do Aspose.Cells, precisamos importar alguns pacotes. É tão simples quanto adicionar um`using` declaração no topo do seu arquivo de código. Aqui está o que você precisa importar:
 
 ```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+using System;
+using System.IO;
 ```
 
-### Exemplo de código-fonte para obter largura e altura do papel da planilha usando Aspose.Cells for .NET 
+Esta linha nos permite acessar todas as classes e métodos dentro da biblioteca Aspose.Cells, facilitando a manipulação de arquivos do Excel. Agora, vamos entrar em nosso guia passo a passo sobre como recuperar a largura e a altura do papel para vários tamanhos de papel.
+
+## Etapa 1: Crie uma nova pasta de trabalho
+
+O primeiro passo para trabalhar com Aspose.Cells é criar uma nova pasta de trabalho. Pense em uma pasta de trabalho como uma tela em branco onde você pode adicionar planilhas, células e, no nosso caso, definir tamanhos de papel.
 
 ```csharp
 //Criar pasta de trabalho
 Workbook wb = new Workbook();
+```
+
+Esta linha instancia um novo objeto workbook, pronto para ser manipulado por nós. Você não verá nada ainda, mas nossa tela está definida!
+
+## Etapa 2: Acesse a primeira planilha
+
+Agora que temos nossa pasta de trabalho, precisamos acessar uma planilha específica dentro dela. Uma planilha é como uma única página na sua pasta de trabalho, e é onde toda a ação acontece.
+
+```csharp
 //Acesse a primeira planilha
 Worksheet ws = wb.Worksheets[0];
+```
+
+Aqui, estamos pegando a primeira planilha (índice 0) da nossa pasta de trabalho. Você pode pensar nisso como virar para a primeira página de um livro. 
+
+## Etapa 3: Defina o tamanho do papel e obtenha as dimensões
+
+Agora vem a parte emocionante! Vamos definir diferentes tamanhos de papel e recuperar suas dimensões uma por uma. Esta etapa é crucial, pois nos permite ver como tamanhos diferentes afetam o layout.
+
+```csharp
 //Defina o tamanho do papel como A2 e imprima a largura e a altura do papel em polegadas
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+```
+
+ Neste bloco, definimos o tamanho do papel como A2 e então recuperamos sua largura e altura. O`PaperWidth` e`PaperHeight` properties fornecem as dimensões em polegadas. É como verificar o tamanho de uma moldura antes de colocar uma foto nela.
+
+## Etapa 4: repita para outros tamanhos de papel
+
+Vamos repetir o processo para outros tamanhos comuns de papel. Verificaremos os tamanhos A3, A4 e Letter. Essa repetição é importante para entender como cada tamanho é definido dentro da estrutura Aspose.Cells.
+
+```csharp
 //Defina o tamanho do papel como A3 e imprima a largura e a altura do papel em polegadas
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
@@ -66,25 +84,25 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
+ Cada um desses blocos imita a etapa anterior, mas ajusta o`PaperSize` propriedade de acordo. Apenas mudando o indicador de tamanho, você obtém diferentes dimensões de papel sem esforço. É como mudar o tamanho de uma caixa com base no que você precisa armazenar!
 
 ## Conclusão
 
-Você aprendeu como usar Aspose.Cells for .NET para obter a largura e a altura do papel de uma planilha. Este recurso pode ser útil para a configuração e layout preciso de seus documentos Excel.
+E aí está! Seguindo essas etapas, você pode facilmente definir e recuperar as dimensões de vários tamanhos de papel no Aspose.Cells for .NET. Esse recurso não só economiza seu tempo, mas também evita contratempos de impressão que podem ocorrer devido a configurações de página mal configuradas. Então, da próxima vez que você tiver que imprimir uma planilha do Excel ou criar um relatório, você pode fazer isso com confiança, sabendo que tem as dimensões em suas mãos. 
 
-### Perguntas frequentes (FAQ)
+## Perguntas frequentes
 
-#### O que é Aspose.Cells para .NET?
+### O que é Aspose.Cells?
+Aspose.Cells é uma biblioteca .NET projetada para processar arquivos do Excel sem precisar instalar o Excel.
 
-Aspose.Cells for .NET é uma biblioteca poderosa para manipular e processar arquivos Excel em aplicativos .NET. Oferece muitos recursos para criar, modificar, converter e analisar arquivos Excel.
+### Posso usar o Aspose.Cells gratuitamente?
+ Sim! Você pode começar com um teste gratuito disponível em[este link](https://releases.aspose.com/).
 
-#### Como posso obter o tamanho do papel de uma planilha com Aspose.Cells for .NET?
+### Como posso definir tamanhos de papel personalizados?
+ Aspose.Cells fornece opções para definir tamanhos de papel personalizados usando o`PageSetup` aula.
 
- Você pode usar o`PageSetup` classe do`Worksheet` objeto para acessar o tamanho do papel. Use o`PaperSize` propriedade para definir o tamanho do papel e o`PaperWidth` e`PaperHeight` propriedades para obter a largura e a altura do papel, respectivamente.
+### É necessário conhecimento de codificação para usar o Aspose.Cells?
+Conhecimento básico de codificação ajuda, mas você pode seguir tutoriais para facilitar o entendimento!
 
-#### Quais tamanhos de papel o Aspose.Cells for .NET suporta?
-
-Aspose.Cells for .NET oferece suporte a uma ampla variedade de tamanhos de papel comumente usados, como A2, A3, A4 e Carta, bem como muitos outros tamanhos personalizados.
-
-#### Posso personalizar o tamanho do papel de uma planilha com Aspose.Cells for .NET?
-
- Sim, você pode definir um tamanho de papel personalizado especificando as dimensões exatas de largura e altura usando o botão`PaperWidth` e`PaperHeight` propriedades do`PageSetup` aula.
+### Onde posso encontrar mais exemplos?
+ O[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) oferece uma riqueza de exemplos e tutoriais.

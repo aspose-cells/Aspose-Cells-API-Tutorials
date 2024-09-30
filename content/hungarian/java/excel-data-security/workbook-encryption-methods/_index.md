@@ -14,7 +14,7 @@ mai digitális korban az adatbiztonság a legfontosabb. Az érzékeny informáci
 
 ## A munkafüzet titkosításának megértése
 
-Mielőtt belemerülnénk a megvalósítás részleteibe, először értsük meg, mi az a munkafüzet-titkosítás, és miért elengedhetetlen. A munkafüzet-titkosítás az Excel-munkafüzet tartalmának biztonságossá tétele azáltal, hogy titkosítási algoritmusokat alkalmaz a benne lévő adatokra. Ez biztosítja, hogy csak a visszafejtési kulccsal rendelkező jogosult felhasználók férhessenek hozzá és tekinthessék meg a munkafüzet tartalmát, így megóvja érzékeny adatait a kíváncsiskodó szemektől.
+Mielőtt belemerülnénk a megvalósítás részleteibe, először értsük meg, mi az a munkafüzet-titkosítás, és miért elengedhetetlen. A munkafüzet titkosítása egy Excel-munkafüzet tartalmának biztonságba helyezése azáltal, hogy titkosítási algoritmusokat alkalmaz a benne lévő adatokra. Ez biztosítja, hogy csak a visszafejtési kulccsal rendelkező jogosult felhasználók férhessenek hozzá és tekinthessék meg a munkafüzet tartalmát, így megóvja érzékeny adatait a kíváncsiskodó szemektől.
 
 ## Előfeltételek
 
@@ -23,7 +23,7 @@ Mielőtt elkezdené az Aspose.Cells for Java és titkosítás használatát, gy�
 - Java Development Kit (JDK) telepítve a rendszerére.
 -  Aspose.Cells for Java könyvtár, amelyből letölthető[itt](https://releases.aspose.com/cells/java/).
 
-## Elkezdeni
+## Kezdő lépések
 
 Kezdjük az Excel-munkafüzetek biztonságossá tételét az Aspose.Cells for Java segítségével. Íme egy lépésről lépésre útmutató:
 

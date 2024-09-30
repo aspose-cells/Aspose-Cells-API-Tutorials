@@ -2,32 +2,32 @@
 title: ファイルアクセスの監査
 linktitle: ファイルアクセスの監査
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java API を使用してファイル アクセスを監査する方法を学習します。ソース コードと FAQ を含むステップバイステップのガイド。
+description: Aspose.Cells for Java API を使用してファイル アクセスを監査する方法を学びます。ソース コードと FAQ を含むステップ バイ ステップ ガイド。
 type: docs
 weight: 16
 url: /ja/java/excel-data-security/auditing-file-access/
 ---
 
-## ファイル アクセスの監査の概要
+## ファイルアクセス監査の概要
 
-このチュートリアルでは、Aspose.Cells for Java API を使用してファイル アクセスを監査する方法を検討します。 Aspose.Cells は、Excel スプレッドシートを作成、操作、管理できる強力な Java ライブラリです。この API を使用して、Java アプリケーションでのファイル アクセス アクティビティを追跡および記録する方法を示します。
+このチュートリアルでは、Aspose.Cells for Java API を使用してファイル アクセスを監査する方法について説明します。Aspose.Cells は、Excel スプレッドシートを作成、操作、管理できる強力な Java ライブラリです。この API を使用して、Java アプリケーションでファイル アクセス アクティビティを追跡および記録する方法を説明します。
 
 ## 前提条件
 
 始める前に、次の前提条件を満たしていることを確認してください。
 
 - [Java 開発キット (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)システムにインストールされています。
--  Java ライブラリの Aspose.Cells。からダウンロードできます。[Aspose.Cells for Java Web サイト](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Javaライブラリ。ダウンロードは以下から行えます。[Aspose.Cells for Java の Web サイト](https://releases.aspose.com/cells/java/).
 
-## ステップ 1: Java プロジェクトのセットアップ
+## ステップ1: Javaプロジェクトの設定
 
 1. 好みの統合開発環境 (IDE) で新しい Java プロジェクトを作成します。
 
-2. 前にダウンロードした JAR ファイルを含めて、Aspose.Cells for Java ライブラリをプロジェクトに追加します。
+2. 先ほどダウンロードした JAR ファイルを含めて、Aspose.Cells for Java ライブラリをプロジェクトに追加します。
 
 ## ステップ 2: 監査ロガーの作成
 
-このステップでは、ファイル アクセス アクティビティのログ記録を担当するクラスを作成します。それを呼びましょう`FileAccessLogger.java`。基本的な実装は次のとおりです。
+このステップでは、ファイルアクセスアクティビティのログを記録するクラスを作成します。`FileAccessLogger.java`基本的な実装は次のとおりです。
 
 ```java
 import java.io.FileWriter;
@@ -51,11 +51,11 @@ public class FileAccessLogger {
 }
 ```
 
-このロガーは、アクセス イベントをテキスト ファイルに記録します。
+このロガーはアクセス イベントをテキスト ファイルに記録します。
 
 ## ステップ 3: Aspose.Cells を使用してファイル操作を実行する
 
-次に、Aspose.Cells をプロジェクトに統合して、ファイル操作を実行し、アクセス アクティビティをログに記録しましょう。というクラスを作成します`ExcelFileManager.java`:
+それでは、Aspose.Cellsをプロジェクトに統合して、ファイル操作とログアクセスアクティビティを実行してみましょう。というクラスを作成します。`ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -65,7 +65,7 @@ public class ExcelFileManager {
     public static void openExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook(filename);
-            //必要に応じてワークブックに対して操作を実行します
+            //必要に応じてワークブックの操作を実行します
             FileAccessLogger.logAccess(username, filename, "opened");
         } catch (Exception e) {
             e.printStackTrace();
@@ -75,7 +75,7 @@ public class ExcelFileManager {
     public static void saveExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook();
-            //必要に応じてワークブックに対して操作を実行します
+            //必要に応じてワークブックの操作を実行します
             workbook.save(filename, FileFormatType.XLSX);
             FileAccessLogger.logAccess(username, filename, "saved");
         } catch (Exception e) {
@@ -85,9 +85,9 @@ public class ExcelFileManager {
 }
 ```
 
-## ステップ 4: アプリケーションで監査ロガーを使用する
+## ステップ4: アプリケーションで監査ロガーを使用する
 
-これで、`FileAccessLogger`そして`ExcelFileManager`クラスをアプリケーションで次のように使用できます。
+今、私たちは`FileAccessLogger`そして`ExcelFileManager`クラスは、次のようにアプリケーションで使用できます。
 
 ```java
 public class Main {
@@ -98,9 +98,9 @@ public class Main {
         //Excelファイルを開く
         ExcelFileManager.openExcelFile(filename, username);
 
-        //Excelファイルに対して操作を実行する
+        //Excelファイルに対する操作を実行する
 
-        //Excelファイルを保存します
+        //Excelファイルを保存する
         ExcelFileManager.saveExcelFile(filename, username);
     }
 }
@@ -108,22 +108,22 @@ public class Main {
 
 ## 結論
 
-この包括的なガイドでは、Aspose.Cells for Java API の世界を詳しく説明し、Java アプリケーション内のファイル アクセスを監査する方法を示しました。段階的な指示に従い、ソース コードの例を利用することで、この強力なライブラリの機能を活用するための貴重な洞察が得られます。
+この包括的なガイドでは、Aspose.Cells for Java API の世界を詳しく調べ、Java アプリケーション内でファイル アクセスを監査する方法を示しました。ステップ バイ ステップの指示に従い、ソース コードの例を利用することで、この強力なライブラリの機能を活用するための貴重な洞察が得られます。
 
 ## よくある質問
 
 ### 監査ログを取得するにはどうすればよいですか?
 
-監査ログを取得するには、単にその内容を読み取るだけです。`file_access_log.txt` Java のファイル読み取り機能を使用してファイルを読み込みます。
+監査ログを取得するには、`file_access_log.txt` Java のファイル読み取り機能を使用してファイルを作成します。
 
-### ログの形式や出力先をカスタマイズできますか?
+### ログの形式や保存先をカスタマイズできますか?
 
-はい、ログ形式と宛先は、`FileAccessLogger`クラス。ログ ファイルのパスやログ エントリの形式を変更したり、Log4j などの別のログ ライブラリを使用したりすることもできます。
+はい、ログの形式と出力先を変更することができます。`FileAccessLogger`クラス。ログ ファイルのパスやログ エントリの形式を変更したり、Log4j などの別のログ ライブラリを使用したりすることもできます。
 
-### ユーザーまたはファイルごとにログエントリをフィルタリングする方法はありますか?
+### ログエントリをユーザーまたはファイル別にフィルタリングする方法はありますか?
 
-フィルタリングロジックを実装できます。`FileAccessLogger`クラス。ログ ファイルに書き込む前に、ユーザーまたはファイルの基準に基づいてログ エントリに条件を追加します。
+フィルタリングロジックを実装するには、`FileAccessLogger`クラス。ログ ファイルに書き込む前に、ユーザーまたはファイルの基準に基づいてログ エントリに条件を追加します。
 
 ### ファイルを開いたり保存したりする以外に、どのようなアクションを記録できますか?
 
-延長することができます`ExcelFileManager`クラスを使用して、アプリケーションの要件に応じて、ファイルの編集、削除、共有などの他のアクションをログに記録します。
+延長することができます`ExcelFileManager`アプリケーションの要件に応じて、ファイルの編集、削除、共有などの他のアクションをログに記録するクラス。

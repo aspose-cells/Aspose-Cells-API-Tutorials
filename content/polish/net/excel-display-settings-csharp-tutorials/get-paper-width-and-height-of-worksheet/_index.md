@@ -1,60 +1,78 @@
 ---
-title: Uzyskaj szerokość i wysokość papieru w arkuszu
-linktitle: Uzyskaj szerokość i wysokość papieru w arkuszu
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Utwórz przewodnik krok po kroku wyjaśniający następujący kod źródłowy C#, aby uzyskać szerokość i wysokość papieru w arkuszu kalkulacyjnym za pomocą Aspose.Cells dla .NET.
+title: Uzyskaj szerokość papieru i wysokość arkusza kalkulacyjnego
+linktitle: Uzyskaj szerokość papieru i wysokość arkusza kalkulacyjnego
+second_title: Aspose.Cells dla .NET API Reference
+description: Dowiedz się, jak uzyskać szerokość i wysokość papieru arkuszy kalkulacyjnych w Aspose.Cells dla platformy .NET, korzystając z prostego przewodnika krok po kroku.
 type: docs
 weight: 80
 url: /pl/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
 ---
-tym samouczku poprowadzimy Cię krok po kroku, aby wyjaśnić następujący kod źródłowy C#, aby uzyskać szerokość i wysokość papieru w arkuszu przy użyciu Aspose.Cells dla .NET. Wykonaj poniższe kroki:
+## Wstęp
 
-## Krok 1: Utwórz skoroszyt
- Zacznij od utworzenia nowego skoroszytu za pomocą pliku`Workbook` klasa:
+Czy kiedykolwiek próbowałeś wydrukować arkusz Excela i musiałeś radzić sobie z mylącymi wymiarami różnych rozmiarów papieru? Jeśli jesteś taki jak ja, wiesz, że nic nie może zepsuć Ci dnia tak, jak układ, który nie wychodzi dobrze! Niezależnie od tego, czy drukujesz raporty, faktury, czy po prostu prostą listę, zrozumienie, jak programowo dostosować wymiary papieru, może zaoszczędzić Ci mnóstwa kłopotów. Dzisiaj zanurzymy się w świat Aspose.Cells dla .NET, aby zbadać, jak pobierać i ustawiać rozmiary papieru bezpośrednio w aplikacji. Zakasajmy rękawy i zajmijmy się szczegółami zarządzania tymi wymiarami papieru!
 
-```csharp
-Workbook wb = new Workbook();
-```
+## Wymagania wstępne 
 
-## Krok 2: Uzyskaj dostęp do pierwszego arkusza
- Następnie przejdź do pierwszego arkusza w skoroszycie, używając przycisku`Worksheet` klasa:
+Zanim zagłębimy się w magię kodowania, zbierzmy wszystko, czego potrzebujesz, żeby zacząć:
 
-```csharp
-Worksheet ws = wb.Worksheets[0];
-```
+1. Podstawowa znajomość języka C#: Powinieneś mieć podstawową znajomość języka C#. Jeśli dopiero zaczynasz programować, nie martw się! Będziemy trzymać się prostoty.
+2.  Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET na swoim komputerze. Możesz ją pobrać z[ten link](https://releases.aspose.com/cells/net/).
+3. Środowisko programistyczne .NET: Skonfiguruj Visual Studio lub dowolne wybrane przez siebie środowisko IDE, aby pisać i wykonywać kod C#. Jeśli nie wiesz, od czego zacząć, Visual Studio Community Edition jest solidnym wyborem.
+4.  Odniesienia i dokumentacja: Zapoznaj się z dokumentacją Aspose.Cells, aby uzyskać głębsze informacje. Możesz ją znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+5. Podstawowa wiedza na temat plików programu Excel: Zrozumienie struktury plików programu Excel (arkusze kalkulacyjne, wiersze i kolumny) okaże się bardzo przydatne.
 
-## Krok 3: Ustaw rozmiar papieru na A2 i pokaż szerokość i wysokość papieru w calach
- Użyj`PaperSize` własność`PageSetup` obiekt, aby ustawić rozmiar papieru na A2, a następnie użyj przycisku`PaperWidth` I`PaperHeight` właściwości, aby uzyskać odpowiednio szerokość i wysokość papieru. Wyświetl te wartości za pomocą`Console.WriteLine` metoda:
+Świetnie! Teraz, gdy mamy już odhaczone podstawowe rzeczy, przejdźmy od razu do importowania niezbędnych pakietów.
 
-```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-```
+## Importuj pakiety
 
-## Krok 4: Powtórz kroki dla innych rozmiarów papieru
-Powtórz poprzednie kroki, zmieniając rozmiar papieru na A3, A4 i Letter, a następnie wyświetlając wartości szerokości i wysokości papieru dla każdego rozmiaru:
+ Aby ułatwić sobie życie i wykorzystać pełną moc Aspose.Cells, musimy zaimportować kilka pakietów. To takie proste, jak dodanie`using` oświadczenie na górze pliku kodu. Oto, co musisz zaimportować:
 
 ```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+using System;
+using System.IO;
 ```
 
-### Przykładowy kod źródłowy narzędzia Uzyskaj szerokość i wysokość papieru przy użyciu Aspose.Cells dla platformy .NET 
+Ten wiersz umożliwia nam dostęp do wszystkich klas i metod w bibliotece Aspose.Cells, ułatwiając manipulowanie plikami Excela. Teraz przejdźmy do naszego przewodnika krok po kroku dotyczącego pobierania szerokości i wysokości papieru dla różnych rozmiarów papieru.
+
+## Krok 1: Utwórz nowy skoroszyt
+
+Pierwszym krokiem w pracy z Aspose.Cells jest utworzenie nowego skoroszytu. Pomyśl o skoroszycie jako o pustym płótnie, na którym możesz dodawać arkusze, komórki i, w naszym przypadku, definiować rozmiary papieru.
 
 ```csharp
 //Utwórz skoroszyt
 Workbook wb = new Workbook();
-//Uzyskaj dostęp do pierwszego arkusza
+```
+
+Ten wiersz tworzy nowy obiekt skoroszytu, gotowy do manipulowania. Na razie nic nie zobaczysz, ale nasze płótno jest ustawione!
+
+## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+
+Teraz, gdy mamy nasz skoroszyt, musimy uzyskać dostęp do określonego arkusza w nim zawartego. Arkusz jest jak pojedyncza strona w skoroszycie i to tam dzieje się cała akcja.
+
+```csharp
+//Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Worksheet ws = wb.Worksheets[0];
+```
+
+Tutaj pobieramy pierwszy arkusz (indeks 0) z naszego skoroszytu. Można to sobie wyobrazić jako przewracanie pierwszej strony książki. 
+
+## Krok 3: Ustaw rozmiar papieru i uzyskaj wymiary
+
+Teraz nadchodzi ekscytująca część! Ustawimy różne rozmiary papieru i pobierzemy ich wymiary jeden po drugim. Ten krok jest kluczowy, ponieważ pozwala nam zobaczyć, jak różne rozmiary wpływają na układ.
+
+```csharp
 //Ustaw rozmiar papieru na A2 i wydrukuj szerokość i wysokość papieru w calach
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+```
+
+ W tym bloku ustawiamy rozmiar papieru na A2, a następnie pobieramy jego szerokość i wysokość.`PaperWidth` I`PaperHeight` Właściwości podają wymiary w calach. To jak sprawdzanie rozmiaru ramki przed włożeniem do niej zdjęcia.
+
+## Krok 4: Powtórz dla innych rozmiarów papieru
+
+Powtórzmy proces dla innych popularnych rozmiarów papieru. Sprawdzimy rozmiary A3, A4 i Letter. To powtórzenie jest ważne dla zrozumienia, jak każdy rozmiar jest zdefiniowany w ramach Aspose.Cells.
+
+```csharp
 //Ustaw rozmiar papieru na A3 i wydrukuj szerokość i wysokość papieru w calach
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
@@ -66,25 +84,25 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
+ Każdy z tych bloków naśladuje poprzedni krok, ale dostosowuje`PaperSize` nieruchomości odpowiednio. Poprzez prostą zmianę wskaźnika rozmiaru, bez wysiłku uzyskasz różne wymiary papieru. To jak zmiana rozmiaru pudełka w zależności od tego, co musisz przechowywać!
 
 ## Wniosek
 
-Nauczyłeś się, jak używać Aspose.Cells dla .NET, aby uzyskać szerokość i wysokość papieru w arkuszu kalkulacyjnym. Ta funkcja może być przydatna do konfiguracji i precyzyjnego układu dokumentów Excel.
+I masz to! Wykonując te kroki, możesz łatwo ustawić i pobrać wymiary różnych rozmiarów papieru w Aspose.Cells dla .NET. Ta możliwość nie tylko oszczędza Twój czas, ale także zapobiega nieszczęśliwym wypadkom podczas drukowania, które mogą wystąpić z powodu błędnie skonfigurowanych ustawień strony. Więc następnym razem, gdy będziesz musiał wydrukować arkusz Excela lub utworzyć raport, możesz to zrobić pewnie, wiedząc, że masz wymiary w swoich rękach. 
 
-### Często zadawane pytania (FAQ)
+## Najczęściej zadawane pytania
 
-#### Co to jest Aspose.Cells dla .NET?
+### Czym jest Aspose.Cells?
+Aspose.Cells to biblioteka .NET przeznaczona do przetwarzania plików Excel bez konieczności instalowania programu Excel.
 
-Aspose.Cells dla .NET to potężna biblioteka do manipulowania i przetwarzania plików Excel w aplikacjach .NET. Oferuje wiele funkcji do tworzenia, modyfikowania, konwertowania i analizowania plików Excel.
+### Czy mogę używać Aspose.Cells za darmo?
+ Tak! Możesz zacząć od bezpłatnego okresu próbnego dostępnego pod adresem[ten link](https://releases.aspose.com/).
 
-#### Jak mogę uzyskać rozmiar papieru arkusza kalkulacyjnego za pomocą Aspose.Cells dla .NET?
+### Jak mogę ustawić niestandardowe rozmiary papieru?
+ Aspose.Cells udostępnia opcje umożliwiające ustawienie niestandardowych rozmiarów papieru za pomocą`PageSetup` klasa.
 
- Możesz skorzystać z`PageSetup` klasa`Worksheet` obiekt, aby uzyskać dostęp do rozmiaru papieru. Użyj`PaperSize` właściwość, aby ustawić rozmiar papieru i`PaperWidth` I`PaperHeight` właściwości, aby uzyskać odpowiednio szerokość i wysokość papieru.
+### Czy do korzystania z Aspose.Cells konieczna jest znajomość kodowania?
+Pomocna jest podstawowa znajomość kodowania, jednak dla łatwiejszego zrozumienia możesz skorzystać z samouczków!
 
-#### Jakie rozmiary papieru obsługuje Aspose.Cells dla .NET?
-
-Aspose.Cells dla .NET obsługuje szeroką gamę powszechnie używanych rozmiarów papieru, takich jak A2, A3, A4 i Letter, a także wiele innych niestandardowych rozmiarów.
-
-#### Czy mogę dostosować rozmiar papieru arkusza kalkulacyjnego za pomocą Aspose.Cells dla .NET?
-
- Tak, możesz ustawić niestandardowy rozmiar papieru, określając dokładne wymiary szerokości i wysokości za pomocą`PaperWidth` I`PaperHeight` właściwości`PageSetup` klasa.
+### Gdzie mogę znaleźć więcej przykładów?
+ Ten[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) oferuje bogactwo przykładów i samouczków.

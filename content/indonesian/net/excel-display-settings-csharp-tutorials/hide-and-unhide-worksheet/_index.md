@@ -1,119 +1,144 @@
 ---
-title: Sembunyikan Dan Perlihatkan Lembar Kerja
-linktitle: Sembunyikan Dan Perlihatkan Lembar Kerja
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Pustaka yang kuat untuk bekerja dengan file Excel, termasuk membuat, memodifikasi, dan memanipulasi data.
+title: Sembunyikan dan Tampilkan Lembar Kerja
+linktitle: Sembunyikan dan Tampilkan Lembar Kerja
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Kuasai manipulasi lembar kerja Excel dengan panduan lengkap untuk menyembunyikan dan menampilkan lembar kerja menggunakan Aspose.Cells untuk .NET. Sederhanakan pengelolaan data Anda.
 type: docs
 weight: 90
 url: /id/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 ---
-Dalam tutorial ini, kami akan membawa Anda langkah demi langkah untuk menjelaskan kode sumber C# berikut yang digunakan untuk menyembunyikan dan menampilkan lembar kerja menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah di bawah ini:
+## Perkenalan
 
-## Langkah 1: Mempersiapkan lingkungan
+Dalam hal manajemen data, Microsoft Excel merupakan alat yang ampuh yang diandalkan banyak orang untuk mengatur dan menganalisis informasi. Namun, terkadang lembar kerja tertentu memerlukan sedikit kebijaksanaan—mungkin lembar kerja tersebut berisi data sensitif yang hanya boleh dilihat oleh orang tertentu, atau mungkin lembar kerja tersebut hanya memenuhi antarmuka pengguna Anda. Dalam kasus seperti itu, kemampuan untuk menyembunyikan dan menampilkan kembali lembar kerja sangatlah penting. Untungnya, dengan Aspose.Cells for .NET, Anda dapat mengelola lembar kerja Excel secara terprogram dengan mudah! 
 
-Sebelum memulai, pastikan Anda telah menginstal Aspose.Cells for .NET di sistem Anda. Jika Anda belum menginstalnya, Anda dapat mendownloadnya dari situs resmi Aspose. Setelah terinstal, Anda dapat membuat proyek baru di lingkungan pengembangan terintegrasi (IDE) pilihan Anda.
+## Prasyarat
 
-## Langkah 2: Impor namespace yang diperlukan
+Sebelum kita memulai perjalanan untuk mengendalikan lembar Excel Anda, ada beberapa prasyarat untuk memastikan perjalanan yang lancar:
 
-Di file sumber C# Anda, tambahkan namespace yang diperlukan untuk menggunakan fitur Aspose.Cells. Tambahkan baris berikut ke awal file Anda:
+1. Pengetahuan Dasar C#: Keakraban dengan C# sangat penting, karena kita akan menulis kode dalam bahasa ini.
+2.  Aspose.Cells untuk .NET: Pastikan Anda telah menginstal Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
+3. Lingkungan Pengembangan: IDE seperti Visual Studio 2022, tempat Anda dapat mengompilasi dan menjalankan kode C# Anda.
+4.  File Excel: Siapkan file Excel untuk manipulasi. Untuk tutorial ini, mari buat file contoh bernama`book1.xls`.
+5. .NET Framework: Setidaknya .NET Framework 4.5 atau yang lebih baru.
+
+Setelah Anda memenuhi persyaratan ini, Anda siap berangkat!
+
+## Paket Impor
+
+Sebelum memulai kode, Anda perlu mengimpor paket Aspose.Cells yang diperlukan. Dengan demikian, Anda dapat memanfaatkan semua fitur hebat yang ditawarkan pustaka tersebut. Cukup mulai berkas C# Anda dengan perintah berikut:
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## Langkah 3: Muat file Excel
+Sekarang setelah semuanya siap dan siap untuk membuat kode, mari kita bagi prosesnya menjadi beberapa langkah yang mudah dikelola. Kita akan mulai dengan menyembunyikan lembar kerja, lalu mempelajari cara menampilkannya kembali.
 
-Sebelum menyembunyikan atau memperlihatkan lembar kerja, Anda harus memuat file Excel ke dalam aplikasi Anda. Pastikan Anda memiliki file Excel yang ingin Anda gunakan di direktori yang sama dengan proyek Anda. Gunakan kode berikut untuk memuat file Excel:
+## Langkah 1: Siapkan Lingkungan Anda
 
-```csharp
-string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-Workbook workbook = new Workbook(fstream);
-```
-
-Pastikan untuk mengganti "PATH TO YOUR DOCUMENTS DIRECTORY" dengan jalur sebenarnya ke direktori yang berisi file Excel Anda.
-
-## Langkah 4: Akses spreadsheet
-
-Setelah file Excel dimuat, Anda dapat menavigasi ke lembar kerja yang ingin Anda sembunyikan atau tampilkan. Gunakan kode berikut untuk mengakses lembar kerja pertama dalam file:
+ Pada langkah ini, Anda akan mengatur jalur file tempat file Excel Anda berada. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke berkas Anda.
 
 ```csharp
-Worksheet worksheet = workbook.Worksheets[0];
-```
-
-## Langkah 5: Sembunyikan lembar kerja
-
- Sekarang Anda telah mengakses lembar kerja, Anda bisa menyembunyikannya menggunakan`IsVisible` Properti. Gunakan kode berikut untuk menyembunyikan lembar kerja pertama dalam file:
-
-```csharp
-worksheet. IsVisible = false;
-```
-
-## Langkah 6: Tampilkan kembali lembar kerja
-
-Jika Anda ingin menampilkan kembali lembar kerja yang sebelumnya tersembunyi, Anda dapat menggunakan kode yang sama dengan mengubah nilai`IsVisible` Properti. Gunakan kode berikut untuk menampilkan kembali lembar kerja pertama:
-
-```csharp
-worksheet. IsVisible = true;
-```
-
-## Langkah 7: Simpan Perubahan
-
-Sekali kamu
-
-  telah menyembunyikan atau memperlihatkan lembar kerja sesuai kebutuhan, Anda harus menyimpan perubahannya ke file Excel. Gunakan kode berikut untuk menyimpan perubahan:
-
-```csharp
-workbook.Save(dataDir + "output.out.xls");
-fstream.Close();
-```
-
-Pastikan untuk menentukan jalur keluaran yang benar untuk menyimpan file Excel yang dimodifikasi.
-
-### Contoh kode sumber untuk Sembunyikan dan Perlihatkan Lembar Kerja menggunakan Aspose.Cells untuk .NET 
-
-```csharp
-//Jalur ke direktori dokumen.
+// Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+
+Ini seperti meletakkan fondasi sebelum membangun rumah—Anda perlu memiliki dasar yang kokoh sebelum Anda dapat membangun sesuatu yang hebat!
+
+## Langkah 2: Buka File Excel
+
+Sekarang, mari buat aliran file untuk membuka buku kerja Excel kita. Langkah ini penting karena Anda perlu membaca dan memanipulasi file tersebut.
+
+```csharp
 // Membuat aliran file yang berisi file Excel yang akan dibuka
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
+```
+
+Anggap saja ini seperti membuka kunci file Excel Anda. Anda perlu akses sebelum dapat melakukan apa pun di dalamnya!
+
+## Langkah 3: Membuat Objek Buku Kerja
+
+Setelah Anda membuka berkas, langkah berikutnya adalah membuat objek Buku Kerja yang memungkinkan Anda bekerja dengan dokumen Excel Anda.
+
+```csharp
 // Membuat instance objek Buku Kerja dengan membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
-// Mengakses lembar kerja pertama di file Excel
+```
+
+Langkah ini seperti mengatakan “Halo!” ke buku kerja Anda, sehingga buku kerja tahu Anda ada di sana untuk membuat beberapa perubahan.
+
+## Langkah 4: Akses Lembar Kerja
+
+Dengan buku kerja di tangan, saatnya mengakses lembar kerja tertentu yang ingin Anda sembunyikan. Kita akan mulai dengan lembar kerja pertama.
+
+```csharp
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Menyembunyikan lembar kerja pertama dari file Excel
+```
+
+Di sini, Anda menunjuk lembar tertentu, seperti memilih buku dari rak. "Ini buku yang ingin saya kerjakan!"
+
+## Langkah 5: Sembunyikan Lembar Kerja
+
+ Sekarang tibalah bagian yang menyenangkan—menyembunyikan lembar kerja! Dengan mengaktifkan`IsVisible` properti, Anda dapat membuat lembar kerja Anda menghilang dari pandangan.
+
+```csharp
+// Menyembunyikan lembar kerja pertama file Excel
 worksheet.IsVisible = false;
-// Menampilkan lembar kerja pertama dari file Excel
-//Lembar Kerja.IsVisible = true;
-// Menyimpan file Excel yang dimodifikasi dalam format default (yaitu Excel 2003).
+```
+
+Ini seperti menarik tirai. Datanya masih ada, hanya saja tidak terlihat oleh mata telanjang lagi.
+
+## Langkah 6: Simpan Perubahan
+
+Setelah menyembunyikan lembar kerja, sebaiknya Anda menyimpan perubahan yang telah Anda buat pada berkas Anda. Ini penting, atau perubahan tersebut akan hilang begitu saja!
+
+```csharp
+// Menyimpan file Excel yang dimodifikasi dalam format default (yaitu Excel 2003)
 workbook.Save(dataDir + "output.out.xls");
-// Menutup aliran file untuk mengosongkan semua sumber daya
+```
+
+Di sini, kita menyimpan buku kerja sebagai`output.out.xls`. Itu seperti menyegel pekerjaan Anda dalam sebuah amplop. Jika Anda tidak menyimpannya, semua kerja keras Anda akan hilang!
+
+## Langkah 7: Tutup Aliran File
+
+Terakhir, Anda harus menutup aliran berkas. Langkah ini penting untuk membebaskan sumber daya sistem dan mencegah kebocoran memori.
+
+```csharp
+// Menutup aliran file untuk membebaskan semua sumber daya
 fstream.Close();
 ```
+
+Anggap saja ini seperti menutup pintu setelah Anda pergi. Itu selalu merupakan perilaku yang baik dan menjaga semuanya tetap rapi!
+
+## Langkah 8: Tampilkan Lembar Kerja
+
+ Untuk menampilkan kembali lembar kerja, Anda perlu mengatur`IsVisible` properti kembali ke true. Berikut cara melakukannya:
+
+```csharp
+// Menampilkan lembar kerja pertama dari file Excel
+worksheet.IsVisible = true;
+```
+
+Dengan melakukan ini, Anda mengangkat kembali tirai, sehingga semuanya dapat dilihat lagi.
 
 ## Kesimpulan
 
-Selamat! Anda telah mempelajari cara menyembunyikan dan menampilkan spreadsheet menggunakan Aspose.Cells untuk .NET. Anda sekarang dapat menggunakan fitur ini untuk mengontrol visibilitas spreadsheet di file Excel Anda.
+Memanipulasi lembar kerja Excel menggunakan Aspose.Cells untuk .NET tidak harus menjadi tugas yang sulit. Hanya dengan beberapa baris kode, Anda dapat menyembunyikan atau menampilkan data penting dengan mudah. Kemampuan ini dapat sangat berguna dalam skenario di mana kejelasan dan keamanan menjadi hal yang terpenting. Baik Anda melaporkan data atau hanya mencoba menjaga pekerjaan Anda tetap rapi dan teratur, mengetahui cara mengelola visibilitas lembar kerja dapat membuat perbedaan besar dalam alur kerja Anda!
 
-### Pertanyaan yang Sering Diajukan (FAQ)
+## Pertanyaan yang Sering Diajukan
 
-#### Bagaimana cara menginstal Aspose.Cells untuk .NET?
+### Bisakah saya menyembunyikan beberapa lembar kerja sekaligus?
+ Ya, Anda dapat melakukan pengulangan`Worksheets` koleksi dan atur`IsVisible` properti menjadi false untuk setiap lembar yang ingin Anda sembunyikan.
 
- Anda dapat menginstal Aspose.Cells untuk .NET dengan mengunduh paket NuGet yang relevan dari[Asumsikan Rilis](https://releases/aspose.com/cells/net/) dan menambahkannya ke proyek Visual Studio Anda.
+### Format file apa yang didukung Aspose.Cells?
+ Aspose.Cells mendukung berbagai format termasuk XLS, XLSX, CSV, dan banyak lagi. Anda dapat memeriksa daftar lengkapnya[Di Sini](https://reference.aspose.com/cells/net/).
 
-#### Berapa versi minimum .NET Framework yang diperlukan untuk menggunakan Aspose.Cells untuk .NET?
+### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
+ Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya. Lisensi penuh diperlukan untuk aplikasi produksi. Cari tahu lebih lanjut tentangnya[Di Sini](https://purchase.aspose.com/buy).
 
-Aspose.Cells untuk .NET mendukung .NET Framework 2.0 dan yang lebih baru.
+### Apakah mungkin untuk menyembunyikan lembar kerja berdasarkan kondisi tertentu?
+Tentu saja! Anda dapat menerapkan logika kondisional dalam kode Anda untuk menentukan apakah lembar kerja harus disembunyikan atau ditampilkan berdasarkan kriteria Anda.
 
-#### Bisakah saya membuka dan mengedit file Excel yang ada dengan Aspose.Cells untuk .NET?
-
-Ya, Anda dapat membuka dan mengedit file Excel yang ada menggunakan Aspose.Cells untuk .NET. Anda dapat mengakses lembar kerja, sel, rumus, dan elemen lain dari file Excel.
-
-#### Apakah Aspose.Cells for .NET mendukung pelaporan dan ekspor ke format file lain?
-
-Ya, Aspose.Cells untuk .NET mendukung pembuatan laporan dan ekspor ke format seperti PDF, HTML, CSV, TXT, dll.
-
-#### Apakah modifikasi file Excel bersifat permanen?
-
-Ya, pengeditan file Excel bersifat permanen setelah Anda menyimpannya. Pastikan untuk menyimpan salinan cadangan sebelum membuat perubahan apa pun pada file asli.
+### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
+ Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9) untuk pertanyaan atau masalah apa pun.

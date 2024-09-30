@@ -16,7 +16,7 @@ Excel je všestranný nástroj pro manipulaci s daty, ale integrace dat z různ�
 
 ## 2. Nastavení Aspose.Cells pro Java
 
- Než se pustíte do integrace dat, musíte nastavit Aspose.Cells pro Javu. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/cells/java/). Začněte podle pokynů k instalaci.
+ Než se pustíte do integrace dat, musíte nastavit Aspose.Cells pro Javu. Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/cells/java/). Začněte podle pokynů k instalaci.
 
 ## 3. Načítání dat do Excelu
 
@@ -54,7 +54,7 @@ Před analýzou data často vyžadují transformaci a vyčištění. Aspose.Cell
 Síla Excelu spočívá v jeho schopnosti provádět složité výpočty. S Aspose.Cells for Java můžete programově aplikovat vzorce:
 
 ```java
-// Java kód pro použití vzorců
+// Java kód pro aplikaci vzorců
 // ...
 ```
 

@@ -2,106 +2,142 @@
 title: Oldalméretek lekérése
 linktitle: Oldalméretek lekérése
 second_title: Aspose.Cells for .NET API Reference
-description: Ismerje meg, hogyan kérheti le az oldalméreteket Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató forráskóddal C# nyelven.
+description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan határozhatja meg az oldalméreteket az Aspose.Cells for .NET használatával. Tökéletes az Excel fájlokkal dolgozó fejlesztőknek.
 type: docs
 weight: 40
 url: /hu/net/excel-page-setup/get-page-dimensions/
 ---
-Az Aspose.Cells for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Excel fájlokkal. Funkciók széles skáláját kínálja az Excel dokumentumok kezeléséhez, beleértve az oldalméretek lekérését is. Ebben az oktatóanyagban végigvezetjük az oldalméretek lekérésének lépésein az Aspose.Cells for .NET használatával.
+## Bevezetés
 
-## 1. lépés: Hozzon létre egy példányt a Workbook osztályból
+Amikor a táblázatok kezeléséről van szó .NET-alkalmazásokban, az Aspose.Cells könyvtár robusztus eszközként tűnik ki, amely lehetővé teszi a fejlesztők számára az Excel-fájlok egyszerű kezelését. De hogyan szerezhet be oldalméreteket a különféle papírméretekhez ezzel a hatékony könyvtárral? Ebben az oktatóanyagban lépésről lépésre végigjárjuk a folyamatot, biztosítva, hogy Ön ne csak betekintést nyerjen az Aspose.Cells működésébe, hanem ügyesen használja azt projektjeiben. 
 
-A kezdéshez létre kell hoznunk egy példányt a Workbook osztályból, amely az Excel munkafüzetet képviseli. Ez a következő kóddal érhető el:
+## Előfeltételek 
+
+Mielőtt belevágnánk a kódolási részbe, néhány dolgot meg kell tennie a hatékony követéshez:
+
+### Visual Studio
+Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Itt kell írni és végrehajtani a .NET kódot.
+
+### Aspose.Cells Library
+A projektben le kell töltenie és hivatkoznia kell az Aspose.Cells könyvtárra. Megszerezheti:
+-  Letöltési link:[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)
+
+### C# alapismeretek
+Hasznos lenne, ha rendelkezel a C# alapismereteivel. Ez az oktatóanyag olyan alapvető programozási koncepciókat fog alkalmazni, amelyeknek könnyen követhetőnek kell lenniük.
+
+Készen állsz? Kezdjük is!
+
+## Csomagok importálása
+
+Utunk első lépése a szükséges Aspose.Cells csomagok importálása a C# projektünkbe. A következőképpen teheti meg:
+
+### Hozzon létre egy új projektet
+
+ Nyissa meg a Visual Studio-t, és hozzon létre egy új C# Console Application projektet. Nevezheted, ahogy akarod, kezdjük vele`GetPageDimensions`.
+
+### Referenciák hozzáadása
+
+Az Aspose.Cells használatához hivatkozásokat kell hozzáadnia a könyvtárhoz:
+- Kattintson a jobb gombbal a projektre a Solution Explorerben.
+- Válassza a „NuGet-csomagok kezelése” lehetőséget.
+- Keresse meg az „Aspose.Cells” kifejezést, és telepítse.
+
+### Add Irányelvek használatával
+
+ A te tetején`Program.cs` fájlt, illessze be ezt a direktívával az Aspose.Cells funkció eléréséhez:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Most, hogy importáltuk a szükséges csomagokat, jó úton haladsz! 
+
+Most nézzük meg, hogyan lehet lekérni a különböző papírméretek méreteit az egyes lépéseken keresztül. 
+
+## 1. lépés: Hozzon létre egy példányt a munkafüzet osztályból
+
+Az első dolog, amit meg kell tennie, hogy létrehozza a Workbook osztály példányát az Aspose.Cellsből. Ez az osztály egy Excel fájlt képvisel.
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## 2. lépés: Hozzáférés a táblázathoz
+Itt egyszerűen létrehozunk egy új munkafüzetet, amely tartalmazza a táblázat adatait és konfigurációit.
 
-Ezután a munkafüzetben arra a munkalapra kell navigálnunk, ahol be akarjuk állítani az oldalméreteket. Ebben a példában tegyük fel, hogy az első munkalappal szeretnénk dolgozni. A következő kóddal érhetjük el:
+## 2. lépés: Nyissa meg az első munkalapot
+
+A munkafüzet példányának létrehozása után el kell érnie az első munkalapot. Minden munkafüzet több munkalapot is tartalmazhat, de ehhez a bemutatóhoz ragaszkodunk az elsőhöz.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## 3. lépés: Állítsa be a papírméretet A2-re, és a nyomtatási szélességet és magasságot hüvelykben adja meg
+Ez a sor lekéri az első munkalapot, lehetővé téve a papírméretek beállítását és a megfelelő méretek lekérését.
 
-Most beállítjuk a papírméretet A2-re, és kinyomtatjuk az oldal szélességét és magasságát hüvelykben. Ez a következő kóddal érhető el:
+## 3. lépés: A papírméret beállítása A2-re és a méretek visszakeresése
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 4. lépés: Állítsa a papírméretet A3-ra, és a nyomtatási szélességet és magasságot hüvelykben adja meg
-
-Ezután beállítjuk a papírméretet A3-ra, és kinyomtatjuk az oldal szélességét és magasságát hüvelykben. Itt van a megfelelő kód:
+Itt az ideje beállítani a papírméretet és megragadni a méreteket! Kezdjük az A2-es papírmérettel.
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 5. lépés: Állítsa be a papírméretet A4-re, és a nyomtatási szélességet és magasságot hüvelykben adja meg
-
-Most beállítjuk a papírméretet A4-re, és kinyomtatjuk az oldal szélességét és magasságát hüvelykben. Íme a kód:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## 6. lépés: Állítsa a papírméretet Letter értékre, és nyomtassa ki a szélességet és magasságot hüvelykben
-
-Végül a papírméretet Letterre állítjuk, és kinyomtatjuk az oldal szélességét és magasságát hüvelykben. Íme a kód:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### Minta forráskód az oldalméretek lekéréséhez az Aspose.Cells for .NET használatával 
-```csharp
-// Hozzon létre egy példányt a munkafüzet osztályból
-Workbook book = new Workbook();
-// Az első munkalap elérése
-Worksheet sheet = book.Worksheets[0];
-// Állítsa be a papírméretet A2-re, és nyomtassa a papír szélességét és magasságát hüvelykben
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Állítsa be a papírméretet A3-ra, és nyomtassa a papír szélességét és magasságát hüvelykben
+```
+
+Ez a kód A2-re állítja a papírméretet, és azonnal kiadja a szélességet és a magasságot. Az Aspose.Cells szépsége az egyszerűségében rejlik!
+
+## 4. lépés: Ismételje meg más papírméretekkel
+
+Ezt a folyamatot meg kell ismételnie más papírméreteknél is, mint például az A3, A4 és Letter. Ezt a következőképpen teheti meg:
+
+A3 esetén:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Állítsa be a papírméretet A4-re, és nyomtassa a papír szélességét és magasságát hüvelykben
+```
+
+A4 esetén:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Állítsa a papírméretet Letter értékre, és nyomtassa a papír szélességét és magasságát hüvelykben
+```
+
+Levélhez:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## 5. lépés: A kimenet lezárása
+
+Végül meg kell erősítenie, hogy a teljes művelet sikeresen befejeződött. Ezt az állapotot egyszerűen bejelentkezhet a konzolba:
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## Következtetés
 
-Gratulálok ! Megtanulta, hogyan kérheti le az oldalméreteket az Aspose.Cells for .NET használatával. Ez a funkció akkor lehet hasznos, ha konkrét műveleteket kell végrehajtania az Excel-fájlok oldalméretei alapján.
+Gratulálok! Sikeresen megtanulta, hogyan kérheti le az oldalméreteket különböző papírméretekhez az Aspose.Cells for .NET segítségével. Függetlenül attól, hogy jelentéskészítő eszközöket, automatizált táblázatokat vagy adatelemzési funkciókat fejleszt, a különböző formátumok oldalméreteinek lekérése felbecsülhetetlen értékű lehet. 
 
-Ne felejtse el tovább vizsgálni az Aspose.Cells dokumentációját, hogy felfedezze az általa kínált összes hatékony funkciót.
+## GYIK
 
-### GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy .NET-könyvtár, amely Excel-fájlok létrehozására, kezelésére és konvertálására szolgál Microsoft Excel nélkül.
 
-#### 1. Milyen más papírméreteket támogat az Aspose.Cells for .NET?
+### Telepítenem kell a Microsoft Excelt az Aspose.Cells használatához?
+Nem, az Aspose.Cells egy önálló könyvtár, és nem szükséges az Excel telepítése.
 
-Az Aspose.Cells for .NET számos papírméretet támogat, beleértve az A1, A5, B4, B5, Executive, Legal, Letter és még sok más papírméretet. A támogatott papírméretek teljes listáját a dokumentációban tekintheti meg.
+### Hol találok további példákat az Aspose.Cells-re?
+ A dokumentációt itt tudod megnézni:[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).
 
-#### 2. Beállíthatok egyéni oldalméreteket az Aspose.Cells segítségével .NET-hez?
+### Létezik ingyenes próbaverzió az Aspose.Cells-nek?
+ Igen! Ingyenes próbaverziót szerezhet be:[Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/).
 
-Igen, egyéni oldalméreteket állíthat be a kívánt szélesség és magasság megadásával. Az Aspose.Cells teljes rugalmasságot kínál az oldalméretek testreszabásához az Ön igényei szerint.
-
-#### 3. Megadhatom az oldal méreteit hüvelyktől eltérő mértékegységben?
-
-Igen, az Aspose.Cells for .NET lehetővé teszi az oldalméretek különböző mértékegységekben, például hüvelykben, centiméterben, milliméterben és pontban történő megadását.
-
-#### 4. Az Aspose.Cells for .NET támogatja az oldalbeállítások egyéb szerkesztési funkcióit?
-
-Igen, az Aspose.Cells a funkciók teljes skáláját kínálja az oldalbeállítások szerkesztéséhez, beleértve a margók, tájolás, fejlécek és láblécek beállítását stb.
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+ Az Aspose támogatási fórumán segítséget kaphat:[Aspose.Cells támogatás](https://forum.aspose.com/c/cells/9).

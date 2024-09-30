@@ -2,7 +2,7 @@
 title: チャートのインタラクティブ性
 linktitle: チャートのインタラクティブ性
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用してインタラクティブなグラフを作成する方法を学びます。インタラクティブ性によりデータの視覚化を強化します。
+description: Aspose.Cells for Java を使用してインタラクティブなグラフを作成する方法を学びます。インタラクティブ性によってデータの視覚化を強化します。
 type: docs
 weight: 19
 url: /ja/java/advanced-excel-charts/chart-interactivity/
@@ -10,32 +10,32 @@ url: /ja/java/advanced-excel-charts/chart-interactivity/
 
 ## 導入
 
-インタラクティブなグラフはデータの視覚化に新しい次元を追加し、ユーザーがデータをより深く探索して理解できるようにします。このチュートリアルでは、Aspose.Cells for Java を使用して対話型グラフを作成する方法を説明します。ツールヒント、データ ラベル、ドリルダウン機能などの機能をグラフに追加して、データ プレゼンテーションをより魅力的なものにする方法を学びます。
+インタラクティブ チャートは、データの視覚化に新たな次元を追加し、ユーザーがデータをよりよく探索して理解できるようにします。このチュートリアルでは、Aspose.Cells for Java を使用してインタラクティブ チャートを作成する方法を説明します。ツールヒント、データ ラベル、ドリルダウン機能などの機能をチャートに追加して、データ プレゼンテーションをより魅力的にする方法を学びます。
 
 ## 前提条件
 
 始める前に、次の前提条件を満たしていることを確認してください。
 - Java開発環境
-- Aspose.Cells for Java ライブラリ (からダウンロード[ここ](https://releases.aspose.com/cells/java/)
+- Aspose.Cells for Java ライブラリ (ダウンロード先:[ここ](https://releases.aspose.com/cells/java/)
 
-## ステップ 1: Java プロジェクトをセットアップする
+## ステップ1: Javaプロジェクトの設定
 
 1. お気に入りの IDE で新しい Java プロジェクトを作成します。
 2. JAR ファイルを含めて、Aspose.Cells for Java ライブラリをプロジェクトに追加します。
 
-## ステップ 2: データのロード
+## ステップ2: データの読み込み
 
-インタラクティブなグラフを作成するには、データが必要です。まずは、Aspose.Cells を使用して Excel ファイルからサンプル データをロードしましょう。
+インタラクティブなグラフを作成するには、データが必要です。まず、Aspose.Cells を使用して Excel ファイルからサンプル データを読み込みます。
 
 ```java
-// Excelファイルをロードする
+// Excelファイルを読み込む
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## ステップ 3: グラフの作成
+## ステップ3: チャートを作成する
 
-次に、グラフを作成してワークシートに追加しましょう。
+それでは、グラフを作成してワークシートに追加してみましょう。
 
 ```java
 //縦棒グラフを作成する
@@ -43,9 +43,9 @@ int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## ステップ 4: インタラクティブ性の追加
+## ステップ4: インタラクティブ性の追加
 
-### 4.1.ツールチップの追加
+### 4.1. ツールチップの追加
 チャート シリーズにツールチップを追加するには、次のコードを使用します。
 
 ```java
@@ -54,7 +54,7 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowValue(true);
 ```
 
-### 4.2.データラベルの追加
+### 4.2. データラベルの追加
 グラフ シリーズにデータ ラベルを追加するには、次のコードを使用します。
 
 ```java
@@ -63,7 +63,7 @@ chart.getNSeries().get(0).getPoints().setHasDataLabels(true);
 chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(true);
 ```
 
-### 4.3.ドリルダウンの実装
+### 4.3. ドリルダウンの実装
 ドリルダウン機能を実装するには、ハイパーリンクを使用するか、カスタム アクションを作成します。データ ポイントにハイパーリンクを追加する例を次に示します。
 
 ```java
@@ -72,8 +72,8 @@ String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## ステップ 5: ワークブックを保存する
-最後に、対話型グラフを含むワークブックを保存します。
+## ステップ5: ワークブックを保存する
+最後に、インタラクティブ チャートを含むワークブックを保存します。
 
 ```java
 //ワークブックを保存する
@@ -82,22 +82,22 @@ workbook.save("interactive_chart_output.xlsx");
 
 ## 結論
 
-このチュートリアルでは、Aspose.Cells for Java を使用してインタラクティブなグラフを作成する方法を説明しました。ツールチップやデータラベルを追加する方法、さらにはドリルダウン機能を実装する方法も学びました。これらの機能により、グラフの対話性が強化され、ユーザーのデータ理解が向上します。
+このチュートリアルでは、Aspose.Cells for Java を使用してインタラクティブなグラフを作成する方法を説明しました。ツールヒントやデータ ラベルを追加する方法、さらにはドリルダウン機能を実装する方法も学習しました。これらの機能により、グラフのインタラクティブ性が強化され、ユーザーのデータ理解が向上します。
 
 ## よくある質問
 
 ### グラフの種類を変更するにはどうすればよいですか?
 
-グラフの種類を変更するには、`ChartType`チャート作成時のパラメータ。たとえば、次のように置き換えます。`ChartType.COLUMN`と`ChartType.LINE`折れ線グラフを作成します。
+チャートの種類を変更するには、`ChartType`チャートを作成するときにパラメータを使用します。たとえば、`ChartType.COLUMN`と`ChartType.LINE`折れ線グラフを作成します。
 
 ### ツールチップの外観をカスタマイズできますか?
 
-はい、Aspose.Cells API を通じてフォント サイズや背景色などのプロパティを調整することで、ツールチップの外観をカスタマイズできます。
+はい、Aspose.Cells API を使用してフォント サイズや背景色などのプロパティを調整することで、ツールチップの外観をカスタマイズできます。
 
-### Web アプリケーションでのユーザー インタラクションはどのように処理すればよいですか?
+### Web アプリケーションでユーザー操作を処理するにはどうすればよいですか?
 
-ユーザー操作を処理するには、JavaScript を Web アプリケーションとともに使用して、クリックやホバーアクションなどのチャート操作によってトリガーされるイベントをキャプチャできます。
+ユーザー操作を処理するには、Web アプリケーションとともに JavaScript を使用して、クリックやホバー操作などのチャート操作によってトリガーされるイベントをキャプチャできます。
 
-### 他の例やドキュメントはどこで入手できますか?
+### その他の例やドキュメントはどこで見つかりますか?
 
- Aspose.Cells for Java の使用に関するその他の例と詳細なドキュメントは、次の URL で参照できます。[Aspose.Cells Java API リファレンス](https://reference.aspose.com/cells/java/).
+ Aspose.Cells for Javaの使用に関する詳細な例とドキュメントについては、以下を参照してください。[Aspose.Cells Java API リファレンス](https://reference.aspose.com/cells/java/).

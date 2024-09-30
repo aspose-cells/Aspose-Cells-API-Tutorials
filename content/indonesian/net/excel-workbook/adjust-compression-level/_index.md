@@ -1,135 +1,151 @@
 ---
 title: Sesuaikan Tingkat Kompresi
 linktitle: Sesuaikan Tingkat Kompresi
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Kurangi ukuran buku kerja Excel Anda dengan menyesuaikan tingkat kompresi dengan Aspose.Cells untuk .NET.
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara menyesuaikan tingkat kompresi untuk file Excel menggunakan Aspose.Cells for .NET. Optimalkan ukuran file Anda secara efisien dengan panduan langkah demi langkah ini.
 type: docs
 weight: 50
 url: /id/net/excel-workbook/adjust-compression-level/
 ---
-Dalam tutorial langkah demi langkah ini, kami akan menjelaskan kode sumber C# yang disediakan yang memungkinkan Anda menyesuaikan tingkat kompresi menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah di bawah ini untuk menyesuaikan tingkat kompresi di buku kerja Excel Anda.
+## Perkenalan
 
-## Langkah 1: Tetapkan direktori sumber dan keluaran
+Saat menangani file Excel yang besar, penyimpanan yang efisien adalah kuncinya. Baik Anda seorang pengembang yang ingin mengoptimalkan ukuran file atau analis data yang ingin mempercepat transfer file, memahami cara menyesuaikan tingkat kompresi di Aspose.Cells untuk .NET dapat menjadi pengubah permainan. Dalam panduan ini, kami akan memandu Anda melalui langkah-langkah untuk menyesuaikan tingkat kompresi saat menyimpan file Excel, memastikan Anda mempertahankan kinerja tanpa mengorbankan kualitas.
 
-```csharp
-// direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Direktori keluaran
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## Prasyarat
 
-Pada langkah pertama ini, kami menentukan direktori sumber dan keluaran untuk file Excel.
+Sebelum menyelami seluk-beluk level kompresi, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-## Langkah 2: Muat Buku Kerja Excel
+1. Pengetahuan Dasar tentang C#: Pemahaman dasar tentang pemrograman C# sangatlah penting. Jika Anda memahami variabel, loop, dan operasi file dasar, Anda siap untuk memulai!
+2. Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/cells/net/) Jika Anda baru memulai, pertimbangkan untuk mengambil uji coba gratis[Di Sini](https://releases.aspose.com/).
+3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda, idealnya Visual Studio, untuk menulis dan mengeksekusi kode C# Anda. 
+4. Contoh Berkas Excel: Siapkan berkas Excel berukuran besar untuk pengujian. Anda dapat membuat berkas Excel atau menggunakan berkas yang sudah ada, tetapi pastikan ukurannya cukup besar untuk melihat efek kompresi.
 
-```csharp
-// Muat buku kerja Excel
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+Jika prasyarat ini terpenuhi, mari kita mulai!
 
-Kami memuat buku kerja Excel dari file yang ditentukan menggunakan`Workbook` kelas dari Aspose.Cells.
+## Paket Impor
 
-## Langkah 3: Tetapkan opsi cadangan
+Sebelum kita dapat memanipulasi file Excel, kita perlu mengimpor namespace yang diperlukan. Ini adalah langkah penting yang memungkinkan kita mengakses kelas dan metode yang disediakan oleh Aspose.Cells.
+
+### Impor Namespace Aspose.Cells
 
 ```csharp
-// Tentukan opsi cadangan
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- Kami membuat sebuah instance dari`XlsbSaveOptions` kelas untuk mengatur opsi penyimpanan.
+ Potongan kode ini mengimpor`Aspose.Cells` namespace, yang berisi semua kelas yang dibutuhkan untuk bekerja dengan file Excel.`Aspose.Cells.Xlsb` namespace khusus untuk menangani format file XLSB.
 
-## Langkah 4: Sesuaikan tingkat kompresi (Level 1)
+Setelah semuanya siap, mari kita bagi proses penyesuaian tingkat kompresi menjadi beberapa langkah yang mudah dikelola. Kita akan menyimpan buku kerja dengan berbagai tingkat kompresi dan mengukur waktu yang dibutuhkan untuk setiap operasi. 
 
-```csharp
-// Sesuaikan tingkat kompresi (Level 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## Langkah 1: Siapkan Direktori Anda
 
- Kami menyesuaikan tingkat kompresi dengan mengatur`CompressionType` ke`Level1`. Kemudian kami menyimpan buku kerja Excel dengan opsi kompresi yang ditentukan.
+Pertama-tama, kita perlu menentukan di mana file-file kita akan disimpan. Ini melibatkan penentuan direktori sumber untuk file input dan direktori output untuk file-file terkompresi.
 
-## Langkah 5: Sesuaikan tingkat kompresi (Level 6)
-
-```csharp
-// Sesuaikan tingkat kompresi (Level 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- Kami ulangi proses untuk menyesuaikan tingkat kompresi`Level6` dan simpan buku kerja Excel dengan opsi ini.
-
-## Langkah 6: Sesuaikan tingkat kompresi (Level 9)
-
-```csharp
-// Sesuaikan tingkat kompresi (Level 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- Kami mengulangi proses ini untuk terakhir kalinya untuk menyesuaikan tingkat kompresi`Level9` dan simpan buku kerja Excel dengan opsi ini.
-
-### Contoh kode sumber untuk Menyesuaikan Tingkat Kompresi menggunakan Aspose.Cells untuk .NET 
 ```csharp
 //Direktori sumber
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ Di Sini,`RunExamples.Get_SourceDirectory()` Dan`RunExamples.Get_OutputDirectory()` adalah metode yang mengembalikan jalur ke direktori sumber dan keluaran Anda, masing-masing. 
+
+## Langkah 2: Muat Buku Kerja
+
+Selanjutnya, kita akan memuat buku kerja Excel yang ingin kita kompres. Di sinilah Anda akan mengarahkan ke berkas Excel Anda yang besar.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ Baris ini menginisialisasi yang baru`Workbook` objek dengan file yang ditentukan. Pastikan jalur file sudah benar; jika tidak, Anda akan mengalami kesalahan.
+
+## Langkah 3: Buat Opsi Penyimpanan untuk XLSB
+
+ Sekarang, kita akan membuat sebuah instance dari`XlsbSaveOptions`, yang memungkinkan kita menentukan bagaimana kita ingin menyimpan buku kerja kita, termasuk tingkat kompresi.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+Baris ini mempersiapkan opsi yang akan kita gunakan untuk menyimpan buku kerja kita dalam format XLSB.
+
+## Langkah 4: Tetapkan dan Ukur Tingkat Kompresi
+
+Sekarang tibalah bagian yang menyenangkan! Kita akan menyimpan buku kerja menggunakan berbagai tingkat kompresi dan mengukur waktu yang dibutuhkan untuk setiap operasi. 
+
+### Kompresi Level 1
+
+Mari kita mulai dengan tingkat kompresi terendah:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Dalam cuplikan ini, kami menetapkan jenis kompresi ke Level 1, menyimpan buku kerja, dan mencatat waktu yang dibutuhkan. 
+
+### Kompresi Level 6
+
+Berikutnya, kita akan mencoba tingkat kompresi jarak menengah:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Kali ini, kami mengatur jenis kompresi ke Level 6 dan mengulangi operasi penyimpanan.
+
+### Kompresi Level 9
+
+Terakhir, mari simpan menggunakan tingkat kompresi tertinggi:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+Pada langkah ini, kami menetapkan jenis kompresi ke Level 9, yang seharusnya menghasilkan ukuran file terkecil tetapi mungkin memerlukan waktu lebih lama untuk disimpan.
+
+## Langkah 5: Hasil Akhir
+
+Setelah menjalankan semua langkah di atas, Anda akan melihat waktu yang telah berlalu untuk setiap tingkat kompresi yang dicetak pada konsol. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Baris ini mengonfirmasi bahwa seluruh proses telah diselesaikan tanpa masalah.
+
 ## Kesimpulan
 
-Selamat! Anda mempelajari cara menyesuaikan tingkat kompresi di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Bereksperimenlah dengan berbagai tingkat kompresi untuk menemukan yang paling sesuai dengan kebutuhan Anda.
+Menyesuaikan tingkat kompresi saat menyimpan file Excel dengan Aspose.Cells untuk .NET merupakan teknik yang mudah namun ampuh. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda dapat dengan mudah memanipulasi ukuran file, membuatnya lebih mudah dikelola untuk penyimpanan dan transfer. Apakah Anda memerlukan akses cepat ke data atau ingin mengoptimalkan kinerja aplikasi Anda, menguasai teknik-teknik ini niscaya akan meningkatkan keterampilan Anda sebagai pengembang.
 
-### FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T: Apa yang dimaksud dengan kompresi dalam buku kerja Excel?
+### Apa itu Aspose.Cells?
+Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
 
-A: Kompresi dalam buku kerja Excel adalah proses pengurangan ukuran file dengan menggunakan algoritma kompresi. Hal ini mengurangi ruang penyimpanan yang diperlukan dan meningkatkan kinerja saat memuat dan memanipulasi file.
+### Bagaimana cara mengunduh Aspose.Cells?
+ Anda dapat mengunduh pustaka Aspose.Cells dari[situs web](https://releases.aspose.com/cells/net/).
 
-#### T: Tingkat kompresi apa yang tersedia dengan Aspose.Cells?
+### Bisakah saya menggunakan Aspose.Cells secara gratis?
+ Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda akses[Di Sini](https://releases.aspose.com/).
 
-A: Dengan Aspose.Cells, Anda dapat mengatur tingkat kompresi dari 1 hingga 9. Semakin tinggi tingkat kompresi, ukuran file akan semakin kecil, namun juga dapat menambah waktu pemrosesan.
+### Apa saja tingkat kompresi yang tersedia?
+Aspose.Cells mendukung beberapa tingkat kompresi mulai dari Tingkat 1 (kompresi paling sedikit) hingga Tingkat 9 (kompresi maksimum).
 
-#### T: Bagaimana cara memilih tingkat kompresi yang tepat untuk buku kerja Excel saya?
-
-J: Pilihan tingkat kompresi bergantung pada kebutuhan spesifik Anda. Jika Anda ingin kompresi maksimum dan waktu pemrosesan tidak menjadi masalah, Anda dapat menggunakan level 9. Jika Anda lebih suka kompromi antara ukuran file dan waktu pemrosesan, Anda dapat memilih level perantara.
-
-#### T: Apakah kompresi mempengaruhi kualitas data di buku kerja Excel?
-
-J: Tidak, kompresi tidak mempengaruhi kualitas data di buku kerja Excel. Ini hanya mengurangi ukuran file menggunakan teknik kompresi tanpa mengubah data itu sendiri.
-
-#### T: Dapatkah saya menyesuaikan tingkat kompresi setelah menyimpan file Excel?
-
-A: Tidak, setelah Anda menyimpan file Excel dengan tingkat kompresi tertentu, Anda tidak dapat menyesuaikan tingkat kompresinya nanti. Anda perlu menyimpan file lagi dengan tingkat kompresi baru jika Anda ingin memodifikasinya.
+### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
+ Anda bisa mendapatkan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/cells/9).

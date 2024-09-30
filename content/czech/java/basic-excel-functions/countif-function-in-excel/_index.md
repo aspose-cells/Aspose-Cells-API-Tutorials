@@ -20,7 +20,7 @@ Aspose.Cells for Java je knihovna Java s bohatými funkcemi, která umožňuje v
 
 Než se vrhneme na používání funkce COUNTIF, musíme v našem projektu nastavit Aspose.Cells pro Javu. Chcete-li začít, postupujte takto:
 
-1. Stáhněte si knihovnu Aspose.Cells for Java: Knihovnu můžete získat z webu Aspose. Návštěva[tady](https://releases.aspose.com/cells/java/) ke stažení nejnovější verze.
+1. Stáhněte si knihovnu Aspose.Cells for Java: Knihovnu můžete získat z webu Aspose. Návštěva[zde](https://releases.aspose.com/cells/java/) ke stažení nejnovější verze.
 
 2. Přidejte knihovnu do svého projektu: Zahrňte stažený soubor JAR Aspose.Cells do cesty třídy svého projektu Java.
 
@@ -128,7 +128,7 @@ tomto článku jsme se naučili používat funkci COUNTIF v Excelu pomocí Aspos
 
 ### Jak mohu nainstalovat Aspose.Cells pro Java?
 
- Chcete-li nainstalovat Aspose.Cells for Java, stáhněte si knihovnu z[tady](https://releases.aspose.com/cells/java/) a přidejte soubor JAR do cesty třídy svého projektu Java.
+ Chcete-li nainstalovat Aspose.Cells for Java, stáhněte si knihovnu z[zde](https://releases.aspose.com/cells/java/) a přidejte soubor JAR do cesty třídy svého projektu Java.
 
 ### Mohu přizpůsobit kritéria pro funkci COUNTIF?
 
@@ -144,4 +144,4 @@ Mezi osvědčené postupy pro použití COUNTIF patří udržování jasných kr
 
 ### Kde najdu pokročilé výukové programy pro Aspose.Cells pro Javu?
 
- Pokročilé výukové programy a dokumentaci k Aspose.Cells pro Javu naleznete na adrese[tady](https://reference.aspose.com/cells/java/).
+ Pokročilé výukové programy a dokumentaci k Aspose.Cells pro Javu naleznete na adrese[zde](https://reference.aspose.com/cells/java/).

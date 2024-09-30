@@ -1,8 +1,8 @@
 ---
-title: Dateizugriff prüfen
-linktitle: Dateizugriff prüfen
+title: Überwachen des Dateizugriffs
+linktitle: Überwachen des Dateizugriffs
 second_title: Aspose.Cells Java Excel-Verarbeitungs-API
-description: Erfahren Sie, wie Sie den Dateizugriff mithilfe der Aspose.Cells für Java-API überwachen. Schritt-für-Schritt-Anleitung mit Quellcode und FAQs.
+description: Erfahren Sie, wie Sie den Dateizugriff mit Aspose.Cells für die Java-API prüfen. Schritt-für-Schritt-Anleitung mit Quellcode und FAQs.
 type: docs
 weight: 16
 url: /de/java/excel-data-security/auditing-file-access/
@@ -10,24 +10,24 @@ url: /de/java/excel-data-security/auditing-file-access/
 
 ## Einführung in die Überwachung des Dateizugriffs
 
-In diesem Tutorial erfahren Sie, wie Sie den Dateizugriff mithilfe der Aspose.Cells for Java-API überwachen. Aspose.Cells ist eine leistungsstarke Java-Bibliothek, mit der Sie Excel-Tabellen erstellen, bearbeiten und verwalten können. Wir zeigen Ihnen, wie Sie mithilfe dieser API Dateizugriffsaktivitäten in Ihrer Java-Anwendung verfolgen und protokollieren können.
+In diesem Tutorial erfahren Sie, wie Sie den Dateizugriff mithilfe der Aspose.Cells für Java-API prüfen. Aspose.Cells ist eine leistungsstarke Java-Bibliothek, mit der Sie Excel-Tabellen erstellen, bearbeiten und verwalten können. Wir zeigen Ihnen, wie Sie mithilfe dieser API Dateizugriffsaktivitäten in Ihrer Java-Anwendung verfolgen und protokollieren.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Stellen Sie zunächst sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) auf Ihrem System installiert.
--  Aspose.Cells für Java-Bibliothek. Sie können es hier herunterladen[Aspose.Cells für Java-Website](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells für Java-Bibliothek. Sie können es herunterladen von der[Aspose.Cells für Java-Website](https://releases.aspose.com/cells/java/).
 
 ## Schritt 1: Einrichten Ihres Java-Projekts
 
 1. Erstellen Sie ein neues Java-Projekt in Ihrer bevorzugten integrierten Entwicklungsumgebung (IDE).
 
-2. Fügen Sie Ihrem Projekt die Aspose.Cells for Java-Bibliothek hinzu, indem Sie die zuvor heruntergeladene JAR-Datei einschließen.
+2. Fügen Sie Ihrem Projekt die Bibliothek Aspose.Cells für Java hinzu, indem Sie die zuvor heruntergeladene JAR-Datei einbinden.
 
-## Schritt 2: Erstellen des Audit-Loggers
+## Schritt 2: Erstellen des Audit Loggers
 
- In diesem Schritt erstellen wir eine Klasse, die für die Protokollierung von Dateizugriffsaktivitäten verantwortlich ist. Nennen wir es`FileAccessLogger.java`. Hier ist eine grundlegende Implementierung:
+ In diesem Schritt erstellen wir eine Klasse, die für die Protokollierung von Dateizugriffsaktivitäten verantwortlich ist. Nennen wir sie`FileAccessLogger.java`. Hier ist eine grundlegende Implementierung:
 
 ```java
 import java.io.FileWriter;
@@ -55,7 +55,7 @@ Dieser Logger zeichnet Zugriffsereignisse in einer Textdatei auf.
 
 ## Schritt 3: Verwenden von Aspose.Cells zum Ausführen von Dateivorgängen
 
- Integrieren wir nun Aspose.Cells in unser Projekt, um Dateivorgänge auszuführen und Zugriffsaktivitäten zu protokollieren. Wir erstellen eine Klasse namens`ExcelFileManager.java`:
+ Integrieren wir nun Aspose.Cells in unser Projekt, um Dateioperationen und Protokollzugriffsaktivitäten durchzuführen. Wir erstellen eine Klasse namens`ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -65,7 +65,7 @@ public class ExcelFileManager {
     public static void openExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook(filename);
-            // Führen Sie nach Bedarf Vorgänge in der Arbeitsmappe durch
+            // Führen Sie nach Bedarf Vorgänge an der Arbeitsmappe aus
             FileAccessLogger.logAccess(username, filename, "opened");
         } catch (Exception e) {
             e.printStackTrace();
@@ -75,7 +75,7 @@ public class ExcelFileManager {
     public static void saveExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook();
-            // Führen Sie nach Bedarf Vorgänge in der Arbeitsmappe durch
+            // Führen Sie nach Bedarf Vorgänge an der Arbeitsmappe aus
             workbook.save(filename, FileFormatType.XLSX);
             FileAccessLogger.logAccess(username, filename, "saved");
         } catch (Exception e) {
@@ -85,20 +85,20 @@ public class ExcelFileManager {
 }
 ```
 
-## Schritt 4: Verwenden des Audit-Loggers in Ihrer Anwendung
+## Schritt 4: Verwenden des Audit Loggers in Ihrer Anwendung
 
- Jetzt, wo wir unsere haben`FileAccessLogger` Und`ExcelFileManager` Klassen können Sie diese wie folgt in Ihrer Anwendung verwenden:
+ Jetzt, da wir unsere`FileAccessLogger` Und`ExcelFileManager` Klassen können Sie sie in Ihrer Anwendung wie folgt verwenden:
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        String username = "john_doe"; // Ersetzen Sie ihn durch den tatsächlichen Benutzernamen
-        String filename = "example.xlsx"; // Ersetzen Sie ihn durch den tatsächlichen Dateipfad
+        String username = "john_doe"; // Ersetzen Sie es durch den tatsächlichen Benutzernamen.
+        String filename = "example.xlsx"; // Ersetzen Sie es durch den tatsächlichen Dateipfad.
 
         // Öffnen Sie die Excel-Datei
         ExcelFileManager.openExcelFile(filename, username);
 
-        // Führen Sie Vorgänge an der Excel-Datei durch
+        // Ausführen von Vorgängen an der Excel-Datei
 
         // Speichern Sie die Excel-Datei
         ExcelFileManager.saveExcelFile(filename, username);
@@ -108,22 +108,22 @@ public class Main {
 
 ## Abschluss
 
-In diesem umfassenden Leitfaden sind wir in die Welt der Aspose.Cells für Java API eingetaucht und haben gezeigt, wie Sie den Dateizugriff in Ihren Java-Anwendungen prüfen können. Durch das Befolgen der Schritt-für-Schritt-Anleitungen und die Verwendung von Quellcodebeispielen haben Sie wertvolle Einblicke in die Nutzung der Funktionen dieser leistungsstarken Bibliothek gewonnen.
+In diesem umfassenden Handbuch haben wir uns mit der Welt von Aspose.Cells für Java API befasst und gezeigt, wie Sie den Dateizugriff in Ihren Java-Anwendungen prüfen. Indem Sie die Schritt-für-Schritt-Anleitung befolgen und Quellcodebeispiele verwenden, haben Sie wertvolle Einblicke in die Nutzung der Funktionen dieser leistungsstarken Bibliothek gewonnen.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### Wie kann ich das Audit-Protokoll abrufen?
+### Wie kann ich das Prüfprotokoll abrufen?
 
-Um das Audit-Protokoll abzurufen, können Sie einfach den Inhalt des lesen`file_access_log.txt` Datei mithilfe der Dateilesefunktionen von Java.
+Um das Audit-Protokoll abzurufen, können Sie einfach den Inhalt des`file_access_log.txt` Datei mithilfe der Dateilesefunktionen von Java.
 
-### Kann ich das Protokollformat oder das Protokollziel anpassen?
+### Kann ich das Protokollformat oder das Ziel anpassen?
 
- Ja, Sie können das Protokollformat und das Ziel anpassen, indem Sie die ändern`FileAccessLogger` Klasse. Sie können den Protokolldateipfad und das Protokolleintragsformat ändern oder sogar eine andere Protokollierungsbibliothek wie Log4j verwenden.
+ Ja, Sie können das Protokollformat und das Ziel anpassen, indem Sie die`FileAccessLogger` Klasse. Sie können den Protokolldateipfad und das Protokolleintragsformat ändern oder sogar eine andere Protokollierungsbibliothek wie Log4j verwenden.
 
 ### Gibt es eine Möglichkeit, Protokolleinträge nach Benutzer oder Datei zu filtern?
 
- Sie können Filterlogik im implementieren`FileAccessLogger` Klasse. Fügen Sie Bedingungen zu Protokolleinträgen basierend auf Benutzer- oder Dateikriterien hinzu, bevor Sie in die Protokolldatei schreiben.
+ Sie können eine Filterlogik implementieren in der`FileAccessLogger` Klasse. Fügen Sie den Protokolleinträgen Bedingungen basierend auf Benutzer- oder Dateikriterien hinzu, bevor Sie in die Protokolldatei schreiben.
 
-### Welche anderen Aktionen kann ich außer dem Öffnen und Speichern von Dateien protokollieren?
+### Welche Aktionen kann ich außer dem Öffnen und Speichern von Dateien noch protokollieren?
 
- Sie können die erweitern`ExcelFileManager` Klasse, um je nach den Anforderungen Ihrer Anwendung andere Aktionen wie das Bearbeiten, Löschen oder Freigeben von Dateien zu protokollieren.
+ Sie können die`ExcelFileManager` Klasse, um andere Aktionen wie das Bearbeiten, Löschen oder Freigeben von Dateien zu protokollieren, abhängig von den Anforderungen Ihrer Anwendung.

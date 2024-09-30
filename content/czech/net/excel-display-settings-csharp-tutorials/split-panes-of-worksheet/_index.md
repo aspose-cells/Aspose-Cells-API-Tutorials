@@ -2,98 +2,107 @@
 title: Rozdělit Panely Listu
 linktitle: Rozdělit Panely Listu
 second_title: Aspose.Cells for .NET API Reference
-description: Podrobný průvodce rozdělením podoken v listu aplikace Excel pomocí Aspose.Cells pro .NET.
+description: Naučte se, jak rozdělit panely listů v Aspose.Cells pro .NET pomocí našeho podrobného průvodce. Vylepšete navigaci v souborech Excel pomocí tohoto jednoduchého návodu.
 type: docs
 weight: 130
 url: /cs/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
-V tomto tutoriálu vysvětlíme, jak rozdělit podokna v listu aplikace Excel pomocí Aspose.Cells for .NET. Chcete-li dosáhnout požadovaného výsledku, postupujte takto:
+## Zavedení
 
-## Krok 1: Nastavení prostředí
+Jste připraveni rozdělit podokna listu aplikace Excel pomocí Aspose.Cells for .NET? Představte si toto: máte obrovský excelový list a už vás nebaví neustále se posouvat zpět k záhlavím, abyste si vzpomněli, se kterým sloupcem pracujete. Zadejte "Rozdělit panely". Tato užitečná funkce vám umožňuje zmrazit část listu, což výrazně usnadňuje navigaci. Ať už pracujete s finančními daty, správou zásob nebo rozsáhlými datovými sadami, rozdělení panelů může zvýšit vaši produktivitu desetkrát. 
 
-Ujistěte se, že jste nainstalovali Aspose.Cells for .NET a nastavili své vývojové prostředí. Také se ujistěte, že máte kopii souboru Excel, na který chcete rozdělit podokna.
+## Předpoklady
 
-## Krok 2: Importujte potřebné závislosti
+Než začneme rozdělovat panely jako průvodce tabulkovým procesorem, udělejme si správné nastavení. Zde je to, co budete potřebovat:
 
-Přidejte potřebné direktivy pro použití tříd z Aspose.Cells:
+-  Aspose.Cells for .NET: Ujistěte se, že jste si jej stáhli a nainstalovali. Pokud ještě nemáte, vezměte si to[zde](https://releases.aspose.com/cells/net/).
+- .NET Framework: Tato příručka předpokládá, že pracujete v prostředí .NET.
+- Sešit aplikace Excel: Použijeme vzorový soubor aplikace Excel, abychom ukázali, jak tato funkce funguje.
+-  Dočasná nebo úplná licence: Aspose.Cells vyžaduje licenci. Pokud to jen zkoušíte, pořiďte si[dočasná licence zdarma](https://purchase.aspose.com/temporary-license/) abyste se vyhnuli omezením hodnocení.
+
+## Importujte balíčky
+
+Než se vrhneme na kód, nejprve naimportujeme potřebné jmenné prostory. Bez těchto zahrnutí nemůžete v Aspose.Cells dělat nic.
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Krok 3: Inicializace kódu
+Nyní, když jsme probrali to podstatné, přejděme k té vzrušující části – dělení tabulí!
 
-Začněte inicializací cesty k adresáři obsahujícímu vaše dokumenty Excel:
+## Krok 1: Vytvořte sešit
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-```
+ Prvním krokem v tomto procesu je vytvoření a`Workbook` objekt, který bude reprezentovat soubor Excel, který chcete upravit. V tomto případě načteme soubor z adresáře. Toto je vaše plátno, list Excelu, na kterém budete kouzlit.
 
-## Krok 4: Otevření souboru Excel
-
- Vytvořte nový`Workbook` objekt a otevřete soubor Excel pomocí`Open` metoda:
+Než budeme moci rozdělit panely, potřebujeme sešit, se kterým budeme pracovat! Tento krok je stejně nezbytný jako otevření knihy, než ji začnete číst.
 
 ```csharp
-Workbook book = new Workbook(dataDir + "Book1.xls");
-```
-
-## Krok 5: Definujte aktivní buňku
-
- Nastavte aktivní buňku listu pomocí`ActiveCell` vlastnictví:
-
-```csharp
-book.Worksheets[0].ActiveCell = "A20";
-```
-
-## Krok 6: Rozdělení klapek
-
- Rozdělte okno listu pomocí`Split` metoda:
-
-```csharp
-book.Worksheets[0].Split();
-```
-
-## Krok 7: Uložení změn
-
-Uložte změny provedené v souboru Excel:
-
-```csharp
-book.Save(dataDir + "output.xls");
-```
-
-### Ukázka zdrojového kódu pro Split Panes Of Worksheet pomocí Aspose.Cells pro .NET 
-
-```csharp
-//Cesta k adresáři dokumentů.
+//Cesta k adresáři dokumentů
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+
 // Vytvořte instanci nového sešitu a otevřete soubor šablony
 Workbook book = new Workbook(dataDir + "Book1.xls");
+```
+
+ Ve výše uvedeném kódu nahraďte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš soubor Excel. The`Workbook` třída načte soubor Excel do paměti.
+
+## Krok 2: Nastavte aktivní buňku
+
+ Po načtení sešitu je čas nastavit aktivní buňku. Z hlediska Excelu je aktivní buňka ta, která je aktuálně vybraná nebo aktivní. V tomto tutoriálu vybereme buňku`A20` v prvním pracovním listu.
+
+Nastavení aktivní buňky je zásadní, protože rozdělení podokna začíná od této aktivní buňky. Je to jako vybírat si, kde uděláte první řez v pizze – vyberte si svůj plátek!
+
+```csharp
 // Nastavte aktivní buňku
 book.Worksheets[0].ActiveCell = "A20";
+```
+
+ Tento kus kódu vytváří`A20` aktivní buňku. Je to důležité, protože k rozdělení dochází kolem tohoto bodu, stejně jako se vaše navigace v Excelu často soustředí kolem konkrétní buňky.
+
+## Krok 3: Rozdělte pracovní list
+
+Nyní, když je aktivní buňka nastavena, přejděme k zábavnější části – rozdělení listu! V tomto kroku se stane kouzlo. Pro snadnější prohlížení a navigaci budete moci list rozdělit do několika podoken.
+
+Toto je jádro celého tutoriálu. Rozdělením listu vytvoříte samostatná podokna, která vám umožní procházet různými sekcemi listu aplikace Excel, aniž byste ztratili ze zřetele záhlaví nebo jiné důležité oblasti.
+
+```csharp
 // Rozdělte okno listu
 book.Worksheets[0].Split();
+```
+
+ s`Split()` říkáte Aspose.Cells, aby rozdělil list v aktivní buňce (`A20` v tomto případě). Od tohoto okamžiku Excel vytvoří v listu rozdělení, které odděluje podokna, abyste mohli procházet nezávisle.
+
+## Krok 4: Uložte sešit
+
+Po rozdělení podoken už zbývá jen uložit práci. Tento poslední krok zajistí, že se vaše změny uloží do zadaného výstupního souboru.
+
+K čemu je všechna vaše dřina, když si ji neušetříte? Úspora zajišťuje, že vaše krásně rozdělené tabule zůstanou neporušené pro budoucí použití.
+
+```csharp
 // Uložte soubor aplikace Excel
 book.Save(dataDir + "output.xls");
 ```
 
+ Tady,`Save()`metoda uloží sešit s nově rozdělenými panely do výstupního souboru aplikace Excel. Změny, které jste provedli, jsou nyní připraveny k použití vy nebo kdokoli jiný.
+
 ## Závěr
 
-tomto kurzu jste se naučili, jak rozdělit podokna v listu aplikace Excel pomocí Aspose.Cells for .NET. Podle popsaných kroků můžete snadno přizpůsobit vzhled a chování svých souborů aplikace Excel.
+A tady to máte! Právě jste se naučili, jak rozdělit podokna v listu aplikace Excel pomocí Aspose.Cells for .NET. Už žádné nekonečné posouvání nebo ztráta přehledu o vašich datech. Díky této metodě je manipulace s velkými soubory aplikace Excel mnohem méně zahlcující a mnohem efektivnější. Díky možnosti rozdělit panely můžete nyní sledovat kritické datové body při práci se složitými tabulkami.
 
-### Často kladené otázky (FAQ)
+## FAQ
 
-#### Co je Aspose.Cells pro .NET?
+### Mohu rozdělit více než dva panely?  
+ Ano, list můžete rozdělit do více podoken zadáním různých aktivních buněk a voláním`Split()` metoda.
 
-Aspose.Cells for .NET je oblíbená softwarová knihovna pro manipulaci se soubory Excel v aplikacích .NET.
+### Jaký je rozdíl mezi dělicími tabulemi a mrazicími tabulemi?  
+Rozdělení panelů umožňuje posouvat se v obou panelech nezávisle. Ukotvení podoken uzamkne záhlaví nebo konkrétní řádky/sloupce, aby zůstaly viditelné při posouvání.
 
-#### Jak mohu nastavit aktivní buňku listu v Aspose.Cells?
+### Mohu rozštěp odstranit po jeho aplikaci?  
+Ano, rozdělení můžete odstranit zavřením a opětovným otevřením sešitu nebo jeho programovým resetem.
 
- Aktivní buňku můžete nastavit pomocí`ActiveCell`vlastnost objektu Worksheet.
+### Fungují rozdělovací panely stejně pro různé formáty souborů Excel (XLS, XLSX)?  
+ Ano,`Split()` metoda funguje pro formáty XLS i XLSX.
 
-#### Mohu rozdělit pouze horizontální nebo vertikální podokna okna listu?
-
- Ano, pomocí Aspose.Cells můžete rozdělit pouze horizontální nebo vertikální panely pomocí vhodných metod, jako je např`SplitColumn` nebo`SplitRow`.
-
-#### Funguje Aspose.Cells pouze se soubory aplikace Excel ve formátu .xls?
-
-Ne, Aspose.Cells podporuje různé formáty souborů Excel včetně .xls a .xlsx.
+### Mohu používat Aspose.Cells bez licence?  
+ Ano, ale přichází to s omezeními. Pro plnohodnotný zážitek je nejlepší použít a[dočasný](https://purchase.aspose.com/temporary-license/) nebo[placenou licenci](https://purchase.aspose.com/buy).

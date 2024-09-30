@@ -15,7 +15,7 @@ A mai adatközpontú világban az importált adatok pontosságának és megbízh
 Mielőtt belemerülnénk a megvalósításba, ismerjük meg az adatérvényesítés alapjait. Az adatellenőrzés az adatok pontosságának, integritásának és teljességének ellenőrzése, mielőtt azokat egy alkalmazásba vagy adatbázisba importálnák. Segít megelőzni a hibákat, és biztosítja, hogy csak érvényes adatok kerüljenek elfogadásra.
 
 ## 1. lépés: A környezet beállítása
-Utunk megkezdéséhez először be kell állítanunk a fejlesztői környezetet. Kovesd ezeket a lepeseket:
+Utunk megkezdéséhez először be kell állítanunk a fejlesztői környezetet. Kövesse az alábbi lépéseket:
 
 1. Java Development Kit (JDK) telepítése: Győződjön meg arról, hogy a JDK telepítve van a rendszeren. Letöltheti az Oracle webhelyéről.
 

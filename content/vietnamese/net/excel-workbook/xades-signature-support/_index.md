@@ -1,49 +1,89 @@
 ---
 title: Hỗ trợ chữ ký Xades
 linktitle: Hỗ trợ chữ ký Xades
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tìm hiểu cách thêm chữ ký Xades vào tệp Excel bằng Aspose.Cells cho .NET.
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách thêm chữ ký Xades vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn.
 type: docs
 weight: 190
 url: /vi/net/excel-workbook/xades-signature-support/
 ---
-Trong bài viết này, chúng tôi sẽ hướng dẫn bạn từng bước để giải thích mã nguồn C# bên dưới, về hỗ trợ chữ ký Xades bằng thư viện Aspose.Cells cho .NET. Bạn sẽ tìm hiểu cách sử dụng thư viện này để thêm chữ ký số Xades vào tệp Excel. Chúng tôi cũng sẽ cung cấp cho bạn cái nhìn tổng quan về quá trình ký kết và việc thực hiện nó. Thực hiện theo các bước dưới đây để có được kết quả cuối cùng.
+## Giới thiệu
 
-## Bước 1: Xác định thư mục nguồn và đầu ra
-Để bắt đầu, chúng ta cần xác định thư mục nguồn và đầu ra trong mã của mình. Các thư mục này cho biết vị trí của tệp nguồn và nơi tệp đầu ra sẽ được lưu. Đây là mã tương ứng:
+Trong thế giới kỹ thuật số ngày nay, việc bảo mật tài liệu trở nên quan trọng hơn bao giờ hết. Cho dù bạn đang xử lý thông tin kinh doanh nhạy cảm hay dữ liệu cá nhân, việc đảm bảo tính toàn vẹn và tính xác thực của các tệp của bạn là tối quan trọng. Một cách để đạt được điều này là thông qua chữ ký số, và cụ thể là chữ ký Xades. Nếu bạn là nhà phát triển .NET đang tìm cách triển khai hỗ trợ chữ ký Xades trong các ứng dụng của mình, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm chữ ký Xades vào các tệp Excel bằng Aspose.Cells cho .NET. Vậy, hãy cùng bắt đầu ngay nhé!
+
+## Điều kiện tiên quyết
+
+Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
+
+1.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2. Môi trường phát triển: Môi trường phát triển .NET đang hoạt động (như Visual Studio) nơi bạn có thể viết và thực thi mã của mình.
+3. Chứng chỉ số: Bạn cần một chứng chỉ số hợp lệ (tệp PFX) có mật khẩu. Chứng chỉ này rất cần thiết để tạo chữ ký số.
+4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
+
+Khi đã đáp ứng được các điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu triển khai chữ ký Xades vào tệp Excel của mình!
+
+## Nhập gói
+
+Để làm việc với Aspose.Cells cho .NET, bạn cần nhập các không gian tên cần thiết. Sau đây là cách bạn có thể thực hiện:
 
 ```csharp
-// Thư mục nguồn
+using Aspose.Cells.DigitalSignatures;
+using System;
+using System.IO;
+```
+
+Các không gian tên này cung cấp quyền truy cập vào các lớp và phương thức cần thiết để làm việc với các tệp Excel và quản lý chữ ký số.
+
+Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình thêm chữ ký Xades vào tệp Excel thành các bước rõ ràng, dễ quản lý.
+
+## Bước 1: Thiết lập thư mục nguồn và thư mục đầu ra của bạn
+
+Đầu tiên, chúng ta cần xác định vị trí tệp Excel nguồn của mình và nơi chúng ta muốn lưu tệp đầu ra đã ký. Đây là bước quan trọng vì nó giúp sắp xếp các tệp của bạn một cách hiệu quả.
+
+```csharp
+//Thư mục nguồn
 string sourceDir = RunExamples.Get_SourceDirectory();
 // Thư mục đầu ra
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-Hãy chắc chắn điều chỉnh các đường dẫn thư mục nếu cần.
+ Trong đoạn mã này,`RunExamples.Get_SourceDirectory()` Và`RunExamples.Get_OutputDirectory()` là các phương pháp trả về đường dẫn đến thư mục nguồn và thư mục đầu ra của bạn. Hãy đảm bảo thay thế các đường dẫn này bằng đường dẫn thực tế nếu bạn không sử dụng các phương pháp này.
 
-## Bước 2: Tải sổ làm việc Excel
-Bước tiếp theo là tải sổ làm việc Excel mà chúng tôi muốn thêm chữ ký số Xades. Đây là mã để tải sổ làm việc:
+## Bước 2: Tải Workbook
+
+Tiếp theo, hãy tải sổ làm việc Excel mà chúng ta muốn ký. Đây là nơi bạn sẽ tải tệp Excel hiện có của mình.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
 
-Đảm bảo chỉ định chính xác tên tệp nguồn trong mã.
+ Ở đây, chúng ta tạo một phiên bản mới của`Workbook` lớp, truyền đường dẫn của tệp Excel nguồn. Đảm bảo rằng tên tệp khớp với tên bạn có trong thư mục nguồn.
 
-## Bước 3: Cấu hình chữ ký số
-Bây giờ chúng tôi sẽ định cấu hình chữ ký số Xades bằng cách cung cấp thông tin cần thiết. Chúng tôi phải chỉ định tệp PFX chứa chứng chỉ kỹ thuật số cũng như mật khẩu liên quan. Đây là mã tương ứng:
+## Bước 3: Chuẩn bị chứng chỉ số của bạn
+
+Để tạo chữ ký số, bạn cần tải chứng chỉ số của mình. Điều này bao gồm việc đọc tệp PFX và cung cấp mật khẩu cho tệp đó.
 
 ```csharp
-string password = "pfxPassword";
-string pfx = "pfxFile";
+string password = "pfxPassword"; // Thay thế bằng mật khẩu PFX của bạn
+string pfx = "pfxFile"; // Thay thế bằng đường dẫn đến tệp PFX của bạn
+```
+
+ Trong bước này, thay thế`pfxPassword` với mật khẩu thực tế của bạn và`pfxFile`với đường dẫn đến tệp PFX của bạn. Đây là chìa khóa để ký tài liệu của bạn!
+
+## Bước 4: Tạo chữ ký số
+
+ Bây giờ, chúng ta hãy tạo chữ ký số bằng cách sử dụng`DigitalSignature` lớp học. Đây chính là nơi phép thuật xảy ra!
+
+```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
 ```
 
-Đảm bảo thay thế "pfxPassword" bằng mật khẩu thực của bạn và "pfxFile" bằng đường dẫn đến tệp PFX.
+ Trong đoạn mã này, chúng tôi đọc tệp PFX vào một mảng byte và tạo một mảng mới`DigitalSignature` đối tượng. Chúng tôi cũng thiết lập`XAdESType` ĐẾN`XAdES`, điều này rất cần thiết cho chữ ký của chúng tôi.
 
-## Bước 4: Thêm chữ ký số
-Bây giờ chúng ta đã cấu hình chữ ký điện tử, chúng ta có thể thêm nó vào sổ làm việc Excel. Đây là mã tương ứng:
+## Bước 5: Thêm chữ ký vào sổ làm việc
+
+Sau khi tạo chữ ký số, bước tiếp theo là thêm chữ ký đó vào sổ làm việc.
 
 ```csharp
 DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
@@ -51,48 +91,37 @@ dsCollection.Add(signature);
 workbook.SetDigitalSignature(dsCollection);
 ```
 
-Bước này thêm chữ ký số Xades vào sổ làm việc Excel.
+ Ở đây, chúng tôi tạo ra một`DigitalSignatureCollection`, thêm chữ ký của chúng tôi vào đó, sau đó đặt bộ sưu tập này vào sổ làm việc. Đây là cách chúng tôi đính kèm chữ ký vào tệp Excel.
 
-## Bước 5: Lưu bảng tính có chữ ký
-Cuối cùng, chúng ta lưu sổ làm việc Excel có thêm chữ ký điện tử. Đây là mã tương ứng:
+## Bước 6: Lưu sổ làm việc đã ký
+
+Cuối cùng, đã đến lúc lưu sổ làm việc đã ký vào thư mục đầu ra. Bước này hoàn tất quy trình.
 
 ```csharp
-workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
-```
-
-Đảm bảo điều chỉnh tên của tệp đầu ra theo nhu cầu của bạn.
-
-### Mã nguồn mẫu cho Hỗ trợ chữ ký Xades bằng Aspose.Cells cho .NET 
-```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
-//Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
-string password = "pfxPassword";
-string pfx = "pfxFile";
-DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
-signature.XAdESType = XAdESType.XAdES;
-DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
-dsCollection.Add(signature);
-workbook.SetDigitalSignature(dsCollection);
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 
+ Trong mã này, chúng ta lưu sổ làm việc với tên mới,`XAdESSignatureSupport_out.xlsx`, trong thư mục đầu ra. Bạn sẽ thấy thông báo thành công trong bảng điều khiển sau khi hoàn tất bước này.
+
 ## Phần kết luận
-Xin chúc mừng! Bạn đã học cách sử dụng thư viện Aspose.Cells cho .NET để thêm chữ ký số Xades vào tệp Excel. Bằng cách làm theo các bước được cung cấp trong bài viết này, bạn sẽ có thể triển khai chức năng này trong các dự án của riêng mình. Hãy thoải mái thử nghiệm nhiều hơn với thư viện và khám phá các tính năng mạnh mẽ khác mà nó cung cấp.
 
-### Câu hỏi thường gặp
+Và bạn đã có nó! Bạn đã thêm thành công chữ ký Xades vào tệp Excel của mình bằng Aspose.Cells cho .NET. Quá trình này không chỉ tăng cường tính bảo mật cho tài liệu của bạn mà còn xây dựng lòng tin với người dùng bằng cách đảm bảo tính xác thực của tệp. 
+Chữ ký số là một phần thiết yếu của việc quản lý tài liệu hiện đại và với sức mạnh của Aspose.Cells, bạn có thể dễ dàng triển khai chúng trong các ứng dụng của mình.
 
-#### Hỏi: Xades là gì?
+## Câu hỏi thường gặp
 
-Trả lời: Xades là một tiêu chuẩn chữ ký điện tử tiên tiến được sử dụng để đảm bảo tính toàn vẹn và xác thực của tài liệu kỹ thuật số.
+### Chữ ký Xades là gì?
+Xades (Chữ ký điện tử nâng cao XML) là một tiêu chuẩn cho chữ ký số cung cấp các tính năng bổ sung để đảm bảo tính toàn vẹn và xác thực của tài liệu điện tử.
 
-#### Câu hỏi: Tôi có thể sử dụng các loại chữ ký số khác với Aspose.Cells không?
+### Tôi có cần chứng chỉ số để tạo chữ ký Xades không?
+Có, bạn cần có chứng chỉ số hợp lệ (tệp PFX) để tạo chữ ký Xades.
 
-Trả lời: Có, Aspose.Cells cũng hỗ trợ các loại chữ ký số khác, chẳng hạn như chữ ký XMLDSig và chữ ký PKCS#7.
+### Tôi có thể dùng thử Aspose.Cells cho .NET trước khi mua không?
+ Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
 
-#### Hỏi: Tôi có thể áp dụng chữ ký cho các loại tệp khác ngoài tệp Excel không?
- 
-Trả lời: Có, Aspose.Cells cũng cho phép áp dụng chữ ký số cho các loại tệp được hỗ trợ khác như tệp Word, PDF và PowerPoint.
+### Aspose.Cells có tương thích với tất cả các phiên bản .NET không?
+Aspose.Cells hỗ trợ nhiều phiên bản khác nhau của .NET framework. Kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để biết thông tin chi tiết về khả năng tương thích.
+
+### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
+ Bạn có thể ghé thăm[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được cộng đồng hỗ trợ và giúp đỡ.

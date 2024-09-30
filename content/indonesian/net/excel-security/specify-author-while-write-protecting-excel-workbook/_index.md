@@ -1,109 +1,113 @@
 ---
-title: Tentukan Penulis Saat Menulis Melindungi Buku Kerja Excel
-linktitle: Tentukan Penulis Saat Menulis Melindungi Buku Kerja Excel
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Pelajari cara memproteksi dan mengkustomisasi buku kerja Excel Anda menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah di C#.
+title: Tentukan Penulis Saat Melindungi Buku Kerja Excel
+linktitle: Tentukan Penulis Saat Melindungi Buku Kerja Excel
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara melindungi buku kerja Excel Anda saat menentukan penulis menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 type: docs
 weight: 30
 url: /id/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
+## Perkenalan
 
-Dalam tutorial ini, kami akan memperlihatkan kepada Anda cara menentukan penulis saat proteksi penulisan buku kerja Excel menggunakan pustaka Aspose.Cells untuk .NET.
+Jika berbicara tentang bekerja dengan file Excel dalam aplikasi .NET, Aspose.Cells adalah solusi yang tepat bagi banyak pengembang. Rangkaian fungsinya yang lengkap memungkinkan Anda membuat, memanipulasi, dan mengamankan file Excel dengan mudah. Salah satu persyaratan umum yang dihadapi pengembang adalah menulis ke buku kerja Excel sambil memastikannya terlindungi dari penyuntingan yang tidak sah. Lebih jauh, menentukan penulis dapat sangat berguna untuk tujuan pelacakan saat membagikan dokumen. Dalam panduan ini, kita akan membahas secara mendalam cara menentukan penulis sambil melindungi buku kerja Excel menggunakan Aspose.Cells untuk .NET.
 
-## Langkah 1: Mempersiapkan lingkungan
+## Prasyarat
 
-Sebelum memulai, pastikan Anda telah menginstal Aspose.Cells for .NET di mesin Anda. Unduh perpustakaan dari situs resmi Aspose dan ikuti petunjuk instalasi yang disediakan.
+Sebelum kita menyelami seluk-beluk implementasi, penting untuk memiliki landasan yang kuat. Berikut adalah prasyarat yang Anda perlukan untuk memulai:
 
-## Langkah 2: Mengonfigurasi direktori sumber dan keluaran
+1. Visual Studio: Anda memerlukan instalasi Visual Studio yang berfungsi. Di sinilah Anda akan menulis dan mengompilasi kode .NET Anda.
+2. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Aspose.Cells mendukung berbagai versi, jadi pilihlah yang sesuai dengan aplikasi Anda.
+3.  Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells. Anda bisa mendapatkannya dari[halaman unduhan resmi](https://releases.aspose.com/cells/net/).
+4. Pemahaman Dasar C#: Keakraban dengan C# akan membantu Anda menavigasi proses pengkodean dengan mudah.
 
-Dalam kode sumber yang disediakan, Anda harus menentukan direktori sumber dan keluaran. Ubah`sourceDir` Dan`outputDir` variabel dengan mengganti "DIREKTORI SUMBER ANDA" dan "DIREKTORI OUTPUT ANDA" dengan jalur absolut masing-masing pada mesin Anda.
+## Paket Impor
 
-```csharp
-// Direktori sumber
-string sourceDir = "PATH TO YOUR SOURCE DIRECTORY";
-
-// Direktori keluaran
-string outputDir = "YOUR OUTPUT DIRECTORY PATH";
-```
-
-## Langkah 3: Membuat buku kerja Excel kosong
-
-Untuk memulai, kita membuat objek Buku Kerja yang mewakili buku kerja Excel kosong.
+Untuk memanfaatkan fungsionalitas yang disediakan oleh Aspose.Cells secara maksimal, mari kita mulai dengan mengimpor paket-paket yang diperlukan. Mulailah berkas C# Anda dengan menambahkan perintah berikut:
 
 ```csharp
-// Buat buku kerja kosong.
-Workbook wb = new Workbook();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## Langkah 4: Tulis proteksi dengan kata sandi
+Direktif ini akan memungkinkan Anda mengakses kelas dan metode yang disertakan dalam pustaka Aspose.Cells. Sekarang setelah paket-paket kita diimpor, mari beralih ke bagian yang menyenangkan—menulis kode!
 
- Selanjutnya, kami menentukan kata sandi untuk menulis proteksi buku kerja Excel menggunakan`WriteProtection.Password` milik objek Buku Kerja.
+## Langkah 1: Siapkan Direktori Anda
 
-```csharp
-// Tulis proteksi buku kerja dengan kata sandi.
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-```
+Sebelum Anda memulai buku kerja, ada baiknya Anda mengatur jalur tempat file sumber berada dan tempat Anda ingin menyimpan output. Berikut cara melakukannya:
 
-## Langkah 5: Spesifikasi penulis
-
- Sekarang kita tentukan penulis buku kerja Excel menggunakan`WriteProtection.Author` milik objek Buku Kerja.
-
-```csharp
-// Tentukan penulis saat menulis buku kerja pelindung.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-```
-
-## Langkah 6: Cadangkan Buku Kerja Excel yang Dilindungi
-
- Setelah perlindungan penulisan dan pembuatnya ditentukan, kita dapat menyimpan buku kerja Excel dalam format XLSX menggunakan`Save()` metode.
-
-```csharp
-// Simpan buku kerja dalam format XLSX.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-```
-
-### Contoh kode sumber untuk Tentukan Penulis Saat Menulis Melindungi Buku Kerja Excel menggunakan Aspose.Cells untuk .NET 
 ```csharp
 //Direktori sumber
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
-//Direktori keluaran
+// Direktori keluaran
 string outputDir = "YOUR OUTPUT DIRECTORY";
+```
 
-// Buat buku kerja kosong.
+ Pastikan untuk mengganti`"YOUR SOURCE DIRECTORY"` Dan`"YOUR OUTPUT DIRECTORY"` dengan jalur aktual di mesin Anda. Anggap ini sebagai pembuatan ruang kerja yang rapi sebelum Anda mulai membuat karya agung Anda!
+
+## Langkah 2: Buat Buku Kerja Kosong
+
+Setelah direktori kita disiapkan, langkah selanjutnya adalah membuat buku kerja kosong. Ini pada dasarnya adalah kanvas tempat Anda akan menulis data.
+
+```csharp
+// Membuat buku kerja kosong.
 Workbook wb = new Workbook();
+```
 
-// Tulis proteksi buku kerja dengan kata sandi.
+Sama seperti seniman yang memulai dengan kanvas kosong, Anda memulai dengan buku kerja kosong yang nantinya dapat Anda masukkan data atau pemformatan.
+
+## Langkah 3: Lindungi Buku Kerja dari Penulisan
+
+Perlindungan penulisan merupakan aspek penting, terutama jika Anda ingin memastikan integritas data Anda tetap utuh. Anda dapat melakukannya dengan kata sandi.
+
+```csharp
+// Lindungi buku kerja dari penulisan dengan kata sandi.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
+```
 
-// Tentukan penulis saat menulis buku kerja pelindung.
+ Pada baris ini, ganti`"YOUR_PASSWORD"` dengan kata sandi kuat pilihan Anda. Kata sandi ini berfungsi seperti pintu terkunci—hanya mereka yang memiliki kunci (kata sandi) yang dapat masuk.
+
+## Langkah 4: Tentukan Penulis
+
+Sekarang kita akan menentukan penulis buku kerja. Hal ini sangat berguna untuk akuntabilitas dan memungkinkan orang lain melihat siapa yang membuat atau mengubah berkas tersebut.
+
+```csharp
+// Tentukan penulis saat melindungi buku kerja.
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
+```
 
+ Pastikan untuk mengganti`"YOUR_AUTHOR"` dengan nama yang ingin Anda kaitkan dengan dokumen tersebut. Anggap ini sebagai penandatanganan karya seni Anda—ini memberi tahu orang-orang kepada siapa mereka harus berterima kasih atas karya ini!
+
+## Langkah 5: Simpan Buku Kerja
+
+Langkah terakhir adalah menyimpan buku kerja dalam format yang diinginkan. Dalam hal ini, kita akan menyimpannya sebagai file XLSX. 
+
+```csharp
 // Simpan buku kerja dalam format XLSX.
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-
 ```
+
+ Di sini, file keluaran akan disimpan di direktori keluaran yang Anda tentukan dengan nama`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Di sinilah kerja keras Anda akhirnya terbayar, dan Anda dapat berbagi buku kerja Anda dengan orang lain, karena buku kerja Anda terlindungi dengan baik!
 
 ## Kesimpulan
 
-Selamat! Anda sekarang telah mempelajari cara menentukan penulis saat proteksi penulisan buku kerja Excel dengan Aspose.Cells untuk .NET. Anda bisa menerapkan langkah-langkah ini ke proyek Anda sendiri untuk melindungi dan mengkustomisasi buku kerja Excel Anda.
+Nah, itu dia! Anda telah mempelajari cara membuat buku kerja Excel, mengatur proteksi penulisan dengan kata sandi, menentukan penulis, dan menyimpannya dengan lancar menggunakan Aspose.Cells for .NET. Kombinasi fungsi ini tidak hanya akan mengamankan data Anda, tetapi juga menjaga integritasnya dan memberikan atribusi yang tepat.
 
-Jangan ragu untuk menjelajahi lebih jauh fitur Aspose.Cells untuk .NET untuk pengoperasian lebih lanjut pada file Excel.
+## Pertanyaan yang Sering Diajukan
 
-## FAQ
+### Bisakah saya menyesuaikan kata sandi untuk perlindungan penulisan?  
+ Ya, Anda dapat menyesuaikan kata sandi sesuai kebutuhan Anda. Cukup ganti`YOUR_PASSWORD` dengan kata sandi yang Anda inginkan.
 
-#### T: Bisakah saya menulis proteksi buku kerja Excel tanpa menentukan kata sandi?
+### Apakah Aspose.Cells gratis untuk digunakan?  
+ Aspose.Cells adalah pustaka berbayar, tetapi Anda dapat mencobanya secara gratis dengan uji coba waktu terbatas. Kunjungi[Tautan uji coba gratis](https://releases.aspose.com/) untuk memulai.
 
- A: Ya, Anda bisa menggunakan objek Workbook`WriteProtect()` metode tanpa menentukan kata sandi untuk melindungi buku kerja Excel. Ini akan membatasi perubahan pada buku kerja tanpa memerlukan kata sandi.
+### Bagaimana cara membeli pustaka Aspose.Cells?  
+ Anda dapat membeli Aspose.Cells melalui[halaman pembelian](https://purchase.aspose.com/buy).
 
-#### T: Bagaimana cara menghapus proteksi penulisan dari buku kerja Excel?
+### Bisakah saya menggunakan pendekatan ini dalam aplikasi web?  
+Tentu saja! Aspose.Cells bekerja dengan lancar di aplikasi desktop dan web menggunakan .NET.
 
- J: Untuk menghapus proteksi penulisan dari buku kerja Excel, Anda bisa menggunakan`Unprotect()` metode objek Lembar Kerja atau`RemoveWriteProtection()` metode objek Buku Kerja, bergantung pada kasus penggunaan spesifik Anda. .
-
-#### T: Saya lupa kata sandi untuk melindungi buku kerja Excel saya. Apa yang bisa saya lakukan ?
-
-J: Jika Anda lupa kata sandi untuk melindungi buku kerja Excel Anda, Anda tidak bisa menghapusnya secara langsung. Namun, Anda dapat mencoba menggunakan alat pihak ketiga khusus yang menyediakan fitur pemulihan kata sandi untuk file Excel yang dilindungi.
-
-#### T: Apakah mungkin untuk menentukan beberapa penulis saat memproteksi buku kerja Excel?
-
-J: Tidak, pustaka Aspose.Cells untuk .NET memungkinkan penentuan satu penulis saat proteksi penulisan buku kerja Excel. Jika Anda ingin menentukan beberapa penulis, Anda perlu mempertimbangkan solusi khusus dengan memanipulasi file Excel secara langsung.
+### Apa yang harus saya lakukan jika saya memerlukan dukungan?  
+ Untuk pertanyaan dan pemecahan masalah, komunitas Aspose sangat membantu. Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan.

@@ -1,109 +1,113 @@
 ---
-title: Chỉ định tác giả khi viết bảo vệ sổ làm việc Excel
-linktitle: Chỉ định tác giả khi viết bảo vệ sổ làm việc Excel
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tìm hiểu cách bảo vệ và tùy chỉnh sổ làm việc Excel của bạn bằng Aspose.Cells for .NET. Hướng dẫn từng bước trong C#.
+title: Chỉ định tác giả trong khi ghi bảo vệ sổ làm việc Excel
+linktitle: Chỉ định tác giả trong khi ghi bảo vệ sổ làm việc Excel
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách bảo vệ sổ làm việc Excel của bạn trong khi chỉ định tác giả bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này.
 type: docs
 weight: 30
 url: /vi/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
+## Giới thiệu
 
-Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách chỉ định tác giả khi bảo vệ chống ghi cho sổ làm việc Excel bằng thư viện Aspose.Cells cho .NET.
+Khi nói đến việc làm việc với các tệp Excel trong các ứng dụng .NET, Aspose.Cells là giải pháp phù hợp cho nhiều nhà phát triển. Bộ chức năng phong phú của nó cho phép bạn tạo, thao tác và bảo mật các tệp Excel một cách dễ dàng. Một yêu cầu chung mà các nhà phát triển phải đối mặt là ghi vào sổ làm việc Excel trong khi đảm bảo sổ làm việc đó được bảo vệ khỏi các chỉnh sửa trái phép. Hơn nữa, việc chỉ định tác giả có thể cực kỳ hữu ích cho mục đích theo dõi khi chia sẻ tài liệu. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách bạn có thể chỉ định tác giả trong khi ghi bảo vệ sổ làm việc Excel bằng Aspose.Cells cho .NET.
 
-## Bước 1: Chuẩn bị môi trường
+## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for .NET trên máy của mình. Tải xuống thư viện từ trang web chính thức của Aspose và làm theo hướng dẫn cài đặt được cung cấp.
+Trước khi đi sâu vào chi tiết thực hiện, điều cần thiết là phải có nền tảng vững chắc. Sau đây là các điều kiện tiên quyết bạn cần có để bắt đầu:
 
-## Bước 2: Cấu hình thư mục nguồn và đầu ra
+1. Visual Studio: Bạn cần cài đặt Visual Studio đang hoạt động. Đây là nơi bạn sẽ viết và biên dịch mã .NET của mình.
+2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework. Aspose.Cells hỗ trợ nhiều phiên bản khác nhau, vì vậy hãy chọn phiên bản phù hợp với ứng dụng của bạn.
+3.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Bạn có thể lấy nó từ[trang tải xuống chính thức](https://releases.aspose.com/cells/net/).
+4. Hiểu biết cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn dễ dàng thực hiện quá trình viết mã.
 
-Trong mã nguồn được cung cấp, bạn phải chỉ định thư mục nguồn và đầu ra. Sửa đổi`sourceDir` Và`outputDir` các biến bằng cách thay thế "THƯ MỤC NGUỒN CỦA BẠN" và "THƯ MỤC ĐẦU RA CỦA BẠN" bằng các đường dẫn tuyệt đối tương ứng trên máy của bạn.
+## Nhập gói
 
-```csharp
-// Thư mục nguồn
-string sourceDir = "PATH TO YOUR SOURCE DIRECTORY";
-
-// Thư mục đầu ra
-string outputDir = "YOUR OUTPUT DIRECTORY PATH";
-```
-
-## Bước 3: Tạo sổ làm việc Excel trống
-
-Để bắt đầu, chúng ta tạo một đối tượng Workbook đại diện cho một sổ làm việc Excel trống.
+Để tận dụng tối đa chức năng do Aspose.Cells cung cấp, hãy bắt đầu bằng cách nhập các gói cần thiết. Bắt đầu tệp C# của bạn bằng cách thêm chỉ thị using sau:
 
 ```csharp
-// Tạo sổ làm việc trống.
-Workbook wb = new Workbook();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## Bước 4: Viết bảo vệ bằng mật khẩu
+Chỉ thị này sẽ cho phép bạn truy cập các lớp và phương thức có trong thư viện Aspose.Cells. Bây giờ chúng ta đã nhập các gói, hãy chuyển sang phần thú vị—viết mã!
 
- Tiếp theo, chúng tôi chỉ định mật khẩu để ghi bảo vệ sổ làm việc Excel bằng cách sử dụng`WriteProtection.Password` thuộc tính của đối tượng Workbook.
+## Bước 1: Thiết lập thư mục của bạn
 
-```csharp
-// Viết bảo vệ sổ làm việc bằng mật khẩu.
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-```
+Trước khi bạn khởi tạo sổ làm việc, bạn nên thiết lập đường dẫn đến nơi chứa các tệp nguồn và nơi bạn muốn lưu đầu ra. Sau đây là cách thực hiện:
 
-## Bước 5: Đặc tả tác giả
-
- Bây giờ chúng ta chỉ định tác giả của sổ làm việc Excel bằng cách sử dụng`WriteProtection.Author` thuộc tính của đối tượng Workbook.
-
-```csharp
-// Chỉ định tác giả trong khi viết sổ làm việc bảo vệ.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-```
-
-## Bước 6: Sao lưu sổ làm việc Excel được bảo vệ
-
- Sau khi chỉ định bảo vệ ghi và tác giả, chúng ta có thể lưu sổ làm việc Excel ở định dạng XLSX bằng cách sử dụng lệnh`Save()` phương pháp.
-
-```csharp
-// Lưu sổ làm việc ở định dạng XLSX.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-```
-
-### Mã nguồn mẫu cho Chỉ định tác giả khi viết Bảo vệ sổ làm việc Excel bằng Aspose.Cells cho .NET 
 ```csharp
 //Thư mục nguồn
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
-//Thư mục đầu ra
+// Thư mục đầu ra
 string outputDir = "YOUR OUTPUT DIRECTORY";
+```
 
-// Tạo sổ làm việc trống.
+ Hãy chắc chắn thay thế`"YOUR SOURCE DIRECTORY"` Và`"YOUR OUTPUT DIRECTORY"` với các đường dẫn thực tế trên máy của bạn. Hãy nghĩ về điều này như việc tạo ra một không gian làm việc gọn gàng trước khi bạn bắt đầu chế tác kiệt tác của mình!
+
+## Bước 2: Tạo một Workbook trống
+
+Bây giờ chúng ta đã thiết lập xong các thư mục, bước tiếp theo là tạo một sổ làm việc trống. Về cơ bản, đây là khung vẽ nơi bạn sẽ ghi dữ liệu của mình.
+
+```csharp
+// Tạo một bảng tính trống.
 Workbook wb = new Workbook();
+```
 
+Giống như một nghệ sĩ bắt đầu với một tấm vải trắng, bạn cũng bắt đầu với một bảng tính trống, nơi bạn có thể thêm dữ liệu hoặc định dạng sau đó.
+
+## Bước 3: Viết Bảo vệ Sổ làm việc
+
+Bảo vệ ghi là một khía cạnh quan trọng, đặc biệt nếu bạn muốn đảm bảo tính toàn vẹn của dữ liệu vẫn còn nguyên vẹn. Bạn có thể làm điều đó bằng mật khẩu.
+
+```csharp
 // Viết bảo vệ sổ làm việc bằng mật khẩu.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-
-// Chỉ định tác giả trong khi viết sổ làm việc bảo vệ.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-
-// Lưu sổ làm việc ở định dạng XLSX.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-
 ```
+
+ Trong dòng này, thay thế`"YOUR_PASSWORD"` với mật khẩu mạnh do bạn chọn. Mật khẩu này hoạt động như một cánh cửa bị khóa—chỉ những người có chìa khóa (mật khẩu) mới có thể vào.
+
+## Bước 4: Chỉ định tác giả
+
+Bây giờ chúng ta sẽ chỉ định tác giả của sổ làm việc. Điều này đặc biệt hữu ích cho việc giải trình và cho phép người khác xem ai đã tạo hoặc sửa đổi tệp.
+
+```csharp
+// Chỉ định tác giả khi ghi bảo vệ bảng tính.
+wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
+```
+
+ Hãy chắc chắn thay thế`"YOUR_AUTHOR"` với tên bạn muốn liên kết với tài liệu. Hãy nghĩ về điều này như việc ký tên vào tác phẩm nghệ thuật của bạn—nó cho mọi người biết ai là người cần cảm ơn vì tác phẩm này!
+
+## Bước 5: Lưu sổ làm việc
+
+Bước cuối cùng là lưu sổ làm việc theo định dạng mong muốn. Trong trường hợp này, chúng ta sẽ lưu dưới dạng tệp XLSX. 
+
+```csharp
+// Lưu bảng tính ở định dạng XLSX.
+wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
+```
+
+ Tại đây, tệp đầu ra sẽ được lưu trong thư mục đầu ra được chỉ định của bạn với tên`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Đây chính là nơi công sức của bạn cuối cùng được đền đáp và bạn có thể chia sẻ sổ làm việc của mình với người khác vì biết rằng nó được bảo vệ tốt!
 
 ## Phần kết luận
 
-Xin chúc mừng! Bây giờ bạn đã học cách chỉ định tác giả khi bảo vệ chống ghi một sổ làm việc Excel bằng Aspose.Cells cho .NET. Bạn có thể áp dụng các bước này cho dự án của riêng mình để bảo vệ và tùy chỉnh sổ làm việc Excel của mình.
-
-Vui lòng khám phá thêm các tính năng của Aspose.Cells for .NET để có các thao tác nâng cao hơn trên tệp Excel.
+Và bạn đã có nó! Bạn đã học cách tạo sổ làm việc Excel, thiết lập bảo vệ ghi bằng mật khẩu, chỉ định tác giả và lưu nó một cách liền mạch bằng Aspose.Cells cho .NET. Sự kết hợp các chức năng này sẽ không chỉ bảo mật dữ liệu của bạn mà còn duy trì tính toàn vẹn của nó và cung cấp sự ghi nhận thích hợp.
 
 ## Câu hỏi thường gặp
 
-#### Hỏi: Tôi có thể viết bảo vệ sổ làm việc Excel mà không cần chỉ định mật khẩu không?
+### Tôi có thể tùy chỉnh mật khẩu để bảo vệ ghi không?  
+ Có, bạn có thể tùy chỉnh mật khẩu theo nhu cầu của mình. Chỉ cần thay thế`YOUR_PASSWORD` bằng mật khẩu bạn muốn.
 
- Đáp: Có, bạn có thể sử dụng đối tượng Workbook`WriteProtect()` phương pháp mà không chỉ định mật khẩu để bảo vệ chống ghi sổ làm việc Excel. Điều này sẽ hạn chế những thay đổi đối với sổ làm việc mà không yêu cầu mật khẩu.
+### Aspose.Cells có miễn phí sử dụng không?  
+ Aspose.Cells là một thư viện trả phí, nhưng bạn có thể dùng thử miễn phí với thời gian dùng thử có giới hạn. Truy cập[Liên kết dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
 
-#### Hỏi: Làm cách nào để loại bỏ tính năng chống ghi khỏi sổ làm việc Excel?
+### Làm thế nào để mua thư viện Aspose.Cells?  
+ Bạn có thể mua Aspose.Cells thông qua[mua trang](https://purchase.aspose.com/buy).
 
- Đáp: Để loại bỏ tính năng chống ghi khỏi sổ làm việc Excel, bạn có thể sử dụng`Unprotect()` phương thức của đối tượng Worksheet hoặc`RemoveWriteProtection()` của đối tượng Workbook, tùy thuộc vào trường hợp sử dụng cụ thể của bạn. .
+### Tôi có thể sử dụng cách tiếp cận này trong các ứng dụng web không?  
+Hoàn toàn có thể! Aspose.Cells hoạt động trơn tru trên cả ứng dụng máy tính để bàn và web bằng .NET.
 
-#### Hỏi: Tôi quên mật khẩu để bảo vệ sổ làm việc Excel của mình. Tôi có thể làm gì ?
-
-Trả lời: Nếu bạn quên mật khẩu để bảo vệ sổ làm việc Excel của mình, bạn không thể xóa mật khẩu đó trực tiếp. Tuy nhiên, bạn có thể thử sử dụng các công cụ chuyên dụng của bên thứ ba cung cấp tính năng khôi phục mật khẩu cho các tệp Excel được bảo vệ.
-
-#### Câu hỏi: Có thể chỉ định nhiều tác giả khi bảo vệ chống ghi cho sổ làm việc Excel không?
-
-Trả lời: Không, thư viện Aspose.Cells for .NET cho phép chỉ định một tác giả duy nhất khi bảo vệ chống ghi cho sổ làm việc Excel. Nếu bạn muốn chỉ định nhiều tác giả, bạn sẽ cần xem xét các giải pháp tùy chỉnh bằng cách thao tác trực tiếp với tệp Excel.
+### Tôi phải làm gì nếu cần hỗ trợ?  
+ Đối với các câu hỏi và khắc phục sự cố, cộng đồng Aspose rất hữu ích. Bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được hỗ trợ.

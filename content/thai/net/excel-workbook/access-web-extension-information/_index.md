@@ -1,97 +1,125 @@
 ---
-title: เข้าถึงข้อมูลส่วนขยายของเว็บ
-linktitle: เข้าถึงข้อมูลส่วนขยายของเว็บ
-second_title: Aspose.Cells สำหรับการอ้างอิง .NET API
-description: เข้าถึงข้อมูลส่วนขยายของเว็บด้วย Aspose.Cells สำหรับ .NET
+title: เข้าถึงข้อมูลส่วนขยายเว็บ
+linktitle: เข้าถึงข้อมูลส่วนขยายเว็บ
+second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
+description: เรียนรู้วิธีการเข้าถึงข้อมูลส่วนขยายเว็บในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา
 type: docs
 weight: 10
 url: /th/net/excel-workbook/access-web-extension-information/
 ---
-การเข้าถึงข้อมูลส่วนขยายของเว็บเป็นคุณสมบัติที่สำคัญในการพัฒนาแอปพลิเคชันโดยใช้ Aspose.Cells สำหรับ .NET ในคำแนะนำทีละขั้นตอนนี้ เราจะอธิบายซอร์สโค้ด C# ที่ให้มาซึ่งจะช่วยให้คุณเข้าถึงข้อมูลส่วนขยายของเว็บโดยใช้ Aspose.Cells สำหรับ .NET นอกจากนี้เรายังมีบทสรุปและคำตอบให้คุณในรูปแบบ Markdown เพื่อให้เข้าใจได้ง่ายขึ้น ทำตามขั้นตอนด้านล่างเพื่อรับข้อมูลอันมีค่าเกี่ยวกับส่วนขยายของเว็บ
+## การแนะนำ
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีต้นทาง
+ยินดีต้อนรับสู่การเรียนรู้การใช้งาน Aspose.Cells สำหรับ .NET ในบทช่วยสอนนี้ เราจะมาสำรวจคุณลักษณะเฉพาะอย่างหนึ่ง: การเข้าถึงข้อมูลส่วนขยายเว็บในไฟล์ Excel Aspose.Cells เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยให้การจัดการไฟล์ Excel ในแอปพลิเคชัน .NET ของคุณเป็นเรื่องง่าย ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คู่มือนี้ได้รับการออกแบบมาเพื่อช่วยให้คุณเข้าใจและนำส่วนขยายเว็บไปใช้ได้อย่างมีประสิทธิภาพ ดังนั้น มาเริ่มกันเลย!
+
+## ข้อกำหนดเบื้องต้น 
+
+ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจำเป็นต้องตั้งค่า ต่อไปนี้คือรายการตรวจสอบเพื่อให้แน่ใจว่าทุกอย่างดำเนินไปอย่างราบรื่น:
+
+1. สภาพแวดล้อม .NET: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อม .NET ไว้บนเครื่องของคุณแล้ว โดยปกติแล้วหมายความว่าคุณต้องติดตั้ง Visual Studio หรือ IDE ที่เข้ากันได้อื่น ๆ
+2. Aspose.Cells สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Cells ไม่ต้องกังวล คุณสามารถทำได้อย่างง่ายดาย[ดาวน์โหลดเวอร์ชันล่าสุดได้ที่นี่](https://releases.aspose.com/cells/net/).
+3.  ไฟล์ตัวอย่าง Excel: สำหรับบทช่วยสอนนี้ โปรดแน่ใจว่าคุณมีไฟล์ตัวอย่าง Excel (เช่น`WebExtensionsSample.xlsx`) สามารถเข้าถึงได้ คุณสามารถสร้างอันที่มีส่วนขยายเว็บหรือดาวน์โหลดอันหนึ่งหากจำเป็น 
+4. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะทำให้การนำทางบทช่วยสอนนี้ง่ายยิ่งขึ้นมาก
+5. ตัวจัดการแพ็กเกจ NuGet: ความคุ้นเคยกับ NuGet ช่วยให้คุณจัดการ Aspose.Cells ภายในโครงการของคุณได้อย่างราบรื่น
+
+## แพ็คเกจนำเข้า
+
+ตอนนี้เราได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว ถึงเวลานำแพ็คเกจที่จำเป็นเข้ามา ต่อไปนี้คือวิธีดำเนินการดังกล่าวในโครงการของคุณ:
+
+1. เปิดโปรเจ็กต์ของคุณ: เปิด Visual Studio IDE ของคุณและเปิดโปรเจ็กต์ที่คุณต้องการใช้ Aspose.Cells
+2.  เพิ่มแพ็คเกจ NuGet: ไปที่`Tools` -`NuGet Package Manager` -`Manage NuGet Packages for Solution` . ค้นหา`Aspose.Cells` และติดตั้งมัน
+3. การใช้ไดเร็กทีฟ: เพิ่มไดเร็กทีฟต่อไปนี้ที่ด้านบนของไฟล์ C# เพื่อเข้าถึงเนมสเปซ Aspose.Cells:
 
 ```csharp
-// ไดเรกทอรีต้นทาง
+using Aspose.Cells.WebExtensions;
+using System;
+```
+
+## ขั้นตอนที่ 1: การตั้งค่าไดเรกทอรีต้นทาง
+
+เริ่มต้นด้วยการกำหนดไดเรกทอรีต้นทางที่เก็บไฟล์ Excel ของคุณ วิธีนี้จะช่วยให้โปรแกรมของคุณทราบว่าควรค้นหาไฟล์ที่คุณต้องการใช้งานจากที่ใด
+
+```csharp
 string sourceDir = RunExamples.Get_SourceDirectory();
 ```
 
-ในขั้นตอนแรกนี้ เราจะกำหนดไดเร็กทอรีต้นทางที่จะใช้ในการโหลดไฟล์ Excel ที่มีข้อมูลส่วนขยายของเว็บ
+## ขั้นตอนที่ 2: โหลดสมุดงาน Excel
 
-## ขั้นตอนที่ 2: โหลดไฟล์ Excel
+ขั้นตอนต่อไป คุณจะต้องโหลดเวิร์กบุ๊ก Excel ของคุณ ขั้นตอนนี้ช่วยให้คุณสามารถจัดการเนื้อหาของเวิร์กบุ๊ก รวมถึงการเข้าถึงส่วนขยายเว็บต่างๆ
 
 ```csharp
-// โหลดไฟล์ Excel ตัวอย่าง
 Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 ```
+ ในบรรทัดนี้ เรากำลังสร้างอินสแตนซ์ใหม่ของ`Workbook` คลาสและชี้ไปที่ไฟล์ตัวอย่างของเรา 
 
-ที่นี่เราโหลดไฟล์ Excel ตัวอย่างซึ่งมีข้อมูลส่วนขยายของเว็บที่เราต้องการดึงข้อมูล
+## ขั้นตอนที่ 3: รับแผงงานส่วนขยายเว็บ
 
-## ขั้นตอนที่ 3: เข้าถึงข้อมูลจากหน้าต่างงานส่วนขยายเว็บ
+ เมื่อโหลดเวิร์กบุ๊กแล้ว คุณสามารถเข้าถึง`WebExtensionTaskPanes` คอลเลกชันนี้ช่วยให้คุณเข้าถึงส่วนขยายเว็บที่ฝังอยู่ในเวิร์กบุ๊กได้
 
 ```csharp
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-foreach(WebExtensionTaskPane taskPane in taskPanes)
-{
-Console.WriteLine("Width: " + taskPane.Width);
-Console.WriteLine("Is visible: " + taskPane.IsVisible);
-Console.WriteLine("Is locked: " + taskPane.IsLocked);
-Console.WriteLine("Docking State: " + taskPane.DockState);
-Console.WriteLine("Store Name: " + taskPane.WebExtension.Reference.StoreName);
-Console.WriteLine("Store type: " + taskPane.WebExtension.Reference.StoreType);
-Console.WriteLine("Web Extension ID: " + taskPane.WebExtension.Id);
-}
 ```
+ที่นี่ เรากำลังคว้าแผงงานทั้งหมดที่เกี่ยวข้องกับส่วนขยายเว็บในเวิร์กบุ๊ก
 
-ในขั้นตอนนี้ เราจะเข้าถึงข้อมูลของหน้าต่างงานส่วนขยายเว็บแต่ละหน้าต่างที่มีอยู่ในไฟล์ Excel เราแสดงคุณสมบัติที่แตกต่างกัน เช่น ความกว้าง การมองเห็น สถานะการล็อค สถานะของบ้าน ชื่อร้านค้า ประเภทร้านค้า และ ID ส่วนขยายเว็บ
+## ขั้นตอนที่ 4: ทำซ้ำผ่านบานหน้าต่างงาน
 
-## ขั้นตอนที่ 4: แสดงข้อความแสดงความสำเร็จ
+ เมื่อคุณมีคอลเลกชันแล้ว ขั้นตอนตรรกะถัดไปคือการวนซ้ำผ่านบานหน้าต่างงานแต่ละบานและรับคุณสมบัติของมัน โดยใช้`foreach` การวนซ้ำเป็นวิธีที่ยอดเยี่ยมในการนำทางผ่านบานหน้าต่างงานแต่ละบานได้อย่างราบรื่น
 
 ```csharp
-Console.WriteLine("AccessWebExtensionInformation executed successfully.");
-```
-
-สุดท้ายนี้ เราจะแสดงข้อความระบุว่ามีการเข้าถึงข้อมูลส่วนขยายของเว็บสำเร็จแล้ว
-
-### ตัวอย่างซอร์สโค้ดสำหรับการเข้าถึงข้อมูลส่วนขยายเว็บโดยใช้ Aspose.Cells สำหรับ .NET 
-```csharp
-//ไดเรกทอรีต้นทาง
-string sourceDir = RunExamples.Get_SourceDirectory();
-//โหลดไฟล์ Excel ตัวอย่าง
-Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
-WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-	Console.WriteLine("Width: " + taskPane.Width);
-	Console.WriteLine("IsVisible: " + taskPane.IsVisible);
-	Console.WriteLine("IsLocked: " + taskPane.IsLocked);
-	Console.WriteLine("DockState: " + taskPane.DockState);
-	Console.WriteLine("StoreName: " + taskPane.WebExtension.Reference.StoreName);
-	Console.WriteLine("StoreType: " + taskPane.WebExtension.Reference.StoreType);
-	Console.WriteLine("WebExtension.Id: " + taskPane.WebExtension.Id);
+    //ภายในลูปนี้ เราจะแยกคุณสมบัติออกมา
 }
+```
+
+## ขั้นตอนที่ 5: การแสดงคุณสมบัติของบานหน้าต่างงาน
+
+ภายในลูปนั้น เราสามารถแยกและแสดงคุณสมบัติต่างๆ ของบานหน้าต่างงานแต่ละบานได้ ต่อไปนี้คือภาพรวมสั้นๆ ของสิ่งที่เราจะแยกออกมา:
+
+1. ความกว้าง
+2. การมองเห็น
+3. สถานะการล็อค
+4. สถานะท่าเรือ
+5. ชื่อร้านและประเภท
+6. รหัสส่วนขยายเว็บไซต์
+
+```csharp
+Console.WriteLine("Width: " + taskPane.Width);
+Console.WriteLine("IsVisible: " + taskPane.IsVisible);
+Console.WriteLine("IsLocked: " + taskPane.IsLocked);
+Console.WriteLine("DockState: " + taskPane.DockState);
+Console.WriteLine("StoreName: " + taskPane.WebExtension.Reference.StoreName);
+Console.WriteLine("StoreType: " + taskPane.WebExtension.Reference.StoreType);
+Console.WriteLine("WebExtension.Id: " + taskPane.WebExtension.Id);
+```
+คุณสมบัติเหล่านี้แต่ละอย่างให้ข้อมูลเชิงลึกเกี่ยวกับลักษณะการทำงานของบานหน้าต่างงานภายในบริบทของเวิร์กบุ๊ก Excel ของคุณ
+
+## ขั้นตอนที่ 6: สรุป
+
+สุดท้ายนี้ หลังจากที่ดำเนินการซ้ำและรวบรวมข้อมูลทั้งหมดสำเร็จแล้ว วิธีที่ดีคือการแจ้งคอนโซลว่าการดำเนินการเสร็จสมบูรณ์โดยไม่มีสะดุด
+
+```csharp
 Console.WriteLine("AccessWebExtensionInformation executed successfully.");
 ```
 
 ## บทสรุป
 
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการเข้าถึงข้อมูลส่วนขยายของเว็บโดยใช้ Aspose.Cells สำหรับ .NET เมื่อทำตามขั้นตอนที่ให้ไว้ คุณจะสามารถดึงข้อมูลหน้าต่างงานจากส่วนขยายของเว็บไปเป็นไฟล์ Excel ได้อย่างง่ายดาย
+คุณทำได้แล้ว! คุณเข้าถึงและแสดงข้อมูลเกี่ยวกับส่วนขยายเว็บในเวิร์กบุ๊ก Excel ได้สำเร็จโดยใช้ Aspose.Cells สำหรับ .NET คุณไม่เพียงแต่เรียนรู้การนำทางผ่านบานหน้าต่างงานเท่านั้น แต่คุณยังได้เรียนรู้ทักษะในการจัดการส่วนขยายเหล่านี้เพิ่มเติมอีกด้วย 
 
+โปรดทราบว่านี่เป็นเพียงส่วนเล็กๆ ของฟังก์ชันการทำงานของ Aspose.Cells เท่านั้น ไลบรารีนี้มีมากมายและให้คุณทำอะไรได้มากกว่าแค่เข้าถึงส่วนขยายเว็บ 
 
-### คำถามที่พบบ่อย
+## คำถามที่พบบ่อย
 
-#### ถาม: Aspose.Cells สำหรับ .NET คืออะไร
+### Aspose.Cells คืออะไร?
+Aspose.Cells เป็นไลบรารีที่แข็งแกร่งสำหรับการจัดการสเปรดชีต Excel ในแอปพลิเคชัน .NET
 
-ตอบ: Aspose.Cells for .NET เป็นไลบรารีคลาสที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนา .NET สามารถสร้าง แก้ไข แปลง และจัดการไฟล์ Excel ได้อย่างง่ายดาย
+### ฉันจะดาวน์โหลด Aspose.Cells ได้อย่างไร?
+ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อย่างเป็นทางการ](https://releases.aspose.com/cells/net/).
 
-#### ถาม: Aspose.Cells รองรับภาษาการเขียนโปรแกรมอื่นๆ หรือไม่
+### Aspose.Cells รองรับส่วนขยายเว็บหรือไม่
+ใช่ Aspose.Cells รองรับส่วนขยายเว็บอย่างเต็มที่ ช่วยให้จัดการและเข้าถึงได้อย่างมีประสิทธิภาพ
 
-ตอบ: ใช่ Aspose.Cells รองรับภาษาการเขียนโปรแกรมหลายภาษา เช่น C#, VB.NET, Java, PHP, Python ฯลฯ
+### Aspose.Cells รองรับภาษาโปรแกรมอะไรบ้าง?
+Aspose.Cells รองรับหลายภาษา รวมถึง C#, VB.NET และ ASP.NET
 
-#### ถาม: ฉันสามารถใช้ Aspose.Cells ในโครงการเชิงพาณิชย์ได้หรือไม่
-
-ตอบ: ได้ Aspose.Cells เป็นห้องสมุดเชิงพาณิชย์และสามารถใช้ในโครงการเชิงพาณิชย์ตามข้อตกลงใบอนุญาต
-
-#### ถาม: มีเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Cells หรือไม่
-
-ตอบ: ได้ คุณสามารถตรวจสอบเอกสาร Aspose.Cells ฉบับเต็มได้บนเว็บไซต์ทางการของ Aspose เพื่อดูข้อมูลและแหล่งข้อมูลเพิ่มเติม
+### ฉันสามารถทดลองใช้ Aspose.Cells ฟรีได้หรือไม่?
+ แน่นอน! คุณสามารถทดลองใช้งานฟรีได้โดยเข้าไปที่[ลิงค์นี้](https://releases.aspose.com/).

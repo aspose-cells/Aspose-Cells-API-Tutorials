@@ -18,7 +18,7 @@ Naše výukové programy nabízejí komplexní cestu do říše pokročilých ex
 
 ## Odemkněte potenciál vizualizace dat:
 
-Ponořením se do pokročilých grafů Excelu s Aspose.Cells for Java odemknete potenciál efektivně komunikovat statistiky. Tyto výukové programy vám umožní vytvářet vizuálně úžasné grafy, které zaujmou vaše publikum a zlepší rozhodování. Začněte svou cestu ke zvládnutí vizualizace dat ještě dnes s Aspose.Cells for Java.
+Ponořením se do pokročilých grafů Excelu s Aspose.Cells for Java odemknete potenciál pro efektivní sdělování poznatků. Tyto výukové programy vám umožní vytvářet vizuálně úžasné grafy, které zaujmou vaše publikum a zlepší rozhodování. Začněte svou cestu ke zvládnutí vizualizace dat ještě dnes s Aspose.Cells for Java.
 
 ## Pokročilé výukové programy Excel Charts
 ### [Interaktivní řídicí panely](./interactive-dashboards/)

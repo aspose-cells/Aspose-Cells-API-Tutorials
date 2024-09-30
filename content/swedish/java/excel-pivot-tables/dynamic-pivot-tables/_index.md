@@ -29,7 +29,7 @@ För att arbeta med pivottabeller måste vi först ladda en arbetsbok som inneh�
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
- Byta ut`"your_excel_file.xlsx"` med sökvägen till din Excel-fil.
+ Ersätta`"your_excel_file.xlsx"` med sökvägen till din Excel-fil.
 
 ## Steg 3: Skapa en pivottabell
 
@@ -58,7 +58,7 @@ Nu när vi har skapat pivottabellen kan vi konfigurera den för att sammanfatta 
 // Lägg till fält i pivottabellen
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Radfält
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Kolumnfält
-pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Data fält
+pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Datafält
 
 // Ställ in en beräkning för datafältet
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunction.SUM);

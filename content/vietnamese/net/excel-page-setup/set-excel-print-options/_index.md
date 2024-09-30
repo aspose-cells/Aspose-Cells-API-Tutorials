@@ -1,150 +1,158 @@
 ---
-title: Đặt tùy chọn in Excel
-linktitle: Đặt tùy chọn in Excel
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tìm hiểu cách thao tác với tệp Excel và tùy chỉnh các tùy chọn in một cách dễ dàng bằng cách sử dụng Aspose.Cells for .NET.
+title: Thiết lập tùy chọn in Excel
+linktitle: Thiết lập tùy chọn in Excel
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách thiết lập tùy chọn in trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này.
 type: docs
 weight: 150
 url: /vi/net/excel-page-setup/set-excel-print-options/
 ---
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách đặt tùy chọn in cho sổ làm việc Excel bằng Aspose.Cells cho .NET. Chúng tôi sẽ hướng dẫn bạn từng bước qua mã nguồn C# được cung cấp để hoàn thành nhiệm vụ này.
+## Giới thiệu
 
-## Bước 1: Thiết lập môi trường
+Bạn có thấy chán khi phải trình bày các bảng tính Excel trông hời hợt khi in ra không? Vâng, bạn đã đến đúng nơi rồi! Hôm nay, chúng ta sẽ khám phá thế giới của Aspose.Cells dành cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và in các bảng tính Excel một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ tập trung vào việc thiết lập các tùy chọn in trong tài liệu Excel. Hãy tưởng tượng thế này: bạn đã tạo ra một bảng tính hoàn hảo chứa đầy dữ liệu, biểu đồ và thông tin chi tiết có giá trị, nhưng khi in ra, nó lại trông nhạt nhẽo và thiếu chuyên nghiệp. Hãy cùng loại bỏ sự phiền phức đó và tìm hiểu cách chuẩn bị tài liệu để in một cách dễ dàng! 
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập môi trường phát triển của mình và cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống phiên bản mới nhất của thư viện từ trang web chính thức của Aspose.
+## Điều kiện tiên quyết
 
-## Bước 2: Nhập các không gian tên bắt buộc
+Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để tiến hành suôn sẻ:
 
-Trong dự án C# của bạn, hãy nhập các vùng tên cần thiết để hoạt động với Aspose.Cells:
+1. Visual Studio hoặc bất kỳ IDE .NET nào: Bạn sẽ muốn có một môi trường phát triển đáng tin cậy.
+2. Thư viện Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện này; bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+3. Kiến thức cơ bản về C#: Sự quen thuộc với các khái niệm lập trình C# sẽ giúp bạn hiểu rõ hơn các ví dụ mà chúng tôi sẽ đề cập.
+4. .NET Framework: Đảm bảo dự án của bạn hướng đến phiên bản .NET hỗ trợ Aspose.Cells.
+   
+Khi bạn đã có những điều cần thiết này, hãy khởi động IDE và bắt đầu nhé!
+
+## Nhập gói
+
+Để bắt đầu sử dụng Aspose.Cells trong dự án của bạn, bạn sẽ cần nhập các không gian tên có liên quan. Bước này rất quan trọng vì nó cho phép bạn truy cập tất cả các tính năng do thư viện cung cấp.
+
+### Mở IDE của bạn
+
+Trước tiên, hãy khởi động Visual Studio hoặc .NET IDE ưa thích của bạn. Hãy đặt nền tảng bằng cách nhập đúng gói và sẵn sàng triển khai.
+
+### Thêm tham chiếu đến Aspose.Cells
+
+Bạn cần thêm tham chiếu đến thư viện Aspose.Cells vào dự án của mình. Thực hiện như sau:
+
+- Trong Visual Studio, nhấp chuột phải vào dự án của bạn trong Solution Explorer.
+- Nhấp vào "Quản lý gói NuGet".
+- Tìm kiếm "Aspose.Cells" và nhấp vào "Cài đặt". 
+
+Bằng cách này, bạn đảm bảo rằng mọi chức năng cần thiết của Aspose.Cells đều nằm trong tầm tay bạn.
+
+### Sử dụng Không gian tên
+
+Ở đầu tệp CS chính của bạn, bạn sẽ cần phải bao gồm không gian tên Aspose.Cells. Mã sẽ trông như thế này:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
+using System;
 ```
 
-## Bước 3: Thiết lập đường dẫn đến thư mục tài liệu
+Sau khi sắp xếp xong, chúng ta đã sẵn sàng để thiết lập các tùy chọn in!
 
- Khai báo một`dataDir` biến để chỉ định đường dẫn đến thư mục mà bạn muốn lưu tệp Excel đã tạo:
+Bây giờ, hãy bắt tay vào thực hiện và tìm hiểu mã lệnh! Chúng ta sẽ hướng dẫn từng bước thiết lập các tùy chọn in khác nhau.
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
+## Bước 1: Xác định thư mục tài liệu
 
- Hãy chắc chắn để thay thế`"YOUR_DOCUMENT_DIRECTORY"` với đường dẫn chính xác trên hệ thống của bạn.
-
-## Bước 4: Tạo đối tượng sổ làm việc
-
-Khởi tạo một đối tượng Workbook đại diện cho sổ làm việc Excel mà bạn muốn tạo:
+Bước đầu tiên bao gồm việc chỉ định nơi tệp Excel của bạn sẽ nằm. Thay vì mã hóa cứng các đường dẫn trên toàn bộ mã của bạn, hãy giữ cho nó gọn gàng và ngăn nắp.
 
 ```csharp
-Workbook workbook = new Workbook();
-```
-
-## Bước 5: Lấy tham chiếu PageSetup của bảng tính
-
-Để đặt các tùy chọn in, trước tiên chúng ta cần lấy tham chiếu PageSetup từ bảng tính. Sử dụng đoạn mã sau để có được tài liệu tham khảo:
-
-```csharp
-PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
-```
-
-## Bước 6: Kích hoạt tính năng in đường lưới
-
-Để cho phép in các đường lưới, hãy sử dụng mã sau:
-
-```csharp
-pageSetup. PrintGridlines = true;
-```
-
-## Bước 7: Kích hoạt tính năng in tiêu đề hàng/cột
-
-Để cho phép in tiêu đề hàng và cột, hãy sử dụng mã sau:
-
-```csharp
-pageSetup.PrintHeadings = true;
-```
-
-## Bước 8: Kích hoạt chế độ in đen trắng
-
-Để bật in trang tính ở chế độ đen trắng, hãy sử dụng mã sau:
-
-```csharp
-pageSetup.BlackAndWhite = true;
-```
-
-## Bước 9: Kích hoạt tính năng in phản hồi
-
-Để cho phép in nhận xét khi chúng xuất hiện trên bảng tính, hãy sử dụng mã sau:
-
-```csharp
-pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
-```
-
-## Bước 10: Kích hoạt tính năng in ở chế độ nháp
-
-Để bật in bảng tính ở chế độ nháp, hãy sử dụng mã sau:
-
-```csharp
-pageSetup.PrintDraft = true;
-```
-
-## Bước 11: Kích hoạt tính năng in lỗi ô dưới dạng N/A
-
-Để cho phép in lỗi ô dưới dạng
-
-  hơn N/A, hãy sử dụng mã sau:
-
-```csharp
-pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
-```
-
-## Bước 12: Lưu sổ làm việc Excel
-
- Để lưu sổ làm việc Excel với bộ tùy chọn in, hãy sử dụng`Save` phương thức của đối tượng Workbook:
-
-```csharp
-workbook.Save(dataDir + "OtherPrintOptions_out.xls");
-```
-
-Thao tác này sẽ lưu sổ làm việc Excel có tên tệp "OtherPrintOptions_out.xls" trong thư mục đã chỉ định.
-
-### Mã nguồn mẫu cho Đặt tùy chọn in Excel bằng Aspose.Cells cho .NET 
-```csharp
-//Đường dẫn đến thư mục tài liệu.
+// Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+
+ Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Hãy nghĩ về điều này như việc thiết lập không gian làm việc của bạn trước khi bạn bắt đầu một dự án!
+
+## Bước 2: Tạo một phiên bản của Workbook
+
+ Tiếp theo, chúng ta sẽ cần tạo một`Workbook` đối tượng. Đối tượng này hoạt động như một vùng chứa dữ liệu bảng tính của bạn.
+
+```csharp
 // Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
-// Lấy tham chiếu PageSetup của bảng tính
+```
+
+Ở đây, chúng ta chỉ cần khởi tạo một sổ làm việc mới. Hãy tưởng tượng điều này như việc rút ra một tờ giấy trắng; bạn đã sẵn sàng để bắt đầu viết!
+
+## Bước 3: Truy cập Thiết lập Trang
+
+ Để kiểm soát cách in bảng tính Excel của bạn, bạn sẽ cần truy cập`PageSetup` thuộc tính của bảng tính.
+
+```csharp
+// Lấy tham chiếu của PageSetup của trang tính
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
-// Cho phép in đường lưới
+```
+
+Trong dòng này, chúng ta đang thiết lập trang cho trang tính đầu tiên trong sổ làm việc của mình. Giống như mở sổ tay để chuẩn bị cho cuộc họp. Bạn cần thiết lập đúng!
+
+## Bước 4: Cấu hình Tùy chọn in
+
+Bây giờ đến phần thú vị! Chúng ta có thể tùy chỉnh nhiều cài đặt in khác nhau để làm cho bản Excel đã in trông chuyên nghiệp.
+
+```csharp
+// Cho phép in lưới
 pageSetup.PrintGridlines = true;
+
 // Cho phép in tiêu đề hàng/cột
 pageSetup.PrintHeadings = true;
+
 // Cho phép in bảng tính ở chế độ đen trắng
 pageSetup.BlackAndWhite = true;
-// Cho phép in chú thích hiển thị trên bảng tính
+
+// Cho phép in các bình luận như hiển thị trên bảng tính
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
-// Cho phép in bảng tính với chất lượng nháp
+
+// Cho phép in bảng tính với chất lượng bản nháp
 pageSetup.PrintDraft = true;
+
 // Cho phép in lỗi ô dưới dạng N/A
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
-// Lưu sổ làm việc.
+```
+
+Mỗi dòng ở đây đại diện cho một tùy chọn giúp cải thiện cách tài liệu của bạn hiển thị khi in:
+
+1. In lưới: Tính năng này giúp hiển thị những chỗ trống khó chịu trên trang tính của bạn, giúp người khác dễ dàng theo dõi. 
+   
+2. Tiêu đề in: Bao gồm tiêu đề hàng và cột giúp cung cấp ngữ cảnh cho dữ liệu của bạn, giống như mục lục của một cuốn sách.
+
+3. Chế độ Đen trắng: Hoàn hảo cho những ai muốn tiết kiệm chi phí in màu. 
+
+4. In bình luận tại chỗ: Hiển thị bình luận trực tiếp trong ô giúp người đọc có thêm ngữ cảnh, tương tự như chú thích trong bài viết.
+
+5. Chất lượng bản thảo in: Nếu chỉ là bản sao thô, bạn không cần sử dụng chất lượng đầy đủ. Giống như phác thảo trước khi vẽ vậy!
+
+6. Lỗi in dưới dạng N/A: Hiển thị lỗi dưới dạng N/A giúp bản in sạch sẽ và dễ hiểu, tránh nhầm lẫn.
+
+## Bước 5: Lưu sổ làm việc
+
+Sau khi bạn đã thiết lập mọi thứ theo đúng ý muốn, cuối cùng đã đến lúc lưu bảng tính của bạn.
+
+```csharp
+// Lưu bảng tính.
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
+
+Trong bước này, chúng ta lưu sổ làm việc vào thư mục đã chỉ định. Giống như dán nhãn dán cuối cùng vào dự án được chế tác đẹp mắt của bạn vậy!
+
 ## Phần kết luận
 
-Bây giờ bạn đã học cách đặt tùy chọn in cho sổ làm việc Excel bằng Aspose.Cells for .NET. Thư viện mạnh mẽ và thân thiện với người dùng này cho phép bạn tùy chỉnh cài đặt in của sổ làm việc Excel một cách dễ dàng và hiệu quả.
+Xin chúc mừng! Bây giờ bạn đã được trang bị các kỹ năng để thiết lập tùy chọn in bằng Aspose.Cells cho .NET. Hãy nghĩ đến tác động của một bảng tính được in được trình bày đẹp mắt! Không còn những tài liệu tẻ nhạt nữa; thay vào đó, bạn luôn cung cấp những bản in sạch sẽ, chuyên nghiệp. 
 
-### Câu hỏi thường gặp
+## Câu hỏi thường gặp
 
+### Aspose.Cells là gì?  
+Aspose.Cells là một thư viện .NET mạnh mẽ cho phép thao tác và quản lý các tệp Excel.
 
-#### 1. Tôi có thể tùy chỉnh thêm các tùy chọn in, chẳng hạn như lề hoặc hướng trang không?
+### Tôi có thể dùng thử Aspose.Cells miễn phí không?  
+ Có, bạn có thể truy cập dùng thử miễn phí Aspose.Cells[đây](https://releases.aspose.com/).
 
-Có, Aspose.Cells for .NET cung cấp nhiều tùy chọn in có thể tùy chỉnh, chẳng hạn như lề, hướng trang, tỷ lệ, v.v.
+### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?  
+ Bạn có thể yêu cầu giấy phép tạm thời thông qua đây[liên kết](https://purchase.aspose.com/temporary-license/).
 
-#### 2. Aspose.Cells for .NET có hỗ trợ các định dạng tệp Excel khác không?
+### Tôi có thể tìm trợ giúp hoặc hỗ trợ cho Aspose.Cells ở đâu?  
+ Truy cập diễn đàn Aspose để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
 
-Có, Aspose.Cells for .NET hỗ trợ nhiều định dạng tệp Excel khác nhau, chẳng hạn như XLSX, XLS, CSV, HTML, PDF, v.v.
-
-#### 3. Aspose.Cells for .NET có tương thích với tất cả các phiên bản .NET Framework không?
-
-Aspose.Cells for .NET tương thích với .NET Framework 2.0 trở lên, bao gồm các phiên bản 3.5, 4.0, 4.5, 4.6, v.v.
+### Aspose.Cells có phù hợp với các tệp Excel lớn không?  
+Chắc chắn rồi! Aspose.Cells được thiết kế để xử lý các tệp Excel lớn một cách hiệu quả.

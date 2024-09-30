@@ -2,92 +2,112 @@
 title: Déterminer si le format de papier de la feuille de calcul est automatique
 linktitle: Déterminer si le format de papier de la feuille de calcul est automatique
 second_title: Référence de l'API Aspose.Cells pour .NET
-description: Découvrez comment déterminer si le format de papier d'une feuille de calcul est automatique avec Aspose.Cells pour .NET.
+description: Découvrez comment déterminer si le format de papier d'une feuille de calcul est automatique à l'aide d'Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 type: docs
 weight: 20
 url: /fr/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-Dans cet article, nous vous expliquerons étape par étape le code source C# suivant : Déterminez si le format de papier d'une feuille de calcul est automatique à l'aide d'Aspose.Cells pour .NET. Nous utiliserons la bibliothèque Aspose.Cells pour .NET pour effectuer cette opération. Suivez les étapes ci-dessous pour déterminer si le format de papier d'une feuille de calcul est automatique.
+## Introduction
 
-## Étape 1 : Chargement des classeurs
-La première étape consiste à charger les classeurs. Nous aurons deux classeurs : un avec le format de papier automatique désactivé et l'autre avec le format de papier automatique activé. Voici le code pour charger les classeurs :
+Si vous vous lancez dans le monde de la manipulation de feuilles de calcul à l'aide d'Aspose.Cells pour .NET, vous avez fait un choix fantastique. La possibilité de personnaliser et de gérer des fichiers Excel par programmation peut simplifier de nombreuses tâches, rendant votre travail plus efficace. Dans ce guide, nous nous concentrerons sur une tâche spécifique : déterminer si les paramètres de taille de papier d'une feuille de calcul sont automatiques. Alors, prenez votre casquette de codeur et commençons !
+
+## Prérequis
+
+Avant de passer au code, assurons-nous que vous disposez de tout ce dont vous aurez besoin :
+
+### Connaissances de base de C#
+Bien qu'Aspose.Cells simplifie de nombreuses tâches, une compréhension fondamentale de C# est essentielle. Vous devez être à l'aise avec la lecture et l'écriture de code C# de base.
+
+### Aspose.Cells pour .NET
+ Assurez-vous que Aspose.Cells est installé dans votre projet. Vous pouvez le télécharger à partir du[site web](https://releases.aspose.com/cells/net/) si vous ne l'avez pas déjà fait.
+
+### Environnement de développement
+Vous devez disposer d'un IDE tel que Visual Studio. Il vous guidera dans la gestion et le test efficaces de votre code.
+
+### Exemples de fichiers Excel
+Vous aurez besoin de fichiers d'exemple (`samplePageSetupIsAutomaticPaperSize-False.xlsx` et`samplePageSetupIsAutomaticPaperSize-True.xlsx`) à des fins de test. Assurez-vous que ces fichiers se trouvent dans votre répertoire source.
+
+## Paquets d'importation
+
+Pour travailler avec Aspose.Cells en C#, vous devez importer les packages nécessaires. En haut de votre fichier C#, incluez :
 
 ```csharp
-// répertoire source
-string sourceDir = "YOUR_SOURCE_DIR";
-// Répertoire de sortie
-string outputDir = "YOUR_OUTPUT_DIRECTORY";
-
-// Charger le premier classeur avec le format de papier automatique désactivé
-Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-
-// Charger un deuxième classeur avec le format de papier automatique activé
-Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
 ```
 
-## Étape 2 : Accéder aux feuilles de calcul
-Maintenant que nous avons chargé les classeurs, nous devons accéder aux feuilles de calcul afin de pouvoir vérifier le format de papier automatique. Nous passerons à la première feuille de calcul des deux classeurs. Voici le code pour y accéder :
+Cela indique au compilateur que vous souhaitez utiliser la bibliothèque Aspose.Cells et l'espace de noms System pour les fonctionnalités de base.
+
+Décomposons-le en un tutoriel clair, étape par étape, pour que vous puissiez le suivre facilement. Prêt à vous lancer ? C'est parti !
+
+## Étape 1 : Configurez vos répertoires source et de sortie
+
+Tout d'abord, vous devez définir vos répertoires source et de sortie. Ces répertoires contiendront vos fichiers d'entrée et l'endroit où vous souhaitez enregistrer les sorties. Voici comment procéder :
 
 ```csharp
-//Accédez à la première feuille de calcul du premier classeur
-Worksheet ws11 = wb1.Worksheets[0];
-
-// Accédez à la première feuille de calcul du deuxième classeur
-Worksheet ws12 = wb2.Worksheets[0];
-```
-
-## Étape 3 : Vérifiez le format de papier automatique
- Dans cette étape, nous vérifierons si le format du papier de la feuille de calcul est automatique. Nous utiliserons le`PageSetup.IsAutomaticPaperSize` propriété pour obtenir cette information. Nous afficherons ensuite le résultat. Voici le code pour cela :
-
-```csharp
-// Afficher la propriété IsAutomaticPaperSize de la première feuille de calcul du premier classeur
-Console.WriteLine("First worksheet in first workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
-
-// Afficher la propriété IsAutomaticPaperSize de la première feuille de calcul du deuxième classeur
-Console.WriteLine("First worksheet of second workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-
-```
-
-### Exemple de code source pour déterminer si le format de papier de la feuille de calcul est automatique à l'aide d'Aspose.Cells pour .NET 
-```csharp
-//Répertoire source
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
-//Répertoire de sortie
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
-//Chargez le premier classeur dont le format de papier automatique est faux
+```
+
+ Remplacer`YOUR_SOURCE_DIRECTORY` et`YOUR_OUTPUT_DIRECTORY` avec les chemins réels sur votre système où les fichiers seront stockés.
+
+## Étape 2 : charger les classeurs Excel
+
+Maintenant que vous avez défini vos répertoires, chargeons les classeurs. Nous allons charger deux classeurs : l'un avec la taille de papier automatique définie sur false et l'autre avec la taille de papier définie sur true. Voici le code :
+
+```csharp
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-//Chargez le deuxième classeur avec un format de papier automatique vrai
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
-//Accéder à la première feuille de calcul des deux classeurs
+```
+
+## Étape 3 : Accéder à la première feuille de travail
+
+Une fois les classeurs chargés, il est temps d'accéder à la première feuille de calcul de chaque classeur. La beauté d'Aspose.Cells est que c'est ridiculement simple :
+
+```csharp
 Worksheet ws11 = wb1.Worksheets[0];
 Worksheet ws12 = wb2.Worksheets[0];
-//Imprimer la propriété PageSetup.IsAutomaticPaperSize des deux feuilles de calcul
+```
+
+Ce code récupère la première feuille de calcul (index 0) des deux classeurs. 
+
+## Étape 4 : Vérifiez le paramètre de taille de papier
+
+ Vient maintenant la partie amusante ! Vous devrez vérifier si le réglage du format de papier est automatique pour chaque feuille de calcul. Pour ce faire, inspectez le`IsAutomaticPaperSize` propriété de la`PageSetup` classe. Utilisez l'extrait de code suivant :
+
+```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-Console.WriteLine();
+```
+
+ Ici, nous imprimons les résultats sur la console. Vous verrez`True` ou`False`, en fonction des paramètres de chaque feuille de calcul.
+
+## Étape 5 : Terminez le travail
+
+Enfin, c'est une bonne habitude de fournir un retour d'information indiquant que votre code a été exécuté avec succès. Ajoutez un message simple à la fin de votre méthode principale :
+
+```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");
 ```
 
+## Conclusion 
 
-## Conclusion
-Dans cet article, nous avons appris comment déterminer si le format de papier d'une feuille de calcul est automatique à l'aide d'Aspose.Cells pour .NET. Nous avons suivi les étapes suivantes : chargement des classeurs,
+Et voilà, vous avez posé les bases pour déterminer si la taille du papier d'une feuille de calcul est automatique à l'aide d'Aspose.Cells pour .NET ! Vous avez rapidement importé des packages, chargé des classeurs, accédé à des feuilles de calcul et vérifié cette propriété de taille de papier, autant de compétences essentielles pour manipuler des fichiers Excel par programmation. N'oubliez pas que plus vous expérimenterez les différentes fonctionnalités d'Aspose.Cells, plus vos applications deviendront puissantes.
 
-accès aux feuilles de calcul et vérification automatique du format du papier. Vous pouvez désormais utiliser ces connaissances pour déterminer si le format de papier de vos feuilles de calcul est automatique.
+## FAQ
 
-### FAQ
+### Qu'est-ce qu'Aspose.Cells ?
+Aspose.Cells est une bibliothèque .NET conçue pour gérer les fichiers de feuille de calcul Excel par programmation sans qu'il soit nécessaire d'installer Excel.
 
-#### Q : Comment puis-je charger des classeurs avec Aspose.Cells pour .NET ?
+### Puis-je utiliser Aspose.Cells pour des environnements non Windows ?
+Oui ! Aspose.Cells prend en charge le développement multiplateforme, ce qui vous permet de travailler dans différents environnements où .NET est disponible.
 
-R : Vous pouvez charger des classeurs à l'aide de la classe Workbook de la bibliothèque Aspose.Cells. Utilisez la méthode Workbook.Load pour charger un classeur à partir d'un fichier.
+### Ai-je besoin d'une licence pour Aspose.Cells ?
+Bien que vous puissiez commencer avec un essai gratuit, une utilisation continue nécessite l'achat d'une licence. Vous trouverez plus de détails ici[ici](https://purchase.aspose.com/buy).
 
-#### Q : Puis-je vérifier le format de papier automatique pour d’autres feuilles de calcul ?
+### Comment puis-je vérifier si la taille du papier d'une feuille de calcul est automatique en C# ?
+ Comme indiqué dans le guide, vous pouvez vérifier le`IsAutomaticPaperSize` propriété de la`PageSetup` classe.
 
-R : Oui, vous pouvez vérifier le format de papier automatique pour n'importe quelle feuille de calcul en accédant à la propriété PageSetup.IsAutomaticPaperSize de l'objet Worksheet correspondant.
-
-#### Q : Comment puis-je modifier le format de papier automatique d'une feuille de calcul ?
-
-R : Pour modifier le format de papier automatique d'une feuille de calcul, vous pouvez utiliser la propriété PageSetup.IsAutomaticPaperSize et la définir sur la valeur souhaitée (vrai ou faux).
-
-#### Q : Quelles autres fonctionnalités propose Aspose.Cells pour .NET ?
-
-R : Aspose.Cells for .NET offre de nombreuses fonctionnalités pour travailler avec des feuilles de calcul, telles que la création, la modification et la conversion de classeurs, ainsi que la manipulation de données, de formules et de formatage.
+### Où puis-je trouver plus d'informations sur Aspose.Cells ?
+ Vous pouvez trouver une documentation complète et des tutoriels[ici](https://reference.aspose.com/cells/net/).

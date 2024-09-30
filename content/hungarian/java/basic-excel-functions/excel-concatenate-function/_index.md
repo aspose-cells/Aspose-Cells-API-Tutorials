@@ -46,7 +46,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Töltsük fel az Excel munkalapot néhány adattal. Ebben a példában egy egyszerű táblázatot hozunk létre szöveges értékekkel, amelyeket össze akarunk fűzni.
 
 ```java
-// Minta adat
+// Minta adatok
 String text1 = "Hello";
 String text2 = " ";
 String text3 = "World";
@@ -103,7 +103,7 @@ Ha az Excel különböző celláiból szeretne szöveget összefűzni az Aspose.
 
 5. Mentse el az Excel fájlt.
 
-Ez az! Sikeresen összefűzte a szöveget az Excelben az Aspose.Cells for Java használatával.
+Ennyi! Sikeresen összefűzte a szöveget az Excelben az Aspose.Cells for Java használatával.
 
 ### Összefűzhetek háromnál több szöveges karakterláncot a CONCATENATE használatával?
 
