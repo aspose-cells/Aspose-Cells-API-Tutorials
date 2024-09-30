@@ -39,7 +39,7 @@ using System;
 Start by defining the source directory where your Excel file is stored. This makes sure that your program knows where to look for the file you want to work with.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Step 2: Load the Excel Workbook

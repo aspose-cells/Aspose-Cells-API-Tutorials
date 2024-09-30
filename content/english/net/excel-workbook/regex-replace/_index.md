@@ -48,12 +48,12 @@ First up, we need to specify where our input Excel file is located, as well as w
 
 ```csharp
 // Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 // Output directory
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-Here, `RunExamples.Get_SourceDirectory()` and `RunExamples.Get_OutputDirectory()` are utility functions that help you grab the source and output paths conveniently. Make sure your source directory contains a file named `SampleRegexReplace.xlsx` for this example.
+Here, `"Your Document Directory"` and `"Your Document Directory"` are utility functions that help you grab the source and output paths conveniently. Make sure your source directory contains a file named `SampleRegexReplace.xlsx` for this example.
 
 ## Step 2: Loading the Workbook
 

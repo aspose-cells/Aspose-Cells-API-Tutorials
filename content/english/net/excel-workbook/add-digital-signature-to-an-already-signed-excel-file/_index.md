@@ -42,9 +42,9 @@ Before you can manipulate your Excel files, you need to define where your source
 
 ```csharp
 // Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 // Output directory
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 In this step, we’re using a method to get the paths for the source and output directories. Make sure these directories exist and contain the required files.

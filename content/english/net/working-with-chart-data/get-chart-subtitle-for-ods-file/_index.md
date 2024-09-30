@@ -21,7 +21,7 @@ namespace Aspose.Cells.Examples.CSharp.Charts
         {
             // ExStart:1
             //Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
             // Load excel file containing charts
             Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
 

@@ -43,11 +43,9 @@ In this step, we need to define where our input and output files will be located
 
 ```csharp
 // Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
-Here, we are using utility methods `Get_SourceDirectory()` and `Get_OutputDirectory()` to conveniently set our file paths. You can customize these paths according to your directory structure.
 
 ## Step 2: Create a Workbook Designer Object
 

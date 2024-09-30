@@ -39,7 +39,7 @@ The first thing you need to do is define where your output file will be saved. I
 
 ```csharp
 // Output directory
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 This line of code retrieves the directory path where the generated file will be stored. Make sure this directory exists; otherwise, you might face a file-not-found error later.

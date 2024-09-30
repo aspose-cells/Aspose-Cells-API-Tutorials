@@ -53,7 +53,7 @@ Here's where we specify where our Excel file is located. Let’s set the source 
 
 ```csharp
 // Define the source directory
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 This line points to the directory containing the Excel file. Make sure to adjust the path according to your file’s location.

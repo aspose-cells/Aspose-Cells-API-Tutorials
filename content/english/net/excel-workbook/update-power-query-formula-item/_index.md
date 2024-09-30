@@ -47,10 +47,9 @@ In this step, we’ll define where our source and output files are located. This
 
 ```csharp
 // Working directories
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-Here, we’re utilizing a hypothetical method `RunExamples.Get_SourceDirectory()` to fetch the path to our source files. Similarly, `RunExamples.Get_OutputDirectory()` gets the path where we’ll save our output. Make sure these methods return valid paths on your machine.
 
 ## Step 2: Load the Workbook
 

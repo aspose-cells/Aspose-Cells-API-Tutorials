@@ -55,7 +55,7 @@ To begin our adventure in print previews, we need to define where our source Exc
 
 ```csharp
 // Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 This code is helping us find the path where `Book1.xlsx` resides, making future references much easier.
