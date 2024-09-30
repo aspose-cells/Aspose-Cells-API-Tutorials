@@ -1,91 +1,141 @@
 ---
 title: Wyodrębnij osadzony plik Mol
 linktitle: Wyodrębnij osadzony plik Mol
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel za pomocą Aspose.Cells dla .NET.
+second_title: Aspose.Cells dla .NET API Reference
+description: Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel przy użyciu Aspose.Cells dla platformy .NET.
 type: docs
 weight: 90
 url: /pl/net/excel-workbook/extract-embedded-mol-file/
 ---
-W tym samouczku przeprowadzimy Cię krok po kroku przez proces wyodrębniania osadzonego pliku MOL ze skoroszytu programu Excel przy użyciu biblioteki Aspose.Cells dla platformy .NET. Dowiesz się, jak przeglądać arkusze skoroszytu, wyodrębniać odpowiednie obiekty OLE i zapisywać wyodrębnione pliki MOL. Aby pomyślnie ukończyć to zadanie, wykonaj poniższe czynności.
+## Wstęp
 
-## Krok 1: Zdefiniuj katalogi źródłowe i wyjściowe
-Najpierw musimy zdefiniować katalogi źródłowe i wyjściowe w naszym kodzie. Katalogi te wskazują, gdzie znajduje się źródłowy skoroszyt programu Excel i gdzie zostaną zapisane wyodrębnione pliki MOL. Oto odpowiedni kod:
+Czy kiedykolwiek zdarzyło Ci się, że musiałeś wyodrębnić osadzone pliki, w szczególności pliki MOL, z arkusza kalkulacyjnego Excel? To trudne zadanie, prawda? Ale nie martw się! Z pomocą Aspose.Cells dla .NET możemy zamienić to pozornie skomplikowane zadanie w spacer po parku. W tym samouczku krok po kroku pokażemy Ci, jak wyodrębnić pliki MOL z pliku Excel przy użyciu potężnej biblioteki Aspose.Cells.
+
+## Wymagania wstępne
+
+Zanim przejdziemy do procesu ekstrakcji, upewnijmy się, że jesteś w pełni przygotowany, aby to zrobić. Oto, czego potrzebujesz:
+
+- Podstawowa wiedza o C#: Niewielka znajomość C# bardzo się przyda. Nawet jeśli dopiero zaczynasz, powinieneś być w stanie nadążyć.
+- Visual Studio: Zainstalowany Visual Studio w systemie. Jest on niezbędny do pisania i wykonywania kodu C#.
+-  Aspose.Cells dla .NET: Jeśli jeszcze nie pobrałeś, przejdź do[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/) i pobierz najnowszą wersję.
+- .NET Framework: Upewnij się, że masz zainstalowaną zgodną wersję .NET Framework.
+-  Plik Excela z osadzonymi obiektami MOL: W naszym przykładzie użyjemy`EmbeddedMolSample.xlsx`. Upewnij się, że masz ten plik gotowy do wyodrębnienia.
+
+## Importuj pakiety
+
+Teraz, gdy mamy wszystko, czego potrzebujemy, czas skonfigurować nasz projekt. Oto jak zaimportować niezbędne pakiety do projektu C#:
+
+### Utwórz nowy projekt
+
+Otwórz program Visual Studio i wybierz opcję utworzenia nowej aplikacji konsolowej C#.
+
+### Dodaj pakiet NuGet dla Aspose.Cells
+
+W nowo utworzonym projekcie musisz dodać pakiet Aspose.Cells. Możesz to zrobić za pomocą NuGet Package Manager:
+
+1. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
+2. Wybierz „Zarządzaj pakietami NuGet”.
+3. Wyszukaj „Aspose.Cells” i kliknij „Zainstaluj”.
+
+### Importuj przestrzeń nazw Aspose.Cells
 
 ```csharp
-// Katalogi
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+using Aspose.Cells.Drawing;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.IO;
 ```
 
-W razie potrzeby pamiętaj o określeniu odpowiednich ścieżek.
+Twój projekt powinien teraz móc wykorzystać funkcjonalności biblioteki Aspose.Cells.
 
-## Krok 2: Ładowanie skoroszytu programu Excel
-Następnym krokiem jest załadowanie skoroszytu programu Excel zawierającego osadzone obiekty OLE i pliki MOL. Oto kod ładujący skoroszyt:
+## Krok 1: Konfigurowanie środowiska
 
-```csharp
-Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
-```
+Teraz, gdy zaimportowałeś wymagane pakiety, skonfigurujmy środowisko, aby wyodrębnić pliki MOL.
 
-Upewnij się, że nazwa pliku źródłowego została poprawnie określona w kodzie.
-
-## Krok 3: Przejdź przez arkusze i wyodrębnij pliki MOL
-Teraz przejdziemy przez każdy arkusz skoroszytu i wyodrębnimy odpowiednie obiekty OLE, które zawierają pliki MOL. Oto odpowiedni kod:
-
-```csharp
-var index = 1;
-foreach(Worksheet sheet in workbook.Worksheets)
-{
-     OleObjectCollection oles = sheet.OleObjects;
-     foreach(OleObject ole in oles)
-     {
-         string fileName = outputDir + "OleObject" + index + ".mol";
-         FileStream fs = File.Create(fileName);
-         fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-         fs. Close();
-         index++;
-     }
-}
-Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
-```
-
-Ten kod przechodzi przez każdy arkusz skoroszytu, pobiera obiekty OLE i zapisuje wyodrębnione pliki MOL w katalogu wyjściowym.
-
-### Przykładowy kod źródłowy dla ekstraktu osadzonego pliku Mol przy użyciu Aspose.Cells dla .NET 
 ```csharp
 //katalogi
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+
+```
+
+Spowoduje to zainicjowanie skoroszytu przy użyciu pliku Excel zawierającego osadzone pliki MOL.
+
+
+Przedstawimy proces ekstrakcji na łatwe do wykonania kroki.
+
+## Krok 2: Załaduj skoroszyt
+
+ Gdy już masz swoje`workbook` skonfigurowaliśmy nasz przykładowy plik Excel, następnym krokiem jest załadowanie skoroszytu i przygotowanie się do ekstrakcji:
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
-var index = 1;
+```
+
+ W tym kroku tworzymy nową instancję`Workbook`Klasa, która działa jako pomost do zawartości pliku Excel. Plik jest ładowany tutaj, więc możemy później iterować po arkuszach i znaleźć osadzone obiekty MOL.
+
+## Krok 3: Przejrzyj arkusze kalkulacyjne
+
+Teraz, gdy nasz skoroszyt jest załadowany, czas na głębsze zagłębienie się. Musisz przejść przez każdy arkusz w skoroszycie, aby znaleźć wszystkie osadzone obiekty:
+
+```csharp
 foreach (Worksheet sheet in workbook.Worksheets)
 {
-	OleObjectCollection oles = sheet.OleObjects;
-	foreach (OleObject ole in oles)
-	{
-		string fileName = outputDir + "OleObject" + index + ".mol ";
-		FileStream fs = File.Create(fileName);
-		fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-		fs.Close();
-		index++;
-	}
+    OleObjectCollection oles = sheet.OleObjects;
+    // Kontynuuj przetwarzanie obiektów OLE...
 }
+```
+
+ W tym fragmencie kodu używamy`foreach` pętla, aby przejść przez każdy arkusz w naszym skoroszycie. Uzyskując dostęp do`OleObjects` kolekcji, możemy uzyskać dostęp do wszystkich osadzonych obiektów na danym arkuszu. 
+
+## Krok 4: Wyodrębnij obiekty OLE
+
+Tutaj dzieje się magia! Musisz przejść przez każdy obiekt OLE, aby wyodrębnić i zapisać pliki MOL:
+
+```csharp
+var index = 1;
+foreach (OleObject ole in oles)
+{
+    string fileName = outputDir + "OleObject" + index + ".mol";
+    FileStream fs = File.Create(fileName);
+    fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
+    fs.Close();
+    index++;
+}
+```
+
+W tym podejściu:
+- Śledzimy indeks, aby nadać sekwencyjne nazwy plikom wyjściowym.
+- Dla każdego obiektu OLE tworzymy nowy plik za pomocą FileStream.
+- Następnie zapisujemy osadzone dane do tego pliku i zamykamy strumień.
+
+## Krok 5: Potwierdź wykonanie
+
+Po zakończeniu procesu ekstrakcji warto potwierdzić jego prawidłowe wykonanie:
+
+```csharp
 Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 ```
 
+Ta prosta linia wysyła komunikat do konsoli, gdy cała operacja ekstrakcji przebiegnie bezproblemowo. 
+
 ## Wniosek
-Gratulacje! Nauczyłeś się, jak wyodrębnić osadzony plik MOL ze skoroszytu programu Excel przy użyciu Aspose.Cells dla .NET. Możesz teraz zastosować tę wiedzę do wyodrębnienia plików MOL z własnych skoroszytów programu Excel. Zachęcamy do dalszego eksplorowania biblioteki Aspose.Cells i poznania jej innych zaawansowanych funkcji.
 
-### Często zadawane pytania
+I masz! Udało Ci się wyodrębnić osadzone pliki MOL z pliku Excel przy użyciu Aspose.Cells dla .NET. Teraz możesz wykorzystać swoje nowo nabyte umiejętności i zastosować je w innych scenariuszach, w których musisz wyodrębnić pliki obiektów z arkuszy Excel. Ta metoda jest nie tylko skuteczna, ale także otwiera drzwi do obsługi różnych operacji związanych z Excelem bez wysiłku.
 
-#### P: Co to jest plik MOL?
- 
-Odp.: Plik MOL to format pliku używany do reprezentowania struktur chemicznych w chemii obliczeniowej. Zawiera informacje o atomach, wiązaniach i innych właściwościach molekularnych.
+## Najczęściej zadawane pytania
 
-#### P: Czy ta metoda działa ze wszystkimi typami plików Excel?
+### Czym jest Aspose.Cells dla .NET?  
+Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do manipulowania plikami Excela i zarządzania nimi w aplikacjach .NET.
 
-Odp.: Tak, ta metoda działa ze wszystkimi typami plików Excel obsługiwanymi przez Aspose.Cells.
+### Czy mogę wyodrębnić różne typy osadzonych plików za pomocą Aspose.Cells?  
+Oczywiście! Aspose.Cells pozwala wyodrębnić różne osadzone formaty plików, takie jak PDF-y, obrazy i inne, nie tylko pliki MOL.
 
-#### P: Czy mogę wyodrębnić wiele plików MOL jednocześnie?
+### Czy muszę kupić Aspose.Cells, żeby z niego korzystać?  
+Chociaż dostępna jest bezpłatna wersja próbna, do korzystania z pełnych funkcji potrzebna jest licencja. Możesz[kup tutaj](https://purchase.aspose.com/buy).
 
-Odp.: Tak, możesz wyodrębnić wiele plików MOL jednocześnie, iterując po obiektach OLE na każdym arkuszu skoroszytu.
+### Czy do przeprowadzenia tego procesu konieczne jest użycie programu Visual Studio?  
+Chociaż pokazaliśmy na przykładzie programu Visual Studio, do uruchomienia projektu możesz użyć dowolnego środowiska IDE zgodnego z językiem C#.
+
+### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?  
+ Możesz uzyskać dostęp[Fora wsparcia Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania wskazówek i rozwiązania problemów.

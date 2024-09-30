@@ -17,7 +17,7 @@ Automatizace aplikace Excel zahrnuje úkoly, jako je čtení, psaní a manipulac
 
 ## 2. Nastavení vašeho projektu Java
 
- Chcete-li začít, stáhněte si Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/). Zahrňte knihovnu do svého projektu Java. Zde je úryvek kódu pro přidání Aspose.Cells do vašeho projektu Gradle:
+ Chcete-li začít, stáhněte si Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/). Zahrňte knihovnu do svého projektu Java. Zde je úryvek kódu pro přidání Aspose.Cells do vašeho projektu Gradle:
 
 ```gradle
 dependencies {
@@ -117,4 +117,4 @@ Aspose.Cells for Java vám umožňuje efektivně automatizovat úkoly aplikace E
 
 ---
 
-Tento podrobný průvodce s příklady zdrojového kódu by vám měl poskytnout pevný základ pro automatizaci Excelu v Javě pomocí Aspose.Cells. Hodně štěstí při kódování a automatizaci úloh v Excelu!
+Tento podrobný průvodce s příklady zdrojového kódu by vám měl poskytnout pevný základ pro automatizaci Excelu v Javě pomocí Aspose.Cells. Hodně štěstí při programování a automatizaci úloh v Excelu!

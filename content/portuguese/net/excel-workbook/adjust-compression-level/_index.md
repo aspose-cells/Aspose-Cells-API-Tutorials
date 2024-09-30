@@ -1,135 +1,151 @@
 ---
-title: Ajustar o nível de compressão
-linktitle: Ajustar o nível de compressão
+title: Ajustar nível de compressão
+linktitle: Ajustar nível de compressão
 second_title: Referência da API Aspose.Cells para .NET
-description: Reduza o tamanho de suas pastas de trabalho do Excel ajustando o nível de compactação com Aspose.Cells for .NET.
+description: Aprenda como ajustar os níveis de compactação para arquivos do Excel usando o Aspose.Cells para .NET. Otimize os tamanhos dos seus arquivos de forma eficiente com este guia passo a passo.
 type: docs
 weight: 50
 url: /pt/net/excel-workbook/adjust-compression-level/
 ---
-Neste tutorial passo a passo, explicaremos o código-fonte C# fornecido que permitirá ajustar o nível de compactação usando Aspose.Cells for .NET. Siga as etapas abaixo para ajustar o nível de compactação em sua pasta de trabalho do Excel.
+## Introdução
 
-## Etapa 1: definir diretórios de origem e saída
+Quando se trata de lidar com arquivos grandes do Excel, o armazenamento eficiente é essencial. Seja você um desenvolvedor que busca otimizar tamanhos de arquivo ou um analista de dados que deseja acelerar transferências de arquivo, entender como ajustar os níveis de compactação no Aspose.Cells para .NET pode mudar o jogo. Neste guia, mostraremos as etapas para ajustar os níveis de compactação ao salvar arquivos do Excel, garantindo que você mantenha o desempenho sem sacrificar a qualidade.
 
-```csharp
-// diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Diretório de saída
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## Pré-requisitos
 
-Nesta primeira etapa, definimos os diretórios de origem e saída dos arquivos Excel.
+Antes de mergulhar nos detalhes dos níveis de compressão, vamos garantir que você tenha tudo o que precisa para começar:
 
-## Etapa 2: carregar a pasta de trabalho do Excel
+1. Conhecimento básico de C#: Um entendimento básico de programação em C# é essencial. Se você se sente confortável com variáveis, loops e operações básicas de arquivo, você está pronto para começar!
+2. Biblioteca Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada. Você pode baixá-la do[site](https://releases.aspose.com/cells/net/) . Se você está apenas começando, considere obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
+3. Ambiente de desenvolvimento: configure seu ambiente de desenvolvimento, de preferência o Visual Studio, para escrever e executar seu código C#. 
+4. Arquivo Excel de Exemplo: Tenha um arquivo Excel grande pronto para teste. Você pode criar um ou usar qualquer arquivo existente, mas certifique-se de que ele seja grande o suficiente para ver os efeitos da compactação.
 
-```csharp
-// Carregar a pasta de trabalho do Excel
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+Com esses pré-requisitos em vigor, vamos começar!
 
-Carregamos a pasta de trabalho do Excel do arquivo especificado usando o`Workbook` classe de Aspose.Cells.
+## Pacotes de importação
 
-## Etapa 3: definir opções de backup
+Antes de podermos manipular arquivos do Excel, precisamos importar os namespaces necessários. Este é um passo crucial que nos permite acessar as classes e métodos fornecidos pelo Aspose.Cells.
+
+### Importar o namespace Aspose.Cells
 
 ```csharp
-// Definir opções de backup
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- Criamos uma instância do`XlsbSaveOptions` class para definir opções de salvamento.
+ Este trecho de código importa o`Aspose.Cells` namespace, que contém todas as classes necessárias para trabalhar com arquivos do Excel. O`Aspose.Cells.Xlsb` namespace é específico para manipular formatos de arquivo XLSB.
 
-## Etapa 4: ajuste o nível de compactação (Nível 1)
+Agora que temos tudo configurado, vamos dividir o processo de ajuste dos níveis de compressão em etapas gerenciáveis. Salvaremos uma pasta de trabalho com diferentes níveis de compressão e mediremos o tempo gasto em cada operação. 
 
-```csharp
-// Ajuste o nível de compressão (Nível 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## Etapa 1: configure seus diretórios
 
- Ajustamos o nível de compressão definindo`CompressionType` para`Level1`. Em seguida, salvamos a pasta de trabalho do Excel com esta opção de compactação especificada.
+Primeiro, precisamos definir onde nossos arquivos serão armazenados. Isso envolve especificar o diretório de origem para nosso arquivo de entrada e o diretório de saída para nossos arquivos compactados.
 
-## Etapa 5: ajuste o nível de compactação (nível 6)
-
-```csharp
-// Ajuste o nível de compressão (Nível 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- Repetimos o processo para ajustar o nível de compressão para`Level6` e salve a pasta de trabalho do Excel com esta opção.
-
-## Passo 6: Ajustar o nível de compressão (Nível 9)
-
-```csharp
-// Ajuste o nível de compressão (Nível 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- Repetimos o processo uma última vez para ajustar o nível de compressão para`Level9` e salve a pasta de trabalho do Excel com esta opção.
-
-### Exemplo de código-fonte para ajustar o nível de compactação usando Aspose.Cells for .NET 
 ```csharp
 //Diretório de origem
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ Aqui,`RunExamples.Get_SourceDirectory()` e`RunExamples.Get_OutputDirectory()` são métodos que retornam os caminhos para seus diretórios de origem e saída, respectivamente. 
+
+## Etapa 2: Carregue a pasta de trabalho
+
+Em seguida, carregaremos a pasta de trabalho do Excel que queremos compactar. É aqui que você apontará para seu arquivo grande do Excel.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ Esta linha inicializa um novo`Workbook` objeto com o arquivo especificado. Certifique-se de que o caminho do arquivo esteja correto; caso contrário, você encontrará erros.
+
+## Etapa 3: Crie opções de salvamento para XLSB
+
+ Agora, criaremos uma instância de`XlsbSaveOptions`, que nos permite especificar como queremos salvar nossa pasta de trabalho, incluindo o nível de compactação.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+Esta linha prepara as opções que usaremos para salvar nossa pasta de trabalho no formato XLSB.
+
+## Etapa 4: Defina e meça os níveis de compressão
+
+Agora vem a parte divertida! Salvaremos a pasta de trabalho usando diferentes níveis de compressão e mediremos o tempo gasto em cada operação. 
+
+### Compressão de nível 1
+
+Vamos começar com o nível de compressão mais baixo:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Neste snippet, definimos o tipo de compactação como Nível 1, salvamos a pasta de trabalho e registramos o tempo gasto. 
+
+### Compressão de nível 6
+
+Em seguida, tentaremos um nível de compressão médio:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Desta vez, definimos o tipo de compressão para Nível 6 e repetimos a operação de salvamento.
+
+### Compressão de nível 9
+
+Por fim, vamos salvar usando o nível de compressão mais alto:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+Nesta etapa, definimos o tipo de compactação como Nível 9, que deve gerar o menor tamanho de arquivo, mas pode levar mais tempo para salvar.
+
+## Etapa 5: Saída final
+
+Depois de executar todos os passos acima, você verá os tempos decorridos para cada nível de compressão impressos no console. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Esta linha confirma que todo o processo foi concluído sem problemas.
+
 ## Conclusão
 
-Parabéns! Você aprendeu como ajustar o nível de compactação em uma pasta de trabalho do Excel usando Aspose.Cells for .NET. Experimente diferentes níveis de compactação para encontrar aquele que melhor atende às suas necessidades.
+Ajustar os níveis de compactação ao salvar arquivos do Excel com o Aspose.Cells para .NET é uma técnica simples, mas poderosa. Seguindo as etapas descritas neste guia, você pode manipular facilmente os tamanhos dos arquivos, tornando-os mais gerenciáveis para armazenamento e transferência. Quer você precise de acesso rápido aos dados ou esteja procurando otimizar o desempenho do seu aplicativo, dominar essas técnicas sem dúvida aumentará suas habilidades como desenvolvedor.
 
-### Perguntas frequentes
+## Perguntas frequentes
 
-#### P: O que é compactação em uma pasta de trabalho do Excel?
+### O que é Aspose.Cells?
+Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manipular e converter arquivos do Excel programaticamente.
 
-R: A compactação em uma pasta de trabalho do Excel é um processo de redução do tamanho do arquivo usando algoritmos de compactação. Isso reduz o espaço de armazenamento necessário e melhora o desempenho ao carregar e manipular o arquivo.
+### Como faço para baixar o Aspose.Cells?
+ Você pode baixar a biblioteca Aspose.Cells do[site](https://releases.aspose.com/cells/net/).
 
-#### P: Quais níveis de compactação estão disponíveis com Aspose.Cells?
+### Posso usar o Aspose.Cells gratuitamente?
+ Sim, o Aspose oferece uma versão de teste gratuita que você pode acessar[aqui](https://releases.aspose.com/).
 
-R: Com Aspose.Cells, você pode ajustar o nível de compactação de 1 a 9. Quanto maior o nível de compactação, menor será o tamanho do arquivo, mas também pode aumentar o tempo de processamento.
+### Quais são os diferentes níveis de compressão disponíveis?
+O Aspose.Cells suporta vários níveis de compactação, variando do Nível 1 (menor compactação) ao Nível 9 (máxima compactação).
 
-#### P: Como escolho o nível de compactação correto para minha pasta de trabalho do Excel?
-
-R: A escolha do nível de compactação depende de suas necessidades específicas. Se você deseja compactação máxima e o tempo de processamento não é um problema, você pode optar pelo nível 9. Se preferir um compromisso entre o tamanho do arquivo e o tempo de processamento, você pode escolher um nível intermediário.
-
-#### P: A compactação afeta a qualidade dos dados na pasta de trabalho do Excel?
-
-R: Não, a compactação não afeta a qualidade dos dados na pasta de trabalho do Excel. Simplesmente reduz o tamanho do arquivo usando técnicas de compactação sem alterar os dados em si.
-
-#### P: Posso ajustar o nível de compactação depois de salvar o arquivo Excel?
-
-R: Não, depois de salvar o arquivo Excel com um nível de compactação específico, você não poderá ajustar o nível de compactação posteriormente. Você precisará salvar o arquivo novamente com o novo nível de compactação se desejar modificá-lo.
+### Onde posso encontrar suporte para o Aspose.Cells?
+ Você pode obter suporte e fazer perguntas no[Fórum Aspose](https://forum.aspose.com/c/cells/9).

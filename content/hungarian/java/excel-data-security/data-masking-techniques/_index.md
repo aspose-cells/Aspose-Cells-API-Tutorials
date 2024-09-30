@@ -14,7 +14,7 @@ Az adatbiztonság világában az érzékeny információk védelme a legfontosab
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk az Aspose.Cells for Java segítségével történő adatmaszkolásba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk az Aspose.Cells for Java-val való adatmaszkolásba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java Development Kit (JDK) telepítve
 - Aspose.Cells for Java API könyvtár
@@ -110,13 +110,13 @@ Az Aspose különféle licencelési lehetőségeket kínál az Aspose.Cells for 
 
 ### Használhatom az Aspose.Cells for Java programot más programozási nyelvekkel?
 
-Az Aspose.Cells elsősorban a Java-t célozza meg, de az Aspose más nyelvekhez is biztosít könyvtárakat, például .NET, C++, és több.
+Az Aspose.Cells elsősorban a Java-t célozza meg, de az Aspose más nyelvekhez is biztosít könyvtárakat, például .NET, C++, és még sok más.
 
 ### Megfordítható az adatmaszkolás?
 
 Az adatmaszkolási technikákat általában úgy tervezték, hogy visszafordíthatatlanok legyenek, biztosítva, hogy az érzékeny információkat ne lehessen könnyen feltárni.
 
-### Vannak teljesítménybeli szempontok az adatmaszkolás használatakor?
+### Vannak-e teljesítménybeli szempontok az adatmaszkolás használatakor?
 
 Az adatmaszkolás teljesítményre gyakorolt hatása nagymértékben függ az adatkészlet összetettségétől és az alkalmazott konkrét maszkolási technikáktól. Elengedhetetlen, hogy tesztelje és optimalizálja az adott felhasználási esetet.
 

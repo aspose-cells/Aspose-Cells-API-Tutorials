@@ -2,134 +2,150 @@
 title: 調整壓縮等級
 linktitle: 調整壓縮等級
 second_title: Aspose.Cells for .NET API 參考
-description: 透過使用 Aspose.Cells for .NET 調整壓縮等級來減少 Excel 工作簿的大小。
+description: 了解如何使用 Aspose.Cells for .NET 調整 Excel 檔案的壓縮等級。透過此逐步指南有效優化檔案大小。
 type: docs
 weight: 50
 url: /zh-hant/net/excel-workbook/adjust-compression-level/
 ---
-在本逐步教程中，我們將解釋提供的 C# 原始程式碼，它允許您使用 Aspose.Cells for .NET 調整壓縮等級。請依照下列步驟調整 Excel 工作簿中的壓縮等級。
+## 介紹
 
-## 第 1 步：設定來源目錄和輸出目錄
+在處理大型 Excel 檔案時，高效儲存是關鍵。無論您是希望優化檔案大小的開發人員還是希望加快檔案傳輸速度的資料分析師，了解如何調整 Aspose.Cells for .NET 中的壓縮等級都可以改變遊戲規則。在本指南中，我們將引導您完成儲存 Excel 檔案時調整壓縮等級的步驟，確保您在不犧牲品質的情況下保持效能。
 
-```csharp
-//來源目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
-//輸出目錄
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## 先決條件
 
-在第一步中，我們定義 Excel 檔案的來源目錄和輸出目錄。
+在深入了解壓縮等級的細節之前，讓我們確保您擁有開始使用所需的一切：
 
-## 第 2 步：載入 Excel 工作簿
+1. C# 基礎知識：對 C# 程式設計的基本了解至關重要。如果您熟悉變數、循環和基本文件操作，那麼就可以開始了！
+2. Aspose.Cells for .NET Library：請確保您已安裝 Aspose.Cells 函式庫。您可以從[網站](https://releases.aspose.com/cells/net/)。如果您剛開始，請考慮免費試用[這裡](https://releases.aspose.com/).
+3. 開發環境：設定開發環境（最好是 Visual Studio）來編寫和執行 C# 程式碼。 
+4. 範例 Excel 檔案：準備一個大的 Excel 檔案以供測試。您可以建立一個文件或使用任何現有文件，但請確保它足夠大以查看壓縮效果。
 
-```csharp
-//載入 Excel 工作簿
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+滿足這些先決條件後，讓我們開始吧！
 
-我們使用以下命令從指定檔案載入 Excel 工作簿`Workbook`來自 Aspose.Cells 的類別。
+## 導入包
 
-## 第 3 步：設定備份選項
+在操作 Excel 檔案之前，我們需要匯入必要的命名空間。這是至關重要的一步，它允許我們訪問 Aspose.Cells 提供的類別和方法。
+
+### 導入 Aspose.Cells 命名空間
 
 ```csharp
-//定義備份選項
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
-我們建立一個實例`XlsbSaveOptions`類別設定保存選項。
+此程式碼片段導入`Aspose.Cells`命名空間，其中包含處理 Excel 檔案所需的所有類別。這`Aspose.Cells.Xlsb`命名空間專門用於處理 XLSB 檔案格式。
 
-## 步驟 4：調整壓縮等級（等級 1）
+現在我們已經完成了所有設置，讓我們將調整壓縮等級的過程分解為可管理的步驟。我們將保存具有不同壓縮等級的工作簿並測量每個操作所需的時間。 
 
-```csharp
-//調整壓縮等級（等級 1）
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## 第 1 步：設定您的目錄
 
-我們透過設定來調整壓縮級別`CompressionType`到`Level1`。然後，我們儲存指定此壓縮選項的 Excel 工作簿。
+首先，我們需要定義檔案的儲存位置。這涉及指定輸入檔案的來源目錄和壓縮檔案的輸出目錄。
 
-## 步驟 5：調整壓縮等級（等級 6）
-
-```csharp
-//調整壓縮等級（等級 6）
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
-我們重複該過程以將壓縮等級調整為`Level6`並使用此選項儲存 Excel 工作簿。
-
-## 第 6 步：調整壓縮等級（等級 9）
-
-```csharp
-//調整壓縮等級（9級）
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
-我們最後一次重複這個過程，將壓縮等級調整為`Level9`並使用此選項儲存 Excel 工作簿。
-
-### 使用 Aspose.Cells for .NET 調整壓縮等級的範例原始碼 
 ```csharp
 //原始碼目錄
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+這裡，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`是分別傳回來源目錄和輸出目錄的路徑的方法。 
+
+## 第 2 步：載入工作簿
+
+接下來，我們將載入要壓縮的 Excel 工作簿。您將在此處指向大型 Excel 文件。
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+該行初始化一個新的`Workbook`具有指定文件的物件。確保檔案路徑正確；否則，你會遇到錯誤。
+
+## 步驟 3：為 XLSB 建立儲存選項
+
+現在，我們將建立一個實例`XlsbSaveOptions`，它允許我們指定如何保存工作簿，包括壓縮等級。
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+此行準備我們將用於以 XLSB 格式儲存工作簿的選項。
+
+## 第 4 步：設定和測量壓縮級別
+
+現在來了有趣的部分！我們將使用不同的壓縮等級保存工作簿並測量每個操作所需的時間。 
+
+### 1 級壓縮
+
+讓我們從最低壓縮等級開始：
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+在此程式碼片段中，我們將壓縮類型設為等級 1，儲存工作簿並記錄所用時間。 
+
+### 6 級壓縮
+
+接下來，我們將嘗試中等壓縮等級：
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+這次，我們將壓縮類型設為6級並重複儲存操作。
+
+### 9 級壓縮
+
+最後，讓我們使用最高壓縮等級進行儲存：
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+在此步驟中，我們將壓縮類型設為等級 9，這應該會產生最小的檔案大小，但可能需要更長的時間來保存。
+
+## 第5步：最終輸出
+
+執行完上述所有步驟後，您將看到列印到控制台的每個壓縮等級的經過時間。 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+該行確認整個過程已完成，沒有任何問題。
+
 ## 結論
 
-恭喜！您學習如何使用 Aspose.Cells for .NET 調整 Excel 工作簿中的壓縮等級。嘗試不同的壓縮級別，找到最適合您需求的壓縮級別。
+使用 Aspose.Cells for .NET 儲存 Excel 檔案時調整壓縮等級是一項簡單且強大的技術。透過遵循本指南中概述的步驟，您可以輕鬆控製檔案大小，使它們更易於儲存和傳輸管理。無論您需要快速存取資料還是希望優化應用程式的效能，掌握這些技術無疑都會增強您作為開發人員的技能。
 
-### 常見問題解答
+## 常見問題解答
 
-#### Q：Excel 工作簿中的壓縮是什麼？
+### 什麼是 Aspose.Cells？
+Aspose.Cells 是一個 .NET 函式庫，可讓開發人員以程式設計方式建立、操作和轉換 Excel 檔案。
 
-答：Excel 工作簿中的壓縮是使用壓縮演算法來減少檔案大小的過程。這減少了載入和操作檔案時所需的儲存空間並提高了效能。
+### 如何下載 Aspose.Cells？
+您可以從以下位置下載 Aspose.Cells 庫：[網站](https://releases.aspose.com/cells/net/).
 
-#### Q：Aspose.Cells 提供什麼等級的壓縮？
+### 我可以免費使用 Aspose.Cells 嗎？
+是的，Aspose 提供免費試用版，您可以訪問[這裡](https://releases.aspose.com/).
 
-答：使用Aspose.Cells，您可以將壓縮等級從1調整到9。壓縮等級越高，檔案大小越小，但也會增加處理時間。
+### 有哪些不同的壓縮等級可用？
+Aspose.Cells 支援多種壓縮級別，範圍從 1 級（最小壓縮）到 9 級（最大壓縮）。
 
-#### Q：如何為 Excel 工作簿選擇正確的壓縮等級？
-
-答：壓縮等級的選擇取決於您的特定需求。如果您想要最大壓縮並且處理時間不是問題，則可以選擇等級 9。如果您希望在檔案大小和處理時間之間進行折衷，則可以選擇中間層級。
-
-#### Q：壓縮會影響 Excel 工作簿中的資料品質嗎？
-
-答：不會，壓縮不會影響 Excel 工作簿中的資料品質。它只是使用壓縮技術來減小檔案大小，而不改變資料本身。
-
-#### Q：儲存 Excel 檔案後可以調整壓縮等級嗎？
-
-答：不可以，一旦您以特定的壓縮等級儲存 Excel 文件，您以後就無法調整壓縮等級。如果您想修改文件，則需要使用新的壓縮等級再次儲存該文件。
+### 在哪裡可以找到對 Aspose.Cells 的支援？
+您可以獲得支持並提出問題[Aspose論壇](https://forum.aspose.com/c/cells/9).

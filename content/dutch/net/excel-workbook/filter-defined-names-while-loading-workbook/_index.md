@@ -1,72 +1,109 @@
 ---
-title: Filter gedefinieerde namen tijdens het laden van de werkmap
-linktitle: Filter gedefinieerde namen tijdens het laden van de werkmap
+title: Gedefinieerde namen filteren tijdens het laden van de werkmap
+linktitle: Gedefinieerde namen filteren tijdens het laden van de werkmap
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u gedefinieerde namen filtert bij het laden van een Excel-werkmap met Aspose.Cells voor .NET.
+description: Leer in deze uitgebreide handleiding hoe u gedefinieerde namen kunt filteren tijdens het laden van een werkmap met Aspose.Cells voor .NET.
 type: docs
 weight: 100
 url: /nl/net/excel-workbook/filter-defined-names-while-loading-workbook/
 ---
-Wanneer u met Excel-werkmappen in een .NET-toepassing werkt, is het vaak nodig om gegevens tijdens het laden te filteren. Aspose.Cells voor .NET is een krachtige bibliotheek waarmee u eenvoudig Excel-werkmappen kunt manipuleren. In deze handleiding laten we u zien hoe u de namen filtert die zijn gedefinieerd bij het laden van een werkmap met Aspose.Cells voor .NET. Volg deze eenvoudige stappen om de gewenste resultaten te krijgen:
+## Invoering
+
+Als u zich verdiept in Excel-bestandsmanipulatie met Aspose.Cells voor .NET, bent u op de juiste pagina terechtgekomen! In dit artikel onderzoeken we hoe u gedefinieerde namen kunt filteren tijdens het laden van een werkmap, een van de vele krachtige functies van deze fantastische API. Of u nu geavanceerde gegevensverwerking nastreeft of gewoon een handige manier nodig hebt om uw Excel-documenten programmatisch te beheren, deze gids heeft u gedekt.
+
+## Vereisten
+
+Voordat we erin duiken, zorgen we ervoor dat je alle benodigde tools tot je beschikking hebt. Dit is wat je nodig hebt:
+
+- Basiskennis van C#-programmering: u moet bekend zijn met de syntaxis en programmeerconcepten.
+-  Aspose.Cells voor .NET-bibliotheek: Zorg ervoor dat u het hebt geïnstalleerd en klaar voor gebruik. U kunt de bibliotheek hier downloaden[link](https://releases.aspose.com/cells/net/).
+- Visual Studio of een andere C# IDE: een ontwikkelomgeving is essentieel voor het schrijven en testen van uw code.
+-  Voorbeeld Excel-bestand: We gebruiken een Excel-bestand met de naam`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`U kunt dit bestand handmatig maken of indien nodig downloaden.
+
+## Pakketten importeren
+
+Eerst het belangrijkste! U moet de relevante Aspose.Cells-naamruimten importeren. Dit is hoe u dat doet:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Met deze naamruimten kunt u de volledige kracht van de Aspose.Cells-bibliotheek benutten om Excel-bestanden effectief te bewerken.
+
+Laten we het proces van het filteren van gedefinieerde namen tijdens het laden van een werkmap opsplitsen in duidelijke, beheersbare stappen.
 
 ## Stap 1: Geef laadopties op
 
-Eerst moet u de laadopties opgeven om het laadgedrag van de werkmap te definiëren. In ons geval willen we de namen negeren die tijdens het laden zijn ingesteld. Hier leest u hoe u dit doet met Aspose.Cells:
+Het eerste wat we gaan doen is een instantie van de maken`LoadOptions` klasse. Deze klasse helpt ons te specificeren hoe we ons Excel-bestand willen laden.
 
 ```csharp
-// Specificeert laadopties
 LoadOptions opts = new LoadOptions();
-
-// Laad geen gedefinieerde namen
-opts. LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-## Stap 2: Laad de werkmap
+ Hier initialiseren we een nieuw object van de`LoadOptions` klasse. Dit object staat verschillende configuraties toe, die we in de volgende stap zullen instellen.
 
-Zodra de laadopties zijn geconfigureerd, kunt u de Excel-werkmap vanuit het bronbestand laden. Zorg ervoor dat u het juiste bestandspad opgeeft. Hier is een voorbeeldcode:
+## Stap 2: Stel het laadfilter in
 
-```csharp
-// Laad de werkmap
-Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
-```
-
-## Stap 3: Sla de gefilterde werkmap op
-
-Nadat u de werkmap hebt geladen, kunt u indien nodig andere bewerkingen of bewerkingen uitvoeren. Vervolgens kunt u de gefilterde werkmap opslaan in een uitvoerbestand. Hier is hoe:
+Vervolgens moeten we definiëren welke gegevens we willen filteren tijdens het laden van de werkmap. In dit geval willen we voorkomen dat de gedefinieerde namen worden geladen.
 
 ```csharp
-// Sla de gefilterde Excel-werkmap op
-wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
-```
-
-### Voorbeeldbroncode voor door filter gedefinieerde namen tijdens het laden van de werkmap met Aspose.Cells voor .NET 
-```csharp
-//Geef de laadopties op
-LoadOptions opts = new LoadOptions();
-//We willen geen gedefinieerde namen laden
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
-//Laad de werkmap
+```
+
+De tilde (~) operator geeft aan dat we gedefinieerde namen willen uitsluiten van het laadproces. Dit is cruciaal als u uw werklast licht wilt houden en onnodige gegevens wilt vermijden die uw verwerking kunnen compliceren.
+
+## Stap 3: Laad de werkmap
+
+Nu onze laadopties zijn gespecificeerd, is het tijd om de werkmap zelf te laden. Gebruik de onderstaande code:
+
+```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
-//Sla het Excel-uitvoerbestand op. Het zal de formule in C1 breken
+```
+
+ In deze regel maakt u een nieuw exemplaar van de`Workbook`klasse, waarbij het pad naar uw voorbeeld-Excel-bestand en de laadopties worden doorgegeven. Dit laadt uw werkmap met de gedefinieerde namen die zijn uitgefilterd zoals opgegeven.
+
+## Stap 4: Sla het uitvoerbestand op
+
+Nadat u de werkmap hebt geladen zoals vereist, is de volgende stap het opslaan van de uitvoer. Vergeet niet dat, aangezien we de gedefinieerde namen hebben gefilterd, het belangrijk is om op te merken hoe dit uw bestaande formules kan beïnvloeden.
+
+```csharp
 wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
+```
+
+Deze regel slaat uw nieuwe werkmap op in een opgegeven uitvoermap. Als uw oorspronkelijke werkmap formules bevatte die gedefinieerde namen gebruikten in hun berekeningen, houd er dan rekening mee dat deze formules kunnen mislukken vanwege de filtering.
+
+## Stap 5: Bevestig de uitvoering
+
+Tot slot kunnen we bevestigen dat onze operatie succesvol was. Het is een goede gewoonte om feedback te geven in uw console om ervoor te zorgen dat alles soepel verliep.
+
+```csharp
 Console.WriteLine("FilterDefinedNamesWhileLoadingWorkbook executed successfully.");
 ```
 
+Met deze regel geeft u duidelijk aan dat de bewerking zonder problemen is verlopen.
+
 ## Conclusie
 
-Het filteren van gedefinieerde namen bij het laden van een Excel-werkmap kan voor veel toepassingen van cruciaal belang zijn. Aspose.Cells voor .NET maakt deze taak eenvoudiger door flexibele opties te bieden voor het laden en filteren van gegevens. Door de stappen in deze handleiding te volgen, kunt u de gedefinieerde namen effectief uitfilteren en de gewenste resultaten in uw Excel-werkmappen bereiken.
+En daar heb je het! Het filteren van gedefinieerde namen tijdens het laden van een werkmap met Aspose.Cells voor .NET kan worden bereikt met een paar eenvoudige stappen. Dit proces is uiterst nuttig in scenario's waarin u uw gegevensverwerking moet stroomlijnen of moet voorkomen dat onnodige gegevens uw berekeningen beïnvloeden.
 
+Door deze handleiding te volgen, kunt u uw Excel-bestanden met vertrouwen laden terwijl u bepaalt welke gegevens u wilt uitsluiten. Of u nu applicaties ontwikkelt die grote datasets beheren of specifieke bedrijfslogica implementeert, het beheersen van deze functie zal uw Excel-manipulatievaardigheden alleen maar verbeteren.
 
-### Veelgestelde vragen
+## Veelgestelde vragen
 
-#### Vraag: Ondersteunt Aspose.Cells naast C# ook andere programmeertalen?
-    
-A: Ja, Aspose.Cells is een platformonafhankelijke bibliotheek die vele programmeertalen ondersteunt, zoals Java, Python, C++en nog veel meer.
+### Wat is Aspose.Cells?
+Aspose.Cells is een krachtige .NET-bibliotheek waarmee u programmatisch Excel-bestanden kunt maken, bewerken en beheren.
 
-#### Vraag: Kan ik andere gegevenstypen filteren bij het laden van een werkmap met Aspose.Cells?
-    
-A: Ja, Aspose.Cells biedt een reeks filteropties voor gegevens, waaronder formules, stijlen, macro's, enz.
+### Kan ik andere soorten gegevens filteren tijdens het laden van een werkmap?
+Ja, Aspose.Cells biedt verschillende laadopties om verschillende gegevenstypen te filteren, waaronder grafieken, afbeeldingen en gegevensvalidaties.
 
-#### Vraag: Behoudt Aspose.Cells de opmaak en eigenschappen van de originele werkmap?
-    
-A: Ja, Aspose.Cells behoudt de opmaak, stijlen, formules en andere eigenschappen van de originele werkmap bij het werken met Excel-bestanden.
+### Wat gebeurt er met mijn formules nadat ik gedefinieerde namen heb gefilterd?
+Het filteren van gedefinieerde namen kan leiden tot kapotte formules als ze naar die namen verwijzen. U moet uw formules dienovereenkomstig aanpassen.
+
+### Is er een gratis proefversie beschikbaar voor Aspose.Cells?
+ Ja, u kunt een gratis proefversie van Aspose.Cells krijgen om de mogelijkheden ervan te testen voordat u tot aankoop overgaat. Bekijk het[hier](https://releases.aspose.com/).
+
+### Waar kan ik meer voorbeelden en documentatie vinden?
+ Uitgebreide documentatie en meer voorbeelden vindt u op de Aspose.Cells-referentiepagina[hier](https://reference.aspose.com/cells/net/).

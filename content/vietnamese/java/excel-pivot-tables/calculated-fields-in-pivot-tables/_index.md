@@ -1,47 +1,47 @@
 ---
-title: Các trường được tính toán trong bảng tổng hợp
-linktitle: Các trường được tính toán trong bảng tổng hợp
-second_title: API xử lý Java Excel của Aspose.Cells
-description: Tìm hiểu cách tạo các trường được tính toán trong Bảng tổng hợp bằng Aspose.Cells cho Java. Tăng cường phân tích dữ liệu của bạn với các phép tính tùy chỉnh trong Excel.
+title: Các trường được tính toán trong bảng Pivot
+linktitle: Các trường được tính toán trong bảng Pivot
+second_title: API xử lý Excel Java của Aspose.Cells
+description: Tìm hiểu cách tạo các trường tính toán trong Pivot Table bằng Aspose.Cells for Java. Tăng cường phân tích dữ liệu của bạn bằng các phép tính tùy chỉnh trong Excel.
 type: docs
 weight: 15
 url: /vi/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 ---
 ## Giới thiệu
-Bảng Pivot là một công cụ mạnh mẽ để phân tích và tóm tắt dữ liệu trong Excel. Tuy nhiên, đôi khi bạn cần thực hiện các phép tính tùy chỉnh trên dữ liệu của mình trong Bảng tổng hợp. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách tạo các trường được tính toán trong Bảng tổng hợp bằng Aspose.Cells cho Java, cho phép bạn đưa phân tích dữ liệu của mình lên một tầm cao mới.
+Pivot Table là một công cụ mạnh mẽ để phân tích và tóm tắt dữ liệu trong Excel. Tuy nhiên, đôi khi bạn cần thực hiện các phép tính tùy chỉnh trên dữ liệu của mình trong Pivot Table. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách tạo các trường được tính toán trong Pivot Table bằng Aspose.Cells for Java, cho phép bạn đưa phân tích dữ liệu của mình lên một tầm cao mới.
 
 ### Điều kiện tiên quyết
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có những điều sau:
+Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 - Đã cài đặt thư viện Aspose.Cells cho Java.
 - Kiến thức cơ bản về lập trình Java.
 
-## Bước 1: Thiết lập dự án Java của bạn
- Đầu tiên, tạo một dự án Java mới trong IDE yêu thích của bạn và bao gồm thư viện Aspose.Cells cho Java. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/cells/java/).
+## Bước 1: Thiết lập Dự án Java của bạn
+ Đầu tiên, hãy tạo một dự án Java mới trong IDE yêu thích của bạn và bao gồm thư viện Aspose.Cells cho Java. Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 2: Nhập các lớp cần thiết
-Trong mã Java của bạn, hãy nhập các lớp cần thiết từ Aspose.Cells. Các lớp này sẽ giúp bạn làm việc với Bảng tổng hợp và các trường được tính toán.
+Trong mã Java của bạn, hãy nhập các lớp cần thiết từ Aspose.Cells. Các lớp này sẽ giúp bạn làm việc với Pivot Table và các trường được tính toán.
 
 ```java
 import com.aspose.cells.*;
 ```
 
 ## Bước 3: Tải tệp Excel của bạn
- Tải tệp Excel chứa Bảng tổng hợp vào ứng dụng Java của bạn. Thay thế`"your-file.xlsx"` với đường dẫn đến tệp Excel của bạn.
+ Tải tệp Excel có chứa Bảng Pivot vào ứng dụng Java của bạn. Thay thế`"your-file.xlsx"` bằng đường dẫn đến tệp Excel của bạn.
 
 ```java
 Workbook workbook = new Workbook("your-file.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Bước 4: Truy cập Bảng tổng hợp
-Để làm việc với Pivot Table, bạn cần truy cập nó trong trang tính của mình. Giả sử Bảng tổng hợp của bạn có tên là "PivotTable1."
+## Bước 4: Truy cập Bảng Pivot
+Để làm việc với Pivot Table, bạn cần truy cập vào nó trong trang tính của mình. Giả sử Pivot Table của bạn có tên là "PivotTable1."
 
 ```java
 PivotTable pivotTable = worksheet.getPivotTables().get("PivotTable1");
 ```
 
-## Bước 5: Tạo trường được tính toán
-Bây giờ, hãy tạo một trường được tính toán trong Bảng tổng hợp. Chúng tôi sẽ tính tổng của hai trường hiện có, "Trường1" và "Trường2" và đặt tên cho trường được tính toán của chúng tôi là "Tổng".
+## Bước 5: Tạo trường tính toán
+Bây giờ, hãy tạo một trường tính toán trong Pivot Table. Chúng ta sẽ tính tổng của hai trường hiện có, "Field1" và "Field2", và đặt tên cho trường tính toán của chúng ta là "Total".
 
 ```java
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Field1");
@@ -51,8 +51,8 @@ PivotFieldCollection pivotFields = pivotTable.getDataFields();
 pivotFields.add("Total", "Field1+Field2");
 ```
 
-## Bước 6: Làm mới Bảng tổng hợp
-Sau khi thêm trường được tính toán, hãy làm mới Bảng tổng hợp để xem các thay đổi.
+## Bước 6: Làm mới Bảng Pivot
+Sau khi thêm trường đã tính toán, hãy làm mới Bảng Pivot để xem những thay đổi.
 
 ```java
 pivotTable.refreshData();
@@ -60,20 +60,20 @@ pivotTable.calculateData();
 ```
 
 ## Phần kết luận
-Chúc mừng! Bạn đã học cách tạo các trường được tính toán trong Bảng Pivot bằng Aspose.Cells cho Java. Điều này cho phép bạn thực hiện các phép tính tùy chỉnh trên dữ liệu của mình trong Excel, nâng cao khả năng phân tích dữ liệu của bạn.
+Xin chúc mừng! Bạn đã học cách tạo các trường tính toán trong Pivot Table bằng Aspose.Cells for Java. Điều này cho phép bạn thực hiện các phép tính tùy chỉnh trên dữ liệu của mình trong Excel, nâng cao khả năng phân tích dữ liệu của bạn.
 
 ## Câu hỏi thường gặp
-### Điều gì sẽ xảy ra nếu tôi thực hiện các phép tính phức tạp hơn trong Bảng tổng hợp của mình?
+### Tôi phải làm gì nếu cần thực hiện các phép tính phức tạp hơn trong Bảng Pivot?
    Bạn có thể tạo các công thức phức tạp hơn bằng cách kết hợp các hàm và tham chiếu trường trong trường được tính toán.
 
-### Tôi có thể xóa trường được tính toán nếu tôi không cần nó nữa không?
-   Có, bạn có thể xóa trường được tính toán khỏi Bảng tổng hợp bằng cách truy cập vào`pivotFields` thu thập và xóa trường theo tên.
+### Tôi có thể xóa trường đã tính toán nếu không còn cần đến nó nữa không?
+   Có, bạn có thể xóa trường đã tính toán khỏi Bảng Pivot bằng cách truy cập`pivotFields` thu thập và xóa trường theo tên.
 
-### Aspose.Cells cho Java có phù hợp với các tập dữ liệu lớn không?
-   Có, Aspose.Cells for Java được thiết kế để xử lý các tệp và bộ dữ liệu Excel lớn một cách hiệu quả.
+### Aspose.Cells for Java có phù hợp với các tập dữ liệu lớn không?
+   Có, Aspose.Cells for Java được thiết kế để xử lý các tập tin và bộ dữ liệu Excel lớn một cách hiệu quả.
 
-### Có bất kỳ hạn chế nào đối với các trường được tính toán trong Bảng tổng hợp không?
-   Các trường được tính toán có một số hạn chế, chẳng hạn như không hỗ trợ một số loại tính toán nhất định. Hãy chắc chắn kiểm tra tài liệu để biết chi tiết.
+### Có bất kỳ hạn chế nào đối với các trường tính toán trong Bảng Pivot không?
+   Các trường tính toán có một số hạn chế, chẳng hạn như không hỗ trợ một số loại tính toán nhất định. Hãy đảm bảo kiểm tra tài liệu để biết chi tiết.
 
-### Tôi có thể tìm thêm tài nguyên trên Aspose.Cells cho Java ở đâu?
-    Bạn có thể khám phá tài liệu API tại[Aspose.Cells cho tài liệu Java](https://reference.aspose.com/cells/java/).
+### Tôi có thể tìm thêm tài nguyên về Aspose.Cells cho Java ở đâu?
+    Bạn có thể khám phá tài liệu API tại[Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).

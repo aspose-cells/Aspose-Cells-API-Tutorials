@@ -92,7 +92,7 @@ MAX-funktionen hittar det maximala numeriska värdet i ett område, medan MAXA-f
 
 ### Kan jag använda MAX-funktionen med villkorliga kriterier?
 
-Jo det kan du. Du kan kombinera MAX-funktionen med logiska funktioner som OM för att hitta maxvärdet baserat på specifika förhållanden.
+Ja, det kan du. Du kan kombinera MAX-funktionen med logiska funktioner som OM för att hitta maxvärdet baserat på specifika förhållanden.
 
 ### Hur hanterar jag fel när jag använder MAX-funktionen i Aspose.Cells?
 

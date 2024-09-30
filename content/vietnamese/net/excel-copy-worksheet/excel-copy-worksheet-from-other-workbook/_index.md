@@ -1,169 +1,143 @@
 ---
-title: Sao chép bảng tính Excel từ sổ làm việc khác
-linktitle: Sao chép bảng tính Excel từ sổ làm việc khác
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Dễ dàng sao chép bảng tính Excel từ sổ làm việc này sang sổ làm việc khác bằng Aspose.Cells for .NET.
+title: Excel Sao Chép Bảng Tính Từ Sổ Làm Việc Khác
+linktitle: Excel Sao Chép Bảng Tính Từ Sổ Làm Việc Khác
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách sao chép bảng tính từ sổ làm việc Excel này sang sổ làm việc Excel khác bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 type: docs
 weight: 10
 url: /vi/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
 ---
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để sao chép trang tính Excel từ sổ làm việc khác bằng thư viện Aspose.Cells cho .NET. Thực hiện theo các hướng dẫn dưới đây để hoàn thành nhiệm vụ này.
+## Giới thiệu
 
-## Bước 1: Chuẩn bị
+Bạn đã bao giờ thấy mình vật lộn với nhiều sổ làm việc Excel, cố gắng sắp xếp dữ liệu của mình sao cho có tổ chức và dễ truy cập chưa? Nếu vậy, bạn không phải là người duy nhất! Nhiều người trong chúng ta phải xử lý nhiều tệp khác nhau, cho dù là cho công việc hay các dự án cá nhân. Tin tốt là bạn có thể làm cho cuộc sống của mình dễ dàng hơn với một chút trợ giúp từ Aspose.Cells for .NET. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp Excel một cách dễ dàng, bao gồm cả việc sao chép các bảng tính từ sổ làm việc này sang sổ làm việc khác. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để thực hiện điều đó, đảm bảo bạn có thể hợp lý hóa quy trình làm việc của mình và tăng năng suất.
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells cho .NET và tạo dự án C# trong môi trường phát triển tích hợp (IDE) ưa thích của bạn.
+## Điều kiện tiên quyết
 
-## Bước 2: Đặt đường dẫn thư mục tài liệu
+Trước khi đi sâu vào phần mã hóa, hãy chuẩn bị mọi thứ bạn cần. Đừng lo lắng; đây không phải là khoa học tên lửa! Sau đây là những gì bạn sẽ cần:
 
- Khai báo một`dataDir` biến và khởi tạo nó bằng đường dẫn đến thư mục tài liệu của bạn. Ví dụ :
+1. Visual Studio (hoặc bất kỳ IDE .NET nào): Bạn nên thiết lập môi trường phát triển .NET trên máy của mình.
+2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt Aspose.Cells. Nếu bạn chưa có, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+3. Hiểu biết cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp bạn dễ dàng hơn trong hành trình này, nhưng đừng căng thẳng nếu bạn mới bắt đầu!
+4. .NET Framework: Đảm bảo dự án của bạn hướng tới phiên bản tương thích của .NET Framework.
+5. Thiết lập hệ thống: Đảm bảo bạn có thể chạy và kiểm tra ứng dụng của mình mà không có bất kỳ hạn chế nào.
+
+Bây giờ chúng ta đã có mọi thứ, hãy bắt đầu viết mã nhé!
+
+## Nhập gói
+
+Trước khi bắt đầu triển khai chức năng, chúng ta cần nhập các gói cần thiết. Bằng cách này, bạn sẽ có quyền truy cập vào tất cả các tính năng mà Aspose.Cells cung cấp. Sau đây là hướng dẫn từng bước dành cho bạn:
+
+### Thêm Sử dụng Câu lệnh
+
+Mở tệp C# của bạn và thêm lệnh sau vào đầu:
 
 ```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
+using System.IO;
+using Aspose.Cells;
+using System;
 ```
 
- Hãy chắc chắn để thay thế`"YOUR_DOCUMENTS_DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Gói này là cốt lõi của thư viện Aspose và sẽ cung cấp cho bạn quyền truy cập vào tất cả các lớp và phương thức của thư viện này.
 
-## Bước 3: Tạo sổ làm việc Excel mới
+Bây giờ chúng ta đã chuẩn bị mọi thứ, hãy cùng đến với phần thú vị—thực sự là sao chép bảng tính từ sổ làm việc này sang sổ làm việc khác! Chúng ta sẽ chia nhỏ thành nhiều bước rõ ràng.
 
- Sử dụng`Workbook` lớp từ Aspose.Cells để tạo sổ làm việc Excel mới:
+## Bước 1: Thiết lập thư mục tài liệu
+
+Đầu tiên, chúng ta cần chỉ định nơi lưu trữ các tệp Excel của mình. Xác định đường dẫn đến thư mục tài liệu của bạn:
 
 ```csharp
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Cập nhật thư mục này vào thư mục thực tế của bạn
+```
+ Các`dataDir` biến sẽ lưu trữ đường dẫn nơi bạn sẽ lưu tệp Excel cuối cùng. Đảm bảo bạn thay thế "YOUR DOCUMENT DIRECTORY" bằng đường dẫn thực tế trên hệ thống của bạn.
+
+## Bước 2: Tạo một bảng tính mới và điền dữ liệu vào đó
+
+Tiếp theo, chúng ta hãy tạo sổ làm việc đầu tiên và thêm một số dữ liệu mẫu vào đó. Sau đây là cách thực hiện:
+
+```csharp
+// Tạo một Workbook mới
 Workbook excelWorkbook0 = new Workbook();
-```
-
-## Bước 4: Lấy bảng tính đầu tiên trong sổ làm việc
-
-Điều hướng đến bảng tính đầu tiên trong sổ làm việc bằng chỉ mục 0:
-
-```csharp
+// Nhận bài tập đầu tiên trong sách
 Worksheet ws0 = excelWorkbook0.Worksheets[0];
-```
 
-## Bước 5: Thêm dữ liệu vào các hàng tiêu đề (A1:A4)
-
- Sử dụng một`for` vòng lặp để thêm dữ liệu vào các hàng tiêu đề (A1:A4):
-
-```csharp
-for (int i = 0; i < 5; i++)
-{
-     ws0.Cells[i, 0].PutValue(string.Format("Header row {0}", i));
-}
-```
-
-## Bước 6: Thêm dữ liệu chi tiết (A5:A999)
-
- Sử dụng cái khác`for` vòng lặp để thêm dữ liệu chi tiết (A5:A999):
-
-```csharp
-for (int i = 5; i < 1000; i++)
-{
-     ws0.Cells[i, 0].PutValue(string.Format("Detail row {0}", i));
-}
-```
-
-## Bước 7: Đặt tùy chọn bố cục
-
- Đặt các tùy chọn thiết lập trang cho bảng tính bằng cách sử dụng`PageSetup` sự vật:
-
-```csharp
-PageSetup pagesetup = ws0.PageSetup;
-pagesetup.PrintTitleRows = "$1:$5";
-```
-
-## Bước 8: Tạo một bảng tính Excel khác
-
-Tạo một sổ làm việc Excel khác:
-
-```csharp
-Workbook excelWorkbook1 = new Workbook();
-```
-
-## Bước 9: Lấy bảng tính đầu tiên từ sổ làm việc thứ hai
-
-Điều hướng đến bảng tính đầu tiên trong sổ làm việc thứ hai:
-
-```csharp
-Worksheet ws1 = excelWorkbook1.Worksheets[0];
-```
-
-## Bước 10: Đặt tên cho bảng tính
-
-đặt tên cho ngọn lửa
-
-đảo tính toán:
-
-```csharp
-ws1.Name = "MySheet";
-```
-
-## Bước 11: Sao chép dữ liệu từ bảng tính đầu tiên của sổ làm việc thứ nhất sang bảng tính đầu tiên của sổ làm việc thứ hai
-
-Sao chép dữ liệu từ bảng tính đầu tiên của sổ làm việc đầu tiên sang bảng tính đầu tiên của sổ làm việc thứ hai:
-
-```csharp
-ws1.Copy(ws0);
-```
-
-## Bước 12: Lưu file Excel
-
-Lưu tệp Excel:
-
-```csharp
-excelWorkbook1.Save(dataDir + "CopyWorkbookSheetToOther_out.xls");
-```
-
-Đảm bảo chỉ định đường dẫn và tên tệp mong muốn cho tệp đầu ra.
-
-### Mã nguồn mẫu cho Bảng tính sao chép Excel từ sổ làm việc khác bằng Aspose.Cells cho .NET 
-```csharp
-//Đường dẫn đến thư mục tài liệu.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo một Workbook mới.
-Workbook excelWorkbook0 = new Workbook();
-// Lấy bảng tính đầu tiên trong cuốn sách.
-Worksheet ws0 = excelWorkbook0.Worksheets[0];
 // Đặt một số dữ liệu vào các hàng tiêu đề (A1:A4)
 for (int i = 0; i < 5; i++)
 {
-	ws0.Cells[i, 0].PutValue(string.Format("Header Row {0}", i));
+    ws0.Cells[i, 0].PutValue(string.Format("Header Row {0}", i));
 }
-// Đặt một số dữ liệu chi tiết (A5:A999)
+
+// Đưa một số dữ liệu chi tiết (A5:A999)
 for (int i = 5; i < 1000; i++)
 {
-	ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
+    ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
-// Xác định đối tượng pagesetup dựa trên bảng tính đầu tiên.
+```
+Ở đây, chúng ta tạo sổ làm việc đầu tiên và điền vào bảng tính đầu tiên (`ws0`với các tiêu đề và hàng chi tiết. Dữ liệu mô phỏng này sẽ giúp bạn hình dung quá trình sao chép sau này.
+
+## Bước 3: Thiết lập trang để in
+
+Hãy cấu hình thiết lập trang để lặp lại các hàng tiêu đề khi in, chỉ để chúng ta có thể thấy tính năng đó hoạt động:
+
+```csharp
+// Xác định đối tượng pagesetup dựa trên trang tính đầu tiên
 PageSetup pagesetup = ws0.PageSetup;
-// Năm hàng đầu tiên được lặp lại trong mỗi trang...
-// Nó có thể được nhìn thấy trong bản xem trước in.
+// Năm hàng đầu tiên được lặp lại trong mỗi trang
 pagesetup.PrintTitleRows = "$1:$5";
-// Tạo một Workbook khác.
+```
+ Phần này xác định cách tài liệu của bạn sẽ được in. Bằng cách thiết lập`PrintTitleRows`, chúng tôi đảm bảo rằng năm hàng đầu tiên sẽ xuất hiện trên mọi trang in, điều này rất hữu ích cho khả năng đọc.
+
+## Bước 4: Tạo sổ làm việc thứ hai
+
+Bây giờ, chúng ta cần tạo một bảng tính khác để sao chép bảng tính đầu tiên:
+
+```csharp
+// Tạo một Workbook khác
 Workbook excelWorkbook1 = new Workbook();
-// Lấy bảng tính đầu tiên trong cuốn sách.
+// Nhận bài tập đầu tiên trong sách
 Worksheet ws1 = excelWorkbook1.Worksheets[0];
-// Đặt tên cho bảng tính.
+// Đặt tên cho bảng tính
 ws1.Name = "MySheet";
-// Sao chép dữ liệu từ bảng tính đầu tiên của sổ làm việc đầu tiên vào
-// bảng tính đầu tiên của bảng tính thứ hai.
+```
+Chúng tôi đã tạo một bảng tính mới (`excelWorkbook1`) và đổi tên trang tính đầu tiên thành "MySheet". Luôn là một ý tưởng hay khi đặt tên có ý nghĩa cho trang tính của bạn để dễ truy cập hơn sau này.
+
+## Bước 5: Sao chép bảng tính
+
+Hãy sao chép nội dung từ trang tính của sổ làm việc đầu tiên sang sổ làm việc thứ hai:
+
+```csharp
+// Sao chép dữ liệu từ trang tính đầu tiên của sổ làm việc đầu tiên vào
+// bài tập đầu tiên của bài tập thứ hai
 ws1.Copy(ws0);
-// Lưu tập tin excel.
+```
+ Các`Copy` phương pháp này lấy tất cả nội dung từ bảng tính nguồn (`ws0`) và sao chép nó vào bảng tính đích (`ws1`). Quá đơn giản phải không?
+
+## Bước 6: Lưu sổ làm việc mới
+
+Cuối cùng, hãy lưu bảng tính mới tạo của chúng ta:
+
+```csharp
+// Lưu tệp excel
 excelWorkbook1.Save(dataDir + "CopyWorksheetFromWorkbookToOther_out.xls");
 ```
+Dòng này sẽ lưu sổ làm việc thứ hai của bạn theo đường dẫn đã chỉ định. Đừng quên kiểm tra xem mọi thứ có ổn không sau khi bạn chạy mã!
 
 ## Phần kết luận
 
-Xin chúc mừng! Bây giờ bạn đã học cách sao chép một bảng tính Excel từ một sổ làm việc khác bằng Aspose.Cells for .NET. Vui lòng sử dụng phương pháp này trong các dự án của riêng bạn để thao tác các tệp Excel một cách hiệu quả.
+Và bạn đã có nó! Bạn đã học thành công cách sao chép một bảng tính từ một sổ làm việc này sang sổ làm việc khác bằng Aspose.Cells cho .NET. Đây là một kỹ năng cực kỳ hữu ích, đặc biệt là khi xử lý lượng dữ liệu lớn nằm rải rác trên nhiều tệp khác nhau. Chỉ với một vài dòng mã, bạn có thể sắp xếp, quản lý và truy cập dữ liệu Excel của mình thuận tiện hơn nhiều.
 
-### Câu hỏi thường gặp
+## Câu hỏi thường gặp
 
-#### Câu hỏi: Cần có những thư viện nào để sử dụng Aspose.Cells cho .NET?
+### Aspose.Cells là gì?  
+Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, chỉnh sửa, chuyển đổi và hiển thị các tệp Excel ở nhiều định dạng khác nhau.
 
-A. Để sử dụng Aspose.Cells cho .NET, bạn phải đưa thư viện Aspose.Cells vào dự án của mình. Đảm bảo rằng bạn đã tham chiếu chính xác thư viện này trong môi trường phát triển tích hợp (IDE) của mình.
+### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
+ Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể truy cập[đây](https://releases.aspose.com/).
 
-#### H. Aspose.Cells có hỗ trợ các định dạng tệp Excel khác, chẳng hạn như XLSX không?
+### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?  
+ Bạn có thể yêu cầu giấy phép tạm thời bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
 
-A. Có, Aspose.Cells hỗ trợ nhiều định dạng tệp Excel khác nhau bao gồm XLSX, XLS, CSV, HTML, v.v. Bạn có thể thao tác các định dạng tệp này bằng các tính năng của Aspose.Cells cho .NET.
+### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?  
+ Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/cells/net/).
 
-#### H. Tôi có thể tùy chỉnh các tùy chọn bố cục khi sao chép trang tính không?
-
-A.  Có, bạn có thể tùy chỉnh các tùy chọn thiết lập trang khi sao chép trang tính bằng cách sử dụng các thuộc tính của`PageSetup` sự vật. Bạn có thể chỉ định tiêu đề trang, chân trang, lề, hướng, v.v.
+### Có hỗ trợ nào dành cho người dùng Aspose.Cells không?  
+ Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

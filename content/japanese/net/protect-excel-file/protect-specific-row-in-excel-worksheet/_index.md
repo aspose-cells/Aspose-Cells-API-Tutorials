@@ -2,160 +2,151 @@
 title: Excel ワークシートの特定の行を保護する
 linktitle: Excel ワークシートの特定の行を保護する
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel の特定の行を保護します。機密データを保護するためのステップバイステップのガイド。
+description: Aspose.Cells for .NET を使用して Excel ワークシート内の特定の行を保護する方法を学びます。開発者向けのステップバイステップ ガイドです。
 type: docs
 weight: 90
 url: /ja/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 ---
-Excel スプレッドシート内の機密データを保護することは、情報セキュリティを確保するために不可欠です。 Aspose.Cells for .NET は、Excel スプレッドシートの特定の行を保護する強力なソリューションを提供します。このガイドでは、提供されている C# ソース コードを使用して Excel ワークシートの特定の行を保護する方法について説明します。次の簡単な手順に従って、Excel ファイルに行保護を設定します。
+## 導入
 
-## ステップ 1: 必要なライブラリをインポートする
+今日のペースの速い世界では、スプレッドシートを効果的に管理することがこれまで以上に重要になっています。Microsoft Excel は、多くの業界や職業で欠かせないツールです。しかし、特に共同作業環境でこれらのドキュメントを共有する場合、スプレッドシート内の特定の情報を保護することが非常に重要になります。では、Excel で行を封印して、不要な変更を防ぐにはどうすればよいでしょうか。.NET を使用している場合は、ラッキーです。Aspose.Cells は、Excel ファイルをプログラムで処理するための優れたライブラリであり、特定の行を効率的に保護できます。
 
-開始するには、Aspose.Cells for .NET がシステムにインストールされていることを確認してください。 Aspose.Cells の機能を使用できるようにするには、C# プロジェクトに適切な参照を追加する必要もあります。必要なライブラリをインポートするコードは次のとおりです。
+## 前提条件
 
+始める前に、いくつか必要なものがあります:
+
+1. Visual Studio: マシンに Visual Studio がインストールされていることを確認してください。.NET 開発をサポートする任意のバージョンを使用できます。
+2.  Aspose.Cells for .NET: Aspose.Cellsライブラリをインストールする必要があります。[ダウンロードするにはこのリンクをクリックしてください](https://releases.aspose.com/cells/net/)最新リリース。
+3. 基本的な .NET の知識: コード スニペットを扱うため、C# と基本的なプログラミング概念を理解していると役立ちます。
+
+すべて準備ができたら、仕事に取り掛かりましょう。
+
+## パッケージのインポート
+
+コードを書く前に、必要な Aspose.Cells 名前空間をインポートする必要があります。これにより、アプリケーションが Aspose.Cells ライブラリによって提供されるクラスとメソッドを使用できるようになります。必要な手順は次のとおりです。
+
+### プロジェクトの設定
+
+1. 新しいプロジェクトを作成する:
+   - Visual Studio を開き、新しいコンソール アプリケーション プロジェクトを作成します。このプロジェクトは Excel 操作コードをホストします。
+
+2. Aspose.Cells 参照を追加します。
+   - ソリューション エクスプローラーでプロジェクトを右クリックし、「NuGet パッケージの管理」に移動して、「Aspose.Cells」を検索します。クリックしてインストールします。
+
+3. コードに必要な名前空間を含めます。
 ```csharp
-//必要な参照を追加します
+using System.IO;
 using Aspose.Cells;
 ```
 
-## ステップ 2: Excel ワークブックとスプレッドシートを作成する
+これですべての設定が完了したので、Excel ワークシートの特定の行を段階的に保護してみましょう。使用する例では最初の行をロックしますが、任意の行に調整することができます。
 
-必要なライブラリをインポートした後、新しい Excel ワークブックと新しいワークシートを作成できます。その方法は次のとおりです。
+## ステップ1: ドキュメントディレクトリを定義する
 
-```csharp
-//ドキュメントディレクトリへのパス。
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-
-//ディレクトリが存在しない場合は作成します。
-bool IsExists = System.IO.Directory.Exists(dataDir);
-if (!IsExists)
-     System.IO.Directory.CreateDirectory(dataDir);
-
-//新しいワークブックを作成します。
-Workbook wb = new Workbook();
-
-//スプレッドシート オブジェクトを作成し、最初のシートを取得します。
-Worksheet sheet = wb.Worksheets[0];
-```
-
-## ステップ 3: スタイルとスタイルフラグの設定
-
-次に、セル スタイルとスタイル フラグを設定して、ワークシート内のすべての列のロックを解除します。必要なコードは次のとおりです。
+まず、Excel ファイルを保存するディレクトリを定義する必要があります。手順は次のとおりです。
 
 ```csharp
-//スタイルオブジェクトを設定します。
-Styling styling;
+//ドキュメント ディレクトリへのパス。
+string dataDir = "YOUR DOCUMENT DIRECTORY"; //希望するパスに変更します。
 
-//スタイルフラグオブジェクトを設定します。
-StyleFlag flag;
-
-//ワークシート内のすべての列をループし、ロックを解除します。
-for (int i = 0; i <= 255; i++)
-{
-     style = sheet.Cells.Columns[(byte)i].Style;
-     style. IsLocked = false;
-     flag = new StyleFlag();
-     flag. Locked = true;
-     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
-}
-```
-
-## ステップ 4: 特定の回線を保護する
-
-次に、ワークシート内の特定の行を保護します。変更を防ぐために最初の行をロックします。その方法は次のとおりです。
-
-```csharp
-//最初の行のスタイルを取得します。
-style = sheet.Cells.Rows[0].Style;
-
-//それをロック。
-style. IsLocked = true;
-
-//フラグをインスタンス化します。
-flag = new StyleFlag();
-
-//ロックパラメータを設定します。
-flag. Locked = true;
-
-//スタイルを最初の行に適用します。
-sheet.Cells.ApplyRowStyle(0, style, flag);
-```
-
-## ステップ 5: ワークシートを保護する
-
-最後に、Excel ワークシート全体を保護して、不正な変更を防ぎます。その方法は次のとおりです。
-
-```csharp
-//ワークシートを保護します。
-sheet.Protect(ProtectionType.All);
-```
-
-## ステップ 6: 保護された Excel ファイルを保存する
-
-Excel ワークシートの特定の行の保護が完了したら、保護された Excel ファイルをシステムに保存できます。その方法は次のとおりです。
-
-```csharp
-// Excel ファイルを保存します。
-wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
-```
-
-これらの手順を実行すると、Aspose.Cells for .NET を使用して Excel スプレッドシートの特定の行を正常に保護できます。
-
-### Aspose.Cells for .NET を使用した Excel ワークシートの特定の行の保護のサンプル ソース コード 
-```csharp
-//ドキュメントディレクトリへのパス。
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-//ディレクトリが存在しない場合は作成します。
-bool IsExists = System.IO.Directory.Exists(dataDir);
-if (!IsExists)
+//ディレクトリがまだ存在しない場合は作成します。
+bool isExists = System.IO.Directory.Exists(dataDir);
+if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
+```
+
+交換する`"YOUR DOCUMENT DIRECTORY"`新しい Excel ファイルを保存する実際のパスを入力します。
+
+## ステップ2: 新しいワークブックを作成する
+
+次に、Aspose.Cells を使用して新しいワークブックを作成します。これは、スプレッドシートを作成するための空白のキャンバスです。
+
+```csharp
 //新しいワークブックを作成します。
 Workbook wb = new Workbook();
+```
+
+## ステップ3: ワークシートを作成してアクセスする
+
+ここで、ワークブックの最初のワークシートにアクセスして、必要な変更を加えてみましょう。
+
+```csharp
 //ワークシート オブジェクトを作成し、最初のシートを取得します。
 Worksheet sheet = wb.Worksheets[0];
-//スタイルオブジェクトを定義します。
+```
+
+## ステップ4: すべての列のロックを解除する
+
+行をロックする前に、すべての列がロック解除されていることを確認する必要があります。これにより、必要な特定の行のみを保護できる柔軟性が得られます。
+
+```csharp
+//スタイル オブジェクトを定義します。
 Style style;
-//スタイルフラグオブジェクトを定義します。
+// styleflag オブジェクトを定義します。
 StyleFlag flag;
-//ワークシート内のすべての列をループし、ロックを解除します。
+//ワークシート内のすべての列をループしてロックを解除します。
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
-    style.IsLocked = false;
+    style.IsLocked = false; //列のロックを解除
     flag = new StyleFlag();
-    flag.Locked = true;
-    sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
+    flag.Locked = true; //ロックするにはフラグをtrueに設定する
+    sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); //スタイルを適用する
 }
+```
+
+## ステップ5: 目的の行をロックする
+
+ここで、保護したい行をロックします。この場合は、最初の行をロックします。
+
+```csharp
 //最初の行のスタイルを取得します。
 style = sheet.Cells.Rows[0].Style;
-//それをロック。
+//ロックしてください。
 style.IsLocked = true;
 //フラグをインスタンス化します。
 flag = new StyleFlag();
-//ロックの設定を行います。
+//ロック設定を行います。
 flag.Locked = true;
-//スタイルを最初の行に適用します。
+//最初の行にスタイルを適用します。
 sheet.Cells.ApplyRowStyle(0, style, flag);
+```
+
+## ステップ6: ワークシートを保護する
+
+目的の行をロックした後、ワークシートの保護を有効にする必要があります。ここで魔法が起こります。
+
+```csharp
 //シートを保護します。
 sheet.Protect(ProtectionType.All);
+```
+
+## ステップ7: ワークブックを保存する
+
+最後に、新しい Excel ファイルを保存します。Excel ファイルの形式を選択できます。
+
+```csharp
 // Excel ファイルを保存します。
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
 ## 結論
 
-Excel ファイル内のデータを保護することは、不正アクセスや望ましくない変更を防ぐために非常に重要です。 .NET 用の Aspose.Cells ライブラリを使用すると、提供されている C# ソース コードを使用して Excel スプレッドシートの特定の行を簡単に保護できます。このステップバイステップ ガイドに従って、Excel ファイルに追加のセキュリティ層を追加します。
+これで完了です。Aspose.Cells for .NET を使用して、Excel ワークシートの特定の行を正常に保護できました。この機能は、Excel ファイルを共有しながらデータの整合性を確保する必要のある開発者やユーザーにとって非常に便利です。これで、スプレッドシート内の重要な情報を保護しながら、自信を持ってスプレッドシートを共有できます。
 
-### よくある質問
+## よくある質問
 
-#### 特定の行の保護は Excel のすべてのバージョンで機能しますか?
+### 同じ方法を使用して複数の行を保護できますか?  
+はい、最初の行と同じ方法で、他の行に対してもロックプロセスを繰り返すことができます。
 
-はい、Aspose.Cells for .NET を使用した特定の行保護は、サポートされているすべてのバージョンの Excel で機能します。
+### 行ではなく特定のセルを保護してロックを解除したい場合はどうすればよいでしょうか?  
+行をロックする場合と同様に、セルを個別に選択してロック スタイルを適用できます。
 
-#### Excel スプレッドシート内の複数の特定の行を保護できますか?
+### Aspose.Cells は無料で使用できますか?  
+Aspose.Cellsは商用製品ですが、無料トライアルで試用することができます。[ここ](https://releases.aspose.com/).
 
-はい、このガイドで説明されているのと同様の方法を使用して、複数の特定の行を保護できます。
+### Aspose.Cells を使用するにはインターネット接続が必要ですか?  
+いいえ、Aspose.Cells は .NET ライブラリであり、インストールするとオフラインで動作できます。
 
-#### Excel スプレッドシートの特定の行のロックを解除するにはどうすればよいですか?
-
-特定の行のロックを解除するには、それに応じてソース コードを変更する必要があります。`IsLocked`の方法`Style`物体。
+### Aspose.Cells のサポートはどこで受けられますか?  
+お問い合わせやサポートについては、[Aspose サポート フォーラム](https://forum.aspose.com/c/cells/9).

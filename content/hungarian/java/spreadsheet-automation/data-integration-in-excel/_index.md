@@ -10,7 +10,7 @@ url: /hu/java/spreadsheet-automation/data-integration-in-excel/
 
 Az adatok integrációja az Excellel végzett munka döntő része, amely lehetővé teszi a különböző forrásokból származó információk összegyűjtését, elemzését és megalapozott döntések meghozatalát. Ebben az útmutatóban végigvezetjük az adatintegráció folyamatán az Excelben az Aspose.Cells for Java használatával. A munkafolyamat egyszerűsítéséhez lépésről lépésre szóló utasításokat és forráskód-példákat talál.
 
-## 1. Bemutatkozás
+## 1. Bevezetés
 
 Az Excel egy sokoldalú adatkezelési eszköz, de a különböző forrásokból származó adatok integrálása kihívást jelenthet. Az Aspose.Cells for Java leegyszerűsíti ezt a folyamatot, mivel robusztus könyvtárat biztosít az Excel-fájlok programozott kezeléséhez.
 
@@ -36,7 +36,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Sok esetben az adatok több Excel-munkalapon vannak szétszórva. Az Aspose.Cells for Java segítségével hatékonyan kombinálhatja az adatokat:
 
 ```java
-// Java kód több lap adatainak kombinálásához
+// Java kód több lapról származó adatok kombinálásához
 // ...
 ```
 

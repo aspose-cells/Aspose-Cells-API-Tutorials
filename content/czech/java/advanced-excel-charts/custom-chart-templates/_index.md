@@ -21,7 +21,7 @@ Než začneme vytvářet vlastní šablony grafů, pojďme se seznámit s Aspose
 Chcete-li postupovat podle tohoto kurzu, ujistěte se, že máte následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Vytvoření vlastní šablony grafu
 
@@ -100,7 +100,7 @@ Vytváření vlastních šablon grafů pomocí Aspose.Cells for Java vám umož�
 
 ### Jak mohu nainstalovat Aspose.Cells pro Java?
 
- Chcete-li nainstalovat Aspose.Cells for Java, navštivte stránku pro stahování[tady](https://releases.aspose.com/cells/java/). Stáhněte si knihovnu a postupujte podle pokynů k instalaci uvedených v dokumentaci.
+ Chcete-li nainstalovat Aspose.Cells for Java, navštivte stránku pro stahování[zde](https://releases.aspose.com/cells/java/). Stáhněte si knihovnu a postupujte podle pokynů k instalaci uvedených v dokumentaci.
 
 ### Jaké typy grafů mohu vytvořit pomocí Aspose.Cells for Java?
 
@@ -116,4 +116,4 @@ Absolutně! Aspose.Cells for Java je všestranný a zvládne jednoduché i slož
 
 ### Kde najdu další zdroje a dokumentaci?
 
- Úplnou dokumentaci a příklady naleznete v dokumentaci Aspose.Cells for Java na adrese[tady](https://reference.aspose.com/cells/java/).
+ Úplnou dokumentaci a příklady naleznete v dokumentaci Aspose.Cells for Java na adrese[zde](https://reference.aspose.com/cells/java/).

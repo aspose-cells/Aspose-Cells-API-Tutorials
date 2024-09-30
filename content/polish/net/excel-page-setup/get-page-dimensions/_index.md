@@ -1,107 +1,143 @@
 ---
 title: Pobierz wymiary strony
 linktitle: Pobierz wymiary strony
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Dowiedz się, jak pobrać wymiary strony w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z kodem źródłowym w języku C#.
+second_title: Aspose.Cells dla .NET API Reference
+description: Dowiedz się, jak uzyskać wymiary strony za pomocą Aspose.Cells dla .NET w tym przewodniku krok po kroku. Idealne dla programistów pracujących z plikami Excel.
 type: docs
 weight: 40
 url: /pl/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells dla .NET to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft Excel. Oferuje szeroką gamę funkcji do manipulowania dokumentami Excel, w tym możliwość uzyskania wymiarów strony. W tym samouczku przeprowadzimy Cię przez kroki pobierania wymiarów strony za pomocą Aspose.Cells dla .NET.
+## Wstęp
 
-## Krok 1: Utwórz instancję klasy Workbook
+Jeśli chodzi o obsługę arkuszy kalkulacyjnych w aplikacjach .NET, biblioteka Aspose.Cells wyróżnia się jako solidne narzędzie, które pozwala programistom na łatwą manipulację plikami Excela. Ale jak uzyskać wymiary stron dla różnych rozmiarów papieru za pomocą tej potężnej biblioteki? W tym samouczku przeprowadzimy proces krok po kroku, zapewniając, że nie tylko uzyskasz wgląd w działanie Aspose.Cells, ale także staniesz się biegły w jego używaniu w swoich projektach. 
 
-Na początek musimy utworzyć instancję klasy Workbook, która reprezentuje skoroszyt programu Excel. Można to osiągnąć za pomocą następującego kodu:
+## Wymagania wstępne 
+
+Zanim przejdziemy do części poświęconej kodowaniu, jest kilka rzeczy, które musisz mieć na miejscu, aby wszystko przebiegało sprawnie:
+
+### Studio wizualne
+Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. Tutaj będziesz pisać i wykonywać swój kod .NET.
+
+### Biblioteka Aspose.Cells
+Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Możesz ją pobrać z:
+-  Link do pobrania:[Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)
+
+### Podstawowa wiedza z języka C#
+Przydatne byłoby, gdybyś miał podstawową wiedzę na temat języka C#. Ten samouczek będzie wykorzystywał podstawowe koncepcje programowania, które powinny być łatwe do zrozumienia.
+
+Gotowy? Zaczynajmy!
+
+## Importowanie pakietów
+
+Pierwszym krokiem w naszej podróży jest zaimportowanie niezbędnych pakietów Aspose.Cells do naszego projektu C#. Oto, jak możesz to zrobić:
+
+### Utwórz nowy projekt
+
+ Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli C#. Możesz nazwać go jak chcesz, wybierzmy`GetPageDimensions`.
+
+### Dodaj odniesienia
+
+Aby użyć Aspose.Cells, należy dodać odwołania do biblioteki:
+- Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
+- Wybierz „Zarządzaj pakietami NuGet”.
+- Wyszukaj „Aspose.Cells” i zainstaluj.
+
+### Dodaj dyrektywy Using
+
+ Na szczycie twojego`Program.cs` plik, wstaw tę dyrektywę, aby uzyskać dostęp do funkcjonalności Aspose.Cells:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Teraz, gdy zaimportowaliśmy niezbędne pakiety, jesteśmy na dobrej drodze! 
+
+Teraz pokażemy Ci, jak pobierać wymiary różnych rozmiarów papieru, przechodząc przez każdy krok. 
+
+## Krok 1: Utwórz instancję klasy skoroszytu
+
+Pierwszą rzeczą, którą musisz zrobić, jest utworzenie instancji klasy Workbook z Aspose.Cells. Ta klasa reprezentuje plik Excela.
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## Krok 2: Dostęp do arkusza kalkulacyjnego
+Tutaj po prostu utworzymy nowy skoroszyt, który będzie zawierał dane i konfiguracje z naszego arkusza kalkulacyjnego.
 
-Następnie musimy przejść do arkusza w skoroszycie, w którym chcemy ustawić wymiary strony. W tym przykładzie załóżmy, że chcemy pracować z pierwszym arkuszem. Dostęp do niego możemy uzyskać za pomocą następującego kodu:
+## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+
+Po utworzeniu wystąpienia skoroszytu, będziesz chciał uzyskać dostęp do pierwszego arkusza. Każdy skoroszyt może zawierać wiele arkuszy, ale w tej demonstracji skupimy się na pierwszym.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## Krok 3: Ustaw rozmiar papieru na A2 oraz szerokość i wysokość druku w calach
+Ten wiersz pobiera pierwszy arkusz kalkulacyjny, umożliwiając nam ustawienie rozmiarów papieru i pobranie ich odpowiednich wymiarów.
 
-Teraz ustawimy rozmiar papieru na A2 i wydrukujemy szerokość i wysokość strony w calach. Można to osiągnąć za pomocą następującego kodu:
+## Krok 3: Ustawienie rozmiaru papieru na A2 i pobranie wymiarów
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Krok 4: Ustaw rozmiar papieru na A3 oraz szerokość i wysokość druku w calach
-
-Następnie ustawimy rozmiar papieru na A3 i wydrukujemy szerokość i wysokość strony w calach. Oto odpowiedni kod:
+Teraz czas ustawić rozmiar papieru i pobrać wymiary! Zaczynamy od rozmiaru papieru A2.
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Krok 5: Ustaw rozmiar papieru na A4 oraz szerokość i wysokość druku w calach
-
-Ustawimy teraz rozmiar papieru na A4 i wydrukujemy szerokość i wysokość strony w calach. Oto kod:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Krok 6: Ustaw rozmiar papieru na Letter i wydrukuj szerokość i wysokość w calach
-
-Na koniec ustawimy rozmiar papieru na Letter i wydrukujemy szerokość i wysokość strony w calach. Oto kod:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### Przykładowy kod źródłowy narzędzia Pobierz wymiary strony przy użyciu Aspose.Cells dla platformy .NET 
-```csharp
-// Utwórz instancję klasy Workbook
-Workbook book = new Workbook();
-// Uzyskaj dostęp do pierwszego arkusza
-Worksheet sheet = book.Worksheets[0];
-// Ustaw rozmiar papieru na A2 i wydrukuj szerokość i wysokość papieru w calach
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Ustaw rozmiar papieru na A3 i wydrukuj szerokość i wysokość papieru w calach
+```
+
+Ten kod ustawia rozmiar papieru na A2 i natychmiast wyświetla szerokość i wysokość. Piękno Aspose.Cells tkwi w jego prostocie!
+
+## Krok 4: Powtórz dla innych rozmiarów papieru
+
+Będziesz chciał powtórzyć ten proces dla innych rozmiarów papieru, takich jak A3, A4 i Letter. Oto, jak możesz to zrobić:
+
+Dla A3:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Ustaw rozmiar papieru na A4 i wydrukuj szerokość i wysokość papieru w calach
+```
+
+Dla A4:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Ustaw rozmiar papieru na Letter i wydrukuj szerokość i wysokość papieru w calach
+```
+
+Do listu:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## Krok 5: Podsumowanie wyników
+
+Na koniec, będziesz chciał potwierdzić, że cała operacja została ukończona pomyślnie. Możesz po prostu zalogować ten status do konsoli:
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## Wniosek
 
-Gratulacje! Nauczyłeś się, jak pobierać wymiary strony za pomocą Aspose.Cells dla .NET. Ta funkcja może być przydatna, gdy trzeba wykonać określone operacje w oparciu o wymiary strony w plikach Excel.
+Gratulacje! Udało Ci się już nauczyć, jak pobierać wymiary stron dla różnych rozmiarów papieru za pomocą Aspose.Cells dla .NET. Niezależnie od tego, czy tworzysz narzędzia do raportowania, zautomatyzowane arkusze kalkulacyjne czy funkcje analizy danych, możliwość pobierania wymiarów stron dla różnych formatów może być nieoceniona. 
 
-Nie zapomnij dokładniej zapoznać się z dokumentacją Aspose.Cells, aby odkryć wszystkie zaawansowane funkcje, jakie oferuje.
+## Najczęściej zadawane pytania
 
-### Często zadawane pytania
+### Czym jest Aspose.Cells?
+Aspose.Cells to biblioteka .NET służąca do tworzenia, edytowania i konwertowania plików Excel bez konieczności korzystania z programu Microsoft Excel.
 
-#### 1. Jakie inne rozmiary papieru obsługuje Aspose.Cells for .NET?
+### Czy muszę zainstalować program Microsoft Excel, aby korzystać z Aspose.Cells?
+Nie, Aspose.Cells jest samodzielną biblioteką i nie wymaga instalacji programu Excel.
 
-Aspose.Cells dla .NET obsługuje różne rozmiary papieru, w tym A1, A5, B4, B5, Executive, Legal, Letter i wiele innych. Pełną listę obsługiwanych rozmiarów papieru można znaleźć w dokumentacji.
+### Gdzie mogę znaleźć więcej przykładów dla Aspose.Cells?
+ Możesz sprawdzić dokumentację tutaj:[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
 
-#### 2. Czy mogę ustawić niestandardowe wymiary strony za pomocą Aspose.Cells dla .NET?
+### Czy istnieje bezpłatna wersja próbna Aspose.Cells?
+ Tak! Możesz otrzymać darmową wersję próbną z:[Aspose.Cells Bezpłatna wersja próbna](https://releases.aspose.com/).
 
-Tak, możesz ustawić niestandardowe wymiary strony, określając żądaną szerokość i wysokość. Aspose.Cells oferuje pełną elastyczność w dostosowywaniu wymiarów strony do Twoich potrzeb.
-
-#### 3. Czy mogę uzyskać wymiary strony w jednostkach innych niż cale?
-
-Tak, Aspose.Cells dla .NET pozwala uzyskać wymiary strony w różnych jednostkach, w tym calach, centymetrach, milimetrach i punktach.
-
-#### 4. Czy Aspose.Cells for .NET obsługuje inne funkcje edycji ustawień strony?
-
-Tak, Aspose.Cells oferuje pełen zakres funkcji do edycji ustawień strony, w tym ustawianie marginesów, orientacji, nagłówków i stopek itp.
+### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
+ Pomoc możesz uzyskać odwiedzając forum wsparcia Aspose:[Wsparcie Aspose.Cells](https://forum.aspose.com/c/cells/9).

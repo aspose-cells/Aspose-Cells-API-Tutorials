@@ -1,145 +1,144 @@
 ---
-title: Sta de gebruiker toe om bereiken in het Excel-werkblad te bewerken
-linktitle: Sta de gebruiker toe om bereiken in het Excel-werkblad te bewerken
+title: Sta gebruikers toe om bereiken in Excel-werkblad te bewerken
+linktitle: Sta gebruikers toe om bereiken in Excel-werkblad te bewerken
 second_title: Aspose.Cells voor .NET API-referentie
-description: Sta gebruikers toe specifieke bereiken in een Excel-spreadsheet te bewerken met Aspose.Cells voor .NET. Stap voor stap handleiding met broncode in C#.
+description: Gebruikers toestaan om specifieke bereiken in een Excel-spreadsheet te bewerken met Aspose.Cells voor .NET. Stapsgewijze handleiding met broncode in C#.
 type: docs
 weight: 10
 url: /nl/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
-In deze handleiding laten we u zien hoe u Aspose.Cells voor .NET kunt gebruiken, zodat de gebruiker specifieke bereiken in een Excel-spreadsheet kan bewerken. Volg de onderstaande stappen om deze taak te volbrengen.
+## Invoering
 
-## Stap 1: De omgeving instellen
+Als het gaat om het werken met Excel-werkbladen, is flexibiliteit vaak de sleutel, vooral wanneer meerdere gebruikers toegang nodig hebben om specifieke gebieden te bewerken zonder de gegevensintegriteit van het hele werkblad in gevaar te brengen. Dit is waar Aspose.Cells voor .NET schittert! In deze tutorial duiken we in hoe gebruikers bepaalde bereiken in een Excel-werkblad kunnen bewerken terwijl de rest van het document wordt beschermd. Aan het einde van dit artikel begrijpt u niet alleen de concepten, maar hebt u ook een tastbaar voorbeeld om mee te werken. 
 
-Zorg ervoor dat u uw ontwikkelomgeving hebt ingesteld en Aspose.Cells voor .NET hebt geïnstalleerd. U kunt de nieuwste versie van de bibliotheek downloaden van de officiële website van Aspose.
+## Vereisten
 
-## Stap 2: Importeer de vereiste naamruimten
+Voordat we in de details duiken, willen we ervoor zorgen dat u alles bij de hand hebt om te beginnen:
 
-Importeer in uw C#-project de benodigde naamruimten om met Aspose.Cells te werken:
+1. .NET-ontwikkelomgeving: U dient over een functionerende .NET-ontwikkelomgeving te beschikken (dit kan Visual Studio zijn of een andere IDE naar keuze).
+2.  Aspose.Cells voor .NET-bibliotheek: Download en installeer de Aspose.Cells-bibliotheek. U kunt deze vinden[hier](https://releases.aspose.com/cells/net/).
+3. Basiskennis van C#: Als u bekend bent met C#-programmering, kunt u gemakkelijk door de codevoorbeelden navigeren.
+4. Begrijp de basisprincipes van Excel: Kennis van de werking van Excel vormt de basis voor de functionaliteiten die we gaan bespreken.
+
+Zodra deze vereisten zijn geregeld, bent u klaar om te gaan!
+
+## Pakketten importeren
+
+Voordat we beginnen met coderen, moeten we ervoor zorgen dat ons project de Aspose.Cells-naamruimte herkent. Hier leest u hoe u de benodigde pakketten importeert:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Stap 3: Het pad naar de documentenmap instellen
+Nu we hebben geïmporteerd wat we nodig hebben, gaan we stap voor stap door onze tutorial heen.
 
- Verklaar een`dataDir` variabele om het pad op te geven naar de map waar u het gegenereerde Excel-bestand wilt opslaan:
+## Stap 1: De documentenmap instellen
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
-
- Zeker vervangen`"YOUR_DOCUMENT_DIRECTORY"` met het juiste pad op uw systeem.
-
-## Stap 4: Een werkmapobject maken
-
-Instantieer een nieuw werkmapobject dat de Excel-werkmap vertegenwoordigt die u wilt maken:
+Voor alle bestandsbewerkingen is het cruciaal om een gedefinieerde locatie te hebben waar onze documenten worden opgeslagen. Laten we onze werkdirectory instellen om de Excel-bestanden op te slaan.
 
 ```csharp
-Workbook book = new Workbook();
-```
-
-## Stap 5: Toegang tot het eerste werkblad
-
-Navigeer naar het eerste werkblad in de Excel-werkmap met behulp van de volgende code:
-
-```csharp
-Worksheet sheet = book.Worksheets[0];
-```
-
-## Stap 6: Geautoriseerde wijzigingsbereiken ophalen
-
- Haal de verzameling toegestane bewerkingsbereiken op met behulp van de`AllowEditRanges` eigendom:
-
-```csharp
-ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-```
-
-## Stap 7: Definieer een beschermd bereik
-
- Definieer een beveiligd bereik met behulp van de`Add` werkwijze van de`AllowEditRanges` verzameling:
-
-```csharp
-int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-protectedRange protectedRange = allowRanges[idx];
-```
-
-Hier hebben we een beveiligd bereik "r2" gemaakt dat zich uitstrekt van cel A1 tot cel C3.
-
-## Stap 8: Het wachtwoord opgeven
-
- Geef een wachtwoord op voor het beveiligde bereik met behulp van de`Password` eigendom:
-
-```csharp
-protectedRange.Password = "YOUR_PASSWORD";
-```
-
- Zeker vervangen`"YOUR_PASSWORD"` met het gewenste wachtwoord.
-
-## Stap 9: Het werkblad beschermen
-
- Beveilig het werkblad met behulp van de`Protect` werkwijze van de`Worksheet` voorwerp:
-
-```csharp
-sheet.Protect(ProtectionType.All);
-```
-
-Hierdoor wordt de spreadsheet beschermd door elke wijziging buiten het toegestane bereik te voorkomen.
-
-## Stap 10: Registreren van de
-
-  Excel bestand
-
- Sla het gegenereerde Excel-bestand op met behulp van de`Save` werkwijze van de`Workbook` voorwerp:
-
-```csharp
-book.Save(dataDir + "protectedrange.out.xls");
-```
-
-Zorg ervoor dat u de gewenste bestandsnaam en het juiste pad opgeeft.
-
-### Voorbeeldbroncode voor Toestaan dat gebruiker bereiken in Excel-werkblad bewerkt met Aspose.Cells voor .NET 
-```csharp
-//Het pad naar de documentenmap.
+// Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Maak een directory aan als deze nog niet aanwezig is.
+
+// Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
-// Instantieer een nieuwe werkmap
+```
+
+ Vervang eerst`"YOUR DOCUMENT DIRECTORY"`met het pad waar u uw bestanden wilt opslaan. Deze code controleert of de directory bestaat; als dat niet zo is, maakt hij er een aan.
+
+## Stap 2: Een nieuwe werkmap instantiëren
+
+Nu onze werkmap klaar is, is het tijd om onze Excel-werkmap te maken. 
+
+```csharp
+// Een nieuwe werkmap instantiëren
 Workbook book = new Workbook();
-// Haal het eerste (standaard) werkblad op
+```
+
+ Hier maken we een nieuw exemplaar van de`Workbook` klasse geleverd door Aspose.Cells, waarmee we het Excel-bestand kunnen bewerken.
+
+## Stap 3: Toegang tot het standaardwerkblad
+
+Elke nieuw aangemaakte werkmap bevat minstens één werkblad. Laten we dat eens bekijken.
+
+```csharp
+// Ontvang het eerste (standaard) werkblad
 Worksheet sheet = book.Worksheets[0];
-// Haal het bereik voor het toestaan van bewerkingen op
+```
+
+In dit codefragment openen we het eerste werkblad van onze werkmap, dat we in de volgende stappen gaan bewerken.
+
+## Stap 4: Bereiken voor bewerking toestaan
+
+ Om specifieke bereiken van het werkblad voor bewerking in te schakelen, moeten we toegang krijgen tot de`AllowEditRanges` eigendom.
+
+```csharp
+// De optie Bewerken toestaan ophalen
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-// Definieer Beschermd bereik
+```
+
+Met deze verzameling kunnen we bepalen welke bereiken in ons werkblad bewerkbaar zijn.
+
+## Stap 5: Definieer het beschermde bereik
+
+Vervolgens definiëren we welk deel van het werkblad we willen beveiligen, maar toch bewerkingen binnen een bepaald bereik willen toestaan.
+
+```csharp
+// Definieer ProtectedRange
 ProtectedRange proteced_range;
+
 // Maak het bereik
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
+
 // Geef het wachtwoord op
 proteced_range.Password = "123";
+```
+
+In deze stap voegen we een nieuw bewerkbaar bereik toe met de naam 'r2' waarmee bewerkingen in de cellen van rij 1 kolom 1 tot rij 3 kolom 3 mogelijk zijn. Daarnaast stellen we een wachtwoord in om dit bereik te beschermen, zodat alleen geautoriseerde gebruikers het kunnen wijzigen.
+
+## Stap 6: Bescherm het werkblad
+
+Nu we het bewerkbare bereik hebben ingesteld, moeten we het werkblad beveiligen.
+
+```csharp
 // Bescherm het blad
 sheet.Protect(ProtectionType.All);
+```
+
+Deze code beschermt het gehele werkblad tegen ongewenste wijzigingen, met uitzondering van het bereik dat we zojuist hebben opgegeven.
+
+## Stap 7: Sla het Excel-bestand op
+
+Laten we de werkmap opslaan, zodat we onze wijzigingen in een Excel-bestand kunnen bekijken.
+
+```csharp
 // Sla het Excel-bestand op
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+Zorg ervoor dat u de bestandsnaam indien nodig aanpast. Dit zal een Excel-bestand in uw opgegeven directory aanmaken met de instellingen die we hebben geconfigureerd.
+
 ## Conclusie
 
-U hebt nu geleerd hoe u Aspose.Cells voor .NET kunt gebruiken, zodat de gebruiker specifieke bereiken in een Excel-spreadsheet kan bewerken. Voel je vrij om de functies van Aspose.Cells verder te verkennen om aan jouw specifieke behoeften te voldoen.
+Daar heb je het! Je hebt met succes een Excel-werkblad gemaakt dat bewerkingen beperkt tot een bepaald bereik, terwijl de rest van het werkblad wordt beschermd. Met Aspose.Cells voor .NET wordt het beheren van dit soort taken veel eenvoudiger en efficiënter. Of je nu een complexe applicatie ontwikkelt of gewoon gegevens veilig wilt beheren, deze mogelijkheden kunnen je workflow aanzienlijk verbeteren.
 
+## Veelgestelde vragen
 
-### Veelgestelde vragen
+### Wat is Aspose.Cells?
+Aspose.Cells is een krachtige .NET-bibliotheek voor het verwerken van Excel-bestanden en biedt functionaliteiten zoals het programmatisch maken, bewerken en converteren van spreadsheets.
 
-#### 1. Hoe kan ik de gebruiker toestaan specifieke bereiken in een Excel-spreadsheet te bewerken?
+### Kan ik meerdere bewerkbare bereiken toepassen?
+ Absoluut! Je kunt de`Add` methode op de`allowRanges` verzameling meerdere keren om meerdere bewerkbare bereiken op te geven.
 
- U kunt gebruik maken van de`ProtectedRangeCollection` klasse om toegestane wijzigingsbereiken te definiëren. Gebruik de`Add` methode om een nieuw beveiligd bereik met de gewenste cellen te maken.
+### Wat gebeurt er als ik mijn wachtwoord vergeet?
+Als u het wachtwoord voor een bewerkbaar bereik vergeet, moet u helaas de beveiliging verwijderen of het bestand op een vooraf gedefinieerde manier openen. Hiervoor zijn mogelijk inloggegevens nodig.
 
-#### 2. Kan ik een wachtwoord instellen voor geautoriseerde wijzigingsbereiken?
+### Bestaat er een gratis versie van Aspose.Cells?
+Ja, Aspose biedt een gratis proefperiode aan waarmee u de functies kunt uitproberen voordat u tot aankoop overgaat.
 
- Ja, u kunt een wachtwoord opgeven via de`Password` eigendom van de`ProtectedRange` voorwerp. Hierdoor wordt de toegang alleen beperkt tot gebruikers met het wachtwoord.
-
-#### 3. Hoe beveilig ik het spreadsheet zodra de toegestane bereiken zijn ingesteld?
-
- Gebruik de`Protect` werkwijze van de`Worksheet` object om het werkblad te beschermen. Hierdoor worden wijzigingen buiten het toegestane bereik voorkomen en wordt er mogelijk om een wachtwoord gevraagd als u dat hebt opgegeven.
+### Waar kan ik meer informatie vinden over Aspose.Cells?
+ U kunt de[documentatie](https://reference.aspose.com/cells/net/) voor gedetailleerde handleidingen en referenties.

@@ -46,7 +46,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## 第 4 步：定義驗證標準
 
-條件資料驗證涉及為特定單元格中的資料設定標準。例如，您可能想要將儲存格中的輸入限制為 1 到 100 之間的數字。定義此類條件的方法如下：
+條件資料驗證涉及為特定單元格中的資料設定標準。例如，您可能想要將儲存格中的輸入限制為 1 到 100 之間的數字。
 
 ```java
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");

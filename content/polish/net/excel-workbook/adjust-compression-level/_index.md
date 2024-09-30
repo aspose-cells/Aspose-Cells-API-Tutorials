@@ -1,135 +1,151 @@
 ---
 title: Dostosuj poziom kompresji
 linktitle: Dostosuj poziom kompresji
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Zmniejsz rozmiar skoroszytów programu Excel, dostosowując poziom kompresji za pomocą Aspose.Cells dla .NET.
+second_title: Aspose.Cells dla .NET API Reference
+description: Dowiedz się, jak dostosować poziomy kompresji plików Excela za pomocą Aspose.Cells dla .NET. Zoptymalizuj rozmiary plików efektywnie dzięki temu przewodnikowi krok po kroku.
 type: docs
 weight: 50
 url: /pl/net/excel-workbook/adjust-compression-level/
 ---
-W tym samouczku krok po kroku wyjaśnimy dostarczony kod źródłowy C#, który pozwoli Ci dostosować poziom kompresji za pomocą Aspose.Cells dla .NET. Wykonaj poniższe czynności, aby dostosować poziom kompresji w skoroszycie programu Excel.
+## Wstęp
 
-## Krok 1: Ustaw katalogi źródłowe i wyjściowe
+Jeśli chodzi o obsługę dużych plików Excel, kluczowa jest wydajna pamięć masowa. Niezależnie od tego, czy jesteś programistą, który chce zoptymalizować rozmiary plików, czy analitykiem danych, który chce przyspieszyć transfery plików, zrozumienie, jak dostosować poziomy kompresji w Aspose.Cells dla .NET, może być przełomem. W tym przewodniku przeprowadzimy Cię przez kroki dostosowywania poziomów kompresji podczas zapisywania plików Excel, zapewniając utrzymanie wydajności bez poświęcania jakości.
 
-```csharp
-// katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Katalog wyjściowy
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## Wymagania wstępne
 
-W tym pierwszym kroku definiujemy katalogi źródłowe i wyjściowe dla plików Excel.
+Zanim zagłębimy się w szczegóły dotyczące poziomów kompresji, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-## Krok 2: Załaduj skoroszyt programu Excel
+1. Podstawowa wiedza o C#: Podstawowe zrozumienie programowania w C# jest niezbędne. Jeśli dobrze znasz zmienne, pętle i podstawowe operacje na plikach, to jesteś gotowy!
+2. Biblioteka Aspose.Cells dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/cells/net/) Jeśli dopiero zaczynasz, rozważ skorzystanie z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+3. Środowisko programistyczne: Skonfiguruj środowisko programistyczne, najlepiej Visual Studio, aby pisać i wykonywać kod C#. 
+4. Przykładowy plik Excela: Przygotuj duży plik Excela do testowania. Możesz utworzyć taki plik lub użyć dowolnego istniejącego pliku, ale upewnij się, że jest wystarczająco duży, aby zobaczyć efekty kompresji.
 
-```csharp
-// Załaduj skoroszyt programu Excel
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+Mając te warunki wstępne za sobą, możemy zaczynać!
 
-Ładujemy skoroszyt programu Excel z określonego pliku za pomocą metody`Workbook` klasa z Aspose.Cells.
+## Importuj pakiety
 
-## Krok 3: Ustaw opcje tworzenia kopii zapasowych
+Zanim będziemy mogli manipulować plikami Excela, musimy zaimportować niezbędne przestrzenie nazw. Jest to kluczowy krok, który pozwala nam uzyskać dostęp do klas i metod dostarczanych przez Aspose.Cells.
+
+### Importuj przestrzeń nazw Aspose.Cells
 
 ```csharp
-// Zdefiniuj opcje tworzenia kopii zapasowych
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- Tworzymy instancję`XlsbSaveOptions` class, aby ustawić opcje zapisywania.
+ Ten fragment kodu importuje`Aspose.Cells` przestrzeń nazw, która zawiera wszystkie klasy potrzebne do pracy z plikami Excel.`Aspose.Cells.Xlsb` przestrzeń nazw jest przeznaczona specjalnie do obsługi plików w formacie XLSB.
 
-## Krok 4: Dostosuj poziom kompresji (poziom 1)
+Teraz, gdy wszystko jest już skonfigurowane, podzielmy proces dostosowywania poziomów kompresji na łatwe do opanowania kroki. Zapiszemy skoroszyt z różnymi poziomami kompresji i zmierzymy czas potrzebny na każdą operację. 
 
-```csharp
-// Dostosuj poziom kompresji (poziom 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## Krok 1: Skonfiguruj swoje katalogi
 
- Poziom kompresji regulujemy poprzez ustawienie`CompressionType` Do`Level1`. Następnie zapisujemy skoroszyt programu Excel z określoną opcją kompresji.
+Po pierwsze, musimy zdefiniować, gdzie będą przechowywane nasze pliki. Wiąże się to z określeniem katalogu źródłowego dla naszego pliku wejściowego i katalogu wyjściowego dla naszych skompresowanych plików.
 
-## Krok 5: Dostosuj poziom kompresji (poziom 6)
-
-```csharp
-// Dostosuj poziom kompresji (poziom 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- Powtarzamy proces, aby dostosować poziom kompresji`Level6` i zapisz skoroszyt programu Excel z tą opcją.
-
-## Krok 6: Dostosuj poziom kompresji (poziom 9)
-
-```csharp
-// Dostosuj poziom kompresji (poziom 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- Powtarzamy proces po raz ostatni, aby dostosować poziom kompresji`Level9` i zapisz skoroszyt programu Excel z tą opcją.
-
-### Przykładowy kod źródłowy dla opcji Dostosuj poziom kompresji przy użyciu Aspose.Cells dla .NET 
 ```csharp
 //Katalog źródłowy
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ Tutaj,`RunExamples.Get_SourceDirectory()` I`RunExamples.Get_OutputDirectory()` są metodami zwracającymi ścieżki odpowiednio do katalogów źródłowych i wyjściowych. 
+
+## Krok 2: Załaduj skoroszyt
+
+Następnie załadujemy skoroszyt programu Excel, który chcemy skompresować. Tutaj wskażesz swój duży plik programu Excel.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ Ta linia inicjuje nowy`Workbook` obiekt z określonym plikiem. Upewnij się, że ścieżka do pliku jest poprawna; w przeciwnym razie wystąpią błędy.
+
+## Krok 3: Utwórz opcje zapisu dla XLSB
+
+ Teraz utworzymy instancję`XlsbSaveOptions`, która umożliwia nam określenie sposobu zapisywania skoroszytu, w tym poziomu kompresji.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+Ten wiersz przygotowuje opcje, których użyjemy do zapisania skoroszytu w formacie XLSB.
+
+## Krok 4: Ustaw i zmierz poziomy kompresji
+
+Teraz zaczyna się zabawa! Zapiszemy skoroszyt, używając różnych poziomów kompresji i zmierzymy czas potrzebny na każdą operację. 
+
+### Poziom 1 Kompresja
+
+Zacznijmy od najniższego poziomu kompresji:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+W tym fragmencie kodu ustawiamy typ kompresji na Poziom 1, zapisujemy skoroszyt i rejestrujemy czas trwania kompresji. 
+
+### Poziom 6 Kompresja
+
+Następnie wypróbujemy średni poziom kompresji:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Tym razem ustawiliśmy typ kompresji na Poziom 6 i powtórzyliśmy operację zapisu.
+
+### Poziom 9 Kompresja
+
+Na koniec zapiszemy używając najwyższego poziomu kompresji:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+W tym kroku ustawiamy typ kompresji na Poziom 9, co powinno dać najmniejszy rozmiar pliku, ale zapisywanie może potrwać dłużej.
+
+## Krok 5: Ostateczny wynik
+
+Po wykonaniu wszystkich powyższych kroków na konsoli zostaną wyświetlone czasy upłynięte dla każdego poziomu kompresji. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Ten wiersz potwierdza, że cały proces przebiegł bez problemów.
+
 ## Wniosek
 
-Gratulacje! Nauczyłeś się, jak dostosować poziom kompresji w skoroszycie programu Excel przy użyciu Aspose.Cells dla .NET. Eksperymentuj z różnymi poziomami kompresji, aby znaleźć ten, który najlepiej odpowiada Twoim potrzebom.
+Dostosowywanie poziomów kompresji podczas zapisywania plików Excel za pomocą Aspose.Cells dla .NET to prosta, ale skuteczna technika. Postępując zgodnie z krokami opisanymi w tym przewodniku, możesz łatwo manipulować rozmiarami plików, czyniąc je bardziej zarządzalnymi do przechowywania i przesyłania. Niezależnie od tego, czy potrzebujesz szybkiego dostępu do danych, czy chcesz zoptymalizować wydajność swojej aplikacji, opanowanie tych technik niewątpliwie zwiększy Twoje umiejętności jako programisty.
 
-### Często zadawane pytania
+## Najczęściej zadawane pytania
 
-#### P: Co to jest kompresja w skoroszycie programu Excel?
+### Czym jest Aspose.Cells?
+Aspose.Cells to biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 
-Odp.: Kompresja w skoroszycie programu Excel to proces zmniejszania rozmiaru pliku przy użyciu algorytmów kompresji. Zmniejsza to wymaganą przestrzeń dyskową i poprawia wydajność podczas ładowania pliku i manipulowania nim.
+### Jak pobrać Aspose.Cells?
+ Bibliotekę Aspose.Cells można pobrać ze strony[strona internetowa](https://releases.aspose.com/cells/net/).
 
-#### P: Jakie poziomy kompresji są dostępne w Aspose.Cells?
+### Czy mogę używać Aspose.Cells za darmo?
+ Tak, Aspose oferuje bezpłatną wersję próbną, do której możesz uzyskać dostęp[Tutaj](https://releases.aspose.com/).
 
-Odp.: Za pomocą Aspose.Cells możesz dostosować poziom kompresji od 1 do 9. Im wyższy poziom kompresji, tym mniejszy będzie rozmiar pliku, ale może to również wydłużyć czas przetwarzania.
+### Jakie są dostępne poziomy kompresji?
+Aspose.Cells obsługuje wiele poziomów kompresji od Poziomu 1 (najmniejsza kompresja) do Poziomu 9 (maksymalna kompresja).
 
-#### P: Jak wybrać odpowiedni poziom kompresji dla skoroszytu programu Excel?
-
-Odp.: Wybór poziomu kompresji zależy od konkretnych potrzeb. Jeśli chcesz, aby maksymalna kompresja i czas przetwarzania nie stanowiły problemu, możesz wybrać poziom 9. Jeśli wolisz kompromis pomiędzy rozmiarem pliku a czasem przetwarzania, możesz wybrać poziom pośredni.
-
-#### P: Czy kompresja wpływa na jakość danych w skoroszycie programu Excel?
-
-Odp.: Nie, kompresja nie wpływa na jakość danych w skoroszycie programu Excel. Po prostu zmniejsza rozmiar pliku za pomocą technik kompresji, bez zmiany samych danych.
-
-#### P: Czy mogę dostosować poziom kompresji po zapisaniu pliku Excel?
-
-Odp.: Nie, po zapisaniu pliku Excel z określonym poziomem kompresji nie można później dostosować poziomu kompresji. Jeśli chcesz go zmodyfikować, konieczne będzie ponowne zapisanie pliku z nowym poziomem kompresji.
+### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
+ Możesz uzyskać wsparcie i zadać pytania na[Forum Aspose](https://forum.aspose.com/c/cells/9).

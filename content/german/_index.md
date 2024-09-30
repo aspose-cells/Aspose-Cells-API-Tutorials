@@ -10,7 +10,7 @@ is_root: true
 
 ## Aspose.Cells für .NET-Tutorials
 {{% alert color="primary" %}}
-Aspose.Cells für .NET-Tutorials und Codeausschnitte zum Erstellen, Bearbeiten, Konvertieren, Drucken und vielen weiteren Funktionen für Excel-Dateien in Ihrer Anwendung. 
+Aspose.Cells für .NET-Tutorials und Code-Snippets zum Erstellen, Bearbeiten, Konvertieren, Drucken und vielen weiteren Funktionen für Excel-Dateien in Ihrer Anwendung. 
 {{% /alert %}}
 
 Dies sind Links zu einigen nützlichen Ressourcen:
@@ -22,7 +22,7 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 
 ## Aspose.Cells für Java-Tutorials
 {{% alert color="primary" %}}
-Entdecken Sie Aspose.Cells für Java-Tutorials. Meistern Sie die Bearbeitung von Excel-Dateien mit Codebeispielen. Verbessern Sie noch heute Ihre Java-Kenntnisse!
+Entdecken Sie Aspose.Cells für Java-Tutorials. Meistern Sie die Excel-Dateibearbeitung mit Codebeispielen. Verbessern Sie noch heute Ihre Java-Kenntnisse!
 {{% /alert %}}
 
 Dies sind Links zu einigen nützlichen Ressourcen:
@@ -31,6 +31,6 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 - [Excel-Datenanalyse](./java/excel-data-analysis/)
 - [Excel-Pivot-Tabellen](./java/excel-pivot-tables/)
 - [Erweiterte Excel-Diagramme](./java/advanced-excel-charts/)
-- [Excel-Import-Export](./java/excel-import-export/)
+- [Excel Import/Export](./java/excel-import-export/)
 - [Excel-Datensicherheit](./java/excel-data-security/)
-- [Tabellenkalkulationsautomatisierung](./java/spreadsheet-automation/)
+- [Automatisierung von Tabellenkalkulationen](./java/spreadsheet-automation/)

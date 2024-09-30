@@ -16,7 +16,7 @@ Ve světě manipulace s tabulkami představuje Aspose.Cells for Java výkonnou s
 
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Cells for Java: Stáhněte a nainstalujte jej z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Stáhněte a nainstalujte jej z[zde](https://releases.aspose.com/cells/java/).
 - Vývojové prostředí Java: Na vašem počítači byste měli mít nastavené vývojové prostředí Java.
 - Základní porozumění Excelu: Užitečná bude znalost Excelu a jeho základních pojmů.
 
@@ -119,4 +119,4 @@ Zatímco základní znalost jazyka Java je užitečná, Aspose.Cells for Java po
 
 ### Kde najdu další zdroje a dokumentaci k Aspose.Cells for Java?
 
- Máte přístup ke komplexní dokumentaci a zdrojům pro Aspose.Cells for Java na[tady](https://reference.aspose.com/cells/java/).
+ Máte přístup ke komplexní dokumentaci a zdrojům pro Aspose.Cells for Java na[zde](https://reference.aspose.com/cells/java/).

@@ -2,7 +2,7 @@
 title: カスタムデータ検証の作成
 linktitle: カスタムデータ検証の作成
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用してカスタム データ検証を作成する方法を学びます。ソースコード付きのステップバイステップガイド。
+description: Aspose.Cells for Java を使用してカスタム データ検証を作成する方法を学習します。ソース コード付きのステップ バイ ステップ ガイド。
 type: docs
 weight: 10
 url: /ja/java/data-validation-rules/creating-custom-data-validation/
@@ -10,42 +10,42 @@ url: /ja/java/data-validation-rules/creating-custom-data-validation/
 
 ## 導入
 
-データ検証は、ユーザーが間違ったデータまたは無効なデータを Excel スプレッドシートに入力するのを防ぎ、データの整合性を維持するのに役立ちます。 Excel には組み込みのデータ検証オプションが用意されていますが、カスタム検証ルールを定義する必要があるシナリオもあります。 Aspose.Cells for Java を使用すると、これを効率的に達成できます。
+データ検証は、ユーザーが Excel スプレッドシートに不正確なデータや無効なデータを入力するのを防ぐことで、データの整合性を維持するのに役立ちます。Excel には組み込みのデータ検証オプションが用意されていますが、カスタム検証ルールを定義する必要があるシナリオもあります。Aspose.Cells for Java を使用すると、これを効率的に実現できます。
 
 ## 前提条件
 
-コードに入る前に、次の前提条件を満たしていることを確認してください。
+コードに進む前に、次の前提条件を満たしていることを確認してください。
 
--  Aspose.Cells for Java: からライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/cells/java/).
 
-## ステップ 1: Java プロジェクトのセットアップ
+## ステップ1: Javaプロジェクトの設定
 
-まず、好みの統合開発環境 (IDE) で新しい Java プロジェクトを作成します。 Aspose.Cells for Java ライブラリをプロジェクトのクラスパスに追加します。
+まず、お好みの統合開発環境 (IDE) で新しい Java プロジェクトを作成します。プロジェクトのクラスパスに Aspose.Cells for Java ライブラリを追加します。
 
-## ステップ 2: Excel ワークブックの作成
+## ステップ2: Excelブックを作成する
 
-まず、Aspose.Cells for Java を使用して新しい Excel ワークブックを作成します。
+まず、Aspose.Cells for Java を使用して新しい Excel ブックを作成しましょう。
 
 ```java
-//新しい Excel ワークブックを作成する Java コード
+//新しい Excel ワークブックを作成するための Java コード
 Workbook workbook = new Workbook();
 ```
 
-## ステップ 3: ワークシートの追加
+## ステップ3: ワークシートの追加
 
-次に、カスタム データ検証を適用するワークシートをワークブックに追加しましょう。
+ここで、カスタム データ検証を適用するワークシートをワークブックに追加しましょう。
 
 ```java
-//ワークシートを追加する Java コード
+//ワークシートを追加するためのJavaコード
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## ステップ 4: カスタム検証基準の定義
+## ステップ4: カスタム検証基準の定義
 
-このステップでは、データが従う必要があるカスタム検証基準を定義します。セルに入力する年齢を 18 ～ 60 歳に制限したいとします。
+このステップでは、データが準拠する必要があるカスタム検証基準を定義します。セルに入力される年齢を 18 ～ 60 歳に制限するとします。
 
 ```java
-//カスタム検証基準を定義する Java コード
+//カスタム検証基準を定義するJavaコード
 Validation validation = worksheet.getValidations().add();
 validation.setType(ValidationType.WHOLE);
 validation.setOperator(OperatorType.BETWEEN);
@@ -57,24 +57,24 @@ validation.setErrorTitle("Invalid Age");
 validation.setErrorMessage("Age must be between 18 and 60.");
 ```
 
-## ステップ 5: データ検証を範囲に適用する
+## ステップ 5: 範囲にデータ検証を適用する
 
-カスタム検証基準を定義したので、それを特定の範囲のセルに適用しましょう。
+カスタム検証基準を定義したので、それを特定のセル範囲に適用してみましょう。
 
 ```java
-//データ検証を範囲に適用する Java コード
+//範囲にデータ検証を適用するJavaコード
 CellArea area = new CellArea();
 area.startRow = 0;
 area.startColumn = 0;
-area.endRow = 9; //最初の 10 行に検証を適用します
+area.endRow = 9; //最初の10行に検証を適用する
 area.endColumn = 0;
 
 validation.addArea(area);
 ```
 
-## ステップ 6: Excel ファイルを保存する
+## ステップ6: Excelファイルを保存する
 
-最後に、カスタム データ検証ルールが適用された Excel ファイルを保存します。
+最後に、カスタム データ検証ルールを適用した Excel ファイルを保存します。
 
 ```java
 // Excel ファイルを保存するための Java コード
@@ -83,26 +83,26 @@ workbook.save("CustomDataValidation.xlsx");
 
 ## 結論
 
-このチュートリアルでは、Aspose.Cells for Java を使用してカスタム データ検証ルールを作成する方法を説明しました。これらの手順に従うことで、Excel データが特定の基準に準拠していることを確認し、データの整合性と正確性を高めることができます。
+このチュートリアルでは、Aspose.Cells for Java を使用してカスタム データ検証ルールを作成する方法について説明しました。これらの手順に従うことで、Excel データが特定の基準に準拠していることを保証し、データの整合性と正確性を高めることができます。
 
 ## よくある質問
 
-### Java 用 Aspose.Cells をダウンロードするにはどうすればよいですか?
+### Aspose.Cells for Java をダウンロードするにはどうすればいいですか?
 
- Aspose.Cells for Java は、次の Web サイトからダウンロードできます。[ここ](https://releases.aspose.com/cells/java/).
+ Aspose.Cells for Javaは次のウェブサイトからダウンロードできます。[ここ](https://releases.aspose.com/cells/java/).
 
 ### 同じワークシート内の複数の範囲にカスタム データ検証を適用できますか?
 
 はい、必要な範囲ごとに手順 5 を繰り返すことで、同じワークシート内の複数の範囲にカスタム データ検証を適用できます。
 
-### Aspose.Cells for Java でサポートされている他のタイプのデータ検証はありますか?
+### Aspose.Cells for Java でサポートされている他の種類のデータ検証はありますか?
 
-はい、Aspose.Cells for Java は、整数、10 進数、日付、時刻、テキスト長などを含むさまざまなタイプのデータ検証をサポートしています。
+はい、Aspose.Cells for Java は、整数、小数、日付、時刻、テキストの長さなど、さまざまな種類のデータ検証をサポートしています。
 
 ### データ検証が失敗したときに表示されるエラー メッセージをカスタマイズするにはどうすればよいですか?
 
-エラー メッセージをカスタマイズするには、`setErrorMessage`ステップ 4 のメソッドで、検証基準を定義します。
+エラーメッセージをカスタマイズするには、`setErrorMessage`手順 4 で検証基準を定義する方法。
 
-### Aspose.Cells for Java はさまざまな形式の Excel ファイルを処理できますか?
+### Aspose.Cells for Java は、さまざまな形式の Excel ファイルでも動作しますか?
 
-はい、Aspose.Cells for Java は、XLS、XLSX、XLSM などを含む幅広い Excel ファイル形式をサポートしています。
+はい、Aspose.Cells for Java は、XLS、XLSX、XLSM など、幅広い Excel ファイル形式をサポートしています。

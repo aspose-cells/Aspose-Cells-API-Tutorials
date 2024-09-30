@@ -21,7 +21,7 @@ url: /zh-hant/java/data-validation-rules/date-validation-in-spreadsheets/
 
 ## 為 Java 設定 Aspose.Cells
 
-首先，您需要將 Aspose.Cells 函式庫新增到您的 Java 專案中。按著這些次序：
+首先，您需要將 Aspose.Cells 函式庫新增到您的 Java 專案中。請依照下列步驟操作：
 
 1. 從提供的下載 Aspose.Cells for Java 函式庫[關聯](https://releases.aspose.com/cells/java/).
 
@@ -96,7 +96,7 @@ workbook.save("updated_excel_file.xlsx");
 
 絕對地！您可以自訂日期驗證邏輯以滿足您的特定要求。此範例示範了基本的驗證方法。
 
-### 使用 Aspose.Cells for Java 是否有任何授權要求？
+### 使用 Aspose.Cells for Java 有任何授權要求嗎？
 
 是的，Aspose.Cells for Java 可能需要某些使用場景的授權。檢查 Aspose 網站以取得許可詳細資訊。
 

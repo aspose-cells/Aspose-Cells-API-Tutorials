@@ -17,7 +17,7 @@ Než se ponoříme do hlubin analýzy dat, pojďme se seznámit s Aspose.Cells f
 Abyste mohli postupovat podle tohoto průvodce, budete potřebovat následující:
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
--  Aspose.Cells for Java: Stáhněte si a zahrňte knihovnu Aspose.Cells for Java do svého projektu. Odkaz ke stažení najdete[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Stáhněte si a zahrňte knihovnu Aspose.Cells for Java do svého projektu. Odkaz ke stažení najdete[zde](https://releases.aspose.com/cells/java/).
 - Ukázková data: Připravte data aplikace Excel, která chcete analyzovat.
 
 ## Vytvoření nového sešitu Excel
@@ -93,7 +93,7 @@ této příručce jsme prozkoumali, jak provádět analýzu dat v aplikaci Excel
 
 ### Jak nainstaluji Aspose.Cells for Java?
 
- Aspose.Cells for Java si můžete stáhnout z webu[tady](https://releases.aspose.com/cells/java/). Postupujte podle pokynů k instalaci a nastavte jej ve svém projektu Java.
+ Aspose.Cells for Java si můžete stáhnout z webu[zde](https://releases.aspose.com/cells/java/). Postupujte podle pokynů k instalaci a nastavte jej ve svém projektu Java.
 
 ### Mohu provádět pokročilé výpočty v kontingenčních tabulkách?
 

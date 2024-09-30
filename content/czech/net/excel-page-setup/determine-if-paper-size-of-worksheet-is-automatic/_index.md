@@ -2,92 +2,112 @@
 title: Zjistěte, zda je velikost papíru listu automaticky
 linktitle: Zjistěte, zda je velikost papíru listu automaticky
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak určit, zda je velikost papíru tabulky automatická s Aspose.Cells for .NET.
+description: Naučte se, jak určit, zda je velikost papíru listu automaticky pomocí Aspose.Cells for .NET. Pro snadnou implementaci postupujte podle našeho podrobného průvodce.
 type: docs
 weight: 20
 url: /cs/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-tomto článku vás krok za krokem provedeme vysvětlením následujícího zdrojového kódu C#: Pomocí Aspose.Cells for .NET zjistěte, zda je velikost papíru v listu automatická. K provedení této operace použijeme knihovnu Aspose.Cells pro .NET. Chcete-li určit, zda je velikost papíru listu automatická, postupujte podle následujících kroků.
+## Zavedení
 
-## Krok 1: Načtení sešitů
-Prvním krokem je načtení sešitů. Budeme mít dva sešity: jeden s vypnutou automatickou velikostí papíru a druhý s povolenou automatickou velikostí papíru. Zde je kód pro načtení sešitů:
+Pokud se noříte do světa manipulace s tabulkami pomocí Aspose.Cells pro .NET, udělali jste fantastickou volbu. Schopnost programově přizpůsobit a spravovat soubory aplikace Excel může zjednodušit řadu úkolů a zefektivnit vaši práci. V této příručce se zaměříme na konkrétní úkol: určení, zda je nastavení velikosti papíru v listu automatické. Takže popadněte svůj kódovací klobouk a můžeme začít!
+
+## Předpoklady
+
+Než se pustíme do kódu, ujistěte se, že máte vše, co budete potřebovat:
+
+### Základní znalost C#
+Zatímco Aspose.Cells zjednodušuje mnoho úkolů, základní znalost C# je zásadní. Měli byste být schopni číst a psát základní kód C#.
+
+### Aspose.Cells pro .NET
+ Ujistěte se, že máte v projektu nainstalovaný Aspose.Cells. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/cells/net/) pokud jste to ještě neudělali.
+
+### Vývojové prostředí
+Měli byste mít nastavené IDE jako Visual Studio. To vás provede efektivním zpracováním a testováním kódu.
+
+### Ukázkové soubory Excel
+Budete potřebovat ukázkové soubory (`samplePageSetupIsAutomaticPaperSize-False.xlsx` a`samplePageSetupIsAutomaticPaperSize-True.xlsx`) pro testovací účely. Ujistěte se, že tyto soubory jsou ve vašem zdrojovém adresáři.
+
+## Importujte balíčky
+
+Chcete-li pracovat s Aspose.Cells v C#, budete muset importovat potřebné balíčky. V horní části souboru C# uveďte:
 
 ```csharp
-// zdrojový adresář
-string sourceDir = "YOUR_SOURCE_DIR";
-// Výstupní adresář
-string outputDir = "YOUR_OUTPUT_DIRECTORY";
-
-// Vložte první sešit s vypnutou automatickou velikostí papíru
-Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-
-// Vložte druhý sešit s povolenou automatickou velikostí papíru
-Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
 ```
 
-## Krok 2: Přístup k tabulkám
-Nyní, když jsme načetli sešity, potřebujeme získat přístup k sešitům, abychom mohli zkontrolovat automatickou velikost papíru. Přejdeme k prvnímu pracovnímu listu ze dvou sešitů. Zde je kód pro přístup:
+To říká kompilátoru, že chcete použít knihovnu Aspose.Cells a jmenný prostor System pro základní funkce.
+
+Pojďme si to rozdělit do jasného návodu krok za krokem, abyste jej mohli snadno sledovat. Jste připraveni? Tady to je!
+
+## Krok 1: Nastavte zdrojové a výstupní adresáře
+
+Nejprve budete chtít definovat zdrojový a výstupní adresář. Tyto adresáře budou obsahovat vaše vstupní soubory a kam chcete uložit jakýkoli výstup. Postup je následující:
 
 ```csharp
-//Přejděte na první list prvního sešitu
-Worksheet ws11 = wb1.Worksheets[0];
-
-// Přejděte na první list druhého sešitu
-Worksheet ws12 = wb2.Worksheets[0];
-```
-
-## Krok 3: Zkontrolujte automatickou velikost papíru
- V tomto kroku zkontrolujeme, zda je velikost papíru listu automatická. Budeme používat`PageSetup.IsAutomaticPaperSize` nemovitost, abyste tyto informace získali. Následně zobrazíme výsledek. Zde je kód pro to:
-
-```csharp
-// Zobrazte vlastnost IsAutomaticPaperSize prvního listu v prvním sešitu
-Console.WriteLine("First worksheet in first workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
-
-// Zobrazte vlastnost IsAutomaticPaperSize prvního listu v druhém sešitu
-Console.WriteLine("First worksheet of second workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-
-```
-
-### Ukázkový zdrojový kód pro Zjistěte, zda velikost papíru je automatická pomocí Aspose.Cells pro .NET 
-```csharp
-//Zdrojový adresář
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
-//Výstupní adresář
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
-//Vložte první sešit s automatickou falešnou velikostí papíru
+```
+
+ Nahradit`YOUR_SOURCE_DIRECTORY` a`YOUR_OUTPUT_DIRECTORY` se skutečnými cestami ve vašem systému, kde budou soubory uloženy.
+
+## Krok 2: Načtěte sešity aplikace Excel
+
+Nyní, když jste nastavili své adresáře, pojďme načíst sešity. Načteme dva sešity – jeden s automatickou velikostí papíru nastavenou na false a druhý s nastavenou na hodnotu true. Zde je kód:
+
+```csharp
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-//Vložte druhý sešit s automatickou velikostí papíru true
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
-//Přístup k prvnímu listu obou sešitů
+```
+
+## Krok 3: Otevřete první pracovní list
+
+Po načtení sešitů je čas otevřít první list z každého sešitu. Krása Aspose.Cells spočívá v tom, že je to směšně přímočaré:
+
+```csharp
 Worksheet ws11 = wb1.Worksheets[0];
 Worksheet ws12 = wb2.Worksheets[0];
-//Vytiskněte vlastnost PageSetup.IsAutomaticPaperSize obou listů
+```
+
+Tento kód získá první list (index 0) z obou sešitů. 
+
+## Krok 4: Zkontrolujte nastavení velikosti papíru
+
+ Nyní přichází ta zábavná část! Budete chtít zkontrolovat, zda je nastavení velikosti papíru pro každý list automatické. To se provádí kontrolou`IsAutomaticPaperSize` majetek z`PageSetup` třída. Použijte následující fragment kódu:
+
+```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-Console.WriteLine();
+```
+
+ Zde tiskneme výsledky do konzole. uvidíš`True` nebo`False`v závislosti na nastavení každého listu.
+
+## Krok 5: Zabalte to
+
+Nakonec je dobrým zvykem poskytnout zpětnou vazbu, že váš kód byl úspěšně proveden. Přidejte jednoduchou zprávu na konec vaší hlavní metody:
+
+```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");
 ```
 
+## Závěr 
 
-## Závěr
-tomto článku jsme se naučili, jak určit, zda je velikost papíru listu automaticky pomocí Aspose.Cells for .NET. Provedli jsme následující kroky: načtení sešitů,
+A právě tak jste položili základy pro určení, zda je velikost papíru listu automaticky pomocí Aspose.Cells for .NET! Věnovali jste se importu balíčků, načítání sešitů, přístupu k listům a kontrole vlastnosti velikosti papíru – to jsou všechny základní dovednosti při programové manipulaci se soubory Excelu. Pamatujte, že čím více budete experimentovat s různými funkcemi Aspose.Cells, tím výkonnější budou vaše aplikace.
 
-přístup k tabulkám a automatická kontrola velikosti papíru. Nyní můžete tyto znalosti použít k určení, zda je velikost papíru vašich tabulek automatická.
+## FAQ
 
-### Nejčastější dotazy
+### Co je Aspose.Cells?
+Aspose.Cells je .NET knihovna určená pro správu souborů tabulek Excelu programově bez nutnosti instalace Excelu.
 
-#### Otázka: Jak mohu načíst sešity pomocí Aspose.Cells pro .NET?
+### Mohu použít Aspose.Cells pro jiná prostředí než Windows?
+Ano! Aspose.Cells podporuje vývoj napříč platformami, takže můžete pracovat v různých prostředích, kde je k dispozici .NET.
 
-Odpověď: Sešity můžete načíst pomocí třídy Workbook z knihovny Aspose.Cells. K načtení sešitu ze souboru použijte metodu Workbook.Load.
+### Potřebuji licenci pro Aspose.Cells?
+ když můžete začít s bezplatnou zkušební verzí, další používání vyžaduje zakoupenou licenci. Další podrobnosti lze nalézt[zde](https://purchase.aspose.com/buy).
 
-#### Otázka: Mohu zkontrolovat automatickou velikost papíru pro jiné tabulky?
+### Jak mohu zkontrolovat, zda je velikost papíru listu v C# automatická?
+ Jak je uvedeno v průvodci, můžete zkontrolovat`IsAutomaticPaperSize` majetek z`PageSetup` třída.
 
-Odpověď: Ano, automatickou velikost papíru pro jakýkoli list můžete zkontrolovat přístupem k vlastnosti PageSetup.IsAutomaticPaperSize odpovídajícího objektu Worksheet.
-
-#### Otázka: Jak mohu změnit automatickou velikost papíru tabulky?
-
-Odpověď: Chcete-li změnit automatickou velikost papíru listu, můžete použít vlastnost PageSetup.IsAutomaticPaperSize a nastavit ji na požadovanou hodnotu (true nebo false).
-
-#### Otázka: Jaké další funkce nabízí Aspose.Cells for .NET?
-
-Odpověď: Aspose.Cells for .NET nabízí mnoho funkcí pro práci s tabulkami, jako je vytváření, úprava a převod sešitů, stejně jako manipulace s daty, vzorci a formátování.
+### Kde najdu více informací o Aspose.Cells?
+ Můžete najít komplexní dokumentaci a návody[zde](https://reference.aspose.com/cells/net/).

@@ -1,109 +1,113 @@
 ---
-title: Especifique el autor mientras escribe y protege el libro de Excel
-linktitle: Especifique el autor mientras escribe y protege el libro de Excel
+title: Especificar autor al proteger contra escritura un libro de Excel
+linktitle: Especificar autor al proteger contra escritura un libro de Excel
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Aprenda cómo proteger y personalizar sus libros de Excel usando Aspose.Cells para .NET. Tutorial paso a paso en C#.
+description: Aprenda cómo proteger contra escritura su libro de Excel mientras especifica un autor usando Aspose.Cells para .NET en esta guía paso a paso.
 type: docs
 weight: 30
 url: /es/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
+## Introducción
 
-En este tutorial, le mostraremos cómo especificar el autor al proteger contra escritura un libro de Excel usando la biblioteca Aspose.Cells para .NET.
+Cuando se trata de trabajar con archivos de Excel en aplicaciones .NET, Aspose.Cells es una solución ideal para muchos desarrolladores. Su amplio conjunto de funcionalidades le permite generar, manipular y proteger archivos de Excel fácilmente. Un requisito común al que se enfrentan los desarrolladores es escribir en un libro de Excel y asegurarse de que esté protegido contra ediciones no autorizadas. Además, especificar un autor puede ser increíblemente útil para fines de seguimiento al compartir el documento. En esta guía, analizaremos en profundidad cómo puede especificar el autor mientras protege contra escritura un libro de Excel con Aspose.Cells para .NET.
 
-## Paso 1: Preparar el entorno
+## Prerrequisitos
 
-Antes de comenzar, asegúrese de tener Aspose.Cells para .NET instalado en su máquina. Descargue la biblioteca del sitio web oficial de Aspose y siga las instrucciones de instalación proporcionadas.
+Antes de adentrarnos en los detalles de la implementación, es fundamental contar con una base sólida. Estos son los requisitos previos que necesitará para comenzar:
 
-## Paso 2: configurar los directorios de origen y de salida
+1. Visual Studio: Necesita una instalación funcional de Visual Studio. Aquí es donde escribirá y compilará su código .NET.
+2. .NET Framework: asegúrese de tener instalado .NET Framework. Aspose.Cells admite varias versiones, por lo que debe elegir la que mejor se adapte a su aplicación.
+3.  Biblioteca Aspose.Cells: Necesita tener la biblioteca Aspose.Cells. Puede obtenerla desde[Página oficial de descarga](https://releases.aspose.com/cells/net/).
+4. Comprensión básica de C#: la familiaridad con C# le ayudará a navegar a través del proceso de codificación sin esfuerzo.
 
-En el código fuente proporcionado, debe especificar los directorios de origen y de salida. Modificar el`sourceDir` y`outputDir` variables reemplazando "SU DIRECTORIO DE FUENTE" y "SU DIRECTORIO DE SALIDA" con las respectivas rutas absolutas en su máquina.
+## Importar paquetes
+
+Para aprovechar al máximo la funcionalidad que ofrece Aspose.Cells, comencemos por importar los paquetes necesarios. Comience su archivo C# agregando la siguiente directiva using:
 
 ```csharp
-// Directorio fuente
-string sourceDir = "PATH TO YOUR SOURCE DIRECTORY";
-
-// Directorio de salida
-string outputDir = "YOUR OUTPUT DIRECTORY PATH";
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## Paso 3: crear un libro de Excel vacío
+Esta directiva le permitirá acceder a las clases y métodos incluidos en la biblioteca Aspose.Cells. Ahora que hemos importado nuestros paquetes, pasemos a la parte divertida: ¡escribir el código!
 
-Para comenzar, creamos un objeto Libro de trabajo que representa un libro de Excel vacío.
+## Paso 1: Configura tus directorios
 
-```csharp
-// Cree un libro de trabajo vacío.
-Workbook wb = new Workbook();
-```
-
-## Paso 4: protección contra escritura con contraseña
-
- A continuación, especificamos una contraseña para proteger contra escritura el libro de Excel usando el`WriteProtection.Password` propiedad del objeto Libro de trabajo.
+Antes de iniciar el libro de trabajo, es una buena idea configurar las rutas donde se encuentran los archivos de origen y dónde desea guardar el resultado. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
-// Libro de trabajo protegido contra escritura con contraseña.
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-```
-
-## Paso 5: especificación del autor
-
- Ahora especificamos el autor del libro de Excel usando el`WriteProtection.Author` propiedad del objeto Libro de trabajo.
-
-```csharp
-// Especifique el autor mientras escribe el libro de protección.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-```
-
-## Paso 6: Copia de seguridad del libro de Excel protegido
-
- Una vez especificada la protección contra escritura y el autor, podemos guardar el libro de Excel en formato XLSX usando el`Save()` método.
-
-```csharp
-// Guarde el libro en formato XLSX.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-```
-
-### Código fuente de muestra para Especificar autor mientras se escribe Proteger el libro de Excel usando Aspose.Cells para .NET 
-```csharp
-//Directorio fuente
+//Directorio de fuentes
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
-//Directorio de salida
+// Directorio de salida
 string outputDir = "YOUR OUTPUT DIRECTORY";
-
-// Cree un libro de trabajo vacío.
-Workbook wb = new Workbook();
-
-// Libro de trabajo protegido contra escritura con contraseña.
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-
-// Especifique el autor mientras escribe el libro de protección.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-
-// Guarde el libro en formato XLSX.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-
 ```
+
+ Asegúrese de reemplazar`"YOUR SOURCE DIRECTORY"` y`"YOUR OUTPUT DIRECTORY"` con rutas reales en su máquina. ¡Piense en esto como crear un espacio de trabajo ordenado antes de comenzar a crear su obra maestra!
+
+## Paso 2: Crear un libro de trabajo vacío
+
+Ahora que hemos configurado nuestros directorios, el siguiente paso es crear un libro de trabajo vacío. Este es básicamente el lienzo donde escribirás tus datos.
+
+```csharp
+// Crear un libro de trabajo vacío.
+Workbook wb = new Workbook();
+```
+
+Al igual que un artista comienza con un lienzo en blanco, usted comienza con un libro de trabajo vacío donde luego puede incluir datos o formato.
+
+## Paso 3: Proteger contra escritura el libro de trabajo
+
+La protección contra escritura es un aspecto crucial, especialmente si desea garantizar que la integridad de sus datos permanezca intacta. Puede hacerlo con una contraseña.
+
+```csharp
+// Proteger contra escritura el libro de trabajo con contraseña.
+wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
+```
+
+ En esta línea, reemplace`"YOUR_PASSWORD"` con una contraseña segura de su elección. Esta contraseña actúa como una puerta cerrada: solo aquellos que tienen la clave (contraseña) pueden ingresar.
+
+## Paso 4: Especifique el autor
+
+Ahora especificaremos el autor del libro de trabajo. Esto es especialmente útil para la rendición de cuentas y permite que otros vean quién creó o modificó el archivo.
+
+```csharp
+// Especifique el autor al proteger el libro contra escritura.
+wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
+```
+
+ Asegúrese de reemplazar`"YOUR_AUTHOR"` con el nombre que desea asociar con el documento. Piense en esto como si firmara su obra de arte: ¡le permite a la gente saber a quién agradecer por esta obra!
+
+## Paso 5: Guardar el libro de trabajo
+
+El último paso es guardar el libro de trabajo en el formato deseado. En este caso, lo guardaremos como archivo XLSX. 
+
+```csharp
+// Guarde el libro de trabajo en formato XLSX.
+wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
+```
+
+ Aquí, el archivo de salida se guardará en el directorio de salida especificado con el nombre`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`¡Aquí es donde tu arduo trabajo finalmente da sus frutos y puedes compartir tu libro de trabajo con otros, sabiendo que está bien protegido!
 
 ## Conclusión
 
-¡Enhorabuena! Ahora ha aprendido cómo especificar el autor al proteger contra escritura un libro de Excel con Aspose.Cells para .NET. Puede aplicar estos pasos a sus propios proyectos para proteger y personalizar sus libros de Excel.
-
-No dude en explorar más a fondo las funciones de Aspose.Cells para .NET para realizar operaciones más avanzadas en archivos de Excel.
+¡Y ya está! Aprendió a crear un libro de Excel, a configurar la protección contra escritura con una contraseña, a especificar un autor y a guardarlo sin problemas con Aspose.Cells para .NET. Esta combinación de funcionalidades no solo protegerá sus datos, sino que también mantendrá su integridad y proporcionará la atribución adecuada.
 
 ## Preguntas frecuentes
 
-#### P: ¿Puedo proteger contra escritura un libro de Excel sin especificar una contraseña?
+### ¿Puedo personalizar la contraseña para protección contra escritura?  
+ Sí, puedes personalizar la contraseña según tus necesidades. Solo tienes que reemplazarla.`YOUR_PASSWORD` con la contraseña deseada.
 
- R: Sí, puedes usar el objeto Libro de trabajo.`WriteProtect()` método sin especificar una contraseña para proteger contra escritura un libro de Excel. Esto restringirá los cambios en el libro sin requerir una contraseña.
+### ¿Aspose.Cells es de uso gratuito?  
+ Aspose.Cells es una biblioteca paga, pero puedes probarla gratis con una prueba por tiempo limitado. Visita la[Enlace de prueba gratuito](https://releases.aspose.com/) Para empezar.
 
-#### P: ¿Cómo elimino la protección contra escritura de un libro de Excel?
+### ¿Cómo compro la biblioteca Aspose.Cells?  
+ Puedes comprar Aspose.Cells a través de su[página de compra](https://purchase.aspose.com/buy).
 
- R: Para eliminar la protección contra escritura de un libro de Excel, puede usar el`Unprotect()` método del objeto Hoja de trabajo o el`RemoveWriteProtection()` método del objeto Workbook, dependiendo de su caso de uso específico. .
+### ¿Puedo utilizar este enfoque en aplicaciones web?  
+¡Por supuesto! Aspose.Cells funciona perfectamente tanto en aplicaciones de escritorio como web que utilicen .NET.
 
-#### P: Olvidé la contraseña para proteger mi libro de Excel. Qué puedo hacer ?
-
-R: Si olvidó la contraseña para proteger su libro de Excel, no podrá eliminarla directamente. Sin embargo, puede intentar utilizar herramientas especializadas de terceros que proporcionen funciones de recuperación de contraseña para archivos de Excel protegidos.
-
-#### P: ¿Es posible especificar varios autores al proteger contra escritura un libro de Excel?
-
-R: No, la biblioteca Aspose.Cells para .NET permite especificar un único autor al proteger contra escritura un libro de Excel. Si desea especificar varios autores, deberá considerar soluciones personalizadas manipulando directamente el archivo de Excel.
+### ¿Qué debo hacer si necesito ayuda?  
+ Para preguntas y resolución de problemas, la comunidad de Aspose es muy útil. Puede visitar su[foro de soporte](https://forum.aspose.com/c/cells/9) para solicitar ayuda.

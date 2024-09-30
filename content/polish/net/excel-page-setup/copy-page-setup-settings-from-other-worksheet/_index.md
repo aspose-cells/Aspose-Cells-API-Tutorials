@@ -1,105 +1,152 @@
 ---
-title: Skopiuj ustawienia ustawień strony z innego arkusza
-linktitle: Skopiuj ustawienia ustawień strony z innego arkusza
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Dowiedz się, jak skopiować ustawienia konfiguracji strony z jednego arkusza kalkulacyjnego do drugiego za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący optymalizacji wykorzystania tej biblioteki.
+title: Kopiuj ustawienia ustawień strony z innego arkusza kalkulacyjnego
+linktitle: Kopiuj ustawienia ustawień strony z innego arkusza kalkulacyjnego
+second_title: Aspose.Cells dla .NET API Reference
+description: Naucz się kopiować ustawienia konfiguracji strony między arkuszami kalkulacyjnymi za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku, który idealnie nadaje się do usprawnienia zarządzania arkuszami kalkulacyjnymi.
 type: docs
 weight: 10
 url: /pl/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 ---
-W tym artykule poprowadzimy Cię krok po kroku do wyjaśnienia następującego kodu źródłowego C#: Skopiuj ustawienia konfiguracji strony z innego arkusza kalkulacyjnego za pomocą Aspose.Cells dla .NET. Do wykonania tej operacji użyjemy biblioteki Aspose.Cells dla .NET. Jeśli chcesz skopiować ustawienia ustawień strony z jednego arkusza do drugiego, wykonaj poniższe czynności.
+## Wstęp
 
-## Krok 1: Tworzenie skoroszytu
-Pierwszym krokiem jest utworzenie skoroszytu. W naszym przypadku skorzystamy z klasy Workbook udostępnionej przez bibliotekę Aspose.Cells. Oto kod umożliwiający utworzenie skoroszytu:
+Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz powielić ustawienia strony z jednego arkusza kalkulacyjnego do drugiego? Niezależnie od tego, czy pracujesz z raportami finansowymi, czy harmonogramami projektów, jednolitość prezentacji jest kluczowa. Dzięki Aspose.Cells dla .NET możesz łatwo kopiować ustawienia konfiguracji strony między arkuszami kalkulacyjnymi. Ten przewodnik przeprowadzi Cię przez proces krok po kroku, czyniąc go prostym i przejrzystym, nawet jeśli dopiero zaczynasz pracę z .NET lub Aspose.Cells. Gotowy do działania? Zaczynajmy!
+
+## Wymagania wstępne
+
+Zanim przejdziemy do kodu, jest kilka niezbędnych elementów, które musisz mieć na miejscu:
+
+1. Środowisko programistyczne .NET: Upewnij się, że masz skonfigurowane środowisko zgodne z technologią .NET, np. Visual Studio lub inne wybrane przez Ciebie środowisko programistyczne.
+2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3. Podstawowa znajomość języka C#: Znajomość podstaw języka C# z pewnością pomoże Ci lepiej zrozumieć jego koncepcje.
+4.  Dokumentacja Aspose.Cells: Zapoznaj się z[dokumentacja](https://reference.aspose.com/cells/net/)jeśli chcesz skorzystać z zaawansowanych konfiguracji lub dodatkowych funkcji, które mogą okazać się przydatne w przyszłości.
+
+Teraz, gdy spełniliśmy już wszystkie wymagania wstępne, możemy zaimportować wymagane pakiety!
+
+## Importuj pakiety
+
+Aby rozpocząć korzystanie z Aspose.Cells w swoim projekcie, musisz zaimportować następujący pakiet do swojego kodu:
+
+```csharp
+using System.IO;
+using Aspose.Cells;
+using System;
+```
+
+Ta pojedyncza linia umożliwia dostęp do wszystkich zaawansowanych komponentów biblioteki Aspose.Cells.
+
+Podzielmy cały proces na łatwe do opanowania kroki, aby upewnić się, że w pełni rozumiesz każdą część. Utworzymy skoroszyt, dodamy dwa arkusze, zmodyfikujemy ustawienia strony jednego, a następnie skopiujemy te ustawienia do drugiego.
+
+## Krok 1: Utwórz skoroszyt
+
+Utwórz swój skoroszyt:
+ Najpierw musisz utworzyć instancję`Workbook` klasa. To jest zasadniczo twój punkt wyjścia. 
 
 ```csharp
 Workbook wb = new Workbook();
 ```
 
-## Krok 2: Dodawanie arkuszy testowych
-Po utworzeniu skoroszytu musimy dodać arkusze testowe. W tym przykładzie dodamy dwa arkusze. Oto kod umożliwiający dodanie dwóch arkuszy:
+Ten wiersz inicjuje skoroszyt, w którym będziesz przechowywać swoje arkusze kalkulacyjne.
+
+## Krok 2: Dodaj arkusze kalkulacyjne
+
+Dodaj arkusze do skoroszytu:
+Teraz, gdy masz już skoroszyt, czas dodać kilka arkuszy.
 
 ```csharp
 wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-## Krok 3: Dostęp do arkuszy ćwiczeń
-Teraz, gdy dodaliśmy arkusze, musimy uzyskać do nich dostęp, aby móc zmienić ich ustawienia. Dostęp do arkuszy „TestSheet1” i „TestSheet2” uzyskamy, używając ich nazw. Oto kod umożliwiający dostęp do niego:
+Tutaj dodaliśmy dwa arkusze o nazwach „TestSheet1” i „TestSheet2”. To tak, jakby utworzyć dwie różne strony w skoroszycie, gdzie możesz niezależnie zarządzać zawartością.
+
+## Krok 3: Uzyskaj dostęp do arkuszy kalkulacyjnych
+
+Dostęp do arkuszy kalkulacyjnych:
+Następnie musisz uzyskać dostęp do nowo utworzonych arkuszy kalkulacyjnych, aby wprowadzić zmiany.
 
 ```csharp
-Worksheet TestSheet1 = wb. Worksheets["TestSheet1"];
-Worksheet TestSheet2 = wb. Worksheets["TestSheet2"];
-```
-
-## Krok 4: Ustawianie rozmiaru papieru
- W tym kroku ustawimy rozmiar papieru arkusza „TestSheet1”. Będziemy korzystać z`PageSetup.PaperSize` właściwość umożliwiająca ustawienie rozmiaru papieru. Przykładowo ustawimy rozmiar papieru na „PaperA3ExtraTransverse”. Oto kod do tego:
-
-```csharp
-TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
-```
-
-## Krok 5: Kopiowanie ustawień ustawień strony
-Teraz skopiujemy ustawienia konfiguracji strony z arkusza „TestSheet1” do „TestSheet2”. Będziemy korzystać z`PageSetup.Copy` sposób wykonania tej operacji. Oto kod do tego:
-
-```csharp
-TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
-```
-
-## Krok 6: Drukowanie rozmiarów papieru
- Po skopiowaniu ustawień ustawień strony wydrukujemy rozmiary papieru obu arkuszy. Użyjemy`Console.WriteLine` aby wyświetlić rozmiary papieru. Oto kod do tego:
-
-```csharp
-Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
-Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
-```
-
-### Przykładowy kod źródłowy dla opcji Kopiuj ustawienia ustawień strony z innego arkusza przy użyciu Aspose.Cells dla .NET 
-```csharp
-//Utwórz skoroszyt
-Workbook wb = new Workbook();
-//Dodaj dwa arkusze testowe
-wb.Worksheets.Add("TestSheet1");
-wb.Worksheets.Add("TestSheet2");
-//Uzyskaj dostęp do obu arkuszy jako Arkusz Testowy1 i Arkusz Testowy2
 Worksheet TestSheet1 = wb.Worksheets["TestSheet1"];
 Worksheet TestSheet2 = wb.Worksheets["TestSheet2"];
-//Ustaw rozmiar papieru arkusza testowego 1 na PaperA3ExtraTransverse
+```
+
+Teraz masz odwołania do obu arkuszy, dzięki czemu możesz łatwo dostosować ich właściwości.
+
+## Krok 4: Ustaw rozmiar papieru dla arkusza testowego 1
+
+Modyfikuj ustawienia strony:
+ Ustawmy rozmiar papieru „TestSheet1” na`PaperA3ExtraTransverse`.
+
+```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
-//Wydrukuj rozmiar papieru obu arkuszy
+```
+
+Ten krok jest kluczowy, jeśli dokument jest przeznaczony do konkretnego układu wydruku. To jak wybór rozmiaru płótna dla Twojej pracy.
+
+## Krok 5: Wydrukuj bieżące rozmiary papieru
+
+Sprawdź aktualny rozmiar papieru:
+Sprawdźmy teraz, jakie są aktualne rozmiary papieru przed operacją kopiowania.
+
+```csharp
 Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
-Console.WriteLine();
-//Skopiuj ustawienie PageSetup z arkusza testowego1 do arkusza testowego2
+```
+
+Spowoduje to wyświetlenie bieżącej konfiguracji strony dla obu arkuszy kalkulacyjnych na konsoli. Zawsze dobrze jest zweryfikować, co masz, zanim wprowadzisz zmiany, prawda?
+
+## Krok 6: Kopiuj ustawienia strony z TestSheet1 do TestSheet2
+
+Kopiuj ustawienia ustawień strony:
+Oto ekscytująca część! Możesz skopiować wszystkie ustawienia konfiguracji strony z „TestSheet1” do „TestSheet2”.
+
+```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
-//Wydrukuj rozmiar papieru obu arkuszy
+```
+
+Ta linia kodu zasadniczo bierze całe formatowanie „TestSheet1” i stosuje je do „TestSheet2”. To tak, jakby zrobić migawkę jednej strony i wkleić ją na inną!
+
+## Krok 7: Wydrukuj zaktualizowane rozmiary papieru
+
+Sprawdź ponownie rozmiary papieru:
+Na koniec sprawdźmy, czy ustawienia zostały pomyślnie skopiowane.
+
+```csharp
 Console.WriteLine("After Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("After Paper Size: " + TestSheet2.PageSetup.PaperSize);
 Console.WriteLine();
 Console.WriteLine("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet executed successfully.\r\n");
 ```
 
+Powinieneś zobaczyć, że rozmiary stron dla obu arkuszy roboczych są takie same po operacji kopiowania. To wszystko! Ustawienia zostały bezproblemowo przeniesione.
+
+## Krok 8: Zapisz swój skoroszyt
+
+Zapisz zmiany:
+Nie zapomnij zapisać swojego skoroszytu po całej tej ciężkiej pracy!
+
+```csharp
+wb.Save("CopiedPageSetupExample.xlsx");
+```
+
+Zapisanie skoroszytu jest niezbędne, aby mieć pewność, że wszystkie zmiany zostaną zachowane. Wyobraź sobie ten krok jako naciśnięcie „zapisz” po zakończeniu dokumentu — kluczowe, aby nie stracić żadnego postępu!
+
 ## Wniosek
-tym artykule dowiedzieliśmy się, jak kopiować ustawienia konfiguracji strony z jednego arkusza do drugiego za pomocą Aspose.Cells dla .NET. Wykonaliśmy następujące kroki: utworzenie skoroszytu, dodanie arkuszy testowych, uzyskanie dostępu do arkuszy kalkulacyjnych, ustawienie rozmiaru papieru, skopiowanie ustawień ustawień strony i wydrukowanie rozmiarów papieru. Teraz możesz wykorzystać tę wiedzę do kopiowania ustawień konfiguracyjnych strony do własnych projektów.
 
-### Często zadawane pytania
+Używanie Aspose.Cells dla .NET sprawia, że zarządzanie arkuszami kalkulacyjnymi jest dziecinnie proste. Możesz łatwo kopiować ustawienia stron z jednego arkusza kalkulacyjnego do drugiego, co pomaga zachować spójność w dokumentach. Dzięki szczegółowym krokom opisanym w tym przewodniku możesz pewnie manipulować ustawieniami stron skoroszytu i oszczędzać czas na formatowaniu. 
 
-#### P: Czy mogę kopiować ustawienia konfiguracji strony między różnymi instancjami skoroszytu?
+## Najczęściej zadawane pytania
 
- Odp.: Tak, możesz kopiować ustawienia ustawień strony między różnymi instancjami skoroszytu za pomocą pliku`PageSetup.Copy` metoda biblioteki Aspose.Cells.
+### Czym jest Aspose.Cells?  
+Aspose.Cells to zaawansowana biblioteka do pracy z arkuszami kalkulacyjnymi w aplikacjach .NET.
 
-#### P: Czy mogę skopiować inne ustawienia ustawień strony, takie jak orientacja lub marginesy?
+### Czy mogę używać Aspose.Cells z innymi językami programowania?  
+Aspose.Cells obsługuje przede wszystkim języki .NET, ale istnieją również biblioteki Aspose przeznaczone dla innych języków.
 
- O: Tak, możesz skopiować inne ustawienia ustawień strony za pomocą pliku`PageSetup.Copy` metodę z odpowiednimi opcjami. Na przykład możesz skopiować orientację za pomocą`CopyOptions.Orientation` i marże`CopyOptions.Margins`.
+### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?  
+ Tak, możesz pobrać[bezpłatny okres próbny](https://releases.aspose.com/) z Aspose.Cells.
 
-#### P: Skąd mam wiedzieć, jakie opcje są dostępne dla rozmiaru papieru?
+### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
+ Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9).
 
-Odp.: Możesz sprawdzić dokumentację API biblioteki Aspose.Cells, aby zapoznać się z dostępnymi opcjami rozmiaru papieru. Istnieje wyliczenie tzw`PaperSizeType` która zawiera listę różnych obsługiwanych rozmiarów papieru.
-
-#### P: Jak mogę pobrać bibliotekę Aspose.Cells dla .NET?
-
- O: Możesz pobrać bibliotekę Aspose.Cells dla .NET z[Wydania Aspose](https://releases.aspose.com/cells/net). Dostępne są bezpłatne wersje próbne, a także płatne licencje do użytku komercyjnego.
-
-#### P: Czy biblioteka Aspose.Cells obsługuje inne języki programowania?
-
-O: Tak, biblioteka Aspose.Cells obsługuje wiele języków programowania, w tym C#, Java, Python i wiele innych.
+### Czy mogę otrzymać tymczasową licencję na Aspose.Cells?  
+ Oczywiście! Możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić produkt.

@@ -1,123 +1,146 @@
 ---
-title: Thêm bảng tính Excel vào sổ làm việc hiện có Hướng dẫn C#
+title: Thêm bảng tính Excel vào bảng tính hiện có Hướng dẫn C#
 linktitle: Thêm bảng tính Excel vào sổ làm việc hiện có
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Dễ dàng thêm trang tính mới vào sổ làm việc Excel hiện có bằng Aspose.Cells for .NET. Hướng dẫn từng bước với các ví dụ về mã.
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách thêm bảng tính Excel vào sổ làm việc hiện có bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này.
 type: docs
 weight: 10
 url: /vi/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-workbook-csharp-tutorial/
 ---
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước để giải thích mã nguồn C# bên dưới, giúp thêm trang tính mới vào sổ làm việc Excel hiện có bằng cách sử dụng Aspose.Cells cho .NET. Chúng tôi sẽ bao gồm mã mẫu cho từng bước để giúp bạn hiểu chi tiết về quy trình.
+## Giới thiệu
 
-## Bước 1: Xác định thư mục tài liệu
+Với thế giới kỹ thuật số liên tục phát triển, làm việc với bảng tính đã trở thành một phần quan trọng của nhiều quy trình kinh doanh. Từ quản lý tài chính đến sắp xếp dữ liệu, khả năng thêm và thao tác các bảng tính Excel theo chương trình có thể giúp bạn tiết kiệm rất nhiều thời gian và hợp lý hóa quy trình làm việc của mình. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách thêm bảng tính Excel vào sổ làm việc hiện có bằng Aspose.Cells for .NET, thư viện mạnh mẽ được thiết kế để tự động hóa các tác vụ bảng tính một cách dễ dàng. Hãy xắn tay áo lên và bắt đầu!
 
-Để bắt đầu, bạn cần đặt đường dẫn thư mục chứa tệp Excel của bạn. Thay thế "THƯ MỤC TÀI LIỆU CỦA BẠN" trong mã bằng đường dẫn thực tế của tệp Excel của bạn.
+## Điều kiện tiên quyết
+
+Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để triển khai thành công hướng dẫn này. Sau đây là những gì bạn cần:
+
+1.  Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[đây](https://visualstudio.microsoft.com/vs/).
+2.  Aspose.Cells cho .NET: Bạn sẽ cần phải tích hợp Aspose.Cells cho .NET vào dự án của bạn. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/). Thư viện này rất cần thiết để làm việc với các tệp Excel và hỗ trợ nhiều chức năng khác nhau.
+3. Hiểu biết cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn dễ dàng theo dõi hơn. Đừng lo lắng; chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình!
+4. Thư mục tài liệu của bạn: Đảm bảo bạn có một thư mục trên máy tính để lưu trữ các tệp Excel cho hướng dẫn này. 
+
+Bạn đã có mọi thứ trong danh sách chưa? Tuyệt! Bây giờ hãy nhập các gói cần thiết.
+
+## Nhập gói
+
+Để bắt đầu, chúng ta cần nhập các không gian tên cần thiết từ thư viện Aspose.Cells. Sau đây là cách bạn có thể thực hiện:
 
 ```csharp
-//Đường dẫn đến thư mục tài liệu.
+using System.IO;
+using Aspose.Cells;
+```
+
+ Các`System.IO` không gian tên giúp chúng ta xử lý các hoạt động tập tin, trong khi`Aspose.Cells` cung cấp tất cả các chức năng cần thiết để thao tác với các tệp Excel. Bây giờ chúng ta đã nhập các gói, hãy cùng phân tích từng bước quy trình thêm bảng tính.
+
+## Bước 1: Thiết lập đường dẫn thư mục tài liệu
+
+Hãy bắt đầu bằng cách xác định nơi lưu trữ các tệp Excel của chúng ta. Bước này rất quan trọng để tham chiếu đến các tệp mà chúng ta muốn làm việc sau này trong quá trình này.
+
+```csharp
+// Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Bước 2: Tạo luồng tệp và mở tệp Excel
+ Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi các tệp Excel của bạn nằm. Điều này sẽ cho phép chúng ta dễ dàng điều hướng đến tệp chúng ta muốn chỉnh sửa.
 
- Tiếp theo, bạn cần tạo một luồng tệp và mở tệp Excel bằng cách sử dụng`FileStream` lớp học.
+## Bước 2: Tạo một luồng tệp để mở sổ làm việc
+
+Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tạo luồng tệp cho phép chúng ta tương tác với sổ làm việc Excel hiện có.
 
 ```csharp
-// Tạo luồng file chứa file Excel cần mở
+// Tạo luồng tệp chứa tệp Excel cần mở
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-## Bước 3: Khởi tạo một đối tượng sổ làm việc
+ Trong bước này, chúng ta đang mở`book1.xls`tệp này phải có trong thư mục bạn chỉ định. Hãy đảm bảo bạn có tệp này trong tay, nếu không quá trình này sẽ báo lỗi.
 
- Sau khi mở tệp Excel, bạn cần khởi tạo một`Workbook`sự vật. Đối tượng này đại diện cho sổ làm việc Excel và cung cấp các phương thức và thuộc tính khác nhau để thao tác với sổ làm việc.
+## Bước 3: Khởi tạo một đối tượng Workbook
 
-```csharp
-// Khởi tạo một đối tượng Workbook
-// Mở file Excel theo luồng file
-Workbook workbook = new Workbook(fstream);
-```
-
-## Bước 4: Thêm một trang tính mới vào sổ làm việc
-
- Để thêm một bảng tính mới vào sổ làm việc, bạn có thể sử dụng`Worksheets.Add()` phương pháp của`Workbook` sự vật. Phương thức này trả về chỉ mục của trang tính mới được thêm vào.
+Tiếp theo, chúng ta cần tạo một thể hiện của lớp Workbook để chứa tệp Excel của chúng ta.
 
 ```csharp
-// Thêm một trang tính mới vào sổ làm việc Workbook
-int i = workbook. Worksheets. Add();
-```
-
-## Bước 5: Đặt tên trang tính mới
-
- Bạn có thể đặt tên của trang tính mới được thêm vào bằng cách sử dụng`Name` tài sản của`Worksheet` sự vật.
-
-```csharp
-// Lấy tham chiếu của trang tính mới được thêm bằng cách chuyển chỉ mục trang tính của nó
-Worksheet worksheet = workbook.Worksheets[i];
-// Xác định tên của sheet mới
-worksheet.Name = "My Worksheet";
-```
-
-## Bước 6: Lưu tệp Excel
-
- Khi bạn đã thêm trang tính mới và đặt tên cho nó, bạn có thể lưu tệp Excel đã sửa đổi bằng cách sử dụng`Save()` phương pháp của`Workbook` sự vật.
-
-```csharp
-// Lưu tệp Excel
-workbook.Save(dataDir + "output.out.xls");
-```
-
-## Bước 7: Đóng luồng tệp và giải phóng tài nguyên
-
-Cuối cùng, điều quan trọng là phải đóng luồng tệp để giải phóng tất cả tài nguyên được liên kết với nó.
-
-```csharp
-// Đóng luồng tệp để giải phóng tất cả tài nguyên
-fstream.Close();
-```
-
-### Mã nguồn mẫu cho Thêm bảng tính Excel vào sổ làm việc hiện có Hướng dẫn C# bằng cách sử dụng Aspose.Cells cho .NET 
-```csharp
-//Đường dẫn đến thư mục tài liệu.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo luồng tệp chứa tệp Excel sẽ được mở
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 // Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
-// Thêm một bảng tính mới vào đối tượng Workbook
+```
+
+Bằng cách tạo một phiên bản sổ làm việc từ luồng tệp, giờ đây chúng ta có thể thao tác nội dung của tệp Excel thông qua mã.
+
+## Bước 4: Thêm một bảng tính mới
+
+ Đây là phần thú vị! Chúng ta hãy thêm một bảng tính mới vào sổ làm việc của chúng ta. Điều này được thực hiện bằng cách sử dụng`Add()` phương pháp từ`Worksheets` bộ sưu tập.
+
+```csharp
+// Thêm một trang tính mới vào đối tượng Workbook
 int i = workbook.Worksheets.Add();
-// Lấy tham chiếu của bảng tính mới được thêm bằng cách chuyển chỉ mục trang tính của nó
+```
+
+ Với dòng mã này, chúng ta đang thêm một trang tính mới và chỉ mục của trang tính mới này được ghi lại trong biến`i`.
+
+## Bước 5: Lấy tham chiếu đến bảng tính mới được thêm vào
+
+Sau khi tạo bảng tính mới, điều quan trọng là phải có tham chiếu đến bảng tính đó. Bằng cách này, chúng ta có thể tùy chỉnh các thuộc tính của bảng tính, như tên của bảng tính.
+
+```csharp
+// Lấy tham chiếu của bảng tính mới được thêm vào bằng cách chuyển chỉ mục trang tính của nó
 Worksheet worksheet = workbook.Worksheets[i];
-// Đặt tên cho bảng tính mới được thêm vào
+```
+
+Ở đây, chúng tôi đang sử dụng chỉ mục`i` để tham chiếu đến bảng tính mới tạo của chúng tôi. Điều này cho phép chúng tôi thao tác nó xa hơn.
+
+## Bước 6: Đặt tên cho trang tính mới
+
+Một bảng tính không có tên thì sao nhỉ? Hãy cùng tạo cho bảng tính mới thêm của chúng ta một danh tính nhé!
+
+```csharp
+// Đặt tên cho worksheet mới được thêm vào
 worksheet.Name = "My Worksheet";
+```
+
+ Bạn có thể thay đổi`"My Worksheet"` bất kỳ tên nào bạn muốn. Đây là cách bạn có thể sắp xếp các trang tính Excel của mình hiệu quả hơn.
+
+## Bước 7: Lưu tệp Excel
+
+Sau khi hoàn tất các sửa đổi, đã đến lúc lưu sổ làm việc của chúng ta. Bước này sẽ xác nhận tất cả các thay đổi của chúng ta và cho phép chúng ta sử dụng bảng tính mới tạo trong tương lai.
+
+```csharp
 // Lưu tệp Excel
 workbook.Save(dataDir + "output.out.xls");
+```
+
+ Ở đây, chúng tôi lưu sổ làm việc của mình dưới dạng`output.out.xls`. Bạn có thể đặt tên bất kỳ cho tệp này; chỉ cần đảm bảo rằng nó được lưu trong đúng thư mục.
+
+## Bước 8: Đóng luồng tập tin
+
+Cuối cùng, chúng ta cần đóng luồng tệp để giải phóng tài nguyên. Không làm như vậy có thể dẫn đến rò rỉ bộ nhớ hoặc sự cố truy cập tệp sau này.
+
+```csharp
 // Đóng luồng tệp để giải phóng tất cả tài nguyên
 fstream.Close();
 ```
 
+Dòng này đảm bảo rằng chúng ta đang dọn dẹp sạch sẽ, duy trì môi trường phần mềm gọn gàng.
+
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng tôi đã trình bày quy trình từng bước để thêm ngọn lửa mới Kết nối với sổ làm việc Excel hiện có bằng cách sử dụng Aspose.Cells cho .NET. Bằng cách làm theo các ví dụ về mã và giải thích được cung cấp, giờ đây bạn sẽ hiểu rõ về cách thực hiện tác vụ này trong các ứng dụng C# của mình. Aspose.Cells for .NET cung cấp một bộ tính năng toàn diện để làm việc với các tệp Excel, cho phép bạn tự động hóa các tác vụ liên quan đến Excel khác nhau một cách hiệu quả.
+Xin chúc mừng! Bạn đã thêm thành công một bảng tính mới vào sổ làm việc Excel hiện có bằng Aspose.Cells cho .NET. Các bước chúng tôi đã đề cập rất đơn giản và khi thực hành, bạn sẽ thoải mái hơn khi thao tác các tệp Excel theo chương trình. Khả năng tự động hóa các tác vụ này có thể có tác động sâu sắc đến năng suất của bạn.
 
-### Câu hỏi thường gặp (FAQ)
+Cho dù bạn đang quản lý các tập dữ liệu lớn hay tạo báo cáo tài chính, việc hiểu cách làm việc với Excel theo chương trình sẽ mở ra một thế giới khả năng. Vậy, bạn còn chờ gì nữa? Hãy làm cho các bảng tính đó trở nên sôi động!
 
-#### Aspose.Cells cho .NET là gì?
+## Câu hỏi thường gặp
 
-Aspose.Cells for .NET là một thư viện .NET mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel trong ứng dụng của họ. Nó cung cấp nhiều tính năng để làm việc với bảng tính, ô, công thức, kiểu, v.v.
+### Aspose.Cells là gì?
+Aspose.Cells là một thư viện mạnh mẽ để làm việc với các tệp Excel trong các ứng dụng .NET, cho phép người dùng tạo, chỉnh sửa và quản lý bảng tính mà không cần đến Microsoft Excel.
 
-#### Làm cách nào tôi có thể cài đặt Aspose.Cells cho .NET?
+### Aspose.Cells có miễn phí không?
+ Aspose.Cells cung cấp bản dùng thử miễn phí cho người dùng, cho phép họ dùng thử sản phẩm trước khi mua. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 
-Để cài đặt Aspose.Cells cho .NET, bạn có thể tải xuống gói cài đặt từ Bản phát hành Aspose (https://releases.aspose.com/cells/net) và làm theo hướng dẫn cài đặt được cung cấp. Bạn cũng sẽ cần giấy phép hợp lệ để sử dụng thư viện trong ứng dụng của mình.
+### Tôi có thể sử dụng Aspose.Cells trên Linux không?
+Có, Aspose.Cells cho .NET tương thích với .NET Core, cho phép bạn chạy ứng dụng trên môi trường Linux.
 
-#### Tôi có thể thêm nhiều bảng tính bằng Aspose.Cells cho .NET không?
+### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
+ Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 
- Có, bạn có thể thêm nhiều trang tính vào một tệp Excel bằng Aspose.Cells for .NET. Bạn có thể dùng`Worksheets.Add()` phương pháp của`Workbook` đối tượng để thêm bảng tính mới ở các vị trí khác nhau trong sổ làm việc.
-
-#### Làm cách nào để định dạng các ô trong tệp Excel?
-
-Aspose.Cells for .NET cung cấp các phương thức và thuộc tính khác nhau để định dạng các ô trong tệp Excel. Bạn có thể đặt giá trị ô, áp dụng các tùy chọn định dạng như kiểu phông chữ, màu sắc, căn chỉnh, đường viền, v.v. Xem tài liệu và mã mẫu do Aspose.Cells cung cấp để biết thêm thông tin chi tiết về định dạng ô.
-
-#### Aspose.Cells for .NET có tương thích với các phiên bản Excel khác nhau không?
-
-Có, Aspose.Cells for .NET tương thích với các phiên bản Excel khác nhau, bao gồm Excel 2003, Excel 2007, Excel 2010, Excel 2013, Excel 2016, Excel 2019 và Excel for Office 365. Nó hỗ trợ cả định dạng .xls và định dạng .xls mới hơn. định dạng xlsx.
+### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
+ Bạn có thể yêu cầu giấy phép tạm thời từ trang web của Aspose[đây](https://purchase.aspose.com/temporary-license/).

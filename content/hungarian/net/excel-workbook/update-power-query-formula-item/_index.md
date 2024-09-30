@@ -2,104 +2,125 @@
 title: Frissítse a Power Query képletelemet
 linktitle: Frissítse a Power Query képletelemet
 second_title: Aspose.Cells for .NET API Reference
-description: Ismerje meg, hogyan frissítheti a Power Query képletelemeit Excel-fájlokban az Aspose.Cells for .NET használatával.
+description: Könnyen frissítheti a Power Query képletelemeit az Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre szóló útmutató az adatkezelési folyamatok egyszerűsítéséhez.
 type: docs
 weight: 160
 url: /hu/net/excel-workbook/update-power-query-formula-item/
 ---
-Power Query képletelemek frissítése gyakori művelet az Excel-fájlokban lévő adatok kezelésekor. Az Aspose.Cells for .NET segítségével egyszerűen frissítheti a Power Query képletelemeit az alábbi lépések végrehajtásával:
+## Bevezetés
 
-## 1. lépés: Adja meg a forrás- és kimeneti könyvtárakat
+Ha valaha is dolgozott az Excellel, tudja, milyen hatékony lehet – különösen akkor, ha elkezdi a Power Queries-t. Ezek azok a titkos szószok, amelyek segítségével könnyedén átalakíthatja, tisztíthatja és elemezheti adatait. A Power Query képletek Excelben való kezelésének egyik remek módja az Aspose.Cells for .NET. Ma lépésről lépésre végigvezetjük a Power Query képletelemeinek frissítésén. Szóval, fogd meg a kódoló kalapot, és kezdjük is!
 
-Először is meg kell adnia azt a forráskönyvtárat, amelyben a frissítendő Power Query képleteket tartalmazó Excel-fájl található, valamint azt a kimeneti könyvtárat, ahová a módosított fájlt menteni szeretné. A következőképpen teheti meg az Aspose.Cells használatával:
+## Előfeltételek
 
-```csharp
-// forráskönyvtár
-string SourceDir = RunExamples.Get_SourceDirectory();
+Mielőtt belevágna a kódba, be kell állítania néhány dolgot:
 
-// Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: A .NET-kód írásához és futtatásához integrált fejlesztői környezetre (IDE) lesz szüksége. A Visual Studio a legjobb választás.
+2.  Aspose.Cells Library: Győződjön meg arról, hogy az Aspose.Cells könyvtár elérhető a projektben. Letöltheti a[telek](https://releases.aspose.com/cells/net/).
+3. Alapvető C# ismerete: Noha ezt együtt fogjuk végigjárni, a C# alapvető ismerete minden bizonnyal segít, különösen a különböző osztályok és módszerek közötti navigálás során.
+4. Minta Excel-fájlok: Szüksége lesz a kódrészletben említett Excel-fájlokra. Győződjön meg arról, hogy rendelkezik:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## 2. lépés: Töltse be a forrás Excel-munkafüzetet
+5. .NET-keretrendszer: Győződjön meg arról, hogy projektje a .NET-keretrendszer kompatibilis verzióját célozza meg.
 
-Ezután be kell töltenie azt a forrás Excel-munkafüzetet, amelyen frissíteni szeretné a Power Query képletelemet. Íme, hogyan kell csinálni:
+Most, hogy készen van a készletünk, folytathatjuk a szórakoztató részt: a kód írását!
 
-```csharp
-// Töltse be a forrás Excel-munkafüzetet
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## Csomagok importálása
 
-## 3. lépés: Tallózás és frissítés a Power Query képlet elemei között
-
-munkafüzet betöltése után navigálhat a Power Query képletgyűjteményéhez, és böngészhet az egyes képletek és elemeik között. Ebben a példában a "Forrás" nevű képletelemet keressük, és frissítjük az értékét. Íme egy példakód egy Power Query képletelem frissítéséhez:
+Először is importálnia kell a szükséges névtereket. Íme, hogyan kell csinálni:
 
 ```csharp
-// Hozzáférés a Power Query képletgyűjteményéhez
-DataMashup mashupData = workbook.DataMashup;
-
-// Lapozzon át a Power Query képleteken és elemeiken
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## 4. lépés: Mentse el a kimeneti Excel-munkafüzetet
+névterek hozzáadásával tudatja a fordítóval, hogy az Aspose.Cells könyvtár osztályait és metódusait kívánja használni. Ez a lépés kulcsfontosságú, mivel megalapozza a következő kódot.
 
-Miután frissítette a Power Query képletelemet, mentheti a módosított Excel-munkafüzetet a megadott kimeneti könyvtárba. Íme, hogyan kell csinálni:
+Bontsuk fel az Ön által megadott kódrészletet. Ez az oktatóanyag végigvezeti Önt az egyes részeken, és biztosítja, hogy megértse, mi történik.
 
-```csharp
-// Mentse el a kimeneti Excel-munkafüzetet
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## 1. lépés: Állítsa be a munkakönyvtárakat
 
-### Minta forráskód a Power Query képletelem frissítéséhez az Aspose.Cells for .NET használatával 
+Ebben a lépésben meghatározzuk, hogy hol találhatók a forrás- és kimeneti fájljaink. Ez biztosítja, hogy az Aspose tudja, hol keresse az Excel-fájlokat.
+
 ```csharp
 // Munkakönyvtárak
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Itt egy hipotetikus módszert alkalmazunk`RunExamples.Get_SourceDirectory()` hogy lekérjük a forrásfájljaink elérési útját. Hasonlóképpen,`RunExamples.Get_OutputDirectory()` megkapja az elérési utat, ahol elmentjük a kimenetünket. Győződjön meg arról, hogy ezek a módszerek érvényes elérési utat adnak vissza a számítógépen.
+
+## 2. lépés: Töltse be a munkafüzetet
+
+Most töltsük be az Excel-fájlt, ahol a Power Query található.
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ A`Workbook`osztály a belépési pont az Excel fájlba. A forrásfájlunk elérési útjának átadásával létrehozunk egy példányt, amely lehetővé teszi a fájl manipulálását. Úgy képzelheti el, mintha kinyitna egy könyvet – a tartalmának elolvasására (vagy szerkesztésére) készül.
+
+## 3. lépés: Lépjen be a Data Mashupba
+
+Ezután elérjük a munkafüzet Data Mashupjában tárolt Power Query képleteket.
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ A`DataMashup` osztály tartalmazza a munkafüzethez társított összes Power Query képletet. Itt fogjuk elvégezni a nehézemeléseket, hasonlóan ahhoz, mint amikor kinyit egy szerszámosládát a javításhoz.
+
+## 4. lépés: Hurok a Power Query képletek között
+
+Most jön az a rész, ahol a Power Query képleteket iteráljuk, hogy megtaláljuk a frissíteni kívánt konkrétat.
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
+```
+
+-  Mindegyiket átkutatjuk`PowerQueryFormula` be`mashupData`.
+-  Ezen a hurkon belül mindegyikbe belemerülünk`PowerQueryFormulaItem`.
+- Ellenőrizzük, hogy az elem neve megegyezik-e a „Forrás”-val. Ha igen, frissítjük az értékét, hogy az új forrásfájlunkra hivatkozzon.
+
+Ez olyan, mintha egy kézikönyvben megtalálná a megfelelő oldalt, majd elvégezné a szükséges frissítéseket – ez egy egyszerű és aprólékos folyamat.
+
+## 5. lépés: Mentse el a frissített munkafüzetet
+
+A frissítések elvégzése után ideje elmenteni a módosításainkat.
+
+```csharp
 // Mentse el a kimeneti munkafüzetet.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ A`Save` metódus a frissített munkafüzetet a megadott kimeneti könyvtárba írja. Ez olyan, mintha a szerkesztéseidet a kézikönyv új verziójába zárnád, amely készen áll mások használatra!
 
 ## Következtetés
 
-A Power Query képletelemeinek frissítése elengedhetetlen művelet az Aspose.Cells használatával az Excel-fájlok adatainak manipulálására és feldolgozására. A fenti lépések követésével könnyedén frissítheti a képletelemeket
+Gratulálok! Sikeresen frissített egy Power Query képletelemet az Aspose.Cells for .NET használatával. Ezzel a módszerrel automatizálhatja a Power Query képletek módosítását az Excel-fájlokban, így értékes időt és erőfeszítést takaríthat meg.
 
-### GYIK
+## GYIK
 
-#### K: Mi az a Power Query az Excelben?
-     
-V: A Power Query egy olyan szolgáltatás az Excelben, amely segít különböző forrásokból származó adatok összegyűjtésében, átalakításában és betöltésében. Hatékony eszközöket kínál az adatok megtisztításához, kombinálásához és átalakításához, mielőtt azokat Excelbe importálná.
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony könyvtár az Excel-fájlok kezeléséhez .NET-alkalmazásokban a Microsoft Excel telepítése nélkül.
 
-#### K: Honnan tudhatom, hogy a Power Query képletelemek frissítése sikeres volt?
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### Szükségem van Microsoft Excelre az Aspose.Cells futtatásához?
+Nem, az Aspose.Cells lehetővé teszi az Excel-fájlok programozott létrehozását és szerkesztését anélkül, hogy a kiszolgálón vagy a fejlesztőgépen Excelre lenne szükség.
 
-#### K: Frissíthetek egyszerre több Power Query képletelemet?
-    
-V: Igen, a Power Query képletelem-gyűjteményét végigcsinálhatja, és egyetlen ciklusban frissíthet több elemet, egyedi igényeitől függően.
+### Milyen típusú Excel-fájlokkal dolgozhatok az Aspose.Cells használatával?
+Az Aspose.Cells használatával dolgozhat .xlsx, .xls, .xlsm és számos más Excel formátummal.
 
-#### K: Vannak más műveletek, amelyeket az Aspose.Cells segítségével végrehajthatok a Power Query képletekkel?
-    
-V: Igen, az Aspose.Cells a szolgáltatások teljes skáláját kínálja a Power Query képletekkel való munkavégzéshez, beleértve a képletek létrehozását, törlését, másolását és keresését egy Excel-munkafüzetben.
+### Elérhető az Aspose.Cells próbaverziója?
+ Igen, letölthet egy ingyenes próbaverziót a webhelyről[Az Aspose Cells kiadási oldala](https://releases.aspose.com/).
+
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+ A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9), ahol kérdéseket tehet fel, és választ kaphat a közösségtől és az Aspose csapatától.

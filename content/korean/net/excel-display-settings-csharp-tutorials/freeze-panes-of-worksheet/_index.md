@@ -1,89 +1,140 @@
 ---
 title: 워크시트의 창 고정
 linktitle: 워크시트의 창 고정
-second_title: .NET API 참조용 Aspose.Cells
-description: .NET용 Aspose.Cells를 사용하여 Excel 워크시트의 고정 창을 쉽게 조작할 수 있습니다.
+second_title: .NET API 참조를 위한 Aspose.Cells
+description: 이 포괄적인 튜토리얼에서는 .NET용 Aspose.Cells를 사용하여 Excel에서 창을 고정하는 방법을 알아봅니다. 단계별 지침과 필수 팁이 담겨 있습니다.
 type: docs
 weight: 70
 url: /ko/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
 ---
-이 튜토리얼에서는 .NET용 Aspose.Cells와 함께 C# 소스 코드를 사용하여 Excel 워크시트에서 창을 잠그는 방법을 보여줍니다. 원하는 결과를 얻으려면 아래 단계를 따르십시오.
+## 소개
 
-## 1단계: 필요한 라이브러리 가져오기
+큰 Excel 워크시트에서 작업할 때 스크롤하는 동안 특정 행이나 열을 보이도록 유지할 수 있으면 생산성을 크게 향상시킬 수 있습니다. 고정 창이라고 하는 이 기능을 사용하면 워크시트의 특정 섹션을 잠그어 스프레드시트를 탐색하는 동안 중요한 데이터를 추적할 수 있습니다. 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 창을 고정하는 방법을 살펴보겠습니다. 그러니 노트북을 들고 Aspose.Cells의 세계로 뛰어드세요!
 
-.NET용 Aspose.Cells 라이브러리를 설치했는지 확인하고 필요한 라이브러리를 C# 프로젝트로 가져옵니다.
+## 필수 조건
+
+실제 코딩 부분으로 넘어가기 전에 시작하는 데 필요한 모든 것이 있는지 확인해 보겠습니다.
+
+### C#의 기본 지식
+- C# 프로그래밍에 익숙해야 합니다. 이를 사용하여 코드를 작성해야 하기 때문입니다.
+
+### Aspose.Cells 설치됨
+-  개발 환경에 Aspose.Cells for .NET이 설치되어 있는지 확인하세요. 아직 설치하지 않았다면 다음으로 이동하세요.[다운로드 링크](https://releases.aspose.com/cells/net/) 시작하려면 클릭하세요.
+
+### 비주얼 스튜디오
+- C# 애플리케이션을 만들고 실행하려면 Visual Studio와 같은 IDE가 필요합니다.
+
+### 샘플 Excel 파일
+-  데모 목적으로 Excel 파일이 필요합니다. 이를 Excel 파일이라고 합니다.`book1.xls`Microsoft Excel이나 호환되는 응용 프로그램을 사용하여 간단한 Excel 파일을 만들 수 있습니다.
+
+이러한 전제 조건을 갖추면 코딩을 시작할 수 있습니다!
+
+## 패키지 가져오기
+
+이제 모든 것이 설정되었으니 필요한 Aspose.Cells 패키지를 가져오도록 합시다. 방법은 다음과 같습니다.
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## 2단계: 디렉터리 경로 설정 및 Excel 파일 열기
+이러한 패키지를 가져오면 Aspose.Cells가 제공하는 강력한 기능을 사용할 수 있습니다.
 
- Excel 파일이 포함된 디렉터리로 경로를 설정한 다음, 인스턴스를 생성하여 파일을 엽니다.`Workbook` 물체.
+패널을 동결하는 과정을 관리 가능한 단계로 나누어 보겠습니다. 이 작업을 달성하기 위해 C#과 Aspose.Cells를 사용할 것입니다.
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-Workbook workbook = new Workbook(fstream);
-```
+## 1단계: 환경 설정
 
-## 3단계: 스프레드시트로 이동하여 창 잠금 설정 적용
+Visual Studio에서 새 C# 프로젝트를 만들고 Aspose.Cells 라이브러리를 참조했는지 확인합니다.
 
- 다음을 사용하여 Excel 파일의 첫 번째 워크시트로 이동합니다.`Worksheet` 물체. 그런 다음`FreezePanes` 창 잠금 설정을 적용하는 방법입니다.
+귀하의 프로젝트는 코드를 실행하고 테스트할 수 있는 작업 공간 역할을 합니다. Aspose.Cells 참조를 추가하면 Excel 파일을 쉽게 조작하는 데 필요한 도구를 가져오게 됩니다.
 
-```csharp
-Worksheet worksheet = workbook.Worksheets[0];
-worksheet. FreezePanes(3, 2, 3, 2);
-```
+## 2단계: 문서 경로 정의
 
-위 예에서 창은 행 3과 열 2의 셀에 잠겨 있습니다.
-
-## 4단계: 변경 사항 저장
-
- 필요한 사항을 변경한 후 다음을 사용하여 수정된 Excel 파일을 저장합니다.`Save` 의 방법`Workbook` 물체.
+Excel 파일이 있는 디렉토리를 지정하세요. 다음은 예입니다.
 
 ```csharp
-workbook.Save(dataDir + "output.xls");
-```
-
-### .NET용 Aspose.Cells를 사용하는 워크시트 고정 창의 샘플 소스 코드 
-
-```csharp
-//문서 디렉터리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// 열려는 Excel 파일이 포함된 파일 스트림 생성
+```
+
+ 이 줄은 디렉토리 경로를 설정합니다. 바꾸기`"YOUR DOCUMENT DIRECTORY"` 실제 경로와 함께`book1.xls` 파일이 저장됩니다. 그것은 당신의 코드에 Excel 파일이 있는 집 주소를 제공하는 것과 같습니다. 그것은 그것을 어디에서 찾을 수 있는지 알아야 합니다!
+
+## 3단계: 파일 스트림 만들기
+
+FileStream을 사용하여 기존 Excel 파일을 엽니다. 방법은 다음과 같습니다.
+
+```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-// 통합 문서 개체 인스턴스화
-// 파일 스트림을 통해 Excel 파일 열기
+```
+
+ 그만큼`FileStream` 바이트 스트림을 제공하여 파일을 읽고 쓸 수 있게 해줍니다. 간단히 말해서, Excel 파일에 대한 문을 열어 작업을 시작할 수 있게 해줍니다.
+
+## 4단계: 통합 문서 개체 인스턴스화
+
+ 새로운 것을 만드세요`Workbook` 열려 있는 파일에 대해 작업할 개체:
+
+```csharp
 Workbook workbook = new Workbook(fstream);
-// Excel 파일의 첫 번째 워크시트에 액세스
+```
+
+ 그만큼`Workbook`객체는 메모리에 있는 전체 Excel 파일을 나타냅니다. 전체 파일을 작업 공간으로 가져와서 수정을 시작할 수 있다고 생각하세요.
+
+## 5단계: 워크시트에 액세스
+
+작업하려는 워크시트에 대한 참조를 얻으세요. 첫 번째 워크시트로 작업하는 경우:
+
+```csharp
 Worksheet worksheet = workbook.Worksheets[0];
-// 고정 창 설정 적용
+```
+
+여기서는 통합 문서의 첫 번째 시트에 액세스합니다. Excel 파일에 여러 개의 워크시트를 넣을 수 있지만 이 데모에서는 첫 번째 시트에 집중합니다. 마치 책의 특정 페이지를 열어서 읽는 것과 같습니다.
+
+## 6단계: 동결 창 설정 적용
+
+이제, 동결 창 기능을 적용합니다. 우리의 경우, 우리는 처음 세 행과 처음 두 열을 동결하고 싶습니다.
+
+```csharp
 worksheet.FreezePanes(3, 2, 3, 2);
-// 수정된 엑셀 파일 저장
+```
+
+이 줄에서 마법이 일어납니다! 지정된 행과 열을 잠그면 시트의 나머지 부분을 스크롤해도 계속 표시됩니다. 창문 유리처럼 생각하면 됩니다. 아무리 아래로 또는 가로로 스크롤해도 중요한 내용을 볼 수 있습니다.
+
+## 7단계: 수정된 Excel 파일 저장
+
+변경 사항을 적용한 후에는 통합 문서를 저장해야 합니다.
+
+```csharp
 workbook.Save(dataDir + "output.xls");
-// 모든 리소스를 해제하기 위해 파일 스트림을 닫습니다.
+```
+
+ 파일을 저장하는 것이 중요합니다! 이 줄은 고정된 창을 포함하여 변경한 모든 내용이 새 Excel 파일에 다시 기록되도록 합니다.`output.xls`중요한 편지를 쓴 후 봉투를 봉인하는 것처럼 생각해 보세요.
+
+## 8단계: 파일 스트림 닫기
+
+마지막으로 리소스를 확보하기 위해 FileStream을 닫습니다.
+
+```csharp
 fstream.Close();
 ```
 
+FileStream을 닫는 것은 리소스 관리에 필수적입니다. 작업을 마친 후 문을 닫는 것과 같습니다. 이 단계는 리소스가 낭비되지 않고 애플리케이션이 원활하게 실행되도록 보장합니다.
+
 ## 결론
 
-이 단계별 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 스프레드시트에서 창을 잠그는 방법을 보여주었습니다. 제공된 C# 소스 코드를 사용하면 창 잠금 설정을 쉽게 사용자 정의하여 Excel 파일의 데이터를 더 잘 구성하고 시각화할 수 있습니다.
+축하합니다! Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 창을 고정하는 프로세스를 마스터했습니다. 이러한 단계를 따르면 이제 필수 정보를 놓치지 않고도 대용량 데이터 세트를 쉽게 관리할 수 있습니다. 이 기능은 생산성을 향상시키고 데이터를 보다 효과적으로 분석하는 데 도움이 됩니다.
 
-### 자주 묻는 질문(FAQ)
+## 자주 묻는 질문
 
-#### .NET용 Aspose.Cells란 무엇입니까?
+### Excel에서 창을 고정하는 목적은 무엇입니까?
+창을 고정하면 대용량 데이터 세트를 스크롤하는 동안 특정 행이나 열을 표시된 상태로 유지할 수 있습니다.
 
-Aspose.Cells for .NET은 .NET 애플리케이션에서 Excel 파일을 조작하기 위한 강력한 라이브러리입니다.
+### 한 번에 여러 행과 열을 고정할 수 있나요?
+ 예, 다음을 사용하여 위치를 지정하여 원하는 수의 행과 열을 고정할 수 있습니다.`FreezePanes` 방법.
 
-#### .NET용 Aspose.Cells를 어떻게 설치하나요?
+### Aspose.Cells는 무료로 사용할 수 있나요?
+ Aspose.Cells는 무료 체험판을 제공하지만 장기 사용을 위해서는 라이선스를 구매해야 합니다.[구매 페이지](https://purchase.aspose.com/buy) 자세한 내용은.
 
- .NET용 Aspose.Cells를 설치하려면 다음에서 관련 패키지를 다운로드해야 합니다.[Aspose 릴리스](https://releases/aspose.com/cells/net/) .NET 프로젝트에 추가하세요.
+### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?
+ 다음을 통해 지원을 받을 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9), 커뮤니티에서 질문을 하고 해결책을 찾을 수 있는 곳입니다.
 
-#### .NET용 Aspose.Cells를 사용하여 Excel 워크시트에서 창을 잠그는 방법은 무엇입니까?
-
- 당신은 사용할 수 있습니다`FreezePanes` 의 방법`Worksheet` 워크시트의 창을 잠그는 개체입니다. 행 및 열 인덱스를 제공하여 잠글 셀을 지정합니다.
-
-#### .NET용 Aspose.Cells를 사용하여 창 잠금 설정을 사용자 정의할 수 있나요?
-
- 예, 다음을 사용하여`FreezePanes` 방법을 사용하면 필요에 따라 잠글 셀을 지정하고 적절한 행 및 열 인덱스를 제공할 수 있습니다.
+### 다른 플랫폼에서도 Aspose.Cells를 사용할 수 있나요?
+.NET용 Aspose.Cells는 .NET Framework, .NET Core 및 .NET Standard와 함께 작동하도록 설계되어 다양한 애플리케이션에 다양하게 활용할 수 있습니다.

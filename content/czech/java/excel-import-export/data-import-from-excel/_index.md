@@ -15,7 +15,7 @@ V tomto komplexním průvodci vás provedeme procesem importu dat ze souborů ap
 Než se ponoříte do kódu, ujistěte se, že máte splněny následující předpoklady:
 
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Java JDK.
-2.  Aspose.Cells for Java: Stáhněte si a zahrňte knihovnu Aspose.Cells for Java do svého projektu. Odkaz ke stažení najdete[tady](https://releases.aspose.com/cells/java/).
+2.  Aspose.Cells for Java: Stáhněte si a zahrňte knihovnu Aspose.Cells for Java do svého projektu. Odkaz ke stažení najdete[zde](https://releases.aspose.com/cells/java/).
 
 ## Vytvoření projektu Java
 
@@ -26,7 +26,7 @@ Než se ponoříte do kódu, ujistěte se, že máte splněny následující př
 
 Chcete-li do projektu přidat Aspose.Cells for Java, postupujte takto:
 
-1.  Stáhněte si knihovnu Aspose.Cells for Java z webu[tady](https://releases.aspose.com/cells/java/).
+1.  Stáhněte si knihovnu Aspose.Cells for Java z webu[zde](https://releases.aspose.com/cells/java/).
 2. Zahrňte stažený soubor JAR do cesty třídy vašeho projektu.
 
 ## Čtení dat z Excelu
@@ -87,6 +87,6 @@ Nyní jste se naučili importovat data z Excelu pomocí Aspose.Cells for Java. T
    Aspose.Cells je optimalizován pro efektivní zpracování velkých souborů aplikace Excel.
 
 ### 5. Kde najdu další dokumentaci a příklady?
-    Navštivte dokumentaci Aspose.Cells[tady](https://reference.aspose.com/cells/java/) pro podrobné zdroje a příklady.
+    Navštivte dokumentaci Aspose.Cells[zde](https://reference.aspose.com/cells/java/) pro podrobné zdroje a příklady.
 
 Neváhejte prozkoumat dále a upravit tento kód tak, aby vyhovoval vašim konkrétním požadavkům na import dat. Šťastné kódování!

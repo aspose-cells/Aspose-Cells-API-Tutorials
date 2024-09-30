@@ -1,105 +1,126 @@
 ---
 title: Power Query Formül Öğesini Güncelle
 linktitle: Power Query Formül Öğesini Güncelle
-second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak Excel dosyalarındaki Power Query formül öğelerini nasıl güncelleyeceğinizi öğrenin.
+second_title: Aspose.Cells for .NET API Başvurusu
+description: Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini kolayca güncelleyin. Veri işleme süreçlerinizi kolaylaştırmak için adım adım kılavuz.
 type: docs
 weight: 160
 url: /tr/net/excel-workbook/update-power-query-formula-item/
 ---
-Power Query formül öğesini güncellemek, Excel dosyalarındaki verilerle çalışırken sık yapılan bir işlemdir. Aspose.Cells for .NET ile aşağıdaki adımları izleyerek bir Power Query formül öğesini kolayca güncelleyebilirsiniz:
+## giriiş
 
-## 1. Adım: Kaynak ve çıktı dizinlerini belirtin
+Excel ile daha önce çalıştıysanız, ne kadar güçlü olabileceğini biliyorsunuzdur; özellikle Power Queries'e dalmaya başladığınızda. Bunlar, verilerinizi zahmetsizce dönüştürmenize, temizlemenize ve analiz etmenize olanak tanıyan gizli soslardır. Excel'deki Power Query formüllerinizi düzenlemenin akıllıca bir yolu da .NET için Aspose.Cells'dir. Bugün, Power Query formül öğelerini adım adım güncelleme konusunda size rehberlik edeceğiz. O halde, kodlama şapkanızı alın ve başlayalım!
 
-Öncelikle, güncelleştirilecek Power Query formüllerini içeren Excel dosyasının bulunduğu kaynak dizinin yanı sıra, değiştirilen dosyayı kaydetmek istediğiniz çıkış dizinini de belirtmeniz gerekir. Aspose.Cells'i kullanarak bunu nasıl yapacağınız aşağıda açıklanmıştır:
+## Ön koşullar
 
-```csharp
-// kaynak dizini
-string SourceDir = RunExamples.Get_SourceDirectory();
+Koda dalmadan önce, ayarlamanız gereken birkaç şey var:
 
-// Çıkış dizini
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: .NET kodunuzu yazmak ve çalıştırmak için entegre bir geliştirme ortamına (IDE) ihtiyacınız olacak. Visual Studio bunun için en iyi seçimdir.
+2.  Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin mevcut olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/cells/net/).
+3. C# Hakkında Temel Bilgiler: Bunu birlikte ele alacağız ancak C# hakkında temel bilgilere sahip olmak, özellikle farklı sınıflar ve yöntemler arasında gezinirken kesinlikle yardımcı olacaktır.
+4. Örnek Excel Dosyaları: Kod parçacığında belirtilen Excel dosyalarına ihtiyacınız olacak. Şunlara sahip olduğunuzdan emin olun:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## 2. Adım: Kaynak Excel çalışma kitabını yükleyin
+5. .NET Framework: Projenizin .NET Framework'ün uyumlu bir sürümünü hedeflediğinden emin olun.
 
-Daha sonra, Power Query formül öğesini güncelleştirmek istediğiniz kaynak Excel çalışma kitabını yüklemeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Artık setimiz hazır olduğuna göre, eğlenceli kısma geçebiliriz: Kod yazmaya!
 
-```csharp
-// Kaynak Excel çalışma kitabını yükleyin
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## Paketleri İçe Aktar
 
-## 3. Adım: Power Query Formül Öğelerine Göz Atın ve Güncelleyin
-
-Çalışma kitabını yükledikten sonra Power Query formül koleksiyonuna gidebilir ve her formüle ve öğelerine göz atabilirsiniz. Bu örnekte "Kaynak" isimli formül öğesini arıyoruz ve değerini güncelliyoruz. Power Query formül öğesini güncelleştirmek için örnek kod aşağıda verilmiştir:
+İlk önce, gerekli ad alanlarını içe aktarmak isteyeceksiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-// Power Query formül koleksiyonuna erişme
-DataMashup mashupData = workbook.DataMashup;
-
-// Power Query formülleri ve öğeleri arasında geçiş yapın
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## 4. Adım: Çıktı Excel çalışma kitabını kaydedin
+Bu ad alanlarını ekleyerek, derleyiciye Aspose.Cells kütüphanesindeki sınıfları ve yöntemleri kullanmayı planladığınızı bildiriyorsunuz. Bu adım, takip eden kod için temel oluşturduğu için önemlidir.
 
-Power Query formül öğesini güncelleştirdikten sonra, değiştirilen Excel çalışma kitabını belirtilen çıktı dizinine kaydedebilirsiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Sağladığınız kod parçacığını parçalara ayıralım. Bu eğitim, her bir bölümde size yol gösterecek ve neler olup bittiğini anlamanızı sağlayacaktır.
 
-```csharp
-// Çıktı Excel çalışma kitabını kaydedin
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## Adım 1: Çalışma Dizinlerini Ayarlayın
 
-### Aspose.Cells for .NET kullanarak Power Query Formül Öğesini Güncelleme için örnek kaynak kodu 
+Bu adımda, kaynak ve çıktı dosyalarımızın nerede bulunduğunu tanımlayacağız. Bu, Aspose'un Excel dosyalarınızı nerede arayacağını bilmesini sağlar.
+
 ```csharp
 // Çalışma dizinleri
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Burada varsayımsal bir yöntem kullanıyoruz`RunExamples.Get_SourceDirectory()` kaynak dosyalarımıza giden yolu almak için. Benzer şekilde,`RunExamples.Get_OutputDirectory()` çıktımızı kaydedeceğimiz yolu alır. Bu yöntemlerin makinenizde geçerli yollar döndürdüğünden emin olun.
+
+## Adım 2: Çalışma Kitabını Yükleyin
+
+Şimdi Power Query'nin bulunduğu Excel dosyasını yükleyelim.
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ The`Workbook`sınıf, Excel dosyasına giriş noktanızdır. Kaynak dosyamızın yolunu geçirerek, onu düzenlememize izin veren bir örnek oluşturuyoruz. Bunu bir kitabı açmak gibi düşünebilirsiniz; içeriğini okumaya (veya düzenlemeye) hazırlanıyorsunuz.
+
+## Adım 3: Veri Mashup'ına erişin
+
+Daha sonra çalışma kitabının Veri Mashup'ında saklanan Power Query formüllerine erişeceğiz.
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ The`DataMashup` sınıfı, çalışma kitabınızla ilişkili tüm Power Query formüllerini içerir. Burası, onarımlar için bir alet kutusu açtığınızda olduğu gibi, ağır işlerimizi yapacağımız yerdir.
+
+## Adım 4: Power Query Formüllerinde Döngü
+
+Şimdi güncellemek istediğimiz belirli formülü bulmak için Power Query formüllerini yineleyeceğimiz kısma geliyoruz.
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
+```
+
+-  Her bir döngüde`PowerQueryFormula` içinde`mashupData`.
+-  Bu döngü içerisinde her birimizin içine dalıyoruz`PowerQueryFormulaItem`.
+- Öğenin adının "Kaynak" ile eşleşip eşleşmediğini kontrol ediyoruz. Eşleşiyorsa, değerini yeni kaynak dosyamıza bağlayacak şekilde güncelliyoruz.
+
+Bu, bir kılavuzda doğru sayfayı bulup ardından gerekli güncellemeleri yapmaya benzer; basit ve titiz bir süreçtir.
+
+## Adım 5: Güncellenen Çalışma Kitabını Kaydedin
+
+Güncellemeleri yaptıktan sonra değişikliklerimizi kaydetmenin zamanı geldi.
+
+```csharp
 // Çıktı çalışma kitabını kaydedin.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ The`Save` method güncellenen çalışma kitabını belirtilen çıktı dizinine yazar. Bu, düzenlemelerinizi kılavuzun yeni bir sürümünde mühürlemek ve başkalarının kullanımına hazır hale getirmek gibidir!
 
 ## Çözüm
 
-Power Query formül öğelerini güncellemek, Excel dosyalarındaki verileri değiştirmek ve işlemek için Aspose.Cells kullanıldığında önemli bir işlemdir. Yukarıda verilen adımları takip ederek formül öğelerini kolayca güncelleyebilirsiniz.
+Tebrikler! Aspose.Cells for .NET kullanarak bir Power Query formül öğesini başarıyla güncellediniz. Bu yöntemle, Excel dosyalarınızdaki Power Query formüllerinin değiştirilmesini otomatikleştirebilir, böylece değerli zaman ve emekten tasarruf edebilirsiniz.
 
-### SSS
+## SSS
 
-#### S: Excel'de Power Query nedir?
-     
-C: Power Query, farklı kaynaklardan veri toplamaya, dönüştürmeye ve yüklemeye yardımcı olan bir Excel özelliğidir. Verileri Excel'e aktarmadan önce temizlemek, birleştirmek ve yeniden şekillendirmek için güçlü araçlar sunar.
+### Aspose.Cells Nedir?
+Aspose.Cells, Microsoft Excel'in kurulmasına gerek kalmadan .NET uygulamalarında Excel dosyalarını düzenlemek için güçlü bir kütüphanedir.
 
-#### S: Power Query formül öğesinin başarıyla güncelleştirilip güncelleştirilmediğini nasıl anlarım?
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### Aspose.Cells'i çalıştırmak için Microsoft Excel'e ihtiyacım var mı?
+Hayır, Aspose.Cells, sunucunuzda veya geliştirme makinenizde Excel'e ihtiyaç duymadan Excel dosyalarını program aracılığıyla oluşturmanıza ve düzenlemenize olanak tanır.
 
-#### S: Birden fazla Power Query formül öğesini aynı anda güncelleştirebilir miyim?
-    
-C: Evet, Power Query formül öğesi koleksiyonunda dolaşabilir ve özel ihtiyaçlarınıza bağlı olarak birden çok öğeyi tek bir döngüde güncelleştirebilirsiniz.
+### Aspose.Cells'i kullanarak hangi tür Excel dosyalarıyla çalışabilirim?
+Aspose.Cells'i kullanarak .xlsx, .xls, .xlsm ve diğer birçok Excel formatıyla çalışabilirsiniz.
 
-#### S: Aspose.Cells ile Power Query formülleri üzerinde yapabileceğim başka işlemler var mı?
-    
-C: Evet, Aspose.Cells, Power Query formülleriyle çalışmak için Excel çalışma kitabındaki formülleri oluşturma, silme, kopyalama ve arama dahil olmak üzere çok çeşitli özellikler sunar.
+### Aspose.Cells için deneme sürümü mevcut mu?
+ Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose Cells sürüm sayfası](https://releases.aspose.com/).
+
+### Aspose.Cells için nasıl destek alabilirim?
+ Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9)Topluluk ve Aspose ekibinden sorular sorabileceğiniz ve yanıtlar bulabileceğiniz yer.

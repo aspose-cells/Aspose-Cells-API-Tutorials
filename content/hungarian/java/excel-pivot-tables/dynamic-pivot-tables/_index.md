@@ -50,7 +50,7 @@ int firstColumn = 5;
 PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.getCells().get(firstRow, firstColumn), "PivotTable1");
 ```
 
-## 4. lépés: A Pivot Table konfigurálása
+## 4. lépés: A kimutatástábla konfigurálása
 
 Most, hogy létrehoztuk a pivot táblát, beállíthatjuk úgy, hogy szükség szerint összegezze és elemezze az adatokat. Beállíthat sormezőket, oszlopmezőket, adatmezőket, és különféle számításokat alkalmazhat. Íme egy példa:
 

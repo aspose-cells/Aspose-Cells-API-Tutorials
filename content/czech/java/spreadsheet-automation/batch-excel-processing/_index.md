@@ -23,7 +23,7 @@ Automatizace dávkového zpracování Excelu nabízí několik výhod:
 
 ### 1. Nastavení prostředí
 
- Nejprve se ujistěte, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+ Nejprve se ujistěte, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ### 2. Inicializace Aspose.Cells
 
@@ -86,7 +86,7 @@ Můžete definovat vlastní úlohy dávkového zpracování podle vašich specif
 
 ## Závěr
 
-Automatizace dávkového zpracování Excelu pomocí Aspose.Cells for Java zjednodušuje správu více souborů Excelu, zvyšuje efektivitu a snižuje chyby. S poskytnutými příklady zdrojového kódu můžete optimalizovat úlohy dávkového zpracování v aplikacích Java.
+Automatizace dávkového zpracování aplikace Excel pomocí Aspose.Cells for Java zjednodušuje správu více souborů aplikace Excel, zvyšuje efektivitu a snižuje chyby. S poskytnutými příklady zdrojového kódu můžete optimalizovat úlohy dávkového zpracování v aplikacích Java.
 
 ## Nejčastější dotazy
 

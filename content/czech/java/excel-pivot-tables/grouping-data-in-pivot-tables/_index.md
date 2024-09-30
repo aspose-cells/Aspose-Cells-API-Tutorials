@@ -10,7 +10,7 @@ url: /cs/java/excel-pivot-tables/grouping-data-in-pivot-tables/
 
 Kontingenční tabulky jsou mocným nástrojem pro analýzu a sumarizaci dat v tabulkách. Umožňují vám seskupovat a kategorizovat data, abyste získali cenné poznatky. V tomto článku prozkoumáme, jak efektivně seskupovat data v kontingenčních tabulkách pomocí Aspose.Cells for Java, spolu s příklady zdrojového kódu.
 
-## Úvod
+## Zavedení
 
 Kontingenční tabulky poskytují flexibilní způsob, jak organizovat a sumarizovat data z velkých datových sad. Umožňují vám vytvářet vlastní pohledy na vaše data jejich seskupováním do kategorií nebo hierarchií. To vám může pomoci snáze identifikovat trendy, vzory a odlehlé hodnoty ve vašich datech.
 
@@ -101,4 +101,4 @@ Kontingenční tabulky v Excelu se používají k shrnutí a analýze velkých d
 
 ### 3. Mohu automatizovat vytváření kontingenčních tabulek pomocí Aspose.Cells for Java?
 
-Ano, můžete automatizovat vytváření kontingenčních tabulek v Excelu pomocí Aspose.Cells for Java, jak je ukázáno v poskytnutých příkladech zdrojového kódu.
+Ano, vytváření kontingenčních tabulek v Excelu můžete automatizovat pomocí Aspose.Cells for Java, jak je ukázáno v poskytnutých příkladech zdrojového kódu.

@@ -7,85 +7,135 @@ type: docs
 weight: 90
 url: /zh-hant/net/excel-workbook/extract-embedded-mol-file/
 ---
-在本教學中，我們將逐步引導您了解如何使用 .NET 的 Aspose.Cells 庫從 Excel 工作簿中提取嵌入的 MOL 檔案。您將學習如何瀏覽工作簿工作表、提取相應的 OLE 物件以及保存提取的 MOL 檔案。請依照以下步驟成功完成此任務。
+## 介紹
 
-## 第 1 步：定義來源目錄和輸出目錄
-首先，我們需要在程式碼中定義來源目錄和輸出目錄。這些目錄指示來源 Excel 工作簿所在的位置以及擷取的 MOL 檔案的儲存位置。這是對應的程式碼：
+您是否曾經發現自己需要從 Excel 電子表格中提取嵌入文件，特別是 MOL 文件？這是一項棘手的工作，不是嗎？但別擔心！透過 Aspose.Cells for .NET，我們可以將這個看似複雜的任務變成在公園散步。在本教學中，我們將逐步指導您如何使用強大的 Aspose.Cells 庫從 Excel 檔案中提取 MOL 檔案。
+
+## 先決條件
+
+在我們深入了解提取過程之前，讓我們確保您已做好充分準備來執行操作。這是您需要的：
+
+- C# 基礎：稍微熟悉一下 C# 會有很大幫助。即使您剛開始，您也應該能夠跟上步伐。
+- Visual Studio：在您的系統上安裝 Visual Studio。它對於編寫和執行 C# 程式碼是必要的。
+-  Aspose.Cells for .NET：如果您還沒有下載它，請前往[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/)並取得最新版本。
+- .NET Framework：請確保您安裝了相容版本的 .NET Framework。
+- 帶有嵌入 MOL 物件的 Excel 檔案：對於我們的範例，我們將使用`EmbeddedMolSample.xlsx`。確保您已準備好該文件以供提取。
+
+## 導入包
+
+現在我們已經擁有了所需的一切，是時候建立我們的專案了。以下是如何在 C# 專案中匯入必要的套件：
+
+### 建立一個新項目
+
+開啟 Visual Studio 並選擇建立新的 C# 控制台應用程式。
+
+### 為 Aspose.Cells 加入 NuGet 包
+
+在新建立的專案中，您需要新增 Aspose.Cells 套件。您可以透過 NuGet 套件管理器執行此操作：
+
+1. 在解決方案資源管理器中以滑鼠右鍵按一下您的專案。
+2. 選擇“管理 NuGet 套件”。
+3. 搜尋“Aspose.Cells”並點擊“安裝”。
+
+### 導入 Aspose.Cells 命名空間
+
+```csharp
+using Aspose.Cells.Drawing;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.IO;
+```
+
+您的專案現在應該能夠利用 Aspose.Cells 庫的功能。
+
+## 第 1 步：設定環境
+
+現在您已經匯入了所需的套件，讓我們設定環境來提取 MOL 檔案。
 
 ```csharp
 //目錄
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+
 ```
 
-請務必根據需要指定適當的路徑。
+這將使用包含嵌入的 MOL 檔案的 Excel 檔案初始化工作簿。
 
-## 第 2 步：載入 Excel 工作簿
-下一步是載入包含嵌入的 OLE 物件和 MOL 檔案的 Excel 工作簿。這是載入工作簿的程式碼：
+
+讓我們將提取過程分解為易於遵循的步驟。
+
+## 第 2 步：載入工作簿
+
+一旦你有了你的`workbook`使用我們的範例 Excel 檔案進行設定後，下一步是載入工作簿並準備提取：
 
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
-確保在程式碼中正確指定原始檔案名稱。
+在此步驟中，我們建立一個新實例`Workbook`類，它充當 Excel 文件內容的橋樑。文件加載到這裡，以便我們稍後可以遍歷工作表並找到嵌入的 MOL 物件。
 
-## 步驟 3：遍歷工作表並提取 MOL 文件
-現在我們將循環遍歷工作簿中的每個工作表並提取相應的 OLE 對象，其中包含 MOL 檔案。這是對應的程式碼：
+## 第 3 步：迭代工作表
+
+現在我們的工作簿已加載，是時候進行更深入的研究了。您需要循環遍歷工作簿中的每個工作表以查找任何嵌入的物件：
 
 ```csharp
-var index = 1;
-foreach(Worksheet sheet in workbook.Worksheets)
-{
-     OleObjectCollection oles = sheet.OleObjects;
-     foreach(OleObject ole in oles)
-     {
-         string fileName = outputDir + "OleObject" + index + ".mol";
-         FileStream fs = File.Create(fileName);
-         fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-         fs. Close();
-         index++;
-     }
-}
-Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
-```
-
-此程式碼循環遍歷工作簿中的每個工作表，取得 OLE 對象，並將提取的 MOL 檔案儲存到輸出目錄。
-
-### 使用 Aspose.Cells for .NET 提取嵌入式 Mol 檔案的範例原始程式碼 
-```csharp
-//目錄
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
-var index = 1;
 foreach (Worksheet sheet in workbook.Worksheets)
 {
-	OleObjectCollection oles = sheet.OleObjects;
-	foreach (OleObject ole in oles)
-	{
-		string fileName = outputDir + "OleObject" + index + ".mol ";
-		FileStream fs = File.Create(fileName);
-		fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-		fs.Close();
-		index++;
-	}
+    OleObjectCollection oles = sheet.OleObjects;
+    //繼續處理 OLE 物件...
 }
+```
+
+對於這個片段，我們使用`foreach`循環遍歷工作簿中的每張工作表。透過訪問`OleObjects`集合，我們可以存取該特定工作表上的所有嵌入物件。 
+
+## 第 4 步：提取 OLE 對象
+
+這就是奇蹟發生的地方！您需要循環遍歷每個 OLE 物件以提取並保存 MOL 檔案：
+
+```csharp
+var index = 1;
+foreach (OleObject ole in oles)
+{
+    string fileName = outputDir + "OleObject" + index + ".mol";
+    FileStream fs = File.Create(fileName);
+    fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
+    fs.Close();
+    index++;
+}
+```
+
+在這種方法中：
+- 我們追蹤索引以按順序命名輸出檔案。
+- 對於每個 OLE 對象，我們使用 FileStream 建立一個新檔案。
+- 然後，我們將嵌入的資料寫入該檔案並關閉流。
+
+## 第五步：確認執行
+
+完成提取邏輯後，最好確認提取過程是否成功執行：
+
+```csharp
 Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 ```
 
+當整個提取操作無縫完成時，這個簡單的行會向控制台輸出一條訊息。 
+
 ## 結論
-恭喜！您已了解如何使用 Aspose.Cells for .NET 從 Excel 工作簿中提取嵌入的 MOL 檔案。現在您可以應用這些知識從您自己的 Excel 工作簿中提取 MOL 檔案。請隨意進一步探索 Aspose.Cells 庫並了解其其他強大功能。
 
-### 常見問題解答
+現在你就得到它了！您已使用 Aspose.Cells for .NET 成功從 Excel 檔案中提取嵌入的 MOL 檔案。現在，您可以利用新發現的技能並將其應用於需要從 Excel 工作表中提取物件檔案的其他場景。這種方法不僅有效，而且可以輕鬆處理各種與 Excel 相關的操作。
 
-#### Q：什麼是MOL檔案？
- 
-答：MOL 檔案是用來表示計算化學中的化學結構的檔案格式。它包含有關原子、鍵和其他分子特性的資訊。
+## 常見問題解答
 
-#### Q：此方法適用於所有 Excel 檔案類型嗎？
+### 什麼是 Aspose.Cells for .NET？  
+Aspose.Cells for .NET 是一個功能強大的程式庫，旨在操作和管理 .NET 應用程式中的 Excel 檔案。
 
-答：是的，此方法適用於 Aspose.Cells 支援的所有 Excel 檔案類型。
+### 我可以使用 Aspose.Cells 提取不同類型的嵌入檔案嗎？  
+絕對地！ Aspose.Cells 可讓您提取各種嵌入檔案格式，例如 PDF、圖片等，而不僅僅是 MOL 檔案。
 
-#### Q：我可以一次提取多個 MOL 檔案嗎？
+### 我需要購買 Aspose.Cells 才能使用它嗎？  
+雖然可以免費試用，但需要許可證才能使用全部功能。你可以[在這裡購買](https://purchase.aspose.com/buy).
 
-答：是的，您可以透過迭代工作簿中每個工作表上的 OLE 物件來一次提取多個 MOL 檔案。
+### 此過程是否需要 Visual Studio？  
+雖然我們使用 Visual Studio 進行演示，但您可以使用任何 C# 相容 IDE 來運行您的專案。
+
+### 在哪裡可以找到對 Aspose.Cells 的支援？  
+您可以訪問[Aspose 支援論壇](https://forum.aspose.com/c/cells/9)以獲得指導和故障排除。

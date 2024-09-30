@@ -88,7 +88,7 @@ Ebben az oktatóanyagban bemutattuk, hogyan hozhat létre interaktív diagramoka
 
 ### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusát módosíthatja a`ChartType` paramétert diagram létrehozásakor. Például cserélje ki`ChartType.COLUMN` val vel`ChartType.LINE` vonaldiagram létrehozásához.
+ A diagram típusát módosíthatja a`ChartType` paramétert diagram létrehozásakor. Például cserélje ki`ChartType.COLUMN` -vel`ChartType.LINE` vonaldiagram létrehozásához.
 
 ### Testreszabhatom az eszköztippek megjelenését?
 

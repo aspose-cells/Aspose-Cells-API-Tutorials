@@ -8,7 +8,7 @@ weight: 14
 url: /cs/java/data-validation-rules/date-validation-in-spreadsheets/
 ---
 
-## Úvod
+## Zavedení
 
 Ve světě zpracování dat jsou tabulky nepostradatelnými nástroji a vývojáři Javy často pracují s daty z tabulek. Zajištění integrity dat je zásadní, zejména při práci s daty. V této příručce prozkoumáme, jak provést ověření data v tabulkách pomocí Aspose.Cells for Java, výkonného rozhraní API pro práci se soubory aplikace Excel.
 
@@ -16,12 +16,12 @@ Ve světě zpracování dat jsou tabulky nepostradatelnými nástroji a vývojá
 
 Než se pustíme do ověřování data, ujistěte se, že máte na místě následující:
 - Nastavení vývojového prostředí Java.
--  Knihovna Aspose.Cells for Java stažena z[tady](https://releases.aspose.com/cells/java/).
+-  Knihovna Aspose.Cells for Java stažena z[zde](https://releases.aspose.com/cells/java/).
 - Základní znalost práce s excelovými soubory v Javě.
 
 ## Nastavení Aspose.Cells pro Java
 
-Chcete-li začít, musíte do svého projektu Java přidat knihovnu Aspose.Cells. Následuj tyto kroky:
+Chcete-li začít, musíte do svého projektu Java přidat knihovnu Aspose.Cells. Postupujte takto:
 
 1.  Stáhněte si knihovnu Aspose.Cells for Java z poskytnutého[odkaz](https://releases.aspose.com/cells/java/).
 
@@ -84,7 +84,7 @@ workbook.save("updated_excel_file.xlsx");
 
 ## Závěr
 
-této příručce jsme se naučili, jak provádět ověřování data v tabulkách pomocí Aspose.Cells for Java. Zajištění přesnosti datových dat je v různých aplikacích zásadní a s Aspose.Cells máte k dispozici mocný nástroj, jak toho dosáhnout.
+této příručce jsme se naučili, jak provádět ověření data v tabulkách pomocí Aspose.Cells for Java. Zajištění přesnosti datových dat je v různých aplikacích zásadní a s Aspose.Cells máte k dispozici mocný nástroj, jak toho dosáhnout.
 
 ## FAQ
 

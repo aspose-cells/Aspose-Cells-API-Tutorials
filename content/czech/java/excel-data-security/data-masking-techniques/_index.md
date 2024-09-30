@@ -8,7 +8,7 @@ weight: 13
 url: /cs/java/excel-data-security/data-masking-techniques/
 ---
 
-## Úvod
+## Zavedení
 
 Ve světě zabezpečení dat je ochrana citlivých informací prvořadá. Maskování dat, známé také jako anonymizace dat, je klíčovou technikou používanou k ochraně důvěrných dat při zachování jejich použitelnosti. Tento článek zkoumá, jak implementovat techniky maskování dat pomocí Aspose.Cells for Java, výkonného rozhraní API pro práci se soubory aplikace Excel. Projdeme si procesem krok za krokem a poskytneme příklady kódu a postřehy.
 
@@ -40,7 +40,7 @@ Než budeme moci použít techniky maskování dat, nastavíme prostředí Java 
 
 1. Stáhněte si Aspose.Cells pro Java:
 
- Chcete-li začít, stáhněte si knihovnu Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/).
+ Chcete-li začít, stáhněte si knihovnu Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/).
 
 2. Integrujte Aspose.Cells do svého projektu Java:
 
@@ -110,7 +110,7 @@ Aspose nabízí různé možnosti licencování pro Aspose.Cells for Java, včet
 
 ### Mohu použít Aspose.Cells pro Javu s jinými programovacími jazyky?
 
-Aspose.Cells se primárně zaměřuje na Javu, ale Aspose také poskytuje knihovny pro další jazyky, jako je .NET, C++, a více.
+Aspose.Cells se primárně zaměřuje na Javu, ale Aspose také poskytuje knihovny pro další jazyky, jako je .NET, C++a další.
 
 ### Je maskování dat reverzibilní?
 

@@ -1,91 +1,141 @@
 ---
-title: Gömülü Mol Dosyasını Çıkart
-linktitle: Gömülü Mol Dosyasını Çıkart
-second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET'i kullanarak gömülü MOL dosyalarını bir Excel çalışma kitabından nasıl kolayca çıkaracağınızı öğrenin.
+title: Gömülü Mol Dosyasını Çıkar
+linktitle: Gömülü Mol Dosyasını Çıkar
+second_title: Aspose.Cells for .NET API Başvurusu
+description: Aspose.Cells for .NET kullanarak Excel çalışma kitabından gömülü MOL dosyalarının nasıl kolayca çıkarılacağını öğrenin.
 type: docs
 weight: 90
 url: /tr/net/excel-workbook/extract-embedded-mol-file/
 ---
-Bu eğitimde, .NET için Aspose.Cells kütüphanesini kullanarak gömülü bir MOL dosyasını bir Excel çalışma kitabından nasıl çıkaracağınızı adım adım anlatacağız. Çalışma kitabı sayfalarına nasıl göz atacağınızı, karşılık gelen OLE nesnelerini nasıl çıkaracağınızı ve çıkarılan MOL dosyalarını nasıl kaydedeceğinizi öğreneceksiniz. Bu görevi başarıyla tamamlamak için aşağıdaki adımları izleyin.
+## giriiş
 
-## 1. Adım: Kaynak ve çıktı dizinlerini tanımlayın
-Öncelikle kodumuzda kaynak ve çıktı dizinlerini tanımlamamız gerekiyor. Bu dizinler, kaynak Excel çalışma kitabının nerede bulunduğunu ve çıkarılan MOL dosyalarının nereye kaydedileceğini gösterir. İşte ilgili kod:
+Hiç kendinizi gömülü dosyaları, özellikle de MOL dosyalarını bir Excel elektronik tablosundan çıkarma ihtiyacı içinde buldunuz mu? Bu zor bir iş, değil mi? Ama endişelenmeyin! .NET için Aspose.Cells'in yardımıyla, bu görünüşte karmaşık görevi parkta yürüyüşe dönüştürebiliriz. Bu eğitimde, güçlü Aspose.Cells kitaplığını kullanarak bir Excel dosyasından MOL dosyalarını nasıl çıkaracağınız konusunda adım adım size rehberlik edeceğiz.
+
+## Ön koşullar
+
+Çıkarma sürecine dalmadan önce, takip etmek için tam donanımlı olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
+
+- C# Temel Bilgisi: C# ile ilgili biraz bilgi sahibi olmak çok işe yarayacaktır. Yeni başlıyor olsanız bile, hızınızı koruyabilmelisiniz.
+- Visual Studio: Sisteminizde Visual Studio'nun yüklü olması gerekir. C# kodunuzu yazmak ve çalıştırmak için gereklidir.
+-  Aspose.Cells for .NET: Henüz indirmediyseniz şuraya gidin:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/) ve en son sürümü edinin.
+- .NET Framework: Uyumlu bir .NET Framework sürümünün yüklü olduğundan emin olun.
+-  Gömülü MOL Nesneleri İçeren Bir Excel Dosyası: Örneğimiz için şunu kullanacağız:`EmbeddedMolSample.xlsx`Bu dosyanın çıkarılmaya hazır olduğundan emin olun.
+
+## Paketleri İçe Aktar
+
+Artık ihtiyacımız olan her şeye sahip olduğumuza göre, projemizi kurmanın zamanı geldi. İşte C# projenize gerekli paketleri nasıl içe aktaracağınız:
+
+### Yeni Bir Proje Oluştur
+
+Visual Studio'yu açın ve yeni bir C# Konsol Uygulaması oluşturmayı seçin.
+
+### Aspose.Cells için NuGet Paketini Ekleyin
+
+Yeni oluşturduğunuz projede Aspose.Cells paketini eklemeniz gerekecek. Bunu NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz:
+
+1. Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
+2. "NuGet Paketlerini Yönet" seçeneğini seçin.
+3. "Aspose.Cells" ifadesini arayın ve "Yükle"ye tıklayın.
+
+### Aspose.Cells Ad Alanını İçe Aktar
 
 ```csharp
-// Dizinler
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+using Aspose.Cells.Drawing;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.IO;
 ```
 
-Gerektiğinde uygun yolları belirttiğinizden emin olun.
+Artık projeniz Aspose.Cells kütüphanesinin işlevlerini kullanabilir durumda olmalı.
 
-## Adım 2: Excel çalışma kitabını yükleme
-Bir sonraki adım, katıştırılmış OLE nesnelerini ve MOL dosyalarını içeren Excel çalışma kitabını yüklemektir. Çalışma kitabını yüklemek için gereken kod:
+## Adım 1: Ortamı Ayarlama
 
-```csharp
-Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
-```
+Artık gerekli paketleri içe aktardığımıza göre, MOL dosyalarını çıkarmak için ortamımızı ayarlayalım.
 
-Kodda kaynak dosya adını doğru belirttiğinizden emin olun.
-
-## Adım 3: Sayfaları dolaşın ve MOL dosyalarını çıkarın
-Şimdi çalışma kitabındaki her sayfada döngü yapacağız ve MOL dosyalarını içeren ilgili OLE nesnelerini çıkaracağız. İşte ilgili kod:
-
-```csharp
-var index = 1;
-foreach(Worksheet sheet in workbook.Worksheets)
-{
-     OleObjectCollection oles = sheet.OleObjects;
-     foreach(OleObject ole in oles)
-     {
-         string fileName = outputDir + "OleObject" + index + ".mol";
-         FileStream fs = File.Create(fileName);
-         fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-         fs. Close();
-         index++;
-     }
-}
-Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
-```
-
-Bu kod, çalışma kitabındaki her sayfada döngü yapar, OLE nesnelerini getirir ve çıkarılan MOL dosyalarını çıkış dizinine kaydeder.
-
-### Aspose.Cells for .NET kullanarak Gömülü Mol Dosyasını Çıkarma için örnek kaynak kodu 
 ```csharp
 //dizinler
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+
+```
+
+Bu, gömülü MOL dosyalarınızı içeren Excel dosyasını kullanarak çalışma kitabını başlatır.
+
+
+Çıkarma sürecini kolay takip edilebilir adımlara bölelim.
+
+## Adım 2: Çalışma Kitabını Yükleyin
+
+ Bir kez sahip olduğunuzda`workbook` Örnek Excel dosyamızı kurduktan sonraki adım çalışma kitabını yüklemek ve çıkartmaya hazırlanmak:
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
-var index = 1;
+```
+
+ Bu adımda, yeni bir örnek oluşturuyoruz`Workbook`Excel dosyanızın içeriğine bir köprü görevi gören sınıf. Dosya buraya yüklenir, böylece daha sonra sayfalar arasında yineleme yapabilir ve gömülü MOL nesnelerini bulabiliriz.
+
+## Adım 3: Çalışma Sayfalarında Yineleme Yapın
+
+Artık çalışma kitabımız yüklendiğine göre, daha derine inme zamanı. Gömülü nesneleri bulmak için çalışma kitabındaki her çalışma sayfasını dolaşmanız gerekir:
+
+```csharp
 foreach (Worksheet sheet in workbook.Worksheets)
 {
-	OleObjectCollection oles = sheet.OleObjects;
-	foreach (OleObject ole in oles)
-	{
-		string fileName = outputDir + "OleObject" + index + ".mol ";
-		FileStream fs = File.Create(fileName);
-		fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-		fs.Close();
-		index++;
-	}
+    OleObjectCollection oles = sheet.OleObjects;
+    // OLE nesnelerinin işlenmesine devam ediliyor...
 }
+```
+
+ Bu kod parçacığıyla, şunu kullanıyoruz:`foreach` çalışma kitabımızdaki her sayfayı dolaşacak döngü. Erişim yoluyla`OleObjects` koleksiyon, o belirli sayfadaki tüm gömülü nesnelere erişim sağlayabiliriz. 
+
+## Adım 4: OLE Nesnelerini Çıkarın
+
+İşte sihir burada gerçekleşiyor! MOL dosyalarını çıkarmak ve kaydetmek için her OLE nesnesinde döngü yapmanız gerekiyor:
+
+```csharp
+var index = 1;
+foreach (OleObject ole in oles)
+{
+    string fileName = outputDir + "OleObject" + index + ".mol";
+    FileStream fs = File.Create(fileName);
+    fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
+    fs.Close();
+    index++;
+}
+```
+
+Bu yaklaşımda:
+- Çıktı dosyalarını sıralı olarak adlandırmak için indeksi takip ediyoruz.
+- Her OLE nesnesi için FileStream kullanarak yeni bir dosya oluşturuyoruz.
+- Daha sonra gömülü veriyi bu dosyaya yazıp akışı kapatıyoruz.
+
+## Adım 5: Yürütmeyi Onaylayın
+
+Çıkarım mantığınız tamamlandıktan sonra, çıkarma işleminizin başarılı bir şekilde yürütüldüğünü doğrulamak iyi bir uygulamadır:
+
+```csharp
 Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 ```
 
+Bu basit satır, tüm çıkarma işleminiz sorunsuz bir şekilde tamamlandığında konsola bir mesaj çıkışı verir. 
+
 ## Çözüm
-Tebrikler! Aspose.Cells for .NET'i kullanarak bir Excel çalışma kitabından gömülü bir MOL dosyasını nasıl çıkaracağınızı öğrendiniz. Artık bu bilgiyi kendi Excel çalışma kitaplarınızdan MOL dosyalarını ayıklamak için uygulayabilirsiniz. Aspose.Cells kütüphanesini daha fazla keşfetmekten ve diğer güçlü özellikleri hakkında bilgi edinmekten çekinmeyin.
 
-### SSS
+Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasından gömülü MOL dosyalarını başarıyla çıkardınız. Şimdi yeni edindiğiniz becerilerinizi alıp Excel sayfalarından nesne dosyaları çıkarmanız gereken diğer senaryolara uygulayabilirsiniz. Bu yöntem yalnızca etkili olmakla kalmaz, aynı zamanda çeşitli Excel ile ilgili işlemleri zahmetsizce halletmenin kapılarını da açar.
 
-#### S: MOL dosyası nedir?
- 
-C: MOL dosyası, hesaplamalı kimyadaki kimyasal yapıları temsil etmek için kullanılan bir dosya formatıdır. Atomlar, bağlar ve diğer moleküler özellikler hakkında bilgi içerir.
+## SSS
 
-#### S: Bu yöntem tüm Excel dosya türleriyle çalışır mı?
+### Aspose.Cells for .NET nedir?  
+Aspose.Cells for .NET, Excel dosyalarını .NET uygulamaları içerisinde düzenlemek ve yönetmek için tasarlanmış güçlü bir kütüphanedir.
 
-C: Evet, bu yöntem Aspose.Cells tarafından desteklenen tüm Excel dosya türleriyle çalışır.
+### Aspose.Cells kullanarak farklı türdeki gömülü dosyaları çıkarabilir miyim?  
+Kesinlikle! Aspose.Cells, yalnızca MOL dosyalarını değil, PDF'ler, resimler ve daha fazlası gibi çeşitli gömülü dosya biçimlerini çıkarmanıza olanak tanır.
 
-#### S: Aynı anda birden fazla MOL dosyasını çıkarabilir miyim?
+### Aspose.Cells'i kullanmak için satın almam gerekiyor mu?  
+Ücretsiz deneme sürümü mevcut olsa da, tüm özellikler için bir lisansa ihtiyaç vardır.[buradan satın alın](https://purchase.aspose.com/buy).
 
-C: Evet, çalışma kitabındaki her sayfada OLE nesneleri arasında yineleme yaparak birden fazla MOL dosyasını aynı anda çıkarabilirsiniz.
+### Bu işlem için Visual Studio'ya sahip olmak gerekli mi?  
+Biz Visual Studio kullanarak gösterdik ama siz projenizi çalıştırmak için herhangi bir C# uyumlu IDE'yi kullanabilirsiniz.
+
+### Aspose.Cells için desteği nereden bulabilirim?  
+ Erişebilirsiniz[Aspose destek forumları](https://forum.aspose.com/c/cells/9) rehberlik ve sorun giderme için.

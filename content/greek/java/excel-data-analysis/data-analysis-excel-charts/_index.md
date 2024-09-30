@@ -1,6 +1,6 @@
 ---
-title: Ανάλυση δεδομένων Διαγράμματα Excel
-linktitle: Ανάλυση δεδομένων Διαγράμματα Excel
+title: Διαγράμματα Excel ανάλυσης δεδομένων
+linktitle: Διαγράμματα Excel ανάλυσης δεδομένων
 second_title: Aspose.Cells Java Excel Processing API
 description: Ξεκλειδώστε το Data Analysis Excellence με το Aspose.Cells για Java. Δημιουργήστε εντυπωσιακά γραφήματα και αναφορές του Excel.
 type: docs
@@ -32,7 +32,7 @@ url: /el/java/excel-data-analysis/data-analysis-excel-charts/
 
 3. Εισαγωγή κλάσεων Aspose.Cells: Εισαγάγετε τις απαραίτητες κλάσεις Aspose.Cells στην αρχή του αρχείου Java.
 
-## Τα δεδομένα φορτώνονται
+## Φόρτωση δεδομένων
 
 Το πρώτο βήμα στην ανάλυση δεδομένων είναι η φόρτωση των δεδομένων σας στην εφαρμογή Java. Το Aspose.Cells για Java παρέχει διάφορους τρόπους για να το κάνετε αυτό:
 
@@ -46,7 +46,7 @@ String query = "SELECT * FROM your_table";
 QueryTable queryTable = workbook.getWorksheets().get(0).getQueryTables().addQueryTable(query, connectionString);
 ```
 
-## ΧΕΙΡΑΓΩΓΗΣΗ ΔΕΔΟΜΕΝΩΝ
+## Χειρισμός Δεδομένων
 
 Μόλις φορτωθούν τα δεδομένα σας, μπορείτε να τα χειριστείτε χρησιμοποιώντας το Aspose.Cells για Java. Εκτελέστε λειτουργίες όπως ταξινόμηση, φιλτράρισμα και μετασχηματισμός δεδομένων για να προετοιμάσετε τα δεδομένα σας για ανάλυση.
 
@@ -88,7 +88,7 @@ chart.setTitle("Sales Analysis");
 workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Σε αυτό το σεμινάριο, εξερευνήσαμε τον τρόπο εκτέλεσης ανάλυσης δεδομένων και δημιουργίας γραφημάτων Excel χρησιμοποιώντας το Aspose.Cells για Java. Με τα ισχυρά χαρακτηριστικά και την ευκολία χρήσης του, το Aspose.Cells απλοποιεί τη διαδικασία μετατροπής των ακατέργαστων δεδομένων σε διορατικά γραφήματα και αναφορές.
 
@@ -96,7 +96,7 @@ workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 
 ### Πώς μπορώ να εγκαταστήσω το Aspose.Cells για Java;
 
- Για να εγκαταστήσετε το Aspose.Cells για Java, επισκεφτείτε τη σελίδα λήψης στη διεύθυνση[αυτός ο σύνδεσμος](https://releases.aspose.com/cells/java/) και ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται.
+ Για να εγκαταστήσετε το Aspose.Cells για Java, επισκεφτείτε τη σελίδα λήψης στη διεύθυνση[αυτόν τον σύνδεσμο](https://releases.aspose.com/cells/java/) και ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται.
 
 ### Μπορώ να χρησιμοποιήσω το Aspose.Cells για Java με άλλες βιβλιοθήκες Java;
 

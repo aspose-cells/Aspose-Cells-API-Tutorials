@@ -10,15 +10,15 @@ url: /cs/java/excel-import-export/bulk-data-import-excel/
 
 tomto komplexním průvodci vás provedeme procesem provádění hromadného importu dat z Excelu pomocí výkonného Aspose.Cells for Java API. Ať už máte co do činění s velkou datovou sadou, nebo jen chcete zefektivnit zpracování dat, tento podrobný návod s příklady zdrojového kódu vám pomůže efektivně dosáhnout vašich cílů.
 
-## Úvod
+## Zavedení
 
-Hromadný import dat z Excelu je běžným požadavkem mnoha Java aplikací. Ať už pracujete s finančními daty, záznamy o zákaznících nebo s jakýmkoli jiným typem informací uložených v tabulkách aplikace Excel, Aspose.Cells for Java poskytuje robustní a snadno použitelné řešení.
+Hromadný import dat z Excelu je běžným požadavkem mnoha Java aplikací. Ať už pracujete s finančními daty, zákaznickými záznamy nebo jakýmkoli jiným typem informací uložených v excelových tabulkách, Aspose.Cells for Java poskytuje robustní a snadno použitelné řešení.
 
 ## Předpoklady
 
 Než se pustíme do implementace, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Cells for Java Library: Stáhněte a nainstalujte knihovnu z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java Library: Stáhněte a nainstalujte knihovnu z[zde](https://releases.aspose.com/cells/java/).
 
 - Vývojové prostředí Java: Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
 

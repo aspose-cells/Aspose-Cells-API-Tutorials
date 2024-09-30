@@ -1,93 +1,113 @@
 ---
-title: Xác định xem khổ giấy của bảng tính có tự động không
-linktitle: Xác định xem khổ giấy của bảng tính có tự động không
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tìm hiểu cách xác định xem khổ giấy của bảng tính có tự động hay không bằng Aspose.Cells for .NET.
+title: Xác định xem kích thước giấy của bảng tính có tự động không
+linktitle: Xác định xem kích thước giấy của bảng tính có tự động không
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách xác định kích thước trang giấy của bảng tính có tự động hay không bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng.
 type: docs
 weight: 20
 url: /vi/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-Trong bài viết này, chúng tôi sẽ hướng dẫn bạn từng bước để giải thích mã nguồn C# sau: Xác định xem khổ giấy của trang tính có tự động hay không bằng cách sử dụng Aspose.Cells for .NET. Chúng tôi sẽ sử dụng thư viện Aspose.Cells cho .NET để thực hiện thao tác này. Hãy làm theo các bước dưới đây để xác định xem khổ giấy của trang tính có tự động hay không.
+## Giới thiệu
 
-## Bước 1: Tải sổ làm việc
-Bước đầu tiên là tải sổ làm việc. Chúng ta sẽ có hai sổ làm việc: một sổ làm việc bị vô hiệu hóa khổ giấy tự động và sổ còn lại được bật khổ giấy tự động. Đây là mã để tải sổ làm việc:
+Nếu bạn đang dấn thân vào thế giới thao tác bảng tính bằng Aspose.Cells for .NET, bạn đã có một lựa chọn tuyệt vời. Khả năng tùy chỉnh và quản lý các tệp Excel theo chương trình có thể đơn giản hóa nhiều tác vụ, giúp công việc của bạn hiệu quả hơn. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một tác vụ cụ thể: xác định xem cài đặt kích thước giấy của bảng tính có tự động hay không. Vì vậy, hãy đội mũ lập trình và bắt đầu thôi!
+
+## Điều kiện tiên quyết
+
+Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
+
+### Kiến thức cơ bản về C#
+Trong khi Aspose.Cells đơn giản hóa nhiều tác vụ, thì hiểu biết cơ bản về C# là rất quan trọng. Bạn nên thoải mái đọc và viết mã C# cơ bản.
+
+### Aspose.Cells cho .NET
+ Đảm bảo bạn đã cài đặt Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+
+### Môi trường phát triển
+Bạn nên thiết lập một IDE như Visual Studio. Điều này hướng dẫn bạn xử lý và kiểm tra mã của mình một cách hiệu quả.
+
+### Các tệp Excel mẫu
+Bạn sẽ cần các tập tin mẫu (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Và`samplePageSetupIsAutomaticPaperSize-True.xlsx`) cho mục đích thử nghiệm. Đảm bảo các tệp này nằm trong thư mục nguồn của bạn.
+
+## Nhập gói
+
+Để làm việc với Aspose.Cells trong C#, bạn sẽ cần phải nhập các gói cần thiết. Ở đầu tệp C# của bạn, hãy bao gồm:
 
 ```csharp
-// thư mục nguồn
-string sourceDir = "YOUR_SOURCE_DIR";
-// Thư mục đầu ra
-string outputDir = "YOUR_OUTPUT_DIRECTORY";
-
-// Nạp sổ làm việc đầu tiên với khổ giấy tự động bị tắt
-Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-
-// Tải sổ làm việc thứ hai với kích thước giấy tự động được kích hoạt
-Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
+using System;
+using System.IO;
+using Aspose.Cells;
 ```
 
-## Bước 2: Truy cập bảng tính
-Bây giờ chúng ta đã tải sổ làm việc, chúng ta cần truy cập vào các trang tính để có thể kiểm tra khổ giấy tự động. Chúng ta sẽ đi đến bảng tính đầu tiên của hai bảng tính. Đây là mã để truy cập nó:
+Điều này cho trình biên dịch biết rằng bạn muốn sử dụng thư viện Aspose.Cells và không gian tên System cho chức năng cơ bản.
+
+Chúng ta hãy chia nhỏ thành hướng dẫn từng bước rõ ràng để bạn có thể dễ dàng theo dõi. Sẵn sàng chưa? Chúng ta bắt đầu thôi!
+
+## Bước 1: Thiết lập thư mục nguồn và thư mục đầu ra của bạn
+
+Trước tiên, bạn sẽ muốn xác định thư mục nguồn và thư mục đầu ra của mình. Các thư mục này sẽ lưu trữ các tệp đầu vào của bạn và nơi bạn muốn lưu bất kỳ đầu ra nào. Sau đây là cách bạn thực hiện:
 
 ```csharp
-//Đi tới bảng tính đầu tiên của sổ làm việc đầu tiên
-Worksheet ws11 = wb1.Worksheets[0];
-
-// Đi tới bảng tính đầu tiên của sổ làm việc thứ hai
-Worksheet ws12 = wb2.Worksheets[0];
-```
-
-## Bước 3: Kiểm tra khổ giấy tự động
- Ở bước này, chúng ta sẽ kiểm tra xem khổ giấy của bảng tính có tự động hay không. Chúng tôi sẽ sử dụng`PageSetup.IsAutomaticPaperSize` bất động sản để có được thông tin này. Sau đó chúng tôi sẽ hiển thị kết quả. Đây là mã cho điều đó:
-
-```csharp
-// Hiển thị thuộc tính IsAutomaticPaperSize của bảng tính đầu tiên trong sổ làm việc đầu tiên
-Console.WriteLine("First worksheet in first workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
-
-// Hiển thị thuộc tính IsAutomaticPaperSize của bảng tính đầu tiên trong sổ làm việc thứ hai
-Console.WriteLine("First worksheet of second workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-
-```
-
-### Mã nguồn mẫu để xác định xem kích thước giấy của trang tính có tự động hay không bằng cách sử dụng Aspose.Cells for .NET 
-```csharp
-//Thư mục nguồn
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
-//Thư mục đầu ra
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
-//Nạp sổ làm việc đầu tiên có khổ giấy tự động sai
+```
+
+ Thay thế`YOUR_SOURCE_DIRECTORY` Và`YOUR_OUTPUT_DIRECTORY` với đường dẫn thực tế trên hệ thống của bạn nơi các tập tin sẽ được lưu trữ.
+
+## Bước 2: Tải sổ làm việc Excel
+
+Bây giờ bạn đã thiết lập thư mục, hãy tải sổ làm việc. Chúng ta sẽ tải hai sổ làm việc—một sổ có kích thước giấy tự động được đặt thành false và sổ còn lại được đặt thành true. Đây là mã:
+
+```csharp
 Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");
-//Nạp sổ làm việc thứ hai có khổ giấy tự động đúng
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
-//Truy cập bảng tính đầu tiên của cả hai sổ làm việc
+```
+
+## Bước 3: Truy cập vào trang tính đầu tiên
+
+Khi các sổ làm việc đã được tải, đã đến lúc truy cập vào trang tính đầu tiên từ mỗi sổ làm việc. Điểm tuyệt vời của Aspose.Cells là điều này cực kỳ đơn giản:
+
+```csharp
 Worksheet ws11 = wb1.Worksheets[0];
 Worksheet ws12 = wb2.Worksheets[0];
-//In thuộc tính PageSetup.IsAutomaticPaperSize của cả hai trang tính
+```
+
+Mã này lấy bảng tính đầu tiên (chỉ mục 0) từ cả hai bảng tính. 
+
+## Bước 4: Kiểm tra cài đặt kích thước giấy
+
+ Bây giờ đến phần thú vị! Bạn sẽ muốn kiểm tra xem cài đặt kích thước giấy có tự động cho từng trang tính không. Điều này được thực hiện bằng cách kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp. Sử dụng đoạn mã sau:
+
+```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
-Console.WriteLine();
+```
+
+ Ở đây, chúng tôi đang in kết quả ra bảng điều khiển. Bạn sẽ thấy`True` hoặc`False`, tùy thuộc vào cài đặt của từng bảng tính.
+
+## Bước 5: Kết thúc
+
+Cuối cùng, bạn nên có thói quen cung cấp phản hồi rằng mã của bạn đã được thực thi thành công. Thêm một thông báo đơn giản vào cuối phương thức chính của bạn:
+
+```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");
 ```
 
+## Phần kết luận 
 
-## Phần kết luận
-Trong bài viết này, chúng ta đã tìm hiểu cách xác định xem kích thước giấy của trang tính có tự động hay không bằng cách sử dụng Aspose.Cells for .NET. Chúng tôi đã làm theo các bước sau: tải sổ làm việc,
+Và cứ như vậy, bạn đã đặt nền tảng để xác định xem kích thước trang giấy của một bảng tính có tự động hay không bằng cách sử dụng Aspose.Cells cho .NET! Bạn đã vội vã nhập các gói, tải sổ làm việc, truy cập các bảng tính và kiểm tra thuộc tính kích thước trang giấy đó—tất cả các kỹ năng cần thiết khi thao tác các tệp Excel theo chương trình. Hãy nhớ rằng, bạn càng thử nghiệm nhiều tính năng khác nhau của Aspose.Cells, các ứng dụng của bạn sẽ càng trở nên mạnh mẽ hơn.
 
-truy cập vào bảng tính và kiểm tra khổ giấy tự động. Bây giờ bạn có thể sử dụng kiến thức này để xác định xem kích thước giấy của bảng tính của bạn có tự động hay không.
+## Câu hỏi thường gặp
 
-### Câu hỏi thường gặp
+### Aspose.Cells là gì?
+Aspose.Cells là thư viện .NET được thiết kế để quản lý các tệp bảng tính Excel theo chương trình mà không cần cài đặt Excel.
 
-#### Câu hỏi: Làm cách nào tôi có thể tải sổ làm việc bằng Aspose.Cells cho .NET?
+### Tôi có thể sử dụng Aspose.Cells cho môi trường không phải Windows không?
+Có! Aspose.Cells hỗ trợ phát triển đa nền tảng, do đó bạn có thể làm việc trong nhiều môi trường khác nhau có hỗ trợ .NET.
 
-Đáp: Bạn có thể tải sổ làm việc bằng lớp Workbook từ thư viện Aspose.Cells. Sử dụng phương thức Workbook.Load để tải sổ làm việc từ một tệp.
+### Tôi có cần giấy phép sử dụng Aspose.Cells không?
+Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Bạn có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
 
-#### Hỏi: Tôi có thể kiểm tra khổ giấy tự động cho các bảng tính khác không?
+### Làm thế nào để kiểm tra xem kích thước trang của bảng tính có tự động trong C# không?
+ Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp học.
 
-Trả lời: Có, bạn có thể kiểm tra khổ giấy tự động cho bất kỳ trang tính nào bằng cách truy cập thuộc tính PageSetup.IsAutomaticPaperSize của đối tượng Trang tính tương ứng.
-
-#### Hỏi: Làm cách nào để thay đổi khổ giấy tự động của bảng tính?
-
-Đáp: Để thay đổi khổ giấy tự động của một trang tính, bạn có thể sử dụng thuộc tính PageSetup.IsAutomaticPaperSize và đặt nó thành giá trị mong muốn (đúng hoặc sai).
-
-#### Câu hỏi: Aspose.Cells for .NET cung cấp những tính năng nào khác?
-
-Trả lời: Aspose.Cells for .NET cung cấp nhiều tính năng để làm việc với bảng tính, chẳng hạn như tạo, sửa đổi và chuyển đổi sổ làm việc cũng như thao tác dữ liệu, công thức và định dạng.
+### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
+ Bạn có thể tìm thấy tài liệu và hướng dẫn toàn diện[đây](https://reference.aspose.com/cells/net/).

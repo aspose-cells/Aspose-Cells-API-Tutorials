@@ -1,109 +1,113 @@
 ---
-title: Especifique o autor ao proteger a pasta de trabalho do Excel contra gravação
-linktitle: Especifique o autor ao proteger a pasta de trabalho do Excel contra gravação
+title: Especificar autor ao proteger pasta de trabalho do Excel
+linktitle: Especificar autor ao proteger pasta de trabalho do Excel
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda como proteger e personalizar suas pastas de trabalho do Excel usando Aspose.Cells for .NET. Tutorial passo a passo em C#.
+description: Aprenda como proteger sua pasta de trabalho do Excel contra gravação ao especificar um autor usando o Aspose.Cells para .NET neste guia passo a passo.
 type: docs
 weight: 30
 url: /pt/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
+## Introdução
 
-Neste tutorial, mostraremos como especificar o autor ao proteger uma pasta de trabalho do Excel contra gravação usando a biblioteca Aspose.Cells para .NET.
+Quando se trata de trabalhar com arquivos do Excel em aplicativos .NET, o Aspose.Cells é uma solução ideal para muitos desenvolvedores. Seu rico conjunto de funcionalidades permite que você gere, manipule e proteja arquivos do Excel facilmente. Um requisito comum que os desenvolvedores enfrentam é escrever em uma pasta de trabalho do Excel, garantindo que ela esteja protegida contra edições não autorizadas. Além disso, especificar um autor pode ser incrivelmente útil para fins de rastreamento ao compartilhar o documento. Neste guia, vamos nos aprofundar em como você pode especificar o autor enquanto protege contra gravação uma pasta de trabalho do Excel usando o Aspose.Cells para .NET.
 
-## Passo 1: Preparando o ambiente
+## Pré-requisitos
 
-Antes de começar, certifique-se de ter o Aspose.Cells for .NET instalado em sua máquina. Baixe a biblioteca do site oficial do Aspose e siga as instruções de instalação fornecidas.
+Antes de mergulharmos nos detalhes da implementação, é essencial ter uma base sólida. Aqui estão os pré-requisitos que você precisa para começar:
 
-## Etapa 2: configurar diretórios de origem e saída
+1. Visual Studio: Você precisa de uma instalação funcional do Visual Studio. É aqui que você escreverá e compilará seu código .NET.
+2. .NET Framework: Certifique-se de ter o .NET Framework instalado. O Aspose.Cells suporta várias versões, então escolha uma que se adapte ao seu aplicativo.
+3.  Biblioteca Aspose.Cells: Você precisa ter a biblioteca Aspose.Cells. Você pode obtê-la em[página oficial de download](https://releases.aspose.com/cells/net/).
+4. Noções básicas de C#: a familiaridade com C# ajudará você a navegar pelo processo de codificação sem esforço.
 
-No código-fonte fornecido, você deve especificar os diretórios de origem e de saída. Modifique o`sourceDir` e`outputDir` variáveis substituindo "SEU DIRETÓRIO DE ORIGEM" e "SEU DIRETÓRIO DE SAÍDA" pelos respectivos caminhos absolutos em sua máquina.
+## Pacotes de importação
 
-```csharp
-// Diretório de origem
-string sourceDir = "PATH TO YOUR SOURCE DIRECTORY";
-
-// Diretório de saída
-string outputDir = "YOUR OUTPUT DIRECTORY PATH";
-```
-
-## Etapa 3: Criando uma pasta de trabalho vazia do Excel
-
-Para começar, criamos um objeto Workbook que representa uma pasta de trabalho vazia do Excel.
+Para aproveitar ao máximo a funcionalidade fornecida pelo Aspose.Cells, vamos começar importando os pacotes necessários. Comece seu arquivo C# adicionando a seguinte diretiva using:
 
 ```csharp
-// Crie uma pasta de trabalho vazia.
-Workbook wb = new Workbook();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## Passo 4: Proteção contra gravação com senha
+Esta diretiva permitirá que você acesse as classes e métodos incluídos na biblioteca Aspose.Cells. Agora que importamos nossos pacotes, vamos para a parte divertida — escrever o código!
 
- A seguir, especificamos uma senha para proteger a pasta de trabalho do Excel contra gravação usando o`WriteProtection.Password` propriedade do objeto Workbook.
+## Etapa 1: configure seus diretórios
 
-```csharp
-// Escreva proteger pasta de trabalho com senha.
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-```
+Antes de iniciar a pasta de trabalho, é uma boa ideia configurar os caminhos onde seus arquivos de origem estão localizados e onde você gostaria de salvar sua saída. Veja como fazer isso:
 
-## Etapa 5: especificação do autor
-
- Agora especificamos o autor da pasta de trabalho do Excel usando o`WriteProtection.Author` propriedade do objeto Workbook.
-
-```csharp
-// Especifique o autor ao proteger a pasta de trabalho contra gravação.
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-```
-
-## Etapa 6: Backup da pasta de trabalho protegida do Excel
-
- Depois que a proteção contra gravação e o autor forem especificados, podemos salvar a pasta de trabalho do Excel no formato XLSX usando o`Save()` método.
-
-```csharp
-// Salve a pasta de trabalho no formato XLSX.
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-```
-
-### Exemplo de código-fonte para Especificar autor durante a proteção contra gravação da pasta de trabalho do Excel usando Aspose.Cells for .NET 
 ```csharp
 //Diretório de origem
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
-//Diretório de saída
+// Diretório de saída
 string outputDir = "YOUR OUTPUT DIRECTORY";
+```
 
+ Certifique-se de substituir`"YOUR SOURCE DIRECTORY"` e`"YOUR OUTPUT DIRECTORY"` com caminhos reais na sua máquina. Pense nisso como criar um espaço de trabalho organizado antes de começar a criar sua obra-prima!
+
+## Etapa 2: Crie uma pasta de trabalho vazia
+
+Agora que configuramos nossos diretórios, o próximo passo é criar uma pasta de trabalho vazia. Esta é essencialmente a tela onde você escreverá seus dados.
+
+```csharp
 // Crie uma pasta de trabalho vazia.
 Workbook wb = new Workbook();
+```
 
-// Escreva proteger pasta de trabalho com senha.
+Assim como um artista começa com uma tela em branco, você começa com uma pasta de trabalho vazia, onde depois pode incluir dados ou formatação.
+
+## Etapa 3: Escreva e proteja a pasta de trabalho
+
+A proteção contra gravação é um aspecto crucial, especialmente se você quiser garantir que a integridade dos seus dados permaneça intacta. Você pode fazer isso com uma senha.
+
+```csharp
+// Proteja a pasta de trabalho com senha.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
+```
 
-// Especifique o autor ao proteger a pasta de trabalho contra gravação.
+ Nesta linha, substitua`"YOUR_PASSWORD"` com uma senha forte de sua escolha. Essa senha age como uma porta trancada — somente aqueles com a chave (senha) podem entrar.
+
+## Etapa 4: Especifique o autor
+
+Agora, especificaremos o autor da pasta de trabalho. Isso é especialmente útil para responsabilização e permite que outros vejam quem criou ou modificou o arquivo.
+
+```csharp
+// Especifique o autor ao proteger a pasta de trabalho.
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
+```
 
+ Certifique-se de substituir`"YOUR_AUTHOR"` com o nome que você quer associar ao documento. Pense nisso como assinar sua arte — isso permite que as pessoas saibam a quem agradecer por esta peça!
+
+## Etapa 5: Salve a pasta de trabalho
+
+O passo final é salvar a pasta de trabalho no formato desejado. Neste caso, salvaremos como um arquivo XLSX. 
+
+```csharp
 // Salve a pasta de trabalho no formato XLSX.
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-
 ```
+
+ Aqui, o arquivo de saída será salvo no diretório de saída especificado com o nome`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. É aqui que seu trabalho duro finalmente compensa, e você pode compartilhar sua pasta de trabalho com outras pessoas, sabendo que ela está bem protegida!
 
 ## Conclusão
 
-Parabéns! Agora você aprendeu como especificar o autor ao proteger uma pasta de trabalho do Excel contra gravação com Aspose.Cells for .NET. Você pode aplicar essas etapas aos seus próprios projetos para proteger e personalizar suas pastas de trabalho do Excel.
-
-Sinta-se à vontade para explorar ainda mais os recursos do Aspose.Cells for .NET para operações mais avançadas em arquivos Excel.
+aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir proteção contra gravação com uma senha, especificar um autor e salvá-la perfeitamente usando o Aspose.Cells para .NET. Essa combinação de funcionalidades não apenas protegerá seus dados, mas também manterá sua integridade e fornecerá atribuição adequada.
 
 ## Perguntas frequentes
 
-#### P: Posso proteger uma pasta de trabalho do Excel contra gravação sem especificar uma senha?
+### Posso personalizar a senha para proteção contra gravação?  
+ Sim, você pode personalizar a senha conforme suas necessidades. Basta substituir`YOUR_PASSWORD` com a senha desejada.
 
- R: Sim, você pode usar o objeto Workbook`WriteProtect()` método sem especificar uma senha para proteger contra gravação uma pasta de trabalho do Excel. Isso restringirá as alterações na pasta de trabalho sem exigir uma senha.
+### O Aspose.Cells é gratuito?  
+ Aspose.Cells é uma biblioteca paga, mas você pode experimentá-la gratuitamente com um teste por tempo limitado. Visite o[Link de teste gratuito](https://releases.aspose.com/) para começar.
 
-#### P: Como removo a proteção contra gravação de uma pasta de trabalho do Excel?
+### Como faço para comprar a biblioteca Aspose.Cells?  
+ Você pode comprar Aspose.Cells através de seu[comprar página](https://purchase.aspose.com/buy).
 
- R: Para remover a proteção contra gravação de uma pasta de trabalho do Excel, você pode usar o`Unprotect()` método do objeto Worksheet ou o método`RemoveWriteProtection()` método do objeto Workbook, dependendo do seu caso de uso específico. .
+### Posso usar essa abordagem em aplicativos web?  
+Absolutamente! Aspose.Cells funciona perfeitamente em aplicativos de desktop e web usando .NET.
 
-#### P: Esqueci a senha para proteger minha pasta de trabalho do Excel. O que posso fazer ?
-
-R: Se você esqueceu a senha para proteger sua pasta de trabalho do Excel, não poderá removê-la diretamente. No entanto, você pode tentar usar ferramentas especializadas de terceiros que fornecem recursos de recuperação de senha para arquivos Excel protegidos.
-
-#### P: É possível especificar vários autores ao proteger uma pasta de trabalho do Excel contra gravação?
-
-R: Não, a biblioteca Aspose.Cells for .NET permite especificar um único autor ao proteger uma pasta de trabalho do Excel contra gravação. Se quiser especificar vários autores, você precisará considerar soluções personalizadas manipulando diretamente o arquivo Excel.
+### O que devo fazer se precisar de suporte?  
+ Para perguntas e solução de problemas, a comunidade Aspose é muito útil. Você pode visitar o site deles[fórum de suporte](https://forum.aspose.com/c/cells/9) para obter assistência.

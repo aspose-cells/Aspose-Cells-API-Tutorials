@@ -18,7 +18,7 @@ Než se pustíme do vytváření dynamických rozevíracích seznamů, ujistěte
 
 - Vývojové prostředí Java: Ve vašem systému byste měli mít nainstalovanou Javu a vhodné integrované vývojové prostředí (IDE).
 
--  Aspose.Cells for Java Library: Stáhněte si knihovnu Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/) a zahrňte jej do svého projektu Java.
+-  Aspose.Cells for Java Library: Stáhněte si knihovnu Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/) a zahrňte jej do svého projektu Java.
 
 Nyní začneme s průvodcem krok za krokem.
 

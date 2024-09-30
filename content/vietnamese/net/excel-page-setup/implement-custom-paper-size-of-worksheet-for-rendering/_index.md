@@ -1,113 +1,139 @@
 ---
-title: Triển khai khổ giấy tùy chỉnh của bảng tính để hiển thị
-linktitle: Triển khai khổ giấy tùy chỉnh của bảng tính để hiển thị
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Hướng dẫn từng bước để triển khai kích thước bảng tính tùy chỉnh với Aspose.Cells cho .NET. Đặt kích thước, thêm tin nhắn và lưu dưới dạng PDF.
+title: Triển khai tùy chỉnh kích thước giấy của bảng tính để kết xuất
+linktitle: Triển khai tùy chỉnh kích thước giấy của bảng tính để kết xuất
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách thiết lập kích thước giấy tùy chỉnh trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để hiển thị bảng tính liền mạch.
 type: docs
 weight: 50
 url: /vi/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
-Việc triển khai kích thước tùy chỉnh cho trang tính của bạn có thể rất hữu ích khi bạn muốn tạo tài liệu PDF có kích thước cụ thể. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Cells cho .NET để đặt kích thước tùy chỉnh cho trang tính và sau đó lưu tài liệu dưới dạng PDF.
+## Giới thiệu
 
-## Bước 1: Tạo thư mục đầu ra
+Việc tạo và tùy chỉnh các tài liệu Excel theo chương trình có thể giúp công việc của bạn hiệu quả hơn, đặc biệt là khi bạn phải xử lý nhiều báo cáo hoặc mục nhập dữ liệu. Với Aspose.Cells for .NET, bạn có thể dễ dàng thiết lập kích thước giấy tùy chỉnh để hiển thị bảng tính. Trong hướng dẫn này, chúng tôi sẽ chia nhỏ quy trình thành các bước dễ thực hiện, đảm bảo bạn có thể triển khai chức năng này một cách liền mạch. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu bước chân vào thế giới .NET,
 
-Trước khi bắt đầu, bạn cần tạo một thư mục đầu ra để lưu tệp PDF đã tạo. Bạn có thể sử dụng bất kỳ đường dẫn nào bạn muốn cho thư mục đầu ra của mình.
+## Điều kiện tiên quyết
+
+Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập đúng cách. Sau đây là những gì bạn cần để bắt đầu:
+
+1. Visual Studio hoặc bất kỳ .NET IDE nào: Đảm bảo bạn có một IDE đang hoạt động như Visual Studio. Đây sẽ là sân chơi nơi mọi phép thuật mã hóa diễn ra.
+2.  Gói Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất trên[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. Kiến thức cơ bản về C#: Trong khi chúng tôi sẽ hướng dẫn bạn về mã, việc quen thuộc với C# sẽ giúp bạn hiểu rõ hơn về các sắc thái.
+4. Truy cập vào .NET Framework: Đảm bảo dự án của bạn được thiết lập để hướng tới phiên bản tương thích của .NET Framework.
+
+## Nhập gói
+
+Sau khi bạn đã cài đặt mọi thứ, đã đến lúc nhập các gói cần thiết. Đây là nơi bạn đưa Aspose.Cells vào dự án của mình. Sau đây là cách thực hiện:
+
+### Mở IDE của bạn
+
+Mở Visual Studio hoặc .NET IDE mà bạn thích.
+
+### Tạo một dự án mới
+
+Bắt đầu một ứng dụng C# Console mới. Đây là một cách đơn giản để kiểm tra mã của chúng tôi mà không cần đến ứng dụng web.
+
+### Thêm tham chiếu Aspose.Cells
+
+Để thêm tham chiếu thư viện Aspose.Cells, hãy làm theo các bước sau:
+- Nhấp chuột phải vào dự án của bạn trong Solution Explorer,
+- Chọn "Quản lý các gói NuGet",
+- Tìm kiếm “Aspose.Cells” và cài đặt.
 
 ```csharp
-// Thư mục đầu ra
-string outputDir = "YOUR_OUTPUT_FOLDER";
+using System.IO;
+using Aspose.Cells;
+using System;
 ```
 
-Đảm bảo bạn chỉ định đường dẫn chính xác đến thư mục đầu ra của mình.
+Bây giờ bạn đã sẵn sàng rồi!
 
-## Bước 2: Tạo đối tượng Workbook
+Bây giờ mọi thứ đã sẵn sàng, chúng ta hãy cùng tìm hiểu sâu hơn các bước cần thiết để triển khai kích thước giấy tùy chỉnh cho bảng tính của bạn. 
 
-Để bắt đầu, bạn cần tạo một đối tượng Workbook bằng Aspose.Cells. Đối tượng này đại diện cho bảng tính của bạn.
+## Bước 1: Thiết lập thư mục đầu ra
 
-```csharp
-// Tạo đối tượng Workbook
-Workbook wb = new Workbook();
-```
-
-## Bước 3: Truy cập vào bảng tính đầu tiên
-
-Sau khi tạo đối tượng Workbook, bạn có thể truy cập trang tính đầu tiên bên trong nó.
+Trước khi bắt đầu viết mã, hãy quyết định nơi bạn muốn lưu tệp PDF đầu ra và thiết lập nó trong mã của bạn.
 
 ```csharp
-// Truy cập vào bảng tính đầu tiên
-Worksheet ws = wb.Worksheets[0];
-```
-
-## Bước 4: Đặt kích thước trang tính tùy chỉnh
-
- Bây giờ bạn có thể đặt kích thước trang tính tùy chỉnh bằng cách sử dụng`CustomPaperSize(width, height)` phương thức của lớp PageSetup.
-
-```csharp
-// Đặt kích thước trang tính tùy chỉnh (tính bằng inch)
-ws.PageSetup.CustomPaperSize(6, 4);
-```
-
-Trong ví dụ này, chúng tôi đã đặt kích thước trang tính là rộng 6 inch và cao 4 inch.
-
-## Bước 5: Truy cập vào ô B4
-
-Sau đó, chúng ta có thể truy cập vào một ô cụ thể trong bảng tính. Trong trường hợp này, chúng ta sẽ truy cập vào ô B4.
-
-```csharp
-// Truy cập vào ô B4
-Cell b4 = ws.Cells["B4"];
-```
-
-## Bước 6: Thêm tin nhắn vào ô B4
-
- Bây giờ chúng ta có thể thêm tin nhắn vào ô B4 bằng cách sử dụng`PutValue(value)` phương pháp.
-
-```csharp
-// Thêm tin nhắn vào ô B4
-b4.PutValue("PDF page size: 6.00 x 4.00 inches");
-```
-
-Trong ví dụ này, chúng tôi đã thêm thông báo "Kích thước trang PDF: 6,00" x 4,00" vào ô B4.
-
-## Bước 7: Lưu bảng tính ở định dạng PDF
-
- Cuối cùng, chúng ta có thể lưu bảng tính ở định dạng PDF bằng cách sử dụng`Save(filePath)` phương thức của đối tượng Workbook.
-
-```csharp
-// Lưu bảng tính ở định dạng PDF
-wb.Save(outputDir + "outputCustomPaperSize.pdf");
-```
-
-Chỉ định đường dẫn mong muốn đến tệp PDF được tạo bằng cách sử dụng thư mục đầu ra được tạo trước đó.
-
-### Mã nguồn mẫu để triển khai kích thước giấy tùy chỉnh của bảng tính để hiển thị bằng Aspose.Cells cho .NET 
-```csharp
-//Thư mục đầu ra
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
-//Tạo đối tượng sổ làm việc
+```
+
+ Hãy chắc chắn thay thế`"YOUR_OUTPUT_DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu PDF của mình. Hãy nghĩ về điều này như việc dọn bàn trước khi bạn bắt đầu nấu ăn; bạn cần một không gian sạch sẽ để làm việc.
+
+## Bước 2: Tạo một đối tượng Workbook
+
+Bây giờ, hãy tạo một phiên bản của sổ làm việc. Điều này tương tự như việc tạo một trang giấy trắng để vẽ.
+
+```csharp
 Workbook wb = new Workbook();
-//Truy cập bảng tính đầu tiên
+```
+
+## Bước 3: Truy cập vào trang tính đầu tiên
+
+Vì bảng tính mới đi kèm với một trang tính mặc định, hãy truy cập vào đó! 
+
+```csharp
 Worksheet ws = wb.Worksheets[0];
-//Đặt khổ giấy tùy chỉnh theo đơn vị inch
+```
+
+Ở đây, bạn đang nói với mã của mình rằng: "Này, tôi muốn làm việc với bảng tính cụ thể này!" 
+
+## Bước 4: Thiết lập kích thước giấy tùy chỉnh
+
+Bây giờ chúng ta sẽ đến phần hấp dẫn. Hãy thiết lập kích thước giấy tùy chỉnh cho bảng tính của chúng ta.
+
+```csharp
 ws.PageSetup.CustomPaperSize(6, 4);
-//Truy cập ô B4
+```
+
+Trong trường hợp này, chúng tôi chỉ định kích thước tính bằng inch. Hãy nghĩ về việc may một bộ vest vừa vặn hoàn hảo—mọi chi tiết đều quan trọng!
+
+## Bước 5: Truy cập vào một ô
+
+Tiếp theo, chúng ta cần truy cập vào ô cụ thể nơi chúng ta sẽ đặt tin nhắn. 
+
+```csharp
 Cell b4 = ws.Cells["B4"];
-//Thêm tin nhắn vào ô B4
+```
+
+Ở đây, chúng ta chọn ô B4. Giống như việc chọn một vị trí cụ thể trên canvas để thêm văn bản.
+
+## Bước 6: Thêm giá trị vào ô
+
+Bây giờ, hãy thêm một thông điệp vào ô đã chọn:
+
+```csharp
 b4.PutValue("Pdf Page Dimensions: 6.00 x 4.00 in");
-//Lưu sổ làm việc ở định dạng pdf
+```
+
+Đây là cơ hội để bạn thông báo cho người dùng cuối về kích thước tùy chỉnh của trang PDF.
+
+## Bước 7: Lưu Workbook ở định dạng PDF
+
+Cuối cùng, đã đến lúc lưu toàn bộ công sức của bạn dưới dạng tệp PDF.
+
+```csharp
 wb.Save(outputDir + "outputCustomPaperSize.pdf");
 ```
 
-## Kết luận
+Với dòng này, bạn đang yêu cầu chương trình của mình lấy mọi thứ bạn đã làm cho đến nay và đóng gói chúng một cách gọn gàng thành định dạng PDF.
 
-Trong hướng dẫn này, bạn đã học cách triển khai kích thước tùy chỉnh của trang tính bằng Aspose.Cells cho .NET. Bạn có thể sử dụng các bước này để đặt kích thước cụ thể cho bảng tính của mình rồi lưu tài liệu ở định dạng PDF. Chúng tôi hy vọng hướng dẫn này hữu ích trong việc hiểu quá trình triển khai kích thước bảng tính tùy chỉnh.
+## Phần kết luận
 
-### Câu hỏi thường gặp (FAQ)
+Việc triển khai kích thước giấy tùy chỉnh cho các bảng tính Excel của bạn bằng Aspose.Cells không chỉ đơn giản mà còn vô cùng hữu ích. Với các bước được nêu trong hướng dẫn này, bạn có thể tạo các tài liệu được thiết kế riêng phù hợp hoàn hảo với nhu cầu của mình. Cho dù bạn đang tạo báo cáo hay tạo biểu mẫu tùy chỉnh, khả năng tùy chỉnh kích thước giấy sẽ nâng cao tính chuyên nghiệp và khả năng sử dụng của tài liệu. 
 
-#### Câu hỏi 1: Tôi có thể tùy chỉnh thêm bố cục bảng tính không?
+## Câu hỏi thường gặp
 
-Có, Aspose.Cells cung cấp nhiều tùy chọn để tùy chỉnh bố cục bảng tính của bạn. Bạn có thể đặt kích thước tùy chỉnh, hướng trang, lề, đầu trang và chân trang, v.v.
+### Tôi có thể sử dụng Aspose.Cells mà không cần mua giấy phép không?
+ Có, bạn có thể dùng thử phiên bản dùng thử miễn phí của Aspose.Cells cho .NET, có sẵn[đây](https://releases.aspose.com/).
 
-#### Câu hỏi 2: Aspose.Cells hỗ trợ những định dạng đầu ra nào khác?
+### Điều gì xảy ra nếu tôi vượt quá giới hạn của giấy phép tạm thời?
+ Vượt quá giới hạn sẽ dẫn đến đầu ra có hình mờ. Tốt nhất là chọn giấy phép vĩnh viễn để có dịch vụ không bị gián đoạn. Bạn có thể tìm thấy các tùy chọn[đây](https://purchase.aspose.com/buy).
 
-Aspose.Cells hỗ trợ nhiều định dạng đầu ra khác nhau, bao gồm PDF, XLSX, XLS, CSV, HTML, TXT và nhiều định dạng khác. Bạn có thể chọn định dạng đầu ra mong muốn theo nhu cầu của bạn.
+### Aspose.Cells có tương thích với .NET Core không?
+Có, Aspose.Cells for .NET hỗ trợ .NET Core. Bạn có thể tích hợp nó vào các ứng dụng hiện đại của mình một cách liền mạch.
+
+### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
+ Bạn có thể liên hệ qua diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9)để được hỗ trợ về bất kỳ sự cố kỹ thuật nào.
+
+### Tôi có thể tùy chỉnh các khía cạnh khác của bảng tính bằng Aspose.Cells không?
+Chắc chắn rồi! Aspose.Cells cung cấp một bộ tính năng mạnh mẽ để tùy chỉnh bảng tính, bao gồm kiểu, công thức và nhiều tính năng khác.

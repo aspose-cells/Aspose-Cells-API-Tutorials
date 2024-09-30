@@ -8,7 +8,7 @@ weight: 17
 url: /cs/java/excel-data-security/data-validation-for-security/
 ---
 
-## Úvod
+## Zavedení
 
 V době, kdy jsou data mízou podniků a organizací, je prvořadé zajistit jejich bezpečnost a přesnost. Validace dat je kritickým aspektem tohoto procesu. Tento článek zkoumá, jak lze Aspose.Cells for Java využít k implementaci robustních mechanismů ověřování dat.
 
@@ -25,7 +25,7 @@ Ověření dat je důležité, protože zajišťuje integritu a bezpečnost vaš
 Než se vrhneme na validaci dat, nastavíme naše vývojové prostředí s Aspose.Cells for Java. Chcete-li začít, postupujte takto:
 
 ### Instalace
-1.  Stáhněte si knihovnu Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/).
+1.  Stáhněte si knihovnu Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/).
 2. Přidejte knihovnu do svého projektu Java.
 
 ### Inicializace

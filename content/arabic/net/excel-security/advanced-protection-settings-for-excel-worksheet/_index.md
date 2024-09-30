@@ -1,149 +1,160 @@
 ---
 title: إعدادات الحماية المتقدمة لورقة عمل Excel
 linktitle: إعدادات الحماية المتقدمة لورقة عمل Excel
-second_title: Aspose.Cells لمرجع .NET API
-description: قم بحماية ملفات Excel الخاصة بك عن طريق ضبط إعدادات الحماية المتقدمة باستخدام Aspose.Cells لـ .NET.
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
+description: قم بتأمين بيانات Excel الخاصة بك باستخدام إعدادات الحماية المتقدمة باستخدام Aspose.Cells for .NET! تعلم كيفية تنفيذ عناصر التحكم خطوة بخطوة في هذا البرنامج التعليمي الشامل.
 type: docs
 weight: 10
 url: /ar/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 ---
-في هذا البرنامج التعليمي، سنرشدك خلال الخطوات اللازمة لتعيين إعدادات الحماية المتقدمة لجدول بيانات Excel باستخدام مكتبة Aspose.Cells لـ .NET. اتبع الإرشادات أدناه لإكمال هذه المهمة.
+## مقدمة
 
-## الخطوة 1: التحضير
+في العصر الرقمي، أصبحت إدارة بياناتك وتأمينها أكثر أهمية من أي وقت مضى. غالبًا ما تُستخدم أوراق عمل Excel لتخزين المعلومات الحساسة، وقد ترغب في التحكم في من يمكنه القيام بما في تلك الأوراق. أدخل Aspose.Cells for .NET، وهي أداة قوية تتيح لك التعامل مع ملفات Excel برمجيًا. في هذا الدليل، سنستعرض إعدادات الحماية المتقدمة لأوراق عمل Excel، مما يضمن بقاء بياناتك آمنة مع السماح بالاستخدام الأساسي. 
 
-تأكد من تثبيت Aspose.Cells لـ .NET وإنشاء مشروع C# في بيئة التطوير المتكاملة المفضلة لديك (IDE).
+## المتطلبات الأساسية 
 
-## الخطوة 2: قم بتعيين مسار دليل المستند
+قبل الغوص في الكود، دعنا نتأكد من أن لديك كل ما تحتاجه:
 
- أعلن أ`dataDir` متغير وقم بتهيئته بالمسار إلى دليل المستندات الخاص بك. على سبيل المثال :
+1. بيئة التطوير: يجب أن يكون Visual Studio مثبتًا على جهازك، لأنه يوفر بيئة تطوير متكاملة ممتازة لتطوير .NET.
+2.  مكتبة Aspose.Cells: قم بتنزيل مكتبة Aspose.Cells. يمكنك الحصول عليها من[صفحة تنزيلات Aspose](https://releases.aspose.com/cells/net/).
+3. المعرفة الأساسية بلغة C#: تأكد من أن لديك فهمًا جيدًا للغة C# و.NET Framework لمتابعتها بسهولة.
+4. إنشاء مشروع: قم بإعداد تطبيق وحدة تحكم جديد في Visual Studio حيث سنكتب الكود.
+
+الآن بعد أن أصبح كل شيء في مكانه، دعنا ننتقل إلى الجزء المثير!
+
+## استيراد الحزم
+
+لنبدأ في إدخال المكتبات المطلوبة إلى مشروعنا. اتبع الخطوات التالية لاستيراد الحزم اللازمة:
+
+### افتح مشروعك
+
+افتح تطبيق وحدة التحكم الذي قمت بإنشائه حديثًا في Visual Studio. 
+
+### مدير الحزم NuGet
+
+ستحتاج إلى استخدام NuGet لإضافة مكتبة Aspose.Cells. انقر بزر الماوس الأيمن على مشروعك في مستكشف الحلول وحدد "إدارة حزم NuGet".
+
+### استيراد المساحات الاسمية الضرورية
 
 ```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
+using System.IO;
+using Aspose.Cells;
 ```
 
- تأكد من استبدال`"YOUR_DOCUMENTS_DIRECTORY"` مع المسار الفعلي إلى الدليل الخاص بك.
+-  ال`Aspose.Cells` تتيح لنا مساحة الاسم الوصول إلى وظيفة Aspose.Cells والفئات المطلوبة للتعامل مع ملفات Excel.
+-  ال`System.IO` مساحة الأسماء ضرورية لعمليات معالجة الملفات مثل قراءة الملفات وكتابتها.
 
-## الخطوة 3: إنشاء دفق ملف لفتح ملف Excel
+دعنا نقسم عملية التنفيذ إلى خطوات يمكن إدارتها. سنقوم بإنشاء ملف Excel بسيط، وتطبيق إعدادات الحماية، وحفظ التغييرات.
 
- إنشاء`FileStream` كائن يحتوي على ملف Excel المراد فتحه:
+## الخطوة 1: إنشاء تدفق ملف لملف Excel الخاص بك
 
-```csharp
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-```
-
- تأكد من أن لديك ملف Excel`book1.xls` في دليل المستندات الخاص بك أو حدد اسم الملف الصحيح وموقعه.
-
-## الخطوة 4: إنشاء مثيل لكائن مصنف وفتح ملف Excel
-
- استخدم ال`Workbook`فئة من Aspose.Cells لإنشاء كائن Workbook وفتح ملف Excel المحدد عبر دفق الملف:
+ أولاً، نحتاج إلى تحميل ملف Excel موجود. سنستخدم`FileStream` للوصول إليه.
 
 ```csharp
-Workbook excel = new Workbook(fstream);
-```
-
-## الخطوة 5: الوصول إلى ورقة العمل الأولى
-
-انتقل إلى ورقة العمل الأولى من ملف Excel:
-
-```csharp
-Worksheet worksheet = excel.Worksheets[0];
-```
-
-## الخطوة 6: ضبط إعدادات حماية ورقة العمل
-
-استخدم خصائص كائن ورقة العمل لتعيين إعدادات حماية ورقة العمل حسب الحاجة. على سبيل المثال :
-
-```csharp
-worksheet.Protection.AllowDeletingColumn = false;
-worksheet.Protection.AllowDeletingRow = false;
-worksheet.Protection.AllowEditingContent = false;
-worksheet.Protection.AllowEditingObject = false;
-// ... قم بضبط إعدادات الحماية الأخرى حسب الحاجة...
-```
-
-## الخطوة 7: احفظ ملف Excel المعدل
-
- احفظ ملف Excel المعدل باستخدام ملف`Save` طريقة كائن المصنف:
-
-```csharp
-excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
-```
-
-تأكد من تحديد المسار واسم الملف المطلوبين لملف الإخراج.
-
-## الخطوة 8: أغلق دفق الملف
-
-بمجرد الحفظ، أغلق دفق الملف لتحرير جميع الموارد المرتبطة:
-
-```csharp
-fstream.Close();
-```
-	
-### نموذج التعليمات البرمجية المصدر لإعدادات الحماية المتقدمة لورقة عمل Excel باستخدام Aspose.Cells لـ .NET 
-```csharp
-//المسار إلى دليل المستندات.
+// المسار إلى دليل المستندات.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// إنشاء دفق ملف يحتوي على ملف Excel المراد فتحه
+// إنشاء مجرى ملف لفتح ملف Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-// إنشاء مثيل لكائن المصنف
-// فتح ملف Excel من خلال دفق الملف
+```
+ ال`FileStream` يسمح لنا بقراءة ملف Excel المحدد. تأكد من تغيير "دليل المستندات الخاص بك" إلى المسار الفعلي الذي يوجد به ملف Excel الخاص بك.
+
+## الخطوة 2: إنشاء كائن مصنف
+
+ الآن بعد أن أصبح لدينا تدفق ملف، يمكننا إنشاء`Workbook` هدف.
+
+```csharp
+// إنشاء كائن مصنف
+// فتح ملف Excel من خلال مجرى الملف
 Workbook excel = new Workbook(fstream);
+```
+ هذا الخط ينشئ خطًا جديدًا`Workbook` على سبيل المثال، فتح الملف الذي حددناه في الخطوة السابقة.`Workbook` يعد الكائن ضروريًا لأنه يمثل ملف Excel الخاص بنا في الكود.
+
+## الخطوة 3: الوصول إلى ورقة العمل المطلوبة
+
+لتحقيق أغراضنا، سنعمل فقط على ورقة العمل الأولى. فلنبدأ في الوصول إليها.
+
+```csharp
 // الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = excel.Worksheets[0];
-// تقييد المستخدمين لحذف أعمدة ورقة العمل
+```
+ يتم فهرسة أوراق العمل بدءًا من الصفر، لذا`Worksheets[0]`يشير إلى ورقة العمل الأولى في ملف Excel. الآن، يمكننا تطبيق إعدادات الحماية الخاصة بنا على هذه الورقة المحددة.
+
+## الخطوة 4: تطبيق إعدادات الحماية المتقدمة
+
+الآن يأتي الجزء الممتع! فلنمنع المستخدمين من القيام ببعض الإجراءات مع السماح لهم بالقيام بإجراءات أخرى.
+
+- تقييد حذف الأعمدة والصفوف
+```csharp
 worksheet.Protection.AllowDeletingColumn = false;
-// تقييد المستخدمين لحذف صف من ورقة العمل
 worksheet.Protection.AllowDeletingRow = false;
-// تقييد المستخدمين لتحرير محتويات ورقة العمل
+```These settings prevent users from deleting any columns or rows in the worksheet, which helps maintain the structure of your data.
+
+- Restrict Editing Contents and Objects
+```csharp
 worksheet.Protection.AllowEditingContent = false;
-// تقييد المستخدمين لتحرير كائنات ورقة العمل
 worksheet.Protection.AllowEditingObject = false;
-// تقييد المستخدمين لتحرير سيناريوهات ورقة العمل
+```Here, we're disabling the ability to edit the content of the worksheet and any objects (like charts), thus securing the integrity of your data.
+
+- Restrict Editing Scenarios and Filtering
+```csharp
 worksheet.Protection.AllowEditingScenario = false;
-//تقييد المستخدمين للتصفية
 worksheet.Protection.AllowFiltering = false;
-// السماح للمستخدمين بتنسيق خلايا ورقة العمل
+```Scenarios and filtering are also restricted. This is particularly important if you have sensitive data or specific scenarios that should remain unchanged.
+
+- Allow Certain Formatting and Inserting Options
+```csharp
 worksheet.Protection.AllowFormattingCell = true;
-// السماح للمستخدمين بتنسيق صفوف ورقة العمل
 worksheet.Protection.AllowFormattingRow = true;
-// السماح للمستخدمين بإدراج أعمدة في ورقة العمل
 worksheet.Protection.AllowFormattingColumn = true;
-// السماح للمستخدمين بإدراج الارتباطات التشعبية في ورقة العمل
 worksheet.Protection.AllowInsertingHyperlink = true;
-// السماح للمستخدمين بإدراج صفوف في ورقة العمل
 worksheet.Protection.AllowInsertingRow = true;
-// السماح للمستخدمين بتحديد الخلايا المقفلة في ورقة العمل
+```Users can format cells, rows, and columns, while they can also insert hyperlinks and rows. This balance allows some level of interaction while maintaining overall security.
+
+- Allow Selecting and Sorting
+```csharp
 worksheet.Protection.AllowSelectingLockedCell = true;
-// السماح للمستخدمين بتحديد الخلايا غير المؤمّنة في ورقة العمل
 worksheet.Protection.AllowSelectingUnlockedCell = true;
-// السماح للمستخدمين بالفرز
 worksheet.Protection.AllowSorting = true;
-// السماح للمستخدمين باستخدام الجداول المحورية في ورقة العمل
 worksheet.Protection.AllowUsingPivotTable = true;
+```Users can select both locked and unlocked cells, sort data, and use pivot tables. This ensures that they can still interact with the data effectively without compromising security.
+
+## Step 5: Save the Modified Excel File
+
+Once we've applied all the necessary settings, it’s time to save our modifications.
+
+```csharp
 // حفظ ملف Excel المعدل
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
-// إغلاق دفق الملف لتحرير كافة الموارد
+```
+ هنا نقوم بحفظ المصنف في ملف جديد،`output.xls`بهذه الطريقة، يظل الملف الأصلي سليمًا، ويمكننا التحقق من الحماية المطبقة في ملفنا الجديد.
+
+## الخطوة 6: إغلاق مجرى الملف
+
+وأخيرًا، لتحرير الموارد، دعنا نغلق مجرى الملف.
+
+```csharp
+// إغلاق مجرى الملف
 fstream.Close();
 ```
+تعتبر هذه الخطوة بالغة الأهمية لإدارة الموارد بشكل فعّال. قد يؤدي الفشل في إغلاق التدفقات إلى حدوث تسربات في الذاكرة أو قفل الملفات.
 
 ## خاتمة
 
-تهنئة ! لقد تعلمت الآن كيفية تعيين إعدادات الحماية المتقدمة لجدول بيانات Excel باستخدام Aspose.Cells لـ .NET. استخدم هذه المعرفة لتأمين ملفات Excel الخاصة بك وتقييد إجراءات المستخدم.
+والآن، لقد نجحت في تنفيذ إعدادات الحماية المتقدمة لورقة عمل Excel باستخدام Aspose.Cells for .NET. ومن خلال التحكم في أذونات المستخدم، يمكنك الحفاظ على سلامة بياناتك مع السماح بالمرونة اللازمة. ولا تعمل هذه العملية على تأمين معلوماتك فحسب، بل تسمح أيضًا بالتعاون دون المخاطرة بفقدان البيانات. 
 
-### الأسئلة الشائعة
+## الأسئلة الشائعة
 
-#### س: كيف يمكنني إنشاء مشروع C# جديد في IDE الخاص بي؟
+### ما هو Aspose.Cells؟
+Aspose.Cells هي مكتبة قوية تسمح لك بإنشاء ملفات Excel ومعالجتها وتحويلها برمجيًا في .NET.
 
-ج: قد تختلف خطوات إنشاء مشروع C# جديد وفقًا لـ IDE الذي تستخدمه. راجع وثائق IDE الخاصة بك للحصول على تعليمات مفصلة.
+### هل يمكنني حماية أوراق عمل متعددة في وقت واحد؟
+ نعم! يمكنك تطبيق إعدادات حماية مماثلة على أوراق عمل متعددة من خلال التكرار خلال`Worksheets` مجموعة.
 
-#### س: هل من الممكن ضبط إعدادات حماية مخصصة غير تلك المذكورة في البرنامج التعليمي؟
+### هل أحتاج إلى ترخيص لاستخدام Aspose.Cells؟
+ على الرغم من توفر نسخة تجريبية مجانية، يلزم الحصول على ترخيص للتطوير الكامل. يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 
-ج: نعم، تقدم Aspose.Cells نطاقًا واسعًا من إعدادات الحماية التي يمكنك تخصيصها وفقًا لاحتياجاتك الخاصة. راجع وثائق Aspose.Cells لمزيد من التفاصيل.
+### كيف أقوم بإلغاء قفل ورقة عمل Excel المحمية؟
+سوف تحتاج إلى استخدام الطريقة المناسبة لإزالة أو تعديل إعدادات الحماية برمجيًا إذا كنت تعرف كلمة المرور المعينة لورقة العمل.
 
-#### س: ما هو تنسيق الملف المستخدم لحفظ ملف Excel المعدل في نموذج التعليمات البرمجية؟
-
-ج: في نموذج التعليمات البرمجية، يتم حفظ ملف Excel المعدل بتنسيق Excel 97-2003 (.xls). يمكنك اختيار التنسيقات الأخرى التي يدعمها Aspose.Cells إذا لزم الأمر.
-
-#### س: كيف يمكنني الوصول إلى أوراق العمل الأخرى في ملف Excel؟
-
- ج: يمكنك الوصول إلى أوراق العمل الأخرى باستخدام الفهرس أو اسم الورقة، على سبيل المثال:`Worksheet worksheet = excel.Worksheets[1];` أو`Worksheet worksheet = excel.Worksheets[" SheetName"];`.
+### هل يوجد منتدى دعم لـ Aspose.Cells؟
+ بالتأكيد! يمكنك العثور على الدعم والموارد المجتمعية على[منتدى دعم Aspose](https://forum.aspose.com/c/cells/9).

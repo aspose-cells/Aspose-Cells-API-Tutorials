@@ -35,7 +35,7 @@ import com.aspose.cells.*;
 
 ## Ladda och manipulera Excel-filer
 
-En av kärnfunktionerna i Aspose.Cells för Java är förmågan att ladda och manipulera Excel-filer sömlöst. Du kan öppna befintliga Excel-filer, skapa nya och ändra deras innehåll programmatiskt.
+En av kärnfunktionerna i Aspose.Cells för Java är möjligheten att ladda och manipulera Excel-filer sömlöst. Du kan öppna befintliga Excel-filer, skapa nya och ändra deras innehåll programmatiskt.
 
 ```java
 // Ladda en befintlig Excel-fil
@@ -70,7 +70,7 @@ AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange(range);
 autoFilter.filter(0, "Criteria");
 
-// Sammanfoga celler
+// Slå samman celler
 range.merge();
 ```
 

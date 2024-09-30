@@ -2,63 +2,81 @@
 title: ワークシートの用紙の幅と高さを取得する
 linktitle: ワークシートの用紙の幅と高さを取得する
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用してスプレッドシートの用紙の幅と高さを取得するための次の C# ソース コードを説明するステップバイステップ ガイドを作成します。
+description: 簡単なステップバイステップ ガイドを使用して、Aspose.Cells for .NET でワークシートの用紙の幅と高さを取得する方法を学習します。
 type: docs
 weight: 80
 url: /ja/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
 ---
-このチュートリアルでは、Aspose.Cells for .NET を使用してワークシートの用紙の幅と高さを取得する次の C# ソース コードを段階的に説明します。以下の手順に従います。
+## 導入
 
-## ステップ 1: ワークブックを作成する
-まず、次のコマンドを使用して新しいワークブックを作成します。`Workbook`クラス：
+Excel シートを印刷しようとして、さまざまな用紙サイズの寸法がわかりにくくなったことはありませんか? レイアウトがうまくいかないと、一日が台無しになることは、私と同じなら誰でもご存知でしょう。レポート、請求書、または単純なリストを印刷する場合、プログラムで用紙サイズを調整する方法を知っておくと、多くのトラブルを回避できます。今日は、Aspose.Cells for .NET の世界に飛び込み、アプリケーションで用紙サイズを直接取得および設定する方法を調べます。袖をまくり上げて、用紙サイズ管理の細部にまで踏み込んでみましょう。
+
+## 前提条件 
+
+コーディングの魔法に入る前に、始めるのに必要なものを集めましょう。
+
+1. C# の基本的な理解: C# の基礎知識が必要です。プログラミングが初めてでも心配はいりません。わかりやすく説明します。
+2.  Aspose.Cells ライブラリ: .NET 用の Aspose.Cells ライブラリがマシンにインストールされていることを確認してください。ダウンロードはここから行えます。[このリンク](https://releases.aspose.com/cells/net/).
+3. .NET 開発環境: Visual Studio または任意の IDE をセットアップして、C# コードを記述および実行します。どこから始めればよいかわからない場合は、Visual Studio Community Edition が確実な選択肢です。
+4. 参考資料とドキュメント: Aspose.Cellsのドキュメントをよく読んで、より深い理解を得てください。[ここ](https://reference.aspose.com/cells/net/).
+5. Excel ファイルの基本知識: Excel ファイルの構造 (ワークシート、行、列) を理解しておくと役立ちます。
+
+素晴らしい! 必須項目のチェックが完了したので、必要なパッケージのインポートに進みましょう。
+
+## パッケージのインポート
+
+ Aspose.Cellsのパワーをフルに活用し、作業を簡単にするために、いくつかのパッケージをインポートする必要があります。`using`コード ファイルの先頭にステートメントを追加します。インポートする必要があるものは次のとおりです。
 
 ```csharp
+using System;
+using System.IO;
+```
+
+この行により、Aspose.Cells ライブラリ内のすべてのクラスとメソッドにアクセスできるようになるため、Excel ファイルの操作が容易になります。では、さまざまな用紙サイズの用紙の幅と高さを取得するためのステップ バイ ステップ ガイドを見てみましょう。
+
+## ステップ1: 新しいワークブックを作成する
+
+Aspose.Cells を使用する最初の手順は、新しいワークブックを作成することです。ワークブックは、ワークシートやセルを追加したり、この場合は用紙サイズを定義できる空白のキャンバスと考えてください。
+
+```csharp
+//ワークブックを作成する
 Workbook wb = new Workbook();
 ```
 
-## ステップ 2: 最初のワークシートにアクセスする
-次に、`Worksheet`クラス：
+この行は、新しいワークブック オブジェクトをインスタンス化し、操作する準備が整いました。まだ何も表示されませんが、キャンバスは設定されています。
+
+## ステップ2: 最初のワークシートにアクセスする
+
+ワークブックができたので、その中の特定のワークシートにアクセスする必要があります。ワークシートはワークブック内の 1 ページのようなもので、すべてのアクションがここで実行されます。
 
 ```csharp
-Worksheet ws = wb.Worksheets[0];
-```
-
-## ステップ 3: 用紙サイズを A2 に設定し、用紙の幅と高さをインチ単位で表示します。
-使用`PaperSize`の財産`PageSetup`オブジェクトを使用して用紙サイズを A2 に設定し、`PaperWidth`そして`PaperHeight`プロパティを使用して、用紙の幅と高さをそれぞれ取得します。これらの値を表示するには、`Console.WriteLine`方法：
-
-```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-```
-
-## ステップ 4: 他の用紙サイズについても手順を繰り返します。
-前の手順を繰り返して、用紙サイズを A3、A4、レターに変更し、各サイズの用紙の幅と高さの値を表示します。
-
-```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-```
-
-### Aspose.Cells for .NET を使用してワークシートの用紙の幅と高さを取得するサンプル ソース コード 
-
-```csharp
-//ワークブックの作成
-Workbook wb = new Workbook();
 //最初のワークシートにアクセスする
 Worksheet ws = wb.Worksheets[0];
-//用紙サイズを A2 に設定し、用紙の幅と高さをインチ単位で印刷します。
+```
+
+ここでは、ワークブックから最初のワークシート (インデックス 0) を取得しています。これは、本の最初のページをめくるようなものです。 
+
+## ステップ3: 用紙サイズを設定して寸法を取得する
+
+次は、面白い部分です。さまざまな用紙サイズを設定し、その寸法を 1 つずつ取得します。この手順は、さまざまなサイズがレイアウトにどのように影響するかを確認できるため、非常に重要です。
+
+```csharp
+//用紙サイズをA2に設定し、用紙の幅と高さをインチ単位で印刷します。
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//用紙サイズを A3 に設定し、用紙の幅と高さをインチ単位で印刷します。
+```
+
+このブロックでは、用紙サイズをA2に設定し、その幅と高さを取得します。`PaperWidth`そして`PaperHeight`プロパティは、寸法をインチ単位で提供します。写真を額縁に入れる前に額縁のサイズを確認するようなものです。
+
+## ステップ4: 他の用紙サイズについても繰り返します
+
+他の一般的な用紙サイズについても、このプロセスを繰り返してみましょう。A3、A4、レター サイズを確認します。この繰り返しは、Aspose.Cells フレームワーク内で各サイズがどのように定義されているかを理解するために重要です。
+
+```csharp
+//用紙サイズをA3に設定し、用紙の幅と高さをインチ単位で印刷します。
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//用紙サイズを A4 に設定し、用紙の幅と高さをインチ単位で印刷します。
+//用紙サイズをA4に設定し、用紙の幅と高さをインチ単位で印刷します。
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 //用紙サイズをレターに設定し、用紙の幅と高さをインチ単位で印刷します。
@@ -66,25 +84,25 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
+これらのブロックはそれぞれ前のステップを模倣しますが、`PaperSize`プロパティに応じてサイズを調整します。サイズ インジケーターを変更するだけで、さまざまな用紙寸法を簡単に取得できます。保管するものに応じてボックスのサイズを変更するようなものです。
 
 ## 結論
 
-Aspose.Cells for .NET を使用してスプレッドシートの用紙の幅と高さを取得する方法を学習しました。この機能は、Excel ドキュメントの構成と正確なレイアウトに役立ちます。
+これで完了です。これらの手順に従うと、Aspose.Cells for .NET でさまざまな用紙サイズの寸法を簡単に設定および取得できます。この機能は時間を節約するだけでなく、ページ設定の誤りによって発生する可能性のある印刷の失敗を防ぐこともできます。そのため、次に Excel シートを印刷したりレポートを作成したりする必要がある場合は、寸法がわかっているので、自信を持って行うことができます。 
 
-### よくある質問 (FAQ)
+## よくある質問
 
-#### Aspose.Cells for .NET とは何ですか?
+### Aspose.Cells とは何ですか?
+Aspose.Cells は、Excel をインストールしなくても Excel ファイルを処理できるように設計された .NET ライブラリです。
 
-Aspose.Cells for .NET は、.NET アプリケーションで Excel ファイルを操作および処理するための強力なライブラリです。 Excel ファイルを作成、変更、変換、分析するための多くの機能を提供します。
+### Aspose.Cells を無料で使用できますか?
+はい！まずは無料トライアルをご利用ください。[このリンク](https://releases.aspose.com/).
 
-#### Aspose.Cells for .NET を使用してスプレッドシートの用紙サイズを取得するにはどうすればよいですか?
+### カスタム用紙サイズを設定するにはどうすればいいですか?
+ Aspose.Cellsは、カスタム用紙サイズを設定するオプションを提供します。`PageSetup`クラス。
 
-使用できます`PageSetup`のクラス`Worksheet`用紙サイズにアクセスするオブジェクト。使用`PaperSize`用紙サイズを設定するプロパティと`PaperWidth`そして`PaperHeight`プロパティを使用して、用紙の幅と高さをそれぞれ取得します。
+### Aspose.Cells を使用するにはコーディングの知識が必要ですか?
+基本的なコーディングの知識は役立ちますが、チュートリアルに従うと理解しやすくなります。
 
-#### Aspose.Cells for .NET はどの用紙サイズをサポートしていますか?
-
-Aspose.Cells for .NET は、A2、A3、A4、レターなどの一般的に使用される用紙サイズや、その他の多くのカスタム サイズを幅広くサポートしています。
-
-#### Aspose.Cells for .NET を使用してスプレッドシートの用紙サイズをカスタマイズできますか?
-
-はい、カスタム用紙サイズを設定するには、`PaperWidth`そして`PaperHeight`のプロパティ`PageSetup`クラス。
+### もっと多くの例はどこで見つかりますか?
+の[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)豊富な例とチュートリアルを提供します。

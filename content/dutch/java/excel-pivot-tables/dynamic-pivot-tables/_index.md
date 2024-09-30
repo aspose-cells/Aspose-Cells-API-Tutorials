@@ -8,21 +8,21 @@ weight: 13
 url: /nl/java/excel-pivot-tables/dynamic-pivot-tables/
 ---
 
-Draaitabellen zijn een krachtig hulpmiddel bij gegevensanalyse, waarmee u gegevens in een spreadsheet kunt samenvatten en manipuleren. In deze zelfstudie onderzoeken we hoe u dynamische draaitabellen kunt maken met behulp van de Aspose.Cells voor Java API.
+Draaitabellen zijn een krachtig hulpmiddel bij data-analyse, waarmee u data in een spreadsheet kunt samenvatten en manipuleren. In deze tutorial gaan we onderzoeken hoe u dynamische draaitabellen kunt maken met behulp van de Aspose.Cells voor Java API.
 
 ## Inleiding tot draaitabellen
 
-Draaitabellen zijn interactieve tabellen waarmee u gegevens in een spreadsheet kunt samenvatten en analyseren. Ze bieden een dynamische manier om gegevens te ordenen en analyseren, waardoor het gemakkelijker wordt om inzichten te verkrijgen en weloverwogen beslissingen te nemen.
+Draaitabellen zijn interactieve tabellen waarmee u gegevens in een spreadsheet kunt samenvatten en analyseren. Ze bieden een dynamische manier om gegevens te ordenen en analyseren, waardoor het eenvoudiger wordt om inzichten te verkrijgen en weloverwogen beslissingen te nemen.
 
-## Stap 1: Importeren van de Aspose.Cells-bibliotheek
+## Stap 1: De Aspose.Cells-bibliotheek importeren
 
- Voordat we dynamische draaitabellen kunnen maken, moeten we de Aspose.Cells-bibliotheek in ons Java-project importeren. U kunt de bibliotheek downloaden via de Aspose-releases[hier](https://releases.aspose.com/cells/java/).
+ Voordat we dynamische draaitabellen kunnen maken, moeten we de Aspose.Cells-bibliotheek importeren in ons Java-project. U kunt de bibliotheek downloaden van de Aspose-releases[hier](https://releases.aspose.com/cells/java/).
 
-Nadat u de bibliotheek heeft gedownload, voegt u deze toe aan het buildpad van uw project.
+Nadat u de bibliotheek hebt gedownload, voegt u deze toe aan het buildpad van uw project.
 
 ## Stap 2: Een werkmap laden
 
-Om met draaitabellen te kunnen werken, moeten we eerst een werkmap laden die de gegevens bevat die we willen analyseren. U kunt dit doen met behulp van de volgende code:
+Om met draaitabellen te werken, moeten we eerst een werkmap laden die de gegevens bevat die we willen analyseren. U kunt dit doen met de volgende code:
 
 ```java
 // Laad het Excel-bestand
@@ -36,11 +36,11 @@ Workbook workbook = new Workbook("your_excel_file.xlsx");
 Nu we de werkmap hebben geladen, gaan we een draaitabel maken. We moeten het brongegevensbereik voor de draaitabel opgeven en de locatie waar we deze in het werkblad willen plaatsen. Hier is een voorbeeld:
 
 ```java
-// Haal het eerste werkblad
+// Ontvang het eerste werkblad
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Geef het gegevensbereik voor de draaitabel op
-String sourceData = "A1:D10"; // Vervang door uw gegevensbereik
+String sourceData = "A1:D10"; // Vervang met uw gegevensbereik
 
 // Geef de locatie voor de draaitabel op
 int firstRow = 1;
@@ -52,13 +52,13 @@ PivotTable pivotTable = worksheet.getPivotTables().add(sourceData, worksheet.get
 
 ## Stap 4: De draaitabel configureren
 
-Nu we de draaitabel hebben gemaakt, kunnen we deze configureren om de gegevens indien nodig samen te vatten en te analyseren. U kunt rijvelden, kolomvelden en gegevensvelden instellen en verschillende berekeningen toepassen. Hier is een voorbeeld:
+Nu we de draaitabel hebben gemaakt, kunnen we deze configureren om de gegevens samen te vatten en te analyseren zoals nodig. U kunt rijvelden, kolomvelden, gegevensvelden instellen en verschillende berekeningen toepassen. Hier is een voorbeeld:
 
 ```java
-// Voeg velden toe aan de draaitabel
+// Velden toevoegen aan de draaitabel
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Rij veld
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1); // Kolomveld
-pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Dataveld
+pivotTable.addFieldToArea(PivotFieldType.DATA, 2); // Gegevensveld
 
 // Stel een berekening in voor het gegevensveld
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunction.SUM);
@@ -69,35 +69,35 @@ pivotTable.getDataFields().get(0).setFunction(PivotFieldFunction.SUM);
 Draaitabellen kunnen dynamisch zijn, wat betekent dat ze automatisch worden bijgewerkt wanneer de brongegevens veranderen. Om de draaitabel te vernieuwen, kunt u de volgende code gebruiken:
 
 ```java
-// Vernieuw de draaitabel
+// De draaitabel vernieuwen
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u dynamische draaitabellen kunt maken met behulp van de Aspose.Cells voor Java API. Draaitabellen zijn een waardevol hulpmiddel voor gegevensanalyse, en met Aspose.Cells kunt u het maken en manipuleren ervan in uw Java-toepassingen automatiseren.
+In deze tutorial hebben we geleerd hoe u dynamische draaitabellen kunt maken met behulp van de Aspose.Cells voor Java API. Draaitabellen zijn een waardevolle tool voor gegevensanalyse en met Aspose.Cells kunt u de creatie en manipulatie ervan in uw Java-toepassingen automatiseren.
 
-Als u vragen heeft of verdere hulp nodig heeft, neem dan gerust contact met ons op. Veel codeerplezier!
+Als u vragen heeft of verdere assistentie nodig heeft, neem dan gerust contact met ons op. Veel plezier met coderen!
 
 ## Veelgestelde vragen
 
 ### V1: Kan ik aangepaste berekeningen toepassen op de gegevensvelden van mijn draaitabel?
 
-Ja, u kunt aangepaste berekeningen toepassen op gegevensvelden door uw eigen logica te implementeren.
+Ja, u kunt aangepaste berekeningen op gegevensvelden toepassen door uw eigen logica te implementeren.
 
-### Vraag 2: Hoe kan ik de opmaak van de draaitabel wijzigen?
+### V2: Hoe kan ik de opmaak van de draaitabel wijzigen?
 
 U kunt de opmaak van de draaitabel wijzigen door de stijleigenschappen te openen en de gewenste opmaak toe te passen.
 
-### Vraag 3: Is het mogelijk om meerdere draaitabellen in hetzelfde werkblad te maken?
+### V3: Is het mogelijk om meerdere draaitabellen in hetzelfde werkblad te maken?
 
 Ja, u kunt meerdere draaitabellen in hetzelfde werkblad maken door verschillende doellocaties op te geven.
 
 ### V4: Kan ik gegevens in een draaitabel filteren?
 
-Ja, u kunt filters toepassen op draaitabellen om specifieke gegevenssubsets weer te geven.
+Ja, u kunt filters toepassen op draaitabellen om specifieke subsets van gegevens weer te geven.
 
 ### V5: Ondersteunt Aspose.Cells de geavanceerde draaitabelfuncties van Excel?
 
-Ja, Aspose.Cells biedt uitgebreide ondersteuning voor de geavanceerde draaitabelfuncties van Excel, waardoor u complexe draaitabellen kunt maken.
+Ja, Aspose.Cells biedt uitgebreide ondersteuning voor de geavanceerde draaitabelfuncties van Excel, zodat u complexe draaitabellen kunt maken.

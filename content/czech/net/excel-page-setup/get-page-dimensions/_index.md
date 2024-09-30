@@ -2,106 +2,142 @@
 title: Získejte rozměry stránky
 linktitle: Získejte rozměry stránky
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak načíst rozměry stránky v Excelu pomocí Aspose.Cells for .NET. Průvodce krok za krokem se zdrojovým kódem v C#.
+description: tomto podrobném průvodci se dozvíte, jak získat rozměry stránky pomocí Aspose.Cells for .NET. Ideální pro vývojáře pracující se soubory Excel.
 type: docs
 weight: 40
 url: /cs/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Excel programově. Nabízí širokou škálu funkcí pro manipulaci s dokumenty Excel, včetně možnosti získat rozměry stránky. V tomto tutoriálu vás provedeme kroky k načtení rozměrů stránky pomocí Aspose.Cells for .NET.
+## Zavedení
 
-## Krok 1: Vytvořte instanci třídy Workbook
+Pokud jde o práci s tabulkami v aplikacích .NET, knihovna Aspose.Cells vyniká jako robustní nástroj, který umožňuje vývojářům snadno manipulovat se soubory aplikace Excel. Jak ale pomocí této výkonné knihovny získáte rozměry stránek pro různé velikosti papíru? V tomto tutoriálu projdeme procesem krok za krokem a zajistíme, že nejen získáte vhled do fungování Aspose.Cells, ale také se stanete zběhlými v jeho používání ve svých projektech. 
 
-Pro začátek musíme vytvořit instanci třídy Workbook, která představuje sešit Excel. Toho lze dosáhnout pomocí následujícího kódu:
+## Předpoklady 
+
+Než se pustíme do části kódování, je potřeba mít několik věcí, které budete potřebovat, abyste je mohli efektivně sledovat:
+
+### Visual Studio
+Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Zde budete psát a spouštět svůj kód .NET.
+
+### Knihovna Aspose.Cells
+Budete si muset stáhnout a odkazovat na knihovnu Aspose.Cells ve svém projektu. Můžete jej získat z:
+-  Odkaz ke stažení:[Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/)
+
+### Základní znalost C#
+Bylo by prospěšné, pokud máte základní znalosti C#. Tento tutoriál bude využívat základní programovací koncepty, které by měly být snadno pochopitelné.
+
+Jste připraveni jít? Začněme!
+
+## Import balíčků
+
+Prvním krokem na naší cestě je import potřebných balíčků Aspose.Cells do našeho projektu C#. Můžete to udělat takto:
+
+### Vytvořit nový projekt
+
+ Otevřete Visual Studio a vytvořte nový projekt C# Console Application. Můžete si to pojmenovat, jak chcete, pojďme na to`GetPageDimensions`.
+
+### Přidat reference
+
+Chcete-li používat Aspose.Cells, musíte do knihovny přidat odkazy:
+- Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+- Vyberte „Spravovat balíčky NuGet“.
+- Vyhledejte „Aspose.Cells“ a nainstalujte jej.
+
+### Přidat pomocí direktiv
+
+ V horní části vašeho`Program.cs` soubor, vložte toto pomocí direktivy pro přístup k funkci Aspose.Cells:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Nyní, když jsme importovali potřebné balíčky, jste na dobré cestě! 
+
+Nyní prozkoumáme, jak načíst rozměry různých velikostí papíru tím, že projdeme každým krokem. 
+
+## Krok 1: Vytvořte instanci třídy sešit
+
+První věc, kterou musíte udělat, je vytvořit instanci třídy Workbook z Aspose.Cells. Tato třída představuje soubor aplikace Excel.
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## Krok 2: Přístup k tabulce
+Zde jednoduše vytvoříme nový sešit, který bude obsahovat naše tabulková data a konfigurace.
 
-Dále musíme přejít na list v sešitu, kde chceme nastavit rozměry stránky. V tomto příkladu předpokládejme, že chceme pracovat s prvním listem. Můžeme k němu přistupovat pomocí následujícího kódu:
+## Krok 2: Otevřete první pracovní list
+
+Po vytvoření instance sešitu budete chtít získat přístup k prvnímu listu. Každý sešit může obsahovat více listů, ale pro tuto ukázku se budeme držet prvního.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## Krok 3: Nastavte velikost papíru na A2 a šířku a výšku tisku v palcích
+Tento řádek načte první list, což nám umožní nastavit velikosti papíru a získat jejich příslušné rozměry.
 
-Nyní nastavíme velikost papíru na A2 a vytiskneme šířku a výšku stránky v palcích. Toho lze dosáhnout pomocí následujícího kódu:
+## Krok 3: Nastavení velikosti papíru na A2 a obnovení rozměrů
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Krok 4: Nastavte velikost papíru na A3 a šířku a výšku tisku v palcích
-
-Dále nastavíme velikost papíru na A3 a vytiskneme šířku a výšku stránky v palcích. Zde je odpovídající kód:
+Nyní je čas nastavit velikost papíru a uchopit rozměry! Začínáme s papírem velikosti A2.
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Krok 5: Nastavte velikost papíru na A4 a šířku a výšku tisku v palcích
-
-Nyní nastavíme velikost papíru na A4 a vytiskneme šířku a výšku stránky v palcích. Zde je kód:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Krok 6: Nastavte velikost papíru na Letter a vytiskněte šířku a výšku v palcích
-
-Nakonec nastavíme velikost papíru na Letter a vytiskneme šířku a výšku stránky v palcích. Zde je kód:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### Ukázkový zdrojový kód pro Get Page Dimensions pomocí Aspose.Cells pro .NET 
-```csharp
-// Vytvořte instanci třídy Workbook
-Workbook book = new Workbook();
-// Přístup k prvnímu listu
-Worksheet sheet = book.Worksheets[0];
-// Nastavte velikost papíru na A2 a tiskněte šířku a výšku papíru v palcích
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Nastavte velikost papíru na A3 a tiskněte šířku a výšku papíru v palcích
+```
+
+Tento kód nastaví velikost papíru na A2 a okamžitě vypíše šířku a výšku. Krása Aspose.Cells je v jeho jednoduchosti!
+
+## Krok 4: Opakujte pro jiné velikosti papíru
+
+Tento proces budete chtít zopakovat pro jiné velikosti papíru, jako je A3, A4 a Letter. Můžete to udělat takto:
+
+Pro A3:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Nastavte velikost papíru na A4 a tiskněte šířku a výšku papíru v palcích
+```
+
+Pro A4:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Nastavte velikost papíru na Letter a tiskněte šířku a výšku papíru v palcích
+```
+
+Pro dopis:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## Krok 5: Závěr výstupu
+
+Nakonec budete chtít potvrdit, že celá operace byla úspěšně dokončena. Tento stav můžete jednoduše přihlásit do konzole:
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## Závěr
 
-gratuluji! Naučili jste se, jak načíst rozměry stránky pomocí Aspose.Cells pro .NET. Tato funkce může být užitečná, když potřebujete provést specifické operace založené na rozměrech stránky v souborech aplikace Excel.
+Gratuluji! Nyní jste se úspěšně naučili, jak získat rozměry stránky pro různé velikosti papíru pomocí Aspose.Cells for .NET. Ať už vyvíjíte nástroje pro vytváření sestav, automatizované tabulky nebo funkce pro analýzu dat, schopnost získat rozměry stránky pro různé formáty může být neocenitelná. 
 
-Nezapomeňte dále prozkoumat dokumentaci Aspose.Cells, abyste objevili všechny výkonné funkce, které nabízí.
+## FAQ
 
-### FAQ
+### Co je Aspose.Cells?
+Aspose.Cells je knihovna .NET používaná pro vytváření, manipulaci a konverzi souborů aplikace Excel bez nutnosti aplikace Microsoft Excel.
 
-#### 1. Jaké další velikosti papíru Aspose.Cells for .NET podporuje?
+### Musím nainstalovat Microsoft Excel, abych mohl používat Aspose.Cells?
+Ne, Aspose.Cells je samostatná knihovna a nevyžaduje instalaci Excelu.
 
-Aspose.Cells for .NET podporuje různé velikosti papíru včetně A1, A5, B4, B5, Executive, Legal, Letter a mnoha dalších. Úplný seznam podporovaných velikostí papíru naleznete v dokumentaci.
+### Kde najdu další příklady pro Aspose.Cells?
+ Dokumentaci si můžete prohlédnout zde:[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).
 
-#### 2. Mohu nastavit vlastní rozměry stránky pomocí Aspose.Cells pro .NET?
+### Existuje bezplatná zkušební verze Aspose.Cells?
+ Ano! Bezplatnou zkušební verzi můžete získat z:[Bezplatná zkušební verze Aspose.Cells](https://releases.aspose.com/).
 
-Ano, můžete nastavit vlastní rozměry stránky zadáním požadované šířky a výšky. Aspose.Cells nabízí plnou flexibilitu přizpůsobení rozměrů stránky vašim potřebám.
-
-#### 3. Mohu získat rozměry stránky v jiných jednotkách než v palcích?
-
-Ano, Aspose.Cells for .NET umožňuje získat rozměry stránky v různých jednotkách, včetně palců, centimetrů, milimetrů a bodů.
-
-#### 4. Podporuje Aspose.Cells for .NET další funkce úpravy nastavení stránky?
-
-Ano, Aspose.Cells nabízí celou řadu funkcí pro úpravu nastavení stránky, včetně nastavení okrajů, orientace, záhlaví a zápatí atd.
+### Jak mohu získat podporu pro Aspose.Cells?
+ Pomoc můžete získat návštěvou fóra podpory Aspose:[Podpora Aspose.Cells](https://forum.aspose.com/c/cells/9).

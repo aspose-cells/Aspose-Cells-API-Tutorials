@@ -66,7 +66,7 @@ Fordítsa le és futtassa a Java kódot az IDE-ben. Győződjön meg arról, hog
 
 ## Következtetés
 
-Gratulálunk! Megtanulta, hogyan exportálhat adatokat CSV formátumba az Aspose.Cells for Java segítségével. Ez a sokoldalú könyvtár leegyszerűsíti az Excel-fájlokkal való munkafolyamatot Java alkalmazásokban.
+Gratulálok! Megtanulta, hogyan exportálhat adatokat CSV formátumba az Aspose.Cells for Java segítségével. Ez a sokoldalú könyvtár leegyszerűsíti az Excel-fájlokkal való munkafolyamatot Java alkalmazásokban.
 
 ---
 
@@ -82,7 +82,7 @@ Gratulálunk! Megtanulta, hogyan exportálhat adatokat CSV formátumba az Aspose
    Természetesen megadhat egy exportálandó cellatartományt a munkalap adatainak mentés előtti manipulálásával.
 
 ### 4. Az Aspose.Cells támogat más exportformátumokat?
-   Igen, az Aspose.Cells különféle exportformátumokat támogat, beleértve az XLS-t, az XLSX-et, a PDF-t és még sok mást.
+   Igen, az Aspose.Cells különféle exportformátumokat támogat, beleértve az XLS-t, XLSX-et, PDF-et és még sok mást.
 
 ### 5. Hol találok további dokumentációt és példákat?
     Tekintse meg az Aspose.Cells dokumentációját[itt](https://reference.aspose.com/cells/java/) átfogó forrásokért és példákért.

@@ -1,33 +1,80 @@
 ---
-title: Skoroszyt Excela
-linktitle: Skoroszyt Excela
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Zapoznaj się z samouczkami Aspose.Cells for .NET, aby opanować pracę ze skoroszytami programu Excel, korzystając z przykładów kodu krok po kroku.
+title: skoroszyt programu Excel
+linktitle: skoroszyt programu Excel
+second_title: Aspose.Cells dla .NET API Reference
+description: Zapoznaj się z samouczkami Aspose.Cells for .NET, aby opanować pracę z arkuszami kalkulacyjnymi programu Excel, korzystając z przykładów kodu krok po kroku.
 type: docs
 weight: 15
 url: /pl/net/excel-workbook/
 ---
-Zapoznaj się z serią szczegółowych samouczków dotyczących skoroszytów programu Excel z Aspose.Cells dla .NET. Te samouczki poprowadzą Cię przez różne funkcje biblioteki, pokazując, jak tworzyć, manipulować i dostosowywać skoroszyty programu Excel, korzystając z praktycznych przykładów kodu. Dowiesz się, jak dodawać i usuwać arkusze kalkulacyjne, zarządzać danymi, wykonywać operacje formatowania i wiele więcej. Dzięki tym samouczkom będziesz w stanie opanować zaawansowane techniki manipulacji skoroszytami programu Excel i udoskonalić umiejętności tworzenia aplikacji .NET.
+## Wstęp
 
-Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, te samouczki zapewnią instrukcje krok po kroku, pomocne wskazówki i obszerne próbki kodu, które pomogą Ci w pełni wykorzystać Aspose.Cells dla .NET. Skorzystaj z tego cennego zasobu, aby udoskonalić swoje umiejętności obsługi skoroszytów programu Excel i tworzenia wydajnych, niestandardowych aplikacji .NET.
+Czy jesteś zmęczony zmaganiem się z zarządzaniem plikami Excela? Jeśli kiedykolwiek stanąłeś przed wyzwaniem dodawania podpisów lub wyodrębniania danych ze złożonych plików, jesteś we właściwym miejscu. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia programistom manipulowanie plikami Excela programowo. Mamy listę przydatnych samouczków, które w przejrzysty i angażujący sposób dzielą różne zadania.
 
-## Poradniki 
+## Dostęp do informacji o rozszerzeniu sieci Web
+
+Zrozumienie, jak uzyskać dostęp do informacji o rozszerzeniach sieci Web, może otworzyć nowe możliwości w arkuszach kalkulacyjnych programu Excel. Umożliwia to lepszą interaktywność w plikach. Nasz samouczek na temat[Informacje o rozszerzeniu dostępu do sieci Web](./access-web-extension-information/) zawiera opis przejścia krok po kroku, dzięki któremu proces ten stanie się łatwy nawet dla tych, którzy dopiero zaczynają przygodę z Aspose.Cells.
+
+## Dodawanie podpisów cyfrowych
+
+ Czy kiedykolwiek musiałeś dodać podpis cyfrowy do podpisanego pliku Excel? Dowiedz się, jak to zrobić, korzystając z naszego przewodnika[Dodaj podpis cyfrowy do już podpisanego pliku Excel](./add-digital-signature-to-an-already-signed-excel-file/)Podpisy cyfrowe zapewniają autentyczność i integralność, dzięki czemu pliki Excel są nie tylko funkcjonalne, ale i bezpieczne.
+
+## Tworzenie udostępnionych skoroszytów
+
+ Współpraca jest kluczowa w dzisiejszym miejscu pracy, a nasz poradnik na ten temat[Utwórz współdzielony skoroszyt](./create-shared-workbook/) pozwala na łatwe skonfigurowanie współdzielonych skoroszytów. Jest to idealne rozwiązanie dla zespołów, które muszą wspólnie pracować nad analizą danych lub zarządzaniem projektami w programie Excel. 
+
+## Wyodrębnianie osadzonych plików
+
+Czy wiesz, że Excel może zawierać osadzone pliki? Jeśli kiedykolwiek musiałeś zagłębić się w arkusze kalkulacyjne, aby wyodrębnić osadzony plik MOL, powinieneś sprawdzić nasz samouczek na temat[Wyodrębnij osadzony plik MOL](./extract-embedded-mol-file/). Ten przewodnik przeprowadzi Cię przez prosty proces odzyskiwania tych plików, zapewniając, że nigdy nie stracisz ważnych danych ukrytych w skoroszytach programu Excel.
+
+## Obsługa połączeń zewnętrznych w plikach XLSB
+
+ Zarządzanie połączeniami zewnętrznymi — zwłaszcza w plikach XLSB — może być trudne. Ale nie obawiaj się! Nasz szczegółowy przewodnik na temat[Odczyt i zapis połączenia zewnętrznego pliku XLSB](./read-and-write-external-connection-of-xlsb-file/) upraszcza to zadanie dla Ciebie. Ten samouczek dostarcza jasnych przykładów kodowania i spostrzeżeń, umożliwiając Ci efektywne zarządzanie interakcją Twojego programu Excel z zewnętrznymi źródłami danych. 
+
+## Zwiększanie bezpieczeństwa dzięki ochronie hasłem
+
+ Bezpieczeństwo jest niezbędne, szczególnie w przypadku współdzielonych skoroszytów zawierających poufne informacje. Nasz samouczek na temat[Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem](./password-protect-or-unprotect-shared-workbook/)szczegółowo opisuje kroki blokowania skoroszytów, aby tylko odpowiednie osoby mogły do nich uzyskać dostęp. Będziesz czuć się pewniej udostępniając pliki, gdy będziesz wiedzieć, że są bezpieczne.
+
+## Zwiększanie produktywności za pomocą wyrażeń regularnych
+
+ Czy jesteś fanem wyrażeń regularnych? Jeśli nie, możesz chcieć zostać jednym z nich! Wyrażenia regularne mogą znacznie usprawnić Twoje zadania, zwłaszcza podczas pracy z dużymi zestawami danych w programie Excel. Nasz samouczek na temat[Zamień wyrażenie regularne](./regex-replace/) uczy, jak wdrażać funkcje zamiany wyrażeń regularnych w arkuszach kalkulacyjnych, co pozwala zwiększyć produktywność i dokładność.
+
+## Aktualizowanie elementów Power Query
+
+ Power Querys może być prawdziwym przełomem w manipulacji danymi, umożliwiając usprawnienie importowania informacji do plików Excel. Jeśli zastanawiasz się, jak aktualizować elementy formuły Power Query w programie Excel przy użyciu Aspose.Cells dla .NET, nasz samouczek na temat[Aktualizuj element formuły Power Query](./update-power-query-formula-item/)jest właśnie tym, czego szukasz. Zapewnia proste, krok po kroku podejście do modyfikowania tych elementów formuły, pozwalając zachować świeżość danych i dokładne odzwierciedlenie w skoroszytach.
+
+## Zarządzanie podglądami wydruku
+
+ Od czasu do czasu musisz przedstawić swoje dane w możliwie najbardziej profesjonalny sposób. Nauka tworzenia podglądów wydruku może być kluczową umiejętnością. W naszym samouczku na temat[Podgląd wydruku skoroszytu](./workbook-print-preview/), dowiesz się, jak poprawnie sformatować dane przed wydrukowaniem. Ten proces może uchronić Cię przed żenującymi błędami i zapewnić, że Twoje raporty będą wyglądać równie dobrze na papierze, jak na ekranie.
+
+## Praca ze zdefiniowanymi nazwami
+
+ Zdefiniowane nazwy w arkuszach Excela mogą być przydatnym sposobem zarządzania danymi. Sprawiają, że formuły są krótsze i bardziej zrozumiałe. Jeśli chcesz filtrować zdefiniowane nazwy podczas ładowania skoroszytu, nasz samouczek na temat[Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/)zapewnia wszystkie niezbędne kroki, aby to zrobić. Ta funkcja pozwala dostosować sposób ładowania skoroszytu, poprawiając wydajność i organizację.
+
+## Wniosek
+
+Podsumowując, Aspose.Cells for .NET otwiera świat możliwości dla każdego, kto chce opanować zarządzanie plikami Excela. Dzięki naszej obszernej kolekcji samouczków użytkownicy mogą pewnie poruszać się po wszystkim, od prostych zadań — takich jak tworzenie podglądów wydruku — po zaawansowane techniki, takie jak dodawanie podpisów Xades. 
+
+Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętności w zakresie programu Excel? Każdy samouczek nie tylko zapewnia instrukcje, ale także angażuje Cię w proces nauki. Mając te narzędzia na wyciągnięcie ręki, będziesz dobrze wyposażony, aby stawić czoła wszelkim wyzwaniom, które staną Ci na drodze. 
+
+
+## Samouczki 
 | Tytuł | Opis |
 | --- | --- |
-| [Uzyskaj dostęp do informacji o rozszerzeniu internetowym](./access-web-extension-information/) | Uzyskaj dostęp do informacji o rozszerzeniach internetowych za pomocą Aspose.Cells dla .NET. |  
-| [Dodaj podpis cyfrowy do już podpisanego pliku Excel](./add-digital-signature-to-an-already-signed-excel-file/) | Z łatwością dodawaj podpisy cyfrowe do istniejących plików Excel za pomocą Aspose.Cells dla .NET. |  
-| [Dodaj rozszerzenie internetowe](./add-web-extension/) | Z łatwością dodawaj rozszerzenia internetowe do skoroszytów programu Excel za pomocą Aspose.Cells dla .NET. |  
-| [Dostosuj poziom kompresji](./adjust-compression-level/) | Zmniejsz rozmiar skoroszytów programu Excel, dostosowując poziom kompresji za pomocą Aspose.Cells dla .NET. |  
-| [Zezwalaj na wiodący apostrof](./allow-leading-apostrophe/) | Zezwalaj na wiodący apostrof w skoroszytach programu Excel za pomocą Aspose.Cells dla .NET. |  
-| [Utwórz udostępniony skoroszyt](./create-shared-workbook/) | Utwórz udostępniony skoroszyt programu Excel za pomocą Aspose.Cells dla platformy .NET, aby umożliwić współbieżną współpracę w zakresie danych. |  
-| [Wykryj typy łączy](./detect-link-types/) | Wykrywaj typy łączy w skoroszycie programu Excel za pomocą Aspose.Cells dla .NET. |  
-| [Wyodrębnij osadzony plik Mol](./extract-embedded-mol-file/) | Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel za pomocą Aspose.Cells dla .NET. |  
-| [Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) | Dowiedz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu programu Excel za pomocą Aspose.Cells dla .NET. |  
-| [Uzyskaj szczegółowe informacje o Odacie](./get-odata-details/) | Dowiedz się, jak pobrać szczegóły OData ze skoroszytu programu Excel przy użyciu Aspose.Cells dla .NET. |  
-| [Chroń hasłem lub nie chroń udostępnionego skoroszytu](./password-protect-or-unprotect-shared-workbook/) | Dowiedz się, jak zabezpieczyć hasłem lub wyłączyć ochronę udostępnionego skoroszytu za pomocą Aspose.Cells dla .NET. |  
-| [Odczyt i zapis połączenia zewnętrznego pliku XLSB](./read-and-write-external-connection-of-xlsb-file/) | Dowiedz się, jak czytać i modyfikować połączenia zewnętrzne pliku XLSB przy użyciu Aspose.Cells dla .NET. |  
-| [Regex Zamień](./regex-replace/) | Dowiedz się, jak wykonać zamianę wyrażeń regularnych w plikach Excel przy użyciu Aspose.Cells dla .NET. |  
-| [Zaktualizuj element formuły dodatku Power Query](./update-power-query-formula-item/) | Dowiedz się, jak aktualizować elementy formuł Power Query w plikach Excel przy użyciu Aspose.Cells dla platformy .NET. |  
-| [Podgląd wydruku skoroszytu](./workbook-print-preview/) | Dowiedz się, jak wygenerować podgląd wydruku skoroszytu za pomocą Aspose.Cells dla .NET. |  
-| [Praca z właściwościami typu zawartości](./working-with-content-type-properties/) | Dowiedz się, jak pracować z właściwościami typu zawartości przy użyciu Aspose.Cells dla .NET. |  
-| [Obsługa podpisów Xades](./xades-signature-support/) | Dowiedz się, jak dodać podpis Xades do pliku Excel przy użyciu Aspose.Cells dla .NET. |  
+| [Informacje o rozszerzeniu dostępu do sieci Web](./access-web-extension-information/) | Dowiedz się, jak uzyskać dostęp do informacji o rozszerzeniach internetowych w plikach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |  
+| [Dodaj podpis cyfrowy do już podpisanego pliku Excel](./add-digital-signature-to-an-already-signed-excel-file/) | Dowiedz się, jak dodać podpis cyfrowy do już podpisanego pliku Excela za pomocą Aspose.Cells dla .NET, korzystając z tego szczegółowego przewodnika krok po kroku. |  
+| [Dodaj rozszerzenie sieciowe](./add-web-extension/) | Dowiedz się, jak dodawać rozszerzenia internetowe do plików Excela za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompletnego samouczka krok po kroku, który udoskonali funkcjonalność arkusza kalkulacyjnego. |  
+| [Dostosuj poziom kompresji](./adjust-compression-level/) | Dowiedz się, jak dostosować poziomy kompresji plików Excela za pomocą Aspose.Cells dla .NET. Zoptymalizuj rozmiary plików efektywnie dzięki temu przewodnikowi krok po kroku. |  
+| [Zezwalaj na wiodący apostrof](./allow-leading-apostrophe/) | Bez wysiłku zarządzaj wiodącymi apostrofami w programie Excel dzięki Aspose.Cells dla .NET. Ten kompleksowy samouczek przeprowadzi Cię krok po kroku przez ten proces. |  
+| [Utwórz współdzielony skoroszyt](./create-shared-workbook/) | Dowiedz się, jak utworzyć współdzielony skoroszyt przy użyciu Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Idealne do usprawnienia współpracy zespołowej. |  
+| [Wykryj typy linków](./detect-link-types/) | Dowiedz się, jak wykrywać typy hiperłączy w programie Excel za pomocą Aspose.Cells dla .NET. Dołączono proste kroki i przykłady kodu. |  
+| [Wyodrębnij osadzony plik Mol](./extract-embedded-mol-file/) | Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel przy użyciu Aspose.Cells dla platformy .NET. |  
+| [Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) | tym kompleksowym przewodniku dowiesz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla platformy .NET. |  
+| [Uzyskaj szczegóły Odata](./get-odata-details/) | Dowiedz się, jak wyodrębnić szczegóły OData z programu Excel za pomocą Aspose.Cells dla .NET, korzystając z tego szczegółowego samouczka krok po kroku. |  
+| [Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem](./password-protect-or-unprotect-shared-workbook/) | Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń. |  
+| [Odczyt i zapis połączenia zewnętrznego pliku XLSB](./read-and-write-external-connection-of-xlsb-file/) | W tym kompleksowym samouczku dowiesz się, jak zarządzać połączeniami zewnętrznymi w plikach XLSB przy użyciu Aspose.Cells dla platformy .NET. |  
+| [Zamień wyrażenie regularne](./regex-replace/) | Dowiedz się, jak efektywnie używać funkcji zastępowania wyrażeń regularnych w programie Excel za pomocą Aspose.Cells dla platformy .NET. Zwiększ produktywność i dokładność zadań wykonywanych w arkuszach kalkulacyjnych. |  
+| [Aktualizuj element formuły Power Query](./update-power-query-formula-item/) | Łatwa aktualizacja elementów formuły Power Query w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku, który usprawni procesy manipulacji danymi. |  
+| [Podgląd wydruku skoroszytu](./workbook-print-preview/) | Dowiedz się, jak tworzyć podglądy wydruku plików Excela przy użyciu Aspose.Cells dla .NET. Poznaj kroki kodowania w szczegółowym, łatwym do naśladowania samouczku. |  
+| [Praca z właściwościami typu zawartości](./working-with-content-type-properties/) | Dowiedz się, jak używać Aspose.Cells dla .NET do pracy z właściwościami typu zawartości w celu ulepszonego zarządzania metadanymi programu Excel. Postępuj zgodnie z tym prostym przewodnikiem krok po kroku. |  
+| [Wsparcie dla podpisu Xades](./xades-signature-support/) | Dowiedz się, jak dodawać podpisy Xades do plików Excela za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zabezpiecz swoje dokumenty. |  

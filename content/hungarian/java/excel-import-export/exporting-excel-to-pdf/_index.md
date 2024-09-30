@@ -75,7 +75,7 @@ Ebben a szakaszban sikeresen konvertált egy Excel-fájlt PDF-dokumentummá. Jav
 
 ## Következtetés
 
-Gratulálunk! Elsajátította az Excel fájlok PDF formátumba történő exportálását az Aspose.Cells for Java könyvtár használatával. Ez a hatékony eszköz leegyszerűsíti az Excel-fájlok programozott kezelését, és könnyedén hozhat létre PDF-dokumentumokat Excel-adataiból.
+Gratulálok! Elsajátította az Excel fájlok PDF formátumba történő exportálását az Aspose.Cells for Java könyvtár használatával. Ez a hatékony eszköz leegyszerűsíti az Excel-fájlok programozott kezelését, és könnyedén hozhat létre PDF-dokumentumokat Excel-adataiból.
 
 ---
 

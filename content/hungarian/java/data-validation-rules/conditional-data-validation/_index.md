@@ -70,7 +70,7 @@ Most, hogy meghatározta az érvényesítési feltételeket, alkalmazza azokat a
 
 ```java
 worksheet.getCells().get("A1").setValue(50); // Érvényes bevitel
-worksheet.getCells().get("A2").setValue(150); // Hibás bemenet
+worksheet.getCells().get("A2").setValue(150); // Érvénytelen bevitel
 ```
 
 ## 7. lépés: Mentse el a munkafüzetet

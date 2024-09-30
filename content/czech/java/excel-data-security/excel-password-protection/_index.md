@@ -17,12 +17,12 @@ V digitálním věku je zabezpečení vašich citlivých dat prvořadé. Tabulky
 Než se ponoříte do světa ochrany heslem aplikace Excel pomocí Aspose.Cells for Java, musíte se ujistit, že máte potřebné nástroje a znalosti:
 
 - Vývojové prostředí Java
--  Aspose.Cells for Java API (Můžete si jej stáhnout[tady](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells for Java API (Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/java/)
 - Základní znalost programování v Javě
 
 ## Nastavení prostředí
 
-Pro začátek byste měli nastavit vývojové prostředí. Následuj tyto kroky:
+Pro začátek byste měli nastavit vývojové prostředí. Postupujte takto:
 
 1. Nainstalujte si Javu, pokud jste to ještě neudělali.
 2. Stáhněte si Aspose.Cells for Java z poskytnutého odkazu.
@@ -114,7 +114,7 @@ Ano, pomocí Aspose.Cells for Java můžete nastavit různá hesla pro jednotliv
 
 ### Je možné chránit konkrétní buňky nebo rozsahy v listu aplikace Excel?
 
-Rozhodně. Můžete chránit konkrétní buňky nebo rozsahy nastavením možností ochrany listu pomocí Aspose.Cells for Java.
+Jistě. Můžete chránit konkrétní buňky nebo rozsahy nastavením možností ochrany listu pomocí Aspose.Cells for Java.
 
 ### Mohu změnit heslo pro již chráněný soubor Excel?
 
@@ -122,4 +122,4 @@ Ano, heslo pro již chráněný soubor Excel můžete změnit načtením souboru
 
 ### Existují nějaká omezení ochrany heslem v souborech aplikace Excel?
 
-Ochrana heslem v souborech aplikace Excel je silným bezpečnostním opatřením, ale pro maximalizaci zabezpečení je nezbytné volit silná hesla a udržovat je v tajnosti.
+Ochrana heslem v souborech aplikace Excel je silným bezpečnostním opatřením, ale pro maximalizaci zabezpečení je nezbytné zvolit silná hesla a udržovat je v tajnosti.

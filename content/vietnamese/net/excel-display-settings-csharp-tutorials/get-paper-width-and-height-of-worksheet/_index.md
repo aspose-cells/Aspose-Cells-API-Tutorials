@@ -1,90 +1,108 @@
 ---
-title: Lấy chiều rộng và chiều cao của giấy của bảng tính
-linktitle: Lấy chiều rộng và chiều cao của giấy của bảng tính
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tạo hướng dẫn từng bước để giải thích mã nguồn C# sau đây nhằm lấy chiều rộng và chiều cao của giấy của bảng tính bằng Aspose.Cells cho .NET.
+title: Lấy Chiều Rộng Và Chiều Cao Của Trang Tính
+linktitle: Lấy Chiều Rộng Và Chiều Cao Của Trang Tính
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách lấy chiều rộng và chiều cao trang của bảng tính trong Aspose.Cells cho .NET bằng hướng dẫn từng bước đơn giản.
 type: docs
 weight: 80
 url: /vi/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
 ---
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước để giải thích mã nguồn C# sau đây để lấy chiều rộng và chiều cao của giấy của trang tính bằng Aspose.Cells cho .NET. Làm theo các bước dưới đây:
+## Giới thiệu
 
-## Bước 1: Tạo sổ làm việc
- Bắt đầu bằng cách tạo một sổ làm việc mới bằng cách sử dụng`Workbook` lớp học:
+Bạn đã bao giờ thử in một bảng tính Excel và xử lý các kích thước khó hiểu của nhiều kích thước giấy khác nhau chưa? Nếu bạn giống tôi, bạn biết rằng không có gì có thể làm hỏng ngày của bạn như một bố cục không đúng! Cho dù bạn đang in báo cáo, hóa đơn hay chỉ là một danh sách đơn giản, việc hiểu cách điều chỉnh kích thước giấy theo chương trình có thể giúp bạn tránh được rất nhiều rắc rối. Hôm nay, chúng ta sẽ đi sâu vào thế giới của Aspose.Cells cho .NET để xem xét cách truy xuất và thiết lập kích thước giấy trực tiếp trong ứng dụng của bạn. Hãy xắn tay áo lên và bắt tay vào thực hiện những điều cốt lõi trong việc quản lý các kích thước giấy đó!
 
-```csharp
-Workbook wb = new Workbook();
-```
+## Điều kiện tiên quyết 
 
-## Bước 2: Truy cập bảng tính đầu tiên
- Tiếp theo, điều hướng đến bảng tính đầu tiên trong sổ làm việc bằng cách sử dụng`Worksheet` lớp học:
+Trước khi đi sâu vào phép thuật mã hóa, chúng ta hãy cùng tìm hiểu những gì bạn cần để bắt đầu:
 
-```csharp
-Worksheet ws = wb.Worksheets[0];
-```
+1. Hiểu biết cơ bản về C#: Bạn nên có kiến thức cơ bản về C#. Nếu bạn mới học lập trình, đừng lo lắng! Chúng tôi sẽ hướng dẫn bạn một cách đơn giản.
+2.  Thư viện Aspose.Cells: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells cho .NET trên máy của mình. Bạn có thể tải xuống từ[liên kết này](https://releases.aspose.com/cells/net/).
+3. Môi trường phát triển .NET: Thiết lập Visual Studio hoặc bất kỳ IDE nào bạn chọn để viết và thực thi mã C#. Nếu bạn không chắc chắn nên bắt đầu từ đâu, Visual Studio Community Edition là lựa chọn đáng tin cậy.
+4.  Tài liệu tham khảo và tài liệu: Làm quen với tài liệu Aspose.Cells để có cái nhìn sâu sắc hơn. Bạn có thể tìm thấy nó[đây](https://reference.aspose.com/cells/net/).
+5. Kiến thức cơ bản về tệp Excel: Hiểu cách cấu trúc các tệp Excel (bảng tính, hàng và cột) sẽ giúp ích rất nhiều.
 
-## Bước 3: Đặt khổ giấy thành A2 và hiển thị chiều rộng và chiều cao của giấy tính bằng inch
- Sử dụng`PaperSize` tài sản của`PageSetup` để đặt khổ giấy thành A2, sau đó sử dụng`PaperWidth` Và`PaperHeight` Properties để có được chiều rộng và chiều cao của giấy tương ứng. Hiển thị các giá trị này bằng cách sử dụng`Console.WriteLine` phương pháp:
+Tuyệt! Bây giờ chúng ta đã kiểm tra xong những điều cần thiết, hãy bắt đầu nhập các gói cần thiết.
 
-```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-```
+## Nhập gói
 
-## Bước 4: Lặp lại các bước cho các khổ giấy khác
-Lặp lại các bước trước đó, thay đổi khổ giấy thành A3, A4 và Letter, sau đó hiển thị giá trị chiều rộng và chiều cao của giấy cho từng khổ:
+ Để làm cho cuộc sống của chúng ta dễ dàng hơn và tận dụng toàn bộ sức mạnh của Aspose.Cells, chúng ta cần nhập một vài gói. Đơn giản như việc thêm một`using` câu lệnh ở đầu tệp mã của bạn. Sau đây là những gì bạn cần nhập:
 
 ```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+using System;
+using System.IO;
 ```
 
-### Mã nguồn mẫu để lấy chiều rộng và chiều cao của trang tính bằng Aspose.Cells cho .NET 
+Dòng này cho phép chúng ta truy cập tất cả các lớp và phương thức trong thư viện Aspose.Cells, giúp thao tác các tệp Excel dễ dàng hơn. Bây giờ, chúng ta hãy cùng tìm hiểu hướng dẫn từng bước về cách lấy chiều rộng và chiều cao của giấy cho nhiều kích cỡ giấy khác nhau.
+
+## Bước 1: Tạo một Workbook mới
+
+Bước đầu tiên khi làm việc với Aspose.Cells là tạo một sổ làm việc mới. Hãy nghĩ về sổ làm việc như một khung vẽ trống nơi bạn có thể thêm các trang tính, ô và trong trường hợp của chúng tôi, xác định kích thước giấy.
 
 ```csharp
 //Tạo sổ làm việc
 Workbook wb = new Workbook();
+```
+
+Dòng này khởi tạo một đối tượng sổ làm việc mới, sẵn sàng để chúng ta thao tác. Bạn sẽ không thấy gì ngay bây giờ, nhưng canvas của chúng ta đã được thiết lập!
+
+## Bước 2: Truy cập vào Bảng tính đầu tiên
+
+Bây giờ chúng ta đã có sổ làm việc, chúng ta cần truy cập vào một trang tính cụ thể trong đó. Trang tính giống như một trang duy nhất trong sổ làm việc của bạn và đó là nơi diễn ra mọi hành động.
+
+```csharp
 //Truy cập bảng tính đầu tiên
 Worksheet ws = wb.Worksheets[0];
-//Đặt khổ giấy thành A2 và in chiều rộng và chiều cao của giấy tính bằng inch
+```
+
+Ở đây, chúng ta lấy worksheet đầu tiên (index 0) từ workbook của chúng ta. Bạn có thể nghĩ về nó giống như lật đến trang đầu tiên của một cuốn sách. 
+
+## Bước 3: Thiết lập kích thước giấy và lấy kích thước
+
+Bây giờ đến phần thú vị! Chúng ta sẽ thiết lập các kích thước giấy khác nhau và lấy kích thước của chúng từng cái một. Bước này rất quan trọng vì nó cho phép chúng ta thấy các kích thước khác nhau ảnh hưởng đến bố cục như thế nào.
+
+```csharp
+//Đặt kích thước giấy thành A2 và in chiều rộng và chiều cao của giấy theo inch
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Đặt khổ giấy thành A3 và in chiều rộng và chiều cao của giấy tính bằng inch
+```
+
+ Trong khối này, chúng tôi đặt kích thước giấy là A2 và sau đó lấy chiều rộng và chiều cao của nó.`PaperWidth` Và`PaperHeight` thuộc tính cung cấp kích thước tính bằng inch. Giống như việc kiểm tra kích thước của khung trước khi đặt ảnh vào đó.
+
+## Bước 4: Lặp lại cho các kích thước giấy khác
+
+Hãy lặp lại quy trình cho các kích thước giấy phổ biến khác. Chúng ta sẽ kiểm tra kích thước A3, A4 và Letter. Việc lặp lại này rất quan trọng để hiểu cách xác định từng kích thước trong khuôn khổ Aspose.Cells.
+
+```csharp
+//Đặt kích thước giấy thành A3 và in chiều rộng và chiều cao của giấy theo inch
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Đặt khổ giấy thành A4 và in chiều rộng và chiều cao của giấy tính bằng inch
+//Đặt kích thước giấy thành A4 và in chiều rộng và chiều cao của giấy theo inch
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Đặt khổ giấy thành Letter và in chiều rộng và chiều cao của giấy tính bằng inch
+//Đặt kích thước giấy thành Letter và in chiều rộng và chiều cao của giấy theo inch
 ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
+ Mỗi khối này mô phỏng bước trước đó nhưng điều chỉnh`PaperSize` tài sản theo đó. Chỉ cần thay đổi chỉ báo kích thước, bạn có thể dễ dàng có được các kích thước giấy khác nhau. Giống như thay đổi kích thước của một hộp dựa trên những gì bạn cần lưu trữ!
 
 ## Phần kết luận
 
-Bạn đã học cách sử dụng Aspose.Cells cho .NET để lấy chiều rộng và chiều cao của giấy của bảng tính. Tính năng này có thể hữu ích cho việc cấu hình và bố cục chính xác các tài liệu Excel của bạn.
+Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có thể dễ dàng thiết lập và lấy kích thước của nhiều kích thước giấy khác nhau trong Aspose.Cells cho .NET. Khả năng này không chỉ giúp bạn tiết kiệm thời gian mà còn ngăn ngừa sự cố in ấn có thể xảy ra do thiết lập trang không đúng cấu hình. Vì vậy, lần sau khi bạn phải in một bảng tính Excel hoặc tạo báo cáo, bạn có thể tự tin thực hiện, biết rằng bạn có kích thước trong tay. 
 
-### Câu hỏi thường gặp (FAQ)
+## Câu hỏi thường gặp
 
-#### Aspose.Cells cho .NET là gì?
+### Aspose.Cells là gì?
+Aspose.Cells là thư viện .NET được thiết kế để xử lý các tệp Excel mà không cần cài đặt Excel.
 
-Aspose.Cells for .NET là một thư viện mạnh mẽ để thao tác và xử lý các tệp Excel trong các ứng dụng .NET. Nó cung cấp nhiều tính năng để tạo, sửa đổi, chuyển đổi và phân tích các tệp Excel.
+### Tôi có thể sử dụng Aspose.Cells miễn phí không?
+ Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com/).
 
-#### Làm cách nào tôi có thể lấy khổ giấy của bảng tính bằng Aspose.Cells cho .NET?
+### Làm thế nào để tôi có thể thiết lập kích thước giấy tùy chỉnh?
+ Aspose.Cells cung cấp các tùy chọn để thiết lập kích thước giấy tùy chỉnh bằng cách sử dụng`PageSetup` lớp học.
 
- Bạn có thể dùng`PageSetup` lớp học của`Worksheet` đối tượng để truy cập kích thước giấy. Sử dụng`PaperSize` thuộc tính để thiết lập khổ giấy và`PaperWidth` Và`PaperHeight` Properties để có được chiều rộng và chiều cao của giấy tương ứng.
+### Tôi có cần kiến thức lập trình để sử dụng Aspose.Cells không?
+Kiến thức lập trình cơ bản sẽ hữu ích, nhưng bạn có thể làm theo hướng dẫn để hiểu dễ hơn!
 
-#### Aspose.Cells for .NET hỗ trợ những khổ giấy nào?
-
-Aspose.Cells for .NET hỗ trợ nhiều loại khổ giấy thường được sử dụng, chẳng hạn như A2, A3, A4 và Letter, cũng như nhiều kích thước tùy chỉnh khác.
-
-#### Tôi có thể tùy chỉnh kích thước giấy của bảng tính bằng Aspose.Cells cho .NET không?
-
- Có, bạn có thể đặt khổ giấy tùy chỉnh bằng cách chỉ định kích thước chiều rộng và chiều cao chính xác bằng cách sử dụng`PaperWidth` Và`PaperHeight` thuộc tính của`PageSetup` lớp học.
+### Tôi có thể tìm thêm ví dụ ở đâu?
+ Các[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) cung cấp nhiều ví dụ và hướng dẫn.

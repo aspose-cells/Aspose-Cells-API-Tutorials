@@ -1,8 +1,8 @@
 ---
-title: Crear validación de datos personalizada
-linktitle: Crear validación de datos personalizada
-second_title: API de procesamiento de Excel Java de Aspose.Cells
-description: Aprenda a crear una validación de datos personalizada utilizando Aspose.Cells para Java. Guía paso a paso con código fuente.
+title: Creación de una validación de datos personalizada
+linktitle: Creación de una validación de datos personalizada
+second_title: API de procesamiento de Excel en Java Aspose.Cells
+description: Aprenda a crear una validación de datos personalizada con Aspose.Cells para Java. Guía paso a paso con código fuente.
 type: docs
 weight: 10
 url: /es/java/data-validation-rules/creating-custom-data-validation/
@@ -10,19 +10,19 @@ url: /es/java/data-validation-rules/creating-custom-data-validation/
 
 ## Introducción
 
-La validación de datos ayuda a mantener la integridad de los datos al evitar que los usuarios ingresen datos incorrectos o no válidos en hojas de cálculo de Excel. Si bien Excel ofrece opciones de validación de datos integradas, existen escenarios en los que es necesario definir reglas de validación personalizadas. Aspose.Cells para Java le permite lograr esto de manera eficiente.
+La validación de datos ayuda a mantener la integridad de los datos al evitar que los usuarios ingresen datos incorrectos o no válidos en las hojas de cálculo de Excel. Si bien Excel ofrece opciones de validación de datos integradas, existen situaciones en las que es necesario definir reglas de validación personalizadas. Aspose.Cells para Java le permite lograr esto de manera eficiente.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de profundizar en el código, asegúrese de tener los siguientes requisitos previos:
+Antes de sumergirse en el código, asegúrese de tener los siguientes requisitos previos:
 
--  Aspose.Cells para Java: descargue e instale la biblioteca desde[aquí](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells para Java: Descargue e instale la biblioteca desde[aquí](https://releases.aspose.com/cells/java/).
 
-## Paso 1: configurar su proyecto Java
+## Paso 1: Configuración del proyecto Java
 
-Para comenzar, cree un nuevo proyecto Java en su entorno de desarrollo integrado (IDE) preferido. Agregue la biblioteca Aspose.Cells para Java al classpath de su proyecto.
+Para comenzar, cree un nuevo proyecto Java en su entorno de desarrollo integrado (IDE) preferido. Agregue la biblioteca Aspose.Cells para Java a la ruta de clases de su proyecto.
 
-## Paso 2: crear un libro de Excel
+## Paso 2: Crear un libro de trabajo de Excel
 
 Comencemos creando un nuevo libro de Excel usando Aspose.Cells para Java.
 
@@ -31,21 +31,21 @@ Comencemos creando un nuevo libro de Excel usando Aspose.Cells para Java.
 Workbook workbook = new Workbook();
 ```
 
-## Paso 3: agregar una hoja de trabajo
+## Paso 3: Agregar una hoja de trabajo
 
 Ahora, agreguemos una hoja de trabajo al libro de trabajo donde aplicaremos nuestra validación de datos personalizada.
 
 ```java
-// Código Java para agregar una hoja de trabajo.
+// Código Java para agregar una hoja de cálculo
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Paso 4: Definir criterios de validación personalizados
+## Paso 4: Definición de criterios de validación personalizados
 
-En este paso, definiremos los criterios de validación personalizados que deben cumplir nuestros datos. Digamos que queremos restringir la edad ingresada en una celda para que esté entre 18 y 60 años.
+En este paso, definiremos los criterios de validación personalizados que deben cumplir nuestros datos. Supongamos que queremos restringir la edad ingresada en una celda a un valor entre 18 y 60 años.
 
 ```java
-// Código Java para definir criterios de validación personalizados.
+// Código Java para definir criterios de validación personalizados
 Validation validation = worksheet.getValidations().add();
 validation.setType(ValidationType.WHOLE);
 validation.setOperator(OperatorType.BETWEEN);
@@ -62,28 +62,28 @@ validation.setErrorMessage("Age must be between 18 and 60.");
 Ahora que hemos definido nuestros criterios de validación personalizados, apliquémoslos a un rango específico de celdas.
 
 ```java
-// Código Java para aplicar la validación de datos a un rango.
+// Código Java para aplicar la validación de datos a un rango
 CellArea area = new CellArea();
 area.startRow = 0;
 area.startColumn = 0;
-area.endRow = 9; // Aplicar validación a las primeras diez filas.
+area.endRow = 9; // Aplicar validación a las primeras diez filas
 area.endColumn = 0;
 
 validation.addArea(area);
 ```
 
-## Paso 6: guardar el archivo de Excel
+## Paso 6: Guardar el archivo Excel
 
-Finalmente, guarde el archivo de Excel con las reglas de validación de datos personalizadas aplicadas.
+Por último, guarde el archivo Excel con las reglas de validación de datos personalizadas aplicadas.
 
 ```java
-// Código Java para guardar el archivo Excel.
+// Código Java para guardar el archivo Excel
 workbook.save("CustomDataValidation.xlsx");
 ```
 
 ## Conclusión
 
-En este tutorial, exploramos cómo crear reglas de validación de datos personalizadas usando Aspose.Cells para Java. Si sigue estos pasos, puede asegurarse de que sus datos de Excel cumplan con criterios específicos, mejorando la integridad y precisión de los datos.
+En este tutorial, hemos explorado cómo crear reglas de validación de datos personalizadas con Aspose.Cells para Java. Si sigue estos pasos, podrá asegurarse de que sus datos de Excel cumplan con criterios específicos, lo que mejorará la integridad y la precisión de los datos.
 
 ## Preguntas frecuentes
 
@@ -91,18 +91,18 @@ En este tutorial, exploramos cómo crear reglas de validación de datos personal
 
  Puede descargar Aspose.Cells para Java desde el sitio web en[aquí](https://releases.aspose.com/cells/java/).
 
-### ¿Puedo aplicar validación de datos personalizada a múltiples rangos en la misma hoja de trabajo?
+### ¿Puedo aplicar la validación de datos personalizada a múltiples rangos en la misma hoja de cálculo?
 
-Sí, puede aplicar validación de datos personalizada a múltiples rangos dentro de la misma hoja de trabajo repitiendo el Paso 5 para cada rango deseado.
+Sí, puede aplicar la validación de datos personalizada a múltiples rangos dentro de la misma hoja de cálculo repitiendo el Paso 5 para cada rango deseado.
 
-### ¿Existen otros tipos de validación de datos admitidos por Aspose.Cells para Java?
+### ¿Existen otros tipos de validación de datos compatibles con Aspose.Cells para Java?
 
-Sí, Aspose.Cells para Java admite varios tipos de validación de datos, incluidos números enteros, decimales, fecha, hora, longitud del texto y más.
+Sí, Aspose.Cells para Java admite varios tipos de validación de datos, incluidos números enteros, decimales, fecha, hora, longitud de texto y más.
 
 ### ¿Cómo puedo personalizar el mensaje de error que se muestra cuando falla la validación de datos?
 
- Puede personalizar el mensaje de error modificando el`setErrorMessage` método en el Paso 4, donde se definen los criterios de validación.
+ Puede personalizar el mensaje de error modificando el`setErrorMessage` método en el paso 4, donde se definen los criterios de validación.
 
-### ¿Aspose.Cells para Java funciona con archivos de Excel en diferentes formatos?
+### ¿Aspose.Cells para Java funciona con archivos Excel en diferentes formatos?
 
-Sí, Aspose.Cells para Java admite una amplia gama de formatos de archivos de Excel, incluidos XLS, XLSX, XLSM y más.
+Sí, Aspose.Cells para Java admite una amplia gama de formatos de archivos Excel, incluidos XLS, XLSX, XLSM y más.

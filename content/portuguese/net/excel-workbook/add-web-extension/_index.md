@@ -1,125 +1,148 @@
 ---
-title: Adicionar extensão da web
-linktitle: Adicionar extensão da web
+title: Adicionar extensão da Web
+linktitle: Adicionar extensão da Web
 second_title: Referência da API Aspose.Cells para .NET
-description: Adicione facilmente extensão da web às suas pastas de trabalho do Excel com Aspose.Cells for .NET.
+description: Aprenda como adicionar extensões da Web a arquivos do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo completo que aprimora as funcionalidades da sua planilha.
 type: docs
 weight: 40
 url: /pt/net/excel-workbook/add-web-extension/
 ---
-Neste tutorial passo a passo, explicaremos o código-fonte C# fornecido que permitirá adicionar uma extensão da web usando Aspose.Cells for .NET. Siga as etapas abaixo para adicionar uma extensão da web à sua pasta de trabalho do Excel.
+## Introdução
 
-## Etapa 1: definir o diretório de saída
+Neste guia, nós o guiaremos pelo processo de adicionar extensões da Web a uma pasta de trabalho do Excel com o Aspose.Cells para .NET. Não importa se você está criando um painel de dados poderoso ou automatizando tarefas de relatórios, este tutorial fornecerá os insights necessários para enriquecer seus aplicativos do Excel.
+
+## Pré-requisitos
+
+Antes de pularmos para os detalhes da codificação, vamos garantir que você tenha tudo o que precisa. Aqui estão os pré-requisitos para começar com Aspose.Cells para .NET:
+
+1. Visual Studio: certifique-se de ter o Visual Studio instalado, pois escreveremos nosso código neste IDE.
+2. .NET Framework: Familiaridade com o .NET Framework (de preferência .NET Core ou .NET 5/6).
+3.  Biblioteca Aspose.Cells: Você precisa ter a biblioteca Aspose.Cells. Se você ainda não baixou, pegue a versão mais recente[aqui](https://releases.aspose.com/cells/net/) ou experimente gratuitamente[aqui](https://releases.aspose.com/).
+4. Conhecimento básico de C#: uma compreensão fundamental da programação em C# ajudará você a acompanhar os exemplos.
+
+Depois de cumprir esses pré-requisitos, você estará pronto para liberar todo o potencial do Aspose.Cells!
+
+## Pacotes de importação
+
+Para trabalhar com Aspose.Cells, você precisa primeiro importar os pacotes necessários. Veja como fazer isso:
+
+1. Abra seu projeto: no Visual Studio, comece abrindo seu projeto.
+2. Adicionar referência: clique com o botão direito do mouse no seu projeto no Solution Explorer, selecione Gerenciar pacotes NuGet e pesquise por`Aspose.Cells`. Instale o pacote no seu projeto.
+3. Importar namespaces necessários: na parte superior do seu arquivo de código, você deve adicionar a seguinte diretiva using para o namespace Aspose.Cells:
 
 ```csharp
-// Diretório de saída
+using Aspose.Cells;
+```
+
+Agora que você configurou seu ambiente, vamos passar para a parte de codificação!
+
+Agora estamos prontos para adicionar uma extensão da Web a uma pasta de trabalho do Excel. Siga estas etapas com atenção:
+
+## Etapa 1: Configurar o diretório de saída
+
+Primeiro, você precisa configurar o diretório de saída onde salvará sua pasta de trabalho modificada. Isso ajuda a manter seus arquivos organizados.
+
+```csharp
 string outDir = RunExamples.Get_OutputDirectory();
 ```
+ Aqui,`RunExamples.Get_OutputDirectory()` é um método que recupera o caminho para o diretório de saída. Você pode modificar isso para apontar para qualquer local no seu sistema.
 
-Nesta primeira etapa, definimos o diretório de saída onde a pasta de trabalho modificada do Excel será salva.
+## Etapa 2: Criar uma nova pasta de trabalho
 
-## Etapa 2: crie uma nova pasta de trabalho
+Em seguida, vamos criar uma nova instância de uma Workbook. É aqui que toda a mágica acontece!
 
 ```csharp
-// Crie uma nova pasta de trabalho
 Workbook workbook = new Workbook();
 ```
+Esta linha inicializa uma nova pasta de trabalho. Pense em uma pasta de trabalho como uma tela em branco onde você adicionará sua extensão web e outras funcionalidades.
 
-Aqui estamos criando uma nova pasta de trabalho do Excel usando o`Workbook` classe de Aspose.Cells.
+## Etapa 3: Acessar coleções de extensões da Web e painéis de tarefas
 
-## Etapa 3: acesse a coleção de extensões da Web
+Agora, você precisará acessar as coleções de Extensões da Web e Painéis de Tarefas na pasta de trabalho.
 
 ```csharp
-// Acesse a coleção de extensões da web
 WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
+WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
 ```
+Isso recupera duas coleções:
+- `WebExtensionCollection` contém as extensões da web que você pode adicionar.
+- `WebExtensionTaskPaneCollection` gerencia os painéis de tarefas associados a essas extensões.
 
- Acessamos a coleção de extensões da web da pasta de trabalho do Excel usando o`WebExtensions` propriedade do`Worksheets` objeto.
+## Etapa 4: Adicionar uma nova extensão da Web
 
-## Etapa 4: adicione uma nova extensão da web
+Agora, vamos adicionar uma nova extensão da web à pasta de trabalho.
 
 ```csharp
-// Adicione uma nova extensão da web
 int extensionIndex = extensions.Add();
+```
+ O`Add()` O método cria uma nova extensão web e retorna seu índice. Isso permite que você acesse a extensão mais tarde.
+
+## Etapa 5: Configurar as propriedades da extensão da Web
+
+Depois de adicionar a extensão, é crucial configurar suas propriedades para que ela funcione conforme o esperado.
+
+```csharp
 WebExtension extension = extensions[extensionIndex];
 extension.Reference.Id = "wa104379955";
 extension.Reference.StoreName = "en-US";
 extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 ```
 
-Estamos adicionando uma nova extensão da web à coleção de extensões. Definimos o ID de referência, o nome da loja e o tipo de loja da extensão.
+- Id: Este é o identificador exclusivo para a extensão da web. Você pode encontrar extensões disponíveis na Office Store.
+- StoreName: especifica o idioma local.
+-  StoreType: Aqui, nós o definimos como`OMEX`, que indica um pacote de extensão da web.
 
-## Etapa 5: acesse a coleção do painel de tarefas de extensão da Web
+## Etapa 6: Adicionar e configurar o painel de tarefas
 
-```csharp
-// Acesse a coleção do painel de tarefas da extensão da web
-WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-```
-
- Acessamos a coleção de painéis de tarefas Excel Workbook Web Extension usando o`WebExtensionTaskPanes` propriedade do`Worksheets` objeto.
-
-## Etapa 6: adicionar um novo painel de tarefas
+Agora, vamos adicionar um Painel de Tarefas para tornar nossa extensão web interativa e visível na interface do usuário do Excel.
 
 ```csharp
-// Adicione um novo painel de tarefas
 int taskPaneIndex = taskPanes.Add();
-WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
-taskPane. IsVisible = true;
-taskPane. DockState = "right";
-taskPane. WebExtension = extension;
-```
-
-Estamos adicionando um novo painel de tarefas à coleção de painéis de tarefas. Definimos a visibilidade do painel, seu estado de encaixe e a extensão da web associada.
-
-## Etapa 7: salve e feche a pasta de trabalho
-
-```csharp
-// Salve e feche a pasta de trabalho
-workbook.Save(outDir + "AddWebExtension_Out.xlsx");
-Console.WriteLine("AddWebExtension executed successfully.");
-```
-
-Salvamos a pasta de trabalho modificada no diretório de saída especificado e a fechamos.
-
-### Exemplo de código-fonte para adicionar extensão da Web usando Aspose.Cells for .NET 
-```csharp
-//Diretório de origem
-string outDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook();
-WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
-WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-int extensionIndex = extensions.Add();
-int taskPaneIndex = taskPanes.Add();
-WebExtension extension = extensions[extensionIndex];
-extension.Reference.Id = "wa104379955";
-extension.Reference.StoreName = "en-US";
-extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
 taskPane.IsVisible = true;
 taskPane.DockState = "right";
 taskPane.WebExtension = extension;
+```
+
+- Adicionamos um novo painel de tarefas.
+-  Contexto`IsVisible` para`true` garante que ele seja exibido na pasta de trabalho.
+-  O`DockState` propriedade determina onde na interface do Excel o painel de tarefas aparecerá (neste caso, no lado direito).
+
+## Etapa 7: Salve a pasta de trabalho
+
+Nosso passo final é salvar a pasta de trabalho, que agora inclui nossa extensão web.
+
+```csharp
 workbook.Save(outDir + "AddWebExtension_Out.xlsx");
+```
+ Aqui, salvamos a pasta de trabalho no diretório de saída que especificamos anteriormente. Substituir`"AddWebExtension_Out.xlsx"` com qualquer nome de arquivo que você preferir.
+
+## Etapa 8: Confirmar execução
+
+Por fim, vamos imprimir uma mensagem de confirmação no console para indicar que tudo ocorreu sem problemas.
+
+```csharp
 Console.WriteLine("AddWebExtension executed successfully.");
 ```
+É sempre bom ter algum feedback. Esta mensagem confirma que sua extensão foi adicionada sem nenhum problema.
 
 ## Conclusão
 
-Parabéns! Agora você aprendeu como adicionar uma extensão da web usando Aspose.Cells for .NET. Experimente o código e explore recursos adicionais do Aspose.Cells para aproveitar ao máximo a manipulação de extensões da web em suas pastas de trabalho do Excel.
+Adicionar extensões da Web às suas pastas de trabalho do Excel usando o Aspose.Cells para .NET é um processo simples que pode melhorar significativamente a funcionalidade e a interatividade das suas planilhas. Com as etapas descritas neste guia, agora você pode estabelecer uma ponte entre seus dados do Excel e serviços baseados na Web, abrindo portas para uma infinidade de possibilidades. Quer você esteja procurando implementar análises, conectar-se com APIs ou simplesmente melhorar a interação do usuário, o Aspose.Cells tem tudo o que você precisa!
 
 ## Perguntas frequentes
 
-#### P: O que é uma extensão da web em uma pasta de trabalho do Excel?
+### O que são extensões da Web no Excel?
+As extensões da Web permitem a integração de conteúdo e funcionalidade da Web diretamente em uma pasta de trabalho do Excel, melhorando a interatividade.
 
-R: Uma extensão da web em uma pasta de trabalho do Excel é um componente que permite adicionar funcionalidades adicionais ao Excel integrando aplicativos da web. Ele pode oferecer recursos interativos, painéis personalizados, integrações externas e muito mais.
+### O Aspose.Cells é gratuito?
+ Aspose.Cells oferece um teste gratuito para fins de teste. Você pode aprender mais com o[Link de teste gratuito](https://releases.aspose.com/).
 
-#### P: Como adicionar extensão da web à pasta de trabalho do Excel com Aspose.Cells?
+### Posso comprar o Aspose.Cells?
+ Sim! Aspose.Cells é um software pago, e você pode comprá-lo[aqui](https://purchase.aspose.com/buy).
 
- R: Para adicionar uma extensão da web a uma pasta de trabalho do Excel com Aspose.Cells, você pode seguir as etapas fornecidas em nosso guia passo a passo. Use o`WebExtensionCollection` e`WebExtensionTaskPaneCollection` classes para adicionar e configurar a extensão da web e o painel de tarefas associado.
+### Quais linguagens de programação o Aspose.Cells suporta?
+O Aspose.Cells é principalmente para aplicativos .NET, mas também tem versões para Java e outras linguagens.
 
-#### P: Quais informações são necessárias para adicionar uma extensão da web?
-
-R: Ao adicionar uma extensão da web, você deve fornecer o ID do SKU da extensão, o nome da loja e o tipo de loja. Essas informações ajudam a identificar e carregar a extensão corretamente.
-
-#### P: Posso adicionar várias extensões da Web a uma única pasta de trabalho do Excel?
-
- R: Sim, você pode adicionar várias extensões da Web a uma única pasta de trabalho do Excel. Use o`Add` da coleção de extensões da web para adicionar cada extensão e associá-las aos painéis de tarefas correspondentes.
+### Onde posso encontrar suporte para o Aspose.Cells?
+Se você encontrar algum problema ou tiver dúvidas, visite o[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9) para obter assistência.

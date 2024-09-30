@@ -23,7 +23,7 @@ url: /el/java/data-validation-rules/date-validation-in-spreadsheets/
 
 Για να ξεκινήσετε, πρέπει να προσθέσετε τη βιβλιοθήκη Aspose.Cells στο έργο σας Java. Ακολουθήστε αυτά τα βήματα:
 
-1.  Κάντε λήψη της βιβλιοθήκης Aspose.Cells για Java από την παρεχόμενη[Σύνδεσμος](https://releases.aspose.com/cells/java/).
+1.  Κάντε λήψη της βιβλιοθήκης Aspose.Cells για Java από την παρεχόμενη[σύνδεσμος](https://releases.aspose.com/cells/java/).
 
 2. Συμπεριλάβετε το ληφθέν αρχείο JAR στη διαδρομή τάξης του έργου σας.
 
@@ -82,7 +82,7 @@ for (int row = 0; row < worksheet.getCells().getMaxDataRow(); row++) {
 workbook.save("updated_excel_file.xlsx");
 ```
 
-## συμπέρασμα
+## Σύναψη
 
 Σε αυτόν τον οδηγό, μάθαμε πώς να εκτελούμε επικύρωση ημερομηνίας σε υπολογιστικά φύλλα χρησιμοποιώντας το Aspose.Cells για Java. Η διασφάλιση της ακρίβειας των δεδομένων ημερομηνίας είναι ζωτικής σημασίας σε διάφορες εφαρμογές και με το Aspose.Cells, έχετε στη διάθεσή σας ένα ισχυρό εργαλείο για να το πετύχετε.
 

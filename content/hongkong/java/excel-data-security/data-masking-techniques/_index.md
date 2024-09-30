@@ -110,7 +110,7 @@ Aspose 為 Aspose.Cells for Java 提供了各種授權選項，包括免費試�
 
 ### 我可以將 Aspose.Cells for Java 與其他程式語言一起使用嗎？
 
-Aspose.Cells 主要針對 Java，但 Aspose 也提供其他語言（如 .NET、C）的函式庫++， 和更多。
+Aspose.Cells 主要針對 Java，但 Aspose 也提供其他語言（如 .NET、C）的函式庫++，等等。
 
 ### 數據屏蔽是可逆的嗎？
 

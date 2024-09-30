@@ -1,27 +1,27 @@
 ---
-title: تم إزالة الغموض عن وظائف نص Excel
-linktitle: تم إزالة الغموض عن وظائف نص Excel
-second_title: Aspose.Cells واجهة برمجة تطبيقات معالجة Java Excel
-description: اكتشف أسرار وظائف النص في Excel باستخدام Aspose.Cells لـ Java. تعلم كيفية التعامل مع النص واستخراجه وتحويله في Excel دون عناء.
+title: شرح وظائف النصوص في برنامج Excel
+linktitle: شرح وظائف النصوص في برنامج Excel
+second_title: واجهة برمجة تطبيقات معالجة Excel في Java من Aspose.Cells
+description: اكتشف أسرار وظائف النصوص في Excel باستخدام Aspose.Cells for Java. تعلم كيفية معالجة النصوص واستخراجها وتحويلها في Excel بسهولة.
 type: docs
 weight: 18
 url: /ar/java/basic-excel-functions/excel-text-functions-demystified/
 ---
 
-# تم إزالة الغموض عن وظائف نص Excel باستخدام Aspose.Cells لـ Java
+# شرح وظائف النصوص في Excel باستخدام Aspose.Cells للغة Java
 
-في هذا البرنامج التعليمي، سوف نتعمق في عالم معالجة النص في Excel باستخدام Aspose.Cells for Java API. سواء كنت مستخدمًا متمرسًا لبرنامج Excel أو بدأت للتو، فإن فهم وظائف النص يمكن أن يعزز مهاراتك في جداول البيانات بشكل كبير. سنستكشف وظائف النص المختلفة ونقدم أمثلة عملية لتوضيح استخدامها.
+في هذا البرنامج التعليمي، سنتعمق في عالم معالجة النصوص في Excel باستخدام واجهة برمجة التطبيقات Aspose.Cells for Java. سواء كنت مستخدمًا متمرسًا لبرنامج Excel أو كنت مبتدئًا، فإن فهم وظائف النص يمكن أن يعزز مهاراتك في استخدام جداول البيانات بشكل كبير. سنستكشف وظائف النص المختلفة ونقدم أمثلة عملية لتوضيح استخدامها.
 
 ## ابدء
 
- قبل أن نبدأ، تأكد من تثبيت Aspose.Cells for Java. يمكنك تنزيله[هنا](https://releases.aspose.com/cells/java/). بمجرد الانتهاء من إعداده، دعنا نتعمق في عالم وظائف نص Excel الرائع.
+ قبل أن نبدأ، تأكد من تثبيت Aspose.Cells for Java. يمكنك تنزيله[هنا](https://releases.aspose.com/cells/java/)بمجرد إعداده، دعنا ننتقل إلى عالم وظائف النص الرائعة في Excel.
 
-## CONCATENATE - الجمع بين النص
+## CONCATENATE - دمج النص
 
- ال`CONCATENATE`تتيح لك الوظيفة دمج النص من خلايا مختلفة. دعونا نرى كيفية القيام بذلك باستخدام Aspose.Cells لـ Java:
+ ال`CONCATENATE`تتيح لك الوظيفة دمج النص من خلايا مختلفة. دعنا نرى كيفية القيام بذلك باستخدام Aspose.Cells لـ Java:
 
 ```java
-// كود Java لتسلسل النص باستخدام Aspose.Cells
+// كود جافا لربط النص باستخدام Aspose.Cells
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cell cell = worksheet.getCells().get("A1");
@@ -30,21 +30,21 @@ cell.putValue("Hello, ");
 cell = worksheet.getCells().get("B1");
 cell.putValue("World!");
 
-// قم بتسلسل A1 وB1 في C1
+// دمج A1 وB1 في C1
 cell = worksheet.getCells().get("C1");
 cell.setFormula("=CONCATENATE(A1,B1)");
 
 workbook.calculateFormula();
 ```
 
-الآن، ستحتوي الخلية C1 على "Hello, World!".
+الآن، ستحتوي الخلية C1 على "مرحبا بالعالم!".
 
-## اليسار واليمين - استخراج النص
+## يسار ويمين - استخراج النص
 
- ال`LEFT` و`RIGHT` تسمح لك الوظائف باستخراج عدد محدد من الأحرف من يسار أو يمين سلسلة نصية. وإليك كيف يمكنك استخدامها:
+ ال`LEFT` و`RIGHT` تتيح لك الوظائف استخراج عدد محدد من الأحرف من يسار أو يمين سلسلة نصية. إليك كيفية استخدامها:
 
 ```java
-// كود Java لاستخراج النص باستخدام Aspose.Cells
+// كود جافا لاستخراج النص باستخدام Aspose.Cells
 Cell cell = worksheet.getCells().get("A2");
 cell.putValue("Excel Rocks!");
 
@@ -63,14 +63,14 @@ workbook.calculateFormula();
 
 ## LEN - عد الأحرف
 
- ال`LEN` تقوم الدالة بحساب عدد الأحرف في سلسلة نصية. دعونا نرى كيفية استخدامه مع Aspose.Cells لـ Java:
+ ال`LEN` تحسب الدالة عدد الأحرف في سلسلة نصية. دعنا نرى كيفية استخدامها مع Aspose.Cells لـ Java:
 
 ```java
 // كود جافا لحساب الأحرف باستخدام Aspose.Cells
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
-// عد الشخصيات
+// عد الحروف
 cell = worksheet.getCells().get("B3");
 cell.setFormula("=LEN(A3)");
 
@@ -79,12 +79,12 @@ workbook.calculateFormula();
 
 ستحتوي الخلية B3 على "5"، حيث يوجد 5 أحرف في "Excel".
 
-## العلوي والسفلي - حالة التغيير
+## UPPER و LOWER - تغيير الحالة
 
- ال`UPPER` و`LOWER` تتيح لك الوظائف تحويل النص إلى أحرف كبيرة أو صغيرة. وإليك كيف يمكنك القيام بذلك:
+ ال`UPPER` و`LOWER` تتيح لك الوظائف تحويل النص إلى أحرف كبيرة أو صغيرة. إليك كيفية القيام بذلك:
 
 ```java
-// كود Java لتغيير حالة الأحرف باستخدام Aspose.Cells
+// كود جافا لتغيير حالة الأحرف باستخدام Aspose.Cells
 Cell cell = worksheet.getCells().get("A4");
 cell.putValue("java programming");
 
@@ -99,22 +99,22 @@ cell.setFormula("=LOWER(A4)");
 workbook.calculateFormula();
 ```
 
-ستحتوي الخلية B4 على "برمجة جافا"، وستحتوي الخلية C4 على "برمجة جافا".
+ستحتوي الخلية B4 على "برمجة JAVA"، وستحتوي الخلية C4 على "برمجة Java".
 
 ## البحث والاستبدال - تحديد موقع النص واستبداله
 
- ال`FIND` تتيح لك الوظيفة تحديد موضع حرف معين أو نص معين داخل سلسلة، بينما`REPLACE` تساعدك الوظيفة على استبدال النص. دعونا نراهم في العمل:
+ ال`FIND` تتيح لك الوظيفة تحديد موضع حرف أو نص معين داخل سلسلة، بينما`REPLACE` تساعدك هذه الوظيفة على استبدال النص. دعنا نراها في العمل:
 
 ```java
-// كود Java للبحث والاستبدال باستخدام Aspose.Cells
+// كود جافا للبحث والاستبدال باستخدام Aspose.Cells
 Cell cell = worksheet.getCells().get("A5");
 cell.putValue("Search for me");
 
-// العثور على موقف "من أجل"
+// العثور على موضع "ل"
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 
-// استبدل "من أجل" بـ "مع"
+// استبدل "for" بـ "with"
 cell = worksheet.getCells().get("C5");
 cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 
@@ -125,13 +125,13 @@ workbook.calculateFormula();
 
 ## خاتمة
 
-تعد وظائف النص في Excel أدوات قوية لمعالجة البيانات النصية وتحليلها. باستخدام Aspose.Cells for Java، يمكنك بسهولة دمج هذه الوظائف في تطبيقات Java الخاصة بك، وأتمتة المهام المتعلقة بالنص وتعزيز قدرات Excel لديك. اكتشف المزيد من وظائف النص وأطلق العنان للإمكانات الكاملة لبرنامج Excel باستخدام Aspose.Cells لـ Java.
+تُعد وظائف النص في Excel أدوات فعّالة لمعالجة بيانات النص وتحليلها. باستخدام Aspose.Cells for Java، يمكنك بسهولة دمج هذه الوظائف في تطبيقات Java الخاصة بك، وأتمتة المهام المتعلقة بالنص وتعزيز قدرات Excel. استكشف المزيد من وظائف النص وأطلق العنان للإمكانات الكاملة لبرنامج Excel باستخدام Aspose.Cells for Java.
 
 ## الأسئلة الشائعة
 
-### كيف أقوم بتسلسل النص من خلايا متعددة؟
+### كيف أقوم بربط النص من خلايا متعددة؟
 
- لتسلسل النص من خلايا متعددة، استخدم`CONCATENATE` وظيفة. على سبيل المثال:
+ لربط النص من خلايا متعددة، استخدم`CONCATENATE` وظيفة. على سبيل المثال:
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
@@ -145,9 +145,9 @@ Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
 ```
 
-### كيف يمكنني حساب الأحرف في سلسلة نصية؟
+### كيف يمكنني حساب عدد الأحرف في سلسلة نصية؟
 
- استخدم ال`LEN` وظيفة لحساب الأحرف في سلسلة نصية. على سبيل المثال:
+ استخدم`LEN` وظيفة لحساب عدد الأحرف في سلسلة نصية. على سبيل المثال:
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
@@ -155,15 +155,15 @@ cell.setFormula("=LEN(A3)");
 
 ### هل من الممكن تغيير حالة النص؟
 
- نعم، يمكنك تحويل النص إلى أحرف كبيرة أو صغيرة باستخدام`UPPER` و`LOWER` المهام. على سبيل المثال:
+ نعم، يمكنك تحويل النص إلى أحرف كبيرة أو صغيرة باستخدام`UPPER` و`LOWER` الوظائف. على سبيل المثال:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
 ```
 
-### كيف يمكنني العثور على النص واستبداله داخل سلسلة؟
+### كيف يمكنني العثور على نص واستبداله داخل سلسلة؟
 
-للبحث عن نص واستبداله داخل سلسلة، استخدم الأمر`FIND` و`REPLACE` المهام. على سبيل المثال:
+للعثور على نص واستبداله داخل سلسلة، استخدم`FIND` و`REPLACE` الوظائف. على سبيل المثال:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");

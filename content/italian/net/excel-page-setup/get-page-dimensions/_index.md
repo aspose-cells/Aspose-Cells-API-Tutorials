@@ -1,107 +1,143 @@
 ---
 title: Ottieni le dimensioni della pagina
 linktitle: Ottieni le dimensioni della pagina
-second_title: Aspose.Cells per riferimento API .NET
-description: Scopri come recuperare le dimensioni della pagina in Excel utilizzando Aspose.Cells per .NET. Guida passo passo con codice sorgente in C#.
+second_title: Riferimento API Aspose.Cells per .NET
+description: Scopri come ottenere le dimensioni di pagina usando Aspose.Cells per .NET in questa guida passo-passo. Perfetta per gli sviluppatori che lavorano con file Excel.
 type: docs
 weight: 40
 url: /it/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells per .NET è una potente libreria che consente agli sviluppatori di lavorare con file di Microsoft Excel a livello di codice. Offre un'ampia gamma di funzionalità per la manipolazione di documenti Excel, inclusa la possibilità di ottenere le dimensioni della pagina. In questo tutorial, ti guideremo attraverso i passaggi per recuperare le dimensioni della pagina utilizzando Aspose.Cells per .NET.
+## Introduzione
 
-## Passaggio 1: crea un'istanza della classe Workbook
+Quando si tratta di gestire fogli di calcolo in applicazioni .NET, la libreria Aspose.Cells si distingue come uno strumento robusto che consente agli sviluppatori di manipolare facilmente i file Excel. Ma come si ottengono le dimensioni di pagina per vari formati di carta con questa potente libreria? In questo tutorial, ti guideremo passo dopo passo nel processo, assicurandoti non solo di ottenere informazioni sul funzionamento di Aspose.Cells, ma anche di diventare esperto nell'utilizzarlo nei tuoi progetti. 
 
-Per iniziare, dobbiamo creare un'istanza della classe Workbook, che rappresenta la cartella di lavoro di Excel. Ciò può essere ottenuto utilizzando il seguente codice:
+## Prerequisiti 
+
+Prima di passare alla parte di codifica, ecco alcune cose che dovrai avere a disposizione per seguire il tutorial in modo efficace:
+
+### Studio visivo
+Assicurati di avere Visual Studio installato sul tuo computer. È qui che scriverai ed eseguirai il tuo codice .NET.
+
+### Libreria Aspose.Cells
+Dovrai scaricare e fare riferimento alla libreria Aspose.Cells nel tuo progetto. Puoi ottenerla da:
+-  Link per il download:[Aspose.Cells per .NET](https://releases.aspose.com/cells/net/)
+
+### Conoscenza di base di C#
+Sarebbe utile avere una conoscenza di base di C#. Questo tutorial utilizzerà concetti fondamentali di programmazione che dovrebbero essere facili da seguire.
+
+Pronti a partire? Cominciamo!
+
+## Importazione di pacchetti
+
+Il primo passo del nostro viaggio è importare i pacchetti Aspose.Cells necessari nel nostro progetto C#. Ecco come puoi farlo:
+
+### Crea un nuovo progetto
+
+ Apri Visual Studio e crea un nuovo progetto C# Console Application. Puoi chiamarlo come preferisci, andiamo con`GetPageDimensions`.
+
+### Aggiungi riferimenti
+
+Per utilizzare Aspose.Cells, è necessario aggiungere riferimenti alla libreria:
+- Fare clic con il pulsante destro del mouse sul progetto in Esplora soluzioni.
+- Seleziona “Gestisci pacchetti NuGet”.
+- Cerca “Aspose.Cells” e installalo.
+
+### Aggiungere direttive di utilizzo
+
+ In cima al tuo`Program.cs` file, inserisci questa direttiva using per accedere alle funzionalità di Aspose.Cells:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Ora che abbiamo importato i pacchetti necessari, sei sulla buona strada! 
+
+Ora scopriamo come recuperare le dimensioni di vari formati di carta, esaminando ogni passaggio. 
+
+## Passaggio 1: creare un'istanza della classe Workbook
+
+La prima cosa che devi fare è creare un'istanza della classe Workbook da Aspose.Cells. Questa classe rappresenta un file Excel.
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## Passaggio 2: accesso al foglio di calcolo
+Qui creiamo semplicemente una nuova cartella di lavoro che conterrà i dati e le configurazioni del nostro foglio di calcolo.
 
-Successivamente, dobbiamo accedere al foglio di lavoro nella cartella di lavoro in cui vogliamo impostare le dimensioni della pagina. In questo esempio, supponiamo di voler lavorare con il primo foglio di lavoro. Possiamo accedervi utilizzando il seguente codice:
+## Passaggio 2: accedi al primo foglio di lavoro
+
+Dopo aver creato un'istanza della cartella di lavoro, vorrai accedere al primo foglio di lavoro. Ogni cartella di lavoro può contenere più fogli di lavoro, ma per questa dimostrazione ci limiteremo al primo.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## Passaggio 3: impostare il formato carta su A2 e stampare larghezza e altezza in pollici
+Questa riga recupera il primo foglio di lavoro, consentendoci di impostare le dimensioni della carta e di recuperare le rispettive dimensioni.
 
-Ora imposteremo il formato carta su A2 e stamperemo la larghezza e l'altezza della pagina in pollici. Ciò può essere ottenuto utilizzando il seguente codice:
+## Passaggio 3: impostazione del formato carta su A2 e recupero delle dimensioni
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Passaggio 4: imposta il formato carta su A3 e stampa larghezza e altezza in pollici
-
-Successivamente, imposteremo il formato carta su A3 e stamperemo la larghezza e l'altezza della pagina in pollici. Ecco il codice corrispondente:
+Ora è il momento di impostare il formato della carta e di prendere le dimensioni! Iniziamo con il formato della carta A2.
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Passaggio 5: impostare il formato carta su A4 e stampare larghezza e altezza in pollici
-
-Ora imposteremo il formato carta su A4 e stamperemo la larghezza e l'altezza della pagina in pollici. Ecco il codice:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## Passaggio 6: impostare il formato carta su Lettera e stampare la larghezza e l'altezza in pollici
-
-Infine, imposteremo il formato carta su Lettera e stamperemo la larghezza e l'altezza della pagina in pollici. Ecco il codice:
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### Codice sorgente di esempio per Get Page Dimensions utilizzando Aspose.Cells per .NET 
-```csharp
-// Crea un'istanza della classe Workbook
-Workbook book = new Workbook();
-// Accedi al primo foglio di lavoro
-Worksheet sheet = book.Worksheets[0];
-// Impostare il formato carta su A2 e stampare la larghezza e l'altezza della carta in pollici
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Impostare il formato carta su A3 e stampare la larghezza e l'altezza della carta in pollici
+```
+
+Questo codice imposta il formato carta su A2 e restituisce immediatamente larghezza e altezza. La bellezza di Aspose.Cells sta nella sua semplicità!
+
+## Passaggio 4: ripetere per altri formati di carta
+
+Dovrai ripetere questo procedimento per altri formati di carta come A3, A4 e Letter. Ecco come puoi farlo:
+
+Per A3:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Imposta il formato carta su A4 e stampa la larghezza e l'altezza della carta in pollici
+```
+
+Per A4:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-// Impostare il formato carta su Lettera e stampare la larghezza e l'altezza della carta in pollici
+```
+
+Per la lettera:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## Fase 5: Conclusione dell'output
+
+Infine, vorrai confermare che l'intera operazione sia stata completata con successo. Puoi semplicemente registrare questo stato nella console:
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## Conclusione
 
-Congratulazioni! Hai imparato come recuperare le dimensioni della pagina utilizzando Aspose.Cells per .NET. Questa funzionalità può essere utile quando è necessario eseguire operazioni specifiche in base alle dimensioni della pagina nei file Excel.
+Congratulazioni! Ora hai imparato con successo come recuperare le dimensioni di pagina per diversi formati di carta usando Aspose.Cells per .NET. Che tu stia sviluppando strumenti di reporting, fogli di calcolo automatizzati o funzioni di analisi dei dati, essere in grado di estrarre le dimensioni di pagina per vari formati può essere inestimabile. 
 
-Non dimenticare di esplorare ulteriormente la documentazione di Aspose.Cells per scoprire tutte le potenti funzionalità che offre.
+## Domande frequenti
 
-### Domande frequenti
+### Che cos'è Aspose.Cells?
+Aspose.Cells è una libreria .NET utilizzata per creare, manipolare e convertire file Excel senza richiedere Microsoft Excel.
 
-#### 1. Quali altri formati carta supporta Aspose.Cells per .NET?
+### Devo installare Microsoft Excel per utilizzare Aspose.Cells?
+No, Aspose.Cells è una libreria autonoma e non richiede l'installazione di Excel.
 
-Aspose.Cells per .NET supporta una varietà di formati carta tra cui A1, A5, B4, B5, Executive, Legal, Letter e molti altri. È possibile controllare la documentazione per l'elenco completo dei formati carta supportati.
+### Dove posso trovare altri esempi per Aspose.Cells?
+ Puoi consultare la documentazione qui:[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/).
 
-#### 2. Posso impostare dimensioni di pagina personalizzate con Aspose.Cells per .NET?
+### Esiste una versione di prova gratuita di Aspose.Cells?
+ Sì! Puoi ottenere una versione di prova gratuita da:[Prova gratuita di Aspose.Cells](https://releases.aspose.com/).
 
-Sì, puoi impostare dimensioni di pagina personalizzate specificando la larghezza e l'altezza desiderate. Aspose.Cells offre la massima flessibilità per personalizzare le dimensioni della pagina in base alle proprie esigenze.
-
-#### 3. Posso ottenere le dimensioni della pagina in unità diverse dai pollici?
-
-Sì, Aspose.Cells per .NET ti consente di ottenere le dimensioni della pagina in diverse unità, inclusi pollici, centimetri, millimetri e punti.
-
-#### 4. Aspose.Cells per .NET supporta altre funzionalità di modifica delle impostazioni della pagina?
-
-Sì, Aspose.Cells offre una gamma completa di funzionalità per la modifica delle impostazioni della pagina, inclusa l'impostazione dei margini, dell'orientamento, delle intestazioni e dei piè di pagina, ecc.
+### Come posso ottenere supporto per Aspose.Cells?
+ Puoi ottenere assistenza visitando il forum di supporto di Aspose:[Supporto Aspose.Cells](https://forum.aspose.com/c/cells/9).

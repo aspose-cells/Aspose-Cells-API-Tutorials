@@ -1,21 +1,21 @@
 ---
 title: Tworzenie tabel przestawnych
 linktitle: Tworzenie tabel przestawnych
-second_title: Aspose.Cells API przetwarzania Java Excel
-description: Dowiedz się, jak tworzyć zaawansowane tabele przestawne w Javie za pomocą Aspose.Cells w celu ulepszonej analizy i wizualizacji danych.
+second_title: Aspose.Cells Java Excel Processing API
+description: Dowiedz się, jak tworzyć zaawansowane tabele przestawne w języku Java za pomocą Aspose.Cells, co pozwoli na lepszą analizę i wizualizację danych.
 type: docs
 weight: 10
 url: /pl/java/excel-pivot-tables/creating-pivot-tables/
 ---
 ## Wstęp
-Tabele przestawne są niezbędnym narzędziem do analizy i wizualizacji danych. W tym samouczku omówimy, jak tworzyć tabele przestawne przy użyciu interfejsu API Aspose.Cells for Java. Dostarczymy Ci instrukcje krok po kroku wraz z przykładami kodu źródłowego, aby proces przebiegał bezproblemowo.
+Tabele przestawne są niezbędnymi narzędziami do analizy i wizualizacji danych. W tym samouczku pokażemy, jak tworzyć tabele przestawne przy użyciu Aspose.Cells for Java API. Udostępnimy instrukcje krok po kroku wraz z przykładami kodu źródłowego, aby uczynić ten proces płynnym.
 
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells for Java. Można go pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
+## Wymagania wstępne
+Zanim zaczniemy, upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells for Java. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Utwórz skoroszyt
 ```java
-// Zaimportuj niezbędne klasy
+// Importuj niezbędne klasy
 import com.aspose.cells.Workbook;
 
 // Utwórz nowy skoroszyt
@@ -23,14 +23,14 @@ Workbook workbook = new Workbook();
 ```
 
 ## Krok 2: Załaduj dane do skoroszytu
-Możesz załadować dane do skoroszytu z różnych źródeł, takich jak baza danych lub plik Excel.
+Dane do skoroszytu można załadować z różnych źródeł, na przykład z bazy danych lub pliku programu Excel.
 
 ```java
 // Załaduj dane do skoroszytu
 workbook.open("data.xlsx");
 ```
 
-## Krok 3: Wybierz dane dla tabeli przestawnej
+## Krok 3: Wybierz dane do tabeli przestawnej
 Określ zakres danych, który chcesz uwzględnić w tabeli przestawnej. 
 
 ```java
@@ -50,17 +50,17 @@ PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 ```
 
 ## Krok 5: Skonfiguruj tabelę przestawną
-Możesz skonfigurować tabelę przestawną, dodając wiersze, kolumny i wartości, ustawiając filtry i nie tylko.
+Możesz skonfigurować tabelę przestawną, dodając wiersze, kolumny i wartości, ustawiając filtry i wykonując inne czynności.
 
 ```java
-// Skonfiguruj tabelę przestawną
+// Konfigurowanie tabeli przestawnej
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);  // Dodaj wiersze
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);  // Dodaj kolumny
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Dodaj wartości
 ```
 
 ## Krok 6: Dostosuj tabelę przestawną
-W razie potrzeby możesz dostosować wygląd i zachowanie tabeli przestawnej.
+Wygląd i zachowanie tabeli przestawnej można dostosować według własnych potrzeb.
 
 ```java
 //Dostosuj tabelę przestawną
@@ -77,22 +77,22 @@ workbook.save("output.xlsx");
 ```
 
 ## Wniosek
-W tym samouczku omówiliśmy proces tworzenia tabel przestawnych przy użyciu interfejsu API Aspose.Cells for Java. Możesz teraz z łatwością rozszerzyć swoje możliwości analizy i wizualizacji danych.
+W tym samouczku przeprowadziliśmy proces tworzenia tabel przestawnych przy użyciu Aspose.Cells for Java API. Teraz możesz z łatwością udoskonalić swoje możliwości analizy i wizualizacji danych.
 
 ## Często zadawane pytania
-### Co to jest tabela przestawna?
+### Czym jest tabela przestawna?
    Tabela przestawna to narzędzie do przetwarzania danych służące do podsumowywania, analizowania i wizualizacji danych z różnych źródeł.
 
-### Czy mogę dodać wiele tabel przestawnych do jednego arkusza?
-   Tak, w razie potrzeby możesz dodać wiele tabel przestawnych do tego samego arkusza.
+### Czy mogę dodać wiele tabel przestawnych do jednego arkusza kalkulacyjnego?
+   Tak, w razie potrzeby można dodać wiele tabel przestawnych do tego samego arkusza kalkulacyjnego.
 
 ### Czy Aspose.Cells jest kompatybilny z różnymi formatami danych?
    Tak, Aspose.Cells obsługuje szeroką gamę formatów danych, w tym Excel, CSV i inne.
 
 ### Czy mogę dostosować formatowanie tabeli przestawnej?
-   Oczywiście możesz dostosować wygląd i formatowanie tabeli przestawnej do swoich preferencji.
+   Oczywiście, możesz dostosować wygląd i formatowanie tabeli przestawnej według własnych preferencji.
 
-### Jak zautomatyzować tworzenie tabeli przestawnej w aplikacjach Java?
-   Możesz zautomatyzować tworzenie tabeli przestawnej w Javie za pomocą interfejsu API Aspose.Cells for Java, jak pokazano w tym samouczku.
+### Jak mogę zautomatyzować tworzenie tabel przestawnych w aplikacjach Java?
+   Możesz zautomatyzować tworzenie tabel przestawnych w języku Java przy użyciu interfejsu API Aspose.Cells for Java, jak pokazano w tym samouczku.
 
-Teraz masz wiedzę i kod umożliwiający tworzenie potężnych tabel przestawnych w Javie przy użyciu Aspose.Cells. Eksperymentuj z różnymi źródłami danych i konfiguracjami, aby dostosować tabele przestawne do swoich konkretnych potrzeb. Miłej analizy danych!
+Teraz masz wiedzę i kod, aby tworzyć potężne tabele przestawne w Javie przy użyciu Aspose.Cells. Eksperymentuj z różnymi źródłami danych i konfiguracjami, aby dostosować tabele przestawne do swoich konkretnych potrzeb. Udanej analizy danych!

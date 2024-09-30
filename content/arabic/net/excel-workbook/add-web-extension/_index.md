@@ -1,125 +1,148 @@
 ---
 title: إضافة ملحق الويب
 linktitle: إضافة ملحق الويب
-second_title: Aspose.Cells لمرجع .NET API
-description: يمكنك بسهولة إضافة امتداد الويب إلى مصنفات Excel الخاصة بك باستخدام Aspose.Cells for .NET.
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
+description: تعرف على كيفية إضافة ملحقات الويب إلى ملفات Excel باستخدام Aspose.Cells لـ .NET من خلال هذا البرنامج التعليمي الكامل خطوة بخطوة الذي يعزز وظائف جدول البيانات لديك.
 type: docs
 weight: 40
 url: /ar/net/excel-workbook/add-web-extension/
 ---
-في هذا البرنامج التعليمي خطوة بخطوة، سنشرح كود مصدر C# المقدم والذي سيسمح لك بإضافة ملحق ويب باستخدام Aspose.Cells لـ .NET. اتبع الخطوات أدناه لإضافة ملحق ويب إلى مصنف Excel الخاص بك.
+## مقدمة
 
-## الخطوة 1: تعيين دليل الإخراج
+في هذا الدليل، سنطلعك على عملية إضافة ملحقات الويب إلى مصنف Excel باستخدام Aspose.Cells for .NET. سواء كنت تقوم ببناء لوحة معلومات بيانات قوية أو أتمتة مهام إعداد التقارير، فإن هذا البرنامج التعليمي سيوفر لك المعلومات التي تحتاجها لإثراء تطبيقات Excel الخاصة بك.
+
+## المتطلبات الأساسية
+
+قبل أن ننتقل إلى التفاصيل الدقيقة للترميز، دعنا نتأكد من أنك تمتلك كل ما تحتاج إليه. فيما يلي المتطلبات الأساسية للبدء في استخدام Aspose.Cells لـ .NET:
+
+1. Visual Studio: تأكد من تثبيت Visual Studio، حيث سنقوم بكتابة الكود الخاص بنا في IDE هذا.
+2. .NET Framework: المعرفة بإطار عمل .NET (يفضل .NET Core أو .NET 5/6).
+3.  مكتبة Aspose.Cells: يجب أن يكون لديك مكتبة Aspose.Cells. إذا لم تقم بتنزيلها بعد، فاحصل على أحدث إصدار[هنا](https://releases.aspose.com/cells/net/) أو جربه مجانا[هنا](https://releases.aspose.com/).
+4. المعرفة الأساسية بلغة C#: إن الفهم الأساسي لبرمجة C# سيساعدك على متابعة الأمثلة.
+
+بمجرد توفر هذه المتطلبات الأساسية لديك، ستكون جاهزًا لإطلاق العنان للإمكانات الكاملة لـ Aspose.Cells!
+
+## استيراد الحزم
+
+للعمل مع Aspose.Cells، تحتاج أولاً إلى استيراد الحزم اللازمة. إليك كيفية القيام بذلك:
+
+1. افتح مشروعك: في Visual Studio، ابدأ بفتح مشروعك.
+2. إضافة مرجع: انقر بزر الماوس الأيمن على مشروعك في مستكشف الحلول، وحدد إدارة حزم NuGet، وابحث عن`Aspose.Cells`. قم بتثبيت الحزمة على مشروعك.
+3. استيراد مساحات الأسماء الضرورية: في الجزء العلوي من ملف التعليمات البرمجية الخاص بك، قد ترغب في إضافة التوجيه التالي باستخدام مساحة أسماء Aspose.Cells:
 
 ```csharp
-// دليل الإخراج
-string outDir = RunExamples.Get_OutputDirectory();
+using Aspose.Cells;
 ```
 
-في هذه الخطوة الأولى، نحدد دليل الإخراج حيث سيتم حفظ مصنف Excel المعدل.
+الآن بعد أن قمت بإعداد البيئة الخاصة بك، دعنا ننتقل إلى جزء الترميز!
+
+نحن الآن جاهزون لإضافة ملحق ويب إلى مصنف Excel. اتبع الخطوات التالية بدقة:
+
+## الخطوة 1: إعداد دليل الإخراج
+
+أولاً، عليك إعداد دليل الإخراج الذي ستحفظ فيه المصنف الذي قمت بتعديله. سيساعدك هذا في الحفاظ على تنظيم ملفاتك.
+
+```csharp
+string outDir = RunExamples.Get_OutputDirectory();
+```
+ هنا،`RunExamples.Get_OutputDirectory()` هي طريقة لاسترجاع المسار إلى دليل الإخراج. يمكنك تعديل هذه الطريقة للإشارة إلى أي موقع على نظامك.
 
 ## الخطوة 2: إنشاء مصنف جديد
 
+بعد ذلك، دعنا ننشئ مثيلًا جديدًا لدفتر العمل. هنا تحدث كل السحر!
+
 ```csharp
-// إنشاء مصنف جديد
 Workbook workbook = new Workbook();
 ```
+يقوم هذا السطر بإنشاء مصنف عمل جديد. يمكنك اعتبار المصنف كلوحة فارغة يمكنك إضافة ملحق الويب الخاص بك إليها وغير ذلك من الوظائف.
 
-نحن هنا نقوم بإنشاء مصنف Excel جديد باستخدام ملف`Workbook` فئة من Aspose.Cells.
+## الخطوة 3: الوصول إلى مجموعات ملحقات الويب وأجزاء المهام
 
-## الخطوة 3: الوصول إلى مجموعة ملحقات الويب
+الآن، ستحتاج إلى الوصول إلى مجموعات ملحقات الويب وأجزاء المهام داخل المصنف.
 
 ```csharp
-// الوصول إلى مجموعة ملحقات الويب
 WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
+WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
 ```
-
- نحن نصل إلى مجموعة ملحقات الويب الخاصة بمصنف Excel باستخدام ملف`WebExtensions` ملكية`Worksheets` هدف.
+يؤدي هذا إلى استرداد مجموعتين:
+- `WebExtensionCollection` يحتوي على ملحقات الويب التي يمكنك إضافتها.
+- `WebExtensionTaskPaneCollection` يدير أجزاء المهام المرتبطة بهذه الملحقات.
 
 ## الخطوة 4: إضافة ملحق ويب جديد
 
+الآن، دعونا نضيف ملحق ويب جديد إلى المصنف.
+
 ```csharp
-// إضافة ملحق ويب جديد
 int extensionIndex = extensions.Add();
+```
+ ال`Add()` تنشئ الطريقة ملحق ويب جديدًا وتعيد فهرسه. يتيح لك هذا الوصول إلى الملحق لاحقًا.
+
+## الخطوة 5: تكوين خصائص ملحق الويب
+
+بعد إضافة الامتداد، من المهم تكوين خصائصه حتى يعمل كما هو مقصود.
+
+```csharp
 WebExtension extension = extensions[extensionIndex];
 extension.Reference.Id = "wa104379955";
 extension.Reference.StoreName = "en-US";
 extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 ```
 
-نقوم بإضافة ملحق ويب جديد إلى مجموعة الملحقات. نحدد المعرف المرجعي واسم المتجر ونوع المتجر للامتداد.
+- المعرف: هذا هو المعرف الفريد لامتداد الويب. يمكنك العثور على الامتدادات المتاحة في متجر Office.
+- StoreName: يحدد لغة الموقع.
+-  StoreType: هنا، قمنا بتعيينه إلى`OMEX`، والتي تشير إلى حزمة ملحق الويب.
 
-## الخطوة 5: الوصول إلى مجموعة أجزاء مهام ملحق الويب
+## الخطوة 6: إضافة جزء المهام وتكوينه
 
-```csharp
-// قم بالوصول إلى مجموعة أجزاء المهام الخاصة بملحق الويب
-WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-```
-
- نحن نصل إلى مجموعة أجزاء المهام الخاصة بـ Excel Workbook Web Extension باستخدام ملف`WebExtensionTaskPanes` ملكية`Worksheets` هدف.
-
-## الخطوة 6: إضافة جزء مهام جديد
+الآن، دعنا نضيف جزء المهام لجعل ملحق الويب الخاص بنا تفاعليًا ومرئيًا في واجهة مستخدم Excel.
 
 ```csharp
-// إضافة جزء مهام جديد
 int taskPaneIndex = taskPanes.Add();
-WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
-taskPane. IsVisible = true;
-taskPane. DockState = "right";
-taskPane. WebExtension = extension;
-```
-
-نقوم بإضافة جزء مهام جديد إلى مجموعة أجزاء المهام. لقد قمنا بتعيين رؤية الجزء وحالة الإرساء الخاصة به وامتداد الويب المرتبط به.
-
-## الخطوة 7: احفظ المصنف وأغلقه
-
-```csharp
-// احفظ المصنف وأغلقه
-workbook.Save(outDir + "AddWebExtension_Out.xlsx");
-Console.WriteLine("AddWebExtension executed successfully.");
-```
-
-نقوم بحفظ المصنف المعدل في دليل الإخراج المحدد ثم نغلقه.
-
-### نموذج التعليمات البرمجية المصدر لإضافة ملحق ويب باستخدام Aspose.Cells لـ .NET 
-```csharp
-//دليل المصدر
-string outDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook();
-WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
-WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-int extensionIndex = extensions.Add();
-int taskPaneIndex = taskPanes.Add();
-WebExtension extension = extensions[extensionIndex];
-extension.Reference.Id = "wa104379955";
-extension.Reference.StoreName = "en-US";
-extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
 taskPane.IsVisible = true;
 taskPane.DockState = "right";
 taskPane.WebExtension = extension;
+```
+
+- نضيف جزء مهام جديد.
+-  جلسة`IsVisible` ل`true` ويتأكد من عرضه في المصنف.
+-  ال`DockState` تحدد الخاصية المكان الذي ستظهر فيه جزء المهام في واجهة مستخدم Excel (في هذه الحالة، على الجانب الأيمن).
+
+## الخطوة 7: احفظ المصنف
+
+خطوتنا الأخيرة هي حفظ المصنف، والذي يتضمن الآن ملحق الويب الخاص بنا.
+
+```csharp
 workbook.Save(outDir + "AddWebExtension_Out.xlsx");
+```
+ هنا، نقوم بحفظ المصنف في دليل الإخراج الذي حددناه سابقًا. استبدل`"AddWebExtension_Out.xlsx"` مع أي اسم ملف تفضله.
+
+## الخطوة 8: تأكيد التنفيذ
+
+وأخيرًا، دعنا نطبع رسالة تأكيد على وحدة التحكم للإشارة إلى أن كل شيء سار بسلاسة.
+
+```csharp
 Console.WriteLine("AddWebExtension executed successfully.");
 ```
+من الجيد دائمًا الحصول على بعض التعليقات. تؤكد هذه الرسالة أنه تمت إضافة الامتداد الخاص بك دون أي مشاكل.
 
 ## خاتمة
 
-تهنئة ! لقد تعلمت الآن كيفية إضافة ملحق ويب باستخدام Aspose.Cells لـ .NET. قم بتجربة التعليمات البرمجية واستكشف الميزات الإضافية لـ Aspose.Cells لتحقيق أقصى استفادة من معالجة ملحقات الويب في مصنفات Excel الخاصة بك.
+إن إضافة ملحقات الويب إلى مصنفات Excel باستخدام Aspose.Cells for .NET هي عملية بسيطة يمكنها تحسين وظائف وتفاعل جداول البيانات بشكل كبير. باستخدام الخطوات الموضحة في هذا الدليل، يمكنك الآن إنشاء جسر بين بيانات Excel والخدمات المستندة إلى الويب، مما يفتح الأبواب أمام مجموعة كبيرة من الاحتمالات. سواء كنت تتطلع إلى تنفيذ التحليلات أو الاتصال بواجهات برمجة التطبيقات أو ببساطة تحسين تفاعل المستخدم، فإن Aspose.Cells يغطيك!
 
 ## الأسئلة الشائعة
 
-#### س: ما هو ملحق الويب الموجود في مصنف Excel؟
+### ما هي ملحقات الويب في Excel؟
+تتيح ملحقات الويب دمج محتوى الويب ووظائفه مباشرةً داخل مصنف Excel، مما يؤدي إلى تحسين التفاعل.
 
-ج: يعد ملحق الويب الموجود في مصنف Excel مكونًا يسمح لك بإضافة وظائف إضافية إلى Excel من خلال دمج تطبيقات الويب. يمكنه تقديم ميزات تفاعلية ولوحات معلومات مخصصة وعمليات تكامل خارجية والمزيد.
+### هل استخدام Aspose.Cells مجاني؟
+ يقدم Aspose.Cells نسخة تجريبية مجانية لأغراض الاختبار. يمكنك معرفة المزيد من[رابط التجربة المجانية](https://releases.aspose.com/).
 
-#### س: كيفية إضافة ملحق الويب إلى مصنف Excel باستخدام Aspose.Cells؟
+### هل يمكنني شراء Aspose.Cells؟
+ نعم! Aspose.Cells هو برنامج مدفوع، ويمكنك شراؤه[هنا](https://purchase.aspose.com/buy).
 
- ج: لإضافة ملحق ويب إلى مصنف Excel باستخدام Aspose.Cells، يمكنك اتباع الخطوات الواردة في دليلنا خطوة بخطوة. استخدم ال`WebExtensionCollection` و`WebExtensionTaskPaneCollection` فئات لإضافة وتكوين ملحق الويب وجزء المهام المرتبط به.
+### ما هي لغات البرمجة التي يدعمها Aspose.Cells؟
+Aspose.Cells مخصص في المقام الأول لتطبيقات .NET ولكنه يحتوي أيضًا على إصدارات لـ Java ولغات أخرى.
 
-#### س: ما هي المعلومات المطلوبة لإضافة ملحق ويب؟
-
-ج: عند إضافة ملحق ويب، يجب عليك تقديم معرف SKU للملحق واسم المتجر ونوع المتجر. تساعد هذه المعلومات في تحديد الامتداد وتحميله بشكل صحيح.
-
-#### س: هل يمكنني إضافة ملحقات ويب متعددة إلى مصنف Excel واحد؟
-
- ج: نعم، يمكنك إضافة ملحقات ويب متعددة إلى مصنف Excel واحد. استخدم ال`Add` طريقة مجموعة ملحقات الويب لإضافة كل ملحق، ثم ربطها بأجزاء المهام المقابلة.
+### أين يمكنني العثور على الدعم لـ Aspose.Cells؟
+إذا واجهت أي مشاكل أو كان لديك أسئلة، قم بزيارة[منتدى دعم Aspose](https://forum.aspose.com/c/cells/9) للحصول على المساعدة.

@@ -1,85 +1,120 @@
 ---
-title: Maak een gedeelde werkmap
-linktitle: Maak een gedeelde werkmap
+title: Gedeelde werkmap maken
+linktitle: Gedeelde werkmap maken
 second_title: Aspose.Cells voor .NET API-referentie
-description: Maak een gedeelde Excel-werkmap met Aspose.Cells voor .NET om gelijktijdige gegevenssamenwerking mogelijk te maken.
+description: Leer hoe u een gedeelde werkmap maakt met Aspose.Cells voor .NET met deze eenvoudige stapsgewijze handleiding. Perfect voor het verbeteren van teamsamenwerking.
 type: docs
 weight: 70
 url: /nl/net/excel-workbook/create-shared-workbook/
 ---
-In deze zelfstudie leiden we u door de meegeleverde C#-broncode waarmee u een gedeelde werkmap kunt maken met Aspose.Cells voor .NET. Volg de onderstaande stappen om deze handeling uit te voeren.
+## Invoering
+
+Het maken van een gedeelde werkmap kan een game-changer zijn voor samenwerking, vooral als u gegevens uit verschillende teams of afdelingen gebruikt. Met Aspose.Cells voor .NET hebt u een robuuste tool tot uw beschikking om Excel-bestanden programmatisch te beheren. Deze gids leidt u door de stappen om een gedeelde werkmap te maken, waardoor uw samenwerking gestroomlijnder en efficiënter wordt. Of u nu een beginner of een ervaren ontwikkelaar bent, u zult versteld staan met deze eenvoudige maar krachtige tutorial!
+
+## Vereisten
+
+Voordat we dieper ingaan op het maken van een gedeelde werkmap, moeten we eerst een paar dingen regelen:
+
+1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Het is een ontwikkelomgeving waarin u uw code kunt schrijven en uitvoeren.
+2.  Aspose.Cells voor .NET: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van[Aspose.Cellen Downloads](https://releases.aspose.com/cells/net/).
+3. .NET Framework: Zorg ervoor dat u het .NET Framework hebt geïnstalleerd. Dit voorbeeld werkt met .NET Core of .NET Framework 4.x.
+4. Basiskennis van C#: Een beetje vertrouwdheid met C#-programmering is al heel wat. Als je basiscode kunt schrijven, moet je goed bezig zijn!
+
+Zodra u aan deze vereisten voldoet, kunt u beginnen met het maken van uw gedeelde werkmap.
+
+## Pakketten importeren
+
+Nu we onze omgeving gereed hebben, importeren we de benodigde pakketten zodat we aan de slag kunnen. Zo doe je dat:
+
+### Een nieuw project maken
+1. Open Visual Studio.
+2. Maak een nieuw C# consoleproject.
+3. Geef uw project een naam, bijvoorbeeld 'SharedWorkbookExample'.
+
+### Aspose.Cells installeren
+1. Klik met de rechtermuisknop op uw project in Solution Explorer en selecteer “NuGet-pakketten beheren”.
+2. Zoek naar "Aspose.Cells" en installeer het. Dit zal de benodigde referenties aan uw project toevoegen.
+
+### Voeg richtlijnen toe
+ Bovenaan je`Program.cs` bestand, voeg de volgende using-richtlijn toe:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+En zo heb je jezelf klaargestoomd voor succes! Laten we de stappen doorlopen om een gedeelde werkmap te maken.
+
+Nu komen we bij het sappige gedeelte! Hier is hoe je een gedeelde werkmap maakt met Aspose.Cells voor .NET, opgesplitst in eenvoudig te volgen stappen.
 
 ## Stap 1: Stel de uitvoermap in
 
-```csharp
-// Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+In deze stap definieert u waar het uitvoerbestand wordt opgeslagen. Het is net als beslissen waar u uw versgebakken koekjes neerlegt: u wilt er zeker van zijn dat u ze later gemakkelijk kunt vinden!
 
-In deze eerste stap definiëren we de uitvoermap waar de gedeelde werkmap zal worden opgeslagen.
-
-## Stap 2: Maak een werkmapobject
-
-```csharp
-// Maak een werkboekobject
-Workbook wb = new Workbook();
-```
-
-We maken een nieuw werkmapobject dat onze Excel-werkmap vertegenwoordigt.
-
-## Stap 3: Schakel werkmappen delen in
-
-```csharp
-// Deel de werkmap
-wb.Settings.Shared = true;
-```
-
- We schakelen de deelfunctie van de werkmap in door de`Shared` eigenschap van het werkmapobject`true`.
-
-## Stap 4: Sla de gedeelde werkmap op
-
-```csharp
-// Sla de gedeelde werkmap op
-wb.Save(outputDir + "outputSharedWorkbook.xlsx");
-```
-
-We slaan de gedeelde werkmap op door het pad en de naam van het uitvoerbestand op te geven.
-
-### Voorbeeldbroncode voor het maken van een gedeelde werkmap met Aspose.Cells voor .NET 
 ```csharp
 //Uitvoermap
 string outputDir = RunExamples.Get_OutputDirectory();
-//Maak een werkboekobject
+```
+ Hier gebruiken we een methode`RunExamples.Get_OutputDirectory()` om de map op te geven waar het gegenereerde Excel-bestand wordt opgeslagen. Zorg ervoor dat deze methode is gedefinieerd in uw code voor een correcte uitvoerverwerking.
+
+## Stap 2: Het werkmapobject maken
+
+Vervolgens verschuift onze focus naar het maken van het werkboek. Dit is waar de magie gebeurt!
+
+```csharp
+//Werkmapobject maken
 Workbook wb = new Workbook();
-//Deel de werkmap
+```
+ Door het instantiëren van de`Workbook` klasse, bereiden we een nieuwe werkmap voor in het geheugen. Zie dit als het openen van een nieuw leeg blad in Excel, wachtend om gevuld te worden met data.
+
+## Stap 3: Deel het werkboek
+
+Het is tijd om van uw werkboek een collaboratief meesterwerk te maken! Door het te delen, kunnen meerdere gebruikers er tegelijkertijd toegang toe hebben.
+
+```csharp
+//Deel het werkboek
 wb.Settings.Shared = true;
-//Sla de gedeelde werkmap op
+```
+ Instelling`wb.Settings.Shared` naar`true` geeft aan dat deze werkmap door meerdere gebruikers tegelijk kan worden geopend. Het is alsof je de sleutels van je huis aan vrienden geeft — ze kunnen komen en gaan wanneer ze willen!
+
+## Stap 4: De gedeelde werkmap opslaan
+
+Nu uw werkboek helemaal klaar is om te delen, is het tijd om de wijzigingen op te slaan. Dit is het moment van de waarheid!
+
+```csharp
+//De gedeelde werkmap opslaan
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
+```
+ Hier slaan we onze gedeelde werkmap op met de naam`outputSharedWorkbook.xlsx` in de opgegeven uitvoermap. Dit genereert een Excel-bestand dat nu door meerdere gebruikers kan worden gedeeld en gewijzigd.
+
+## Stap 5: Geef een succesbericht weer
+
+Om te bevestigen dat alles goed is verlopen, printen we een succesbericht.
+
+```csharp
 Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
+Deze simpele regel code stuurt een bericht naar de console dat aangeeft dat onze taak succesvol is voltooid. Het is als een overwinningskreet bij de finish!
 
-## Conclusie
+## Conclusie 
 
-Gefeliciteerd! U hebt geleerd hoe u een gedeelde werkmap kunt maken met Aspose.Cells voor .NET. De gedeelde werkmap kan door meerdere gebruikers tegelijk worden gebruikt om samen aan gegevens te werken. Experimenteer met uw eigen gegevens en verken de functies van Aspose.Cells verder om krachtige en gepersonaliseerde Excel-werkmappen te maken.
+Het maken van een gedeelde werkmap gaat niet alleen over het genereren van een Excel-bestand; het gaat over het verbeteren van samenwerking en efficiëntie tussen teams. Met Aspose.Cells voor .NET is het proces eenvoudig en gebruiksvriendelijk. Door de hier beschreven stappen te volgen, kunt u moeiteloos een werkmap maken waarmee meerdere gebruikers er tegelijkertijd mee kunnen werken. Dus waarom zou u wachten? Duik erin en begin met het bouwen van gedeelde werkmappen waarmee uw teams beter kunnen samenwerken dan ooit tevoren!
 
-### Veelgestelde vragen
+## Veelgestelde vragen
 
-#### Vraag: Wat is een gedeelde werkmap?
+### Wat is een gedeelde werkmap?
+Een gedeelde werkmap is een Excel-bestand waaraan meerdere gebruikers tegelijkertijd kunnen samenwerken.
 
-A: Een gedeelde werkmap is een Excel-werkmap die door meerdere gebruikers tegelijkertijd kan worden gebruikt om samen aan gegevens te werken. Elke gebruiker kan wijzigingen aanbrengen in de werkmap en andere gebruikers zien updates in realtime.
+### Kan ik het delen van een werkmap ongedaan maken nadat deze is gedeeld?
+ Ja, u kunt een werkmap niet meer delen door de volgende instellingen in te stellen:`Shared` eigendom van`false`.
 
-#### Vraag: Hoe kan ik het delen van een werkmap in Aspose.Cells voor .NET inschakelen?
+### Heb ik een licentie nodig om Aspose.Cells te gebruiken?
+Ja, een licentie is vereist voor commercieel gebruik van Aspose.Cells. U kunt ook een gratis proefversie krijgen om de functies te testen.
 
- A: Om het delen van een werkmap in Aspose.Cells voor .NET in te schakelen, moet u de`Shared` eigenschap van het werkmapobject`true`. Hierdoor kunnen gebruikers tegelijkertijd aan de werkmap werken.
+### Waar kan ik ondersteuning krijgen voor Aspose.Cells?
+ U kunt ondersteuning vinden en vragen stellen op de[Aspose.Cells Ondersteuningsforum](https://forum.aspose.com/c/cells/9).
 
-#### Vraag: Kan ik gebruikersmachtigingen in een gedeelde werkmap beperken?
-
-A: Ja, u kunt gebruikersmachtigingen in een gedeelde werkmap beperken met behulp van de beveiligingsfuncties van Excel. U kunt voor elke gebruiker specifieke rechten instellen, zoals de mogelijkheid om te bewerken, alleen-lezen, enz.
-
-#### Vraag: Hoe kan ik de werkmap delen met andere gebruikers?
-
-A: Nadat u de gedeelde werkmap heeft gemaakt, kunt u deze delen met andere gebruikers door hen het Excel-bestand te sturen. Andere gebruikers kunnen het bestand openen en er tegelijkertijd aan werken.
-
-#### Vraag: Worden alle Excel-functies ondersteund in een gedeelde werkmap?
-
-A: De meeste Excel-functies worden ondersteund in een gedeelde werkmap. Sommige geavanceerde functies, zoals macro's en invoegtoepassingen, kunnen echter beperkingen of restricties hebben bij gebruik in een gedeelde werkmap.
+### Hoe begin ik met het gebruik van Aspose.Cells?
+ Begin met het downloaden van de bibliotheek van de[Aspose.Cellen Downloads](https://releases.aspose.com/cells/net/)pagina en volg de installatiestappen die in deze handleiding worden beschreven.

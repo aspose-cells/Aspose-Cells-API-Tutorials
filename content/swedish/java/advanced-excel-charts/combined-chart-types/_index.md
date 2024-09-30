@@ -49,7 +49,7 @@ int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 
-## Lägga till data till diagrammet
+## Lägga till data i diagrammet
 
 Nu när vi har skapat ett kombinerat diagram, låt oss lägga till lite data till det.
 
@@ -110,7 +110,7 @@ I den här artikeln har vi utforskat hur man skapar kombinerade diagramtyper med
 
 ### Hur installerar jag Aspose.Cells för Java?
 
- För att installera Aspose.Cells för Java, besök Asposes webbplats och ladda ner biblioteket från[den här länken](https://releases.aspose.com/cells/java/). Följ installationsinstruktionerna i dokumentationen.
+ För att installera Aspose.Cells för Java, besök Asposes webbplats och ladda ner biblioteket från[denna länk](https://releases.aspose.com/cells/java/). Följ installationsinstruktionerna i dokumentationen.
 
 ### Kan jag skapa andra typer av diagram med Aspose.Cells för Java?
 

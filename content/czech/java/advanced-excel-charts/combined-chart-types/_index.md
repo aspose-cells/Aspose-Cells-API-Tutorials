@@ -36,7 +36,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 ```
 
-### Krok 3: Přidejte list do sešitu.
+### Krok 3: Přidejte do sešitu list.
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -126,4 +126,4 @@ Absolutně! Aspose.Cells for Java nabízí rozsáhlé možnosti přizpůsobení.
 
 ### Kde najdu další zdroje a příklady pro Aspose.Cells pro Java?
 
- Komplexní dokumentaci a množství příkladů kódu můžete najít na webu Aspose na adrese[tady](https://reference.aspose.com/cells/java/).
+ Komplexní dokumentaci a množství příkladů kódu můžete najít na webu Aspose na adrese[zde](https://reference.aspose.com/cells/java/).

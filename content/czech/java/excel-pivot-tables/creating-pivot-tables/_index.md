@@ -7,11 +7,11 @@ type: docs
 weight: 10
 url: /cs/java/excel-pivot-tables/creating-pivot-tables/
 ---
-## Úvod
+## Zavedení
 Kontingenční tabulky jsou nepostradatelnými nástroji pro analýzu a vizualizaci dat. V tomto tutoriálu prozkoumáme, jak vytvořit kontingenční tabulky pomocí Aspose.Cells for Java API. Poskytneme vám podrobné pokyny spolu s příklady zdrojového kódu, aby byl proces bezproblémový.
 
 ## Předpoklady
-Než začneme, ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+Než začneme, ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Vytvořte sešit
 ```java

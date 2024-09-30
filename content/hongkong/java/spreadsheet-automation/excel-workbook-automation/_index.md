@@ -89,7 +89,7 @@ public class UpdateExcelData {
 以下是與 Excel 工作簿自動化相關的一些常見問題：
 
 ### 我可以在電腦上未安裝 Excel 的情況下使用 Java 自動執行 Excel 任務嗎？
-   是的你可以。 Aspose.Cells for Java 可讓您使用 Excel 文件，而無需安裝 Microsoft Excel。
+   是的，你可以。 Aspose.Cells for Java 可讓您使用 Excel 文件，而無需安裝 Microsoft Excel。
 
 ### 如何使用 Aspose.Cells 設定儲存格格式或將樣式套用至 Excel 資料？
    您可以使用 Aspose.Cells 將各種格式和樣式套用到儲存格。詳細範例請參閱 API 文件。

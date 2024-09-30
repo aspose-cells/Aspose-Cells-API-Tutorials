@@ -1,119 +1,129 @@
 ---
-title: Pratinjau Istirahat Halaman Lembar Kerja
-linktitle: Pratinjau Istirahat Halaman Lembar Kerja
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Panduan langkah demi langkah untuk menampilkan pratinjau hentian halaman lembar kerja menggunakan Aspose.Cells untuk .NET.
+title: Pratinjau Jeda Halaman Lembar Kerja
+linktitle: Pratinjau Jeda Halaman Lembar Kerja
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara menggunakan Aspose.Cells untuk .NET untuk mengaktifkan pratinjau hentian halaman di lembar kerja Excel melalui tutorial langkah demi langkah yang sederhana.
 type: docs
 weight: 110
 url: /id/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/
 ---
-Dalam tutorial ini, kami akan menjelaskan cara menampilkan pratinjau hentian halaman lembar kerja menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah berikut untuk mendapatkan hasil yang diinginkan:
+## Perkenalan
 
-## Langkah 1: Menyiapkan lingkungan
+Membuat dan mengelola file Excel secara terprogram bisa sangat merepotkan jika Anda tidak memiliki alat yang tepat. Salah satu alat yang telah mendapatkan banyak perhatian di kalangan pengembang adalah Aspose.Cells for .NET. API yang canggih ini memungkinkan Anda untuk memanipulasi file Excel dengan lancar sekaligus menawarkan banyak fitur yang dapat membantu Anda mengoptimalkan alur kerja—seperti menyesuaikan pemisah halaman untuk tata letak cetak yang lebih baik. Dalam tutorial ini, kita akan membahas cara mengaktifkan pratinjau pemisah halaman dalam lembar kerja menggunakan Aspose.Cells for .NET.
 
-Pastikan Anda telah menginstal Aspose.Cells untuk .NET dan menyiapkan lingkungan pengembangan Anda. Selain itu, pastikan Anda memiliki salinan file Excel yang ingin Anda tampilkan pratinjau hentian halamannya.
+## Prasyarat
 
-## Langkah 2: Impor dependensi yang diperlukan
+Sebelum kita memulai, ada beberapa prasyarat yang harus Anda penuhi:
 
-Tambahkan arahan yang diperlukan untuk menggunakan kelas dari Aspose.Cells:
+1. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# dan kerangka kerja .NET tentu akan membantu Anda menavigasi tutorial ini.
+2.  Aspose.Cells untuk .NET Terpasang: Anda perlu memiliki pustaka Aspose.Cells untuk .NET. Anda dapat[unduh dari sini](https://releases.aspose.com/cells/net/).
+3. Visual Studio atau IDE Serupa: Anda memerlukan lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio untuk menulis dan mengeksekusi kode.
+4. File Excel: Anda harus memiliki file Excel (seperti`book1.xls`) tersedia di direktori dokumen Anda untuk manipulasi.
+5. Ruang nama: Pastikan Anda telah menyertakan ruang nama yang diperlukan dalam kode Anda—khususnya untuk menangani berkas dan pustaka Aspose.Cells.
+
+Sekarang setelah kita membahas prasyaratnya, mari masuk ke pengkodean sebenarnya.
+
+## Paket Impor
+
+Untuk memulai Aspose.Cells di proyek C# Anda, Anda perlu mengimpor paket yang diperlukan. Ini dapat dilakukan dengan menambahkan referensi ke proyek Anda.
+
+### Sertakan Ruang Nama yang Diperlukan
+
+Pertama, pastikan Anda telah menyertakan namespace berikut di bagian atas file C# Anda:
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## Langkah 3: Inisialisasi kode
+### Buat File C# Baru
 
-Mulailah dengan menginisialisasi jalur ke direktori yang berisi dokumen Excel Anda:
+Buka Visual Studio atau IDE Anda dan buat file C# baru jika Anda belum melakukannya. Di sinilah kita akan menulis kode implementasi kita.
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-```
 
-## Langkah 4: Membuka file Excel
+Sekarang, mari kita uraikan kode untuk mengaktifkan pratinjau hentian halaman di file Excel selangkah demi selangkah.
 
- Membuat`FileStream` objek yang berisi file Excel untuk dibuka:
+## Langkah 1: Tetapkan Jalur Direktori
 
 ```csharp
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-```
-
- Buat contoh a`Workbook` objek dan buka file Excel menggunakan aliran file:
-
-```csharp
-Workbook workbook = new Workbook(fstream);
-```
-
-## Langkah 5: Mengakses Spreadsheet
-
-Arahkan ke lembar kerja pertama di file Excel:
-
-```csharp
-Worksheet worksheet = workbook.Worksheets[0];
-```
-
-## Langkah 6: Menampilkan pratinjau halaman demi halaman
-
-Aktifkan pratinjau halaman demi halaman untuk spreadsheet:
-
-```csharp
-worksheet. IsPageBreakPreview = true;
-```
-
-## Langkah 7: Menyimpan Perubahan
-
-Simpan perubahan yang dilakukan pada file Excel:
-
-```csharp
-workbook.Save(dataDir + "output.xls");
-```
-
-## Langkah 8: Menutup aliran file
-
-Tutup aliran file untuk melepaskan semua sumber daya:
-
-```csharp
-fstream.Close();
-```
-
-### Contoh kode sumber untuk Pratinjau Hentian Halaman Lembar Kerja menggunakan Aspose.Cells untuk .NET 
-```csharp
-//Jalur ke direktori dokumen.
+// Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+
+ Pada langkah ini, Anda perlu mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya ke folder proyek tempat file Excel Anda disimpan. Ini penting karena memberi tahu program tempat mencari file yang ingin Anda manipulasi.
+
+## Langkah 2: Buat Aliran File
+
+```csharp
 // Membuat aliran file yang berisi file Excel yang akan dibuka
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
+```
+
+ Di sini, kita membuat`FileStream` objek yang menunjuk ke file Excel yang ditentukan (`book1.xls`). Ini memungkinkan aplikasi Anda untuk membuka dan memanipulasi berkas tersebut.
+
+## Langkah 3: Buat Instansiasi Buku Kerja
+
+```csharp
 // Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
-// Mengakses lembar kerja pertama di file Excel
+```
+
+ Pada langkah ini, Anda membuat instance`Workbook` objek yang mewakili berkas Excel. Objek ini pada dasarnya adalah inti dari operasi Anda, yang memungkinkan Anda mengakses semua lembar kerja dan melakukan berbagai manipulasi.
+
+## Langkah 4: Akses Lembar Kerja
+
+```csharp
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Menampilkan lembar kerja di pratinjau hentian halaman
+```
+
+Di sini, kita mengakses lembar kerja pertama di buku kerja Anda menggunakan indeksnya (berbasis nol). Jika Anda memiliki beberapa lembar, Anda dapat mengakses lembar kerja lainnya dengan mengubah indeks.
+
+## Langkah 5: Aktifkan Pratinjau Hentian Halaman
+
+```csharp
+// Menampilkan lembar kerja dalam pratinjau hentian halaman
 worksheet.IsPageBreakPreview = true;
+```
+
+Langkah penting ini mengaktifkan mode pratinjau pemisah halaman untuk lembar kerja. Anda akan melihat bagaimana ini memengaruhi tata letak dan format cetak saat Anda membuka file nanti.
+
+## Langkah 6: Simpan Buku Kerja
+
+```csharp
 // Menyimpan file Excel yang dimodifikasi
 workbook.Save(dataDir + "output.xls");
-// Menutup aliran file untuk mengosongkan semua sumber daya
+```
+
+Setelah melakukan perubahan, penting untuk menyimpan buku kerja. Di sini, kita menyimpannya sebagai`output.xls`, namun jangan ragu untuk mengubah nama berkas sesuai kebutuhan.
+
+## Langkah 7: Bersihkan Sumber Daya
+
+```csharp
+// Menutup aliran file untuk membebaskan semua sumber daya
 fstream.Close();
 ```
 
+Terakhir, membersihkan sumber daya merupakan kebiasaan yang baik. Menutup aliran file akan melepaskan semua sumber daya yang terkait dengannya, sehingga mencegah kebocoran memori.
+
 ## Kesimpulan
 
-Dalam tutorial ini, Anda mempelajari cara menampilkan pratinjau hentian halaman lembar kerja menggunakan Aspose.Cells untuk .NET. Dengan mengikuti langkah-langkah yang dijelaskan, Anda bisa dengan mudah mengontrol tampilan dan tata letak file Excel Anda.
+Nah, itu dia! Anda telah berhasil mengaktifkan pratinjau pemisah halaman untuk lembar kerja menggunakan Aspose.Cells untuk .NET. Fitur ini dapat meningkatkan kemampuan Anda untuk mengelola tata letak cetak secara signifikan, sehingga memudahkan penyajian data secara terstruktur. Baik Anda membuat laporan atau menyiapkan data untuk dicetak, Aspose.Cells menawarkan berbagai alat yang diperlukan untuk melepaskan kreativitas dan produktivitas Anda. Jadi, tunggu apa lagi? Terjunlah ke proyek Excel Anda berikutnya dengan Aspose.Cells dan lihat bagaimana ia mengubah alur kerja Anda!
 
-### Pertanyaan yang Sering Diajukan (FAQ)
+## Pertanyaan yang Sering Diajukan
 
-#### Apa itu Aspose.Cells untuk .NET?
+### Apa itu Aspose.Cells?
+Aspose.Cells adalah API .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel tanpa perlu menginstal Microsoft Excel.
 
-Aspose.Cells for .NET adalah perpustakaan perangkat lunak populer untuk memanipulasi file Excel dalam aplikasi .NET.
+### Bisakah saya menggunakan Aspose.Cells secara gratis?
+ Ya, Aspose menawarkan uji coba gratis untuk tujuan pengujian. Anda dapat[dapatkan uji coba gratis di sini](https://releases.aspose.com/).
 
-#### Bisakah saya memperlihatkan pratinjau halaman demi lembar kerja tertentu, bukan keseluruhan lembar kerja?
+### Bagaimana saya bisa membeli Aspose.Cells?
+ Kamu bisa[beli Aspose.Cells di sini](https://purchase.aspose.com/buy).
 
-Ya, menggunakan Aspose.Cells Anda dapat mengaktifkan pratinjau hentian halaman untuk lembar kerja tertentu dengan mengakses objek Lembar Kerja yang sesuai.
+### Apakah dukungan teknis tersedia untuk Aspose.Cells?
+ Tentu saja! Anda bisa mendapatkan bantuan melalui[Forum dukungan Aspose](https://forum.aspose.com/c/cells/9).
 
-#### Apakah Aspose.Cells mendukung fitur pengeditan file Excel lainnya?
-
-Ya, Aspose.Cells menawarkan berbagai fitur untuk mengedit dan memanipulasi file Excel, seperti menambahkan data, memformat, membuat grafik, dll.
-
-#### Apakah Aspose.Cells hanya berfungsi dengan file Excel dalam format .xls?
-
-Tidak, Aspose.Cells mendukung berbagai format file Excel termasuk .xls dan .xlsx.
-	
+### Bisakah saya menerapkan pratinjau hentian halaman pada beberapa lembar kerja?
+Ya, Anda dapat melakukan pengulangan pada lembar kerja di buku kerja Anda dan menerapkan properti yang sama untuk setiap lembar kerja secara individual.

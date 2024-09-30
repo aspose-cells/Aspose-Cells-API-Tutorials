@@ -75,7 +75,7 @@ této fázi jste úspěšně převedli soubor aplikace Excel na dokument PDF. Sv
 
 ## Závěr
 
-Gratulujeme! Zvládli jste umění exportu souborů Excel do PDF pomocí knihovny Aspose.Cells for Java. Tento výkonný nástroj zjednodušuje programovou manipulaci se soubory aplikace Excel a umožňuje bez námahy generovat dokumenty PDF z dat aplikace Excel.
+Gratuluji! Zvládli jste umění exportu souborů Excel do PDF pomocí knihovny Aspose.Cells for Java. Tento výkonný nástroj zjednodušuje programovou manipulaci se soubory aplikace Excel a umožňuje bez námahy generovat dokumenty PDF z dat aplikace Excel.
 
 ---
 
@@ -95,7 +95,7 @@ Ano, Aspose.Cells podporuje různé formáty exportu, včetně XLS, XLSX, CSV, H
 
 Q4: Existují nějaká omezení při práci s velkými soubory aplikace Excel?
 
-Zatímco Aspose.Cells je optimalizován pro efektivní manipulaci s velkými soubory aplikace Excel, zvažte systémové prostředky při zpracování velmi velkých souborů, abyste zajistili hladký výkon.
+Přestože je Aspose.Cells optimalizován pro efektivní manipulaci s velkými soubory aplikace Excel, při zpracování velmi velkých souborů zvažte systémové prostředky, abyste zajistili hladký výkon.
 
 Q5: Kde najdu další dokumentaci a příklady pro Aspose.Cells?
 

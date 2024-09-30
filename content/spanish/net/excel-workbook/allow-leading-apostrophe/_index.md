@@ -1,139 +1,158 @@
 ---
-title: Permitir apóstrofe principal
-linktitle: Permitir apóstrofe principal
+title: Permitir apóstrofe inicial
+linktitle: Permitir apóstrofe inicial
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Permita el apóstrofe inicial en los libros de Excel con Aspose.Cells para .NET.
+description: Administre sin esfuerzo los apóstrofos iniciales en Excel con Aspose.Cells para .NET. Este completo tutorial lo guía paso a paso a través del proceso.
 type: docs
 weight: 60
 url: /es/net/excel-workbook/allow-leading-apostrophe/
 ---
-En este tutorial paso a paso, explicaremos el código fuente de C# proporcionado que le permitirá permitir el uso de un apóstrofe inicial en un libro de Excel usando Aspose.Cells para .NET. Siga los pasos a continuación para realizar esta operación.
+## Introducción
 
-## Paso 1: configurar los directorios de origen y de salida
+Bienvenido a esta guía paso a paso sobre cómo usar Aspose.Cells para .NET para administrar hojas de cálculo sin problemas, enfocándose particularmente en el manejo de apóstrofos iniciales en valores de celda. La capacidad de administrar datos de manera efectiva es crucial en el mundo centrado en los datos de hoy. ¿Alguna vez ha notado cómo Excel a veces puede tratar los valores de texto que comienzan con un apóstrofo de manera diferente? Esto puede generar resultados inesperados si está automatizando tareas de Excel con código .NET. ¡No tema! Este tutorial lo ayudará a navegar por eso. 
+
+## Prerrequisitos
+
+Antes de sumergirnos en el código, aquí hay algunos requisitos previos que debes cumplir:
+
+1. Conocimientos básicos de .NET: es fundamental estar familiarizado con el marco .NET. Si ya tienes experiencia con C# o VB.NET, considérate preparado.
+2. Biblioteca Aspose.Cells para .NET: necesitará tener instalado Aspose.Cells. Puede hacerlo fácilmente a través del administrador de paquetes NuGet o descargarlo desde el sitio web[Sitio de Aspose](https://releases.aspose.com/cells/net/).
+3. Configuración de IDE: asegúrese de tener un entorno de desarrollo integrado (IDE) como Visual Studio listo para codificar.
+4. Archivo de Excel de muestra: puede utilizar el archivo de muestra ("AllowLeadingApostropheSample.xlsx") con el que trabajaremos en el código.
+
+Ahora que ha cumplido con los requisitos previos, importemos los paquetes necesarios y configuremos nuestro proyecto.
+
+## Importar paquetes
+
+Para comenzar, deberá importar algunos paquetes esenciales. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
-// directorio fuente
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.Collections.Generic;
+```
+
+Asegúrate de haber agregado referencias a Aspose.Cells en tu proyecto. Si estás usando Visual Studio, puedes hacerlo buscando "Aspose.Cells" en el Administrador de paquetes NuGet.
+
+Dividiremos nuestras tareas en pasos manejables para garantizar la claridad.
+
+## Paso 1: Configuración de los directorios de origen y salida
+
+En este paso, necesitamos definir dónde se ubicarán nuestros archivos de entrada y salida.
+
+```csharp
+//Directorio de fuentes
 string sourceDir = RunExamples.Get_SourceDirectory();
-// Directorio de salida
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-En este primer paso, definimos los directorios de origen y salida de los archivos de Excel.
+ Aquí utilizamos métodos de utilidad.`Get_SourceDirectory()` y`Get_OutputDirectory()` para configurar cómodamente las rutas de nuestros archivos. Puede personalizar estas rutas según la estructura de su directorio.
 
-## Paso 2: crear una instancia de un objeto WorkbookDesigner
+## Paso 2: Crear un objeto de diseño de libros de trabajo
+
+Ahora, instanciaremos WorkbookDesigner, que es crucial para trabajar con marcadores inteligentes en Aspose.Cells.
 
 ```csharp
-// Crear una instancia de un objeto WorkbookDesigner
+// Creación de una instancia de un objeto WorkbookDesigner
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Creamos una instancia del`WorkbookDesigner` clase de Aspose.Cells.
+ El`WorkbookDesigner` Gestiona el diseño y la vinculación de datos de nuestro libro de trabajo, haciéndonos la vida más fácil al convertir datos a un formato visual.
 
-## Paso 3: cargar el libro de Excel
+## Paso 3: Cargue el libro de trabajo existente
+
+A continuación, cargaremos el libro de trabajo existente que contiene nuestros marcadores inteligentes.
 
 ```csharp
-// Cargue el libro de Excel
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
-designer.Workbook = workbook;
 ```
 
-Cargamos el libro de Excel desde el archivo especificado y desactivamos la conversión automática de apóstrofes iniciales a estilo de texto.
+El archivo de Excel de ejemplo que se muestra aquí debe contener marcadores inteligentes para que esta función sea útil. De esta manera, podemos reemplazar los marcadores con nuestros datos personalizados.
 
-## Paso 4: establecer la fuente de datos
+## Paso 4: Configurar los ajustes del libro de trabajo
+
+Ahora, querrá asegurarse de que la configuración del libro de trabajo esté configurada para manejar los apóstrofos iniciales de manera adecuada.
 
 ```csharp
-// Definir la fuente de datos para el libro de trabajo del diseñador.
+workbook.Settings.QuotePrefixToStyle = false;
+```
+
+ Mediante la configuración`QuotePrefixToStyle`en caso de que sea falso, le indicamos a Aspose.Cells que trate los apóstrofos iniciales como caracteres regulares, lo que nos permite manejarlos con precisión en nuestra salida.
+
+## Paso 5: Cargar datos para marcadores inteligentes
+
+Es hora de crear nuestra fuente de datos, que reemplazará los marcadores inteligentes en la plantilla de Excel.
+
+```csharp
 List<DataObject> list = new List<DataObject>
 {
-new DataObject
-{
-Id=1,
-Name = "demo"
-},
-new DataObject
-{
-ID=2,
-Name = "'demo"
-}
+    new DataObject { Id = 1, Name = "demo" },
+    new DataObject { Id = 2, Name = "'demo" }
 };
+```
+
+ Estamos creando una lista de`DataObject`, donde uno de los nombres incluye intencionalmente un apóstrofe inicial. Esto ayudará a ilustrar cómo Aspose.Cells aborda tales situaciones.
+
+## Paso 6: Vincular la fuente de datos al diseñador
+
+Ahora, vincularemos nuestra fuente de datos al diseñador de libros de trabajo.
+
+```csharp
 designer.SetDataSource("sampleData", list);
 ```
 
- Definimos una lista de objetos de datos y utilizamos el`SetDataSource` Método para establecer la fuente de datos para el libro de trabajo del diseñador.
+Asegúrate de que "sampleData" coincida con los marcadores inteligentes de tu archivo de Excel. De esta manera, Aspose.Cells sabe dónde insertar los datos.
 
-## Paso 5: Procesar marcadores inteligentes
+## Paso 7: Procesar los marcadores inteligentes
 
-```csharp
-// Procesar marcadores inteligentes
-designer. Process();
-```
-
- Usamos el`Process` Método para procesar marcadores inteligentes en el libro de trabajo del diseñador.
-
-## Paso 6: guarde el libro de Excel modificado
+Procedamos a procesar los marcadores inteligentes con los datos que hemos proporcionado.
 
 ```csharp
-// Guarde el libro de Excel modificado
-designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
-```
-
-Guardamos el libro de Excel modificado con los cambios realizados.
-
-### Código fuente de muestra para Permitir apóstrofe inicial usando Aspose.Cells para .NET 
-```csharp
-//Directorio fuente
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
-// Creación de instancias de un objeto WorkbookDesigner
-WorkbookDesigner designer = new WorkbookDesigner();
-Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
-// Abra una hoja de cálculo de diseñador que contenga marcadores inteligentes
-designer.Workbook = workbook;
-List<DataObject> list = new List<DataObject>
-{
-	new DataObject
-	{
-		 Id =1,
-		 Name = "demo"
-	},
-	new DataObject
-	{
-		Id=2,
-		Name = "'demo"
-	}
-};
-// Establecer la fuente de datos para la hoja de cálculo del diseñador
-designer.SetDataSource("sampleData", list);
-// Procesar los marcadores inteligentes
 designer.Process();
+```
+
+Esta línea es donde ocurre la magia; Aspose.Cells toma sus datos y llena los marcadores inteligentes designados en el libro de Excel.
+
+## Paso 8: Guardar el libro de trabajo procesado
+
+Finalmente, guardamos el libro de trabajo actualizado en un nuevo archivo.
+
+```csharp
 designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
+```
+
+Esto guarda nuestra hoja de Excel manipulada con un nuevo nombre, lo que garantiza que no sobrescribamos el archivo original.
+
+## Paso 9: Confirmar ejecución exitosa
+
+Nuestro último paso es informarle al usuario que la operación fue exitosa.
+
+```csharp
 Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 ```
 
+Esta sencilla salida de consola puede garantizarle que todos los pasos se han ejecutado sin problemas.
+
 ## Conclusión
 
-¡Enhorabuena! Aprendió cómo permitir el uso de un apóstrofo inicial en un libro de Excel usando Aspose.Cells para .NET. Experimente con sus propios datos para personalizar aún más sus libros de Excel.
+En esta guía, hemos recorrido los entresijos del manejo de apóstrofos iniciales en Excel con Aspose.Cells para .NET. Desde la configuración de su entorno hasta la manipulación eficaz de archivos de Excel, ha aprendido a eliminar posibles problemas que suelen surgir al trabajar con cadenas numéricas y formato automático.
 
-### Preguntas frecuentes
+Ahora, ya sea que esté generando informes, creando funcionalidades para el análisis de datos o administrando importaciones y exportaciones de datos, ¡tiene las herramientas para abordar esos escenarios con confianza!
 
-#### P: ¿Qué es el permiso de apóstrofo inicial en un libro de Excel?
+## Preguntas frecuentes
 
-R: Permitir el apóstrofo inicial en un libro de Excel permite que los datos que comienzan con un apóstrofo se muestren correctamente sin convertirlos a un estilo de texto. Esto resulta útil cuando desea mantener el apóstrofo como parte de los datos.
+### ¿Qué es Aspose.Cells?
+Aspose.Cells es una potente biblioteca .NET para crear, manipular y convertir archivos de Excel en múltiples formatos mediante programación.
 
-#### P: ¿Por qué necesito desactivar la conversión automática de apóstrofes iniciales?
+### ¿Puedo utilizar Aspose.Cells gratis?
+ Sí, puedes usar Aspose.Cells registrándote para una prueba gratuita[aquí](https://releases.aspose.com/).
 
-R: Al deshabilitar la conversión automática de citas iniciales, puede conservar su uso tal como está en sus datos. Esto evita cualquier modificación no deseada de los datos al abrir o manipular el libro de Excel.
+### ¿Cómo puedo obtener soporte para Aspose.Cells?
+ Puede encontrar ayuda y hacer preguntas en el[Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9).
 
-#### P: ¿Cómo configurar la fuente de datos en el libro de trabajo del diseñador?
+### ¿Qué tipos de archivos admite Aspose.Cells?
+Aspose.Cells admite una variedad de formatos, como XLS, XLSX, CSV y muchos otros.
 
- R: Para configurar la fuente de datos en el libro de trabajo del diseñador, puede usar el`SetDataSource` método que especifica el nombre de la fuente de datos y una lista de los objetos de datos correspondientes.
-
-#### P: ¿Permitir el apóstrofe inicial afecta otros datos en el libro de Excel?
-
-R: No, permitir el apóstrofe inicial solo afecta a los datos que comienzan con un apóstrofe. Otros datos en el libro de Excel permanecen sin cambios.
-
-#### P: ¿Puedo utilizar esta función con otros formatos de archivos de Excel?
-
-R: Sí, puede utilizar esta función con otros formatos de archivos de Excel compatibles con Aspose.Cells, como .xls, .xlsm, etc.
+### ¿Cómo compro una licencia para Aspose.Cells?
+ Puede comprar una licencia para Aspose.Cells directamente desde su página de compra[aquí](https://purchase.aspose.com/buy).

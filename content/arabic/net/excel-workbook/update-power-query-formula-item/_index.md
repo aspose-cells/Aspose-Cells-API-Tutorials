@@ -1,105 +1,126 @@
 ---
 title: تحديث عنصر صيغة Power Query
 linktitle: تحديث عنصر صيغة Power Query
-second_title: Aspose.Cells لمرجع .NET API
-description: تعرف على كيفية تحديث عناصر صيغة Power Query في ملفات Excel باستخدام Aspose.Cells لـ .NET.
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
+description: يمكنك بسهولة تحديث عناصر صيغة Power Query في Excel باستخدام Aspose.Cells for .NET. دليل خطوة بخطوة لتبسيط عمليات معالجة البيانات.
 type: docs
 weight: 160
 url: /ar/net/excel-workbook/update-power-query-formula-item/
 ---
-يعد تحديث عنصر صيغة Power Query عملية شائعة عند العمل مع البيانات الموجودة في ملفات Excel. باستخدام Aspose.Cells for .NET، يمكنك بسهولة تحديث عنصر صيغة Power Query باتباع الخطوات التالية:
+## مقدمة
 
-## الخطوة 1: تحديد أدلة المصدر والإخراج
+إذا سبق لك العمل باستخدام Excel، فأنت تعلم مدى قوته، وخاصةً عندما تبدأ في استخدام Power Query. فهي الصلصة السرية التي تسمح لك بتحويل بياناتك وتنظيفها وتحليلها دون عناء. إحدى الطرق الرائعة للتعامل مع صيغ Power Query في Excel هي من خلال Aspose.Cells for .NET. اليوم، سنرشدك خلال تحديث عناصر صيغ Power Query خطوة بخطوة. لذا، استعد للبدء!
 
-أولاً، تحتاج إلى تحديد الدليل المصدر حيث يوجد ملف Excel الذي يحتوي على صيغ Power Query المراد تحديثها، بالإضافة إلى دليل الإخراج الذي تريد حفظ الملف المعدل فيه. وإليك كيفية القيام بذلك باستخدام Aspose.Cells:
+## المتطلبات الأساسية
 
-```csharp
-// دليل المصدر
-string SourceDir = RunExamples.Get_SourceDirectory();
+قبل أن تتعمق في الكود، هناك بعض الأشياء التي قد ترغب في إعدادها:
 
-// دليل الإخراج
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+1. Visual Studio: ستحتاج إلى بيئة تطوير متكاملة (IDE) لكتابة وتشغيل كود .NET الخاص بك. Visual Studio هو الخيار الأمثل.
+2.  مكتبة Aspose.Cells: تأكد من توفر مكتبة Aspose.Cells ضمن مشروعك. يمكنك تنزيلها من[موقع](https://releases.aspose.com/cells/net/).
+3. المعرفة الأساسية بلغة C#: بينما سنتناول هذا الأمر معًا، فإن الحصول على بعض الفهم الأساسي للغة C# سيساعدك بالتأكيد، خاصة عند التنقل عبر فئات وطرق مختلفة.
+4. ملفات Excel النموذجية: ستحتاج إلى ملفات Excel المذكورة في مقتطف التعليمات البرمجية. تأكد من توفر ما يلي:
+   - `SamplePowerQueryFormula.xlsx`
+   - `SamplePowerQueryFormulaSource.xlsx`
 
-## الخطوة 2: قم بتحميل مصنف Excel المصدر
+5. .NET Framework: تأكد من أن مشروعك يستهدف إصدارًا متوافقًا من .NET Framework.
 
-بعد ذلك، تحتاج إلى تحميل مصنف Excel المصدر الذي تريد تحديث عنصر صيغة Power Query عليه. هيريس كيفية القيام بذلك:
+الآن بعد أن أصبحت معداتنا جاهزة، يمكننا الانتقال إلى الجزء الممتع: كتابة التعليمات البرمجية!
 
-```csharp
-// قم بتحميل مصنف Excel المصدر
-Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
-```
+## استيراد الحزم
 
-## الخطوة 3: استعراض عناصر صيغة Power Query وتحديثها
-
-بعد تحميل المصنف، يمكنك الانتقال إلى مجموعة صيغ Power Query واستعراض كل صيغة وعناصرها. في هذا المثال، نبحث عن عنصر الصيغة الذي يحمل الاسم "المصدر" ونقوم بتحديث قيمته. فيما يلي نموذج التعليمات البرمجية لتحديث عنصر صيغة Power Query:
+أولاً وقبل كل شيء، ستحتاج إلى استيراد مساحات الأسماء الضرورية. وإليك كيفية القيام بذلك:
 
 ```csharp
-// الوصول إلى مجموعة صيغة Power Query
-DataMashup mashupData = workbook.DataMashup;
-
-// قم بالتكرار عبر صيغ Power Query وعناصرها
-foreach(PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-{
-     foreach(PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-     {
-         if (item.Name == "Source")
-         {
-             item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-         }
-     }
-}
+using Aspose.Cells.DigitalSignatures;
+using Aspose.Cells.QueryTables;
+using System;
+using System.IO;
 ```
 
-## الخطوة 4: احفظ مصنف Excel الناتج
+من خلال إضافة هذه المساحات الاسمية، فأنت بذلك تخبر المترجم بأنك تنوي استخدام الفئات والطرق من مكتبة Aspose.Cells. هذه الخطوة بالغة الأهمية لأنها تضع الأساس للكود الذي يليها.
 
-بمجرد قيامك بتحديث عنصر صيغة Power Query، يمكنك حفظ مصنف Excel المعدل في دليل الإخراج المحدد. هيريس كيفية القيام بذلك:
+دعنا نستعرض مقتطف التعليمات البرمجية الذي قدمته. سيرشدك هذا البرنامج التعليمي إلى كل جزء، مما يضمن فهمك لما يحدث.
 
-```csharp
-// احفظ مصنف Excel الناتج
-workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
-Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.\r\n");
-```
+## الخطوة 1: إعداد أدلة العمل
 
-### نموذج التعليمات البرمجية المصدر لتحديث عنصر صيغة Power Query باستخدام Aspose.Cells لـ .NET 
+في هذه الخطوة، سنحدد مكان وجود ملفات المصدر والإخراج. وهذا يضمن أن Aspose يعرف المكان الذي يبحث فيه عن ملفات Excel الخاصة بك.
+
 ```csharp
 // أدلة العمل
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ هنا، نحن نستخدم طريقة افتراضية`RunExamples.Get_SourceDirectory()` لجلب المسار إلى ملفات المصدر الخاصة بنا. وبالمثل،`RunExamples.Get_OutputDirectory()` يحصل على المسار الذي سنحفظ فيه مخرجاتنا. تأكد من أن هذه الطرق تعيد مسارات صالحة على جهازك.
+
+## الخطوة 2: تحميل المصنف
+
+الآن، لنقم بتحميل ملف Excel الذي يوجد فيه Power Query.
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
+```
+ ال`Workbook`تعتبر الفئة نقطة دخولك إلى ملف Excel. من خلال تمرير مسار ملف المصدر الخاص بنا، نقوم بإنشاء مثيل يسمح لنا بالتعامل معه. يمكنك تخيل الأمر مثل فتح كتاب - فأنت تستعد لقراءة (أو تحرير) محتوياته.
+
+## الخطوة 3: الوصول إلى مجموعة البيانات
+
+بعد ذلك، سنتمكن من الوصول إلى صيغ Power Query المخزنة في Data Mashup الخاص بالمصنف.
+
+```csharp
 DataMashup mashupData = workbook.DataMashup;
+```
+ ال`DataMashup` تحتوي الفئة على جميع صيغ Power Query المرتبطة بمصنف العمل الخاص بك. هذا هو المكان الذي سنقوم فيه بالعمل الشاق، تمامًا كما هو الحال عندما تفتح صندوق أدوات للإصلاحات.
+
+## الخطوة 4: تكرار صيغ Power Query
+
+الآن يأتي الجزء الذي نكرر فيه صيغ Power Query للعثور على الصيغة المحددة التي نريد تحديثها.
+
+```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
-	foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-	{
-		if (item.Name == "Source")
-		{
-			item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
-		}
-	}
+    foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
+    {
+        if (item.Name == "Source")
+        {
+            item.Value = "Excel.Workbook(File.Contents(\"" + SourceDir + "SamplePowerQueryFormulaSource.xlsx\"), null, true)";
+        }
+    }
 }
-// احفظ مصنف الإخراج.
+```
+
+-  نحن نمر عبر كل منها`PowerQueryFormula` في`mashupData`.
+-  في هذه الحلقة، نغوص في كل منها`PowerQueryFormulaItem`.
+- نتحقق مما إذا كان اسم العنصر يتطابق مع "المصدر". إذا كان الأمر كذلك، نقوم بتحديث قيمته للارتباط بملف المصدر الجديد.
+
+وهذا يشبه العثور على الصفحة الصحيحة في دليل ثم إجراء التحديثات اللازمة - إنها عملية مباشرة ودقيقة.
+
+## الخطوة 5: احفظ المصنف المحدث
+
+بعد إجراء التحديثات، حان الوقت لحفظ التغييرات.
+
+```csharp
+// احفظ المصنف الناتج.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
+ ال`Save` تكتب الطريقة المصنف المحدث إلى دليل الإخراج المحدد. الأمر أشبه بختم تعديلاتك في إصدار جديد من الدليل، جاهزًا لاستخدام الآخرين!
 
 ## خاتمة
 
-يعد تحديث عناصر صيغة Power Query عملية أساسية عند استخدام Aspose.Cells لمعالجة البيانات في ملفات Excel ومعالجتها. باتباع الخطوات المذكورة أعلاه، يمكنك بسهولة تحديث عناصر الصيغة
+مبروك! لقد نجحت في تحديث عنصر صيغة Power Query باستخدام Aspose.Cells for .NET. باستخدام هذه الطريقة، يمكنك أتمتة تعديل صيغ Power Query في ملفات Excel، مما يوفر لك الوقت والجهد الثمينين.
 
-### الأسئلة الشائعة
+## الأسئلة الشائعة
 
-#### س: ما هو Power Query في Excel؟
-     
-ج: Power Query عبارة عن ميزة في Excel تساعد في تجميع البيانات وتحويلها وتحميلها من مصادر مختلفة. فهو يوفر أدوات قوية لتنظيف البيانات ودمجها وإعادة تشكيلها قبل استيرادها إلى Excel.
+### ما هو Aspose.Cells؟
+Aspose.Cells عبارة عن مكتبة فعالة للتعامل مع ملفات Excel في تطبيقات .NET دون الحاجة إلى تثبيت Microsoft Excel.
 
-#### س: كيف أعرف ما إذا كان قد تم تحديث عنصر صيغة Power Query بنجاح؟
-    A: After running the Power Query Formula Item Update, you can check if the operation was successful by viewing the output and ensuring that the output Excel file was created correctly.
+### هل أحتاج إلى Microsoft Excel لتشغيل Aspose.Cells؟
+لا، يتيح لك Aspose.Cells إنشاء ملفات Excel وتحريرها برمجيًا دون الحاجة إلى Excel على الخادم أو جهاز التطوير الخاص بك.
 
-#### س: هل يمكنني تحديث عناصر صيغة Power Query المتعددة مرة واحدة؟
-    
-ج: نعم، يمكنك التكرار عبر مجموعة عناصر صيغة Power Query وتحديث عناصر متعددة في حلقة واحدة، وفقًا لاحتياجاتك المحددة.
+### ما هي أنواع ملفات Excel التي يمكنني العمل عليها باستخدام Aspose.Cells؟
+بإمكانك العمل مع .xlsx، و.xls، و.xlsm، والعديد من تنسيقات Excel الأخرى باستخدام Aspose.Cells.
 
-#### س: هل هناك عمليات أخرى يمكنني تنفيذها على صيغ Power Query باستخدام Aspose.Cells؟
-    
-ج: نعم، توفر Aspose.Cells مجموعة كاملة من الميزات للعمل مع صيغ Power Query، بما في ذلك إنشاء الصيغ وحذفها ونسخها والبحث فيها في مصنف Excel.
+### هل هناك نسخة تجريبية متاحة لـ Aspose.Cells؟
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية من[صفحة إصدار Aspose Cells](https://releases.aspose.com/).
+
+### كيف يمكنني الحصول على الدعم لـ Aspose.Cells؟
+ يمكنك الوصول إلى الدعم من خلال[منتدى اسبوس](https://forum.aspose.com/c/cells/9)حيث يمكنك طرح الأسئلة والعثور على إجابات من المجتمع وفريق Aspose.

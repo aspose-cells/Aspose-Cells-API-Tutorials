@@ -1,88 +1,135 @@
 ---
 title: 워크시트의 스크롤 막대 표시 및 숨기기
 linktitle: 워크시트의 스크롤 막대 표시 및 숨기기
-second_title: .NET API 참조용 Aspose.Cells
-description: .NET용 Aspose.Cells를 사용하여 Excel 워크시트에서 스크롤 막대를 표시하거나 숨깁니다.
+second_title: .NET API 참조를 위한 Aspose.Cells
+description: 이 자세하고 따라하기 쉬운 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 스크롤 막대를 표시하고 숨기는 방법을 알아보세요.
 type: docs
 weight: 50
 url: /ko/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
 ---
-이 튜토리얼에서는 Aspose.Cells for .NET과 함께 C# 소스 코드를 사용하여 Excel 워크시트에서 수직 및 수평 스크롤 막대를 표시하거나 숨기는 방법을 보여줍니다. 원하는 결과를 얻으려면 아래 단계를 따르십시오.
+## 소개
 
-## 1단계: 필요한 라이브러리 가져오기
+Excel 파일을 프로그래밍 방식으로 관리하는 것은 종종 마법처럼 보일 수 있습니다! 사용자 경험을 향상시키거나 스프레드시트 애플리케이션의 인터페이스를 간소화하려는 경우 스크롤 막대와 같은 시각적 구성 요소를 제어하는 것이 필수적입니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 워크시트의 스크롤 막대를 표시하고 숨기는 방법을 살펴보겠습니다. 이 분야에 익숙하지 않거나 기술을 다듬고자 하는 경우 올바른 위치에 있습니다!
 
-.NET용 Aspose.Cells 라이브러리를 설치했는지 확인하고 필요한 라이브러리를 C# 프로젝트로 가져옵니다.
+## 필수 조건
+
+시작하기 전에 필요한 모든 것이 있는지 확인하세요.
+
+1. C#에 대한 기본 지식: C# 프로그래밍에 대한 기본적인 이해가 도움이 될 것입니다. 이 언어로 코드 조각을 작성할 것이기 때문입니다.
+2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+3. IDE 설정: Visual Studio와 같은 통합 개발 환경(IDE)이나 C# 코드를 작성하고 실행하기 위한 코드 편집기 설정.
+4.  Excel 파일: 샘플 Excel 파일(예:`book1.xls`)을 편집하고 테스트할 수 있습니다.
+
+이러한 전제 조건을 충족하면 코드를 살펴볼 수 있습니다.
+
+## 필요한 패키지 가져오기
+
+Aspose.Cells를 사용하려면 먼저 C# 코드에서 필요한 네임스페이스를 가져와야 합니다. 다음과 같이 합니다.
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## 2단계: 디렉터리 경로 설정 및 Excel 파일 열기
+- `System.IO` 파일 입력 및 출력 작업을 관리할 수 있습니다.
+- `Aspose.Cells` Excel 파일을 조작하는 데 필요한 모든 기능을 제공하는 라이브러리입니다.
 
- Excel 파일이 포함된 디렉터리로 경로를 설정한 다음, 파일 스트림을 생성하고 인스턴스화하여 파일을 엽니다.`Workbook` 물체.
+이제 작업을 이해하기 쉬운 단계로 나누어 보겠습니다.
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-Workbook workbook = new Workbook(fstream);
-```
+## 1단계: 파일 경로 정의
 
-## 3단계: 스크롤바 숨기기
+여기에서 작업하려는 Excel 파일의 경로를 지정합니다.
 
- 사용`IsVScrollBarVisible` 그리고`IsHScrollBarVisible` 의 속성`Workbook.Settings` 워크시트의 세로 및 가로 스크롤 막대를 숨기려면 개체를 사용하세요.
 
 ```csharp
-workbook.Settings.IsVScrollBarVisible = false;
-workbook.Settings.IsHScrollBarVisible = false;
-```
-
-## 4단계: 변경 사항 저장
-
- 필요한 사항을 변경한 후 다음을 사용하여 수정된 Excel 파일을 저장합니다.`Save` 의 방법`Workbook` 물체.
-
-```csharp
-workbook.Save(dataDir + "output.xls");
-```
-
-### .NET용 Aspose.Cells를 사용하여 워크시트의 스크롤 막대 표시 및 숨기기에 대한 샘플 소스 코드 
-
-```csharp
-//문서 디렉터리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// 열려는 Excel 파일이 포함된 파일 스트림 생성
+```
+  
+ 바꾸다`YOUR DOCUMENT DIRECTORY` Excel 파일이 저장된 실제 경로와 함께. 이를 통해 프로그램은 조작할 필요한 파일을 찾을 수 있습니다.
+
+## 2단계: 파일 스트림 만들기
+
+여기에서는 Excel 파일을 읽기 위한 파일 스트림을 생성합니다.
+
+
+```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-// 통합 문서 개체 인스턴스화
-// 파일 스트림을 통해 Excel 파일 열기
+```
+  
+ 그만큼`FileStream`클래스를 사용하면 파일을 읽고 쓸 수 있습니다. 이 경우 Excel 파일을 읽기 모드로 엽니다.
+
+## 3단계: 통합 문서 개체 인스턴스화
+
+ 다음으로, 다음을 생성해야 합니다.`Workbook` 코드에서 Excel 파일을 나타내는 객체입니다.
+
+
+```csharp
 Workbook workbook = new Workbook(fstream);
-// Excel 파일의 세로 스크롤 막대 숨기기
+```
+  
+ 이것`Workbook` 이제 객체는 Excel 파일의 모든 데이터와 설정을 보관하므로 나중에 프로세스에서 조작이 가능합니다.
+
+## 4단계: 수직 스크롤 막대 숨기기
+
+이제 재밌는 부분이 왔습니다! 수직 스크롤 바를 숨겨 더 깔끔한 인터페이스를 만들 수 있습니다.
+
+
+```csharp
 workbook.Settings.IsVScrollBarVisible = false;
-// Excel 파일의 가로 스크롤 막대 숨기기
+```
+  
+ 설정하여`IsVScrollBarVisible` 에게`false`, 수직 스크롤 바는 보기에서 숨겨집니다. 이것은 사용자 친화적인 방식으로 스크롤을 제한하려는 경우 특히 유용할 수 있습니다.
+
+## 5단계: 가로 스크롤 막대 숨기기
+
+수직 스크롤과 마찬가지로 수평 스크롤 막대도 숨길 수 있습니다.
+
+
+```csharp
 workbook.Settings.IsHScrollBarVisible = false;
-// 수정된 엑셀 파일 저장
+```
+  
+여기서는 수평 스크롤 막대도 보이지 않게 합니다. 이렇게 하면 워크시트의 모양을 더 잘 제어할 수 있습니다.
+
+## 6단계: 수정된 Excel 파일 저장
+
+가시성 설정을 변경한 후에는 변경 사항을 저장해야 합니다. 
+
+
+```csharp
 workbook.Save(dataDir + "output.xls");
-// 모든 리소스를 해제하기 위해 파일 스트림을 닫습니다.
+```
+  
+이 코드는 수정된 통합 문서를 새 이름으로 저장합니다.`output.xls`). 원본 파일을 덮어쓰는 것을 방지하여 백업을 유지할 수 있습니다.
+
+## 7단계: 파일 스트림 닫기
+
+마지막으로, 시스템 리소스를 확보하기 위해 항상 파일 스트림을 닫아두는 것을 잊지 마세요.
+
+
+```csharp
 fstream.Close();
 ```
+  
+스트림을 닫는 것은 메모리 누수를 방지하고 애플리케이션이 원활하게 실행되도록 하는 좋은 방법입니다.
 
-### 결론
+## 결론
 
-이 단계별 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 스프레드시트에서 수직 및 수평 스크롤 막대를 표시하거나 숨기는 방법을 보여주었습니다. 제공된 C# 소스 코드를 사용하면 Excel 파일의 스크롤 막대 표시를 쉽게 사용자 지정할 수 있습니다.
+이러한 간단한 단계를 따르면 Aspose.Cells for .NET을 사용하여 워크시트의 스크롤 막대를 표시하고 숨기는 방법을 배웠습니다. 이렇게 하면 Excel 파일의 미학이 향상될 뿐만 아니라 특히 데이터나 양식을 표시할 때 사용자 경험도 향상됩니다. 
 
-### 자주 묻는 질문(FAQ)
+## 자주 묻는 질문
 
-#### .NET용 Aspose.Cells란 무엇입니까?
+### 스크롤바를 숨긴 후 다시 표시할 수 있나요?  
+ 네! 설정만 하면 됩니다.`IsVScrollBarVisible` 그리고`IsHScrollBarVisible` 뒤로 돌아가기`true`.
 
-Aspose.Cells for .NET은 .NET 애플리케이션에서 Excel 파일을 조작하기 위한 강력한 라이브러리입니다.
+### Aspose.Cells는 무료로 사용할 수 있나요?  
+ Aspose.Cells는 완전히 무료는 아니지만 제한된 기간 동안 무료로 사용해볼 수 있으며 구매를 고려할 수도 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/).
 
-#### .NET용 Aspose.Cells를 어떻게 설치하나요?
+### Aspose.Cells로 어떤 유형의 Excel 파일을 조작할 수 있나요?  
+.xls, .xlsx, .xlsm, .xlsb 등 다양한 Excel 형식으로 작업할 수 있습니다.
 
- .NET용 Aspose.Cells를 설치하려면 다음에서 관련 패키지를 다운로드해야 합니다.[Aspose 릴리스](https://releases/aspose.com/cells/net/) .NET 프로젝트에 추가하세요.
+### 더 많은 예를 어디서 볼 수 있나요?  
+ 확인하세요[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 추가 예제와 튜토리얼을 확인하세요.
 
-#### .NET용 Aspose.Cells를 사용하여 Excel 스프레드시트에서 스크롤 막대를 표시하거나 숨기려면 어떻게 해야 합니까?
-
- 당신은 사용할 수 있습니다`IsVScrollBarVisible` 그리고`IsHScrollBarVisible` 의 속성`Workbook.Settings` Excel 워크시트에서 각각 수직 및 수평 스크롤 막대를 표시하거나 숨기려면 개체입니다.
-
-#### .NET용 Aspose.Cells는 어떤 다른 Excel 파일 형식을 지원합니까?
-
-Aspose.Cells for .NET은 XLS, XLSX, CSV, HTML, PDF 등과 같은 다양한 Excel 파일 형식을 지원합니다.
+### Aspose.Cells를 사용하는 동안 문제가 발생하면 어떻게 해야 하나요?  
+ Aspose 지원 포럼에서 도움을 요청하거나 문제를 보고할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).

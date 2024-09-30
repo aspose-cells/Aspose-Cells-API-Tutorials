@@ -1,85 +1,120 @@
 ---
-title: Crear libro de trabajo compartido
-linktitle: Crear libro de trabajo compartido
+title: Crear un libro de trabajo compartido
+linktitle: Crear un libro de trabajo compartido
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Cree un libro de trabajo compartido de Excel con Aspose.Cells para .NET para permitir la colaboración de datos simultánea.
+description: Aprenda a crear un libro de trabajo compartido con Aspose.Cells para .NET con esta sencilla guía paso a paso. Perfecta para mejorar la colaboración en equipo.
 type: docs
 weight: 70
 url: /es/net/excel-workbook/create-shared-workbook/
 ---
-En este tutorial, lo guiaremos a través del código fuente de C# proporcionado que le permitirá crear un libro de trabajo compartido usando Aspose.Cells para .NET. Siga los pasos a continuación para realizar esta operación.
+## Introducción
 
-## Paso 1: configurar el directorio de salida
+La creación de un libro de trabajo compartido puede ser un punto de inflexión para la colaboración, especialmente si está haciendo malabarismos con datos de distintos equipos o departamentos. Con Aspose.Cells para .NET, tiene una herramienta sólida a su disposición para administrar archivos de Excel mediante programación. Esta guía lo guiará por los pasos necesarios para crear un libro de trabajo compartido, lo que hará que su colaboración sea más ágil y eficiente. Ya sea que sea un principiante o un desarrollador experimentado, ¡este sencillo pero poderoso tutorial lo sorprenderá!
+
+## Prerrequisitos
+
+Antes de profundizar en los detalles de la creación de un libro de trabajo compartido, aclaremos algunas cosas:
+
+1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Es un entorno de desarrollo donde puedes escribir y ejecutar tu código.
+2.  Aspose.Cells para .NET: Necesitará tener la biblioteca Aspose.Cells. Puede descargarla desde[Descargas de Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. .NET Framework: asegúrese de tener instalado .NET Framework. Este ejemplo funcionará con .NET Core o .NET Framework 4.x.
+4. Conocimientos básicos de C#: Un poco de familiaridad con la programación en C# será de gran ayuda. Si puedes escribir código básico, ¡deberías estar listo para comenzar!
+
+Una vez que tenga estos requisitos previos establecidos, estará listo para comenzar a crear su libro de trabajo compartido.
+
+## Importar paquetes
+
+Ahora que tenemos nuestro entorno listo, importemos los paquetes necesarios para comenzar. A continuación, le indicamos cómo hacerlo:
+
+### Crear un nuevo proyecto
+1. Abra Visual Studio.
+2. Cree un nuevo proyecto de consola C#.
+3. Ponle a tu proyecto un nombre como "SharedWorkbookExample".
+
+### Instalar Aspose.Cells
+1. Haga clic derecho en su proyecto en el Explorador de soluciones y seleccione “Administrar paquetes NuGet”.
+2. Busque "Aspose.Cells" e instálelo. Esto agregará las referencias necesarias a su proyecto.
+
+### Agregar directivas de uso
+ En la parte superior de tu`Program.cs` archivo, agregue la siguiente directiva using:
 
 ```csharp
-// Directorio de salida
-string outputDir = RunExamples.Get_OutputDirectory();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-En este primer paso, definimos el directorio de salida donde se guardará el libro compartido.
+¡Y así, ya está todo listo para el éxito! Veamos los pasos para crear un libro de trabajo compartido.
 
-## Paso 2: crear un objeto de libro de trabajo
+¡Ahora nos adentramos en la parte interesante! Aquí se explica cómo crear un libro de trabajo compartido con Aspose.Cells para .NET, dividido en pasos fáciles de seguir.
 
-```csharp
-// Crear un objeto de libro de trabajo
-Workbook wb = new Workbook();
-```
+## Paso 1: Establezca el directorio de salida
 
-Estamos creando un nuevo objeto Libro de trabajo que representará nuestro libro de Excel.
+En este paso, definirás dónde se guardará el archivo de salida. Es como decidir dónde colocar las galletas recién horneadas: ¡quieres asegurarte de que sean fáciles de encontrar más tarde!
 
-## Paso 3: habilite el uso compartido de libros
-
-```csharp
-// compartir el libro de trabajo
-wb.Settings.Shared = true;
-```
-
- Habilitamos la función para compartir el libro configurando el`Shared` propiedad del objeto Libro de trabajo para`true`.
-
-## Paso 4: guarde el libro compartido
-
-```csharp
-// Guarde el libro compartido
-wb.Save(outputDir + "outputSharedWorkbook.xlsx");
-```
-
-Guardamos el libro compartido especificando la ruta y el nombre del archivo de salida.
-
-### Código fuente de muestra para crear un libro de trabajo compartido usando Aspose.Cells para .NET 
 ```csharp
 //Directorio de salida
 string outputDir = RunExamples.Get_OutputDirectory();
+```
+ Aquí, estamos usando un método`RunExamples.Get_OutputDirectory()` para especificar la carpeta donde se guardará el archivo Excel generado. Asegúrese de que este método esté definido en su código para un procesamiento de salida adecuado.
+
+## Paso 2: Crear el objeto de libro de trabajo
+
+A continuación, nos centraremos en la creación del libro de trabajo. ¡Aquí es donde ocurre la magia!
+
+```csharp
 //Crear objeto de libro de trabajo
 Workbook wb = new Workbook();
+```
+ Al crear una instancia de`Workbook` Clase, preparamos un nuevo libro de trabajo en la memoria. Piense en esto como si abriera una nueva hoja en blanco en Excel, esperando a que se complete con datos.
+
+## Paso 3: Comparte el libro de trabajo
+
+¡Es hora de convertir su libro de trabajo en una obra maestra colaborativa! Al compartirlo, varios usuarios podrán acceder a él simultáneamente.
+
+```csharp
 //Comparte el libro de trabajo
 wb.Settings.Shared = true;
-//Guarde el libro de trabajo compartido
+```
+ Configuración`wb.Settings.Shared` a`true` Indica que varios usuarios pueden acceder a este libro de trabajo a la vez. Es como entregar las llaves de tu casa a tus amigos: ¡pueden entrar y salir cuando quieran!
+
+## Paso 4: Guardar el libro de trabajo compartido
+
+Ahora que tu libro de trabajo está listo para compartir, es hora de guardar los cambios. ¡Este es el momento de la verdad!
+
+```csharp
+//Guardar el libro de trabajo compartido
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
+```
+ Aquí, estamos guardando nuestro libro de trabajo compartido con el nombre`outputSharedWorkbook.xlsx` en el directorio de salida especificado. Esto generará un archivo de Excel que ahora puede ser compartido y modificado por varios usuarios.
+
+## Paso 5: Mostrar un mensaje de éxito
+
+Para confirmar que todo salió bien, imprimamos un mensaje de éxito.
+
+```csharp
 Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
+Esta sencilla línea de código envía un mensaje a la consola indicando que nuestra tarea se completó correctamente. ¡Es como un grito de victoria en la línea de meta!
 
-## Conclusión
+## Conclusión 
 
-¡Enhorabuena! Aprendió a crear un libro de trabajo compartido usando Aspose.Cells para .NET. El libro compartido puede ser utilizado por varios usuarios simultáneamente para colaborar en los datos. Experimente con sus propios datos y explore más a fondo las funciones de Aspose.Cells para crear libros de Excel potentes y personalizados.
+Crear un libro de trabajo compartido no consiste únicamente en generar un archivo de Excel, sino también en mejorar la colaboración y la eficiencia entre equipos. Con Aspose.Cells para .NET, el proceso es sencillo y fácil de usar. Si sigue los pasos que se describen aquí, podrá crear sin esfuerzo un libro de trabajo que permita que varios usuarios interactúen con él simultáneamente. ¿Por qué esperar? ¡Anímese y comience a crear libros de trabajo compartidos que permitan a sus equipos colaborar como nunca antes!
 
-### Preguntas frecuentes
+## Preguntas frecuentes
 
-#### P: ¿Qué es un libro compartido?
+### ¿Qué es un libro de trabajo compartido?
+Un libro de trabajo compartido es un archivo de Excel que permite que varios usuarios colaboren en él simultáneamente.
 
-R: Un libro compartido es un libro de Excel que varios usuarios pueden utilizar simultáneamente para colaborar en los datos. Cada usuario puede realizar cambios en el libro y otros usuarios verán las actualizaciones en tiempo real.
+### ¿Puedo dejar de compartir un libro de trabajo una vez compartido?
+ Sí, puedes dejar de compartir un libro de trabajo configurando la`Shared` propiedad a`false`.
 
-#### P: ¿Cómo habilitar el uso compartido de un libro de trabajo en Aspose.Cells para .NET?
+### ¿Necesito una licencia para utilizar Aspose.Cells?
+Sí, se requiere una licencia para el uso comercial de Aspose.Cells. También puedes obtener una versión de prueba gratuita para probar sus funciones.
 
- R: Para habilitar el uso compartido de un libro de trabajo en Aspose.Cells para .NET, debe configurar el`Shared` propiedad del objeto Libro de trabajo para`true`. Esto permitirá a los usuarios trabajar en el libro simultáneamente.
+### ¿Dónde puedo obtener soporte para Aspose.Cells?
+ Puede encontrar ayuda y hacer preguntas en el[Foro de soporte de Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
-#### P: ¿Puedo restringir los permisos de usuario en un libro compartido?
-
-R: Sí, puede restringir los permisos de usuario en un libro compartido utilizando las funciones de seguridad de Excel. Puede establecer permisos específicos para cada usuario, como la capacidad de editar, solo lectura, etc.
-
-#### P: ¿Cómo puedo compartir el libro con otros usuarios?
-
-R: Una vez que haya creado el libro compartido, puede compartirlo con otros usuarios enviándoles el archivo de Excel. Otros usuarios podrán abrir el archivo y trabajar en él simultáneamente.
-
-#### P: ¿Se admiten todas las funciones de Excel en un libro compartido?
-
-R: La mayoría de las funciones de Excel son compatibles con un libro compartido. Sin embargo, algunas funciones avanzadas, como macros y complementos, pueden tener limitaciones o restricciones cuando se utilizan en un libro compartido.
+### ¿Cómo empiezo a utilizar Aspose.Cells?
+ Comience descargando la biblioteca desde[Descargas de Aspose.Cells](https://releases.aspose.com/cells/net/)página y siga los pasos de instalación mencionados en esta guía.

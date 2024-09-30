@@ -8,7 +8,7 @@ weight: 15
 url: /cs/java/excel-data-analysis/data-analysis-excel-charts/
 ---
 
-## Úvod
+## Zavedení
 
 Ve světě analýzy dat zůstává Excel mocným nástrojem. Umožňuje uživatelům snadno zpracovávat a vizualizovat data. Aspose.Cells for Java, API věnované práci se soubory Excel, posouvá analýzu dat na další úroveň. V tomto článku prozkoumáme, jak používat Aspose.Cells for Java k provádění analýzy dat a vytváření působivých grafů Excel krok za krokem.
 
@@ -18,7 +18,7 @@ Než se ponoříme do světa analýzy dat pomocí Aspose.Cells for Java, budete 
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
 
--  Aspose.Cells for Java: Stáhněte si a nainstalujte knihovnu Aspose.Cells for Java z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Stáhněte si a nainstalujte knihovnu Aspose.Cells for Java z[zde](https://releases.aspose.com/cells/java/).
 
 - Zdroj dat: Připravte si datovou sadu pro analýzu. Můžete použít jakýkoli zdroj dat, například soubor CSV nebo databázi.
 
@@ -112,4 +112,4 @@ Aspose.Cells for Java podporuje širokou škálu typů grafů, včetně sloupcov
 
 ### Kde najdu další zdroje a návody na Aspose.Cells for Java?
 
- Další zdroje a výukové programy k Aspose.Cells for Java naleznete v dokumentaci na adrese[tady](https://reference.aspose.com/cells/java/).
+ Další zdroje a výukové programy k Aspose.Cells for Java naleznete v dokumentaci na adrese[zde](https://reference.aspose.com/cells/java/).

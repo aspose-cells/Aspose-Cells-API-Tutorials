@@ -51,7 +51,7 @@ pivotTableHeaderStyle.setForegroundColor(Color.getLightGray());
 pivotTable.setStyleType(StyleType.PIVOT_TABLE_STYLE_LIGHT_16);
 ```
 
-## 步驟 4：儲存工作簿
+## 第 4 步：儲存工作簿
 
 不要忘記儲存工作簿以查看自訂的資料透視表：
 

@@ -85,7 +85,7 @@ Gå nu vidare och utforska de oändliga möjligheterna med Aspose.Cells för Jav
 
 ### Hur installerar jag Aspose.Cells för Java?
 
- För att installera Aspose.Cells för Java, ladda bara ner biblioteket från[den här länken](https://releases.aspose.com/cells/java/) och följ installationsinstruktionerna på Asposes webbplats.
+ För att installera Aspose.Cells för Java, ladda bara ner biblioteket från[denna länk](https://releases.aspose.com/cells/java/) och följ installationsinstruktionerna på Asposes webbplats.
 
 ### Kan jag använda Aspose.Cells för Java med andra programmeringsspråk?
 

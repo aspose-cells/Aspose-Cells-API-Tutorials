@@ -35,7 +35,7 @@ Az Aspose.Cells for Java segítségével egyszerűen hozhat létre dinamikus Exc
 ### [Automatizált adatkinyerés](./automated-data-extraction/)
 Ismerje meg, hogyan automatizálhatja hatékonyan az adatkinyerést az Aspose.Cells for Java segítségével forráskód-példákkal. Könnyedén bontsa ki az adatokat Excel-fájlokból.
 ### [Excel munkafüzet automatizálás](./excel-workbook-automation/)
-Ismerje meg az Excel-munkafüzet automatizálását Java nyelven az Aspose.Cells segítségével: Excel-fájlok létrehozása, olvasása és frissítése programozottan. Kezd el most!
+Ismerje meg az Excel-munkafüzet automatizálását Java nyelven az Aspose.Cells segítségével: Excel-fájlok létrehozása, olvasása és frissítése programozottan. Kezdje el most!
 ### [Excel diagramok automatizálása](./automating-excel-charts/)
 Fedezze fel, hogyan automatizálhatja az Excel diagramok létrehozását és testreszabását az Aspose.Cells for Java segítségével forráskód-példákkal. Egyszerűsítse diagramkészítési feladatait. 
 ### [Excel automatizálás Java-val](./excel-automation-with-java/)

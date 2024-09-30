@@ -1,8 +1,8 @@
 ---
 title: Tworzenie niestandardowej walidacji danych
 linktitle: Tworzenie niestandardowej walidacji danych
-second_title: Aspose.Cells API przetwarzania Java Excel
-description: Dowiedz się, jak utworzyć niestandardową weryfikację danych przy użyciu Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym.
+second_title: Aspose.Cells Java Excel Processing API
+description: Dowiedz się, jak tworzyć niestandardowe walidacje danych za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym.
 type: docs
 weight: 10
 url: /pl/java/data-validation-rules/creating-custom-data-validation/
@@ -10,13 +10,13 @@ url: /pl/java/data-validation-rules/creating-custom-data-validation/
 
 ## Wstęp
 
-Sprawdzanie poprawności danych pomaga zachować integralność danych, uniemożliwiając użytkownikom wprowadzanie nieprawidłowych lub nieprawidłowych danych do arkuszy kalkulacyjnych Excel. Chociaż program Excel oferuje wbudowane opcje sprawdzania poprawności danych, istnieją scenariusze, w których należy zdefiniować niestandardowe reguły sprawdzania poprawności. Aspose.Cells for Java umożliwia skuteczne osiągnięcie tego celu.
+Walidacja danych pomaga zachować integralność danych, uniemożliwiając użytkownikom wprowadzanie nieprawidłowych lub nieważnych danych do arkuszy kalkulacyjnych programu Excel. Podczas gdy program Excel oferuje wbudowane opcje walidacji danych, istnieją scenariusze, w których należy zdefiniować niestandardowe reguły walidacji. Aspose.Cells for Java umożliwia wydajne osiągnięcie tego celu.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim zagłębisz się w kod, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim zaczniesz pisać kod, upewnij się, że spełniasz następujące wymagania:
 
--  Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę z[Tutaj](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę ze strony[Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Konfigurowanie projektu Java
 
@@ -27,22 +27,22 @@ Aby rozpocząć, utwórz nowy projekt Java w preferowanym zintegrowanym środowi
 Zacznijmy od utworzenia nowego skoroszytu programu Excel przy użyciu Aspose.Cells dla języka Java.
 
 ```java
-// Kod Java umożliwiający utworzenie nowego skoroszytu programu Excel
+// Kod Java do utworzenia nowego skoroszytu programu Excel
 Workbook workbook = new Workbook();
 ```
 
-## Krok 3: Dodawanie arkusza
+## Krok 3: Dodawanie arkusza kalkulacyjnego
 
-Teraz dodajmy arkusz do skoroszytu, w którym zastosujemy naszą niestandardową weryfikację danych.
+Teraz dodajmy do skoroszytu arkusz kalkulacyjny, w którym zastosujemy naszą niestandardową walidację danych.
 
 ```java
-// Kod Java umożliwiający dodanie arkusza
+// Kod Java do dodania arkusza kalkulacyjnego
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Krok 4: Zdefiniowanie niestandardowych kryteriów walidacji
+## Krok 4: Definiowanie niestandardowych kryteriów walidacji
 
-Na tym etapie zdefiniujemy niestandardowe kryteria walidacji, które muszą spełniać nasze dane. Załóżmy, że chcemy ograniczyć wiek wprowadzony w komórce do zakresu od 18 do 60 lat.
+W tym kroku zdefiniujemy niestandardowe kryteria walidacji, których muszą przestrzegać nasze dane. Załóżmy, że chcemy ograniczyć wiek wprowadzony do komórki do przedziału od 18 do 60 lat.
 
 ```java
 // Kod Java do definiowania niestandardowych kryteriów walidacji
@@ -59,10 +59,10 @@ validation.setErrorMessage("Age must be between 18 and 60.");
 
 ## Krok 5: Stosowanie walidacji danych do zakresu
 
-Teraz, gdy zdefiniowaliśmy nasze niestandardowe kryteria sprawdzania poprawności, zastosujmy je do określonego zakresu komórek.
+Teraz, gdy zdefiniowaliśmy nasze niestandardowe kryteria walidacji, zastosujmy je do określonego zakresu komórek.
 
 ```java
-// Kod Java do stosowania sprawdzania poprawności danych w zakresie
+// Kod Java do zastosowania walidacji danych do zakresu
 CellArea area = new CellArea();
 area.startRow = 0;
 area.startColumn = 0;
@@ -74,7 +74,7 @@ validation.addArea(area);
 
 ## Krok 6: Zapisywanie pliku Excel
 
-Na koniec zapisz plik Excel z zastosowanymi niestandardowymi regułami sprawdzania poprawności danych.
+Na koniec zapisz plik Excela z zastosowanymi niestandardowymi regułami sprawdzania poprawności danych.
 
 ```java
 // Kod Java do zapisania pliku Excel
@@ -83,25 +83,25 @@ workbook.save("CustomDataValidation.xlsx");
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak tworzyć niestandardowe reguły sprawdzania poprawności danych przy użyciu Aspose.Cells dla języka Java. Wykonując poniższe kroki, możesz mieć pewność, że dane w programie Excel spełniają określone kryteria, zwiększając integralność i dokładność danych.
+W tym samouczku przyjrzeliśmy się sposobowi tworzenia niestandardowych reguł walidacji danych przy użyciu Aspose.Cells for Java. Wykonując te kroki, możesz upewnić się, że Twoje dane w programie Excel są zgodne z określonymi kryteriami, zwiększając integralność i dokładność danych.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### Jak pobrać Aspose.Cells dla Java?
 
- Możesz pobrać Aspose.Cells dla Java ze strony internetowej pod adresem[Tutaj](https://releases.aspose.com/cells/java/).
+ Możesz pobrać Aspose.Cells dla Java ze strony internetowej:[Tutaj](https://releases.aspose.com/cells/java/).
 
-### Czy mogę zastosować niestandardową weryfikację danych do wielu zakresów w tym samym arkuszu?
+### Czy mogę zastosować niestandardową walidację danych do wielu zakresów w tym samym arkuszu kalkulacyjnym?
 
-Tak, możesz zastosować niestandardową weryfikację danych do wielu zakresów w tym samym arkuszu, powtarzając krok 5 dla każdego żądanego zakresu.
+Tak, możesz zastosować niestandardową walidację danych do wielu zakresów w tym samym arkuszu kalkulacyjnym, powtarzając krok 5 dla każdego żądanego zakresu.
 
-### Czy istnieją inne typy sprawdzania poprawności danych obsługiwane przez Aspose.Cells dla Java?
+### Czy Aspose.Cells dla Java obsługuje inne typy walidacji danych?
 
-Tak, Aspose.Cells dla Java obsługuje różne typy sprawdzania poprawności danych, w tym liczby całkowite, dziesiętne, datę, godzinę, długość tekstu i inne.
+Tak, Aspose.Cells for Java obsługuje różne typy walidacji danych, w tym liczby całkowite, liczby dziesiętne, daty, godziny, długość tekstu i inne.
 
-### Jak mogę dostosować komunikat o błędzie wyświetlany w przypadku niepowodzenia sprawdzania danych?
+### W jaki sposób mogę dostosować komunikat o błędzie wyświetlany w przypadku niepowodzenia weryfikacji danych?
 
- Komunikat o błędzie można dostosować, modyfikując plik`setErrorMessage` metodę w kroku 4, w którym definiujesz kryteria walidacji.
+ Możesz dostosować komunikat o błędzie, modyfikując`setErrorMessage` metodę w kroku 4, w której definiujesz kryteria walidacji.
 
 ### Czy Aspose.Cells for Java współpracuje z plikami Excel w różnych formatach?
 

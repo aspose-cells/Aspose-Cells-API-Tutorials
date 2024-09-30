@@ -1,33 +1,33 @@
 ---
-title: Bestandstoegang controleren
-linktitle: Bestandstoegang controleren
+title: Auditing van bestandstoegang
+linktitle: Auditing van bestandstoegang
 second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Leer hoe u de toegang tot bestanden kunt controleren met Aspose.Cells voor Java API. Stap-voor-stap handleiding met broncode en veelgestelde vragen.
+description: Leer hoe u bestandstoegang kunt controleren met Aspose.Cells voor Java API. Stapsgewijze handleiding met broncode en FAQ's.
 type: docs
 weight: 16
 url: /nl/java/excel-data-security/auditing-file-access/
 ---
 
-## Inleiding tot het controleren van bestandstoegang
+## Inleiding tot het auditen van bestandstoegang
 
-In deze zelfstudie onderzoeken we hoe u de toegang tot bestanden kunt controleren met behulp van de Aspose.Cells voor Java API. Aspose.Cells is een krachtige Java-bibliotheek waarmee u Excel-spreadsheets kunt maken, manipuleren en beheren. We zullen demonstreren hoe u bestandstoegangsactiviteiten in uw Java-applicatie kunt volgen en loggen met behulp van deze API.
+In deze tutorial gaan we onderzoeken hoe u bestandstoegang kunt controleren met behulp van de Aspose.Cells voor Java API. Aspose.Cells is een krachtige Java-bibliotheek waarmee u Excel-spreadsheets kunt maken, bewerken en beheren. We laten zien hoe u bestandstoegangsactiviteiten in uw Java-applicatie kunt volgen en loggen met behulp van deze API.
 
 ## Vereisten
 
 Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-- [Java-ontwikkelkit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) op uw systeem geïnstalleerd.
--  Aspose.Cells voor Java-bibliotheek. Je kunt het downloaden van de[Aspose.Cells voor Java-website](https://releases.aspose.com/cells/java/).
+- [Java-ontwikkelingskit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) op uw systeem geïnstalleerd.
+-  Aspose.Cells voor Java-bibliotheek. U kunt het downloaden van de[Aspose.Cells voor Java-website](https://releases.aspose.com/cells/java/).
 
-## Stap 1: Uw Java-project opzetten
+## Stap 1: Uw Java-project instellen
 
-1. Maak een nieuw Java-project in de geïntegreerde ontwikkelomgeving (IDE) van uw voorkeur.
+1. Maak een nieuw Java-project in uw favoriete geïntegreerde ontwikkelomgeving (IDE).
 
 2. Voeg de Aspose.Cells voor Java-bibliotheek toe aan uw project door het JAR-bestand op te nemen dat u eerder hebt gedownload.
 
 ## Stap 2: De auditlogger maken
 
- In deze stap maken we een klasse aan die verantwoordelijk is voor het loggen van bestandstoegangsactiviteiten. Laten we het noemen`FileAccessLogger.java`. Hier is een basisimplementatie:
+ In deze stap maken we een klasse die verantwoordelijk is voor het loggen van bestandstoegangsactiviteiten. Laten we het noemen`FileAccessLogger.java`Hier is een basisimplementatie:
 
 ```java
 import java.io.FileWriter;
@@ -55,7 +55,7 @@ Deze logger registreert toegangsgebeurtenissen in een tekstbestand.
 
 ## Stap 3: Aspose.Cells gebruiken om bestandsbewerkingen uit te voeren
 
- Laten we nu Aspose.Cells in ons project integreren om bestandsbewerkingen uit te voeren en toegangsactiviteiten te loggen. We maken een klasse met de naam`ExcelFileManager.java`:
+ Laten we nu Aspose.Cells integreren in ons project om bestandsbewerkingen en logtoegangsactiviteiten uit te voeren. We maken een klasse genaamd`ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -85,20 +85,20 @@ public class ExcelFileManager {
 }
 ```
 
-## Stap 4: Gebruik de auditlogger in uw applicatie
+## Stap 4: De auditlogger in uw toepassing gebruiken
 
  Nu we onze`FileAccessLogger` En`ExcelFileManager` klassen, kunt u ze als volgt in uw toepassing gebruiken:
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        String username = "john_doe"; // Vervang door de daadwerkelijke gebruikersnaam
-        String filename = "example.xlsx"; // Vervang door het daadwerkelijke bestandspad
+        String username = "john_doe"; // Vervang door de werkelijke gebruikersnaam
+        String filename = "example.xlsx"; // Vervang met het daadwerkelijke bestandspad
 
         // Open het Excel-bestand
         ExcelFileManager.openExcelFile(filename, username);
 
-        // Voer bewerkingen uit op het Excel-bestand
+        // Bewerkingen uitvoeren op het Excel-bestand
 
         // Sla het Excel-bestand op
         ExcelFileManager.saveExcelFile(filename, username);
@@ -108,22 +108,22 @@ public class Main {
 
 ## Conclusie
 
-In deze uitgebreide handleiding hebben we ons verdiept in de wereld van Aspose.Cells voor Java API en gedemonstreerd hoe u de bestandstoegang binnen uw Java-applicaties kunt controleren. Door de stapsgewijze instructies te volgen en broncodevoorbeelden te gebruiken, heeft u waardevolle inzichten verkregen in het optimaal benutten van de mogelijkheden van deze krachtige bibliotheek.
+In deze uitgebreide gids zijn we in de wereld van Aspose.Cells voor Java API gedoken en hebben we gedemonstreerd hoe u bestandstoegang binnen uw Java-applicaties kunt controleren. Door de stapsgewijze instructies te volgen en broncodevoorbeelden te gebruiken, hebt u waardevolle inzichten gekregen in het benutten van de mogelijkheden van deze krachtige bibliotheek.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik het auditlogboek ophalen?
 
-Om het auditlogboek op te halen, kunt u eenvoudig de inhoud van het bestand lezen`file_access_log.txt` bestand met behulp van de bestandsleesmogelijkheden van Java.
+Om het auditlogboek op te halen, kunt u eenvoudig de inhoud van het`file_access_log.txt` bestand met behulp van de bestandsleesmogelijkheden van Java.
 
 ### Kan ik het logformaat of de bestemming aanpassen?
 
- Ja, u kunt het logformaat en de bestemming aanpassen door het`FileAccessLogger` klas. U kunt het logbestandspad en de loginvoerindeling wijzigen of zelfs een andere logbibliotheek zoals Log4j gebruiken.
+ Ja, u kunt het logformaat en de bestemming aanpassen door de`FileAccessLogger` klasse. U kunt het pad van het logbestand, het log-itemformaat wijzigen of zelfs een andere logbibliotheek gebruiken, zoals Log4j.
 
-### Is er een manier om logboekinvoer te filteren op gebruiker of bestand?
+### Is er een manier om logboekvermeldingen te filteren op gebruiker of bestand?
 
- U kunt filterlogica implementeren in het`FileAccessLogger` klas. Voeg voorwaarden toe aan logboekvermeldingen op basis van gebruikers- of bestandscriteria voordat u naar het logbestand schrijft.
+ U kunt filterlogica implementeren in de`FileAccessLogger` klasse. Voeg voorwaarden toe aan logboekvermeldingen op basis van gebruikers- of bestandscriteria voordat u naar het logboekbestand schrijft.
 
 ### Welke andere acties kan ik loggen naast het openen en opslaan van bestanden?
 
- Je kunt de`ExcelFileManager` class om andere acties vast te leggen, zoals het bewerken, verwijderen of delen van bestanden, afhankelijk van de vereisten van uw toepassing.
+ Je kunt de`ExcelFileManager` klasse om andere acties te loggen, zoals het bewerken, verwijderen of delen van bestanden, afhankelijk van de vereisten van uw toepassing.

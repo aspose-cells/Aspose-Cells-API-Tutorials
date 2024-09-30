@@ -2,7 +2,7 @@
 title: 如何使用Excel IF函數
 linktitle: 如何使用Excel IF函數
 second_title: Aspose.Cells Java Excel 處理 API
-description: 使用 Aspose.Cells for Java 解鎖 Excel IF 函數的強大功能。學習無縫實現條件邏輯。
+description: 使用 Aspose.Cells for Java 解鎖 Excel IF 函數的強大功能。學習無縫實施條件邏輯。
 type: docs
 weight: 11
 url: /zh-hant/java/basic-excel-functions/how-to-use-excel-if-function/

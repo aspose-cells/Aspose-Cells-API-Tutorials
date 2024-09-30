@@ -2,21 +2,21 @@
 title: Menyegarkan Data Tabel Pivot
 linktitle: Menyegarkan Data Tabel Pivot
 second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara menyegarkan data Tabel Pivot di Aspose.Cells untuk Java. Selalu perbarui data Anda dengan mudah.
+description: Pelajari cara menyegarkan data Tabel Pivot di Aspose.Cells untuk Java. Jaga data Anda tetap terkini dengan mudah.
 type: docs
 weight: 16
 url: /id/java/excel-pivot-tables/refreshing-pivot-table-data/
 ---
 
-Tabel pivot adalah alat canggih dalam analisis data, memungkinkan Anda meringkas dan memvisualisasikan kumpulan data yang kompleks. Namun, untuk mendapatkan hasil maksimal, data Anda harus selalu diperbarui. Dalam panduan langkah demi langkah ini, kami akan menunjukkan cara menyegarkan data Tabel Pivot menggunakan Aspose.Cells untuk Java.
+Tabel pivot merupakan alat yang ampuh dalam analisis data, yang memungkinkan Anda meringkas dan memvisualisasikan kumpulan data yang kompleks. Namun, untuk mendapatkan hasil maksimal, sangat penting untuk selalu memperbarui data Anda. Dalam panduan langkah demi langkah ini, kami akan menunjukkan cara menyegarkan data Tabel Pivot menggunakan Aspose.Cells untuk Java.
 
-## Mengapa Menyegarkan Data Tabel Pivot itu Penting
+## Mengapa Penyegaran Data Tabel Pivot Penting
 
-Sebelum mendalami langkah-langkahnya, mari kita pahami mengapa menyegarkan data Tabel Pivot itu penting. Saat bekerja dengan sumber data dinamis, seperti database atau file eksternal, informasi yang ditampilkan di Tabel Pivot Anda mungkin sudah ketinggalan zaman. Penyegaran memastikan analisis Anda mencerminkan perubahan terkini, sehingga membuat laporan Anda akurat dan andal.
+Sebelum menyelami langkah-langkahnya, mari kita pahami mengapa menyegarkan data Tabel Pivot itu penting. Saat bekerja dengan sumber data dinamis, seperti basis data atau file eksternal, informasi yang ditampilkan di Tabel Pivot Anda dapat menjadi usang. Penyegaran memastikan bahwa analisis Anda mencerminkan perubahan terbaru, membuat laporan Anda akurat dan andal.
 
 ## Langkah 1: Inisialisasi Aspose.Cells
 
- Untuk memulai, Anda perlu menyiapkan lingkungan Java Anda dengan Aspose.Cells. Jika Anda belum melakukannya, unduh dan instal perpustakaan dari[Aspose.Cells untuk Unduhan Java](https://releases.aspose.com/cells/java/) halaman.
+ Untuk memulai, Anda perlu menyiapkan lingkungan Java Anda dengan Aspose.Cells. Jika Anda belum melakukannya, unduh dan instal pustaka dari[Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/) halaman.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -25,7 +25,7 @@ import com.aspose.cells.Worksheet;
 
 ## Langkah 2: Muat Buku Kerja Anda
 
-Selanjutnya, muat buku kerja Excel Anda yang berisi Tabel Pivot yang ingin Anda segarkan.
+Berikutnya, muat buku kerja Excel Anda yang berisi Tabel Pivot yang ingin Anda segarkan.
 
 ```java
 String filePath = "path_to_your_workbook.xlsx";
@@ -34,10 +34,10 @@ Workbook workbook = new Workbook(filePath);
 
 ## Langkah 3: Akses Tabel Pivot
 
-Temukan Tabel Pivot dalam buku kerja Anda. Anda dapat melakukan ini dengan menentukan sheet dan namanya.
+Temukan Pivot Table di dalam buku kerja Anda. Anda dapat melakukannya dengan menentukan lembar kerja dan namanya.
 
 ```java
-String sheetName = "Sheet1"; // Ganti dengan nama sheet Anda
+String sheetName = "Sheet1"; // Ganti dengan nama lembar Anda
 String pivotTableName = "PivotTable1"; // Ganti dengan nama Tabel Pivot Anda
 
 Worksheet worksheet = workbook.getWorksheets().get(sheetName);
@@ -46,7 +46,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get(pivotTableName);
 
 ## Langkah 4: Segarkan Tabel Pivot
 
-Sekarang Anda memiliki akses ke Tabel Pivot, menyegarkan data sangatlah mudah.
+Sekarang Anda memiliki akses ke Tabel Pivot, menyegarkan data menjadi mudah.
 
 ```java
 pivotTable.refreshData();
@@ -64,23 +64,23 @@ workbook.save(outputFilePath);
 
 ## Kesimpulan
 
-Menyegarkan data Tabel Pivot di Aspose.Cells untuk Java adalah proses sederhana namun penting untuk memastikan laporan dan analisis Anda tetap terkini. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah memperbarui data dan membuat keputusan berdasarkan informasi terbaru.
+Menyegarkan data Tabel Pivot di Aspose.Cells untuk Java merupakan proses yang sederhana namun penting untuk memastikan laporan dan analisis Anda tetap terkini. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah menjaga data Anda tetap terkini dan membuat keputusan yang tepat berdasarkan informasi terbaru.
 
-## FAQ
+## Tanya Jawab Umum
 
 ### Mengapa Tabel Pivot saya tidak diperbarui secara otomatis?
-   - Tabel Pivot di Excel mungkin tidak diperbarui secara otomatis jika sumber data tidak diatur untuk menyegarkan file yang dibuka. Pastikan untuk mengaktifkan opsi ini di pengaturan Tabel Pivot Anda.
+   - Tabel Pivot di Excel mungkin tidak diperbarui secara otomatis jika sumber data tidak diatur untuk diperbarui saat file dibuka. Pastikan untuk mengaktifkan opsi ini di pengaturan Tabel Pivot Anda.
 
 ### Bisakah saya menyegarkan Tabel Pivot secara batch untuk beberapa buku kerja?
-   - Ya, Anda dapat mengotomatiskan proses menyegarkan Tabel Pivot untuk beberapa buku kerja menggunakan Aspose.Cells untuk Java. Buat skrip atau program untuk mengulangi file Anda dan terapkan langkah penyegaran.
+   - Ya, Anda dapat mengotomatiskan proses penyegaran Tabel Pivot untuk beberapa buku kerja menggunakan Aspose.Cells untuk Java. Buat skrip atau program untuk mengulang berkas Anda dan terapkan langkah penyegaran.
 
 ### Apakah Aspose.Cells kompatibel dengan sumber data yang berbeda?
-   - Aspose.Cells untuk Java mendukung berbagai sumber data, termasuk database, file CSV, dan banyak lagi. Anda dapat menghubungkan Tabel Pivot Anda ke sumber ini untuk pembaruan dinamis.
+   - Aspose.Cells untuk Java mendukung berbagai sumber data, termasuk basis data, file CSV, dan banyak lagi. Anda dapat menghubungkan Tabel Pivot ke sumber-sumber ini untuk pembaruan dinamis.
 
 ### Apakah ada batasan jumlah Tabel Pivot yang dapat saya segarkan?
-   - Jumlah Tabel Pivot yang dapat Anda segarkan bergantung pada memori sistem dan daya pemrosesan. Aspose.Cells untuk Java dirancang untuk menangani kumpulan data besar secara efisien.
+   - Jumlah Tabel Pivot yang dapat Anda perbarui bergantung pada memori dan daya pemrosesan sistem. Aspose.Cells untuk Java dirancang untuk menangani kumpulan data besar secara efisien.
 
 ### Bisakah saya menjadwalkan penyegaran Tabel Pivot otomatis?
-   - Ya, Anda dapat menjadwalkan penyegaran data otomatis menggunakan pustaka penjadwalan Aspose.Cells dan Java. Hal ini memungkinkan Anda untuk selalu memperbarui Tabel Pivot tanpa intervensi manual.
+   - Ya, Anda dapat menjadwalkan pembaruan data otomatis menggunakan Aspose.Cells dan pustaka penjadwalan Java. Ini memungkinkan Anda untuk menjaga Tabel Pivot tetap mutakhir tanpa intervensi manual.
 
-Sekarang Anda memiliki pengetahuan untuk menyegarkan data Tabel Pivot di Aspose.Cells untuk Java. Jaga keakuratan analisis Anda dan tetap terdepan dalam pengambilan keputusan berdasarkan data.
+Sekarang Anda memiliki pengetahuan untuk menyegarkan data Tabel Pivot di Aspose.Cells untuk Java. Jaga keakuratan analisis Anda dan tetaplah terdepan dalam keputusan berdasarkan data.

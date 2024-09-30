@@ -1,6 +1,6 @@
 ---
-title: Analisis Data Pivot Excel
-linktitle: Analisis Data Pivot Excel
+title: Analisis Data Excel Pivot
+linktitle: Analisis Data Excel Pivot
 second_title: API Pemrosesan Java Excel Aspose.Cells
 description: Pelajari Analisis Data di Excel dengan Aspose.Cells untuk Java. Panduan langkah demi langkah untuk penggunaan tabel pivot yang efektif.
 type: docs
@@ -10,19 +10,19 @@ url: /id/java/excel-data-analysis/data-analysis-excel-pivot/
 
 ## Pengantar Aspose.Cells untuk Java
 
-Sebelum mendalami seluk beluk analisis data, mari berkenalan dengan Aspose.Cells untuk Java. Pustaka Java ini adalah bagian dari keluarga produk Aspose.Cells, yang terkenal dengan kemampuannya dalam menangani file Excel. Aspose.Cells untuk Java memungkinkan Anda membuat, memodifikasi, dan memanipulasi buku kerja, lembar kerja, bagan, dan tabel pivot Excel secara terprogram.
+Sebelum menyelami seluk-beluk analisis data, mari berkenalan dengan Aspose.Cells untuk Java. Pustaka Java ini merupakan bagian dari keluarga produk Aspose.Cells, yang terkenal karena kemampuannya dalam menangani berkas Excel. Aspose.Cells untuk Java memungkinkan Anda membuat, memodifikasi, dan memanipulasi buku kerja Excel, lembar kerja, bagan, dan tabel pivot secara terprogram.
 
 ## Prasyarat
 
-Untuk mengikuti panduan ini, Anda memerlukan yang berikut:
+Untuk mengikuti panduan ini, Anda memerlukan hal berikut:
 
-- Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda.
--  Aspose.Cells for Java: Unduh dan sertakan perpustakaan Aspose.Cells for Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cells/java/).
+- Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
+-  Aspose.Cells untuk Java: Unduh dan sertakan pustaka Aspose.Cells untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cells/java/).
 - Contoh Data: Siapkan data Excel yang ingin Anda analisis.
 
 ## Membuat Buku Kerja Excel Baru
 
-Mari kita mulai dengan membuat buku kerja Excel baru menggunakan Aspose.Cells for Java. Ini akan menjadi dasar analisis data kami.
+Mari kita mulai dengan membuat buku kerja Excel baru menggunakan Aspose.Cells untuk Java. Ini akan menjadi dasar untuk analisis data kita.
 
 ```java
 // Kode Java untuk membuat buku kerja Excel baru
@@ -32,7 +32,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Mengimpor Data ke Excel
 
-Sekarang kita memiliki buku kerja kosong, kita bisa mengimpor data kita ke dalamnya. Anda dapat membaca data dari berbagai sumber seperti database, file CSV, atau bahkan menginput data secara manual.
+Sekarang setelah kita memiliki buku kerja kosong, kita dapat mengimpor data ke dalamnya. Anda dapat membaca data dari berbagai sumber seperti basis data, file CSV, atau bahkan memasukkan data secara manual.
 
 ```java
 // Kode Java untuk mengimpor data ke Excel
@@ -42,7 +42,7 @@ cells.importData(yourDataArray, 0, 0, importOptions);
 
 ## Membuat Tabel Pivot
 
-Tabel pivot adalah cara ampuh untuk meringkas dan menganalisis data di Excel. Mari buat tabel pivot di buku kerja kita untuk memfasilitasi analisis data.
+Tabel pivot merupakan cara yang ampuh untuk meringkas dan menganalisis data di Excel. Mari kita buat tabel pivot di buku kerja kita untuk memudahkan analisis data.
 
 ```java
 // Kode Java untuk membuat tabel pivot
@@ -51,9 +51,9 @@ int index = pivotTables.add("A1", "E10", "PivotTable");
 PivotTable pivotTable = pivotTables.get(index);
 ```
 
-## Mendefinisikan Bidang Tabel Pivot
+## Menentukan Bidang Tabel Pivot
 
-Untuk melakukan analisis data secara efektif, kita perlu menentukan bidang mana yang akan disertakan dalam tabel pivot. Bidang ini dapat berupa kolom dari data yang kita impor.
+Untuk melakukan analisis data secara efektif, kita perlu menentukan kolom mana yang akan disertakan dalam tabel pivot kita. Kolom ini dapat berupa kolom dari data yang kita impor.
 
 ```java
 // Kode Java untuk menentukan bidang tabel pivot
@@ -63,17 +63,17 @@ pivotFields.add(cells, 0); // Tambahkan kolom pertama sebagai bidang baris
 
 ## Mengumpulkan Data
 
-Setelah tabel pivot disiapkan, kami dapat mengumpulkan dan meringkas data berdasarkan kebutuhan kami. Anda dapat menentukan fungsi agregasi seperti jumlah, rata-rata, hitungan, dll.
+Setelah tabel pivot disiapkan, kita dapat menggabungkan dan meringkas data berdasarkan kebutuhan kita. Anda dapat menentukan fungsi agregasi seperti jumlah, rata-rata, hitungan, dll.
 
 ```java
-// Kode Java untuk mengumpulkan data dalam tabel pivot
+// Kode Java untuk menggabungkan data dalam tabel pivot
 pivotTable.addFieldToArea(0, PivotFieldType.DATA); // Tambahkan kolom pertama sebagai bidang data
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // Gunakan fungsi SUM
 ```
 
 ## Menyesuaikan Tata Letak Tabel Pivot
 
-Untuk membuat tabel pivot lebih informatif, kita dapat menyesuaikan tata letaknya, seperti menambahkan filter, mengurutkan, dan mengubah posisi bidang.
+Untuk membuat tabel pivot kita lebih informatif, kita dapat menyesuaikan tata letaknya, seperti menambahkan filter, menyortir, dan mengubah posisi bidang.
 
 ```java
 // Kode Java untuk menyesuaikan tata letak tabel pivot
@@ -83,30 +83,30 @@ pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // Nonaktifkan subto
 
 ## Menganalisis Data
 
-Sekarang setelah kita membuat dan menyesuaikan tabel pivot, sekarang saatnya menganalisis data. Anda dapat menggunakan tabel pivot untuk menghasilkan wawasan, mendeteksi tren, dan membuat keputusan yang tepat.
+Setelah kita membuat dan menyesuaikan tabel pivot, saatnya menganalisis data. Anda dapat menggunakan tabel pivot untuk menghasilkan wawasan, mendeteksi tren, dan membuat keputusan yang tepat.
 
 ## Kesimpulan
 
-Dalam panduan ini, kita telah mempelajari cara melakukan analisis data di Excel menggunakan Aspose.Cells untuk Java. Kami memulai dengan membuat buku kerja baru, mengimpor data, dan membuat tabel pivot. Kemudian, kami menentukan bidang tabel pivot, mengumpulkan data, dan menyesuaikan tata letaknya. Dengan alat-alat ini, Anda dapat membuka potensi penuh analisis data di Excel dengan Java.
+Dalam panduan ini, kami telah menjajaki cara melakukan analisis data di Excel menggunakan Aspose.Cells untuk Java. Kami memulai dengan membuat buku kerja baru, mengimpor data, dan membuat tabel pivot. Kemudian, kami mendefinisikan bidang tabel pivot, menggabungkan data, dan menyesuaikan tata letak. Dengan alat-alat ini, Anda dapat membuka potensi penuh analisis data di Excel dengan Java.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
- Anda dapat mengunduh Aspose.Cells untuk Java dari situs web[Di Sini](https://releases.aspose.com/cells/java/). Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di proyek Java Anda.
+ Anda dapat mengunduh Aspose.Cells untuk Java dari situs web[Di Sini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di proyek Java Anda.
 
-### Bisakah saya melakukan penghitungan tingkat lanjut dalam tabel pivot?
+### Dapatkah saya melakukan perhitungan tingkat lanjut dalam tabel pivot?
 
-Ya, Anda dapat melakukan berbagai perhitungan dalam tabel pivot, termasuk jumlah, rata-rata, hitungan, dan lainnya. Aspose.Cells untuk Java menawarkan dukungan ekstensif untuk menyesuaikan penghitungan tabel pivot.
+Ya, Anda dapat melakukan berbagai perhitungan dalam tabel pivot, termasuk jumlah, rata-rata, hitungan, dan lainnya. Aspose.Cells untuk Java menawarkan dukungan yang luas untuk menyesuaikan perhitungan tabel pivot.
 
 ### Apakah Aspose.Cells untuk Java cocok untuk kumpulan data besar?
 
-Ya, Aspose.Cells untuk Java dirancang untuk menangani kumpulan data besar secara efisien. Ini menyediakan fitur seperti paging data dan streaming untuk mengoptimalkan kinerja dengan sejumlah besar data.
+Ya, Aspose.Cells untuk Java dirancang untuk menangani kumpulan data besar secara efisien. Aplikasi ini menyediakan fitur seperti paging dan streaming data untuk mengoptimalkan kinerja dengan jumlah data yang besar.
 
-### Bisakah saya mengotomatiskan tugas analisis data dengan Aspose.Cells untuk Java?
+### Dapatkah saya mengotomatiskan tugas analisis data dengan Aspose.Cells untuk Java?
 
-Sangat! Aspose.Cells untuk Java memungkinkan Anda mengotomatiskan tugas analisis data dengan menulis kode Java untuk memanipulasi file Excel. Anda dapat menjadwalkan tugas-tugas ini atau mengintegrasikannya ke dalam aplikasi Anda untuk otomatisasi yang lancar.
+Tentu saja! Aspose.Cells untuk Java memungkinkan Anda mengotomatiskan tugas analisis data dengan menulis kode Java untuk memanipulasi file Excel. Anda dapat menjadwalkan tugas-tugas ini atau mengintegrasikannya ke dalam aplikasi Anda untuk otomatisasi yang lancar.
 
 ### Apakah ada persyaratan lisensi untuk Aspose.Cells untuk Java?
 
-Ya, Aspose.Cells untuk Java adalah perpustakaan komersial, dan Anda memerlukan lisensi yang valid untuk menggunakannya dalam proyek Anda. Kunjungi situs web Aspose untuk detail lisensi dan informasi harga.
+Ya, Aspose.Cells untuk Java adalah pustaka komersial, dan Anda memerlukan lisensi yang valid untuk menggunakannya dalam proyek Anda. Kunjungi situs web Aspose untuk mengetahui detail lisensi dan informasi harga.

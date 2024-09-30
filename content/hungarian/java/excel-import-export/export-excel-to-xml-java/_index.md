@@ -98,7 +98,7 @@ public class ExcelToXMLExporter {
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan exportálhat Excel-adatokat XML-formátumba Java nyelven az Aspose.Cells for Java segítségével. Ez a lépésről lépésre bemutatott útmutató biztosítja a szükséges ismereteket és forráskódot a feladat zökkenőmentes elvégzéséhez.
+Gratulálok! Sikeresen megtanulta, hogyan exportálhat Excel-adatokat XML-formátumba Java nyelven az Aspose.Cells for Java segítségével. Ez a lépésről lépésre bemutatott útmutató biztosítja a szükséges ismereteket és forráskódot a feladat zökkenőmentes elvégzéséhez.
 
 ## GYIK
 

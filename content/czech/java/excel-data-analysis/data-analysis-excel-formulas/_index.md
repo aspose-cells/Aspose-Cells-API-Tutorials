@@ -90,7 +90,7 @@ tomto článku jsme prozkoumali analýzu dat v Excelu pomocí Aspose.Cells for J
 
 ## FAQ
 
-### Je Aspose.Cells for Java k použití zdarma?
+### Je Aspose.Cells for Java zdarma k použití?
 
  Ne, Aspose.Cells for Java je komerční knihovna s licenčním poplatkem. Můžete navštívit[Aspose webové stránky](https://www.aspose.com/) se dozvíte více o jejich cenách.
 

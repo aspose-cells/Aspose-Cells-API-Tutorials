@@ -67,7 +67,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Byta ut`"path/to/output/pdf/file.pdf"` med önskad utdatasökväg och filnamn för det resulterande PDF-dokumentet.
+ Ersätta`"path/to/output/pdf/file.pdf"` med önskad utdatasökväg och filnamn för det resulterande PDF-dokumentet.
 
 ## Steg 4: Förbättra din Java-applikation
 

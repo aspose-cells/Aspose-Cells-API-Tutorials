@@ -1,135 +1,151 @@
 ---
 title: ضبط مستوى الضغط
 linktitle: ضبط مستوى الضغط
-second_title: Aspose.Cells لمرجع .NET API
-description: قم بتقليل حجم مصنفات Excel الخاصة بك عن طريق ضبط مستوى الضغط باستخدام Aspose.Cells لـ .NET.
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
+description: تعرف على كيفية ضبط مستويات الضغط لملفات Excel باستخدام Aspose.Cells لـ .NET. قم بتحسين أحجام ملفاتك بكفاءة باستخدام هذا الدليل المفصل.
 type: docs
 weight: 50
 url: /ar/net/excel-workbook/adjust-compression-level/
 ---
-في هذا البرنامج التعليمي خطوة بخطوة، سنشرح كود مصدر C# المقدم والذي سيسمح لك بضبط مستوى الضغط باستخدام Aspose.Cells for .NET. اتبع الخطوات أدناه لضبط مستوى الضغط في مصنف Excel الخاص بك.
+## مقدمة
 
-## الخطوة 1: قم بتعيين أدلة المصدر والإخراج
+عندما يتعلق الأمر بالتعامل مع ملفات Excel الكبيرة، فإن التخزين الفعّال هو المفتاح. سواء كنت مطورًا يبحث عن تحسين أحجام الملفات أو محلل بيانات يريد تسريع عمليات نقل الملفات، فإن فهم كيفية ضبط مستويات الضغط في Aspose.Cells for .NET يمكن أن يكون بمثابة تغيير كبير. في هذا الدليل، سنرشدك خلال الخطوات لضبط مستويات الضغط عند حفظ ملفات Excel، مما يضمن لك الحفاظ على الأداء دون التضحية بالجودة.
 
-```csharp
-// دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
-// دليل الإخراج
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## المتطلبات الأساسية
 
-في هذه الخطوة الأولى، نقوم بتحديد مجلدات المصدر والمخرجات لملفات Excel.
+قبل الخوض في التفاصيل الدقيقة لمستويات الضغط، دعنا نتأكد من أن لديك كل ما تحتاجه للبدء:
 
-## الخطوة 2: تحميل مصنف Excel
+1. المعرفة الأساسية بلغة C#: يعد الفهم الأساسي لبرمجة C# أمرًا ضروريًا. إذا كنت مرتاحًا في التعامل مع المتغيرات والحلقات وعمليات الملفات الأساسية، فأنت على ما يرام!
+2. مكتبة Aspose.Cells لـ .NET: تأكد من تثبيت مكتبة Aspose.Cells. يمكنك تنزيلها من[موقع إلكتروني](https://releases.aspose.com/cells/net/) إذا كنت قد بدأت للتو، ففكر في الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+3. بيئة التطوير: قم بإعداد بيئة التطوير الخاصة بك، ويفضل أن تكون Visual Studio، لكتابة وتنفيذ كود C# الخاص بك. 
+4. ملف Excel نموذجي: احرص على أن يكون لديك ملف Excel كبير الحجم جاهزًا للاختبار. يمكنك إنشاء ملف أو استخدام أي ملف موجود، ولكن تأكد من أن حجمه كبير بما يكفي لرؤية تأثيرات الضغط.
 
-```csharp
-// قم بتحميل مصنف Excel
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+بعد توفر هذه الشروط الأساسية، فلنبدأ!
 
-نقوم بتحميل مصنف Excel من الملف المحدد باستخدام ملف`Workbook` فئة من Aspose.Cells.
+## استيراد الحزم
 
-## الخطوة 3: ضبط خيارات النسخ الاحتياطي
+قبل أن نتمكن من التعامل مع ملفات Excel، نحتاج إلى استيراد مساحات الأسماء الضرورية. هذه خطوة بالغة الأهمية تسمح لنا بالوصول إلى الفئات والطرق التي يوفرها Aspose.Cells.
+
+### استيراد مساحة اسم Aspose.Cells
 
 ```csharp
-// تحديد خيارات النسخ الاحتياطي
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- نقوم بإنشاء مثيل لـ`XlsbSaveOptions` فئة لتعيين خيارات الحفظ.
+ يستورد مقتطف التعليمات البرمجية هذا`Aspose.Cells` مساحة اسم تحتوي على جميع الفئات اللازمة للعمل مع ملفات Excel.`Aspose.Cells.Xlsb` مساحة الاسم مخصصة خصيصًا للتعامل مع تنسيقات ملفات XLSB.
 
-## الخطوة 4: ضبط مستوى الضغط (المستوى 1)
+الآن بعد أن قمنا بإعداد كل شيء، فلنبدأ في تقسيم عملية ضبط مستويات الضغط إلى خطوات يمكن إدارتها. سنحفظ مصنفًا بمستويات ضغط مختلفة ونقيس الوقت المستغرق لكل عملية. 
 
-```csharp
-// ضبط مستوى الضغط (المستوى 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## الخطوة 1: إعداد الدلائل الخاصة بك
 
- نقوم بضبط مستوى الضغط عن طريق الإعداد`CompressionType` ل`Level1`. ثم نقوم بحفظ مصنف Excel مع تحديد خيار الضغط هذا.
+أولاً وقبل كل شيء، نحتاج إلى تحديد المكان الذي سيتم تخزين ملفاتنا فيه. ويتضمن هذا تحديد دليل المصدر لملف الإدخال ودليل الإخراج لملفاتنا المضغوطة.
 
-## الخطوة 5: ضبط مستوى الضغط (المستوى 6)
-
-```csharp
-// ضبط مستوى الضغط (المستوى 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- نكرر العملية لضبط مستوى الضغط`Level6` واحفظ مصنف Excel بهذا الخيار.
-
-## الخطوة 6: ضبط مستوى الضغط (المستوى 9)
-
-```csharp
-// ضبط مستوى الضغط (المستوى 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- نكرر العملية مرة أخيرة لضبط مستوى الضغط عليه`Level9` واحفظ مصنف Excel بهذا الخيار.
-
-### نموذج التعليمات البرمجية المصدر لضبط مستوى الضغط باستخدام Aspose.Cells لـ .NET 
 ```csharp
 //دليل المصدر
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ هنا،`RunExamples.Get_SourceDirectory()` و`RunExamples.Get_OutputDirectory()` هي طرق تقوم بإرجاع المسارات إلى أدلة المصدر والإخراج الخاصة بك، على التوالي. 
+
+## الخطوة 2: تحميل المصنف
+
+بعد ذلك، سنقوم بتحميل مصنف Excel الذي نريد ضغطه. هذا هو المكان الذي ستشير فيه إلى ملف Excel الكبير الخاص بك.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ يقوم هذا الخط بإنشاء خط جديد`Workbook` الكائن بالملف المحدد. تأكد من صحة مسار الملف؛ وإلا فسوف تواجه أخطاء.
+
+## الخطوة 3: إنشاء خيارات الحفظ لـ XLSB
+
+ الآن، سنقوم بإنشاء مثيل لـ`XlsbSaveOptions`، والذي يسمح لنا بتحديد كيفية حفظ المصنف الخاص بنا، بما في ذلك مستوى الضغط.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+يقوم هذا السطر بإعداد الخيارات التي سنستخدمها لحفظ المصنف الخاص بنا بتنسيق XLSB.
+
+## الخطوة 4: ضبط مستويات الضغط وقياسها
+
+الآن يأتي الجزء الممتع! سنحفظ المصنف باستخدام مستويات ضغط مختلفة ونقيس الوقت المستغرق لكل عملية. 
+
+### ضغط المستوى 1
+
+لنبدأ بأدنى مستوى ضغط:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+في هذا المقطع، قمنا بتعيين نوع الضغط إلى المستوى 1، وحفظ المصنف، وتسجيل الوقت المستغرق. 
+
+### ضغط المستوى 6
+
+بعد ذلك، سنحاول مستوى ضغط متوسط المدى:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+هذه المرة، قمنا بتعيين نوع الضغط إلى المستوى 6 وكررنا عملية الحفظ.
+
+### ضغط المستوى 9
+
+وأخيرًا، دعنا نحفظ باستخدام أعلى مستوى ضغط:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+في هذه الخطوة، قمنا بتعيين نوع الضغط إلى المستوى 9، والذي من المفترض أن يؤدي إلى أصغر حجم للملف ولكن قد يستغرق وقتًا أطول للحفظ.
+
+## الخطوة 5: الناتج النهائي
+
+بعد تنفيذ جميع الخطوات المذكورة أعلاه، ستشاهد الأوقات المنقضية لكل مستوى ضغط مطبوعة على وحدة التحكم. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+يؤكد هذا السطر أن العملية برمتها قد اكتملت دون مشاكل.
+
 ## خاتمة
 
-تهنئة ! لقد تعلمت كيفية ضبط مستوى الضغط في مصنف Excel باستخدام Aspose.Cells لـ .NET. قم بتجربة مستويات مختلفة من الضغط للعثور على المستوى الذي يناسب احتياجاتك.
+إن ضبط مستويات الضغط عند حفظ ملفات Excel باستخدام Aspose.Cells for .NET هو أسلوب بسيط ولكنه قوي. باتباع الخطوات الموضحة في هذا الدليل، يمكنك بسهولة التحكم في أحجام الملفات، مما يجعلها أكثر قابلية للإدارة للتخزين والنقل. سواء كنت بحاجة إلى الوصول السريع إلى البيانات أو كنت تتطلع إلى تحسين أداء تطبيقك، فإن إتقان هذه الأساليب سيعزز بلا شك مهاراتك كمطور.
 
-### الأسئلة الشائعة
+## الأسئلة الشائعة
 
-#### س: ما هو الضغط في مصنف Excel؟
+### ما هو Aspose.Cells؟
+Aspose.Cells عبارة عن مكتبة .NET تتيح للمطورين إنشاء ملفات Excel ومعالجتها وتحويلها برمجيًا.
 
-ج: الضغط في مصنف Excel هو عملية تقليل حجم الملف باستخدام خوارزميات الضغط. يؤدي ذلك إلى تقليل مساحة التخزين المطلوبة وتحسين الأداء عند تحميل الملف ومعالجته.
+### كيف يمكنني تنزيل Aspose.Cells؟
+ يمكنك تنزيل مكتبة Aspose.Cells من[موقع إلكتروني](https://releases.aspose.com/cells/net/).
 
-#### س: ما هي مستويات الضغط المتوفرة مع Aspose.Cells؟
+### هل يمكنني استخدام Aspose.Cells مجانًا؟
+ نعم، تقدم Aspose نسخة تجريبية مجانية يمكنك الوصول إليها[هنا](https://releases.aspose.com/).
 
-ج: باستخدام Aspose.Cells، يمكنك ضبط مستوى الضغط من 1 إلى 9. كلما ارتفع مستوى الضغط، قل حجم الملف، ولكنه قد يؤدي أيضًا إلى زيادة وقت المعالجة.
+### ما هي مستويات الضغط المختلفة المتاحة؟
+يدعم Aspose.Cells مستويات ضغط متعددة تتراوح من المستوى 1 (أقل ضغط) إلى المستوى 9 (أقصى ضغط).
 
-#### س: كيف يمكنني اختيار مستوى الضغط المناسب لمصنف Excel الخاص بي؟
-
-ج: يعتمد اختيار مستوى الضغط على احتياجاتك الخاصة. إذا كنت تريد أقصى قدر من الضغط ووقت المعالجة ليس مشكلة، فيمكنك الانتقال إلى المستوى 9. إذا كنت تفضل التسوية بين حجم الملف ووقت المعالجة، فيمكنك اختيار مستوى متوسط.
-
-#### س: هل يؤثر الضغط على جودة البيانات في مصنف Excel؟
-
-ج: لا، لا يؤثر الضغط على جودة البيانات في مصنف Excel. فهو ببساطة يقلل من حجم الملف باستخدام تقنيات الضغط دون تغيير البيانات نفسها.
-
-#### س: هل يمكنني ضبط مستوى الضغط بعد حفظ ملف Excel؟
-
-ج: لا، بمجرد حفظ ملف Excel بمستوى ضغط محدد، لا يمكنك ضبط مستوى الضغط لاحقًا. ستحتاج إلى حفظ الملف مرة أخرى بمستوى الضغط الجديد إذا كنت ترغب في تعديله.
+### أين يمكنني العثور على الدعم لـ Aspose.Cells؟
+ يمكنك الحصول على الدعم وطرح الأسئلة على[منتدى اسبوس](https://forum.aspose.com/c/cells/9).

@@ -2,144 +2,143 @@
 title: 允许用户编辑 Excel 工作表中的范围
 linktitle: 允许用户编辑 Excel 工作表中的范围
 second_title: Aspose.Cells for .NET API 参考
-description: 允许用户使用 Aspose.Cells for .NET 编辑 Excel 电子表格中的特定范围。带有 C# 源代码的分步指南。
+description: 允许用户使用 Aspose.Cells for .NET 编辑 Excel 电子表格中的特定范围。使用 C# 源代码的分步指南。
 type: docs
 weight: 10
 url: /zh/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
-在本指南中，我们将引导您了解如何使用 Aspose.Cells for .NET 来允许用户编辑 Excel 电子表格中的特定范围。请按照以下步骤完成此任务。
+## 介绍
 
-## 第一步：搭建环境
+在使用 Excel 工作表时，灵活性通常是关键 - 尤其是当多个用户需要访问编辑特定区域而不损害整个工作表的数据完整性时。这就是 Aspose.Cells for .NET 的亮点！在本教程中，我们将深入研究如何允许用户编辑 Excel 工作表中的某些范围，同时保护文档的其余部分。在本文结束时，您不仅会掌握概念，而且还会有一个实际的示例可供使用。 
 
-确保您已设置开发环境并安装 Aspose.Cells for .NET。您可以从Aspose官方网站下载最新版本的库。
+## 先决条件
 
-## 第2步：导入所需的命名空间
+在我们讨论细节之前，让我们确保您已准备好开始所需的一切：
 
-在您的 C# 项目中，导入必要的命名空间以使用 Aspose.Cells：
+1. .NET 开发环境：您应该设置一个可运行的 .NET 开发环境（可以是 Visual Studio 或您选择的任何其他 IDE）。
+2.  Aspose.Cells for .NET Library：下载并安装 Aspose.Cells 库。您可以找到它[这里](https://releases.aspose.com/cells/net/).
+3. C# 基础知识：熟悉 C# 编程将帮助您轻松浏览代码示例。
+4. 了解 Excel 基础知识：了解 Excel 的工作原理将为我们将要讨论的功能奠定基础。
+
+一旦满足了这些先决条件，您就可以开始了！
+
+## 导入包
+
+在开始编码之前，我们需要确保我们的项目能够识别 Aspose.Cells 命名空间。以下是如何导入必要的包：
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## 第三步：设置文档目录路径
+现在我们已经导入了我们需要的内容，让我们逐步进入我们的教程。
 
-声明一个`dataDir`变量来指定要保存生成的 Excel 文件的目录的路径：
+## 步骤 1：设置文档目录
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
+对于任何文件操作，定义保存文档的位置至关重要。让我们设置工作目录来存储 Excel 文件。
 
-一定要更换`"YOUR_DOCUMENT_DIRECTORY"`与系统上的正确路径。
-
-## 第 4 步：创建工作簿对象
-
-实例化一个新的 Workbook 对象，该对象代表要创建的 Excel 工作簿：
-
-```csharp
-Workbook book = new Workbook();
-```
-
-## 第 5 步：访问第一个工作表
-
-使用以下代码导航到 Excel 工作簿中的第一个工作表：
-
-```csharp
-Worksheet sheet = book.Worksheets[0];
-```
-
-## 步骤 6：检索授权修改范围
-
-使用以下命令获取允许编辑范围的集合`AllowEditRanges`财产：
-
-```csharp
-ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-```
-
-## 步骤 7：定义保护范围
-
-使用以下命令定义受保护范围`Add`的方法`AllowEditRanges`收藏：
-
-```csharp
-int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-protectedRange protectedRange = allowRanges[idx];
-```
-
-在这里，我们创建了一个从单元格 A1 到单元格 C3 的受保护范围“r2”。
-
-## 步骤 8：指定密码
-
-使用以下命令指定受保护范围的密码`Password`财产：
-
-```csharp
-protectedRange.Password = "YOUR_PASSWORD";
-```
-
-一定要更换`"YOUR_PASSWORD"`使用所需的密码。
-
-## 步骤 9：保护工作表
-
-使用以下命令保护工作表`Protect`的方法`Worksheet`目的：
-
-```csharp
-sheet.Protect(ProtectionType.All);
-```
-
-这将通过防止任何超出允许范围的修改来保护电子表格。
-
-## 第 10 步：注册
-
-  Excel文件
-
-使用以下命令保存生成的 Excel 文件`Save`的方法`Workbook`目的：
-
-```csharp
-book.Save(dataDir + "protectedrange.out.xls");
-```
-
-请务必指定所需的文件名和正确的路径。
-
-### 允许用户使用 Aspose.Cells for .NET 在 Excel 工作表中编辑范围的示例源代码 
 ```csharp
 //文档目录的路径。
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//如果目录尚不存在，则创建该目录。
+
+//如果目录尚不存在，则创建目录。
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
-//实例化一个新的工作簿
+```
+
+首先，更换`"YOUR DOCUMENT DIRECTORY"`替换为要保存文件的路径。此代码检查目录是否存在；如果不存在，则创建一个。
+
+## 步骤 2：实例化新工作簿
+
+工作目录准备好后，就可以创建 Excel 工作簿了。 
+
+```csharp
+//实例化新的工作簿
 Workbook book = new Workbook();
+```
+
+在这里，我们创建一个新的实例`Workbook`Aspose.Cells提供的类，它允许我们操作Excel文件。
+
+## 步骤 3：访问默认工作表
+
+每个新创建的工作簿都至少带有一个工作表。让我们访问它。
+
+```csharp
 //获取第一个（默认）工作表
 Worksheet sheet = book.Worksheets[0];
+```
+
+在此代码片段中，我们访问工作簿的第一个工作表，我们将在后续步骤中对其进行操作。
+
+## 步骤 4：获取允许编辑范围
+
+为了能够编辑工作表的特定范围，我们需要访问`AllowEditRanges`财产。
+
+```csharp
 //获取允许编辑范围
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
+```
+
+该集合将允许我们管理工作表中哪些范围可编辑。
+
+## 步骤 5：定义保护范围
+
+接下来，让我们定义想要保护工作表的哪一部分，同时允许对指定范围进行编辑。
+
+```csharp
 //定义保护范围
 ProtectedRange proteced_range;
+
 //创建范围
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
+
 //指定密码
 proteced_range.Password = "123";
-//保护板材
+```
+
+在此步骤中，我们添加了一个名为“r2”的新可编辑范围，允许编辑从第 1 行第 1 列到第 3 行第 3 列的单元格。此外，我们设置了密码来保护此范围，确保只有授权用户才能修改它。
+
+## 步骤 6：保护工作表
+
+现在我们已经设置了可编辑范围，我们需要保护工作表。
+
+```csharp
+//保护工作表
 sheet.Protect(ProtectionType.All);
+```
+
+此代码将保护整个工作表免受任何不必要的更改，除了我们刚刚指定的范围之外。
+
+## 步骤 7：保存 Excel 文件
+
+让我们保存工作簿，以便我们可以在 Excel 文件中看到我们的更改。
+
+```csharp
 //保存 Excel 文件
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+确保根据需要调整文件名。这将使用我们配置的设置在指定的目录中创建一个 Excel 文件。
+
 ## 结论
 
-您现在已经了解了如何使用 Aspose.Cells for .NET 来允许用户编辑 Excel 电子表格中的特定范围。请随意进一步探索 Aspose.Cells 提供的功能来满足您的特定需求。
+就是这样！您已成功创建了一个 Excel 工作表，该工作表将编辑限制在指定范围内，同时保护工作表的其余部分。使用 Aspose.Cells for .NET 可以使管理这些类型的任务变得更加简单和高效。无论您是开发复杂的应用程序还是只需要安全地管理数据，这些功能都可以显著增强您的工作流程。
 
+## 常见问题解答
 
-### 常见问题解答
+### 什么是 Aspose.Cells？
+Aspose.Cells 是一个功能强大的.NET 库，用于处理 Excel 文件，提供以编程方式创建、编辑和转换电子表格等功能。
 
-#### 1. 如何允许用户编辑Excel电子表格中的特定范围？
+### 我可以应用多个可编辑范围吗？
+当然！您可以致电`Add`方法`allowRanges`多次收集以指定多个可编辑范围。
 
-您可以使用`ProtectedRangeCollection`类来定义允许的修改范围。使用`Add`方法用所需的单元格创建新的受保护范围。
+### 如果我忘记了密码该怎么办？
+不幸的是，如果您忘记了可编辑范围的密码，则需要删除保护或以可能涉及凭据的预定义方式访问文件。
 
-#### 2. 授权修改范围可以设置密码吗？
+### Aspose.Cells 有免费版本吗？
+是的，Aspose 提供免费试用，您可以在购买前利用它探索其功能。
 
-是的，您可以使用指定密码`Password`的财产`ProtectedRange`目的。这将限制仅具有密码的用户进行访问。
-
-#### 3. 设置允许的范围后，如何保护电子表格？
-
-使用`Protect`的方法`Worksheet`对象保护工作表。这将防止任何超出允许范围的更改，如果您指定了密码，可能会提示输入密码。
+### 在哪里可以找到有关 Aspose.Cells 的更多信息？
+您可以检查[文档](https://reference.aspose.com/cells/net/)以获取详细的指南和参考。

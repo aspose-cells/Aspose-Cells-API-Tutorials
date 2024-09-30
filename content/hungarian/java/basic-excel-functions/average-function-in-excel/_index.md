@@ -101,9 +101,9 @@ try {
 
 A kivételek hatékony kezelése érdekében mindig csomagolja a kódot egy try-catch blokkba.
 
-## További jellemzők
+## További funkciók
 
-Az Aspose.Cells for Java funkciók széles skáláját kínálja a cikkben leírtakon túl. Létrehozhat diagramokat, pivot táblákat, végezhet speciális számításokat és még sok mást. Tekintse meg a dokumentációt átfogó információkért.
+Az Aspose.Cells for Java funkciók széles skáláját kínálja a cikkben leírtakon túl. Létrehozhat diagramokat, pivot táblákat, végezhet speciális számításokat és még sok mást. A részletes információkért tekintse meg a dokumentációt.
 
 ## Következtetés
 

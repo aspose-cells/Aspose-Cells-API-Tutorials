@@ -1,135 +1,151 @@
 ---
-title: Pas het compressieniveau aan
-linktitle: Pas het compressieniveau aan
+title: Compressieniveau aanpassen
+linktitle: Compressieniveau aanpassen
 second_title: Aspose.Cells voor .NET API-referentie
-description: Verklein de grootte van uw Excel-werkmappen door het compressieniveau aan te passen met Aspose.Cells voor .NET.
+description: Leer hoe u compressieniveaus voor Excel-bestanden aanpast met Aspose.Cells voor .NET. Optimaliseer uw bestandsgroottes efficiënt met deze stapsgewijze handleiding.
 type: docs
 weight: 50
 url: /nl/net/excel-workbook/adjust-compression-level/
 ---
-In deze stapsgewijze zelfstudie leggen we de meegeleverde C#-broncode uit waarmee u het compressieniveau kunt aanpassen met Aspose.Cells voor .NET. Volg de onderstaande stappen om het compressieniveau in uw Excel-werkmap aan te passen.
+## Invoering
 
-## Stap 1: Stel de bron- en uitvoermappen in
+Als het aankomt op het verwerken van grote Excel-bestanden, is efficiënte opslag essentieel. Of u nu een ontwikkelaar bent die bestandsgroottes wil optimaliseren of een data-analist die bestandsoverdrachten wil versnellen, het begrijpen van hoe u compressieniveaus in Aspose.Cells voor .NET aanpast, kan een game changer zijn. In deze gids leiden we u door de stappen om compressieniveaus aan te passen bij het opslaan van Excel-bestanden, zodat u de prestaties behoudt zonder in te leveren op kwaliteit.
+
+## Vereisten
+
+Voordat we in de details van compressieniveaus duiken, controleren we eerst of u alles hebt wat u nodig hebt om te beginnen:
+
+1. Basiskennis van C#: Een fundamenteel begrip van C#-programmering is essentieel. Als u vertrouwd bent met variabelen, lussen en basisbestandsbewerkingen, bent u klaar om te gaan!
+2. Aspose.Cells voor .NET-bibliotheek: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van de[website](https://releases.aspose.com/cells/net/) Als je net begint, overweeg dan om een gratis proefversie te nemen[hier](https://releases.aspose.com/).
+3. Ontwikkelomgeving: Stel uw ontwikkelomgeving in, idealiter Visual Studio, om uw C#-code te schrijven en uit te voeren. 
+4. Voorbeeld Excel-bestand: Zorg dat u een groot Excel-bestand klaar hebt om te testen. U kunt er een maken of een bestaand bestand gebruiken, maar zorg ervoor dat het groot genoeg is om de effecten van compressie te zien.
+
+Nu deze voorwaarden vervuld zijn, kunnen we aan de slag!
+
+## Pakketten importeren
+
+Voordat we Excel-bestanden kunnen bewerken, moeten we de benodigde naamruimten importeren. Dit is een cruciale stap die ons toegang geeft tot de klassen en methoden die Aspose.Cells biedt.
+
+### Importeer de Aspose.Cells-naamruimte
 
 ```csharp
-// bronmap
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
+```
+
+ Dit codefragment importeert de`Aspose.Cells` naamruimte, die alle klassen bevat die nodig zijn om met Excel-bestanden te werken. De`Aspose.Cells.Xlsb` naamruimte is specifiek bedoeld voor het verwerken van XLSB-bestandsindelingen.
+
+Nu we alles hebben ingesteld, gaan we het proces van het aanpassen van compressieniveaus opsplitsen in beheersbare stappen. We slaan een werkmap op met verschillende compressieniveaus en meten de tijd die nodig is voor elke bewerking. 
+
+## Stap 1: Stel uw mappen in
+
+Allereerst moeten we definiëren waar onze bestanden worden opgeslagen. Dit houdt in dat we de brondirectory voor ons invoerbestand en de uitvoerdirectory voor onze gecomprimeerde bestanden specificeren.
+
+```csharp
+//Bron directory
 string sourceDir = RunExamples.Get_SourceDirectory();
-// Uitvoermap
 string outDir = RunExamples.Get_OutputDirectory();
 ```
 
-In deze eerste stap definiëren we de bron- en uitvoermappen voor de Excel-bestanden.
+ Hier,`RunExamples.Get_SourceDirectory()` En`RunExamples.Get_OutputDirectory()` zijn methoden die respectievelijk de paden naar uw bron- en uitvoermappen retourneren. 
 
-## Stap 2: Excel-werkmap laden
+## Stap 2: Laad de werkmap
+
+Vervolgens laden we de Excel-werkmap die we willen comprimeren. Hier verwijs je naar je grote Excel-bestand.
 
 ```csharp
-// Laad de Excel-werkmap
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
-We laden de Excel-werkmap vanuit het opgegeven bestand met behulp van de`Workbook` klasse van Aspose.Cells.
+ Deze regel initialiseert een nieuwe`Workbook` object met het opgegeven bestand. Zorg ervoor dat het bestandspad correct is, anders krijg je fouten.
 
-## Stap 3: Stel back-upopties in
+## Stap 3: Maak opslagopties voor XLSB
+
+ Nu gaan we een instantie maken van`XlsbSaveOptions`, waarmee we kunnen aangeven hoe we onze werkmap willen opslaan, inclusief het compressieniveau.
 
 ```csharp
-// Definieer back-upopties
 XlsbSaveOptions options = new XlsbSaveOptions();
 ```
 
- We maken een exemplaar van de`XlsbSaveOptions` klasse om opslagopties in te stellen.
+Deze regel bereidt de opties voor die we gebruiken voor het opslaan van onze werkmap in XLSB-formaat.
 
-## Stap 4: Pas het compressieniveau aan (niveau 1)
+## Stap 4: Compressieniveaus instellen en meten
 
-```csharp
-// Pas het compressieniveau aan (niveau 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+Nu komt het leuke gedeelte! We slaan de werkmap op met verschillende compressieniveaus en meten de tijd die nodig is voor elke bewerking. 
 
- We passen het compressieniveau aan door in te stellen`CompressionType` naar`Level1`. Vervolgens slaan we de Excel-werkmap op met deze compressieoptie gespecificeerd.
+### Compressie niveau 1
 
-## Stap 5: Pas het compressieniveau aan (niveau 6)
+Laten we beginnen met het laagste compressieniveau:
 
 ```csharp
-// Pas het compressieniveau aan (niveau 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- We herhalen het proces om het compressieniveau aan te passen`Level6` en sla de Excel-werkmap op met deze optie.
-
-## Stap 6: Pas het compressieniveau aan (niveau 9)
-
-```csharp
-// Pas het compressieniveau aan (niveau 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- We herhalen het proces nog een laatste keer om het compressieniveau aan te passen`Level9` en sla de Excel-werkmap op met deze optie.
-
-### Voorbeeldbroncode voor het aanpassen van het compressieniveau met Aspose.Cells voor .NET 
-```csharp
-//Bronmap
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-XlsbSaveOptions options = new XlsbSaveOptions();
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+In dit fragment stellen we het compressietype in op Niveau 1, slaan we de werkmap op en registreren we de benodigde tijd. 
+
+### Compressie niveau 6
+
+Vervolgens proberen we een compressieniveau in het middenbereik:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Deze keer stellen we het compressietype in op Niveau 6 en herhalen we de opslagbewerking.
+
+### Compressie niveau 9
+
+Laten we ten slotte opslaan met het hoogste compressieniveau:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+In deze stap stellen we het compressietype in op Niveau 9. Dit zou de kleinste bestandsgrootte moeten opleveren, maar het opslaan kan langer duren.
+
+## Stap 5: Eindresultaat
+
+Nadat u alle bovenstaande stappen hebt uitgevoerd, worden de verstreken tijden voor elk compressieniveau op de console weergegeven. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Deze regel bevestigt dat het gehele proces zonder problemen is voltooid.
+
 ## Conclusie
 
-Gefeliciteerd! U hebt geleerd hoe u het compressieniveau in een Excel-werkmap kunt aanpassen met Aspose.Cells voor .NET. Experimenteer met verschillende compressieniveaus om het niveau te vinden dat het beste bij uw behoeften past.
+Het aanpassen van compressieniveaus bij het opslaan van Excel-bestanden met Aspose.Cells voor .NET is een eenvoudige maar krachtige techniek. Door de stappen in deze handleiding te volgen, kunt u eenvoudig bestandsgroottes manipuleren, waardoor ze beter beheersbaar worden voor opslag en overdracht. Of u nu snelle toegang tot gegevens nodig hebt of de prestaties van uw toepassing wilt optimaliseren, het beheersen van deze technieken zal ongetwijfeld uw vaardigheden als ontwikkelaar verbeteren.
 
-### Veelgestelde vragen
+## Veelgestelde vragen
 
-#### Vraag: Wat is compressie in een Excel-werkmap?
+### Wat is Aspose.Cells?
+Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en converteren.
 
-A: Compressie in een Excel-werkmap is een proces waarbij de bestandsgrootte wordt verkleind met behulp van compressie-algoritmen. Dit vermindert de benodigde opslagruimte en verbetert de prestaties bij het laden en manipuleren van het bestand.
+### Hoe download ik Aspose.Cells?
+ U kunt de Aspose.Cells-bibliotheek downloaden van de[website](https://releases.aspose.com/cells/net/).
 
-#### Vraag: Welke compressieniveaus zijn beschikbaar met Aspose.Cells?
+### Kan ik Aspose.Cells gratis gebruiken?
+ Ja, Aspose biedt een gratis proefversie aan waar u toegang toe hebt[hier](https://releases.aspose.com/).
 
-A: Met Aspose.Cells kunt u het compressieniveau aanpassen van 1 tot 9. Hoe hoger het compressieniveau, hoe kleiner de bestandsgrootte, maar dit kan ook de verwerkingstijd verlengen.
+### Welke verschillende compressieniveaus zijn er?
+Aspose.Cells ondersteunt meerdere compressieniveaus, van niveau 1 (minste compressie) tot en met niveau 9 (maximale compressie).
 
-#### Vraag: Hoe kies ik het juiste compressieniveau voor mijn Excel-werkmap?
-
-A: De keuze van het compressieniveau hangt af van uw specifieke behoeften. Als je maximale compressie wilt en verwerkingstijd geen probleem is, kun je voor niveau 9 gaan. Als je de voorkeur geeft aan een compromis tussen bestandsgrootte en verwerkingstijd, kun je een tussenliggend niveau kiezen.
-
-#### Vraag: Heeft compressie invloed op de gegevenskwaliteit in de Excel-werkmap?
-
-A: Nee, de compressie heeft geen invloed op de gegevenskwaliteit in de Excel-werkmap. Het verkleint eenvoudigweg de bestandsgrootte met behulp van compressietechnieken zonder de gegevens zelf te wijzigen.
-
-#### Vraag: Kan ik het compressieniveau aanpassen nadat ik het Excel-bestand heb opgeslagen?
-
-A: Nee, zodra u het Excel-bestand met een specifiek compressieniveau heeft opgeslagen, kunt u het compressieniveau later niet meer aanpassen. Als u het bestand wilt wijzigen, moet u het bestand opnieuw opslaan met het nieuwe compressieniveau.
+### Waar kan ik ondersteuning vinden voor Aspose.Cells?
+ U kunt ondersteuning krijgen en vragen stellen op de[Aspose-forum](https://forum.aspose.com/c/cells/9).

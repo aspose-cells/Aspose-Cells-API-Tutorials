@@ -1,90 +1,108 @@
 ---
-title: Krijg papierbreedte en hoogte van het werkblad
-linktitle: Krijg papierbreedte en hoogte van het werkblad
+title: Krijg de papierbreedte en -hoogte van het werkblad
+linktitle: Krijg de papierbreedte en -hoogte van het werkblad
 second_title: Aspose.Cells voor .NET API-referentie
-description: Maak een stapsgewijze handleiding om de volgende C#-broncode uit te leggen om de papierbreedte en -hoogte van een spreadsheet te verkrijgen met behulp van Aspose.Cells voor .NET.
+description: Ontdek hoe u de papierbreedte en -hoogte van werkbladen in Aspose.Cells voor .NET kunt bepalen met een eenvoudige stapsgewijze handleiding.
 type: docs
 weight: 80
 url: /nl/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
 ---
-In deze zelfstudie nemen we u stap voor stap mee om de volgende C#-broncode uit te leggen om de papierbreedte en -hoogte van een werkblad te verkrijgen met behulp van Aspose.Cells voor .NET. Volg onderstaande stappen:
+## Invoering
 
-## Stap 1: Maak de werkmap
- Begin met het maken van een nieuwe werkmap met behulp van de`Workbook` klas:
+Heb je ooit geprobeerd een Excel-sheet af te drukken en te maken gehad met de verwarrende afmetingen van verschillende papierformaten? Als je net als ik bent, weet je dat niets je dag zo kan verpesten als een lay-out die niet goed is! Of je nu rapporten, facturen of gewoon een simpele lijst afdrukt, als je begrijpt hoe je papierafmetingen programmatisch kunt aanpassen, kun je een hoop problemen besparen. Vandaag duiken we in de wereld van Aspose.Cells voor .NET om te onderzoeken hoe je papierformaten rechtstreeks in je applicatie kunt ophalen en instellen. Laten we de mouwen opstropen en in de details duiken van het beheren van die papierafmetingen!
 
-```csharp
-Workbook wb = new Workbook();
-```
+## Vereisten 
 
-## Stap 2: Open het eerste werkblad
- Navigeer vervolgens naar het eerste werkblad in de werkmap met behulp van de`Worksheet` klas:
+Voordat we aan de slag gaan met de codeermagie, verzamelen we eerst wat je nodig hebt om te beginnen:
 
-```csharp
-Worksheet ws = wb.Worksheets[0];
-```
+1. Basiskennis van C#: U moet een inleidende kennis van C# hebben. Als u nieuw bent in programmeren, maak u dan geen zorgen! We houden het simpel.
+2.  Aspose.Cells Library: Zorg ervoor dat u de Aspose.Cells-bibliotheek voor .NET op uw machine hebt geïnstalleerd. U kunt deze downloaden van[deze link](https://releases.aspose.com/cells/net/).
+3. .NET Development Environment: Stel Visual Studio of een IDE naar keuze in om uw C#-code te schrijven en uit te voeren. Als u niet zeker weet waar u moet beginnen, is Visual Studio Community Edition een goede keuze.
+4.  Referenties en documentatie: Maak uzelf vertrouwd met Aspose.Cells-documentatie voor diepere inzichten. U kunt het vinden[hier](https://reference.aspose.com/cells/net/).
+5. Basiskennis van Excel-bestanden: Begrijpen hoe Excel-bestanden zijn gestructureerd (werkbladen, rijen en kolommen) is heel nuttig.
 
-## Stap 3: Stel het papierformaat in op A2 en toon de papierbreedte en -hoogte in inches
- Gebruik de`PaperSize` eigendom van de`PageSetup` object om het papierformaat in te stellen op A2 en gebruik vervolgens de`PaperWidth` En`PaperHeight` eigenschappen om respectievelijk de papierbreedte en -hoogte te verkrijgen. Geef deze waarden weer met behulp van de`Console.WriteLine` methode:
+Geweldig! Nu we de basis hebben afgevinkt, kunnen we meteen beginnen met het importeren van de benodigde pakketten.
 
-```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-```
+## Pakketten importeren
 
-## Stap 4: Herhaal de stappen voor andere papierformaten
-Herhaal de voorgaande stappen, wijzig het papierformaat in A3, A4 en Letter en geef vervolgens de papierbreedte- en hoogtewaarden voor elk formaat weer:
+ Om ons leven makkelijker te maken en de volledige kracht van Aspose.Cells te benutten, moeten we een aantal pakketten importeren. Het is net zo eenvoudig als het toevoegen van een`using` statement bovenaan uw codebestand. Dit is wat u moet importeren:
 
 ```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+using System;
+using System.IO;
 ```
 
-### Voorbeeldbroncode voor Papierbreedte en hoogte van werkblad ophalen met Aspose.Cells voor .NET 
+Met deze regel hebben we toegang tot alle klassen en methoden in de Aspose.Cells-bibliotheek, waardoor het makkelijker wordt om Excel-bestanden te manipuleren. Laten we nu beginnen met onze stapsgewijze handleiding voor het ophalen van de papierbreedte en -hoogte voor verschillende papierformaten.
+
+## Stap 1: Maak een nieuwe werkmap
+
+De eerste stap bij het werken met Aspose.Cells is het maken van een nieuwe werkmap. Beschouw een werkmap als een leeg canvas waar u werkbladen, cellen en, in ons geval, papierformaten kunt toevoegen.
 
 ```csharp
 //Werkmap maken
 Workbook wb = new Workbook();
-//Toegang tot het eerste werkblad
+```
+
+Deze regel instantieert een nieuw werkmapobject, klaar om door ons te worden bewerkt. U ziet nog niets, maar ons canvas is ingesteld!
+
+## Stap 2: Toegang tot het eerste werkblad
+
+Nu we onze werkmap hebben, moeten we een specifiek werkblad erin openen. Een werkblad is als een enkele pagina in je werkmap, en het is waar alle actie plaatsvindt.
+
+```csharp
+//Toegang tot eerste werkblad
 Worksheet ws = wb.Worksheets[0];
+```
+
+Hier pakken we het eerste werkblad (index 0) uit onze werkmap. Je kunt het zien als het omslaan naar de eerste pagina van een boek. 
+
+## Stap 3: Stel het papierformaat in en verkrijg afmetingen
+
+Nu komt het spannende gedeelte! We stellen verschillende papierformaten in en halen hun afmetingen één voor één op. Deze stap is cruciaal omdat we hiermee kunnen zien hoe verschillende formaten de lay-out beïnvloeden.
+
+```csharp
 //Stel het papierformaat in op A2 en druk de papierbreedte en -hoogte af in inches
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+```
+
+ In dit blok stellen we het papierformaat in op A2 en halen we vervolgens de breedte en hoogte op.`PaperWidth` En`PaperHeight` eigenschappen geven de afmetingen in inches. Het is alsof je de grootte van een frame controleert voordat je er een foto in zet.
+
+## Stap 4: Herhaal voor andere papierformaten
+
+Laten we het proces herhalen voor andere gangbare papierformaten. We controleren de formaten A3, A4 en Letter. Deze herhaling is belangrijk om te begrijpen hoe elk formaat is gedefinieerd binnen het Aspose.Cells-framework.
+
+```csharp
 //Stel het papierformaat in op A3 en druk de papierbreedte en -hoogte af in inches
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 //Stel het papierformaat in op A4 en druk de papierbreedte en -hoogte af in inches
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Stel het papierformaat in op Letter en druk de breedte en hoogte van het papier af in inches
+//Stel het papierformaat in op Letter en druk de papierbreedte en -hoogte af in inches
 ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
+ Elk van deze blokken bootst de vorige stap na, maar past de`PaperSize` eigenschap dienovereenkomstig. Door alleen de formaatindicator te veranderen, krijgt u moeiteloos verschillende papierafmetingen. Het is alsof u de grootte van een doos verandert op basis van wat u moet opslaan!
 
 ## Conclusie
 
-U hebt geleerd hoe u Aspose.Cells voor .NET kunt gebruiken om de papierbreedte en -hoogte van een spreadsheet te bepalen. Deze functie kan handig zijn voor de configuratie en nauwkeurige lay-out van uw Excel-documenten.
+En daar heb je het! Door deze stappen te volgen, kun je eenvoudig de afmetingen van verschillende papierformaten instellen en ophalen in Aspose.Cells voor .NET. Deze mogelijkheid bespaart je niet alleen tijd, maar voorkomt ook afdrukongelukken die kunnen optreden vanwege verkeerd geconfigureerde pagina-instellingen. Dus de volgende keer dat je een Excel-sheet moet afdrukken of een rapport moet maken, kun je dat met vertrouwen doen, wetende dat je de afmetingen in handen hebt. 
 
-### Veelgestelde vragen (FAQ)
+## Veelgestelde vragen
 
-#### Wat is Aspose.Cells voor .NET?
+### Wat is Aspose.Cells?
+Aspose.Cells is een .NET-bibliotheek die is ontworpen voor het verwerken van Excel-bestanden zonder dat Excel geïnstalleerd hoeft te zijn.
 
-Aspose.Cells voor .NET is een krachtige bibliotheek voor het manipuleren en verwerken van Excel-bestanden in .NET-toepassingen. Het biedt vele functies voor het maken, wijzigen, converteren en analyseren van Excel-bestanden.
+### Kan ik Aspose.Cells gratis gebruiken?
+ Ja! U kunt beginnen met een gratis proefperiode die beschikbaar is op[deze link](https://releases.aspose.com/).
 
-#### Hoe kan ik het papierformaat van een spreadsheet verkrijgen met Aspose.Cells voor .NET?
+### Hoe kan ik aangepaste papierformaten instellen?
+ Aspose.Cells biedt opties om aangepaste papierformaten in te stellen met behulp van de`PageSetup` klas.
 
- U kunt gebruik maken van de`PageSetup` klasse van de`Worksheet` object om toegang te krijgen tot het papierformaat. Gebruik de`PaperSize` eigenschap om het papierformaat en de`PaperWidth` En`PaperHeight` eigenschappen om respectievelijk de papierbreedte en -hoogte te verkrijgen.
+### Is programmeerkennis vereist om Aspose.Cells te gebruiken?
+Basiskennis van programmeren is handig, maar voor een beter begrip kun je tutorials volgen!
 
-#### Welke papierformaten ondersteunt Aspose.Cells voor .NET?
-
-Aspose.Cells voor .NET ondersteunt een breed scala aan veelgebruikte papierformaten, zoals A2, A3, A4 en Letter, evenals vele andere aangepaste formaten.
-
-#### Kan ik het papierformaat van een spreadsheet aanpassen met Aspose.Cells voor .NET?
-
- Ja, u kunt een aangepast papierformaat instellen door de exacte breedte- en hoogte-afmetingen op te geven met behulp van de`PaperWidth` En`PaperHeight` eigenschappen van de`PageSetup` klas.
+### Waar kan ik meer voorbeelden vinden?
+ De[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) biedt een schat aan voorbeelden en tutorials.

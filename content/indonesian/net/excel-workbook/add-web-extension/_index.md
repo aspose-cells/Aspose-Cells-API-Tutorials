@@ -1,125 +1,148 @@
 ---
 title: Tambahkan Ekstensi Web
 linktitle: Tambahkan Ekstensi Web
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Tambahkan ekstensi web dengan mudah ke buku kerja Excel Anda dengan Aspose.Cells untuk .NET.
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara menambahkan ekstensi web ke file Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah lengkap ini yang menyempurnakan fungsionalitas spreadsheet Anda.
 type: docs
 weight: 40
 url: /id/net/excel-workbook/add-web-extension/
 ---
-Dalam tutorial langkah demi langkah ini, kami akan menjelaskan kode sumber C# yang disediakan yang memungkinkan Anda menambahkan ekstensi web menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah di bawah ini untuk menambahkan ekstensi web ke buku kerja Excel Anda.
+## Perkenalan
 
-## Langkah 1: Tetapkan direktori keluaran
+Dalam panduan ini, kami akan memandu Anda melalui proses penambahan Ekstensi Web ke buku kerja Excel dengan Aspose.Cells untuk .NET. Baik Anda sedang membangun dasbor data yang canggih atau mengotomatiskan tugas pelaporan, tutorial ini akan memberikan wawasan yang Anda perlukan untuk memperkaya aplikasi Excel Anda.
+
+## Prasyarat
+
+Sebelum kita masuk ke inti pengkodean, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut adalah prasyarat untuk memulai dengan Aspose.Cells untuk .NET:
+
+1. Visual Studio: Pastikan Anda telah menginstal Visual Studio, karena kita akan menulis kode di IDE ini.
+2. .NET Framework: Keakraban dengan framework .NET (sebaiknya .NET Core atau .NET 5/6).
+3.  Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells. Jika Anda belum mengunduhnya, dapatkan versi terbarunya[Di Sini](https://releases.aspose.com/cells/net/) atau coba secara gratis[Di Sini](https://releases.aspose.com/).
+4. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
+
+Setelah Anda memiliki prasyarat ini, Anda siap untuk mengeluarkan potensi penuh Aspose.Cells!
+
+## Paket Impor
+
+Untuk bekerja dengan Aspose.Cells, Anda perlu mengimpor paket-paket yang diperlukan terlebih dahulu. Berikut ini cara melakukannya:
+
+1. Buka Proyek Anda: Di Visual Studio, mulailah dengan membuka proyek Anda.
+2. Tambahkan Referensi: Klik kanan pada proyek Anda di Solution Explorer, pilih Kelola Paket NuGet, dan cari`Aspose.Cells`Instal paket tersebut ke proyek Anda.
+3. Impor Namespace yang Diperlukan: Di bagian atas berkas kode Anda, Anda ingin menambahkan perintah using berikut untuk namespace Aspose.Cells:
 
 ```csharp
-// Direktori keluaran
+using Aspose.Cells;
+```
+
+Sekarang Anda telah menyiapkan lingkungan Anda, mari beralih ke bagian pengkodean!
+
+Sekarang kita siap untuk menambahkan Ekstensi Web ke buku kerja Excel. Ikuti langkah-langkah berikut dengan saksama:
+
+## Langkah 1: Siapkan Direktori Output
+
+Pertama, Anda perlu menyiapkan direktori keluaran tempat Anda akan menyimpan buku kerja yang telah dimodifikasi. Ini membantu menjaga berkas-berkas Anda tetap teratur.
+
+```csharp
 string outDir = RunExamples.Get_OutputDirectory();
 ```
+ Di Sini,`RunExamples.Get_OutputDirectory()` adalah metode yang mengambil jalur ke direktori keluaran. Anda dapat mengubahnya untuk menunjuk ke lokasi mana pun di sistem Anda.
 
-Pada langkah pertama ini, kita menentukan direktori keluaran tempat buku kerja Excel yang dimodifikasi akan disimpan.
+## Langkah 2: Buat Buku Kerja Baru
 
-## Langkah 2: Buat buku kerja baru
+Selanjutnya, mari kita buat contoh baru dari Workbook. Di sinilah semua keajaiban terjadi!
 
 ```csharp
-// Buat buku kerja baru
 Workbook workbook = new Workbook();
 ```
+Baris ini menginisialisasi buku kerja baru. Bayangkan buku kerja sebagai kanvas kosong tempat Anda akan menambahkan ekstensi web dan fungsi lainnya.
 
-Di sini kita membuat buku kerja Excel baru menggunakan`Workbook` kelas dari Aspose.Cells.
+## Langkah 3: Akses Koleksi Ekstensi Web dan Panel Tugas
 
-## Langkah 3: Akses Koleksi Ekstensi Web
+Sekarang, Anda perlu mengakses koleksi Ekstensi Web dan Panel Tugas dalam buku kerja.
 
 ```csharp
-// Akses koleksi ekstensi web
 WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
+WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
 ```
+Ini mengambil dua koleksi:
+- `WebExtensionCollection` berisi ekstensi web yang dapat Anda tambahkan.
+- `WebExtensionTaskPaneCollection` mengelola panel tugas yang terkait dengan ekstensi tersebut.
 
- Kami mengakses koleksi ekstensi web buku kerja Excel menggunakan`WebExtensions` properti dari`Worksheets` obyek.
+## Langkah 4: Tambahkan Ekstensi Web Baru
 
-## Langkah 4: Tambahkan ekstensi web baru
+Sekarang, mari tambahkan ekstensi web baru ke buku kerja.
 
 ```csharp
-// Tambahkan ekstensi web baru
 int extensionIndex = extensions.Add();
+```
+ Itu`Add()` metode membuat ekstensi web baru dan mengembalikan indeksnya. Ini memungkinkan Anda mengakses ekstensi tersebut nanti.
+
+## Langkah 5: Konfigurasikan Properti Ekstensi Web
+
+Setelah menambahkan ekstensi, penting untuk mengonfigurasi propertinya agar berfungsi sebagaimana mestinya.
+
+```csharp
 WebExtension extension = extensions[extensionIndex];
 extension.Reference.Id = "wa104379955";
 extension.Reference.StoreName = "en-US";
 extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 ```
 
-Kami menambahkan ekstensi web baru ke koleksi ekstensi. Kami menentukan ID referensi, nama toko, dan jenis toko ekstensi.
+- Id: Ini adalah pengenal unik untuk ekstensi web. Anda dapat menemukan ekstensi yang tersedia di Office Store.
+- StoreName: Menentukan bahasa lokal.
+-  StoreType: Di sini, kami mengaturnya menjadi`OMEX`, yang menunjukkan paket ekstensi web.
 
-## Langkah 5: Akses Koleksi Panel Tugas Ekstensi Web
+## Langkah 6: Tambahkan dan Konfigurasikan Panel Tugas
 
-```csharp
-// Akses kumpulan panel tugas ekstensi web
-WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-```
-
- Kami mengakses koleksi panel tugas Ekstensi Web Buku Kerja Excel menggunakan`WebExtensionTaskPanes` properti dari`Worksheets` obyek.
-
-## Langkah 6: Tambahkan panel tugas baru
+Sekarang, mari tambahkan Panel Tugas untuk membuat ekstensi web kita interaktif dan terlihat di UI Excel.
 
 ```csharp
-// Tambahkan panel tugas baru
 int taskPaneIndex = taskPanes.Add();
-WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
-taskPane. IsVisible = true;
-taskPane. DockState = "right";
-taskPane. WebExtension = extension;
-```
-
-Kami menambahkan panel tugas baru ke koleksi panel tugas. Kami mengatur visibilitas panel, status dockingnya, dan ekstensi web terkait.
-
-## Langkah 7: Simpan dan tutup buku kerja
-
-```csharp
-// Simpan dan tutup buku kerja
-workbook.Save(outDir + "AddWebExtension_Out.xlsx");
-Console.WriteLine("AddWebExtension executed successfully.");
-```
-
-Kami menyimpan buku kerja yang dimodifikasi ke direktori keluaran yang ditentukan dan kemudian menutupnya.
-
-### Contoh kode sumber untuk Menambahkan Ekstensi Web menggunakan Aspose.Cells untuk .NET 
-```csharp
-//Direktori sumber
-string outDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook();
-WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
-WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-int extensionIndex = extensions.Add();
-int taskPaneIndex = taskPanes.Add();
-WebExtension extension = extensions[extensionIndex];
-extension.Reference.Id = "wa104379955";
-extension.Reference.StoreName = "en-US";
-extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
 taskPane.IsVisible = true;
 taskPane.DockState = "right";
 taskPane.WebExtension = extension;
+```
+
+- Kami menambahkan panel tugas baru.
+-  Pengaturan`IsVisible` ke`true` memastikannya ditampilkan di buku kerja.
+-  Itu`DockState` properti menentukan di mana di UI Excel panel tugas akan muncul (dalam kasus ini, di sisi kanan).
+
+## Langkah 7: Simpan Buku Kerja
+
+Langkah terakhir kita adalah menyimpan buku kerja, yang sekarang menyertakan ekstensi web kita.
+
+```csharp
 workbook.Save(outDir + "AddWebExtension_Out.xlsx");
+```
+ Di sini, kita menyimpan buku kerja ke direktori keluaran yang kita tentukan sebelumnya. Ganti`"AddWebExtension_Out.xlsx"` dengan nama berkas apa pun yang Anda sukai.
+
+## Langkah 8: Konfirmasi Eksekusi
+
+Terakhir, mari cetak pesan konfirmasi ke konsol untuk menunjukkan bahwa semuanya berjalan lancar.
+
+```csharp
 Console.WriteLine("AddWebExtension executed successfully.");
 ```
+Selalu baik untuk mendapatkan masukan. Pesan ini mengonfirmasi bahwa ekstensi Anda telah ditambahkan tanpa hambatan apa pun.
 
 ## Kesimpulan
 
-Selamat! Anda sekarang telah mempelajari cara menambahkan ekstensi web menggunakan Aspose.Cells untuk .NET. Bereksperimenlah dengan kode dan jelajahi fitur tambahan Aspose.Cells untuk memaksimalkan manipulasi ekstensi web di buku kerja Excel Anda.
+Menambahkan ekstensi web ke buku kerja Excel Anda menggunakan Aspose.Cells untuk .NET adalah proses mudah yang dapat meningkatkan fungsionalitas dan interaktivitas lembar kerja Anda secara signifikan. Dengan langkah-langkah yang diuraikan dalam panduan ini, kini Anda dapat membangun jembatan antara data Excel dan layanan berbasis web, yang membuka pintu ke banyak kemungkinan. Baik Anda ingin menerapkan analitik, terhubung dengan API, atau sekadar meningkatkan interaksi pengguna, Aspose.Cells siap membantu Anda!
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T: Apa yang dimaksud dengan ekstensi web di buku kerja Excel?
+### Apa itu Ekstensi Web di Excel?
+Ekstensi Web memungkinkan integrasi konten dan fungsionalitas web langsung dalam buku kerja Excel, meningkatkan interaktivitas.
 
-J: Ekstensi web di buku kerja Excel adalah komponen yang memungkinkan Anda menambahkan fungsionalitas tambahan ke Excel dengan mengintegrasikan aplikasi web. Itu dapat menawarkan fitur interaktif, dasbor khusus, integrasi eksternal, dan banyak lagi.
+### Apakah Aspose.Cells gratis untuk digunakan?
+ Aspose.Cells menawarkan uji coba gratis untuk tujuan pengujian. Anda dapat mempelajari lebih lanjut dari[Tautan Uji Coba Gratis](https://releases.aspose.com/).
 
-#### T: Bagaimana cara menambahkan ekstensi web ke buku kerja Excel dengan Aspose.Cells?
+### Bisakah saya membeli Aspose.Cells?
+ Ya! Aspose.Cells adalah perangkat lunak berbayar, dan Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy).
 
- J: Untuk menambahkan ekstensi web ke buku kerja Excel dengan Aspose.Cells, Anda dapat mengikuti langkah-langkah yang disediakan dalam panduan langkah demi langkah kami. Menggunakan`WebExtensionCollection` Dan`WebExtensionTaskPaneCollection` kelas untuk menambah dan mengonfigurasi ekstensi web dan panel tugas terkait.
+### Bahasa pemrograman apa yang didukung Aspose.Cells?
+Aspose.Cells terutama untuk aplikasi .NET tetapi juga memiliki versi untuk Java dan bahasa lainnya.
 
-#### T: Informasi apa yang diperlukan untuk menambahkan ekstensi web?
-
-J: Saat menambahkan ekstensi web, Anda harus memberikan ID SKU ekstensi, nama toko, dan jenis toko. Informasi ini membantu mengidentifikasi dan memuat ekstensi dengan benar.
-
-#### T: Dapatkah saya menambahkan beberapa ekstensi web ke satu buku kerja Excel?
-
- J: Ya, Anda bisa menambahkan beberapa Ekstensi Web ke satu buku kerja Excel. Menggunakan`Add` metode kumpulan ekstensi web untuk menambahkan setiap ekstensi, lalu mengaitkannya dengan panel tugas yang sesuai.
+### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
+Jika Anda mengalami masalah atau memiliki pertanyaan, kunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan.

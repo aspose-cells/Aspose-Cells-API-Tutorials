@@ -2,7 +2,7 @@
 title: Excel munkafüzet automatizálás
 linktitle: Excel munkafüzet automatizálás
 second_title: Aspose.Cells Java Excel Processing API
-description: Ismerje meg az Excel munkafüzet automatizálását Java nyelven az Aspose.Cells segítségével. Excel-fájlok létrehozása, olvasása és frissítése programozottan. Kezd el most!
+description: Ismerje meg az Excel munkafüzet automatizálását Java nyelven az Aspose.Cells segítségével. Excel-fájlok létrehozása, olvasása és frissítése programozottan. Kezdje el most!
 type: docs
 weight: 16
 url: /hu/java/spreadsheet-automation/excel-workbook-automation/
@@ -89,7 +89,7 @@ Ebben az oktatóanyagban az Excel-munkafüzet-automatizálás alapjait ismertetj
 Íme néhány gyakori kérdés az Excel munkafüzet automatizálásával kapcsolatban:
 
 ### Automatizálhatom az Excel feladatokat Java-ban anélkül, hogy az Excel telepítve lenne a gépemre?
-   Igen tudsz. Az Aspose.Cells for Java lehetővé teszi, hogy Excel-fájlokkal dolgozzon anélkül, hogy a Microsoft Excel telepítésére lenne szükség.
+   Igen, megteheti. Az Aspose.Cells for Java lehetővé teszi, hogy Excel fájlokkal dolgozzon anélkül, hogy a Microsoft Excel telepítése szükséges lenne.
 
 ### Hogyan formázhatok cellákat vagy alkalmazhatok stílusokat Excel-adatokra az Aspose.Cells használatával?
    Az Aspose.Cells segítségével különféle formázásokat és stílusokat alkalmazhat a cellákra. Részletes példákat az API dokumentációjában talál.

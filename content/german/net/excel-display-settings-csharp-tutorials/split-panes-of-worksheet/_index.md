@@ -2,98 +2,107 @@
 title: Geteilte Bereiche des Arbeitsblatts
 linktitle: Geteilte Bereiche des Arbeitsblatts
 second_title: Aspose.Cells für .NET API-Referenz
-description: Schritt-für-Schritt-Anleitung zum Teilen von Bereichen in einem Excel-Arbeitsblatt mit Aspose.Cells für .NET.
+description: Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie Arbeitsblattbereiche in Aspose.Cells für .NET aufteilen. Verbessern Sie die Excel-Dateinavigation mit diesem einfachen Tutorial.
 type: docs
 weight: 130
 url: /de/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
-In diesem Tutorial erklären wir, wie man mit Aspose.Cells für .NET Bereiche in einem Excel-Arbeitsblatt teilt. Befolgen Sie diese Schritte, um das gewünschte Ergebnis zu erhalten:
+## Einführung
 
-## Schritt 1: Einrichten der Umgebung
+Sind Sie bereit, die Bereiche eines Excel-Arbeitsblatts mit Aspose.Cells für .NET aufzuteilen? Stellen Sie sich Folgendes vor: Sie haben ein riesiges Excel-Arbeitsblatt und sind es leid, ständig zu den Überschriften zurückzuscrollen, nur um sich daran zu erinnern, mit welcher Spalte Sie arbeiten. Hier kommt „Bereiche aufteilen“ ins Spiel. Mit dieser praktischen Funktion können Sie einen Teil Ihres Arbeitsblatts fixieren, was die Navigation erheblich erleichtert. Egal, ob Sie mit Finanzdaten, Bestandsverwaltung oder riesigen Datensätzen arbeiten, das Aufteilen von Bereichen kann Ihre Produktivität um das Zehnfache steigern. 
 
-Stellen Sie sicher, dass Sie Aspose.Cells für .NET installiert und Ihre Entwicklungsumgebung eingerichtet haben. Stellen Sie außerdem sicher, dass Sie über eine Kopie der Excel-Datei verfügen, in der Sie die Bereiche teilen möchten.
+## Voraussetzungen
 
-## Schritt 2: Importieren Sie die erforderlichen Abhängigkeiten
+Bevor wir beginnen, Bereiche wie ein Tabellenkalkulationsassistent aufzuteilen, müssen wir zunächst die Konfiguration richtig vornehmen. Folgendes benötigen Sie:
 
-Fügen Sie die erforderlichen Anweisungen hinzu, um die Klassen von Aspose.Cells zu verwenden:
+-  Aspose.Cells für .NET: Stellen Sie sicher, dass Sie es heruntergeladen und installiert haben. Wenn Sie es noch nicht getan haben, holen Sie es sich[Hier](https://releases.aspose.com/cells/net/).
+- .NET Framework: Diese Anleitung setzt voraus, dass Sie in einer .NET-Umgebung arbeiten.
+- Eine Excel-Arbeitsmappe: Wir verwenden eine Excel-Beispieldatei, um zu zeigen, wie diese Funktion funktioniert.
+-  Eine temporäre oder Volllizenz: Aspose.Cells erfordert eine Lizenz. Wenn Sie es nur ausprobieren möchten, holen Sie sich eine[kostenlose temporäre Lizenz](https://purchase.aspose.com/temporary-license/) um Auswertungseinschränkungen zu vermeiden.
+
+## Pakete importieren
+
+Bevor wir uns in den Code vertiefen, importieren wir zunächst die erforderlichen Namespaces. Ohne diese können Sie in Aspose.Cells eigentlich nichts tun.
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Schritt 3: Code-Initialisierung
+Nachdem wir nun die wesentlichen Punkte abgedeckt haben, kommen wir zum spannenden Teil: dem Teilen von Fenstern!
 
-Beginnen Sie mit der Initialisierung des Pfads zu dem Verzeichnis, das Ihre Excel-Dokumente enthält:
+## Schritt 1: Instanziieren einer Arbeitsmappe
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-```
+ Der erste Schritt in diesem Prozess ist die Erstellung einer`Workbook` Objekt, das die Excel-Datei darstellt, die Sie ändern möchten. In diesem Fall laden wir eine Datei aus einem Verzeichnis. Dies ist Ihre Leinwand, das Excel-Blatt, auf dem Sie Ihre Magie wirken lassen.
 
-## Schritt 4: Öffnen der Excel-Datei
-
- Instanziieren Sie eine neue`Workbook` Objekt und öffnen Sie die Excel-Datei mit dem`Open` Methode:
+Bevor wir Bereiche teilen können, benötigen wir eine Arbeitsmappe, mit der wir arbeiten können! Dieser Schritt ist so wichtig wie das Öffnen eines Buches, bevor Sie mit dem Lesen beginnen.
 
 ```csharp
-Workbook book = new Workbook(dataDir + "Book1.xls");
-```
-
-## Schritt 5: Definieren Sie die aktive Zelle
-
- Legen Sie die aktive Zelle des Arbeitsblatts mit fest`ActiveCell` Eigentum:
-
-```csharp
-book.Worksheets[0].ActiveCell = "A20";
-```
-
-## Schritt 6: Teilung der Klappen
-
- Teilen Sie das Arbeitsblattfenster mithilfe von`Split` Methode:
-
-```csharp
-book.Worksheets[0].Split();
-```
-
-## Schritt 7: Änderungen speichern
-
-Speichern Sie die an der Excel-Datei vorgenommenen Änderungen:
-
-```csharp
-book.Save(dataDir + "output.xls");
-```
-
-### Beispielquellcode für Split Panes Of Worksheet mit Aspose.Cells für .NET 
-
-```csharp
-//Der Pfad zum Dokumentenverzeichnis.
+//Der Pfad zum Dokumentenverzeichnis
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Instanziieren Sie eine neue Arbeitsmappe und öffnen Sie eine Vorlagendatei
+
+// Instanziieren einer neuen Arbeitsmappe und Öffnen einer Vorlagendatei
 Workbook book = new Workbook(dataDir + "Book1.xls");
-// Legen Sie die aktive Zelle fest
+```
+
+ Ersetzen Sie im obigen Code`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, in dem sich Ihre Excel-Datei befindet. Die`Workbook` Klasse lädt die Excel-Datei in den Speicher.
+
+## Schritt 2: Aktive Zelle festlegen
+
+ Nach dem Laden der Arbeitsmappe ist es an der Zeit, die aktive Zelle festzulegen. In Excel ist die aktive Zelle diejenige, die aktuell ausgewählt ist oder im Fokus steht. In diesem Tutorial wählen wir die Zelle`A20` im ersten Arbeitsblatt.
+
+Das Festlegen der aktiven Zelle ist entscheidend, da die Teilung der Bereiche von dieser aktiven Zelle aus beginnt. Es ist, als ob Sie entscheiden, wo Sie den ersten Schnitt in eine Pizza machen – suchen Sie sich Ihr Stück aus!
+
+```csharp
+// Aktive Zelle festlegen
 book.Worksheets[0].ActiveCell = "A20";
-// Teilen Sie das Arbeitsblattfenster
+```
+
+ Dieser Code macht`A20` die aktive Zelle. Dies ist wichtig, da die Aufteilung an diesem Punkt erfolgt, so wie Ihre Navigation in Excel häufig auf eine bestimmte Zelle zentriert ist.
+
+## Schritt 3: Teilen Sie das Arbeitsblatt
+
+Nachdem die aktive Zelle nun festgelegt ist, kommen wir zum spaßigen Teil – dem Aufteilen des Arbeitsblatts! In diesem Schritt geschieht die Magie. Sie können das Arbeitsblatt zur einfacheren Anzeige und Navigation in mehrere Bereiche aufteilen.
+
+Dies ist der Kern des gesamten Tutorials. Indem Sie das Arbeitsblatt aufteilen, erstellen Sie separate Bereiche, die es Ihnen ermöglichen, durch verschiedene Abschnitte Ihres Excel-Blatts zu blättern, ohne Überschriften oder andere wichtige Bereiche aus den Augen zu verlieren.
+
+```csharp
+// Teilen des Arbeitsblattfensters
 book.Worksheets[0].Split();
+```
+
+ Mit dem`Split()` -Methode sagen Sie Aspose.Cells, dass das Arbeitsblatt an der aktiven Zelle geteilt werden soll (`A20` in diesem Fall). Ab diesem Punkt erstellt Excel eine Unterteilung im Blatt, die die Bereiche voneinander trennt, damit Sie unabhängig voneinander navigieren können.
+
+## Schritt 4: Speichern der Arbeitsmappe
+
+Nachdem Sie die Bereiche geteilt haben, müssen Sie Ihre Arbeit nur noch speichern. Dieser letzte Schritt stellt sicher, dass Ihre Änderungen in der angegebenen Ausgabedatei gespeichert werden.
+
+Was nützt Ihnen all Ihre harte Arbeit, wenn Sie sie nicht aufbewahren? Durch das Aufbewahren bleiben Ihre schön gespaltenen Scheiben für die zukünftige Verwendung intakt.
+
+```csharp
 // Speichern Sie die Excel-Datei
 book.Save(dataDir + "output.xls");
 ```
 
+ Hier die`Save()`Die Methode speichert die Arbeitsmappe mit den neu aufgeteilten Bereichen in einer Excel-Ausgabedatei. Die vorgenommenen Änderungen können Sie – oder jeder andere – jetzt verwenden.
+
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Cells für .NET Bereiche in einem Excel-Arbeitsblatt teilen. Indem Sie die beschriebenen Schritte befolgen, können Sie das Erscheinungsbild und Verhalten Ihrer Excel-Dateien ganz einfach anpassen.
+Und da haben Sie es! Sie haben gerade gelernt, wie Sie mit Aspose.Cells für .NET Bereiche in einem Excel-Arbeitsblatt aufteilen. Kein endloses Scrollen oder den Überblick über Ihre Daten mehr. Diese Methode macht die Handhabung großer Excel-Dateien weitaus weniger überwältigend und viel effizienter. Mit der Möglichkeit, Bereiche aufzuteilen, können Sie jetzt beim Arbeiten mit komplexen Tabellenkalkulationen kritische Datenpunkte im Auge behalten.
 
-### Häufig gestellte Fragen (FAQ)
+## Häufig gestellte Fragen
 
-#### Was ist Aspose.Cells für .NET?
+### Kann ich mehr als zwei Scheiben teilen?  
+ Ja, Sie können das Arbeitsblatt in mehrere Bereiche aufteilen, indem Sie verschiedene aktive Zellen angeben und den`Split()` Verfahren.
 
-Aspose.Cells für .NET ist eine beliebte Softwarebibliothek zum Bearbeiten von Excel-Dateien in .NET-Anwendungen.
+### Was ist der Unterschied zwischen dem Spalten von Scheiben und dem Einfrieren von Scheiben?  
+Durch das Teilen von Fenstern können Sie in beiden Fenstern unabhängig voneinander scrollen. Durch das Fixieren von Fenstern werden die Überschriften oder bestimmte Zeilen/Spalten gesperrt, sodass sie beim Scrollen sichtbar bleiben.
 
-#### Wie kann ich die aktive Zelle eines Arbeitsblatts in Aspose.Cells festlegen?
+### Kann ich den Split nach dem Auftragen wieder entfernen?  
+Ja, Sie können die Teilung entfernen, indem Sie die Arbeitsmappe entweder schließen und erneut öffnen oder sie programmgesteuert zurücksetzen.
 
- Sie können die aktive Zelle mit festlegen`ActiveCell`Eigenschaft des Worksheet-Objekts.
+### Funktioniert das Aufteilen von Bereichen für verschiedene Excel-Dateiformate (XLS, XLSX) gleich?  
+ Ja, die`Split()` Die Methode funktioniert sowohl für das XLS- als auch für das XLSX-Format.
 
-#### Kann ich nur die horizontalen oder vertikalen Bereiche des Arbeitsblattfensters teilen?
-
- Ja, mit Aspose.Cells können Sie horizontale oder vertikale Bereiche nur mit den entsprechenden Methoden teilen, z`SplitColumn` oder`SplitRow`.
-
-#### Funktioniert Aspose.Cells nur mit Excel-Dateien im XLS-Format?
-
-Nein, Aspose.Cells unterstützt verschiedene Excel-Dateiformate, einschließlich .xls und .xlsx.
+### Kann ich Aspose.Cells ohne Lizenz verwenden?  
+ Ja, aber es gibt Einschränkungen. Für ein umfassendes Erlebnis verwenden Sie am besten ein[vorübergehend](https://purchase.aspose.com/temporary-license/) oder[bezahlte Lizenz](https://purchase.aspose.com/buy).

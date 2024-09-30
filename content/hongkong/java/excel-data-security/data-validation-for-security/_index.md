@@ -137,7 +137,7 @@ workbook.protect(ProtectionType.ALL);
 
 ### 如何為 Java 設定 Aspose.Cells？
 
-若要設定 Aspose.Cells for Java，請下載該程式庫並將其新增至您的 Java 專案中。使用有效的許可證在您的程式碼中對其進行初始化。
+若要設定 Aspose.Cells for Java，請下載該程式庫並將其新增至您的 Java 專案中。使用有效許可證在您的程式碼中對其進行初始化。
 
 ### 我可以建立自訂資料驗證規則嗎？
 

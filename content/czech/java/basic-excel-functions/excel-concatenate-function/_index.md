@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 1. Vývojové prostředí Java: Měli byste mít na svém systému nainstalovanou Javu spolu s vhodným integrovaným vývojovým prostředím (IDE), jako je Eclipse nebo IntelliJ IDEA.
 
-2. Aspose.Cells for Java: Musíte mít nainstalovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells for Java: Musíte mít nainstalovanou knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Vytvořte nový projekt Java
 
@@ -46,7 +46,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Pojďme naplnit pracovní list aplikace Excel některými daty. Pro tento příklad vytvoříme jednoduchou tabulku s textovými hodnotami, které chceme zřetězit.
 
 ```java
-// Vzorek dat
+// Ukázková data
 String text1 = "Hello";
 String text2 = " ";
 String text3 = "World";
@@ -103,7 +103,7 @@ Chcete-li zřetězit text z různých buněk v Excelu pomocí Aspose.Cells for J
 
 5. Uložte soubor aplikace Excel.
 
-A je to! Úspěšně jste spojili text v Excelu pomocí Aspose.Cells for Java.
+To je vše! Úspěšně jste spojili text v Excelu pomocí Aspose.Cells for Java.
 
 ### Mohu pomocí CONCATENATE zřetězit více než tři textové řetězce?
 

@@ -14,7 +14,7 @@ url: /zh-hant/java/basic-excel-functions/min-function-in-excel-explained/
 
 ## 了解 MIN 函數
 
-Excel 中的 MIN 函數是一種基本數學函數，可協助您確定給定數字集或儲存格範圍內的最小值。它通常用於需要確定資料點集合中的最低值的場景。
+Excel 中的 MIN 函數是一種基本數學函數，可協助您確定給定數字集或儲存格範圍內的最小值。它通常用於需要識別資料點集合中的最低值的場景。
 
 ### MIN 函數的語法
 
@@ -29,7 +29,7 @@ Excel 中的 MIN 函數是一種基本數學函數，可協助您確定給定數
 
 ## MIN 函數的工作原理
 
-MIN 函數計算提供的數字或範圍並傳回其中的最小值。它忽略任何非數字值和空白單元格。這使得它對於查找資料集中的最低測試分數或識別清單中最便宜的產品等任務特別有用。
+MIN 函數計算提供的數字或範圍並傳回其中的最小值。它忽略任何非數字值和空白單元格。這使得它對於查找資料集中最低測試分數或識別清單中最便宜的產品等任務特別有用。
 
 ## 使用 Aspose.Cells for Java 實作 MIN 函數
 
@@ -61,7 +61,7 @@ Workbook workbook = new Workbook("sample.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### 第 5 步：套用 MIN 函數
+### 步驟 5：套用 MIN 函數
 
 現在，假設單元格 A1 到 A10 中有一系列數字，並且您想要找到其中的最小值。您可以使用 Aspose.Cells for Java 來套用 MIN 函數，如下所示：
 

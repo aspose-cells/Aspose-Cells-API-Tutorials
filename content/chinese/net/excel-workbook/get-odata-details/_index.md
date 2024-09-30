@@ -2,95 +2,130 @@
 title: 获取 Odata 详细信息
 linktitle: 获取 Odata 详细信息
 second_title: Aspose.Cells for .NET API 参考
-description: 了解如何使用 Aspose.Cells for .NET 从 Excel 工作簿中检索 OData 详细信息。
+description: 在本详细的分步教程中了解如何使用 Aspose.Cells for .NET 从 Excel 中提取 OData 详细信息。
 type: docs
 weight: 110
 url: /zh/net/excel-workbook/get-odata-details/
 ---
-从外部数据源检索结构化数据时，OData 的使用很常见。使用 Aspose.Cells for .NET，您可以轻松地从 Excel 工作簿中检索 OData 详细信息。请按照以下步骤操作以获得所需的结果：
+## 介绍
 
-## 第1步：指定源目录
+在不断发展的数据管理领域，高效连接、分析和操作数据的能力已成为开发人员和组织的首要需求。Aspose.Cells for .NET 是一款功能强大的 API，旨在以编程方式处理 Excel 文件。其主要功能之一在于集成 OData，允许用户无缝地与复杂数据源交互。无论您是在开展大型商业智能项目还是只是想简化数据流程，了解如何获取 OData 详细信息都可以大大增强您的能力。在本指南中，我们将逐步介绍使用 Aspose.Cells for .NET 提取 OData 详细信息的过程。
 
-首先，您需要指定包含 OData 详细信息的 Excel 文件所在的源目录。以下是使用 Aspose.Cells 执行此操作的方法：
+## 先决条件
+
+在深入研究代码之前，让我们确保您拥有完成本教程所需的一切。以下是您需要的内容：
+
+1. Visual Studio：确保已安装 Visual Studio。它是 .NET 开发的理想环境。
+2. Aspose.Cells 库：从以下位置下载并安装 .NET 的 Aspose.Cells 库[Aspose 下载页面](https://releases.aspose.com/cells/net/)。您还可以尝试免费试用版[这里](https://releases.aspose.com/).
+3. C# 基础知识：熟悉 C# 编程将帮助您更好地理解代码的细微差别。
+4. 示例 Excel 文件：对于本教程，我们将使用名为“ODataSample.xlsx”的 Excel 文件，该文件应存储在您的工作目录中。
+
+一旦准备好这些组件，您就可以轻松开始提取 OData 详细信息！
+
+## 导入包
+
+让我们通过将必要的包导入到我们的项目中来开始我们的编码之旅。这些包将提供在 Aspose.Cells 中使用 OData 所需的类和方法。
+
+### 创建新的 C# 项目
+
+1. 打开 Visual Studio。
+2. 点击“创建新项目”。
+3. 选择“控制台应用程序（.NET Core）”或“控制台应用程序（.NET Framework）”—根据您偏好即可。
+4. 命名您的项目（例如，ODataDetailsExtractor）并单击“创建”。
+
+### 安装 Aspose.Cells NuGet 包
+
+要使用 Aspose.Cells，您需要通过 NuGet 包管理器安装它：
+
+1. 在解决方案资源管理器中右键单击您的项目。
+2. 选择“管理 NuGet 包”。
+3. 在“浏览”选项卡中，搜索“Aspose.Cells”。
+4. 单击“安装”将该包添加到您的项目。
+
+### 包含必要的命名空间
+
+安装完成后，你需要在顶部添加所需的命名空间`Program.cs`文件：
 
 ```csharp
-//源目录
-string SourceDir = RunExamples.Get_SourceDirectory();
+using Aspose.Cells.QueryTables;
+using System;
 ```
 
-## 第 2 步：加载工作簿
+这将授予我们访问整个代码中使用的类和方法的权限。
 
-指定源目录后，您可以从文件加载 Excel 工作簿。这是示例代码：
+现在我们已经设置好了开发环境，是时候编写主要代码来从 Excel 文件中提取 OData 详细信息了。这个过程可以分解为几个易于管理的步骤。
+
+## 步骤 1：设置工作簿
+
+在此初始步骤中，您将创建一个实例`Workbook`类并加载你的 Excel 文件：
 
 ```csharp
-//加载工作簿
+//设置源目录
+string SourceDir = RunExamples.Get_SourceDirectory();
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
-## 步骤 3：获取 OData 详细信息
+这里，`RunExamples.Get_SourceDirectory()`是您在项目中可能拥有的自定义方法，用于检索包含示例文件的文件夹的路径。如果需要，请确保将其替换为实际路径。
 
-加载工作簿后，您可以使用 PowerQueryFormulas 集合访问 OData 详细信息。就是这样：
+## 步骤 2：访问 Power Query 公式
+
+接下来，您将访问工作簿中的 Power Query 公式，其中包含 OData 详细信息：
 
 ```csharp
-//检索 Power Query 公式的集合
 PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
-
-//浏览每个 Power Query 公式
-foreach(PowerQueryFormula PQF in PQFcoll)
-{
-Console.WriteLine("Connection name: " + PQF.Name);
-
-//检索 Power Query 公式元素的集合
-PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-
-//迭代每个 Power Query 公式元素
-foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
-{
-Console.WriteLine("Name: " + PQFI.Name);
-Console.WriteLine("Value: " + PQFI.Value);
-}
-}
-
-Console.WriteLine("GetOdataDetails executed successfully.");
 ```
 
-### 使用 Aspose.Cells for .NET 获取 Odata 详细信息的示例源代码 
+此行初始化 Power Query 公式集合，准备循环并检索必要的详细信息。
+
+## 步骤 3：循环遍历公式
+
+现在，使用循环遍历每个 Power Query 公式，检索其名称和相关项：
+
 ```csharp
-//源目录
-string SourceDir = RunExamples.Get_SourceDirectory();
-Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
-PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
 foreach (PowerQueryFormula PQF in PQFcoll)
 {
-	Console.WriteLine("Connection Name: " + PQF.Name);
-	PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-	foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
-	{
-		Console.WriteLine("Name: " + PQFI.Name);
-		Console.WriteLine("Value: " + PQFI.Value);
-	}
+    Console.WriteLine("Connection Name: " + PQF.Name);
+    PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+    
+    foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
+    {
+        Console.WriteLine("Name: " + PQFI.Name);
+        Console.WriteLine("Value: " + PQFI.Value);
+    }
 }
+```
+
+在此区块中，我们：
+- 打印每个 Power Query 公式的连接名称。
+- 访问每个公式中的项目并打印其名称和值。
+
+## 步骤 4：执行并验证
+
+最后，你需要确保代码正确运行并返回预期的输出。在代码末尾添加以下行`Main`方法：
+
+```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
 ```
+
+添加后，运行您的项目。您应该看到控制台中清晰地打印了连接名称及其对应的项目。
 
 ## 结论
 
-现在，使用 Aspose.Cells for .NET 可以轻松从 Excel 工作簿中检索 OData 详细信息。通过遵循本指南中概述的步骤，您将能够有效地访问和处理 OData 数据。试验您自己的包含 OData 详细信息的 Excel 文件，并充分利用这一强大的功能。
+就这样！只需几个简单的步骤，您就可以利用 Aspose.Cells for .NET 的强大功能从 Excel 文件中提取 OData 详细信息。使用正确的工具和说明，深入处理复杂的数据管理任务是多么简单，这真是令人惊讶。通过使用 Aspose.Cells，您不仅可以让您的工作更轻松；还可以开启数据操作的全新可能性。现在您已经掌握了基础知识，请继续进一步探索其功能——它将改变游戏规则！
 
-### 常见问题解答
+## 常见问题解答
 
-#### 问：Aspose.Cells 是否支持 OData 之外的其他数据源？
-    
-答：是的，Aspose.Cells 支持多种数据源，例如 SQL 数据库、CSV 文件、Web 服务等。
+### 什么是 Aspose.Cells for .NET？
+Aspose.Cells 是一个.NET 库，允许开发人员无需 Microsoft Excel 即可创建、操作和转换 Excel 文档。
 
-#### 问：如何在我的应用程序中使用检索到的 OData 详细信息？
-    
-答：使用 Aspose.Cells 检索 OData 详细信息后，您可以将它们用于数据分析、报告生成或应用程序中的任何其他操作。
+### 我可以在没有许可证的情况下使用 Aspose.Cells 吗？
+是的，您可以从他们的网站下载免费试用版；但是，它有一些限制。
 
-#### 问：使用 Aspose.Cells 检索时可以过滤或排序 OData 数据吗？
-    
-答：是的，Aspose.Cells 提供了过滤、排序和操作 OData 数据的高级功能，以满足您的特定需求。
+### 什么是 Power Query 公式？
+Power Query 公式允许用户在 Excel 中连接、合并和转换来自各种来源的数据。
 
-#### 问：我可以使用 Aspose.Cells 自动执行检索 OData 详细信息的过程吗？
-    
-答：是的，您可以通过将 Aspose.Cells 集成到您的工作流程中或使用编程脚本来自动化检索 OData 详细信息的过程。
+### 如何获得 Aspose.Cells 的支持？
+您可以访问[Aspose 论坛](https://forum.aspose.com/c/cells/9)寻求支持和社区帮助。
+
+### 我可以在哪里购买 Aspose.Cells？
+您可以从他们的[购买页面](https://purchase.aspose.com/buy).

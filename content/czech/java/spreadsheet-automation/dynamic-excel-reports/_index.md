@@ -10,7 +10,7 @@ url: /cs/java/spreadsheet-automation/dynamic-excel-reports/
 
 Dynamické sestavy Excelu jsou účinným způsobem prezentace dat, která se mohou přizpůsobit a aktualizovat podle změn dat. V této příručce prozkoumáme, jak vytvářet dynamické sestavy Excel pomocí rozhraní Aspose.Cells for Java API. 
 
-## Úvod
+## Zavedení
 
 Dynamické sestavy jsou nezbytné pro podniky a organizace, které pracují s neustále se měnícími daty. Namísto ruční aktualizace listů aplikace Excel pokaždé, když dorazí nová data, mohou dynamické sestavy automaticky načítat, zpracovávat a aktualizovat data, což šetří čas a snižuje riziko chyb. V tomto kurzu probereme následující kroky k vytváření dynamických sestav Excel:
 

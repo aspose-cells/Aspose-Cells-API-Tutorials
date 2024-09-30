@@ -1,119 +1,129 @@
 ---
 title: 워크시트의 페이지 나누기 미리보기
 linktitle: 워크시트의 페이지 나누기 미리보기
-second_title: .NET API 참조용 Aspose.Cells
-description: .NET용 Aspose.Cells를 사용하여 워크시트의 페이지 나누기 미리 보기를 표시하는 단계별 가이드입니다.
+second_title: .NET API 참조를 위한 Aspose.Cells
+description: 간단한 단계별 자습서를 통해 Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 페이지 나누기 미리 보기를 활성화하는 방법을 알아보세요.
 type: docs
 weight: 110
 url: /ko/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/
 ---
-이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 워크시트의 페이지 나누기 미리보기를 표시하는 방법을 설명하겠습니다. 원하는 결과를 얻으려면 다음 단계를 따르십시오.
+## 소개
 
-## 1단계: 환경 설정
+적절한 도구가 없다면 Excel 파일을 프로그래밍 방식으로 만들고 관리하는 것은 꽤 번거로울 수 있습니다. 개발자들 사이에서 많은 인기를 얻은 그러한 도구 중 하나가 Aspose.Cells for .NET입니다. 이 강력한 API를 사용하면 Excel 파일을 원활하게 조작하는 동시에 더 나은 인쇄 레이아웃을 위해 페이지 나누기를 조정하는 것과 같이 워크플로를 최적화하는 데 도움이 되는 다양한 기능을 제공합니다. 이 자습서에서는 Aspose.Cells for .NET을 사용하여 워크시트에서 페이지 나누기 미리 보기를 활성화하는 방법을 자세히 살펴보겠습니다.
 
-.NET용 Aspose.Cells를 설치하고 개발 환경을 설정했는지 확인하세요. 또한 페이지 나누기 미리 보기를 표시하려는 Excel 파일의 복사본이 있는지 확인하세요.
+## 필수 조건
 
-## 2단계: 필요한 종속성 가져오기
+시작하기 전에 꼭 갖춰야 할 몇 가지 전제 조건이 있습니다.
 
-Aspose.Cells의 클래스를 사용하는 데 필요한 지시문을 추가합니다.
+1. C#에 대한 기본 지식: C#와 .NET 프레임워크에 대한 기본적인 이해는 튜토리얼을 탐색하는 데 확실히 도움이 될 것입니다.
+2.  Aspose.Cells for .NET 설치: Aspose.Cells for .NET 라이브러리가 필요합니다.[여기에서 다운로드하세요](https://releases.aspose.com/cells/net/).
+3. Visual Studio 또는 유사한 IDE: 코드를 작성하고 실행하려면 Visual Studio와 같은 통합 개발 환경(IDE)이 필요합니다.
+4. Excel 파일: Excel 파일이 있어야 합니다(예:`book1.xls`)을 문서 디렉토리에서 조작할 수 있습니다.
+5. 네임스페이스: 특히 파일과 Aspose.Cells 라이브러리를 처리할 때 필요한 네임스페이스가 코드에 포함되어 있는지 확인하세요.
+
+이제 전제 조건을 다루었으니 실제 코딩을 시작해 보겠습니다.
+
+## 패키지 가져오기
+
+C# 프로젝트에서 Aspose.Cells를 시작하려면 필요한 패키지를 가져와야 합니다. 프로젝트에 참조를 추가하여 이를 수행할 수 있습니다.
+
+### 필수 네임스페이스 포함
+
+먼저, C# 파일 맨 위에 다음 네임스페이스를 포함했는지 확인하세요.
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## 3단계: 코드 초기화
+### 새로운 C# 파일 만들기
 
-Excel 문서가 포함된 디렉터리의 경로를 초기화하는 것부터 시작하세요.
+Visual Studio나 IDE를 열고 아직 만들지 않았다면 새 C# 파일을 만드세요. 여기에 구현 코드를 쓸 것입니다.
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-```
 
-## 4단계: Excel 파일 열기
+이제 Excel 파일에서 페이지 나누기 미리 보기를 활성화하는 코드를 단계별로 분석해 보겠습니다.
 
- 만들기`FileStream` 열려는 Excel 파일이 포함된 개체:
+## 1단계: 디렉토리 경로 설정
 
 ```csharp
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-```
-
- 인스턴스화`Workbook` 개체를 만들고 파일 스트림을 사용하여 Excel 파일을 엽니다.
-
-```csharp
-Workbook workbook = new Workbook(fstream);
-```
-
-## 5단계: 스프레드시트에 액세스하기
-
-Excel 파일의 첫 번째 워크시트로 이동합니다.
-
-```csharp
-Worksheet worksheet = workbook.Worksheets[0];
-```
-
-## 6단계: 페이지별 미리보기 표시
-
-스프레드시트에 대한 페이지별 미리보기를 활성화합니다.
-
-```csharp
-worksheet. IsPageBreakPreview = true;
-```
-
-## 7단계: 변경 사항 저장
-
-Excel 파일의 변경 사항을 저장합니다.
-
-```csharp
-workbook.Save(dataDir + "output.xls");
-```
-
-## 8단계: 파일 스트림 닫기
-
-모든 리소스를 해제하려면 파일 스트림을 닫습니다.
-
-```csharp
-fstream.Close();
-```
-
-### .NET용 Aspose.Cells를 사용하는 워크시트의 페이지 나누기 미리 보기에 대한 샘플 소스 코드 
-```csharp
-//문서 디렉터리의 경로입니다.
+// 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// 열려는 Excel 파일이 포함된 파일 스트림 생성
+```
+
+ 이 단계에서는 다음을 교체해야 합니다.`"YOUR DOCUMENT DIRECTORY"`Excel 파일이 저장된 프로젝트 폴더의 실제 경로와 함께. 이것은 프로그램에 조작하려는 파일을 어디에서 찾아야 하는지 알려주기 때문에 중요합니다.
+
+## 2단계: 파일 스트림 만들기
+
+```csharp
+// 열려는 Excel 파일을 포함하는 파일 스트림 생성
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-// 통합 문서 개체 인스턴스화
+```
+
+ 여기서 우리는 다음을 생성합니다.`FileStream` 지정된 Excel 파일을 가리키는 객체(`book1.xls`). 이를 통해 애플리케이션이 파일을 열고 조작할 수 있습니다.
+
+## 3단계: 통합 문서 인스턴스화
+
+```csharp
+// Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
-// Excel 파일의 첫 번째 워크시트에 액세스
+```
+
+ 이 단계에서는 다음을 인스턴스화합니다.`Workbook` Excel 파일을 나타내는 개체입니다. 이 개체는 본질적으로 작업의 핵심이며, 모든 시트에 액세스하고 다양한 조작을 수행할 수 있게 해줍니다.
+
+## 4단계: 워크시트에 액세스
+
+```csharp
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
-// 페이지 나누기 미리 보기에 워크시트 표시
+```
+
+여기서, 우리는 인덱스(0부터 시작)를 사용하여 통합 문서의 첫 번째 워크시트에 액세스합니다. 여러 시트가 있는 경우 인덱스를 변경하여 다른 시트에 액세스할 수 있습니다.
+
+## 5단계: 페이지 나누기 미리 보기 활성화
+
+```csharp
+// 페이지 나누기 미리보기에서 워크시트 표시
 worksheet.IsPageBreakPreview = true;
-// 수정된 엑셀 파일 저장
+```
+
+이 중요한 단계는 워크시트의 페이지 나누기 미리보기 모드를 활성화합니다. 나중에 파일을 열면 이것이 레이아웃과 인쇄 서식에 어떤 영향을 미치는지 볼 수 있습니다.
+
+## 6단계: 통합 문서 저장
+
+```csharp
+// 수정된 Excel 파일 저장하기
 workbook.Save(dataDir + "output.xls");
+```
+
+변경 사항을 적용한 후에는 통합 문서를 저장하는 것이 필수적입니다. 여기서는 다음과 같이 저장합니다.`output.xls`하지만 필요에 따라 파일 이름을 변경해도 됩니다.
+
+## 7단계: 리소스 정리
+
+```csharp
 // 모든 리소스를 해제하기 위해 파일 스트림을 닫습니다.
 fstream.Close();
 ```
 
+마지막으로, 리소스를 정리하는 것은 좋은 습관입니다. 파일 스트림을 닫으면 연관된 모든 리소스가 해제되어 메모리 누수가 방지됩니다.
+
 ## 결론
 
-이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 워크시트의 페이지 나누기 미리 보기를 표시하는 방법을 배웠습니다. 설명된 단계를 따르면 Excel 파일의 모양과 레이아웃을 쉽게 제어할 수 있습니다.
+이제 아시겠죠! Aspose.Cells for .NET을 사용하여 워크시트의 페이지 나누기 미리 보기를 성공적으로 활성화했습니다. 이 기능은 인쇄 레이아웃을 관리하는 능력을 크게 향상시켜 데이터를 체계적으로 제시하기 쉽게 만들어줍니다. 보고서를 생성하든 인쇄를 위해 데이터를 준비하든 Aspose.Cells는 창의성과 생산성을 발휘하는 데 필요한 도구를 제공합니다. 그럼, 무엇을 기다리고 계신가요? Aspose.Cells로 다음 Excel 프로젝트에 뛰어들어 워크플로를 어떻게 바꿔 놓는지 살펴보세요!
 
-### 자주 묻는 질문(FAQ)
+## 자주 묻는 질문
 
-#### .NET용 Aspose.Cells란 무엇입니까?
+### Aspose.Cells란 무엇인가요?
+Aspose.Cells는 개발자가 Microsoft Excel을 설치하지 않고도 Excel 파일을 만들고, 조작하고, 변환할 수 있는 .NET API입니다.
 
-Aspose.Cells for .NET은 .NET 애플리케이션에서 Excel 파일을 조작하는 데 널리 사용되는 소프트웨어 라이브러리입니다.
+### Aspose.Cells를 무료로 사용할 수 있나요?
+ 네, Aspose는 테스트 목적으로 무료 체험판을 제공합니다.[여기에서 무료 체험판을 받으세요](https://releases.aspose.com/).
 
-#### 전체 워크시트 대신 특정 워크시트에 대한 페이지별 미리 보기를 표시할 수 있나요?
+### Aspose.Cells를 어떻게 구매할 수 있나요?
+ 당신은 할 수 있습니다[Aspose.Cells를 여기에서 구매하세요](https://purchase.aspose.com/buy).
 
-예, Aspose.Cells를 사용하면 해당 Worksheet 개체에 액세스하여 특정 워크시트에 대한 페이지 나누기 미리 보기를 활성화할 수 있습니다.
+### Aspose.Cells에 대한 기술 지원을 받을 수 있나요?
+ 물론입니다! 다음을 통해 도움을 받을 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).
 
-#### Aspose.Cells는 다른 Excel 파일 편집 기능을 지원합니까?
-
-예, Aspose.Cells는 데이터 추가, 서식 지정, 차트 생성 등과 같이 Excel 파일을 편집하고 조작하기 위한 다양한 기능을 제공합니다.
-
-#### Aspose.Cells는 .xls 형식의 Excel 파일에서만 작동합니까?
-
-아니요, Aspose.Cells는 .xls 및 .xlsx를 포함한 다양한 Excel 파일 형식을 지원합니다.
-	
+### 여러 워크시트에 페이지 나누기 미리보기를 적용할 수 있나요?
+네, 통합 문서의 워크시트를 반복하여 각 워크시트에 동일한 속성을 적용할 수 있습니다.

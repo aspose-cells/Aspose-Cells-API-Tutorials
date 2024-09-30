@@ -1,119 +1,144 @@
 ---
-title: Ukryj i odkryj arkusz
-linktitle: Ukryj i odkryj arkusz
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Potężna biblioteka do pracy z plikami Excel, w tym do tworzenia, modyfikowania i manipulowania danymi.
+title: Arkusz roboczy „Ukryj i pokaż”
+linktitle: Arkusz roboczy „Ukryj i pokaż”
+second_title: Aspose.Cells dla .NET API Reference
+description: Opanuj manipulowanie arkuszami kalkulacyjnymi programu Excel dzięki temu kompletnemu przewodnikowi po ukrywaniu i pokazywaniu arkuszy za pomocą Aspose.Cells dla .NET. Uprość zarządzanie danymi.
 type: docs
 weight: 90
 url: /pl/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 ---
-W tym samouczku poprowadzimy Cię krok po kroku do wyjaśnienia następującego kodu źródłowego C#, który służy do ukrywania i pokazywania arkusza za pomocą Aspose.Cells dla .NET. Wykonaj poniższe kroki:
+## Wstęp
 
-## Krok 1: Przygotowanie środowiska
+Jeśli chodzi o zarządzanie danymi, Microsoft Excel jest potężnym narzędziem, na którym wielu polega w celu organizowania i analizowania informacji. Jednak czasami pewne arkusze wymagają odrobiny dyskrecji — być może zawierają poufne dane, które powinny być widoczne tylko dla określonych osób, a może po prostu zaśmiecają interfejs użytkownika. W takich przypadkach możliwość ukrywania i pokazywania arkuszy roboczych jest niezbędna. Na szczęście dzięki Aspose.Cells dla .NET możesz łatwo zarządzać arkuszami Excela programowo! 
 
-Zanim zaczniesz, upewnij się, że masz zainstalowany Aspose.Cells for .NET w swoim systemie. Jeśli jeszcze go nie zainstalowałeś, możesz pobrać go z oficjalnej strony Aspose. Po zainstalowaniu możesz utworzyć nowy projekt w preferowanym zintegrowanym środowisku programistycznym (IDE).
+## Wymagania wstępne
 
-## Krok 2: Zaimportuj wymagane przestrzenie nazw
+Zanim rozpoczniemy podróż mającą na celu kontrolowanie Twoich arkuszy kalkulacyjnych w programie Excel, musimy spełnić kilka warunków wstępnych, aby zapewnić Ci bezproblemową podróż:
 
-W pliku źródłowym C# dodaj niezbędne przestrzenie nazw, aby móc korzystać z funkcji Aspose.Cells. Dodaj następujące wiersze na początku pliku:
+1. Podstawowa znajomość języka C#: Znajomość języka C# jest niezbędna, ponieważ będziemy pisać kod w tym języku.
+2.  Aspose.Cells dla .NET: Upewnij się, że masz zainstalowany Aspose.Cells. Możesz go pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+3. Środowisko programistyczne: środowisko IDE, takie jak Visual Studio 2022, w którym można kompilować i uruchamiać kod C#.
+4.  Plik Excela: Przygotuj plik Excela do manipulacji. Na potrzeby tego samouczka utwórzmy przykładowy plik o nazwie`book1.xls`.
+5. .NET Framework: Co najmniej .NET Framework 4.5 lub nowszy.
+
+Gdy już sprawdzisz te wymagania, możesz zaczynać!
+
+## Importuj pakiety
+
+Zanim przejdziesz do kodu, musisz zaimportować niezbędny pakiet Aspose.Cells. Dzięki temu będziesz mógł wykorzystać wszystkie niesamowite funkcje oferowane przez bibliotekę. Po prostu uruchom plik C# następującymi dyrektywami:
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## Krok 3: Załaduj plik Excel
+Teraz, gdy wszystko jest już skonfigurowane i gotowe do kodowania, podzielmy proces na łatwe do opanowania kroki. Zaczniemy od ukrycia arkusza kalkulacyjnego, a następnie sprawdzimy, jak go wyświetlić.
 
-Przed ukryciem lub odkryciem arkusza należy załadować plik Excel do swojej aplikacji. Upewnij się, że plik Excel, którego chcesz użyć, znajduje się w tym samym katalogu, co Twój projekt. Użyj poniższego kodu, aby załadować plik Excel:
+## Krok 1: Skonfiguruj swoje środowisko
+
+ W tym kroku skonfigurujesz ścieżkę pliku, w którym znajduje się plik Excel. Zastąp`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do pliku.
 
 ```csharp
-string dataDir = "PATH TO YOUR DOCUMENTS DIRECTORY";
+// Ścieżka do katalogu dokumentów.
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+
+To tak, jakbyś kładł fundamenty przed budową domu — musisz mieć solidną podstawę, zanim zaczniesz budować coś wielkiego!
+
+## Krok 2: Otwórz plik Excel
+
+Teraz utwórzmy strumień plików, aby otworzyć nasz skoroszyt programu Excel. Ten krok jest kluczowy, ponieważ musisz odczytać i manipulować plikiem.
+
+```csharp
+// Tworzenie strumienia plików zawierającego plik Excela do otwarcia
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
+```
+
+Pomyśl o tym jak o odblokowaniu drzwi do pliku Excel. Musisz mieć do niego dostęp, zanim będziesz mógł cokolwiek zrobić w środku!
+
+## Krok 3: Utwórz obiekt skoroszytu
+
+Po otwarciu pliku następnym krokiem jest utworzenie obiektu Skoroszyt, który umożliwi pracę z dokumentem programu Excel.
+
+```csharp
+// Utworzenie obiektu skoroszytu poprzez otwarcie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
 ```
 
-Pamiętaj, aby zastąpić „ŚCIEŻKA DO KATALOGU DOKUMENTÓW” rzeczywistą ścieżką do katalogu zawierającego plik Excel.
+Ten krok to jak powiedzenie „Witaj!” swojemu skoroszytowi, dzięki czemu wie, że jesteś gotowy wprowadzić zmiany.
 
 ## Krok 4: Uzyskaj dostęp do arkusza kalkulacyjnego
 
-Po załadowaniu pliku Excel możesz przejść do arkusza, który chcesz ukryć lub odkryć. Użyj poniższego kodu, aby uzyskać dostęp do pierwszego arkusza w pliku:
+Mając w ręku skoroszyt, czas uzyskać dostęp do konkretnego arkusza, który chcesz ukryć. Zaczniemy od pierwszego arkusza.
 
 ```csharp
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-## Krok 5: Ukryj arkusz
+Tutaj wskazujesz na konkretny arkusz, trochę jak wybieranie książki z półki. „To jest ta, nad którą chcę pracować!”
 
- Teraz, gdy masz dostęp do arkusza, możesz go ukryć za pomocą`IsVisible` nieruchomość. Użyj poniższego kodu, aby ukryć pierwszy arkusz w pliku:
+## Krok 5: Ukryj arkusz kalkulacyjny
 
-```csharp
-worksheet. IsVisible = false;
-```
-
-## Krok 6: Wyświetl ponownie arkusz
-
-Jeśli chcesz ponownie wyświetlić wcześniej ukryty arkusz, możesz użyć tego samego kodu, zmieniając wartość`IsVisible` nieruchomość. Użyj poniższego kodu, aby ponownie wyświetlić pierwszy arkusz:
+ Teraz nadchodzi zabawna część — ukrywanie arkusza kalkulacyjnego! Przełączając`IsVisible` Możesz sprawić, że Twój arkusz kalkulacyjny zniknie z widoku.
 
 ```csharp
-worksheet. IsVisible = true;
-```
-
-## Krok 7: Zapisz zmiany
-
-Raz ty
-
-  w razie potrzeby ukryłeś lub odkryłeś arkusz, musisz zapisać zmiany w pliku Excel. Użyj poniższego kodu, aby zapisać zmiany:
-
-```csharp
-workbook.Save(dataDir + "output.out.xls");
-fstream.Close();
-```
-
-Upewnij się, że określono poprawną ścieżkę wyjściową, aby zapisać zmodyfikowany plik Excel.
-
-### Przykładowy kod źródłowy arkusza Ukryj i odkryj przy użyciu Aspose.Cells dla .NET 
-
-```csharp
-//Ścieżka do katalogu dokumentów.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tworzenie strumienia plików zawierającego plik Excel do otwarcia
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-// Tworzenie instancji obiektu skoroszytu poprzez otwarcie pliku Excel za pośrednictwem strumienia plików
-Workbook workbook = new Workbook(fstream);
-// Dostęp do pierwszego arkusza w pliku Excel
-Worksheet worksheet = workbook.Worksheets[0];
-// Ukrywanie pierwszego arkusza pliku Excel
+// Ukrywanie pierwszego arkusza kalkulacyjnego pliku Excel
 worksheet.IsVisible = false;
-// Pokazuje pierwszy arkusz pliku Excel
-//Arkusz.IsVisible = true;
-// Zapisanie zmodyfikowanego pliku Excel w domyślnym formacie (czyli Excel 2003).
+```
+
+To jak spuszczenie zasłon. Dane nadal tam są, ale nie są już widoczne gołym okiem.
+
+## Krok 6: Zapisz zmiany
+
+Po ukryciu arkusza kalkulacyjnego, będziesz chciał zapisać zmiany, które wprowadziłeś do pliku. Jest to kluczowe, w przeciwnym razie zmiany te rozpłyną się w powietrzu!
+
+```csharp
+// Zapisywanie zmodyfikowanego pliku Excel w domyślnym formacie (czyli Excel 2003)
 workbook.Save(dataDir + "output.out.xls");
+```
+
+Tutaj zapisujemy skoroszyt jako`output.out.xls`. To jak zapieczętowanie swojej pracy w kopercie. Jeśli jej nie zapiszesz, cała twoja ciężka praca pójdzie na marne!
+
+## Krok 7: Zamknij strumień plików
+
+Na koniec należy zamknąć strumień plików. Ten krok jest niezbędny, aby zwolnić zasoby systemowe i zapobiec wyciekom pamięci.
+
+```csharp
 // Zamknięcie strumienia plików w celu zwolnienia wszystkich zasobów
 fstream.Close();
 ```
 
+Rozważ to jako zamknięcie drzwi za sobą po wyjściu. To zawsze dobre maniery i utrzymuje wszystko w porządku!
+
+## Krok 8: Odkryj arkusz kalkulacyjny
+
+ Aby wyświetlić arkusz roboczy, należy ustawić`IsVisible` właściwość z powrotem na true. Oto jak to zrobić:
+
+```csharp
+// Pokazuje pierwszy arkusz kalkulacyjny pliku Excel
+worksheet.IsVisible = true;
+```
+
+W ten sposób podnosisz zasłony i znów możesz zobaczyć wszystko.
+
 ## Wniosek
 
-Gratulacje! Nauczyłeś się, jak ukrywać i wyświetlać arkusz kalkulacyjny za pomocą Aspose.Cells dla .NET. Możesz teraz używać tej funkcji do kontrolowania widoczności arkuszy kalkulacyjnych w plikach Excel.
+Manipulowanie arkuszami kalkulacyjnymi programu Excel przy użyciu Aspose.Cells dla .NET nie musi być trudnym zadaniem. Za pomocą zaledwie kilku linijek kodu możesz z łatwością ukryć lub ujawnić ważne dane. Ta możliwość może być szczególnie przydatna w scenariuszach, w których przejrzystość i bezpieczeństwo są najważniejsze. Niezależnie od tego, czy raportujesz dane, czy po prostu starasz się zachować porządek w swojej pracy, wiedza o tym, jak zarządzać widocznością arkusza kalkulacyjnego, może mieć duże znaczenie w Twoim przepływie pracy!
 
-### Często zadawane pytania (FAQ)
+## Najczęściej zadawane pytania
 
-#### Jak mogę zainstalować Aspose.Cells dla .NET?
+### Czy mogę ukryć wiele arkuszy kalkulacyjnych jednocześnie?
+ Tak, możesz przejść przez pętlę`Worksheets` kolekcja i zestaw`IsVisible` ustaw właściwość na false dla każdego arkusza, który chcesz ukryć.
 
- Możesz zainstalować Aspose.Cells dla .NET, pobierając odpowiedni pakiet NuGet z[Wydania Aspose](https://releases/aspose.com/cells/net/) i dodanie go do projektu Visual Studio.
+### Jakie formaty plików obsługuje Aspose.Cells?
+ Aspose.Cells obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne. Możesz sprawdzić pełną listę[Tutaj](https://reference.aspose.com/cells/net/).
 
-#### Jaka jest minimalna wymagana wersja .NET Framework do korzystania z Aspose.Cells dla .NET?
+### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
+ Możesz zacząć od bezpłatnej wersji próbnej, aby poznać jej funkcje. Pełna licencja jest wymagana do aplikacji produkcyjnych. Dowiedz się więcej na ten temat[Tutaj](https://purchase.aspose.com/buy).
 
-Aspose.Cells dla .NET obsługuje .NET Framework 2.0 i nowsze wersje.
+### Czy można ukryć arkusze kalkulacyjne na podstawie określonych warunków?
+Oczywiście! Możesz zaimplementować logikę warunkową w swoim kodzie, aby określić, czy arkusz kalkulacyjny powinien być ukryty czy pokazany na podstawie Twoich kryteriów.
 
-#### Czy mogę otwierać i edytować istniejące pliki Excel za pomocą Aspose.Cells dla .NET?
-
-Tak, możesz otwierać i edytować istniejące pliki Excel za pomocą Aspose.Cells dla .NET. Możesz uzyskać dostęp do arkuszy kalkulacyjnych, komórek, formuł i innych elementów pliku Excel.
-
-#### Czy Aspose.Cells dla .NET obsługuje raportowanie i eksportowanie do innych formatów plików?
-
-Tak, Aspose.Cells dla .NET obsługuje generowanie raportów i eksport do formatów takich jak PDF, HTML, CSV, TXT itp.
-
-#### Czy modyfikacja pliku Excel jest trwała?
-
-Tak, edycja pliku Excel jest trwała po jego zapisaniu. Przed wprowadzeniem jakichkolwiek zmian w oryginalnym pliku pamiętaj o zapisaniu kopii zapasowej.
+### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
+ Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9) w razie pytań lub problemów.

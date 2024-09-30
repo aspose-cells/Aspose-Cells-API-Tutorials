@@ -22,7 +22,7 @@ Az automatizált adatkinyerés számos előnnyel jár:
 3. Konzisztencia: Tartsa fenn az egységes adatformátumot a kivonatokban.
 4. Skálázhatóság: Nagy mennyiségű adatot könnyedén kezelhet.
 
-## Elkezdeni
+## Kezdő lépések
 
 ### 1. A környezet beállítása
 

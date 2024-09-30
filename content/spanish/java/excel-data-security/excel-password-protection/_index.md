@@ -1,8 +1,8 @@
 ---
-title: Protección con contraseña de Excel
-linktitle: Protección con contraseña de Excel
-second_title: API de procesamiento de Excel Java de Aspose.Cells
-description: Aprenda cómo mejorar la seguridad de los datos con la protección con contraseña de Excel utilizando Aspose.Cells para Java. Guía paso a paso con código fuente para la máxima confidencialidad de los datos.
+title: Protección de contraseña de Excel
+linktitle: Protección de contraseña de Excel
+second_title: API de procesamiento de Excel en Java Aspose.Cells
+description: Aprenda a mejorar la seguridad de los datos con la protección de contraseñas de Excel mediante Aspose.Cells para Java. Guía paso a paso con código fuente para una máxima confidencialidad de los datos.
 type: docs
 weight: 10
 url: /es/java/excel-data-security/excel-password-protection/
@@ -10,25 +10,25 @@ url: /es/java/excel-data-security/excel-password-protection/
 
 ## Introducción a la protección con contraseña de Excel
 
-En la era digital, proteger sus datos confidenciales es primordial. Las hojas de cálculo de Excel a menudo contienen información crítica que necesita protección. En este tutorial, exploraremos cómo implementar la protección con contraseña de Excel usando Aspose.Cells para Java. Esta guía paso a paso lo guiará a través del proceso, garantizando que sus datos permanezcan confidenciales.
+En la era digital, proteger sus datos confidenciales es primordial. Las hojas de cálculo de Excel suelen contener información crítica que necesita protección. En este tutorial, exploraremos cómo implementar la protección con contraseña de Excel mediante Aspose.Cells para Java. Esta guía paso a paso lo guiará a través del proceso, garantizando que sus datos permanezcan confidenciales.
 
-## Requisitos previos
+## Prerrequisitos
 
-Antes de sumergirse en el mundo de la protección con contraseña de Excel con Aspose.Cells para Java, deberá asegurarse de tener las herramientas y los conocimientos necesarios:
+Antes de sumergirse en el mundo de la protección de contraseñas de Excel con Aspose.Cells para Java, deberá asegurarse de tener las herramientas y los conocimientos necesarios:
 
 - Entorno de desarrollo Java
--  Aspose.Cells para Java API (puedes descargarlo)[aquí](https://releases.aspose.com/cells/java/)
-- Conocimientos básicos de programación Java.
+-  API de Aspose.Cells para Java (puede descargarla[aquí](https://releases.aspose.com/cells/java/)
+- Conocimientos básicos de programación Java
 
-## Configurar el entorno
+## Configuración del entorno
 
-Para comenzar, debe configurar su entorno de desarrollo. Sigue estos pasos:
+Para comenzar, debes configurar tu entorno de desarrollo. Sigue estos pasos:
 
 1. Instale Java si aún no lo ha hecho.
 2. Descargue Aspose.Cells para Java desde el enlace proporcionado.
-3. Incluya los archivos JAR de Aspose.Cells en su proyecto.
+3. Incluya los archivos JAR Aspose.Cells en su proyecto.
 
-## Crear un archivo Excel de muestra
+## Creación de un archivo de Excel de muestra
 
 Comencemos creando un archivo Excel de muestra que protegeremos con una contraseña.
 
@@ -40,14 +40,14 @@ public class ExcelPasswordProtection {
         // Crear un nuevo libro de trabajo
         Workbook workbook = new Workbook();
 
-        // Accede a la primera hoja de trabajo.
+        // Acceda a la primera hoja de trabajo
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Agregue algunos datos a la hoja de trabajo.
+        // Añade algunos datos a la hoja de cálculo
         worksheet.getCells().get("A1").putValue("Confidential Data");
         worksheet.getCells().get("A2").putValue("More Sensitive Info");
 
-        // guardar el libro de trabajo
+        // Guardar el libro de trabajo
         try {
             workbook.save("Sample.xlsx");
             System.out.println("Excel file created successfully.");
@@ -62,9 +62,9 @@ En este código, hemos creado un archivo Excel simple con algunos datos. Ahora, 
 
 ## Proteger el archivo Excel
 
-Para agregar protección con contraseña al archivo de Excel, siga estos pasos:
+Para agregar protección con contraseña al archivo Excel, siga estos pasos:
 
-1. Cargue el archivo de Excel.
+1. Cargue el archivo Excel.
 2. Aplicar protección con contraseña.
 3. Guarde el archivo modificado.
 
@@ -73,7 +73,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        //Cargar el libro existente
+        //Cargar el libro de trabajo existente
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -86,7 +86,7 @@ public class ExcelPasswordProtection {
             Protection protection = workbook.getSettings().getProtection();
             protection.setWorkbookProtection(WorkbookProtectionType.ALL);
 
-            // Guarde el libro protegido
+            // Guardar el libro de trabajo protegido
             workbook.save("ProtectedSample.xlsx");
             System.out.println("Excel file protected successfully.");
         } catch (Exception e) {
@@ -96,30 +96,30 @@ public class ExcelPasswordProtection {
 }
 ```
 
- En este código, cargamos el archivo Excel creado previamente, configuramos una contraseña y protegemos el libro. puedes reemplazar`"MySecretPassword"` con la contraseña deseada.
+ En este código, cargamos el archivo de Excel creado anteriormente, establecemos una contraseña y protegemos el libro de trabajo. Puede reemplazar`"MySecretPassword"` con la contraseña deseada.
 
 ## Conclusión
 
-En este tutorial, aprendimos cómo agregar protección con contraseña a archivos de Excel usando Aspose.Cells para Java. Es una técnica esencial para proteger sus datos confidenciales y mantener la confidencialidad. Con sólo unas pocas líneas de código, puede asegurarse de que sólo los usuarios autorizados puedan acceder a sus hojas de cálculo de Excel.
+En este tutorial, hemos aprendido a agregar protección con contraseña a los archivos de Excel mediante Aspose.Cells para Java. Es una técnica esencial para proteger sus datos confidenciales y mantener la confidencialidad. Con solo unas pocas líneas de código, puede asegurarse de que solo los usuarios autorizados puedan acceder a sus hojas de cálculo de Excel.
 
 ## Preguntas frecuentes
 
-### ¿Cómo elimino la protección con contraseña de un archivo de Excel?
+### ¿Cómo puedo eliminar la protección con contraseña de un archivo de Excel?
 
 Puede eliminar la protección con contraseña cargando el archivo de Excel protegido, proporcionando la contraseña correcta y luego guardando el libro sin protección.
 
-### ¿Puedo establecer contraseñas diferentes para diferentes hojas de trabajo dentro del mismo archivo de Excel?
+### ¿Puedo establecer diferentes contraseñas para diferentes hojas de trabajo dentro del mismo archivo de Excel?
 
 Sí, puede establecer diferentes contraseñas para hojas de trabajo individuales dentro del mismo archivo de Excel usando Aspose.Cells para Java.
 
 ### ¿Es posible proteger celdas o rangos específicos en una hoja de cálculo de Excel?
 
-Ciertamente. Puede proteger celdas o rangos específicos configurando opciones de protección de hojas de trabajo usando Aspose.Cells para Java.
+Por supuesto. Puedes proteger celdas o rangos específicos configurando las opciones de protección de la hoja de cálculo mediante Aspose.Cells para Java.
 
-### ¿Puedo cambiar la contraseña de un archivo Excel ya protegido?
+### ¿Puedo cambiar la contraseña de un archivo de Excel ya protegido?
 
-Sí, puede cambiar la contraseña de un archivo de Excel ya protegido cargando el archivo, estableciendo una nueva contraseña y guardándolo.
+Sí, puede cambiar la contraseña de un archivo de Excel ya protegido cargando el archivo, estableciendo una nueva contraseña y guardándola.
 
-### ¿Existe alguna limitación para la protección con contraseña en archivos de Excel?
+### ¿Existen limitaciones para la protección con contraseña en los archivos de Excel?
 
-La protección con contraseña en archivos de Excel es una medida de seguridad sólida, pero es esencial elegir contraseñas seguras y mantenerlas confidenciales para maximizar la seguridad.
+La protección con contraseña en los archivos de Excel es una medida de seguridad sólida, pero es esencial elegir contraseñas seguras y mantenerlas confidenciales para maximizar la seguridad.

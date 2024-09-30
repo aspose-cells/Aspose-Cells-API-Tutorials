@@ -18,7 +18,7 @@ Než se vrhneme na používání funkce AVERAGE, musíme nastavit naše vývojov
 
 1.  Stáhněte si Aspose.Cells pro Java: Navštivte[Aspose.Cells pro Javu](https://releases.aspose.com/cells/java/) ke stažení knihovny.
 
-2.  Instalace Aspose.Cells: Postupujte podle pokynů k instalaci uvedených v dokumentaci Aspose[tady](https://reference.aspose.com/cells/java/).
+2.  Instalace Aspose.Cells: Postupujte podle pokynů k instalaci uvedených v dokumentaci Aspose[zde](https://reference.aspose.com/cells/java/).
 
 Jakmile máte nainstalovaný Aspose.Cells for Java, jste připraveni začít pracovat se soubory Excel.
 
@@ -86,7 +86,7 @@ workbook.save("output.pdf", SaveFormat.PDF);
 
 Tento kód uloží sešit jako soubor PDF.
 
-## Vypořádání se s chybou
+## Zpracování chyb
 
 Při práci se soubory aplikace Excel je nezbytné zpracovat chyby s grácií. Mezi běžné chyby patří nesprávné odkazy na buňky nebo chyby vzorců. Zde je příklad zpracování chyb:
 
@@ -113,7 +113,7 @@ tomto článku jsme prozkoumali, jak používat funkci AVERAGE v Excelu pomocí 
 
 ### Jak nainstaluji Aspose.Cells for Java?
 
- Chcete-li nainstalovat Aspose.Cells for Java, navštivte web na adrese[tady](https://reference.aspose.com/cells/java/) a postupujte podle pokynů k instalaci.
+ Chcete-li nainstalovat Aspose.Cells for Java, navštivte web na adrese[zde](https://reference.aspose.com/cells/java/) a postupujte podle pokynů k instalaci.
 
 ### Mohu exportovat sešit Excel do jiných formátů než PDF?
 

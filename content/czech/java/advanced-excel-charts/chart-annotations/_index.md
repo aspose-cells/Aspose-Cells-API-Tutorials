@@ -2,7 +2,7 @@
 title: Poznámky k grafu
 linktitle: Poznámky k grafu
 second_title: Aspose.Cells Java Excel Processing API
-description: Vylepšete své grafy pomocí anotací grafů pomocí Aspose.Cells pro Javu – průvodce krok za krokem. Zjistěte, jak přidávat anotace pro informativní vizualizaci dat.
+description: Vylepšete své grafy pomocí anotací grafů pomocí Aspose.Cells for Java – průvodce krok za krokem. Zjistěte, jak přidávat anotace pro informativní vizualizaci dat.
 type: docs
 weight: 16
 url: /cs/java/advanced-excel-charts/chart-annotations/
@@ -22,7 +22,7 @@ Než se pustíme do implementace, ujistěte se, že máte splněny následujíc�
 
 ## Nastavení Aspose.Cells pro Java
 
- Chcete-li začít, musíte ve svém projektu nastavit Aspose.Cells pro Javu. Knihovnu si můžete stáhnout z webu Aspose[tady](https://releases.aspose.com/cells/java/). Po stažení přidejte knihovnu do svého projektu Java.
+ Chcete-li začít, musíte ve svém projektu nastavit Aspose.Cells pro Javu. Knihovnu si můžete stáhnout z webu Aspose[zde](https://releases.aspose.com/cells/java/). Po stažení přidejte knihovnu do svého projektu Java.
 
 ## Vytvoření sešitu Excel
 
@@ -100,7 +100,7 @@ V tomto tutoriálu jsme se naučili, jak přidat anotace grafu pomocí Aspose.Ce
 
 ### Jak si stáhnu Aspose.Cells for Java?
 
- Aspose.Cells for Java si můžete stáhnout z webu Aspose[tady](https://releases.aspose.com/cells/java/).
+ Aspose.Cells for Java si můžete stáhnout z webu Aspose[zde](https://releases.aspose.com/cells/java/).
 
 ### Mohu upravit vzhled anotací?
 
@@ -116,4 +116,4 @@ Absolutně! Aspose.Cells for Java poskytuje robustní sadu nástrojů a funkcí 
 
 ### Kde najdu další návody na Aspose.Cells pro Javu?
 
- Další návody a dokumentaci najdete na Aspose.Cells for Java na adrese[tady](https://reference.aspose.com/cells/java/).
+ Další návody a dokumentaci najdete na Aspose.Cells for Java na adrese[zde](https://reference.aspose.com/cells/java/).

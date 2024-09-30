@@ -1,88 +1,135 @@
 ---
-title: Bildlaufleisten des Arbeitsblatts anzeigen und ausblenden
-linktitle: Bildlaufleisten des Arbeitsblatts anzeigen und ausblenden
+title: Bildlaufleisten im Arbeitsblatt anzeigen und ausblenden
+linktitle: Bildlaufleisten im Arbeitsblatt anzeigen und ausblenden
 second_title: Aspose.Cells für .NET API-Referenz
-description: Blenden Sie Bildlaufleisten im Excel-Arbeitsblatt mit Aspose.Cells für .NET ein oder aus.
+description: Erfahren Sie in diesem ausführlichen und leicht verständlichen Tutorial, wie Sie mit Aspose.Cells für .NET Bildlaufleisten in Excel-Arbeitsblättern anzeigen und ausblenden.
 type: docs
 weight: 50
 url: /de/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
 ---
-In diesem Tutorial zeigen wir Ihnen, wie Sie mithilfe von C#-Quellcode mit Aspose.Cells für .NET vertikale und horizontale Bildlaufleisten in einem Excel-Arbeitsblatt ein- oder ausblenden. Befolgen Sie die nachstehenden Schritte, um das gewünschte Ergebnis zu erzielen.
+## Einführung
 
-## Schritt 1: Importieren Sie die erforderlichen Bibliotheken
+Die programmgesteuerte Verwaltung von Excel-Dateien kann oft wie Zauberei erscheinen! Egal, ob Sie die Benutzererfahrung verbessern oder die Benutzeroberfläche Ihrer Tabellenkalkulationsanwendung vereinfachen möchten, die Steuerung visueller Komponenten wie Bildlaufleisten ist unerlässlich. In dieser Anleitung erfahren Sie, wie Sie die Bildlaufleisten eines Arbeitsblatts mit Aspose.Cells für .NET ein- und ausblenden. Wenn Sie neu in diesem Bereich sind oder Ihre Fähigkeiten verfeinern möchten, sind Sie hier richtig!
 
-Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek für .NET installiert haben und importieren Sie die erforderlichen Bibliotheken in Ihr C#-Projekt.
+## Voraussetzungen
+
+Bevor wir beginnen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
+
+1. Grundkenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind hilfreich, da wir Codeausschnitte in dieser Sprache schreiben werden.
+2.  Aspose.Cells für .NET: Sie benötigen die Aspose.Cells-Bibliothek. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+3. IDE-Setup: Eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio oder ein Code-Editor zum Schreiben und Ausführen von C#-Code.
+4.  Excel-Datei: Eine Beispiel-Excel-Datei (z. B.`book1.xls`), die Sie bearbeiten und testen können.
+
+Sobald Sie diese Voraussetzungen erfüllt haben, können wir in den Code eintauchen.
+
+## Erforderliche Pakete importieren
+
+Um mit Aspose.Cells arbeiten zu können, müssen Sie zunächst die erforderlichen Namespaces in Ihren C#-Code importieren. So gehen Sie dabei vor:
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## Schritt 2: Verzeichnispfad festlegen und Excel-Datei öffnen
+- `System.IO` ermöglicht Ihnen, Dateieingabe- und -ausgabevorgänge zu verwalten.
+- `Aspose.Cells` ist die Bibliothek, die alle notwendigen Funktionen zum Bearbeiten von Excel-Dateien bereitstellt.
 
- Legen Sie den Pfad zu dem Verzeichnis fest, das Ihre Excel-Datei enthält, und öffnen Sie dann die Datei, indem Sie einen Dateistream erstellen und a instanziieren`Workbook` Objekt.
+Lassen Sie uns die Aufgabe nun in überschaubare Schritte aufteilen.
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-Workbook workbook = new Workbook(fstream);
-```
+## Schritt 1: Definieren Sie den Dateipfad
 
-## Schritt 3: Bildlaufleisten ausblenden
+Geben Sie hier den Pfad zu der Excel-Datei an, mit der Sie arbeiten möchten.
 
- Benutzen Sie die`IsVScrollBarVisible` Und`IsHScrollBarVisible` Eigenschaften der`Workbook.Settings` Objekt, um die vertikalen und horizontalen Bildlaufleisten des Arbeitsblatts auszublenden.
 
 ```csharp
-workbook.Settings.IsVScrollBarVisible = false;
-workbook.Settings.IsHScrollBarVisible = false;
-```
-
-## Schritt 4: Änderungen speichern
-
- Nachdem Sie die notwendigen Änderungen vorgenommen haben, speichern Sie die geänderte Excel-Datei mit`Save` Methode der`Workbook` Objekt.
-
-```csharp
-workbook.Save(dataDir + "output.xls");
-```
-
-### Beispielquellcode für das Anzeigen und Ausblenden von Bildlaufleisten im Arbeitsblatt mit Aspose.Cells für .NET 
-
-```csharp
-//Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
+```
+  
+ Ersetzen`YOUR DOCUMENT DIRECTORY` durch den tatsächlichen Pfad, in dem Ihre Excel-Datei gespeichert ist. So kann Ihr Programm die erforderlichen Dateien finden, die es bearbeiten muss.
+
+## Schritt 2: Erstellen eines Dateistreams
+
+Hier erstellen Sie einen Dateistream zum Lesen der Excel-Datei.
+
+
+```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-// Instanziieren eines Workbook-Objekts
-// Öffnen der Excel-Datei über den Dateistream
+```
+  
+ Der`FileStream`Mit der Klasse können Sie Dateien lesen und in sie schreiben. In diesem Fall öffnen wir unsere Excel-Datei im Lesemodus.
+
+## Schritt 3: Instanziieren eines Arbeitsmappenobjekts
+
+ Als nächstes müssen Sie eine`Workbook` Objekt, das Ihre Excel-Datei im Code darstellt.
+
+
+```csharp
 Workbook workbook = new Workbook(fstream);
-// Ausblenden der vertikalen Bildlaufleiste der Excel-Datei
+```
+  
+ Das`Workbook` Das Objekt enthält jetzt alle Daten und Einstellungen Ihrer Excel-Datei und ermöglicht so eine spätere Bearbeitung im Prozess.
+
+## Schritt 4: Vertikale Bildlaufleiste ausblenden
+
+Jetzt kommt der spaßige Teil! Sie können die vertikale Bildlaufleiste ausblenden, um eine übersichtlichere Benutzeroberfläche zu erstellen.
+
+
+```csharp
 workbook.Settings.IsVScrollBarVisible = false;
-// Ausblenden der horizontalen Bildlaufleiste der Excel-Datei
+```
+  
+ Durch die Einstellung`IsVScrollBarVisible` Zu`false`wird die vertikale Bildlaufleiste ausgeblendet. Dies kann insbesondere dann nützlich sein, wenn Sie das Scrollen auf benutzerfreundliche Weise einschränken möchten.
+
+## Schritt 5: Horizontale Bildlaufleiste ausblenden
+
+Genau wie beim vertikalen Scrollen können Sie auch die horizontale Bildlaufleiste ausblenden.
+
+
+```csharp
 workbook.Settings.IsHScrollBarVisible = false;
-// Speichern der geänderten Excel-Datei
+```
+  
+Hier machen wir auch die horizontale Bildlaufleiste unsichtbar. Dadurch haben Sie mehr Kontrolle über das Erscheinungsbild des Arbeitsblatts.
+
+## Schritt 6: Speichern Sie die geänderte Excel-Datei
+
+Nachdem Sie die Sichtbarkeitseinstellungen geändert haben, müssen Sie Ihre Änderungen speichern. 
+
+
+```csharp
 workbook.Save(dataDir + "output.xls");
-// Schließen des Dateistreams, um alle Ressourcen freizugeben
+```
+  
+Dieser Code speichert die geänderte Arbeitsmappe unter einem neuen Namen (`output.xls`). Es verhindert das Überschreiben Ihrer Originaldatei und ermöglicht Ihnen die Verwaltung einer Sicherungskopie.
+
+## Schritt 7: Schließen Sie den Dateistream
+
+Denken Sie zuletzt immer daran, Ihre Dateiströme zu schließen, um Systemressourcen freizugeben.
+
+
+```csharp
 fstream.Close();
 ```
+  
+Das Schließen des Streams ist eine gute Methode, um Speicherlecks zu verhindern und den reibungslosen Betrieb Ihrer Anwendung sicherzustellen.
 
-### Abschluss
+## Abschluss
 
-Diese Schritt-für-Schritt-Anleitung zeigte Ihnen, wie Sie mit Aspose.Cells für .NET vertikale und horizontale Bildlaufleisten in einer Excel-Tabelle ein- oder ausblenden. Mithilfe des bereitgestellten C#-Quellcodes können Sie die Anzeige von Bildlaufleisten in Ihren Excel-Dateien ganz einfach anpassen.
+Indem Sie diese einfachen Schritte befolgen, haben Sie gelernt, wie Sie die Bildlaufleisten eines Arbeitsblatts mit Aspose.Cells für .NET ein- und ausblenden. Dies verbessert nicht nur die Ästhetik Ihrer Excel-Dateien, sondern auch die Benutzererfahrung, insbesondere bei der Präsentation von Daten oder Formularen. 
 
-### Häufig gestellte Fragen (FAQ)
+## Häufig gestellte Fragen
 
-#### Was ist Aspose.Cells für .NET?
+### Kann ich die Bildlaufleisten nach dem Ausblenden wieder anzeigen?  
+ Ja! Sie müssen nur`IsVScrollBarVisible` Und`IsHScrollBarVisible` zurück zu`true`.
 
-Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Bearbeiten von Excel-Dateien in .NET-Anwendungen.
+### Ist die Nutzung von Aspose.Cells kostenlos?  
+ Aspose.Cells ist nicht ganz kostenlos, aber Sie können es für eine begrenzte Zeit kostenlos testen oder den Kauf in Betracht ziehen[eine vorläufige Lizenz](https://purchase.aspose.com/temporary-license/).
 
-#### Wie kann ich Aspose.Cells für .NET installieren?
+### Welche Arten von Excel-Dateien kann ich mit Aspose.Cells bearbeiten?  
+Sie können mit verschiedenen Excel-Formaten arbeiten, darunter .xls, .xlsx, .xlsm, .xlsb usw.
 
- Um Aspose.Cells für .NET zu installieren, müssen Sie das entsprechende Paket von herunterladen[Aspose-Veröffentlichungen](https://releases/aspose.com/cells/net/) und fügen Sie es Ihrem .NET-Projekt hinzu.
+### Wo finde ich weitere Beispiele?  
+ Überprüfen Sie die[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) für zusätzliche Beispiele und Tutorials.
 
-#### Wie kann ich mit Aspose.Cells für .NET Bildlaufleisten in einer Excel-Tabelle anzeigen oder ausblenden?
-
- Du kannst den ... benutzen`IsVScrollBarVisible` Und`IsHScrollBarVisible` Eigenschaften der`Workbook.Settings` Objekt zum Anzeigen bzw. Ausblenden der vertikalen und horizontalen Bildlaufleiste in einem Excel-Arbeitsblatt.
-
-#### Welche anderen Excel-Dateiformate werden von Aspose.Cells für .NET unterstützt?
-
-Aspose.Cells für .NET unterstützt eine Vielzahl von Excel-Dateiformaten wie XLS, XLSX, CSV, HTML, PDF usw.
+### Was ist, wenn bei der Verwendung von Aspose.Cells Probleme auftreten?  
+ Sie können im Aspose-Supportforum Hilfe suchen oder Probleme melden[Hier](https://forum.aspose.com/c/cells/9).

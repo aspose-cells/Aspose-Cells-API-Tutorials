@@ -1,49 +1,89 @@
 ---
-title: Soporte de firma Xades
-linktitle: Soporte de firma Xades
+title: Soporte de firma de Xades
+linktitle: Soporte de firma de Xades
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Aprenda cómo agregar una firma Xades a un archivo de Excel usando Aspose.Cells para .NET.
+description: Aprenda a agregar firmas de Xades a archivos de Excel usando Aspose.Cells para .NET con esta guía paso a paso. Proteja sus documentos.
 type: docs
 weight: 190
 url: /es/net/excel-workbook/xades-signature-support/
 ---
-En este artículo, lo guiaremos paso a paso para explicar el código fuente de C# a continuación, que trata sobre la compatibilidad con la firma Xades utilizando la biblioteca Aspose.Cells para .NET. Descubrirá cómo utilizar esta biblioteca para agregar una firma digital Xades a un archivo de Excel. También le proporcionaremos una descripción general del proceso de firma y su ejecución. Siga los pasos a continuación para obtener resultados concluyentes.
+## Introducción
 
-## Paso 1: definir los directorios de origen y de salida
-Para comenzar, necesitamos definir los directorios de origen y de salida en nuestro código. Estos directorios indican dónde se encuentran los archivos fuente y dónde se guardará el archivo de salida. Aquí está el código correspondiente:
+En el mundo digital actual, proteger los documentos es más crucial que nunca. Ya sea que esté tratando con información comercial confidencial o datos personales, garantizar la integridad y autenticidad de sus archivos es primordial. Una forma de lograrlo es mediante firmas digitales y, específicamente, firmas Xades. Si es un desarrollador .NET que busca implementar la compatibilidad con firmas Xades en sus aplicaciones, ¡está en el lugar correcto! En esta guía, lo guiaremos a través del proceso de agregar firmas Xades a archivos de Excel usando Aspose.Cells para .NET. ¡Así que, vamos a sumergirnos en el tema!
+
+## Prerrequisitos
+
+Antes de comenzar, hay algunas cosas que deberá tener en cuenta:
+
+1.  Aspose.Cells para .NET: Asegúrese de tener instalada la biblioteca Aspose.Cells. Puede descargarla fácilmente desde el sitio web[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
+2. Entorno de desarrollo: un entorno de desarrollo .NET funcional (como Visual Studio) donde puede escribir y ejecutar su código.
+3. Certificado digital: Es necesario disponer de un certificado digital válido (archivo PFX) con su contraseña. Este certificado es imprescindible para crear la firma digital.
+4. Conocimientos básicos de C#: La familiaridad con la programación en C# le ayudará a comprender mejor los ejemplos.
+
+Una vez que haya resuelto estos requisitos previos, ¡estará listo para comenzar a implementar firmas Xades en sus archivos de Excel!
+
+## Importar paquetes
+
+Para trabajar con Aspose.Cells para .NET, debe importar los espacios de nombres necesarios. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
-// Directorio fuente
+using Aspose.Cells.DigitalSignatures;
+using System;
+using System.IO;
+```
+
+Estos espacios de nombres proporcionan acceso a las clases y métodos necesarios para trabajar con archivos de Excel y administrar firmas digitales.
+
+Ahora que tenemos todo configurado, desglosemos el proceso de agregar una firma de Xades a un archivo de Excel en pasos claros y manejables.
+
+## Paso 1: Configurar los directorios de origen y salida
+
+En primer lugar, debemos definir dónde se encuentra nuestro archivo de origen de Excel y dónde queremos guardar el archivo de salida firmado. Este es un paso crucial porque ayuda a organizar los archivos de manera eficiente.
+
+```csharp
+//Directorio de fuentes
 string sourceDir = RunExamples.Get_SourceDirectory();
 // Directorio de salida
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-Asegúrese de adaptar las rutas del directorio según sea necesario.
+ En este fragmento de código,`RunExamples.Get_SourceDirectory()` y`RunExamples.Get_OutputDirectory()` son métodos que devuelven las rutas a los directorios de origen y salida, respectivamente. Asegúrate de reemplazarlos con las rutas reales si no estás usando estos métodos.
 
-## Paso 2: cargar el libro de Excel
-El siguiente paso es cargar el libro de Excel al que queremos agregar la firma digital Xades. Aquí está el código para cargar el libro de trabajo:
+## Paso 2: Cargue el libro de trabajo
+
+A continuación, carguemos el libro de Excel que queremos firmar. Aquí es donde cargarás el archivo de Excel existente.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
 
-Asegúrese de especificar correctamente el nombre del archivo fuente en el código.
+ Aquí, creamos una nueva instancia de la`Workbook` Clase, que pasa la ruta del archivo de origen de Excel. Asegúrese de que el nombre del archivo coincida con el que tiene en el directorio de origen.
 
-## Paso 3: Configurar la firma digital
-Ahora configuraremos la firma digital Xades proporcionando la información necesaria. Debemos especificar el archivo PFX que contiene el certificado digital, así como la contraseña asociada. Aquí está el código correspondiente:
+## Paso 3: Prepare su certificado digital
+
+Para crear una firma digital, debe cargar su certificado digital. Esto implica leer el archivo PFX y proporcionar la contraseña correspondiente.
 
 ```csharp
-string password = "pfxPassword";
-string pfx = "pfxFile";
+string password = "pfxPassword"; // Reemplace con su contraseña PFX
+string pfx = "pfxFile"; // Reemplace con la ruta a su archivo PFX
+```
+
+ En este paso, reemplace`pfxPassword` con tu contraseña actual y`pfxFile`con la ruta a su archivo PFX. ¡Esta es la clave para firmar su documento!
+
+## Paso 4: Crear la firma digital
+
+ Ahora, vamos a crear la firma digital usando el`DigitalSignature` Clase. ¡Aquí es donde ocurre la magia!
+
+```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
 ```
 
-Asegúrese de reemplazar "pfxPassword" con su contraseña real y "pfxFile" con la ruta al archivo PFX.
+ En este fragmento, leemos el archivo PFX en una matriz de bytes y creamos uno nuevo`DigitalSignature` objeto. También configuramos el`XAdESType` a`XAdES`, lo cual es esencial para nuestra firma.
 
-## Paso 4: Agregar la firma digital
-Ahora que hemos configurado la firma digital, podemos agregarla al libro de Excel. Aquí está el código correspondiente:
+## Paso 5: Agregar la firma al libro de trabajo
+
+Con la firma digital creada, el siguiente paso es agregarla al libro de trabajo.
 
 ```csharp
 DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
@@ -51,48 +91,37 @@ dsCollection.Add(signature);
 workbook.SetDigitalSignature(dsCollection);
 ```
 
-Este paso agrega la firma digital Xades al libro de Excel.
+ Aquí creamos un`DigitalSignatureCollection`, le agregamos nuestra firma y luego configuramos esta colección en el libro de trabajo. Así es como adjuntamos la firma al archivo de Excel.
 
-## Paso 5: guardar el libro con la firma
-Finalmente guardamos el libro de Excel con la firma digital agregada. Aquí está el código correspondiente:
+## Paso 6: Guardar el libro de trabajo firmado
+
+Por último, es momento de guardar el libro de trabajo firmado en el directorio de salida. Este paso finaliza el proceso.
 
 ```csharp
-workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
-```
-
-Asegúrese de adaptar el nombre del archivo de salida según sus necesidades.
-
-### Código fuente de muestra para Xades Signature Support usando Aspose.Cells para .NET 
-```csharp
-//Directorio fuente
-string sourceDir = RunExamples.Get_SourceDirectory();
-//Directorio de salida
-string outputDir = RunExamples.Get_OutputDirectory();
-Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
-string password = "pfxPassword";
-string pfx = "pfxFile";
-DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
-signature.XAdESType = XAdESType.XAdES;
-DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
-dsCollection.Add(signature);
-workbook.SetDigitalSignature(dsCollection);
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 
+ En este código, guardamos el libro de trabajo con un nuevo nombre,`XAdESSignatureSupport_out.xlsx`, en el directorio de salida. Verá un mensaje de éxito en la consola una vez que se complete este paso.
+
 ## Conclusión
-¡Enhorabuena! Ha aprendido a utilizar la biblioteca Aspose.Cells para .NET para agregar una firma digital Xades a un archivo de Excel. Si sigue los pasos proporcionados en este artículo, podrá implementar esta funcionalidad en sus propios proyectos. Siéntase libre de experimentar más con la biblioteca y descubrir otras potentes funciones que ofrece.
 
-### Preguntas frecuentes
+¡Y ya está! Ha añadido correctamente una firma de Xades a su archivo de Excel mediante Aspose.Cells para .NET. Este proceso no solo mejora la seguridad de sus documentos, sino que también genera confianza con sus usuarios al garantizar la autenticidad de sus archivos. 
+Las firmas digitales son una parte esencial de la gestión de documentos moderna y, con el poder de Aspose.Cells, puede implementarlas fácilmente en sus aplicaciones.
 
-#### P: ¿Qué es Xades?
+## Preguntas frecuentes
 
-R: Xades es un estándar de firma electrónica avanzado que se utiliza para garantizar la integridad y autenticidad de los documentos digitales.
+### ¿Qué es la firma de Xades?
+Xades (XML Advanced Electronic Signatures) es un estándar para firmas digitales que proporciona características adicionales para garantizar la integridad y autenticidad de los documentos electrónicos.
 
-#### P: ¿Puedo utilizar otros tipos de firmas digitales con Aspose.Cells?
+### ¿Necesito un certificado digital para crear una firma Xades?
+Sí, necesita un certificado digital válido (archivo PFX) para crear una firma Xades.
 
-R: Sí, Aspose.Cells también admite otros tipos de firmas digitales, como firmas XMLDSig y firmas PKCS#7.
+### ¿Puedo probar Aspose.Cells para .NET antes de comprarlo?
+ ¡Por supuesto! Puedes obtener una prueba gratuita desde[Sitio web de Aspose](https://releases.aspose.com/).
 
-#### P: ¿Puedo aplicar una firma a otros tipos de archivos que no sean archivos de Excel?
- 
-R: Sí, Aspose.Cells también permite aplicar firmas digitales a otros tipos de archivos compatibles, como archivos de Word, PDF y PowerPoint.
+### ¿Aspose.Cells es compatible con todas las versiones de .NET?
+Aspose.Cells es compatible con varias versiones del marco .NET. Consulte la[documentación](https://reference.aspose.com/cells/net/) Para obtener detalles de compatibilidad.
+
+### ¿Dónde puedo obtener ayuda si tengo problemas?
+ Puedes visitar el[Foro de Aspose](https://forum.aspose.com/c/cells/9) para apoyo y asistencia de la comunidad.

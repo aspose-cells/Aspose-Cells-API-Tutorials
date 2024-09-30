@@ -10,7 +10,7 @@ url: /hu/java/basic-excel-functions/excel-date-functions-tutorial/
 
 ## Bevezetés az Excel dátumfüggvényeihez
 
-Ebben az átfogó oktatóanyagban megvizsgáljuk az Excel dátumfüggvényeit, és azt, hogy miként lehet kihasználni az Aspose.Cells for Java erejét a dátumhoz kapcsolódó adatokkal való munkavégzéshez. Akár tapasztalt fejlesztő, akár csak most kezdi az Aspose.Cells-t, ez az útmutató segít kiaknázni az Excel dátumfüggvényeiben rejlő lehetőségeket. Szóval, merüljünk bele!
+Ebben az átfogó oktatóanyagban megvizsgáljuk az Excel dátumfüggvényeit, és azt, hogy hogyan lehet kihasználni az Aspose.Cells for Java erejét a dátumhoz kapcsolódó adatokkal való munkavégzésben. Akár tapasztalt fejlesztő, akár csak most kezdi az Aspose.Cells-t, ez az útmutató segít kiaknázni az Excel dátumfüggvényeiben rejlő lehetőségeket. Szóval, merüljünk bele!
 
 ## A dátumfüggvények megértése az Excelben
 
@@ -69,7 +69,7 @@ System.out.println("Calculated Date: " + calculatedDate);
 
 ### Munka a TODAY funkcióval
 
-Most nézzük meg, hogyan lehet lekérni az aktuális dátumot a TODAY függvény használatával az Aspose.Cells for Java segítségével.
+Most nézzük meg, hogyan lehet lekérni az aktuális dátumot a TODAY függvény használatával az Aspose.Cells for Java programban.
 
 ```java
 // Hozzon létre egy új munkafüzetet
@@ -115,7 +115,7 @@ System.out.println("Days Difference: " + daysDifference);
 
 ### A hónap végének megtalálása
 
-Az Aspose.Cells for Java segítségével az EOMONTH függvény segítségével könnyen megtalálhatja a hónap végét egy adott dátumhoz.
+Az Aspose.Cells for Java segítségével az EOMONTH függvény segítségével könnyedén megtalálhatja a hónap végét egy adott dátumhoz.
 
 ```java
 // Hozzon létre egy új munkafüzetet

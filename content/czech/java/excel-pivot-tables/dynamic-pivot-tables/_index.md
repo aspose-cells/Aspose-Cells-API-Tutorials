@@ -16,7 +16,7 @@ Kontingenční tabulky jsou interaktivní tabulky, které umožňují shrnout a 
 
 ## Krok 1: Import knihovny Aspose.Cells
 
- Než budeme moci vytvářet dynamické kontingenční tabulky, musíme do našeho projektu Java importovat knihovnu Aspose.Cells. Knihovnu si můžete stáhnout z vydání Aspose[tady](https://releases.aspose.com/cells/java/).
+ Než budeme moci vytvářet dynamické kontingenční tabulky, musíme do našeho projektu Java importovat knihovnu Aspose.Cells. Knihovnu si můžete stáhnout z vydání Aspose[zde](https://releases.aspose.com/cells/java/).
 
 Jakmile si knihovnu stáhnete, přidejte ji do cesty sestavení vašeho projektu.
 

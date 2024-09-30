@@ -23,7 +23,7 @@ Tyto nadpisy a odstavce poskytují jasný a poutavý úvod do tématu základní
 
 ## Výukové programy základních funkcí Excelu
 ### [Průvodce vzorcem Excel SUM](./excel-sum-formula-guide/)
-Odemkněte sílu vzorce Excel SUM s Aspose.Cells for Java – váš komplexní průvodce automatizací Excelu.
+Odemkněte sílu vzorce Excel SUM s Aspose.Cells pro Java – váš komplexní průvodce automatizací Excelu.
 ### [Jak používat funkci Excel IF](./how-to-use-excel-if-function/)
 Odemkněte funkci Power of Excel IF pomocí Aspose.Cells for Java. Naučte se bezproblémově implementovat podmíněnou logiku.
 ### [Výukový program Excel VLOOKUP](./excel-vlookup-tutorial/)

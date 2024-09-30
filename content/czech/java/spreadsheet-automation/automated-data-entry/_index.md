@@ -23,7 +23,7 @@ Než se ponoříme do technických podrobností, pojďme pochopit, proč je auto
 
 ### 1. Nastavení prostředí
 
- Chcete-li začít, ujistěte se, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+ Chcete-li začít, ujistěte se, že máte nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ### 2. Inicializace Aspose.Cells
 
@@ -102,7 +102,7 @@ Automatizace zadávání dat pomocí Aspose.Cells for Java zjednodušuje procesy
 ### Existují nějaké licenční požadavky pro Aspose.Cells for Java?
    Ano, k používání Aspose.Cells for Java ve svých projektech budete potřebovat platnou licenci.
 
-### Jak mohu zacházet s ověřováním dat v souborech aplikace Excel?
+### Jak mohu zacházet s ověřováním dat v souborech Excel?
    Pravidla ověřování dat můžete implementovat pomocí Aspose.Cells, jak je ukázáno v článku.
 
 ### Kde najdu další zdroje a dokumentaci k Aspose.Cells for Java?

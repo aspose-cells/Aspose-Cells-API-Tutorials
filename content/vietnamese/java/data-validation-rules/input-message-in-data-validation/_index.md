@@ -1,47 +1,47 @@
 ---
-title: Thông báo đầu vào trong xác thực dữ liệu
-linktitle: Thông báo đầu vào trong xác thực dữ liệu
-second_title: API xử lý Java Excel của Aspose.Cells
-description: Tìm hiểu cách nâng cao xác thực dữ liệu trong Excel bằng Aspose.Cells cho Java. Hướng dẫn từng bước với các ví dụ về mã để cải thiện độ chính xác của dữ liệu và hướng dẫn người dùng.
+title: Nhập tin nhắn trong Xác thực dữ liệu
+linktitle: Nhập tin nhắn trong Xác thực dữ liệu
+second_title: API xử lý Excel Java của Aspose.Cells
+description: Tìm hiểu cách nâng cao xác thực dữ liệu trong Excel bằng Aspose.Cells cho Java. Hướng dẫn từng bước với các ví dụ mã để cải thiện độ chính xác của dữ liệu và hướng dẫn người dùng.
 type: docs
 weight: 18
 url: /vi/java/data-validation-rules/input-message-in-data-validation/
 ---
 
-## Giới thiệu về xác thực dữ liệu
+## Giới thiệu về Xác thực dữ liệu
 
-Xác thực dữ liệu là một tính năng trong Excel giúp duy trì độ chính xác và nhất quán của dữ liệu bằng cách hạn chế loại dữ liệu có thể được nhập vào một ô. Nó đảm bảo rằng người dùng nhập thông tin hợp lệ, giảm lỗi và nâng cao chất lượng dữ liệu.
+Xác thực dữ liệu là một tính năng trong Excel giúp duy trì độ chính xác và tính nhất quán của dữ liệu bằng cách hạn chế loại dữ liệu có thể nhập vào một ô. Tính năng này đảm bảo rằng người dùng nhập thông tin hợp lệ, giảm lỗi và nâng cao chất lượng dữ liệu.
 
-## Aspose.Cells cho Java là gì?
+## Aspose.Cells dành cho Java là gì?
 
-Aspose.Cells for Java là API dựa trên Java cho phép các nhà phát triển tạo, thao tác và quản lý bảng tính Excel mà không cần Microsoft Excel. Nó cung cấp nhiều tính năng để làm việc với các tệp Excel theo chương trình, khiến nó trở thành một công cụ có giá trị cho các nhà phát triển Java.
+Aspose.Cells for Java là một API dựa trên Java cho phép các nhà phát triển tạo, thao tác và quản lý bảng tính Excel mà không cần Microsoft Excel. Nó cung cấp nhiều tính năng để làm việc với các tệp Excel theo chương trình, khiến nó trở thành một công cụ có giá trị cho các nhà phát triển Java.
 
 ## Thiết lập môi trường phát triển của bạn
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình. Bạn có thể sử dụng IDE yêu thích của mình, chẳng hạn như Eclipse hoặc IntelliJ IDEA, để tạo một dự án Java mới.
+Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình. Bạn có thể sử dụng IDE yêu thích của mình, chẳng hạn như Eclipse hoặc IntelliJ IDEA, để tạo một dự án Java mới.
 
 ## Tạo một dự án Java mới
 
-Bắt đầu bằng cách tạo một dự án Java mới trong IDE bạn đã chọn. Đặt cho nó một cái tên có ý nghĩa, chẳng hạn như "DataValidationDemo".
+Bắt đầu bằng cách tạo một dự án Java mới trong IDE bạn chọn. Đặt cho nó một cái tên có ý nghĩa, chẳng hạn như "DataValidationDemo."
 
 ## Thêm Aspose.Cells cho Java vào dự án của bạn
 
-Để sử dụng Aspose.Cells cho Java trong dự án của bạn, bạn cần thêm thư viện Aspose.Cells. Bạn có thể tải xuống thư viện từ trang web và thêm nó vào đường dẫn lớp của dự án.
+Để sử dụng Aspose.Cells for Java trong dự án của bạn, bạn cần thêm thư viện Aspose.Cells. Bạn có thể tải xuống thư viện từ trang web và thêm vào classpath của dự án.
 
-## Thêm xác thực dữ liệu vào bảng tính
+## Thêm Xác thực Dữ liệu vào Bảng tính
 
-Bây giờ bạn đã thiết lập xong dự án của mình, hãy bắt đầu thêm xác thực dữ liệu vào một trang tính. Đầu tiên, tạo một sổ làm việc Excel mới và một trang tính.
+Bây giờ bạn đã thiết lập xong dự án, hãy bắt đầu thêm xác thực dữ liệu vào bảng tính. Trước tiên, hãy tạo một sổ làm việc Excel mới và một bảng tính.
 
 ```java
-// Tạo một sổ làm việc mới
+// Tạo một bảng tính mới
 Workbook workbook = new Workbook();
-// Truy cập bảng tính đầu tiên
+// Truy cập vào bảng tính đầu tiên
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Xác định tiêu chí xác nhận
+## Xác định tiêu chí xác thực
 
-Bạn có thể xác định tiêu chí xác thực để hạn chế loại dữ liệu có thể được nhập vào ô. Ví dụ: bạn chỉ có thể cho phép các số nguyên từ 1 đến 100.
+Bạn có thể xác định tiêu chí xác thực để hạn chế loại dữ liệu có thể nhập vào ô. Ví dụ: bạn chỉ có thể cho phép các số nguyên từ 1 đến 100.
 
 ```java
 // Xác định tiêu chí xác thực dữ liệu
@@ -52,29 +52,29 @@ validation.setFormula1("1");
 validation.setFormula2("100");
 ```
 
-## Thông báo đầu vào để xác thực dữ liệu
+## Tin nhắn đầu vào để xác thực dữ liệu
 
-Thông báo đầu vào cung cấp hướng dẫn cho người dùng về loại dữ liệu họ nên nhập. Bạn có thể thêm thông báo đầu vào vào quy tắc xác thực dữ liệu của mình bằng Aspose.Cells for Java.
+Tin nhắn đầu vào cung cấp hướng dẫn cho người dùng về loại dữ liệu họ nên nhập. Bạn có thể thêm tin nhắn đầu vào vào quy tắc xác thực dữ liệu của mình bằng Aspose.Cells for Java.
 
 ```java
 // Đặt thông báo đầu vào để xác thực dữ liệu
 validation.setInputMessage("Please enter a number between 1 and 100.");
 ```
 
-## Cảnh báo lỗi khi xác thực dữ liệu
+## Cảnh báo lỗi cho xác thực dữ liệu
 
-Ngoài thông báo đầu vào, bạn có thể thiết lập cảnh báo lỗi để thông báo cho người dùng khi họ nhập dữ liệu không hợp lệ.
+Ngoài thông báo nhập liệu, bạn có thể thiết lập cảnh báo lỗi để thông báo cho người dùng khi họ nhập dữ liệu không hợp lệ.
 
 ```java
-// Đặt cảnh báo lỗi để xác thực dữ liệu
+// Đặt cảnh báo lỗi cho việc xác thực dữ liệu
 validation.setShowError(true);
 validation.setErrorTitle("Invalid Data");
 validation.setErrorMessage("Please enter a valid number between 1 and 100.");
 ```
 
-## Áp dụng xác thực dữ liệu cho các ô
+## Áp dụng Xác thực Dữ liệu cho Ô
 
-Bây giờ bạn đã xác định các quy tắc xác thực dữ liệu của mình, bạn có thể áp dụng chúng cho các ô cụ thể trong trang tính của mình.
+Bây giờ bạn đã xác định các quy tắc xác thực dữ liệu, bạn có thể áp dụng chúng vào các ô cụ thể trong bảng tính của mình.
 
 ```java
 // Áp dụng xác thực dữ liệu cho một phạm vi ô
@@ -88,16 +88,16 @@ validation.addArea(area);
 
 ## Làm việc với các kiểu dữ liệu khác nhau
 
-Aspose.Cells for Java cho phép bạn làm việc với nhiều loại dữ liệu khác nhau để xác thực dữ liệu, bao gồm số nguyên, số thập phân, ngày tháng và văn bản.
+Aspose.Cells for Java cho phép bạn làm việc với nhiều kiểu dữ liệu khác nhau để xác thực dữ liệu, bao gồm số nguyên, số thập phân, ngày tháng và văn bản.
 
 ```java
 // Đặt loại xác thực dữ liệu thành thập phân
 validation.setType(DataValidationType.DECIMAL);
 ```
 
-## Tùy chỉnh thông báo xác thực dữ liệu
+## Tùy chỉnh tin nhắn xác thực dữ liệu
 
-Bạn có thể tùy chỉnh thông báo đầu vào và cảnh báo lỗi để cung cấp hướng dẫn và hướng dẫn cụ thể cho người dùng.
+Bạn có thể tùy chỉnh thông báo nhập và cảnh báo lỗi để cung cấp hướng dẫn cụ thể cho người dùng.
 
 ```java
 // Tùy chỉnh thông báo đầu vào và thông báo lỗi
@@ -116,15 +116,15 @@ validation.setType(DataValidationType.DATE);
 
 ## Kỹ thuật xác thực dữ liệu nâng cao
 
-Aspose.Cells for Java cung cấp các kỹ thuật nâng cao để xác thực dữ liệu, chẳng hạn như các công thức tùy chỉnh và xác thực xếp tầng.
+Aspose.Cells for Java cung cấp các kỹ thuật tiên tiến để xác thực dữ liệu, chẳng hạn như công thức tùy chỉnh và xác thực theo tầng.
 
 ## Phần kết luận
 
-Trong bài viết này, chúng ta đã khám phá cách thêm thông báo đầu vào vào quy tắc xác thực dữ liệu bằng Aspose.Cells cho Java. Xác thực dữ liệu là một khía cạnh quan trọng trong việc duy trì độ chính xác của dữ liệu trong Excel và Aspose.Cells giúp bạn dễ dàng triển khai và tùy chỉnh các quy tắc này trong ứng dụng Java của mình. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể nâng cao khả năng sử dụng và chất lượng dữ liệu của sổ làm việc Excel của mình.
+Trong bài viết này, chúng tôi đã khám phá cách thêm thông báo đầu vào vào các quy tắc xác thực dữ liệu bằng Aspose.Cells for Java. Xác thực dữ liệu là một khía cạnh quan trọng để duy trì độ chính xác của dữ liệu trong Excel và Aspose.Cells giúp bạn dễ dàng triển khai và tùy chỉnh các quy tắc này trong các ứng dụng Java của mình. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể nâng cao khả năng sử dụng và chất lượng dữ liệu của sổ làm việc Excel.
 
 ## Câu hỏi thường gặp
 
-### Làm cách nào để thêm xác thực dữ liệu vào nhiều ô cùng một lúc?
+### Làm thế nào để thêm xác thực dữ liệu vào nhiều ô cùng một lúc?
 
  Để thêm xác thực dữ liệu vào nhiều ô, bạn có thể xác định một phạm vi ô và áp dụng các quy tắc xác thực cho phạm vi đó. Aspose.Cells for Java cho phép bạn chỉ định một phạm vi ô bằng cách sử dụng`CellArea` lớp học.
 
@@ -132,14 +132,14 @@ Trong bài viết này, chúng ta đã khám phá cách thêm thông báo đầu
 
 Có, bạn có thể sử dụng các công thức tùy chỉnh để xác thực dữ liệu trong Aspose.Cells for Java. Điều này cho phép bạn tạo các quy tắc xác thực phức tạp dựa trên các yêu cầu cụ thể của bạn.
 
-### Làm cách nào để xóa xác thực dữ liệu khỏi một ô?
+### Làm thế nào để xóa xác thực dữ liệu khỏi một ô?
 
  Để xóa xác thực dữ liệu khỏi một ô, bạn chỉ cần gọi`removeDataValidation`phương pháp trên ô. Thao tác này sẽ xóa mọi quy tắc xác thực hiện có cho ô đó.
 
-### Tôi có thể đặt các thông báo lỗi khác nhau cho các quy tắc xác thực khác nhau không?
+### Tôi có thể thiết lập các thông báo lỗi khác nhau cho các quy tắc xác thực khác nhau không?
 
-Có, bạn có thể đặt các thông báo lỗi khác nhau cho các quy tắc xác thực khác nhau trong Aspose.Cells for Java. Mỗi quy tắc xác thực dữ liệu có thuộc tính thông báo đầu vào và thông báo lỗi riêng mà bạn có thể tùy chỉnh.
+Có, bạn có thể thiết lập các thông báo lỗi khác nhau cho các quy tắc xác thực khác nhau trong Aspose.Cells for Java. Mỗi quy tắc xác thực dữ liệu có thông báo đầu vào và thuộc tính thông báo lỗi riêng mà bạn có thể tùy chỉnh.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells cho Java ở đâu?
 
- Để biết thêm thông tin về Aspose.Cells cho Java và các tính năng của nó, bạn có thể truy cập tài liệu tại[đây](https://reference.aspose.com/cells/java/).
+ Để biết thêm thông tin về Aspose.Cells for Java và các tính năng của nó, bạn có thể truy cập tài liệu tại[đây](https://reference.aspose.com/cells/java/).

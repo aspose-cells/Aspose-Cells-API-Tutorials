@@ -1,87 +1,120 @@
 ---
-title: Chroń hasłem lub nie chroń udostępnionego skoroszytu
-linktitle: Chroń hasłem lub nie chroń udostępnionego skoroszytu
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Dowiedz się, jak zabezpieczyć hasłem lub wyłączyć ochronę udostępnionego skoroszytu za pomocą Aspose.Cells dla .NET.
+title: Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem
+linktitle: Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem
+second_title: Aspose.Cells dla .NET API Reference
+description: Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń.
 type: docs
 weight: 120
 url: /pl/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
 ---
-Ochrona udostępnionego skoroszytu hasłem jest ważna dla zapewnienia prywatności danych. Dzięki Aspose.Cells dla .NET możesz łatwo chronić lub usuwać ochronę udostępnionego skoroszytu za pomocą haseł. Wykonaj poniższe kroki, aby uzyskać pożądane rezultaty:
+## Wstęp
 
-## Krok 1: Określ katalog wyjściowy
+W dzisiejszym cyfrowym miejscu pracy udostępnianie dokumentów jest powszechnym scenariuszem, który wymaga starannego rozważenia kwestii bezpieczeństwa. Podczas pracy z plikami programu Excel, zwłaszcza współdzielonymi skoroszytami, ochrona poufnych informacji staje się najważniejsza. W tym przewodniku przeprowadzę Cię przez kroki zabezpieczania hasłem i usuwania ochrony współdzielonego skoroszytu za pomocą Aspose.Cells dla .NET. Pod koniec będziesz czuć się pewnie, zarządzając bezpieczeństwem programu Excel jak profesjonalista!
 
-Najpierw musisz określić katalog wyjściowy, w którym zostanie zapisany chroniony plik Excel. Oto jak to zrobić za pomocą Aspose.Cells:
+## Wymagania wstępne
+
+Zanim zagłębimy się w kod, upewnij się, że masz przygotowane następujące elementy:
+
+- Podstawowa znajomość języka C#: Nie musisz być ekspertem od kodowania, ale powinieneś dobrze znać składnię i pojęcia języka C#.
+-  Aspose.Cells dla .NET: Upewnij się, że biblioteka jest zainstalowana w Twoim projekcie. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+- .NET SDK: Upewnij się, że masz zainstalowany .NET SDK do uruchomienia aplikacji.
+- Visual Studio lub dowolne środowisko IDE: Skonfiguruj preferowane środowisko kodowania, aby pisać i wykonywać kod.
+
+## Importuj pakiety
+
+Aby zacząć, musisz zaimportować niezbędne pakiety. W swoim projekcie C# uwzględnij bibliotekę Aspose.Cells. Oto, jak możesz to zrobić:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Mając odpowiedni pakiet, możemy płynnie przechodzić przez proces tworzenia, zabezpieczania i usuwania zabezpieczenia udostępnianego skoroszytu. 
+
+## Krok 1: Skonfiguruj katalog wyjściowy
+
+Pierwszą rzeczą, którą musisz zrobić, jest zdefiniowanie miejsca, w którym zostanie zapisany plik wyjściowy. To jak skonfigurowanie folderu przed utworzeniem grafiki. Oto jak to zrobić:
 
 ```csharp
 // Katalog wyjściowy
 string outputDir = RunExamples.Get_OutputDirectory();
 ```
 
-## Krok 2: Utwórz pusty plik Excel
+Ta linia kodu pobiera ścieżkę katalogu, w którym zostanie zapisany wygenerowany plik. Upewnij się, że ten katalog istnieje; w przeciwnym razie możesz później napotkać błąd file-not-found.
 
-Następnie możesz utworzyć pusty plik Excel, na którym chcesz zastosować ochronę lub brak ochrony. Oto przykładowy kod:
+## Krok 2: Utwórz nowy skoroszyt
+
+Następnie utworzymy wystąpienie nowego skoroszytu programu Excel. Pomyśl o tym jak o rozłożeniu pustego płótna, aby rozpocząć swoje arcydzieło.
 
 ```csharp
-// Utwórz pusty skoroszyt programu Excel
+// Utwórz pusty plik Excel
 Workbook wb = new Workbook();
 ```
 
-## Krok 3: Chroń lub wyłącz ochronę udostępnionego skoroszytu
+Ten wiersz inicjuje nowy obiekt skoroszytu o nazwie`wb`. Teraz jesteśmy gotowi do pracy na tym świeżym płótnie.
 
-Po utworzeniu skoroszytu możesz chronić lub wyłączyć ochronę udostępnionego skoroszytu, podając odpowiednie hasło. Oto jak:
+## Krok 3: Zabezpiecz udostępniony skoroszyt hasłem
+
+Teraz nadchodzi interesująca część – ochrona naszego skoroszytu. Stosując hasło, zapewniasz, że tylko osoby z odpowiednimi uprawnieniami mogą wprowadzać zmiany. Oto, jak to zrobić:
 
 ```csharp
-// Chroń udostępniony skoroszyt hasłem
+// Zabezpiecz udostępniony skoroszyt hasłem
 wb.ProtectSharedWorkbook("1234");
+```
 
-// Odkomentuj tę linię, aby wyłączyć ochronę udostępnionego skoroszytu
+W tym przypadku „1234” to nasze hasło. Możesz je zmienić na dowolne inne. To polecenie blokuje skoroszyt, uniemożliwiając nieautoryzowane edycje.
+
+## Krok 4: (Opcjonalnie) Usuń ochronę skoroszytu
+
+Jeśli zmienisz zdanie lub będziesz musiał edytować skoroszyt później, możesz go łatwo odblokować, usuwając komentarz z poniższej linii. To tak, jakbyś miał klucz do swojego sejfu:
+
+```csharp
+// Odkomentuj tę linię, aby usunąć ochronę udostępnionego skoroszytu
 // wb.UnprotectSharedWorkbook("1234");
 ```
 
-## Krok 4: Zapisz wyjściowy plik Excel
+Gdy będziesz chciał ponownie wprowadzić zmiany, po prostu wywołaj tę metodę, podając prawidłowe hasło.
 
-Po zastosowaniu ochrony lub braku ochrony możesz zapisać chroniony plik Excel w określonym katalogu wyjściowym. Oto jak to zrobić:
+## Krok 5: Zapisz plik wyjściowy Excela
+
+Ostatnim szlifem jest zapisanie skoroszytu. To tutaj Twoja ciężka praca jest przechowywana do wykorzystania w przyszłości — podobnie jak zapisywanie dokumentu na komputerze.
 
 ```csharp
-// Zapisz wyjściowy plik Excel
+// Zapisz plik wyjściowy Excela
 wb.Save(outputDir + "outputProtectSharedWorkbook.xlsx");
+```
+
+Ten wiersz zapisuje chroniony skoroszyt w wyznaczonym katalogu wyjściowym pod nazwą „outputProtectSharedWorkbook.xlsx”. 
+
+## Krok 6: Sprawdź wykonanie
+
+Po zapisaniu skoroszytu, dobrą praktyką jest sprawdzenie, czy wszystko poszło dobrze. Oto prosty komunikat potwierdzający:
+
+```csharp
 Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfully.\r\n");
 ```
 
-### Przykładowy kod źródłowy dla ochrony hasłem lub niechronienia udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET 
-```csharp
-//Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
-//Utwórz pusty plik Excel
-Workbook wb = new Workbook();
-//Chroń udostępniony skoroszyt hasłem
-wb.ProtectSharedWorkbook("1234");
-//Odkomentuj ten wiersz, aby wyłączyć ochronę udostępnionego skoroszytu
-//wb.UnprotectSharedWorkbook("1234");
-//Zapisz wyjściowy plik Excel
-wb.Save(outputDir + "outputProtectSharedWorkbook.xlsx");
-Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfully.\r\n");
-```
+Dzięki temu będziesz mieć pewność, że kod został wykonany zgodnie z oczekiwaniami, a plik Excel jest gotowy!
 
 ## Wniosek
 
-Ochrona lub dezaktywacja udostępnionego skoroszytu hasłem jest niezbędna do zapewnienia bezpieczeństwa danych. Dzięki Aspose.Cells dla .NET możesz łatwo dodać tę funkcjonalność do swoich plików Excel. Wykonując czynności opisane w tym przewodniku, możesz skutecznie chronić lub wyłączać ochronę udostępnionych skoroszytów za pomocą haseł. Eksperymentuj z własnymi plikami Excel i pamiętaj o bezpieczeństwie swoich wrażliwych danych.
+W tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, a jednocześnie umożliwić współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
 
-### Często zadawane pytania
+## Najczęściej zadawane pytania
 
-#### P: Jakie rodzaje ochrony mogę zastosować do skoroszytu udostępnionego Aspose.Cells?
-    
-Odp.: Dzięki Aspose.Cells możesz chronić udostępniony skoroszyt, określając hasło, aby zapobiec nieautoryzowanemu dostępowi, modyfikacji lub usunięciu danych.
+### Czy mogę używać bardziej złożonych haseł?
+Oczywiście! Możesz użyć dowolnego ciągu, który spełnia wymagania Twojej polityki haseł.
 
-#### P: Czy mogę chronić udostępniony skoroszyt bez podawania hasła?
-    
-Odp.: tak, możesz chronić udostępniony skoroszyt bez podawania hasła. Dla większego bezpieczeństwa zaleca się jednak użycie silnego hasła.
+### Co się stanie jeśli zapomnę hasła?
+Niestety, jeśli zapomnisz hasła, nie będziesz mógł odblokować skoroszytu bez uciekania się do narzędzi innych firm lub ekspertów.
 
-#### P: Jak mogę wyłączyć ochronę skoroszytu udostępnionego Aspose.Cells?
-    
-Odp.: Aby wyłączyć ochronę udostępnionego skoroszytu, musisz podać to samo hasło, które zostało użyte podczas ochrony skoroszytu. Umożliwia to usunięcie zabezpieczeń i swobodny dostęp do danych.
+### Czy korzystanie z Aspose.Cells jest bezpłatne?
+ Aspose.Cells to produkt komercyjny, ale możesz wypróbować go bezpłatnie przez ograniczony czas w ramach bezpłatnej wersji próbnej:[Bezpłatna wersja próbna](https://releases.aspose.com/).
 
-#### P: Czy ochrona udostępnionego skoroszytu wpływa na funkcje i formuły w skoroszycie?
-    
-Odp.: gdy chronisz udostępniony skoroszyt, użytkownicy nadal mają dostęp do funkcji i formuł znajdujących się w skoroszycie. Ochrona wpływa tylko na zmiany strukturalne w skoroszycie.
+### Czy istnieje sposób na wykorzystanie tego w innych językach programowania?
+Aspose.Cells obsługuje głównie .NET, ale mają też biblioteki dla Javy i innych języków. Sprawdź ich stronę, aby uzyskać więcej informacji!
+
+### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
+ Możesz uzyskać pomoc poprzez forum wsparcia:[Wsparcie Aspose](https://forum.aspose.com/c/cells/9).

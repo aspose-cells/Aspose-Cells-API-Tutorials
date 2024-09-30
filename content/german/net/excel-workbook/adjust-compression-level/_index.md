@@ -2,134 +2,150 @@
 title: Komprimierungsstufe anpassen
 linktitle: Komprimierungsstufe anpassen
 second_title: Aspose.Cells für .NET API-Referenz
-description: Reduzieren Sie die Größe Ihrer Excel-Arbeitsmappen, indem Sie die Komprimierungsstufe mit Aspose.Cells für .NET anpassen.
+description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Komprimierungsstufen für Excel-Dateien anpassen. Optimieren Sie Ihre Dateigrößen effizient mit dieser Schritt-für-Schritt-Anleitung.
 type: docs
 weight: 50
 url: /de/net/excel-workbook/adjust-compression-level/
 ---
-In diesem Schritt-für-Schritt-Tutorial erklären wir den bereitgestellten C#-Quellcode, mit dem Sie die Komprimierungsstufe mithilfe von Aspose.Cells für .NET anpassen können. Führen Sie die folgenden Schritte aus, um die Komprimierungsstufe in Ihrer Excel-Arbeitsmappe anzupassen.
+## Einführung
 
-## Schritt 1: Quell- und Ausgabeverzeichnis festlegen
+Beim Umgang mit großen Excel-Dateien ist eine effiziente Speicherung entscheidend. Egal, ob Sie Entwickler sind und die Dateigröße optimieren möchten, oder Datenanalyst, der Dateiübertragungen beschleunigen möchte: Wenn Sie wissen, wie Sie die Komprimierungsstufen in Aspose.Cells für .NET anpassen, kann das von entscheidender Bedeutung sein. In dieser Anleitung führen wir Sie durch die Schritte zum Anpassen der Komprimierungsstufen beim Speichern von Excel-Dateien und stellen so sicher, dass Sie die Leistung beibehalten, ohne die Qualität zu beeinträchtigen.
 
-```csharp
-// Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
-// Ausgabe Verzeichnis
-string outDir = RunExamples.Get_OutputDirectory();
-```
+## Voraussetzungen
 
-In diesem ersten Schritt definieren wir die Quell- und Ausgabeverzeichnisse für die Excel-Dateien.
+Bevor wir uns mit den Einzelheiten der Komprimierungsstufen befassen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg benötigen:
 
-## Schritt 2: Excel-Arbeitsmappe laden
+1. Grundkenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind unerlässlich. Wenn Sie mit Variablen, Schleifen und grundlegenden Dateioperationen vertraut sind, können Sie loslegen!
+2. Aspose.Cells für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können sie von der[Webseite](https://releases.aspose.com/cells/net/) Wenn Sie gerade erst anfangen, sollten Sie eine kostenlose Testversion in Betracht ziehen[Hier](https://releases.aspose.com/).
+3. Entwicklungsumgebung: Richten Sie Ihre Entwicklungsumgebung, idealerweise Visual Studio, ein, um Ihren C#-Code zu schreiben und auszuführen. 
+4. Beispiel-Excel-Datei: Halten Sie eine große Excel-Datei zum Testen bereit. Sie können eine neue Datei erstellen oder eine vorhandene Datei verwenden. Stellen Sie jedoch sicher, dass sie groß genug ist, um die Auswirkungen der Komprimierung zu sehen.
 
-```csharp
-// Laden Sie die Excel-Arbeitsmappe
-Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
-```
+Nachdem diese Voraussetzungen erfüllt sind, können wir loslegen!
 
-Wir laden die Excel-Arbeitsmappe aus der angegebenen Datei mit`Workbook` Klasse von Aspose.Cells.
+## Pakete importieren
 
-## Schritt 3: Sicherungsoptionen festlegen
+Bevor wir Excel-Dateien bearbeiten können, müssen wir die erforderlichen Namespaces importieren. Dies ist ein entscheidender Schritt, der uns den Zugriff auf die von Aspose.Cells bereitgestellten Klassen und Methoden ermöglicht.
+
+### Importieren Sie den Aspose.Cells-Namespace
 
 ```csharp
-// Definieren Sie Backup-Optionen
-XlsbSaveOptions options = new XlsbSaveOptions();
+using Aspose.Cells.Rendering;
+using Aspose.Cells.WebExtensions;
+using System;
 ```
 
- Wir erstellen eine Instanz davon`XlsbSaveOptions` Klasse zum Festlegen von Speicheroptionen.
+ Dieser Codeausschnitt importiert die`Aspose.Cells` Namespace, der alle Klassen enthält, die für die Arbeit mit Excel-Dateien erforderlich sind. Der`Aspose.Cells.Xlsb` Der Namespace ist speziell für die Handhabung von XLSB-Dateiformaten gedacht.
 
-## Schritt 4: Komprimierungsstufe anpassen (Stufe 1)
+Nachdem wir nun alles eingerichtet haben, unterteilen wir den Vorgang zum Anpassen der Komprimierungsstufen in überschaubare Schritte. Wir speichern eine Arbeitsmappe mit verschiedenen Komprimierungsstufen und messen die für jeden Vorgang benötigte Zeit. 
 
-```csharp
-// Komprimierungsstufe anpassen (Stufe 1)
-options.CompressionType = OoxmlCompressionType.Level1;
-var watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
-watch.Stop();
-let elapsedMs = watch.ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 1): " + elapsedMs);
-```
+## Schritt 1: Richten Sie Ihre Verzeichnisse ein
 
- Wir passen die Komprimierungsstufe durch Einstellung an`CompressionType` Zu`Level1`. Dann speichern wir die Excel-Arbeitsmappe mit dieser angegebenen Komprimierungsoption.
+Als Erstes müssen wir definieren, wo unsere Dateien gespeichert werden. Dazu müssen wir das Quellverzeichnis für unsere Eingabedatei und das Ausgabeverzeichnis für unsere komprimierten Dateien angeben.
 
-## Schritt 5: Komprimierungsstufe anpassen (Stufe 6)
-
-```csharp
-// Komprimierungsstufe anpassen (Stufe 6)
-options.CompressionType = OoxmlCompressionType.Level6;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 6): " + elapsedMs);
-```
-
- Wir wiederholen den Vorgang, um die Komprimierungsstufe anzupassen`Level6` und speichern Sie die Excel-Arbeitsmappe mit dieser Option.
-
-## Schritt 6: Komprimierungsstufe anpassen (Stufe 9)
-
-```csharp
-// Komprimierungsstufe anpassen (Stufe 9)
-options.CompressionType = OoxmlCompressionType.Level9;
-watch = System.Diagnostics.Stopwatch.StartNew();
-workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
-watch.Stop();
-elapsedMs = watch. ElapsedMilliseconds;
-Console.WriteLine("Elapsed time (Level 9): " + elapsedMs);
-```
-
- Wir wiederholen den Vorgang ein letztes Mal, um die Komprimierungsstufe anzupassen`Level9` und speichern Sie die Excel-Arbeitsmappe mit dieser Option.
-
-### Beispielquellcode für „Komprimierungsstufe anpassen“ mit Aspose.Cells für .NET 
 ```csharp
 //Quellverzeichnis
 string sourceDir = RunExamples.Get_SourceDirectory();
 string outDir = RunExamples.Get_OutputDirectory();
+```
+
+ Hier,`RunExamples.Get_SourceDirectory()` Und`RunExamples.Get_OutputDirectory()` sind Methoden, die die Pfade zu Ihren Quell- und Ausgabeverzeichnissen zurückgeben. 
+
+## Schritt 2: Laden Sie die Arbeitsmappe
+
+Als Nächstes laden wir die Excel-Arbeitsmappe, die wir komprimieren möchten. Hier verweisen Sie auf Ihre große Excel-Datei.
+
+```csharp
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
+```
+
+ Diese Zeile initialisiert eine neue`Workbook` Objekt mit der angegebenen Datei. Stellen Sie sicher, dass der Dateipfad korrekt ist. Andernfalls treten Fehler auf.
+
+## Schritt 3: Speicheroptionen für XLSB erstellen
+
+ Jetzt erstellen wir eine Instanz von`XlsbSaveOptions`, wodurch wir angeben können, wie wir unsere Arbeitsmappe speichern möchten, einschließlich der Komprimierungsstufe.
+
+```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
+```
+
+Diese Zeile bereitet die Optionen vor, die wir zum Speichern unserer Arbeitsmappe im XLSB-Format verwenden.
+
+## Schritt 4: Komprimierungsstufen festlegen und messen
+
+Jetzt kommt der spaßige Teil! Wir speichern die Arbeitsmappe mit unterschiedlichen Komprimierungsstufen und messen die für jeden Vorgang benötigte Zeit. 
+
+### Komprimierung der Stufe 1
+
+Beginnen wir mit der niedrigsten Komprimierungsstufe:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level1;
 var watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_1_out.xlsb", options);
 watch.Stop();
 var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+In diesem Snippet setzen wir den Komprimierungstyp auf Stufe 1, speichern die Arbeitsmappe und protokollieren die benötigte Zeit. 
+
+### Komprimierung der Stufe 6
+
+Als nächstes versuchen wir es mit einer Komprimierungsstufe im mittleren Bereich:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_6_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
-watch = System.Diagnostics.Stopwatch.StartNew();
+```
+
+Diesmal stellen wir den Komprimierungstyp auf Stufe 6 und wiederholen den Speichervorgang.
+
+### Komprimierung der Stufe 9
+
+Zum Schluss speichern wir mit der höchsten Komprimierungsstufe:
+
+```csharp
 options.CompressionType = OoxmlCompressionType.Level9;
+watch = System.Diagnostics.Stopwatch.StartNew();
 workbook.Save(outDir + "LargeSampleFile_level_9_out.xlsb", options);
 watch.Stop();
 elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
+```
+
+In diesem Schritt stellen wir den Komprimierungstyp auf Stufe 9 ein. Dies sollte die kleinste Dateigröße ergeben, das Speichern kann jedoch länger dauern.
+
+## Schritt 5: Endgültige Ausgabe
+
+Nachdem Sie alle oben genannten Schritte ausgeführt haben, wird die verstrichene Zeit für jede Komprimierungsstufe auf der Konsole angezeigt. 
+
+```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
+Diese Zeile bestätigt, dass der gesamte Vorgang ohne Probleme abgeschlossen wurde.
+
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben gelernt, wie Sie die Komprimierungsstufe in einer Excel-Arbeitsmappe mithilfe von Aspose.Cells für .NET anpassen. Experimentieren Sie mit verschiedenen Komprimierungsstufen, um diejenige zu finden, die Ihren Anforderungen am besten entspricht.
+Das Anpassen der Komprimierungsstufen beim Speichern von Excel-Dateien mit Aspose.Cells für .NET ist eine einfache, aber leistungsstarke Technik. Indem Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie die Dateigröße problemlos ändern und sie so für die Speicherung und Übertragung besser handhabbar machen. Ganz gleich, ob Sie schnellen Zugriff auf Daten benötigen oder die Leistung Ihrer Anwendung optimieren möchten – die Beherrschung dieser Techniken wird Ihre Fähigkeiten als Entwickler zweifellos verbessern.
 
-### FAQs
+## Häufig gestellte Fragen
 
-#### F: Was ist Komprimierung in einer Excel-Arbeitsmappe?
+### Was ist Aspose.Cells?
+Aspose.Cells ist eine .NET-Bibliothek, mit der Entwickler Excel-Dateien programmgesteuert erstellen, bearbeiten und konvertieren können.
 
-A: Bei der Komprimierung in einer Excel-Arbeitsmappe wird die Dateigröße mithilfe von Komprimierungsalgorithmen reduziert. Dadurch wird der benötigte Speicherplatz reduziert und die Leistung beim Laden und Bearbeiten der Datei verbessert.
+### Wie lade ich Aspose.Cells herunter?
+ Sie können die Aspose.Cells-Bibliothek herunterladen von der[Webseite](https://releases.aspose.com/cells/net/).
 
-#### F: Welche Komprimierungsstufen sind mit Aspose.Cells verfügbar?
+### Kann ich Aspose.Cells kostenlos nutzen?
+ Ja, Aspose bietet eine kostenlose Testversion an, auf die Sie zugreifen können[Hier](https://releases.aspose.com/).
 
-A: Mit Aspose.Cells können Sie die Komprimierungsstufe von 1 bis 9 anpassen. Je höher die Komprimierungsstufe, desto kleiner wird die Dateigröße, aber es kann auch die Verarbeitungszeit verlängern.
+### Welche unterschiedlichen Komprimierungsstufen sind verfügbar?
+Aspose.Cells unterstützt mehrere Komprimierungsstufen von Stufe 1 (geringste Komprimierung) bis Stufe 9 (maximale Komprimierung).
 
-#### F: Wie wähle ich die richtige Komprimierungsstufe für meine Excel-Arbeitsmappe aus?
-
-A: Die Wahl der Komprimierungsstufe hängt von Ihren spezifischen Anforderungen ab. Wenn Sie eine maximale Komprimierung wünschen und die Verarbeitungszeit kein Problem darstellt, können Sie sich für Stufe 9 entscheiden. Wenn Sie einen Kompromiss zwischen Dateigröße und Verarbeitungszeit bevorzugen, können Sie eine mittlere Stufe wählen.
-
-#### F: Beeinträchtigt die Komprimierung die Datenqualität in Excel-Arbeitsmappen?
-
-A: Nein, die Komprimierung hat keinen Einfluss auf die Datenqualität in der Excel-Arbeitsmappe. Es reduziert lediglich die Dateigröße mithilfe von Komprimierungstechniken, ohne die Daten selbst zu verändern.
-
-#### F: Kann ich die Komprimierungsstufe nach dem Speichern der Excel-Datei anpassen?
-
-A: Nein, sobald Sie die Excel-Datei mit einer bestimmten Komprimierungsstufe gespeichert haben, können Sie die Komprimierungsstufe später nicht mehr anpassen. Sie müssen die Datei erneut mit der neuen Komprimierungsstufe speichern, wenn Sie sie ändern möchten.
+### Wo finde ich Unterstützung für Aspose.Cells?
+ Sie erhalten Unterstützung und können Fragen stellen auf der[Aspose-Forum](https://forum.aspose.com/c/cells/9).

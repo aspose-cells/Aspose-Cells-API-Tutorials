@@ -1,132 +1,152 @@
 ---
-title: Fügen Sie einer bereits signierten Excel-Datei eine digitale Signatur hinzu
-linktitle: Fügen Sie einer bereits signierten Excel-Datei eine digitale Signatur hinzu
+title: Einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen
+linktitle: Einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen
 second_title: Aspose.Cells für .NET API-Referenz
-description: Fügen Sie mit Aspose.Cells für .NET ganz einfach digitale Signaturen zu vorhandenen Excel-Dateien hinzu.
+description: Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen.
 type: docs
 weight: 30
 url: /de/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
 ---
-In dieser Schritt-für-Schritt-Anleitung erklären wir den bereitgestellten C#-Quellcode, der es Ihnen ermöglicht, mit Aspose.Cells für .NET eine digitale Signatur zu einer bereits signierten Excel-Datei hinzuzufügen. Führen Sie die folgenden Schritte aus, um einer vorhandenen Excel-Datei eine neue digitale Signatur hinzuzufügen.
+## Einführung
 
-## Schritt 1: Quell- und Ausgabeverzeichnis festlegen
+In der heutigen digitalen Welt ist die Sicherung von Dokumenten wichtiger denn je. Digitale Signaturen bieten eine Möglichkeit, die Authentizität und Integrität Ihrer Dateien sicherzustellen, insbesondere beim Umgang mit vertraulichen Informationen. Wenn Sie mit Excel-Dateien arbeiten und einer bereits signierten Arbeitsmappe eine neue digitale Signatur hinzufügen möchten, sind Sie hier richtig! In dieser Anleitung führen wir Sie durch den Prozess des Hinzufügens einer digitalen Signatur zu einer bereits signierten Excel-Datei mit Aspose.Cells für .NET. Also, legen wir los!
 
-```csharp
-// Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
+## Voraussetzungen
 
-// Ausgabe Verzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
-```
+Bevor wir uns in die Einzelheiten der Codierung stürzen, müssen Sie einige Dinge vorbereitet haben:
 
-In diesem ersten Schritt definieren wir die Quell- und Ausgabeverzeichnisse, die zum Laden der vorhandenen Excel-Datei verwendet werden und speichern die Datei mit der neuen digitalen Signatur.
+1.  Aspose.Cells für .NET: Stellen Sie sicher, dass die Aspose.Cells-Bibliothek in Ihrem .NET-Projekt installiert ist. Sie können sie von der[Website](https://releases.aspose.com/cells/net/).
+2.  Zertifikatsdatei: Sie benötigen eine gültige Zertifikatsdatei (normalerweise eine`.pfx` Datei), die Ihr digitales Zertifikat enthält. Stellen Sie sicher, dass Sie das Kennwort für diese Datei kennen.
+3. Entwicklungsumgebung: Richten Sie Ihre Entwicklungsumgebung mit Visual Studio oder einer anderen IDE ein, die .NET unterstützt.
+4. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie problemlos mitmachen.
+5. Beispieldateien: Halten Sie eine Excel-Beispieldatei bereit, die bereits digital signiert ist. Dies ist die Datei, der Sie eine neue Signatur hinzufügen.
 
-## Schritt 2: Vorhandene Excel-Datei laden
+Nachdem wir nun alles vorbereitet haben, können wir mit dem Programmieren beginnen!
 
-```csharp
-// Laden Sie die bereits signierte Excel-Arbeitsmappe
-Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
-```
+## Pakete importieren
 
- Hier laden wir die bereits signierte Excel-Datei mit`Workbook` Klasse von Aspose.Cells.
-
-## Schritt 3: Erstellen Sie die Sammlung digitaler Signaturen
+Um zu beginnen, müssen Sie die erforderlichen Pakete in Ihre C#-Datei importieren. So geht's:
 
 ```csharp
-// Erstellen Sie die Sammlung digitaler Signaturen
-Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
- Wir erstellen eine neue Sammlung digitaler Signaturen mit`DigitalSignatureCollection` Klasse.
+Diese Namespaces ermöglichen Ihnen die Arbeit mit Excel-Dateien und die nahtlose Handhabung digitaler Signaturen.
 
-## Schritt 4: Erstellen Sie ein neues Zertifikat
+## Schritt 1: Richten Sie Ihre Quell- und Ausgabeverzeichnisse ein
 
-```csharp
-// Erstellen Sie ein neues Zertifikat
-System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
-```
+Bevor Sie Ihre Excel-Dateien bearbeiten können, müssen Sie festlegen, wo sich Ihre Quelldateien befinden und wo Sie die Ausgabedatei speichern möchten. So geht's:
 
-Hier erstellen wir aus der bereitgestellten Datei und dem Passwort ein neues Zertifikat.
-
-## Schritt 5: Fügen Sie der Sammlung eine neue digitale Signatur hinzu
-
-```csharp
-// Erstellen Sie eine neue digitale Signatur
-Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added a new digital signature to the already signed workbook.", DateTime.Now);
-
-// Fügen Sie die digitale Signatur zur Sammlung hinzu
-dsCollection.Add(signature);
-```
-
- Wir erstellen eine neue digitale Signatur mit dem`DigitalSignature` Klasse und fügen Sie sie der Sammlung digitaler Signaturen hinzu.
-
-## Schritt 6: Fügen Sie die Sammlung digitaler Signaturen zur Arbeitsmappe hinzu
-
-```csharp
-//Fügen Sie die Sammlung digitaler Signaturen zur Arbeitsmappe hinzu
-workbook.AddDigitalSignature(dsCollection);
-```
-
- Wir fügen die Sammlung digitaler Signaturen mithilfe von der vorhandenen Excel-Arbeitsmappe hinzu`AddDigitalSignature()` Methode.
-
-## Schritt 7: Speichern und schließen Sie die Arbeitsmappe
-
-```csharp
-// Speichern Sie die Arbeitsmappe und schließen Sie sie
-workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
-workbook.Dispose();
-```
-
-Wir speichern die Arbeitsmappe mit der neuen digitalen Signatur im angegebenen Ausgabeverzeichnis, schließen sie anschließend und geben die zugehörigen Ressourcen frei.
-
-### Beispielquellcode für das Hinzufügen einer digitalen Signatur zu einer bereits signierten Excel-Datei mit Aspose.Cells für .NET 
 ```csharp
 //Quellverzeichnis
 string sourceDir = RunExamples.Get_SourceDirectory();
-//Ausgabe Verzeichnis
+// Ausgabeverzeichnis
 string outputDir = RunExamples.Get_OutputDirectory();
-//Zertifikatsdatei und ihr Passwort
+```
+
+In diesem Schritt verwenden wir eine Methode, um die Pfade für die Quell- und Ausgabeverzeichnisse abzurufen. Stellen Sie sicher, dass diese Verzeichnisse vorhanden sind und die erforderlichen Dateien enthalten.
+
+## Schritt 2: Laden Sie die bereits signierte Arbeitsmappe
+
+Als nächstes müssen Sie die Excel-Arbeitsmappe laden, die Sie ändern möchten. Dies geschieht durch Erstellen einer Instanz des`Workbook` Klasse und Übergabe des Pfads der signierten Datei.
+
+```csharp
+// Laden Sie die Arbeitsmappe, die bereits digital signiert ist
+Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
+```
+
+ Hier laden wir die Arbeitsmappe mit dem Namen`sampleDigitallySignedByCells.xlsx`. Stellen Sie sicher, dass diese Datei bereits signiert ist.
+
+## Schritt 3: Erstellen Sie eine digitale Signaturensammlung
+
+Lassen Sie uns nun eine Sammlung digitaler Signaturen erstellen. Diese Sammlung enthält alle digitalen Signaturen, die Sie der Arbeitsmappe hinzufügen möchten.
+
+```csharp
+// Erstellen der digitalen Signaturensammlung
+Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
+```
+
+Dieser Schritt ist entscheidend, da Sie dadurch bei Bedarf mehrere Signaturen verwalten können.
+
+## Schritt 4: Neues Zertifikat erstellen
+
+ Um eine neue digitale Signatur zu erstellen, müssen Sie Ihre Zertifikatsdatei laden. Geben Sie hier den Pfad zu Ihrer`.pfx` Datei und ihr Passwort.
+
+```csharp
+// Zertifikatsdatei und ihr Passwort
 string certFileName = sourceDir + "AsposeDemo.pfx";
 string password = "aspose";
-//Laden Sie die Arbeitsmappe, die bereits digital signiert ist, um eine neue digitale Signatur hinzuzufügen
-Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
-//Erstellen Sie die Sammlung digitaler Signaturen
-Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-//Neues Zertifikat erstellen
+
+// Neues Zertifikat erstellen
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
-//Erstellen Sie eine neue digitale Signatur und fügen Sie sie der Sammlung digitaler Signaturen hinzu
+```
+
+ Ersetzen Sie unbedingt`AsposeDemo.pfx` und das Kennwort durch Ihren tatsächlichen Zertifikatsdateinamen und Ihr Kennwort.
+
+## Schritt 5: Erstellen der digitalen Signatur
+
+Mit dem Zertifikat in der Hand können Sie nun eine digitale Signatur erstellen. Geben Sie außerdem einen Grund für die Signatur sowie das aktuelle Datum und die Uhrzeit an.
+
+```csharp
+// Neue digitale Signatur erstellen und zur Sammlung digitaler Signaturen hinzufügen
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
-dsCollection.Add(signature);
-//Fügen Sie der Arbeitsmappe eine Sammlung digitaler Signaturen hinzu
+```
+
+Dieser Schritt fügt Ihrer Sammlung die neue Signatur hinzu, die Sie später auf die Arbeitsmappe anwenden.
+
+## Schritt 6: Hinzufügen der digitalen Signatursammlung zur Arbeitsmappe
+
+Jetzt ist es an der Zeit, die Sammlung digitaler Signaturen zur Arbeitsmappe hinzuzufügen. Hier geschieht die Magie!
+
+```csharp
+// Fügen Sie der Arbeitsmappe eine Sammlung digitaler Signaturen hinzu
 workbook.AddDigitalSignature(dsCollection);
-//Speichern Sie die Arbeitsmappe und entsorgen Sie sie.
+```
+
+Durch Ausführen dieser Zeile fügen Sie die neue digitale Signatur effektiv an die bereits signierte Arbeitsmappe an.
+
+## Schritt 7: Speichern und Entsorgen der Arbeitsmappe
+
+Abschließend möchten Sie die geänderte Arbeitsmappe in Ihrem Ausgabeverzeichnis speichern und alle verwendeten Ressourcen freigeben.
+
+```csharp
+// Speichern und entsorgen Sie die Arbeitsmappe.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
+```
+
+Durch diesen Schritt wird sichergestellt, dass Ihre Änderungen gespeichert und die Arbeitsmappe ordnungsgemäß gelöscht wird, um Ressourcen freizugeben.
+
+## Schritt 8: Ausführung bestätigen
+
+Zum Abschluss sollten Sie bestätigen, dass Ihr Code erfolgreich ausgeführt wurde. Dies können Sie mit einer einfachen Konsolennachricht tun.
+
+```csharp
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
+Dadurch erhalten Sie die Rückmeldung, dass Ihr Vorgang erfolgreich war, was immer schön zu sehen ist!
+
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben jetzt erfahren, wie Sie mit Aspose.Cells für .NET eine digitale Signatur zu einer bereits signierten Excel-Datei hinzufügen. Digitale Signaturen verleihen Ihren Excel-Dateien eine zusätzliche Sicherheitsebene und stellen deren Authentizität und Integrität sicher.
+Und da haben Sie es! Sie haben erfolgreich eine neue digitale Signatur zu einer bereits signierten Excel-Datei hinzugefügt, indem Sie Aspose.Cells für .NET verwenden. Digitale Signaturen sind eine leistungsstarke Methode, um die Authentizität Ihrer Dokumente sicherzustellen, und jetzt wissen Sie, wie Sie sie programmgesteuert verwalten können. Unabhängig davon, ob Sie an Finanzdokumenten, Verträgen oder vertraulichen Informationen arbeiten, kann die Implementierung digitaler Signaturen die Sicherheit und das Vertrauen verbessern.
 
-### Häufig gestellte Fragen
+## Häufig gestellte Fragen
 
-#### F: Was ist Aspose.Cells für .NET?
+### Was ist eine digitale Signatur?
+Eine digitale Signatur ist eine kryptografische Methode, mit der die Authentizität und Integrität einer Nachricht oder eines Dokuments überprüft wird.
 
-A: Aspose.Cells für .NET ist eine leistungsstarke Klassenbibliothek, die es .NET-Entwicklern ermöglicht, Excel-Dateien problemlos zu erstellen, zu ändern, zu konvertieren und zu manipulieren.
+### Kann ich derselben Excel-Datei mehrere digitale Signaturen hinzufügen?
+Ja, Sie können eine Sammlung digitaler Signaturen erstellen und derselben Arbeitsmappe mehrere Signaturen hinzufügen.
 
-#### F: Was ist eine digitale Signatur in einer Excel-Datei?
+### Welche Formate unterstützt Aspose.Cells für digitale Signaturen?
+ Aspose.Cells unterstützt verschiedene Formate, darunter`.pfx` für Zertifikate.
 
-A: Eine digitale Signatur in einer Excel-Datei ist ein elektronisches Zeichen, das die Authentizität, Integrität und Herkunft des Dokuments garantiert. Damit wird überprüft, ob die Datei seit der Signatur nicht verändert wurde und aus einer zuverlässigen Quelle stammt.
+### Benötige ich eine bestimmte Version von .NET, um Aspose.Cells zu verwenden?
+ Überprüfen Sie die[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) für die Kompatibilität mit Ihrer .NET-Version.
 
-#### F: Welche Vorteile bietet das Hinzufügen einer digitalen Signatur zu einer Excel-Datei?
-
-A: Das Hinzufügen einer digitalen Signatur zu einer Excel-Datei bietet mehrere Vorteile, darunter Schutz vor unbefugten Änderungen, Gewährleistung der Datenintegrität, Authentifizierung des Autors des Dokuments und Schaffung von Vertrauen in die darin enthaltenen Informationen.
-
-#### F: Kann ich einer Excel-Datei mehrere digitale Signaturen hinzufügen?
-
-A: Ja, mit Aspose.Cells können Sie einer Excel-Datei mehrere digitale Signaturen hinzufügen. Sie können eine Sammlung digitaler Signaturen erstellen und diese in einem Vorgang zur Datei hinzufügen.
-
-#### F: Welche Voraussetzungen gelten für das Hinzufügen einer digitalen Signatur zu einer Excel-Datei?
-
-A: Um einer Excel-Datei eine digitale Signatur hinzuzufügen, benötigen Sie ein gültiges digitales Zertifikat, das zum Signieren des Dokuments verwendet wird. Stellen Sie sicher, dass Sie über das richtige Zertifikat und Passwort verfügen, bevor Sie die digitale Signatur hinzufügen.
+### Wie kann ich eine temporäre Lizenz für Aspose.Cells erhalten?
+ Sie können eine temporäre Lizenz anfordern bei[Aspose's Kaufseite](https://purchase.aspose.com/temporary-license/).

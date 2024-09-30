@@ -2,32 +2,79 @@
 title: Excel-Arbeitsmappe
 linktitle: Excel-Arbeitsmappe
 second_title: Aspose.Cells für .NET API-Referenz
-description: Entdecken Sie Aspose.Cells für .NET-Tutorials, um die Arbeit mit Excel-Arbeitsmappen anhand von Schritt-für-Schritt-Codebeispielen zu erlernen.
+description: Entdecken Sie die Tutorials zu Aspose.Cells für .NET, um die Arbeit mit Excel-Arbeitsmappen anhand schrittweiser Codebeispiele zu meistern.
 type: docs
 weight: 15
 url: /de/net/excel-workbook/
 ---
-Sehen Sie sich eine Reihe ausführlicher Excel-Arbeitsmappen-Tutorials mit Aspose.Cells für .NET an. Diese Tutorials führen Sie durch die verschiedenen Funktionen der Bibliothek und zeigen Ihnen anhand praktischer Codebeispiele, wie Sie Excel-Arbeitsmappen erstellen, bearbeiten und anpassen. Sie erfahren, wie Sie Tabellenkalkulationen hinzufügen und löschen, Daten verwalten, Formatierungsvorgänge durchführen und vieles mehr. Mit diesen Tutorials werden Sie in der Lage sein, fortgeschrittene Techniken zur Bearbeitung von Excel-Arbeitsmappen zu beherrschen und Ihre Fähigkeiten in der Entwicklung von .NET-Anwendungen zu verbessern.
+## Einführung
 
-Unabhängig davon, ob Sie Anfänger oder erfahrener Entwickler sind, bieten diese Tutorials Schritt-für-Schritt-Anleitungen, hilfreiche Tipps und umfassende Codebeispiele, damit Sie Aspose.Cells für .NET optimal nutzen können. Nutzen Sie diese wertvolle Ressource, um Ihre Fähigkeiten im Umgang mit Excel-Arbeitsmappen und beim Erstellen leistungsstarker, benutzerdefinierter .NET-Anwendungen zu verbessern.
+Sind Sie es leid, sich mit der Excel-Dateiverwaltung herumzuschlagen? Wenn Sie schon einmal vor der Herausforderung standen, Signaturen hinzuzufügen oder Daten aus komplexen Dateien zu extrahieren, sind Sie hier richtig. Aspose.Cells für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Excel-Dateien programmgesteuert zu bearbeiten. Wir haben eine Liste mit praktischen Tutorials, die eine Vielzahl von Aufgaben auf klare und ansprechende Weise aufschlüsseln.
 
-## Tutorials 
+## Zugriff auf Web-Erweiterungsinformationen
+
+Wenn Sie wissen, wie Sie auf Web-Erweiterungsinformationen zugreifen können, können Sie in Ihren Excel-Tabellen neue Möglichkeiten finden. Dies ermöglicht eine verbesserte Interaktivität innerhalb Ihrer Dateien. Unser Tutorial zu[Zugriff auf Informationen zur Web-Erweiterung](./access-web-extension-information/) bietet eine Schritt-für-Schritt-Anleitung, um diesen Vorgang auch für Aspose.Cells-Neulinge zu vereinfachen.
+
+## Digitale Signaturen hinzufügen
+
+ Mussten Sie schon einmal einer signierten Excel-Datei eine digitale Signatur hinzufügen? Erfahren Sie in unserem Leitfaden, wie das geht:[Einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen](./add-digital-signature-to-an-already-signed-excel-file/). Digitale Signaturen gewährleisten Authentizität und Integrität und machen Ihre Excel-Dateien nicht nur funktionsfähig, sondern auch sicher.
+
+## Erstellen freigegebener Arbeitsmappen
+
+ Zusammenarbeit ist in der heutigen Arbeitswelt von entscheidender Bedeutung. Unser Tutorial zu[Gemeinsam genutzte Arbeitsmappe erstellen](./create-shared-workbook/) ermöglicht Ihnen das mühelose Einrichten gemeinsamer Arbeitsmappen. Das ist ideal für Teams, die gemeinsam an Datenanalysen oder Projektmanagement in Excel arbeiten müssen. 
+
+## Extrahieren eingebetteter Dateien
+
+Wussten Sie, dass Excel eingebettete Dateien enthalten kann? Wenn Sie jemals tiefer in Ihre Tabellenkalkulationen eintauchen mussten, um eine eingebettete MOL-Datei zu extrahieren, sollten Sie sich unser Tutorial ansehen:[Eingebettete MOL-Datei extrahieren](./extract-embedded-mol-file/). Diese Anleitung führt Sie durch den unkomplizierten Prozess des Abrufens dieser Dateien und stellt sicher, dass Sie nie wichtige Daten verlieren, die in Ihren Excel-Arbeitsmappen versteckt sind.
+
+## Umgang mit externen Verbindungen in XLSB-Dateien
+
+ Die Verwaltung externer Verbindungen – insbesondere in XLSB-Dateien – kann schwierig sein. Aber keine Angst! Unser ausführlicher Leitfaden zu[Externe Verbindung zum Lesen und Schreiben einer XLSB-Datei](./read-and-write-external-connection-of-xlsb-file/) vereinfacht diese Aufgabe für Sie. Dieses Tutorial bietet klare Codierungsbeispiele und Einblicke, sodass Sie die Interaktion Ihres Excel mit externen Datenquellen effektiv verwalten können. 
+
+## Verbessern der Sicherheit durch Kennwortschutz
+
+ Sicherheit ist besonders bei freigegebenen Arbeitsmappen mit vertraulichen Informationen wichtig. Unser Tutorial zu[Freigegebene Arbeitsmappe mit Kennwort schützen oder Schutz aufheben](./password-protect-or-unprotect-shared-workbook/)beschreibt detailliert die Schritte zum Sperren Ihrer Arbeitsmappen, sodass nur die richtigen Personen darauf zugreifen können. Sie können Dateien mit mehr Vertrauen freigeben, wenn Sie wissen, dass sie sicher sind.
+
+## Produktivitätssteigerung mit Regex
+
+ Sind Sie ein Fan von Regex? Wenn nicht, möchten Sie vielleicht einer werden! Reguläre Ausdrücke können Ihre Aufgaben erheblich vereinfachen, insbesondere bei der Arbeit mit großen Datensätzen in Excel. Unser Tutorial zu[Regex-Ersetzung](./regex-replace/) bringt Ihnen bei, Regex-Ersetzungsfunktionen in Ihre Tabellen zu implementieren und ermöglicht Ihnen so, sowohl Ihre Produktivität als auch Ihre Genauigkeit zu steigern.
+
+## Aktualisieren von Power Query-Elementen
+
+ Power Queries können bei der Datenmanipulation eine echte Revolution sein, da sie es Ihnen ermöglichen, den Import von Informationen in Ihre Excel-Dateien zu optimieren. Wenn Sie sich fragen, wie Sie Power Query-Formelelemente in Excel mit Aspose.Cells für .NET aktualisieren können, lesen Sie unser Tutorial zu[Aktualisieren des Power Query-Formelelements](./update-power-query-formula-item/)ist genau das Richtige. Es bietet eine einfache, schrittweise Vorgehensweise zum Ändern dieser Formelelemente, sodass Sie Ihre Daten aktuell und in Ihren Arbeitsmappen präzise wiedergeben können.
+
+## Druckvorschau verwalten
+
+ Von Zeit zu Zeit müssen Sie Ihre Daten so professionell wie möglich präsentieren. Das Erstellen von Druckvorschauen kann eine wichtige Fähigkeit sein. In unserem Tutorial zu[Druckvorschau der Arbeitsmappe](./workbook-print-preview/)erfahren Sie, wie Sie Ihre Daten vor dem Drucken richtig formatieren. Dieser Vorgang kann Sie vor peinlichen Fehlern bewahren und sicherstellen, dass Ihre Berichte auf dem Papier genauso gut aussehen wie auf dem Bildschirm.
+
+## Arbeiten mit definierten Namen
+
+ Definierte Namen in Ihren Excel-Tabellen können eine praktische Möglichkeit sein, Ihre Daten zu verwalten. Sie machen Formeln kürzer und verständlicher. Wenn Sie beim Laden einer Arbeitsmappe nach definierten Namen filtern möchten, finden Sie in unserem Tutorial[Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/)bietet alle notwendigen Schritte, um genau das zu tun. Mit dieser Funktion können Sie das Laden Ihrer Arbeitsmappe anpassen und so die Effizienz und Organisation verbessern.
+
+## Abschluss
+
+Zusammenfassend lässt sich sagen, dass Aspose.Cells für .NET jedem, der die Excel-Dateiverwaltung beherrschen möchte, eine Welt voller Möglichkeiten eröffnet. Mit unserer umfangreichen Sammlung an Tutorials können Benutzer alles sicher bewältigen, von einfachen Aufgaben – wie dem Erstellen von Druckvorschauen – bis hin zu fortgeschrittenen Techniken wie dem Hinzufügen von Xades-Signaturen. 
+
+Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes Tutorial bietet nicht nur Anleitung, sondern bindet Sie auch in den Lernprozess ein. Mit diesen Tools sind Sie bestens gerüstet, um alle Herausforderungen zu meistern, die auf Sie zukommen. 
+
+
+## Anleitungen 
 | Titel | Beschreibung |
 | --- | --- |
-| [Greifen Sie auf Web-Erweiterungsinformationen zu](./access-web-extension-information/) | Greifen Sie mit Aspose.Cells für .NET auf Weberweiterungsinformationen zu. |  
-| [Fügen Sie einer bereits signierten Excel-Datei eine digitale Signatur hinzu](./add-digital-signature-to-an-already-signed-excel-file/) | Fügen Sie mit Aspose.Cells für .NET ganz einfach digitale Signaturen zu vorhandenen Excel-Dateien hinzu. |  
-| [Weberweiterung hinzufügen](./add-web-extension/) | Fügen Sie mit Aspose.Cells für .NET ganz einfach eine Weberweiterung zu Ihren Excel-Arbeitsmappen hinzu. |  
-| [Komprimierungsstufe anpassen](./adjust-compression-level/) | Reduzieren Sie die Größe Ihrer Excel-Arbeitsmappen, indem Sie die Komprimierungsstufe mit Aspose.Cells für .NET anpassen. |  
-| [Erlauben Sie führende Apostrophe](./allow-leading-apostrophe/) | Erlauben Sie führende Apostrophe in Excel-Arbeitsmappen mit Aspose.Cells für .NET. |  
-| [Erstellen Sie eine freigegebene Arbeitsmappe](./create-shared-workbook/) | Erstellen Sie mit Aspose.Cells für .NET eine freigegebene Excel-Arbeitsmappe, um die gleichzeitige Datenzusammenarbeit zu ermöglichen. |  
-| [Linktypen erkennen](./detect-link-types/) | Erkennen Sie Linktypen in einer Excel-Arbeitsmappe mit Aspose.Cells für .NET. |  
-| [Extrahieren Sie die eingebettete Mol-Datei](./extract-embedded-mol-file/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ganz einfach eingebettete MOL-Dateien aus einer Excel-Arbeitsmappe extrahieren. |  
-| [Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/) | Erfahren Sie, wie Sie definierte Namen filtern, wenn Sie eine Excel-Arbeitsmappe mit Aspose.Cells für .NET laden. |  
-| [Holen Sie sich Odata-Details](./get-odata-details/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET OData-Details aus einer Excel-Arbeitsmappe abrufen. |  
-| [Freigegebene Arbeitsmappe mit Passwort schützen oder Schutz aufheben](./password-protect-or-unprotect-shared-workbook/) | Erfahren Sie, wie Sie eine freigegebene Arbeitsmappe mit Aspose.Cells für .NET mit einem Kennwort schützen oder den Schutz aufheben. |  
-| [Externe Verbindung der XLSB-Datei lesen und schreiben](./read-and-write-external-connection-of-xlsb-file/) | Erfahren Sie, wie Sie die externen Verbindungen einer XLSB-Datei mit Aspose.Cells für .NET lesen und ändern. |  
-| [Regex ersetzen](./regex-replace/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Regex-Ersetzung in Excel-Dateien durchführen. |  
-| [Aktualisieren Sie das Power Query-Formelelement](./update-power-query-formula-item/) | Erfahren Sie, wie Sie Power Query-Formelelemente in Excel-Dateien mit Aspose.Cells für .NET aktualisieren. |  
-| [Druckvorschau der Arbeitsmappe](./workbook-print-preview/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Druckvorschau einer Arbeitsmappe erstellen. |  
-| [Arbeiten mit Inhaltstypeigenschaften](./working-with-content-type-properties/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET mit Inhaltstypeigenschaften arbeiten. |  
-| [Xades-Signaturunterstützung](./xades-signature-support/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Xades-Signatur zu einer Excel-Datei hinzufügen. |  
+| [Zugriff auf Informationen zur Web-Erweiterung](./access-web-extension-information/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET auf Web-Erweiterungsinformationen in Excel-Dateien zugreifen. |  
+| [Einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen](./add-digital-signature-to-an-already-signed-excel-file/) | Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen. |  
+| [Web-Erweiterung hinzufügen](./add-web-extension/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Web-Erweiterungen zu Excel-Dateien hinzufügen und so die Funktionen Ihrer Tabellenkalkulation verbessern. |  
+| [Komprimierungsstufe anpassen](./adjust-compression-level/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Komprimierungsstufen für Excel-Dateien anpassen. Optimieren Sie Ihre Dateigrößen effizient mit dieser Schritt-für-Schritt-Anleitung. |  
+| [Führendes Apostroph zulassen](./allow-leading-apostrophe/) | Mit Aspose.Cells für .NET können Sie führende Apostrophe in Excel mühelos verwalten. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess. |  
+| [Gemeinsam genutzte Arbeitsmappe erstellen](./create-shared-workbook/) | Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine freigegebene Arbeitsmappe erstellen. Perfekt zur Verbesserung der Teamzusammenarbeit. |  
+| [Linktypen erkennen](./detect-link-types/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinktypen in Excel erkennen. Einfache Schritte und Codebeispiele enthalten. |  
+| [Eingebettete Mol-Datei extrahieren](./extract-embedded-mol-file/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET einfach eingebettete MOL-Dateien aus einer Excel-Arbeitsmappe extrahieren. |  
+| [Filtern Sie definierte Namen beim Laden der Arbeitsmappe](./filter-defined-names-while-loading-workbook/) | Erfahren Sie in diesem umfassenden Handbuch, wie Sie beim Laden einer Arbeitsmappe mit Aspose.Cells für .NET definierte Namen filtern. |  
+| [Odata-Details abrufen](./get-odata-details/) | Entdecken Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET OData-Details aus Excel extrahieren. |  
+| [Freigegebene Arbeitsmappe mit Kennwort schützen oder Schutz aufheben](./password-protect-or-unprotect-shared-workbook/) | Sichern Sie Ihre freigegebenen Excel-Dateien mit Aspose.Cells für .NET mit unserem einfachen Leitfaden zu Kennwortschutz und Techniken zum Aufheben des Kennwortschutzes. |  
+| [Externe Verbindung zum Lesen und Schreiben einer XLSB-Datei](./read-and-write-external-connection-of-xlsb-file/) | Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET externe Verbindungen in XLSB-Dateien verwalten. |  
+| [Regex-Ersetzung](./regex-replace/) | Erfahren Sie, wie Sie Regex-Ersetzungen in Excel mit Aspose.Cells für .NET effizient nutzen. Steigern Sie die Produktivität und Genauigkeit Ihrer Tabellenkalkulationsaufgaben. |  
+| [Aktualisieren des Power Query-Formelelements](./update-power-query-formula-item/) | Aktualisieren Sie Power Query-Formelelemente in Excel ganz einfach mit Aspose.Cells für .NET. Schritt-für-Schritt-Anleitung zur Optimierung Ihrer Datenbearbeitungsprozesse. |  
+| [Druckvorschau der Arbeitsmappe](./workbook-print-preview/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Druckvorschauen für Excel-Dateien erstellen. Lernen Sie die Codierungsschritte in einem detaillierten, leicht verständlichen Tutorial. |  
+| [Arbeiten mit Inhaltstypeigenschaften](./working-with-content-type-properties/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET mit Inhaltstypeigenschaften für eine verbesserte Verwaltung von Excel-Metadaten arbeiten. Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung. |  
+| [Xades Signatur-Unterstützung](./xades-signature-support/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Xades-Signaturen zu Excel-Dateien hinzufügen. Sichern Sie Ihre Dokumente. |  

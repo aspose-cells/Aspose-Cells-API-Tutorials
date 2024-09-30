@@ -37,7 +37,7 @@ Nyní, když dobře rozumíme tomu, co funkce MIN dělá v Excelu, pojďme prozk
 
 ### Krok 1: Nastavte své vývojové prostředí
 
- Než začnete kódovat, ujistěte se, že máte Aspose.Cells for Java nainstalovaný a nastavený ve svém vývojovém prostředí. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+ Než začnete kódovat, ujistěte se, že máte Aspose.Cells for Java nainstalovaný a nastavený ve svém vývojovém prostředí. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 ### Krok 2: Vytvořte projekt Java
 

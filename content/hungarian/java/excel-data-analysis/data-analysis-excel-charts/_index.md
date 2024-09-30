@@ -2,7 +2,7 @@
 title: Adatelemzés Excel diagramok
 linktitle: Adatelemzés Excel diagramok
 second_title: Aspose.Cells Java Excel Processing API
-description: Nyújtsa ki az adatelemzési kiválóságot az Aspose.Cells for Java segítségével. Lenyűgöző Excel diagramok és jelentések létrehozása.
+description: Nyújtsa ki az adatelemzési kiválóságot az Aspose.Cells for Java segítségével. Lenyűgöző Excel diagramok és jelentések készítése.
 type: docs
 weight: 15
 url: /hu/java/excel-data-analysis/data-analysis-excel-charts/
@@ -32,7 +32,7 @@ Az Aspose.Cells for Java adatelemzésének megkezdéséhez kövesse az alábbi l
 
 3. Aspose.Cells osztályok importálása: Importálja a szükséges Aspose.Cells osztályokat a Java fájl elejére.
 
-## adatok betöltése
+## Adatok betöltése
 
 Az adatelemzés első lépése az adatok betöltése a Java alkalmazásba. Az Aspose.Cells for Java különféle módokat kínál erre:
 
@@ -46,7 +46,7 @@ String query = "SELECT * FROM your_table";
 QueryTable queryTable = workbook.getWorksheets().get(0).getQueryTables().addQueryTable(query, connectionString);
 ```
 
-## Adatmanipuláció
+## Adatkezelés
 
 Az adatok betöltése után az Aspose.Cells for Java segítségével manipulálhatja azokat. Az adatok elemzésre való előkészítéséhez hajtson végre műveleteket, például rendezést, szűrést és adatátalakítást.
 
@@ -96,7 +96,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan végezhet adatelemzést és hozh
 
 ### Hogyan telepíthetem az Aspose.Cells for Java programot?
 
- Az Aspose.Cells for Java telepítéséhez keresse fel a letöltési oldalt a következő címen:[ez a link](https://releases.aspose.com/cells/java/) és kövesse a mellékelt telepítési utasításokat.
+ Az Aspose.Cells for Java telepítéséhez keresse fel a letöltési oldalt a következő címen:[ezt a linket](https://releases.aspose.com/cells/java/) és kövesse a mellékelt telepítési utasításokat.
 
 ### Használhatom az Aspose.Cells for Java fájlt más Java könyvtárakkal?
 
@@ -108,7 +108,7 @@ Igen, az Aspose.Cells for Java kereskedelmi használatra érvényes licenc szük
 
 ### Milyen típusú Excel-diagramokat hozhatok létre az Aspose.Cells for Java programmal?
 
-Az Aspose.Cells for Java a diagramtípusok széles skáláját támogatja, beleértve a sávdiagramokat, vonaldiagramokat, kördiagramokat és egyebeket. A támogatott diagramtípusok és testreszabási lehetőségek teljes listáját a dokumentációban találja.
+Az Aspose.Cells for Java diagramtípusok széles skáláját támogatja, beleértve az oszlopdiagramokat, vonaldiagramokat, kördiagramokat és még sok mást. A támogatott diagramtípusok és testreszabási lehetőségek teljes listáját a dokumentációban találja.
 
 ### Hol találok további forrásokat és oktatóanyagokat az Aspose.Cells for Java webhelyen?
 

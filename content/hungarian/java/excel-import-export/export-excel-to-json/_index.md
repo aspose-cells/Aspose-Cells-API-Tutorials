@@ -51,7 +51,7 @@ Ez a kód „output.json” nevű JSON-fájlként menti az Excel-adatokat a proj
 Mostantól szükség szerint dolgozhat a JSON-adatokkal. Elemezheti, manipulálhatja vagy felhasználhatja alkalmazásaiban.
 
 ## Következtetés
-Gratulálunk! Sikeresen exportálta az Excel-adatokat JSON-ba az Aspose.Cells for Java használatával. Ez a lépésenkénti útmutató biztosítja a szükséges forráskódot a folyamat egyszerűsítéséhez. Most már hatékonyan konvertálhatja az Excel-fájlokat JSON-formátumba a Java-alkalmazásaiban.
+Gratulálok! Sikeresen exportálta az Excel-adatokat JSON-ba az Aspose.Cells for Java használatával. Ez a lépésenkénti útmutató biztosítja a szükséges forráskódot a folyamat egyszerűsítéséhez. Most már hatékonyan konvertálhatja az Excel-fájlokat JSON-formátumba a Java-alkalmazásaiban.
 
 ## GYIK
 ### Exportálhatok több Excel-lapot egyetlen JSON-fájlba?

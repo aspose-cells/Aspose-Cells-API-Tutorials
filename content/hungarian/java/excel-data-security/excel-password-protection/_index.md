@@ -14,7 +14,7 @@ A digitális korban az érzékeny adatok biztonsága a legfontosabb. Az Excel-t�
 
 ## Előfeltételek
 
-Mielőtt belevágna az Excel jelszavas védelem világába az Aspose.Cells for Java segítségével, meg kell győződnie a szükséges eszközökről és ismeretekről:
+Mielőtt belevágna az Excel jelszavas védelem világába az Aspose.Cells for Java segítségével, meg kell győződnie arról, hogy rendelkezik a szükséges eszközökkel és ismeretekkel:
 
 - Java fejlesztői környezet
 -  Aspose.Cells for Java API (letöltheti[itt](https://releases.aspose.com/cells/java/)
@@ -22,7 +22,7 @@ Mielőtt belevágna az Excel jelszavas védelem világába az Aspose.Cells for J
 
 ## A környezet beállítása
 
-Kezdésként be kell állítania a fejlesztői környezetet. Kovesd ezeket a lepeseket:
+Kezdésként be kell állítania a fejlesztői környezetet. Kövesse az alábbi lépéseket:
 
 1. Telepítse a Java-t, ha még nem tette meg.
 2. Töltse le az Aspose.Cells for Java programot a megadott hivatkozásról.

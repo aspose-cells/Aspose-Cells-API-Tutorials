@@ -1,85 +1,109 @@
 ---
-title: Tùy chọn trang phù hợp với Excel
-linktitle: Tùy chọn trang phù hợp với Excel
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Tìm hiểu cách tự động điều chỉnh các trang trong bảng tính Excel bằng Aspose.Cells dành cho .NET.
+title: Tùy chọn Fit To Excel Pages
+linktitle: Tùy chọn Fit To Excel Pages
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Tìm hiểu cách sử dụng tùy chọn Fit to Excel Pages với Aspose.Cells cho .NET và trình bày dữ liệu của bạn một cách đẹp mắt theo hướng dẫn từng bước dễ hiểu.
 type: docs
 weight: 30
 url: /vi/net/excel-page-setup/fit-to-excel-pages-options/
 ---
-Trong bài viết này, chúng tôi sẽ hướng dẫn bạn từng bước để giải thích mã nguồn C# sau: Phù hợp với các tùy chọn trang Excel bằng cách sử dụng Aspose.Cells cho .NET. Chúng tôi sẽ sử dụng thư viện Aspose.Cells cho .NET để thực hiện thao tác này. Thực hiện theo các bước bên dưới để định cấu hình phù hợp với các trang trong Excel.
+## Giới thiệu
 
-## Bước 1: Tạo sổ làm việc
-Bước đầu tiên là tạo một bảng tính. Chúng ta sẽ khởi tạo một đối tượng Workbook. Đây là mã để tạo một sổ làm việc:
+Chào mừng bạn đến với hướng dẫn tối ưu về cách sử dụng thư viện Aspose.Cells mạnh mẽ cho .NET! Nếu bạn từng thấy mình thất vọng về cách sắp xếp các bảng tính Excel của mình sao cho vừa vặn trên các trang, bạn không phải là người duy nhất. Trong thế giới năng động của thao tác tệp Excel, việc đảm bảo dữ liệu của bạn được trình bày tốt có thể là một thách thức. Hôm nay, chúng ta sẽ đi sâu vào tính năng "Fit to Excel Pages Options". Vì vậy, hãy cầm máy tính xách tay của bạn lên và bắt đầu thôi!
+
+## Điều kiện tiên quyết
+
+Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu. Sau đây là những gì bạn cần có:
+
+1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là trung tâm chính cho mọi công việc phát triển.
+2.  Aspose.Cells cho .NET: Bạn cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp ích rất nhiều. Nếu bạn có thể xử lý các biến, vòng lặp và I/O tệp cơ bản, bạn sẽ thấy thoải mái.
+4. .NET Framework: Đảm bảo dự án của bạn được thiết lập với phiên bản .NET Framework phù hợp vì thư viện được thiết kế để tương thích với hệ sinh thái này.
+
+Bạn đã chuẩn bị mọi thứ chưa? Tuyệt, chúng ta hãy chuyển sang phần thú vị nhé!
+
+## Nhập gói
+
+Bây giờ chúng ta đã thiết lập xong, bước tiếp theo là nhập các gói cần thiết để sử dụng Aspose.Cells. Sau đây là cách bạn thực hiện trong dự án C# của mình:
+
+### Mở dự án C# của bạn
+Mở Visual Studio và tải hoặc tạo dự án C# mà bạn muốn sử dụng Aspose.Cells.
+
+### Thêm tham chiếu Aspose.Cells
+1. Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
+2. Chọn "Quản lý gói NuGet".
+3. Tìm kiếm "Aspose.Cells" và cài đặt gói.
+
+### Nhập không gian tên
+Ở đầu tệp mã của bạn, hãy thêm:
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-
-// Khởi tạo một đối tượng Workbook
-Workbook workbook = new Workbook();
+using System.IO;
+using Aspose.Cells;
+using System;
 ```
 
-## Bước 2: Truy cập bảng tính
-Bây giờ chúng ta đã tạo sổ làm việc, chúng ta cần điều hướng đến trang tính đầu tiên. Chúng ta sẽ sử dụng chỉ số 0 để truy cập vào sheet đầu tiên. Đây là mã để truy cập nó:
+Bây giờ bạn đã sẵn sàng để bắt đầu viết mã với Aspose.Cells!
+
+Bạn đã sẵn sàng định dạng các trang Excel của mình chưa? Chúng ta hãy cùng tìm hiểu quy trình từng bước.
+
+## Bước 1: Thiết lập không gian làm việc của bạn
+
+Đầu tiên, hãy khởi tạo Workbook và truy cập vào worksheet mong muốn. Đây là nơi mọi hành động bắt đầu.
 
 ```csharp
-// Truy cập vào bảng tính đầu tiên trong sổ làm việc
-Worksheet worksheet = workbook.Worksheets[0];
-```
-
-## Bước 3: Đặt Fit cho trang
- Trong bước này, chúng tôi sẽ định cấu hình điều chỉnh cho các trang của bảng tính. Chúng tôi sẽ sử dụng`FitToPagesTall` Và`FitToPagesWide` thuộc tính của`PageSetup` đối tượng để chỉ định số trang mong muốn cho chiều cao và chiều rộng của bảng tính. Đây là mã cho điều đó:
-
-```csharp
-// Cấu hình số trang theo chiều cao của bảng tính
-worksheet.PageSetup.FitToPagesTall = 1;
-
-// Cấu hình số trang theo chiều rộng của bảng tính
-worksheet.PageSetup.FitToPagesWide = 1;
-```
-
-## Bước 4: Lưu sổ làm việc
- Bây giờ chúng ta đã cấu hình phù hợp với các trang, chúng ta có thể lưu sổ làm việc. Chúng tôi sẽ sử dụng`Save` phương thức của đối tượng Workbook cho việc này. Đây là mã để lưu sổ làm việc:
-
-```csharp
-// Lưu sổ làm việc
-workbook.Save(dataDir + "FitToPagesOptions_out.xls");
-```
-
-### Mã nguồn mẫu cho Tùy chọn trang Fit To Excel bằng Aspose.Cells for .NET 
-```csharp
-//Đường dẫn đến thư mục tài liệu.
+// Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
-// Truy cập bảng tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Đặt số trang mà độ dài của bảng tính sẽ được kéo dài
+```
+ 
+-  Ở đây, bạn chỉ cần tạo một`Workbook` trường hợp đại diện cho tệp Excel của bạn.`Worksheet` đối tượng cho phép bạn tương tác với trang tính cụ thể mà bạn muốn sửa đổi.
+
+## Bước 2: Chỉ định Tùy chọn Thiết lập Trang
+
+Bây giờ, hãy thiết lập các thông số để phù hợp với bảng tính của bạn vào các trang cụ thể. Đây là nơi bạn có thể chỉ định chiều rộng và chiều cao của nội dung của bạn sẽ xuất hiện trên bao nhiêu trang.
+
+```csharp
+//Thiết lập số trang mà độ dài của bảng tính sẽ được mở rộng
 worksheet.PageSetup.FitToPagesTall = 1;
-//Đặt số trang mà chiều rộng của bảng tính sẽ được kéo dài
+// Thiết lập số trang mà chiều rộng của bảng tính sẽ được mở rộng
 worksheet.PageSetup.FitToPagesWide = 1;
-// Lưu sổ làm việc.
+```
+
+- `FitToPagesTall` xác định số trang mà bảng tính của bạn sẽ trải dài theo chiều dọc.
+- `FitToPagesWide` xác định thiết lập trang ngang. Thiết lập cả hai thành`1` có nghĩa là nội dung của bạn sẽ vừa vặn trên một trang, biến tài liệu của bạn thành một kiệt tác hợp lý.
+
+## Bước 3: Lưu sổ làm việc của bạn
+
+Khi mọi thứ đã được thiết lập theo đúng ý bạn, đã đến lúc lưu bảng tính của bạn.
+
+```csharp
+// Lưu bảng tính.
 workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 ```
 
+- Dòng này lấy sổ làm việc đã sửa đổi của bạn và lưu vào thư mục đã chỉ định với tên tệp bạn chọn. Giống như chụp ảnh nhanh hoàn hảo các thay đổi của bạn vậy!
+
 ## Phần kết luận
-Trong bài viết này, chúng ta đã tìm hiểu cách định cấu hình vừa với các trang trong Excel bằng Aspose.Cells cho .NET. Chúng tôi đã thực hiện các bước sau: tạo sổ làm việc, truy cập trang tính, định cấu hình vừa với các trang và lưu sổ làm việc. Bây giờ bạn có thể sử dụng kiến thức này để điều chỉnh bảng tính của mình đến các trang mong muốn.
 
-### Câu hỏi thường gặp
+Và bạn đã có nó! Bạn đã học cách sử dụng Tùy chọn Fit to Excel Pages trong Aspose.Cells cho .NET để đảm bảo bảng tính của bạn trông hoàn hảo khi in hoặc chia sẻ. Việc thành thạo các kỹ thuật này có thể hợp lý hóa các bài thuyết trình dữ liệu của bạn và cải thiện hiệu quả chung của bạn khi làm việc với các tài liệu Excel. Hãy nhớ rằng, sức mạnh của Aspose.Cells cho phép bạn mở rộng ranh giới của những gì có thể trong tự động hóa Excel. 
 
-#### Câu hỏi: Làm cách nào tôi có thể cài đặt Aspose.Cells cho .NET?
+## Câu hỏi thường gặp
 
-Trả lời: Để cài đặt Aspose.Cells cho .NET, bạn có thể sử dụng trình quản lý gói NuGet trong Visual Studio. Tìm gói "Aspose.Cells" và cài đặt nó trong dự án của bạn.
+### Aspose.Cells là gì?
+Aspose.Cells là một thư viện .NET mạnh mẽ để quản lý các tệp Excel theo chương trình, cho phép các nhà phát triển tạo và thao tác bảng tính một cách dễ dàng.
 
-#### Hỏi: Tôi có thể điều chỉnh các trang theo cả chiều cao và chiều rộng không?
+### Tôi có thể dùng thử Aspose.Cells miễn phí không?
+ Có! Bạn có thể đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
 
- Đáp: Có, bạn có thể điều chỉnh cả chiều cao và chiều rộng của trang tính bằng cách sử dụng`FitToPagesTall` Và`FitToPagesWide` của cải. Bạn có thể chỉ định số lượng trang mong muốn cho mỗi thứ nguyên.
+### Làm thế nào để tôi mua Aspose.Cells?
+ Bạn có thể thực hiện mua hàng của bạn[đây](https://purchase.aspose.com/buy).
 
-#### Câu hỏi: Làm cách nào tôi có thể tùy chỉnh tùy chọn Fit to Pages?
+### Có những tùy chọn hỗ trợ nào?
+ Aspose cung cấp một diễn đàn nơi bạn có thể nhận được hỗ trợ và thảo luận các vấn đề với những người dùng khác. Hãy xem thử[đây](https://forum.aspose.com/c/cells/9).
 
-Trả lời: Ngoài việc chỉ định số trang, bạn cũng có thể tùy chỉnh các tùy chọn phù hợp với trang khác như tỷ lệ trang tính, hướng giấy, lề, v.v. Sử dụng các thuộc tính có sẵn trong`PageSetup` đối tượng cho việc này.
-
-#### Câu hỏi: Tôi có thể sử dụng Aspose.Cells cho .NET để xử lý sổ làm việc hiện có không?
-
-Trả lời: Có, bạn có thể sử dụng Aspose.Cells for .NET để mở và chỉnh sửa sổ làm việc hiện có. Bạn có thể truy cập trang tính, ô, công thức, kiểu và các mục sổ làm việc khác để thực hiện các thao tác khác nhau.
+### Tôi có thể xin giấy phép tạm thời cho Aspose.Cells không?
+ Có, Aspose cung cấp tùy chọn cấp phép tạm thời mà bạn có thể yêu cầu[đây](https://purchase.aspose.com/temporary-license/).

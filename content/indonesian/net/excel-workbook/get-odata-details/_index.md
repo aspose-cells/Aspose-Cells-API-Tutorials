@@ -1,96 +1,131 @@
 ---
 title: Dapatkan Detail Odata
 linktitle: Dapatkan Detail Odata
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Pelajari cara mengambil detail OData dari buku kerja Excel menggunakan Aspose.Cells untuk .NET.
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Temukan cara mengekstrak rincian OData dari Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah terperinci ini.
 type: docs
 weight: 110
 url: /id/net/excel-workbook/get-odata-details/
 ---
-Penggunaan OData adalah hal yang umum ketika mengambil data terstruktur dari sumber data eksternal. Dengan Aspose.Cells untuk .NET, Anda bisa dengan mudah mengambil detail OData dari buku kerja Excel. Ikuti langkah-langkah di bawah ini untuk mendapatkan hasil yang diinginkan:
+## Perkenalan
 
-## Langkah 1: Tentukan direktori sumber
+Dalam dunia manajemen data yang terus berkembang, kemampuan untuk menghubungkan, menganalisis, dan memanipulasi data secara efisien telah menjadi kebutuhan utama bagi para pengembang dan organisasi. Hadirlah Aspose.Cells for .NET—API canggih yang dirancang untuk bekerja dengan file Excel secara terprogram. Salah satu fitur unggulannya terletak pada integrasi OData, yang memungkinkan pengguna berinteraksi dengan lancar dengan sumber data yang kompleks. Baik Anda sedang mengerjakan proyek intelijen bisnis berskala besar atau sekadar ingin menyederhanakan proses data Anda, memahami cara mendapatkan detail OData dapat sangat meningkatkan kemampuan Anda. Dalam panduan ini, kami akan memandu Anda melalui proses langkah demi langkah untuk mengekstrak detail OData menggunakan Aspose.Cells for .NET.
 
-Pertama, Anda perlu menentukan direktori sumber tempat file Excel yang berisi detail OData berada. Berikut cara melakukannya menggunakan Aspose.Cells:
+## Prasyarat
+
+Sebelum kita menyelami kode lebih dalam, mari pastikan Anda memiliki semua yang Anda butuhkan untuk mengikuti tutorial ini. Berikut ini yang Anda perlukan:
+
+1. Visual Studio: Pastikan Anda telah menginstal Visual Studio. Ini adalah lingkungan yang ideal untuk pengembangan .NET.
+2. Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET dari[Halaman unduhan Aspose](https://releases.aspose.com/cells/net/) Anda juga dapat mencoba versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami nuansa kode dengan lebih baik.
+4. Contoh File Excel: Untuk tutorial ini, kami akan menggunakan file Excel bernama "ODataSample.xlsx," yang harus disimpan di direktori kerja Anda.
+
+Setelah komponen-komponen ini siap, Anda siap untuk mulai mengekstrak rincian OData dengan mudah!
+
+## Paket Impor
+
+Mari kita mulai perjalanan pengkodean kita dengan mengimpor paket-paket yang diperlukan ke dalam proyek kita. Paket-paket ini akan menyediakan kelas-kelas dan metode-metode yang diperlukan untuk bekerja dengan OData di Aspose.Cells.
+
+### Buat Proyek C# Baru
+
+1. Buka Visual Studio.
+2. Klik "Buat proyek baru."
+3. Pilih "Aplikasi Konsol (.NET Core)" atau "Aplikasi Konsol (.NET Framework)"—sesuai selera Anda.
+4. Beri nama proyek Anda (misalnya, ODataDetailsExtractor) dan klik “Buat.”
+
+### Instal Paket NuGet Aspose.Cells
+
+Untuk bekerja dengan Aspose.Cells, Anda perlu menginstalnya melalui NuGet Package Manager:
+
+1. Klik kanan pada proyek Anda di Solution Explorer.
+2. Pilih "Kelola Paket NuGet."
+3. Pada tab "Telusuri", cari "Aspose.Cells."
+4. Klik “Instal” untuk menambahkan paket ke proyek Anda.
+
+### Sertakan Ruang Nama yang Diperlukan
+
+ Setelah instalasi selesai, Anda ingin menambahkan namespace yang diperlukan di bagian atas`Program.cs` mengajukan:
 
 ```csharp
-// direktori sumber
-string SourceDir = RunExamples.Get_SourceDirectory();
+using Aspose.Cells.QueryTables;
+using System;
 ```
 
-## Langkah 2: Muat buku kerja
+Ini akan memberi kita akses ke kelas dan metode yang akan kita gunakan di seluruh kode kita.
 
-Setelah direktori sumber ditentukan, Anda bisa memuat buku kerja Excel dari file. Berikut ini contoh kodenya:
+Setelah lingkungan pengembangan kita siap, saatnya menulis kode utama untuk mengekstrak detail OData dari berkas Excel kita. Proses ini dapat dipecah menjadi beberapa langkah yang mudah dikelola.
+
+## Langkah 1: Siapkan Buku Kerja
+
+ Pada langkah awal ini, Anda akan membuat sebuah instance dari`Workbook` kelas dan memuat file Excel Anda:
 
 ```csharp
-// Muat buku kerja
+// Mengatur direktori sumber
+string SourceDir = RunExamples.Get_SourceDirectory();
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
-## Langkah 3: Dapatkan detail OData
+ Di Sini,`RunExamples.Get_SourceDirectory()` adalah metode khusus yang mungkin Anda miliki dalam proyek Anda yang mengambil jalur ke folder yang berisi file contoh Anda. Pastikan untuk menggantinya dengan jalur sebenarnya jika diperlukan.
 
-Setelah memuat buku kerja, Anda bisa mengakses detail OData menggunakan koleksi PowerQueryFormulas. Begini caranya:
+## Langkah 2: Mengakses Rumus Power Query
+
+Berikutnya, Anda akan mengakses rumus Power Query di buku kerja Anda, yang berisi detail OData:
 
 ```csharp
-// Ambil kumpulan rumus Power Query
 PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
-
-// Telusuri setiap rumus Power Query
-foreach(PowerQueryFormula PQF in PQFcoll)
-{
-Console.WriteLine("Connection name: " + PQF.Name);
-
-// Ambil kumpulan elemen rumus Power Query
-PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-
-// Ulangi setiap elemen rumus Power Query
-foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
-{
-Console.WriteLine("Name: " + PQFI.Name);
-Console.WriteLine("Value: " + PQFI.Value);
-}
-}
-
-Console.WriteLine("GetOdataDetails executed successfully.");
 ```
 
-### Contoh kode sumber untuk Mendapatkan Detail Odata menggunakan Aspose.Cells untuk .NET 
+Baris ini menginisialisasi kumpulan rumus Power Query, yang mempersiapkan kita untuk melakukan pengulangan dan mengambil detail yang diperlukan.
+
+## Langkah 3: Ulangi Rumusnya
+
+Sekarang, gunakan loop untuk menelusuri setiap rumus Power Query, mengambil nama dan item terkaitnya:
+
 ```csharp
-// direktori sumber
-string SourceDir = RunExamples.Get_SourceDirectory();
-Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
-PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
 foreach (PowerQueryFormula PQF in PQFcoll)
 {
-	Console.WriteLine("Connection Name: " + PQF.Name);
-	PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-	foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
-	{
-		Console.WriteLine("Name: " + PQFI.Name);
-		Console.WriteLine("Value: " + PQFI.Value);
-	}
+    Console.WriteLine("Connection Name: " + PQF.Name);
+    PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+    
+    foreach (PowerQueryFormulaItem PQFI in PQFIcoll)
+    {
+        Console.WriteLine("Name: " + PQFI.Name);
+        Console.WriteLine("Value: " + PQFI.Value);
+    }
 }
+```
+
+Di blok ini, kita:
+- Cetak nama koneksi setiap rumus Power Query.
+- Akses item dalam setiap rumus dan cetak nama dan nilainya.
+
+## Langkah 4: Jalankan & Verifikasi
+
+ Terakhir, Anda perlu memastikan bahwa kode berjalan dengan benar dan menghasilkan output yang diharapkan. Tambahkan baris berikut di akhir kode Anda`Main` metode:
+
+```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
 ```
+
+Setelah ditambahkan, jalankan proyek Anda. Anda akan melihat nama koneksi beserta item terkaitnya tercetak jelas di konsol.
 
 ## Kesimpulan
 
-Mengambil detail OData dari buku kerja Excel kini menjadi mudah dengan Aspose.Cells untuk .NET. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda akan dapat mengakses dan memproses data OData secara efisien. Bereksperimenlah dengan file Excel Anda sendiri yang berisi detail OData dan manfaatkan fitur canggih ini semaksimal mungkin.
+Nah, itu dia! Dalam beberapa langkah sederhana, Anda memanfaatkan kekuatan Aspose.Cells untuk .NET untuk mengekstrak detail OData dari file Excel. Sungguh menakjubkan betapa mudahnya untuk menyelami tugas manajemen data yang rumit dengan alat dan petunjuk yang tepat. Dengan menggunakan Aspose.Cells, Anda tidak hanya mempermudah pekerjaan Anda; Anda juga membuka kemungkinan baru untuk manipulasi data. Sekarang setelah Anda memahami dasar-dasarnya, lanjutkan dan jelajahi kemampuannya lebih jauh—ini adalah pengubah permainan!
 
-### FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T: Apakah Aspose.Cells mendukung sumber data lain selain OData?
-    
-J: Ya, Aspose.Cells mendukung berbagai sumber data seperti database SQL, file CSV, layanan web, dll.
+### Apa itu Aspose.Cells untuk .NET?
+Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen Excel tanpa memerlukan Microsoft Excel.
 
-#### T: Bagaimana cara menggunakan detail OData yang diambil di aplikasi saya?
-    
-J: Setelah Anda mengambil detail OData menggunakan Aspose.Cells, Anda dapat menggunakannya untuk analisis data, pembuatan laporan, atau manipulasi lainnya dalam aplikasi Anda.
+### Bisakah saya menggunakan Aspose.Cells tanpa lisensi?
+Ya, Anda dapat mengunduh uji coba gratis dari situs mereka; namun, ada beberapa batasannya.
 
-#### T: Bisakah saya memfilter atau mengurutkan data OData saat mengambil dengan Aspose.Cells?
-    
-J: Ya, Aspose.Cells menawarkan fungsionalitas tingkat lanjut untuk memfilter, mengurutkan, dan memanipulasi data OData untuk memenuhi kebutuhan spesifik Anda.
+### Apa itu rumus Power Query?
+Rumus Power Query memungkinkan pengguna untuk menyambungkan, menggabungkan, dan mengubah data dari berbagai sumber dalam Excel.
 
-#### T: Dapatkah saya mengotomatiskan proses pengambilan detail OData dengan Aspose.Cells?
-    
-J: Ya, Anda dapat mengotomatiskan proses pengambilan detail OData dengan mengintegrasikan Aspose.Cells ke dalam alur kerja Anda atau dengan menggunakan skrip pemrograman.
+### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
+ Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9) untuk dukungan dan bantuan masyarakat.
+
+### Di mana saya dapat membeli Aspose.Cells?
+Anda dapat membeli Aspose.Cells dari mereka[halaman pembelian](https://purchase.aspose.com/buy).

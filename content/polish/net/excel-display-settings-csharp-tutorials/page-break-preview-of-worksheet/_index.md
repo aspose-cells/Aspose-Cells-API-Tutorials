@@ -1,119 +1,129 @@
 ---
-title: Podgląd podziału strony w arkuszu
-linktitle: Podgląd podziału strony w arkuszu
-second_title: Aspose.Cells dla .NET API odniesienia
-description: Przewodnik krok po kroku pokazujący podgląd podziału strony w arkuszu przy użyciu Aspose.Cells dla .NET.
+title: Podgląd podziału strony arkusza kalkulacyjnego
+linktitle: Podgląd podziału strony arkusza kalkulacyjnego
+second_title: Aspose.Cells dla .NET API Reference
+description: Naucz się korzystać z Aspose.Cells for .NET, aby włączyć podgląd podziału stron w arkuszach kalkulacyjnych programu Excel, korzystając z prostego samouczka krok po kroku.
 type: docs
 weight: 110
 url: /pl/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/
 ---
-W tym samouczku wyjaśnimy, jak wyświetlić podgląd podziału strony w arkuszu za pomocą Aspose.Cells dla .NET. Wykonaj następujące kroki, aby uzyskać pożądany rezultat:
+## Wstęp
 
-## Krok 1: Konfigurowanie środowiska
+Tworzenie i zarządzanie plikami Excel programowo może być dość uciążliwe, jeśli nie masz odpowiednich narzędzi. Jednym z takich narzędzi, które zyskało dużą popularność wśród programistów, jest Aspose.Cells dla .NET. Ten potężny interfejs API umożliwia bezproblemową manipulację plikami Excel, oferując jednocześnie mnóstwo funkcji, które mogą pomóc Ci zoptymalizować przepływy pracy — na przykład dostosowywanie podziałów stron w celu uzyskania lepszego układu wydruku. W tym samouczku zagłębimy się w sposób włączania podglądów podziałów stron w arkuszu kalkulacyjnym przy użyciu Aspose.Cells dla .NET.
 
-Upewnij się, że zainstalowałeś Aspose.Cells dla .NET i skonfiguruj środowisko programistyczne. Upewnij się także, że masz kopię pliku Excel, w którym chcesz wyświetlić podgląd podziału strony.
+## Wymagania wstępne
 
-## Krok 2: Zaimportuj niezbędne zależności
+Zanim zaczniemy, musisz spełnić kilka warunków wstępnych:
 
-Dodaj niezbędne dyrektywy, aby korzystać z klas z Aspose.Cells:
+1. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# i środowiska .NET z pewnością pomoże Ci w poruszaniu się po samouczku.
+2.  Aspose.Cells dla .NET zainstalowany: Musisz mieć bibliotekę Aspose.Cells dla .NET. Możesz[pobierz stąd](https://releases.aspose.com/cells/net/).
+3. Visual Studio lub podobne środowisko IDE: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby pisać i wykonywać kod.
+4. Plik Excela: Powinieneś mieć plik Excela (taki jak`book1.xls`) dostępne w katalogu dokumentów, do edycji.
+5. Przestrzenie nazw: Upewnij się, że w kodzie uwzględniono niezbędne przestrzenie nazw, zwłaszcza w przypadku obsługi plików i biblioteki Aspose.Cells.
+
+Teraz, gdy omówiliśmy już wymagania wstępne, możemy przejść do właściwego kodowania.
+
+## Importuj pakiety
+
+Aby rozpocząć pracę z Aspose.Cells w projekcie C#, musisz zaimportować niezbędne pakiety. Można to zrobić, dodając odwołania do projektu.
+
+### Uwzględnij wymagane przestrzenie nazw
+
+Najpierw upewnij się, że na początku pliku C# uwzględniłeś następujące przestrzenie nazw:
 
 ```csharp
-using Aspose.Cells;
 using System.IO;
+using Aspose.Cells;
 ```
 
-## Krok 3: Inicjalizacja kodu
+### Utwórz nowy plik C#
 
-Zacznij od zainicjowania ścieżki do katalogu zawierającego dokumenty Excel:
+Otwórz Visual Studio lub IDE i utwórz nowy plik C#, jeśli jeszcze tego nie zrobiłeś. Tutaj napiszemy nasz kod implementacji.
 
-```csharp
-string dataDir = "YOUR DOCUMENTS DIRECTORY";
-```
 
-## Krok 4: Otwieranie pliku Excel
+Teraz przeanalizujemy krok po kroku kod, aby włączyć podgląd podziału stron w plikach Excela.
 
- Stwórz`FileStream` obiekt zawierający plik Excel do otwarcia:
+## Krok 1: Ustaw ścieżkę katalogu
 
 ```csharp
-FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
-```
-
- Utwórz instancję a`Workbook` obiekt i otwórz plik Excel, korzystając ze strumienia pliku:
-
-```csharp
-Workbook workbook = new Workbook(fstream);
-```
-
-## Krok 5: Dostęp do arkusza kalkulacyjnego
-
-Przejdź do pierwszego arkusza w pliku Excel:
-
-```csharp
-Worksheet worksheet = workbook.Worksheets[0];
-```
-
-## Krok 6: Wyświetlanie podglądu stron
-
-Włącz podgląd stronicowania dla arkusza kalkulacyjnego:
-
-```csharp
-worksheet. IsPageBreakPreview = true;
-```
-
-## Krok 7: Zapisywanie zmian
-
-Zapisz zmiany wprowadzone w pliku Excel:
-
-```csharp
-workbook.Save(dataDir + "output.xls");
-```
-
-## Krok 8: Zamknięcie strumienia plików
-
-Zamknij strumień plików, aby zwolnić wszystkie zasoby:
-
-```csharp
-fstream.Close();
-```
-
-### Przykładowy kod źródłowy podglądu podziału strony w arkuszu przy użyciu Aspose.Cells dla .NET 
-```csharp
-//Ścieżka do katalogu dokumentów.
+// Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tworzenie strumienia plików zawierającego plik Excel do otwarcia
+```
+
+ W tym kroku musisz wymienić`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do folderu projektu, w którym zapisany jest plik Excel. Jest to istotne, ponieważ informuje program, gdzie szukać pliku, którym chcesz manipulować.
+
+## Krok 2: Utwórz strumień plików
+
+```csharp
+// Tworzenie strumienia plików zawierającego plik Excela do otwarcia
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
+```
+
+ Tutaj tworzymy`FileStream` obiekt wskazujący na określony plik Excela (`book1.xls`). Pozwala to Twojej aplikacji na otwieranie i manipulowanie plikiem.
+
+## Krok 3: Utwórz skoroszyt
+
+```csharp
 // Tworzenie instancji obiektu skoroszytu
-// Otwieranie pliku Excel poprzez strumień pliku
+// Otwieranie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
-// Dostęp do pierwszego arkusza w pliku Excel
+```
+
+ W tym kroku tworzysz instancję`Workbook` obiekt, który reprezentuje plik Excel. Ten obiekt jest zasadniczo sercem twoich operacji, umożliwiając ci dostęp do wszystkich arkuszy i wykonywanie różnych manipulacji.
+
+## Krok 4: Uzyskaj dostęp do arkusza kalkulacyjnego
+
+```csharp
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// Wyświetlanie arkusza w podglądzie podziału strony
+```
+
+Tutaj uzyskujemy dostęp do pierwszego arkusza w skoroszycie, używając jego indeksu (od zera). Jeśli masz wiele arkuszy, możesz uzyskać dostęp do innych, zmieniając indeks.
+
+## Krok 5: Włącz podgląd podziału strony
+
+```csharp
+// Wyświetlanie arkusza kalkulacyjnego w podglądzie podziału strony
 worksheet.IsPageBreakPreview = true;
-// Zapisanie zmodyfikowanego pliku Excel
+```
+
+Ten kluczowy krok włącza tryb podglądu podziału stron dla arkusza kalkulacyjnego. Zobaczysz, jak to wpływa na układ i formatowanie wydruku, gdy otworzysz plik później.
+
+## Krok 6: Zapisz skoroszyt
+
+```csharp
+// Zapisywanie zmodyfikowanego pliku Excel
 workbook.Save(dataDir + "output.xls");
+```
+
+Po wprowadzeniu zmian konieczne jest zapisanie skoroszytu. Tutaj zapisujemy go jako`output.xls`, ale możesz zmienić nazwę pliku według potrzeb.
+
+## Krok 7: Oczyść zasoby
+
+```csharp
 // Zamknięcie strumienia plików w celu zwolnienia wszystkich zasobów
 fstream.Close();
 ```
 
+Na koniec, dobrym nawykiem jest czyszczenie zasobów. Zamknięcie strumienia plików zwalnia wszystkie zasoby z nim powiązane, zapobiegając wyciekom pamięci.
+
 ## Wniosek
 
-W tym samouczku nauczyłeś się wyświetlać podgląd podziału strony w arkuszu przy użyciu Aspose.Cells dla .NET. Wykonując opisane kroki, możesz łatwo kontrolować wygląd i układ plików Excel.
+I masz to! Udało Ci się włączyć podgląd podziału strony dla arkusza kalkulacyjnego przy użyciu Aspose.Cells dla .NET. Ta funkcja może znacznie zwiększyć Twoją zdolność do zarządzania układami wydruku, ułatwiając prezentowanie danych w sposób uporządkowany. Niezależnie od tego, czy generujesz raporty, czy przygotowujesz dane do drukowania, Aspose.Cells oferuje Ci narzędzia niezbędne do uwolnienia Twojej kreatywności i produktywności. Na co więc czekasz? Zanurz się w swoim kolejnym projekcie Excel z Aspose.Cells i zobacz, jak przekształca Twój przepływ pracy!
 
-### Często zadawane pytania (FAQ)
+## Najczęściej zadawane pytania
 
-#### Co to jest Aspose.Cells dla .NET?
+### Czym jest Aspose.Cells?
+Aspose.Cells to interfejs API .NET umożliwiający programistom tworzenie, edytowanie i konwertowanie plików programu Excel bez konieczności instalowania programu Microsoft Excel.
 
-Aspose.Cells dla .NET to popularna biblioteka oprogramowania do manipulowania plikami Excel w aplikacjach .NET.
+### Czy mogę używać Aspose.Cells za darmo?
+ Tak, Aspose oferuje bezpłatną wersję próbną w celach testowych. Możesz[pobierz bezpłatną wersję próbną tutaj](https://releases.aspose.com/).
 
-#### Czy mogę wyświetlić podgląd poszczególnych stron konkretnego arkusza zamiast całego arkusza?
+### Jak mogę kupić Aspose.Cells?
+ Możesz[kup Aspose.Cells tutaj](https://purchase.aspose.com/buy).
 
-Tak, używając Aspose.Cells możesz włączyć podgląd podziału strony dla konkretnego arkusza, uzyskując dostęp do odpowiedniego obiektu arkusza.
+### Czy dla Aspose.Cells dostępna jest pomoc techniczna?
+ Oczywiście! Możesz uzyskać pomoc poprzez[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 
-#### Czy Aspose.Cells obsługuje inne funkcje edycji plików Excel?
-
-Tak, Aspose.Cells oferuje szeroką gamę funkcji do edycji i manipulowania plikami Excel, takich jak dodawanie danych, formatowanie, tworzenie wykresów itp.
-
-#### Czy Aspose.Cells działa tylko z plikami Excel w formacie .xls?
-
-Nie, Aspose.Cells obsługuje różne formaty plików Excel, w tym .xls i .xlsx.
-	
+### Czy mogę zastosować podgląd podziału stron w wielu arkuszach kalkulacyjnych?
+Tak, możesz przeglądać arkusze skoroszytu i stosować tę samą właściwość do każdego z nich osobno.

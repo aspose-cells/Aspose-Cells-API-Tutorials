@@ -1,145 +1,144 @@
 ---
 title: Izinkan Pengguna Untuk Mengedit Rentang Di Lembar Kerja Excel
 linktitle: Izinkan Pengguna Untuk Mengedit Rentang Di Lembar Kerja Excel
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Izinkan pengguna mengedit rentang tertentu dalam spreadsheet Excel menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dengan kode sumber dalam C#.
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Izinkan pengguna untuk mengedit rentang tertentu dalam lembar kerja Excel menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah dengan kode sumber dalam C#.
 type: docs
 weight: 10
 url: /id/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
-Dalam panduan ini, kami akan memandu Anda tentang cara menggunakan Aspose.Cells untuk .NET agar pengguna dapat mengedit rentang tertentu dalam spreadsheet Excel. Ikuti langkah-langkah di bawah ini untuk menyelesaikan tugas ini.
+## Perkenalan
 
-## Langkah 1: Menyiapkan lingkungan
+Dalam hal bekerja dengan lembar kerja Excel, fleksibilitas sering kali menjadi kunci—terutama ketika beberapa pengguna memerlukan akses untuk mengedit area tertentu tanpa mengorbankan integritas data seluruh lembar. Di sinilah Aspose.Cells for .NET bersinar! Dalam tutorial ini, kita akan membahas cara mengizinkan pengguna mengedit rentang tertentu dalam lembar kerja Excel sambil melindungi bagian dokumen lainnya. Di akhir artikel ini, Anda tidak hanya akan memahami konsepnya tetapi juga memiliki contoh nyata untuk dikerjakan. 
 
-Pastikan Anda telah menyiapkan lingkungan pengembangan dan menginstal Aspose.Cells untuk .NET. Anda dapat mengunduh perpustakaan versi terbaru dari situs resmi Aspose.
+## Prasyarat
 
-## Langkah 2: Impor namespace yang diperlukan
+Sebelum kita masuk ke inti pembahasan, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-Dalam proyek C# Anda, impor namespace yang diperlukan untuk bekerja dengan Aspose.Cells:
+1. Lingkungan Pengembangan .NET: Anda harus menyiapkan lingkungan pengembangan .NET yang berfungsi (ini bisa berupa Visual Studio atau IDE lain pilihan Anda).
+2.  Pustaka Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/cells/net/).
+3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda menavigasi contoh kode dengan mudah.
+4. Memahami Dasar-Dasar Excel: Mengetahui cara kerja Excel akan memberikan dasar bagi fungsionalitas yang akan kita bahas.
+
+Setelah prasyarat ini terpenuhi, Anda siap berangkat!
+
+## Paket Impor
+
+Sebelum memulai pengodean, kita perlu memastikan bahwa proyek kita mengenali namespace Aspose.Cells. Berikut cara mengimpor paket yang diperlukan:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Langkah 3: Mengatur jalur ke direktori dokumen
+Sekarang setelah kita mengimpor apa yang kita perlukan, mari kita mulai tutorial kita langkah demi langkah.
 
- Nyatakan a`dataDir` variabel untuk menentukan jalur ke direktori tempat Anda ingin menyimpan file Excel yang dihasilkan:
+## Langkah 1: Siapkan Direktori Dokumen
 
-```csharp
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-```
-
- Pastikan untuk mengganti`"YOUR_DOCUMENT_DIRECTORY"` dengan jalur yang benar di sistem Anda.
-
-## Langkah 4: Membuat Objek Buku Kerja
-
-Buat instance objek Buku Kerja baru yang mewakili buku kerja Excel yang ingin Anda buat:
+Untuk semua operasi berkas, sangat penting untuk memiliki lokasi yang ditentukan di mana dokumen kita akan disimpan. Mari kita atur direktori kerja kita untuk menyimpan berkas Excel.
 
 ```csharp
-Workbook book = new Workbook();
-```
-
-## Langkah 5: Akses ke lembar kerja pertama
-
-Navigasikan ke lembar kerja pertama di buku kerja Excel menggunakan kode berikut:
-
-```csharp
-Worksheet sheet = book.Worksheets[0];
-```
-
-## Langkah 6: Mengambil rentang modifikasi resmi
-
- Dapatkan koleksi rentang edit yang diizinkan menggunakan`AllowEditRanges` Properti:
-
-```csharp
-ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-```
-
-## Langkah 7: Tentukan Rentang yang Dilindungi
-
- Tentukan rentang yang dilindungi menggunakan`Add` metode`AllowEditRanges` koleksi:
-
-```csharp
-int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-protectedRange protectedRange = allowRanges[idx];
-```
-
-Di sini kita telah membuat rentang terlindung "r2" yang membentang dari sel A1 hingga sel C3.
-
-## Langkah 8: Menentukan kata sandi
-
- Tentukan kata sandi untuk rentang yang dilindungi menggunakan`Password` Properti:
-
-```csharp
-protectedRange.Password = "YOUR_PASSWORD";
-```
-
- Pastikan untuk mengganti`"YOUR_PASSWORD"` dengan kata sandi yang diinginkan.
-
-## Langkah 9: Melindungi lembar kerja
-
- Lindungi lembar kerja menggunakan`Protect` metode`Worksheet` obyek:
-
-```csharp
-sheet.Protect(ProtectionType.All);
-```
-
-Ini akan melindungi spreadsheet dengan mencegah modifikasi apa pun di luar rentang yang diperbolehkan.
-
-## Langkah 10: Mendaftarkan
-
-  berkas Excel
-
- Simpan file Excel yang dihasilkan menggunakan`Save` metode`Workbook` obyek:
-
-```csharp
-book.Save(dataDir + "protectedrange.out.xls");
-```
-
-Pastikan untuk menentukan nama file yang diinginkan dan jalur yang benar.
-
-### Contoh kode sumber untuk Izinkan Pengguna Mengedit Rentang di Lembar Kerja Excel menggunakan Aspose.Cells untuk .NET 
-```csharp
-//Jalur ke direktori dokumen.
+// Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
+
 // Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
-// Buat instance Buku Kerja baru
+```
+
+ Pertama, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur tempat Anda ingin menyimpan file. Kode ini memeriksa apakah direktori tersebut ada; jika tidak, maka akan dibuatkan direktori.
+
+## Langkah 2: Buat Buku Kerja Baru
+
+Setelah direktori kerja kita siap, waktunya membuat buku kerja Excel. 
+
+```csharp
+// Membuat Buku Kerja baru
 Workbook book = new Workbook();
-// Dapatkan lembar kerja pertama (default).
+```
+
+ Di sini, kita membuat contoh baru dari`Workbook` kelas yang disediakan oleh Aspose.Cells, yang memungkinkan kita memanipulasi file Excel.
+
+## Langkah 3: Akses Lembar Kerja Default
+
+Setiap buku kerja yang baru dibuat dilengkapi dengan setidaknya satu lembar kerja. Mari kita akses lembar kerja tersebut.
+
+```csharp
+// Dapatkan lembar kerja pertama (default)
 Worksheet sheet = book.Worksheets[0];
+```
+
+Dalam potongan kode ini, kita mengakses lembar kerja pertama dari buku kerja kita, yang akan kita manipulasi dalam langkah berikutnya.
+
+## Langkah 4: Dapatkan Izinkan Edit Rentang
+
+ Untuk mengaktifkan rentang tertentu dari lembar kerja untuk pengeditan, kita perlu mengakses`AllowEditRanges` milik.
+
+```csharp
 // Dapatkan Izinkan Edit Rentang
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-// Tentukan Rentang Terproteksi
+```
+
+Koleksi ini akan memungkinkan kita untuk mengelola rentang mana yang dapat diedit dalam lembar kerja kita.
+
+## Langkah 5: Tentukan Rentang yang Dilindungi
+
+Berikutnya, mari tentukan bagian lembar kerja mana yang ingin kita lindungi sambil mengizinkan pengeditan pada rentang tertentu.
+
+```csharp
+// Definisikan ProtectedRange
 ProtectedRange proteced_range;
+
 // Buat rentangnya
 int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
-// Tentukan kata sandi
+
+// Tentukan kata sandinya
 proteced_range.Password = "123";
-// Lindungi lembaran itu
+```
+
+Pada langkah ini, kami menambahkan rentang baru yang dapat diedit yang disebut "r2" yang memungkinkan pengeditan pada sel dari baris 1 kolom 1 hingga baris 3 kolom 3. Selain itu, kami menetapkan kata sandi untuk melindungi rentang ini, memastikan hanya pengguna yang berwenang yang dapat mengubahnya.
+
+## Langkah 6: Lindungi Lembar Kerja
+
+Sekarang setelah kita menyiapkan rentang yang dapat diedit, kita perlu melindungi lembar kerja.
+
+```csharp
+// Lindungi lembarannya
 sheet.Protect(ProtectionType.All);
-// Simpan file Excelnya
+```
+
+Kode ini akan melindungi keseluruhan lembar kerja dari perubahan yang tidak diinginkan, kecuali untuk rentang yang baru saja kita tentukan.
+
+## Langkah 7: Simpan File Excel
+
+Mari simpan buku kerja sehingga kita dapat melihat perubahan kita tercermin dalam berkas Excel.
+
+```csharp
+// Simpan file Excel
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
+Pastikan untuk menyesuaikan nama berkas sesuai kebutuhan. Ini akan membuat berkas Excel di direktori yang Anda tentukan dengan pengaturan yang telah kita konfigurasikan.
+
 ## Kesimpulan
 
-Anda sekarang telah mempelajari cara menggunakan Aspose.Cells untuk .NET untuk memungkinkan pengguna mengedit rentang tertentu dalam spreadsheet Excel. Jangan ragu untuk menjelajahi lebih jauh fitur-fitur yang ditawarkan oleh Aspose.Cells untuk memenuhi kebutuhan spesifik Anda.
+Nah, itu dia! Anda telah berhasil membuat lembar kerja Excel yang membatasi penyuntingan ke rentang tertentu sekaligus melindungi bagian lembar lainnya. Menggunakan Aspose.Cells for .NET membuat pengelolaan tugas semacam ini jauh lebih mudah dan efisien. Baik Anda sedang mengembangkan aplikasi yang rumit atau hanya perlu mengelola data dengan aman, kemampuan ini dapat meningkatkan alur kerja Anda secara signifikan.
 
+## Pertanyaan yang Sering Diajukan
 
-### FAQ
+### Apa itu Aspose.Cells?
+Aspose.Cells adalah pustaka .NET yang canggih untuk menangani berkas Excel, menawarkan fungsionalitas seperti membuat, mengedit, dan mengonversi lembar kerja secara terprogram.
 
-#### 1. Bagaimana cara mengizinkan pengguna mengedit rentang tertentu di spreadsheet Excel?
+### Bisakah saya menerapkan beberapa rentang yang dapat diedit?
+ Tentu saja! Anda dapat menghubungi`Add` metode pada`allowRanges` koleksi beberapa kali untuk menentukan beberapa rentang yang dapat diedit.
 
- Anda dapat menggunakan`ProtectedRangeCollection` kelas untuk menentukan rentang modifikasi yang diperbolehkan. Menggunakan`Add` metode untuk membuat rentang terlindungi baru dengan sel yang diinginkan.
+### Apa yang terjadi jika saya lupa kata sandinya?
+Sayangnya, jika Anda lupa kata sandi untuk rentang yang dapat diedit, Anda harus menghapus perlindungan atau mengakses file dengan cara yang telah ditentukan sebelumnya yang mungkin melibatkan kredensial.
 
-#### 2. Dapatkah saya menetapkan kata sandi untuk rentang modifikasi resmi?
+### Apakah ada versi gratis Aspose.Cells?
+Ya, Aspose menyediakan uji coba gratis yang dapat Anda manfaatkan untuk menjelajahi fitur-fiturnya sebelum membeli.
 
- Ya, Anda dapat menentukan kata sandi menggunakan`Password` properti dari`ProtectedRange` obyek. Ini akan membatasi akses hanya untuk pengguna yang memiliki kata sandi.
-
-#### 3. Bagaimana cara melindungi spreadsheet setelah rentang yang diizinkan ditetapkan?
-
- Menggunakan`Protect` metode`Worksheet` objek untuk melindungi lembar kerja. Ini akan mencegah perubahan apa pun di luar rentang yang diizinkan, yang mungkin meminta kata sandi jika Anda menentukannya.
+### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?
+ Anda dapat memeriksa[dokumentasi](https://reference.aspose.com/cells/net/) untuk panduan dan referensi terperinci.

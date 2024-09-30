@@ -1,109 +1,113 @@
 ---
-title: Excel ワークブックの書き込み保護時に作成者を指定する
-linktitle: Excel ワークブックの書き込み保護時に作成者を指定する
+title: Excel ブックの書き込み保護中に作成者を指定する
+linktitle: Excel ブックの書き込み保護中に作成者を指定する
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel ワークブックを保護およびカスタマイズする方法を学びます。 C# のステップバイステップのチュートリアル。
+description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して作成者を指定しながら Excel ブックを書き込み保護する方法を学習します。
 type: docs
 weight: 30
 url: /ja/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
+## 導入
 
-このチュートリアルでは、.NET 用の Aspose.Cells ライブラリを使用して Excel ブックを書き込み保護するときに作成者を指定する方法を説明します。
+.NET アプリケーションで Excel ファイルを操作する場合、多くの開発者にとって Aspose.Cells は頼りになるソリューションです。豊富な機能セットにより、Excel ファイルを簡単に生成、操作、保護できます。開発者が直面する一般的な要件の 1 つは、Excel ブックに書き込みながら、不正な編集から保護することです。さらに、作成者を指定すると、ドキュメントを共有するときに追跡するのに非常に役立ちます。このガイドでは、Aspose.Cells for .NET を使用して Excel ブックに書き込み保護を適用しながら作成者を指定する方法について詳しく説明します。
 
-## ステップ 1: 環境を準備する
+## 前提条件
 
-始める前に、Aspose.Cells for .NET がマシンにインストールされていることを確認してください。 Aspose 公式 Web サイトからライブラリをダウンロードし、提供されるインストール手順に従います。
+実装の細部に入る前に、しっかりとした基盤を整えることが重要です。開始するために必要な前提条件は次のとおりです。
 
-## ステップ 2: ソース ディレクトリと出力ディレクトリの構成
+1. Visual Studio: Visual Studio が正常にインストールされている必要があります。ここで .NET コードを記述してコンパイルします。
+2. .NET Framework: .NET Framework がインストールされていることを確認してください。Aspose.Cells はさまざまなバージョンをサポートしているため、アプリケーションに適したバージョンを選択してください。
+3.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリが必要です。これは以下から入手できます。[公式ダウンロードページ](https://releases.aspose.com/cells/net/).
+4. C# の基本的な理解: C# に精通していると、コーディング プロセスをスムーズに進めることができます。
 
-提供されたソース コードでは、ソース ディレクトリと出力ディレクトリを指定する必要があります。を変更します。`sourceDir`そして`outputDir` 「YOUR SOURCE DIRECTORY」と「YOUR OUTPUT DIRECTORY」をマシン上のそれぞれの絶対パスに置き換えて変数を追加します。
+## パッケージのインポート
 
-```csharp
-//ソースディレクトリ
-string sourceDir = "PATH TO YOUR SOURCE DIRECTORY";
-
-//出力ディレクトリ
-string outputDir = "YOUR OUTPUT DIRECTORY PATH";
-```
-
-## ステップ 3: 空の Excel ワークブックを作成する
-
-まず、空の Excel ブックを表す Workbook オブジェクトを作成します。
+Aspose.Cells が提供する機能を最大限に活用するには、まず必要なパッケージをインポートすることから始めましょう。C# ファイルに次の using ディレクティブを追加して開始します。
 
 ```csharp
-//空のワークブックを作成します。
-Workbook wb = new Workbook();
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 ```
 
-## ステップ 4: パスワードによる書き込み保護
+このディレクティブを使用すると、Aspose.Cells ライブラリに含まれるクラスとメソッドにアクセスできます。パッケージをインポートしたので、楽しい部分、つまりコードの記述に進みましょう。
 
-次に、Excel ワークブックを書き込み保護するためのパスワードを指定します。`WriteProtection.Password` Workbook オブジェクトのプロパティ。
+## ステップ1: ディレクトリを設定する
 
-```csharp
-//ワークブックの書き込みをパスワードで保護します。
-wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
-```
+ワークブックを開始する前に、ソース ファイルが保存されているパスと出力を保存するパスを設定することをお勧めします。手順は次のとおりです。
 
-## ステップ 5: 著者の指定
-
-次に、次のコマンドを使用して Excel ワークブックの作成者を指定します。`WriteProtection.Author` Workbook オブジェクトのプロパティ。
-
-```csharp
-//ワークブックの書き込み保護中に作成者を指定します。
-wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
-```
-
-## ステップ 6: 保護された Excel ワークブックをバックアップする
-
-書き込み保護と作成者を指定したら、次のコマンドを使用して Excel ワークブックを XLSX 形式で保存できます。`Save()`方法。
-
-```csharp
-//ワークブックを XLSX 形式で保存します。
-wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-```
-
-### Aspose.Cells for .NET を使用した Excel ワークブックの書き込み保護中に作成者を指定するためのサンプル ソース コード 
 ```csharp
 //ソースディレクトリ
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 //出力ディレクトリ
 string outputDir = "YOUR OUTPUT DIRECTORY";
+```
 
+必ず交換してください`"YOUR SOURCE DIRECTORY"`そして`"YOUR OUTPUT DIRECTORY"`マシン上の実際のパスを使用します。傑作の作成を開始する前に、整頓されたワークスペースを作成すると考えてください。
+
+## ステップ2: 空のワークブックを作成する
+
+ディレクトリの設定が完了したので、次のステップは空のワークブックを作成することです。これは基本的に、データを書き込むキャンバスになります。
+
+```csharp
 //空のワークブックを作成します。
 Workbook wb = new Workbook();
+```
 
-//ワークブックの書き込みをパスワードで保護します。
+アーティストが空白のキャンバスから始めるのと同じように、空のブックから始め、後でデータや書式を追加することができます。
+
+## ステップ3: ワークブックの書き込み保護
+
+書き込み保護は、特にデータの整合性を損なわないことを保証したい場合に、非常に重要な要素です。これはパスワードで実現できます。
+
+```csharp
+//パスワードを使用してワークブックを書き込み保護します。
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
+```
 
+この行では、`"YOUR_PASSWORD"`強力なパスワードを選択してください。このパスワードは鍵のかかったドアのように機能し、鍵 (パスワード) を持つ人だけが入ることができます。
+
+## ステップ4: 著者を指定する
+
+ここで、ワークブックの作成者を指定します。これは特に説明責任を果たすのに役立ち、他のユーザーがファイルの作成者または変更者を確認できるようになります。
+
+```csharp
 //ワークブックの書き込み保護中に作成者を指定します。
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
+```
 
+必ず交換してください`"YOUR_AUTHOR"`ドキュメントに関連付けたい名前を入力します。これはアートワークに署名するのと同じで、この作品に対して誰に感謝すべきかを人々に知らせることができます。
+
+## ステップ5: ワークブックを保存する
+
+最後のステップは、ワークブックを希望の形式で保存することです。この場合は、XLSX ファイルとして保存します。 
+
+```csharp
 //ワークブックを XLSX 形式で保存します。
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
-
 ```
+
+ここで、出力ファイルは指定した出力ディレクトリに次の名前で保存されます。`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`ここでようやくあなたの努力が報われ、ワークブックがしっかりと保護されていることを知りながら、他のユーザーと共有できるようになります。
 
 ## 結論
 
-おめでとうございます！ Aspose.Cells for .NET を使用して Excel ワークブックを書き込み保護するときに作成者を指定する方法を学習しました。これらの手順を独自のプロジェクトに適用して、Excel ワークブックを保護およびカスタマイズできます。
-
-Excel ファイルに対するより高度な操作については、Aspose.Cells for .NET の機能を自由に調べてください。
+これで完了です。Excel ブックを作成し、パスワードで書き込み保護を設定し、作成者を指定して、Aspose.Cells for .NET を使用してシームレスに保存する方法を学びました。この機能の組み合わせにより、データが保護されるだけでなく、データの整合性が維持され、適切な帰属が提供されます。
 
 ## よくある質問
 
-#### Q: パスワードを指定せずに Excel ワークブックを書き込み禁止にすることはできますか?
+### 書き込み保護のパスワードをカスタマイズできますか?  
+はい、必要に応じてパスワードをカスタマイズできます。`YOUR_PASSWORD`ご希望のパスワードを入力してください。
 
- A: はい、Workbook オブジェクトの`WriteProtect()`パスワードを指定せずに Excel ブックを書き込み保護する方法。これにより、パスワードを必要とせずにブックへの変更が制限されます。
+### Aspose.Cells は無料で使用できますか?  
+ Aspose.Cellsは有料のライブラリですが、期間限定で無料でお試しいただけます。[無料トライアルリンク](https://releases.aspose.com/)始めましょう。
 
-#### Q: Excel ワークブックから書き込み保護を削除するにはどうすればよいですか?
+### Aspose.Cells ライブラリを購入するにはどうすればよいですか?  
+ Aspose.Cellsは、以下のサイトから購入できます。[購入ページ](https://purchase.aspose.com/buy).
 
- A: Excel ワークブックから書き込み保護を削除するには、`Unprotect()` Worksheet オブジェクトのメソッド、または`RemoveWriteProtection()`特定の使用例に応じて、Workbook オブジェクトのメソッド。 。
+### このアプローチを Web アプリケーションで使用できますか?  
+もちろんです! Aspose.Cells は、.NET を使用するデスクトップ アプリケーションと Web アプリケーションの両方でシームレスに動作します。
 
-#### Q: Excel ブックを保護するためのパスワードを忘れてしまいました。私に何ができる ？
-
-A: Excel ブックを保護するためのパスワードを忘れた場合、それを直接削除することはできません。ただし、保護された Excel ファイルのパスワード回復機能を提供する専用のサードパーティ ツールを使用してみることもできます。
-
-#### Q: Excel ワークブックを書き込み保護するときに複数の作成者を指定することはできますか?
-
-A: いいえ、Aspose.Cells for .NET ライブラリでは、Excel ワークブックを書き込み保護するときに単一の作成者を指定できます。複数の作成者を指定する場合は、Excel ファイルを直接操作してカスタム ソリューションを検討する必要があります。
+### サポートが必要な場合はどうすればよいですか?  
+質問やトラブルシューティングについては、Asposeコミュニティが非常に役立ちます。[サポートフォーラム](https://forum.aspose.com/c/cells/9)援助をお願いします。

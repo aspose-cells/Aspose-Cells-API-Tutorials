@@ -120,7 +120,7 @@ chart.toImage("chart.png", new ImageOrPrintOptions());
 // Δημιουργήστε έναν συγκεντρωτικό πίνακα
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", "E1", "SalesAnalysis");
 
-// Προσθήκη πεδίων γραμμής και στήλης
+// Προσθέστε πεδία γραμμής και στήλης
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 
@@ -171,7 +171,7 @@ workbook.save("data.csv", SaveFormat.CSV);
 
 Ενώ εργάζεστε με το Aspose.Cells για Java, ενδέχεται να αντιμετωπίσετε προκλήσεις. Ανατρέξτε στην ενότητα αντιμετώπισης προβλημάτων για λύσεις σε κοινά προβλήματα.
 
-## συμπέρασμα
+## Σύναψη
 
 Με το Aspose.Cells για Java, μπορείτε να αναβαθμίσετε τις δυνατότητες ανάλυσης δεδομένων στο Excel σε νέα ύψη. Είτε έχετε να κάνετε με εκτεταμένα σύνολα δεδομένων, σύνθετους υπολογισμούς ή την ανάγκη για αυτοματοποίηση, αυτό το ισχυρό API σας καλύπτει. Ξεκινήστε να εξερευνάτε τον κόσμο της προηγμένης ανάλυσης δεδομένων με το Aspose.Cells για Java σήμερα!
 

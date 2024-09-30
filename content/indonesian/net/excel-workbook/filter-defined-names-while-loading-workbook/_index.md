@@ -1,72 +1,109 @@
 ---
 title: Filter Nama yang Ditentukan Saat Memuat Buku Kerja
 linktitle: Filter Nama yang Ditentukan Saat Memuat Buku Kerja
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Pelajari cara memfilter nama yang ditentukan saat memuat buku kerja Excel dengan Aspose.Cells untuk .NET.
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara memfilter nama yang ditentukan saat memuat buku kerja dengan Aspose.Cells untuk .NET dalam panduan komprehensif ini.
 type: docs
 weight: 100
 url: /id/net/excel-workbook/filter-defined-names-while-loading-workbook/
 ---
-Saat bekerja dengan buku kerja Excel dalam aplikasi .NET, sering kali perlu memfilter data yang dimuat. Aspose.Cells for .NET adalah perpustakaan yang kuat untuk memanipulasi buku kerja Excel dengan mudah. Dalam panduan ini, kami akan memperlihatkan kepada Anda cara memfilter nama yang ditentukan saat memuat buku kerja menggunakan Aspose.Cells untuk .NET. Ikuti langkah-langkah sederhana ini untuk mendapatkan hasil yang diinginkan:
+## Perkenalan
 
-## Langkah 1: Tentukan opsi pemuatan
+Jika Anda ingin mendalami manipulasi file Excel dengan Aspose.Cells for .NET, Anda telah membuka halaman yang tepat! Dalam artikel ini, kita akan membahas cara memfilter nama yang ditentukan saat memuat buku kerja—salah satu dari sekian banyak fitur hebat dari API yang fantastis ini. Baik Anda ingin menangani data tingkat lanjut atau sekadar membutuhkan cara mudah untuk mengelola dokumen Excel secara terprogram, panduan ini akan membantu Anda.
 
-Pertama, Anda perlu menentukan opsi pemuatan untuk menentukan perilaku pemuatan buku kerja. Dalam kasus kami, kami ingin mengabaikan nama yang disetel saat dimuat. Berikut cara melakukannya menggunakan Aspose.Cells:
+## Prasyarat
+
+Sebelum kita mulai, pastikan Anda memiliki semua peralatan yang diperlukan. Berikut ini yang Anda butuhkan:
+
+- Pengetahuan dasar pemrograman C#: Anda harus terbiasa dengan sintaksis dan konsep pemrograman.
+-  Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah menginstalnya dan siap digunakan. Anda dapat mengunduh pustaka dari sini[link](https://releases.aspose.com/cells/net/).
+- Visual Studio atau IDE C# apa pun: Lingkungan pengembangan sangat penting untuk menulis dan menguji kode Anda.
+-  Contoh file Excel: Kami akan menggunakan file Excel bernama`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`Anda dapat membuat berkas ini secara manual atau mengunduhnya sesuai kebutuhan.
+
+## Paket Impor
+
+Hal pertama yang harus dilakukan! Anda perlu mengimpor namespace Aspose.Cells yang relevan. Berikut cara melakukannya:
 
 ```csharp
-// Menentukan opsi pemuatan
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+Ruang nama ini memungkinkan Anda memanfaatkan sepenuhnya kekuatan pustaka Aspose.Cells untuk memanipulasi file Excel secara efektif.
+
+Mari kita uraikan proses pemfilteran nama yang ditentukan saat memuat buku kerja ke dalam langkah-langkah yang jelas dan mudah dikelola.
+
+## Langkah 1: Tentukan Opsi Muatan
+
+Hal pertama yang akan kita lakukan adalah membuat sebuah instance dari`LoadOptions` Kelas ini akan membantu kita menentukan bagaimana kita ingin memuat berkas Excel kita.
+
+```csharp
 LoadOptions opts = new LoadOptions();
-
-// Jangan memuat nama yang ditentukan
-opts. LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-## Langkah 2: Muat buku kerja
+ Di sini, kita menginisialisasi objek baru dari`LoadOptions` kelas. Objek ini memungkinkan berbagai konfigurasi, yang akan kita siapkan di langkah berikutnya.
 
-Setelah opsi pemuatan dikonfigurasi, Anda bisa memuat buku kerja Excel dari file sumber. Pastikan untuk menentukan jalur file yang benar. Berikut ini contoh kodenya:
+## Langkah 2: Atur Filter Beban
 
-```csharp
-// Muat buku kerja
-Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
-```
-
-## Langkah 3: Simpan buku kerja yang difilter
-
-Setelah memuat buku kerja, Anda bisa melakukan operasi atau pengeditan lain sesuai kebutuhan. Kemudian Anda bisa menyimpan buku kerja yang difilter ke file output. Begini caranya:
+Selanjutnya, kita perlu menentukan data apa yang ingin kita saring saat memuat buku kerja. Dalam kasus ini, kita ingin menghindari pemuatan nama-nama yang telah ditentukan.
 
 ```csharp
-// Simpan buku kerja Excel yang difilter
-wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
-```
-
-### Contoh kode sumber untuk Memfilter Nama yang Ditentukan Saat Memuat Buku Kerja menggunakan Aspose.Cells untuk .NET 
-```csharp
-//Tentukan opsi pemuatan
-LoadOptions opts = new LoadOptions();
-//Kami tidak ingin memuat nama yang ditentukan
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
-//Muat buku kerja
+```
+
+Tilde (~) operator menunjukkan bahwa kita ingin mengecualikan nama yang ditentukan dari proses pemuatan. Ini penting jika Anda ingin menjaga beban kerja tetap ringan dan menghindari data yang tidak perlu yang dapat mempersulit pemrosesan Anda.
+
+## Langkah 3: Muat Buku Kerja
+
+Sekarang setelah opsi pemuatan kita ditentukan, saatnya memuat buku kerja itu sendiri. Gunakan kode di bawah ini:
+
+```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
-//Simpan file keluaran Excel, itu akan merusak rumus di C1
+```
+
+ Pada baris ini, Anda membuat instance baru dari`Workbook`class, yang meneruskan jalur ke contoh berkas Excel dan opsi pemuatan. Ini memuat buku kerja Anda dengan nama yang ditentukan yang difilter sebagaimana ditentukan.
+
+## Langkah 4: Simpan File Output
+
+Setelah memuat buku kerja sesuai kebutuhan, langkah berikutnya adalah menyimpan output. Ingat, karena kita memfilter nama-nama yang ditentukan, penting untuk diperhatikan bagaimana hal ini dapat memengaruhi rumus yang sudah ada.
+
+```csharp
 wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
+```
+
+Baris ini menyimpan buku kerja baru Anda ke direktori keluaran yang ditentukan. Jika buku kerja asli Anda berisi rumus yang menggunakan nama yang ditentukan dalam perhitungannya, harap perhatikan bahwa rumus ini mungkin rusak karena pemfilteran.
+
+## Langkah 5: Konfirmasi Eksekusi
+
+Akhirnya, kami dapat mengonfirmasi bahwa operasi kami berhasil. Sebaiknya berikan umpan balik di konsol Anda untuk memastikan semuanya berjalan lancar.
+
+```csharp
 Console.WriteLine("FilterDefinedNamesWhileLoadingWorkbook executed successfully.");
 ```
 
+Dengan baris ini, Anda memberikan indikasi yang jelas bahwa operasi telah selesai tanpa masalah apa pun.
+
 ## Kesimpulan
 
-Memfilter nama yang ditentukan saat memuat buku kerja Excel bisa menjadi hal yang penting untuk banyak aplikasi. Aspose.Cells untuk .NET membuat tugas ini lebih mudah dengan menyediakan opsi fleksibel untuk memuat dan memfilter data. Dengan mengikuti langkah-langkah dalam panduan ini, Anda akan dapat memfilter nama yang ditentukan secara efektif dan mencapai hasil yang diinginkan di buku kerja Excel Anda.
+Nah, itu dia! Memfilter nama yang ditentukan saat memuat buku kerja dengan Aspose.Cells for .NET dapat dilakukan dengan beberapa langkah mudah. Proses ini sangat membantu dalam skenario saat Anda perlu menyederhanakan pemrosesan data atau mencegah data yang tidak perlu memengaruhi perhitungan Anda.
 
+Dengan mengikuti panduan ini, Anda dapat memuat file Excel dengan yakin sambil mengendalikan data apa yang ingin Anda kecualikan. Baik Anda mengembangkan aplikasi yang mengelola kumpulan data besar atau menerapkan logika bisnis tertentu, menguasai fitur ini akan meningkatkan keterampilan manipulasi Excel Anda.
 
-### FAQ
+## Pertanyaan yang Sering Diajukan
 
-#### T: Apakah Aspose.Cells mendukung bahasa pemrograman lain selain C#?
-    
-A: Ya, Aspose.Cells adalah perpustakaan lintas platform yang mendukung banyak bahasa pemrograman seperti Java, Python, C++dan masih banyak lagi.
+### Apa itu Aspose.Cells?
+Aspose.Cells adalah pustaka .NET canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola file Excel secara terprogram.
 
-#### T: Bisakah saya memfilter tipe data lain saat memuat buku kerja dengan Aspose.Cells?
-    
-J: Ya, Aspose.Cells menawarkan serangkaian opsi pemfilteran untuk data termasuk rumus, gaya, makro, dll.
+### Bisakah saya memfilter tipe data lain saat memuat buku kerja?
+Ya, Aspose.Cells menyediakan berbagai opsi muat untuk memfilter berbagai tipe data, termasuk bagan, gambar, dan validasi data.
 
-#### T: Apakah Aspose.Cells mempertahankan format dan properti buku kerja asli?
-    
-J: Ya, Aspose.Cells mempertahankan pemformatan, gaya, rumus, dan properti lain dari buku kerja asli saat bekerja dengan file Excel.
+### Apa yang terjadi pada rumus saya setelah memfilter nama yang ditentukan?
+Memfilter nama yang ditentukan dapat menyebabkan rumus rusak jika merujuk ke nama tersebut. Anda perlu menyesuaikan rumus sebagaimana mestinya.
+
+### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?
+ Ya, Anda bisa mendapatkan uji coba Aspose.Cells gratis untuk menguji kemampuannya sebelum membeli. Lihat saja[Di Sini](https://releases.aspose.com/).
+
+### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
+ Anda dapat menemukan dokumentasi lengkap dan contoh lebih lanjut di halaman referensi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).

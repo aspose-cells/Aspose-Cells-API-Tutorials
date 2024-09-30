@@ -1,107 +1,143 @@
 ---
-title: ページの寸法を取得する
-linktitle: ページの寸法を取得する
+title: ページサイズを取得
+linktitle: ページサイズを取得
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel でページのサイズを取得する方法を学びます。 C# のソース コードを含むステップバイステップ ガイド。
+description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してページ サイズを取得する方法を説明します。Excel ファイルで作業する開発者に最適です。
 type: docs
 weight: 40
 url: /ja/net/excel-page-setup/get-page-dimensions/
 ---
-Aspose.Cells for .NET は、開発者がプログラムで Microsoft Excel ファイルを操作できるようにする強力なライブラリです。ページの寸法を取得する機能など、Excel ドキュメントを操作するための幅広い機能を提供します。このチュートリアルでは、Aspose.Cells for .NET を使用してページのサイズを取得する手順を説明します。
+## 導入
 
-## ステップ 1: Workbook クラスのインスタンスを作成する
+.NET アプリケーションでスプレッドシートを処理する場合、Aspose.Cells ライブラリは、開発者が Excel ファイルを簡単に操作できる強力なツールとして際立っています。しかし、この強力なライブラリを使用して、さまざまな用紙サイズのページ寸法を取得するにはどうすればよいでしょうか。このチュートリアルでは、プロセスをステップごとに説明し、Aspose.Cells の動作を理解するだけでなく、プロジェクトでの使用にも習熟できるようにします。 
 
-まず、Excel ワークブックを表す Workbook クラスのインスタンスを作成する必要があります。これは、次のコードを使用して実現できます。
+## 前提条件 
+
+コーディング部分に進む前に、効果的に進めるために準備しておく必要があることがいくつかあります。
+
+### ビジュアルスタジオ
+マシンに Visual Studio がインストールされていることを確認してください。ここで .NET コードを記述して実行します。
+
+### Aspose.Cells ライブラリ
+プロジェクトで Aspose.Cells ライブラリをダウンロードして参照する必要があります。次の場所から入手できます。
+- ダウンロードリンク:[.NET 用 Aspose.Cells](https://releases.aspose.com/cells/net/)
+
+### C#の基礎知識
+C# の基礎知識があれば役立ちます。このチュートリアルでは、簡単に理解できる基本的なプログラミング概念を採用します。
+
+準備はできましたか？ さあ始めましょう！
+
+## パッケージのインポート
+
+最初のステップは、必要な Aspose.Cells パッケージを C# プロジェクトにインポートすることです。手順は次のとおりです。
+
+### 新しいプロジェクトを作成する
+
+ Visual Studioを開き、新しいC#コンソールアプリケーションプロジェクトを作成します。好きな名前を付けることができますが、ここでは`GetPageDimensions`.
+
+### 参照を追加
+
+Aspose.Cells を使用するには、ライブラリへの参照を追加する必要があります。
+- ソリューション エクスプローラーでプロジェクトを右クリックします。
+- 「NuGet パッケージの管理」を選択します。
+- 「Aspose.Cells」を検索してインストールします。
+
+### Usingディレクティブを追加する
+
+あなたの一番上に`Program.cs`ファイルに、Aspose.Cells 機能にアクセスするための次の using ディレクティブを挿入します。
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+必要なパッケージをインポートしたので、準備は完了です。 
+
+それでは、各手順を実行して、さまざまな用紙サイズの寸法を取得する方法を見てみましょう。 
+
+## ステップ 1: ワークブック クラスのインスタンスを作成する
+
+最初に行う必要があるのは、Aspose.Cells から Workbook クラスのインスタンスを作成することです。このクラスは Excel ファイルを表します。
 
 ```csharp
 Workbook book = new Workbook();
 ```
 
-## ステップ 2: スプレッドシートへのアクセス
+ここでは、スプレッドシートのデータと構成を保持する新しいワークブックを作成します。
 
-次に、ページ寸法を設定するワークブック内のワークシートに移動する必要があります。この例では、最初のワークシートを操作するとします。次のコードを使用してアクセスできます。
+## ステップ2: 最初のワークシートにアクセスする
+
+ワークブックのインスタンスを作成したら、最初のワークシートにアクセスします。各ワークブックには複数のワークシートを含めることができますが、このデモでは最初のワークシートのみを使用します。
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
 
-## ステップ 3: 用紙サイズを A2 に設定し、幅と高さをインチ単位で印刷します。
+この行は最初のワークシートを取得し、用紙サイズを設定してそれぞれの寸法を取得できるようにします。
 
-ここで、用紙サイズを A2 に設定し、ページの幅と高さをインチ単位で印刷します。これは、次のコードを使用して実現できます。
+## ステップ3: 用紙サイズをA2に設定し、寸法を取得する
 
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("A2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## ステップ 4: 用紙サイズを A3 に設定し、幅と高さをインチ単位で印刷します。
-
-次に、用紙サイズを A3 に設定し、ページの幅と高さをインチ単位で印刷します。対応するコードは次のとおりです。
+次は、用紙サイズを設定して寸法を取得します。まず、A2 用紙サイズから始めます。
 
 ```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("A3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## ステップ 5: 用紙サイズを A4 に設定し、幅と高さをインチ単位で印刷します。
-
-ここで、用紙サイズを A4 に設定し、ページの幅と高さをインチ単位で印刷します。コードは次のとおりです。
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("A4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-## ステップ 6: 用紙サイズをレターに設定し、幅と高さをインチ単位で印刷します。
-
-最後に、用紙サイズをレターに設定し、ページの幅と高さをインチ単位で印刷します。コードは次のとおりです。
-
-```csharp
-sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("Letter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-```
-
-### Aspose.Cells for .NET を使用したページ ディメンションの取得のサンプル ソース コード 
-```csharp
-//Workbookクラスのインスタンスを作成する
-Workbook book = new Workbook();
-//最初のワークシートにアクセスする
-Worksheet sheet = book.Worksheets[0];
-//用紙サイズを A2 に設定し、用紙の幅と高さをインチ単位で印刷します。
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-//用紙サイズを A3 に設定し、用紙の幅と高さをインチ単位で印刷します。
+```
+
+このコードは用紙サイズを A2 に設定し、幅と高さを即座に出力します。Aspose.Cells の美しさはそのシンプルさにあります。
+
+## ステップ4: 他の用紙サイズについても繰り返します
+
+A3、A4、レターなどの他の用紙サイズでもこのプロセスを繰り返す必要があります。手順は次のとおりです。
+
+A3の場合:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-//用紙サイズを A4 に設定し、用紙の幅と高さをインチ単位で印刷します。
+```
+
+A4の場合:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
-//用紙サイズをレターに設定し、用紙の幅と高さをインチ単位で印刷します。
+```
+
+手紙の場合:
+
+```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
+```
+
+## ステップ5: 出力の結論
+
+最後に、操作全体が正常に完了したことを確認します。このステータスをコンソールに記録するだけです。
+
+```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
 ## 結論
 
-おめでとうございます！ Aspose.Cells for .NET を使用してページのサイズを取得する方法を学習しました。この機能は、Excel ファイルのページ寸法に基づいて特定の操作を実行する必要がある場合に役立ちます。
+おめでとうございます。これで、Aspose.Cells for .NET を使用して、さまざまな用紙サイズのページ サイズを取得する方法を学習できました。レポート ツール、自動化されたスプレッドシート、データ分析機能などを開発している場合でも、さまざまな形式のページ サイズを取得できることは非常に役立ちます。 
 
-Aspose.Cells のドキュメントをさらに調べて、Aspose.Cells が提供するすべての強力な機能を確認することを忘れないでください。
+## よくある質問
 
-### よくある質問
+### Aspose.Cells とは何ですか?
+Aspose.Cells は、Microsoft Excel を必要とせずに Excel ファイルを作成、操作、変換するために使用される .NET ライブラリです。
 
-#### 1. Aspose.Cells for .NET は他にどのような用紙サイズをサポートしていますか?
+### Aspose.Cells を使用するには Microsoft Excel をインストールする必要がありますか?
+いいえ、Aspose.Cells はスタンドアロン ライブラリであり、Excel をインストールする必要はありません。
 
-Aspose.Cells for .NET は、A1、A5、B4、B5、エグゼクティブ、リーガル、レターなどを含むさまざまな用紙サイズをサポートしています。サポートされている用紙サイズの完全なリストについては、ドキュメントを確認してください。
+### Aspose.Cells のその他の例はどこで見つかりますか?
+ドキュメントはここで確認できます:[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/).
 
-#### 2. Aspose.Cells for .NET を使用してカスタム ページのサイズを設定できますか?
+### Aspose.Cells の無料試用版はありますか?
+はい！無料試用版は以下から入手できます。[Aspose.Cells 無料トライアル](https://releases.aspose.com/).
 
-はい、希望の幅と高さを指定することで、カスタム ページの寸法を設定できます。 Aspose.Cells は、ニーズに合わせてページの寸法をカスタマイズするための完全な柔軟性を提供します。
-
-#### 3. ページの寸法をインチ以外の単位で取得できますか?
-
-はい、Aspose.Cells for .NET を使用すると、インチ、センチメートル、ミリメートル、ポイントなどのさまざまな単位でページの寸法を取得できます。
-
-#### 4. Aspose.Cells for .NET は他のページ設定編集機能をサポートしていますか?
-
-はい、Aspose.Cells は、余白、方向、ヘッダーとフッターなどの設定を含む、ページ設定を編集するためのあらゆる機能を提供します。
+### Aspose.Cells のサポートを受けるにはどうすればよいですか?
+ Aspose サポート フォーラムにアクセスしてサポートを受けることができます。[Aspose.Cells サポート](https://forum.aspose.com/c/cells/9).

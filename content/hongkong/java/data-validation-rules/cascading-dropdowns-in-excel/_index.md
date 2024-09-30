@@ -10,7 +10,7 @@ url: /zh-hant/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Excel 中的級聯下拉式選單簡介
 
-在電子表格操作領域，Aspose.Cells for Java 是一個強大的工具包，使開發人員能夠有效率地處理 Excel 檔案。它提供的有趣功能之一是能夠在 Excel 中建立級聯下拉列表，讓使用者可以根據先前的選擇動態選擇選項。在本逐步指南中，我們將深入研究使用 Aspose.Cells for Java 實作級聯下拉式選單的過程。那麼，就讓我們開始吧！
+在電子表格操作領域，Aspose.Cells for Java 是一個強大的工具包，使開發人員能夠有效率地處理 Excel 檔案。它提供的有趣功能之一是能夠在 Excel 中建立級聯下拉列表，讓使用者可以根據先前的選擇動態選擇選項。在本逐步指南中，我們將深入研究使用 Aspose.Cells for Java 實作級聯下拉清單的過程。那麼，就讓我們開始吧！
 
 ## 先決條件
 
@@ -58,7 +58,7 @@ countrySheet.getCells().get("A4").putValue("UK");
 DataValidationCollection validations = countrySheet.getDataValidations();
 DataValidation validation = validations.get(validations.add(1, 1, countrySheet.getCells().getMaxDataRow(), 1));
 validation.setType(DataValidationType.LIST);
-validation.setFormula1("Countries!$A$2:$A$4"); //參考國家列表
+validation.setFormula1("Countries!$A$2:$A$4"); //參考國家名單
 ```
 
 ## 第 4 步：實現級聯下拉選單
@@ -71,7 +71,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
     @Override
     public void cellChanged(Cell cell) {
         if (cell.getName().equals("B2")) {
-            //清除之前的城市下拉選單
+            //清除之前的城市下拉列表
             citySheet.getCells().get("B2").setValue("");
             
             //確定所選國家

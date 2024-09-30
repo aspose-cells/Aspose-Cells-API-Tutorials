@@ -1,8 +1,8 @@
 ---
 title: Funções de texto do Excel desmistificadas
 linktitle: Funções de texto do Excel desmistificadas
-second_title: API de processamento Aspose.Cells Java Excel
-description: Desvende os segredos das funções de texto do Excel com Aspose.Cells for Java. Aprenda a manipular, extrair e transformar texto no Excel sem esforço.
+second_title: API de processamento Java Excel Aspose.Cells
+description: Desvende os segredos das funções de texto do Excel com Aspose.Cells para Java. Aprenda a manipular, extrair e transformar texto no Excel sem esforço.
 type: docs
 weight: 18
 url: /pt/java/basic-excel-functions/excel-text-functions-demystified/
@@ -10,15 +10,15 @@ url: /pt/java/basic-excel-functions/excel-text-functions-demystified/
 
 # Funções de texto do Excel desmistificadas usando Aspose.Cells para Java
 
-Neste tutorial, iremos nos aprofundar no mundo da manipulação de texto no Excel usando a API Aspose.Cells for Java. Quer você seja um usuário experiente do Excel ou esteja apenas começando, compreender as funções de texto pode aprimorar significativamente suas habilidades em planilhas. Exploraremos várias funções de texto e forneceremos exemplos práticos para ilustrar seu uso.
+Neste tutorial, vamos nos aprofundar no mundo da manipulação de texto no Excel usando o Aspose.Cells para API Java. Seja você um usuário experiente do Excel ou apenas iniciante, entender funções de texto pode melhorar significativamente suas habilidades com planilhas. Exploraremos várias funções de texto e forneceremos exemplos práticos para ilustrar seu uso.
 
 ## Começando
 
- Antes de começarmos, certifique-se de ter o Aspose.Cells for Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/cells/java/). Depois de configurá-lo, vamos mergulhar no fascinante mundo das funções de texto do Excel.
+ Antes de começar, certifique-se de ter o Aspose.Cells para Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/cells/java/). Depois de configurar, vamos mergulhar no fascinante mundo das funções de texto do Excel.
 
 ## CONCATENAR - Combinando Texto
 
- O`CONCATENATE`função permite mesclar texto de células diferentes. Vamos ver como fazer isso com Aspose.Cells for Java:
+ O`CONCATENATE`função permite que você mescle texto de células diferentes. Vamos ver como fazer isso com Aspose.Cells para Java:
 
 ```java
 // Código Java para concatenar texto usando Aspose.Cells
@@ -30,18 +30,18 @@ cell.putValue("Hello, ");
 cell = worksheet.getCells().get("B1");
 cell.putValue("World!");
 
-// Concatene A1 e B1 em C1
+// Concatenar A1 e B1 em C1
 cell = worksheet.getCells().get("C1");
 cell.setFormula("=CONCATENATE(A1,B1)");
 
 workbook.calculateFormula();
 ```
 
-Agora, a célula C1 conterá “Hello, World!”.
+Agora, a célula C1 conterá "Olá, Mundo!".
 
 ## ESQUERDA e DIREITA - Extraindo Texto
 
- O`LEFT` e`RIGHT` funções permitem extrair um número especificado de caracteres da esquerda ou direita de uma string de texto. Veja como você pode usá-los:
+ O`LEFT` e`RIGHT` funções permitem que você extraia um número especificado de caracteres da esquerda ou direita de uma string de texto. Veja como você pode usá-las:
 
 ```java
 // Código Java para extrair texto usando Aspose.Cells
@@ -52,36 +52,36 @@ cell.putValue("Excel Rocks!");
 cell = worksheet.getCells().get("B2");
 cell.setFormula("=LEFT(A2, 5)");
 
-// Extraia os últimos 5 caracteres
+// Extrair os últimos 5 caracteres
 cell = worksheet.getCells().get("C2");
 cell.setFormula("=RIGHT(A2, 5)");
 
 workbook.calculateFormula();
 ```
 
-A célula B2 terá “Excel” e a célula C2 terá “Rocks!”.
+A célula B2 terá "Excel" e a célula C2 terá "Rocks!".
 
-## LEN - Contando Caracteres
+## LEN - Contagem de caracteres
 
- O`LEN` função conta o número de caracteres em uma string de texto. Vamos ver como usá-lo com Aspose.Cells for Java:
+ O`LEN` função conta o número de caracteres em uma string de texto. Vamos ver como usá-la com Aspose.Cells para Java:
 
 ```java
 // Código Java para contar caracteres usando Aspose.Cells
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
-// Conte os personagens
+// Conte os caracteres
 cell = worksheet.getCells().get("B3");
 cell.setFormula("=LEN(A3)");
 
 workbook.calculateFormula();
 ```
 
-A célula B3 conterá “5”, pois existem 5 caracteres no “Excel”.
+A célula B3 conterá "5", pois há 5 caracteres em "Excel".
 
-## SUPERIOR e INFERIOR - Troca de caixa
+## UPPER e LOWER - Mudança de caixa
 
- O`UPPER` e`LOWER` funções permitem converter texto em maiúsculas ou minúsculas. Veja como você pode fazer isso:
+ O`UPPER` e`LOWER` funções permitem que você converta texto para maiúsculas ou minúsculas. Veja como você pode fazer isso:
 
 ```java
 // Código Java para alterar maiúsculas e minúsculas usando Aspose.Cells
@@ -99,11 +99,11 @@ cell.setFormula("=LOWER(A4)");
 workbook.calculateFormula();
 ```
 
-A célula B4 conterá "PROGRAMAÇÃO JAVA" e a célula C4 conterá "programação Java".
+A célula B4 conterá "PROGRAMAÇÃO JAVA" e a célula C4 conterá "programação java".
 
-## ENCONTRAR e SUBSTITUIR - Localizando e Substituindo Texto
+## FIND e REPLACE - Localizando e substituindo texto
 
- O`FIND` função permite localizar a posição de um caractere ou texto específico dentro de uma string, enquanto o`REPLACE` função ajuda a substituir texto. Vamos vê-los em ação:
+ O`FIND` A função permite localizar a posição de um caractere ou texto específico dentro de uma string, enquanto a`REPLACE` função ajuda você a substituir texto. Vamos vê-los em ação:
 
 ```java
 // Código Java para localizar e substituir usando Aspose.Cells
@@ -114,18 +114,18 @@ cell.putValue("Search for me");
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 
-// Substitua “para” por “com”
+// Substitua "para" por "com"
 cell = worksheet.getCells().get("C5");
 cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 
 workbook.calculateFormula();
 ```
 
-A célula B5 conterá “9” (a posição de “for”) e a célula C5 conterá “Pesquise comigo”.
+A célula B5 conterá "9" (a posição de "para"), e a célula C5 conterá "Pesquisar comigo".
 
 ## Conclusão
 
-As funções de texto no Excel são ferramentas poderosas para manipular e analisar dados de texto. Com Aspose.Cells for Java, você pode incorporar facilmente essas funções em seus aplicativos Java, automatizando tarefas relacionadas a texto e aprimorando seus recursos do Excel. Explore mais funções de texto e libere todo o potencial do Excel com Aspose.Cells for Java.
+Funções de texto no Excel são ferramentas poderosas para manipular e analisar dados de texto. Com o Aspose.Cells para Java, você pode facilmente incorporar essas funções em seus aplicativos Java, automatizando tarefas relacionadas a texto e aprimorando seus recursos do Excel. Explore mais funções de texto e libere todo o potencial do Excel com o Aspose.Cells para Java.
 
 ## Perguntas frequentes
 
@@ -137,15 +137,15 @@ Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
 ```
 
-### Posso extrair o primeiro e o último caracteres de uma string de texto?
+### Posso extrair o primeiro e o último caracteres de uma sequência de texto?
 
- Sim, você pode usar o`LEFT` e`RIGHT` funções para extrair caracteres do início ou do final de uma string de texto. Por exemplo:
+ Sim, você pode usar o`LEFT` e`RIGHT` funções para extrair caracteres do início ou fim de uma string de texto. Por exemplo:
 ```java
 Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
 ```
 
-### Como posso contar os caracteres em uma string de texto?
+### Como posso contar os caracteres em uma sequência de texto?
 
  Use o`LEN` função para contar os caracteres em uma string de texto. Por exemplo:
 ```java
@@ -155,15 +155,15 @@ cell.setFormula("=LEN(A3)");
 
 ### É possível alterar a caixa do texto?
 
- Sim, você pode converter texto em letras maiúsculas ou minúsculas usando o`UPPER` e`LOWER` funções. Por exemplo:
+ Sim, você pode converter texto em maiúsculas ou minúsculas usando o`UPPER` e`LOWER` funções. Por exemplo:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
 ```
 
-### Como encontro e substituo texto em uma string?
+### Como faço para localizar e substituir texto dentro de uma string?
 
-Para localizar e substituir texto em uma string, use o`FIND` e`REPLACE` funções. Por exemplo:
+Para localizar e substituir texto dentro de uma string, use o`FIND` e`REPLACE` funções. Por exemplo:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");

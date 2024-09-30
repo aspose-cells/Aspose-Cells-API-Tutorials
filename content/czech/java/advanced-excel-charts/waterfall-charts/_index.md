@@ -16,7 +16,7 @@ Vodopádové grafy jsou základním nástrojem ve vizualizaci dat, který vám u
 
 Než se ponoříme do podrobností, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Cells for Java: Musíte mít nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Musíte mít nainstalovaný Aspose.Cells for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/java/).
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
 

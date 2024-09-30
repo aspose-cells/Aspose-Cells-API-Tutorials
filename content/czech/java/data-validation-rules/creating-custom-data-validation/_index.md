@@ -8,7 +8,7 @@ weight: 10
 url: /cs/java/data-validation-rules/creating-custom-data-validation/
 ---
 
-## Úvod
+## Zavedení
 
 Ověřování dat pomáhá udržovat integritu dat tím, že zabraňuje uživatelům zadávat nesprávná nebo neplatná data do tabulek aplikace Excel. Přestože Excel nabízí vestavěné možnosti ověřování dat, existují scénáře, kdy je potřeba definovat vlastní pravidla ověřování. Aspose.Cells for Java vám umožňuje dosáhnout toho efektivně.
 
@@ -16,7 +16,7 @@ Ověřování dat pomáhá udržovat integritu dat tím, že zabraňuje uživate
 
 Než se ponoříte do kódu, ujistěte se, že máte následující předpoklady:
 
--  Aspose.Cells for Java: Stáhněte a nainstalujte knihovnu z[tady](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Stáhněte a nainstalujte knihovnu z[zde](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Nastavení vašeho projektu Java
 
@@ -89,7 +89,7 @@ V tomto tutoriálu jsme prozkoumali, jak vytvořit vlastní pravidla ověřován
 
 ### Jak si stáhnu Aspose.Cells for Java?
 
- Aspose.Cells for Java si můžete stáhnout z webové stránky na adrese[tady](https://releases.aspose.com/cells/java/).
+ Aspose.Cells for Java si můžete stáhnout z webové stránky na adrese[zde](https://releases.aspose.com/cells/java/).
 
 ### Mohu použít vlastní ověření dat na více rozsahů ve stejném listu?
 
@@ -101,7 +101,7 @@ Ano, Aspose.Cells for Java podporuje různé typy ověřování dat, včetně ce
 
 ### Jak mohu přizpůsobit chybovou zprávu zobrazenou při selhání ověření dat?
 
- Chybovou zprávu můžete upravit úpravou souboru`setErrorMessage` metodou v kroku 4, kde definujete ověřovací kritéria.
+ Chybovou zprávu můžete upravit úpravou souboru`setErrorMessage` metoda v kroku 4, kde definujete ověřovací kritéria.
 
 ### Funguje Aspose.Cells for Java se soubory aplikace Excel v různých formátech?
 

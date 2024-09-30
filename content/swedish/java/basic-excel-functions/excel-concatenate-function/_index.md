@@ -46,7 +46,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Låt oss fylla i Excel-kalkylbladet med lite data. För det här exemplet skapar vi en enkel tabell med textvärden som vi vill sammanfoga.
 
 ```java
-// Stickprov
+// Exempeldata
 String text1 = "Hello";
 String text2 = " ";
 String text3 = "World";
@@ -103,7 +103,7 @@ För att sammanfoga text från olika celler i Excel med Aspose.Cells för Java, 
 
 5. Spara Excel-filen.
 
-Det är allt! Du har framgångsrikt sammanfogat text i Excel med Aspose.Cells för Java.
+Det är det! Du har framgångsrikt sammanfogat text i Excel med Aspose.Cells för Java.
 
 ### Kan jag sammanfoga fler än tre textsträngar med CONCATENATE?
 

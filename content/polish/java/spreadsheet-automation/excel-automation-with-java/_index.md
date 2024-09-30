@@ -1,23 +1,23 @@
 ---
-title: Automatyzacja Excela z Javą
-linktitle: Automatyzacja Excela z Javą
-second_title: Aspose.Cells API przetwarzania Java Excel
-description: Dowiedz się, jak zautomatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego przy użyciu Aspose.Cells, potężnej biblioteki do manipulacji programem Excel.
+title: Automatyzacja programu Excel za pomocą języka Java
+linktitle: Automatyzacja programu Excel za pomocą języka Java
+second_title: Aspose.Cells Java Excel Processing API
+description: Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego i biblioteki Aspose.Cells, która umożliwia przetwarzanie danych w programie Excel.
 type: docs
 weight: 18
 url: /pl/java/spreadsheet-automation/excel-automation-with-java/
 ---
 
-Automatyzacja Excela w Javie staje się prosta dzięki Aspose.Cells, wszechstronnej bibliotece, która pozwala programowo manipulować plikami Excel. W tym przewodniku omówimy różne zadania automatyzacji programu Excel z przykładami kodu źródłowego.
+Automatyzacja Excela w Javie staje się bezwysiłkowa dzięki Aspose.Cells, wszechstronnej bibliotece, która umożliwia programowe manipulowanie plikami Excela. W tym przewodniku omówimy różne zadania automatyzacji Excela z przykładami kodu źródłowego.
 
 
-## 1. Wstęp
+## 1. Wprowadzenie
 
-Automatyzacja programu Excel obejmuje zadania takie jak czytanie, pisanie i manipulowanie plikami Excel. Aspose.Cells upraszcza te zadania dzięki interfejsowi API Java.
+Automatyzacja Excela obejmuje zadania takie jak czytanie, pisanie i manipulowanie plikami Excela. Aspose.Cells upraszcza te zadania dzięki swojemu API Java.
 
 ## 2. Konfigurowanie projektu Java
 
- Aby rozpocząć, pobierz Aspose.Cells dla Java z[Tutaj](https://releases.aspose.com/cells/java/). Dołącz bibliotekę do swojego projektu Java. Oto fragment kodu umożliwiający dodanie Aspose.Cells do projektu Gradle:
+ Aby rozpocząć, pobierz Aspose.Cells dla Java ze strony[Tutaj](https://releases.aspose.com/cells/java/). Dołącz bibliotekę do swojego projektu Java. Oto fragment kodu, aby dodać Aspose.Cells do swojego projektu Gradle:
 
 ```gradle
 dependencies {
@@ -25,26 +25,26 @@ dependencies {
 }
 ```
 
-## 3. Czytanie plików Excel
+## 3. Odczytywanie plików Excel
 
-Dowiedz się, jak czytać pliki Excel za pomocą Aspose.Cells. Oto przykład odczytu danych z pliku Excel:
+Dowiedz się, jak czytać pliki Excela za pomocą Aspose.Cells. Oto przykład odczytu danych z pliku Excela:
 
 ```java
 // Załaduj plik Excel
 Workbook workbook = new Workbook("example.xlsx");
 
-// Uzyskaj dostęp do pierwszego arkusza
+// Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Odczytaj dane z komórki
+// Odczyt danych z komórki
 Cell cell = worksheet.getCells().get("A1");
 String cellValue = cell.getStringValue();
 System.out.println("Value of cell A1: " + cellValue);
 ```
 
-## 4. Zapisywanie plików Excel
+## 4. Pisanie plików Excel
 
-Dowiedz się, jak tworzyć i modyfikować pliki Excel. Oto przykład zapisu danych do pliku Excel:
+Poznaj sposoby tworzenia i modyfikowania plików Excel. Oto przykład zapisywania danych do pliku Excel:
 
 ```java
 // Utwórz nowy skoroszyt
@@ -58,12 +58,12 @@ worksheet.getCells().get("A1").putValue("Hello, Excel!");
 workbook.save("output.xlsx");
 ```
 
-## 5. Manipulowanie danymi Excela
+## 5. Manipulowanie danymi w programie Excel
 
-Odkryj techniki manipulowania danymi Excela. Przykład: Wstawianie wiersza i dodawanie danych.
+Odkryj techniki manipulowania danymi w programie Excel. Przykład: Wstawianie wiersza i dodawanie danych.
 
 ```java
-// Wstaw wiersz z indeksem 2
+// Wstaw wiersz o indeksie 2
 worksheet.getCells().insertRows(1, 1);
 
 // Dodaj dane do nowego wiersza
@@ -72,10 +72,10 @@ worksheet.getCells().get("A2").putValue("New Data");
 
 ## 6. Formatowanie arkuszy Excela
 
-Dowiedz się, jak formatować arkusze programu Excel, w tym formatowanie komórek i dodawanie wykresów. Przykład: formatowanie komórki.
+Dowiedz się, jak formatować arkusze Excela, w tym formatowanie komórek i dodawanie wykresów. Przykład: Formatowanie komórki.
 
 ```java
-// Sformatuj komórkę
+// Formatowanie komórki
 Style style = worksheet.getCells().get("A1").getStyle();
 style.getFont().setName("Arial");
 style.getFont().setSize(12);
@@ -85,21 +85,21 @@ style.setForegroundColor(Color.getLightBlue());
 worksheet.getCells().get("A1").setStyle(style);
 ```
 
-## 7. Zaawansowana automatyzacja Excela
+## 7. Zaawansowana automatyzacja programu Excel
 
-Przeglądaj zaawansowane tematy, takie jak obsługa tabel przestawnych, sprawdzanie poprawności danych i inne, korzystając z Aspose.Cells. Dokumentacja zawiera szczegółowe wytyczne.
+Poznaj zaawansowane tematy, takie jak obsługa tabel przestawnych, walidacja danych i inne, korzystając z Aspose.Cells. Dokumentacja zawiera szczegółowe wskazówki.
 
-## 8. Wniosek
+## 8. Wnioski
 
-Aspose.Cells dla Java umożliwia wydajną automatyzację zadań programu Excel. Dzięki tym przykładom kodu źródłowego możesz szybko rozpocząć projekty automatyzacji programu Excel w języku Java.
+Aspose.Cells for Java umożliwia wydajną automatyzację zadań w programie Excel. Dzięki tym przykładom kodu źródłowego możesz rozpocząć projekty automatyzacji programu Excel w Javie.
 
 ## 9. Często zadawane pytania
 
-### Czy Aspose.Cells jest kompatybilny z Excelem 2019?
+### Czy Aspose.Cells jest zgodny z programem Excel 2019?
 
 	Yes, Aspose.Cells supports Excel 2019 and earlier versions.
 
-###  Czy mogę zautomatyzować zadania Excela na serwerze?
+###  Czy mogę zautomatyzować zadania programu Excel na serwerze?
 
 	Absolutely! Aspose.Cells can be used in server-side applications for batch processing.
 
@@ -117,4 +117,4 @@ Aspose.Cells dla Java umożliwia wydajną automatyzację zadań programu Excel. 
 
 ---
 
-Ten przewodnik krok po kroku z przykładami kodu źródłowego powinien dać ci solidne podstawy do automatyzacji Excela w Javie przy użyciu Aspose.Cells. Udanego kodowania i automatyzacji zadań w Excelu!
+Ten przewodnik krok po kroku z przykładami kodu źródłowego powinien dać Ci solidne podstawy do automatyzacji Excela w Javie przy użyciu Aspose.Cells. Miłego kodowania i automatyzowania zadań Excela!

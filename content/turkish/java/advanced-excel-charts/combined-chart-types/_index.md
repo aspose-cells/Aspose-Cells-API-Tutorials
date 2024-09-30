@@ -1,36 +1,36 @@
 ---
-title: Birleşik Grafik Türleri
-linktitle: Birleşik Grafik Türleri
+title: Birleştirilmiş Grafik Türleri
+linktitle: Birleştirilmiş Grafik Türleri
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java'yı kullanarak birleştirilmiş grafik türlerini nasıl oluşturacağınızı öğrenin. Bu adım adım kılavuz, etkili veri görselleştirmesi için kaynak kodu ve ipuçları sağlar.
+description: Java için Aspose.Cells kullanarak birleşik grafik türlerinin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, etkili veri görselleştirmesi için kaynak kodu ve ipuçları sağlar.
 type: docs
 weight: 12
 url: /tr/java/advanced-excel-charts/combined-chart-types/
 ---
 
-## Aspose.Cells for Java kullanarak Birleşik Grafik Türlerine Giriş
+## Java için Aspose.Cells'i kullanarak Birleşik Grafik Türlerine Giriş
 
-Veri görselleştirme dünyasında grafikler, karmaşık veri kümelerini anlamamıza yardımcı olmada çok önemli bir rol oynar. Aspose.Cells for Java, birleştirilmiş grafik türleri de dahil olmak üzere çeşitli grafik türlerini oluşturmanıza, değiştirmenize ve özelleştirmenize olanak tanıyan güçlü bir Java API'sidir. Bu yazıda Aspose.Cells for Java'yı kullanarak birleşik grafik türlerinin nasıl oluşturulacağını inceleyeceğiz.
+Veri görselleştirme dünyasında, grafikler karmaşık veri kümelerini anlamamıza yardımcı olmakta önemli bir rol oynar. Aspose.Cells for Java, birleşik grafik türleri de dahil olmak üzere çeşitli grafik türlerini oluşturmanıza, düzenlemenize ve özelleştirmenize olanak tanıyan güçlü bir Java API'sidir. Bu makalede, Aspose.Cells for Java kullanarak birleşik grafik türlerinin nasıl oluşturulacağını inceleyeceğiz.
 
-## Aspose.Cells for Java'yı Anlamak
+## Java için Aspose.Cells'i Anlamak
 
-Birleşik grafikler oluşturmaya başlamadan önce Aspose.Cells for Java'nın ne olduğunu kısaca anlayalım. Excel elektronik tablolarıyla çalışmak için kapsamlı işlevsellik sağlayan Java tabanlı bir kitaplıktır. Buna, Excel dosyalarınızdaki grafikleri programlı olarak oluşturma, düzenleme ve geliştirme yeteneği de dahildir.
+Birleşik grafikler oluşturmaya dalmadan önce, Aspose.Cells for Java'nın ne olduğunu kısaca anlayalım. Excel elektronik tablolarıyla çalışmak için kapsamlı işlevsellik sağlayan Java tabanlı bir kütüphanedir. Buna Excel dosyalarınızdaki grafikleri programatik olarak oluşturma, düzenleme ve geliştirme yeteneği de dahildir.
 
 ## Başlarken
 
- Birleşik grafikler oluşturmaya başlamak için Java projenizde Aspose.Cells for Java'nın kurulu ve ayarlanmış olması gerekir. Aşağıdaki bağlantıyı kullanarak kütüphaneyi Aspose web sitesinden indirebilirsiniz:[Java için Aspose.Cells'i indirin](https://releases.aspose.com/cells/java/).
+ Birleşik grafikler oluşturmaya başlamak için Java projenizde Aspose.Cells for Java'nın yüklü ve ayarlanmış olması gerekir. Kütüphaneyi aşağıdaki bağlantıyı kullanarak Aspose web sitesinden indirebilirsiniz:[Java için Aspose.Cells'i indirin](https://releases.aspose.com/cells/java/).
 
-Kitaplığınızı hazırladıktan sonra birleştirilmiş grafikler oluşturmak için aşağıdaki adımlara geçebilirsiniz.
+Kütüphaneniz hazır olduğunda, birleşik grafikler oluşturmak için aşağıdaki adımları takip edebilirsiniz.
 
-## Birleşik Grafik Oluşturma
+## Birleşik Bir Grafik Oluşturma
 
-### Adım 1: Gerekli sınıfları ve paketleri Aspose.Cells for Java'dan Java projenize aktarın.
+### Adım 1: Aspose.Cells for Java'dan gerekli sınıfları ve paketleri Java projenize aktarın.
 
 ```java
 import com.aspose.cells.*;
 ```
 
-### Adım 2: Bir Çalışma Kitabı nesnesini başlatın.
+### Adım 2: Bir Çalışma Kitabı nesnesi başlatın.
 
 ```java
 Workbook workbook = new Workbook();
@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Adım 4: Birleştirilmiş bir grafik nesnesi oluşturun.
+### Adım 4: Birleşik bir grafik nesnesi oluşturun.
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.LINE, 0, 0, 20, 10);
@@ -51,7 +51,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 ## Grafiğe Veri Ekleme
 
-Artık birleşik bir grafik oluşturduğumuza göre, ona bazı veriler ekleyelim.
+Artık birleşik grafiğimizi oluşturduğumuza göre, üzerine biraz veri ekleyelim.
 
 ### Adım 5: Grafik için bir veri serisi oluşturun.
 
@@ -61,15 +61,15 @@ chart.getNSeries().add("A1:A5", true);
 chart.getNSeries().add("B1:B5", true);
 ```
 
-### Adım 6: Grafiğin kategori veri aralığını ayarlayın.
+### Adım 6: Grafik için kategori veri aralığını ayarlayın.
 
 ```java
 chart.getNSeries().setCategoryData("C1:C5");
 ```
 
-## Grafiği Özelleştirme
+## Tabloyu Özelleştirme
 
-Birleştirilmiş grafiğin görünümünü ve davranışını özel gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz.
+Birleşik grafiğin görünümünü ve davranışını özel gereksinimlerinizi karşılayacak şekilde özelleştirebilirsiniz.
 
 ### Adım 7: Grafik başlığını ve eksen etiketlerini özelleştirin.
 
@@ -88,7 +88,7 @@ chart.getLegend().setOverlay(true);
 
 ## Grafiği Kaydetme ve Dışa Aktarma
 
-Birleşik grafiğinizi oluşturup özelleştirdikten sonra bunu bir Excel dosyasına kaydedebilir veya çeşitli formatlara aktarabilirsiniz.
+Birleştirilmiş grafiğinizi oluşturup özelleştirdikten sonra bunu bir Excel dosyasına kaydedebilir veya çeşitli formatlara aktarabilirsiniz.
 
 ### Adım 9: Çalışma kitabını bir Excel dosyasına kaydedin.
 
@@ -96,7 +96,7 @@ Birleşik grafiğinizi oluşturup özelleştirdikten sonra bunu bir Excel dosyas
 workbook.save("CombinedChart.xlsx");
 ```
 
-### Adım 10: Grafiği bir görüntü dosyasına aktarın.
+### Adım 10: Grafiği bir resim dosyasına aktarın.
 
 ```java
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
@@ -104,26 +104,26 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Çözüm
 
-Bu makalede Aspose.Cells for Java'yı kullanarak birleşik grafik türlerinin nasıl oluşturulacağını araştırdık. Aspose.Cells for Java'nın ne olduğunu anlayarak başladık ve ardından birleşik bir grafik oluşturmak, ona veri eklemek, görünümünü özelleştirmek ve kaydetmek/dışa aktarmak için adım adım talimatlarla ilerledik. Aspose.Cells for Java ile Java uygulamalarınızda veri görselleştirmenin gücünü açığa çıkarabilirsiniz.
+Bu makalede, Java için Aspose.Cells kullanarak birleşik grafik türlerinin nasıl oluşturulacağını inceledik. Aspose.Cells for Java'nın ne olduğunu anlayarak başladık ve ardından birleşik grafik oluşturma, ona veri ekleme, görünümünü özelleştirme ve kaydetme/dışa aktarma konusunda adım adım talimatlarla devam ettik. Java için Aspose.Cells ile Java uygulamalarınızda veri görselleştirmenin gücünü serbest bırakabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### Aspose.Cells for Java'yı nasıl yüklerim?
+### Java için Aspose.Cells'i nasıl yüklerim?
 
- Aspose.Cells for Java'yı yüklemek için Aspose web sitesini ziyaret edin ve kütüphaneyi şuradan indirin:[bu bağlantı](https://releases.aspose.com/cells/java/). Belgelerde sağlanan kurulum talimatlarını izleyin.
+ Java için Aspose.Cells'i yüklemek için Aspose web sitesini ziyaret edin ve kütüphaneyi şu adresten indirin:[bu bağlantı](https://releases.aspose.com/cells/java/). Dokümanlarda verilen kurulum talimatlarını izleyin.
 
-### Aspose.Cells for Java ile başka türde grafikler oluşturabilir miyim?
+### Aspose.Cells for Java ile başka tür grafikler oluşturabilir miyim?
 
-Evet, Aspose.Cells for Java, çubuk grafikler, pasta grafikler, dağılım grafikleri ve daha fazlasını içeren çok çeşitli grafik türlerini destekler. Örnekler ve kullanım için belgelere başvurabilirsiniz.
+Evet, Java için Aspose.Cells, çubuk grafikler, pasta grafikler, dağılım grafikleri ve daha fazlası dahil olmak üzere çok çeşitli grafik türlerini destekler. Örnekler ve kullanım için belgelere başvurabilirsiniz.
 
-### Aspose.Cells for Java hem yeni başlayanlar hem de deneyimli Java geliştiricileri için uygun mu?
+### Aspose.Cells for Java hem yeni başlayanlar hem de deneyimli Java geliştiricileri için uygun mudur?
 
-Aspose.Cells for Java, kullanıcı dostu olacak şekilde tasarlanmıştır; bu da onu hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun kılar. Daha fazla deneyime sahip olanlar için gelişmiş özellikler sunarken, kolay kullanım için üst düzey bir API sağlar.
+Java için Aspose.Cells, hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun olacak şekilde kullanıcı dostu olacak şekilde tasarlanmıştır. Daha fazla deneyime sahip olanlar için gelişmiş özellikler sunarken kolay kullanım için üst düzey bir API sağlar.
 
-### Birleşik grafiğimin görünümünü daha da özelleştirebilir miyim?
+### Birleşik grafiğimin görünümünü daha fazla özelleştirebilir miyim?
 
-Kesinlikle! Aspose.Cells for Java kapsamlı özelleştirme seçenekleri sunar. Grafiğin görünümünü beğeninize göre uyarlamak için renkleri, yazı tiplerini, stilleri ve daha fazlasını değiştirebilirsiniz.
+Kesinlikle! Aspose.Cells for Java kapsamlı özelleştirme seçenekleri sunar. Grafik görünümünü beğeninize göre uyarlamak için renkleri, yazı tiplerini, stilleri ve daha fazlasını değiştirebilirsiniz.
 
-### Aspose.Cells for Java için daha fazla kaynağı ve örneği nerede bulabilirim?
+### Java için Aspose.Cells hakkında daha fazla kaynak ve örneği nerede bulabilirim?
 
- Aspose web sitesinde kapsamlı belgeler ve çok sayıda kod örneği bulabilirsiniz:[Burada](https://reference.aspose.com/cells/java/).
+ Aspose web sitesinde kapsamlı belgelere ve çok sayıda kod örneğine ulaşabilirsiniz.[Burada](https://reference.aspose.com/cells/java/).

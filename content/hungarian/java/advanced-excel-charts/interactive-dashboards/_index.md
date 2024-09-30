@@ -96,7 +96,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ## Következtetés
 
-Gratulálunk! Megtanulta, hogyan hozhat létre interaktív irányítópultokat az Aspose.Cells for Java használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi dinamikus és vonzó adatvizualizációk létrehozását, javítva ezzel a döntéshozatali folyamatokat. Kísérletezzen különféle diagramtípusokkal, interaktivitási lehetőségekkel és tervezési elemekkel, hogy egyedi igényeire szabott irányítópultokat hozzon létre.
+Gratulálok! Megtanulta, hogyan hozhat létre interaktív irányítópultokat az Aspose.Cells for Java használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi dinamikus és vonzó adatvizualizációk létrehozását, javítva ezzel a döntéshozatali folyamatokat. Kísérletezzen különféle diagramtípusokkal, interaktivitási lehetőségekkel és tervezési elemekkel, hogy egyedi igényeire szabott irányítópultokat hozzon létre.
 
 ## GYIK
 
@@ -118,4 +118,4 @@ Igen, az Aspose.Cells for Java lehetőséget biztosít interaktív irányítópu
 
 ### Alkalmas-e az Aspose.Cells for Java nagyszabású adatvizualizációs projektekhez?
 
-Igen, az Aspose.Cells for Java kiválóan alkalmas kis és nagyszabású adatvizualizációs projektekhez. Rugalmassága és kiterjedt funkciókészlete robusztus választássá teszi a legkülönfélébb igényekhez.
+Igen, az Aspose.Cells for Java kiválóan alkalmas kis és nagyszabású adatvizualizációs projektekhez. Rugalmassága és kiterjedt funkciókészlete robusztus választássá teszi a különféle igényekhez.

@@ -1,64 +1,82 @@
 ---
-title: Kağıt Genişliğini ve Çalışma Sayfasının Yüksekliğini Alın
-linktitle: Kağıt Genişliğini ve Çalışma Sayfasının Yüksekliğini Alın
-second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cells for .NET kullanarak bir elektronik tablonun kağıt genişliğini ve yüksekliğini elde etmek için aşağıdaki C# kaynak kodunu açıklayan adım adım bir kılavuz oluşturun.
+title: Çalışma Sayfasının Kağıt Genişliğini ve Yüksekliğini Alın
+linktitle: Çalışma Sayfasının Kağıt Genişliğini ve Yüksekliğini Alın
+second_title: Aspose.Cells for .NET API Başvurusu
+description: Aspose.Cells for .NET'te çalışma sayfalarının genişliğini ve yüksekliğini nasıl ayarlayacağınızı basit adım adım bir kılavuzla öğrenin.
 type: docs
 weight: 80
 url: /tr/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
 ---
-Bu eğitimde, Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt genişliğini ve yüksekliğini elde etmek için aşağıdaki C# kaynak kodunu adım adım açıklayacağız. Aşağıdaki adımları takip et:
+## giriiş
 
-## 1. Adım: Çalışma kitabını oluşturun
- kullanarak yeni bir çalışma kitabı oluşturarak başlayın.`Workbook` sınıf:
+Hiç bir Excel sayfasını yazdırmayı denediniz ve çeşitli kağıt boyutlarının kafa karıştırıcı boyutlarıyla uğraştınız mı? Eğer benim gibiyseniz, hiçbir şeyin doğru çıkmayan bir düzen kadar gününüzü mahvedemeyeceğini bilirsiniz! İster raporlar, ister faturalar veya sadece basit bir liste yazdırıyor olun, kağıt boyutlarını programatik olarak nasıl ayarlayacağınızı anlamak sizi bir sürü dertten kurtarabilir. Bugün, uygulamanızda doğrudan kağıt boyutlarını nasıl alacağınızı ve ayarlayacağınızı incelemek için Aspose.Cells for .NET dünyasına dalacağız. Kollarımızı sıvayalım ve bu kağıt boyutlarını yönetmenin inceliklerine inelim!
 
-```csharp
-Workbook wb = new Workbook();
-```
+## Ön koşullar 
 
-## 2. Adım: İlk çalışma sayfasına erişin
- Daha sonra, çalışma kitabındaki ilk çalışma sayfasına aşağıdaki düğmeyi kullanarak gidin:`Worksheet` sınıf:
+Kodlamanın büyüsüne dalmadan önce, başlamak için ihtiyacınız olan şeyleri bir araya getirelim:
 
-```csharp
-Worksheet ws = wb.Worksheets[0];
-```
+1. C#'ın Temel Anlayışı: C#'a giriş seviyesinde hakim olmalısınız. Programlamaya yeni başladıysanız endişelenmeyin! Basit tutacağız.
+2.  Aspose.Cells Kütüphanesi: Makinenizde .NET için Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/cells/net/).
+3. .NET Geliştirme Ortamı: C# kodunuzu yazmak ve yürütmek için Visual Studio'yu veya seçtiğiniz herhangi bir IDE'yi kurun. Nereden başlayacağınızdan emin değilseniz, Visual Studio Community Edition sağlam bir seçimdir.
+4.  Referanslar ve Belgeler: Daha derin içgörüler için Aspose.Cells belgelerine aşina olun. Bunu bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+5. Temel Excel Dosya Bilgisi: Excel dosyalarının nasıl yapılandırıldığını (çalışma sayfaları, satırlar ve sütunlar) anlamak çok faydalı olacaktır.
 
-## 3. Adım: Kağıt boyutunu A2 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden gösterin
- Kullan`PaperSize` mülkiyeti`PageSetup` Kağıt boyutunu A2 olarak ayarlamak için nesneyi kullanın, ardından`PaperWidth` Ve`PaperHeight` sırasıyla kağıt genişliğini ve yüksekliğini elde etmek için özellikler. Bu değerleri kullanarak görüntüleyin`Console.WriteLine` yöntem:
+Harika! Artık temelleri işaretlediğimize göre, gerekli paketleri içe aktarmaya geçebiliriz.
 
-```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
-Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-```
+## Paketleri İçe Aktar
 
-## 4. Adım: Diğer kağıt boyutları için adımları tekrarlayın
-Kağıt boyutunu A3, A4 ve Letter olarak değiştirerek önceki adımları tekrarlayın ve ardından her boyut için kağıt genişlik ve yükseklik değerlerini görüntüleyin:
+ Hayatımızı kolaylaştırmak ve Aspose.Cells'in tüm gücünden yararlanmak için birkaç paketi içe aktarmamız gerekiyor. Bir tane eklemek kadar basit`using` Kod dosyanızın en üstündeki ifade. İçe aktarmanız gerekenler şunlardır:
 
 ```csharp
-ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
-Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
-Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-
-ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
+using System;
+using System.IO;
 ```
 
-### Aspose.Cells for .NET kullanarak Kağıt Genişliğini ve Çalışma Sayfası Yüksekliğini Alma için örnek kaynak kodu 
+Bu satır, Aspose.Cells kütüphanesindeki tüm sınıflara ve yöntemlere erişmemizi sağlayarak Excel dosyalarını yönetmeyi kolaylaştırır. Şimdi, çeşitli kağıt boyutları için kağıt genişliğini ve yüksekliğini alma konusunda adım adım kılavuzumuza geçelim.
+
+## Adım 1: Yeni bir Çalışma Kitabı Oluşturun
+
+Aspose.Cells ile çalışmanın ilk adımı yeni bir çalışma kitabı oluşturmaktır. Çalışma kitabını, çalışma sayfaları, hücreler ekleyebileceğiniz ve bizim durumumuzda kağıt boyutlarını tanımlayabileceğiniz boş bir tuval olarak düşünün.
 
 ```csharp
 //Çalışma kitabı oluştur
 Workbook wb = new Workbook();
+```
+
+Bu satır, bizim işlememiz için hazır olan yeni bir çalışma kitabı nesnesi örneği oluşturur. Henüz hiçbir şey görmeyeceksiniz, ancak tuvalimiz ayarlandı!
+
+## Adım 2: İlk Çalışma Sayfasına Erişim
+
+Artık çalışma kitabımız olduğuna göre, içindeki belirli bir çalışma sayfasına erişmemiz gerekiyor. Bir çalışma sayfası, çalışma kitabınızdaki tek bir sayfa gibidir ve tüm eylemin gerçekleştiği yerdir.
+
+```csharp
 //İlk çalışma sayfasına erişin
 Worksheet ws = wb.Worksheets[0];
+```
+
+Burada, çalışma kitabımızdan ilk çalışma kağıdını (indeks 0) alıyoruz. Bunu bir kitabın ilk sayfasına geçmek gibi düşünebilirsiniz. 
+
+## Adım 3: Kağıt Boyutunu Ayarlayın ve Ölçüleri Alın
+
+Şimdi heyecan verici kısım geliyor! Farklı kağıt boyutları ayarlayıp boyutlarını tek tek alacağız. Bu adım, farklı boyutların düzeni nasıl etkilediğini görmemizi sağladığı için önemlidir.
+
+```csharp
 //Kağıt boyutunu A2 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Kağıt boyutunu A3 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
+```
+
+ Bu blokta, kağıt boyutunu A2 olarak ayarlıyoruz ve ardından genişliğini ve yüksekliğini alıyoruz.`PaperWidth` Ve`PaperHeight` özellikler inç cinsinden boyutları sağlar. Bu, bir çerçeveye resim koymadan önce boyutunu kontrol etmeye benzer.
+
+## Adım 4: Diğer Kağıt Boyutları İçin Tekrarlayın
+
+Diğer yaygın kağıt boyutları için işlemi tekrarlayalım. A3, A4 ve Letter boyutlarını kontrol edeceğiz. Bu tekrar, her boyutun Aspose.Cells çerçevesi içinde nasıl tanımlandığını anlamak için önemlidir.
+
+```csharp
+//Kağıt boyutunu A3 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Kağıt boyutunu A4 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
+//Kağıt boyutunu A4 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 //Kağıt boyutunu Letter olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
@@ -66,25 +84,25 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
+ Bu blokların her biri bir önceki adımı taklit eder ancak`PaperSize` mülkü buna göre ayarlayın. Sadece boyut göstergesini değiştirerek, zahmetsizce farklı kağıt boyutları elde edersiniz. Bu, depolamanız gereken şeye göre bir kutunun boyutunu değiştirmek gibidir!
 
 ## Çözüm
 
-Bir e-tablonun kağıt genişliğini ve yüksekliğini elde etmek için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrendiniz. Bu özellik, Excel belgelerinizin yapılandırılması ve hassas düzeni için yararlı olabilir.
+İşte bu kadar! Bu adımları izleyerek, Aspose.Cells for .NET'te çeşitli kağıt boyutlarının boyutlarını kolayca ayarlayabilir ve alabilirsiniz. Bu özellik size yalnızca zaman kazandırmakla kalmaz, aynı zamanda yanlış yapılandırılmış sayfa ayarları nedeniyle oluşabilecek yazdırma kazalarını da önler. Bu nedenle, bir sonraki sefere bir Excel sayfası yazdırmanız veya bir rapor oluşturmanız gerektiğinde, boyutların elinizde olduğunu bilerek bunu güvenle yapabilirsiniz. 
 
-### Sık Sorulan Sorular (SSS)
+## SSS
 
-#### Aspose.Cells for .NET nedir?
+### Aspose.Cells Nedir?
+Aspose.Cells, Excel'in kurulu olmasına gerek kalmadan Excel dosyalarını işlemek için tasarlanmış bir .NET kütüphanesidir.
 
-Aspose.Cells for .NET, .NET uygulamalarında Excel dosyalarını düzenlemek ve işlemek için güçlü bir kütüphanedir. Excel dosyalarını oluşturmak, değiştirmek, dönüştürmek ve analiz etmek için birçok özellik sunar.
+### Aspose.Cells'i ücretsiz kullanabilir miyim?
+ Evet! Ücretsiz denemeye şu adresten başlayabilirsiniz:[bu bağlantı](https://releases.aspose.com/).
 
-#### Aspose.Cells for .NET ile bir elektronik tablonun kağıt boyutunu nasıl alabilirim?
+### Özel kağıt boyutlarını nasıl ayarlayabilirim?
+ Aspose.Cells, özel kağıt boyutlarını ayarlamak için seçenekler sunar`PageSetup` sınıf.
 
- Şunu kullanabilirsiniz:`PageSetup` sınıfı`Worksheet` Kağıt boyutuna erişmek için nesneyi seçin. Kullan`PaperSize` kağıt boyutunu ayarlama özelliği ve`PaperWidth` Ve`PaperHeight` sırasıyla kağıt genişliğini ve yüksekliğini elde etmek için özellikler.
+### Aspose.Cells'i kullanmak için kodlama bilgisi gerekli mi?
+Temel kodlama bilgisi yardımcı olur, ancak daha kolay anlamak için eğitimleri takip edebilirsiniz!
 
-#### Aspose.Cells for .NET hangi kağıt boyutlarını destekliyor?
-
-Aspose.Cells for .NET, A2, A3, A4 ve Letter gibi yaygın olarak kullanılan kağıt boyutlarının yanı sıra diğer birçok özel boyutu da destekler.
-
-#### Aspose.Cells for .NET ile bir elektronik tablonun kağıt boyutunu özelleştirebilir miyim?
-
- Evet, tam genişlik ve yükseklik boyutlarını belirterek özel bir kağıt boyutu ayarlayabilirsiniz.`PaperWidth` Ve`PaperHeight` özellikleri`PageSetup` sınıf.
+### Daha fazla örneği nerede bulabilirim?
+ The[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) zengin örnekler ve öğretici materyaller sunmaktadır.

@@ -2,7 +2,7 @@
 title: Excel Workbook Automation
 linktitle: Excel Workbook Automation
 second_title: Aspose.Cells Java Excel Processing API
-description: Lär dig Excel Workbook Automation i Java med Aspose.Cells. Skapa, läs, uppdatera Excel-filer programmatiskt. Börja nu!
+description: Lär dig Excel Workbook Automation i Java med Aspose.Cells. Skapa, läs, uppdatera Excel-filer programmatiskt. Kom igång nu!
 type: docs
 weight: 16
 url: /sv/java/spreadsheet-automation/excel-workbook-automation/
@@ -89,7 +89,7 @@ I den här handledningen har vi täckt grunderna i Excel Workbook Automation med
 Här är några vanliga frågor relaterade till Excel Workbook Automation:
 
 ### Kan jag automatisera Excel-uppgifter i Java utan att Excel är installerat på min dator?
-   Jo det kan du. Aspose.Cells för Java låter dig arbeta med Excel-filer utan att Microsoft Excel behöver installeras.
+   Ja, det kan du. Aspose.Cells för Java låter dig arbeta med Excel-filer utan att Microsoft Excel behöver installeras.
 
 ### Hur formaterar jag celler eller tillämpar stilar på Excel-data med Aspose.Cells?
    Du kan använda olika formatering och stilar på celler med Aspose.Cells. Se API-dokumentationen för detaljerade exempel.

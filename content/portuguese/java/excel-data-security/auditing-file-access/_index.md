@@ -1,8 +1,8 @@
 ---
 title: Auditoria de acesso a arquivos
 linktitle: Auditoria de acesso a arquivos
-second_title: API de processamento Aspose.Cells Java Excel
-description: Aprenda como auditar o acesso a arquivos usando Aspose.Cells for Java API. Guia passo a passo com código-fonte e perguntas frequentes.
+second_title: API de processamento Java Excel Aspose.Cells
+description: Aprenda como auditar o acesso a arquivos usando Aspose.Cells para Java API. Guia passo a passo com código-fonte e FAQs.
 type: docs
 weight: 16
 url: /pt/java/excel-data-security/auditing-file-access/
@@ -16,18 +16,18 @@ Neste tutorial, exploraremos como auditar o acesso a arquivos usando a API Aspos
 
 Antes de começar, certifique-se de ter os seguintes pré-requisitos:
 
-- [Kit de Desenvolvimento Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) instalado em seu sistema.
--  Aspose.Cells para biblioteca Java. Você pode baixá-lo no[Site Aspose.Cells para Java](https://releases.aspose.com/cells/java/).
+- [Kit de desenvolvimento Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) instalado no seu sistema.
+-  Biblioteca Aspose.Cells para Java. Você pode baixá-la do[Site Aspose.Cells para Java](https://releases.aspose.com/cells/java/).
 
-## Etapa 1: configurando seu projeto Java
+## Etapa 1: Configurando seu projeto Java
 
-1. Crie um novo projeto Java em seu ambiente de desenvolvimento integrado (IDE) preferido.
+1. Crie um novo projeto Java no seu ambiente de desenvolvimento integrado (IDE) preferido.
 
-2. Adicione a biblioteca Aspose.Cells for Java ao seu projeto incluindo o arquivo JAR que você baixou anteriormente.
+2. Adicione a biblioteca Aspose.Cells para Java ao seu projeto incluindo o arquivo JAR que você baixou anteriormente.
 
-## Etapa 2: Criando o Registrador de Auditoria
+## Etapa 2: Criando o Logger de Auditoria
 
- Nesta etapa, criaremos uma classe responsável por registrar as atividades de acesso a arquivos. Vamos chamá-lo`FileAccessLogger.java`. Aqui está uma implementação básica:
+ Nesta etapa, criaremos uma classe responsável por registrar as atividades de acesso aos arquivos. Vamos chamá-la de`FileAccessLogger.java`. Aqui está uma implementação básica:
 
 ```java
 import java.io.FileWriter;
@@ -53,9 +53,9 @@ public class FileAccessLogger {
 
 Este registrador registra eventos de acesso em um arquivo de texto.
 
-## Etapa 3: usando Aspose.Cells para realizar operações de arquivo
+## Etapa 3: Usando Aspose.Cells para executar operações de arquivo
 
- Agora, vamos integrar Aspose.Cells em nosso projeto para realizar operações de arquivo e registrar atividades de acesso. Criaremos uma classe chamada`ExcelFileManager.java`:
+ Agora, vamos integrar Aspose.Cells em nosso projeto para executar operações de arquivo e atividades de acesso de log. Criaremos uma classe chamada`ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -85,22 +85,22 @@ public class ExcelFileManager {
 }
 ```
 
-## Etapa 4: usando o registrador de auditoria em seu aplicativo
+## Etapa 4: Usando o Audit Logger em seu aplicativo
 
- Agora que temos o nosso`FileAccessLogger` e`ExcelFileManager` classes, você pode usá-las em seu aplicativo da seguinte maneira:
+ Agora que temos nosso`FileAccessLogger` e`ExcelFileManager` classes, você pode usá-las em sua aplicação da seguinte maneira:
 
 ```java
 public class Main {
     public static void main(String[] args) {
         String username = "john_doe"; // Substitua pelo nome de usuário real
-        String filename = "example.xlsx"; // Substitua pelo caminho real do arquivo
+        String filename = "example.xlsx"; // Substituir pelo caminho real do arquivo
 
         // Abra o arquivo Excel
         ExcelFileManager.openExcelFile(filename, username);
 
-        // Execute operações no arquivo Excel
+        // Executar operações no arquivo Excel
 
-        // Salve o arquivo Excel
+        // Salvar o arquivo Excel
         ExcelFileManager.saveExcelFile(filename, username);
     }
 }
@@ -108,7 +108,7 @@ public class Main {
 
 ## Conclusão
 
-Neste guia abrangente, mergulhamos no mundo da API Aspose.Cells for Java e demonstramos como auditar o acesso a arquivos em seus aplicativos Java. Seguindo as instruções passo a passo e utilizando exemplos de código-fonte, você obteve informações valiosas sobre como aproveitar os recursos desta poderosa biblioteca.
+Neste guia abrangente, nós nos aprofundamos no mundo do Aspose.Cells para Java API e demonstramos como auditar o acesso a arquivos dentro de seus aplicativos Java. Ao seguir as instruções passo a passo e utilizar exemplos de código-fonte, você obteve insights valiosos sobre como alavancar os recursos desta poderosa biblioteca.
 
 ## Perguntas frequentes
 
@@ -116,14 +116,14 @@ Neste guia abrangente, mergulhamos no mundo da API Aspose.Cells for Java e demon
 
 Para recuperar o log de auditoria, você pode simplesmente ler o conteúdo do`file_access_log.txt` arquivo usando os recursos de leitura de arquivos do Java.
 
-### Posso personalizar o formato ou destino do log?
+### Posso personalizar o formato ou o destino do log?
 
- Sim, você pode personalizar o formato e o destino do log modificando o arquivo`FileAccessLogger` aula. Você pode alterar o caminho do arquivo de log, o formato de entrada de log ou até mesmo usar uma biblioteca de log diferente, como Log4j.
+ Sim, você pode personalizar o formato e o destino do log modificando o`FileAccessLogger` classe. Você pode alterar o caminho do arquivo de log, o formato da entrada de log ou até mesmo usar uma biblioteca de log diferente, como Log4j.
 
 ### Existe uma maneira de filtrar entradas de log por usuário ou arquivo?
 
- Você pode implementar a lógica de filtragem no`FileAccessLogger` aula. Adicione condições às entradas de log com base nos critérios do usuário ou do arquivo antes de gravar no arquivo de log.
+ Você pode implementar lógica de filtragem no`FileAccessLogger` classe. Adicione condições às entradas de log com base em critérios de usuário ou arquivo antes de gravar no arquivo de log.
 
 ### Que outras ações posso registrar além de abrir e salvar arquivos?
 
- Você pode estender o`ExcelFileManager` class para registrar outras ações, como edição, exclusão ou compartilhamento de arquivos, dependendo dos requisitos do seu aplicativo.
+ Você pode estender o`ExcelFileManager` classe para registrar outras ações, como edição, exclusão ou compartilhamento de arquivos, dependendo dos requisitos do seu aplicativo.

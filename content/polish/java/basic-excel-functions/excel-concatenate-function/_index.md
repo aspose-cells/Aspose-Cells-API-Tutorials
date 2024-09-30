@@ -1,30 +1,30 @@
 ---
-title: Funkcja CONCATENATE w Excelu
-linktitle: Funkcja CONCATENATE w Excelu
-second_title: Aspose.Cells API przetwarzania Java Excel
-description: Dowiedz się, jak łączyć tekst w programie Excel przy użyciu Aspose.Cells dla Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego umożliwiające płynną manipulację tekstem.
+title: Funkcja CONCATENATE w programie Excel
+linktitle: Funkcja CONCATENATE w programie Excel
+second_title: Aspose.Cells Java Excel Processing API
+description: Dowiedz się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do bezproblemowej manipulacji tekstem.
 type: docs
 weight: 13
 url: /pl/java/basic-excel-functions/excel-concatenate-function/
 ---
 
-## Wprowadzenie do funkcji CONCATENATE programu Excel przy użyciu Aspose.Cells dla języka Java
+## Wprowadzenie do funkcji CONCATENATE w programie Excel przy użyciu Aspose.Cells dla języka Java
 
-W tym samouczku omówimy, jak używać funkcji CONCATENATE w programie Excel przy użyciu Aspose.Cells dla Java. CONCATENATE to przydatna funkcja programu Excel, która umożliwia łączenie lub łączenie wielu ciągów tekstowych w jeden. Dzięki Aspose.Cells for Java możesz programowo osiągnąć tę samą funkcjonalność w swoich aplikacjach Java.
+W tym samouczku pokażemy, jak używać funkcji CONCATENATE w programie Excel przy użyciu Aspose.Cells for Java. CONCATENATE to przydatna funkcja programu Excel, która umożliwia łączenie lub łączenie wielu ciągów tekstowych w jeden. Dzięki Aspose.Cells for Java możesz osiągnąć tę samą funkcjonalność programowo w swoich aplikacjach Java.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Środowisko programistyczne Java: Powinieneś mieć zainstalowaną Javę w swoim systemie wraz z odpowiednim zintegrowanym środowiskiem programistycznym (IDE), takim jak Eclipse lub IntelliJ IDEA.
+1. Środowisko programistyczne Java: W systemie powinna być zainstalowana Java oraz odpowiednie zintegrowane środowisko programistyczne (IDE), np. Eclipse lub IntelliJ IDEA.
 
-2. Aspose.Cells for Java: Musisz mieć zainstalowaną bibliotekę Aspose.Cells for Java. Można go pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells dla Java: Musisz mieć zainstalowaną bibliotekę Aspose.Cells dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Utwórz nowy projekt Java
 
-Najpierw utwórzmy nowy projekt Java w preferowanym środowisku IDE. Pamiętaj, aby skonfigurować projekt tak, aby zawierał bibliotekę Aspose.Cells for Java w ścieżce klas.
+Najpierw utwórzmy nowy projekt Java w preferowanym IDE. Upewnij się, że skonfigurowałeś swój projekt, aby zawierał bibliotekę Aspose.Cells for Java w ścieżce klasy.
 
-## Krok 2: Zaimportuj bibliotekę Aspose.Cells
+## Krok 2: Importuj bibliotekę Aspose.Cells
 
 W kodzie Java zaimportuj niezbędne klasy z biblioteki Aspose.Cells:
 
@@ -34,7 +34,7 @@ import com.aspose.cells.*;
 
 ## Krok 3: Zainicjuj skoroszyt
 
-Utwórz nowy obiekt skoroszytu, który będzie reprezentował plik Excel. Możesz utworzyć nowy plik Excel lub otworzyć istniejący. Tutaj utworzymy nowy plik Excel:
+Utwórz nowy obiekt Workbook, aby reprezentować plik Excel. Możesz utworzyć nowy plik Excel lub otworzyć istniejący. Tutaj utworzymy nowy plik Excel:
 
 ```java
 Workbook workbook = new Workbook();
@@ -43,7 +43,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Krok 4: Wprowadź dane
 
-Wypełnijmy arkusz Excela pewnymi danymi. W tym przykładzie utworzymy prostą tabelę z wartościami tekstowymi, które chcemy połączyć.
+Wypełnijmy arkusz kalkulacyjny programu Excel danymi. W tym przykładzie utworzymy prostą tabelę z wartościami tekstowymi, które chcemy połączyć.
 
 ```java
 // Przykładowe dane
@@ -59,16 +59,16 @@ worksheet.getCells().get("C1").putValue(text3);
 
 ## Krok 5: Połącz tekst
 
-Teraz użyjmy Aspose.Cells, aby połączyć tekst z komórek A1, B1 i C1 w nową komórkę, powiedzmy D1.
+Teraz użyjmy Aspose.Cells, aby połączyć tekst z komórek A1, B1 i C1 w nowej komórce, np. D1.
 
 ```java
-// Połącz tekst z komórek A1, B1 i C1 w D1
+// Połącz tekst z komórek A1, B1 i C1 w komórce D1
 worksheet.getCells().get("D1").setFormula("=CONCATENATE(A1, B1, C1)");
 ```
 
-## Krok 6: Oblicz formuły
+## Krok 6: Oblicz wzory
 
-Aby mieć pewność, że formuła CONCATENATE zostanie oceniona, należy ponownie obliczyć formuły w arkuszu.
+Aby mieć pewność, że formuła CONCATENATE zostanie oceniona, należy ponownie obliczyć formuły w arkuszu kalkulacyjnym.
 
 ```java
 // Przelicz formuły
@@ -77,7 +77,7 @@ workbook.calculateFormula();
 
 ## Krok 7: Zapisz plik Excel
 
-Na koniec zapisz skoroszyt programu Excel w pliku.
+Na koniec zapisz skoroszyt programu Excel do pliku.
 
 ```java
 workbook.save("concatenated_text.xlsx");
@@ -85,38 +85,38 @@ workbook.save("concatenated_text.xlsx");
 
 ## Wniosek
 
- W tym samouczku nauczyliśmy się łączyć tekst w programie Excel za pomocą Aspose.Cells dla Java. Omówiliśmy podstawowe kroki, od inicjowania skoroszytu po zapisanie pliku Excel. Dodatkowo zbadaliśmy alternatywną metodę łączenia tekstu za pomocą metody`Cell.putValue` metoda. Możesz teraz używać Aspose.Cells for Java do łatwego łączenia tekstu w aplikacjach Java.
+ W tym samouczku nauczyliśmy się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Omówiliśmy podstawowe kroki, od inicjalizacji skoroszytu po zapisanie pliku programu Excel. Ponadto zbadaliśmy alternatywną metodę łączenia tekstu za pomocą`Cell.putValue` metoda. Teraz możesz używać Aspose.Cells for Java do łatwego wykonywania konkatenacji tekstu w swoich aplikacjach Java.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Jak połączyć tekst z różnych komórek w programie Excel za pomocą Aspose.Cells dla Java?
+### Jak połączyć tekst z różnych komórek w programie Excel za pomocą Aspose.Cells dla języka Java?
 
-Aby połączyć tekst z różnych komórek w programie Excel za pomocą Aspose.Cells dla Java, wykonaj następujące kroki:
+Aby połączyć tekst z różnych komórek w programie Excel przy użyciu pakietu Aspose.Cells for Java, wykonaj następujące kroki:
 
 1. Zainicjuj obiekt skoroszytu.
 
 2. Wprowadź dane tekstowe do żądanych komórek.
 
-3.  Użyj`setFormula` metoda tworzenia formuły CONCATENATE, która łączy tekst z komórek.
+3.  Użyj`setFormula` metoda umożliwiająca utworzenie formuły CONCATENATE, która łączy tekst z komórek.
 
-4.  Oblicz ponownie formuły w arkuszu, używając`workbook.calculateFormula()`.
+4.  Przelicz formuły w arkuszu kalkulacyjnym, używając`workbook.calculateFormula()`.
 
 5. Zapisz plik Excela.
 
-Otóż to! Pomyślnie połączyłeś tekst w Excelu przy użyciu Aspose.Cells for Java.
+To wszystko! Udało Ci się połączyć tekst w programie Excel przy użyciu Aspose.Cells dla języka Java.
 
-### Czy mogę połączyć więcej niż trzy ciągi tekstowe za pomocą CONCATENATE?
+### Czy mogę połączyć więcej niż trzy ciągi tekstowe za pomocą polecenia CONCATENATE?
 
-Tak, możesz połączyć więcej niż trzy ciągi tekstowe za pomocą CONCATENATE w Excelu i Aspose.Cells dla Java. W razie potrzeby wystarczy rozszerzyć formułę, aby uwzględnić dodatkowe odwołania do komórek.
+Tak, możesz połączyć więcej niż trzy ciągi tekstowe za pomocą CONCATENATE w Excelu i Aspose.Cells dla Java. Po prostu rozszerz formułę, aby uwzględnić dodatkowe odwołania do komórek, jeśli to konieczne.
 
 ### Czy istnieje alternatywa dla CONCATENATE w Aspose.Cells dla Java?
 
- Tak, Aspose.Cells dla Java zapewnia alternatywny sposób łączenia tekstu za pomocą`Cell.putValue` metoda. Możesz połączyć tekst z wielu komórek i ustawić wynik w innej komórce bez użycia formuł.
+ Tak, Aspose.Cells dla języka Java zapewnia alternatywny sposób łączenia tekstu za pomocą`Cell.putValue` metoda. Możesz połączyć tekst z wielu komórek i ustawić wynik w innej komórce bez używania formuł.
 
 ```java
-// Połącz tekst z komórek A1, B1 i C1 w komórkę D1 bez użycia formuł
+// Łączenie tekstu z komórek A1, B1 i C1 w komórce D1 bez użycia formuł
 String concatenatedText = text1 + text2 + text3;
 worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
 
-To podejście może być przydatne, jeśli chcesz połączyć tekst bez korzystania z formuł Excela.
+Takie podejście może być przydatne, gdy chcesz łączyć teksty bez polegania na formułach programu Excel.

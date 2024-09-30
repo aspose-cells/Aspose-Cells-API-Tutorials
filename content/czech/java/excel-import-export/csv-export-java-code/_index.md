@@ -16,7 +16,7 @@ V tomto podrobném průvodci prozkoumáme, jak exportovat data do formátu CSV p
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Java JDK.
-2.  Aspose.Cells for Java: Stáhněte si a zahrňte knihovnu Aspose.Cells for Java do svého projektu. Odkaz ke stažení najdete[tady](https://releases.aspose.com/cells/java/).
+2.  Aspose.Cells for Java: Stáhněte si a zahrňte knihovnu Aspose.Cells for Java do svého projektu. Odkaz ke stažení najdete[zde](https://releases.aspose.com/cells/java/).
 
 ## Vytvoření projektu Java
 
@@ -27,7 +27,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 Chcete-li do projektu přidat Aspose.Cells for Java, postupujte takto:
 
-1.  Stáhněte si knihovnu Aspose.Cells for Java z webu[tady](https://releases.aspose.com/cells/java/).
+1.  Stáhněte si knihovnu Aspose.Cells for Java z webu[zde](https://releases.aspose.com/cells/java/).
 2. Zahrňte stažený soubor JAR do cesty třídy vašeho projektu.
 
 ## Zápis exportního kódu CSV
@@ -58,15 +58,15 @@ public class CsvExportExample {
 }
 ```
 
-V tomto kódu načteme sešit aplikace Excel, určíme možnosti CSV (například oddělovač) a pak list uložíme jako soubor CSV.
+V tomto kódu načteme sešit aplikace Excel, určíme možnosti CSV (například oddělovač) a poté list uložíme jako soubor CSV.
 
 ## Spuštění kodexu
 
-Zkompilujte a spusťte kód Java ve svém IDE. Ujistěte se, že máte v adresáři projektu soubor aplikace Excel s názvem „input.xlsx“. Po spuštění kódu najdete exportovaný soubor CSV jako „output.csv“ ve stejném adresáři.
+Zkompilujte a spusťte kód Java ve svém IDE. Ujistěte se, že máte v adresáři projektu soubor Excel s názvem "input.xlsx". Po spuštění kódu najdete exportovaný soubor CSV jako „output.csv“ ve stejném adresáři.
 
 ## Závěr
 
-Gratulujeme! Naučili jste se exportovat data do formátu CSV pomocí Aspose.Cells for Java. Tato všestranná knihovna zjednodušuje proces práce se soubory Excel v aplikacích Java.
+Gratuluji! Naučili jste se exportovat data do formátu CSV pomocí Aspose.Cells for Java. Tato všestranná knihovna zjednodušuje proces práce se soubory Excel v aplikacích Java.
 
 ---
 
@@ -85,6 +85,6 @@ Gratulujeme! Naučili jste se exportovat data do formátu CSV pomocí Aspose.Cel
    Ano, Aspose.Cells podporuje různé exportní formáty, včetně XLS, XLSX, PDF a dalších.
 
 ### 5. Kde najdu další dokumentaci a příklady?
-    Navštivte dokumentaci Aspose.Cells[tady](https://reference.aspose.com/cells/java/) pro komplexní zdroje a příklady.
+    Navštivte dokumentaci Aspose.Cells[zde](https://reference.aspose.com/cells/java/) pro komplexní zdroje a příklady.
 
 Neváhejte prozkoumat dále a upravit tento kód tak, aby vyhovoval vašim konkrétním potřebám. Šťastné kódování!

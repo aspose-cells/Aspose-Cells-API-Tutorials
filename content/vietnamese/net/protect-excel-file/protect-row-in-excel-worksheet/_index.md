@@ -1,122 +1,77 @@
 ---
 title: Bảo vệ hàng trong bảng tính Excel
 linktitle: Bảo vệ hàng trong bảng tính Excel
-second_title: Aspose.Cells cho tài liệu tham khảo API .NET
-description: Khám phá trong hướng dẫn này cách bảo vệ các hàng của bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước trong C#.
+second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
+description: Khám phá trong hướng dẫn này cách bảo vệ các hàng của bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước bằng C#.
 type: docs
 weight: 60
 url: /vi/net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
-Trong hướng dẫn này, chúng ta sẽ xem xét một số mã nguồn C# sử dụng thư viện Aspose.Cells để bảo vệ các hàng trong bảng tính Excel. Chúng tôi sẽ đi qua từng bước của mã và giải thích cách hoạt động của mã. Thực hiện theo các hướng dẫn cẩn thận để có được kết quả mong muốn.
+## Giới thiệu
 
-## Bước 1: Điều kiện tiên quyết
+Khi làm việc với các trang tính Excel, thường cần phải bảo vệ các hàng cụ thể để duy trì tính toàn vẹn của dữ liệu. Cho dù bạn đang quản lý một dự án nhóm, giám sát báo cáo tài chính hay chia sẻ tài liệu, việc hạn chế quyền truy cập vào một số hàng nhất định có thể ngăn chặn những thay đổi không mong muốn. Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng Aspose.Cells cho .NET để bảo vệ các hàng cụ thể trong một trang tính Excel. Vì vậy, hãy đội mũ lập trình của bạn và cùng khám phá thế giới thú vị của thao tác Excel bằng C#!
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể lấy nó từ trang web chính thức của Aspose. Ngoài ra, hãy đảm bảo rằng bạn có phiên bản Visual Studio mới hoặc bất kỳ môi trường phát triển C# nào khác.
+## Điều kiện tiên quyết
 
-## Bước 2: Nhập các không gian tên bắt buộc
+Trước khi bắt đầu phần thực hành, hãy đảm bảo bạn đã thiết lập mọi thứ. Sau đây là một số điều kiện tiên quyết:
 
-Để sử dụng thư viện Aspose.Cells, chúng ta cần nhập các vùng tên cần thiết vào mã của mình. Thêm các dòng sau vào đầu tệp nguồn C# của bạn:
+1.  Aspose.Cells cho .NET: Tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/cells/net/). Đảm bảo bạn có phiên bản mới nhất cho tất cả các tính năng mới và sửa lỗi.
+2. Visual Studio: Môi trường phát triển tích hợp (IDE) như Visual Studio (Community, Professional hoặc Enterprise) sẽ giúp bạn biên dịch và chạy mã C# hiệu quả.
+3. .NET Framework: Bạn sẽ cần phiên bản .NET Framework tương thích. Aspose.Cells hỗ trợ nhiều phiên bản, vì vậy hãy đảm bảo phiên bản của bạn được cập nhật. 
+4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ có lợi khi chúng ta viết mã trong hướng dẫn này.
+5.  Tài liệu tham khảo: Làm quen với[Aspose.Cells cho tài liệu .NET](https://reference.aspose.com/cells/net/) để biết thêm chi tiết về các phương pháp và lớp được sử dụng.
+
+## Nhập gói
+
+Bước đầu tiên trong hành trình của chúng ta là nhập các gói cần thiết vào dự án C# của chúng ta. Aspose.Cells hoạt động thông qua một tập hợp các lớp mà chúng ta cần đưa vào:
 
 ```csharp
+using System.IO;
 using Aspose.Cells;
 ```
 
-## Bước 3: Tạo sổ làm việc Excel
+Bây giờ chúng ta đã nhập các gói cần thiết, hãy cùng thực hiện các bước để tạo một bảng tính Excel và bảo vệ một hàng cụ thể. 
 
-Trong bước này, chúng ta sẽ tạo một sổ làm việc Excel mới. Sử dụng đoạn mã sau để tạo sổ làm việc Excel:
+## Bước 1: Xác định thư mục
 
-```csharp
-// Đường dẫn đến thư mục tài liệu.
-string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
-
-// Tạo một sổ làm việc mới.
-Workbook wb = new Workbook();
-```
-
- Hãy chắc chắn để thay thế`"YOUR_DOCUMENTS_DIR"` với đường dẫn thích hợp tới thư mục tài liệu của bạn.
-
-## Bước 4: Tạo bảng tính
-
-Bây giờ chúng ta đã tạo sổ làm việc Excel, hãy tạo một bảng tính và lấy trang tính đầu tiên. Sử dụng mã sau đây:
+Trong bước này, chúng ta sẽ chỉ định vị trí lưu tệp Excel của mình. Điều quan trọng là phải đảm bảo rằng thư mục này tồn tại, nếu không, chúng ta sẽ tạo nó theo chương trình nếu cần.
 
 ```csharp
-// Tạo một đối tượng bảng tính và lấy trang tính đầu tiên.
-Worksheet sheet = wb.Worksheets[0];
-```
-
-## Bước 5: Xác định kiểu
-
-Trong bước này, chúng ta sẽ xác định kiểu áp dụng cho các hàng của bảng tính. Sử dụng mã sau đây:
-
-```csharp
-// Định nghĩa đối tượng phong cách
-Styling styling;
-```
-
-## Bước 6: Lặp lại để mở khóa tất cả các cột
-
-Bây giờ chúng ta sẽ lặp qua tất cả các cột trong bảng tính và mở khóa chúng. Sử dụng mã sau đây:
-
-```csharp
-// Lặp lại tất cả các cột trong bảng tính và mở khóa chúng.
-for (int i = 0; i <= 255; i++)
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng đường dẫn tài liệu của bạn
+bool IsExists = Directory.Exists(dataDir);
+if (!IsExists)
 {
-     style = sheet.Cells.Columns[(byte)i].Style;
-     style. IsLocked = false;
-     sheet.Cells.Columns[(byte)i].ApplyStyle(style);
+    Directory.CreateDirectory(dataDir);
 }
 ```
+ Trong mã này, thay thế`YOUR DOCUMENT DIRECTORY` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình.
 
-## Bước 7: Khóa dòng đầu tiên
+## Bước 2: Tạo một Workbook mới
 
-Ở bước này, chúng ta sẽ khóa hàng đầu tiên của bảng tính. Sử dụng mã sau đây:
-
-```csharp
-// Lấy phong cách của dòng đầu tiên.
-style = sheet.Cells.Rows[0].Style;
-// Khóa phong cách.
-style. IsLocked = true;
-// Áp dụng kiểu cho dòng đầu tiên.
-sheet.Cells.ApplyRowStyle(0, style);
-```
-
-## Bước 8: Bảo vệ bảng tính
-
-Bây giờ chúng ta đã đặt kiểu và khóa các hàng, hãy bảo vệ bảng tính. Sử dụng mã sau đây:
+Tiếp theo, chúng ta sẽ tạo một sổ làm việc mới, nơi diễn ra mọi thao tác. Đây là bước cơ bản, giống như đặt nền móng trước khi xây dựng ngôi nhà mơ ước của bạn.
 
 ```csharp
-// Bảo vệ bảng tính.
-sheet.Protect(ProtectionType.All);
-```
-
-## Bước 9: Lưu file Excel
-
-Cuối cùng chúng ta sẽ lưu file Excel đã sửa đổi. Sử dụng mã sau đây:
-
-```csharp
-// Lưu tệp Excel.
-wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
-```
-
-Đảm bảo chỉ định đúng đường dẫn để lưu tệp Excel đã sửa đổi.
-
-### Mã nguồn mẫu cho Bảng tính Bảo vệ Hàng Trong Excel bằng Aspose.Cells cho .NET 
-```csharp
-//Đường dẫn đến thư mục tài liệu.
-string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo thư mục nếu nó chưa có.
-bool IsExists = System.IO.Directory.Exists(dataDir);
-if (!IsExists)
-    System.IO.Directory.CreateDirectory(dataDir);
-// Tạo một sổ làm việc mới.
 Workbook wb = new Workbook();
-// Tạo một đối tượng trang tính và lấy trang tính đầu tiên.
-Worksheet sheet = wb.Worksheets[0];
-// Xác định đối tượng phong cách.
+```
+ Dòng này khởi tạo một phiên bản mới của`Workbook` lớp, tạo ra một bài tập mới để chúng ta thực hiện.
+
+## Bước 3: Truy cập vào Bảng tính
+
+Sau khi tạo xong sổ làm việc, chúng ta hãy bắt tay vào làm bảng tính đầu tiên. Hãy nhớ rằng, một tệp Excel có thể chứa nhiều trang tính, vì vậy việc chọn đúng trang tính là rất quan trọng.
+
+```csharp
+Worksheet sheet = wb.Worksheets[0]; // Truy cập trang tính đầu tiên
+```
+
+## Bước 4: Mở khóa tất cả các cột
+
+Trước khi khóa một hàng cụ thể, tốt nhất là mở khóa tất cả các cột trước. Điều này cho phép chúng ta kiểm soát dữ liệu nào vẫn có thể chỉnh sửa sau này.
+
+```csharp
 Style style;
-// Xác định đối tượng styleflag.
 StyleFlag flag;
-// Lặp lại tất cả các cột trong bảng tính và mở khóa chúng.
+
+// Lặp qua tất cả các cột và mở khóa chúng
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -125,44 +80,57 @@ for (int i = 0; i <= 255; i++)
     flag.Locked = true;
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
 }
-// Lấy kiểu hàng đầu tiên.
-style = sheet.Cells.Rows[0].Style;
-// Khóa nó lại.
-style.IsLocked = true;
-//Khởi tạo cờ.
+```
+Vòng lặp này lặp qua 256 cột đầu tiên, mở khóa từng cột để đảm bảo quyền chỉnh sửa mặc định.
+
+## Bước 5: Khóa hàng cụ thể
+
+Bây giờ, chúng ta sẽ nhắm mục tiêu vào hàng đầu tiên của bảng tính để khóa. Bước này đảm bảo rằng người dùng không thể thực hiện các thay đổi trái phép đối với dữ liệu quan trọng có trong hàng này.
+
+```csharp
+style = sheet.Cells.Rows[0].Style; // Lấy kiểu của hàng đầu tiên
+style.IsLocked = true; // Khóa hàng
 flag = new StyleFlag();
-// Đặt cài đặt khóa.
-flag.Locked = true;
-// Áp dụng kiểu cho hàng đầu tiên.
-sheet.Cells.ApplyRowStyle(0, style, flag);
-// Bảo vệ tờ giấy.
-sheet.Protect(ProtectionType.All);
-// Lưu tập tin excel.
+flag.Locked = true; // Đặt cờ khóa
+sheet.Cells.ApplyRowStyle(0, style, flag); // Áp dụng kiểu cho hàng đầu tiên
+```
+Ở đây, chúng ta lấy kiểu cho hàng đầu tiên, đánh dấu là đã khóa và áp dụng kiểu khóa. Điều này tương tự như việc khóa một ngăn kéo quan trọng—điều cần thiết để bảo mật thông tin nhạy cảm!
+
+## Bước 6: Bảo vệ tờ giấy
+
+ Với hàng của chúng ta bị khóa, hãy thực hiện thêm bước đó và bảo vệ hoàn toàn bảng tính. Điều này sẽ thực thi khóa trên tất cả các chức năng được xác định trong`ProtectionType`.
+
+```csharp
+sheet.Protect(ProtectionType.All); // Bảo vệ tờ giấy với tất cả các tính năng
+```
+Bằng cách áp dụng biện pháp bảo vệ này, người dùng không thể chỉnh sửa hàng đã khóa hoặc thực hiện bất kỳ thay đổi nào có thể ảnh hưởng đến các khu vực bị khóa.
+
+## Bước 7: Lưu sổ làm việc
+
+Bước cuối cùng là lưu sổ làm việc. Đây là nơi mọi công sức của chúng ta được đền đáp, và chúng ta có thể thấy bảng tính được bảo vệ tuyệt đẹp của mình trở nên sống động!
+
+```csharp
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
+Đảm bảo tên tệp đã lưu và định dạng phù hợp với yêu cầu của bạn. Trong trường hợp này, chúng tôi sẽ lưu dưới dạng định dạng Excel cũ hơn (Excel 97-2003).
 
 ## Phần kết luận
 
-Xin chúc mừng! Bây giờ bạn có mã nguồn C# cho phép bạn bảo vệ các hàng trong bảng tính Excel bằng thư viện Aspose.Cells cho .NET. Hãy nhớ làm theo các bước một cách cẩn thận và tùy chỉnh mã theo nhu cầu cụ thể của bạn.
+Và bạn đã có nó! Bạn đã học thành công cách bảo vệ một hàng cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn không chỉ tạo được một sổ làm việc mà còn quản lý để bảo mật thông tin nhạy cảm, đảm bảo rằng các tệp Excel của bạn vẫn nguyên vẹn và đáng tin cậy. Cho dù đó là báo cáo tài chính, bảng điểm danh hay kế hoạch dự án hợp tác, việc bảo vệ dữ liệu quan trọng là điều cần thiết. 
 
-### Câu hỏi thường gặp (Câu hỏi thường gặp)
+## Câu hỏi thường gặp
 
-#### Mã này có hoạt động với các phiên bản Excel gần đây không?
+### Aspose.Cells là gì?
+Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép người dùng tạo, thao tác và chuyển đổi các tệp Excel theo chương trình.
 
-Có, mã này hoạt động với các phiên bản Excel gần đây, bao gồm các tệp ở định dạng Excel 2010 trở lên.
+### Tôi có thể bảo vệ nhiều hàng cùng lúc bằng Aspose.Cells không?
+Có, bạn có thể mở rộng kỹ thuật khóa bằng cách lặp qua nhiều hàng và áp dụng các thay đổi kiểu tương tự cho từng hàng.
 
-#### Tôi có thể chỉ bảo vệ các hàng cụ thể thay vì tất cả các hàng trong trang tính không?
+### Có cách nào để mở khóa các hàng sau khi bảo vệ không?
+ Có, trước tiên bạn có thể bỏ bảo vệ trang tính rồi sau đó điều chỉnh`IsLocked` thuộc tính của các hàng mong muốn, sau đó áp dụng lại biện pháp bảo vệ.
 
-Có, bạn có thể sửa đổi mã để chỉ định các hàng cụ thể mà bạn muốn bảo vệ. Bạn sẽ cần phải điều chỉnh vòng lặp và các chỉ số cho phù hợp.
+### Aspose.Cells có hỗ trợ các định dạng khác ngoài Excel không?
+Chắc chắn rồi! Aspose.Cells có thể chuyển đổi và lưu sổ làm việc thành nhiều định dạng khác nhau, bao gồm CSV, PDF và HTML.
 
-#### Làm cách nào tôi có thể mở khóa lại các dòng bị khóa?
-
- Bạn có thể dùng`IsLocked` phương pháp của`Style` đối tượng để đặt giá trị thành`false` và mở khóa các hàng.
-
-#### Có thể bảo vệ nhiều bảng tính trong cùng một sổ làm việc Excel không?
-
-Có, bạn có thể lặp lại các bước tạo trang tính, đặt kiểu và bảo vệ cho từng trang tính trong sổ làm việc.
-
-#### Làm cách nào để thay đổi mật khẩu bảo vệ bảng tính?
-
- Bạn có thể thay đổi mật khẩu bằng cách sử dụng`Protect` phương thức và chỉ định mật khẩu mới làm đối số.
+### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
+ Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và hướng dẫn cộng đồng.

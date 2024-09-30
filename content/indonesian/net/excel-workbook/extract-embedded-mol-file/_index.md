@@ -1,91 +1,141 @@
 ---
-title: Ekstrak File Mol Tertanam
-linktitle: Ekstrak File Mol Tertanam
-second_title: Aspose.Cells untuk Referensi .NET API
-description: Pelajari cara mengekstrak file MOL yang disematkan dengan mudah dari buku kerja Excel menggunakan Aspose.Cells untuk .NET.
+title: Ekstrak File Mol yang Tertanam
+linktitle: Ekstrak File Mol yang Tertanam
+second_title: Referensi API Aspose.Cells untuk .NET
+description: Pelajari cara mudah mengekstrak file MOL tertanam dari buku kerja Excel menggunakan Aspose.Cells untuk .NET.
 type: docs
 weight: 90
 url: /id/net/excel-workbook/extract-embedded-mol-file/
 ---
-Dalam tutorial ini, kami akan memandu Anda melalui langkah demi langkah cara mengekstrak file MOL yang disematkan dari buku kerja Excel menggunakan pustaka Aspose.Cells untuk .NET. Anda akan mempelajari cara menelusuri lembar buku kerja, mengekstrak objek OLE yang sesuai, dan menyimpan file MOL yang diekstrak. Ikuti langkah-langkah di bawah ini untuk menyelesaikan tugas ini dengan sukses.
+## Perkenalan
 
-## Langkah 1: Tentukan direktori sumber dan keluaran
-Pertama, kita perlu mendefinisikan direktori sumber dan keluaran dalam kode kita. Direktori ini menunjukkan di mana buku kerja Excel sumber berada dan di mana file MOL yang diekstraksi akan disimpan. Ini kode yang sesuai:
+Pernahkah Anda merasa perlu mengekstrak file tertanam, khususnya file MOL, dari lembar kerja Excel? Pekerjaan yang sulit, bukan? Namun, jangan khawatir! Dengan bantuan Aspose.Cells for .NET, kita dapat mengubah tugas yang tampaknya rumit ini menjadi mudah. Dalam tutorial ini, kami akan memandu Anda langkah demi langkah tentang cara mengekstrak file MOL dari file Excel menggunakan pustaka Aspose.Cells yang canggih.
+
+## Prasyarat
+
+Sebelum kita menyelami proses ekstraksi, mari pastikan Anda sudah siap sepenuhnya untuk mengikutinya. Berikut ini yang Anda perlukan:
+
+- Pengetahuan Dasar tentang C#: Sedikit pengetahuan tentang C# akan sangat membantu. Bahkan jika Anda baru memulai, Anda seharusnya dapat mengimbanginya.
+- Visual Studio: Instal Visual Studio di sistem Anda. Diperlukan untuk menulis dan menjalankan kode C# Anda.
+-  Aspose.Cells untuk .NET: Jika Anda belum mengunduhnya, kunjungi[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/) dan ambil versi terbaru.
+- .NET Framework: Pastikan Anda telah menginstal versi .NET Framework yang kompatibel.
+-  File Excel dengan Objek MOL Tertanam: Untuk contoh kita, kita akan menggunakan`EmbeddedMolSample.xlsx`Pastikan Anda telah menyiapkan berkas ini untuk diekstraksi.
+
+## Paket Impor
+
+Setelah semua yang kita butuhkan tersedia, saatnya menyiapkan proyek kita. Berikut cara mengimpor paket yang diperlukan ke dalam proyek C# Anda:
+
+### Buat Proyek Baru
+
+Buka Visual Studio dan pilih untuk membuat Aplikasi Konsol C# baru.
+
+### Tambahkan Paket NuGet untuk Aspose.Cells
+
+Dalam proyek yang baru Anda buat, Anda perlu menambahkan paket Aspose.Cells. Anda dapat melakukannya melalui NuGet Package Manager:
+
+1. Klik kanan pada proyek Anda di Solution Explorer.
+2. Pilih "Kelola Paket NuGet."
+3. Cari "Aspose.Cells" dan klik "Instal."
+
+### Impor Namespace Aspose.Cells
 
 ```csharp
-// Direktori
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+using Aspose.Cells.Drawing;
+using Aspose.Cells.WebExtensions;
+using System;
+using System.IO;
 ```
 
-Pastikan untuk menentukan jalur yang sesuai sesuai kebutuhan.
+Proyek Anda sekarang seharusnya dapat memanfaatkan fungsionalitas pustaka Aspose.Cells.
 
-## Langkah 2: Memuat buku kerja Excel
-Langkah selanjutnya adalah memuat buku kerja Excel yang berisi objek OLE dan file MOL yang disematkan. Berikut ini kode untuk memuat buku kerja:
+## Langkah 1: Menyiapkan Lingkungan
 
-```csharp
-Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
-```
+Sekarang setelah Anda mengimpor paket yang diperlukan, mari siapkan lingkungan kita untuk mengekstrak file MOL.
 
-Pastikan untuk menentukan nama file sumber dengan benar dalam kode.
-
-## Langkah 3: Telusuri lembaran dan ekstrak file MOL
-Sekarang kita akan mengulang setiap lembar di buku kerja dan mengekstrak objek OLE yang sesuai, yang berisi file MOL. Ini kode yang sesuai:
-
-```csharp
-var index = 1;
-foreach(Worksheet sheet in workbook.Worksheets)
-{
-     OleObjectCollection oles = sheet.OleObjects;
-     foreach(OleObject ole in oles)
-     {
-         string fileName = outputDir + "OleObject" + index + ".mol";
-         FileStream fs = File.Create(fileName);
-         fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-         fs. Close();
-         index++;
-     }
-}
-Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
-```
-
-Kode ini mengulang setiap lembar di buku kerja, mengambil objek OLE, dan menyimpan file MOL yang diekstraksi ke direktori keluaran.
-
-### Contoh kode sumber untuk Ekstrak File Mol Tertanam menggunakan Aspose.Cells untuk .NET 
 ```csharp
 //direktori
 string SourceDir = RunExamples.Get_SourceDirectory();
 string outputDir = RunExamples.Get_OutputDirectory();
+
+```
+
+Ini menginisialisasi buku kerja menggunakan berkas Excel yang berisi berkas MOL tertanam Anda.
+
+
+Mari kita uraikan proses ekstraksi menjadi langkah-langkah yang mudah diikuti.
+
+## Langkah 2: Muat Buku Kerja
+
+ Setelah Anda memiliki`workbook` disiapkan dengan contoh file Excel kami, langkah selanjutnya adalah memuat buku kerja dan mempersiapkan ekstraksi:
+
+```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
-var index = 1;
+```
+
+ Pada langkah ini, kita membuat instance baru dari`Workbook`kelas, yang bertindak sebagai jembatan ke konten berkas Excel Anda. Berkas dimuat di sini sehingga kita dapat mengulangi lembar-lembar tersebut dan menemukan objek MOL yang tertanam.
+
+## Langkah 3: Ulangi Melalui Lembar Kerja
+
+Sekarang buku kerja kita sudah dimuat, saatnya untuk menggali lebih dalam. Anda perlu mengulang setiap lembar kerja dalam buku kerja untuk menemukan objek yang disematkan:
+
+```csharp
 foreach (Worksheet sheet in workbook.Worksheets)
 {
-	OleObjectCollection oles = sheet.OleObjects;
-	foreach (OleObject ole in oles)
-	{
-		string fileName = outputDir + "OleObject" + index + ".mol ";
-		FileStream fs = File.Create(fileName);
-		fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
-		fs.Close();
-		index++;
-	}
+    OleObjectCollection oles = sheet.OleObjects;
+    // Lanjutkan pemrosesan objek OLE...
 }
+```
+
+ Dengan potongan ini, kami menggunakan`foreach` loop untuk menelusuri setiap lembar di buku kerja kita. Dengan mengakses`OleObjects` koleksi ini, kita bisa mendapatkan akses ke semua objek yang tertanam pada lembar tertentu tersebut. 
+
+## Langkah 4: Ekstrak Objek OLE
+
+Di sinilah keajaiban terjadi! Anda perlu mengulang setiap objek OLE untuk mengekstrak dan menyimpan file MOL:
+
+```csharp
+var index = 1;
+foreach (OleObject ole in oles)
+{
+    string fileName = outputDir + "OleObject" + index + ".mol";
+    FileStream fs = File.Create(fileName);
+    fs.Write(ole.ObjectData, 0, ole.ObjectData.Length);
+    fs.Close();
+    index++;
+}
+```
+
+Dalam pendekatan ini:
+- Kami melacak indeks untuk memberi nama file keluaran secara berurutan.
+- Untuk setiap objek OLE, kami membuat file baru menggunakan FileStream.
+- Kami kemudian menulis data yang tertanam ke dalam berkas ini dan menutup alirannya.
+
+## Langkah 5: Konfirmasi Eksekusi
+
+Setelah logika ekstraksi Anda selesai, sebaiknya Anda mengonfirmasi keberhasilan pelaksanaan proses ekstraksi Anda:
+
+```csharp
 Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 ```
 
+Baris sederhana ini menampilkan pesan ke konsol saat seluruh operasi ekstraksi Anda selesai dengan lancar. 
+
 ## Kesimpulan
-Selamat! Anda telah mempelajari cara mengekstrak file MOL yang disematkan dari buku kerja Excel menggunakan Aspose.Cells untuk .NET. Anda sekarang dapat menerapkan pengetahuan ini untuk mengekstrak file MOL dari buku kerja Excel Anda sendiri. Jangan ragu untuk menjelajahi perpustakaan Aspose.Cells lebih jauh dan mempelajari fitur-fitur canggih lainnya.
 
-### FAQ
+Nah, itu dia! Anda telah berhasil mengekstrak file MOL yang disematkan dari file Excel menggunakan Aspose.Cells for .NET. Sekarang Anda dapat menggunakan keterampilan baru Anda dan menerapkannya pada skenario lain saat Anda perlu mengekstrak file objek dari lembar Excel. Metode ini tidak hanya efektif tetapi juga membuka peluang untuk menangani berbagai operasi terkait Excel dengan mudah.
 
-#### T: Apa itu file MOL?
- 
-J: File MOL adalah format file yang digunakan untuk mewakili struktur kimia dalam kimia komputasi. Ini berisi informasi tentang atom, ikatan dan sifat molekul lainnya.
+## Pertanyaan yang Sering Diajukan
 
-#### T: Apakah metode ini berfungsi pada semua jenis file Excel?
+### Apa itu Aspose.Cells untuk .NET?  
+Aspose.Cells untuk .NET adalah pustaka hebat yang dirancang untuk memanipulasi dan mengelola file Excel dalam aplikasi .NET.
 
-J: Ya, metode ini berfungsi dengan semua jenis file Excel yang didukung oleh Aspose.Cells.
+### Bisakah saya mengekstrak berbagai jenis file yang tertanam menggunakan Aspose.Cells?  
+Tentu saja! Aspose.Cells memungkinkan Anda mengekstrak berbagai format file tertanam seperti PDF, gambar, dan lainnya, bukan hanya file MOL.
 
-#### T: Bisakah saya mengekstrak beberapa file MOL sekaligus?
+### Apakah saya perlu membeli Aspose.Cells untuk menggunakannya?  
+Meskipun ada uji coba gratis yang tersedia, lisensi diperlukan untuk fitur lengkap. Anda dapat[belinya disini](https://purchase.aspose.com/buy).
 
-J: Ya, Anda bisa mengekstrak beberapa file MOL sekaligus dengan melakukan iterasi melalui objek OLE pada setiap lembar di buku kerja.
+### Apakah perlu memiliki Visual Studio untuk proses ini?  
+Sementara kami mendemonstrasikan penggunaan Visual Studio, Anda dapat menggunakan IDE apa pun yang kompatibel dengan C# untuk menjalankan proyek Anda.
+
+### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?  
+ Anda dapat mengakses[Forum dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk panduan dan pemecahan masalah.

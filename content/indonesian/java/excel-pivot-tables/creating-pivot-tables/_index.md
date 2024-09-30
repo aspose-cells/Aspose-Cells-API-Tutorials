@@ -2,16 +2,16 @@
 title: Membuat Tabel Pivot
 linktitle: Membuat Tabel Pivot
 second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Pelajari cara membuat Tabel Pivot yang canggih di Java dengan Aspose.Cells untuk meningkatkan analisis dan visualisasi data.
+description: Pelajari cara membuat Tabel Pivot yang canggih di Java dengan Aspose.Cells untuk analisis dan visualisasi data yang lebih baik.
 type: docs
 weight: 10
 url: /id/java/excel-pivot-tables/creating-pivot-tables/
 ---
 ## Perkenalan
-Tabel Pivot adalah alat yang sangat diperlukan untuk analisis dan visualisasi data. Dalam tutorial ini, kita akan mempelajari cara membuat Tabel Pivot menggunakan Aspose.Cells for Java API. Kami akan memberi Anda petunjuk langkah demi langkah beserta contoh kode sumber untuk membuat prosesnya lancar.
+Tabel Pivot merupakan alat yang sangat penting untuk analisis dan visualisasi data. Dalam tutorial ini, kita akan membahas cara membuat Tabel Pivot menggunakan Aspose.Cells for Java API. Kami akan memberikan petunjuk langkah demi langkah beserta contoh kode sumber agar prosesnya lancar.
 
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda telah menginstal pustaka Aspose.Cells untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
+Sebelum kita mulai, pastikan Anda telah menginstal pustaka Aspose.Cells for Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Buat Buku Kerja
 ```java
@@ -22,8 +22,8 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-## Langkah 2: Muat Data ke dalam Buku Kerja
-Anda bisa memuat data Anda ke dalam buku kerja dari berbagai sumber, seperti database atau file Excel.
+## Langkah 2: Memuat Data ke dalam Buku Kerja
+Anda dapat memuat data ke dalam buku kerja dari berbagai sumber, seperti database atau berkas Excel.
 
 ```java
 // Memuat data ke dalam buku kerja
@@ -39,10 +39,10 @@ String sourceData = "Sheet1!A1:D100"; // Ubah ini ke rentang data Anda
 ```
 
 ## Langkah 4: Buat Tabel Pivot
-Sekarang, mari buat Tabel Pivot.
+Sekarang, mari membuat Tabel Pivot.
 
 ```java
-// Buat Tabel Pivot
+// Membuat Tabel Pivot
 int index = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(index);
 int pivotIndex = worksheet.getPivotTables().add(sourceData, "A1", "PivotTable1");
@@ -50,7 +50,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 ```
 
 ## Langkah 5: Konfigurasikan Tabel Pivot
-Anda dapat mengonfigurasi Tabel Pivot dengan menambahkan baris, kolom, dan nilai, mengatur filter, dan lainnya.
+Anda dapat mengonfigurasi Tabel Pivot dengan menambahkan baris, kolom, dan nilai, mengatur filter, dan banyak lagi.
 
 ```java
 // Konfigurasikan Tabel Pivot
@@ -77,22 +77,22 @@ workbook.save("output.xlsx");
 ```
 
 ## Kesimpulan
-Dalam tutorial ini, kita telah mempelajari proses pembuatan Tabel Pivot menggunakan Aspose.Cells untuk Java API. Anda kini dapat meningkatkan kemampuan analisis dan visualisasi data dengan mudah.
+Dalam tutorial ini, kami telah membahas proses pembuatan Tabel Pivot menggunakan Aspose.Cells untuk API Java. Kini Anda dapat meningkatkan kemampuan analisis dan visualisasi data dengan mudah.
 
-## FAQ
+## Tanya Jawab Umum
 ### Apa itu Tabel Pivot?
-   Tabel Pivot adalah alat pemrosesan data yang digunakan untuk merangkum, menganalisis, dan memvisualisasikan data dari berbagai sumber.
+   Tabel Pivot adalah alat pemrosesan data yang digunakan untuk meringkas, menganalisis, dan memvisualisasikan data dari berbagai sumber.
 
 ### Bisakah saya menambahkan beberapa Tabel Pivot ke satu lembar kerja?
-   Ya, Anda bisa menambahkan beberapa Tabel Pivot ke lembar kerja yang sama sesuai kebutuhan.
+   Ya, Anda dapat menambahkan beberapa Tabel Pivot ke lembar kerja yang sama sesuai kebutuhan.
 
 ### Apakah Aspose.Cells kompatibel dengan format data yang berbeda?
-   Ya, Aspose.Cells mendukung berbagai format data, termasuk Excel, CSV, dan lainnya.
+   Ya, Aspose.Cells mendukung berbagai format data, termasuk Excel, CSV, dan banyak lagi.
 
 ### Bisakah saya menyesuaikan format Tabel Pivot?
    Tentu saja, Anda dapat menyesuaikan tampilan dan format Tabel Pivot agar sesuai dengan preferensi Anda.
 
-### Bagaimana cara mengotomatiskan pembuatan Tabel Pivot di aplikasi Java?
-   Anda dapat mengotomatiskan pembuatan Tabel Pivot di Java menggunakan Aspose.Cells for Java API, seperti yang ditunjukkan dalam tutorial ini.
+### Bagaimana saya bisa mengotomatiskan pembuatan Tabel Pivot dalam aplikasi Java?
+   Anda dapat mengotomatiskan pembuatan Tabel Pivot di Java menggunakan Aspose.Cells untuk Java API, seperti yang ditunjukkan dalam tutorial ini.
 
-Sekarang Anda memiliki pengetahuan dan kode untuk membuat Tabel Pivot yang kuat di Java menggunakan Aspose.Cells. Bereksperimenlah dengan berbagai sumber data dan konfigurasi untuk menyesuaikan Tabel Pivot dengan kebutuhan spesifik Anda. Selamat menganalisis data!
+Sekarang Anda memiliki pengetahuan dan kode untuk membuat Tabel Pivot yang canggih di Java menggunakan Aspose.Cells. Bereksperimenlah dengan berbagai sumber data dan konfigurasi untuk menyesuaikan Tabel Pivot dengan kebutuhan spesifik Anda. Selamat menganalisis data!
