@@ -25,3 +25,16 @@ Whether you're a beginner or an experienced developer, Aspose.Cells for .NET tut
 | [Unprotect Excel Sheet](./unprotect-excel-sheet/) | Learn how to unprotect an Excel spreadsheet using Aspose.Cells for .NET. Detailed tutorials for developers in C#. |
 | [Excel Security](./excel-security/) | Discover comprehensive Excel security tutorials with Aspose.Cells for .NET. Protect your Excel files and control access to sensitive data. |
 | [Unprotect Excel Sheet](./unprotect-excel-sheet/) | Learn how to unprotect an Excel spreadsheet using Aspose.Cells for .NET. Detailed tutorials for developers in C#. |
+### [Inserting Controls in Charts](./inserting-controls-in-charts/)
+
+### [Manipulating Chart Types](./manipulating-chart-types/)
+
+### [Setting Chart Appearance](./setting-chart-appearance/)
+
+### [Advanced Chart Operations](./advanced-chart-operations/)
+
+### [Chart Rendering and Conversion](./chart-rendering-and-conversion/)
+
+### [Working with Chart Data](./working-with-chart-data/)
+
+### [Customizing Chart Axes and Units](./customizing-chart-axes-and-units/)
