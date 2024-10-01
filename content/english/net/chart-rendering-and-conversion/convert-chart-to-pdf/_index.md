@@ -31,15 +31,6 @@ Some familiarity with C# programming language will help you understand the code 
 
 To successfully use Aspose.Cells in your project, you need to import the necessary packages. Here’s how you can do that:
 
-```csharp
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Aspose.Cells.Charts;
-using System.IO;
-```
-
 ### Create a New Project
 
 Start by creating a new C# project in Visual Studio:
@@ -58,6 +49,19 @@ After creating your project, you must add a reference to the Aspose.Cells librar
 3. Search for “Aspose.Cells” and install it.
 
 Once you have the library included in your project, you're ready to move on to the code.
+
+### Import the Required Namespaces
+
+At the top of your `Program.cs` file, add the following namespaces:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Aspose.Cells.Charts;
+using System.IO;
+```
 
 Here’s how to convert an Excel chart to PDF in a systematic manner. Follow along step by step!
 
