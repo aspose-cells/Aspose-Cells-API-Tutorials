@@ -43,10 +43,8 @@ We zijn nu klaar om een webextensie toe te voegen aan een Excel-werkmap. Volg de
 Eerst moet u de uitvoermap instellen waar u uw aangepaste werkmap opslaat. Dit helpt uw bestanden georganiseerd te houden.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Hier,`RunExamples.Get_OutputDirectory()` is een methode die het pad naar de uitvoerdirectory ophaalt. U kunt dit aanpassen zodat het naar elke locatie op uw systeem verwijst.
-
 ## Stap 2: Maak een nieuwe werkmap
 
 Laten we nu een nieuw exemplaar van een werkboek maken. Dit is waar alle magie gebeurt!

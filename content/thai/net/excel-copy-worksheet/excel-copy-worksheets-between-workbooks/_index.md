@@ -20,7 +20,7 @@ url: /th/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 -  ใบอนุญาตที่ถูกต้องหรือ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หากคุณต้องการทดสอบฟังก์ชันทั้งหมดของ Aspose.Cells
 - ความเข้าใจพื้นฐานเกี่ยวกับ C# และ .NET framework
 
- คุณสามารถตรวจสอบได้เช่นกัน[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/)สำหรับรายละเอียดเพิ่มเติม
+ คุณสามารถตรวจสอบได้เช่นกัน[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ## แพ็คเกจนำเข้า
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 สุดท้าย คุณจะบันทึกสมุดงานที่สองพร้อมกับแผ่นงานที่คัดลอกมา ซึ่งก็เหมือนกับการบันทึกโน้ตที่คุณเขียนใหม่ในโฟลเดอร์ใหม่บนคอมพิวเตอร์ของคุณ
 
 ```csharp
-// บันทึกไฟล์
+//บันทึกไฟล์
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

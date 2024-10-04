@@ -39,7 +39,7 @@ La première chose à faire est de définir l'emplacement où votre fichier de s
 
 ```csharp
 // Répertoire de sortie
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Cette ligne de code récupère le chemin du répertoire où le fichier généré sera stocké. Assurez-vous que ce répertoire existe, sinon vous risquez de rencontrer ultérieurement une erreur de fichier introuvable.

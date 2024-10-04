@@ -47,13 +47,13 @@ using Aspose.Cells;
 ขั้นแรก เราต้องระบุว่าไฟล์ Excel อินพุตของเราอยู่ที่ไหน รวมถึงตำแหน่งที่เราต้องการบันทึกไฟล์เอาต์พุตหลังจากทำการเปลี่ยนแปลงที่จำเป็นแล้ว
 
 ```csharp
-//ไดเรกทอรีแหล่งที่มา
-string sourceDir = RunExamples.Get_SourceDirectory();
+// ไดเรกทอรีแหล่งที่มา
+string sourceDir = "Your Document Directory";
 // ไดเรกทอรีผลลัพธ์
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- ที่นี่,`RunExamples.Get_SourceDirectory()` และ`RunExamples.Get_OutputDirectory()` เป็นฟังก์ชันยูทิลิตี้ที่ช่วยให้คุณค้นหาเส้นทางต้นทางและปลายทางออกได้อย่างสะดวก ตรวจสอบให้แน่ใจว่าไดเร็กทอรีต้นทางของคุณมีไฟล์ชื่อ`SampleRegexReplace.xlsx` สำหรับตัวอย่างนี้
+ ที่นี่,`"Your Document Directory"` และ`"Your Document Directory"` เป็นฟังก์ชันยูทิลิตี้ที่ช่วยให้คุณค้นหาเส้นทางต้นทางและปลายทางออกได้อย่างสะดวก ตรวจสอบให้แน่ใจว่าไดเร็กทอรีต้นทางของคุณมีไฟล์ชื่อ`SampleRegexReplace.xlsx` สำหรับตัวอย่างนี้
 
 ## ขั้นตอนที่ 2: การโหลดเวิร์กบุ๊ก
 

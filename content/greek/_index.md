@@ -31,6 +31,6 @@ is_root: true
 - [Ανάλυση δεδομένων Excel](./java/excel-data-analysis/)
 - [Συγκεντρωτικοί πίνακες του Excel](./java/excel-pivot-tables/)
 - [Προηγμένα γραφήματα Excel](./java/advanced-excel-charts/)
-- [Εξαγωγή εισαγωγής Excel](./java/excel-import-export/)
+- [Excel Εισαγωγή Εξαγωγή](./java/excel-import-export/)
 - [Ασφάλεια δεδομένων Excel](./java/excel-data-security/)
 - [Αυτοματισμός υπολογιστικών φύλλων](./java/spreadsheet-automation/)

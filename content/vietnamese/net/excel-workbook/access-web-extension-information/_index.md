@@ -39,7 +39,7 @@ using System;
 Bắt đầu bằng cách xác định thư mục nguồn nơi lưu trữ tệp Excel của bạn. Điều này đảm bảo rằng chương trình của bạn biết nơi tìm tệp bạn muốn làm việc.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Bước 2: Tải sổ làm việc Excel

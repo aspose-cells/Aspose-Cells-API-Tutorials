@@ -31,7 +31,7 @@ Krótko mówiąc, niezależnie od tego, czy chcesz kontrolować elementy estetyc
 
  Jedną z najbardziej przydatnych funkcji w arkuszu Excela jest możliwość zamrażania okienek. Pomyśl o tym: czy kiedykolwiek zgubiłeś wiersz nagłówka, przewijając w dół olbrzymi arkusz kalkulacyjny? To niesamowicie frustrujące! Nasz samouczek dotyczący zamrażania okienek przeprowadzi Cię przez ten proces, dzięki czemu będziesz mieć na oku kluczowe informacje podczas przeglądania dużych zestawów danych. Wyobraź sobie, że właśnie ukończyłeś długą analizę, a teraz musisz przewijać w górę za każdym razem, aby przypomnieć sobie o nagłówkach. Koniec z tym![Przeczytaj więcej](./freeze-panes-of-worksheet/).
 
-Ale co, jeśli poruszasz się po określonych sekcjach arkusza kalkulacyjnego? To tutaj dzielenie paneli naprawdę się sprawdza. Pozwala na jednoczesne przeglądanie różnych obszarów arkusza, ułatwiając porównywanie danych lub śledzenie zmian w różnych częściach arkusza. Ten samouczek upraszcza zadanie dzielenia paneli do kilku prostych kroków, które możesz opanować w mgnieniu oka.[Przeczytaj więcej](./split-panes-of-worksheet/).
+Ale co, jeśli nawigujesz po określonych sekcjach arkusza kalkulacyjnego? To właśnie tutaj dzielenie paneli naprawdę się sprawdza. Pozwala na jednoczesne przeglądanie różnych obszarów arkusza, ułatwiając porównywanie danych lub śledzenie zmian w różnych częściach arkusza. Ten samouczek upraszcza zadanie dzielenia paneli do kilku prostych kroków, które możesz opanować w mgnieniu oka.[Przeczytaj więcej](./split-panes-of-worksheet/).
 
 ## Zarządzanie nawigacją w arkuszach
 

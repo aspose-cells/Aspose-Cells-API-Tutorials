@@ -39,7 +39,7 @@ using System;
 Zacznij od zdefiniowania katalogu źródłowego, w którym przechowywany jest plik Excel. Dzięki temu program będzie wiedział, gdzie szukać pliku, z którym chcesz pracować.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Krok 2: Załaduj skoroszyt programu Excel

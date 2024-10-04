@@ -41,13 +41,11 @@ using System.IO;
 먼저, 소스 Excel 파일이 어디에 있는지, 서명된 출력 파일을 어디에 저장할지 정의해야 합니다. 이는 파일을 효율적으로 구성하는 데 도움이 되기 때문에 중요한 단계입니다.
 
 ```csharp
-//소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
+// 소스 디렉토리
+string sourceDir = "Your Document Directory";
 // 출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- 이 코드 조각에서는`RunExamples.Get_SourceDirectory()` 그리고`RunExamples.Get_OutputDirectory()` 각각 소스 및 출력 디렉토리로의 경로를 반환하는 메서드입니다. 이러한 메서드를 사용하지 않는 경우 실제 경로로 바꿔야 합니다.
 
 ## 2단계: 통합 문서 로드
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // PFX 비밀번호로 바꾸세요
 string pfx = "pfxFile"; // PFX 파일 경로로 바꾸세요
 ```
 
- 이 단계에서는 다음을 교체합니다.`pfxPassword` 실제 비밀번호와 함께`pfxFile`PFX 파일 경로와 함께. 이것이 문서에 서명하는 열쇠입니다!
+ 이 단계에서는 다음을 교체합니다.`pfxPassword` 실제 비밀번호와 함께`pfxFile` PFX 파일 경로와 함께. 이것이 문서에 서명하는 열쇠입니다!
 
 ## 4단계: 디지털 서명 만들기
 
- 이제 다음을 사용하여 디지털 서명을 만들어 보겠습니다.`DigitalSignature` 수업. 마법이 일어나는 곳이 바로 여기예요!
+ 이제 다음을 사용하여 디지털 서명을 만들어 보겠습니다.`DigitalSignature`수업. 마법이 일어나는 곳이 바로 여기예요!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

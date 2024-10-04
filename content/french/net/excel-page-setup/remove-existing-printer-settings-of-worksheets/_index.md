@@ -53,12 +53,12 @@ Pour commencer, vous devez identifier où se trouve votre fichier Excel source e
 
 ```csharp
 //Répertoire des sources
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Répertoire de sortie
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Ici, vous remplaceriez`RunExamples.Get_SourceDirectory()` et`RunExamples.Get_OutputDirectory()` avec les chemins réels où vos fichiers sont stockés.
+ Ici, vous remplaceriez`"Your Document Directory"` et`"Your Document Directory"` avec les chemins réels où vos fichiers sont stockés.
 
 ## Étape 2 : Charger le fichier Excel
 
@@ -149,7 +149,7 @@ Et voilà ! Vous avez réussi à supprimer les paramètres d'impression des feui
 Aspose.Cells est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir des fichiers Excel dans des applications .NET.
 
 ### Puis-je utiliser Aspose.Cells gratuitement ?  
- Oui, Aspose propose une version d'essai gratuite que vous pouvez utiliser pour explorer ses fonctionnalités. Découvrez la[lien d'essai gratuit](https://releases.aspose.com/).
+Oui, Aspose propose une version d'essai gratuite que vous pouvez utiliser pour explorer ses fonctionnalités. Découvrez la[lien d'essai gratuit](https://releases.aspose.com/).
 
 ### Dois-je installer Microsoft Excel pour utiliser Aspose.Cells ?  
 Non, Aspose.Cells fonctionne indépendamment de Microsoft Excel. Vous n'avez pas besoin d'installer Excel sur votre ordinateur.

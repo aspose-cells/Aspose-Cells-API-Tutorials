@@ -84,7 +84,7 @@ Tento řádek načte kolekci, kde budete spravovat chráněné rozsahy. Je dobr�
 
 ## Krok 5: Definujte a vytvořte chráněný rozsah
 
-tuto chvíli jsme připraveni definovat, ve kterém rozsahu chcete povolit úpravy. Pojďme vytvořit tento rozsah.
+V tuto chvíli jsme připraveni definovat, ve kterém rozsahu chcete povolit úpravy. Pojďme vytvořit tento rozsah.
 
 ```csharp
 // Definujte ProtectedRange
@@ -132,7 +132,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vytvořili excelový list pomocí Aspose.Cells pro .NET, definovali upravitelné rozsahy, nastavili heslo a ochránili list – to vše v několika jednoduchých krocích. Nyní můžete svůj sešit sdílet s kolegy, čímž se zlepší spolupráce a zároveň budou důležitá data v bezpečí.
+tady to máte! Úspěšně jste vytvořili excelový list pomocí Aspose.Cells pro .NET, definovali upravitelné rozsahy, nastavili heslo a ochránili list – to vše v několika jednoduchých krocích. Nyní můžete svůj sešit sdílet s kolegy, čímž se zlepší spolupráce a zároveň budou důležitá data v bezpečí.
 
 ## FAQ
 
@@ -149,4 +149,4 @@ Ano, pomocí Aspose.Cells můžete definovat konkrétní upravitelné rozsahy a 
 Zatímco tento tutoriál se zaměřuje na .NET, Aspose.Cells je k dispozici pro několik programovacích jazyků, včetně Java a Cloud API.
 
 ### Kde najdu více informací o Aspose.Cells?  
-Můžete prozkoumat celou dokumentaci[zde](https://reference.aspose.com/cells/net/).
+ Můžete prozkoumat celou dokumentaci[zde](https://reference.aspose.com/cells/net/).

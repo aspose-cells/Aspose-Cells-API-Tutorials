@@ -53,12 +53,12 @@ using System;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //输出目录
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
-在这里，你需要替换`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`使用存储文件的实际路径。
+在这里，你需要替换`"Your Document Directory"`和`"Your Document Directory"`使用存储文件的实际路径。
 
 ## 步骤 2：加载 Excel 文件
 
@@ -116,7 +116,7 @@ if (ps.PrinterSettings != null)
 
 ## 步骤 6：删除打印机设置
 
-这是重要时刻！现在我们将打印机设置设置为空，将其删除：
+这是重要时刻！现在我们将打印机设置设置为空，以将其删除：
 
 ```csharp
     //将打印机设置设为空即可删除

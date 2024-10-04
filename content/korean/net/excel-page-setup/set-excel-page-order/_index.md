@@ -86,7 +86,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.Order = PrintOrderType.OverThenDown;
 ```
 
- 이 예에서 선택`PrintOrderType.OverThenDown` 즉, Excel은 다음 열로 넘어가기 전에 각 열의 페이지를 위에서 아래로 인쇄합니다. 또한 선택할 수도 있습니다.`PrintOrderType.DownThenOver` 다른 배열을 원하시는 경우.
+ 이 예에서 선택`PrintOrderType.OverThenDown` 즉, Excel은 다음 열로 넘어가기 전에 각 열의 페이지를 위에서 아래로 인쇄합니다. 또한 선택할 수도 있습니다.`PrintOrderType.DownThenOver` 다른 배열을 선호하시는 경우
 
 ## 5단계: 통합 문서 저장
 
@@ -111,7 +111,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 Aspose.Cells는 Microsoft Excel 스프레드시트를 조작하는 기능을 제공하는 .NET 라이브러리로, 개발자가 Excel 파일을 프로그래밍 방식으로 만들고, 수정하고, 변환할 수 있도록 해줍니다.
 
 ### Aspose.Cells에 대한 임시 라이선스를 받으려면 어떻게 해야 하나요?
- 임시 면허는 다음 사이트를 방문하여 신청할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) Aspose 웹사이트에서.
+ 임시 면허증은 다음 사이트를 방문하여 신청할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) Aspose 웹사이트에서.
 
 ### 여러 워크시트의 페이지 순서를 변경할 수 있나요?
  네! 각 워크시트에 액세스할 수 있습니다.`PageSetup` 페이지 순서를 개별적으로 구성합니다.
@@ -120,4 +120,4 @@ Aspose.Cells는 Microsoft Excel 스프레드시트를 조작하는 기능을 제
 페이지 인쇄 순서에 따라 "위에서 아래로"와 "아래에서 위로" 중에서 선택할 수 있습니다.
 
 ### Aspose.Cells 사용에 대한 더 많은 예는 어디에서 볼 수 있나요?
- 더 많은 예와 기능을 탐색할 수 있습니다.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).
+더 많은 예와 기능을 탐색할 수 있습니다.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).

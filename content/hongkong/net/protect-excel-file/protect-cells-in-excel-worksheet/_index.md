@@ -16,7 +16,7 @@ url: /zh-hant/net/protect-excel-file/protect-cells-in-excel-worksheet/
 在深入了解保護細胞的實質之前，您應該滿足一些先決條件：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。它是 .NET 開發的主要 IDE。
-2. Aspose.Cells 函式庫：您的專案中需要有 Aspose.Cells 函式庫。您可以透過 NuGet Package Manager 輕鬆安裝它或直接從[Aspose.Cells 網站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 函式庫：您的專案中需要有 Aspose.Cells 函式庫。您可以透過 NuGet Package Manager 輕鬆安裝它或直接從[Aspose.Cells 站點](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知識：稍微熟悉一下 C# 程式設計將有助於您順利掌握。
 
 ## 導入包
@@ -139,7 +139,7 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 
 ## 結論
 
-現在你就得到它了！您已成功學會使用 Aspose.Cells for .NET 來保護 Excel 工作表中的特定儲存格。只需幾行程式碼，您就可以保護您的數據，確保只有合適的人員有權編輯關鍵資訊。請記住，儲存格保護只是 Aspose.Cells 提供的眾多功能之一，可協助有效管理和操作 Excel 檔案。
+現在你就擁有了！您已成功學會使用 Aspose.Cells for .NET 來保護 Excel 工作表中的特定儲存格。只需幾行程式碼，您就可以保護您的數據，確保只有合適的人員有權編輯關鍵資訊。請記住，儲存格保護只是 Aspose.Cells 提供的眾多功能之一，可協助有效管理和操作 Excel 檔案。
 
 ## 常見問題解答
 

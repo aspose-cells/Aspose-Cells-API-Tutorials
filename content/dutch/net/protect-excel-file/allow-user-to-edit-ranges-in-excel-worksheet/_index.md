@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Vervang eerst`"YOUR DOCUMENT DIRECTORY"`met het pad waar u uw bestanden wilt opslaan. Deze code controleert of de directory bestaat; als dat niet zo is, maakt hij er een aan.
+ Vervang eerst`"YOUR DOCUMENT DIRECTORY"` met het pad waar u uw bestanden wilt opslaan. Deze code controleert of de directory bestaat; als dat niet zo is, maakt hij er een aan.
 
 ## Stap 2: Een nieuwe werkmap instantiëren
 

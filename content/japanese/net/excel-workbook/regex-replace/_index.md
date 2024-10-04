@@ -48,12 +48,12 @@ using Aspose.Cells;
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-ここ、`RunExamples.Get_SourceDirectory()`そして`RunExamples.Get_OutputDirectory()`ソースと出力パスを簡単に取得するのに役立つユーティリティ関数です。ソースディレクトリに次のファイルが含まれていることを確認してください。`SampleRegexReplace.xlsx`この例では。
+ここ、`"Your Document Directory"`そして`"Your Document Directory"`ソースと出力パスを簡単に取得するのに役立つユーティリティ関数です。ソースディレクトリに次のファイルが含まれていることを確認してください。`SampleRegexReplace.xlsx`この例では。
 
 ## ステップ2: ワークブックの読み込み
 
@@ -90,7 +90,7 @@ workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 ```
 
 この行では:
-- `\\b`正規表現内の単語境界を示し、"KIM" が他の単語の一部ではなく単語全体として出現する場合にのみ置換されるようにします。
+- `\\b`正規表現内の単語境界を示し、"KIM" が単語全体として表示され、他の単語の一部ではない場合にのみ置換されるようにします。
 - これを「^^^TIM^^^（3 つのキャレットに注意してください）。これは、正規表現ベースの置換がいかに簡単であるかを示しています。
 
 ## ステップ5: ワークブックを保存する

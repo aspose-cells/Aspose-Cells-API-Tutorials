@@ -8,7 +8,7 @@ weight: 18
 url: /zh-hant/java/excel-pivot-tables/customizing-pivot-table-styles/
 ---
 
-資料透視表是用於匯總和分析電子表格中的資料的強大工具。透過 Aspose.Cells for Java API，您不僅可以建立資料透視表，還可以自訂其樣式，讓您的資料呈現在視覺上更具吸引力。在本逐步指南中，我們將透過原始程式碼範例向您展示如何實現這一目標。
+資料透視表是用於匯總和分析電子表格中的資料的強大工具。使用 Aspose.Cells for Java API，您不僅可以建立資料透視表，還可以自訂其樣式，使您的資料呈現在視覺上更具吸引力。在本逐步指南中，我們將透過原始程式碼範例向您展示如何實現這一目標。
 
 ## 入門
 
@@ -51,7 +51,7 @@ pivotTableHeaderStyle.setForegroundColor(Color.getLightGray());
 pivotTable.setStyleType(StyleType.PIVOT_TABLE_STYLE_LIGHT_16);
 ```
 
-## 第 4 步：儲存工作簿
+## 步驟 4：儲存工作簿
 
 不要忘記儲存工作簿以查看自訂的資料透視表：
 

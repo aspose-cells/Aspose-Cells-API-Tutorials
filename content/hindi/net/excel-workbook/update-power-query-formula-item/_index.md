@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 // कार्य निर्देशिकाएँ
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- यहाँ हम एक काल्पनिक विधि का उपयोग कर रहे हैं`RunExamples.Get_SourceDirectory()` हमारी स्रोत फ़ाइलों का पथ प्राप्त करने के लिए। इसी तरह,`RunExamples.Get_OutputDirectory()` वह पथ प्राप्त करता है जहाँ हम अपना आउटपुट सहेजेंगे। सुनिश्चित करें कि ये विधियाँ आपकी मशीन पर वैध पथ लौटाती हैं।
 
 ## चरण 2: कार्यपुस्तिका लोड करें
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
-`Workbook`क्लास एक्सेल फ़ाइल में आपका प्रवेश बिंदु है। हमारी स्रोत फ़ाइल का पथ पास करके, हम एक ऐसा उदाहरण बना रहे हैं जो हमें उसमें हेरफेर करने की अनुमति देता है। आप इसे एक किताब खोलने की तरह कल्पना कर सकते हैं - आप इसकी सामग्री को पढ़ने (या संपादित करने) के लिए तैयार हो रहे हैं।
+`Workbook` क्लास एक्सेल फ़ाइल में आपका प्रवेश बिंदु है। हमारी स्रोत फ़ाइल का पथ पास करके, हम एक ऐसा उदाहरण बना रहे हैं जो हमें उसमें हेरफेर करने की अनुमति देता है। आप इसे एक किताब खोलने की तरह कल्पना कर सकते हैं - आप इसकी सामग्री को पढ़ने (या संपादित करने) के लिए तैयार हो रहे हैं।
 
 ## चरण 3: डेटा मैशअप तक पहुंचें
 
@@ -102,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
-`Save` विधि अपडेट की गई कार्यपुस्तिका को निर्दिष्ट आउटपुट निर्देशिका में लिखती है। यह आपके संपादनों को मैनुअल के नए संस्करण में सील करने जैसा है, जो दूसरों के उपयोग के लिए तैयार है!
+`Save`विधि अपडेट की गई कार्यपुस्तिका को निर्दिष्ट आउटपुट निर्देशिका में लिखती है। यह आपके संपादनों को मैनुअल के नए संस्करण में सील करने जैसा है, जो दूसरों के उपयोग के लिए तैयार है!
 
 ## निष्कर्ष
 

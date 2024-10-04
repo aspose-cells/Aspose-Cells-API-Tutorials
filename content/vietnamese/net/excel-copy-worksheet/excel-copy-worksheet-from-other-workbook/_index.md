@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Ở đây, chúng ta tạo sổ làm việc đầu tiên và điền vào bảng tính đầu tiên (`ws0`với các tiêu đề và hàng chi tiết. Dữ liệu mô phỏng này sẽ giúp bạn hình dung quá trình sao chép sau này.
+Ở đây, chúng ta tạo sổ làm việc đầu tiên và điền vào bảng tính đầu tiên (`ws0`) với các tiêu đề và hàng chi tiết. Dữ liệu mô phỏng này sẽ giúp bạn hình dung quá trình sao chép sau này.
 
 ## Bước 3: Thiết lập trang để in
 
 Hãy cấu hình thiết lập trang để lặp lại các hàng tiêu đề khi in, chỉ để chúng ta có thể thấy tính năng đó hoạt động:
 
 ```csharp
-// Xác định đối tượng pagesetup dựa trên trang tính đầu tiên
+//Xác định đối tượng pagesetup dựa trên trang tính đầu tiên
 PageSetup pagesetup = ws0.PageSetup;
 // Năm hàng đầu tiên được lặp lại trong mỗi trang
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Hãy sao chép nội dung từ trang tính của sổ làm việc đầu tiên s
 // bài tập đầu tiên của bài tập thứ hai
 ws1.Copy(ws0);
 ```
- Các`Copy` phương pháp này lấy tất cả nội dung từ bảng tính nguồn (`ws0`) và sao chép nó vào bảng tính đích (`ws1`). Quá đơn giản phải không?
+ Các`Copy` phương pháp này lấy tất cả nội dung từ bảng tính nguồn (`ws0`và sao chép nó vào bảng tính đích (`ws1`). Quá đơn giản phải không?
 
 ## Bước 6: Lưu sổ làm việc mới
 
@@ -137,7 +137,7 @@ Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, chỉ
  Bạn có thể yêu cầu giấy phép tạm thời bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?  
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/cells/net/).
 
 ### Có hỗ trợ nào dành cho người dùng Aspose.Cells không?  
  Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

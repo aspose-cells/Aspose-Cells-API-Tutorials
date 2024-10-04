@@ -18,7 +18,7 @@ Mielőtt belemerülnénk, tegyünk néhány dolgot a helyére:
 1. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer kompatibilis verziója telepítve van a számítógépén. Az Aspose.Cells különféle verziókat támogat, ezért ellenőrizze a dokumentációjukat a részletekért.
 2.  Aspose.Cells for .NET Library: Le kell töltenie az Aspose.Cells könyvtárat. Ha még nem tette meg, látogasson el a[letöltési link](https://releases.aspose.com/cells/net/) hogy megragadja.
 3. Visual Studio vagy bármilyen IDE: Készítsen fejlesztői környezetet, ahol írhatja és futtathatja .NET-kódját.
-4. C# alapvető ismerete: A C# programozás ismerete rendkívül hasznos lesz, de ne aggódjon, ha még újonc – végigvezetem a kódon!
+4. A C# alapvető ismerete: A C# programozás ismerete rendkívül hasznos lesz, de ne aggódjon, ha még újonc – végigvezetem a kódon!
 5.  Minta Excel-fájl: A funkcionalitás teszteléséhez legyen például egy egyszerű Excel-fájl`book1.xls`, indulásra készen. Létrehozhat egyet az Excel segítségével, vagy letölthet néhány mintafájlt, ha szükséges.
 
 ## Csomagok importálása
@@ -124,7 +124,7 @@ Igen! Míg ez az útmutató a .NET-re összpontosít, az Aspose.Cells Java, Pyth
  Teljesen! Megteheti[tölts le egy ingyenes próbaverziót](https://releases.aspose.com/) és fedezze fel jellemzőit.
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- Meglátogathatja a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9)kérdéseket feltenni és megoldásokat találni.
+ Meglátogathatja a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) kérdéseket feltenni és megoldásokat találni.
 
 ### Létrehozhatok Excel-jelentéseket az Aspose.Cells segítségével?
 Igen! Az Aspose.Cells hatékony funkciókat kínál az összetett Excel-jelentések zökkenőmentes létrehozásához és generálásához.

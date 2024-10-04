@@ -16,7 +16,7 @@ url: /ar/net/protect-excel-file/protect-cells-in-excel-worksheet/
 قبل الخوض في التفاصيل الدقيقة لحماية الخلايا، هناك بعض المتطلبات الأساسية التي يجب أن تكون موجودة لديك:
 
 1. Visual Studio: تأكد من تثبيت Visual Studio على جهاز الكمبيوتر الخاص بك. فهو بيئة التطوير المتكاملة الأساسية لتطوير .NET.
-2. مكتبة Aspose.Cells: يجب أن تكون مكتبة Aspose.Cells متاحة في مشروعك. يمكنك تثبيتها بسهولة عبر NuGet Package Manager أو تنزيلها مباشرة من[موقع Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  مكتبة Aspose.Cells: يجب أن تكون مكتبة Aspose.Cells متاحة في مشروعك. يمكنك تثبيتها بسهولة عبر NuGet Package Manager أو تنزيلها مباشرة من[موقع Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: إن معرفة القليل من لغة البرمجة C# سوف تساعدك على المتابعة بسلاسة.
 
 ## استيراد الحزم

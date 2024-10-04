@@ -17,7 +17,7 @@ url: /zh/net/excel-page-setup/set-excel-print-area/
 
 1. Visual Studio：确保您已安装 Visual Studio，因为它是我们将要使用的开发环境。
 2. .NET Framework：确保您的项目设置了与 Aspose.Cells 兼容的 .NET 框架。通常，.NET Core 或 .NET Framework 4.5 及以上版本都可以使用。
-3. Aspose.Cells 库：您需要有 Aspose.Cells for .NET。您可以[点击下载](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells 库：您需要有 Aspose.Cells for .NET。您可以[点击下载](https://releases.aspose.com/cells/net/).
 4. C# 基础知识：熟悉 C# 语法和结构至关重要，因为我们将在本指南中编写代码段。
 
 一旦满足了这些先决条件，您就可以进入 Excel 操作的世界了！

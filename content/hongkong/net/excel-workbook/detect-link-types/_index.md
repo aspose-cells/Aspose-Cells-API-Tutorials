@@ -53,7 +53,7 @@ using System;
 
 ```csharp
 //定義來源目錄
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 該行指向包含 Excel 檔案的目錄。確保根據檔案的位置調整路徑。

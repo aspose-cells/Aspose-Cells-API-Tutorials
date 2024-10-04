@@ -60,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
- Ez a sor inicializál egy újat`Workbook` objektumot, és betölti a „book1.xls” fájlt. Tekintsd úgy, mintha kinyitnál egy könyvet az olvasás megkezdéséhez!
+ Ez a sor inicializál egy újat`Workbook` objektumot, és betölti a „book1.xls” fájlt. Tekintsd úgy, mintha kinyitsz egy könyvet, és elkezdesz olvasni!
 
 ## 3. lépés: Nyissa meg a munkalapot
 
@@ -116,12 +116,12 @@ catch(Exception ex)
 Igen! A munkafüzet minden egyes lapját végignézheti, és hasonló módon eltávolíthatja a védelmüket.
 
 ### Az Aspose.Cells ingyenesen használható?
- Az Aspose.Cells ingyenes próbaverziót kínál, de az éles használathoz licenc szükséges. Ellenőrizze az övéket[vásárlás](https://purchase.aspose.com/buy)oldalt további információkért.
+ Az Aspose.Cells ingyenes próbaverziót kínál, de az éles használathoz licenc szükséges. Ellenőrizze az övéket[vásárlás](https://purchase.aspose.com/buy)oldalon további információkért.
 
 ### Mi van, ha nem tudom a jelszót?
-Ha egy lap jelszóval védett, és nem rendelkezik jelszóval, a könyvtár nem segít megkerülni a korlátozásokat, mivel ez ellentétes az etikai irányelvekkel.
+Ha egy lap jelszóval védett, és nincs meg a jelszó, a könyvtár nem segít megkerülni a korlátozásokat, mivel ez ellentétes az etikai irányelvekkel.
 
-### Átalakíthatom a fájlformátumot a védelem feloldása után?
+### Átalakíthatom a fájlformátumot a védelem megszüntetése után?
 Teljesen! Feloldás után a munkafüzetet különböző formátumokban mentheti a fájlnév és kiterjesztés módosításával.
 
 ### Hol találok további Aspose.Cells oktatóanyagokat?

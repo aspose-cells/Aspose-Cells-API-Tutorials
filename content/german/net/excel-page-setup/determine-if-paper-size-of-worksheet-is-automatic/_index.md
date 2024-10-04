@@ -104,10 +104,10 @@ Aspose.Cells ist eine .NET-Bibliothek für die programmgesteuerte Verwaltung von
 Ja! Aspose.Cells unterstützt plattformübergreifende Entwicklung, sodass Sie in verschiedenen Umgebungen arbeiten können, in denen .NET verfügbar ist.
 
 ### Benötige ich eine Lizenz für Aspose.Cells?
-Sie können zwar mit einer kostenlosen Testversion beginnen, für die weitere Nutzung ist jedoch eine kostenpflichtige Lizenz erforderlich. Weitere Einzelheiten finden Sie hier[Hier](https://purchase.aspose.com/buy).
+ Sie können zwar mit einer kostenlosen Testversion beginnen, für die weitere Nutzung ist jedoch eine kostenpflichtige Lizenz erforderlich. Weitere Einzelheiten finden Sie hier[Hier](https://purchase.aspose.com/buy).
 
 ### Wie kann ich in C# überprüfen, ob die Papiergröße eines Arbeitsblatts automatisch ist?
- Wie im Handbuch gezeigt, können Sie die`IsAutomaticPaperSize` Eigentum der`PageSetup` Klasse.
+Wie im Handbuch gezeigt, können Sie die`IsAutomaticPaperSize` Eigentum der`PageSetup` Klasse.
 
 ### Wo finde ich weitere Informationen zu Aspose.Cells?
  Ausführliche Dokumentationen und Tutorials finden Sie[Hier](https://reference.aspose.com/cells/net/).

@@ -1,6 +1,6 @@
 ---
-title: Vensters van werkblad verwijderen
-linktitle: Vensters van werkblad verwijderen
+title: Verwijder panelen van werkblad
+linktitle: Verwijder panelen van werkblad
 second_title: Aspose.Cells voor .NET API-referentie
 description: Ontdek hoe u moeiteloos deelvensters uit een Excel-werkblad verwijdert met Aspose.Cells voor .NET met onze stapsgewijze handleiding.
 type: docs

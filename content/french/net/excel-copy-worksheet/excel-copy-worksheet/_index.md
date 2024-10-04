@@ -67,7 +67,7 @@ string InputPath = dataDir + "book1.xls";
 
 C'est une bonne idée d'utiliser des chemins dynamiques afin de pouvoir facilement basculer entre les environnements (développement, préparation, production).
 
-## Étape 2 : Ouvrir le classeur Excel
+## Étape 2 : Ouvrir le classeur Excel
 Ensuite, chargeons le fichier Excel à l’aide de la classe Workbook, qui représente un fichier Excel entier.
 
 ```csharp
@@ -92,7 +92,7 @@ Passons maintenant à la partie intéressante : dupliquer la feuille de calcul 
 sheets.AddCopy("Sheet1");
 ```
 
--  Le`AddCopy`La méthode duplique une feuille de calcul existante (dans ce cas, « Feuille1 ») et ajoute la nouvelle feuille au classeur.
+-  Le`AddCopy` La méthode duplique une feuille de calcul existante (dans ce cas, « Feuille1 ») et ajoute la nouvelle feuille au classeur.
 -  Vous pouvez remplacer`"Sheet1"` avec n'importe quel nom de feuille que vous souhaitez copier.
 
 ## Étape 5 : Enregistrer le classeur
@@ -119,7 +119,7 @@ La copie d'une feuille de calcul dans Aspose.Cells pour .NET est non seulement s
  Oui, vous pouvez copier des feuilles de calcul entre différents classeurs en ouvrant les deux classeurs et en utilisant le`AddCopy` méthode entre eux.
 
 ### Quels formats Excel Aspose.Cells prend-il en charge ?
- Aspose.Cells prend en charge une large gamme de formats Excel, notamment`.xls`, `.xlsx`, `.csv`, `.html`, et plus encore.
+Aspose.Cells prend en charge une large gamme de formats Excel, notamment`.xls`, `.xlsx`, `.csv`, `.html`, et plus encore.
 
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells pour .NET ?
  Oui, pour éviter les filigranes et exploiter tout le potentiel de la bibliothèque, vous avez besoin d'une licence valide. Cependant, vous pouvez demander une[permis temporaire gratuit](https://purchase.aspose.com/temporary-license) pour l'essayer avant d'acheter.

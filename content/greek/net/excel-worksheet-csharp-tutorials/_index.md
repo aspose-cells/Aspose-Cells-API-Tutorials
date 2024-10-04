@@ -1,5 +1,5 @@
 ---
-title: Εκμάθηση φύλλου εργασίας Excel C#
+title: Φύλλο εργασίας Excel C# Tutorials
 linktitle: Φύλλο εργασίας του Excel
 type: docs
 weight: 12

@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; //これを実際のパスに変更�
 
 ## ステップ 2: ワークブック オブジェクトのインスタンス化
 
-次に、`Workbook` Excel ファイルを開くためのクラス。
+次に、`Workbook`Excel ファイルを開くためのクラス。
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## 結論
 
-データが支配する世界では、Excel スプレッドシートの操作と管理方法を知ることは非常に重要です。Aspose.Cells for .NET を使用すると、シートの保護解除を含む Excel ファイル操作を堅牢に処理できます。わずか数行のコードで、保護されたコンテンツに再びアクセスでき、問題なく作業を続行できます。そのため、次にロックされた Excel シートに遭遇したときには、何をすべきか正確にわかるでしょう。
+データが支配する世界では、Excel スプレッドシートの操作と管理方法を知ることは非常に重要です。Aspose.Cells for .NET を使用すると、シートの保護解除を含む Excel ファイル操作を強力に処理できます。わずか数行のコードで、保護されたコンテンツに再びアクセスでき、問題なく作業を続行できます。そのため、次にロックされた Excel シートに遭遇したときには、何をすべきか正確にわかるでしょう。
 
 ## よくある質問
 

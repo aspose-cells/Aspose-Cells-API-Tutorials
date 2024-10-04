@@ -41,10 +41,10 @@ Ruang nama ini akan memungkinkan Anda bekerja dengan berkas Excel dan menangani 
 Sebelum Anda dapat memanipulasi file Excel, Anda perlu menentukan lokasi file sumber dan lokasi penyimpanan file output. Berikut cara melakukannya:
 
 ```csharp
-//Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Direktori sumber
+string sourceDir = "Your Document Directory";
 // Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Pada langkah ini, kami menggunakan metode untuk mendapatkan jalur bagi direktori sumber dan keluaran. Pastikan direktori ini ada dan berisi file yang diperlukan.

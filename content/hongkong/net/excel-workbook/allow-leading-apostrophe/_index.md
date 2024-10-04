@@ -43,11 +43,9 @@ using System.Collections.Generic;
 
 ```csharp
 //原始碼目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
-在這裡，我們使用實用方法`Get_SourceDirectory()`和`Get_OutputDirectory()`方便設定我們的檔案路徑。您可以根據您的目錄結構自訂這些路徑。
 
 ## 第 2 步：建立工作簿設計器對象
 

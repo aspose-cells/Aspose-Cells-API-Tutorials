@@ -60,7 +60,7 @@ Så här skapar du en arbetsbok:
 Workbook workbook = new Workbook();
 ```
 
- Den här raden initierar en ny instans av`Workbook` klass, vilket är kärnelementet för att hantera Excel-filer i Aspose.Cells.
+ Denna rad initierar en ny instans av`Workbook` klass, vilket är kärnelementet för att hantera Excel-filer i Aspose.Cells.
 
 ## Steg 3: Öppna sidinställningarna
 
@@ -120,4 +120,4 @@ Aspose.Cells är ett .NET-bibliotek som tillhandahåller funktioner för att man
 Du kan välja mellan "Over Then Down" och "Down Then Over" för din sidutskriftsbeställning.
 
 ### Var kan jag hitta fler exempel på användning av Aspose.Cells?
- Du kan utforska fler exempel och funktioner i[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/).
+Du kan utforska fler exempel och funktioner i[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/).

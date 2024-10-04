@@ -47,10 +47,9 @@ Pada langkah ini, kita akan menentukan di mana file sumber dan output kita berad
 
 ```csharp
 // Direktori kerja
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Di sini, kami menggunakan metode hipotetis`RunExamples.Get_SourceDirectory()` untuk mengambil jalur ke file sumber kami. Demikian pula,`RunExamples.Get_OutputDirectory()` mendapatkan jalur tempat kita akan menyimpan output. Pastikan metode ini mengembalikan jalur yang valid pada komputer Anda.
 
 ## Langkah 2: Muat Buku Kerja
 
@@ -59,7 +58,7 @@ Sekarang, mari muat berkas Excel tempat Power Query berada.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Itu`Workbook`class adalah titik masuk Anda ke berkas Excel. Dengan meneruskan jalur berkas sumber, kita menciptakan contoh yang memungkinkan kita untuk memanipulasinya. Anda dapat membayangkannya seperti membuka buku—Anda bersiap untuk membaca (atau mengedit) isinya.
+ Itu`Workbook` class adalah titik masuk Anda ke berkas Excel. Dengan meneruskan jalur berkas sumber, kita menciptakan contoh yang memungkinkan kita untuk memanipulasinya. Anda dapat membayangkannya seperti membuka buku—Anda bersiap untuk membaca (atau mengedit) isinya.
 
 ## Langkah 3: Akses Data Mashup
 
@@ -102,7 +101,7 @@ Setelah melakukan pembaruan, waktunya menyimpan perubahan.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Itu`Save` metode menulis buku kerja yang diperbarui ke direktori keluaran yang ditentukan. Ini seperti menyegel suntingan Anda dalam versi baru manual, siap digunakan orang lain!
+ Itu`Save`metode menulis buku kerja yang diperbarui ke direktori keluaran yang ditentukan. Ini seperti menyegel suntingan Anda dalam versi baru manual, siap digunakan orang lain!
 
 ## Kesimpulan
 

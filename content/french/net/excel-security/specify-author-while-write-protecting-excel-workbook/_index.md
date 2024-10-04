@@ -38,14 +38,14 @@ Cette directive vous permettra d'accéder aux classes et méthodes incluses dans
 Avant de lancer le classeur, il est judicieux de définir les chemins d'accès où se trouvent vos fichiers sources et où vous souhaitez enregistrer votre sortie. Voici comment procéder :
 
 ```csharp
-//Répertoire des sources
+// Répertoire des sources
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Répertoire de sortie
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Assurez-vous de remplacer`"YOUR SOURCE DIRECTORY"` et`"YOUR OUTPUT DIRECTORY"` avec des chemins réels sur votre machine. Considérez cela comme la création d'un espace de travail bien rangé avant de commencer à créer votre chef-d'œuvre !
+ Assurez-vous de remplacer`"YOUR SOURCE DIRECTORY"` et`"YOUR OUTPUT DIRECTORY"`avec des chemins réels sur votre machine. Considérez cela comme la création d'un espace de travail bien rangé avant de commencer à créer votre chef-d'œuvre !
 
 ## Étape 2 : Créer un classeur vide
 

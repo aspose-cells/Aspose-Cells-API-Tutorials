@@ -39,7 +39,7 @@ První věc, kterou musíte udělat, je definovat, kam bude váš výstupní sou
 
 ```csharp
 // Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Tento řádek kódu načte cestu k adresáři, kde bude uložen vygenerovaný soubor. Ujistěte se, že tento adresář existuje; v opačném případě můžete později čelit chybě soubor nenalezen.
@@ -64,7 +64,7 @@ Nyní přichází ta zajímavá část – ochrana našeho sešitu. Použitím h
 wb.ProtectSharedWorkbook("1234");
 ```
 
-V tomto případě je naše heslo „1234“. Můžete to změnit na cokoliv, co preferujete. Tento příkaz uzamkne sešit a zabrání neoprávněným úpravám.
+V tomto případě je naše heslo "1234". Můžete to změnit na cokoliv, co preferujete. Tento příkaz uzamkne sešit a zabrání neoprávněným úpravám.
 
 ## Krok 4: (Volitelné) Zrušte ochranu sešitu
 

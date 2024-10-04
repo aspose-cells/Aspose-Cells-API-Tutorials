@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Primeiro, substitua`"YOUR DOCUMENT DIRECTORY"`com o caminho onde você quer que seus arquivos sejam salvos. Este código verifica se o diretório existe; se não existir, ele cria um.
+ Primeiro, substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho onde você quer que seus arquivos sejam salvos. Este código verifica se o diretório existe; se não existir, ele cria um.
 
 ## Etapa 2: Instanciar uma nova pasta de trabalho
 

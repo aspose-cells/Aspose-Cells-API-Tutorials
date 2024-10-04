@@ -40,13 +40,13 @@ using System.Text;
 Πριν εργαστείτε με το αρχείο XLSB, πρέπει να ρυθμίσετε τους καταλόγους προέλευσης και εξόδου. Αυτό το βήμα είναι απαραίτητο για την οργάνωση των αρχείων σας.
 
 ```csharp
-//Κατάλογος πηγής
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Κατάλογος πηγής
+string sourceDir = "Your Document Directory";
 // Κατάλογος εξόδου
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Σε αυτό το απόσπασμα κώδικα,`RunExamples.Get_SourceDirectory()` και`RunExamples.Get_OutputDirectory()`θεωρείται ότι ανακτούν τις αντίστοιχες διαδρομές όπου θα βρίσκονται τα αρχεία εισόδου και εξόδου σας. Αν προτιμάτε, μπορείτε να αντικαταστήσετε αυτές τις μεθόδους με μονοπάτια με σκληρό κώδικα.
+ Σε αυτό το απόσπασμα κώδικα,`"Your Document Directory"` και`"Your Document Directory"`θεωρείται ότι ανακτούν τις αντίστοιχες διαδρομές όπου θα βρίσκονται τα αρχεία εισόδου και εξόδου σας. Αν προτιμάτε, μπορείτε να αντικαταστήσετε αυτές τις μεθόδους με μονοπάτια με σκληρό κώδικα.
 
 ## Βήμα 2: Φορτώστε το αρχείο XLSB
 

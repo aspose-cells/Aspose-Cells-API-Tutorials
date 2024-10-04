@@ -47,13 +47,13 @@ using Aspose.Cells;
 أولاً، نحتاج إلى تحديد مكان وجود ملف Excel المدخل لدينا، بالإضافة إلى المكان الذي نريد حفظ ملف الإخراج فيه بعد إجراء التغييرات اللازمة.
 
 ```csharp
-//دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
+// دليل المصدر
+string sourceDir = "Your Document Directory";
 // دليل الإخراج
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- هنا،`RunExamples.Get_SourceDirectory()` و`RunExamples.Get_OutputDirectory()` هي وظائف مساعدة تساعدك على الحصول على مسارات المصدر والإخراج بسهولة. تأكد من أن دليل المصدر الخاص بك يحتوي على ملف باسم`SampleRegexReplace.xlsx` على سبيل المثال.
+ هنا،`"Your Document Directory"` و`"Your Document Directory"` هي وظائف مساعدة تساعدك على الحصول على مسارات المصدر والإخراج بسهولة. تأكد من أن دليل المصدر الخاص بك يحتوي على ملف باسم`SampleRegexReplace.xlsx` على سبيل المثال.
 
 ## الخطوة 2: تحميل المصنف
 

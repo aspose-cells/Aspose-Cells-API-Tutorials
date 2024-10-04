@@ -39,7 +39,7 @@ using System;
 Mulailah dengan menentukan direktori sumber tempat file Excel Anda disimpan. Ini memastikan bahwa program Anda mengetahui tempat mencari file yang ingin Anda gunakan.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Langkah 2: Muat Buku Kerja Excel

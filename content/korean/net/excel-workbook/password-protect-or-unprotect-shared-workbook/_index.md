@@ -39,7 +39,7 @@ using System.Text;
 
 ```csharp
 // 출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 이 코드 줄은 생성된 파일이 저장될 디렉토리 경로를 검색합니다. 이 디렉토리가 존재하는지 확인하세요. 그렇지 않으면 나중에 file-not-found 오류가 발생할 수 있습니다.

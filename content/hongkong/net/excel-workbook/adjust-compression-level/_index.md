@@ -44,11 +44,9 @@ using System;
 
 ```csharp
 //原始碼目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
-這裡，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`是分別傳回來源目錄和輸出目錄的路徑的方法。 
 
 ## 第 2 步：載入工作簿
 

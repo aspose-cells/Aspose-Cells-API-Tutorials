@@ -61,11 +61,9 @@ Nachdem wir nun unsere Entwicklungsumgebung eingerichtet haben, ist es an der Ze
 
 ```csharp
 // Festlegen des Quellverzeichnisses
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Hier,`RunExamples.Get_SourceDirectory()` ist eine benutzerdefinierte Methode, die Sie möglicherweise in Ihrem Projekt haben und die den Pfad zum Ordner abruft, der Ihre Beispieldatei enthält. Stellen Sie sicher, dass Sie dies bei Bedarf durch den tatsächlichen Pfad ersetzen.
 
 ## Schritt 2: Auf Power Query-Formeln zugreifen
 

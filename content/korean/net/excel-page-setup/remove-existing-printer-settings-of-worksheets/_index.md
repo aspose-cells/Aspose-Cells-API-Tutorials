@@ -53,12 +53,12 @@ using System;
 
 ```csharp
 //소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- 여기서 당신은 대체할 것입니다`RunExamples.Get_SourceDirectory()` 그리고`RunExamples.Get_OutputDirectory()` 파일이 저장된 실제 경로를 포함합니다.
+ 여기서 당신은 대체할 것입니다`"Your Document Directory"` 그리고`"Your Document Directory"` 파일이 저장된 실제 경로를 포함합니다.
 
 ## 2단계: Excel 파일 로드
 
@@ -149,7 +149,7 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 Aspose.Cells는 개발자가 .NET 애플리케이션에서 Excel 파일을 만들고, 조작하고, 변환할 수 있는 강력한 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?  
- 네, Aspose는 기능을 탐색하는 데 사용할 수 있는 무료 평가판 버전을 제공합니다. 다음을 확인하세요.[무료 체험 링크](https://releases.aspose.com/).
+네, Aspose는 기능을 탐색하는 데 사용할 수 있는 무료 평가판 버전을 제공합니다. 다음을 확인하세요.[무료 체험 링크](https://releases.aspose.com/).
 
 ### Aspose.Cells를 사용하려면 Microsoft Excel을 설치해야 합니까?  
 아니요, Aspose.Cells는 Microsoft Excel과 독립적으로 작동합니다. 컴퓨터에 Excel을 설치할 필요가 없습니다.

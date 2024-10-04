@@ -66,7 +66,7 @@ Successivamente, creeremo un'istanza della classe Workbook. Questa classe è la 
 Workbook workbook = new Workbook();
 ```
 
- Quando si crea una nuova istanza di`Workbook`classe, stai effettivamente iniziando una tabula rasa, pronto per l'azione. Immagina di aprire un quaderno vuoto dove puoi annotare tutto ciò di cui hai bisogno.
+ Quando si crea una nuova istanza di`Workbook` classe, stai effettivamente iniziando una tabula rasa, pronto per l'azione. Immagina di aprire un quaderno vuoto dove puoi annotare tutto ciò di cui hai bisogno.
 
 ## Passaggio 3: aggiunta di un nuovo foglio di lavoro
 
@@ -116,10 +116,10 @@ Con Aspose.Cells, le possibilità sono infinite. Puoi manipolare i dati in una m
 Aspose.Cells per .NET è una potente libreria per creare, manipolare e convertire file Excel senza dover installare Microsoft Excel.
 
 ### Posso aggiungere più fogli contemporaneamente?  
- Sì, basta chiamare il`Add()`metodo più volte e fare riferimento a ciascun foglio tramite il suo indice!
+ Sì, basta chiamare il`Add()` metodo più volte e fare riferimento a ciascun foglio tramite il suo indice!
 
 ### Esiste una versione di prova gratuita di Aspose.Cells?  
- Certamente! Puoi scaricare una prova gratuita[Qui](https://releases.aspose.com/).
+Certamente! Puoi scaricare una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Posso formattare il nuovo foglio dopo averlo aggiunto?  
 Assolutamente! Puoi applicare stili, formati e persino formule ai tuoi fogli di lavoro utilizzando le funzionalità della libreria.

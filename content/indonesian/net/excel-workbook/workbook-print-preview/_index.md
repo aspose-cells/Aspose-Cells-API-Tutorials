@@ -54,8 +54,8 @@ Setelah semuanya siap, mari kita masuk ke proses langkah demi langkah untuk memb
 Untuk memulai petualangan kita dalam pratinjau cetak, kita perlu menentukan lokasi file Excel sumber kita. Ini adalah titik masuk Anda, jadi mari kita atur:
 
 ```csharp
-//Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Direktori sumber
+string sourceDir = "Your Document Directory";
 ```
 
  Kode ini membantu kita menemukan jalur di mana`Book1.xlsx` bertempat tinggal, membuat referensi di masa mendatang menjadi jauh lebih mudah.

@@ -53,12 +53,12 @@ Untuk memulai, Anda perlu mengidentifikasi di mana file Excel sumber Anda berada
 
 ```csharp
 //Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Di sini, Anda akan mengganti`RunExamples.Get_SourceDirectory()` Dan`RunExamples.Get_OutputDirectory()` dengan jalur sebenarnya tempat file Anda disimpan.
+ Di sini, Anda akan mengganti`"Your Document Directory"` Dan`"Your Document Directory"` dengan jalur sebenarnya tempat file Anda disimpan.
 
 ## Langkah 2: Muat File Excel
 
@@ -149,7 +149,7 @@ Nah, itu dia! Anda telah berhasil menavigasi seluk-beluk penghapusan pengaturan 
 Aspose.Cells adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel dalam aplikasi .NET.
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?  
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fiturnya. Lihat[tautan uji coba gratis](https://releases.aspose.com/).
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fiturnya. Lihat[tautan uji coba gratis](https://releases.aspose.com/).
 
 ### Apakah saya perlu menginstal Microsoft Excel untuk menggunakan Aspose.Cells?  
 Tidak, Aspose.Cells beroperasi secara independen dari Microsoft Excel. Anda tidak perlu menginstal Excel di komputer Anda.

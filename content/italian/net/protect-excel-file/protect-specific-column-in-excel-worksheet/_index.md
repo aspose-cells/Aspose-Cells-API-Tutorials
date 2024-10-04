@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Ora, vorrai bloccare specificamente la prima colonna, lasciando modificabili tutte le altre colonne. Ecco come puoi farlo:
 
 ```csharp
-//Ottieni lo stile della prima colonna.
+// Ottieni lo stile della prima colonna.
 style = sheet.Cells.Columns[0].Style;
 // Chiudilo a chiave.
 style.IsLocked = true;
-// Istanziare il flag.
+//Istanziare il flag.
 flag = new StyleFlag();
 // Imposta l'impostazione di blocco.
 flag.Locked = true;

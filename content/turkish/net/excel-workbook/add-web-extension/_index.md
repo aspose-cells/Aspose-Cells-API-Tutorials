@@ -43,10 +43,8 @@ Artık bir Excel çalışma kitabına bir Web Uzantısı eklemeye hazırız. Aş
 Öncelikle, değiştirilmiş çalışma kitabınızı kaydedeceğiniz çıktı dizinini ayarlamanız gerekir. Bu, dosyalarınızı düzenli tutmanıza yardımcı olur.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Burada,`RunExamples.Get_OutputDirectory()` çıktı dizinine giden yolu alan bir yöntemdir. Bunu sisteminizdeki herhangi bir konumu işaret edecek şekilde değiştirebilirsiniz.
-
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 
 Şimdi, bir Çalışma Kitabının yeni bir örneğini oluşturalım. Tüm sihir burada gerçekleşir!

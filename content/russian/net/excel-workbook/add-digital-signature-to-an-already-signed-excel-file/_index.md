@@ -41,10 +41,10 @@ using System.Text;
 Прежде чем вы сможете манипулировать файлами Excel, вам нужно определить, где находятся ваши исходные файлы и где вы хотите сохранить выходной файл. Вот как это сделать:
 
 ```csharp
-//Исходный каталог
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Исходный каталог
+string sourceDir = "Your Document Directory";
 // Выходной каталог
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 На этом этапе мы используем метод для получения путей к исходному и выходному каталогам. Убедитесь, что эти каталоги существуют и содержат требуемые файлы.

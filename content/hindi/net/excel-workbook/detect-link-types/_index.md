@@ -53,7 +53,7 @@ using System;
 
 ```csharp
 // स्रोत निर्देशिका को परिभाषित करें
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 यह लाइन एक्सेल फ़ाइल वाली डायरेक्टरी की ओर इशारा करती है। अपनी फ़ाइल के स्थान के अनुसार पथ को समायोजित करना सुनिश्चित करें।

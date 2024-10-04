@@ -89,7 +89,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## 結論
 
-現在你就得到它了！您已成功學習如何使用 Aspose.Cells for .NET 按名稱刪除 Excel 工作表。這個強大的程式庫使您可以輕鬆地操作 Excel 文件，並且有了這些知識，您可以進一步探索編輯和管理各種應用程式的 Excel 文件。
+現在你就擁有了！您已成功學習如何使用 Aspose.Cells for .NET 按名稱刪除 Excel 工作表。這個強大的程式庫使您可以輕鬆地操作 Excel 文件，並且有了這些知識，您可以進一步探索編輯和管理各種應用程式的 Excel 文件。
 
 您可以隨意嘗試 Aspose.Cells 庫的其他功能，並在您感到熟悉後毫不猶豫地嘗試更複雜的操作。
 

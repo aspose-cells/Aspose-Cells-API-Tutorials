@@ -43,12 +43,10 @@ using System;
 أولاً وقبل كل شيء، نحتاج إلى تحديد المكان الذي سيتم تخزين ملفاتنا فيه. ويتضمن هذا تحديد دليل المصدر لملف الإدخال ودليل الإخراج لملفاتنا المضغوطة.
 
 ```csharp
-//دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// دليل المصدر
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- هنا،`RunExamples.Get_SourceDirectory()` و`RunExamples.Get_OutputDirectory()` هي طرق تقوم بإرجاع المسارات إلى أدلة المصدر والإخراج الخاصة بك، على التوالي. 
 
 ## الخطوة 2: تحميل المصنف
 

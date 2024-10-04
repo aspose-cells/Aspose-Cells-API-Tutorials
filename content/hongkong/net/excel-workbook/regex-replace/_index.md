@@ -48,12 +48,12 @@ using Aspose.Cells;
 
 ```csharp
 //原始碼目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-這裡，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`是實用函數，可協助您方便地取得來源路徑和輸出路徑。確保您的來源目錄包含名為的文件`SampleRegexReplace.xlsx`對於這個例子。
+這裡，`"Your Document Directory"`和`"Your Document Directory"`是實用函數，可協助您方便地取得來源路徑和輸出路徑。確保您的來源目錄包含名為的文件`SampleRegexReplace.xlsx`對於這個例子。
 
 ## 第 2 步：載入工作簿
 
@@ -115,7 +115,7 @@ Console.WriteLine("RegexReplace executed successfully.");
 
 ## 結論
 
-現在你就得到它了！您已成功學習如何使用 Aspose.Cells for .NET 在 Excel 檔案中執行正規表示式取代。透過利用正規表示式的強大功能，您可以有效率且準確地對電子表格進行大量編輯，讓您有更多時間專注於重要的事情。因此，請繼續嘗試，改變您的 Excel 體驗！
+現在你就擁有了！您已成功學習如何使用 Aspose.Cells for .NET 在 Excel 檔案中執行正規表示式取代。透過利用正規表示式的強大功能，您可以有效率、準確地對電子表格進行大量編輯，讓您有更多的時間專注於重要的事情。因此，請繼續嘗試，改變您的 Excel 體驗！
 
 ## 常見問題解答 
 

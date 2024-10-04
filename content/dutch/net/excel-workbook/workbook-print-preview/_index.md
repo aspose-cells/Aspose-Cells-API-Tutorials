@@ -54,8 +54,8 @@ Nu we alles op zijn plaats hebben, gaan we stapsgewijs in op het maken van een a
 Om ons avontuur in print previews te beginnen, moeten we definiëren waar ons bron Excel-bestand zich bevindt. Dit is uw toegangspunt, dus laten we het instellen:
 
 ```csharp
-//Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Bron directory
+string sourceDir = "Your Document Directory";
 ```
 
  Deze code helpt ons het pad te vinden waar`Book1.xlsx` bevindt, waardoor toekomstige referenties veel gemakkelijker worden.

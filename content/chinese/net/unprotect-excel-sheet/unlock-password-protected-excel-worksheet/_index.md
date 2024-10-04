@@ -128,7 +128,7 @@ catch (Exception ex)
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 解锁了受密码保护的 Excel 工作表。只需几行代码，您就可以重新访问您的重要数据。这个出色的库让您轻松获得强大功能和灵活性。对于想要简化 Microsoft Excel 交互的开发人员来说，Aspose.Cells 不仅是一种高效的工具，还是必不可少。
+就这样！您已成功使用 Aspose.Cells for .NET 解锁了受密码保护的 Excel 工作表。只需几行代码，您就可以重新访问您的重要数据。这个出色的库让您轻松获得强大功能和灵活性。对于希望简化 Microsoft Excel 交互的开发人员来说，Aspose.Cells 不仅是一种高效的工具，而且是必不可少的工具。
 
 ## 常见问题解答
 

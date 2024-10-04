@@ -148,4 +148,4 @@ Oui, vous pouvez insérer des images distinctes dans différentes sections de l'
 Assurez-vous que le chemin d'accès à l'image est correct et que le fichier existe. Vérifiez également la compatibilité du format de l'image.
 
 ### Où puis-je trouver de la documentation supplémentaire pour Aspose.Cells ?
- Vous trouverez une documentation détaillée[ici](https://reference.aspose.com/cells/net/).
+Vous trouverez une documentation détaillée[ici](https://reference.aspose.com/cells/net/).

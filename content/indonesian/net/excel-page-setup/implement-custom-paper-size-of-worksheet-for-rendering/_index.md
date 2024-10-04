@@ -16,7 +16,7 @@ Membuat dan menyesuaikan dokumen Excel secara terprogram dapat membuat pekerjaan
 Sebelum kita mulai, mari pastikan Anda sudah menyiapkannya dengan benar. Berikut ini yang Anda perlukan untuk memulai:
 
 1. Visual Studio atau IDE .NET apa pun: Pastikan Anda memiliki IDE yang berfungsi seperti Visual Studio. Ini akan menjadi tempat bermain Anda di mana semua keajaiban pengkodean terjadi.
-2.  Paket Aspose.Cells untuk .NET: Jika Anda belum melakukannya, Anda perlu mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbaru di[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Paket Aspose.Cells untuk .NET: Jika Anda belum melakukannya, Anda perlu mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbaru di[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sementara kami akan memandu Anda melalui kodenya, pemahaman yang mendalam tentang C# akan membantu Anda memahami nuansanya dengan lebih baik.
 4. Akses ke .NET Framework: Pastikan proyek Anda diatur untuk menargetkan versi .NET Framework yang kompatibel.
 

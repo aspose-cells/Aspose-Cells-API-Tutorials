@@ -131,7 +131,7 @@ FileStream を閉じることは、リソース管理に不可欠です。これ
 はい、任意の数の行と列を固定するには、位置を指定します。`FreezePanes`方法。
 
 ### Aspose.Cells は無料で使用できますか?
- Aspose.Cellsは無料トライアルを提供していますが、長期使用にはライセンスを購入する必要があります。[購入ページ](https://purchase.aspose.com/buy)詳細については。
+Aspose.Cellsは無料トライアルを提供していますが、長期使用にはライセンスを購入する必要があります。[購入ページ](https://purchase.aspose.com/buy)詳細については。
 
 ### Aspose.Cells のサポートはどこで見つかりますか?
 サポートを受けるには[Aspose フォーラム](https://forum.aspose.com/c/cells/9)では、質問したり、コミュニティから解決策を見つけたりすることができます。

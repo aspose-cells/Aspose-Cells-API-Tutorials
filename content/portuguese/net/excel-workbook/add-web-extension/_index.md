@@ -43,10 +43,8 @@ Agora estamos prontos para adicionar uma extensão da Web a uma pasta de trabalh
 Primeiro, você precisa configurar o diretório de saída onde salvará sua pasta de trabalho modificada. Isso ajuda a manter seus arquivos organizados.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Aqui,`RunExamples.Get_OutputDirectory()` é um método que recupera o caminho para o diretório de saída. Você pode modificar isso para apontar para qualquer local no seu sistema.
-
 ## Etapa 2: Criar uma nova pasta de trabalho
 
 Em seguida, vamos criar uma nova instância de uma Workbook. É aqui que toda a mágica acontece!

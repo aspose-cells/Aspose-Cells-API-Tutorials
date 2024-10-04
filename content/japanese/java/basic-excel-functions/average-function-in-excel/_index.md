@@ -50,7 +50,7 @@ worksheet.getCells().get("A4").putValue(40);
 
 ## AVERAGE関数の使用
 
-Excel の AVERAGE 関数は、数値の範囲の平均を計算します。Aspose.Cells for Java を使用すると、プログラムで簡単にこれを実現できます。
+Excel の AVERAGE 関数は、数値の範囲の平均を計算します。Aspose.Cells for Java を使用すると、これをプログラムで簡単に実現できます。
 
 ```java
 // Aspose.Cells を使用して平均を計算する Java コード

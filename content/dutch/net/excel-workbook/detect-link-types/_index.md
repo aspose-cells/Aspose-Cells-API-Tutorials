@@ -53,7 +53,7 @@ En nu begint het plezier! We zullen het codefragment dat u hebt verstrekt, opspl
 
 ```csharp
 // Definieer de bronmap
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Deze regel verwijst naar de directory die het Excel-bestand bevat. Zorg ervoor dat u het pad aanpast aan de locatie van uw bestand.
@@ -113,7 +113,7 @@ foreach (Hyperlink link in hyperlinks)
 }
 ```
 
- Deze lus neemt elke hyperlink, opent de eigenschappen ervan en geeft ze weer in de console.`TextToDisplay` eigenschap geeft ons de tekst die zichtbaar is in de cel, terwijl`LinkType` vertelt ons wat voor soort hyperlink het is (bijv. extern, intern, e-mail, enz.). Het is alsof u vertelt of de link naar een andere webpagina leidt, naar een ander deel van dezelfde spreadsheet of naar een e-mailconcept!
+ Deze lus neemt elke hyperlink, opent de eigenschappen ervan en geeft ze weer in de console.`TextToDisplay` eigenschap geeft ons de tekst die zichtbaar is in de cel, terwijl`LinkType` vertelt ons wat voor soort hyperlink het is (bijv. extern, intern, e-mail, enz.). Het is alsof u te horen krijgt of de link naar een andere webpagina leidt, naar een ander deel van dezelfde spreadsheet of naar een e-mailconcept!
 
 ## Stap 7: Definitieve bevestigingsbericht
 

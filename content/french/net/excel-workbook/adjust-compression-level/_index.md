@@ -43,12 +43,10 @@ Maintenant que tout est configuré, décomposons le processus de réglage des ni
 Tout d’abord, nous devons définir où nos fichiers seront stockés. Cela implique de spécifier le répertoire source pour notre fichier d’entrée et le répertoire de sortie pour nos fichiers compressés.
 
 ```csharp
-//Répertoire des sources
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Répertoire des sources
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Ici,`RunExamples.Get_SourceDirectory()` et`RunExamples.Get_OutputDirectory()` sont des méthodes qui renvoient respectivement les chemins vers vos répertoires source et de sortie. 
 
 ## Étape 2 : charger le classeur
 

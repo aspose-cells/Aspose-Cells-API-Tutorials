@@ -47,13 +47,13 @@ using Aspose.Cells;
 Αρχικά, πρέπει να καθορίσουμε πού βρίσκεται το αρχείο εισόδου Excel, καθώς και πού θέλουμε να αποθηκεύσουμε το αρχείο εξόδου αφού κάνουμε τις απαραίτητες αλλαγές.
 
 ```csharp
-//Κατάλογος πηγής
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Κατάλογος πηγής
+string sourceDir = "Your Document Directory";
 // Κατάλογος εξόδου
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Εδώ,`RunExamples.Get_SourceDirectory()` και`RunExamples.Get_OutputDirectory()` είναι βοηθητικές λειτουργίες που σας βοηθούν να πιάσετε εύκολα τις διαδρομές πηγής και εξόδου. Βεβαιωθείτε ότι ο κατάλογος προέλευσης περιέχει ένα αρχείο με το όνομα`SampleRegexReplace.xlsx` για αυτό το παράδειγμα.
+ Εδώ,`"Your Document Directory"` και`"Your Document Directory"` είναι βοηθητικές λειτουργίες που σας βοηθούν να πιάσετε εύκολα τις διαδρομές πηγής και εξόδου. Βεβαιωθείτε ότι ο κατάλογος προέλευσης περιέχει ένα αρχείο με το όνομα`SampleRegexReplace.xlsx` για αυτό το παράδειγμα.
 
 ## Βήμα 2: Φόρτωση του βιβλίου εργασίας
 

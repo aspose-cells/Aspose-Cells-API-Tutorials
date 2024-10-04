@@ -42,12 +42,10 @@ using System.Collections.Generic;
 इस चरण में, हमें यह परिभाषित करना होगा कि हमारी इनपुट और आउटपुट फ़ाइलें कहाँ स्थित होंगी।
 
 ```csharp
-//स्रोत निर्देशिका
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// स्रोत निर्देशिका
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- यहाँ, हम उपयोगिता विधियों का उपयोग कर रहे हैं`Get_SourceDirectory()` और`Get_OutputDirectory()` हमारे फ़ाइल पथों को सुविधाजनक रूप से सेट करने के लिए। आप इन पथों को अपनी निर्देशिका संरचना के अनुसार अनुकूलित कर सकते हैं।
 
 ## चरण 2: वर्कबुक डिज़ाइनर ऑब्जेक्ट बनाएँ
 
@@ -78,7 +76,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- सेटिंग करके`QuotePrefixToStyle`को false पर सेट करके, हम Aspose.Cells को निर्देश दे रहे हैं कि वह अग्रणी एपोस्ट्रोफ को नियमित वर्णों के रूप में माने, जिससे हम उन्हें अपने आउटपुट में सटीक रूप से संभाल सकें।
+ सेटिंग करके`QuotePrefixToStyle` को false पर सेट करके, हम Aspose.Cells को निर्देश दे रहे हैं कि वह अग्रणी एपोस्ट्रोफ को नियमित वर्णों के रूप में माने, जिससे हम उन्हें अपने आउटपुट में सटीक रूप से संभाल सकें।
 
 ## चरण 5: स्मार्ट मार्कर के लिए डेटा लोड करें
 
@@ -146,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells एक शक्तिशाली .NET लाइब्रेरी है जो प्रोग्रामेटिक रूप से कई प्रारूपों में Excel फ़ाइलों को बनाने, हेरफेर करने और परिवर्तित करने के लिए है।
 
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?
- हां, आप निःशुल्क परीक्षण के लिए साइन अप करके Aspose.Cells का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण के लिए साइन अप करके Aspose.Cells का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त कर सकता हूं?
  आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9).

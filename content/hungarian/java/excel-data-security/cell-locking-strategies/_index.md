@@ -22,7 +22,7 @@ Az adatok pontossága és bizalmas kezelése a legtöbb iparágban nem alku tár
 
 ## Alapvető cellazár
 
-A cellazárolás alapja az egyes cellák zároltként vagy zárolatlanként való megjelölése. Alapértelmezés szerint az Excel-munkalapok összes cellája zárolva van, de ezek addig nem lépnek életbe, amíg le nem védi a munkalapot. Íme egy alapvető kódrészlet a cellák Aspose.Cells for Java használatával zárolásához:
+A cellazárolás alapja az egyes cellák zároltként vagy zárolatlanként való megjelölése. Alapértelmezés szerint az Excel-munkalapok összes cellája zárolva van, de ezek addig nem lépnek életbe, amíg nem védi a munkalapot. Íme egy alapvető kódrészlet a cellák Aspose.Cells for Java használatával zárolásához:
 
 ```java
 // Töltse be az Excel fájlt
@@ -47,7 +47,7 @@ Ez az egyszerű kódrészlet zárolja az A1 cellát az Excel munkalapon, és meg
 
 ## Speciális cellazár
 
-Az Aspose.Cells for Java túlmutat az alapvető cellazároláson. Meghatározhat speciális zárolási szabályokat, például lehetővé teszi bizonyos felhasználók vagy szerepkörök szerkesztését bizonyos cellák számára, míg mások hozzáférését korlátozza. Az ilyen szintű részletesség felbecsülhetetlen értékű komplex pénzügyi modellek vagy együttműködési jelentések készítésekor.
+Az Aspose.Cells for Java túlmutat az alapvető cellazároláson. Meghatározhat speciális zárolási szabályokat, például lehetővé teszi, hogy bizonyos felhasználók vagy szerepkörök szerkesszenek bizonyos cellákat, míg mások hozzáférését korlátozza. Az ilyen szintű részletesség felbecsülhetetlen értékű komplex pénzügyi modellek vagy együttműködési jelentések készítésekor.
 
 A speciális cellazárolás megvalósításához meg kell határoznia a felhasználói engedélyeket, és alkalmaznia kell azokat adott cellákra vagy tartományokra.
 

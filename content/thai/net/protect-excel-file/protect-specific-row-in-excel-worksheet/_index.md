@@ -104,7 +104,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // ล็อคมันไว้
 style.IsLocked = true;
-// สร้างอินสแตนซ์ของธง
+//สร้างอินสแตนซ์ของธง
 flag = new StyleFlag();
 // ตั้งค่าการล็อค
 flag.Locked = true;

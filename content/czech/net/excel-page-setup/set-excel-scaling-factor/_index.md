@@ -31,7 +31,7 @@ Než napíšete jakýkoli kód, budete muset do svého projektu přidat odkaz na
 1.  Přejít na[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/) a stáhněte si příslušný balíček pro vaši verzi .NET.
 2. Rozbalte stažený soubor a vyhledejte soubor`Aspose.Cells.dll` soubor.
 
-### Přidejte odkaz ve Visual Studiu
+### Přidejte odkaz v sadě Visual Studio
 
 1. Otevřete projekt sady Visual Studio.
 2. Klikněte pravým tlačítkem na "Reference" v Průzkumníku řešení.

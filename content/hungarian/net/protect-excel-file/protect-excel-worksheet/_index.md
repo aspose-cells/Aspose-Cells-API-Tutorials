@@ -67,7 +67,7 @@ Workbook excel = new Workbook(fstream);
 
 ## 4. lépés: Nyissa meg az első munkalapot
 
-Miután megvan a munkafüzet, a következő lépés a védeni kívánt lap elérése. Az Excel-fájloknak több lapja is lehet, és ebben a példában csak az elsőt használjuk.
+Miután megvan a munkafüzet, a következő lépés a védeni kívánt lap elérése. Az Excel-fájlok több lapot is tartalmazhatnak, és ebben a példában csak az elsőt használjuk.
 
 ```csharp
 Worksheet worksheet = excel.Worksheets[0];

@@ -40,13 +40,13 @@ Dessa importer ger dig tillgång till den funktionalitet du behöver för att ma
 Innan du arbetar med din XLSB-fil måste du ställa in dina käll- och utdatakataloger. Detta steg är viktigt för att hålla dina filer organiserade.
 
 ```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Källkatalog
+string sourceDir = "Your Document Directory";
 // Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- I det här kodavsnittet`RunExamples.Get_SourceDirectory()` och`RunExamples.Get_OutputDirectory()`antas hämta respektive sökväg för var dina in- och utdatafiler kommer att finnas. Du kan ersätta dessa metoder med hårdkodade sökvägar om du föredrar det.
+ I det här kodavsnittet`"Your Document Directory"` och`"Your Document Directory"`antas hämta respektive sökväg för var dina in- och utdatafiler kommer att finnas. Du kan ersätta dessa metoder med hårdkodade sökvägar om du föredrar det.
 
 ## Steg 2: Ladda XLSB-filen
 

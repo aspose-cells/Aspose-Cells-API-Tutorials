@@ -99,12 +99,12 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功設定了 Excel 工作表的首頁頁碼。這個微小的功能可以產生巨大的影響，尤其是在文件演示很重要的專業或學術環境中。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功設定了 Excel 工作表的首頁頁碼。這個微小的功能可以產生巨大的影響，尤其是在文件演示很重要的專業或學術環境中。
 
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個 .NET 函式庫，旨在建立、操作和轉換 Excel 文件，而無需在電腦上安裝 Microsoft Excel。
+Aspose.Cells 是一個 .NET 函式庫，設計用於建立、操作和轉換 Excel 文件，而無需在電腦上安裝 Microsoft Excel。
 
 ### 如何下載 Aspose.Cells？
 您可以從以下位置下載 Aspose.Cells[網站](https://releases.aspose.com/cells/net/).

@@ -25,7 +25,7 @@ Innan vi går in i själva kodningsdelen, låt oss se till att du har allt du be
 - Du behöver en IDE som Visual Studio för att skapa och köra dina C#-applikationer.
 
 ### Ett exempel på en Excel-fil
--  För demonstrationsändamål behöver du en Excel-fil, som vi ringer upp`book1.xls`. Du kan skapa en enkel Excel-fil med Microsoft Excel eller något kompatibelt program.
+- För demonstrationsändamål behöver du en Excel-fil, som vi ringer upp`book1.xls`. Du kan skapa en enkel Excel-fil med Microsoft Excel eller något kompatibelt program.
 
 När du har dessa förutsättningar på plats kan vi börja koda!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- De`Workbook`objekt representerar hela din Excel-fil i minnet. Se det som att ta med hela filen till din arbetsyta så att du kan börja göra ändringar.
+ De`Workbook` objekt representerar hela din Excel-fil i minnet. Se det som att ta med hela filen till din arbetsyta så att du kan börja göra ändringar.
 
 ## Steg 5: Öppna arbetsbladet
 
@@ -131,7 +131,7 @@ Med frysning av rutor kan du hålla specifika rader eller kolumner synliga medan
  Ja, du kan frysa valfritt antal rader och kolumner genom att ange deras positioner med hjälp av`FreezePanes` metod.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells erbjuder en gratis provperiod, men du måste köpa en licens för långvarig användning. Kontrollera[köpsidan](https://purchase.aspose.com/buy) för detaljer.
+Aspose.Cells erbjuder en gratis provperiod, men du måste köpa en licens för långvarig användning. Kontrollera[köpsidan](https://purchase.aspose.com/buy) för detaljer.
 
 ### Var kan jag hitta support för Aspose.Cells?
  Du kan få stöd genom[Aspose forum](https://forum.aspose.com/c/cells/9), där du kan ställa frågor och hitta lösningar från samhället.

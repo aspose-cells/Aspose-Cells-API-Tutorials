@@ -17,7 +17,7 @@ Mielőtt belevágnánk a kódolási kalandunkba, szánjunk egy percet, hogy megb
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio, mivel ezt a fejlesztői környezetet fogjuk használni.
 2. .NET-keretrendszer: Győződjön meg arról, hogy projektje az Aspose.Cells-szel kompatibilis .NET-keretrendszerrel van beállítva. Általában a .NET Core vagy a .NET Framework 4.5 és újabb verziója működik.
-3. Aspose.Cells Library: Aspose.Cells szükséges a .NET-hez. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells Library: Aspose.Cells szükséges a .NET-hez. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 4. Alapvető C# ismerete: A C# szintaxisának és szerkezetének ismerete létfontosságú, mivel ebben az útmutatóban kódszegmenseket fogunk írni.
 
 Ha ezekkel az előfeltételekkel rendelkezik, készen áll, hogy beugorjon az Excel-manipuláció világába!
@@ -39,7 +39,7 @@ Most pedig részletezzük lépésről lépésre az Excel nyomtatási terület be
 
 Hozzon létre egy változót az Excel-dokumentumok helyének megadásához. 
 
-Amikor egy projekten dolgozik, elengedhetetlen, hogy legyen egy meghatározott elérési út, ahová a fájlok találhatók, vagy ahová mentésre kerülnek. Esetünkben egy nevű változót fogunk definiálni`dataDir` alábbiak szerint:
+ Amikor egy projekten dolgozik, elengedhetetlen, hogy legyen egy meghatározott elérési út, ahová a fájlok találhatók, vagy ahová mentésre kerülnek. Esetünkben egy nevű változót fogunk definiálni`dataDir` alábbiak szerint:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

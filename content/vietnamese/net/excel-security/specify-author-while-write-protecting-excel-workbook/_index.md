@@ -38,14 +38,14 @@ Chỉ thị này sẽ cho phép bạn truy cập các lớp và phương thức 
 Trước khi bạn khởi tạo sổ làm việc, bạn nên thiết lập đường dẫn đến nơi chứa các tệp nguồn và nơi bạn muốn lưu đầu ra. Sau đây là cách thực hiện:
 
 ```csharp
-//Thư mục nguồn
+// Thư mục nguồn
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Thư mục đầu ra
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR SOURCE DIRECTORY"` Và`"YOUR OUTPUT DIRECTORY"` với các đường dẫn thực tế trên máy của bạn. Hãy nghĩ về điều này như việc tạo ra một không gian làm việc gọn gàng trước khi bạn bắt đầu chế tác kiệt tác của mình!
+ Hãy chắc chắn thay thế`"YOUR SOURCE DIRECTORY"` Và`"YOUR OUTPUT DIRECTORY"`với các đường dẫn thực tế trên máy của bạn. Hãy nghĩ về điều này như việc tạo ra một không gian làm việc gọn gàng trước khi bạn bắt đầu tạo ra kiệt tác của mình!
 
 ## Bước 2: Tạo một Workbook trống
 

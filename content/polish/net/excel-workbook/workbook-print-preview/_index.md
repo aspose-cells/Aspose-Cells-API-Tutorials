@@ -54,8 +54,8 @@ Teraz, gdy wszystko mamy już na swoim miejscu, możemy przejść do szczegóło
 Aby rozpocząć naszą przygodę z podglądami wydruku, musimy zdefiniować, gdzie znajduje się nasz plik źródłowy Excel. To jest Twój punkt wejścia, więc skonfigurujmy go:
 
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Katalog źródłowy
+string sourceDir = "Your Document Directory";
 ```
 
  Ten kod pomaga nam znaleźć ścieżkę, gdzie`Book1.xlsx` rezyduje, co znacznie ułatwia późniejsze odwoływanie się do niego.

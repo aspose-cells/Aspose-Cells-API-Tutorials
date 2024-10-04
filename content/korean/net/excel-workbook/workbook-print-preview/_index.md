@@ -54,8 +54,8 @@ using System;
 인쇄 미리보기에서 모험을 시작하려면 소스 Excel 파일의 위치를 정의해야 합니다. 이것이 진입점이므로 설정해 보겠습니다.
 
 ```csharp
-//소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
+// 소스 디렉토리
+string sourceDir = "Your Document Directory";
 ```
 
  이 코드는 우리가 경로를 찾는 데 도움이 됩니다.`Book1.xlsx` 이를 통해 향후 참조가 훨씬 쉬워집니다.

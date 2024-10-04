@@ -1,5 +1,5 @@
 ---
-title: Výukový program C# Odstranit pracovní list aplikace Excel podle názvu
+title: Smazat pracovní list aplikace Excel podle názvu C# Tutorial
 linktitle: Odstranit sešit Excel podle názvu
 second_title: Aspose.Cells for .NET API Reference
 description: Přečtěte si, jak odstranit listy Excelu podle názvu pomocí C#. Tento návod pro začátečníky vás provede krok za krokem s Aspose.Cells pro .NET.

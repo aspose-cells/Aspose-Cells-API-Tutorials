@@ -16,7 +16,7 @@ Vytváření a přizpůsobení dokumentů aplikace Excel programově může zefe
 Než se ponoříme do kódu, ujistěte se, že jste jej správně nastavili. Zde je to, co potřebujete, abyste mohli začít:
 
 1. Visual Studio nebo libovolné .NET IDE: Ujistěte se, že máte funkční IDE jako Visual Studio. Toto bude vaše hřiště, kde se odehrává všechna kouzla kódování.
-2.  Balíček Aspose.Cells for .NET: Pokud jste to ještě neudělali, budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells. Nejnovější verzi najdete na[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Balíček Aspose.Cells for .NET: Pokud jste to ještě neudělali, budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells. Nejnovější verzi najdete na[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: I když vás provedeme kódem, znalost C# vám pomůže lépe porozumět nuancím.
 4. Přístup k rozhraní .NET Framework: Ujistěte se, že je váš projekt nastaven tak, aby cílil na kompatibilní verzi rozhraní .NET Framework.
 
@@ -85,7 +85,7 @@ Nyní se dostáváme k té šťavnaté části. Nastavíme vlastní velikost pap
 ws.PageSetup.CustomPaperSize(6, 4);
 ```
 
-V tomto scénáři určujeme velikost v palcích. Představte si to jako ušití obleku, aby dokonale seděl – na každém detailu záleží!
+tomto scénáři určujeme velikost v palcích. Představte si to jako ušití obleku, aby dokonale seděl – na každém detailu záleží!
 
 ## Krok 5: Přístup k buňce
 

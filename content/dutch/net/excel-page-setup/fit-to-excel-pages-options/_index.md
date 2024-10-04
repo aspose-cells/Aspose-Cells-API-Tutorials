@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Laten we nu de parameters instellen om uw werkblad in specifieke pagina's te laten passen. Hier kunt u opgeven hoeveel pagina's breed en hoog uw content moet zijn.
 
 ```csharp
-//Het aantal pagina's instellen waarover de lengte van het werkblad wordt bestreken
+// Het aantal pagina's instellen waarover de lengte van het werkblad wordt bestreken
 worksheet.PageSetup.FitToPagesTall = 1;
 // Het aantal pagina's instellen waarover de breedte van het werkblad wordt bestreken
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` bepaalt hoeveel pagina's uw werkblad verticaal beslaat.
+- `FitToPagesTall`bepaalt hoeveel pagina's uw werkblad verticaal beslaat.
 - `FitToPagesWide` definieert de horizontale pagina-instelling. Beide instellen op`1` betekent dat uw inhoud netjes op één pagina past, waardoor uw document verandert in een gestroomlijnd meesterwerk.
 
 ## Stap 3: Sla uw werkmap op

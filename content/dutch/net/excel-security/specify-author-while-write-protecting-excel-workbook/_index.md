@@ -38,14 +38,14 @@ Met deze richtlijn krijgt u toegang tot de klassen en methoden die zijn opgenome
 Voordat u de werkmap start, is het een goed idee om de paden in te stellen waar uw bronbestanden zich bevinden en waar u uw uitvoer wilt opslaan. Dit is hoe u dat doet:
 
 ```csharp
-//Bron directory
+// Bron directory
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Uitvoermap
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Zorg ervoor dat u vervangt`"YOUR SOURCE DIRECTORY"` En`"YOUR OUTPUT DIRECTORY"` met echte paden op uw machine. Zie dit als het creëren van een opgeruimde werkruimte voordat u begint met het maken van uw meesterwerk!
+ Zorg ervoor dat u vervangt`"YOUR SOURCE DIRECTORY"` En`"YOUR OUTPUT DIRECTORY"`met echte paden op uw machine. Zie dit als het creëren van een opgeruimde werkruimte voordat u begint met het maken van uw meesterwerk!
 
 ## Stap 2: Maak een lege werkmap
 

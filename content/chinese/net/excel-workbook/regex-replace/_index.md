@@ -48,12 +48,12 @@ using Aspose.Cells;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //输出目录
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-这里，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`是实用函数，可帮助您方便地获取源和输出路径。确保您的源目录包含一个名为`SampleRegexReplace.xlsx`对于这个例子。
+这里，`"Your Document Directory"`和`"Your Document Directory"`是实用函数，可帮助您方便地获取源和输出路径。确保您的源目录包含一个名为`SampleRegexReplace.xlsx`对于这个例子。
 
 ## 步骤 2：加载工作簿
 

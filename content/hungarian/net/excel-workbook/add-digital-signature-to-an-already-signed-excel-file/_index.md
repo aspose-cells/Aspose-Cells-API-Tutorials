@@ -41,10 +41,10 @@ Ezek a névterek lehetővé teszik az Excel-fájlokkal való munkavégzést és 
 Az Excel-fájlok kezelése előtt meg kell határoznia, hogy a forrásfájlok hol legyenek, és hova szeretné menteni a kimeneti fájlt. Íme, hogyan kell csinálni:
 
 ```csharp
-//Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Forrás könyvtár
+string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Ebben a lépésben egy módszert használunk a forrás- és kimeneti könyvtár elérési útjának lekérésére. Győződjön meg arról, hogy ezek a könyvtárak léteznek, és tartalmazzák a szükséges fájlokat.
@@ -65,7 +65,7 @@ Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDi
 Most pedig hozzunk létre egy digitális aláírásgyűjteményt. Ez a gyűjtemény tartalmazza az összes digitális aláírást, amelyet hozzá szeretne adni a munkafüzethez.
 
 ```csharp
-// Készítse el a digitális aláírásgyűjteményt
+// Hozza létre a digitális aláírásgyűjteményt
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 

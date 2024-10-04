@@ -47,10 +47,9 @@ Bu adımda, kaynak ve çıktı dosyalarımızın nerede bulunduğunu tanımlayac
 
 ```csharp
 // Çalışma dizinleri
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Burada varsayımsal bir yöntem kullanıyoruz`RunExamples.Get_SourceDirectory()` kaynak dosyalarımıza giden yolu almak için. Benzer şekilde,`RunExamples.Get_OutputDirectory()` çıktımızı kaydedeceğimiz yolu alır. Bu yöntemlerin makinenizde geçerli yollar döndürdüğünden emin olun.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- The`Workbook`sınıf, Excel dosyasına giriş noktanızdır. Kaynak dosyamızın yolunu geçirerek, onu düzenlememize izin veren bir örnek oluşturuyoruz. Bunu bir kitabı açmak gibi düşünebilirsiniz; içeriğini okumaya (veya düzenlemeye) hazırlanıyorsunuz.
+ The`Workbook` sınıf, Excel dosyasına giriş noktanızdır. Kaynak dosyamızın yolunu geçirerek, onu düzenlememize izin veren bir örnek oluşturuyoruz. Bunu bir kitabı açmak gibi düşünebilirsiniz; içeriğini okumaya (veya düzenlemeye) hazırlanıyorsunuz.
 
 ## Adım 3: Veri Mashup'ına erişin
 
@@ -102,7 +101,7 @@ Güncellemeleri yaptıktan sonra değişikliklerimizi kaydetmenin zamanı geldi.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- The`Save` method güncellenen çalışma kitabını belirtilen çıktı dizinine yazar. Bu, düzenlemelerinizi kılavuzun yeni bir sürümünde mühürlemek ve başkalarının kullanımına hazır hale getirmek gibidir!
+ The`Save`method güncellenen çalışma kitabını belirtilen çıktı dizinine yazar. Bu, düzenlemelerinizi kılavuzun yeni bir sürümünde mühürlemek ve başkalarının kullanımına hazır hale getirmek gibidir!
 
 ## Çözüm
 

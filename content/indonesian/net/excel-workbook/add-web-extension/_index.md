@@ -43,10 +43,8 @@ Sekarang kita siap untuk menambahkan Ekstensi Web ke buku kerja Excel. Ikuti lan
 Pertama, Anda perlu menyiapkan direktori keluaran tempat Anda akan menyimpan buku kerja yang telah dimodifikasi. Ini membantu menjaga berkas-berkas Anda tetap teratur.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Di Sini,`RunExamples.Get_OutputDirectory()` adalah metode yang mengambil jalur ke direktori keluaran. Anda dapat mengubahnya untuk menunjuk ke lokasi mana pun di sistem Anda.
-
 ## Langkah 2: Buat Buku Kerja Baru
 
 Selanjutnya, mari kita buat contoh baru dari Workbook. Di sinilah semua keajaiban terjadi!

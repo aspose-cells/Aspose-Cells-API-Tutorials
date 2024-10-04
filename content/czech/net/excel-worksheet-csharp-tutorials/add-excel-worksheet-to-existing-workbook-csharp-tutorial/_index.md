@@ -91,7 +91,7 @@ Zde používáme index`i` odkazovat na náš nově vytvořený pracovní list. T
 
 ## Krok 6: Nastavte název nového listu
 
-Co je to za pracovní list bez jména, že? Dejme našemu nově přidanému pracovnímu listu identitu!
+Co je to pracovní list bez jména, že? Dejme našemu nově přidanému pracovnímu listu identitu!
 
 ```csharp
 // Nastavení názvu nově přidaného listu

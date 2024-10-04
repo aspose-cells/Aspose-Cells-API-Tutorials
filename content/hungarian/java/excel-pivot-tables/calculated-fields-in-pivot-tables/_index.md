@@ -26,7 +26,7 @@ import com.aspose.cells.*;
 ```
 
 ## 3. lépés: Az Excel fájl betöltése
- Töltse be a kimutatástáblázatot tartalmazó Excel-fájlt a Java-alkalmazásba. Cserélje ki`"your-file.xlsx"` az Excel-fájl elérési útjával.
+ Töltse be a Pivot Table-t tartalmazó Excel-fájlt a Java-alkalmazásba. Cserélje ki`"your-file.xlsx"` az Excel-fájl elérési útjával.
 
 ```java
 Workbook workbook = new Workbook("your-file.xlsx");

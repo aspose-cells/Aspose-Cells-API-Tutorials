@@ -54,8 +54,8 @@ Most, hogy minden a helyén van, merüljünk el a munkafüzet nyomtatási előn�
 A nyomtatási előnézetekben való kalandozás megkezdéséhez meg kell határoznunk, hol található a forrás Excel-fájlunk. Ez a belépési pont, úgyhogy állítsuk be:
 
 ```csharp
-//Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Forrás könyvtár
+string sourceDir = "Your Document Directory";
 ```
 
  Ez a kód segít megtalálni az utat, ahol`Book1.xlsx` lakik, így a jövőbeni hivatkozások sokkal könnyebbé válnak.

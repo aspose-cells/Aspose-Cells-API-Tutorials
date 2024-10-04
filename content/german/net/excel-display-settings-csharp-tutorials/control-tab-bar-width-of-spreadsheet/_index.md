@@ -89,7 +89,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## Abschluss
 
-Und das war’s! Sie haben nun erfolgreich gelernt, wie Sie die Breite der Tabulatorleiste in einer Excel-Tabelle mithilfe von Aspose.Cells für .NET steuern. Diese einfache Optimierung kann beim Navigieren in großen Arbeitsmappen einen großen Unterschied machen und Ihren Tabellen ein eleganteres und benutzerfreundlicheres Erscheinungsbild verleihen.
+Und das war’s! Sie haben nun erfolgreich gelernt, wie Sie die Breite der Registerkartenleiste in einer Excel-Tabelle mithilfe von Aspose.Cells für .NET steuern. Diese einfache Optimierung kann beim Navigieren in großen Arbeitsmappen einen großen Unterschied machen und Ihren Tabellen ein eleganteres und benutzerfreundlicheres Erscheinungsbild verleihen.
 
 ## Häufig gestellte Fragen
 

@@ -31,7 +31,7 @@ Kurz gesagt, ob Sie ästhetische Elemente wie Zoom oder Gitternetzlinien oder eh
 
  Eine der nützlichsten Funktionen in jedem Excel-Arbeitsblatt ist die Möglichkeit, Bereiche zu fixieren. Denken Sie einmal darüber nach: Haben Sie beim Scrollen durch eine riesige Tabelle schon einmal die Überschriftenzeile aus den Augen verloren? Das ist unglaublich frustrierend! Unser Tutorial zum Fixieren von Bereichen führt Sie durch den Vorgang, damit Sie beim Navigieren durch große Datensätze wichtige Informationen im Blick behalten. Stellen Sie sich vor, Sie hätten gerade eine lange Analyse abgeschlossen und müssten jedes Mal nach oben scrollen, um sich an die Überschriften zu erinnern. Damit ist jetzt Schluss![Mehr lesen](./freeze-panes-of-worksheet/).
 
-Aber was, wenn Sie durch bestimmte Abschnitte der Tabelle navigieren? Hier kann das Aufteilen von Fenstern wirklich hilfreich sein. Sie können damit verschiedene Bereiche Ihres Arbeitsblatts gleichzeitig anzeigen, was das Vergleichen von Daten oder das Verfolgen von Änderungen in verschiedenen Teilen des Blatts erleichtert. Dieses Tutorial vereinfacht das Aufteilen von Fenstern in ein paar einfache Schritte, die Sie im Handumdrehen beherrschen.[Mehr lesen](./split-panes-of-worksheet/).
+Aber was, wenn Sie durch bestimmte Abschnitte der Tabelle navigieren? Hier kann das Aufteilen von Bereichen wirklich hilfreich sein. Sie können damit verschiedene Bereiche Ihres Arbeitsblatts gleichzeitig anzeigen, was das Vergleichen von Daten oder das Verfolgen von Änderungen in verschiedenen Teilen des Blatts erleichtert. Dieses Tutorial vereinfacht das Aufteilen von Bereichen in ein paar einfache Schritte, die Sie im Handumdrehen beherrschen.[Mehr lesen](./split-panes-of-worksheet/).
 
 ## Blattnavigation verwalten
 

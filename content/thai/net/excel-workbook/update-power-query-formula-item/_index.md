@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 // ไดเรกทอรีการทำงาน
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- ที่นี่เราใช้วิธีการเชิงสมมติฐาน`RunExamples.Get_SourceDirectory()` เพื่อดึงเส้นทางไปยังไฟล์ต้นฉบับของเรา ในทำนองเดียวกัน`RunExamples.Get_OutputDirectory()` รับเส้นทางที่เราจะบันทึกผลลัพธ์ของเรา ตรวจสอบให้แน่ใจว่าวิธีการเหล่านี้ส่งคืนเส้นทางที่ถูกต้องบนเครื่องของคุณ
 
 ## ขั้นตอนที่ 2: โหลดเวิร์กบุ๊ก
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- การ`Workbook`คลาสคือจุดเข้าสู่ไฟล์ Excel ของคุณ โดยการผ่านเส้นทางของไฟล์ต้นฉบับของเรา เราจะสร้างอินสแตนซ์ที่ให้เราจัดการไฟล์นั้นได้ ลองนึกภาพว่าเหมือนกับการเปิดหนังสือ—คุณกำลังเตรียมอ่าน (หรือแก้ไข) เนื้อหาของหนังสือ
+ การ`Workbook` คลาสคือจุดเข้าสู่ไฟล์ Excel ของคุณ โดยการผ่านเส้นทางของไฟล์ต้นฉบับของเรา เราจะสร้างอินสแตนซ์ที่ให้เราจัดการไฟล์นั้นได้ ลองนึกภาพว่าเหมือนกับการเปิดหนังสือ—คุณกำลังเตรียมอ่าน (หรือแก้ไข) เนื้อหาของหนังสือ
 
 ## ขั้นตอนที่ 3: เข้าถึง Data Mashup
 
@@ -102,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- การ`Save` วิธีการนี้จะเขียนเวิร์กบุ๊กที่อัปเดตไปยังไดเร็กทอรีเอาต์พุตที่ระบุ เหมือนกับการปิดผนึกการแก้ไขของคุณในคู่มือเวอร์ชันใหม่ที่พร้อมให้ผู้อื่นนำไปใช้!
+ การ`Save`วิธีการนี้จะเขียนเวิร์กบุ๊กที่อัปเดตไปยังไดเร็กทอรีเอาต์พุตที่ระบุ เหมือนกับการปิดผนึกการแก้ไขของคุณในคู่มือเวอร์ชันใหม่ที่พร้อมให้ผู้อื่นนำไปใช้!
 
 ## บทสรุป
 

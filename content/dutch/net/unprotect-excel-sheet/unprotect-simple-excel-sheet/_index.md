@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Conclusie
 
-In een wereld die wordt gedomineerd door data, is het cruciaal om te weten hoe u uw Excel-spreadsheets kunt manipuleren en beheren. Met Aspose.Cells voor .NET kunt u Excel-bestandsbewerkingen op een robuuste manier verwerken, inclusief het opheffen van de beveiliging van uw sheets. Met slechts een paar regels code hebt u weer toegang tot uw beveiligde content en kunt u zonder problemen doorgaan met uw werk. Dus de volgende keer dat u een vergrendeld Excel-sheet tegenkomt, weet u precies wat u moet doen!
+In een wereld die wordt gedomineerd door data, is het cruciaal om te weten hoe u uw Excel-spreadsheets kunt manipuleren en beheren. Met Aspose.Cells voor .NET kunt u op een robuuste manier Excel-bestandsbewerkingen uitvoeren, inclusief het opheffen van de beveiliging van uw sheets. Met slechts een paar regels code hebt u weer toegang tot uw beveiligde content en kunt u zonder problemen doorgaan met uw werk. Dus de volgende keer dat u een vergrendeld Excel-sheet tegenkomt, weet u precies wat u moet doen!
 
 ## Veelgestelde vragen
 

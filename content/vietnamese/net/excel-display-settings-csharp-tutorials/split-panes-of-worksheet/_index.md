@@ -60,7 +60,7 @@ book.Worksheets[0].ActiveCell = "A20";
 
  Đoạn mã này làm cho`A20` ô đang hoạt động. Điều này quan trọng vì quá trình phân tách diễn ra xung quanh điểm này, giống như cách điều hướng trong Excel thường tập trung vào một ô cụ thể.
 
-## Bước 3: Chia nhỏ trang tính
+## Bước 3: Chia nhỏ bảng tính
 
 Bây giờ ô đang hoạt động đã được thiết lập, hãy chuyển sang phần thú vị—chia trang tính! Đây là bước mà phép thuật xảy ra. Bạn sẽ có thể chia trang tính thành nhiều ngăn để xem và điều hướng dễ dàng hơn.
 

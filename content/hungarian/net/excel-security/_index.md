@@ -2,7 +2,7 @@
 title: Excel biztonság
 linktitle: Excel biztonság
 second_title: Aspose.Cells for .NET API Reference
-description: Fedezze fel az Excel átfogó biztonsági oktatóanyagait az Aspose.Cells for .NET segítségével. Védje Excel-fájljait, és szabályozza a bizalmas adatokhoz való hozzáférést.
+description: Fedezze fel az Excel átfogó biztonsági oktatóanyagait az Aspose.Cells for .NET segítségével. Védje Excel-fájljait, és szabályozza az érzékeny adatokhoz való hozzáférést.
 type: docs
 weight: 18
 url: /hu/net/excel-security/

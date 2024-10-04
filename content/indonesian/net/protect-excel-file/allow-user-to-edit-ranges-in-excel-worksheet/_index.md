@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Pertama, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur tempat Anda ingin menyimpan file. Kode ini memeriksa apakah direktori tersebut ada; jika tidak, maka akan dibuatkan direktori.
+ Pertama, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file. Kode ini memeriksa apakah direktori tersebut ada; jika tidak, maka akan dibuatkan direktori.
 
 ## Langkah 2: Buat Buku Kerja Baru
 

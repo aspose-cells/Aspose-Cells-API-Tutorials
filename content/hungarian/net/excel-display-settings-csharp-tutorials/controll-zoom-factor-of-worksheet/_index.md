@@ -67,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2. lépés: Hozzon létre egy fájlfolyamot az Excel fájlhoz
 
- Mielőtt bármilyen változtatást végrehajtanánk, meg kell nyitnunk az Excel fájlt. Ezt úgy érjük el, hogy létrehozunk a`FileStream` . Ez az adatfolyam lehetővé teszi számunkra, hogy elolvassuk a tartalmát`book1.xls`.
+ Mielőtt bármilyen változtatást végrehajtanánk, meg kell nyitnunk az Excel fájlt. Ezt úgy érjük el, hogy létrehozunk a`FileStream` . Ez a folyam lehetővé teszi számunkra, hogy elolvassuk a tartalmát`book1.xls`.
 
 ```csharp
 // A megnyitandó Excel fájlt tartalmazó fájlfolyam létrehozása

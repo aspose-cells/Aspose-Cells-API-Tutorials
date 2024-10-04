@@ -104,7 +104,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // قفله.
 style.IsLocked = true;
-// إنشاء مثال للعلم.
+//إنشاء مثال للعلم.
 flag = new StyleFlag();
 // ضبط إعداد القفل.
 flag.Locked = true;

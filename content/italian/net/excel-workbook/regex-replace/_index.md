@@ -2,7 +2,7 @@
 title: Sostituisci espressione regolare
 linktitle: Sostituisci espressione regolare
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come usare in modo efficiente la sostituzione regex in Excel con Aspose.Cells per .NET. Aumenta la produttività e la precisione nelle tue attività sui fogli di calcolo.
+description: Scopri come usare in modo efficiente la sostituzione regex in Excel con Aspose.Cells per .NET. Aumenta la produttività e la precisione nelle attività del tuo foglio di calcolo.
 type: docs
 weight: 140
 url: /it/net/excel-workbook/regex-replace/
@@ -47,13 +47,13 @@ Scomponiamo le cose in passaggi gestibili. Ti guideremo attraverso il processo d
 Per prima cosa dobbiamo specificare dove si trova il file Excel di input e dove vogliamo salvare il file di output dopo aver apportato le modifiche necessarie.
 
 ```csharp
-//Elenco di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Elenco di origine
+string sourceDir = "Your Document Directory";
 // Directory di uscita
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Qui,`RunExamples.Get_SourceDirectory()` E`RunExamples.Get_OutputDirectory()` sono funzioni di utilità che ti aiutano a catturare i percorsi di origine e di output in modo conveniente. Assicurati che la tua directory di origine contenga un file denominato`SampleRegexReplace.xlsx` per questo esempio.
+ Qui,`"Your Document Directory"` E`"Your Document Directory"` sono funzioni di utilità che ti aiutano a catturare i percorsi di origine e di output in modo conveniente. Assicurati che la tua directory di origine contenga un file denominato`SampleRegexReplace.xlsx` per questo esempio.
 
 ## Passaggio 2: caricamento della cartella di lavoro
 

@@ -39,7 +39,7 @@ using System.Text;
 
 ```csharp
 // आउटपुट निर्देशिका
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 कोड की यह पंक्ति उस निर्देशिका पथ को पुनः प्राप्त करती है जहाँ जनरेट की गई फ़ाइल संग्रहीत की जाएगी। सुनिश्चित करें कि यह निर्देशिका मौजूद है; अन्यथा, आपको बाद में फ़ाइल-नहीं-मिली त्रुटि का सामना करना पड़ सकता है।

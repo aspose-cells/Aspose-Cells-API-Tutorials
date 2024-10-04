@@ -42,12 +42,10 @@ Om duidelijkheid te scheppen, verdelen we onze taken in hanteerbare stappen.
 In deze stap moeten we definiëren waar onze invoer- en uitvoerbestanden worden opgeslagen.
 
 ```csharp
-//Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Bron directory
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Hier gebruiken we hulpprogrammamethoden`Get_SourceDirectory()` En`Get_OutputDirectory()` om onze bestandspaden gemakkelijk in te stellen. U kunt deze paden aanpassen aan uw directorystructuur.
 
 ## Stap 2: Maak een werkmapontwerperobject
 
@@ -78,7 +76,7 @@ Controleer nu of de werkmapinstellingen zo zijn geconfigureerd dat voorloopapost
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Door het instellen`QuotePrefixToStyle`Als u de waarde false instelt, instrueren we Aspose.Cells om leidende apostrofs als gewone tekens te behandelen, zodat we ze nauwkeurig kunnen verwerken in onze uitvoer.
+ Door het instellen`QuotePrefixToStyle` Als u de waarde false instelt, instrueren we Aspose.Cells om leidende apostrofs als gewone tekens te behandelen, zodat we ze nauwkeurig kunnen verwerken in onze uitvoer.
 
 ## Stap 5: Gegevens laden voor slimme markeringen
 
@@ -146,7 +144,7 @@ Of u nu rapporten genereert, functionaliteiten voor gegevensanalyse creëert of 
 Aspose.Cells is een krachtige .NET-bibliotheek voor het programmatisch maken, bewerken en converteren van Excel-bestanden in verschillende formaten.
 
 ### Kan ik Aspose.Cells gratis gebruiken?
- Ja, u kunt Aspose.Cells gebruiken door u aan te melden voor een gratis proefperiode[hier](https://releases.aspose.com/).
+Ja, u kunt Aspose.Cells gebruiken door u aan te melden voor een gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Cells?
  U kunt op de website terecht voor hulp en vragen stellen.[Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9).

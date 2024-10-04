@@ -38,14 +38,14 @@ Ez az utasítás lehetővé teszi az Aspose.Cells könyvtárban található oszt
 A munkafüzet elindítása előtt célszerű beállítani azokat az elérési útvonalakat, ahol a forrásfájlok találhatók, és ahová menteni szeretné a kimenetet. Ezt a következőképpen teheti meg:
 
 ```csharp
-//Forrás könyvtár
+// Forrás könyvtár
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Kimeneti könyvtár
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR SOURCE DIRECTORY"` és`"YOUR OUTPUT DIRECTORY"` tényleges elérési utakkal a gépén. Gondoljon erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt hozzáfogna a remekmű elkészítéséhez!
+ Ügyeljen arra, hogy cserélje ki`"YOUR SOURCE DIRECTORY"` és`"YOUR OUTPUT DIRECTORY"`tényleges elérési utakkal a gépén. Gondoljon erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt hozzáfogna a remekmű elkészítéséhez!
 
 ## 2. lépés: Hozzon létre egy üres munkafüzetet
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 Teljesen! Az Aspose.Cells zökkenőmentesen működik mind az asztali, mind a webes alkalmazásokban .NET használatával.
 
 ### Mit tegyek, ha támogatásra van szükségem?  
- Kérdésekkel és hibaelhárítással kapcsolatban az Aspose közösség nagyon segítőkész. Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.
+ Kérdések és hibaelhárítás esetén az Aspose közösség nagyon segítőkész. Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.

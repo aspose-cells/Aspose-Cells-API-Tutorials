@@ -9,7 +9,7 @@ url: /it/net/excel-workbook/workbook-print-preview/
 ---
 ## Introduzione
 
-Quando si tratta di gestire e manipolare file Excel, Aspose.Cells per .NET è una potente libreria che si distingue. Se hai mai provato a dare un'occhiata in anteprima a come apparirebbe la tua cartella di lavoro una volta stampata, sai che a volte hai bisogno di un piccolo aiuto per fare le cose per bene. Ecco dove entrano in gioco le anteprime di stampa! In questo tutorial, ci immergeremo nel regno delle anteprime di stampa utilizzando Aspose.Cells per .NET. Esploreremo come puoi utilizzare questa libreria per ottenere rappresentazioni accurate dei tuoi file Excel prima di inviarli alla stampante. Non preoccuparti se sei nuovo in questo; ti guiderò passo dopo passo attraverso ogni dettaglio. Quindi, prendi la tua bevanda preferita e iniziamo questo entusiasmante viaggio!
+Quando si tratta di gestire e manipolare file Excel, Aspose.Cells per .NET è una potente libreria che si distingue. Se hai mai provato a dare un'occhiata in anteprima a come apparirebbe la tua cartella di lavoro una volta stampata, sai che a volte hai bisogno di un piccolo aiuto per fare le cose nel modo giusto. Ecco dove entrano in gioco le anteprime di stampa! In questo tutorial, ci immergeremo nel regno delle anteprime di stampa utilizzando Aspose.Cells per .NET. Esploreremo come puoi utilizzare questa libreria per ottenere rappresentazioni accurate dei tuoi file Excel prima di inviarli alla stampante. Non preoccuparti se sei nuovo in questo; ti guiderò passo dopo passo attraverso ogni dettaglio. Quindi, prendi la tua bevanda preferita e iniziamo questo entusiasmante viaggio!
 
 ## Prerequisiti
 
@@ -54,8 +54,8 @@ Ora che abbiamo tutto a posto, approfondiamo la procedura dettagliata per creare
 Per iniziare la nostra avventura nelle anteprime di stampa, dobbiamo definire dove si trova il nostro file Excel sorgente. Questo è il tuo punto di ingresso, quindi impostiamolo:
 
 ```csharp
-//Elenco di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Elenco di origine
+string sourceDir = "Your Document Directory";
 ```
 
  Questo codice ci aiuta a trovare il percorso dove`Book1.xlsx` risiede, rendendo molto più semplici i riferimenti futuri.

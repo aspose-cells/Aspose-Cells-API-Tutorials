@@ -37,14 +37,12 @@ Ujistěte se, že je přidáte pomocí direktiv v horní části souboru C#, aby
 Nejprve si nastavíme výstupní adresář, kam uložíme náš nový soubor Excel. To pomůže udržet váš projekt organizovaný.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Zde,`RunExamples.Get_OutputDirectory()` je volání funkce, které načte určenou cestu pro výstupní soubory. Ujistěte se, že je tato metoda definována a ukazuje na platný adresář.
 
 ## Krok 2: Vytvořte nový sešit
 
-Nyní, když máme náš výstupní adresář, vytvoříme nový sešit. The`Workbook` třída je výchozím bodem pro práci se soubory Excel.
+ Nyní, když máme náš výstupní adresář, vytvoříme nový sešit. The`Workbook`třída je výchozím bodem pro práci se soubory Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -91,7 +89,7 @@ Nyní, když jsme přidali naše vlastnosti typu obsahu, uložme sešit do výst
 workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
 ```
 
-Tento řádek uloží sešit jako "WorkingWithContentTypeProperties_out.xlsx". Pokud chcete, můžete změnit název souboru!
+Tento řádek uloží sešit jako "WorkingWithContentTypeProperties_out.xlsx". Neváhejte upravit název souboru, pokud si přejete!
 
 ## Krok 5: Potvrďte úspěšné provedení
 

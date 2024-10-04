@@ -41,10 +41,10 @@ Esses namespaces permitirão que você trabalhe com arquivos do Excel e lide com
 Antes de poder manipular seus arquivos do Excel, você precisa definir onde seus arquivos de origem estão localizados e onde você quer salvar o arquivo de saída. Veja como fazer isso:
 
 ```csharp
-//Diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Diretório de origem
+string sourceDir = "Your Document Directory";
 // Diretório de saída
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Nesta etapa, estamos usando um método para obter os caminhos para os diretórios de origem e saída. Certifique-se de que esses diretórios existam e contenham os arquivos necessários.

@@ -42,12 +42,10 @@ using System.Collections.Generic;
 ในขั้นตอนนี้เราจำเป็นต้องกำหนดว่าไฟล์อินพุตและเอาต์พุตของเราจะอยู่ที่ใด
 
 ```csharp
-//ไดเรกทอรีแหล่งที่มา
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// ไดเรกทอรีแหล่งที่มา
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- ที่นี่เราใช้วิธีการยูทิลิตี้`Get_SourceDirectory()` และ`Get_OutputDirectory()` เพื่อกำหนดเส้นทางไฟล์ของเราอย่างสะดวก คุณสามารถปรับแต่งเส้นทางเหล่านี้ตามโครงสร้างไดเร็กทอรีของคุณได้
 
 ## ขั้นตอนที่ 2: สร้างวัตถุ Workbook Designer
 
@@ -78,7 +76,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- โดยการตั้งค่า`QuotePrefixToStyle`หากเป็นเท็จ เรากำลังสั่ง Aspose.Cells ให้ปฏิบัติต่อเครื่องหมายอะพอสทรอฟีนำหน้าเป็นอักขระปกติ ซึ่งจะช่วยให้เราจัดการได้อย่างถูกต้องในผลลัพธ์ของเรา
+ โดยการตั้งค่า`QuotePrefixToStyle` หากเป็นเท็จ เรากำลังสั่ง Aspose.Cells ให้ปฏิบัติต่อเครื่องหมายอะพอสทรอฟีนำหน้าเป็นอักขระปกติ ซึ่งจะช่วยให้เราจัดการได้อย่างถูกต้องในผลลัพธ์ของเรา
 
 ## ขั้นตอนที่ 5: โหลดข้อมูลสำหรับสมาร์ทมาร์กเกอร์
 
@@ -146,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells เป็นไลบรารี .NET อันทรงพลังสำหรับการสร้าง จัดการ และแปลงไฟล์ Excel ในรูปแบบต่าง ๆ ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่ คุณสามารถใช้ Aspose.Cells ได้โดยสมัครทดลองใช้งานฟรี[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถใช้ Aspose.Cells ได้โดยสมัครทดลองใช้งานฟรี[ที่นี่](https://releases.aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร?
  คุณสามารถค้นหาความช่วยเหลือและสอบถามได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9).

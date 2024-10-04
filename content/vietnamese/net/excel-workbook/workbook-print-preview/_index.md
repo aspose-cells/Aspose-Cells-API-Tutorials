@@ -54,8 +54,8 @@ Bây giờ chúng ta đã có mọi thứ cần thiết, hãy cùng tìm hiểu 
 Để bắt đầu cuộc phiêu lưu của chúng ta trong bản xem trước khi in, chúng ta cần xác định vị trí tệp Excel nguồn của mình. Đây là điểm vào của bạn, vì vậy hãy thiết lập nó:
 
 ```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Thư mục nguồn
+string sourceDir = "Your Document Directory";
 ```
 
  Mã này đang giúp chúng ta tìm đường dẫn đến nơi`Book1.xlsx` cư trú, giúp cho việc tham khảo sau này dễ dàng hơn nhiều.

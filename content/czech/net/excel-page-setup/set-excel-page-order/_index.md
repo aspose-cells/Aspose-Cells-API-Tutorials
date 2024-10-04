@@ -120,4 +120,4 @@ Aspose.Cells je knihovna .NET, která poskytuje funkce pro manipulaci s tabulkam
 Pro objednávku tisku stránky si můžete vybrat mezi "Over Then Down" a "Down Then Over".
 
 ### Kde najdu další příklady použití Aspose.Cells?
- Další příklady a funkce můžete prozkoumat v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).
+Další příklady a funkce můžete prozkoumat v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).

@@ -16,7 +16,7 @@ url: /zh-hant/java/basic-excel-functions/excel-concatenate-function/
 
 在我們開始之前，請確保您具備以下先決條件：
 
-1. Java 開發環境：您應該在系統上安裝 Java 以及適當的整合開發環境 (IDE)，例如 Eclipse 或 IntelliJ IDEA。
+1. Java 開發環境：您的系統上應該安裝 Java 以及適當的整合開發環境 (IDE)，例如 Eclipse 或 IntelliJ IDEA。
 
 2. Aspose.Cells for Java：您需要安裝 Aspose.Cells for Java 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/cells/java/).
 

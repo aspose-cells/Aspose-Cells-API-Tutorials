@@ -39,7 +39,7 @@ using System;
 Comece definindo o diretório de origem onde seu arquivo Excel está armazenado. Isso garante que seu programa saiba onde procurar o arquivo com o qual você quer trabalhar.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Etapa 2: Carregue a pasta de trabalho do Excel

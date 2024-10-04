@@ -9,7 +9,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
 ---
 ## Introduction
 
-Lorsque vous travaillez avec de grandes feuilles de calcul Excel, la possibilité de conserver certaines lignes ou colonnes visibles pendant le défilement peut améliorer considérablement votre productivité. Cette fonctionnalité, appelée blocage des volets, vous permet de verrouiller des sections spécifiques de votre feuille de calcul pour suivre les données importantes lorsque vous naviguez dans votre feuille de calcul. Dans ce didacticiel, nous découvrirons comment utiliser Aspose.Cells pour .NET pour geler les volets d'une feuille de calcul Excel. Alors, prenez votre ordinateur portable et plongeons dans le monde d'Aspose.Cells !
+Lorsque vous travaillez avec de grandes feuilles de calcul Excel, la possibilité de conserver certaines lignes ou colonnes visibles pendant le défilement peut améliorer considérablement votre productivité. Cette fonctionnalité, connue sous le nom de blocage des volets, vous permet de verrouiller des sections spécifiques de votre feuille de calcul pour suivre les données importantes lorsque vous naviguez dans votre feuille de calcul. Dans ce didacticiel, nous découvrirons comment utiliser Aspose.Cells pour .NET pour geler les volets d'une feuille de calcul Excel. Alors, prenez votre ordinateur portable et plongeons dans le monde d'Aspose.Cells !
 
 ## Prérequis
 
@@ -25,7 +25,7 @@ Avant de passer à la partie codage proprement dite, assurons-nous que vous disp
 - Vous aurez besoin d’un IDE comme Visual Studio pour créer et exécuter vos applications C#.
 
 ### Un exemple de fichier Excel
--  À des fins de démonstration, vous aurez besoin d'un fichier Excel, que nous appellerons`book1.xls`Vous pouvez créer un fichier Excel simple à l'aide de Microsoft Excel ou de toute application compatible.
+- À des fins de démonstration, vous aurez besoin d'un fichier Excel, que nous appellerons`book1.xls`Vous pouvez créer un fichier Excel simple à l'aide de Microsoft Excel ou de toute application compatible.
 
 Une fois ces prérequis en place, nous pouvons commencer à coder !
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Le`Workbook`L'objet représente l'intégralité de votre fichier Excel en mémoire. Considérez-le comme un transfert de l'intégralité du fichier vers votre espace de travail afin de pouvoir commencer à effectuer des modifications.
+ Le`Workbook` L'objet représente l'intégralité de votre fichier Excel en mémoire. Considérez-le comme un transfert de l'intégralité du fichier vers votre espace de travail afin de pouvoir commencer à effectuer des modifications.
 
 ## Étape 5 : Accéder à la feuille de travail
 
@@ -131,7 +131,7 @@ Le gel des volets vous permet de conserver des lignes ou des colonnes spécifiqu
  Oui, vous pouvez geler n'importe quel nombre de lignes et de colonnes en spécifiant leurs positions à l'aide du`FreezePanes` méthode.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells propose un essai gratuit, mais vous devrez acheter une licence pour une utilisation à long terme. Vérifiez le[page d'achat](https://purchase.aspose.com/buy) pour plus de détails.
+Aspose.Cells propose un essai gratuit, mais vous devrez acheter une licence pour une utilisation à long terme. Vérifiez le[page d'achat](https://purchase.aspose.com/buy) pour plus de détails.
 
 ### Où puis-je trouver du support pour Aspose.Cells ?
  Vous pouvez obtenir de l'aide via le[Forum Aspose](https://forum.aspose.com/c/cells/9), où vous pouvez poser des questions et trouver des solutions auprès de la communauté.

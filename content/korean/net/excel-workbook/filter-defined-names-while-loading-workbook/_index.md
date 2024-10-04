@@ -63,7 +63,7 @@ opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- 이 줄에서는 새 인스턴스를 만듭니다.`Workbook`클래스, 샘플 Excel 파일 경로와 로드 옵션을 전달합니다. 이렇게 하면 정의된 이름이 지정된 대로 필터링되어 통합 문서가 로드됩니다.
+ 이 줄에서는 새 인스턴스를 만듭니다.`Workbook`클래스, 샘플 Excel 파일과 로드 옵션에 대한 경로를 전달합니다. 이렇게 하면 정의된 이름이 지정된 대로 필터링되어 통합 문서가 로드됩니다.
 
 ## 4단계: 출력 파일 저장
 

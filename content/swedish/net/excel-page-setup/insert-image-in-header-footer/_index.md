@@ -148,4 +148,4 @@ Ja, du kan infoga separata bilder i olika delar av sidhuvudet eller sidfoten gen
 Se till att bildsökvägen är korrekt och att filen finns. Kontrollera också bildformatets kompatibilitet.
 
 ### Var kan jag hitta ytterligare dokumentation för Aspose.Cells?
- Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/cells/net/).
+Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/cells/net/).

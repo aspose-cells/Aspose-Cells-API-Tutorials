@@ -2,7 +2,7 @@
 title: Chránit konkrétní řádek v listu aplikace Excel
 linktitle: Chránit konkrétní řádek v listu aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem šitý na míru vývojářům.
+description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem přizpůsobený vývojářům.
 type: docs
 weight: 90
 url: /cs/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
@@ -104,7 +104,7 @@ Nyní je čas zamknout řádek, který chcete chránit. V tomto případě zamyk
 style = sheet.Cells.Rows[0].Style;
 // Zamkněte to.
 style.IsLocked = true;
-// Vytvořte vlajku.
+//Vytvořte vlajku.
 flag = new StyleFlag();
 // Nastavte nastavení zámku.
 flag.Locked = true;

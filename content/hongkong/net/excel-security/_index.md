@@ -2,7 +2,7 @@
 title: 卓越安全
 linktitle: 卓越安全
 second_title: Aspose.Cells for .NET API 參考
-description: 使用 Aspose.Cells for .NET 了解全面的 Excel 安全教學。保護您的 Excel 文件並控制對敏感資料的存取。
+description: 使用 Aspose.Cells for .NET 了解全面的 Excel 安全教學。保護您的 Excel 檔案並控制對敏感資料的存取。
 type: docs
 weight: 18
 url: /zh-hant/net/excel-security/

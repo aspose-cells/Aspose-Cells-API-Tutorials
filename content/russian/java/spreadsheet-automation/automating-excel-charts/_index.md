@@ -48,7 +48,7 @@ public class ExcelChartsAutomation {
 // Создать новый рабочий лист
 Worksheet worksheet = workbook.getWorksheets().add("ChartSheet");
 
-// Заполните рабочий лист данными.
+// Заполните рабочий лист данными
 // (Вы можете использовать различные методы импорта данных)
 ```
 

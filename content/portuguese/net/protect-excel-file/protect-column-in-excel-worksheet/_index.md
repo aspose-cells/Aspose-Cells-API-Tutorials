@@ -16,7 +16,7 @@ Gerenciar dados em planilhas do Excel pode parecer navegar em um labirinto. Em u
 Antes de embarcarmos nessa jornada de proteção de dados, há algumas coisas que você precisa saber para começar:
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado no seu computador. É um ambiente amigável para desenvolvimento .NET.
-2. Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells para .NET. Se você ainda não a instalou, você pode obtê-la em[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells para .NET. Se você ainda não a instalou, você pode obtê-la em[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: Ter alguma familiaridade com programação em C# ajudará você a entender melhor o código.
 4. .NET Framework: Certifique-se de ter o .NET Framework configurado. Esta biblioteca funciona perfeitamente com o .NET Framework e o .NET Core.
 
@@ -117,11 +117,11 @@ Este loop passa por cada coluna (de 0 a 255) e as desbloqueia. Considere isso co
 Agora vem a parte divertida — bloquear a coluna específica que você quer proteger. Em nosso exemplo, bloquearemos a primeira coluna (índice 0).
 
 ```csharp
-//Obtenha o primeiro estilo de coluna.
+// Obtenha o primeiro estilo de coluna.
 style = sheet.Cells.Columns[0].Style;
 // Tranque-o.
 style.IsLocked = true;
-// Instanciar o sinalizador.
+//Instanciar o sinalizador.
 flag = new StyleFlag();
 // Defina a configuração de bloqueio.
 flag.Locked = true;

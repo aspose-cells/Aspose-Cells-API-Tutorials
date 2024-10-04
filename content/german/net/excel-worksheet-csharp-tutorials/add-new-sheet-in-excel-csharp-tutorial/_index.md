@@ -66,7 +66,7 @@ Als Nächstes erstellen wir eine Instanz der Klasse Workbook. Diese Klasse ist d
 Workbook workbook = new Workbook();
 ```
 
- Wenn Sie eine neue Instanz des`Workbook`Klasse beginnen Sie praktisch mit einem leeren Blatt – bereit zum Handeln. Stellen Sie es sich so vor, als würden Sie ein leeres Notizbuch öffnen, in das Sie alles notieren können, was Sie brauchen.
+ Wenn Sie eine neue Instanz des`Workbook` Klasse beginnen Sie praktisch mit einem leeren Blatt – bereit zum Handeln. Stellen Sie es sich so vor, als würden Sie ein leeres Notizbuch öffnen, in das Sie alles notieren können, was Sie brauchen.
 
 ## Schritt 3: Hinzufügen eines neuen Arbeitsblatts
 
@@ -84,7 +84,7 @@ int i = workbook.Worksheets.Add();
 Was ist ein Blatt ohne Namen? Geben wir unserem neu erstellten Arbeitsblatt einen Namen zur einfachen Identifizierung.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[i];
 
 // Festlegen des Namens des neu hinzugefügten Arbeitsblatts
@@ -116,10 +116,10 @@ Mit Aspose.Cells sind die Möglichkeiten endlos. Sie können Daten auf unzählig
 Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Erstellen, Bearbeiten und Konvertieren von Excel-Dateien, ohne dass Microsoft Excel installiert sein muss.
 
 ### Kann ich mehrere Blätter gleichzeitig hinzufügen?  
- Ja, rufen Sie einfach die`Add()`Methode mehrmals und verweisen Sie auf jedes Blatt über seinen Index!
+ Ja, rufen Sie einfach die`Add()` Methode mehrmals und verweisen Sie auf jedes Blatt über seinen Index!
 
 ### Gibt es eine kostenlose Testversion von Aspose.Cells?  
- Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
+Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 
 ### Kann ich das neue Blatt nach dem Hinzufügen formatieren?  
 Auf jeden Fall! Sie können mit den Funktionen der Bibliothek Stile, Formate und sogar Formeln auf Ihre Arbeitsblätter anwenden.

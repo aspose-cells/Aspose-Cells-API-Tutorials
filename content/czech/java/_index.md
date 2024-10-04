@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells Java Výukové programy pro zpracování tabulkového procesoru
-linktitle: Aspose.Cells pro Java tutoriály
+linktitle: Aspose.Cells for Java tutoriály
 type: docs
 weight: 10
 url: /cs/java/

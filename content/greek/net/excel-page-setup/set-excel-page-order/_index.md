@@ -120,4 +120,4 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 Μπορείτε να επιλέξετε μεταξύ "Over then Down" και "Down then Over" για τη σειρά εκτύπωσης της σελίδας σας.
 
 ### Πού μπορώ να βρω περισσότερα παραδείγματα χρήσης του Aspose.Cells;
- Μπορείτε να εξερευνήσετε περισσότερα παραδείγματα και λειτουργίες στο[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).
+Μπορείτε να εξερευνήσετε περισσότερα παραδείγματα και λειτουργίες στο[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).

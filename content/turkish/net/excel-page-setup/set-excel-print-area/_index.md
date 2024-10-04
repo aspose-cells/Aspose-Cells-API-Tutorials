@@ -17,7 +17,7 @@ Kodlama maceramıza dalmadan önce, takip etmeniz gereken her şeye sahip olduğ
 
 1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun, çünkü bu, kullanacağımız geliştirme ortamıdır.
 2. .NET Framework: Projenizin Aspose.Cells ile uyumlu .NET framework ile kurulduğundan emin olun. Genellikle .NET Core veya .NET Framework 4.5 ve üzeri çalışacaktır.
-3. Aspose.Cells Kütüphanesi: .NET için Aspose.Cells'e ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells Kütüphanesi: .NET için Aspose.Cells'e ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
 4. Temel C# Bilgisi: Bu kılavuz boyunca kod bölümlerini yazacağımız için C# sözdizimi ve yapısıyla aşinalık hayati önem taşımaktadır.
 
 Bu ön koşulları sağladığınızda, Excel'i kullanma dünyasına atılmaya hazırsınız!
@@ -39,7 +39,7 @@ Bu ad alanları, Aspose.Cells'in sağladığı işlevlere ve .NET'in diğer ilgi
 
 Excel belgelerinizin konumunu belirtmek için bir değişken oluşturun. 
 
-Bir proje üzerinde çalışırken, dosyalarınızın bulunduğu veya kaydedileceği tanımlanmış bir yola sahip olmak önemlidir. Bizim durumumuzda, adında bir değişken tanımlayacağız`dataDir` aşağıdaki gibi:
+ Bir proje üzerinde çalışırken, dosyalarınızın bulunduğu veya kaydedileceği tanımlanmış bir yola sahip olmak önemlidir. Bizim durumumuzda, adında bir değişken tanımlayacağız`dataDir` aşağıdaki gibi:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

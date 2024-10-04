@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Sekarang, mari kita atur parameter untuk menyesuaikan lembar kerja Anda ke dalam halaman tertentu. Di sinilah Anda dapat menentukan berapa banyak halaman lebar dan tinggi konten Anda akan muncul.
 
 ```csharp
-//Mengatur jumlah halaman yang akan direntangkan sepanjang lembar kerja
+// Mengatur jumlah halaman yang akan direntangkan sepanjang lembar kerja
 worksheet.PageSetup.FitToPagesTall = 1;
 // Mengatur jumlah halaman yang akan dibentangkan pada lebar lembar kerja
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` menentukan berapa banyak halaman lembar kerja Anda yang akan terbentang secara vertikal.
+- `FitToPagesTall`menentukan berapa banyak halaman lembar kerja Anda yang akan terbentang secara vertikal.
 - `FitToPagesWide` mendefinisikan pengaturan halaman horizontal. Mengatur keduanya ke`1` artinya konten Anda akan muat dengan rapi dalam satu halaman, mengubah dokumen Anda menjadi mahakarya yang ramping.
 
 ## Langkah 3: Simpan Buku Kerja Anda

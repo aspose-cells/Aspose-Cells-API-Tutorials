@@ -53,12 +53,12 @@ Allereerst moet u bepalen waar het Excel-bronbestand zich bevindt en waar u het 
 
 ```csharp
 //Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Hier zou je vervangen`RunExamples.Get_SourceDirectory()` En`RunExamples.Get_OutputDirectory()` met de daadwerkelijke paden waar uw bestanden zijn opgeslagen.
+ Hier zou je vervangen`"Your Document Directory"` En`"Your Document Directory"` met de daadwerkelijke paden waar uw bestanden zijn opgeslagen.
 
 ## Stap 2: Laad het Excel-bestand
 
@@ -73,7 +73,7 @@ Met deze regel wordt het Excel-bestand geopend en voorbereid op wijzigingen.
 
 ## Stap 3: Het aantal werkbladen verkrijgen
 
-Nu we onze werkmap hebben, gaan we kijken hoeveel werkbladen deze bevat:
+Nu we een werkboek hebben, gaan we kijken hoeveel werkbladen het bevat:
 
 ```csharp
 //Ontvang de aantallen vellen van de werkmap
@@ -149,7 +149,7 @@ En daar heb je het! Je hebt met succes de ins en outs van het verwijderen van pr
 Aspose.Cells is een krachtige bibliotheek waarmee ontwikkelaars Excel-bestanden in .NET-toepassingen kunnen maken, bewerken en converteren.
 
 ### Kan ik Aspose.Cells gratis gebruiken?  
- Ja, Aspose biedt een gratis proefversie die u kunt gebruiken om de functies ervan te verkennen. Bekijk de[gratis proeflink](https://releases.aspose.com/).
+Ja, Aspose biedt een gratis proefversie die u kunt gebruiken om de functies ervan te verkennen. Bekijk de[gratis proeflink](https://releases.aspose.com/).
 
 ### Moet ik Microsoft Excel installeren om Aspose.Cells te gebruiken?  
 Nee, Aspose.Cells werkt onafhankelijk van Microsoft Excel. U hoeft Excel niet op uw machine te installeren.

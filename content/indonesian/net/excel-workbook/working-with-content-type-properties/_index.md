@@ -37,14 +37,12 @@ Pastikan untuk menambahkan direktif penggunaan ini di bagian atas berkas C# Anda
 Pertama, mari kita atur direktori output tempat kita akan menyimpan berkas Excel baru kita. Ini akan membantu menjaga proyek Anda tetap teratur.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Di Sini,`RunExamples.Get_OutputDirectory()` adalah panggilan fungsi yang mengambil jalur yang ditentukan untuk file keluaran. Pastikan metode ini didefinisikan dan mengarah ke direktori yang valid.
 
 ## Langkah 2: Buat Buku Kerja Baru
 
-Sekarang setelah kita memiliki direktori output, mari buat buku kerja baru.`Workbook` kelas adalah titik awal untuk menangani file Excel.
+ Sekarang setelah kita memiliki direktori output, mari buat buku kerja baru.`Workbook`kelas adalah titik awal untuk menangani file Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

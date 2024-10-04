@@ -30,7 +30,7 @@ Innan du hoppar in i koden är det viktigt att se till att du har allt inställt
 
 Du måste lägga till Aspose.Cells-paketet till ditt projekt. Högerklicka på ditt projekt i Solution Explorer, välj "Hantera NuGet-paket" och sök efter "Aspose.Cells." Installera den senaste versionen.
 
-Nu när vi har allt inställt, låt oss dyka in i själva koden!
+Nu när vi har allt inrättat, låt oss dyka in i själva koden!
 
 ### Importera namnområdet
 

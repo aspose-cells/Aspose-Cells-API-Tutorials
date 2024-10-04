@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-workbook/read-and-write-external-connection-of-xlsb-file
 ---
 ## 介紹
 
-嘿，Excel 愛好者！您準備好進入 XLSB 檔案和外部連接的迷人世界了嗎？如果您曾經使用過 Excel，您就會知道它有多強大和多用途，但有時它也有其怪癖，尤其是在處理與外部資料庫的連接時。這就是 Aspose.Cells for .NET 的用武之地！這個漂亮的庫允許您以簡單的方式操作 Excel 文件。在本文中，我們將引導您逐步了解如何在 XLSB 檔案中讀取和寫入外部連線。
+嘿，Excel 愛好者！您準備好進入 XLSB 檔案和外部連接的迷人世界了嗎？如果您曾經使用過 Excel，您就會知道它有多強大和多才多藝，但有時它也有其怪癖，尤其是在處理與外部資料庫的連接時。這就是 Aspose.Cells for .NET 的用武之地！這個漂亮的庫允許您以簡單的方式操作 Excel 文件。在本文中，我們將引導您逐步了解如何在 XLSB 檔案中讀取和寫入外部連線。
 
 ## 先決條件
 
@@ -41,12 +41,12 @@ using System.Text;
 
 ```csharp
 //原始碼目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-在此程式碼片段中，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`假定取得輸入和輸出檔案所在位置的對應路徑。如果您願意，可以用硬編碼路徑替換這些方法。
+在此程式碼片段中，`"Your Document Directory"`和`"Your Document Directory"`假定取得輸入和輸出檔案所在位置的對應路徑。如果您願意，可以用硬編碼路徑替換這些方法。
 
 ## 第 2 步：載入 XLSB 文件
 
@@ -117,7 +117,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 
 ## 結論
 
-現在你就得到它了！您已成功學習如何使用 Aspose.Cells for .NET 在 XLSB 檔案中讀取和寫入外部連線。透過執行這些步驟，您可以有效地管理 Excel 資料連接，讓您的 Excel 工作更加簡化、更少令人沮喪。請記住，無論您是處理大量資料集還是只是組織訊息，Aspose.Cells 都能提供您所需的工具。
+現在你就擁有了！您已成功學習如何使用 Aspose.Cells for .NET 在 XLSB 檔案中讀取和寫入外部連線。透過執行這些步驟，您可以有效地管理 Excel 資料連接，讓您的 Excel 工作更加簡化、更少令人沮喪。請記住，無論您是處理大量資料集還是只是組織訊息，Aspose.Cells 都能提供您所需的工具。
 
 ## 常見問題解答
 

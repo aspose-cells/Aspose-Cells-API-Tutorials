@@ -80,7 +80,7 @@ chart.getChartArea().getBorder().setVisible(false);
 chart.setTitle("Sales Analysis");
 ```
 
-## Export souboru Excel
+## Export souboru aplikace Excel
 
 Po vytvoření grafů aplikace Excel můžete sešit exportovat do formátu souboru podle vašeho výběru, například XLSX nebo PDF.
 

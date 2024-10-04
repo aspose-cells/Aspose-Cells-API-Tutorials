@@ -47,13 +47,13 @@ Podzielmy to na łatwe do opanowania kroki. Poprowadzimy Cię przez proces zast�
 Najpierw musimy określić, gdzie znajduje się plik wejściowy programu Excel, a także gdzie chcemy zapisać plik wyjściowy po wprowadzeniu niezbędnych zmian.
 
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Katalog źródłowy
+string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Tutaj,`RunExamples.Get_SourceDirectory()` I`RunExamples.Get_OutputDirectory()` to funkcje narzędziowe, które pomagają wygodnie pobierać ścieżki źródłowe i wyjściowe. Upewnij się, że katalog źródłowy zawiera plik o nazwie`SampleRegexReplace.xlsx` dla tego przykładu.
+ Tutaj,`"Your Document Directory"` I`"Your Document Directory"` to funkcje narzędziowe, które pomagają wygodnie pobierać ścieżki źródłowe i wyjściowe. Upewnij się, że katalog źródłowy zawiera plik o nazwie`SampleRegexReplace.xlsx` dla tego przykładu.
 
 ## Krok 2: Ładowanie skoroszytu
 

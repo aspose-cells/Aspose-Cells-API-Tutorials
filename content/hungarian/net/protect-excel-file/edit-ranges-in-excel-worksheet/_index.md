@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 Itt elérjük az első munkalapot, amely hasonló ahhoz, mintha egy friss papírlapot nyitna meg a jegyzetfüzetében.
 
-## 4. lépés: Kapcsolja be az Engedélyezett tartományok szerkesztését
+## 4. lépés: Kapcsolja be az Allow Edit Ranges
 
 Mielőtt beállíthatnánk a szerkeszthető tartományokat, le kell kérnünk a védett tartományok gyűjteményét a munkalapunkról.
 
@@ -99,7 +99,7 @@ A fenti kódban létrehozunk egy "r2" nevű védett tartományt, amely lehetőv�
 
 ## 6. lépés: Állítson be egy jelszót 
 
-A védett tartomány jelszavának beállítása biztosítja, hogy csak a jelszóval rendelkezők módosíthatják a meghatározott területet. Ez a lépés növeli a táblázat biztonságát.
+védett tartomány jelszavának beállítása biztosítja, hogy csak a jelszóval rendelkezők módosíthatják a meghatározott területet. Ez a lépés növeli a táblázat biztonságát.
 
 ```csharp
 // Adja meg a jelszót
@@ -149,4 +149,4 @@ Igen, az Aspose.Cells használatával meghatározott szerkeszthető tartományok
 Míg ez az oktatóanyag a .NET-re összpontosít, az Aspose.Cells számos programozási nyelvhez elérhető, beleértve a Java és a Cloud API-kat.
 
 ### Hol találhatok több információt az Aspose.Cells-ről?  
-Megtekintheti a teljes dokumentációt[itt](https://reference.aspose.com/cells/net/).
+ Megtekintheti a teljes dokumentációt[itt](https://reference.aspose.com/cells/net/).

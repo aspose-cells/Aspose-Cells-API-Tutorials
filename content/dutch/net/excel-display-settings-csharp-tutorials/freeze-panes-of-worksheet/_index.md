@@ -22,10 +22,10 @@ Voordat we met het daadwerkelijke coderen beginnen, willen we ervoor zorgen dat 
 -  Zorg ervoor dat u Aspose.Cells voor .NET in uw ontwikkelomgeving hebt geïnstalleerd. Als u het nog niet hebt geïnstalleerd, ga dan naar de[Downloadlink](https://releases.aspose.com/cells/net/) om te beginnen.
 
 ### Visuele Studio
-- hebt een IDE zoals Visual Studio nodig om uw C#-toepassingen te maken en uit te voeren.
+- U hebt een IDE zoals Visual Studio nodig om uw C#-toepassingen te maken en uit te voeren.
 
 ### Een voorbeeld van een Excel-bestand
--  Voor demonstratiedoeleinden hebt u een Excel-bestand nodig, dat we`book1.xls`U kunt een eenvoudig Excel-bestand maken met Microsoft Excel of een andere compatibele toepassing.
+- Voor demonstratiedoeleinden hebt u een Excel-bestand nodig, dat we`book1.xls`U kunt een eenvoudig Excel-bestand maken met Microsoft Excel of een andere compatibele toepassing.
 
 Zodra aan deze voorwaarden is voldaan, kunnen we beginnen met coderen!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- De`Workbook`object vertegenwoordigt uw volledige Excel-bestand in het geheugen. Zie het als het brengen van het hele bestand naar uw werkruimte, zodat u wijzigingen kunt aanbrengen.
+ De`Workbook` object vertegenwoordigt uw volledige Excel-bestand in het geheugen. Zie het als het brengen van het hele bestand naar uw werkruimte, zodat u wijzigingen kunt aanbrengen.
 
 ## Stap 5: Toegang tot het werkblad
 
@@ -131,7 +131,7 @@ Door deelvensters te bevriezen, kunt u specifieke rijen of kolommen zichtbaar ho
  Ja, u kunt een willekeurig aantal rijen en kolommen bevriezen door hun posities op te geven met behulp van de`FreezePanes` methode.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells biedt een gratis proefperiode, maar u moet een licentie kopen voor langdurig gebruik. Bekijk de[aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
+Aspose.Cells biedt een gratis proefperiode, maar u moet een licentie kopen voor langdurig gebruik. Bekijk de[aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
 
 ### Waar kan ik ondersteuning vinden voor Aspose.Cells?
  U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9), waar u vragen kunt stellen en oplossingen van de community kunt vinden.

@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 // 작업 디렉토리
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- 여기서 우리는 가정적인 방법을 활용하고 있습니다`RunExamples.Get_SourceDirectory()` 소스 파일에 대한 경로를 가져오려면. 마찬가지로,`RunExamples.Get_OutputDirectory()` 출력을 저장할 경로를 가져옵니다. 이러한 메서드가 컴퓨터에서 유효한 경로를 반환하는지 확인하세요.
 
 ## 2단계: 통합 문서 로드
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- 그만큼`Workbook`클래스는 Excel 파일에 대한 진입점입니다. 소스 파일의 경로를 전달함으로써, 우리는 그것을 조작할 수 있는 인스턴스를 만들고 있습니다. 책을 여는 것과 같다고 상상할 수 있습니다. 즉, 내용을 읽거나(또는 편집할) 준비를 하는 것입니다.
+ 그만큼`Workbook` 클래스는 Excel 파일에 대한 진입점입니다. 소스 파일의 경로를 전달함으로써, 우리는 그것을 조작할 수 있는 인스턴스를 만들고 있습니다. 책을 여는 것과 같다고 상상할 수 있습니다. 즉, 내용을 읽거나(또는 편집할) 준비를 하는 것입니다.
 
 ## 3단계: 데이터 매시업에 액세스
 
@@ -102,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- 그만큼`Save` 이 메서드는 업데이트된 통합 문서를 지정된 출력 디렉토리에 씁니다. 다른 사람들이 사용할 수 있도록 새로운 버전의 매뉴얼에 편집 내용을 봉인하는 것과 같습니다!
+ 그만큼`Save`이 메서드는 업데이트된 통합 문서를 지정된 출력 디렉토리에 씁니다. 다른 사람들이 사용할 수 있도록 새로운 버전의 매뉴얼에 편집 내용을 봉인하는 것과 같습니다!
 
 ## 결론
 

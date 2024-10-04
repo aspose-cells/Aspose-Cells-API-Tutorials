@@ -40,13 +40,13 @@ Tyto importy vám umožní přístup k funkcím, které budete potřebovat k man
 Než začnete pracovat se souborem XLSB, musíte nastavit zdrojový a výstupní adresář. Tento krok je nezbytný pro udržení pořádku v souborech.
 
 ```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Zdrojový adresář
+string sourceDir = "Your Document Directory";
 // Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- V tomto fragmentu kódu`RunExamples.Get_SourceDirectory()` a`RunExamples.Get_OutputDirectory()`předpokládá se, že načítají příslušné cesty, kde budou umístěny vaše vstupní a výstupní soubory. Pokud chcete, můžete tyto metody nahradit pevně zakódovanými cestami.
+ V tomto fragmentu kódu`"Your Document Directory"` a`"Your Document Directory"`předpokládá se, že načítají příslušné cesty, kde budou umístěny vaše vstupní a výstupní soubory. Pokud chcete, můžete tyto metody nahradit pevně zakódovanými cestami.
 
 ## Krok 2: Načtěte soubor XLSB
 

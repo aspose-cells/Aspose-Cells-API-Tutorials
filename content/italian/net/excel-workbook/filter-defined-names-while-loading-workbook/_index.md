@@ -2,7 +2,7 @@
 title: Filtra i nomi definiti durante il caricamento della cartella di lavoro
 linktitle: Filtra i nomi definiti durante il caricamento della cartella di lavoro
 second_title: Riferimento API Aspose.Cells per .NET
-description: In questa guida completa scoprirai come filtrare i nomi definiti durante il caricamento di una cartella di lavoro con Aspose.Cells per .NET.
+description: Scopri come filtrare i nomi definiti durante il caricamento di una cartella di lavoro con Aspose.Cells per .NET in questa guida completa.
 type: docs
 weight: 100
 url: /it/net/excel-workbook/filter-defined-names-while-loading-workbook/
@@ -47,7 +47,7 @@ LoadOptions opts = new LoadOptions();
 
 ## Passaggio 2: imposta il filtro di caricamento
 
-Successivamente, dobbiamo definire quali dati vogliamo filtrare durante il caricamento della cartella di lavoro. In questo caso, vogliamo evitare di caricare i nomi definiti.
+Poi, dobbiamo definire quali dati vogliamo filtrare durante il caricamento della cartella di lavoro. In questo caso, vogliamo evitare di caricare i nomi definiti.
 
 ```csharp
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);

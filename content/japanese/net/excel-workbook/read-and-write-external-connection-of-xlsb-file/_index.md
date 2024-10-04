@@ -41,12 +41,12 @@ XLSB ファイルで作業する前に、ソース ディレクトリと出力�
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-このコードスニペットでは、`RunExamples.Get_SourceDirectory()`そして`RunExamples.Get_OutputDirectory()`入力ファイルと出力ファイルが存在する場所のそれぞれのパスを取得するものと想定されています。必要に応じて、これらのメソッドをハードコードされたパスに置き換えることができます。
+このコードスニペットでは、`"Your Document Directory"`そして`"Your Document Directory"`入力ファイルと出力ファイルが存在する場所のそれぞれのパスを取得するものと想定されています。必要に応じて、これらのメソッドをハードコードされたパスに置き換えることができます。
 
 ## ステップ2: XLSBファイルを読み込む
 

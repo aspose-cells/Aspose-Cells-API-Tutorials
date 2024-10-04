@@ -32,7 +32,7 @@ sourceData.endRow = 19; // 20 sornyi adatot feltételezve
 sourceData.startColumn = 0;
 sourceData.endColumn = 3; // 4 oszlopos adatot feltételezve
 
-// Hozzon létre egy kimutatástáblát az adattartomány alapján
+// Hozzon létre egy kimutatási táblát az adattartomány alapján
 int index = worksheet.getPivotTables().add(sourceData, "A1", "PivotTable1");
 
 // Szerezze le a pivot táblát index szerint

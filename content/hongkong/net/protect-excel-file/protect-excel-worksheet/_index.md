@@ -67,7 +67,7 @@ Workbook excel = new Workbook(fstream);
 
 ## 第 4 步：存取第一個工作表
 
-取得工作簿後，下一步就是存取您要保護的工作表。 Excel 檔案可以有多個工作表，在本例中，我們將只使用第一個工作表。
+一旦我們有了工作簿，下一步就是存取您想要保護的工作表。 Excel 檔案可以有多個工作表，在本例中，我們將只使用第一個工作表。
 
 ```csharp
 Worksheet worksheet = excel.Worksheets[0];

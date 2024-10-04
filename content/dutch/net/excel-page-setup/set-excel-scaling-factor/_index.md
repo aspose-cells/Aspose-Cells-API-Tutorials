@@ -95,7 +95,7 @@ worksheet.PageSetup.Zoom = 100;
 
 ## Stap 5: Sla de werkmap op
 
-U hebt de nodige aanpassingen gemaakt. Het is nu tijd om uw wijzigingen op te slaan.
+U hebt de nodige aanpassingen gemaakt; het is nu tijd om uw wijzigingen op te slaan.
 
 ```csharp
 // Sla de werkmap op.

@@ -55,9 +55,8 @@ Trong bước này, bạn sẽ xác định nơi lưu tệp đầu ra. Giống n
 
 ```csharp
 //Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Ở đây, chúng tôi đang sử dụng một phương pháp`RunExamples.Get_OutputDirectory()` để chỉ định thư mục nơi tệp Excel được tạo sẽ được lưu. Đảm bảo rằng phương pháp này được xác định trong mã của bạn để xử lý đầu ra đúng cách.
 
 ## Bước 2: Tạo đối tượng Workbook
 
@@ -77,7 +76,7 @@ Workbook wb = new Workbook();
 //Chia sẻ Sổ làm việc
 wb.Settings.Shared = true;
 ```
- Cài đặt`wb.Settings.Shared` ĐẾN`true` cho biết sổ làm việc này có thể được nhiều người dùng truy cập cùng lúc. Giống như trao chìa khóa nhà cho bạn bè — họ có thể đến và đi tùy ý!
+ Cài đặt`wb.Settings.Shared` ĐẾN`true`cho biết sổ làm việc này có thể được nhiều người dùng truy cập cùng lúc. Giống như trao chìa khóa nhà cho bạn bè — họ có thể đến và đi tùy ý!
 
 ## Bước 4: Lưu sổ làm việc được chia sẻ
 

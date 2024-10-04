@@ -42,12 +42,10 @@ using System.Collections.Generic;
 이 단계에서는 입력 및 출력 파일을 저장할 위치를 정의해야 합니다.
 
 ```csharp
-//소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// 소스 디렉토리
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- 여기서 우리는 유틸리티 방법을 사용하고 있습니다`Get_SourceDirectory()` 그리고`Get_OutputDirectory()` 파일 경로를 편리하게 설정하세요. 디렉토리 구조에 따라 이러한 경로를 사용자 정의할 수 있습니다.
 
 ## 2단계: Workbook Designer 개체 만들기
 
@@ -78,7 +76,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- 설정하여`QuotePrefixToStyle`false로 설정하면 Aspose.Cells가 선행 따옴표를 일반 문자로 처리하도록 지시하여 출력에서 정확하게 처리할 수 있습니다.
+ 설정하여`QuotePrefixToStyle` false로 설정하면 Aspose.Cells가 선행 따옴표를 일반 문자로 처리하도록 지시하여 출력에서 정확하게 처리할 수 있습니다.
 
 ## 5단계: 스마트 마커에 대한 데이터 로드
 
@@ -146,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells는 다양한 형식의 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환하기 위한 강력한 .NET 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
- 네, 무료 체험판에 가입하면 Aspose.Cells를 사용할 수 있습니다.[여기](https://releases.aspose.com/).
+네, 무료 체험판에 가입하면 Aspose.Cells를 사용할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
  도움말을 찾고 질문할 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).

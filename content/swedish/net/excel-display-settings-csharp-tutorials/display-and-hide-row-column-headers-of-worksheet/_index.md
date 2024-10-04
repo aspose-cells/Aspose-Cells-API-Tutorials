@@ -118,7 +118,7 @@ Aspose.Cells är ett kraftfullt .NET-bibliotek för att hantera Excel-kalkylblad
  Ja, du kan gå igenom varje kalkylblad i din arbetsbok och ställa`IsRowColumnHeadersVisible` till`false` för varje.
 
 ### Behöver jag köpa en licens för Aspose.Cells?  
- Även om du kan använda en gratis testversion, krävs en licens för pågående kommersiell användning. Du kan hitta köpalternativen[här](https://purchase.aspose.com/buy).
+ Även om du kan använda en gratis testversion, krävs en licens för pågående kommersiell användning. Du hittar köpalternativen[här](https://purchase.aspose.com/buy).
 
 ### Finns det stöd tillgängligt för Aspose.Cells?  
  Ja, Aspose ger support genom deras forum, som du kan komma åt[här](https://forum.aspose.com/c/cells/9).

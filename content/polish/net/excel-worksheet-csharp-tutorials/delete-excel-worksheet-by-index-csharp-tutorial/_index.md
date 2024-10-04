@@ -17,7 +17,7 @@ Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko gotowe. Oto, cze
 
 1. Podstawowa wiedza o C#: Powinieneś czuć się swobodnie pisząc podstawowe programy w C#. Jeśli potrafisz stworzyć i uruchomić prostą aplikację w C#, jesteś gotowy!
 2.  Biblioteka Aspose.Cells: To nasze główne narzędzie. Musisz pobrać i zainstalować bibliotekę Aspose.Cells dla .NET. Wymagane pliki znajdziesz[Tutaj](https://releases.aspose.com/cells/net/). 
-3. Visual Studio lub dowolne środowisko IDE języka C#: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby pisać i wykonywać swój kod. Jeśli minęła minuta od ostatniego otwarcia, teraz jest czas, aby je odkurzyć!
+3. Visual Studio lub dowolne IDE C#: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby pisać i wykonywać swój kod. Jeśli minęła minuta od ostatniego otwarcia, teraz jest czas, aby je odkurzyć!
 4.  Istniejący plik Excela: Upewnij się, że masz pod ręką plik Excela, z którym chcesz pracować. W tym samouczku użyjemy`book1.xls`, ale możesz użyć czegokolwiek chcesz — upewnij się tylko, że ma właściwy format.
 
 ## Importuj pakiety

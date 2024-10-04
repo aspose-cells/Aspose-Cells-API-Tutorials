@@ -99,7 +99,7 @@ Aspose.Cells for Java vám umožňuje efektivně automatizovat úkoly aplikace E
 
 	Yes, Aspose.Cells supports Excel 2019 and earlier versions.
 
-###  Mohu automatizovat úlohy aplikace Excel na serveru?
+###  Mohu automatizovat úlohy Excelu na serveru?
 
 	Absolutely! Aspose.Cells can be used in server-side applications for batch processing.
 

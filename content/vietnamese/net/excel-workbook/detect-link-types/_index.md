@@ -53,7 +53,7 @@ Bây giờ, đây là nơi niềm vui bắt đầu! Chúng tôi sẽ chia nhỏ 
 
 ```csharp
 // Xác định thư mục nguồn
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Dòng này trỏ đến thư mục chứa tệp Excel. Hãy đảm bảo điều chỉnh đường dẫn theo vị trí tệp của bạn.

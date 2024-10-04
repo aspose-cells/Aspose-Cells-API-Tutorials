@@ -53,12 +53,12 @@ Başlamak için, kaynak Excel dosyanızın nerede bulunduğunu ve değiştirilmi
 
 ```csharp
 //Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Burada, şunu değiştirirsiniz:`RunExamples.Get_SourceDirectory()` Ve`RunExamples.Get_OutputDirectory()` Dosyalarınızın saklandığı gerçek yollar ile.
+ Burada, şunu değiştirirsiniz:`"Your Document Directory"` Ve`"Your Document Directory"` Dosyalarınızın saklandığı gerçek yollar ile.
 
 ## Adım 2: Excel Dosyasını Yükleyin
 
@@ -149,7 +149,7 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak Excel çalışma sayfal
 Aspose.Cells, geliştiricilerin .NET uygulamalarında Excel dosyaları oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet, Aspose özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. Şuraya göz atın:[ücretsiz deneme bağlantısı](https://releases.aspose.com/).
+Evet, Aspose özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. Şuraya göz atın:[ücretsiz deneme bağlantısı](https://releases.aspose.com/).
 
 ### Aspose.Cells'i kullanmak için Microsoft Excel'i yüklemem gerekiyor mu?  
 Hayır, Aspose.Cells Microsoft Excel'den bağımsız olarak çalışır. Bilgisayarınızda Excel'in yüklü olmasına gerek yoktur.

@@ -46,7 +46,7 @@ Nyní, když máme vše připraveno, pojďme se pustit do vzrušující části 
 Nejprve musíme určit, kde budou naše soubory Excel uloženy. Definujte cestu k adresáři dokumentů:
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte to do svého skutečného adresáře
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte toto na váš skutečný adresář
 ```
  The`dataDir` proměnná uloží cestu, kam uložíte konečný soubor Excel. Ujistěte se, že jste nahradili "VÁŠ ADRESÁŘ DOKUMENTŮ" skutečnou cestou ve vašem systému.
 
@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Zde vytvoříme první sešit a vyplníme první list (`ws0`se záhlavími a podrobnými řádky. Tato simulovaná data vám později pomohou vizualizovat proces kopírování.
+Zde vytvoříme první sešit a vyplníme první list (`ws0`) se záhlavími a řádky podrobností. Tato simulovaná data vám později pomohou vizualizovat proces kopírování.
 
-## Krok 3: Nastavení stránky pro tisk
+## Krok 3: Nastavte nastavení stránky pro tisk
 
 Pojďme nakonfigurovat nastavení stránky tak, aby se při tisku opakovaly řádky záhlaví, abychom tuto funkci viděli v akci:
 
 ```csharp
-// Definujte objekt nastavení stránky na základě prvního listu
+//Definujte objekt nastavení stránky na základě prvního listu
 PageSetup pagesetup = ws0.PageSetup;
 // Prvních pět řádků se opakuje na každé stránce
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Zkopírujeme obsah z listu prvního sešitu do druhého sešitu:
 // první pracovní list druhého sešitu
 ws1.Copy(ws0);
 ```
- The`Copy` metoda přebírá veškerý obsah ze zdrojového listu (`ws0`) a duplikuje jej do cílového listu (`ws1`). Tak jednoduché, že?
+ The`Copy` metoda přebírá veškerý obsah ze zdrojového listu (`ws0`a duplikuje jej do cílového listu (`ws1`). Tak jednoduché, že?
 
 ## Krok 6: Uložte nový sešit
 
@@ -123,7 +123,7 @@ Tento řádek uloží váš druhý sešit na zadané cestě. Po spuštění kód
 
 ## Závěr
 
-A tady to máte! Úspěšně jste se naučili kopírovat list z jednoho sešitu do druhého pomocí Aspose.Cells for .NET. Je to neuvěřitelně užitečná dovednost, zejména při práci s velkým množstvím dat rozložených v různých souborech. Pomocí několika řádků kódu můžete organizovat, spravovat a přistupovat k datům aplikace Excel mnohem pohodlněji.
+A tady to máte! Úspěšně jste se naučili kopírovat list z jednoho sešitu do druhého pomocí Aspose.Cells for .NET. Je to neuvěřitelně užitečná dovednost, zejména při práci s velkým množstvím dat rozložených v různých souborech. Pomocí několika řádků kódu můžete organizovat, spravovat a přistupovat k datům Excel mnohem pohodlněji.
 
 ## FAQ
 
@@ -137,7 +137,7 @@ Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manip
  O dočasnou licenci můžete požádat návštěvou[tento odkaz](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu další dokumentaci na Aspose.Cells?  
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
 
 ### Je k dispozici nějaká podpora pro uživatele Aspose.Cells?  
  Absolutně! Podporu můžete získat prostřednictvím[Aspose fórum](https://forum.aspose.com/c/cells/9).

@@ -53,12 +53,12 @@ Bây giờ chúng ta hãy chia nhỏ quy trình xóa cài đặt máy in khỏi 
 
 ```csharp
 //Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Ở đây, bạn sẽ thay thế`RunExamples.Get_SourceDirectory()` Và`RunExamples.Get_OutputDirectory()` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
+ Ở đây, bạn sẽ thay thế`"Your Document Directory"` Và`"Your Document Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
 
 ## Bước 2: Tải tệp Excel
 
@@ -149,7 +149,7 @@ Và bạn đã có nó! Bạn đã điều hướng thành công các ngóc ngá
 Aspose.Cells là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó. Kiểm tra[liên kết dùng thử miễn phí](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó. Kiểm tra[liên kết dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?  
 Không, Aspose.Cells hoạt động độc lập với Microsoft Excel. Bạn không cần cài đặt Excel trên máy của mình.

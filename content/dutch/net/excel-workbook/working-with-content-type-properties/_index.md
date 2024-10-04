@@ -37,14 +37,12 @@ Zorg ervoor dat u deze richtlijnen bovenaan uw C#-bestand toevoegt, zodat u eenv
 Laten we eerst de output directory instellen waar we ons nieuwe Excel bestand zullen opslaan. Dit zal helpen om uw project georganiseerd te houden.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Hier,`RunExamples.Get_OutputDirectory()` is een functieaanroep die een aangewezen pad voor uitvoerbestanden ophaalt. Zorg ervoor dat deze methode is gedefinieerd en naar een geldige directory verwijst.
 
 ## Stap 2: Maak een nieuwe werkmap
 
-Nu we onze output directory hebben, gaan we een nieuwe werkmap maken. De`Workbook` klasse is het startpunt voor het werken met Excel-bestanden.
+ Nu we onze output directory hebben, gaan we een nieuwe werkmap maken. De`Workbook`klasse is het startpunt voor het werken met Excel-bestanden.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

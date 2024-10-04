@@ -13,7 +13,7 @@ Bent u het zat om urenlang handmatig nauwkeurige wijzigingen aan te brengen in u
 
 ## Vereisten
 
-Voordat we in de details van het coderen duiken, willen we er eerst voor zorgen dat je goed bent voorbereid op de reis die voor je ligt.
+Voordat we in de details van het coderen duiken, willen we er zeker van zijn dat je goed bent voorbereid op de reis die voor je ligt.
 
 1. .NET Framework: Zorg dat u een .NET-omgeving hebt ingesteld. Of het nu .NET Core of .NET Framework is, u zou goed moeten zitten.
 2.  Aspose.Cells Library: Deze bibliotheek is uw sleutel tot het ontgrendelen van krachtige spreadsheetmanipulaties. U kunt[download het hier](https://releases.aspose.com/cells/net/).
@@ -47,13 +47,13 @@ Laten we het opsplitsen in beheersbare stappen. We begeleiden u door het proces 
 Allereerst moeten we aangeven waar het invoerbestand van Excel zich bevindt. Ook moeten we aangeven waar we het uitvoerbestand willen opslaan nadat we de gewenste wijzigingen hebben doorgevoerd.
 
 ```csharp
-//Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Bron directory
+string sourceDir = "Your Document Directory";
 // Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Hier,`RunExamples.Get_SourceDirectory()` En`RunExamples.Get_OutputDirectory()` zijn hulpprogrammafuncties die u helpen de bron- en uitvoerpaden gemakkelijk te pakken. Zorg ervoor dat uw bronmap een bestand bevat met de naam`SampleRegexReplace.xlsx` voor dit voorbeeld.
+ Hier,`"Your Document Directory"` En`"Your Document Directory"` zijn hulpprogrammafuncties die u helpen de bron- en uitvoerpaden gemakkelijk te pakken. Zorg ervoor dat uw bronmap een bestand bevat met de naam`SampleRegexReplace.xlsx` voor dit voorbeeld.
 
 ## Stap 2: De werkmap laden
 

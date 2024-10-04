@@ -61,11 +61,9 @@ Teraz, gdy mamy już skonfigurowane środowisko programistyczne, czas napisać g
 
 ```csharp
 // Ustaw katalog źródłowy
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Tutaj,`RunExamples.Get_SourceDirectory()` to niestandardowa metoda, którą możesz mieć w swoim projekcie, która pobiera ścieżkę do folderu zawierającego przykładowy plik. Upewnij się, że zastąpisz ją rzeczywistą ścieżką, jeśli to konieczne.
 
 ## Krok 2: Uzyskaj dostęp do formuł Power Query
 

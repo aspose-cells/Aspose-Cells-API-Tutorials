@@ -16,7 +16,7 @@ Správa dat v listech aplikace Excel může připadat jako navigace v bludišti.
 Než se pustíme do této cesty ochrany dat, je několik věcí, které budete potřebovat:
 
 1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio. Je to přátelské prostředí pro vývoj .NET.
-2. Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells for .NET. Pokud jste jej ještě nenainstalovali, můžete jej získat z[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells for .NET. Pokud jste jej ještě nenainstalovali, můžete jej získat z[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět kódu.
 4. .NET Framework: Ujistěte se, že máte nastavený .NET Framework. Tato knihovna bezproblémově funguje jak s .NET Framework, tak s .NET Core.
 
@@ -117,11 +117,11 @@ Tato smyčka prochází každým sloupcem (od 0 do 255) a odemyká je. Berte to 
 Nyní přichází ta zábavná část – uzamčení konkrétního sloupku, který chcete chránit. V našem příkladu uzamkneme první sloupec (index 0).
 
 ```csharp
-//Získejte styl prvního sloupce.
+// Získejte styl prvního sloupce.
 style = sheet.Cells.Columns[0].Style;
 // Zamkněte to.
 style.IsLocked = true;
-// Vytvořte vlajku.
+//Vytvořte vlajku.
 flag = new StyleFlag();
 // Nastavte nastavení zámku.
 flag.Locked = true;

@@ -15,7 +15,7 @@ Pracujete s tabulkami a hledáte efektivní způsob, jak je programově spravova
 
 Než se dostaneme ke skutečnému kódu, ujistěte se, že máte vše seřazeno. Zde je to, co potřebujete:
 
-1. Aspose.Cells for .NET Library – Ujistěte se, že ji máte nainstalovanou. Můžete[stáhněte si knihovnu zde](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library – Ujistěte se, že ji máte nainstalovanou. Můžete[stáhněte si knihovnu zde](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Ujistěte se, že používáte kompatibilní verzi rozhraní .NET Framework. Aspose.Cells for .NET podporuje verze .NET Framework od 2.0.
 3. Vývojové prostředí – Visual Studio nebo jakékoli jiné C# IDE je pro tento úkol perfektní.
 4. Základní znalost C# – Nemusíte být průvodce, ale pochopení základní syntaxe vám pomůže.
@@ -41,7 +41,7 @@ Než budeme moci manipulovat s jakýmkoli souborem aplikace Excel, musíme defin
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k adresáři ve vašem systému. Tento adresář bude místem, kam načtete svůj stávající soubor Excel a uložíte výstup.
+ Nahradit`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou k adresáři ve vašem systému. Tento adresář bude místem, kam načtete svůj stávající soubor Excel a uložíte výstup.
 
 ## Krok 2: Vytvoření instance objektu sešitu
 
@@ -61,7 +61,7 @@ V aplikaci Excel lze karty ve spodní části (List1, List2 atd.) skrýt nebo zo
 workbook.Settings.ShowTabs = true;
 ```
 
- Nastavení`ShowTabs` na`true`zajistí, že při otevření souboru aplikace Excel budou karty viditelné.
+ Nastavení`ShowTabs` na`true` zajistí, že při otevření souboru aplikace Excel budou karty viditelné.
 
 ## Krok 4: Uložte upravený soubor Excel
 
@@ -71,7 +71,7 @@ Jakmile se karty zobrazí, musíme aktualizovaný soubor uložit. Tím zajistít
 workbook.Save(dataDir + "output.xls");
 ```
 
- Soubor se uloží s názvem`output.xls` v adresáři uvedeném dříve. Můžete také zvolit jiný název nebo formát souboru (např`.xlsx`) v případě potřeby.
+Soubor se uloží s názvem`output.xls` v adresáři uvedeném dříve. Můžete také zvolit jiný název nebo formát souboru (např`.xlsx`) v případě potřeby.
 
 ## Závěr
 
@@ -80,7 +80,7 @@ A tady to máte! Úspěšně jste zobrazili karty v excelové tabulce pomocí As
 ## FAQ
 
 ### Mohu skrýt karty v aplikaci Excel pomocí Aspose.Cells pro .NET?
- Absolutně! Jednoduše nastavit`workbook.Settings.ShowTabs = false;` uložte soubor. Tím se karty při otevření sešitu skryjí.
+ Absolutně! Jednoduše nastavit`workbook.Settings.ShowTabs = false;` a uložte soubor. Tím se karty při otevření sešitu skryjí.
 
 ### Podporuje Aspose.Cells další funkce aplikace Excel, jako jsou grafy a kontingenční tabulky?
 Ano, Aspose.Cells je komplexní knihovna, která podporuje téměř všechny funkce Excelu, včetně grafů, kontingenčních tabulek, vzorců a dalších.

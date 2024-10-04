@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Ora, impostiamo i parametri per adattare il tuo foglio di lavoro a pagine specifiche. Qui puoi specificare quante pagine di larghezza e altezza deve apparire il tuo contenuto.
 
 ```csharp
-//Impostazione del numero di pagine su cui verrà estesa la lunghezza del foglio di lavoro
+// Impostazione del numero di pagine su cui verrà estesa la lunghezza del foglio di lavoro
 worksheet.PageSetup.FitToPagesTall = 1;
 // Impostazione del numero di pagine su cui verrà estesa la larghezza del foglio di lavoro
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` determina quante pagine si estenderà verticalmente il tuo foglio di lavoro.
+- `FitToPagesTall`determina quante pagine si estenderà verticalmente il tuo foglio di lavoro.
 - `FitToPagesWide` definisce l'impostazione orizzontale della pagina. Impostando entrambi su`1` significa che il contenuto verrà inserito ordinatamente in una sola pagina, trasformando il documento in un capolavoro ottimizzato.
 
 ## Passaggio 3: salva la tua cartella di lavoro

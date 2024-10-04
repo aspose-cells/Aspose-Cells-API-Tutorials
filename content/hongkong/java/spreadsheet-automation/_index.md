@@ -8,7 +8,7 @@ weight: 19
 url: /zh-hant/java/spreadsheet-automation/
 ---
 
-在我們的電子表格自動化教程中了解 Aspose.Cells for Java 的強大功能。學習如何輕鬆簡化資料任務、操作電子表格並產生報表。
+在我們的電子表格自動化教程中了解 Aspose.Cells for Java 的強大功能。學習如何輕鬆簡化資料任務、操作電子表格並產生報告。
 
 ## 簡化您的資料工作流程
 

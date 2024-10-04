@@ -104,7 +104,7 @@ Jetzt ist es an der Zeit, die Zeile zu sperren, die Sie schützen möchten. In d
 style = sheet.Cells.Rows[0].Style;
 // Sperren Sie es.
 style.IsLocked = true;
-// Instanziieren Sie die Flagge.
+//Instanziieren Sie die Flagge.
 flag = new StyleFlag();
 // Legen Sie die Sperreinstellung fest.
 flag.Locked = true;

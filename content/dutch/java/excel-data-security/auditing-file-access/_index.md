@@ -122,7 +122,7 @@ Om het auditlogboek op te halen, kunt u eenvoudig de inhoud van het`file_access_
 
 ### Is er een manier om logboekvermeldingen te filteren op gebruiker of bestand?
 
- U kunt filterlogica implementeren in de`FileAccessLogger` klasse. Voeg voorwaarden toe aan logboekvermeldingen op basis van gebruikers- of bestandscriteria voordat u naar het logboekbestand schrijft.
+ U kunt filterlogica implementeren in de`FileAccessLogger` klasse. Voeg voorwaarden toe aan logboekvermeldingen op basis van gebruikers- of bestandscriteria voordat u naar het logbestand schrijft.
 
 ### Welke andere acties kan ik loggen naast het openen en opslaan van bestanden?
 

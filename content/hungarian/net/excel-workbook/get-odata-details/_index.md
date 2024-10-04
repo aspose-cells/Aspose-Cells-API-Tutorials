@@ -61,11 +61,9 @@ Most, hogy beállítottuk a fejlesztői környezetünket, ideje megírni a fő k
 
 ```csharp
 // Állítsa be a forráskönyvtárat
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Itt,`RunExamples.Get_SourceDirectory()` egy egyéni módszer, amely a projektben előfordulhat, és lekéri a mintafájlt tartalmazó mappa elérési útját. Szükség esetén feltétlenül cserélje ki a tényleges elérési útra.
 
 ## 2. lépés: Nyissa meg a Power Query képleteket
 

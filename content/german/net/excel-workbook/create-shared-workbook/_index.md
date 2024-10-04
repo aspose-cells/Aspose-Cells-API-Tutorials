@@ -55,9 +55,8 @@ In diesem Schritt legen Sie fest, wo die Ausgabedatei gespeichert wird. Das ist 
 
 ```csharp
 //Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Hier verwenden wir eine Methode`RunExamples.Get_OutputDirectory()` um den Ordner anzugeben, in dem die generierte Excel-Datei gespeichert wird. Stellen Sie sicher, dass diese Methode in Ihrem Code für eine ordnungsgemäße Ausgabeverarbeitung definiert ist.
 
 ## Schritt 2: Erstellen des Arbeitsmappenobjekts
 
@@ -77,7 +76,7 @@ Es ist Zeit, aus Ihrer Arbeitsmappe ein gemeinschaftliches Meisterwerk zu machen
 //Arbeitsmappe freigeben
 wb.Settings.Shared = true;
 ```
- Einstellung`wb.Settings.Shared` Zu`true` gibt an, dass mehrere Benutzer gleichzeitig auf diese Arbeitsmappe zugreifen können. Das ist, als würden Sie Ihren Freunden die Schlüssel zu Ihrem Haus geben – sie können kommen und gehen, wann sie wollen!
+ Einstellung`wb.Settings.Shared` Zu`true`gibt an, dass mehrere Benutzer gleichzeitig auf diese Arbeitsmappe zugreifen können. Das ist, als würden Sie Ihren Freunden die Schlüssel zu Ihrem Haus geben – sie können kommen und gehen, wann sie wollen!
 
 ## Schritt 4: Speichern der freigegebenen Arbeitsmappe
 

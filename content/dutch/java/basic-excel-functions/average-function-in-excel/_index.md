@@ -77,7 +77,7 @@ Met deze code wijzigt u het lettertype, de grootte en de voorgrondkleur van de c
 
 ## Excel-bestanden opslaan en exporteren
 
-Nadat u uw Excel-sheet hebt gemaakt en geformatteerd, kunt u deze opslaan op een specifieke locatie of exporteren naar verschillende formaten, zoals PDF of CSV. Zo slaat u het op als PDF:
+Nadat u uw Excel-sheet hebt gemaakt en geformatteerd, kunt u deze opslaan op een specifieke locatie of exporteren naar verschillende formaten, zoals PDF of CSV. Hier leest u hoe u deze kunt opslaan als PDF:
 
 ```java
 // Java-code om de werkmap als PDF op te slaan
@@ -103,7 +103,7 @@ Verpak uw code altijd in een try-catch-blok om uitzonderingen effectief te verwe
 
 ## Extra functies
 
-Aspose.Cells voor Java biedt een breed scala aan functies die verder gaan dan wat we in dit artikel hebben besproken. U kunt grafieken, draaitabellen maken, geavanceerde berekeningen uitvoeren en nog veel meer. Bekijk de documentatie voor uitgebreide informatie.
+Aspose.Cells voor Java biedt een breed scala aan functies die verder gaan dan wat we in dit artikel hebben behandeld. U kunt grafieken, draaitabellen maken, geavanceerde berekeningen uitvoeren en nog veel meer. Bekijk de documentatie voor uitgebreide informatie.
 
 ## Conclusie
 

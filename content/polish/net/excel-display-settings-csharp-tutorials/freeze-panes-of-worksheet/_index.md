@@ -25,7 +25,7 @@ Zanim przejdziemy do właściwej części kodowania, upewnijmy się, że masz ws
 - Do tworzenia i uruchamiania aplikacji C# potrzebne będzie środowisko IDE, np. Visual Studio.
 
 ### Przykładowy plik Excela
--  Do celów demonstracyjnych potrzebny będzie plik Excel, który nazwiemy`book1.xls`Możesz utworzyć prosty plik Excela za pomocą programu Microsoft Excel lub dowolnej kompatybilnej aplikacji.
+- Do celów demonstracyjnych potrzebny będzie plik Excel, który nazwiemy`book1.xls`Możesz utworzyć prosty plik Excela za pomocą programu Microsoft Excel lub dowolnej kompatybilnej aplikacji.
 
 Gdy już spełnisz te wymagania wstępne, możemy rozpocząć kodowanie!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Ten`Workbook`obiekt reprezentuje cały plik Excel w pamięci. Pomyśl o tym jako o przeniesieniu całego pliku do obszaru roboczego, aby móc rozpocząć wprowadzanie modyfikacji.
+ Ten`Workbook` obiekt reprezentuje cały plik Excel w pamięci. Pomyśl o tym jako o przeniesieniu całego pliku do obszaru roboczego, aby móc rozpocząć wprowadzanie modyfikacji.
 
 ## Krok 5: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -131,7 +131,7 @@ Zamrażanie paneli umożliwia zachowanie widoczności określonych wierszy lub k
  Tak, możesz zamrozić dowolną liczbę wierszy i kolumn, określając ich pozycje za pomocą`FreezePanes` metoda.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania trzeba będzie kupić licencję. Sprawdź[strona zakupu](https://purchase.aspose.com/buy) Więcej szczegółów.
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania trzeba będzie kupić licencję. Sprawdź[strona zakupu](https://purchase.aspose.com/buy) Więcej szczegółów.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
  Możesz uzyskać wsparcie poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadawać pytania i szukać rozwiązań u społeczności.

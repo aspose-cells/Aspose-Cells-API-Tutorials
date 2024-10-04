@@ -89,7 +89,7 @@ workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
 
-Hier hebben we de som van de waarden in cel A1 tot en met A10 en D1 tot en met D10 berekend en de resultaten respectievelijk in cel B1 en C1 geplaatst.
+Hier hebben we de som van de waarden in de cellen A1 tot en met A10 en D1 tot en met D10 berekend en de resultaten respectievelijk in de cellen B1 en C1 geplaatst.
 
 ## Voorwaardelijke SOM met Aspose.Cells
 
@@ -105,7 +105,7 @@ workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
 
-In dit voorbeeld tellen we de waarden in de cellen A1 tot en met A10 bij elkaar op, maar we nemen alleen de getallen groter dan 5 mee.
+In dit voorbeeld tellen we de waarden in de cellen A1 tot en met A10 bij elkaar op, maar we tellen alleen de getallen groter dan 5 mee.
 
 ## Omgaan met fouten en randgevallen
 

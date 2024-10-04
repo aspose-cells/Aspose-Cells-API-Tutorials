@@ -41,10 +41,10 @@ Bu ad alanları Excel dosyalarıyla çalışmanıza ve dijital imzaları sorunsu
 Excel dosyalarınızı düzenleyebilmeniz için önce kaynak dosyalarınızın nerede bulunduğunu ve çıktı dosyasını nereye kaydetmek istediğinizi tanımlamanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-//Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Kaynak dizini
+string sourceDir = "Your Document Directory";
 // Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Bu adımda, kaynak ve çıktı dizinleri için yolları almak için bir yöntem kullanıyoruz. Bu dizinlerin var olduğundan ve gerekli dosyaları içerdiğinden emin olun.

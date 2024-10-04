@@ -38,14 +38,14 @@ Bu yönerge, Aspose.Cells kütüphanesinde bulunan sınıflara ve yöntemlere er
 Çalışma kitabını başlatmadan önce, kaynak dosyalarınızın bulunduğu ve çıktınızı kaydetmek istediğiniz yolları ayarlamak iyi bir fikirdir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
-//Kaynak dizini
+// Kaynak dizini
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Çıktı dizini
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR SOURCE DIRECTORY"` Ve`"YOUR OUTPUT DIRECTORY"` makinenizde gerçek yollarla. Bunu, şaheserinizi yaratmaya başlamadan önce düzenli bir çalışma alanı oluşturmak olarak düşünün!
+ Değiştirdiğinizden emin olun`"YOUR SOURCE DIRECTORY"` Ve`"YOUR OUTPUT DIRECTORY"`makinenizde gerçek yollarla. Bunu, şaheserinizi yaratmaya başlamadan önce düzenli bir çalışma alanı oluşturmak olarak düşünün!
 
 ## Adım 2: Boş bir Çalışma Kitabı Oluşturun
 

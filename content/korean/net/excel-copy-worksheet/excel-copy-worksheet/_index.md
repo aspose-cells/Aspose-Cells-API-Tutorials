@@ -92,7 +92,7 @@ WorksheetCollection sheets = wb.Worksheets;
 sheets.AddCopy("Sheet1");
 ```
 
--  그만큼`AddCopy`이 방법은 기존 워크시트(이 경우 "Sheet1")를 복제하고 새 시트를 통합 문서에 추가합니다.
+-  그만큼`AddCopy` 이 방법은 기존 워크시트(이 경우 "Sheet1")를 복제하고 새 시트를 통합 문서에 추가합니다.
 -  교체할 수 있습니다`"Sheet1"` 복사하려는 시트 이름을 입력하세요.
 
 ## 5단계: 통합 문서 저장
@@ -119,7 +119,7 @@ Aspose.Cells for .NET에서 워크시트를 복사하는 것은 간단할 뿐만
  예, 두 통합 문서를 모두 열고 다음을 사용하여 서로 다른 통합 문서 간에 워크시트를 복사할 수 있습니다.`AddCopy` 그들 사이의 방법.
 
 ### Aspose.Cells는 어떤 Excel 형식을 지원하나요?
- Aspose.Cells는 다음을 포함한 광범위한 Excel 형식을 지원합니다.`.xls`, `.xlsx`, `.csv`, `.html`, 그리고 더 많은 것들.
+Aspose.Cells는 다음을 포함한 광범위한 Excel 형식을 지원합니다.`.xls`, `.xlsx`, `.csv`, `.html`, 그리고 더 많은 것들.
 
 ### Aspose.Cells for .NET을 사용하려면 라이선스가 필요합니까?
  네, 워터마크를 피하고 라이브러리의 잠재력을 최대한 활용하려면 유효한 라이선스가 필요합니다. 그러나 다음을 요청할 수 있습니다.[무료 임시 라이센스](https://purchase.aspose.com/temporary-license) 구매하기 전에 직접 시험해보세요.

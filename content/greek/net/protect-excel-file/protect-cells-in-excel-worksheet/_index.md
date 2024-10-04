@@ -16,7 +16,7 @@ url: /el/net/protect-excel-file/protect-cells-in-excel-worksheet/
 Πριν βουτήξετε στο θράσος της προστασίας των κυττάρων, υπάρχουν μερικές προϋποθέσεις που πρέπει να έχετε:
 
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στον υπολογιστή σας. Είναι το κύριο IDE για την ανάπτυξη .NET.
-2. Aspose.Cells Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Cells διαθέσιμη στο έργο σας. Μπορείτε να το εγκαταστήσετε εύκολα μέσω του NuGet Package Manager ή να το κατεβάσετε απευθείας από το[Ιστοσελίδα Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Cells διαθέσιμη στο έργο σας. Μπορείτε να το εγκαταστήσετε εύκολα μέσω του NuGet Package Manager ή να το κατεβάσετε απευθείας από το[Ιστοσελίδα Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Βασικές γνώσεις C#: Λίγη εξοικείωση με τον προγραμματισμό C# θα σας βοηθήσει να ακολουθήσετε ομαλά.
 
 ## Εισαγωγή πακέτων

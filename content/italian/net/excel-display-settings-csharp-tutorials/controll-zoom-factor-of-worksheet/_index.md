@@ -134,7 +134,7 @@ Ed ecco fatto! Hai manipolato con successo il fattore di zoom di un foglio di la
 
 ## Conclusione
 
-Controllare il fattore di zoom nei fogli di lavoro Excel può sembrare un dettaglio di poco conto, ma può migliorare notevolmente la leggibilità e l'esperienza utente. Con Aspose.Cells per .NET, questo compito è semplice ed efficiente. Puoi aspettarti maggiore chiarezza e comfort durante la navigazione nei tuoi fogli di calcolo.
+Controllare il fattore di zoom nei fogli di lavoro Excel può sembrare un dettaglio di poco conto, ma può migliorare notevolmente la leggibilità e l'esperienza utente. Con Aspose.Cells per .NET, questa attività è semplice ed efficiente. Puoi aspettarti maggiore chiarezza e comfort durante la navigazione nei tuoi fogli di calcolo.
 
 ## Domande frequenti
 

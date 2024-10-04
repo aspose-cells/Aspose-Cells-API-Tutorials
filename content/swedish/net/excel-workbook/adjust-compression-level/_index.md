@@ -43,12 +43,10 @@ Nu när vi har allt inrättat, låt oss dela upp processen med att justera kompr
 Först och främst måste vi definiera var våra filer ska lagras. Detta innebär att specificera källkatalogen för vår indatafil och utdatakatalogen för våra komprimerade filer.
 
 ```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Källkatalog
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Här,`RunExamples.Get_SourceDirectory()` och`RunExamples.Get_OutputDirectory()` är metoder som returnerar sökvägarna till dina käll- respektive utdatakataloger. 
 
 ## Steg 2: Ladda arbetsboken
 

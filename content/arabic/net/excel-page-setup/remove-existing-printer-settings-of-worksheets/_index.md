@@ -53,12 +53,12 @@ using System;
 
 ```csharp
 //دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //دليل الإخراج
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- هنا، يمكنك استبدال`RunExamples.Get_SourceDirectory()` و`RunExamples.Get_OutputDirectory()` مع المسارات الفعلية التي يتم تخزين ملفاتك فيها.
+ هنا، يمكنك استبدال`"Your Document Directory"` و`"Your Document Directory"` مع المسارات الفعلية التي يتم تخزين ملفاتك فيها.
 
 ## الخطوة 2: تحميل ملف Excel
 
@@ -149,7 +149,7 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 Aspose.Cells هي مكتبة قوية تسمح للمطورين بإنشاء ملفات Excel ومعالجتها وتحويلها في تطبيقات .NET.
 
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟  
- نعم، يقدم Aspose إصدارًا تجريبيًا مجانيًا يمكنك استخدامه لاستكشاف ميزاته. تحقق من[رابط التجربة المجانية](https://releases.aspose.com/).
+نعم، يقدم Aspose إصدارًا تجريبيًا مجانيًا يمكنك استخدامه لاستكشاف ميزاته. تحقق من[رابط التجربة المجانية](https://releases.aspose.com/).
 
 ### هل أحتاج إلى تثبيت Microsoft Excel لاستخدام Aspose.Cells؟  
 لا، يعمل Aspose.Cells بشكل مستقل عن Microsoft Excel. لا تحتاج إلى تثبيت Excel على جهازك.

@@ -16,7 +16,7 @@ Di dunia digital saat ini, mengelola data dengan aman di lembar kerja menjadi le
 Sebelum menyelami seluk-beluk perlindungan sel, ada beberapa prasyarat yang harus Anda miliki:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah IDE utama untuk pengembangan .NET.
-2. Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells yang tersedia di proyek Anda. Anda dapat menginstalnya dengan mudah melalui Pengelola Paket NuGet atau mengunduhnya langsung dari[Situs Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells yang tersedia di proyek Anda. Anda dapat menginstalnya dengan mudah melalui Pengelola Paket NuGet atau mengunduhnya langsung dari[Situs Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sedikit pengetahuan dengan pemrograman C# akan membantu Anda mengikutinya dengan lancar.
 
 ## Mengimpor Paket

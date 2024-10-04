@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 // स्रोत निर्देशिका सेट करें
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- यहाँ,`RunExamples.Get_SourceDirectory()` यह आपके प्रोजेक्ट में मौजूद एक कस्टम विधि है जो आपकी सैंपल फ़ाइल वाले फ़ोल्डर का पथ प्राप्त करती है। यदि आवश्यक हो तो इसे वास्तविक पथ से बदलना सुनिश्चित करें।
 
 ## चरण 2: पावर क्वेरी फ़ार्मुलों तक पहुँचें
 

@@ -39,7 +39,7 @@ using System.Text;
 
 ```csharp
 // دليل الإخراج
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 يسترجع هذا السطر من التعليمات البرمجية مسار الدليل حيث سيتم تخزين الملف الناتج. تأكد من وجود هذا الدليل؛ وإلا فقد تواجه خطأ عدم العثور على الملف لاحقًا.

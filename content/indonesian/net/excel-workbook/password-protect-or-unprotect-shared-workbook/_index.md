@@ -39,7 +39,7 @@ Hal pertama yang perlu Anda lakukan adalah menentukan di mana file output Anda a
 
 ```csharp
 // Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Baris kode ini mengambil jalur direktori tempat file yang dihasilkan akan disimpan. Pastikan direktori ini ada; jika tidak, Anda mungkin menghadapi kesalahan file tidak ditemukan nanti.

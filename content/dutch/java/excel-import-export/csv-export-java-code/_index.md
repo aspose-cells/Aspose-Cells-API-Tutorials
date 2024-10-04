@@ -13,7 +13,7 @@ In deze stapsgewijze handleiding gaan we onderzoeken hoe u gegevens kunt exporte
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
+Voordat we beginnen, moet u ervoor zorgen dat de volgende voorwaarden vervuld zijn:
 
 1. Java-ontwikkelomgeving: zorg ervoor dat Java JDK op uw systeem is geïnstalleerd.
 2.  Aspose.Cells voor Java: Download en neem de Aspose.Cells voor Java-bibliotheek op in uw project. U kunt de downloadlink vinden[hier](https://releases.aspose.com/cells/java/).

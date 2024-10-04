@@ -17,7 +17,7 @@ Prima di tuffarci a capofitto nella nostra avventura di coding, prendiamoci un m
 
 1. Visual Studio: assicurati di aver installato Visual Studio, poiché è l'ambiente di sviluppo che utilizzeremo.
 2. .NET Framework: assicurati che il tuo progetto sia impostato con il framework .NET compatibile con Aspose.Cells. In genere, funzioneranno .NET Core o .NET Framework 4.5 e versioni successive.
-3. Libreria Aspose.Cells: avrai bisogno di Aspose.Cells per .NET. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
+3.  Libreria Aspose.Cells: avrai bisogno di Aspose.Cells per .NET. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
 4. Conoscenza di base di C#: la familiarità con la sintassi e la struttura di C# è fondamentale, poiché in questa guida scriveremo segmenti di codice.
 
 Una volta soddisfatti questi prerequisiti, sarai pronto per tuffarti nel mondo della manipolazione di Excel!
@@ -39,7 +39,7 @@ Ora, analizziamo passo dopo passo il processo di impostazione di un'area di stam
 
 Crea una variabile per specificare la posizione dei tuoi documenti Excel. 
 
-Quando lavori su un progetto, è essenziale avere un percorso definito in cui risiedono o verranno salvati i tuoi file. Nel nostro caso, definiremo una variabile denominata`dataDir` come segue:
+ Quando lavori su un progetto, è essenziale avere un percorso definito in cui risiedono o verranno salvati i tuoi file. Nel nostro caso, definiremo una variabile denominata`dataDir` come segue:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

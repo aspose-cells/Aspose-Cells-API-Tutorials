@@ -71,7 +71,7 @@ pivotTable.addFieldToArea(0, PivotFieldType.DATA); // Lägg till den första kol
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // Använd SUM-funktionen
 ```
 
-## Anpassa pivottabellslayout
+## Anpassa pivottabellens layout
 
 För att göra vår pivottabell mer informativ kan vi anpassa dess layout, som att lägga till filter, sortera och ändra fältpositioner.
 
@@ -101,7 +101,7 @@ Ja, du kan utföra olika beräkningar i pivottabeller, inklusive summa, medelvä
 
 ### Är Aspose.Cells for Java lämplig för stora datamängder?
 
-Ja, Aspose.Cells för Java är utformad för att hantera stora datamängder effektivt. Den tillhandahåller funktioner som datasökning och streaming för att optimera prestanda med betydande mängder data.
+Ja, Aspose.Cells för Java är utformad för att hantera stora datamängder effektivt. Den tillhandahåller funktioner som datasökning och streaming för att optimera prestanda med stora mängder data.
 
 ### Kan jag automatisera dataanalysuppgifter med Aspose.Cells för Java?
 

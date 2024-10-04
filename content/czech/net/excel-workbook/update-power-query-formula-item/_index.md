@@ -47,10 +47,9 @@ V tomto kroku definujeme, kde jsou umístěny naše zdrojové a výstupní soubo
 
 ```csharp
 // Pracovní adresáře
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Zde používáme hypotetickou metodu`RunExamples.Get_SourceDirectory()` pro získání cesty k našim zdrojovým souborům. Podobně,`RunExamples.Get_OutputDirectory()` dostane cestu, kam uložíme náš výstup. Ujistěte se, že tyto metody vracejí platné cesty na vašem počítači.
 
 ## Krok 2: Načtěte sešit
 
@@ -59,7 +58,7 @@ Nyní načteme soubor Excel, kde je umístěn Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- The`Workbook`třída je vaším vstupním bodem do souboru Excel. Předáním cesty k našemu zdrojovému souboru vytváříme instanci, která nám umožňuje s ním manipulovat. Můžete si to představit jako otevření knihy – připravujete se na čtení (nebo úpravu) jejího obsahu.
+ The`Workbook` třída je vaším vstupním bodem do souboru Excel. Předáním cesty k našemu zdrojovému souboru vytváříme instanci, která nám umožňuje s ním manipulovat. Můžete si to představit jako otevření knihy – připravujete se na čtení (nebo úpravu) jejího obsahu.
 
 ## Krok 3: Přístup k Data Mashup
 
@@ -91,7 +90,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 -  V rámci této smyčky se ponoříme do každého`PowerQueryFormulaItem`.
 - Zkontrolujeme, zda se název položky shoduje se „Zdroj“. Pokud ano, aktualizujeme jeho hodnotu, aby odkazovala na náš nový zdrojový soubor.
 
-Je to podobné, jako byste našli správnou stránku v příručce a poté provedli potřebné aktualizace – je to přímočarý a pečlivý proces.
+Je to podobné, jako byste našli správnou stránku v příručce a poté provedli nezbytné aktualizace – je to přímočarý a pečlivý proces.
 
 ## Krok 5: Uložte aktualizovaný sešit
 
@@ -102,7 +101,7 @@ Po provedení aktualizací je čas uložit naše změny.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- The`Save` metoda zapíše aktualizovaný sešit do zadaného výstupního adresáře. Je to jako zapečetění vašich úprav v nové verzi manuálu, připravené pro ostatní!
+ The`Save`metoda zapíše aktualizovaný sešit do zadaného výstupního adresáře. Je to jako zapečetění vašich úprav v nové verzi manuálu, připravené pro ostatní!
 
 ## Závěr
 
@@ -116,7 +115,7 @@ Aspose.Cells je výkonná knihovna pro manipulaci se soubory aplikace Excel v ap
 ### Potřebuji ke spuštění Aspose.Cells Microsoft Excel?
 Ne, Aspose.Cells vám umožňuje vytvářet a upravovat soubory Excelu programově bez nutnosti aplikace Excel na vašem serveru nebo vývojovém počítači.
 
-### jakými typy souborů Excel mohu pracovat pomocí Aspose.Cells?
+### S jakými typy souborů Excel mohu pracovat pomocí Aspose.Cells?
 Pomocí Aspose.Cells můžete pracovat s .xlsx, .xls, .xlsm a několika dalšími formáty aplikace Excel.
 
 ### Je k dispozici zkušební verze pro Aspose.Cells?

@@ -9,7 +9,7 @@ url: /pl/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 ## Wstęp
 
-W świecie obsługi danych arkusze kalkulacyjne są wszędzie — od zarządzania liczbami sprzedaży po organizowanie danych projektu. Ale jak zarządzać tymi plikami, gdy automatyzacja staje się konieczna? Cóż, jeśli pracujesz w .NET, Aspose.Cells to doskonałe narzędzie do programowego manipulowania plikami Excel. W tym artykule przeprowadzimy Cię przez kopiowanie arkusza kalkulacyjnego w pliku Excel przy użyciu Aspose.Cells dla .NET. Jest to typowe zadanie, gdy musisz zduplikować dane w nowych arkuszach bez zaczynania od zera.
+świecie obsługi danych arkusze kalkulacyjne są wszędzie — od zarządzania liczbami sprzedaży po organizowanie danych projektu. Ale jak zarządzać tymi plikami, gdy automatyzacja staje się konieczna? Cóż, jeśli pracujesz w .NET, Aspose.Cells to doskonałe narzędzie do programowego manipulowania plikami Excel. W tym artykule przeprowadzimy Cię przez kopiowanie arkusza kalkulacyjnego w pliku Excel przy użyciu Aspose.Cells dla .NET. Jest to typowe zadanie, gdy musisz zduplikować dane w nowych arkuszach bez zaczynania od zera.
 
 Więc zapnijcie pasy! Zamierzamy zagłębić się w ten proces, ale w sposób prosty, konwersacyjny i jasny.
 
@@ -92,7 +92,7 @@ Teraz ekscytująca część — duplikowanie arkusza kalkulacyjnego! Tutaj skopi
 sheets.AddCopy("Sheet1");
 ```
 
--  Ten`AddCopy`Metoda duplikuje istniejący arkusz (w tym przypadku „Arkusz1”) i dodaje nowy arkusz do skoroszytu.
+-  Ten`AddCopy` Metoda duplikuje istniejący arkusz (w tym przypadku „Arkusz1”) i dodaje nowy arkusz do skoroszytu.
 -  Możesz zastąpić`"Sheet1"` z dowolną nazwą arkusza, który chcesz skopiować.
 
 ## Krok 5: Zapisz skoroszyt
@@ -119,7 +119,7 @@ Kopiowanie arkusza kalkulacyjnego w Aspose.Cells dla .NET jest nie tylko proste,
  Tak, możesz kopiować arkusze kalkulacyjne między różnymi skoroszytami, otwierając oba skoroszyty i używając`AddCopy` metodę między nimi.
 
 ### Jakie formaty plików Excel obsługuje Aspose.Cells?
- Aspose.Cells obsługuje szeroką gamę formatów Excela, w tym:`.xls`, `.xlsx`, `.csv`, `.html`i wiele więcej.
+Aspose.Cells obsługuje szeroką gamę formatów Excela, w tym:`.xls`, `.xlsx`, `.csv`, `.html`i wiele więcej.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Cells dla .NET?
  Tak, aby uniknąć znaków wodnych i odblokować pełny potencjał biblioteki, potrzebujesz ważnej licencji. Możesz jednak poprosić o[bezpłatna licencja tymczasowa](https://purchase.aspose.com/temporary-license) aby wypróbować przed zakupem.

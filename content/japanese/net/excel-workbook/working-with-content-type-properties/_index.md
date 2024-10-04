@@ -37,10 +37,8 @@ Aspose.Cells 機能に簡単にアクセスできるようにするには、C# �
 まず、新しい Excel ファイルを保存する出力ディレクトリを設定しましょう。これにより、プロジェクトを整理しやすくなります。
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
-ここ、`RunExamples.Get_OutputDirectory()`出力ファイルの指定されたパスを取得する関数呼び出しです。このメソッドが定義されており、有効なディレクトリを指していることを確認してください。
 
 ## ステップ2: 新しいワークブックを作成する
 

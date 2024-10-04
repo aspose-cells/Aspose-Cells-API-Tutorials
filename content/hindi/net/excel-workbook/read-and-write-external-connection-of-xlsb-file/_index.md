@@ -40,13 +40,13 @@ using System.Text;
 अपनी XLSB फ़ाइल के साथ काम करने से पहले, आपको अपनी स्रोत और आउटपुट निर्देशिकाएँ सेट अप करनी होंगी। अपनी फ़ाइलों को व्यवस्थित रखने के लिए यह कदम ज़रूरी है।
 
 ```csharp
-//स्रोत निर्देशिका
-string sourceDir = RunExamples.Get_SourceDirectory();
+// स्रोत निर्देशिका
+string sourceDir = "Your Document Directory";
 // आउटपुट निर्देशिका
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- इस कोड स्निपेट में,`RunExamples.Get_SourceDirectory()` और`RunExamples.Get_OutputDirectory()`माना जाता है कि ये विधियाँ आपके इनपुट और आउटपुट फ़ाइलों के लिए संबंधित पथ प्राप्त करती हैं। यदि आप चाहें तो इन विधियों को हार्डकोडेड पथों से बदल सकते हैं।
+ इस कोड स्निपेट में,`"Your Document Directory"` और`"Your Document Directory"`माना जाता है कि ये विधियाँ आपके इनपुट और आउटपुट फ़ाइलों के लिए संबंधित पथ प्राप्त करती हैं। यदि आप चाहें तो इन विधियों को हार्डकोडेड पथों से बदल सकते हैं।
 
 ## चरण 2: XLSB फ़ाइल लोड करें
 

@@ -88,7 +88,7 @@ A B3 cellában "5" lesz, mivel az "Excel"-ben 5 karakter található.
 Cell cell = worksheet.getCells().get("A4");
 cell.putValue("java programming");
 
-// Átalakítás nagybetűsre
+// Átalakítás nagybetűssé
 cell = worksheet.getCells().get("B4");
 cell.setFormula("=UPPER(A4)");
 

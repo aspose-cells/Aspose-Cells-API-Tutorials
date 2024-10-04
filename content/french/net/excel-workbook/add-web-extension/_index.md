@@ -43,10 +43,8 @@ Nous sommes maintenant prêts à ajouter une extension Web à un classeur Excel.
 Vous devez d'abord configurer le répertoire de sortie dans lequel vous allez enregistrer votre classeur modifié. Cela permet de garder vos fichiers organisés.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Ici,`RunExamples.Get_OutputDirectory()` est une méthode qui récupère le chemin d'accès au répertoire de sortie. Vous pouvez le modifier pour qu'il pointe vers n'importe quel emplacement de votre système.
-
 ## Étape 2 : Créer un nouveau classeur
 
 Ensuite, créons une nouvelle instance d'un classeur. C'est là que toute la magie opère !

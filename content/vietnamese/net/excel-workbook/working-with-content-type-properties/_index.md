@@ -37,14 +37,12 @@ Hãy đảm bảo thêm các lệnh using này vào đầu tệp C# của bạn 
 Đầu tiên, hãy thiết lập thư mục đầu ra nơi chúng ta sẽ lưu tệp Excel mới. Điều này sẽ giúp giữ cho dự án của bạn được tổ chức.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Đây,`RunExamples.Get_OutputDirectory()` là lệnh gọi hàm để lấy đường dẫn được chỉ định cho các tệp đầu ra. Đảm bảo phương pháp này được xác định và trỏ đến một thư mục hợp lệ.
 
 ## Bước 2: Tạo một Workbook mới
 
-Bây giờ chúng ta đã có thư mục đầu ra, hãy tạo một sổ làm việc mới.`Workbook` lớp là điểm khởi đầu để xử lý các tệp Excel.
+ Bây giờ chúng ta đã có thư mục đầu ra, hãy tạo một sổ làm việc mới.`Workbook`lớp là điểm khởi đầu để xử lý các tệp Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

@@ -66,7 +66,7 @@ Tiếp theo, chúng ta sẽ tạo một phiên bản của lớp Workbook. Lớp
 Workbook workbook = new Workbook();
 ```
 
- Khi bạn tạo một phiên bản mới của`Workbook`lớp học, về cơ bản bạn đang bắt đầu một trang giấy trắng—sẵn sàng hành động. Hãy nghĩ về việc mở một cuốn sổ tay trống, nơi bạn có thể ghi lại mọi thứ bạn cần.
+ Khi bạn tạo một phiên bản mới của`Workbook` lớp học, về cơ bản bạn đang bắt đầu một trang giấy trắng—sẵn sàng hành động. Hãy nghĩ về việc mở một cuốn sổ tay trống, nơi bạn có thể ghi lại mọi thứ bạn cần.
 
 ## Bước 3: Thêm một bảng tính mới
 
@@ -116,10 +116,10 @@ Với Aspose.Cells, khả năng là vô tận. Bạn có thể thao tác dữ li
 Aspose.Cells for .NET là một thư viện mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 
 ### Tôi có thể thêm nhiều trang tính cùng một lúc không?  
- Vâng, chỉ cần gọi`Add()`phương pháp này nhiều lần và tham chiếu đến từng trang theo mục lục!
+ Vâng, chỉ cần gọi`Add()` phương pháp này nhiều lần và tham chiếu đến từng trang theo mục lục!
 
 ### Có phiên bản dùng thử miễn phí của Aspose.Cells không?  
- Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Tôi có thể định dạng trang tính mới sau khi thêm nó không?  
 Hoàn toàn được! Bạn có thể áp dụng các kiểu, định dạng và thậm chí cả công thức vào bảng tính của mình bằng các tính năng của thư viện.

@@ -11,7 +11,7 @@ url: /cs/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-sp
 
 Programově pracovat se soubory Excelu může někdy připadat jako žonglování s tisíci věcmi najednou, že? Pokud jste někdy potřebovali ovládat šířku panelu karet v excelové tabulce, jste na správném místě! Pomocí Aspose.Cells for .NET můžete snadno manipulovat s různými nastaveními souborů aplikace Excel, jako je například úprava šířky panelu karet listu, díky čemuž bude tabulka přizpůsobenější a uživatelsky přívětivější. Dnes si rozebereme, jak to můžete udělat pomocí jasných a snadno pochopitelných kroků.
 
-tomto tutoriálu probereme vše, co potřebujete vědět o ovládání šířky panelu karet pomocí Aspose.Cells pro .NET – od předpokladů až po podrobného průvodce krok za krokem. Na konci budete ladit nastavení Excelu jako profík. Připraveni? Pojďme se ponořit!
+tomto tutoriálu pokryjeme vše, co potřebujete vědět o ovládání šířky panelu karet pomocí Aspose.Cells pro .NET – od předpokladů až po podrobného průvodce krok za krokem. Na konci budete ladit nastavení Excelu jako profík. Připraveni? Pojďme se ponořit!
 
 ## Předpoklady
 

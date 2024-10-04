@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Most kifejezetten az első oszlopot szeretné zárolni, miközben az összes többi oszlopot szerkeszthetővé kell tenni. Ezt a következőképpen teheti meg:
 
 ```csharp
-//Szerezze meg az első oszlopstílust.
+// Szerezze meg az első oszlopstílust.
 style = sheet.Cells.Columns[0].Style;
 // Zárd be.
 style.IsLocked = true;
-// Példányosítsa a zászlót.
+//Példányosítsa a zászlót.
 flag = new StyleFlag();
 // Állítsa be a zár beállítását.
 flag.Locked = true;

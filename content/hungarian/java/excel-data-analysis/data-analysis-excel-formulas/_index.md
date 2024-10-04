@@ -108,4 +108,4 @@ Igen, az Aspose.Cells támogatja az Excel képleteket különböző nyelveken, �
 
 ### Hol találok további oktatóanyagokat és forrásokat az Aspose.Cells for Java-hoz?
 
- További oktatóanyagokat és dokumentációt tekinthet meg az Aspose.Cells for Java webhelyen[Aspose.Cells Java API referencia](https://reference.aspose.com/cells/java/).
+ További oktatóanyagokat és dokumentációkat tekinthet meg az Aspose.Cells for Java webhelyen[Aspose.Cells Java API referencia](https://reference.aspose.com/cells/java/).

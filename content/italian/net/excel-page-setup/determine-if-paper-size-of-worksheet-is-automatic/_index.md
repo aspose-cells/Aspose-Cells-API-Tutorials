@@ -93,7 +93,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 ## Conclusione 
 
-E proprio così, hai gettato le basi per determinare se il formato carta di un foglio di lavoro è automatico usando Aspose.Cells per .NET! Ti sei dato da fare per importare pacchetti, caricare cartelle di lavoro, accedere a fogli di lavoro e controllare la proprietà del formato carta, tutte competenze essenziali quando si manipolano file Excel a livello di programmazione. Ricorda, più sperimenti con diverse funzionalità di Aspose.Cells, più potenti diventeranno le tue applicazioni.
+proprio così, hai gettato le basi per determinare se il formato carta di un foglio di lavoro è automatico usando Aspose.Cells per .NET! Ti sei dato da fare per importare pacchetti, caricare cartelle di lavoro, accedere a fogli di lavoro e controllare la proprietà del formato carta, tutte competenze essenziali quando si manipolano file Excel a livello di programmazione. Ricorda, più sperimenti con diverse funzionalità di Aspose.Cells, più potenti diventeranno le tue applicazioni.
 
 ## Domande frequenti
 
@@ -104,10 +104,10 @@ Aspose.Cells è una libreria .NET progettata per gestire i file di fogli di calc
 Sì! Aspose.Cells supporta lo sviluppo multipiattaforma, così puoi lavorare in vari ambienti in cui è disponibile .NET.
 
 ### Ho bisogno di una licenza per Aspose.Cells?
-Sebbene tu possa iniziare con una prova gratuita, l'uso continuato richiede una licenza acquistata. Puoi trovare maggiori dettagli[Qui](https://purchase.aspose.com/buy).
+ Sebbene tu possa iniziare con una prova gratuita, l'uso continuato richiede una licenza acquistata. Puoi trovare maggiori dettagli[Qui](https://purchase.aspose.com/buy).
 
 ### Come posso verificare se il formato della carta di un foglio di lavoro è automatico in C#?
- Come mostrato nella guida, puoi controllare il`IsAutomaticPaperSize` proprietà del`PageSetup` classe.
+Come mostrato nella guida, puoi controllare il`IsAutomaticPaperSize` proprietà del`PageSetup` classe.
 
 ### Dove posso trovare maggiori informazioni su Aspose.Cells?
  Puoi trovare documentazione e tutorial completi[Qui](https://reference.aspose.com/cells/net/).

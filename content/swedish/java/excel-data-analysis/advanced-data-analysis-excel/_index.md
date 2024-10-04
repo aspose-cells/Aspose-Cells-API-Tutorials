@@ -1,6 +1,6 @@
 ---
-title: Avancerad dataanalys Excel
-linktitle: Avancerad dataanalys Excel
+title: Avancerad dataanalys i Excel
+linktitle: Avancerad dataanalys i Excel
 second_title: Aspose.Cells Java Excel Processing API
 description: Bemästra avancerad dataanalys i Excel med Aspose.Cells för Java. Lär dig steg för steg, med exempel på källkod.
 type: docs

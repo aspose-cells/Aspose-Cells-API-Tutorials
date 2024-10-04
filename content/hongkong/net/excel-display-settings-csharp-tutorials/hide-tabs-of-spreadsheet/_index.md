@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadshe
 ---
 ## 介紹
 
-以程式設計方式處理 Excel 檔案時，您可能需要隱藏或顯示某些元素（例如標籤）以獲得乾淨、專業的簡報。 Aspose.Cells for .NET 提供了一個簡單有效的方法來實現這一目標。在本教學中，我們將逐步介紹使用 Aspose.Cells for .NET 在 Excel 電子表格中隱藏工作表標籤的過程，從設定環境到儲存最終檔案。到最後，您將完全有能力充滿信心地執行此任務。
+以程式設計方式處理 Excel 檔案時，您可能需要隱藏或顯示某些元素（例如標籤）以獲得乾淨且專業的簡報。 Aspose.Cells for .NET 提供了一個簡單有效的方法來實現這一目標。在本教學中，我們將逐步介紹使用 Aspose.Cells for .NET 在 Excel 電子表格中隱藏工作表標籤的過程，從設定環境到儲存最終檔案。到最後，您將完全有能力充滿信心地執行此任務。
 
 ## 先決條件
 
@@ -36,7 +36,7 @@ using Aspose.Cells;
 在開始任何編碼之前，正確設定開發環境至關重要。
 
 1. 建立新專案：開啟 Visual Studio，建立一個新的控制台應用程式項目，並將其命名為描述性名稱，例如`HideExcelTabs`.
-2. 新增 Aspose.Cells 參考：前往 NuGet 套件管理器並搜尋「Aspose.Cells for .NET」。將其安裝到您的專案中。
+2. 新增 Aspose.Cells 參考：前往 NuGet Package Manager 並搜尋「Aspose.Cells for .NET」。將其安裝到您的專案中。
 或者，如果您離線工作，您可以[下載 Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)並將 DLL 檔案手動新增到您的專案引用中。
 3. 準備Excel檔案：放置您要修改的Excel檔案（例如，`book1.xls`）在您的專案目錄中。確保您知道檔案路徑。
 
@@ -95,7 +95,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功隱藏了 Excel 檔案中的工作表標籤。這個簡單的調整可以讓您的 Excel 文件看起來更加精美和集中，尤其是在與不需要查看所有工作標籤的客戶或團隊成員共享文件時。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功隱藏了 Excel 檔案中的工作表標籤。這個簡單的調整可以讓您的 Excel 文件看起來更加精美和集中，尤其是在與不需要查看所有工作標籤的客戶或團隊成員共享文件時。
 
 使用 Aspose.Cells for .NET，您可以以強大的方式操作 Excel 文件，從隱藏選項卡到建立動態報告、圖表等。如果您是這個工具的新手，請隨時探索[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)了解更深入的特性和功能。
 

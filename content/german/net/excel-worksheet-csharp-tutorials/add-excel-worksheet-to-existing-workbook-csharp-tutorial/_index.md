@@ -80,10 +80,10 @@ int i = workbook.Worksheets.Add();
 
 ## Schritt 5: Erhalten Sie einen Verweis auf das neu hinzugefügte Arbeitsblatt
 
-Sobald wir das neue Arbeitsblatt erstellt haben, ist es wichtig, einen Verweis darauf zu erhalten. Auf diese Weise können wir seine Attribute, wie den Namen des Blattes, anpassen.
+Nachdem wir das neue Arbeitsblatt erstellt haben, ist es wichtig, einen Verweis darauf zu erhalten. Auf diese Weise können wir seine Attribute, wie den Namen des Blattes, anpassen.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 

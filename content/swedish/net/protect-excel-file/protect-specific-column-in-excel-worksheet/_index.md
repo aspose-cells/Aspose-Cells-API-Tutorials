@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Nu vill du låsa den första kolumnen specifikt, samtidigt som du lämnar alla andra kolumner redigerbara. Så här kan du göra detta:
 
 ```csharp
-//Skaffa den första kolumnstilen.
+// Skaffa den första kolumnstilen.
 style = sheet.Cells.Columns[0].Style;
 // Lås den.
 style.IsLocked = true;
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 // Ställ in låsinställningen.
 flag.Locked = true;

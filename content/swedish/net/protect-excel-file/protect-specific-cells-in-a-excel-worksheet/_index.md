@@ -128,7 +128,7 @@ Slutligen, låt oss spara vårt hantverk i en Excel-fil.
 // Spara excel-filen.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
-Detta kommando sparar arbetsboken i den angivna katalogen med filnamnet "output.out.xls". Du kan komma åt den här filen när som helst för att se dina skyddade celler i aktion.
+Detta kommando sparar arbetsboken i den angivna katalogen med filnamnet "output.out.xls". Du kan komma åt den här filen när som helst för att se dina skyddade celler i funktion.
 
 ## Slutsats
 

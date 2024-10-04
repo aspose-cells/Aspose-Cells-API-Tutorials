@@ -37,14 +37,12 @@ Certifique-se de adicionar essas diretivas using no topo do seu arquivo C# para 
 Primeiro, vamos configurar o diretório de saída onde salvaremos nosso novo arquivo Excel. Isso ajudará a manter seu projeto organizado.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Aqui,`RunExamples.Get_OutputDirectory()` é uma chamada de função que recupera um caminho designado para arquivos de saída. Certifique-se de que este método esteja definido e aponte para um diretório válido.
 
 ## Etapa 2: Criar uma nova pasta de trabalho
 
-Agora que temos nosso diretório de saída, vamos criar uma nova pasta de trabalho. O`Workbook` A classe é o ponto de partida para lidar com arquivos do Excel.
+ Agora que temos nosso diretório de saída, vamos criar uma nova pasta de trabalho. O`Workbook` classe é o ponto de partida para lidar com arquivos do Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

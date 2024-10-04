@@ -38,14 +38,14 @@ using System.Text;
 통합 문서를 시작하기 전에 소스 파일이 있는 경로와 출력을 저장할 위치를 설정하는 것이 좋습니다. 방법은 다음과 같습니다.
 
 ```csharp
-//소스 디렉토리
+// 소스 디렉토리
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // 출력 디렉토리
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- 교체를 꼭 해주세요`"YOUR SOURCE DIRECTORY"` 그리고`"YOUR OUTPUT DIRECTORY"` 머신에 실제 경로가 있습니다. 걸작을 만들기 전에 깔끔한 작업 공간을 만드는 것으로 생각하세요!
+ 교체를 꼭 해주세요`"YOUR SOURCE DIRECTORY"` 그리고`"YOUR OUTPUT DIRECTORY"`머신에 실제 경로가 있습니다. 걸작을 만들기 전에 깔끔한 작업 공간을 만드는 것으로 생각하세요!
 
 ## 2단계: 빈 통합 문서 만들기
 

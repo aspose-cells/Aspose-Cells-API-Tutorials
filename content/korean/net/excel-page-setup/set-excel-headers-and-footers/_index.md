@@ -87,7 +87,7 @@ pageSetup.SetHeader(0, "&A");
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- 설명:`&D` 그리고`&T` 코드는 각각 현재 날짜와 시간으로 자동 대체됩니다. 또한 이 헤더의 글꼴은 "Times New Roman"이고 굵게 지정해야 합니다.
+ 설명:`&D` 그리고`&T` 코드는 각각 현재 날짜와 시간으로 자동으로 대체됩니다. 또한 이 헤더의 글꼴은 "Times New Roman"이고 굵게 지정해야 합니다.
 
 ## 5단계: 올바른 헤더 설정
 

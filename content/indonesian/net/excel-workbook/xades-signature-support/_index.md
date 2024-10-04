@@ -41,13 +41,11 @@ Sekarang setelah semuanya disiapkan, mari kita uraikan proses penambahan tanda t
 Pertama, kita perlu menentukan di mana file Excel sumber kita berada dan di mana kita ingin menyimpan file output yang sudah ditandatangani. Ini adalah langkah penting karena membantu dalam mengatur file Anda secara efisien.
 
 ```csharp
-//Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Direktori sumber
+string sourceDir = "Your Document Directory";
 // Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- Dalam potongan kode ini,`RunExamples.Get_SourceDirectory()` Dan`RunExamples.Get_OutputDirectory()` adalah metode yang mengembalikan jalur ke direktori sumber dan direktori keluaran Anda. Pastikan untuk menggantinya dengan jalur sebenarnya jika Anda tidak menggunakan metode ini.
 
 ## Langkah 2: Muat Buku Kerja
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Ganti dengan kata sandi PFX Anda
 string pfx = "pfxFile"; // Ganti dengan jalur ke file PFX Anda
 ```
 
- Pada langkah ini, ganti`pfxPassword` dengan kata sandi Anda yang sebenarnya dan`pfxFile`dengan jalur ke berkas PFX Anda. Ini adalah kunci untuk menandatangani dokumen Anda!
+ Pada langkah ini, ganti`pfxPassword` dengan kata sandi Anda yang sebenarnya dan`pfxFile` dengan jalur ke berkas PFX Anda. Ini adalah kunci untuk menandatangani dokumen Anda!
 
 ## Langkah 4: Buat Tanda Tangan Digital
 
- Sekarang, mari kita membuat tanda tangan digital menggunakan`DigitalSignature` kelas. Di sinilah keajaiban terjadi!
+ Sekarang, mari kita membuat tanda tangan digital menggunakan`DigitalSignature`kelas. Di sinilah keajaiban terjadi!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

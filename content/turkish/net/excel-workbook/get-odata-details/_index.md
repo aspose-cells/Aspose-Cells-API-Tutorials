@@ -61,11 +61,9 @@ Artık geliştirme ortamımızı kurduğumuza göre, Excel dosyamızdan OData ay
 
 ```csharp
 // Kaynak dizini ayarlayın
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Burada,`RunExamples.Get_SourceDirectory()` projenizde örnek dosyanızı içeren klasörün yolunu alan özel bir yöntem olabilir. Gerekirse bunu gerçek yolla değiştirdiğinizden emin olun.
 
 ## Adım 2: Power Query Formüllerine Erişim
 

@@ -9,7 +9,7 @@ url: /sv/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 ## Introduktion
 
-I en värld av datahantering finns kalkylblad överallt – från att hantera försäljningssiffror till att organisera projektdata. Men hur hanterar du dessa filer när automatisering blir nödvändig? Tja, om du arbetar i .NET är Aspose.Cells ett utmärkt verktyg för att manipulera Excel-filer programmatiskt. I den här artikeln guidar vi dig genom att kopiera ett kalkylblad i en Excel-fil med Aspose.Cells för .NET. Detta är en vanlig uppgift när du behöver duplicera data i nya ark utan att börja om från början.
+en värld av datahantering finns kalkylblad överallt – från att hantera försäljningssiffror till att organisera projektdata. Men hur hanterar du dessa filer när automatisering blir nödvändig? Tja, om du arbetar i .NET är Aspose.Cells ett utmärkt verktyg för att manipulera Excel-filer programmatiskt. I den här artikeln guidar vi dig genom att kopiera ett kalkylblad i en Excel-fil med Aspose.Cells för .NET. Detta är en vanlig uppgift när du behöver duplicera data i nya ark utan att börja om från början.
 
 Så, spänn fast! Vi är på väg att dyka djupt in i denna process, men på ett sätt som är enkelt, konversationsrikt och tydligt.
 
@@ -92,7 +92,7 @@ Nu till den spännande delen – duplicera arbetsbladet! Här kopierar vi inneh�
 sheets.AddCopy("Sheet1");
 ```
 
--  De`AddCopy`metod duplicerar ett befintligt kalkylblad (i det här fallet "Sheet1") och lägger till det nya bladet i arbetsboken.
+-  De`AddCopy` metod duplicerar ett befintligt kalkylblad (i det här fallet "Sheet1") och lägger till det nya bladet i arbetsboken.
 -  Du kan byta ut`"Sheet1"` med valfritt arknamn du vill kopiera.
 
 ## Steg 5: Spara arbetsboken
@@ -119,7 +119,7 @@ Att kopiera ett kalkylblad i Aspose.Cells för .NET är inte bara enkelt utan oc
  Ja, du kan kopiera kalkylblad mellan olika arbetsböcker genom att öppna båda arbetsböckerna och använda`AddCopy` metod mellan dem.
 
 ### Vilka Excel-format stöder Aspose.Cells?
- Aspose.Cells stöder ett brett utbud av Excel-format, inklusive`.xls`, `.xlsx`, `.csv`, `.html`, och mer.
+Aspose.Cells stöder ett brett utbud av Excel-format, inklusive`.xls`, `.xlsx`, `.csv`, `.html`, och mer.
 
 ### Behöver jag en licens för att använda Aspose.Cells för .NET?
  Ja, för att undvika vattenstämplar och låsa upp bibliotekets fulla potential behöver du en giltig licens. Du kan dock begära en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license) att prova innan du köper.

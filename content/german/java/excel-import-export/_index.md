@@ -18,7 +18,7 @@ Unsere umfassenden Tutorials führen Sie durch den komplizierten Prozess des Exc
 
 ## Den Umgang mit Excel heute meistern:
 
-Indem Sie die Kunst des Excel-Imports und -Exports mit Aspose.Cells für Java beherrschen, erwerben Sie wertvolle Fähigkeiten. Ob Sie Daten zur Analyse importieren, Berichte erstellen oder den Datenaustausch automatisieren müssen, diese Tutorials vermitteln Ihnen das Wissen, das Sie für die Datenverarbeitung benötigen. Tauchen Sie ein in unsere Tutorials und beginnen Sie noch heute damit, den Excel-Import und -Export mit Aspose.Cells für Java zu meistern!
+Indem Sie die Kunst des Excel-Imports und -Exports mit Aspose.Cells für Java beherrschen, erwerben Sie wertvolle Fähigkeiten. Ob Sie Daten zur Analyse importieren, Berichte erstellen oder den Datenaustausch automatisieren müssen – diese Tutorials vermitteln Ihnen das Wissen, das Sie für die Datenverarbeitung benötigen. Tauchen Sie ein in unsere Tutorials und beginnen Sie noch heute damit, den Excel-Import und -Export mit Aspose.Cells für Java zu meistern!
 
 ## Tutorials zum Importieren und Exportieren von Excel
 ### [Massendatenimport Excel](./bulk-data-import-excel/)

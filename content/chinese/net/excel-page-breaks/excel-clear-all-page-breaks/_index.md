@@ -65,7 +65,7 @@ Workbook workbook = new Workbook();
 ```csharp
 workbook.Worksheets[0].HorizontalPageBreaks.Clear();
 ```
-我们告诉程序清除第一个工作表上的所有水平分页符。这就像清除高处的蜘蛛网一样 — — 让一切变得干净。
+我们告诉程序清除第一个工作表上的所有水平分页符。这就像从高处角落扫除蜘蛛网一样 — — 它可以让一切变得干净。
 
 ## 步骤 4：清除垂直分页符
 

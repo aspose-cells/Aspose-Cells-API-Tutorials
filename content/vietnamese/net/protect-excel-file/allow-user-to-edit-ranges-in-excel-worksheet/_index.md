@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Đầu tiên, thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn mà bạn muốn lưu các tập tin của mình. Mã này kiểm tra xem thư mục có tồn tại không; nếu không, nó sẽ tạo một thư mục.
+ Đầu tiên, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu các tập tin của mình. Mã này kiểm tra xem thư mục có tồn tại không; nếu không, nó sẽ tạo một thư mục.
 
 ## Bước 2: Tạo một Workbook mới
 

@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 // ตั้งค่าไดเรกทอรีแหล่งที่มา
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- ที่นี่,`RunExamples.Get_SourceDirectory()` เป็นวิธีแบบกำหนดเองที่คุณอาจมีในโปรเจ็กต์ของคุณ ซึ่งจะดึงเส้นทางไปยังโฟลเดอร์ที่มีไฟล์ตัวอย่างของคุณ อย่าลืมแทนที่ด้วยเส้นทางจริงหากจำเป็น
 
 ## ขั้นตอนที่ 2: เข้าถึงสูตร Power Query
 

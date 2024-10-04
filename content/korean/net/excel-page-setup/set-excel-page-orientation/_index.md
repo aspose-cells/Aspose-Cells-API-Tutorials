@@ -16,7 +16,7 @@ Excel 파일을 프로그래밍 방식으로 관리하는 경우 Aspose.Cells fo
 시작하기 전에 원활한 경험을 보장하기 위해 몇 가지 사항을 확실히 해두는 것이 중요합니다.
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 여기서 코드를 작성하게 됩니다.
-2. .NET용 Aspose.Cells: .NET용 Aspose.Cells 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/) 아직 하지 않았다면.
+2.  .NET용 Aspose.Cells: .NET용 Aspose.Cells 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/) 아직 하지 않았다면.
 3. C#에 대한 기본 지식: 이 튜토리얼은 C#로 작성되었으므로 C# 프로그래밍 언어에 익숙하면 매우 유익합니다.
 4. 작업 공간: 코딩 환경을 준비하고, 문서를 저장할 디렉토리도 만드세요. 필요할 테니까요!
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- 새로운 것을 만듭니다`Workbook` 마치 노트북에서 새 빈 페이지를 열어서 원하는 정보를 무엇이든 채울 수 있게 된 것과 같습니다!
+ 새로운 것을 만듭니다`Workbook`마치 노트북에서 새 빈 페이지를 열어서 원하는 정보를 무엇이든 채울 수 있게 된 것과 같습니다!
 
 ## 3단계: 첫 번째 워크시트에 액세스
 
@@ -97,13 +97,13 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 .NET용 Aspose.Cells는 생성, 편집, 변환 등의 기능을 갖춘 Excel 파일을 프로그래밍 방식으로 관리하기 위한 강력한 라이브러리입니다.
 
 ### 화면 방향을 가로로도 변경할 수 있나요?
-네! 방향을 설정할 수 있습니다.`PageOrientationType.Landscape` 비슷한 방식으로.
+ 네! 방향을 설정할 수 있습니다.`PageOrientationType.Landscape` 비슷한 방식으로.
 
 ### Aspose.Cells에 대한 지원이 있나요?
  물론입니다! 방문하실 수 있습니다.[지원 포럼](https://forum.aspose.com/c/cells/9) 문의사항이나 도움이 필요하면 으로 연락하세요.
 
 ### Aspose.Cells에 대한 임시 라이선스를 받으려면 어떻게 해야 하나요?
- 임시 라이센스를 요청할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/), 제한 없이 기능을 사용해 볼 수 있습니다.
+ 임시 라이센스를 요청할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/)제한 없이 기능을 사용해 볼 수 있습니다.
 
 ### Aspose.Cells는 대용량 Excel 파일을 처리할 수 있나요?
 네, Aspose.Cells는 대용량 파일을 처리하도록 최적화되어 있으며 다양한 작업을 효율적으로 수행할 수 있습니다.

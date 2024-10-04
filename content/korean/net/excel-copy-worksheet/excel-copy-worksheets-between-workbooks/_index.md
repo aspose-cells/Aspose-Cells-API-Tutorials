@@ -20,7 +20,7 @@ Excel 통합 문서 간에 워크시트를 수동으로 복사하는 자신을 �
 -  유효한 면허증 또는[임시 면허](https://purchase.aspose.com/temporary-license/) Aspose.Cells의 전체 기능을 테스트하고 싶다면
 - C# 및 .NET 프레임워크에 대한 기본적인 이해.
 
- 또한 다음을 확인할 수도 있습니다.[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/)자세한 내용은.
+ 또한 다음을 확인할 수도 있습니다.[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 자세한 내용은.
 
 ## 패키지 가져오기
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 마지막으로, 복사된 워크시트와 함께 두 번째 워크북을 저장합니다. 이것은 컴퓨터의 새 폴더에 새로 쓴 노트를 저장하는 것과 같습니다.
 
 ```csharp
-// 파일을 저장합니다.
+//파일을 저장합니다.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

@@ -20,7 +20,7 @@ Zanim zagłębimy się w kod, upewnijmy się, że dysponujesz odpowiednimi narz�
 -  Ważne prawo jazdy lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli chcesz przetestować pełną funkcjonalność Aspose.Cells.
 - Podstawowa znajomość języka C# i platformy .NET.
 
- Możesz również sprawdzić[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/)po więcej szczegółów.
+ Możesz również sprawdzić[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) po więcej szczegółów.
 
 ## Importuj pakiety
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Na koniec zapiszesz drugi skoroszyt z skopiowanym arkuszem. To tak, jakbyś zapisywał swoje nowo napisane notatki w nowym folderze na swoim komputerze.
 
 ```csharp
-// Zapisz plik.
+//Zapisz plik.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -94,7 +94,7 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 
 ## Wniosek
 
-to wszystko! Udało Ci się skopiować arkusz kalkulacyjny z jednego skoroszytu programu Excel do drugiego przy użyciu Aspose.Cells dla .NET. To prosty proces, który oszczędza Ci ręcznego kopiowania i wklejania, zwłaszcza podczas pracy ze złożonymi lub dużymi arkuszami kalkulacyjnymi. Aspose.Cells dla .NET to potężne narzędzie, które pozwala Ci z łatwością manipulować plikami programu Excel, niezależnie od tego, czy kopiujesz arkusze, łączysz skoroszyty, czy wykonujesz bardziej zaawansowane zadania.
+I to wszystko! Udało Ci się skopiować arkusz kalkulacyjny z jednego skoroszytu programu Excel do drugiego przy użyciu Aspose.Cells dla .NET. To prosty proces, który oszczędza Ci ręcznego kopiowania i wklejania, zwłaszcza podczas pracy ze złożonymi lub dużymi arkuszami kalkulacyjnymi. Aspose.Cells dla .NET to potężne narzędzie, które pozwala Ci z łatwością manipulować plikami programu Excel, niezależnie od tego, czy kopiujesz arkusze, łączysz skoroszyty, czy wykonujesz bardziej zaawansowane zadania.
 
 Pamiętaj, kodowanie staje się łatwiejsze, gdy rozbijesz je na mniejsze kroki. Więc następnym razem, gdy będziesz musiał zarządzać plikami Excela, będziesz przygotowany, aby poradzić sobie z tym jak profesjonalista.
 

@@ -42,12 +42,10 @@ Nous diviserons nos tâches en étapes gérables pour garantir la clarté.
 Dans cette étape, nous devons définir où seront situés nos fichiers d’entrée et de sortie.
 
 ```csharp
-//Répertoire des sources
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Répertoire des sources
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Ici, nous utilisons des méthodes utilitaires`Get_SourceDirectory()` et`Get_OutputDirectory()` pour définir facilement nos chemins de fichiers. Vous pouvez personnaliser ces chemins en fonction de la structure de votre répertoire.
 
 ## Étape 2 : créer un objet de conception de classeur
 
@@ -78,7 +76,7 @@ Maintenant, vous devez vous assurer que les paramètres du classeur sont configu
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- En définissant`QuotePrefixToStyle`pour false, nous demandons à Aspose.Cells de traiter les apostrophes de début comme des caractères normaux, ce qui nous permet de les gérer avec précision dans notre sortie.
+ En définissant`QuotePrefixToStyle` pour false, nous demandons à Aspose.Cells de traiter les apostrophes de début comme des caractères normaux, ce qui nous permet de les gérer avec précision dans notre sortie.
 
 ## Étape 5 : Charger les données pour les marqueurs intelligents
 
@@ -146,7 +144,7 @@ Désormais, que vous génériez des rapports, créiez des fonctionnalités d'ana
 Aspose.Cells est une puissante bibliothèque .NET permettant de créer, de manipuler et de convertir des fichiers Excel dans plusieurs formats par programmation.
 
 ### Puis-je utiliser Aspose.Cells gratuitement ?
- Oui, vous pouvez utiliser Aspose.Cells en vous inscrivant pour un essai gratuit[ici](https://releases.aspose.com/).
+Oui, vous pouvez utiliser Aspose.Cells en vous inscrivant pour un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Comment puis-je obtenir de l'aide pour Aspose.Cells ?
  Vous pouvez trouver de l'aide et poser des questions sur le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).

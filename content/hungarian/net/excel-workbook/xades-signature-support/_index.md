@@ -41,13 +41,11 @@ Most, hogy mindent beállítottunk, bontsuk le a Xades-aláírás Excel-fájlhoz
 Először is meg kell határoznunk, hogy hol található a forrás Excel fájlunk, és hova szeretnénk menteni az aláírt kimeneti fájlt. Ez döntő lépés, mert segít a fájlok hatékony rendszerezésében.
 
 ```csharp
-//Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Forrás könyvtár
+string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- Ebben a kódrészletben`RunExamples.Get_SourceDirectory()` és`RunExamples.Get_OutputDirectory()` olyan metódusok, amelyek visszaadják a forrás- és kimeneti könyvtár elérési útját. Ha nem használja ezeket a módszereket, feltétlenül cserélje ki ezeket a tényleges elérési utakra.
 
 ## 2. lépés: Töltse be a munkafüzetet
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Cserélje ki a PFX jelszavát
 string pfx = "pfxFile"; // Cserélje ki a PFX fájl elérési útját
 ```
 
- Ebben a lépésben cserélje ki`pfxPassword` valódi jelszavával és`pfxFile` PFX fájl elérési útjával. Ez a kulcs a dokumentum aláírásához!
+ Ebben a lépésben cserélje ki`pfxPassword` valódi jelszavával és`pfxFile` a PFX fájl elérési útjával. Ez a kulcs a dokumentum aláírásához!
 
 ## 4. lépés: Hozza létre a digitális aláírást
 
- Most hozzuk létre a digitális aláírást a`DigitalSignature` osztály. Itt történik a varázslat!
+ Most hozzuk létre a digitális aláírást a`DigitalSignature`osztály. Itt történik a varázslat!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

@@ -43,10 +43,8 @@ Bây giờ chúng ta đã sẵn sàng để thêm Web Extension vào bảng tín
 Trước tiên, bạn cần thiết lập thư mục đầu ra nơi bạn sẽ lưu sổ làm việc đã sửa đổi của mình. Điều này giúp giữ cho các tệp của bạn được sắp xếp.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Đây,`RunExamples.Get_OutputDirectory()` là phương pháp lấy đường dẫn đến thư mục đầu ra. Bạn có thể sửa đổi điều này để trỏ đến bất kỳ vị trí nào trên hệ thống của bạn.
-
 ## Bước 2: Tạo một Workbook mới
 
 Tiếp theo, hãy tạo một phiên bản mới của Workbook. Đây chính là nơi mọi điều kỳ diệu xảy ra!

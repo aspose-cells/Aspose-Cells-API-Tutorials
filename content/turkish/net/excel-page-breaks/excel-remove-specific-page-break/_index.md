@@ -105,7 +105,7 @@ Açıklama: Burada çalışma kitabını yeni bir adla kaydediyoruz (`RemoveSpec
 ## SSS
 
 ### Birden fazla sayfa sonunu aynı anda kaldırabilir miyim?  
-Evet, yapabilirsiniz! Sadece döngüden geçin`HorizontalPageBreaks` Ve`VerticalPageBreaks` koleksiyonlar ve kullanım`RemoveAt` yöntem.
+Evet, yapabilirsiniz! Sadece döngüden geçin`HorizontalPageBreaks` Ve`VerticalPageBreaks` koleksiyonlar ve kullanım`RemoveAt` Yöntem.
 
 ### Sayfa sonları için hangi dizini kullanacağımı nasıl bileceğim?  
 Sayfa sonları arasında, dizinlerini yazdırmak veya hata ayıklayıcı aracılığıyla incelemek için bir döngü kullanarak yineleme yapabilirsiniz.

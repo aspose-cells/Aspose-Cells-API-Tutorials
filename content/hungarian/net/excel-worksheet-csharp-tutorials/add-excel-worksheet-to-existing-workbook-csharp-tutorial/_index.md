@@ -20,7 +20,7 @@ Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy minden megvan, a
 3. A C# alapvető ismerete: A C# programozási nyelv ismerete segít a könnyebb követésben. Ne aggódj; lépésről lépésre végigvezetjük a folyamatokon!
 4. Dokumentumok könyvtára: Győződjön meg arról, hogy van egy mappa a számítógépén, ahol tárolhatja az oktatóanyag Excel-fájljait. 
 
-Minden megvan a listán? Nagy! Most importáljuk a szükséges csomagokat.
+Megvan minden a listán? Nagy! Most importáljuk a szükséges csomagokat.
 
 ## Csomagok importálása
 
@@ -109,7 +109,7 @@ A módosítások befejeztével ideje elmenteni munkafüzetünket. Ez a lépés v
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Itt a munkafüzetünket másként mentjük`output.out.xls`. Ezt a fájlt bárminek elnevezheti; csak győződjön meg arról, hogy a megfelelő könyvtárba menti.
+ Itt mentjük a munkafüzetünket másként`output.out.xls`. Ezt a fájlt bárminek nevezheti; csak győződjön meg arról, hogy a megfelelő könyvtárba menti.
 
 ## 8. lépés: Zárja be a Fájlfolyamot
 

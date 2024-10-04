@@ -106,7 +106,7 @@ A tady to máte! Úspěšně jste nastavili číslo první stránky listu aplika
 ### Co je Aspose.Cells?
 Aspose.Cells je knihovna .NET určená pro vytváření, manipulaci a konverzi souborů aplikace Excel bez nutnosti instalace aplikace Microsoft Excel na vašem počítači.
 
-### Jak si stáhnu Aspose.Cells?
+### Jak stáhnu Aspose.Cells?
  Aspose.Cells si můžete stáhnout z[webové stránky](https://releases.aspose.com/cells/net/).
 
 ### Existuje bezplatná verze Aspose.Cells?

@@ -85,7 +85,7 @@ Jetzt verfügen Sie über die Grundlage, um dynamische Berichte zu erstellen, di
 
 ### 1. Was ist der Vorteil der Verwendung von Aspose.Cells für Java?
 
-Aspose.Cells für Java bietet einen umfassenden Satz an Funktionen für die programmgesteuerte Arbeit mit Excel-Dateien. Sie können damit mühelos Excel-Dateien erstellen, bearbeiten und manipulieren, was es zu einem wertvollen Tool für dynamische Berichte macht.
+Aspose.Cells für Java bietet einen umfassenden Satz von Funktionen für die programmgesteuerte Arbeit mit Excel-Dateien. Sie können damit mühelos Excel-Dateien erstellen, bearbeiten und manipulieren, was es zu einem wertvollen Tool für dynamische Berichte macht.
 
 ### 2. Kann ich dynamische Excel-Berichte mit anderen Datenquellen integrieren?
 

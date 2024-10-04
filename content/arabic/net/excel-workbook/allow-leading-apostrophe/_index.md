@@ -42,12 +42,10 @@ using System.Collections.Generic;
 في هذه الخطوة، نحتاج إلى تحديد المكان الذي سيتم فيه وضع ملفات الإدخال والإخراج.
 
 ```csharp
-//دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// دليل المصدر
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- هنا، نحن نستخدم أساليب المنفعة`Get_SourceDirectory()` و`Get_OutputDirectory()` لتعيين مسارات الملفات الخاصة بنا بشكل ملائم. يمكنك تخصيص هذه المسارات وفقًا لهيكل الدليل الخاص بك.
 
 ## الخطوة 2: إنشاء كائن مصمم للمصنف
 
@@ -78,7 +76,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- عن طريق الإعداد`QuotePrefixToStyle`إلى false، فإننا نوجه Aspose.Cells لمعالجة علامات الاقتباس الرئيسية كأحرف عادية، مما يسمح لنا بالتعامل معها بدقة في مخرجاتنا.
+ عن طريق الإعداد`QuotePrefixToStyle` إلى false، فإننا نوجه Aspose.Cells لمعالجة علامات الاقتباس الرئيسية كأحرف عادية، مما يسمح لنا بالتعامل معها بدقة في مخرجاتنا.
 
 ## الخطوة 5: تحميل البيانات للعلامات الذكية
 
@@ -146,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells عبارة عن مكتبة .NET قوية لإنشاء ملفات Excel ومعالجتها وتحويلها بتنسيقات متعددة برمجيًا.
 
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟
- نعم، يمكنك استخدام Aspose.Cells عن طريق التسجيل للحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+نعم، يمكنك استخدام Aspose.Cells عن طريق التسجيل للحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Cells؟
  يمكنك العثور على المساعدة وطرح الأسئلة على[منتدى دعم Aspose](https://forum.aspose.com/c/cells/9).

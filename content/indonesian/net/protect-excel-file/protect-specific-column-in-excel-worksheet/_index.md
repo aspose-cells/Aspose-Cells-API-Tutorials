@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Sekarang, Anda ingin mengunci kolom pertama secara khusus, sementara membiarkan semua kolom lainnya dapat diedit. Berikut cara melakukannya:
 
 ```csharp
-//Dapatkan gaya kolom pertama.
+// Dapatkan gaya kolom pertama.
 style = sheet.Cells.Columns[0].Style;
 // Kunci itu.
 style.IsLocked = true;
-// Buatlah contoh bendera.
+//Buatlah contoh bendera.
 flag = new StyleFlag();
 // Atur pengaturan kunci.
 flag.Locked = true;

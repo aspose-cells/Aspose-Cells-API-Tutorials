@@ -17,7 +17,7 @@ Voordat we ons vol overgave in ons codeeravontuur storten, nemen we even de tijd
 
 1. Visual Studio: Zorg ervoor dat u Visual Studio hebt geïnstalleerd, aangezien dit de ontwikkelomgeving is die we gaan gebruiken.
 2. .NET Framework: Zorg ervoor dat uw project is ingesteld met het .NET Framework dat compatibel is met Aspose.Cells. Over het algemeen werken .NET Core of .NET Framework 4.5 en hoger.
-3. Aspose.Cells-bibliotheek: U hebt Aspose.Cells voor .NET nodig. U kunt[download het hier](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells-bibliotheek: U hebt Aspose.Cells voor .NET nodig. U kunt[download het hier](https://releases.aspose.com/cells/net/).
 4. Basiskennis van C#: Kennis van de syntaxis en structuur van C# is essentieel, aangezien we in deze handleiding codesegmenten gaan schrijven.
 
 Zodra u aan deze vereisten voldoet, bent u klaar om aan de slag te gaan met Excel-bewerkingen!
@@ -39,7 +39,7 @@ Laten we nu het proces van het instellen van een Excel-afdrukgebied stap voor st
 
 Maak een variabele om de locatie van uw Excel-documenten op te geven. 
 
-Wanneer u aan een project werkt, is het essentieel om een gedefinieerd pad te hebben waar uw bestanden zich bevinden of worden opgeslagen. In ons geval definiëren we een variabele met de naam`dataDir` als volgt:
+ Wanneer u aan een project werkt, is het essentieel om een gedefinieerd pad te hebben waar uw bestanden zich bevinden of worden opgeslagen. In ons geval definiëren we een variabele met de naam`dataDir` als volgt:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

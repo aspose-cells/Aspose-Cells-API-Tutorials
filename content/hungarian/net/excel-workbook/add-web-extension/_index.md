@@ -43,10 +43,8 @@ Készen állunk arra, hogy webbővítményt adjunk egy Excel-munkafüzethez. Kö
 Először is be kell állítania a kimeneti könyvtárat, ahová a módosított munkafüzetet menteni fogja. Ez segít a fájlok rendszerezésében.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Itt,`RunExamples.Get_OutputDirectory()` egy olyan módszer, amely lekéri a kimeneti könyvtár elérési útját. Ezt módosíthatja úgy, hogy a rendszer bármely pontjára mutasson.
-
 ## 2. lépés: Hozzon létre egy új munkafüzetet
 
 Ezután hozzuk létre a munkafüzet új példányát. Itt történik minden varázslat!

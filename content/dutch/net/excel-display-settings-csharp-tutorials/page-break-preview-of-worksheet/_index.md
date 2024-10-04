@@ -41,7 +41,7 @@ using Aspose.Cells;
 Open uw Visual Studio of IDE en maak een nieuw C#-bestand als u dat nog niet hebt gedaan. Dit is waar we onze implementatiecode zullen schrijven.
 
 
-Laten we nu stap voor stap de code voor het inschakelen van een voorbeeld van een pagina-einde in Excel-bestanden uitleggen.
+Laten we nu stap voor stap de code voor het inschakelen van een pagina-eindevoorbeeld in Excel-bestanden uitsplitsen.
 
 ## Stap 1: Stel het directorypad in
 
@@ -109,7 +109,7 @@ Tot slot is het een goede gewoonte om resources op te schonen. Het sluiten van d
 
 ## Conclusie
 
-En daar heb je het! Je hebt de pagina-einde preview voor een werkblad succesvol ingeschakeld met Aspose.Cells voor .NET. Deze functie kan je vermogen om afdruklay-outs te beheren aanzienlijk verbeteren, waardoor het gemakkelijker wordt om je gegevens op een gestructureerde manier te presenteren. Of je nu rapporten genereert of gegevens voorbereidt voor afdrukken, Aspose.Cells biedt je de tools die je nodig hebt om je creativiteit en productiviteit de vrije loop te laten. Dus waar wacht je nog op? Duik in je volgende Excel-project met Aspose.Cells en zie hoe het je workflow transformeert!
+En daar heb je het! Je hebt de pagina-einde preview voor een werkblad succesvol ingeschakeld met Aspose.Cells voor .NET. Deze functie kan je vermogen om afdruklay-outs te beheren aanzienlijk verbeteren, waardoor het gemakkelijker wordt om je gegevens op een gestructureerde manier te presenteren. Of je nu rapporten genereert of gegevens voorbereidt voor afdrukken, Aspose.Cells biedt je de tools die je nodig hebt om je creativiteit en productiviteit de vrije loop te laten. Dus, waar wacht je nog op? Duik in je volgende Excel-project met Aspose.Cells en zie hoe het je workflow transformeert!
 
 ## Veelgestelde vragen
 

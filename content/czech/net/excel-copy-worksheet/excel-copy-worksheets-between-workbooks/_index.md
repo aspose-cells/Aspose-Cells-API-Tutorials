@@ -20,7 +20,7 @@ Než se ponoříme do kódu, ujistěte se, že jste vybaveni správnými nástro
 -  Platná licence nebo a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud chcete otestovat plnou funkčnost Aspose.Cells.
 - Základní znalost C# a .NET frameworku.
 
- Můžete se také podívat na[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/)pro další podrobnosti.
+ Můžete se také podívat na[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro další podrobnosti.
 
 ## Importujte balíčky
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Nakonec uložíte druhý sešit se zkopírovaným listem. Je to jako ukládání nově napsaných poznámek do nové složky v počítači.
 
 ```csharp
-// Uložte soubor.
+//Uložte soubor.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -94,7 +94,7 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 
 ## Závěr
 
-je to! Úspěšně jste zkopírovali list z jednoho sešitu aplikace Excel do druhého pomocí Aspose.Cells for .NET. Je to přímočarý proces, který vás ušetří ručního kopírování a vkládání, zejména při práci se složitými nebo velkými tabulkami. Aspose.Cells for .NET je výkonný nástroj, který vám umožní snadno manipulovat se soubory aplikace Excel, ať už kopírujete listy, spojujete sešity nebo provádíte pokročilejší úkoly.
+A je to! Úspěšně jste zkopírovali list z jednoho sešitu aplikace Excel do druhého pomocí Aspose.Cells for .NET. Je to přímočarý proces, který vás ušetří ručního kopírování a vkládání, zejména při práci se složitými nebo velkými tabulkami. Aspose.Cells for .NET je výkonný nástroj, který vám umožní snadno manipulovat se soubory aplikace Excel, ať už kopírujete listy, spojujete sešity nebo provádíte pokročilejší úkoly.
 
 Pamatujte, že kódování se zjednoduší, když jej rozdělíte na menší kroky. Takže až budete příště potřebovat spravovat své soubory Excel, budete připraveni s tím zacházet jako profesionál.
 

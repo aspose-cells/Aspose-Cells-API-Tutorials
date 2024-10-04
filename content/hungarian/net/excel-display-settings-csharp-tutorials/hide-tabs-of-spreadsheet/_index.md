@@ -107,10 +107,10 @@ Az Aspose.Cells for .NET segítségével hatékonyan kezelheti az Excel-fájloka
 ### Hogyan tekinthetem meg a rejtett lapok előnézetét az Excelben?  
  Válthat a`ShowTabs` tulajdon vissza`true` ugyanazt a kódszerkezetet használja, ha meg kell tekintenie vagy vissza kell állítania a lapokat.
 
-### A lapok elrejtése hatással lesz a munkafüzet adataira vagy funkcióira?  
+### A lapok elrejtése befolyásolja-e a munkafüzet adatait vagy funkcióit?  
 Nem, a lapok elrejtése csak a vizuális megjelenést változtatja meg. A munkafüzet adatai és funkciói változatlanok maradnak.
 
-### Elrejthetem a lapokat más fájlformátumokban, például CSV vagy PDF formátumban?  
+### Elrejthetem a lapokat más fájlformátumokban, például CSV vagy PDF fájlokban?  
  Nem, a lapok elrejtése az Excel fájlformátumokra jellemző, mint pl`.xls` és`.xlsx`Az olyan fájlformátumok, mint a CSV és a PDF, eleve nem támogatják a lapokat.
 
 ### Az Aspose.Cells a legjobb eszköz az Excel-fájlok programozott kezeléséhez?  

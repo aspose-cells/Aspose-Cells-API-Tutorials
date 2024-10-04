@@ -124,7 +124,7 @@ wb.Save(dataDir + "MoveWorksheet_out.xls");
  물론이죠! 할 수 있어요[무료 체험판을 다운로드하세요](https://releases.aspose.com/) 그 기능을 살펴보세요.
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
- 방문할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)질문하고 해결책을 찾으세요.
+ 방문할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 질문하고 해결책을 찾으세요.
 
 ### Aspose.Cells를 사용하여 Excel 보고서를 생성할 수 있나요?
 네! Aspose.Cells는 복잡한 Excel 보고서를 매끄럽게 만들고 생성하는 강력한 기능을 제공합니다.

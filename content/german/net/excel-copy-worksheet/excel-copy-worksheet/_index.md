@@ -92,7 +92,7 @@ Jetzt kommt der spannende Teil – das Duplizieren des Arbeitsblatts! Hier kopie
 sheets.AddCopy("Sheet1");
 ```
 
--  Der`AddCopy`Die Methode dupliziert ein vorhandenes Arbeitsblatt (in diesem Fall „Sheet1“) und fügt das neue Blatt der Arbeitsmappe hinzu.
+-  Der`AddCopy` Die Methode dupliziert ein vorhandenes Arbeitsblatt (in diesem Fall „Sheet1“) und fügt das neue Blatt der Arbeitsmappe hinzu.
 -  Sie können ersetzen`"Sheet1"` durch einen beliebigen Blattnamen, den Sie kopieren möchten.
 
 ## Schritt 5: Speichern der Arbeitsmappe
@@ -119,7 +119,7 @@ Das Kopieren eines Arbeitsblatts in Aspose.Cells für .NET ist nicht nur unkompl
  Ja, Sie können Arbeitsblätter zwischen verschiedenen Arbeitsmappen kopieren, indem Sie beide Arbeitsmappen öffnen und die`AddCopy` Methode zwischen ihnen.
 
 ### Welche Excel-Formate unterstützt Aspose.Cells?
- Aspose.Cells unterstützt eine Vielzahl von Excel-Formaten, darunter`.xls`, `.xlsx`, `.csv`, `.html`, und mehr.
+Aspose.Cells unterstützt eine Vielzahl von Excel-Formaten, darunter`.xls`, `.xlsx`, `.csv`, `.html`, und mehr.
 
 ### Benötige ich eine Lizenz, um Aspose.Cells für .NET zu verwenden?
  Ja, um Wasserzeichen zu vermeiden und das volle Potenzial der Bibliothek auszuschöpfen, benötigen Sie eine gültige Lizenz. Sie können jedoch eine[kostenlose temporäre Lizenz](https://purchase.aspose.com/temporary-license) um es vor dem Kauf auszuprobieren.

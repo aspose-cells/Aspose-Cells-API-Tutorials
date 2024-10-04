@@ -47,13 +47,13 @@ Pojďme si věci rozdělit do zvládnutelných kroků. Provedeme vás procesem n
 Nejprve musíme určit, kde se nachází náš vstupní soubor Excel, a také kam chceme uložit výstupní soubor po provedení nezbytných změn.
 
 ```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Zdrojový adresář
+string sourceDir = "Your Document Directory";
 // Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Zde,`RunExamples.Get_SourceDirectory()` a`RunExamples.Get_OutputDirectory()` jsou pomocné funkce, které vám pomohou pohodlně uchopit zdrojové a výstupní cesty. Ujistěte se, že váš zdrojový adresář obsahuje soubor s názvem`SampleRegexReplace.xlsx` pro tento příklad.
+ Zde,`"Your Document Directory"` a`"Your Document Directory"` jsou pomocné funkce, které vám pomohou pohodlně uchopit zdrojové a výstupní cesty. Ujistěte se, že váš zdrojový adresář obsahuje soubor s názvem`SampleRegexReplace.xlsx` pro tento příklad.
 
 ## Krok 2: Načtení sešitu
 
@@ -120,7 +120,7 @@ A tady to máte! Úspěšně jste se naučili, jak používat Aspose.Cells for .
 ## FAQ 
 
 ### Co je Regex?  
-Regulární výrazy jsou výkonnými nástroji pro porovnávání řetězců a manipulaci, které umožňují složité vzorce vyhledávání.
+Regulární výrazy jsou výkonnými nástroji pro porovnávání řetězců a manipulaci s nimi, které umožňují složité vzorce vyhledávání.
 
 ### Mohu použít Aspose.Cells pro jiné typy manipulací?  
 Absolutně! Aspose.Cells je robustní knihovna, která nabízí rozsáhlé funkce pro vytváření, úpravu a konverzi souborů aplikace Excel.

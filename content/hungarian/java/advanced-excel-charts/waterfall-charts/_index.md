@@ -107,4 +107,4 @@ Természetesen további adatsorokat is hozzáadhat a vízesés-diagramhoz, hogy 
 
 ### Hol találok további forrásokat és példákat az Aspose.Cells for Java-hoz?
 
- Az Aspose.Cells for Java dokumentációját itt tekintheti meg[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és kódpéldákért.
+ Az Aspose.Cells for Java dokumentációját itt tekintheti meg[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) mélyreható információkért és kódpéldákért.

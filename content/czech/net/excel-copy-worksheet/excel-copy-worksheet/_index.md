@@ -92,7 +92,7 @@ Nyní k té vzrušující části – duplikování pracovního listu! Zde zkop�
 sheets.AddCopy("Sheet1");
 ```
 
--  The`AddCopy`metoda duplikuje existující list (v tomto případě "List1") a přidá nový list do sešitu.
+-  The`AddCopy` metoda duplikuje existující list (v tomto případě "List1") a přidá nový list do sešitu.
 -  Můžete vyměnit`"Sheet1"` s libovolným názvem listu, který chcete zkopírovat.
 
 ## Krok 5: Uložte sešit
@@ -119,7 +119,7 @@ Kopírování listu v Aspose.Cells pro .NET je nejen jednoduché, ale také vyso
  Ano, můžete kopírovat listy mezi různými sešity otevřením obou sešitů a použitím`AddCopy` metoda mezi nimi.
 
 ### Jaké formáty aplikace Excel podporuje Aspose.Cells?
- Aspose.Cells podporuje širokou škálu formátů aplikace Excel, včetně`.xls`, `.xlsx`, `.csv`, `.html`a další.
+Aspose.Cells podporuje širokou škálu formátů aplikace Excel, včetně`.xls`, `.xlsx`, `.csv`, `.html`a další.
 
 ### Potřebuji licenci k používání Aspose.Cells pro .NET?
  Ano, abyste se vyhnuli vodoznakům a odemkli plný potenciál knihovny, potřebujete platnou licenci. Můžete však požádat a[dočasná licence zdarma](https://purchase.aspose.com/temporary-license) před nákupem vyzkoušet.

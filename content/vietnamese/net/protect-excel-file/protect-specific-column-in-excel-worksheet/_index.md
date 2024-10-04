@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Bây giờ, bạn sẽ muốn khóa cụ thể cột đầu tiên, trong khi vẫn để tất cả các cột khác có thể chỉnh sửa. Sau đây là cách bạn có thể thực hiện:
 
 ```csharp
-//Lấy kiểu cột đầu tiên.
+// Lấy kiểu cột đầu tiên.
 style = sheet.Cells.Columns[0].Style;
 // Khóa nó lại.
 style.IsLocked = true;
-// Tạo cờ.
+//Tạo cờ.
 flag = new StyleFlag();
 // Thiết lập cài đặt khóa.
 flag.Locked = true;

@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Nun möchten Sie die erste Spalte sperren, alle anderen Spalten aber editierbar lassen. So geht's:
 
 ```csharp
-//Holen Sie sich den Stil der ersten Spalte.
+// Holen Sie sich den Stil der ersten Spalte.
 style = sheet.Cells.Columns[0].Style;
 // Sperren Sie es.
 style.IsLocked = true;
-// Instanziieren Sie die Flagge.
+//Instanziieren Sie die Flagge.
 flag = new StyleFlag();
 // Legen Sie die Sperreinstellung fest.
 flag.Locked = true;
@@ -137,7 +137,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Abschluss
 
-Indem Sie die oben beschriebenen Schritte befolgen, haben Sie erfolgreich bestimmte Spalten in einem Excel-Arbeitsblatt geschützt, während andere Teile bearbeitbar bleiben. Die Verwendung von Aspose.Cells für .NET eröffnet eine Welt voller Möglichkeiten bei der Bearbeitung von Excel-Dateien. Diese Fähigkeit, vertrauliche Informationen zu schützen, ist besonders in gemeinsam genutzten Arbeitsumgebungen von entscheidender Bedeutung. 
+Indem Sie die oben beschriebenen Schritte befolgen, haben Sie erfolgreich bestimmte Spalten in einem Excel-Arbeitsblatt geschützt, während andere Teile bearbeitbar bleiben. Die Verwendung von Aspose.Cells für .NET eröffnet eine Welt voller Möglichkeiten bei der Bearbeitung von Excel-Dateien. Diese Fähigkeit, vertrauliche Informationen abzuschirmen, ist besonders in gemeinsam genutzten Arbeitsumgebungen von entscheidender Bedeutung. 
 
 ## Häufig gestellte Fragen
 

@@ -53,7 +53,7 @@ using System;
 
 ```csharp
 // تحديد دليل المصدر
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 يشير هذا السطر إلى الدليل الذي يحتوي على ملف Excel. تأكد من ضبط المسار وفقًا لموقع الملف.
@@ -132,7 +132,7 @@ Console.WriteLine("DetectLinkTypes executed successfully.");
 ## الأسئلة الشائعة
 
 ### ما هو Aspose.Cells لـ .NET؟  
-Aspose.Cells for .NET عبارة عن مكتبة قوية تتيح للمطورين التعامل مع ملفات Excel في تطبيقات .NET دون الحاجة إلى تثبيت Microsoft Excel.
+Aspose.Cells for .NET هي مكتبة قوية تتيح للمطورين التعامل مع ملفات Excel في تطبيقات .NET دون الحاجة إلى تثبيت Microsoft Excel.
 
 ### كيف أقوم بتثبيت Aspose.Cells؟  
 بإمكانك تثبيت Aspose.Cells عبر NuGet في Visual Studio عن طريق البحث عن "Aspose.Cells" في خيار إدارة حزم NuGet.

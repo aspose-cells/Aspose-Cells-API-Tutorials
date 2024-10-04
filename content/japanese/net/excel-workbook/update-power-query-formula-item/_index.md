@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 //作業ディレクトリ
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-ここでは仮説的な方法を採用しています`RunExamples.Get_SourceDirectory()`ソースファイルへのパスを取得します。同様に、`RunExamples.Get_OutputDirectory()`出力を保存するパスを取得します。これらのメソッドがマシン上で有効なパスを返すことを確認してください。
 
 ## ステップ2: ワークブックを読み込む
 

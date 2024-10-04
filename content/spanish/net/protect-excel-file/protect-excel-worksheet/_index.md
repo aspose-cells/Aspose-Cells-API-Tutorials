@@ -67,7 +67,7 @@ Workbook excel = new Workbook(fstream);
 
 ## Paso 4: Acceda a la primera hoja de trabajo
 
-Una vez que tenemos el libro de trabajo, el siguiente paso es acceder a la hoja que deseamos proteger. Los archivos de Excel pueden tener varias hojas y, en este ejemplo, solo utilizaremos la primera.
+Una vez que tenemos el libro de trabajo, el siguiente paso es acceder a la hoja que desea proteger. Los archivos de Excel pueden tener varias hojas y, en este ejemplo, solo utilizaremos la primera.
 
 ```csharp
 Worksheet worksheet = excel.Worksheets[0];

@@ -47,10 +47,9 @@ Dans cette étape, nous allons définir où se trouvent nos fichiers source et d
 
 ```csharp
 // Répertoires de travail
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Ici, nous utilisons une méthode hypothétique`RunExamples.Get_SourceDirectory()` pour récupérer le chemin vers nos fichiers sources. De même,`RunExamples.Get_OutputDirectory()` obtient le chemin où nous allons enregistrer notre sortie. Assurez-vous que ces méthodes renvoient des chemins valides sur votre machine.
 
 ## Étape 2 : charger le classeur
 
@@ -59,7 +58,7 @@ Maintenant, chargeons le fichier Excel dans lequel réside Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Le`Workbook`class est votre point d'entrée dans le fichier Excel. En passant le chemin de notre fichier source, nous créons une instance qui nous permet de le manipuler. Vous pouvez l'imaginer comme l'ouverture d'un livre : vous vous préparez à lire (ou à modifier) son contenu.
+ Le`Workbook` class est votre point d'entrée dans le fichier Excel. En passant le chemin de notre fichier source, nous créons une instance qui nous permet de le manipuler. Vous pouvez l'imaginer comme l'ouverture d'un livre : vous vous préparez à lire (ou à modifier) son contenu.
 
 ## Étape 3 : Accéder au mashup de données
 
@@ -102,7 +101,7 @@ Après avoir effectué les mises à jour, il est temps de sauvegarder nos modifi
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Le`Save` La méthode écrit le classeur mis à jour dans le répertoire de sortie spécifié. C'est comme si vous scelliez vos modifications dans une nouvelle version du manuel, prête à être utilisée par d'autres !
+ Le`Save`La méthode écrit le classeur mis à jour dans le répertoire de sortie spécifié. C'est comme si vous scelliez vos modifications dans une nouvelle version du manuel, prête à être utilisée par d'autres !
 
 ## Conclusion
 

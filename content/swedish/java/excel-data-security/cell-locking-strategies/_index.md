@@ -115,7 +115,7 @@ I den här artikeln har vi utforskat de väsentliga aspekterna av celllåsning m
 
 ### Vad är celllåsning?
 
-Celllåsning är en teknik som används för att förhindra obehöriga ändringar av specifika celler eller intervall i ett Excel-kalkylblad. Det förbättrar datasäkerheten och integriteten genom att kontrollera vem som kan redigera vissa delar av ett kalkylblad.
+Celllåsning är en teknik som används för att förhindra obehöriga ändringar av specifika celler eller intervall i ett Excel-kalkylblad. Det förbättrar datasäkerheten och integriteten genom att kontrollera vem som kan redigera vissa delar av ett kalkylark.
 
 ### Hur skyddar jag ett helt Excel-kalkylblad?
 

@@ -24,14 +24,14 @@ Sobald diese Voraussetzungen erfüllt sind, kann es losgehen!
 
 ## Pakete importieren
 
-Bevor wir mit dem Programmieren beginnen, müssen wir sicherstellen, dass unser Projekt den Aspose.Cells-Namespace erkennt. So importieren Sie die erforderlichen Pakete:
+Bevor wir mit dem Codieren beginnen, müssen wir sicherstellen, dass unser Projekt den Aspose.Cells-Namespace erkennt. So importieren Sie die erforderlichen Pakete:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Nachdem wir nun alles importiert haben, was wir brauchen, können wir uns Schritt für Schritt in unser Tutorial stürzen.
+Nachdem wir nun alles importiert haben, was wir brauchen, tauchen wir Schritt für Schritt in unser Tutorial ein.
 
 ## Schritt 1: Einrichten des Dokumentverzeichnisses
 
@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Ersetzen Sie zunächst`"YOUR DOCUMENT DIRECTORY"`mit dem Pfad, in dem Ihre Dateien gespeichert werden sollen. Dieser Code prüft, ob das Verzeichnis existiert. Wenn nicht, wird eines erstellt.
+ Ersetzen Sie zunächst`"YOUR DOCUMENT DIRECTORY"` mit dem Pfad, in dem Ihre Dateien gespeichert werden sollen. Dieser Code prüft, ob das Verzeichnis existiert. Wenn nicht, wird eines erstellt.
 
 ## Schritt 2: Instanziieren einer neuen Arbeitsmappe
 

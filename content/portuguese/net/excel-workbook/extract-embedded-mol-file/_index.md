@@ -54,8 +54,8 @@ Agora que você importou os pacotes necessários, vamos configurar nosso ambient
 
 ```csharp
 //diretórios
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

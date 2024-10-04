@@ -41,13 +41,11 @@ Agora que configuramos tudo, vamos dividir o processo de adicionar uma assinatur
 Primeiro, precisamos definir onde nosso arquivo Excel de origem está localizado e onde queremos salvar o arquivo de saída assinado. Este é um passo crucial porque ajuda a organizar seus arquivos de forma eficiente.
 
 ```csharp
-//Diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Diretório de origem
+string sourceDir = "Your Document Directory";
 // Diretório de saída
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- Neste trecho de código,`RunExamples.Get_SourceDirectory()` e`RunExamples.Get_OutputDirectory()` são métodos que retornam os caminhos para seus diretórios de origem e saída, respectivamente. Certifique-se de substituí-los pelos caminhos reais se não estiver usando esses métodos.
 
 ## Etapa 2: Carregue a pasta de trabalho
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Substitua pela sua senha PFX
 string pfx = "pfxFile"; // Substitua pelo caminho para o seu arquivo PFX
 ```
 
- Nesta etapa, substitua`pfxPassword` com sua senha real e`pfxFile`com o caminho para seu arquivo PFX. Esta é a chave para assinar seu documento!
+ Nesta etapa, substitua`pfxPassword` com sua senha real e`pfxFile` com o caminho para seu arquivo PFX. Esta é a chave para assinar seu documento!
 
 ## Etapa 4: Crie a assinatura digital
 
- Agora, vamos criar a assinatura digital usando o`DigitalSignature` classe. É aqui que a mágica acontece!
+ Agora, vamos criar a assinatura digital usando o`DigitalSignature`classe. É aqui que a mágica acontece!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

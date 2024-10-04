@@ -16,7 +16,7 @@ Quando si tratta di gestire file Excel a livello di programmazione, Aspose.Cells
 Prima di iniziare, è essenziale avere chiari alcuni aspetti per garantire un'esperienza impeccabile:
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. È qui che scriverai il tuo codice.
-2. Aspose.Cells per .NET: è necessario disporre della libreria Aspose.Cells per .NET. È possibile[scaricalo qui](https://releases.aspose.com/cells/net/) se non l'hai già fatto.
+2.  Aspose.Cells per .NET: è necessario disporre della libreria Aspose.Cells per .NET. È possibile[scaricalo qui](https://releases.aspose.com/cells/net/) se non l'hai già fatto.
 3. Conoscenza di base di C#: la familiarità con il linguaggio di programmazione C# è estremamente utile in quanto questo tutorial è scritto in C#.
 4. Uno spazio di lavoro: prepara un ambiente di codifica e una directory in cui salvare i tuoi documenti, perché ti serviranno!
 
@@ -52,7 +52,7 @@ Ora creeremo un'istanza della classe Workbook, che rappresenta un file Excel.
 Workbook workbook = new Workbook();
 ```
 
- Creazione di un nuovo`Workbook` è come aprire una nuova pagina bianca in un quaderno, pronta per essere riempita con tutte le informazioni che desideri!
+ Creazione di un nuovo`Workbook`è come aprire una nuova pagina bianca in un quaderno, pronta per essere riempita con tutte le informazioni che desideri!
 
 ## Passaggio 3: accedi al primo foglio di lavoro
 
@@ -97,13 +97,13 @@ Ed ecco fatto! Hai configurato con successo l'orientamento della pagina di un fi
 Aspose.Cells per .NET è una potente libreria per la gestione programmatica dei file Excel, con funzionalità quali creazione, modifica, conversione e altro ancora.
 
 ### Posso cambiare anche l'orientamento in orizzontale?
-Sì! Puoi impostare l'orientamento su`PageOrientationType.Landscape` in modo simile.
+ Sì! Puoi impostare l'orientamento su`PageOrientationType.Landscape` in modo simile.
 
 ### È disponibile il supporto per Aspose.Cells?
  Assolutamente! Puoi visitare il loro[forum di supporto](https://forum.aspose.com/c/cells/9) per qualsiasi domanda o assistenza.
 
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?
- Puoi richiedere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/), che ti consente di provare le funzionalità senza limitazioni.
+ Puoi richiedere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/)che ti consente di provare le funzionalità senza limitazioni.
 
 ### Aspose.Cells può gestire file Excel di grandi dimensioni?
 Sì, Aspose.Cells è ottimizzato per la gestione di file di grandi dimensioni e può eseguire varie operazioni in modo efficiente.

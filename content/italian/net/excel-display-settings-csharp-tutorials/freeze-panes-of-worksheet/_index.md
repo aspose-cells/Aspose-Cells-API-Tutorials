@@ -25,7 +25,7 @@ Prima di passare alla parte di codifica vera e propria, assicuriamoci di avere t
 - Per creare ed eseguire le applicazioni C#, è necessario un IDE come Visual Studio.
 
 ### Un file Excel di esempio
--  Per scopi dimostrativi, avrai bisogno di un file Excel, che chiameremo`book1.xls`È possibile creare un semplice file Excel utilizzando Microsoft Excel o qualsiasi applicazione compatibile.
+- Per scopi dimostrativi, avrai bisogno di un file Excel, che chiameremo`book1.xls`È possibile creare un semplice file Excel utilizzando Microsoft Excel o qualsiasi applicazione compatibile.
 
 Una volta soddisfatti questi prerequisiti, possiamo iniziare a programmare!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- IL`Workbook`object rappresenta l'intero file Excel in memoria. Immagina di portare l'intero file nel tuo spazio di lavoro in modo da poter iniziare a fare modifiche.
+ IL`Workbook` object rappresenta l'intero file Excel in memoria. Immagina di portare l'intero file nel tuo spazio di lavoro in modo da poter iniziare a fare modifiche.
 
 ## Passaggio 5: accedi al foglio di lavoro
 
@@ -131,7 +131,7 @@ Il congelamento dei riquadri consente di mantenere visibili righe o colonne spec
  Sì, puoi congelare un numero qualsiasi di righe e colonne specificandone le posizioni utilizzando`FreezePanes` metodo.
 
 ### Aspose.Cells è gratuito?
- Aspose.Cells offre una prova gratuita, ma dovrai acquistare una licenza per un utilizzo a lungo termine. Controlla il[pagina di acquisto](https://purchase.aspose.com/buy) per maggiori dettagli.
+Aspose.Cells offre una prova gratuita, ma dovrai acquistare una licenza per un utilizzo a lungo termine. Controlla il[pagina di acquisto](https://purchase.aspose.com/buy) per maggiori dettagli.
 
 ### Dove posso trovare supporto per Aspose.Cells?
  Puoi ottenere supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9), dove puoi porre domande e trovare soluzioni dalla comunità.

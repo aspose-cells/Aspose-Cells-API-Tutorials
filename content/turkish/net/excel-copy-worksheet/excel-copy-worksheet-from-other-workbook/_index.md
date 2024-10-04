@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Burada ilk çalışma kitabını oluşturuyoruz ve ilk çalışma sayfasını dolduruyoruz (`ws0`başlıklar ve ayrıntı satırlarıyla. Bu simüle edilmiş veriler, daha sonra kopyalama sürecini görselleştirmenize yardımcı olacaktır.
+Burada ilk çalışma kitabını oluşturuyoruz ve ilk çalışma sayfasını dolduruyoruz (`ws0`) başlıklar ve ayrıntı satırlarıyla. Bu simüle edilmiş veriler, daha sonra kopyalama sürecini görselleştirmenize yardımcı olacaktır.
 
 ## Adım 3: Yazdırma için Sayfa Kurulumunu Ayarlayın
 
 Yazdırma sırasında başlık satırlarını tekrarlayacak şekilde sayfa düzenini yapılandıralım, böylece bu özelliği çalışırken görebilelim:
 
 ```csharp
-// İlk çalışma sayfasına dayalı bir sayfa ayarı nesnesi tanımlayın
+//İlk çalışma sayfasına dayalı bir sayfa ayarı nesnesi tanımlayın
 PageSetup pagesetup = ws0.PageSetup;
 // İlk beş satır her sayfada tekrarlanıyor
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Yeni bir çalışma kitabı oluşturduk (`excelWorkbook1`) ve ilk çalışma say
 // ikinci çalışma kitabının ilk çalışma sayfası
 ws1.Copy(ws0);
 ```
- The`Copy` yöntem kaynak çalışma sayfasından tüm içeriği alır (`ws0`) ve bunu hedef çalışma sayfasına kopyalar (`ws1`). Çok basit, değil mi?
+ The`Copy` yöntem kaynak çalışma sayfasından tüm içeriği alır (`ws0`ve bunu hedef çalışma sayfasına kopyalar (`ws1`). Çok basit, değil mi?
 
 ## Adım 6: Yeni Çalışma Kitabını Kaydedin
 
@@ -137,7 +137,7 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını çeşitli formatlarda oluşt
  Geçici lisans talebinde bulunmak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?  
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells kullanıcıları için herhangi bir destek mevcut mu?  
  Kesinlikle! Destek alabilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9).

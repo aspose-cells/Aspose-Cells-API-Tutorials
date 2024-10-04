@@ -25,7 +25,7 @@ Sebelum kita masuk ke bagian pengkodean yang sebenarnya, mari pastikan Anda memi
 - Anda memerlukan IDE seperti Visual Studio untuk membuat dan menjalankan aplikasi C# Anda.
 
 ### Contoh File Excel
--  Untuk tujuan demonstrasi, Anda memerlukan file Excel, yang kami sebut`book1.xls`Anda dapat membuat file Excel sederhana menggunakan Microsoft Excel atau aplikasi apa pun yang kompatibel.
+- Untuk tujuan demonstrasi, Anda memerlukan file Excel, yang kami sebut`book1.xls`Anda dapat membuat file Excel sederhana menggunakan Microsoft Excel atau aplikasi apa pun yang kompatibel.
 
 Setelah Anda memiliki prasyarat ini, kita dapat mulai membuat kode!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Itu`Workbook`Objek mewakili seluruh berkas Excel di memori. Anggap saja sebagai membawa seluruh berkas ke ruang kerja Anda sehingga Anda dapat mulai membuat modifikasi.
+ Itu`Workbook` Objek mewakili seluruh berkas Excel di memori. Anggap saja sebagai membawa seluruh berkas ke ruang kerja Anda sehingga Anda dapat mulai membuat modifikasi.
 
 ## Langkah 5: Akses Lembar Kerja
 
@@ -131,7 +131,7 @@ Membekukan panel memungkinkan Anda menjaga baris atau kolom tertentu tetap terli
  Ya, Anda dapat membekukan sejumlah baris dan kolom dengan menentukan posisinya menggunakan`FreezePanes` metode.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis, tetapi Anda perlu membeli lisensi untuk penggunaan jangka panjang. Periksa[halaman pembelian](https://purchase.aspose.com/buy) untuk rinciannya.
+Aspose.Cells menawarkan uji coba gratis, tetapi Anda perlu membeli lisensi untuk penggunaan jangka panjang. Periksa[halaman pembelian](https://purchase.aspose.com/buy) untuk rinciannya.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
  Anda bisa mendapatkan dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9), tempat Anda dapat mengajukan pertanyaan dan menemukan solusi dari komunitas.

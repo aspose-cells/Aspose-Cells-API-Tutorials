@@ -39,7 +39,7 @@ using System;
 स्रोत निर्देशिका को परिभाषित करके शुरू करें जहाँ आपकी एक्सेल फ़ाइल संग्रहीत है। यह सुनिश्चित करता है कि आपका प्रोग्राम जानता है कि जिस फ़ाइल के साथ आप काम करना चाहते हैं उसे कहाँ देखना है।
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## चरण 2: एक्सेल वर्कबुक लोड करें

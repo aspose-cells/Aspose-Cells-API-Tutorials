@@ -29,7 +29,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Teraz przeanalizujmy szczegółowo każdy etap procesu krok po kroku.
+Teraz przeanalizujmy każdy etap procesu krok po kroku.
 
 ## Krok 1: Skonfiguruj swój projekt
 

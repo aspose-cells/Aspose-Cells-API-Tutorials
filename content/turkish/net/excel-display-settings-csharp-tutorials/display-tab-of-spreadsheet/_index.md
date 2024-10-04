@@ -15,7 +15,7 @@ Elektronik tablolarla mı çalışıyorsunuz ve bunları programatik olarak yön
 
 Gerçek koda geçmeden önce, her şeyin sıraya girdiğinden emin olalım. İşte ihtiyacınız olanlar:
 
-1. Aspose.Cells for .NET Library – Yüklü olduğundan emin olun.[kütüphaneyi buradan indirin](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library – Yüklü olduğundan emin olun.[kütüphaneyi buradan indirin](https://releases.aspose.com/cells/net/).
 2. .NET Framework – .NET Framework'ün uyumlu bir sürümünü çalıştırdığınızdan emin olun. Aspose.Cells for .NET, 2.0'dan itibaren .NET Framework sürümlerini destekler.
 3. Geliştirme Ortamı – Visual Studio veya herhangi bir C# IDE bu görev için mükemmeldir.
 4. C# Temel Bilgisi – Sihirbaz olmanıza gerek yok, ancak temel sözdizimini anlamak yardımcı olacaktır.
@@ -41,7 +41,7 @@ Herhangi bir Excel dosyasını düzenleyebilmemiz için dosyanızın depolandı�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek dizin yoluyla. Bu dizin, mevcut Excel dosyanızı yükleyeceğiniz ve çıktıyı kaydedeceğiniz yer olacaktır.
+ Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"`sisteminizdeki gerçek dizin yoluyla. Bu dizin, mevcut Excel dosyanızı yükleyeceğiniz ve çıktıyı kaydedeceğiniz yer olacaktır.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 
@@ -61,7 +61,7 @@ Excel'de, alttaki sekmeler (Sheet1, Sheet2, vb.) gizlenebilir veya gösterilebil
 workbook.Settings.ShowTabs = true;
 ```
 
- Ayar`ShowTabs` ile`true`Excel dosyasını açtığınızda sekmelerin görünür olmasını sağlayacaktır.
+ Ayar`ShowTabs` ile`true` Excel dosyasını açtığınızda sekmelerin görünür olmasını sağlayacaktır.
 
 ## Adım 4: Değiştirilen Excel Dosyasını Kaydedin
 
@@ -71,7 +71,7 @@ Sekmeler görüntülendikten sonra güncellenen dosyayı kaydetmemiz gerekir. Bu
 workbook.Save(dataDir + "output.xls");
 ```
 
- Dosya şu adla kaydedilir:`output.xls` Daha önce belirtilen dizinde. Ayrıca farklı bir ad veya dosya biçimi de seçebilirsiniz (örneğin`.xlsx`) gerekirse.
+Dosya şu adla kaydedilir:`output.xls` Daha önce belirtilen dizinde. Ayrıca farklı bir ad veya dosya biçimi de seçebilirsiniz (örneğin`.xlsx`) gerekirse.
 
 ## Çözüm
 
@@ -80,7 +80,7 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak sekmeleri bir Excel elektronik t
 ## SSS
 
 ### Aspose.Cells for .NET kullanarak Excel'deki sekmeleri gizleyebilir miyim?
- Kesinlikle! Basitçe ayarlayın`workbook.Settings.ShowTabs = false;`ve dosyayı kaydedin. Bu, çalışma kitabı açıldığında sekmeleri gizleyecektir.
+ Kesinlikle! Basitçe ayarlayın`workbook.Settings.ShowTabs = false;` ve dosyayı kaydedin. Bu, çalışma kitabı açıldığında sekmeleri gizleyecektir.
 
 ### Aspose.Cells, grafikler ve pivot tablolar gibi diğer Excel özelliklerini destekliyor mu?
 Evet, Aspose.Cells grafikler, pivot tablolar, formüller ve daha fazlası dahil olmak üzere hemen hemen tüm Excel özelliklerini destekleyen kapsamlı bir kütüphanedir.

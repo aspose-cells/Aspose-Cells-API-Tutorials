@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Tout d’abord, remplacez`"YOUR DOCUMENT DIRECTORY"`avec le chemin où vous souhaitez que vos fichiers soient enregistrés. Ce code vérifie si le répertoire existe ; si ce n'est pas le cas, il en crée un.
+ Tout d’abord, remplacez`"YOUR DOCUMENT DIRECTORY"` avec le chemin où vous souhaitez que vos fichiers soient enregistrés. Ce code vérifie si le répertoire existe ; si ce n'est pas le cas, il en crée un.
 
 ## Étape 2 : créer un nouveau classeur
 
@@ -73,7 +73,7 @@ Dans cet extrait de code, nous accédons à la première feuille de calcul de no
 
 ## Étape 4 : Obtenir l'autorisation de modifier les plages
 
- Pour activer des plages spécifiques de la feuille de calcul pour l'édition, nous devons accéder à la`AllowEditRanges` propriété.
+ Pour activer des plages spécifiques de la feuille de calcul pour l'édition, nous devons accéder à l'`AllowEditRanges` propriété.
 
 ```csharp
 // Obtenir les plages de modification autorisées

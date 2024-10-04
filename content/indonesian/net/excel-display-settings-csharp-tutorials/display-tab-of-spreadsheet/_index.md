@@ -15,7 +15,7 @@ Apakah Anda bekerja dengan spreadsheet dan mencari cara yang efisien untuk menge
 
 Sebelum kita masuk ke kode yang sebenarnya, mari kita pastikan Anda telah menyiapkan semuanya. Berikut ini yang Anda perlukan:
 
-1. Aspose.Cells untuk Pustaka .NET – Pastikan Anda telah menginstalnya. Anda dapat[unduh perpustakaan di sini](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells untuk Pustaka .NET – Pastikan Anda telah menginstalnya. Anda dapat[unduh perpustakaan di sini](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Pastikan Anda menjalankan versi .NET Framework yang kompatibel. Aspose.Cells for .NET mendukung versi .NET Framework mulai dari 2.0.
 3. Lingkungan Pengembangan – Visual Studio atau IDE C# lainnya sangat cocok untuk tugas ini.
 4. Pengetahuan Dasar C# – Anda tidak perlu menjadi seorang ahli, tetapi memahami sintaksis dasar akan membantu.
@@ -41,7 +41,7 @@ Sebelum kita dapat memanipulasi berkas Excel apa pun, kita perlu menentukan jalu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur direktori sebenarnya di sistem Anda. Direktori ini akan menjadi tempat Anda memuat berkas Excel yang ada dan menyimpan hasilnya.
+ Mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur direktori sebenarnya di sistem Anda. Direktori ini akan menjadi tempat Anda memuat berkas Excel yang ada dan menyimpan hasilnya.
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
@@ -61,7 +61,7 @@ Di Excel, tab di bagian bawah (Sheet1, Sheet2, dst.) dapat disembunyikan atau di
 workbook.Settings.ShowTabs = true;
 ```
 
- Pengaturan`ShowTabs` ke`true`akan memastikan bahwa tab terlihat saat Anda membuka file Excel.
+ Pengaturan`ShowTabs` ke`true` akan memastikan bahwa tab terlihat saat Anda membuka file Excel.
 
 ## Langkah 4: Simpan File Excel yang Dimodifikasi
 
@@ -71,7 +71,7 @@ Setelah tab ditampilkan, kita perlu menyimpan berkas yang diperbarui. Ini akan m
 workbook.Save(dataDir + "output.xls");
 ```
 
- File disimpan dengan nama`output.xls` di direktori yang ditentukan sebelumnya. Anda juga dapat memilih nama atau format file yang berbeda (seperti`.xlsx`) jika diperlukan.
+File disimpan dengan nama`output.xls` di direktori yang ditentukan sebelumnya. Anda juga dapat memilih nama atau format file yang berbeda (seperti`.xlsx`) jika diperlukan.
 
 ## Kesimpulan
 
@@ -80,7 +80,7 @@ Nah, itu dia! Anda telah berhasil menampilkan tab dalam lembar kerja Excel mengg
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyembunyikan tab di Excel menggunakan Aspose.Cells untuk .NET?
- Tentu saja! Cukup atur`workbook.Settings.ShowTabs = false;`dan simpan berkasnya. Ini akan menyembunyikan tab saat buku kerja dibuka.
+ Tentu saja! Cukup atur`workbook.Settings.ShowTabs = false;` dan simpan berkasnya. Ini akan menyembunyikan tab saat buku kerja dibuka.
 
 ### Apakah Aspose.Cells mendukung fitur Excel lainnya seperti bagan dan tabel pivot?
 Ya, Aspose.Cells adalah pustaka komprehensif yang mendukung hampir semua fitur Excel, termasuk bagan, tabel pivot, rumus, dan banyak lagi.

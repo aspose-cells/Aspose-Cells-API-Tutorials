@@ -78,7 +78,7 @@ Nyní se dostaneme k listu, který chcete zrušit. Obecně platí, že pokud má
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-V tomto řádku se zaměřujeme na první pracovní list. Pokud potřebujete zrušit ochranu jiného listu, jednoduše změňte indexové číslo.
+tomto řádku se zaměřujeme na první pracovní list. Pokud potřebujete zrušit ochranu jiného listu, jednoduše změňte indexové číslo.
 
 ## Krok 4: Odstranění ochrany listu
 

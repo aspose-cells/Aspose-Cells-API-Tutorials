@@ -61,11 +61,9 @@ Setelah lingkungan pengembangan kita siap, saatnya menulis kode utama untuk meng
 
 ```csharp
 // Mengatur direktori sumber
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Di Sini,`RunExamples.Get_SourceDirectory()` adalah metode khusus yang mungkin Anda miliki dalam proyek Anda yang mengambil jalur ke folder yang berisi file contoh Anda. Pastikan untuk menggantinya dengan jalur sebenarnya jika diperlukan.
 
 ## Langkah 2: Mengakses Rumus Power Query
 

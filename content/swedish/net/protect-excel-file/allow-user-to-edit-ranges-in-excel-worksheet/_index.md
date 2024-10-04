@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Byt först ut`"YOUR DOCUMENT DIRECTORY"`med sökvägen där du vill att dina filer ska sparas. Denna kod kontrollerar om katalogen finns; om det inte gör det skapar det en.
+ Byt först ut`"YOUR DOCUMENT DIRECTORY"` med sökvägen där du vill att dina filer ska sparas. Denna kod kontrollerar om katalogen finns; om det inte gör det skapar det en.
 
 ## Steg 2: Instantiera en ny arbetsbok
 

@@ -24,7 +24,7 @@ Il est essentiel de garantir l'intégrité des données. Nous verrons comment ut
 ## Tutoriels sur la sécurité des données Excel
 ### [Protection par mot de passe Excel](./excel-password-protection/)
 Découvrez comment améliorer la sécurité des données avec la protection par mot de passe Excel à l'aide d'Aspose.Cells pour Java. Guide étape par étape avec code source pour une confidentialité optimale des données.
-### [Stratégies de verrouillage cellulaire](./cell-locking-strategies/)
+### [Stratégies de verrouillage des cellules](./cell-locking-strategies/)
 Apprenez des stratégies efficaces de verrouillage de cellules à l'aide d'Aspose.Cells pour Java. Améliorez la sécurité et l'intégrité des données dans les fichiers Excel grâce à des instructions étape par étape.
 ### [Méthodes de chiffrement du classeur](./workbook-encryption-methods/)
 Améliorez la sécurité des données avec Aspose.Cells pour le chiffrement des classeurs Java. Apprenez à chiffrer les classeurs Excel étape par étape.

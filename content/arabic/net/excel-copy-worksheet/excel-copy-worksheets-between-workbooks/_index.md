@@ -20,7 +20,7 @@ url: /ar/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 -  رخصة سارية المفعول أو[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) إذا كنت تريد اختبار وظائف Aspose.Cells الكاملة.
 - فهم أساسي لـ C# وإطار عمل .NET.
 
- يمكنك أيضًا التحقق من[توثيق Aspose.Cells](https://reference.aspose.com/cells/net/)لمزيد من التفاصيل.
+ يمكنك أيضًا التحقق من[توثيق Aspose.Cells](https://reference.aspose.com/cells/net/) لمزيد من التفاصيل.
 
 ## استيراد الحزم
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 أخيرًا، يمكنك حفظ المصنف الثاني الذي يحتوي على ورقة العمل المنسوخة. وهذا يشبه حفظ ملاحظاتك المكتوبة حديثًا في مجلد جديد على جهاز الكمبيوتر الخاص بك.
 
 ```csharp
-// احفظ الملف.
+//احفظ الملف.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

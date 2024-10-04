@@ -43,12 +43,10 @@ using System;
 우선, 우리는 파일을 저장할 위치를 정의해야 합니다. 여기에는 입력 파일의 소스 디렉토리와 압축 파일의 출력 디렉토리를 지정하는 것이 포함됩니다.
 
 ```csharp
-//소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// 소스 디렉토리
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- 여기,`RunExamples.Get_SourceDirectory()` 그리고`RunExamples.Get_OutputDirectory()` 각각 소스 및 출력 디렉토리로의 경로를 반환하는 메서드입니다. 
 
 ## 2단계: 통합 문서 로드
 

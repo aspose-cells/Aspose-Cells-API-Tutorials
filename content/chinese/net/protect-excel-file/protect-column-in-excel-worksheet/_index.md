@@ -16,7 +16,7 @@ url: /zh/net/protect-excel-file/protect-column-in-excel-worksheet/
 在我们踏上数据保护之旅之前，您需要做好以下几件事：
 
 1. Visual Studio：确保您的计算机上安装了 Visual Studio。它是 .NET 开发的友好环境。
-2. Aspose.Cells 库：您需要 Aspose.Cells for .NET 库。如果您尚未安装，可以从[Aspose.Cells 下载页面](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 库：您需要 Aspose.Cells for .NET 库。如果您尚未安装，可以从[Aspose.Cells 下载页面](https://releases.aspose.com/cells/net/).
 3. C# 基础知识：熟悉 C# 编程将有助于您更好地理解代码。
 4. .NET Framework：确保已安装 .NET Framework。此库可与 .NET Framework 和 .NET Core 无缝协作。
 

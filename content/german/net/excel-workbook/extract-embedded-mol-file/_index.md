@@ -54,8 +54,8 @@ Nachdem Sie nun die erforderlichen Pakete importiert haben, richten wir unsere U
 
 ```csharp
 //Verzeichnisse
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

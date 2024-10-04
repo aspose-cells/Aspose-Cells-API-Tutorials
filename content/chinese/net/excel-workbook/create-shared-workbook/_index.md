@@ -55,9 +55,8 @@ using System.Text;
 
 ```csharp
 //输出目录
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-这里我们使用一个方法`RunExamples.Get_OutputDirectory()`指定将保存生成的 Excel 文件的文件夹。请确保在代码中定义此方法，以便正确进行输出处理。
 
 ## 步骤 2：创建工作簿对象
 

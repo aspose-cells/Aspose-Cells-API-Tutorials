@@ -16,7 +16,7 @@ En el mundo digital actual, gestionar datos de forma segura en hojas de cálculo
 Antes de profundizar en los detalles de la protección de las células, hay algunos requisitos previos que debes tener en cuenta:
 
 1. Visual Studio: asegúrese de tener Visual Studio instalado en su computadora. Es el IDE principal para el desarrollo de .NET.
-2. Biblioteca Aspose.Cells: debe tener la biblioteca Aspose.Cells disponible en su proyecto. Puede instalarla fácilmente a través del Administrador de paquetes NuGet o descargarla directamente desde el sitio web.[Sitio Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells: debe tener la biblioteca Aspose.Cells disponible en su proyecto. Puede instalarla fácilmente a través del Administrador de paquetes NuGet o descargarla directamente desde el sitio web.[Sitio Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: un poco de familiaridad con la programación en C# le ayudará a seguir el proceso sin problemas.
 
 ## Importación de paquetes
@@ -95,7 +95,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
-Este bucle recorre todas las columnas posibles (hasta 256) y establece sus estilos para que se desbloqueen. En cierto modo, estás diciendo: "¡Oigan, todos pueden editar!"
+Este bucle recorre todas las columnas posibles (hasta 256) y establece sus estilos para que se desbloqueen. En cierto modo, estás diciendo: "¡Oigan, todos son libres de editar!"
 
 ## Paso 5: Bloqueo de celdas específicas
 

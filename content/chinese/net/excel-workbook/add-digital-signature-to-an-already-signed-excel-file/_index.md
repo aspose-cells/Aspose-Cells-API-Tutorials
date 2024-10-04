@@ -42,9 +42,9 @@ using System.Text;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //输出目录
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 在此步骤中，我们使用一种方法来获取源目录和输出目录的路径。确保这些目录存在并包含所需的文件。

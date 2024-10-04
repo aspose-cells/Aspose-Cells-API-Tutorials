@@ -66,7 +66,7 @@ Vervolgens gaan we een instantie van de Workbook-klasse maken. Deze klasse is de
 Workbook workbook = new Workbook();
 ```
 
- Wanneer u een nieuw exemplaar van de`Workbook`klas, je begint in feite met een blanco lei—klaar voor actie. Zie het als het openen van een leeg notitieboek waarin je alles kunt opschrijven wat je nodig hebt.
+ Wanneer u een nieuw exemplaar van de`Workbook` klas, je begint in feite met een blanco lei—klaar voor actie. Zie het als het openen van een leeg notitieboek waarin je alles kunt opschrijven wat je nodig hebt.
 
 ## Stap 3: Een nieuw werkblad toevoegen
 
@@ -116,10 +116,10 @@ Met Aspose.Cells zijn de mogelijkheden eindeloos. U kunt gegevens op talloze man
 Aspose.Cells voor .NET is een krachtige bibliotheek voor het maken, bewerken en converteren van Excel-bestanden zonder dat Microsoft Excel geïnstalleerd hoeft te zijn.
 
 ### Kan ik meerdere bladen tegelijk toevoegen?  
- Ja, bel gewoon de`Add()`methode meerdere keren en verwijs naar elk blad via de index!
+ Ja, bel gewoon de`Add()` methode meerdere keren en verwijs naar elk blad via de index!
 
 ### Bestaat er een gratis proefversie van Aspose.Cells?  
- Zeker! Je kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
+Zeker! Je kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 
 ### Kan ik het nieuwe werkblad opmaken nadat ik het heb toegevoegd?  
 Absoluut! U kunt stijlen, opmaak en zelfs formules toepassen op uw werkbladen met behulp van de functies van de bibliotheek.

@@ -104,7 +104,7 @@ Ahora es el momento de bloquear la fila que desea proteger. En este caso, bloque
 style = sheet.Cells.Rows[0].Style;
 // Bloquealo.
 style.IsLocked = true;
-// Instanciar la bandera.
+//Instanciar la bandera.
 flag = new StyleFlag();
 // Establecer la configuración de bloqueo.
 flag.Locked = true;

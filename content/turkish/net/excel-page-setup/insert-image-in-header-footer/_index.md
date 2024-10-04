@@ -148,4 +148,4 @@ Evet, farklı yer tutucular kullanarak üstbilgi veya altbilginin farklı bölü
 Görüntü yolunun doğru olduğundan ve dosyanın mevcut olduğundan emin olun. Görüntü biçimi uyumluluğunu da kontrol edin.
 
 ### Aspose.Cells için ek belgeleri nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).

@@ -41,13 +41,11 @@ Nu we alles hebben ingesteld, kunnen we het proces voor het toevoegen van een Xa
 Eerst moeten we definiëren waar ons bron-Excelbestand zich bevindt en waar we het ondertekende uitvoerbestand willen opslaan. Dit is een cruciale stap omdat het helpt bij het efficiënt organiseren van uw bestanden.
 
 ```csharp
-//Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Bron directory
+string sourceDir = "Your Document Directory";
 // Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- In dit codefragment,`RunExamples.Get_SourceDirectory()` En`RunExamples.Get_OutputDirectory()` zijn methoden die respectievelijk de paden naar uw bron- en uitvoerdirectory's retourneren. Zorg ervoor dat u deze vervangt door de werkelijke paden als u deze methoden niet gebruikt.
 
 ## Stap 2: Laad de werkmap
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Vervang door uw PFX-wachtwoord
 string pfx = "pfxFile"; // Vervang met het pad naar uw PFX-bestand
 ```
 
- Vervang in deze stap`pfxPassword` met uw werkelijke wachtwoord en`pfxFile`met het pad naar uw PFX-bestand. Dit is de sleutel tot het ondertekenen van uw document!
+ Vervang in deze stap`pfxPassword` met uw werkelijke wachtwoord en`pfxFile` met het pad naar uw PFX-bestand. Dit is de sleutel tot het ondertekenen van uw document!
 
 ## Stap 4: De digitale handtekening maken
 
- Laten we nu de digitale handtekening maken met behulp van de`DigitalSignature` klas. Dit is waar de magie gebeurt!
+ Laten we nu de digitale handtekening maken met behulp van de`DigitalSignature`klas. Dit is waar de magie gebeurt!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

@@ -37,10 +37,8 @@ using System;
 首先，让我们设置保存新 Excel 文件的输出目录。这将有助于保持项目井然有序。
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
-这里，`RunExamples.Get_OutputDirectory()`是一个函数调用，用于检索输出文件的指定路径。请确保此方法已定义并指向有效目录。
 
 ## 步骤 2：创建新工作簿
 

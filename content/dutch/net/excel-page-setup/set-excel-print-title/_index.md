@@ -9,7 +9,7 @@ url: /nl/net/excel-page-setup/set-excel-print-title/
 ---
 ## Invoering
 
-Als het gaat om het werken met Excel-spreadsheets, is het cruciaal om duidelijkheid te creëren in uw afgedrukte documenten. Heeft u ooit een rapport afgedrukt en ontdekt dat de titels niet op elke pagina worden weergegeven? Frustrerend, toch? Nou, vrees niet langer! In deze gids leiden we u door de stappen om afdruktitels in Excel in te stellen met Aspose.Cells voor .NET. Als u ooit het afdrukproces wilde stroomlijnen om uw spreadsheets er professioneler uit te laten zien, bent u hier aan het juiste adres.
+Als het gaat om werken met Excel-spreadsheets, is het cruciaal om duidelijkheid te creëren in uw afgedrukte documenten. Heeft u ooit een rapport afgedrukt en ontdekt dat de titels niet op elke pagina worden weergegeven? Frustrerend, toch? Nou, vrees niet langer! In deze gids leiden we u door de stappen om afdruktitels in Excel in te stellen met Aspose.Cells voor .NET. Als u ooit het afdrukproces wilde stroomlijnen om uw spreadsheets er professioneler uit te laten zien, bent u hier aan het juiste adres.
 
 ## Vereisten
 

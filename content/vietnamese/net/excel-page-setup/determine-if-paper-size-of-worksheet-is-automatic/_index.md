@@ -104,10 +104,10 @@ Aspose.Cells là thư viện .NET được thiết kế để quản lý các t�
 Có! Aspose.Cells hỗ trợ phát triển đa nền tảng, do đó bạn có thể làm việc trong nhiều môi trường khác nhau có hỗ trợ .NET.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?
-Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Bạn có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
+ Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Bạn có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để kiểm tra xem kích thước trang của bảng tính có tự động trong C# không?
- Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp học.
+Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp học.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
  Bạn có thể tìm thấy tài liệu và hướng dẫn toàn diện[đây](https://reference.aspose.com/cells/net/).

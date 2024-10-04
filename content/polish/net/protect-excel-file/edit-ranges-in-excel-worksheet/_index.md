@@ -84,7 +84,7 @@ Ta linia pobiera kolekcję, w której będziesz zarządzać swoimi chronionymi z
 
 ## Krok 5: Zdefiniuj i utwórz zakres chroniony
 
-tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
+W tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
 
 ```csharp
 // Zdefiniuj ProtectedRange
@@ -132,7 +132,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## Wniosek
 
-I masz to! Udało Ci się utworzyć arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET, zdefiniować edytowalne zakresy, ustawić hasło i zabezpieczyć arkusz — wszystko w kilku prostych krokach. Teraz możesz udostępnić swój skoroszyt współpracownikom, zwiększając współpracę przy jednoczesnym zachowaniu bezpieczeństwa ważnych danych.
+masz to! Udało Ci się utworzyć arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET, zdefiniować edytowalne zakresy, ustawić hasło i zabezpieczyć arkusz — wszystko w kilku prostych krokach. Teraz możesz udostępnić swój skoroszyt współpracownikom, zwiększając współpracę przy jednoczesnym zachowaniu bezpieczeństwa ważnych danych.
 
 ## Najczęściej zadawane pytania
 
@@ -149,4 +149,4 @@ Tak, używając Aspose.Cells, możesz zdefiniować konkretne zakresy edytowalne 
 Choć ten samouczek skupia się na platformie .NET, Aspose.Cells jest dostępny dla kilku języków programowania, w tym Java i Cloud APIs.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?  
-Możesz zapoznać się z pełną dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).
+ Możesz zapoznać się z pełną dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).

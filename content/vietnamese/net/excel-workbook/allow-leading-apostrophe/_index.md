@@ -42,12 +42,10 @@ Chúng tôi sẽ chia nhỏ nhiệm vụ thành các bước dễ quản lý đ�
 Ở bước này, chúng ta cần xác định vị trí lưu trữ các tập tin đầu vào và đầu ra.
 
 ```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Thư mục nguồn
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Ở đây, chúng tôi đang sử dụng các phương pháp tiện ích`Get_SourceDirectory()` Và`Get_OutputDirectory()` để thiết lập đường dẫn tệp của chúng tôi một cách thuận tiện. Bạn có thể tùy chỉnh các đường dẫn này theo cấu trúc thư mục của mình.
 
 ## Bước 2: Tạo đối tượng Workbook Designer
 
@@ -78,7 +76,7 @@ Bây giờ, bạn sẽ muốn đảm bảo rằng cài đặt sổ làm việc �
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Bằng cách thiết lập`QuotePrefixToStyle`thành sai, chúng ta đang hướng dẫn Aspose.Cells xử lý các dấu nháy đơn đứng đầu như các ký tự thông thường, cho phép chúng ta xử lý chúng một cách chính xác trong đầu ra.
+ Bằng cách thiết lập`QuotePrefixToStyle` thành sai, chúng ta đang hướng dẫn Aspose.Cells xử lý các dấu nháy đơn đứng đầu như các ký tự thông thường, cho phép chúng ta xử lý chúng một cách chính xác trong đầu ra.
 
 ## Bước 5: Tải dữ liệu cho Smart Markers
 
@@ -146,7 +144,7 @@ Bây giờ, cho dù bạn đang tạo báo cáo, tạo chức năng phân tích 
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel theo nhiều định dạng theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, bạn có thể sử dụng Aspose.Cells bằng cách đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể sử dụng Aspose.Cells bằng cách đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
  Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).

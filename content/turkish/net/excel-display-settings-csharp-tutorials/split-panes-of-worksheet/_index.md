@@ -93,7 +93,7 @@ book.Save(dataDir + "output.xls");
 ## SSS
 
 ### İkiden fazla camı bölebilir miyim?  
- Evet, farklı etkin hücreleri belirterek ve`Split()` yöntem.
+ Evet, farklı etkin hücreleri belirterek ve`Split()` Yöntem.
 
 ### Camları bölmek ile dondurmak arasındaki fark nedir?  
 Bölmeleri bölmek, her iki bölmede de bağımsız olarak kaydırma yapmanızı sağlar. Bölmeleri dondurmak, kaydırma sırasında görünür kalmaları için başlıkları veya belirli satırları/sütunları kilitler.

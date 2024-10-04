@@ -2,7 +2,7 @@
 title: Implementieren Sie eine benutzerdefinierte Papiergröße des Arbeitsblatts zum Rendern
 linktitle: Implementieren Sie eine benutzerdefinierte Papiergröße des Arbeitsblatts zum Rendern
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Papiergrößen in Excel festlegen. Schritt-für-Schritt-Anleitung für nahtloses Rendern von Arbeitsblättern.
+description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Papiergrößen in Excel festlegen. Schritt-für-Schritt-Anleitung für die nahtlose Arbeitsblattdarstellung.
 type: docs
 weight: 50
 url: /de/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
@@ -16,7 +16,7 @@ Das programmgesteuerte Erstellen und Anpassen von Excel-Dokumenten kann Ihre Arb
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie richtig eingerichtet sind. Folgendes benötigen Sie für den Anfang:
 
 1. Visual Studio oder eine beliebige .NET-IDE: Stellen Sie sicher, dass Sie eine funktionierende IDE wie Visual Studio haben. Dies wird Ihr Spielplatz sein, auf dem die ganze Codierungsmagie stattfindet.
-2.  Aspose.Cells für .NET-Paket: Falls noch nicht geschehen, müssen Sie die Aspose.Cells-Bibliothek herunterladen und installieren. Die neueste Version finden Sie auf der[Aspose.Cells-Downloadseite](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells für .NET-Paket: Falls noch nicht geschehen, müssen Sie die Aspose.Cells-Bibliothek herunterladen und installieren. Die neueste Version finden Sie auf der[Aspose.Cells-Downloadseite](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Wir führen Sie zwar durch den Code, aber wenn Sie sich mit C# auskennen, werden Sie die Nuancen besser verstehen.
 4. Zugriff auf .NET Framework: Stellen Sie sicher, dass Ihr Projekt so eingerichtet ist, dass es auf eine kompatible Version des .NET Frameworks abzielt.
 

@@ -66,7 +66,7 @@ Nästa upp kommer vi att skapa en instans av Workbook-klassen. Den här klassen 
 Workbook workbook = new Workbook();
 ```
 
- När du skapar en ny instans av`Workbook`klass, startar du i praktiken ett blankt blad – redo för handling. Se det som att öppna en tom anteckningsbok där du kan skriva ner allt du behöver.
+ När du skapar en ny instans av`Workbook` klass, startar du i praktiken ett blankt blad – redo för handling. Se det som att öppna en tom anteckningsbok där du kan skriva ner allt du behöver.
 
 ## Steg 3: Lägga till ett nytt arbetsblad
 
@@ -116,10 +116,10 @@ Med Aspose.Cells är möjligheterna oändliga. Du kan manipulera data på en mä
 Aspose.Cells för .NET är ett kraftfullt bibliotek för att skapa, manipulera och konvertera Excel-filer utan att behöva installera Microsoft Excel.
 
 ### Kan jag lägga till flera ark samtidigt?  
- Ja, ring bara`Add()`metod flera gånger och hänvisa till varje blad efter dess index!
+ Ja, ring bara`Add()` metod flera gånger och hänvisa till varje blad efter dess index!
 
 ### Finns det en gratis testversion av Aspose.Cells?  
- Definitivt! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
+Definitivt! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 
 ### Kan jag formatera det nya arket efter att ha lagt till det?  
 Absolut! Du kan använda stilar, format och till och med formler på dina kalkylblad med hjälp av bibliotekets funktioner.

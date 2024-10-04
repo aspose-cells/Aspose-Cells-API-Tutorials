@@ -21,7 +21,7 @@ Hai bisogno di un ambiente .NET funzionante. Se non sei ancora pronto, considera
 
 ### Aspose.Cells per .NET
 
- Devi avere Aspose.Cells per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/cells/net/) . Assicurati di familiarizzare con la documentazione, che può essere trovata[Qui](https://reference.aspose.com/cells/net/).
+ Devi avere Aspose.Cells per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/cells/net/) Assicurati di familiarizzare con la documentazione, che può essere trovata[Qui](https://reference.aspose.com/cells/net/).
 
 ### Conoscenze di base di codifica
 

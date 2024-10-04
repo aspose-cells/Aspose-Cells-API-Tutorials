@@ -2,7 +2,7 @@
 title: Excel Usuń określony podział strony
 linktitle: Excel Usuń określony podział strony
 second_title: Aspose.Cells dla .NET API Reference
-description: W tym kompleksowym przewodniku krok po kroku nauczysz się, jak usuwać określone podziały stron z plików programu Excel za pomocą narzędzia Aspose.Cells for .NET.
+description: W tym kompleksowym przewodniku krok po kroku nauczysz się, jak usuwać określone podziały stron z plików programu Excel za pomocą narzędzia Aspose.Cells dla platformy .NET.
 type: docs
 weight: 30
 url: /pl/net/excel-page-breaks/excel-remove-specific-page-break/
@@ -111,7 +111,7 @@ Tak, możesz! Po prostu przejdź przez`HorizontalPageBreaks` I`VerticalPageBreak
 Można iterować podziały stron, używając pętli, aby wyświetlić ich indeksy lub sprawdzić je za pomocą debugera.
 
 ### Czy istnieje sposób na ponowne dodanie usuniętych podziałów stron?  
- Niestety, po usunięciu podziału strony za pomocą`RemoveAt` metoda, nie może być przywrócona w tej sesji. Będziesz musiał utworzyć ją ponownie ręcznie.
+ Niestety, po usunięciu podziału strony za pomocą`RemoveAt` metoda, nie może być przywrócona w tej sesji. Będziesz musiał ją ręcznie odtworzyć.
 
 ### Czy mogę zastosować tę metodę do innych arkuszy w skoroszycie?  
  Oczywiście! Wystarczy zmienić numer indeksu w`workbook.Worksheets[index]` aby wskazać żądany arkusz kalkulacyjny.

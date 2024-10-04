@@ -148,4 +148,4 @@ Sim, você pode inserir imagens separadas em diferentes seções do cabeçalho o
 Certifique-se de que o caminho da imagem esteja correto e que o arquivo exista. Verifique também a compatibilidade do formato da imagem.
 
 ### Onde posso encontrar documentação adicional para Aspose.Cells?
- Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/cells/net/).
+Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/cells/net/).

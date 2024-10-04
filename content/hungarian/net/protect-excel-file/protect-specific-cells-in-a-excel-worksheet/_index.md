@@ -132,7 +132,7 @@ Ez a parancs a munkafüzetet a megadott könyvtárba menti "output.out.xls" fáj
 
 ## Következtetés
 
-És megvan! Sikeresen védett bizonyos cellákat egy Excel-munkalapon az Aspose.Cells for .NET használatával. Az alábbi lépések végrehajtásával megtanulta, hogyan állíthatja be a környezetet, hogyan hozhat létre Excel-munkafüzetet, és feltételesen zárolhatja a cellákat az adatok integritásának megőrzése érdekében. Ezért ha legközelebb arra gondol, hogy megengedje másoknak a táblázatok szerkesztését, emlékezzen az egyszerű technikákra, amelyekkel megvédheti fontos adatait!
+És megvan! Sikeresen védett bizonyos cellákat egy Excel-munkalapon az Aspose.Cells for .NET használatával. Az alábbi lépések végrehajtásával megtanulta, hogyan állíthatja be a környezetet, hogyan hozhat létre Excel-munkafüzetet, és hogyan zárolja feltételesen a cellákat az adatok integritásának megőrzése érdekében. Ezért ha legközelebb arra gondol, hogy megengedje másoknak a táblázatok szerkesztését, emlékezzen az egyszerű technikákra, amelyekkel megvédheti fontos adatait!
 
 ## GYIK
 

@@ -20,7 +20,7 @@ Prima di immergerci nel codice, assicuriamoci di avere a disposizione gli strume
 -  Una licenza valida o una[licenza temporanea](https://purchase.aspose.com/temporary-license/) se vuoi testare la piena funzionalità di Aspose.Cells.
 - Conoscenza di base di C# e del framework .NET.
 
- Puoi anche controllare il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/)per ulteriori dettagli.
+ Puoi anche controllare il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) per ulteriori dettagli.
 
 ## Importa pacchetti
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Infine, salverai la seconda cartella di lavoro con il foglio di lavoro copiato. È come salvare i tuoi appunti appena scritti in una nuova cartella sul tuo computer.
 
 ```csharp
-// Salvare il file.
+//Salvare il file.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

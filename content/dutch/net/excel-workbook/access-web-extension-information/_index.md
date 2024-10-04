@@ -39,7 +39,7 @@ using System;
 Begin met het definiëren van de brondirectory waar uw Excel-bestand is opgeslagen. Dit zorgt ervoor dat uw programma weet waar het moet zoeken naar het bestand waarmee u wilt werken.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Stap 2: Laad de Excel-werkmap
@@ -60,7 +60,7 @@ WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskP
 ```
 Hier pakken we alle taakvensters die gekoppeld zijn aan de webextensies in de werkmap.
 
-## Stap 4: Itereren door taakvensters
+## Stap 4: Door taakvensters itereren
 
  Zodra u de verzameling hebt, is de volgende logische stap om door elk taakvenster te lopen en de eigenschappen ervan te verkrijgen. Met behulp van een`foreach` loop is een uitstekende manier om naadloos door elk taakvenster te navigeren.
 

@@ -2,7 +2,7 @@
 title: 批量数据导入Excel
 linktitle: 批量数据导入Excel
 second_title: Aspose.Cells Java Excel 处理 API
-description: 了解如何使用 Aspose.Cells for Java API 从 Excel 执行批量数据导入。通过本分步指南简化数据处理。
+description: 了解如何使用 Aspose.Cells for Java API 从 Excel 执行批量数据导入。通过本分步指南简化您的数据处理。
 type: docs
 weight: 10
 url: /zh/java/excel-import-export/bulk-data-import-excel/

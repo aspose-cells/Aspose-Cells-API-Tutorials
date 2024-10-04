@@ -124,7 +124,7 @@ Ano! I když se tato příručka zaměřuje na .NET, Aspose.Cells je k dispozici
  Absolutně! Můžete[stáhnout zkušební verzi zdarma](https://releases.aspose.com/) a prozkoumat jeho vlastnosti.
 
 ### Jak získám podporu pro Aspose.Cells?
- Můžete navštívit[Aspose fórum podpory](https://forum.aspose.com/c/cells/9)klást otázky a hledat řešení.
+ Můžete navštívit[Aspose fórum podpory](https://forum.aspose.com/c/cells/9) klást otázky a hledat řešení.
 
 ### Mohu generovat sestavy Excel pomocí Aspose.Cells?
 Ano! Aspose.Cells poskytuje výkonné funkce pro bezproblémové vytváření a generování složitých zpráv aplikace Excel.

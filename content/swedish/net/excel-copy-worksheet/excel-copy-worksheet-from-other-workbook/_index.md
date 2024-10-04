@@ -72,19 +72,19 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Här skapar vi den första arbetsboken och fyller i det första kalkylbladet (`ws0`med rubriker och detaljrader. Dessa simulerade data hjälper dig att visualisera kopieringsprocessen senare.
+Här skapar vi den första arbetsboken och fyller i det första kalkylbladet (`ws0`) med rubriker och detaljrader. Dessa simulerade data hjälper dig att visualisera kopieringsprocessen senare.
 
 ## Steg 3: Ställ in sidinställningar för utskrift
 
 Låt oss konfigurera sidinställningarna för att upprepa rubrikrader vid utskrift, bara så att vi kan se den funktionen i aktion:
 
 ```csharp
-// Definiera ett siduppsättningsobjekt baserat på det första kalkylbladet
+//Definiera ett siduppsättningsobjekt baserat på det första kalkylbladet
 PageSetup pagesetup = ws0.PageSetup;
 // De första fem raderna upprepas på varje sida
 pagesetup.PrintTitleRows = "$1:$5";
 ```
- Den här delen definierar hur ditt dokument kommer att skrivas ut. Genom att ställa in`PrintTitleRows`, ser vi till att de första fem raderna kommer att visas på varje utskriven sida, vilket är väldigt användbart för läsbarheten.
+ Den här delen definierar hur ditt dokument ska skrivas ut. Genom att ställa in`PrintTitleRows`, ser vi till att de första fem raderna kommer att visas på varje utskriven sida, vilket är super användbart för läsbarheten.
 
 ## Steg 4: Skapa den andra arbetsboken
 
@@ -109,7 +109,7 @@ Låt oss kopiera innehållet från den första arbetsbokens kalkylblad till den 
 // första arbetsbladet i den andra arbetsboken
 ws1.Copy(ws0);
 ```
- De`Copy` metoden tar allt innehåll från källarbetsbladet (`ws0`) och duplicerar det till målarbetsbladet (`ws1`). Så enkelt, eller hur?
+ De`Copy` metoden tar allt innehåll från källarbetsbladet (`ws0`och duplicerar det till målarbetsbladet (`ws1`). Så enkelt, eller hur?
 
 ## Steg 6: Spara den nya arbetsboken
 
@@ -137,7 +137,7 @@ Aspose.Cells är ett .NET-bibliotek som låter utvecklare skapa, manipulera, kon
  Du kan begära en tillfällig licens genom att besöka[denna länk](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag hitta mer dokumentation om Aspose.Cells?  
- Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/cells/net/).
+Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/cells/net/).
 
 ### Finns det någon support tillgänglig för Aspose.Cells-användare?  
  Absolut! Du kan få stöd genom[Aspose forum](https://forum.aspose.com/c/cells/9).

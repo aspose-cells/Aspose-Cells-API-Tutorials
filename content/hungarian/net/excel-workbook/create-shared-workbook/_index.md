@@ -55,9 +55,8 @@ Ebben a lépésben meg kell határoznia, hogy a kimeneti fájl hova kerüljön m
 
 ```csharp
 //Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Itt egy módszert használunk`RunExamples.Get_OutputDirectory()` megadni azt a mappát, ahová a generált Excel fájl mentésre kerül. Győződjön meg arról, hogy ez a módszer definiálva van a kódban a megfelelő kimeneti feldolgozás érdekében.
 
 ## 2. lépés: A munkafüzet objektum létrehozása
 
@@ -77,7 +76,7 @@ Itt az ideje, hogy munkafüzetét együttműködési remekművé tegye! Megoszt�
 //Oszd meg a munkafüzetet
 wb.Settings.Shared = true;
 ```
- Beállítás`wb.Settings.Shared` hogy`true` azt jelzi, hogy ezt a munkafüzetet egyszerre több felhasználó is elérheti. Ez olyan, mintha kiosztaná a háza kulcsait a barátoknak – tetszés szerint jöhetnek-mennek!
+ Beállítás`wb.Settings.Shared` hogy`true`azt jelzi, hogy ezt a munkafüzetet egyszerre több felhasználó is elérheti. Ez olyan, mintha kiosztaná a háza kulcsait a barátoknak – tetszés szerint jöhetnek-mennek!
 
 ## 4. lépés: Mentse el a megosztott munkafüzetet
 

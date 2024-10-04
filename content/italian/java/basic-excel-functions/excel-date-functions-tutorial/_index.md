@@ -139,7 +139,7 @@ System.out.println("End of Month: " + endOfMonth);
 
 ## Conclusione
 
-Questo tutorial ha fornito una panoramica completa delle funzioni data di Excel e di come utilizzarle utilizzando Aspose.Cells per Java. Hai imparato come impostare Aspose.Cells, utilizzare le funzioni DATE, TODAY, DATEDIF ed EOMONTH ed eseguire calcoli di data a livello di programmazione. Con questa conoscenza, puoi semplificare le tue attività relative alle date in Excel e migliorare le tue applicazioni Java.
+Questo tutorial ha fornito una panoramica completa delle funzioni data di Excel e di come utilizzarle tramite Aspose.Cells per Java. Hai imparato come impostare Aspose.Cells, utilizzare le funzioni DATE, TODAY, DATEDIF ed EOMONTH ed eseguire calcoli di data a livello di programmazione. Con questa conoscenza, puoi semplificare le tue attività relative alle date in Excel e migliorare le tue applicazioni Java.
 
 ## Domande frequenti
 

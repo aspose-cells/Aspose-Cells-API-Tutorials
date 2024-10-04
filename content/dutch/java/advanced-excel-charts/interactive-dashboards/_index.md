@@ -10,7 +10,7 @@ url: /nl/java/advanced-excel-charts/interactive-dashboards/
 
 ## Invoering
 
-In de snelle wereld van datagestuurde besluitvorming spelen interactieve dashboards een cruciale rol. Ze bieden een dynamische en intuïtieve manier om data te visualiseren, waardoor het voor bedrijven gemakkelijker wordt om inzichten te vergaren en weloverwogen keuzes te maken. Aspose.Cells voor Java biedt een krachtige toolset voor het maken van interactieve dashboards die ruwe data kunnen transformeren in zinvolle en interactieve visualisaties. In deze stapsgewijze handleiding onderzoeken we hoe u Aspose.Cells voor Java kunt gebruiken om interactieve dashboards vanaf nul te bouwen.
+In de snelle wereld van datagedreven besluitvorming spelen interactieve dashboards een cruciale rol. Ze bieden een dynamische en intuïtieve manier om data te visualiseren, waardoor het voor bedrijven gemakkelijker wordt om inzichten te vergaren en weloverwogen keuzes te maken. Aspose.Cells voor Java biedt een krachtige toolset voor het maken van interactieve dashboards die ruwe data kunnen transformeren in zinvolle en interactieve visualisaties. In deze stapsgewijze handleiding onderzoeken we hoe u Aspose.Cells voor Java kunt gebruiken om interactieve dashboards vanaf nul te bouwen.
 
 ## Vereisten
 

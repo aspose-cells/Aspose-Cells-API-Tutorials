@@ -53,7 +53,7 @@ Pojďme si implementaci rozdělit do zvládnutelných kroků. Vytvoříme jednod
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Vytvoření datového proudu souboru pro otevření souboru aplikace Excel
+// Vytvoření datového proudu souboru pro otevření souboru Excel
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  The`FileStream` nám umožňuje číst zadaný soubor Excel. Ujistěte se, že jste změnili "VÁŠ ADRESÁŘ DOKUMENTŮ" na skutečnou cestu, kde se nachází váš soubor Excel.

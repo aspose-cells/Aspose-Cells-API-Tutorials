@@ -100,7 +100,7 @@ Vysvětlení: Zde uložíme sešit pod novým názvem (`RemoveSpecificPageBreak_
 
 ## Závěr
 
-A tady to máte! Odstranění konkrétních konců stránek ze souboru aplikace Excel pomocí Aspose.Cells for .NET je stejně jednoduché jako provedení výše uvedených kroků. Pomocí této příručky můžete zajistit, aby vaše dokumenty Excel byly perfektně naformátovány pro tisk, aniž by vám překážely nějaké zbloudilé konce stránek.
+A tady to máte! Odstranění konkrétních konců stránek ze souboru aplikace Excel pomocí Aspose.Cells for .NET je stejně jednoduché jako provedení výše uvedených kroků. Pomocí této příručky můžete zajistit, že vaše dokumenty Excel budou perfektně naformátovány pro tisk, aniž by vám překážely nějaké zbloudilé konce stránek.
 
 ## FAQ
 

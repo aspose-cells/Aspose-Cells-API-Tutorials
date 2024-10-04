@@ -16,7 +16,7 @@ No mundo digital de hoje, gerenciar dados com segurança em planilhas é mais cr
 Antes de mergulhar nos detalhes da proteção de células, há alguns pré-requisitos que você deve ter em mente:
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado no seu computador. É o IDE primário para desenvolvimento .NET.
-2. Biblioteca Aspose.Cells: Você precisa ter a biblioteca Aspose.Cells disponível em seu projeto. Você pode instalá-la facilmente por meio do NuGet Package Manager ou baixá-la diretamente do[Site Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells: Você precisa ter a biblioteca Aspose.Cells disponível em seu projeto. Você pode instalá-la facilmente por meio do NuGet Package Manager ou baixá-la diretamente do[Site Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: Um pouco de familiaridade com a programação em C# ajudará você a acompanhar sem problemas.
 
 ## Importando Pacotes

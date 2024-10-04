@@ -86,7 +86,7 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-这里，我们访问的是工作簿的第一张工作表。Excel 文件中可以有多个工作表，但在本演示中，我们重点介绍第一张工作表。这就像打开一本书中的特定页面进行阅读。
+这里，我们访问工作簿的第一个工作表。Excel 文件中可以有多个工作表，但在本演示中，我们重点介绍第一个工作表。这就像打开一本书中的特定页面进行阅读。
 
 ## 步骤 6：应用冻结窗格设置
 

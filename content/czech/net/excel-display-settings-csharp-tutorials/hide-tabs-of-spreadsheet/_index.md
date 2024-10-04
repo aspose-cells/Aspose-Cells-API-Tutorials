@@ -38,7 +38,7 @@ Než začne jakékoli kódování, je důležité správně nastavit vývojové 
 1.  Vytvoření nového projektu: Otevřete Visual Studio, vytvořte nový projekt Console App a pojmenujte jej nějak popisně, například`HideExcelTabs`.
 2. Přidat referenci Aspose.Cells: Přejděte do Správce balíčků NuGet a vyhledejte „Aspose.Cells for .NET“. Nainstalujte jej do svého projektu.
  Případně, pokud pracujete offline, můžete[stáhnout Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) a přidejte soubor DLL ručně do odkazů na váš projekt.
-3.  Připravte soubor Excel: Umístěte soubor Excel, který chcete upravit (např.`book1.xls`) v adresáři vašeho projektu. Ujistěte se, že znáte cestu k souboru.
+3.  Připravte soubor Excel: Umístěte soubor Excel, který chcete upravit (např.`book1.xls`) ve vašem projektovém adresáři. Ujistěte se, že znáte cestu k souboru.
 
 ## Krok 2: Otevřete soubor aplikace Excel
 
@@ -104,7 +104,7 @@ A tady to máte! Úspěšně jste skryli záložky listů v souboru aplikace Exc
 ### Mohu skrýt konkrétní karty v sešitu namísto skrytí všech karet?  
  Ne, skrytí karet přes`ShowTabs` vlastnost skryje nebo zobrazí všechny záložky listů najednou. Pokud chcete skrýt jednotlivé listy, můžete nastavit viditelnost každého listu zvlášť.
 
-### Jak mohu zobrazit náhled skrytých karet v aplikaci Excel?  
+### Jak mohu zobrazit náhled skrytých karet v Excelu?  
  Můžete přepínat`ShowTabs` majetek zpět do`true` pomocí stejné struktury kódu, pokud potřebujete zobrazit náhled nebo obnovit karty.
 
 ### Ovlivní skrytí karet data nebo funkčnost sešitu?  

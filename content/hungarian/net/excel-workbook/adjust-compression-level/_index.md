@@ -43,12 +43,10 @@ Most, hogy mindent beállítottunk, bontsuk fel a tömörítési szintek beáll�
 Először is meg kell határoznunk, hogy hol tároljuk a fájljainkat. Ez magában foglalja a forráskönyvtár megadását a bemeneti fájlunkhoz és a kimeneti könyvtárat a tömörített fájlokhoz.
 
 ```csharp
-//Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Forrás könyvtár
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Itt,`RunExamples.Get_SourceDirectory()` és`RunExamples.Get_OutputDirectory()` olyan metódusok, amelyek visszaadják a forrás- és kimeneti könyvtár elérési útját. 
 
 ## 2. lépés: Töltse be a munkafüzetet
 
@@ -131,7 +129,7 @@ Ez a sor megerősíti, hogy a teljes folyamat problémamentesen lezajlott.
 
 ## Következtetés
 
-A tömörítési szintek beállítása Excel-fájlok mentésekor az Aspose.Cells for .NET segítségével egyszerű, de hatékony technika. Az ebben az útmutatóban ismertetett lépések követésével könnyedén módosíthatja a fájlméreteket, így könnyebben kezelhetővé válik a tárolás és átvitel során. Akár gyors hozzáférésre van szüksége az adatokhoz, akár optimalizálni szeretné alkalmazása teljesítményét, ezeknek a technikáknak az elsajátítása kétségtelenül fejleszti fejlesztői készségeit.
+tömörítési szintek beállítása Excel-fájlok mentésekor az Aspose.Cells for .NET segítségével egyszerű, de hatékony technika. Az ebben az útmutatóban ismertetett lépések követésével könnyedén módosíthatja a fájlméreteket, így könnyebben kezelhetővé válik a tárolás és átvitel során. Akár gyors hozzáférésre van szüksége az adatokhoz, akár optimalizálni szeretné alkalmazása teljesítményét, ezeknek a technikáknak az elsajátítása kétségtelenül fejleszti fejlesztői készségeit.
 
 ## GYIK
 

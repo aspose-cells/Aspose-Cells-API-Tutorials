@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Nejprve vyměňte`"YOUR DOCUMENT DIRECTORY"` cestou, kam chcete soubory uložit. Tento kód zkontroluje, zda adresář existuje; pokud ne, vytvoří jeden.
+ Nejprve vyměňte`"YOUR DOCUMENT DIRECTORY"` s cestou, kam chcete soubory uložit. Tento kód zkontroluje, zda adresář existuje; pokud ne, vytvoří jeden.
 
 ## Krok 2: Vytvořte nový sešit
 

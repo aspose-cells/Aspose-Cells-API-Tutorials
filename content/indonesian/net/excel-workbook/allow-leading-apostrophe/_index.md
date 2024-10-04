@@ -42,12 +42,10 @@ Kami akan membagi tugas kami menjadi langkah-langkah yang dapat dikelola untuk m
 Pada langkah ini, kita perlu menentukan di mana file masukan dan keluaran kita akan ditempatkan.
 
 ```csharp
-//Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Direktori sumber
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Di sini, kami menggunakan metode utilitas`Get_SourceDirectory()` Dan`Get_OutputDirectory()` untuk mengatur jalur berkas dengan mudah. Anda dapat menyesuaikan jalur ini sesuai dengan struktur direktori Anda.
 
 ## Langkah 2: Buat Objek Desainer Buku Kerja
 
@@ -78,7 +76,7 @@ Sekarang, Anda perlu memastikan pengaturan buku kerja dikonfigurasikan untuk men
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Dengan pengaturan`QuotePrefixToStyle`menjadi false, kami menginstruksikan Aspose.Cells untuk memperlakukan apostrof di depan sebagai karakter biasa, yang memungkinkan kami menanganinya secara akurat dalam keluaran kami.
+ Dengan pengaturan`QuotePrefixToStyle` menjadi false, kami menginstruksikan Aspose.Cells untuk memperlakukan apostrof di depan sebagai karakter biasa, yang memungkinkan kami menanganinya secara akurat dalam keluaran kami.
 
 ## Langkah 5: Muat Data untuk Penanda Cerdas
 
@@ -146,7 +144,7 @@ Sekarang, apakah Anda membuat laporan, membuat fungsionalitas untuk analisis dat
 Aspose.Cells adalah pustaka .NET yang canggih untuk membuat, memanipulasi, dan mengonversi file Excel dalam berbagai format secara terprogram.
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat menggunakan Aspose.Cells dengan mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat menggunakan Aspose.Cells dengan mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
  Anda dapat menemukan bantuan dan mengajukan pertanyaan di[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).

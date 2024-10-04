@@ -8,7 +8,7 @@ description: Samouczki języka C# dotyczące Aspose.Cells oferują instrukcje kr
 ---
 ## Wstęp
 
-Czy jesteś gotowy, aby podnieść poziom swojej gry w Excelu dzięki Aspose.Cells dla .NET? Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, nasze samouczki są dostosowane specjalnie do Ciebie. Przeprowadzą Cię przez podstawowe operacje w Excelu, dzięki czemu złożone zadania będą dziecinnie proste!
+Czy jesteś gotowy, aby podnieść poziom swojej gry w Excelu dzięki Aspose.Cells dla .NET? Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, nasze samouczki są dostosowane specjalnie do Ciebie. Przeprowadzą Cię przez podstawowe operacje w Excelu, sprawiając, że złożone zadania będą dziecinnie proste!
 
 ## Dodawanie arkuszy kalkulacyjnych stało się proste
 

@@ -72,19 +72,19 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Tutaj tworzymy pierwszy skoroszyt i wypełniamy pierwszy arkusz (`ws0`z nagłówkami i wierszami szczegółów. Te symulowane dane pomogą Ci później zwizualizować proces kopiowania.
+Tutaj tworzymy pierwszy skoroszyt i wypełniamy pierwszy arkusz (`ws0`) z nagłówkami i wierszami szczegółów. Te symulowane dane pomogą Ci później zwizualizować proces kopiowania.
 
 ## Krok 3: Skonfiguruj ustawienia strony do drukowania
 
 Skonfigurujmy ustawienia strony tak, aby wiersze nagłówka były powtarzane podczas drukowania, abyśmy mogli zobaczyć tę funkcję w działaniu:
 
 ```csharp
-// Zdefiniuj obiekt ustawień stron na podstawie pierwszego arkusza kalkulacyjnego
+//Zdefiniuj obiekt ustawień stron na podstawie pierwszego arkusza kalkulacyjnego
 PageSetup pagesetup = ws0.PageSetup;
 // Pierwsze pięć rzędów powtarza się na każdej stronie
 pagesetup.PrintTitleRows = "$1:$5";
 ```
- Ta część definiuje sposób drukowania dokumentu. Poprzez ustawienie`PrintTitleRows`, dbamy o to, aby pierwsze pięć wierszy pojawiło się na każdej wydrukowanej stronie, co jest niezwykle przydatne ze względu na czytelność.
+ Ta część definiuje sposób drukowania dokumentu. Poprzez ustawienie`PrintTitleRows`, dbamy o to, aby pierwsze pięć wierszy pojawiło się na każdej wydrukowanej stronie, co jest niezwykle przydatne pod względem czytelności.
 
 ## Krok 4: Utwórz drugi skoroszyt
 
@@ -109,7 +109,7 @@ Skopiujmy zawartość arkusza pierwszego skoroszytu do drugiego skoroszytu:
 // pierwszy arkusz drugiego skoroszytu
 ws1.Copy(ws0);
 ```
- Ten`Copy` Metoda pobiera całą zawartość ze źródłowego arkusza kalkulacyjnego (`ws0`) i duplikuje go w arkuszu docelowym (`ws1`). Tak proste, prawda?
+ Ten`Copy` Metoda pobiera całą zawartość ze źródłowego arkusza kalkulacyjnego (`ws0`i duplikuje go w arkuszu docelowym (`ws1`). Tak proste, prawda?
 
 ## Krok 6: Zapisz nowy skoroszyt
 
@@ -137,7 +137,7 @@ Aspose.Cells to biblioteka .NET umożliwiająca programistom tworzenie, przetwar
  Możesz poprosić o tymczasową licencję, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?  
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Czy istnieje jakiekolwiek wsparcie dla użytkowników Aspose.Cells?  
  Oczywiście! Możesz uzyskać wsparcie poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9).

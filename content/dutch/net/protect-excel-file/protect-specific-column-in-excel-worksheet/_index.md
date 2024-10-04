@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Nu wilt u de eerste kolom specifiek vergrendelen, terwijl u alle andere kolommen bewerkbaar laat. Dit is hoe u dit kunt doen:
 
 ```csharp
-//Selecteer de eerste kolomstijl.
+// Selecteer de eerste kolomstijl.
 style = sheet.Cells.Columns[0].Style;
 // Doe het op slot.
 style.IsLocked = true;
-// De vlag instantiëren.
+//De vlag instantiëren.
 flag = new StyleFlag();
 // Stel de vergrendelingsinstelling in.
 flag.Locked = true;

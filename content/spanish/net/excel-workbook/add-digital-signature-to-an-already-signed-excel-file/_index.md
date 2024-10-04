@@ -41,10 +41,10 @@ Estos espacios de nombres le permitirán trabajar con archivos de Excel y gestio
 Antes de poder manipular los archivos de Excel, debe definir dónde se encuentran los archivos de origen y dónde desea guardar el archivo de salida. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
-//Directorio de fuentes
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Directorio de fuentes
+string sourceDir = "Your Document Directory";
 // Directorio de salida
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 En este paso, utilizamos un método para obtener las rutas de los directorios de origen y de salida. Asegúrese de que estos directorios existan y contengan los archivos necesarios.

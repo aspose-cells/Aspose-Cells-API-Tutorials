@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 //設定來源目錄
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
-這裡，`RunExamples.Get_SourceDirectory()`是您專案中可能具有的自訂方法，用於擷取包含範例檔案的資料夾的路徑。如果需要，請確保將其替換為實際路徑。
 
 ## 第 2 步：存取 Power Query 公式
 
@@ -111,7 +109,7 @@ Console.WriteLine("GetOdataDetails executed successfully.");
 
 ## 結論
 
-現在你就得到它了！透過幾個簡單的步驟，您就利用了 Aspose.Cells for .NET 的強大功能從 Excel 檔案中提取 OData 詳細資訊。令人驚訝的是，使用正確的工具和說明來深入研究複雜的資料管理任務是多麼簡單。透過使用 Aspose.Cells，您不僅可以讓您的工作變得更輕鬆；還可以讓您的工作更加輕鬆。您正在開啟資料操作的全新可能性領域。現在您已經掌握了基礎知識，請繼續進一步探索其功能 - 它會改變遊戲規則！
+現在你就擁有了！透過幾個簡單的步驟，您就利用了 Aspose.Cells for .NET 的強大功能從 Excel 檔案中提取 OData 詳細資訊。令人驚訝的是，使用正確的工具和說明來深入研究複雜的資料管理任務是多麼簡單。透過使用 Aspose.Cells，您不僅可以讓您的工作變得更輕鬆；還可以讓您的工作更加輕鬆。您正在開啟資料操作的全新可能性領域。現在您已經掌握了基礎知識，請繼續進一步探索其功能 - 它會改變遊戲規則！
 
 ## 常見問題解答
 

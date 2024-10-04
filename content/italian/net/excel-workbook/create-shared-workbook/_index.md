@@ -55,9 +55,8 @@ In questo passaggio, definirai dove verrà salvato il file di output. È come de
 
 ```csharp
 //Directory di uscita
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Qui stiamo usando un metodo`RunExamples.Get_OutputDirectory()` per specificare la cartella in cui verrà salvato il file Excel generato. Assicurati che questo metodo sia definito nel tuo codice per una corretta elaborazione dell'output.
 
 ## Passaggio 2: creare l'oggetto cartella di lavoro
 
@@ -77,7 +76,7 @@ Workbook wb = new Workbook();
 //Condividi la cartella di lavoro
 wb.Settings.Shared = true;
 ```
- Collocamento`wb.Settings.Shared` A`true` indica che questo workbook è accessibile a più utenti contemporaneamente. È come consegnare le chiavi di casa tua agli amici: possono andare e venire a loro piacimento!
+ Collocamento`wb.Settings.Shared` A`true`indica che questo workbook è accessibile a più utenti contemporaneamente. È come consegnare le chiavi di casa tua agli amici: possono andare e venire a loro piacimento!
 
 ## Passaggio 4: salvare la cartella di lavoro condivisa
 

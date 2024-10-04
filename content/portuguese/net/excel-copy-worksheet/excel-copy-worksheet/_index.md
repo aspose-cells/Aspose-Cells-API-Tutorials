@@ -55,7 +55,7 @@ using System;
 Agora que já fizemos a limpeza, vamos ao trabalho real: copiar uma planilha em uma pasta de trabalho do Excel.
 
 ## Etapa 1: Defina os caminhos do seu diretório
-A primeira coisa que você precisa é especificar o diretório onde seus arquivos do Excel estão localizados. Isso é essencial para carregar o arquivo no seu projeto e salvar a pasta de trabalho modificada.
+primeira coisa que você precisa é especificar o diretório onde seus arquivos do Excel estão localizados. Isso é essencial para carregar o arquivo no seu projeto e salvar a pasta de trabalho modificada.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -92,7 +92,7 @@ Agora, a parte emocionante — duplicar a planilha! Aqui, copiaremos o conteúdo
 sheets.AddCopy("Sheet1");
 ```
 
--  O`AddCopy` método duplica uma planilha existente (neste caso, "Planilha1") e adiciona a nova planilha à pasta de trabalho.
+-  O`AddCopy` O método duplica uma planilha existente (neste caso, "Planilha1") e adiciona a nova planilha à pasta de trabalho.
 -  Você pode substituir`"Sheet1"` com qualquer nome de planilha que você deseja copiar.
 
 ## Etapa 5: Salve a pasta de trabalho
@@ -119,7 +119,7 @@ Copiar uma planilha no Aspose.Cells para .NET não é apenas simples, mas també
  Sim, você pode copiar planilhas entre diferentes pastas de trabalho abrindo ambas as pastas de trabalho e usando o`AddCopy` método entre eles.
 
 ### Quais formatos do Excel o Aspose.Cells suporta?
- O Aspose.Cells oferece suporte a uma ampla variedade de formatos do Excel, incluindo`.xls`, `.xlsx`, `.csv`, `.html`, e muito mais.
+ Aspose.Cells oferece suporte a uma ampla variedade de formatos do Excel, incluindo`.xls`, `.xlsx`, `.csv`, `.html`, e muito mais.
 
 ### Preciso de uma licença para usar o Aspose.Cells para .NET?
  Sim, para evitar marcas d'água e desbloquear todo o potencial da biblioteca, você precisa de uma licença válida. No entanto, você pode solicitar uma[licença temporária gratuita](https://purchase.aspose.com/temporary-license) para experimentar antes de comprar.

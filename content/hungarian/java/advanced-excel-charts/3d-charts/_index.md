@@ -40,7 +40,7 @@ license.setLicense("path_to_license_file.xml");
 
 ## Alapvető 3D-s diagram készítése
 
-Most, hogy beállítottuk az Aspose.Cells for Java programot, hozzunk létre egy alapvető 3D diagramot.
+Most, hogy be van állítva az Aspose.Cells for Java, hozzunk létre egy alapvető 3D diagramot.
 
 ### Szükséges könyvtárak importálása
 

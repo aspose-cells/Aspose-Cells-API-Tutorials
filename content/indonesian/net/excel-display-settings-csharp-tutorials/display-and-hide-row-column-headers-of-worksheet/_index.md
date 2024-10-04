@@ -9,7 +9,7 @@ url: /id/net/excel-display-settings-csharp-tutorials/display-and-hide-row-column
 ---
 ## Perkenalan
 
-Memastikan lembar kerja Excel Anda terlihat profesional sangatlah penting, terutama saat membagikannya dengan kolega atau klien. Lembar kerja yang bersih dan bebas gangguan sering kali menghasilkan komunikasi yang lebih jelas dan penyajian data yang lebih baik. Salah satu fitur lembar kerja Excel yang sering diabaikan adalah tajuk baris dan kolom. Dalam beberapa kasus, Anda mungkin lebih suka menyembunyikan tajuk ini untuk memfokuskan perhatian pemirsa hanya pada data. Dengan Aspose.Cells for .NET, melakukan hal itu lebih mudah dari yang Anda kira. Mari kita bahas cara menampilkan dan menyembunyikan tajuk baris dan kolom dalam lembar kerja langkah demi langkah.
+Memastikan lembar kerja Excel Anda terlihat profesional sangatlah penting, terutama saat membagikannya dengan kolega atau klien. Lembar kerja yang bersih dan bebas gangguan sering kali menghasilkan komunikasi yang lebih jelas dan penyajian data yang lebih baik. Salah satu fitur lembar kerja Excel yang sering diabaikan adalah tajuk baris dan kolom. Dalam beberapa kasus, Anda mungkin lebih suka menyembunyikan tajuk ini untuk memfokuskan perhatian pemirsa hanya pada data. Dengan Aspose.Cells for .NET, melakukan hal itu lebih mudah dari yang Anda kira. Mari kita bahas cara menampilkan dan menyembunyikan tajuk baris dan kolom di lembar kerja langkah demi langkah.
 
 ## Prasyarat
 

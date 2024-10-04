@@ -52,7 +52,7 @@ Att hitta det tillvägagångssätt som fungerar bäst för dig är nyckeln. Dyk 
 | [Kontroll zoomfaktor för arbetsblad](./controll-zoom-factor-of-worksheet/) | Lär dig hur du kontrollerar zoomfaktorn för Excel-kalkylblad med Aspose.Cells för .NET i enkla steg. Förbättra läsbarheten i dina kalkylblad. |  
 | [Visa Och Dölj Rutnät Av Kalkylblad](./display-and-hide-gridlines-of-worksheet/) | Lär dig hur du visar och döljer rutnät i Excel-kalkylblad med Aspose.Cells för .NET. Steg-för-steg handledning med kodexempel och förklaringar. |  
 | [Visa och dölj radkolumnrubriker av arbetsblad](./display-and-hide-row-column-headers-of-worksheet/) | Lär dig hur du döljer rad- och kolumnrubriker i Excel med Aspose.Cells för .NET med denna steg-för-steg-guide. |  
-| [Visa och dölj rullningslister av arbetsblad](./display-and-hide-scroll-bars-of-worksheet/) | Visa eller dölj rullningslister i Excel-kalkylblad med Aspose.Cells för .NET. |  
+| [Visa och dölja rullningslister av arbetsblad](./display-and-hide-scroll-bars-of-worksheet/) | Visa eller dölj rullningslister i Excel-kalkylblad med Aspose.Cells för .NET. |  
 | [Visa Fliken Av Kalkylarket](./display-tab-of-spreadsheet/) | Lär dig hur du visar fliken i ett kalkylblad med Aspose.Cells för .NET i den här steg-för-steg-guiden. Bemästra Excel-automatisering med lätthet i C#. |  
 | [Frys rutor av arbetsblad](./freeze-panes-of-worksheet/) | Lär dig hur du fryser rutor i Excel med Aspose.Cells för .NET med denna omfattande handledning, komplett med steg-för-steg-instruktioner och viktiga tips. |  
 | [Få pappersbredd och höjd på arbetsbladet](./get-paper-width-and-height-of-worksheet/) | Lär dig hur du får pappersbredden och höjden på kalkylblad i Aspose.Cells för .NET med en enkel steg-för-steg-guide. |  

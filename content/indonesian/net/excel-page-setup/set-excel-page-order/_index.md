@@ -43,7 +43,7 @@ Anda akan menetapkan variabel yang menunjuk ke direktori dokumen Anda seperti in
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pada baris ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan berkas. Misalnya, jika Anda ingin menyimpan berkas dalam folder bernama "ExcelFiles" di Desktop, mungkin akan terlihat seperti ini:
+ Pada baris ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan berkas. Misalnya, jika Anda ingin menyimpan berkas dalam folder bernama "ExcelFiles" di Desktop, tampilannya mungkin seperti ini:
 
 ```csharp
 string dataDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
@@ -120,4 +120,4 @@ Aspose.Cells adalah pustaka .NET yang menyediakan fitur untuk memanipulasi lemba
 Anda dapat memilih antara "Over Then Down" dan "Down Then Over" untuk urutan pencetakan halaman Anda.
 
 ### Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.Cells?
- Anda dapat menjelajahi lebih banyak contoh dan fungsi di[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).
+Anda dapat menjelajahi lebih banyak contoh dan fungsi di[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).

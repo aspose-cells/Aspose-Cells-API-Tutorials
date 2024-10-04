@@ -37,14 +37,12 @@ using System;
 أولاً، دعنا ننشئ دليل الإخراج الذي سنحفظ فيه ملف Excel الجديد. سيساعدك هذا في الحفاظ على تنظيم مشروعك.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- هنا،`RunExamples.Get_OutputDirectory()` هي عبارة عن استدعاء وظيفة يقوم باسترداد مسار معين لملفات الإخراج. تأكد من تعريف هذه الطريقة وأنها تشير إلى دليل صالح.
 
 ## الخطوة 2: إنشاء مصنف جديد
 
-الآن بعد أن أصبح لدينا دليل الإخراج، فلنقم بإنشاء مصنف جديد.`Workbook` الفصل هو نقطة البداية للتعامل مع ملفات Excel.
+ الآن بعد أن أصبح لدينا دليل الإخراج، فلنقم بإنشاء مصنف جديد.`Workbook`الفصل هو نقطة البداية للتعامل مع ملفات Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

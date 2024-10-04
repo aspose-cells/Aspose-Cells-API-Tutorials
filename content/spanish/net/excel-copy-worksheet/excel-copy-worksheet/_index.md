@@ -92,7 +92,7 @@ Ahora viene la parte más interesante: ¡duplicar la hoja de cálculo! Aquí, co
 sheets.AddCopy("Sheet1");
 ```
 
--  El`AddCopy`El método duplica una hoja de trabajo existente (en este caso, "Hoja1") y agrega la nueva hoja al libro de trabajo.
+-  El`AddCopy` El método duplica una hoja de trabajo existente (en este caso, "Hoja1") y agrega la nueva hoja al libro de trabajo.
 -  Puedes reemplazar`"Sheet1"` con cualquier nombre de hoja que quieras copiar.
 
 ## Paso 5: Guardar el libro de trabajo
@@ -119,7 +119,7 @@ Copiar una hoja de cálculo en Aspose.Cells para .NET no solo es sencillo, sino 
  Sí, puede copiar hojas de trabajo entre diferentes libros de trabajo abriendo ambos libros de trabajo y usando el`AddCopy` método entre ellos.
 
 ### ¿Qué formatos de Excel admite Aspose.Cells?
- Aspose.Cells admite una amplia gama de formatos de Excel, incluidos`.xls`, `.xlsx`, `.csv`, `.html`, y mucho más.
+Aspose.Cells admite una amplia gama de formatos de Excel, incluidos`.xls`, `.xlsx`, `.csv`, `.html`, y mucho más.
 
 ### ¿Necesito una licencia para usar Aspose.Cells para .NET?
  Sí, para evitar las marcas de agua y aprovechar todo el potencial de la biblioteca, necesita una licencia válida. Sin embargo, puede solicitar una[licencia temporal gratuita](https://purchase.aspose.com/temporary-license) Para probarlo antes de comprarlo.

@@ -139,7 +139,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 ### Aspose.Cells とは何ですか?  
 Aspose.Cells は、開発者がプログラムによって Excel ファイルを作成、操作、変換できるようにする強力な .NET ライブラリです。
 
-### Excel ワークシート内の特定のセルを保護することはできますか?  
+### Excel ワークシート内の特定のセルを保護できますか?  
 はい、Aspose.Cells を使用すると、特定の編集可能な範囲を定義し、ワークシートの残りの部分を保護できます。
 
 ### Aspose.Cells の試用版はありますか?  

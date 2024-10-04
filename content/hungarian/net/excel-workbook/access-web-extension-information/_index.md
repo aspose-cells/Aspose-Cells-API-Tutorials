@@ -39,7 +39,7 @@ using System;
 Kezdje azzal, hogy meghatározza azt a forráskönyvtárat, ahol az Excel-fájlt tárolja. Ez biztosítja, hogy a program tudja, hol keresse azt a fájlt, amellyel dolgozni szeretne.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## 2. lépés: Töltse be az Excel-munkafüzetet

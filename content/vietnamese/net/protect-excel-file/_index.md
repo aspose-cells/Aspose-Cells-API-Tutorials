@@ -15,7 +15,7 @@ Nếu bạn đang tìm hiểu về tự động hóa và thao tác Excel bằng 
 
 Hãy tưởng tượng bạn cần xử lý một lượng lớn dữ liệu trong Excel. Bạn có thể nghĩ, "Điều đó không phải sẽ mất mãi mãi sao?" Hãy nhập Aspose.Cells: giống như có một siêu năng lực để thao tác dữ liệu. Thư viện này không chỉ cho phép bạn chỉnh sửa bảng tính; nó trao quyền cho bạn bảo vệ dữ liệu, đảm bảo thông tin quan trọng được giữ nguyên vẹn. Khi bạn bảo vệ các hàng hoặc cột cụ thể, giống như việc thiết lập một pháo đài xung quanh các số liệu quan trọng của bạn, chỉ cho phép những người phù hợp vào. 
 
-Chúng tôi đã đơn giản hóa quy trình này cho bạn bằng nhiều hướng dẫn từng bước. Ví dụ, hãy xem hướng dẫn của chúng tôi về cách[Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Bạn sẽ học cách cho phép người dùng sửa đổi các phần cụ thể của bảng tính mà không làm ảnh hưởng đến toàn bộ tài liệu. 
+ Chúng tôi đã đơn giản hóa quy trình này cho bạn bằng nhiều hướng dẫn từng bước. Ví dụ, hãy xem hướng dẫn của chúng tôi về cách[Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Bạn sẽ học cách cho phép người dùng sửa đổi các phần cụ thể của bảng tính mà không làm ảnh hưởng đến toàn bộ tài liệu. 
 
 ## Hướng dẫn được thiết kế riêng cho bạn
 

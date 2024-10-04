@@ -18,7 +18,7 @@ Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 1. Visual Studio: Upewnij się, że masz zainstalowany program Microsoft Visual Studio (najlepiej 2017 lub nowszy). Będzie on służył jako środowisko programistyczne. 
 2.  Biblioteka Aspose.Cells: Musisz mieć pobraną bibliotekę Aspose.Cells i odwołać się do niej w swoim projekcie. Możesz[pobierz bibliotekę tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
 3. Podstawowa znajomość języka C#: Choć przykłady kodu są przejrzyste, podstawowa znajomość języka C# ułatwi Ci wprowadzanie niezbędnych zmian.
-4. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na środowisko .NET Framework, w którym obsługiwany jest moduł Aspose.Cells.
+4. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na środowisko .NET Framework, w którym obsługiwany jest Aspose.Cells.
 
 A teraz przejdźmy do przyjemnej części — kodowania!
 
@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Teraz będziesz chciał zablokować konkretnie pierwszą kolumnę, pozostawiając wszystkie pozostałe kolumny edytowalne. Oto jak możesz to zrobić:
 
 ```csharp
-//Pobierz styl pierwszej kolumny.
+// Pobierz styl pierwszej kolumny.
 style = sheet.Cells.Columns[0].Style;
 // Zamknij to.
 style.IsLocked = true;
-// Utwórz instancję flagi.
+//Utwórz instancję flagi.
 flag = new StyleFlag();
 // Ustaw ustawienie blokady.
 flag.Locked = true;

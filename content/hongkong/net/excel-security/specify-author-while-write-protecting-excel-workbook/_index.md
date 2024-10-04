@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-security/specify-author-while-write-protecting-excel-wor
 ---
 ## 介紹
 
-當談到在 .NET 應用程式中處理 Excel 檔案時，Aspose.Cells 是許多開發人員的首選解決方案。其豐富的功能可讓您輕鬆產生、操作和保護 Excel 文件。開發人員面臨的一項常見要求是寫入 Excel 工作簿，同時確保其免受未經授權的編輯。此外，指定作者對於共享文件時的追蹤目的非常有用。在本指南中，我們將深入探討如何在使用 Aspose.Cells for .NET 撰寫保護 Excel 工作簿時指定作者。
+當談到在 .NET 應用程式中處理 Excel 檔案時，Aspose.Cells 是許多開發人員的首選解決方案。其豐富的功能可讓您輕鬆產生、操作和保護 Excel 文件。開發人員面臨的一項常見要求是寫入 Excel 工作簿，同時確保其免受未經授權的編輯。此外，在共享文件時，指定作者對於追蹤目的非常有用。在本指南中，我們將深入探討如何在使用 Aspose.Cells for .NET 撰寫保護 Excel 工作簿時指定作者。
 
 ## 先決條件
 
@@ -93,7 +93,7 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 
 ## 結論
 
-現在你就得到它了！您已經了解如何建立 Excel 工作簿、使用密碼設定寫入保護、指定作者以及使用 Aspose.Cells for .NET 無縫保存它。這種功能組合不僅可以保護您的數據，還可以保持其完整性並提供正確的歸屬。
+現在你就擁有了！您已經了解如何建立 Excel 工作簿、使用密碼設定寫入保護、指定作者以及使用 Aspose.Cells for .NET 無縫保存它。這種功能組合不僅可以保護您的數據，還可以保持其完整性並提供正確的歸屬。
 
 ## 常見問題解答
 

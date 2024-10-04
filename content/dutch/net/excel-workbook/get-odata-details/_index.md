@@ -2,7 +2,7 @@
 title: Odata-details ophalen
 linktitle: Odata-details ophalen
 second_title: Aspose.Cells voor .NET API-referentie
-description: Ontdek in deze gedetailleerde stapsgewijze zelfstudie hoe u OData-gegevens uit Excel kunt extraheren met Aspose.Cells voor .NET.
+description: Ontdek hoe u OData-gegevens uit Excel kunt extraheren met Aspose.Cells voor .NET in deze gedetailleerde stapsgewijze zelfstudie.
 type: docs
 weight: 110
 url: /nl/net/excel-workbook/get-odata-details/
@@ -30,7 +30,7 @@ Laten we onze codeerreis beginnen door de benodigde pakketten in ons project te 
 
 1. Open Visual Studio.
 2. Klik op 'Een nieuw project maken'.
-3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is bepalend.
+3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is voldoende.
 4. Geef uw project een naam (bijvoorbeeld ODataDetailsExtractor) en klik op 'Maken'.
 
 ### Installeer Aspose.Cells NuGet-pakket
@@ -61,11 +61,9 @@ Nu we onze ontwikkelomgeving hebben ingesteld, is het tijd om de hoofdcode te sc
 
 ```csharp
 // Stel de bronmap in
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Hier,`RunExamples.Get_SourceDirectory()` is een aangepaste methode die u mogelijk in uw project hebt die het pad naar de map met uw voorbeeldbestand ophaalt. Zorg ervoor dat u dit vervangt met het werkelijke pad indien nodig.
 
 ## Stap 2: Toegang tot Power Query-formules
 

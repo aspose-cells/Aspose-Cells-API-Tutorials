@@ -41,13 +41,11 @@ Nyní, když máme vše nastaveno, pojďme si rozdělit proces přidávání pod
 Nejprve musíme definovat, kde se nachází náš zdrojový soubor Excel a kam chceme uložit podepsaný výstupní soubor. Toto je zásadní krok, protože pomáhá efektivně organizovat vaše soubory.
 
 ```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Zdrojový adresář
+string sourceDir = "Your Document Directory";
 // Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- V tomto fragmentu kódu`RunExamples.Get_SourceDirectory()` a`RunExamples.Get_OutputDirectory()` jsou metody, které vracejí cesty ke zdrojovému a výstupnímu adresáři. Pokud tyto metody nepoužíváte, nezapomeňte je nahradit skutečnými cestami.
 
 ## Krok 2: Načtěte sešit
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Nahraďte svým heslem PFX
 string pfx = "pfxFile"; // Nahraďte cestu k vašemu souboru PFX
 ```
 
- V tomto kroku vyměňte`pfxPassword` se svým skutečným heslem a`pfxFile` cestou k vašemu souboru PFX. Toto je klíč k podpisu vašeho dokumentu!
+ V tomto kroku vyměňte`pfxPassword` se svým skutečným heslem a`pfxFile` s cestou k vašemu souboru PFX. To je klíč k podpisu vašeho dokumentu!
 
 ## Krok 4: Vytvořte digitální podpis
 
- Nyní vytvoříme digitální podpis pomocí`DigitalSignature` třída. Tady se děje kouzlo!
+ Nyní vytvoříme digitální podpis pomocí`DigitalSignature`třída. Tady se děje kouzlo!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

@@ -47,7 +47,7 @@ using System.Text;
 
 E assim, você se preparou para o sucesso! Vamos percorrer as etapas de criação de uma pasta de trabalho compartilhada.
 
-Agora estamos chegando na parte suculenta! Veja como criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET, dividido em etapas fáceis de seguir.
+Agora estamos chegando na parte mais interessante! Veja como criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET, dividido em etapas fáceis de seguir.
 
 ## Etapa 1: Defina o diretório de saída
 
@@ -55,9 +55,8 @@ Nesta etapa, você definirá onde o arquivo de saída será salvo. É como decid
 
 ```csharp
 //Diretório de saída
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Aqui, estamos usando um método`RunExamples.Get_OutputDirectory()` para especificar a pasta onde o arquivo Excel gerado será salvo. Certifique-se de que esse método esteja definido em seu código para processamento de saída adequado.
 
 ## Etapa 2: Crie o objeto Workbook
 
@@ -77,7 +76,7 @@ Workbook wb = new Workbook();
 //Compartilhe a pasta de trabalho
 wb.Settings.Shared = true;
 ```
- Contexto`wb.Settings.Shared` para`true` indica que esta pasta de trabalho pode ser acessada por vários usuários ao mesmo tempo. É como entregar as chaves da sua casa para amigos — eles podem entrar e sair quando quiserem!
+ Contexto`wb.Settings.Shared` para`true`indica que esta pasta de trabalho pode ser acessada por vários usuários ao mesmo tempo. É como entregar as chaves da sua casa para amigos — eles podem entrar e sair quando quiserem!
 
 ## Etapa 4: Salve a pasta de trabalho compartilhada
 

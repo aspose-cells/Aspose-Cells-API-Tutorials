@@ -43,7 +43,7 @@ Avant toute chose, spécifiez le chemin d'accès à votre répertoire de documen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel. Cette étape permet d'accéder en toute transparence à vos fichiers Excel.
+ Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel. Cette étape prépare le terrain pour accéder à vos fichiers Excel de manière transparente.
 
 ## Étape 2 : Créer un flux de fichiers pour le fichier Excel
 
@@ -75,7 +75,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 Dans cet extrait de code, nous accédons à la première feuille de calcul du classeur. Si vous avez plusieurs feuilles et que vous souhaitez accéder à une autre, modifiez l'index en conséquence.
 
-## Étape 5 : masquer les en-têtes de ligne et de colonne
+## Étape 5 : Masquer les en-têtes de ligne et de colonne
 
 Passons maintenant au moment que nous attendions ! C'est ici que nous masquons les en-têtes de ligne et de colonne de notre feuille de calcul.
 

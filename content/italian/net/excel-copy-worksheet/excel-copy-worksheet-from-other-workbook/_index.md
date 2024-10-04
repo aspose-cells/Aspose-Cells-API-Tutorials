@@ -25,7 +25,7 @@ Ora che abbiamo tutto a posto, iniziamo a programmare!
 
 ## Importa pacchetti
 
-Prima di iniziare a implementare la funzionalità, dobbiamo importare i pacchetti necessari. In questo modo, avrai accesso a tutte le funzionalità che Aspose.Cells ha da offrire. Ecco la tua guida passo passo:
+Prima di iniziare a implementare la funzionalità, dobbiamo importare i pacchetti necessari. In questo modo, avrai accesso a tutte le funzionalità che Aspose.Cells ha da offrire. Ecco la tua guida passo dopo passo:
 
 ### Aggiungere istruzioni di utilizzo
 
@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Qui creiamo la prima cartella di lavoro e popoliamo il primo foglio di lavoro (`ws0`con intestazioni e righe di dettaglio. Questi dati simulati ti aiuteranno a visualizzare il processo di copia in seguito.
+Qui creiamo la prima cartella di lavoro e popoliamo il primo foglio di lavoro (`ws0`) con intestazioni e righe di dettaglio. Questi dati simulati ti aiuteranno a visualizzare il processo di copia in seguito.
 
 ## Passaggio 3: impostare l'impostazione della pagina per la stampa
 
 Configuriamo l'impostazione di pagina in modo che le righe di intestazione vengano ripetute durante la stampa, così possiamo vedere questa funzionalità in azione:
 
 ```csharp
-// Definire un oggetto pagesetup basato sul primo foglio di lavoro
+//Definire un oggetto pagesetup basato sul primo foglio di lavoro
 PageSetup pagesetup = ws0.PageSetup;
 // Le prime cinque righe vengono ripetute in ogni pagina
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Copiamo il contenuto dal foglio di lavoro della prima cartella di lavoro alla se
 // primo foglio di lavoro del secondo quaderno di lavoro
 ws1.Copy(ws0);
 ```
- IL`Copy` il metodo prende tutto il contenuto dal foglio di lavoro di origine (`ws0`) e lo duplica nel foglio di lavoro di destinazione (`ws1`). Semplice, vero?
+ IL`Copy` il metodo prende tutto il contenuto dal foglio di lavoro di origine (`ws0`e lo duplica nel foglio di lavoro di destinazione (`ws1`). Semplice, vero?
 
 ## Passaggio 6: Salvare la nuova cartella di lavoro
 
@@ -137,7 +137,7 @@ Aspose.Cells è una libreria .NET che consente agli sviluppatori di creare, mani
  Puoi richiedere una licenza temporanea visitando[questo collegamento](https://purchase.aspose.com/temporary-license/).
 
 ### Dove posso trovare ulteriore documentazione su Aspose.Cells?  
- Puoi trovare la documentazione dettagliata[Qui](https://reference.aspose.com/cells/net/).
+Puoi trovare la documentazione dettagliata[Qui](https://reference.aspose.com/cells/net/).
 
 ### Esiste supporto disponibile per gli utenti di Aspose.Cells?  
  Assolutamente! Puoi ottenere supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9).

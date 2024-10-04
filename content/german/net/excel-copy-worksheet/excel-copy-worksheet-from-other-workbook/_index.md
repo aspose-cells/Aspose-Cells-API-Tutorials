@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Hier erstellen wir die erste Arbeitsmappe und füllen das erste Arbeitsblatt (`ws0`mit Überschriften und Detailzeilen. Diese simulierten Daten helfen Ihnen später, den Kopiervorgang zu visualisieren.
+Hier erstellen wir die erste Arbeitsmappe und füllen das erste Arbeitsblatt (`ws0`) mit Überschriften und Detailzeilen. Diese simulierten Daten helfen Ihnen später, den Kopiervorgang zu visualisieren.
 
 ## Schritt 3: Seite für den Druck einrichten
 
 Lassen Sie uns die Seiteneinrichtung so konfigurieren, dass Kopfzeilen beim Drucken wiederholt werden, damit wir diese Funktion in Aktion sehen können:
 
 ```csharp
-// Definieren Sie ein Pagesetup-Objekt basierend auf dem ersten Arbeitsblatt
+//Definieren Sie ein Pagesetup-Objekt basierend auf dem ersten Arbeitsblatt
 PageSetup pagesetup = ws0.PageSetup;
 // Die ersten fünf Zeilen werden auf jeder Seite wiederholt
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Kopieren wir den Inhalt des Arbeitsblatts der ersten Arbeitsmappe in die zweite 
 // erstes Arbeitsblatt des zweiten Arbeitsbuches
 ws1.Copy(ws0);
 ```
- Der`Copy` Methode übernimmt den gesamten Inhalt aus dem Quellarbeitsblatt (`ws0`) und dupliziert es in das Zielarbeitsblatt (`ws1`). So einfach, oder?
+ Der`Copy` Methode übernimmt den gesamten Inhalt aus dem Quellarbeitsblatt (`ws0`und dupliziert es in das Zielarbeitsblatt (`ws1`). So einfach, oder?
 
 ## Schritt 6: Speichern der neuen Arbeitsmappe
 
@@ -137,7 +137,7 @@ Aspose.Cells ist eine .NET-Bibliothek, mit der Entwickler Excel-Dateien in versc
  Sie können eine temporäre Lizenz anfordern unter[dieser Link](https://purchase.aspose.com/temporary-license/).
 
 ### Wo finde ich weitere Dokumentation zu Aspose.Cells?  
- Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
+Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
 
 ### Gibt es Support für Aspose.Cells-Benutzer?  
  Auf jeden Fall! Sie erhalten Unterstützung durch das[Aspose-Forum](https://forum.aspose.com/c/cells/9).

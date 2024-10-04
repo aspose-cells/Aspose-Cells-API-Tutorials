@@ -42,7 +42,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Aspose.Cells for .NET kullanarak korunan bir Excel sayfasının kilidini açmaya gelince, adımlar basittir. Her adımı açıkça parçalara ayıracağız ve sizi süreç boyunca yönlendireceğiz.
+Aspose.Cells for .NET kullanarak korunan bir Excel sayfasının kilidini açmaya gelince, adımlar basittir. Her adımı açıkça açıklayacağız ve sizi süreç boyunca yönlendireceğiz.
 
 ## Adım 1: Dosya Yolunuzu Ayarlayın
 

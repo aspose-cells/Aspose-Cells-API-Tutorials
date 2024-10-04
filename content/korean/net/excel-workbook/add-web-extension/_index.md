@@ -43,10 +43,8 @@ using Aspose.Cells;
 먼저 수정된 통합 문서를 저장할 출력 디렉토리를 설정해야 합니다. 이렇게 하면 파일을 정리하는 데 도움이 됩니다.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- 여기,`RunExamples.Get_OutputDirectory()` 출력 디렉토리 경로를 검색하는 방법입니다. 시스템의 모든 위치를 가리키도록 수정할 수 있습니다.
-
 ## 2단계: 새 통합 문서 만들기
 
 다음으로, Workbook의 새 인스턴스를 만들어 보겠습니다. 여기서 모든 마법이 일어납니다!

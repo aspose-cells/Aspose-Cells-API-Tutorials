@@ -2,7 +2,7 @@
 title: إظهار وإخفاء رؤوس الصفوف والأعمدة في ورقة العمل
 linktitle: إظهار وإخفاء رؤوس الصفوف والأعمدة في ورقة العمل
 second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
-description: تعرف على كيفية إخفاء رؤوس الصفوف والأعمدة في Excel باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
+description: تعرف على كيفية إخفاء رؤوس الصفوف والأعمدة في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل خطوة بخطوة.
 type: docs
 weight: 40
 url: /ar/net/excel-display-settings-csharp-tutorials/display-and-hide-row-column-headers-of-worksheet/

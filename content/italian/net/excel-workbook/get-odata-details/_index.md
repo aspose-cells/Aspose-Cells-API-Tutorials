@@ -61,11 +61,9 @@ Ora che abbiamo impostato il nostro ambiente di sviluppo, è il momento di scriv
 
 ```csharp
 // Imposta la directory di origine
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Qui,`RunExamples.Get_SourceDirectory()` è un metodo personalizzato che potresti avere nel tuo progetto che recupera il percorso alla cartella contenente il tuo file di esempio. Assicurati di sostituirlo con il percorso effettivo, se necessario.
 
 ## Passaggio 2: accedere alle formule di Power Query
 

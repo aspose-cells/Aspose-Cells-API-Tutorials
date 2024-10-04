@@ -9,14 +9,14 @@ url: /fr/net/protect-excel-file/protect-column-in-excel-worksheet/
 ---
 ## Introduction
 
-Gérer des données dans des feuilles Excel peut donner l'impression de naviguer dans un labyrinthe. Une minute, vous modifiez simplement quelques chiffres, et la minute suivante, vous vous inquiétez que quelqu'un supprime accidentellement une formule importante. Mais n'ayez crainte ! Il existe un outil conçu pour rendre ce processus simple et sécurisé : Aspose.Cells pour .NET. Dans ce tutoriel, je vous guiderai à travers les étapes à suivre pour protéger une colonne spécifique dans une feuille de calcul Excel à l'aide de cette bibliothèque pratique. Plongeons-nous dans le vif du sujet !
+Gérer des données dans des feuilles Excel peut donner l'impression de naviguer dans un labyrinthe. Une minute, vous modifiez simplement quelques chiffres, et la minute suivante, vous vous inquiétez que quelqu'un supprime accidentellement une formule importante. Mais n'ayez crainte ! Il existe un outil conçu pour rendre ce processus simple et sécurisé : Aspose.Cells pour .NET. Dans ce didacticiel, je vous guiderai à travers les étapes à suivre pour protéger une colonne spécifique dans une feuille de calcul Excel à l'aide de cette bibliothèque pratique. Plongeons-nous dans le vif du sujet !
 
 ## Prérequis
 
 Avant de nous lancer dans ce voyage vers la protection des données, vous devez disposer de quelques éléments pour commencer :
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agit d'un environnement convivial pour le développement .NET.
-2. Bibliothèque Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells pour .NET. Si vous ne l'avez pas encore installée, vous pouvez l'obtenir à partir du[Page de téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Bibliothèque Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells pour .NET. Si vous ne l'avez pas encore installée, vous pouvez l'obtenir à partir du[Page de téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : avoir une certaine familiarité avec la programmation C# vous aidera à mieux comprendre le code.
 4. .NET Framework : assurez-vous que .NET Framework est configuré. Cette bibliothèque fonctionne parfaitement avec .NET Framework et .NET Core.
 
@@ -117,11 +117,11 @@ Cette boucle parcourt chaque colonne (de 0 à 255) et les déverrouille. Consid�
 Vient maintenant la partie amusante : verrouiller la colonne spécifique que vous souhaitez protéger. Dans notre exemple, nous allons verrouiller la première colonne (index 0).
 
 ```csharp
-//Obtenez le style de la première colonne.
+// Obtenez le style de la première colonne.
 style = sheet.Cells.Columns[0].Style;
 // Verrouille-le.
 style.IsLocked = true;
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 // Définissez le paramètre de verrouillage.
 flag.Locked = true;

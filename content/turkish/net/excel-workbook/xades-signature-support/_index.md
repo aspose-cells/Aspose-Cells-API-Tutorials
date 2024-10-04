@@ -41,13 +41,11 @@ Artık her şeyi ayarladığımıza göre, bir Excel dosyasına Xades imzası ek
 Öncelikle, kaynak Excel dosyamızın nerede bulunduğunu ve imzalı çıktı dosyasını nereye kaydetmek istediğimizi tanımlamamız gerekir. Bu önemli bir adımdır çünkü dosyalarınızı verimli bir şekilde düzenlemenize yardımcı olur.
 
 ```csharp
-//Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Kaynak dizini
+string sourceDir = "Your Document Directory";
 // Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- Bu kod parçacığında,`RunExamples.Get_SourceDirectory()` Ve`RunExamples.Get_OutputDirectory()` sırasıyla kaynak ve çıktı dizinlerinize giden yolları döndüren yöntemlerdir. Bu yöntemleri kullanmıyorsanız bunları gerçek yollarla değiştirdiğinizden emin olun.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // PFX şifrenizle değiştirin
 string pfx = "pfxFile"; // PFX dosyanızın yolunu kullanarak değiştirin
 ```
 
- Bu adımda, değiştirin`pfxPassword` gerçek şifrenizle ve`pfxFile`PFX dosyanızın yolu ile. Bu, belgenizi imzalamanın anahtarıdır!
+ Bu adımda, değiştirin`pfxPassword` gerçek şifrenizle ve`pfxFile` PFX dosyanızın yolu ile. Bu, belgenizi imzalamanın anahtarıdır!
 
 ## Adım 4: Dijital İmzayı Oluşturun
 
- Şimdi, dijital imzayı kullanarak oluşturalım`DigitalSignature` sınıf. Sihir burada gerçekleşiyor!
+ Şimdi, dijital imzayı kullanarak oluşturalım`DigitalSignature`sınıf. Sihir burada gerçekleşiyor!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

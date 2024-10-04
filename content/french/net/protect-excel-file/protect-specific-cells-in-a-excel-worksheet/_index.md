@@ -46,7 +46,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Ici, nous définissons une variable de chaîne`dataDir` qui pointe vers le répertoire de documents souhaité. Nous vérifions si ce répertoire existe. Si ce n'est pas le cas, nous le créons. Cela garantit que vous ne rencontrerez aucun problème lors de l'enregistrement ultérieur de votre fichier Excel.
+ Ici, nous définissons une variable de chaîne`dataDir` qui pointe vers le répertoire de documents souhaité. Nous vérifions si ce répertoire existe. Si ce n'est pas le cas, nous le créons. Cela vous garantit que vous ne rencontrerez aucun problème lors de l'enregistrement ultérieur de votre fichier Excel.
 
 ## Étape 2 : Créer un nouveau classeur
 

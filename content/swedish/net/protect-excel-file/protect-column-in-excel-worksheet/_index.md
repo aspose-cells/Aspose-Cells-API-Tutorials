@@ -16,7 +16,7 @@ Att hantera data i Excel-ark kan kännas som att navigera i en labyrint. Ena min
 Innan vi ger oss ut på denna resa för dataskydd, finns det några saker du behöver för att komma igång:
 
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är en vänlig miljö för .NET-utveckling.
-2. Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Om du inte har installerat det än kan du hämta det från[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Om du inte har installerat det än kan du hämta det från[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper om C#: Att ha lite förtrogenhet med C#-programmering hjälper dig att förstå koden bättre.
 4. .NET Framework: Se till att du har konfigurerat .NET Framework. Det här biblioteket fungerar sömlöst med både .NET Framework och .NET Core.
 
@@ -117,11 +117,11 @@ Denna loop går igenom varje kolumn (från 0 till 255) och låser upp dem. Se de
 Nu kommer det roliga – att låsa den specifika kolumnen du vill skydda. I vårt exempel låser vi den första kolumnen (index 0).
 
 ```csharp
-//Skaffa den första kolumnstilen.
+// Skaffa den första kolumnstilen.
 style = sheet.Cells.Columns[0].Style;
 // Lås den.
 style.IsLocked = true;
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 // Ställ in låsinställningen.
 flag.Locked = true;

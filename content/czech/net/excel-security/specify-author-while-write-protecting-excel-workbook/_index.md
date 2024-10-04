@@ -38,14 +38,14 @@ Tato direktiva vám umožní přístup ke třídám a metodám obsaženým v kni
 Před spuštěním sešitu je vhodné nastavit cesty, kde jsou umístěny zdrojové soubory a kam chcete uložit výstup. Postup:
 
 ```csharp
-//Zdrojový adresář
+// Zdrojový adresář
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Výstupní adresář
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Nezapomeňte vyměnit`"YOUR SOURCE DIRECTORY"` a`"YOUR OUTPUT DIRECTORY"` se skutečnými cestami na vašem počítači. Berte to jako vytvoření uklizeného pracovního prostoru, než začnete vytvářet své mistrovské dílo!
+ Nezapomeňte vyměnit`"YOUR SOURCE DIRECTORY"` a`"YOUR OUTPUT DIRECTORY"`se skutečnými cestami na vašem počítači. Berte to jako vytvoření uklizeného pracovního prostoru, než začnete vytvářet své mistrovské dílo!
 
 ## Krok 2: Vytvořte prázdný sešit
 

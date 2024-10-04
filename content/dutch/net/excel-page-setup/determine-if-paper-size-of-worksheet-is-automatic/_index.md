@@ -22,7 +22,7 @@ Hoewel Aspose.Cells veel taken vereenvoudigt, is een fundamenteel begrip van C# 
  Zorg ervoor dat Aspose.Cells in uw project is geïnstalleerd. U kunt het downloaden van de[website](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
 
 ### Ontwikkelomgeving
-U zou een IDE als Visual Studio moeten hebben ingesteld. Dit begeleidt u door het effectief verwerken en testen van uw code.
+zou een IDE als Visual Studio moeten hebben ingesteld. Dit begeleidt u door het effectief verwerken en testen van uw code.
 
 ### Voorbeeld Excel-bestanden
 U hebt voorbeeld bestanden nodig (`samplePageSetupIsAutomaticPaperSize-False.xlsx` En`samplePageSetupIsAutomaticPaperSize-True.xlsx`) voor testdoeleinden. Zorg ervoor dat deze bestanden in uw bronmap staan.
@@ -104,10 +104,10 @@ Aspose.Cells is een .NET-bibliotheek die is ontworpen voor het programmatisch be
 Ja! Aspose.Cells ondersteunt cross-platform ontwikkeling, zodat u in verschillende omgevingen kunt werken waar .NET beschikbaar is.
 
 ### Heb ik een licentie nodig voor Aspose.Cells?
-Hoewel u kunt beginnen met een gratis proefperiode, vereist voortgezet gebruik een gekochte licentie. Meer details vindt u[hier](https://purchase.aspose.com/buy).
+ Hoewel u kunt beginnen met een gratis proefperiode, vereist voortgezet gebruik een gekochte licentie. Meer details vindt u[hier](https://purchase.aspose.com/buy).
 
 ### Hoe kan ik controleren of het papierformaat van een werkblad automatisch wordt aangepast in C#?
- Zoals in de gids wordt getoond, kunt u de`IsAutomaticPaperSize` eigendom van de`PageSetup` klas.
+Zoals in de gids wordt getoond, kunt u de`IsAutomaticPaperSize` eigendom van de`PageSetup` klas.
 
 ### Waar kan ik meer informatie vinden over Aspose.Cells?
  U kunt uitgebreide documentatie en tutorials vinden[hier](https://reference.aspose.com/cells/net/).

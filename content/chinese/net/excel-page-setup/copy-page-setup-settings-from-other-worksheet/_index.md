@@ -103,7 +103,7 @@ Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
 ```
 
-这行代码本质上是将“TestSheet1”的所有格式应用到“TestSheet2”。这就像拍下一页的快照并将其粘贴到另一页上！
+这行代码实质上是将“TestSheet1”的所有格式应用到“TestSheet2”。这就像拍下一页的快照并将其粘贴到另一页上！
 
 ## 步骤 7：打印更新的纸张尺寸
 

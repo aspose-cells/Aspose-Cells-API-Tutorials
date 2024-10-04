@@ -62,7 +62,7 @@ book.Worksheets[0].ActiveCell = "A20";
 
 ## Krok 3: Rozdělte pracovní list
 
-Nyní, když je aktivní buňka nastavena, přejděme k zábavnější části – rozdělení listu! V tomto kroku se stane kouzlo. Pro snadnější prohlížení a navigaci budete moci list rozdělit do několika podoken.
+Nyní, když je aktivní buňka nastavena, přejděme k zábavnější části – rozdělení listu! V tomto kroku se děje kouzlo. Pro snadnější prohlížení a navigaci budete moci list rozdělit do několika podoken.
 
 Toto je jádro celého tutoriálu. Rozdělením listu vytvoříte samostatná podokna, která vám umožní procházet různými sekcemi listu aplikace Excel, aniž byste ztratili ze zřetele záhlaví nebo jiné důležité oblasti.
 
@@ -71,7 +71,7 @@ Toto je jádro celého tutoriálu. Rozdělením listu vytvoříte samostatná po
 book.Worksheets[0].Split();
 ```
 
- s`Split()` říkáte Aspose.Cells, aby rozdělil list v aktivní buňce (`A20` v tomto případě). Od tohoto okamžiku Excel vytvoří v listu rozdělení, které odděluje podokna, abyste mohli procházet nezávisle.
+ s`Split()` říkáte Aspose.Cells, aby rozdělil list v aktivní buňce (`A20` v tomto případě). Od tohoto bodu Excel vytvoří v listu rozdělení, které odděluje podokna, abyste mohli procházet nezávisle.
 
 ## Krok 4: Uložte sešit
 

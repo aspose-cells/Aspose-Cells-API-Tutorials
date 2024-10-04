@@ -53,7 +53,7 @@ Därefter kommer vi att skapa en ny arbetsbok där all manipulation kommer att s
 ```csharp
 Workbook wb = new Workbook();
 ```
- Den här raden initierar en ny instans av`Workbook` klass och skapa ett nytt arbetsblad som vi kan arbeta med.
+ Denna rad initierar en ny instans av`Workbook` klass och skapa ett nytt arbetsblad som vi kan arbeta med.
 
 ## Steg 3: Öppna arbetsbladet
 

@@ -41,10 +41,10 @@ using System.Text;
 Excel 파일을 조작하기 전에 소스 파일의 위치와 출력 파일을 저장할 위치를 정의해야 합니다. 방법은 다음과 같습니다.
 
 ```csharp
-//소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
+// 소스 디렉토리
+string sourceDir = "Your Document Directory";
 // 출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 이 단계에서는 소스 및 출력 디렉토리의 경로를 가져오는 방법을 사용합니다. 이러한 디렉토리가 존재하고 필요한 파일이 포함되어 있는지 확인하세요.

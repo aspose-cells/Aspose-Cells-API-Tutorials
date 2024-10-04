@@ -37,14 +37,12 @@ Aspose.Cells işlevlerine kolay erişim sağlamak için bu yönergeleri C# dosya
 İlk olarak, yeni Excel dosyamızı kaydedeceğimiz çıktı dizinini ayarlayalım. Bu, projenizi düzenli tutmanıza yardımcı olacaktır.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Burada,`RunExamples.Get_OutputDirectory()` çıktı dosyaları için belirlenmiş bir yolu alan bir fonksiyon çağrısıdır. Bu yöntemin tanımlandığından ve geçerli bir dizine işaret ettiğinden emin olun.
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 
-Artık çıktı dizinimiz olduğuna göre yeni bir çalışma kitabı oluşturalım.`Workbook` sınıf, Excel dosyalarıyla uğraşmanın başlangıç noktasıdır.
+ Artık çıktı dizinimiz olduğuna göre yeni bir çalışma kitabı oluşturalım.`Workbook`sınıf, Excel dosyalarıyla uğraşmanın başlangıç noktasıdır.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

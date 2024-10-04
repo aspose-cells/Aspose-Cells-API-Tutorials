@@ -47,13 +47,13 @@ using Aspose.Cells;
 सबसे पहले, हमें यह निर्दिष्ट करना होगा कि हमारी इनपुट एक्सेल फ़ाइल कहाँ स्थित है, साथ ही आवश्यक परिवर्तन करने के बाद हम आउटपुट फ़ाइल को कहाँ सहेजना चाहते हैं।
 
 ```csharp
-//स्रोत निर्देशिका
-string sourceDir = RunExamples.Get_SourceDirectory();
+// स्रोत निर्देशिका
+string sourceDir = "Your Document Directory";
 // आउटपुट निर्देशिका
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- यहाँ,`RunExamples.Get_SourceDirectory()` और`RunExamples.Get_OutputDirectory()` उपयोगिता फ़ंक्शन हैं जो आपको स्रोत और आउटपुट पथ को सुविधाजनक रूप से पकड़ने में मदद करते हैं। सुनिश्चित करें कि आपकी स्रोत निर्देशिका में नाम की एक फ़ाइल है`SampleRegexReplace.xlsx` इस उदाहरण के लिए.
+ यहाँ,`"Your Document Directory"` और`"Your Document Directory"` उपयोगिता फ़ंक्शन हैं जो आपको स्रोत और आउटपुट पथ को सुविधाजनक रूप से पकड़ने में मदद करते हैं। सुनिश्चित करें कि आपकी स्रोत निर्देशिका में नाम की एक फ़ाइल है`SampleRegexReplace.xlsx` इस उदाहरण के लिए.
 
 ## चरण 2: कार्यपुस्तिका लोड करना
 

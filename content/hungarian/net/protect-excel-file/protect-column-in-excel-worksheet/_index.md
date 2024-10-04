@@ -16,7 +16,7 @@ Az Excel-lapokon belüli adatok kezelése olyan érzés lehet, mint egy labirint
 Mielőtt nekivágnánk az adatvédelmi útnak, néhány dolgot meg kell tennie az induláshoz:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a számítógépére. Ez egy barátságos környezet a .NET fejlesztéshez.
-2. Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Ha még nem telepítette, letöltheti a webhelyről[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Ha még nem telepítette, letöltheti a webhelyről[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: Ha ismeri a C# programozást, akkor jobban megértheti a kódot.
 4. .NET-keretrendszer: Győződjön meg arról, hogy be van állítva a .NET-keretrendszer. Ez a könyvtár zökkenőmentesen működik a .NET-keretrendszerrel és a .NET Core-al is.
 
@@ -33,7 +33,7 @@ Mint minden kódolási kalandnál, az első lépés a kellékek összegyűjtése
 
 ### Használati irányelv hozzáadása
 
-Győződjön meg róla, hogy a C# fájl tetején tartalmazza a következő direktívát:
+Győződjön meg arról, hogy a C#-fájl tetején tartalmazza a következőket az utasítás használatával:
 
 ```csharp
 using System.IO;
@@ -117,11 +117,11 @@ Ez a hurok átmegy minden oszlopon (0-tól 255-ig), és feloldja azokat. Tekints
 Most jön a szórakoztató rész – a védeni kívánt oszlop zárolása. Példánkban az első oszlopot zároljuk (0. index).
 
 ```csharp
-//Szerezze meg az első oszlopstílust.
+// Szerezze meg az első oszlopstílust.
 style = sheet.Cells.Columns[0].Style;
 // Zárd be.
 style.IsLocked = true;
-// Példányosítsa a zászlót.
+//Példányosítsa a zászlót.
 flag = new StyleFlag();
 // Állítsa be a zár beállítását.
 flag.Locked = true;

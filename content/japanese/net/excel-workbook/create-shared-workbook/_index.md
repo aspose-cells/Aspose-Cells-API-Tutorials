@@ -55,9 +55,8 @@ using System.Text;
 
 ```csharp
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-ここでは、メソッドを使用しています`RunExamples.Get_OutputDirectory()`生成された Excel ファイルを保存するフォルダーを指定します。適切な出力処理のために、このメソッドがコード内で定義されていることを確認してください。
 
 ## ステップ2: ワークブックオブジェクトを作成する
 

@@ -17,7 +17,7 @@ Innan vi dyker med huvudet i vårt kodningsäventyr, låt oss ta en stund för a
 
 1. Visual Studio: Se till att du har Visual Studio installerat, eftersom det är utvecklingsmiljön vi kommer att använda.
 2. .NET Framework: Se till att ditt projekt är konfigurerat med .NET-ramverket som är kompatibelt med Aspose.Cells. I allmänhet fungerar .NET Core eller .NET Framework 4.5 och högre.
-3. Aspose.Cells Library: Du måste ha Aspose.Cells för .NET. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells Library: Du måste ha Aspose.Cells för .NET. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
 4. Grundläggande kunskaper om C#: Bekantskap med C#-syntax och struktur är avgörande, eftersom vi kommer att skriva kodsegment genom den här guiden.
 
 När du har dessa förutsättningar på plats är du redo att hoppa in i en värld av Excel-manipulation!
@@ -39,7 +39,7 @@ Låt oss nu dela upp processen för att ställa in ett Excel-utskriftsområde st
 
 Skapa en variabel för att ange platsen för dina Excel-dokument. 
 
-När du arbetar med ett projekt är det viktigt att ha en definierad sökväg där dina filer finns eller kommer att sparas. I vårt fall kommer vi att definiera en variabel som heter`dataDir` enligt följande:
+ När du arbetar med ett projekt är det viktigt att ha en definierad sökväg där dina filer finns eller kommer att sparas. I vårt fall kommer vi att definiera en variabel som heter`dataDir` enligt följande:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -105,7 +105,7 @@ Genom att ställa in utskriftsområdet i en Excel-fil med Aspose.Cells för .NET
 Aspose.Cells är ett .NET-bibliotek för att skapa, manipulera och konvertera Excel-kalkylblad utan att behöva Microsoft Excel.
 
 ### Hur laddar jag ner Aspose.Cells?
- Du kan ladda ner Aspose.Cells för .NET från[släpp sida](https://releases.aspose.com/cells/net/).
+ Du kan ladda ner Aspose.Cells för .NET från[släppsidan](https://releases.aspose.com/cells/net/).
 
 ### Kan jag använda Aspose.Cells gratis?
  Ja, Aspose erbjuder en[gratis provperiod](https://releases.aspose.com/) för dig att testa bibliotekets funktioner.

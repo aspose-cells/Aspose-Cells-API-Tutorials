@@ -39,7 +39,7 @@ using System.Text;
 
 ```csharp
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 このコード行は、生成されたファイルが保存されるディレクトリ パスを取得します。このディレクトリが存在することを確認してください。存在しない場合、後でファイルが見つからないというエラーが発生する可能性があります。

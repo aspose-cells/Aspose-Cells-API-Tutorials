@@ -53,7 +53,7 @@ Jetzt geht der Spaß erst richtig los! Wir zerlegen den von Ihnen bereitgestellt
 
 ```csharp
 // Definieren Sie das Quellverzeichnis
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Diese Zeile verweist auf das Verzeichnis, das die Excel-Datei enthält. Stellen Sie sicher, dass Sie den Pfad entsprechend dem Speicherort Ihrer Datei anpassen.

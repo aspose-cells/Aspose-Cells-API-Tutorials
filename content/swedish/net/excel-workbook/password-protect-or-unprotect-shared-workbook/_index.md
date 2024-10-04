@@ -39,7 +39,7 @@ Det första du behöver göra är att definiera var din utdatafil ska sparas. De
 
 ```csharp
 // Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Denna kodrad hämtar katalogsökvägen där den genererade filen kommer att lagras. Se till att den här katalogen finns; Annars kan du få ett felmeddelande om att filen inte hittades senare.

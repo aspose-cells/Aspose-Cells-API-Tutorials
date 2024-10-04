@@ -53,7 +53,7 @@ Ora, ecco dove inizia il divertimento! Scomporremo il frammento di codice che ha
 
 ```csharp
 // Definire la directory di origine
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Questa riga punta alla directory contenente il file Excel. Assicurati di adattare il percorso in base alla posizione del tuo file.

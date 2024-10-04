@@ -16,7 +16,7 @@ Het beheren van gegevens in Excel-sheets kan aanvoelen als het navigeren door ee
 Voordat we aan deze reis van gegevensbescherming beginnen, zijn er een paar dingen die u moet weten:
 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw computer is geïnstalleerd. Het is een vriendelijke omgeving voor .NET-ontwikkeling.
-2. Aspose.Cells-bibliotheek: U hebt de Aspose.Cells for .NET-bibliotheek nodig. Als u deze nog niet hebt geïnstalleerd, kunt u deze ophalen via de[Aspose.Cells Downloadpagina](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells-bibliotheek: U hebt de Aspose.Cells for .NET-bibliotheek nodig. Als u deze nog niet hebt geïnstalleerd, kunt u deze ophalen via de[Aspose.Cells Downloadpagina](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Als u enige kennis hebt van C#-programmering, kunt u de code beter begrijpen.
 4. .NET Framework: Zorg ervoor dat u het .NET Framework hebt ingesteld. Deze bibliotheek werkt naadloos met zowel .NET Framework als .NET Core.
 
@@ -117,11 +117,11 @@ Deze lus gaat door elke kolom (van 0 tot 255) en ontgrendelt ze. Beschouw dit al
 Nu komt het leuke gedeelte: het vergrendelen van de specifieke kolom die u wilt beschermen. In ons voorbeeld vergrendelen we de eerste kolom (index 0).
 
 ```csharp
-//Selecteer de eerste kolomstijl.
+// Selecteer de eerste kolomstijl.
 style = sheet.Cells.Columns[0].Style;
 // Doe het op slot.
 style.IsLocked = true;
-// De vlag instantiëren.
+//De vlag instantiëren.
 flag = new StyleFlag();
 // Stel de vergrendelingsinstelling in.
 flag.Locked = true;

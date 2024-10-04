@@ -9,7 +9,7 @@ url: /nl/net/excel-page-setup/set-excel-headers-and-footers/
 ---
 ## Invoering
 
-Als het gaat om het beheren van spreadsheetdocumenten, spelen kopteksten en voetteksten een cruciale rol bij het bieden van context. Stel je voor dat je een Excel-bestand opent en helemaal bovenaan de naam van het werkblad, de datum en misschien zelfs de bestandsnaam ziet. Het geeft je document een professionele uitstraling en helpt belangrijke details in één oogopslag te communiceren. Als je de professionaliteit van je Excel-sheets wilt verbeteren met Aspose.Cells voor .NET, ben je hier aan het juiste adres! In deze gids leiden we je door de stappen om moeiteloos kopteksten en voetteksten in je Excel-spreadsheets in te stellen. 
+Als het gaat om het beheren van spreadsheetdocumenten, spelen kopteksten en voetteksten een cruciale rol bij het bieden van context. Stel je voor dat je een Excel-bestand opent en helemaal bovenaan zie je de naam van het werkblad, de datum en misschien zelfs de bestandsnaam. Het geeft je document een professionele uitstraling en helpt belangrijke details in één oogopslag te communiceren. Als je de professionaliteit van je Excel-sheets wilt verbeteren met Aspose.Cells voor .NET, ben je hier aan het juiste adres! In deze gids leiden we je door de stappen om moeiteloos kopteksten en voetteksten in je Excel-spreadsheets in te stellen. 
 
 ## Vereisten
 

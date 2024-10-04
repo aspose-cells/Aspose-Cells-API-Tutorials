@@ -104,7 +104,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // इसे ताला लगाओ.
 style.IsLocked = true;
-// ध्वज को उदाहरणित करें।
+//ध्वज को उदाहरणित करें।
 flag = new StyleFlag();
 // लॉक सेटिंग सेट करें.
 flag.Locked = true;

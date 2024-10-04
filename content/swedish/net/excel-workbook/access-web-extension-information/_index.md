@@ -39,7 +39,7 @@ using System;
 Börja med att definiera källkatalogen där din Excel-fil lagras. Detta säkerställer att ditt program vet var det ska leta efter filen du vill arbeta med.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Steg 2: Ladda Excel-arbetsboken

@@ -97,7 +97,7 @@ validationList.setFormula1("List1"); // Xác định nguồn danh sách của b�
 validationList.setShowDropDown(true);
 ```
 
-## Bảo vệ các trang tính và sổ làm việc
+## Bảo vệ Worksheet và Workbook
 
 Để tăng cường bảo mật hơn nữa, hãy bảo vệ các bảng tính và sổ làm việc của bạn. Aspose.Cells for Java cung cấp các cơ chế bảo vệ mạnh mẽ.
 

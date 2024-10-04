@@ -56,7 +56,7 @@ Worksheet worksheet = workbook.getWorksheets().add("ChartSheet");
 
 ### 4. Skapa ett diagram
 
-Låt oss skapa ett diagram på kalkylbladet. Till exempel skapar vi ett kolumndiagram:
+Låt oss skapa ett diagram på arbetsbladet. Till exempel skapar vi ett kolumndiagram:
 
 ```java
 // Lägg till ett diagram i arbetsbladet

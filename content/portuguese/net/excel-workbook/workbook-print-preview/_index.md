@@ -54,8 +54,8 @@ Agora que temos tudo pronto, vamos mergulhar no processo passo a passo para cria
 Para começar nossa aventura em visualizações de impressão, precisamos definir onde nosso arquivo Excel de origem está localizado. Este é seu ponto de entrada, então vamos configurá-lo:
 
 ```csharp
-//Diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Diretório de origem
+string sourceDir = "Your Document Directory";
 ```
 
  Este código está nos ajudando a encontrar o caminho onde`Book1.xlsx` reside, tornando referências futuras muito mais fáceis.

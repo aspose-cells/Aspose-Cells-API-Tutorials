@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 // 소스 디렉토리 설정
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- 여기,`RunExamples.Get_SourceDirectory()` 는 샘플 파일이 들어 있는 폴더의 경로를 검색하는 프로젝트에 있을 수 있는 사용자 지정 방법입니다. 필요한 경우 실제 경로로 바꿔야 합니다.
 
 ## 2단계: Power Query 수식 액세스
 

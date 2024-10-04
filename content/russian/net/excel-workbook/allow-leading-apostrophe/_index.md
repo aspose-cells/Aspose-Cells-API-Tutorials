@@ -42,12 +42,10 @@ using System.Collections.Generic;
 На этом этапе нам необходимо определить, где будут располагаться наши входные и выходные файлы.
 
 ```csharp
-//Исходный каталог
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Исходный каталог
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Здесь мы используем методы утилиты`Get_SourceDirectory()` и`Get_OutputDirectory()` для удобной установки наших путей к файлам. Вы можете настроить эти пути в соответствии со своей структурой каталогов.
 
 ## Шаг 2: Создание объекта конструктора рабочей книги
 
@@ -78,7 +76,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Установив`QuotePrefixToStyle`значение false, мы указываем Aspose.Cells обрабатывать начальные апострофы как обычные символы, что позволяет нам правильно обрабатывать их в наших выходных данных.
+ Установив`QuotePrefixToStyle` значение false, мы указываем Aspose.Cells обрабатывать начальные апострофы как обычные символы, что позволяет нам правильно обрабатывать их в наших выходных данных.
 
 ## Шаг 5: Загрузка данных для интеллектуальных маркеров
 
@@ -146,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells — мощная библиотека .NET для программного создания, обработки и преобразования файлов Excel в различные форматы.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, вы можете использовать Aspose.Cells, подписавшись на бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете использовать Aspose.Cells, подписавшись на бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 
 ### Как я могу получить поддержку по Aspose.Cells?
  Вы можете найти помощь и задать вопросы на[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).

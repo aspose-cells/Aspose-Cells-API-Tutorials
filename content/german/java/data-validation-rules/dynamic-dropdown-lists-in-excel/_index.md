@@ -92,7 +92,7 @@ Das Erstellen dynamischer Dropdown-Listen in Excel mit Aspose.Cells für Java is
 
 ### Kann ich mit dynamischen Dropdown-Listen eine bedingte Formatierung auf Zellen anwenden?
 
-Ja, Sie können bedingte Formatierung auf Zellen mit dynamischen Dropdown-Listen anwenden. Aspose.Cells für Java bietet umfassende Formatierungsoptionen, mit denen Sie Zellen basierend auf bestimmten Bedingungen hervorheben können.
+Ja, Sie können Zellen mit dynamischen Dropdown-Listen bedingte Formatierungen zuweisen. Aspose.Cells für Java bietet umfassende Formatierungsoptionen, mit denen Sie Zellen basierend auf bestimmten Bedingungen hervorheben können.
 
 ### Ist es möglich, kaskadierende Dropdown-Listen zu erstellen?
 

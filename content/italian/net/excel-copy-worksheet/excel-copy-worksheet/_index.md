@@ -92,7 +92,7 @@ Ora la parte emozionante: la duplicazione del foglio di lavoro! Qui, copieremo i
 sheets.AddCopy("Sheet1");
 ```
 
--  IL`AddCopy`Il metodo duplica un foglio di lavoro esistente (in questo caso, "Sheet1") e aggiunge il nuovo foglio alla cartella di lavoro.
+-  IL`AddCopy` Il metodo duplica un foglio di lavoro esistente (in questo caso, "Sheet1") e aggiunge il nuovo foglio alla cartella di lavoro.
 -  Puoi sostituire`"Sheet1"` con qualsiasi nome di foglio che desideri copiare.
 
 ## Passaggio 5: salvare la cartella di lavoro
@@ -119,7 +119,7 @@ Copiare un foglio di lavoro in Aspose.Cells per .NET non è solo semplice, ma an
  Sì, puoi copiare i fogli di lavoro tra diverse cartelle di lavoro aprendo entrambe le cartelle di lavoro e utilizzando`AddCopy` metodo tra di loro.
 
 ### Quali formati Excel supporta Aspose.Cells?
- Aspose.Cells supporta un'ampia gamma di formati Excel, tra cui`.xls`, `.xlsx`, `.csv`, `.html`e altro ancora.
+Aspose.Cells supporta un'ampia gamma di formati Excel, tra cui`.xls`, `.xlsx`, `.csv`, `.html`e altro ancora.
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells per .NET?
  Sì, per evitare le filigrane e sbloccare il pieno potenziale della libreria, hai bisogno di una licenza valida. Tuttavia, puoi richiedere una[licenza temporanea gratuita](https://purchase.aspose.com/temporary-license) per provarlo prima di acquistarlo.

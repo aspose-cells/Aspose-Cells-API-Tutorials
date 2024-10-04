@@ -38,14 +38,14 @@ Esta diretiva permitirá que você acesse as classes e métodos incluídos na bi
 Antes de iniciar a pasta de trabalho, é uma boa ideia configurar os caminhos onde seus arquivos de origem estão localizados e onde você gostaria de salvar sua saída. Veja como fazer isso:
 
 ```csharp
-//Diretório de origem
+// Diretório de origem
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Diretório de saída
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Certifique-se de substituir`"YOUR SOURCE DIRECTORY"` e`"YOUR OUTPUT DIRECTORY"` com caminhos reais na sua máquina. Pense nisso como criar um espaço de trabalho organizado antes de começar a criar sua obra-prima!
+ Certifique-se de substituir`"YOUR SOURCE DIRECTORY"` e`"YOUR OUTPUT DIRECTORY"`com caminhos reais na sua máquina. Pense nisso como criar um espaço de trabalho organizado antes de começar a criar sua obra-prima!
 
 ## Etapa 2: Crie uma pasta de trabalho vazia
 

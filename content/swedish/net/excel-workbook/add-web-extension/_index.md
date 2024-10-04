@@ -43,10 +43,8 @@ Vi är nu redo att lägga till ett webbtillägg till en Excel-arbetsbok. Följ d
 Först måste du ställa in utdatakatalogen där du ska spara din modifierade arbetsbok. Detta hjälper till att hålla dina filer organiserade.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Här,`RunExamples.Get_OutputDirectory()` är en metod som hämtar sökvägen till utdatakatalogen. Du kan ändra detta så att det pekar på valfri plats på ditt system.
-
 ## Steg 2: Skapa en ny arbetsbok
 
 Låt oss sedan skapa en ny instans av en arbetsbok. Det är här all magi händer!
@@ -124,7 +122,7 @@ Låt oss slutligen skriva ut ett bekräftelsemeddelande till konsolen för att i
 ```csharp
 Console.WriteLine("AddWebExtension executed successfully.");
 ```
-Det är alltid bra med lite feedback. Det här meddelandet bekräftar att ditt tillägg har lagts till utan några hicka.
+Det är alltid bra med lite feedback. Det här meddelandet bekräftar att ditt tillägg har lagts till utan några problem.
 
 ## Slutsats
 

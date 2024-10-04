@@ -66,7 +66,7 @@ Selanjutnya, kita akan membuat contoh kelas Workbook. Kelas ini adalah tulang pu
 Workbook workbook = new Workbook();
 ```
 
- Saat Anda membuat instance baru dari`Workbook`kelas, Anda pada dasarnya memulai lembaran kosong—siap untuk bertindak. Anggap saja seperti membuka buku catatan kosong tempat Anda dapat mencatat semua yang Anda butuhkan.
+ Saat Anda membuat instance baru dari`Workbook` kelas, Anda pada dasarnya memulai lembaran kosong—siap untuk bertindak. Anggap saja seperti membuka buku catatan kosong tempat Anda dapat mencatat semua yang Anda butuhkan.
 
 ## Langkah 3: Menambahkan Lembar Kerja Baru
 
@@ -116,10 +116,10 @@ Dengan Aspose.Cells, kemungkinannya tidak terbatas. Anda dapat memanipulasi data
 Aspose.Cells untuk .NET adalah pustaka yang hebat untuk membuat, memanipulasi, dan mengonversi file Excel tanpa perlu menginstal Microsoft Excel.
 
 ### Bisakah saya menambahkan beberapa lembar sekaligus?  
- Ya, cukup panggil saja`Add()`metode beberapa kali, dan rujuk setiap lembar berdasarkan indeksnya!
+ Ya, cukup panggil saja`Add()` metode beberapa kali, dan rujuk setiap lembar berdasarkan indeksnya!
 
 ### Apakah ada versi uji coba gratis Aspose.Cells?  
- Tentu saja! Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya memformat lembar baru setelah menambahkannya?  
 Tentu saja! Anda dapat menerapkan gaya, format, dan bahkan rumus ke lembar kerja Anda menggunakan fitur-fitur pustaka.

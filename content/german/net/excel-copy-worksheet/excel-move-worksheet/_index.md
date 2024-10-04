@@ -124,7 +124,7 @@ Ja! Während sich dieser Leitfaden auf .NET konzentriert, ist Aspose.Cells auch 
  Absolut! Sie können[Kostenlose Testversion herunterladen](https://releases.aspose.com/) und erkunden Sie seine Funktionen.
 
 ### Wie erhalte ich Unterstützung für Aspose.Cells?
- Besuchen Sie die[Aspose-Supportforum](https://forum.aspose.com/c/cells/9)um Fragen zu stellen und Lösungen zu finden.
+ Besuchen Sie die[Aspose-Supportforum](https://forum.aspose.com/c/cells/9) um Fragen zu stellen und Lösungen zu finden.
 
 ### Kann ich mit Aspose.Cells Excel-Berichte erstellen?
 Ja! Aspose.Cells bietet leistungsstarke Funktionen zum nahtlosen Erstellen und Generieren komplexer Excel-Berichte.

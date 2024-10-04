@@ -41,13 +41,11 @@ Teraz, gdy wszystko już skonfigurowaliśmy, możemy podzielić proces dodawania
 Najpierw musimy zdefiniować, gdzie znajduje się nasz plik źródłowy Excel i gdzie chcemy zapisać podpisany plik wyjściowy. Jest to kluczowy krok, ponieważ pomaga w wydajnej organizacji plików.
 
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Katalog źródłowy
+string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- W tym fragmencie kodu,`RunExamples.Get_SourceDirectory()` I`RunExamples.Get_OutputDirectory()` to metody, które zwracają ścieżki do katalogów źródłowych i wyjściowych. Upewnij się, że zastąpisz je rzeczywistymi ścieżkami, jeśli nie używasz tych metod.
 
 ## Krok 2: Załaduj skoroszyt
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Zastąp swoim hasłem PFX
 string pfx = "pfxFile"; // Zastąp ścieżką do pliku PFX
 ```
 
- W tym kroku zastąp`pfxPassword` z Twoim prawdziwym hasłem i`pfxFile`ze ścieżką do pliku PFX. To jest klucz do podpisania dokumentu!
+ W tym kroku zastąp`pfxPassword` z Twoim prawdziwym hasłem i`pfxFile` ze ścieżką do pliku PFX. To jest klucz do podpisania dokumentu!
 
 ## Krok 4: Utwórz podpis cyfrowy
 
- Teraz utwórzmy podpis cyfrowy za pomocą`DigitalSignature` klasa. To tutaj dzieje się magia!
+ Teraz utwórzmy podpis cyfrowy za pomocą`DigitalSignature`klasa. To tutaj dzieje się magia!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

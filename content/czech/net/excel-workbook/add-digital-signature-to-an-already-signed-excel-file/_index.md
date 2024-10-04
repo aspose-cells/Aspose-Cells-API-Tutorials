@@ -41,10 +41,10 @@ Tyto jmenné prostory vám umožní pracovat se soubory aplikace Excel a bezprob
 Než budete moci manipulovat se soubory aplikace Excel, musíte definovat, kde jsou umístěny zdrojové soubory a kam chcete uložit výstupní soubor. Jak na to:
 
 ```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Zdrojový adresář
+string sourceDir = "Your Document Directory";
 // Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 V tomto kroku používáme metodu k získání cest pro zdrojový a výstupní adresář. Ujistěte se, že tyto adresáře existují a obsahují požadované soubory.

@@ -10,7 +10,7 @@ url: /de/java/advanced-excel-charts/waterfall-charts/
 
 ## Einführung in Wasserfalldiagramme mit Aspose.Cells für Java
 
-Wasserfalldiagramme sind ein wichtiges Werkzeug bei der Datenvisualisierung, mit dem Sie die kumulative Wirkung von nacheinander eingeführten positiven oder negativen Werten verfolgen können. In diesem Handbuch erfahren Sie, wie Sie mithilfe der Aspose.Cells-API für Java beeindruckende Wasserfalldiagramme erstellen. Egal, ob Sie an Finanzberichten, Verkaufsanalysen oder einem datengesteuerten Projekt arbeiten, Wasserfalldiagramme können Ihnen wertvolle Einblicke in Ihre Daten bieten.
+Wasserfalldiagramme sind ein wichtiges Werkzeug zur Datenvisualisierung, mit dem Sie die kumulative Wirkung von nacheinander eingeführten positiven oder negativen Werten verfolgen können. In diesem Handbuch erfahren Sie, wie Sie mithilfe der Aspose.Cells-API für Java beeindruckende Wasserfalldiagramme erstellen. Ganz gleich, ob Sie an Finanzberichten, Verkaufsanalysen oder einem datengesteuerten Projekt arbeiten, Wasserfalldiagramme können Ihnen wertvolle Einblicke in Ihre Daten bieten.
 
 ## Voraussetzungen
 

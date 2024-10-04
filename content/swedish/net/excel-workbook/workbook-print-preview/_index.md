@@ -16,7 +16,7 @@ När det gäller att hantera och manipulera Excel-filer är Aspose.Cells för .N
 Innan vi går in i kodningsåtgärden, låt oss se till att du har allt du behöver för att komma igång. Här är en checklista med förutsättningar:
 
 1. Visual Studio: Du behöver en IDE, och Visual Studio är ett utmärkt val för .NET-projekt.
-2. Aspose.Cells för .NET: Du kan ladda ner biblioteket eller, om du föredrar det, kan du börja med den kostnadsfria testversionen för att få fötterna blöta. Gå bara över till[denna länk](https://releases.aspose.com).
+2. Aspose.Cells för .NET: Du kan ladda ner biblioteket eller, om du föredrar det, kan du börja med den kostnadsfria testversionen för att få fötterna blöta. Gå bara till[denna länk](https://releases.aspose.com).
 3. Grundläggande kunskaper om C#: Att förstå grunderna i C# kommer att hjälpa dig att följa med utan problem.
 4. .NET Framework: Se till att du har en kompatibel version av .NET Framework installerad på din dator.
 5.  Ett exempel på en Excel-fil: För den här handledningen behöver du en Excel-fil att arbeta med. Du kan använda en exempelfil med namnet`Book1.xlsx`.
@@ -54,8 +54,8 @@ Nu när vi har allt på plats, låt oss dyka in i steg-för-steg-processen för 
 För att börja vårt äventyr i förhandsgranskningar av utskrifter måste vi definiera var vår Excel-källfil finns. Det här är din ingångspunkt, så låt oss ställa in det:
 
 ```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Källkatalog
+string sourceDir = "Your Document Directory";
 ```
 
  Den här koden hjälper oss att hitta vägen dit`Book1.xlsx` finns, vilket gör framtida referenser mycket enklare.

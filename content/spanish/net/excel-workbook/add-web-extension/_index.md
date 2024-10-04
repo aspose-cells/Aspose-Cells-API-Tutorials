@@ -43,10 +43,8 @@ Ahora estamos listos para agregar una extensión web a un libro de Excel. Siga e
 En primer lugar, debe configurar el directorio de salida donde guardará el libro de trabajo modificado. Esto ayuda a mantener organizados los archivos.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Aquí,`RunExamples.Get_OutputDirectory()` es un método que recupera la ruta al directorio de salida. Puede modificarlo para que apunte a cualquier ubicación en su sistema.
-
 ## Paso 2: Crear un nuevo libro de trabajo
 
 A continuación, vamos a crear una nueva instancia de un libro de trabajo. ¡Aquí es donde ocurre toda la magia!

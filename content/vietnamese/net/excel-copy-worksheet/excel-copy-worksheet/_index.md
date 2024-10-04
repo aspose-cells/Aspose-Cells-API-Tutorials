@@ -33,7 +33,7 @@ Install-Package Aspose.Cells
 
 - [Mua giấy phép](https://purchase.aspose.com/buy) hoặc[Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
-Sử dụng thư viện mà không có giấy phép sẽ áp dụng hình mờ vào tệp đầu ra của bạn, vì vậy hãy đảm bảo bạn đã có giấy phép!
+Sử dụng thư viện mà không có giấy phép sẽ áp dụng hình mờ vào tệp đầu ra của bạn, vì vậy hãy đảm bảo bạn đã chuẩn bị sẵn giấy phép!
 
 ### Thiết lập môi trường phát triển của bạn
 Đảm bảo bạn đã cài đặt những thứ sau:
@@ -92,7 +92,7 @@ Bây giờ đến phần thú vị—sao chép bảng tính! Ở đây, chúng t
 sheets.AddCopy("Sheet1");
 ```
 
--  Các`AddCopy`phương pháp này sao chép một bảng tính hiện có (trong trường hợp này là "Sheet1") và thêm bảng tính mới vào sổ làm việc.
+-  Các`AddCopy` phương pháp này sao chép một bảng tính hiện có (trong trường hợp này là "Sheet1") và thêm bảng tính mới vào sổ làm việc.
 -  Bạn có thể thay thế`"Sheet1"` với bất kỳ tên trang tính nào bạn muốn sao chép.
 
 ## Bước 5: Lưu sổ làm việc
@@ -119,7 +119,7 @@ Sao chép một bảng tính trong Aspose.Cells cho .NET không chỉ đơn gi�
  Có, bạn có thể sao chép các trang tính giữa các sổ làm việc khác nhau bằng cách mở cả hai sổ làm việc và sử dụng`AddCopy` phương pháp giữa chúng.
 
 ### Aspose.Cells hỗ trợ những định dạng Excel nào?
- Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm`.xls`, `.xlsx`, `.csv`, `.html`và nhiều hơn nữa.
+Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm`.xls`, `.xlsx`, `.csv`, `.html`và nhiều hơn nữa.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells cho .NET không?
  Có, để tránh hình mờ và mở khóa toàn bộ tiềm năng của thư viện, bạn cần có giấy phép hợp lệ. Tuy nhiên, bạn có thể yêu cầu[giấy phép tạm thời miễn phí](https://purchase.aspose.com/temporary-license) để dùng thử trước khi mua.

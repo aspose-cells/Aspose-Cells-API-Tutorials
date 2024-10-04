@@ -43,12 +43,10 @@ Setelah semuanya siap, mari kita bagi proses penyesuaian tingkat kompresi menjad
 Pertama-tama, kita perlu menentukan di mana file-file kita akan disimpan. Ini melibatkan penentuan direktori sumber untuk file input dan direktori output untuk file-file terkompresi.
 
 ```csharp
-//Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Direktori sumber
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Di Sini,`RunExamples.Get_SourceDirectory()` Dan`RunExamples.Get_OutputDirectory()` adalah metode yang mengembalikan jalur ke direktori sumber dan keluaran Anda, masing-masing. 
 
 ## Langkah 2: Muat Buku Kerja
 

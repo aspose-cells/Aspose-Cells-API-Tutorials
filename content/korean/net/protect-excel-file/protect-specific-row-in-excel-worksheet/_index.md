@@ -104,7 +104,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // 잠그세요.
 style.IsLocked = true;
-// 플래그를 인스턴스화합니다.
+//플래그를 인스턴스화합니다.
 flag = new StyleFlag();
 // 잠금설정을 합니다.
 flag.Locked = true;

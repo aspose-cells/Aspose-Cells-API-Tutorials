@@ -53,12 +53,12 @@ Zunächst müssen Sie ermitteln, wo sich Ihre Excel-Quelldatei befindet und wo S
 
 ```csharp
 //Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Hier ersetzen Sie`RunExamples.Get_SourceDirectory()` Und`RunExamples.Get_OutputDirectory()` mit tatsächlichen Pfaden, wo Ihre Dateien gespeichert sind.
+ Hier ersetzen Sie`"Your Document Directory"` Und`"Your Document Directory"` mit tatsächlichen Pfaden, wo Ihre Dateien gespeichert sind.
 
 ## Schritt 2: Laden Sie die Excel-Datei
 
@@ -149,7 +149,7 @@ Und da haben Sie es! Sie haben die Feinheiten des Entfernens von Druckereinstell
 Aspose.Cells ist eine leistungsstarke Bibliothek, mit der Entwickler Excel-Dateien in .NET-Anwendungen erstellen, bearbeiten und konvertieren können.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?  
- Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Funktionen erkunden können. Schauen Sie sich die[Link zur kostenlosen Testversion](https://releases.aspose.com/).
+Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Funktionen erkunden können. Schauen Sie sich die[Link zur kostenlosen Testversion](https://releases.aspose.com/).
 
 ### Muss ich Microsoft Excel installieren, um Aspose.Cells zu verwenden?  
 Nein, Aspose.Cells arbeitet unabhängig von Microsoft Excel. Sie müssen Excel nicht auf Ihrem Computer installiert haben.

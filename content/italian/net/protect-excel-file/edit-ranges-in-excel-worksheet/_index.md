@@ -80,11 +80,11 @@ Prima di poter impostare gli intervalli modificabili, dobbiamo recuperare la rac
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 ```
 
-Questa riga recupera la collezione in cui gestirai i tuoi range protetti. È bene sapere cosa c'è di disponibile sotto il cofano!
+Questa riga recupera la collezione in cui gestirai i tuoi range protetti. È bene sapere cosa c'è sotto il cofano!
 
 ## Passaggio 5: definire e creare un intervallo protetto
 
-questo punto, siamo pronti a definire in quale intervallo vuoi consentire le modifiche. Creiamo questo intervallo.
+A questo punto, siamo pronti a definire in quale intervallo vuoi consentire le modifiche. Creiamo questo intervallo.
 
 ```csharp
 // Definisci ProtectedRange
@@ -149,4 +149,4 @@ Sì, utilizzando Aspose.Cells è possibile definire intervalli modificabili spec
 Sebbene questo tutorial si concentri su .NET, Aspose.Cells è disponibile per diversi linguaggi di programmazione, tra cui Java e Cloud API.
 
 ### Dove posso trovare maggiori informazioni su Aspose.Cells?  
-Puoi esplorare la documentazione completa[Qui](https://reference.aspose.com/cells/net/).
+ Puoi esplorare la documentazione completa[Qui](https://reference.aspose.com/cells/net/).

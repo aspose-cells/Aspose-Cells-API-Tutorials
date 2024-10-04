@@ -15,7 +15,7 @@ Se você está se aprofundando na automação e manipulação do Excel usando .N
 
 Imagine precisar manipular grandes quantidades de dados no Excel. Você pode pensar: "Isso não vai levar uma eternidade?" Entra Aspose.Cells: é como ter um superpoder para manipulação de dados. Esta biblioteca não permite apenas que você edite planilhas; ela permite que você proteja dados, garantindo que informações cruciais permaneçam intactas. Quando você protege linhas ou colunas específicas, é como montar uma fortaleza em torno de suas figuras importantes, permitindo apenas a entrada das pessoas certas. 
 
-Simplificamos esse processo para você com vários tutoriais passo a passo. Por exemplo, confira nosso guia sobre como[Permitir que usuários editem intervalos na planilha do Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Você aprenderá como permitir que os usuários modifiquem seções específicas de uma planilha sem comprometer todo o documento. 
+ Simplificamos esse processo para você com vários tutoriais passo a passo. Por exemplo, confira nosso guia sobre como[Permitir que usuários editem intervalos na planilha do Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Você aprenderá como permitir que os usuários modifiquem seções específicas de uma planilha sem comprometer todo o documento. 
 
 ## Tutoriais personalizados para você
 

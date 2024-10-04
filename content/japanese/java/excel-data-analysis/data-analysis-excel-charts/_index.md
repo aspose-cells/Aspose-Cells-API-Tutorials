@@ -59,7 +59,7 @@ AutoFilter autoFilter = worksheet.getAutoFilter();
 autoFilter.setRange("A1:D1");
 
 //データ変換を実行する
-//(例: 通貨の変換、パーセンテージの計算)
+//（例：通貨の変換、パーセンテージの計算）
 ```
 
 ## Excel グラフの作成

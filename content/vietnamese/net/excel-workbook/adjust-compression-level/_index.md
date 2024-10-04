@@ -43,12 +43,10 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình 
 Trước tiên, chúng ta cần xác định nơi lưu trữ các tệp của mình. Điều này bao gồm việc chỉ định thư mục nguồn cho tệp đầu vào và thư mục đầu ra cho các tệp nén của chúng ta.
 
 ```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Thư mục nguồn
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Đây,`RunExamples.Get_SourceDirectory()` Và`RunExamples.Get_OutputDirectory()` là các phương pháp trả về đường dẫn đến thư mục nguồn và thư mục đầu ra của bạn. 
 
 ## Bước 2: Tải Workbook
 

@@ -25,7 +25,7 @@ url: /ko/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
 - C# 애플리케이션을 만들고 실행하려면 Visual Studio와 같은 IDE가 필요합니다.
 
 ### 샘플 Excel 파일
--  데모 목적으로 Excel 파일이 필요합니다. 이를 Excel 파일이라고 합니다.`book1.xls`Microsoft Excel이나 호환되는 응용 프로그램을 사용하여 간단한 Excel 파일을 만들 수 있습니다.
+- 데모 목적으로 Excel 파일이 필요합니다. 이를 Excel 파일이라고 합니다.`book1.xls`Microsoft Excel이나 호환되는 응용 프로그램을 사용하여 간단한 Excel 파일을 만들 수 있습니다.
 
 이러한 전제 조건을 갖추면 코딩을 시작할 수 있습니다!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- 그만큼`Workbook`객체는 메모리에 있는 전체 Excel 파일을 나타냅니다. 전체 파일을 작업 공간으로 가져와서 수정을 시작할 수 있다고 생각하세요.
+ 그만큼`Workbook` 객체는 메모리에 있는 전체 Excel 파일을 나타냅니다. 전체 파일을 작업 공간으로 가져와서 수정을 시작할 수 있다고 생각하세요.
 
 ## 5단계: 워크시트에 액세스
 
@@ -131,7 +131,7 @@ FileStream을 닫는 것은 리소스 관리에 필수적입니다. 작업을 �
  예, 다음을 사용하여 위치를 지정하여 원하는 수의 행과 열을 고정할 수 있습니다.`FreezePanes` 방법.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
- Aspose.Cells는 무료 체험판을 제공하지만 장기 사용을 위해서는 라이선스를 구매해야 합니다.[구매 페이지](https://purchase.aspose.com/buy) 자세한 내용은.
+Aspose.Cells는 무료 체험판을 제공하지만 장기 사용을 위해서는 라이선스를 구매해야 합니다.[구매 페이지](https://purchase.aspose.com/buy) 자세한 내용은.
 
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?
  다음을 통해 지원을 받을 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9), 커뮤니티에서 질문을 하고 해결책을 찾을 수 있는 곳입니다.

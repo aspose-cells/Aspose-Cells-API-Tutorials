@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Maintenant, définissons les paramètres pour adapter votre feuille de calcul à des pages spécifiques. C'est ici que vous pouvez spécifier le nombre de pages de largeur et de hauteur sur lesquelles votre contenu doit apparaître.
 
 ```csharp
-//Définition du nombre de pages sur lesquelles la longueur de la feuille de calcul sera étendue
+// Définition du nombre de pages sur lesquelles la longueur de la feuille de calcul sera étendue
 worksheet.PageSetup.FitToPagesTall = 1;
 // Définition du nombre de pages sur lesquelles la largeur de la feuille de calcul sera étendue
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` détermine le nombre de pages que votre feuille de calcul s'étendra verticalement.
+- `FitToPagesTall`détermine le nombre de pages que votre feuille de calcul s'étendra verticalement.
 - `FitToPagesWide` définit la configuration horizontale de la page. Définir les deux sur`1` signifie que votre contenu tiendra parfaitement sur une seule page, transformant votre document en un chef-d'œuvre épuré.
 
 ## Étape 3 : Enregistrez votre classeur

@@ -9,7 +9,7 @@ url: /pl/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 ---
 ## Wstęp
 
-Czy kiedykolwiek zdarzyło Ci się programowo dodać nowy arkusz do pliku Excel? Jeśli tak, jesteś we właściwym miejscu! W tym przewodniku zagłębiamy się w podstawy korzystania z Aspose.Cells dla .NET, potężnej biblioteki dostosowanej do manipulowania plikami Excel. Przedstawimy wymagania wstępne, podzielimy kod na łatwe do wykonania kroki i w mgnieniu oka uruchomimy Cię.
+Czy kiedykolwiek zdarzyło Ci się programowo dodać nowy arkusz do pliku Excel? Jeśli tak, to jesteś we właściwym miejscu! W tym przewodniku zagłębiamy się w podstawy korzystania z Aspose.Cells dla .NET, potężnej biblioteki dostosowanej do manipulowania plikami Excel. Przedstawimy wymagania wstępne, podzielimy kod na łatwe do wykonania kroki i w mgnieniu oka uruchomimy Cię.
 
 ## Wymagania wstępne
 
@@ -66,7 +66,7 @@ Następnie utworzymy wystąpienie klasy Workbook. Ta klasa jest podstawą wszelk
 Workbook workbook = new Workbook();
 ```
 
- Podczas tworzenia nowej instancji`Workbook`klasa, w zasadzie zaczynasz od czystej karty — gotowej do działania. Pomyśl o tym jak o otwarciu pustego notatnika, w którym możesz zapisać wszystko, czego potrzebujesz.
+ Podczas tworzenia nowej instancji`Workbook` klasa, w zasadzie zaczynasz od czystej karty — gotowej do działania. Pomyśl o tym jak o otwarciu pustego notatnika, w którym możesz zapisać wszystko, czego potrzebujesz.
 
 ## Krok 3: Dodawanie nowego arkusza kalkulacyjnego
 
@@ -116,10 +116,10 @@ Dzięki Aspose.Cells możliwości są nieograniczone. Możesz manipulować danym
 Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca tworzenie, edytowanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę dodać wiele arkuszy jednocześnie?  
- Tak, po prostu zadzwoń`Add()`Metodę tę należy stosować wielokrotnie, odwołując się do każdego arkusza za pomocą jego indeksu!
+ Tak, po prostu zadzwoń`Add()` Metodę tę należy stosować wielokrotnie, odwołując się do każdego arkusza za pomocą jego indeksu!
 
 ### Czy istnieje bezpłatna wersja próbna Aspose.Cells?  
- Zdecydowanie! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Zdecydowanie! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę sformatować nowy arkusz po jego dodaniu?  
 Oczywiście! Możesz stosować style, formaty, a nawet formuły do swoich arkuszy kalkulacyjnych, korzystając z funkcji biblioteki.

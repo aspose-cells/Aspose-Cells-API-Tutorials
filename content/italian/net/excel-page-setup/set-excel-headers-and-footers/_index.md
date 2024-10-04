@@ -9,7 +9,7 @@ url: /it/net/excel-page-setup/set-excel-headers-and-footers/
 ---
 ## Introduzione
 
-Quando si tratta di gestire documenti di fogli di calcolo, intestazioni e piè di pagina svolgono un ruolo cruciale nel fornire contesto. Immagina di aprire un file Excel e, proprio in alto, vedi il nome del foglio di lavoro, la data e forse anche il nome del file. Conferisce al tuo documento un tocco professionale e aiuta a comunicare dettagli importanti a colpo d'occhio. Se stai cercando di migliorare la professionalità dei tuoi fogli Excel utilizzando Aspose.Cells per .NET, sei arrivato nel posto giusto! In questa guida, ti guideremo attraverso i passaggi per impostare intestazioni e piè di pagina nei tuoi fogli di calcolo Excel senza sforzo. 
+Quando si tratta di gestire documenti di fogli di calcolo, intestazioni e piè di pagina svolgono un ruolo cruciale nel fornire contesto. Immagina di aprire un file Excel e, proprio in alto, vedi il nome del foglio di lavoro, la data e forse anche il nome del file. Ciò conferisce al tuo documento un tocco professionale e aiuta a comunicare dettagli importanti a colpo d'occhio. Se stai cercando di migliorare la professionalità dei tuoi fogli Excel utilizzando Aspose.Cells per .NET, sei arrivato nel posto giusto! In questa guida, ti guideremo attraverso i passaggi per impostare intestazioni e piè di pagina nei tuoi fogli di calcolo Excel senza sforzo. 
 
 ## Prerequisiti
 
@@ -57,7 +57,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook excel = new Workbook();
 ```
 
- Spiegazione: qui, sostituisci`YOUR DOCUMENT DIRECTORY` con il percorso effettivo in cui desideri salvare il file Excel. Il`Workbook` L'oggetto è il punto di accesso principale per creare e manipolare file Excel.
+ Spiegazione: qui, sostituisci`YOUR DOCUMENT DIRECTORY` con il percorso effettivo in cui desideri salvare il file Excel. Il`Workbook` L'oggetto è il punto di accesso principale per la creazione e la manipolazione dei file Excel.
 
 ## Passaggio 2: ottenere il riferimento di PageSetup
 

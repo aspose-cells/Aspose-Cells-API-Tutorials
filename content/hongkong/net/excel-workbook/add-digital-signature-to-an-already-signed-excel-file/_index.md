@@ -42,9 +42,9 @@ using System.Text;
 
 ```csharp
 //原始碼目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 在此步驟中，我們使用一種方法來取得來源目錄和輸出目錄的路徑。確保這些目錄存在並包含所需的檔案。
@@ -108,7 +108,7 @@ workbook.AddDigitalSignature(dsCollection);
 
 透過執行此行，您可以有效地將新的數位簽章附加到已簽署的工作簿中。
 
-## 第 7 步：儲存並處理工作簿
+## 第 7 步：儲存並處置工作簿
 
 最後，您需要將修改後的工作簿儲存到輸出目錄並釋放正在使用的所有資源。
 
@@ -132,7 +132,7 @@ Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed succes
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將新的數位簽章新增至已簽署的 Excel 檔案。數位簽章是確保文件真實性的強大方法，現在您知道如何以程式設計方式管理它們。無論您處理的是財務文件、合約或任何敏感訊息，實施數位簽章都可以增強安全性和信任。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將新的數位簽章新增至已簽署的 Excel 檔案。數位簽章是確保文件真實性的強大方法，現在您知道如何以程式設計方式管理它們。無論您處理的是財務文件、合約或任何敏感訊息，實施數位簽章都可以增強安全性和信任。
 
 ## 常見問題解答
 

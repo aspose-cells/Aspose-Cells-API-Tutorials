@@ -43,12 +43,10 @@ using System;
 Πρώτα πράγματα πρώτα, πρέπει να ορίσουμε πού θα αποθηκευτούν τα αρχεία μας. Αυτό περιλαμβάνει τον καθορισμό του καταλόγου προέλευσης για το αρχείο εισόδου μας και του καταλόγου εξόδου για τα συμπιεσμένα αρχεία μας.
 
 ```csharp
-//Κατάλογος πηγής
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Κατάλογος πηγής
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Εδώ,`RunExamples.Get_SourceDirectory()` και`RunExamples.Get_OutputDirectory()` είναι μέθοδοι που επιστρέφουν τις διαδρομές στους καταλόγους προέλευσης και εξόδου, αντίστοιχα. 
 
 ## Βήμα 2: Φορτώστε το βιβλίο εργασίας
 
@@ -104,7 +102,7 @@ Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
 
 Αυτή τη φορά, ορίζουμε τον τύπο συμπίεσης στο Επίπεδο 6 και επαναλαμβάνουμε τη λειτουργία αποθήκευσης.
 
-### Επίπεδο 9 Συμπίεση
+### Συμπίεση επιπέδου 9
 
 Τέλος, ας κάνουμε οικονομία χρησιμοποιώντας το υψηλότερο επίπεδο συμπίεσης:
 

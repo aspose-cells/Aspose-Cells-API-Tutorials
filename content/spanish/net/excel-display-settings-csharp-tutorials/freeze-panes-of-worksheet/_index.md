@@ -25,7 +25,7 @@ Antes de pasar a la parte de codificación propiamente dicha, asegurémonos de q
 - Necesitará un IDE como Visual Studio para crear y ejecutar sus aplicaciones C#.
 
 ### Un archivo de Excel de muestra
--  Para fines de demostración, necesitará un archivo Excel, al que llamaremos`book1.xls`Puede crear un archivo Excel simple utilizando Microsoft Excel o cualquier aplicación compatible.
+- Para fines de demostración, necesitará un archivo Excel, al que llamaremos`book1.xls`Puede crear un archivo Excel simple utilizando Microsoft Excel o cualquier aplicación compatible.
 
 ¡Una vez que tengamos estos requisitos previos establecidos, podemos comenzar a codificar!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- El`Workbook`El objeto representa todo el archivo de Excel en la memoria. Piense en ello como si llevara todo el archivo a su espacio de trabajo para poder comenzar a realizar modificaciones.
+ El`Workbook` El objeto representa todo el archivo de Excel en la memoria. Piense en ello como si llevara todo el archivo a su espacio de trabajo para poder comenzar a realizar modificaciones.
 
 ## Paso 5: Acceda a la hoja de trabajo
 
@@ -131,7 +131,7 @@ La congelación de paneles le permite mantener filas o columnas específicas vis
  Sí, puede congelar cualquier número de filas y columnas especificando sus posiciones mediante el`FreezePanes` método.
 
 ### ¿Aspose.Cells es de uso gratuito?
- Aspose.Cells ofrece una prueba gratuita, pero deberá comprar una licencia para usarla a largo plazo.[Página de compra](https://purchase.aspose.com/buy) Para más detalles.
+Aspose.Cells ofrece una prueba gratuita, pero deberá comprar una licencia para usarla a largo plazo.[Página de compra](https://purchase.aspose.com/buy) Para más detalles.
 
 ### ¿Dónde puedo encontrar soporte para Aspose.Cells?
  Puede obtener ayuda a través de[Foro de Aspose](https://forum.aspose.com/c/cells/9), donde podrás hacer preguntas y encontrar soluciones de la comunidad.

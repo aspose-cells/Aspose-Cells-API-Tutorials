@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-page-setup/set-excel-page-orientation/
 在開始之前，必須先解決一些問題，以確保無縫體驗：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這是您編寫程式碼的地方。
-2. Aspose.Cells for .NET：您需要有 Aspose.Cells for .NET 函式庫。你可以[在這裡下載](https://releases.aspose.com/cells/net/)如果你還沒有。
+2.  Aspose.Cells for .NET：您需要有 Aspose.Cells for .NET 函式庫。你可以[在這裡下載](https://releases.aspose.com/cells/net/)如果你還沒有。
 3. C# 基礎知識：熟悉 C# 程式語言非常有益，因為本教學是用 C# 寫的。
 4. 工作區：準備好編碼環境和保存文件的目錄，因為您將需要它！
 
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功配置了 Excel 檔案的頁面方向。這就像學習一門新語言；一旦掌握了基礎知識，您就可以擴展自己的能力並創造一些真正的魔法。對於那些過去拖延的重複性任務，您會發現使用 Aspose 進行程式設計可以節省您大量的時間和精力。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功配置了 Excel 檔案的頁面方向。這就像學習一門新語言；一旦掌握了基礎知識，您就可以擴展自己的能力並創造一些真正的魔法。對於那些過去拖延的重複性任務，您會發現使用 Aspose 進行程式設計可以節省您大量的時間和精力。
 
 ## 常見問題解答
 

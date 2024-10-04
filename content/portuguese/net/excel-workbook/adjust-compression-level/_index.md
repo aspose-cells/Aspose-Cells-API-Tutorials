@@ -43,12 +43,10 @@ Agora que temos tudo configurado, vamos dividir o processo de ajuste dos níveis
 Primeiro, precisamos definir onde nossos arquivos serão armazenados. Isso envolve especificar o diretório de origem para nosso arquivo de entrada e o diretório de saída para nossos arquivos compactados.
 
 ```csharp
-//Diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Diretório de origem
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Aqui,`RunExamples.Get_SourceDirectory()` e`RunExamples.Get_OutputDirectory()` são métodos que retornam os caminhos para seus diretórios de origem e saída, respectivamente. 
 
 ## Etapa 2: Carregue a pasta de trabalho
 

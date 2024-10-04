@@ -33,7 +33,7 @@ Fedezze fel az Excel alapvető funkcióit az Aspose.Cells for Java segítségév
 ### [Adatérvényesítési szabályok](./data-validation-rules/)
 Törzsadatok érvényesítési szabályai az Aspose.Cells for Java segítségével. Hozzon létre hibamentes Excel-lapokat. Fedezze fel az átfogó oktatóanyagokat most!
 ### [Excel adatelemzés](./excel-data-analysis/)
-Oldja fel a hatékony Excel adatelemzést az Aspose.Cells for Java segítségével. Fedezze fel a Java-fejlesztők számára készült oktatóanyagokat lépésről lépésre. Törzsadat-betekintések ma. 
+Oldja fel a hatékony Excel adatelemzést az Aspose.Cells for Java segítségével. Fedezze fel a Java fejlesztők számára készült oktatóanyagokat lépésről lépésre. Törzsadat-betekintések ma. 
 ### [Excel Pivot táblák](./excel-pivot-tables/)
 Master Excel Pivot Tables Aspose.Cells for Java. Tanulja meg, hogyan hozhat létre, testreszabhat és elemezhet könnyedén adatokat.
 ### [Speciális Excel diagramok](./advanced-excel-charts/)

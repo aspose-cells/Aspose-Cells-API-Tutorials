@@ -119,7 +119,7 @@ wb.Save(dataDir + "CopyWithinWorkbook_out.xls");
 是的，您可以通过打开两个工作簿并使用`AddCopy`它们之间的方法。
 
 ### Aspose.Cells 支持哪些 Excel 格式?
- Aspose.Cells 支持多种 Excel 格式，包括`.xls`, `.xlsx`, `.csv`, `.html`等等。
+Aspose.Cells 支持多种 Excel 格式，包括`.xls`, `.xlsx`, `.csv`, `.html`等等。
 
 ### 我需要许可证才能使用 Aspose.Cells for .NET 吗？
 是的，为了避免水印并充分发挥图书馆的潜力，您需要有效的许可证。但是，您可以申请[免费临时驾照](https://purchase.aspose.com/temporary-license)购买前先试用一下。

@@ -2,7 +2,7 @@
 title: Audyt dostępu do plików
 linktitle: Audyt dostępu do plików
 second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak audytować dostęp do plików za pomocą Aspose.Cells for Java API. Przewodnik krok po kroku z kodem źródłowym i FAQ.
+description: Dowiedz się, jak audytować dostęp do plików za pomocą Aspose.Cells for Java API. Przewodnik krok po kroku z kodem źródłowym i często zadawanymi pytaniami.
 type: docs
 weight: 16
 url: /pl/java/excel-data-security/auditing-file-access/

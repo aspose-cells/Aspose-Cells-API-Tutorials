@@ -38,14 +38,14 @@ Esta directiva le permitirá acceder a las clases y métodos incluidos en la bib
 Antes de iniciar el libro de trabajo, es una buena idea configurar las rutas donde se encuentran los archivos de origen y dónde desea guardar el resultado. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
-//Directorio de fuentes
+// Directorio de fuentes
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Directorio de salida
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Asegúrese de reemplazar`"YOUR SOURCE DIRECTORY"` y`"YOUR OUTPUT DIRECTORY"` con rutas reales en su máquina. ¡Piense en esto como crear un espacio de trabajo ordenado antes de comenzar a crear su obra maestra!
+ Asegúrese de reemplazar`"YOUR SOURCE DIRECTORY"` y`"YOUR OUTPUT DIRECTORY"`con rutas reales en su máquina. ¡Piense en esto como crear un espacio de trabajo ordenado antes de comenzar a crear su obra maestra!
 
 ## Paso 2: Crear un libro de trabajo vacío
 

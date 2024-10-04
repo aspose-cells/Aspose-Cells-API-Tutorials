@@ -41,10 +41,10 @@ using System.Text;
 Για να μπορέσετε να χειριστείτε τα αρχεία σας Excel, πρέπει να ορίσετε πού βρίσκονται τα αρχεία προέλευσης και πού θέλετε να αποθηκεύσετε το αρχείο εξόδου. Δείτε πώς να το κάνετε:
 
 ```csharp
-//Κατάλογος πηγής
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Κατάλογος πηγής
+string sourceDir = "Your Document Directory";
 // Κατάλογος εξόδου
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Σε αυτό το βήμα, χρησιμοποιούμε μια μέθοδο για να λάβουμε τις διαδρομές για τους καταλόγους προέλευσης και εξόδου. Βεβαιωθείτε ότι αυτοί οι κατάλογοι υπάρχουν και περιέχουν τα απαιτούμενα αρχεία.

@@ -48,7 +48,7 @@ Nyní musíme v našem projektu odkazovat na Aspose.Cells.
 2. Vyberte „Spravovat balíčky NuGet“.
 3. Vyhledejte "Aspose.Cells" a nainstalujte balíček.
 
-A je to! Jste připraveni začít kódovat!
+A je to! Vše je připraveno začít kódovat!
 
 ### Přidat pomocí příkazů
 
@@ -60,7 +60,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Nyní přejdeme k jádru tohoto tutoriálu. K odemknutí tohoto otravného listu použijeme jednoduchý kus kódu. Dále to rozdělíme na jednoduché kroky.
+Nyní pojďme skočit do srdce tohoto tutoriálu. K odemknutí tohoto otravného listu použijeme jednoduchý kus kódu. Rozdělíme si to dále na jednoduché kroky.
 
 ## Krok 1: Definujte cestu dokumentu
 
@@ -128,7 +128,7 @@ Tento blok catch zobrazí všechny chyby, se kterými se můžete setkat, takže
 
 ## Závěr
 
-A tady to máte! Úspěšně jste odemkli heslem chráněný excelový list pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete znovu získat přístup ke svým důležitým datům. S touto skvělou knihovnou máte výkon a flexibilitu na dosah ruky. Aspose.Cells, ideální pro vývojáře, kteří chtějí zefektivnit interakci s Microsoft Excel, není jen účinný nástroj – je nezbytný.
+A tady to máte! Úspěšně jste odemkli heslem chráněný excelový list pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete znovu získat přístup ke svým důležitým datům. S touto skvělou knihovnou máte výkon a flexibilitu na dosah ruky. Aspose.Cells, ideální pro vývojáře, kteří chtějí zefektivnit interakci s Microsoft Excel, není jen účinný nástroj – je to nezbytný nástroj.
 
 ## FAQ
 

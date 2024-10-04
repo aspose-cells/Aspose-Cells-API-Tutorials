@@ -92,8 +92,8 @@ Most jöjjön az izgalmas rész – a munkalap sokszorosítása! Itt átmásolju
 sheets.AddCopy("Sheet1");
 ```
 
--  A`AddCopy`metódus megkettőz egy meglévő munkalapot (ebben az esetben "1. lap"), és hozzáadja az új lapot a munkafüzethez.
--  Cserélheted`"Sheet1"` bármely másolni kívánt lapnévvel.
+-  A`AddCopy` metódus megkettőz egy meglévő munkalapot (ebben az esetben "1. lap"), és hozzáadja az új lapot a munkafüzethez.
+-  Cserélheted`"Sheet1"` bármilyen másolni kívánt lapnévvel.
 
 ## 5. lépés: Mentse el a munkafüzetet
 Végül a munkalap másolása után eljött az ideje a frissített Excel fájl mentésének. A Mentés módszert használjuk a módosítások új fájlba mentéséhez.
@@ -119,7 +119,7 @@ A munkalapok másolása az Aspose.Cells for .NET-ben nem csak egyszerű, hanem r
  Igen, másolhat munkalapokat a különböző munkafüzetek között mindkét munkafüzet megnyitásával és a`AddCopy` módszer közöttük.
 
 ### Milyen Excel-formátumokat támogat az Aspose.Cells?
- Az Aspose.Cells az Excel formátumok széles skáláját támogatja, beleértve`.xls`, `.xlsx`, `.csv`, `.html`, és még sok más.
+Az Aspose.Cells az Excel formátumok széles skáláját támogatja, beleértve`.xls`, `.xlsx`, `.csv`, `.html`, és még sok más.
 
 ### Szükségem van licencre az Aspose.Cells for .NET használatához?
  Igen, a vízjelek elkerüléséhez és a könyvtárban rejlő lehetőségek teljes kihasználásához érvényes licenc szükséges. Ugyanakkor kérheti a[ingyenes ideiglenes licenc](https://purchase.aspose.com/temporary-license) vásárlás előtt kipróbálni.

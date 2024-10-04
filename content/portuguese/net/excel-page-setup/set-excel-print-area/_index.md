@@ -17,7 +17,7 @@ Antes de mergulharmos de cabeça em nossa aventura de codificação, vamos tirar
 
 1. Visual Studio: certifique-se de ter o Visual Studio instalado, pois é o ambiente de desenvolvimento que usaremos.
 2. .NET Framework: Garanta que seu projeto esteja configurado com o .NET Framework compatível com Aspose.Cells. Geralmente, .NET Core ou .NET Framework 4.5 e superior funcionarão.
-3. Biblioteca Aspose.Cells: Você precisará ter o Aspose.Cells para .NET. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
+3.  Biblioteca Aspose.Cells: Você precisará ter o Aspose.Cells para .NET. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 4. Conhecimento básico de C#: A familiaridade com a sintaxe e a estrutura do C# é essencial, pois escreveremos segmentos de código ao longo deste guia.
 
 Depois de cumprir esses pré-requisitos, você estará pronto para entrar no mundo da manipulação do Excel!
@@ -39,7 +39,7 @@ Agora, vamos dividir o processo de configuração de uma área de impressão do 
 
 Crie uma variável para especificar a localização dos seus documentos do Excel. 
 
-Quando você está trabalhando em um projeto, é essencial ter um caminho definido onde seus arquivos residem ou serão salvos. No nosso caso, definiremos uma variável chamada`dataDir` do seguinte modo:
+ Quando você está trabalhando em um projeto, é essencial ter um caminho definido onde seus arquivos residem ou serão salvos. No nosso caso, definiremos uma variável chamada`dataDir` do seguinte modo:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

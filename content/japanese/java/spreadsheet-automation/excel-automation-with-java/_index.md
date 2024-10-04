@@ -2,7 +2,7 @@
 title: Java による Excel の自動化
 linktitle: Java による Excel の自動化
 second_title: Aspose.Cells Java Excel 処理 API
-description: Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例とともに Java で Excel タスクを自動化する方法を学習します。
+description: Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例で Java で Excel タスクを自動化する方法を学習します。
 type: docs
 weight: 18
 url: /ja/java/spreadsheet-automation/excel-automation-with-java/

@@ -103,7 +103,7 @@ Hier komt het spannende gedeelte! U kunt alle pagina-instellingen kopiëren van 
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
 ```
 
-Deze regel code neemt in feite alle opmaak van "TestSheet1" en past het toe op "TestSheet2". Het is alsof je een momentopname van één pagina maakt en deze op een andere plakt!
+Deze regel code neemt in principe alle opmaak van "TestSheet1" en past het toe op "TestSheet2". Het is alsof je een momentopname van één pagina maakt en deze op een andere plakt!
 
 ## Stap 7: Afdrukken van bijgewerkte papierformaten
 

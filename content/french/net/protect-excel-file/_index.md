@@ -15,7 +15,7 @@ Si vous vous lancez dans l'automatisation et la manipulation d'Excel à l'aide d
 
 Imaginez que vous devez gérer de grandes quantités de données dans Excel. Vous vous demandez peut-être : « Cela ne va-t-il pas prendre une éternité ? » C'est là qu'intervient Aspose.Cells : c'est comme si vous disposiez d'un super pouvoir de manipulation des données. Cette bibliothèque ne vous permet pas seulement de modifier des feuilles de calcul ; elle vous permet également de protéger les données, en veillant à ce que les informations cruciales restent intactes. Lorsque vous protégez des lignes ou des colonnes spécifiques, c'est comme si vous établissiez une forteresse autour de vos chiffres importants, en n'autorisant l'accès qu'aux bonnes personnes. 
 
-Nous avons simplifié ce processus pour vous avec divers tutoriels étape par étape. Par exemple, consultez notre guide sur la façon de[Autoriser les utilisateurs à modifier les plages dans une feuille de calcul Excel](./allow-user-to-edit-ranges-in-excel-worksheet/)Vous apprendrez à permettre aux utilisateurs de modifier de manière transparente des sections spécifiques d'une feuille de calcul sans compromettre l'ensemble du document. 
+ Nous avons simplifié ce processus pour vous avec divers tutoriels étape par étape. Par exemple, consultez notre guide sur la façon de[Autoriser les utilisateurs à modifier les plages dans une feuille de calcul Excel](./allow-user-to-edit-ranges-in-excel-worksheet/)Vous apprendrez à permettre aux utilisateurs de modifier de manière transparente des sections spécifiques d'une feuille de calcul sans compromettre l'ensemble du document. 
 
 ## Tutoriels sur mesure pour vous
 
