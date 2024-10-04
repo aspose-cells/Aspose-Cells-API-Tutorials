@@ -36,7 +36,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Sok esetben az adatok több Excel-munkalapon vannak szétszórva. Az Aspose.Cells for Java segítségével hatékonyan kombinálhatja az adatokat:
 
 ```java
-// Java kód több lapról származó adatok kombinálásához
+// Java kód több lap adatainak kombinálásához
 // ...
 ```
 

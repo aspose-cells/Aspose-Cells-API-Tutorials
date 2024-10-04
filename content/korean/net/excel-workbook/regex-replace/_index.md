@@ -47,13 +47,13 @@ using Aspose.Cells;
 먼저, 입력 Excel 파일의 위치를 지정해야 하며, 필요한 변경을 한 후 출력 파일을 저장할 위치도 지정해야 합니다.
 
 ```csharp
-//소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
+// 소스 디렉토리
+string sourceDir = "Your Document Directory";
 // 출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- 여기,`RunExamples.Get_SourceDirectory()` 그리고`RunExamples.Get_OutputDirectory()` 소스 및 출력 경로를 편리하게 가져오는 데 도움이 되는 유틸리티 기능입니다. 소스 디렉토리에 다음 이름의 파일이 있는지 확인하세요.`SampleRegexReplace.xlsx` 이 예를 들어보겠습니다.
+ 여기,`"Your Document Directory"` 그리고`"Your Document Directory"` 소스 및 출력 경로를 편리하게 가져오는 데 도움이 되는 유틸리티 기능입니다. 소스 디렉토리에 다음 이름의 파일이 있는지 확인하세요.`SampleRegexReplace.xlsx` 이 예를 들어보겠습니다.
 
 ## 2단계: 통합 문서 로드
 
@@ -73,7 +73,7 @@ Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ReplaceOptions replace = new ReplaceOptions();
 replace.CaseSensitive = false; // 검색을 대소문자 구분 없이 하세요
 replace.MatchEntireCellContents = false; // 부분 일치 허용
-replace.RegexKey = true; // 정규식을 사용하고 있다고 지정하세요
+replace.RegexKey = true; // 정규식을 사용한다고 지정하세요
 ```
 
 이 구성에서는:

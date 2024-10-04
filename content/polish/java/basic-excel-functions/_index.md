@@ -27,7 +27,7 @@ Odkryj potencjał formuły SUM w programie Excel za pomocą Aspose.Cells dla Jav
 ### [Jak korzystać z funkcji IF w programie Excel](./how-to-use-excel-if-function/)
 Odblokuj moc funkcji IF w programie Excel za pomocą Aspose.Cells dla języka Java. Naucz się bezproblemowo implementować logikę warunkową.
 ### [Samouczek dotyczący funkcji VLOOKUP w programie Excel](./excel-vlookup-tutorial/)
-Odkryj możliwości funkcji VLOOKUP w programie Excel z Aspose.Cells dla języka Java — kompleksowy przewodnik po łatwym pobieraniu danych.
+Odkryj możliwości funkcji VLOOKUP w programie Excel z Aspose.Cells dla języka Java — kompleksowy przewodnik po bezproblemowym pobieraniu danych.
 ### [Funkcja CONCATENATE w programie Excel](./excel-concatenate-function/)
 Dowiedz się, jak łączyć tekst w programie Excel za pomocą Aspose.Cells dla języka Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do bezproblemowej manipulacji tekstem.
 ### [Funkcja COUNTIF w programie Excel](./countif-function-in-excel/)

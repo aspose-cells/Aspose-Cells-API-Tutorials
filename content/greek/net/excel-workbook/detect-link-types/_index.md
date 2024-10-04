@@ -53,7 +53,7 @@ using System;
 
 ```csharp
 // Καθορίστε τον κατάλογο προέλευσης
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Αυτή η γραμμή οδηγεί στον κατάλογο που περιέχει το αρχείο Excel. Φροντίστε να προσαρμόσετε τη διαδρομή σύμφωνα με τη θέση του αρχείου σας.

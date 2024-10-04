@@ -42,12 +42,10 @@ Naše úkoly rozdělíme do zvládnutelných kroků, abychom zajistili přehledn
 tomto kroku musíme definovat, kde budou umístěny naše vstupní a výstupní soubory.
 
 ```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Zdrojový adresář
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Zde používáme obslužné metody`Get_SourceDirectory()` a`Get_OutputDirectory()` pro pohodlné nastavení našich cest k souborům. Tyto cesty můžete přizpůsobit podle své adresářové struktury.
 
 ## Krok 2: Vytvořte objekt Návrháře sešitu
 
@@ -78,7 +76,7 @@ Nyní se budete chtít ujistit, že nastavení sešitu je nakonfigurováno tak, 
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Nastavením`QuotePrefixToStyle`na hodnotu false, dáváme Aspose.Cells pokyn, aby zacházel s úvodními apostrofy jako s běžnými znaky, což nám umožňuje přesně s nimi zacházet v našem výstupu.
+ Nastavením`QuotePrefixToStyle` na hodnotu false, dáváme Aspose.Cells pokyn, aby zacházel s úvodními apostrofy jako s běžnými znaky, což nám umožňuje přesně s nimi zacházet v našem výstupu.
 
 ## Krok 5: Načtení dat pro chytré značky
 
@@ -146,7 +144,7 @@ Nyní, ať už generujete sestavy, vytváříte funkce pro analýzu dat nebo spr
 Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a převod souborů aplikace Excel v různých formátech programově.
 
 ### Mohu používat Aspose.Cells zdarma?
- Ano, Aspose.Cells můžete používat po přihlášení k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+Ano, Aspose.Cells můžete používat po přihlášení k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.Cells?
  Pomoc a dotazy můžete najít na[Aspose Support Forum](https://forum.aspose.com/c/cells/9).

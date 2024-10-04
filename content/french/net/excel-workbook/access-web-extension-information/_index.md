@@ -39,7 +39,7 @@ using System;
 Commencez par définir le répertoire source dans lequel votre fichier Excel est stocké. Cela permet de garantir que votre programme sait où chercher le fichier avec lequel vous souhaitez travailler.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Étape 2 : charger le classeur Excel

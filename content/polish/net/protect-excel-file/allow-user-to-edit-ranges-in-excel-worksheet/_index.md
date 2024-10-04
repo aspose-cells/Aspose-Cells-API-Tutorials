@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Po pierwsze, zamień`"YOUR DOCUMENT DIRECTORY"`ze ścieżką, pod którą chcesz zapisać swoje pliki. Ten kod sprawdza, czy katalog istnieje; jeśli nie, tworzy go.
+ Po pierwsze, zamień`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać swoje pliki. Ten kod sprawdza, czy katalog istnieje; jeśli nie, tworzy go.
 
 ## Krok 2: Utwórz nowy skoroszyt
 

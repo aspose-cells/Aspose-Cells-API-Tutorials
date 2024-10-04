@@ -39,7 +39,7 @@ using System;
 Excel 파일이 저장된 소스 디렉토리를 정의하는 것으로 시작합니다. 이렇게 하면 프로그램에서 작업하려는 파일을 어디에서 찾아야 할지 알 수 있습니다.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## 2단계: Excel 통합 문서 로드

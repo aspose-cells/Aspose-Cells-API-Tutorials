@@ -31,7 +31,7 @@ url: /zh/java/advanced-excel-charts/custom-chart-templates/
 
 ### 第 2 步：初始化 Aspose.Cells
 
-在您的Java应用程序中，按如下方式初始化Aspose.Cells：
+在您的 Java 应用程序中，按如下方式初始化 Aspose.Cells：
 
 ```java
 import com.aspose.cells.Workbook;

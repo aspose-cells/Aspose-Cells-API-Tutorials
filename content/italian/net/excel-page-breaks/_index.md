@@ -26,4 +26,4 @@ Sapevi che puoi aggiungere interruzioni di pagina in modo programmatico, risparm
 | --- | --- |
 | [Excel Aggiungi interruzioni di pagina](./excel-add-page-breaks/) | Scopri come aggiungere facilmente interruzioni di pagina in Excel usando Aspose.Cells per .NET in questa guida passo-passo. Semplifica i tuoi fogli di calcolo. |  
 | [Excel Cancella tutte le interruzioni di pagina](./excel-clear-all-page-breaks/) | Scopri una semplice guida per cancellare tutte le interruzioni di pagina in Excel usando Aspose.Cells per .NET. Segui il nostro tutorial passo dopo passo per risultati rapidi. |  
-| [Excel Rimuovi interruzione di pagina specifica](./excel-remove-specific-page-break/) | Grazie a questa guida completa e dettagliata, scoprirai facilmente come rimuovere interruzioni di pagina specifiche dai file Excel utilizzando Aspose.Cells per .NET. |  
+| [Excel Rimuovi interruzione di pagina specifica](./excel-remove-specific-page-break/) | Grazie a questa guida completa e dettagliata, scoprirai facilmente come rimuovere specifiche interruzioni di pagina dai file Excel utilizzando Aspose.Cells per .NET. |  

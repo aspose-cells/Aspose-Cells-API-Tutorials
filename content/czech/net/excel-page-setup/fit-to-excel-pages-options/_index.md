@@ -49,7 +49,7 @@ Jste připraveni formátovat své stránky Excel? Pojďme si proces rozebrat kro
 
 ## Krok 1: Nastavte svůj pracovní prostor
 
-Nejprve inicializujte náš sešit a získejte přístup k požadovanému listu. Tady začíná veškerá akce.
+Nejprve inicializujte náš sešit a získejte přístup k požadovanému listu. Zde začíná veškerá akce.
 
 ```csharp
 // Cesta k adresáři dokumentů.
@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Nyní nastavíme parametry, aby se váš list vešel na konkrétní stránky. Zde můžete určit, na kolika stránkách širokých a vysokých se má váš obsah zobrazovat.
 
 ```csharp
-//Nastavení počtu stránek, na které bude délka listu roztažena
+// Nastavení počtu stránek, na které bude délka listu roztažena
 worksheet.PageSetup.FitToPagesTall = 1;
 // Nastavení počtu stránek, na které bude šířka listu roztažena
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` určuje, kolik stránek bude váš list vertikálně zahrnovat.
+- `FitToPagesTall`určuje, kolik stránek bude váš list vertikálně zahrnovat.
 - `FitToPagesWide` definuje vodorovné nastavení stránky. Nastavení obou na`1` znamená, že se váš obsah úhledně vejde na jednu stránku a přemění váš dokument na efektivní mistrovské dílo.
 
 ## Krok 3: Uložte sešit
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## Závěr
 
-tady to máte! Naučili jste se, jak využít možnosti Fit to Excel Pages v Aspose.Cells for .NET, abyste zajistili, že vaše tabulky budou při tisku nebo sdílení vypadat bezchybně. Zvládnutí těchto technik může zefektivnit vaše prezentace dat a zlepšit celkovou efektivitu při práci s dokumenty aplikace Excel. Pamatujte, že síla Aspose.Cells vám umožňuje posouvat hranice toho, co je možné v automatizaci Excelu. 
+A tady to máte! Naučili jste se, jak využít možnosti Fit to Excel Pages v Aspose.Cells for .NET, abyste zajistili, že vaše tabulky budou při tisku nebo sdílení vypadat bezchybně. Zvládnutí těchto technik může zefektivnit vaše prezentace dat a zlepšit celkovou efektivitu při práci s dokumenty aplikace Excel. Pamatujte, že síla Aspose.Cells vám umožňuje posouvat hranice toho, co je možné v automatizaci Excelu. 
 
 ## FAQ
 

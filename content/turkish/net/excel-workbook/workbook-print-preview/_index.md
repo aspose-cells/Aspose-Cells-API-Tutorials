@@ -54,8 +54,8 @@ Artık her şey yerli yerinde olduğuna göre, Aspose.Cells kullanarak çalışm
 Baskı önizlemelerindeki maceramıza başlamak için, kaynak Excel dosyamızın nerede bulunduğunu tanımlamamız gerekiyor. Bu sizin giriş noktanız, o yüzden ayarlayalım:
 
 ```csharp
-//Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Kaynak dizini
+string sourceDir = "Your Document Directory";
 ```
 
  Bu kod, bize yolu bulmamızda yardımcı oluyor`Book1.xlsx` ikamet eder, bu da gelecekte referans vermeyi çok daha kolaylaştırır.

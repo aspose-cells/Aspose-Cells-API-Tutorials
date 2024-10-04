@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-
 在我們深入研究程式碼之前，讓我們確保您已正確設定。以下是您開始使用時所需要的：
 
 1. Visual Studio 或任何 .NET IDE：確保您有一個可用的 IDE，例如 Visual Studio。這將是您的遊樂場，所有編碼魔法都在這裡發生。
-2.  Aspose.Cells for .NET Package：如果您還沒有安裝，則需要下載並安裝 Aspose.Cells 函式庫。您可以在以下位置找到最新版本[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Package：如果您還沒有安裝，則需要下載並安裝 Aspose.Cells 函式庫。您可以在以下位置找到最新版本[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/).
 3. C# 的基本知識：雖然我們將引導您完成程式碼，但熟悉 C# 將幫助您更好地理解其中的細微差別。
 4. 存取 .NET Framework：確保您的專案設定為 .NET Framework 導向的相容版本。
 

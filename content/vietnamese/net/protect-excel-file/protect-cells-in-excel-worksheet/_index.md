@@ -16,7 +16,7 @@ Trong thế giới kỹ thuật số ngày nay, việc quản lý dữ liệu an
 Trước khi đi sâu vào việc bảo vệ tế bào, bạn cần phải có một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là IDE chính để phát triển .NET.
-2. Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells trong dự án của mình. Bạn có thể dễ dàng cài đặt nó thông qua NuGet Package Manager hoặc tải xuống trực tiếp từ[Trang web Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells trong dự án của mình. Bạn có thể dễ dàng cài đặt nó thông qua NuGet Package Manager hoặc tải xuống trực tiếp từ[Trang web Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 ## Nhập gói
@@ -139,7 +139,7 @@ Dòng này lưu sổ làm việc của bạn dưới dạng tệp Excel. Hãy đ
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã học thành công cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể bảo vệ dữ liệu của mình, đảm bảo chỉ những người phù hợp mới có quyền truy cập để chỉnh sửa thông tin quan trọng. Hãy nhớ rằng, bảo vệ ô chỉ là một trong nhiều tính năng do Aspose.Cells cung cấp để giúp quản lý và thao tác các tệp Excel một cách hiệu quả.
+Và bạn đã có nó! Bạn đã học thành công cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể bảo vệ dữ liệu của mình, đảm bảo chỉ những người phù hợp mới có quyền truy cập để chỉnh sửa thông tin quan trọng. Hãy nhớ rằng, bảo vệ ô chỉ là một trong nhiều tính năng do Aspose.Cells cung cấp để giúp quản lý và thao tác các tệp Excel hiệu quả.
 
 ## Câu hỏi thường gặp
 

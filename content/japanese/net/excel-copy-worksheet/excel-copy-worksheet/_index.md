@@ -119,7 +119,7 @@ Aspose.Cells for .NET でワークシートをコピーするのは簡単であ�
 はい、両方のワークブックを開いて、`AddCopy`それらの間の方法。
 
 ### Aspose.Cells はどのような Excel 形式をサポートしていますか?
- Aspose.Cellsは、以下のExcel形式を幅広くサポートしています。`.xls`, `.xlsx`, `.csv`, `.html`、などなど。
+Aspose.Cellsは、以下のExcel形式を幅広くサポートしています。`.xls`, `.xlsx`, `.csv`, `.html`、などなど。
 
 ### Aspose.Cells for .NET を使用するにはライセンスが必要ですか?
 はい、透かしを避けてライブラリの潜在能力を最大限に引き出すには、有効なライセンスが必要です。ただし、[無料の一時ライセンス](https://purchase.aspose.com/temporary-license)購入前に試してみることができます。

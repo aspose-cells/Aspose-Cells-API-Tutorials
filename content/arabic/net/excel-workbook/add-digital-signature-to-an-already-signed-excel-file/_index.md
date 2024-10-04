@@ -41,10 +41,10 @@ using System.Text;
 قبل أن تتمكن من التعامل مع ملفات Excel، يتعين عليك تحديد مكان وجود ملفات المصدر والمكان الذي تريد حفظ ملف الإخراج فيه. وإليك كيفية القيام بذلك:
 
 ```csharp
-//دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
+// دليل المصدر
+string sourceDir = "Your Document Directory";
 // دليل الإخراج
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 في هذه الخطوة، نستخدم طريقة للحصول على مسارات أدلة المصدر والإخراج. تأكد من وجود هذه الأدلة واحتوائها على الملفات المطلوبة.

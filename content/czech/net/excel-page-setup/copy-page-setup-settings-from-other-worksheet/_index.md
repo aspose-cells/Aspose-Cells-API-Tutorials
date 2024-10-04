@@ -105,7 +105,7 @@ TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
 
 Tento řádek kódu v podstatě přebírá veškeré formátování "TestSheet1" a aplikuje jej na "TestSheet2". Je to jako udělat snímek jedné stránky a vložit ji na druhou!
 
-## Krok 7: Vytiskněte aktualizované velikosti papíru
+## Krok 7: Tisk aktualizovaných velikostí papíru
 
 Znovu zkontrolujte velikosti papíru:
 Nakonec potvrďte, že nastavení bylo úspěšně zkopírováno.

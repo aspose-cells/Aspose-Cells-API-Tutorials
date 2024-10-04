@@ -120,4 +120,4 @@ Aspose.Cells est une bibliothèque .NET qui fournit des fonctionnalités de mani
 Vous pouvez choisir entre « Sur puis vers le bas » et « Descendre puis sur » pour l'ordre d'impression de vos pages.
 
 ### Où puis-je trouver plus d’exemples d’utilisation d’Aspose.Cells ?
- Vous pouvez explorer plus d'exemples et de fonctionnalités dans le[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).
+Vous pouvez explorer plus d'exemples et de fonctionnalités dans le[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).

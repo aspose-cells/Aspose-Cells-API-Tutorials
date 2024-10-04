@@ -43,12 +43,10 @@ Ora che abbiamo impostato tutto, scomponiamo il processo di regolazione dei live
 Per prima cosa, dobbiamo definire dove saranno archiviati i nostri file. Ciò implica specificare la directory di origine per il nostro file di input e la directory di output per i nostri file compressi.
 
 ```csharp
-//Elenco di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Elenco di origine
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Qui,`RunExamples.Get_SourceDirectory()` E`RunExamples.Get_OutputDirectory()` sono metodi che restituiscono rispettivamente i percorsi delle directory di origine e di output. 
 
 ## Passaggio 2: caricare la cartella di lavoro
 

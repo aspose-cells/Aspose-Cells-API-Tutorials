@@ -43,10 +43,8 @@ Ora siamo pronti ad aggiungere un'estensione Web a una cartella di lavoro di Exc
 Per prima cosa, devi impostare la directory di output in cui salverai la tua cartella di lavoro modificata. Questo aiuta a mantenere i tuoi file organizzati.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Qui,`RunExamples.Get_OutputDirectory()` è un metodo che recupera il percorso alla directory di output. Puoi modificarlo per puntare a qualsiasi posizione sul tuo sistema.
-
 ## Passaggio 2: creare una nuova cartella di lavoro
 
 Ora creiamo una nuova istanza di un Workbook. È qui che avviene tutta la magia!

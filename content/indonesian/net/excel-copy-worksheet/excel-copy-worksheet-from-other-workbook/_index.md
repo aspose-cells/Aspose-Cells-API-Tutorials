@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Di sini, kita membuat buku kerja pertama dan mengisi lembar kerja pertama (`ws0`dengan tajuk dan baris detail. Data simulasi ini akan membantu Anda memvisualisasikan proses penyalinan nanti.
+Di sini, kita membuat buku kerja pertama dan mengisi lembar kerja pertama (`ws0`) dengan tajuk dan baris detail. Data simulasi ini akan membantu Anda memvisualisasikan proses penyalinan nanti.
 
 ## Langkah 3: Siapkan Pengaturan Halaman untuk Pencetakan
 
 Mari konfigurasikan pengaturan halaman untuk mengulang baris tajuk saat mencetak, supaya kita dapat melihat fitur tersebut beraksi:
 
 ```csharp
-// Tentukan objek pagesetup berdasarkan lembar kerja pertama
+//Tentukan objek pagesetup berdasarkan lembar kerja pertama
 PageSetup pagesetup = ws0.PageSetup;
 // Lima baris pertama diulang di setiap halaman
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Mari salin konten dari lembar kerja buku kerja pertama ke buku kerja kedua:
 // lembar kerja pertama dari buku kerja kedua
 ws1.Copy(ws0);
 ```
- Itu`Copy` metode mengambil semua konten dari lembar kerja sumber (`ws0`) dan menduplikasinya ke lembar kerja tujuan (`ws1`). Sederhana sekali, bukan?
+ Itu`Copy` metode mengambil semua konten dari lembar kerja sumber (`ws0`dan menduplikasinya ke lembar kerja tujuan (`ws1`). Sederhana sekali, bukan?
 
 ## Langkah 6: Simpan Buku Kerja Baru
 
@@ -137,7 +137,7 @@ Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, mem
  Anda dapat meminta lisensi sementara dengan mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells?  
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
 
 ### Apakah ada dukungan yang tersedia untuk pengguna Aspose.Cells?  
  Tentu saja! Anda bisa mendapatkan dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).

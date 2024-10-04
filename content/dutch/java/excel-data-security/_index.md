@@ -23,7 +23,7 @@ Het waarborgen van data-integriteit is cruciaal. We onderzoeken hoe u datavalida
 
 ## Excel-zelfstudies over gegevensbeveiliging
 ### [Excel-wachtwoordbeveiliging](./excel-password-protection/)
-Leer hoe u de beveiliging van uw gegevens kunt verbeteren met Excel-wachtwoordbeveiliging met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor ultieme vertrouwelijkheid van uw gegevens.
+Leer hoe u de beveiliging van gegevens kunt verbeteren met Excel-wachtwoordbeveiliging met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor ultieme vertrouwelijkheid van gegevens.
 ### [Strategieën voor celvergrendeling](./cell-locking-strategies/)
 Leer effectieve celvergrendelingsstrategieën met Aspose.Cells voor Java. Verbeter de gegevensbeveiliging en -integriteit in Excel-bestanden met stapsgewijze begeleiding.
 ### [Werkboek-encryptiemethoden](./workbook-encryption-methods/)

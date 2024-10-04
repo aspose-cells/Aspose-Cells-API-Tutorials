@@ -39,7 +39,7 @@ Với gói phù hợp, chúng ta có thể dễ dàng tạo, bảo vệ và hủ
 
 ```csharp
 // Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Dòng mã này sẽ lấy đường dẫn thư mục nơi tệp được tạo sẽ được lưu trữ. Hãy đảm bảo thư mục này tồn tại; nếu không, bạn có thể gặp lỗi không tìm thấy tệp sau này.

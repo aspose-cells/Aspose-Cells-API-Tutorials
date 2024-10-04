@@ -70,7 +70,7 @@ workbook.calculateFormula();
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
-//计算字符数
+//统计字符数
 cell = worksheet.getCells().get("B3");
 cell.setFormula("=LEN(A3)");
 

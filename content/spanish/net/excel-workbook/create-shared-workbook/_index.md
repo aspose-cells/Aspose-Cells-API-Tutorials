@@ -55,9 +55,8 @@ En este paso, definirás dónde se guardará el archivo de salida. Es como decid
 
 ```csharp
 //Directorio de salida
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Aquí, estamos usando un método`RunExamples.Get_OutputDirectory()` para especificar la carpeta donde se guardará el archivo Excel generado. Asegúrese de que este método esté definido en su código para un procesamiento de salida adecuado.
 
 ## Paso 2: Crear el objeto de libro de trabajo
 
@@ -77,7 +76,7 @@ Workbook wb = new Workbook();
 //Comparte el libro de trabajo
 wb.Settings.Shared = true;
 ```
- Configuración`wb.Settings.Shared` a`true` Indica que varios usuarios pueden acceder a este libro de trabajo a la vez. Es como entregar las llaves de tu casa a tus amigos: ¡pueden entrar y salir cuando quieran!
+ Configuración`wb.Settings.Shared` a`true`Indica que varios usuarios pueden acceder a este libro de trabajo a la vez. Es como entregar las llaves de tu casa a tus amigos: ¡pueden entrar y salir cuando quieran!
 
 ## Paso 4: Guardar el libro de trabajo compartido
 

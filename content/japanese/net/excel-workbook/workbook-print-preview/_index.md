@@ -55,7 +55,7 @@ using System;
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 このコードは、`Book1.xlsx`が存在するため、将来の参照がはるかに簡単になります。

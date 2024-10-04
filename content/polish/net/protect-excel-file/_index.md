@@ -15,7 +15,7 @@ Jeśli zagłębiasz się w automatyzację i manipulację Excelem przy użyciu .N
 
 Wyobraź sobie, że musisz obsługiwać ogromne ilości danych w programie Excel. Możesz pomyśleć: „Czy to nie zajmie wieczności?”. Wprowadź Aspose.Cells: to tak, jakbyś miał supermoc do manipulowania danymi. Ta biblioteka nie tylko pozwala edytować arkusze kalkulacyjne; daje Ci możliwość ochrony danych, zapewniając, że kluczowe informacje pozostaną nienaruszone. Kiedy chronisz określone wiersze lub kolumny, to tak, jakbyś ustawiał fortecę wokół ważnych postaci, pozwalając wejść tylko właściwym osobom. 
 
-Uprościliśmy ten proces dla Ciebie za pomocą różnych samouczków krok po kroku. Na przykład sprawdź nasz przewodnik, jak[Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym programu Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Dowiesz się, jak bezproblemowo pozwolić użytkownikom modyfikować określone sekcje arkusza kalkulacyjnego bez narażania całego dokumentu. 
+ Uprościliśmy ten proces dla Ciebie za pomocą różnych samouczków krok po kroku. Na przykład sprawdź nasz przewodnik, jak[Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym programu Excel](./allow-user-to-edit-ranges-in-excel-worksheet/). Dowiesz się, jak bezproblemowo pozwolić użytkownikom modyfikować określone sekcje arkusza kalkulacyjnego bez narażania całego dokumentu. 
 
 ## Samouczki dostosowane do Ciebie
 
@@ -35,7 +35,7 @@ Jednym z najlepszych sposobów zrozumienia dowolnej technologii jest zagłębien
 
 ## Wniosek
 
- Podsumowując, świat Aspose.Cells dla .NET jest bogaty i zróżnicowany, pełen możliwości udoskonalenia zadań związanych z programem Excel. Dzięki naszym kompleksowym samouczkom znajdziesz wszystko, czego potrzebujesz, aby udoskonalić swoje umiejętności, zautomatyzować procesy i zapewnić bezpieczeństwo danych. Na co więc czekasz? Zanurz się w naszych zasobach, zapoznaj się z każdym samouczkiem i zmień sposób, w jaki pracujesz z programem Excel już dziś! Jeśli poczujesz ciekawość, nie zapomnij[czytaj więcej](./protect-excel-worksheet/) o konkretnych funkcjonalnościach, aby jeszcze bardziej poszerzyć swoją wiedzę.
+ Podsumowując, świat Aspose.Cells dla .NET jest bogaty i różnorodny, pełen możliwości udoskonalenia zadań związanych z programem Excel. Dzięki naszym kompleksowym samouczkom znajdziesz wszystko, czego potrzebujesz, aby udoskonalić swoje umiejętności, zautomatyzować procesy i zapewnić bezpieczeństwo danych. Na co więc czekasz? Zanurz się w naszych zasobach, zapoznaj się z każdym samouczkiem i zmień sposób, w jaki pracujesz z programem Excel już dziś! Jeśli poczujesz ciekawość, nie zapomnij[czytaj więcej](./protect-excel-worksheet/) o konkretnych funkcjonalnościach, aby jeszcze bardziej poszerzyć swoją wiedzę.
 
 
 

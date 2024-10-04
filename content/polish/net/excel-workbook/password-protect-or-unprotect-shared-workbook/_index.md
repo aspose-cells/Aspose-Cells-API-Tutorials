@@ -39,7 +39,7 @@ Pierwszą rzeczą, którą musisz zrobić, jest zdefiniowanie miejsca, w którym
 
 ```csharp
 // Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Ta linia kodu pobiera ścieżkę katalogu, w którym zostanie zapisany wygenerowany plik. Upewnij się, że ten katalog istnieje; w przeciwnym razie możesz później napotkać błąd file-not-found.
@@ -100,7 +100,7 @@ Dzięki temu będziesz mieć pewność, że kod został wykonany zgodnie z oczek
 
 ## Wniosek
 
-W tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, a jednocześnie umożliwić współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
+W tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu za pomocą Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, a jednocześnie umożliwić współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
 
 ## Najczęściej zadawane pytania
 

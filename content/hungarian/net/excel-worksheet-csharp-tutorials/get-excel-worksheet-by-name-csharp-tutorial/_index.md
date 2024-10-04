@@ -90,7 +90,7 @@ Ez kiírja az A1 cella értékét a konzolra. Ha az A1 számot tartalmaz, akkor 
 
 ## 6. lépés: Tisztítás
 
-Végül jó gyakorlat, ha bezárjuk a fájlfolyamot, ha végeztünk. Ez megakadályozza a fájlok zárolását, és csak egy jó programozási higiénia.
+Végül bevált gyakorlat, ha bezárjuk a fájlfolyamot, ha végeztünk. Ez megakadályozza a fájlok zárolását, és csak egy jó programozási higiénia.
 
 ```csharp
 fstream.Close();

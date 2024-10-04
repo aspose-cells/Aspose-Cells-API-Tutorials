@@ -2,7 +2,7 @@
 title: Adatelemzés Excel diagramok
 linktitle: Adatelemzés Excel diagramok
 second_title: Aspose.Cells Java Excel Processing API
-description: Nyújtsa ki az adatelemzési kiválóságot az Aspose.Cells for Java segítségével. Lenyűgöző Excel diagramok és jelentések készítése.
+description: Nyújtsa ki az adatelemzési kiválóságot az Aspose.Cells for Java segítségével. Lenyűgöző Excel diagramok és jelentések létrehozása.
 type: docs
 weight: 15
 url: /hu/java/excel-data-analysis/data-analysis-excel-charts/

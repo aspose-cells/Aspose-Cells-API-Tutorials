@@ -40,13 +40,13 @@ using System.Text;
 Перед началом работы с файлом XLSB вам необходимо настроить исходные и выходные каталоги. Этот шаг необходим для организации ваших файлов.
 
 ```csharp
-//Исходный каталог
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Исходный каталог
+string sourceDir = "Your Document Directory";
 // Выходной каталог
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- В этом фрагменте кода`RunExamples.Get_SourceDirectory()` и`RunExamples.Get_OutputDirectory()`предполагается, что они извлекают соответствующие пути для размещения ваших входных и выходных файлов. Вы можете заменить эти методы жестко закодированными путями, если предпочитаете.
+ В этом фрагменте кода`"Your Document Directory"` и`"Your Document Directory"`предполагается, что они извлекают соответствующие пути для размещения ваших входных и выходных файлов. Вы можете заменить эти методы жестко закодированными путями, если предпочитаете.
 
 ## Шаг 2: Загрузите файл XLSB
 

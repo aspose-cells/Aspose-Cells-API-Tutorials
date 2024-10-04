@@ -16,7 +16,7 @@ Als het aankomt op het programmatisch beheren van Excel-bestanden, is Aspose.Cel
 Voordat u aan de slag gaat, is het belangrijk om een aantal zaken op orde te hebben om een soepele ervaring te garanderen:
 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit is waar u uw code gaat schrijven.
-2. Aspose.Cells voor .NET: U moet de Aspose.Cells voor .NET-bibliotheek hebben. U kunt[download het hier](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
+2.  Aspose.Cells voor .NET: U moet de Aspose.Cells voor .NET-bibliotheek hebben. U kunt[download het hier](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
 3. Basiskennis van C#: Kennis van de programmeertaal C# is zeer nuttig, aangezien deze tutorial in C# is geschreven.
 4. Een werkruimte: zorg dat er een codeeromgeving klaarstaat en een map waarin u uw documenten kunt opslaan. U zult ze namelijk nodig hebben!
 
@@ -52,7 +52,7 @@ Nu gaat u een exemplaar van de klasse Workbook maken, die een Excel-bestand vert
 Workbook workbook = new Workbook();
 ```
 
- Een nieuwe maken`Workbook` is alsof je een nieuwe, lege pagina in een notitieboekje opent, klaar om te vullen met de informatie die je maar wilt!
+ Een nieuwe maken`Workbook`is alsof je een nieuwe, lege pagina in een notitieboekje opent, klaar om te vullen met de informatie die je maar wilt!
 
 ## Stap 3: Toegang tot het eerste werkblad
 
@@ -97,13 +97,13 @@ En daar heb je het! Je hebt de pagina-oriëntatie van een Excel-bestand succesvo
 Aspose.Cells voor .NET is een krachtige bibliotheek voor het programmatisch beheren van Excel-bestanden met functionaliteiten zoals maken, bewerken, converteren en meer.
 
 ### Kan ik de oriëntatie ook naar liggend wijzigen?
-Ja! U kunt de oriëntatie instellen op`PageOrientationType.Landscape` op een vergelijkbare manier.
+ Ja! U kunt de oriëntatie instellen op`PageOrientationType.Landscape` op een vergelijkbare manier.
 
 ### Is er ondersteuning beschikbaar voor Aspose.Cells?
  Absoluut! Je kunt hun bezoeken[ondersteuningsforum](https://forum.aspose.com/c/cells/9) voor vragen of hulp.
 
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.Cells?
- U kunt een tijdelijke vergunning aanvragen bij[hier](https://purchase.aspose.com/temporary-license/), waarmee u functies onbeperkt kunt uitproberen.
+ U kunt een tijdelijke vergunning aanvragen bij[hier](https://purchase.aspose.com/temporary-license/)waarmee u functies onbeperkt kunt uitproberen.
 
 ### Kan Aspose.Cells grote Excel-bestanden verwerken?
 Ja, Aspose.Cells is geoptimaliseerd voor het verwerken van grote bestanden en kan verschillende bewerkingen efficiënt uitvoeren.

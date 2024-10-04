@@ -17,7 +17,7 @@ Mielőtt belevágnánk a kódolási folyamatba, győződjünk meg arról, hogy j
 
 1. .NET-keretrendszer: Győződjön meg arról, hogy be van állítva .NET-környezet. Legyen szó .NET Core-ról vagy .NET-keretrendszerről, jónak kell lennie.
 2.  Aspose.Cells Library: Ez a könyvtár kulcsa a hatékony táblázatkezelési műveletek feloldásához. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
-3. Egy IDE: Használja kedvenc integrált fejlesztőkörnyezetét (IDE), például a Visual Studio-t, amely sokkal gördülékenyebbé teszi a kódolási élményt.
+3. Egy IDE: Használja kedvenc Integrált Fejlesztői Környezetét (IDE), például a Visual Studio-t, amely sokkal gördülékenyebbé teszi a kódolási élményt.
 4. Alapvető programozási ismeretek: A C# és a reguláris kifejezések ismerete előnyt jelent.
 
 ## A környezet beállítása
@@ -47,13 +47,13 @@ Bontsuk a dolgokat kezelhető lépésekre. Végigvezetjük Önt a szöveg regul�
 Először is meg kell határoznunk, hogy a bemeneti Excel fájlunk hol található, valamint a szükséges változtatások elvégzése után hova szeretnénk menteni a kimeneti fájlt.
 
 ```csharp
-//Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Forrás könyvtár
+string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Itt,`RunExamples.Get_SourceDirectory()` és`RunExamples.Get_OutputDirectory()` olyan segédfunkciók, amelyek segítségével kényelmesen megragadhatja a forrás- és kimeneti útvonalakat. Győződjön meg arról, hogy a forráskönyvtár tartalmaz egy nevű fájlt`SampleRegexReplace.xlsx` ehhez a példához.
+ Itt,`"Your Document Directory"` és`"Your Document Directory"` olyan segédfunkciók, amelyek segítségével kényelmesen megragadhatja a forrás- és kimeneti útvonalakat. Győződjön meg arról, hogy a forráskönyvtár tartalmaz egy nevű fájlt`SampleRegexReplace.xlsx` ehhez a példához.
 
 ## 2. lépés: A munkafüzet betöltése
 
@@ -83,7 +83,7 @@ Ebben a konfigurációban:
 
 ## 4. lépés: A csere végrehajtása
 
-Most megtörténik a varázslat. Ideje lecserélni a „KIM” szót a „^^^TIM^^^".
+Most megtörténik a varázslat. Ideje lecserélni a "KIM" szót ""^^^TIM^^^".
 
 ```csharp
 workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);

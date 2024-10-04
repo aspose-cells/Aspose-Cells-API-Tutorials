@@ -40,7 +40,7 @@ public class DataValidationDemo {
         //訪問工作表
         Worksheet worksheet = workbook.getWorksheets().get(0);
         //此處新增資料驗證規則
-        //……
+        //…
         //設定驗證規則的錯誤訊息
         DataValidation validation = worksheet.getValidations().get(0);
         validation.setErrorTitle("Invalid Data");

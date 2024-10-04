@@ -108,6 +108,6 @@ Automatizace grafů aplikace Excel pomocí Aspose.Cells for Java zjednodušuje p
    Ano, k používání Aspose.Cells for Java ve svých projektech budete potřebovat platnou licenci.
 
 ### 4. Kde najdu další zdroje a dokumentaci k Aspose.Cells for Java?
-    Prozkoumejte dokumentaci API na[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
+    Prozkoumejte dokumentaci API na adrese[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
 
 Pomocí Aspose.Cells for Java si snadno zautomatizujte své úlohy v grafech v Excelu a rozšiřte své možnosti vizualizace dat.

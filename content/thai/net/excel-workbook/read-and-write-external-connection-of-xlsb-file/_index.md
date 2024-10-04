@@ -40,13 +40,13 @@ using System.Text;
 ก่อนที่จะทำงานกับไฟล์ XLSB คุณต้องตั้งค่าไดเร็กทอรีต้นทางและปลายทางก่อน ขั้นตอนนี้มีความจำเป็นสำหรับการจัดระเบียบไฟล์ของคุณ
 
 ```csharp
-//ไดเรกทอรีแหล่งที่มา
-string sourceDir = RunExamples.Get_SourceDirectory();
+// ไดเรกทอรีแหล่งที่มา
+string sourceDir = "Your Document Directory";
 // ไดเรกทอรีผลลัพธ์
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- ในชิ้นส่วนโค้ดนี้`RunExamples.Get_SourceDirectory()` และ`RunExamples.Get_OutputDirectory()`ถือว่าดึงข้อมูลเส้นทางที่เกี่ยวข้องสำหรับไฟล์อินพุตและเอาต์พุตของคุณ คุณสามารถแทนที่วิธีการเหล่านี้ด้วยเส้นทางที่เข้ารหัสไว้แบบฮาร์ดโค้ดได้หากคุณต้องการ
+ ในชิ้นส่วนโค้ดนี้`"Your Document Directory"` และ`"Your Document Directory"`ถือว่าดึงข้อมูลเส้นทางที่เกี่ยวข้องสำหรับไฟล์อินพุตและเอาต์พุตของคุณ คุณสามารถแทนที่วิธีการเหล่านี้ด้วยเส้นทางที่เข้ารหัสไว้แบบฮาร์ดโค้ดได้หากคุณต้องการ
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ XLSB
 

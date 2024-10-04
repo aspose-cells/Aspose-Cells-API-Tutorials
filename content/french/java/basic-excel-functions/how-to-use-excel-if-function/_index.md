@@ -46,7 +46,7 @@ worksheet.getCells().get("A3").putValue(60);
 worksheet.getCells().get("A4").putValue(45);
 ```
 
-## Étape 4 : Utilisation de la fonction SI d'Excel
+## Étape 4 : Utilisation de la fonction IF d'Excel
 
 Vient maintenant la partie intéressante : l'utilisation de la fonction IF d'Excel. Dans cet exemple, nous allons utiliser la fonction IF pour déterminer la note en fonction du score.
 

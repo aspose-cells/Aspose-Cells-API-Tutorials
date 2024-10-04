@@ -55,9 +55,8 @@ In deze stap definieert u waar het uitvoerbestand wordt opgeslagen. Het is net a
 
 ```csharp
 //Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Hier gebruiken we een methode`RunExamples.Get_OutputDirectory()` om de map op te geven waar het gegenereerde Excel-bestand wordt opgeslagen. Zorg ervoor dat deze methode is gedefinieerd in uw code voor een correcte uitvoerverwerking.
 
 ## Stap 2: Het werkmapobject maken
 
@@ -77,7 +76,7 @@ Het is tijd om van uw werkboek een collaboratief meesterwerk te maken! Door het 
 //Deel het werkboek
 wb.Settings.Shared = true;
 ```
- Instelling`wb.Settings.Shared` naar`true` geeft aan dat deze werkmap door meerdere gebruikers tegelijk kan worden geopend. Het is alsof je de sleutels van je huis aan vrienden geeft — ze kunnen komen en gaan wanneer ze willen!
+ Instelling`wb.Settings.Shared` naar`true`geeft aan dat deze werkmap door meerdere gebruikers tegelijk kan worden geopend. Het is alsof je de sleutels van je huis aan vrienden geeft — ze kunnen komen en gaan wanneer ze willen!
 
 ## Stap 4: De gedeelde werkmap opslaan
 

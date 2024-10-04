@@ -22,10 +22,10 @@ Než se pustíme do skutečné části kódování, ujistěte se, že máte vše
 -  Ujistěte se, že máte ve vývojovém prostředí nainstalovaný Aspose.Cells for .NET. Pokud jste jej ještě nenainstalovali, přejděte na[Odkaz ke stažení](https://releases.aspose.com/cells/net/) začít.
 
 ### Visual Studio
-- vytváření a spouštění aplikací v C# budete potřebovat IDE, jako je Visual Studio.
+- K vytváření a spouštění aplikací v C# budete potřebovat IDE, jako je Visual Studio.
 
 ### Ukázkový soubor Excel
--  Pro demonstrační účely budete potřebovat soubor Excel, kterému budeme říkat`book1.xls`. Pomocí aplikace Microsoft Excel nebo jakékoli kompatibilní aplikace můžete vytvořit jednoduchý soubor aplikace Excel.
+- Pro demonstrační účely budete potřebovat soubor Excel, kterému budeme říkat`book1.xls`. Pomocí aplikace Microsoft Excel nebo jakékoli kompatibilní aplikace můžete vytvořit jednoduchý soubor aplikace Excel.
 
 Jakmile budete mít tyto předpoklady na místě, můžeme začít kódovat!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- The`Workbook`objekt představuje celý váš soubor Excel v paměti. Představte si to jako přenesení celého souboru do vašeho pracovního prostoru, abyste mohli začít provádět úpravy.
+ The`Workbook` objekt představuje celý váš soubor Excel v paměti. Představte si to jako přenesení celého souboru do vašeho pracovního prostoru, abyste mohli začít provádět úpravy.
 
 ## Krok 5: Otevřete sešit
 
@@ -131,7 +131,7 @@ Zmrazení podoken umožňuje zachovat viditelné konkrétní řádky nebo sloupc
  Ano, můžete zmrazit libovolný počet řádků a sloupců zadáním jejich pozice pomocí`FreezePanes` metoda.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro dlouhodobé používání si budete muset zakoupit licenci. Zkontrolujte[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti.
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro dlouhodobé používání si budete muset zakoupit licenci. Zkontrolujte[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti.
 
 ### Kde najdu podporu pro Aspose.Cells?
  Podporu můžete získat prostřednictvím[Aspose fórum](https://forum.aspose.com/c/cells/9), kde můžete klást otázky a hledat řešení od komunity.

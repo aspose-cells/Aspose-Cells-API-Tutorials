@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 // تعيين دليل المصدر
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- هنا،`RunExamples.Get_SourceDirectory()` هي طريقة مخصصة قد تكون موجودة في مشروعك والتي تقوم باسترداد المسار إلى المجلد الذي يحتوي على ملف العينة الخاص بك. تأكد من استبدال هذا بالمسار الفعلي إذا لزم الأمر.
 
 ## الخطوة 2: الوصول إلى صيغ Power Query
 

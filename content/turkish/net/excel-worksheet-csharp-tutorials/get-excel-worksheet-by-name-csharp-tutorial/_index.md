@@ -109,7 +109,7 @@ Başardınız! Bu basit öğreticiyi takip ederek, Aspose.Cells for .NET kullana
 Aspose.Cells, geliştiricilerin Excel elektronik tablolarını programlı bir şekilde oluşturmalarına, değiştirmelerine ve yönetmelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
 
 ### Excel dosyasında birden fazla sayfaya erişebilir miyim?
- Evet! Adlarını kullanarak birden fazla sayfaya erişebilirsiniz.`workbook.Worksheets["SheetName"]` yöntem.
+ Evet! Adlarını kullanarak birden fazla sayfaya erişebilirsiniz.`workbook.Worksheets["SheetName"]` Yöntem.
 
 ### Aspose.Cells hangi Excel dosya formatlarını destekler?
 Aspose.Cells, XLS, XLSX, CSV ve diğerleri dahil olmak üzere çeşitli formatları destekler.

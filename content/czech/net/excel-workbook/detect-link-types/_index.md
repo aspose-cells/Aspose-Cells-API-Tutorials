@@ -2,7 +2,7 @@
 title: Detekce typů odkazů
 linktitle: Detekce typů odkazů
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Snadné kroky a příklady kódu v ceně.
+description: Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Zahrnuty jednoduché kroky a příklady kódu.
 type: docs
 weight: 80
 url: /cs/net/excel-workbook/detect-link-types/
@@ -53,7 +53,7 @@ Tady začíná zábava! Fragment kódu, který jste nám poskytli, rozdělíme d
 
 ```csharp
 // Definujte zdrojový adresář
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Tento řádek ukazuje na adresář obsahující soubor Excel. Nezapomeňte upravit cestu podle umístění souboru.

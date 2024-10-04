@@ -9,7 +9,7 @@ url: /nl/net/excel-page-setup/get-page-dimensions/
 ---
 ## Invoering
 
-Als het gaat om het verwerken van spreadsheets in .NET-applicaties, springt de Aspose.Cells-bibliotheek eruit als een robuuste tool waarmee ontwikkelaars eenvoudig Excel-bestanden kunnen bewerken. Maar hoe krijg je pagina-afmetingen voor verschillende papierformaten met deze krachtige bibliotheek? In deze tutorial nemen we het proces stap voor stap door, zodat je niet alleen inzicht krijgt in de werking van Aspose.Cells, maar ook bedreven raakt in het gebruik ervan in je projecten. 
+Als het gaat om het verwerken van spreadsheets in .NET-toepassingen, springt de Aspose.Cells-bibliotheek eruit als een robuuste tool waarmee ontwikkelaars eenvoudig Excel-bestanden kunnen bewerken. Maar hoe krijg je pagina-afmetingen voor verschillende papierformaten met deze krachtige bibliotheek? In deze tutorial nemen we het proces stap voor stap door, zodat je niet alleen inzicht krijgt in de werking van Aspose.Cells, maar ook bedreven raakt in het gebruik ervan in je projecten. 
 
 ## Vereisten 
 

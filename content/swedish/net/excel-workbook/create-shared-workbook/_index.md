@@ -9,15 +9,15 @@ url: /sv/net/excel-workbook/create-shared-workbook/
 ---
 ## Introduktion
 
-Att skapa en delad arbetsbok kan vara en förändring för samarbete, särskilt om du jonglerar med data mellan olika team eller avdelningar. Med Aspose.Cells för .NET har du ett robust verktyg till ditt förfogande för att hantera Excel-filer programmatiskt. Den här guiden leder dig genom stegen för att skapa en delad arbetsbok, vilket gör ditt samarbete mer strömlinjeformat och effektivt. Oavsett om du är en nybörjare eller en erfaren utvecklare, kommer du att få en njutning med denna enkla men kraftfulla handledning!
+Att skapa en delad arbetsbok kan vara en förändring för samarbete, särskilt om du jonglerar med data mellan olika team eller avdelningar. Med Aspose.Cells för .NET har du ett robust verktyg till ditt förfogande för att hantera Excel-filer programmatiskt. Den här guiden leder dig genom stegen för att skapa en delad arbetsbok, vilket gör ditt samarbete mer strömlinjeformat och effektivt. Oavsett om du är en nybörjare eller en erfaren utvecklare, kan du njuta av den här enkla men kraftfulla handledningen!
 
 ## Förutsättningar
 
 Innan vi dyker in i det knepiga med att skapa en delad arbetsbok, låt oss ordna några saker:
 
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är en utvecklingsmiljö där du kan skriva och köra din kod.
-2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket. Du kan ladda ner den från[Aspose.Cells-nedladdningar](https://releases.aspose.com/cells/net/).
-3. .NET Framework: Se till att du har .NET Framework installerat. Det här exemplet kommer att fungera med .NET Core eller .NET Framework 4.x.
+2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket. Du kan ladda ner den från[Aspose.Cells Nedladdningar](https://releases.aspose.com/cells/net/).
+3. .NET Framework: Se till att du har .NET Framework installerat. Det här exemplet fungerar med .NET Core eller .NET Framework 4.x.
 4. Grundläggande kunskaper om C#: Lite förtrogenhet med C#-programmering kommer att räcka långt. Om du kan skriva grundläggande kod bör du vara igång!
 
 När du har dessa förutsättningar på plats är du redo att börja skapa din delade arbetsbok.
@@ -55,9 +55,8 @@ I det här steget kommer du att definiera var utdatafilen ska sparas. Det är so
 
 ```csharp
 //Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Här använder vi en metod`RunExamples.Get_OutputDirectory()` för att ange mappen där den genererade Excel-filen ska sparas. Se till att denna metod är definierad i din kod för korrekt utdatabearbetning.
 
 ## Steg 2: Skapa arbetsboksobjektet
 
@@ -77,7 +76,7 @@ Det är dags att göra din arbetsbok till ett samarbetsmästerverk! Genom att de
 //Dela arbetsboken
 wb.Settings.Shared = true;
 ```
- Miljö`wb.Settings.Shared` till`true` indikerar att den här arbetsboken kan nås av flera användare samtidigt. Det är som att dela ut nycklar till ditt hus till vänner - de kan komma och gå som de vill!
+ Miljö`wb.Settings.Shared` till`true`indikerar att den här arbetsboken kan nås av flera användare samtidigt. Det är som att dela ut nycklar till ditt hus till vänner - de kan komma och gå som de vill!
 
 ## Steg 4: Spara den delade arbetsboken
 
@@ -117,4 +116,4 @@ Ja, en licens krävs för kommersiell användning av Aspose.Cells. Du kan också
  Du kan hitta support och ställa frågor på[Aspose.Cells supportforum](https://forum.aspose.com/c/cells/9).
 
 ### Hur börjar jag använda Aspose.Cells?
- Börja med att ladda ner biblioteket från[Aspose.Cells-nedladdningar](https://releases.aspose.com/cells/net/)sida och följ installationsstegen som nämns i den här guiden.
+ Börja med att ladda ner biblioteket från[Aspose.Cells Nedladdningar](https://releases.aspose.com/cells/net/)sida och följ installationsstegen som nämns i den här guiden.

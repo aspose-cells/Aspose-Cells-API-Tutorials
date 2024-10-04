@@ -1,6 +1,6 @@
 ---
-title: Visa och dölj rullningslister av arbetsblad
-linktitle: Visa och dölj rullningslister av arbetsblad
+title: Visa och dölja rullningslister av arbetsblad
+linktitle: Visa och dölja rullningslister av arbetsblad
 second_title: Aspose.Cells för .NET API-referens
 description: Lär dig hur du visar och döljer rullningslister i Excel-kalkylblad med Aspose.Cells för .NET med denna detaljerade, lättanvända handledning.
 type: docs

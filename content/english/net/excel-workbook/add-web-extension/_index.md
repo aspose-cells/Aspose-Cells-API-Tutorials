@@ -43,10 +43,8 @@ We’re now ready to add a Web Extension to an Excel workbook. Follow these step
 First, you need to set up the output directory where you’ll save your modified workbook. This helps keep your files organized.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
-Here, `RunExamples.Get_OutputDirectory()` is a method that retrieves the path to the output directory. You can modify this to point to any location on your system.
-
 ## Step 2: Create a New Workbook
 
 Next, let’s create a new instance of a Workbook. This is where all the magic happens!

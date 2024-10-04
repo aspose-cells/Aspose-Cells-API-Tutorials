@@ -10,7 +10,7 @@ url: /zh-hant/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Excel 中的級聯下拉式選單簡介
 
-在電子表格操作領域，Aspose.Cells for Java 是一個強大的工具包，使開發人員能夠有效率地處理 Excel 檔案。它提供的有趣功能之一是能夠在 Excel 中建立級聯下拉列表，讓使用者可以根據先前的選擇動態選擇選項。在本逐步指南中，我們將深入研究使用 Aspose.Cells for Java 實作級聯下拉清單的過程。那麼，就讓我們開始吧！
+在電子表格操作領域，Aspose.Cells for Java 是一個強大的工具包，使開發人員能夠有效率地處理 Excel 檔案。它提供的一項有趣的功能是能夠在 Excel 中建立級聯下拉列表，讓使用者可以根據先前的選擇動態選擇選項。在本逐步指南中，我們將深入研究使用 Aspose.Cells for Java 實作級聯下拉清單的過程。那麼，就讓我們開始吧！
 
 ## 先決條件
 
@@ -58,7 +58,7 @@ countrySheet.getCells().get("A4").putValue("UK");
 DataValidationCollection validations = countrySheet.getDataValidations();
 DataValidation validation = validations.get(validations.add(1, 1, countrySheet.getCells().getMaxDataRow(), 1));
 validation.setType(DataValidationType.LIST);
-validation.setFormula1("Countries!$A$2:$A$4"); //參考國家名單
+validation.setFormula1("Countries!$A$2:$A$4"); //參考國家列表
 ```
 
 ## 第 4 步：實現級聯下拉選單
@@ -111,7 +111,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ### Aspose.Cells for Java 適合小型和大型專案嗎？
 
-是的，Aspose.Cells for Java 用途廣泛，可用於各種規模的專案。無論您正在開發小型實用程式還是複雜的企業應用程序，Aspose.Cells for Java 都可以簡化您與 Excel 相關的任務。
+是的，Aspose.Cells for Java 用途廣泛，可用於各種規模的專案。無論您正在開發小型實用程式還是複雜的企業應用程序，Aspose.Cells for Java 都可以簡化您的 Excel 相關任務。
 
 ### 我是否需要高階程式設計技能才能使用 Aspose.Cells for Java 實作級聯下拉選單？
 

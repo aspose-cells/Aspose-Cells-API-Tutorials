@@ -108,7 +108,7 @@ Open het gegenereerde Excel-bestand om de resultaten van de functie AANTAL.ALS t
 
 Als u problemen ondervindt bij het gebruik van Aspose.Cells voor Java of bij het implementeren van de functie AANTAL.ALS, raadpleeg dan de documentatie en forums voor oplossingen.
 
-## Aanbevolen procedures voor het gebruik van AANTAL.ALS
+## Aanbevolen werkwijzen voor het gebruik van AANTAL.ALS
 
 Wanneer u de functie AANTAL.ALS gebruikt, moet u rekening houden met de aanbevolen procedures om de nauwkeurigheid en efficiëntie van uw Excel-automatiseringstaken te garanderen.
 

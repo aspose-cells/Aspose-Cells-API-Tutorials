@@ -39,7 +39,7 @@ Als Erstes müssen Sie festlegen, wo Ihre Ausgabedatei gespeichert wird. Das ist
 
 ```csharp
 // Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Diese Codezeile ruft den Verzeichnispfad ab, in dem die generierte Datei gespeichert wird. Stellen Sie sicher, dass dieses Verzeichnis vorhanden ist. Andernfalls kann später die Fehlermeldung „Datei nicht gefunden“ auftreten.

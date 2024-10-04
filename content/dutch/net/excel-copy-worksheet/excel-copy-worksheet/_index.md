@@ -9,7 +9,7 @@ url: /nl/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 ## Invoering
 
-In de wereld van dataverwerking zijn spreadsheets alomtegenwoordig, van het beheren van verkoopcijfers tot het organiseren van projectgegevens. Maar hoe beheert u deze bestanden wanneer automatisering noodzakelijk wordt? Nou, als u in .NET werkt, is Aspose.Cells een uitstekende tool voor het programmatisch manipuleren van Excel-bestanden. In dit artikel leiden we u door het kopiëren van een werkblad binnen een Excel-bestand met behulp van Aspose.Cells voor .NET. Dit is een veelvoorkomende taak wanneer u gegevens in nieuwe werkbladen moet dupliceren zonder helemaal opnieuw te beginnen.
+In de wereld van dataverwerking zijn spreadsheets overal te vinden, van het beheren van verkoopcijfers tot het organiseren van projectgegevens. Maar hoe beheert u deze bestanden wanneer automatisering noodzakelijk wordt? Nou, als u in .NET werkt, is Aspose.Cells een uitstekende tool voor het programmatisch manipuleren van Excel-bestanden. In dit artikel leiden we u door het kopiëren van een werkblad binnen een Excel-bestand met behulp van Aspose.Cells voor .NET. Dit is een veelvoorkomende taak wanneer u gegevens in nieuwe werkbladen moet dupliceren zonder helemaal opnieuw te beginnen.
 
 Dus, gesp je vast! We gaan ons nu verdiepen in dit proces, maar op een manier die simpel, conversationeel en duidelijk is.
 
@@ -22,7 +22,7 @@ Eerst even dit: als u Aspose.Cells voor .NET nog niet hebt geïnstalleerd, moet 
 
 - [Download Aspose.Cells voor .NET](https://releases.aspose.com/cells/net/)
 
-U kunt NuGet in Visual Studio gebruiken of het handmatig downloaden. Als u de NuGet-route prefereert, voert u gewoon deze opdracht uit:
+kunt NuGet in Visual Studio gebruiken of het handmatig downloaden. Als u de NuGet-route prefereert, voert u gewoon deze opdracht uit:
 
 ```bash
 Install-Package Aspose.Cells
@@ -92,7 +92,7 @@ Nu het spannende gedeelte: het werkblad dupliceren! Hier kopiëren we de inhoud 
 sheets.AddCopy("Sheet1");
 ```
 
--  De`AddCopy`Met deze methode wordt een bestaand werkblad (in dit geval "Sheet1") gedupliceerd en wordt het nieuwe werkblad aan de werkmap toegevoegd.
+-  De`AddCopy` Met deze methode wordt een bestaand werkblad (in dit geval "Sheet1") gedupliceerd en wordt het nieuwe werkblad aan de werkmap toegevoegd.
 -  Je kunt vervangen`"Sheet1"` met de bladnaam die u wilt kopiëren.
 
 ## Stap 5: Sla de werkmap op
@@ -119,7 +119,7 @@ Het kopiëren van een werkblad in Aspose.Cells voor .NET is niet alleen eenvoudi
  Ja, u kunt werkbladen tussen verschillende werkmappen kopiëren door beide werkmappen te openen en de`AddCopy` methode tussen hen.
 
 ### Welke Excel-formaten ondersteunt Aspose.Cells?
- Aspose.Cells ondersteunt een breed scala aan Excel-indelingen, waaronder`.xls`, `.xlsx`, `.csv`, `.html`, en meer.
+Aspose.Cells ondersteunt een breed scala aan Excel-indelingen, waaronder`.xls`, `.xlsx`, `.csv`, `.html`, en meer.
 
 ### Heb ik een licentie nodig om Aspose.Cells voor .NET te gebruiken?
  Ja, om watermerken te vermijden en het volledige potentieel van de bibliotheek te ontsluiten, hebt u een geldige licentie nodig. U kunt echter een[gratis tijdelijke licentie](https://purchase.aspose.com/temporary-license) om het uit te proberen voordat u het koopt.

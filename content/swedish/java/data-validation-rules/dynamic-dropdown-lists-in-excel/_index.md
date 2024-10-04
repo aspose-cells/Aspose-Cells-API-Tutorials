@@ -43,7 +43,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Steg 4: Definiera källan för listrutan
+## Steg 4: Definiera listkällan
 
 För att skapa en dynamisk rullgardinslista behöver du en källa från vilken listan hämtar sina värden. Låt oss säga att du vill skapa en rullgardinslista med frukter. Du kan definiera en rad fruktnamn så här:
 
@@ -86,7 +86,7 @@ Att skapa dynamiska rullgardinslistor i Excel med Aspose.Cells för Java är ett
 
 ## FAQ's
 
-### Hur kan jag anpassa källan för rullgardinsmenyn?
+### Hur kan jag anpassa listkällan?
 
  För att anpassa rullgardinslistans källa, ändra helt enkelt arrayen av värden i steget där du definierar källan. Du kan till exempel lägga till eller ta bort objekt från`fruits` array för att ändra alternativen i rullgardinsmenyn.
 

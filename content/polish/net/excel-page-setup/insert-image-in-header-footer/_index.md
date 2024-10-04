@@ -148,4 +148,4 @@ Tak, możesz wstawiać oddzielne obrazy w różnych sekcjach nagłówka lub stop
 Upewnij się, że ścieżka do obrazu jest poprawna i plik istnieje. Sprawdź również zgodność formatu obrazu.
 
 ### Gdzie mogę znaleźć dodatkową dokumentację dotyczącą Aspose.Cells?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).

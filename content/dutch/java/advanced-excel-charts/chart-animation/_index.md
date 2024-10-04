@@ -8,7 +8,7 @@ weight: 17
 url: /nl/java/advanced-excel-charts/chart-animation/
 ---
 
-## Inleiding tot het maken van grafiekanimaties
+## Inleiding tot het maken van diagramanimaties
 
 In deze tutorial gaan we onderzoeken hoe u dynamische diagramanimaties kunt maken met behulp van de Aspose.Cells voor Java API. Diagramanimaties kunnen een krachtige manier zijn om datatrends en veranderingen in de loop van de tijd te visualiseren, waardoor uw rapporten en presentaties aantrekkelijker en informatiever worden. We bieden u een stapsgewijze handleiding en voegen volledige broncodevoorbeelden toe voor uw gemak.
 

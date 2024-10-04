@@ -41,10 +41,10 @@ Te przestrzenie nazw umożliwią Ci pracę z plikami Excela i bezproblemową obs
 Zanim będziesz mógł manipulować plikami Excela, musisz zdefiniować, gdzie znajdują się pliki źródłowe i gdzie chcesz zapisać plik wyjściowy. Oto, jak to zrobić:
 
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Katalog źródłowy
+string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 W tym kroku używamy metody, aby uzyskać ścieżki do katalogów źródłowych i wyjściowych. Upewnij się, że te katalogi istnieją i zawierają wymagane pliki.

@@ -136,7 +136,7 @@ Tak, możesz dostosować kryteria funkcji LICZ.JEŻELI, aby zliczać komórki sp
 
 ### Jak ocenić formułę w Aspose.Cells dla Java?
 
- Można ocenić formułę w Aspose.Cells dla Java, używając`calculateFormula` metoda z odpowiednimi opcjami.
+ Można ocenić formułę w Aspose.Cells dla Java za pomocą`calculateFormula` metoda z odpowiednimi opcjami.
 
 ### Jakie są najlepsze praktyki korzystania z funkcji LICZ.JEŻELI w programie Excel?
 

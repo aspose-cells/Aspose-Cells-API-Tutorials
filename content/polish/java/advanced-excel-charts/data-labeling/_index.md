@@ -56,7 +56,7 @@ column.setCaption("Expenses");
 
 ## Dostosowywanie etykiet
 
-Aspose.Cells for Java umożliwia dostosowywanie etykiet poprzez zmianę czcionek, kolorów i innych opcji formatowania. Dzięki temu etykiety są nie tylko informacyjne, ale również atrakcyjne wizualnie.
+Aspose.Cells for Java pozwala dostosowywać etykiety poprzez zmianę czcionek, kolorów i innych opcji formatowania. Dzięki temu etykiety są nie tylko informacyjne, ale również atrakcyjne wizualnie.
 
 ```java
 // Dostosuj formatowanie etykiet

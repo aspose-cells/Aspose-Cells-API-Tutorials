@@ -2,7 +2,7 @@
 title: Állítsa be az Excel első oldalszámát
 linktitle: Állítsa be az Excel első oldalszámát
 second_title: Aspose.Cells for .NET API Reference
-description: Az Aspose.Cells for .NET segítségével tárja fel az Excelben rejlő lehetőségeket. Ebből az átfogó útmutatóból tanulja meg könnyedén beállítani a munkalapok első oldalszámát.
+description: Az Aspose.Cells for .NET segítségével tárja fel az Excelben rejlő lehetőségeket. Ebből az átfogó útmutatóból tanulja meg könnyedén beállítani az első oldalszámot a munkalapokon.
 type: docs
 weight: 90
 url: /hu/net/excel-page-setup/set-excel-first-page-number/

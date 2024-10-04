@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Steg 2: Skapa ett arbetsboksobjekt
 
- Därefter kommer du att instansiera en`Workbook` objekt, som representerar din Excel-fil. Så här gör du:
+ Därefter instansierar du en`Workbook` objekt, som representerar din Excel-fil. Så här gör du:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -113,7 +113,7 @@ Att hantera pappersstorlekar i Excel-ark blir en bris med Aspose.Cells för .NET
 Ja, du kan komma åt flera kalkylblad i en slinga och tillämpa samma pappersstorleksinställningar på vart och ett.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells är ett kommersiellt bibliotek; men det erbjuder en gratis provperiod. Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera dess fullständiga funktioner.
+ Aspose.Cells är ett kommersiellt bibliotek; men det erbjuder en gratis provperiod. Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera dess fulla funktioner.
 
 ### Hur hanterar jag undantag när jag arbetar med Aspose.Cells?
 Du kan slå in din kod i ett försök-fångst-block för att hantera eventuella undantag som kan inträffa under manipulering av arbetsbok.

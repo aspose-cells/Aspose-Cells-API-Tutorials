@@ -104,10 +104,10 @@ Az Aspose.Cells egy .NET-könyvtár, amelyet az Excel-táblázatok programozott 
 Igen! Az Aspose.Cells támogatja a többplatformos fejlesztést, így különféle környezetekben dolgozhat, ahol elérhető a .NET.
 
 ### Szükségem van licencre az Aspose.Cellshez?
-Bár ingyenes próbaverzióval kezdheti, a további használathoz megvásárolt licenc szükséges. További részletek találhatók[itt](https://purchase.aspose.com/buy).
+ Bár ingyenes próbaverzióval kezdheti, a további használathoz megvásárolt licenc szükséges. További részletek találhatók[itt](https://purchase.aspose.com/buy).
 
 ### Hogyan ellenőrizhetem, hogy egy munkalap papírmérete automatikus-e C#-ban?
- Amint az az útmutatóban látható, ellenőrizheti a`IsAutomaticPaperSize` tulajdona a`PageSetup` osztály.
+Amint az az útmutatóban látható, ellenőrizheti a`IsAutomaticPaperSize` tulajdona a`PageSetup` osztály.
 
 ### Hol találhatok több információt az Aspose.Cells-ről?
  Átfogó dokumentációt és oktatóanyagokat találhat[itt](https://reference.aspose.com/cells/net/).

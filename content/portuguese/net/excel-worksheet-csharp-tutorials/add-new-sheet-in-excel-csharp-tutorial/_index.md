@@ -66,7 +66,7 @@ Em seguida, criaremos uma instância da classe Workbook. Essa classe é a espinh
 Workbook workbook = new Workbook();
 ```
 
- Quando você cria uma nova instância do`Workbook`classe, você está efetivamente começando uma lousa em branco — pronta para a ação. Pense nisso como abrir um caderno vazio onde você pode anotar tudo o que precisa.
+ Quando você cria uma nova instância do`Workbook` classe, você está efetivamente começando uma lousa em branco — pronta para a ação. Pense nisso como abrir um caderno vazio onde você pode anotar tudo o que precisa.
 
 ## Etapa 3: Adicionar uma nova planilha
 
@@ -116,10 +116,10 @@ Com o Aspose.Cells, as possibilidades são infinitas. Você pode manipular dados
 Aspose.Cells para .NET é uma biblioteca poderosa para criar, manipular e converter arquivos do Excel sem precisar instalar o Microsoft Excel.
 
 ### Posso adicionar várias folhas de uma vez?  
- Sim, basta ligar para o`Add()`método várias vezes e consulte cada folha pelo seu índice!
+ Sim, basta ligar para o`Add()` método várias vezes e consulte cada folha pelo seu índice!
 
 ### Existe uma versão de teste gratuita do Aspose.Cells?  
- Definitivamente! Você pode baixar uma versão de teste gratuita[aqui](https://releases.aspose.com/).
+Definitivamente! Você pode baixar uma versão de teste gratuita[aqui](https://releases.aspose.com/).
 
 ### Posso formatar a nova planilha depois de adicioná-la?  
 Claro! Você pode aplicar estilos, formatos e até fórmulas às suas planilhas usando os recursos da biblioteca.

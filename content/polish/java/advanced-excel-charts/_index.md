@@ -34,7 +34,7 @@ Odblokuj potencjał etykietowania danych za pomocą Aspose.Cells dla Java. Pozna
 ### [Analiza linii trendu](./trendline-analysis/)
 Opanuj analizę trendów w Javie z Aspose.Cells. Naucz się tworzyć spostrzeżenia oparte na danych dzięki instrukcjom krok po kroku i przykładom kodu.
 ### [Adnotacje do wykresów](./chart-annotations/)
-Ulepsz swoje wykresy za pomocą adnotacji wykresów przy użyciu Aspose.Cells for Java — przewodnik krok po kroku. Dowiedz się, jak dodawać adnotacje w celu informacyjnej wizualizacji danych.
+Ulepsz swoje wykresy za pomocą adnotacji wykresów przy użyciu Aspose.Cells for Java — przewodnik krok po kroku. Dowiedz się, jak dodawać adnotacje do informacyjnej wizualizacji danych.
 ### [Animacja wykresu](./chart-animation/)
 Dowiedz się, jak tworzyć fascynujące animacje wykresów za pomocą Aspose.Cells dla Java. Dołączony przewodnik krok po kroku i kod źródłowy do dynamicznej wizualizacji danych.
 ### [Wykresy wodospadowe](./waterfall-charts/)

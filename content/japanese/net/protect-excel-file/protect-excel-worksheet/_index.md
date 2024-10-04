@@ -2,7 +2,7 @@
 title: Excel ワークシートを保護する
 linktitle: Excel ワークシートを保護する
 second_title: Aspose.Cells for .NET API リファレンス
-description: ステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel ワークシートを保護する方法を学びます。データが安全かつ簡単に管理できるようにします。
+description: Aspose.Cells for .NET を使用して Excel ワークシートを保護する方法をステップバイステップ ガイドで学習します。データが安全かつ簡単に管理できる状態を維持できるようにします。
 type: docs
 weight: 50
 url: /ja/net/protect-excel-file/protect-excel-worksheet/

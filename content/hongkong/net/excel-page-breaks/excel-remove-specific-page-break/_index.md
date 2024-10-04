@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-page-breaks/excel-remove-specific-page-break/
 ---
 ## 介紹
 
-在處理 Excel 檔案時，管理分頁符號可能有點棘手，尤其是當您熱衷於保持完美的列印佈局時。您是否曾經遇到過需要從文件中刪除那些討厭的分頁符號的情況？如果是這樣，那你很幸運！在本指南中，我們將探討如何使用 .NET 的 Aspose.Cells 函式庫刪除 Excel 中的特定分頁符號。 
+在處理 Excel 檔案時，管理分頁符號可能有點棘手，尤其是當您熱衷於保持完美的列印佈局時。您是否曾經遇到過需要從文件中刪除那些討厭的分頁符號的情況？如果是這樣，那麼您很幸運！在本指南中，我們將探討如何使用 .NET 的 Aspose.Cells 函式庫刪除 Excel 中的特定分頁符號。 
 
 ## 先決條件 
 
@@ -100,7 +100,7 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 
 ## 結論
 
-現在你就得到它了！使用 Aspose.Cells for .NET 從 Excel 檔案中刪除特定分頁符號就像執行上述步驟一樣簡單。透過本指南，您可以確保 Excel 文件的格式完美適合列印，而不會出現任何雜散分頁符號。
+現在你就擁有了！使用 Aspose.Cells for .NET 從 Excel 檔案中刪除特定分頁符號就像執行上述步驟一樣簡單。透過本指南，您可以確保 Excel 文件的格式完美適合列印，而不會出現任何雜散分頁符號。
 
 ## 常見問題解答
 

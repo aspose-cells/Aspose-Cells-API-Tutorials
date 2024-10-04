@@ -43,12 +43,10 @@ using System;
 อันดับแรก เราต้องกำหนดว่าจะเก็บไฟล์ของเราไว้ที่ไหน ซึ่งเกี่ยวข้องกับการระบุไดเร็กทอรีต้นทางสำหรับไฟล์อินพุตและไดเร็กทอรีเอาต์พุตสำหรับไฟล์บีบอัดของเรา
 
 ```csharp
-//ไดเรกทอรีแหล่งที่มา
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// ไดเรกทอรีแหล่งที่มา
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- ที่นี่,`RunExamples.Get_SourceDirectory()` และ`RunExamples.Get_OutputDirectory()` เป็นวิธีการที่ส่งกลับเส้นทางไปยังไดเร็กทอรีต้นทางและปลายทางเอาต์พุตของคุณตามลำดับ 
 
 ## ขั้นตอนที่ 2: โหลดเวิร์กบุ๊ก
 

@@ -108,7 +108,7 @@ catch(Exception ex)
 
 # Závěr
 
-A tady to máte! Odemknutí chráněného listu aplikace Excel pomocí Aspose.Cells for .NET je docela jednoduché, když je rozděleno do zvládnutelných kroků. Pomocí několika řádků kódu můžete znovu získat přístup ke svým důležitým datům. Ať už je to pro osobní použití nebo obchodní požadavek, znalost manipulace s listy aplikace Excel může být silným nástrojem ve vaší sadě nástrojů. 
+A tady to máte! Odemknutí chráněného listu Excelu pomocí Aspose.Cells pro .NET je docela jednoduché, když je rozděleno do zvládnutelných kroků. Pomocí několika řádků kódu můžete znovu získat přístup ke svým důležitým datům. Ať už je to pro osobní použití nebo obchodní požadavek, znalost manipulace s listy aplikace Excel může být silným nástrojem ve vaší sadě nástrojů. 
 
 ## FAQ
 

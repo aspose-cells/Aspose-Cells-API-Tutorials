@@ -41,10 +41,10 @@ Các không gian tên này sẽ cho phép bạn làm việc với các tệp Exc
 Trước khi bạn có thể thao tác với các tệp Excel, bạn cần xác định vị trí các tệp nguồn và nơi bạn muốn lưu tệp đầu ra. Sau đây là cách thực hiện:
 
 ```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Thư mục nguồn
+string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Trong bước này, chúng tôi sử dụng phương pháp để lấy đường dẫn cho thư mục nguồn và thư mục đầu ra. Đảm bảo các thư mục này tồn tại và chứa các tệp cần thiết.

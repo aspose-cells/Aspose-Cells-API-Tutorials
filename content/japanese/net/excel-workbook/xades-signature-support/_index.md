@@ -42,12 +42,10 @@ using System.IO;
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
-このコードスニペットでは、`RunExamples.Get_SourceDirectory()`そして`RunExamples.Get_OutputDirectory()`は、それぞれソース ディレクトリと出力ディレクトリへのパスを返すメソッドです。これらのメソッドを使用していない場合は、必ず実際のパスに置き換えてください。
 
 ## ステップ2: ワークブックを読み込む
 

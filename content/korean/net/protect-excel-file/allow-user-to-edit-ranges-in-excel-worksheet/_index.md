@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- 먼저 교체하세요`"YOUR DOCUMENT DIRECTORY"`파일을 저장할 경로로. 이 코드는 디렉토리가 존재하는지 확인하고, 없으면 디렉토리를 만듭니다.
+ 먼저 교체하세요`"YOUR DOCUMENT DIRECTORY"` 파일을 저장할 경로로. 이 코드는 디렉토리가 존재하는지 확인하고, 없으면 디렉토리를 만듭니다.
 
 ## 2단계: 새 통합 문서 인스턴스화
 

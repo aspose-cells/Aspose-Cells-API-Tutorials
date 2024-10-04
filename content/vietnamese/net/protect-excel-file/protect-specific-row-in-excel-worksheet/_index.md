@@ -104,7 +104,7 @@ Bây giờ, đã đến lúc khóa hàng bạn muốn bảo vệ. Trong trườn
 style = sheet.Cells.Rows[0].Style;
 // Khóa nó lại.
 style.IsLocked = true;
-// Tạo cờ.
+//Tạo cờ.
 flag = new StyleFlag();
 // Thiết lập cài đặt khóa.
 flag.Locked = true;

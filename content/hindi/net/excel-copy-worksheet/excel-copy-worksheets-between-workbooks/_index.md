@@ -20,7 +20,7 @@ url: /hi/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 -  एक वैध लाइसेंस या[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) यदि आप Aspose.Cells की पूर्ण कार्यक्षमता का परीक्षण करना चाहते हैं।
 - C# और .NET फ्रेमवर्क की बुनियादी समझ।
 
- आप यह भी देख सकते हैं[Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/)अधिक जानकारी के लिए कृपया देखें.
+ आप यह भी देख सकते हैं[Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/) अधिक जानकारी के लिए कृपया देखें.
 
 ## पैकेज आयात करें
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 अंत में, आप कॉपी की गई वर्कशीट के साथ दूसरी वर्कबुक को सेव करेंगे। यह आपके नए लिखे गए नोट्स को आपके कंप्यूटर पर एक नए फ़ोल्डर में सेव करने जैसा है।
 
 ```csharp
-// फ़ाइल सहेजें।
+//फ़ाइल सहेजें।
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

@@ -63,7 +63,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ### Adım 5: MIN Fonksiyonunu Uygulayın
 
-Şimdi, A1'den A10'a kadar olan hücrelerde bir sayı aralığınız olduğunu ve bunlar arasındaki en düşük değeri bulmak istediğinizi varsayalım. MIN işlevini şu şekilde uygulamak için Java için Aspose.Cells'i kullanabilirsiniz:
+Şimdi, A1'den A10'a kadar olan hücrelerde bir sayı aralığınız olduğunu ve bunlar arasındaki en küçük değeri bulmak istediğinizi varsayalım. MIN işlevini şu şekilde uygulamak için Java için Aspose.Cells'i kullanabilirsiniz:
 
 ```java
 // MIN işlevini A1:A10 aralığına uygulayın ve sonucu B1 hücresine kaydedin

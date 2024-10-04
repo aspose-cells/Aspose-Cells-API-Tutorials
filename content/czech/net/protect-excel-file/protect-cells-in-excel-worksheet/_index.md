@@ -9,14 +9,14 @@ url: /cs/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Zavedení
 
-V dnešním digitálním světě je bezpečná správa dat v tabulkách důležitější než kdy jindy. Ať už pracujete s citlivými informacemi, nebo chcete jednoduše zajistit, aby vaše formátování zůstalo nedotčené, ochrana konkrétních buněk v excelovém listu může změnit hru. Naštěstí, pokud používáte .NET, Aspose.Cells tento proces zjednodušuje. V tomto článku prozkoumáme jednoduchého podrobného průvodce, jak chránit buňky v excelovém listu a zajistit, aby vaše data zůstala v bezpečí.
+dnešním digitálním světě je bezpečná správa dat v tabulkách důležitější než kdy jindy. Ať už pracujete s citlivými informacemi, nebo chcete jednoduše zajistit, aby vaše formátování zůstalo nedotčené, ochrana konkrétních buněk v excelovém listu může změnit hru. Naštěstí, pokud používáte .NET, Aspose.Cells tento proces zjednodušuje. V tomto článku prozkoumáme jednoduchého podrobného průvodce, jak chránit buňky v excelovém listu a zajistit, aby vaše data zůstala v bezpečí.
 
 ## Předpoklady
 
 Než se ponoříte do zbytečností ochrany buněk, měli byste mít splněno několik předpokladů:
 
 1. Visual Studio: Ujistěte se, že máte v počítači nainstalované Visual Studio. Je to primární IDE pro vývoj .NET.
-2. Knihovna Aspose.Cells: Ve svém projektu musíte mít k dispozici knihovnu Aspose.Cells. Můžete jej snadno nainstalovat pomocí NuGet Package Manager nebo si jej stáhnout přímo z[Web Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Knihovna Aspose.Cells: Ve svém projektu musíte mít k dispozici knihovnu Aspose.Cells. Můžete jej snadno nainstalovat pomocí NuGet Package Manager nebo si jej stáhnout přímo z[Web Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Malá znalost programování v C# vám pomůže hladce pokračovat.
 
 ## Import balíčků
@@ -155,5 +155,5 @@ Absolutně! Opakováním kroků uzamčení buněk pro každou požadovanou buňk
 ### Kde najdu dokumentaci?
 Dokumentaci lze nalézt[zde](https://reference.aspose.com/cells/net/).
 
-### jakých formátech souborů mohu ukládat soubory Excel?
+### V jakých formátech souborů mohu ukládat soubory Excel?
 Aspose.Cells podporuje více formátů včetně XLSX, XLS, CSV a dalších.

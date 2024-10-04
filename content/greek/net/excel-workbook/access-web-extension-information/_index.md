@@ -39,7 +39,7 @@ using System;
 Ξεκινήστε ορίζοντας τον κατάλογο προέλευσης όπου είναι αποθηκευμένο το αρχείο Excel. Αυτό διασφαλίζει ότι το πρόγραμμά σας γνωρίζει πού να αναζητήσει το αρχείο με το οποίο θέλετε να εργαστείτε.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Βήμα 2: Φορτώστε το βιβλίο εργασίας του Excel

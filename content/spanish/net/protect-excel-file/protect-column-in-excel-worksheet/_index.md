@@ -16,7 +16,7 @@ Administrar datos en hojas de cálculo de Excel puede parecer como navegar por u
 Antes de embarcarnos en este viaje de protección de datos, hay algunas cosas que necesitarás saber:
 
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu computadora. Es un entorno amigable para el desarrollo de .NET.
-2. Biblioteca Aspose.Cells: Necesitará la biblioteca Aspose.Cells para .NET. Si aún no la ha instalado, puede obtenerla desde[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells: Necesitará la biblioteca Aspose.Cells para .NET. Si aún no la ha instalado, puede obtenerla desde[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: Tener cierta familiaridad con la programación en C# le ayudará a comprender mejor el código.
 4. .NET Framework: asegúrate de tener configurado .NET Framework. Esta biblioteca funciona sin problemas tanto con .NET Framework como con .NET Core.
 
@@ -83,7 +83,7 @@ Worksheet sheet = wb.Worksheets[0];
 
 ## Paso 4: Definir los objetos Style y StyleFlag
 
-A continuación, debemos preparar los estilos que aplicaremos a las celdas.
+continuación, debemos preparar los estilos que aplicaremos a las celdas.
 
 ```csharp
 // Define el objeto de estilo.
@@ -117,11 +117,11 @@ Este bucle recorre cada columna (de 0 a 255) y las desbloquea. Considérelo como
 Ahora viene la parte divertida: bloquear la columna específica que desea proteger. En nuestro ejemplo, bloquearemos la primera columna (índice 0).
 
 ```csharp
-//Obtener el primer estilo de columna.
+// Obtener el primer estilo de columna.
 style = sheet.Cells.Columns[0].Style;
 // Bloquealo.
 style.IsLocked = true;
-// Instanciar la bandera.
+//Instanciar la bandera.
 flag = new StyleFlag();
 // Establecer la configuración de bloqueo.
 flag.Locked = true;

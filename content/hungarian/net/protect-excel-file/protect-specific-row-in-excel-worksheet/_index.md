@@ -90,7 +90,7 @@ for (int i = 0; i <= 255; i++)
     style = sheet.Cells.Columns[(byte)i].Style;
     style.IsLocked = false; // Oszlop feloldása
     flag = new StyleFlag();
-    flag.Locked = true; // Állítsa igazra a jelzőt a zároláshoz
+    flag.Locked = true; // A zároláshoz állítsa igazra a jelzőt
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Alkalmazza a stílust
 }
 ```
@@ -104,7 +104,7 @@ Most itt az ideje, hogy zárolja a védeni kívánt sort. Ebben az esetben az el
 style = sheet.Cells.Rows[0].Style;
 // Zárd be.
 style.IsLocked = true;
-// Példányosítsa a zászlót.
+//Példányosítsa a zászlót.
 flag = new StyleFlag();
 // Állítsa be a zár beállítását.
 flag.Locked = true;
@@ -140,7 +140,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 Igen, megismételheti a zárolási folyamatot bármely más sornál ugyanúgy, mint az első sornál.
 
 ### Mi a teendő, ha sorok helyett bizonyos cellákat akarok védeni és feloldani?  
-Egyedileg jelölheti ki a cellákat, és alkalmazhat zárolási stílusokat, hasonlóan ahhoz, ahogy egy sor zárolása történt.
+Egyedileg jelölheti ki a cellákat, és alkalmazhat zárolási stílusokat, hasonlóan ahhoz, ahogyan egy sort zárolt.
 
 ### Az Aspose.Cells ingyenesen használható?  
 Az Aspose.Cells kereskedelmi termék, de ingyenes próbaverzióval kipróbálhatja[itt](https://releases.aspose.com/).

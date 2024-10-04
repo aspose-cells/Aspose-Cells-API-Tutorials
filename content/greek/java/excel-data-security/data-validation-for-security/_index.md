@@ -71,7 +71,7 @@ dataValidation.setFormula2("100");
 ```java
 DataValidation customValidation = worksheet.getDataValidations().add(area);
 customValidation.setType(DataValidationType.CUSTOM);
-customValidation.setFormula1("=ISNUMBER(A1)"); // Ορίστε εδώ την προσαρμοσμένη φόρμουλα
+customValidation.setFormula1("=ISNUMBER(A1)"); // Ορίστε τον προσαρμοσμένο τύπο σας εδώ
 ```
 
 ## Χειρισμός σφαλμάτων επικύρωσης δεδομένων

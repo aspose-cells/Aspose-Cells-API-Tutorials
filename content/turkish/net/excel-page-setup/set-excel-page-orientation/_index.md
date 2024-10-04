@@ -16,7 +16,7 @@ Excel dosyalarını programatik olarak yönetmeye gelince, Aspose.Cells for .NET
 Sorunsuz bir deneyim sağlamak için, işe koyulmadan önce birkaç şeyi halletmeniz gerekir:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Kodunuzu burada yazacaksınız.
-2. Aspose.Cells for .NET: Aspose.Cells for .NET kütüphanesine sahip olmanız gerekir.[buradan indirin](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
+2.  Aspose.Cells for .NET: Aspose.Cells for .NET kütüphanesine sahip olmanız gerekir.[buradan indirin](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
 3. C# Temel Bilgisi: Bu eğitim C# ile yazıldığı için C# programlama diline aşina olmak oldukça faydalıdır.
 4. Çalışma Alanı: Bir kodlama ortamı ve belgelerinizi kaydedeceğiniz bir dizin hazırlayın, çünkü buna ihtiyacınız olacak!
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- Yeni bir tane yaratmak`Workbook` sanki bir defterde yeni bir sayfa açmak gibi, istediğiniz bilgileri doldurabileceğiniz bir yer!
+ Yeni bir tane yaratmak`Workbook`sanki bir defterde yeni bir sayfa açmak gibi, istediğiniz bilgileri doldurabileceğiniz bir yer!
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -97,13 +97,13 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasının sayfa yö
 Aspose.Cells for .NET, Excel dosyalarını oluşturma, düzenleme, dönüştürme ve daha birçok işlevselliğe sahip programlı bir şekilde yönetmek için güçlü bir kütüphanedir.
 
 ### Yönlendirmeyi yatay olarak da değiştirebilir miyim?
-Evet! Yönlendirmeyi şu şekilde ayarlayabilirsiniz:`PageOrientationType.Landscape` Benzer şekilde.
+ Evet! Yönlendirmeyi şu şekilde ayarlayabilirsiniz:`PageOrientationType.Landscape` Benzer şekilde.
 
 ### Aspose.Cells için destek mevcut mu?
  Kesinlikle! Onları ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9) Herhangi bir soru veya yardım için.
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/), özellikleri sınırlama olmaksızın denemenize olanak tanır.
+ Geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/)özellikleri sınırlama olmaksızın denemenize olanak tanır.
 
 ### Aspose.Cells büyük Excel dosyalarını işleyebilir mi?
 Evet, Aspose.Cells büyük dosyaları işlemek için optimize edilmiştir ve çeşitli işlemleri verimli bir şekilde gerçekleştirebilir.

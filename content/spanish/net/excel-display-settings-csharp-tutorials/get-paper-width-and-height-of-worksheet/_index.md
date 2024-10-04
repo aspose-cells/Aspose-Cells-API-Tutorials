@@ -102,7 +102,7 @@ Aspose.Cells es una biblioteca .NET diseñada para procesar archivos Excel sin n
  Aspose.Cells proporciona opciones para configurar tamaños de papel personalizados utilizando el`PageSetup` clase.
 
 ### ¿Es necesario tener conocimientos de codificación para utilizar Aspose.Cells?
-Los conocimientos básicos de codificación ayudan, pero puedes seguir tutoriales para una comprensión más sencilla.
+Los conocimientos básicos de codificación ayudan, pero puedes seguir tutoriales para una comprensión más fácil.
 
 ### ¿Dónde puedo encontrar más ejemplos?
  El[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) Ofrece una gran cantidad de ejemplos y tutoriales.

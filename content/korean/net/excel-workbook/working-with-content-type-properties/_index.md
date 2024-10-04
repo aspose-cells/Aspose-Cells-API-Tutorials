@@ -37,14 +37,12 @@ Aspose.Cells 기능에 쉽게 액세스할 수 있도록 C# 파일의 맨 위에
 먼저, 새로운 Excel 파일을 저장할 출력 디렉토리를 설정해 보겠습니다. 이렇게 하면 프로젝트를 정리하는 데 도움이 됩니다.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- 여기,`RunExamples.Get_OutputDirectory()` 출력 파일에 대한 지정된 경로를 검색하는 함수 호출입니다. 이 메서드가 정의되어 있고 유효한 디렉토리를 가리키는지 확인하세요.
 
 ## 2단계: 새 통합 문서 만들기
 
-이제 출력 디렉토리가 있으므로 새 통합 문서를 만들어 보겠습니다.`Workbook` 클래스는 Excel 파일을 다루기 위한 시작점입니다.
+ 이제 출력 디렉토리가 있으므로 새 통합 문서를 만들어 보겠습니다.`Workbook`클래스는 Excel 파일을 다루기 위한 시작점입니다.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -101,7 +99,7 @@ workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
 Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 ```
 
-이 메시지는 이전 모든 단계가 성공적으로 완료되면 콘솔에 나타납니다.
+이 메시지는 이전 단계를 모두 성공적으로 완료하면 콘솔에 나타납니다.
 
 ## 결론
 

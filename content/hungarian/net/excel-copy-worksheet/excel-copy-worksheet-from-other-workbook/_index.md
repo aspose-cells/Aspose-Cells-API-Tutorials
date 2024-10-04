@@ -17,7 +17,7 @@ Mielőtt belemerülnénk a kódolási részbe, vegyünk fel mindent, amire szük
 
 1. Visual Studio (vagy bármely .NET IDE): A gépen be kell állítani egy .NET fejlesztői környezetet.
 2.  Aspose.Cells for .NET: Le kell töltenie és telepítenie kell az Aspose.Cells programot. Ha még nincs meg, akkor beszerezheti[itt](https://releases.aspose.com/cells/net/).
-3. A C# alapjai: Egy kis ismeret a C# programozásban simábbá teszi ezt az utat, de ne stresszelj, ha most kezded!
+3. C# alapjai: Egy kis ismeret a C# programozásban simábbá teszi ezt az utat, de ne stresszelj, ha most kezded!
 4. .NET-keretrendszer: Győződjön meg arról, hogy projektje a .NET-keretrendszer kompatibilis verzióját célozza meg.
 5. Rendszerbeállítás: Győződjön meg arról, hogy minden korlátozás nélkül futtathatja és tesztelheti alkalmazásait.
 
@@ -57,7 +57,7 @@ Ezután hozzuk létre az első munkafüzetünket, és adjunk hozzá néhány min
 ```csharp
 // Hozzon létre egy új munkafüzetet
 Workbook excelWorkbook0 = new Workbook();
-// Szerezd meg a könyv első munkalapját
+// Szerezd meg a könyv első feladatlapját
 Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
 // Helyezzen el néhány adatot a fejlécsorokba (A1:A4)
@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Itt létrehozzuk az első munkafüzetet, és kitöltjük az első munkalapot (`ws0`fejlécekkel és részletsorokkal. Ezek a szimulált adatok segítenek a másolási folyamat későbbi vizualizálásában.
+Itt létrehozzuk az első munkafüzetet, és kitöltjük az első munkalapot (`ws0`) fejlécekkel és részletsorokkal. Ezek a szimulált adatok segítenek a másolási folyamat későbbi vizualizálásában.
 
 ## 3. lépés: Állítsa be az Oldalbeállítást nyomtatáshoz
 
 Állítsuk be az oldalbeállítást úgy, hogy nyomtatáskor ismételje meg a fejlécsorokat, hogy lássuk a funkció működését:
 
 ```csharp
-// Határozzon meg egy oldalbeállítási objektumot az első munkalap alapján
+//Határozzon meg egy oldalbeállítási objektumot az első munkalap alapján
 PageSetup pagesetup = ws0.PageSetup;
 // Az első öt sor minden oldalon megismétlődik
 pagesetup.PrintTitleRows = "$1:$5";
@@ -93,7 +93,7 @@ Most létre kell hoznunk egy másik munkafüzetet, ahová az első munkalapot m�
 ```csharp
 // Hozzon létre egy másik munkafüzetet
 Workbook excelWorkbook1 = new Workbook();
-// Szerezd meg a könyv első munkalapját
+// Szerezd meg a könyv első feladatlapját
 Worksheet ws1 = excelWorkbook1.Worksheets[0];
 // Nevezze el a munkalapot
 ws1.Name = "MySheet";
@@ -109,7 +109,7 @@ Másoljuk át a tartalmat az első munkafüzet munkalapjáról a második munkaf
 // a második munkafüzet első munkalapja
 ws1.Copy(ws0);
 ```
- A`Copy` metódus átveszi az összes tartalmat a forrás munkalapról (`ws0`) és duplikálja a cél munkalapra (`ws1`). Olyan egyszerű, igaz?
+ A`Copy` metódus átveszi az összes tartalmat a forrás munkalapról (`ws0`és duplikálja a cél munkalapra (`ws1`). Olyan egyszerű, igaz?
 
 ## 6. lépés: Mentse el az új munkafüzetet
 
@@ -137,7 +137,7 @@ Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők szám�
  Ideiglenes engedélyt kérhet a következő címen[ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 ### Hol találok további dokumentációt az Aspose.Cells-ről?  
- Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
+Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
 
 ### Elérhető támogatás az Aspose.Cells felhasználók számára?  
  Teljesen! A támogatást a[Aspose fórum](https://forum.aspose.com/c/cells/9).

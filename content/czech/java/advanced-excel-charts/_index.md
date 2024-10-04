@@ -34,7 +34,7 @@ Odemkněte potenciál označování dat pomocí Aspose.Cells for Java. Naučte s
 ### [Analýza trendové linie](./trendline-analysis/)
 Zvládněte analýzu trendů v Javě s Aspose.Cells. Naučte se vytvářet statistiky založené na datech pomocí podrobných pokynů a příkladů kódu.
 ### [Poznámky k grafu](./chart-annotations/)
-Vylepšete své grafy pomocí anotací grafů pomocí Aspose.Cells pro Javu – průvodce krok za krokem. Zjistěte, jak přidávat anotace pro informativní vizualizaci dat.
+Vylepšete své grafy pomocí anotací grafů pomocí Aspose.Cells for Java – průvodce krok za krokem. Zjistěte, jak přidávat anotace pro informativní vizualizaci dat.
 ### [Animace grafu](./chart-animation/)
 Naučte se vytvářet poutavé animace grafů pomocí Aspose.Cells for Java. Součástí je podrobný průvodce a zdrojový kód pro dynamickou vizualizaci dat.
 ### [Vodopádové mapy](./waterfall-charts/)

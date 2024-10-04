@@ -41,10 +41,10 @@ Diese Namespaces ermöglichen Ihnen die Arbeit mit Excel-Dateien und die nahtlos
 Bevor Sie Ihre Excel-Dateien bearbeiten können, müssen Sie festlegen, wo sich Ihre Quelldateien befinden und wo Sie die Ausgabedatei speichern möchten. So geht's:
 
 ```csharp
-//Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Quellverzeichnis
+string sourceDir = "Your Document Directory";
 // Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 In diesem Schritt verwenden wir eine Methode, um die Pfade für die Quell- und Ausgabeverzeichnisse abzurufen. Stellen Sie sicher, dass diese Verzeichnisse vorhanden sind und die erforderlichen Dateien enthalten.
@@ -132,7 +132,7 @@ Dadurch erhalten Sie die Rückmeldung, dass Ihr Vorgang erfolgreich war, was imm
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich eine neue digitale Signatur zu einer bereits signierten Excel-Datei hinzugefügt, indem Sie Aspose.Cells für .NET verwenden. Digitale Signaturen sind eine leistungsstarke Methode, um die Authentizität Ihrer Dokumente sicherzustellen, und jetzt wissen Sie, wie Sie sie programmgesteuert verwalten können. Unabhängig davon, ob Sie an Finanzdokumenten, Verträgen oder vertraulichen Informationen arbeiten, kann die Implementierung digitaler Signaturen die Sicherheit und das Vertrauen verbessern.
+Und da haben Sie es! Sie haben erfolgreich eine neue digitale Signatur zu einer bereits signierten Excel-Datei hinzugefügt, indem Sie Aspose.Cells für .NET verwenden. Digitale Signaturen sind eine leistungsstarke Methode, um die Authentizität Ihrer Dokumente sicherzustellen, und jetzt wissen Sie, wie Sie sie programmgesteuert verwalten können. Ganz gleich, ob Sie an Finanzdokumenten, Verträgen oder vertraulichen Informationen arbeiten, die Implementierung digitaler Signaturen kann die Sicherheit und das Vertrauen erhöhen.
 
 ## Häufig gestellte Fragen
 

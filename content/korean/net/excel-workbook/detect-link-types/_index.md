@@ -53,7 +53,7 @@ using System;
 
 ```csharp
 // 소스 디렉토리 정의
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 이 줄은 Excel 파일이 들어 있는 디렉토리를 가리킵니다. 파일 위치에 따라 경로를 조정해야 합니다.

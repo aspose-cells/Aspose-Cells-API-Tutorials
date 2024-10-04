@@ -39,7 +39,7 @@ using System;
 เริ่มต้นด้วยการกำหนดไดเรกทอรีต้นทางที่เก็บไฟล์ Excel ของคุณ วิธีนี้จะช่วยให้โปรแกรมของคุณทราบว่าควรค้นหาไฟล์ที่คุณต้องการใช้งานจากที่ใด
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## ขั้นตอนที่ 2: โหลดสมุดงาน Excel

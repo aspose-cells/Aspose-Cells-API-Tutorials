@@ -9,7 +9,7 @@ url: /de/net/excel-display-settings-csharp-tutorials/display-and-hide-gridlines-
 ---
 ## Einführung
 
-Haben Sie sich schon einmal gefragt, wie Sie das Erscheinungsbild von Excel-Tabellen per Code ändern können? Mit Aspose.Cells für .NET ist das ganz einfach! Eine häufige Aufgabe besteht darin, Gitternetzlinien in einem Arbeitsblatt anzuzeigen oder auszublenden, was Ihnen dabei hilft, das Erscheinungsbild Ihrer Tabellen anzupassen. Ob Sie nun die Lesbarkeit Ihrer Excel-Berichte verbessern oder die Präsentation optimieren möchten, das Ausblenden oder Anzeigen von Gitternetzlinien kann ein entscheidender Schritt sein. Heute zeige ich Ihnen in einer ausführlichen Schritt-für-Schritt-Anleitung, wie Sie dies mit Aspose.Cells für .NET tun können.
+Haben Sie sich schon einmal gefragt, wie Sie das Erscheinungsbild von Excel-Tabellen per Code ändern können? Mit Aspose.Cells für .NET ist das ganz einfach! Eine häufige Aufgabe besteht darin, Gitternetzlinien in einem Arbeitsblatt anzuzeigen oder auszublenden, was dabei hilft, das Erscheinungsbild Ihrer Tabellen anzupassen. Ob Sie nun die Lesbarkeit Ihrer Excel-Berichte verbessern oder die Präsentation optimieren möchten, das Ausblenden oder Anzeigen von Gitternetzlinien kann ein entscheidender Schritt sein. Heute zeige ich Ihnen in einer ausführlichen Schritt-für-Schritt-Anleitung, wie Sie dies mit Aspose.Cells für .NET tun können.
 
 Tauchen Sie ein in dieses spannende Tutorial und am Ende sind Sie ein Profi im Steuern von Gitternetzlinien in Ihren Excel-Arbeitsblättern mit nur wenigen Codezeilen!
 

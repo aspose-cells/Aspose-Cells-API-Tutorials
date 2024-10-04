@@ -33,7 +33,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## 4. Łączenie danych z wielu arkuszy
 
-W wielu scenariuszach dane są rozproszone na wielu arkuszach Excela. Możesz użyć Aspose.Cells for Java, aby efektywnie łączyć dane:
+W wielu scenariuszach dane są rozproszone na wielu arkuszach Excela. Możesz użyć Aspose.Cells for Java, aby sprawnie połączyć dane:
 
 ```java
 // Kod Java do łączenia danych z wielu arkuszy

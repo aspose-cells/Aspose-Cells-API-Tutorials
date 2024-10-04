@@ -47,13 +47,13 @@ Bu paketler bize Aspose.Cells tarafından sağlanan sınıflara ve metotlara eri
 Öncelikle giriş Excel dosyamızın nerede olduğunu ve gerekli değişiklikleri yaptıktan sonra çıktı dosyasını nereye kaydetmek istediğimizi belirtmemiz gerekiyor.
 
 ```csharp
-//Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Kaynak dizini
+string sourceDir = "Your Document Directory";
 // Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Burada,`RunExamples.Get_SourceDirectory()` Ve`RunExamples.Get_OutputDirectory()` kaynak ve çıktı yollarını kolayca yakalamanıza yardımcı olan yardımcı işlevlerdir. Kaynak dizininizin adlı bir dosya içerdiğinden emin olun`SampleRegexReplace.xlsx` Bu örnek için.
+ Burada,`"Your Document Directory"` Ve`"Your Document Directory"` kaynak ve çıktı yollarını kolayca yakalamanıza yardımcı olan yardımcı işlevlerdir. Kaynak dizininizin adlı bir dosya içerdiğinden emin olun`SampleRegexReplace.xlsx` Bu örnek için.
 
 ## Adım 2: Çalışma Kitabını Yükleme
 

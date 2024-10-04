@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Şimdi, diğer tüm sütunları düzenlenebilir bırakırken, özellikle ilk sütunu kilitlemek isteyeceksiniz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
-//İlk sütun stilini edinin.
+// İlk sütun stilini edinin.
 style = sheet.Cells.Columns[0].Style;
 // Kilitle onu.
 style.IsLocked = true;
-// Bayrağı örneklendir.
+//Bayrağı örneklendir.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;

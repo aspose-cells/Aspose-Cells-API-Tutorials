@@ -1,6 +1,6 @@
 ---
-title: Excel-Seite einrichten
-linktitle: Excel-Seite einrichten
+title: Excel-Seiteneinrichtung
+linktitle: Excel-Seiteneinrichtung
 second_title: Aspose.Cells für .NET API-Referenz
 description: Sehen Sie sich die Aspose.Cells für .NET-Tutorials zum Einrichten des Seitenlayouts von Excel an. Passen Sie Ihre Excel-Dateien ganz einfach an.
 type: docs
@@ -60,7 +60,7 @@ Mit so vielen Tutorials, die Ihnen zur Verfügung stehen, muss die Beherrschung 
 | [Bestimmen Sie, ob die Papiergröße des Arbeitsblatts automatisch ist](./determine-if-paper-size-of-worksheet-is-automatic/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET feststellen, ob die Papiergröße eines Arbeitsblatts automatisch ist. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung. |  
 | [Optionen für „An Excel-Seiten anpassen“](./fit-to-excel-pages-options/) | Erfahren Sie, wie Sie die Optionen „An Excel-Seiten anpassen“ mit Aspose.Cells für .NET verwenden und Ihre Daten in einer einfachen Schritt-für-Schritt-Anleitung ansprechend präsentieren. |  
 | [Seitenabmessungen abrufen](./get-page-dimensions/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Seitenabmessungen ermitteln. Perfekt für Entwickler, die mit Excel-Dateien arbeiten. |  
-| [Implementieren Sie eine benutzerdefinierte Papiergröße des Arbeitsblatts zum Rendern](./implement-custom-paper-size-of-worksheet-for-rendering/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Papiergrößen in Excel festlegen. Schritt-für-Schritt-Anleitung für nahtloses Rendern von Arbeitsblättern. |  
+| [Implementieren Sie eine benutzerdefinierte Papiergröße des Arbeitsblatts zum Rendern](./implement-custom-paper-size-of-worksheet-for-rendering/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Papiergrößen in Excel festlegen. Schritt-für-Schritt-Anleitung für die nahtlose Arbeitsblattdarstellung. |  
 | [Bild in Kopf-/Fußzeile einfügen](./insert-image-in-header-footer/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Bilder in Kopf- und Fußzeilen einfügen. |  
 | [Verwalten der Excel-Papiergröße](./manage-excel-paper-size/) | Erfahren Sie, wie Sie Excel-Papiergrößen mit Aspose.Cells für .NET verwalten. Dieses Handbuch bietet Schritt-für-Schritt-Anleitungen und Beispiele für eine nahtlose Integration. |  
 | [Vorhandene Druckereinstellungen von Arbeitsblättern entfernen](./remove-existing-printer-settings-of-worksheets/) | Entdecken Sie eine Schritt-für-Schritt-Anleitung zum Entfernen von Druckereinstellungen aus Excel-Arbeitsblättern mit Aspose.Cells für .NET und verbessern Sie so mühelos die Druckqualität Ihres Dokuments. |  

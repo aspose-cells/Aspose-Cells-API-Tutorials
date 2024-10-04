@@ -61,11 +61,9 @@ Nyní, když máme naše vývojové prostředí nastavené, je čas napsat hlavn
 
 ```csharp
 // Nastavte zdrojový adresář
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Zde,`RunExamples.Get_SourceDirectory()` je vlastní metoda, kterou můžete mít ve svém projektu a která načte cestu ke složce obsahující váš ukázkový soubor. V případě potřeby ji nahraďte skutečnou cestou.
 
 ## Krok 2: Přístup k vzorcům Power Query
 

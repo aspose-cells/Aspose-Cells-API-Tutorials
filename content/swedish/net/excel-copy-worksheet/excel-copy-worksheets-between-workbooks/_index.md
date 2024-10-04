@@ -20,7 +20,7 @@ Innan vi dyker in i koden, låt oss se till att du är utrustad med rätt verkty
 -  En giltig licens eller en[tillfällig licens](https://purchase.aspose.com/temporary-license/) om du vill testa Aspose.Cells fulla funktionalitet.
 - En grundläggande förståelse för C# och .NET-ramverket.
 
- Du kan också kolla in[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/)för ytterligare information.
+ Du kan också kolla in[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) för ytterligare information.
 
 ## Importera paket
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Slutligen kommer du att spara den andra arbetsboken med det kopierade arbetsbladet. Det är som att spara dina nyskrivna anteckningar i en ny mapp på din dator.
 
 ```csharp
-// Spara filen.
+//Spara filen.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

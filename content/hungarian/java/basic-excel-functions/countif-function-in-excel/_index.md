@@ -83,7 +83,7 @@ worksheet.calculateFormula(options);
 
 ## A COUNTIF-feltételek testreszabása
 
-Testreszabhatja a COUNTIF függvény feltételeit a meghatározott feltételeknek megfelelő cellák megszámlálásához. Például olyan cellák számlálása, amelyek értéke nagyobb egy bizonyos számnál, adott szöveget tartalmaz, vagy egy mintához illeszkedik.
+Testreszabhatja a COUNTIF függvény feltételeit a meghatározott feltételeknek megfelelő cellák megszámlálásához. Például olyan cellák számlálása, amelyek értéke nagyobb egy bizonyos számnál, adott szöveget tartalmaz, vagy megfelel egy mintának.
 
 ```java
 // Egyéni COUNTIF-feltételek

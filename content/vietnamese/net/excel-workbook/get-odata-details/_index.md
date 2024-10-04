@@ -61,11 +61,9 @@ Bây giờ chúng ta đã thiết lập xong môi trường phát triển, đã 
 
 ```csharp
 // Đặt thư mục nguồn
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Đây,`RunExamples.Get_SourceDirectory()` là một phương pháp tùy chỉnh mà bạn có thể có trong dự án của mình để lấy đường dẫn đến thư mục chứa tệp mẫu của bạn. Hãy đảm bảo thay thế đường dẫn này bằng đường dẫn thực tế nếu cần.
 
 ## Bước 2: Truy cập công thức Power Query
 

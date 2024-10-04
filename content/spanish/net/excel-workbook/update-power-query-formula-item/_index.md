@@ -47,10 +47,9 @@ En este paso, definiremos dónde se encuentran nuestros archivos de origen y de 
 
 ```csharp
 // Directorios de trabajo
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Aquí utilizamos un método hipotético.`RunExamples.Get_SourceDirectory()` para obtener la ruta a nuestros archivos de origen. De manera similar,`RunExamples.Get_OutputDirectory()` Obtiene la ruta donde guardaremos la salida. Asegúrese de que estos métodos devuelvan rutas válidas en su máquina.
 
 ## Paso 2: Cargue el libro de trabajo
 
@@ -59,11 +58,11 @@ Ahora, carguemos el archivo Excel donde reside Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- El`Workbook`La clase es el punto de entrada al archivo de Excel. Al pasar la ruta de nuestro archivo de origen, estamos creando una instancia que nos permite manipularlo. Puedes imaginarlo como abrir un libro: te estás preparando para leer (o editar) su contenido.
+ El`Workbook` La clase es el punto de entrada al archivo de Excel. Al pasar la ruta de nuestro archivo de origen, estamos creando una instancia que nos permite manipularlo. Puedes imaginarlo como abrir un libro: te estás preparando para leer (o editar) su contenido.
 
 ## Paso 3: Acceda al Mashup de datos
 
-A continuación, accederemos a las fórmulas de Power Query almacenadas en el Data Mashup del libro de trabajo.
+continuación, accederemos a las fórmulas de Power Query almacenadas en el Data Mashup del libro de trabajo.
 
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
@@ -102,7 +101,7 @@ Después de realizar las actualizaciones, es hora de guardar nuestros cambios.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- El`Save` El método escribe el libro de trabajo actualizado en el directorio de salida especificado. ¡Es como sellar tus ediciones en una nueva versión del manual, lista para que otros la usen!
+ El`Save`El método escribe el libro de trabajo actualizado en el directorio de salida especificado. ¡Es como sellar tus ediciones en una nueva versión del manual, lista para que otros la usen!
 
 ## Conclusión
 

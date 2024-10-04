@@ -47,10 +47,9 @@ In diesem Schritt definieren wir, wo sich unsere Quell- und Ausgabedateien befin
 
 ```csharp
 // Arbeitsverzeichnisse
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Hier verwenden wir eine hypothetische Methode`RunExamples.Get_SourceDirectory()` um den Pfad zu unseren Quelldateien abzurufen. Ebenso`RunExamples.Get_OutputDirectory()` ruft den Pfad ab, in dem wir unsere Ausgabe speichern. Stellen Sie sicher, dass diese Methoden auf Ihrem Computer gültige Pfade zurückgeben.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
@@ -59,7 +58,7 @@ Laden wir jetzt die Excel-Datei, in der sich die Power Query befindet.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Der`Workbook`Klasse ist Ihr Einstiegspunkt in die Excel-Datei. Indem wir den Pfad unserer Quelldatei übergeben, erstellen wir eine Instanz, die es uns ermöglicht, sie zu bearbeiten. Sie können es sich wie das Öffnen eines Buches vorstellen – Sie bereiten sich darauf vor, seinen Inhalt zu lesen (oder zu bearbeiten).
+ Der`Workbook` Klasse ist Ihr Einstiegspunkt in die Excel-Datei. Indem wir den Pfad unserer Quelldatei übergeben, erstellen wir eine Instanz, die es uns ermöglicht, sie zu bearbeiten. Sie können es sich wie das Öffnen eines Buches vorstellen – Sie bereiten sich darauf vor, seinen Inhalt zu lesen (oder zu bearbeiten).
 
 ## Schritt 3: Zugriff auf das Daten-Mashup
 
@@ -102,7 +101,7 @@ Nachdem wir die Aktualisierungen vorgenommen haben, ist es Zeit, unsere Änderun
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Der`Save` Die Methode schreibt die aktualisierte Arbeitsmappe in das angegebene Ausgabeverzeichnis. Das ist, als würden Sie Ihre Änderungen in einer neuen Version des Handbuchs versiegeln, die für andere bereit ist!
+ Der`Save`Die Methode schreibt die aktualisierte Arbeitsmappe in das angegebene Ausgabeverzeichnis. Das ist, als würden Sie Ihre Änderungen in einer neuen Version des Handbuchs versiegeln, die für andere bereit ist!
 
 ## Abschluss
 

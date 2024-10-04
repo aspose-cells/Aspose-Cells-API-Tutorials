@@ -47,13 +47,13 @@ Mari kita uraikan semuanya menjadi beberapa langkah yang mudah dikelola. Kami ak
 Pertama-tama, kita perlu menentukan di mana file Excel masukan kita berada, serta di mana kita ingin menyimpan file keluaran setelah membuat perubahan yang diperlukan.
 
 ```csharp
-//Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Direktori sumber
+string sourceDir = "Your Document Directory";
 // Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Di Sini,`RunExamples.Get_SourceDirectory()` Dan`RunExamples.Get_OutputDirectory()` adalah fungsi utilitas yang membantu Anda mengambil jalur sumber dan keluaran dengan mudah. Pastikan direktori sumber Anda berisi file bernama`SampleRegexReplace.xlsx` untuk contoh ini.
+ Di Sini,`"Your Document Directory"` Dan`"Your Document Directory"` adalah fungsi utilitas yang membantu Anda mengambil jalur sumber dan keluaran dengan mudah. Pastikan direktori sumber Anda berisi file bernama`SampleRegexReplace.xlsx` untuk contoh ini.
 
 ## Langkah 2: Memuat Buku Kerja
 

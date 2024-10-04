@@ -41,10 +41,10 @@ Met deze naamruimten kunt u naadloos met Excel-bestanden werken en digitale hand
 Voordat u uw Excel-bestanden kunt bewerken, moet u definiëren waar uw bronbestanden zich bevinden en waar u het uitvoerbestand wilt opslaan. Dit is hoe u dat doet:
 
 ```csharp
-//Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Bron directory
+string sourceDir = "Your Document Directory";
 // Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 In deze stap gebruiken we een methode om de paden voor de bron- en uitvoerdirectory's te verkrijgen. Zorg ervoor dat deze directory's bestaan en de vereiste bestanden bevatten.

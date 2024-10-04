@@ -54,8 +54,8 @@ Artık gerekli paketleri içe aktardığımıza göre, MOL dosyalarını çıkar
 
 ```csharp
 //dizinler
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

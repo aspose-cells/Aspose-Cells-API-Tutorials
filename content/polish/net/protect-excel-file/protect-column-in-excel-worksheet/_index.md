@@ -16,7 +16,7 @@ Zarządzanie danymi w arkuszach programu Excel może przypominać poruszanie si�
 Zanim rozpoczniesz podróż ku ochronie danych, musisz wiedzieć kilka rzeczy:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To przyjazne środowisko dla rozwoju .NET.
-2. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać z[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać z[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć kod.
 4. .NET Framework: Upewnij się, że masz skonfigurowany .NET Framework. Ta biblioteka działa bezproblemowo zarówno z .NET Framework, jak i .NET Core.
 
@@ -42,7 +42,7 @@ using Aspose.Cells;
 
 Ten wiersz informuje program, że w kodzie będziesz używać funkcji Aspose.Cells. 
 
-A teraz przejdźmy do szczegółów! Oto podział każdego kroku związanego z ochroną kolumny w arkuszu kalkulacyjnym programu Excel. 
+teraz przejdźmy do szczegółów! Oto podział każdego kroku związanego z ochroną kolumny w arkuszu kalkulacyjnym programu Excel. 
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
@@ -117,11 +117,11 @@ Ta pętla przechodzi przez każdą kolumnę (od 0 do 255) i odblokowuje je. Rozw
 Teraz nadchodzi zabawna część — zablokowanie konkretnej kolumny, którą chcesz chronić. W naszym przykładzie zablokujemy pierwszą kolumnę (indeks 0).
 
 ```csharp
-//Pobierz styl pierwszej kolumny.
+// Pobierz styl pierwszej kolumny.
 style = sheet.Cells.Columns[0].Style;
 // Zamknij to.
 style.IsLocked = true;
-// Utwórz instancję flagi.
+//Utwórz instancję flagi.
 flag = new StyleFlag();
 // Ustaw ustawienie blokady.
 flag.Locked = true;

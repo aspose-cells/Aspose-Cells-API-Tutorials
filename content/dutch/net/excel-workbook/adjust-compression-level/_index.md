@@ -43,12 +43,10 @@ Nu we alles hebben ingesteld, gaan we het proces van het aanpassen van compressi
 Allereerst moeten we definiëren waar onze bestanden worden opgeslagen. Dit houdt in dat we de brondirectory voor ons invoerbestand en de uitvoerdirectory voor onze gecomprimeerde bestanden specificeren.
 
 ```csharp
-//Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Bron directory
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Hier,`RunExamples.Get_SourceDirectory()` En`RunExamples.Get_OutputDirectory()` zijn methoden die respectievelijk de paden naar uw bron- en uitvoermappen retourneren. 
 
 ## Stap 2: Laad de werkmap
 

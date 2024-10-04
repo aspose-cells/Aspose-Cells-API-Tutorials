@@ -47,10 +47,9 @@ Ebben a lépésben meghatározzuk, hogy hol találhatók a forrás- és kimeneti
 
 ```csharp
 // Munkakönyvtárak
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Itt egy hipotetikus módszert alkalmazunk`RunExamples.Get_SourceDirectory()` hogy lekérjük a forrásfájljaink elérési útját. Hasonlóképpen,`RunExamples.Get_OutputDirectory()` megkapja az elérési utat, ahol elmentjük a kimenetünket. Győződjön meg arról, hogy ezek a módszerek érvényes elérési utat adnak vissza a számítógépen.
 
 ## 2. lépés: Töltse be a munkafüzetet
 
@@ -59,7 +58,7 @@ Most töltsük be az Excel-fájlt, ahol a Power Query található.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- A`Workbook`osztály a belépési pont az Excel fájlba. A forrásfájlunk elérési útjának átadásával létrehozunk egy példányt, amely lehetővé teszi a fájl manipulálását. Úgy képzelheti el, mintha kinyitna egy könyvet – a tartalmának elolvasására (vagy szerkesztésére) készül.
+ A`Workbook` osztály a belépési pont az Excel fájlba. A forrásfájlunk elérési útjának átadásával létrehozunk egy példányt, amely lehetővé teszi a fájl manipulálását. Úgy képzelheti el, mintha kinyitna egy könyvet – a tartalmának elolvasására (vagy szerkesztésére) készül.
 
 ## 3. lépés: Lépjen be a Data Mashupba
 
@@ -102,7 +101,7 @@ A frissítések elvégzése után ideje elmenteni a módosításainkat.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- A`Save` metódus a frissített munkafüzetet a megadott kimeneti könyvtárba írja. Ez olyan, mintha a szerkesztéseidet a kézikönyv új verziójába zárnád, amely készen áll mások használatra!
+ A`Save`metódus a frissített munkafüzetet a megadott kimeneti könyvtárba írja. Ez olyan, mintha a szerkesztéseidet a kézikönyv új verziójába zárnád, amely készen áll mások használatra!
 
 ## Következtetés
 

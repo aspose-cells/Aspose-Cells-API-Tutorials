@@ -38,14 +38,14 @@ Mit dieser Anweisung können Sie auf die in der Aspose.Cells-Bibliothek enthalte
 Bevor Sie die Arbeitsmappe starten, sollten Sie die Pfade einrichten, in denen sich Ihre Quelldateien befinden und wo Sie Ihre Ausgabe speichern möchten. So gehen Sie dabei vor:
 
 ```csharp
-//Quellverzeichnis
+// Quellverzeichnis
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Ausgabeverzeichnis
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Ersetzen Sie unbedingt`"YOUR SOURCE DIRECTORY"` Und`"YOUR OUTPUT DIRECTORY"` mit tatsächlichen Pfaden auf Ihrem Computer. Betrachten Sie dies als das Erstellen eines aufgeräumten Arbeitsbereichs, bevor Sie mit der Erstellung Ihres Meisterwerks beginnen!
+ Ersetzen Sie unbedingt`"YOUR SOURCE DIRECTORY"` Und`"YOUR OUTPUT DIRECTORY"`mit tatsächlichen Pfaden auf Ihrem Computer. Betrachten Sie dies als das Erstellen eines aufgeräumten Arbeitsbereichs, bevor Sie mit der Erstellung Ihres Meisterwerks beginnen!
 
 ## Schritt 2: Erstellen Sie eine leere Arbeitsmappe
 

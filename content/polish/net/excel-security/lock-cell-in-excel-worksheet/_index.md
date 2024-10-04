@@ -112,4 +112,4 @@ Jeśli zapomnisz hasła, nie będziesz mógł usunąć zabezpieczenia arkusza, d
  Oczywiście! Możesz odblokować komórki, ustawiając`IsLocked` nieruchomość do`false` i usuwanie ochrony.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje użytkownikom bezpłatną wersję próbną. Jednak do ciągłego użytkowania musisz kupić licencję. Odwiedź[Strona zakupu Aspose](https://purchase.aspose.com/buy) po więcej szczegółów.
+ Aspose.Cells oferuje użytkownikom bezpłatną wersję próbną. Jednak do ciągłego użytkowania musisz kupić licencję. Odwiedź[Strona zakupu Aspose](https://purchase.aspose.com/buy) Aby uzyskać więcej szczegółów.

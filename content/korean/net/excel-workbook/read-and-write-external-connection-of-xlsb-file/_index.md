@@ -40,13 +40,13 @@ using System.Text;
 XLSB 파일을 작업하기 전에 소스 및 출력 디렉토리를 설정해야 합니다. 이 단계는 파일을 정리하는 데 필수적입니다.
 
 ```csharp
-//소스 디렉토리
-string sourceDir = RunExamples.Get_SourceDirectory();
+// 소스 디렉토리
+string sourceDir = "Your Document Directory";
 // 출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- 이 코드 조각에서는`RunExamples.Get_SourceDirectory()` 그리고`RunExamples.Get_OutputDirectory()`입력 및 출력 파일이 상주할 해당 경로를 가져오는 것으로 가정합니다. 원하는 경우 이러한 메서드를 하드코딩된 경로로 바꿀 수 있습니다.
+ 이 코드 조각에서는`"Your Document Directory"` 그리고`"Your Document Directory"`입력 및 출력 파일이 상주할 해당 경로를 가져오는 것으로 가정합니다. 원하는 경우 이러한 메서드를 하드코딩된 경로로 바꿀 수 있습니다.
 
 ## 2단계: XLSB 파일 로드
 

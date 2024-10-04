@@ -41,12 +41,12 @@ Before working with your XLSB file, you need to set up your source and output di
 
 ```csharp
 // Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 // Output directory
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-In this code snippet, `RunExamples.Get_SourceDirectory()` and `RunExamples.Get_OutputDirectory()` are assumed to fetch the respective paths for where your input and output files will reside. You can replace these methods with hardcoded paths if you prefer.
+In this code snippet, `"Your Document Directory"` and `"Your Document Directory"` are assumed to fetch the respective paths for where your input and output files will reside. You can replace these methods with hardcoded paths if you prefer.
 
 ## Step 2: Load the XLSB File
 

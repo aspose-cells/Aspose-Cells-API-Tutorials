@@ -61,13 +61,11 @@ Nu när vi har ställt in vår utvecklingsmiljö är det dags att skriva huvudko
 
 ```csharp
 // Ställ in källkatalogen
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
- Här,`RunExamples.Get_SourceDirectory()` är en anpassad metod du kan ha i ditt projekt som hämtar sökvägen till mappen som innehåller din exempelfil. Se till att ersätta detta med den faktiska sökvägen om det behövs.
-
-## Steg 2: Få åtkomst till Power Query-formler
+## Steg 2: Få tillgång till Power Query-formler
 
 Därefter kommer du åt Power Query-formlerna i din arbetsbok, som innehåller OData-detaljerna:
 

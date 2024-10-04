@@ -17,7 +17,7 @@ Excel ファイルをプログラムで管理する場合、多くの開発者�
 
 1. Visual Studio: 使用する開発環境は Visual Studio なので、インストールされていることを確認してください。
 2. .NET Framework: プロジェクトが Aspose.Cells と互換性のある .NET Framework で設定されていることを確認します。通常、.NET Core または .NET Framework 4.5 以上が動作します。
-3. Aspose.Cellsライブラリ: Aspose.Cells for .NETが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cellsライブラリ: Aspose.Cells for .NETが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
 4. C# の基礎知識: このガイド全体でコード セグメントを記述するため、C# の構文と構造に精通していることが不可欠です。
 
 これらの前提条件が満たされると、Excel 操作の世界に飛び込む準備が整います。

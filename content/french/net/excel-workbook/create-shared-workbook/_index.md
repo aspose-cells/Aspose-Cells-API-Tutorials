@@ -55,9 +55,8 @@ Dans cette étape, vous allez définir l'emplacement où le fichier de sortie se
 
 ```csharp
 //Répertoire de sortie
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Ici, nous utilisons une méthode`RunExamples.Get_OutputDirectory()` pour spécifier le dossier dans lequel le fichier Excel généré sera enregistré. Assurez-vous que cette méthode est définie dans votre code pour un traitement de sortie correct.
 
 ## Étape 2 : Créer l’objet classeur
 
@@ -77,7 +76,7 @@ Il est temps de faire de votre classeur un chef-d'œuvre collaboratif ! Le part
 //Partager le cahier d'exercices
 wb.Settings.Shared = true;
 ```
- Paramètre`wb.Settings.Shared` à`true` indique que ce classeur est accessible à plusieurs utilisateurs à la fois. C'est comme si vous donniez les clés de votre maison à des amis : ils peuvent aller et venir à leur guise !
+ Paramètre`wb.Settings.Shared` à`true`indique que ce classeur est accessible à plusieurs utilisateurs à la fois. C'est comme si vous donniez les clés de votre maison à des amis : ils peuvent aller et venir à leur guise !
 
 ## Étape 4 : Enregistrer le classeur partagé
 

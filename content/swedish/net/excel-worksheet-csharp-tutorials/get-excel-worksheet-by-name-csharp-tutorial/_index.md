@@ -1,6 +1,6 @@
 ---
 title: Skaffa Excel-kalkylblad efter namn C# Tutorial
-linktitle: Hämta Excel-arbetsblad efter namn
+linktitle: Hämta Excel-kalkylblad efter namn
 second_title: Aspose.Cells för .NET API-referens
 description: Få åtkomst till Excel-kalkylblad med namn i C# med steg-för-steg-vägledning, med Aspose.Cells för .NET för bättre kodeffektivitet.
 type: docs

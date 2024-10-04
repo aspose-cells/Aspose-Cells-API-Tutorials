@@ -107,7 +107,7 @@ Gestire le dimensioni della carta nei fogli Excel diventa un gioco da ragazzi co
 ## Domande frequenti
 
 ### Quali diversi formati di carta posso impostare utilizzando Aspose.Cells?
- Aspose.Cells supporta una varietà di formati di carta, tra cui A3, A4, A5, Letter e altro. Puoi esplorare`PaperSizeType` enumerazione nella documentazione.
+ Aspose.Cells supporta una varietà di formati di carta, tra cui A3, A4, A5, Letter e altro. Puoi esplorare il`PaperSizeType` enumerazione nella documentazione.
 
 ### Posso impostare il formato della carta per più fogli di lavoro contemporaneamente?
 Sì, puoi accedere a più fogli di lavoro in loop e applicare a ciascuno di essi le stesse impostazioni relative al formato carta.

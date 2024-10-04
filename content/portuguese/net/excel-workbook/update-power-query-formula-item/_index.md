@@ -47,10 +47,9 @@ Nesta etapa, definiremos onde nossos arquivos de origem e saída estão localiza
 
 ```csharp
 // Diretórios de trabalho
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Aqui, estamos utilizando um método hipotético`RunExamples.Get_SourceDirectory()` para buscar o caminho para nossos arquivos de origem. Da mesma forma,`RunExamples.Get_OutputDirectory()` obtém o caminho onde salvaremos nossa saída. Certifique-se de que esses métodos retornem caminhos válidos em sua máquina.
 
 ## Etapa 2: Carregue a pasta de trabalho
 
@@ -59,7 +58,7 @@ Agora, vamos carregar o arquivo Excel onde o Power Query reside.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- O`Workbook`class é seu ponto de entrada no arquivo Excel. Ao passar o caminho do nosso arquivo de origem, estamos criando uma instância que nos permite manipulá-lo. Você pode imaginar como abrir um livro — você está se preparando para ler (ou editar) seu conteúdo.
+ O`Workbook` class é seu ponto de entrada no arquivo Excel. Ao passar o caminho do nosso arquivo de origem, estamos criando uma instância que nos permite manipulá-lo. Você pode imaginar como abrir um livro — você está se preparando para ler (ou editar) seu conteúdo.
 
 ## Etapa 3: Acesse o Mashup de Dados
 
@@ -102,7 +101,7 @@ Depois de fazer as atualizações, é hora de salvar as alterações.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- O`Save` método grava a pasta de trabalho atualizada no diretório de saída especificado. É como selar suas edições em uma nova versão do manual, pronta para outros usarem!
+ O`Save`método grava a pasta de trabalho atualizada no diretório de saída especificado. É como selar suas edições em uma nova versão do manual, pronta para outros usarem!
 
 ## Conclusão
 

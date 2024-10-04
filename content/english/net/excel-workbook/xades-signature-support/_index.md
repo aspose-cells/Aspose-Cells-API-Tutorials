@@ -42,12 +42,10 @@ First, we need to define where our source Excel file is located and where we wan
 
 ```csharp
 // Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 // Output directory
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
-In this code snippet, `RunExamples.Get_SourceDirectory()` and `RunExamples.Get_OutputDirectory()` are methods that return the paths to your source and output directories, respectively. Make sure to replace these with the actual paths if you're not using these methods.
 
 ## Step 2: Load the Workbook
 

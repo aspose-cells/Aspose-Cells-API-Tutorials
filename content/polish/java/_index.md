@@ -39,7 +39,7 @@ Opanuj tabele przestawne programu Excel z Aspose.Cells dla Javy. Dowiedz się, j
 ### [Zaawansowane wykresy Excela](./advanced-excel-charts/)
 Poznaj zaawansowane samouczki dotyczące wykresów Excela z Aspose.Cells dla Java. Podnieś swoje umiejętności wizualizacji danych krok po kroku. Opanuj wykresy już dziś!
 ### [Import i eksport do programu Excel](./excel-import-export/)
-Bezproblemowo importuj i eksportuj pliki Excela za pomocą Aspose.Cells dla Java. Poznaj samouczki krok po kroku dotyczące płynnej wymiany danych. Opanuj obsługę Excela już dziś!
+Bezproblemowo importuj i eksportuj pliki Excela za pomocą Aspose.Cells dla Java. Poznaj samouczki krok po kroku dotyczące bezproblemowej wymiany danych. Opanuj obsługę Excela już dziś!
 ### [Bezpieczeństwo danych w programie Excel](./excel-data-security/)
 Zwiększ bezpieczeństwo danych w programie Excel dzięki Aspose.Cells for Java. Dowiedz się krok po kroku, jak chronić arkusze kalkulacyjne, szyfrować pliki i zapewnić integralność danych.
 ### [Automatyzacja arkuszy kalkulacyjnych](./spreadsheet-automation/)

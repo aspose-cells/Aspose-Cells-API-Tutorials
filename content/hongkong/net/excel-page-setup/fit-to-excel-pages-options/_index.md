@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## 結論
 
-現在你就得到它了！您已經了解如何利用 Aspose.Cells for .NET 中的「適合 Excel 頁面」選項來確保您的電子表格在列印或分享時看起來完美無缺。掌握這些技術可以簡化您的資料演示並提高您處理 Excel 文件時的整體效率。請記住，Aspose.Cells 的強大功能可讓您突破 Excel 自動化的極限。 
+現在你就擁有了！您已經了解如何利用 Aspose.Cells for .NET 中的「適合 Excel 頁面」選項來確保您的電子表格在列印或分享時看起來完美無缺。掌握這些技術可以簡化您的資料演示並提高您處理 Excel 文件時的整體效率。請記住，Aspose.Cells 的強大功能可讓您突破 Excel 自動化的極限。 
 
 ## 常見問題解答
 

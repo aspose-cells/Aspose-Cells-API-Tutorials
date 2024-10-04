@@ -17,7 +17,7 @@ Mielőtt belemerülnénk a tényleges védelem megszüntetési folyamatába, né
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio a .NET fejlesztéshez. Ez a környezet megkönnyíti az Aspose.Cells könyvtárakkal való zökkenőmentes munkát.
 2.  Aspose.Cells Library: Telepítenie kell az Aspose.Cells könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismerete: A C# programozás alapvető ismerete segít megérteni, hogy a kód hogyan működik együtt az Aspose.Cells könyvtárral.
+3. Alapvető C# ismerete: A C# programozás alapvető ismerete segít megérteni, hogyan működik együtt a kód az Aspose.Cells könyvtárral.
 4. Minta Excel-fájl: rendelkezzen egy egyszerű Excel-fájllal, amely jelszóval vagy anélkül védett, hogy tesztelje a védelem megszüntetésének folyamatát.
 5. Microsoft Excel (opcionális): Mindig kéznél van az Excel, hogy ellenőrizze, az Aspose.Cells által végrehajtott módosítások pontosak.
 
@@ -98,7 +98,7 @@ A munkalap védelmének megszüntetése után az utolsó lépés a módosításo
 workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Itt elmentjük a nem védett munkafüzetet egy új nevű fájlba`output.out.xls` ugyanabban a könyvtárban. A`SaveFormat.Excel97To2003` paraméter határozza meg, hogy milyen formátumban kívánja menteni.
+ Itt egy új fájlba mentjük a nem védett munkafüzetet`output.out.xls` ugyanabban a könyvtárban. A`SaveFormat.Excel97To2003` paraméter határozza meg, hogy milyen formátumban kívánja menteni.
 
 ## Következtetés
 
@@ -109,7 +109,7 @@ Az adatok által uralt világban kulcsfontosságú az Excel-táblázatok kezelé
 ### Feloldhatom a jelszóval ellátott Excel munkalap védelmét?
 Nem, a megadott módszer csak jelszó nélkül működik. Ha be van állítva jelszó, szüksége lesz rá a lap védelmének feloldásához.
 
-### Van mód egy Excel-lap jelszavának megváltoztatására az Aspose.Cells segítségével?
+### Van mód egy Excel-lap jelszavának megváltoztatására az Aspose.Cells használatával?
 Igen, a könyvtár módszereivel megvédheti és új jelszót állíthat be egy Excel-lapon.
 
 ### Az Aspose.Cells támogatja az újabb Excel formátumokat?

@@ -10,7 +10,7 @@ url: /zh/java/basic-excel-functions/countif-function-in-excel/
 
 ## 使用 Aspose.Cells for Java 介绍 Excel 中的 COUNTIF 函数
 
-Microsoft Excel 是一款功能强大的电子表格应用程序，它提供了多种功能来处理和分析数据。 COUNTIF 就是这样一个函数，它允许您计算某个范围内符合特定条件的单元格数量。 在本文中，我们将探讨如何使用 Aspose.Cells for Java（一种用于以编程方式处理 Excel 文件的强大 Java API）在 Excel 中使用 COUNTIF 函数。
+Microsoft Excel 是一款功能强大的电子表格应用程序，它提供了多种功能来处理和分析数据。COUNTIF 就是这样一个函数，它允许您计算某个范围内符合特定条件的单元格数量。在本文中，我们将探讨如何使用 Aspose.Cells for Java（一种用于以编程方式处理 Excel 文件的强大 Java API）在 Excel 中使用 COUNTIF 函数。
 
 ## 什么是 Aspose.Cells for Java？
 

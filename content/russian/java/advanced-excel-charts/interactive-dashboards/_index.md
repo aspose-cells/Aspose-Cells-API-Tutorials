@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 // Доступ к первому рабочему листу
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Заполните рабочий лист данными.
+// Заполните рабочий лист данными
 worksheet.getCells().get("A1").putValue("Month");
 worksheet.getCells().get("A2").putValue("January");
 worksheet.getCells().get("A3").putValue("February");

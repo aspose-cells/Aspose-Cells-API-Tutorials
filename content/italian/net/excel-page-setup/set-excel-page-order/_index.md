@@ -120,4 +120,4 @@ Aspose.Cells è una libreria .NET che fornisce funzionalità per la manipolazion
 Per l'ordine di stampa delle pagine puoi scegliere tra "Sopra e poi Sotto" e "Sotto e poi Sopra".
 
 ### Dove posso trovare altri esempi di utilizzo di Aspose.Cells?
- Puoi esplorare altri esempi e funzionalità in[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/).
+Puoi esplorare altri esempi e funzionalità in[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/).

@@ -53,12 +53,12 @@ Chcete-li začít, musíte určit, kde se nachází zdrojový soubor aplikace Ex
 
 ```csharp
 //Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Tady byste vyměnili`RunExamples.Get_SourceDirectory()` a`RunExamples.Get_OutputDirectory()` se skutečnými cestami, kde jsou uloženy vaše soubory.
+ Tady byste vyměnili`"Your Document Directory"` a`"Your Document Directory"` se skutečnými cestami, kde jsou uloženy vaše soubory.
 
 ## Krok 2: Načtěte soubor Excel
 
@@ -126,7 +126,7 @@ Tohle je ten velký okamžik! Nyní odstraníme nastavení tiskárny tak, že je
 }
 ```
 
-V tomto úryvku účinně vymažeme nastavení tiskárny, takže vše bude uklizené a úhledné.
+tomto úryvku účinně vymažeme nastavení tiskárny, takže vše bude uklizené a úhledné.
 
 ## Krok 7: Uložte sešit
 
@@ -141,7 +141,7 @@ A stejně tak se váš nový soubor, bez jakýchkoli starých nastavení tiskár
 
 ## Závěr
 
-A tady to máte! Pomocí Aspose.Cells for .NET jste úspěšně prošli všemi výhodami odebrání nastavení tiskárny z listů aplikace Excel. Je docela úžasné, jak jen pár řádků kódu dokáže uklidit vaše dokumenty a výrazně zjednodušit váš tisk, že? Pamatujte, že s velkou mocí (jako u Aspose.Cells) přichází velká zodpovědnost – proto vždy svůj kód před nasazením v produkčním prostředí otestujte.
+A tady to máte! Pomocí Aspose.Cells for .NET jste úspěšně prošli všemi výhodami odebrání nastavení tiskárny z listů aplikace Excel. Je úžasné, jak jen pár řádků kódu dokáže uklidit vaše dokumenty a výrazně zrychlit proces tisku, že? Pamatujte, že s velkou mocí (jako u Aspose.Cells) přichází velká zodpovědnost – proto vždy svůj kód před nasazením v produkčním prostředí otestujte.
 
 ## FAQ
 
@@ -149,7 +149,7 @@ A tady to máte! Pomocí Aspose.Cells for .NET jste úspěšně prošli všemi v
 Aspose.Cells je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel v aplikacích .NET.
 
 ### Mohu používat Aspose.Cells zdarma?  
- Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání jejích funkcí. Podívejte se na[odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k prozkoumání jejích funkcí. Podívejte se na[odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/).
 
 ### Musím nainstalovat Microsoft Excel, abych mohl používat Aspose.Cells?  
 Ne, Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel. Nemusíte mít na svém počítači nainstalovaný Excel.

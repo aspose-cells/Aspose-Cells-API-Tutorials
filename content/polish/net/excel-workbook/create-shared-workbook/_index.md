@@ -55,9 +55,8 @@ W tym kroku określisz, gdzie plik wyjściowy zostanie zapisany. To tak, jakbyś
 
 ```csharp
 //Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Tutaj używamy metody`RunExamples.Get_OutputDirectory()` aby określić folder, w którym zostanie zapisany wygenerowany plik Excel. Upewnij się, że ta metoda jest zdefiniowana w kodzie w celu prawidłowego przetwarzania danych wyjściowych.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -77,7 +76,7 @@ Czas, aby Twój skoroszyt stał się wspólnym arcydziełem! Udostępnienie go p
 //Udostępnij skoroszyt
 wb.Settings.Shared = true;
 ```
- Ustawienie`wb.Settings.Shared` Do`true` oznacza, że do tego skoroszytu może uzyskać dostęp wielu użytkowników jednocześnie. To tak, jakby rozdawać klucze do domu znajomym — mogą przychodzić i wychodzić, kiedy chcą!
+ Ustawienie`wb.Settings.Shared` Do`true`oznacza, że do tego skoroszytu może uzyskać dostęp wielu użytkowników jednocześnie. To tak, jakby rozdawać klucze do domu znajomym — mogą przychodzić i wychodzić, kiedy chcą!
 
 ## Krok 4: Zapisz udostępniony skoroszyt
 

@@ -47,13 +47,13 @@ using Aspose.Cells;
 Сначала нам необходимо указать, где находится наш входной файл Excel, а также где мы хотим сохранить выходной файл после внесения необходимых изменений.
 
 ```csharp
-//Исходный каталог
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Исходный каталог
+string sourceDir = "Your Document Directory";
 // Выходной каталог
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Здесь,`RunExamples.Get_SourceDirectory()` и`RunExamples.Get_OutputDirectory()` являются вспомогательными функциями, которые помогают вам удобно захватить исходный и выходной пути. Убедитесь, что ваш исходный каталог содержит файл с именем`SampleRegexReplace.xlsx` для этого примера.
+ Здесь,`"Your Document Directory"` и`"Your Document Directory"` являются вспомогательными функциями, которые помогают вам удобно захватить исходный и выходной пути. Убедитесь, что ваш исходный каталог содержит файл с именем`SampleRegexReplace.xlsx` для этого примера.
 
 ## Шаг 2: Загрузка рабочей книги
 

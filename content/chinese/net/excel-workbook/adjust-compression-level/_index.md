@@ -44,11 +44,9 @@ using System;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
-这里，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`是分别返回源目录和输出目录路径的方法。 
 
 ## 步骤 2：加载工作簿
 
@@ -131,7 +129,7 @@ Console.WriteLine("AdjustCompressionLevel executed successfully.");
 
 ## 结论
 
-使用 Aspose.Cells for .NET 保存 Excel 文件时调整压缩级别是一种简单而强大的技术。按照本指南中概述的步骤，您可以轻松操作文件大小，使其更易于存储和传输。无论您需要快速访问数据还是希望优化应用程序的性能，掌握这些技术无疑将提高您作为开发人员的技能。
+使用 Aspose.Cells for .NET 保存 Excel 文件时调整压缩级别是一种简单而强大的技术。按照本指南中概述的步骤，您可以轻松操作文件大小，使其更易于存储和传输。无论您需要快速访问数据还是希望优化应用程序的性能，掌握这些技术无疑会提高您作为开发人员的技能。
 
 ## 常见问题解答
 

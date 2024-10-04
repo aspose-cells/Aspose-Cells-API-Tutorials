@@ -43,12 +43,10 @@ Nyní, když máme vše nastaveno, rozdělíme proces úpravy úrovní komprese 
 Nejprve musíme definovat, kde budou naše soubory uloženy. To zahrnuje specifikaci zdrojového adresáře pro náš vstupní soubor a výstupního adresáře pro naše komprimované soubory.
 
 ```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Zdrojový adresář
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Zde,`RunExamples.Get_SourceDirectory()` a`RunExamples.Get_OutputDirectory()` jsou metody, které vracejí cesty ke zdrojovému a výstupnímu adresáři. 
 
 ## Krok 2: Načtěte sešit
 
@@ -138,7 +136,7 @@ Tento řádek potvrzuje, že celý proces proběhl bez problémů.
 ### Co je Aspose.Cells?
 Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory Excelu programově.
 
-### Jak si stáhnu Aspose.Cells?
+### Jak stáhnu Aspose.Cells?
  Knihovnu Aspose.Cells si můžete stáhnout z[webové stránky](https://releases.aspose.com/cells/net/).
 
 ### Mohu používat Aspose.Cells zdarma?

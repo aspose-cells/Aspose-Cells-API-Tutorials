@@ -41,10 +41,10 @@ Dessa namnutrymmen låter dig arbeta med Excel-filer och hantera digitala signat
 Innan du kan manipulera dina Excel-filer måste du definiera var dina källfiler finns och var du vill spara utdatafilen. Så här gör du:
 
 ```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Källkatalog
+string sourceDir = "Your Document Directory";
 // Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 I det här steget använder vi en metod för att få sökvägarna för käll- och utdatakatalogerna. Se till att dessa kataloger finns och innehåller de nödvändiga filerna.

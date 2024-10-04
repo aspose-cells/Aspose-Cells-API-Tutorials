@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 //工作目錄
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-在這裡，我們使用一種假設方法`RunExamples.Get_SourceDirectory()`取得我們的來源檔案的路徑。相似地，`RunExamples.Get_OutputDirectory()`獲取我們保存輸出的路徑。確保這些方法返回您電腦上的有效路徑。
 
 ## 第 2 步：載入工作簿
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
-這`Workbook`class 是 Excel 檔案的入口點。透過傳遞來源檔案的路徑，我們建立了一個允許我們操作它的實例。您可以將其想像為打開一本書 - 您準備閱讀（或編輯）其內容。
+這`Workbook` class 是 Excel 檔案的入口點。透過傳遞來源檔案的路徑，我們建立了一個允許我們操作它的實例。您可以將其想像為打開一本書 - 您準備閱讀（或編輯）其內容。
 
 ## 第 3 步：存取資料混搭
 

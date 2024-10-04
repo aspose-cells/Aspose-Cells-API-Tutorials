@@ -41,13 +41,11 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình 
 Đầu tiên, chúng ta cần xác định vị trí tệp Excel nguồn của mình và nơi chúng ta muốn lưu tệp đầu ra đã ký. Đây là bước quan trọng vì nó giúp sắp xếp các tệp của bạn một cách hiệu quả.
 
 ```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Thư mục nguồn
+string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- Trong đoạn mã này,`RunExamples.Get_SourceDirectory()` Và`RunExamples.Get_OutputDirectory()` là các phương pháp trả về đường dẫn đến thư mục nguồn và thư mục đầu ra của bạn. Hãy đảm bảo thay thế các đường dẫn này bằng đường dẫn thực tế nếu bạn không sử dụng các phương pháp này.
 
 ## Bước 2: Tải Workbook
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Thay thế bằng mật khẩu PFX của b�
 string pfx = "pfxFile"; // Thay thế bằng đường dẫn đến tệp PFX của bạn
 ```
 
- Trong bước này, thay thế`pfxPassword` với mật khẩu thực tế của bạn và`pfxFile`với đường dẫn đến tệp PFX của bạn. Đây là chìa khóa để ký tài liệu của bạn!
+ Trong bước này, thay thế`pfxPassword` với mật khẩu thực tế của bạn và`pfxFile` với đường dẫn đến tệp PFX của bạn. Đây là chìa khóa để ký tài liệu của bạn!
 
 ## Bước 4: Tạo chữ ký số
 
- Bây giờ, chúng ta hãy tạo chữ ký số bằng cách sử dụng`DigitalSignature` lớp học. Đây chính là nơi phép thuật xảy ra!
+ Bây giờ, chúng ta hãy tạo chữ ký số bằng cách sử dụng`DigitalSignature`lớp học. Đây chính là nơi phép thuật xảy ra!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

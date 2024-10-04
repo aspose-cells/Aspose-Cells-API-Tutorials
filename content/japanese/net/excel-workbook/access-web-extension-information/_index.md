@@ -39,7 +39,7 @@ using System;
 まず、Excel ファイルが保存されているソース ディレクトリを定義します。これにより、プログラムが操作するファイルの場所を認識できるようになります。
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## ステップ2: Excelワークブックを読み込む
@@ -51,7 +51,7 @@ Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 ```
 この行では、`Workbook`クラスを作成し、サンプル ファイルにポイントします。 
 
-## ステップ3: Web拡張機能のタスクパネルを取得する
+## ステップ3: Web拡張機能のタスクペインを取得する
 
 ワークブックが読み込まれると、`WebExtensionTaskPanes`コレクション。これにより、ワークブックに埋め込まれた Web 拡張機能に必要なアクセスが提供されます。
 

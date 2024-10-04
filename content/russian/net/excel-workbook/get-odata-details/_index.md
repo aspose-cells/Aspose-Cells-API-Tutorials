@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 // Установите исходный каталог
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Здесь,`RunExamples.Get_SourceDirectory()` это пользовательский метод, который может быть в вашем проекте, который извлекает путь к папке, содержащей ваш файл-образец. Обязательно замените его на фактический путь, если необходимо.
 
 ## Шаг 2: Доступ к формулам Power Query
 

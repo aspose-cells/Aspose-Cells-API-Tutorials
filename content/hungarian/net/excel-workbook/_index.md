@@ -17,7 +17,7 @@ Belefáradt az Excel fájlkezeléssel való küszködésbe? Ha valaha is szembes
 
 ## Digitális aláírások hozzáadása
 
- Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónk segítségével[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/). A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
+ Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónkkal[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/). A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
 
 ## Megosztott munkafüzetek létrehozása
 

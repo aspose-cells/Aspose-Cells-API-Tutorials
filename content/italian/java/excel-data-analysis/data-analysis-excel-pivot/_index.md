@@ -14,7 +14,7 @@ Prima di immergerci nei dettagli dell'analisi dei dati, prendiamo confidenza con
 
 ## Prerequisiti
 
-Per seguire questa guida, avrai bisogno di quanto segue:
+Per seguire questa guida, ti serviranno i seguenti elementi:
 
 - Ambiente di sviluppo Java: assicurati di avere Java installato sul tuo sistema.
 -  Aspose.Cells per Java: Scarica e includi la libreria Aspose.Cells per Java nel tuo progetto. Puoi trovare il link per il download[Qui](https://releases.aspose.com/cells/java/).

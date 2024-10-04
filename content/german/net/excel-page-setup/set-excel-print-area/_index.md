@@ -17,7 +17,7 @@ Bevor wir uns kopfüber in unser Programmierabenteuer stürzen, sollten wir uns 
 
 1. Visual Studio: Stellen Sie sicher, dass Sie Visual Studio installiert haben, da dies die Entwicklungsumgebung ist, die wir verwenden werden.
 2. .NET Framework: Stellen Sie sicher, dass Ihr Projekt mit dem mit Aspose.Cells kompatiblen .NET Framework eingerichtet ist. Im Allgemeinen funktionieren .NET Core oder .NET Framework 4.5 und höher.
-3. Aspose.Cells-Bibliothek: Sie benötigen Aspose.Cells für .NET. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells-Bibliothek: Sie benötigen Aspose.Cells für .NET. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 4. Grundkenntnisse in C#: Da wir in diesem Handbuch Codesegmente schreiben werden, ist es wichtig, dass Sie mit der Syntax und Struktur von C# vertraut sind.
 
 Sobald diese Voraussetzungen erfüllt sind, können Sie in die Welt der Excel-Manipulation eintauchen!
@@ -39,7 +39,7 @@ Lassen Sie uns nun Schritt für Schritt den Prozess zum Einrichten eines Excel-D
 
 Erstellen Sie eine Variable, um den Speicherort Ihrer Excel-Dokumente anzugeben. 
 
-Wenn Sie an einem Projekt arbeiten, ist es wichtig, einen definierten Pfad zu haben, in dem sich Ihre Dateien befinden oder gespeichert werden. In unserem Fall definieren wir eine Variable namens`dataDir` wie folgt:
+ Wenn Sie an einem Projekt arbeiten, ist es wichtig, einen definierten Pfad zu haben, in dem sich Ihre Dateien befinden oder gespeichert werden. In unserem Fall definieren wir eine Variable namens`dataDir` wie folgt:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

@@ -78,7 +78,7 @@ Teraz uzyskajmy dostęp do arkusza, który chcesz odbezpieczyć. Zazwyczaj, jeś
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-W tym wierszu celujemy w pierwszy arkusz. Jeśli chcesz usunąć ochronę innego arkusza, po prostu zmień odpowiednio numer indeksu.
+tym wierszu celujemy w pierwszy arkusz. Jeśli chcesz usunąć ochronę innego arkusza, po prostu zmień odpowiednio numer indeksu.
 
 ## Krok 4: Odblokowywanie arkusza kalkulacyjnego
 

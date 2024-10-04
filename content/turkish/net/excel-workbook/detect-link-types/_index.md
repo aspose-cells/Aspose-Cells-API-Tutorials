@@ -53,7 +53,7 @@ Bu içe aktarma işlemleri tamamlandıktan sonra Excel dosyamızı bir profesyon
 
 ```csharp
 // Kaynak dizini tanımlayın
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Bu satır Excel dosyasını içeren dizini gösterir. Dosyanızın konumuna göre yolu ayarladığınızdan emin olun.

@@ -103,7 +103,7 @@ Abschließend müssen Sie noch darauf achten, den Dateistrom zu schließen, dami
 fstream.Close();
 ```
 
- Schließen der`fstream` ist von entscheidender Bedeutung, da dadurch sichergestellt wird, dass in Ihrer Anwendung keine Speicherlecks oder offenen Dateisperren auftreten.
+ Schließen der`fstream` ist von entscheidender Bedeutung, da es sicherstellt, dass in Ihrer Anwendung keine Speicherlecks oder offenen Dateisperren auftreten.
 
 ## Abschluss
 

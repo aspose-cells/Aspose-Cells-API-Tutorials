@@ -104,7 +104,7 @@ Agora, é hora de bloquear a linha que você quer proteger. Neste caso, estamos 
 style = sheet.Cells.Rows[0].Style;
 // Tranque-o.
 style.IsLocked = true;
-// Instanciar o sinalizador.
+//Instanciar o sinalizador.
 flag = new StyleFlag();
 // Defina a configuração de bloqueio.
 flag.Locked = true;

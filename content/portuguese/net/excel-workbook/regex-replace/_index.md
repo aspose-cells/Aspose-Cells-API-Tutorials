@@ -38,7 +38,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Esses pacotes nos permitem acessar as classes e métodos fornecidos pelo Aspose.Cells, permitindo-nos manipular nossos arquivos do Excel com eficiência.
+Esses pacotes nos permitem acessar as classes e métodos fornecidos pelo Aspose.Cells, permitindo-nos manipular nossos arquivos Excel com eficiência.
 
 Vamos dividir as coisas em etapas gerenciáveis. Nós o guiaremos pelo processo de substituição de texto no Excel usando expressões regulares, focando especificamente em como substituir ocorrências da palavra "KIM" por "TIM".
 
@@ -47,13 +47,13 @@ Vamos dividir as coisas em etapas gerenciáveis. Nós o guiaremos pelo processo 
 Primeiro, precisamos especificar onde nosso arquivo de entrada do Excel está localizado, bem como onde queremos salvar o arquivo de saída depois de fazer as alterações necessárias.
 
 ```csharp
-//Diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Diretório de origem
+string sourceDir = "Your Document Directory";
 // Diretório de saída
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Aqui,`RunExamples.Get_SourceDirectory()` e`RunExamples.Get_OutputDirectory()` são funções utilitárias que ajudam você a pegar os caminhos de origem e saída convenientemente. Certifique-se de que seu diretório de origem contenha um arquivo chamado`SampleRegexReplace.xlsx` para este exemplo.
+ Aqui,`"Your Document Directory"` e`"Your Document Directory"` são funções utilitárias que ajudam você a pegar os caminhos de origem e saída convenientemente. Certifique-se de que seu diretório de origem contenha um arquivo chamado`SampleRegexReplace.xlsx` para este exemplo.
 
 ## Etapa 2: Carregando a pasta de trabalho
 

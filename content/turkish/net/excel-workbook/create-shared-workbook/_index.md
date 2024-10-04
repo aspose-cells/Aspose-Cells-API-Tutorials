@@ -55,9 +55,8 @@ Bu adımda, çıktı dosyasının nereye kaydedileceğini tanımlayacaksınız. 
 
 ```csharp
 //Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Burada bir yöntem kullanıyoruz`RunExamples.Get_OutputDirectory()` Oluşturulan Excel dosyasının kaydedileceği klasörü belirtmek için. Bu yöntemin düzgün çıktı işleme için kodunuzda tanımlandığından emin olun.
 
 ## Adım 2: Çalışma Kitabı Nesnesini Oluşturun
 
@@ -77,7 +76,7 @@ Workbook wb = new Workbook();
 //Çalışma Kitabını Paylaş
 wb.Settings.Shared = true;
 ```
- Ayar`wb.Settings.Shared` ile`true` bu çalışma kitabına aynı anda birden fazla kullanıcı tarafından erişilebileceğini gösterir. Bu, evinizin anahtarlarını arkadaşlarınıza vermek gibidir — istedikleri zaman gelip gidebilirler!
+ Ayar`wb.Settings.Shared` ile`true`bu çalışma kitabına aynı anda birden fazla kullanıcı tarafından erişilebileceğini gösterir. Bu, evinizin anahtarlarını arkadaşlarınıza vermek gibidir — istedikleri zaman gelip gidebilirler!
 
 ## Adım 4: Paylaşılan Çalışma Kitabını Kaydedin
 

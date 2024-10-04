@@ -43,12 +43,10 @@ Nachdem wir nun alles eingerichtet haben, unterteilen wir den Vorgang zum Anpass
 Als Erstes müssen wir definieren, wo unsere Dateien gespeichert werden. Dazu müssen wir das Quellverzeichnis für unsere Eingabedatei und das Ausgabeverzeichnis für unsere komprimierten Dateien angeben.
 
 ```csharp
-//Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Quellverzeichnis
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Hier,`RunExamples.Get_SourceDirectory()` Und`RunExamples.Get_OutputDirectory()` sind Methoden, die die Pfade zu Ihren Quell- und Ausgabeverzeichnissen zurückgeben. 
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 

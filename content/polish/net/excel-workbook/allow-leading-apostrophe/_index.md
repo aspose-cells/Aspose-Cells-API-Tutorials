@@ -42,12 +42,10 @@ Podzielimy zadania na łatwe do wykonania kroki, aby zapewnić przejrzystość.
 tym kroku musimy określić lokalizację plików wejściowych i wyjściowych.
 
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Katalog źródłowy
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Tutaj używamy metod użytkowych`Get_SourceDirectory()` I`Get_OutputDirectory()` aby wygodnie ustawić ścieżki do plików. Możesz dostosować te ścieżki zgodnie ze strukturą katalogów.
 
 ## Krok 2: Utwórz obiekt projektanta skoroszytów
 
@@ -78,7 +76,7 @@ Teraz musisz się upewnić, że ustawienia skoroszytu są skonfigurowane tak, ab
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Poprzez ustawienie`QuotePrefixToStyle`na false, instruujemy Aspose.Cells, aby traktował wiodące apostrofy jako zwykłe znaki, co pozwoli nam na ich prawidłową obsługę w wynikach.
+ Poprzez ustawienie`QuotePrefixToStyle` na false, instruujemy Aspose.Cells, aby traktował wiodące apostrofy jako zwykłe znaki, co pozwoli nam na ich prawidłową obsługę w wynikach.
 
 ## Krok 5: Załaduj dane dla inteligentnych znaczników
 
@@ -146,7 +144,7 @@ Teraz, niezależnie od tego, czy generujesz raporty, tworzysz funkcjonalności d
 Aspose.Cells to potężna biblioteka .NET umożliwiająca programowe tworzenie, edytowanie i konwertowanie plików Excel w wielu formatach.
 
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, możesz używać Aspose.Cells, rejestrując się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
+Tak, możesz używać Aspose.Cells, rejestrując się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
  Pomoc i pytania można uzyskać na stronie[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).

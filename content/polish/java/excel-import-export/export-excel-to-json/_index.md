@@ -2,7 +2,7 @@
 title: Eksportuj Excela do JSON
 linktitle: Eksportuj Excela do JSON
 second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby zapewnić bezproblemową konwersję.
+description: Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby zapewnić bezproblemową konwersję.
 type: docs
 weight: 17
 url: /pl/java/excel-import-export/export-excel-to-json/

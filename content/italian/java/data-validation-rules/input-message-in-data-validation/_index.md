@@ -107,7 +107,7 @@ validation.setErrorMessage("Invalid input. Please enter a valid decimal number."
 
 ## Convalida delle voci di data
 
-La convalida dei dati può essere utilizzata anche per garantire che le voci delle date rientrino in un intervallo o in un formato specifico.
+La convalida dei dati può essere utilizzata anche per garantire che le voci di data rientrino in un intervallo o in un formato specifico.
 
 ```java
 // Imposta il tipo di convalida dei dati su data

@@ -15,7 +15,7 @@ url: /fr/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 
 Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin :
 
-1. Environnement de développement : Visual Studio doit être installé sur votre machine, car il fournit un excellent IDE pour le développement .NET.
+1. Environnement de développement : vous devez avoir Visual Studio installé sur votre machine, car il fournit un excellent IDE pour le développement .NET.
 2.  Bibliothèque Aspose.Cells : Téléchargez la bibliothèque Aspose.Cells. Vous pouvez l'obtenir à partir du[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en C# : assurez-vous d'avoir une bonne compréhension de C# et de .NET Framework pour suivre facilement.
 4. Créer un projet : configurez une nouvelle application console dans Visual Studio où nous écrirons le code.

@@ -41,10 +41,10 @@ using System.Text;
 ก่อนที่คุณจะจัดการไฟล์ Excel ได้ คุณต้องกำหนดตำแหน่งไฟล์ต้นฉบับและตำแหน่งที่คุณต้องการบันทึกไฟล์เอาต์พุต โดยทำได้ดังนี้:
 
 ```csharp
-//ไดเรกทอรีแหล่งที่มา
-string sourceDir = RunExamples.Get_SourceDirectory();
+// ไดเรกทอรีแหล่งที่มา
+string sourceDir = "Your Document Directory";
 // ไดเรกทอรีผลลัพธ์
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 ในขั้นตอนนี้ เราจะใช้เมธอดในการรับเส้นทางสำหรับไดเร็กทอรีต้นทางและปลายทาง ตรวจสอบให้แน่ใจว่ามีไดเร็กทอรีเหล่านี้อยู่และมีไฟล์ที่จำเป็น

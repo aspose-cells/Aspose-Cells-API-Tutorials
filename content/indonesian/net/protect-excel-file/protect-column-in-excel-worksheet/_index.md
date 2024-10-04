@@ -16,7 +16,7 @@ Mengelola data dalam lembar Excel bisa terasa seperti menavigasi labirin. Satu m
 Sebelum kita memulai perjalanan perlindungan data ini, ada beberapa hal yang perlu Anda mulai:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Visual Studio merupakan lingkungan yang ramah untuk pengembangan .NET.
-2. Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells for .NET. Jika Anda belum menginstalnya, Anda bisa mendapatkannya dari[Halaman Unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells for .NET. Jika Anda belum menginstalnya, Anda bisa mendapatkannya dari[Halaman Unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Memiliki pengetahuan tentang pemrograman C# akan membantu Anda memahami kode dengan lebih baik.
 4. .NET Framework: Pastikan Anda telah menyiapkan .NET Framework. Pustaka ini berfungsi dengan lancar baik dengan .NET Framework maupun .NET Core.
 
@@ -117,11 +117,11 @@ Lingkaran ini melewati setiap kolom (dari 0 hingga 255) dan membukanya. Anggap i
 Sekarang tibalah bagian yang menyenangkan—mengunci kolom tertentu yang ingin Anda lindungi. Dalam contoh kita, kita akan mengunci kolom pertama (indeks 0).
 
 ```csharp
-//Dapatkan gaya kolom pertama.
+// Dapatkan gaya kolom pertama.
 style = sheet.Cells.Columns[0].Style;
 // Kunci itu.
 style.IsLocked = true;
-// Buatlah contoh bendera.
+//Buatlah contoh bendera.
 flag = new StyleFlag();
 // Atur pengaturan kunci.
 flag.Locked = true;

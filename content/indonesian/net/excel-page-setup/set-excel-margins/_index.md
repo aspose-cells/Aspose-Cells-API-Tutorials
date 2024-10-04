@@ -24,7 +24,7 @@ Sekarang setelah prasyarat kita terpenuhi, mari langsung masuk ke kode dan lihat
 
 ## Paket Impor
 
-Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam proyek C# Anda. Hal ini penting, karena memberi tahu kode Anda di mana menemukan kelas dan metode Aspose.Cells yang akan Anda gunakan.
+Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam proyek C# Anda. Ini penting, karena memberi tahu kode Anda di mana menemukan kelas dan metode Aspose.Cells yang akan Anda gunakan.
 
 ```csharp
 using System.IO;

@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 // Ορίστε τον κατάλογο προέλευσης
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
- Εδώ,`RunExamples.Get_SourceDirectory()` είναι μια προσαρμοσμένη μέθοδος που μπορεί να έχετε στο έργο σας, η οποία ανακτά τη διαδρομή προς το φάκελο που περιέχει το δείγμα του αρχείου σας. Φροντίστε να το αντικαταστήσετε με την πραγματική διαδρομή εάν χρειάζεται.
 
 ## Βήμα 2: Πρόσβαση στους τύπους Power Query
 

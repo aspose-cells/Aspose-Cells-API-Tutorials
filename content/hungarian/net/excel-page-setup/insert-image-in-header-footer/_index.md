@@ -148,4 +148,4 @@ Igen, különböző helyőrzők használatával külön képeket illeszthet be a
 Győződjön meg arról, hogy a kép elérési útja helyes, és a fájl létezik. Ellenőrizze a képformátum-kompatibilitást is.
 
 ### Hol találhatok további dokumentációt az Aspose.Cells-hez?
- Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
+Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).

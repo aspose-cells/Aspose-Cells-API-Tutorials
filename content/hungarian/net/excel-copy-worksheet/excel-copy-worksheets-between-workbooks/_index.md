@@ -20,7 +20,7 @@ Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy fel van szerelv
 -  Érvényes jogosítvány vagy a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha az Aspose.Cells teljes funkcionalitását szeretné tesztelni.
 - A C# és a .NET keretrendszer alapvető ismerete.
 
- Azt is megtekintheti a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/)további részletekért.
+ Azt is megtekintheti a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) további részletekért.
 
 ## Csomagok importálása
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Végül elmenti a második munkafüzetet a másolt munkalappal. Ez olyan, mintha az újonnan írt jegyzeteit egy új mappába mentené a számítógépén.
 
 ```csharp
-// Mentse el a fájlt.
+//Mentse el a fájlt.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -106,7 +106,7 @@ Ne feledje, hogy a kódolás könnyebbé válik, ha kisebb lépésekre bontja. �
 
 ### Másolhatok munkalapot olyan munkafüzetbe, amelyen már vannak adatok?
 
-Teljesen! A munkalapot bármely meglévő munkafüzetbe másolhatja, még akkor is, ha az már tartalmaz adatokat. Csak adja meg a megfelelő munkalapindexet.
+Teljesen! A munkalapot bármely meglévő munkafüzetbe másolhatja, még akkor is, ha az már tartalmaz adatokat. Csak adja meg a megfelelő munkalap indexet.
 
 ### Szükségem van fizetős licencre ehhez a funkcióhoz?
 

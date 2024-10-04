@@ -104,10 +104,10 @@ Aspose.Cells adalah pustaka .NET yang dirancang untuk mengelola berkas lembar ke
 Ya! Aspose.Cells mendukung pengembangan lintas platform, sehingga Anda dapat bekerja di berbagai lingkungan tempat .NET tersedia.
 
 ### Apakah saya memerlukan lisensi untuk Aspose.Cells?
-Meskipun Anda dapat memulai dengan uji coba gratis, penggunaan selanjutnya memerlukan lisensi yang dibeli. Detail selengkapnya dapat ditemukan[Di Sini](https://purchase.aspose.com/buy).
+ Meskipun Anda dapat memulai dengan uji coba gratis, penggunaan selanjutnya memerlukan lisensi yang dibeli. Detail selengkapnya dapat ditemukan[Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya dapat memeriksa apakah ukuran kertas lembar kerja otomatis di C#?
- Seperti yang ditampilkan dalam panduan, Anda dapat memeriksa`IsAutomaticPaperSize` milik`PageSetup` kelas.
+Seperti yang ditampilkan dalam panduan, Anda dapat memeriksa`IsAutomaticPaperSize` milik`PageSetup` kelas.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?
  Anda dapat menemukan dokumentasi dan tutorial yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).

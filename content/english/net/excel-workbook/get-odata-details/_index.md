@@ -61,11 +61,9 @@ In this initial step, you'll create an instance of the `Workbook` class and load
 
 ```csharp
 // Set the source directory
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
-Here, `RunExamples.Get_SourceDirectory()` is a custom method you might have in your project that retrieves the path to the folder containing your sample file. Make sure to replace this with the actual path if needed.
 
 ## Step 2: Access Power Query Formulas
 

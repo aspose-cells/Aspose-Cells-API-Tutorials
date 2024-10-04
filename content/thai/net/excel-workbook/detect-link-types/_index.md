@@ -53,7 +53,7 @@ using System;
 
 ```csharp
 // กำหนดไดเรกทอรีแหล่งที่มา
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 บรรทัดนี้จะชี้ไปยังไดเร็กทอรีที่มีไฟล์ Excel ตรวจสอบให้แน่ใจว่าคุณได้ปรับเส้นทางตามตำแหน่งของไฟล์ของคุณ

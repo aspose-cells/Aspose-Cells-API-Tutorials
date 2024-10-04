@@ -16,7 +16,7 @@ Wenn Sie mit großen Excel-Arbeitsblättern arbeiten, kann die Möglichkeit, bes
 Bevor wir mit dem eigentlichen Codierungsteil beginnen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg benötigen:
 
 ### Grundkenntnisse in C#
-- Kenntnisse in der C#-Programmierung sind unbedingt erforderlich, da wir unseren Code in dieser Sprache schreiben werden.
+- Kenntnisse in der C#-Programmierung sind unbedingt erforderlich, da wir diese Sprache zum Schreiben unseres Codes verwenden werden.
 
 ### Aspose.Cells installiert
 -  Stellen Sie sicher, dass Aspose.Cells für .NET in Ihrer Entwicklungsumgebung installiert ist. Wenn Sie es noch nicht installiert haben, gehen Sie zu[Download-Link](https://releases.aspose.com/cells/net/) um loszulegen.
@@ -25,7 +25,7 @@ Bevor wir mit dem eigentlichen Codierungsteil beginnen, stellen wir sicher, dass
 - Sie benötigen eine IDE wie Visual Studio, um Ihre C#-Anwendungen zu erstellen und auszuführen.
 
 ### Eine Beispiel-Excel-Datei
--  Zu Demonstrationszwecken benötigen Sie eine Excel-Datei, die wir`book1.xls`. Sie können mit Microsoft Excel oder einer anderen kompatiblen Anwendung eine einfache Excel-Datei erstellen.
+- Zu Demonstrationszwecken benötigen Sie eine Excel-Datei, die wir`book1.xls`. Sie können mit Microsoft Excel oder einer anderen kompatiblen Anwendung eine einfache Excel-Datei erstellen.
 
 Sobald diese Voraussetzungen erfüllt sind, können wir mit dem Codieren beginnen!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Der`Workbook`Objekt stellt Ihre gesamte Excel-Datei im Speicher dar. Stellen Sie es sich so vor, als ob Sie die gesamte Datei in Ihren Arbeitsbereich bringen, damit Sie mit den Änderungen beginnen können.
+ Der`Workbook` Objekt stellt Ihre gesamte Excel-Datei im Speicher dar. Stellen Sie es sich so vor, als ob Sie die gesamte Datei in Ihren Arbeitsbereich bringen, damit Sie mit den Änderungen beginnen können.
 
 ## Schritt 5: Zugriff auf das Arbeitsblatt
 
@@ -131,7 +131,7 @@ Durch das Fixieren von Bereichen können Sie beim Scrollen durch große Datensä
  Ja, Sie können eine beliebige Anzahl von Zeilen und Spalten fixieren, indem Sie deren Positionen mit dem`FreezePanes` Verfahren.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells bietet eine kostenlose Testversion an, für die langfristige Nutzung müssen Sie jedoch eine Lizenz erwerben. Überprüfen Sie die[Kaufseite](https://purchase.aspose.com/buy) für Details.
+Aspose.Cells bietet eine kostenlose Testversion an, für die langfristige Nutzung müssen Sie jedoch eine Lizenz erwerben. Überprüfen Sie die[Kaufseite](https://purchase.aspose.com/buy) für Details.
 
 ### Wo finde ich Unterstützung für Aspose.Cells?
  Unterstützung erhalten Sie durch die[Aspose-Forum](https://forum.aspose.com/c/cells/9), wo Sie Fragen stellen und Lösungen von der Community finden können.

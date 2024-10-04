@@ -37,14 +37,12 @@ Asegúrese de agregar estas directivas using en la parte superior de su archivo 
 Primero, configuremos el directorio de salida donde guardaremos nuestro nuevo archivo de Excel. Esto ayudará a mantener organizado el proyecto.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Aquí,`RunExamples.Get_OutputDirectory()` es una llamada de función que recupera una ruta designada para los archivos de salida. Asegúrese de que este método esté definido y apunte a un directorio válido.
 
 ## Paso 2: Crear un nuevo libro de trabajo
 
-Ahora que tenemos nuestro directorio de salida, creemos un nuevo libro de trabajo.`Workbook` La clase es el punto de partida para trabajar con archivos de Excel.
+ Ahora que tenemos nuestro directorio de salida, vamos a crear un nuevo libro de trabajo.`Workbook`La clase es el punto de partida para trabajar con archivos de Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

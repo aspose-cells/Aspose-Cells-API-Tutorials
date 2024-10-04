@@ -37,10 +37,8 @@ using System;
 首先，讓我們設定儲存新 Excel 檔案的輸出目錄。這將有助於讓您的專案井井有條。
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
-這裡，`RunExamples.Get_OutputDirectory()`是一個函數調用，用於檢索輸出檔案的指定路徑。確保此方法已定義並指向有效的目錄。
 
 ## 第 2 步：建立新工作簿
 
@@ -83,7 +81,7 @@ workbook.ContentTypeProperties[index].IsNillable = true;
 
 在此程式碼段中，我們建立一個名為「MK32」的屬性，其目前日期和時間的格式根據 ISO 8601。`IsNillable`到`true`.
 
-## 第 4 步：儲存工作簿
+## 步驟 4：儲存工作簿
 
 現在我們已經新增了內容類型屬性，讓我們將工作簿儲存到我們之前設定的輸出目錄中。 
 
@@ -105,7 +103,7 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將自訂內容類型屬性新增至 Excel 工作簿。透過遵循本逐步指南，您不僅學習如何操作 Excel 文件，還增強了其元資料功能。此技能對於需要在資料旁邊儲存附加上下文或資訊的應用程式特別有用，從而使您的工作簿更具功能性和資訊量。
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將自訂內容類型屬性新增至 Excel 工作簿。透過遵循本逐步指南，您不僅學習如何操作 Excel 文件，還增強了其元資料功能。此技能對於需要在資料旁邊儲存附加上下文或資訊的應用程式特別有用，從而使您的工作簿更具功能性和資訊量。
 
 ## 常見問題解答
 

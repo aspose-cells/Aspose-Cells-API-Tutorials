@@ -148,4 +148,4 @@ Sì, puoi inserire immagini separate in sezioni diverse dell'intestazione o del 
 Assicurati che il percorso dell'immagine sia corretto e che il file esista. Controlla anche la compatibilità del formato dell'immagine.
 
 ### Dove posso trovare ulteriore documentazione per Aspose.Cells?
- Puoi trovare la documentazione dettagliata[Qui](https://reference.aspose.com/cells/net/).
+Puoi trovare la documentazione dettagliata[Qui](https://reference.aspose.com/cells/net/).

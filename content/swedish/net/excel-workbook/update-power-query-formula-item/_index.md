@@ -47,10 +47,9 @@ I det här steget kommer vi att definiera var våra käll- och utdatafiler finns
 
 ```csharp
 // Arbetskataloger
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Här använder vi en hypotetisk metod`RunExamples.Get_SourceDirectory()` för att hämta sökvägen till våra källfiler. Liknande,`RunExamples.Get_OutputDirectory()` får vägen där vi sparar våra utdata. Se till att dessa metoder returnerar giltiga sökvägar på din dator.
 
 ## Steg 2: Ladda arbetsboken
 
@@ -59,7 +58,7 @@ Låt oss nu ladda Excel-filen där Power Query finns.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- De`Workbook`klass är din ingångspunkt till Excel-filen. Genom att skicka sökvägen till vår källfil skapar vi en instans som låter oss manipulera den. Du kan föreställa dig det som att öppna en bok – du gör dig redo att läsa (eller redigera) dess innehåll.
+ De`Workbook` klass är din ingångspunkt till Excel-filen. Genom att skicka sökvägen till vår källfil skapar vi en instans som låter oss manipulera den. Du kan föreställa dig det som att öppna en bok – du gör dig redo att läsa (eller redigera) dess innehåll.
 
 ## Steg 3: Öppna Data Mashup
 
@@ -102,7 +101,7 @@ Efter att ha gjort uppdateringarna är det dags att spara våra ändringar.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- De`Save` metod skriver den uppdaterade arbetsboken till den angivna utdatakatalogen. Det är som att försegla dina redigeringar i en ny version av manualen, redo för andra att använda!
+ De`Save`metod skriver den uppdaterade arbetsboken till den angivna utdatakatalogen. Det är som att försegla dina redigeringar i en ny version av manualen, redo för andra att använda!
 
 ## Slutsats
 

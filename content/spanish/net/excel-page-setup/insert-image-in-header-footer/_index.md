@@ -148,4 +148,4 @@ Sí, puedes insertar imágenes separadas en diferentes secciones del encabezado 
 Asegúrese de que la ruta de la imagen sea correcta y que el archivo exista. Compruebe también la compatibilidad del formato de la imagen.
 
 ### ¿Dónde puedo encontrar documentación adicional para Aspose.Cells?
- Puede encontrar documentación detallada[aquí](https://reference.aspose.com/cells/net/).
+Puede encontrar documentación detallada[aquí](https://reference.aspose.com/cells/net/).

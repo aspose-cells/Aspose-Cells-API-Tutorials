@@ -41,13 +41,11 @@ Nu när vi har allt installerat, låt oss dela upp processen att lägga till en 
 Först måste vi definiera var vår källfil för Excel finns och var vi vill spara den signerade utdatafilen. Detta är ett avgörande steg eftersom det hjälper till att organisera dina filer effektivt.
 
 ```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Källkatalog
+string sourceDir = "Your Document Directory";
 // Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- I det här kodavsnittet`RunExamples.Get_SourceDirectory()` och`RunExamples.Get_OutputDirectory()` är metoder som returnerar sökvägarna till dina käll- respektive utdatakataloger. Se till att ersätta dessa med de faktiska sökvägarna om du inte använder dessa metoder.
 
 ## Steg 2: Ladda arbetsboken
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Ersätt med ditt PFX-lösenord
 string pfx = "pfxFile"; // Ersätt med sökvägen till din PFX-fil
 ```
 
- I detta steg, byt ut`pfxPassword` med ditt faktiska lösenord och`pfxFile`med sökvägen till din PFX-fil. Detta är nyckeln till att signera ditt dokument!
+ I detta steg, byt ut`pfxPassword` med ditt faktiska lösenord och`pfxFile` med sökvägen till din PFX-fil. Detta är nyckeln till att signera ditt dokument!
 
 ## Steg 4: Skapa den digitala signaturen
 
- Låt oss nu skapa den digitala signaturen med hjälp av`DigitalSignature` klass. Det är här magin händer!
+ Låt oss nu skapa den digitala signaturen med hjälp av`DigitalSignature`klass. Det är här magin händer!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

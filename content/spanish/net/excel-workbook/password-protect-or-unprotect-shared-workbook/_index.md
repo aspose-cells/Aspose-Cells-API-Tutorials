@@ -39,7 +39,7 @@ Lo primero que debes hacer es definir dónde se guardará el archivo de salida. 
 
 ```csharp
 // Directorio de salida
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Esta línea de código recupera la ruta del directorio donde se almacenará el archivo generado. Asegúrese de que este directorio exista; de lo contrario, podría aparecer un error de archivo no encontrado más adelante.

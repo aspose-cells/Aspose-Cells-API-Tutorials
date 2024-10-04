@@ -54,8 +54,8 @@ Nyní, když jste importovali požadované balíčky, pojďme nastavit naše pro
 
 ```csharp
 //adresáře
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

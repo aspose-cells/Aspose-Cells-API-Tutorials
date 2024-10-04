@@ -15,7 +15,7 @@ Stai lavorando con i fogli di calcolo e stai cercando un modo efficiente per ges
 
 Prima di entrare nel codice vero e proprio, assicuriamoci di aver allineato tutto. Ecco cosa ti serve:
 
-1. Aspose.Cells per la libreria .NET – Assicurati di averlo installato. Puoi[scarica la libreria qui](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells per la libreria .NET – Assicurati di averlo installato. Puoi[scarica la libreria qui](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Assicurati di eseguire una versione compatibile di .NET Framework. Aspose.Cells per .NET supporta le versioni di .NET Framework a partire dalla 2.0.
 3. Ambiente di sviluppo: Visual Studio o qualsiasi altro IDE C# è perfetto per questa attività.
 4. Conoscenza di base di C#: non è necessario essere un mago, ma comprendere la sintassi di base sarà utile.
@@ -41,7 +41,7 @@ Prima di poter manipolare qualsiasi file Excel, dobbiamo definire il percorso in
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo della directory sul tuo sistema. Questa directory sarà dove caricherai il tuo file Excel esistente e salverai l'output.
+ Sostituire`"YOUR DOCUMENT DIRECTORY"`con il percorso effettivo della directory sul tuo sistema. Questa directory sarà dove caricherai il tuo file Excel esistente e salverai l'output.
 
 ## Passaggio 2: creazione di un'istanza di un oggetto cartella di lavoro
 
@@ -61,7 +61,7 @@ In Excel, le schede in basso (Sheet1, Sheet2, ecc.) possono essere nascoste o vi
 workbook.Settings.ShowTabs = true;
 ```
 
- Collocamento`ShowTabs` A`true`garantirà che le schede siano visibili quando si apre il file Excel.
+ Collocamento`ShowTabs` A`true` garantirà che le schede siano visibili quando si apre il file Excel.
 
 ## Passaggio 4: salvare il file Excel modificato
 
@@ -71,7 +71,7 @@ Una volta visualizzate le schede, dobbiamo salvare il file aggiornato. Questo as
 workbook.Save(dataDir + "output.xls");
 ```
 
- Il file viene salvato con il nome`output.xls` nella directory specificata in precedenza. Puoi anche scegliere un nome o un formato di file diverso (ad esempio`.xlsx`) se necessario.
+Il file viene salvato con il nome`output.xls` nella directory specificata in precedenza. Puoi anche scegliere un nome o un formato di file diverso (ad esempio`.xlsx`) se necessario.
 
 ## Conclusione
 
@@ -80,7 +80,7 @@ Ed ecco fatto! Hai visualizzato correttamente le schede in un foglio di calcolo 
 ## Domande frequenti
 
 ### Posso nascondere le schede in Excel utilizzando Aspose.Cells per .NET?
- Assolutamente! Basta impostare`workbook.Settings.ShowTabs = false;` salva il file. Questo nasconderà le schede quando la cartella di lavoro è aperta.
+ Assolutamente! Basta impostare`workbook.Settings.ShowTabs = false;` e salva il file. Questo nasconderà le schede quando la cartella di lavoro è aperta.
 
 ### Aspose.Cells supporta altre funzionalità di Excel come grafici e tabelle pivot?
 Sì, Aspose.Cells è una libreria completa che supporta quasi tutte le funzionalità di Excel, tra cui grafici, tabelle pivot, formule e altro ancora.

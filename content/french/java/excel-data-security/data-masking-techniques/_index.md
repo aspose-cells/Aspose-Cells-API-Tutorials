@@ -48,7 +48,7 @@ Ajoutez le fichier JAR téléchargé au classpath de votre projet Java.
 
 3. Initialiser Aspose.Cells :
 
-Commencez par importer les packages nécessaires et initialisez Aspose.Cells dans votre code Java :
+Commencez par importer les packages nécessaires et initialiser Aspose.Cells dans votre code Java :
 
 ```java
 import com.aspose.cells.*;
@@ -100,7 +100,7 @@ rangeToShuffle.shuffle();
 
 ## Conclusion
 
-Le masquage des données est un aspect essentiel de la sécurité et de la conformité des données. Avec Aspose.Cells pour Java, la mise en œuvre des techniques de masquage des données devient un processus simple. En suivant les étapes et les exemples de code fournis dans cet article, vous pouvez protéger les données sensibles tout en préservant leur utilisabilité à diverses fins.
+Le masquage des données est un aspect essentiel de la sécurité et de la conformité des données. Avec Aspose.Cells pour Java, la mise en œuvre des techniques de masquage des données devient un processus simple. En suivant les étapes et les exemples de code fournis dans cet article, vous pouvez protéger les données sensibles tout en conservant leur utilisabilité à diverses fins.
 
 ## FAQ
 

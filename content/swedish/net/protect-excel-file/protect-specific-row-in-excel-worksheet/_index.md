@@ -104,7 +104,7 @@ Nu är det dags att låsa raden du vill skydda. I det här fallet låser vi den 
 style = sheet.Cells.Rows[0].Style;
 // Lås den.
 style.IsLocked = true;
-// Instantiera flaggan.
+//Instantiera flaggan.
 flag = new StyleFlag();
 // Ställ in låsinställningen.
 flag.Locked = true;

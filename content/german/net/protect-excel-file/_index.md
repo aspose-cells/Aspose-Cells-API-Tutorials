@@ -15,7 +15,7 @@ Wenn Sie sich mit der Excel-Automatisierung und -Manipulation mithilfe von .NET 
 
 Stellen Sie sich vor, Sie müssten riesige Datenmengen in Excel verarbeiten. Sie denken vielleicht: „Dauert das nicht ewig?“ Hier kommt Aspose.Cells ins Spiel: Es ist, als ob Sie eine Superkraft zur Datenmanipulation hätten. Mit dieser Bibliothek können Sie nicht nur Tabellenkalkulationen bearbeiten, sondern auch Daten schützen und sicherstellen, dass wichtige Informationen erhalten bleiben. Wenn Sie bestimmte Zeilen oder Spalten schützen, ist das, als würden Sie eine Festung um Ihre wichtigen Zahlen errichten und nur den richtigen Personen Zugang gewähren. 
 
-Wir haben diesen Prozess für Sie mit verschiedenen Schritt-für-Schritt-Anleitungen vereinfacht. Sehen Sie sich beispielsweise unsere Anleitung an, wie Sie[Benutzern das Bearbeiten von Bereichen im Excel-Arbeitsblatt gestatten](./allow-user-to-edit-ranges-in-excel-worksheet/)Sie erfahren, wie Sie Benutzern das Ändern bestimmter Abschnitte einer Tabelle ermöglichen, ohne das gesamte Dokument zu beeinträchtigen. 
+ Wir haben diesen Prozess für Sie mit verschiedenen Schritt-für-Schritt-Anleitungen vereinfacht. Sehen Sie sich beispielsweise unsere Anleitung an, wie Sie[Benutzern das Bearbeiten von Bereichen im Excel-Arbeitsblatt gestatten](./allow-user-to-edit-ranges-in-excel-worksheet/)Sie erfahren, wie Sie Benutzern das Ändern bestimmter Abschnitte einer Tabelle ermöglichen, ohne das gesamte Dokument zu beeinträchtigen. 
 
 ## Auf Sie zugeschnittene Tutorials
 

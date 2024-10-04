@@ -37,14 +37,12 @@ Se till att lägga till dessa med hjälp av direktiv överst i din C#-fil för a
 Låt oss först ställa in utdatakatalogen där vi kommer att spara vår nya Excel-fil. Detta hjälper till att hålla ditt projekt organiserat.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Här,`RunExamples.Get_OutputDirectory()` är ett funktionsanrop som hämtar en angiven sökväg för utdatafiler. Se till att den här metoden är definierad och pekar på en giltig katalog.
 
 ## Steg 2: Skapa en ny arbetsbok
 
-Nu när vi har vår utdatakatalog, låt oss skapa en ny arbetsbok. De`Workbook` klass är utgångspunkten för att hantera Excel-filer.
+ Nu när vi har vår utdatakatalog, låt oss skapa en ny arbetsbok. De`Workbook`klass är utgångspunkten för att hantera Excel-filer.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

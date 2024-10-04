@@ -41,13 +41,11 @@ Nachdem wir nun alles eingerichtet haben, unterteilen wir den Vorgang des Hinzuf
 Zuerst müssen wir definieren, wo sich unsere Excel-Quelldatei befindet und wo wir die signierte Ausgabedatei speichern möchten. Dies ist ein entscheidender Schritt, da er dabei hilft, Ihre Dateien effizient zu organisieren.
 
 ```csharp
-//Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Quellverzeichnis
+string sourceDir = "Your Document Directory";
 // Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- In diesem Codeausschnitt`RunExamples.Get_SourceDirectory()` Und`RunExamples.Get_OutputDirectory()` sind Methoden, die die Pfade zu Ihren Quell- bzw. Ausgabeverzeichnissen zurückgeben. Stellen Sie sicher, dass Sie diese durch die tatsächlichen Pfade ersetzen, wenn Sie diese Methoden nicht verwenden.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Ersetzen Sie es durch Ihr PFX-Passwort.
 string pfx = "pfxFile"; // Ersetzen Sie es durch den Pfad zu Ihrer PFX-Datei
 ```
 
- Ersetzen Sie in diesem Schritt`pfxPassword` mit Ihrem aktuellen Passwort und`pfxFile`mit dem Pfad zu Ihrer PFX-Datei. Dies ist der Schlüssel zum Signieren Ihres Dokuments!
+ Ersetzen Sie in diesem Schritt`pfxPassword` mit Ihrem aktuellen Passwort und`pfxFile` mit dem Pfad zu Ihrer PFX-Datei. Dies ist der Schlüssel zum Signieren Ihres Dokuments!
 
 ## Schritt 4: Erstellen der digitalen Signatur
 
- Erstellen wir nun die digitale Signatur mit dem`DigitalSignature` Klasse. Hier geschieht die Magie!
+ Erstellen wir nun die digitale Signatur mit dem`DigitalSignature`Klasse. Hier geschieht die Magie!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

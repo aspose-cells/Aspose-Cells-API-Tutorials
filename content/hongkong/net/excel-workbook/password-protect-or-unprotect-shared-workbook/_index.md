@@ -39,7 +39,7 @@ using System.Text;
 
 ```csharp
 //輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 這行程式碼檢索將儲存產生的檔案的目錄路徑。確保該目錄存在；否則，您稍後可能會遇到文件未找到的錯誤。

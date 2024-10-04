@@ -26,7 +26,7 @@ Workbook workbook = new Workbook("example.xlsx");
 ```
 
 ## Verileri Sıralama
-Excel'de verileri sıralamak yaygın bir görevdir. Aspose.Cells, verileri bir veya daha fazla sütuna göre artan veya azalan düzende sıralamanıza olanak tanır. Verileri sıralama yöntemi şöyledir:
+Excel'de verileri sıralamak yaygın bir görevdir. Aspose.Cells, bir veya daha fazla sütuna göre verileri artan veya azalan düzende sıralamanıza olanak tanır. Verileri sıralama yöntemi şöyledir:
 
 ```java
 // Verilerinizin bulunduğu çalışma sayfasını alın

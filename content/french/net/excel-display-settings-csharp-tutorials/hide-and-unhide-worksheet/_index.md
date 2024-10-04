@@ -124,7 +124,7 @@ En faisant cela, vous relevez le rideau, permettant à tout d’être à nouveau
 
 ## Conclusion
 
-La manipulation de feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET ne doit pas être une tâche ardue. Avec seulement quelques lignes de code, vous pouvez masquer ou révéler des données importantes en toute simplicité. Cette fonctionnalité peut être particulièrement utile dans les scénarios où la clarté et la sécurité sont primordiales. Que vous fassiez un rapport sur des données ou que vous essayiez simplement de garder votre travail propre et bien rangé, savoir comment gérer la visibilité des feuilles de calcul peut faire une grande différence dans votre flux de travail !
+La manipulation de feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET ne doit pas être une tâche ardue. Avec seulement quelques lignes de code, vous pouvez masquer ou révéler des données importantes en toute simplicité. Cette fonctionnalité peut être particulièrement utile dans les scénarios où la clarté et la sécurité sont primordiales. Que vous fassiez des rapports de données ou que vous essayiez simplement de garder votre travail propre et bien rangé, savoir comment gérer la visibilité des feuilles de calcul peut faire une grande différence dans votre flux de travail !
 
 ## FAQ
 

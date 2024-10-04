@@ -25,7 +25,7 @@ Trước khi đi sâu vào phần mã hóa thực tế, hãy đảm bảo rằng
 - Bạn sẽ cần một IDE như Visual Studio để tạo và chạy các ứng dụng C# của mình.
 
 ### Một tệp Excel mẫu
--  Để trình diễn, bạn sẽ cần một tệp Excel, chúng tôi sẽ gọi là`book1.xls`. Bạn có thể tạo một tệp Excel đơn giản bằng Microsoft Excel hoặc bất kỳ ứng dụng tương thích nào.
+- Để trình diễn, bạn sẽ cần một tệp Excel, chúng tôi sẽ gọi là`book1.xls`. Bạn có thể tạo một tệp Excel đơn giản bằng Microsoft Excel hoặc bất kỳ ứng dụng tương thích nào.
 
 Khi bạn đã có đủ những điều kiện tiên quyết này, chúng ta có thể bắt đầu viết mã!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Các`Workbook`đối tượng đại diện cho toàn bộ tệp Excel của bạn trong bộ nhớ. Hãy nghĩ về nó như việc đưa toàn bộ tệp vào không gian làm việc của bạn để bạn có thể bắt đầu thực hiện các sửa đổi.
+ Các`Workbook` đối tượng đại diện cho toàn bộ tệp Excel của bạn trong bộ nhớ. Hãy nghĩ về nó như việc đưa toàn bộ tệp vào không gian làm việc của bạn để bạn có thể bắt đầu thực hiện các sửa đổi.
 
 ## Bước 5: Truy cập vào Bảng tính
 
@@ -131,7 +131,7 @@ Ngăn đóng băng cho phép bạn giữ nguyên các hàng hoặc cột cụ th
  Có, bạn có thể đóng băng bất kỳ số lượng hàng và cột nào bằng cách chỉ định vị trí của chúng bằng cách sử dụng`FreezePanes` phương pháp.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để sử dụng lâu dài. Kiểm tra[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để sử dụng lâu dài. Kiểm tra[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
  Bạn có thể nhận được hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi bạn có thể đặt câu hỏi và tìm giải pháp từ cộng đồng.

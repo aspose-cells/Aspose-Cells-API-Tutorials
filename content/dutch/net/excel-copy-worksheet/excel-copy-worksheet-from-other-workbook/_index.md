@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Hier maken we de eerste werkmap en vullen we het eerste werkblad (`ws0`met headers en detailrijen. Deze gesimuleerde gegevens helpen u het kopieerproces later te visualiseren.
+Hier maken we de eerste werkmap en vullen we het eerste werkblad (`ws0`) met headers en detailrijen. Deze gesimuleerde gegevens helpen u het kopieerproces later te visualiseren.
 
 ## Stap 3: Stel de pagina-instelling in voor het afdrukken
 
 Laten we de pagina-instelling zo configureren dat koptekstrijen worden herhaald bij het afdrukken, zodat we deze functie in actie kunnen zien:
 
 ```csharp
-// Definieer een pagina-instellingsobject op basis van het eerste werkblad
+//Definieer een pagina-instellingsobject op basis van het eerste werkblad
 PageSetup pagesetup = ws0.PageSetup;
 // De eerste vijf rijen worden op elke pagina herhaald
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Laten we de inhoud van het werkblad uit de eerste werkmap kopiëren naar de twee
 // eerste werkblad van het tweede werkboek
 ws1.Copy(ws0);
 ```
- De`Copy` methode neemt alle inhoud uit het bronwerkblad (`ws0`) en dupliceert het in het doelwerkblad (`ws1`). Zo simpel toch?
+ De`Copy` methode neemt alle inhoud uit het bronwerkblad (`ws0`en dupliceert het in het doelwerkblad (`ws1`). Zo simpel toch?
 
 ## Stap 6: Sla de nieuwe werkmap op
 
@@ -137,7 +137,7 @@ Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars Excel-bestanden in ve
  U kunt een tijdelijke vergunning aanvragen door naar[deze link](https://purchase.aspose.com/temporary-license/).
 
 ### Waar kan ik meer documentatie over Aspose.Cells vinden?  
- Gedetailleerde documentatie vindt u hier[hier](https://reference.aspose.com/cells/net/).
+Gedetailleerde documentatie vindt u hier[hier](https://reference.aspose.com/cells/net/).
 
 ### Is er ondersteuning beschikbaar voor Aspose.Cells-gebruikers?  
  Absoluut! Je kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9).

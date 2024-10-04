@@ -104,7 +104,7 @@ Sekarang, saatnya mengunci baris yang ingin Anda lindungi. Dalam kasus ini, kita
 style = sheet.Cells.Rows[0].Style;
 // Kunci itu.
 style.IsLocked = true;
-// Buatlah contoh bendera.
+//Buatlah contoh bendera.
 flag = new StyleFlag();
 // Atur pengaturan kunci.
 flag.Locked = true;

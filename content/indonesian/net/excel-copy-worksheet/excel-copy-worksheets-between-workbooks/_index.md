@@ -20,7 +20,7 @@ Sebelum kita menyelami kodenya, mari pastikan Anda dilengkapi dengan alat yang t
 -  Lisensi yang valid atau[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda ingin menguji fungsionalitas penuh Aspose.Cells.
 - Pemahaman dasar tentang C# dan kerangka kerja .NET.
 
- Anda juga dapat memeriksa[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/)untuk rincian lebih lanjut.
+ Anda juga dapat memeriksa[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk rincian lebih lanjut.
 
 ## Paket Impor
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Terakhir, Anda akan menyimpan buku kerja kedua dengan lembar kerja yang disalin. Ini seperti menyimpan catatan yang baru Anda tulis di folder baru di komputer Anda.
 
 ```csharp
-// Simpan berkasnya.
+//Simpan berkasnya.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

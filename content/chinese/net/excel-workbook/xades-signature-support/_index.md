@@ -42,12 +42,10 @@ using System.IO;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //输出目录
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
-在此代码片段中，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`是分别返回源目录和输出目录路径的方法。如果您不使用这些方法，请确保用实际路径替换它们。
 
 ## 步骤 2：加载工作簿
 

@@ -39,7 +39,7 @@ using System.Text;
 
 ```csharp
 // ไดเรกทอรีผลลัพธ์
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 โค้ดบรรทัดนี้จะดึงเส้นทางไดเรกทอรีที่ไฟล์ที่สร้างขึ้นจะถูกจัดเก็บไว้ โปรดตรวจสอบให้แน่ใจว่าไดเรกทอรีนี้มีอยู่ มิฉะนั้น คุณอาจพบข้อผิดพลาดไม่พบไฟล์ในภายหลัง

@@ -89,7 +89,7 @@ Możesz zmienić nazwę pliku wyjściowego lub nadpisać oryginalny plik, jeśli
 
 ## Wniosek
 
-I masz to! Udało Ci się pomyślnie nauczyć, jak usunąć arkusz kalkulacyjny Excela według nazwy, używając Aspose.Cells dla .NET. Ta potężna biblioteka pozwala na bezproblemową manipulację plikami Excela, a dzięki tej wiedzy możesz dalej odkrywać edycję i zarządzanie dokumentami Excela dla różnych aplikacji.
+I masz to! Udało Ci się nauczyć, jak usunąć arkusz kalkulacyjny Excela według nazwy, używając Aspose.Cells dla .NET. Ta potężna biblioteka pozwala Ci bez wysiłku manipulować plikami Excela, a dzięki tej wiedzy możesz dalej odkrywać edycję i zarządzanie dokumentami Excela dla różnych aplikacji.
 
 Zachęcamy do eksperymentowania z innymi funkcjami biblioteki Aspose.Cells i nie wahaj się eksperymentować z bardziej złożonymi manipulacjami, gdy już nabierzesz wprawy.
 

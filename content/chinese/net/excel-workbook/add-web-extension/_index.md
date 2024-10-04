@@ -43,10 +43,8 @@ using Aspose.Cells;
 首先，您需要设置保存修改后的工作簿的输出目录。这有助于保持文件井然有序。
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
-这里，`RunExamples.Get_OutputDirectory()`是一种检索输出目录路径的方法。您可以修改它以指向系统上的任何位置。
-
 ## 步骤 2：创建新工作簿
 
 接下来，让我们创建一个新的工作簿实例。这就是所有神奇的事情发生的地方！

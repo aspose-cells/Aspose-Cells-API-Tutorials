@@ -53,12 +53,12 @@ Per iniziare, è necessario identificare dove si trova il file Excel di origine 
 
 ```csharp
 //Elenco di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Directory di uscita
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Qui dovresti sostituire`RunExamples.Get_SourceDirectory()` E`RunExamples.Get_OutputDirectory()` con i percorsi effettivi in cui sono archiviati i tuoi file.
+ Qui dovresti sostituire`"Your Document Directory"` E`"Your Document Directory"` con i percorsi effettivi in cui sono archiviati i tuoi file.
 
 ## Passaggio 2: caricare il file Excel
 
@@ -141,7 +141,7 @@ E in un attimo il tuo nuovo file, libero da tutte le vecchie impostazioni della 
 
 ## Conclusione
 
-Ed ecco fatto! Hai superato con successo i meandri della rimozione delle impostazioni della stampante dai fogli di lavoro Excel usando Aspose.Cells per .NET. È piuttosto sorprendente come solo poche righe di codice possano riordinare i tuoi documenti e rendere il tuo processo di stampa molto più fluido, vero? Ricorda, da un grande potere (come quello di Aspose.Cells), derivano grandi responsabilità, quindi testa sempre il tuo codice prima di distribuirlo in un ambiente di produzione.
+Ed ecco fatto! Hai navigato con successo nei meandri della rimozione delle impostazioni della stampante dai fogli di lavoro Excel usando Aspose.Cells per .NET. È piuttosto sorprendente come solo poche righe di codice possano riordinare i tuoi documenti e rendere il tuo processo di stampa molto più fluido, vero? Ricorda, da un grande potere (come quello di Aspose.Cells), derivano grandi responsabilità, quindi testa sempre il tuo codice prima di distribuirlo in un ambiente di produzione.
 
 ## Domande frequenti
 
@@ -149,7 +149,7 @@ Ed ecco fatto! Hai superato con successo i meandri della rimozione delle imposta
 Aspose.Cells è una potente libreria che consente agli sviluppatori di creare, manipolare e convertire file Excel nelle applicazioni .NET.
 
 ### Posso usare Aspose.Cells gratuitamente?  
- Sì, Aspose offre una versione di prova gratuita che puoi usare per esplorare le sue funzionalità. Dai un'occhiata a[link di prova gratuita](https://releases.aspose.com/).
+Sì, Aspose offre una versione di prova gratuita che puoi usare per esplorare le sue funzionalità. Dai un'occhiata a[link di prova gratuita](https://releases.aspose.com/).
 
 ### Devo installare Microsoft Excel per utilizzare Aspose.Cells?  
 No, Aspose.Cells funziona indipendentemente da Microsoft Excel. Non è necessario che Excel sia installato sul computer.

@@ -91,7 +91,7 @@ pageSetup.Order = PrintOrderType.OverThenDown;
 ## 5. lépés: Mentse el a munkafüzetet
 
 
-Végre itt az ideje, hogy megmentse munkáját! Ez a lépés biztosítja, hogy az összes testreszabását a rendszer tárolja későbbi használatra.
+Végre itt az ideje, hogy mentse a munkáját! Ez a lépés biztosítja, hogy az összes testreszabását a rendszer tárolja későbbi használatra.
 
 A munkafüzetet ezzel a kóddal mentheti el:
 
@@ -120,4 +120,4 @@ Az Aspose.Cells egy .NET-könyvtár, amely a Microsoft Excel-táblázatok kezel�
 Az oldalnyomtatási sorrendben választhat az „Over, then down” és a „Down then over” közül.
 
 ### Hol találhatok további példákat az Aspose.Cells használatára?
- További példákat és funkciókat fedezhet fel a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).
+További példákat és funkciókat fedezhet fel a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).

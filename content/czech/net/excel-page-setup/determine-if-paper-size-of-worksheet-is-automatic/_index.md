@@ -74,7 +74,7 @@ Tento kód získá první list (index 0) z obou sešitů.
 
 ## Krok 4: Zkontrolujte nastavení velikosti papíru
 
- Nyní přichází ta zábavná část! Budete chtít zkontrolovat, zda je nastavení velikosti papíru pro každý list automatické. To se provádí kontrolou`IsAutomaticPaperSize` majetek z`PageSetup` třída. Použijte následující fragment kódu:
+ Nyní přichází ta zábavná část! Budete chtít zkontrolovat, zda je nastavení velikosti papíru pro každý list automatické. To se provádí kontrolou`IsAutomaticPaperSize` vlastnictvím`PageSetup` třída. Použijte následující fragment kódu:
 
 ```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
@@ -93,7 +93,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 ## Závěr 
 
-A právě tak jste položili základy pro určení, zda je velikost papíru listu automaticky pomocí Aspose.Cells for .NET! Věnovali jste se importu balíčků, načítání sešitů, přístupu k listům a kontrole vlastnosti velikosti papíru – to jsou všechny základní dovednosti při programové manipulaci se soubory Excelu. Pamatujte, že čím více budete experimentovat s různými funkcemi Aspose.Cells, tím výkonnější budou vaše aplikace.
+právě tak jste položili základy pro určení, zda je velikost papíru listu automaticky pomocí Aspose.Cells for .NET! Věnovali jste se importu balíčků, načítání sešitů, přístupu k listům a kontrole vlastnosti velikosti papíru – to jsou všechny základní dovednosti při programové manipulaci se soubory Excelu. Pamatujte, že čím více budete experimentovat s různými funkcemi Aspose.Cells, tím výkonnější budou vaše aplikace.
 
 ## FAQ
 
@@ -104,10 +104,10 @@ Aspose.Cells je .NET knihovna určená pro správu souborů tabulek Excelu progr
 Ano! Aspose.Cells podporuje vývoj napříč platformami, takže můžete pracovat v různých prostředích, kde je k dispozici .NET.
 
 ### Potřebuji licenci pro Aspose.Cells?
- když můžete začít s bezplatnou zkušební verzí, další používání vyžaduje zakoupenou licenci. Další podrobnosti lze nalézt[zde](https://purchase.aspose.com/buy).
+ I když můžete začít s bezplatnou zkušební verzí, další používání vyžaduje zakoupenou licenci. Další podrobnosti lze nalézt[zde](https://purchase.aspose.com/buy).
 
 ### Jak mohu zkontrolovat, zda je velikost papíru listu v C# automatická?
- Jak je uvedeno v průvodci, můžete zkontrolovat`IsAutomaticPaperSize` majetek z`PageSetup` třída.
+Jak je uvedeno v průvodci, můžete zkontrolovat`IsAutomaticPaperSize` vlastnictvím`PageSetup` třída.
 
 ### Kde najdu více informací o Aspose.Cells?
  Můžete najít komplexní dokumentaci a návody[zde](https://reference.aspose.com/cells/net/).

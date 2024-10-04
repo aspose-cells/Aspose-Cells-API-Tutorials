@@ -41,12 +41,12 @@ using System.Text;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //输出目录
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
-在此代码片段中，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`假定获取输入和输出文件所在的相应路径。如果愿意，您可以用硬编码路径替换这些方法。
+在此代码片段中，`"Your Document Directory"`和`"Your Document Directory"`假定获取输入和输出文件所在的相应路径。如果愿意，您可以用硬编码路径替换这些方法。
 
 ## 步骤 2：加载 XLSB 文件
 

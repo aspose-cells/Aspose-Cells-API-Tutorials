@@ -42,12 +42,10 @@ using System.Collections.Generic;
 Σε αυτό το βήμα, πρέπει να ορίσουμε πού θα βρίσκονται τα αρχεία εισόδου και εξόδου μας.
 
 ```csharp
-//Κατάλογος πηγής
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Κατάλογος πηγής
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Εδώ, χρησιμοποιούμε βοηθητικές μεθόδους`Get_SourceDirectory()` και`Get_OutputDirectory()` για να ορίσουμε εύκολα τις διαδρομές των αρχείων μας. Μπορείτε να προσαρμόσετε αυτές τις διαδρομές σύμφωνα με τη δομή του καταλόγου σας.
 
 ## Βήμα 2: Δημιουργήστε ένα αντικείμενο σχεδίασης βιβλίου εργασίας
 
@@ -78,7 +76,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Με ρύθμιση`QuotePrefixToStyle`για false, δίνουμε εντολή στο Aspose.Cells να αντιμετωπίζει τα κύρια απόστροφα ως κανονικούς χαρακτήρες, επιτρέποντάς μας να τα χειριζόμαστε με ακρίβεια στην έξοδο μας.
+ Με ρύθμιση`QuotePrefixToStyle` για false, δίνουμε εντολή στο Aspose.Cells να αντιμετωπίζει τα κύρια απόστροφα ως κανονικούς χαρακτήρες, επιτρέποντάς μας να τα χειριζόμαστε με ακρίβεια στην έξοδο μας.
 
 ## Βήμα 5: Φόρτωση δεδομένων για έξυπνους δείκτες
 
@@ -146,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Το Aspose.Cells είναι μια ισχυρή βιβλιοθήκη .NET για τη δημιουργία, τον χειρισμό και τη μετατροπή αρχείων Excel σε πολλές μορφές μέσω προγραμματισμού.
 
 ### Μπορώ να χρησιμοποιήσω το Aspose.Cells δωρεάν;
- Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.Cells κάνοντας εγγραφή για δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.Cells κάνοντας εγγραφή για δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Cells;
  Μπορείτε να βρείτε βοήθεια και να κάνετε ερωτήσεις στο[Aspose Support Forum](https://forum.aspose.com/c/cells/9).

@@ -41,10 +41,10 @@ using System.Text;
 इससे पहले कि आप अपनी एक्सेल फ़ाइलों में हेरफेर कर सकें, आपको यह परिभाषित करना होगा कि आपकी स्रोत फ़ाइलें कहाँ स्थित हैं और आप आउटपुट फ़ाइल को कहाँ सहेजना चाहते हैं। इसे करने का तरीका यहाँ बताया गया है:
 
 ```csharp
-//स्रोत निर्देशिका
-string sourceDir = RunExamples.Get_SourceDirectory();
+// स्रोत निर्देशिका
+string sourceDir = "Your Document Directory";
 // आउटपुट निर्देशिका
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 इस चरण में, हम स्रोत और आउटपुट निर्देशिकाओं के लिए पथ प्राप्त करने के लिए एक विधि का उपयोग कर रहे हैं। सुनिश्चित करें कि ये निर्देशिकाएँ मौजूद हैं और उनमें आवश्यक फ़ाइलें हैं।

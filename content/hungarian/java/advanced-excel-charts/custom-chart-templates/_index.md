@@ -106,7 +106,7 @@ Egyéni diagramsablonok létrehozása az Aspose.Cells for Java használatával l
 
 Az Aspose.Cells for Java a diagramtípusok széles skáláját támogatja, beleértve a sávdiagramokat, vonaldiagramokat, szóródiagramokat, kördiagramokat és még sok mást. Ezeket a diagramokat testreszabhatja az adatvizualizációs igényeinek megfelelően.
 
-### Alkalmazhatok egyéni témákat a diagramjaimon?
+### Alkalmazhatok egyéni témákat a diagramjaimra?
 
 Igen, alkalmazhat egyéni témákat és sablonokat a diagramjaira az Aspose.Cells for Java alkalmazásban. Ez lehetővé teszi a diagramok és jelentések egységes megjelenését és működését.
 

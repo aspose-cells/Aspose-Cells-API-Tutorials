@@ -83,7 +83,7 @@ int i = workbook.Worksheets.Add();
 建立新工作表後，取得對其的參考非常重要。這樣，我們就可以自訂它的屬性，例如工作表的名稱。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 

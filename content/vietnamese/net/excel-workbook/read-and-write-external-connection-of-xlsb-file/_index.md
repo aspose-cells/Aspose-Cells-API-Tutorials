@@ -40,13 +40,13 @@ Các lệnh nhập này cung cấp cho bạn quyền truy cập vào chức năn
 Trước khi làm việc với tệp XLSB, bạn cần thiết lập thư mục nguồn và thư mục đầu ra. Bước này rất cần thiết để giữ cho các tệp của bạn được sắp xếp.
 
 ```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Thư mục nguồn
+string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Trong đoạn mã này,`RunExamples.Get_SourceDirectory()` Và`RunExamples.Get_OutputDirectory()`được cho là sẽ lấy các đường dẫn tương ứng cho nơi các tệp đầu vào và đầu ra của bạn sẽ nằm. Bạn có thể thay thế các phương pháp này bằng các đường dẫn được mã hóa cứng nếu bạn thích.
+ Trong đoạn mã này,`"Your Document Directory"` Và`"Your Document Directory"`được cho là sẽ lấy các đường dẫn tương ứng cho nơi các tệp đầu vào và đầu ra của bạn sẽ nằm. Bạn có thể thay thế các phương pháp này bằng các đường dẫn được mã hóa cứng nếu bạn thích.
 
 ## Bước 2: Tải tệp XLSB
 

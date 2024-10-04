@@ -9,14 +9,14 @@ url: /pl/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Wstęp
 
-W dzisiejszym cyfrowym świecie bezpieczne zarządzanie danymi w arkuszach kalkulacyjnych jest ważniejsze niż kiedykolwiek. Niezależnie od tego, czy przetwarzasz poufne informacje, czy po prostu chcesz mieć pewność, że formatowanie pozostanie nienaruszone, ochrona określonych komórek w arkuszu kalkulacyjnym programu Excel może być przełomem. Na szczęście, jeśli używasz .NET, Aspose.Cells sprawia, że ten proces jest prosty. W tym artykule przedstawimy łatwy przewodnik krok po kroku, jak chronić komórki w arkuszu kalkulacyjnym programu Excel, zapewniając, że Twoje dane pozostaną bezpieczne i zdrowe.
+dzisiejszym cyfrowym świecie bezpieczne zarządzanie danymi w arkuszach kalkulacyjnych jest ważniejsze niż kiedykolwiek. Niezależnie od tego, czy przetwarzasz poufne informacje, czy po prostu chcesz mieć pewność, że formatowanie pozostanie nienaruszone, ochrona określonych komórek w arkuszu kalkulacyjnym programu Excel może być przełomem. Na szczęście, jeśli używasz .NET, Aspose.Cells sprawia, że ten proces jest prosty. W tym artykule przedstawimy łatwy przewodnik krok po kroku, jak chronić komórki w arkuszu kalkulacyjnym programu Excel, zapewniając, że Twoje dane pozostaną bezpieczne i zdrowe.
 
 ## Wymagania wstępne
 
 Zanim zagłębisz się w szczegóły ochrony komórek, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To podstawowe IDE do tworzenia oprogramowania .NET.
-2. Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją łatwo zainstalować za pomocą NuGet Package Manager lub pobrać bezpośrednio z[Strona Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją łatwo zainstalować za pomocą NuGet Package Manager lub pobrać bezpośrednio z[Strona Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Niewielka znajomość programowania w języku C# pomoże Ci płynnie uczyć się języka.
 
 ## Importowanie pakietów
@@ -155,5 +155,5 @@ Oczywiście! Możesz zablokować tyle komórek, ile chcesz, powtarzając kroki b
 ### Gdzie mogę znaleźć dokumentację?
 Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
 
-### jakich formatach plików mogę zapisywać pliki Excela?
+### W jakich formatach plików mogę zapisywać pliki Excela?
 Aspose.Cells obsługuje wiele formatów, w tym XLSX, XLS, CSV i inne.

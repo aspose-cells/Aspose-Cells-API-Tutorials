@@ -104,7 +104,7 @@ Nu is het tijd om de rij te vergrendelen die u wilt beveiligen. In dit geval ver
 style = sheet.Cells.Rows[0].Style;
 // Doe het op slot.
 style.IsLocked = true;
-// De vlag instantiëren.
+//De vlag instantiëren.
 flag = new StyleFlag();
 // Stel de vergrendelingsinstelling in.
 flag.Locked = true;

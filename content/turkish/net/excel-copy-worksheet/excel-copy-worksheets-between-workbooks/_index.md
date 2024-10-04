@@ -20,7 +20,7 @@ Koda dalmadan önce, başlamak için doğru araçlara sahip olduğunuzdan emin o
 -  Geçerli bir lisans veya[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Cells'in tüm işlevlerini test etmek istiyorsanız.
 - C# ve .NET framework hakkında temel bilgi.
 
- Ayrıca şunları da kontrol edebilirsiniz:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/)Daha detaylı bilgi için.
+ Ayrıca şunları da kontrol edebilirsiniz:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha detaylı bilgi için.
 
 ## Paketleri İçe Aktar
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Son olarak, kopyalanan çalışma sayfasıyla ikinci çalışma kitabını kaydedeceksiniz. Bu, yeni yazdığınız notları bilgisayarınızda yeni bir klasöre kaydetmek gibidir.
 
 ```csharp
-// Dosyayı kaydedin.
+//Dosyayı kaydedin.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -102,7 +102,7 @@ Unutmayın, kodlamayı daha küçük adımlara böldüğünüzde daha kolay hale
 
 ### Birden fazla çalışma sayfasını aynı anda kopyalayabilir miyim?
 
- Evet, kaynak çalışma kitabındaki çalışma sayfalarında dolaşabilir ve bunları hedef çalışma kitabına kopyalayabilirsiniz. Her çalışma sayfasının kendine ait`Copy` yöntem.
+ Evet, kaynak çalışma kitabındaki çalışma sayfalarında dolaşabilir ve bunları hedef çalışma kitabına kopyalayabilirsiniz. Her çalışma sayfasının kendine ait`Copy` Yöntem.
 
 ### Veri içeren bir çalışma kitabını çalışma sayfasına kopyalayabilir miyim?
 

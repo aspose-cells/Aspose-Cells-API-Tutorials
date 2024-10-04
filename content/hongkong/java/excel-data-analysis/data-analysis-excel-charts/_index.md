@@ -64,7 +64,7 @@ autoFilter.setRange("A1:D1");
 
 ## 建立 Excel 圖表
 
-現在，讓我們深入研究令人興奮的部分 - 使用處理後的數據建立 Excel 圖表。 Aspose.Cells for Java 提供了多種圖表類型，從簡單的長條圖到複雜的雷達圖。
+現在，讓我們深入了解令人興奮的部分 - 使用處理後的資料建立 Excel 圖表。 Aspose.Cells for Java 提供了多種圖表類型，從簡單的長條圖到複雜的雷達圖。
 
 ```java
 //建立長條圖
@@ -102,7 +102,7 @@ workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 
 是的，您可以將 Aspose.Cells for Java 與其他 Java 程式庫集成，以進一步增強您的資料分析能力。有關相容性和整合的詳細信息，請參閱文件。
 
-### 使用 Aspose.Cells for Java 有任何授權要求嗎？
+### 使用 Aspose.Cells for Java 是否有任何授權要求？
 
 是的，Aspose.Cells for Java 需要有效的商業用途授權。您可以從 Aspose 網站取得許可證。
 

@@ -20,7 +20,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen e
 ## Schritt 1: Einrichten Ihres Projekts
 
 1. Erstellen Sie ein neues Java-Projekt in Ihrer bevorzugten IDE.
-2. Fügen Sie die Bibliothek Aspose.Cells für Java zu den Abhängigkeiten Ihres Projekts hinzu.
+2. Fügen Sie die Aspose.Cells-Bibliothek für Java zu den Abhängigkeiten Ihres Projekts hinzu.
 
 ## Schritt 2: Laden der Excel-Datei
 

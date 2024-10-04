@@ -38,7 +38,7 @@ Maintenant que nous avons couvert les bases des fonctions de date d'Excel, plong
 
 ### Configuration d'Aspose.Cells
 
-Avant de commencer à coder, nous devons configurer Aspose.Cells pour Java dans notre projet. Suivez ces étapes pour commencer.
+Avant de pouvoir commencer à coder, nous devons configurer Aspose.Cells pour Java dans notre projet. Suivez ces étapes pour commencer.
 
 1. Téléchargez et installez Aspose.Cells : Visitez[Aspose.Cells pour Java](https://releases.aspose.com/cells/java/) et téléchargez la dernière version.
 

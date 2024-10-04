@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 //工作目录
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-这里我们采用一种假设方法`RunExamples.Get_SourceDirectory()`获取源文件的路径。同样，`RunExamples.Get_OutputDirectory()`获取我们将保存输出的路径。确保这些方法返回您机器上的有效路径。
 
 ## 步骤 2：加载工作簿
 

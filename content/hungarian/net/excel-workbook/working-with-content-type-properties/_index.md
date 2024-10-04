@@ -23,7 +23,7 @@ Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rend
 
 ## Csomagok importálása
 
-Az Aspose.Cells használatához importálnia kell a szükséges névtereket a C# fájlba. Ez hozzáférést biztosít a programnak a könyvtár által biztosított osztályokhoz és metódusokhoz. Íme, hogyan kell ezt megtenni:
+Az Aspose.Cells használatához importálnia kell a szükséges névtereket a C# fájlba. Ez hozzáférést biztosít a programnak a könyvtár által biztosított osztályokhoz és metódusokhoz. Ezt a következőképpen teheti meg:
 
 ```csharp
 using Aspose.Cells.WebExtensions;
@@ -37,14 +37,12 @@ using System;
 Először állítsuk be a kimeneti könyvtárat, ahová menteni fogjuk az új Excel fájlunkat. Ez segít megőrizni projektjét.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Itt,`RunExamples.Get_OutputDirectory()` egy függvényhívás, amely a kimeneti fájlok kijelölt elérési útját kéri le. Győződjön meg arról, hogy ez a metódus definiálva van, és érvényes könyvtárra mutat.
 
 ## 2. lépés: Hozzon létre egy új munkafüzetet
 
-Most, hogy megvan a kimeneti könyvtárunk, hozzunk létre egy új munkafüzetet. A`Workbook` osztály az Excel fájlok kezelésének kiindulópontja.
+ Most, hogy megvan a kimeneti könyvtárunk, hozzunk létre egy új munkafüzetet. A`Workbook`osztály az Excel fájlok kezelésének kiindulópontja.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

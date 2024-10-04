@@ -140,4 +140,4 @@ Aspose.Cells は、Microsoft Excel を必要とせずに Excel ファイルを�
 はい！無料試用版は以下から入手できます。[Aspose.Cells 無料トライアル](https://releases.aspose.com/).
 
 ### Aspose.Cells のサポートを受けるにはどうすればよいですか?
- Aspose サポート フォーラムにアクセスしてサポートを受けることができます。[Aspose.Cells サポート](https://forum.aspose.com/c/cells/9).
+Aspose サポート フォーラムにアクセスしてサポートを受けることができます。[Aspose.Cells サポート](https://forum.aspose.com/c/cells/9).

@@ -103,7 +103,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ## Wniosek
 
-Gratulacje! Właśnie nauczyłeś się, jak ustawić kolejność stron w programie Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz dostosować sposób drukowania dokumentów programu Excel, dzięki czemu będą łatwe do śledzenia i atrakcyjne wizualnie. Ta funkcjonalność przydaje się szczególnie w przypadku dużych zestawów danych, w których kolejność stron może znacząco wpłynąć na czytelność. 
+Gratulacje! Właśnie nauczyłeś się, jak ustawić kolejność stron w programie Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz dostosować sposób drukowania dokumentów programu Excel, czyniąc je łatwymi do śledzenia i atrakcyjnymi wizualnie. Ta funkcjonalność przydaje się szczególnie w przypadku dużych zestawów danych, w których kolejność stron może znacząco wpłynąć na czytelność. 
 
 ## Najczęściej zadawane pytania
 
@@ -120,4 +120,4 @@ Aspose.Cells to biblioteka .NET udostępniająca funkcje umożliwiające manipul
 Możesz wybrać pomiędzy kolejnością drukowania stron „Over Then Down” i „Down Then Over”.
 
 ### Gdzie mogę znaleźć więcej przykładów użycia Aspose.Cells?
- Więcej przykładów i funkcjonalności można znaleźć w[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Więcej przykładów i funkcjonalności można znaleźć w[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).

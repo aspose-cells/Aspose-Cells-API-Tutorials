@@ -16,7 +16,7 @@ Excel 시트 내에서 데이터를 관리하는 것은 미로를 탐색하는 �
 데이터 보호에 대한 여정을 시작하기 전에 시작에 필요한 몇 가지 사항이 있습니다.
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. .NET 개발에 친화적인 환경입니다.
-2. Aspose.Cells 라이브러리: Aspose.Cells for .NET 라이브러리가 필요합니다. 아직 설치하지 않았다면 다음에서 얻을 수 있습니다.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 라이브러리: Aspose.Cells for .NET 라이브러리가 필요합니다. 아직 설치하지 않았다면 다음에서 얻을 수 있습니다.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 대해 어느 정도 알고 있으면 코드를 더 잘 이해하는 데 도움이 됩니다.
 4. .NET Framework: .NET framework가 설정되어 있는지 확인하세요. 이 라이브러리는 .NET Framework와 .NET Core 모두에서 원활하게 작동합니다.
 
@@ -110,18 +110,18 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
-이 루프는 각 열(0에서 255까지)을 통과하여 잠금을 해제합니다. 이것을 심기 위해 밭을 준비하는 것으로 생각하세요. 땅을 치워서 나중에 특정 작물 하나만 번성할 수 있도록 하는 것입니다.
+이 루프는 각 열(0~255)을 통과하여 잠금을 해제합니다. 이것을 심기 위해 밭을 준비하는 것으로 생각하세요. 땅을 치워서 나중에 특정 작물 하나만 번성할 수 있도록 하는 것입니다.
 
 ## 6단계: 원하는 열 잠금
 
 이제 재미있는 부분이 왔습니다. 보호하려는 특정 열을 잠그는 것입니다. 우리의 예에서, 우리는 첫 번째 열(인덱스 0)을 잠글 것입니다.
 
 ```csharp
-//첫 번째 열 스타일을 가져옵니다.
+// 첫 번째 열 스타일을 가져옵니다.
 style = sheet.Cells.Columns[0].Style;
 // 잠그세요.
 style.IsLocked = true;
-// 플래그를 인스턴스화합니다.
+//플래그를 인스턴스화합니다.
 flag = new StyleFlag();
 // 잠금설정을 합니다.
 flag.Locked = true;

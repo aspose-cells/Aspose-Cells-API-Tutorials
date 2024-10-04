@@ -39,7 +39,7 @@ Az első dolog, amit meg kell tennie, hogy meghatározza a kimeneti fájl menté
 
 ```csharp
 // Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Ez a kódsor lekéri a könyvtár elérési útját, ahol a generált fájl tárolásra kerül. Győződjön meg arról, hogy ez a könyvtár létezik; ellenkező esetben később egy fájl nem található hibával találkozhat.

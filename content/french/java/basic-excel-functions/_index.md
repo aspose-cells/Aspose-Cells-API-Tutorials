@@ -27,7 +27,7 @@ Libérez la puissance de la formule Excel SUM avec Aspose.Cells pour Java - Votr
 ### [Comment utiliser la fonction IF d'Excel](./how-to-use-excel-if-function/)
 Exploitez la puissance de la fonction IF d'Excel avec Aspose.Cells pour Java. Apprenez à implémenter la logique conditionnelle de manière transparente.
 ### [Tutoriel sur la fonction RECHERCHEV dans Excel](./excel-vlookup-tutorial/)
-Libérez la puissance de RECHERCHEV Excel avec Aspose.Cells pour Java - Votre guide ultime pour une récupération de données sans effort.
+Libérez la puissance de la fonction RECHERCHEV d'Excel avec Aspose.Cells pour Java - Votre guide ultime pour une récupération de données sans effort.
 ### [Fonction CONCATENER d'Excel](./excel-concatenate-function/)
 Découvrez comment concaténer du texte dans Excel à l'aide d'Aspose.Cells pour Java. Ce guide étape par étape comprend des exemples de code source pour une manipulation de texte transparente.
 ### [Fonction COUNTIF dans Excel](./countif-function-in-excel/)

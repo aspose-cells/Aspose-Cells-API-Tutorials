@@ -28,7 +28,7 @@ Aprenda a crear impresionantes plantillas de gráficos personalizados en Java co
 ### [Tipos de gráficos combinados](./combined-chart-types/)
 Aprenda a crear tipos de gráficos combinados con Aspose.Cells para Java. Esta guía paso a paso proporciona el código fuente y consejos para una visualización de datos eficaz.
 ### [Gráficos 3D](./3d-charts/)
-Aprenda a crear gráficos 3D impresionantes en Java con Aspose.Cells. Guía paso a paso para la visualización de datos en Excel.
+Aprenda a crear gráficos 3D espectaculares en Java con Aspose.Cells. Guía paso a paso para la visualización de datos en Excel.
 ### [Etiquetado de datos](./data-labeling/)
 Descubra el potencial del etiquetado de datos con Aspose.Cells para Java. Aprenda técnicas paso a paso.
 ### [Análisis de línea de tendencia](./trendline-analysis/)

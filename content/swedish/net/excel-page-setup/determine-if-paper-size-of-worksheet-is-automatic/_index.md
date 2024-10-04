@@ -104,10 +104,10 @@ Aspose.Cells är ett .NET-bibliotek designat för att hantera Excel-kalkylbladsf
 Ja! Aspose.Cells stöder plattformsoberoende utveckling, så du kan arbeta i olika miljöer där .NET är tillgängligt.
 
 ### Behöver jag en licens för Aspose.Cells?
-Även om du kan börja med en gratis provperiod, kräver fortsatt användning en köpt licens. Mer information kan hittas[här](https://purchase.aspose.com/buy).
+ Även om du kan börja med en gratis provperiod, kräver fortsatt användning en köpt licens. Mer information kan hittas[här](https://purchase.aspose.com/buy).
 
 ### Hur kan jag kontrollera om ett kalkylblads pappersstorlek är automatisk i C#?
- Som visas i guiden kan du kontrollera`IsAutomaticPaperSize` egendom av`PageSetup` klass.
+Som visas i guiden kan du kontrollera`IsAutomaticPaperSize` egendom av`PageSetup` klass.
 
 ### Var kan jag hitta mer information om Aspose.Cells?
  Du kan hitta omfattande dokumentation och handledning[här](https://reference.aspose.com/cells/net/).

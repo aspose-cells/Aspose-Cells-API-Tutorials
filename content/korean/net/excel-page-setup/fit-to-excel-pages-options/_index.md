@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 이제 워크시트를 특정 페이지에 맞추기 위한 매개변수를 설정해 보겠습니다. 여기서 콘텐츠가 표시되어야 하는 너비와 높이의 페이지 수를 지정할 수 있습니다.
 
 ```csharp
-//워크시트의 길이가 차지하는 페이지 수 설정
+// 워크시트의 길이가 차지하는 페이지 수 설정
 worksheet.PageSetup.FitToPagesTall = 1;
 // 워크시트의 너비가 확장되는 페이지 수 설정
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` 워크시트가 수직으로 몇 페이지 분량인지 결정합니다.
+- `FitToPagesTall`워크시트가 수직으로 몇 페이지 분량인지 결정합니다.
 - `FitToPagesWide` 수평 페이지 설정을 정의합니다. 둘 다 설정`1` 즉, 콘텐츠가 한 페이지에 깔끔하게 들어가고 문서가 간결한 걸작으로 변모합니다.
 
 ## 3단계: 통합 문서 저장

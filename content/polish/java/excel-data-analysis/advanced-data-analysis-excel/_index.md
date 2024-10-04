@@ -35,7 +35,7 @@ import com.aspose.cells.*;
 
 ## Ładowanie i manipulowanie plikami Excela
 
-Jedną z podstawowych funkcjonalności Aspose.Cells for Java jest możliwość bezproblemowego ładowania i manipulowania plikami Excel. Możesz otwierać istniejące pliki Excel, tworzyć nowe i programowo modyfikować ich zawartość.
+Jedną z podstawowych funkcjonalności Aspose.Cells for Java jest możliwość płynnego ładowania i manipulowania plikami Excel. Możesz otwierać istniejące pliki Excel, tworzyć nowe i programowo modyfikować ich zawartość.
 
 ```java
 // Załaduj istniejący plik Excel

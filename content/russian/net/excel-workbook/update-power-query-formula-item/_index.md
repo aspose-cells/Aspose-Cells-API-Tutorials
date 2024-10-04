@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 // Рабочие каталоги
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Здесь мы используем гипотетический метод`RunExamples.Get_SourceDirectory()` чтобы получить путь к нашим исходным файлам. Аналогично,`RunExamples.Get_OutputDirectory()` получает путь, по которому мы сохраним наш вывод. Убедитесь, что эти методы возвращают допустимые пути на вашей машине.
 
 ## Шаг 2: Загрузите рабочую книгу
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- The`Workbook`class — это ваша точка входа в файл Excel. Передавая путь к нашему исходному файлу, мы создаем экземпляр, который позволяет нам манипулировать им. Вы можете представить это как открытие книги — вы готовитесь прочитать (или отредактировать) ее содержимое.
+ The`Workbook` class — это ваша точка входа в файл Excel. Передавая путь к нашему исходному файлу, мы создаем экземпляр, который позволяет нам манипулировать им. Вы можете представить это как открытие книги — вы готовитесь прочитать (или отредактировать) ее содержимое.
 
 ## Шаг 3: Получите доступ к Data Mashup
 
@@ -102,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- The`Save` метод записывает обновленную рабочую книгу в указанный выходной каталог. Это как запечатывание ваших правок в новой версии руководства, готовой для использования другими!
+ The`Save`метод записывает обновленную рабочую книгу в указанный выходной каталог. Это как запечатывание ваших правок в новой версии руководства, готовой для использования другими!
 
 ## Заключение
 

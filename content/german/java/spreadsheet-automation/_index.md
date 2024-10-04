@@ -14,7 +14,7 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.Cells für Java in unseren Tuto
 
 ### Erste Schritte mit Aspose.Cells
 
-Verschaffen Sie sich einen Vorsprung, indem Sie Aspose.Cells für Java von der Quelle herunterladen. Unser Tutorial führt Sie durch die Integration und erleichtert die Automatisierung Ihrer Java-Tabellenkalkulationsaufgaben.
+Verschaffen Sie sich einen Vorsprung, indem Sie Aspose.Cells für Java von der Quelle herunterladen. Unser Tutorial führt Sie durch die Integration und erleichtert Ihnen die Automatisierung Ihrer Java-Tabellenkalkulationsaufgaben.
 
 ### Datenmanipulation leicht gemacht
 

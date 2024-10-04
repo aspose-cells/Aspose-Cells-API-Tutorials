@@ -69,7 +69,7 @@ Itt egyszerűen létrehozunk egy új munkafüzetet, amely tartalmazza a tábláz
 
 ## 2. lépés: Nyissa meg az első munkalapot
 
-A munkafüzet példányának létrehozása után el kell érnie az első munkalapot. Minden munkafüzet több munkalapot is tartalmazhat, de ehhez a bemutatóhoz ragaszkodunk az elsőhöz.
+munkafüzet példányának létrehozása után el kell érnie az első munkalapot. Minden munkafüzet több munkalapot is tartalmazhat, de ehhez a bemutatóhoz ragaszkodunk az elsőhöz.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];

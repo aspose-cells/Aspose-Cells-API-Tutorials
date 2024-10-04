@@ -138,7 +138,7 @@ Sì, puoi personalizzare i criteri della funzione CONTA.SE per contare le celle 
 
  È possibile valutare una formula in Aspose.Cells per Java utilizzando`calculateFormula` metodo con opzioni appropriate.
 
-### Quali sono le procedure consigliate per utilizzare CONTA.SE in Excel?
+### Quali sono le procedure migliori per utilizzare CONTA.SE in Excel?
 
 Le migliori pratiche per l'utilizzo di CONTA.SE includono criteri chiari, l'utilizzo di riferimenti di cella per i criteri e il test delle formule con dati campione.
 

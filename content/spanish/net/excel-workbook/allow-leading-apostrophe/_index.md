@@ -42,12 +42,10 @@ Dividiremos nuestras tareas en pasos manejables para garantizar la claridad.
 En este paso, necesitamos definir dónde se ubicarán nuestros archivos de entrada y salida.
 
 ```csharp
-//Directorio de fuentes
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Directorio de fuentes
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Aquí utilizamos métodos de utilidad.`Get_SourceDirectory()` y`Get_OutputDirectory()` para configurar cómodamente las rutas de nuestros archivos. Puede personalizar estas rutas según la estructura de su directorio.
 
 ## Paso 2: Crear un objeto de diseño de libros de trabajo
 
@@ -78,7 +76,7 @@ Ahora, querrá asegurarse de que la configuración del libro de trabajo esté co
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Mediante la configuración`QuotePrefixToStyle`en caso de que sea falso, le indicamos a Aspose.Cells que trate los apóstrofos iniciales como caracteres regulares, lo que nos permite manejarlos con precisión en nuestra salida.
+ Mediante la configuración`QuotePrefixToStyle` en caso de que sea falso, le indicamos a Aspose.Cells que trate los apóstrofos iniciales como caracteres regulares, lo que nos permite manejarlos con precisión en nuestra salida.
 
 ## Paso 5: Cargar datos para marcadores inteligentes
 
@@ -146,7 +144,7 @@ Ahora, ya sea que esté generando informes, creando funcionalidades para el aná
 Aspose.Cells es una potente biblioteca .NET para crear, manipular y convertir archivos de Excel en múltiples formatos mediante programación.
 
 ### ¿Puedo utilizar Aspose.Cells gratis?
- Sí, puedes usar Aspose.Cells registrándote para una prueba gratuita[aquí](https://releases.aspose.com/).
+Sí, puedes usar Aspose.Cells registrándote para una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
  Puede encontrar ayuda y hacer preguntas en el[Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9).

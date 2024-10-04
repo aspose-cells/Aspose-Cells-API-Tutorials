@@ -118,4 +118,4 @@ Igen, az Aspose.Cells for Java lehetőséget biztosít interaktív irányítópu
 
 ### Alkalmas-e az Aspose.Cells for Java nagyszabású adatvizualizációs projektekhez?
 
-Igen, az Aspose.Cells for Java kiválóan alkalmas kis és nagyszabású adatvizualizációs projektekhez. Rugalmassága és kiterjedt funkciókészlete robusztus választássá teszi a különféle igényekhez.
+Igen, az Aspose.Cells for Java kiválóan alkalmas kis és nagyszabású adatvizualizációs projektekhez. Rugalmassága és kiterjedt funkciókészlete robusztus választássá teszi a legkülönbözőbb igényekhez.

@@ -16,7 +16,7 @@ url: /ar/net/excel-page-setup/set-excel-page-orientation/
 قبل الانطلاق، من الضروري أن يكون لديك بعض الأمور منظمة لضمان تجربة سلسة:
 
 1. Visual Studio: تأكد من تثبيت Visual Studio على جهازك. هذا هو المكان الذي ستكتب فيه التعليمات البرمجية الخاصة بك.
-2. Aspose.Cells for .NET: يجب أن يكون لديك مكتبة Aspose.Cells for .NET. يمكنك[تحميله هنا](https://releases.aspose.com/cells/net/) إذا لم تكن قد فعلت ذلك بالفعل.
+2.  Aspose.Cells for .NET: يجب أن يكون لديك مكتبة Aspose.Cells for .NET. يمكنك[تحميله هنا](https://releases.aspose.com/cells/net/) إذا لم تكن قد فعلت ذلك بالفعل.
 3. المعرفة الأساسية بلغة C#: تعتبر المعرفة بلغة البرمجة C# مفيدة للغاية حيث تم كتابة هذا البرنامج التعليمي بلغة C#.
 4. مساحة عمل: جهز بيئة برمجة، ودليلًا لحفظ مستنداتك، لأنك ستحتاج إليه!
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- إنشاء جديد`Workbook` إنها مثل فتح صفحة فارغة جديدة في دفتر ملاحظات، جاهزة لملئها بأي معلومات تريدها!
+ إنشاء جديد`Workbook`إنها مثل فتح صفحة فارغة جديدة في دفتر ملاحظات، جاهزة لملئها بأي معلومات تريدها!
 
 ## الخطوة 3: الوصول إلى ورقة العمل الأولى
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 Aspose.Cells for .NET عبارة عن مكتبة قوية لإدارة ملفات Excel برمجيًا مع وظائف مثل الإنشاء والتحرير والتحويل والمزيد.
 
 ### هل يمكنني تغيير الاتجاه إلى الوضع الأفقي أيضًا؟
-نعم! يمكنك ضبط الاتجاه إلى`PageOrientationType.Landscape` بطريقة مماثلة.
+ نعم! يمكنك ضبط الاتجاه إلى`PageOrientationType.Landscape` بطريقة مماثلة.
 
 ### هل يتوفر الدعم لـ Aspose.Cells؟
  بالتأكيد! يمكنك زيارتهم[منتدى الدعم](https://forum.aspose.com/c/cells/9) لأي استفسار أو مساعدة.

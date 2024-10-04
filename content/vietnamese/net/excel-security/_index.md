@@ -13,7 +13,7 @@ Khám phá bộ sưu tập toàn diện của chúng tôi về Aspose.Cells for 
 
 ## Tăng cường bảo mật Excel của bạn 
 
- Khi nói đến việc bảo mật dữ liệu Excel của bạn, sử dụng Aspose.Cells cho .NET giống như có một bộ công cụ cho phép bạn tùy chỉnh cách thực hiện bảng tính của mình. Ví dụ, hãy xem hướng dẫn về[Thiết lập bảo vệ nâng cao cho bảng tính Excel](./advanced-protection-settings-for-excel-worksheet/)Hướng dẫn này hướng dẫn bạn cách triển khai các biện pháp bảo vệ tinh vi. Hãy tưởng tượng bạn đang cố gắng giữ an toàn cho tài sản quý giá của mình; bạn sẽ không chỉ sử dụng một ổ khóa mỏng manh. Thay vào đó, bạn sẽ sử dụng một hệ thống bảo mật cao! Tương tự như vậy, hướng dẫn này sẽ hướng dẫn bạn các tính năng mạnh mẽ có sẵn trong Aspose, cho phép bạn bảo vệ dữ liệu của mình một cách hiệu quả.
+ Khi nói đến việc bảo mật dữ liệu Excel của bạn, sử dụng Aspose.Cells cho .NET giống như có một bộ công cụ cho phép bạn tùy chỉnh cách thực hiện bảng tính của mình. Ví dụ, hãy xem hướng dẫn về[Thiết lập bảo vệ nâng cao cho bảng tính Excel](./advanced-protection-settings-for-excel-worksheet/)Hướng dẫn này hướng dẫn bạn cách triển khai các biện pháp bảo vệ tinh vi. Hãy tưởng tượng bạn đang cố gắng giữ an toàn cho những tài sản quý giá của mình; bạn sẽ không chỉ sử dụng một ổ khóa mỏng manh. Thay vào đó, bạn sẽ sử dụng một hệ thống bảo mật cao! Tương tự như vậy, hướng dẫn này sẽ hướng dẫn bạn các tính năng mạnh mẽ có sẵn trong Aspose, cho phép bạn bảo vệ dữ liệu của mình một cách hiệu quả.
 
 ## Khóa Cells dễ dàng  
 

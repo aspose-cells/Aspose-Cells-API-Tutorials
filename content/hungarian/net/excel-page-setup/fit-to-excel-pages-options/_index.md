@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Most állítsuk be a paramétereket, hogy a munkalapja bizonyos oldalakra illeszkedjen. Itt adhatja meg, hogy a tartalom hány oldal széles és magas legyen.
 
 ```csharp
-//Az oldalak számának beállítása, amelyre a munkalap kiterjedjen
+// Az oldalak számának beállítása, amelyre a munkalap kiterjedjen
 worksheet.PageSetup.FitToPagesTall = 1;
 // Az oldalak számának beállítása, amelyre a munkalap szélessége kiterjed
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` meghatározza, hogy a munkalap függőlegesen hány oldalra terjedjen ki.
+- `FitToPagesTall`meghatározza, hogy a munkalap függőlegesen hány oldalra terjedjen ki.
 - `FitToPagesWide` meghatározza a vízszintes oldalbeállítást. Mindkettő beállítása`1` azt jelenti, hogy a tartalom szépen elfér egy oldalon, így a dokumentum egy áramvonalas remekművé válik.
 
 ## 3. lépés: Mentse el a munkafüzetet

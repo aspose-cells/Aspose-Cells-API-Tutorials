@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Título: Crear una instancia de libro de trabajo
 
- A continuación, crearemos una nueva instancia de`Workbook` Clase. Esta clase representa un archivo de Excel, lo que nos permite interactuar con él sin problemas. Abriremos una hoja de cálculo existente (nuestro archivo de plantilla) aquí:
+ A continuación, crearemos una nueva instancia de`Workbook` Clase. Esta clase representa un archivo Excel, lo que nos permite interactuar con él sin problemas. Abriremos una hoja de cálculo existente (nuestro archivo de plantilla) aquí:
 
 ```csharp
 // Cree una instancia de un nuevo libro de trabajo y abra un archivo de plantilla

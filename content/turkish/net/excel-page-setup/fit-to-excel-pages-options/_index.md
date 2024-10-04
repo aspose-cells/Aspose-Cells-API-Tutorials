@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Şimdi, çalışma sayfanızı belirli sayfalara sığdırmak için parametreleri ayarlayalım. İçeriğinizin kaç sayfa genişliğinde ve uzunluğunda görüneceğini burada belirleyebilirsiniz.
 
 ```csharp
-//Çalışma sayfasının uzunluğunun kaç sayfaya kadar uzanacağının ayarlanması
+// Çalışma sayfasının uzunluğunun kaç sayfaya kadar uzanacağının ayarlanması
 worksheet.PageSetup.FitToPagesTall = 1;
 // Çalışma sayfasının genişliğinin kaç sayfaya kadar uzanacağını ayarlama
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` çalışma sayfanızın dikey olarak kaç sayfaya yayılacağını belirler.
+- `FitToPagesTall`çalışma sayfanızın dikey olarak kaç sayfaya yayılacağını belirler.
 - `FitToPagesWide` yatay sayfa düzenini tanımlar. Her ikisini de ayarlamak`1` İçeriğinizin tek bir sayfaya düzgün bir şekilde sığması ve belgenizin akıcı bir şahesere dönüşmesi anlamına gelir.
 
 ## Adım 3: Çalışma Kitabınızı Kaydedin

@@ -15,7 +15,7 @@ url: /tr/net/protect-excel-file/
 
 Excel'de büyük miktarda veriyi işlemeniz gerektiğini düşünün. "Bu sonsuza kadar sürmeyecek mi?" diye düşünebilirsiniz. Aspose.Cells devreye giriyor: Veri manipülasyonu için bir süper güce sahip olmak gibi. Bu kütüphane yalnızca elektronik tabloları düzenlemenize izin vermiyor; verileri korumanızı sağlayarak önemli bilgilerin bozulmadan kalmasını sağlıyor. Belirli satırları veya sütunları koruduğunuzda, önemli figürlerinizin etrafına bir kale inşa etmek gibi oluyor ve yalnızca doğru kişilerin içeri girmesine izin veriyorsunuz. 
 
-Bu süreci sizin için çeşitli adım adım eğitimlerle basitleştirdik. Örneğin, nasıl yapılacağına dair rehberimize göz atın[Kullanıcıların Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver](./allow-user-to-edit-ranges-in-excel-worksheet/)Kullanıcıların, tüm belgeyi tehlikeye atmadan elektronik tablonun belirli bölümlerini sorunsuz bir şekilde nasıl değiştirebileceklerini öğreneceksiniz. 
+ Bu süreci sizin için çeşitli adım adım eğitimlerle basitleştirdik. Örneğin, nasıl yapılacağına dair rehberimize göz atın[Kullanıcıların Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver](./allow-user-to-edit-ranges-in-excel-worksheet/)Kullanıcıların, tüm belgeyi tehlikeye atmadan elektronik tablonun belirli bölümlerini sorunsuz bir şekilde nasıl değiştirebileceklerini öğreneceksiniz. 
 
 ## Size Özel Eğitimler
 

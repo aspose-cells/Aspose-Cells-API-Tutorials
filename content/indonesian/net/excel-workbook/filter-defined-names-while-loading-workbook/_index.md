@@ -31,7 +31,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Ruang nama ini memungkinkan Anda memanfaatkan sepenuhnya kekuatan pustaka Aspose.Cells untuk memanipulasi file Excel secara efektif.
+Ruang nama ini memungkinkan Anda memanfaatkan sepenuhnya pustaka Aspose.Cells untuk memanipulasi file Excel secara efektif.
 
 Mari kita uraikan proses pemfilteran nama yang ditentukan saat memuat buku kerja ke dalam langkah-langkah yang jelas dan mudah dikelola.
 

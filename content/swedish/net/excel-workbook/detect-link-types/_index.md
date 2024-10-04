@@ -53,14 +53,14 @@ Nu är det här det roliga börjar! Vi delar upp kodavsnittet du angav i en steg
 
 ```csharp
 // Definiera källkatalogen
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Den här raden pekar på katalogen som innehåller Excel-filen. Se till att justera sökvägen efter filens plats.
 
 ## Steg 2: Ladda arbetsboken
 
-Därefter ska vi ladda vår arbetsbok. Det är som att öppna din Excel-fil i bakgrunden, så att vi kan läsa och manipulera dess innehåll.
+Därefter laddar vi vår arbetsbok. Det är som att öppna din Excel-fil i bakgrunden, så att vi kan läsa och manipulera dess innehåll.
 
 ```csharp
 // Ladda arbetsboken

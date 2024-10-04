@@ -16,7 +16,7 @@ Criar e personalizar documentos do Excel programaticamente pode tornar seu traba
 Antes de mergulharmos no código, vamos garantir que você esteja configurado corretamente. Aqui está o que você precisa para começar:
 
 1. Visual Studio ou qualquer IDE .NET: Certifique-se de ter um IDE funcional como o Visual Studio. Este será seu playground onde toda a mágica da codificação acontece.
-2.  Pacote Aspose.Cells para .NET: Se você ainda não fez isso, precisará baixar e instalar a biblioteca Aspose.Cells. Você pode encontrar a versão mais recente no[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Pacote Aspose.Cells para .NET: Se você ainda não fez isso, precisará baixar e instalar a biblioteca Aspose.Cells. Você pode encontrar a versão mais recente no[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: embora o guiemos pelo código, a familiaridade com C# ajudará você a entender melhor as nuances.
 4. Acesso ao .NET Framework: certifique-se de que seu projeto esteja configurado para ter como alvo uma versão compatível do .NET Framework.
 

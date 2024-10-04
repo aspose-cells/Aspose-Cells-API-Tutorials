@@ -39,7 +39,7 @@ using System;
 Excel dosyanızın depolandığı kaynak dizini tanımlayarak başlayın. Bu, programınızın çalışmak istediğiniz dosyayı nerede arayacağını bilmesini sağlar.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Adım 2: Excel Çalışma Kitabını Yükleyin

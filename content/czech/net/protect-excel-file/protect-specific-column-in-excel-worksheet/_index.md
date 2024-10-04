@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Nyní budete chtít zamknout konkrétně první sloupec a ponechat všechny ostatní sloupce upravitelné. Můžete to udělat takto:
 
 ```csharp
-//Získejte styl prvního sloupce.
+// Získejte styl prvního sloupce.
 style = sheet.Cells.Columns[0].Style;
 // Zamkněte to.
 style.IsLocked = true;
-// Vytvořte vlajku.
+//Vytvořte vlajku.
 flag = new StyleFlag();
 // Nastavte nastavení zámku.
 flag.Locked = true;

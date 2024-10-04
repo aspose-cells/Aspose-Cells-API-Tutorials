@@ -75,7 +75,7 @@ Teraz wiesz, jak importować dane z Excela za pomocą Aspose.Cells dla Java. Ta 
 ## Często zadawane pytania
 
 ### 1. Czy mogę importować dane z określonych arkuszy Excela?
-   Tak, możesz uzyskać dostęp do danych z określonych arkuszy w skoroszycie programu Excel i zaimportować je do niego, korzystając z Aspose.Cells.
+   Tak, możesz uzyskać dostęp do danych i importować je z określonych arkuszy w skoroszycie programu Excel, korzystając z Aspose.Cells.
 
 ### 2. Czy Aspose.Cells obsługuje inne formaty plików Excel niż XLSX?
    Tak, Aspose.Cells obsługuje różne formaty plików Excel, w tym XLS, XLSX, CSV i inne.

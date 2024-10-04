@@ -53,12 +53,12 @@ Para começar, você precisa identificar onde seu arquivo de origem do Excel est
 
 ```csharp
 //Diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Diretório de saída
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Aqui, você substituiria`RunExamples.Get_SourceDirectory()` e`RunExamples.Get_OutputDirectory()` com caminhos reais onde seus arquivos estão armazenados.
+ Aqui, você substituiria`"Your Document Directory"` e`"Your Document Directory"` com caminhos reais onde seus arquivos estão armazenados.
 
 ## Etapa 2: Carregue o arquivo Excel
 
@@ -149,7 +149,7 @@ E aí está! Você navegou com sucesso pelos meandros da remoção de configura�
 Aspose.Cells é uma biblioteca poderosa que permite aos desenvolvedores criar, manipular e converter arquivos do Excel em aplicativos .NET.
 
 ### Posso usar o Aspose.Cells gratuitamente?  
- Sim, o Aspose oferece uma versão de teste gratuita que você pode usar para explorar seus recursos. Confira o[link de teste gratuito](https://releases.aspose.com/).
+Sim, o Aspose oferece uma versão de teste gratuita que você pode usar para explorar seus recursos. Confira o[link de teste gratuito](https://releases.aspose.com/).
 
 ### Preciso instalar o Microsoft Excel para usar o Aspose.Cells?  
 Não, o Aspose.Cells opera independentemente do Microsoft Excel. Você não precisa do Excel instalado na sua máquina.

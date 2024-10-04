@@ -47,10 +47,9 @@ In questo passaggio, definiremo dove si trovano i nostri file di origine e di ou
 
 ```csharp
 // Directory di lavoro
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Qui stiamo utilizzando un metodo ipotetico`RunExamples.Get_SourceDirectory()` per recuperare il percorso ai nostri file sorgente. Allo stesso modo,`RunExamples.Get_OutputDirectory()` ottiene il percorso in cui salveremo il nostro output. Assicurati che questi metodi restituiscano percorsi validi sulla tua macchina.
 
 ## Passaggio 2: caricare la cartella di lavoro
 
@@ -59,7 +58,7 @@ Carichiamo ora il file Excel in cui risiede Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- IL`Workbook`class è il tuo punto di ingresso nel file Excel. Passando il percorso del nostro file sorgente, stiamo creando un'istanza che ci consente di manipolarlo. Puoi immaginarlo come l'apertura di un libro: ti stai preparando a leggerne (o modificarne) il contenuto.
+ IL`Workbook` class è il tuo punto di ingresso nel file Excel. Passando il percorso del nostro file sorgente, stiamo creando un'istanza che ci consente di manipolarlo. Puoi immaginarlo come l'apertura di un libro: ti stai preparando a leggere (o modificare) il suo contenuto.
 
 ## Passaggio 3: accedere al Data Mashup
 
@@ -102,7 +101,7 @@ Dopo aver effettuato gli aggiornamenti, è il momento di salvare le modifiche.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- IL`Save` scrive la cartella di lavoro aggiornata nella directory di output specificata. È come sigillare le tue modifiche in una nuova versione del manuale, pronta per essere utilizzata da altri!
+ IL`Save`scrive la cartella di lavoro aggiornata nella directory di output specificata. È come sigillare le tue modifiche in una nuova versione del manuale, pronta per essere utilizzata da altri!
 
 ## Conclusione
 

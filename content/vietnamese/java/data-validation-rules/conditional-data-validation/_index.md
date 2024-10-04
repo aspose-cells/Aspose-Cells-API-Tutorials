@@ -10,7 +10,7 @@ url: /vi/java/data-validation-rules/conditional-data-validation/
 
 ## Giới thiệu về Aspose.Cells cho Java
 
-Trước khi đi sâu vào chi tiết về xác thực dữ liệu có điều kiện, chúng ta hãy giới thiệu sơ lược về Aspose.Cells for Java. Aspose.Cells là một thư viện Java mạnh mẽ cho phép các nhà phát triển tạo, thao tác và quản lý bảng tính Excel mà không cần Microsoft Excel. Nó cung cấp nhiều tính năng để làm việc với các tệp Excel, bao gồm xác thực dữ liệu.
+Trước khi đi sâu vào chi tiết về xác thực dữ liệu có điều kiện, chúng ta hãy giới thiệu sơ lược về Aspose.Cells cho Java. Aspose.Cells là một thư viện Java mạnh mẽ cho phép các nhà phát triển tạo, thao tác và quản lý bảng tính Excel mà không cần Microsoft Excel. Nó cung cấp nhiều tính năng để làm việc với các tệp Excel, bao gồm xác thực dữ liệu.
 
 ## Điều kiện tiên quyết
 

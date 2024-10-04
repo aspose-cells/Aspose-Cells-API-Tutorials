@@ -16,7 +16,7 @@ Az Excel-dokumentumok programozott létrehozása és testreszabása hatékonyabb
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy megfelelően van beállítva. Íme, mire van szüksége az induláshoz:
 
 1. Visual Studio vagy bármely .NET IDE: Győződjön meg arról, hogy rendelkezik működő IDE-vel, például a Visual Studio-val. Ez lesz a játszótered, ahol minden kódolási varázslat megtörténik.
-2.  Aspose.Cells for .NET Package: Ha még nem tette meg, le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. A legújabb verziót megtalálja a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Package: Ha még nem tette meg, le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. A legújabb verziót megtalálja a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: Miközben végigvezetjük a kódon, a C# ismerete segít jobban megérteni az árnyalatokat.
 4. Hozzáférés a .NET-keretrendszerhez: Győződjön meg arról, hogy a projekt úgy van beállítva, hogy a .NET-keretrendszer kompatibilis verzióját célozza meg.
 

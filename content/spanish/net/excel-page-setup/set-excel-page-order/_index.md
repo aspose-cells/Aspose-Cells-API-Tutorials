@@ -120,4 +120,4 @@ Aspose.Cells es una biblioteca .NET que proporciona funciones para manipular hoj
 Puede elegir entre "Arriba y luego abajo" y "Abajo y luego arriba" para su orden de impresión de páginas.
 
 ### ¿Dónde puedo encontrar más ejemplos del uso de Aspose.Cells?
- Puede explorar más ejemplos y funcionalidades en el[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/).
+Puede explorar más ejemplos y funcionalidades en el[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/).

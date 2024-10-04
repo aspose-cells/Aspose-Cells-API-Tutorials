@@ -44,11 +44,9 @@ First things first, we need to define where our files will be stored. This invol
 
 ```csharp
 // Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
-Here, `RunExamples.Get_SourceDirectory()` and `RunExamples.Get_OutputDirectory()` are methods that return the paths to your source and output directories, respectively. 
 
 ## Step 2: Load the Workbook
 

@@ -39,7 +39,7 @@ using System.Text;
 
 ```csharp
 // Выходной каталог
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Эта строка кода извлекает путь к каталогу, где будет сохранен сгенерированный файл. Убедитесь, что этот каталог существует; в противном случае вы можете столкнуться с ошибкой file-not-found позже.

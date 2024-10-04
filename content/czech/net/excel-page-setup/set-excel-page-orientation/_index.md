@@ -13,10 +13,10 @@ Pokud jde o programovou správu souborů aplikace Excel, Aspose.Cells for .NET j
 
 ## Předpoklady
 
-Než se ponoříte dovnitř, je důležité mít několik věcí na druhou, abyste zajistili bezproblémový zážitek:
+Než se ponoříte dovnitř, je nezbytné mít několik věcí na druhou, abyste zajistili bezproblémový zážitek:
 
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Zde budete psát svůj kód.
-2. Aspose.Cells for .NET: Musíte mít knihovnu Aspose.Cells for .NET. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/) pokud jste to ještě neudělali.
+2.  Aspose.Cells for .NET: Musíte mít knihovnu Aspose.Cells for .NET. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/) pokud jste to ještě neudělali.
 3. Základní znalost C#: Znalost programovacího jazyka C# je velmi přínosná, protože tento tutoriál je napsán v C#.
 4. Pracovní prostor: Mějte připravené kódovací prostředí a adresář pro ukládání dokumentů, protože jej budete potřebovat!
 
@@ -52,7 +52,7 @@ Nyní vytvoříte instanci třídy Workbook, která představuje soubor aplikace
 Workbook workbook = new Workbook();
 ```
 
- Vytvoření nového`Workbook` je jako otevřít novou prázdnou stránku v poznámkovém bloku, připravenou na to, abyste ji naplnili všemi informacemi, které chcete!
+ Vytvoření nového`Workbook`je jako otevřít novou prázdnou stránku v poznámkovém bloku, připravenou na to, abyste ji naplnili všemi informacemi, které chcete!
 
 ## Krok 3: Otevřete první pracovní list
 
@@ -97,13 +97,13 @@ A tady to máte! Úspěšně jste nakonfigurovali orientaci stránky souboru apl
 Aspose.Cells for .NET je výkonná knihovna pro programovou správu souborů aplikace Excel s funkcemi, jako je vytváření, úpravy, konverze a další.
 
 ### Mohu také změnit orientaci na šířku?
-Ano! Orientaci můžete nastavit na`PageOrientationType.Landscape` podobným způsobem.
+ Ano! Orientaci můžete nastavit na`PageOrientationType.Landscape` podobným způsobem.
 
 ### Je k dispozici podpora pro Aspose.Cells?
  Absolutně! Můžete navštívit jejich[fórum podpory](https://forum.aspose.com/c/cells/9) pro jakékoli dotazy nebo pomoc.
 
 ### Jak získám dočasnou licenci pro Aspose.Cells?
- Můžete požádat o dočasnou licenci z[zde](https://purchase.aspose.com/temporary-license/), která vám umožní vyzkoušet funkce bez omezení.
+ Můžete požádat o dočasnou licenci z[zde](https://purchase.aspose.com/temporary-license/)která vám umožní vyzkoušet funkce bez omezení.
 
 ### Dokáže Aspose.Cells zpracovat velké soubory aplikace Excel?
 Ano, Aspose.Cells je optimalizován pro práci s velkými soubory a může efektivně provádět různé operace.

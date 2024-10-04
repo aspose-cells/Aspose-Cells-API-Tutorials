@@ -40,13 +40,13 @@ using System.Text;
 قبل العمل بملف XLSB، تحتاج إلى إعداد دليل المصدر والإخراج. هذه الخطوة ضرورية للحفاظ على تنظيم ملفاتك.
 
 ```csharp
-//دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
+// دليل المصدر
+string sourceDir = "Your Document Directory";
 // دليل الإخراج
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- في مقتطف التعليمات البرمجية هذا،`RunExamples.Get_SourceDirectory()` و`RunExamples.Get_OutputDirectory()`من المفترض أن تقوم هذه الطرق بجلب المسارات الخاصة بالمكان الذي ستوضع فيه ملفات الإدخال والإخراج. يمكنك استبدال هذه الطرق بمسارات مبرمجة مسبقًا إذا كنت تفضل ذلك.
+ في مقتطف التعليمات البرمجية هذا،`"Your Document Directory"` و`"Your Document Directory"`من المفترض أن تقوم هذه الطرق بجلب المسارات الخاصة بالمكان الذي ستوضع فيه ملفات الإدخال والإخراج. يمكنك استبدال هذه الطرق بمسارات مبرمجة مسبقًا إذا كنت تفضل ذلك.
 
 ## الخطوة 2: تحميل ملف XLSB
 

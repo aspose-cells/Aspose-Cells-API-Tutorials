@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Agora, você vai querer bloquear a primeira coluna especificamente, enquanto deixa todas as outras colunas editáveis. Veja como você pode fazer isso:
 
 ```csharp
-//Obtenha o primeiro estilo de coluna.
+// Obtenha o primeiro estilo de coluna.
 style = sheet.Cells.Columns[0].Style;
 // Tranque-o.
 style.IsLocked = true;
-// Instanciar o sinalizador.
+//Instanciar o sinalizador.
 flag = new StyleFlag();
 // Defina a configuração de bloqueio.
 flag.Locked = true;

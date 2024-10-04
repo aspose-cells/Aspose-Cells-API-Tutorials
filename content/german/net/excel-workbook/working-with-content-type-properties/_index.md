@@ -37,14 +37,12 @@ Stellen Sie sicher, dass Sie diese Using-Direktiven oben in Ihrer C#-Datei hinzu
 Richten wir zunächst das Ausgabeverzeichnis ein, in dem wir unsere neue Excel-Datei speichern. Dies hilft Ihnen dabei, Ihr Projekt zu organisieren.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Hier,`RunExamples.Get_OutputDirectory()` ist ein Funktionsaufruf, der einen angegebenen Pfad für Ausgabedateien abruft. Stellen Sie sicher, dass diese Methode definiert ist und auf ein gültiges Verzeichnis verweist.
 
 ## Schritt 2: Erstellen Sie eine neue Arbeitsmappe
 
-Nachdem wir nun unser Ausgabeverzeichnis haben, erstellen wir eine neue Arbeitsmappe.`Workbook` Klasse ist der Ausgangspunkt für den Umgang mit Excel-Dateien.
+ Nachdem wir nun unser Ausgabeverzeichnis haben, erstellen wir eine neue Arbeitsmappe.`Workbook`Klasse ist der Ausgangspunkt für den Umgang mit Excel-Dateien.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

@@ -55,9 +55,8 @@ In this step, you’ll define where the output file will be saved. It’s like d
 
 ```csharp
 //Output directory
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-Here, we’re using a method `RunExamples.Get_OutputDirectory()` to specify the folder where the generated Excel file will be saved. Ensure that this method is defined in your code for proper output processing.
 
 ## Step 2: Create the Workbook Object
 

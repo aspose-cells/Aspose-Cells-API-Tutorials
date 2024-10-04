@@ -53,12 +53,12 @@ To begin, you need to identify where your source Excel file is located and where
 
 ```csharp
 //Source directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Output directory
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
-Here, you would replace `RunExamples.Get_SourceDirectory()` and `RunExamples.Get_OutputDirectory()` with actual paths where your files are stored.
+Here, you would replace `"Your Document Directory"` and `"Your Document Directory"` with actual paths where your files are stored.
 
 ## Step 2: Load the Excel File
 

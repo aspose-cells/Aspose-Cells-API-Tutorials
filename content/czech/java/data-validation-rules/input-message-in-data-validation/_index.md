@@ -86,7 +86,7 @@ area.endColumn = 0;
 validation.addArea(area);
 ```
 
-## Práce s různými datovými typy
+## Práce s různými typy dat
 
 Aspose.Cells for Java vám umožňuje pracovat s různými datovými typy pro ověřování dat, včetně celých čísel, desetinných čísel, dat a textu.
 

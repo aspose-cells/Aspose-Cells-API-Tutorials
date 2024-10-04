@@ -112,7 +112,7 @@ fstream.Close();
 ## GYIK
 
 ### Mi az Aspose.Cells?  
-Az Aspose.Cells egy hatékony .NET-könyvtár Excel-táblázatok kezelésére, lehetővé téve a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
+Az Aspose.Cells egy hatékony .NET-könyvtár Excel-táblázatok kezelésére, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
 
 ### Elrejthetem a fejléceket több munkalapon?  
  Igen, végignézheti a munkafüzet és a beállított munkalapokat`IsRowColumnHeadersVisible` hogy`false` mindegyikre.

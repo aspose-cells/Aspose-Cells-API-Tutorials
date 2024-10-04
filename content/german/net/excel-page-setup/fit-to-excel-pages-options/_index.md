@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Legen wir nun die Parameter fest, um Ihr Arbeitsblatt auf bestimmte Seiten aufzuteilen. Hier können Sie angeben, in welcher Breite und Höhe Ihr Inhalt erscheinen soll.
 
 ```csharp
-//Festlegen der Seitenanzahl, auf die sich die Länge des Arbeitsblatts erstreckt
+// Festlegen der Seitenanzahl, auf die sich die Länge des Arbeitsblatts erstreckt
 worksheet.PageSetup.FitToPagesTall = 1;
 // Festlegen der Seitenanzahl, auf die sich die Breite des Arbeitsblatts erstreckt
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` bestimmt, wie viele Seiten sich Ihr Arbeitsblatt vertikal erstreckt.
+- `FitToPagesTall`bestimmt, wie viele Seiten sich Ihr Arbeitsblatt vertikal erstreckt.
 - `FitToPagesWide` definiert die horizontale Seiteneinrichtung.`1` bedeutet, dass Ihr Inhalt genau auf eine Seite passt und Ihr Dokument in ein übersichtliches Meisterwerk verwandelt wird.
 
 ## Schritt 3: Speichern Sie Ihre Arbeitsmappe

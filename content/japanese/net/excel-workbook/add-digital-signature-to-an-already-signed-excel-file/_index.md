@@ -42,9 +42,9 @@ Excel ファイルを操作する前に、ソース ファイルの場所と出�
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 この手順では、ソース ディレクトリと出力ディレクトリのパスを取得するメソッドを使用します。これらのディレクトリが存在し、必要なファイルが含まれていることを確認します。

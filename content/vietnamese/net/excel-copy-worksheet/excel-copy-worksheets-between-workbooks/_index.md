@@ -20,7 +20,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã được tra
 -  Một giấy phép hợp lệ hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn muốn kiểm tra đầy đủ chức năng của Aspose.Cells.
 - Hiểu biết cơ bản về C# và .NET framework.
 
- Bạn cũng có thể kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/)để biết thêm chi tiết.
+ Bạn cũng có thể kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm chi tiết.
 
 ## Nhập gói
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Cuối cùng, bạn sẽ lưu sổ làm việc thứ hai với bảng tính đã sao chép. Điều này giống như lưu các ghi chú mới viết của bạn vào một thư mục mới trên máy tính.
 
 ```csharp
-// Lưu tập tin.
+//Lưu tập tin.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

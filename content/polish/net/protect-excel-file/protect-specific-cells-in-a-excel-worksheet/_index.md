@@ -32,7 +32,7 @@ using Aspose.Cells;
 
 Ta przestrzeń nazw zawiera wszystkie klasy i metody potrzebne do pracy z plikami Excela i implementacji wymaganych przez nas funkcjonalności.
 
-Rozwikłajmy proces ochrony konkretnych komórek w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells dla .NET. Podzielimy kod na wiele przyswajalnych kroków:
+Rozwikłajmy proces ochrony określonych komórek w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells dla .NET. Podzielimy kod na wiele przyswajalnych kroków:
 
 ## Krok 1: Skonfiguruj swój katalog roboczy
 
@@ -66,7 +66,7 @@ Teraz, gdy mamy już skoroszyt, przejdźmy do pierwszego arkusza, w którym zast
 // Utwórz obiekt arkusza kalkulacyjnego i uzyskaj pierwszy arkusz.
 Worksheet sheet = wb.Worksheets[0];
 ```
-Tutaj uzyskujemy dostęp do pierwszego arkusza naszego skoroszytu. To tutaj będzie się dziać cała magia!
+Tutaj uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego naszego skoroszytu. To tutaj będzie się dziać cała magia!
 
 ## Krok 4: Odblokuj wszystkie kolumny
 

@@ -16,7 +16,7 @@ url: /zh/net/excel-page-setup/set-excel-page-orientation/
 在深入研究之前，必须先做好几件事以确保获得无缝体验：
 
 1. Visual Studio：确保您的机器上安装了 Visual Studio。您将在这里编写代码。
-2. Aspose.Cells for .NET：您需要有 Aspose.Cells for .NET 库。您可以[点击下载](https://releases.aspose.com/cells/net/)如果你还没有。
+2.  Aspose.Cells for .NET：您需要有 Aspose.Cells for .NET 库。您可以[点击下载](https://releases.aspose.com/cells/net/)如果你还没有。
 3. C# 基础知识：熟悉 C# 编程语言非常有益，因为本教程是用 C# 编写的。
 4. 工作区：准备好编码环境和保存文档的目录，因为您将需要它！
 

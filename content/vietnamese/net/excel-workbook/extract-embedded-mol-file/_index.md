@@ -54,8 +54,8 @@ Bây giờ bạn đã nhập các gói cần thiết, hãy thiết lập môi tr
 
 ```csharp
 //thư mục
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

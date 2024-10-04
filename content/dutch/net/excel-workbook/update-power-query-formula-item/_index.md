@@ -47,10 +47,9 @@ In deze stap definiëren we waar onze bron- en uitvoerbestanden zich bevinden. D
 
 ```csharp
 // Werkende mappen
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Hier gebruiken we een hypothetische methode`RunExamples.Get_SourceDirectory()` om het pad naar onze bronbestanden op te halen. Op dezelfde manier,`RunExamples.Get_OutputDirectory()` haalt het pad op waar we onze output opslaan. Zorg ervoor dat deze methoden geldige paden op uw machine retourneren.
 
 ## Stap 2: Laad de werkmap
 
@@ -59,7 +58,7 @@ Laten we nu het Excel-bestand laden waarin de Power Query zich bevindt.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- De`Workbook`class is uw toegangspunt tot het Excel-bestand. Door het pad van ons bronbestand door te geven, maken we een instantie waarmee we het kunnen manipuleren. U kunt het zich voorstellen als het openen van een boek: u bereidt zich voor om de inhoud te lezen (of te bewerken).
+ De`Workbook` class is uw toegangspunt tot het Excel-bestand. Door het pad van ons bronbestand door te geven, maken we een instantie waarmee we het kunnen manipuleren. U kunt het zich voorstellen als het openen van een boek: u bereidt zich voor om de inhoud te lezen (of te bewerken).
 
 ## Stap 3: Toegang tot de data-mashup
 
@@ -102,7 +101,7 @@ Nadat u de wijzigingen hebt doorgevoerd, is het tijd om deze op te slaan.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- De`Save` methode schrijft de bijgewerkte werkmap naar de opgegeven uitvoermap. Het is alsof u uw bewerkingen in een nieuwe versie van de handleiding verzegelt, klaar voor anderen om te gebruiken!
+ De`Save`methode schrijft de bijgewerkte werkmap naar de opgegeven uitvoermap. Het is alsof u uw bewerkingen in een nieuwe versie van de handleiding verzegelt, klaar voor anderen om te gebruiken!
 
 ## Conclusie
 

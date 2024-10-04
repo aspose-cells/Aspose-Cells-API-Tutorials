@@ -72,7 +72,7 @@ workbook.save("sample.xlsx");
 
  I det här exemplet har vi använt`setFormula`metod för att tillämpa SUM-formeln på cell B1, summera värdena i cellerna A1 till A10.
 
-## Tillämpa SUM över olika intervall
+## Tillämpa SUMMA över olika intervall
 
 Du kan också tillämpa SUM-formeln på flera intervall i ditt kalkylblad. Om du till exempel har data i olika kolumner eller rader som du vill lägga till separat, kan du göra det så här:
 
@@ -139,4 +139,4 @@ Absolut! Aspose.Cells för Java stöder ett brett utbud av Excel-funktioner, vil
 
 ### Var kan jag hitta mer resurser och dokumentation för Aspose.Cells för Java?
 
- Du kan få tillgång till omfattande dokumentation och ytterligare resurser för Aspose.Cells för Java på[här](https://reference.aspose.com/cells/java/)Utforska dokumentationen för att upptäcka avancerade funktioner och exempel.
+ Du kan få tillgång till omfattande dokumentation och ytterligare resurser för Aspose.Cells for Java på[här](https://reference.aspose.com/cells/java/)Utforska dokumentationen för att upptäcka avancerade funktioner och exempel.

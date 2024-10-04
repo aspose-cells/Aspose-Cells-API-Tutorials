@@ -33,7 +33,7 @@ using System;
 using System.Collections.Generic;
 ```
 
-Projenize Aspose.Cells'e referanslar eklediğinizden emin olun. Visual Studio kullanıyorsanız, bunu NuGet Paket Yöneticisi altında "Aspose.Cells"i arayarak yapabilirsiniz.
+Projenizde Aspose.Cells'e referanslar eklediğinizden emin olun. Visual Studio kullanıyorsanız, bunu NuGet Paket Yöneticisi altında "Aspose.Cells"i arayarak yapabilirsiniz.
 
 Netliği sağlamak için görevlerimizi yönetilebilir adımlara böleceğiz.
 
@@ -42,12 +42,10 @@ Netliği sağlamak için görevlerimizi yönetilebilir adımlara böleceğiz.
 Bu adımda giriş ve çıkış dosyalarımızın nerede bulunacağını tanımlamamız gerekiyor.
 
 ```csharp
-//Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Kaynak dizini
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Burada yardımcı yöntemleri kullanıyoruz`Get_SourceDirectory()` Ve`Get_OutputDirectory()` dosya yollarımızı kolayca ayarlamak için. Bu yolları dizin yapınıza göre özelleştirebilirsiniz.
 
 ## Adım 2: Bir Çalışma Kitabı Tasarımcısı Nesnesi Oluşturun
 
@@ -78,7 +76,7 @@ Buradaki örnek Excel dosyasının bu özelliğin yararlı olması için akıll�
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Ayarlayarak`QuotePrefixToStyle`false olarak ayarladığımızda, Aspose.Cells'e öndeki kesme işaretlerini normal karakterler olarak ele almasını ve böylece bunları çıktımızda doğru bir şekilde işlememizi sağlıyoruz.
+ Ayarlayarak`QuotePrefixToStyle` false olarak ayarladığımızda, Aspose.Cells'e öndeki kesme işaretlerini normal karakterler olarak ele almasını ve böylece bunları çıktımızda doğru bir şekilde işlememizi sağlıyoruz.
 
 ## Adım 5: Akıllı İşaretleyiciler için Veri Yükle
 
@@ -146,7 +144,7 @@ Artık raporlar oluşturuyor, veri analizi için işlevler oluşturuyor veya ver
 Aspose.Cells, Excel dosyalarını birden fazla formatta programlı olarak oluşturmak, düzenlemek ve dönüştürmek için güçlü bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, ücretsiz denemeye kaydolarak Aspose.Cells'i kullanabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeye kaydolarak Aspose.Cells'i kullanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells için nasıl destek alabilirim?
  Yardım alabilir ve soru sorabilirsiniz.[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).

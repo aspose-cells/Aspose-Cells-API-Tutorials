@@ -59,7 +59,7 @@ Agora vamos explorar como recuperar as dimensões de vários tamanhos de papel s
 
 ## Etapa 1: Crie uma instância da classe Workbook
 
-primeira coisa que você precisa fazer é criar uma instância da classe Workbook a partir de Aspose.Cells. Essa classe representa um arquivo Excel.
+A primeira coisa que você precisa fazer é criar uma instância da classe Workbook a partir de Aspose.Cells. Essa classe representa um arquivo Excel.
 
 ```csharp
 Workbook book = new Workbook();

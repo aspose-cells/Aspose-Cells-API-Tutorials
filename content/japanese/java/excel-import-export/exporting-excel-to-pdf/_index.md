@@ -16,7 +16,7 @@ url: /ja/java/excel-import-export/exporting-excel-to-pdf/
 
 1. Java 開発環境: システムに Java がインストールされていることを確認してください。まだインストールしていない場合は、Web サイトから Java をダウンロードしてインストールできます。
 
-2. Aspose.Cells for Java ライブラリ: Aspose Web サイトから Aspose.Cells for Java ライブラリを入手します。ライブラリをダウンロードし、プロジェクトのクラスパスに追加します。
+2. Aspose.Cells for Java ライブラリ: Aspose Web サイトから Aspose.Cells for Java ライブラリを取得します。ライブラリをダウンロードし、プロジェクトのクラスパスに追加します。
 
 ## ステップ1: Javaプロジェクトを作成する
 

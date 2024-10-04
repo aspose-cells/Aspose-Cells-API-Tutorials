@@ -39,7 +39,7 @@ Yapmanız gereken ilk şey çıktı dosyanızın nereye kaydedileceğini tanıml
 
 ```csharp
 // Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Bu kod satırı, oluşturulan dosyanın depolanacağı dizin yolunu alır. Bu dizinin mevcut olduğundan emin olun; aksi takdirde, daha sonra bir dosya bulunamadı hatasıyla karşılaşabilirsiniz.

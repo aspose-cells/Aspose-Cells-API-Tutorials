@@ -44,11 +44,9 @@ using System;
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
-ここ、`RunExamples.Get_SourceDirectory()`そして`RunExamples.Get_OutputDirectory()`は、それぞれソース ディレクトリと出力ディレクトリへのパスを返すメソッドです。 
 
 ## ステップ2: ワークブックを読み込む
 

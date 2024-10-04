@@ -2,7 +2,7 @@
 title: Excel Rimuovi interruzione di pagina specifica
 linktitle: Excel Rimuovi interruzione di pagina specifica
 second_title: Riferimento API Aspose.Cells per .NET
-description: Grazie a questa guida completa e dettagliata, scoprirai facilmente come rimuovere interruzioni di pagina specifiche dai file Excel utilizzando Aspose.Cells per .NET.
+description: Grazie a questa guida completa e dettagliata, scoprirai facilmente come rimuovere specifiche interruzioni di pagina dai file Excel utilizzando Aspose.Cells per .NET.
 type: docs
 weight: 30
 url: /it/net/excel-page-breaks/excel-remove-specific-page-break/

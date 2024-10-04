@@ -92,7 +92,7 @@ Sekarang untuk bagian yang menarik—menduplikasi lembar kerja! Di sini, kita ak
 sheets.AddCopy("Sheet1");
 ```
 
--  Itu`AddCopy`metode menduplikasi lembar kerja yang ada (dalam kasus ini, "Sheet1") dan menambahkan lembar baru ke buku kerja.
+-  Itu`AddCopy` metode menduplikasi lembar kerja yang ada (dalam kasus ini, "Sheet1") dan menambahkan lembar baru ke buku kerja.
 -  Anda dapat mengganti`"Sheet1"` dengan nama lembar yang ingin Anda salin.
 
 ## Langkah 5: Simpan Buku Kerja
@@ -119,7 +119,7 @@ Menyalin lembar kerja di Aspose.Cells untuk .NET tidak hanya mudah tetapi juga s
  Ya, Anda dapat menyalin lembar kerja antara buku kerja yang berbeda dengan membuka kedua buku kerja dan menggunakan`AddCopy` metode di antara keduanya.
 
 ### Format Excel apa yang didukung Aspose.Cells?
- Aspose.Cells mendukung berbagai format Excel, termasuk`.xls`, `.xlsx`, `.csv`, `.html`, dan banyak lagi.
+Aspose.Cells mendukung berbagai format Excel, termasuk`.xls`, `.xlsx`, `.csv`, `.html`, dan banyak lagi.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells untuk .NET?
  Ya, untuk menghindari tanda air dan membuka potensi penuh perpustakaan, Anda memerlukan lisensi yang valid. Namun, Anda dapat meminta[lisensi sementara gratis](https://purchase.aspose.com/temporary-license) untuk mencobanya sebelum membeli.

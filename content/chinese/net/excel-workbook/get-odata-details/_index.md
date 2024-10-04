@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 //设置源目录
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
-这里，`RunExamples.Get_SourceDirectory()`是您在项目中可能拥有的自定义方法，用于检索包含示例文件的文件夹的路径。如果需要，请确保将其替换为实际路径。
 
 ## 步骤 2：访问 Power Query 公式
 

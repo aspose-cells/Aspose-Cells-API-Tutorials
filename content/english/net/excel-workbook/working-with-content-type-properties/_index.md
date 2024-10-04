@@ -37,10 +37,8 @@ Make sure to add these using directives at the top of your C# file to enable eas
 First, let’s set up the output directory where we will save our new Excel file. This will help keep your project organized.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
-Here, `RunExamples.Get_OutputDirectory()` is a function call that retrieves a designated path for output files. Make sure this method is defined and points to a valid directory.
 
 ## Step 2: Create a New Workbook
 

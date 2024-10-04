@@ -9,7 +9,7 @@ url: /pt/net/excel-display-settings-csharp-tutorials/
 ---
 ## Introdução
 
-Quando se trata de manipular planilhas do Excel usando .NET, Aspose.Cells é uma das principais escolhas disponíveis. Mas com tantos recursos e capacidades reunidos nessa biblioteca versátil, pode ser um pouco trabalhoso começar. É aí que nossos tutoriais úteis entram em cena! Eles são projetados para orientá-lo em tudo, desde controlar a largura da barra de guias até ocultar e exibir planilhas.
+Quando se trata de manipular planilhas do Excel usando .NET, Aspose.Cells é uma das principais escolhas disponíveis. Mas com tantos recursos e capacidades reunidos nessa biblioteca versátil, pode ser um pouco assustador começar. É aí que nossos tutoriais úteis entram! Eles são projetados para orientá-lo em tudo, desde controlar a largura da barra de guias até ocultar e exibir planilhas.
 
 ## Dominando funções básicas
 

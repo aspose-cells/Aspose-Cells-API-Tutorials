@@ -14,7 +14,7 @@ In deze tutorial gaan we onderzoeken hoe je de CONCATENATE-functie in Excel gebr
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
+Voordat we beginnen, moet u ervoor zorgen dat de volgende voorwaarden vervuld zijn:
 
 1. Java-ontwikkelomgeving: Java moet op uw systeem geïnstalleerd zijn, samen met een geschikte Integrated Development Environment (IDE), zoals Eclipse of IntelliJ IDEA.
 

@@ -43,10 +43,8 @@ Jetzt können wir einer Excel-Arbeitsmappe eine Web-Erweiterung hinzufügen. Bef
 Zuerst müssen Sie das Ausgabeverzeichnis einrichten, in dem Sie Ihre geänderte Arbeitsmappe speichern. Dies hilft Ihnen, Ihre Dateien organisiert zu halten.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Hier,`RunExamples.Get_OutputDirectory()` ist eine Methode, die den Pfad zum Ausgabeverzeichnis abruft. Sie können dies ändern, sodass es auf einen beliebigen Speicherort auf Ihrem System verweist.
-
 ## Schritt 2: Erstellen Sie eine neue Arbeitsmappe
 
 Als Nächstes erstellen wir eine neue Instanz einer Arbeitsmappe. Hier geschieht die ganze Magie!

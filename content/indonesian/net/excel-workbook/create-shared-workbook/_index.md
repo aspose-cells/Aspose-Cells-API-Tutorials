@@ -55,9 +55,8 @@ Pada langkah ini, Anda akan menentukan di mana file output akan disimpan. Ini se
 
 ```csharp
 //Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Di sini, kami menggunakan metode`RunExamples.Get_OutputDirectory()` untuk menentukan folder tempat file Excel yang dihasilkan akan disimpan. Pastikan metode ini ditetapkan dalam kode Anda untuk pemrosesan keluaran yang tepat.
 
 ## Langkah 2: Buat Objek Buku Kerja
 
@@ -77,7 +76,7 @@ Saatnya menjadikan buku kerja Anda sebuah mahakarya kolaboratif! Dengan membagik
 //Bagikan Buku Kerja
 wb.Settings.Shared = true;
 ```
- Pengaturan`wb.Settings.Shared` ke`true` menunjukkan bahwa buku kerja ini dapat diakses oleh beberapa pengguna sekaligus. Ini seperti memberikan kunci rumah Anda kepada teman-teman — mereka dapat datang dan pergi sesuka hati!
+ Pengaturan`wb.Settings.Shared` ke`true`menunjukkan bahwa buku kerja ini dapat diakses oleh beberapa pengguna sekaligus. Ini seperti memberikan kunci rumah Anda kepada teman-teman — mereka dapat datang dan pergi sesuka hati!
 
 ## Langkah 4: Simpan Buku Kerja Bersama
 

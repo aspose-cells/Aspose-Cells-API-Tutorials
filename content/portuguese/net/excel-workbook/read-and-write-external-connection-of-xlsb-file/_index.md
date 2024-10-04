@@ -40,13 +40,13 @@ Essas importações dão acesso à funcionalidade necessária para manipular arq
 Antes de trabalhar com seu arquivo XLSB, você precisa configurar seus diretórios de origem e saída. Esta etapa é essencial para manter seus arquivos organizados.
 
 ```csharp
-//Diretório de origem
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Diretório de origem
+string sourceDir = "Your Document Directory";
 // Diretório de saída
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Neste trecho de código,`RunExamples.Get_SourceDirectory()` e`RunExamples.Get_OutputDirectory()`são assumidos para buscar os respectivos caminhos para onde seus arquivos de entrada e saída residirão. Você pode substituir esses métodos por caminhos codificados se preferir.
+ Neste trecho de código,`"Your Document Directory"` e`"Your Document Directory"`são assumidos para buscar os respectivos caminhos para onde seus arquivos de entrada e saída residirão. Você pode substituir esses métodos por caminhos codificados se preferir.
 
 ## Etapa 2: Carregue o arquivo XLSB
 

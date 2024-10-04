@@ -2,7 +2,7 @@
 title: XLSB Dosyasının Harici Bağlantısını Oku ve Yaz
 linktitle: XLSB Dosyasının Harici Bağlantısını Oku ve Yaz
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kapsamlı eğitimde Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin.
+description: Bu kapsamlı eğitimde, Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin.
 type: docs
 weight: 130
 url: /tr/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
@@ -40,13 +40,13 @@ Bu içe aktarımlar, Excel dosyalarını ve bunların bağlantılarını düzenl
 XLSB dosyanızla çalışmaya başlamadan önce kaynak ve çıktı dizinlerinizi ayarlamanız gerekir. Bu adım dosyalarınızı düzenli tutmak için önemlidir.
 
 ```csharp
-//Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Kaynak dizini
+string sourceDir = "Your Document Directory";
 // Çıktı dizini
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Bu kod parçacığında,`RunExamples.Get_SourceDirectory()` Ve`RunExamples.Get_OutputDirectory()`giriş ve çıkış dosyalarınızın bulunacağı ilgili yolları getirdiği varsayılır. İsterseniz bu yöntemleri sabit kodlu yollarla değiştirebilirsiniz.
+ Bu kod parçacığında,`"Your Document Directory"` Ve`"Your Document Directory"`giriş ve çıkış dosyalarınızın bulunacağı ilgili yolları getirdiği varsayılır. İsterseniz bu yöntemleri sabit kodlu yollarla değiştirebilirsiniz.
 
 ## Adım 2: XLSB Dosyasını Yükleyin
 

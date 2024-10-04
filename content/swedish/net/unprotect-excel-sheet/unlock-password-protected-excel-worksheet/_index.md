@@ -21,7 +21,7 @@ Du behöver en fungerande .NET-miljö. Om du inte är redo ännu, överväg att 
 
 ### Aspose.Cells för .NET
 
- Du måste ha Aspose.Cells för .NET. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/) . Se till att du bekantar dig med dokumentationen som kan hittas[här](https://reference.aspose.com/cells/net/).
+ Du måste ha Aspose.Cells för .NET. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/) . Se till att du bekantar dig med dokumentationen som finns[här](https://reference.aspose.com/cells/net/).
 
 ### Grundläggande kodningskunskap
 

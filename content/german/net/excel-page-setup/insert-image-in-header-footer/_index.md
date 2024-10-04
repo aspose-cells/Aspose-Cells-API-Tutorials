@@ -148,4 +148,4 @@ Ja, Sie können mithilfe unterschiedlicher Platzhalter separate Bilder in unters
 Stellen Sie sicher, dass der Bildpfad korrekt ist und die Datei vorhanden ist. Überprüfen Sie auch die Kompatibilität des Bildformats.
 
 ### Wo finde ich zusätzliche Dokumentation für Aspose.Cells?
- Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
+Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).

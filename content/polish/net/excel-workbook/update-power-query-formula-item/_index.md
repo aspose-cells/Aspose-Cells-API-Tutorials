@@ -47,10 +47,9 @@ W tym kroku zdefiniujemy, gdzie znajdują się nasze pliki źródłowe i wyjści
 
 ```csharp
 // Katalogi robocze
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Tutaj wykorzystujemy hipotetyczną metodę`RunExamples.Get_SourceDirectory()` aby pobrać ścieżkę do naszych plików źródłowych. Podobnie,`RunExamples.Get_OutputDirectory()` pobiera ścieżkę, gdzie zapiszemy nasze wyjście. Upewnij się, że te metody zwracają prawidłowe ścieżki na twoim komputerze.
 
 ## Krok 2: Załaduj skoroszyt
 
@@ -59,7 +58,7 @@ Teraz załadujemy plik Excela, w którym znajduje się Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Ten`Workbook`class jest punktem wejścia do pliku Excel. Przekazując ścieżkę do naszego pliku źródłowego, tworzymy instancję, która pozwala nam nim manipulować. Możesz to sobie wyobrazić jak otwieranie książki — przygotowujesz się do przeczytania (lub edycji) jej zawartości.
+ Ten`Workbook` class jest punktem wejścia do pliku Excel. Przekazując ścieżkę do naszego pliku źródłowego, tworzymy instancję, która pozwala nam nim manipulować. Możesz to sobie wyobrazić jak otwieranie książki — przygotowujesz się do przeczytania (lub edycji) jej zawartości.
 
 ## Krok 3: Uzyskaj dostęp do Data Mashup
 
@@ -102,7 +101,7 @@ Po wprowadzeniu aktualizacji nadszedł czas na zapisanie zmian.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Ten`Save` Metoda zapisuje zaktualizowany skoroszyt do określonego katalogu wyjściowego. To tak, jakby zapieczętować swoje edycje w nowej wersji podręcznika, gotowej do użycia przez innych!
+ Ten`Save`Metoda zapisuje zaktualizowany skoroszyt do określonego katalogu wyjściowego. To tak, jakby zapieczętować swoje edycje w nowej wersji podręcznika, gotowej do użycia przez innych!
 
 ## Wniosek
 
@@ -116,7 +115,7 @@ Aspose.Cells to potężna biblioteka umożliwiająca przetwarzanie plików Excel
 ### Czy do uruchomienia Aspose.Cells potrzebuję programu Microsoft Excel?
 Nie, Aspose.Cells umożliwia programowe tworzenie i edycję plików Excela, bez konieczności instalowania programu Excel na serwerze lub komputerze deweloperskim.
 
-### jakimi typami plików Excel mogę pracować, korzystając z Aspose.Cells?
+### Z jakimi typami plików Excel mogę pracować, korzystając z Aspose.Cells?
 Za pomocą Aspose.Cells można pracować z plikami .xlsx, .xls, .xlsm i wieloma innymi formatami programu Excel.
 
 ### Czy jest dostępna wersja próbna Aspose.Cells?

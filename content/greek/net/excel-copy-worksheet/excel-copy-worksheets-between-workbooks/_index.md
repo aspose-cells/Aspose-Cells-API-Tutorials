@@ -20,7 +20,7 @@ url: /el/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 -  Μια έγκυρη άδεια ή α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) εάν θέλετε να δοκιμάσετε την πλήρη λειτουργικότητα του Aspose.Cells.
 - Βασική κατανόηση της C# και του πλαισίου .NET.
 
- Μπορείτε επίσης να ελέγξετε το[Τεκμηρίωση Aspose.Cells](https://reference.aspose.com/cells/net/)για περισσότερες λεπτομέρειες.
+ Μπορείτε επίσης να ελέγξετε το[Τεκμηρίωση Aspose.Cells](https://reference.aspose.com/cells/net/) για περισσότερες λεπτομέρειες.
 
 ## Εισαγωγή πακέτων
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Τέλος, θα αποθηκεύσετε το δεύτερο βιβλίο εργασίας με το αντιγραμμένο φύλλο εργασίας. Αυτό είναι σαν να αποθηκεύετε τις πρόσφατα γραμμένες σημειώσεις σας σε έναν νέο φάκελο στον υπολογιστή σας.
 
 ```csharp
-// Αποθηκεύστε το αρχείο.
+//Αποθηκεύστε το αρχείο.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

@@ -43,12 +43,10 @@ Artık her şeyi ayarladığımıza göre, sıkıştırma seviyelerini ayarlama 
 İlk önce, dosyalarımızın nerede saklanacağını tanımlamamız gerekiyor. Bu, girdi dosyamız için kaynak dizinini ve sıkıştırılmış dosyalarımız için çıktı dizinini belirtmeyi içerir.
 
 ```csharp
-//Kaynak dizini
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Kaynak dizini
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Burada,`RunExamples.Get_SourceDirectory()` Ve`RunExamples.Get_OutputDirectory()` sırasıyla kaynak ve çıktı dizinlerinize giden yolları döndüren yöntemlerdir. 
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 

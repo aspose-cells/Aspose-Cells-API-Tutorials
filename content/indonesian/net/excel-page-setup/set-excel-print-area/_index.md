@@ -17,7 +17,7 @@ Sebelum kita terjun langsung ke petualangan coding kita, mari luangkan waktu sej
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio, karena ini adalah lingkungan pengembangan yang akan kita gunakan.
 2. .NET Framework: Pastikan proyek Anda disiapkan dengan .NET Framework yang kompatibel dengan Aspose.Cells. Umumnya, .NET Core atau .NET Framework 4.5 dan yang lebih baru akan berfungsi.
-3. Pustaka Aspose.Cells: Anda harus memiliki Aspose.Cells untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+3.  Pustaka Aspose.Cells: Anda harus memiliki Aspose.Cells untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 4. Pengetahuan Dasar C#: Keakraban dengan sintaksis dan struktur C# sangat penting, karena kita akan menulis segmen kode di seluruh panduan ini.
 
 Setelah Anda memiliki prasyarat ini, Anda siap terjun ke dunia manipulasi Excel!
@@ -39,7 +39,7 @@ Sekarang, mari kita uraikan proses pengaturan area cetak Excel langkah demi lang
 
 Buat variabel untuk menentukan lokasi dokumen Excel Anda. 
 
-Saat Anda mengerjakan sebuah proyek, penting untuk memiliki jalur yang ditentukan di mana file Anda berada atau akan disimpan. Dalam kasus kami, kami akan menentukan variabel bernama`dataDir` sebagai berikut:
+ Saat Anda mengerjakan sebuah proyek, penting untuk memiliki jalur yang ditentukan di mana file Anda berada atau akan disimpan. Dalam kasus kami, kami akan menentukan variabel bernama`dataDir` sebagai berikut:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

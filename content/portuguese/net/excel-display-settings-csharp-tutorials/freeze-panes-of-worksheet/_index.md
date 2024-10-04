@@ -25,7 +25,7 @@ Antes de começarmos a codificação propriamente dita, vamos garantir que você
 - Você precisará de um IDE como o Visual Studio para criar e executar seus aplicativos C#.
 
 ### Um arquivo Excel de exemplo
--  Para fins de demonstração, você precisará de um arquivo Excel, que chamaremos de`book1.xls`. Você pode criar um arquivo Excel simples usando o Microsoft Excel ou qualquer aplicativo compatível.
+- Para fins de demonstração, você precisará de um arquivo Excel, que chamaremos de`book1.xls`. Você pode criar um arquivo Excel simples usando o Microsoft Excel ou qualquer aplicativo compatível.
 
 Depois de cumprir esses pré-requisitos, podemos começar a codificar!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- O`Workbook`objeto representa todo o seu arquivo Excel na memória. Pense nisso como trazer o arquivo inteiro para o seu espaço de trabalho para que você possa começar a fazer modificações.
+ O`Workbook` objeto representa todo o seu arquivo Excel na memória. Pense nisso como trazer o arquivo inteiro para o seu espaço de trabalho para que você possa começar a fazer modificações.
 
 ## Etapa 5: Acesse a planilha
 
@@ -131,7 +131,7 @@ Congelar painéis permite que você mantenha linhas ou colunas específicas vis�
  Sim, você pode congelar qualquer número de linhas e colunas especificando suas posições usando o`FreezePanes` método.
 
 ### O Aspose.Cells é gratuito?
- Aspose.Cells oferece um teste gratuito, mas você precisará comprar uma licença para uso de longo prazo. Verifique o[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
+Aspose.Cells oferece um teste gratuito, mas você precisará comprar uma licença para uso de longo prazo. Verifique o[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
 
 ### Onde posso encontrar suporte para o Aspose.Cells?
  Você pode obter suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9), onde você pode fazer perguntas e encontrar soluções da comunidade.

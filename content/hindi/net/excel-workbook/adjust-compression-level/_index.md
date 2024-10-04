@@ -43,12 +43,10 @@ using System;
 सबसे पहले, हमें यह परिभाषित करना होगा कि हमारी फ़ाइलें कहाँ संग्रहीत की जाएँगी। इसमें हमारी इनपुट फ़ाइल के लिए स्रोत निर्देशिका और हमारी संपीड़ित फ़ाइलों के लिए आउटपुट निर्देशिका निर्दिष्ट करना शामिल है।
 
 ```csharp
-//स्रोत निर्देशिका
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// स्रोत निर्देशिका
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- यहाँ,`RunExamples.Get_SourceDirectory()` और`RunExamples.Get_OutputDirectory()` वे विधियाँ हैं जो क्रमशः आपके स्रोत और आउटपुट निर्देशिकाओं के पथ लौटाती हैं। 
 
 ## चरण 2: कार्यपुस्तिका लोड करें
 

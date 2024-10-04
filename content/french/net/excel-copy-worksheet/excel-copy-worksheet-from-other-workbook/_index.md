@@ -72,14 +72,14 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Ici, nous créons le premier classeur et remplissons la première feuille de calcul (`ws0`avec des en-têtes et des lignes de détails. Ces données simulées vous aideront à visualiser le processus de copie ultérieurement.
+Ici, nous créons le premier classeur et remplissons la première feuille de calcul (`ws0`) avec des en-têtes et des lignes de détails. Ces données simulées vous aideront à visualiser le processus de copie ultérieurement.
 
 ## Étape 3 : Configurer la mise en page pour l'impression
 
 Configurons la configuration de la page pour répéter les lignes d'en-tête lors de l'impression, juste pour que nous puissions voir cette fonctionnalité en action :
 
 ```csharp
-// Définir un objet pagesetup basé sur la première feuille de calcul
+//Définir un objet pagesetup basé sur la première feuille de calcul
 PageSetup pagesetup = ws0.PageSetup;
 // Les cinq premières lignes sont répétées dans chaque page
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Copions le contenu de la feuille de calcul du premier classeur vers le deuxième
 // première feuille de travail du deuxième classeur
 ws1.Copy(ws0);
 ```
- Le`Copy` la méthode prend tout le contenu de la feuille de calcul source (`ws0`) et le duplique dans la feuille de calcul de destination (`ws1`). C'est si simple, non ?
+ Le`Copy` la méthode prend tout le contenu de la feuille de calcul source (`ws0`et le duplique dans la feuille de calcul de destination (`ws1`). C'est si simple, non ?
 
 ## Étape 6 : Enregistrer le nouveau classeur
 
@@ -137,7 +137,7 @@ Aspose.Cells est une bibliothèque .NET qui permet aux développeurs de créer, 
  Vous pouvez demander une licence temporaire en visitant[ce lien](https://purchase.aspose.com/temporary-license/).
 
 ### Où puis-je trouver plus de documentation sur Aspose.Cells ?  
- Vous trouverez une documentation détaillée[ici](https://reference.aspose.com/cells/net/).
+Vous trouverez une documentation détaillée[ici](https://reference.aspose.com/cells/net/).
 
 ### Existe-t-il un support disponible pour les utilisateurs d'Aspose.Cells ?  
  Absolument ! Vous pouvez obtenir de l'aide via le[Forum Aspose](https://forum.aspose.com/c/cells/9).

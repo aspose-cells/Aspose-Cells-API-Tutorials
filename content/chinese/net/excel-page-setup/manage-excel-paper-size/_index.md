@@ -102,7 +102,7 @@ workbook.Save(dataDir + "ManagePaperSize_out.xls");
 
 ## 结论
 
-使用 Aspose.Cells for .NET，管理 Excel 表中的纸张大小变得轻而易举。无论您是准备打印文档还是确保它们符合特定准则，上述步骤都将帮助您轻松实现目标。随着您对 Aspose.Cells 的深入了解，您将发现更多强大的功能，这些功能可以增强您的数据处理和演示任务。
+使用 Aspose.Cells for .NET，管理 Excel 表中的纸张尺寸变得轻而易举。无论您是准备打印文档还是确保它们符合特定准则，上述步骤都将帮助您轻松实现目标。随着您对 Aspose.Cells 的深入了解，您将发现更多强大的功能，这些功能可以增强您的数据处理和演示任务。
 
 ## 常见问题解答
 

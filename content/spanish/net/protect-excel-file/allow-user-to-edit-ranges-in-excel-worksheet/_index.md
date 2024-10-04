@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Primero, reemplace`"YOUR DOCUMENT DIRECTORY"`con la ruta donde quieres que se guarden tus archivos. Este código comprueba si el directorio existe; si no existe, crea uno.
+ Primero, reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta donde quieres que se guarden tus archivos. Este código comprueba si el directorio existe; si no existe, crea uno.
 
 ## Paso 2: Crear una instancia de un nuevo libro de trabajo
 
@@ -84,7 +84,7 @@ Esta colección nos permitirá administrar qué rangos son editables en nuestra 
 
 ## Paso 5: Definir el rango protegido
 
-continuación, definamos qué parte de la hoja de cálculo queremos proteger y al mismo tiempo permitir ediciones en un rango específico.
+A continuación, definamos qué parte de la hoja de cálculo queremos proteger y al mismo tiempo permitir ediciones en un rango específico.
 
 ```csharp
 // Definir ProtectedRange

@@ -16,7 +16,7 @@ url: /zh/net/protect-excel-file/protect-cells-in-excel-worksheet/
 在深入研究保护细胞的具体细节之前，您应该满足一些先决条件：
 
 1. Visual Studio：确保您的计算机上安装了 Visual Studio。它是 .NET 开发的主要 IDE。
-2. Aspose.Cells 库：您需要在项目中使用 Aspose.Cells 库。您可以通过 NuGet 包管理器轻松安装它，也可以直接从[Aspose.Cells 网站](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 库：您需要在项目中使用 Aspose.Cells 库。您可以通过 NuGet 包管理器轻松安装它，也可以直接从[Aspose.Cells 网站](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知识：对 C# 编程有一点熟悉将有助于您顺利跟上。
 
 ## 导入包
@@ -78,7 +78,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0]; //访问第一个工作表
 ```
 
-非常简单！现在您有了对将要锁定单元格的第一张工作表的引用。
+非常简单！现在您有了对要锁定单元格的第一张工作表的引用。
 
 ## 步骤 4：解锁所有列
 

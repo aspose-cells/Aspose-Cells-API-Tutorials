@@ -38,14 +38,14 @@ Ta dyrektywa umożliwi Ci dostęp do klas i metod zawartych w bibliotece Aspose.
 Zanim zainicjujesz skoroszyt, dobrym pomysłem jest skonfigurowanie ścieżek, w których znajdują się pliki źródłowe i gdzie chcesz zapisać dane wyjściowe. Oto, jak to zrobić:
 
 ```csharp
-//Katalog źródłowy
+// Katalog źródłowy
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Katalog wyjściowy
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR SOURCE DIRECTORY"` I`"YOUR OUTPUT DIRECTORY"` z rzeczywistymi ścieżkami na twojej maszynie. Pomyśl o tym jak o stworzeniu uporządkowanego miejsca pracy zanim zaczniesz tworzyć swoje arcydzieło!
+ Pamiętaj o wymianie`"YOUR SOURCE DIRECTORY"` I`"YOUR OUTPUT DIRECTORY"` rzeczywistymi ścieżkami na twojej maszynie. Pomyśl o tym jak o stworzeniu uporządkowanego miejsca pracy zanim zaczniesz tworzyć swoje arcydzieło!
 
 ## Krok 2: Utwórz pusty skoroszyt
 

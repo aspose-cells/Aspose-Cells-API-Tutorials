@@ -61,11 +61,9 @@ using System;
 
 ```csharp
 //ソースディレクトリを設定する
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
-
-ここ、`RunExamples.Get_SourceDirectory()`は、サンプル ファイルを含むフォルダーへのパスを取得する、プロジェクト内に存在するカスタム メソッドです。必要に応じて、これを実際のパスに置き換えてください。
 
 ## ステップ2: Power Queryの数式にアクセスする
 

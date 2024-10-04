@@ -15,7 +15,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 
 在开始实际的代码之前，让我们确保你已经准备好了一切。以下是你需要的东西：
 
-1. Aspose.Cells for .NET Library – 确保已安装。您可以[点击此处下载库](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library – 确保已安装。您可以[点击此处下载库](https://releases.aspose.com/cells/net/).
 2. .NET Framework – 确保您运行的是兼容版本的 .NET Framework。Aspose.Cells for .NET 支持从 2.0 开始的 .NET Framework 版本。
 3. 开发环境——Visual Studio 或任何其他 C# IDE 都非常适合此任务。
 4. C# 基础知识——您不需要成为一名巫师，但了解基本语法会有所帮助。

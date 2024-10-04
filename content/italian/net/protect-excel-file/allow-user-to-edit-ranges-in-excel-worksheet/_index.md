@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Per prima cosa, sostituisci`"YOUR DOCUMENT DIRECTORY"`con il percorso in cui vuoi che i tuoi file vengano salvati. Questo codice controlla se la directory esiste; se non esiste, ne crea una.
+ Per prima cosa, sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso in cui vuoi che i tuoi file vengano salvati. Questo codice controlla se la directory esiste; se non esiste, ne crea una.
 
 ## Passaggio 2: creare una nuova cartella di lavoro
 

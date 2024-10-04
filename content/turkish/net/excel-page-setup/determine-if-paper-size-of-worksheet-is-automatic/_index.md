@@ -104,10 +104,10 @@ Aspose.Cells, Excel'in kurulumuna gerek kalmadan Excel elektronik tablo dosyalar
 Evet! Aspose.Cells, platformlar arası geliştirmeyi destekler, böylece .NET'in mevcut olduğu çeşitli ortamlarda çalışabilirsiniz.
 
 ### Aspose.Cells için lisansa ihtiyacım var mı?
-Ücretsiz denemeyle başlayabilmenize rağmen, devam eden kullanım için satın alınmış bir lisans gerekir. Daha fazla ayrıntı şurada bulunabilir:[Burada](https://purchase.aspose.com/buy).
+ Ücretsiz denemeyle başlayabilmenize rağmen, devam eden kullanım için satın alınmış bir lisans gerekir. Daha fazla ayrıntı şurada bulunabilir:[Burada](https://purchase.aspose.com/buy).
 
 ### C#'ta bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını nasıl kontrol edebilirim?
- Rehberde gösterildiği gibi, şunları kontrol edebilirsiniz:`IsAutomaticPaperSize` mülkiyeti`PageSetup` sınıf.
+Rehberde gösterildiği gibi, şunları kontrol edebilirsiniz:`IsAutomaticPaperSize` mülkiyeti`PageSetup` sınıf.
 
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
  Kapsamlı dokümantasyon ve eğitimler bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).

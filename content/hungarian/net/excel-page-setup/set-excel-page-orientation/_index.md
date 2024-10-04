@@ -16,7 +16,7 @@ Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .N
 A zökkenőmentes élmény érdekében, mielőtt belemerülne, fontos tisztázni néhány dolgot:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Itt kell beírnia a kódot.
-2. Aspose.Cells for .NET: Aspose.Cells for .NET könyvtárra van szüksége. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+2.  Aspose.Cells for .NET: Aspose.Cells for .NET könyvtárra van szüksége. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 3. Alapvető C# ismerete: A C# programozási nyelv ismerete nagyon hasznos, mivel ez az oktatóanyag C# nyelven készült.
 4. Munkaterület: Készítsen kódolási környezetet és egy könyvtárat a dokumentumok mentéséhez, mert szüksége lesz rá!
 
@@ -52,7 +52,7 @@ Most létrehozza a Workbook osztály egy példányát, amely egy Excel-fájlt k�
 Workbook workbook = new Workbook();
 ```
 
- Új létrehozása`Workbook` olyan, mintha egy új üres oldalt nyitnánk meg egy jegyzetfüzetben, és készen állunk arra, hogy bármilyen információval megtöltsük!
+ Új létrehozása`Workbook`olyan, mintha egy új üres oldalt nyitnánk meg egy jegyzetfüzetben, és készen állunk arra, hogy bármilyen információval megtöltsük!
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
@@ -97,13 +97,13 @@ Mint az elkészült oldal visszahelyezése a polcra, ez a kódsor menti a fájlt
 Az Aspose.Cells for .NET egy hatékony könyvtár az Excel-fájlok programozott kezeléséhez, olyan funkciókkal, mint a létrehozás, szerkesztés, konvertálás stb.
 
 ### Módosíthatom a tájolást fekvőre is?
-Igen! Beállíthatja a tájolást`PageOrientationType.Landscape` hasonló módon.
+ Igen! Beállíthatja a tájolást`PageOrientationType.Landscape` hasonló módon.
 
 ### Van-e támogatás az Aspose.Cells számára?
  Teljesen! Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) bármilyen kérdésért vagy segítségért.
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
- Ideiglenes jogosítványt kérhetsz[itt](https://purchase.aspose.com/temporary-license/), amely lehetővé teszi a funkciók korlátozás nélküli kipróbálását.
+ Ideiglenes jogosítványt kérhetsz[itt](https://purchase.aspose.com/temporary-license/)amely lehetővé teszi a funkciók korlátozás nélküli kipróbálását.
 
 ### Az Aspose.Cells képes kezelni a nagy Excel fájlokat?
 Igen, az Aspose.Cells nagy fájlok kezelésére van optimalizálva, és hatékonyan képes különféle műveleteket végrehajtani.

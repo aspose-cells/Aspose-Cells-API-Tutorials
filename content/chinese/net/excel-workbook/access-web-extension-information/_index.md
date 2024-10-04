@@ -39,7 +39,7 @@ using System;
 首先定义存储 Excel 文件的源目录。这可确保您的程序知道在哪里查找要处理的文件。
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## 步骤 2：加载 Excel 工作簿

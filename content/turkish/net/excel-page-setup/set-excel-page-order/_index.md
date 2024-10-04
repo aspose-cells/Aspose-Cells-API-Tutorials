@@ -120,4 +120,4 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını programlı bir şekilde olu�
 Sayfa yazdırma sıranız için "Üzerinden Aşağı" veya "Aşağısından Üzerine" seçeneklerinden birini seçebilirsiniz.
 
 ### Aspose.Cells kullanımına dair daha fazla örneği nerede bulabilirim?
- Daha fazla örnek ve işlevselliği şu adreste keşfedebilirsiniz:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Daha fazla örnek ve işlevselliği şu adreste keşfedebilirsiniz:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).

@@ -42,12 +42,10 @@ Um die Übersichtlichkeit zu gewährleisten, unterteilen wir unsere Aufgaben in 
 In diesem Schritt müssen wir definieren, wo unsere Eingabe- und Ausgabedateien gespeichert werden.
 
 ```csharp
-//Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Quellverzeichnis
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Hier verwenden wir Utility-Methoden`Get_SourceDirectory()` Und`Get_OutputDirectory()` um bequem unsere Dateipfade festzulegen. Sie können diese Pfade entsprechend Ihrer Verzeichnisstruktur anpassen.
 
 ## Schritt 2: Erstellen eines Workbook Designer-Objekts
 
@@ -78,7 +76,7 @@ Jetzt sollten Sie sicherstellen, dass die Arbeitsmappeneinstellungen so konfigur
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Durch die Einstellung`QuotePrefixToStyle`auf „False“ weisen wir Aspose.Cells an, führende Apostrophe als normale Zeichen zu behandeln, sodass wir sie in unserer Ausgabe korrekt verarbeiten können.
+ Durch die Einstellung`QuotePrefixToStyle` auf „False“ weisen wir Aspose.Cells an, führende Apostrophe als normale Zeichen zu behandeln, sodass wir sie in unserer Ausgabe korrekt verarbeiten können.
 
 ## Schritt 5: Daten für Smart Marker laden
 
@@ -146,7 +144,7 @@ Egal, ob Sie Berichte erstellen, Funktionen zur Datenanalyse erstellen oder Date
 Aspose.Cells ist eine leistungsstarke .NET-Bibliothek zum programmgesteuerten Erstellen, Bearbeiten und Konvertieren von Excel-Dateien in mehreren Formaten.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?
- Ja, Sie können Aspose.Cells verwenden, indem Sie sich für eine kostenlose Testversion anmelden[Hier](https://releases.aspose.com/).
+Ja, Sie können Aspose.Cells verwenden, indem Sie sich für eine kostenlose Testversion anmelden[Hier](https://releases.aspose.com/).
 
 ### Wie kann ich Support für Aspose.Cells erhalten?
  Hilfe und Fragen finden Sie auf der[Aspose Support Forum](https://forum.aspose.com/c/cells/9).

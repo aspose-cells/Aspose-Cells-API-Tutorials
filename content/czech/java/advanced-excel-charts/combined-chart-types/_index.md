@@ -36,7 +36,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 ```
 
-### Krok 3: Přidejte do sešitu list.
+### Krok 3: Přidejte list do sešitu.
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);

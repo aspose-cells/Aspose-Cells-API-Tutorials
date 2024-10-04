@@ -42,16 +42,14 @@ using System.IO;
 
 ```csharp
 //原始碼目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
-在此程式碼片段中，`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`是分別傳回來源目錄和輸出目錄的路徑的方法。如果您不使用這些方法，請確保將它們替換為實際路徑。
 
 ## 第 2 步：載入工作簿
 
-接下來，讓我們載入要簽署的 Excel 工作簿。您將在此處載入現有 Excel 檔案。
+接下來，讓我們載入要簽署的 Excel 工作簿。您將在此處載入現有 Excel 文件。
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
@@ -81,7 +79,7 @@ signature.XAdESType = XAdESType.XAdES;
 
 在此程式碼片段中，我們將 PFX 檔案讀入位元組數組並建立一個新的`DigitalSignature`目的。我們還設定了`XAdESType`到`XAdES`，這對於我們的簽名至關重要。
 
-## 第 5 步：將簽名新增至工作簿
+## 步驟 5：將簽名新增至工作簿
 
 建立數位簽章後，下一步是將其新增至工作簿。
 
@@ -106,7 +104,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## 結論
 
-現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 Xades 簽章新增至您的 Excel 檔案。此過程不僅增強了文件的安全性，還透過確保文件的真實性與使用者建立了信任。 
+現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Xades 簽章新增至您的 Excel 檔案。此過程不僅增強了文件的安全性，還透過確保文件的真實性與使用者建立了信任。 
 數位簽章是現代文件管理的重要組成部分，借助 Aspose.Cells 的強大功能，您可以在應用程式中輕鬆實現它們。
 
 ## 常見問題解答

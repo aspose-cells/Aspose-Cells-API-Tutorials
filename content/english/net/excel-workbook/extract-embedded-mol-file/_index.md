@@ -54,8 +54,8 @@ Now that you've imported the required packages, let’s set up our environment t
 
 ```csharp
 //directories
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

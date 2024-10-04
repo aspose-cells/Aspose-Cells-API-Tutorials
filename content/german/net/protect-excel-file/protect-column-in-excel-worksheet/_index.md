@@ -16,7 +16,7 @@ Das Verwalten von Daten in Excel-Tabellen kann sich wie das Navigieren durch ein
 Bevor wir uns auf die Reise in den Datenschutz begeben, benötigen Sie für den Anfang ein paar Dinge:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Es ist eine benutzerfreundliche Umgebung für die .NET-Entwicklung.
-2. Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek für .NET. Wenn Sie sie noch nicht installiert haben, können Sie sie von der[Aspose.Cells Download-Seite](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek für .NET. Wenn Sie sie noch nicht installiert haben, können Sie sie von der[Aspose.Cells Download-Seite](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung einigermaßen vertraut sind, können Sie den Code besser verstehen.
 4. .NET Framework: Stellen Sie sicher, dass Sie das .NET Framework eingerichtet haben. Diese Bibliothek funktioniert nahtlos sowohl mit .NET Framework als auch mit .NET Core.
 
@@ -24,7 +24,7 @@ Nachdem wir nun alles geklärt haben, können wir weitermachen und die Spalte sc
 
 ## Pakete importieren
 
-Wie bei jedem Programmierabenteuer besteht der erste Schritt darin, die Materialien zusammenzutragen. In unserem Fall bedeutet das, die Aspose.Cells-Bibliothek in Ihr Projekt zu importieren. So geht das:
+Wie bei jedem Programmierabenteuer besteht der erste Schritt darin, die Materialien zusammenzutragen. In unserem Fall bedeutet das, die Aspose.Cells-Bibliothek in Ihr Projekt zu importieren. So können Sie das tun:
 
 1. Öffnen Sie Ihr C#-Projekt in Visual Studio.
 2. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf das Projekt und wählen Sie „NuGet-Pakete verwalten“ aus.
@@ -117,11 +117,11 @@ Diese Schleife durchläuft jede Spalte (von 0 bis 255) und entsperrt sie. Betrac
 Jetzt kommt der spaßige Teil – das Sperren der spezifischen Spalte, die Sie schützen möchten. In unserem Beispiel sperren wir die erste Spalte (Index 0).
 
 ```csharp
-//Holen Sie sich den Stil der ersten Spalte.
+// Holen Sie sich den Stil der ersten Spalte.
 style = sheet.Cells.Columns[0].Style;
 // Sperren Sie es.
 style.IsLocked = true;
-// Instanziieren Sie die Flagge.
+//Instanziieren Sie die Flagge.
 flag = new StyleFlag();
 // Legen Sie die Sperreinstellung fest.
 flag.Locked = true;

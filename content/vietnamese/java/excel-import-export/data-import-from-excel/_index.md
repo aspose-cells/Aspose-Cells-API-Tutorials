@@ -2,7 +2,7 @@
 title: Nhập dữ liệu từ Excel
 linktitle: Nhập dữ liệu từ Excel
 second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells cho Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch.
+description: Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells for Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch.
 type: docs
 weight: 16
 url: /vi/java/excel-import-export/data-import-from-excel/

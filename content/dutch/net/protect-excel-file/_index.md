@@ -15,7 +15,7 @@ Als u zich verdiept in Excel-automatisering en -manipulatie met behulp van .NET,
 
 Stel je voor dat je enorme hoeveelheden data in Excel moet verwerken. Je denkt misschien: "Gaat dat niet een eeuwigheid duren?" Maak kennis met Aspose.Cells: het is alsof je een superkracht hebt voor datamanipulatie. Met deze bibliotheek kun je niet alleen spreadsheets bewerken; het stelt je ook in staat om data te beschermen en ervoor te zorgen dat cruciale informatie intact blijft. Wanneer je specifieke rijen of kolommen beschermt, is het alsof je een fort bouwt rond je belangrijke figuren en alleen de juiste mensen toelaat. 
 
-We hebben dit proces voor u vereenvoudigd met verschillende stapsgewijze tutorials. Bekijk bijvoorbeeld onze gids over hoe u[Gebruikers toestaan om bereiken in Excel-werkblad te bewerken](./allow-user-to-edit-ranges-in-excel-worksheet/). U leert hoe u gebruikers naadloos specifieke secties van een spreadsheet kunt laten wijzigen zonder dat dit ten koste gaat van het hele document. 
+ We hebben dit proces voor u vereenvoudigd met verschillende stapsgewijze tutorials. Bekijk bijvoorbeeld onze gids over hoe u[Gebruikers toestaan om bereiken in Excel-werkblad te bewerken](./allow-user-to-edit-ranges-in-excel-worksheet/). U leert hoe u gebruikers naadloos specifieke secties van een spreadsheet kunt laten wijzigen zonder dat dit ten koste gaat van het hele document. 
 
 ## Zelfstudies op maat voor jou
 

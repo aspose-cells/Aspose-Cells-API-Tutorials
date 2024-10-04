@@ -66,7 +66,7 @@ Dále vytvoříme instanci třídy Workbook. Tato třída je páteří všech op
 Workbook workbook = new Workbook();
 ```
 
- Když vytvoříte novou instanci souboru`Workbook`třídy, efektivně zakládáte prázdný list – připravený k akci. Berte to jako otevření prázdného sešitu, do kterého si můžete zapsat vše, co potřebujete.
+ Když vytvoříte novou instanci souboru`Workbook` třídy, efektivně zakládáte prázdný list – připravený k akci. Berte to jako otevření prázdného sešitu, do kterého si můžete zapsat vše, co potřebujete.
 
 ## Krok 3: Přidání nového listu
 
@@ -116,10 +116,10 @@ S Aspose.Cells jsou možnosti nekonečné. S daty můžete manipulovat nesčetn�
 Aspose.Cells for .NET je výkonná knihovna pro vytváření, manipulaci a konverzi souborů aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
 
 ### Mohu přidat více listů najednou?  
- Ano, stačí zavolat`Add()`vícekrát a odkazujte na každý list podle jeho indexu!
+ Ano, stačí zavolat`Add()` vícekrát a odkazujte na každý list podle jeho indexu!
 
 ### Existuje bezplatná zkušební verze Aspose.Cells?  
- Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Mohu nový list po přidání naformátovat?  
 Absolutně! Pomocí funkcí knihovny můžete na své listy použít styly, formáty a dokonce vzorce.

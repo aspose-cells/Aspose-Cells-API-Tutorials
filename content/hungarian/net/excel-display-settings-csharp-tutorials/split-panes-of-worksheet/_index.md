@@ -33,7 +33,7 @@ Most, hogy a lényeges dolgokkal foglalkoztunk, térjünk át az izgalmas részr
 
 ## 1. lépés: Példányosítson munkafüzetet
 
- Ennek a folyamatnak az első lépése az a`Workbook` objektum, amely a módosítani kívánt Excel-fájlt fogja képviselni. Ebben az esetben egy fájlt egy könyvtárból töltünk be. Ez az Ön vászna, az Excel-lap, amelyen varázsolhatja.
+ Ennek a folyamatnak az első lépése az a`Workbook` objektumot, amely a módosítani kívánt Excel-fájlt fogja képviselni. Ebben az esetben egy fájlt egy könyvtárból töltünk be. Ez az Ön vászna, az Excel-lap, amelyen varázsolhatja.
 
 Mielőtt felosztanánk az ablaktáblákat, szükségünk van egy munkafüzetre, amellyel dolgozhatunk! Ez a lépés ugyanolyan fontos, mint kinyitni egy könyvet, mielőtt elkezdi olvasni.
 

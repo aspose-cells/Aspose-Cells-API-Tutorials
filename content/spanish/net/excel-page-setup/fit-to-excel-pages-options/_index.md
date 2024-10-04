@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Ahora, configuremos los parámetros para que la hoja de cálculo se adapte a páginas específicas. Aquí puede especificar en cuántas páginas debe aparecer el contenido, tanto de ancho como de alto.
 
 ```csharp
-//Establecer el número de páginas en las que se extenderá la longitud de la hoja de cálculo
+// Establecer el número de páginas en las que se extenderá la longitud de la hoja de cálculo
 worksheet.PageSetup.FitToPagesTall = 1;
 // Establecer el número de páginas en las que se extenderá el ancho de la hoja de cálculo
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` determina cuántas páginas ocupará verticalmente su hoja de cálculo.
+- `FitToPagesTall`determina cuántas páginas ocupará verticalmente su hoja de cálculo.
 - `FitToPagesWide` define la configuración de página horizontal. Configurar ambos en`1` significa que su contenido encajará perfectamente en una página, transformando su documento en una obra maestra optimizada.
 
 ## Paso 3: Guarda tu libro de trabajo

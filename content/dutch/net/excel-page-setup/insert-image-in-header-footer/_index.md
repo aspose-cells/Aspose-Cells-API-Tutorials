@@ -148,4 +148,4 @@ Ja, u kunt afzonderlijke afbeeldingen in verschillende secties van de kop- of vo
 Zorg ervoor dat het pad van de afbeelding correct is en dat het bestand bestaat. Controleer ook de compatibiliteit van de afbeeldingsindeling.
 
 ### Waar kan ik aanvullende documentatie voor Aspose.Cells vinden?
- Gedetailleerde documentatie vindt u hier[hier](https://reference.aspose.com/cells/net/).
+Gedetailleerde documentatie vindt u hier[hier](https://reference.aspose.com/cells/net/).

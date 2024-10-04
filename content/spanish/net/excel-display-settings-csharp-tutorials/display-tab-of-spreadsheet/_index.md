@@ -15,7 +15,7 @@ url: /es/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 
 Antes de comenzar con el código, asegurémonos de que todo esté en orden. Esto es lo que necesitas:
 
-1. Biblioteca Aspose.Cells para .NET: asegúrese de tenerla instalada. Puede[Descarga la biblioteca aquí](https://releases.aspose.com/cells/net/).
+1.  Biblioteca Aspose.Cells para .NET: asegúrese de tenerla instalada. Puede[Descarga la biblioteca aquí](https://releases.aspose.com/cells/net/).
 2. .NET Framework: asegúrese de estar ejecutando una versión compatible de .NET Framework. Aspose.Cells para .NET es compatible con versiones de .NET Framework a partir de la 2.0.
 3. Entorno de desarrollo: Visual Studio o cualquier otro IDE de C# es perfecto para esta tarea.
 4. Conocimientos básicos de C#: no es necesario ser un mago, pero comprender la sintaxis básica será de ayuda.
@@ -41,7 +41,7 @@ Antes de poder manipular cualquier archivo de Excel, debemos definir la ruta don
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta del directorio actual en su sistema. Este directorio será donde cargará su archivo de Excel existente y guardará el resultado.
+ Reemplazar`"YOUR DOCUMENT DIRECTORY"`con la ruta del directorio actual en su sistema. Este directorio será donde cargará su archivo de Excel existente y guardará el resultado.
 
 ## Paso 2: Creación de una instancia de un objeto de libro de trabajo
 
@@ -61,7 +61,7 @@ En Excel, las pestañas de la parte inferior (Hoja1, Hoja2, etc.) se pueden ocul
 workbook.Settings.ShowTabs = true;
 ```
 
- Configuración`ShowTabs` a`true`garantizará que las pestañas estén visibles cuando abra el archivo Excel.
+ Configuración`ShowTabs` a`true` garantizará que las pestañas estén visibles cuando abra el archivo Excel.
 
 ## Paso 4: Guarde el archivo Excel modificado
 
@@ -71,7 +71,7 @@ Una vez que se muestran las pestañas, debemos guardar el archivo actualizado. E
 workbook.Save(dataDir + "output.xls");
 ```
 
- El archivo se guarda con el nombre`output.xls` en el directorio especificado anteriormente. También puede elegir un nombre o formato de archivo diferente (como`.xlsx`) si es necesario.
+El archivo se guarda con el nombre`output.xls` en el directorio especificado anteriormente. También puede elegir un nombre o formato de archivo diferente (como`.xlsx`) si es necesario.
 
 ## Conclusión
 
@@ -80,7 +80,7 @@ workbook.Save(dataDir + "output.xls");
 ## Preguntas frecuentes
 
 ### ¿Puedo ocultar las pestañas en Excel usando Aspose.Cells para .NET?
- ¡Por supuesto! Simplemente configúrelo`workbook.Settings.ShowTabs = false;` guarde el archivo. Esto ocultará las pestañas cuando se abra el libro de trabajo.
+ ¡Por supuesto! Simplemente configúrelo`workbook.Settings.ShowTabs = false;` y guarde el archivo. Esto ocultará las pestañas cuando se abra el libro de trabajo.
 
 ### ¿Aspose.Cells admite otras funciones de Excel como gráficos y tablas dinámicas?
 Sí, Aspose.Cells es una biblioteca completa que admite casi todas las funciones de Excel, incluidos gráficos, tablas dinámicas, fórmulas y más.

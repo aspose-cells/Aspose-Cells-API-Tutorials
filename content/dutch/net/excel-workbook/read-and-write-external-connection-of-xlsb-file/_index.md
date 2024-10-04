@@ -40,13 +40,13 @@ Met deze imports krijgt u toegang tot de functionaliteit die u nodig hebt om Exc
 Voordat u met uw XLSB-bestand gaat werken, moet u uw bron- en uitvoermappen instellen. Deze stap is essentieel om uw bestanden georganiseerd te houden.
 
 ```csharp
-//Bron directory
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Bron directory
+string sourceDir = "Your Document Directory";
 // Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- In dit codefragment,`RunExamples.Get_SourceDirectory()` En`RunExamples.Get_OutputDirectory()`worden verondersteld de respectievelijke paden op te halen voor waar uw invoer- en uitvoerbestanden zich bevinden. U kunt deze methoden vervangen door hardgecodeerde paden als u dat wenst.
+ In dit codefragment,`"Your Document Directory"` En`"Your Document Directory"`worden verondersteld de respectievelijke paden op te halen voor waar uw invoer- en uitvoerbestanden zich bevinden. U kunt deze methoden vervangen door hardgecodeerde paden als u dat wenst.
 
 ## Stap 2: Laad het XLSB-bestand
 

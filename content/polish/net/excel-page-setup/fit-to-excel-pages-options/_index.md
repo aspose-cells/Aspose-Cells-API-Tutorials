@@ -18,7 +18,7 @@ Zanim zaczniesz kodować, upewnijmy się, że masz wszystko, czego potrzebujesz,
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To jest Twoje główne centrum dla wszystkich prac programistycznych.
 2.  Aspose.Cells dla .NET: Musisz pobrać bibliotekę Aspose.Cells i dodać ją do swojego projektu. Możesz ją łatwo pobrać z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza C#: Znajomość programowania C# będzie bardzo pomocna. Jeśli potrafisz obsługiwać zmienne, pętle i podstawowe operacje wejścia/wyjścia plików, poczujesz się jak w domu.
-4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany przy użyciu odpowiedniej wersji .NET Framework, ponieważ biblioteka została zaprojektowana tak, aby była zgodna z tym ekosystemem.
+4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z wykorzystaniem odpowiedniej wersji .NET Framework, ponieważ biblioteka została zaprojektowana tak, aby była zgodna z tym ekosystemem.
 
 Wszystko gotowe? Super, przejdźmy do zabawy!
 
@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Teraz ustawmy parametry, aby dopasować arkusz do konkretnych stron. Tutaj możesz określić, ile stron szerokości i wysokości ma wyświetlać Twoja treść.
 
 ```csharp
-//Ustawianie liczby stron, na których będzie rozciągnięty arkusz kalkulacyjny
+// Ustawianie liczby stron, na których będzie rozciągnięty arkusz kalkulacyjny
 worksheet.PageSetup.FitToPagesTall = 1;
 // Ustawianie liczby stron, na których będzie rozciągać się szerokość arkusza kalkulacyjnego
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` określa liczbę stron, jakie będzie zajmował arkusz w pionie.
+- `FitToPagesTall`określa liczbę stron, jakie będzie zajmował arkusz w pionie.
 - `FitToPagesWide` definiuje poziome ustawienie strony. Ustawienie obu na`1` oznacza, że Twoja treść zmieści się na jednej stronie, przekształcając Twój dokument w udoskonalone dzieło sztuki.
 
 ## Krok 3: Zapisz swój skoroszyt
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## Wniosek
 
-masz to! Nauczyłeś się, jak wykorzystać opcje dopasowania do stron programu Excel w Aspose.Cells dla .NET, aby zapewnić, że Twoje arkusze kalkulacyjne będą wyglądać nieskazitelnie po wydrukowaniu lub udostępnieniu. Opanowanie tych technik może usprawnić prezentacje danych i poprawić ogólną wydajność podczas pracy z dokumentami programu Excel. Pamiętaj, że moc Aspose.Cells pozwala Ci przesuwać granice tego, co jest możliwe w automatyzacji programu Excel. 
+I masz to! Nauczyłeś się, jak wykorzystać opcje dopasowania do stron programu Excel w Aspose.Cells dla .NET, aby zapewnić, że Twoje arkusze kalkulacyjne będą wyglądać nieskazitelnie po wydrukowaniu lub udostępnieniu. Opanowanie tych technik może usprawnić prezentacje danych i poprawić ogólną wydajność podczas pracy z dokumentami programu Excel. Pamiętaj, że moc Aspose.Cells pozwala Ci przesuwać granice tego, co jest możliwe w automatyzacji programu Excel. 
 
 ## Najczęściej zadawane pytania
 

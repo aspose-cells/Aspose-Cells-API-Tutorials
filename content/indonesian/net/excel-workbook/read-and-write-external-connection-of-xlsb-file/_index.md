@@ -40,13 +40,13 @@ Impor ini memberi Anda akses ke fungsionalitas yang Anda perlukan untuk memanipu
 Sebelum bekerja dengan berkas XLSB, Anda perlu mengatur direktori sumber dan keluaran. Langkah ini penting untuk menjaga berkas Anda tetap teratur.
 
 ```csharp
-//Direktori sumber
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Direktori sumber
+string sourceDir = "Your Document Directory";
 // Direktori keluaran
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Dalam potongan kode ini,`RunExamples.Get_SourceDirectory()` Dan`RunExamples.Get_OutputDirectory()`diasumsikan mengambil jalur masing-masing tempat file input dan output Anda akan berada. Anda dapat mengganti metode ini dengan jalur hardcoded jika Anda mau.
+ Dalam potongan kode ini,`"Your Document Directory"` Dan`"Your Document Directory"`diasumsikan mengambil jalur masing-masing tempat file input dan output Anda akan berada. Anda dapat mengganti metode ini dengan jalur hardcoded jika Anda mau.
 
 ## Langkah 2: Muat File XLSB
 

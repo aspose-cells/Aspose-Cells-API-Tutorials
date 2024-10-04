@@ -54,8 +54,8 @@ using System;
 لبدء مغامرتنا في معاينات الطباعة، نحتاج إلى تحديد مكان ملف Excel المصدر. هذه هي نقطة البداية، لذا دعنا نعدها:
 
 ```csharp
-//دليل المصدر
-string sourceDir = RunExamples.Get_SourceDirectory();
+// دليل المصدر
+string sourceDir = "Your Document Directory";
 ```
 
  يساعدنا هذا الكود في العثور على المسار الذي`Book1.xlsx` يقيم، مما يجعل المراجع المستقبلية أسهل بكثير.

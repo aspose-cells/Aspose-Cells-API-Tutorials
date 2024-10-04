@@ -149,4 +149,4 @@ book.Save(dataDir + "protectedrange.out.xls");
 Ενώ αυτό το σεμινάριο εστιάζει στο .NET, το Aspose.Cells είναι διαθέσιμο για πολλές γλώσσες προγραμματισμού, συμπεριλαμβανομένων των Java και Cloud API.
 
 ### Πού μπορώ να βρω περισσότερες πληροφορίες για το Aspose.Cells;  
-Μπορείτε να εξερευνήσετε την πλήρη τεκμηρίωση[εδώ](https://reference.aspose.com/cells/net/).
+ Μπορείτε να εξερευνήσετε την πλήρη τεκμηρίωση[εδώ](https://reference.aspose.com/cells/net/).

@@ -26,4 +26,4 @@ Czy wiesz, że możesz programowo dodawać podziały stron, oszczędzając w ten
 | --- | --- |
 | [Excel Dodaj podziały stron](./excel-add-page-breaks/) | Dowiedz się, jak łatwo dodawać podziały stron w programie Excel za pomocą Aspose.Cells dla .NET w tym przewodniku krok po kroku. Uprość swoje arkusze kalkulacyjne. |  
 | [Excel Wyczyść wszystkie podziały stron](./excel-clear-all-page-breaks/) | Odkryj prosty przewodnik, jak wyczyścić wszystkie podziały stron w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby uzyskać szybkie rezultaty. |  
-| [Excel Usuń określony podział strony](./excel-remove-specific-page-break/) | W tym kompleksowym przewodniku krok po kroku nauczysz się, jak usuwać określone podziały stron z plików programu Excel za pomocą narzędzia Aspose.Cells for .NET. |  
+| [Excel Usuń określony podział strony](./excel-remove-specific-page-break/) | W tym kompleksowym przewodniku krok po kroku nauczysz się, jak usuwać określone podziały stron z plików programu Excel za pomocą narzędzia Aspose.Cells dla platformy .NET. |  

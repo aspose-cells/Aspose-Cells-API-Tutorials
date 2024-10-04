@@ -38,14 +38,14 @@ Questa direttiva ti consentirà di accedere alle classi e ai metodi inclusi nell
 Prima di avviare la cartella di lavoro, è una buona idea impostare i percorsi in cui si trovano i file sorgente e dove si desidera salvare l'output. Ecco come fare:
 
 ```csharp
-//Elenco di origine
+// Elenco di origine
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Directory di uscita
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Assicurati di sostituire`"YOUR SOURCE DIRECTORY"` E`"YOUR OUTPUT DIRECTORY"` con percorsi effettivi sulla tua macchina. Pensa a questo come alla creazione di uno spazio di lavoro ordinato prima di iniziare a creare il tuo capolavoro!
+ Assicurati di sostituire`"YOUR SOURCE DIRECTORY"` E`"YOUR OUTPUT DIRECTORY"`con percorsi effettivi sulla tua macchina. Pensa a questo come alla creazione di uno spazio di lavoro ordinato prima di iniziare a creare il tuo capolavoro!
 
 ## Passaggio 2: creare una cartella di lavoro vuota
 

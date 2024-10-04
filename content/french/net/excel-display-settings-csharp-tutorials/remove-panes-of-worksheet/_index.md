@@ -9,7 +9,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/
 ---
 ## Introduction
 
-Avez-vous déjà eu des difficultés avec des feuilles de calcul contenant ces volets figés ? Si c'est le cas, vous n'êtes pas seul ! Beaucoup d'entre nous ont connu cette situation, essayant de comprendre comment naviguer efficacement dans nos fichiers Excel. Que vous souhaitiez nettoyer une feuille de calcul pour une présentation, partager des données ou simplement obtenir une vue plus simplifiée, la suppression des volets peut faire toute la différence. Dans cet article, nous allons découvrir comment résoudre ce problème à l'aide d'Aspose.Cells pour .NET. Mais avant de nous plonger dans le code, préparons-nous avec quelques prérequis.
+Avez-vous déjà rencontré des difficultés avec des feuilles de calcul contenant des volets figés ? Si c'est le cas, vous n'êtes pas seul ! Beaucoup d'entre nous ont connu cette situation, essayant de comprendre comment naviguer efficacement dans nos fichiers Excel. Que vous souhaitiez nettoyer une feuille de calcul pour une présentation, partager des données ou simplement obtenir une vue plus simplifiée, la suppression de volets peut faire toute la différence. Dans cet article, nous allons découvrir comment résoudre ce problème à l'aide d'Aspose.Cells pour .NET. Mais avant de nous plonger dans le code, préparons-nous avec quelques prérequis.
 
 ## Prérequis
 

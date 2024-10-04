@@ -41,7 +41,7 @@ Věděli jste, že Excel může obsahovat vložené soubory? Pokud jste někdy p
 
 ## Aktualizace položek Power Query
 
- Power Queries může být skutečnou změnou hry v manipulaci s daty a umožňuje vám zefektivnit import informací do souborů aplikace Excel. Pokud vás zajímá, jak aktualizovat položky vzorců Power Query v Excelu pomocí Aspose.Cells for .NET, náš výukový program[Aktualizujte položku vzorce Power Query](./update-power-query-formula-item/)je jen lístek. Poskytuje jednoduchý postup krok za krokem k úpravě těchto položek vzorců, což vám umožní udržovat vaše data aktuální a přesně zobrazená ve vašich sešitech.
+ Power Queries může být skutečnou změnou hry v manipulaci s daty a umožňuje vám zefektivnit import informací do souborů aplikace Excel. Pokud vás zajímá, jak aktualizovat položky vzorců Power Query v Excelu pomocí Aspose.Cells for .NET, náš výukový program[Aktualizujte položku vzorce Power Query](./update-power-query-formula-item/)je jen lístek. Poskytuje jednoduchý postup krok za krokem k úpravě těchto položek vzorců, což vám umožní udržovat vaše data aktuální a přesně reflektovaná ve vašich sešitech.
 
 ## Správa náhledů tisku
 
@@ -67,7 +67,7 @@ Proč tedy nevyužít této příležitosti a zlepšit své dovednosti v Excelu?
 | [Upravte úroveň komprese](./adjust-compression-level/) | Naučte se, jak upravit úrovně komprese pro soubory Excel pomocí Aspose.Cells for .NET. Pomocí tohoto podrobného průvodce efektivně optimalizujte velikost souborů. |  
 | [Povolit úvodní apostrof](./allow-leading-apostrophe/) | Snadná správa hlavních apostrofů v Excelu pomocí Aspose.Cells pro .NET. Tento komplexní tutoriál vás krok za krokem provede celým procesem. |  
 | [Vytvořit sdílený sešit](./create-shared-workbook/) | Naučte se, jak vytvořit sdílený sešit pomocí Aspose.Cells for .NET pomocí tohoto jednoduchého průvodce krok za krokem. Ideální pro posílení týmové spolupráce. |  
-| [Detekce typů odkazů](./detect-link-types/) | Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Snadné kroky a příklady kódu v ceně. |  
+| [Detekce typů odkazů](./detect-link-types/) | Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Zahrnuty jednoduché kroky a příklady kódu. |  
 | [Extrahujte vložený soubor Mol](./extract-embedded-mol-file/) | Naučte se snadno extrahovat vložené soubory MOL z excelového sešitu pomocí Aspose.Cells for .NET. |  
 | [Filtrovat definovaná jména při načítání sešitu](./filter-defined-names-while-loading-workbook/) | této komplexní příručce se dozvíte, jak filtrovat definované názvy při načítání sešitu pomocí Aspose.Cells for .NET. |  
 | [Získejte podrobnosti o Odata](./get-odata-details/) | Zjistěte, jak extrahovat podrobnosti OData z Excelu pomocí Aspose.Cells for .NET v tomto podrobném návodu krok za krokem. |  

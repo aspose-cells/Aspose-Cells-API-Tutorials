@@ -15,7 +15,7 @@ Werkt u met spreadsheets en zoekt u een efficiënte manier om ze programmatisch 
 
 Voordat we in de daadwerkelijke code duiken, zorgen we ervoor dat alles op een rijtje staat. Dit is wat je nodig hebt:
 
-1. Aspose.Cells voor .NET Library – Zorg ervoor dat u het hebt geïnstalleerd. U kunt[download hier de bibliotheek](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells voor .NET Library – Zorg ervoor dat u het hebt geïnstalleerd. U kunt[download hier de bibliotheek](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Zorg ervoor dat u een compatibele versie van het .NET Framework gebruikt. Aspose.Cells voor .NET ondersteunt .NET Framework-versies vanaf 2.0.
 3. Ontwikkelomgeving – Visual Studio of een andere C# IDE is perfect voor deze taak.
 4. Basiskennis van C# – U hoeft geen expert te zijn, maar het is wel handig als u de basis van de syntaxis begrijpt.
@@ -41,7 +41,7 @@ Voordat we een Excel-bestand kunnen bewerken, moeten we het pad definiëren waar
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke directorypad op uw systeem. Deze directory is waar u uw bestaande Excel-bestand laadt en de uitvoer opslaat.
+ Vervangen`"YOUR DOCUMENT DIRECTORY"`met het werkelijke directorypad op uw systeem. Deze directory is waar u uw bestaande Excel-bestand laadt en de uitvoer opslaat.
 
 ## Stap 2: Een werkmapobject instantiëren
 
@@ -61,7 +61,7 @@ In Excel kunnen de tabbladen onderaan (Sheet1, Sheet2, etc.) worden verborgen of
 workbook.Settings.ShowTabs = true;
 ```
 
- Instelling`ShowTabs` naar`true`zorgt ervoor dat de tabbladen zichtbaar zijn wanneer u het Excel-bestand opent.
+ Instelling`ShowTabs` naar`true` zorgt ervoor dat de tabbladen zichtbaar zijn wanneer u het Excel-bestand opent.
 
 ## Stap 4: Sla het gewijzigde Excel-bestand op
 
@@ -71,7 +71,7 @@ Zodra de tabbladen worden weergegeven, moeten we het bijgewerkte bestand opslaan
 workbook.Save(dataDir + "output.xls");
 ```
 
- Het bestand wordt opgeslagen met de naam`output.xls` in de eerder opgegeven directory. U kunt ook een andere naam of bestandsindeling kiezen (zoals`.xlsx`) indien nodig.
+Het bestand wordt opgeslagen met de naam`output.xls` in de eerder opgegeven directory. U kunt ook een andere naam of bestandsindeling kiezen (zoals`.xlsx`) indien nodig.
 
 ## Conclusie
 
@@ -80,7 +80,7 @@ En daar heb je het! Je hebt de tabbladen in een Excel-spreadsheet succesvol weer
 ## Veelgestelde vragen
 
 ### Kan ik de tabbladen in Excel verbergen met Aspose.Cells voor .NET?
- Absoluut! Gewoon instellen`workbook.Settings.ShowTabs = false;`en sla het bestand op. Hierdoor worden de tabbladen verborgen wanneer de werkmap wordt geopend.
+ Absoluut! Gewoon instellen`workbook.Settings.ShowTabs = false;` en sla het bestand op. Hierdoor worden de tabbladen verborgen wanneer de werkmap wordt geopend.
 
 ### Ondersteunt Aspose.Cells andere Excel-functies zoals grafieken en draaitabellen?
 Ja, Aspose.Cells is een uitgebreide bibliotheek die vrijwel alle Excel-functies ondersteunt, waaronder grafieken, draaitabellen, formules en meer.

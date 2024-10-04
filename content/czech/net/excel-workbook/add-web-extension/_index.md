@@ -43,10 +43,8 @@ Nyní jsme připraveni přidat webové rozšíření do sešitu aplikace Excel. 
 Nejprve musíte nastavit výstupní adresář, do kterého uložíte upravený sešit. To pomáhá udržovat vaše soubory uspořádané.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Zde,`RunExamples.Get_OutputDirectory()` je metoda, která načte cestu k výstupnímu adresáři. Toto můžete upravit tak, aby ukazovalo na libovolné místo ve vašem systému.
-
 ## Krok 2: Vytvořte nový sešit
 
 Dále vytvoříme novou instanci sešitu. Tady se odehrává všechna ta kouzla!
@@ -90,7 +88,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 - Id: Toto je jedinečný identifikátor webového rozšíření. Dostupná rozšíření najdete v Office Store.
 - StoreName: Určuje jazyk národního prostředí.
--  StoreType: Zde jsme to nastavili`OMEX`, což označuje balíček webového rozšíření.
+-  StoreType: Zde jsme to nastavili na`OMEX`, což označuje balíček webového rozšíření.
 
 ## Krok 6: Přidejte a nakonfigurujte podokno úloh
 

@@ -42,12 +42,10 @@ Vi kommer att dela upp våra uppgifter i hanterbara steg för att säkerställa 
 det här steget måste vi definiera var våra in- och utdatafiler kommer att finnas.
 
 ```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Källkatalog
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Här använder vi verktygsmetoder`Get_SourceDirectory()` och`Get_OutputDirectory()` för att bekvämt ställa in våra filsökvägar. Du kan anpassa dessa sökvägar enligt din katalogstruktur.
 
 ## Steg 2: Skapa ett arbetsboksdesignerobjekt
 
@@ -78,7 +76,7 @@ Nu vill du se till att arbetsboksinställningarna är konfigurerade för att han
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Genom att ställa in`QuotePrefixToStyle`till false, vi instruerar Aspose.Cells att behandla ledande apostrof som vanliga tecken, vilket gör att vi kan hantera dem exakt i vår produktion.
+ Genom att ställa in`QuotePrefixToStyle` till false, vi instruerar Aspose.Cells att behandla ledande apostrof som vanliga tecken, vilket gör att vi kan hantera dem exakt i vår produktion.
 
 ## Steg 5: Ladda data för smarta markörer
 
@@ -146,7 +144,7 @@ Nu, oavsett om du genererar rapporter, skapar funktioner för dataanalys eller h
 Aspose.Cells är ett kraftfullt .NET-bibliotek för att skapa, manipulera och konvertera Excel-filer i flera format programmatiskt.
 
 ### Kan jag använda Aspose.Cells gratis?
- Ja, du kan använda Aspose.Cells genom att registrera dig för en gratis provperiod[här](https://releases.aspose.com/).
+Ja, du kan använda Aspose.Cells genom att registrera dig för en gratis provperiod[här](https://releases.aspose.com/).
 
 ### Hur kan jag få support för Aspose.Cells?
  Du kan få hjälp och ställa frågor på[Aspose Support Forum](https://forum.aspose.com/c/cells/9).

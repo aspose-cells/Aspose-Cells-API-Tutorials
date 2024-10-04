@@ -38,7 +38,7 @@ Ismerje meg az AVERAGE függvény használatát az Excelben az Aspose.Cells for 
 Ismerje meg az Excel MAX funkciójának használatát az Aspose.Cells for Java alkalmazással. Ebben az átfogó oktatóanyagban részletes útmutatást, kódpéldákat és GYIK-et találhat.
 ### [A MIN függvény magyarázata az Excelben](./min-function-in-excel-explained/)
 Fedezze fel a MIN függvény erejét az Excelben az Aspose.Cells for Java segítségével. Tanulja meg könnyedén megtalálni a minimális értékeket.
-### [Az Excel szöveges függvényei demisztifikálva](./excel-text-functions-demystified/)
+### [Az Excel szövegfüggvényei demisztifikálva](./excel-text-functions-demystified/)
 Fedezze fel az Excel szöveges függvényeinek titkait az Aspose.Cells for Java segítségével. Tanuljon meg könnyedén kezelni, kibontani és átalakítani a szöveget Excelben.
 ### [Excel dátumfüggvények bemutatója](./excel-date-functions-tutorial/)
 Tanulja meg az Excel dátumfüggvényeit az Aspose.Cells for Java segítségével. Fedezze fel a lépésről lépésre bemutatott oktatóanyagokat a forráskóddal.

@@ -66,7 +66,7 @@ Ezután létrehozzuk a Workbook osztály egy példányát. Ez az osztály képez
 Workbook workbook = new Workbook();
 ```
 
- Amikor létrehoz egy új példányt a`Workbook`osztályban, gyakorlatilag üres lappal indul – készen áll a cselekvésre. Tekintsd úgy, mintha kinyitsz egy üres jegyzetfüzetet, ahol mindent feljegyezhetsz, amire szükséged van.
+ Amikor létrehoz egy új példányt a`Workbook` osztályban, gyakorlatilag üres lappal indul – készen áll a cselekvésre. Tekintsd úgy, mintha kinyitsz egy üres jegyzetfüzetet, ahol mindent feljegyezhetsz, amire szükséged van.
 
 ## 3. lépés: Új munkalap hozzáadása
 
@@ -116,10 +116,10 @@ Az Aspose.Cells segítségével a lehetőségek végtelenek. Az adatokat számta
 Az Aspose.Cells for .NET egy hatékony könyvtár az Excel-fájlok létrehozásához, kezeléséhez és konvertálásához anélkül, hogy a Microsoft Excel telepítése szükséges lenne.
 
 ### Hozzáadhatok több lapot egyszerre?  
- Igen, csak hívja a`Add()`módszert többször, és hivatkozzon minden lapra az indexével!
+ Igen, csak hívja a`Add()` módszert többször, és hivatkozzon minden lapra az indexével!
 
 ### Létezik ingyenes próbaverzió az Aspose.Cells-nek?  
- Határozottan! Letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+Határozottan! Letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### Formázhatom az új lapot a hozzáadása után?  
 Teljesen! Stílusokat, formátumokat, sőt képleteket is alkalmazhat munkalapjaira a könyvtár szolgáltatásaival.

@@ -20,7 +20,7 @@ Voordat we in de code duiken, willen we er zeker van zijn dat je over de juiste 
 -  Een geldig rijbewijs of een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) als u de volledige functionaliteit van Aspose.Cells wilt testen.
 - Basiskennis van C# en het .NET Framework.
 
- U kunt ook de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/)voor meer informatie.
+ U kunt ook de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) voor meer informatie.
 
 ## Pakketten importeren
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Ten slotte slaat u de tweede werkmap op met het gekopieerde werkblad. Dit is alsof u uw nieuw geschreven notities opslaat in een nieuwe map op uw computer.
 
 ```csharp
-// Sla het bestand op.
+//Sla het bestand op.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

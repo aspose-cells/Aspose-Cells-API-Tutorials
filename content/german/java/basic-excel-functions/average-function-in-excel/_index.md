@@ -107,7 +107,7 @@ Aspose.Cells für Java bietet eine Vielzahl von Funktionen, die über das hinaus
 
 ## Abschluss
 
-In diesem Artikel haben wir untersucht, wie man die AVERAGE-Funktion in Excel mit Aspose.Cells für Java verwendet. Wir begannen mit der Einrichtung der Entwicklungsumgebung, dem Erstellen einer neuen Excel-Arbeitsmappe, dem Hinzufügen von Daten, der Verwendung der AVERAGE-Funktion, dem Formatieren des Blatts und der Behandlung von Fehlern. Aspose.Cells für Java bietet eine robuste Lösung für die programmgesteuerte Automatisierung von Excel-Aufgaben und ist damit ein wertvolles Tool für die Datenmanipulation und -analyse.
+In diesem Artikel haben wir untersucht, wie man die AVERAGE-Funktion in Excel mit Aspose.Cells für Java verwendet. Wir begannen mit der Einrichtung der Entwicklungsumgebung, dem Erstellen einer neuen Excel-Arbeitsmappe, dem Hinzufügen von Daten, der Verwendung der AVERAGE-Funktion, dem Formatieren des Blatts und der Fehlerbehandlung. Aspose.Cells für Java bietet eine robuste Lösung für die programmgesteuerte Automatisierung von Excel-Aufgaben und ist damit ein wertvolles Tool für die Datenmanipulation und -analyse.
 
 ## Häufig gestellte Fragen
 

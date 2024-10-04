@@ -54,8 +54,8 @@ Nyní, když máme vše na svém místě, pojďme se vrhnout na krok za krokem p
 Abychom mohli začít naše dobrodružství s náhledy tisku, musíme definovat, kde se nachází náš zdrojový soubor Excel. Toto je váš vstupní bod, takže jej nastavte:
 
 ```csharp
-//Zdrojový adresář
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Zdrojový adresář
+string sourceDir = "Your Document Directory";
 ```
 
  Tento kód nám pomáhá najít cestu kam`Book1.xlsx` sídlí, takže budoucí reference mnohem jednodušší.

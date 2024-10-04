@@ -1,6 +1,6 @@
 ---
-title: Stratégies de verrouillage cellulaire
-linktitle: Stratégies de verrouillage cellulaire
+title: Stratégies de verrouillage des cellules
+linktitle: Stratégies de verrouillage des cellules
 second_title: API de traitement Java Excel Aspose.Cells
 description: Apprenez des stratégies efficaces de verrouillage de cellules à l'aide d'Aspose.Cells pour Java. Améliorez la sécurité et l'intégrité des données dans les fichiers Excel grâce à des instructions étape par étape.
 type: docs

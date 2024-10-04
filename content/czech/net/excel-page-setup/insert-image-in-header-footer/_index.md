@@ -148,4 +148,4 @@ Ano, do různých částí záhlaví nebo zápatí můžete vložit samostatné 
 Ujistěte se, že cesta k obrázku je správná a soubor existuje. Zkontrolujte také kompatibilitu formátu obrázku.
 
 ### Kde najdu další dokumentaci pro Aspose.Cells?
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).

@@ -47,13 +47,13 @@ Låt oss dela upp saker i hanterbara steg. Vi guidar dig genom processen att ers
 Först måste vi ange var vår indata Excel-fil finns, samt var vi vill spara utdatafilen efter att ha gjort nödvändiga ändringar.
 
 ```csharp
-//Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Källkatalog
+string sourceDir = "Your Document Directory";
 // Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Här,`RunExamples.Get_SourceDirectory()` och`RunExamples.Get_OutputDirectory()` är verktygsfunktioner som hjälper dig att enkelt ta tag i käll- och utmatningsvägarna. Se till att din källkatalog innehåller en fil med namnet`SampleRegexReplace.xlsx` för detta exempel.
+ Här,`"Your Document Directory"` och`"Your Document Directory"` är verktygsfunktioner som hjälper dig att enkelt ta tag i käll- och utmatningsvägarna. Se till att din källkatalog innehåller en fil med namnet`SampleRegexReplace.xlsx` för detta exempel.
 
 ## Steg 2: Ladda arbetsboken
 
@@ -78,7 +78,7 @@ replace.RegexKey = true; // Ange att vi använder regex
 
 I den här konfigurationen:
 - `CaseSensitive` är inställd på`false`vilket betyder att vår sökning efter "KIM" ignorerar om det är versaler eller gemener.
-- `MatchEntireCellContents` är inställd på`false` så vi kan ersätta delar av cellinnehållet.
+- `MatchEntireCellContents` är inställd på`false` så att vi kan ersätta delar av cellinnehållet.
 - `RegexKey` är inställd på`true` för att indikera att vi kommer att använda ett reguljärt uttryck för vår sökning.
 
 ## Steg 4: Utföra bytet

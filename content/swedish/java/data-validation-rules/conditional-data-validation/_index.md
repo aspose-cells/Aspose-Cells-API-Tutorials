@@ -54,7 +54,7 @@ DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1
 
 I det här exemplet tillämpar vi datavalidering på cellerna A1 till A10, och anger att data ska vara ett heltal mellan 1 och 100.
 
-## Steg 5: Ställ in valideringsmeddelande och felmeddelande
+## Steg 5: Ställ in valideringsmeddelande och felvarning
 
 Du kan tillhandahålla ett valideringsmeddelande och felmeddelande för att vägleda användare när de anger data som inte uppfyller kriterierna. Så här kan du göra det:
 

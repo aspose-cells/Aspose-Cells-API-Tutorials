@@ -39,7 +39,7 @@ Het eerste wat u moet doen is definiëren waar uw outputbestand wordt opgeslagen
 
 ```csharp
 // Uitvoermap
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Deze regel code haalt het directorypad op waar het gegenereerde bestand wordt opgeslagen. Zorg ervoor dat deze directory bestaat, anders kunt u later een file-not-found-fout krijgen.

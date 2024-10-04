@@ -22,10 +22,10 @@ Mielőtt belevágnánk a tényleges kódolási részbe, győződjünk meg arról
 -  Győződjön meg arról, hogy az Aspose.Cells for .NET telepítve van a fejlesztői környezetében. Ha még nem telepítette, menjen a[Letöltési link](https://releases.aspose.com/cells/net/) kezdeni.
 
 ### Visual Studio
-- C#-alkalmazások létrehozásához és futtatásához olyan IDE-re lesz szüksége, mint a Visual Studio.
+- A C#-alkalmazások létrehozásához és futtatásához olyan IDE-re lesz szüksége, mint a Visual Studio.
 
 ### Egy minta Excel fájl
--  Demonstrációs célokra szüksége lesz egy Excel fájlra, amelyet meghívunk`book1.xls`. Létrehozhat egyszerű Excel fájlt a Microsoft Excel vagy bármilyen kompatibilis alkalmazás segítségével.
+- Demonstrációs célokra szüksége lesz egy Excel fájlra, amelyet meghívunk`book1.xls`. Létrehozhat egyszerű Excel fájlt a Microsoft Excel vagy bármilyen kompatibilis alkalmazás segítségével.
 
 Ha ezek az előfeltételek adottak, elkezdhetjük a kódolást!
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- A`Workbook`objektum a teljes Excel-fájlt képviseli a memóriában. Gondoljon arra, hogy az egész fájlt beviszi a munkaterületére, hogy elkezdhesse a módosításokat.
+ A`Workbook` objektum a teljes Excel-fájlt képviseli a memóriában. Gondoljon arra, hogy az egész fájlt beviszi a munkaterületére, hogy elkezdhesse a módosításokat.
 
 ## 5. lépés: Nyissa meg a munkalapot
 
@@ -100,7 +100,7 @@ Ezen a vonalon történik a varázslat! Zárolja a megadott sorokat és oszlopok
 
 ## 7. lépés: Mentse el a módosított Excel-fájlt
 
-módosítások elvégzése után győződjön meg arról, hogy elmenti a munkafüzetet:
+A módosítások elvégzése után győződjön meg arról, hogy elmenti a munkafüzetet:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
@@ -131,7 +131,7 @@ Az ablaktáblák rögzítése lehetővé teszi bizonyos sorok vagy oszlopok lát
  Igen, tetszőleges számú sort és oszlopot rögzíthet, ha megadja a pozíciójukat a`FreezePanes` módszer.
 
 ### Az Aspose.Cells ingyenesen használható?
- Az Aspose.Cells ingyenes próbaverziót kínál, de a hosszú távú használathoz licencet kell vásárolnia. Ellenőrizze a[vásárlási oldal](https://purchase.aspose.com/buy) részletekért.
+Az Aspose.Cells ingyenes próbaverziót kínál, de a hosszú távú használathoz licencet kell vásárolnia. Ellenőrizze a[vásárlási oldal](https://purchase.aspose.com/buy) részletekért.
 
 ### Hol találok támogatást az Aspose.Cells számára?
  A támogatást a[Aspose fórum](https://forum.aspose.com/c/cells/9), ahol kérdéseket tehet fel, és megoldásokat találhat a közösség részéről.

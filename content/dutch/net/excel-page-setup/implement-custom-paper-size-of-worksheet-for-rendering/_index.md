@@ -16,7 +16,7 @@ Het programmatisch maken en aanpassen van Excel-documenten kan uw werk efficiën
 Voordat we in de code duiken, moeten we ervoor zorgen dat je goed bent ingesteld. Dit is wat je nodig hebt om te beginnen:
 
 1. Visual Studio of een .NET IDE: Zorg dat u een werkende IDE hebt zoals Visual Studio. Dit is uw speeltuin waar alle codeermagie plaatsvindt.
-2.  Aspose.Cells voor .NET-pakket: Als u dat nog niet hebt gedaan, moet u de Aspose.Cells-bibliotheek downloaden en installeren. U kunt de nieuwste versie vinden op de[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells voor .NET-pakket: Als u dat nog niet hebt gedaan, moet u de Aspose.Cells-bibliotheek downloaden en installeren. U kunt de nieuwste versie vinden op de[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Hoewel we u door de code leiden, kunt u met een basiskennis van C# de nuances beter begrijpen.
 4. Toegang tot .NET Framework: zorg ervoor dat uw project is ingesteld voor een compatibele versie van .NET Framework.
 

@@ -55,9 +55,8 @@ V tomto kroku určíte, kam bude výstupní soubor uložen. Je to jako rozhodov�
 
 ```csharp
 //Výstupní adresář
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- Tady používáme metodu`RunExamples.Get_OutputDirectory()` určete složku, kam se uloží vygenerovaný soubor Excel. Ujistěte se, že je tato metoda definována ve vašem kódu pro správné zpracování výstupu.
 
 ## Krok 2: Vytvořte objekt sešitu
 
@@ -77,7 +76,7 @@ Je čas udělat z vašeho sešitu mistrovské dílo založené na spolupráci! S
 //Sdílejte sešit
 wb.Settings.Shared = true;
 ```
- Nastavení`wb.Settings.Shared` na`true` označuje, že k tomuto sešitu může přistupovat více uživatelů najednou. Je to jako rozdávat klíče od svého domu přátelům – mohou přicházet a odcházet, jak chtějí!
+ Nastavení`wb.Settings.Shared` na`true`označuje, že k tomuto sešitu může přistupovat více uživatelů najednou. Je to jako rozdávat klíče od svého domu přátelům – mohou přicházet a odcházet, jak chtějí!
 
 ## Krok 4: Uložte sdílený sešit
 

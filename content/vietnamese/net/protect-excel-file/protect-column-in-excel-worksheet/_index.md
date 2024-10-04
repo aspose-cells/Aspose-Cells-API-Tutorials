@@ -16,7 +16,7 @@ Quản lý dữ liệu trong các trang tính Excel có thể giống như đang
 Trước khi bắt đầu hành trình bảo vệ dữ liệu này, bạn cần thực hiện một số điều sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là môi trường thân thiện để phát triển .NET.
-2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Có một chút hiểu biết về lập trình C# sẽ giúp bạn hiểu mã tốt hơn.
 4. .NET Framework: Đảm bảo bạn đã thiết lập .NET Framework. Thư viện này hoạt động liền mạch với cả .NET Framework và .NET Core.
 
@@ -117,11 +117,11 @@ Vòng lặp này đi qua từng cột (từ 0 đến 255) và mở khóa chúng.
 Bây giờ đến phần thú vị—khóa cột cụ thể mà bạn muốn bảo vệ. Trong ví dụ của chúng tôi, chúng tôi sẽ khóa cột đầu tiên (chỉ mục 0).
 
 ```csharp
-//Lấy kiểu cột đầu tiên.
+// Lấy kiểu cột đầu tiên.
 style = sheet.Cells.Columns[0].Style;
 // Khóa nó lại.
 style.IsLocked = true;
-// Tạo cờ.
+//Tạo cờ.
 flag = new StyleFlag();
 // Thiết lập cài đặt khóa.
 flag.Locked = true;

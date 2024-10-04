@@ -53,12 +53,12 @@ Till att börja med måste du identifiera var din Excel-källfil finns och var d
 
 ```csharp
 //Källkatalog
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Utdatakatalog
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Här skulle du byta ut`RunExamples.Get_SourceDirectory()` och`RunExamples.Get_OutputDirectory()` med faktiska sökvägar där dina filer lagras.
+ Här skulle du byta ut`"Your Document Directory"` och`"Your Document Directory"` med faktiska sökvägar där dina filer lagras.
 
 ## Steg 2: Ladda Excel-filen
 
@@ -126,7 +126,7 @@ Detta är det stora ögonblicket! Vi tar nu bort skrivarinställningarna genom a
 }
 ```
 
-I det här utdraget rensar vi effektivt skrivarinställningarna, vilket gör det hela snyggt och snyggt.
+det här utdraget rensar vi effektivt skrivarinställningarna, vilket gör det hela snyggt och snyggt.
 
 ## Steg 7: Spara arbetsboken
 
@@ -149,7 +149,7 @@ Och där har du det! Du har framgångsrikt navigerat in och ut när du tar bort 
 Aspose.Cells är ett kraftfullt bibliotek som låter utvecklare skapa, manipulera och konvertera Excel-filer i .NET-applikationer.
 
 ### Kan jag använda Aspose.Cells gratis?  
- Ja, Aspose erbjuder en gratis testversion som du kan använda för att utforska dess funktioner. Kolla in[gratis testlänk](https://releases.aspose.com/).
+Ja, Aspose erbjuder en gratis testversion som du kan använda för att utforska dess funktioner. Kolla in[gratis testlänk](https://releases.aspose.com/).
 
 ### Behöver jag installera Microsoft Excel för att använda Aspose.Cells?  
 Nej, Aspose.Cells fungerar oberoende av Microsoft Excel. Du behöver inte ha Excel installerat på din dator.

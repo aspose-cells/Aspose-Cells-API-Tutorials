@@ -60,7 +60,7 @@ Workbook workbook = new Workbook();
 
 ## Steg 3: Rensa horisontella sidbrytningar
 
-Därefter kommer vi att ta itu med de horisontella sidbrytningarna. Det är här det kan bli lite rörigt och du vill ta kontroll.
+Därefter ska vi ta itu med de horisontella sidbrytningarna. Det är här det kan bli lite rörigt och du vill ta kontroll.
 
 ```csharp
 workbook.Worksheets[0].HorizontalPageBreaks.Clear();
@@ -83,7 +83,7 @@ Slutligen, du vill inte förlora allt detta hårda arbete, eller hur? Det är da
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 ```
- Här sparar vi justeringarna vi gjorde i en ny Excel-fil som heter`ClearAllPageBreaks_out.xls` i samma katalog som vi angav tidigare. Det är din trofé för ett väl utfört arbete!
+ Här sparar vi justeringarna vi gjorde i en ny Excel-fil som heter`ClearAllPageBreaks_out.xls` i samma katalog som vi angav tidigare. Det är din trofé för ett väl utfört jobb!
 
 ## Slutsats
 

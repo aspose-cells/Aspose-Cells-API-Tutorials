@@ -123,7 +123,7 @@ Elke regel hier vertegenwoordigt een optie die de weergave van uw document verbe
 
 5. Print Draft Kwaliteit: Als het slechts een ruwe kopie is, hoeft u niet de volledige kwaliteit te gebruiken. Het is alsof u schetst voordat u gaat schilderen!
 
-6. Fouten afdrukken als N/B: Door fouten weer te geven als N/B blijft de afdruk overzichtelijk en begrijpelijk, en voorkomt u verwarring.
+6. Fouten afdrukken als N/B: Door fouten als N/B weer te geven, blijft de afdruk overzichtelijk en begrijpelijk, en voorkomt u verwarring.
 
 ## Stap 5: Sla de werkmap op
 

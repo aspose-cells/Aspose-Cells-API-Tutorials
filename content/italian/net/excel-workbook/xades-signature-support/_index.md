@@ -41,13 +41,11 @@ Ora che abbiamo impostato tutto, scomponiamo il processo di aggiunta di una firm
 Per prima cosa, dobbiamo definire dove si trova il nostro file Excel sorgente e dove vogliamo salvare il file di output firmato. Questo è un passaggio cruciale perché aiuta a organizzare i file in modo efficiente.
 
 ```csharp
-//Elenco di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Elenco di origine
+string sourceDir = "Your Document Directory";
 // Directory di uscita
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- In questo frammento di codice,`RunExamples.Get_SourceDirectory()` E`RunExamples.Get_OutputDirectory()` sono metodi che restituiscono rispettivamente i percorsi alle directory di origine e di output. Assicurati di sostituirli con i percorsi effettivi se non stai utilizzando questi metodi.
 
 ## Passaggio 2: caricare la cartella di lavoro
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Sostituisci con la tua password PFX
 string pfx = "pfxFile"; // Sostituisci con il percorso del tuo file PFX
 ```
 
- In questo passaggio, sostituisci`pfxPassword` con la tua password effettiva e`pfxFile`con il percorso al tuo file PFX. Questa è la chiave per firmare il tuo documento!
+ In questo passaggio, sostituisci`pfxPassword` con la tua password effettiva e`pfxFile` con il percorso al tuo file PFX. Questa è la chiave per firmare il tuo documento!
 
 ## Fase 4: creare la firma digitale
 
- Ora creiamo la firma digitale utilizzando`DigitalSignature` classe. È qui che avviene la magia!
+ Ora creiamo la firma digitale utilizzando`DigitalSignature`classe. È qui che avviene la magia!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

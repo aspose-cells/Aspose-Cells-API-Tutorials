@@ -42,12 +42,10 @@ Feladatainkat kezelhető lépésekre bontjuk az áttekinthetőség érdekében.
 Ebben a lépésben meg kell határoznunk, hogy a bemeneti és kimeneti fájljaink hol legyenek.
 
 ```csharp
-//Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Forrás könyvtár
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Itt segédprogramokat használunk`Get_SourceDirectory()` és`Get_OutputDirectory()` hogy kényelmesen beállíthassuk a fájl elérési útjainkat. Ezeket az elérési utakat testreszabhatja a könyvtárszerkezetének megfelelően.
 
 ## 2. lépés: Hozzon létre egy munkafüzet-tervező objektumot
 
@@ -78,7 +76,7 @@ Most gondoskodnia kell arról, hogy a munkafüzet beállításai úgy legyenek b
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Beállítás által`QuotePrefixToStyle` false értékre utasítjuk az Aspose.Cells-t, hogy a vezető aposztrófokat szabályos karakterként kezelje, lehetővé téve számunkra, hogy pontosan kezeljük őket a kimenetünkben.
+ Beállítás által`QuotePrefixToStyle` a false értékre utasítjuk az Aspose.Cells-t, hogy a vezető aposztrófokat szabályos karakterként kezelje, lehetővé téve számunkra, hogy pontosan kezeljük őket a kimenetünkben.
 
 ## 5. lépés: Töltse be az adatokat az intelligens jelölőkhöz
 
@@ -146,7 +144,7 @@ Mostantól függetlenül attól, hogy jelentéseket készít, adatelemzési funk
 Az Aspose.Cells egy hatékony .NET-könyvtár több formátumú Excel-fájlok programozott létrehozásához, kezeléséhez és konvertálásához.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?
- Igen, használhatja az Aspose.Cells-t, ha regisztrál egy ingyenes próbaverzióra[itt](https://releases.aspose.com/).
+Igen, használhatja az Aspose.Cells-t, ha regisztrál egy ingyenes próbaverzióra[itt](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
  Segítséget találhat és kérdéseket tehet fel a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).

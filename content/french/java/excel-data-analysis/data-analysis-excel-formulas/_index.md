@@ -86,7 +86,7 @@ pivotTable.calculateData();
 
 ## Conclusion
 
-Dans cet article, nous avons exploré l'analyse des données dans Excel à l'aide d'Aspose.Cells pour Java. Nous avons commencé par présenter la bibliothèque et configurer l'environnement Java. Ensuite, nous avons abordé les formules Excel de base comme SUM et AVERAGE pour l'analyse des données. Enfin, nous avons abordé des techniques avancées comme les tableaux croisés dynamiques.
+Dans cet article, nous avons exploré l'analyse des données dans Excel à l'aide d'Aspose.Cells pour Java. Nous avons commencé par présenter la bibliothèque et configurer l'environnement Java. Ensuite, nous avons abordé les formules Excel de base telles que SUM et AVERAGE pour l'analyse des données. Enfin, nous avons abordé des techniques avancées telles que les tableaux croisés dynamiques.
 
 ## FAQ
 

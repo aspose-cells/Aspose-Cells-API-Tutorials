@@ -10,7 +10,7 @@ url: /zh/java/data-validation-rules/date-validation-in-spreadsheets/
 
 ## 介绍
 
-在数据处理领域，电子表格是不可或缺的工具，Java 开发人员经常使用电子表格数据。确保数据完整性至关重要，尤其是在处理日期时。在本指南中，我们将探讨如何使用 Aspose.Cells for Java（一种用于处理 Excel 文件的强大 API）在电子表格中执行日期验证。
+在数据处理领域，电子表格是不可或缺的工具，而 Java 开发人员经常会使用电子表格数据。确保数据完整性至关重要，尤其是在处理日期时。在本指南中，我们将探讨如何使用 Aspose.Cells for Java（一种用于处理 Excel 文件的强大 API）在电子表格中执行日期验证。
 
 ## 先决条件
 

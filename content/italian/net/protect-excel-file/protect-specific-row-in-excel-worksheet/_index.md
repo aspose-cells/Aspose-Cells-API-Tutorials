@@ -104,7 +104,7 @@ Ora è il momento di bloccare la riga che vuoi proteggere. In questo caso, stiam
 style = sheet.Cells.Rows[0].Style;
 // Chiudilo a chiave.
 style.IsLocked = true;
-// Istanziare il flag.
+//Istanziare il flag.
 flag = new StyleFlag();
 // Imposta l'impostazione di blocco.
 flag.Locked = true;

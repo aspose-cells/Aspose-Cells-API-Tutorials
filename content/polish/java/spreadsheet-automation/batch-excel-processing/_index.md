@@ -8,7 +8,7 @@ weight: 10
 url: /pl/java/spreadsheet-automation/batch-excel-processing/
 ---
 
-Obsługa wielu plików Excel w procesie wsadowym może być czasochłonna i podatna na błędy, jeśli jest wykonywana ręcznie. W tym samouczku przyjrzymy się, jak usprawnić zadania przetwarzania wsadowego Excel przy użyciu Aspose.Cells for Java, potężnego interfejsu API Java do pracy z plikami Excel.
+Obsługa wielu plików Excel w procesie wsadowym może być czasochłonna i podatna na błędy, jeśli jest wykonywana ręcznie. W tym samouczku przyjrzymy się, jak usprawnić zadania przetwarzania wsadowego Excel przy użyciu Aspose.Cells for Java, potężnego API Java do pracy z plikami Excel.
 
 ## Dlaczego warto zautomatyzować przetwarzanie wsadowe w programie Excel?
 

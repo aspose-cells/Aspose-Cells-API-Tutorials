@@ -16,7 +16,7 @@ Excel sayfalarında veri yönetmek bir labirentte gezinmek gibi hissettirebilir.
 Veri koruma yolculuğumuza başlamadan önce, başlamanız için ihtiyacınız olacak birkaç şey var:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için dostça bir ortamdır.
-2. Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Eğer henüz yüklemediyseniz, şuradan edinebilirsiniz:[Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Eğer henüz yüklemediyseniz, şuradan edinebilirsiniz:[Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya biraz aşina olmak, kodu daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework: .NET framework'ün kurulu olduğundan emin olun. Bu kütüphane hem .NET Framework hem de .NET Core ile sorunsuz bir şekilde çalışır.
 
@@ -117,11 +117,11 @@ Bu döngü her sütundan geçer (0'dan 255'e kadar) ve bunların kilidini açar.
 Şimdi eğlenceli kısma geliyoruz: korumak istediğiniz belirli sütunu kilitlemek. Örneğimizde, ilk sütunu (indeks 0) kilitleyeceğiz.
 
 ```csharp
-//İlk sütun stilini edinin.
+// İlk sütun stilini edinin.
 style = sheet.Cells.Columns[0].Style;
 // Kilitle onu.
 style.IsLocked = true;
-// Bayrağı örneklendir.
+//Bayrağı örneklendir.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;

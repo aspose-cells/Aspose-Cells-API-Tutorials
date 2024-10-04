@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 // Κατάλογοι εργασίας
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Εδώ, χρησιμοποιούμε μια υποθετική μέθοδο`RunExamples.Get_SourceDirectory()` για να ανακτήσουμε τη διαδρομή προς τα αρχεία πηγής μας. Ομοίως,`RunExamples.Get_OutputDirectory()` παίρνει τη διαδρομή όπου θα αποθηκεύσουμε την παραγωγή μας. Βεβαιωθείτε ότι αυτές οι μέθοδοι επιστρέφουν έγκυρες διαδρομές στον υπολογιστή σας.
 
 ## Βήμα 2: Φορτώστε το βιβλίο εργασίας
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Ο`Workbook`class είναι το σημείο εισόδου σας στο αρχείο Excel. Περνώντας τη διαδρομή του αρχείου προέλευσης, δημιουργούμε ένα στιγμιότυπο που μας επιτρέπει να το χειριστούμε. Μπορείτε να το φανταστείτε σαν να ανοίγετε ένα βιβλίο — ετοιμάζεστε να διαβάσετε (ή να επεξεργαστείτε) το περιεχόμενό του.
+ Ο`Workbook` class είναι το σημείο εισόδου σας στο αρχείο Excel. Περνώντας τη διαδρομή του αρχείου προέλευσης, δημιουργούμε ένα στιγμιότυπο που μας επιτρέπει να το χειριστούμε. Μπορείτε να το φανταστείτε σαν να ανοίγετε ένα βιβλίο — ετοιμάζεστε να διαβάσετε (ή να επεξεργαστείτε) το περιεχόμενό του.
 
 ## Βήμα 3: Πρόσβαση στο Data Mashup
 
@@ -102,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Ο`Save` μέθοδος εγγράφει το ενημερωμένο βιβλίο εργασίας στον καθορισμένο κατάλογο εξόδου. Είναι σαν να σφραγίζετε τις αλλαγές σας σε μια νέα έκδοση του εγχειριδίου, έτοιμη για χρήση από άλλους!
+ Ο`Save`μέθοδος εγγράφει το ενημερωμένο βιβλίο εργασίας στον καθορισμένο κατάλογο εξόδου. Είναι σαν να σφραγίζετε τις αλλαγές σας σε μια νέα έκδοση του εγχειριδίου, έτοιμη για χρήση από άλλους!
 
 ## Σύναψη
 

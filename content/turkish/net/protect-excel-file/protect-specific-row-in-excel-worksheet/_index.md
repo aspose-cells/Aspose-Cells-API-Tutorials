@@ -104,7 +104,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Rows[0].Style;
 // Kilitle onu.
 style.IsLocked = true;
-// Bayrağı örneklendir.
+//Bayrağı örneklendir.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;

@@ -53,7 +53,7 @@ Nos, itt kezdődik a móka! Az Ön által megadott kódrészletet lépésről l�
 
 ```csharp
 // Határozza meg a forráskönyvtárat
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Ez a sor az Excel fájlt tartalmazó könyvtárra mutat. Ügyeljen arra, hogy az elérési utat a fájl helyének megfelelően állítsa be.
@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 4. lépés: Hozzon létre egy tartományt
 
- Most meghatározunk egy tartományt a munkalapon. Egy tartomány lehetővé teszi, hogy konkrét cellákat célozhassunk meg műveleteinkhez. Ebben az esetben létrehozunk egy tartományt a következőből`A1` hogy`A7`, amely a hiperhivatkozásainkat tartalmazza.
+ Most meghatározunk egy tartományt a munkalapon. Egy tartomány lehetővé teszi, hogy konkrét cellákat célozhassunk meg műveleteinkhez. Ebben az esetben egy tartományt hozunk létre ebből`A1` hogy`A7`, amely hiperhivatkozásainkat tartalmazza.
 
 ```csharp
 // Hozzon létre egy A1:B3 tartományt

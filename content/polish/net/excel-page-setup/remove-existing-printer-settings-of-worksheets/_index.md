@@ -53,12 +53,12 @@ Na początek musisz określić, gdzie znajduje się plik źródłowy programu Ex
 
 ```csharp
 //Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Tutaj należy zastąpić`RunExamples.Get_SourceDirectory()` I`RunExamples.Get_OutputDirectory()` z rzeczywistymi ścieżkami, gdzie przechowywane są Twoje pliki.
+ Tutaj należy zastąpić`"Your Document Directory"` I`"Your Document Directory"` z rzeczywistymi ścieżkami, gdzie przechowywane są Twoje pliki.
 
 ## Krok 2: Załaduj plik Excel
 
@@ -126,7 +126,7 @@ To jest wielki moment! Teraz usuniemy ustawienia drukarki, ustawiając je na nul
 }
 ```
 
-W tym fragmencie skutecznie wyczyścimy ustawienia drukarki, dzięki czemu wszystko będzie uporządkowane i klarowne.
+tym fragmencie skutecznie wyczyścimy ustawienia drukarki, dzięki czemu wszystko będzie uporządkowane i klarowne.
 
 ## Krok 7: Zapisz skoroszyt
 
@@ -149,7 +149,7 @@ I masz to! Udało Ci się pomyślnie przejść przez wszystkie zawiłości usuwa
 Aspose.Cells to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
- Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji jej funkcji. Sprawdź[bezpłatny link do wersji próbnej](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, której możesz użyć do eksploracji jej funkcji. Sprawdź[bezpłatny link do wersji próbnej](https://releases.aspose.com/).
 
 ### Czy muszę zainstalować program Microsoft Excel, aby korzystać z Aspose.Cells?  
 Nie, Aspose.Cells działa niezależnie od Microsoft Excel. Nie potrzebujesz zainstalowanego Excela na swoim komputerze.

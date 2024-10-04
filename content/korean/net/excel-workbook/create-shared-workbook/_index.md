@@ -55,9 +55,8 @@ using System.Text;
 
 ```csharp
 //출력 디렉토리
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
- 여기서 우리는 방법을 사용하고 있습니다`RunExamples.Get_OutputDirectory()` 생성된 Excel 파일이 저장될 폴더를 지정합니다. 적절한 출력 처리를 위해 코드에 이 메서드가 정의되어 있는지 확인하세요.
 
 ## 2단계: 통합 문서 개체 만들기
 
@@ -77,7 +76,7 @@ Workbook wb = new Workbook();
 //워크북 공유하기
 wb.Settings.Shared = true;
 ```
- 환경`wb.Settings.Shared` 에게`true` 이 워크북은 여러 사용자가 동시에 접근할 수 있음을 나타냅니다. 마치 친구에게 집 열쇠를 주는 것과 같습니다. 그들은 마음대로 드나들 수 있습니다!
+ 환경`wb.Settings.Shared` 에게`true`이 워크북은 여러 사용자가 동시에 접근할 수 있음을 나타냅니다. 마치 친구에게 집 열쇠를 주는 것과 같습니다. 그들은 마음대로 드나들 수 있습니다!
 
 ## 4단계: 공유 통합 문서 저장
 

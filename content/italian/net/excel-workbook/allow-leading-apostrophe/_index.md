@@ -42,12 +42,10 @@ Per garantire chiarezza, suddivideremo i nostri compiti in passaggi gestibili.
 In questo passaggio dobbiamo definire dove verranno posizionati i nostri file di input e output.
 
 ```csharp
-//Elenco di origine
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+// Elenco di origine
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
- Qui utilizziamo metodi di utilità`Get_SourceDirectory()` E`Get_OutputDirectory()` per impostare comodamente i nostri percorsi di file. Puoi personalizzare questi percorsi in base alla tua struttura di directory.
 
 ## Passaggio 2: creare un oggetto Workbook Designer
 
@@ -78,7 +76,7 @@ Ora, devi assicurarti che le impostazioni della cartella di lavoro siano configu
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Impostando`QuotePrefixToStyle`su false, stiamo istruendo Aspose.Cells a trattare gli apostrofi iniziali come caratteri normali, consentendoci di gestirli accuratamente nel nostro output.
+ Impostando`QuotePrefixToStyle` su false, stiamo istruendo Aspose.Cells a trattare gli apostrofi iniziali come caratteri normali, consentendoci di gestirli accuratamente nel nostro output.
 
 ## Passaggio 5: caricare i dati per i marcatori intelligenti
 
@@ -146,7 +144,7 @@ Ora, che tu stia generando report, creando funzionalità per l'analisi dei dati 
 Aspose.Cells è una potente libreria .NET per creare, manipolare e convertire file Excel in più formati a livello di programmazione.
 
 ### Posso usare Aspose.Cells gratuitamente?
- Sì, puoi utilizzare Aspose.Cells registrandoti per una prova gratuita[Qui](https://releases.aspose.com/).
+Sì, puoi utilizzare Aspose.Cells registrandoti per una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Come posso ottenere supporto per Aspose.Cells?
  Puoi trovare assistenza e porre domande su[Forum di supporto Aspose](https://forum.aspose.com/c/cells/9).

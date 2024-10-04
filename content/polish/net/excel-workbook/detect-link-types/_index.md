@@ -53,7 +53,7 @@ A teraz zaczyna się zabawa! Rozłożymy fragment kodu, który nam dostarczyłe�
 
 ```csharp
 // Zdefiniuj katalog źródłowy
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Ten wiersz wskazuje na katalog zawierający plik Excel. Upewnij się, że ścieżka jest dostosowana do lokalizacji pliku.

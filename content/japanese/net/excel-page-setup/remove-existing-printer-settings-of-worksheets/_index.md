@@ -53,12 +53,12 @@ using System;
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //出力ディレクトリ
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
-ここでは、`RunExamples.Get_SourceDirectory()`そして`RunExamples.Get_OutputDirectory()`ファイルが保存されている実際のパスを指定します。
+ここでは、`"Your Document Directory"`そして`"Your Document Directory"`ファイルが保存されている実際のパスを指定します。
 
 ## ステップ2: Excelファイルを読み込む
 

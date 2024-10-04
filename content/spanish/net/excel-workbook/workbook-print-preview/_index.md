@@ -54,8 +54,8 @@ Ahora que tenemos todo en su lugar, profundicemos en el proceso paso a paso para
 Para comenzar nuestra aventura con las vistas previas de impresión, debemos definir dónde se encuentra nuestro archivo Excel de origen. Este es el punto de entrada, así que vamos a configurarlo:
 
 ```csharp
-//Directorio de fuentes
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Directorio de fuentes
+string sourceDir = "Your Document Directory";
 ```
 
  Este código nos ayuda a encontrar el camino donde`Book1.xlsx` reside, haciendo mucho más fáciles futuras referencias.

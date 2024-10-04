@@ -17,7 +17,7 @@ Než se po hlavě ponoříme do našeho dobrodružství s kódováním, věnujte
 
 1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio, protože je to vývojové prostředí, které budeme používat.
 2. .NET Framework: Ujistěte se, že váš projekt je nastaven s rozhraním .NET, které je kompatibilní s Aspose.Cells. Obecně bude fungovat .NET Core nebo .NET Framework 4.5 a vyšší.
-3. Aspose.Cells Library: Budete potřebovat Aspose.Cells for .NET. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells Library: Budete potřebovat Aspose.Cells for .NET. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 4. Základní znalost C#: Znalost syntaxe a struktury C# je nezbytná, protože v této příručce budeme psát segmenty kódu.
 
 Jakmile splníte tyto předpoklady, jste připraveni skočit do světa manipulace s Excelem!
@@ -39,7 +39,7 @@ Nyní si krok za krokem rozeberme proces nastavení oblasti tisku aplikace Excel
 
 Vytvořte proměnnou pro určení umístění vašich dokumentů aplikace Excel. 
 
-Když pracujete na projektu, je nezbytné mít definovanou cestu, kde jsou vaše soubory umístěny nebo kde budou uloženy. V našem případě definujeme proměnnou s názvem`dataDir` následovně:
+ Když pracujete na projektu, je nezbytné mít definovanou cestu, kde jsou vaše soubory umístěny nebo kde budou uloženy. V našem případě definujeme proměnnou s názvem`dataDir` následovně:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -104,7 +104,7 @@ Nastavení oblasti tisku v souboru aplikace Excel pomocí Aspose.Cells for .NET 
 ### Co je Aspose.Cells?
 Aspose.Cells je knihovna .NET pro vytváření, manipulaci a konverzi tabulek aplikace Excel bez nutnosti aplikace Microsoft Excel.
 
-### Jak si stáhnu Aspose.Cells?
+### Jak stáhnu Aspose.Cells?
  Aspose.Cells for .NET si můžete stáhnout z webu[stránka vydání](https://releases.aspose.com/cells/net/).
 
 ### Mohu používat Aspose.Cells zdarma?

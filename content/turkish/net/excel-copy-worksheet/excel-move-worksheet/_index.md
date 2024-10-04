@@ -124,7 +124,7 @@ Evet! Bu kılavuz .NET'e odaklansa da, Aspose.Cells Java, Python ve diğer dille
  Kesinlikle! Yapabilirsin[ücretsiz deneme sürümünü indirin](https://releases.aspose.com/) ve özelliklerini keşfedin.
 
 ### Aspose.Cells için desteği nasıl alabilirim?
- Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9)Soru sormak ve çözüm bulmak.
+ Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9) Soru sormak ve çözüm bulmak.
 
 ### Aspose.Cells ile Excel raporları oluşturabilir miyim?
 Evet! Aspose.Cells, karmaşık Excel raporlarını sorunsuz bir şekilde oluşturmak ve üretmek için güçlü işlevler sunar.

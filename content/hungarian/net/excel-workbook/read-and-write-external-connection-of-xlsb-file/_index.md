@@ -9,7 +9,7 @@ url: /hu/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 ---
 ## Bevezetés
 
-Sziasztok, Excel-rajongók! Készen állsz, hogy belemerülj az XLSB fájlok és külső kapcsolatok lenyűgöző világába? Ha valaha is dolgozott Excellel, tudja, milyen hatékony és sokoldalú lehet, de néha megvannak a maga furcsaságai – különösen, ha külső adatbázisokhoz való kapcsolódásról van szó. Itt jön a segítség az Aspose.Cells for .NET! Ez a remek könyvtár lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben a cikkben lépésről lépésre végigvezetjük Önt egy XLSB-fájlban lévő külső kapcsolatok olvasásához és írásához.
+Sziasztok, Excel rajongók! Készen állsz, hogy belemerülj az XLSB fájlok és külső kapcsolatok lenyűgöző világába? Ha valaha is dolgozott Excellel, tudja, milyen hatékony és sokoldalú lehet, de néha megvannak a maga furcsaságai – különösen, ha külső adatbázisokhoz való kapcsolódásról van szó. Itt jön a segítség az Aspose.Cells for .NET! Ez a remek könyvtár lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben a cikkben lépésről lépésre végigvezetjük Önt egy XLSB-fájlban lévő külső kapcsolatok olvasásához és írásához.
 
 ## Előfeltételek
 
@@ -40,13 +40,13 @@ Ezek az importálások hozzáférést biztosítanak az Excel-fájlok és kapcsol
 Mielőtt az XLSB-fájllal dolgozna, be kell állítania a forrás- és kimeneti könyvtárakat. Ez a lépés elengedhetetlen a fájlok rendszerezéséhez.
 
 ```csharp
-//Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Forrás könyvtár
+string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Ebben a kódrészletben`RunExamples.Get_SourceDirectory()` és`RunExamples.Get_OutputDirectory()`feltételezik, hogy lekérik a megfelelő elérési utat, ahol a bemeneti és kimeneti fájlok lesznek. Ezeket a metódusokat lecserélheti keménykódolt elérési utakra, ha úgy tetszik.
+ Ebben a kódrészletben`"Your Document Directory"` és`"Your Document Directory"`feltételezik, hogy lekérik a megfelelő elérési utat, ahol a bemeneti és kimeneti fájlok lesznek. Ezeket a metódusokat lecserélheti keménykódolt elérési utakra, ha úgy tetszik.
 
 ## 2. lépés: Töltse be az XLSB fájlt
 

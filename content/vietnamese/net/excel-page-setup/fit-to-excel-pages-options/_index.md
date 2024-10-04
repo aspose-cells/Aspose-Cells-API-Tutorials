@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Bây giờ, hãy thiết lập các thông số để phù hợp với bảng tính của bạn vào các trang cụ thể. Đây là nơi bạn có thể chỉ định chiều rộng và chiều cao của nội dung của bạn sẽ xuất hiện trên bao nhiêu trang.
 
 ```csharp
-//Thiết lập số trang mà độ dài của bảng tính sẽ được mở rộng
+// Thiết lập số trang mà độ dài của bảng tính sẽ được mở rộng
 worksheet.PageSetup.FitToPagesTall = 1;
 // Thiết lập số trang mà chiều rộng của bảng tính sẽ được mở rộng
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` xác định số trang mà bảng tính của bạn sẽ trải dài theo chiều dọc.
+- `FitToPagesTall`xác định số trang mà bảng tính của bạn sẽ trải dài theo chiều dọc.
 - `FitToPagesWide` xác định thiết lập trang ngang. Thiết lập cả hai thành`1` có nghĩa là nội dung của bạn sẽ vừa vặn trên một trang, biến tài liệu của bạn thành một kiệt tác hợp lý.
 
 ## Bước 3: Lưu sổ làm việc của bạn

@@ -11,7 +11,7 @@ url: /tr/net/excel-copy-worksheet/excel-copy-worksheet/
 
 Veri işleme dünyasında, elektronik tablolar her yerdedir; satış rakamlarını yönetmekten proje verilerini düzenlemeye kadar. Peki otomasyon gerekli olduğunda bu dosyaları nasıl yönetirsiniz? .NET'te çalışıyorsanız, Aspose.Cells Excel dosyalarını programatik olarak düzenlemek için mükemmel bir araçtır. Bu makalede, .NET için Aspose.Cells kullanarak bir Excel dosyası içinde bir çalışma sayfasını kopyalama konusunda size rehberlik edeceğiz. Bu, sıfırdan başlamadan yeni sayfalarda verileri kopyalamanız gerektiğinde yaygın bir görevdir.
 
-halde kemerlerinizi bağlayın! Bu sürece derinlemesine dalmak üzereyiz, ancak basit, sohbet tarzında ve açık bir şekilde.
+O halde kemerlerinizi bağlayın! Bu sürece derinlemesine dalmak üzereyiz, ancak basit, sohbet tarzında ve açık bir şekilde.
 
 ## Ön koşullar
 
@@ -92,7 +92,7 @@ WorksheetCollection sheets = wb.Worksheets;
 sheets.AddCopy("Sheet1");
 ```
 
--  The`AddCopy`yöntemi mevcut bir çalışma sayfasını (bu durumda "Sayfa1") çoğaltır ve yeni sayfayı çalışma kitabına ekler.
+-  The`AddCopy` yöntemi mevcut bir çalışma sayfasını (bu durumda "Sayfa1") çoğaltır ve yeni sayfayı çalışma kitabına ekler.
 -  Değiştirebilirsin`"Sheet1"` kopyalamak istediğiniz herhangi bir sayfa adı ile.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
@@ -119,7 +119,7 @@ Aspose.Cells for .NET'te bir çalışma sayfasını kopyalamak yalnızca basit d
  Evet, her iki çalışma kitabını da açıp, farklı çalışma kitapları arasında çalışma sayfalarını kopyalayabilirsiniz.`AddCopy` aralarında bir yöntem var.
 
 ### Aspose.Cells hangi Excel formatlarını destekler?
- Aspose.Cells, Excel formatlarının geniş bir yelpazesini destekler; bunlar arasında şunlar yer alır:`.xls`, `.xlsx`, `.csv`, `.html`ve daha fazlası.
+Aspose.Cells, Excel formatlarının geniş bir yelpazesini destekler; bunlar arasında şunlar yer alır:`.xls`, `.xlsx`, `.csv`, `.html`ve daha fazlası.
 
 ### Aspose.Cells for .NET'i kullanmak için lisansa ihtiyacım var mı?
  Evet, filigranlardan kaçınmak ve kütüphanenin tüm potansiyelini ortaya çıkarmak için geçerli bir lisansa ihtiyacınız var. Ancak, bir lisans talep edebilirsiniz.[ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license) satın almadan önce denemek için.

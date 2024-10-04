@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Agora, vamos definir os parâmetros para ajustar sua planilha em páginas específicas. É aqui que você pode especificar quantas páginas de largura e altura seu conteúdo deve aparecer.
 
 ```csharp
-//Definir o número de páginas em que o comprimento da planilha será abrangido
+// Definir o número de páginas em que o comprimento da planilha será abrangido
 worksheet.PageSetup.FitToPagesTall = 1;
 // Definir o número de páginas em que a largura da planilha será estendida
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` determina quantas páginas sua planilha ocupará verticalmente.
+- `FitToPagesTall`determina quantas páginas sua planilha ocupará verticalmente.
 - `FitToPagesWide` define a configuração horizontal da página. Definir ambos para`1` significa que seu conteúdo caberá perfeitamente em uma página, transformando seu documento em uma obra-prima simplificada.
 
 ## Etapa 3: Salve sua pasta de trabalho
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## Conclusão
 
-aí está! Você aprendeu como utilizar as Opções de Ajustar às Páginas do Excel no Aspose.Cells para .NET para garantir que suas planilhas fiquem impecáveis quando impressas ou compartilhadas. Dominar essas técnicas pode agilizar suas apresentações de dados e melhorar sua eficiência geral ao trabalhar com documentos do Excel. Lembre-se, o poder do Aspose.Cells permite que você expanda os limites do que é possível na automação do Excel. 
+E aí está! Você aprendeu como utilizar as Opções de Ajustar às Páginas do Excel no Aspose.Cells para .NET para garantir que suas planilhas fiquem impecáveis quando impressas ou compartilhadas. Dominar essas técnicas pode agilizar suas apresentações de dados e melhorar sua eficiência geral ao trabalhar com documentos do Excel. Lembre-se, o poder do Aspose.Cells permite que você expanda os limites do que é possível na automação do Excel. 
 
 ## Perguntas frequentes
 

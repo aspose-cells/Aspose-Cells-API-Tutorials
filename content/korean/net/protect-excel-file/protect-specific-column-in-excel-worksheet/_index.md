@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 이제, 다른 모든 열은 편집 가능하게 두고, 첫 번째 열만 특별히 잠그고 싶을 겁니다. 이렇게 할 수 있는 방법은 다음과 같습니다.
 
 ```csharp
-//첫 번째 열 스타일을 가져옵니다.
+// 첫 번째 열 스타일을 가져옵니다.
 style = sheet.Cells.Columns[0].Style;
 // 잠그세요.
 style.IsLocked = true;
-// 플래그를 인스턴스화합니다.
+//플래그를 인스턴스화합니다.
 flag = new StyleFlag();
 // 잠금설정을 합니다.
 flag.Locked = true;

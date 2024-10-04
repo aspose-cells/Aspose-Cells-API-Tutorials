@@ -53,12 +53,12 @@ Kezdésként meg kell határoznia, hogy hol található a forrás Excel-fájl, �
 
 ```csharp
 //Forrás könyvtár
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //Kimeneti könyvtár
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
- Itt cserélnéd`RunExamples.Get_SourceDirectory()` és`RunExamples.Get_OutputDirectory()` a fájlok tárolási útvonalaival.
+ Itt cserélnéd`"Your Document Directory"` és`"Your Document Directory"` a fájlok tárolási útvonalaival.
 
 ## 2. lépés: Töltse be az Excel fájlt
 
@@ -149,7 +149,7 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 Az Aspose.Cells egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, kezelését és konvertálását .NET-alkalmazásokban.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?  
- Igen, az Aspose ingyenes próbaverziót kínál, amellyel felfedezheti funkcióit. Nézze meg a[ingyenes próba link](https://releases.aspose.com/).
+Igen, az Aspose ingyenes próbaverziót kínál, amellyel felfedezheti funkcióit. Nézze meg a[ingyenes próba link](https://releases.aspose.com/).
 
 ### Telepítenem kell a Microsoft Excelt az Aspose.Cells használatához?  
 Nem, az Aspose.Cells a Microsoft Exceltől függetlenül működik. Nem kell Excel telepítve a gépedre.

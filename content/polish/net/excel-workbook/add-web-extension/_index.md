@@ -43,10 +43,8 @@ Teraz jesteśmy gotowi, aby dodać rozszerzenie internetowe do skoroszytu progra
 Najpierw musisz skonfigurować katalog wyjściowy, w którym zapiszesz zmodyfikowany skoroszyt. Pomaga to zachować porządek w plikach.
 
 ```csharp
-string outDir = RunExamples.Get_OutputDirectory();
+string outDir = "Your Document Directory";
 ```
- Tutaj,`RunExamples.Get_OutputDirectory()` jest metodą, która pobiera ścieżkę do katalogu wyjściowego. Możesz ją zmodyfikować, aby wskazywała na dowolną lokalizację w systemie.
-
 ## Krok 2: Utwórz nowy skoroszyt
 
 Następnie utwórzmy nową instancję Workbooka. To tutaj dzieje się cała magia!

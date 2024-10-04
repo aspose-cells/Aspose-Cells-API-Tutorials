@@ -16,7 +16,7 @@ url: /ar/net/protect-excel-file/protect-column-in-excel-worksheet/
 قبل أن نبدأ رحلة حماية البيانات هذه، هناك بعض الأشياء التي ستحتاج إليها للبدء:
 
 1. Visual Studio: تأكد من تثبيت Visual Studio على جهاز الكمبيوتر الخاص بك. فهو بيئة صديقة لتطوير .NET.
-2. مكتبة Aspose.Cells: ستحتاج إلى مكتبة Aspose.Cells لـ .NET. إذا لم تقم بتثبيتها بعد، فيمكنك الحصول عليها من[صفحة تحميل Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  مكتبة Aspose.Cells: ستحتاج إلى مكتبة Aspose.Cells لـ .NET. إذا لم تقم بتثبيتها بعد، فيمكنك الحصول عليها من[صفحة تحميل Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: إن الحصول على بعض الألفة مع برمجة C# سوف يساعدك على فهم الكود بشكل أفضل.
 4. .NET Framework: تأكد من إعداد .NET Framework. تعمل هذه المكتبة بسلاسة مع كل من .NET Framework و.NET Core.
 
@@ -117,11 +117,11 @@ for (int i = 0; i <= 255; i++)
 الآن يأتي الجزء الممتع - قفل العمود المحدد الذي تريد حمايته. في مثالنا، سنقوم بقفل العمود الأول (المؤشر 0).
 
 ```csharp
-//احصل على نمط العمود الأول.
+// احصل على نمط العمود الأول.
 style = sheet.Cells.Columns[0].Style;
 // قفله.
 style.IsLocked = true;
-// إنشاء مثال للعلم.
+//إنشاء مثال للعلم.
 flag = new StyleFlag();
 // ضبط إعداد القفل.
 flag.Locked = true;

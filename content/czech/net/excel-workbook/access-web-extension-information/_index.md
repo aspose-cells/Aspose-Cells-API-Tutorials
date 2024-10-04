@@ -39,7 +39,7 @@ using System;
 Začněte definováním zdrojového adresáře, kde je uložen váš soubor Excel. To zajistí, že váš program ví, kde má hledat soubor, se kterým chcete pracovat.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## Krok 2: Načtěte sešit aplikace Excel
@@ -112,7 +112,7 @@ Mějte na paměti, že toto je jen špička ledovce, pokud jde o funkce Aspose.C
 ### Co je Aspose.Cells?
 Aspose.Cells je robustní knihovna pro manipulaci s excelovými tabulkami v aplikacích .NET.
 
-### Jak si stáhnu Aspose.Cells?
+### Jak stáhnu Aspose.Cells?
  Můžete si jej stáhnout z[oficiální stránky](https://releases.aspose.com/cells/net/).
 
 ### Podporuje Aspose.Cells webová rozšíření?

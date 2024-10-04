@@ -40,13 +40,13 @@ Diese Importe geben Ihnen Zugriff auf die Funktionen, die Sie zum Bearbeiten von
 Bevor Sie mit Ihrer XLSB-Datei arbeiten, müssen Sie Ihre Quell- und Ausgabeverzeichnisse einrichten. Dieser Schritt ist wichtig, um Ihre Dateien organisiert zu halten.
 
 ```csharp
-//Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Quellverzeichnis
+string sourceDir = "Your Document Directory";
 // Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- In diesem Codeausschnitt`RunExamples.Get_SourceDirectory()` Und`RunExamples.Get_OutputDirectory()`werden die jeweiligen Pfade für die Speicherorte Ihrer Eingabe- und Ausgabedateien abgerufen. Sie können diese Methoden bei Bedarf durch fest codierte Pfade ersetzen.
+ In diesem Codeausschnitt`"Your Document Directory"` Und`"Your Document Directory"`werden die jeweiligen Pfade für die Speicherorte Ihrer Eingabe- und Ausgabedateien abgerufen. Sie können diese Methoden bei Bedarf durch fest codierte Pfade ersetzen.
 
 ## Schritt 2: Laden Sie die XLSB-Datei
 

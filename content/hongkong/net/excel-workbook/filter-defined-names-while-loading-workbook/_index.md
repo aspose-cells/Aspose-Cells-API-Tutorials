@@ -87,7 +87,7 @@ Console.WriteLine("FilterDefinedNamesWhileLoadingWorkbook executed successfully.
 
 ## 結論
 
-現在你就得到它了！透過幾個簡單的步驟即可在使用 Aspose.Cells for .NET 載入工作簿時過濾定義的名稱。在您需要簡化資料處理或防止不必要的資料影響計算的情況下，此過程非常有用。
+現在你就擁有了！透過幾個簡單的步驟即可在使用 Aspose.Cells for .NET 載入工作簿時過濾定義的名稱。在您需要簡化資料處理或防止不必要的資料影響計算的情況下，此過程非常有用。
 
 透過遵循本指南，您可以自信地載入 Excel 文件，同時控制要排除的資料。無論您是開發管理大型資料集的應用程式還是實現特定的業務邏輯，掌握此功能只會增強您的 Excel 操作技能。
 

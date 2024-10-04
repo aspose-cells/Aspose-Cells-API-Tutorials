@@ -124,7 +124,7 @@ Aspose.Cells para .NET es una biblioteca que se utiliza para manipular hojas de 
  ¡Por supuesto! Puedes[Descargue una prueba gratuita](https://releases.aspose.com/) y explorar sus características.
 
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
- Puedes visitar el[Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)Hacer preguntas y encontrar soluciones.
+ Puedes visitar el[Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9) Hacer preguntas y encontrar soluciones.
 
 ### ¿Puedo generar informes de Excel con Aspose.Cells?
 ¡Sí! Aspose.Cells ofrece potentes funciones para crear y generar informes complejos de Excel sin problemas.

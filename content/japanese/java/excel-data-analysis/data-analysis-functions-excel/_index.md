@@ -10,7 +10,7 @@ url: /ja/java/excel-data-analysis/data-analysis-functions-excel/
 
 ## Aspose.Cells for Java を使用した Excel のデータ分析関数の紹介
 
-この総合ガイドでは、Aspose.Cells for Java を活用して Excel でデータ分析機能を実行する方法について説明します。開発者でもデータ アナリストでも、Aspose.Cells for Java は Excel データをプログラムで操作および分析するための強力な機能を提供します。並べ替え、フィルター処理、統計の計算など、さまざまなデータ分析タスクについて説明します。さっそく始めましょう。
+この総合ガイドでは、Aspose.Cells for Java を活用して Excel でデータ分析機能を実行する方法を説明します。開発者でもデータ アナリストでも、Aspose.Cells for Java は Excel データをプログラムで操作および分析するための強力な機能を提供します。並べ替え、フィルター処理、統計の計算など、さまざまなデータ分析タスクについて説明します。さっそく始めましょう。
 
 ## 前提条件
 始める前に、次の前提条件が満たされていることを確認してください。
@@ -48,7 +48,7 @@ sorter.sort(worksheet, cellArea, 0); //最初の列を昇順で並べ替える
 データをフィルター処理すると、特定の条件を満たす行のみを表示できます。Aspose.Cells では、Excel データに自動フィルターを適用する方法を提供しています。フィルターを適用する方法は次のとおりです。
 
 ```java
-//自動フィルターを有効にする
+//自動フィルタを有効にする
 worksheet.getAutoFilter().setRange(cellArea);
 
 //特定の列にフィルターを適用する

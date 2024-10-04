@@ -27,7 +27,7 @@ Nu när vi har allt i ordning, låt oss snabbt ställa in vår miljö. För att 
 
 ### Konfigurera ditt projekt
 
- Öppna din Visual Studio och skapa ett nytt C#-projekt. I den`Solution Explorer` , högerklicka på ditt projekt och välj Lägg till nytt objekt... Välj C# Class och namnge det på lämpligt sätt (till exempel,`ExcelUnprotector.cs`).
+ Öppna din Visual Studio och skapa ett nytt C#-projekt. I den`Solution Explorer` , högerklicka på ditt projekt och välj Lägg till nytt objekt... Välj C#-klass och namnge det på lämpligt sätt (till exempel,`ExcelUnprotector.cs`).
 
 ### Installera Aspose.Cells
 
@@ -98,7 +98,7 @@ När du har avskyddat ditt kalkylblad är det sista steget att spara dina ändri
 workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Här sparar vi den oskyddade arbetsboken i en ny fil med namnet`output.out.xls` i samma katalog. De`SaveFormat.Excel97To2003` parameter anger i vilket format du vill spara den.
+ Här sparar vi den oskyddade arbetsboken i en ny fil med namnet`output.out.xls` i samma katalog. De`SaveFormat.Excel97To2003` parametern anger i vilket format du vill spara den.
 
 ## Slutsats
 

@@ -55,7 +55,7 @@ using System;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 此代码帮助我们找到`Book1.xlsx`驻留，使得将来的引用更加容易。
@@ -123,7 +123,7 @@ Console.WriteLine("PrintPreview executed successfully.");
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 为您的 Excel 工作簿设置了打印预览。我们涵盖了从导入包到评估整个工作簿和单个工作表的页数的所有内容。可视化打印时的工作簿的外观是多么容易，这真是太神奇了，对吧？通过使用 Aspose.Cells，您可以获得强大的工具。无论您是经验丰富的开发人员还是刚刚起步的开发人员，此库都提供了将 Excel 文件管理提升到新水平所需的灵活性和功能。
+就这样！您已成功使用 Aspose.Cells for .NET 为您的 Excel 工作簿设置了打印预览。我们涵盖了从导入包到评估整个工作簿和单个工作表的页数的所有内容。可视化打印时的工作簿的外观是多么容易，这真是令人惊讶，对吧？通过使用 Aspose.Cells，您可以获得强大的工具。无论您是经验丰富的开发人员还是刚刚起步的人，此库都提供了将 Excel 文件管理提升到新水平所需的灵活性和功能。
 
 ## 常见问题解答
 

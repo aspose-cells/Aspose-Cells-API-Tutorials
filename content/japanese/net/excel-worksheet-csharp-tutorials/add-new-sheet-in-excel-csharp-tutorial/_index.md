@@ -16,7 +16,7 @@ url: /ja/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 コーディングを始める前に、このプロジェクトに必要なものがすべて揃っていることを確認しましょう。
 
 1. Visual Studio: Visual Studioがインストールされていることを確認してください。まだインストールしていない場合は、[マイクロソフトのウェブサイト](https://visualstudio.microsoft.com/).
-2. Aspose.Cellsライブラリ: Aspose.Cells for .NETライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cellsライブラリ: Aspose.Cells for .NETライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
 3. .NET Framework: プロジェクトが互換性のあるバージョンの .NET Framework 用に設定されていることを確認します (通常は .NET Framework 4.0 以上が適切に動作します)。
 4. 基本的な C# の知識: C# とオブジェクト指向プログラミングに精通していると、コードをよりよく理解できるようになります。
 5. テキスト エディターまたは IDE: C# コードを記述するにはこれが必要です。Visual Studio は最適な選択肢です。
@@ -106,7 +106,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## 結論
 
-これで完了です。C# と Aspose.Cells を使用して、Excel ファイルに新しいシートを追加する方法を、簡単な手順で説明しました。コードをいじっているだけの場合でも、より大規模なプロジェクトに取り組んでいる場合でも、この機能によりデータ管理ワークフローが大幅に強化されます。 
+これで完了です。C# と Aspose.Cells を使用して、Excel ファイルに新しいシートを追加する方法を、簡単な手順で説明しました。コードをいじっているだけの場合でも、より大規模なプロジェクトに取り組んでいる場合でも、この機能により、データ管理ワークフローが大幅に強化されます。 
 
 Aspose.Cells を使えば、可能性は無限です。編集、書式設定、さらには数式の作成など、さまざまな方法でデータを操作できます。ぜひさらに詳しく調べてください。Excel ファイルがきっと役に立ちます。
 

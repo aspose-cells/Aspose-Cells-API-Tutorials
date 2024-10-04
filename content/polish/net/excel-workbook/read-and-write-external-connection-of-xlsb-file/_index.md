@@ -40,13 +40,13 @@ Dzięki importom uzyskujesz dostęp do funkcji niezbędnych do obsługi plików 
 Przed rozpoczęciem pracy z plikiem XLSB musisz skonfigurować katalogi źródłowe i wyjściowe. Ten krok jest niezbędny do utrzymania porządku w plikach.
 
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Katalog źródłowy
+string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- W tym fragmencie kodu,`RunExamples.Get_SourceDirectory()` I`RunExamples.Get_OutputDirectory()`zakłada się, że pobierają odpowiednie ścieżki do miejsca, w którym będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
+ W tym fragmencie kodu,`"Your Document Directory"` I`"Your Document Directory"`zakłada się, że pobierają odpowiednie ścieżki do miejsca, w którym będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
 
 ## Krok 2: Załaduj plik XLSB
 

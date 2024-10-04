@@ -124,7 +124,7 @@ Có! Mặc dù hướng dẫn này tập trung vào .NET, Aspose.Cells cũng có
  Chắc chắn rồi! Bạn có thể[tải xuống bản dùng thử miễn phí](https://releases.aspose.com/) và khám phá các tính năng của nó.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)để đặt câu hỏi và tìm giải pháp.
+ Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để đặt câu hỏi và tìm giải pháp.
 
 ### Tôi có thể tạo báo cáo Excel bằng Aspose.Cells không?
 Có! Aspose.Cells cung cấp các chức năng mạnh mẽ để tạo và tổng hợp các báo cáo Excel phức tạp một cách liền mạch.

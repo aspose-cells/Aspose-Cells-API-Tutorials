@@ -103,7 +103,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ## Conclusie
 
-Gefeliciteerd! U hebt zojuist geleerd hoe u de paginavolgorde in Excel instelt met Aspose.Cells voor .NET. Met slechts een paar regels code kunt u aanpassen hoe uw Excel-documenten worden afgedrukt, waardoor ze gemakkelijk te volgen en visueel aantrekkelijk worden. Deze functionaliteit is handig, vooral bij het werken met grote datasets waarbij de paginavolgorde de leesbaarheid aanzienlijk kan beïnvloeden. 
+Gefeliciteerd! U hebt zojuist geleerd hoe u de paginavolgorde in Excel instelt met Aspose.Cells voor .NET. Met slechts een paar regels code kunt u aanpassen hoe uw Excel-documenten worden afgedrukt, waardoor ze gemakkelijk te volgen en visueel aantrekkelijk zijn. Deze functionaliteit is handig, vooral bij het werken met grote datasets waarbij de paginavolgorde de leesbaarheid aanzienlijk kan beïnvloeden. 
 
 ## Veelgestelde vragen
 
@@ -120,4 +120,4 @@ Aspose.Cells is een .NET-bibliotheek die functies biedt voor het bewerken van Mi
 U kunt kiezen tussen 'Over Then Down' en 'Down Then Over' voor de volgorde van uw paginaafdrukken.
 
 ### Waar kan ik meer voorbeelden vinden van het gebruik van Aspose.Cells?
- U kunt meer voorbeelden en functionaliteiten verkennen in de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).
+ kunt meer voorbeelden en functionaliteiten verkennen in de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).

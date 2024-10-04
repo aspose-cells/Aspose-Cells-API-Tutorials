@@ -47,10 +47,9 @@ Trong bước này, chúng ta sẽ xác định vị trí các tệp nguồn và
 
 ```csharp
 // Thư mục làm việc
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- Ở đây, chúng tôi đang sử dụng một phương pháp giả định`RunExamples.Get_SourceDirectory()` để lấy đường dẫn đến các tệp nguồn của chúng tôi. Tương tự như vậy,`RunExamples.Get_OutputDirectory()` lấy đường dẫn nơi chúng ta sẽ lưu đầu ra. Đảm bảo các phương pháp này trả về đường dẫn hợp lệ trên máy của bạn.
 
 ## Bước 2: Tải Workbook
 
@@ -59,7 +58,7 @@ Bây giờ, hãy tải tệp Excel có chứa Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Các`Workbook`class là điểm vào của bạn vào tệp Excel. Bằng cách truyền đường dẫn của tệp nguồn, chúng ta đang tạo một thể hiện cho phép chúng ta thao tác nó. Bạn có thể tưởng tượng nó giống như việc mở một cuốn sách—bạn đang chuẩn bị đọc (hoặc chỉnh sửa) nội dung của nó.
+ Các`Workbook` class là điểm vào của bạn vào tệp Excel. Bằng cách truyền đường dẫn của tệp nguồn, chúng ta đang tạo một thể hiện cho phép chúng ta thao tác nó. Bạn có thể tưởng tượng nó giống như việc mở một cuốn sách—bạn đang chuẩn bị đọc (hoặc chỉnh sửa) nội dung của nó.
 
 ## Bước 3: Truy cập vào Data Mashup
 
@@ -102,7 +101,7 @@ Sau khi thực hiện các cập nhật, đã đến lúc lưu lại những tha
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Các`Save` phương pháp ghi sổ làm việc đã cập nhật vào thư mục đầu ra đã chỉ định. Giống như niêm phong các chỉnh sửa của bạn trong phiên bản mới của hướng dẫn, sẵn sàng để người khác sử dụng!
+ Các`Save`phương pháp ghi sổ làm việc đã cập nhật vào thư mục đầu ra đã chỉ định. Giống như niêm phong các chỉnh sửa của bạn trong phiên bản mới của hướng dẫn, sẵn sàng để người khác sử dụng!
 
 ## Phần kết luận
 

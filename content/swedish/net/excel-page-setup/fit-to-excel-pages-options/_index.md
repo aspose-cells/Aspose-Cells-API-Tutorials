@@ -67,13 +67,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Låt oss nu ställa in parametrarna så att de passar ditt kalkylblad på specifika sidor. Det är här du kan ange hur många sidor brett och högt ditt innehåll ska visas.
 
 ```csharp
-//Ställa in antalet sidor som längden på kalkylbladet ska sträckas över
+// Ställa in antalet sidor som längden på kalkylbladet ska sträckas över
 worksheet.PageSetup.FitToPagesTall = 1;
 // Ställa in antalet sidor som kalkylbladets bredd ska sträckas över
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall` bestämmer hur många sidor ditt kalkylblad kommer att sträcka sig vertikalt.
+- `FitToPagesTall`bestämmer hur många sidor ditt kalkylblad kommer att sträcka sig vertikalt.
 - `FitToPagesWide` definierar den horisontella siduppsättningen. Ställer båda till`1` innebär att ditt innehåll kommer att passa snyggt på en sida och förvandla ditt dokument till ett strömlinjeformat mästerverk.
 
 ## Steg 3: Spara din arbetsbok

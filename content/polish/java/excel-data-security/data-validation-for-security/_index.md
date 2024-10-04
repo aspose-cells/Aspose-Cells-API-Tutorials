@@ -10,7 +10,7 @@ url: /pl/java/excel-data-security/data-validation-for-security/
 
 ## Wstęp
 
-W erze, w której dane są krwiobiegiem firm i organizacji, zapewnienie ich bezpieczeństwa i dokładności jest najważniejsze. Walidacja danych jest krytycznym aspektem tego procesu. W tym artykule zbadano, w jaki sposób Aspose.Cells for Java można wykorzystać do wdrożenia solidnych mechanizmów walidacji danych.
+W erze, w której dane są siłą napędową firm i organizacji, zapewnienie ich bezpieczeństwa i dokładności jest najważniejsze. Walidacja danych jest krytycznym aspektem tego procesu. W tym artykule zbadano, w jaki sposób Aspose.Cells for Java można wykorzystać do wdrożenia solidnych mechanizmów walidacji danych.
 
 ## Czym jest walidacja danych?
 

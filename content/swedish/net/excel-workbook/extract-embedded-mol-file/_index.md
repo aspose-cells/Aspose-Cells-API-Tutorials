@@ -54,8 +54,8 @@ Nu när du har importerat de nödvändiga paketen, låt oss ställa in vår milj
 
 ```csharp
 //kataloger
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

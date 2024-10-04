@@ -53,7 +53,7 @@ Et maintenant, c'est là que le plaisir commence ! Nous allons décomposer l'ex
 
 ```csharp
 // Définir le répertoire source
-string SourceDir = RunExamples.Get_SourceDirectory();
+string SourceDir = "Your Document Directory";
 ```
 
 Cette ligne pointe vers le répertoire contenant le fichier Excel. Assurez-vous d'ajuster le chemin en fonction de l'emplacement de votre fichier.

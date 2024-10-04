@@ -15,7 +15,7 @@ Belefáradt az oldaltörések manuális hozzáadása az Excel-lapokhoz? Lehet, h
 
 Mielőtt belevágnánk a kódolásba, nézzük meg, mire lesz szüksége az induláshoz:
 
-1. Visual Studio: A Visual Studio telepítve kell legyen a gépére. Ez az IDE segít a .NET-projektek zökkenőmentes kezelésében.
+1. Visual Studio: A Visual Studio-t telepítenie kell a gépére. Ez az IDE segít a .NET-projektek zökkenőmentes kezelésében.
 2.  Aspose.Cells for .NET: Töltse le és telepítse az Aspose.Cells könyvtárat. Megtalálhatja a legújabb verziót[itt](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: A C# alapvető ismerete gyors követést tesz lehetővé.
 4. Referenciadokumentáció: Tartsa kéznél az Aspose.Cells dokumentációt a definíciókhoz és a speciális funkciókhoz. Meg tudod nézni[itt](https://reference.aspose.com/cells/net/).

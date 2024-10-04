@@ -15,7 +15,7 @@ url: /ja/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 
 実際のコードに入る前に、すべてが整っていることを確認しましょう。必要なものは次のとおりです。
 
-1. Aspose.Cells for .NETライブラリ – インストールされていることを確認してください。[ライブラリをここからダウンロード](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NETライブラリ – インストールされていることを確認してください。[ライブラリをここからダウンロード](https://releases.aspose.com/cells/net/).
 2. .NET Framework – 互換性のあるバージョンの .NET Framework を実行していることを確認します。Aspose.Cells for .NET は、2.0 以降のバージョンの .NET Framework をサポートしています。
 3. 開発環境 - Visual Studio またはその他の C# IDE はこのタスクに最適です。
 4. C# の基本知識 – 魔法使いになる必要はありませんが、基本的な構文を理解しておくと役立ちます。
@@ -61,7 +61,7 @@ Excel では、下部にあるタブ (Sheet1、Sheet2 など) を表示または
 workbook.Settings.ShowTabs = true;
 ```
 
-設定`ShowTabs`に`true`Excel ファイルを開いたときにタブが表示されるようになります。
+設定`ShowTabs`に`true` Excel ファイルを開いたときにタブが表示されるようになります。
 
 ## ステップ4: 変更したExcelファイルを保存する
 

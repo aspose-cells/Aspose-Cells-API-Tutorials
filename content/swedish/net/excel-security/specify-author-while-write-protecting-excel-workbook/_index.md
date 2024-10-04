@@ -38,14 +38,14 @@ Detta direktiv ger dig tillgång till klasserna och metoderna som ingår i Aspos
 Innan du startar arbetsboken är det en bra idé att ställa in sökvägarna där dina källfiler finns och där du vill spara dina utdata. Så här gör du det:
 
 ```csharp
-//Källkatalog
+// Källkatalog
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Utdatakatalog
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Se till att byta ut`"YOUR SOURCE DIRECTORY"` och`"YOUR OUTPUT DIRECTORY"` med faktiska sökvägar på din maskin. Se det här som att skapa en snygg arbetsyta innan du börjar skapa ditt mästerverk!
+ Se till att byta ut`"YOUR SOURCE DIRECTORY"` och`"YOUR OUTPUT DIRECTORY"`med faktiska sökvägar på din maskin. Se det här som att skapa en snygg arbetsyta innan du börjar skapa ditt mästerverk!
 
 ## Steg 2: Skapa en tom arbetsbok
 

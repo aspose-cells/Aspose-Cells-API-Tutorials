@@ -132,7 +132,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## Conclusão
 
-E aí está! Você criou com sucesso uma planilha do Excel usando o Aspose.Cells para .NET, definiu intervalos editáveis, definiu uma senha e protegeu a planilha — tudo em algumas etapas simples. Agora você pode compartilhar sua pasta de trabalho com colegas, aprimorando a colaboração e mantendo os dados essenciais seguros.
+aí está! Você criou com sucesso uma planilha do Excel usando o Aspose.Cells para .NET, definiu intervalos editáveis, definiu uma senha e protegeu a planilha — tudo em algumas etapas simples. Agora você pode compartilhar sua pasta de trabalho com colegas, aprimorando a colaboração e mantendo os dados essenciais seguros.
 
 ## Perguntas frequentes
 
@@ -149,4 +149,4 @@ Sim, usando o Aspose.Cells, você pode definir intervalos editáveis específico
 Embora este tutorial se concentre no .NET, o Aspose.Cells está disponível para diversas linguagens de programação, incluindo Java e Cloud APIs.
 
 ### Onde posso encontrar mais informações sobre o Aspose.Cells?  
-Você pode explorar a documentação completa[aqui](https://reference.aspose.com/cells/net/).
+ Você pode explorar a documentação completa[aqui](https://reference.aspose.com/cells/net/).

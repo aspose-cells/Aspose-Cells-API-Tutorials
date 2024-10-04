@@ -148,4 +148,4 @@ Ya, Anda dapat menyisipkan gambar terpisah ke dalam bagian berbeda di header ata
 Pastikan jalur gambar sudah benar dan berkasnya ada. Periksa juga kompatibilitas format gambar.
 
 ### Di mana saya dapat menemukan dokumentasi tambahan untuk Aspose.Cells?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).

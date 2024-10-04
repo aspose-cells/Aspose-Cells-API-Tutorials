@@ -39,7 +39,7 @@ using System;
 ابدأ بتحديد الدليل المصدر الذي يتم تخزين ملف Excel فيه. يضمن هذا أن يعرف برنامجك المكان الذي يبحث فيه عن الملف الذي تريد العمل به.
 
 ```csharp
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 ```
 
 ## الخطوة 2: تحميل مصنف Excel

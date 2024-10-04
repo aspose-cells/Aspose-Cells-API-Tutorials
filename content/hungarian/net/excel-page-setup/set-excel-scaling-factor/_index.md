@@ -2,7 +2,7 @@
 title: Állítsa be az Excel méretezési tényezőjét
 linktitle: Állítsa be az Excel méretezési tényezőjét
 second_title: Aspose.Cells for .NET API Reference
-description: Tanulja meg az Excel-fájlok egyszerű kezelését és a méretezési tényező testreszabását az Aspose.Cells for .NET segítségével.
+description: Ismerje meg az Excel-fájlok egyszerű kezelését és a méretezési tényező testreszabását az Aspose.Cells for .NET segítségével.
 type: docs
 weight: 180
 url: /hu/net/excel-page-setup/set-excel-scaling-factor/

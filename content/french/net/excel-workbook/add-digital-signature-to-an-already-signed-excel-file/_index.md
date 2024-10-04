@@ -41,10 +41,10 @@ Ces espaces de noms vous permettront de travailler avec des fichiers Excel et de
 Avant de pouvoir manipuler vos fichiers Excel, vous devez définir l'emplacement de vos fichiers sources et l'emplacement où vous souhaitez enregistrer le fichier de sortie. Voici comment procéder :
 
 ```csharp
-//Répertoire des sources
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Répertoire des sources
+string sourceDir = "Your Document Directory";
 // Répertoire de sortie
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
 Dans cette étape, nous utilisons une méthode pour obtenir les chemins d'accès aux répertoires source et de sortie. Assurez-vous que ces répertoires existent et contiennent les fichiers requis.

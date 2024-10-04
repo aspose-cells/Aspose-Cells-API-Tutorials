@@ -17,14 +17,14 @@ Excel 파일을 프로그래밍 방식으로 관리하는 경우 많은 개발�
 
 1. Visual Studio: 개발 환경으로 사용할 Visual Studio가 설치되어 있는지 확인하세요.
 2. .NET Framework: Aspose.Cells와 호환되는 .NET Framework로 프로젝트를 설정했는지 확인하세요. 일반적으로 .NET Core 또는 .NET Framework 4.5 이상이 작동합니다.
-3. Aspose.Cells 라이브러리: .NET용 Aspose.Cells가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells 라이브러리: .NET용 Aspose.Cells가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 4. C#에 대한 기본 지식: 이 가이드 전반에 걸쳐 코드 세그먼트를 작성하게 되므로 C# 구문과 구조에 익숙해야 합니다.
 
 이러한 전제 조건을 갖추면 이제 Excel 조작의 세계로 뛰어들 준비가 된 것입니다!
 
 ## 패키지 가져오기
 
-C# 프로젝트에서 Aspose.Cells를 시작하려면 필요한 네임스페이스를 가져와야 합니다. 이는 여행을 위해 가방을 챙기는 것과 비슷합니다. 무엇이든 준비할 수 있도록 필수품을 모두 모으세요. 코드 파일 맨 위에 포함할 내용은 다음과 같습니다.
+C# 프로젝트에서 Aspose.Cells를 시작하려면 필요한 네임스페이스를 가져와야 합니다. 이는 여행을 위해 가방을 챙기는 것과 비슷합니다. 무엇이든 준비할 수 있도록 모든 필수품을 모으세요. 코드 파일 맨 위에 포함할 내용은 다음과 같습니다.
 
 ```csharp
 using Aspose.Cells;
@@ -39,7 +39,7 @@ using System;
 
 Excel 문서의 위치를 지정하는 변수를 만듭니다. 
 
-프로젝트를 작업할 때는 파일이 있는 경로나 저장될 경로를 정의하는 것이 필수적입니다. 우리의 경우, 다음과 같은 이름의 변수를 정의합니다.`dataDir` 다음과 같습니다:
+ 프로젝트를 작업할 때는 파일이 있는 경로나 저장될 경로를 정의하는 것이 필수적입니다. 우리의 경우, 다음과 같은 이름의 변수를 정의합니다.`dataDir` 다음과 같습니다:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

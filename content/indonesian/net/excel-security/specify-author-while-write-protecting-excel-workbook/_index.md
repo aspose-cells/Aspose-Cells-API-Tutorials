@@ -38,14 +38,14 @@ Direktif ini akan memungkinkan Anda mengakses kelas dan metode yang disertakan d
 Sebelum Anda memulai buku kerja, ada baiknya Anda mengatur jalur tempat file sumber berada dan tempat Anda ingin menyimpan output. Berikut cara melakukannya:
 
 ```csharp
-//Direktori sumber
+// Direktori sumber
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Direktori keluaran
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR SOURCE DIRECTORY"` Dan`"YOUR OUTPUT DIRECTORY"` dengan jalur aktual di mesin Anda. Anggap ini sebagai pembuatan ruang kerja yang rapi sebelum Anda mulai membuat karya agung Anda!
+ Pastikan untuk mengganti`"YOUR SOURCE DIRECTORY"` Dan`"YOUR OUTPUT DIRECTORY"`dengan jalur aktual di mesin Anda. Anggap ini sebagai pembuatan ruang kerja yang rapi sebelum Anda mulai membuat karya agung Anda!
 
 ## Langkah 2: Buat Buku Kerja Kosong
 

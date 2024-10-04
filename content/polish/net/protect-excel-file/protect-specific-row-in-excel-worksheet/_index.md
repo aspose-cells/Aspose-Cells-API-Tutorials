@@ -104,7 +104,7 @@ Teraz czas zablokować rząd, który chcesz chronić. W tym przypadku blokujemy 
 style = sheet.Cells.Rows[0].Style;
 // Zamknij to.
 style.IsLocked = true;
-// Utwórz instancję flagi.
+//Utwórz instancję flagi.
 flag = new StyleFlag();
 // Ustaw ustawienie blokady.
 flag.Locked = true;

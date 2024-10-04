@@ -54,8 +54,8 @@ Sekarang setelah Anda mengimpor paket yang diperlukan, mari siapkan lingkungan k
 
 ```csharp
 //direktori
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Document Directory";
 
 ```
 

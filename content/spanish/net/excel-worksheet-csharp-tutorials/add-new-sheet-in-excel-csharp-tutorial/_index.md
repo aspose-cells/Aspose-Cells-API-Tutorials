@@ -66,7 +66,7 @@ A continuación, crearemos una instancia de la clase Workbook. Esta clase es la 
 Workbook workbook = new Workbook();
 ```
 
- Cuando se crea una nueva instancia de`Workbook`En clase, estás empezando desde cero, listo para la acción. Piensa en ello como si estuvieras abriendo un cuaderno vacío donde puedes anotar todo lo que necesitas.
+ Cuando se crea una nueva instancia de`Workbook` En clase, estás empezando desde cero, listo para la acción. Piensa en ello como si estuvieras abriendo un cuaderno vacío donde puedes anotar todo lo que necesitas.
 
 ## Paso 3: Agregar una nueva hoja de cálculo
 
@@ -116,10 +116,10 @@ Con Aspose.Cells, las posibilidades son infinitas. Puede manipular datos de much
 Aspose.Cells para .NET es una potente biblioteca para crear, manipular y convertir archivos de Excel sin necesidad de tener instalado Microsoft Excel.
 
 ### ¿Puedo agregar varias hojas a la vez?  
- Sí, solo llama al`Add()`¡Método varias veces y haga referencia a cada hoja por su índice!
+ Sí, solo llama al`Add()` ¡Método varias veces y haga referencia a cada hoja por su índice!
 
 ### ¿Existe una versión de prueba gratuita de Aspose.Cells?  
- ¡Por supuesto! Puedes descargar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
+¡Por supuesto! Puedes descargar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### ¿Puedo formatear la nueva hoja después de agregarla?  
 ¡Por supuesto! Puedes aplicar estilos, formatos e incluso fórmulas a tus hojas de cálculo utilizando las funciones de la biblioteca.

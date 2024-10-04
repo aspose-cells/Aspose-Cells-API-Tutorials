@@ -43,12 +43,10 @@ Teraz, gdy wszystko jest już skonfigurowane, podzielmy proces dostosowywania po
 Po pierwsze, musimy zdefiniować, gdzie będą przechowywane nasze pliki. Wiąże się to z określeniem katalogu źródłowego dla naszego pliku wejściowego i katalogu wyjściowego dla naszych skompresowanych plików.
 
 ```csharp
-//Katalog źródłowy
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Katalog źródłowy
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Tutaj,`RunExamples.Get_SourceDirectory()` I`RunExamples.Get_OutputDirectory()` są metodami zwracającymi ścieżki odpowiednio do katalogów źródłowych i wyjściowych. 
 
 ## Krok 2: Załaduj skoroszyt
 

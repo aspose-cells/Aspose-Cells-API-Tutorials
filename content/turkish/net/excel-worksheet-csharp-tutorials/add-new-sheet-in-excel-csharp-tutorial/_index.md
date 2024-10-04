@@ -66,7 +66,7 @@ Sırada, Workbook sınıfının bir örneğini oluşturacağız. Bu sınıf, ger
 Workbook workbook = new Workbook();
 ```
 
- Yeni bir örnek oluşturduğunuzda`Workbook`sınıf, aslında boş bir sayfa başlatıyorsunuz—eyleme hazır. Bunu, ihtiyacınız olan her şeyi yazabileceğiniz boş bir not defteri açmak olarak düşünün.
+ Yeni bir örnek oluşturduğunuzda`Workbook` sınıf, aslında boş bir sayfa başlatıyorsunuz—eyleme hazır. Bunu, ihtiyacınız olan her şeyi yazabileceğiniz boş bir not defteri açmak olarak düşünün.
 
 ## Adım 3: Yeni Bir Çalışma Sayfası Ekleme
 
@@ -116,10 +116,10 @@ Aspose.Cells ile olasılıklar sonsuzdur. Verileri sayısız şekilde düzenleye
 Aspose.Cells for .NET, Microsoft Excel'in kurulmasına gerek kalmadan Excel dosyaları oluşturmak, düzenlemek ve dönüştürmek için güçlü bir kütüphanedir.
 
 ### Aynı anda birden fazla sayfa ekleyebilir miyim?  
- Evet, sadece arayın`Add()`Yöntemi birden fazla kez deneyin ve her sayfaya indeksiyle başvurun!
+ Evet, sadece arayın`Add()` Yöntemi birden fazla kez deneyin ve her sayfaya indeksiyle başvurun!
 
 ### Aspose.Cells'in ücretsiz deneme sürümü var mı?  
- Kesinlikle! Ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Yeni sayfayı ekledikten sonra biçimlendirebilir miyim?  
 Kesinlikle! Kütüphanenin özelliklerini kullanarak çalışma sayfalarınıza stiller, biçimler ve hatta formüller uygulayabilirsiniz.

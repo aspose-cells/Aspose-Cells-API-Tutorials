@@ -53,12 +53,12 @@ using System;
 
 ```csharp
 //原始碼目錄
-string sourceDir = RunExamples.Get_SourceDirectory();
+string sourceDir = "Your Document Directory";
 //輸出目錄
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
 
-在這裡，您將替換`RunExamples.Get_SourceDirectory()`和`RunExamples.Get_OutputDirectory()`與儲存檔案的實際路徑。
+在這裡，您將替換`"Your Document Directory"`和`"Your Document Directory"`與儲存檔案的實際路徑。
 
 ## 第 2 步：載入 Excel 文件
 
@@ -141,7 +141,7 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 
 ## 結論
 
-現在你就得到它了！您已經成功掌握了使用 Aspose.Cells for .NET 從 Excel 工作表中刪除印表機設定的細節。只需幾行程式碼就可以整理您的文件並使您的列印過程更加順利，這真是太神奇了，對吧？請記住，能力越大（如 Aspose.Cells），責任就越大，因此在將程式碼部署到生產環境之前，請務必先對其進行測試。
+現在你就擁有了！您已經成功掌握了使用 Aspose.Cells for .NET 從 Excel 工作表中刪除印表機設定的細節。只需幾行程式碼就可以整理您的文件並使您的列印過程更加順利，這真是太神奇了，對吧？請記住，能力越大（如 Aspose.Cells），責任就越大，因此在將程式碼部署到生產環境之前，請務必先對其進行測試。
 
 ## 常見問題解答
 

@@ -23,7 +23,7 @@ Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 1. Favori IDE'nizde yeni bir Java projesi oluşturun.
 2. JAR dosyasını ekleyerek Aspose.Cells for Java kütüphanesini projenize ekleyin.
 
-## Adım 2: Verilerin Yüklenmesi
+## Adım 2: Veri Yükleme
 
 Etkileşimli grafikler oluşturmak için verilere ihtiyacınız var. Aspose.Cells kullanarak bir Excel dosyasından bazı örnek verileri yükleyerek başlayalım.
 

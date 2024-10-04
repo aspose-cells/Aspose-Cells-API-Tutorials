@@ -16,7 +16,7 @@ Tworzenie i dostosowywanie dokumentów Excela programowo może zwiększyć wydaj
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Oto, czego potrzebujesz, aby zacząć:
 
 1. Visual Studio lub dowolne IDE .NET: Upewnij się, że masz działające IDE, takie jak Visual Studio. To będzie Twój plac zabaw, gdzie dzieje się cała magia kodowania.
-2.  Pakiet Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz pobrać i zainstalować bibliotekę Aspose.Cells. Najnowszą wersję znajdziesz na stronie[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Pakiet Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz pobrać i zainstalować bibliotekę Aspose.Cells. Najnowszą wersję znajdziesz na stronie[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Choć przeprowadzimy Cię przez kod, znajomość języka C# pomoże Ci lepiej zrozumieć niuanse.
 4. Dostęp do .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany tak, aby był docelowy dla zgodnej wersji .NET Framework.
 
@@ -85,7 +85,7 @@ Teraz przechodzimy do soczystej części. Ustawmy niestandardowy rozmiar papieru
 ws.PageSetup.CustomPaperSize(6, 4);
 ```
 
-W tym scenariuszu określamy rozmiar w calach. Pomyśl o tym jak o szyciu garnituru, aby idealnie pasował — każdy szczegół ma znaczenie!
+tym scenariuszu określamy rozmiar w calach. Pomyśl o tym jak o szyciu garnituru, aby idealnie pasował — każdy szczegół ma znaczenie!
 
 ## Krok 5: Uzyskaj dostęp do komórki
 

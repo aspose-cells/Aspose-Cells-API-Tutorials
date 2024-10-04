@@ -2,7 +2,7 @@
 title: Tutoriel sur l'ajout d'une nouvelle feuille dans Excel C#
 linktitle: Ajouter une nouvelle feuille dans Excel
 second_title: Référence de l'API Aspose.Cells pour .NET
-description: Découvrez comment ajouter une nouvelle feuille dans Excel à l'aide de C# avec Aspose.Cells. Ce didacticiel décompose le processus en étapes simples et exploitables.
+description: Découvrez comment ajouter une nouvelle feuille dans Excel à l'aide de C# avec Aspose.Cells. Ce tutoriel décompose le processus en étapes simples et exploitables.
 type: docs
 weight: 20
 url: /fr/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tutorial/
@@ -66,7 +66,7 @@ Ensuite, nous allons créer une instance de la classe Workbook. Cette classe est
 Workbook workbook = new Workbook();
 ```
 
- Lorsque vous créez une nouvelle instance de`Workbook`En classe, vous démarrez effectivement une page blanche, prête à passer à l'action. Considérez cela comme l'ouverture d'un cahier vide dans lequel vous pouvez noter tout ce dont vous avez besoin.
+ Lorsque vous créez une nouvelle instance de`Workbook` En classe, vous démarrez effectivement une page blanche, prête à passer à l'action. Considérez cela comme l'ouverture d'un cahier vide dans lequel vous pouvez noter tout ce dont vous avez besoin.
 
 ## Étape 3 : Ajout d’une nouvelle feuille de calcul
 
@@ -116,10 +116,10 @@ Avec Aspose.Cells, les possibilités sont infinies. Vous pouvez manipuler les do
 Aspose.Cells pour .NET est une bibliothèque puissante pour créer, manipuler et convertir des fichiers Excel sans avoir besoin d'installer Microsoft Excel.
 
 ### Puis-je ajouter plusieurs feuilles à la fois ?  
- Oui, il suffit d'appeler le`Add()`méthode plusieurs fois, et faites référence à chaque feuille par son index !
+ Oui, il suffit d'appeler le`Add()` méthode plusieurs fois, et faites référence à chaque feuille par son index !
 
 ### Existe-t-il une version d'essai gratuite d'Aspose.Cells ?  
- Certainement ! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
+Certainement ! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
 
 ### Puis-je formater la nouvelle feuille après l'avoir ajoutée ?  
 Absolument ! Vous pouvez appliquer des styles, des formats et même des formules à vos feuilles de calcul à l'aide des fonctionnalités de la bibliothèque.

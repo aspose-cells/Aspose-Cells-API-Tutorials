@@ -124,7 +124,7 @@ Označování dat je zásadním krokem k tomu, aby byla data v tabulkovém proce
 
  Chcete-li nainstalovat Aspose.Cells for Java, navštivte[dokumentace](https://reference.aspose.com/cells/java/) pro podrobné pokyny k instalaci.
 
-### Mohu přizpůsobit vzhled štítků?
+### Mohu upravit vzhled štítků?
 
 Ano, štítky si můžete přizpůsobit změnou písem, barev a dalších možností formátování pomocí Aspose.Cells for Java.
 

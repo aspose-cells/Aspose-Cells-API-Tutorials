@@ -15,7 +15,7 @@ Bạn đang làm việc với bảng tính và đang tìm cách quản lý chún
 
 Trước khi đi vào mã thực tế, hãy đảm bảo bạn đã sắp xếp mọi thứ ổn thỏa. Sau đây là những gì bạn cần:
 
-1. Aspose.Cells cho Thư viện .NET – Hãy đảm bảo bạn đã cài đặt nó. Bạn có thể[tải xuống thư viện ở đây](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells cho Thư viện .NET – Hãy đảm bảo bạn đã cài đặt nó. Bạn có thể[tải xuống thư viện ở đây](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Đảm bảo bạn đang chạy phiên bản tương thích của .NET Framework. Aspose.Cells cho .NET hỗ trợ các phiên bản .NET Framework bắt đầu từ 2.0.
 3. Môi trường phát triển – Visual Studio hoặc bất kỳ IDE C# nào khác đều phù hợp cho nhiệm vụ này.
 4. Kiến thức cơ bản về C# – Bạn không cần phải là một phù thủy, nhưng hiểu cú pháp cơ bản sẽ giúp ích.
@@ -41,7 +41,7 @@ Trước khi chúng ta có thể thao tác với bất kỳ tệp Excel nào, ch
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế trên hệ thống của bạn. Thư mục này sẽ là nơi bạn tải tệp Excel hiện có và lưu đầu ra.
+ Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thư mục thực tế trên hệ thống của bạn. Thư mục này sẽ là nơi bạn tải tệp Excel hiện có và lưu đầu ra.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -61,7 +61,7 @@ Trong Excel, các tab ở phía dưới (Sheet1, Sheet2, v.v.) có thể đượ
 workbook.Settings.ShowTabs = true;
 ```
 
- Cài đặt`ShowTabs` ĐẾN`true`sẽ đảm bảo các tab hiển thị khi bạn mở tệp Excel.
+ Cài đặt`ShowTabs` ĐẾN`true` sẽ đảm bảo các tab hiển thị khi bạn mở tệp Excel.
 
 ## Bước 4: Lưu tệp Excel đã sửa đổi
 
@@ -71,7 +71,7 @@ Sau khi các tab được hiển thị, chúng ta cần lưu tệp đã cập nh
 workbook.Save(dataDir + "output.xls");
 ```
 
- Tập tin được lưu với tên`output.xls` trong thư mục đã chỉ định trước đó. Bạn cũng có thể chọn tên hoặc định dạng tệp khác (chẳng hạn như`.xlsx`) nếu cần.
+Tập tin được lưu với tên`output.xls` trong thư mục đã chỉ định trước đó. Bạn cũng có thể chọn tên hoặc định dạng tệp khác (chẳng hạn như`.xlsx`) nếu cần.
 
 ## Phần kết luận
 
@@ -80,7 +80,7 @@ Và bạn đã có nó! Bạn đã hiển thị thành công các tab trong bả
 ## Câu hỏi thường gặp
 
 ### Tôi có thể ẩn các tab trong Excel bằng Aspose.Cells cho .NET không?
- Chắc chắn rồi! Chỉ cần thiết lập`workbook.Settings.ShowTabs = false;`và lưu tệp. Thao tác này sẽ ẩn các tab khi mở sổ làm việc.
+ Chắc chắn rồi! Chỉ cần thiết lập`workbook.Settings.ShowTabs = false;` và lưu tệp. Thao tác này sẽ ẩn các tab khi mở sổ làm việc.
 
 ### Aspose.Cells có hỗ trợ các tính năng khác của Excel như biểu đồ và bảng tổng hợp không?
 Có, Aspose.Cells là một thư viện toàn diện hỗ trợ hầu hết các tính năng của Excel, bao gồm biểu đồ, bảng tổng hợp, công thức, v.v.

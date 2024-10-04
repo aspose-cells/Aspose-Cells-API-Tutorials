@@ -47,13 +47,13 @@ Lassen Sie uns die Dinge in überschaubare Schritte aufteilen. Wir führen Sie d
 Zunächst müssen wir angeben, wo sich unsere Excel-Eingabedatei befindet und wo wir die Ausgabedatei nach den erforderlichen Änderungen speichern möchten.
 
 ```csharp
-//Quellverzeichnis
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Quellverzeichnis
+string sourceDir = "Your Document Directory";
 // Ausgabeverzeichnis
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Hier,`RunExamples.Get_SourceDirectory()` Und`RunExamples.Get_OutputDirectory()` sind Hilfsfunktionen, mit denen Sie bequem die Quell- und Ausgabepfade abrufen können. Stellen Sie sicher, dass Ihr Quellverzeichnis eine Datei mit dem Namen enthält`SampleRegexReplace.xlsx` für dieses Beispiel.
+ Hier,`"Your Document Directory"` Und`"Your Document Directory"` sind Hilfsfunktionen, mit denen Sie bequem die Quell- und Ausgabepfade abrufen können. Stellen Sie sicher, dass Ihr Quellverzeichnis eine Datei mit dem Namen enthält`SampleRegexReplace.xlsx` für dieses Beispiel.
 
 ## Schritt 2: Laden der Arbeitsmappe
 

@@ -37,14 +37,12 @@ Pamiętaj o dodaniu tych dyrektyw using na początku pliku C#, aby umożliwić �
 Najpierw skonfigurujmy katalog wyjściowy, w którym zapiszemy nasz nowy plik Excel. Pomoże to utrzymać porządek w projekcie.
 
 ```csharp
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Document Directory";
 ```
-
- Tutaj,`RunExamples.Get_OutputDirectory()` jest wywołaniem funkcji, która pobiera wyznaczoną ścieżkę dla plików wyjściowych. Upewnij się, że ta metoda jest zdefiniowana i wskazuje na prawidłowy katalog.
 
 ## Krok 2: Utwórz nowy skoroszyt
 
-Teraz, gdy mamy nasz katalog wyjściowy, utwórzmy nowy skoroszyt.`Workbook` Klasa ta stanowi punkt wyjścia do pracy z plikami Excela.
+ Teraz, gdy mamy nasz katalog wyjściowy, utwórzmy nowy skoroszyt.`Workbook`Klasa ta stanowi punkt wyjścia do pracy z plikami Excela.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

@@ -9,7 +9,7 @@ url: /zh/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## 介绍
 
-欢迎阅读本分步指南，了解如何使用 Aspose.Cells for .NET 无缝管理电子表格，特别是重点介绍如何处理单元格值中的前导撇号。在当今以数据为中心的世界中，有效管理数据的能力至关重要。您是否注意到 Excel 有时会以不同的方式处理以撇号开头的文本值？如果您使用 .NET 代码自动执行 Excel 任务，这可能会导致意外结果。不要害怕！本教程将帮助您解决这个问题。 
+欢迎阅读本分步指南，了解如何使用 Aspose.Cells for .NET 无缝管理电子表格，特别关注处理单元格值中的前导撇号。在当今以数据为中心的世界中，有效管理数据的能力至关重要。您是否注意到 Excel 有时会以不同的方式处理以撇号开头的文本值？如果您使用 .NET 代码自动执行 Excel 任务，这可能会导致意外结果。不要害怕！本教程将帮助您解决这个问题。 
 
 ## 先决条件
 
@@ -43,11 +43,9 @@ using System.Collections.Generic;
 
 ```csharp
 //源目录
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
-在这里我们使用实用方法`Get_SourceDirectory()`和`Get_OutputDirectory()`方便设置我们的文件路径。您可以根据您的目录结构自定义这些路径。
 
 ## 步骤 2：创建工作簿设计器对象
 

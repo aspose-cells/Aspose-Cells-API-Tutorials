@@ -120,4 +120,4 @@ Aspose.Cells ist eine .NET-Bibliothek, die Funktionen zum Bearbeiten von Microso
 Sie können für die Reihenfolge des Seitendrucks zwischen den Optionen „Drüber, dann nach unten“ und „Drunter, dann rüber“ wählen.
 
 ### Wo finde ich weitere Beispiele zur Verwendung von Aspose.Cells?
- Weitere Beispiele und Funktionalitäten finden Sie im[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).
+Weitere Beispiele und Funktionalitäten finden Sie im[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).

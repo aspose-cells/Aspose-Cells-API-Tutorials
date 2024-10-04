@@ -47,10 +47,9 @@ using System.IO;
 
 ```csharp
 // أدلة العمل
-string SourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string SourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
- هنا، نحن نستخدم طريقة افتراضية`RunExamples.Get_SourceDirectory()` لجلب المسار إلى ملفات المصدر الخاصة بنا. وبالمثل،`RunExamples.Get_OutputDirectory()` يحصل على المسار الذي سنحفظ فيه مخرجاتنا. تأكد من أن هذه الطرق تعيد مسارات صالحة على جهازك.
 
 ## الخطوة 2: تحميل المصنف
 
@@ -59,7 +58,7 @@ string outputDir = RunExamples.Get_OutputDirectory();
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- ال`Workbook`تعتبر الفئة نقطة دخولك إلى ملف Excel. من خلال تمرير مسار ملف المصدر الخاص بنا، نقوم بإنشاء مثيل يسمح لنا بالتعامل معه. يمكنك تخيل الأمر مثل فتح كتاب - فأنت تستعد لقراءة (أو تحرير) محتوياته.
+ ال`Workbook` تعتبر الفئة نقطة دخولك إلى ملف Excel. من خلال تمرير مسار ملف المصدر الخاص بنا، نقوم بإنشاء مثيل يسمح لنا بالتعامل معه. يمكنك تخيل الأمر مثل فتح كتاب - فأنت تستعد لقراءة (أو تحرير) محتوياته.
 
 ## الخطوة 3: الوصول إلى مجموعة البيانات
 
@@ -102,7 +101,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- ال`Save` تكتب الطريقة المصنف المحدث إلى دليل الإخراج المحدد. الأمر أشبه بختم تعديلاتك في إصدار جديد من الدليل، جاهزًا لاستخدام الآخرين!
+ ال`Save`تكتب الطريقة المصنف المحدث إلى دليل الإخراج المحدد. الأمر أشبه بختم تعديلاتك في إصدار جديد من الدليل، جاهزًا لاستخدام الآخرين!
 
 ## خاتمة
 

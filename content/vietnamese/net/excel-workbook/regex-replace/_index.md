@@ -47,13 +47,13 @@ Hãy chia nhỏ mọi thứ thành các bước dễ quản lý. Chúng tôi s�
 Trước tiên, chúng ta cần xác định vị trí lưu tệp Excel đầu vào cũng như vị trí chúng ta muốn lưu tệp đầu ra sau khi thực hiện những thay đổi cần thiết.
 
 ```csharp
-//Thư mục nguồn
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Thư mục nguồn
+string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
 
- Đây,`RunExamples.Get_SourceDirectory()` Và`RunExamples.Get_OutputDirectory()` là các hàm tiện ích giúp bạn lấy nguồn và đường dẫn đầu ra một cách thuận tiện. Đảm bảo thư mục nguồn của bạn chứa một tệp có tên`SampleRegexReplace.xlsx` cho ví dụ này.
+ Đây,`"Your Document Directory"` Và`"Your Document Directory"` là các hàm tiện ích giúp bạn lấy nguồn và đường dẫn đầu ra một cách thuận tiện. Đảm bảo thư mục nguồn của bạn chứa một tệp có tên`SampleRegexReplace.xlsx` cho ví dụ này.
 
 ## Bước 2: Tải Workbook
 

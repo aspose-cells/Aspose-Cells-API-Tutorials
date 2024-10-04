@@ -15,7 +15,7 @@ url: /zh/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-wo
 
 在我们开始编写代码之前，让我们确保您拥有成功实现本教程所需的一切。以下是您需要的内容：
 
-1.  Visual Studio：确保您的计算机上安装了 Visual Studio。如果尚未安装，可以从以下位置下载[这里](https://visualstudio.microsoft.com/vs/).
+1.  Visual Studio：确保您的计算机上安装了 Visual Studio。如果您还没有，可以从以下位置下载[这里](https://visualstudio.microsoft.com/vs/).
 2. Aspose.Cells for .NET：您需要将 Aspose.Cells for .NET 集成到您的项目中。您可以从[下载链接](https://releases.aspose.com/cells/net/)。该库对于处理 Excel 文件至关重要，并支持广泛的功能。
 3. 对 C# 有基本了解：熟悉 C# 编程语言将帮助您更轻松地跟上进度。别担心；我们将逐步指导您完成整个过程！
 4. 您的文档目录：确保您的计算机上有一个文件夹可用于存储本教程的 Excel 文件。 

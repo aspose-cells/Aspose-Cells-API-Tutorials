@@ -43,12 +43,10 @@ Ahora que tenemos todo configurado, vamos a dividir el proceso de ajuste de los 
 Lo primero es lo primero: debemos definir dónde se almacenarán nuestros archivos. Esto implica especificar el directorio de origen para nuestro archivo de entrada y el directorio de salida para nuestros archivos comprimidos.
 
 ```csharp
-//Directorio de fuentes
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outDir = RunExamples.Get_OutputDirectory();
+// Directorio de fuentes
+string sourceDir = "Your Document Directory";
+string outDir = "Your Document Directory";
 ```
-
- Aquí,`RunExamples.Get_SourceDirectory()` y`RunExamples.Get_OutputDirectory()` son métodos que devuelven las rutas a los directorios de origen y salida, respectivamente. 
 
 ## Paso 2: Cargue el libro de trabajo
 

@@ -43,11 +43,9 @@ using System.Collections.Generic;
 
 ```csharp
 //ソースディレクトリ
-string sourceDir = RunExamples.Get_SourceDirectory();
-string outputDir = RunExamples.Get_OutputDirectory();
+string sourceDir = "Your Document Directory";
+string outputDir = "Your Output Directory";
 ```
-
-ここではユーティリティメソッドを使用しています`Get_SourceDirectory()`そして`Get_OutputDirectory()`ファイル パスを簡単に設定できます。ディレクトリ構造に応じてこれらのパスをカスタマイズできます。
 
 ## ステップ 2: ワークブック デザイナー オブジェクトを作成する
 
@@ -78,7 +76,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
-設定により`QuotePrefixToStyle`false に設定すると、先頭のアポストロフィを通常の文字として扱うように Aspose.Cells に指示し、出力で正確に処理できるようになります。
+設定により`QuotePrefixToStyle` false に設定すると、先頭のアポストロフィを通常の文字として扱うように Aspose.Cells に指示し、出力で正確に処理できるようになります。
 
 ## ステップ5: スマートマーカーのデータを読み込む
 

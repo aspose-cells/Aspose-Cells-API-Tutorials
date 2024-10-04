@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- İlk olarak değiştirin`"YOUR DOCUMENT DIRECTORY"`dosyalarınızın kaydedilmesini istediğiniz yol ile. Bu kod dizinin var olup olmadığını kontrol eder; yoksa bir tane oluşturur.
+ İlk olarak değiştirin`"YOUR DOCUMENT DIRECTORY"` dosyalarınızın kaydedilmesini istediğiniz yol ile. Bu kod dizinin var olup olmadığını kontrol eder; yoksa bir tane oluşturur.
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 

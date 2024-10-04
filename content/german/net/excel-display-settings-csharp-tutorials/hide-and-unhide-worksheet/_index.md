@@ -43,11 +43,11 @@ Jetzt, da wir alles eingerichtet haben und mit dem Coden beginnen können, unter
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Das ist, als würde man vor dem Bau eines Hauses das Fundament legen – man braucht eine solide Basis, bevor man etwas Großes errichten kann!
+Das ist, als würde man vor dem Bau eines Hauses das Fundament legen – Sie brauchen eine solide Basis, bevor Sie etwas Großes errichten können!
 
 ## Schritt 2: Öffnen Sie die Excel-Datei
 
-Erstellen wir nun einen Dateistream, um unsere Excel-Arbeitsmappe zu öffnen. Dieser Schritt ist entscheidend, da Sie die Datei lesen und bearbeiten müssen.
+Lassen Sie uns nun einen Dateistream erstellen, um unsere Excel-Arbeitsmappe zu öffnen. Dieser Schritt ist entscheidend, da Sie die Datei lesen und bearbeiten müssen.
 
 ```csharp
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält

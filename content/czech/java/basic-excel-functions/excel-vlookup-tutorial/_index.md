@@ -91,7 +91,7 @@ Nyní pokračujte a prozkoumejte nekonečné možnosti Aspose.Cells pro Java ve 
 
 Aspose.Cells for Java je navržen speciálně pro vývojáře Java. Aspose však nabízí knihovny i pro jiné programovací jazyky. Pro více informací se určitě podívejte na jejich web.
 
-### Je Aspose.Cells for Java zdarma k použití?
+### Je Aspose.Cells for Java k použití zdarma?
 
 Aspose.Cells for Java není bezplatná knihovna a vyžaduje platnou licenci pro komerční použití. Podrobnosti o cenách a informace o licencích najdete na webu Aspose.
 

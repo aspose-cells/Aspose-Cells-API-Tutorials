@@ -99,11 +99,11 @@ for (int i = 0; i <= 255; i++)
 Vous devez maintenant verrouiller la première colonne en particulier, tout en laissant toutes les autres colonnes modifiables. Voici comment procéder :
 
 ```csharp
-//Obtenez le style de la première colonne.
+// Obtenez le style de la première colonne.
 style = sheet.Cells.Columns[0].Style;
 // Verrouille-le.
 style.IsLocked = true;
-// Instanciez le drapeau.
+//Instanciez le drapeau.
 flag = new StyleFlag();
 // Définissez le paramètre de verrouillage.
 flag.Locked = true;

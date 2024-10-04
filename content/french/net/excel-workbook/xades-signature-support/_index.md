@@ -41,13 +41,11 @@ Maintenant que nous avons tout configuré, décomposons le processus d’ajout d
 Tout d'abord, nous devons définir où se trouve notre fichier Excel source et où nous souhaitons enregistrer le fichier de sortie signé. Il s'agit d'une étape cruciale car elle permet d'organiser efficacement vos fichiers.
 
 ```csharp
-//Répertoire des sources
-string sourceDir = RunExamples.Get_SourceDirectory();
+// Répertoire des sources
+string sourceDir = "Your Document Directory";
 // Répertoire de sortie
-string outputDir = RunExamples.Get_OutputDirectory();
+string outputDir = "Your Output Directory";
 ```
-
- Dans cet extrait de code,`RunExamples.Get_SourceDirectory()` et`RunExamples.Get_OutputDirectory()` sont des méthodes qui renvoient les chemins vers vos répertoires source et de sortie, respectivement. Assurez-vous de les remplacer par les chemins réels si vous n'utilisez pas ces méthodes.
 
 ## Étape 2 : charger le classeur
 
@@ -68,11 +66,11 @@ string password = "pfxPassword"; // Remplacez-le par votre mot de passe PFX
 string pfx = "pfxFile"; // Remplacez par le chemin d'accès à votre fichier PFX
 ```
 
- Dans cette étape, remplacez`pfxPassword` avec votre mot de passe actuel et`pfxFile`avec le chemin d'accès à votre fichier PFX. C'est la clé pour signer votre document !
+ Dans cette étape, remplacez`pfxPassword` avec votre mot de passe actuel et`pfxFile` avec le chemin d'accès à votre fichier PFX. C'est la clé pour signer votre document !
 
 ## Étape 4 : Créer la signature numérique
 
- Maintenant, créons la signature numérique en utilisant le`DigitalSignature` classe. C'est ici que la magie opère !
+ Maintenant, créons la signature numérique en utilisant le`DigitalSignature`classe. C'est ici que la magie opère !
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);

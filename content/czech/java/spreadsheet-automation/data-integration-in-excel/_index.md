@@ -54,7 +54,7 @@ Před analýzou data často vyžadují transformaci a vyčištění. Aspose.Cell
 Síla Excelu spočívá v jeho schopnosti provádět složité výpočty. S Aspose.Cells for Java můžete programově aplikovat vzorce:
 
 ```java
-// Java kód pro aplikaci vzorců
+// Java kód pro použití vzorců
 // ...
 ```
 

@@ -17,7 +17,7 @@ Zanim zanurzymy się w naszej przygodzie z kodowaniem, poświęćmy chwilę, aby
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio, ponieważ będziemy używać tego środowiska programistycznego.
 2. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z .NET Framework zgodnym z Aspose.Cells. Zazwyczaj .NET Core lub .NET Framework 4.5 i nowsze będą działać.
-3. Biblioteka Aspose.Cells: Będziesz potrzebować Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3.  Biblioteka Aspose.Cells: Będziesz potrzebować Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 4. Podstawowa znajomość języka C#: Znajomość składni i struktury języka C# jest niezbędna, ponieważ w tym przewodniku będziemy pisać segmenty kodu.
 
 Gdy już spełnisz te wymagania wstępne, będziesz gotowy, aby wkroczyć w świat operacji w programie Excel!
@@ -39,7 +39,7 @@ Teraz omówmy krok po kroku proces ustawiania obszaru wydruku w programie Excel.
 
 Utwórz zmienną, aby określić lokalizację dokumentów Excela. 
 
-Kiedy pracujesz nad projektem, ważne jest, aby mieć zdefiniowaną ścieżkę, w której znajdują się lub zostaną zapisane Twoje pliki. W naszym przypadku zdefiniujemy zmienną o nazwie`dataDir` następująco:
+ Kiedy pracujesz nad projektem, ważne jest, aby mieć zdefiniowaną ścieżkę, w której znajdują się lub zostaną zapisane Twoje pliki. W naszym przypadku zdefiniujemy zmienną o nazwie`dataDir` następująco:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
