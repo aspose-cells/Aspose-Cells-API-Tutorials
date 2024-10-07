@@ -23,7 +23,7 @@ namespace Aspose.Cells.Examples.CSharp.Data.Processing.FilteringAndValidation
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
 
             // Create directory if it is not already present.
             bool IsExists = System.IO.Directory.Exists(dataDir);

@@ -25,7 +25,7 @@ namespace Aspose.Cells.Examples.CSharp.Data
             //ExStart:SpecifyingSortWarningWhileSortingData
 
             //The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
 
             //Create workbook.
             Workbook workbook = new Workbook(dataDir + "sampleSortAsNumber.xlsx");

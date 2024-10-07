@@ -20,7 +20,7 @@ namespace Aspose.Cells.Examples.CSharp.Data
     public class AccessAllNamedRanges
     {
         //Source directory
-        static string sourceDir = RunExamples.Get_SourceDirectory();
+        static string sourceDir = "Your Document Directory"();
 
         public static void Run()
         {

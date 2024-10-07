@@ -20,7 +20,7 @@ namespace Aspose.Cells.Examples.CSharp.Data
         {
             // ExStart:1
             // Output directory
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string outputDir = "Your Document Directory"();
 
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

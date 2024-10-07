@@ -20,7 +20,7 @@ namespace Aspose.Cells.Examples.CSharp.Data
     class SpecifyFormulaFieldsWhileImportingDataToWorksheet
     {
         //Output directory
-        static string outputDir = RunExamples.Get_OutputDirectory();
+        static string outputDir = "Your Document Directory"();
 
         //User-defined class to hold data items
         class DataItems

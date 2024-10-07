@@ -20,7 +20,7 @@ namespace Aspose.Cells.Examples.CSharp.Data
     public class CreateNamedRangeofCells
     {
         //Output directory
-        static string outputDir = RunExamples.Get_OutputDirectory();
+        static string outputDir = "Your Document Directory"();
 
         public static void Run()
         {

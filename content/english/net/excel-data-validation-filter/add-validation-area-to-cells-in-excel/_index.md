@@ -20,8 +20,8 @@ namespace Aspose.Cells.Examples.CSharp.Data
         {
             // ExStart:1
             // directories
-            string SourceDir = RunExamples.Get_SourceDirectory();
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string SourceDir = "Your Document Directory"();
+            string outputDir = "Your Document Directory"();
 
             Workbook workbook = new Workbook(SourceDir + "ValidationsSample.xlsx");
 
