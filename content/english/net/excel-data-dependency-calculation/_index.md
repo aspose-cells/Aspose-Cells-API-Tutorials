@@ -10,3 +10,4 @@ url: /net/excel-data-dependency-calculation/
 
 ## Excel Data Dependency and Calculation Tutorials
 ### [Tracing Dependent Cells in Excel](./tracing-dependent-cells-in-excel/)
+Learn how to trace dependent cells in Excel using Aspose.Cells for .NET with this easy-to-follow tutorial.
