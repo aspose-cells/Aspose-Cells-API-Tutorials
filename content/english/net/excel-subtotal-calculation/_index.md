@@ -10,4 +10,6 @@ url: /net/excel-subtotal-calculation/
 
 ## Excel Subtotal and Calculation Tutorials
 ### [Create Subtotals in Excel](./create-subtotals-in-excel/)
+Learn how to create subtotals in Excel using Aspose.Cells for .NET with this easy step-by-step tutorial.
 ### [Tracing Precedents in Excel](./tracing-precedents-in-excel/)
+Learn how to trace precedents in Excel with Aspose.Cells for .NET! Discover step-by-step code tutorials enhancing your spreadsheet skills.
