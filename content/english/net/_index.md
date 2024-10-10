@@ -60,16 +60,6 @@ Discover how to create and format named ranges in Excel with Aspose.Cells for .N
 Unlock the potential of Aspose.Cells for .NET with tutorials on advanced operations like named ranges, cell identification, and merging cells for dynamic reports.
 ### [Managing Named Ranges in Excel](./excel-managing-named-ranges/)
 Explore comprehensive tutorials on managing named ranges in Excel using Aspose.Cells for .NET. Perfect for beginners and advanced users.
-### [Accessing Cells in Excel](./excel-accessing-cells/)
-
-### [Searching for Cells in Excel](./excel-searching-for-cells/)
-
-### [Finding and Importing Data in Excel](./excel-finding-importing-data/)
-
-### [Importing Data from Various Sources in Excel](./excel-importing-from-various-sources/)
-
-### [Excel Data Handling](./excel-data-handling/)
-
 ### [Excel Data Export and Retrieval](./excel-data-export-retrieval/)
 Explore step-by-step tutorials for exporting and retrieving Excel data using Aspose.Cells for .NET, perfect for developers at any skill level.
 ### [Excel Autofilter and Validation](./excel-autofilter-validation/)
