@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- V tomto fragmentu kódu`"Your Document Directory"` a`"Your Document Directory"`předpokládá se, že načítají příslušné cesty, kde budou umístěny vaše vstupní a výstupní soubory. Pokud chcete, můžete tyto metody nahradit pevně zakódovanými cestami.
+ V tomto fragmentu kódu`"Your Document Directory"` a`"Your Document Directory"` předpokládá se, že načítají příslušné cesty, kde budou umístěny vaše vstupní a výstupní soubory. Pokud chcete, můžete tyto metody nahradit pevně zakódovanými cestami.
 
 ## Krok 2: Načtěte soubor XLSB
 
@@ -68,7 +68,7 @@ S načteným sešitem máte přístup k jeho externím připojením. V našem p�
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Zde,`DataConnections[0]` odkazuje na první připojení v sešitu. Odléváme to jako a`DBConnection` typ pro další manipulaci.
+ Zde,`DataConnections[0]`odkazuje na první připojení v sešitu. Odléváme to jako a`DBConnection` typ pro další manipulaci.
 
 ## Krok 4: Extrahujte informace o připojení
 
@@ -125,7 +125,7 @@ A tady to máte! Úspěšně jste se naučili číst a zapisovat externí připo
 Soubor XLSB je binární formát souboru aplikace Excel, který ukládá data tabulky v binárním formátu, takže je kompaktnější a rychleji se otevírá.
 
 ### Jak nainstaluji Aspose.Cells pro .NET?  
-Můžete si jej snadno stáhnout z webu Aspose[zde](https://releases.aspose.com/cells/net/).
+ Můžete si jej snadno stáhnout z webu Aspose[zde](https://releases.aspose.com/cells/net/).
 
 ### Mohu používat Aspose.Cells zdarma?  
  Ano! Můžete začít s bezplatnou zkušební verzí, která je k dispozici[zde](https://releases.aspose.com/).

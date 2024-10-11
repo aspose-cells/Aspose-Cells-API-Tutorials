@@ -18,7 +18,7 @@ Zanim zaczniemy, upewnij się, że wszystko jest gotowe, by wszystko przebiegło
 1.  Aspose.Cells for .NET Library – Musisz to zainstalować. Możesz to pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane przy użyciu najnowszej wersji .NET.
 3. IDE (zintegrowane środowisko programistyczne) – zalecany jest program Visual Studio.
-4. Ważna licencja Aspose.Cells – jeśli jej nie posiadasz, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub sprawdź ich[bezpłatny okres próbny](https://releases.aspose.com/).
+4.  Ważna licencja Aspose.Cells – jeśli jej nie posiadasz, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)lub sprawdź ich[bezpłatny okres próbny](https://releases.aspose.com/).
 
 Gotowy do drogi? Rozłóżmy to na czynniki pierwsze!
 
@@ -79,7 +79,7 @@ for (int i = 21; i < 41; i++)
 }
 ```
 
-tym przypadku wykorzystujemy liczby losowe do symulacji danych, ale w rzeczywistych zastosowaniach możesz wypełnić je rzeczywistymi wartościami ze swojego zestawu danych.
+W tym przypadku wykorzystujemy liczby losowe do symulacji danych, ale w rzeczywistych zastosowaniach możesz wypełnić je rzeczywistymi wartościami ze swojego zestawu danych.
 
 ## Krok 3: Dodaj wykres do arkusza kalkulacyjnego
 
@@ -174,7 +174,7 @@ Teraz gdy wszystko jest już gotowe, możemy zapisać skoroszyt, abyśmy mogli z
 workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
 
-to wszystko! Właśnie utworzyłeś wykres liniowy z markerami danych przy użyciu Aspose.Cells dla .NET.
+I to wszystko! Właśnie utworzyłeś wykres liniowy z markerami danych przy użyciu Aspose.Cells dla .NET.
 
 ## Wniosek
 

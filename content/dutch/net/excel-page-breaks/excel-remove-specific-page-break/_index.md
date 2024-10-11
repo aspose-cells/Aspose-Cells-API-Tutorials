@@ -16,7 +16,7 @@ Als het gaat om het werken met Excel-bestanden, kan het beheren van pagina-einde
 Voordat we in de details van de code duiken, zorgen we ervoor dat je alles hebt wat je nodig hebt om te beginnen. Hier is een snelle checklist met vereisten:
 
 1. Visual Studio: U hebt een werkende installatie van Visual Studio nodig om uw .NET-toepassingen te maken en uit te voeren.
-2. Aspose.Cells voor .NET: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. Als u dit nog niet hebt gedaan, kunt u deze downloaden van[hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. Als u dit nog niet hebt gedaan, kunt u deze downloaden van[hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de codefragmenten beter te begrijpen.
 4. Een Excel-bestand: Zorg dat u een Excel-bestand bij de hand hebt dat een aantal pagina-einden bevat, zodat we hiermee kunnen experimenteren.
 
@@ -53,14 +53,14 @@ Allereerst moet u opgeven waar uw Excel-documenten zijn opgeslagen. Dit helpt de
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Uitleg: Vervangen`YOUR DOCUMENT DIRECTORY` met het daadwerkelijke pad naar uw bestanden. Dit is waar u uw Excel-bestand laadt en uw gewijzigde Excel-bestand later opslaat.
+ Uitleg: Vervangen`YOUR DOCUMENT DIRECTORY`met het daadwerkelijke pad naar uw bestanden. Dit is waar u uw Excel-bestand laadt en uw gewijzigde Excel-bestand later opslaat.
 
 ## Stap 2: Instantieer het werkmapobject
 
 Vervolgens moeten we onze werkmap laden. Simpel gezegd, zie een werkmap als uw Excel-bestand.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,10 +105,10 @@ En daar heb je het! Het verwijderen van specifieke pagina-einden uit een Excel-b
 ## Veelgestelde vragen
 
 ### Kan ik meerdere pagina-einden tegelijk verwijderen?  
-Ja, dat kan! Loop gewoon door de`HorizontalPageBreaks` En`VerticalPageBreaks` collecties en gebruik de`RemoveAt` methode.
+ Ja, dat kan! Loop gewoon door de`HorizontalPageBreaks` En`VerticalPageBreaks` collecties en gebruik de`RemoveAt` methode.
 
 ### Hoe weet ik welke index ik moet gebruiken voor pagina-einden?  
-U kunt door de pagina-einden lopen met behulp van een lus om de indexen af te drukken of ze te inspecteren via de debugger.
+kunt door de pagina-einden lopen met behulp van een lus om de indexen af te drukken of ze te inspecteren via de debugger.
 
 ### Is er een manier om verwijderde pagina-einden opnieuw toe te voegen?  
  Helaas, zodra een pagina-einde is verwijderd met behulp van de`RemoveAt` methode, kan het niet binnen die sessie worden hersteld. U zult het handmatig opnieuw moeten maken.

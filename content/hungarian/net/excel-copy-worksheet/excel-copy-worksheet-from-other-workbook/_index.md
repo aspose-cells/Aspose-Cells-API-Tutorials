@@ -57,7 +57,7 @@ Ezután hozzuk létre az első munkafüzetünket, és adjunk hozzá néhány min
 ```csharp
 // Hozzon létre egy új munkafüzetet
 Workbook excelWorkbook0 = new Workbook();
-// Szerezd meg a könyv első feladatlapját
+// Szerezd meg a könyv első munkalapját
 Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
 // Helyezzen el néhány adatot a fejlécsorokba (A1:A4)
@@ -93,7 +93,7 @@ Most létre kell hoznunk egy másik munkafüzetet, ahová az első munkalapot m�
 ```csharp
 // Hozzon létre egy másik munkafüzetet
 Workbook excelWorkbook1 = new Workbook();
-// Szerezd meg a könyv első feladatlapját
+// Szerezd meg a könyv első munkalapját
 Worksheet ws1 = excelWorkbook1.Worksheets[0];
 // Nevezze el a munkalapot
 ws1.Name = "MySheet";

@@ -38,14 +38,14 @@ Nu we de basis hebben besproken, kunnen we verder met het spannende gedeelte: he
 Voordat we panelen kunnen splitsen, hebben we een werkmap nodig om mee te werken! Deze stap is net zo essentieel als het openen van een boek voordat je begint met lezen.
 
 ```csharp
-//Het pad naar de documentenmap
+// Het pad naar de documentenmap
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Een nieuwe werkmap instantiëren en een sjabloonbestand openen
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Vervang in de bovenstaande code`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar uw Excel-bestand zich bevindt. De`Workbook` klasse laadt het Excel-bestand in het geheugen.
+ Vervang in de bovenstaande code`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar uw Excel-bestand zich bevindt. De`Workbook`klasse laadt het Excel-bestand in het geheugen.
 
 ## Stap 2: Stel de actieve cel in
 
@@ -84,7 +84,7 @@ Wat heb je aan al je harde werk als je het niet bewaart? Bewaren zorgt ervoor da
 book.Save(dataDir + "output.xls");
 ```
 
- Hier, de`Save()`methode slaat de werkmap met uw nieuw gesplitste panelen op in een Excel-uitvoerbestand. De wijzigingen die u hebt aangebracht, zijn nu klaar voor u, of iemand anders, om te gebruiken.
+ Hier, de`Save()` methode slaat de werkmap met uw nieuw gesplitste panelen op in een Excel-uitvoerbestand. De wijzigingen die u hebt aangebracht, zijn nu klaar voor u, of iemand anders, om te gebruiken.
 
 ## Conclusie
 

@@ -41,7 +41,7 @@ Innan vi kan manipulera någon Excel-fil måste vi definiera sökvägen där din
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersätta`"YOUR DOCUMENT DIRECTORY"`med den faktiska katalogsökvägen på ditt system. Denna katalog kommer att vara där du laddar din befintliga Excel-fil och sparar utdata.
+ Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska katalogsökvägen på ditt system. Denna katalog kommer att vara där du laddar din befintliga Excel-fil och sparar utdata.
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 
@@ -61,7 +61,7 @@ I Excel kan flikarna längst ner (Sheet1, Sheet2, etc.) döljas eller visas. Med
 workbook.Settings.ShowTabs = true;
 ```
 
- Miljö`ShowTabs` till`true` kommer att se till att flikarna är synliga när du öppnar Excel-filen.
+ Miljö`ShowTabs` till`true`kommer att se till att flikarna är synliga när du öppnar Excel-filen.
 
 ## Steg 4: Spara den modifierade Excel-filen
 
@@ -71,7 +71,7 @@ När flikarna visas måste vi spara den uppdaterade filen. Detta säkerställer 
 workbook.Save(dataDir + "output.xls");
 ```
 
-Filen sparas med namnet`output.xls` i den tidigare angivna katalogen. Du kan också välja ett annat namn eller filformat (t.ex`.xlsx`) om det behövs.
+ Filen sparas med namnet`output.xls` i den tidigare angivna katalogen. Du kan också välja ett annat namn eller filformat (t.ex`.xlsx`) om det behövs.
 
 ## Slutsats
 
@@ -80,7 +80,7 @@ Och där har du det! Du har framgångsrikt visat flikarna i ett Excel-kalkylblad
 ## FAQ's
 
 ### Kan jag dölja flikarna i Excel med Aspose.Cells för .NET?
- Absolut! Enkelt inställt`workbook.Settings.ShowTabs = false;` och spara filen. Detta kommer att dölja flikarna när arbetsboken öppnas.
+ Absolut! Enkelt inställt`workbook.Settings.ShowTabs = false;`och spara filen. Detta kommer att dölja flikarna när arbetsboken öppnas.
 
 ### Stöder Aspose.Cells andra Excel-funktioner som diagram och pivottabeller?
 Ja, Aspose.Cells är ett omfattande bibliotek som stöder nästan alla Excel-funktioner, inklusive diagram, pivottabeller, formler och mer.

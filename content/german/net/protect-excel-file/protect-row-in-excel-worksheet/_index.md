@@ -116,7 +116,7 @@ Stellen Sie sicher, dass der gespeicherte Dateiname und das Format Ihren Anforde
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Cells für .NET eine bestimmte Zeile in einem Excel-Arbeitsblatt schützen. Mit nur wenigen Codezeilen haben Sie nicht nur eine Arbeitsmappe erstellt, sondern auch vertrauliche Informationen gesichert und sichergestellt, dass Ihre Excel-Dateien intakt und vertrauenswürdig bleiben. Ob Finanzbericht, Anwesenheitsliste oder gemeinsamer Projektplan – der Schutz wichtiger Daten ist unerlässlich. 
+Und da haben Sie es! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Cells für .NET eine bestimmte Zeile in einem Excel-Arbeitsblatt schützen. Mit nur wenigen Codezeilen haben Sie nicht nur eine Arbeitsmappe erstellt, sondern auch vertrauliche Informationen geschützt und sichergestellt, dass Ihre Excel-Dateien intakt und vertrauenswürdig bleiben. Ob Finanzbericht, Anwesenheitsliste oder gemeinsamer Projektplan – der Schutz wichtiger Daten ist unerlässlich. 
 
 ## Häufig gestellte Fragen
 

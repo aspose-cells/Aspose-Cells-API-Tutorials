@@ -115,7 +115,7 @@ E aí está! Desbloquear uma planilha protegida do Excel usando o Aspose.Cells p
 ### Posso desbloquear várias planilhas de uma vez?
 Sim! Você pode percorrer cada planilha na pasta de trabalho e desprotegê-las de forma similar.
 
-### O Aspose.Cells é gratuito?
+### Aspose.Cells é gratuito?
  Aspose.Cells oferece um teste gratuito, mas uma licença é necessária para uso em produção. Verifique seus[comprar](https://purchase.aspose.com/buy)página para mais informações.
 
 ### E se eu não souber a senha?

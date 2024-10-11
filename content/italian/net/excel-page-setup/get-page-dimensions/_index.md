@@ -2,14 +2,14 @@
 title: Ottieni le dimensioni della pagina
 linktitle: Ottieni le dimensioni della pagina
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come ottenere le dimensioni di pagina usando Aspose.Cells per .NET in questa guida passo-passo. Perfetta per gli sviluppatori che lavorano con file Excel.
+description: Scopri come ottenere le dimensioni della pagina usando Aspose.Cells per .NET in questa guida passo-passo. Perfetta per gli sviluppatori che lavorano con file Excel.
 type: docs
 weight: 40
 url: /it/net/excel-page-setup/get-page-dimensions/
 ---
 ## Introduzione
 
-Quando si tratta di gestire fogli di calcolo in applicazioni .NET, la libreria Aspose.Cells si distingue come uno strumento robusto che consente agli sviluppatori di manipolare facilmente i file Excel. Ma come si ottengono le dimensioni di pagina per vari formati di carta con questa potente libreria? In questo tutorial, ti guideremo passo dopo passo nel processo, assicurandoti non solo di ottenere informazioni sul funzionamento di Aspose.Cells, ma anche di diventare esperto nell'utilizzarlo nei tuoi progetti. 
+Quando si tratta di gestire fogli di calcolo in applicazioni .NET, la libreria Aspose.Cells si distingue come uno strumento robusto che consente agli sviluppatori di manipolare facilmente i file Excel. Ma come si ottengono le dimensioni di pagina per vari formati di carta con questa potente libreria? In questo tutorial, ti guideremo passo dopo passo nel processo, assicurandoti non solo di ottenere informazioni sul funzionamento di Aspose.Cells, ma anche di diventare esperto nel suo utilizzo nei tuoi progetti. 
 
 ## Prerequisiti 
 
@@ -44,7 +44,7 @@ Per utilizzare Aspose.Cells, è necessario aggiungere riferimenti alla libreria:
 
 ### Aggiungere direttive di utilizzo
 
- In cima al tuo`Program.cs` file, inserisci questa direttiva using per accedere alle funzionalità di Aspose.Cells:
+ In cima al tuo`Program.cs`file, inserisci questa direttiva using per accedere alle funzionalità di Aspose.Cells:
 
 ```csharp
 using System;

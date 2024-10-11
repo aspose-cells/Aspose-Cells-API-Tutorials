@@ -46,7 +46,7 @@ Aspose.Cells for .NET을 사용하여 보호된 Excel 시트의 잠금을 해제
 
 ## 1단계: 파일 경로 설정
 
-가장 먼저 해야 할 일은 Excel 파일이 있는 디렉토리를 설정하는 것입니다. 이것은 코드에서 "book1.xls"를 어디에서 찾아야 하는지 알아야 하기 때문에 중요합니다.
+가장 먼저 해야 할 일은 Excel 파일이 있는 디렉토리를 설정하는 것입니다. 이는 코드가 "book1.xls"를 어디에서 찾아야 하는지 알아야 하기 때문에 매우 중요합니다.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

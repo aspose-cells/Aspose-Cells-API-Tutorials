@@ -16,7 +16,7 @@ Di era digital, mengelola dan mengamankan data Anda lebih penting dari sebelumny
 Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
 1. Lingkungan Pengembangan: Anda harus menginstal Visual Studio di komputer Anda, karena ini menyediakan IDE yang sangat baik untuk pengembangan .NET.
-2.  Pustaka Aspose.Cells: Unduh pustaka Aspose.Cells. Anda bisa mendapatkannya dari[Halaman Unduhan Aspose](https://releases.aspose.com/cells/net/).
+2. Pustaka Aspose.Cells: Unduh pustaka Aspose.Cells. Anda bisa mendapatkannya dari[Halaman Unduhan Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Pastikan Anda memiliki pemahaman yang baik tentang C# dan .NET Framework agar dapat mengikutinya dengan mudah.
 4. Buat Proyek: Siapkan Aplikasi Konsol baru di Visual Studio tempat kita akan menulis kode.
 
@@ -48,7 +48,7 @@ Mari kita uraikan implementasinya menjadi beberapa langkah yang mudah dikelola. 
 
 ## Langkah 1: Buat Aliran File untuk File Excel Anda
 
- Pertama, kita perlu memuat file Excel yang sudah ada. Kita akan menggunakan`FileStream` untuk mengaksesnya.
+Pertama, kita perlu memuat file Excel yang sudah ada. Kita akan menggunakan`FileStream` untuk mengaksesnya.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Sekarang setelah kita memiliki aliran file, kita dapat membuat`Workbook` obyek.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Untuk keperluan kita, kita akan bekerja dengan lembar kerja pertama saja. Mari kita akses lembar kerja tersebut.
 
 ```csharp
-// Mengakses lembar kerja pertama dalam file Excel
+//Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Lembar kerja diindeks mulai dari nol, jadi`Worksheets[0]`mengacu pada lembar kerja pertama dalam berkas Excel. Sekarang, kita dapat menerapkan pengaturan proteksi pada lembar kerja khusus ini.
+ Lembar kerja diindeks mulai dari nol, jadi`Worksheets[0]` mengacu pada lembar kerja pertama dalam berkas Excel. Sekarang, kita dapat menerapkan pengaturan proteksi pada lembar kerja khusus ini.
 
 ## Langkah 4: Terapkan Pengaturan Perlindungan Lanjutan
 
@@ -148,7 +148,7 @@ Nah, itu dia! Anda telah berhasil menerapkan pengaturan perlindungan tingkat lan
 Aspose.Cells adalah pustaka hebat yang memungkinkan Anda membuat, memanipulasi, dan mengonversi file Excel secara terprogram dalam .NET.
 
 ### Bisakah saya melindungi beberapa lembar kerja sekaligus?
- Ya! Anda dapat menerapkan pengaturan perlindungan serupa ke beberapa lembar kerja dengan mengulangi`Worksheets` koleksi.
+ Ya! Anda dapat menerapkan pengaturan perlindungan serupa ke beberapa lembar kerja dengan mengulangi`Worksheets`koleksi.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
  Meskipun tersedia uji coba gratis, lisensi diperlukan untuk pengembangan skala penuh. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

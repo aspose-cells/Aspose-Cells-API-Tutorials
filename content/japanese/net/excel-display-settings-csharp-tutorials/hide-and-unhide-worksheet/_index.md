@@ -9,7 +9,7 @@ url: /ja/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 ---
 ## 導入
 
-データ管理に関して言えば、Microsoft Excel は、多くの人が情報の整理と分析に頼っている強力なツールです。ただし、特定のシートには、特定の人だけが閲覧できる機密データが含まれている場合や、ユーザー インターフェイスが乱雑になっている場合など、少し注意が必要な場合があります。このような場合、ワークシートを非表示にしたり、表示したりできることは不可欠です。幸いなことに、Aspose.Cells for .NET を使用すると、Excel シートをプログラムで簡単に管理できます。 
+データ管理に関して言えば、Microsoft Excel は、多くの人が情報の整理と分析に頼っている強力なツールです。ただし、特定のシートには、特定の人だけが見る必要がある機密データが含まれている場合や、ユーザー インターフェイスが乱雑になっている場合など、少し注意が必要な場合があります。このような場合、ワークシートを非表示にしたり、表示したりできることは不可欠です。幸いなことに、Aspose.Cells for .NET を使用すると、Excel シートをプログラムで簡単に管理できます。 
 
 ## 前提条件
 
@@ -72,7 +72,7 @@ Workbook workbook = new Workbook(fstream);
 ワークブックが手元にあるので、非表示にする特定のワークシートにアクセスします。最初のワークシートから始めます。
 
 ```csharp
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -132,7 +132,7 @@ Aspose.Cells for .NET を使用して Excel ワークシートを操作するの
 はい、ループすることができます`Worksheets`コレクションと設定`IsVisible`非表示にするシートごとに、 プロパティを false に設定します。
 
 ### Aspose.Cells はどのようなファイル形式をサポートしていますか?
- Aspose.CellsはXLS、XLSX、CSVなどさまざまな形式をサポートしています。完全なリストを確認するには[ここ](https://reference.aspose.com/cells/net/).
+Aspose.CellsはXLS、XLSX、CSVなどさまざまな形式をサポートしています。完全なリストを確認するには[ここ](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells を使用するにはライセンスが必要ですか?
 まずは無料トライアルで機能をご確認ください。本番アプリケーションにはフルライセンスが必要です。詳細はこちら[ここ](https://purchase.aspose.com/buy).

@@ -79,7 +79,7 @@ Net als bij het omslaan van een specifieke pagina in een boek, leidt deze stap o
 Nu is het tijd om de grafiek te vinden die we willen aanpassen. Dit is waar de magie echt begint!
 
 ```csharp
-// Haal de eerste grafiek in het blad
+//Haal de eerste grafiek in het blad
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Hier pakken we de kleurinstelling voor de grafiekserie.
  Laten we nu een Microsoft-themakleur toepassen. We kiezen een`Accent` stijl, want wie houdt er nou niet van een vleugje kleur?
 
 ```csharp
-// Maak een thema in Accent-stijl
+//Maak een thema in Accent-stijl
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

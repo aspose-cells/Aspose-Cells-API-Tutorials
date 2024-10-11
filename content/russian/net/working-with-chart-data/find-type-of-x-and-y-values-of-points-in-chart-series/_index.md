@@ -17,11 +17,11 @@ url: /ru/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 1. Среда .NET: У вас должна быть настроена среда разработки .NET. Это может быть Visual Studio, Visual Studio Code или любая другая совместимая IDE.
    
-2. Aspose.Cells for .NET: Вам понадобится установленный Aspose.Cells for .NET. Вы можете загрузить его с[здесь](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Вам понадобится установленный Aspose.Cells for .NET. Вы можете загрузить его с[здесь](https://releases.aspose.com/cells/net/).
 
-3.  Образец файла Excel: Получите образец файла Excel, который содержит диаграммы. Для этого урока мы будем использовать файл с именем`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Убедитесь, что он находится в каталоге вашего проекта.
+3. Образец файла Excel: Получите образец файла Excel, который содержит диаграммы. Для этого урока мы будем использовать файл с именем`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Убедитесь, что он находится в каталоге вашего проекта.
 
-4. Базовые знания программирования: знакомство с программированием на языке C# поможет вам легко усвоить материал.
+4. Базовые знания программирования: знакомство с программированием на C# поможет вам легко усвоить материал.
 
 ## Импортные пакеты
 
@@ -56,7 +56,7 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
- Заменять`"Your Document Directory"` с путем сохранения вашего файла Excel.
+ Заменять`"Your Document Directory"`с путем сохранения вашего файла Excel.
 
 ## Шаг 2: Загрузите рабочую книгу
 
@@ -82,7 +82,7 @@ Worksheet ws = wb.Worksheets[0];
 Chart ch = ws.Charts[0];
 ```
 
-## Шаг 5: Расчет данных диаграммы
+## Шаг 5: Рассчитайте данные диаграммы
 
 Прежде чем получить доступ к отдельным точкам данных, важно рассчитать данные диаграммы, чтобы убедиться, что все значения актуальны.
 

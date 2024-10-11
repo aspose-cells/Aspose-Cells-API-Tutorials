@@ -17,7 +17,7 @@ Dies sind Links zu einigen nützlichen Ressourcen:
  
 - [Excel-Arbeitsblatt](./net/excel-worksheet-csharp-tutorials/)
 - [Excel-Anzeigeeinstellungen](./net/excel-display-settings-csharp-tutorials)
-- [Excel-Seiteneinrichtung](./net/excel-page-setup)
+- [Excel-Seite einrichten](./net/excel-page-setup)
 - [Excel-Datei schützen](./net/protect-excel-file/)
 
 ## Aspose.Cells für Java-Tutorials

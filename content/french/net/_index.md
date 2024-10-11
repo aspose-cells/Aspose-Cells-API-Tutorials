@@ -48,3 +48,39 @@ Découvrez les didacticiels Aspose.Cells pour .NET sur le rendu des graphiques, 
 Découvrez des didacticiels complets sur Aspose.Cells pour .NET axés sur l'utilisation des données graphiques. Apprenez, créez et personnalisez vos graphiques.
 ### [Personnalisation des axes et des unités du graphique](./customizing-chart-axes-and-units/)
 Maîtrisez la personnalisation des axes de graphiques dans Aspose.Cells pour .NET avec des tutoriels simples. Apprenez à gérer les unités automatiques et à lire les étiquettes des axes comme un pro d'Excel.
+### [Travailler avec des hyperliens dans Excel](./excel-working-with-hyperlinks/)
+Libérez la magie des hyperliens dans Excel avec Aspose.Cells pour .NET. Découvrez à quel point il est simple d'améliorer efficacement vos feuilles de calcul.
+### [Travailler avec des plages nommées dans Excel](./excel-working-with-named-ranges/)
+Découvrez les didacticiels Aspose.Cells pour .NET pour travailler avec des plages nommées dans Excel. Découvrez comment accéder à toutes les plages nommées ou à des plages nommées spécifiques avec des guides étape par étape.
+### [Fusionner et dissocier des cellules dans Excel](./excel-merging-unmerging-cells/)
+Maîtrisez la fusion et la séparation de cellules dans Excel avec nos didacticiels Aspose.Cells pour .NET. Améliorez vos compétences en tableur.
+### [Création et mise en forme de plages nommées dans Excel](./excel-creating-formatting-named-ranges/)
+Découvrez comment créer et formater des plages nommées dans Excel avec Aspose.Cells pour .NET. Améliorez la gestion de vos données et votre présentation visuelle sans effort.
+### [Opérations avancées avec des plages nommées dans Excel](./excel-advanced-named-ranges/)
+Libérez le potentiel d'Aspose.Cells pour .NET avec des didacticiels sur les opérations avancées telles que les plages nommées, l'identification des cellules et la fusion de cellules pour des rapports dynamiques.
+### [Gestion des plages nommées dans Excel](./excel-managing-named-ranges/)
+Découvrez des didacticiels complets sur la gestion des plages nommées dans Excel à l'aide d'Aspose.Cells pour .NET. Parfait pour les débutants et les utilisateurs avancés.
+### [Exportation et récupération de données Excel](./excel-data-export-retrieval/)
+Découvrez des didacticiels étape par étape pour exporter et récupérer des données Excel à l'aide d'Aspose.Cells pour .NET, parfaits pour les développeurs de tout niveau de compétence.
+### [Filtre automatique et validation Excel](./excel-autofilter-validation/)
+Accédez à la gestion des données Excel avec les didacticiels Aspose.Cells pour .NET. Découvrez le filtrage automatique et la validation décimale pour améliorer vos feuilles de calcul.
+### [Sous-total et calcul Excel](./excel-subtotal-calculation/)
+Découvrez comment créer des sous-totaux Excel et tracer des précédents à l'aide d'Aspose.Cells pour .NET. Suivez ces tutoriels pour améliorer vos compétences en tableur sans effort.
+### [Dépendance et calcul des données Excel](./excel-data-dependency-calculation/)
+Découvrez les didacticiels Aspose.Cells pour .NET couvrant les dépendances et les calculs des données Excel, y compris le traçage des cellules dépendantes, pour améliorer vos compétences en automatisation Excel.
+### [Validation et filtrage des données Excel](./excel-data-validation-filter/)
+Découvrez les didacticiels Aspose.Cells pour .NET sur la validation des données et les filtres Excel : des guides simples pour améliorer votre productivité.
+### [Alignement et mise en forme des données Excel](./excel-data-alignment-formatting/)
+Découvrez comment modifier l'alignement des cellules Excel sans perdre la mise en forme dans Aspose.Cells pour .NET. Découvrez le didacticiel étape par étape pour une mise en forme transparente des données Excel.
+### [Formatage personnalisé des nombres et des dates dans Excel](./excel-custom-number-date-formatting/)
+Apprenez à utiliser Aspose.Cells pour .NET grâce à nos tutoriels complets sur la mise en forme personnalisée des nombres et des dates. Optimisez vos compétences Excel.
+### [Tri et exportation des données Excel](./excel-data-sorting-exporting/)
+Découvrez comment trier des données et exporter des valeurs HTML dans Excel avec Aspose.Cells pour .NET grâce à ces tutoriels faciles à suivre.
+### [Importation et exportation de données Excel](./excel-data-import-export/)
+Exploitez la puissance d'Aspose.Cells pour .NET. Explorez nos tutoriels pour importer et exporter efficacement des données Excel en toute simplicité.
+### [Conservation des données Excel et avertissement](./excel-data-preservation-warning/)
+Apprenez à utiliser Aspose.Cells pour .NET pour les techniques avancées de conservation des données Excel, telles que la conservation des préfixes entre guillemets simples dans les cellules et la spécification des avertissements de tri pendant le tri.
+### [Calcul de plage et d'adresse Excel](./excel-range-address-calculation/)
+Découvrez des tutoriels essentiels sur Aspose.Cells pour .NET, couvrant la création de plages Excel, le calcul d'adresses et les manipulations avancées en toute simplicité.
+### [Gestion des lignes cachées et de la duplication des données dans Excel](./excel-hidden-rows-data-duplication-management/)
+Libérez le potentiel d'Excel avec les didacticiels Aspose.Cells pour .NET, fournissant des informations sur la gestion des lignes masquées et la duplication des données sans effort.

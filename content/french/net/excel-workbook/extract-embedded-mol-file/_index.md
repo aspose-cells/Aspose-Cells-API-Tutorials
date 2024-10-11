@@ -72,7 +72,7 @@ Décomposons le processus d’extraction en étapes faciles à suivre.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Dans cette étape, nous créons une nouvelle instance de`Workbook`classe, qui agit comme un pont vers le contenu de votre fichier Excel. Le fichier est chargé ici afin que nous puissions ensuite parcourir les feuilles et trouver les objets MOL intégrés.
+ Dans cette étape, nous créons une nouvelle instance de`Workbook` classe, qui agit comme un pont vers le contenu de votre fichier Excel. Le fichier est chargé ici afin que nous puissions ensuite parcourir les feuilles et trouver les objets MOL intégrés.
 
 ## Étape 3 : parcourir les feuilles de travail
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Avec cet extrait, nous utilisons un`foreach` boucle pour parcourir chaque feuille de notre classeur. En accédant à la`OleObjects` collection, nous pouvons accéder à tous les objets intégrés sur cette feuille particulière. 
+ Avec cet extrait, nous utilisons un`foreach` boucle pour parcourir chaque feuille de notre classeur. En accédant à la`OleObjects`collection, nous pouvons accéder à tous les objets intégrés sur cette feuille particulière. 
 
 ## Étape 4 : Extraire les objets OLE
 
@@ -132,7 +132,7 @@ Aspose.Cells pour .NET est une bibliothèque puissante conçue pour manipuler et
 Absolument ! Aspose.Cells vous permet d'extraire divers formats de fichiers intégrés tels que des PDF, des images et bien plus encore, pas seulement des fichiers MOL.
 
 ### Dois-je acheter Aspose.Cells pour l'utiliser ?  
-Bien qu'un essai gratuit soit disponible, une licence est nécessaire pour bénéficier de toutes les fonctionnalités. Vous pouvez[achetez-le ici](https://purchase.aspose.com/buy).
+ Bien qu'un essai gratuit soit disponible, une licence est nécessaire pour bénéficier de toutes les fonctionnalités. Vous pouvez[achetez-le ici](https://purchase.aspose.com/buy).
 
 ### Est-il nécessaire d’avoir Visual Studio pour ce processus ?  
 Bien que nous ayons démontré l’utilisation de Visual Studio, vous pouvez utiliser n’importe quel IDE compatible C# pour exécuter votre projet.

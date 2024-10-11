@@ -60,7 +60,7 @@ Workbook workbook = new Workbook();
 
 ## Paso 3: Borrar saltos de página horizontales
 
-continuación, abordaremos los saltos de página horizontales. Aquí es donde las cosas pueden volverse un poco complicadas y es conveniente que tomes el control.
+A continuación, abordaremos los saltos de página horizontales. Aquí es donde las cosas pueden volverse un poco complicadas y es conveniente que tomes el control.
 
 ```csharp
 workbook.Worksheets[0].HorizontalPageBreaks.Clear();

@@ -9,7 +9,7 @@ url: /fr/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 ---
 ## Introduction
 
-Vous êtes-vous déjà retrouvé bloqué dans une feuille de calcul Excel, en regardant les données non modifiables et en souhaitant un moyen d'y accéder ? Nous sommes tous passés par là ! La protection par mot de passe peut être une arme à double tranchant : elle offre une sécurité, mais ressemble parfois davantage à une prison. Heureusement, si vous êtes un développeur ou une personne à l'aise avec la programmation .NET, Aspose.Cells est là pour vous aider, vous permettant de déverrouiller ces feuilles de calcul protégées sans effort. Dans ce guide, nous vous expliquerons les étapes à suivre pour déverrouiller une feuille de calcul Excel protégée par mot de passe à l'aide d'Aspose.Cells pour .NET. 
+Vous êtes-vous déjà retrouvé bloqué hors d'une feuille de calcul Excel, regardant les données non modifiables et souhaitant un moyen d'y accéder ? Nous sommes tous passés par là ! La protection par mot de passe peut être une arme à double tranchant : elle offre une sécurité, mais ressemble parfois davantage à une prison. Heureusement, si vous êtes un développeur ou une personne à l'aise avec la programmation .NET, Aspose.Cells est là pour vous, vous permettant de déverrouiller ces feuilles de calcul protégées sans effort. Dans ce guide, nous vous expliquerons les étapes à suivre pour déverrouiller une feuille de calcul Excel protégée par mot de passe à l'aide d'Aspose.Cells pour .NET. 
 
 ## Prérequis
 

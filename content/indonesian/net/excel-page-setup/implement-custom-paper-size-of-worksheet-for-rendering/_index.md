@@ -16,7 +16,7 @@ Membuat dan menyesuaikan dokumen Excel secara terprogram dapat membuat pekerjaan
 Sebelum kita mulai, mari pastikan Anda sudah menyiapkannya dengan benar. Berikut ini yang Anda perlukan untuk memulai:
 
 1. Visual Studio atau IDE .NET apa pun: Pastikan Anda memiliki IDE yang berfungsi seperti Visual Studio. Ini akan menjadi tempat bermain Anda di mana semua keajaiban pengkodean terjadi.
-2. Paket Aspose.Cells untuk .NET: Jika Anda belum melakukannya, Anda perlu mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbaru di[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Paket Aspose.Cells untuk .NET: Jika Anda belum melakukannya, Anda perlu mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbaru di[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sementara kami akan memandu Anda melalui kodenya, pemahaman yang mendalam tentang C# akan membantu Anda memahami nuansanya dengan lebih baik.
 4. Akses ke .NET Framework: Pastikan proyek Anda diatur untuk menargetkan versi .NET Framework yang kompatibel.
 
@@ -124,7 +124,7 @@ Menerapkan ukuran kertas khusus untuk lembar kerja Excel Anda menggunakan Aspose
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menggunakan Aspose.Cells tanpa membeli lisensi?
- Ya, Anda dapat mencoba versi uji coba gratis Aspose.Cells untuk .NET, tersedia[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mencoba versi uji coba gratis Aspose.Cells untuk .NET, tersedia[Di Sini](https://releases.aspose.com/).
 
 ### Apa yang terjadi jika saya melampaui batas lisensi sementara?
  Melebihi batas akan menyebabkan keluaran bertanda air. Sebaiknya pilih lisensi permanen untuk layanan tanpa gangguan. Anda dapat menemukan opsi[Di Sini](https://purchase.aspose.com/buy).
@@ -133,7 +133,7 @@ Menerapkan ukuran kertas khusus untuk lembar kerja Excel Anda menggunakan Aspose
 Ya, Aspose.Cells untuk .NET mendukung .NET Core. Anda dapat mengintegrasikannya ke dalam aplikasi modern Anda dengan mudah.
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat menghubungi melalui forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9)untuk bantuan jika terjadi kendala teknis.
+ Anda dapat menghubungi melalui forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9) untuk bantuan jika terjadi kendala teknis.
 
 ### Bisakah saya menyesuaikan aspek lain dari lembar kerja dengan Aspose.Cells?
 Tentu saja! Aspose.Cells menawarkan serangkaian fitur yang tangguh untuk menyesuaikan lembar kerja, termasuk gaya, rumus, dan banyak lagi.

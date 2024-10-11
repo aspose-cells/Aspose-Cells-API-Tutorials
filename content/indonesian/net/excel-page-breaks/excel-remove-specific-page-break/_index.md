@@ -16,7 +16,7 @@ Saat bekerja dengan file Excel, mengelola pemisah halaman bisa jadi sedikit rumi
 Sebelum kita menyelami seluk-beluk kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini daftar periksa prasyarat singkat:
 
 1. Visual Studio: Anda memerlukan instalasi Visual Studio yang berfungsi untuk membuat dan menjalankan aplikasi .NET Anda.
-2. Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
 4. Berkas Excel: Siapkan berkas Excel yang berisi beberapa jeda halaman agar kita dapat bereksperimen.
 
@@ -53,14 +53,14 @@ Pertama-tama, Anda perlu menentukan di mana dokumen Excel Anda disimpan. Ini mem
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Penjelasan: Ganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya ke berkas Anda. Di sinilah Anda akan memuat berkas Excel dan menyimpan berkas Excel yang dimodifikasi nanti.
+ Penjelasan: Ganti`YOUR DOCUMENT DIRECTORY`dengan jalur sebenarnya ke berkas Anda. Di sinilah Anda akan memuat berkas Excel dan menyimpan berkas Excel yang dimodifikasi nanti.
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
 Berikutnya, kita perlu memuat buku kerja kita. Dalam istilah yang lebih sederhana, anggaplah buku kerja sebagai berkas Excel Anda.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Nah, itu dia! Menghapus pemisah halaman tertentu dari file Excel menggunakan Asp
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menghapus beberapa jeda halaman sekaligus?  
-Ya, Anda bisa! Cukup lewati`HorizontalPageBreaks` Dan`VerticalPageBreaks` koleksi dan menggunakan`RemoveAt` metode.
+ Ya, Anda bisa! Cukup lewati`HorizontalPageBreaks` Dan`VerticalPageBreaks` koleksi dan menggunakan`RemoveAt` metode.
 
 ### Bagaimana cara mengetahui indeks mana yang harus digunakan untuk jeda halaman?  
 Anda dapat mengulangi jeda halaman menggunakan loop untuk mencetak indeksnya atau memeriksanya melalui debugger.

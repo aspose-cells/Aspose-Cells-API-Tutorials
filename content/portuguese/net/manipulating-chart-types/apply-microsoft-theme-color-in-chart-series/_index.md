@@ -40,7 +40,7 @@ Agora, vamos dividir isso em etapas detalhadas para aplicar as cores do tema da 
 
 ## Etapa 1: Defina seus diretórios de saída e origem
 
-A primeira coisa que você vai querer fazer é especificar onde seu arquivo de saída irá e onde seu arquivo de amostra está localizado. Pense nisso como definir um destino antes de embarcar em uma jornada.
+primeira coisa que você vai querer fazer é especificar onde seu arquivo de saída irá e onde seu arquivo de amostra está localizado. Pense nisso como definir um destino antes de embarcar em uma jornada.
 
 ```csharp
 // Diretório de saída
@@ -79,7 +79,7 @@ Assim como abrir uma página específica de um livro, esta etapa nos direciona p
 Agora é hora de encontrar o gráfico que queremos modificar. É aqui que a mágica realmente começa!
 
 ```csharp
-// Obtenha o primeiro gráfico na planilha
+//Obtenha o primeiro gráfico na planilha
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Aqui, pegamos a configuração de cor para a série de gráficos.
  Agora, vamos aplicar uma cor de tema da Microsoft. Vamos escolher uma`Accent` estilo porque quem não gosta de um toque de cor?
 
 ```csharp
-// Crie um tema no estilo Accent
+//Crie um tema no estilo Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

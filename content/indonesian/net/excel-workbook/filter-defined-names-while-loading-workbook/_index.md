@@ -37,7 +37,7 @@ Mari kita uraikan proses pemfilteran nama yang ditentukan saat memuat buku kerja
 
 ## Langkah 1: Tentukan Opsi Muatan
 
-Hal pertama yang akan kita lakukan adalah membuat sebuah instance dari`LoadOptions` Kelas ini akan membantu kita menentukan bagaimana kita ingin memuat berkas Excel kita.
+ Hal pertama yang akan kita lakukan adalah membuat instance dari`LoadOptions` Kelas ini akan membantu kita menentukan bagaimana kita ingin memuat berkas Excel kita.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Sekarang setelah opsi pemuatan kita ditentukan, saatnya memuat buku kerja itu se
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Pada baris ini, Anda membuat instance baru dari`Workbook`class, yang meneruskan jalur ke contoh berkas Excel dan opsi pemuatan. Ini memuat buku kerja Anda dengan nama yang ditentukan yang difilter sebagaimana ditentukan.
+ Pada baris ini, Anda membuat instance baru dari`Workbook` class, yang meneruskan jalur ke contoh berkas Excel dan opsi pemuatan. Ini memuat buku kerja Anda dengan nama yang ditentukan yang difilter sebagaimana ditentukan.
 
 ## Langkah 4: Simpan File Output
 
@@ -106,4 +106,4 @@ Memfilter nama yang ditentukan dapat menyebabkan rumus rusak jika merujuk ke nam
  Ya, Anda bisa mendapatkan uji coba Aspose.Cells gratis untuk menguji kemampuannya sebelum membeli. Lihat saja[Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Anda dapat menemukan dokumentasi lengkap dan contoh lebih lanjut di halaman referensi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi lengkap dan contoh lebih lanjut di halaman referensi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).

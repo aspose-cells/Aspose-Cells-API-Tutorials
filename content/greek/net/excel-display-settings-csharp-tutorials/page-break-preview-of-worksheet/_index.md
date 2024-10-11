@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Βήμα 3: Δημιουργήστε το βιβλίο εργασίας
 
 ```csharp
-// Δημιουργία αντικειμένου βιβλίου εργασίας
+//Δημιουργία αντικειμένου βιβλίου εργασίας
 // Άνοιγμα του αρχείου Excel μέσω της ροής αρχείων
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Βήμα 4: Πρόσβαση στο φύλλο εργασίας
 
 ```csharp
-// Πρόσβαση στο πρώτο φύλλο εργασίας στο αρχείο Excel
+//Πρόσβαση στο πρώτο φύλλο εργασίας στο αρχείο Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

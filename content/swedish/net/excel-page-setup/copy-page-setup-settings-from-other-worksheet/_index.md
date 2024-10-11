@@ -140,7 +140,7 @@ Att använda Aspose.Cells för .NET gör det enkelt att hantera kalkylblad. Du k
 Aspose.Cells är ett kraftfullt bibliotek för att arbeta med kalkylblad i .NET-applikationer.
 
 ### Kan jag använda Aspose.Cells med andra programmeringsspråk?  
-Aspose.Cells stöder främst .NET-språk, men det finns andra Aspose-bibliotek för olika språk.
+Aspose.Cells stöder i första hand .NET-språk, men det finns andra Aspose-bibliotek för olika språk.
 
 ### Finns det en gratis testversion tillgänglig för Aspose.Cells?  
  Ja, du kan ladda ner en[gratis provperiod](https://releases.aspose.com/) av Aspose.Cells.

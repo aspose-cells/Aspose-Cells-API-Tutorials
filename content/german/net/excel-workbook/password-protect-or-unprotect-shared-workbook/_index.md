@@ -53,7 +53,7 @@ Als Nächstes erstellen wir eine Instanz einer neuen Excel-Arbeitsmappe. Stellen
 Workbook wb = new Workbook();
 ```
 
-Diese Zeile initialisiert ein neues Arbeitsmappenobjekt namens`wb`. Jetzt sind wir bereit, auf dieser neuen Leinwand zu arbeiten.
+ Diese Zeile initialisiert ein neues Arbeitsmappenobjekt namens`wb`. Jetzt sind wir bereit, auf dieser neuen Leinwand zu arbeiten.
 
 ## Schritt 3: Schützen Sie die freigegebene Arbeitsmappe mit einem Kennwort
 
@@ -117,4 +117,4 @@ Wenn Sie das Kennwort vergessen, können Sie den Schutz der Arbeitsmappe leider 
 Aspose.Cells unterstützt hauptsächlich .NET, verfügt aber auch über Bibliotheken für Java und andere Sprachen. Weitere Informationen finden Sie auf der Website!
 
 ### Wie erhalte ich Unterstützung für Aspose.Cells?
- Sie können über das Support-Forum Hilfe erhalten:[Aspose-Unterstützung](https://forum.aspose.com/c/cells/9).
+Sie können über das Support-Forum Hilfe erhalten:[Aspose-Unterstützung](https://forum.aspose.com/c/cells/9).

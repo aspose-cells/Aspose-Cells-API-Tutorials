@@ -9,7 +9,7 @@ url: /it/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
 ## Introduzione
 
-Quando si tratta di lavorare con fogli di lavoro Excel, la flessibilità è spesso la chiave, soprattutto quando più utenti hanno bisogno di accedere per modificare aree specifiche senza compromettere l'integrità dei dati dell'intero foglio. È qui che Aspose.Cells per .NET brilla! In questo tutorial, ci immergeremo in come consentire agli utenti di modificare determinati intervalli all'interno di un foglio di lavoro Excel proteggendo il resto del documento. Entro la fine di questo articolo, non solo avrai afferrato i concetti, ma avrai anche un esempio tangibile con cui lavorare. 
+Quando si tratta di lavorare con fogli di lavoro Excel, la flessibilità è spesso la chiave, specialmente quando più utenti hanno bisogno di accedere per modificare aree specifiche senza compromettere l'integrità dei dati dell'intero foglio. È qui che Aspose.Cells per .NET brilla! In questo tutorial, ci immergeremo in come consentire agli utenti di modificare determinati intervalli all'interno di un foglio di lavoro Excel proteggendo il resto del documento. Entro la fine di questo articolo, non solo avrai afferrato i concetti, ma avrai anche un esempio tangibile con cui lavorare. 
 
 ## Prerequisiti
 
@@ -31,7 +31,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ora che abbiamo importato ciò che ci serve, entriamo nel vivo del nostro tutorial passo dopo passo.
+Ora che abbiamo importato ciò di cui abbiamo bisogno, entriamo nel vivo del nostro tutorial passo dopo passo.
 
 ## Passaggio 1: impostare la directory dei documenti
 

@@ -141,7 +141,7 @@ E in un attimo il tuo nuovo file, libero da tutte le vecchie impostazioni della 
 
 ## Conclusione
 
-Ed ecco fatto! Hai navigato con successo nei meandri della rimozione delle impostazioni della stampante dai fogli di lavoro Excel usando Aspose.Cells per .NET. È piuttosto sorprendente come solo poche righe di codice possano riordinare i tuoi documenti e rendere il tuo processo di stampa molto più fluido, vero? Ricorda, da un grande potere (come quello di Aspose.Cells), derivano grandi responsabilità, quindi testa sempre il tuo codice prima di distribuirlo in un ambiente di produzione.
+Ed ecco fatto! Hai superato con successo i meandri della rimozione delle impostazioni della stampante dai fogli di lavoro Excel usando Aspose.Cells per .NET. È piuttosto sorprendente come solo poche righe di codice possano riordinare i tuoi documenti e rendere il tuo processo di stampa molto più fluido, vero? Ricorda, da un grande potere (come quello di Aspose.Cells), derivano grandi responsabilità, quindi testa sempre il tuo codice prima di distribuirlo in un ambiente di produzione.
 
 ## Domande frequenti
 

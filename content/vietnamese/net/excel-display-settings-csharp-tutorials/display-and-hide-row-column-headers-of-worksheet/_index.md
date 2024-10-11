@@ -103,7 +103,7 @@ Cuối cùng, bạn cần đảm bảo đóng luồng tệp để giải phóng 
 fstream.Close();
 ```
 
- Đóng cửa`fstream` rất quan trọng vì nó đảm bảo không có rò rỉ bộ nhớ hoặc khóa tệp nào bị bỏ ngỏ trong ứng dụng của bạn.
+ Đóng cửa`fstream`rất quan trọng vì nó đảm bảo không có rò rỉ bộ nhớ hoặc khóa tệp nào bị bỏ ngỏ trong ứng dụng của bạn.
 
 ## Phần kết luận
 
@@ -121,7 +121,7 @@ Aspose.Cells là một thư viện .NET mạnh mẽ để quản lý bảng tín
  Mặc dù bạn có thể sử dụng phiên bản dùng thử miễn phí, nhưng cần có giấy phép để sử dụng thương mại liên tục. Bạn có thể tìm thấy các tùy chọn mua[đây](https://purchase.aspose.com/buy).
 
 ### Có hỗ trợ cho Aspose.Cells không?  
- Có, Aspose cung cấp hỗ trợ thông qua diễn đàn của họ, bạn có thể truy cập[đây](https://forum.aspose.com/c/cells/9).
+Có, Aspose cung cấp hỗ trợ thông qua diễn đàn của họ, bạn có thể truy cập[đây](https://forum.aspose.com/c/cells/9).
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells?  
-Bạn có thể nộp đơn xin cấp giấy phép tạm thời cho mục đích đánh giá tại[liên kết này](https://purchase.aspose.com/temporary-license/).
+ Bạn có thể nộp đơn xin cấp giấy phép tạm thời cho mục đích đánh giá tại[liên kết này](https://purchase.aspose.com/temporary-license/).

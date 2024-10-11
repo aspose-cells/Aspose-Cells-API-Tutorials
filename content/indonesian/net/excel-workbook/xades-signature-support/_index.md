@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Ganti dengan jalur ke file PFX Anda
 
 ## Langkah 4: Buat Tanda Tangan Digital
 
- Sekarang, mari kita membuat tanda tangan digital menggunakan`DigitalSignature`kelas. Di sinilah keajaiban terjadi!
+ Sekarang, mari kita membuat tanda tangan digital menggunakan`DigitalSignature` kelas. Di sinilah keajaiban terjadi!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Ya, Anda memerlukan sertifikat digital yang valid (file PFX) untuk membuat tanda
  Tentu saja! Anda bisa mendapatkan uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
 
 ### Apakah Aspose.Cells kompatibel dengan semua versi .NET?
-Aspose.Cells mendukung berbagai versi kerangka kerja .NET. Periksa[dokumentasi](https://reference.aspose.com/cells/net/) untuk detail kompatibilitas.
+ Aspose.Cells mendukung berbagai versi kerangka kerja .NET. Periksa[dokumentasi](https://reference.aspose.com/cells/net/) untuk detail kompatibilitas.
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
  Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9) untuk dukungan dan bantuan masyarakat.

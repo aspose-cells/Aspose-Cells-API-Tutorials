@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Sekarang, Anda akan membuat contoh kelas Workbook, yang merepresentasikan berkas Excel.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Selanjutnya, Anda perlu mengakses lembar kerja yang ingin Anda atur orientasinya. Karena setiap buku kerja dapat memiliki beberapa lembar kerja, Anda harus secara eksplisit menyatakan lembar kerja mana yang sedang Anda kerjakan.
 
 ```csharp
-// Mengakses lembar kerja pertama dalam file Excel
+//Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

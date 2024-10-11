@@ -2,7 +2,7 @@
 title: Grafik Çizgilerini Ayarla
 linktitle: Grafik Çizgilerini Ayarla
 second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET'i kullanarak Excel'de grafik çizgilerini nasıl özelleştireceğinizi öğrenin.
+description: Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de grafik çizgilerini nasıl özelleştireceğinizi öğrenin.
 type: docs
 weight: 14
 url: /tr/net/setting-chart-appearance/set-chart-lines/
@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Şimdi, elektronik tablonuz için bir kapsayıcı görevi görecek bir çalışma kitabı nesnesi oluşturacağız.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
-Açıklama: Bu satır, bir örnek oluşturur`Workbook` Aspose.Cells kütüphanesinden bir sınıf. Sayfalarınızı ve verilerinizi eklemeye başlayabileceğiniz yeni bir boş Excel dosyası açmak gibidir.
+ Açıklama: Bu satır, bir örnek oluşturur`Workbook`Aspose.Cells kütüphanesinden bir sınıf. Sayfalarınızı ve verilerinizi eklemeye başlayabileceğiniz yeni bir boş Excel dosyası açmak gibidir.
 
 ## Adım 3: Bir Çalışma Sayfasına Başvurun
 

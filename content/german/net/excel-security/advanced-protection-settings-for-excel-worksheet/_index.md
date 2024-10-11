@@ -16,7 +16,7 @@ Im digitalen Zeitalter ist die Verwaltung und Sicherung Ihrer Daten wichtiger de
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
 1. Entwicklungsumgebung: Sie sollten Visual Studio auf Ihrem Computer installiert haben, da es eine hervorragende IDE für die .NET-Entwicklung bietet.
-2.  Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek herunter. Sie erhalten sie von[Aspose Downloads-Seite](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek herunter. Sie erhalten sie von[Aspose Downloads-Seite](https://releases.aspose.com/cells/net/).
 3. Grundlegende C#-Kenntnisse: Stellen Sie sicher, dass Sie über gute Kenntnisse von C# und .NET Framework verfügen, um problemlos folgen zu können.
 4. Projekt erstellen: Richten Sie in Visual Studio eine neue Konsolenanwendung ein, in der wir den Code schreiben.
 
@@ -48,7 +48,7 @@ Lassen Sie uns die Implementierung in überschaubare Schritte unterteilen. Wir e
 
 ## Schritt 1: Erstellen Sie einen Dateistream für Ihre Excel-Datei
 
- Zuerst müssen wir eine vorhandene Excel-Datei laden. Wir verwenden eine`FileStream` um darauf zuzugreifen.
+Zuerst müssen wir eine vorhandene Excel-Datei laden. Wir verwenden eine`FileStream` um darauf zuzugreifen.
 
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Da wir nun einen Dateistream haben, können wir einen`Workbook` Objekt.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Für unsere Zwecke arbeiten wir nur mit dem ersten Arbeitsblatt. Greifen wir darauf zu.
 
 ```csharp
-// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Arbeitsblätter werden beginnend bei Null indiziert, so`Worksheets[0]`bezieht sich auf das erste Arbeitsblatt in der Excel-Datei. Jetzt können wir unsere Schutzeinstellungen auf dieses spezielle Blatt anwenden.
+ Arbeitsblätter werden beginnend bei Null indiziert, so`Worksheets[0]` bezieht sich auf das erste Arbeitsblatt in der Excel-Datei. Jetzt können wir unsere Schutzeinstellungen auf dieses spezielle Blatt anwenden.
 
 ## Schritt 4: Erweiterte Schutzeinstellungen anwenden
 
@@ -148,7 +148,7 @@ Und da haben Sie es! Sie haben mit Aspose.Cells für .NET erfolgreich erweiterte
 Aspose.Cells ist eine leistungsstarke Bibliothek, mit der Sie Excel-Dateien programmgesteuert in .NET erstellen, bearbeiten und konvertieren können.
 
 ### Kann ich mehrere Arbeitsblätter gleichzeitig schützen?
- Ja! Sie können ähnliche Schutzeinstellungen auf mehrere Arbeitsblätter anwenden, indem Sie die`Worksheets` Sammlung.
+ Ja! Sie können ähnliche Schutzeinstellungen auf mehrere Arbeitsblätter anwenden, indem Sie die`Worksheets`Sammlung.
 
 ### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?
  Obwohl eine kostenlose Testversion verfügbar ist, ist für die vollständige Entwicklung eine Lizenz erforderlich. Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).

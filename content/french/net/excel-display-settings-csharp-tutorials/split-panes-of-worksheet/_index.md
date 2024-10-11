@@ -38,14 +38,14 @@ Maintenant que nous avons couvert l'essentiel, passons à la partie passionnante
 Avant de pouvoir diviser des volets, nous avons besoin d'un classeur avec lequel travailler ! Cette étape est aussi essentielle que l'ouverture d'un livre avant de commencer à le lire.
 
 ```csharp
-//Le chemin vers le répertoire des documents
+// Le chemin vers le répertoire des documents
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Instancier un nouveau classeur et ouvrir un fichier modèle
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Dans le code ci-dessus, remplacez`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel.`Workbook` la classe charge le fichier Excel en mémoire.
+ Dans le code ci-dessus, remplacez`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel.`Workbook`la classe charge le fichier Excel en mémoire.
 
 ## Étape 2 : définir la cellule active
 
@@ -84,7 +84,7 @@ Après avoir divisé les volets, il ne vous reste plus qu'à enregistrer votre t
 book.Save(dataDir + "output.xls");
 ```
 
- Ici, le`Save()`La méthode enregistre le classeur avec vos volets nouvellement divisés dans un fichier Excel de sortie. Les modifications que vous avez apportées sont désormais prêtes à être utilisées par vous ou par quelqu'un d'autre.
+ Ici, le`Save()` La méthode enregistre le classeur avec vos volets nouvellement divisés dans un fichier Excel de sortie. Les modifications que vous avez apportées sont désormais prêtes à être utilisées par vous ou par quelqu'un d'autre.
 
 ## Conclusion
 

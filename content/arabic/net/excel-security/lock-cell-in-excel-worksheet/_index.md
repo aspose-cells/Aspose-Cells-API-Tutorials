@@ -15,7 +15,7 @@ url: /ar/net/excel-security/lock-cell-in-excel-worksheet/
 
 قبل أن ننتقل إلى التفاصيل الدقيقة للكود، هناك بعض الأشياء التي ستحتاج إلى إعدادها:
 
-1. Aspose.Cells for .NET: قم بتنزيل أحدث إصدار من Aspose.Cells for .NET وتثبيته من[موقع اسبوس](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET: قم بتنزيل أحدث إصدار من Aspose.Cells for .NET وتثبيته من[موقع اسبوس](https://releases.aspose.com/cells/net/).
 2. IDE: بيئة تطوير تم إعدادها لـ .NET. تتضمن الخيارات الشائعة Visual Studio أو JetBrains Rider.
 3. الفهم الأساسي لـ C#: في حين أننا سنرشدك خلال التعليمات البرمجية خطوة بخطوة، فإن الحصول على فهم أساسي لبرمجة C# سيساعدك على استيعاب المفاهيم بشكل أسرع.
 4. دليل المستندات الخاص بك: تأكد من إعداد دليل يمكنك تخزين ملفات Excel الخاصة بك فيه للاختبار.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## الخطوة 2: قم بتحميل المصنف الخاص بك
 
- بعد ذلك، ستحتاج إلى تحميل مصنف Excel الذي تنوي قفل الخلايا فيه. يتم ذلك عن طريق إنشاء مثيل من`Workbook` الفئة وتوجيهها إلى ملف Excel المطلوب.
+بعد ذلك، ستحتاج إلى تحميل مصنف Excel الذي تنوي قفل الخلايا فيه. يتم ذلك عن طريق إنشاء مثيل من`Workbook` الفئة وتوجيهها إلى ملف Excel المطلوب.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ workbook.Save(dataDir + "output.xlsx");
  بالتأكيد! يمكنك إلغاء قفل الخلايا عن طريق ضبط`IsLocked` الممتلكات ل`false` وإزالة الحماية.
 
 ### هل استخدام Aspose.Cells مجاني؟
- يقدم Aspose.Cells نسخة تجريبية مجانية للمستخدمين. ومع ذلك، للاستخدام المستمر، تحتاج إلى شراء ترخيص. قم بزيارة[صفحة شراء Aspose](https://purchase.aspose.com/buy) لمزيد من التفاصيل.
+يقدم Aspose.Cells نسخة تجريبية مجانية للمستخدمين. ومع ذلك، للاستخدام المستمر، تحتاج إلى شراء ترخيص. قم بزيارة[صفحة شراء Aspose](https://purchase.aspose.com/buy) لمزيد من التفاصيل.

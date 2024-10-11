@@ -35,7 +35,7 @@ Most, hogy minden készen van, ideje belevágni a kódba, és káprázatos 3D di
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges névtereket. Ez segít elérni az Aspose.Cells által biztosított osztályokat és metódusokat. Ezt a következőképpen teheti meg:
+A kezdéshez importálnia kell a szükséges névtereket. Ez segít elérni az Aspose.Cells által biztosított osztályokat és metódusokat. Íme, hogyan kell ezt megtenni:
 
 ```csharp
 using System;

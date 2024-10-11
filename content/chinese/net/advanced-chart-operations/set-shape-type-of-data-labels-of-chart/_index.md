@@ -16,7 +16,7 @@ url: /zh/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 在开始编码之前，让我们确保您已正确设置了所有内容。以下是您需要的内容：
 
 1.  Aspose.Cells for .NET：如果您还没有，请从[Aspose 网站](https://releases.aspose.com/cells/net/)。该库允许对 Excel 文档进行各种操作。
-2. Visual Studio：您应该在系统上安装此软件来编写和运行 .NET 应用程序。根据项目需求，确保它是支持 .NET Framework 或 .NET Core 的版本。
+2. Visual Studio：您应该在系统上安装此软件，以便编写和运行 .NET 应用程序。根据项目需求，确保它是支持 .NET Framework 或 .NET Core 的版本。
 3. 对 C# 的基本了解：熟悉基本的编程概念和 C# 语法肯定有助于您更好地理解代码片段。
 4. Excel 文件：您还需要一个示例 Excel 工作簿。您可以创建自己的工作簿或使用任何现有的工作簿。
 

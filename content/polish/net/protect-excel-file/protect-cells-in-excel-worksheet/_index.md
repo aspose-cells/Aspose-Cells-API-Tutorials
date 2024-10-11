@@ -139,7 +139,7 @@ Ten wiersz zapisuje skoroszyt jako plik Excela. Upewnij się, że określiłeś 
 
 ## Wniosek
 
-I masz to! Udało Ci się skutecznie chronić określone komórki w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz zabezpieczyć swoje dane, upewniając się, że tylko właściwe osoby mają dostęp do edycji krytycznych informacji. Pamiętaj, że ochrona komórek to tylko jedna z wielu funkcji oferowanych przez Aspose.Cells, które pomagają wydajnie zarządzać plikami Excela i manipulować nimi.
+masz to! Udało Ci się skutecznie chronić określone komórki w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz zabezpieczyć swoje dane, upewniając się, że tylko właściwe osoby mają dostęp do edycji krytycznych informacji. Pamiętaj, że ochrona komórek to tylko jedna z wielu funkcji oferowanych przez Aspose.Cells, które pomagają wydajnie zarządzać plikami Excela i manipulować nimi.
 
 ## Najczęściej zadawane pytania
 

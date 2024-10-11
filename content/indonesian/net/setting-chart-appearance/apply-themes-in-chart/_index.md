@@ -77,7 +77,7 @@ Dalam kasus ini, kita cukup mengambil lembar kerja pertama, yang cukup untuk con
 Dengan lembar kerja di tangan, kita sekarang dapat mengakses bagan yang ingin kita beri gaya.
 
 ```csharp
-// Dapatkan grafik pertama di lembar tersebut
+//Dapatkan grafik pertama di lembar tersebut
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Baris kode ini memastikan bahwa seri pertama pada bagan diatur untuk menggunakan
 // Dapatkan CellsColor dari SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Buat tema dalam gaya Aksen
+//Buat tema dalam gaya Aksen
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

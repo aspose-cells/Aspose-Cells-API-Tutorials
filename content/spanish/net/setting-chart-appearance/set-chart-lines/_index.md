@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Ahora, crearemos un objeto de libro de trabajo, que sirve como contenedor para su hoja de cálculo.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
-Explicación: Esta línea crea una instancia de la`Workbook` Clase de la biblioteca Aspose.Cells. Es como abrir un nuevo archivo de Excel en blanco donde puedes comenzar a agregar hojas y datos.
+ Explicación: Esta línea crea una instancia de la`Workbook`Clase de la biblioteca Aspose.Cells. Es como abrir un nuevo archivo de Excel en blanco donde puedes comenzar a agregar hojas y datos.
 
 ## Paso 3: Hacer referencia a una hoja de trabajo
 

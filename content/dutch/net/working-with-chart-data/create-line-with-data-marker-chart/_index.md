@@ -18,7 +18,7 @@ Voordat we beginnen, moet u ervoor zorgen dat u alles paraat heeft om de procedu
 1.  Aspose.Cells voor .NET Library – U moet dit installeren. U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Zorg ervoor dat uw ontwikkelomgeving is ingesteld met de nieuwste versie van .NET.
 3. IDE (Integrated Development Environment) – Visual Studio wordt aanbevolen.
-4. Een geldige Aspose.Cells-licentie – Als u die niet hebt, kunt u een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of bekijk hun[gratis proefperiode](https://releases.aspose.com/).
+4.  Een geldige Aspose.Cells-licentie – Als u die niet hebt, kunt u een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/)of bekijk hun[gratis proefperiode](https://releases.aspose.com/).
 
 Klaar om te gaan? Laten we het eens bekijken!
 
@@ -191,7 +191,7 @@ Absoluut! Aspose.Cells biedt een hoop aanpassingsopties, van lettertypen tot ras
 ### Hoe kan ik meer gegevensreeksen toevoegen?  
  Voeg eenvoudig extra series toe met behulp van de`NSeries.Add` methode, waarbij de celbereiken voor de nieuwe gegevens worden opgegeven.
 
-### Kan ik de grafiek exporteren als afbeelding?  
+### Kan ik de grafiek als afbeelding exporteren?  
  Ja, u kunt grafieken rechtstreeks als afbeeldingen exporteren met behulp van de`Chart.ToImage` methode.
 
 ### Ondersteunt Aspose.Cells 3D-diagrammen?  

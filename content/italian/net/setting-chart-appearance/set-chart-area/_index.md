@@ -54,7 +54,7 @@ Questa riga crea una nuova cartella di lavoro Excel. Abbastanza semplice, vero?
 
 ## Passaggio 2: accedi al foglio di lavoro
 
-Una volta ottenuta la nostra cartella di lavoro, il passo successivo è accedere al foglio di lavoro in cui aggiungeremo i dati e il grafico.
+Una volta ottenuta la nostra cartella di lavoro, il compito successivo è accedere al foglio di lavoro in cui aggiungeremo i dati e il grafico.
 
 Per ottenere il primo foglio di lavoro nella cartella di lavoro appena creata, puoi procedere in questo modo:
 

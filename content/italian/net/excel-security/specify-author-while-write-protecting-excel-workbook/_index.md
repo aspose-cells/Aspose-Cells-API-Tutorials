@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Assicurati di sostituire`"YOUR SOURCE DIRECTORY"` E`"YOUR OUTPUT DIRECTORY"`con percorsi effettivi sulla tua macchina. Pensa a questo come alla creazione di uno spazio di lavoro ordinato prima di iniziare a creare il tuo capolavoro!
+ Assicurati di sostituire`"YOUR SOURCE DIRECTORY"` E`"YOUR OUTPUT DIRECTORY"` con percorsi effettivi sulla tua macchina. Pensa a questo come alla creazione di uno spazio di lavoro ordinato prima di iniziare a creare il tuo capolavoro!
 
 ## Passaggio 2: creare una cartella di lavoro vuota
 
@@ -110,4 +110,4 @@ Ed ecco fatto! Hai imparato come creare una cartella di lavoro Excel, impostare 
 Assolutamente! Aspose.Cells funziona perfettamente sia nelle applicazioni desktop che in quelle web che utilizzano .NET.
 
 ### Cosa devo fare se ho bisogno di supporto?  
- Per domande e risoluzione dei problemi, la comunità Aspose è molto utile. Puoi visitare il loro[forum di supporto](https://forum.aspose.com/c/cells/9) per assistenza.
+Per domande e risoluzione dei problemi, la comunità Aspose è molto utile. Puoi visitare il loro[forum di supporto](https://forum.aspose.com/c/cells/9) per assistenza.

@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Mettre à jour avec le chemin sou
  Ensuite, vous devez créer une nouvelle instance de`Workbook` classe. Cet objet représentera votre fichier Excel, vous permettant de manipuler son contenu.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Dans ce code, nous spécifions le type de graphique (dans ce cas, un graphique �
 
 ## Étape 6 : Accéder à l'instance de graphique
 
- Une fois le graphique créé, nous devons accéder à son instance pour modifier ses propriétés. Cela se fait en le récupérant via le`Charts` collection.
+ Une fois le graphique créé, nous devons accéder à son instance pour modifier ses propriétés. Cela se fait en le récupérant via le`Charts`collection.
 
 ```csharp
 // Accéder à l'instance du graphique nouvellement ajouté

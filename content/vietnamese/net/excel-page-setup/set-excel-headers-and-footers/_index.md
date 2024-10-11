@@ -107,7 +107,7 @@ Bây giờ tiêu đề của chúng ta trông thật bắt mắt, hãy chuyển 
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Giải thích: Chúng tôi đang chèn một thông báo tùy chỉnh vào chân trang bên trái, "Xin chào thế giới!" cùng với văn bản`123` theo kiểu phông chữ khác—Courier New.
+Giải thích: Chúng tôi đang chèn một thông báo tùy chỉnh vào chân trang bên trái, "Xin chào thế giới!" cùng với văn bản`123` theo kiểu phông chữ khác—Courier New.
 
 ## Bước 7: Cấu hình chân trang ở giữa
 

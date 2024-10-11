@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Krok 3: Vytvořte instanci sešitu
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Krok 4: Otevřete sešit
 
 ```csharp
-// Přístup k prvnímu listu v souboru aplikace Excel
+//Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -10,7 +10,7 @@ url: /zh/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Excel 中级联下拉菜单的介绍
 
-在电子表格处理领域，Aspose.Cells for Java 是一款功能强大的工具包，可帮助开发人员高效处理 Excel 文件。它提供的一项有趣功能是能够在 Excel 中创建级联下拉菜单，允许用户根据先前的选择动态选择选项。在本分步指南中，我们将深入介绍使用 Aspose.Cells for Java 实现级联下拉菜单的过程。那么，让我们开始吧！
+在电子表格处理领域，Aspose.Cells for Java 是一款功能强大的工具包，可帮助开发人员高效处理 Excel 文件。它提供的一项有趣功能是能够在 Excel 中创建级联下拉菜单，允许用户根据之前的选择动态选择选项。在本分步指南中，我们将深入介绍使用 Aspose.Cells for Java 实现级联下拉菜单的过程。那么，让我们开始吧！
 
 ## 先决条件
 

@@ -101,7 +101,7 @@ Ja, du kan utföra olika beräkningar i pivottabeller, inklusive summa, medelvä
 
 ### Är Aspose.Cells for Java lämplig för stora datamängder?
 
-Ja, Aspose.Cells för Java är utformad för att hantera stora datamängder effektivt. Den tillhandahåller funktioner som datasökning och streaming för att optimera prestanda med stora mängder data.
+Ja, Aspose.Cells för Java är utformad för att hantera stora datamängder effektivt. Den tillhandahåller funktioner som datasökning och streaming för att optimera prestanda med betydande mängder data.
 
 ### Kan jag automatisera dataanalysuppgifter med Aspose.Cells för Java?
 

@@ -16,7 +16,7 @@ Az Excel-dokumentumok programozott létrehozása és testreszabása hatékonyabb
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy megfelelően van beállítva. Íme, mire van szüksége az induláshoz:
 
 1. Visual Studio vagy bármely .NET IDE: Győződjön meg arról, hogy rendelkezik működő IDE-vel, például a Visual Studio-val. Ez lesz a játszótered, ahol minden kódolási varázslat megtörténik.
-2. Aspose.Cells for .NET Package: Ha még nem tette meg, le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. A legújabb verziót megtalálja a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET Package: Ha még nem tette meg, le kell töltenie és telepítenie kell az Aspose.Cells könyvtárat. A legújabb verziót megtalálja a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: Miközben végigvezetjük a kódon, a C# ismerete segít jobban megérteni az árnyalatokat.
 4. Hozzáférés a .NET-keretrendszerhez: Győződjön meg arról, hogy a projekt úgy van beállítva, hogy a .NET-keretrendszer kompatibilis verzióját célozza meg.
 
@@ -51,7 +51,7 @@ Most, hogy minden a helyén van, ássuk be a lépéseket, amelyek szükségesek 
 
 ## 1. lépés: Állítsa be a kimeneti könyvtárat
 
-A kódolás megkezdése előtt döntse el, hová szeretné menteni a kimeneti PDF-fájlt, és állítsa be a kódban.
+kódolás megkezdése előtt döntse el, hová szeretné menteni a kimeneti PDF-fájlt, és állítsa be a kódban.
 
 ```csharp
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
@@ -124,7 +124,7 @@ Egyedi papírméret megvalósítása Excel-munkalapjaihoz az Aspose.Cells segít
 ## GYIK
 
 ### Használhatom az Aspose.Cells-t licenc megvásárlása nélkül?
- Igen, kipróbálhatja az Aspose.Cells .NET-hez készült ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+Igen, kipróbálhatja az Aspose.Cells .NET-hez készült ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 
 ### Mi történik, ha túllépem az ideiglenes engedély korlátait?
  A határértékek túllépése vízjeles kimenetekhez vezet. A legjobb, ha állandó licencet választ a folyamatos szolgáltatáshoz. Lehet találni lehetőségeket[itt](https://purchase.aspose.com/buy).
@@ -133,7 +133,7 @@ Egyedi papírméret megvalósítása Excel-munkalapjaihoz az Aspose.Cells segít
 Igen, az Aspose.Cells for .NET támogatja a .NET Core-t. Zökkenőmentesen integrálhatja modern alkalmazásaiba.
 
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?
- Az Aspose támogatási fórumán keresztül léphet kapcsolatba[itt](https://forum.aspose.com/c/cells/9)segítségért bármilyen technikai probléma esetén.
+ Az Aspose támogatási fórumán keresztül léphet kapcsolatba[itt](https://forum.aspose.com/c/cells/9) segítségért bármilyen technikai probléma esetén.
 
 ### Testreszabhatom a munkalap egyéb szempontjait az Aspose.Cells segítségével?
 Teljesen! Az Aspose.Cells robusztus funkciókészletet kínál a munkalapok testreszabásához, beleértve a stílusokat, képleteket és még sok mást.

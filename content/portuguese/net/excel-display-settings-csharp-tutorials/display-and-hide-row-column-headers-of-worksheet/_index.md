@@ -103,11 +103,11 @@ Por fim, você precisa fechar o fluxo de arquivos para que todos os recursos sej
 fstream.Close();
 ```
 
- Fechando o`fstream` é crucial, pois garante que não haja vazamentos de memória ou bloqueios de arquivo abertos em seu aplicativo.
+ Fechando o`fstream`é crucial, pois garante que não haja vazamentos de memória ou bloqueios de arquivo abertos em seu aplicativo.
 
 ## Conclusão
 
-aí está! Você aprendeu como ocultar os cabeçalhos de linha e coluna de uma planilha do Excel usando o Aspose.Cells for .NET por meio de uma série de etapas simples. Isso pode melhorar a legibilidade e a apresentação geral de suas planilhas, permitindo que seu público se concentre apenas nos dados que você deseja destacar.
+E aí está! Você aprendeu como ocultar os cabeçalhos de linha e coluna de uma planilha do Excel usando o Aspose.Cells for .NET por meio de uma série de etapas simples. Isso pode melhorar a legibilidade e a apresentação geral de suas planilhas, permitindo que seu público se concentre apenas nos dados que você deseja destacar.
 
 ## Perguntas frequentes
 
@@ -121,7 +121,7 @@ Aspose.Cells é uma poderosa biblioteca .NET para gerenciar planilhas do Excel, 
  Embora você possa usar uma versão de teste gratuita, uma licença é necessária para uso comercial contínuo. Você pode encontrar as opções de compra[aqui](https://purchase.aspose.com/buy).
 
 ### Há suporte disponível para Aspose.Cells?  
- Sim, a Aspose fornece suporte por meio de seus fóruns, que você pode acessar[aqui](https://forum.aspose.com/c/cells/9).
+Sim, a Aspose fornece suporte por meio de seus fóruns, que você pode acessar[aqui](https://forum.aspose.com/c/cells/9).
 
 ### Como posso obter uma licença temporária para o Aspose.Cells?  
-Você pode solicitar uma licença temporária para fins de avaliação em[este link](https://purchase.aspose.com/temporary-license/).
+ Você pode solicitar uma licença temporária para fins de avaliação em[este link](https://purchase.aspose.com/temporary-license/).

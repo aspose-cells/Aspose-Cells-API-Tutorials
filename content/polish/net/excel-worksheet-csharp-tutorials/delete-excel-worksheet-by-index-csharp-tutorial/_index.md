@@ -55,7 +55,7 @@ Najpierw musisz zdefiniować lokalizację pliku Excel. Tutaj poinstruujesz progr
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls` plik rezyduje. Pomyśl o tym jak o podaniu swojemu GPS-owi prawidłowego adresu przed rozpoczęciem podróży drogowej!
+ Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls`plik rezyduje. Pomyśl o tym jak o podaniu swojemu GPS-owi prawidłowego adresu przed rozpoczęciem podróży drogowej!
 
 ## Krok 4: Otwórz plik Excela za pomocą FileStream
 
@@ -85,7 +85,7 @@ Teraz nadchodzi ekscytująca część — usuwanie arkusza kalkulacyjnego! Może
 workbook.Worksheets.RemoveAt(0);
 ```
 
-W tym przykładzie usuwamy pierwszy arkusz roboczy w kolekcji (pamiętaj, indeks jest zerowy). To jak wyrzucanie buta, którego nie nosiłeś od wieków — zmień kształt dokumentu Excel, aby zachować tylko to, czego potrzebujesz!
+tym przykładzie usuwamy pierwszy arkusz roboczy w kolekcji (pamiętaj, indeks jest zerowy). To jak wyrzucanie buta, którego nie nosiłeś od wieków — zmień kształt dokumentu Excel, aby zachować tylko to, czego potrzebujesz!
 
 ## Krok 7: Zapisz zmodyfikowany skoroszyt
 
@@ -109,7 +109,7 @@ To tak, jakbyś wychodząc zamknął drzwi i miał pewność, że nie pozostawis
 
 ## Wniosek
 
-I masz to! Udało Ci się nauczyć, jak usunąć arkusz kalkulacyjny Excela według jego indeksu, używając C# i Aspose.Cells. Proces jest prosty, gdy tylko opanujesz podstawy. Teraz możesz łatwo usunąć niepotrzebne arkusze ze swoich skoroszytów, dzięki czemu Twoje dane będą bardziej przejrzyste i uporządkowane.
+masz to! Udało Ci się nauczyć, jak usunąć arkusz kalkulacyjny Excela według jego indeksu, używając C# i Aspose.Cells. Proces jest prosty, gdy tylko opanujesz podstawy. Teraz możesz łatwo usunąć niepotrzebne arkusze ze swoich skoroszytów, dzięki czemu Twoje dane będą bardziej przejrzyste i uporządkowane.
 
 ## Najczęściej zadawane pytania
 

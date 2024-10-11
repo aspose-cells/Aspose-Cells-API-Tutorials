@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Yer değiştirmek`Your Document Directory` Ve`Your Output Directory`Bilgisayarınızdaki gerçek yollarla. 
+ Yer değiştirmek`Your Document Directory` Ve`Your Output Directory` Bilgisayarınızdaki gerçek yollarla. 
 
 ## Adım 2: Mevcut Çalışma Kitabını Yükleyin
 
@@ -100,7 +100,7 @@ Tabloyu seçtikten sonra sıra geldi resmi eklemeye!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Burada,`50` Ve`50` görüntünün yerleştirileceği X ve Y koordinatlarıdır ve`200`resmin genişliği ve yüksekliğidir.
+ Burada,`50` Ve`50` görüntünün yerleştirileceği X ve Y koordinatlarıdır ve`200` resmin genişliği ve yüksekliğidir.
 
 ## Adım 6: Resmin Çizgi Formatını Özelleştirin
 
@@ -151,7 +151,7 @@ Bu eğitimde, Aspose.Cells for .NET kullanarak resimler ekleyerek Excel grafikle
 Aspose.Cells PNG, JPEG, BMP ve GIF gibi çeşitli resim formatlarını destekler.
 
 ### Resmin konumunu özelleştirebilir miyim?
- Kesinlikle! X ve Y koordinatları`AddPictureInChart` yöntem hassas konumlandırmaya izin verir.
+Kesinlikle! X ve Y koordinatları`AddPictureInChart` yöntem hassas konumlandırmaya izin verir.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
  Aspose.Cells ücretsiz deneme sunuyor ancak tüm özellikler için lisans gerekiyor. Fiyatlandırmayı bulabilirsiniz[Burada](https://purchase.aspose.com/buy).

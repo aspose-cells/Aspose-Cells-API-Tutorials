@@ -47,7 +47,7 @@ Pada langkah ini, kita akan membuat buku kerja baru.
 ```csharp
 //Direktori keluaran
 static string outputDir = "Your Document Directory";
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 

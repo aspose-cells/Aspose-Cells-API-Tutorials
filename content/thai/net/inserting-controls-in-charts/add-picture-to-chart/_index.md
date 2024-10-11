@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- แทนที่`Your Document Directory` และ`Your Output Directory`ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณ 
+ แทนที่`Your Document Directory` และ`Your Output Directory` ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณ 
 
 ## ขั้นตอนที่ 2: โหลดสมุดงานที่มีอยู่
 
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- ที่นี่,`50` และ`50` คือพิกัด X และ Y ที่จะวางภาพ และ`200`คือความกว้างและความสูงของรูปภาพ
+ ที่นี่,`50` และ`50` คือพิกัด X และ Y ที่จะวางภาพ และ`200` คือความกว้างและความสูงของรูปภาพ
 
 ## ขั้นตอนที่ 6: ปรับแต่งรูปแบบเส้นของรูปภาพ
 
@@ -151,7 +151,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 Aspose.Cells รองรับรูปแบบภาพต่างๆ รวมถึง PNG, JPEG, BMP และ GIF
 
 ### ฉันสามารถปรับแต่งตำแหน่งของภาพได้ไหม?
- แน่นอน! พิกัด X และ Y ใน`AddPictureInChart` วิธีการนี้ช่วยให้สามารถวางตำแหน่งได้อย่างแม่นยำ
+แน่นอน! พิกัด X และ Y ใน`AddPictureInChart` วิธีการนี้ช่วยให้สามารถวางตำแหน่งได้อย่างแม่นยำ
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
  Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ จำเป็นต้องมีใบอนุญาต คุณสามารถดูราคาได้[ที่นี่](https://purchase.aspose.com/buy).

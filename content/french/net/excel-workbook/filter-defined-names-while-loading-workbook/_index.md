@@ -37,7 +37,7 @@ Décomposons le processus de filtrage des noms définis lors du chargement d’u
 
 ## Étape 1 : Spécifier les options de chargement
 
-La première chose que nous allons faire est de créer une instance de`LoadOptions` classe. Cette classe nous aidera à spécifier comment nous voulons charger notre fichier Excel.
+ La première chose que nous allons faire est de créer une instance de`LoadOptions` classe. Cette classe nous aidera à spécifier comment nous voulons charger notre fichier Excel.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Maintenant que nos options de chargement sont spécifiées, il est temps de char
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Dans cette ligne, vous créez une nouvelle instance de`Workbook`classe, en passant le chemin d'accès à votre fichier Excel d'exemple et les options de chargement. Cela charge votre classeur avec les noms définis filtrés comme spécifié.
+ Dans cette ligne, vous créez une nouvelle instance de`Workbook` classe, en passant le chemin d'accès à votre fichier Excel d'exemple et les options de chargement. Cela charge votre classeur avec les noms définis filtrés comme spécifié.
 
 ## Étape 4 : Enregistrer le fichier de sortie
 
@@ -106,4 +106,4 @@ Le filtrage des noms définis peut conduire à des formules erronées si elles f
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.Cells pour tester ses capacités avant de l'acheter. Découvrez-le[ici](https://releases.aspose.com/).
 
 ### Où puis-je trouver plus d’exemples et de documentation ?
- Vous pouvez trouver une documentation complète et plus d'exemples sur la page de référence Aspose.Cells[ici](https://reference.aspose.com/cells/net/).
+Vous pouvez trouver une documentation complète et plus d'exemples sur la page de référence Aspose.Cells[ici](https://reference.aspose.com/cells/net/).

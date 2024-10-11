@@ -9,13 +9,13 @@ url: /fr/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 ---
 ## Introduction
 
-Avez-vous déjà eu besoin d'ajouter une nouvelle feuille à un fichier Excel par programmation ? Si tel est le cas, vous êtes au bon endroit ! Dans ce guide, nous nous penchons sur les bases de l'utilisation d'Aspose.Cells pour .NET, une bibliothèque puissante conçue pour la manipulation de fichiers Excel. Nous décrirons les conditions préalables, décomposerons le code en étapes faciles à suivre et vous aiderons à démarrer en un rien de temps.
+Avez-vous déjà eu besoin d'ajouter une nouvelle feuille à un fichier Excel par programmation ? Si c'est le cas, vous êtes au bon endroit ! Dans ce guide, nous nous penchons sur les bases de l'utilisation d'Aspose.Cells pour .NET, une bibliothèque puissante conçue pour la manipulation de fichiers Excel. Nous décrirons les conditions préalables, décomposerons le code en étapes faciles à suivre et vous aiderons à démarrer en un rien de temps.
 
 ## Prérequis
 
 Avant de commencer le codage, assurons-nous que vous disposez de tout ce dont vous avez besoin pour ce projet :
 
-1. Visual Studio : assurez-vous que Visual Studio est installé. Si vous ne l'avez pas encore, vous pouvez le télécharger à partir du[Site Web de Microsoft](https://visualstudio.microsoft.com/).
+1.  Visual Studio : assurez-vous que Visual Studio est installé. Si vous ne l'avez pas encore, vous pouvez le télécharger à partir du[Site Web de Microsoft](https://visualstudio.microsoft.com/).
 2.  Bibliothèque Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells pour .NET. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 3. .NET Framework : assurez-vous que votre projet est configuré pour une version compatible du .NET Framework (généralement, .NET Framework 4.0 ou supérieur fonctionne bien).
 4. Connaissances de base de C# : une connaissance de C# et de la programmation orientée objet vous aidera à mieux comprendre le code.
@@ -62,7 +62,7 @@ Dans le code ci-dessus, nous déclarons le chemin où notre fichier Excel résid
 Ensuite, nous allons créer une instance de la classe Workbook. Cette classe est l'épine dorsale de toutes les opérations liées à Excel que vous effectuerez.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Maintenant que notre classeur est prêt, ajoutons cette nouvelle feuille !
 int i = workbook.Worksheets.Add();
 ```
 
- Ici, nous utilisons le`Add()` méthode de la`Worksheets` collection présente au sein de la`Workbook` classe. La méthode renvoie un index (`i`) de la feuille nouvellement ajoutée. C'est comme ajouter une page à votre carnet - simple et efficace !
+ Ici, nous utilisons le`Add()` méthode de la`Worksheets` collection présente au sein de la`Workbook` classe. La méthode renvoie un index (`i`de la feuille nouvellement ajoutée. C'est comme ajouter une page à votre carnet - simple et efficace !
 
 ## Étape 4 : Nommer votre nouvelle feuille de calcul
 
@@ -95,7 +95,7 @@ worksheet.Name = "My Worksheet";
 
 ## Étape 5 : enregistrement du fichier Excel
 
-Nous sommes dans la dernière ligne droite maintenant ! Il est temps de sauvegarder votre chef-d'œuvre.
+Nous sommes dans la dernière ligne droite maintenant ! Il est temps de sauvegarder votre chef-d'œuvre.
 
 ```csharp
 // Sauvegarde du fichier Excel
@@ -119,7 +119,7 @@ Aspose.Cells pour .NET est une bibliothèque puissante pour créer, manipuler et
  Oui, il suffit d'appeler le`Add()` méthode plusieurs fois, et faites référence à chaque feuille par son index !
 
 ### Existe-t-il une version d'essai gratuite d'Aspose.Cells ?  
-Certainement ! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
+ Certainement ! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
 
 ### Puis-je formater la nouvelle feuille après l'avoir ajoutée ?  
 Absolument ! Vous pouvez appliquer des styles, des formats et même des formules à vos feuilles de calcul à l'aide des fonctionnalités de la bibliothèque.

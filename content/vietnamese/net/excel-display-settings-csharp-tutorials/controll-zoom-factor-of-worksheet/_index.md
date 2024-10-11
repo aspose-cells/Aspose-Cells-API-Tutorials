@@ -78,10 +78,10 @@ Dòng mã này sẽ chuẩn bị tệp Excel của bạn để chỉnh sửa.
 
 ## Bước 3: Khởi tạo đối tượng Workbook
 
- Các`Workbook`Đối tượng là cốt lõi của chức năng Aspose.Cells của bạn. Nó thể hiện tệp Excel của bạn theo cách dễ quản lý.
+ Các`Workbook` Đối tượng là cốt lõi của chức năng Aspose.Cells của bạn. Nó thể hiện tệp Excel của bạn theo cách dễ quản lý.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Với sổ làm việc hiện đang trong bộ nhớ, đã đến lúc truy cập vào trang tính cụ thể mà bạn muốn sửa đổi. Trong hầu hết các trường hợp, đây sẽ là trang tính đầu tiên (chỉ mục 0).
 
 ```csharp
-// Truy cập vào trang tính đầu tiên trong tệp Excel
+//Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

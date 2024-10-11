@@ -142,7 +142,7 @@ Sim, você pode repetir o processo de bloqueio para quaisquer outras linhas da m
 ### E se eu quiser proteger e desbloquear células específicas em vez de linhas?  
 Você pode selecionar células individualmente e aplicar estilos de bloqueio, semelhante a como você bloqueia uma linha.
 
-### O Aspose.Cells é gratuito?  
+### Aspose.Cells é gratuito?  
 Aspose.Cells é um produto comercial, mas você pode experimentá-lo com uma avaliação gratuita disponível[aqui](https://releases.aspose.com/).
 
 ### Preciso de uma conexão com a internet para usar o Aspose.Cells?  

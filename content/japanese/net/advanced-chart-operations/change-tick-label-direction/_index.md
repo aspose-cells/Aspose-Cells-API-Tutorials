@@ -108,7 +108,7 @@ chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
 workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
 ```
 
-ここで、出力ディレクトリと新しいファイル名を指定します。これで変更が保存されました。
+ここで、新しいファイル名とともに出力ディレクトリを指定します。これで変更が保存されました。
 
 ## ステップ7: 実行を確認する
 

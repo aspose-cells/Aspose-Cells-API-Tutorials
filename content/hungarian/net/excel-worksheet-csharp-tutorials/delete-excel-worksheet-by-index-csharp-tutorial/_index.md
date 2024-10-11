@@ -9,13 +9,13 @@ url: /hu/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-cs
 ---
 ## Bevezetés
 
-Az Excel a munkánk szerves részévé vált, nem igaz? Gyakran azon kapjuk magunkat, hogy több munkalappal zsonglőrködünk, így könnyen elveszünk az adatokban. De mit csinálsz, ha takarítanod kell? Ha szeretne megszabadulni egy Excel-fájlban lévő munkalaptól annak indexe alapján, C# használatával, az Aspose.Cells ezt a feladatot hihetetlenül egyszerűvé és hatékonysá teszi. Ebben az oktatóanyagban minden követendő lépésen végigvezetem Önt, szóval ne aggódjon; Még ha teljesen kezdő vagy, pillanatok alatt törölheted a munkalapot!
+Az Excel a munkánk szerves részévé vált, nem igaz? Gyakran azon kapjuk magunkat, hogy több munkalappal zsonglőrködünk, így könnyen elveszünk az adatokban. De mit csinálsz, ha takarítanod kell? Ha szeretne megszabadulni egy Excel-fájlban lévő munkalaptól annak indexe alapján, C# használatával, az Aspose.Cells ezt a feladatot hihetetlenül egyszerűvé és hatékonysá teszi. Ebben az oktatóanyagban minden követendő lépésen végigvezetem Önt, szóval ne aggódjon; még ha teljesen kezdő vagy, pillanatok alatt törölheted a munkalapot!
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, győződjön meg arról, hogy minden készen áll a használatra. Íme, amire szüksége lesz:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy minden készen áll a használatra. Íme, amire szüksége lesz:
 
-1. Alapvető C# ismeretek: Kényelmesnek kell lennie az alapvető C# programok írásával. Ha létre tud hozni és futtatni egy egyszerű C# alkalmazást, akkor minden készen áll!
+1. Alapvető C# ismeretek: Kényelmesnek kell lennie az alapvető C# programok írásával. Ha tud létrehozni és futtatni egy egyszerű C# alkalmazást, készen is van!
 2.  Aspose.Cells Library: Ez a fő eszközünk. Le kell töltenie és telepítenie kell a .NET Aspose.Cells könyvtárát. Megtalálhatja a szükséges fájlokat[itt](https://releases.aspose.com/cells/net/). 
 3. Visual Studio vagy bármely C# IDE: A kód írásához és végrehajtásához integrált fejlesztői környezetre (IDE), például a Visual Studiora lesz szüksége. Ha egy perc telt el azóta, hogy utoljára kinyitotta, itt az ideje, hogy leporolja!
 4.  Meglévő Excel-fájl: Győződjön meg arról, hogy kéznél van egy Excel-fájl, amellyel dolgozni szeretne. Ehhez az oktatóanyaghoz használjuk`book1.xls`, de bármit használhat, csak győződjön meg arról, hogy a megfelelő formátumban van.
@@ -55,7 +55,7 @@ Először is meg kell határoznia az Excel-fájl helyét. Itt utasíthatja a pro
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Csak cseréld ki`"YOUR DOCUMENT DIRECTORY"` a tényleges útvonallal, ahol az Ön`book1.xls` fájl található. Tekintsd ezt úgy, mintha útbaigazítás előtt megadnád a GPS-nek a helyes címet!
+ Csak cseréld ki`"YOUR DOCUMENT DIRECTORY"` a tényleges útvonallal, ahol az Ön`book1.xls`fájl található. Tekintsd ezt úgy, mintha útbaigazítás előtt megadnád a GPS-nek a helyes címet!
 
 ## 4. lépés: Nyissa meg az Excel fájlt egy FileStream segítségével
 
@@ -89,7 +89,7 @@ Ebben a példában eltávolítjuk a gyűjtemény első munkalapját (ne feledje,
 
 ## 7. lépés: Mentse el a módosított munkafüzetet
 
-munkalap törlése után el kell mentenie a változtatásokat. Így írja vissza az eredményeket az Excel fájlba, így a változtatások véglegesek lesznek.
+A munkalap törlése után el kell mentenie a változtatásokat. Így írja vissza az eredményeket az Excel fájlba, így a változtatások véglegesek lesznek.
 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
@@ -105,7 +105,7 @@ Végül érdemes bezárni a fájlfolyamot, miután végzett. Ez a lépés felsza
 fstream.Close();
 ```
 
-Ez olyan, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga után!
+Olyan ez, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga után!
 
 ## Következtetés
 

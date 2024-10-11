@@ -9,7 +9,7 @@ url: /cs/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 ---
 ## Zavedení
 
-V dnešním vizuálně řízeném světě velmi záleží na způsobu, jakým data prezentujeme. Grafy jsou často neopěvovanými hrdiny prezentace dat, zjednodušují složité informace do stravitelných vizuálních pecek. Pokud používáte Microsoft Excel, víte, jak důležité je přizpůsobit grafy tak, aby odpovídaly značce vaší organizace, nebo aby byly jednoduše atraktivnější. Věděli jste ale, že pomocí Aspose.Cells pro .NET můžete své grafy ještě více přizpůsobit? V tomto článku vás provedeme kroky, jak použít barvy motivu Microsoft v řadě grafů, čímž zajistíme, že vaše data nejen vyniknou, ale také budou esteticky odpovídat vašim dalším materiálům značky.
+dnešním vizuálně řízeném světě velmi záleží na způsobu, jakým data prezentujeme. Grafy jsou často neopěvovanými hrdiny prezentace dat, zjednodušují složité informace do stravitelných vizuálních pecek. Pokud používáte Microsoft Excel, víte, jak důležité je přizpůsobit grafy tak, aby odpovídaly značce vaší organizace, nebo aby byly jednoduše atraktivnější. Věděli jste ale, že pomocí Aspose.Cells pro .NET můžete své grafy ještě více přizpůsobit? V tomto článku vás provedeme kroky, jak použít barvy motivu Microsoft v řadě grafů, čímž zajistíme, že vaše data nejen vyniknou, ale také budou esteticky odpovídat vašim dalším materiálům značky.
 
 ## Předpoklady
 
@@ -79,7 +79,7 @@ Stejně jako otočení na konkrétní stránku v knize nás tento krok nasměruj
 Nyní je čas najít graf, který chceme upravit. Tady to kouzlo opravdu začíná!
 
 ```csharp
-// Získejte první graf v listu
+//Získejte první graf v listu
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Zde si vezmeme nastavení barev pro řadu grafů.
  Nyní použijeme barvu motivu Microsoft. Vybereme a`Accent` styl, protože kdo nemá rád pop barvy?
 
 ```csharp
-// Vytvořte motiv ve stylu Accent
+//Vytvořte motiv ve stylu Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

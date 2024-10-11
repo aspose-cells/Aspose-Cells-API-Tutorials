@@ -36,7 +36,7 @@ Ora che siamo tutti impostati e pronti per scrivere codice, scomponiamo il proce
 
 ## Passaggio 1: configura il tuo ambiente
 
- In questo passaggio, imposterai il percorso del file in cui si trova il tuo file Excel. Sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso del tuo file.
+In questo passaggio, imposterai il percorso del file in cui si trova il tuo file Excel. Sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso del tuo file.
 
 ```csharp
 // Percorso verso la directory dei documenti.
@@ -72,7 +72,7 @@ Questo passaggio equivale a dire "Ciao!" al tuo libro di lavoro, che saprà che 
 Con la tua cartella di lavoro in mano, è il momento di accedere al foglio di lavoro specifico che vuoi nascondere. Inizieremo con il primo foglio di lavoro.
 
 ```csharp
-// Accesso al primo foglio di lavoro nel file Excel
+//Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Dopo aver nascosto il foglio di lavoro, vorrai salvare le modifiche apportate al
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Qui salviamo la cartella di lavoro come`output.out.xls`. È come sigillare il tuo lavoro in una busta. Se non lo salvi, tutto il tuo duro lavoro andrà perso!
+ Qui salviamo la cartella di lavoro come`output.out.xls`. È come sigillare il tuo lavoro in una busta. Se non lo salvi, tutto il tuo duro lavoro andrà perso!
 
 ## Passaggio 7: chiudere il flusso di file
 
@@ -132,7 +132,7 @@ Manipolare fogli di lavoro Excel usando Aspose.Cells per .NET non deve essere un
  Sì, puoi scorrere il`Worksheets` raccolta e impostare il`IsVisible` su false per ogni foglio che desideri nascondere.
 
 ### Quali formati di file supporta Aspose.Cells?
- Aspose.Cells supporta una varietà di formati, tra cui XLS, XLSX, CSV e altri. Puoi controllare l'elenco completo[Qui](https://reference.aspose.com/cells/net/).
+Aspose.Cells supporta una varietà di formati, tra cui XLS, XLSX, CSV e altri. Puoi controllare l'elenco completo[Qui](https://reference.aspose.com/cells/net/).
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells?
  Puoi iniziare con una prova gratuita per esplorarne le funzionalità. Per le applicazioni di produzione è richiesta una licenza completa. Scopri di più[Qui](https://purchase.aspose.com/buy).

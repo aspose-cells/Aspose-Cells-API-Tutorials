@@ -16,7 +16,7 @@ url: /ko/net/excel-page-setup/fit-to-excel-pages-options/
 코딩에 뛰어들기 전에, 시작하는 데 필요한 모든 것이 있는지 확인해 보겠습니다. 준비해야 할 사항은 다음과 같습니다.
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 이것은 모든 개발 작업의 주요 허브입니다.
-2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에 추가해야 합니다. 쉽게 가져올 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
+2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에 추가해야 합니다. 쉽게 가져올 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
 3. 기본 C# 지식: C# 프로그래밍에 대한 지식이 엄청나게 도움이 될 것입니다. 변수, 루프, 기본 파일 I/O를 처리할 수 있다면, 바로 집에 있는 것과 같을 것입니다.
 4. .NET Framework: 라이브러리는 이 생태계 내에서의 호환성을 위해 설계되었으므로 프로젝트가 적절한 .NET Framework 버전으로 설정되었는지 확인하세요.
 
@@ -54,9 +54,9 @@ Excel 페이지를 포맷할 준비가 되셨나요? 프로세스를 단계별�
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
-// Excel 파일의 첫 번째 워크시트에 액세스하기
+//Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`워크시트가 수직으로 몇 페이지 분량인지 결정합니다.
-- `FitToPagesWide` 수평 페이지 설정을 정의합니다. 둘 다 설정`1` 즉, 콘텐츠가 한 페이지에 깔끔하게 들어가고 문서가 간결한 걸작으로 변모합니다.
+- `FitToPagesTall` 워크시트가 수직으로 몇 페이지 분량인지 결정합니다.
+- `FitToPagesWide` 수평 페이지 설정을 정의합니다. 둘 다 설정`1`즉, 콘텐츠가 한 페이지에 깔끔하게 들어가고 문서가 간결한 걸작으로 변모합니다.
 
 ## 3단계: 통합 문서 저장
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 관리하기 위한 강력한 .NET 라이브러리로, 개발자가 스프레드시트를 쉽게 만들고 조작할 수 있도록 해줍니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
- 네! 무료 체험판에 가입할 수 있습니다.[여기](https://releases.aspose.com/).
+네! 무료 체험판에 가입할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells는 어떻게 구매하나요?
  구매를 할 수 있습니다[여기](https://purchase.aspose.com/buy).

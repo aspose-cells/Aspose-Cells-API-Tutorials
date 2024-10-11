@@ -42,7 +42,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Cuando se trata de desbloquear una hoja de Excel protegida con Aspose.Cells para .NET, los pasos son sencillos. Desglosaremos cada paso con claridad y lo guiaremos a través del proceso.
+la hora de desbloquear una hoja de Excel protegida con Aspose.Cells para .NET, los pasos son sencillos. Explicaremos cada paso con claridad y lo guiaremos a través del proceso.
 
 ## Paso 1: Configura la ruta de tu archivo
 

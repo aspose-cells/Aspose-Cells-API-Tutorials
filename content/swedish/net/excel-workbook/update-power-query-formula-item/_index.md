@@ -122,4 +122,4 @@ Du kan arbeta med .xlsx, .xls, .xlsm och flera andra Excel-format med Aspose.Cel
  Ja, du kan ladda ner en gratis testversion från[Aspose Cells releasesida](https://releases.aspose.com/).
 
 ### Hur kan jag få support för Aspose.Cells?
- Du får tillgång till support via[Aspose forum](https://forum.aspose.com/c/cells/9), där du kan ställa frågor och hitta svar från communityn och Aspose-teamet.
+ Du får tillgång till support via[Aspose forum](https://forum.aspose.com/c/cells/9)där du kan ställa frågor och hitta svar från communityn och Aspose-teamet.

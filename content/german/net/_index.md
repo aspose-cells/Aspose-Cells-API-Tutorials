@@ -18,7 +18,7 @@ Egal, ob Sie Anfänger oder erfahrener Entwickler sind, die Tutorials von Aspose
 Die C#-Tutorials von Aspose.Cells bieten Schritt-für-Schritt-Anleitungen zum einfachen und effizienten Bearbeiten von Excel-Tabellen.
 ### [Excel-Anzeigeeinstellungen](./excel-display-settings-csharp-tutorials)
 Sehen Sie sich die C#-Tutorials von Aspose.Cells an, um die Excel-Anzeige anzupassen. Ändern Sie Schriftarten, Farben, Formate und erstellen Sie attraktive Berichte.
-### [Excel-Seiteneinrichtung](./excel-page-setup)
+### [Excel-Seite einrichten](./excel-page-setup)
 Sehen Sie sich die Aspose.Cells für .NET-Tutorials zum Einrichten des Seitenlayouts von Excel an. Passen Sie Ihre Excel-Dateien ganz einfach an.
 ### [Excel-Datei schützen](./protect-excel-file/)
 Sehen Sie sich die Aspose.Cells für .NET-Tutorials zum Schutz von Excel-Dateien an. Erfahren Sie, wie Sie Ihre vertraulichen Daten mit C# schützen.
@@ -48,3 +48,39 @@ Entdecken Sie Aspose.Cells für .NET-Tutorials zum Rendern und Konvertieren von 
 Entdecken Sie umfassende Aspose.Cells für .NET-Tutorials, die sich auf die Arbeit mit Diagrammdaten konzentrieren. Lernen Sie, erstellen und passen Sie Ihre Diagramme an.
 ### [Anpassen der Diagrammachsen und -einheiten](./customizing-chart-axes-and-units/)
 Meistern Sie die Anpassung von Diagrammachsen in Aspose.Cells für .NET mit einfachen Tutorials. Lernen Sie, automatische Einheiten zu handhaben und Achsenbeschriftungen wie ein Excel-Profi zu lesen.
+### [Arbeiten mit Hyperlinks in Excel](./excel-working-with-hyperlinks/)
+Entfesseln Sie die Magie von Hyperlinks in Excel mit Aspose.Cells für .NET. Entdecken Sie, wie einfach es ist, Ihre Tabellen effektiv zu verbessern.
+### [Arbeiten mit benannten Bereichen in Excel](./excel-working-with-named-ranges/)
+Entdecken Sie die Aspose.Cells für .NET-Tutorials zum Arbeiten mit benannten Bereichen in Excel. Erfahren Sie mit Schritt-für-Schritt-Anleitungen, wie Sie auf alle oder bestimmte benannte Bereiche zugreifen können.
+### [Zusammenführen und Aufheben der Zusammenführung von Zellen in Excel](./excel-merging-unmerging-cells/)
+Meistern Sie das Zusammenführen und Aufheben von Zellen in Excel mit unseren einfachen Aspose.Cells-Tutorials für .NET. Verbessern Sie Ihre Tabellenkalkulationskenntnisse.
+### [Erstellen und Formatieren benannter Bereiche in Excel](./excel-creating-formatting-named-ranges/)
+Entdecken Sie, wie Sie mit Aspose.Cells für .NET benannte Bereiche in Excel erstellen und formatieren. Verbessern Sie mühelos Ihr Datenmanagement und Ihre visuelle Präsentation.
+### [Erweiterte Operationen mit benannten Bereichen in Excel](./excel-advanced-named-ranges/)
+Schöpfen Sie das Potenzial von Aspose.Cells für .NET mit Tutorials zu erweiterten Vorgängen wie benannten Bereichen, Zellenidentifikation und Zusammenführen von Zellen für dynamische Berichte.
+### [Verwalten benannter Bereiche in Excel](./excel-managing-named-ranges/)
+Entdecken Sie umfassende Tutorials zum Verwalten benannter Bereiche in Excel mit Aspose.Cells für .NET. Perfekt für Anfänger und Fortgeschrittene.
+### [Excel-Datenexport und -abruf](./excel-data-export-retrieval/)
+Entdecken Sie Schritt-für-Schritt-Tutorials zum Exportieren und Abrufen von Excel-Daten mit Aspose.Cells für .NET, ideal für Entwickler aller Kenntnisstufen.
+### [Excel-Autofilter und Validierung](./excel-autofilter-validation/)
+Entsperren Sie die Excel-Datenverwaltung mit Aspose.Cells für .NET-Tutorials. Erfahren Sie mehr über Autofilterung und Dezimalvalidierung, um Ihre Tabellen zu verbessern.
+### [Excel-Zwischensumme und Berechnung](./excel-subtotal-calculation/)
+Entdecken Sie, wie Sie mit Aspose.Cells für .NET Excel-Zwischensummen erstellen und Präzedenzfälle verfolgen. Folgen Sie diesen Tutorials, um Ihre Tabellenkalkulationskenntnisse mühelos zu verbessern.
+### [Excel-Datenabhängigkeit und -Berechnung](./excel-data-dependency-calculation/)
+Entdecken Sie Aspose.Cells für .NET-Tutorials zu Excel-Datenabhängigkeiten und -Berechnungen, einschließlich der Nachverfolgung abhängiger Zellen, um Ihre Excel-Automatisierungskenntnisse zu verbessern.
+### [Excel-Datenüberprüfung und -filter](./excel-data-validation-filter/)
+Entdecken Sie Aspose.Cells für .NET-Tutorials zur Excel-Datenvalidierung und zu Filtern – einfache Anleitungen zur Steigerung Ihrer Produktivität.
+### [Ausrichtung und Formatierung von Excel-Daten](./excel-data-alignment-formatting/)
+Entdecken Sie, wie Sie die Ausrichtung von Excel-Zellen ändern können, ohne die Formatierung in Aspose.Cells für .NET zu verlieren. Lernen Sie das Schritt-für-Schritt-Tutorial zur nahtlosen Excel-Datenformatierung.
+### [Benutzerdefinierte Zahlen- und Datumsformatierung in Excel](./excel-custom-number-date-formatting/)
+Erfahren Sie mit unseren umfassenden Tutorials zur benutzerdefinierten Zahlen- und Datumsformatierung, wie Sie Aspose.Cells für .NET verwenden. Optimieren Sie Ihre Excel-Kenntnisse.
+### [Sortieren und Exportieren von Excel-Daten](./excel-data-sorting-exporting/)
+Entdecken Sie in diesen leicht verständlichen Tutorials, wie Sie mit Aspose.Cells für .NET Daten sortieren und HTML-Werte in Excel exportieren.
+### [Excel-Datenimport und -export](./excel-data-import-export/)
+Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET. Entdecken Sie unsere Tutorials, um Excel-Daten effizient und mühelos zu importieren und zu exportieren.
+### [Excel-Datenerhaltung und Warnung](./excel-data-preservation-warning/)
+Erfahren Sie, wie Sie Aspose.Cells für .NET für erweiterte Techniken zur Excel-Datenerhaltung verwenden, etwa das Beibehalten einfacher Anführungszeichen als Präfixe in Zellen und das Angeben von Sortierwarnungen während des Sortierens.
+### [Excel-Bereichs- und Adressberechnung](./excel-range-address-calculation/)
+Entdecken Sie wichtige Tutorials zu Aspose.Cells für .NET, die die Erstellung von Excel-Bereichen, die Berechnung von Adressen und erweiterte Manipulationen mit Leichtigkeit abdecken.
+### [Verwaltung ausgeblendeter Zeilen und Datenduplizierung in Excel](./excel-hidden-rows-data-duplication-management/)
+Schöpfen Sie das Potenzial von Excel mit den Tutorials zu Aspose.Cells für .NET aus und erhalten Sie Einblicke in die Verwaltung ausgeblendeter Zeilen und die mühelose Duplizieren von Daten.

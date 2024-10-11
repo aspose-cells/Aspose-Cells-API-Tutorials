@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Stap 3: Instantieer de werkmap
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Stap 4: Toegang tot het werkblad
 
 ```csharp
-// Toegang krijgen tot het eerste werkblad in het Excel-bestand
+//Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -109,7 +109,7 @@ Tot slot is het een goede gewoonte om resources op te schonen. Het sluiten van d
 
 ## Conclusie
 
-En daar heb je het! Je hebt de pagina-einde preview voor een werkblad succesvol ingeschakeld met Aspose.Cells voor .NET. Deze functie kan je vermogen om afdruklay-outs te beheren aanzienlijk verbeteren, waardoor het gemakkelijker wordt om je gegevens op een gestructureerde manier te presenteren. Of je nu rapporten genereert of gegevens voorbereidt voor afdrukken, Aspose.Cells biedt je de tools die je nodig hebt om je creativiteit en productiviteit de vrije loop te laten. Dus, waar wacht je nog op? Duik in je volgende Excel-project met Aspose.Cells en zie hoe het je workflow transformeert!
+En daar heb je het! Je hebt de pagina-einde preview voor een werkblad succesvol ingeschakeld met Aspose.Cells voor .NET. Deze functie kan je vermogen om afdruklay-outs te beheren aanzienlijk verbeteren, waardoor het gemakkelijker wordt om je gegevens op een gestructureerde manier te presenteren. Of je nu rapporten genereert of gegevens voorbereidt voor afdrukken, Aspose.Cells biedt je de tools die je nodig hebt om je creativiteit en productiviteit de vrije loop te laten. Dus waar wacht je nog op? Duik in je volgende Excel-project met Aspose.Cells en zie hoe het je workflow transformeert!
 
 ## Veelgestelde vragen
 

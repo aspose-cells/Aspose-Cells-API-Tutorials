@@ -53,7 +53,7 @@ string outputDir = "Your Document Directory";
 Workbook wb = new Workbook();
 ```
 
-이 줄은 이름이 지정된 새 통합 문서 개체를 초기화합니다.`wb`. 이제 이 새로운 캔버스에서 작업할 준비가 되었습니다.
+ 이 줄은 이름이 지정된 새 통합 문서 개체를 초기화합니다.`wb`. 이제 이 새로운 캔버스에서 작업할 준비가 되었습니다.
 
 ## 3단계: 암호로 공유 통합 문서 보호
 
@@ -117,4 +117,4 @@ Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfull
 Aspose.Cells는 주로 .NET을 지원하지만 Java 및 기타 언어용 라이브러리도 있습니다. 자세한 내용은 해당 사이트를 확인하세요!
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
- 지원 포럼을 통해 도움을 요청할 수 있습니다.[Aspose 지원](https://forum.aspose.com/c/cells/9).
+지원 포럼을 통해 도움을 요청할 수 있습니다.[Aspose 지원](https://forum.aspose.com/c/cells/9).

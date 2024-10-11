@@ -44,7 +44,7 @@ Az Aspose.Cells használatához hivatkozásokat kell hozzáadnia a könyvtárhoz
 
 ### Add Irányelvek használatával
 
- A te tetején`Program.cs` fájlt, illessze be ezt a direktívával az Aspose.Cells funkció eléréséhez:
+ A te tetején`Program.cs`fájlt, illessze be ezt a direktívával az Aspose.Cells funkció eléréséhez:
 
 ```csharp
 using System;
@@ -69,7 +69,7 @@ Itt egyszerűen létrehozunk egy új munkafüzetet, amely tartalmazza a tábláz
 
 ## 2. lépés: Nyissa meg az első munkalapot
 
-munkafüzet példányának létrehozása után el kell érnie az első munkalapot. Minden munkafüzet több munkalapot is tartalmazhat, de ehhez a bemutatóhoz ragaszkodunk az elsőhöz.
+A munkafüzet példányának létrehozása után el kell érnie az első munkalapot. Minden munkafüzet több munkalapot is tartalmazhat, de ehhez a bemutatóhoz ragaszkodunk az elsőhöz.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];

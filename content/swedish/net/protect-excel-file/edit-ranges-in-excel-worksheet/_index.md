@@ -9,7 +9,7 @@ url: /sv/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 ---
 ## Introduktion
 
-När det gäller redigering av Excel-kalkylblad är en av de mest kraftfulla funktionerna som kommer väl till pass möjligheten att skydda vissa områden samtidigt som det tillåter redigeringar i andra. Detta kan vara oerhört användbart i samarbetsmiljöer där flera användare behöver åtkomst men endast bör modifiera angivna celler. Idag ska vi dyka in i hur man använder Aspose.Cells för .NET för att hantera redigerbara intervall i ett Excel-kalkylblad. Så, ta din favoritkodande dryck och låt oss komma igång!
+När det gäller redigering av Excel-kalkylblad är en av de mest kraftfulla funktionerna som kommer väl till pass möjligheten att skydda vissa områden samtidigt som det tillåter redigeringar i andra. Detta kan vara oerhört användbart i samarbetsmiljöer där flera användare behöver åtkomst men endast bör modifiera angivna celler. Idag ska vi dyka in i hur man använder Aspose.Cells för .NET för att hantera redigerbara intervall i ett Excel-kalkylblad. Så ta din favoritkodande dryck och låt oss komma igång!
 
 ## Förutsättningar
 
@@ -17,7 +17,7 @@ Innan vi går in i kodning, låt oss se till att du är klar. Här är vad du be
 
 1. Visual Studio: Se till att du har Visual Studio installerat. Community-utgåvan fungerar utmärkt.
 2.  Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
-3. Grundläggande C#-kunskap: En grundläggande förståelse för C# kommer att räcka långt.
+3. Grundläggande C#-kunskap: En grundläggande förståelse av C# kommer att räcka långt.
 4. Projektinställning: Skapa en ny C#-konsolapplikation i Visual Studio.
 
 Felfri – allt är klart! Nu, låt oss dyka in i kodens nitty-gritty.

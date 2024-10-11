@@ -16,7 +16,7 @@ Dalam dunia manajemen data yang terus berkembang, kemampuan untuk menghubungkan,
 Sebelum kita menyelami kode lebih dalam, mari pastikan Anda memiliki semua yang Anda butuhkan untuk mengikuti tutorial ini. Berikut ini yang Anda perlukan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio. Ini adalah lingkungan yang ideal untuk pengembangan .NET.
-2. Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET dari[Halaman unduhan Aspose](https://releases.aspose.com/cells/net/) Anda juga dapat mencoba versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+2.  Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET dari[Halaman unduhan Aspose](https://releases.aspose.com/cells/net/) Anda juga dapat mencoba versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami nuansa kode dengan lebih baik.
 4. Contoh File Excel: Untuk tutorial ini, kami akan menggunakan file Excel bernama "ODataSample.xlsx," yang harus disimpan di direktori kerja Anda.
 
@@ -99,7 +99,7 @@ Di blok ini, kita:
 
 ## Langkah 4: Jalankan & Verifikasi
 
- Terakhir, Anda perlu memastikan bahwa kode berjalan dengan benar dan menghasilkan output yang diharapkan. Tambahkan baris berikut di akhir kode Anda`Main` metode:
+Terakhir, Anda perlu memastikan bahwa kode berjalan dengan benar dan menghasilkan output yang diharapkan. Tambahkan baris berikut di akhir kode Anda`Main` metode:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -126,4 +126,4 @@ Rumus Power Query memungkinkan pengguna untuk menyambungkan, menggabungkan, dan 
  Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9) untuk dukungan dan bantuan masyarakat.
 
 ### Di mana saya dapat membeli Aspose.Cells?
-Anda dapat membeli Aspose.Cells dari mereka[halaman pembelian](https://purchase.aspose.com/buy).
+ Anda dapat membeli Aspose.Cells dari mereka[halaman pembelian](https://purchase.aspose.com/buy).

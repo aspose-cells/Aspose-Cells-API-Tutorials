@@ -106,7 +106,7 @@ Ne feledje, hogy a kódolás könnyebbé válik, ha kisebb lépésekre bontja. �
 
 ### Másolhatok munkalapot olyan munkafüzetbe, amelyen már vannak adatok?
 
-Teljesen! A munkalapot bármely meglévő munkafüzetbe másolhatja, még akkor is, ha az már tartalmaz adatokat. Csak adja meg a megfelelő munkalap indexet.
+Teljesen! A munkalapot bármely meglévő munkafüzetbe másolhatja, még akkor is, ha az már tartalmaz adatokat. Csak adja meg a megfelelő munkalapindexet.
 
 ### Szükségem van fizetős licencre ehhez a funkcióhoz?
 

@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Passaggio 2: creare una nuova cartella di lavoro
 
- Ora che abbiamo la nostra directory di output, creiamo una nuova cartella di lavoro.`Workbook`La classe è il punto di partenza per gestire i file Excel.
+ Ora che abbiamo la nostra directory di output, creiamo una nuova cartella di lavoro.`Workbook` La classe è il punto di partenza per gestire i file Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Sì! Aspose.Cells supporta vari formati, tra cui XLS, XLSX, CSV e altri.
 Assolutamente! Puoi aggiungere oggetti complessi alle proprietà del tipo di contenuto, purché possano essere serializzati correttamente.
 
 ### Dove posso trovare ulteriore documentazione?
-Per indicazioni più dettagliate, fare riferimento a[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Per indicazioni più dettagliate, fare riferimento a[Documentazione Aspose.Cells](https://reference.aspose.com/cells/net/).

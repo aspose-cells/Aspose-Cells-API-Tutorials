@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-workbook/workbook-print-preview/
 在我們開始編碼操作之前，讓我們確保您擁有開始所需的一切。以下是先決條件清單：
 
 1. Visual Studio：您需要一個 IDE，而 Visual Studio 是 .NET 專案的絕佳選擇。
-2. Aspose.Cells for .NET：您可以下載程式庫，或者，如果您願意，您可以從免費試用版開始進行實踐。只需前往[這個連結](https://releases.aspose.com).
+2.  Aspose.Cells for .NET：您可以下載程式庫，或者，如果您願意，您可以從免費試用版開始進行實踐。只需前往[這個連結](https://releases.aspose.com).
 3. C# 的基礎知識：了解 C# 的基礎知識將有助於您順利地進行操作。
 4. .NET Framework：確保您的電腦上安裝了相容版本的 .NET Framework。
 5.  Excel 檔案範例：對於本教學課程，您將需要一個 Excel 檔案來使用。您可以使用名為的範例文件`Book1.xlsx`.

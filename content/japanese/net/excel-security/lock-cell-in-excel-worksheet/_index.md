@@ -15,7 +15,7 @@ url: /ja/net/excel-security/lock-cell-in-excel-worksheet/
 
 コードの細部に入る前に、準備しておく必要があるものがいくつかあります。
 
-1. Aspose.Cells for .NET: Aspose.Cells for .NETの最新バージョンを以下のサイトからダウンロードしてインストールしてください。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET: Aspose.Cells for .NETの最新バージョンを以下のサイトからダウンロードしてインストールしてください。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
 2. IDE: .NET 用にセットアップされた開発環境。一般的なオプションとしては、Visual Studio や JetBrains Rider などがあります。
 3. C# の基本的な理解: コードを段階的に説明しますが、C# プログラミングの基本的な理解があれば、概念をより早く理解できるようになります。
 4. ドキュメント ディレクトリ: テスト用に Excel ファイルを保存できるディレクトリが設定されていることを確認します。
@@ -112,4 +112,4 @@ Aspose.Cells for .NET を使用して Excel ワークシートのセルをロッ
 もちろんです！セルのロックを解除するには、`IsLocked`財産に`false`保護を解除します。
 
 ### Aspose.Cells は無料で使用できますか?
- Aspose.Cellsはユーザーに無料トライアルを提供しています。ただし、継続して使用するにはライセンスを購入する必要があります。[Aspose 購入ページ](https://purchase.aspose.com/buy)詳細についてはこちらをご覧ください。
+Aspose.Cellsはユーザーに無料トライアルを提供しています。ただし、継続して使用するにはライセンスを購入する必要があります。[Aspose 購入ページ](https://purchase.aspose.com/buy)詳細についてはこちらをご覧ください。

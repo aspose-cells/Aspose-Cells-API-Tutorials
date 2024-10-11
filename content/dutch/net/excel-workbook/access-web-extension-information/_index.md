@@ -60,7 +60,7 @@ WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskP
 ```
 Hier pakken we alle taakvensters die gekoppeld zijn aan de webextensies in de werkmap.
 
-## Stap 4: Door taakvensters itereren
+## Stap 4: Itereren door taakvensters
 
  Zodra u de verzameling hebt, is de volgende logische stap om door elk taakvenster te lopen en de eigenschappen ervan te verkrijgen. Met behulp van een`foreach` loop is een uitstekende manier om naadloos door elk taakvenster te navigeren.
 

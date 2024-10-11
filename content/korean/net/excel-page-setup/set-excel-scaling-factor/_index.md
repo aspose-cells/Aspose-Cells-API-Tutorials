@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 이제 새 통합 문서를 만들 시간입니다. 기본적으로 모든 데이터와 설정이 저장되는 곳입니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel 파일에는 여러 워크시트가 포함될 수 있습니다. 우리는 첫 번째 워크시트에 액세스하여 스케일링 인수를 적용합니다.
 
 ```csharp
-// Excel 파일의 첫 번째 워크시트에 액세스하기
+//Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

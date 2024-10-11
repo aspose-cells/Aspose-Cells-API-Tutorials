@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Schritt 2: Erstellen Sie eine neue Arbeitsmappe
 
- Nachdem wir nun unser Ausgabeverzeichnis haben, erstellen wir eine neue Arbeitsmappe.`Workbook`Klasse ist der Ausgangspunkt für den Umgang mit Excel-Dateien.
+ Nachdem wir nun unser Ausgabeverzeichnis haben, erstellen wir eine neue Arbeitsmappe.`Workbook` Klasse ist der Ausgangspunkt für den Umgang mit Excel-Dateien.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Ja! Aspose.Cells unterstützt verschiedene Formate, darunter XLS, XLSX, CSV und 
 Auf jeden Fall! Sie können Inhaltstypeigenschaften komplexe Objekte hinzufügen, solange diese ordnungsgemäß serialisiert werden können.
 
 ### Wo finde ich weitere Dokumentation?
-Ausführlichere Hinweise finden Sie im[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).
+ Ausführlichere Hinweise finden Sie im[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).

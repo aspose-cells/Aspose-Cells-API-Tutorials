@@ -9,7 +9,7 @@ url: /nl/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 ---
 ## Invoering
 
-Bij het werken met Excel-bestanden in .NET is Aspose.Cells een van de krachtigste bibliotheken die u tot uw beschikking hebt. Hiermee kunt u moeiteloos spreadsheets manipuleren, of u nu gegevens leest, grafieken maakt of ingewikkelde berekeningen uitvoert. In deze tutorial duiken we in een specifieke functionaliteit: het lezen van aslabels uit een grafiek nadat deze is berekend. Als u zich ooit hebt afgevraagd hoe u deze labels programmatisch kunt extraheren, bent u hier aan het juiste adres! We zullen het stap voor stap uitleggen en onderweg alle benodigde details verstrekken.
+Bij het werken met Excel-bestanden in .NET is Aspose.Cells een van de krachtigste bibliotheken die u tot uw beschikking hebt. Hiermee kunt u moeiteloos spreadsheets manipuleren, of u nu gegevens leest, grafieken maakt of ingewikkelde berekeningen uitvoert. In deze tutorial duiken we in een specifieke functionaliteit: het lezen van aslabels uit een grafiek nadat u deze hebt berekend. Als u zich ooit hebt afgevraagd hoe u deze labels programmatisch kunt extraheren, bent u hier aan het juiste adres! We zullen het stap voor stap uitleggen en onderweg alle benodigde details verstrekken.
 
 ## Vereisten
 

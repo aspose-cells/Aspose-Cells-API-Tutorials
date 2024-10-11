@@ -51,7 +51,7 @@ Teraz przejdziemy krok po kroku przez proces dodawania podziałów stron do plik
 
 ## Krok 1: Konfigurowanie środowiska
 
-W tym kroku skonfigurujesz środowisko potrzebne do tworzenia i edycji plików Excela.
+tym kroku skonfigurujesz środowisko potrzebne do tworzenia i edycji plików Excela.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.

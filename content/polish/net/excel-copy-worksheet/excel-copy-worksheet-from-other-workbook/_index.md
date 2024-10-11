@@ -84,7 +84,7 @@ PageSetup pagesetup = ws0.PageSetup;
 // Pierwsze pięć rzędów powtarza się na każdej stronie
 pagesetup.PrintTitleRows = "$1:$5";
 ```
- Ta część definiuje sposób drukowania dokumentu. Poprzez ustawienie`PrintTitleRows`, dbamy o to, aby pierwsze pięć wierszy pojawiło się na każdej wydrukowanej stronie, co jest niezwykle przydatne pod względem czytelności.
+ Ta część definiuje sposób drukowania dokumentu. Poprzez ustawienie`PrintTitleRows`, dbamy o to, aby pierwsze pięć wierszy pojawiło się na każdej wydrukowanej stronie, co jest niezwykle przydatne ze względu na czytelność.
 
 ## Krok 4: Utwórz drugi skoroszyt
 

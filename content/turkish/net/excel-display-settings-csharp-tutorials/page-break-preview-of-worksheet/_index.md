@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Adım 3: Çalışma Kitabını Örneklendirin
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Adım 4: Çalışma Sayfasına Erişim
 
 ```csharp
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

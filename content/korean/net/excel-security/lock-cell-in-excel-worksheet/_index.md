@@ -15,7 +15,7 @@ url: /ko/net/excel-security/lock-cell-in-excel-worksheet/
 
 코드의 세부 사항을 살펴보기 전에 준비해야 할 몇 가지 사항이 있습니다.
 
-1. .NET용 Aspose.Cells: 다음에서 .NET용 Aspose.Cells의 최신 버전을 다운로드하여 설치하세요.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
+1.  .NET용 Aspose.Cells: 다음에서 .NET용 Aspose.Cells의 최신 버전을 다운로드하여 설치하세요.[Aspose 웹사이트](https://releases.aspose.com/cells/net/).
 2. IDE: .NET을 위해 설정된 개발 환경입니다. 인기 있는 옵션으로는 Visual Studio 또는 JetBrains Rider가 있습니다.
 3. C#에 대한 기본적인 이해: 단계별로 코드를 안내해드리지만, C# 프로그래밍에 대한 기본적인 이해가 있으면 개념을 더 빨리 파악하는 데 도움이 됩니다.
 4. 문서 디렉토리: 테스트를 위해 Excel 파일을 저장할 수 있는 디렉토리를 설정했는지 확인하세요.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2단계: 통합 문서 로드
 
- 다음으로 셀을 잠그려는 Excel 통합 문서를 로드해야 합니다. 이는 인스턴스를 생성하여 수행됩니다.`Workbook` 클래스를 만들고 원하는 Excel 파일을 가리키세요.
+다음으로 셀을 잠그려는 Excel 통합 문서를 로드해야 합니다. 이는 인스턴스를 생성하여 수행됩니다.`Workbook` 클래스를 만들고 원하는 Excel 파일을 가리키세요.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -75,7 +75,7 @@ worksheet.Cells["A1"].GetStyle().IsLocked = true;
 
 ## 5단계: 워크시트 보호
 
-셀을 잠그는 것은 필수적인 단계이지만, 그것만으로는 충분하지 않습니다. 잠금을 시행하려면 전체 워크시트를 보호해야 합니다. 이렇게 하면 보안 계층이 추가되어 잠긴 셀이 보호 상태를 유지합니다.
+셀을 잠그는 것은 필수적인 단계이지만, 그 자체로는 충분하지 않습니다. 잠금을 시행하려면 전체 워크시트를 보호해야 합니다. 이렇게 하면 보안 계층이 추가되어 잠긴 셀이 보호 상태를 유지합니다.
 
 ```csharp
 worksheet.Protect(ProtectionType.All);
@@ -112,4 +112,4 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트의 셀을 잠그는 것
  물론입니다! 셀을 설정하여 잠금 해제할 수 있습니다.`IsLocked` 재산에`false` 보호 기능을 제거합니다.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
- Aspose.Cells는 사용자에게 무료 체험판을 제공합니다. 그러나 지속적으로 사용하려면 라이선스를 구매해야 합니다. 방문[Aspose 구매 페이지](https://purchase.aspose.com/buy) 자세한 내용은.
+Aspose.Cells는 사용자에게 무료 체험판을 제공합니다. 그러나 지속적으로 사용하려면 라이선스를 구매해야 합니다. 방문[Aspose 구매 페이지](https://purchase.aspose.com/buy) 자세한 내용은.

@@ -57,7 +57,7 @@ wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-Ở đây, chúng tôi đã thêm hai bảng tính có tên là "TestSheet1" và "TestSheet2". Điều này giống như tạo hai trang khác nhau trong sổ làm việc của bạn, nơi bạn có thể quản lý nội dung một cách độc lập.
+Ở đây, chúng tôi đã thêm hai bảng tính có tên là "TestSheet1" và "TestSheet2". Điều này giống như việc tạo hai trang khác nhau trong sổ làm việc của bạn, nơi bạn có thể quản lý nội dung một cách độc lập.
 
 ## Bước 3: Truy cập vào các trang tính
 

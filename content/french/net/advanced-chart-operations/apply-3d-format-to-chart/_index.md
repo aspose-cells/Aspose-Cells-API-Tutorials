@@ -108,7 +108,7 @@ Nous définissons un espace pour notre graphique et précisons son type. Consid�
 
 ## Étape 6 : Personnaliser l’apparence du graphique
 
-Maintenant, personnalisons l'apparence de notre graphique en définissant des couleurs d'arrière-plan. 
+Maintenant, personnalisons l’apparence de notre graphique en définissant des couleurs d’arrière-plan. 
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = book.Worksheets["MyChart"].Charts[0];

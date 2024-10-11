@@ -17,16 +17,16 @@ nyers adatokat karcsú, informatív diagramokká szeretné alakítani? A Render 
 
 ## [A diagram konvertálása PDF-be](./convert-chart-to-pdf/)
 
-Átalakítania kell diagramját PDF formátumba megosztáshoz vagy nyomtatáshoz? A Diagram konvertálása PDF-be oktatóanyag végigvezeti Önt az Excel diagramok PDF formátumba átalakítása egyszerű lépésein. Ez az útmutató biztosítja, hogy a diagramok megőrizzék minőségüket és formátumukat konvertáláskor, így néhány kattintással készen állnak a prezentációra.
+Átalakítania kell diagramját PDF formátumba megosztáshoz vagy nyomtatáshoz? A Diagram konvertálása PDF-be oktatóanyag végigvezeti Önt az Excel-diagramok PDF-formátumba átalakítása egyszerű lépésein. Ez az útmutató biztosítja, hogy a diagramok megőrizzék minőségüket és formátumukat konvertáláskor, így néhány kattintással készen állnak a prezentációra.
 
 ## [Hozzon létre PDF diagramot a kívánt oldalmérettel](./create-chart-pdf-with-desired-page-size/)
 
 Néha szabályoznia kell a diagram méretét, amikor PDF-be menti. Ez az útmutató bemutatja, hogyan hozhat létre PDF-diagramot a kívánt oldalméretekkel. Ha követi a Diagram PDF létrehozása kívánt oldalmérettel című oktatóanyagot, megtanulhatja, hogyan szabhatja testre PDF-kimenetét úgy, hogy az megfeleljen az Ön egyedi igényeinek – tökéletes jelentésekhez és prezentációkhoz, ahol a pontosság kulcsfontosságú.
 
-## Diagramleképezési és -konverziós oktatóanyagok
+## Diagram-megjelenítési és -konverziós oktatóanyagok
 ### [Renderelési diagram](./render-chart/)
 Fedezze fel, hogyan lehet diagramokat renderelni .NET-ben az Aspose.Cells használatával. Kövesse lépésről lépésre bemutató oktatóanyagunkat, hogy könnyedén készítsen lenyűgöző látványelemeket.
 ### [A diagram konvertálása PDF-be](./convert-chart-to-pdf/)
 Ezzel az egyszerű, lépésenkénti útmutatóval megtudhatja, hogyan konvertálhat Excel-diagramokat PDF-be az Aspose.Cells for .NET segítségével. Fedezze fel az alapvető tippeket és kódolási példákat.
 ### [Hozzon létre PDF diagramot a kívánt oldalmérettel](./create-chart-pdf-with-desired-page-size/)
-Hozzon létre egy PDF-fájlt az Excel diagrammal az Aspose.Cells for .NET segítségével. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan.
+Hozzon létre egy PDF-fájlt az Excel diagramjával az Aspose.Cells for .NET segítségével. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan.

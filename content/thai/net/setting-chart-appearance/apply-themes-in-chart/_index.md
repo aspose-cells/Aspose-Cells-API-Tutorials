@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 เมื่อมีแผ่นงานอยู่ในมือ เราสามารถเข้าถึงแผนภูมิที่เราตั้งใจจะออกแบบได้
 
 ```csharp
-// รับแผนภูมิแรกในแผ่นงาน
+//รับแผนภูมิแรกในแผ่นงาน
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 // รับ CellsColor ของ SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// สร้างธีมในสไตล์ Accent
+//สร้างธีมในสไตล์ Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Nezapomeňte vyměnit`"YOUR SOURCE DIRECTORY"` a`"YOUR OUTPUT DIRECTORY"`se skutečnými cestami na vašem počítači. Berte to jako vytvoření uklizeného pracovního prostoru, než začnete vytvářet své mistrovské dílo!
+ Nezapomeňte vyměnit`"YOUR SOURCE DIRECTORY"` a`"YOUR OUTPUT DIRECTORY"` se skutečnými cestami na vašem počítači. Berte to jako vytvoření uklizeného pracovního prostoru, než začnete vytvářet své mistrovské dílo!
 
 ## Krok 2: Vytvořte prázdný sešit
 
@@ -89,11 +89,11 @@ Posledním krokem je uložení sešitu v požadovaném formátu. V tomto přípa
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Zde se výstupní soubor uloží do vámi zadaného výstupního adresáře s názvem`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Tady se vaše tvrdá práce konečně vyplatí a svůj sešit můžete sdílet s ostatními s vědomím, že je dobře chráněn!
+ Zde se výstupní soubor uloží do vámi zadaného výstupního adresáře s názvem`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Tady se vaše tvrdá práce konečně vyplatí a svůj sešit můžete sdílet s ostatními s vědomím, že je dobře chráněn!
 
 ## Závěr
 
-tady to máte! Naučili jste se vytvořit excelový sešit, nastavit ochranu proti zápisu heslem, určit autora a bezproblémově jej uložit pomocí Aspose.Cells for .NET. Tato kombinace funkcí nejen zabezpečí vaše data, ale také zachová jejich integritu a zajistí správné přiřazení.
+A tady to máte! Naučili jste se vytvořit excelový sešit, nastavit ochranu proti zápisu heslem, určit autora a bezproblémově jej uložit pomocí Aspose.Cells for .NET. Tato kombinace funkcí nejen zabezpečí vaše data, ale také zachová jejich integritu a zajistí správné přiřazení.
 
 ## FAQ
 
@@ -110,4 +110,4 @@ tady to máte! Naučili jste se vytvořit excelový sešit, nastavit ochranu pro
 Absolutně! Aspose.Cells bezproblémově funguje v desktopových i webových aplikacích využívajících .NET.
 
 ### Co mám dělat, když potřebuji podporu?  
- V případě dotazů a řešení problémů je komunita Aspose velmi užitečná. Můžete navštívit jejich[fórum podpory](https://forum.aspose.com/c/cells/9) o pomoc.
+ případě dotazů a řešení problémů je komunita Aspose velmi užitečná. Můžete navštívit jejich[fórum podpory](https://forum.aspose.com/c/cells/9) o pomoc.

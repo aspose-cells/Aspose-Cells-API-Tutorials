@@ -142,7 +142,7 @@ int s3_idx = chart.NSeries.Add("A22: A41", true);
 chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow;
 chart.NSeries[s2_idx].Marker.Border.IsVisible = false;
 
-//定制第二个系列
+//定制第二系列
 chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green;
 chart.NSeries[s3_idx].Marker.Border.IsVisible = false;
 ```
@@ -167,7 +167,7 @@ chart.NSeries[s3_idx].Values = "B22: B41";
 
 ## 步骤 8：保存工作簿
 
-现在一切都已设置好，让我们保存工作簿，以便我们可以看到图表的运行情况。
+现在一切都已设置好，让我们保存工作簿，以便我们可以看到图表的实际效果。
 
 ```csharp
 //保存工作簿

@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Hier,`workbook.Worksheets[0]` bezieht sich auf das erste Arbeitsblatt in Ihrer Arbeitsmappe.`PageSetup`-Eigenschaft gibt Ihnen Kontrolle über die Paginierungseinstellungen Ihres Blattes.
+ Hier,`workbook.Worksheets[0]` bezieht sich auf das erste Arbeitsblatt in Ihrer Arbeitsmappe.`PageSetup` -Eigenschaft gibt Ihnen Kontrolle über die Paginierungseinstellungen Ihres Blattes.
 
 ## Schritt 4: Druckreihenfolge festlegen
 
 
- Mit dem`PageSetup` Objekt ist es an der Zeit, Excel mitzuteilen, wie die Seiten gedruckt werden sollen. Sie haben die Möglichkeit, die Reihenfolge entweder auf „Dann drüber nach unten“ oder „Dann drüber nach unten“ festzulegen.
+ Mit dem`PageSetup`Objekt ist es an der Zeit, Excel mitzuteilen, wie die Seiten gedruckt werden sollen. Sie haben die Möglichkeit, die Reihenfolge entweder auf „Dann drüber nach unten“ oder „Dann drüber nach unten“ festzulegen.
 
 Hier ist der Code zum Festlegen der Druckreihenfolge:
 

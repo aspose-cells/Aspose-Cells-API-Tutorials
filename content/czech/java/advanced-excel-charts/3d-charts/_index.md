@@ -152,7 +152,7 @@ Ano, 3D grafy vytvořené pomocí Aspose.Cells for Java můžete exportovat do r
 
 ### Je možné vytvořit interaktivní 3D grafy pomocí Aspose.Cells pro Java?
 
-Aspose.Cells for Java se primárně zaměřuje na vytváření statických 3D grafů pro soubory Excel. Pro interaktivní grafy s pokročilou interaktivitou můžete zvážit použití jiných vizualizačních knihoven nebo nástrojů v kombinaci s vašimi soubory Excel.
+Aspose.Cells for Java se primárně zaměřuje na vytváření statických 3D grafů pro soubory Excel. U interaktivních grafů s pokročilou interaktivitou můžete zvážit použití jiných vizualizačních knihoven nebo nástrojů v kombinaci se soubory aplikace Excel.
 
 ### Mohu automatizovat proces aktualizace dat v mých 3D grafech?
 

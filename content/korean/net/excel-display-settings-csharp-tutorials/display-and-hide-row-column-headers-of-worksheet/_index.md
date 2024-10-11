@@ -103,7 +103,7 @@ workbook.Save(dataDir + "output.xls");
 fstream.Close();
 ```
 
- 닫기`fstream` 이는 애플리케이션에서 메모리 누수나 파일 잠금이 열려 있는 상태가 아닌지 확인하는 데 매우 중요합니다.
+ 닫기`fstream`이는 애플리케이션에서 메모리 누수나 파일 잠금이 열려 있는 상태가 아닌지 확인하는 데 매우 중요합니다.
 
 ## 결론
 
@@ -121,7 +121,7 @@ Aspose.Cells는 Excel 스프레드시트를 관리하기 위한 강력한 .NET �
  무료 체험판을 사용할 수 있지만, 지속적인 상업적 사용을 위해서는 라이선스가 필요합니다. 구매 옵션을 찾을 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells에 대한 지원이 있나요?  
- 예, Aspose는 귀하가 액세스할 수 있는 포럼을 통해 지원을 제공합니다.[여기](https://forum.aspose.com/c/cells/9).
+예, Aspose는 귀하가 액세스할 수 있는 포럼을 통해 지원을 제공합니다.[여기](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells에 대한 임시 라이센스를 어떻게 받을 수 있나요?  
-평가 목적으로 임시 라이센스를 신청할 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
+ 평가 목적으로 임시 라이센스를 신청할 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).

@@ -16,7 +16,7 @@ Da sich die digitale Welt ständig weiterentwickelt, ist die Arbeit mit Tabellen
 Bevor wir uns in den Code stürzen, stellen wir sicher, dass Sie alles haben, was Sie brauchen, um dieses Tutorial erfolgreich umzusetzen. Folgendes benötigen Sie:
 
 1.  Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Wenn Sie es noch nicht haben, können Sie es hier herunterladen:[Hier](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET in Ihr Projekt integriert haben. Sie erhalten es von[Downloadlink](https://releases.aspose.com/cells/net/). Diese Bibliothek ist für die Arbeit mit Excel-Dateien unerlässlich und unterstützt eine breite Palette von Funktionen.
+2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET in Ihr Projekt integriert haben. Sie erhalten es von[Downloadlink](https://releases.aspose.com/cells/net/)Diese Bibliothek ist für die Arbeit mit Excel-Dateien unerlässlich und unterstützt eine breite Palette von Funktionen.
 3. Grundlegende Kenntnisse in C#: Wenn Sie mit der Programmiersprache C# vertraut sind, können Sie den Anweisungen leichter folgen. Keine Sorge, wir führen Sie Schritt für Schritt durch die Prozesse!
 4. Ihr Dokumentverzeichnis: Stellen Sie sicher, dass Sie auf Ihrem Computer über einen Ordner verfügen, in dem Sie Ihre Excel-Dateien für dieses Tutorial speichern können. 
 
@@ -53,14 +53,14 @@ Nachdem wir nun das Verzeichnis eingerichtet haben, ist es an der Zeit, einen Da
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- In diesem Schritt öffnen wir`book1.xls`die bereits in Ihrem angegebenen Verzeichnis vorhanden sein sollte. Stellen Sie sicher, dass Sie diese Datei zur Hand haben, sonst wird ein Fehler ausgegeben.
+ In diesem Schritt öffnen wir`book1.xls`, die bereits in Ihrem angegebenen Verzeichnis vorhanden sein sollte. Stellen Sie sicher, dass Sie diese Datei zur Hand haben, sonst wird ein Fehler ausgegeben.
 
 ## Schritt 3: Instanziieren eines Arbeitsmappenobjekts
 
 Als Nächstes müssen wir eine Instanz der Workbook-Klasse erstellen, die unsere Excel-Datei enthält.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Indem wir aus unserem Dateistrom eine Arbeitsmappeninstanz erstellen, können wi
 
 ## Schritt 4: Neues Arbeitsblatt hinzufügen
 
- Jetzt kommt der spannende Teil! Fügen wir unserer Arbeitsmappe ein neues Arbeitsblatt hinzu. Dies geschieht mit dem`Add()` Methode aus der`Worksheets` Sammlung.
+Jetzt kommt der spannende Teil! Fügen wir unserer Arbeitsmappe ein neues Arbeitsblatt hinzu. Dies geschieht mit dem`Add()` Methode aus der`Worksheets`Sammlung.
 
 ```csharp
 // Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
@@ -80,14 +80,14 @@ int i = workbook.Worksheets.Add();
 
 ## Schritt 5: Erhalten Sie einen Verweis auf das neu hinzugefügte Arbeitsblatt
 
-Nachdem wir das neue Arbeitsblatt erstellt haben, ist es wichtig, einen Verweis darauf zu erhalten. Auf diese Weise können wir seine Attribute, wie den Namen des Blattes, anpassen.
+Sobald wir das neue Arbeitsblatt erstellt haben, ist es wichtig, einen Verweis darauf zu erhalten. Auf diese Weise können wir seine Attribute, wie den Namen des Blattes, anpassen.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Hier verwenden wir den Index`i` um auf unser neu erstelltes Arbeitsblatt zu verweisen. Dadurch können wir es weiter bearbeiten.
+ Hier verwenden wir den Index`i` um auf unser neu erstelltes Arbeitsblatt zu verweisen. Dadurch können wir es weiter bearbeiten.
 
 ## Schritt 6: Legen Sie den Namen des neuen Arbeitsblatts fest
 

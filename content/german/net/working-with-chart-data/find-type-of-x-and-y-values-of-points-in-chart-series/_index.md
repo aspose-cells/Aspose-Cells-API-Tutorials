@@ -17,9 +17,9 @@ Bevor Sie mit den Schritten beginnen, stellen Sie sicher, dass Sie einige Dinge 
 
 1. .NET-Umgebung: Sie sollten eine .NET-Entwicklungsumgebung eingerichtet haben. Dies kann Visual Studio, Visual Studio Code oder eine andere kompatible IDE sein.
    
-2. Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET installiert haben. Sie können es herunterladen von[Hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET installiert haben. Sie können es herunterladen von[Hier](https://releases.aspose.com/cells/net/).
 
-3.  Beispiel-Excel-Datei: Holen Sie sich eine Beispiel-Excel-Datei, die Diagramme enthält. Für dieses Tutorial verwenden wir eine Datei namens`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Stellen Sie sicher, dass es sich in Ihrem Projektverzeichnis befindet.
+3. Beispiel-Excel-Datei: Holen Sie sich eine Beispiel-Excel-Datei, die Diagramme enthält. Für dieses Tutorial verwenden wir eine Datei namens`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Stellen Sie sicher, dass es sich in Ihrem Projektverzeichnis befindet.
 
 4. Grundlegende Programmierkenntnisse: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie den Anweisungen problemlos folgen.
 
@@ -56,7 +56,7 @@ Zuerst müssen Sie das Verzeichnis angeben, in dem sich Ihre Excel-Datei befinde
 string sourceDir = "Your Document Directory";
 ```
 
- Ersetzen`"Your Document Directory"` durch den Pfad, in dem Ihre Excel-Datei gespeichert ist.
+ Ersetzen`"Your Document Directory"`durch den Pfad, in dem Ihre Excel-Datei gespeichert ist.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 

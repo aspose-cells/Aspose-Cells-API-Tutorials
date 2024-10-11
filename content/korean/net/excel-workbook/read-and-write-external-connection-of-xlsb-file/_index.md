@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- 이 코드 조각에서는`"Your Document Directory"` 그리고`"Your Document Directory"`입력 및 출력 파일이 상주할 해당 경로를 가져오는 것으로 가정합니다. 원하는 경우 이러한 메서드를 하드코딩된 경로로 바꿀 수 있습니다.
+ 이 코드 조각에서는`"Your Document Directory"` 그리고`"Your Document Directory"` 입력 및 출력 파일이 상주할 해당 경로를 가져오는 것으로 가정합니다. 원하는 경우 이러한 메서드를 하드코딩된 경로로 바꿀 수 있습니다.
 
 ## 2단계: XLSB 파일 로드
 
@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- 여기,`DataConnections[0]` 통합 문서의 첫 번째 연결을 참조합니다. 우리는 그것을 다음과 같이 캐스팅하고 있습니다.`DBConnection` 추가 조작을 위해 입력하세요.
+ 여기,`DataConnections[0]`통합 문서의 첫 번째 연결을 참조합니다. 우리는 그것을 다음과 같이 캐스팅하고 있습니다.`DBConnection` 추가 조작을 위해 입력하세요.
 
 ## 4단계: 연결 정보 추출
 
@@ -125,7 +125,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 XLSB 파일은 스프레드시트 데이터를 바이너리 형식으로 저장하는 바이너리 Excel 파일 형식으로, 더 작고 빠르게 열 수 있습니다.
 
 ### .NET용 Aspose.Cells를 어떻게 설치하나요?  
-Aspose 홈페이지에서 쉽게 다운로드 받으실 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+ Aspose 홈페이지에서 쉽게 다운로드 받으실 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?  
  네! 무료 체험판으로 시작할 수 있습니다.[여기](https://releases.aspose.com/).

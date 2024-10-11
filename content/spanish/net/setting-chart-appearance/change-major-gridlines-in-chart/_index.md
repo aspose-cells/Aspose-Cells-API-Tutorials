@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Actualizar con la ruta deseada
  A continuación, debe crear una nueva instancia del`Workbook` Clase. Este objeto representará su archivo Excel, lo que le permitirá manipular su contenido.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ En este código especificamos el tipo de gráfico (en este caso, un gráfico de 
 
 ## Paso 6: Acceda a la instancia del gráfico
 
- Una vez que creamos el gráfico, necesitamos acceder a su instancia para modificar sus propiedades. Esto se hace recuperándolo a través de la`Charts` recopilación.
+ Una vez que creamos el gráfico, necesitamos acceder a su instancia para modificar sus propiedades. Esto se hace recuperándolo a través de la`Charts`recopilación.
 
 ```csharp
 // Acceder a la instancia del gráfico recién agregado

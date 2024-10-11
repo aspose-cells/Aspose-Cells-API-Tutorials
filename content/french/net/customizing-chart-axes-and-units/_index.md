@@ -2,7 +2,7 @@
 title: Personnalisation des axes et des unités du graphique
 linktitle: Personnalisation des axes et des unités du graphique
 second_title: API de traitement Excel Aspose.Cells .NET
-description: Maîtrisez la personnalisation des axes de graphiques dans Aspose.Cells pour .NET avec des tutoriels simples. Apprenez à gérer les unités automatiques et à lire les étiquettes des axes comme un pro d'Excel.
+description: Maîtrisez la personnalisation des axes des graphiques dans Aspose.Cells pour .NET avec des tutoriels simples. Apprenez à gérer les unités automatiques et à lire les étiquettes des axes comme un pro d'Excel.
 type: docs
 weight: 26
 url: /fr/net/customizing-chart-axes-and-units/

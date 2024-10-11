@@ -122,4 +122,4 @@ Mit Aspose.Cells können Sie mit .xlsx, .xls, .xlsm und mehreren anderen Excel-F
  Ja, Sie können eine kostenlose Testversion herunterladen von der[Aspose Cells-Veröffentlichungsseite](https://releases.aspose.com/).
 
 ### Wie kann ich Support für Aspose.Cells erhalten?
- Sie erhalten Support über das[Aspose-Forum](https://forum.aspose.com/c/cells/9), wo Sie Fragen stellen und Antworten von der Community und dem Aspose-Team erhalten können.
+ Sie erhalten Support über das[Aspose-Forum](https://forum.aspose.com/c/cells/9)wo Sie Fragen stellen und Antworten von der Community und dem Aspose-Team erhalten können.

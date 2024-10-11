@@ -26,11 +26,11 @@ is_root: true
 {{% /alert %}}
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
-- [Βασικές λειτουργίες του Excel](./java/basic-excel-functions/)
+- [Βασικές Λειτουργίες Excel](./java/basic-excel-functions/)
 - [Κανόνες επικύρωσης δεδομένων](./java/data-validation-rules/)
 - [Ανάλυση δεδομένων Excel](./java/excel-data-analysis/)
-- [Συγκεντρωτικοί πίνακες του Excel](./java/excel-pivot-tables/)
+- [Συγκεντρωτικοί πίνακες Excel](./java/excel-pivot-tables/)
 - [Προηγμένα γραφήματα Excel](./java/advanced-excel-charts/)
-- [Excel Εισαγωγή Εξαγωγή](./java/excel-import-export/)
+- [Εξαγωγή εισαγωγής Excel](./java/excel-import-export/)
 - [Ασφάλεια δεδομένων Excel](./java/excel-data-security/)
 - [Αυτοματισμός υπολογιστικών φύλλων](./java/spreadsheet-automation/)

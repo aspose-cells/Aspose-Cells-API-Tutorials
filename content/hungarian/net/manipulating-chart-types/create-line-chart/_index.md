@@ -50,14 +50,14 @@ Az első lépés annak meghatározása, hogy hova szeretné menteni a kimeneti f
 // Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 ```
- Cserélje ki`"Your Output Directory"`azzal a tényleges elérési úttal, ahová a generált Excel fájlt menteni szeretné.
+ Cserélje ki`"Your Output Directory"` azzal a tényleges elérési úttal, ahová a generált Excel fájlt menteni szeretné.
 
 ## 2. lépés: Példányosítsa a munkafüzet objektumot
 
 Ezután létre kell hoznunk egy új munkafüzet-példányt. Gondoljon a munkafüzetre úgy, mint arra a vászonra, ahol kreativitása kiárad. 
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 Ez a sor inicializál egy új munkafüzetet, amely az összes adatot és vizualitást tartalmazza.
@@ -89,7 +89,7 @@ Ebben a részletben értékeket adunk az A és B oszlop celláihoz. Az A oszlop 
 
 ## 5. lépés: Adjon hozzá egy vonaldiagramot a munkalaphoz
 
-Következő lépésként bemutatjuk a vonaldiagramunkat a munkalapon. Itt igazán életre kelnek az Ön adatai!
+Következő lépésként bemutatjuk a vonaldiagramunkat a munkalapon. Itt fognak igazán életre kelni az Ön adatai!
 
 ```csharp
 // Diagram hozzáadása a munkalaphoz
@@ -119,7 +119,7 @@ Ebben a példában azt mondjuk a diagramnak, hogy az A1–B3 cellákban lévő �
 
 ## 8. lépés: Mentse el az Excel fájlt
 
-A nagy finálé! Minden kemény munka után itt az ideje, hogy mentse az Excel-fájlt, és nézze meg a vonaldiagram működését.
+nagy finálé! Minden kemény munka után itt az ideje, hogy mentse az Excel-fájlt, és nézze meg a vonaldiagram működését.
 
 ```csharp
 // Az Excel fájl mentése

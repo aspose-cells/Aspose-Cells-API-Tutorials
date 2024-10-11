@@ -47,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Paso 2: Crear una secuencia de archivos para el archivo de Excel
 
-continuación, deberá crear una secuencia de archivos para abrir el archivo de Excel. Este paso permite que el programa lea el contenido del archivo.
+A continuación, deberá crear una secuencia de archivos para abrir el archivo de Excel. Este paso permite que el programa lea el contenido del archivo.
 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
@@ -103,7 +103,7 @@ Por último, debes asegurarte de cerrar el flujo de archivos para que se liberen
 fstream.Close();
 ```
 
- Cerrando el`fstream` es crucial ya que garantiza que no haya pérdidas de memoria ni bloqueos de archivos abiertos en su aplicación.
+ Cerrando el`fstream`es crucial ya que garantiza que no haya pérdidas de memoria ni bloqueos de archivos abiertos en su aplicación.
 
 ## Conclusión
 
@@ -121,7 +121,7 @@ Aspose.Cells es una potente biblioteca .NET para administrar hojas de cálculo d
  Si bien puede utilizar una versión de prueba gratuita, se requiere una licencia para el uso comercial continuo. Puede encontrar las opciones de compra[aquí](https://purchase.aspose.com/buy).
 
 ### ¿Hay soporte disponible para Aspose.Cells?  
- Sí, Aspose brinda soporte a través de sus foros, a los que puedes acceder[aquí](https://forum.aspose.com/c/cells/9).
+Sí, Aspose brinda soporte a través de sus foros, a los que puedes acceder[aquí](https://forum.aspose.com/c/cells/9).
 
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Cells?  
-Puede solicitar una licencia temporal para fines de evaluación en[Este enlace](https://purchase.aspose.com/temporary-license/).
+ Puede solicitar una licencia temporal para fines de evaluación en[Este enlace](https://purchase.aspose.com/temporary-license/).

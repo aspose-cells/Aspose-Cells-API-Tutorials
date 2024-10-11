@@ -16,7 +16,7 @@ Eleged van az unalmas grafikonokból, amelyekből hiányzik a személyes érint�
 Mielőtt belevágnánk a kódolás finomságába, van néhány előfeltétel, amelyeket simán be kell tartania:
 
 - Visual Studio: Itt írhatja és futtathatja a .NET kódot. Győződjön meg arról, hogy telepítve van.
--  Aspose.Cells for .NET: Erre a könyvtárra lesz szüksége az Excel fájlokkal való munkavégzéshez. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells for .NET: Erre a könyvtárra lesz szüksége az Excel fájlokkal való munkavégzéshez. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 - A C# alapismeretei: Miközben végigvezetem a kódon, a C# alapjaival kapcsolatos fogantyú tisztább lesz a dolgokon.
 
 ### Telepítési lépések
@@ -30,7 +30,7 @@ Miután mindent beállított, a következő lépés a szükséges csomagok impor
 
 ### Importálja a szükséges névtereket
 
-A C# kódfájl tetején a következő névtereket kell importálnia:
+C# kódfájl tetején a következő névtereket kell importálnia:
 
 ```csharp
 using Aspose.Cells;
@@ -43,7 +43,7 @@ Ez azt mondja a programodnak: „Hé! Használni fogom az Aspose.Cells nagyszer�
 
 Most, hogy megvannak az előfeltételeink, bontsuk le a folyamatot falatnyi lépésekre. 
 
-## 1. lépés: Határozza meg a könyvtárait
+## 1. lépés: Határozza meg könyvtárait
 
 Először is be kell állítanunk a bemeneti és kimeneti fájljaink elérési útját. Ez a lépés kulcsfontosságú, mert tudnunk kell, hol találjuk a meglévő Excel fájlunkat, és hova mentsük a módosított fájlt.
 
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Cserélje ki`Your Document Directory` és`Your Output Directory`tényleges elérési utakkal a számítógépén. 
+ Cserélje ki`Your Document Directory` és`Your Output Directory` tényleges elérési utakkal a számítógépén. 
 
 ## 2. lépés: Töltse be a meglévő munkafüzetet
 
@@ -100,7 +100,7 @@ Miután kiválasztotta a diagramot, ideje hozzáadni a képet!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Itt,`50` és`50` azok az X és Y koordináták, ahová a kép kerül, és`200` kép szélessége és magassága.
+ Itt,`50` és`50` azok az X és Y koordináták, ahová a kép kerül, és`200` a kép szélessége és magassága.
 
 ## 6. lépés: A kép vonalformátumának testreszabása
 
@@ -151,7 +151,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet egy kis egyéniséget adni
 Az Aspose.Cells számos képformátumot támogat, beleértve a PNG, JPEG, BMP és GIF formátumokat.
 
 ### Testreszabhatom a kép helyzetét?
- Biztosan! Az X és Y koordináták a`AddPictureInChart` módszer lehetővé teszi a pontos pozicionálást.
+Biztosan! Az X és Y koordináták a`AddPictureInChart` módszer lehetővé teszi a pontos pozicionálást.
 
 ### Az Aspose.Cells ingyenesen használható?
  Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes szolgáltatáshoz licenc szükséges. Az árat megtalálod[itt](https://purchase.aspose.com/buy).

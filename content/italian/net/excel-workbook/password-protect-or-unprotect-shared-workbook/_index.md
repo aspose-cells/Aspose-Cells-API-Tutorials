@@ -53,7 +53,7 @@ Successivamente, creeremo un'istanza di una nuova cartella di lavoro Excel. Imma
 Workbook wb = new Workbook();
 ```
 
-Questa riga inizializza un nuovo oggetto cartella di lavoro denominato`wb`Ora siamo pronti a lavorare su questa nuova tela.
+ Questa riga inizializza un nuovo oggetto cartella di lavoro denominato`wb`Ora siamo pronti a lavorare su questa nuova tela.
 
 ## Passaggio 3: proteggere la cartella di lavoro condivisa con password
 
@@ -117,4 +117,4 @@ Purtroppo, se dimentichi la password, non potrai più rimuovere la protezione da
 Aspose.Cells supporta principalmente .NET, ma ha anche librerie per Java e altri linguaggi. Controlla il loro sito per maggiori informazioni!
 
 ### Come posso ottenere supporto per Aspose.Cells?
- Puoi chiedere aiuto tramite il loro forum di supporto:[Supporto Aspose](https://forum.aspose.com/c/cells/9).
+Puoi chiedere aiuto tramite il loro forum di supporto:[Supporto Aspose](https://forum.aspose.com/c/cells/9).

@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
- Selanjutnya, kita membuat sebuah instance dari`Workbook` kelas, yang merepresentasikan berkas Excel.
+ Selanjutnya, kita membuat sebuah instance dari`Workbook`kelas, yang merepresentasikan berkas Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Baris ini menginisialisasi buku kerja baru, membuatnya siap untuk dimanipulasi.
 
 ## Langkah 3: Dapatkan Referensi PageSetup
 
- Sekarang mari kita mengakses lembar kerja`PageSetup`properti. Di sinilah sebagian besar pengaturan cetak akan dikonfigurasi.
+ Sekarang mari kita mengakses lembar kerja`PageSetup` properti. Di sinilah sebagian besar pengaturan cetak akan dikonfigurasi.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

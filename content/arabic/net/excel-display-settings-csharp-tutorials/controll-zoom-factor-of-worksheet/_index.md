@@ -78,10 +78,10 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## الخطوة 3: إنشاء مثيل لكائن المصنف
 
- ال`Workbook`الكائن هو قلب وظيفة Aspose.Cells الخاصة بك. فهو يمثل ملف Excel الخاص بك بطريقة يمكن إدارتها.
+ ال`Workbook` الكائن هو قلب وظيفة Aspose.Cells الخاصة بك. فهو يمثل ملف Excel الخاص بك بطريقة يمكن إدارتها.
 
 ```csharp
-// إنشاء كائن مصنف
+//إنشاء كائن مصنف
 // فتح ملف Excel من خلال مجرى الملف
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 بعد أن أصبح المصنف الآن في الذاكرة، حان الوقت للوصول إلى ورقة العمل المحددة التي تريد تعديلها. في أغلب الحالات، ستكون هذه هي ورقة العمل الأولى (الفهرس 0).
 
 ```csharp
-// الوصول إلى ورقة العمل الأولى في ملف Excel
+//الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

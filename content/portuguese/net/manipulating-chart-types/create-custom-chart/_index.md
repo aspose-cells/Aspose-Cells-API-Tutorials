@@ -42,17 +42,17 @@ Primeiro, você precisará criar um diretório onde seu arquivo Excel será salv
 
 ```csharp
 // Diretório de saída
-string outputDir = "Your Output Directory"; // Altere isso para o caminho desejado
+string outputDir = "Your Output Directory"; //Altere isso para o caminho desejado
 ```
 
 No lugar de "Your Output Directory", você pode especificar um caminho real onde você gostaria que o arquivo Excel fosse salvo. Certifique-se de que esse diretório exista no seu sistema; caso contrário, você encontrará erros mais tarde.
 
 ## Etapa 2: Instanciando um objeto de pasta de trabalho
 
- Agora, você vai querer começar criando uma nova instância do`Workbook`classe. Este é o bloco de construção fundamental para qualquer operação do Excel usando Aspose.Cells.
+ Agora, você vai querer começar criando uma nova instância do`Workbook` classe. Este é o bloco de construção fundamental para qualquer operação do Excel usando Aspose.Cells.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -145,7 +145,7 @@ workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 
 ## Conclusão
 
-E aí está! Você acabou de criar um gráfico personalizado usando Aspose.Cells para .NET. Com apenas algumas linhas de código, agora você pode visualizar seus dados de forma eficaz, tornando relatórios e apresentações muito mais envolventes. 
+aí está! Você acabou de criar um gráfico personalizado usando Aspose.Cells para .NET. Com apenas algumas linhas de código, agora você pode visualizar seus dados de forma eficaz, tornando relatórios e apresentações muito mais envolventes. 
 
 Lembre-se, o poder dos gráficos está na capacidade de contar uma história, de tornar dados complexos compreensíveis à primeira vista. Então vá em frente, experimente diferentes conjuntos de dados e tipos de gráficos, e deixe seus dados falarem!
 

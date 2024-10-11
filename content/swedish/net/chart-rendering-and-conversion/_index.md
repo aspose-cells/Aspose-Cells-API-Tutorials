@@ -19,7 +19,7 @@ Vill du förvandla rådata till snygga, informativa diagram? Handledningen för 
 
 Behöver du konvertera ditt diagram till en PDF för delning eller utskrift? Handledningen Konvertera diagram till PDF leder dig genom de enkla stegen för att omvandla dina Excel-diagram till PDF-format. Den här guiden säkerställer att dina diagram behåller sin kvalitet och formatering när de konverteras, vilket gör dem presentationsklara med bara några klick.
 
-## [Skapa diagram-PDF med önskad sidstorlek](./create-chart-pdf-with-desired-page-size/)
+## [Skapa diagram PDF med önskad sidstorlek](./create-chart-pdf-with-desired-page-size/)
 
 Ibland måste du kontrollera storleken på ditt diagram när du sparar det till PDF. Den här guiden beskriver hur du skapar en diagram-PDF med exakta sidmått du vill ha. Genom att följa guiden Skapa diagram-PDF med önskad sidstorlek lär du dig hur du anpassar din PDF-utdata så att den passar dina specifika behov – perfekt för rapporter och presentationer där precision är nyckeln.
 
@@ -28,5 +28,5 @@ Ibland måste du kontrollera storleken på ditt diagram när du sparar det till 
 Upptäck hur du renderar diagram i .NET med Aspose.Cells. Följ vår steg-för-steg handledning för att skapa fantastiska bilder utan ansträngning.
 ### [Konvertera diagram till PDF](./convert-chart-to-pdf/)
 Lär dig att konvertera Excel-diagram till PDF med Aspose.Cells för .NET med denna enkla steg-för-steg-guide. Utforska viktiga tips och kodningsexempel.
-### [Skapa diagram-PDF med önskad sidstorlek](./create-chart-pdf-with-desired-page-size/)
+### [Skapa diagram PDF med önskad sidstorlek](./create-chart-pdf-with-desired-page-size/)
 Skapa en PDF med ditt Excel-diagram med Aspose.Cells för .NET. Lär dig hur med denna steg-för-steg-guide.

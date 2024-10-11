@@ -74,7 +74,7 @@ Workbook workbook = new Workbook();
 每個工作簿至少包含一個工作表。在這裡，我們將引用要使用的第一個工作表。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -105,7 +105,7 @@ worksheet.Cells["B3"].PutValue(50);
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pyramid, 5, 0, 25, 10);
 ```
 
-在這一行中，我們將圖表類型指定為`Pyramid`並使用行索引和列索引定義其在工作表中的位置。這類似於在牆上掛一幅畫——您需要選擇它看起來最好的位置！
+在這一行中，我們將圖表類型指定為`Pyramid`並使用行索引和列索引定義其在工作表中的位置。這類似於將一幅畫掛在牆上 - 您需要選擇它看起來最好的位置！
 
 ## 步驟6：存取新新增的圖表
 

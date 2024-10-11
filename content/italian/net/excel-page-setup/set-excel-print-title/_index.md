@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Passaggio 2: creare un'istanza di un oggetto cartella di lavoro
 
- Successivamente, creiamo un'istanza di`Workbook` classe, che rappresenta un file Excel.
+ Successivamente, creiamo un'istanza di`Workbook`classe, che rappresenta un file Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Questa riga inizializza una nuova cartella di lavoro, rendendola pronta per la m
 
 ## Passaggio 3: ottenere il riferimento di PageSetup
 
- Ora accediamo al foglio di lavoro`PageSetup`proprietà. Qui è dove saranno configurate la maggior parte delle nostre impostazioni di stampa.
+ Ora accediamo al foglio di lavoro`PageSetup` proprietà. Qui è dove saranno configurate la maggior parte delle nostre impostazioni di stampa.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

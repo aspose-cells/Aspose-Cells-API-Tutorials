@@ -16,7 +16,7 @@ url: /fr/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin :
 
 1. Environnement de développement : vous devez avoir Visual Studio installé sur votre machine, car il fournit un excellent IDE pour le développement .NET.
-2.  Bibliothèque Aspose.Cells : Téléchargez la bibliothèque Aspose.Cells. Vous pouvez l'obtenir à partir du[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/).
+2. Bibliothèque Aspose.Cells : Téléchargez la bibliothèque Aspose.Cells. Vous pouvez l'obtenir à partir du[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en C# : assurez-vous d'avoir une bonne compréhension de C# et de .NET Framework pour suivre facilement.
 4. Créer un projet : configurez une nouvelle application console dans Visual Studio où nous écrirons le code.
 
@@ -48,7 +48,7 @@ Décomposons la mise en œuvre en étapes faciles à gérer. Nous allons créer 
 
 ## Étape 1 : Créez un flux de fichiers pour votre fichier Excel
 
- Tout d'abord, nous devons charger un fichier Excel existant. Nous utiliserons un`FileStream` pour y accéder.
+Tout d'abord, nous devons charger un fichier Excel existant. Nous utiliserons un`FileStream` pour y accéder.
 
 ```csharp
 // Le chemin vers le répertoire des documents.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Maintenant que nous avons un flux de fichiers, nous pouvons créer un`Workbook` objet.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Pour nos besoins, nous allons simplement travailler avec la première feuille de calcul. Accédons-y.
 
 ```csharp
-// Accéder à la première feuille de calcul du fichier Excel
+//Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Les feuilles de travail sont indexées à partir de zéro, donc`Worksheets[0]`fait référence à la première feuille de calcul du fichier Excel. Nous pouvons maintenant appliquer nos paramètres de protection à cette feuille spécifique.
+ Les feuilles de travail sont indexées à partir de zéro, donc`Worksheets[0]` fait référence à la première feuille de calcul du fichier Excel. Nous pouvons maintenant appliquer nos paramètres de protection à cette feuille spécifique.
 
 ## Étape 4 : appliquer les paramètres de protection avancés
 
@@ -140,7 +140,7 @@ Cette étape est cruciale pour gérer efficacement les ressources. Ne pas fermer
 
 ## Conclusion
 
-Et voilà ! Vous avez implémenté avec succès des paramètres de protection avancés pour une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. En contrôlant les autorisations des utilisateurs, vous pouvez préserver l'intégrité de vos données tout en permettant la flexibilité nécessaire. Ce processus sécurise non seulement vos informations, mais permet également de collaborer sans risquer de perdre des données. 
+Et voilà ! Vous avez implémenté avec succès des paramètres de protection avancés pour une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. En contrôlant les autorisations des utilisateurs, vous pouvez préserver l'intégrité de vos données tout en permettant la flexibilité nécessaire. Ce processus sécurise non seulement vos informations, mais permet également de collaborer sans risquer de perdre des données. 
 
 ## FAQ
 
@@ -148,7 +148,7 @@ Et voilà ! Vous avez implémenté avec succès des paramètres de protection a
 Aspose.Cells est une bibliothèque puissante qui vous permet de créer, manipuler et convertir des fichiers Excel par programmation dans .NET.
 
 ### Puis-je protéger plusieurs feuilles de calcul à la fois ?
- Oui ! Vous pouvez appliquer des paramètres de protection similaires à plusieurs feuilles de calcul en parcourant les`Worksheets` collection.
+ Oui ! Vous pouvez appliquer des paramètres de protection similaires à plusieurs feuilles de calcul en parcourant les`Worksheets`collection.
 
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells ?
  Bien qu'une version d'essai gratuite soit disponible, une licence est requise pour un développement à grande échelle. Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

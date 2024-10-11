@@ -95,7 +95,7 @@ Ici, nous ajoutons un graphique à l'emplacement spécifié en définissant sa d
 
 ## Étape 6 : Ajout de séries de données au graphique
 
-Une fois le graphique créé, nous devons maintenant le lier aux données que nous avons saisies dans les étapes précédentes.
+Une fois le graphique créé, nous devons maintenant le lier aux données que nous avons saisies aux étapes précédentes.
 
 ```csharp
 chart.NSeries.Add("A1:B3", true);

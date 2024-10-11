@@ -2,7 +2,7 @@
 title: एक्सेल को XML जावा में निर्यात करें
 linktitle: एक्सेल को XML जावा में निर्यात करें
 second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: जानें कि Aspose.Cells for Java के साथ जावा में Excel को XML में कैसे एक्सपोर्ट करें। सहज डेटा रूपांतरण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+description: Aspose.Cells for Java के साथ जावा में Excel को XML में एक्सपोर्ट करना सीखें। सहज डेटा रूपांतरण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 type: docs
 weight: 15
 url: /hi/java/excel-import-export/export-excel-to-xml-java/

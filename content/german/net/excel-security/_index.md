@@ -17,7 +17,7 @@ Entdecken Sie unsere umfassende Sammlung von Aspose.Cells für .NET-Tutorials! E
 
 ## Zellen sperren leicht gemacht  
 
- Manchmal möchten Sie Benutzern zwar den Zugriff auf Ihre Daten erlauben, sie aber daran hindern, sie zu ändern. Hier kommt das Tutorial zu[Zelle im Excel-Arbeitsblatt sperren](./lock-cell-in-excel-worksheet/) glänzt. Es vereinfacht den Vorgang des Sperrens von Zellen in Ihren Excel-Arbeitsblättern mit Aspose.Cells für .NET. Stellen Sie sich einen Zaun um Ihren Garten vor; er lässt die Leute die Blumen bewundern, hält sie aber davon ab, darüber zu trampeln. In diesem Abschnitt finden Sie Schritt-für-Schritt-Anleitungen, die das Sperren von Zellen nicht nur möglich, sondern auch einfach machen! Mit Codeausschnitten und Beispielen werden Sie sich im Handumdrehen wie ein Profi fühlen.
+ Manchmal möchten Sie Benutzern zwar den Zugriff auf Ihre Daten erlauben, sie aber daran hindern, sie zu ändern. Hier kommt das Tutorial zu[Zelle im Excel-Arbeitsblatt sperren](./lock-cell-in-excel-worksheet/) glänzt. Es vereinfacht den Vorgang des Sperrens von Zellen in Ihren Excel-Arbeitsblättern mit Aspose.Cells für .NET. Stellen Sie sich einen Zaun um Ihren Garten vor; er lässt die Leute die Blumen bewundern, verhindert aber, dass sie darübertrampeln. In diesem Abschnitt finden Sie Schritt-für-Schritt-Anleitungen, die das Sperren von Zellen nicht nur möglich, sondern auch einfach machen! Mit Codeausschnitten und Beispielen fühlen Sie sich im Handumdrehen wie ein Profi.
 
 ## Schreibschutz mit persönlicher Note  
 

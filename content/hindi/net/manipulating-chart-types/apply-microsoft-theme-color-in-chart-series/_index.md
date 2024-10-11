@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 अब समय है उस चार्ट को खोजने का जिसे हम संशोधित करना चाहते हैं। यहीं से जादू की असली शुरुआत होती है!
 
 ```csharp
-// शीट में पहला चार्ट प्राप्त करें
+//शीट में पहला चार्ट प्राप्त करें
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
  अब, चलिए Microsoft थीम रंग लागू करते हैं। हम एक चुनेंगे`Accent` शैली क्योंकि कौन रंग की चमक पसंद नहीं करता है?
 
 ```csharp
-// एक्सेंट शैली में थीम बनाएं
+//एक्सेंट शैली में थीम बनाएं
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

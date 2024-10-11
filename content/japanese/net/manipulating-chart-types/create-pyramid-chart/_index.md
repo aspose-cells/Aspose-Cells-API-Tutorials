@@ -109,14 +109,14 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pyramid, 5, 
 
 ## ステップ6: 新しく追加されたチャートにアクセスする
 
-チャートを追加したら、それにアクセスして設定する必要があります。
+チャートを追加したら、チャートにアクセスして設定する必要があります。
 
 ```csharp
 //新しく追加されたチャートのインスタンスにアクセスする
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-この行により、作成した正しいチャート インスタンスが確実に処理されます。
+この行により、作成した正しいチャート インスタンスが確実に使用されます。
 
 ## ステップ7: グラフにデータ系列を追加する
 

@@ -9,7 +9,7 @@ url: /pt/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-cs
 ---
 ## Introdução
 
-Excel se tornou parte integrante de nossas vidas profissionais, não é mesmo? Muitas vezes nos pegamos fazendo malabarismos com várias planilhas, o que torna fácil nos perdermos nos dados. Mas o que você faz quando precisa limpar as coisas? Se você quiser se livrar de uma planilha em um arquivo Excel pelo seu índice usando C#, o Aspose.Cells torna essa tarefa incrivelmente simples e eficiente. Neste tutorial, vou orientá-lo em cada etapa que você precisa seguir, então não se preocupe; mesmo se você for um iniciante total, você poderá excluir essa planilha em pouco tempo!
+O Excel se tornou parte integrante de nossas vidas profissionais, não é mesmo? Muitas vezes nos pegamos fazendo malabarismos com várias planilhas, o que torna fácil nos perdermos nos dados. Mas o que você faz quando precisa limpar as coisas? Se você quiser se livrar de uma planilha em um arquivo Excel pelo seu índice usando C#, o Aspose.Cells torna essa tarefa incrivelmente simples e eficiente. Neste tutorial, vou orientá-lo em cada etapa que você precisa seguir, então não se preocupe; mesmo se você for um iniciante total, você poderá excluir essa planilha em pouco tempo!
 
 ## Pré-requisitos
 
@@ -55,7 +55,7 @@ Primeiro, você precisará definir o local do seu arquivo Excel. É aqui que voc
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Apenas substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde seu`book1.xls` arquivo reside. Pense nisso como dar ao seu GPS o endereço correto antes de começar uma viagem!
+ Apenas substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde seu`book1.xls`arquivo reside. Pense nisso como dar ao seu GPS o endereço correto antes de começar uma viagem!
 
 ## Etapa 4: Abra o arquivo Excel com um FileStream
 
@@ -109,7 +109,7 @@ fstream.Close();
 
 ## Conclusão
 
-E aí está! Você aprendeu com sucesso como excluir uma planilha do Excel pelo seu índice usando C# e Aspose.Cells. O processo é direto, uma vez que você entenda o básico. Agora você pode facilmente limpar planilhas desnecessárias de suas pastas de trabalho, tornando seus dados mais gerenciáveis e organizados.
+aí está! Você aprendeu com sucesso como excluir uma planilha do Excel pelo seu índice usando C# e Aspose.Cells. O processo é direto, uma vez que você entenda o básico. Agora você pode facilmente limpar planilhas desnecessárias de suas pastas de trabalho, tornando seus dados mais gerenciáveis e organizados.
 
 ## Perguntas frequentes
 

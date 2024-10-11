@@ -50,14 +50,14 @@ Langkah pertama adalah menentukan di mana Anda ingin menyimpan berkas output And
 // Direktori keluaran
 string outputDir = "Your Output Directory";
 ```
- Mengganti`"Your Output Directory"`dengan jalur sebenarnya tempat Anda ingin menyimpan file Excel yang dihasilkan.
+ Mengganti`"Your Output Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan file Excel yang dihasilkan.
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
 Selanjutnya, kita perlu membuat contoh buku kerja baru. Anggaplah Buku Kerja sebagai kanvas tempat kreativitas Anda mengalir. 
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 Baris ini menginisialisasi buku kerja baru yang akan menampung semua data dan visual Anda.

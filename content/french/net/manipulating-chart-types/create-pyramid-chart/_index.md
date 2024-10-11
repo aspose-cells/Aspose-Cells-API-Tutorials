@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Ensuite, créons une nouvelle instance d'un classeur. Considérez un classeur comme une toile vierge sur laquelle vous pouvez peindre vos données.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 

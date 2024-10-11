@@ -16,7 +16,7 @@ url: /ja/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 コードに進む前に、必要なものがすべて揃っていることを確認しましょう。
 
 1. 開発環境: .NET 開発用の優れた IDE を提供する Visual Studio をマシンにインストールしておく必要があります。
-2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードしてください。[Aspose ダウンロード ページ](https://releases.aspose.com/cells/net/).
+2. Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードしてください。[Aspose ダウンロード ページ](https://releases.aspose.com/cells/net/).
 3. 基本的な C# の知識: 簡単に理解できるように、C# と .NET Framework を十分に理解していることを確認してください。
 4. プロジェクトの作成: コードを記述する新しいコンソール アプリケーションを Visual Studio に設定します。
 
@@ -74,14 +74,14 @@ Workbook excel = new Workbook(fstream);
 ここでは、最初のワークシートのみを操作します。アクセスしてみましょう。
 
 ```csharp
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = excel.Worksheets[0];
 ```
-ワークシートは0からインデックスが付けられるので、`Worksheets[0]`Excel ファイルの最初のワークシートを参照します。これで、この特定のシートに保護設定を適用できます。
+ワークシートは0からインデックスが付けられるので、`Worksheets[0]` Excel ファイルの最初のワークシートを参照します。これで、この特定のシートに保護設定を適用できます。
 
 ## ステップ4: 高度な保護設定を適用する
 
-ここからが楽しい部分です! ユーザーが特定のアクションを実行できないように制限しながら、他のアクションは実行できるようにしてみましょう。
+ここからが楽しい部分です。ユーザーが特定のアクションを実行できないように制限しながら、他のアクションは実行できるようにしてみましょう。
 
 - 列と行の削除を制限する
 ```csharp

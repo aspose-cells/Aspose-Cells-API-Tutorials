@@ -16,7 +16,7 @@ Välkommen till den ultimata guiden om hur du använder det kraftfulla Aspose.Ce
 Innan vi börjar med kodning, låt oss se till att du har allt du behöver för att komma igång. Här är vad du bör ha på plats:
 
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Detta är ditt huvudsakliga nav för allt utvecklingsarbete.
-2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket nedladdat och lagt till ditt projekt. Du kan enkelt ta den från[Aspose hemsida](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket nedladdat och lagt till ditt projekt. Du kan enkelt ta den från[Aspose hemsida](https://releases.aspose.com/cells/net/).
 3. Grundläggande C#-kunskaper: Bekantskap med C#-programmering kommer att vara till stor hjälp. Om du kan hantera variabler, loopar och grundläggande fil-I/O kommer du att vara hemma.
 4. .NET Framework: Se till att ditt projekt är konfigurerat med lämplig .NET Framework-version, eftersom biblioteket är designat för kompatibilitet inom detta ekosystem.
 
@@ -54,9 +54,9 @@ Låt oss först initiera vår arbetsbok och komma åt det önskade arbetsbladet.
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
-// Åtkomst till det första kalkylbladet i Excel-filen
+//Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`bestämmer hur många sidor ditt kalkylblad kommer att sträcka sig vertikalt.
-- `FitToPagesWide` definierar den horisontella siduppsättningen. Ställer båda till`1` innebär att ditt innehåll kommer att passa snyggt på en sida och förvandla ditt dokument till ett strömlinjeformat mästerverk.
+- `FitToPagesTall` bestämmer hur många sidor ditt kalkylblad kommer att sträcka sig vertikalt.
+- `FitToPagesWide` definierar den horisontella siduppsättningen. Ställer båda till`1`innebär att ditt innehåll kommer att passa snyggt på en sida och förvandla ditt dokument till ett strömlinjeformat mästerverk.
 
 ## Steg 3: Spara din arbetsbok
 
@@ -97,7 +97,7 @@ Och där har du det! Du har lärt dig hur du använder alternativen för Anpassa
 Aspose.Cells är ett robust .NET-bibliotek för att hantera Excel-filer programmatiskt, vilket gör det möjligt för utvecklare att skapa och manipulera kalkylblad med lätthet.
 
 ### Kan jag prova Aspose.Cells gratis?
- Ja! Du kan registrera dig för en gratis provperiod[här](https://releases.aspose.com/).
+Ja! Du kan registrera dig för en gratis provperiod[här](https://releases.aspose.com/).
 
 ### Hur köper jag Aspose.Cells?
  Du kan göra ditt köp[här](https://purchase.aspose.com/buy).

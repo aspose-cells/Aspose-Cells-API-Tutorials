@@ -8,7 +8,7 @@ weight: 19
 url: /cs/java/spreadsheet-automation/
 ---
 
-Objevte sílu Aspose.Cells pro Javu v našich výukových programech Spreadsheet Automation. Naučte se zjednodušit datové úlohy, manipulovat s tabulkami a snadno generovat sestavy.
+Objevte sílu Aspose.Cells pro Javu v našich výukových programech Spreadsheet Automation. Naučte se zjednodušit datové úlohy, manipulovat s tabulkami a snadno vytvářet sestavy.
 
 ## Zjednodušte si tok dat
 

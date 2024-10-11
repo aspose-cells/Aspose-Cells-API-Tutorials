@@ -101,7 +101,7 @@ Tak, Aspose.Cells for Java obsługuje różne formaty Excela, w tym XLS, XLSX i 
 
 ### Czy mogę dostosować komunikaty o błędach dotyczące walidacji danych?
 
-Oczywiście! Możesz dostosować komunikat o błędzie, tytuł i wygląd alertów o błędach do wymagań swojej aplikacji.
+Oczywiście! Możesz dostosować komunikat o błędzie, tytuł i wygląd alertów o błędach, aby dopasować je do wymagań swojej aplikacji.
 
 ### Czy istnieją jakieś ograniczenia warunkowej walidacji danych w Aspose.Cells dla Java?
 

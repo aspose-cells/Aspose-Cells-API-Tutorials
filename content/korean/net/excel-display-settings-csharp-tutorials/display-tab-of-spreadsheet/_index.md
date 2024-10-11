@@ -41,7 +41,7 @@ Excel 파일을 조작하기 전에 파일이 저장된 경로를 정의해야 �
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 바꾸다`"YOUR DOCUMENT DIRECTORY"`시스템의 실제 디렉토리 경로와 함께. 이 디렉토리는 기존 Excel 파일을 로드하고 출력을 저장하는 곳입니다.
+ 바꾸다`"YOUR DOCUMENT DIRECTORY"` 시스템의 실제 디렉토리 경로와 함께. 이 디렉토리는 기존 Excel 파일을 로드하고 출력을 저장하는 곳입니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
@@ -61,7 +61,7 @@ Excel에서 하단의 탭(Sheet1, Sheet2 등)을 숨기거나 표시할 수 있�
 workbook.Settings.ShowTabs = true;
 ```
 
- 환경`ShowTabs` 에게`true` Excel 파일을 열 때 탭이 표시되도록 합니다.
+ 환경`ShowTabs` 에게`true`Excel 파일을 열 때 탭이 표시되도록 합니다.
 
 ## 4단계: 수정된 Excel 파일 저장
 
@@ -71,7 +71,7 @@ workbook.Settings.ShowTabs = true;
 workbook.Save(dataDir + "output.xls");
 ```
 
-파일은 다음 이름으로 저장됩니다.`output.xls` 이전에 지정한 디렉토리에 있습니다. 다른 이름이나 파일 형식(예:)을 선택할 수도 있습니다.`.xlsx`) 필요한 경우.
+ 파일은 다음 이름으로 저장됩니다.`output.xls` 이전에 지정한 디렉토리에 있습니다. 다른 이름이나 파일 형식(예:)을 선택할 수도 있습니다.`.xlsx`) 필요한 경우.
 
 ## 결론
 
@@ -80,7 +80,7 @@ workbook.Save(dataDir + "output.xls");
 ## 자주 묻는 질문
 
 ### Aspose.Cells for .NET을 사용하여 Excel에서 탭을 숨길 수 있나요?
- 물론입니다! 간단하게 설정`workbook.Settings.ShowTabs = false;` 그리고 파일을 저장합니다. 이렇게 하면 통합 문서가 열릴 때 탭이 숨겨집니다.
+ 물론입니다! 간단하게 설정`workbook.Settings.ShowTabs = false;`그리고 파일을 저장합니다. 이렇게 하면 통합 문서가 열릴 때 탭이 숨겨집니다.
 
 ### Aspose.Cells는 차트, 피벗 테이블과 같은 다른 Excel 기능을 지원합니까?
 네, Aspose.Cells는 차트, 피벗 테이블, 수식 등 거의 모든 Excel 기능을 지원하는 포괄적인 라이브러리입니다.

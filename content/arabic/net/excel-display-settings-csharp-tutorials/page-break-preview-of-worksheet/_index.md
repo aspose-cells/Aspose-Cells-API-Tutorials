@@ -41,7 +41,7 @@ using Aspose.Cells;
 افتح برنامج Visual Studio أو IDE وقم بإنشاء ملف C# جديد إذا لم تكن قد قمت بذلك بالفعل. هذا هو المكان الذي سنكتب فيه كود التنفيذ الخاص بنا.
 
 
-الآن، دعونا نقوم بتقسيم الكود لتمكين معاينة كسر الصفحة في ملفات Excel خطوة بخطوة.
+الآن، دعونا نقوم بتقسيم الكود لتمكين معاينة فاصل الصفحات في ملفات Excel خطوة بخطوة.
 
 ## الخطوة 1: تعيين مسار الدليل
 
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## الخطوة 3: إنشاء مثيل للمصنف
 
 ```csharp
-// إنشاء كائن مصنف
+//إنشاء كائن مصنف
 // فتح ملف Excel من خلال مجرى الملف
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## الخطوة 4: الوصول إلى ورقة العمل
 
 ```csharp
-// الوصول إلى ورقة العمل الأولى في ملف Excel
+//الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

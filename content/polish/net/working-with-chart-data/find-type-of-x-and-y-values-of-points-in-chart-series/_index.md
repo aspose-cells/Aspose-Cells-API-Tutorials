@@ -17,9 +17,9 @@ Zanim przejdziesz do dalszych kroków, upewnij się, że masz przygotowane kilka
 
 1. Środowisko .NET: Powinieneś mieć skonfigurowane środowisko programistyczne .NET. Może to być Visual Studio, Visual Studio Code lub inne zgodne IDE.
    
-2. Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
 
-3.  Przykładowy plik Excela: Pobierz przykładowy plik Excela zawierający wykresy. W tym samouczku użyjemy pliku o nazwie`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Upewnij się, że znajduje się on w katalogu Twojego projektu.
+3. Przykładowy plik Excela: Pobierz przykładowy plik Excela zawierający wykresy. W tym samouczku użyjemy pliku o nazwie`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Upewnij się, że znajduje się on w katalogu Twojego projektu.
 
 4. Podstawowa wiedza programistyczna: Znajomość programowania w języku C# pomoże Ci z łatwością nadążać za nauką.
 
@@ -33,7 +33,7 @@ Otwórz IDE i utwórz nowy projekt .NET. Upewnij się, że zainstalowałeś paki
 
 ### Importuj wymagane przestrzenie nazw
 
-Na górze pliku C# należy umieścić następujące dyrektywy using:
+Na górze pliku C# umieść następujące dyrektywy using:
 
 ```csharp
 using System;
@@ -56,7 +56,7 @@ Najpierw musisz zdefiniować katalog, w którym znajduje się plik Excel. Ustaw 
 string sourceDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` ze ścieżką, pod którą zapisany jest plik Excel.
+ Zastępować`"Your Document Directory"`ze ścieżką, pod którą zapisany jest plik Excel.
 
 ## Krok 2: Załaduj skoroszyt
 

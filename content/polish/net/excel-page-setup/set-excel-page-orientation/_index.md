@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Teraz utworzysz wystąpienie klasy Workbook, która reprezentuje plik programu Excel.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Następnie musisz uzyskać dostęp do arkusza, na którym chcesz ustawić orientację. Ponieważ każdy skoroszyt może mieć wiele arkuszy, powinieneś wyraźnie określić, z którym arkuszem pracujesz.
 
 ```csharp
-// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

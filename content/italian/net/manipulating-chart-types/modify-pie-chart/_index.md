@@ -174,4 +174,4 @@ Sì! Aspose offre una versione di prova gratuita che ti consente di testare la l
 Puoi trovare supporto nei forum di Aspose, dove i membri della community e lo staff di Aspose possono aiutarti.
 
 ### Per utilizzare Aspose.Cells è necessario avere installato Microsoft Excel?  
-No, Aspose.Cells funziona indipendentemente da Microsoft Excel. Non è necessario installarlo sul tuo sistema.
+No, Aspose.Cells funziona indipendentemente da Microsoft Excel. Non è necessario installarlo sul sistema.

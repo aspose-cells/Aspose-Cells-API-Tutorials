@@ -15,7 +15,7 @@ När du arbetar med Excel-filer spelar sidhuvuden och sidfötter en avgörande r
 
 Innan du dyker in i den faktiska koden finns det några saker du måste ha redo:
 
-1. Aspose.Cells for .NET Library: Se till att du har Aspose.Cells-biblioteket installerat i din .NET-miljö. Om du inte har det än så kan du[ladda ner den här](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library: Se till att du har Aspose.Cells-biblioteket installerat i din .NET-miljö. Om du inte har det än så kan du[ladda ner den här](https://releases.aspose.com/cells/net/).
 2. Visual Studio eller någon annan IDE: Du behöver en integrerad utvecklingsmiljö för att skriva och köra din C#-kod.
 3.  En exempelbild: Förbered en bild som du vill infoga i sidhuvudet eller sidfoten. För vårt exempel kommer vi att använda en företagslogotyp som heter`aspose-logo.jpg`.
 4. Grundläggande kunskaper om C#: Även om det inte är obligatoriskt, kommer förståelse av C# att göra det lättare för dig att följa med i denna handledning.
@@ -95,7 +95,7 @@ Med bildens binära data till hands kan vi nu infoga den i rubriken.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Den här raden placerar bilden i den centrala delen av rubriken. Parametern`1` anger rubriksektionen.
+ Den här raden placerar bilden i den centrala delen av rubriken. Parametern`1`anger rubriksektionen.
 
 ## Steg 7: Ställa in rubrikinnehållet
 
@@ -121,7 +121,7 @@ Den här raden sparar arbetsboken med det angivna filnamnet i den katalog som du
 
 ## Steg 9: Stänga FileStream
 
- Slutligen, glöm inte att stänga din`FileStream` att frigöra resurserna.
+ Slutligen, glöm inte att stänga din`FileStream` för att frigöra resurserna.
 
 ```csharp
 inFile.Close();

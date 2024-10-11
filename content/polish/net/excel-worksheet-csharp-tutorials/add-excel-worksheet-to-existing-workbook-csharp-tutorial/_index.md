@@ -16,7 +16,7 @@ Wraz z ciągłym rozwojem cyfrowego świata praca z arkuszami kalkulacyjnymi sta
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby pomyślnie wdrożyć ten samouczek. Oto, czego będziesz potrzebować:
 
 1.  Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Jeśli jeszcze go nie masz, możesz go pobrać z[Tutaj](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells dla .NET: Musisz mieć Aspose.Cells dla .NET zintegrowane z projektem. Możesz je pobrać z[link do pobrania](https://releases.aspose.com/cells/net/). Ta biblioteka jest niezbędna do pracy z plikami Excel i obsługuje szeroki zakres funkcjonalności.
+2.  Aspose.Cells dla .NET: Musisz mieć Aspose.Cells dla .NET zintegrowane z projektem. Możesz je pobrać z[link do pobrania](https://releases.aspose.com/cells/net/)Ta biblioteka jest niezbędna do pracy z plikami Excel i obsługuje szeroki zakres funkcjonalności.
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# pomoże Ci łatwiej nadążać. Nie martw się; poprowadzimy Cię przez proces krok po kroku!
 4. Katalog dokumentów: Upewnij się, że na swoim komputerze masz folder, w którym możesz przechowywać pliki programu Excel przeznaczone do tego samouczka. 
 
@@ -53,14 +53,14 @@ Teraz, gdy mamy już skonfigurowany katalog, czas utworzyć strumień plików, k
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- W tym kroku otwieramy`book1.xls`który powinien już istnieć w podanym przez Ciebie katalogu. Upewnij się, że masz ten plik pod ręką, w przeciwnym razie proces zgłosi błąd.
+ W tym kroku otwieramy`book1.xls`, który powinien już istnieć w podanym przez Ciebie katalogu. Upewnij się, że masz ten plik pod ręką, w przeciwnym razie proces zgłosi błąd.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
 Następnie musimy utworzyć instancję klasy Workbook, która będzie zawierać nasz plik Excela.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 // Otwieranie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Tworząc wystąpienie skoroszytu z naszego strumienia plików, możemy teraz man
 
 ## Krok 4: Dodaj nowy arkusz kalkulacyjny
 
- Oto ekscytująca część! Dodajmy nowy arkusz do naszego skoroszytu. Robimy to za pomocą`Add()` metoda z`Worksheets` kolekcja.
+Oto ekscytująca część! Dodajmy nowy arkusz do naszego skoroszytu. Robimy to za pomocą`Add()` metoda z`Worksheets`kolekcja.
 
 ```csharp
 // Dodawanie nowego arkusza do obiektu Skoroszyt
@@ -87,7 +87,7 @@ Po utworzeniu nowego arkusza kalkulacyjnego ważne jest uzyskanie do niego odnie
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Tutaj używamy indeksu`i` aby odwołać się do naszego nowo utworzonego arkusza kalkulacyjnego. Pozwala nam to na dalszą manipulację nim.
+ Tutaj używamy indeksu`i` aby odwołać się do naszego nowo utworzonego arkusza kalkulacyjnego. Pozwala nam to na dalszą manipulację nim.
 
 ## Krok 6: Ustaw nazwę nowego arkusza kalkulacyjnego
 

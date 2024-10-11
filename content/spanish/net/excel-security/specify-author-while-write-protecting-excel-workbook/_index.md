@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Asegúrese de reemplazar`"YOUR SOURCE DIRECTORY"` y`"YOUR OUTPUT DIRECTORY"`con rutas reales en su máquina. ¡Piense en esto como crear un espacio de trabajo ordenado antes de comenzar a crear su obra maestra!
+ Asegúrese de reemplazar`"YOUR SOURCE DIRECTORY"` y`"YOUR OUTPUT DIRECTORY"` con rutas reales en su máquina. ¡Piense en esto como crear un espacio de trabajo ordenado antes de comenzar a crear su obra maestra!
 
 ## Paso 2: Crear un libro de trabajo vacío
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ¡Por supuesto! Aspose.Cells funciona perfectamente tanto en aplicaciones de escritorio como web que utilicen .NET.
 
 ### ¿Qué debo hacer si necesito ayuda?  
- Para preguntas y resolución de problemas, la comunidad de Aspose es muy útil. Puede visitar su[foro de soporte](https://forum.aspose.com/c/cells/9) para solicitar ayuda.
+Para preguntas y resolución de problemas, la comunidad de Aspose es muy útil. Puede visitar su[foro de soporte](https://forum.aspose.com/c/cells/9) para solicitar ayuda.

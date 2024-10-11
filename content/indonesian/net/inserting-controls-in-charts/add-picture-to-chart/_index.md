@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Mengganti`Your Document Directory` Dan`Your Output Directory`dengan jalur sebenarnya di komputer Anda. 
+ Mengganti`Your Document Directory` Dan`Your Output Directory` dengan jalur sebenarnya di komputer Anda. 
 
 ## Langkah 2: Muat Buku Kerja yang Ada
 
@@ -100,7 +100,7 @@ Setelah bagan dipilih, waktunya menambahkan gambar!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Di Sini,`50` Dan`50` adalah koordinat X dan Y di mana gambar akan ditempatkan, dan`200`adalah lebar dan tinggi gambar.
+ Di Sini,`50` Dan`50` adalah koordinat X dan Y di mana gambar akan ditempatkan, dan`200` adalah lebar dan tinggi gambar.
 
 ## Langkah 6: Sesuaikan Format Garis Gambar
 
@@ -151,7 +151,7 @@ Dalam tutorial ini, kami telah menjajaki cara menambahkan sedikit kepribadian ke
 Aspose.Cells mendukung berbagai format gambar, termasuk PNG, JPEG, BMP, dan GIF.
 
 ### Bisakah saya menyesuaikan posisi gambar?
- Tentu saja! Koordinat X dan Y di`AddPictureInChart` metode memungkinkan penentuan posisi yang tepat.
+Tentu saja! Koordinat X dan Y di`AddPictureInChart` metode memungkinkan penentuan posisi yang tepat.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
  Aspose.Cells menawarkan uji coba gratis, tetapi untuk fitur lengkap, diperlukan lisensi. Anda dapat menemukan harganya[Di Sini](https://purchase.aspose.com/buy).

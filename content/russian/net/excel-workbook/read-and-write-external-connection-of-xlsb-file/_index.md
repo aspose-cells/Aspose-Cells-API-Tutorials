@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- В этом фрагменте кода`"Your Document Directory"` и`"Your Document Directory"`предполагается, что они извлекают соответствующие пути для размещения ваших входных и выходных файлов. Вы можете заменить эти методы жестко закодированными путями, если предпочитаете.
+ В этом фрагменте кода`"Your Document Directory"` и`"Your Document Directory"` предполагается, что они извлекают соответствующие пути для размещения ваших входных и выходных файлов. Вы можете заменить эти методы жестко закодированными путями, если предпочитаете.
 
 ## Шаг 2: Загрузите файл XLSB
 
@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Здесь,`DataConnections[0]` относится к первому соединению в рабочей книге. Мы приводим его как`DBConnection` тип для дальнейших манипуляций.
+ Здесь,`DataConnections[0]`относится к первому соединению в рабочей книге. Мы приводим его как`DBConnection` тип для дальнейших манипуляций.
 
 ## Шаг 4: Извлечение информации о подключении
 
@@ -125,7 +125,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 Файл XLSB — это двоичный формат файла Excel, в котором данные электронной таблицы хранятся в двоичном формате, что делает их более компактными и ускоряет их открытие.
 
 ### Как установить Aspose.Cells для .NET?  
-Вы можете легко загрузить его с сайта Aspose.[здесь](https://releases.aspose.com/cells/net/).
+ Вы можете легко загрузить его с сайта Aspose.[здесь](https://releases.aspose.com/cells/net/).
 
 ### Могу ли я использовать Aspose.Cells бесплатно?  
  Да! Вы можете начать с бесплатной пробной версии, которая доступна[здесь](https://releases.aspose.com/).

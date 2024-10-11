@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Selanjutnya, kita perlu membuat`Workbook` objek. Objek ini berfungsi sebagai wadah untuk data spreadsheet Anda.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 

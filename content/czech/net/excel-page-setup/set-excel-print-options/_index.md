@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Dále budeme muset vytvořit a`Workbook` objekt. Tento objekt funguje jako kontejner pro vaše data tabulky.
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 

@@ -16,7 +16,7 @@ In het digitale tijdperk is het beheren en beveiligen van uw gegevens belangrijk
 Voordat we in de code duiken, controleren we of je alles hebt wat je nodig hebt:
 
 1. Ontwikkelomgeving: Visual Studio moet op uw computer geïnstalleerd zijn, omdat het een uitstekende IDE voor .NET-ontwikkeling biedt.
-2.  Aspose.Cells Library: Download de Aspose.Cells-bibliotheek. U kunt deze verkrijgen via de[Aspose Downloads-pagina](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Download de Aspose.Cells-bibliotheek. U kunt deze verkrijgen via de[Aspose Downloads-pagina](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Zorg dat u een goed begrip hebt van C# en .NET Framework, zodat u de cursus gemakkelijk kunt volgen.
 4. Een project maken: Stel een nieuwe consoletoepassing in in Visual Studio waarin we de code gaan schrijven.
 
@@ -48,7 +48,7 @@ Laten we de implementatie opsplitsen in beheersbare stappen. We maken een eenvou
 
 ## Stap 1: Maak een bestandsstroom voor uw Excel-bestand
 
- Ten eerste moeten we een bestaand Excel-bestand laden. We gebruiken een`FileStream` om er toegang toe te krijgen.
+Ten eerste moeten we een bestaand Excel-bestand laden. We gebruiken een`FileStream` om er toegang toe te krijgen.
 
 ```csharp
 // Het pad naar de documentenmap.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Nu we een bestandsstroom hebben, kunnen we een`Workbook` voorwerp.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Voor onze doeleinden gaan we gewoon met het eerste werkblad werken. Laten we het openen.
 
 ```csharp
-// Toegang krijgen tot het eerste werkblad in het Excel-bestand
+//Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Werkbladen worden geïndexeerd vanaf nul, dus`Worksheets[0]`verwijst naar het eerste werkblad in het Excel-bestand. Nu kunnen we onze beveiligingsinstellingen op dit specifieke werkblad toepassen.
+ Werkbladen worden geïndexeerd vanaf nul, dus`Worksheets[0]` verwijst naar het eerste werkblad in het Excel-bestand. Nu kunnen we onze beveiligingsinstellingen op dit specifieke werkblad toepassen.
 
 ## Stap 4: Geavanceerde beveiligingsinstellingen toepassen
 
@@ -148,7 +148,7 @@ En daar heb je het! Je hebt geavanceerde beveiligingsinstellingen voor een Excel
 Aspose.Cells is een krachtige bibliotheek waarmee u programmatisch Excel-bestanden in .NET kunt maken, bewerken en converteren.
 
 ### Kan ik meerdere werkbladen tegelijk beveiligen?
- Ja! U kunt vergelijkbare beveiligingsinstellingen op meerdere werkbladen toepassen door de`Worksheets` verzameling.
+ Ja! U kunt vergelijkbare beveiligingsinstellingen op meerdere werkbladen toepassen door de`Worksheets`verzameling.
 
 ### Heb ik een licentie nodig om Aspose.Cells te gebruiken?
  Hoewel er een gratis proefversie beschikbaar is, is een licentie vereist voor volledige ontwikkeling. U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).

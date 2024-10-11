@@ -122,4 +122,4 @@ Met Aspose.Cells kunt u werken met .xlsx, .xls, .xlsm en diverse andere Excel-in
  Ja, u kunt een gratis proefversie downloaden van de[Aspose Cells-releasepagina](https://releases.aspose.com/).
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Cells?
- U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9), waar u vragen kunt stellen en antwoorden kunt vinden van de community en het Aspose-team.
+ U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9)waar u vragen kunt stellen en antwoorden kunt vinden van de community en het Aspose-team.

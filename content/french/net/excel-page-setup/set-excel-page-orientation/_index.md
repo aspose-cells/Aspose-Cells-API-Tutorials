@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Maintenant, vous allez créer une instance de la classe Workbook, qui représente un fichier Excel.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Ensuite, vous devez accéder à la feuille de calcul sur laquelle vous souhaitez définir l'orientation. Étant donné que chaque classeur peut contenir plusieurs feuilles de calcul, vous devez indiquer explicitement celle avec laquelle vous travaillez.
 
 ```csharp
-// Accéder à la première feuille de calcul du fichier Excel
+//Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

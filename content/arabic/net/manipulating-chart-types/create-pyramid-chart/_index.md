@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 بعد ذلك، دعنا ننشئ مثيلًا جديدًا من مصنف. فكر في المصنف باعتباره لوحة قماشية فارغة يمكنك رسم بياناتك عليها.
 
 ```csharp
-// إنشاء كائن مصنف
+//إنشاء كائن مصنف
 Workbook workbook = new Workbook();
 ```
 

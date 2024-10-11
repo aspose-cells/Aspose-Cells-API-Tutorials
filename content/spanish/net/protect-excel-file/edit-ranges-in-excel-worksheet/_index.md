@@ -24,7 +24,7 @@ Antes de comenzar a codificar, asegurémonos de que todo esté listo. Esto es lo
 
 ## Importar paquetes
 
-Una vez que haya configurado su proyecto, el paso inicial implica importar el espacio de nombres Aspose.Cells necesario. Para ello, simplemente incluya la siguiente línea en la parte superior de su archivo de código:
+Una vez que haya configurado su proyecto, el paso inicial consiste en importar el espacio de nombres Aspose.Cells necesario. Para ello, simplemente incluya la siguiente línea en la parte superior de su archivo de código:
 
 ```csharp
 using Aspose.Cells;

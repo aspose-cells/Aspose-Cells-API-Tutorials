@@ -9,7 +9,7 @@ url: /fr/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 ---
 ## Introduction
 
-Dans le monde en constante évolution d'aujourd'hui, la gestion efficace des feuilles de calcul est plus importante que jamais. Microsoft Excel est un outil indispensable dans de nombreux secteurs et professions. Cependant, à mesure que nous partageons ces documents, en particulier dans les environnements collaboratifs, la protection des informations spécifiques au sein des feuilles de calcul devient cruciale. Alors, comment pouvez-vous sceller une ligne dans Excel pour éviter les modifications indésirables ? Eh bien, si vous travaillez avec .NET, vous avez de la chance ! Aspose.Cells est une excellente bibliothèque pour gérer les fichiers Excel par programmation, nous permettant de protéger efficacement des lignes spécifiques.
+Dans le monde en constante évolution d'aujourd'hui, la gestion efficace des feuilles de calcul est plus importante que jamais. Microsoft Excel est un outil indispensable dans de nombreux secteurs et professions. Cependant, comme nous partageons ces documents, en particulier dans les environnements collaboratifs, la protection des informations spécifiques au sein des feuilles de calcul devient cruciale. Alors, comment pouvez-vous sceller une ligne dans Excel pour éviter les modifications indésirables ? Eh bien, si vous travaillez avec .NET, vous avez de la chance ! Aspose.Cells est une excellente bibliothèque pour gérer les fichiers Excel par programmation, nous permettant de protéger efficacement des lignes spécifiques.
 
 ## Prérequis
 

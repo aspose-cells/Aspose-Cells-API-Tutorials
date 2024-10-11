@@ -45,7 +45,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- 바꾸다`YOUR DOCUMENT DIRECTORY` Excel 파일이 저장된 실제 경로와 함께. 이를 통해 프로그램은 조작할 필요한 파일을 찾을 수 있습니다.
+ 바꾸다`YOUR DOCUMENT DIRECTORY`Excel 파일이 저장된 실제 경로와 함께. 이를 통해 프로그램은 조작할 필요한 파일을 찾을 수 있습니다.
 
 ## 2단계: 파일 스트림 만들기
 
@@ -56,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- 그만큼`FileStream`클래스를 사용하면 파일을 읽고 쓸 수 있습니다. 이 경우 Excel 파일을 읽기 모드로 엽니다.
+ 그만큼`FileStream` 클래스를 사용하면 파일을 읽고 쓸 수 있습니다. 이 경우 Excel 파일을 읽기 모드로 엽니다.
 
 ## 3단계: 통합 문서 개체 인스턴스화
 
@@ -123,7 +123,7 @@ fstream.Close();
  네! 설정만 하면 됩니다.`IsVScrollBarVisible` 그리고`IsHScrollBarVisible` 뒤로 돌아가기`true`.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?  
- Aspose.Cells는 완전히 무료는 아니지만 제한된 기간 동안 무료로 사용해볼 수 있으며 구매를 고려할 수도 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells는 완전히 무료는 아니지만 제한된 기간 동안 무료로 사용해볼 수 있으며 구매를 고려할 수도 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells로 어떤 유형의 Excel 파일을 조작할 수 있나요?  
 .xls, .xlsx, .xlsm, .xlsb 등 다양한 Excel 형식으로 작업할 수 있습니다.

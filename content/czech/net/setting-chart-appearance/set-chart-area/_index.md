@@ -107,7 +107,7 @@ Nyní máte přímý přístup k úpravě a vylepšení vašeho grafu!
 
 ## Krok 6: Spojte data s grafem
 
-Váš graf potřebuje vědět, která data má vizualizovat. Svažme naše dříve zadaná data do grafu.
+Váš graf potřebuje vědět, která data chcete vizualizovat. Svažme naše dříve zadaná data do grafu.
 
 Zde je návod, jak můžeme přidat řadu do našeho grafu pomocí dat, která jsme právě zadali:
 

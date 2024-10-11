@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
- 다음으로, 우리는 인스턴스를 생성합니다.`Workbook` Excel 파일을 나타내는 클래스입니다.
+ 다음으로, 우리는 인스턴스를 생성합니다.`Workbook`Excel 파일을 나타내는 클래스입니다.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Workbook workbook = new Workbook();
 
 ## 3단계: PageSetup 참조 얻기
 
- 이제 워크시트에 접근해 보겠습니다.`PageSetup`속성. 여기서 대부분의 인쇄 설정이 구성됩니다.
+ 이제 워크시트에 접근해 보겠습니다.`PageSetup` 속성. 여기서 대부분의 인쇄 설정이 구성됩니다.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

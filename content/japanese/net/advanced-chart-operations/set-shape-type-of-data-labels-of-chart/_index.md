@@ -144,7 +144,7 @@ Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
 Aspose.Cells は、開発者が Excel ファイルをプログラムで操作できるようにする強力な .NET ライブラリです。
 
 ### Aspose を使用して Excel グラフのさまざまな側面を変更できますか?  
-もちろんです! Aspose.Cells は、データ シリーズ、ラベル、スタイルなど、グラフを変更するための広範な機能を提供します。
+もちろんです! Aspose.Cells は、データ シリーズ、ラベル、スタイルなど、グラフを変更するための幅広い機能を提供します。
 
 ### Aspose.Cells ではどのようなプログラミング言語を使用できますか?  
 この記事では .NET に焦点を当てていますが、Aspose.Cells は REST API を介して Java、PHP、Python などもサポートしています。

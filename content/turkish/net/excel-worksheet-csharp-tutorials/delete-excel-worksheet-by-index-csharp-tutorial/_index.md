@@ -55,7 +55,7 @@ Bu adım, büyük bir partiden önce arkadaşlarınızı davet etmeye benzer; k�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Sadece değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`book1.xls` dosya bulunur. Bunu, bir yolculuğa başlamadan önce GPS'inize doğru adresi vermek olarak düşünün!
+ Sadece değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`book1.xls`dosya bulunur. Bunu, bir yolculuğa başlamadan önce GPS'inize doğru adresi vermek olarak düşünün!
 
 ## Adım 4: Excel Dosyasını FileStream ile Açın
 

@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Teraz utworzymy obiekt skoroszytu, który będzie służył jako kontener dla arkusza kalkulacyjnego.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
-Wyjaśnienie: Ten wiersz tworzy wystąpienie`Workbook` klasa z biblioteki Aspose.Cells. To tak, jakby otworzyć nowy pusty plik Excela, w którym można zacząć dodawać arkusze i dane.
+ Wyjaśnienie: Ten wiersz tworzy wystąpienie`Workbook`klasa z biblioteki Aspose.Cells. To tak, jakby otworzyć nowy pusty plik Excela, w którym można zacząć dodawać arkusze i dane.
 
 ## Krok 3: Odwołanie do arkusza kalkulacyjnego
 
@@ -177,7 +177,7 @@ Wyjaśnienie: Prosta wiadomość informująca, że kod wykonał się bez żadnyc
 
 ## Wniosek
 
-Gratulacje! Opanowałeś podstawy tworzenia i dostosowywania wykresów za pomocą Aspose.Cells dla .NET. Za pomocą kilku prostych kroków możesz podnieść poziom prezentacji danych, czyniąc ją bardziej zrozumiałą i atrakcyjną wizualnie. Eksperymentując z innymi opcjami dostosowywania, pamiętaj, że świetny wykres nie tylko opowiada historię, ale także angażuje odbiorców.
+Gratulacje! Opanowałeś już podstawy tworzenia i dostosowywania wykresów za pomocą Aspose.Cells dla .NET. Za pomocą kilku prostych kroków możesz podnieść poziom prezentacji danych, czyniąc ją bardziej zrozumiałą i atrakcyjną wizualnie. Eksperymentując z innymi opcjami dostosowywania, pamiętaj, że świetny wykres nie tylko opowiada historię, ale także angażuje odbiorców.
 
 ## Najczęściej zadawane pytania
 

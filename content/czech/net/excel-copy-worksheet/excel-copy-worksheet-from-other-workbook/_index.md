@@ -46,7 +46,7 @@ Nyní, když máme vše připraveno, pojďme se pustit do vzrušující části 
 Nejprve musíme určit, kde budou naše soubory Excel uloženy. Definujte cestu k adresáři dokumentů:
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte toto na váš skutečný adresář
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte to do svého skutečného adresáře
 ```
  The`dataDir` proměnná uloží cestu, kam uložíte konečný soubor Excel. Ujistěte se, že jste nahradili "VÁŠ ADRESÁŘ DOKUMENTŮ" skutečnou cestou ve vašem systému.
 

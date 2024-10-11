@@ -39,7 +39,7 @@ Aspose.Cells for Java 是一個強大的函式庫，讓 Java 開發人員能夠�
 ### [進階 Excel 圖表](./advanced-excel-charts/)
 使用 Aspose.Cells for Java 探索進階 Excel 圖表教學。逐步提升您的資料視覺化技能。今天就來繪製圖表吧！
 ### [Excel 匯入匯出](./excel-import-export/)
-使用 Aspose.Cells for Java 輕鬆匯入和匯出 Excel 檔案。探索無縫資料交換的逐步教學。今天掌握 Excel 處理！
+使用 Aspose.Cells for Java 輕鬆匯入和匯出 Excel 檔案。探索無縫資料交換的逐步教學。今天就掌握 Excel 處理吧！
 ### [Excel 資料安全](./excel-data-security/)
 使用 Aspose.Cells for Java 增強 Excel 資料安全性。逐步了解如何保護電子表格、加密文件並確保資料完整性。
 ### [試算表自動化](./spreadsheet-automation/)

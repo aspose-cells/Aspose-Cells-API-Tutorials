@@ -44,7 +44,7 @@ Pour utiliser Aspose.Cells, vous devez ajouter des références à la bibliothè
 
 ### Ajouter des directives d'utilisation
 
- Au sommet de votre`Program.cs` fichier, insérez cette directive using pour accéder à la fonctionnalité Aspose.Cells :
+ Au sommet de votre`Program.cs`fichier, insérez cette directive using pour accéder à la fonctionnalité Aspose.Cells :
 
 ```csharp
 using System;

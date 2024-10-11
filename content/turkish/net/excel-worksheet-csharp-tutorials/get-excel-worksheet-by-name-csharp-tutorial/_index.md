@@ -18,7 +18,7 @@ Sulu konuya girmeden önce, başarıya hazır olduğunuzdan emin olalım. İhtiy
 1. .NET Geliştirme Ortamı: Hazır bir .NET geliştirme ortamınız olduğundan emin olun. Visual Studio'yu veya seçtiğiniz herhangi bir IDE'yi kullanabilirsiniz.
 2.  Aspose.Cells Kütüphanesi: Ayrıca Aspose.Cells kütüphanesi de yüklü olmalıdır. Bunu henüz yapmadıysanız endişelenmeyin! İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 3. C# Temel Anlayışı: C# programlamanın temellerini bilmek, konuyu sorunsuz bir şekilde takip etmenize yardımcı olacaktır.
-4. Bir Excel Dosyası: Üzerinde çalışmak istediğiniz hazır bir Excel dosyanız olsun. Örneğimiz için, adında basit bir dosya kullanacağız.`book1.xlsx` en azından "Sayfa1" adında bir çalışma sayfası bulunmalıdır.
+4.  Bir Excel Dosyası: Üzerinde çalışmak istediğiniz hazır bir Excel dosyanız olsun. Örneğimiz için, adında basit bir dosya kullanacağız.`book1.xlsx` en azından "Sayfa1" adında bir çalışma sayfası bulunmalıdır.
 
 Artık her şey tamam olduğuna göre, başlayalım!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Belge dizininizi belirtin
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Tam yolu oluşturmak için birleştirin
 ```
 
- Burada, değiştirin`"YOUR DOCUMENT DIRECTORY"`sisteminizdeki gerçek yol ile`book1.xlsx` depolanır. Kullanılarak`Path.Combine` farklı işletim sistemleri arasında yolun doğru bir şekilde oluşturulmasını sağladığı için kullanışlıdır.
+ Burada, değiştirin`"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile`book1.xlsx` depolanır. Kullanılarak`Path.Combine` farklı işletim sistemleri arasında yolun doğru bir şekilde oluşturulmasını sağladığı için kullanışlıdır.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 

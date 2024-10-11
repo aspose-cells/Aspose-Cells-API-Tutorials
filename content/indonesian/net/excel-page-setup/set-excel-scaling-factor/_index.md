@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Sekarang, saatnya membuat buku kerja baru. Di sinilah semua data dan pengaturan Anda akan berada.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 File Excel dapat berisi beberapa lembar kerja. Kita akan mengakses lembar kerja pertama untuk menerapkan faktor skala.
 
 ```csharp
-// Mengakses lembar kerja pertama dalam file Excel
+//Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

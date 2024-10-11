@@ -63,7 +63,7 @@ string SourceDir = "Your Document Directory";
 ต่อไปเราจะโหลดเวิร์กบุ๊กของเรา ซึ่งก็เหมือนกับการเปิดไฟล์ Excel ของคุณในพื้นหลัง ซึ่งช่วยให้เราสามารถอ่านและจัดการเนื้อหาได้
 
 ```csharp
-// โหลดสมุดงาน
+//โหลดสมุดงาน
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

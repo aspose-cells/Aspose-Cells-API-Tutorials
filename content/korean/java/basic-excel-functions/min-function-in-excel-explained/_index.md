@@ -63,7 +63,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ### 5단계: MIN 함수 적용
 
-이제 A1에서 A10까지의 셀에 숫자 범위가 있고 그 중에서 최소값을 찾고 싶다고 가정해 보겠습니다. Aspose.Cells for Java를 사용하여 다음과 같이 MIN 함수를 적용할 수 있습니다.
+이제 A1에서 A10까지의 셀에 숫자 범위가 있고 그 중에서 최소값을 찾고 싶다고 가정해 보겠습니다. Java용 Aspose.Cells를 사용하여 다음과 같이 MIN 함수를 적용할 수 있습니다.
 
 ```java
 // MIN 함수를 범위 A1:A10에 적용하고 결과를 셀 B1에 저장합니다.

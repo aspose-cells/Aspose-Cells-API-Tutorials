@@ -11,7 +11,7 @@ url: /nl/java/excel-import-export/export-excel-to-json/
 In deze tutorial leiden we u door het proces van het exporteren van Excel-gegevens naar JSON-formaat met behulp van de Aspose.Cells for Java-bibliotheek. Deze stapsgewijze handleiding biedt u broncodevoorbeelden om u te helpen uw Excel-bestanden moeiteloos om te zetten in JSON-gegevens.
 
 ## Vereisten
-Voordat we beginnen, moet u ervoor zorgen dat de volgende voorwaarden vervuld zijn:
+Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
 
 - Java-ontwikkelomgeving: zorg ervoor dat Java op uw systeem is geïnstalleerd.
 -  Aspose.Cells voor Java: Download en installeer de Aspose.Cells voor Java-bibliotheek van[hier](https://releases.aspose.com/cells/java/).

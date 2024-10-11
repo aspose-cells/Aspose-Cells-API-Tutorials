@@ -29,7 +29,7 @@ Jako u každého kódovacího dobrodružství je prvním krokem shromáždit si 
 1. Otevřete svůj projekt C# ve Visual Studiu.
 2. V Průzkumníku řešení klikněte pravým tlačítkem na projekt a vyberte Spravovat balíčky NuGet.
 3.  Hledat`Aspose.Cells` a klikněte na Instalovat.
-4. Po instalaci můžete začít používat knihovnu ve svém kódu.
+4. Po instalaci můžete začít používat knihovnu ve vašem kódu.
 
 ### Přidání pomocí směrnice
 

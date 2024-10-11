@@ -53,7 +53,7 @@ Em seguida, criaremos uma instância de uma nova pasta de trabalho do Excel. Pen
 Workbook wb = new Workbook();
 ```
 
-Esta linha inicializa um novo objeto de pasta de trabalho denominado`wb`. Agora estamos prontos para trabalhar nesta nova tela.
+ Esta linha inicializa um novo objeto de pasta de trabalho denominado`wb`. Agora estamos prontos para trabalhar nesta nova tela.
 
 ## Etapa 3: Proteja a pasta de trabalho compartilhada com senha
 
@@ -110,11 +110,11 @@ Absolutamente! Você pode usar qualquer string que atenda aos requisitos da sua 
 ### O que acontece se eu esquecer a senha?
 Infelizmente, se você esquecer a senha, não poderá desproteger a pasta de trabalho sem recorrer a ferramentas de terceiros ou especialistas.
 
-### O Aspose.Cells é gratuito?
+### Aspose.Cells é gratuito?
  Aspose.Cells é um produto comercial, mas você pode experimentá-lo gratuitamente por tempo limitado por meio do teste gratuito:[Teste grátis](https://releases.aspose.com/).
 
 ### Existe uma maneira de usar isso em outras linguagens de programação?
 Aspose.Cells suporta principalmente .NET, mas eles têm bibliotecas para Java e outras linguagens também. Confira o site deles para mais informações!
 
 ### Como obtenho suporte para o Aspose.Cells?
- Você pode pedir ajuda por meio do fórum de suporte:[Suporte Aspose](https://forum.aspose.com/c/cells/9).
+Você pode pedir ajuda por meio do fórum de suporte:[Suporte Aspose](https://forum.aspose.com/c/cells/9).

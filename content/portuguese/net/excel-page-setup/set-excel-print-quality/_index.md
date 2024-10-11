@@ -77,11 +77,11 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Explicação: O`PrintQuality`property pode ser definido para qualquer valor, tipicamente entre 75 e 600 dpi (pontos por polegada). Neste caso, estamos definindo para 180 dpi, o que é ótimo para um bom equilíbrio entre qualidade e tamanho do arquivo.
+ Explicação: O`PrintQuality` property pode ser definido para qualquer valor, tipicamente entre 75 e 600 dpi (pontos por polegada). Neste caso, estamos definindo para 180 dpi, o que é ótimo para um bom equilíbrio entre qualidade e tamanho do arquivo.
 
 ## Etapa 5: Salvando a pasta de trabalho
 
-O passo final é salvar sua apostila para que todo seu trabalho duro não seja desperdiçado!
+passo final é salvar sua apostila para que todo seu trabalho duro não seja desperdiçado!
 
 ```csharp
 workbook.Save(dataDir + "SetPrintQuality_out.xls");
@@ -101,7 +101,7 @@ A qualidade máxima de impressão que você pode definir é 600 dpi.
 ### Posso definir diferentes qualidades de impressão para diferentes planilhas?  
 Sim! Você pode acessar cada planilha separadamente e definir suas qualidades de impressão individualmente.
 
-### O Aspose.Cells é gratuito?  
+### Aspose.Cells é gratuito?  
 O Aspose.Cells oferece um teste gratuito, mas você precisa comprar uma licença para uso a longo prazo.
 
 ### Alterar a qualidade de impressão afetará o tamanho do arquivo?  

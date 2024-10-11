@@ -18,7 +18,7 @@ url: /zh-hant/net/working-with-chart-data/create-line-with-data-marker-chart/
 1.  Aspose.Cells for .NET Library – 您需要安裝它。你可以抓住它[這裡](https://releases.aspose.com/cells/net/).
 2. .NET Framework – 確保您的開發環境設定為最新版本的 .NET。
 3. IDE（整合開發環境）- 推薦使用 Visual Studio。
-4. 有效的 Aspose.Cells 許可證 – 如果您沒有許可證，您可以申請一份[臨時執照](https://purchase.aspose.com/temporary-license/)或查看他們的[免費試用](https://releases.aspose.com/).
+4. 有效的 Aspose.Cells 許可證 – 如果您沒有許可證，您可以申請一個[臨時執照](https://purchase.aspose.com/temporary-license/)或查看他們的[免費試用](https://releases.aspose.com/).
 
 準備好了嗎？讓我們來分解一下吧！
 
@@ -186,7 +186,7 @@ workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveForm
 絕對地！ Aspose.Cells 提供了大量的自訂選項，從字體到網格線等等。
 
 ### 我需要許可證才能使用 Aspose.Cells 嗎？  
-是的，完整功能需要許可證。你可以獲得一個[臨時執照](https://purchase.aspose.com/temporary-license/)或從[免費試用](https://releases.aspose.com/).
+是的，完整功能需要許可證。你可以獲得一個[臨時執照](https://purchase.aspose.com/temporary-license/)或從一個開始[免費試用](https://releases.aspose.com/).
 
 ### 如何新增更多數據系列？  
 只需使用以下命令添加其他系列`NSeries.Add`方法，指定新資料的單元格範圍。

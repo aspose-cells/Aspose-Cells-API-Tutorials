@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Теперь вы создадите экземпляр класса Workbook, представляющий файл Excel.
 
 ```csharp
-// Создание объекта Workbook
+//Создание объекта Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Далее вам нужно будет получить доступ к рабочему листу, на котором вы хотите установить ориентацию. Поскольку каждая рабочая книга может иметь несколько рабочих листов, вы должны явно указать, с каким из них вы работаете.
 
 ```csharp
-// Доступ к первому листу в файле Excel
+//Доступ к первому листу в файле Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

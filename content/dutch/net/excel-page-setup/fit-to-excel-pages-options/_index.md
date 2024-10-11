@@ -16,7 +16,7 @@ Welkom bij de ultieme gids over het gebruik van de krachtige Aspose.Cells voor .
 Voordat we beginnen met coderen, moeten we ervoor zorgen dat je alles hebt wat je nodig hebt om te beginnen. Dit is wat je op orde moet hebben:
 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit is uw belangrijkste hub voor al het ontwikkelingswerk.
-2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek hebben gedownload en toegevoegd aan uw project. U kunt deze eenvoudig ophalen uit de[Aspose-website](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek hebben gedownload en toegevoegd aan uw project. U kunt deze eenvoudig ophalen uit de[Aspose-website](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C#-programmering zal enorm helpen. Als u variabelen, loops en basisbestand-I/O kunt hanteren, bent u helemaal thuis.
 4. .NET Framework: Zorg ervoor dat uw project is ingesteld met de juiste versie van .NET Framework, aangezien de bibliotheek is ontworpen voor compatibiliteit binnen dit ecosysteem.
 
@@ -43,7 +43,7 @@ using Aspose.Cells;
 using System;
 ```
 
-U bent nu klaar om te beginnen met coderen met Aspose.Cells!
+bent nu klaar om te beginnen met coderen met Aspose.Cells!
 
 Klaar om uw Excel-pagina's te formatteren? Laten we het proces stap voor stap uitleggen.
 
@@ -54,9 +54,9 @@ Laten we eerst onze werkmap initialiseren en toegang krijgen tot het gewenste we
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
-// Toegang krijgen tot het eerste werkblad in het Excel-bestand
+//Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`bepaalt hoeveel pagina's uw werkblad verticaal beslaat.
-- `FitToPagesWide` definieert de horizontale pagina-instelling. Beide instellen op`1` betekent dat uw inhoud netjes op één pagina past, waardoor uw document verandert in een gestroomlijnd meesterwerk.
+- `FitToPagesTall` bepaalt hoeveel pagina's uw werkblad verticaal beslaat.
+- `FitToPagesWide` definieert de horizontale pagina-instelling. Beide instellen op`1`betekent dat uw inhoud netjes op één pagina past, waardoor uw document verandert in een gestroomlijnd meesterwerk.
 
 ## Stap 3: Sla uw werkmap op
 
@@ -97,7 +97,7 @@ En daar heb je het! Je hebt geleerd hoe je de Fit to Excel Pages Options in Aspo
 Aspose.Cells is een robuuste .NET-bibliotheek voor het programmatisch beheren van Excel-bestanden, waarmee ontwikkelaars eenvoudig spreadsheets kunnen maken en bewerken.
 
 ### Kan ik Aspose.Cells gratis uitproberen?
- Ja! U kunt zich aanmelden voor een gratis proefperiode[hier](https://releases.aspose.com/).
+Ja! U kunt zich aanmelden voor een gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### Hoe koop ik Aspose.Cells?
  U kunt uw aankoop doen[hier](https://purchase.aspose.com/buy).

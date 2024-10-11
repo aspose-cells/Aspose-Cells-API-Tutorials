@@ -37,7 +37,7 @@ Lassen Sie uns den Prozess des Filterns definierter Namen beim Laden einer Arbei
 
 ## Schritt 1: Ladeoptionen festlegen
 
-Als erstes erstellen wir eine Instanz des`LoadOptions` Klasse. Mit dieser Klasse können wir angeben, wie wir unsere Excel-Datei laden möchten.
+ Als erstes erstellen wir eine Instanz des`LoadOptions` Klasse. Mit dieser Klasse können wir angeben, wie wir unsere Excel-Datei laden möchten.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Nachdem wir nun unsere Ladeoptionen festgelegt haben, ist es an der Zeit, die Ar
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- In dieser Zeile erstellen Sie eine neue Instanz des`Workbook`Klasse, wobei Sie den Pfad zu Ihrer Excel-Beispieldatei und die Ladeoptionen übergeben. Dadurch wird Ihre Arbeitsmappe mit den definierten Namen geladen, die wie angegeben herausgefiltert wurden.
+ In dieser Zeile erstellen Sie eine neue Instanz des`Workbook` Klasse, wobei Sie den Pfad zu Ihrer Excel-Beispieldatei und die Ladeoptionen übergeben. Dadurch wird Ihre Arbeitsmappe mit den definierten Namen geladen, die wie angegeben herausgefiltert wurden.
 
 ## Schritt 4: Speichern der Ausgabedatei
 
@@ -106,4 +106,4 @@ Das Filtern definierter Namen kann zu fehlerhaften Formeln führen, wenn auf die
  Ja, Sie können eine kostenlose Testversion von Aspose.Cells erhalten, um die Funktionen vor dem Kauf zu testen. Probieren Sie es aus[Hier](https://releases.aspose.com/).
 
 ### Wo finde ich weitere Beispiele und Dokumentation?
- Ausführliche Dokumentation und weitere Beispiele finden Sie auf der Aspose.Cells-Referenzseite[Hier](https://reference.aspose.com/cells/net/).
+Ausführliche Dokumentation und weitere Beispiele finden Sie auf der Aspose.Cells-Referenzseite[Hier](https://reference.aspose.com/cells/net/).

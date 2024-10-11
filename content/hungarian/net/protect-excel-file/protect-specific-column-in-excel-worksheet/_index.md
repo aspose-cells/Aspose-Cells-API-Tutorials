@@ -16,7 +16,7 @@ Egy olyan világban, ahol az adatkezelés egyre bonyolultabbá válik, a dokumen
 Mielőtt belemerülne a kódba, meg kell felelnie néhány előfeltételnek:
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Microsoft Visual Studio (lehetőleg 2017 vagy újabb). Ez lesz a fejlesztési környezeted. 
-2.  Aspose.Cells Library: Le kell töltenie az Aspose.Cells könyvtárat, és hivatkoznia kell rá a projektben. Megteheti[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+2.  Aspose.Cells Library: Le kell töltenie az Aspose.Cells könyvtárat, és hivatkoznia kell rá a projektben. Tudod[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 3. A C# alapvető ismerete: Bár a kódpéldák egyértelműek, a C# alapismerete segít a szükséges módosítások elvégzésében.
 4. .NET-keretrendszer: Győződjön meg arról, hogy projektje azt a .NET-keretrendszert célozza meg, ahol az Aspose.Cells támogatott.
 
@@ -137,7 +137,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Következtetés
 
-fent vázolt lépések végrehajtásával sikeresen védte az Excel-munkalap egyes oszlopait, miközben a többi rész szerkeszthető marad. Az Aspose.Cells for .NET használata lehetőségek világát nyitja meg az Excel-fájlok kezelésében. Az érzékeny információk védelmének képessége különösen fontos a megosztott munkakörnyezetekben. 
+fent vázolt lépések követésével sikeresen védett bizonyos oszlopokat egy Excel-munkalapon, miközben a többi rész szerkeszthető marad. Az Aspose.Cells for .NET használata lehetőségek világát nyitja meg az Excel-fájlok kezelésében. Az érzékeny információk védelmének képessége különösen fontos a megosztott munkakörnyezetekben. 
 
 ## GYIK
 

@@ -9,7 +9,7 @@ url: /sv/net/inserting-controls-in-charts/add-picture-to-chart/
 ---
 ## Introduktion
 
-Är du trött på tråkiga listor som saknar en personlig touch? Vill du lära dig hur du piffar upp dina Excel-bilder genom att lägga till bilder? Tja, du har tur! I den här handledningen kommer vi att dyka in i Aspose.Cells-världen för .NET och lära oss hur du lägger till bilder i diagram i Excel. Så ta din favoritkopp kaffe och låt oss börja!
+Är du trött på tråkiga listor som saknar en personlig touch? Vill du lära dig hur du piffar upp dina Excel-bilder genom att lägga till bilder? Nåväl, du har tur! I den här handledningen kommer vi att dyka in i Aspose.Cells-världen för .NET och lära oss hur man lägger till bilder i diagram i Excel. Så ta din favoritkopp kaffe och låt oss börja!
 
 ## Förutsättningar
 
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Ersätta`Your Document Directory` och`Your Output Directory`med faktiska sökvägar på din dator. 
+ Ersätta`Your Document Directory` och`Your Output Directory` med faktiska sökvägar på din dator. 
 
 ## Steg 2: Ladda den befintliga arbetsboken
 
@@ -100,7 +100,7 @@ Med diagrammet valt är det dags att lägga till bilden!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Här,`50` och`50` är X- och Y-koordinaterna där bilden kommer att placeras, och`200`är bildens bredd och höjd.
+ Här,`50` och`50` är X- och Y-koordinaterna där bilden kommer att placeras, och`200` är bildens bredd och höjd.
 
 ## Steg 6: Anpassa bildens linjeformat
 
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Slutsats
 
-den här handledningen har vi utforskat hur du kan injicera lite personlighet i dina Excel-diagram genom att lägga till bilder med Aspose.Cells för .NET. Med bara några enkla steg kan du lyfta dina presentationer från vardagliga till minnesvärda. Så vad väntar du på? Ge det en chans och låt dina diagram lysa!
+I den här handledningen har vi utforskat hur du kan injicera lite personlighet i dina Excel-diagram genom att lägga till bilder med Aspose.Cells för .NET. Med bara några enkla steg kan du lyfta dina presentationer från vardagliga till minnesvärda. Så vad väntar du på? Ge det en chans och låt dina diagram lysa!
 
 ## FAQ's
 
@@ -151,7 +151,7 @@ den här handledningen har vi utforskat hur du kan injicera lite personlighet i 
 Aspose.Cells stöder en mängd olika bildformat, inklusive PNG, JPEG, BMP och GIF.
 
 ### Kan jag anpassa bildens position?
- Säkert! X- och Y-koordinaterna i`AddPictureInChart` metod möjliggör exakt positionering.
+Säkert! X- och Y-koordinaterna i`AddPictureInChart` metod möjliggör exakt positionering.
 
 ### Är Aspose.Cells gratis att använda?
  Aspose.Cells erbjuder en gratis provperiod, men för alla funktioner krävs en licens. Du kan hitta priset[här](https://purchase.aspose.com/buy).

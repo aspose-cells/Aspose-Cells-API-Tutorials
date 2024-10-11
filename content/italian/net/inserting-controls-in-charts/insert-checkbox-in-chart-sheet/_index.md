@@ -19,7 +19,7 @@ Prima di immergerti nel tutorial, assicuriamoci di aver impostato tutto. Ecco co
 - Innanzitutto, avrai bisogno di Visual Studio. Se non lo hai ancora installato, puoi scaricarlo dal sito Microsoft.
 
 ### Libreria Aspose.Cells
-- Il prossimo strumento essenziale è la libreria Aspose.Cells per .NET. Puoi ottenerla facilmente da[Sito web di Aspose](https://releases.aspose.com/cells/net/) per il download. Se preferisci testare prima di acquistare, c'è anche un[prova gratuita disponibile](https://releases.aspose.com/).
+-  Il prossimo strumento essenziale è la libreria Aspose.Cells per .NET. Puoi facilmente ottenerla da[Sito web di Aspose](https://releases.aspose.com/cells/net/) per il download. Se preferisci testare prima di acquistare, c'è anche un[prova gratuita disponibile](https://releases.aspose.com/).
 
 ### Nozioni di base di C#
 - Poiché scriveremo del codice, una conoscenza di base di C# sarà utile. Non preoccuparti; ti spiegherò le cose man mano che andiamo avanti!
@@ -64,13 +64,13 @@ Ora che siamo tutti pronti, tuffiamoci nella parte di codifica! Ecco una riparti
 
 Prima di arrivare alla parte emozionante, dobbiamo definire dove vogliamo che venga salvato il nostro file. Dovrai fornire un percorso di directory di output.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Passa alla directory specificata
+string outputDir = "C:\\YourOutputDirectory\\"; // Passa alla directory specificata
 ```
  Assicurati di sostituire`"C:\\YourOutputDirectory\\"` con il percorso in cui vuoi che il tuo file venga salvato. Considera questo come l'impostazione del tuo spazio di lavoro; devi sapere dove stai mettendo i tuoi strumenti (o in questo caso, il tuo file Excel).
 
 ## Passaggio 2: creazione di un'istanza di un oggetto cartella di lavoro
 
- Successivamente, creiamo un'istanza di`Workbook` classe. È qui che si svolgerà tutto il nostro lavoro.
+Successivamente, creiamo un'istanza di`Workbook` classe. È qui che si svolgerà tutto il nostro lavoro.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -93,7 +93,7 @@ Considera questo passaggio come la scelta del tipo di cornice che desideri prima
 
 ## Passaggio 4: aggiunta di serie di dati al grafico
 
-questo punto, popoliamo il grafico con alcune serie di dati. Per aggiungere dati campione:
+A questo punto, popoliamo il grafico con alcune serie di dati. Per aggiungere dati campione:
 ```csharp
 sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 ```
@@ -137,7 +137,7 @@ Aspose.Cells è una potente libreria per creare e manipolare file Excel nelle ap
 Niente affatto! Come dimostrato in questo tutorial, è possibile farlo in poche semplici righe di codice.
 
 ### Dove posso acquistare Aspose.Cells?  
-Puoi acquistare Aspose.Cells dal loro[link di acquisto](https://purchase.aspose.com/buy).
+ Puoi acquistare Aspose.Cells dal loro[link di acquisto](https://purchase.aspose.com/buy).
 
 ### Come posso ottenere supporto se riscontro dei problemi?  
  Aspose fornisce un forum di supporto dove puoi fare domande e trovare soluzioni. Dai un'occhiata al loro[pagina di supporto](https://forum.aspose.com/c/cells/9).

@@ -16,7 +16,7 @@ Quando se trata de gerenciar e manipular arquivos do Excel, o Aspose.Cells para 
 Antes de pularmos para a ação de codificação, vamos garantir que você tenha tudo o que precisa para começar. Aqui está uma lista de verificação de pré-requisitos:
 
 1. Visual Studio: você precisará de um IDE, e o Visual Studio é uma ótima escolha para projetos .NET.
-2. Aspose.Cells para .NET: Você pode baixar a biblioteca ou, se preferir, pode começar com a versão de teste gratuita para se familiarizar. Basta ir para[este link](https://releases.aspose.com).
+2.  Aspose.Cells para .NET: Você pode baixar a biblioteca ou, se preferir, pode começar com a versão de teste gratuita para se familiarizar. Basta ir para[este link](https://releases.aspose.com).
 3. Conhecimento básico de C#: entender os fundamentos do C# ajudará você a acompanhar sem problemas.
 4. .NET Framework: certifique-se de ter uma versão compatível do .NET Framework instalada em sua máquina.
 5.  Um arquivo Excel de exemplo: Para este tutorial, você precisará de um arquivo Excel para trabalhar. Você pode usar um arquivo de exemplo chamado`Book1.xlsx`.
@@ -58,7 +58,7 @@ Para começar nossa aventura em visualizações de impressão, precisamos defini
 string sourceDir = "Your Document Directory";
 ```
 
- Este código está nos ajudando a encontrar o caminho onde`Book1.xlsx` reside, tornando referências futuras muito mais fáceis.
+Este código está nos ajudando a encontrar o caminho onde`Book1.xlsx` reside, tornando referências futuras muito mais fáceis.
 
 ## Etapa 2: Carregue a pasta de trabalho
 
@@ -123,7 +123,7 @@ Esta frase é como um toque final após a conclusão de um projeto. É sempre ú
 
 ## Conclusão
 
-aí está! Você configurou com sucesso uma visualização de impressão para sua pasta de trabalho do Excel usando o Aspose.Cells para .NET. Cobrimos tudo, desde a importação de pacotes até a avaliação de contagens de páginas para a pasta de trabalho inteira e planilhas individuais. É incrível como pode ser fácil visualizar como sua pasta de trabalho ficará quando impressa, certo? Ao utilizar o Aspose.Cells, você ganha ferramentas poderosas à sua disposição. Seja você um desenvolvedor experiente ou alguém que está apenas começando, esta biblioteca oferece a flexibilidade e a funcionalidade de que você precisa para levar seu gerenciamento de arquivos do Excel para o próximo nível.
+E aí está! Você configurou com sucesso uma visualização de impressão para sua pasta de trabalho do Excel usando o Aspose.Cells para .NET. Cobrimos tudo, desde a importação de pacotes até a avaliação de contagens de páginas para a pasta de trabalho inteira e planilhas individuais. É incrível como pode ser fácil visualizar como sua pasta de trabalho ficará quando impressa, certo? Ao utilizar o Aspose.Cells, você ganha ferramentas poderosas à sua disposição. Seja você um desenvolvedor experiente ou alguém que está apenas começando, esta biblioteca oferece a flexibilidade e a funcionalidade de que você precisa para levar seu gerenciamento de arquivos do Excel para o próximo nível.
 
 ## Perguntas frequentes
 
@@ -131,7 +131,7 @@ aí está! Você configurou com sucesso uma visualização de impressão para su
 Aspose.Cells é uma biblioteca poderosa para manipular formatos de arquivo do Excel e fornece recursos como manipulação de dados, formatação e renderização de visualizações de impressão.
 
 ### Preciso comprar o Aspose.Cells para usá-lo?
- Você pode começar com uma versão de teste gratuita disponível em[este link](https://releases.aspose.com) antes de decidir comprar uma licença.
+ Você pode começar com uma versão de teste gratuita disponível em[este link](https://releases.aspose.com)antes de decidir comprar uma licença.
 
 ### Posso usar Aspose.Cells em qualquer aplicativo .NET?
 Sim, o Aspose.Cells foi projetado para funcionar com qualquer aplicativo .NET, incluindo ASP.NET, WinForms e muito mais.

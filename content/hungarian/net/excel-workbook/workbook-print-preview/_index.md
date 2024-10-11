@@ -16,7 +16,7 @@ Ha az Excel-fájlok kezeléséről és kezeléséről van szó, az Aspose.Cells 
 Mielőtt belevágnánk a kódolási műveletbe, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges. Íme egy ellenőrző lista az előfeltételekről:
 
 1. Visual Studio: Szüksége lesz egy IDE-re, és a Visual Studio nagyszerű választás .NET-projektekhez.
-2. Aspose.Cells for .NET: Letöltheti a könyvtárat, vagy ha úgy tetszik, elkezdheti az ingyenes próbaverzióval, hogy megnedvesítse a lábát. Csak menj oda[ezt a linket](https://releases.aspose.com).
+2.  Aspose.Cells for .NET: Letöltheti a könyvtárat, vagy ha úgy tetszik, elkezdheti az ingyenes próbaverzióval, hogy megnedvesítse a lábát. Csak menj oda[ezt a linket](https://releases.aspose.com).
 3. Alapvető C# ismerete: A C# alapjainak megértése segít abban, hogy gond nélkül haladjon tovább.
 4. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer kompatibilis verziója telepítve van a számítógépén.
 5.  Minta Excel-fájl: Ehhez az oktatóanyaghoz szüksége lesz egy Excel-fájlra. nevű mintafájlt használhat`Book1.xlsx`.
@@ -33,7 +33,7 @@ Kezdje a meglévő projekt megnyitásával, vagy hozzon létre egy újat, ha a n
 
 ### Adja hozzá az Aspose.Cells hivatkozást
 
-Solution Explorerben kattintson a jobb gombbal a projektre, és válassza a NuGet-csomagok kezelése lehetőséget. Keresse meg az Aspose.Cells elemet, és telepítse. Ez döntő fontosságú, mert ez a könyvtár rendelkezik mindazon mágikus képességekkel, amelyekre szükségünk van a nyomtatási előnézetek végrehajtásához.
+A Solution Explorerben kattintson a jobb gombbal a projektre, és válassza a NuGet-csomagok kezelése lehetőséget. Keresse meg az Aspose.Cells elemet, és telepítse. Ez döntő fontosságú, mert ez a könyvtár rendelkezik mindazon mágikus képességekkel, amelyekre szükségünk van a nyomtatási előnézetek végrehajtásához.
 
 ### Tartalmazza a szükséges névtereket
 
@@ -58,7 +58,7 @@ A nyomtatási előnézetekben való kalandozás megkezdéséhez meg kell határo
 string sourceDir = "Your Document Directory";
 ```
 
- Ez a kód segít megtalálni az utat, ahol`Book1.xlsx` lakik, így a jövőbeni hivatkozások sokkal könnyebbé válnak.
+Ez a kód segít megtalálni az utat, ahol`Book1.xlsx` lakik, így a jövőbeni hivatkozások sokkal könnyebbé válnak.
 
 ## 2. lépés: Töltse be a munkafüzetet
 
@@ -131,7 +131,7 @@ Ez a vonal olyan, mint egy befejező simítás egy projekt befejezése után –
 Az Aspose.Cells egy hatékony könyvtár az Excel fájlformátumok kezelésére, és olyan funkciókat kínál, mint az adatkezelés, a formázás és a nyomtatási előnézetek megjelenítése.
 
 ### Meg kell vásárolnom az Aspose.Cells-t a használatához?
- Kezdheti a következő címen elérhető ingyenes próbaverzióval[ezt a linket](https://releases.aspose.com) mielőtt a licenc megvásárlása mellett döntene.
+ Kezdheti egy ingyenes próbaverzióval, amely elérhető a címen[ezt a linket](https://releases.aspose.com)mielőtt a licenc megvásárlása mellett döntene.
 
 ### Használhatom az Aspose.Cells-t bármely .NET alkalmazásban?
 Igen, az Aspose.Cells bármilyen .NET-alkalmazással működik, beleértve az ASP.NET-et, a WinForms-t és egyebeket.

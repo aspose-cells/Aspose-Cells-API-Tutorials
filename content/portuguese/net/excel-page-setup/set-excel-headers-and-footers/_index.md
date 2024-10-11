@@ -107,7 +107,7 @@ Agora que nossos cabeçalhos estão com uma aparência elegante, vamos voltar no
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Explicação: Estamos inserindo uma mensagem personalizada no rodapé esquerdo, "Olá, mundo!" junto com o texto`123` em um estilo de fonte diferente — Courier New.
+Explicação: Estamos inserindo uma mensagem personalizada no rodapé esquerdo, "Olá, mundo!" junto com o texto`123` em um estilo de fonte diferente — Courier New.
 
 ## Etapa 7: Configuração do rodapé central
 

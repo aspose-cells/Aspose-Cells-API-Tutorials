@@ -81,7 +81,7 @@ book.Worksheets[0].ActiveCell = "A20";
 現在，您一直在等待的時刻到了！只需一個簡單的命令，我們就可以從工作表中刪除分割窗格。這是代碼：
 
 ```csharp
-//分割工作表視窗
+//拆分工作表窗口
 book.Worksheets[0].RemoveSplit();
 ```
 

@@ -103,7 +103,7 @@ Tady se děje kouzlo. Nastavíme kód formátu pro nově přidanou sérii.
 Nastavením kódu formátu změníte nezpracovaná čísla na něco čitelnějšího, stejně jako použití filtru pro vylepšení vaší fotografie, než ji ukážete světu!
 
 ```csharp
-// Otevřete sérii a nastavte její kód formátu hodnot
+// Otevřete sérii a nastavte kód formátu jejích hodnot
 Series srs = ch.NSeries[0];
 srs.ValuesFormatCode = "$#,##0"; //Tím se nastaví na formát měny
 ```

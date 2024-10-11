@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // अपनी PFX फ़ाइल के पथ से
 
 ## चरण 4: डिजिटल हस्ताक्षर बनाएं
 
- अब, आइए इसका उपयोग करके डिजिटल हस्ताक्षर बनाएं`DigitalSignature`क्लास में जादू यहीं होता है!
+ अब, आइए इसका उपयोग करके डिजिटल हस्ताक्षर बनाएं`DigitalSignature` क्लास में जादू यहीं होता है!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
  बिलकुल! आप यहाँ से निःशुल्क परीक्षण प्राप्त कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/).
 
 ### क्या Aspose.Cells .NET के सभी संस्करणों के साथ संगत है?
-Aspose.Cells .NET फ्रेमवर्क के विभिन्न संस्करणों का समर्थन करता है।[प्रलेखन](https://reference.aspose.com/cells/net/) संगतता विवरण के लिए.
+ Aspose.Cells .NET फ्रेमवर्क के विभिन्न संस्करणों का समर्थन करता है।[प्रलेखन](https://reference.aspose.com/cells/net/) संगतता विवरण के लिए.
 
 ### यदि मुझे कोई समस्या आती है तो मुझे सहायता कहां से मिल सकती है?
  आप यहां जा सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9) सामुदायिक समर्थन और सहायता के लिए।

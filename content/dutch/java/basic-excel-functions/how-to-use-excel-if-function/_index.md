@@ -14,7 +14,7 @@ In de wereld van datamanipulatie is de Excel IF-functie een krachtig hulpmiddel 
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat de volgende voorwaarden vervuld zijn:
+Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
 
 -  Aspose.Cells voor Java: U moet Aspose.Cells voor Java API geïnstalleerd hebben. U kunt het downloaden van[hier](https://releases.aspose.com/cells/java/).
 

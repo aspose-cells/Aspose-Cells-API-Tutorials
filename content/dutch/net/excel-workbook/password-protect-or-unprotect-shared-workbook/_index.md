@@ -53,7 +53,7 @@ Vervolgens maken we een exemplaar van een nieuwe Excel-werkmap. Zie dit als het 
 Workbook wb = new Workbook();
 ```
 
-Deze regel initialiseert een nieuw werkmapobject met de naam`wb`Nu zijn we klaar om op dit nieuwe canvas te werken.
+ Deze regel initialiseert een nieuw werkmapobject met de naam`wb`Nu zijn we klaar om op dit nieuwe canvas te werken.
 
 ## Stap 3: Beveilig de gedeelde werkmap met een wachtwoord
 
@@ -117,4 +117,4 @@ Als u het wachtwoord vergeet, kunt u de beveiliging van de werkmap helaas niet o
 Aspose.Cells ondersteunt voornamelijk .NET, maar ze hebben ook bibliotheken voor Java en andere talen. Bekijk hun site voor meer info!
 
 ### Hoe krijg ik ondersteuning voor Aspose.Cells?
- U kunt contact met ons opnemen via hun ondersteuningsforum:[Aspose-ondersteuning](https://forum.aspose.com/c/cells/9).
+ kunt contact met ons opnemen via hun ondersteuningsforum:[Aspose-ondersteuning](https://forum.aspose.com/c/cells/9).

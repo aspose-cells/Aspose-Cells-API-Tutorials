@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Uppdatera med din önskade sökv�
  Därefter måste du skapa en ny instans av`Workbook` klass. Detta objekt kommer att representera din Excel-fil, så att du kan manipulera dess innehåll.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ I den här koden anger vi typen av diagram (i det här fallet ett kolumndiagram)
 
 ## Steg 6: Öppna diagraminstansen
 
- När vi väl har skapat diagrammet måste vi komma åt dess instans för att ändra dess egenskaper. Detta görs genom att hämta det via`Charts` samling.
+ När vi väl har skapat diagrammet måste vi komma åt dess instans för att ändra dess egenskaper. Detta görs genom att hämta det via`Charts`samling.
 
 ```csharp
 // Åtkomst till instansen av det nyligen tillagda diagrammet

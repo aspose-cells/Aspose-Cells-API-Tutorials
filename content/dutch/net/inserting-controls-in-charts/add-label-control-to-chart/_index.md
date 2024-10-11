@@ -112,7 +112,7 @@ Dit is waar je je kunstwerk een titel geeft. Het helpt kijkers te begrijpen waar
 Laten we nu bepalen hoe het label wordt gepositioneerd ten opzichte van de grafiek. Hier stellen we het in op vrij zwevend, wat betekent dat het onafhankelijk van de grafiekelementen kan worden verplaatst.
 
 ```csharp
-//Stel het plaatsingstype in, de manier waarop het label aan de cellen wordt bevestigd.
+// Stel het plaatsingstype in, de manier waarop het label aan de cellen wordt bevestigd.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ En daar heb je het! Je hebt met succes een labelbesturingselement toegevoegd aan
 Ja! U kunt het lettertype, de kleur, de grootte en andere eigenschappen van het label naar wens aanpassen.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells is een betaald product, maar u kunt beginnen met een[gratis proefperiode](https://releases.aspose.com/) om de kenmerken ervan te verkennen.
+ Aspose.Cells is een betaald product, maar u kunt beginnen met een[gratis proefperiode](https://releases.aspose.com/)om de kenmerken ervan te verkennen.
 
 ### Wat als ik meerdere labels wil toevoegen?
 U kunt de stappen voor het toevoegen van labels zo vaak herhalen als nodig is, telkens met een andere positie en tekst.

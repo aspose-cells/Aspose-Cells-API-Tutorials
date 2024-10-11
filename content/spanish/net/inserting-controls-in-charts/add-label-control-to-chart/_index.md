@@ -112,7 +112,7 @@ Aquí es donde le das un título a tu obra de arte. Ayuda a los espectadores a c
 Ahora, decidamos cómo se posicionará la etiqueta en relación con el gráfico. Aquí, la configuraremos como flotante, lo que significa que se puede mover independientemente de los elementos del gráfico.
 
 ```csharp
-//Establezca el tipo de ubicación, la forma en que se adjunta la etiqueta a las celdas.
+// Establezca el tipo de ubicación, la forma en que se adjunta la etiqueta a las celdas.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 ¡Sí! Puedes cambiar la fuente, el color, el tamaño y otras propiedades de la etiqueta para adaptarlas a tus necesidades.
 
 ### ¿Aspose.Cells es de uso gratuito?
- Aspose.Cells es un producto pago; sin embargo, puedes comenzar con un[prueba gratis](https://releases.aspose.com/) para explorar sus características.
+ Aspose.Cells es un producto pago; sin embargo, puedes comenzar con un[prueba gratis](https://releases.aspose.com/)para explorar sus características.
 
 ### ¿Qué pasa si quiero agregar varias etiquetas?
 Puede repetir los pasos de adición de etiquetas tantas veces como sea necesario, cada una con diferentes posiciones y textos.

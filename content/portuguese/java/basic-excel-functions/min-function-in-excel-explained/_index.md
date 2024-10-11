@@ -25,7 +25,7 @@ Antes de mergulharmos na implementação prática usando Aspose.Cells para Java,
 ```
 
 - `number1`: Este é o primeiro número ou intervalo para o qual você deseja encontrar o valor mínimo.
-- `[number2]`, `[number3]`... (opcional): Esses são números ou intervalos adicionais que você pode incluir para encontrar o valor mínimo.
+- `[number2]`, `[number3]`... (opcional): São números ou intervalos adicionais que você pode incluir para encontrar o valor mínimo.
 
 ## Como funciona a função MIN
 

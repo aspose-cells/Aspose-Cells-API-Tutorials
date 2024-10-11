@@ -16,7 +16,7 @@ Cuando se trabaja con archivos de Excel, administrar los saltos de página puede
 Antes de sumergirnos en los detalles del código, asegurémonos de que tienes todo lo que necesitas para empezar. Aquí tienes una lista rápida de requisitos previos:
 
 1. Visual Studio: necesitará una instalación funcional de Visual Studio para crear y ejecutar sus aplicaciones .NET.
-2. Aspose.Cells para .NET: Asegúrate de tener instalada la biblioteca Aspose.Cells. Si aún no lo has hecho, puedes descargarla desde[aquí](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Asegúrate de tener instalada la biblioteca Aspose.Cells. Si aún no lo has hecho, puedes descargarla desde[aquí](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a comprender mejor los fragmentos de código.
 4. Un archivo de Excel: Tenga a mano un archivo de Excel que contenga algunos saltos de página para que podamos experimentar con ellos.
 
@@ -53,14 +53,14 @@ Lo primero es lo primero: debes especificar dónde se almacenan tus documentos d
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Explicación: Reemplazar`YOUR DOCUMENT DIRECTORY` con la ruta real a sus archivos. Aquí es donde cargará su archivo de Excel y guardará su archivo de Excel modificado más tarde.
+ Explicación: Reemplazar`YOUR DOCUMENT DIRECTORY`con la ruta real a sus archivos. Aquí es donde cargará su archivo de Excel y guardará su archivo de Excel modificado más tarde.
 
 ## Paso 2: Crear una instancia del objeto de libro de trabajo
 
 A continuación, debemos cargar nuestro libro de trabajo. En términos más simples, piense en un libro de trabajo como su archivo de Excel.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Explicación: Aquí guardamos el libro de trabajo con un nuevo nombre (`RemoveSp
 ## Preguntas frecuentes
 
 ### ¿Puedo eliminar varios saltos de página a la vez?  
-Sí, puedes. Simplemente recorre el bucle.`HorizontalPageBreaks` y`VerticalPageBreaks` colecciones y utilizar el`RemoveAt` método.
+ Sí, puedes. Simplemente recorre el bucle.`HorizontalPageBreaks` y`VerticalPageBreaks` colecciones y utilizar el`RemoveAt` método.
 
 ### ¿Cómo sé qué índice utilizar para los saltos de página?  
 Puede iterar a través de los saltos de página utilizando un bucle para imprimir sus índices o inspeccionarlos a través del depurador.

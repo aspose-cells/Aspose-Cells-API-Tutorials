@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Därefter måste vi skapa en`Workbook` objekt. Det här objektet fungerar som en behållare för dina kalkylbladsdata.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 

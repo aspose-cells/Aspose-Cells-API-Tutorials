@@ -38,7 +38,7 @@ using Aspose.Cells;
 1.  새 프로젝트 만들기: Visual Studio를 열고 새 콘솔 앱 프로젝트를 만들고 다음과 같이 설명적인 이름을 지정합니다.`HideExcelTabs`.
 2. Aspose.Cells 참조 추가: NuGet 패키지 관리자로 이동하여 "Aspose.Cells for .NET"을 검색합니다. 프로젝트에 설치합니다.
  또는 오프라인으로 작업하는 경우 다음을 수행할 수 있습니다.[Aspose.Cells for .NET 다운로드](https://releases.aspose.com/cells/net/) DLL 파일을 프로젝트 참조에 수동으로 추가합니다.
-3.  Excel 파일 준비: 수정하려는 Excel 파일을 넣으세요(예:`book1.xls`) 프로젝트 디렉토리에 있습니다. 파일 경로를 알고 있는지 확인하세요.
+3. Excel 파일 준비: 수정하려는 Excel 파일을 넣으세요(예:`book1.xls`) 프로젝트 디렉토리에 있습니다. 파일 경로를 알고 있는지 확인하세요.
 
 ## 2단계: Excel 파일 열기
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- 이 단계에서는 인스턴스를 생성합니다.`Workbook` Excel 파일을 나타내는 클래스입니다. Excel 파일에 대한 경로가 매개변수로 제공됩니다. 반드시 교체해야 합니다.`"YOUR DOCUMENT DIRECTORY"`Excel 파일이 있는 실제 파일 경로를 사용합니다.
+ 이 단계에서는 인스턴스를 생성합니다.`Workbook` Excel 파일을 나타내는 클래스입니다. Excel 파일에 대한 경로가 매개변수로 제공됩니다. 반드시 교체해야 합니다.`"YOUR DOCUMENT DIRECTORY"` Excel 파일이 있는 실제 파일 경로를 사용합니다.
 
 통합 문서를 로드하면 파일과 연결이 설정되어 추가 수정이 가능합니다. 이것이 없으면 변경이 불가능합니다.
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "output.xls");
 
 이제 아시죠! Aspose.Cells for .NET을 사용하여 Excel 파일에서 시트 탭을 성공적으로 숨겼습니다. 이 간단한 조정으로 Excel 문서가 더 세련되고 집중적으로 보이게 할 수 있으며, 특히 모든 작업 탭을 볼 필요가 없는 고객이나 팀원과 파일을 공유할 때 유용합니다.
 
-Aspose.Cells for .NET을 사용하면 탭 숨기기부터 동적 보고서, 차트 등을 만드는 것까지 강력한 방식으로 Excel 파일을 조작할 수 있습니다. 이 도구를 처음 사용하는 경우 주저하지 말고 탐색하세요.[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 더욱 자세한 기능과 성능을 알아보려면.
+ Aspose.Cells for .NET을 사용하면 탭 숨기기부터 동적 보고서, 차트 등을 만드는 것까지 강력한 방식으로 Excel 파일을 조작할 수 있습니다. 이 도구를 처음 사용하는 경우 주저하지 말고 탐색하세요.[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 더욱 자세한 기능과 성능을 알아보려면.
 
 ## 자주 묻는 질문
 
@@ -105,7 +105,7 @@ Aspose.Cells for .NET을 사용하면 탭 숨기기부터 동적 보고서, 차�
  아니요, 탭을 숨깁니다.`ShowTabs` 속성은 모든 시트 탭을 한 번에 숨기거나 표시합니다. 개별 시트를 숨기려면 각 시트의 가시성을 별도로 설정할 수 있습니다.
 
 ### Excel에서 숨겨진 탭을 미리 보려면 어떻게 해야 하나요?  
- 전환할 수 있습니다`ShowTabs` 속성으로 돌아가기`true` 탭을 미리 보거나 복원해야 하는 경우 동일한 코드 구조를 사용합니다.
+ 전환할 수 있습니다`ShowTabs`속성으로 돌아가기`true` 탭을 미리 보거나 복원해야 하는 경우 동일한 코드 구조를 사용합니다.
 
 ### 탭을 숨기면 통합 문서의 데이터나 기능에 영향을 미칩니까?  
 아니요, 탭을 숨기면 시각적 모양만 변경됩니다. 통합 문서의 데이터와 기능은 영향을 받지 않습니다.

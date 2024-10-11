@@ -19,13 +19,13 @@ Innan vi dyker in i handledningen, låt oss se till att du har allt inställt. H
 - Först och främst behöver du Visual Studio. Om du inte har det installerat ännu kan du ladda ner det från Microsofts webbplats.
 
 ### Aspose.Cells Library
-- Nästa viktiga verktyg är Aspose.Cells-biblioteket för .NET. Du kan enkelt få det från[Aspose hemsida](https://releases.aspose.com/cells/net/) för nedladdning. Om du föredrar att testa innan du köper, finns det också en[gratis provperiod tillgänglig](https://releases.aspose.com/).
+-  Nästa viktiga verktyg är Aspose.Cells-biblioteket för .NET. Du kan enkelt få det från[Aspose hemsida](https://releases.aspose.com/cells/net/) för nedladdning. Om du föredrar att testa innan du köper, finns det också en[gratis provperiod tillgänglig](https://releases.aspose.com/).
 
 ### Grundläggande förståelse för C#
 - Eftersom vi kommer att skriva lite kod kommer en grundläggande förståelse av C# att vara fördelaktig. Oroa dig inte; Jag ska förklara saker allt eftersom!
 
 ### Utdatakatalog
-- Du behöver en katalog där dina utdata Excel-filer kommer att sparas. Se till att du har det här till hands.
+- Du behöver en katalog där dina utdata Excel-filer kommer att sparas. Se till att du har detta till hands.
 
 Med dessa förutsättningar avkryssade på din lista är vi redo att hoppa in i handlingen!
 
@@ -64,13 +64,13 @@ Nu när vi alla är klara, låt oss dyka in i kodningsdelen! Här är en detalje
 
 Innan vi kommer till den spännande biten måste vi definiera var vi vill att vår fil ska sparas. Du vill ange en utdatakatalogsökväg.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Byt till din angivna katalog
+string outputDir = "C:\\YourOutputDirectory\\"; // Byt till din angivna katalog
 ```
  Se till att byta ut`"C:\\YourOutputDirectory\\"` med sökvägen där du vill att din fil ska sparas. Se detta som att ställa in din arbetsyta; du behöver veta var du placerar dina verktyg (eller i det här fallet din Excel-fil).
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 
- Därefter skapar vi en instans av`Workbook` klass. Det är här allt vårt arbete kommer att ske.
+Därefter skapar vi en instans av`Workbook` klass. Det är här allt vårt arbete kommer att ske.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -137,7 +137,7 @@ Aspose.Cells är ett kraftfullt bibliotek för att skapa och manipulera Excel-fi
 Inte alls! Som visas i denna handledning kan det göras med bara några enkla rader kod.
 
 ### Var kan jag köpa Aspose.Cells?  
-Du kan köpa Aspose.Cells från deras[köplänk](https://purchase.aspose.com/buy).
+ Du kan köpa Aspose.Cells från deras[köplänk](https://purchase.aspose.com/buy).
 
 ### Hur kan jag få support om jag stöter på problem?  
  Aspose tillhandahåller ett supportforum där du kan ställa frågor och hitta lösningar. Kolla in deras[supportsida](https://forum.aspose.com/c/cells/9).

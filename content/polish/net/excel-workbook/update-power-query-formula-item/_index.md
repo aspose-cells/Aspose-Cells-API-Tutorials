@@ -122,4 +122,4 @@ Za pomocą Aspose.Cells można pracować z plikami .xlsx, .xls, .xlsm i wieloma 
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona wydania Aspose Cells](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadać pytania i znaleźć odpowiedzi od społeczności i zespołu Aspose.
+ Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9)gdzie możesz zadać pytania i znaleźć odpowiedzi od społeczności i zespołu Aspose.

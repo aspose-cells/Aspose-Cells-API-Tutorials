@@ -18,7 +18,7 @@ url: /zh-hant/net/excel-workbook/xades-signature-support/
 1.  Aspose.Cells for .NET：請確保您已安裝 Aspose.Cells 函式庫。您可以輕鬆地從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 2. 開發環境：一個有效的 .NET 開發環境（如 Visual Studio），您可以在其中編寫和執行程式碼。
 3. 數位憑證：您需要有效的數位憑證（PFX 檔案）及其密碼。此憑證對於建立數位簽章至關重要。
-4. C# 基礎知識：熟悉 C# 程式設計將有助於您更好地理解範例。
+4. C#基礎知識：熟悉C#程式設計將有助於您更好地理解範例。
 
 一旦滿足了這些先決條件，您就可以開始在 Excel 檔案中實作 Xades 簽名了！
 
@@ -49,7 +49,7 @@ string outputDir = "Your Output Directory";
 
 ## 第 2 步：載入工作簿
 
-接下來，讓我們載入要簽署的 Excel 工作簿。您將在此處載入現有 Excel 文件。
+接下來，讓我們載入要簽署的 Excel 工作簿。您將在此處載入現有 Excel 檔案。
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
@@ -119,7 +119,7 @@ Xades（XML 高級電子簽章）是一種數位簽章標準，它提供了額�
 絕對地！您可以從以下網站獲得免費試用[阿斯普斯網站](https://releases.aspose.com/).
 
 ### Aspose.Cells 與所有版本的 .NET 相容嗎？
-Aspose.Cells 支援各種版本的.NET 框架。檢查[文件](https://reference.aspose.com/cells/net/)有關相容性詳細資訊。
+ Aspose.Cells 支援各種版本的.NET 框架。檢查[文件](https://reference.aspose.com/cells/net/)有關相容性詳細資訊。
 
 ### 如果遇到問題，我可以在哪裡獲得支援？
 您可以訪問[Aspose論壇](https://forum.aspose.com/c/cells/9)以獲得社區的支持和幫助。

@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 الآن، ستقوم بإنشاء مثيل لفئة Workbook، والتي تمثل ملف Excel.
 
 ```csharp
-// إنشاء كائن مصنف
+//إنشاء كائن مصنف
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 بعد ذلك، ستحتاج إلى الوصول إلى ورقة العمل التي تريد تعيين الاتجاه لها. نظرًا لأن كل مصنف يمكن أن يحتوي على أوراق عمل متعددة، فيجب عليك تحديد ورقة العمل التي تعمل عليها بشكل صريح.
 
 ```csharp
-// الوصول إلى ورقة العمل الأولى في ملف Excel
+//الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

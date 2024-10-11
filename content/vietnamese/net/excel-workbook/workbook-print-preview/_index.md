@@ -16,7 +16,7 @@ Khi nói đến việc quản lý và thao tác các tệp Excel, Aspose.Cells c
 Trước khi bắt đầu hành động mã hóa, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là danh sách kiểm tra các điều kiện tiên quyết:
 
 1. Visual Studio: Bạn sẽ cần một IDE và Visual Studio là lựa chọn tuyệt vời cho các dự án .NET.
-2. Aspose.Cells cho .NET: Bạn có thể tải xuống thư viện hoặc nếu bạn thích, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để làm quen. Chỉ cần truy cập[liên kết này](https://releases.aspose.com).
+2.  Aspose.Cells cho .NET: Bạn có thể tải xuống thư viện hoặc nếu bạn thích, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để làm quen. Chỉ cần truy cập[liên kết này](https://releases.aspose.com).
 3. Kiến thức cơ bản về C#: Hiểu được những nguyên tắc cơ bản của C# sẽ giúp bạn theo dõi mà không gặp bất kỳ trở ngại nào.
 4. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích trên máy của mình.
 5.  Tệp Excel mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel để làm việc. Bạn có thể sử dụng tệp mẫu có tên`Book1.xlsx`.
@@ -58,7 +58,7 @@ Bây giờ chúng ta đã có mọi thứ cần thiết, hãy cùng tìm hiểu 
 string sourceDir = "Your Document Directory";
 ```
 
- Mã này đang giúp chúng ta tìm đường dẫn đến nơi`Book1.xlsx` cư trú, giúp cho việc tham khảo sau này dễ dàng hơn nhiều.
+Mã này đang giúp chúng ta tìm đường dẫn đến nơi`Book1.xlsx` cư trú, giúp cho việc tham khảo sau này dễ dàng hơn nhiều.
 
 ## Bước 2: Tải Workbook
 
@@ -131,7 +131,7 @@ Và thế là xong! Bạn đã thiết lập thành công bản xem trước khi
 Aspose.Cells là một thư viện mạnh mẽ để xử lý các định dạng tệp Excel và cung cấp các tính năng như thao tác dữ liệu, định dạng và hiển thị bản xem trước khi in.
 
 ### Tôi có cần phải mua Aspose.Cells để sử dụng không?
- Bạn có thể bắt đầu với phiên bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com) trước khi quyết định mua giấy phép.
+ Bạn có thể bắt đầu với phiên bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com)trước khi quyết định mua giấy phép.
 
 ### Tôi có thể sử dụng Aspose.Cells trong bất kỳ ứng dụng .NET nào không?
 Có, Aspose.Cells được thiết kế để hoạt động với bất kỳ ứng dụng .NET nào, bao gồm ASP.NET, WinForms, v.v.

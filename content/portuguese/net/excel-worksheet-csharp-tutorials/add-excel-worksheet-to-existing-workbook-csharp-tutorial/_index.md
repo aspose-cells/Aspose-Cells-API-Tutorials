@@ -16,7 +16,7 @@ Com o mundo digital em constante evolução, trabalhar com planilhas se tornou u
 Antes de pularmos para o código, vamos garantir que você tenha tudo o que precisa para implementar este tutorial com sucesso. Aqui está o que você vai precisar:
 
 1.  Visual Studio: Certifique-se de ter o Visual Studio instalado em sua máquina. Se você ainda não o tem, você pode baixá-lo em[aqui](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells para .NET: Você precisará ter o Aspose.Cells para .NET integrado ao seu projeto. Você pode obtê-lo em[link para download](https://releases.aspose.com/cells/net/). Esta biblioteca é essencial para trabalhar com arquivos do Excel e oferece suporte a uma ampla variedade de funcionalidades.
+2.  Aspose.Cells para .NET: Você precisará ter o Aspose.Cells para .NET integrado ao seu projeto. Você pode obtê-lo em[link para download](https://releases.aspose.com/cells/net/)Esta biblioteca é essencial para trabalhar com arquivos do Excel e oferece suporte a uma ampla variedade de funcionalidades.
 3. Noções básicas de C#: Familiaridade com a linguagem de programação C# ajudará você a acompanhar mais facilmente. Não se preocupe; nós o guiaremos pelos processos passo a passo!
 4. Seu diretório de documentos: certifique-se de ter uma pasta no seu computador onde você pode armazenar seus arquivos do Excel para este tutorial. 
 
@@ -53,14 +53,14 @@ Agora que configuramos o diretório, é hora de criar um fluxo de arquivos que n
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Nesta etapa, estamos abrindo`book1.xls`que já deve existir no seu diretório especificado. Certifique-se de ter esse arquivo à mão, ou o processo lançará um erro.
+ Nesta etapa, estamos abrindo`book1.xls`, que já deve existir no seu diretório especificado. Certifique-se de ter esse arquivo à mão, ou o processo lançará um erro.
 
 ## Etapa 3: Instanciar um objeto de pasta de trabalho
 
 Em seguida, precisamos criar uma instância da classe Workbook, que conterá nosso arquivo Excel.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Ao criar uma instância de pasta de trabalho a partir do nosso fluxo de arquivos
 
 ## Etapa 4: Adicionar uma nova planilha
 
- Aí vem a parte emocionante! Vamos adicionar uma nova planilha à nossa pasta de trabalho. Isso é feito usando o`Add()` método do`Worksheets` coleção.
+Aí vem a parte emocionante! Vamos adicionar uma nova planilha à nossa pasta de trabalho. Isso é feito usando o`Add()` método do`Worksheets`coleção.
 
 ```csharp
 // Adicionando uma nova planilha ao objeto Workbook
@@ -87,7 +87,7 @@ Depois de criarmos a nova planilha, é importante obter uma referência a ela. D
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Aqui, estamos usando o índice`i` para referenciar nossa planilha recém-criada. Isso nos permite manipulá-la ainda mais.
+ Aqui, estamos usando o índice`i` para referenciar nossa planilha recém-criada. Isso nos permite manipulá-la ainda mais.
 
 ## Etapa 6: Defina o nome da nova planilha
 
@@ -133,7 +133,7 @@ Não importa se você está gerenciando grandes conjuntos de dados ou gerando re
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca poderosa para trabalhar com arquivos Excel em aplicativos .NET, permitindo que os usuários criem, editem e gerenciem planilhas sem precisar do Microsoft Excel.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  O Aspose.Cells oferece um teste gratuito para os usuários, permitindo que eles testem o produto antes de comprar. Você pode baixá-lo[aqui](https://releases.aspose.com/cells/net/).
 
 ### Posso usar o Aspose.Cells no Linux?

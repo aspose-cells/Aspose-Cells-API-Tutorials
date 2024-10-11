@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Ersetzen Sie es durch den Pfad zu Ihrer PFX-Datei
 
 ## Schritt 4: Erstellen der digitalen Signatur
 
- Erstellen wir nun die digitale Signatur mit dem`DigitalSignature`Klasse. Hier geschieht die Magie!
+ Erstellen wir nun die digitale Signatur mit dem`DigitalSignature` Klasse. Hier geschieht die Magie!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Ja, Sie benötigen ein gültiges digitales Zertifikat (PFX-Datei), um eine Xades
  Auf jeden Fall! Sie erhalten eine kostenlose Testversion von[Aspose-Website](https://releases.aspose.com/).
 
 ### Ist Aspose.Cells mit allen Versionen von .NET kompatibel?
-Aspose.Cells unterstützt verschiedene Versionen des .NET-Frameworks. Überprüfen Sie die[Dokumentation](https://reference.aspose.com/cells/net/) für Kompatibilitätsdetails.
+ Aspose.Cells unterstützt verschiedene Versionen des .NET-Frameworks. Überprüfen Sie die[Dokumentation](https://reference.aspose.com/cells/net/) für Kompatibilitätsdetails.
 
 ### Wo erhalte ich Unterstützung, wenn Probleme auftreten?
  Besuchen Sie die[Aspose-Forum](https://forum.aspose.com/c/cells/9) für die Unterstützung und Hilfe der Community.

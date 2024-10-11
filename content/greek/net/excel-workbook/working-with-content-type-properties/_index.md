@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Βήμα 2: Δημιουργήστε ένα νέο βιβλίο εργασίας
 
- Τώρα που έχουμε τον κατάλογο εξόδου μας, ας δημιουργήσουμε ένα νέο βιβλίο εργασίας. Ο`Workbook`class είναι το σημείο εκκίνησης για την αντιμετώπιση αρχείων Excel.
+ Τώρα που έχουμε τον κατάλογο εξόδου μας, ας δημιουργήσουμε ένα νέο βιβλίο εργασίας. Ο`Workbook` class είναι το σημείο εκκίνησης για την αντιμετώπιση αρχείων Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 Απολύτως! Μπορείτε να προσθέσετε σύνθετα αντικείμενα σε ιδιότητες τύπου περιεχομένου, εφόσον μπορούν να σειριοποιηθούν σωστά.
 
 ### Πού μπορώ να βρω περισσότερα έγγραφα;
-Για πιο λεπτομερή καθοδήγηση, ανατρέξτε στο[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).
+ Για πιο λεπτομερή καθοδήγηση, ανατρέξτε στο[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).

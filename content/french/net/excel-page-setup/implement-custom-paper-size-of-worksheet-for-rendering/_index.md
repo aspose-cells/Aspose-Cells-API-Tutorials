@@ -16,7 +16,7 @@ La création et la personnalisation de documents Excel par programmation peuvent
 Avant de nous plonger dans le code, assurons-nous que vous êtes correctement configuré. Voici ce dont vous avez besoin pour commencer :
 
 1. Visual Studio ou tout autre IDE .NET : assurez-vous de disposer d'un IDE fonctionnel comme Visual Studio. Ce sera votre terrain de jeu où toute la magie du codage se produit.
-2. Package Aspose.Cells pour .NET : si vous ne l'avez pas déjà fait, vous devrez télécharger et installer la bibliothèque Aspose.Cells. Vous pouvez trouver la dernière version sur le site[Page de téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Package Aspose.Cells pour .NET : si vous ne l'avez pas déjà fait, vous devrez télécharger et installer la bibliothèque Aspose.Cells. Vous pouvez trouver la dernière version sur le site[Page de téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : Bien que nous vous guiderons à travers le code, une familiarité avec C# vous aidera à mieux comprendre les nuances.
 4. Accès à .NET Framework : assurez-vous que votre projet est configuré pour cibler une version compatible du .NET Framework.
 
@@ -124,7 +124,7 @@ L'implémentation d'un format de papier personnalisé pour vos feuilles de calcu
 ## FAQ
 
 ### Puis-je utiliser Aspose.Cells sans acheter de licence ?
- Oui, vous pouvez essayer une version d'essai gratuite d'Aspose.Cells pour .NET, disponible[ici](https://releases.aspose.com/).
+Oui, vous pouvez essayer une version d'essai gratuite d'Aspose.Cells pour .NET, disponible[ici](https://releases.aspose.com/).
 
 ### Que se passe-t-il si je dépasse les limites de la licence temporaire ?
  Le dépassement des limites entraînera des sorties filigranées. Il est préférable d'opter pour une licence permanente pour un service ininterrompu. Vous pouvez trouver des options[ici](https://purchase.aspose.com/buy).
@@ -133,7 +133,7 @@ L'implémentation d'un format de papier personnalisé pour vos feuilles de calcu
 Oui, Aspose.Cells pour .NET prend en charge .NET Core. Vous pouvez l'intégrer en toute transparence à vos applications modernes.
 
 ### Comment puis-je obtenir de l’aide si je rencontre des problèmes ?
- Vous pouvez nous contacter via le forum d'assistance Aspose[ici](https://forum.aspose.com/c/cells/9)pour obtenir de l'aide en cas de problème technique.
+ Vous pouvez nous contacter via le forum d'assistance Aspose[ici](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide en cas de problème technique.
 
 ### Puis-je personnaliser d’autres aspects de la feuille de calcul avec Aspose.Cells ?
 Absolument ! Aspose.Cells propose un ensemble complet de fonctionnalités pour personnaliser les feuilles de calcul, notamment des styles, des formules et bien plus encore.

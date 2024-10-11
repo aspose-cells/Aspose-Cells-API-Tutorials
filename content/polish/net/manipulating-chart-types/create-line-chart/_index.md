@@ -40,7 +40,7 @@ using Aspose.Cells.Charts;
 
  Ta linia importuje`Aspose.Cells` przestrzeń nazw, która zawiera wszystkie klasy i metody, których użyjemy do utworzenia naszego wykresu liniowego.
 
-Teraz rozbijmy cały proces na proste, przyswajalne kroki. Każdy krok przeprowadzi Cię przez logiczny przepływ tworzenia wykresu liniowego przy użyciu Aspose.Cells dla .NET.
+Teraz rozbijmy cały proces na proste, przyswajalne kroki. Każdy krok poprowadzi Cię przez logiczny przepływ tworzenia wykresu liniowego przy użyciu Aspose.Cells dla .NET.
 
 ## Krok 1: Skonfiguruj katalog wyjściowy
 
@@ -50,14 +50,14 @@ Pierwszym krokiem jest określenie, gdzie chcesz zapisać plik wyjściowy. To ja
 // Katalog wyjściowy
 string outputDir = "Your Output Directory";
 ```
- Zastępować`"Your Output Directory"` rzeczywistą ścieżką, pod którą chcesz zapisać wygenerowany plik Excela.
+ Zastępować`"Your Output Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać wygenerowany plik Excela.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
 Następnie musimy utworzyć nową instancję skoroszytu. Pomyśl o skoroszycie jako o płótnie, na którym będzie płynąć Twoja kreatywność. 
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 Ten wiersz inicjuje nowy skoroszyt, który będzie zawierał wszystkie dane i elementy wizualne.

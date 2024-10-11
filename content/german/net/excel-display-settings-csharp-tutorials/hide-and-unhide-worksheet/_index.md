@@ -36,7 +36,7 @@ Jetzt, da wir alles eingerichtet haben und mit dem Coden beginnen können, unter
 
 ## Schritt 1: Richten Sie Ihre Umgebung ein
 
- In diesem Schritt richten Sie den Dateipfad ein, in dem sich Ihre Excel-Datei befindet. Ersetzen Sie`"YOUR DOCUMENT DIRECTORY"` durch den Pfad zu Ihrer Datei.
+In diesem Schritt richten Sie den Dateipfad ein, in dem sich Ihre Excel-Datei befindet. Ersetzen Sie`"YOUR DOCUMENT DIRECTORY"` durch den Pfad zu Ihrer Datei.
 
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
@@ -72,7 +72,7 @@ Mit diesem Schritt sagen Sie Ihrem Arbeitsbuch sozusagen „Hallo!“, damit es 
 Wenn Sie Ihr Arbeitsbuch zur Hand haben, können Sie nun auf das Arbeitsblatt zugreifen, das Sie ausblenden möchten. Wir beginnen mit dem ersten Arbeitsblatt.
 
 ```csharp
-// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Nachdem Sie das Arbeitsblatt ausgeblendet haben, möchten Sie die an Ihrer Datei
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Hier speichern wir die Arbeitsmappe als`output.out.xls`. Es ist, als würden Sie Ihre Arbeit in einem Umschlag versiegeln. Wenn Sie ihn nicht aufbewahren, geht Ihre ganze harte Arbeit verloren!
+ Hier speichern wir die Arbeitsmappe als`output.out.xls`. Es ist, als würden Sie Ihre Arbeit in einem Umschlag versiegeln. Wenn Sie ihn nicht aufbewahren, geht Ihre ganze harte Arbeit verloren!
 
 ## Schritt 7: Schließen Sie den Dateistream
 
@@ -132,7 +132,7 @@ Das Bearbeiten von Excel-Arbeitsblättern mit Aspose.Cells für .NET muss keine 
  Ja, Sie können die`Worksheets` Sammlung und legen Sie die`IsVisible` -Eigenschaft für jedes Blatt, das Sie ausblenden möchten, auf „false“ setzen.
 
 ### Welche Dateiformate unterstützt Aspose.Cells?
- Aspose.Cells unterstützt eine Vielzahl von Formaten, darunter XLS, XLSX, CSV und mehr. Sie können die vollständige Liste einsehen[Hier](https://reference.aspose.com/cells/net/).
+Aspose.Cells unterstützt eine Vielzahl von Formaten, darunter XLS, XLSX, CSV und mehr. Sie können die vollständige Liste einsehen[Hier](https://reference.aspose.com/cells/net/).
 
 ### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?
  Sie können mit einer kostenlosen Testversion beginnen, um die Funktionen kennenzulernen. Für Produktionsanwendungen ist eine Volllizenz erforderlich. Erfahren Sie mehr darüber[Hier](https://purchase.aspose.com/buy).

@@ -72,7 +72,7 @@ Vamos dividir o processo de extração em etapas fáceis de seguir.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Nesta etapa, criamos uma nova instância do`Workbook`class, que atua como uma ponte para o conteúdo do seu arquivo Excel. O arquivo é carregado aqui para que possamos iterar pelas planilhas e encontrar os objetos MOL incorporados.
+ Nesta etapa, criamos uma nova instância do`Workbook` class, que atua como uma ponte para o conteúdo do seu arquivo Excel. O arquivo é carregado aqui para que possamos iterar pelas planilhas e encontrar os objetos MOL incorporados.
 
 ## Etapa 3: iterar pelas planilhas
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Com este snippet, estamos usando um`foreach` loop para percorrer cada planilha em nossa pasta de trabalho. Ao acessar o`OleObjects` coleção, podemos ter acesso a todos os objetos incorporados naquela planilha específica. 
+ Com este snippet, estamos usando um`foreach` loop para percorrer cada planilha em nossa pasta de trabalho. Ao acessar o`OleObjects`coleção, podemos ter acesso a todos os objetos incorporados naquela planilha específica. 
 
 ## Etapa 4: Extrair objetos OLE
 
@@ -121,7 +121,7 @@ Esta linha simples envia uma mensagem para o console quando toda a operação de
 
 ## Conclusão
 
-E aí está! Você extraiu com sucesso arquivos MOL incorporados de um arquivo Excel usando o Aspose.Cells for .NET. Agora você pode usar suas novas habilidades e aplicá-las a outros cenários em que precisa extrair arquivos de objeto de planilhas do Excel. Este método não é apenas eficaz, mas também abre portas para lidar com várias operações relacionadas ao Excel sem esforço.
+aí está! Você extraiu com sucesso arquivos MOL incorporados de um arquivo Excel usando o Aspose.Cells for .NET. Agora você pode usar suas novas habilidades e aplicá-las a outros cenários em que precisa extrair arquivos de objeto de planilhas do Excel. Este método não é apenas eficaz, mas também abre portas para lidar com várias operações relacionadas ao Excel sem esforço.
 
 ## Perguntas frequentes
 
@@ -132,7 +132,7 @@ Aspose.Cells para .NET é uma biblioteca poderosa projetada para manipular e ger
 Absolutamente! O Aspose.Cells permite que você extraia vários formatos de arquivo incorporados, como PDFs, imagens e muito mais, não apenas arquivos MOL.
 
 ### Preciso comprar o Aspose.Cells para usá-lo?  
-Embora haja um teste gratuito disponível, uma licença é necessária para recursos completos. Você pode[compre aqui](https://purchase.aspose.com/buy).
+ Embora haja um teste gratuito disponível, uma licença é necessária para recursos completos. Você pode[compre aqui](https://purchase.aspose.com/buy).
 
 ### É necessário ter o Visual Studio para esse processo?  
 Embora tenhamos demonstrado o uso do Visual Studio, você pode usar qualquer IDE compatível com C# para executar seu projeto.

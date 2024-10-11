@@ -10,7 +10,7 @@ url: /hu/java/advanced-excel-charts/waterfall-charts/
 
 ## Bevezetés a vízesés diagramokba az Aspose.Cells for Java használatával
 
-A vízesés-diagramok az adatvizualizáció alapvető eszközei, amelyek lehetővé teszik a szekvenciálisan bevezetett pozitív vagy negatív értékek kumulatív hatásának nyomon követését. Ebben az útmutatóban megvizsgáljuk, hogyan készíthet lenyűgöző vízesés-diagramokat az Aspose.Cells for Java API használatával. Függetlenül attól, hogy pénzügyi jelentésekkel, értékesítési elemzésekkel vagy bármilyen adatvezérelt projekttel dolgozik, a vízesés diagramok értékes betekintést nyújthatnak az adatokba.
+A vízesés diagramok az adatvizualizáció alapvető eszközei, amelyek lehetővé teszik a szekvenciálisan bevezetett pozitív vagy negatív értékek kumulatív hatásának nyomon követését. Ebben az útmutatóban megvizsgáljuk, hogyan készíthet lenyűgöző vízesés-diagramokat az Aspose.Cells for Java API használatával. Függetlenül attól, hogy pénzügyi jelentésekkel, értékesítési elemzésekkel vagy bármilyen adatvezérelt projekttel dolgozik, a vízesés-diagramok értékes betekintést nyújthatnak az adatokba.
 
 ## Előfeltételek
 
@@ -107,4 +107,4 @@ Természetesen további adatsorokat is hozzáadhat a vízesés-diagramhoz, hogy 
 
 ### Hol találok további forrásokat és példákat az Aspose.Cells for Java-hoz?
 
- Az Aspose.Cells for Java dokumentációját itt tekintheti meg[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) mélyreható információkért és kódpéldákért.
+ Az Aspose.Cells for Java dokumentációját itt tekintheti meg[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és kódpéldákért.

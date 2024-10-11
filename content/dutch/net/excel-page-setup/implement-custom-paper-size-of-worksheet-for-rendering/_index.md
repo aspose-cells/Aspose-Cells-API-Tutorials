@@ -16,7 +16,7 @@ Het programmatisch maken en aanpassen van Excel-documenten kan uw werk efficiën
 Voordat we in de code duiken, moeten we ervoor zorgen dat je goed bent ingesteld. Dit is wat je nodig hebt om te beginnen:
 
 1. Visual Studio of een .NET IDE: Zorg dat u een werkende IDE hebt zoals Visual Studio. Dit is uw speeltuin waar alle codeermagie plaatsvindt.
-2. Aspose.Cells voor .NET-pakket: Als u dat nog niet hebt gedaan, moet u de Aspose.Cells-bibliotheek downloaden en installeren. U kunt de nieuwste versie vinden op de[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET-pakket: Als u dat nog niet hebt gedaan, moet u de Aspose.Cells-bibliotheek downloaden en installeren. U kunt de nieuwste versie vinden op de[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Hoewel we u door de code leiden, kunt u met een basiskennis van C# de nuances beter begrijpen.
 4. Toegang tot .NET Framework: zorg ervoor dat uw project is ingesteld voor een compatibele versie van .NET Framework.
 
@@ -124,7 +124,7 @@ Het implementeren van een aangepast papierformaat voor uw Excel-werkbladen met A
 ## Veelgestelde vragen
 
 ### Kan ik Aspose.Cells gebruiken zonder een licentie aan te schaffen?
- Ja, u kunt een gratis proefversie van Aspose.Cells voor .NET uitproberen, beschikbaar[hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie van Aspose.Cells voor .NET uitproberen, beschikbaar[hier](https://releases.aspose.com/).
 
 ### Wat gebeurt er als ik de limieten van de tijdelijke licentie overschrijd?
  Overschrijding van de limieten leidt tot watermerkuitvoer. Het is het beste om te kiezen voor een permanente licentie voor ononderbroken service. U kunt opties vinden[hier](https://purchase.aspose.com/buy).
@@ -133,7 +133,7 @@ Het implementeren van een aangepast papierformaat voor uw Excel-werkbladen met A
 Ja, Aspose.Cells voor .NET ondersteunt .NET Core. U kunt het naadloos integreren in uw moderne applicaties.
 
 ### Hoe krijg ik ondersteuning als ik problemen ondervind?
- U kunt contact opnemen via het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9)voor hulp bij technische problemen.
+ U kunt contact opnemen via het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9) voor hulp bij technische problemen.
 
 ### Kan ik andere aspecten van het werkblad aanpassen met Aspose.Cells?
 Absoluut! Aspose.Cells biedt een robuuste set functies voor het aanpassen van werkbladen, waaronder stijlen, formules en nog veel meer.

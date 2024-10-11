@@ -107,7 +107,7 @@ Sekarang setelah header kita terlihat menarik, mari kita alihkan perhatian kita 
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Penjelasan: Kami memasukkan pesan khusus di footer kiri, "Halo Dunia!" bersama dengan teks`123` dengan gaya font yang berbeda—Courier New.
+Penjelasan: Kami memasukkan pesan khusus di footer kiri, "Halo Dunia!" bersama dengan teks`123` dengan gaya font yang berbeda—Courier New.
 
 ## Langkah 7: Konfigurasi Footer Tengah
 

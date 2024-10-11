@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Laten we nu een nieuw exemplaar van een werkmap maken. Beschouw een werkmap als een leeg canvas waarop u uw gegevens kunt schilderen.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 

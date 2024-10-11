@@ -60,7 +60,7 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
-Upewnij się, że zamieniłeś „Twój katalog wyjściowy” i „Twój katalog dokumentów” na rzeczywiste ścieżki w swoim systemie. To dyktuje, gdzie Aspose zapisze wygenerowany plik PDF i gdzie znajdzie plik Excel.
+Upewnij się, że zastąpiłeś „Twój katalog wyjściowy” i „Twój katalog dokumentów” rzeczywistymi ścieżkami w swoim systemie. To dyktuje, gdzie Aspose zapisze wygenerowany plik PDF i gdzie znajdzie plik Excel.
 
 ## Krok 2: Załaduj przykładowy plik Excel
 

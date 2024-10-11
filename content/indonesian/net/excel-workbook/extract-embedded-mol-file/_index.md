@@ -72,7 +72,7 @@ Mari kita uraikan proses ekstraksi menjadi langkah-langkah yang mudah diikuti.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Pada langkah ini, kita membuat instance baru dari`Workbook`kelas, yang bertindak sebagai jembatan ke konten berkas Excel Anda. Berkas dimuat di sini sehingga kita dapat mengulangi lembar-lembar tersebut dan menemukan objek MOL yang tertanam.
+ Pada langkah ini, kita membuat instance baru dari`Workbook` kelas, yang bertindak sebagai jembatan ke konten berkas Excel Anda. Berkas dimuat di sini sehingga kita dapat mengulangi lembar-lembar tersebut dan menemukan objek MOL yang tertanam.
 
 ## Langkah 3: Ulangi Melalui Lembar Kerja
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Dengan potongan ini, kami menggunakan`foreach` loop untuk menelusuri setiap lembar di buku kerja kita. Dengan mengakses`OleObjects` koleksi ini, kita bisa mendapatkan akses ke semua objek yang tertanam pada lembar tertentu tersebut. 
+ Dengan potongan ini, kami menggunakan`foreach` loop untuk menelusuri setiap lembar di buku kerja kita. Dengan mengakses`OleObjects`koleksi ini, kita bisa mendapatkan akses ke semua objek yang tertanam pada lembar tertentu tersebut. 
 
 ## Langkah 4: Ekstrak Objek OLE
 
@@ -132,7 +132,7 @@ Aspose.Cells untuk .NET adalah pustaka hebat yang dirancang untuk memanipulasi d
 Tentu saja! Aspose.Cells memungkinkan Anda mengekstrak berbagai format file tertanam seperti PDF, gambar, dan lainnya, bukan hanya file MOL.
 
 ### Apakah saya perlu membeli Aspose.Cells untuk menggunakannya?  
-Meskipun ada uji coba gratis yang tersedia, lisensi diperlukan untuk fitur lengkap. Anda dapat[belinya disini](https://purchase.aspose.com/buy).
+ Meskipun ada uji coba gratis yang tersedia, lisensi diperlukan untuk fitur lengkap. Anda dapat[belinya disini](https://purchase.aspose.com/buy).
 
 ### Apakah perlu memiliki Visual Studio untuk proses ini?  
 Sementara kami mendemonstrasikan penggunaan Visual Studio, Anda dapat menggunakan IDE apa pun yang kompatibel dengan C# untuk menjalankan proyek Anda.

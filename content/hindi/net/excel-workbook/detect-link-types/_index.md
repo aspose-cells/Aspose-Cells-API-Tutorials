@@ -63,7 +63,7 @@ string SourceDir = "Your Document Directory";
 इसके बाद, हम अपनी वर्कबुक लोड करेंगे। यह आपकी एक्सेल फ़ाइल को बैकग्राउंड में खोलने जैसा है, जिससे हम इसकी सामग्री को पढ़ और उसमें बदलाव कर सकते हैं।
 
 ```csharp
-// कार्यपुस्तिका लोड करें
+//कार्यपुस्तिका लोड करें
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

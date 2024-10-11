@@ -108,7 +108,7 @@ Sì, Aspose.Cells per Java richiede una licenza valida per uso commerciale. Puoi
 
 ### Quali tipi di grafici Excel posso creare con Aspose.Cells per Java?
 
-Aspose.Cells per Java supporta un'ampia gamma di tipi di grafici, tra cui grafici a barre, grafici a linee, grafici a torta e altro. Consulta la documentazione per un elenco completo dei tipi di grafici supportati e delle opzioni di personalizzazione.
+Aspose.Cells per Java supporta un'ampia gamma di tipi di grafici, tra cui grafici a barre, grafici a linee, grafici a torta e altro ancora. Consulta la documentazione per un elenco completo dei tipi di grafici supportati e delle opzioni di personalizzazione.
 
 ### Dove posso trovare altre risorse e tutorial su Aspose.Cells per Java?
 

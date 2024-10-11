@@ -18,7 +18,7 @@ url: /zh/net/excel-worksheet-csharp-tutorials/get-excel-worksheet-by-name-csharp
 1. .NET 开发环境：确保您已准备好 .NET 开发环境。您可以使用 Visual Studio 或您选择的任何其他 IDE。
 2.  Aspose.Cells 库：您还应该安装 Aspose.Cells 库。如果您还没有安装，不用担心！您可以下载[这里](https://releases.aspose.com/cells/net/).
 3. 对 C# 的基本了解：了解 C# 编程的基础知识将帮助您顺利学习。
-4. Excel 文件：准备好要使用的 Excel 文件。在我们的示例中，我们将使用一个名为`book1.xlsx`至少有一个名为“Sheet1”的工作表。
+4.  Excel 文件：准备好要使用的 Excel 文件。在我们的示例中，我们将使用一个名为`book1.xlsx`至少有一个名为“Sheet1”的工作表。
 
 现在您已一切就绪，让我们开始吧！
 

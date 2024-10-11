@@ -38,14 +38,14 @@ Nyní, když jsme probrali to podstatné, přejděme k té vzrušující části
 Než budeme moci rozdělit panely, potřebujeme sešit, se kterým budeme pracovat! Tento krok je stejně nezbytný jako otevření knihy, než ji začnete číst.
 
 ```csharp
-//Cesta k adresáři dokumentů
+// Cesta k adresáři dokumentů
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Vytvořte instanci nového sešitu a otevřete soubor šablony
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Ve výše uvedeném kódu nahraďte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš soubor Excel. The`Workbook` třída načte soubor Excel do paměti.
+ Ve výše uvedeném kódu nahraďte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš soubor Excel. The`Workbook`třída načte soubor Excel do paměti.
 
 ## Krok 2: Nastavte aktivní buňku
 
@@ -62,7 +62,7 @@ book.Worksheets[0].ActiveCell = "A20";
 
 ## Krok 3: Rozdělte pracovní list
 
-Nyní, když je aktivní buňka nastavena, přejděme k zábavnější části – rozdělení listu! V tomto kroku se děje kouzlo. Pro snadnější prohlížení a navigaci budete moci list rozdělit do několika podoken.
+Nyní, když je aktivní buňka nastavena, přejděme k zábavnější části – rozdělení listu! V tomto kroku se stane kouzlo. Pro snadnější prohlížení a navigaci budete moci list rozdělit do několika podoken.
 
 Toto je jádro celého tutoriálu. Rozdělením listu vytvoříte samostatná podokna, která vám umožní procházet různými sekcemi listu aplikace Excel, aniž byste ztratili ze zřetele záhlaví nebo jiné důležité oblasti.
 
@@ -71,7 +71,7 @@ Toto je jádro celého tutoriálu. Rozdělením listu vytvoříte samostatná po
 book.Worksheets[0].Split();
 ```
 
- s`Split()` říkáte Aspose.Cells, aby rozdělil list v aktivní buňce (`A20` v tomto případě). Od tohoto bodu Excel vytvoří v listu rozdělení, které odděluje podokna, abyste mohli procházet nezávisle.
+ s`Split()` říkáte Aspose.Cells, aby rozdělil list v aktivní buňce (`A20` v tomto případě). Od tohoto okamžiku Excel vytvoří v listu rozdělení, které odděluje podokna, abyste mohli procházet nezávisle.
 
 ## Krok 4: Uložte sešit
 
@@ -84,11 +84,11 @@ K čemu je všechna vaše dřina, když si ji neušetříte? Úspora zajišťuje
 book.Save(dataDir + "output.xls");
 ```
 
- Tady,`Save()`metoda uloží sešit s nově rozdělenými panely do výstupního souboru aplikace Excel. Změny, které jste provedli, jsou nyní připraveny k použití vy nebo kdokoli jiný.
+ Tady,`Save()` metoda uloží sešit s nově rozdělenými panely do výstupního souboru aplikace Excel. Změny, které jste provedli, jsou nyní připraveny k použití vy nebo kdokoli jiný.
 
 ## Závěr
 
-A tady to máte! Právě jste se naučili, jak rozdělit podokna v listu aplikace Excel pomocí Aspose.Cells for .NET. Už žádné nekonečné posouvání nebo ztráta přehledu o vašich datech. Díky této metodě je manipulace s velkými soubory aplikace Excel mnohem méně zahlcující a mnohem efektivnější. Díky možnosti rozdělit panely můžete nyní sledovat kritické datové body při práci se složitými tabulkami.
+tady to máte! Právě jste se naučili, jak rozdělit podokna v listu aplikace Excel pomocí Aspose.Cells for .NET. Už žádné nekonečné posouvání nebo ztráta přehledu o vašich datech. Díky této metodě je manipulace s velkými soubory aplikace Excel mnohem méně zahlcující a mnohem efektivnější. Díky možnosti rozdělit panely můžete nyní sledovat kritické datové body při práci se složitými tabulkami.
 
 ## FAQ
 

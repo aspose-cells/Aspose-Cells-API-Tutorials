@@ -16,7 +16,7 @@ En la era digital, administrar y proteger sus datos es más importante que nunca
 Antes de sumergirnos en el código, asegurémonos de tener todo lo que necesitas:
 
 1. Entorno de desarrollo: debe tener Visual Studio instalado en su máquina, ya que proporciona un excelente IDE para el desarrollo .NET.
-2.  Biblioteca Aspose.Cells: descargue la biblioteca Aspose.Cells. Puede obtenerla desde[Página de descargas de Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: descargue la biblioteca Aspose.Cells. Puede obtenerla desde[Página de descargas de Aspose](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: asegúrese de tener un buen conocimiento de C# y .NET Framework para poder seguirlo fácilmente.
 4. Crear un proyecto: configure una nueva aplicación de consola en Visual Studio donde escribiremos el código.
 
@@ -48,7 +48,7 @@ Dividamos la implementación en pasos manejables. Crearemos un archivo Excel sim
 
 ## Paso 1: Crea una secuencia de archivos para tu archivo de Excel
 
- En primer lugar, debemos cargar un archivo de Excel existente. Usaremos un`FileStream` para acceder a él.
+En primer lugar, debemos cargar un archivo de Excel existente. Usaremos un`FileStream` para acceder a él.
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Ahora que tenemos un flujo de archivos, podemos crear un`Workbook` objeto.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 // Abrir el archivo Excel a través del flujo de archivos
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Para nuestros propósitos, solo trabajaremos con la primera hoja de cálculo. Accedamos a ella.
 
 ```csharp
-// Acceder a la primera hoja de cálculo del archivo Excel
+//Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Las hojas de trabajo se indexan a partir de cero, por lo que`Worksheets[0]`Se refiere a la primera hoja de cálculo del archivo Excel. Ahora, podemos aplicar nuestra configuración de protección a esta hoja específica.
+ Las hojas de trabajo se indexan a partir de cero, por lo que`Worksheets[0]` Se refiere a la primera hoja de cálculo del archivo Excel. Ahora, podemos aplicar nuestra configuración de protección a esta hoja específica.
 
 ## Paso 4: Aplicar configuración de protección avanzada
 
@@ -148,7 +148,7 @@ Este paso es fundamental para gestionar los recursos de forma eficaz. Si no se c
 Aspose.Cells es una potente biblioteca que le permite crear, manipular y convertir archivos de Excel mediante programación en .NET.
 
 ### ¿Puedo proteger varias hojas de trabajo a la vez?
- ¡Sí! Puede aplicar configuraciones de protección similares a varias hojas de cálculo iterando a través de la`Worksheets` recopilación.
+ ¡Sí! Puede aplicar configuraciones de protección similares a varias hojas de cálculo iterando a través de la`Worksheets`recopilación.
 
 ### ¿Necesito una licencia para utilizar Aspose.Cells?
  Si bien hay una versión de prueba gratuita disponible, se requiere una licencia para el desarrollo a gran escala. Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

@@ -78,7 +78,7 @@ Nu hebt u een grafiek met een toegevoegde trendlijn. U kunt de trendlijn, coëff
 
 ##Conclusie
 
-In deze tutorial hebben we geleerd hoe u Trendline Analysis uitvoert met Aspose.Cells voor Java. We hebben een voorbeeld van een Excel-werkmap gemaakt, gegevens toegevoegd, een grafiek gemaakt en een trendlijn toegevoegd om de gegevens te visualiseren en analyseren. U kunt deze technieken nu gebruiken om trendline-analyse uit te voeren op uw eigen datasets.
+In deze tutorial hebben we geleerd hoe je Trendline Analysis uitvoert met Aspose.Cells voor Java. We hebben een voorbeeld Excel-werkmap gemaakt, gegevens toegevoegd, een grafiek gemaakt en een trendlijn toegevoegd om de gegevens te visualiseren en analyseren. Je kunt deze technieken nu gebruiken om trendlijnanalyse uit te voeren op je eigen datasets.
 
 ## Veelgestelde vragen
 

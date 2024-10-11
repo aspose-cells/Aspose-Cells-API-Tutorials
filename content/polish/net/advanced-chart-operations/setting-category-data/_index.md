@@ -48,7 +48,7 @@ Najpierw musisz określić, gdzie plik Excel zostanie zapisany. Utwórz zmienną
 string outputDir = "Your Output Directory";
 ```
 
- Zastępować`"Your Output Directory"` z rzeczywistą ścieżką do lokalizacji, w której chcesz zapisać plik wyjściowy Excela. Dzięki temu masz pewność, że dokładnie wiesz, gdzie znaleźć swój ukończony produkt!
+ Zastępować`"Your Output Directory"` z rzeczywistą ścieżką do lokalizacji, w której chcesz zapisać plik wyjściowy Excel. Dzięki temu będziesz dokładnie wiedział, gdzie znaleźć swój ukończony produkt!
 
 ## Krok 3: Tworzenie instancji obiektu skoroszytu
 

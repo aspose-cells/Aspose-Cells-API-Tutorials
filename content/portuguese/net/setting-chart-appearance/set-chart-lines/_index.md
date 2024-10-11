@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Agora, criaremos um objeto de pasta de trabalho, que servirá como um contêiner para sua planilha.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
-Explicação: Esta linha cria uma instância do`Workbook` classe da biblioteca Aspose.Cells. É como abrir um novo arquivo Excel em branco onde você pode começar a adicionar suas planilhas e dados.
+ Explicação: Esta linha cria uma instância do`Workbook`classe da biblioteca Aspose.Cells. É como abrir um novo arquivo Excel em branco onde você pode começar a adicionar suas planilhas e dados.
 
 ## Etapa 3: referenciar uma planilha
 

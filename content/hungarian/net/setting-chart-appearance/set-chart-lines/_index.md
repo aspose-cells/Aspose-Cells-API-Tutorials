@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Most létrehozunk egy munkafüzet objektumot, amely a táblázat tárolójaként szolgál.
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
-Magyarázat: Ez a sor létrehozza a`Workbook` osztály az Aspose.Cells könyvtárból. Ez olyan, mintha egy új üres Excel-fájlt nyitna meg, ahol elkezdheti hozzáadni a lapokat és az adatokat.
+ Magyarázat: Ez a sor létrehozza a`Workbook`osztály az Aspose.Cells könyvtárból. Ez olyan, mintha egy új üres Excel-fájlt nyitna meg, ahol elkezdheti hozzáadni a lapokat és az adatokat.
 
 ## 3. lépés: Hivatkozás egy munkalapra
 

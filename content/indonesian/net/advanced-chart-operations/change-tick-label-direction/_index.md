@@ -48,7 +48,7 @@ Sekarang setelah pengaturan kita beres, mari kita uraikan menjadi langkah-langka
 
 ## Langkah 1: Tetapkan Direktori Sumber dan Output
 
-Pertama-tama mari kita tentukan direktori sumber dan keluaran. Direktori ini akan menampung berkas masukan (tempat kita akan membaca grafik) dan berkas keluaran (tempat grafik yang dimodifikasi akan disimpan).
+Pertama-tama mari kita tentukan direktori sumber dan keluaran. Direktori ini akan menampung berkas masukan (tempat kita akan membaca diagram) dan berkas keluaran (tempat diagram yang dimodifikasi akan disimpan).
 
 ```csharp
 // Direktori sumber

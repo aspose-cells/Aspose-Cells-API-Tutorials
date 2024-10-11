@@ -112,7 +112,7 @@ Az Aspose különféle licencelési lehetőségeket kínál az Aspose.Cells for 
 
 Az Aspose.Cells elsősorban a Java-t célozza meg, de az Aspose más nyelvekhez is biztosít könyvtárakat, például .NET, C++, és még sok más.
 
-### Az adatmaszkolás visszafordítható?
+### Megfordítható az adatmaszkolás?
 
 Az adatmaszkolási technikákat általában úgy tervezték, hogy visszafordíthatatlanok legyenek, biztosítva, hogy az érzékeny információkat ne lehessen könnyen feltárni.
 
@@ -122,4 +122,4 @@ Az adatmaszkolás teljesítményre gyakorolt hatása nagymértékben függ az ad
 
 ### Hogyan tudhatok meg többet az adatmaszkolás bevált módszereiről?
 
-Az adatmaszkolás és az adatbiztonság bevált gyakorlatainak feltárásához vegye fontolóra az iparág-specifikus irányelveket, és konzultáljon adatbiztonsági szakértőkkel.
+Az adatmaszkolás és az adatbiztonság bevált gyakorlatainak feltárásához fontolja meg az iparág-specifikus irányelvek tanulmányozását, és konzultáljon adatbiztonsági szakértőkkel.

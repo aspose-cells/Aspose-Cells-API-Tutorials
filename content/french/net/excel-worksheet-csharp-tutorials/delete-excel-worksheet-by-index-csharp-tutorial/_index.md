@@ -55,7 +55,7 @@ Vous devez d'abord définir l'emplacement de votre fichier Excel. C'est ici que 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Il suffit de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`book1.xls` le fichier réside. Considérez cela comme donner à votre GPS la bonne adresse avant de commencer un voyage en voiture !
+ Il suffit de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`book1.xls`le fichier réside. Considérez cela comme donner à votre GPS la bonne adresse avant de commencer un voyage en voiture !
 
 ## Étape 4 : Ouvrir le fichier Excel avec un FileStream
 

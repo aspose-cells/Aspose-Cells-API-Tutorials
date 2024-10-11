@@ -15,7 +15,7 @@ Amikor Excel fájlokkal dolgozik, a fejlécek és láblécek kulcsfontosságú s
 
 Mielőtt belemerülne a tényleges kódba, néhány dolgot elő kell készítenie:
 
-1. Aspose.Cells for .NET Library: Győződjön meg arról, hogy az Aspose.Cells könyvtár telepítve van a .NET-környezetben. Ha még nincs meg, megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library: Győződjön meg arról, hogy az Aspose.Cells könyvtár telepítve van a .NET-környezetben. Ha még nincs meg, megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 2. Visual Studio vagy bármely más IDE: A C# kód írásához és végrehajtásához integrált fejlesztői környezetre lesz szüksége.
 3.  Mintakép: Készítsen egy képet, amelyet be szeretne illeszteni a fejlécbe vagy a láblécbe. Példánkban a cég logóját fogjuk használni`aspose-logo.jpg`.
 4. Alapvető C# ismerete: Noha nem kötelező, a C# megértése megkönnyíti az oktatóanyag követését.
@@ -95,7 +95,7 @@ A kép bináris adataival most már beilleszthetjük a fejlécbe.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Ez a sor a képet a fejléc középső részébe helyezi. A paraméter`1` a fejléc szakaszt határozza meg.
+ Ez a sor a képet a fejléc középső részébe helyezi. A paraméter`1` fejléc szakaszt határozza meg.
 
 ## 7. lépés: A fejléc tartalmának beállítása
 

@@ -17,9 +17,9 @@ Adımlara geçmeden önce birkaç şeyin hazır olduğundan emin olun:
 
 1. .NET Ortamı: Bir .NET geliştirme ortamı kurmuş olmalısınız. Bu, Visual Studio, Visual Studio Code veya herhangi bir uyumlu IDE olabilir.
    
-2. Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
 
-3.  Örnek Excel Dosyası: Grafikler içeren bir örnek Excel dosyası edinin. Bu eğitim için, şu adlı bir dosya kullanacağız:`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Proje dizininizde olduğundan emin olun.
+3. Örnek Excel Dosyası: Grafikler içeren bir örnek Excel dosyası edinin. Bu eğitim için, şu adlı bir dosya kullanacağız:`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Proje dizininizde olduğundan emin olun.
 
 4. Temel Programlama Bilgisi: C# programlamaya aşina olmanız, takip etmenizi kolaylaştıracaktır.
 
@@ -56,7 +56,7 @@ Bu ad alanları Aspose.Cells'in çalışma kitabına, çalışma sayfalarına ve
 string sourceDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` Excel dosyanızın kaydedildiği yolu belirtin.
+ Yer değiştirmek`"Your Document Directory"`Excel dosyanızın kaydedildiği yolu belirtin.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 

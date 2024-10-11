@@ -11,7 +11,7 @@ url: /ko/net/protect-excel-file/protect-specific-cells-in-a-excel-worksheet/
 
 Excel 워크시트를 만들고 셀 보호를 관리하는 것은 종종 오르막길처럼 느껴질 수 있죠? 특히 특정 셀만 편집할 수 있도록 하면서 다른 셀은 안전하게 보호하려고 할 때 더욱 그렇습니다. 다행히도 Aspose.Cells for .NET을 사용하면 몇 줄의 코드만으로 Excel 워크시트 내의 특정 셀을 쉽게 보호할 수 있습니다!
 
-이 문서에서는 Aspose.Cells for .NET을 사용하여 셀 보호를 구현하는 방법에 대한 단계별 자습서를 안내합니다. 이 가이드를 마치면 Excel 데이터를 효율적으로 보호하는 방법을 알게 될 것입니다.
+이 문서에서는 Aspose.Cells for .NET을 사용하여 셀 보호를 구현하는 방법에 대한 단계별 튜토리얼을 안내합니다. 이 가이드를 마치면 Excel 데이터를 효율적으로 보호하는 방법을 알게 될 것입니다.
 
 ## 필수 조건
 

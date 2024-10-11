@@ -2,7 +2,7 @@
 title: Excel ページに合わせるオプション
 linktitle: Excel ページに合わせるオプション
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET で Excel ページに合わせるオプションを使用し、簡単なステップ バイ ステップ ガイドに従ってデータを美しく表示する方法を学びます。
+description: Aspose.Cells for .NET で Excel ページに合わせるオプションを使用し、簡単なステップバイステップ ガイドに従ってデータを美しく表示する方法を学びます。
 type: docs
 weight: 30
 url: /ja/net/excel-page-setup/fit-to-excel-pages-options/
@@ -16,7 +16,7 @@ url: /ja/net/excel-page-setup/fit-to-excel-pages-options/
 コーディングを始める前に、始めるのに必要なものがすべて揃っていることを確認しましょう。準備しておくべきものは次のとおりです。
 
 1. Visual Studio: マシンに Visual Studio がインストールされていることを確認してください。これは、すべての開発作業のメイン ハブになります。
-2.  Aspose.Cells for .NET: Aspose.Cellsライブラリをダウンロードしてプロジェクトに追加する必要があります。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cellsライブラリをダウンロードしてプロジェクトに追加する必要があります。[Aspose ウェブサイト](https://releases.aspose.com/cells/net/).
 3. C# の基礎知識: C# プログラミングの知識があると非常に役立ちます。変数、ループ、基本的なファイル I/O を扱えるなら、すぐに使いこなせるでしょう。
 4. .NET Framework: ライブラリはこのエコシステム内での互換性を考慮して設計されているため、プロジェクトが適切な .NET Framework バージョンで設定されていることを確認してください。
 
@@ -56,7 +56,7 @@ Excel ページの書式を設定する準備はできましたか? プロセス
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 //ワークブックオブジェクトのインスタンス化
 Workbook workbook = new Workbook();
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

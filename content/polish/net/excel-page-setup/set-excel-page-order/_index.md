@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Tutaj,`workbook.Worksheets[0]` odnosi się do pierwszego arkusza w skoroszycie.`PageSetup`Właściwość ta umożliwi Ci kontrolę nad ustawieniami paginacji Twojego arkusza.
+ Tutaj,`workbook.Worksheets[0]` odnosi się do pierwszego arkusza w skoroszycie.`PageSetup` Właściwość ta umożliwi Ci kontrolę nad ustawieniami paginacji Twojego arkusza.
 
 ## Krok 4: Ustaw kolejność drukowania
 
 
- Z`PageSetup` obiekt, czas powiedzieć Excelowi, jak chcesz, aby strony były drukowane. Masz możliwość ustawienia kolejności jako „Over Then Down” lub „Down Then Over”.
+ Z`PageSetup`obiekt, czas powiedzieć Excelowi, jak chcesz, aby strony były drukowane. Masz możliwość ustawienia kolejności jako „Over Then Down” lub „Down Then Over”.
 
 Oto kod służący do ustawienia kolejności drukowania:
 
@@ -103,7 +103,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ## Wniosek
 
-Gratulacje! Właśnie nauczyłeś się, jak ustawić kolejność stron w programie Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz dostosować sposób drukowania dokumentów programu Excel, czyniąc je łatwymi do śledzenia i atrakcyjnymi wizualnie. Ta funkcjonalność przydaje się szczególnie w przypadku dużych zestawów danych, w których kolejność stron może znacząco wpłynąć na czytelność. 
+Gratulacje! Właśnie nauczyłeś się, jak ustawić kolejność stron w programie Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz dostosować sposób drukowania dokumentów programu Excel, dzięki czemu będą łatwe do śledzenia i atrakcyjne wizualnie. Ta funkcjonalność przydaje się szczególnie w przypadku dużych zestawów danych, w których kolejność stron może znacząco wpłynąć na czytelność. 
 
 ## Najczęściej zadawane pytania
 

@@ -17,8 +17,8 @@ Mielőtt belevágnánk a szaftos dolgokba, győződjünk meg arról, hogy késze
 
 1. .NET fejlesztői környezet: Győződjön meg arról, hogy készen áll a használatra kész .NET fejlesztői környezettel. Használhatja a Visual Studio-t vagy bármely más választott IDE-t.
 2.  Aspose.Cells Library: Az Aspose.Cells könyvtárat is telepíteni kell. Ha még nem tetted meg, ne aggódj! Letöltheti[itt](https://releases.aspose.com/cells/net/).
-3. A C# alapjai: A C# programozás alapjainak ismerete segít a zökkenőmentes követésben.
-4. Excel-fájl: Készítsen egy Excel-fájlt, amellyel dolgozni szeretne. Példánkban egy egyszerű nevű fájlt fogunk használni`book1.xlsx` legalább egy „Lap1” nevű munkalappal.
+3. C# alapjai: A C# programozás alapjainak ismerete segít a zökkenőmentes követésben.
+4.  Excel-fájl: Készítsen egy Excel-fájlt, amellyel dolgozni szeretne. Példánkban egy egyszerű nevű fájlt fogunk használni`book1.xlsx` legalább egy „Lap1” nevű munkalappal.
 
 Most, hogy minden készen áll, vágjunk bele!
 
@@ -42,10 +42,10 @@ Először is meg kell mondanunk a programunknak, hogy hol található az Excel f
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Adja meg a dokumentumkönyvtárat
-string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kombinálja a teljes útvonalat
+string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kombinálja a teljes útvonal létrehozásához
 ```
 
- Tessék, cserélje ki`"YOUR DOCUMENT DIRECTORY"` rendszer tényleges elérési útjával, ahol`book1.xlsx` tárolva van. Kihasználva`Path.Combine` ügyes, mert biztosítja, hogy az elérési út helyesen legyen megszerkesztve a különböző operációs rendszerek között.
+ Tessék, cserélje ki`"YOUR DOCUMENT DIRECTORY"` a rendszer tényleges elérési útjával, ahol`book1.xlsx` tárolva van. Kihasználva`Path.Combine` ügyes, mert biztosítja, hogy az elérési út helyesen legyen megszerkesztve a különböző operációs rendszerek között.
 
 ## 2. lépés: Fájlfolyam létrehozása
 

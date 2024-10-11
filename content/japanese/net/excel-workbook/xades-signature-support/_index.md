@@ -119,7 +119,7 @@ Xades (XML Advanced Electronic Signatures) は、電子文書の整合性と信�
 もちろんです！無料トライアルは[Aspose ウェブサイト](https://releases.aspose.com/).
 
 ### Aspose.Cells は .NET のすべてのバージョンと互換性がありますか?
-Aspose.Cellsは.NETフレームワークのさまざまなバージョンをサポートしています。[ドキュメント](https://reference.aspose.com/cells/net/)互換性の詳細については、こちらをご覧ください。
+ Aspose.Cellsは.NETフレームワークのさまざまなバージョンをサポートしています。[ドキュメント](https://reference.aspose.com/cells/net/)互換性の詳細については、こちらをご覧ください。
 
 ### 問題が発生した場合、どこでサポートを受けることができますか?
 訪問することができます[Aspose フォーラム](https://forum.aspose.com/c/cells/9)コミュニティのサポートと支援のため。

@@ -53,7 +53,7 @@ Berikutnya, kita akan membuat contoh buku kerja Excel baru. Anggap saja ini sepe
 Workbook wb = new Workbook();
 ```
 
-Baris ini menginisialisasi objek buku kerja baru bernama`wb`Sekarang kita siap mengerjakan kanvas baru ini.
+ Baris ini menginisialisasi objek buku kerja baru bernama`wb`Sekarang kita siap mengerjakan kanvas baru ini.
 
 ## Langkah 3: Lindungi Buku Kerja Bersama dengan Kata Sandi
 
@@ -117,4 +117,4 @@ Sayangnya, jika Anda lupa kata sandinya, Anda tidak akan dapat membuka proteksi 
 Aspose.Cells terutama mendukung .NET, tetapi mereka juga memiliki pustaka untuk Java dan bahasa lainnya. Kunjungi situs mereka untuk informasi lebih lanjut!
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat meminta bantuan melalui forum dukungan mereka:[Dukungan Aspose](https://forum.aspose.com/c/cells/9).
+Anda dapat meminta bantuan melalui forum dukungan mereka:[Dukungan Aspose](https://forum.aspose.com/c/cells/9).

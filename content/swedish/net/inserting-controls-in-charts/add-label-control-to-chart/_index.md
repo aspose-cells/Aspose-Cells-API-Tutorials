@@ -112,7 +112,7 @@ Det är här du ger ditt konstverk en titel. Det hjälper tittarna att förstå 
 Låt oss nu bestämma hur etiketten ska placeras i förhållande till diagrammet. Här ställer vi in den till fritt flytande, vilket innebär att den kan flyttas oberoende av diagramelementen.
 
 ```csharp
-//Ställ in placeringstyp, hur etiketten fästs på cellerna.
+// Ställ in placeringstyp, hur etiketten fästs på cellerna.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Och där har du det! Du har framgångsrikt lagt till en etikettkontroll till ett
 Ja! Du kan ändra teckensnitt, färg, storlek och andra egenskaper för etiketten för att passa dina behov.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells är en betald produkt; du kan dock börja med en[gratis provperiod](https://releases.aspose.com/) att utforska dess funktioner.
+ Aspose.Cells är en betald produkt; du kan dock börja med en[gratis provperiod](https://releases.aspose.com/)att utforska dess funktioner.
 
 ### Vad händer om jag vill lägga till flera etiketter?
 Du kan upprepa etiketttilläggsstegen så många gånger som behövs, var och en med olika positioner och texter.

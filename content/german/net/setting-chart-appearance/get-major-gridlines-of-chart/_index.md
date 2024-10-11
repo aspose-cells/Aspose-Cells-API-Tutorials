@@ -90,7 +90,7 @@ Diese Zeile weist Aspose an, ab einer bestimmten Position im Arbeitsblatt ein S�
 
 ## Schritt 6: Zugriff auf das neu hinzugefügte Diagramm
 
-Sie möchten das soeben erstellte Diagramm bearbeiten, also speichern wir eine Referenz darauf:
+Sie möchten das soeben erstellte Diagramm bearbeiten, also speichern wir einen Verweis darauf:
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];

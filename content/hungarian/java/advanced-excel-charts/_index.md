@@ -40,4 +40,4 @@ Ismerje meg, hogyan készíthet lenyűgöző diagramanimációkat az Aspose.Cell
 ### [Vízesés diagramok](./waterfall-charts/)
 Ismerje meg, hogyan hozhat létre lenyűgöző vízesés-diagramokat az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató forráskóddal az adatok hatékony megjelenítéséhez.
 ### [Diagram interaktivitás](./chart-interactivity/)
-Ismerje meg, hogyan hozhat létre interaktív diagramokat az Aspose.Cells for Java használatával. Növelje az adatok megjelenítését interaktivitással.
+Ismerje meg, hogyan hozhat létre interaktív diagramokat az Aspose.Cells for Java használatával. Javítsa az adatok megjelenítését interaktivitással.

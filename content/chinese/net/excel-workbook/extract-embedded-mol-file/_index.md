@@ -121,7 +121,7 @@ Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 从 Excel 文件中提取了嵌入的 MOL 文件。现在，您可以将新技能应用到需要从 Excel 表中提取对象文件的其他场景中。这种方法不仅有效，而且还可以轻松处理各种与 Excel 相关的操作。
+就这样！您已成功使用 Aspose.Cells for .NET 从 Excel 文件中提取了嵌入的 MOL 文件。现在，您可以将新技能应用到需要从 Excel 工作表中提取对象文件的其他场景中。这种方法不仅有效，而且还可以轻松处理各种与 Excel 相关的操作。
 
 ## 常见问题解答
 

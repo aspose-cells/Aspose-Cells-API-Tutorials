@@ -19,7 +19,7 @@ Antes de mergulhar no tutorial, vamos garantir que você tenha tudo configurado.
 - Primeiro e mais importante, você precisará do Visual Studio. Se você ainda não o tiver instalado, você pode baixá-lo do site da Microsoft.
 
 ### Biblioteca Aspose.Cells
--  próxima ferramenta essencial é a biblioteca Aspose.Cells para .NET. Você pode obtê-la facilmente em[Site Aspose](https://releases.aspose.com/cells/net/) para download. Se preferir testar antes de comprar, há também um[teste gratuito disponível](https://releases.aspose.com/).
+-  A próxima ferramenta essencial é a biblioteca Aspose.Cells para .NET. Você pode obtê-la facilmente em[Site Aspose](https://releases.aspose.com/cells/net/) para download. Se preferir testar antes de comprar, há também um[teste gratuito disponível](https://releases.aspose.com/).
 
 ### Noções básicas de C#
 - Já que escreveremos algum código, um entendimento básico de C# será benéfico. Não se preocupe; explicarei as coisas conforme formos avançando!
@@ -64,13 +64,13 @@ Agora que estamos todos configurados, vamos mergulhar na parte de codificação!
 
 Antes de chegarmos à parte emocionante, precisamos definir onde queremos que nosso arquivo seja salvo. Você vai querer fornecer um caminho de diretório de saída.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Mude para o diretório especificado
+string outputDir = "C:\\YourOutputDirectory\\"; // Mude para o diretório especificado
 ```
  Certifique-se de substituir`"C:\\YourOutputDirectory\\"` com o caminho onde você quer que seu arquivo seja salvo. Pense nisso como configurar seu espaço de trabalho; você precisa saber onde está colocando suas ferramentas (ou, neste caso, seu arquivo Excel).
 
 ## Etapa 2: Instanciando um objeto de pasta de trabalho
 
- Em seguida, estamos criando uma instância do`Workbook` classe. É aqui que todo o nosso trabalho acontecerá.
+Em seguida, estamos criando uma instância do`Workbook` classe. É aqui que todo o nosso trabalho acontecerá.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -123,7 +123,7 @@ Esta linha salva seu arquivo Excel recém-criado com a caixa de seleção no dir
 
 ## Conclusão
 
-aí está! Você adicionou com sucesso uma caixa de seleção a uma planilha de gráfico em um arquivo Excel usando o Aspose.Cells for .NET. Seguindo essas etapas, você pode criar planilhas Excel interativas e dinâmicas que oferecem ótima funcionalidade, tornando suas visualizações de dados ainda mais envolventes.
+E aí está! Você adicionou com sucesso uma caixa de seleção a uma planilha de gráfico em um arquivo Excel usando o Aspose.Cells for .NET. Seguindo essas etapas, você pode criar planilhas Excel interativas e dinâmicas que oferecem ótima funcionalidade, tornando suas visualizações de dados ainda mais envolventes.
 
 ## Perguntas frequentes
 
@@ -137,7 +137,7 @@ Aspose.Cells é uma biblioteca poderosa para criar e manipular arquivos do Excel
 De jeito nenhum! Como demonstrado neste tutorial, isso pode ser feito em apenas algumas linhas simples de código.
 
 ### Onde posso comprar o Aspose.Cells?  
-Você pode comprar Aspose.Cells em seu[link de compra](https://purchase.aspose.com/buy).
+ Você pode comprar Aspose.Cells em seu[link de compra](https://purchase.aspose.com/buy).
 
 ### Como posso obter suporte se tiver problemas?  
  A Aspose fornece um fórum de suporte onde você pode fazer perguntas e encontrar soluções. Confira o[página de suporte](https://forum.aspose.com/c/cells/9).

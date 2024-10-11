@@ -107,7 +107,7 @@ Artık başlıklarımız şık göründüğüne göre, dikkatimizi altbilgilere 
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Açıklama: Sol alt bilgiye "Merhaba Dünya!" metninin yanında özel bir mesaj ekliyoruz.`123` farklı bir yazı tipinde—Courier New.
+Açıklama: Sol alt bilgiye "Merhaba Dünya!" metninin yanında özel bir mesaj ekliyoruz.`123` farklı bir yazı tipinde—Courier New.
 
 ## Adım 7: Orta Alt Bilgi Yapılandırması
 

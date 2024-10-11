@@ -25,7 +25,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/page-break-preview-of-works
 
 ## 导入包
 
-要在您的 C# 项目中开始使用 Aspose.Cells，您需要导入必要的软件包。这可以通过在您的项目中添加引用来完成。
+要在您的 C# 项目中开始使用 Aspose.Cells，您需要导入必要的软件包。这可以通过向您的项目添加引用来完成。
 
 ### 包括必需的命名空间
 

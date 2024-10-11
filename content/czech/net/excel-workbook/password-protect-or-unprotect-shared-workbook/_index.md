@@ -53,7 +53,7 @@ Dále vytvoříme instanci nového excelového sešitu. Berte to jako položení
 Workbook wb = new Workbook();
 ```
 
-Tento řádek inicializuje nový objekt sešitu s názvem`wb`. Nyní jsme připraveni pracovat na tomto čerstvém plátně.
+ Tento řádek inicializuje nový objekt sešitu s názvem`wb`. Nyní jsme připraveni pracovat na tomto čerstvém plátně.
 
 ## Krok 3: Chraňte sdílený sešit heslem
 
@@ -100,7 +100,7 @@ Díky tomu budete vědět, že váš kód byl proveden podle očekávání a vá
 
 ## Závěr
 
-V tomto tutoriálu jsme prošli, jak chránit a zrušit ochranu sdíleného sešitu pomocí Aspose.Cells for .NET. Dodržováním těchto kroků můžete zajistit, aby vaše soubory Excel zůstaly v bezpečí a zároveň umožňovaly spolupráci. Ať už sdílíte citlivá finanční data nebo klientské informace, ochrana vaší práce je v dnešním prostředí klíčová.
+tomto tutoriálu jsme prošli, jak chránit a zrušit ochranu sdíleného sešitu pomocí Aspose.Cells for .NET. Dodržováním těchto kroků můžete zajistit, aby vaše soubory Excel zůstaly v bezpečí a zároveň umožňovaly spolupráci. Ať už sdílíte citlivá finanční data nebo klientské informace, ochrana vaší práce je v dnešním prostředí klíčová.
 
 ## FAQ
 
@@ -117,4 +117,4 @@ Bohužel, pokud zapomenete heslo, nebudete moci odemknout sešit bez použití n
 Aspose.Cells primárně podporuje .NET, ale mají knihovny i pro Javu a další jazyky. Podívejte se na jejich stránky pro více informací!
 
 ### Jak získám podporu pro Aspose.Cells?
- O pomoc se můžete obrátit prostřednictvím jejich fóra podpory:[Aspose Support](https://forum.aspose.com/c/cells/9).
+ pomoc se můžete obrátit prostřednictvím jejich fóra podpory:[Aspose Support](https://forum.aspose.com/c/cells/9).

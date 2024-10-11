@@ -55,7 +55,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- فقط استبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي تريده`book1.xls` يوجد الملف. فكر في هذا الأمر كأنك تعطي جهاز GPS الخاص بك العنوان الصحيح قبل بدء رحلة على الطريق!
+ فقط استبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي تريده`book1.xls`يوجد الملف. فكر في هذا الأمر كأنك تعطي جهاز GPS الخاص بك العنوان الصحيح قبل بدء رحلة على الطريق!
 
 ## الخطوة 4: افتح ملف Excel باستخدام FileStream
 

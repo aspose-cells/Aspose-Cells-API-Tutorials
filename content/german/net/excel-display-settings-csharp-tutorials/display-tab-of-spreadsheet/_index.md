@@ -41,7 +41,7 @@ Bevor wir eine Excel-Datei bearbeiten können, müssen wir den Pfad definieren, 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"`durch den tatsächlichen Verzeichnispfad auf Ihrem System. In dieses Verzeichnis laden Sie Ihre vorhandene Excel-Datei und speichern die Ausgabe.
+ Ersetzen`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Verzeichnispfad auf Ihrem System. In dieses Verzeichnis laden Sie Ihre vorhandene Excel-Datei und speichern die Ausgabe.
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 
@@ -61,7 +61,7 @@ In Excel können die Registerkarten unten (Tabelle1, Tabelle2 usw.) ausgeblendet
 workbook.Settings.ShowTabs = true;
 ```
 
- Einstellung`ShowTabs` Zu`true` stellt sicher, dass die Registerkarten beim Öffnen der Excel-Datei sichtbar sind.
+ Einstellung`ShowTabs` Zu`true`stellt sicher, dass die Registerkarten beim Öffnen der Excel-Datei sichtbar sind.
 
 ## Schritt 4: Speichern Sie die geänderte Excel-Datei
 
@@ -71,7 +71,7 @@ Sobald die Registerkarten angezeigt werden, müssen wir die aktualisierte Datei 
 workbook.Save(dataDir + "output.xls");
 ```
 
-Die Datei wird unter dem Namen gespeichert.`output.xls` im zuvor angegebenen Verzeichnis. Sie können auch einen anderen Namen oder ein anderes Dateiformat wählen (z. B.`.xlsx`), falls erforderlich.
+ Die Datei wird unter dem Namen gespeichert.`output.xls` im zuvor angegebenen Verzeichnis. Sie können auch einen anderen Namen oder ein anderes Dateiformat wählen (z. B.`.xlsx`), falls erforderlich.
 
 ## Abschluss
 
@@ -80,7 +80,7 @@ Und da haben Sie es! Sie haben die Registerkarten erfolgreich in einer Excel-Tab
 ## Häufig gestellte Fragen
 
 ### Kann ich die Registerkarten in Excel mit Aspose.Cells für .NET ausblenden?
- Absolut! Einfach einstellen`workbook.Settings.ShowTabs = false;` und speichern Sie die Datei. Dadurch werden die Registerkarten beim Öffnen der Arbeitsmappe ausgeblendet.
+ Absolut! Einfach einstellen`workbook.Settings.ShowTabs = false;`und speichern Sie die Datei. Dadurch werden die Registerkarten beim Öffnen der Arbeitsmappe ausgeblendet.
 
 ### Unterstützt Aspose.Cells andere Excel-Funktionen wie Diagramme und Pivot-Tabellen?
 Ja, Aspose.Cells ist eine umfassende Bibliothek, die fast alle Excel-Funktionen unterstützt, einschließlich Diagramme, Pivot-Tabellen, Formeln und mehr.

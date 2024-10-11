@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Vervolgens moeten we een`Workbook` object. Dit object fungeert als een container voor uw spreadsheetgegevens.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 

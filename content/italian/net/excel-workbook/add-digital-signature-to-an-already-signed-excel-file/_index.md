@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
-In questo passaggio, stiamo usando un metodo per ottenere i percorsi per le directory di origine e di output. Assicuratevi che queste directory esistano e contengano i file richiesti.
+In questo passaggio, stiamo usando un metodo per ottenere i percorsi per le directory di origine e di output. Assicurati che queste directory esistano e contengano i file richiesti.
 
 ## Passaggio 2: caricare la cartella di lavoro già firmata
 

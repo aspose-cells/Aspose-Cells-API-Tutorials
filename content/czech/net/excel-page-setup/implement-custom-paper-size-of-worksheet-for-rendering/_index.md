@@ -16,7 +16,7 @@ Vytváření a přizpůsobení dokumentů aplikace Excel programově může zefe
 Než se ponoříme do kódu, ujistěte se, že jste jej správně nastavili. Zde je to, co potřebujete, abyste mohli začít:
 
 1. Visual Studio nebo libovolné .NET IDE: Ujistěte se, že máte funkční IDE jako Visual Studio. Toto bude vaše hřiště, kde se odehrává všechna kouzla kódování.
-2. Balíček Aspose.Cells for .NET: Pokud jste to ještě neudělali, budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells. Nejnovější verzi najdete na[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Balíček Aspose.Cells for .NET: Pokud jste to ještě neudělali, budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells. Nejnovější verzi najdete na[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: I když vás provedeme kódem, znalost C# vám pomůže lépe porozumět nuancím.
 4. Přístup k rozhraní .NET Framework: Ujistěte se, že je váš projekt nastaven tak, aby cílil na kompatibilní verzi rozhraní .NET Framework.
 
@@ -85,7 +85,7 @@ Nyní se dostáváme k té šťavnaté části. Nastavíme vlastní velikost pap
 ws.PageSetup.CustomPaperSize(6, 4);
 ```
 
-tomto scénáři určujeme velikost v palcích. Představte si to jako ušití obleku, aby dokonale seděl – na každém detailu záleží!
+V tomto scénáři určujeme velikost v palcích. Představte si to jako ušití obleku, aby dokonale seděl – na každém detailu záleží!
 
 ## Krok 5: Přístup k buňce
 
@@ -124,7 +124,7 @@ Implementace vlastní velikosti papíru pro vaše excelové listy pomocí Aspose
 ## FAQ
 
 ### Mohu používat Aspose.Cells bez zakoupení licence?
- Ano, můžete vyzkoušet bezplatnou zkušební verzi Aspose.Cells pro .NET, která je k dispozici[zde](https://releases.aspose.com/).
+Ano, můžete vyzkoušet bezplatnou zkušební verzi Aspose.Cells pro .NET, která je k dispozici[zde](https://releases.aspose.com/).
 
 ### Co se stane, když překročím limity dočasné licence?
  Překročení limitů povede k výstupům s vodoznakem. Nejlepší je zvolit trvalou licenci pro nepřetržitou službu. Můžete najít možnosti[zde](https://purchase.aspose.com/buy).
@@ -133,7 +133,7 @@ Implementace vlastní velikosti papíru pro vaše excelové listy pomocí Aspose
 Ano, Aspose.Cells for .NET podporuje .NET Core. Můžete jej bez problémů integrovat do svých moderních aplikací.
 
 ### Jak získám podporu, pokud narazím na problémy?
- Můžete se obrátit na fórum podpory Aspose[zde](https://forum.aspose.com/c/cells/9)za pomoc s případnými technickými problémy.
+ Můžete se obrátit na fórum podpory Aspose[zde](https://forum.aspose.com/c/cells/9) za pomoc s případnými technickými problémy.
 
 ### Mohu upravit další aspekty listu pomocí Aspose.Cells?
 Absolutně! Aspose.Cells nabízí robustní sadu funkcí pro přizpůsobení pracovních listů, včetně stylů, vzorců a mnoha dalších.

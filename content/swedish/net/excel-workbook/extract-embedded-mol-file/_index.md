@@ -72,7 +72,7 @@ Låt oss dela upp extraktionsprocessen i lätta att följa steg.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- I det här steget skapar vi en ny instans av`Workbook`klass, som fungerar som en brygga till innehållet i din Excel-fil. Filen laddas här så att vi senare kan iterera genom arken och hitta de inbäddade MOL-objekten.
+ I det här steget skapar vi en ny instans av`Workbook` klass, som fungerar som en brygga till innehållet i din Excel-fil. Filen laddas här så att vi senare kan iterera genom arken och hitta de inbäddade MOL-objekten.
 
 ## Steg 3: Iterera genom arbetsblad
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Med det här utdraget använder vi en`foreach` slinga för att gå igenom varje ark i vår arbetsbok. Genom att komma åt`OleObjects` samling kan vi få tillgång till alla inbäddade objekt på just det arket. 
+ Med det här utdraget använder vi en`foreach` slinga för att gå igenom varje ark i vår arbetsbok. Genom att komma åt`OleObjects`samling kan vi få tillgång till alla inbäddade objekt på just det arket. 
 
 ## Steg 4: Extrahera OLE-objekt
 
@@ -132,7 +132,7 @@ Aspose.Cells för .NET är ett kraftfullt bibliotek utformat för att manipulera
 Absolut! Aspose.Cells låter dig extrahera olika inbäddade filformat som PDF-filer, bilder och mer, inte bara MOL-filer.
 
 ### Behöver jag köpa Aspose.Cells för att använda den?  
-Även om det finns en gratis testversion, krävs en licens för alla funktioner. Du kan[köp den här](https://purchase.aspose.com/buy).
+ Även om det finns en gratis testversion, krävs en licens för alla funktioner. Du kan[köp den här](https://purchase.aspose.com/buy).
 
 ### Är det nödvändigt att ha Visual Studio för denna process?  
 Medan vi demonstrerade med Visual Studio kan du använda vilken C#-kompatibel IDE som helst för att köra ditt projekt.

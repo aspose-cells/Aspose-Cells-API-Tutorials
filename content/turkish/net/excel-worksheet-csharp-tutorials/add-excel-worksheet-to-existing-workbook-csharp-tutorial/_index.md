@@ -53,14 +53,14 @@ Artık dizini ayarladığımıza göre, mevcut Excel çalışma kitabıyla etkil
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Bu adımda, açıyoruz`book1.xls`belirtilen dizinde zaten mevcut olmalıdır. Bu dosyanın elinizin altında olduğundan emin olun, aksi takdirde işlem bir hata verecektir.
+ Bu adımda, açıyoruz`book1.xls`, belirtilen dizinde zaten mevcut olmalıdır. Bu dosyanın elinizin altında olduğundan emin olun, aksi takdirde işlem bir hata verecektir.
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
 Daha sonra Excel dosyamızı tutacak olan Workbook sınıfının bir örneğini oluşturmamız gerekiyor.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Dosya akışımızdan bir çalışma kitabı örneği oluşturarak artık Excel 
 
 ## Adım 4: Yeni Bir Çalışma Sayfası Ekleyin
 
- İşte heyecan verici kısım geliyor! Çalışma kitabımıza yeni bir çalışma sayfası ekleyelim. Bu, şunu kullanarak yapılır:`Add()` yöntemden`Worksheets` koleksiyon.
+İşte heyecan verici kısım geliyor! Çalışma kitabımıza yeni bir çalışma sayfası ekleyelim. Bu, şunu kullanarak yapılır:`Add()` yöntemden`Worksheets`koleksiyon.
 
 ```csharp
 // Çalışma Kitabı nesnesine yeni bir çalışma sayfası ekleme
@@ -87,7 +87,7 @@ Yeni çalışma sayfasını oluşturduğumuzda, ona bir referans edinmek önemli
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Burada, dizini kullanıyoruz`i` yeni oluşturduğumuz çalışma sayfamıza başvurmak için. Bu, onu daha fazla düzenlememize olanak tanır.
+ Burada, dizini kullanıyoruz`i` yeni oluşturduğumuz çalışma sayfamıza başvurmak için. Bu, onu daha fazla düzenlememize olanak tanır.
 
 ## Adım 6: Yeni Çalışma Sayfasının Adını Belirleyin
 

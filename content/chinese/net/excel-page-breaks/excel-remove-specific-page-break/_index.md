@@ -16,7 +16,7 @@ url: /zh/net/excel-page-breaks/excel-remove-specific-page-break/
 在深入研究代码细节之前，让我们先确保您已准备好开始所需的一切。以下是先决条件的快速检查表：
 
 1. Visual Studio：您需要安装可正常运行的 Visual Studio 来创建和运行 .NET 应用程序。
-2. Aspose.Cells for .NET：确保已安装 Aspose.Cells 库。如果尚未安装，可以从以下位置下载[这里](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：确保已安装 Aspose.Cells 库。如果尚未安装，可以从以下位置下载[这里](https://releases.aspose.com/cells/net/).
 3. C# 基础知识：熟悉 C# 编程将帮助您更好地理解代码片段。
 4. Excel 文件：准备一个包含一些分页符的 Excel 文件供我们进行实验。
 

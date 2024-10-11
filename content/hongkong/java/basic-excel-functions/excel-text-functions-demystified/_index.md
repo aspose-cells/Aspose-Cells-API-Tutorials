@@ -114,7 +114,7 @@ cell.putValue("Search for me");
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 
-//將“為”替換為“與”
+//將“用於”替換為“與”
 cell = worksheet.getCells().get("C5");
 cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 

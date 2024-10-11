@@ -9,7 +9,7 @@ url: /cs/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 ---
 ## Zavedení
 
-Ve světě vizualizace dat jsou grafy běžnou metodou pro prezentaci komplexních informací přístupným způsobem. Ne všechny datové štítky jsou však stejné! Někdy je potřeba, aby se tyto štítky objevily, a použití různých tvarů může znamenat významný rozdíl. Pokud chcete vylepšit popisky dat v grafech aplikace Excel pomocí vlastních tvarů, jste na správném místě. Tato příručka vás provede nastavením typu tvaru datových štítků v grafu pomocí Aspose.Cells pro .NET. Pojďme se do toho ponořit!
+Ve světě vizualizace dat jsou grafy běžnou metodou pro prezentaci komplexních informací přístupným způsobem. Ne všechny datové štítky jsou si však rovny! Někdy je potřeba, aby se tyto štítky objevily, a použití různých tvarů může znamenat významný rozdíl. Pokud chcete vylepšit popisky dat v grafech aplikace Excel pomocí vlastních tvarů, jste na správném místě. Tato příručka vás provede nastavením typu tvaru datových štítků v grafu pomocí Aspose.Cells pro .NET. Pojďme se do toho ponořit!
 
 ## Předpoklady
 
@@ -67,7 +67,7 @@ Dále budete muset načíst soubor Excel, se kterým chcete pracovat. Tady zač�
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- Tento řádek vytvoří nový`Workbook` objekt a nasměruje jej na váš existující soubor. Ujistěte se, že cesta k souboru je správná!
+ Tento řádek vytvoří nový`Workbook` objekt a nasměruje jej na váš stávající soubor. Ujistěte se, že cesta k souboru je správná!
 
 ## Krok 3: Otevřete první pracovní list
 

@@ -36,7 +36,7 @@ Sekarang setelah semuanya siap dan siap untuk membuat kode, mari kita bagi prose
 
 ## Langkah 1: Siapkan Lingkungan Anda
 
- Pada langkah ini, Anda akan mengatur jalur file tempat file Excel Anda berada. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke berkas Anda.
+Pada langkah ini, Anda akan mengatur jalur file tempat file Excel Anda berada. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke berkas Anda.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -72,7 +72,7 @@ Langkah ini seperti mengatakan “Halo!” ke buku kerja Anda, sehingga buku ker
 Dengan buku kerja di tangan, saatnya mengakses lembar kerja tertentu yang ingin Anda sembunyikan. Kita akan mulai dengan lembar kerja pertama.
 
 ```csharp
-// Mengakses lembar kerja pertama dalam file Excel
+//Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Setelah menyembunyikan lembar kerja, sebaiknya Anda menyimpan perubahan yang tel
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Di sini, kita menyimpan buku kerja sebagai`output.out.xls`. Itu seperti menyegel pekerjaan Anda dalam sebuah amplop. Jika Anda tidak menyimpannya, semua kerja keras Anda akan hilang!
+ Di sini, kita menyimpan buku kerja sebagai`output.out.xls`. Itu seperti menyegel pekerjaan Anda dalam sebuah amplop. Jika Anda tidak menyimpannya, semua kerja keras Anda akan hilang!
 
 ## Langkah 7: Tutup Aliran File
 
@@ -132,7 +132,7 @@ Memanipulasi lembar kerja Excel menggunakan Aspose.Cells untuk .NET tidak harus 
  Ya, Anda dapat melakukan pengulangan`Worksheets` koleksi dan atur`IsVisible` properti menjadi false untuk setiap lembar yang ingin Anda sembunyikan.
 
 ### Format file apa yang didukung Aspose.Cells?
- Aspose.Cells mendukung berbagai format termasuk XLS, XLSX, CSV, dan banyak lagi. Anda dapat memeriksa daftar lengkapnya[Di Sini](https://reference.aspose.com/cells/net/).
+Aspose.Cells mendukung berbagai format termasuk XLS, XLSX, CSV, dan banyak lagi. Anda dapat memeriksa daftar lengkapnya[Di Sini](https://reference.aspose.com/cells/net/).
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
  Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya. Lisensi penuh diperlukan untuk aplikasi produksi. Cari tahu lebih lanjut tentangnya[Di Sini](https://purchase.aspose.com/buy).

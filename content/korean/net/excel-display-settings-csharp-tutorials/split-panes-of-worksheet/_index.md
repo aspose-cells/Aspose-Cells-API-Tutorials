@@ -38,14 +38,14 @@ using Aspose.Cells;
 창을 나누기 전에 작업할 워크북이 필요합니다! 이 단계는 책을 읽기 전에 책을 여는 것만큼 필수적입니다.
 
 ```csharp
-//문서 디렉토리 경로
+// 문서 디렉토리 경로
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // 새 통합 문서를 인스턴스화하고 템플릿 파일을 엽니다.
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- 위의 코드에서 다음을 바꾸세요.`"YOUR DOCUMENT DIRECTORY"` Excel 파일이 있는 실제 경로와 함께.`Workbook` 클래스는 Excel 파일을 메모리에 로드합니다.
+ 위의 코드에서 다음을 바꾸세요.`"YOUR DOCUMENT DIRECTORY"` Excel 파일이 있는 실제 경로와 함께.`Workbook`클래스는 Excel 파일을 메모리에 로드합니다.
 
 ## 2단계: 활성 셀 설정
 
@@ -84,7 +84,7 @@ book.Worksheets[0].Split();
 book.Save(dataDir + "output.xls");
 ```
 
- 여기서,`Save()`이 방법은 새로 분할된 창이 있는 통합 문서를 출력 Excel 파일에 저장합니다. 변경한 내용은 이제 귀하 또는 다른 사람이 사용할 수 있습니다.
+ 여기서,`Save()` 이 방법은 새로 분할된 창이 있는 통합 문서를 출력 Excel 파일에 저장합니다. 변경한 내용은 이제 귀하 또는 다른 사람이 사용할 수 있습니다.
 
 ## 결론
 

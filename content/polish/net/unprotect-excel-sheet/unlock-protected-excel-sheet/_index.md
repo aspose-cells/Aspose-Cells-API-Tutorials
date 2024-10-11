@@ -16,7 +16,7 @@ dzisiejszym dynamicznym świecie biznesu zarządzanie danymi jest najważniejsze
 Zanim przejdziesz do kodowania, koniecznie upewnij się, że wszystko jest skonfigurowane, by korzystanie z Aspose.Cells dla .NET przebiegało bezproblemowo:
 
 1.  Visual Studio: Musisz mieć zainstalowany program Visual Studio na swoim komputerze. Jeśli go nie masz, pobierz najnowszą wersję z[Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/)Można również zainstalować go bezpośrednio za pomocą NuGet w programie Visual Studio.
+2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/)Można też zainstalować go bezpośrednio za pomocą NuGet w programie Visual Studio.
 3. Podstawowe zrozumienie języka C#: Ponieważ będziemy pisać kod C#, podstawowa znajomość języka będzie przydatna. Jeśli jesteś nowy w C#, jest wiele zasobów, które pomogą Ci nadrobić zaległości.
 4. Plik Excela: Przygotuj skoroszyt Excela, który chcesz odblokować. W tym przykładzie będziemy się do niego odwoływać jako „book1.xls”.
 

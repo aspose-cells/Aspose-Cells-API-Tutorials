@@ -16,7 +16,7 @@ V digitálním věku je správa a zabezpečení vašich dat důležitější ne�
 Než se ponoříte do kódu, ujistěte se, že máte vše, co potřebujete:
 
 1. Vývojové prostředí: Měli byste mít na svém počítači nainstalované Visual Studio, protože poskytuje vynikající IDE pro vývoj .NET.
-2.  Aspose.Cells Library: Stáhněte si knihovnu Aspose.Cells. Můžete to získat z[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Stáhněte si knihovnu Aspose.Cells. Můžete to získat z[Stránka Aspose Downloads](https://releases.aspose.com/cells/net/).
 3. Základní znalosti C#: Ujistěte se, že dobře rozumíte C# a .NET Framework, abyste je mohli snadno sledovat.
 4. Vytvoření projektu: Ve Visual Studiu nastavte novou konzolovou aplikaci, do které napíšeme kód.
 
@@ -48,7 +48,7 @@ Pojďme si implementaci rozdělit do zvládnutelných kroků. Vytvoříme jednod
 
 ## Krok 1: Vytvořte datový proud pro svůj soubor Excel
 
- Nejprve musíme načíst existující soubor Excel. Použijeme a`FileStream` pro přístup.
+Nejprve musíme načíst existující soubor Excel. Použijeme a`FileStream` pro přístup.
 
 ```csharp
 // Cesta k adresáři dokumentů.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Nyní, když máme souborový proud, můžeme vytvořit soubor`Workbook` objekt.
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Pro naše účely budeme pracovat pouze s prvním pracovním listem. Pojďme k tomu přistupovat.
 
 ```csharp
-// Přístup k prvnímu listu v souboru aplikace Excel
+//Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Listy jsou indexovány od nuly, takže`Worksheets[0]`odkazuje na první list v souboru Excel. Nyní můžeme použít naše nastavení ochrany na tento konkrétní list.
+ Listy jsou indexovány od nuly, takže`Worksheets[0]` odkazuje na první list v souboru Excel. Nyní můžeme použít naše nastavení ochrany na tento konkrétní list.
 
 ## Krok 4: Použijte rozšířená nastavení ochrany
 
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // Uložení upraveného souboru Excel
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Zde ukládáme sešit do nového souboru,`output.xls`. Tímto způsobem zůstane původní soubor nedotčen a my můžeme zkontrolovat aplikované ochrany v našem novém souboru.
+ Zde ukládáme sešit do nového souboru,`output.xls`Tímto způsobem zůstane původní soubor nedotčen a my můžeme zkontrolovat aplikované ochrany v našem novém souboru.
 
 ## Krok 6: Zavřete Stream souborů
 
@@ -140,7 +140,7 @@ Tento krok je zásadní pro efektivní řízení zdrojů. Selhání při zavřen
 
 ## Závěr
 
-tady to máte! Úspěšně jste implementovali pokročilá nastavení ochrany pro list aplikace Excel pomocí Aspose.Cells for .NET. Řízením uživatelských oprávnění můžete zachovat integritu svých dat a zároveň zajistit nezbytnou flexibilitu. Tento proces nejen zabezpečuje vaše informace, ale také umožňuje spolupráci bez rizika ztráty dat. 
+A tady to máte! Úspěšně jste implementovali pokročilá nastavení ochrany pro list aplikace Excel pomocí Aspose.Cells for .NET. Řízením uživatelských oprávnění můžete zachovat integritu svých dat a zároveň zajistit nezbytnou flexibilitu. Tento proces nejen zabezpečuje vaše informace, ale také umožňuje spolupráci bez rizika ztráty dat. 
 
 ## FAQ
 
@@ -148,7 +148,7 @@ tady to máte! Úspěšně jste implementovali pokročilá nastavení ochrany pr
 Aspose.Cells je výkonná knihovna, která vám umožňuje vytvářet, manipulovat a převádět soubory Excelu programově v .NET.
 
 ### Mohu chránit více listů najednou?
- Ano! Podobná nastavení ochrany můžete použít na více listů iterací přes`Worksheets` sbírka.
+ Ano! Podobná nastavení ochrany můžete použít na více listů iterací přes`Worksheets`sbírka.
 
 ### Potřebuji licenci k používání Aspose.Cells?
  I když je k dispozici bezplatná zkušební verze, pro úplný vývoj je vyžadována licence. Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).

@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadshe
 ---
 ## 介紹
 
-以程式設計方式處理 Excel 檔案時，您可能需要隱藏或顯示某些元素（例如標籤）以獲得乾淨且專業的簡報。 Aspose.Cells for .NET 提供了一個簡單有效的方法來實現這一目標。在本教學中，我們將逐步介紹使用 Aspose.Cells for .NET 在 Excel 電子表格中隱藏工作表標籤的過程，從設定環境到儲存最終檔案。到最後，您將完全有能力充滿信心地執行此任務。
+以程式設計方式處理 Excel 檔案時，您可能需要隱藏或顯示某些元素（例如標籤）以獲得乾淨、專業的簡報。 Aspose.Cells for .NET 提供了一個簡單有效的方法來實現這一目標。在本教學中，我們將逐步介紹使用 Aspose.Cells for .NET 在 Excel 電子表格中隱藏工作表標籤的過程，從設定環境到儲存最終檔案。到最後，您將完全有能力充滿信心地執行此任務。
 
 ## 先決條件
 
@@ -78,7 +78,7 @@ workbook.Settings.ShowTabs = false;
 workbook.Settings.ShowTabs = true;
 ```
 
-這對於當前任務不是強制性的，但如果您正在創建一個互動式程序，用戶可以在顯示和隱藏選項卡之間切換，那麼這很有用。
+這對於當前任務不是強制性的，但如果您正在建立用戶可以在顯示和隱藏選項卡之間切換的互動式程序，則非常有用。
 
 ## 步驟5：保存修改後的Excel文件
 

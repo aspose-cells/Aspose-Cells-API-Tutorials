@@ -112,7 +112,7 @@ Hier geben Sie Ihrem Kunstwerk einen Titel. Er hilft den Betrachtern zu verstehe
 Jetzt legen wir fest, wie die Beschriftung im Verhältnis zum Diagramm positioniert wird. Hier legen wir fest, dass sie frei schwebend ist, was bedeutet, dass sie unabhängig von den Diagrammelementen verschoben werden kann.
 
 ```csharp
-//Legen Sie den Platzierungstyp fest, also die Art und Weise, wie das Etikett an die Zellen angehängt wird.
+// Legen Sie den Platzierungstyp fest, also die Art und Weise, wie das Etikett an die Zellen angehängt wird.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Und da haben Sie es! Sie haben erfolgreich ein Beschriftungssteuerelement zu ein
 Ja! Sie können Schriftart, Farbe, Größe und andere Eigenschaften des Etiketts Ihren Wünschen entsprechend ändern.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells ist ein kostenpflichtiges Produkt. Sie können jedoch mit einem[Kostenlose Testversion](https://releases.aspose.com/) um seine Funktionen zu erkunden.
+ Aspose.Cells ist ein kostenpflichtiges Produkt. Sie können jedoch mit einem[Kostenlose Testversion](https://releases.aspose.com/)um seine Funktionen zu erkunden.
 
 ### Was ist, wenn ich mehrere Etiketten hinzufügen möchte?
 Sie können die Schritte zum Hinzufügen der Etiketten beliebig oft wiederholen, jeweils mit unterschiedlichen Positionen und Texten.

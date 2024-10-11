@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Teraz czas utworzyć nowy skoroszyt. To jest miejsce, w którym będą przechowywane wszystkie Twoje dane i ustawienia.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Pliki Excel mogą zawierać wiele arkuszy kalkulacyjnych. Uzyskamy dostęp do pierwszego arkusza kalkulacyjnego, aby zastosować nasz współczynnik skalowania.
 
 ```csharp
-// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

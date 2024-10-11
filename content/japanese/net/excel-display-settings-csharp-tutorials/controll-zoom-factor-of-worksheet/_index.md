@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 ワークブックがメモリ内に保存されたら、変更する特定のワークシートにアクセスします。ほとんどの場合、これは最初のワークシート (インデックス 0) になります。
 
 ```csharp
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

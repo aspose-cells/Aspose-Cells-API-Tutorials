@@ -172,7 +172,7 @@ A: Auf jeden Fall. Aspose.Cells für Java ist für die Stapelverarbeitung konzip
 ### F: Wie kann ich mit Aspose.Cells für Java passwortgeschützte Excel-Dateien verarbeiten?
 A: Aspose.Cells für Java bietet Methoden zum Arbeiten mit passwortgeschützten Excel-Dateien, sodass Sie diese entsperren und bearbeiten können.
 
-### F: Gibt es eine Community oder ein Support-Forum für Aspose.Cells für Java-Benutzer?
+### F: Gibt es eine Community oder ein Supportforum für Aspose.Cells für Java-Benutzer?
 A: Ja, Aspose bietet ein Community-Forum, in dem Benutzer Hilfe suchen, Erfahrungen austauschen und Lösungen für häufige Probleme finden können.
 
 ## Abschluss

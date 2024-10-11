@@ -16,7 +16,7 @@ A digitális korban az adatok kezelése és védelme fontosabb, mint valaha. Az 
 Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
 
 1. Fejlesztői környezet: A Visual Studio telepítve legyen a gépére, mivel kiváló IDE-t biztosít a .NET fejlesztéshez.
-2.  Aspose.Cells Library: Töltse le az Aspose.Cells könyvtárat. Beszerezheti a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Töltse le az Aspose.Cells könyvtárat. Beszerezheti a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/).
 3. Alapvető C#-ismeretek: Győződjön meg arról, hogy jól ismeri a C#-ot és a .NET-keretrendszert, hogy könnyen követhesse.
 4. Projekt létrehozása: Állítson be egy új konzolalkalmazást a Visual Studio-ban, ahol megírjuk a kódot.
 
@@ -48,7 +48,7 @@ Bontsuk le a megvalósítást kezelhető lépésekre. Létrehozunk egy egyszerű
 
 ## 1. lépés: Hozzon létre egy fájlfolyamot az Excel-fájlhoz
 
- Először is be kell töltenünk egy meglévő Excel fájlt. Használjuk a`FileStream` hozzáférni.
+Először is be kell töltenünk egy meglévő Excel fájlt. Használjuk a`FileStream` hozzáférni.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Most, hogy van egy fájlfolyamunk, létrehozhatunk a`Workbook` objektum.
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 // Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Céljainkra csak az első munkalappal fogunk dolgozni. Hozzáférjünk.
 
 ```csharp
-// Az Excel fájl első munkalapjának elérése
+//Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = excel.Worksheets[0];
 ```
- A munkalapokat nullától kezdve indexeljük, tehát`Worksheets[0]`az Excel fájl első munkalapjára vonatkozik. Most alkalmazhatjuk védelmi beállításainkat erre a konkrét lapra.
+ A munkalapokat nullától kezdve indexeljük, tehát`Worksheets[0]` az Excel fájl első munkalapjára vonatkozik. Most alkalmazhatjuk védelmi beállításainkat erre a konkrét lapra.
 
 ## 4. lépés: Alkalmazza a Speciális védelmi beállításokat
 
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // A módosított Excel fájl mentése
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Itt mentjük a munkafüzetet egy új fájlba,`output.xls`. Így az eredeti fájl érintetlen marad, és az új fájlunkban ellenőrizhetjük az alkalmazott védelmeket.
+ Itt mentjük a munkafüzetet egy új fájlba,`output.xls`Így az eredeti fájl érintetlen marad, és az új fájlunkban ellenőrizhetjük az alkalmazott védelmeket.
 
 ## 6. lépés: Zárja be a Fájlfolyamot
 
@@ -148,7 +148,7 @@ Ez a lépés kulcsfontosságú az erőforrások hatékony kezeléséhez. Az adat
 Az Aspose.Cells egy hatékony könyvtár, amely lehetővé teszi Excel-fájlok programozott létrehozását, kezelését és konvertálását a .NET-ben.
 
 ### Megvédhetek több munkalapot egyszerre?
- Igen! Hasonló védelmi beállításokat alkalmazhat több munkalapon is a következőn keresztül`Worksheets` gyűjtemény.
+ Igen! Hasonló védelmi beállításokat alkalmazhat több munkalapon is a következőn keresztül`Worksheets`gyűjtemény.
 
 ### Szükségem van engedélyre az Aspose.Cells használatához?
  Bár ingyenes próbaverzió áll rendelkezésre, a teljes körű fejlesztéshez licenc szükséges. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- W tym fragmencie kodu,`"Your Document Directory"` I`"Your Document Directory"`zakłada się, że pobierają odpowiednie ścieżki do miejsca, w którym będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
+ W tym fragmencie kodu,`"Your Document Directory"` I`"Your Document Directory"` zakłada się, że pobierają odpowiednie ścieżki do miejsca, w którym będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
 
 ## Krok 2: Załaduj plik XLSB
 
@@ -68,7 +68,7 @@ Po załadowaniu skoroszytu możesz uzyskać dostęp do jego połączeń zewnętr
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Tutaj,`DataConnections[0]` odnosi się do pierwszego połączenia w skoroszycie. Rzucamy je jako`DBConnection` wpisz w celu dalszej manipulacji.
+ Tutaj,`DataConnections[0]`odnosi się do pierwszego połączenia w skoroszycie. Rzucamy je jako`DBConnection` wpisz w celu dalszej manipulacji.
 
 ## Krok 4: Wyodrębnij informacje o połączeniu
 
@@ -125,7 +125,7 @@ I masz to! Udało Ci się nauczyć, jak odczytywać i zapisywać połączenia ze
 Plik XLSB to binarny format pliku programu Excel, który przechowuje dane arkusza kalkulacyjnego w formacie binarnym, dzięki czemu jest on bardziej kompaktowy i szybciej się go otwiera.
 
 ### Jak zainstalować Aspose.Cells dla .NET?  
-Można go łatwo pobrać ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/cells/net/).
+ Można go łatwo pobrać ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/cells/net/).
 
 ### Czy mogę używać Aspose.Cells za darmo?  
  Tak! Możesz zacząć od bezpłatnego okresu próbnego, który jest dostępny[Tutaj](https://releases.aspose.com/).

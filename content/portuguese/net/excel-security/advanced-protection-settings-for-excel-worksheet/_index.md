@@ -16,7 +16,7 @@ Na era digital, gerenciar e proteger seus dados é mais importante do que nunca.
 Antes de mergulhar no código, vamos garantir que você tenha tudo o que precisa:
 
 1. Ambiente de desenvolvimento: você deve ter o Visual Studio instalado em sua máquina, pois ele fornece um excelente IDE para desenvolvimento .NET.
-2.  Biblioteca Aspose.Cells: Baixe a biblioteca Aspose.Cells. Você pode obtê-la em[Página de downloads do Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: Baixe a biblioteca Aspose.Cells. Você pode obtê-la em[Página de downloads do Aspose](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: certifique-se de ter um bom entendimento de C# e .NET Framework para acompanhar facilmente.
 4. Criar um projeto: configure um novo aplicativo de console no Visual Studio onde escreveremos o código.
 
@@ -48,7 +48,7 @@ Vamos dividir a implementação em etapas gerenciáveis. Criaremos um arquivo Ex
 
 ## Etapa 1: Crie um fluxo de arquivos para seu arquivo Excel
 
- Primeiro, precisamos carregar um arquivo Excel existente. Usaremos um`FileStream` para acessá-lo.
+Primeiro, precisamos carregar um arquivo Excel existente. Usaremos um`FileStream` para acessá-lo.
 
 ```csharp
 // O caminho para o diretório de documentos.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Agora que temos um fluxo de arquivo, podemos criar um`Workbook` objeto.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Para nossos propósitos, vamos trabalhar apenas com a primeira planilha. Vamos acessá-la.
 
 ```csharp
-// Acessando a primeira planilha no arquivo Excel
+//Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
- As planilhas são indexadas a partir do zero, então`Worksheets[0]`refere-se à primeira planilha no arquivo Excel. Agora, podemos aplicar nossas configurações de proteção a essa planilha específica.
+ As planilhas são indexadas a partir do zero, então`Worksheets[0]` refere-se à primeira planilha no arquivo Excel. Agora, podemos aplicar nossas configurações de proteção a essa planilha específica.
 
 ## Etapa 4: aplicar configurações de proteção avançadas
 
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // Salvando o arquivo Excel modificado
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Aqui estamos salvando a pasta de trabalho em um novo arquivo,`output.xls`. Dessa forma, o arquivo original permanece intacto e podemos verificar as proteções aplicadas em nosso novo arquivo.
+ Aqui estamos salvando a pasta de trabalho em um novo arquivo,`output.xls`Dessa forma, o arquivo original permanece intacto e podemos verificar as proteções aplicadas em nosso novo arquivo.
 
 ## Etapa 6: Feche o fluxo de arquivos
 
@@ -140,7 +140,7 @@ Esta etapa é crucial para gerenciar recursos de forma eficaz. Não fechar fluxo
 
 ## Conclusão
 
-aí está! Você implementou com sucesso configurações de proteção avançadas para uma planilha do Excel usando o Aspose.Cells para .NET. Ao controlar as permissões do usuário, você pode manter a integridade dos seus dados enquanto permite a flexibilidade necessária. Este processo não apenas protege suas informações, mas também permite a colaboração sem risco de perda de dados. 
+E aí está! Você implementou com sucesso configurações de proteção avançadas para uma planilha do Excel usando o Aspose.Cells para .NET. Ao controlar as permissões do usuário, você pode manter a integridade dos seus dados enquanto permite a flexibilidade necessária. Este processo não apenas protege suas informações, mas também permite a colaboração sem risco de perda de dados. 
 
 ## Perguntas frequentes
 
@@ -148,7 +148,7 @@ aí está! Você implementou com sucesso configurações de proteção avançada
 Aspose.Cells é uma biblioteca poderosa que permite criar, manipular e converter arquivos do Excel programaticamente no .NET.
 
 ### Posso proteger várias planilhas de uma só vez?
- Sim! Você pode aplicar configurações de proteção semelhantes a várias planilhas iterando por meio do`Worksheets` coleção.
+ Sim! Você pode aplicar configurações de proteção semelhantes a várias planilhas iterando por meio do`Worksheets`coleção.
 
 ### Preciso de uma licença para usar o Aspose.Cells?
  Embora haja um teste gratuito disponível, uma licença é necessária para desenvolvimento em larga escala. Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

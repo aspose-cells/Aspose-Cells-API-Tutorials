@@ -18,7 +18,7 @@ Konuya dalmadan önce birkaç şeyi yerli yerine oturtalım:
 1. .NET Framework: Makinenizde .NET Framework'ün uyumlu bir sürümünün yüklü olduğundan emin olun. Aspose.Cells çeşitli sürümleri destekler, bu nedenle ayrıntılar için belgelerine bakın.
 2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesini indirmeniz gerekecek. Bunu henüz yapmadıysanız, şurayı ziyaret edin:[indirme bağlantısı](https://releases.aspose.com/cells/net/) onu yakalamak için.
 3. Visual Studio veya Herhangi Bir IDE: .NET kodunuzu yazıp çalıştırabileceğiniz bir geliştirme ortamına sahip olun.
-4. C# Hakkında Temel Bilgi: C# programlamaya aşina olmak çok faydalı olacaktır, ancak yeniyseniz endişelenmeyin; sizi kodda yönlendireceğim!
+4. C# Hakkında Temel Bilgi: C# programlamaya aşinalık son derece faydalı olacaktır, ancak yeniyseniz endişelenmeyin; sizi kodda yönlendireceğim!
 5.  Örnek Excel Dosyası: İşlevselliği test etmek için basit bir Excel dosyasına sahip olun, örneğin:`book1.xls`, kullanıma hazır. Excel kullanarak bir tane oluşturabilir veya gerekirse bazı örnek dosyaları indirebilirsiniz.
 
 ## Paketleri İçe Aktarma

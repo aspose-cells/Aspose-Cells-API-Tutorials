@@ -10,7 +10,7 @@ url: /pl/java/advanced-excel-charts/interactive-dashboards/
 
 ## Wstęp
 
-dynamicznym świecie podejmowania decyzji opartych na danych interaktywne pulpity odgrywają kluczową rolę. Zapewniają dynamiczny i intuicyjny sposób wizualizacji danych, ułatwiając firmom wyciąganie wniosków i podejmowanie świadomych wyborów. Aspose.Cells for Java oferuje potężny zestaw narzędzi do tworzenia interaktywnych pulpitów, które mogą przekształcać surowe dane w znaczące i interaktywne wizualizacje. W tym przewodniku krok po kroku przyjrzymy się, jak wykorzystać Aspose.Cells for Java do tworzenia interaktywnych pulpitów od podstaw.
+szybko zmieniającym się świecie podejmowania decyzji opartych na danych, interaktywne pulpity odgrywają kluczową rolę. Zapewniają dynamiczny i intuicyjny sposób wizualizacji danych, ułatwiając firmom wyciąganie wniosków i podejmowanie świadomych wyborów. Aspose.Cells for Java oferuje potężny zestaw narzędzi do tworzenia interaktywnych pulpitów, które mogą przekształcać surowe dane w znaczące i interaktywne wizualizacje. W tym przewodniku krok po kroku przyjrzymy się, jak wykorzystać Aspose.Cells for Java do tworzenia interaktywnych pulpitów od podstaw.
 
 ## Wymagania wstępne
 

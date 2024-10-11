@@ -38,14 +38,14 @@ Bây giờ chúng ta đã nắm được những điều cần thiết, hãy chu
 Trước khi chúng ta có thể chia khung, chúng ta cần một sổ làm việc để làm việc! Bước này cũng quan trọng như việc mở một cuốn sách trước khi bạn bắt đầu đọc nó.
 
 ```csharp
-//Đường dẫn đến thư mục tài liệu
+// Đường dẫn đến thư mục tài liệu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Khởi tạo một bảng tính mới và mở một tệp mẫu
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Trong đoạn mã trên, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được đặt.`Workbook` lớp tải tệp Excel vào bộ nhớ.
+ Trong đoạn mã trên, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được đặt.`Workbook`lớp tải tệp Excel vào bộ nhớ.
 
 ## Bước 2: Thiết lập ô đang hoạt động
 
@@ -60,7 +60,7 @@ book.Worksheets[0].ActiveCell = "A20";
 
  Đoạn mã này làm cho`A20` ô đang hoạt động. Điều này quan trọng vì quá trình phân tách diễn ra xung quanh điểm này, giống như cách điều hướng trong Excel thường tập trung vào một ô cụ thể.
 
-## Bước 3: Chia nhỏ bảng tính
+## Bước 3: Chia nhỏ trang tính
 
 Bây giờ ô đang hoạt động đã được thiết lập, hãy chuyển sang phần thú vị—chia trang tính! Đây là bước mà phép thuật xảy ra. Bạn sẽ có thể chia trang tính thành nhiều ngăn để xem và điều hướng dễ dàng hơn.
 
@@ -84,7 +84,7 @@ Mọi công sức của bạn có ích gì nếu bạn không lưu lại? Việc
 book.Save(dataDir + "output.xls");
 ```
 
- Ở đây,`Save()`phương pháp lưu sổ làm việc với các ngăn mới tách của bạn vào tệp Excel đầu ra. Những thay đổi bạn thực hiện giờ đã sẵn sàng để bạn—hoặc bất kỳ ai khác—sử dụng.
+ Ở đây,`Save()` phương pháp lưu sổ làm việc với các ngăn mới tách của bạn vào tệp Excel đầu ra. Những thay đổi bạn thực hiện giờ đã sẵn sàng để bạn—hoặc bất kỳ ai khác—sử dụng.
 
 ## Phần kết luận
 

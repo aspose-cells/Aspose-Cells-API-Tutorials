@@ -36,7 +36,7 @@ Aspose.Cells for Java を使用したデータ マスキングに進む前に、
 
 ## Aspose.Cells for Java を使い始める
 
-データ マスキング手法を適用する前に、Java 環境をセットアップし、Aspose.Cells ライブラリを組み込みましょう。
+データ マスキング手法を適用する前に、Java 環境をセットアップし、Aspose.Cells ライブラリを含めましょう。
 
 1. Aspose.Cells for Java をダウンロード:
 

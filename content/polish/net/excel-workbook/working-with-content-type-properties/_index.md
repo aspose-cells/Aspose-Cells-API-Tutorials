@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Krok 2: Utwórz nowy skoroszyt
 
- Teraz, gdy mamy nasz katalog wyjściowy, utwórzmy nowy skoroszyt.`Workbook`Klasa ta stanowi punkt wyjścia do pracy z plikami Excela.
+ Teraz, gdy mamy nasz katalog wyjściowy, utwórzmy nowy skoroszyt.`Workbook` Klasa ta stanowi punkt wyjścia do pracy z plikami Excela.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Tak! Aspose.Cells obsługuje różne formaty, w tym XLS, XLSX, CSV i inne.
 Oczywiście! Możesz dodawać złożone obiekty do właściwości typu zawartości, o ile można je poprawnie serializować.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
-Aby uzyskać bardziej szczegółowe wskazówki, zapoznaj się z[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Aby uzyskać bardziej szczegółowe wskazówki, zapoznaj się z[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).

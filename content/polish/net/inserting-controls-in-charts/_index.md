@@ -13,7 +13,7 @@ Aspose.Cells dla .NET to potężna biblioteka, która umożliwia programistom be
 
 ## Dodawanie etykiet do wykresów
 
-Chcesz dodać dodatkowy kontekst do wykresów Excela? Etykiety mogą mieć ogromne znaczenie w wyróżnianiu kluczowych punktów i czynieniu danych bardziej zrozumiałymi. Dzięki Aspose.Cells dla .NET możesz łatwo dodawać kontrolki etykiet do wykresów. Pomyśl o etykietach jak o znacznikach nazw — nadają one elementom wykresu przejrzystość. Postępowanie zgodnie z przewodnikiem krok po kroku gwarantuje, że wiesz dokładnie, gdzie je umieścić i jak poprawiają zrozumienie danych.
+Chcesz dodać dodatkowy kontekst do wykresów w programie Excel? Etykiety mogą mieć ogromne znaczenie w wyróżnianiu kluczowych punktów i czynieniu danych bardziej zrozumiałymi. Dzięki Aspose.Cells dla .NET możesz łatwo dodawać kontrolki etykiet do wykresów. Pomyśl o etykietach jak o znacznikach nazw — nadają one elementom wykresu przejrzystość. Postępowanie zgodnie z przewodnikiem krok po kroku gwarantuje, że wiesz dokładnie, gdzie je umieścić i jak poprawiają zrozumienie danych.
 
 [Dodaj kontrolkę etykiety do wykresu](./add-label-control-to-chart/) aby uzyskać szczegółowy samouczek i przenieść swoje wykresy na wyższy poziom!
 

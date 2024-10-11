@@ -45,7 +45,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
-交換する`YOUR DOCUMENT DIRECTORY` Excel ファイルが保存されている実際のパスを入力します。これにより、プログラムは操作に必要なファイルを見つけることができます。
+交換する`YOUR DOCUMENT DIRECTORY`Excel ファイルが保存されている実際のパスを入力します。これにより、プログラムは操作に必要なファイルを見つけることができます。
 
 ## ステップ2: ファイルストリームを作成する
 
@@ -123,7 +123,7 @@ fstream.Close();
 はい！設定するだけで`IsVScrollBarVisible`そして`IsHScrollBarVisible`戻る`true`.
 
 ### Aspose.Cells は無料で使用できますか?  
- Aspose.Cellsは完全に無料ではありませんが、期間限定で無料で試用したり、購入を検討したりすることができます。[一時ライセンス](https://purchase.aspose.com/temporary-license/).
+Aspose.Cellsは完全に無料ではありませんが、期間限定で無料で試用したり、購入を検討したりすることができます。[一時ライセンス](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells で操作できる Excel ファイルの種類は何ですか?  
 .xls、.xlsx、.xlsm、.xlsb など、さまざまな Excel 形式で作業できます。

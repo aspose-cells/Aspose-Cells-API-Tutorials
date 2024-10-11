@@ -19,7 +19,7 @@ Innan du dyker in i handledningen bör du se till att du har ställt in allt som
 2.  Aspose.Cells Library: Ladda ner och installera Aspose.Cells-biblioteket. Du kan få det från[här](https://releases.aspose.com/cells/net/).
 3. IDE: Även om vilken kodredigerare som helst duger, ger en IDE som Visual Studio en robust plattform för .NET-utveckling.
 4.  En ODS-exempelfil: Du behöver en ODS-fil som innehåller diagram. För den här handledningen kommer vi att använda`SampleChart.ods`.
-5. Grundläggande kunskaper om C#: Bekantskap med C# hjälper dig att snabbt förstå begreppen och utföra ändringar efter behov.
+5. Grundläggande kunskaper om C#: Bekantskap med C# hjälper dig att snabbt förstå begreppen och utföra modifieringar efter behov.
 
 ## Importera paket
 

@@ -13,7 +13,7 @@ dagens snabba affärsvärld är det av största vikt att hantera data effektivt 
 
 ## Förutsättningar
 
-Innan du hoppar in i koden är det viktigt att se till att du har allt inställt för en smidig upplevelse med Aspose.Cells för .NET:
+Innan du hoppar in i koden är det viktigt att se till att du har allt inrett för en smidig upplevelse med Aspose.Cells för .NET:
 
 1.  Visual Studio: Du behöver Visual Studio installerat på din dator. Om du inte har det, ladda ner den senaste versionen från[Visual Studio hemsida](https://visualstudio.microsoft.com/downloads/).
 2.  Aspose.Cells Library: Du behöver Aspose.Cells-biblioteket. Du kan få det genom att ladda ner från[Aspose hemsida](https://releases.aspose.com/cells/net/)Alternativt kan du installera den direkt via NuGet i Visual Studio.
@@ -42,7 +42,7 @@ using System;
 using Aspose.Cells;
 ```
 
-När det gäller att låsa upp ett skyddat Excel-ark med Aspose.Cells för .NET är stegen enkla. Vi delar upp varje steg tydligt och guidar dig genom processen.
+När det gäller att låsa upp ett skyddat Excel-ark med Aspose.Cells för .NET är stegen enkla. Vi kommer att dela upp varje steg tydligt och guida dig genom processen.
 
 ## Steg 1: Ställ in din filsökväg
 

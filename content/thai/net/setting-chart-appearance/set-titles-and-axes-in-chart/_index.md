@@ -47,7 +47,7 @@ using System.Drawing;
 ```csharp
 //ไดเรกทอรีผลลัพธ์
 static string outputDir = "Your Document Directory";
-// การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
+//การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 Workbook workbook = new Workbook();
 ```
 

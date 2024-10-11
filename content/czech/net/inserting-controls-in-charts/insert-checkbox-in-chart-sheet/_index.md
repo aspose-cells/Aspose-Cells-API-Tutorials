@@ -19,7 +19,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte vše nastaveno
 - V první řadě budete potřebovat Visual Studio. Pokud jej ještě nemáte nainstalovaný, můžete si jej stáhnout ze stránek společnosti Microsoft.
 
 ### Knihovna Aspose.Cells
-- Dalším nezbytným nástrojem je knihovna Aspose.Cells pro .NET. Můžete to snadno získat z[Aspose webové stránky](https://releases.aspose.com/cells/net/) ke stažení. Pokud dáváte přednost testování před nákupem, je zde také a[bezplatná zkušební verze k dispozici](https://releases.aspose.com/).
+-  Dalším nezbytným nástrojem je knihovna Aspose.Cells pro .NET. Můžete to snadno získat z[Aspose webové stránky](https://releases.aspose.com/cells/net/) ke stažení. Pokud dáváte přednost testování před nákupem, je zde také a[bezplatná zkušební verze k dispozici](https://releases.aspose.com/).
 
 ### Základní porozumění C#
 - Vzhledem k tomu, že budeme psát nějaký kód, bude užitečné základní porozumění C#. Nebojte se; Vysvětlím věci za pochodu!
@@ -64,13 +64,13 @@ Nyní, když jsme vše nastavili, pojďme se ponořit do části kódování! Zd
 
 Než se dostaneme k tomu zajímavému, musíme definovat, kam chceme náš soubor uložit. Budete chtít poskytnout cestu k výstupnímu adresáři.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Přejděte do určeného adresáře
+string outputDir = "C:\\YourOutputDirectory\\"; // Přejděte do určeného adresáře
 ```
  Nezapomeňte vyměnit`"C:\\YourOutputDirectory\\"` s cestou, kam chcete soubor uložit. Berte to jako nastavení vašeho pracovního prostoru; musíte vědět, kam ukládáte své nástroje (nebo v tomto případě soubor Excel).
 
 ## Krok 2: Vytvoření instance objektu sešitu
 
- Dále vytváříme instanci`Workbook` třída. Zde se bude odehrávat veškerá naše práce.
+Dále vytváříme instanci`Workbook` třída. Zde se bude odehrávat veškerá naše práce.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -91,9 +91,9 @@ V tomto kódu jste:
 
 Považujte tento krok za výběr typu rámečku obrazu, který chcete, než do něj umístíte kresbu.
 
-## Krok 4: Přidání datových řad do vašeho grafu
+## Krok 4: Přidání datových řad do grafu
 
-tomto okamžiku naplníme graf nějakými datovými řadami. Chcete-li přidat ukázková data:
+V tomto okamžiku naplníme graf nějakými datovými řadami. Chcete-li přidat ukázková data:
 ```csharp
 sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 ```
@@ -123,7 +123,7 @@ Tento řádek uloží váš nově vytvořený soubor Excel se zaškrtávacím po
 
 ## Závěr
 
-tady to máte! Úspěšně jste přidali zaškrtávací políčko na list grafu v souboru aplikace Excel pomocí Aspose.Cells for .NET. Podle těchto kroků můžete vytvářet interaktivní a dynamické excelové listy, které nabízejí skvělé funkce a díky nimž jsou vaše vizualizace dat ještě poutavější.
+A tady to máte! Úspěšně jste přidali zaškrtávací políčko na list grafu v souboru aplikace Excel pomocí Aspose.Cells for .NET. Podle těchto kroků můžete vytvářet interaktivní a dynamické excelové listy, které nabízejí skvělé funkce a díky nimž jsou vaše vizualizace dat ještě poutavější.
 
 ## FAQ
 
@@ -137,7 +137,7 @@ Aspose.Cells je výkonná knihovna pro vytváření a manipulaci se soubory Exce
 Vůbec ne! Jak je ukázáno v tomto tutoriálu, lze to provést pomocí několika jednoduchých řádků kódu.
 
 ### Kde mohu koupit Aspose.Cells?  
-Aspose.Cells si můžete zakoupit u nich[odkaz na nákup](https://purchase.aspose.com/buy).
+ Aspose.Cells si můžete zakoupit u nich[odkaz na nákup](https://purchase.aspose.com/buy).
 
 ### Jak mohu získat podporu, pokud narazím na problémy?  
  Aspose poskytuje fórum podpory, kde můžete klást otázky a hledat řešení. Podívejte se na jejich[stránka podpory](https://forum.aspose.com/c/cells/9).

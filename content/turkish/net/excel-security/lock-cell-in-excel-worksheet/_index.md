@@ -15,7 +15,7 @@ Günümüzün hızlı dünyasında, verileri güvenli bir şekilde yönetmek hem
 
 Kodun ayrıntılarına girmeden önce, hazırda bulundurmanız gereken birkaç şey var:
 
-1. Aspose.Cells for .NET: Aspose.Cells for .NET'in en son sürümünü indirin ve yükleyin.[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET: Aspose.Cells for .NET'in en son sürümünü indirin ve yükleyin.[Aspose web sitesi](https://releases.aspose.com/cells/net/).
 2. IDE: .NET için kurulmuş bir geliştirme ortamı. Popüler seçenekler arasında Visual Studio veya JetBrains Rider bulunur.
 3. C# Hakkında Temel Bilgi: Sizi kod boyunca adım adım yönlendireceğiz ancak C# programlama hakkında temel bir anlayışa sahip olmak kavramları daha hızlı kavramanıza yardımcı olacaktır.
 4. Belge Dizininiz: Excel dosyalarınızı test amacıyla saklayabileceğiniz bir dizin ayarladığınızdan emin olun.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Çalışma Kitabınızı Yükleyin
 
- Sonra, hücreleri kilitlemeyi planladığınız Excel çalışma kitabını yüklemek isteyeceksiniz. Bu, bir örneğinin oluşturulmasıyla yapılır`Workbook` sınıfa ekleyin ve istediğiniz Excel dosyasına yönlendirin.
+Sonra, hücreleri kilitlemeyi planladığınız Excel çalışma kitabını yüklemek isteyeceksiniz. Bu, bir örneğinin oluşturulmasıyla yapılır`Workbook` sınıfa ekleyin ve istediğiniz Excel dosyasına yönlendirin.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Hayır, hücre kilitlemenin kendisi bir parola gerektirmez; ancak güvenliği ar
  Kesinlikle! Hücrelerin kilidini, şu şekilde ayarlayarak açabilirsiniz:`IsLocked` mülk`false` ve korumayı kaldırmak.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells, kullanıcılar için ücretsiz deneme sunar. Ancak, sürekli kullanım için bir lisans satın almanız gerekir. Ziyaret edin[Aspose satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
+Aspose.Cells, kullanıcılar için ücretsiz deneme sunar. Ancak, sürekli kullanım için bir lisans satın almanız gerekir. Ziyaret edin[Aspose satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.

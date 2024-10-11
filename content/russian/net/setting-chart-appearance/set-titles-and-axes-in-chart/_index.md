@@ -47,7 +47,7 @@ using System.Drawing;
 ```csharp
 //Выходной каталог
 static string outputDir = "Your Document Directory";
-// Создание объекта Workbook
+//Создание объекта Workbook
 Workbook workbook = new Workbook();
 ```
 

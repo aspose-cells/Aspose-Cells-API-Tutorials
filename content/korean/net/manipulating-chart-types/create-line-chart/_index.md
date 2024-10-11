@@ -50,14 +50,14 @@ using Aspose.Cells.Charts;
 // 출력 디렉토리
 string outputDir = "Your Output Directory";
 ```
- 바꾸다`"Your Output Directory"`생성된 Excel 파일을 저장할 실제 경로를 입력합니다.
+ 바꾸다`"Your Output Directory"` 생성된 Excel 파일을 저장할 실제 경로를 입력합니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
 다음으로, 새로운 워크북 인스턴스를 만들어야 합니다. 워크북을 창의성이 흘러가는 캔버스로 생각하세요. 
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 이 줄은 모든 데이터와 시각적 내용을 보관하는 새 통합 문서를 초기화합니다.

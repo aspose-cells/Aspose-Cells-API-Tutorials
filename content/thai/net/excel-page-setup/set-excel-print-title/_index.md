@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
- ถัดไปเราจะสร้างอินสแตนซ์ของ`Workbook` คลาสซึ่งแสดงถึงไฟล์ Excel
+ ถัดไปเราจะสร้างอินสแตนซ์ของ`Workbook`คลาสซึ่งแสดงถึงไฟล์ Excel
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Workbook workbook = new Workbook();
 
 ## ขั้นตอนที่ 3: รับข้อมูลอ้างอิงการตั้งค่าหน้า
 
- ตอนนี้มาดูแผ่นงานกัน`PageSetup`คุณสมบัติ นี่คือที่ที่การตั้งค่าการพิมพ์ส่วนใหญ่ของเราจะถูกกำหนดค่า
+ ตอนนี้มาดูแผ่นงานกัน`PageSetup` คุณสมบัติ นี่คือที่ที่การตั้งค่าการพิมพ์ส่วนใหญ่ของเราจะถูกกำหนดค่า
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

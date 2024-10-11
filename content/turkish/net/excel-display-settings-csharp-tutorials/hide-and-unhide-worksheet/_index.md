@@ -36,7 +36,7 @@ Artık her şey hazır ve kodlamaya hazır olduğumuza göre, süreci yönetileb
 
 ## Adım 1: Ortamınızı Kurun
 
- Bu adımda, Excel dosyanızın bulunduğu dosya yolunu ayarlayacaksınız. Değiştir`"YOUR DOCUMENT DIRECTORY"` dosyanızın yolunu belirtin.
+Bu adımda, Excel dosyanızın bulunduğu dosya yolunu ayarlayacaksınız. Değiştir`"YOUR DOCUMENT DIRECTORY"` dosyanızın yolunu belirtin.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -72,7 +72,7 @@ Bu adım, çalışma kitabınıza "Merhaba!" demek gibidir; böylece sizin orada
 Elinizde çalışma kitabınız varken, gizlemek istediğiniz belirli çalışma sayfasına erişme zamanı. İlk çalışma sayfasıyla başlayacağız.
 
 ```csharp
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Perdeleri indirmek gibi. Veriler hala orada; sadece artık çıplak gözle gör�
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Burada çalışma kitabını şu şekilde kaydediyoruz:`output.out.xls`. Bu, çalışmanızı bir zarfa koymak gibidir. Eğer kaydetmezseniz, tüm sıkı çalışmanız boşa gidecektir!
+ Burada çalışma kitabını şu şekilde kaydediyoruz:`output.out.xls`. Bu, çalışmanızı bir zarfa koymak gibidir. Eğer kaydetmezseniz, tüm sıkı çalışmanız boşa gidecektir!
 
 ## Adım 7: Dosya Akışını Kapatın
 
@@ -132,7 +132,7 @@ Aspose.Cells for .NET kullanarak Excel çalışma sayfalarını düzenlemek göz
  Evet, döngüye girebilirsiniz`Worksheets` toplama ve ayarlama`IsVisible` Gizlemek istediğiniz her sayfa için özelliği false olarak ayarlayın.
 
 ### Aspose.Cells hangi dosya formatlarını destekler?
- Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler. Tam listeyi kontrol edebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler. Tam listeyi kontrol edebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
  Özelliklerini keşfetmek için ücretsiz denemeyle başlayabilirsiniz. Üretim uygulamaları için tam lisans gereklidir. Daha fazla bilgi edinin[Burada](https://purchase.aspose.com/buy).

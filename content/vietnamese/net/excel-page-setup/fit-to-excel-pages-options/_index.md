@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn tối ưu về cách sử dụng 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu. Sau đây là những gì bạn cần có:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là trung tâm chính cho mọi công việc phát triển.
-2.  Aspose.Cells cho .NET: Bạn cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp ích rất nhiều. Nếu bạn có thể xử lý các biến, vòng lặp và I/O tệp cơ bản, bạn sẽ thấy thoải mái.
 4. .NET Framework: Đảm bảo dự án của bạn được thiết lập với phiên bản .NET Framework phù hợp vì thư viện được thiết kế để tương thích với hệ sinh thái này.
 
@@ -54,9 +54,9 @@ Bạn đã sẵn sàng định dạng các trang Excel của mình chưa? Chúng
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
-// Truy cập vào trang tính đầu tiên trong tệp Excel
+//Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`xác định số trang mà bảng tính của bạn sẽ trải dài theo chiều dọc.
-- `FitToPagesWide` xác định thiết lập trang ngang. Thiết lập cả hai thành`1` có nghĩa là nội dung của bạn sẽ vừa vặn trên một trang, biến tài liệu của bạn thành một kiệt tác hợp lý.
+- `FitToPagesTall` xác định số trang mà bảng tính của bạn sẽ trải dài theo chiều dọc.
+- `FitToPagesWide` xác định thiết lập trang ngang. Thiết lập cả hai thành`1`có nghĩa là nội dung của bạn sẽ vừa vặn trên một trang, biến tài liệu của bạn thành một kiệt tác hợp lý.
 
 ## Bước 3: Lưu sổ làm việc của bạn
 
@@ -97,7 +97,7 @@ Và bạn đã có nó! Bạn đã học cách sử dụng Tùy chọn Fit to Ex
 Aspose.Cells là một thư viện .NET mạnh mẽ để quản lý các tệp Excel theo chương trình, cho phép các nhà phát triển tạo và thao tác bảng tính một cách dễ dàng.
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Bạn có thể đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có! Bạn có thể đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi mua Aspose.Cells?
  Bạn có thể thực hiện mua hàng của bạn[đây](https://purchase.aspose.com/buy).

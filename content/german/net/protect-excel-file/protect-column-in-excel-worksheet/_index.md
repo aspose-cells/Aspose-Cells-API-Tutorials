@@ -9,7 +9,7 @@ url: /de/net/protect-excel-file/protect-column-in-excel-worksheet/
 ---
 ## Einführung
 
-Das Verwalten von Daten in Excel-Tabellen kann sich wie das Navigieren durch ein Labyrinth anfühlen. In der einen Minute bearbeiten Sie nur ein paar Zahlen und in der nächsten machen Sie sich Sorgen, dass jemand versehentlich eine wichtige Formel löscht. Aber keine Angst! Es gibt ein Tool, das diesen Prozess einfach und sicher macht – Aspose.Cells für .NET. In diesem Tutorial führe ich Sie durch die Schritte zum Schützen einer bestimmten Spalte in einem Excel-Arbeitsblatt mithilfe dieser praktischen Bibliothek. Tauchen Sie ein!
+Das Verwalten von Daten in Excel-Tabellen kann sich wie das Navigieren durch ein Labyrinth anfühlen. In der einen Minute bearbeiten Sie nur ein paar Zahlen und in der nächsten machen Sie sich Sorgen, dass jemand versehentlich eine wichtige Formel löscht. Aber keine Angst! Es gibt ein Tool, das diesen Prozess einfach und sicher macht – Aspose.Cells für .NET. In diesem Tutorial führe ich Sie durch die Schritte zum Schützen einer bestimmten Spalte in einem Excel-Arbeitsblatt mithilfe dieser praktischen Bibliothek. Tauchen wir ein!
 
 ## Voraussetzungen
 
@@ -24,7 +24,7 @@ Nachdem wir nun alles geklärt haben, können wir weitermachen und die Spalte sc
 
 ## Pakete importieren
 
-Wie bei jedem Programmierabenteuer besteht der erste Schritt darin, die Materialien zusammenzutragen. In unserem Fall bedeutet das, die Aspose.Cells-Bibliothek in Ihr Projekt zu importieren. So können Sie das tun:
+Wie bei jedem Programmierabenteuer besteht der erste Schritt darin, die Materialien zusammenzutragen. In unserem Fall bedeutet das, die Aspose.Cells-Bibliothek in Ihr Projekt zu importieren. So geht das:
 
 1. Öffnen Sie Ihr C#-Projekt in Visual Studio.
 2. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf das Projekt und wählen Sie „NuGet-Pakete verwalten“ aus.
@@ -33,7 +33,7 @@ Wie bei jedem Programmierabenteuer besteht der erste Schritt darin, die Material
 
 ### Hinzufügen einer Using-Direktive
 
-Achten Sie darauf, am Anfang Ihrer C#-Datei die folgende Using-Direktive einzufügen:
+Achten Sie darauf, oben in Ihrer C#-Datei die folgende Using-Direktive einzufügen:
 
 ```csharp
 using System.IO;

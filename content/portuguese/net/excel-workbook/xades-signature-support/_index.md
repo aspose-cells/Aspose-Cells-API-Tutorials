@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Substitua pelo caminho para o seu arquivo PFX
 
 ## Etapa 4: Crie a assinatura digital
 
- Agora, vamos criar a assinatura digital usando o`DigitalSignature`classe. É aqui que a mágica acontece!
+ Agora, vamos criar a assinatura digital usando o`DigitalSignature` classe. É aqui que a mágica acontece!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -104,12 +104,12 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## Conclusão
 
-aí está! Você adicionou com sucesso uma assinatura Xades ao seu arquivo Excel usando o Aspose.Cells para .NET. Este processo não só aumenta a segurança dos seus documentos, mas também cria confiança com seus usuários ao garantir a autenticidade dos seus arquivos. 
+E aí está! Você adicionou com sucesso uma assinatura Xades ao seu arquivo Excel usando o Aspose.Cells para .NET. Este processo não só aumenta a segurança dos seus documentos, mas também cria confiança com seus usuários ao garantir a autenticidade dos seus arquivos. 
 Assinaturas digitais são uma parte essencial do gerenciamento moderno de documentos e, com o poder do Aspose.Cells, você pode implementá-las facilmente em seus aplicativos.
 
 ## Perguntas frequentes
 
-### O que é a assinatura de Xades?
+### que é a assinatura de Xades?
 Xades (XML Advanced Electronic Signatures) é um padrão para assinaturas digitais que fornece recursos adicionais para garantir a integridade e a autenticidade de documentos eletrônicos.
 
 ### Preciso de um certificado digital para criar uma assinatura Xades?
@@ -119,7 +119,7 @@ Sim, você precisa de um certificado digital válido (arquivo PFX) para criar um
  Com certeza! Você pode obter um teste gratuito no[Site Aspose](https://releases.aspose.com/).
 
 ### O Aspose.Cells é compatível com todas as versões do .NET?
-Aspose.Cells suporta várias versões do .NET framework. Verifique o[documentação](https://reference.aspose.com/cells/net/) para detalhes de compatibilidade.
+ Aspose.Cells suporta várias versões do .NET framework. Verifique o[documentação](https://reference.aspose.com/cells/net/) para detalhes de compatibilidade.
 
 ### Onde posso obter suporte se tiver problemas?
  Você pode visitar o[Fórum Aspose](https://forum.aspose.com/c/cells/9) para apoio e assistência da comunidade.

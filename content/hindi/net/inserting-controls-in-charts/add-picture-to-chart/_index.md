@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- प्रतिस्थापित करें`Your Document Directory` और`Your Output Directory`आपके कंप्यूटर पर वास्तविक पथ के साथ. 
+ प्रतिस्थापित करें`Your Document Directory` और`Your Output Directory` आपके कंप्यूटर पर वास्तविक पथ के साथ. 
 
 ## चरण 2: मौजूदा कार्यपुस्तिका लोड करें
 
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- यहाँ,`50` और`50` वे X और Y निर्देशांक हैं जहां छवि रखी जाएगी, और`200`छवि की चौड़ाई और ऊंचाई है.
+ यहाँ,`50` और`50` वे X और Y निर्देशांक हैं जहां छवि रखी जाएगी, और`200` छवि की चौड़ाई और ऊंचाई है.
 
 ## चरण 6: चित्र का लाइन प्रारूप अनुकूलित करें
 
@@ -151,7 +151,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 Aspose.Cells विभिन्न प्रकार के छवि प्रारूपों का समर्थन करता है, जिनमें PNG, JPEG, BMP और GIF शामिल हैं।
 
 ### क्या मैं चित्र की स्थिति को अनुकूलित कर सकता हूँ?
- निश्चित रूप से! X और Y निर्देशांक`AddPictureInChart` विधि सटीक स्थिति की अनुमति देती है।
+निश्चित रूप से! X और Y निर्देशांक`AddPictureInChart` विधि सटीक स्थिति की अनुमति देती है।
 
 ### क्या Aspose.Cells का उपयोग निःशुल्क है?
  Aspose.Cells निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं के लिए लाइसेंस की आवश्यकता होती है। आप मूल्य निर्धारण पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).

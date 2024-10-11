@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## 3단계: 통합 문서 인스턴스화
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## 4단계: 워크시트에 액세스
 
 ```csharp
-// Excel 파일의 첫 번째 워크시트에 액세스하기
+//Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

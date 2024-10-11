@@ -53,14 +53,14 @@ Setelah direktori disiapkan, saatnya membuat aliran berkas yang memungkinkan kit
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Pada langkah ini, kita membuka`book1.xls`yang seharusnya sudah ada di direktori yang Anda tentukan. Pastikan Anda memiliki berkas ini, atau proses akan menghasilkan kesalahan.
+ Pada langkah ini, kita membuka`book1.xls`, yang seharusnya sudah ada di direktori yang Anda tentukan. Pastikan Anda memiliki berkas ini, atau proses akan menghasilkan kesalahan.
 
 ## Langkah 3: Membuat Objek Buku Kerja
 
 Berikutnya, kita perlu membuat contoh kelas Workbook yang akan menampung berkas Excel kita.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Dengan membuat contoh buku kerja dari aliran berkas kita, kita sekarang dapat me
 
 ## Langkah 4: Tambahkan Lembar Kerja Baru
 
- Berikut bagian yang menarik! Mari tambahkan lembar kerja baru ke buku kerja kita. Ini dilakukan dengan menggunakan`Add()` metode dari`Worksheets` koleksi.
+Berikut bagian yang menarik! Mari tambahkan lembar kerja baru ke buku kerja kita. Ini dilakukan dengan menggunakan`Add()` metode dari`Worksheets`koleksi.
 
 ```csharp
 // Menambahkan lembar kerja baru ke objek Buku Kerja
@@ -87,7 +87,7 @@ Setelah kita membuat lembar kerja baru, penting untuk mendapatkan referensinya. 
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Di sini, kami menggunakan indeks`i` untuk merujuk ke lembar kerja yang baru kita buat. Ini memungkinkan kita untuk memanipulasinya lebih lanjut.
+ Di sini, kami menggunakan indeks`i` untuk merujuk ke lembar kerja yang baru kita buat. Ini memungkinkan kita untuk memanipulasinya lebih lanjut.
 
 ## Langkah 6: Tetapkan Nama Lembar Kerja Baru
 

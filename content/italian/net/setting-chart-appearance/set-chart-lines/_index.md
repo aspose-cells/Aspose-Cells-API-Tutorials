@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Ora creeremo un oggetto cartella di lavoro, che fungerà da contenitore per il foglio di calcolo.
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
-Spiegazione: Questa riga crea un'istanza di`Workbook` classe dalla libreria Aspose.Cells. È come aprire un nuovo file Excel vuoto in cui puoi iniziare ad aggiungere i tuoi fogli e dati.
+ Spiegazione: Questa riga crea un'istanza di`Workbook`classe dalla libreria Aspose.Cells. È come aprire un nuovo file Excel vuoto in cui puoi iniziare ad aggiungere i tuoi fogli e dati.
 
 ## Passaggio 3: fare riferimento a un foglio di lavoro
 

@@ -53,7 +53,7 @@ Ensuite, nous allons créer une instance d'un nouveau classeur Excel. Considére
 Workbook wb = new Workbook();
 ```
 
-Cette ligne initialise un nouvel objet de classeur nommé`wb`. Nous sommes maintenant prêts à travailler sur cette nouvelle toile.
+ Cette ligne initialise un nouvel objet de classeur nommé`wb`. Nous sommes maintenant prêts à travailler sur cette nouvelle toile.
 
 ## Étape 3 : Protégez le classeur partagé avec un mot de passe
 
@@ -117,4 +117,4 @@ Malheureusement, si vous oubliez le mot de passe, vous ne pourrez pas déprotég
 Aspose.Cells prend principalement en charge .NET, mais ils disposent également de bibliothèques pour Java et d'autres langages. Consultez leur site pour plus d'informations !
 
 ### Comment obtenir de l'aide pour Aspose.Cells ?
- Vous pouvez demander de l'aide via leur forum d'assistance :[Assistance Aspose](https://forum.aspose.com/c/cells/9).
+Vous pouvez demander de l'aide via leur forum d'assistance :[Assistance Aspose](https://forum.aspose.com/c/cells/9).

@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 Ebben a kódrészletben hozzáférünk munkafüzetünk első munkalapjához, amelyet a következő lépésekben kezelünk.
 
-## 4. lépés: Kapcsolja be az Allow Edit Ranges
+## 4. lépés: Kapcsolja be az Engedélyezett tartományok szerkesztését
 
  Ahhoz, hogy a munkalap bizonyos tartományait szerkesztésre engedélyezhessük, el kell érnünk a`AllowEditRanges` ingatlan.
 

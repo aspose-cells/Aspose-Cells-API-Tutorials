@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 الآن، حان الوقت لإنشاء مصنف جديد. هذا هو المكان الذي ستحتفظ فيه بكل بياناتك وإعداداتك.
 
 ```csharp
-// إنشاء كائن مصنف
+//إنشاء كائن مصنف
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 يمكن أن تحتوي ملفات Excel على أوراق عمل متعددة. سنقوم بالوصول إلى ورقة العمل الأولى لتطبيق عامل القياس الخاص بنا.
 
 ```csharp
-// الوصول إلى ورقة العمل الأولى في ملف Excel
+//الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

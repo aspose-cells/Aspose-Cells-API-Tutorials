@@ -16,7 +16,7 @@ Nel mondo in continua evoluzione della gestione dei dati, la capacità di connet
 Prima di immergerci nel codice, assicuriamoci di avere tutto ciò che ti serve per seguire questo tutorial. Ecco cosa ti servirà:
 
 1. Visual Studio: assicurati di avere Visual Studio installato. È l'ambiente ideale per lo sviluppo .NET.
-2. Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells per .NET da[Pagina di download di Aspose](https://releases.aspose.com/cells/net/) . Puoi anche provare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+2.  Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells per .NET da[Pagina di download di Aspose](https://releases.aspose.com/cells/net/) . Puoi anche provare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 3. Conoscenza di base di C#: la familiarità con la programmazione C# ti aiuterà a comprendere meglio le sfumature del codice.
 4. Un file Excel di esempio: per questo tutorial, utilizzeremo un file Excel denominato "ODataSample.xlsx", che dovrebbe essere archiviato nella directory di lavoro.
 
@@ -99,7 +99,7 @@ In questo blocco:
 
 ## Passaggio 4: esecuzione e verifica
 
- Infine, devi assicurarti che il codice venga eseguito correttamente e restituisca l'output previsto. Aggiungi la seguente riga alla fine del tuo`Main` metodo:
+Infine, devi assicurarti che il codice venga eseguito correttamente e restituisca l'output previsto. Aggiungi la seguente riga alla fine del tuo`Main` metodo:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -109,7 +109,7 @@ Una volta aggiunto, esegui il tuo progetto. Dovresti vedere i nomi delle conness
 
 ## Conclusione
 
-Ed ecco fatto! In pochi semplici passaggi, hai sfruttato la potenza di Aspose.Cells per .NET per estrarre i dettagli OData da un file Excel. È incredibile quanto sia semplice immergersi in complesse attività di gestione dei dati con gli strumenti e le istruzioni giuste. Utilizzando Aspose.Cells, non stai solo semplificando il tuo lavoro; stai sbloccando un intero nuovo regno di possibilità per la manipolazione dei dati. Ora che hai afferrato le basi, vai avanti ed esplora ulteriormente le sue capacità: è una svolta!
+Ed ecco fatto! In pochi semplici passaggi, hai sfruttato la potenza di Aspose.Cells per .NET per estrarre i dettagli OData da un file Excel. È incredibile quanto sia semplice immergersi in complesse attività di gestione dei dati con gli strumenti e le istruzioni giusti. Utilizzando Aspose.Cells, non stai solo semplificando il tuo lavoro; stai sbloccando un intero nuovo regno di possibilità per la manipolazione dei dati. Ora che hai afferrato le basi, vai avanti ed esplora ulteriormente le sue capacità: è una svolta!
 
 ## Domande frequenti
 
@@ -126,4 +126,4 @@ Le formule di Power Query consentono agli utenti di collegare, combinare e trasf
  Puoi visitare il[Forum di Aspose](https://forum.aspose.com/c/cells/9) per supporto e aiuto alla comunità.
 
 ### Dove posso acquistare Aspose.Cells?
-Puoi acquistare Aspose.Cells dal loro[pagina di acquisto](https://purchase.aspose.com/buy).
+ Puoi acquistare Aspose.Cells dal loro[pagina di acquisto](https://purchase.aspose.com/buy).

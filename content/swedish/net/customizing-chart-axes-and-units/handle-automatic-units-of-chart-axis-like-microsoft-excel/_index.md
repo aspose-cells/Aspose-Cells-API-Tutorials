@@ -78,7 +78,7 @@ Att använda Aspose.Cells är att ladda en Excel-fil enkelt. Så här gör du:
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Vid det här laget har du enkelt laddat din arbetsbok!
+Vid det här laget har du lätt laddat din arbetsbok!
 
 ## Få åtkomst till och manipulera diagrammet
 

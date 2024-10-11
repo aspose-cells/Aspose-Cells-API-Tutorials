@@ -78,10 +78,10 @@ Met deze regel code bereidt u uw Excel-bestand voor op bewerking.
 
 ## Stap 3: Instantieer het werkmapobject
 
- De`Workbook`object is het hart van uw Aspose.Cells functionaliteit. Het vertegenwoordigt uw Excel bestand op een beheersbare manier.
+ De`Workbook` object is het hart van uw Aspose.Cells functionaliteit. Het vertegenwoordigt uw Excel bestand op een beheersbare manier.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Nu de werkmap in het geheugen staat, is het tijd om het specifieke werkblad te openen dat u wilt wijzigen. In de meeste gevallen is dit het eerste werkblad (index 0).
 
 ```csharp
-// Toegang krijgen tot het eerste werkblad in het Excel-bestand
+//Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

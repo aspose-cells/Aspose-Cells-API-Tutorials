@@ -42,17 +42,17 @@ Trước tiên, bạn cần tạo một thư mục nơi tệp Excel của bạn 
 
 ```csharp
 // Thư mục đầu ra
-string outputDir = "Your Output Directory"; // Thay đổi đường dẫn này theo đường dẫn bạn mong muốn
+string outputDir = "Your Output Directory"; //Thay đổi đường dẫn này theo đường dẫn bạn mong muốn
 ```
 
 Thay vì "Your Output Directory", bạn có thể chỉ định đường dẫn thực tế nơi bạn muốn lưu tệp Excel. Đảm bảo thư mục này tồn tại trên hệ thống của bạn; nếu không, bạn sẽ gặp lỗi sau này.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Bây giờ, bạn sẽ muốn bắt đầu bằng cách tạo một phiên bản mới của`Workbook`lớp. Đây là khối xây dựng cơ bản cho bất kỳ hoạt động Excel nào sử dụng Aspose.Cells.
+ Bây giờ, bạn sẽ muốn bắt đầu bằng cách tạo một phiên bản mới của`Workbook` lớp. Đây là khối xây dựng cơ bản cho bất kỳ hoạt động Excel nào sử dụng Aspose.Cells.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 

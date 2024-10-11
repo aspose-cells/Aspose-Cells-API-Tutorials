@@ -19,7 +19,7 @@ Eğitime dalmadan önce, her şeyin ayarlandığından emin olalım. İhtiyacın
 - Öncelikle Visual Studio'ya ihtiyacınız olacak. Eğer henüz yüklemediyseniz, Microsoft sitesinden indirebilirsiniz.
 
 ### Aspose.Cells Kütüphanesi
-- Bir sonraki temel araç .NET için Aspose.Cells kütüphanesidir. Bunu şuradan kolayca edinebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/) indirmek için. Satın almadan önce test etmeyi tercih ederseniz, ayrıca bir[ücretsiz deneme mevcut](https://releases.aspose.com/).
+-  Bir sonraki temel araç .NET için Aspose.Cells kütüphanesidir. Bunu şuradan kolayca edinebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/) indirmek için. Satın almadan önce test etmeyi tercih ederseniz, ayrıca bir[ücretsiz deneme mevcut](https://releases.aspose.com/).
 
 ### C#'ın Temel Anlayışı
 - Biraz kod yazacağımız için, C# hakkında temel bir anlayış faydalı olacaktır. Endişelenmeyin; ilerledikçe her şeyi açıklayacağım!
@@ -64,13 +64,13 @@ Artık her şey hazır olduğuna göre, kodlama kısmına geçelim! İşte Aspos
 
 Heyecan verici kısma geçmeden önce, dosyamızın nereye kaydedilmesini istediğimizi tanımlamamız gerekiyor. Bir çıktı dizin yolu sağlamak isteyeceksiniz.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Belirtilen dizine geçin
+string outputDir = "C:\\YourOutputDirectory\\"; // Belirtilen dizine geçin
 ```
  Değiştirdiğinizden emin olun`"C:\\YourOutputDirectory\\"` dosyanızın kaydedilmesini istediğiniz yol ile. Bunu çalışma alanınızı ayarlamak gibi düşünün; araçlarınızı (veya bu durumda Excel dosyanızı) nereye koyduğunuzu bilmeniz gerekir.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 
- Sonra, bir örnek oluşturuyoruz`Workbook` sınıf. Bütün çalışmalarımız burada gerçekleşecek.
+Sonra, bir örnek oluşturuyoruz`Workbook` sınıf. Bütün çalışmalarımız burada gerçekleşecek.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -137,7 +137,7 @@ Aspose.Cells, .NET uygulamalarında Excel dosyaları oluşturmak ve düzenlemek 
 Hayır, hayır! Bu eğitimde gösterildiği gibi, bu sadece birkaç basit kod satırıyla yapılabilir.
 
 ### Aspose.Cells'i nereden satın alabilirim?  
-Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma bağlantısı](https://purchase.aspose.com/buy).
+ Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma bağlantısı](https://purchase.aspose.com/buy).
 
 ### Sorun yaşarsam nasıl destek alabilirim?  
  Aspose, sorular sorabileceğiniz ve çözümler bulabileceğiniz bir destek forumu sunar. Şuraya göz atın:[destek sayfası](https://forum.aspose.com/c/cells/9).

@@ -116,7 +116,7 @@ textbox0.Font.IsItalic = true;
 //テキストボックスの塗りつぶし形式を取得します。
 Aspose.Cells.Drawing.FillFormat fillformat = textbox0.Fill;
 
-//テキスト ボックスの線の書式タイプを取得します。
+//テキスト ボックスの行の書式タイプを取得します。
 Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;
 
 //線の太さを設定します。
@@ -140,7 +140,7 @@ workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 
 ## 結論
 
-おめでとうございます。Aspose.Cells for .NET を使用して、グラフに TextBox コントロールを正常に追加しました。このシンプルですが効果的な変更により、グラフの情報量が増え、視覚的に魅力的になります。データ表現は効果的なコミュニケーションの鍵であり、Aspose などのツールを使用すると、最小限の労力でプレゼンテーションを強化できます。
+おめでとうございます! Aspose.Cells for .NET を使用して、グラフに TextBox コントロールを正常に追加しました。このシンプルですが効果的な変更により、グラフの情報量が増え、視覚的に魅力的になります。データ表現は効果的なコミュニケーションの鍵であり、Aspose などのツールを使用すると、最小限の労力でプレゼンテーションを強化できます。
 
 ## よくある質問
 

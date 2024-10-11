@@ -78,10 +78,10 @@ Cette ligne de code préparera votre fichier Excel pour l'édition.
 
 ## Étape 3 : instancier l'objet classeur
 
- Le`Workbook`L'objet est le cœur de votre fonctionnalité Aspose.Cells. Il représente votre fichier Excel de manière gérable.
+ Le`Workbook` L'objet est le cœur de votre fonctionnalité Aspose.Cells. Il représente votre fichier Excel de manière gérable.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,13 +93,13 @@ Workbook workbook = new Workbook(fstream);
 Le classeur étant désormais en mémoire, il est temps d'accéder à la feuille de calcul spécifique que vous souhaitez modifier. Dans la plupart des cas, il s'agira de la première feuille de calcul (index 0).
 
 ```csharp
-// Accéder à la première feuille de calcul du fichier Excel
+//Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 C'est comme ouvrir un livre sur une page spécifique pour faire vos annotations !
 
-## Étape 5 : Régler le facteur de zoom
+## Étape 5 : Ajuster le facteur de zoom
 
 Et maintenant, place à la magie ! Vous pouvez définir le niveau de zoom de la feuille de calcul à l'aide de la ligne suivante :
 

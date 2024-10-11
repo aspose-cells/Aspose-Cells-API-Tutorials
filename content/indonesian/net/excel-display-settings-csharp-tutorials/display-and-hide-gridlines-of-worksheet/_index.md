@@ -46,7 +46,7 @@ Sebelum Anda dapat memanipulasi berkas Excel apa pun, Anda perlu menentukan loka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pada langkah ini, Anda akan menetapkan lokasi file Excel Anda ke`dataDir`tali. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda`.xls` berkas berada.
+ Pada langkah ini, Anda akan menetapkan lokasi file Excel Anda ke`dataDir` tali. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda`.xls` berkas berada.
 
 ## Langkah 2: Buat Aliran File
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 File Excel biasanya berisi beberapa lembar kerja. Untuk tutorial ini, kita akan mengakses lembar kerja pertama dalam buku kerja.
 
 ```csharp
-// Mengakses lembar kerja pertama dalam file Excel
+//Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Sekarang tibalah bagian yang menyenangkan – menyembunyikan garis kisi! Hanya dengan satu baris kode, Anda dapat mengubah visibilitas garis kisi.
 
 ```csharp
-// Menyembunyikan garis kisi lembar kerja pertama file Excel
+//Menyembunyikan garis kisi lembar kerja pertama file Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Menutup aliran file sangat penting karena memastikan bahwa semua sumber daya dil
 
 ## Kesimpulan
 
- Selesai! Anda baru saja mempelajari cara menampilkan dan menyembunyikan garis kisi dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Baik Anda sedang menyempurnakan laporan atau menyajikan data dalam format yang lebih mudah dibaca, teknik sederhana ini dapat memengaruhi tampilan lembar kerja Anda secara signifikan. Bagian terbaiknya? Hanya perlu beberapa baris kode untuk membuat perubahan besar. Jika Anda siap untuk mencobanya, jangan lupa untuk mengambil[uji coba gratis](https://releases.aspose.com/) dan mulai membuat kode!
+Selesai! Anda baru saja mempelajari cara menampilkan dan menyembunyikan garis kisi dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Baik Anda sedang menyempurnakan laporan atau menyajikan data dalam format yang lebih mudah dibaca, teknik sederhana ini dapat memengaruhi tampilan lembar kerja Anda secara signifikan. Bagian terbaiknya? Hanya perlu beberapa baris kode untuk membuat perubahan besar. Jika Anda siap untuk mencobanya, jangan lupa untuk mengambil[uji coba gratis](https://releases.aspose.com/) dan mulai membuat kode!
 
 ## Pertanyaan yang Sering Diajukan
 

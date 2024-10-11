@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Cập nhật theo đường dẫn
  Tiếp theo, bạn cần tạo một phiên bản mới của`Workbook` lớp. Đối tượng này sẽ đại diện cho tệp Excel của bạn, cho phép bạn thao tác nội dung của tệp.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Trong đoạn mã này, chúng ta chỉ định loại biểu đồ (trong trư�
 
 ## Bước 6: Truy cập vào Chart Instance
 
- Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua`Charts` bộ sưu tập.
+ Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua`Charts`bộ sưu tập.
 
 ```csharp
 // Truy cập vào phiên bản biểu đồ mới được thêm vào

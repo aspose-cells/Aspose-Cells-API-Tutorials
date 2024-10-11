@@ -2,7 +2,7 @@
 title: Excel のページの向きを設定する
 linktitle: Excel のページの向きを設定する
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel ページの向きを段階的に設定する方法を学びます。最適化された結果を取得します。
+description: Aspose.Cells for .NET を使用して Excel ページの向きを設定する方法を段階的に学習します。最適化された結果を取得します。
 type: docs
 weight: 130
 url: /ja/net/excel-page-setup/set-excel-page-orientation/
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 次に、方向を設定するワークシートにアクセスする必要があります。各ワークブックには複数のワークシートが含まれる場合があるため、どのワークシートを操作するのかを明示的に指定する必要があります。
 
 ```csharp
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -36,7 +36,7 @@ Teraz, gdy wszystko jest już skonfigurowane i gotowe do kodowania, podzielmy pr
 
 ## Krok 1: Skonfiguruj swoje środowisko
 
- W tym kroku skonfigurujesz ścieżkę pliku, w którym znajduje się plik Excel. Zastąp`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do pliku.
+ tym kroku skonfigurujesz ścieżkę pliku, w którym znajduje się plik Excel. Zastąp`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do pliku.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -72,7 +72,7 @@ Ten krok to jak powiedzenie „Witaj!” swojemu skoroszytowi, dzięki czemu wie
 Mając w ręku skoroszyt, czas uzyskać dostęp do konkretnego arkusza, który chcesz ukryć. Zaczniemy od pierwszego arkusza.
 
 ```csharp
-// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Po ukryciu arkusza kalkulacyjnego, będziesz chciał zapisać zmiany, które wpr
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Tutaj zapisujemy skoroszyt jako`output.out.xls`. To jak zapieczętowanie swojej pracy w kopercie. Jeśli jej nie zapiszesz, cała twoja ciężka praca pójdzie na marne!
+ Tutaj zapisujemy skoroszyt jako`output.out.xls`. To jak zapieczętowanie swojej pracy w kopercie. Jeśli jej nie zapiszesz, cała twoja ciężka praca pójdzie na marne!
 
 ## Krok 7: Zamknij strumień plików
 
@@ -132,7 +132,7 @@ Manipulowanie arkuszami kalkulacyjnymi programu Excel przy użyciu Aspose.Cells 
  Tak, możesz przejść przez pętlę`Worksheets` kolekcja i zestaw`IsVisible` ustaw właściwość na false dla każdego arkusza, który chcesz ukryć.
 
 ### Jakie formaty plików obsługuje Aspose.Cells?
- Aspose.Cells obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne. Możesz sprawdzić pełną listę[Tutaj](https://reference.aspose.com/cells/net/).
+Aspose.Cells obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne. Możesz sprawdzić pełną listę[Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
  Możesz zacząć od bezpłatnej wersji próbnej, aby poznać jej funkcje. Pełna licencja jest wymagana do aplikacji produkcyjnych. Dowiedz się więcej na ten temat[Tutaj](https://purchase.aspose.com/buy).

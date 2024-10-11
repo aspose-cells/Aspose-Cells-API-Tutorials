@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Cserélje ki a PFX fájl elérési útját
 
 ## 4. lépés: Hozza létre a digitális aláírást
 
- Most hozzuk létre a digitális aláírást a`DigitalSignature`osztály. Itt történik a varázslat!
+ Most hozzuk létre a digitális aláírást a`DigitalSignature` osztály. Itt történik a varázslat!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Igen, érvényes digitális tanúsítványra (PFX-fájlra) van szükség a Xades
  Teljesen! Ingyenes próbaverziót kaphat a[Aspose honlapja](https://releases.aspose.com/).
 
 ### Az Aspose.Cells kompatibilis a .NET összes verziójával?
-Az Aspose.Cells támogatja a .NET keretrendszer különféle verzióit. Ellenőrizze a[dokumentáció](https://reference.aspose.com/cells/net/) a kompatibilitási részletekért.
+ Az Aspose.Cells támogatja a .NET keretrendszer különféle verzióit. Ellenőrizze a[dokumentáció](https://reference.aspose.com/cells/net/) a kompatibilitási részletekért.
 
 ### Hol kaphatok támogatást, ha problémákba ütközöm?
  Meglátogathatja a[Aspose fórum](https://forum.aspose.com/c/cells/9) közösségi támogatásért és segítségért.

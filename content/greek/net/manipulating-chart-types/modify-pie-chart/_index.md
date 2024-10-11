@@ -34,7 +34,7 @@ url: /el/net/manipulating-chart-types/modify-pie-chart/
 2. Επιλέξτε "Δημιουργία νέου έργου".
 3. Επιλέξτε μια εφαρμογή κονσόλας C#.
 4.  Ονομάστε το έργο σας (π.χ.`ModifyPieChartDemo`).
-5. Κάντε κλικ στο Create.
+5. Κάντε κλικ στην επιλογή Δημιουργία.
 
 ## Εγκαταστήστε το Aspose.Cells
 
@@ -132,7 +132,7 @@ Aspose.Cells.Charts.DataLabels datalabels = chart.NSeries[0].Points[2].DataLabel
 datalabels.Text = "United Kingdom, 400K";
 ```
 
-Κάπως έτσι, ενημερώσαμε την ετικέτα! 
+Κάπως έτσι, έχουμε ενημερώσει την ετικέτα! 
 
 ## Βήμα 7: Αποθηκεύστε το βιβλίο εργασίας
 

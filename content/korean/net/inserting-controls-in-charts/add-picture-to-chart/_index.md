@@ -45,7 +45,7 @@ using System.IO;
 
 ## 1단계: 디렉토리 정의
 
-가장 먼저 해야 할 일은 입력 및 출력 파일의 경로를 설정하는 것입니다. 이 단계는 기존 Excel 파일을 어디에서 찾을 수 있고 수정된 파일을 어디에 저장할지 알아야 하기 때문에 매우 중요합니다.
+가장 먼저, 입력 및 출력 파일의 경로를 설정해야 합니다. 이 단계는 기존 Excel 파일을 찾을 위치와 수정된 파일을 저장할 위치를 알아야 하기 때문에 중요합니다.
 
 ```csharp
 //소스 디렉토리
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- 바꾸다`Your Document Directory` 그리고`Your Output Directory`컴퓨터의 실제 경로를 사용합니다. 
+ 바꾸다`Your Document Directory` 그리고`Your Output Directory` 컴퓨터의 실제 경로를 사용합니다. 
 
 ## 2단계: 기존 통합 문서 로드
 
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- 여기,`50` 그리고`50` 이미지가 배치될 X 및 Y 좌표입니다.`200`이미지의 너비와 높이입니다.
+ 여기,`50` 그리고`50` 이미지가 배치될 X 및 Y 좌표입니다.`200` 이미지의 너비와 높이입니다.
 
 ## 6단계: 그림의 선 형식 사용자 지정
 
@@ -151,7 +151,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 Aspose.Cells는 PNG, JPEG, BMP, GIF 등 다양한 이미지 형식을 지원합니다.
 
 ### 그림의 위치를 사용자 지정할 수 있나요?
- 물론입니다! X 및 Y 좌표는`AddPictureInChart` 이 방법을 사용하면 정확한 위치 지정이 가능합니다.
+물론입니다! X 및 Y 좌표는`AddPictureInChart` 이 방법을 사용하면 정확한 위치 지정이 가능합니다.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
  Aspose.Cells는 무료 체험판을 제공하지만, 모든 기능을 사용하려면 라이선스가 필요합니다. 가격은 다음과 같습니다.[여기](https://purchase.aspose.com/buy).

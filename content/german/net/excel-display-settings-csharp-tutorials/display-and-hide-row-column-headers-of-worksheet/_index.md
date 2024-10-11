@@ -103,7 +103,7 @@ Abschließend müssen Sie noch darauf achten, den Dateistrom zu schließen, dami
 fstream.Close();
 ```
 
- Schließen der`fstream` ist von entscheidender Bedeutung, da es sicherstellt, dass in Ihrer Anwendung keine Speicherlecks oder offenen Dateisperren auftreten.
+ Schließen der`fstream`ist von entscheidender Bedeutung, da dadurch sichergestellt wird, dass in Ihrer Anwendung keine Speicherlecks oder offenen Dateisperren auftreten.
 
 ## Abschluss
 
@@ -121,7 +121,7 @@ Aspose.Cells ist eine leistungsstarke .NET-Bibliothek zum Verwalten von Excel-Ta
  Während Sie eine kostenlose Testversion nutzen können, ist für die fortlaufende kommerzielle Nutzung eine Lizenz erforderlich. Die Kaufoptionen finden Sie hier[Hier](https://purchase.aspose.com/buy).
 
 ### Gibt es Support für Aspose.Cells?  
- Ja, Aspose bietet Support über seine Foren, auf die Sie zugreifen können[Hier](https://forum.aspose.com/c/cells/9).
+Ja, Aspose bietet Support über seine Foren, auf die Sie zugreifen können[Hier](https://forum.aspose.com/c/cells/9).
 
 ### Wie kann ich eine temporäre Lizenz für Aspose.Cells erhalten?  
-Eine temporäre Lizenz zu Evaluierungszwecken können Sie beantragen unter[dieser Link](https://purchase.aspose.com/temporary-license/).
+ Eine temporäre Lizenz zu Evaluierungszwecken können Sie beantragen unter[dieser Link](https://purchase.aspose.com/temporary-license/).

@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Paso 2: Crear un nuevo libro de trabajo
 
- Ahora que tenemos nuestro directorio de salida, vamos a crear un nuevo libro de trabajo.`Workbook`La clase es el punto de partida para trabajar con archivos de Excel.
+ Ahora que tenemos nuestro directorio de salida, creemos un nuevo libro de trabajo.`Workbook` La clase es el punto de partida para trabajar con archivos de Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Aspose.Cells para .NET es una potente biblioteca para crear, manipular y convert
 ¡Por supuesto! Puedes agregar objetos complejos a las propiedades de tipo de contenido siempre que se puedan serializar correctamente.
 
 ### ¿Dónde puedo encontrar más documentación?
-Para obtener instrucciones más detalladas, consulte la[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Para obtener instrucciones más detalladas, consulte la[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/).

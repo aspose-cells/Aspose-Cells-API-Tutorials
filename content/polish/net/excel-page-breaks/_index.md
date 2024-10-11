@@ -14,12 +14,12 @@ Podziały stron są niezbędne, jeśli chodzi o drukowanie plików Excela. Pomag
 Czy wiesz, że możesz programowo dodawać podziały stron, oszczędzając w ten sposób mnóstwo ręcznej pracy? To może całkowicie odmienić sposób przygotowywania arkuszy kalkulacyjnych do udostępniania lub drukowania. To jak posiadanie magicznej różdżki, która zamienia chaotyczne dane w pięknie ułożone strony!
 
 ## Przewodniki krok po kroku
- Nasza kolekcja samouczków dzieli złożone procesy na małe, łatwe do zrozumienia lekcje. Na przykład w samouczku na temat[Excel Dodaj podziały stron](./excel-add-page-breaks/)przeprowadzimy Cię przez każdy krok za pomocą jasnych instrukcji. Nie będziesz tylko czytał technicznego żargonu; będziesz faktycznie podążał za nim i natychmiast stosował to, czego się nauczysz, w swoich własnych projektach. 
+ Nasza kolekcja samouczków dzieli złożone procesy na małe, łatwe do zrozumienia lekcje. Na przykład w samouczku na temat[Excel Dodaj podziały stron](./excel-add-page-breaks/), przeprowadzimy Cię przez każdy krok za pomocą jasnych instrukcji. Nie będziesz tylko czytał technicznego żargonu; będziesz faktycznie podążał za nim i natychmiast stosował to, czego się nauczysz, w swoich własnych projektach. 
 
  Trzeba wyczyścić wszystkie podziały stron? Nie ma problemu! Sprawdź nasz przewodnik na temat[Excel Wyczyść wszystkie podziały stron](./excel-clear-all-page-breaks/), który oferuje prosty i skuteczny proces, który każdy może opanować. Chodzi o to, aby Twój przepływ pracy był płynniejszy i szybszy.
 
 ## Personalizacja na wyciągnięcie ręki
- Co jeśli chcesz usunąć tylko niektóre podziały stron? To właśnie tutaj nasz poradnik[Excel Usuń określony podział strony](./excel-remove-specific-page-break/) wchodzi do gry. Jest dostosowany do tych momentów, gdy potrzebujesz precyzyjnej kontroli nad układem dokumentu. Dzięki Aspose.Cells dla .NET będziesz mieć możliwość dostosowania arkuszy kalkulacyjnych dokładnie tak, jak chcesz. 
+Co jeśli chcesz usunąć tylko niektóre podziały stron? To właśnie tutaj nasz samouczek[Excel Usuń określony podział strony](./excel-remove-specific-page-break/) wchodzi do gry. Jest dostosowany do tych momentów, gdy potrzebujesz precyzyjnej kontroli nad układem dokumentu. Dzięki Aspose.Cells dla .NET będziesz mieć możliwość dostosowania arkuszy kalkulacyjnych dokładnie tak, jak chcesz. 
 
 ## Samouczki 
 | Tytuł | Opis |

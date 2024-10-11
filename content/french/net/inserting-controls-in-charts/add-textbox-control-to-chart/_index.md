@@ -16,7 +16,7 @@ Créer des graphiques dynamiques et visuellement attrayants dans Excel est un mo
 Avant de passer au codage, il y a quelques éléments que vous devez mettre en place :
 
 - Compréhension de base de C# : une compréhension fondamentale de la programmation C# sera utile. Ne vous inquiétez pas ; vous n'avez pas besoin d'être un expert, il vous suffit de savoir naviguer dans la syntaxe.
--  Bibliothèque Aspose.Cells installée : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/)si vous ne l'avez pas déjà fait.
+-  Bibliothèque Aspose.Cells installée : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/) si vous ne l'avez pas déjà fait.
 - Visual Studio : une connaissance de Visual Studio ou de tout IDE que vous préférez utiliser pour le framework .NET est essentielle.
 - Un fichier Excel existant : pour cet exemple, nous allons travailler avec un fichier Excel existant nommé « sampleAddingTextBoxControlInChart.xls ». Vous pouvez en créer un ou télécharger un exemple.
 

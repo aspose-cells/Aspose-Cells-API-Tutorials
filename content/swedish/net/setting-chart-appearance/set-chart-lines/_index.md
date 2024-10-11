@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Nu skapar vi ett arbetsboksobjekt som fungerar som en behållare för ditt kalkylblad.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 
-Förklaring: Den här raden skapar en instans av`Workbook` klass från Aspose.Cells-biblioteket. Det är som att öppna en ny tom Excel-fil där du kan börja lägga till dina ark och data.
+ Förklaring: Den här raden skapar en instans av`Workbook`klass från Aspose.Cells-biblioteket. Det är som att öppna en ny tom Excel-fil där du kan börja lägga till dina ark och data.
 
 ## Steg 3: Referera till ett arbetsblad
 

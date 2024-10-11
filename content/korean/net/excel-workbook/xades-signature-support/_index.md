@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // PFX 파일 경로로 바꾸세요
 
 ## 4단계: 디지털 서명 만들기
 
- 이제 다음을 사용하여 디지털 서명을 만들어 보겠습니다.`DigitalSignature`수업. 마법이 일어나는 곳이 바로 여기예요!
+ 이제 다음을 사용하여 디지털 서명을 만들어 보겠습니다.`DigitalSignature` 수업. 마법이 일어나는 곳이 바로 여기예요!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Xades(XML Advanced Electronic Signatures)는 전자 문서의 무결성과 진�
  물론입니다! 무료 체험판을 받으실 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/).
 
 ### Aspose.Cells는 모든 버전의 .NET과 호환됩니까?
-Aspose.Cells는 다양한 버전의 .NET 프레임워크를 지원합니다.[선적 서류 비치](https://reference.aspose.com/cells/net/) 호환성에 대한 자세한 내용은 다음을 참조하세요.
+ Aspose.Cells는 다양한 버전의 .NET 프레임워크를 지원합니다.[선적 서류 비치](https://reference.aspose.com/cells/net/) 호환성에 대한 자세한 내용은 다음을 참조하세요.
 
 ### 문제가 발생하면 어디에서 지원을 받을 수 있나요?
  방문할 수 있습니다[Aspose 포럼](https://forum.aspose.com/c/cells/9) 지역사회의 지원과 도움을 위해.

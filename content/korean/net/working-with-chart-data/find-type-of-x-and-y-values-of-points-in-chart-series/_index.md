@@ -17,9 +17,9 @@ url: /ko/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 1. .NET 환경: .NET 개발 환경을 설정해야 합니다. 이는 Visual Studio, Visual Studio Code 또는 기타 호환 IDE일 수 있습니다.
    
-2. Aspose.Cells for .NET: Aspose.Cells for .NET을 설치해야 합니다. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Aspose.Cells for .NET을 설치해야 합니다. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 
-3.  샘플 Excel 파일: 차트가 포함된 샘플 Excel 파일을 가져옵니다. 이 튜토리얼에서는 다음 이름의 파일을 사용합니다.`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`프로젝트 디렉토리에 있는지 확인하세요.
+3. 샘플 Excel 파일: 차트가 포함된 샘플 Excel 파일을 가져옵니다. 이 튜토리얼에서는 다음 이름의 파일을 사용합니다.`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`프로젝트 디렉토리에 있는지 확인하세요.
 
 4. 기본 프로그래밍 지식: C# 프로그래밍에 익숙하다면 쉽게 따라갈 수 있습니다.
 
@@ -56,7 +56,7 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
- 바꾸다`"Your Document Directory"` Excel 파일이 저장된 경로를 사용합니다.
+ 바꾸다`"Your Document Directory"`Excel 파일이 저장된 경로를 사용합니다.
 
 ## 2단계: 통합 문서 로드
 

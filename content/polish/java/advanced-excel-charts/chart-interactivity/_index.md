@@ -10,7 +10,7 @@ url: /pl/java/advanced-excel-charts/chart-interactivity/
 
 ## Wstęp
 
-Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając użytkownikom lepiej eksplorować i rozumieć dane. W tym samouczku pokażemy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells dla Java. Dowiesz się, jak dodawać funkcje, takie jak podpowiedzi, etykiety danych i funkcje przechodzenia do szczegółów, do wykresów, dzięki czemu prezentacje danych będą bardziej angażujące.
+Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając użytkownikom lepiej eksplorować i rozumieć dane. W tym samouczku pokażemy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells for Java. Dowiesz się, jak dodawać funkcje, takie jak podpowiedzi, etykiety danych i funkcje przechodzenia do szczegółów, do wykresów, dzięki czemu prezentacje danych będą bardziej angażujące.
 
 ## Wymagania wstępne
 

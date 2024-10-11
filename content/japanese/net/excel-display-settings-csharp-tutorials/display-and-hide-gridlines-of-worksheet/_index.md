@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Excel ファイルには、通常、複数のワークシートが含まれています。このチュートリアルでは、ワークブックの最初のワークシートにアクセスします。
 
 ```csharp
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 次は楽しい部分です – グリッド線を非表示にします! たった 1 行のコードで、グリッド線の表示/非表示を切り替えることができます。
 
 ```csharp
-// Excelファイルの最初のワークシートのグリッド線を非表示にする
+//Excelファイルの最初のワークシートのグリッド線を非表示にする
 worksheet.IsGridlinesVisible = false;
 ```
 

@@ -2,7 +2,7 @@
 title: Meghatározott nevek szűrése munkafüzet betöltése közben
 linktitle: Meghatározott nevek szűrése munkafüzet betöltése közben
 second_title: Aspose.Cells for .NET API Reference
-description: Ebből az átfogó útmutatóból megtudhatja, hogyan szűrheti ki a meghatározott neveket az Aspose.Cells for .NET segítségével munkafüzet betöltésekor.
+description: Ebből az átfogó útmutatóból megtudhatja, hogyan szűrheti a definiált neveket az Aspose.Cells for .NET segítségével munkafüzet betöltésekor.
 type: docs
 weight: 100
 url: /hu/net/excel-workbook/filter-defined-names-while-loading-workbook/
@@ -37,7 +37,7 @@ Bontsuk le a definiált nevek szűrésének folyamatát a munkafüzet betöltés
 
 ## 1. lépés: Adja meg a Betöltési beállításokat
 
-Az első dolog, amit meg fogunk tennünk, hogy létrehozunk egy példányt a`LoadOptions` osztály. Ez az osztály segít meghatározni, hogyan szeretnénk betölteni Excel fájlunkat.
+ Az első dolog, amit meg fogunk tennünk, hogy létrehozunk egy példányt a`LoadOptions` osztály. Ez az osztály segít meghatározni, hogyan szeretnénk betölteni Excel fájlunkat.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Most, hogy megadtuk a betöltési beállításainkat, ideje betölteni magát a 
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Ebben a sorban egy új példányt hoz létre a`Workbook`osztályba, átadva a minta Excel-fájl elérési útját és a betöltési beállításokat. Ez betölti a munkafüzetet a megadott nevekkel a megadottak szerint kiszűrve.
+ Ebben a sorban egy új példányt hoz létre a`Workbook` osztályba, átadva a minta Excel-fájl elérési útját és a betöltési beállításokat. Ez betölti a munkafüzetet a megadott nevekkel a megadottak szerint kiszűrve.
 
 ## 4. lépés: Mentse el a kimeneti fájlt
 
@@ -89,7 +89,7 @@ Ezzel a sorral egyértelműen jelzi, hogy a művelet problémamentesen befejező
 
 És megvan! A definiált nevek szűrése munkafüzet betöltésekor az Aspose.Cells for .NET segítségével néhány egyszerű lépéssel megvalósítható. Ez a folyamat rendkívül hasznos olyan esetekben, amikor egyszerűsíteni kell az adatfeldolgozást, vagy meg kell akadályozni, hogy a szükségtelen adatok befolyásolják a számításokat.
 
-Az útmutató követésével magabiztosan betöltheti Excel-fájljait, miközben szabályozhatja, hogy mely adatokat kívánja kizárni. Függetlenül attól, hogy nagy adatkészleteket kezelő alkalmazásokat fejleszt, vagy konkrét üzleti logikát valósít meg, ennek a funkciónak az elsajátítása csak javítja Excel-kezelési készségeit.
+Az útmutató követésével magabiztosan betöltheti Excel-fájljait, miközben szabályozhatja, hogy mely adatokat kívánja kizárni. Függetlenül attól, hogy nagy adatkészleteket kezelő alkalmazásokat fejleszt, vagy konkrét üzleti logikát valósít meg, ennek a funkciónak az elsajátítása csak fejleszti Excel-kezelési készségeit.
 
 ## GYIK
 
@@ -100,10 +100,10 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi Excel-fáj
 Igen, az Aspose.Cells különféle betöltési lehetőségeket biztosít a különböző adattípusok szűrésére, beleértve a diagramokat, képeket és adatellenőrzéseket.
 
 ### Mi történik a képleteimmel a meghatározott nevek szűrése után?
-meghatározott nevek szűrése hibás képletekhez vezethet, ha hivatkoznak ezekre a nevekre. Ennek megfelelően módosítania kell a képleteket.
+A meghatározott nevek szűrése hibás képletekhez vezethet, ha hivatkoznak ezekre a nevekre. Ennek megfelelően módosítania kell a képleteket.
 
 ### Létezik ingyenes próbaverzió az Aspose.Cells számára?
  Igen, megkaphatja az Aspose.Cells ingyenes próbaverzióját, hogy vásárlás előtt tesztelje a képességeit. Nézd meg[itt](https://releases.aspose.com/).
 
 ### Hol találok további példákat és dokumentációt?
- Az Aspose.Cells hivatkozási oldalon átfogó dokumentációt és további példákat találhat[itt](https://reference.aspose.com/cells/net/).
+Az Aspose.Cells hivatkozási oldalon átfogó dokumentációt és további példákat találhat[itt](https://reference.aspose.com/cells/net/).

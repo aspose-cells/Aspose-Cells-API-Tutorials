@@ -18,7 +18,7 @@ Mielőtt belemerülnénk a kördiagramok módosításának aprólékos részlete
 - Alapvető C# ismerete: A C# programozás alapvető ismerete segít a könnyű követésben.
 - Aspose.Cells for .NET: telepítenie kell az Aspose.Cells könyvtárat. Akár a teljes verzió mellett dönt, akár az ingyenes próbaverziót választja, győződjön meg arról, hogy az használatra kész.
 - Visual Studio vagy bármely C# IDE: Szüksége lesz egy környezetre a C# kód írásához és végrehajtásához.
--  Excel-mintafájl: ehhez az oktatóanyaghoz egy Excel-mintafájl neve`sampleModifyPieChart.xlsx` fogják használni.
+-  Excel-mintafájl: ehhez az oktatóanyaghoz egy Excel-mintafájl neve`sampleModifyPieChart.xlsx` felhasználásra kerül.
 
  Letöltheti az Aspose.Cells könyvtárat[itt](https://releases.aspose.com/cells/net/).
 

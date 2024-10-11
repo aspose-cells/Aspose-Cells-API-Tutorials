@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Sekarang, kita akan membuat objek buku kerja, yang berfungsi sebagai wadah bagi lembar kerja Anda.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
-Penjelasan: Baris ini membuat contoh dari`Workbook` kelas dari pustaka Aspose.Cells. Mirip seperti membuka berkas Excel kosong baru tempat Anda dapat mulai menambahkan lembar dan data.
+ Penjelasan: Baris ini membuat contoh dari`Workbook`kelas dari pustaka Aspose.Cells. Mirip seperti membuka berkas Excel kosong baru tempat Anda dapat mulai menambahkan lembar dan data.
 
 ## Langkah 3: Referensi Lembar Kerja
 

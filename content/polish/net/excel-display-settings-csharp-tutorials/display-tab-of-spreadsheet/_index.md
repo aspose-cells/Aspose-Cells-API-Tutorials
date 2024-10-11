@@ -41,7 +41,7 @@ Zanim będziemy mogli manipulować jakimkolwiek plikiem Excela, musimy zdefiniow
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką katalogu w twoim systemie. Ten katalog będzie miejscem, w którym załadujesz istniejący plik Excel i zapiszesz dane wyjściowe.
+ Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką katalogu w twoim systemie. Ten katalog będzie miejscem, w którym załadujesz istniejący plik Excel i zapiszesz dane wyjściowe.
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
@@ -61,7 +61,7 @@ W programie Excel zakładki na dole (Arkusz1, Arkusz2 itd.) mogą być ukryte lu
 workbook.Settings.ShowTabs = true;
 ```
 
- Ustawienie`ShowTabs` Do`true` zapewni, że karty będą widoczne po otwarciu pliku Excel.
+ Ustawienie`ShowTabs` Do`true`zapewni, że karty będą widoczne po otwarciu pliku Excel.
 
 ## Krok 4: Zapisz zmodyfikowany plik Excela
 
@@ -71,7 +71,7 @@ Po wyświetleniu kart musimy zapisać zaktualizowany plik. Dzięki temu zmiany z
 workbook.Save(dataDir + "output.xls");
 ```
 
-Plik jest zapisywany pod nazwą`output.xls` w katalogu określonym wcześniej. Możesz również wybrać inną nazwę lub format pliku (taki jak`.xlsx`) jeśli to konieczne.
+ Plik jest zapisywany pod nazwą`output.xls` w katalogu określonym wcześniej. Możesz również wybrać inną nazwę lub format pliku (taki jak`.xlsx`) jeśli to konieczne.
 
 ## Wniosek
 
@@ -80,7 +80,7 @@ I masz to! Udało Ci się wyświetlić zakładki w arkuszu kalkulacyjnym Excel p
 ## Najczęściej zadawane pytania
 
 ### Czy mogę ukryć karty w programie Excel, używając Aspose.Cells dla platformy .NET?
- Absolutnie! Po prostu ustaw`workbook.Settings.ShowTabs = false;` i zapisz plik. Spowoduje to ukrycie kart po otwarciu skoroszytu.
+ Absolutnie! Po prostu ustaw`workbook.Settings.ShowTabs = false;` zapisz plik. Spowoduje to ukrycie kart po otwarciu skoroszytu.
 
 ### Czy Aspose.Cells obsługuje inne funkcje programu Excel, takie jak wykresy i tabele przestawne?
 Tak, Aspose.Cells to kompleksowa biblioteka obsługująca niemal wszystkie funkcje programu Excel, w tym wykresy, tabele przestawne, formuły i wiele innych.

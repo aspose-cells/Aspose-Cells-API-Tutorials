@@ -18,7 +18,7 @@ Sebelum kita masuk ke hal yang lebih penting, mari kita pastikan Anda siap untuk
 1. Lingkungan Pengembangan .NET: Pastikan Anda memiliki lingkungan pengembangan .NET yang siap digunakan. Anda dapat menggunakan Visual Studio atau IDE lain pilihan Anda.
 2.  Pustaka Aspose.Cells: Anda juga harus menginstal pustaka Aspose.Cells. Jika Anda belum melakukannya, jangan khawatir! Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 3. Pemahaman Dasar C#: Mengetahui dasar-dasar pemrograman C# akan membantu Anda mengikutinya dengan lancar.
-4. File Excel: Siapkan file Excel yang ingin Anda gunakan. Untuk contoh kita, kita akan menggunakan file sederhana bernama`book1.xlsx` dengan setidaknya satu lembar kerja bernama "Sheet1".
+4.  File Excel: Siapkan file Excel yang ingin Anda gunakan. Untuk contoh kita, kita akan menggunakan file sederhana bernama`book1.xlsx` dengan setidaknya satu lembar kerja bernama "Sheet1".
 
 Sekarang Anda sudah siap, mari kita mulai!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Tentukan direktori dokumen Anda
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Gabungkan untuk membentuk jalur penuh
 ```
 
- Di sini, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya di sistem Anda di mana`book1.xlsx` disimpan. Memanfaatkan`Path.Combine` rapi karena memastikan jalur dibangun dengan benar di seluruh sistem operasi yang berbeda.
+ Di sini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di sistem Anda di mana`book1.xlsx` disimpan. Memanfaatkan`Path.Combine` rapi karena memastikan jalur dibangun dengan benar di seluruh sistem operasi yang berbeda.
 
 ## Langkah 2: Buat Aliran File
 

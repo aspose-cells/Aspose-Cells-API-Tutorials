@@ -17,9 +17,9 @@ url: /hi/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 1. .NET वातावरण: आपके पास .NET डेवलपमेंट वातावरण होना चाहिए। यह Visual Studio, Visual Studio Code या कोई अन्य संगत IDE हो सकता है।
    
-2. Aspose.Cells for .NET: आपको Aspose.Cells for .NET इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: आपको Aspose.Cells for .NET इंस्टॉल करना होगा। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
 
-3.  नमूना एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल प्राप्त करें जिसमें चार्ट शामिल हैं। इस ट्यूटोरियल के लिए, हम नाम की एक फ़ाइल का उपयोग करेंगे`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`सुनिश्चित करें कि यह आपकी प्रोजेक्ट निर्देशिका में है।
+3. नमूना एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल प्राप्त करें जिसमें चार्ट शामिल हैं। इस ट्यूटोरियल के लिए, हम नाम की एक फ़ाइल का उपयोग करेंगे`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`सुनिश्चित करें कि यह आपकी प्रोजेक्ट निर्देशिका में है।
 
 4. बुनियादी प्रोग्रामिंग ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको आसानी से अनुसरण करने में मदद मिलेगी।
 
@@ -56,7 +56,7 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` वह पथ जहाँ आपकी एक्सेल फ़ाइल सहेजी गई है.
+ प्रतिस्थापित करें`"Your Document Directory"`वह पथ जहाँ आपकी एक्सेल फ़ाइल सहेजी गई है.
 
 ## चरण 2: कार्यपुस्तिका लोड करें
 

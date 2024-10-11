@@ -10,7 +10,7 @@ url: /hu/java/basic-excel-functions/understanding-excel-max-function/
 
 ## Bevezetés
 
-Az Excel MAX funkciója értékes adatelemzési eszköz. Lehetővé teszi, hogy gyorsan megtalálja a legnagyobb értéket egy megadott cellatartományon belül. Akár pénzügyi adatokkal, értékesítési adatokkal vagy bármilyen más típusú számadatokkal dolgozik, a MAX funkció segítségével könnyedén azonosíthatja a legmagasabb értéket.
+Az Excel MAX funkciója értékes adatelemzési eszköz. Lehetővé teszi, hogy gyorsan megtalálja a legnagyobb értéket egy megadott cellatartományon belül. Akár pénzügyi adatokkal, értékesítési adatokkal vagy bármilyen más típusú numerikus adattal dolgozik, a MAX funkció segítségével könnyedén azonosíthatja a legmagasabb értéket.
 
 ## Előfeltételek
 

@@ -53,7 +53,7 @@ Dále budete muset vytvořit souborový stream, abyste mohli otevřít soubor Ex
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Zde určíme, že chceme otevřít`book1.xls` umístěn v určeném adresáři. The`FileMode.Open` Parametr označuje, že otevíráme existující soubor. Vždy se ujistěte, že název souboru odpovídá tomu, co máte.
+ Zde určíme, že chceme otevřít`book1.xls` umístěný v určeném adresáři. The`FileMode.Open` Parametr označuje, že otevíráme existující soubor. Vždy se ujistěte, že název souboru odpovídá tomu, co máte.
 
 ## Krok 3: Vytvořte instanci objektu sešitu
 
@@ -103,11 +103,11 @@ Nakonec se musíte ujistit, že zavřete datový proud souborů, aby se uvolnily
 fstream.Close();
 ```
 
- Zavírání`fstream` je zásadní, protože zajišťuje, že ve vaší aplikaci nezůstanou otevřené žádné úniky paměti nebo uzamčení souborů.
+ Zavírání`fstream`je zásadní, protože zajišťuje, že ve vaší aplikaci nezůstanou otevřené žádné úniky paměti nebo uzamčení souborů.
 
 ## Závěr
 
-tady to máte! Naučili jste se skrýt záhlaví řádků a sloupců listu aplikace Excel pomocí Aspose.Cells for .NET prostřednictvím řady jednoduchých kroků. To může zlepšit čitelnost a celkovou prezentaci vašich tabulek, což vašemu publiku umožní soustředit se pouze na data, která chcete zvýraznit.
+A tady to máte! Naučili jste se skrýt záhlaví řádků a sloupců listu aplikace Excel pomocí Aspose.Cells for .NET prostřednictvím řady jednoduchých kroků. To může zlepšit čitelnost a celkovou prezentaci vašich tabulek, což vašemu publiku umožní soustředit se pouze na data, která chcete zvýraznit.
 
 ## FAQ
 
@@ -121,7 +121,7 @@ Aspose.Cells je výkonná knihovna .NET pro správu tabulek aplikace Excel, kter
  I když můžete použít bezplatnou zkušební verzi, pro trvalé komerční použití je vyžadována licence. Možnosti nákupu najdete[zde](https://purchase.aspose.com/buy).
 
 ### Je k dispozici podpora pro Aspose.Cells?  
- Ano, Aspose poskytuje podporu prostřednictvím svých fór, ke kterým máte přístup[zde](https://forum.aspose.com/c/cells/9).
+Ano, Aspose poskytuje podporu prostřednictvím svých fór, ke kterým máte přístup[zde](https://forum.aspose.com/c/cells/9).
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Cells?  
- dočasnou licenci pro zkušební účely můžete požádat na adrese[tento odkaz](https://purchase.aspose.com/temporary-license/).
+ O dočasnou licenci pro zkušební účely můžete požádat na adrese[tento odkaz](https://purchase.aspose.com/temporary-license/).

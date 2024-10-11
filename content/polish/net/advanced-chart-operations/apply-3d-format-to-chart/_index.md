@@ -194,7 +194,7 @@ Zapisywanie swojej pracy jest jak wystawianie jej w galerii; to chwila, którą 
 
 ## Wniosek
 
-Gratulacje! Udało Ci się stworzyć atrakcyjny wizualnie wykres 3D przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tymi krokami, masz teraz potężne narzędzie do ulepszania prezentacji danych, dzięki czemu będą one nie tylko informacyjne, ale także wizualnie atrakcyjne. Podczas udoskonalania wykresów pamiętaj, że każda wizualizacja to historia — spraw, aby była angażująca, przejrzysta i wywierała wpływ!
+Gratulacje! Udało Ci się stworzyć atrakcyjny wizualnie wykres 3D przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tymi krokami, masz teraz potężne narzędzie do ulepszania prezentacji danych, dzięki czemu będą nie tylko informacyjne, ale także wizualnie wciągające. Podczas udoskonalania wykresów pamiętaj, że każda wizualizacja to historia — spraw, aby była angażująca, przejrzysta i wywierała wpływ!
 
 ## Najczęściej zadawane pytania
 

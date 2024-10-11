@@ -59,7 +59,7 @@ worksheet.getAutoFilter().filter(0, "Filter Criteria");
 U kunt verschillende statistieken over uw gegevens berekenen, zoals som, gemiddelde, minimum en maximum waarden. Aspose.Cells vereenvoudigt dit proces. Hier is een voorbeeld van het berekenen van de som van een kolom:
 
 ```java
-// Bereken de som van een kolom
+// De som van een kolom berekenen
 double sum = worksheet.getCells().calculateSum(1, 1, worksheet.getCells().getMaxDataRow(), 1);
 ```
 

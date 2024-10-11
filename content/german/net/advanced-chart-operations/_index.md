@@ -21,7 +21,7 @@ Möchten Sie, dass Ihre Excel-Diagramme hervorstechen? Die Anwendung eines 3D-Fo
 
 ## Verwenden von Sparklines für schnelle Einblicke
 
- Sparklines sind kleine, leichtgewichtige Diagramme, die eine schnelle visuelle Zusammenfassung von Datentrends bieten. Aspose.Cells für .NET erleichtert die Integration dieser Diagramme in Ihre Excel-Arbeitsmappen. Perfekt für alle, die aufschlussreiche Datenvisualisierungen hinzufügen möchten, ohne das Arbeitsblatt zu überladen.[Schauen Sie sich das Tutorial an](./using-sparklines/) für schrittweise Anleitungen.
+ Sparklines sind kleine, einfache Diagramme, die eine schnelle visuelle Zusammenfassung von Datentrends bieten. Aspose.Cells für .NET erleichtert die Integration dieser Diagramme in Ihre Excel-Arbeitsmappen. Perfekt für alle, die aufschlussreiche Datenvisualisierungen hinzufügen möchten, ohne das Blatt zu überladen.[Schauen Sie sich das Tutorial an](./using-sparklines/) für schrittweise Anleitungen.
 Sicher! Lassen Sie uns weiter auf erweiterte Diagrammoperationen eingehen, die Sie mit Aspose.Cells für .NET durchführen können.
 
 ## Richtung der Teilstrichbeschriftung ändern

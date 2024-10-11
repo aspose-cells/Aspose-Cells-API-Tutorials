@@ -46,7 +46,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Fase 4: definire i criteri di convalida
 
-La convalida dei dati condizionali implica l'impostazione di criteri per i dati in celle specifiche. Ad esempio, potresti voler limitare l'input in una cella a un numero compreso tra 1 e 100. Ecco come puoi definire tali criteri:
+La convalida condizionale dei dati implica l'impostazione di criteri per i dati in celle specifiche. Ad esempio, potresti voler limitare l'input in una cella a un numero compreso tra 1 e 100. Ecco come puoi definire tali criteri:
 
 ```java
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");

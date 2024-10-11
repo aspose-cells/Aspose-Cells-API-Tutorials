@@ -28,7 +28,7 @@ Kezdje új Java-projekt létrehozásával a kiválasztott IDE-ben. Adjon neki é
 
 Az Aspose.Cells for Java használatához a projektben hozzá kell adni az Aspose.Cells könyvtárat. Letöltheti a könyvtárat a webhelyről, és hozzáadhatja a projekt osztályútjához.
 
-## Adatérvényesítés hozzáadása munkalaphoz
+## Adatellenőrzés hozzáadása egy munkalaphoz
 
 Most, hogy beállította a projektet, kezdjük el az adatok érvényesítésének hozzáadását egy munkalaphoz. Először hozzon létre egy új Excel-munkafüzetet és egy munkalapot.
 
@@ -66,7 +66,7 @@ validation.setInputMessage("Please enter a number between 1 and 100.");
 A beviteli üzeneteken kívül hibariasztásokat is beállíthat, hogy értesítse a felhasználókat, ha érvénytelen adatokat adnak meg.
 
 ```java
-// Állítsa be a hibajelzést az adatok ellenőrzéséhez
+// Hibajelzés beállítása az adatok ellenőrzéséhez
 validation.setShowError(true);
 validation.setErrorTitle("Invalid Data");
 validation.setErrorMessage("Please enter a valid number between 1 and 100.");

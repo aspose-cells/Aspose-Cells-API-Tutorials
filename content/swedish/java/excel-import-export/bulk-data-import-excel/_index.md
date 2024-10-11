@@ -36,7 +36,7 @@ Workbook workbook = new Workbook("data.xlsx");
 När du har laddat in Excel-filen måste du komma åt kalkylbladet som innehåller data. Använd följande kod för att göra det:
 
 ```java
-// Få tillgång till kalkylbladet efter index (0-baserat)
+// Få åtkomst till kalkylbladet efter index (0-baserat)
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 

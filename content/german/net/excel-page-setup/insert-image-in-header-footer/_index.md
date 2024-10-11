@@ -15,10 +15,10 @@ Beim Arbeiten mit Excel-Dateien spielen Kopf- und Fußzeilen eine entscheidende 
 
 Bevor Sie sich in den eigentlichen Code stürzen, müssen Sie ein paar Dinge bereithalten:
 
-1. Aspose.Cells für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.Cells-Bibliothek in Ihrer .NET-Umgebung installiert ist. Wenn Sie sie noch nicht haben, können Sie[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.Cells-Bibliothek in Ihrer .NET-Umgebung installiert ist. Wenn Sie sie noch nicht haben, können Sie[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 2. Visual Studio oder eine andere IDE: Sie benötigen eine integrierte Entwicklungsumgebung zum Schreiben und Ausführen Ihres C#-Codes.
 3.  Ein Beispielbild: Bereiten Sie ein Bild vor, das Sie in die Kopf- oder Fußzeile einfügen möchten. Für unser Beispiel verwenden wir ein Firmenlogo namens`aspose-logo.jpg`.
-4. Grundkenntnisse in C#: Auch wenn es keine Voraussetzung ist, wird Ihnen das Verständnis von C# das Folgen dieses Tutorials erleichtern.
+4. Grundkenntnisse in C#: Auch wenn es keine Voraussetzung ist, wird Ihnen das Verstehen von C# das Folgen dieses Tutorials erleichtern.
 5. Zugriff auf das Dateisystem: Stellen Sie sicher, dass Sie Zugriff auf Ihr Dateisystem haben, wo Sie das Bild lesen und die Excel-Datei speichern.
 
 ## Pakete importieren
@@ -95,7 +95,7 @@ Da wir nun die Binärdaten des Bildes zur Hand haben, können wir diese in den H
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Diese Zeile platziert das Bild im mittleren Bereich der Kopfzeile. Der Parameter`1` gibt den Header-Abschnitt an.
+ Diese Zeile platziert das Bild im mittleren Bereich der Kopfzeile. Der Parameter`1`gibt den Header-Abschnitt an.
 
 ## Schritt 7: Festlegen des Header-Inhalts
 

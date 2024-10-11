@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Agora, é hora de criar uma nova pasta de trabalho. É aqui que todos os seus dados e configurações ficarão.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Arquivos Excel podem conter várias planilhas. Acessaremos a primeira planilha para aplicar nosso fator de escala.
 
 ```csharp
-// Acessando a primeira planilha no arquivo Excel
+//Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -72,7 +72,7 @@ string outputDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- 이 단계에서는 새 인스턴스를 만듭니다.`Workbook`클래스는 Excel 파일의 내용에 대한 브리지 역할을 합니다. 파일이 여기에 로드되어 나중에 시트를 반복하고 내장된 MOL 개체를 찾을 수 있습니다.
+ 이 단계에서는 새 인스턴스를 만듭니다.`Workbook` 클래스는 Excel 파일의 내용에 대한 브리지 역할을 합니다. 파일이 여기에 로드되어 나중에 시트를 반복하고 내장된 MOL 개체를 찾을 수 있습니다.
 
 ## 3단계: 워크시트 반복
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- 이 스니펫을 사용하면 다음을 사용할 수 있습니다.`foreach` 워크북의 모든 시트를 살펴보려면 루프를 사용합니다.`OleObjects` 컬렉션을 사용하면 해당 특정 시트에 포함된 모든 개체에 접근할 수 있습니다. 
+ 이 스니펫을 사용하면 다음을 사용할 수 있습니다.`foreach` 워크북의 모든 시트를 살펴보려면 루프를 사용합니다.`OleObjects`컬렉션을 사용하면 해당 특정 시트에 포함된 모든 개체에 접근할 수 있습니다. 
 
 ## 4단계: OLE 개체 추출
 
@@ -132,7 +132,7 @@ Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 물론입니다! Aspose.Cells를 사용하면 MOL 파일뿐만 아니라 PDF, 이미지 등 다양한 임베디드 파일 형식을 추출할 수 있습니다.
 
 ### Aspose.Cells를 사용하려면 구매해야 하나요?  
-무료 평가판이 있지만 전체 기능을 사용하려면 라이선스가 필요합니다.[여기서 구매하세요](https://purchase.aspose.com/buy).
+ 무료 평가판이 있지만 전체 기능을 사용하려면 라이선스가 필요합니다.[여기서 구매하세요](https://purchase.aspose.com/buy).
 
 ### 이 과정에 Visual Studio가 필요합니까?  
 Visual Studio를 사용하여 시연했지만, C# 호환 IDE를 사용하여 프로젝트를 실행할 수 있습니다.

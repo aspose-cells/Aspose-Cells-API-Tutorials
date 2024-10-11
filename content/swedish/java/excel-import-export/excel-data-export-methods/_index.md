@@ -167,7 +167,7 @@ S: Aspose.Cells för Java är kompatibel med Java 1.6 eller högre och fungerar 
 S: Ja, Aspose.Cells för Java stöder export av Excel-formler tillsammans med cellvärden.
 
 ### F: Är Aspose.Cells for Java lämplig för batchbearbetning av Excel-filer?
-A: Absolut. Aspose.Cells för Java är designad för batchbearbetning, vilket gör det till ett utmärkt val för att automatisera uppgifter.
+A: Absolut. Aspose.Cells för Java är designad för batchbearbetning, vilket gör det till ett utmärkt val för automatisering av uppgifter.
 
 ### F: Hur kan jag hantera lösenordsskyddade Excel-filer med Aspose.Cells för Java?
 S: Aspose.Cells för Java tillhandahåller metoder för att arbeta med lösenordsskyddade Excel-filer, så att du kan låsa upp och manipulera dem.

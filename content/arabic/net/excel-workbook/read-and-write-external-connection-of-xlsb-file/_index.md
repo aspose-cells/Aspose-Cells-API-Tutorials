@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- في مقتطف التعليمات البرمجية هذا،`"Your Document Directory"` و`"Your Document Directory"`من المفترض أن تقوم هذه الطرق بجلب المسارات الخاصة بالمكان الذي ستوضع فيه ملفات الإدخال والإخراج. يمكنك استبدال هذه الطرق بمسارات مبرمجة مسبقًا إذا كنت تفضل ذلك.
+ في مقتطف التعليمات البرمجية هذا،`"Your Document Directory"` و`"Your Document Directory"` من المفترض أن تقوم هذه الطرق بجلب المسارات الخاصة بالمكان الذي ستوضع فيه ملفات الإدخال والإخراج. يمكنك استبدال هذه الطرق بمسارات مبرمجة مسبقًا إذا كنت تفضل ذلك.
 
 ## الخطوة 2: تحميل ملف XLSB
 
@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- هنا،`DataConnections[0]` يشير إلى الاتصال الأول في المصنف. نحن نعتبره`DBConnection` نوع لمزيد من التلاعب.
+ هنا،`DataConnections[0]`يشير إلى الاتصال الأول في المصنف. نحن نعتبره`DBConnection` نوع لمزيد من التلاعب.
 
 ## الخطوة 4: استخراج معلومات الاتصال
 
@@ -125,7 +125,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 ملف XLSB هو تنسيق ملف Excel ثنائي يخزن بيانات جدول البيانات بتنسيق ثنائي، مما يجعله أكثر إحكاما وأسرع في الفتح.
 
 ### كيف أقوم بتثبيت Aspose.Cells لـ .NET؟  
-يمكنك تنزيله بسهولة من موقع Aspose[هنا](https://releases.aspose.com/cells/net/).
+ يمكنك تنزيله بسهولة من موقع Aspose[هنا](https://releases.aspose.com/cells/net/).
 
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟  
  نعم! يمكنك البدء بفترة تجريبية مجانية، وهي متاحة[هنا](https://releases.aspose.com/).

@@ -1,6 +1,6 @@
 ---
-title: Visa Och Dölj Rutnät Av Kalkylblad
-linktitle: Visa Och Dölj Rutnät Av Kalkylblad
+title: Visa Och Dölj Stödlinjer Av Kalkylblad
+linktitle: Visa Och Dölj Stödlinjer Av Kalkylblad
 second_title: Aspose.Cells för .NET API-referens
 description: Lär dig hur du visar och döljer rutnät i Excel-kalkylblad med Aspose.Cells för .NET. Steg-för-steg handledning med kodexempel och förklaringar.
 type: docs
@@ -46,7 +46,7 @@ Innan du kan manipulera någon Excel-fil måste du ange platsen för din fil. De
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- I det här steget tilldelar du platsen för din Excel-fil till`dataDir`sträng. Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska vägen där din`.xls` filen finns.
+ I det här steget tilldelar du platsen för din Excel-fil till`dataDir` sträng. Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska vägen där din`.xls` filen finns.
 
 ## Steg 2: Skapa en filström
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Excel-filer innehåller vanligtvis flera kalkylblad. För den här handledningen kommer vi åt det första kalkylbladet i arbetsboken.
 
 ```csharp
-// Åtkomst till det första kalkylbladet i Excel-filen
+//Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Nu kommer det roliga – att dölja rutnätet! Med bara en kodrad kan du växla rutnätets synlighet.
 
 ```csharp
-// Döljer rutnätslinjerna i det första kalkylbladet i Excel-filen
+//Döljer rutnätslinjerna i det första kalkylbladet i Excel-filen
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Att stänga filströmmen är avgörande eftersom det säkerställer att alla res
 
 ## Slutsats
 
- Och det är en wrap! Du har precis lärt dig hur du visar och döljer rutnät i ett Excel-kalkylblad med Aspose.Cells för .NET. Oavsett om du finslipar en rapport eller presenterar data i ett mer läsbart format, kan denna enkla teknik avsevärt påverka hur dina kalkylblad ser ut. Den bästa delen? Det krävs bara några rader kod för att göra stora förändringar. Om du är redo att prova detta, glöm inte att ta en[gratis provperiod](https://releases.aspose.com/) och börja koda!
+Och det är en wrap! Du har precis lärt dig hur du visar och döljer rutnät i ett Excel-kalkylblad med Aspose.Cells för .NET. Oavsett om du finslipar en rapport eller presenterar data i ett mer läsbart format, kan denna enkla teknik avsevärt påverka hur dina kalkylblad ser ut. Den bästa delen? Det krävs bara några rader kod för att göra stora förändringar. Om du är redo att prova detta, glöm inte att ta en[gratis provperiod](https://releases.aspose.com/) och börja koda!
 
 ## FAQ's
 

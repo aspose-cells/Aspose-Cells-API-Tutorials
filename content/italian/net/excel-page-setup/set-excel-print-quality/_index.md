@@ -77,7 +77,7 @@ Ecco dove avviene la magia! Possiamo impostare la qualità di stampa per il fogl
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Spiegazione: Il`PrintQuality`può essere impostata su qualsiasi valore, in genere tra 75 e 600 dpi (punti per pollice). In questo caso, la stiamo impostando su 180 dpi, che è ottimo per un buon equilibrio tra qualità e dimensione del file.
+ Spiegazione: Il`PrintQuality` può essere impostata su qualsiasi valore, in genere tra 75 e 600 dpi (punti per pollice). In questo caso, la stiamo impostando su 180 dpi, che è ottimo per un buon equilibrio tra qualità e dimensione del file.
 
 ## Passaggio 5: salvataggio della cartella di lavoro
 

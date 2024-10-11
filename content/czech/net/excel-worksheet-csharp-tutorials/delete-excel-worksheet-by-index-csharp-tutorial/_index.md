@@ -55,7 +55,7 @@ Nejprve budete muset definovat umístění souboru Excel. Zde dáte programu pok
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Stačí vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jste`book1.xls` soubor sídlí. Berte to tak, že před zahájením cesty poskytnete svému GPS správnou adresu!
+ Stačí vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jste`book1.xls`soubor sídlí. Berte to tak, že před zahájením cesty poskytnete svému GPS správnou adresu!
 
 ## Krok 4: Otevřete soubor Excel pomocí FileStream
 
@@ -65,7 +65,7 @@ Dále vytvoříme souborový stream, který otevře váš soubor Excel. To je z�
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-tomto kroku metaforicky otočíme klíčem, abychom odemkli váš soubor Excel. 
+V tomto kroku metaforicky otočíme klíčem, abychom odemkli váš soubor Excel. 
 
 ## Krok 5: Vytvořte instanci objektu sešitu
 
@@ -85,7 +85,7 @@ Nyní přichází ta vzrušující část – odstranění listu! Můžete to sn
 workbook.Worksheets.RemoveAt(0);
 ```
 
-V tomto příkladu odstraňujeme první list v kolekci (nezapomeňte, že index je založen na nule). Je to jako vyhodit jednu botu, kterou jste nenosili celé věky – přetvořte svůj dokument Excel tak, aby vám zůstalo jen to, co potřebujete!
+tomto příkladu odstraňujeme první list v kolekci (nezapomeňte, že index je založen na nule). Je to jako vyhodit jednu botu, kterou jste nenosili celé věky – přetvořte svůj dokument Excel tak, aby vám zůstalo jen to, co potřebujete!
 
 ## Krok 7: Uložte upravený sešit
 
@@ -109,7 +109,7 @@ Je to jako zavírat dveře na cestě ven a zajistit, abyste za sebou nezanechali
 
 ## Závěr
 
-A tady to máte! Úspěšně jste se naučili, jak odstranit excelový list podle jeho indexu pomocí C# a Aspose.Cells. Proces je přímočarý, jakmile se seznámíte se základy. Nyní můžete snadno vyčistit nepotřebné listy ze sešitů, díky čemuž budou vaše data lépe spravovatelná a organizovaná.
+tady to máte! Úspěšně jste se naučili, jak odstranit excelový list podle jeho indexu pomocí C# a Aspose.Cells. Proces je přímočarý, jakmile se seznámíte se základy. Nyní můžete snadno vyčistit nepotřebné listy ze sešitů, díky čemuž budou vaše data lépe spravovatelná a organizovaná.
 
 ## FAQ
 

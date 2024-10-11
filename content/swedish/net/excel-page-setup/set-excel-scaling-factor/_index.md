@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Nu är det dags att skapa en ny arbetsbok. Det är i huvudsak där alla dina data och inställningar kommer att leva.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel-filer kan innehålla flera kalkylblad. Vi kommer åt det första kalkylbladet för att tillämpa vår skalningsfaktor.
 
 ```csharp
-// Åtkomst till det första kalkylbladet i Excel-filen
+//Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

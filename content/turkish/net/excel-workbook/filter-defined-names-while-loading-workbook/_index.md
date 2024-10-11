@@ -37,7 +37,7 @@ Bu ad alanları, Excel dosyalarını etkili bir şekilde düzenlemek için Aspos
 
 ## Adım 1: Yükleme Seçeneklerini Belirleyin
 
-Yapacağımız ilk şey, bir örnek oluşturmaktır`LoadOptions` sınıf. Bu sınıf, Excel dosyamızı nasıl yüklemek istediğimizi belirtmemize yardımcı olacaktır.
+ Yapacağımız ilk şey, bir örnek oluşturmaktır`LoadOptions` sınıf. Bu sınıf, Excel dosyamızı nasıl yüklemek istediğimizi belirtmemize yardımcı olacaktır.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Artık yükleme seçeneklerimiz belirtildiğine göre, çalışma kitabını yü
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Bu satırda, yeni bir örnek oluşturuyorsunuz`Workbook`sınıf, örnek Excel dosyanıza giden yolu ve yükleme seçeneklerini geçirir. Bu, çalışma kitabınızı belirtilen şekilde filtrelenmiş tanımlanmış adlarla yükler.
+ Bu satırda, yeni bir örnek oluşturuyorsunuz`Workbook` sınıf, örnek Excel dosyanıza giden yolu ve yükleme seçeneklerini geçirir. Bu, çalışma kitabınızı belirtilen şekilde filtrelenmiş tanımlanmış adlarla yükler.
 
 ## Adım 4: Çıktı Dosyasını Kaydedin
 
@@ -106,4 +106,4 @@ Tanımlı adları filtrelemek, bu adlara atıfta bulunurlarsa bozuk formüllere 
  Evet, satın almadan önce yeteneklerini test etmek için Aspose.Cells'in ücretsiz deneme sürümünü edinebilirsiniz. Kontrol edin[Burada](https://releases.aspose.com/).
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Aspose.Cells referans sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Aspose.Cells referans sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).

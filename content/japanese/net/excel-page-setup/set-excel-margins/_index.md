@@ -2,7 +2,7 @@
 title: Excelの余白を設定する
 linktitle: Excelの余白を設定する
 second_title: Aspose.Cells for .NET API リファレンス
-description: ステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel の余白を簡単に設定する方法を学びます。スプレッドシートのレイアウトを強化したい開発者に最適です。
+description: Aspose.Cells for .NET を使用して Excel の余白を簡単に設定する方法を、ステップバイステップ ガイドで学習します。スプレッドシートのレイアウトを強化したい開発者に最適です。
 type: docs
 weight: 110
 url: /ja/net/excel-page-setup/set-excel-margins/

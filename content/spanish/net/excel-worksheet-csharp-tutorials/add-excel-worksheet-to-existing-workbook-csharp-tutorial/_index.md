@@ -53,14 +53,14 @@ Ahora que tenemos el directorio configurado, es momento de crear un flujo de arc
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- En este paso, estamos abriendo`book1.xls`que ya debería existir en el directorio especificado. Asegúrese de tener este archivo a mano o el proceso generará un error.
+ En este paso, estamos abriendo`book1.xls`, que ya debería existir en el directorio especificado. Asegúrese de tener este archivo a mano o el proceso generará un error.
 
 ## Paso 3: Crear una instancia de un objeto de libro de trabajo
 
 A continuación, necesitamos crear una instancia de la clase Workbook, que contendrá nuestro archivo Excel.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 // Abrir el archivo Excel a través del flujo de archivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Al crear una instancia de libro de trabajo a partir de nuestro flujo de archivos
 
 ## Paso 4: Agregar una nueva hoja de trabajo
 
- ¡Ahora viene la parte emocionante! Agreguemos una nueva hoja de trabajo a nuestro libro de trabajo. Esto se hace usando el`Add()` método de la`Worksheets` recopilación.
+¡Ahora viene la parte emocionante! Agreguemos una nueva hoja de trabajo a nuestro libro de trabajo. Esto se hace usando el`Add()` método de la`Worksheets`recopilación.
 
 ```csharp
 // Agregar una nueva hoja de cálculo al objeto Libro de trabajo
@@ -87,7 +87,7 @@ Una vez que hemos creado la nueva hoja de cálculo, es importante obtener una re
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Aquí, estamos usando el índice.`i` para hacer referencia a nuestra hoja de cálculo recién creada. Esto nos permite manipularla más.
+ Aquí, estamos usando el índice.`i` para hacer referencia a nuestra hoja de cálculo recién creada. Esto nos permite manipularla más.
 
 ## Paso 6: Establezca el nombre de la nueva hoja de cálculo
 

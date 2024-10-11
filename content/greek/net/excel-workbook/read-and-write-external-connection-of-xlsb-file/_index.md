@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Σε αυτό το απόσπασμα κώδικα,`"Your Document Directory"` και`"Your Document Directory"`θεωρείται ότι ανακτούν τις αντίστοιχες διαδρομές όπου θα βρίσκονται τα αρχεία εισόδου και εξόδου σας. Αν προτιμάτε, μπορείτε να αντικαταστήσετε αυτές τις μεθόδους με μονοπάτια με σκληρό κώδικα.
+ Σε αυτό το απόσπασμα κώδικα,`"Your Document Directory"` και`"Your Document Directory"` θεωρείται ότι ανακτούν τις αντίστοιχες διαδρομές όπου θα βρίσκονται τα αρχεία εισόδου και εξόδου σας. Αν προτιμάτε, μπορείτε να αντικαταστήσετε αυτές τις μεθόδους με μονοπάτια με σκληρό κώδικα.
 
 ## Βήμα 2: Φορτώστε το αρχείο XLSB
 
@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Εδώ,`DataConnections[0]` αναφέρεται στην πρώτη σύνδεση στο βιβλίο εργασίας. Το κάνουμε cast ως α`DBConnection` πληκτρολογήστε για περαιτέρω χειρισμό.
+ Εδώ,`DataConnections[0]`αναφέρεται στην πρώτη σύνδεση στο βιβλίο εργασίας. Το κάνουμε cast ως α`DBConnection` πληκτρολογήστε για περαιτέρω χειρισμό.
 
 ## Βήμα 4: Εξαγωγή πληροφοριών σύνδεσης
 
@@ -125,7 +125,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 Ένα αρχείο XLSB είναι μια δυαδική μορφή αρχείου Excel που αποθηκεύει δεδομένα υπολογιστικού φύλλου σε δυαδική μορφή, καθιστώντας το πιο συμπαγές και πιο γρήγορο στο άνοιγμα.
 
 ### Πώς μπορώ να εγκαταστήσω το Aspose.Cells για .NET;  
-Μπορείτε να το κατεβάσετε εύκολα από τον ιστότοπο Aspose[εδώ](https://releases.aspose.com/cells/net/).
+ Μπορείτε να το κατεβάσετε εύκολα από τον ιστότοπο Aspose[εδώ](https://releases.aspose.com/cells/net/).
 
 ### Μπορώ να χρησιμοποιήσω το Aspose.Cells δωρεάν;  
  Ναί! Μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμή, η οποία είναι διαθέσιμη[εδώ](https://releases.aspose.com/).

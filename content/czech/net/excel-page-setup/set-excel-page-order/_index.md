@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Zde,`workbook.Worksheets[0]` odkazuje na první list ve vašem sešitu. The`PageSetup`vlastnost vám poskytne kontrolu nad nastavením stránkování vašeho listu.
+ Zde,`workbook.Worksheets[0]` odkazuje na první list ve vašem sešitu. The`PageSetup` vlastnost vám poskytne kontrolu nad nastavením stránkování vašeho listu.
 
 ## Krok 4: Nastavte pořadí tisku
 
 
- s`PageSetup` objekt, je čas sdělit Excelu, jak chcete stránky vytisknout. Máte možnost nastavit pořadí buď jako „Přes, pak dolů“ nebo „Dolů a potom přes“.
+ s`PageSetup`objekt, je čas sdělit Excelu, jak chcete stránky vytisknout. Máte možnost nastavit pořadí buď jako „Přes, pak dolů“ nebo „Dolů a potom přes“.
 
 Zde je kód pro nastavení pořadí tisku:
 

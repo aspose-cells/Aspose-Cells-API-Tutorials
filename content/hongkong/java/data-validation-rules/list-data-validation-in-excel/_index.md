@@ -14,7 +14,7 @@ url: /zh-hant/java/data-validation-rules/list-data-validation-in-excel/
 
 ## 了解資料驗證
 
-在深入研究使用 Aspose.Cells for Java 實作資料驗證的技術細節之前，讓我們花點時間了解什麼是資料驗證及其重要性。
+在深入研究使用 Aspose.Cells for Java 實作資料驗證的技術細節之前，讓我們花點時間了解什麼是資料驗證以及它為何重要。
 
 ### 什麼是資料驗證？
 
@@ -36,7 +36,7 @@ url: /zh-hant/java/data-validation-rules/list-data-validation-in-excel/
 
 ## 使用 Aspose.Cells for Java 實作資料驗證
 
-Aspose.Cells for Java 是一個功能強大的 Java 程式庫，使開發人員能夠以程式設計方式建立、操作和管理 Excel 檔案。它為資料驗證提供全面的支持，讓您可以定義 Excel 儲存格的驗證規則、條件和自訂錯誤訊息。
+Aspose.Cells for Java 是一個功能強大的 Java 程式庫，使開發人員能夠以程式設計方式建立、操作和管理 Excel 檔案。它為資料驗證提供全面的支持，讓您可以為 Excel 儲存格定義驗證規則、條件和自訂錯誤訊息。
 
 以下是如何使用 Aspose.Cells for Java 在 Excel 中實作資料驗證的逐步指南：
 

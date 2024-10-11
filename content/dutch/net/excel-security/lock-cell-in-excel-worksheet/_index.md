@@ -15,7 +15,7 @@ In de snelle wereld van vandaag is het veilig beheren van gegevens cruciaal voor
 
 Voordat we in de details van de code duiken, moet u een aantal dingen paraat hebben:
 
-1. Aspose.Cells voor .NET: Download en installeer de nieuwste versie van Aspose.Cells voor .NET van de[Aspose-website](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells voor .NET: Download en installeer de nieuwste versie van Aspose.Cells voor .NET van de[Aspose-website](https://releases.aspose.com/cells/net/).
 2. IDE: Een ontwikkelomgeving die is ingesteld voor .NET. Populaire opties zijn Visual Studio of JetBrains Rider.
 3. Basiskennis van C#: Hoewel we u stap voor stap door de code leiden, kunt u de concepten sneller begrijpen als u een basiskennis van C#-programmering hebt.
 4. Uw documentenmap: zorg ervoor dat u een map hebt ingesteld waar u uw Excel-bestanden kunt opslaan om te testen.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Stap 2: Laad uw werkmap
 
- Vervolgens wilt u de Excel-werkmap laden waarin u cellen wilt vergrendelen. Dit doet u door een exemplaar van de`Workbook` klasse en deze naar het gewenste Excel-bestand te verwijzen.
+Vervolgens wilt u de Excel-werkmap laden waarin u cellen wilt vergrendelen. Dit doet u door een exemplaar van de`Workbook` klasse en deze naar het gewenste Excel-bestand te verwijzen.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Als u het wachtwoord vergeet, kunt u de beveiliging van het werkblad niet meer o
  Absoluut! Je kunt cellen ontgrendelen door de`IsLocked` eigendom van`false` en het verwijderen van de bescherming.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells biedt een gratis proefperiode voor gebruikers. Voor continu gebruik moet u echter een licentie aanschaffen. Bezoek de[Aspose aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
+Aspose.Cells biedt een gratis proefperiode voor gebruikers. Voor continu gebruik moet u echter een licentie aanschaffen. Bezoek de[Aspose aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.

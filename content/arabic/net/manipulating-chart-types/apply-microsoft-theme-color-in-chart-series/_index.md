@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 الآن حان الوقت للعثور على الرسم البياني الذي نريد تعديله. وهنا تبدأ السحر حقًا!
 
 ```csharp
-// احصل على الرسم البياني الأول في الورقة
+//احصل على الرسم البياني الأول في الورقة
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
  الآن، دعنا نطبق لون سمة Microsoft. سنختار`Accent` أسلوب لأن من لا يحب الألوان الزاهية؟
 
 ```csharp
-// إنشاء موضوع بأسلوب Accent
+//إنشاء موضوع بأسلوب Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

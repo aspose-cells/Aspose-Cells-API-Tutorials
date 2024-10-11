@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Tiếp theo, chúng ta sẽ cần tạo một`Workbook` đối tượng. Đối tượng này hoạt động như một vùng chứa dữ liệu bảng tính của bạn.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -78,7 +78,7 @@ Workbook workbook = new Workbook();
 
 ## Bước 3: Truy cập Thiết lập Trang
 
- Để kiểm soát cách in bảng tính Excel của bạn, bạn sẽ cần truy cập`PageSetup` thuộc tính của bảng tính.
+ Để kiểm soát cách in bảng tính Excel của bạn, bạn sẽ cần truy cập`PageSetup` tính chất của bảng tính.
 
 ```csharp
 // Lấy tham chiếu của PageSetup của trang tính

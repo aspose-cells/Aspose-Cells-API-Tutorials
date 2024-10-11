@@ -53,14 +53,14 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- 이 단계에서는 다음을 엽니다.`book1.xls`지정된 디렉토리에 이미 존재해야 합니다. 이 파일을 가까이에 두지 않으면 프로세스에서 오류가 발생합니다.
+ 이 단계에서는 다음을 엽니다.`book1.xls`, 지정된 디렉토리에 이미 존재해야 합니다. 이 파일을 가까이에 두지 않으면 프로세스에서 오류가 발생합니다.
 
 ## 3단계: 통합 문서 개체 인스턴스화
 
 다음으로, Excel 파일을 보관할 Workbook 클래스의 인스턴스를 만들어야 합니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## 4단계: 새 워크시트 추가
 
- 이제 흥미로운 부분이 나옵니다! 워크북에 새 워크시트를 추가해 보겠습니다. 이것은 다음을 사용하여 수행됩니다.`Add()` 방법에서`Worksheets` 수집.
+이제 흥미로운 부분이 나옵니다! 워크북에 새 워크시트를 추가해 보겠습니다. 이것은 다음을 사용하여 수행됩니다.`Add()` 방법에서`Worksheets`수집.
 
 ```csharp
 // Workbook 개체에 새 워크시트 추가
@@ -87,7 +87,7 @@ int i = workbook.Worksheets.Add();
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-여기서 우리는 인덱스를 사용하고 있습니다`i` 새로 만든 워크시트를 참조하기 위해서입니다. 이렇게 하면 더 조작할 수 있습니다.
+ 여기서 우리는 인덱스를 사용하고 있습니다`i` 새로 만든 워크시트를 참조하기 위해서입니다. 이렇게 하면 더 조작할 수 있습니다.
 
 ## 6단계: 새 워크시트의 이름 설정
 

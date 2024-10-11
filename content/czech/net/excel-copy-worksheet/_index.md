@@ -2,7 +2,7 @@
 title: Kopírovat pracovní list aplikace Excel
 linktitle: Kopírovat pracovní list aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se kopírovat a přizpůsobovat tabulky aplikace Excel pomocí Aspose.Cells pro .NET. Podrobné návody pro manipulaci s hlavními daty a jejich formátování.
+description: Naučte se kopírovat a přizpůsobovat tabulky aplikace Excel pomocí Aspose.Cells for .NET. Podrobné návody pro manipulaci s hlavními daty a jejich formátování.
 type: docs
 weight: 16
 url: /cs/net/excel-copy-worksheet/

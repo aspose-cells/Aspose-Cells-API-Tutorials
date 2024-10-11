@@ -79,7 +79,7 @@ Sama seperti membuka halaman tertentu dalam buku, langkah ini mengarahkan kita k
 Sekarang saatnya menemukan bagan yang ingin kita ubah. Di sinilah keajaiban sesungguhnya dimulai!
 
 ```csharp
-// Dapatkan grafik pertama di lembar tersebut
+//Dapatkan grafik pertama di lembar tersebut
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Di sini, kita ambil pengaturan warna untuk rangkaian bagan.
  Sekarang, mari terapkan warna tema Microsoft. Kita akan memilih`Accent` gaya karena siapa yang tidak menyukai semburat warna?
 
 ```csharp
-// Buat tema dalam gaya Aksen
+//Buat tema dalam gaya Aksen
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

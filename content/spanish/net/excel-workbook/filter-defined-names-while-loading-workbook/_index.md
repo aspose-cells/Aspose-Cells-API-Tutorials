@@ -37,7 +37,7 @@ Analicemos el proceso de filtrado de nombres definidos al cargar un libro de tra
 
 ## Paso 1: Especificar las opciones de carga
 
-Lo primero que vamos a hacer es crear una instancia del`LoadOptions` Clase. Esta clase nos ayudará a especificar cómo queremos cargar nuestro archivo Excel.
+ Lo primero que vamos a hacer es crear una instancia del`LoadOptions` Clase. Esta clase nos ayudará a especificar cómo queremos cargar nuestro archivo Excel.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -47,7 +47,7 @@ LoadOptions opts = new LoadOptions();
 
 ## Paso 2: Establecer filtro de carga
 
-A continuación, debemos definir qué datos queremos filtrar al cargar el libro de trabajo. En este caso, queremos evitar cargar los nombres definidos.
+continuación, debemos definir qué datos queremos filtrar al cargar el libro de trabajo. En este caso, queremos evitar cargar los nombres definidos.
 
 ```csharp
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
@@ -63,7 +63,7 @@ Ahora que se han especificado nuestras opciones de carga, es momento de cargar e
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- En esta línea, estás creando una nueva instancia de la`Workbook`Clase que pasa la ruta a su archivo Excel de muestra y las opciones de carga. Esto carga su libro de trabajo con los nombres definidos filtrados según lo especificado.
+ En esta línea, estás creando una nueva instancia de la`Workbook` Clase que pasa la ruta a su archivo Excel de muestra y las opciones de carga. Esto carga su libro de trabajo con los nombres definidos filtrados según lo especificado.
 
 ## Paso 4: Guardar el archivo de salida
 
@@ -106,4 +106,4 @@ Filtrar nombres definidos puede generar fórmulas inválidas si hacen referencia
  Sí, puedes obtener una versión de prueba gratuita de Aspose.Cells para probar sus capacidades antes de comprarla. Pruébala[aquí](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar más ejemplos y documentación?
- Puede encontrar documentación completa y más ejemplos en la página de referencia de Aspose.Cells[aquí](https://reference.aspose.com/cells/net/).
+Puede encontrar documentación completa y más ejemplos en la página de referencia de Aspose.Cells[aquí](https://reference.aspose.com/cells/net/).

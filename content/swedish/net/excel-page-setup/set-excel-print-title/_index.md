@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 
- Därefter skapar vi en instans av`Workbook` klass, som representerar en Excel-fil.
+ Därefter skapar vi en instans av`Workbook`klass, som representerar en Excel-fil.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Den här raden initierar en ny arbetsbok, vilket gör den redo för manipulation
 
 ## Steg 3: Skaffa referens för PageSetup
 
- Låt oss nu komma åt arbetsbladets`PageSetup`egendom. Det är här de flesta av våra utskriftsinställningar kommer att konfigureras.
+ Låt oss nu komma åt arbetsbladets`PageSetup` egendom. Det är här de flesta av våra utskriftsinställningar kommer att konfigureras.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

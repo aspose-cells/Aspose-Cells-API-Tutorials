@@ -41,7 +41,7 @@ Als Erstes müssen Sie festlegen, wo die Excel-Ausgabedatei gespeichert werden s
 
 ```csharp
 // Ausgabeverzeichnis
-string outputDir = "Your Output Directory"; // Aktualisieren Sie mit dem gewünschten Pfad
+string outputDir = "Your Output Directory"; // Aktualisieren Sie mit Ihrem gewünschten Pfad
 ```
 
  Ersetzen`"Your Output Directory"` durch den tatsächlichen Pfad, in dem Sie Ihre Datei speichern möchten.
@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Aktualisieren Sie mit dem gewüns
  Als nächstes müssen Sie eine neue Instanz des`Workbook` Klasse. Dieses Objekt stellt Ihre Excel-Datei dar und ermöglicht Ihnen, deren Inhalt zu bearbeiten.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -62,7 +62,7 @@ Diese Codezeile initialisiert eine neue Arbeitsmappe, die eine leere Leinwand f�
  Nachdem Sie die Arbeitsmappe erstellt haben, können Sie auf das Standardarbeitsblatt zugreifen. Arbeitsblätter in Aspose.Cells sind indiziert. Wenn Sie also das erste Arbeitsblatt möchten, verweisen Sie über den Index darauf.`0`.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -95,7 +95,7 @@ In diesem Code geben wir den Diagrammtyp (in diesem Fall ein Säulendiagramm) un
 
 ## Schritt 6: Zugriff auf die Diagramminstanz
 
- Sobald wir das Diagramm erstellt haben, müssen wir auf seine Instanz zugreifen, um seine Eigenschaften zu ändern. Dies geschieht, indem wir es über den`Charts` Sammlung.
+ Sobald wir das Diagramm erstellt haben, müssen wir auf seine Instanz zugreifen, um seine Eigenschaften zu ändern. Dies geschieht, indem wir es über den`Charts`Sammlung.
 
 ```csharp
 // Zugriff auf die Instanz des neu hinzugefügten Diagramms

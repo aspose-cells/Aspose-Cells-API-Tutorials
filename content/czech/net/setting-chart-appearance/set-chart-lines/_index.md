@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Nyní vytvoříme objekt sešitu, který slouží jako kontejner pro vaši tabulku.
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 
-Vysvětlení: Tento řádek vytváří instanci souboru`Workbook` třídy z knihovny Aspose.Cells. Je to jako otevřít nový prázdný soubor Excel, do kterého můžete začít přidávat své listy a data.
+ Vysvětlení: Tento řádek vytváří instanci souboru`Workbook`třídy z knihovny Aspose.Cells. Je to jako otevřít nový prázdný soubor Excel, do kterého můžete začít přidávat své listy a data.
 
 ## Krok 3: Odkaz na pracovní list
 

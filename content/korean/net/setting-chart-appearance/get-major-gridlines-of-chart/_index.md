@@ -141,7 +141,7 @@ chart.ValueAxis.MajorGridLines.IsVisible = true;
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-이 줄은 지정된 디렉토리에 Excel 파일로 작업을 저장합니다. 예술 작품에서 "저장"을 클릭하여 다른 사람들이 감상할 수 있도록(또는 다시 볼 수 있도록!) 하는 것으로 생각하세요!
+이 줄은 지정된 디렉토리에 Excel 파일로 작업을 저장합니다. 예술 작품에서 "저장"을 클릭하여 다른 사람이 감상할 수 있도록(또는 다시 볼 수 있도록!) 하는 것으로 생각하세요!
 
 ## 결론
 

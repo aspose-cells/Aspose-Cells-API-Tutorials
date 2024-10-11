@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Passaggio 3: creare un'istanza della cartella di lavoro
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 // Apertura del file Excel tramite il flusso di file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Passaggio 4: accedi al foglio di lavoro
 
 ```csharp
-// Accesso al primo foglio di lavoro nel file Excel
+//Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

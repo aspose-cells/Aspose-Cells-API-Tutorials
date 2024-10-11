@@ -82,7 +82,7 @@ I den här handledningen lärde vi oss hur man skapar diagramanimationer med Asp
 
 ### Hur kan jag ändra animationstyp?
 
- För att ändra animeringstyp, använd`setAnimationType` metod på diagramobjektet. Du kan välja mellan olika typer som`SLIDE`, `FADE` , och`GROW_SHRINK`.
+ För att ändra animationstyp, använd`setAnimationType` metod på diagramobjektet. Du kan välja mellan olika typer som`SLIDE`, `FADE` , och`GROW_SHRINK`.
 
 ### Kan jag anpassa animeringens varaktighet?
 

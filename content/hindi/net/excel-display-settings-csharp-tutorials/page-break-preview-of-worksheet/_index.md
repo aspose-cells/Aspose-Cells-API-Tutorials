@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## चरण 3: कार्यपुस्तिका को इंस्टैंसिएट करें
 
 ```csharp
-// वर्कबुक ऑब्जेक्ट को इंस्टैंशिएट करना
+//वर्कबुक ऑब्जेक्ट को इंस्टैंशिएट करना
 // फ़ाइल स्ट्रीम के माध्यम से एक्सेल फ़ाइल खोलना
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## चरण 4: वर्कशीट तक पहुंचें
 
 ```csharp
-// एक्सेल फ़ाइल में पहली वर्कशीट तक पहुँचना
+//एक्सेल फ़ाइल में पहली वर्कशीट तक पहुँचना
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

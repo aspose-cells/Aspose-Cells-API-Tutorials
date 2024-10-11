@@ -15,7 +15,7 @@ Trong thế giới phát triển nhanh như hiện nay, việc quản lý dữ l
 
 Trước khi đi sâu vào chi tiết của mã, bạn cần chuẩn bị một số thứ sau:
 
-1. Aspose.Cells cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.Cells cho .NET từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.Cells cho .NET từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: Môi trường phát triển được thiết lập cho .NET. Các tùy chọn phổ biến bao gồm Visual Studio hoặc JetBrains Rider.
 3. Hiểu biết cơ bản về C#: Mặc dù chúng tôi sẽ hướng dẫn bạn từng bước viết mã, nhưng việc hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt các khái niệm nhanh hơn.
 4. Thư mục tài liệu của bạn: Đảm bảo bạn đã thiết lập một thư mục nơi bạn có thể lưu trữ các tệp Excel để thử nghiệm.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải sổ làm việc của bạn
 
- Tiếp theo, bạn sẽ muốn tải sổ làm việc Excel nơi bạn định khóa các ô. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và trỏ nó tới tệp Excel bạn mong muốn.
+Tiếp theo, bạn sẽ muốn tải sổ làm việc Excel nơi bạn định khóa các ô. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và trỏ nó tới tệp Excel bạn mong muốn.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Nếu bạn quên mật khẩu, bạn sẽ không thể bỏ bảo vệ bảng t
  Chắc chắn rồi! Bạn có thể mở khóa các ô bằng cách thiết lập`IsLocked` tài sản để`false` và loại bỏ sự bảo vệ.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí cho người dùng. Tuy nhiên, để sử dụng liên tục, bạn cần mua giấy phép. Truy cập[Trang mua hàng Aspose](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.Cells cung cấp bản dùng thử miễn phí cho người dùng. Tuy nhiên, để sử dụng liên tục, bạn cần mua giấy phép. Truy cập[Trang mua hàng Aspose](https://purchase.aspose.com/buy) để biết thêm chi tiết.

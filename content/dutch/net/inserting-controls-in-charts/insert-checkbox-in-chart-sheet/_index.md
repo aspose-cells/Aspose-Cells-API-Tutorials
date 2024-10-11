@@ -19,7 +19,7 @@ Voordat we in de tutorial duiken, moeten we ervoor zorgen dat alles is ingesteld
 - Allereerst heb je Visual Studio nodig. Als je het nog niet hebt geïnstalleerd, kun je het downloaden van de Microsoft-site.
 
 ### Aspose.Cells Bibliotheek
-- De volgende essentiële tool is de Aspose.Cells-bibliotheek voor .NET. U kunt deze eenvoudig verkrijgen via de[Aspose-website](https://releases.aspose.com/cells/net/) om te downloaden. Als u liever eerst test voordat u koopt, is er ook een[gratis proefversie beschikbaar](https://releases.aspose.com/).
+-  De volgende essentiële tool is de Aspose.Cells-bibliotheek voor .NET. U kunt deze eenvoudig verkrijgen via de[Aspose-website](https://releases.aspose.com/cells/net/) om te downloaden. Als u liever eerst test voordat u koopt, is er ook een[gratis proefversie beschikbaar](https://releases.aspose.com/).
 
 ### Basiskennis van C#
 - Omdat we wat code gaan schrijven, is een basiskennis van C# handig. Maak je geen zorgen; ik zal dingen uitleggen terwijl we bezig zijn!
@@ -64,13 +64,13 @@ Nu we alles hebben ingesteld, duiken we in het codeergedeelte! Hier is een gedet
 
 Voordat we naar het spannende gedeelte gaan, moeten we definiëren waar we ons bestand willen opslaan. U wilt een pad naar de uitvoerdirectory opgeven.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Ga naar de door u opgegeven directory
+string outputDir = "C:\\YourOutputDirectory\\"; // Ga naar de door u opgegeven directory
 ```
  Zorg ervoor dat u vervangt`"C:\\YourOutputDirectory\\"` met het pad waar u uw bestand wilt opslaan. Zie dit als het instellen van uw werkruimte; u moet weten waar u uw gereedschappen (of in dit geval uw Excel-bestand) plaatst.
 
 ## Stap 2: Een werkmapobject instantiëren
 
- Vervolgens maken we een exemplaar van de`Workbook` klas. Dit is waar al ons werk zal plaatsvinden.
+Vervolgens maken we een exemplaar van de`Workbook` klas. Dit is waar al ons werk zal plaatsvinden.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -137,7 +137,7 @@ Aspose.Cells is een krachtige bibliotheek voor het maken en bewerken van Excel-b
 Helemaal niet! Zoals in deze tutorial wordt gedemonstreerd, kan het in slechts een paar simpele regels code worden gedaan.
 
 ### Waar kan ik Aspose.Cells kopen?  
- kunt Aspose.Cells kopen bij hun[aankooplink](https://purchase.aspose.com/buy).
+ U kunt Aspose.Cells kopen bij hun[aankooplink](https://purchase.aspose.com/buy).
 
 ### Hoe kan ik ondersteuning krijgen als ik problemen ondervind?  
  Aspose biedt een supportforum waar u vragen kunt stellen en oplossingen kunt vinden. Bekijk hun[ondersteuningspagina](https://forum.aspose.com/c/cells/9).

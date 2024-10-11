@@ -22,7 +22,7 @@ Powinieneś mieć podstawową wiedzę na temat programowania w C# i .NET. Znajom
  Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać bezpośrednio z[Strona wydania Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)Postępuj zgodnie z instrukcjami instalacji lub użyj Menedżera pakietów NuGet, aby łatwo włączyć go do swojego projektu.
 
 ### Studio wizualne
-Do kodowania naszego przykładowego programu zalecamy użycie działającej instalacji programu Visual Studio. 
+Do kodowania naszego przykładowego programu zalecana jest działająca instalacja programu Visual Studio. 
 
 ### Licencjonowanie (opcjonalne)
  Możesz poeksperymentować z bezpłatną wersją próbną dostępną za pośrednictwem[Link do bezpłatnej wersji próbnej](https://releases.aspose.com/) , w celu wykorzystania produkcyjnego, rozważ odwiedzenie[Kup link](https://purchase.aspose.com/buy) lub wybierz tymczasową licencję od[Link do licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
@@ -45,7 +45,7 @@ using Aspose.Cells.Charts;
 
 Te przestrzenie nazw obejmują podstawowe funkcjonalności, z których będziemy korzystać w tym samouczku, takie jak tworzenie skoroszytów, edytowanie arkuszy i dodawanie wykresów.
 
-Dobrze, rozłóżmy proces tworzenia wykresu piramidy na proste kroki. Pod koniec tego przewodnika będziesz mieć kompletny przykład działania.
+Dobrze, rozłóżmy proces tworzenia wykresu piramidy na proste kroki. Pod koniec tego przewodnika będziesz mieć kompletny działający przykład.
 
 ## Krok 1: Zdefiniuj katalog wyjściowy
 
@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Następnie utwórzmy nową instancję skoroszytu. Pomyśl o skoroszycie jako o pustym płótnie, na którym możesz malować swoje dane.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 

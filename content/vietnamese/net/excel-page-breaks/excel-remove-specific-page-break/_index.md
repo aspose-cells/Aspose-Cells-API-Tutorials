@@ -16,7 +16,7 @@ Khi làm việc với các tệp Excel, việc quản lý ngắt trang có thể
 Trước khi đi sâu vào chi tiết của mã, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là danh sách kiểm tra nhanh các điều kiện tiên quyết:
 
 1. Visual Studio: Bạn sẽ cần cài đặt Visual Studio để tạo và chạy các ứng dụng .NET của mình.
-2. Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Nếu bạn chưa thực hiện việc này, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Nếu bạn chưa thực hiện việc này, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Một tệp Excel: Chuẩn bị sẵn một tệp Excel có chứa một số ngắt trang để chúng ta thử nghiệm.
 
@@ -53,14 +53,14 @@ Trước tiên, bạn cần chỉ định nơi lưu trữ tài liệu Excel củ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Giải thích: Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế đến các tệp của bạn. Đây là nơi bạn sẽ tải tệp Excel của mình và lưu tệp Excel đã sửa đổi sau.
+ Giải thích: Thay thế`YOUR DOCUMENT DIRECTORY`với đường dẫn thực tế đến các tệp của bạn. Đây là nơi bạn sẽ tải tệp Excel của mình và lưu tệp Excel đã sửa đổi sau.
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 
 Tiếp theo, chúng ta cần tải sổ làm việc của mình. Nói một cách đơn giản hơn, hãy nghĩ về sổ làm việc như tệp Excel của bạn.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Và bạn đã có nó! Xóa các ngắt trang cụ thể khỏi tệp Excel b�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể xóa nhiều ngắt trang cùng lúc không?  
-Vâng, bạn có thể! Chỉ cần lặp qua`HorizontalPageBreaks` Và`VerticalPageBreaks` bộ sưu tập và sử dụng`RemoveAt` phương pháp.
+ Vâng, bạn có thể! Chỉ cần lặp qua`HorizontalPageBreaks` Và`VerticalPageBreaks` bộ sưu tập và sử dụng`RemoveAt` phương pháp.
 
 ### Làm sao tôi biết nên sử dụng chỉ mục nào để ngắt trang?  
 Bạn có thể lặp lại các ngắt trang bằng cách sử dụng vòng lặp để in chỉ mục của chúng hoặc kiểm tra chúng thông qua trình gỡ lỗi.

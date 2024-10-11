@@ -47,7 +47,7 @@ V tomto kroku vytvoříme instanci nového sešitu.
 ```csharp
 //Výstupní adresář
 static string outputDir = "Your Document Directory";
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 
@@ -78,7 +78,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
-Zde umísťujete data do sloupců A a B listu. Tato data slouží jako datová sada našeho grafu. Rychlá otázka: Není uspokojivé vidět, jak čísla zaplňují buňky?
+Zde umísťujete data do sloupců A a B v listu. Tato data slouží jako datová sada našeho grafu. Rychlá otázka: Není uspokojivé vidět, jak čísla zaplňují buňky?
 
 ## Krok 4: Přidejte graf
 
@@ -111,7 +111,7 @@ Dále musíme našemu grafu sdělit, který zdroj dat použít.
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Tento řádek spojuje graf s našimi ukázkovými daty, aby věděl, odkud informace čerpat. Je to zásadní pro přesné vykreslení grafu.
+Tento řádek spojuje graf s našimi ukázkovými daty, aby věděl, odkud informace čerpat. Je to klíčové pro přesné vykreslení grafu.
 
 ## Krok 7: Přizpůsobte barvy grafu
 

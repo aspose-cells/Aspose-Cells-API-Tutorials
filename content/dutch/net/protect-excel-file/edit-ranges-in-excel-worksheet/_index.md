@@ -132,7 +132,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## Conclusie
 
-En daar heb je het! Je hebt met succes een Excel-werkblad gemaakt met Aspose.Cells voor .NET, bewerkbare bereiken gedefinieerd, een wachtwoord ingesteld en het werkblad beveiligd, allemaal in een paar eenvoudige stappen. Nu kun je je werkmap delen met collega's, de samenwerking verbeteren en tegelijkertijd essentiële gegevens veilig houden.
+En daar heb je het! Je hebt met succes een Excel-werkblad gemaakt met Aspose.Cells voor .NET, bewerkbare bereiken gedefinieerd, een wachtwoord ingesteld en het werkblad beveiligd, allemaal in een paar eenvoudige stappen. Nu kun je je werkmap delen met collega's, de samenwerking verbeteren en essentiële gegevens veilig houden.
 
 ## Veelgestelde vragen
 

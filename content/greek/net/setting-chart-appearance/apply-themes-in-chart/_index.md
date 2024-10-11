@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Με το φύλλο εργασίας στο χέρι, μπορούμε πλέον να έχουμε πρόσβαση στο γράφημα που σκοπεύουμε να διαμορφώσουμε.
 
 ```csharp
-// Πάρτε το πρώτο γράφημα στο φύλλο
+//Πάρτε το πρώτο γράφημα στο φύλλο
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 // Αποκτήστε το CellsColor του SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Δημιουργήστε ένα θέμα σε στυλ Accent
+//Δημιουργήστε ένα θέμα σε στυλ Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

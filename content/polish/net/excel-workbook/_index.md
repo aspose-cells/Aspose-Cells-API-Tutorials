@@ -9,7 +9,7 @@ url: /pl/net/excel-workbook/
 ---
 ## Wstęp
 
-Czy masz dość zmagań z zarządzaniem plikami Excel? Jeśli kiedykolwiek stanąłeś przed wyzwaniem dodawania podpisów lub wyodrębniania danych ze złożonych plików, jesteś we właściwym miejscu. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia programistom manipulowanie plikami Excel programowo. Mamy listę przydatnych samouczków, które w przejrzysty i angażujący sposób dzielą różne zadania.
+Czy jesteś zmęczony zmaganiem się z zarządzaniem plikami Excela? Jeśli kiedykolwiek stanąłeś przed wyzwaniem dodawania podpisów lub wyodrębniania danych ze złożonych plików, jesteś we właściwym miejscu. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia programistom manipulowanie plikami Excela programowo. Mamy listę przydatnych samouczków, które w przejrzysty i angażujący sposób dzielą różne zadania.
 
 ## Dostęp do informacji o rozszerzeniu sieci Web
 
@@ -21,7 +21,7 @@ Zrozumienie, jak uzyskać dostęp do informacji o rozszerzeniach sieci Web, moż
 
 ## Tworzenie udostępnionych skoroszytów
 
- Współpraca jest kluczowa w dzisiejszym miejscu pracy, a nasz poradnik na ten temat[Utwórz współdzielony skoroszyt](./create-shared-workbook/) umożliwia bezproblemowe konfigurowanie współdzielonych skoroszytów. Jest to idealne rozwiązanie dla zespołów, które muszą wspólnie pracować nad analizą danych lub zarządzaniem projektami w programie Excel. 
+ Współpraca jest kluczowa w dzisiejszym miejscu pracy, a nasz poradnik na ten temat[Utwórz współdzielony skoroszyt](./create-shared-workbook/) pozwala na łatwe skonfigurowanie współdzielonych skoroszytów. Jest to idealne rozwiązanie dla zespołów, które muszą wspólnie pracować nad analizą danych lub zarządzaniem projektami w programie Excel. 
 
 ## Wyodrębnianie osadzonych plików
 

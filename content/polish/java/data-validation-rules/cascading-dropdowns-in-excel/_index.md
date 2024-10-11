@@ -111,7 +111,7 @@ Oczywiście! Możesz łączyć kaskadowe listy rozwijane z różnymi funkcjami p
 
 ### Czy Aspose.Cells for Java nadaje się zarówno do projektów małych, jak i dużych?
 
-Tak, Aspose.Cells for Java jest wszechstronny i może być używany w projektach dowolnej wielkości. Niezależnie od tego, czy pracujesz nad małym narzędziem, czy złożoną aplikacją korporacyjną, Aspose.Cells for Java może usprawnić zadania związane z programem Excel.
+Tak, Aspose.Cells for Java jest wszechstronny i może być używany w projektach dowolnej wielkości. Niezależnie od tego, czy pracujesz nad małym narzędziem, czy nad złożoną aplikacją korporacyjną, Aspose.Cells for Java może usprawnić zadania związane z programem Excel.
 
 ### Czy muszę mieć zaawansowane umiejętności programistyczne, aby zaimplementować kaskadowe listy rozwijane za pomocą Aspose.Cells dla Java?
 

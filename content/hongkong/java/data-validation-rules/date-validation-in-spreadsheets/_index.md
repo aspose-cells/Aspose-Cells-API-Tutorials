@@ -2,7 +2,7 @@
 title: 電子表格中的日期驗證
 linktitle: 電子表格中的日期驗證
 second_title: Aspose.Cells Java Excel 處理 API
-description: 了解如何使用 Aspose.Cells for Java 在 Excel 試算表中執行日期驗證。透過我們的逐步指南確保資料的準確性和完整性。探索強大的 Excel 操作技術。
+description: 了解如何使用 Aspose.Cells for Java 在 Excel 電子表格中執行日期驗證。透過我們的逐步指南確保資料的準確性和完整性。探索強大的 Excel 操作技術。
 type: docs
 weight: 14
 url: /zh-hant/java/data-validation-rules/date-validation-in-spreadsheets/
@@ -84,7 +84,7 @@ workbook.save("updated_excel_file.xlsx");
 
 ## 結論
 
-在本指南中，我們學習如何使用 Aspose.Cells for Java 在電子表格中執行日期驗證。確保日期資料的準確性在各種應用程式中至關重要，而有了 Aspose.Cells，您就擁有了實現這一目標的強大工具。
+在本指南中，我們學習如何使用 Aspose.Cells for Java 在電子表格中執行日期驗證。確保日期資料的準確性在各種應用中至關重要，而有了 Aspose.Cells，您就擁有了實現這一目標的強大工具。
 
 ## 常見問題解答
 

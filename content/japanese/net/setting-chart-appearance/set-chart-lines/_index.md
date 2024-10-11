@@ -52,7 +52,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
-説明: この行は、`Workbook` Aspose.Cells ライブラリのクラスです。新しい空の Excel ファイルを開いて、シートとデータを追加し始めるようなものです。
+説明: この行は、`Workbook`Aspose.Cells ライブラリのクラスです。新しい空の Excel ファイルを開いて、シートとデータを追加し始めるようなものです。
 
 ## ステップ3: ワークシートを参照する
 
@@ -83,7 +83,7 @@ worksheet.Cells["B3"].PutValue(50);
 
 ## ステップ5: ワークシートにグラフを追加する
 
-次はグラフを作成します。縦棒グラフ タイプを追加します。
+次はグラフを作成します。縦棒グラフの種類を追加します。
 
 ```csharp
 //ワークシートにグラフを追加する

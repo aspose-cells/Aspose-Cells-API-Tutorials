@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 이제 스프레드시트의 컨테이너 역할을 하는 통합 문서 개체를 만들어 보겠습니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
-설명: 이 줄은 인스턴스를 생성합니다.`Workbook` Aspose.Cells 라이브러리의 클래스입니다. 시트와 데이터를 추가할 수 있는 새 빈 Excel 파일을 여는 것과 같습니다.
+ 설명: 이 줄은 인스턴스를 생성합니다.`Workbook`Aspose.Cells 라이브러리의 클래스입니다. 시트와 데이터를 추가할 수 있는 새 빈 Excel 파일을 여는 것과 같습니다.
 
 ## 3단계: 워크시트 참조
 

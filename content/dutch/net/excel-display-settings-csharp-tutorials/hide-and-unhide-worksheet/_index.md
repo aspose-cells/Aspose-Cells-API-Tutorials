@@ -36,7 +36,7 @@ Nu we helemaal klaar zijn om te coderen, gaan we het proces opsplitsen in beheer
 
 ## Stap 1: Stel uw omgeving in
 
- In deze stap stelt u het bestandspad in waar uw Excel-bestand zich bevindt. Vervangen`"YOUR DOCUMENT DIRECTORY"` met het pad naar uw bestand.
+In deze stap stelt u het bestandspad in waar uw Excel-bestand zich bevindt. Vervangen`"YOUR DOCUMENT DIRECTORY"` met het pad naar uw bestand.
 
 ```csharp
 // Het pad naar de documentenmap.
@@ -72,7 +72,7 @@ Deze stap is alsof u “Hallo!” zegt tegen uw werkboek, zodat het weet dat u e
 Met uw werkboek in de hand is het tijd om toegang te krijgen tot het specifieke werkblad dat u wilt verbergen. We beginnen met het eerste werkblad.
 
 ```csharp
-// Toegang krijgen tot het eerste werkblad in het Excel-bestand
+//Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Nadat u het werkblad hebt verborgen, wilt u de wijzigingen die u in uw bestand h
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Hier slaan we de werkmap op als`output.out.xls`. Het is alsof je je werk in een envelop stopt. Als je het niet bewaart, is al je harde werk verloren!
+ Hier slaan we de werkmap op als`output.out.xls`. Het is alsof je je werk in een envelop stopt. Als je het niet bewaart, is al je harde werk verloren!
 
 ## Stap 7: Sluit de bestandsstroom
 
@@ -132,7 +132,7 @@ Het manipuleren van Excel-werkbladen met Aspose.Cells voor .NET hoeft geen ontmo
  Ja, je kunt door de`Worksheets` verzameling en set de`IsVisible` eigenschap op false voor elk blad dat u wilt verbergen.
 
 ### Welke bestandsformaten ondersteunt Aspose.Cells?
- Aspose.Cells ondersteunt een verscheidenheid aan formaten, waaronder XLS, XLSX, CSV en meer. U kunt de volledige lijst bekijken[hier](https://reference.aspose.com/cells/net/).
+Aspose.Cells ondersteunt een verscheidenheid aan formaten, waaronder XLS, XLSX, CSV en meer. U kunt de volledige lijst bekijken[hier](https://reference.aspose.com/cells/net/).
 
 ### Heb ik een licentie nodig om Aspose.Cells te gebruiken?
  U kunt beginnen met een gratis proefperiode om de functies te verkennen. Voor productietoepassingen is een volledige licentie vereist. Lees er meer over[hier](https://purchase.aspose.com/buy).

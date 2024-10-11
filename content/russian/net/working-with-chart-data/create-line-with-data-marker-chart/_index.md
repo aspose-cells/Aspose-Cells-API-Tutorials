@@ -18,7 +18,7 @@ url: /ru/net/working-with-chart-data/create-line-with-data-marker-chart/
 1.  Библиотека Aspose.Cells for .NET – Вам нужно установить ее. Вы можете взять ее[здесь](https://releases.aspose.com/cells/net/).
 2. .NET Framework — убедитесь, что ваша среда разработки настроена на использование последней версии .NET.
 3. IDE (интегрированная среда разработки) – рекомендуется Visual Studio.
-4. Действующая лицензия Aspose.Cells — если у вас ее нет, вы можете запросить[временная лицензия](https://purchase.aspose.com/temporary-license/) или проверьте их[бесплатная пробная версия](https://releases.aspose.com/).
+4.  Действующая лицензия Aspose.Cells — если у вас ее нет, вы можете запросить[временная лицензия](https://purchase.aspose.com/temporary-license/)или проверьте их[бесплатная пробная версия](https://releases.aspose.com/).
 
 Готовы? Давайте разберемся!
 
@@ -65,7 +65,7 @@ worksheet.Cells[0, 1].Value = "Y";
 // Случайные данные для построения диаграммы
 Random R = new Random();
 
-// Создайте случайные данные и сохраните в ячейках.
+// Создайте случайные данные и сохраните в ячейках
 for (int i = 1; i < 21; i++)
 {
     worksheet.Cells[i, 0].Value = i;
@@ -163,7 +163,7 @@ chart.NSeries[s3_idx].XValues = "A22: A41";
 chart.NSeries[s3_idx].Values = "B22: B41";
 ```
 
-Значения основаны на данных, которые мы ввели на шаге 2.
+Значения основаны на данных, которые мы заполнили на шаге 2.
 
 ## Шаг 8: Сохраните рабочую книгу
 

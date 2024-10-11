@@ -38,14 +38,14 @@ Ora che abbiamo affrontato le nozioni fondamentali, passiamo alla parte emoziona
 Prima di poter dividere i riquadri, abbiamo bisogno di una cartella di lavoro con cui lavorare! Questo passaggio è essenziale quanto aprire un libro prima di iniziare a leggerlo.
 
 ```csharp
-//Il percorso verso la directory dei documenti
+// Il percorso verso la directory dei documenti
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Crea una nuova cartella di lavoro e apri un file modello
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Nel codice sopra, sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si trova il file Excel.`Workbook` la classe carica il file Excel nella memoria.
+ Nel codice sopra, sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si trova il file Excel.`Workbook`la classe carica il file Excel nella memoria.
 
 ## Passaggio 2: imposta la cella attiva
 
@@ -84,7 +84,7 @@ A cosa serve tutto il tuo duro lavoro se non lo salvi? Il salvataggio assicura c
 book.Save(dataDir + "output.xls");
 ```
 
- Qui, il`Save()`il metodo salva la cartella di lavoro con i riquadri appena divisi in un file Excel di output. Le modifiche apportate sono ora pronte per essere utilizzate da te o da chiunque altro.
+ Qui, il`Save()` il metodo salva la cartella di lavoro con i riquadri appena divisi in un file Excel di output. Le modifiche apportate sono ora pronte per essere utilizzate da te o da chiunque altro.
 
 ## Conclusione
 

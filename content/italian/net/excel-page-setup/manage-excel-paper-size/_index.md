@@ -9,7 +9,7 @@ url: /it/net/excel-page-setup/manage-excel-paper-size/
 ---
 ## Introduzione
 
-fogli di calcolo Excel sono diventati uno strumento indispensabile per la gestione dei dati, specialmente in contesti aziendali e didattici. Un aspetto fondamentale della preparazione dei documenti Excel è assicurarsi che siano formattati in modo appropriato prima della stampa, inclusa l'impostazione del formato carta corretto. In questa guida, esploreremo come gestire il formato carta dei fogli di calcolo Excel utilizzando Aspose.Cells per .NET, una potente libreria che semplifica queste attività in modo efficiente.
+I fogli di calcolo Excel sono diventati uno strumento indispensabile per la gestione dei dati, specialmente in contesti aziendali e didattici. Un aspetto fondamentale della preparazione dei documenti Excel è assicurarsi che siano formattati in modo appropriato prima della stampa, inclusa l'impostazione del formato carta corretto. In questa guida, esploreremo come gestire il formato carta dei fogli di calcolo Excel utilizzando Aspose.Cells per .NET, una potente libreria che semplifica queste attività in modo efficiente.
 
 ## Prerequisiti
 
@@ -107,7 +107,7 @@ Gestire le dimensioni della carta nei fogli Excel diventa un gioco da ragazzi co
 ## Domande frequenti
 
 ### Quali diversi formati di carta posso impostare utilizzando Aspose.Cells?
- Aspose.Cells supporta una varietà di formati di carta, tra cui A3, A4, A5, Letter e altro. Puoi esplorare il`PaperSizeType` enumerazione nella documentazione.
+ Aspose.Cells supporta una varietà di formati di carta, tra cui A3, A4, A5, Letter e altro. Puoi esplorare`PaperSizeType` enumerazione nella documentazione.
 
 ### Posso impostare il formato della carta per più fogli di lavoro contemporaneamente?
 Sì, puoi accedere a più fogli di lavoro in loop e applicare a ciascuno di essi le stesse impostazioni relative al formato carta.

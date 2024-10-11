@@ -38,14 +38,14 @@ Artık temel konuları ele aldığımıza göre, heyecan verici kısma geçebili
 Bölmeleri bölebilmemiz için, üzerinde çalışacağımız bir çalışma kitabına ihtiyacımız var! Bu adım, okumaya başlamadan önce bir kitabı açmak kadar önemlidir.
 
 ```csharp
-//Belgeler dizinine giden yol
+// Belgeler dizinine giden yol
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Yeni bir çalışma kitabı örneği oluşturun ve bir şablon dosyası açın
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Yukarıdaki kodda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın bulunduğu gerçek yol ile.`Workbook` sınıf Excel dosyasını belleğe yükler.
+ Yukarıdaki kodda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın bulunduğu gerçek yol ile.`Workbook`sınıf Excel dosyasını belleğe yükler.
 
 ## Adım 2: Etkin Hücreyi Ayarlayın
 
@@ -84,7 +84,7 @@ Tüm emeklerinizin ne faydası var, eğer onları kaydetmezseniz? Kaydetmek, gü
 book.Save(dataDir + "output.xls");
 ```
 
- Burada,`Save()`yöntemi, çalışma kitabını yeni bölünmüş bölmelerinizle bir çıktı Excel dosyasına kaydeder. Yaptığınız değişiklikler artık sizin veya başka birinin kullanımına hazırdır.
+ Burada,`Save()` yöntemi, çalışma kitabını yeni bölünmüş bölmelerinizle bir çıktı Excel dosyasına kaydeder. Yaptığınız değişiklikler artık sizin veya başka birinin kullanımına hazırdır.
 
 ## Çözüm
 

@@ -16,7 +16,7 @@ url: /ar/net/excel-page-breaks/excel-remove-specific-page-break/
 قبل أن نتعمق في تفاصيل الكود، دعنا نتأكد من أنك تمتلك كل ما تحتاجه للبدء. إليك قائمة مرجعية سريعة للمتطلبات الأساسية:
 
 1. Visual Studio: ستحتاج إلى تثبيت Visual Studio قيد التشغيل لإنشاء تطبيقات .NET وتشغيلها.
-2. Aspose.Cells لـ .NET: تأكد من تثبيت مكتبة Aspose.Cells. إذا لم تقم بذلك بعد، فيمكنك تنزيلها من[هنا](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells لـ .NET: تأكد من تثبيت مكتبة Aspose.Cells. إذا لم تقم بذلك بعد، فيمكنك تنزيلها من[هنا](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة C# على فهم مقتطفات التعليمات البرمجية بشكل أفضل.
 4. ملف Excel: احتفظ بملف Excel في متناول يدك والذي يحتوي على بعض فواصل الصفحات حتى نتمكن من تجربتها.
 
@@ -53,14 +53,14 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- شرح: استبدال`YOUR DOCUMENT DIRECTORY` مع المسار الفعلي لملفاتك. هذا هو المكان الذي ستحمل منه ملف Excel وتحفظ ملف Excel المعدّل لاحقًا.
+ شرح: استبدال`YOUR DOCUMENT DIRECTORY`مع المسار الفعلي لملفاتك. هذا هو المكان الذي ستحمل منه ملف Excel وتحفظ ملف Excel المعدّل لاحقًا.
 
 ## الخطوة 2: إنشاء مثيل لكائن المصنف
 
 بعد ذلك، نحتاج إلى تحميل مصنف العمل الخاص بنا. وبعبارات أبسط، يمكنك اعتبار مصنف العمل بمثابة ملف Excel.
 
 ```csharp
-// إنشاء كائن مصنف
+//إنشاء كائن مصنف
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 ## الأسئلة الشائعة
 
 ### هل يمكنني إزالة فواصل الصفحات المتعددة مرة واحدة؟  
-نعم، يمكنك ذلك! فقط قم بتكرار`HorizontalPageBreaks` و`VerticalPageBreaks` المجموعات واستخدامها`RemoveAt` طريقة.
+ نعم، يمكنك ذلك! فقط قم بتكرار`HorizontalPageBreaks` و`VerticalPageBreaks` المجموعات واستخدامها`RemoveAt` طريقة.
 
 ### كيف أعرف الفهرس الذي يجب استخدامه لفواصل الصفحات؟  
 يمكنك تكرار فواصل الصفحات باستخدام حلقة لطباعة مؤشراتها أو فحصها عبر المصحح.

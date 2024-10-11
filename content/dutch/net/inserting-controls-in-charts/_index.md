@@ -19,7 +19,7 @@ Wilt u extra context toevoegen aan uw Excel-grafieken? Labels kunnen een groot v
 
 ## Afbeeldingen toevoegen aan grafieken
 
-Een afbeelding zegt meer dan duizend woorden, toch? Dit geldt ook voor Excel-grafieken. Met Aspose.Cells voor .NET is het toevoegen van afbeeldingen aan uw grafieken net zo eenvoudig als het invoegen van clipart in een Word-document. Afbeeldingen kunnen helpen om uw grafieken visueel aantrekkelijker te maken en de betrokkenheid bij de gegevens die u presenteert te vergroten. Of u nu financiële gegevens of verkoopcijfers presenteert, het toevoegen van relevante afbeeldingen helpt de gegevens te verbinden met het verhaal.
+Een afbeelding zegt meer dan duizend woorden, toch? Dit geldt ook voor Excel-grafieken. Met Aspose.Cells voor .NET is het toevoegen van afbeeldingen aan uw grafieken net zo eenvoudig als het invoegen van clipart in een Word-document. Afbeeldingen kunnen helpen om uw grafieken visueel aantrekkelijker te maken en de betrokkenheid bij de gegevens die u presenteert te vergroten. Of u nu financiële gegevens of verkoopcijfers presenteert, het toevoegen van relevante afbeeldingen helpt de gegevens met het verhaal te verbinden.
 
 Benieuwd hoe dit werkt? Bekijk de[Afbeelding toevoegen aan grafiek](./add-picture-to-chart/) handleiding.
 

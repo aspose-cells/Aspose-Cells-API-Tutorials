@@ -38,14 +38,14 @@ Nachdem wir nun die wesentlichen Punkte abgedeckt haben, kommen wir zum spannend
 Bevor wir Bereiche teilen können, benötigen wir eine Arbeitsmappe, mit der wir arbeiten können! Dieser Schritt ist so wichtig wie das Öffnen eines Buches, bevor Sie mit dem Lesen beginnen.
 
 ```csharp
-//Der Pfad zum Dokumentenverzeichnis
+// Der Pfad zum Dokumentenverzeichnis
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Instanziieren einer neuen Arbeitsmappe und Öffnen einer Vorlagendatei
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Ersetzen Sie im obigen Code`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, in dem sich Ihre Excel-Datei befindet. Die`Workbook` Klasse lädt die Excel-Datei in den Speicher.
+ Ersetzen Sie im obigen Code`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, in dem sich Ihre Excel-Datei befindet. Die`Workbook`Klasse lädt die Excel-Datei in den Speicher.
 
 ## Schritt 2: Aktive Zelle festlegen
 
@@ -84,7 +84,7 @@ Was nützt Ihnen all Ihre harte Arbeit, wenn Sie sie nicht aufbewahren? Durch da
 book.Save(dataDir + "output.xls");
 ```
 
- Hier die`Save()`Die Methode speichert die Arbeitsmappe mit den neu aufgeteilten Bereichen in einer Excel-Ausgabedatei. Die vorgenommenen Änderungen können Sie – oder jeder andere – jetzt verwenden.
+ Hier die`Save()` Die Methode speichert die Arbeitsmappe mit den neu aufgeteilten Bereichen in einer Excel-Ausgabedatei. Die vorgenommenen Änderungen können Sie – oder jeder andere – jetzt verwenden.
 
 ## Abschluss
 

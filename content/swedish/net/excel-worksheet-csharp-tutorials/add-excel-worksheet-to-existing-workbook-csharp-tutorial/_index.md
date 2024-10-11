@@ -16,7 +16,7 @@ Med den digitala världen i ständig utveckling har arbetet med kalkylblad blivi
 Innan vi hoppar in i koden, låt oss se till att du har allt du behöver för att framgångsrikt implementera den här handledningen. Här är vad du behöver:
 
 1.  Visual Studio: Se till att du har Visual Studio installerat på din dator. Om du inte har det ännu kan du ladda ner det från[här](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells för .NET integrerat i ditt projekt. Du kan få det från[nedladdningslänk](https://releases.aspose.com/cells/net/). Det här biblioteket är viktigt för att arbeta med Excel-filer och stöder ett brett utbud av funktioner.
+2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells för .NET integrerat i ditt projekt. Du kan få det från[nedladdningslänk](https://releases.aspose.com/cells/net/)Det här biblioteket är viktigt för att arbeta med Excel-filer och stöder ett brett utbud av funktioner.
 3. Grundläggande förståelse för C#: Bekantskap med programmeringsspråket C# hjälper dig att följa med lättare. Oroa dig inte; vi guidar dig genom processerna steg för steg!
 4. Din dokumentkatalog: Se till att du har en mapp på din dator där du kan lagra dina Excel-filer för den här handledningen. 
 
@@ -53,14 +53,14 @@ Nu när vi har konfigurerat katalogen är det dags att skapa en filström som g�
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- I det här steget öppnar vi`book1.xls`som redan borde finnas i din angivna katalog. Se till att du har den här filen till hands, annars kommer processen att ge ett fel.
+ I det här steget öppnar vi`book1.xls`, som redan borde finnas i din angivna katalog. Se till att du har den här filen till hands, annars kommer processen att ge ett fel.
 
 ## Steg 3: Instantiera ett arbetsboksobjekt
 
 Därefter måste vi skapa en instans av Workbook-klassen, som kommer att hålla vår Excel-fil.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 // Öppna Excel-filen genom filströmmen
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Genom att skapa en arbetsboksinstans från vår filström kan vi nu manipulera i
 
 ## Steg 4: Lägg till ett nytt arbetsblad
 
- Här kommer den spännande delen! Låt oss lägga till ett nytt kalkylblad i vår arbetsbok. Detta görs genom att använda`Add()` metod från`Worksheets` samling.
+Här kommer den spännande delen! Låt oss lägga till ett nytt arbetsblad i vår arbetsbok. Detta görs genom att använda`Add()` metod från`Worksheets`samling.
 
 ```csharp
 // Lägga till ett nytt kalkylblad till Workbook-objektet
@@ -87,7 +87,7 @@ När vi har skapat det nya arbetsbladet är det viktigt att få en referens till
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Här använder vi indexet`i` för att referera till vårt nyskapade arbetsblad. Detta gör att vi kan manipulera det ytterligare.
+ Här använder vi indexet`i` för att referera till vårt nyskapade arbetsblad. Detta gör att vi kan manipulera det ytterligare.
 
 ## Steg 6: Ställ in namnet på det nya arbetsbladet
 
@@ -98,7 +98,7 @@ Vad är ett kalkylblad utan namn, eller hur? Låt oss ge vårt nytillkomna arbet
 worksheet.Name = "My Worksheet";
 ```
 
- Du kan ändra`"My Worksheet"` till vilket namn du än önskar. Så här kan du organisera dina Excel-ark mer effektivt.
+ Du kan ändra`"My Worksheet"` till vilket namn du än vill. Så här kan du organisera dina Excel-ark mer effektivt.
 
 ## Steg 7: Spara Excel-filen
 

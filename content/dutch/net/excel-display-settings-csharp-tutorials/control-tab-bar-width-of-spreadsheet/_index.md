@@ -32,7 +32,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Laten we nu naar de kern van onze taak gaan. Ik zal elke stap uiteenzetten, zodat het makkelijk te volgen is, zelfs als je geen doorgewinterde ontwikkelaar bent.
+Laten we nu naar de kern van onze taak gaan. Ik zal elke stap uitsplitsen, zodat het makkelijk te volgen is, zelfs als je geen doorgewinterde ontwikkelaar bent.
 
 ## Stap 1: Stel uw project en werkboek in
 
@@ -69,7 +69,7 @@ Deze code zorgt ervoor dat de tabs zichtbaar zijn in uw spreadsheet. Zonder deze
 
 ## Stap 3: Pas de breedte van de tabbladbalk aan
 
-Nu we ervoor hebben gezorgd dat de tabbladen zichtbaar zijn, is het tijd om de breedte van de tabbladbalk aan te passen. Hier gebeurt de magie. Door de breedte te vergroten, worden de tabbladen meer uitgespreid, wat handig is als u veel bladen hebt en meer ruimte nodig hebt om ertussen te navigeren.
+Nu we ervoor hebben gezorgd dat de tabbladen zichtbaar zijn, is het tijd om de breedte van de tabbladbalk aan te passen. Hier gebeurt de magie. Door de breedte te vergroten, worden de tabbladen meer verspreid, wat handig is als u veel bladen hebt en meer ruimte nodig hebt om ertussen te navigeren.
 
 ```csharp
 workbook.Settings.SheetTabBarWidth = 800; // Breedte in pixels

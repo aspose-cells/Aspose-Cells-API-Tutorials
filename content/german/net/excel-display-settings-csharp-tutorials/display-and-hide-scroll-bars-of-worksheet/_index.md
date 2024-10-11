@@ -45,7 +45,7 @@ Geben Sie hier den Pfad zu der Excel-Datei an, mit der Sie arbeiten möchten.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Ersetzen`YOUR DOCUMENT DIRECTORY` durch den tatsächlichen Pfad, in dem Ihre Excel-Datei gespeichert ist. So kann Ihr Programm die erforderlichen Dateien finden, die es bearbeiten muss.
+ Ersetzen`YOUR DOCUMENT DIRECTORY`durch den tatsächlichen Pfad, in dem Ihre Excel-Datei gespeichert ist. So kann Ihr Programm die erforderlichen Dateien finden, die es bearbeiten muss.
 
 ## Schritt 2: Erstellen eines Dateistreams
 
@@ -56,7 +56,7 @@ Hier erstellen Sie einen Dateistream zum Lesen der Excel-Datei.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- Der`FileStream`Mit der Klasse können Sie Dateien lesen und in sie schreiben. In diesem Fall öffnen wir unsere Excel-Datei im Lesemodus.
+ Der`FileStream` Mit der Klasse können Sie Dateien lesen und in sie schreiben. In diesem Fall öffnen wir unsere Excel-Datei im Lesemodus.
 
 ## Schritt 3: Instanziieren eines Arbeitsmappenobjekts
 
@@ -123,7 +123,7 @@ Indem Sie diese einfachen Schritte befolgen, haben Sie gelernt, wie Sie die Bild
  Ja! Sie müssen nur`IsVScrollBarVisible` Und`IsHScrollBarVisible` zurück zu`true`.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?  
- Aspose.Cells ist nicht ganz kostenlos, aber Sie können es für eine begrenzte Zeit kostenlos testen oder den Kauf in Betracht ziehen[eine vorläufige Lizenz](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ist nicht ganz kostenlos, aber Sie können es für eine begrenzte Zeit kostenlos testen oder den Kauf in Betracht ziehen[eine vorläufige Lizenz](https://purchase.aspose.com/temporary-license/).
 
 ### Welche Arten von Excel-Dateien kann ich mit Aspose.Cells bearbeiten?  
 Sie können mit verschiedenen Excel-Formaten arbeiten, darunter .xls, .xlsx, .xlsm, .xlsb usw.

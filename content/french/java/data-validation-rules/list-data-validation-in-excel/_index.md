@@ -36,7 +36,7 @@ Maintenant que nous avons couvert les bases, plongeons dans la mise en œuvre pr
 
 ## Implémentation de la validation des données avec Aspose.Cells pour Java
 
-Aspose.Cells for Java est une puissante bibliothèque Java qui permet aux développeurs de créer, manipuler et gérer des fichiers Excel par programmation. Elle offre une prise en charge complète de la validation des données, vous permettant de définir des règles de validation, des critères et des messages d'erreur personnalisés pour les cellules Excel.
+Aspose.Cells for Java est une puissante bibliothèque Java qui permet aux développeurs de créer, de manipuler et de gérer des fichiers Excel par programmation. Elle offre une prise en charge complète de la validation des données, vous permettant de définir des règles de validation, des critères et des messages d'erreur personnalisés pour les cellules Excel.
 
 Voici un guide étape par étape sur la façon d'implémenter la validation des données dans Excel à l'aide d'Aspose.Cells pour Java :
 

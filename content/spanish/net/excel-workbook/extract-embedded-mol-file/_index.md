@@ -72,7 +72,7 @@ Dividamos el proceso de extracción en pasos fáciles de seguir.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- En este paso, creamos una nueva instancia del`Workbook`Clase que actúa como un puente hacia el contenido de su archivo Excel. El archivo se carga aquí para que luego podamos iterar a través de las hojas y encontrar los objetos MOL incrustados.
+ En este paso, creamos una nueva instancia del`Workbook` Clase que actúa como un puente hacia el contenido de su archivo Excel. El archivo se carga aquí para que luego podamos iterar a través de las hojas y encontrar los objetos MOL incrustados.
 
 ## Paso 3: Iterar a través de las hojas de trabajo
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Con este fragmento, usamos un`foreach` bucle para recorrer cada hoja de nuestro libro de trabajo. Al acceder a la`OleObjects` colección, podemos obtener acceso a todos los objetos incrustados en esa hoja en particular. 
+ Con este fragmento, usamos un`foreach` bucle para recorrer cada hoja de nuestro libro de trabajo. Al acceder a la`OleObjects`colección, podemos obtener acceso a todos los objetos incrustados en esa hoja en particular. 
 
 ## Paso 4: Extraer objetos OLE
 
@@ -132,7 +132,7 @@ Aspose.Cells para .NET es una potente biblioteca diseñada para manipular y admi
 ¡Por supuesto! Aspose.Cells te permite extraer varios formatos de archivos incrustados, como archivos PDF, imágenes y más, no solo archivos MOL.
 
 ### ¿Necesito comprar Aspose.Cells para usarlo?  
-Si bien hay una versión de prueba gratuita disponible, se necesita una licencia para obtener todas las funciones.[Cómpralo aquí](https://purchase.aspose.com/buy).
+ Si bien hay una versión de prueba gratuita disponible, se necesita una licencia para obtener todas las funciones.[Cómpralo aquí](https://purchase.aspose.com/buy).
 
 ### ¿Es necesario tener Visual Studio para este proceso?  
 Si bien demostramos cómo usar Visual Studio, puedes usar cualquier IDE compatible con C# para ejecutar tu proyecto.

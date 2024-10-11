@@ -22,7 +22,7 @@ Funkce DATE vytvoří datum pomocí zadaných hodnot roku, měsíce a dne. Uká�
 
 ### Funkce DNES
 
-Funkce DNES vrátí aktuální datum. Naučte se, jak získat tyto informace programově pomocí Aspose.Cells.
+Funkce DNES vrací aktuální datum. Naučte se, jak získat tyto informace programově pomocí Aspose.Cells.
 
 ### Funkce DATEDIF
 

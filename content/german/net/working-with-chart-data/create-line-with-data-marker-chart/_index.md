@@ -18,7 +18,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie alles bereit haben, um nahtlos 
 1.  Aspose.Cells für .NET-Bibliothek – Sie müssen dies installieren. Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Stellen Sie sicher, dass Ihre Entwicklungsumgebung mit der neuesten Version von .NET eingerichtet ist.
 3. IDE (Integrated Development Environment) – Visual Studio wird empfohlen.
-4. Eine gültige Aspose.Cells-Lizenz – Wenn Sie keine haben, können Sie eine anfordern[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) oder schauen Sie sich ihre[Kostenlose Testversion](https://releases.aspose.com/).
+4.  Eine gültige Aspose.Cells-Lizenz – Wenn Sie keine haben, können Sie eine anfordern[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/)oder schauen Sie sich ihre[Kostenlose Testversion](https://releases.aspose.com/).
 
 Bereit loszulegen? Dann lass es uns gemeinsam angehen!
 
@@ -151,7 +151,7 @@ Durch die Anpassung der Farben machen Sie das Diagramm nicht nur funktional, son
 
 ## Schritt 7: X- und Y-Werte für jede Serie festlegen
 
-Lassen Sie uns abschließend für jede unserer Reihen die X- und Y-Werte zuweisen.
+Lassen Sie uns abschließend die X- und Y-Werte für jede unserer Reihen zuweisen.
 
 ```csharp
 // Legen Sie die X- und Y-Werte der ersten Reihe fest

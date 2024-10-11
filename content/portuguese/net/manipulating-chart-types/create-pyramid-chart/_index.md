@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Em seguida, vamos criar uma nova instância de uma pasta de trabalho. Pense em uma pasta de trabalho como uma tela em branco onde você pode pintar seus dados.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

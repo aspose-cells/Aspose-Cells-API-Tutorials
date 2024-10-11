@@ -47,7 +47,7 @@ using System.Drawing;
 ```csharp
 //출력 디렉토리
 static string outputDir = "Your Document Directory";
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 

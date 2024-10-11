@@ -44,20 +44,20 @@ Agora, vamos dividir todo o processo em etapas simples e digeríveis. Cada etapa
 
 ## Etapa 1: Configurar o diretório de saída
 
-O primeiro passo é definir onde você quer salvar seu arquivo de saída. É como configurar seu espaço de trabalho antes de começar a sujar as mãos. 
+primeiro passo é definir onde você quer salvar seu arquivo de saída. É como configurar seu espaço de trabalho antes de começar a sujar as mãos. 
 
 ```csharp
 // Diretório de saída
 string outputDir = "Your Output Directory";
 ```
- Substituir`"Your Output Directory"`com o caminho real onde você deseja salvar o arquivo Excel gerado.
+ Substituir`"Your Output Directory"` com o caminho real onde você deseja salvar o arquivo Excel gerado.
 
 ## Etapa 2: Instanciar o objeto Workbook
 
 Em seguida, precisamos criar uma nova instância de workbook. Pense no Workbook como a tela onde sua criatividade fluirá. 
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Esta linha inicializa uma nova pasta de trabalho que conterá todos os seus dados e visuais.
@@ -119,7 +119,7 @@ Neste exemplo, estamos dizendo ao gráfico para usar os valores nas células A1 
 
 ## Etapa 8: Salve o arquivo Excel
 
-O grand finale! Depois de todo o seu trabalho duro, é hora de salvar o arquivo Excel e ver seu gráfico de linhas em ação.
+grand finale! Depois de todo o seu trabalho duro, é hora de salvar o arquivo Excel e ver seu gráfico de linhas em ação.
 
 ```csharp
 // Salvando o arquivo Excel
@@ -145,7 +145,7 @@ Criar um gráfico de linhas usando o Aspose.Cells para .NET é uma maneira efici
 ### O que é Aspose.Cells para .NET?  
 Aspose.Cells para .NET é uma biblioteca poderosa projetada para gerenciar e manipular arquivos do Excel programaticamente, permitindo que desenvolvedores criem, editem e convertam planilhas.
 
-### O Aspose.Cells suporta gráficos?  
+### Aspose.Cells suporta gráficos?  
 Sim, o Aspose.Cells oferece amplo suporte para vários tipos de gráficos, incluindo gráficos de linhas, gráficos de pizza, gráficos de barras e muito mais.
 
 ### Posso usar o Aspose.Cells gratuitamente?  

@@ -16,7 +16,7 @@ Quando se trata de trabalhar com arquivos do Excel, gerenciar quebras de página
 Antes de mergulharmos nos detalhes do código, vamos garantir que você tenha tudo o que precisa para começar. Aqui está uma lista de verificação rápida de pré-requisitos:
 
 1. Visual Studio: você precisará de uma instalação funcional do Visual Studio para criar e executar seus aplicativos .NET.
-2. Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada. Se você ainda não fez isso, você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada. Se você ainda não fez isso, você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: A familiaridade com a programação em C# ajudará você a entender melhor os trechos de código.
 4. Um arquivo Excel: tenha um arquivo Excel à mão que contenha algumas quebras de página para que possamos experimentar.
 
@@ -53,14 +53,14 @@ Primeiramente, você precisa especificar onde seus documentos do Excel estão ar
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Explicação: Substituir`YOUR DOCUMENT DIRECTORY` com o caminho real para seus arquivos. É aqui que você carregará seu arquivo Excel e salvará seu arquivo Excel modificado mais tarde.
+ Explicação: Substituir`YOUR DOCUMENT DIRECTORY`com o caminho real para seus arquivos. É aqui que você carregará seu arquivo Excel e salvará seu arquivo Excel modificado mais tarde.
 
 ## Etapa 2: Instanciar o objeto Workbook
 
 Em seguida, precisamos carregar nossa pasta de trabalho. Em termos mais simples, pense em uma pasta de trabalho como seu arquivo Excel.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ E aí está! Remover quebras de página específicas de um arquivo Excel usando 
 ## Perguntas frequentes
 
 ### Posso remover várias quebras de página de uma só vez?  
-Sim, você pode! Basta percorrer o`HorizontalPageBreaks` e`VerticalPageBreaks` coleções e uso do`RemoveAt` método.
+ Sim, você pode! Basta percorrer o`HorizontalPageBreaks` e`VerticalPageBreaks` coleções e uso do`RemoveAt` método.
 
 ### Como sei qual índice usar para quebras de página?  
 Você pode iterar pelas quebras de página usando um loop para imprimir seus índices ou inspecioná-los por meio do depurador.

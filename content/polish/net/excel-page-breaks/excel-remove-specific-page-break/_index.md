@@ -16,7 +16,7 @@ Jeśli chodzi o pracę z plikami Excela, zarządzanie podziałami stron może by
 Zanim zagłębimy się w szczegóły kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto krótka lista kontrolna wymagań wstępnych:
 
 1. Visual Studio: Aby tworzyć i uruchamiać aplikacje .NET, potrzebna jest działająca instalacja programu Visual Studio.
-2. Aspose.Cells dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. Plik Excela: Przygotuj plik Excela zawierający podziały stron, z którymi będziemy mogli poeksperymentować.
 
@@ -53,14 +53,14 @@ Po pierwsze, musisz określić, gdzie przechowywane są Twoje dokumenty Excela. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wyjaśnienie: Zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką do Twoich plików. To jest miejsce, w którym załadujesz swój plik Excel i zapiszesz zmodyfikowany plik Excel później.
+ Wyjaśnienie: Zamień`YOUR DOCUMENT DIRECTORY` rzeczywistą ścieżką do Twoich plików. To jest miejsce, w którym załadujesz swój plik Excel i zapiszesz zmodyfikowany plik Excel później.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
 Następnie musimy załadować nasz skoroszyt. Mówiąc prościej, pomyśl o skoroszycie jako o pliku Excel.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,13 +105,13 @@ I masz to! Usuwanie określonych podziałów stron z pliku Excel za pomocą Aspo
 ## Najczęściej zadawane pytania
 
 ### Czy mogę usunąć wiele podziałów stron jednocześnie?  
-Tak, możesz! Po prostu przejdź przez`HorizontalPageBreaks` I`VerticalPageBreaks` kolekcje i wykorzystanie`RemoveAt` metoda.
+ Tak, możesz! Po prostu przejdź przez`HorizontalPageBreaks` I`VerticalPageBreaks` kolekcje i wykorzystanie`RemoveAt` metoda.
 
 ### Skąd mam wiedzieć, którego indeksu użyć do podziału stron?  
 Można iterować podziały stron, używając pętli, aby wyświetlić ich indeksy lub sprawdzić je za pomocą debugera.
 
 ### Czy istnieje sposób na ponowne dodanie usuniętych podziałów stron?  
- Niestety, po usunięciu podziału strony za pomocą`RemoveAt` metoda, nie może być przywrócona w tej sesji. Będziesz musiał ją ręcznie odtworzyć.
+ Niestety, po usunięciu podziału strony za pomocą`RemoveAt` metoda, nie może być przywrócona w tej sesji. Będziesz musiał utworzyć ją ponownie ręcznie.
 
 ### Czy mogę zastosować tę metodę do innych arkuszy w skoroszycie?  
  Oczywiście! Wystarczy zmienić numer indeksu w`workbook.Worksheets[index]` aby wskazać żądany arkusz kalkulacyjny.

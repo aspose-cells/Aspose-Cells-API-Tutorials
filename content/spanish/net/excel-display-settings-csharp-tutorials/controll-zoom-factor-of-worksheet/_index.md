@@ -78,10 +78,10 @@ Esta línea de código preparará su archivo Excel para editarlo.
 
 ## Paso 3: Crear una instancia del objeto de libro de trabajo
 
- El`Workbook`El objeto es el núcleo de la funcionalidad de Aspose.Cells. Representa el archivo de Excel de una manera manejable.
+ El`Workbook` El objeto es el núcleo de la funcionalidad de Aspose.Cells. Representa el archivo de Excel de una manera manejable.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 // Abrir el archivo Excel a través del flujo de archivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Ahora que el libro de trabajo está en la memoria, es momento de acceder a la hoja de trabajo específica que desea modificar. En la mayoría de los casos, será la primera hoja de trabajo (índice 0).
 
 ```csharp
-// Acceder a la primera hoja de cálculo del archivo Excel
+//Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

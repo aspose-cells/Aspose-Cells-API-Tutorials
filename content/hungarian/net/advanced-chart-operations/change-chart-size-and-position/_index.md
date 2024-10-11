@@ -9,7 +9,7 @@ url: /hu/net/advanced-chart-operations/change-chart-size-and-position/
 ---
 ## Bevezetés
 
-Amikor a táblázatok programozott kezeléséről van szó, nehéz figyelmen kívül hagyni az Aspose.Cells for .NET sokoldalúságát és erejét. Előfordult már, hogy nehézségekkel küzd az Excel-fájlok diagramjainak átméretezésével vagy áthelyezésével? Ha igen, akkor egy csemege! Ez az útmutató végigvezeti Önt az Aspose.Cells segítségével a táblázatok méretének és helyzetének megváltoztatásán. Kapcsold be, mert mélyre merülünk ebben a témában!
+Amikor a táblázatok programozott kezeléséről van szó, nehéz figyelmen kívül hagyni az Aspose.Cells for .NET sokoldalúságát és erejét. Előfordult már, hogy nehézségekkel küzd az Excel-fájlok diagramjainak átméretezésével vagy áthelyezésével? Ha igen, akkor jó lesz! Ez az útmutató végigvezeti Önt az Aspose.Cells segítségével a táblázatok méretének és helyzetének megváltoztatásán. Kapcsold be, mert mélyre merülünk ebben a témában!
 
 ## Előfeltételek
 
@@ -27,11 +27,11 @@ Mielőtt belevágnánk a kódolás és a diagrammanipuláció aprólékos dolgai
 ### Excel fájl diagrammal
 - Hasznos lenne egy Excel-fájl legalább egy diagrammal, amelyet kezelhetünk ehhez az oktatóanyaghoz.
 
-Miután kipipálta ezeket az előfeltételeket a listáról, készen áll arra, hogy megtanulja, hogyan változtassa meg a diagram méretét és pozícióját, mint egy profi!
+Miután kipipálta ezeket az előfeltételeket a listáról, készen áll, hogy megtanulja, hogyan változtassa meg a diagram méretét és pozícióját, mint egy profi!
 
 ## Csomagok importálása
 
-Most, hogy mindent beállítottunk, importáljuk a szükséges csomagokat. Ez a lépés kulcsfontosságú, mert lehetővé teszi számunkra, hogy hozzáférjünk az Excel-fájlok kezeléséhez szükséges Aspose.Cells osztályokhoz és metódusokhoz.
+Most, hogy készen vagyunk, importáljuk a szükséges csomagokat. Ez a lépés döntő fontosságú, mert lehetővé teszi számunkra, hogy hozzáférjünk az Excel-fájlok kezeléséhez szükséges Aspose.Cells osztályokhoz és metódusokhoz.
 
 ```csharp
 using System;
@@ -42,7 +42,7 @@ using Aspose.Cells.Charts;
 
 Ezek az utasítások tudatják a fordítóval, hogy az Aspose.Cells könyvtár osztályait fogjuk használni. Győződjön meg róla, hogy ez szerepel a kód tetején, nehogy később göröngyös úton haladjon!
 
-Most bontsuk le a folyamatot kezelhető lépésekre. Lépésről lépésre haladunk, biztosítva, hogy minden kristálytiszta legyen.
+Most bontsuk le a folyamatot kezelhető lépésekre. Lépésről lépésre haladunk, hogy minden kristálytiszta legyen.
 
 ## 1. lépés: Forrás- és kimeneti könyvtárak meghatározása
 

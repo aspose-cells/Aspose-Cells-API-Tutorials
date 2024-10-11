@@ -15,7 +15,7 @@ url: /zh/net/excel-page-setup/insert-image-in-header-footer/
 
 在深入研究实际代码之前，您需要准备一些东西：
 
-1. Aspose.Cells for .NET 库：确保您已在 .NET 环境中安装 Aspose.Cells 库。如果您尚未安装，您可以[点击下载](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET 库：确保您已在 .NET 环境中安装 Aspose.Cells 库。如果您尚未安装，您可以[点击下载](https://releases.aspose.com/cells/net/).
 2. Visual Studio 或任何其他 IDE：您需要一个集成开发环境来编写和执行您的 C# 代码。
 3. 示例图片：准备一张要插入页眉或页脚的图片。在我们的示例中，我们将使用名为`aspose-logo.jpg`.
 4. C# 基础知识：虽然不是强制性的，但了解 C# 将使您更容易跟随本教程。
@@ -95,7 +95,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
-此行将图像放置在页眉的中央部分。参数`1`指定标题部分。
+此行将图像放置在标题的中央部分。参数`1`指定标题部分。
 
 ## 步骤 7：设置标题内容
 

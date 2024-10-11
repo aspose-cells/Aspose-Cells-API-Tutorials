@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Ezen blokkok mindegyike utánozza az előző lépést, de módosítja a`PaperSize` ingatlan ennek megfelelően. Pusztán a méretjelző megváltoztatásával könnyedén megkaphatja a különböző papírméreteket. Ez olyan, mintha egy doboz méretét változtatnád meg attól függően, hogy mit kell tárolnod!
+ Ezen blokkok mindegyike utánozza az előző lépést, de módosítja a`PaperSize`ingatlan ennek megfelelően. Pusztán a méretjelző megváltoztatásával könnyedén megkaphatja a különböző papírméreteket. Ez olyan, mintha egy doboz méretét változtatnád meg attól függően, hogy mit kell tárolnod!
 
 ## Következtetés
 

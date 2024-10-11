@@ -65,7 +65,7 @@ Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDi
 Most pedig hozzunk létre egy digitális aláírásgyűjteményt. Ez a gyűjtemény tartalmazza az összes digitális aláírást, amelyet hozzá szeretne adni a munkafüzethez.
 
 ```csharp
-// Hozza létre a digitális aláírásgyűjteményt
+// Készítse el a digitális aláírásgyűjteményt
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 

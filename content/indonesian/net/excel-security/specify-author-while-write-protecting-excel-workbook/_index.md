@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR SOURCE DIRECTORY"` Dan`"YOUR OUTPUT DIRECTORY"`dengan jalur aktual di mesin Anda. Anggap ini sebagai pembuatan ruang kerja yang rapi sebelum Anda mulai membuat karya agung Anda!
+ Pastikan untuk mengganti`"YOUR SOURCE DIRECTORY"` Dan`"YOUR OUTPUT DIRECTORY"` dengan jalur aktual di mesin Anda. Anggap ini sebagai pembuatan ruang kerja yang rapi sebelum Anda mulai membuat karya agung Anda!
 
 ## Langkah 2: Buat Buku Kerja Kosong
 
@@ -110,4 +110,4 @@ Nah, itu dia! Anda telah mempelajari cara membuat buku kerja Excel, mengatur pro
 Tentu saja! Aspose.Cells bekerja dengan lancar di aplikasi desktop dan web menggunakan .NET.
 
 ### Apa yang harus saya lakukan jika saya memerlukan dukungan?  
- Untuk pertanyaan dan pemecahan masalah, komunitas Aspose sangat membantu. Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan.
+Untuk pertanyaan dan pemecahan masalah, komunitas Aspose sangat membantu. Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan.

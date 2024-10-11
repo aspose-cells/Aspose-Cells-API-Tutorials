@@ -42,17 +42,17 @@ Allereerst moet u een directory maken waar uw Excel-bestand wordt opgeslagen. De
 
 ```csharp
 // Uitvoermap
-string outputDir = "Your Output Directory"; // Verander dit naar het gewenste pad
+string outputDir = "Your Output Directory"; //Verander dit naar het gewenste pad
 ```
 
 In plaats van "Your Output Directory" kunt u een daadwerkelijk pad opgeven waar u het Excel-bestand wilt opslaan. Zorg ervoor dat deze directory op uw systeem bestaat, anders krijgt u later fouten.
 
 ## Stap 2: Een werkmapobject instantiëren
 
- Nu wilt u beginnen met het maken van een nieuw exemplaar van de`Workbook`klasse. Dit is de fundamentele bouwsteen voor alle Excel-bewerkingen met Aspose.Cells.
+ Nu wilt u beginnen met het maken van een nieuw exemplaar van de`Workbook` klasse. Dit is de fundamentele bouwsteen voor alle Excel-bewerkingen met Aspose.Cells.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 

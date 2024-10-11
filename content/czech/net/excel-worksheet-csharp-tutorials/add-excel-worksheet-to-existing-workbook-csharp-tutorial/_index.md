@@ -9,14 +9,14 @@ url: /cs/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-wo
 ---
 ## Zavedení
 
-S neustálým vývojem digitálního světa se práce s tabulkami stala klíčovou součástí mnoha obchodních procesů. Od správy financí po organizaci dat vám možnost přidávat a programově manipulovat s excelovými listy vám může ušetřit spoustu času a zefektivnit váš pracovní postup. V této příručce se ponoříme hluboko do toho, jak přidat pracovní list aplikace Excel do existujícího sešitu pomocí Aspose.Cells for .NET, výkonné knihovny navržené k snadné automatizaci úloh s tabulkovým procesorem. Vyhrňme si rukávy a začněme!
+neustálým vývojem digitálního světa se práce s tabulkami stala klíčovou součástí mnoha obchodních procesů. Od správy financí po organizaci dat vám možnost přidávat a programově manipulovat s excelovými listy vám může ušetřit spoustu času a zefektivnit váš pracovní postup. V této příručce se ponoříme hluboko do toho, jak přidat pracovní list aplikace Excel do existujícího sešitu pomocí Aspose.Cells for .NET, výkonné knihovny navržené k snadné automatizaci úloh s tabulkovým procesorem. Vyhrňme si rukávy a začněme!
 
 ## Předpoklady
 
 Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete k úspěšné implementaci tohoto návodu. Zde je to, co budete potřebovat:
 
 1.  Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Pokud ji ještě nemáte, můžete si ji stáhnout z[zde](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells for .NET: Musíte mít Aspose.Cells for .NET integrované do vašeho projektu. Můžete to získat z[odkaz ke stažení](https://releases.aspose.com/cells/net/). Tato knihovna je nezbytná pro práci se soubory Excel a podporuje širokou škálu funkcí.
+2.  Aspose.Cells for .NET: Musíte mít Aspose.Cells for .NET integrované do vašeho projektu. Můžete to získat z[odkaz ke stažení](https://releases.aspose.com/cells/net/)Tato knihovna je nezbytná pro práci se soubory Excel a podporuje širokou škálu funkcí.
 3. Základní porozumění C#: Znalost programovacího jazyka C# vám pomůže snáze se orientovat. Nebojte se; provedeme vás procesem krok za krokem!
 4. Váš adresář dokumentů: Ujistěte se, že máte v počítači složku, kam můžete ukládat soubory Excel pro tento výukový program. 
 
@@ -53,14 +53,14 @@ Nyní, když máme adresář nastaven, je čas vytvořit souborový proud, kter�
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- V tomto kroku otevíráme`book1.xls`který by již měl existovat ve vašem zadaném adresáři. Ujistěte se, že máte tento soubor po ruce, jinak proces vyvolá chybu.
+ V tomto kroku otevíráme`book1.xls`, který by již měl existovat ve vašem zadaném adresáři. Ujistěte se, že máte tento soubor po ruce, jinak proces vyvolá chybu.
 
 ## Krok 3: Vytvořte instanci objektu sešitu
 
 Dále musíme vytvořit instanci třídy Workbook, která bude obsahovat náš soubor Excel.
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Vytvořením instance sešitu z našeho datového proudu souborů nyní můžeme
 
 ## Krok 4: Přidejte nový list
 
- Přichází ta vzrušující část! Přidejme do sešitu nový pracovní list. To se provádí pomocí`Add()` metoda z`Worksheets` sbírka.
+Přichází ta vzrušující část! Přidejme do sešitu nový pracovní list. To se provádí pomocí`Add()` metoda z`Worksheets`sbírka.
 
 ```csharp
 // Přidání nového listu do objektu Sešit
@@ -87,7 +87,7 @@ Jakmile vytvoříme nový list, je důležité získat na něj odkaz. Tímto zp�
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Zde používáme index`i` odkazovat na náš nově vytvořený pracovní list. To nám umožňuje s ním dále manipulovat.
+ Zde používáme index`i` odkazovat na náš nově vytvořený pracovní list. To nám umožňuje s ním dále manipulovat.
 
 ## Krok 6: Nastavte název nového listu
 

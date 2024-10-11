@@ -16,7 +16,7 @@ Az Excel-fájlok programozott létrehozása és kezelése meglehetősen gondot o
 Mielőtt elkezdenénk, meg kell felelnie néhány előfeltételnek:
 
 1. Alapvető C# ismerete: A C# és a .NET keretrendszer alapvető ismerete minden bizonnyal segít eligazodni az oktatóanyagban.
-2.  Aspose.Cells for .NET telepítve: rendelkeznie kell az Aspose.Cells for .NET könyvtárral. Megteheti[töltsd le innen](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET telepítve: rendelkeznie kell az Aspose.Cells for .NET könyvtárral. Tudod[töltsd le innen](https://releases.aspose.com/cells/net/).
 3. Visual Studio vagy hasonló IDE: A kód írásához és végrehajtásához integrált fejlesztői környezetre (IDE), például a Visual Studiora lesz szüksége.
 4. Excel-fájl: rendelkeznie kell egy Excel-fájllal (pl`book1.xls`) elérhető a dokumentumkönyvtárban manipuláció céljából.
 5. Névterek: Győződjön meg arról, hogy a kódban szerepelnek a szükséges névterek – különösen a fájlok és az Aspose.Cells könyvtár kezeléséhez.
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## 3. lépés: Példányosítsa a munkafüzetet
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 // Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## 4. lépés: Nyissa meg a munkalapot
 
 ```csharp
-// Az Excel fájl első munkalapjának elérése
+//Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -117,12 +117,12 @@ Végül jó szokás az erőforrások megtisztítása. A fájlfolyam bezárása f
 Az Aspose.Cells egy .NET API, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, kezelését és konvertálását anélkül, hogy a Microsoft Excel telepítése szükségessé válna.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?
- Igen, az Aspose ingyenes próbaverziót kínál tesztelési célokra. Megteheti[ingyenes próbaverzió itt](https://releases.aspose.com/).
+ Igen, az Aspose ingyenes próbaverziót kínál tesztelési célokra. Tudod[ingyenes próbaverzió itt](https://releases.aspose.com/).
 
 ### Hogyan vásárolhatok Aspose.Cells-t?
- Megteheti[vásárolja meg az Aspose.Cells-t itt](https://purchase.aspose.com/buy).
+ Tudod[vásárolja meg az Aspose.Cells-t itt](https://purchase.aspose.com/buy).
 
-### Elérhető technikai támogatás az Aspose.Cells számára?
+### Rendelkezésre áll technikai támogatás az Aspose.Cells számára?
  Teljesen! Segítséget kérhetsz a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
 
 ### Alkalmazhatok oldaltörési előnézeteket több munkalapon?

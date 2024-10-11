@@ -68,7 +68,7 @@ Vysvětlení:
 
  Tady,`Workbook` objekt (`wb` ) se vytvoří načtením souboru Excel určeného pomocí`InputPath` . Myslete na to`Workbook` jako digitální verzi knihy, kterou chcete upravit. V podstatě otevíráte svou knihu, abyste na ní mohli pracovat.
 
-## Krok 3: Vstupte do kolekce Worksheet Collection
+## Krok 3: Přístup ke kolekci Worksheet Collection
 
 ```csharp
 WorksheetCollection sheets = wb.Worksheets;
@@ -106,7 +106,7 @@ wb.Save(dataDir + "MoveWorksheet_out.xls");
 
 Vysvětlení:  
 
- Nakonec náš sešit uložíme pod novým názvem,`MoveWorksheet_out.xls`. Tento krok dokončí vaše změny a zapíše je do nového souboru aplikace Excel. Je to podobné, jako když odložíte hotový rukopis své knihy na polici.
+ Nakonec uložíme náš sešit s novým názvem,`MoveWorksheet_out.xls`. Tento krok dokončí vaše změny a zapíše je do nového souboru aplikace Excel. Je to podobné, jako když odložíte hotový rukopis své knihy na polici.
 
 ## Závěr
 

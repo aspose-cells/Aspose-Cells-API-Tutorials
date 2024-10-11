@@ -46,7 +46,7 @@ Voordat u een Excel-bestand kunt bewerken, moet u de locatie van uw bestand opge
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- In deze stap wijst u de locatie van uw Excel-bestand toe aan de`dataDir`snaar. Vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar je`.xls` bestand zich bevindt.
+ In deze stap wijst u de locatie van uw Excel-bestand toe aan de`dataDir` snaar. Vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar je`.xls` bestand zich bevindt.
 
 ## Stap 2: Een bestandsstroom maken
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Excel-bestanden bevatten doorgaans meerdere werkbladen. Voor deze tutorial benaderen we het eerste werkblad in de werkmap.
 
 ```csharp
-// Toegang krijgen tot het eerste werkblad in het Excel-bestand
+//Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Nu komt het leuke gedeelte: de rasterlijnen verbergen! Met slechts één regel code kunt u de zichtbaarheid van de rasterlijnen in- of uitschakelen.
 
 ```csharp
-// De rasterlijnen van het eerste werkblad van het Excel-bestand verbergen
+//De rasterlijnen van het eerste werkblad van het Excel-bestand verbergen
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Het sluiten van de bestandsstroom is cruciaal omdat het ervoor zorgt dat alle re
 
 ## Conclusie
 
- En dat is het! U hebt zojuist geleerd hoe u rasterlijnen in een Excel-werkblad kunt weergeven en verbergen met Aspose.Cells voor .NET. Of u nu een rapport wilt oppoetsen of gegevens wilt presenteren in een beter leesbaar formaat, deze eenvoudige techniek kan een aanzienlijke impact hebben op hoe uw spreadsheets eruitzien. Het beste gedeelte? Het kost slechts een paar regels code om grote veranderingen aan te brengen. Als u klaar bent om dit uit te proberen, vergeet dan niet om een[gratis proefperiode](https://releases.aspose.com/) en begin met coderen!
+En dat is het! U hebt zojuist geleerd hoe u rasterlijnen in een Excel-werkblad kunt weergeven en verbergen met Aspose.Cells voor .NET. Of u nu een rapport wilt oppoetsen of gegevens wilt presenteren in een beter leesbaar formaat, deze eenvoudige techniek kan een aanzienlijke impact hebben op hoe uw spreadsheets eruitzien. Het beste gedeelte? Het kost slechts een paar regels code om grote veranderingen aan te brengen. Als u klaar bent om dit uit te proberen, vergeet dan niet om een[gratis proefperiode](https://releases.aspose.com/) en begin met coderen!
 
 ## Veelgestelde vragen
 

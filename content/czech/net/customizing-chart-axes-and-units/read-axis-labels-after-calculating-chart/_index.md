@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Tento úryvek nejprve vydá titulek a oddělovací řádek. Poté procházíme každý štítek v`lstLabels` ArrayList a vytiskněte jej do konzole. Pokud existuje deset štítků, uvidíte každý z nich přímo tam!
+ Tento úryvek nejprve vydá titulek a oddělovací řádek. Poté projdeme každý štítek v`lstLabels` ArrayList a vytiskněte jej do konzole. Pokud existuje deset štítků, uvidíte každý z nich přímo tam!
 
 ## Krok 8: Závěrečná zpráva
 

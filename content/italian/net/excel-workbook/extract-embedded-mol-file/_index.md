@@ -9,7 +9,7 @@ url: /it/net/excel-workbook/extract-embedded-mol-file/
 ---
 ## Introduzione
 
-Ti è mai capitato di dover estrarre file incorporati, in particolare file MOL, da un foglio di calcolo Excel? È un lavoro complicato, non è vero? Ma non preoccuparti! Con l'aiuto di Aspose.Cells per .NET, possiamo trasformare questo compito apparentemente complicato in una passeggiata nel parco. In questo tutorial, ti guideremo passo dopo passo su come estrarre file MOL da un file Excel utilizzando la potente libreria Aspose.Cells.
+Ti è mai capitato di dover estrarre file incorporati, in particolare file MOL, da un foglio di calcolo Excel? È un lavoro complicato, non è vero? Ma non preoccuparti! Con l'aiuto di Aspose.Cells per .NET, possiamo trasformare questo compito apparentemente complicato in una passeggiata. In questo tutorial, ti guideremo passo dopo passo su come estrarre file MOL da un file Excel utilizzando la potente libreria Aspose.Cells.
 
 ## Prerequisiti
 
@@ -72,7 +72,7 @@ Analizziamo il processo di estrazione in semplici passaggi.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- In questo passaggio, creiamo una nuova istanza di`Workbook`class, che funge da ponte verso il contenuto del tuo file Excel. Il file viene caricato qui in modo che possiamo in seguito scorrere i fogli e trovare gli oggetti MOL incorporati.
+ In questo passaggio, creiamo una nuova istanza di`Workbook` class, che funge da ponte verso il contenuto del tuo file Excel. Il file viene caricato qui in modo che possiamo in seguito scorrere i fogli e trovare gli oggetti MOL incorporati.
 
 ## Passaggio 3: scorrere i fogli di lavoro
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Con questo frammento, stiamo utilizzando un`foreach` ciclo per passare attraverso ogni foglio nella nostra cartella di lavoro. Accedendo al`OleObjects` raccolta, possiamo accedere a tutti gli oggetti incorporati in quel particolare foglio. 
+ Con questo frammento, stiamo utilizzando un`foreach` ciclo per passare attraverso ogni foglio nella nostra cartella di lavoro. Accedendo al`OleObjects`raccolta, possiamo accedere a tutti gli oggetti incorporati in quel particolare foglio. 
 
 ## Passaggio 4: estrarre gli oggetti OLE
 
@@ -132,7 +132,7 @@ Aspose.Cells per .NET è una potente libreria progettata per manipolare e gestir
 Assolutamente! Aspose.Cells consente di estrarre vari formati di file incorporati come PDF, immagini e altro, non solo file MOL.
 
 ### Devo acquistare Aspose.Cells per utilizzarlo?  
-Sebbene sia disponibile una prova gratuita, è necessaria una licenza per le funzionalità complete. Puoi[acquistalo qui](https://purchase.aspose.com/buy).
+ Sebbene sia disponibile una prova gratuita, è necessaria una licenza per le funzionalità complete. Puoi[acquistalo qui](https://purchase.aspose.com/buy).
 
 ### È necessario Visual Studio per questo processo?  
 Anche se la dimostrazione è stata effettuata utilizzando Visual Studio, è possibile utilizzare qualsiasi IDE compatibile con C# per eseguire il progetto.

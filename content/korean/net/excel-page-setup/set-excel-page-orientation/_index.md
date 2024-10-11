@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 이제 Excel 파일을 나타내는 Workbook 클래스의 인스턴스를 생성해 보겠습니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 다음으로, 방향을 설정하려는 워크시트에 액세스해야 합니다. 각 워크북에는 여러 워크시트가 있을 수 있으므로 작업 중인 워크시트를 명시적으로 지정해야 합니다.
 
 ```csharp
-// Excel 파일의 첫 번째 워크시트에 액세스하기
+//Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

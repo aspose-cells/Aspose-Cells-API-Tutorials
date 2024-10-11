@@ -63,7 +63,7 @@ Deze regel verwijst naar de directory die het Excel-bestand bevat. Zorg ervoor d
 Vervolgens laden we onze werkmap. Dit is alsof u uw Excel-bestand op de achtergrond opent, zodat we de inhoud ervan kunnen lezen en bewerken.
 
 ```csharp
-// Laad de werkmap
+//Laad de werkmap
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
@@ -113,7 +113,7 @@ foreach (Hyperlink link in hyperlinks)
 }
 ```
 
- Deze lus neemt elke hyperlink, opent de eigenschappen ervan en geeft ze weer in de console.`TextToDisplay` eigenschap geeft ons de tekst die zichtbaar is in de cel, terwijl`LinkType` vertelt ons wat voor soort hyperlink het is (bijv. extern, intern, e-mail, enz.). Het is alsof u te horen krijgt of de link naar een andere webpagina leidt, naar een ander deel van dezelfde spreadsheet of naar een e-mailconcept!
+ Deze lus neemt elke hyperlink, opent de eigenschappen ervan en geeft ze weer in de console.`TextToDisplay` eigenschap geeft ons de tekst die zichtbaar is in de cel, terwijl`LinkType` vertelt ons wat voor soort hyperlink het is (bijv. extern, intern, e-mail, enz.). Het is alsof u vertelt of de link naar een andere webpagina leidt, naar een ander deel van dezelfde spreadsheet of naar een e-mailconcept!
 
 ## Stap 7: Definitieve bevestigingsbericht
 
@@ -141,7 +141,7 @@ U kunt Aspose.Cells installeren via NuGet in Visual Studio door te zoeken naar '
 Absoluut! Aspose.Cells kan Excel-bestanden lezen en maken, wat uitgebreide gegevensmanipulatie- en rapportagemogelijkheden mogelijk maakt.
 
 ### Met welke soorten hyperlinks kan ik werken?  
-U kunt werken met interne, externe, e-mail- en zelfs koppelingstypen naar andere documenten in uw Excel-bestanden.
+kunt werken met interne, externe, e-mail- en zelfs koppelingstypen naar andere documenten in uw Excel-bestanden.
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Cells?  
  Voor ondersteuning kunt u terecht op het Aspose-forum[hier](https://forum.aspose.com/c/cells/9).

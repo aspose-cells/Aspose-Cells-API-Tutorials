@@ -77,7 +77,7 @@ In questo caso, stiamo semplicemente prendendo il primo foglio di lavoro, che è
 Con il foglio di lavoro in mano, possiamo ora accedere al grafico a cui intendiamo applicare lo stile.
 
 ```csharp
-// Ottieni il primo grafico nel foglio
+//Ottieni il primo grafico nel foglio
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Questa riga di codice garantisce che la prima serie nel grafico sia impostata pe
 // Ottieni il CellsColor di SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Crea un tema in stile Accent
+//Crea un tema in stile Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

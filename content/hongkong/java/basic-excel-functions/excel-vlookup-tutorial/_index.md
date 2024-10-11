@@ -85,7 +85,7 @@ if (cell != null) {
 
 ### 如何安裝 Aspose.Cells for Java？
 
-要安裝 Aspose.Cells for Java，只需從以下位址下載庫：[這個連結](https://releases.aspose.com/cells/java/)並按照 Aspose 網站上提供的安裝說明進行操作。
+要安裝 Aspose.Cells for Java，只需從以下位置下載該程式庫即可：[這個連結](https://releases.aspose.com/cells/java/)並按照 Aspose 網站上提供的安裝說明進行操作。
 
 ### 我可以將 Aspose.Cells for Java 與其他程式語言一起使用嗎？
 

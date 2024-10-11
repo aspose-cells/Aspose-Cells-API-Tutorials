@@ -15,7 +15,7 @@ Saat bekerja dengan file Excel, header dan footer memainkan peran penting dalam 
 
 Sebelum menyelami kode sebenarnya, ada beberapa hal yang perlu Anda siapkan:
 
-1. Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah memasang pustaka Aspose.Cells di lingkungan .NET Anda. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+1.  Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah memasang pustaka Aspose.Cells di lingkungan .NET Anda. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 2. Visual Studio atau IDE lainnya: Anda memerlukan lingkungan pengembangan terintegrasi untuk menulis dan mengeksekusi kode C# Anda.
 3.  Contoh Gambar: Siapkan gambar yang ingin Anda sisipkan di header atau footer. Untuk contoh kita, kita akan menggunakan logo perusahaan yang disebut`aspose-logo.jpg`.
 4. Pengetahuan Dasar C#: Meskipun tidak wajib, memahami C# akan memudahkan Anda mengikuti tutorial ini.
@@ -95,7 +95,7 @@ Dengan data biner gambar yang ada, kita sekarang dapat memasukkannya ke dalam he
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Baris ini menempatkan gambar di bagian tengah header. Parameter`1` menentukan bagian header.
+ Baris ini menempatkan gambar di bagian tengah header. Parameter`1`menentukan bagian header.
 
 ## Langkah 7: Mengatur Konten Header
 

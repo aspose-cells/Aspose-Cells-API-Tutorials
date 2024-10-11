@@ -36,7 +36,7 @@ Maintenant que nous sommes tous prêts à coder, décomposons le processus en é
 
 ## Étape 1 : Configurez votre environnement
 
- Dans cette étape, vous allez configurer le chemin d'accès au fichier où se trouve votre fichier Excel. Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin vers votre fichier.
+Dans cette étape, vous allez configurer le chemin d'accès au fichier où se trouve votre fichier Excel. Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin vers votre fichier.
 
 ```csharp
 // Le chemin vers le répertoire des documents.
@@ -72,7 +72,7 @@ Cette étape revient à dire « Bonjour ! » à votre classeur, pour qu'il sache
 Avec votre classeur en main, il est temps d'accéder à la feuille de calcul spécifique que vous souhaitez masquer. Nous commencerons par la première feuille de calcul.
 
 ```csharp
-// Accéder à la première feuille de calcul du fichier Excel
+//Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Après avoir masqué la feuille de calcul, vous souhaiterez enregistrer les modi
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Ici, nous enregistrons le classeur sous`output.out.xls`C'est comme sceller votre travail dans une enveloppe. Si vous ne le sauvegardez pas, tout votre dur labeur sera perdu !
+ Ici, nous enregistrons le classeur sous`output.out.xls`C'est comme sceller votre travail dans une enveloppe. Si vous ne le sauvegardez pas, tout votre dur labeur sera perdu !
 
 ## Étape 7 : Fermer le flux de fichiers
 
@@ -124,7 +124,7 @@ En faisant cela, vous relevez le rideau, permettant à tout d’être à nouveau
 
 ## Conclusion
 
-La manipulation de feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET ne doit pas être une tâche ardue. Avec seulement quelques lignes de code, vous pouvez masquer ou révéler des données importantes en toute simplicité. Cette fonctionnalité peut être particulièrement utile dans les scénarios où la clarté et la sécurité sont primordiales. Que vous fassiez des rapports de données ou que vous essayiez simplement de garder votre travail propre et bien rangé, savoir comment gérer la visibilité des feuilles de calcul peut faire une grande différence dans votre flux de travail !
+La manipulation de feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET ne doit pas être une tâche ardue. Avec seulement quelques lignes de code, vous pouvez masquer ou révéler des données importantes en toute simplicité. Cette fonctionnalité peut être particulièrement utile dans les scénarios où la clarté et la sécurité sont primordiales. Que vous fassiez un rapport sur des données ou que vous essayiez simplement de garder votre travail propre et bien rangé, savoir comment gérer la visibilité des feuilles de calcul peut faire une grande différence dans votre flux de travail !
 
 ## FAQ
 
@@ -132,7 +132,7 @@ La manipulation de feuilles de calcul Excel à l'aide d'Aspose.Cells pour .NET n
  Oui, vous pouvez parcourir le`Worksheets` collection et définir le`IsVisible` propriété à false pour chaque feuille que vous souhaitez masquer.
 
 ### Quels formats de fichiers Aspose.Cells prend-il en charge ?
- Aspose.Cells prend en charge une variété de formats, notamment XLS, XLSX, CSV, etc. Vous pouvez consulter la liste complète[ici](https://reference.aspose.com/cells/net/).
+Aspose.Cells prend en charge une variété de formats, notamment XLS, XLSX, CSV, etc. Vous pouvez consulter la liste complète[ici](https://reference.aspose.com/cells/net/).
 
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells ?
  Vous pouvez commencer par un essai gratuit pour découvrir ses fonctionnalités. Une licence complète est requise pour les applications de production. En savoir plus[ici](https://purchase.aspose.com/buy).

@@ -112,7 +112,7 @@ Itt adsz címet a műalkotásodnak. Segít a nézőknek megérteni, mit néznek.
 Most döntsük el, hogyan helyezkedjen el a címke a diagramhoz képest. Itt szabadon lebegőre állítjuk, ami azt jelenti, hogy a diagram elemeitől függetlenül mozgatható.
 
 ```csharp
-//Állítsa be az Elhelyezés típusát, a címke cellákhoz való rögzítésének módját.
+// Állítsa be az Elhelyezés típusát, a címke cellákhoz való rögzítésének módját.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Ez olyan, mintha a kész terméket felfedné a világ előtt, tapsra készen!
 Igen! Igényeinek megfelelően módosíthatja a címke betűtípusát, színét, méretét és egyéb tulajdonságait.
 
 ### Az Aspose.Cells ingyenesen használható?
- Az Aspose.Cells fizetős termék; kezdheti azonban a[ingyenes próbaverzió](https://releases.aspose.com/) jellemzőinek feltárására.
+ Az Aspose.Cells fizetős termék; kezdheti azonban a[ingyenes próbaverzió](https://releases.aspose.com/)jellemzőinek feltárására.
 
 ### Mi a teendő, ha több címkét szeretnék hozzáadni?
 A címke hozzáadása lépéseit annyiszor ismételheti meg, ahányszor szükséges, mindegyik más-más pozícióval és szöveggel.

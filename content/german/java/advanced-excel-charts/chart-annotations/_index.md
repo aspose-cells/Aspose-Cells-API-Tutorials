@@ -54,7 +54,7 @@ worksheet.getCells().get("B3").putValue(1500);
 
 ## Erstellen eines Diagramms
 
-Erstellen wir jetzt ein Diagramm und fügen es unserem Arbeitsblatt hinzu.
+Lassen Sie uns jetzt ein Diagramm erstellen und es unserem Arbeitsblatt hinzufügen.
 
 ```java
 // Hinzufügen eines Diagramms zum Arbeitsblatt

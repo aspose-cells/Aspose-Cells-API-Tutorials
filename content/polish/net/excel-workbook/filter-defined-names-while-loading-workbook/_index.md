@@ -37,7 +37,7 @@ Podzielmy proces filtrowania zdefiniowanych nazw podczas ładowania skoroszytu n
 
 ## Krok 1: Określ opcje ładowania
 
-Pierwszą rzeczą, którą zrobimy, będzie utworzenie instancji`LoadOptions` Klasa. Ta klasa pomoże nam określić, jak chcemy załadować nasz plik Excel.
+ Pierwszą rzeczą, którą zrobimy, będzie utworzenie instancji`LoadOptions` Klasa. Ta klasa pomoże nam określić, jak chcemy załadować nasz plik Excel.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Teraz, gdy nasze opcje ładowania są określone, czas załadować sam skoroszyt
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- W tym wierszu tworzysz nową instancję`Workbook`klasa, przekazując ścieżkę do przykładowego pliku Excel i opcje ładowania. To ładuje skoroszyt z nazwami zdefiniowanymi i odfiltrowanymi zgodnie ze specyfikacją.
+ W tym wierszu tworzysz nową instancję`Workbook` klasa, przekazując ścieżkę do przykładowego pliku Excel i opcje ładowania. To ładuje skoroszyt z nazwami zdefiniowanymi i odfiltrowanymi zgodnie ze specyfikacją.
 
 ## Krok 4: Zapisz plik wyjściowy
 
@@ -87,7 +87,7 @@ Dzięki temu wierszowi jasno pokazujesz, że operacja przebiegła bez żadnych p
 
 ## Wniosek
 
-masz to! Filtrowanie zdefiniowanych nazw podczas ładowania skoroszytu za pomocą Aspose.Cells dla .NET można wykonać za pomocą kilku prostych kroków. Ten proces jest niezwykle pomocny w scenariuszach, w których musisz usprawnić przetwarzanie danych lub zapobiec wpływowi niepotrzebnych danych na obliczenia.
+I masz to! Filtrowanie zdefiniowanych nazw podczas ładowania skoroszytu za pomocą Aspose.Cells dla .NET można wykonać za pomocą kilku prostych kroków. Ten proces jest niezwykle pomocny w scenariuszach, w których musisz usprawnić przetwarzanie danych lub zapobiec wpływowi niepotrzebnych danych na obliczenia.
 
 Postępując zgodnie z tym przewodnikiem, możesz pewnie ładować pliki Excela, kontrolując jednocześnie, jakie dane chcesz wykluczyć. Niezależnie od tego, czy tworzysz aplikacje, które zarządzają dużymi zestawami danych, czy wdrażasz określoną logikę biznesową, opanowanie tej funkcji tylko poprawi Twoje umiejętności manipulowania Excelem.
 
@@ -106,4 +106,4 @@ Filtrowanie zdefiniowanych nazw może prowadzić do zepsutych formuł, jeśli od
  Tak, możesz otrzymać bezpłatną wersję próbną Aspose.Cells, aby przetestować jej możliwości przed zakupem. Sprawdź to[Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Pełną dokumentację i więcej przykładów znajdziesz na stronie referencyjnej Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).
+Pełną dokumentację i więcej przykładów znajdziesz na stronie referencyjnej Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).

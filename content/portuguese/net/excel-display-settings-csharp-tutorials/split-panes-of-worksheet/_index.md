@@ -38,14 +38,14 @@ Agora que cobrimos o essencial, vamos para a parte mais emocionante: dividir os 
 Antes de podermos dividir painéis, precisamos de uma pasta de trabalho para trabalhar! Este passo é tão essencial quanto abrir um livro antes de começar a lê-lo.
 
 ```csharp
-// caminho para o diretório de documentos
+// O caminho para o diretório de documentos
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Instanciar uma nova pasta de trabalho e abrir um arquivo de modelo
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- No código acima, substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde seu arquivo Excel está localizado. O`Workbook` A classe carrega o arquivo Excel na memória.
+ No código acima, substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde seu arquivo Excel está localizado. O`Workbook` classe carrega o arquivo Excel na memória.
 
 ## Etapa 2: Defina a célula ativa
 
@@ -84,11 +84,11 @@ De que adianta todo o seu trabalho duro se você não o salva? Salvar garante qu
 book.Save(dataDir + "output.xls");
 ```
 
- Aqui, o`Save()` método salva a pasta de trabalho com seus painéis recém-divididos em um arquivo Excel de saída. As alterações que você fez agora estão prontas para você — ou qualquer outra pessoa — usar.
+ Aqui, o`Save()` O método salva a pasta de trabalho com seus painéis recém-divididos em um arquivo Excel de saída. As alterações que você fez agora estão prontas para você — ou qualquer outra pessoa — usar.
 
 ## Conclusão
 
-E aí está! Você acabou de aprender como dividir painéis em uma planilha do Excel usando o Aspose.Cells para .NET. Chega de rolagem infinita ou perda de controle dos seus dados. Este método torna o manuseio de arquivos grandes do Excel muito menos trabalhoso e muito mais eficiente. Com a capacidade de dividir painéis, agora você pode manter o controle de pontos de dados críticos enquanto trabalha com planilhas complexas.
+aí está! Você acabou de aprender como dividir painéis em uma planilha do Excel usando o Aspose.Cells para .NET. Chega de rolagem infinita ou perda de controle dos seus dados. Este método torna o manuseio de arquivos grandes do Excel muito menos trabalhoso e muito mais eficiente. Com a capacidade de dividir painéis, agora você pode manter o controle de pontos de dados críticos enquanto trabalha com planilhas complexas.
 
 ## Perguntas frequentes
 
@@ -101,7 +101,7 @@ Dividir painéis permite que você role em ambos os painéis independentemente. 
 ### Posso remover a divisão depois de aplicá-la?  
 Sim, você pode remover a divisão fechando e reabrindo a pasta de trabalho ou redefinindo-a programaticamente.
 
-### A divisão de painéis funciona da mesma forma para diferentes formatos de arquivo do Excel (XLS, XLSX)?  
+### divisão de painéis funciona da mesma forma para diferentes formatos de arquivo do Excel (XLS, XLSX)?  
  Sim, o`Split()` O método funciona tanto para os formatos XLS quanto para os XLSX.
 
 ### Posso usar o Aspose.Cells sem uma licença?  

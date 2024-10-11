@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR SOURCE DIRECTORY"` és`"YOUR OUTPUT DIRECTORY"`tényleges elérési utakkal a gépén. Gondoljon erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt hozzáfogna a remekmű elkészítéséhez!
+ Ügyeljen arra, hogy cserélje ki`"YOUR SOURCE DIRECTORY"` és`"YOUR OUTPUT DIRECTORY"` tényleges elérési utakkal a gépén. Gondoljon erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt hozzáfogna a remekmű elkészítéséhez!
 
 ## 2. lépés: Hozzon létre egy üres munkafüzetet
 
@@ -89,7 +89,7 @@ Az utolsó lépés a munkafüzet elmentése a kívánt formátumban. Ebben az es
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül a névvel`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Itt a kemény munkája végre meghozza gyümölcsét, és megoszthatja munkafüzetét másokkal, tudva, hogy jól védett!
+ Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül mentésre a névvel`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Itt a kemény munkája végre meghozza gyümölcsét, és megoszthatja munkafüzetét másokkal, tudva, hogy jól védett!
 
 ## Következtetés
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 Teljesen! Az Aspose.Cells zökkenőmentesen működik mind az asztali, mind a webes alkalmazásokban .NET használatával.
 
 ### Mit tegyek, ha támogatásra van szükségem?  
- Kérdések és hibaelhárítás esetén az Aspose közösség nagyon segítőkész. Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.
+Kérdések és hibaelhárítás esetén az Aspose közösség nagyon segítőkész. Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.

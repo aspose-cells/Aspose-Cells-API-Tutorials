@@ -9,7 +9,7 @@ url: /nl/net/advanced-chart-operations/setting-category-data/
 ---
 ## Invoering
 
-Als het gaat om het programmatisch beheren en manipuleren van Excel-bestanden, kan het hebben van de juiste tools het verschil maken. Aspose.Cells voor .NET springt eruit als een dergelijke tool, waarmee ontwikkelaars moeiteloos Excel-bestanden kunnen maken, bewerken en converteren. Of u nu een complexe data-analysetoepassing bouwt of gewoon de generatie van rapporten wilt automatiseren, Aspose.Cells heeft u gedekt. 
+Als het gaat om het programmatisch beheren en manipuleren van Excel-bestanden, kan het hebben van de juiste tools het verschil maken. Aspose.Cells voor .NET springt eruit als een dergelijke tool, waarmee ontwikkelaars moeiteloos Excel-bestanden kunnen maken, bewerken en converteren. Of u nu een complexe data-analysetoepassing bouwt of gewoon de generatie van rapporten wilt automatiseren, Aspose.Cells heeft alles wat u nodig hebt. 
 
 ## Vereisten 
 

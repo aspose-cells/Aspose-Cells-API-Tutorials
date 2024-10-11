@@ -45,7 +45,7 @@ using System;
 
 ¡Con estas importaciones en su lugar, podemos comenzar a manipular nuestro archivo Excel como un profesional!
 
-¡Y ahora es cuando empieza la diversión! Desglosaremos el fragmento de código que nos proporcionaste en una guía paso a paso. Cada paso explicará lo que estamos haciendo de forma clara y concisa.
+¡Ahora es cuando comienza la diversión! Desglosaremos el fragmento de código que nos proporcionaste en una guía paso a paso. Cada paso explicará lo que estamos haciendo de forma clara y concisa.
 
 ## Paso 1: Definir el directorio de origen
 
@@ -60,10 +60,10 @@ Esta línea apunta al directorio que contiene el archivo de Excel. Asegúrate de
 
 ## Paso 2: Cargue el libro de trabajo
 
-continuación, cargaremos nuestro libro de trabajo. Esto es como abrir un archivo de Excel en segundo plano, lo que nos permite leer y manipular su contenido.
+A continuación, cargaremos nuestro libro de trabajo. Esto es como abrir un archivo de Excel en segundo plano, lo que nos permite leer y manipular su contenido.
 
 ```csharp
-// Cargar el libro de trabajo
+//Cargar el libro de trabajo
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

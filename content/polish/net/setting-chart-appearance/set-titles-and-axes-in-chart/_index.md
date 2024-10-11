@@ -47,7 +47,7 @@ W tym kroku utworzymy nowy skoroszyt.
 ```csharp
 //Katalog wyjściowy
 static string outputDir = "Your Document Directory";
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
@@ -156,7 +156,7 @@ Aby nasz tytuł się wyróżniał, dostosujmy kolor czcionki.
 chart.Title.Font.Color = Color.Blue;
 ```
 
-Wybór wyraźnego koloru podkreśla tytuł, od razu zwracając na niego uwagę. Możesz to sobie wyobrazić jak ozdabianie tytułu na potrzeby prezentacji.
+Wybór wyraźnego koloru podkreśla tytuł, od razu zwracając na niego uwagę. Możesz to sobie wyobrazić jako ozdabianie tytułu na potrzeby prezentacji.
 
 ## Krok 10: Ustaw tytuły kategorii i osi wartości
 

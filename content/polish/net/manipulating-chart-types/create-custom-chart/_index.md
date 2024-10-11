@@ -42,17 +42,17 @@ Po pierwsze, musisz utworzyć katalog, w którym zostanie zapisany plik Excel. T
 
 ```csharp
 // Katalog wyjściowy
-string outputDir = "Your Output Directory"; // Zmień to na swoją ścieżkę
+string outputDir = "Your Output Directory"; //Zmień to na swoją ścieżkę
 ```
 
 Zamiast „Twojego katalogu wyjściowego” możesz określić rzeczywistą ścieżkę, w której chcesz zapisać plik Excela. Upewnij się, że ten katalog istnieje w Twoim systemie; w przeciwnym razie później wystąpią błędy.
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
- Teraz należy rozpocząć od utworzenia nowego wystąpienia`Workbook`Klasa. Jest to podstawowy element składowy wszelkich operacji Excela przy użyciu Aspose.Cells.
+ Teraz należy rozpocząć od utworzenia nowego wystąpienia`Workbook` Klasa. Jest to podstawowy element składowy wszelkich operacji Excela przy użyciu Aspose.Cells.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
@@ -145,14 +145,14 @@ workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 
 ## Wniosek
 
-I masz! Właśnie stworzyłeś niestandardowy wykres przy użyciu Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz teraz skutecznie wizualizować swoje dane, dzięki czemu raporty i prezentacje będą o wiele bardziej angażujące. 
+masz! Właśnie stworzyłeś niestandardowy wykres przy użyciu Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz teraz skutecznie wizualizować swoje dane, dzięki czemu raporty i prezentacje będą o wiele bardziej angażujące. 
 
 Pamiętaj, że siła wykresów tkwi w ich zdolności do opowiadania historii, czynienia złożonych danych zrozumiałymi na pierwszy rzut oka. Więc śmiało, eksperymentuj z różnymi zestawami danych i typami wykresów i pozwól swoim danym mówić!
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to zaawansowana biblioteka do pracy z plikami Excel w aplikacjach .NET, umożliwiająca manipulowanie, tworzenie i konwersję dokumentów Excel.
+Aspose.Cells to zaawansowana biblioteka do pracy z plikami Excela w aplikacjach .NET, umożliwiająca manipulowanie, tworzenie i konwersję dokumentów Excela.
 
 ### Jak zainstalować Aspose.Cells dla .NET?
  Można zainstalować go za pomocą NuGet w programie Visual Studio lub pobrać bibliotekę bezpośrednio ze strony[Tutaj](https://releases.aspose.com/cells/net/).

@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- In dit codefragment,`"Your Document Directory"` En`"Your Document Directory"`worden verondersteld de respectievelijke paden op te halen voor waar uw invoer- en uitvoerbestanden zich bevinden. U kunt deze methoden vervangen door hardgecodeerde paden als u dat wenst.
+ In dit codefragment,`"Your Document Directory"` En`"Your Document Directory"` worden verondersteld de respectievelijke paden op te halen voor waar uw invoer- en uitvoerbestanden zich bevinden. U kunt deze methoden vervangen door hardgecodeerde paden als u dat wenst.
 
 ## Stap 2: Laad het XLSB-bestand
 
@@ -68,7 +68,7 @@ Met de werkmap geladen, kunt u de externe verbindingen ervan benaderen. In ons g
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Hier,`DataConnections[0]` verwijst naar de eerste verbinding in de werkmap. We casten het als een`DBConnection` typ voor verdere manipulatie.
+ Hier,`DataConnections[0]`verwijst naar de eerste verbinding in de werkmap. We casten het als een`DBConnection` typ voor verdere manipulatie.
 
 ## Stap 4: Verbindingsinformatie extraheren
 
@@ -125,7 +125,7 @@ En daar heb je het! Je hebt succesvol geleerd hoe je externe verbindingen in XLS
 Een XLSB-bestand is een binair Excel-bestandsformaat dat spreadsheetgegevens in een binair formaat opslaat, waardoor ze compacter zijn en sneller te openen.
 
 ### Hoe installeer ik Aspose.Cells voor .NET?  
- kunt het eenvoudig downloaden van de Aspose-website[hier](https://releases.aspose.com/cells/net/).
+ U kunt het eenvoudig downloaden van de Aspose-website[hier](https://releases.aspose.com/cells/net/).
 
 ### Kan ik Aspose.Cells gratis gebruiken?  
  Ja! U kunt beginnen met een gratis proefperiode, die beschikbaar is[hier](https://releases.aspose.com/).

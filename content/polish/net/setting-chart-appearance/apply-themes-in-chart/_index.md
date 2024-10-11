@@ -50,7 +50,7 @@ string sourceDir = "Your Document Directory";
 
  Tutaj zamień`Your Output Directory` I`Your Document Directory` ze swoimi konkretnymi ścieżkami. Jasne zdefiniowanie tych katalogów usprawni Twój przepływ pracy i uniknie wszelkich niejasności w przyszłości.
 
-## Krok 2: Utwórz skoroszyt
+## Krok 2: Utwórz instancję skoroszytu
 
  Następnie czas otworzyć plik Excel zawierający wykres, który chcesz zmodyfikować. Robimy to, tworząc wystąpienie`Workbook` klasy i wczytania pliku źródłowego.
 
@@ -77,7 +77,7 @@ W tym przypadku po prostu pobieramy pierwszy arkusz, co jest wystarczające dla 
 Mając już arkusz kalkulacyjny, możemy uzyskać dostęp do wykresu, który chcemy stylizować.
 
 ```csharp
-// Pobierz pierwszy wykres w arkuszu
+//Pobierz pierwszy wykres w arkuszu
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,13 +102,13 @@ Ta linijka kodu sprawia, że pierwsza seria na wykresie ma ustawione wypełnieni
 // Pobierz kolor komórek SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Utwórz motyw w stylu Accent
+//Utwórz motyw w stylu Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
 Oto co się dzieje:
 1. Uzyskujemy kolor wypełnienia jednolitego.
-2.  Używanie`ThemeColor` , ustawiliśmy kolor dla naszego wypełnienia. Możesz zmienić`Accent6` do dowolnego innego koloru motywu, w zależności od Twoich upodobań.
+2.  Używanie`ThemeColor` , ustawiliśmy kolor dla naszego wypełnienia. Możesz zmienić`Accent6` do dowolnego innego koloru tematycznego, w zależności od Twoich upodobań.
 
 ## Krok 7: Zastosuj motyw do serii
 

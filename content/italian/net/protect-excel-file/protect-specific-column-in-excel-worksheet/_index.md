@@ -48,7 +48,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Se non esiste già, il frammento di codice crea una directory nel percorso specificato, garantendoti un percorso sicuro per il file di output.
+Se non esiste già, il frammento di codice crea una directory nel percorso specificato, garantendo un percorso sicuro per il file di output.
 
 ## Passaggio 2: creare una nuova cartella di lavoro
 

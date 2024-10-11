@@ -173,7 +173,7 @@ workbook.Save(outputDir + "outputSettingChartLines.xlsx");
 Console.WriteLine("SettingChartLines executed successfully.");
 ```
 
-说明：一条简单消息，告知您的代码执行没有任何问题。
+说明：一条简单消息，告知您代码执行没有任何问题。
 
 ## 结论
 

@@ -38,7 +38,7 @@ Avant de commencer tout codage, il est essentiel de configurer correctement votr
 1.  Créer un nouveau projet : ouvrez Visual Studio, créez un nouveau projet d’application console et nommez-le de manière descriptive, comme`HideExcelTabs`.
 2. Ajoutez la référence Aspose.Cells : accédez au gestionnaire de packages NuGet et recherchez « Aspose.Cells pour .NET ». Installez-le dans votre projet.
  Alternativement, si vous travaillez hors ligne, vous pouvez[télécharger Aspose.Cells pour .NET](https://releases.aspose.com/cells/net/) et ajoutez manuellement le fichier DLL à vos références de projet.
-3.  Préparez le fichier Excel : Placez le fichier Excel que vous souhaitez modifier (par exemple,`book1.xls`) dans votre répertoire de projet. Assurez-vous de connaître le chemin du fichier.
+3. Préparez le fichier Excel : Placez le fichier Excel que vous souhaitez modifier (par exemple,`book1.xls`) dans votre répertoire de projet. Assurez-vous de connaître le chemin du fichier.
 
 ## Étape 2 : Ouvrir le fichier Excel
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Dans cette étape, nous créons une instance de`Workbook` classe, qui représente le fichier Excel. Le chemin d'accès à votre fichier Excel est fourni en tant que paramètre. Assurez-vous de remplacer`"YOUR DOCUMENT DIRECTORY"`avec le chemin d'accès réel où se trouve votre fichier Excel.
+ Dans cette étape, nous créons une instance de`Workbook` classe, qui représente le fichier Excel. Le chemin d'accès à votre fichier Excel est fourni en tant que paramètre. Assurez-vous de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin d'accès réel où se trouve votre fichier Excel.
 
 En chargeant le classeur, vous établissez une connexion avec le fichier, ce qui permet d'effectuer des modifications ultérieures. Sans cela, aucune modification ne peut être effectuée.
 
@@ -97,7 +97,7 @@ La sauvegarde est cruciale. Sans cette étape, toutes les modifications apporté
 
 Et voilà ! Vous avez réussi à masquer les onglets de la feuille dans un fichier Excel à l'aide d'Aspose.Cells pour .NET. Cette simple modification peut donner à vos documents Excel un aspect plus soigné et plus ciblé, en particulier lorsque vous partagez des fichiers avec des clients ou des membres de l'équipe qui n'ont pas besoin de voir tous les onglets de travail.
 
-Avec Aspose.Cells pour .NET, vous pouvez manipuler les fichiers Excel de manière puissante, du masquage des onglets à la création de rapports dynamiques, de graphiques et bien plus encore. Si vous débutez avec cet outil, n'hésitez pas à explorer le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) pour des fonctionnalités et des capacités plus approfondies.
+ Avec Aspose.Cells pour .NET, vous pouvez manipuler les fichiers Excel de manière puissante, du masquage des onglets à la création de rapports dynamiques, de graphiques et bien plus encore. Si vous débutez avec cet outil, n'hésitez pas à explorer le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) pour des fonctionnalités et des capacités plus approfondies.
 
 ## FAQ
 
@@ -105,7 +105,7 @@ Avec Aspose.Cells pour .NET, vous pouvez manipuler les fichiers Excel de manièr
  Non, cacher les onglets via le`ShowTabs` La propriété masque ou affiche tous les onglets de la feuille à la fois. Si vous souhaitez masquer des feuilles individuelles, vous pouvez définir la visibilité de chaque feuille séparément.
 
 ### Comment puis-je prévisualiser les onglets masqués dans Excel ?  
- Vous pouvez basculer le`ShowTabs` propriété retour à`true` en utilisant la même structure de code si vous devez prévisualiser ou restaurer les onglets.
+ Vous pouvez basculer le`ShowTabs`propriété retour à`true` en utilisant la même structure de code si vous devez prévisualiser ou restaurer les onglets.
 
 ### Le masquage des onglets affectera-t-il les données ou les fonctionnalités du classeur ?  
 Non, le masquage des onglets ne modifie que l'apparence visuelle. Les données et les fonctions du classeur restent inchangées.

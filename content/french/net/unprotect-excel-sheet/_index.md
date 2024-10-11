@@ -9,7 +9,7 @@ url: /fr/net/unprotect-excel-sheet/
 ---
 ## Introduction
 
-Si vous travaillez avec des fichiers Excel dans .NET, vous avez peut-être rencontré des situations dans lesquelles vous devez accéder à des feuilles verrouillées. La bonne nouvelle est qu'Aspose.Cells pour .NET offre un moyen fiable de gérer ces défis. Imaginez-vous assis à votre bureau, en train de regarder un classeur Excel, pour vous rendre compte que vous ne pouvez pas accéder aux données car elles sont verrouillées. Frustrant, n'est-ce pas ? Voyons comment cette puissante bibliothèque peut vous permettre de mettre un terme à ces jours-là.
+Si vous travaillez avec des fichiers Excel dans .NET, vous avez peut-être rencontré des situations dans lesquelles vous devez accéder à des feuilles verrouillées. La bonne nouvelle est qu'Aspose.Cells pour .NET offre un moyen robuste de gérer ces défis. Imaginez-vous assis à votre bureau, en train de regarder un classeur Excel, pour vous rendre compte que vous ne pouvez pas accéder aux données car elles sont verrouillées. Frustrant, n'est-ce pas ? Voyons comment cette puissante bibliothèque peut vous permettre de mettre un terme à ces jours-là.
 
 ## Déverrouillage des feuilles de calcul Excel protégées par mot de passe 
 

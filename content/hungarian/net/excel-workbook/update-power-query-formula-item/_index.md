@@ -122,4 +122,4 @@ Az Aspose.Cells használatával dolgozhat .xlsx, .xls, .xlsm és számos más Ex
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[Az Aspose Cells kiadási oldala](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9), ahol kérdéseket tehet fel, és választ kaphat a közösségtől és az Aspose csapatától.
+ A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9)ahol kérdéseket tehet fel, és választ kaphat a közösségtől és az Aspose csapatától.

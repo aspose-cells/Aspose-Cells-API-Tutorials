@@ -107,7 +107,7 @@ Nyní, když naše záhlaví vypadají elegantně, zaměřme svou pozornost na z
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Vysvětlení: Do levého zápatí vkládáme vlastní zprávu „Ahoj světe!“ spolu s textem`123` v jiném stylu písma — Courier New.
+Vysvětlení: Do levého zápatí vkládáme vlastní zprávu „Ahoj světe!“ spolu s textem`123` v jiném stylu písma — Courier New.
 
 ## Krok 7: Konfigurace středového zápatí
 
@@ -137,7 +137,7 @@ Když je vše nyní nastaveno, stačí si sešit uložit, abyste viděli plody s
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 ```
 
- Vysvětlení: Vyměnit`"SetHeadersAndFooters_out.xls"` s požadovaným názvem souboru. Uložte si sešit a máte hotovo!
+ Vysvětlení: Vyměnit`"SetHeadersAndFooters_out.xls"` s požadovaným názvem souboru. Uložte sešit a máte hotovo!
 
 ## Závěr
 

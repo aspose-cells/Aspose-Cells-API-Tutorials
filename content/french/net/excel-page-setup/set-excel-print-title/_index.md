@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Étape 2 : instancier un objet classeur
 
- Ensuite, nous créons une instance de`Workbook` classe, qui représente un fichier Excel.
+ Ensuite, nous créons une instance de`Workbook`classe, qui représente un fichier Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Cette ligne initialise un nouveau classeur, le rendant prêt à être manipulé.
 
 ## Étape 3 : Obtenir la référence PageSetup
 
- Maintenant, accédons à la feuille de calcul`PageSetup`propriété. C'est ici que la plupart de nos paramètres d'impression seront configurés.
+ Maintenant, accédons à la feuille de calcul`PageSetup` propriété. C'est ici que la plupart de nos paramètres d'impression seront configurés.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

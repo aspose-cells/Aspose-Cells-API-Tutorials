@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // 원하는 경로로 업데이트�
  다음으로, 새 인스턴스를 생성해야 합니다.`Workbook` 클래스. 이 객체는 Excel 파일을 나타내며, 이를 통해 해당 파일의 내용을 조작할 수 있습니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 
 ## 6단계: 차트 인스턴스에 액세스
 
- 차트를 만든 후에는 해당 속성을 수정하기 위해 해당 인스턴스에 액세스해야 합니다. 이는 다음을 통해 검색하여 수행됩니다.`Charts` 수집.
+ 차트를 만든 후에는 해당 속성을 수정하기 위해 해당 인스턴스에 액세스해야 합니다. 이는 다음을 통해 검색하여 수행됩니다.`Charts`수집.
 
 ```csharp
 // 새로 추가된 차트의 인스턴스에 접근하기

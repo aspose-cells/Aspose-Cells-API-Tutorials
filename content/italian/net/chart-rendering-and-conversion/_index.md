@@ -21,7 +21,7 @@ Devi convertire il tuo grafico in un PDF per condividerlo o stamparlo? Il tutori
 
 ## [Crea un grafico PDF con le dimensioni di pagina desiderate](./create-chart-pdf-with-desired-page-size/)
 
-volte, hai bisogno di controllare le dimensioni del tuo grafico quando lo salvi in PDF. Questa guida spiega come creare un PDF grafico con le dimensioni di pagina esatte che desideri. Seguendo il tutorial Crea PDF grafico con le dimensioni di pagina desiderate, imparerai come personalizzare l'output del tuo PDF in modo che si adatti alle tue esigenze specifiche, perfetto per report e presentazioni in cui la precisione è fondamentale.
+volte, devi controllare le dimensioni del tuo grafico quando lo salvi in PDF. Questa guida spiega come creare un grafico PDF con le dimensioni di pagina esatte che desideri. Seguendo il tutorial Crea grafico PDF con le dimensioni di pagina desiderate, imparerai come personalizzare l'output del tuo PDF in modo che si adatti alle tue esigenze specifiche, perfetto per report e presentazioni in cui la precisione è fondamentale.
 
 ## Tutorial di conversione e rendering dei grafici
 ### [Grafico di rendering](./render-chart/)

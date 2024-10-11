@@ -9,7 +9,7 @@ url: /cs/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
 ---
 ## Zavedení
 
-Soubory Excel jsou v dnešním světě založeném na datech všudypřítomné a slouží jako jeden z primárních prostředků pro prezentaci, manipulaci a analýzu dat. Při práci s tabulkami se může stát, že budete potřebovat extrahovat informace z grafů, jako jsou názvy nebo titulky. Pokud konkrétně pracujete se soubory ODS, možná vás zajímá, jak se do těchto prvků grafu snadno dostat. Nebojte se, protože zkoumáme použití Aspose.Cells pro .NET k získání titulků grafu ze souboru ODS jednoduchým a efektivním způsobem.
+Soubory Excel jsou v dnešním světě založeném na datech všudypřítomné a slouží jako jeden z primárních prostředků pro prezentaci, manipulaci a analýzu dat. Při práci s tabulkami se může stát, že budete potřebovat extrahovat informace z grafů, jako jsou názvy nebo titulky. Pokud konkrétně pracujete se soubory ODS, možná vás zajímá, jak snadno proniknout do těchto prvků grafu. Nebojte se, protože zkoumáme použití Aspose.Cells pro .NET k získání titulků grafu ze souboru ODS jednoduchým a efektivním způsobem.
 
 ## Předpoklady
 
@@ -131,7 +131,7 @@ Ano, Aspose.Cells podporuje různé formáty včetně XLSX, XLS, CSV a dalších
 Ano, můžete vyzkoušet Aspose.Cells s bezplatnou zkušební verzí dostupnou na jejich webových stránkách.
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Cells?
-Na nákupní platformě Aspose si můžete vyžádat dočasnou licenci pro účely hodnocení.
+Z nákupní platformy Aspose si můžete vyžádat dočasnou licenci pro účely hodnocení.
 
 ### Kde najdu podporu pro Aspose.Cells?
 Podpora je k dispozici prostřednictvím fóra Aspose, kde můžete klást otázky a najít stávající řešení.

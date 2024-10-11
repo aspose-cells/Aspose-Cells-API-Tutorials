@@ -52,7 +52,7 @@ Pojďme si proces odblokování rozebrat do podrobných kroků.
 
 ## Krok 1: Definování cesty k adresáři
 
-První věc, kterou musíte udělat, je zadat cestu k adresáři, kde se nachází váš soubor Excel. To je nezbytné, protože to vašemu programu sdělí, kde má najít soubor, který chcete zrušit.
+První věc, kterou musíte udělat, je zadat cestu k adresáři, kde se nachází váš soubor Excel. To je nezbytné, protože to říká vašemu programu, kde má najít soubor, který chcete zrušit.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Změňte to na svou skutečnou cestu

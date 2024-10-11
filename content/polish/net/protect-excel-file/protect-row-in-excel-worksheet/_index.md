@@ -94,7 +94,7 @@ flag = new StyleFlag();
 flag.Locked = true; // Ustaw flagę blokady
 sheet.Cells.ApplyRowStyle(0, style, flag); // Zastosuj styl do pierwszego wiersza
 ```
-Tutaj pobieramy styl dla pierwszego wiersza, oznaczamy go jako zablokowany i stosujemy styl blokowania. Jest to analogiczne do zakładania zamka na ważną szufladę — niezbędne do zabezpieczenia poufnych informacji!
+Tutaj pobieramy styl dla pierwszego wiersza, oznaczamy go jako zablokowany i stosujemy styl blokowania. Jest to analogiczne do zakładania blokady na ważną szufladę — niezbędne do zabezpieczenia poufnych informacji!
 
 ## Krok 6: Ochrona arkusza
 

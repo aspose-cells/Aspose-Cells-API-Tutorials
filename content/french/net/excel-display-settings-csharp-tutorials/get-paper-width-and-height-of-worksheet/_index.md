@@ -16,7 +16,7 @@ Avez-vous déjà essayé d'imprimer une feuille Excel et de gérer les dimension
 Avant d’aborder la magie du codage, rassemblons ce dont vous avez besoin pour commencer :
 
 1. Compréhension de base de C# : vous devez avoir une compréhension de base de C#. Si vous débutez en programmation, ne vous inquiétez pas ! Nous allons vous expliquer les choses simplement.
-2.  Bibliothèque Aspose.Cells : Assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée sur votre ordinateur. Vous pouvez la télécharger à partir de[ce lien](https://releases.aspose.com/cells/net/).
+2.  Bibliothèque Aspose.Cells : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée sur votre ordinateur. Vous pouvez la télécharger à partir de[ce lien](https://releases.aspose.com/cells/net/).
 3. Environnement de développement .NET : configurez Visual Studio ou tout autre IDE de votre choix pour écrire et exécuter votre code C#. Si vous ne savez pas par où commencer, Visual Studio Community Edition est un choix judicieux.
 4.  Références et documentation : Familiarisez-vous avec la documentation Aspose.Cells pour des informations plus approfondies. Vous pouvez la trouver[ici](https://reference.aspose.com/cells/net/).
 5. Connaissances de base des fichiers Excel : comprendre comment les fichiers Excel sont structurés (feuilles de calcul, lignes et colonnes) vous sera d'une grande aide.
@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Chacun de ces blocs imite l’étape précédente mais ajuste le`PaperSize` propriété en conséquence. En changeant simplement l'indicateur de taille, vous obtenez différentes dimensions de papier sans effort. C'est comme changer la taille d'une boîte en fonction de ce que vous devez stocker !
+ Chacun de ces blocs imite l’étape précédente mais ajuste le`PaperSize`propriété en conséquence. En changeant simplement l'indicateur de taille, vous obtenez différentes dimensions de papier sans effort. C'est comme changer la taille d'une boîte en fonction de ce que vous devez stocker !
 
 ## Conclusion
 

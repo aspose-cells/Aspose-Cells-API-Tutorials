@@ -9,7 +9,7 @@ url: /fr/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-wo
 ---
 ## Introduction
 
-Avec l'évolution constante du monde numérique, l'utilisation de feuilles de calcul est devenue un élément crucial de nombreux processus commerciaux. De la gestion des finances à l'organisation des données, la possibilité d'ajouter et de manipuler des feuilles de calcul Excel par programmation peut vous faire gagner beaucoup de temps et rationaliser votre flux de travail. Dans ce guide, nous allons découvrir comment ajouter une feuille de calcul Excel à un classeur existant à l'aide d'Aspose.Cells pour .NET, la puissante bibliothèque conçue pour automatiser les tâches des feuilles de calcul sans effort. Retroussons nos manches et commençons !
+Le monde numérique étant en constante évolution, l'utilisation de feuilles de calcul est devenue un élément crucial de nombreux processus commerciaux. De la gestion des finances à l'organisation des données, la possibilité d'ajouter et de manipuler des feuilles de calcul Excel par programmation peut vous faire gagner beaucoup de temps et rationaliser votre flux de travail. Dans ce guide, nous allons découvrir comment ajouter une feuille de calcul Excel à un classeur existant à l'aide d'Aspose.Cells pour .NET, la puissante bibliothèque conçue pour automatiser les tâches des feuilles de calcul sans effort. Retroussons nos manches et commençons !
 
 ## Prérequis
 
@@ -35,7 +35,7 @@ using Aspose.Cells;
 
 ## Étape 1 : Configurer le chemin d’accès au répertoire de documents
 
-Commençons par définir où seront stockés nos fichiers Excel. Cette étape est cruciale pour référencer les fichiers avec lesquels nous souhaitons travailler plus tard dans le processus.
+Commençons par définir où nos fichiers Excel seront stockés. Cette étape est cruciale pour référencer les fichiers avec lesquels nous voulons travailler plus tard dans le processus.
 
 ```csharp
 // Le chemin vers le répertoire des documents.
@@ -53,14 +53,14 @@ Maintenant que le répertoire est configuré, il est temps de créer un flux de 
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Dans cette étape, nous ouvrons`book1.xls`qui devrait déjà exister dans votre répertoire spécifié. Assurez-vous d'avoir ce fichier à portée de main, sinon le processus générera une erreur.
+ Dans cette étape, nous ouvrons`book1.xls`, qui devrait déjà exister dans votre répertoire spécifié. Assurez-vous d'avoir ce fichier à portée de main, sinon le processus générera une erreur.
 
 ## Étape 3 : instancier un objet classeur
 
 Ensuite, nous devons créer une instance de la classe Workbook, qui contiendra notre fichier Excel.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ En créant une instance de classeur à partir de notre flux de fichiers, nous po
 
 ## Étape 4 : Ajouter une nouvelle feuille de calcul
 
- Voici la partie passionnante ! Ajoutons une nouvelle feuille de calcul à notre classeur. Cela se fait en utilisant le`Add()` méthode de la`Worksheets` collection.
+Voici la partie passionnante ! Ajoutons une nouvelle feuille de calcul à notre classeur. Cela se fait en utilisant le`Add()` méthode de la`Worksheets`collection.
 
 ```csharp
 // Ajout d'une nouvelle feuille de calcul à l'objet Workbook
@@ -87,7 +87,7 @@ Une fois la nouvelle feuille de calcul créée, il est important d'obtenir une r
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Ici, nous utilisons l'index`i` pour référencer notre feuille de calcul nouvellement créée. Cela nous permet de la manipuler davantage.
+ Ici, nous utilisons l'index`i` pour référencer notre feuille de calcul nouvellement créée. Cela nous permet de la manipuler davantage.
 
 ## Étape 6 : définir le nom de la nouvelle feuille de calcul
 

@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Als Nächstes erstellen wir eine neue Instanz einer Arbeitsmappe. Stellen Sie sich eine Arbeitsmappe als leere Leinwand vor, auf die Sie Ihre Daten malen können.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -74,7 +74,7 @@ Diese Zeile initialisiert eine neue Arbeitsmappe, die zur Dateneingabe und Visua
 Jede Arbeitsmappe enthält mindestens ein Arbeitsblatt. Hier verweisen wir auf das erste Arbeitsblatt, mit dem wir arbeiten.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Burada,`workbook.Worksheets[0]` çalışma kitabınızdaki ilk çalışma sayfasına atıfta bulunur.`PageSetup`özelliği size sayfanızın sayfalandırma ayarları üzerinde kontrol imkanı verecektir.
+ Burada,`workbook.Worksheets[0]` çalışma kitabınızdaki ilk çalışma sayfasına atıfta bulunur.`PageSetup` özelliği size sayfanızın sayfalandırma ayarları üzerinde kontrol imkanı verecektir.
 
 ## Adım 4: Yazdırma Sırasını Ayarlayın
 
 
- İle`PageSetup` nesne, Excel'e sayfaların nasıl yazdırılmasını istediğinizi söylemenin zamanı geldi. Sırayı "Üzerinden Sonra Aşağı" veya "Aşağısından Sonra Üzerine" olarak ayarlama seçeneğiniz var.
+ İle`PageSetup`nesne, Excel'e sayfaların nasıl yazdırılmasını istediğinizi söylemenin zamanı geldi. Sırayı "Üzerinden Sonra Aşağı" veya "Aşağısından Sonra Üzerine" olarak ayarlama seçeneğiniz var.
 
 Yazdırma sırasını ayarlamak için kod şu şekilde:
 

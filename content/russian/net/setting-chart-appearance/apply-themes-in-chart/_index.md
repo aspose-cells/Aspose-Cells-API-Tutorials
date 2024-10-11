@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Имея рабочий лист на руках, мы теперь можем получить доступ к диаграмме, которую мы собираемся стилизовать.
 
 ```csharp
-// Получить первую диаграмму на листе
+//Получить первую диаграмму на листе
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 // Получить цвет ячеек SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Создать тему в стиле Accent
+//Создать тему в стиле Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

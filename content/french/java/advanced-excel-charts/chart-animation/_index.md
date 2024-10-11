@@ -49,7 +49,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Étape 3 : Accéder au graphique
 
-Pour créer une animation de graphique, vous devez accéder au graphique que vous souhaitez animer. Pour ce faire, vous pouvez spécifier la feuille de calcul et l'index du graphique :
+Pour créer une animation graphique, vous devez accéder au graphique que vous souhaitez animer. Pour ce faire, vous devez spécifier la feuille de calcul et l'index du graphique :
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);

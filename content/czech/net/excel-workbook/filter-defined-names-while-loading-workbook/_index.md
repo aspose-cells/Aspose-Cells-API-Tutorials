@@ -37,7 +37,7 @@ Pojďme si proces filtrování definovaných názvů při načítání sešitu r
 
 ## Krok 1: Zadejte možnosti načtení
 
-První věc, kterou uděláme, je vytvoření instance souboru`LoadOptions` třída. Tato třída nám pomůže určit, jak chceme načíst náš soubor Excel.
+ První věc, kterou uděláme, je vytvoření instance souboru`LoadOptions` třída. Tato třída nám pomůže určit, jak chceme načíst náš soubor Excel.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Nyní, když jsou specifikovány naše možnosti načítání, je čas načíst 
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- V tomto řádku vytváříte novou instanci souboru`Workbook`třídy, předání cesty k vašemu ukázkovému souboru Excel a možností načtení. Tím se načte sešit s definovanými názvy odfiltrovanými podle zadání.
+ V tomto řádku vytváříte novou instanci souboru`Workbook` třídy, předání cesty k vašemu ukázkovému souboru Excel a možností načtení. Tím se načte sešit s definovanými názvy odfiltrovanými podle zadání.
 
 ## Krok 4: Uložte výstupní soubor
 
@@ -87,7 +87,7 @@ Pomocí tohoto řádku poskytujete jasnou indikaci, že operace byla dokončena 
 
 ## Závěr
 
-tady to máte! Filtrování definovaných názvů při načítání sešitu pomocí Aspose.Cells for .NET lze dosáhnout několika jednoduchými kroky. Tento proces je mimořádně užitečný ve scénářích, kdy potřebujete zefektivnit zpracování dat nebo zabránit tomu, aby nepotřebná data ovlivňovala vaše výpočty.
+A tady to máte! Filtrování definovaných názvů při načítání sešitu pomocí Aspose.Cells for .NET lze dosáhnout několika jednoduchými kroky. Tento proces je mimořádně užitečný ve scénářích, kdy potřebujete zefektivnit zpracování dat nebo zabránit tomu, aby nepotřebná data ovlivňovala vaše výpočty.
 
 Podle tohoto průvodce můžete s jistotou načítat soubory aplikace Excel a zároveň ovládat, která data chcete vyloučit. Ať už vyvíjíte aplikace, které spravují velké datové sady nebo implementujete specifickou obchodní logiku, zvládnutí této funkce pouze zlepší vaše dovednosti v manipulaci s Excelem.
 
@@ -106,4 +106,4 @@ Filtrování definovaných názvů může vést k nefunkčním vzorcům, pokud n
  Ano, můžete získat bezplatnou zkušební verzi Aspose.Cells a otestovat její schopnosti před zakoupením. Podívejte se na to[zde](https://releases.aspose.com/).
 
 ### Kde najdu další příklady a dokumentaci?
- Komplexní dokumentaci a další příklady naleznete na referenční stránce Aspose.Cells[zde](https://reference.aspose.com/cells/net/).
+Komplexní dokumentaci a další příklady naleznete na referenční stránce Aspose.Cells[zde](https://reference.aspose.com/cells/net/).

@@ -2,7 +2,7 @@
 title: Osztott ablaktáblák munkalap
 linktitle: Osztott ablaktáblák munkalap
 second_title: Aspose.Cells for .NET API Reference
-description: A lépésenkénti útmutatónkból megtudhatja, hogyan oszthat fel munkalappaneleket az Aspose.Cells for .NET-ben. Ezzel az egyszerű oktatóanyaggal javíthatja az Excel-fájlok navigációját.
+description: lépésenkénti útmutatónkból megtudhatja, hogyan oszthat fel munkalappaneleket az Aspose.Cells for .NET-ben. Ezzel az egyszerű oktatóanyaggal javíthatja az Excel-fájlok navigációját.
 type: docs
 weight: 130
 url: /hu/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
@@ -38,14 +38,14 @@ Most, hogy a lényeges dolgokkal foglalkoztunk, térjünk át az izgalmas részr
 Mielőtt felosztanánk az ablaktáblákat, szükségünk van egy munkafüzetre, amellyel dolgozhatunk! Ez a lépés ugyanolyan fontos, mint kinyitni egy könyvet, mielőtt elkezdi olvasni.
 
 ```csharp
-// dokumentumok könyvtárának elérési útja
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Hozzon létre egy új munkafüzetet, és nyisson meg egy sablonfájlt
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- A fenti kódban cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájl tényleges elérési útjával. A`Workbook` osztály betölti az Excel fájlt a memóriába.
+ A fenti kódban cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájl tényleges elérési útjával. A`Workbook`osztály betölti az Excel fájlt a memóriába.
 
 ## 2. lépés: Állítsa be az aktív cellát
 
@@ -84,7 +84,7 @@ Mit ér a kemény munkád, ha nem mented meg? A mentés biztosítja, hogy a gyö
 book.Save(dataDir + "output.xls");
 ```
 
- Itt, a`Save()`metódus menti a munkafüzetet az újonnan felosztott ablaktáblákkal egy kimeneti Excel-fájlba. Az Ön által végrehajtott változtatások készen állnak az Ön – vagy bárki más – használatra.
+ Itt, a`Save()` metódus menti a munkafüzetet az újonnan felosztott ablaktáblákkal egy kimeneti Excel-fájlba. Az Ön által végrehajtott változtatások készen állnak az Ön – vagy bárki más – használatra.
 
 ## Következtetés
 
@@ -101,7 +101,7 @@ Az ablaktáblák felosztása lehetővé teszi, hogy mindkét panelen egymástól
 ### Eltávolíthatom a hasadást az alkalmazás után?  
 Igen, eltávolíthatja a felosztást a munkafüzet bezárásával és újranyitásával, vagy programozott alaphelyzetbe állításával.
 
-### A felosztási ablaktáblák ugyanúgy működnek a különböző Excel fájlformátumoknál (XLS, XLSX)?  
+### felosztási ablaktáblák ugyanúgy működnek a különböző Excel fájlformátumoknál (XLS, XLSX)?  
  Igen, a`Split()` A módszer XLS és XLSX formátumok esetén is működik.
 
 ### Használhatom az Aspose.Cells-t licenc nélkül?  

@@ -78,10 +78,10 @@ Bu kod satırı Excel dosyanızı düzenlemeye hazırlayacaktır.
 
 ## Adım 3: Çalışma Kitabı Nesnesini Örneklendirin
 
- The`Workbook`nesnesi Aspose.Cells işlevselliğinizin kalbidir. Excel dosyanızı yönetilebilir bir şekilde temsil eder.
+ The`Workbook` nesnesi Aspose.Cells işlevselliğinizin kalbidir. Excel dosyanızı yönetilebilir bir şekilde temsil eder.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Çalışma kitabı artık bellekte olduğuna göre, değiştirmek istediğiniz belirli çalışma sayfasına erişme zamanı geldi. Çoğu durumda, bu ilk çalışma sayfası (indeks 0) olacaktır.
 
 ```csharp
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

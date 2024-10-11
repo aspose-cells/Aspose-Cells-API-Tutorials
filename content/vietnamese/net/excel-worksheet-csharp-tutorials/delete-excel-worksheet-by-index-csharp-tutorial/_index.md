@@ -55,7 +55,7 @@ Với các điều kiện tiên quyết đã thiết lập và các gói đã đ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với con đường thực tế nơi bạn`book1.xls` tập tin nằm tại đó. Hãy nghĩ về điều này như việc cung cấp cho GPS của bạn địa chỉ chính xác trước khi bắt đầu chuyến đi đường dài!
+ Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với con đường thực tế nơi bạn`book1.xls`tập tin nằm tại đó. Hãy nghĩ về điều này như việc cung cấp cho GPS của bạn địa chỉ chính xác trước khi bắt đầu chuyến đi đường dài!
 
 ## Bước 4: Mở tệp Excel bằng FileStream
 

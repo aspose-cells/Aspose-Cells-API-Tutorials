@@ -18,7 +18,7 @@ Voordat we beginnen met coderen, zijn er een paar vereisten waaraan u moet voldo
 ### Vereiste software
 
 1. Visual Studio: Zorg ervoor dat u Visual Studio op uw machine hebt geïnstalleerd. Het biedt een vriendelijke omgeving voor het ontwikkelen van .NET-applicaties.
-2. .NET Framework of .NET Core: Afhankelijk van uw voorkeur moet u .NET Framework of .NET Core hebben ingesteld om onze code te kunnen volgen.
+2. .NET Framework of .NET Core: Afhankelijk van uw voorkeur moet u .NET Framework of .NET Core hebben ingesteld om onze code te kunnen gebruiken.
 3.  Aspose.Cells voor .NET: Dit mag u niet missen! Download Aspose.Cells voor .NET om te beginnen. U vindt de DLL's[hier](https://releases.aspose.com/cells/net/).
 4. Basiskennis van C#: Hoewel we u stap voor stap door de code leiden, is enige basiskennis van C# zeker nuttig.
 
@@ -77,7 +77,7 @@ In dit geval pakken we gewoon het eerste werkblad, wat voor dit voorbeeld voldoe
 Nu we het werkblad in handen hebben, hebben we toegang tot de grafiek die we willen opmaken.
 
 ```csharp
-// Haal de eerste grafiek in het blad
+//Haal de eerste grafiek in het blad
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Deze coderegel zorgt ervoor dat de eerste reeks in het diagram wordt ingesteld o
 // Haal de CellsColor van SolidFill op
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Maak een thema in Accent-stijl
+//Maak een thema in Accent-stijl
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

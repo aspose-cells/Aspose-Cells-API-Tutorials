@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Nu gaat u een exemplaar van de klasse Workbook maken, die een Excel-bestand vertegenwoordigt.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Vervolgens moet u het werkblad openen waarop u de oriëntatie wilt instellen. Omdat elke werkmap meerdere werkbladen kan hebben, moet u expliciet aangeven met welk werkblad u werkt.
 
 ```csharp
-// Toegang krijgen tot het eerste werkblad in het Excel-bestand
+//Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

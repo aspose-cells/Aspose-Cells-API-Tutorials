@@ -38,7 +38,7 @@ Než začne jakékoli kódování, je důležité správně nastavit vývojové 
 1.  Vytvoření nového projektu: Otevřete Visual Studio, vytvořte nový projekt Console App a pojmenujte jej nějak popisně, například`HideExcelTabs`.
 2. Přidat referenci Aspose.Cells: Přejděte do Správce balíčků NuGet a vyhledejte „Aspose.Cells for .NET“. Nainstalujte jej do svého projektu.
  Případně, pokud pracujete offline, můžete[stáhnout Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/) a přidejte soubor DLL ručně do odkazů na váš projekt.
-3.  Připravte soubor Excel: Umístěte soubor Excel, který chcete upravit (např.`book1.xls`) ve vašem projektovém adresáři. Ujistěte se, že znáte cestu k souboru.
+3. Připravte soubor Excel: Umístěte soubor Excel, který chcete upravit (např.`book1.xls`) ve vašem projektovém adresáři. Ujistěte se, že znáte cestu k souboru.
 
 ## Krok 2: Otevřete soubor aplikace Excel
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- V tomto kroku vytvoříme instanci`Workbook` třídy, která představuje soubor Excel. Cesta k souboru Excel je uvedena jako parametr. Ujistěte se, že vyměňujete`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou k souboru, kde se nachází váš soubor Excel.
+ V tomto kroku vytvoříme instanci`Workbook` třídy, která představuje soubor Excel. Cesta k souboru Excel je uvedena jako parametr. Ujistěte se, že vyměňujete`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k souboru, kde se nachází váš soubor Excel.
 
 Načtením sešitu navážete spojení se souborem a umožníte tak další úpravy. Bez toho nelze provádět žádné změny.
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "output.xls");
 
 A tady to máte! Úspěšně jste skryli záložky listů v souboru aplikace Excel pomocí Aspose.Cells for .NET. Díky tomuto jednoduchému vylepšení budou vaše dokumenty Excel vypadat uhlazenější a soustředěnější, zejména při sdílení souborů s klienty nebo členy týmu, kteří nepotřebují vidět všechny pracovní karty.
 
- Aspose.Cells for .NET můžete se soubory aplikace Excel manipulovat výkonnými způsoby, od skrývání karet po vytváření dynamických sestav, grafů a mnoho dalšího. Pokud s tímto nástrojem začínáte, neváhejte jej prozkoumat[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobnější funkce a možnosti.
+ S Aspose.Cells for .NET můžete se soubory aplikace Excel manipulovat výkonnými způsoby, od skrývání karet po vytváření dynamických sestav, grafů a mnoho dalšího. Pokud s tímto nástrojem začínáte, neváhejte jej prozkoumat[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobnější funkce a možnosti.
 
 ## FAQ
 
@@ -105,13 +105,13 @@ A tady to máte! Úspěšně jste skryli záložky listů v souboru aplikace Exc
  Ne, skrytí karet přes`ShowTabs` vlastnost skryje nebo zobrazí všechny záložky listů najednou. Pokud chcete skrýt jednotlivé listy, můžete nastavit viditelnost každého listu zvlášť.
 
 ### Jak mohu zobrazit náhled skrytých karet v Excelu?  
- Můžete přepínat`ShowTabs` majetek zpět do`true` pomocí stejné struktury kódu, pokud potřebujete zobrazit náhled nebo obnovit karty.
+ Můžete přepínat`ShowTabs`majetek zpět do`true` pomocí stejné struktury kódu, pokud potřebujete zobrazit náhled nebo obnovit karty.
 
 ### Ovlivní skrytí karet data nebo funkčnost sešitu?  
 Ne, skrytím karet se změní pouze vizuální vzhled. Data a funkce v sešitu zůstanou nedotčeny.
 
 ### Mohu skrýt karty v jiných formátech souborů, jako je CSV nebo PDF?  
- Ne, skrytí karet je specifické pro formáty souborů aplikace Excel, jako jsou`.xls` a`.xlsx`Formáty souborů jako CSV a PDF v první řadě nepodporují karty.
+ Ne, skrytí karet je specifické pro formáty souborů aplikace Excel, jako jsou`.xls` a`.xlsx`. Formáty souborů jako CSV a PDF v první řadě nepodporují karty.
 
 ### Je Aspose.Cells nejlepším nástrojem pro programovou manipulaci se soubory Excelu?  
 Aspose.Cells je jednou z nejvýkonnějších knihoven pro manipulaci se soubory Excel v .NET. Poskytuje širokou škálu funkcí a funguje bez nutnosti instalace aplikace Microsoft Excel do počítače.

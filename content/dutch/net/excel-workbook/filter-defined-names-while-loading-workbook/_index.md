@@ -37,7 +37,7 @@ Laten we het proces van het filteren van gedefinieerde namen tijdens het laden v
 
 ## Stap 1: Geef laadopties op
 
-Het eerste wat we gaan doen is een instantie van de maken`LoadOptions` klasse. Deze klasse helpt ons te specificeren hoe we ons Excel-bestand willen laden.
+ Het eerste wat we gaan doen is een instantie van de maken`LoadOptions` klasse. Deze klasse helpt ons te specificeren hoe we ons Excel-bestand willen laden.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Nu onze laadopties zijn gespecificeerd, is het tijd om de werkmap zelf te laden.
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- In deze regel maakt u een nieuw exemplaar van de`Workbook`klasse, waarbij het pad naar uw voorbeeld-Excel-bestand en de laadopties worden doorgegeven. Dit laadt uw werkmap met de gedefinieerde namen die zijn uitgefilterd zoals opgegeven.
+ In deze regel maakt u een nieuw exemplaar van de`Workbook` klasse, waarbij het pad naar uw voorbeeld-Excel-bestand en de laadopties worden doorgegeven. Dit laadt uw werkmap met de gedefinieerde namen die zijn uitgefilterd zoals opgegeven.
 
 ## Stap 4: Sla het uitvoerbestand op
 
@@ -106,4 +106,4 @@ Het filteren van gedefinieerde namen kan leiden tot kapotte formules als ze naar
  Ja, u kunt een gratis proefversie van Aspose.Cells krijgen om de mogelijkheden ervan te testen voordat u tot aankoop overgaat. Bekijk het[hier](https://releases.aspose.com/).
 
 ### Waar kan ik meer voorbeelden en documentatie vinden?
- Uitgebreide documentatie en meer voorbeelden vindt u op de Aspose.Cells-referentiepagina[hier](https://reference.aspose.com/cells/net/).
+Uitgebreide documentatie en meer voorbeelden vindt u op de Aspose.Cells-referentiepagina[hier](https://reference.aspose.com/cells/net/).

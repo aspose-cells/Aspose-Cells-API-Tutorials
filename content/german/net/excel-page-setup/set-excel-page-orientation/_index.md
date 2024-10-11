@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Jetzt erstellen Sie eine Instanz der Workbook-Klasse, die eine Excel-Datei darstellt.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Als Nächstes müssen Sie auf das Arbeitsblatt zugreifen, für das Sie die Ausrichtung festlegen möchten. Da jede Arbeitsmappe mehrere Arbeitsblätter enthalten kann, sollten Sie explizit angeben, mit welchem Sie arbeiten.
 
 ```csharp
-// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

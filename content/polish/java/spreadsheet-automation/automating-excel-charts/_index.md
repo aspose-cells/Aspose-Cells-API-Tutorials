@@ -2,7 +2,7 @@
 title: Automatyzacja wykresów programu Excel
 linktitle: Automatyzacja wykresów programu Excel
 second_title: Aspose.Cells Java Excel Processing API
-description: Poznaj sposób automatyzacji tworzenia i dostosowywania wykresów w programie Excel za pomocą Aspose.Cells for Java z przykładami kodu źródłowego. Usprawnij swoje zadania związane z wykresami.
+description: Poznaj sposób automatyzacji tworzenia i dostosowywania wykresów w programie Excel za pomocą Aspose.Cells for Java z przykładami kodu źródłowego. Usprawnij zadania związane z wykresami.
 type: docs
 weight: 17
 url: /pl/java/spreadsheet-automation/automating-excel-charts/

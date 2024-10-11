@@ -10,7 +10,7 @@ url: /pl/java/advanced-excel-charts/waterfall-charts/
 
 ## Wprowadzenie do wykresów kaskadowych przy użyciu Aspose.Cells dla języka Java
 
-Wykresy kaskadowe są niezbędnym narzędziem w wizualizacji danych, umożliwiającym śledzenie kumulatywnego efektu kolejno wprowadzanych wartości dodatnich lub ujemnych. W tym przewodniku przyjrzymy się, jak tworzyć oszałamiające wykresy kaskadowe przy użyciu interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy pracujesz nad raportami finansowymi, analizą sprzedaży czy jakimkolwiek projektem opartym na danych, wykresy kaskadowe mogą zapewnić cenne informacje na temat Twoich danych.
+Wykresy kaskadowe są niezbędnym narzędziem w wizualizacji danych, umożliwiającym śledzenie kumulatywnego efektu kolejno wprowadzanych wartości dodatnich lub ujemnych. W tym przewodniku pokażemy, jak tworzyć oszałamiające wykresy kaskadowe przy użyciu interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy pracujesz nad raportami finansowymi, analizą sprzedaży czy jakimkolwiek projektem opartym na danych, wykresy kaskadowe mogą zapewnić cenne informacje na temat Twoich danych.
 
 ## Wymagania wstępne
 

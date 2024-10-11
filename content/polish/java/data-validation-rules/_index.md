@@ -31,7 +31,7 @@ Dowiedz się, jak wykonywać walidację daty w arkuszach kalkulacyjnych programu
 ### [Wskazówki dotyczące walidacji danych liczbowych](./numeric-data-validation-tips/)
 Opanuj walidację danych numerycznych z Aspose.Cells dla Java. Dowiedz się, jak zapewnić dokładność danych i zapobiegać błędom w aplikacjach Java.
 ### [Lista walidacji danych w programie Excel](./list-data-validation-in-excel/)
-Poznaj walidację danych w programie Excel przy użyciu Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej.
+Poznaj walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Wdrażaj reguły, komunikaty o błędach i wiele więcej.
 ### [Warunkowa walidacja danych](./conditional-data-validation/)
 Dowiedz się, jak wdrożyć warunkową walidację danych za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do dokładnej obsługi danych w arkuszach kalkulacyjnych Excel.
 ### [Wiadomość wejściowa w walidacji danych](./input-message-in-data-validation/)

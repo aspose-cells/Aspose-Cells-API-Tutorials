@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Trong đoạn mã này,`"Your Document Directory"` Và`"Your Document Directory"`được cho là sẽ lấy các đường dẫn tương ứng cho nơi các tệp đầu vào và đầu ra của bạn sẽ nằm. Bạn có thể thay thế các phương pháp này bằng các đường dẫn được mã hóa cứng nếu bạn thích.
+ Trong đoạn mã này,`"Your Document Directory"` Và`"Your Document Directory"` được cho là sẽ lấy các đường dẫn tương ứng cho nơi các tệp đầu vào và đầu ra của bạn sẽ nằm. Bạn có thể thay thế các phương pháp này bằng các đường dẫn được mã hóa cứng nếu bạn thích.
 
 ## Bước 2: Tải tệp XLSB
 
@@ -68,7 +68,7 @@ Khi sổ làm việc được tải, bạn có thể truy cập các kết nối
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Đây,`DataConnections[0]` đề cập đến kết nối đầu tiên trong sổ làm việc. Chúng tôi đang đúc nó như một`DBConnection` nhập để thao tác thêm.
+ Đây,`DataConnections[0]`đề cập đến kết nối đầu tiên trong sổ làm việc. Chúng tôi đang đúc nó như một`DBConnection` nhập để thao tác thêm.
 
 ## Bước 4: Trích xuất thông tin kết nối
 
@@ -125,7 +125,7 @@ Và bạn đã có nó! Bạn đã học thành công cách đọc và ghi các 
 Tệp XLSB là định dạng tệp Excel nhị phân lưu trữ dữ liệu bảng tính ở định dạng nhị phân, giúp tệp nhỏ gọn hơn và mở nhanh hơn.
 
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?  
-Bạn có thể dễ dàng tải xuống từ trang web Aspose[đây](https://releases.aspose.com/cells/net/).
+ Bạn có thể dễ dàng tải xuống từ trang web Aspose[đây](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
  Có! Bạn có thể bắt đầu với bản dùng thử miễn phí, có sẵn[đây](https://releases.aspose.com/).

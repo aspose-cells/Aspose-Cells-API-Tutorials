@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Nu ska du skapa en instans av klassen Workbook, som representerar en Excel-fil.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Därefter måste du komma åt kalkylbladet där du vill ställa in orienteringen. Eftersom varje arbetsbok kan ha flera kalkylblad bör du uttryckligen ange vilket du arbetar med.
 
 ```csharp
-// Åtkomst till det första kalkylbladet i Excel-filen
+//Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

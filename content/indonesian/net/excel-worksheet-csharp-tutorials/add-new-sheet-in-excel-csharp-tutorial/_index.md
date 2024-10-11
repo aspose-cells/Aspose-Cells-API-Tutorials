@@ -15,7 +15,7 @@ Pernahkah Anda merasa perlu menambahkan lembar baru ke berkas Excel secara terpr
 
 Sebelum kita melakukan pengkodean, mari pastikan Anda memiliki semua yang diperlukan untuk proyek ini:
 
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Situs web Microsoft](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Pastikan Anda telah menginstal Visual Studio. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Situs web Microsoft](https://visualstudio.microsoft.com/).
 2.  Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Pastikan proyek Anda disiapkan untuk versi .NET Framework yang kompatibel (biasanya .NET Framework 4.0 atau yang lebih tinggi berfungsi dengan baik).
 4. Pengetahuan Dasar C#: Keakraban dengan C# dan pemrograman berorientasi objek akan membantu Anda memahami kode dengan lebih baik.
@@ -62,7 +62,7 @@ Pada kode di atas, kami mendeklarasikan jalur tempat file Excel kami akan berada
 Selanjutnya, kita akan membuat contoh kelas Workbook. Kelas ini adalah tulang punggung semua operasi terkait Excel yang akan Anda lakukan.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Sekarang buku kerja kita sudah siap, mari tambahkan lembar baru!
 int i = workbook.Worksheets.Add();
 ```
 
- Di sini, kami menggunakan`Add()` metode dari`Worksheets` koleksi yang ada di dalam`Workbook` kelas. Metode mengembalikan indeks (`i`) dari lembar yang baru ditambahkan. Mirip seperti menambahkan halaman ke buku catatan Anda - mudah dan efisien!
+ Di sini, kami menggunakan`Add()` metode dari`Worksheets` koleksi yang ada di dalam`Workbook` kelas. Metode mengembalikan indeks (`i`dari lembar yang baru ditambahkan. Mirip seperti menambahkan halaman ke buku catatan Anda - mudah dan efisien!
 
 ## Langkah 4: Memberi Nama Lembar Kerja Baru Anda
 
@@ -119,7 +119,7 @@ Aspose.Cells untuk .NET adalah pustaka yang hebat untuk membuat, memanipulasi, d
  Ya, cukup panggil saja`Add()` metode beberapa kali, dan rujuk setiap lembar berdasarkan indeksnya!
 
 ### Apakah ada versi uji coba gratis Aspose.Cells?  
-Tentu saja! Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+ Tentu saja! Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya memformat lembar baru setelah menambahkannya?  
 Tentu saja! Anda dapat menerapkan gaya, format, dan bahkan rumus ke lembar kerja Anda menggunakan fitur-fitur pustaka.

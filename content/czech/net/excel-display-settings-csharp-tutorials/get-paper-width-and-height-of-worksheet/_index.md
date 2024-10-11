@@ -25,7 +25,7 @@ Velký! Nyní, když máme zaškrtnuté to podstatné, vrhněme se rovnou na imp
 
 ## Importujte balíčky
 
- Abychom si usnadnili život a využili plnou sílu Aspose.Cells, musíme importovat několik balíčků. Je to stejně jednoduché jako přidat a`using` příkaz v horní části souboru kódu. Zde je to, co potřebujete k importu:
+ Abychom si usnadnili život a využili plnou sílu Aspose.Cells, musíme importovat několik balíčků. Je to stejně jednoduché jako přidání a`using` příkaz v horní části souboru kódu. Zde je to, co potřebujete k importu:
 
 ```csharp
 using System;
@@ -45,7 +45,7 @@ Workbook wb = new Workbook();
 
 Tento řádek vytváří instanci nového objektu sešitu, který je pro nás připraven k manipulaci. Zatím nic neuvidíte, ale naše plátno je hotové!
 
-## Krok 2: Otevřete první list
+## Krok 2: Otevřete první pracovní list
 
 Nyní, když máme náš sešit, potřebujeme v něm získat přístup ke konkrétnímu listu. List je jako jedna stránka v sešitu a je to místo, kde se odehrává veškerá akce.
 
@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Každý z těchto bloků napodobuje předchozí krok, ale upravuje jej`PaperSize` majetek podle toho. Pouhou změnou indikátoru velikosti získáte různé rozměry papíru bez námahy. Je to jako měnit velikost krabice podle toho, co potřebujete uložit!
+ Každý z těchto bloků napodobuje předchozí krok, ale upravuje jej`PaperSize`majetek podle toho. Pouhou změnou indikátoru velikosti získáte různé rozměry papíru bez námahy. Je to jako měnit velikost krabice podle toho, co potřebujete uložit!
 
 ## Závěr
 

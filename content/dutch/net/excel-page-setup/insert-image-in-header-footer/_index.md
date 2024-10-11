@@ -15,7 +15,7 @@ Bij het werken met Excel-bestanden spelen headers en footers een cruciale rol bi
 
 Voordat u zich in de daadwerkelijke code verdiept, moet u een aantal dingen paraat hebben:
 
-1. Aspose.Cells voor .NET-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek in uw .NET-omgeving hebt geïnstalleerd. Als u deze nog niet hebt, kunt u[download het hier](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells voor .NET-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek in uw .NET-omgeving hebt geïnstalleerd. Als u deze nog niet hebt, kunt u[download het hier](https://releases.aspose.com/cells/net/).
 2. Visual Studio of een andere IDE: U hebt een geïntegreerde ontwikkelomgeving nodig om uw C#-code te schrijven en uit te voeren.
 3.  Een voorbeeldafbeelding: Bereid een afbeelding voor die u in de header of footer wilt invoegen. Voor ons voorbeeld gebruiken we een bedrijfslogo genaamd`aspose-logo.jpg`.
 4. Basiskennis van C#: Hoewel het niet verplicht is, zal een goede kennis van C# het makkelijker maken om deze tutorial te volgen.
@@ -95,7 +95,7 @@ Nu we de binaire gegevens van de afbeelding bij de hand hebben, kunnen we deze i
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Deze regel plaatst de afbeelding in het centrale gedeelte van de header. De parameter`1` specificeert de headersectie.
+ Deze regel plaatst de afbeelding in het centrale gedeelte van de header. De parameter`1`specificeert de headersectie.
 
 ## Stap 7: De headerinhoud instellen
 

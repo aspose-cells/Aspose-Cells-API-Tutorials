@@ -72,7 +72,7 @@ Bontsuk le az extrakciós folyamatot könnyen követhető lépésekre.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Ebben a lépésben létrehozzuk a`Workbook`osztály, amely hídként működik az Excel-fájl tartalmához. A fájl itt töltődik be, így később a lapok között iterálva megtalálhatjuk a beágyazott MOL objektumokat.
+ Ebben a lépésben létrehozzuk a`Workbook` osztály, amely hídként működik az Excel-fájl tartalmához. A fájl itt töltődik be, így később a lapok között iterálva megtalálhatjuk a beágyazott MOL objektumokat.
 
 ## 3. lépés: Ismétlés munkalapokon keresztül
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Ezzel a kódrészlettel a`foreach` hurkot, hogy végigmenjen a munkafüzetünk minden lapján. A hozzáféréssel a`OleObjects` gyűjtemény, az adott lapon lévő összes beágyazott objektumhoz hozzáférhetünk. 
+ Ezzel a kódrészlettel a`foreach` hurkot, hogy végigmenjen a munkafüzetünk minden lapján. A hozzáféréssel a`OleObjects`gyűjtemény, az adott lapon lévő összes beágyazott objektumhoz hozzáférhetünk. 
 
 ## 4. lépés: OLE objektumok kibontása
 
@@ -132,7 +132,7 @@ Az Aspose.Cells for .NET egy hatékony könyvtár, amelyet a .NET-alkalmazásoko
 Teljesen! Az Aspose.Cells lehetővé teszi a különböző beágyazott fájlformátumok, például PDF-ek, képek és egyebek kibontását, nem csak MOL-fájlokat.
 
 ### Meg kell vásárolnom az Aspose.Cells-t a használatához?  
-Bár ingyenes próbaverzió áll rendelkezésre, a teljes funkciókhoz licencre van szükség. Megteheti[vásárolja meg itt](https://purchase.aspose.com/buy).
+ Bár ingyenes próbaverzió áll rendelkezésre, a teljes funkciókhoz licencre van szükség. Tudod[vásárolja meg itt](https://purchase.aspose.com/buy).
 
 ### Szükséges-e Visual Studio ehhez a folyamathoz?  
 Miközben bemutattuk a Visual Studio használatát, bármilyen C#-kompatibilis IDE-t használhat a projekt futtatásához.

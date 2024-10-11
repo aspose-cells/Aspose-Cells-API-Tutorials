@@ -16,7 +16,7 @@ Előfordult már, hogy egy Excel-fájl zagyva oldalain navigál? Tudod, mire gon
 Mielőtt belemerülne a kódba, van néhány dolog, amit a helyén kell tartania:
 
 - .NET-környezet: Győződjön meg arról, hogy a gépen be van állítva .NET-környezet. Legyen szó .NET-keretrendszerről vagy .NET Core-ról, zökkenőmentesen kell működnie.
--  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Ne aggódjon – könnyű elkezdeni! Megteheti[töltse le itt](https://releases.aspose.com/cells/net/) vagy kap egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+-  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Ne aggódjon – könnyű elkezdeni! Tudod[töltse le itt](https://releases.aspose.com/cells/net/) vagy kap egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 - Alapvető programozási ismeretek: A C# programozás alapvető ismerete segít a fogalmak jobb megértésében.
 
 ## Csomagok importálása
@@ -37,7 +37,7 @@ Most, hogy lefektettük az alapokat, bontsuk le az Excel oldalsorrendjének beá
 
 Mielőtt belevágna a munkafüzet létrehozásába, meg kell adnia a kimeneti fájl tárolási helyét. Így nyomon követheti munkáját. 
 
-A következőképpen állít be egy változót, amely a dokumentumkönyvtárra mutat:
+következőképpen állít be egy változót, amely a dokumentumkönyvtárra mutat:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Itt,`workbook.Worksheets[0]` a munkafüzeted első munkalapjára utal. A`PageSetup`tulajdonság segítségével szabályozhatja a lap lapozási beállításait.
+ Itt,`workbook.Worksheets[0]` a munkafüzeted első munkalapjára utal. A`PageSetup` tulajdonság segítségével szabályozhatja a lap lapozási beállításait.
 
 ## 4. lépés: Állítsa be a nyomtatási sorrendet
 
 
- A`PageSetup` objektum, itt az ideje, hogy elmondja az Excelnek, hogyan szeretné kinyomtatni az oldalakat. Lehetősége van beállítani a sorrendet "Over, then down" vagy "Down then over".
+ A`PageSetup`objektum, itt az ideje, hogy elmondja az Excelnek, hogyan szeretné kinyomtatni az oldalakat. Lehetősége van beállítani a sorrendet "Over, then down" vagy "Down then over".
 
 Íme a kód a nyomtatási sorrend beállításához:
 
@@ -91,7 +91,7 @@ pageSetup.Order = PrintOrderType.OverThenDown;
 ## 5. lépés: Mentse el a munkafüzetet
 
 
-Végre itt az ideje, hogy mentse a munkáját! Ez a lépés biztosítja, hogy az összes testreszabását a rendszer tárolja későbbi használatra.
+Végre itt az ideje, hogy megmentse munkáját! Ez a lépés biztosítja, hogy az összes testreszabását a rendszer tárolja későbbi használatra.
 
 A munkafüzetet ezzel a kóddal mentheti el:
 

@@ -45,7 +45,7 @@ Burada çalışmak istediğiniz Excel dosyasının yolunu belirteceksiniz.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Yer değiştirmek`YOUR DOCUMENT DIRECTORY` Excel dosyanızın saklandığı gerçek yol ile. Bu, programınızın işleyebileceği gerekli dosyaları bulmasını sağlar.
+ Yer değiştirmek`YOUR DOCUMENT DIRECTORY`Excel dosyanızın saklandığı gerçek yol ile. Bu, programınızın işleyebileceği gerekli dosyaları bulmasını sağlar.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 
@@ -56,7 +56,7 @@ Burada Excel dosyasını okumak için bir dosya akışı oluşturuyorsunuz.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream`sınıfı, dosyalardan okumanızı ve dosyalara yazmanızı sağlar. Bu durumda, Excel dosyamızı okuma modunda açıyoruz.
+ The`FileStream` sınıfı, dosyalardan okumanızı ve dosyalara yazmanızı sağlar. Bu durumda, Excel dosyamızı okuma modunda açıyoruz.
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -123,7 +123,7 @@ Bu basit adımları izleyerek, Aspose.Cells for .NET kullanarak bir çalışma s
  Evet! Sadece ayarlamanız gerekiyor`IsVScrollBarVisible` Ve`IsHScrollBarVisible` geri dönmek`true`.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
- Aspose.Cells tamamen ücretsiz değildir, ancak sınırlı bir süre için ücretsiz olarak deneyebilir veya satın almayı düşünebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells tamamen ücretsiz değildir, ancak sınırlı bir süre için ücretsiz olarak deneyebilir veya satın almayı düşünebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells ile hangi tür Excel dosyalarını işleyebilirim?  
 .xls, .xlsx, .xlsm, .xlsb gibi çeşitli Excel formatlarıyla çalışabilirsiniz.

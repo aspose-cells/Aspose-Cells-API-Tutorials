@@ -77,7 +77,7 @@ Itt történik a varázslat! Beállíthatjuk a munkalap nyomtatási minőségét
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Magyarázat: A`PrintQuality` tulajdonság bármilyen értékre állítható, jellemzően 75 és 600 dpi (pont per hüvelyk) között. Ebben az esetben 180 dpi-re állítjuk, ami nagyszerű a minőség és a fájlméret közötti jó egyensúlyhoz.
+ Magyarázat: A`PrintQuality` A tulajdonság bármilyen értékre állítható, jellemzően 75 és 600 dpi (pont per hüvelyk) között. Ebben az esetben 180 dpi-re állítjuk, ami nagyszerű a minőség és a fájlméret közötti jó egyensúlyhoz.
 
 ## 5. lépés: A munkafüzet mentése
 
@@ -104,7 +104,7 @@ Igen! Az egyes munkalapokat külön-külön érheti el, és külön-külön beá
 ### Az Aspose.Cells ingyenesen használható?  
 Az Aspose.Cells ingyenes próbaverziót kínál, de a hosszú távú használathoz licencet kell vásárolnia.
 
-### A nyomtatási minőség megváltoztatása hatással lesz a fájl méretére?  
+### nyomtatási minőség megváltoztatása hatással lesz a fájl méretére?  
 Igen, a jobb nyomtatási minőség általában nagyobb fájlméretet eredményez, de jobb kimenetet biztosít.
 
 ### Hol találok további forrásokat az Aspose.Cells oldalon?  

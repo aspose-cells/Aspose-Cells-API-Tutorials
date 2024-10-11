@@ -63,7 +63,7 @@ Esta linha aponta para o diretório que contém o arquivo Excel. Certifique-se d
 Em seguida, carregaremos nossa pasta de trabalho. Isso é como abrir seu arquivo Excel em segundo plano, permitindo que leiamos e manipulemos seu conteúdo.
 
 ```csharp
-// Carregue a pasta de trabalho
+//Carregue a pasta de trabalho
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

@@ -15,7 +15,7 @@ Excel 파일을 사용할 때 머리글과 바닥글은 맥락과 귀중한 정�
 
 실제 코드를 살펴보기 전에 준비해야 할 몇 가지 사항이 있습니다.
 
-1. .NET 라이브러리용 Aspose.Cells: .NET 환경에 Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 아직 설치되어 있지 않으면 다음을 수행할 수 있습니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+1.  .NET 라이브러리용 Aspose.Cells: .NET 환경에 Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 아직 설치되어 있지 않으면 다음을 수행할 수 있습니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 2. Visual Studio나 다른 IDE: C# 코드를 작성하고 실행하려면 통합 개발 환경이 필요합니다.
 3.  샘플 이미지: 헤더나 푸터에 삽입할 이미지를 준비하세요. 예를 들어, 회사 로고를 사용하겠습니다.`aspose-logo.jpg`.
 4. C#에 대한 기본 지식: 필수는 아니지만 C#에 대한 이해가 있으면 이 튜토리얼을 따라가기가 더 쉽습니다.
@@ -95,7 +95,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- 이 줄은 헤더의 중앙 섹션에 이미지를 배치합니다. 매개변수`1` 헤더 섹션을 지정합니다.
+ 이 줄은 헤더의 중앙 섹션에 이미지를 배치합니다. 매개변수`1`헤더 섹션을 지정합니다.
 
 ## 7단계: 헤더 콘텐츠 설정
 

@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Tiếp theo, chúng ta tạo một thể hiện của`Workbook` lớp, biểu diễn một tệp Excel.
+ Tiếp theo, chúng ta tạo một thể hiện của`Workbook`lớp, biểu diễn một tệp Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Dòng này khởi tạo một bảng tính mới, giúp nó sẵn sàng để th
 
 ## Bước 3: Lấy tham chiếu PageSetup
 
- Bây giờ chúng ta hãy truy cập vào bảng tính`PageSetup`thuộc tính. Đây là nơi hầu hết các cài đặt in của chúng tôi sẽ được cấu hình.
+ Bây giờ chúng ta hãy truy cập vào bảng tính`PageSetup` thuộc tính. Đây là nơi hầu hết các cài đặt in của chúng tôi sẽ được cấu hình.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

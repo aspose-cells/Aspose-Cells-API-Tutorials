@@ -107,7 +107,7 @@ Most, hogy a fejléceink pofátlannak tűnnek, fordítsuk figyelmünket a lábl�
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Magyarázat: Egyéni üzenetet szúrunk be a bal láblécbe: "Hello World!" a szöveggel együtt`123` más betűstílusban – Courier New.
+Magyarázat: Egyéni üzenetet szúrunk be a bal láblécbe: "Hello World!" a szöveggel együtt`123` más betűstílusban – Courier New.
 
 ## 7. lépés: Középső lábléc konfigurálása
 

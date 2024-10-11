@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- تأكد من الاستبدال`"YOUR SOURCE DIRECTORY"` و`"YOUR OUTPUT DIRECTORY"`مع المسارات الفعلية على جهازك. فكر في هذا الأمر باعتباره إنشاء مساحة عمل مرتبة قبل البدء في صياغة تحفتك الفنية!
+ تأكد من الاستبدال`"YOUR SOURCE DIRECTORY"` و`"YOUR OUTPUT DIRECTORY"` مع المسارات الفعلية على جهازك. فكر في هذا الأمر باعتباره إنشاء مساحة عمل مرتبة قبل البدء في صياغة تحفتك الفنية!
 
 ## الخطوة 2: إنشاء مصنف فارغ
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 بالتأكيد! يعمل Aspose.Cells بسلاسة في كل من تطبيقات سطح المكتب والويب باستخدام .NET.
 
 ### ماذا يجب أن أفعل إذا كنت بحاجة إلى الدعم؟  
- بالنسبة للأسئلة واستكشاف الأخطاء وإصلاحها، فإن مجتمع Aspose مفيد للغاية. يمكنك زيارة[منتدى الدعم](https://forum.aspose.com/c/cells/9) للحصول على المساعدة.
+بالنسبة للأسئلة واستكشاف الأخطاء وإصلاحها، فإن مجتمع Aspose مفيد للغاية. يمكنك زيارة[منتدى الدعم](https://forum.aspose.com/c/cells/9) للحصول على المساعدة.

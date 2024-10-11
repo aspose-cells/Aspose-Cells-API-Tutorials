@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Şimdi yeni bir çalışma kitabı oluşturma zamanı. Bu, temel olarak tüm verilerinizin ve ayarlarınızın bulunacağı yerdir.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel dosyaları birden fazla çalışma sayfası içerebilir. Ölçekleme faktörümüzü uygulamak için ilk çalışma sayfasına erişeceğiz.
 
 ```csharp
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

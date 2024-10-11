@@ -16,7 +16,7 @@ Excel 파일을 작업할 때 페이지 나누기를 관리하는 것은 약간 
 코드의 핵심을 파고들기 전에, 시작하는 데 필요한 모든 것이 있는지 확인해 보겠습니다. 다음은 필수 조건의 간단한 체크리스트입니다.
 
 1. Visual Studio: .NET 애플리케이션을 만들고 실행하려면 Visual Studio가 제대로 설치되어 있어야 합니다.
-2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 아직 설치하지 않았다면 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 아직 설치하지 않았다면 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 코드 조각을 더 잘 이해하는 데 도움이 됩니다.
 4. Excel 파일: 실험해 볼 수 있도록 몇 가지 페이지 나누기가 포함된 Excel 파일을 준비해 두세요.
 
@@ -53,14 +53,14 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 설명: 바꾸기`YOUR DOCUMENT DIRECTORY` 실제 파일 경로와 함께. 여기서 Excel 파일을 로드하고 나중에 수정된 Excel 파일을 저장합니다.
+ 설명: 바꾸기`YOUR DOCUMENT DIRECTORY`실제 파일 경로와 함께. 여기서 Excel 파일을 로드하고 나중에 수정된 Excel 파일을 저장합니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
 다음으로, 우리는 워크북을 로드해야 합니다. 더 간단하게 말해서, 워크북을 Excel 파일로 생각해보세요.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 ## 자주 묻는 질문
 
 ### 한 번에 여러 개의 페이지 나누기를 제거할 수 있나요?  
-네, 할 수 있어요! 그냥 루프를 돌면 돼요`HorizontalPageBreaks` 그리고`VerticalPageBreaks` 컬렉션을 사용하고`RemoveAt` 방법.
+ 네, 할 수 있어요! 그냥 루프를 돌면 돼요`HorizontalPageBreaks` 그리고`VerticalPageBreaks` 컬렉션을 사용하고`RemoveAt` 방법.
 
 ### 어떤 인덱스를 페이지 나누기에 사용해야 하는지 어떻게 알 수 있나요?  
 루프를 사용하여 페이지 나누기를 반복하여 인덱스를 인쇄하거나 디버거를 통해 페이지 나누기를 검사할 수 있습니다.

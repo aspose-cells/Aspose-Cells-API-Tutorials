@@ -16,7 +16,7 @@ Az Excel-fájlokkal való munka során az oldaltörések kezelése kissé bonyol
 Mielőtt belemerülnénk a kód finomságaiba, győződjön meg arról, hogy rendelkezik mindennel, amire szüksége van az induláshoz. Íme egy gyors ellenőrző lista az előfeltételekről:
 
 1. Visual Studio: A .NET-alkalmazások létrehozásához és futtatásához a Visual Studio működőképes telepítésére lesz szüksége.
-2. Aspose.Cells for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ha még nem tette meg, letöltheti innen[itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ha még nem tette meg, letöltheti innen[itt](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: A C# programozás ismerete segít jobban megérteni a kódrészleteket.
 4. Excel-fájl: Legyen kéznél egy Excel-fájl, amely néhány oldaltörést tartalmaz, amellyel kísérletezhetünk.
 
@@ -53,14 +53,14 @@ Először is meg kell határoznia az Excel-dokumentumok tárolási helyét. Ez s
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Magyarázat: Cserélje ki`YOUR DOCUMENT DIRECTORY` a fájlok tényleges elérési útjával. Innen töltheti be az Excel-fájlt, és később mentheti el a módosított Excel-fájlt.
+ Magyarázat: Cserélje ki`YOUR DOCUMENT DIRECTORY` fájlok tényleges elérési útjával. Innen töltheti be az Excel-fájlt, és később mentheti el a módosított Excel-fájlt.
 
 ## 2. lépés: Példányosítsa a munkafüzet objektumot
 
 Ezután be kell töltenünk a munkafüzetünket. Egyszerűbben fogalmazva, képzelje el a munkafüzetet Excel-fájlként.
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Magyarázat: Itt elmentjük a munkafüzetet új néven (`RemoveSpecificPageBreak
 ## GYIK
 
 ### Eltávolíthatok több oldaltörést egyszerre?  
-Igen, lehet! Csak nézzen át a`HorizontalPageBreaks` és`VerticalPageBreaks` gyűjtemények és használja a`RemoveAt` módszer.
+ Igen, lehet! Csak nézzen át a`HorizontalPageBreaks` és`VerticalPageBreaks` gyűjtemények és használja a`RemoveAt` módszer.
 
 ### Honnan tudhatom, hogy melyik indexet használjam az oldaltörésekhez?  
 Ismételheti az oldaltöréseket egy ciklus segítségével, hogy kinyomtassa az indexeiket, vagy megvizsgálja őket a hibakeresőn keresztül.
