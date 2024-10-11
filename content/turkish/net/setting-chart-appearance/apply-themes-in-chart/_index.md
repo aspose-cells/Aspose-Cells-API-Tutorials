@@ -77,7 +77,7 @@ Bu durumda, bu örnek için yeterli olan ilk çalışma sayfasını alıyoruz. B
 Çalışma kağıdı elimizde olduğuna göre artık biçimlendirmek istediğimiz grafiğe ulaşabiliriz.
 
 ```csharp
-// Sayfadaki ilk çizelgeyi alın
+//Sayfadaki ilk çizelgeyi alın
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Bu kod satırı, grafikteki ilk serinin düz dolgu kullanacak şekilde ayarlanma
 // SolidFill'in CellsColor'ını alın
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Accent stilinde bir tema oluşturun
+//Accent stilinde bir tema oluşturun
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

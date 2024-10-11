@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Następnie musimy utworzyć`Workbook` obiekt. Ten obiekt działa jako kontener dla danych arkusza kalkulacyjnego.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 

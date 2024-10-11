@@ -132,7 +132,7 @@ Tento příkaz uloží sešit do zadaného adresáře s názvem souboru "output.
 
 ## Závěr
 
-tady to máte! Úspěšně jste ochránili konkrétní buňky v listu aplikace Excel pomocí Aspose.Cells for .NET. Pomocí těchto kroků jste se naučili, jak nastavit prostředí, vytvořit sešit aplikace Excel a podmíněně uzamknout buňky, abyste zachovali integritu dat. Takže až budete příště přemýšlet o tom, jak umožnit ostatním upravovat vaše tabulky, pamatujte na jednoduché techniky, které můžete použít k ochraně vašich důležitých dat!
+tady to máte! Úspěšně jste ochránili konkrétní buňky v listu aplikace Excel pomocí Aspose.Cells for .NET. Pomocí těchto kroků jste se naučili, jak nastavit prostředí, vytvořit excelový sešit a podmíněně zamykat buňky, abyste zachovali integritu dat. Takže až budete příště přemýšlet o tom, jak umožnit ostatním upravovat vaše tabulky, pamatujte na jednoduché techniky, které můžete použít k ochraně vašich důležitých dat!
 
 ## FAQ
 

@@ -10,7 +10,7 @@ url: /pl/java/excel-data-analysis/data-analysis-excel-pivot/
 
 ## Wprowadzenie do Aspose.Cells dla Java
 
-Zanim zagłębimy się w szczegóły analizy danych, zapoznajmy się z Aspose.Cells dla Javy. Ta biblioteka Javy jest częścią rodziny produktów Aspose.Cells, znanej ze swoich możliwości obsługi plików Excel. Aspose.Cells dla Javy umożliwia programowe tworzenie, modyfikowanie i manipulowanie skoroszytami, arkuszami kalkulacyjnymi, wykresami i tabelami przestawnymi programu Excel.
+Zanim zagłębimy się w szczegóły analizy danych, zapoznajmy się z Aspose.Cells for Java. Ta biblioteka Java jest częścią rodziny produktów Aspose.Cells, znanej ze swoich możliwości obsługi plików Excel. Aspose.Cells for Java umożliwia programowe tworzenie, modyfikowanie i manipulowanie skoroszytami, arkuszami, wykresami i tabelami przestawnymi programu Excel.
 
 ## Wymagania wstępne
 

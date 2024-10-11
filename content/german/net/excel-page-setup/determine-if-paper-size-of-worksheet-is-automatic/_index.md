@@ -93,7 +93,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 ## Abschluss 
 
-Und so haben Sie die Grundlage dafür gelegt, mit Aspose.Cells für .NET automatisch zu bestimmen, ob die Papiergröße eines Arbeitsblatts automatisch ist! Sie haben sich durch das Importieren von Paketen, Laden von Arbeitsmappen, Zugreifen auf Arbeitsblätter und Überprüfen der Papiergrößeneigenschaft gekämpft – alles wichtige Fähigkeiten bei der programmgesteuerten Bearbeitung von Excel-Dateien. Denken Sie daran: Je mehr Sie mit den verschiedenen Funktionen von Aspose.Cells experimentieren, desto leistungsfähiger werden Ihre Anwendungen.
+Und so haben Sie die Grundlage dafür gelegt, mit Aspose.Cells für .NET automatisch zu bestimmen, ob die Papiergröße eines Arbeitsblatts automatisch ist! Sie haben sich durch das Importieren von Paketen, das Laden von Arbeitsmappen, den Zugriff auf Arbeitsblätter und das Überprüfen der Papiergrößeneigenschaft gekämpft – alles wichtige Fähigkeiten bei der programmgesteuerten Bearbeitung von Excel-Dateien. Denken Sie daran: Je mehr Sie mit den verschiedenen Funktionen von Aspose.Cells experimentieren, desto leistungsfähiger werden Ihre Anwendungen.
 
 ## Häufig gestellte Fragen
 

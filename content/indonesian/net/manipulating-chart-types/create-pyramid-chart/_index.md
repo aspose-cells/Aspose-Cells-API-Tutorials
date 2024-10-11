@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Selanjutnya, mari kita buat contoh baru dari sebuah workbook. Bayangkan workbook sebagai kanvas kosong tempat Anda dapat melukis data Anda.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 

@@ -63,7 +63,7 @@ Ez a sor az Excel fájlt tartalmazó könyvtárra mutat. Ügyeljen arra, hogy az
 Ezután betöltjük a munkafüzetünket. Ez olyan, mintha megnyitná az Excel-fájlt a háttérben, lehetővé téve számunkra, hogy elolvassuk és kezeljük a tartalmát.
 
 ```csharp
-// Töltse be a munkafüzetet
+//Töltse be a munkafüzetet
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

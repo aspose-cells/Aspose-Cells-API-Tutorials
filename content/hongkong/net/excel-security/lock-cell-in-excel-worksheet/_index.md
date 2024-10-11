@@ -15,7 +15,7 @@ url: /zh-hant/net/excel-security/lock-cell-in-excel-worksheet/
 
 在我們深入了解程式碼的細節之前，您需要準備好一些東西：
 
-1. Aspose.Cells for .NET：從下列位置下載並安裝最新版本的 Aspose.Cells for .NET[阿斯普斯網站](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET：從下列位置下載並安裝最新版本的 Aspose.Cells for .NET[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 2. IDE：為.NET 設定的開發環境。受歡迎的選項包括 Visual Studio 或 JetBrains Rider。
 3. 對 C# 的基本了解：雖然我們將逐步引導您完成程式碼，但對 C# 程式設計的基本了解將幫助您更快地掌握這些概念。
 4. 您的文件目錄：確保您設定了一個可以儲存 Excel 文件以進行測試的目錄。
@@ -112,4 +112,4 @@ workbook.Save(dataDir + "output.xlsx");
 絕對地！您可以透過設定來解鎖儲存格`IsLocked`財產給`false`並取消保護。
 
 ### Aspose.Cells 可以免費使用嗎？
- Aspose.Cells提供使用者免費試用。但是，要連續使用，您需要購買許可證。參觀[Aspose購買頁面](https://purchase.aspose.com/buy)了解更多詳情。
+Aspose.Cells提供使用者免費試用。但是，要連續使用，您需要購買許可證。參觀[Aspose購買頁面](https://purchase.aspose.com/buy)了解更多詳情。

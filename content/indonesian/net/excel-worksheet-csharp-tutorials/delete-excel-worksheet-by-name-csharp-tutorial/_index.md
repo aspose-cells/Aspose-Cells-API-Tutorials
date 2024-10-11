@@ -15,7 +15,7 @@ Saat bekerja dengan file Excel secara terprogram, baik untuk pelaporan, analisis
 
 Sebelum kita mulai, ada beberapa hal yang perlu Anda pastikan telah Anda siapkan:
 
-1.  Pustaka Aspose.Cells untuk .NET: Ini adalah komponen inti yang memungkinkan Anda memanipulasi file Excel. Jika Anda belum menginstalnya, Anda dapat[unduh dari sini](https://releases.aspose.com/cells/net/).
+1. Pustaka Aspose.Cells untuk .NET: Ini adalah komponen inti yang memungkinkan Anda memanipulasi file Excel. Jika Anda belum menginstalnya, Anda dapat[unduh dari sini](https://releases.aspose.com/cells/net/).
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, sebaiknya Visual Studio, tempat Anda dapat menulis dan menjalankan kode C#.
 3. Pemahaman Dasar C#: Meskipun saya akan menjelaskan setiap langkah, memiliki pemahaman dasar tentang C# akan membantu Anda mengikutinya dengan lebih baik.
 4. Berkas Excel: Anda harus sudah membuat berkas Excel (kami akan merujuk ke "book1.xls" dalam tutorial ini). Anda dapat membuat berkas sederhana dengan beberapa lembar kerja untuk tujuan ini.
@@ -58,7 +58,7 @@ Di sini, kita akan membuka "book1.xls". Sangat penting bahwa berkas ini ada di d
  Selanjutnya, Anda perlu membuat`Workbook` objek. Objek ini mewakili berkas Excel Anda dan memungkinkan Anda untuk memanipulasi isinya.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -96,7 +96,7 @@ Jangan ragu untuk bermain-main dengan fitur lain di pustaka Aspose.Cells, dan ja
 ## Pertanyaan yang Sering Diajukan
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis, tetapi Anda perlu membeli lisensi untuk penggunaan lebih lanjut. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Aspose.Cells menawarkan uji coba gratis, tetapi Anda perlu membeli lisensi untuk penggunaan lebih lanjut. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya menghapus beberapa lembar kerja sekaligus?
 Anda dapat mengulang koleksi lembar kerja dan menghapus beberapa lembar menggunakan loop. Pastikan Anda mengelola indeks dengan benar.

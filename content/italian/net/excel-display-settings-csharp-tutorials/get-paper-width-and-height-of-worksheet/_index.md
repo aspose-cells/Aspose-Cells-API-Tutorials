@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Ciascuno di questi blocchi imita il passaggio precedente ma regola l'`PaperSize` proprietà di conseguenza. Semplicemente cambiando l'indicatore di dimensione, ottieni diverse dimensioni di carta senza sforzo. È come cambiare la dimensione di una scatola in base a ciò che devi conservare!
+ Ciascuno di questi blocchi imita il passaggio precedente ma regola l'`PaperSize`proprietà di conseguenza. Semplicemente cambiando l'indicatore di dimensione, ottieni diverse dimensioni di carta senza sforzo. È come cambiare la dimensione di una scatola in base a ciò che devi conservare!
 
 ## Conclusione
 

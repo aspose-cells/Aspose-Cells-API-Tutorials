@@ -17,9 +17,9 @@ Zorg ervoor dat u een aantal dingen bij de hand hebt voordat u met de stappen be
 
 1. .NET-omgeving: U moet een .NET-ontwikkelomgeving hebben ingesteld. Dit kan Visual Studio, Visual Studio Code of een andere compatibele IDE zijn.
    
-2. Aspose.Cells voor .NET: U moet Aspose.Cells voor .NET geïnstalleerd hebben. U kunt het downloaden van[hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: U moet Aspose.Cells voor .NET geïnstalleerd hebben. U kunt het downloaden van[hier](https://releases.aspose.com/cells/net/).
 
-3.  Voorbeeld Excel-bestand: ontvang een voorbeeld Excel-bestand met grafieken. Voor deze tutorial gebruiken we een bestand met de naam`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Zorg ervoor dat het in uw projectmap staat.
+3. Voorbeeld Excel-bestand: ontvang een voorbeeld Excel-bestand met grafieken. Voor deze tutorial gebruiken we een bestand met de naam`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Zorg ervoor dat het in uw projectmap staat.
 
 4. Basiskennis programmeren: Als u bekend bent met C#-programmering, kunt u de cursus gemakkelijk volgen.
 
@@ -56,7 +56,7 @@ Eerst moet u de directory definiëren waar uw Excel-bestand zich bevindt. Stel h
 string sourceDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"` met het pad waar uw Excel-bestand is opgeslagen.
+ Vervangen`"Your Document Directory"`met het pad waar uw Excel-bestand is opgeslagen.
 
 ## Stap 2: Laad de werkmap
 
@@ -117,7 +117,7 @@ Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfu
 
 ## Conclusie
 
-Met deze gids zou u de typen X- en Y-waarden in de grafiekserie succesvol moeten kunnen ophalen en identificeren met Aspose.Cells voor .NET. Of u nu beslissingen neemt op basis van gegevens of deze alleen visueel wilt presenteren, het begrijpen van deze waarden is cruciaal. Ga dus verder, verken de wereld en maak uw gegevenspresentaties betekenisvoller!
+Met deze gids zou u de typen X- en Y-waarden in de grafiekserie succesvol moeten kunnen ophalen en identificeren met Aspose.Cells voor .NET. Of u nu beslissingen neemt op basis van gegevens of deze alleen visueel wilt presenteren, het begrijpen van deze waarden is cruciaal. Ga dus verder, verken de materie en maak uw gegevenspresentaties betekenisvoller!
 
 ## Veelgestelde vragen
 
@@ -134,4 +134,4 @@ Aspose.Cells ondersteunt verschillende typen diagrammen, waaronder kolom-, staaf
  U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9).
 
 ### Is er een tijdelijke licentie beschikbaar voor Aspose.Cells?
- Ja, u kunt een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om het product vrij te kunnen evalueren.
+ Ja, u kunt een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om het product vrij te kunnen beoordelen.

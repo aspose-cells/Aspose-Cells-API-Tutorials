@@ -16,7 +16,7 @@ Trong thế giới quản lý dữ liệu không ngừng phát triển, khả n�
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo hướng dẫn này. Sau đây là những gì bạn cần:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Đây là môi trường lý tưởng để phát triển .NET.
-2. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET từ[Trang tải xuống Aspose](https://releases.aspose.com/cells/net/) . Bạn cũng có thể dùng thử phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+2.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET từ[Trang tải xuống Aspose](https://releases.aspose.com/cells/net/) . Bạn cũng có thể dùng thử phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu rõ hơn về các sắc thái của mã.
 4. Tệp Excel mẫu: Trong hướng dẫn này, chúng tôi sẽ sử dụng tệp Excel có tên "ODataSample.xlsx", tệp này sẽ được lưu trữ trong thư mục làm việc của bạn.
 
@@ -99,7 +99,7 @@ Trong khối này, chúng tôi:
 
 ## Bước 4: Thực hiện & Xác minh
 
- Cuối cùng, bạn cần đảm bảo rằng mã chạy đúng và trả về kết quả mong đợi. Thêm dòng sau vào cuối`Main` phương pháp:
+Cuối cùng, bạn cần đảm bảo rằng mã chạy đúng và trả về kết quả mong đợi. Thêm dòng sau vào cuối`Main` phương pháp:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -126,4 +126,4 @@ Công thức Power Query cho phép người dùng kết nối, kết hợp và c
  Bạn có thể ghé thăm[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và giúp đỡ từ cộng đồng.
 
 ### Tôi có thể mua Aspose.Cells ở đâu?
-Bạn có thể mua Aspose.Cells từ[trang mua hàng](https://purchase.aspose.com/buy).
+ Bạn có thể mua Aspose.Cells từ[trang mua hàng](https://purchase.aspose.com/buy).

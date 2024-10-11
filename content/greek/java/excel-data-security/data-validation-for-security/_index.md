@@ -71,7 +71,7 @@ dataValidation.setFormula2("100");
 ```java
 DataValidation customValidation = worksheet.getDataValidations().add(area);
 customValidation.setType(DataValidationType.CUSTOM);
-customValidation.setFormula1("=ISNUMBER(A1)"); // Ορίστε τον προσαρμοσμένο τύπο σας εδώ
+customValidation.setFormula1("=ISNUMBER(A1)"); // Ορίστε εδώ την προσαρμοσμένη φόρμουλα
 ```
 
 ## Χειρισμός σφαλμάτων επικύρωσης δεδομένων
@@ -109,7 +109,7 @@ worksheet.protect(ProtectionType.ALL);
 workbook.protect(ProtectionType.ALL);
 ```
 
-## Αυτοματοποίηση και επικύρωση δεδομένων
+## Αυτοματισμός και επικύρωση δεδομένων
 
 Η αυτοματοποίηση των διαδικασιών επικύρωσης δεδομένων μπορεί να εξοικονομήσει χρόνο και να μειώσει τα σφάλματα. Εξετάστε το ενδεχόμενο να ενσωματώσετε το Aspose.Cells για Java στις αυτοματοποιημένες ροές εργασίας σας.
 

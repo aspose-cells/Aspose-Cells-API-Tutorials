@@ -83,7 +83,7 @@ Nyní přichází hlavní část: ochrana listu. Aspose.Cells umožňuje nastavi
 worksheet.Protect(ProtectionType.All, "aspose", null);
 ```
 
-Výše uvedený kód bude chránit list. Zde jsme nastavili heslo na „aspose“. Můžete použít libovolné heslo. S touto ochranou uživatelé nebudou moci upravovat váš list bez hesla.
+Výše uvedený kód bude chránit list. Zde jsme nastavili heslo na „aspose“. Nebojte se použít libovolné heslo. S touto ochranou uživatelé nebudou moci upravovat váš list bez hesla.
 
 ## Krok 6: Uložte upravený soubor Excel
 

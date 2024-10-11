@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 다음으로, 통합 문서의 새 인스턴스를 만들어 보겠습니다. 통합 문서를 데이터를 칠할 수 있는 빈 캔버스로 생각해보세요.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 

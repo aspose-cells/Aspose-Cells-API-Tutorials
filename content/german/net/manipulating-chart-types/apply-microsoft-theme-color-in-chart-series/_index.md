@@ -9,7 +9,7 @@ url: /de/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 ---
 ## Einführung
 
-In der heutigen visuell geprägten Welt ist die Art und Weise, wie wir Daten präsentieren, von großer Bedeutung. Diagramme sind oft die unbesungenen Helden der Datenpräsentation, da sie komplexe Informationen in leicht verdauliche visuelle Häppchen umwandeln. Wenn Sie Microsoft Excel verwenden, wissen Sie, wie wichtig es ist, Ihre Diagramme so anzupassen, dass sie zum Branding Ihres Unternehmens passen oder sie einfach ansprechender gestalten. Aber wussten Sie, dass Sie Ihre Diagramme mit Aspose.Cells für .NET noch weiter personalisieren können? In diesem Artikel führen wir Sie durch die Schritte zum Anwenden von Microsoft-Designfarben in Ihren Diagrammreihen, um sicherzustellen, dass Ihre Daten nicht nur hervorstechen, sondern auch zur Ästhetik Ihrer anderen Branding-Materialien passen.
+In der heutigen visuell geprägten Welt ist die Art und Weise, wie wir Daten präsentieren, von großer Bedeutung. Diagramme sind oft die heimlichen Helden der Datenpräsentation, da sie komplexe Informationen in leicht verdauliche visuelle Häppchen umwandeln. Wenn Sie Microsoft Excel verwenden, wissen Sie, wie wichtig es ist, Ihre Diagramme so anzupassen, dass sie zum Branding Ihres Unternehmens passen oder sie einfach ansprechender gestalten. Aber wussten Sie, dass Sie Ihre Diagramme mit Aspose.Cells für .NET noch weiter personalisieren können? In diesem Artikel führen wir Sie durch die Schritte zum Anwenden von Microsoft-Designfarben in Ihren Diagrammreihen, um sicherzustellen, dass Ihre Daten nicht nur hervorstechen, sondern auch zur Ästhetik Ihrer anderen Branding-Materialien passen.
 
 ## Voraussetzungen
 
@@ -79,7 +79,7 @@ So wie wir in einem Buch eine bestimmte Seite aufschlagen, führt uns dieser Sch
 Jetzt ist es an der Zeit, das Diagramm zu finden, das wir ändern möchten. Hier beginnt die wahre Magie!
 
 ```csharp
-// Holen Sie sich das erste Diagramm im Blatt
+//Holen Sie sich das erste Diagramm im Blatt
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Hier greifen wir auf die Farbeinstellung für die Diagrammreihe zurück.
  Nun wenden wir eine Microsoft-Designfarbe an. Wir wählen eine`Accent` Stil, denn wer liebt nicht einen Farbtupfer?
 
 ```csharp
-// Erstellen Sie ein Design im Accent-Stil
+//Erstellen Sie ein Design im Accent-Stil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

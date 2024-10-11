@@ -16,7 +16,7 @@ Creare grafici dinamici e visivamente accattivanti in Excel è un modo fantastic
 Prima di passare alla codifica, ecco alcune cose che dovresti sapere:
 
 - Nozioni di base di C#: una conoscenza di base della programmazione C# sarà utile. Non preoccuparti; non devi essere un esperto, solo avere dimestichezza con la sintassi.
--  Libreria Aspose.Cells installata: assicurati di avere installata la libreria Aspose.Cells per .NET. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/net/)se non l'hai già fatto.
+-  Libreria Aspose.Cells installata: assicurati di avere installata la libreria Aspose.Cells per .NET. Puoi scaricarla da[Qui](https://releases.aspose.com/cells/net/) se non l'hai già fatto.
 - Visual Studio: è essenziale avere familiarità con Visual Studio o con qualsiasi IDE che si preferisce utilizzare per il framework .NET.
 - Un file Excel esistente: per questo esempio, lavoreremo con un file Excel esistente denominato "sampleAddingTextBoxControlInChart.xls". Puoi crearne uno o scaricare un campione.
 
@@ -140,7 +140,7 @@ workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 
 ## Conclusione
 
-Congratulazioni! Hai aggiunto con successo un controllo TextBox a un grafico usando Aspose.Cells per .NET. Questa semplice ma efficace modifica può rendere i tuoi grafici più informativi e visivamente accattivanti. La rappresentazione dei dati è fondamentale per una comunicazione efficace e con strumenti come Aspose hai il potere di migliorare quella presentazione con il minimo sforzo.
+Congratulazioni! Hai aggiunto con successo un controllo TextBox a un grafico usando Aspose.Cells per .NET. Questa modifica semplice ma efficace può rendere i tuoi grafici più informativi e visivamente accattivanti. La rappresentazione dei dati è fondamentale per una comunicazione efficace e con strumenti come Aspose hai il potere di migliorare quella presentazione con il minimo sforzo.
 
 ## Domande frequenti
 

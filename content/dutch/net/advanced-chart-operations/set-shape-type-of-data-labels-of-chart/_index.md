@@ -1,6 +1,6 @@
 ---
-title: Stel het type gegevenslabels van de grafiek in
-linktitle: Stel het type gegevenslabels van de grafiek in
+title: Stel het vormtype van de gegevenslabels van de grafiek in
+linktitle: Stel het vormtype van de gegevenslabels van de grafiek in
 second_title: Aspose.Cells .NET Excel-verwerkings-API
 description: Verbeter uw Excel-grafieken met aangepaste gegevenslabelvormen met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding om uw gegevenspresentatie te verbeteren.
 type: docs
@@ -9,7 +9,7 @@ url: /nl/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 ---
 ## Invoering
 
-In de wereld van datavisualisatie zijn grafieken een veelgebruikte methode om complexe informatie op een toegankelijke manier te presenteren. Echter, niet alle datalabels zijn gelijk! Soms moet u die labels laten opvallen, en het gebruik van verschillende vormen kan een groot verschil maken. Als u de datalabels in uw Excel-grafieken wilt verbeteren met aangepaste vormen, bent u op de juiste plek beland. Deze gids leidt u door het instellen van het vormtype van datalabels in een grafiek met behulp van Aspose.Cells voor .NET. Laten we erin duiken!
+In de wereld van datavisualisatie zijn diagrammen een veelgebruikte methode om complexe informatie op een toegankelijke manier te presenteren. Echter, niet alle datalabels zijn gelijk! Soms moet u die labels laten opvallen, en het gebruik van verschillende vormen kan een groot verschil maken. Als u de datalabels in uw Excel-diagrammen wilt verbeteren met aangepaste vormen, bent u op de juiste plek beland. Deze gids leidt u door het instellen van het vormtype van datalabels in een diagram met behulp van Aspose.Cells voor .NET. Laten we erin duiken!
 
 ## Vereisten
 

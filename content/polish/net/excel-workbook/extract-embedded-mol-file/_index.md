@@ -72,7 +72,7 @@ Przedstawimy proces ekstrakcji na łatwe do wykonania kroki.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- W tym kroku tworzymy nową instancję`Workbook`Klasa, która działa jako pomost do zawartości pliku Excel. Plik jest ładowany tutaj, więc możemy później iterować po arkuszach i znaleźć osadzone obiekty MOL.
+ W tym kroku tworzymy nową instancję`Workbook` Klasa, która działa jako pomost do zawartości pliku Excel. Plik jest ładowany tutaj, więc możemy później iterować po arkuszach i znaleźć osadzone obiekty MOL.
 
 ## Krok 3: Przejrzyj arkusze kalkulacyjne
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- W tym fragmencie kodu używamy`foreach` pętla, aby przejść przez każdy arkusz w naszym skoroszycie. Uzyskując dostęp do`OleObjects` kolekcji, możemy uzyskać dostęp do wszystkich osadzonych obiektów na danym arkuszu. 
+ W tym fragmencie kodu używamy`foreach` pętla, aby przejść przez każdy arkusz w naszym skoroszycie. Uzyskując dostęp do`OleObjects`kolekcji, możemy uzyskać dostęp do wszystkich osadzonych obiektów na danym arkuszu. 
 
 ## Krok 4: Wyodrębnij obiekty OLE
 
@@ -121,7 +121,7 @@ Ta prosta linia wysyła komunikat do konsoli, gdy cała operacja ekstrakcji prze
 
 ## Wniosek
 
-I masz! Udało Ci się wyodrębnić osadzone pliki MOL z pliku Excel przy użyciu Aspose.Cells dla .NET. Teraz możesz wykorzystać swoje nowo nabyte umiejętności i zastosować je w innych scenariuszach, w których musisz wyodrębnić pliki obiektów z arkuszy Excel. Ta metoda jest nie tylko skuteczna, ale także otwiera drzwi do obsługi różnych operacji związanych z Excelem bez wysiłku.
+masz! Udało Ci się wyodrębnić osadzone pliki MOL z pliku Excel przy użyciu Aspose.Cells dla .NET. Teraz możesz wykorzystać swoje nowo nabyte umiejętności i zastosować je w innych scenariuszach, w których musisz wyodrębnić pliki obiektów z arkuszy Excel. Ta metoda jest nie tylko skuteczna, ale także otwiera drzwi do obsługi różnych operacji związanych z Excelem bez wysiłku.
 
 ## Najczęściej zadawane pytania
 
@@ -132,7 +132,7 @@ Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do manipulowania p
 Oczywiście! Aspose.Cells pozwala wyodrębnić różne osadzone formaty plików, takie jak PDF-y, obrazy i inne, nie tylko pliki MOL.
 
 ### Czy muszę kupić Aspose.Cells, żeby z niego korzystać?  
-Chociaż dostępna jest bezpłatna wersja próbna, do korzystania z pełnych funkcji potrzebna jest licencja. Możesz[kup tutaj](https://purchase.aspose.com/buy).
+ Chociaż dostępna jest bezpłatna wersja próbna, do korzystania z pełnych funkcji potrzebna jest licencja. Możesz[kup tutaj](https://purchase.aspose.com/buy).
 
 ### Czy do przeprowadzenia tego procesu konieczne jest użycie programu Visual Studio?  
 Chociaż pokazaliśmy na przykładzie programu Visual Studio, do uruchomienia projektu możesz użyć dowolnego środowiska IDE zgodnego z językiem C#.

@@ -2,7 +2,7 @@
 title: XLSB Dosyasının Harici Bağlantısını Oku ve Yaz
 linktitle: XLSB Dosyasının Harici Bağlantısını Oku ve Yaz
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kapsamlı eğitimde, Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin.
+description: Bu kapsamlı eğitimde Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin.
 type: docs
 weight: 130
 url: /tr/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Bu kod parçacığında,`"Your Document Directory"` Ve`"Your Document Directory"`giriş ve çıkış dosyalarınızın bulunacağı ilgili yolları getirdiği varsayılır. İsterseniz bu yöntemleri sabit kodlu yollarla değiştirebilirsiniz.
+ Bu kod parçacığında,`"Your Document Directory"` Ve`"Your Document Directory"` giriş ve çıkış dosyalarınızın bulunacağı ilgili yolları getirdiği varsayılır. İsterseniz bu yöntemleri sabit kodlu yollarla değiştirebilirsiniz.
 
 ## Adım 2: XLSB Dosyasını Yükleyin
 
@@ -68,7 +68,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Burada,`DataConnections[0]` çalışma kitabındaki ilk bağlantıyı ifade eder. Bunu bir`DBConnection` daha fazla düzenleme için yazın.
+ Burada,`DataConnections[0]`çalışma kitabındaki ilk bağlantıyı ifade eder. Bunu bir`DBConnection` daha fazla düzenleme için yazın.
 
 ## Adım 4: Bağlantı Bilgilerini Çıkarın
 
@@ -125,7 +125,7 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak XLSB dosyalarındaki ha
 XLSB dosyası, elektronik tablo verilerini ikili biçimde saklayan, böylece daha kompakt ve daha hızlı açılan bir Excel dosya biçimidir.
 
 ### Aspose.Cells for .NET'i nasıl kurarım?  
-Bunu Aspose web sitesinden kolayca indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+ Bunu Aspose web sitesinden kolayca indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
  Evet! Ücretsiz denemeyle başlayabilirsiniz, bu da mevcuttur[Burada](https://releases.aspose.com/).

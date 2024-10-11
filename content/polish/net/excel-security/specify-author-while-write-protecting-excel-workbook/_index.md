@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR SOURCE DIRECTORY"` I`"YOUR OUTPUT DIRECTORY"` rzeczywistymi ścieżkami na twojej maszynie. Pomyśl o tym jak o stworzeniu uporządkowanego miejsca pracy zanim zaczniesz tworzyć swoje arcydzieło!
+ Pamiętaj o wymianie`"YOUR SOURCE DIRECTORY"` I`"YOUR OUTPUT DIRECTORY"` z rzeczywistymi ścieżkami na twojej maszynie. Pomyśl o tym jak o stworzeniu uporządkowanego miejsca pracy zanim zaczniesz tworzyć swoje arcydzieło!
 
 ## Krok 2: Utwórz pusty skoroszyt
 
@@ -89,11 +89,11 @@ Ostatnim krokiem jest zapisanie skoroszytu w pożądanym formacie. W tym przypad
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Tutaj plik wyjściowy zostanie zapisany w określonym przez Ciebie katalogu wyjściowym pod nazwą`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. To tutaj Twoja ciężka praca w końcu się opłaca i możesz udostępnić swój skoroszyt innym, wiedząc, że jest dobrze chroniony!
+ Tutaj plik wyjściowy zostanie zapisany w określonym przez Ciebie katalogu wyjściowym pod nazwą`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`To tutaj Twoja ciężka praca w końcu się opłaca i możesz udostępnić swój skoroszyt innym, wiedząc, że jest dobrze chroniony!
 
 ## Wniosek
 
-masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić ochronę przed zapisem za pomocą hasła, określić autora i bezproblemowo zapisać go za pomocą Aspose.Cells dla .NET. Ta kombinacja funkcjonalności nie tylko zabezpieczy Twoje dane, ale także zachowa ich integralność i zapewni właściwe przypisanie.
+I masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić ochronę przed zapisem za pomocą hasła, określić autora i bezproblemowo zapisać go za pomocą Aspose.Cells dla .NET. Ta kombinacja funkcjonalności nie tylko zabezpieczy Twoje dane, ale także zachowa ich integralność i zapewni właściwe przypisanie.
 
 ## Najczęściej zadawane pytania
 
@@ -110,4 +110,4 @@ masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić ochr
 Oczywiście! Aspose.Cells działa bezproblemowo zarówno w aplikacjach desktopowych, jak i internetowych, korzystając z .NET.
 
 ### Co powinienem zrobić, jeśli potrzebuję wsparcia?  
- W przypadku pytań i rozwiązywania problemów, społeczność Aspose jest bardzo pomocna. Możesz odwiedzić ich[forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.
+ przypadku pytań i rozwiązywania problemów, społeczność Aspose jest bardzo pomocna. Możesz odwiedzić ich[forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.

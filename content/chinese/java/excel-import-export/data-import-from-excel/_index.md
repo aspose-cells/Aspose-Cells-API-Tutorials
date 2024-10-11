@@ -8,7 +8,7 @@ weight: 16
 url: /zh/java/excel-import-export/data-import-from-excel/
 ---
 
-在本综合指南中，我们将引导您使用功能强大的 Aspose.Cells for Java 库从 Excel 文件导入数据的过程。无论您是在进行数据分析、报告还是任何需要 Excel 数据集成的 Java 应用程序，Aspose.Cells 都能简化任务。让我们开始吧。
+在本综合指南中，我们将引导您使用功能强大的 Aspose.Cells for Java 库从 Excel 文件导入数据的过程。无论您是在进行数据分析、报告还是任何需要 Excel 数据集成的 Java 应用程序，Aspose.Cells 都可以简化任务。让我们开始吧。
 
 ## 先决条件
 

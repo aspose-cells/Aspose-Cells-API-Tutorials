@@ -67,7 +67,7 @@ Workbook workbook = new Workbook();
 在我們新建立的工作簿中，我們需要取得將輸入資料的工作表的參考。如果工作簿是我們的畫布，那麼工作表就是我們的調色盤。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 在這裡，我們訪問第一個工作表（索引`0`）。
@@ -138,7 +138,7 @@ Console.WriteLine("HowToCreateLineChart executed successfully.");
 
 ## 結論
 
-使用 Aspose.Cells for .NET 建立折線圖是讓資料栩栩如生的有效方法。透過遵循此逐步指南，您可以輕鬆地視覺化資料集中的趨勢和關係。無論您是經驗豐富的開發人員還是剛入門，Aspose.Cells 都能為您提供自動化資料視覺化任務的靈活性和強大功能。 
+使用 Aspose.Cells for .NET 建立折線圖是讓資料栩栩如生的有效方法。透過遵循此逐步指南，您可以輕鬆地視覺化資料集中的趨勢和關係。無論您是經驗豐富的開發人員還是剛入門，Aspose.Cells 都能為您提供自動化資料視覺化任務的靈活性和功能。 
 
 ## 常見問題解答
 

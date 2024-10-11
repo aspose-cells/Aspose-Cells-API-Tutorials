@@ -16,7 +16,7 @@ Wenn Sie mit großen Excel-Arbeitsblättern arbeiten, kann die Möglichkeit, bes
 Bevor wir mit dem eigentlichen Codierungsteil beginnen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg benötigen:
 
 ### Grundkenntnisse in C#
-- Kenntnisse in der C#-Programmierung sind unbedingt erforderlich, da wir diese Sprache zum Schreiben unseres Codes verwenden werden.
+- Kenntnisse in der C#-Programmierung sind unbedingt erforderlich, da wir unseren Code in dieser Sprache schreiben werden.
 
 ### Aspose.Cells installiert
 -  Stellen Sie sicher, dass Aspose.Cells für .NET in Ihrer Entwicklungsumgebung installiert ist. Wenn Sie es noch nicht installiert haben, gehen Sie zu[Download-Link](https://releases.aspose.com/cells/net/) um loszulegen.

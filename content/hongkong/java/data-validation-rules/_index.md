@@ -27,7 +27,7 @@ Aspose.Cells 使您能夠根據您的特定需求建立自訂資料驗證規則�
 ### [Excel 中的級聯下拉式選單](./cascading-dropdowns-in-excel/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中建立級聯下拉清單。本逐步指南提供了高效 Excel 電子表格操作的原始程式碼和專家提示。
 ### [電子表格中的日期驗證](./date-validation-in-spreadsheets/)
-了解如何使用 Aspose.Cells for Java 在 Excel 試算表中執行日期驗證。透過我們的逐步指南確保資料的準確性和完整性。探索強大的 Excel 操作技術。
+了解如何使用 Aspose.Cells for Java 在 Excel 電子表格中執行日期驗證。透過我們的逐步指南確保資料的準確性和完整性。探索強大的 Excel 操作技術。
 ### [數值資料驗證技巧](./numeric-data-validation-tips/)
 使用 Aspose.Cells for Java 掌握數位資料驗證。了解如何確保 Java 應用程式中的資料準確性並防止錯誤。
 ### [Excel 中的清單資料驗證](./list-data-validation-in-excel/)

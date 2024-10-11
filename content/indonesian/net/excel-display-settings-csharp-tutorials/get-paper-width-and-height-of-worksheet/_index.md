@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Masing-masing blok ini meniru langkah sebelumnya tetapi menyesuaikan`PaperSize` properti yang sesuai. Hanya dengan mengubah indikator ukuran, Anda akan memperoleh dimensi kertas yang berbeda dengan mudah. Ini seperti mengubah ukuran kotak berdasarkan apa yang perlu Anda simpan!
+ Masing-masing blok ini meniru langkah sebelumnya tetapi menyesuaikan`PaperSize`properti yang sesuai. Hanya dengan mengubah indikator ukuran, Anda akan memperoleh dimensi kertas yang berbeda dengan mudah. Ini seperti mengubah ukuran kotak berdasarkan apa yang perlu Anda simpan!
 
 ## Kesimpulan
 

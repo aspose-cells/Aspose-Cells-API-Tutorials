@@ -107,7 +107,7 @@ Teraz, gdy nasze nagłówki wyglądają szykownie, zwróćmy uwagę na stopki. Z
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Wyjaśnienie: W lewej stopce wstawiamy niestandardową wiadomość „Witaj świecie!” wraz z tekstem`123` w innym stylu czcionki — Courier New.
+Wyjaśnienie: W lewej stopce wstawiamy niestandardową wiadomość „Witaj świecie!” wraz z tekstem`123` w innym stylu czcionki — Courier New.
 
 ## Krok 7: Konfiguracja stopki środkowej
 

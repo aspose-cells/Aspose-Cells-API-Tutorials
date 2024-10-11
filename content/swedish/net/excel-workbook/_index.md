@@ -41,7 +41,7 @@ Visste du att Excel kan innehålla inbäddade filer? Om du någonsin har behövt
 
 ## Uppdatering av Power Query-objekt
 
- Power Queries kan vara en riktig spelväxling i datamanipulation, vilket gör att du kan effektivisera hur information importeras till dina Excel-filer. Om du undrar hur du uppdaterar Power Query-formelobjekt i Excel med Aspose.Cells för .NET, vår handledning om[Uppdatera Power Query Formel Objekt](./update-power-query-formula-item/)är bara biljetten. Det ger en enkel, steg-för-steg-metod för att modifiera dessa formelobjekt, så att du kan hålla dina data färska och korrekt återspeglas i dina arbetsböcker.
+ Power Queries kan vara en riktig spelväxling inom datamanipulation, vilket gör att du kan effektivisera hur information importeras till dina Excel-filer. Om du undrar hur du uppdaterar Power Query-formelobjekt i Excel med Aspose.Cells för .NET, vår handledning om[Uppdatera Power Query Formel Objekt](./update-power-query-formula-item/)är bara biljetten. Det ger en enkel, steg-för-steg-metod för att modifiera dessa formelobjekt, så att du kan hålla dina data färska och korrekt återspeglas i dina arbetsböcker.
 
 ## Hantera förhandsgranskningar
 

@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Daha sonra, bir örnek oluşturuyoruz`Workbook` Excel dosyasını temsil eden sınıf.
+ Daha sonra, bir örnek oluşturuyoruz`Workbook`Excel dosyasını temsil eden sınıf.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Bu satır yeni bir çalışma kitabı başlatır ve onu işleme hazır hale geti
 
 ## Adım 3: PageSetup Referansını Edinin
 
- Şimdi çalışma sayfalarına erişelim`PageSetup`özellik. Yazdırma ayarlarımızın çoğunun yapılandırılacağı yer burasıdır.
+ Şimdi çalışma sayfalarına erişelim`PageSetup` özellik. Yazdırma ayarlarımızın çoğunun yapılandırılacağı yer burasıdır.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

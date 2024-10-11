@@ -2,7 +2,7 @@
 title: Excel-werkblad verwijderen op index C#-zelfstudie
 linktitle: Excel-werkblad verwijderen op index
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u een Excel-werkblad op index verwijdert in C# met Aspose.Cells. Volg deze eenvoudige stapsgewijze tutorial om uw werkmapbeheer te vereenvoudigen.
+description: Leer hoe u een Excel-werkblad op index in C# verwijdert met Aspose.Cells. Volg deze eenvoudige stapsgewijze tutorial om uw werkmapbeheer te vereenvoudigen.
 type: docs
 weight: 30
 url: /nl/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-csharp-tutorial/
@@ -55,7 +55,7 @@ Eerst moet u de locatie van uw Excel-bestand definiëren. Hier geeft u het progr
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Gewoon vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar je`book1.xls` bestand bevindt. Zie dit als het geven van het juiste adres aan uw GPS voordat u aan een roadtrip begint!
+ Gewoon vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar je`book1.xls`bestand bevindt. Zie dit als het geven van het juiste adres aan uw GPS voordat u aan een roadtrip begint!
 
 ## Stap 4: Open het Excel-bestand met een FileStream
 

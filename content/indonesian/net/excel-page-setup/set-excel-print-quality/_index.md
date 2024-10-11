@@ -77,7 +77,7 @@ Di sinilah keajaiban terjadi! Kita dapat mengatur kualitas cetak untuk lembar ke
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Penjelasan:`PrintQuality`properti dapat diatur ke nilai apa pun, biasanya antara 75 dan 600 dpi (titik per inci). Dalam kasus ini, kami mengaturnya ke 180 dpi, yang bagus untuk keseimbangan yang baik antara kualitas dan ukuran berkas.
+ Penjelasan:`PrintQuality` properti dapat diatur ke nilai apa pun, biasanya antara 75 dan 600 dpi (titik per inci). Dalam kasus ini, kami mengaturnya ke 180 dpi, yang bagus untuk keseimbangan yang baik antara kualitas dan ukuran berkas.
 
 ## Langkah 5: Menyimpan Buku Kerja
 

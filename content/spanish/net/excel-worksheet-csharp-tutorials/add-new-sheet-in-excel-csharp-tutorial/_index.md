@@ -15,7 +15,7 @@ url: /es/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 
 Antes de comenzar a codificar, asegurémonos de que tienes todo lo que necesitas para este proyecto:
 
-1. Visual Studio: Asegúrate de tener instalado Visual Studio. Si aún no lo tienes, puedes descargarlo desde el sitio[Sitio web de Microsoft](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Asegúrate de tener instalado Visual Studio. Si aún no lo tienes, puedes descargarlo desde el sitio[Sitio web de Microsoft](https://visualstudio.microsoft.com/).
 2.  Biblioteca Aspose.Cells: Necesitará la biblioteca Aspose.Cells para .NET. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
 3. .NET Framework: asegúrese de que su proyecto esté configurado para una versión compatible de .NET Framework (normalmente, .NET Framework 4.0 o superior funciona bien).
 4. Conocimientos básicos de C#: la familiaridad con C# y la programación orientada a objetos le ayudará a comprender mejor el código.
@@ -62,7 +62,7 @@ En el código anterior, declaramos la ruta donde residirá nuestro archivo Excel
 A continuación, crearemos una instancia de la clase Workbook. Esta clase es la columna vertebral de cualquier operación relacionada con Excel que realice.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Ahora que nuestro libro de trabajo está listo, ¡agreguemos esa nueva hoja!
 int i = workbook.Worksheets.Add();
 ```
 
- Aquí, estamos usando el`Add()` método de la`Worksheets` colección presente dentro de la`Workbook` clase. El método devuelve un índice (`i`) de la hoja recién agregada. Es como agregar una página a su cuaderno: ¡simple y eficiente!
+ Aquí, estamos usando el`Add()` método de la`Worksheets` colección presente dentro de la`Workbook` clase. El método devuelve un índice (`i`de la hoja recién agregada. Es como agregar una página a su cuaderno: ¡simple y eficiente!
 
 ## Paso 4: Ponle nombre a tu nueva hoja de trabajo
 
@@ -119,7 +119,7 @@ Aspose.Cells para .NET es una potente biblioteca para crear, manipular y convert
  Sí, solo llama al`Add()` ¡Método varias veces y haga referencia a cada hoja por su índice!
 
 ### ¿Existe una versión de prueba gratuita de Aspose.Cells?  
-¡Por supuesto! Puedes descargar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
+ ¡Por supuesto! Puedes descargar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### ¿Puedo formatear la nueva hoja después de agregarla?  
 ¡Por supuesto! Puedes aplicar estilos, formatos e incluso fórmulas a tus hojas de cálculo utilizando las funciones de la biblioteca.

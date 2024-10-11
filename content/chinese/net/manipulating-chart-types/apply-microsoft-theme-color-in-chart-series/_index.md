@@ -138,7 +138,7 @@ chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 workbook.Save(outputDir + "outputMicrosoftThemeColorInChartSeries.xlsx");
 ```
 
-您的 Excel 文件现在充满色彩和个性，可以展示了！
+您的 Excel 文件现在充满色彩和个性，已准备好展示！
 
 ## 步骤 10：确认信息
 

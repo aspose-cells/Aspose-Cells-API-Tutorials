@@ -38,7 +38,7 @@ Personalizzare la forma delle etichette dati può rendere i grafici più interat
 
 ## Impostazione dei dati di categoria e dei dati del grafico
 
- Organizzare e visualizzare in modo efficiente i dati di categoria del grafico può essere complicato. Aspose.Cells per .NET offre soluzioni fluide per impostare i dati di categoria e i dati del grafico, assicurando che i tuoi elementi visivi siano sia accurati che accattivanti. Ciò è particolarmente utile quando si gestiscono grandi set di dati o si creano grafici dinamici che si aggiornano in base agli input dell'utente. Dai un'occhiata a questi tutorial per padroneggiare l'impostazione[dati di categoria](./setting-category-data/) E[dati del grafico](./setting-chart-data/) nei tuoi file Excel.
+ Organizzare e visualizzare in modo efficiente i dati di categoria del grafico può essere complicato. Aspose.Cells per .NET offre soluzioni fluide per impostare i dati di categoria e i dati del grafico, assicurando che i tuoi elementi visivi siano sia accurati che accattivanti. Ciò è particolarmente utile quando si gestiscono grandi set di dati o si creano grafici dinamici che si aggiornano in base agli input dell'utente. Dai un'occhiata a questi tutorial per padroneggiare l'impostazione[dati di categoria](./setting-category-data/) E[dati del grafico](./setting-chart-data/) nei file Excel.
 
 ## Imposta il codice del formato dei valori della serie di grafici
 

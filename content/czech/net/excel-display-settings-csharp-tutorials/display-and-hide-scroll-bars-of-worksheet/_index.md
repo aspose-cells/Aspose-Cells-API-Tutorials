@@ -45,7 +45,7 @@ Zde zadáte cestu k souboru Excel, se kterým chcete pracovat.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Nahradit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou, kde je uložen váš soubor Excel. To vašemu programu umožní najít potřebné soubory, se kterými bude manipulovat.
+ Nahradit`YOUR DOCUMENT DIRECTORY`se skutečnou cestou, kde je uložen váš soubor Excel. To vašemu programu umožní najít potřebné soubory, se kterými bude manipulovat.
 
 ## Krok 2: Vytvořte stream souborů
 
@@ -56,7 +56,7 @@ Zde vytvoříte souborový proud pro čtení souboru Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream`třída umožňuje číst ze souborů a zapisovat do nich. V tomto případě otevíráme náš soubor Excel v režimu čtení.
+ The`FileStream` třída umožňuje číst ze souborů a zapisovat do nich. V tomto případě otevíráme náš soubor Excel v režimu čtení.
 
 ## Krok 3: Vytvořte instanci objektu sešitu
 
@@ -123,7 +123,7 @@ Pomocí těchto jednoduchých kroků jste se naučili, jak zobrazit a skrýt pos
  Ano! Jen je potřeba nastavit`IsVScrollBarVisible` a`IsHScrollBarVisible` zpět k`true`.
 
 ### Je Aspose.Cells zdarma k použití?  
- Aspose.Cells není zcela zdarma, ale můžete si jej po omezenou dobu zdarma vyzkoušet nebo zvážit nákup[dočasnou licenci](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells není zcela zdarma, ale můžete si jej po omezenou dobu zdarma vyzkoušet nebo zvážit nákup[dočasnou licenci](https://purchase.aspose.com/temporary-license/).
 
 ### S jakými typy souborů aplikace Excel mohu pomocí Aspose.Cells manipulovat?  
 Můžete pracovat s různými formáty Excelu, včetně .xls, .xlsx, .xlsm, .xlsb atd.

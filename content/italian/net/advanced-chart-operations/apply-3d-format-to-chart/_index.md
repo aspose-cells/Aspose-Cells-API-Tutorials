@@ -155,7 +155,7 @@ bevel.Height = 2;
 bevel.Width = 5;
 ```
 
-Proprio come uno scultore modella la pietra, noi creiamo la profondità che dà vita al nostro grafico!
+Proprio come uno scultore modella la pietra, noi creiamo profondità che danno vita al nostro grafico!
 
 ## Fase 10: personalizzare il materiale della superficie e l'illuminazione
 

@@ -26,7 +26,7 @@ url: /el/net/excel-page-breaks/excel-clear-all-page-breaks/
 Για να ξεκινήσετε με το Aspose.Cells για .NET, πρέπει να εισαγάγετε τα απαραίτητα πακέτα. Ακολουθεί μια βελτιωμένη λίστα ελέγχου:
 
 1. Ανοίξτε το έργο σας στο Visual Studio.
-2.  Μεταβείτε στο`Project` >`Manage NuGet Packages`.
+2.  Πηγαίνετε στο`Project` >`Manage NuGet Packages`.
 3.  Αναζητήστε το Aspose.Cells και κάντε κλικ`Install`.
 4. Προσθέστε τα ακόλουθα χρησιμοποιώντας οδηγίες στο αρχείο C#:
 

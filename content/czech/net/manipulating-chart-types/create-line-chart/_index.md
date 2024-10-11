@@ -50,14 +50,14 @@ Prvním krokem je definovat, kam chcete výstupní soubor uložit. Je to jako na
 // Výstupní adresář
 string outputDir = "Your Output Directory";
 ```
- Nahradit`"Your Output Directory"`se skutečnou cestou, kam chcete uložit vygenerovaný soubor Excel.
+ Nahradit`"Your Output Directory"` se skutečnou cestou, kam chcete uložit vygenerovaný soubor Excel.
 
 ## Krok 2: Vytvořte instanci objektu sešitu
 
 Dále musíme vytvořit novou instanci sešitu. Přemýšlejte o sešitu jako o plátně, kde bude proudit vaše kreativita. 
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 Tento řádek inicializuje nový sešit, který bude obsahovat všechna vaše data a vizuály.

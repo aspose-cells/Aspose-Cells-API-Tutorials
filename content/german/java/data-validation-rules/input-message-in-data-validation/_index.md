@@ -63,7 +63,7 @@ validation.setInputMessage("Please enter a number between 1 and 100.");
 
 ## Fehlermeldungen zur Datenvalidierung
 
-Zusätzlich zu Eingabenachrichten können Sie Fehlerwarnungen einrichten, um Benutzer zu benachrichtigen, wenn sie ungültige Daten eingeben.
+Zusätzlich zu Eingabemeldungen können Sie Fehlerwarnungen einrichten, um Benutzer zu benachrichtigen, wenn sie ungültige Daten eingeben.
 
 ```java
 // Fehlerwarnung für die Datenüberprüfung festlegen

@@ -84,7 +84,7 @@ Bây giờ, bạn đã tải bảng tính của mình một cách dễ dàng!
 
 ### Bước 3: Truy cập vào trang tính đầu tiên
 
-Tiếp theo, chúng ta sẽ truy cập vào trang tính đầu tiên có biểu đồ của chúng ta. 
+Tiếp theo, chúng ta sẽ truy cập vào bảng tính đầu tiên có biểu đồ của chúng ta. 
 
 ```csharp
 // Truy cập vào bảng tính đầu tiên

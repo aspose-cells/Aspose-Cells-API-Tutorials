@@ -114,4 +114,4 @@ workbook.Save(dataDir + "output.xls");
 不，隐藏标签是 Excel 文件格式所特有的，例如`.xls`和`.xlsx`。CSV 和 PDF 等文件格式首先不支持制表符。
 
 ### Aspose.Cells 是通过编程方式操作 Excel 文件的最佳工具吗？  
-Aspose.Cells 是 .NET 中用于操作 Excel 文件的最强大的库之一。它提供了广泛的功能，并且无需在机器上安装 Microsoft Excel 即可运行。
+Aspose.Cells 是 .NET 中用于处理 Excel 文件的最强大的库之一。它提供了广泛的功能，并且无需在机器上安装 Microsoft Excel 即可运行。

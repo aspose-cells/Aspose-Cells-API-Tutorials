@@ -12,7 +12,7 @@ url: /el/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 
 ### Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
-- Εγκαταστάθηκε η βιβλιοθήκη Aspose.Cells για Java.
+- Εγκαταστάθηκε η βιβλιοθήκη Aspose.Cells for Java.
 - Βασικές γνώσεις προγραμματισμού Java.
 
 ## Βήμα 1: Ρύθμιση του έργου Java

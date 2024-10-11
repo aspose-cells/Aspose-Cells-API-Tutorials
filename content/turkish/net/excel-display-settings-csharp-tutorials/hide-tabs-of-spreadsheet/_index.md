@@ -38,7 +38,7 @@ Kodlamaya başlamadan önce geliştirme ortamınızı doğru bir şekilde kurman
 1.  Yeni Bir Proje Oluşturun: Visual Studio'yu açın, yeni bir Konsol Uygulaması projesi oluşturun ve buna açıklayıcı bir ad verin, örneğin:`HideExcelTabs`.
 2. Aspose.Cells Referansını Ekleme: NuGet Paket Yöneticisine gidin ve “Aspose.Cells for .NET” ifadesini arayın. Bunu projenize yükleyin.
  Alternatif olarak, çevrimdışı çalışıyorsanız şunları yapabilirsiniz:[.NET için Aspose.Cells'i indirin](https://releases.aspose.com/cells/net/) ve DLL dosyasını proje referanslarınıza manuel olarak ekleyin.
-3.  Excel Dosyasını Hazırlayın: Değiştirmek istediğiniz Excel dosyasını yerleştirin (örneğin,`book1.xls`) proje dizininizde. Dosya yolunu bildiğinizden emin olun.
+3. Excel Dosyasını Hazırlayın: Değiştirmek istediğiniz Excel dosyasını yerleştirin (örneğin,`book1.xls`) proje dizininizde. Dosya yolunu bildiğinizden emin olun.
 
 ## Adım 2: Excel Dosyasını Açın
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Bu adımda, bir örnek oluşturuyoruz`Workbook` Excel dosyasını temsil eden sınıf. Excel dosyanızın yolu bir parametre olarak sağlanır. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"`Excel dosyanızın bulunduğu gerçek dosya yolunu belirtin.
+ Bu adımda, bir örnek oluşturuyoruz`Workbook` Excel dosyasını temsil eden sınıf. Excel dosyanızın yolu bir parametre olarak sağlanır. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın bulunduğu gerçek dosya yolunu belirtin.
 
 Çalışma kitabını yükleyerek dosyayla bir bağlantı kurarsınız ve bu da daha fazla değişiklik yapmanıza olanak tanır. Bu olmadan hiçbir değişiklik yapılamaz.
 
@@ -97,7 +97,7 @@ Kaydetme çok önemlidir. Bu adım olmadan, çalışma kitabında yapılan tüm 
 
 İşte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasındaki sayfa sekmelerini başarıyla gizlediniz. Bu basit ayarlama, özellikle tüm çalışma sekmelerini görmeleri gerekmeyen müşterilerle veya ekip üyeleriyle dosyaları paylaşırken Excel belgelerinizin daha cilalı ve odaklanmış görünmesini sağlayabilir.
 
-Aspose.Cells for .NET ile Excel dosyalarını sekmeleri gizlemekten dinamik raporlar, grafikler ve çok daha fazlasını oluşturmaya kadar güçlü yollarla düzenleyebilirsiniz. Bu araca yeniyseniz, keşfetmekten çekinmeyin[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha ayrıntılı özellikler ve yetenekler için.
+ Aspose.Cells for .NET ile Excel dosyalarını sekmeleri gizlemekten dinamik raporlar, grafikler ve çok daha fazlasını oluşturmaya kadar güçlü yollarla düzenleyebilirsiniz. Bu araca yeniyseniz, keşfetmekten çekinmeyin[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha ayrıntılı özellikler ve yetenekler için.
 
 ## SSS
 
@@ -105,7 +105,7 @@ Aspose.Cells for .NET ile Excel dosyalarını sekmeleri gizlemekten dinamik rapo
  Hayır, sekmeleri gizleme`ShowTabs` özellik tüm sayfa sekmelerini aynı anda gizler veya gösterir. Tek tek sayfaları gizlemek istiyorsanız, her sayfanın görünürlüğünü ayrı ayrı ayarlayabilirsiniz.
 
 ### Excel'de gizli sekmelerin önizlemesini nasıl görebilirim?  
- Şunu açıp kapatabilirsiniz:`ShowTabs` mülk geri`true` Sekmeleri önizlemeniz veya geri yüklemeniz gerekirse aynı kod yapısını kullanın.
+ Şunu açıp kapatabilirsiniz:`ShowTabs`mülk geri`true` Sekmeleri önizlemeniz veya geri yüklemeniz gerekirse aynı kod yapısını kullanın.
 
 ### Sekmeleri gizlemek çalışma kitabının verilerini veya işlevselliğini etkiler mi?  
 Hayır, sekmeleri gizlemek yalnızca görsel görünümü değiştirir. Çalışma kitabındaki veriler ve işlevler etkilenmez.

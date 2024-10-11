@@ -2,7 +2,7 @@
 title: تطبيق السمات في الرسم البياني
 linktitle: تطبيق السمات في الرسم البياني
 second_title: واجهة برمجة تطبيقات معالجة Excel الخاصة بـ Aspose.Cells .NET
-description: تعرف على كيفية تطبيق السمات على المخططات البيانية في Excel باستخدام Aspose.Cells for .NET من خلال دليلنا السهل المتابعة خطوة بخطوة. قم بتحسين عرض البيانات لديك.
+description: تعرف على كيفية تطبيق السمات على المخططات البيانية في Excel باستخدام Aspose.Cells for .NET من خلال دليلنا السهل المتابعة خطوة بخطوة. قم بتحسين عرض البيانات.
 type: docs
 weight: 10
 url: /ar/net/setting-chart-appearance/apply-themes-in-chart/
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 مع وجود ورقة العمل في متناول أيدينا، يمكننا الآن الوصول إلى الرسم البياني الذي نعتزم تصميمه.
 
 ```csharp
-// احصل على الرسم البياني الأول في الورقة
+//احصل على الرسم البياني الأول في الورقة
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 // احصل على لون الخلايا من SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// إنشاء موضوع بأسلوب Accent
+//إنشاء موضوع بأسلوب Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

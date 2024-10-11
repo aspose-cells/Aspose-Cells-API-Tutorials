@@ -15,7 +15,7 @@ Bạn đã bao giờ thấy mình cần thêm một trang tính mới vào tệp
 
 Trước khi thực hiện bất kỳ mã hóa nào, hãy đảm bảo bạn có mọi thứ cần thiết cho dự án này:
 
-1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
 2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Đảm bảo rằng dự án của bạn được thiết lập cho phiên bản tương thích của .NET Framework (thường thì .NET Framework 4.0 trở lên sẽ hoạt động tốt).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với C# và lập trình hướng đối tượng sẽ giúp bạn hiểu mã tốt hơn.
@@ -62,7 +62,7 @@ Trong đoạn mã trên, chúng ta đang khai báo đường dẫn nơi tệp Ex
 Tiếp theo, chúng ta sẽ tạo một phiên bản của lớp Workbook. Lớp này là xương sống của bất kỳ hoạt động nào liên quan đến Excel mà bạn sẽ thực hiện.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Bây giờ bảng tính của chúng ta đã sẵn sàng, hãy thêm trang tính
 int i = workbook.Worksheets.Add();
 ```
 
- Ở đây, chúng tôi đang sử dụng`Add()` phương pháp của`Worksheets` bộ sưu tập hiện diện trong`Workbook` lớp. Phương pháp trả về một chỉ mục (`i`) của trang tính mới được thêm vào. Giống như việc thêm một trang vào sổ tay của bạn - đơn giản và hiệu quả!
+ Ở đây, chúng tôi đang sử dụng`Add()` phương pháp của`Worksheets` bộ sưu tập hiện diện trong`Workbook` lớp. Phương pháp trả về một chỉ mục (`i`của trang tính mới được thêm vào. Giống như việc thêm một trang vào sổ tay của bạn - đơn giản và hiệu quả!
 
 ## Bước 4: Đặt tên cho trang tính mới của bạn
 
@@ -119,7 +119,7 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ để tạo, thao tác v
  Vâng, chỉ cần gọi`Add()` phương pháp này nhiều lần và tham chiếu đến từng trang theo mục lục!
 
 ### Có phiên bản dùng thử miễn phí của Aspose.Cells không?  
-Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Tôi có thể định dạng trang tính mới sau khi thêm nó không?  
 Hoàn toàn được! Bạn có thể áp dụng các kiểu, định dạng và thậm chí cả công thức vào bảng tính của mình bằng các tính năng của thư viện.

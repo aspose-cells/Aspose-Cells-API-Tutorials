@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR SOURCE DIRECTORY"` Ve`"YOUR OUTPUT DIRECTORY"`makinenizde gerçek yollarla. Bunu, şaheserinizi yaratmaya başlamadan önce düzenli bir çalışma alanı oluşturmak olarak düşünün!
+ Değiştirdiğinizden emin olun`"YOUR SOURCE DIRECTORY"` Ve`"YOUR OUTPUT DIRECTORY"` makinenizde gerçek yollarla. Bunu, şaheserinizi yaratmaya başlamadan önce düzenli bir çalışma alanı oluşturmak olarak düşünün!
 
 ## Adım 2: Boş bir Çalışma Kitabı Oluşturun
 
@@ -110,4 +110,4 @@ Ve işte karşınızda! Bir Excel çalışma kitabı oluşturmayı, bir parola i
 Kesinlikle! Aspose.Cells, .NET kullanan hem masaüstü hem de web uygulamalarında sorunsuz bir şekilde çalışır.
 
 ### Desteğe ihtiyacım olursa ne yapmalıyım?  
- Sorularınız ve sorun giderme için Aspose topluluğu çok yardımcı olur. Onların sitesini ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+Sorularınız ve sorun giderme için Aspose topluluğu çok yardımcı olur. Onların sitesini ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9) yardım için.

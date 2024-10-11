@@ -36,7 +36,7 @@ Most, hogy készen állunk a kódolásra, bontsuk fel a folyamatot kezelhető l�
 
 ## 1. lépés: Állítsa be környezetét
 
- Ebben a lépésben beállítja azt a fájl elérési utat, ahol az Excel-fájl található. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a fájl elérési útjával.
+Ebben a lépésben beállítja azt a fájl elérési utat, ahol az Excel-fájl található. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a fájl elérési útjával.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -72,7 +72,7 @@ Ez a lépés olyan, mintha azt mondaná: „Helló!” a munkafüzetébe, így t
 A munkafüzetet a kezében tartva ideje elérni az elrejteni kívánt konkrét munkalapot. Kezdjük az első munkalappal.
 
 ```csharp
-// Az Excel fájl első munkalapjának elérése
+//Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ A munkalap elrejtése után el kell mentenie a fájlban végzett módosításoka
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Itt mentjük a munkafüzetet másként`output.out.xls`. Ez olyan, mintha egy borítékba zárnád a munkádat. Ha nem menti el, minden kemény munkája elvész!
+ Itt mentjük a munkafüzetet másként`output.out.xls`. Ez olyan, mintha egy borítékba zárnád a munkádat. Ha nem menti el, minden kemény munkája elvész!
 
 ## 7. lépés: Zárja be a Fájlfolyamot
 
@@ -132,7 +132,7 @@ Az Excel-munkalapok Aspose.Cells for .NET használatával történő manipulál�
  Igen, át lehet nézni a`Worksheets` gyűjtése és beállítása a`IsVisible` minden elrejteni kívánt lapnál hamis értékre.
 
 ### Milyen fájlformátumokat támogat az Aspose.Cells?
- Az Aspose.Cells számos formátumot támogat, beleértve az XLS-t, XLSX-et, CSV-t és még sok mást. A teljes listát ellenőrizheti[itt](https://reference.aspose.com/cells/net/).
+Az Aspose.Cells számos formátumot támogat, beleértve az XLS-t, XLSX-et, CSV-t és még sok mást. A teljes listát ellenőrizheti[itt](https://reference.aspose.com/cells/net/).
 
 ### Szükségem van engedélyre az Aspose.Cells használatához?
  Kezdje egy ingyenes próbaverzióval, hogy felfedezze a funkcióit. A termelési alkalmazásokhoz teljes licenc szükséges. Tudjon meg többet róla[itt](https://purchase.aspose.com/buy).

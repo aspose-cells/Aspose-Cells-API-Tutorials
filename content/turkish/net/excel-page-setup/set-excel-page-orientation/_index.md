@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Şimdi, bir Excel dosyasını temsil eden Çalışma Kitabı sınıfının bir örneğini oluşturacaksınız.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Sonra, yönlendirmeyi ayarlamak istediğiniz çalışma sayfasına erişmeniz gerekir. Her çalışma kitabının birden fazla çalışma sayfası olabileceğinden, hangisiyle çalıştığınızı açıkça belirtmelisiniz.
 
 ```csharp
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

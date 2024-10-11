@@ -16,7 +16,7 @@ Sürekli gelişen veri yönetimi dünyasında, verileri verimli bir şekilde ba�
 Koda derinlemesine dalmadan önce, bu öğreticiyi takip etmek için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
 
 1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için ideal ortamdır.
-2. Aspose.Cells Kütüphanesi: .NET için Aspose.Cells kütüphanesini şu adresten indirin ve yükleyin:[Aspose indirme sayfası](https://releases.aspose.com/cells/net/) Ayrıca ücretsiz deneme sürümünü de deneyebilirsiniz.[Burada](https://releases.aspose.com/).
+2.  Aspose.Cells Kütüphanesi: .NET için Aspose.Cells kütüphanesini şu adresten indirin ve yükleyin:[Aspose indirme sayfası](https://releases.aspose.com/cells/net/) Ayrıca ücretsiz deneme sürümünü de deneyebilirsiniz.[Burada](https://releases.aspose.com/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kodun inceliklerini daha iyi anlamanıza yardımcı olacaktır.
 4. Örnek Bir Excel Dosyası: Bu eğitim için, çalışma dizininizde saklanması gereken "ODataSample.xlsx" adlı bir Excel dosyası kullanacağız.
 
@@ -99,7 +99,7 @@ Bu blokta:
 
 ## Adım 4: Çalıştırın ve Doğrulayın
 
- Son olarak, kodun doğru çalıştığından ve beklenen çıktıyı döndürdüğünden emin olmanız gerekir. Aşağıdaki satırı kodunuzun sonuna ekleyin`Main` yöntem:
+Son olarak, kodun doğru çalıştığından ve beklenen çıktıyı döndürdüğünden emin olmanız gerekir. Aşağıdaki satırı kodunuzun sonuna ekleyin`Main` yöntem:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -126,4 +126,4 @@ Power Query formülleri kullanıcıların Excel içinde çeşitli kaynaklardan g
  Ziyaret edebilirsiniz[Aspose Forum](https://forum.aspose.com/c/cells/9) destek ve toplum yardımı için.
 
 ### Aspose.Cells'i nereden satın alabilirim?
-Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+ Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).

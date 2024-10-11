@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Etapa 3: Instanciar a pasta de trabalho
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Etapa 4: Acesse a planilha
 
 ```csharp
-// Acessando a primeira planilha no arquivo Excel
+//Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

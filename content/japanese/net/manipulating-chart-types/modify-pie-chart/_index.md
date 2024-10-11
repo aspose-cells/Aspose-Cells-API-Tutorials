@@ -89,7 +89,7 @@ string sourceDir = "Your Document Directory Path";
 Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 ```
 
-このスニペットでは、新しい`Workbook`オブジェクトを作成し、Excel ファイルをその中に読み込みます。
+このスニペットでは、新しい`Workbook`オブジェクトを作成し、Excel ファイルをそこに読み込みます。
 
 ## ステップ3: ワークシートにアクセスする
 

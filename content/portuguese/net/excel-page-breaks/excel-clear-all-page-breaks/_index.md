@@ -104,4 +104,4 @@ Aspose.Cells para .NET é uma biblioteca poderosa que permite gerenciar e manipu
  Você pode solicitar uma licença temporária para desbloquear todos os recursos do Aspose.Cells visitando[esta página](https://purchase.aspose.com/temporary-license/).
 
 ### Quais formatos o Aspose.Cells suporta?
-Aspose.Cells suporta vários formatos de planilha, incluindo XLS, XLSX, CSV e muito mais.
+O Aspose.Cells suporta vários formatos de planilha, incluindo XLS, XLSX, CSV e muito mais.

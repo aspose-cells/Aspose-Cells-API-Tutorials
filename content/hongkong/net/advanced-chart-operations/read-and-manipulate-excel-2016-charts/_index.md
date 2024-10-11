@@ -9,7 +9,7 @@ url: /zh-hant/net/advanced-chart-operations/read-and-manipulate-excel-2016-chart
 ---
 ## 介紹
 
-Excel 是資料視覺化和簡報的強大工具，但以程式設計方式操作圖表可能相當複雜。這就是 Aspose.Cells for .NET 的用武之地！這個強大的程式庫允許開發人員無縫地建立、讀取和操作 Excel 檔案。在本教程中，我們將深入探討如何使用 Aspose.Cells 讀取和操作 Excel 2016 圖表，使流程簡單且有效率。
+Excel 是資料視覺化和簡報的強大工具，但以程式設計方式操作圖表可能相當複雜。這就是 Aspose.Cells for .NET 的用武之地！這個強大的程式庫允許開發人員無縫地建立、讀取和操作 Excel 檔案。在本教程中，我們將深入探討如何使用 Aspose.Cells 讀取和操作 Excel 2016 圖表，使流程變得簡單且有效率。
 
 ## 先決條件
 

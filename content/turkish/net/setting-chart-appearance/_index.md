@@ -39,6 +39,6 @@ Bu detaylı adım adım eğitimle Aspose.Cells for .NET kullanarak grafiklerde a
 ### [Grafik Alanını Ayarla](./set-chart-area/)
 Aspose.Cells for .NET ile Excel grafiklerinin potansiyelini açığa çıkarın. Kolay eğitimimizde grafik alanlarını adım adım ayarlamayı öğrenin.
 ### [Grafik Çizgilerini Ayarla](./set-chart-lines/)
-Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET'i kullanarak Excel'de grafik çizgilerini nasıl özelleştireceğinizi öğrenin.
+Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de grafik çizgilerini nasıl özelleştireceğinizi öğrenin.
 ### [Grafikte Başlıkları ve Eksenleri Ayarla](./set-titles-and-axes-in-chart/)
 Bu adım adım kılavuzla, kod örnekleri ve ipuçlarıyla birlikte Aspose.Cells for .NET kullanarak grafiklerde başlıkları ve eksenleri nasıl ayarlayacağınızı öğrenin.

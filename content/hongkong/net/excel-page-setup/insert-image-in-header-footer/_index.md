@@ -13,9 +13,9 @@ url: /zh-hant/net/excel-page-setup/insert-image-in-header-footer/
 
 ## 先決條件
 
-在深入實際程式碼之前，您需要準備好一些東西：
+在深入實際程式碼之前，您需要準備一些東西：
 
-1. Aspose.Cells for .NET 函式庫：確保您的 .NET 環境中安裝了 Aspose.Cells 函式庫。如果您還沒有，您可以[在這裡下載](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET 函式庫：確保您的 .NET 環境中安裝了 Aspose.Cells 函式庫。如果您還沒有，您可以[在這裡下載](https://releases.aspose.com/cells/net/).
 2. Visual Studio 或任何其他 IDE：您需要一個整合開發環境來編寫和執行 C# 程式碼。
 3. 範例圖像：準備要插入頁首或頁尾的圖像。對於我們的範例，我們將使用名為`aspose-logo.jpg`.
 4. C# 基礎知識：雖然不是強制性的，但了解 C# 將使您更輕鬆地學習本教程。

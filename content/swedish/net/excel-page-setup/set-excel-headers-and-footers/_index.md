@@ -107,7 +107,7 @@ Nu när våra sidhuvuden ser snygga ut, låt oss rikta vår uppmärksamhet mot s
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Förklaring: Vi infogar ett anpassat meddelande i den vänstra sidfoten, "Hello World!" tillsammans med texten`123` i en annan typsnittsstil—Courier New.
+Förklaring: Vi infogar ett anpassat meddelande i den vänstra sidfoten, "Hello World!" tillsammans med texten`123` i en annan typsnittsstil—Courier New.
 
 ## Steg 7: Centersidfotskonfiguration
 

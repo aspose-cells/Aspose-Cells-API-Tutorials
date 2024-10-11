@@ -78,10 +78,10 @@ Baris kode ini akan mempersiapkan berkas Excel Anda untuk diedit.
 
 ## Langkah 3: Buat Instansiasi Objek Buku Kerja
 
- Itu`Workbook`Objek adalah inti dari fungsionalitas Aspose.Cells Anda. Objek ini merepresentasikan berkas Excel Anda dengan cara yang mudah dikelola.
+ Itu`Workbook` Objek adalah inti dari fungsionalitas Aspose.Cells Anda. Objek ini merepresentasikan berkas Excel Anda dengan cara yang mudah dikelola.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Dengan buku kerja yang sekarang ada di memori, saatnya untuk mengakses lembar kerja tertentu yang ingin Anda ubah. Dalam kebanyakan kasus, ini akan menjadi lembar kerja pertama (indeks 0).
 
 ```csharp
-// Mengakses lembar kerja pertama dalam file Excel
+//Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -42,17 +42,17 @@ Per prima cosa, dovrai creare una directory in cui salvare il tuo file Excel. Qu
 
 ```csharp
 // Directory di uscita
-string outputDir = "Your Output Directory"; // Modificalo nel percorso desiderato
+string outputDir = "Your Output Directory"; //Modificalo nel percorso desiderato
 ```
 
 Al posto di "Your Output Directory", puoi specificare un percorso effettivo in cui desideri che il file Excel venga salvato. Assicurati che questa directory esista sul tuo sistema; altrimenti, in seguito incontrerai degli errori.
 
 ## Passaggio 2: creazione di un'istanza di un oggetto cartella di lavoro
 
- Ora, vorrai dare il via alle cose creando una nuova istanza di`Workbook`classe. Questo è il blocco di costruzione fondamentale per qualsiasi operazione Excel che utilizzi Aspose.Cells.
+ Ora, vorrai dare il via alle cose creando una nuova istanza di`Workbook` classe. Questo è il blocco di costruzione fondamentale per qualsiasi operazione Excel che utilizzi Aspose.Cells.
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 

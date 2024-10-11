@@ -37,7 +37,7 @@ Nu we de basis hebben gelegd, kunnen we het instellen van de paginavolgorde in E
 
 Voordat u begint met het maken van een werkmap, moet u opgeven waar u het uitvoerbestand wilt opslaan. Zo hebt u een plek waar u uw werk in de gaten kunt houden. 
 
-U stelt een variabele in die naar uw documentenmap verwijst, zoals deze:
+stelt een variabele in die naar uw documentenmap verwijst, zoals deze:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Hier,`workbook.Worksheets[0]` verwijst naar het eerste werkblad in uw werkmap. De`PageSetup`Met de eigenschap kunt u de pagina-instellingen van uw werkblad beheren.
+ Hier,`workbook.Worksheets[0]` verwijst naar het eerste werkblad in uw werkmap. De`PageSetup` Met de eigenschap kunt u de pagina-instellingen van uw werkblad beheren.
 
 ## Stap 4: Stel de afdrukvolgorde in
 
 
- Met de`PageSetup` object, is het tijd om Excel te vertellen hoe u de pagina's wilt afdrukken. U kunt de volgorde instellen als "Boven Dan Beneden" of "Beneden Dan Over."
+ Met de`PageSetup`object, is het tijd om Excel te vertellen hoe u de pagina's wilt afdrukken. U kunt de volgorde instellen als "Boven Dan Beneden" of "Beneden Dan Over."
 
 Hier is de code om de afdrukvolgorde in te stellen:
 

@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-workbook/read-and-write-external-connection-of-xlsb-file
 ---
 ## 介紹
 
-嘿，Excel 愛好者！您準備好進入 XLSB 檔案和外部連接的迷人世界了嗎？如果您曾經使用過 Excel，您就會知道它有多強大和多才多藝，但有時它也有其怪癖，尤其是在處理與外部資料庫的連接時。這就是 Aspose.Cells for .NET 的用武之地！這個漂亮的庫允許您以簡單的方式操作 Excel 文件。在本文中，我們將引導您逐步了解如何在 XLSB 檔案中讀取和寫入外部連線。
+嘿，Excel 愛好者！您準備好進入 XLSB 檔案和外部連接的迷人世界了嗎？如果您曾經使用過 Excel，您就會知道它有多強大和多用途，但有時它也有其怪癖，尤其是在處理與外部資料庫的連接時。這就是 Aspose.Cells for .NET 的用武之地！這個漂亮的庫允許您以簡單的方式操作 Excel 文件。在本文中，我們將引導您逐步了解如何在 XLSB 檔案中讀取和寫入外部連線。
 
 ## 先決條件
 

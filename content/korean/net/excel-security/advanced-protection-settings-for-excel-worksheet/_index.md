@@ -16,7 +16,7 @@ url: /ko/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 코드를 살펴보기 전에 먼저 필요한 모든 것이 있는지 확인해 보겠습니다.
 
 1. 개발 환경: .NET 개발을 위한 뛰어난 IDE를 제공하므로 컴퓨터에 Visual Studio가 설치되어 있어야 합니다.
-2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드하세요. 다음에서 얻을 수 있습니다.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드하세요. 다음에서 얻을 수 있습니다.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/).
 3. 기본 C# 지식: 쉽게 따라갈 수 있도록 C# 및 .NET Framework에 대한 이해가 필요합니다.
 4. 프로젝트 만들기: Visual Studio에서 코드를 작성할 새 콘솔 애플리케이션을 설정합니다.
 
@@ -48,7 +48,7 @@ using Aspose.Cells;
 
 ## 1단계: Excel 파일에 대한 파일 스트림 만들기
 
- 첫째, 기존 Excel 파일을 로드해야 합니다.`FileStream` 접근하려면.
+첫째, 기존 Excel 파일을 로드해야 합니다.`FileStream` 접근하려면.
 
 ```csharp
 // 문서 디렉토리의 경로입니다.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  이제 파일 스트림이 있으므로 다음을 생성할 수 있습니다.`Workbook` 물체.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 우리의 목적을 위해, 우리는 단지 첫 번째 워크시트로 작업할 것입니다. 접근해 봅시다.
 
 ```csharp
-// Excel 파일의 첫 번째 워크시트에 액세스하기
+//Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = excel.Worksheets[0];
 ```
- 워크시트는 0부터 색인이 지정되므로`Worksheets[0]`Excel 파일의 첫 번째 워크시트를 말합니다. 이제 이 특정 시트에 보호 설정을 적용할 수 있습니다.
+ 워크시트는 0부터 색인이 지정되므로`Worksheets[0]` Excel 파일의 첫 번째 워크시트를 말합니다. 이제 이 특정 시트에 보호 설정을 적용할 수 있습니다.
 
 ## 4단계: 고급 보호 설정 적용
 
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // 수정된 Excel 파일 저장하기
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- 여기서 우리는 통합 문서를 새 파일에 저장하고 있습니다.`output.xls`. 이렇게 하면 원본 파일은 그대로 유지되고 새 파일에서 적용된 보호 기능을 확인할 수 있습니다.
+ 여기서 우리는 통합 문서를 새 파일에 저장하고 있습니다.`output.xls`이렇게 하면 원본 파일은 그대로 유지되고 새 파일에서 적용된 보호 기능을 확인할 수 있습니다.
 
 ## 6단계: 파일 스트림 닫기
 
@@ -148,7 +148,7 @@ fstream.Close();
 Aspose.Cells는 .NET에서 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환할 수 있는 강력한 라이브러리입니다.
 
 ### 한 번에 여러 개의 워크시트를 보호할 수 있나요?
- 네! 여러 워크시트에 유사한 보호 설정을 적용할 수 있습니다.`Worksheets` 수집.
+ 네! 여러 워크시트에 유사한 보호 설정을 적용할 수 있습니다.`Worksheets`수집.
 
 ### Aspose.Cells를 사용하려면 라이선스가 필요한가요?
  무료 체험판이 있지만, 본격적인 개발을 위해서는 라이선스가 필요합니다. 임시 라이선스를 받을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

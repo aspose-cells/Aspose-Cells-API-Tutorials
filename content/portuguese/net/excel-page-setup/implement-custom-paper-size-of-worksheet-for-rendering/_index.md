@@ -16,7 +16,7 @@ Criar e personalizar documentos do Excel programaticamente pode tornar seu traba
 Antes de mergulharmos no código, vamos garantir que você esteja configurado corretamente. Aqui está o que você precisa para começar:
 
 1. Visual Studio ou qualquer IDE .NET: Certifique-se de ter um IDE funcional como o Visual Studio. Este será seu playground onde toda a mágica da codificação acontece.
-2. Pacote Aspose.Cells para .NET: Se você ainda não fez isso, precisará baixar e instalar a biblioteca Aspose.Cells. Você pode encontrar a versão mais recente no[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
+2.  Pacote Aspose.Cells para .NET: Se você ainda não fez isso, precisará baixar e instalar a biblioteca Aspose.Cells. Você pode encontrar a versão mais recente no[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: embora o guiemos pelo código, a familiaridade com C# ajudará você a entender melhor as nuances.
 4. Acesso ao .NET Framework: certifique-se de que seu projeto esteja configurado para ter como alvo uma versão compatível do .NET Framework.
 
@@ -124,7 +124,7 @@ Implementar um tamanho de papel personalizado para suas planilhas do Excel usand
 ## Perguntas frequentes
 
 ### Posso usar o Aspose.Cells sem comprar uma licença?
- Sim, você pode experimentar uma versão de avaliação gratuita do Aspose.Cells para .NET, disponível[aqui](https://releases.aspose.com/).
+Sim, você pode experimentar uma versão de avaliação gratuita do Aspose.Cells para .NET, disponível[aqui](https://releases.aspose.com/).
 
 ### O que acontece se eu exceder os limites da licença temporária?
  Exceder os limites levará a saídas com marca d'água. É melhor optar por uma licença permanente para serviço ininterrupto. Você pode encontrar opções[aqui](https://purchase.aspose.com/buy).
@@ -133,7 +133,7 @@ Implementar um tamanho de papel personalizado para suas planilhas do Excel usand
 Sim, o Aspose.Cells for .NET suporta .NET Core. Você pode integrá-lo perfeitamente aos seus aplicativos modernos.
 
 ### Como obtenho suporte se tiver problemas?
- Você pode entrar em contato através do fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9)para obter assistência com quaisquer problemas técnicos.
+ Você pode entrar em contato através do fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9) para obter assistência com quaisquer problemas técnicos.
 
 ### Posso personalizar outros aspectos da planilha com o Aspose.Cells?
 Com certeza! O Aspose.Cells oferece um conjunto robusto de recursos para personalizar planilhas, incluindo estilos, fórmulas e muito mais.

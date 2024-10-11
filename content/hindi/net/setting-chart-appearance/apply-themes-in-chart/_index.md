@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 वर्कशीट हाथ में आने के बाद, अब हम उस चार्ट तक पहुंच सकते हैं जिसे हम स्टाइल करना चाहते हैं।
 
 ```csharp
-// शीट में पहला चार्ट प्राप्त करें
+//शीट में पहला चार्ट प्राप्त करें
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 // SolidFill का CellsColor प्राप्त करें
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// एक्सेंट शैली में थीम बनाएं
+//एक्सेंट शैली में थीम बनाएं
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

@@ -44,7 +44,7 @@ url: /ru/net/excel-page-setup/get-page-dimensions/
 
 ### Добавить директивы использования
 
- В верхней части вашего`Program.cs` вставьте эту директиву using для доступа к функциональным возможностям Aspose.Cells:
+ В верхней части вашего`Program.cs`вставьте эту директиву using для доступа к функциональным возможностям Aspose.Cells:
 
 ```csharp
 using System;

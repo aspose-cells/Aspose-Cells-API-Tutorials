@@ -16,7 +16,7 @@ Als het gaat om het beheren en manipuleren van Excel-bestanden, is Aspose.Cells 
 Voordat we beginnen met coderen, zorgen we ervoor dat je alles hebt wat je nodig hebt om te beginnen. Hier is een checklist met vereisten:
 
 1. Visual Studio: U hebt een IDE nodig en Visual Studio is een uitstekende keuze voor .NET-projecten.
-2. Aspose.Cells voor .NET: U kunt de bibliotheek downloaden of, als u dat liever wilt, beginnen met de gratis proefversie om uw voeten nat te maken. Ga gewoon naar[deze link](https://releases.aspose.com).
+2.  Aspose.Cells voor .NET: U kunt de bibliotheek downloaden of, als u dat liever wilt, beginnen met de gratis proefversie om uw voeten nat te maken. Ga gewoon naar[deze link](https://releases.aspose.com).
 3. Basiskennis van C#: Als u de basisprincipes van C# begrijpt, kunt u de cursus zonder problemen volgen.
 4. .NET Framework: Zorg ervoor dat er een compatibele versie van .NET Framework op uw computer is geïnstalleerd.
 5.  Een voorbeeld van een Excel-bestand: Voor deze tutorial hebt u een Excel-bestand nodig om mee te werken. U kunt een voorbeeldbestand gebruiken met de naam`Book1.xlsx`.
@@ -58,7 +58,7 @@ Om ons avontuur in print previews te beginnen, moeten we definiëren waar ons br
 string sourceDir = "Your Document Directory";
 ```
 
- Deze code helpt ons het pad te vinden waar`Book1.xlsx` bevindt, waardoor toekomstige referenties veel gemakkelijker worden.
+Deze code helpt ons het pad te vinden waar`Book1.xlsx` bevindt, waardoor toekomstige referenties veel gemakkelijker worden.
 
 ## Stap 2: Laad de werkmap
 
@@ -131,7 +131,7 @@ En daar heb je het! Je hebt met succes een afdrukvoorbeeld ingesteld voor je Exc
 Aspose.Cells is een krachtige bibliotheek voor het verwerken van Excel-bestandsindelingen en biedt functies zoals gegevensmanipulatie, opmaak en het weergeven van afdrukvoorbeelden.
 
 ### Moet ik Aspose.Cells kopen om het te kunnen gebruiken?
- U kunt beginnen met een gratis proefversie die beschikbaar is op[deze link](https://releases.aspose.com) voordat u besluit een licentie aan te schaffen.
+ U kunt beginnen met een gratis proefversie die beschikbaar is op[deze link](https://releases.aspose.com)voordat u besluit een licentie aan te schaffen.
 
 ### Kan ik Aspose.Cells in elke .NET-toepassing gebruiken?
 Ja, Aspose.Cells is ontworpen om te werken met elke .NET-toepassing, waaronder ASP.NET, WinForms en meer.

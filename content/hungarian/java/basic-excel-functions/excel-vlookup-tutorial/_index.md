@@ -38,7 +38,7 @@ VLOOKUP művelet végrehajtásához szükségünk van egy Excel fájlra. Tölts�
 Workbook workbook = new Workbook("example.xlsx");
 ```
 
-## VLOOKUP végrehajtása
+## A VLOOKUP végrehajtása
 
 Most hajtsunk végre egy VLOOKUP műveletet, hogy konkrét adatokat keressünk az Excel-lapunkon.
 

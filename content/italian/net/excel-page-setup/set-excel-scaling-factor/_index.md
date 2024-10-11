@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Ora è il momento di creare una nuova cartella di lavoro. È qui che essenzialmente risiederanno tutti i tuoi dati e le tue impostazioni.
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 I file Excel possono contenere più fogli di lavoro. Accederemo al primo foglio di lavoro per applicare il nostro fattore di scala.
 
 ```csharp
-// Accesso al primo foglio di lavoro nel file Excel
+//Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

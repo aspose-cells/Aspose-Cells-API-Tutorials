@@ -72,7 +72,7 @@ Bu, gömülü MOL dosyalarınızı içeren Excel dosyasını kullanarak çalış
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Bu adımda, yeni bir örnek oluşturuyoruz`Workbook`Excel dosyanızın içeriğine bir köprü görevi gören sınıf. Dosya buraya yüklenir, böylece daha sonra sayfalar arasında yineleme yapabilir ve gömülü MOL nesnelerini bulabiliriz.
+ Bu adımda, yeni bir örnek oluşturuyoruz`Workbook` Excel dosyanızın içeriğine bir köprü görevi gören sınıf. Dosya buraya yüklenir, böylece daha sonra sayfalar arasında yineleme yapabilir ve gömülü MOL nesnelerini bulabiliriz.
 
 ## Adım 3: Çalışma Sayfalarında Yineleme Yapın
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Bu kod parçacığıyla, şunu kullanıyoruz:`foreach` çalışma kitabımızdaki her sayfayı dolaşacak döngü. Erişim yoluyla`OleObjects` koleksiyon, o belirli sayfadaki tüm gömülü nesnelere erişim sağlayabiliriz. 
+ Bu kod parçacığıyla, şunu kullanıyoruz:`foreach` çalışma kitabımızdaki her sayfayı dolaşacak döngü. Erişim yoluyla`OleObjects`koleksiyon, o belirli sayfadaki tüm gömülü nesnelere erişim sağlayabiliriz. 
 
 ## Adım 4: OLE Nesnelerini Çıkarın
 
@@ -132,7 +132,7 @@ Aspose.Cells for .NET, Excel dosyalarını .NET uygulamaları içerisinde düzen
 Kesinlikle! Aspose.Cells, yalnızca MOL dosyalarını değil, PDF'ler, resimler ve daha fazlası gibi çeşitli gömülü dosya biçimlerini çıkarmanıza olanak tanır.
 
 ### Aspose.Cells'i kullanmak için satın almam gerekiyor mu?  
-Ücretsiz deneme sürümü mevcut olsa da, tüm özellikler için bir lisansa ihtiyaç vardır.[buradan satın alın](https://purchase.aspose.com/buy).
+ Ücretsiz deneme sürümü mevcut olsa da, tüm özellikler için bir lisansa ihtiyaç vardır.[buradan satın alın](https://purchase.aspose.com/buy).
 
 ### Bu işlem için Visual Studio'ya sahip olmak gerekli mi?  
 Biz Visual Studio kullanarak gösterdik ama siz projenizi çalıştırmak için herhangi bir C# uyumlu IDE'yi kullanabilirsiniz.

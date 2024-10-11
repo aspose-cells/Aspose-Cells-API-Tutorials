@@ -41,7 +41,7 @@ Avant de pouvoir manipuler un fichier Excel, nous devons définir le chemin où 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Remplacer`"YOUR DOCUMENT DIRECTORY"`avec le chemin d'accès au répertoire actuel de votre système. Ce répertoire sera l'endroit où vous chargerez votre fichier Excel existant et enregistrerez la sortie.
+ Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin d'accès au répertoire actuel de votre système. Ce répertoire sera l'endroit où vous chargerez votre fichier Excel existant et enregistrerez la sortie.
 
 ## Étape 2 : Instanciation d'un objet de classeur
 
@@ -61,7 +61,7 @@ Dans Excel, les onglets du bas (Feuille1, Feuille2, etc.) peuvent être masqués
 workbook.Settings.ShowTabs = true;
 ```
 
- Paramètre`ShowTabs` à`true` garantira que les onglets sont visibles lorsque vous ouvrez le fichier Excel.
+ Paramètre`ShowTabs` à`true`garantira que les onglets sont visibles lorsque vous ouvrez le fichier Excel.
 
 ## Étape 4 : Enregistrer le fichier Excel modifié
 
@@ -71,7 +71,7 @@ Une fois les onglets affichés, nous devons enregistrer le fichier mis à jour. 
 workbook.Save(dataDir + "output.xls");
 ```
 
-Le fichier est enregistré sous le nom`output.xls` dans le répertoire spécifié précédemment. Vous pouvez également choisir un nom ou un format de fichier différent (par exemple`.xlsx`) si nécessaire.
+ Le fichier est enregistré sous le nom`output.xls` dans le répertoire spécifié précédemment. Vous pouvez également choisir un nom ou un format de fichier différent (par exemple`.xlsx`) si nécessaire.
 
 ## Conclusion
 
@@ -80,7 +80,7 @@ Et voilà ! Vous avez réussi à afficher les onglets dans une feuille de calcul
 ## FAQ
 
 ### Puis-je masquer les onglets dans Excel à l'aide d'Aspose.Cells pour .NET ?
- Absolument ! Il suffit de régler`workbook.Settings.ShowTabs = false;` et enregistrez le fichier. Cela masquera les onglets lorsque le classeur est ouvert.
+ Absolument ! Il suffit de régler`workbook.Settings.ShowTabs = false;`et enregistrez le fichier. Cela masquera les onglets lorsque le classeur est ouvert.
 
 ### Aspose.Cells prend-il en charge d’autres fonctionnalités Excel telles que les graphiques et les tableaux croisés dynamiques ?
 Oui, Aspose.Cells est une bibliothèque complète qui prend en charge presque toutes les fonctionnalités d'Excel, y compris les graphiques, les tableaux croisés dynamiques, les formules, etc.

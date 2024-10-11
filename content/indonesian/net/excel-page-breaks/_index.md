@@ -14,12 +14,12 @@ Hentian halaman sangat penting saat mencetak file Excel. Hentian halaman membant
 Tahukah Anda bahwa Anda dapat menambahkan pemisah halaman secara terprogram, sehingga menghemat banyak pekerjaan manual? Ini dapat sepenuhnya mengubah cara Anda menyiapkan lembar kerja untuk dibagikan atau dicetak. Ini seperti memiliki tongkat ajaib yang mengubah data yang kacau menjadi halaman yang tersusun indah!
 
 ## Panduan Langkah demi Langkah
- Koleksi tutorial kami membagi proses yang rumit menjadi pelajaran yang ringkas dan mudah dipahami. Misalnya, dalam tutorial tentang[Excel Menambahkan Hentian Halaman](./excel-add-page-breaks/)kami memandu Anda melalui setiap langkah dengan instruksi yang jelas. Anda tidak akan sekadar membaca jargon teknis; Anda akan benar-benar mengikuti dan menerapkan apa yang Anda pelajari langsung ke proyek Anda sendiri. 
+ Koleksi tutorial kami membagi proses yang rumit menjadi pelajaran yang ringkas dan mudah dipahami. Misalnya, dalam tutorial tentang[Excel Menambahkan Hentian Halaman](./excel-add-page-breaks/), kami memandu Anda melalui setiap langkah dengan instruksi yang jelas. Anda tidak akan sekadar membaca jargon teknis; Anda akan benar-benar mengikuti dan menerapkan apa yang Anda pelajari langsung ke proyek Anda sendiri. 
 
  Perlu menghapus semua pemisah halaman? Tidak masalah! Lihat panduan kami di[Hapus Semua Hentian Halaman di Excel](./excel-clear-all-page-breaks/), yang menawarkan proses sederhana dan efektif yang dapat dikuasai siapa saja. Semuanya tentang membuat alur kerja Anda lebih lancar dan cepat.
 
 ## Kustomisasi di Ujung Jari Anda
- Bagaimana jika Anda hanya ingin menghapus jeda halaman tertentu? Di sinilah tutorial kami tentang[Excel Hapus Hentian Halaman Tertentu](./excel-remove-specific-page-break/) mulai berlaku. Ini dirancang khusus untuk saat-saat ketika Anda memerlukan kontrol yang tepat atas tata letak dokumen Anda. Dengan Aspose.Cells untuk .NET, Anda akan memiliki kekuatan untuk menyesuaikan spreadsheet Anda persis seperti yang Anda inginkan. 
+Bagaimana jika Anda hanya ingin menghapus jeda halaman tertentu? Di sinilah tutorial kami tentang[Excel Hapus Hentian Halaman Tertentu](./excel-remove-specific-page-break/) mulai berlaku. Ini dirancang khusus untuk saat-saat ketika Anda memerlukan kontrol yang tepat atas tata letak dokumen Anda. Dengan Aspose.Cells untuk .NET, Anda akan memiliki kekuatan untuk menyesuaikan spreadsheet Anda persis seperti yang Anda inginkan. 
 
 ## Tutorial 
 | Judul | Keterangan |

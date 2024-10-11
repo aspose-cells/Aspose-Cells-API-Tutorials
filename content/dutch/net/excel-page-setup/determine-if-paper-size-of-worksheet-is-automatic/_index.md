@@ -43,7 +43,7 @@ Laten we het opsplitsen in een duidelijke, stapsgewijze tutorial, zodat je het g
 
 ## Stap 1: Stel uw bron- en uitvoermappen in
 
-Allereerst wilt u uw bron- en uitvoermappen definiëren. Deze mappen bevatten uw invoerbestanden en waar u de uitvoer wilt opslaan. Dit is hoe u dat doet:
+Allereerst wilt u uw bron- en uitvoerdirectory's definiëren. Deze directory's bevatten uw invoerbestanden en waar u de uitvoer wilt opslaan. Dit is hoe u dat doet:
 
 ```csharp
 string sourceDir = "YOUR_SOURCE_DIRECTORY";

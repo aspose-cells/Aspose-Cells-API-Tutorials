@@ -28,7 +28,7 @@ Odemkněte potenciál metod exportu dat aplikace Excel pomocí Aspose.Cells for 
 ### [CSV Export kódu Java](./csv-export-java-code/)
 Naučte se exportovat data do formátu CSV pomocí Aspose.Cells for Java. Podrobný průvodce se zdrojovým kódem pro bezproblémový export CSV.
 ### [Export Excelu do PDF](./exporting-excel-to-pdf/)
-Naučte se, jak exportovat soubory Excel do PDF bez námahy pomocí Aspose.Cells for Java. Náš průvodce krok za krokem celý proces zjednodušuje. Začněte převádět ještě dnes!
+Naučte se, jak bez námahy exportovat soubory Excel do PDF pomocí Aspose.Cells for Java. Náš průvodce krok za krokem tento proces zjednodušuje. Začněte převádět ještě dnes!
 ### [Export Excelu do XML Java](./export-excel-to-xml-java/)
 Naučte se exportovat Excel do XML v Javě pomocí Aspose.Cells pro Javu. Podrobný průvodce se zdrojovým kódem pro bezproblémový převod dat.
 ### [Import dat z Excelu](./data-import-from-excel/)

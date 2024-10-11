@@ -63,7 +63,7 @@ string SourceDir = "Your Document Directory";
 다음으로, 통합 문서를 로드합니다. 이는 백그라운드에서 Excel 파일을 열어서 내용을 읽고 조작할 수 있게 하는 것과 같습니다.
 
 ```csharp
-// 워크북을 로드합니다
+//워크북을 로드합니다
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

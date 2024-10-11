@@ -133,7 +133,7 @@ Adicionar extensões da Web às suas pastas de trabalho do Excel usando o Aspose
 ### O que são extensões da Web no Excel?
 As extensões da Web permitem a integração de conteúdo e funcionalidade da Web diretamente em uma pasta de trabalho do Excel, melhorando a interatividade.
 
-### O Aspose.Cells é gratuito?
+### Aspose.Cells é gratuito?
  Aspose.Cells oferece um teste gratuito para fins de teste. Você pode aprender mais com o[Link de teste gratuito](https://releases.aspose.com/).
 
 ### Posso comprar o Aspose.Cells?

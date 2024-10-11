@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
- A continuación, creamos una instancia de la`Workbook` clase, que representa un archivo Excel.
+ A continuación, creamos una instancia de la`Workbook`clase, que representa un archivo Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Esta línea inicializa un nuevo libro de trabajo, preparándolo para su manipula
 
 ## Paso 3: Obtener la referencia de PageSetup
 
- Ahora accedamos a la hoja de trabajo.`PageSetup`Propiedad. Aquí es donde se configurarán la mayoría de nuestros ajustes de impresión.
+ Ahora accedamos a la hoja de trabajo.`PageSetup` Propiedad. Aquí es donde se configurarán la mayoría de nuestros ajustes de impresión.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

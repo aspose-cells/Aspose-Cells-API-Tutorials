@@ -18,7 +18,7 @@ Avant de commencer, assurez-vous que tout est en place pour suivre le processus 
 1.  Bibliothèque Aspose.Cells pour .NET – Vous devrez l'installer. Vous pouvez l'obtenir[ici](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Assurez-vous que votre environnement de développement est configuré avec la dernière version de .NET.
 3. IDE (environnement de développement intégré) – Visual Studio est recommandé.
-4. Une licence Aspose.Cells valide – Si vous n'en avez pas, vous pouvez en demander une[permis temporaire](https://purchase.aspose.com/temporary-license/) ou consultez leur[essai gratuit](https://releases.aspose.com/).
+4.  Une licence Aspose.Cells valide – Si vous n'en avez pas, vous pouvez en demander une[permis temporaire](https://purchase.aspose.com/temporary-license/)ou consultez leur[essai gratuit](https://releases.aspose.com/).
 
 Prêt à partir ? Décomposons tout ça !
 

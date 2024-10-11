@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 이제 수정하고 싶은 차트를 찾을 시간입니다. 여기서 마법이 진짜로 시작됩니다!
 
 ```csharp
-// 시트의 첫 번째 차트를 가져옵니다
+//시트의 첫 번째 차트를 가져옵니다
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
  이제 Microsoft 테마 색상을 적용해 보겠습니다.`Accent` 스타일이 중요하죠. 누가 컬러풀한 걸 좋아하지 않겠어요?
 
 ```csharp
-// Accent 스타일로 테마 만들기
+//Accent 스타일로 테마 만들기
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

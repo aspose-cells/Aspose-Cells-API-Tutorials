@@ -17,7 +17,7 @@ Než se pustíme do kódu, ujistěte se, že máte vše připraveno. Zde je to, 
 
 1. Prostředí .NET: Ujistěte se, že máte nastavené vývojové prostředí .NET. Můžete použít Visual Studio nebo jakékoli jiné IDE, které podporuje .NET.
 2.  Aspose.Cells for .NET: Musíte mít nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout z[Stránka vydání Aspose](https://releases.aspose.com/cells/net/).
-3. Základní znalosti C#: Znalost programování v C# vám pomůže lépe porozumět příkladům, ale nebojte se, pokud jste noví – tato příručka vysvětlí vše krok za krokem!
+3. Základní znalosti C#: Znalost programování v C# vám pomůže lépe porozumět příkladům, ale nebojte se, pokud jste nováčci – tato příručka vysvětlí vše krok za krokem!
 
 ## Importujte balíčky
 

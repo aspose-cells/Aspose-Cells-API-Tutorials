@@ -51,7 +51,7 @@ public class FileAccessLogger {
 }
 ```
 
-Tento zapisovač zaznamenává události přístupu do textového souboru.
+Tento záznamník zaznamenává události přístupu do textového souboru.
 
 ## Krok 3: Použití Aspose.Cells k provádění operací se soubory
 

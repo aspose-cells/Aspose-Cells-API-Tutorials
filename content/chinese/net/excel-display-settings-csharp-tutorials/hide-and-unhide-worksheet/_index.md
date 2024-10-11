@@ -65,7 +65,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
-此步骤就像对您的工作簿说“你好！”，这样它就知道您在这里进行一些更改。
+这一步就像对你的工作簿说“你好！”，这样它就知道你在这里做出一些改变。
 
 ## 步骤 4：访问工作表
 
@@ -124,7 +124,7 @@ worksheet.IsVisible = true;
 
 ## 结论
 
-使用 Aspose.Cells for .NET 操作 Excel 工作表并非一项艰巨的任务。只需几行代码，您就可以轻松隐藏或显示重要数据。此功能在清晰度和安全性至关重要的情况下特别有用。无论您是报告数据还是只是想让您的工作保持整洁，了解如何管理工作表可见性都会对您的工作流程产生很大的影响！
+使用 Aspose.Cells for .NET 操作 Excel 工作表并非一项艰巨的任务。只需几行代码，您便可以轻松隐藏或显示重要数据。此功能在清晰度和安全性至关重要的场景中特别有用。无论您是报告数据还是只是想让您的工作保持整洁，了解如何管理工作表可见性都会对您的工作流程产生很大的影响！
 
 ## 常见问题解答
 
@@ -132,7 +132,7 @@ worksheet.IsVisible = true;
 是的，你可以循环`Worksheets`收集并设置`IsVisible`对于您想要隐藏的每张工作表，将其属性设置为 false。
 
 ### Aspose.Cells 支持哪些文件格式?
- Aspose.Cells 支持多种格式，包括 XLS、XLSX、CSV 等。您可以查看完整列表[这里](https://reference.aspose.com/cells/net/).
+Aspose.Cells 支持多种格式，包括 XLS、XLSX、CSV 等。您可以查看完整列表[这里](https://reference.aspose.com/cells/net/).
 
 ### 我需要许可证才能使用 Aspose.Cells 吗？
 您可以先免费试用，探索其功能。生产应用程序需要完整许可证。了解更多信息[这里](https://purchase.aspose.com/buy).

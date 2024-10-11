@@ -48,3 +48,39 @@ Grafik oluşturma, dönüştürme ve istenilen sayfa boyutunda PDF oluşturma ko
 Grafik verileriyle çalışmaya odaklanan kapsamlı Aspose.Cells for .NET eğitimlerini keşfedin. Grafiklerinizi öğrenin, oluşturun ve özelleştirin.
 ### [Grafik Eksenlerini ve Birimlerini Özelleştirme](./customizing-chart-axes-and-units/)
 Kolay eğitimlerle Aspose.Cells for .NET'te grafik eksenleri özelleştirmesinde ustalaşın. Otomatik birimleri kullanmayı ve eksen etiketlerini bir Excel uzmanı gibi okumayı öğrenin.
+### [Excel'de Köprülerle Çalışma](./excel-working-with-hyperlinks/)
+Aspose.Cells for .NET ile Excel'deki köprü metinlerinin büyüsünü açığa çıkarın. E-tablolarınızı etkili bir şekilde geliştirmenin ne kadar basit olduğunu keşfedin.
+### [Excel'de Adlandırılmış Aralıklarla Çalışma](./excel-working-with-named-ranges/)
+Excel'de adlandırılmış aralıklarla çalışmak için Aspose.Cells for .NET eğitimlerini keşfedin. Adım adım kılavuzlarla tüm veya belirli adlandırılmış aralıklara nasıl erişeceğinizi öğrenin.
+### [Excel'de Hücreleri Birleştirme ve Birleştirmeyi Kaldırma](./excel-merging-unmerging-cells/)
+Kolay Aspose.Cells for .NET eğitimlerimizle Excel'de hücreleri birleştirme ve ayırma konusunda ustalaşın. Elektronik tablo becerilerinizi geliştirin.
+### [Excel'de Adlandırılmış Aralıklar Oluşturma ve Biçimlendirme](./excel-creating-formatting-named-ranges/)
+Aspose.Cells for .NET ile Excel'de adlandırılmış aralıkların nasıl oluşturulacağını ve biçimlendirileceğini keşfedin. Veri yönetiminizi ve görsel sunumunuzu zahmetsizce geliştirin.
+### [Excel'de Adlandırılmış Aralıklarla Gelişmiş İşlemler](./excel-advanced-named-ranges/)
+Adlandırılmış aralıklar, hücre tanımlama ve dinamik raporlar için hücreleri birleştirme gibi gelişmiş işlemlere ilişkin eğitimlerle Aspose.Cells for .NET'in potansiyelini ortaya çıkarın.
+### [Excel'de Adlandırılmış Aralıkları Yönetme](./excel-managing-named-ranges/)
+Aspose.Cells for .NET kullanarak Excel'de adlandırılmış aralıkları yönetmeye ilişkin kapsamlı eğitimleri keşfedin. Yeni başlayanlar ve ileri düzey kullanıcılar için mükemmeldir.
+### [Excel Veri Dışa Aktarımı ve Alma](./excel-data-export-retrieval/)
+Her beceri düzeyindeki geliştirici için mükemmel olan Aspose.Cells for .NET'i kullanarak Excel verilerini dışa aktarma ve alma konusunda adım adım eğitimleri keşfedin.
+### [Excel Otomatik Filtreleme ve Doğrulama](./excel-autofilter-validation/)
+Aspose.Cells for .NET eğitimleriyle Excel veri yönetiminin kilidini açın. Elektronik tablolarınızı geliştirmek için otomatik filtreleme ve ondalık doğrulamayı öğrenin.
+### [Excel Alt Toplam ve Hesaplama](./excel-subtotal-calculation/)
+Aspose.Cells for .NET kullanarak Excel alt toplamları oluşturmayı ve emsalleri izlemeyi keşfedin. E-tablo becerilerinizi zahmetsizce geliştirmek için bu eğitimleri izleyin.
+### [Excel Veri Bağımlılığı ve Hesaplaması](./excel-data-dependency-calculation/)
+Excel otomasyon becerilerinizi geliştirmek için, bağımlı hücreleri izleme de dahil olmak üzere Excel veri bağımlılıklarını ve hesaplamalarını kapsayan Aspose.Cells for .NET eğitimlerini keşfedin.
+### [Excel Veri Doğrulama ve Filtreleme](./excel-data-validation-filter/)
+Üretkenliğinizi artıracak basit kılavuzlar olan Excel veri doğrulama ve filtreleri hakkında Aspose.Cells for .NET eğitimlerini keşfedin.
+### [Excel Veri Hizalama ve Biçimlendirme](./excel-data-alignment-formatting/)
+Aspose.Cells for .NET'te biçimlendirmeyi kaybetmeden Excel hücrelerinin hizalamasını nasıl değiştireceğinizi keşfedin. Sorunsuz Excel veri biçimlendirmesi için adım adım öğreticiyi öğrenin.
+### [Excel Özel Sayı ve Tarih Biçimlendirmesi](./excel-custom-number-date-formatting/)
+Özel sayı ve tarih biçimlendirme hakkındaki kapsamlı eğitimlerimizle Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Excel becerilerinizi optimize edin.
+### [Excel Veri Sıralama ve Dışa Aktarma](./excel-data-sorting-exporting/)
+Bu kolay takip edilebilir eğitimlerle Aspose.Cells for .NET ile Excel'de verileri nasıl sıralayacağınızı ve HTML değerlerini nasıl dışa aktaracağınızı öğrenin.
+### [Excel Veri İçe ve Dışa Aktarma](./excel-data-import-export/)
+Aspose.Cells for .NET'in gücünü açığa çıkarın. Excel verilerini kolayca ve verimli bir şekilde içe ve dışa aktarmak için eğitimlerimizi keşfedin.
+### [Excel Veri Saklama ve Uyarı](./excel-data-preservation-warning/)
+Hücrelerdeki tek tırnak işaretlerini koruma ve sıralama sırasında sıralama uyarıları belirtme gibi gelişmiş Excel veri koruma teknikleri için Aspose.Cells for .NET'i kullanmayı öğrenin.
+### [Excel Aralığı ve Adres Hesaplaması](./excel-range-address-calculation/)
+Excel aralık oluşturma, adres hesaplama ve gelişmiş işlemleri kolaylıkla kapsayan Aspose.Cells for .NET ile ilgili temel eğitimleri keşfedin.
+### [Excel Gizli Satırlar ve Veri Çoğaltma Yönetimi](./excel-hidden-rows-data-duplication-management/)
+Gizli satırları yönetme ve verileri zahmetsizce kopyalama konusunda bilgi sağlayan Aspose.Cells for .NET eğitimleriyle Excel'in potansiyelini açığa çıkarın.

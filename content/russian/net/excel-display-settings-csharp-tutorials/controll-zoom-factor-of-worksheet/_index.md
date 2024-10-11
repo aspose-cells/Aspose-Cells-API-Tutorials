@@ -78,10 +78,10 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Шаг 3: Создание экземпляра объекта Workbook
 
- The`Workbook`Объект — это сердце функциональности Aspose.Cells. Он представляет ваш файл Excel в управляемом виде.
+ The`Workbook` Объект — это сердце функциональности Aspose.Cells. Он представляет ваш файл Excel в управляемом виде.
 
 ```csharp
-// Создание объекта Workbook
+//Создание объекта Workbook
 // Открытие файла Excel через файловый поток
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Теперь, когда рабочая книга находится в памяти, пришло время получить доступ к конкретному рабочему листу, который вы хотите изменить. В большинстве случаев это будет первый рабочий лист (индекс 0).
 
 ```csharp
-// Доступ к первому листу в файле Excel
+//Доступ к первому листу в файле Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

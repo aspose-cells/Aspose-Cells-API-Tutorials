@@ -78,10 +78,10 @@ Questa riga di codice preparerà il file Excel per la modifica.
 
 ## Passaggio 3: creare un'istanza dell'oggetto Workbook
 
- IL`Workbook`object è il cuore della funzionalità Aspose.Cells. Rappresenta il tuo file Excel in modo gestibile.
+ IL`Workbook` object è il cuore della funzionalità Aspose.Cells. Rappresenta il tuo file Excel in modo gestibile.
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 // Apertura del file Excel tramite il flusso di file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Con la cartella di lavoro ora in memoria, è il momento di accedere al foglio di lavoro specifico che vuoi modificare. Nella maggior parte dei casi, questo sarà il primo foglio di lavoro (indice 0).
 
 ```csharp
-// Accesso al primo foglio di lavoro nel file Excel
+//Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -134,7 +134,7 @@ Ed ecco fatto! Hai manipolato con successo il fattore di zoom di un foglio di la
 
 ## Conclusione
 
-Controllare il fattore di zoom nei fogli di lavoro Excel può sembrare un dettaglio di poco conto, ma può migliorare notevolmente la leggibilità e l'esperienza utente. Con Aspose.Cells per .NET, questa attività è semplice ed efficiente. Puoi aspettarti maggiore chiarezza e comfort durante la navigazione nei tuoi fogli di calcolo.
+Controllare il fattore di zoom nei fogli di lavoro Excel può sembrare un dettaglio di poco conto, ma può migliorare notevolmente la leggibilità e l'esperienza utente. Con Aspose.Cells per .NET, questo compito è semplice ed efficiente. Puoi aspettarti maggiore chiarezza e comfort durante la navigazione nei tuoi fogli di calcolo.
 
 ## Domande frequenti
 

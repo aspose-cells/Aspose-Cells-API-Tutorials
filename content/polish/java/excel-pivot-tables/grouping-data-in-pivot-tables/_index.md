@@ -2,7 +2,7 @@
 title: Grupowanie danych w tabelach przestawnych
 linktitle: Grupowanie danych w tabelach przestawnych
 second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak tworzyć tabele przestawne w programie Excel przy użyciu Aspose.Cells dla języka Java. Zautomatyzuj grupowanie i analizę danych za pomocą przykładów kodu źródłowego.
+description: Dowiedz się, jak tworzyć tabele przestawne w programie Excel za pomocą Aspose.Cells dla języka Java. Zautomatyzuj grupowanie i analizę danych za pomocą przykładów kodu źródłowego.
 type: docs
 weight: 14
 url: /pl/java/excel-pivot-tables/grouping-data-in-pivot-tables/

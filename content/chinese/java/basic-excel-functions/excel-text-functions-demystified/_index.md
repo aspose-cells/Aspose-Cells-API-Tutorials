@@ -14,7 +14,7 @@ url: /zh/java/basic-excel-functions/excel-text-functions-demystified/
 
 ## 入门
 
-在我们开始之前，请确保您已安装 Aspose.Cells for Java。您可以下载它[这里](https://releases.aspose.com/cells/java/)。设置完成后，让我们深入了解 Excel 文本函数的迷人世界。
+在我们开始之前，请确保您已安装 Aspose.Cells for Java。您可以下载它[这里](https://releases.aspose.com/cells/java/)。设置完成后，让我们深入探索 Excel 文本函数的迷人世界。
 
 ## CONCATENATE - 合并文本
 
@@ -70,7 +70,7 @@ workbook.calculateFormula();
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
-//统计字符数
+//计算字符数
 cell = worksheet.getCells().get("B3");
 cell.setFormula("=LEN(A3)");
 

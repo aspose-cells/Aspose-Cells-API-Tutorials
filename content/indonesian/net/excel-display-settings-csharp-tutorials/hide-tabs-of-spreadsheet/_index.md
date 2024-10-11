@@ -38,7 +38,7 @@ Sebelum pengkodean dimulai, penting untuk menyiapkan lingkungan pengembangan And
 1.  Buat Proyek Baru: Buka Visual Studio, buat proyek Aplikasi Konsol baru, dan beri nama sesuatu yang deskriptif, seperti`HideExcelTabs`.
 2. Tambahkan Referensi Aspose.Cells: Buka NuGet Package Manager dan cari “Aspose.Cells for .NET.” Instal ke proyek Anda.
  Atau, jika Anda bekerja secara offline, Anda dapat[unduh Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/) dan tambahkan berkas DLL secara manual ke referensi proyek Anda.
-3.  Siapkan File Excel: Tempatkan file Excel yang ingin Anda ubah (misalnya,`book1.xls`) di direktori proyek Anda. Pastikan Anda mengetahui jalur berkasnya.
+3. Siapkan File Excel: Tempatkan file Excel yang ingin Anda ubah (misalnya,`book1.xls`) di direktori proyek Anda. Pastikan Anda mengetahui jalur berkasnya.
 
 ## Langkah 2: Buka File Excel
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Pada langkah ini, kita membuat sebuah instance dari`Workbook` kelas, yang mewakili berkas Excel. Jalur ke berkas Excel Anda disediakan sebagai parameter. Pastikan Anda mengganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur berkas sebenarnya tempat berkas Excel Anda berada.
+ Pada langkah ini, kita membuat sebuah instance dari`Workbook` kelas, yang mewakili berkas Excel. Jalur ke berkas Excel Anda disediakan sebagai parameter. Pastikan Anda mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur berkas sebenarnya tempat berkas Excel Anda berada.
 
 Dengan memuat buku kerja, Anda membuat koneksi dengan file tersebut, yang memungkinkan modifikasi lebih lanjut. Tanpa ini, tidak ada perubahan yang dapat dilakukan.
 
@@ -97,7 +97,7 @@ Menyimpan sangatlah penting. Tanpa langkah ini, semua perubahan yang dibuat pada
 
 Nah, itu dia! Anda telah berhasil menyembunyikan tab lembar kerja dalam file Excel menggunakan Aspose.Cells for .NET. Perubahan sederhana ini dapat membuat dokumen Excel Anda tampak lebih rapi dan fokus, terutama saat berbagi file dengan klien atau anggota tim yang tidak perlu melihat semua tab yang berfungsi.
 
-Dengan Aspose.Cells untuk .NET, Anda dapat memanipulasi file Excel dengan cara yang canggih, mulai dari menyembunyikan tab hingga membuat laporan dinamis, bagan, dan banyak lagi. Jika Anda baru mengenal alat ini, jangan ragu untuk menjelajahi[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk fitur dan kemampuan yang lebih mendalam.
+ Dengan Aspose.Cells untuk .NET, Anda dapat memanipulasi file Excel dengan cara yang canggih, mulai dari menyembunyikan tab hingga membuat laporan dinamis, bagan, dan banyak lagi. Jika Anda baru mengenal alat ini, jangan ragu untuk menjelajahi[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk fitur dan kemampuan yang lebih mendalam.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -105,7 +105,7 @@ Dengan Aspose.Cells untuk .NET, Anda dapat memanipulasi file Excel dengan cara y
  Tidak, menyembunyikan tab melalui`ShowTabs` properti menyembunyikan atau menampilkan semua tab lembar sekaligus. Jika Anda ingin menyembunyikan lembar individual, Anda dapat mengatur visibilitas setiap lembar secara terpisah.
 
 ### Bagaimana cara melihat pratinjau tab tersembunyi di Excel?  
- Anda dapat mengaktifkan`ShowTabs` properti kembali ke`true` menggunakan struktur kode yang sama jika Anda perlu melihat atau memulihkan tab.
+ Anda dapat mengaktifkan`ShowTabs`properti kembali ke`true` menggunakan struktur kode yang sama jika Anda perlu melihat atau memulihkan tab.
 
 ### Apakah menyembunyikan tab akan memengaruhi data atau fungsionalitas buku kerja?  
 Tidak, menyembunyikan tab hanya akan mengubah tampilan visual. Data dan fungsi dalam buku kerja tidak akan terpengaruh.

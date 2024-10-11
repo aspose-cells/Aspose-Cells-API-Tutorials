@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel ファイルには複数のワークシートを含めることができます。スケーリング係数を適用するには、最初のワークシートにアクセスします。
 
 ```csharp
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

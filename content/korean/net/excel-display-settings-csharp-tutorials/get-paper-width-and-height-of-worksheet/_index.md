@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- 이러한 각 블록은 이전 단계를 모방하지만 다음을 조정합니다.`PaperSize` 속성에 따라 다릅니다. 크기 표시기를 변경하기만 하면 손쉽게 다른 용지 크기를 얻을 수 있습니다. 보관해야 할 것에 따라 상자 크기를 변경하는 것과 같습니다!
+ 이러한 각 블록은 이전 단계를 모방하지만 다음을 조정합니다.`PaperSize`속성에 따라 다릅니다. 크기 표시기를 변경하기만 하면 손쉽게 다른 용지 크기를 얻을 수 있습니다. 보관해야 할 것에 따라 상자 크기를 변경하는 것과 같습니다!
 
 ## 결론
 

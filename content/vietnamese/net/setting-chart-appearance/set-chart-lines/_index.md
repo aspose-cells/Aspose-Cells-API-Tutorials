@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Bây giờ, chúng ta sẽ tạo một đối tượng sổ làm việc, đóng vai trò là nơi chứa bảng tính của bạn.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
-Giải thích: Dòng này tạo ra một phiên bản của`Workbook` lớp từ thư viện Aspose.Cells. Giống như mở một tệp Excel mới trống, nơi bạn có thể bắt đầu thêm các trang tính và dữ liệu của mình.
+ Giải thích: Dòng này tạo ra một phiên bản của`Workbook`lớp từ thư viện Aspose.Cells. Giống như mở một tệp Excel mới trống, nơi bạn có thể bắt đầu thêm các trang tính và dữ liệu của mình.
 
 ## Bước 3: Tham khảo một bảng tính
 

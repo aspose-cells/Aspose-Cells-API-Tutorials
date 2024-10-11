@@ -109,7 +109,7 @@ worksheet.protect(ProtectionType.ALL);
 workbook.protect(ProtectionType.ALL);
 ```
 
-## Automatizace a validace dat
+## Automatizace a ověřování dat
 
 Automatizace procesů ověřování dat může ušetřit čas a snížit chyby. Zvažte integraci Aspose.Cells for Java do vašich automatizovaných pracovních postupů.
 

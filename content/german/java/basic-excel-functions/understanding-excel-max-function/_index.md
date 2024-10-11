@@ -104,4 +104,4 @@ Ja, Aspose.Cells für Java ist für die effiziente Verarbeitung großer Excel-Da
 
 ### Wo finde ich weitere Dokumentation und Beispiele für Aspose.Cells für Java?
 
- Sie können die Aspose.Cells für Java-Dokumentation unter folgender Adresse einsehen:[Hier](https://reference.aspose.com/cells/java/) für umfassende Informationen und Beispiele.
+ Sie können die Dokumentation zu Aspose.Cells für Java unter folgender Adresse einsehen:[Hier](https://reference.aspose.com/cells/java/) für umfassende Informationen und Beispiele.

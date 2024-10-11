@@ -12,7 +12,7 @@ url: /hu/java/spreadsheet-automation/excel-workbook-automation/
 Ebben az oktatóanyagban megvizsgáljuk, hogyan automatizálhatók az Excel-munkafüzet-műveletek az Aspose.Cells for Java könyvtár használatával. Az Aspose.Cells egy hatékony Java API, amely lehetővé teszi Excel-fájlok programozott létrehozását, kezelését és kezelését.
 
 ## Előfeltételek
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Cells for Java könyvtár hozzáadva van a projekthez. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
+ Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Cells for Java könyvtárat hozzáadta a projekthez. Letöltheti innen[itt](https://releases.aspose.com/cells/java/).
 
 ## 1. lépés: Hozzon létre egy új Excel-munkafüzetet
 Kezdjük egy új Excel-munkafüzet létrehozásával az Aspose.Cells segítségével. Az alábbiakban egy példa látható, hogyan kell ezt megtenni:

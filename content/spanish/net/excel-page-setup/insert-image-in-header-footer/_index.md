@@ -15,7 +15,7 @@ Al trabajar con archivos de Excel, los encabezados y pies de página desempeñan
 
 Antes de sumergirnos en el código real, hay algunas cosas que debes tener listas:
 
-1. Biblioteca Aspose.Cells para .NET: asegúrese de tener la biblioteca Aspose.Cells instalada en su entorno .NET. Si aún no la tiene, puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
+1.  Biblioteca Aspose.Cells para .NET: asegúrese de tener la biblioteca Aspose.Cells instalada en su entorno .NET. Si aún no la tiene, puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
 2. Visual Studio o cualquier otro IDE: necesitará un entorno de desarrollo integrado para escribir y ejecutar su código C#.
 3.  Una imagen de muestra: Prepare una imagen que desee insertar en el encabezado o pie de página. Para nuestro ejemplo, utilizaremos el logotipo de una empresa llamada`aspose-logo.jpg`.
 4. Conocimientos básicos de C#: si bien no es obligatorio, comprender C# le facilitará seguir este tutorial.
@@ -95,7 +95,7 @@ Con los datos binarios de la imagen a mano, ahora podemos insertarla en el encab
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Esta línea coloca la imagen en la sección central del encabezado. El parámetro`1` especifica la sección de encabezado.
+ Esta línea coloca la imagen en la sección central del encabezado. El parámetro`1`especifica la sección de encabezado.
 
 ## Paso 7: Configuración del contenido del encabezado
 

@@ -16,7 +16,7 @@ W erze cyfrowej zarządzanie danymi i ich zabezpieczanie jest ważniejsze niż k
 Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujesz:
 
 1. Środowisko programistyczne: Na komputerze powinien być zainstalowany program Visual Studio, ponieważ stanowi on doskonałe środowisko IDE do programowania w środowisku .NET.
-2.  Biblioteka Aspose.Cells: Pobierz bibliotekę Aspose.Cells. Możesz ją pobrać z[Strona pobierania Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Pobierz bibliotekę Aspose.Cells. Możesz ją pobrać z[Strona pobierania Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Upewnij się, że dobrze rozumiesz język C# i środowisko .NET Framework, aby móc z łatwością nadążać za językiem.
 4. Utwórz projekt: Skonfiguruj nową aplikację konsolową w programie Visual Studio, w której napiszemy kod.
 
@@ -48,7 +48,7 @@ Podzielmy implementację na łatwe do opanowania kroki. Utworzymy prosty plik Ex
 
 ## Krok 1: Utwórz strumień plików dla swojego pliku Excel
 
- Najpierw musimy załadować istniejący plik Excela. Użyjemy`FileStream` aby uzyskać do niego dostęp.
+Najpierw musimy załadować istniejący plik Excela. Użyjemy`FileStream` aby uzyskać do niego dostęp.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Teraz, gdy mamy strumień plików, możemy utworzyć`Workbook` obiekt.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 // Otwieranie pliku Excel za pomocą strumienia plików
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Na nasze potrzeby będziemy pracować tylko z pierwszym arkuszem kalkulacyjnym. Uzyskajmy do niego dostęp.
 
 ```csharp
-// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Arkusze kalkulacyjne są indeksowane od zera, więc`Worksheets[0]`odnosi się do pierwszego arkusza w pliku Excel. Teraz możemy zastosować nasze ustawienia ochrony do tego konkretnego arkusza.
+ Arkusze kalkulacyjne są indeksowane od zera, więc`Worksheets[0]` odnosi się do pierwszego arkusza w pliku Excel. Teraz możemy zastosować nasze ustawienia ochrony do tego konkretnego arkusza.
 
 ## Krok 4: Zastosuj zaawansowane ustawienia ochrony
 
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // Zapisywanie zmodyfikowanego pliku Excel
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Tutaj zapisujemy skoroszyt do nowego pliku,`output.xls`. W ten sposób oryginalny plik pozostaje nienaruszony, a my możemy sprawdzić zastosowane zabezpieczenia w naszym nowym pliku.
+ Tutaj zapisujemy skoroszyt do nowego pliku,`output.xls`W ten sposób oryginalny plik pozostaje nienaruszony, a my możemy sprawdzić zastosowane zabezpieczenia w naszym nowym pliku.
 
 ## Krok 6: Zamknij strumień plików
 
@@ -140,7 +140,7 @@ Ten krok jest kluczowy dla efektywnego zarządzania zasobami. Niezamknięcie str
 
 ## Wniosek
 
-masz to! Udało Ci się wdrożyć zaawansowane ustawienia ochrony dla arkusza kalkulacyjnego Excel przy użyciu Aspose.Cells dla .NET. Kontrolując uprawnienia użytkowników, możesz zachować integralność swoich danych, zapewniając jednocześnie niezbędną elastyczność. Ten proces nie tylko zabezpiecza Twoje informacje, ale także umożliwia współpracę bez ryzyka utraty danych. 
+I masz to! Udało Ci się wdrożyć zaawansowane ustawienia ochrony dla arkusza kalkulacyjnego Excel przy użyciu Aspose.Cells dla .NET. Kontrolując uprawnienia użytkowników, możesz zachować integralność swoich danych, zapewniając jednocześnie niezbędną elastyczność. Ten proces nie tylko zabezpiecza Twoje informacje, ale także umożliwia współpracę bez ryzyka utraty danych. 
 
 ## Najczęściej zadawane pytania
 
@@ -148,7 +148,7 @@ masz to! Udało Ci się wdrożyć zaawansowane ustawienia ochrony dla arkusza ka
 Aspose.Cells to potężna biblioteka umożliwiająca programowe tworzenie, edytowanie i konwertowanie plików Excel w środowisku .NET.
 
 ### Czy mogę chronić wiele arkuszy kalkulacyjnych jednocześnie?
- Tak! Możesz zastosować podobne ustawienia ochrony do wielu arkuszy roboczych, przechodząc przez nie`Worksheets` kolekcja.
+ Tak! Możesz zastosować podobne ustawienia ochrony do wielu arkuszy roboczych, przechodząc przez nie`Worksheets`kolekcja.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
  Chociaż dostępna jest bezpłatna wersja próbna, licencja jest wymagana do pełnego rozwoju. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).

@@ -16,7 +16,7 @@ url: /hu/net/excel-page-setup/fit-to-excel-pages-options/
 Mielőtt belevágnánk a kódolásba, győződjünk meg arról, hogy mindennel rendelkezünk, ami a kezdéshez szükséges. Íme, aminek a helyén kell lennie:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez a fő központja minden fejlesztési munkának.
-2.  Aspose.Cells for .NET: Le kell töltenie az Aspose.Cells könyvtárat, és hozzá kell adnia a projekthez. Könnyen megragadhatja a[Aspose honlapja](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Le kell töltenie az Aspose.Cells könyvtárat, és hozzá kell adnia a projekthez. Könnyen megragadhatja a[Aspose honlapja](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismeretek: A C# programozás ismerete óriási segítséget jelent. Ha tudja kezelni a változókat, a ciklusokat és az alapvető fájl I/O-t, akkor otthon lesz.
 4. .NET-keretrendszer: Győződjön meg arról, hogy projektje a megfelelő .NET-keretrendszer-verzióval van beállítva, mivel a könyvtárat úgy tervezték, hogy kompatibilis legyen ezen az ökoszisztémán belül.
 
@@ -54,9 +54,9 @@ Először inicializáljuk a munkafüzetünket, és elérjük a kívánt munkalap
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
-// Az Excel fájl első munkalapjának elérése
+//Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`meghatározza, hogy a munkalap függőlegesen hány oldalra terjedjen ki.
-- `FitToPagesWide` meghatározza a vízszintes oldalbeállítást. Mindkettő beállítása`1` azt jelenti, hogy a tartalom szépen elfér egy oldalon, így a dokumentum egy áramvonalas remekművé válik.
+- `FitToPagesTall` meghatározza, hogy a munkalap függőlegesen hány oldalra terjedjen ki.
+- `FitToPagesWide` meghatározza a vízszintes oldalbeállítást. Mindkettő beállítása`1`azt jelenti, hogy a tartalom szépen elfér egy oldalon, így a dokumentum egy áramvonalas remekművé válik.
 
 ## 3. lépés: Mentse el a munkafüzetet
 
@@ -97,10 +97,10 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 Az Aspose.Cells egy robusztus .NET-könyvtár az Excel-fájlok programozott kezelésére, lehetővé téve a fejlesztők számára, hogy könnyedén hozzanak létre és kezeljenek táblázatokat.
 
 ### Kipróbálhatom az Aspose.Cells-t ingyen?
- Igen! Regisztrálhat egy ingyenes próbaverzióra[itt](https://releases.aspose.com/).
+Igen! Regisztrálhat egy ingyenes próbaverzióra[itt](https://releases.aspose.com/).
 
 ### Hogyan vásárolhatok Aspose.Cells-t?
- Megteheti a vásárlást[itt](https://purchase.aspose.com/buy).
+ Meg tudod vásárolni[itt](https://purchase.aspose.com/buy).
 
 ### Milyen támogatási lehetőségek állnak rendelkezésre?
  Az Aspose egy fórumot kínál, ahol támogatást kaphat, és megvitathatja a problémákat más felhasználókkal. Nézd meg[itt](https://forum.aspose.com/c/cells/9).

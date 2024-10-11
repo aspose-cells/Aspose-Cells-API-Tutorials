@@ -47,7 +47,7 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình 
 ```csharp
 //Thư mục đầu ra
 static string outputDir = "Your Document Directory";
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 

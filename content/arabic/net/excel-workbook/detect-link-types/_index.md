@@ -63,7 +63,7 @@ string SourceDir = "Your Document Directory";
 بعد ذلك، سنقوم بتحميل المصنف الخاص بنا. وهذا يشبه فتح ملف Excel في الخلفية، مما يسمح لنا بقراءة محتوياته والتلاعب بها.
 
 ```csharp
-// تحميل المصنف
+//تحميل المصنف
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

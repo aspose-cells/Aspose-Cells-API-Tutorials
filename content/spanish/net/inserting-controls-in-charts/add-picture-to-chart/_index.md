@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Reemplazar`Your Document Directory` y`Your Output Directory`con rutas reales en su computadora. 
+ Reemplazar`Your Document Directory` y`Your Output Directory` con rutas reales en su computadora. 
 
 ## Paso 2: Cargue el libro de trabajo existente
 
@@ -100,7 +100,7 @@ Puede acceder a cualquier hoja de trabajo modificando el índice según correspo
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Aquí,`50` y`50` son las coordenadas X e Y donde se colocará la imagen, y`200`Es el ancho y alto de la imagen.
+ Aquí,`50` y`50` son las coordenadas X e Y donde se colocará la imagen, y`200` Es el ancho y alto de la imagen.
 
 ## Paso 6: Personaliza el formato de línea de la imagen
 
@@ -151,7 +151,7 @@ En este tutorial, hemos explorado cómo inyectar un poco de personalidad a sus g
 Aspose.Cells admite una variedad de formatos de imagen, incluidos PNG, JPEG, BMP y GIF.
 
 ### ¿Puedo personalizar la posición de la imagen?
- ¡Por supuesto! Las coordenadas X e Y en el`AddPictureInChart` El método permite un posicionamiento preciso.
+¡Por supuesto! Las coordenadas X e Y en el`AddPictureInChart` El método permite un posicionamiento preciso.
 
 ### ¿Aspose.Cells es de uso gratuito?
  Aspose.Cells ofrece una prueba gratuita, pero para obtener todas las funciones se requiere una licencia. Puede consultar los precios[aquí](https://purchase.aspose.com/buy).

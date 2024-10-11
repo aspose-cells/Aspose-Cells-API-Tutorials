@@ -55,7 +55,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- बस प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपका`book1.xls` फ़ाइल कहाँ रहती है। इसे सड़क यात्रा शुरू करने से पहले अपने GPS को सही पता देने के रूप में सोचें!
+ बस प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपका`book1.xls`फ़ाइल कहाँ रहती है। इसे सड़क यात्रा शुरू करने से पहले अपने GPS को सही पता देने के रूप में सोचें!
 
 ## चरण 4: FileStream के साथ Excel फ़ाइल खोलें
 

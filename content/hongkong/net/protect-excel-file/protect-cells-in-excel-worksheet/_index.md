@@ -16,7 +16,7 @@ url: /zh-hant/net/protect-excel-file/protect-cells-in-excel-worksheet/
 在深入了解保護細胞的實質之前，您應該滿足一些先決條件：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。它是 .NET 開發的主要 IDE。
-2.  Aspose.Cells 函式庫：您的專案中需要有 Aspose.Cells 函式庫。您可以透過 NuGet Package Manager 輕鬆安裝它或直接從[Aspose.Cells 站點](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 函式庫：您的專案中需要有 Aspose.Cells 函式庫。您可以透過 NuGet Package Manager 輕鬆安裝它或直接從[Aspose.Cells 網站](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知識：稍微熟悉一下 C# 程式設計將有助於您順利掌握。
 
 ## 導入包

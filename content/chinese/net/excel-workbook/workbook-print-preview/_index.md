@@ -16,7 +16,7 @@ url: /zh/net/excel-workbook/workbook-print-preview/
 在开始编码操作之前，让我们确保您已准备好开始所需的一切。以下是先决条件清单：
 
 1. Visual Studio：您需要一个 IDE，Visual Studio 是 .NET 项目的绝佳选择。
-2. Aspose.Cells for .NET：您可以下载该库，或者，如果您愿意，也可以先免费试用一下。只需前往[此链接](https://releases.aspose.com).
+2.  Aspose.Cells for .NET：您可以下载该库，或者，如果您愿意，也可以先免费试用一下。只需前往[此链接](https://releases.aspose.com).
 3. C# 基础知识：了解 C# 的基础知识将帮助您顺利完成学习。
 4. .NET Framework：确保您的机器上安装了兼容版本的.NET 框架。
 5. 示例 Excel 文件：在本教程中，您需要一个 Excel 文件。您可以使用名为的示例文件`Book1.xlsx`.
@@ -123,7 +123,7 @@ Console.WriteLine("PrintPreview executed successfully.");
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 为您的 Excel 工作簿设置了打印预览。我们涵盖了从导入包到评估整个工作簿和单个工作表的页数的所有内容。可视化打印时的工作簿的外观是多么容易，这真是令人惊讶，对吧？通过使用 Aspose.Cells，您可以获得强大的工具。无论您是经验丰富的开发人员还是刚刚起步的人，此库都提供了将 Excel 文件管理提升到新水平所需的灵活性和功能。
+就这样！您已成功使用 Aspose.Cells for .NET 为您的 Excel 工作簿设置了打印预览。我们涵盖了从导入包到评估整个工作簿和单个工作表的页数的所有内容。可视化打印时的工作簿的外观是多么容易，这真是太神奇了，对吧？通过使用 Aspose.Cells，您可以获得强大的工具。无论您是经验丰富的开发人员还是刚刚起步的开发人员，此库都提供了将 Excel 文件管理提升到新水平所需的灵活性和功能。
 
 ## 常见问题解答
 

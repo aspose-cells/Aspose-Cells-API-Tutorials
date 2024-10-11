@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Se till att byta ut`"YOUR SOURCE DIRECTORY"` och`"YOUR OUTPUT DIRECTORY"`med faktiska sökvägar på din maskin. Se det här som att skapa en snygg arbetsyta innan du börjar skapa ditt mästerverk!
+ Se till att byta ut`"YOUR SOURCE DIRECTORY"` och`"YOUR OUTPUT DIRECTORY"` med faktiska sökvägar på din maskin. Se det här som att skapa en snygg arbetsyta innan du börjar skapa ditt mästerverk!
 
 ## Steg 2: Skapa en tom arbetsbok
 
@@ -89,7 +89,7 @@ Det sista steget är att spara arbetsboken i önskat format. I det här fallet s
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Här kommer utdatafilen att sparas i din angivna utdatakatalog med namnet`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Det är här ditt hårda arbete äntligen lönar sig, och du kan dela din arbetsbok med andra, i vetskap om att den är väl skyddad!
+ Här kommer utdatafilen att sparas i din angivna utdatakatalog med namnet`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Det är här ditt hårda arbete äntligen lönar sig, och du kan dela din arbetsbok med andra, i vetskap om att den är väl skyddad!
 
 ## Slutsats
 
@@ -110,4 +110,4 @@ Och där har du det! Du har lärt dig hur du skapar en Excel-arbetsbok, ställer
 Absolut! Aspose.Cells fungerar sömlöst i både skrivbords- och webbapplikationer med .NET.
 
 ### Vad ska jag göra om jag behöver stöd?  
- För frågor och felsökning är Aspose-communityt till stor hjälp. Du kan besöka deras[supportforum](https://forum.aspose.com/c/cells/9) för hjälp.
+För frågor och felsökning är Aspose-communityt till stor hjälp. Du kan besöka deras[supportforum](https://forum.aspose.com/c/cells/9) för hjälp.

@@ -77,7 +77,7 @@ Hier gebeurt de magie! We kunnen de afdrukkwaliteit voor het werkblad instellen.
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Uitleg: De`PrintQuality`eigenschap kan worden ingesteld op elke waarde, meestal tussen 75 en 600 dpi (dots per inch). In dit geval stellen we het in op 180 dpi, wat geweldig is voor een goede balans tussen kwaliteit en bestandsgrootte.
+ Uitleg: De`PrintQuality` eigenschap kan worden ingesteld op elke waarde, meestal tussen 75 en 600 dpi (dots per inch). In dit geval stellen we het in op 180 dpi, wat geweldig is voor een goede balans tussen kwaliteit en bestandsgrootte.
 
 ## Stap 5: De werkmap opslaan
 

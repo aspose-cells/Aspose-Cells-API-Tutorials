@@ -77,7 +77,7 @@ Dans ce cas, nous récupérons simplement la première feuille de calcul, ce qui
 Avec la feuille de travail en main, nous pouvons maintenant accéder au graphique que nous souhaitons styliser.
 
 ```csharp
-// Obtenir le premier graphique de la feuille
+//Obtenir le premier graphique de la feuille
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Cette ligne de code garantit que la première série du graphique est configuré
 // Obtenir la couleur des cellules de SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Créer un thème dans le style Accent
+//Créer un thème dans le style Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

@@ -73,7 +73,7 @@ Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ReplaceOptions replace = new ReplaceOptions();
 replace.CaseSensitive = false; // 검색을 대소문자 구분 없이 하세요
 replace.MatchEntireCellContents = false; // 부분 일치 허용
-replace.RegexKey = true; // 정규식을 사용한다고 지정하세요
+replace.RegexKey = true; // 정규식을 사용하고 있다고 지정하세요
 ```
 
 이 구성에서는:

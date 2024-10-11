@@ -47,7 +47,7 @@ using System.Drawing;
 ```csharp
 //دليل الإخراج
 static string outputDir = "Your Document Directory";
-// إنشاء كائن مصنف
+//إنشاء كائن مصنف
 Workbook workbook = new Workbook();
 ```
 

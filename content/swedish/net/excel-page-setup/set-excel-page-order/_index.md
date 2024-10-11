@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Här,`workbook.Worksheets[0]` hänvisar till det första kalkylbladet i din arbetsbok. De`PageSetup`egenskapen ger dig kontroll över sideringsinställningarna för ditt ark.
+ Här,`workbook.Worksheets[0]` hänvisar till det första kalkylbladet i din arbetsbok. De`PageSetup` egenskapen ger dig kontroll över sideringsinställningarna för ditt ark.
 
 ## Steg 4: Ställ in utskriftsordningen
 
 
- Med`PageSetup` objekt är det dags att berätta för Excel hur du vill att sidorna ska skrivas ut. Du har möjlighet att ställa in ordningen som antingen "Over Then Down" eller "Down Then Over."
+ Med`PageSetup`objekt är det dags att berätta för Excel hur du vill att sidorna ska skrivas ut. Du har möjlighet att ställa in ordningen som antingen "Over Then Down" eller "Down Then Over."
 
 Här är koden för att ställa in utskriftsordningen:
 

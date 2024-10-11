@@ -16,7 +16,7 @@ Dijital çağda, verilerinizi yönetmek ve güvenliğini sağlamak her zamankind
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Geliştirme Ortamı: .NET geliştirme için mükemmel bir IDE sağladığı için makinenizde Visual Studio yüklü olmalıdır.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin. Bunu şuradan alabilirsiniz:[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin. Bunu şuradan alabilirsiniz:[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Kolayca takip edebilmek için C# ve .NET Framework hakkında iyi bir anlayışa sahip olduğunuzdan emin olun.
 4. Proje Oluşturun: Kodlarımızı yazacağımız Visual Studio'da yeni bir Konsol Uygulaması kuralım.
 
@@ -48,7 +48,7 @@ Uygulamayı yönetilebilir adımlara bölelim. Basit bir Excel dosyası oluştur
 
 ## Adım 1: Excel Dosyanız için Bir Dosya Akışı Oluşturun
 
- Öncelikle mevcut bir Excel dosyasını yüklememiz gerekiyor. Bir`FileStream` erişmek için.
+Öncelikle mevcut bir Excel dosyasını yüklememiz gerekiyor. Bir`FileStream` erişmek için.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Artık bir dosya akışımız olduğuna göre, bir tane oluşturabiliriz`Workbook` nesne.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Bizim amacımız için, sadece ilk çalışma kağıdıyla çalışacağız. Ona erişelim.
 
 ```csharp
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Çalışma sayfaları sıfırdan başlayarak indekslenir, bu nedenle`Worksheets[0]`Excel dosyasındaki ilk çalışma sayfasını ifade eder. Şimdi, koruma ayarlarımızı bu belirli sayfaya uygulayabiliriz.
+ Çalışma sayfaları sıfırdan başlayarak indekslenir, bu nedenle`Worksheets[0]` Excel dosyasındaki ilk çalışma sayfasını ifade eder. Şimdi, koruma ayarlarımızı bu belirli sayfaya uygulayabiliriz.
 
 ## Adım 4: Gelişmiş Koruma Ayarlarını Uygula
 
@@ -148,7 +148,7 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak bir Excel çalışma sa
 Aspose.Cells, Excel dosyalarını .NET'te programlı olarak oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir.
 
 ### Birden fazla çalışma sayfasını aynı anda koruyabilir miyim?
- Evet! Benzer koruma ayarlarını, aşağıdakileri yineleyerek birden fazla çalışma sayfasına uygulayabilirsiniz:`Worksheets` koleksiyon.
+ Evet! Benzer koruma ayarlarını, aşağıdakileri yineleyerek birden fazla çalışma sayfasına uygulayabilirsiniz:`Worksheets`koleksiyon.
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
  Ücretsiz bir deneme sürümü mevcut olsa da, tam ölçekli geliştirme için bir lisans gereklidir. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

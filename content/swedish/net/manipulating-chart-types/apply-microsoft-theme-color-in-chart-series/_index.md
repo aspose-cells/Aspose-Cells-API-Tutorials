@@ -9,7 +9,7 @@ url: /sv/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 ---
 ## Introduktion
 
-I dagens visuellt styrda värld spelar sättet vi presenterar data stor roll. Diagram är ofta de obesjungna hjältarna i datapresentation, som förenklar komplex information till lättsmälta visuella klumpar. Om du använder Microsoft Excel vet du hur viktigt det är att anpassa dina diagram för att matcha din organisations varumärke eller helt enkelt göra dem mer tilltalande. Men visste du att du kan anpassa dina diagram ytterligare med Aspose.Cells för .NET? I den här artikeln kommer vi att gå igenom stegen för att tillämpa Microsofts temafärger i din diagramserie, vilket säkerställer att dina data inte bara sticker ut utan också matchar estetiken hos ditt andra varumärkesmaterial.
+dagens visuellt styrda värld spelar sättet vi presenterar data stor roll. Diagram är ofta de obesjungna hjältarna i datapresentation, som förenklar komplex information till lättsmälta visuella klumpar. Om du använder Microsoft Excel vet du hur viktigt det är att anpassa dina diagram för att matcha din organisations varumärke eller helt enkelt göra dem mer tilltalande. Men visste du att du kan anpassa dina diagram ytterligare med Aspose.Cells för .NET? I den här artikeln kommer vi att gå igenom stegen för att tillämpa Microsofts temafärger i din diagramserie, vilket säkerställer att dina data inte bara sticker ut utan också matchar estetiken hos ditt andra varumärkesmaterial.
 
 ## Förutsättningar
 
@@ -79,7 +79,7 @@ Precis som att gå till en specifik sida i en bok, leder detta steg oss dit vi b
 Nu är det dags att hitta diagrammet som vi vill ändra. Det är här magin verkligen börjar!
 
 ```csharp
-// Få det första diagrammet i arket
+//Få det första diagrammet i arket
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -101,7 +101,7 @@ Detta är analogt med att bestämma utseendet och känslan av ett rum innan du d
 Därefter måste vi definiera färgen för diagrammets fyllningsområde. Det är så vi gör vår valda färg till liv.
 
 ```csharp
-// Skaffa CellsColor från SolidFill
+// Skaffa CellsColor av SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 
@@ -109,10 +109,10 @@ Här tar vi tag i färginställningen för diagramserien.
 
 ## Steg 7: Använd temafärgen
 
- Låt oss nu tillämpa en Microsoft-temafärg. Vi väljer en`Accent` stil för vem älskar inte en pop av färg?
+ Låt oss nu tillämpa en Microsoft-temafärg. Vi väljer en`Accent` stil för vem älskar inte en färgklick?
 
 ```csharp
-// Skapa ett tema i accentstil
+//Skapa ett tema i accentstil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

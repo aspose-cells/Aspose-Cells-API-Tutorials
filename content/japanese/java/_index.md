@@ -33,7 +33,7 @@ Aspose.Cells for Java を使用して基本的な Excel 関数を学習します
 ### [データ検証ルール](./data-validation-rules/)
 Aspose.Cells for Java を使用してデータ検証ルールをマスターします。エラーのない Excel シートを作成します。包括的なチュートリアルを今すぐご覧ください。
 ### [Excelデータ分析](./excel-data-analysis/)
-Aspose.Cells for Java で強力な Excel データ分析を実現します。Java 開発者向けのステップバイステップのチュートリアルをご覧ください。今すぐデータ インサイトをマスターしましょう。 
+Aspose.Cells for Java で強力な Excel データ分析を実現します。Java 開発者向けのステップバイステップのチュートリアルをご覧ください。今すぐデータの分析をマスターしましょう。 
 ### [Excel ピボット テーブル](./excel-pivot-tables/)
 Aspose.Cells for Java を使用して Excel ピボット テーブルをマスターします。データを簡単に作成、カスタマイズ、分析する方法を学びます。
 ### [高度な Excel グラフ](./advanced-excel-charts/)

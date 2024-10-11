@@ -88,7 +88,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 
 對於這個片段，我們使用`foreach`循環遍歷工作簿中的每張工作表。透過訪問`OleObjects`集合，我們可以存取該特定工作表上的所有嵌入物件。 
 
-## 步驟 4：提取 OLE 對象
+## 第 4 步：提取 OLE 對象
 
 這就是奇蹟發生的地方！您需要循環遍歷每個 OLE 物件以提取並保存 MOL 檔案：
 

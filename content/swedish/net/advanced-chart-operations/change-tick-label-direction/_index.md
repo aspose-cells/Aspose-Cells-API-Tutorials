@@ -25,7 +25,7 @@ Därefter behöver du själva Aspose.Cells-biblioteket. Du kan enkelt ladda ner 
 
 ### En grundläggande förståelse för C#
 
-Bekantskap med C#-programmering är fördelaktigt; om du är bekväm med grundläggande kodningskoncept, kommer du att plocka upp detta på nolltid. 
+Förtrogenhet med C#-programmering är meriterande; om du är bekväm med grundläggande kodningskoncept, kommer du att plocka upp detta på nolltid. 
 
 ### Exempel på Excel-fil
 

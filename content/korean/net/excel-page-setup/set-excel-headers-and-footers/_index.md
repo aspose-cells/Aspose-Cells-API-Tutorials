@@ -87,7 +87,7 @@ pageSetup.SetHeader(0, "&A");
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- 설명:`&D` 그리고`&T` 코드는 각각 현재 날짜와 시간으로 자동으로 대체됩니다. 또한 이 헤더의 글꼴은 "Times New Roman"이고 굵게 지정해야 합니다.
+ 설명:`&D` 그리고`&T` 코드는 각각 현재 날짜와 시간으로 자동 대체됩니다. 또한 이 헤더의 글꼴은 "Times New Roman"이고 굵게 지정해야 합니다.
 
 ## 5단계: 올바른 헤더 설정
 
@@ -107,7 +107,7 @@ pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- 설명: 왼쪽 바닥글에 "Hello World!"라는 사용자 지정 메시지와 다음 텍스트를 삽입합니다.`123` 다른 글꼴 스타일로 - Courier New.
+설명: 왼쪽 바닥글에 "Hello World!"라는 사용자 지정 메시지와 다음 텍스트를 삽입합니다.`123` 다른 글꼴 스타일로 - Courier New.
 
 ## 7단계: 중앙 바닥글 구성
 

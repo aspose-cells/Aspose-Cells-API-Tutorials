@@ -15,7 +15,7 @@ Excel 파일에 새 시트를 프로그래밍 방식으로 추가해야 하는 �
 
 코딩을 하기 전에 이 프로젝트에 필요한 모든 것이 있는지 확인해 보겠습니다.
 
-1. Visual Studio: Visual Studio가 설치되어 있는지 확인하세요. 아직 설치되어 있지 않으면 다음에서 다운로드할 수 있습니다.[마이크로소프트 웹사이트](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Visual Studio가 설치되어 있는지 확인하세요. 아직 설치되어 있지 않으면 다음에서 다운로드할 수 있습니다.[마이크로소프트 웹사이트](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 3. .NET Framework: 프로젝트가 호환되는 .NET Framework 버전에 맞게 설정되어 있는지 확인하세요(일반적으로 .NET Framework 4.0 이상이 잘 작동합니다).
 4. 기본 C# 지식: C#와 객체 지향 프로그래밍에 대한 지식은 코드를 더 잘 이해하는 데 도움이 됩니다.
@@ -62,7 +62,7 @@ if (!IsExists)
 다음으로 Workbook 클래스의 인스턴스를 만들 것입니다. 이 클래스는 수행할 모든 Excel 관련 작업의 중추입니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Workbook workbook = new Workbook();
 int i = workbook.Worksheets.Add();
 ```
 
- 여기서 우리는 다음을 사용하고 있습니다.`Add()` 의 방법`Worksheets` 컬렉션이 현재 존재함`Workbook` 클래스. 이 메서드는 인덱스(`i`) 새로 추가된 시트의. 노트북에 페이지를 추가하는 것과 같습니다. 간단하고 효율적입니다!
+ 여기서 우리는 다음을 사용하고 있습니다.`Add()` 의 방법`Worksheets` 컬렉션이 현재 존재함`Workbook` 클래스. 이 메서드는 인덱스(`i`새로 추가된 시트의. 노트북에 페이지를 추가하는 것과 같습니다. 간단하고 효율적입니다!
 
 ## 4단계: 새 워크시트 이름 지정
 
@@ -119,7 +119,7 @@ Aspose.Cells를 사용하면 가능성이 무한합니다. 편집, 서식 지정
  네, 그냥 전화하세요`Add()` 방법을 여러 번 사용하고, 각 시트의 색인을 참조하세요!
 
 ### Aspose.Cells의 무료 체험판이 있나요?  
-물론입니다! 무료 체험판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
+ 물론입니다! 무료 체험판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
 
 ### 새로운 시트를 추가한 후에 서식을 지정할 수 있나요?  
 물론입니다! 라이브러리의 기능을 사용하여 워크시트에 스타일, 형식, 심지어 수식까지 적용할 수 있습니다.

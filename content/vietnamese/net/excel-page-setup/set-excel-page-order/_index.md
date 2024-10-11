@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Đây,`workbook.Worksheets[0]` đề cập đến trang tính đầu tiên trong sổ làm việc của bạn.`PageSetup`Thuộc tính này sẽ cho phép bạn kiểm soát cài đặt phân trang của trang tính.
+ Đây,`workbook.Worksheets[0]` đề cập đến trang tính đầu tiên trong sổ làm việc của bạn.`PageSetup` Thuộc tính này sẽ cho phép bạn kiểm soát cài đặt phân trang của trang tính.
 
 ## Bước 4: Thiết lập thứ tự in
 
 
- Với`PageSetup` đối tượng, đã đến lúc cho Excel biết bạn muốn in các trang như thế nào. Bạn có tùy chọn đặt thứ tự là "Trên rồi Xuống" hoặc "Dưới rồi Lên".
+ Với`PageSetup`đối tượng, đã đến lúc cho Excel biết bạn muốn in các trang như thế nào. Bạn có tùy chọn đặt thứ tự là "Trên rồi Xuống" hoặc "Dưới rồi Lên".
 
 Sau đây là mã để thiết lập thứ tự in:
 

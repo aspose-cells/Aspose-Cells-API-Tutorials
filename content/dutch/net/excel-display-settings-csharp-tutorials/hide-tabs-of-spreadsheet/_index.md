@@ -38,7 +38,7 @@ Voordat u begint met coderen, is het van cruciaal belang dat u uw ontwikkelomgev
 1.  Maak een nieuw project: Open Visual Studio, maak een nieuw Console App-project en geef het een beschrijvende naam, zoals`HideExcelTabs`.
 2. Voeg Aspose.Cells-referentie toe: Ga naar NuGet Package Manager en zoek naar “Aspose.Cells voor .NET.” Installeer het in uw project.
  Als alternatief, als u offline werkt, kunt u:[download Aspose.Cells voor .NET](https://releases.aspose.com/cells/net/) en voeg het DLL-bestand handmatig toe aan uw projectverwijzingen.
-3.  Bereid het Excel-bestand voor: Plaats het Excel-bestand dat u wilt wijzigen (bijv.`book1.xls`) in uw projectdirectory. Zorg ervoor dat u het bestandspad weet.
+3. Bereid het Excel-bestand voor: Plaats het Excel-bestand dat u wilt wijzigen (bijv.`book1.xls`) in uw projectdirectory. Zorg ervoor dat u het bestandspad weet.
 
 ## Stap 2: Open het Excel-bestand
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- In deze stap maken we een instantie van de`Workbook` klasse, die het Excel-bestand vertegenwoordigt. Het pad naar uw Excel-bestand wordt als parameter opgegeven. Zorg ervoor dat u`"YOUR DOCUMENT DIRECTORY"`met het daadwerkelijke bestandspad waar uw Excel-bestand zich bevindt.
+ In deze stap maken we een instantie van de`Workbook` klasse, die het Excel-bestand vertegenwoordigt. Het pad naar uw Excel-bestand wordt als parameter opgegeven. Zorg ervoor dat u`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke bestandspad waar uw Excel-bestand zich bevindt.
 
 Door de werkmap te laden, maakt u een verbinding met het bestand, waardoor verdere wijzigingen mogelijk zijn. Zonder deze verbinding kunnen er geen wijzigingen worden aangebracht.
 
@@ -97,7 +97,7 @@ Opslaan is cruciaal. Zonder deze stap gaan alle wijzigingen die in de werkmap zi
 
 En daar heb je het! Je hebt de werkbladtabbladen in een Excel-bestand met Aspose.Cells voor .NET succesvol verborgen. Deze eenvoudige aanpassing kan je Excel-documenten er gepolijster en gerichter uit laten zien, vooral wanneer je bestanden deelt met klanten of teamleden die niet alle werkende tabbladen hoeven te zien.
 
-Met Aspose.Cells voor .NET kunt u Excel-bestanden op krachtige manieren manipuleren, van het verbergen van tabbladen tot het maken van dynamische rapporten, grafieken en nog veel meer. Als u nieuw bent met deze tool, aarzel dan niet om de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) voor meer diepgaande functies en mogelijkheden.
+ Met Aspose.Cells voor .NET kunt u Excel-bestanden op krachtige manieren manipuleren, van het verbergen van tabbladen tot het maken van dynamische rapporten, grafieken en nog veel meer. Als u nieuw bent met deze tool, aarzel dan niet om de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) voor meer diepgaande functies en mogelijkheden.
 
 ## Veelgestelde vragen
 
@@ -105,7 +105,7 @@ Met Aspose.Cells voor .NET kunt u Excel-bestanden op krachtige manieren manipule
  Nee, tabbladen verbergen via de`ShowTabs` eigenschap verbergt of toont alle bladtabs tegelijk. Als u afzonderlijke bladen wilt verbergen, kunt u de zichtbaarheid van elk blad afzonderlijk instellen.
 
 ### Hoe kan ik een voorbeeld van de verborgen tabbladen in Excel bekijken?  
- U kunt de`ShowTabs` eigendom terug naar`true` Gebruik dezelfde codestructuur als u een voorbeeld van de tabbladen wilt bekijken of de tabbladen wilt herstellen.
+ U kunt de`ShowTabs`eigendom terug naar`true` Gebruik dezelfde codestructuur als u een voorbeeld van de tabbladen wilt bekijken of de tabbladen wilt herstellen.
 
 ### Heeft het verbergen van tabbladen invloed op de gegevens of functionaliteit van de werkmap?  
 Nee, het verbergen van de tabbladen verandert alleen het visuele uiterlijk. De gegevens en functies in de werkmap blijven onaangetast.

@@ -56,7 +56,7 @@ string outputDir = "Your Output Directory";
 
 现在我们已经设置了目录，是时候加载我们要处理的 Excel 文件了。
 
-加载 Excel 文件就像在阅读之前打开一本书。如果不打开它，你就无法深入了解其内容。 
+加载 Excel 文件就像在阅读之前打开一本书。如果不打开它，您就无法深入了解其内容。 
 
 ```csharp
 //加载源 Excel 文件

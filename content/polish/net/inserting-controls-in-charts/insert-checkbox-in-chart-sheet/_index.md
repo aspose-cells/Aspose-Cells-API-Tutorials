@@ -19,7 +19,7 @@ Zanim przejdziemy do samouczka, upewnijmy się, że wszystko jest skonfigurowane
 - Przede wszystkim, będziesz potrzebować Visual Studio. Jeśli jeszcze go nie masz zainstalowanego, możesz go pobrać ze strony Microsoft.
 
 ### Biblioteka Aspose.Cells
-- Następnym niezbędnym narzędziem jest biblioteka Aspose.Cells dla .NET. Można ją łatwo pobrać z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/) do pobrania. Jeśli wolisz przetestować przed zakupem, jest też[dostępna bezpłatna wersja próbna](https://releases.aspose.com/).
+-  Następnym niezbędnym narzędziem jest biblioteka Aspose.Cells dla .NET. Można ją łatwo pobrać z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/) do pobrania. Jeśli wolisz przetestować przed zakupem, jest też[dostępna bezpłatna wersja próbna](https://releases.aspose.com/).
 
 ### Podstawowa znajomość języka C#
 - Ponieważ będziemy pisać kod, podstawowa znajomość języka C# będzie przydatna. Nie martw się; będę wyjaśniał wszystko w trakcie!
@@ -64,13 +64,13 @@ Teraz, gdy wszystko jest już skonfigurowane, przejdźmy do części kodowania! 
 
 Zanim przejdziemy do ekscytującej części, musimy zdefiniować, gdzie chcemy zapisać nasz plik. Będziesz chciał podać ścieżkę do katalogu wyjściowego.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Przejdź do określonego katalogu
+string outputDir = "C:\\YourOutputDirectory\\"; // Przejdź do określonego katalogu
 ```
  Pamiętaj o wymianie`"C:\\YourOutputDirectory\\"` ze ścieżką, w której chcesz zapisać plik. Pomyśl o tym jak o ustawianiu swojego obszaru roboczego; musisz wiedzieć, gdzie umieszczasz swoje narzędzia (lub w tym przypadku plik Excel).
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
- Następnie tworzymy instancję`Workbook` klasa. To tutaj będzie się odbywać cała nasza praca.
+Następnie tworzymy instancję`Workbook` klasa. To tutaj będzie się odbywać cała nasza praca.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -93,7 +93,7 @@ Potraktuj ten krok jako okazję do wybrania rodzaju ramki na zdjęcie, zanim umi
 
 ## Krok 4: Dodawanie serii danych do wykresu
 
-tym momencie wypełnijmy wykres kilkoma seriami danych. Aby dodać przykładowe dane:
+W tym momencie wypełnijmy wykres kilkoma seriami danych. Aby dodać przykładowe dane:
 ```csharp
 sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 ```
@@ -123,7 +123,7 @@ Ta linia zapisuje nowo utworzony plik Excela z polem wyboru w zdefiniowanym kata
 
 ## Wniosek
 
-masz! Udało Ci się dodać pole wyboru do arkusza wykresu w pliku Excel przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz tworzyć interaktywne i dynamiczne arkusze Excela, które oferują świetną funkcjonalność, dzięki czemu Twoje wizualizacje danych będą jeszcze bardziej angażujące.
+I masz! Udało Ci się dodać pole wyboru do arkusza wykresu w pliku Excel przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz tworzyć interaktywne i dynamiczne arkusze Excela, które oferują świetną funkcjonalność, dzięki czemu Twoje wizualizacje danych będą jeszcze bardziej angażujące.
 
 ## Najczęściej zadawane pytania
 
@@ -137,7 +137,7 @@ Aspose.Cells to potężna biblioteka służąca do tworzenia i modyfikowania pli
 Wcale nie! Jak pokazano w tym samouczku, można to zrobić w kilku prostych liniach kodu.
 
 ### Gdzie mogę kupić Aspose.Cells?  
-Możesz zakupić Aspose.Cells u nich[link do zakupu](https://purchase.aspose.com/buy).
+ Możesz zakupić Aspose.Cells u nich[link do zakupu](https://purchase.aspose.com/buy).
 
 ### Jak mogę uzyskać pomoc, jeśli wystąpią problemy?  
  Aspose udostępnia forum wsparcia, na którym możesz zadawać pytania i znajdować rozwiązania. Sprawdź ich[strona wsparcia](https://forum.aspose.com/c/cells/9).

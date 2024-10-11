@@ -83,7 +83,7 @@ Dopo aver avuto accesso al foglio di lavoro, è il momento di prendere il nostro
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
 
-Questa linea è simile a trovare l'opera d'arte giusta in una galleria. Il tuo grafico ti sta aspettando, e ora sei pronto a farlo brillare ancora di più!
+Questa linea è simile a trovare il pezzo giusto di un'opera d'arte in una galleria. Il tuo grafico ti sta aspettando, e ora sei pronto a farlo brillare ancora di più!
 
 ## Passaggio 5: aggiungere l'etichetta al grafico
 
@@ -112,7 +112,7 @@ Qui è dove dai un titolo alla tua opera d'arte. Aiuta gli spettatori a capire c
 Ora, decidiamo come posizionare l'etichetta in relazione al grafico. Qui, la imposteremo su free-floating, il che significa che può essere spostata indipendentemente dagli elementi del grafico.
 
 ```csharp
-//Imposta il tipo di posizionamento, ovvero il modo in cui l'etichetta viene allegata alle celle.
+// Imposta il tipo di posizionamento, ovvero il modo in cui l'etichetta viene allegata alle celle.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Ed ecco fatto! Hai aggiunto con successo un controllo etichetta a un grafico usa
 Sì! Puoi modificare il carattere, il colore, la dimensione e altre proprietà dell'etichetta in base alle tue esigenze.
 
 ### Aspose.Cells è gratuito?
- Aspose.Cells è un prodotto a pagamento; tuttavia, puoi iniziare con un[prova gratuita](https://releases.aspose.com/) per esplorarne le caratteristiche.
+ Aspose.Cells è un prodotto a pagamento; tuttavia, puoi iniziare con un[prova gratuita](https://releases.aspose.com/)per esplorarne le caratteristiche.
 
 ### Cosa succede se voglio aggiungere più etichette?
 È possibile ripetere i passaggi per aggiungere le etichette tutte le volte che si desidera, ciascuna con posizioni e testi diversi.

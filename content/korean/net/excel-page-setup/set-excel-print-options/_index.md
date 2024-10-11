@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  다음으로, 우리는 다음을 만들어야 합니다.`Workbook` 객체. 이 객체는 스프레드시트 데이터의 컨테이너 역할을 합니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 

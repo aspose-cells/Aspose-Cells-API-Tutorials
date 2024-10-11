@@ -112,7 +112,7 @@ Gerenciar tamanhos de papel em planilhas do Excel se torna moleza com o Aspose.C
 ### Posso definir o tamanho do papel para várias planilhas de uma só vez?
 Sim, você pode acessar várias planilhas em um loop e aplicar as mesmas configurações de tamanho de papel a cada uma delas.
 
-### O Aspose.Cells é gratuito?
+### Aspose.Cells é gratuito?
  Aspose.Cells é uma biblioteca comercial; no entanto, oferece um teste gratuito. Você pode solicitar um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar todos os seus recursos.
 
 ### Como lidar com exceções ao trabalhar com Aspose.Cells?

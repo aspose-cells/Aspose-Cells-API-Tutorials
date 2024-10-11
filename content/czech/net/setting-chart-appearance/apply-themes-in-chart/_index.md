@@ -77,7 +77,7 @@ V tomto případě jednoduše uchopíme první list, který je pro tento příkl
 S pracovním listem v ruce máme nyní přístup k grafu, který hodláme upravit.
 
 ```csharp
-// Získejte první graf v listu
+//Získejte první graf v listu
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Tento řádek kódu zajišťuje, že první řada v grafu je nastavena tak, aby 
 // Získejte CellsColor SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Vytvořte motiv ve stylu Accent
+//Vytvořte motiv ve stylu Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

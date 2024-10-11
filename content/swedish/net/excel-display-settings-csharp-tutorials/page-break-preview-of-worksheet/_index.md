@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Steg 3: Instantiera arbetsboken
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 // Öppna Excel-filen genom filströmmen
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Steg 4: Öppna arbetsbladet
 
 ```csharp
-// Åtkomst till det första kalkylbladet i Excel-filen
+//Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -83,7 +83,7 @@ Här kommer vi åt det första kalkylbladet i din arbetsbok med hjälp av dess i
 ## Steg 5: Aktivera förhandsgranskning av sidbrytning
 
 ```csharp
-// Visar kalkylbladet i förhandsvisning av sidbrytning
+// Visar arbetsbladet i förhandsvisning av sidbrytning
 worksheet.IsPageBreakPreview = true;
 ```
 

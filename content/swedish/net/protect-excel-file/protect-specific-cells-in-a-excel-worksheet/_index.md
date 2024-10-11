@@ -92,7 +92,7 @@ Denna loop itererar över alla kolumner (från 0 till 255) i kalkylbladet och l�
 
 ## Steg 5: Lås specifika celler
 
-Nu kommer vi till den spännande delen: låsning av specifika celler! I det här exemplet låser vi cellerna A1, B1 och C1.
+Nu kommer vi till den spännande delen: låsning av specifika celler! I det här exemplet kommer vi att låsa cellerna A1, B1 och C1.
 
 ```csharp
 // Lås de tre cellerna... dvs A1, B1, C1.

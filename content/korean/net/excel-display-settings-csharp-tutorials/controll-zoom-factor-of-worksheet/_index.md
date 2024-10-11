@@ -78,10 +78,10 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## 3단계: 통합 문서 개체 인스턴스화
 
- 그만큼`Workbook`객체는 Aspose.Cells 기능의 핵심입니다. 관리하기 쉬운 방식으로 Excel 파일을 나타냅니다.
+ 그만큼`Workbook` 객체는 Aspose.Cells 기능의 핵심입니다. 관리하기 쉬운 방식으로 Excel 파일을 나타냅니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 이제 워크북이 메모리에 있으므로 수정하려는 특정 워크시트에 액세스할 차례입니다. 대부분의 경우 이는 첫 번째 워크시트(인덱스 0)가 됩니다.
 
 ```csharp
-// Excel 파일의 첫 번째 워크시트에 액세스하기
+//Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

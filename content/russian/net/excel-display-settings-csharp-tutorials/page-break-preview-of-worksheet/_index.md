@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Шаг 3: Создание экземпляра рабочей книги
 
 ```csharp
-// Создание объекта Workbook
+//Создание объекта Workbook
 // Открытие файла Excel через файловый поток
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Шаг 4: Доступ к рабочему листу
 
 ```csharp
-// Доступ к первому листу в файле Excel
+//Доступ к первому листу в файле Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

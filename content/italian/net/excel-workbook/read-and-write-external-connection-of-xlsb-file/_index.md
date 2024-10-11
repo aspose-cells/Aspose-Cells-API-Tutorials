@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- In questo frammento di codice,`"Your Document Directory"` E`"Your Document Directory"`si presume che recuperino i rispettivi percorsi per dove risiederanno i file di input e output. Puoi sostituire questi metodi con percorsi hardcoded se preferisci.
+ In questo frammento di codice,`"Your Document Directory"` E`"Your Document Directory"` si presume che recuperino i rispettivi percorsi per dove risiederanno i file di input e output. Puoi sostituire questi metodi con percorsi hardcoded se preferisci.
 
 ## Passaggio 2: caricare il file XLSB
 
@@ -68,7 +68,7 @@ Con la cartella di lavoro caricata, puoi accedere alle sue connessioni esterne. 
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Qui,`DataConnections[0]` si riferisce alla prima connessione nella cartella di lavoro. La stiamo convertendo in un`DBConnection` digitare per ulteriori manipolazioni.
+ Qui,`DataConnections[0]`si riferisce alla prima connessione nella cartella di lavoro. La stiamo convertendo in un`DBConnection` digitare per ulteriori manipolazioni.
 
 ## Passaggio 4: estrarre le informazioni di connessione
 
@@ -125,7 +125,7 @@ Ed ecco fatto! Hai imparato con successo a leggere e scrivere connessioni estern
 Un file XLSB è un formato di file binario di Excel che memorizza i dati del foglio di calcolo in un formato binario, rendendoli più compatti e veloci da aprire.
 
 ### Come faccio a installare Aspose.Cells per .NET?  
-Puoi scaricarlo facilmente dal sito web di Aspose[Qui](https://releases.aspose.com/cells/net/).
+ Puoi scaricarlo facilmente dal sito web di Aspose[Qui](https://releases.aspose.com/cells/net/).
 
 ### Posso usare Aspose.Cells gratuitamente?  
  Sì! Puoi iniziare con una prova gratuita, che è disponibile[Qui](https://releases.aspose.com/).

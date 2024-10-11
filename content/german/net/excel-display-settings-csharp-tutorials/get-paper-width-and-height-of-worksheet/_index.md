@@ -84,11 +84,11 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Jeder dieser Blöcke imitiert den vorherigen Schritt, passt aber die`PaperSize` Eigenschaft entsprechend. Durch einfaches Ändern des Größenindikators erhalten Sie mühelos unterschiedliche Papierabmessungen. Es ist, als würden Sie die Größe einer Schachtel ändern, je nachdem, was Sie aufbewahren müssen!
+ Jeder dieser Blöcke imitiert den vorherigen Schritt, passt aber die`PaperSize`Eigenschaft entsprechend. Durch einfaches Ändern des Größenindikators erhalten Sie mühelos unterschiedliche Papierabmessungen. Es ist, als würden Sie die Größe einer Schachtel ändern, je nachdem, was Sie aufbewahren müssen!
 
 ## Abschluss
 
-Und da haben Sie es! Indem Sie diese Schritte befolgen, können Sie die Abmessungen verschiedener Papierformate in Aspose.Cells für .NET ganz einfach festlegen und abrufen. Diese Funktion spart Ihnen nicht nur Zeit, sondern verhindert auch Druckfehler, die aufgrund falsch konfigurierter Seiteneinstellungen auftreten können. Wenn Sie also das nächste Mal eine Excel-Tabelle drucken oder einen Bericht erstellen müssen, können Sie dies beruhigt tun, da Sie wissen, dass Sie die Abmessungen in Ihren Händen haben. 
+Und da haben Sie es! Indem Sie diese Schritte befolgen, können Sie die Abmessungen verschiedener Papierformate in Aspose.Cells für .NET ganz einfach festlegen und abrufen. Diese Funktion spart Ihnen nicht nur Zeit, sondern verhindert auch Druckfehler, die aufgrund falsch konfigurierter Seiteneinstellungen auftreten können. Wenn Sie also das nächste Mal eine Excel-Tabelle drucken oder einen Bericht erstellen müssen, können Sie dies mit der Gewissheit tun, dass Sie die Abmessungen in Ihren Händen haben. 
 
 ## Häufig gestellte Fragen
 

@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## الخطوة 2: إنشاء كائن مصنف
 
- بعد ذلك، نقوم بإنشاء مثيل لـ`Workbook` الفئة التي تمثل ملف Excel.
+ بعد ذلك، نقوم بإنشاء مثيل لـ`Workbook`الفئة التي تمثل ملف Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Workbook workbook = new Workbook();
 
 ## الخطوة 3: الحصول على مرجع PageSetup
 
- الآن دعنا نصل إلى ورقة العمل`PageSetup`هذه هي المنطقة التي سيتم فيها تكوين معظم إعدادات الطباعة لدينا.
+ الآن دعنا نصل إلى ورقة العمل`PageSetup` هذه هي المنطقة التي سيتم فيها تكوين معظم إعدادات الطباعة لدينا.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

@@ -9,13 +9,13 @@ url: /cs/net/excel-security/lock-cell-in-excel-worksheet/
 ---
 ## Zavedení
 
-V dnešním uspěchaném světě je bezpečná správa dat zásadní pro firmy i jednotlivce. Excel je běžný nástroj pro správu dat, ale jak zajistíte, že citlivé informace zůstanou nedotčeny a zároveň umožníte ostatním zobrazit tabulku? Uzamčení buněk v listu aplikace Excel je jedním z účinných způsobů, jak chránit data před nechtěnými změnami. V této příručce se ponoříme do toho, jak uzamknout buňky v listu aplikace Excel pomocí Aspose.Cells for .NET – výkonné knihovny, která programově zjednodušuje čtení, zápis a manipulaci se soubory aplikace Excel.
+dnešním uspěchaném světě je bezpečná správa dat zásadní pro firmy i jednotlivce. Excel je běžný nástroj pro správu dat, ale jak zajistíte, že citlivé informace zůstanou nedotčeny a zároveň umožníte ostatním zobrazit tabulku? Uzamčení buněk v listu aplikace Excel je jedním z účinných způsobů, jak chránit data před nechtěnými změnami. V této příručce se ponoříme do toho, jak uzamknout buňky v listu aplikace Excel pomocí Aspose.Cells for .NET – výkonné knihovny, která programově zjednodušuje čtení, zápis a manipulaci se soubory aplikace Excel.
 
 ## Předpoklady
 
 Než se pustíme do groteskního kódu, je třeba mít připraveno několik věcí:
 
-1. Aspose.Cells for .NET: Stáhněte si a nainstalujte nejnovější verzi Aspose.Cells pro .NET z webu[Aspose webové stránky](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET: Stáhněte si a nainstalujte nejnovější verzi Aspose.Cells pro .NET z webu[Aspose webové stránky](https://releases.aspose.com/cells/net/).
 2. IDE: Vývojové prostředí nastavené pro .NET. Mezi oblíbené možnosti patří Visual Studio nebo JetBrains Rider.
 3. Základní porozumění C#: I když vás provedeme kódem krok za krokem, základní znalost programování v C# vám pomůže rychleji porozumět pojmům.
 4. Váš adresář dokumentů: Ujistěte se, že máte nastavený adresář, kam můžete ukládat soubory Excelu pro testování.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Načtěte sešit
 
- Dále budete chtít načíst sešit aplikace Excel, kde chcete zamknout buňky. To se provádí vytvořením instance souboru`Workbook` třídy a nasměrujte jej na požadovaný soubor Excel.
+Dále budete chtít načíst sešit aplikace Excel, kde chcete zamknout buňky. To se provádí vytvořením instance souboru`Workbook` třídy a nasměrujte jej na požadovaný soubor Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Pokud zapomenete heslo, nebudete moci zrušit ochranu listu, takže je důležit
  Absolutně! Buňky můžete odemknout nastavením`IsLocked` majetek do`false` a odstranění ochrany.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells nabízí uživatelům bezplatnou zkušební verzi. Pro nepřetržité používání je však potřeba zakoupit licenci. Navštivte[Aspose nákupní stránku](https://purchase.aspose.com/buy) pro více podrobností.
+Aspose.Cells nabízí uživatelům bezplatnou zkušební verzi. Pro nepřetržité používání je však potřeba zakoupit licenci. Navštivte[Aspose nákupní stránku](https://purchase.aspose.com/buy) pro více podrobností.

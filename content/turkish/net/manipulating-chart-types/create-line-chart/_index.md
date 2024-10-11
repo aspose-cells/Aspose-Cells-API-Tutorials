@@ -50,14 +50,14 @@ using Aspose.Cells.Charts;
 // Çıktı dizini
 string outputDir = "Your Output Directory";
 ```
- Yer değiştirmek`"Your Output Directory"`Oluşturulan Excel dosyasını kaydetmek istediğiniz gerçek yol ile.
+ Yer değiştirmek`"Your Output Directory"` Oluşturulan Excel dosyasını kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Çalışma Kitabı Nesnesini Örneklendirin
 
 Sonra, yeni bir çalışma kitabı örneği oluşturmamız gerekiyor. Çalışma Kitabını yaratıcılığınızın akacağı tuval olarak düşünün. 
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 Bu satır tüm verilerinizi ve görsellerinizi tutacak yeni bir çalışma kitabı başlatır.

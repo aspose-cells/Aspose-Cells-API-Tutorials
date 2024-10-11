@@ -2,7 +2,7 @@
 title: Detekce typů odkazů
 linktitle: Detekce typů odkazů
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Zahrnuty jednoduché kroky a příklady kódu.
+description: Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Snadné kroky a příklady kódu v ceně.
 type: docs
 weight: 80
 url: /cs/net/excel-workbook/detect-link-types/
@@ -63,7 +63,7 @@ Tento řádek ukazuje na adresář obsahující soubor Excel. Nezapomeňte uprav
 Dále načteme náš sešit. Je to jako otevřít soubor Excel na pozadí, což nám umožňuje číst a manipulovat s jeho obsahem.
 
 ```csharp
-// Načtěte sešit
+//Načtěte sešit
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
@@ -89,7 +89,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Range range = worksheet.Cells.CreateRange("A1", "A7");
 ```
 
-tímto rozsahem můžeme snadno načíst hypertextové odkazy v těchto buňkách.
+S tímto rozsahem můžeme snadno načíst hypertextové odkazy v těchto buňkách.
 
 ## Krok 5: Načtení hypertextových odkazů
 
@@ -141,7 +141,7 @@ Aspose.Cells můžete nainstalovat přes NuGet ve Visual Studiu vyhledáním „
 Absolutně! Aspose.Cells umí číst i vytvářet soubory Excel, což umožňuje rozsáhlé možnosti manipulace s daty a vytváření sestav.
 
 ### S jakými typy hypertextových odkazů mohu pracovat?  
-V souborech Excel můžete pracovat s interními, externími, e-mailovými a dokonce i typy odkazů na jiné dokumenty.
+souborech Excel můžete pracovat s interními, externími, e-mailovými a dokonce i typy odkazů na jiné dokumenty.
 
 ### Kde mohu získat podporu pro Aspose.Cells?  
  Podporu získáte na fóru Aspose[zde](https://forum.aspose.com/c/cells/9).

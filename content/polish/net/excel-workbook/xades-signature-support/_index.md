@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Zastąp ścieżką do pliku PFX
 
 ## Krok 4: Utwórz podpis cyfrowy
 
- Teraz utwórzmy podpis cyfrowy za pomocą`DigitalSignature`klasa. To tutaj dzieje się magia!
+ Teraz utwórzmy podpis cyfrowy za pomocą`DigitalSignature` klasa. To tutaj dzieje się magia!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -104,7 +104,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## Wniosek
 
-masz! Udało Ci się dodać podpis Xades do pliku Excel przy użyciu Aspose.Cells dla .NET. Ten proces nie tylko zwiększa bezpieczeństwo Twoich dokumentów, ale także buduje zaufanie użytkowników, zapewniając autentyczność Twoich plików. 
+I masz! Udało Ci się dodać podpis Xades do pliku Excel przy użyciu Aspose.Cells dla .NET. Ten proces nie tylko zwiększa bezpieczeństwo Twoich dokumentów, ale także buduje zaufanie użytkowników, zapewniając autentyczność Twoich plików. 
 Podpisy cyfrowe stanowią istotną część nowoczesnego zarządzania dokumentami. Dzięki możliwościom Aspose.Cells możesz je łatwo wdrożyć w swoich aplikacjach.
 
 ## Najczęściej zadawane pytania
@@ -119,7 +119,7 @@ Tak, aby utworzyć podpis Xades, potrzebny jest ważny certyfikat cyfrowy (plik 
  Oczywiście! Możesz otrzymać bezpłatną wersję próbną od[Strona internetowa Aspose](https://releases.aspose.com/).
 
 ### Czy Aspose.Cells jest kompatybilny ze wszystkimi wersjami .NET?
-Aspose.Cells obsługuje różne wersje .NET Framework. Sprawdź[dokumentacja](https://reference.aspose.com/cells/net/) Aby uzyskać szczegóły dotyczące zgodności.
+ Aspose.Cells obsługuje różne wersje .NET Framework. Sprawdź[dokumentacja](https://reference.aspose.com/cells/net/) Aby uzyskać szczegóły dotyczące zgodności.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
  Możesz odwiedzić[Forum Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania wsparcia i pomocy społeczności.

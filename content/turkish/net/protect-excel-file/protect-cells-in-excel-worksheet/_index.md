@@ -95,7 +95,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
-Bu döngü tüm olası sütunları (256'ya kadar) dolaşır ve stillerinin kilidinin açılmasını sağlar. Bir bakıma, "Hey, hepiniz düzenlenmeye özgürsünüz!" diyorsunuz.
+Bu döngü tüm olası sütunları (256'ya kadar) dolaşır ve stillerinin kilidini açmaya ayarlar. Bir bakıma, "Hey, hepiniz düzenlenmeye özgürsünüz!" diyorsunuz.
 
 ## Adım 5: Belirli Hücreleri Kilitleme
 

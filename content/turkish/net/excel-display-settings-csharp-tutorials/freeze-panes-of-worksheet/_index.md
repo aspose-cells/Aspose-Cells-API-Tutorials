@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- The`Workbook` nesnesi, hafızadaki tüm Excel dosyanızı temsil eder. Bunu, tüm dosyayı çalışma alanınıza getirmek ve değişiklikler yapmaya başlamak olarak düşünün.
+ The`Workbook` nesnesi, hafızadaki tüm Excel dosyanızı temsil eder. Bunu, tüm dosyayı çalışma alanınıza getirip değişiklikler yapmaya başlayabileceğiniz bir şey olarak düşünün.
 
 ## Adım 5: Çalışma Sayfasına Erişim
 

@@ -9,7 +9,7 @@ url: /sv/java/basic-excel-functions/
 ---
 ## Introduktion till grundläggande Excel-funktioner
 
-en värld av kalkylarksmanipulation är förståelsen av grundläggande Excel-funktioner grunden för effektiv databehandling. Med Aspose.Cells för Java kan du dyka in i denna viktiga kunskap. I den här självstudieserien guidar vi dig genom grundläggande Excel-funktioner och utrustar dig med de färdigheter som krävs för att arbeta med kalkylblad effektivt.
+I en värld av kalkylarksmanipulering är förståelsen av grundläggande Excel-funktioner grunden för effektiv databehandling. Med Aspose.Cells för Java kan du dyka in i denna viktiga kunskap. I den här självstudieserien guidar vi dig genom grundläggande Excel-funktioner och utrustar dig med de färdigheter som krävs för att arbeta med kalkylblad effektivt.
 
 ## Komma igång med Aspose.Cells för Java:
 
@@ -23,7 +23,7 @@ Dessa rubriker och stycken ger en tydlig och engagerande introduktion till ämne
 
 ## Självstudier för grundläggande Excel-funktioner
 ### [Excel SUM formelguide](./excel-sum-formula-guide/)
-Lås upp kraften i Excel SUM-formel med Aspose.Cells för Java - Din omfattande guide till Excel-automatisering.
+Lås upp kraften i Excel SUM-formel med Aspose.Cells for Java - Din omfattande guide till Excel-automatisering.
 ### [Hur man använder Excel IF-funktionen](./how-to-use-excel-if-function/)
 Lås upp Power of Excel IF-funktionen med Aspose.Cells för Java. Lär dig att implementera villkorlig logik sömlöst.
 ### [Handledning för Excel VLOOKUP](./excel-vlookup-tutorial/)

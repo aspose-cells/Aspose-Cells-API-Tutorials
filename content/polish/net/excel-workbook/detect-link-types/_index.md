@@ -63,7 +63,7 @@ Ten wiersz wskazuje na katalog zawierający plik Excel. Upewnij się, że ście�
 Następnie załadujemy nasz skoroszyt. To tak, jakbyśmy otwierali plik Excel w tle, co pozwoli nam czytać i manipulować jego zawartością.
 
 ```csharp
-// Załaduj skoroszyt
+//Załaduj skoroszyt
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
@@ -141,7 +141,7 @@ Możesz zainstalować Aspose.Cells za pośrednictwem NuGet w programie Visual St
 Oczywiście! Aspose.Cells może zarówno czytać, jak i tworzyć pliki Excel, co pozwala na rozległe możliwości manipulacji danymi i raportowania.
 
 ### Z jakimi typami hiperłączy mogę pracować?  
-W plikach programu Excel można pracować z typami dokumentów wewnętrznych, zewnętrznych, wiadomościami e-mail, a nawet linkami do innych dokumentów.
+plikach programu Excel można pracować z typami dokumentów wewnętrznych, zewnętrznych, wiadomościami e-mail, a nawet linkami do innych dokumentów.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?  
  Aby uzyskać pomoc, sprawdź forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).

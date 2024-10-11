@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Etapa 2: Instanciar um objeto de pasta de trabalho
 
- Em seguida, criamos uma instância do`Workbook` classe, que representa um arquivo Excel.
+ Em seguida, criamos uma instância do`Workbook`classe, que representa um arquivo Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Esta linha inicializa uma nova pasta de trabalho, deixando-a pronta para manipul
 
 ## Etapa 3: Obtenha a referência PageSetup
 
- Agora vamos acessar a planilha`PageSetup`propriedade. É aqui que a maioria das nossas configurações de impressão serão configuradas.
+ Agora vamos acessar a planilha`PageSetup` propriedade. É aqui que a maioria das nossas configurações de impressão serão configuradas.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
@@ -103,7 +103,7 @@ Ao fazer isso, as linhas 1 e 2 são marcadas como linhas de título. Então, se 
 
 ## Etapa 6: Salve a pasta de trabalho
 
-A última etapa do nosso processo é salvar a pasta de trabalho com todas as configurações que aplicamos. 
+última etapa do nosso processo é salvar a pasta de trabalho com todas as configurações que aplicamos. 
 
 ```csharp
 workbook.Save(dataDir + "SetPrintTitle_out.xls");
@@ -125,8 +125,8 @@ Aspose.Cells para .NET é uma biblioteca .NET para gerenciar arquivos do Excel s
 ### Posso definir títulos de impressão em várias planilhas?
 Sim, você pode repetir o processo para cada planilha na sua pasta de trabalho.
 
-### Aspose.Cells é gratuito?
-O Aspose.Cells fornece um teste gratuito com limitações. Para recursos completos, é necessária uma licença.
+### O Aspose.Cells é gratuito?
+Aspose.Cells fornece um teste gratuito com limitações. Para recursos completos, é necessária uma licença.
 
 ### Quais formatos de arquivo o Aspose.Cells suporta?
 Ele suporta uma variedade de formatos, incluindo XLS, XLSX, CSV e muito mais.

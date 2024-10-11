@@ -57,7 +57,7 @@ validation.setFormula2("100");
 Vstupní zprávy poskytují uživatelům pokyny ohledně typu dat, která by měli zadat. Pomocí Aspose.Cells for Java můžete do pravidel ověřování dat přidat vstupní zprávy.
 
 ```java
-// Nastavte vstupní zprávu pro ověření dat
+// Nastavit vstupní zprávu pro ověření dat
 validation.setInputMessage("Please enter a number between 1 and 100.");
 ```
 
@@ -86,7 +86,7 @@ area.endColumn = 0;
 validation.addArea(area);
 ```
 
-## Práce s různými typy dat
+## Práce s různými datovými typy
 
 Aspose.Cells for Java vám umožňuje pracovat s různými datovými typy pro ověřování dat, včetně celých čísel, desetinných čísel, dat a textu.
 

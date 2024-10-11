@@ -9,7 +9,7 @@ url: /pl/net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadsheet/
 ---
 ## Wstęp
 
-Podczas pracy z plikami Excel programowo, może być konieczne ukrycie lub pokazanie pewnych elementów, takich jak karty, aby uzyskać czystą i profesjonalną prezentację. Aspose.Cells dla .NET oferuje łatwy i wydajny sposób na osiągnięcie tego celu. W tym samouczku przeprowadzimy Cię przez proces ukrywania kart arkuszy w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET, od skonfigurowania środowiska do zapisania pliku końcowego. Na koniec będziesz w pełni przygotowany do wykonania tego zadania z pewnością siebie.
+Podczas pracy z plikami Excel programowo, może być konieczne ukrycie lub pokazanie pewnych elementów, takich jak zakładki, aby uzyskać czystą i profesjonalną prezentację. Aspose.Cells dla .NET oferuje łatwy i wydajny sposób na osiągnięcie tego celu. W tym samouczku przeprowadzimy Cię przez proces ukrywania zakładek arkuszy w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET, od konfiguracji środowiska do zapisania pliku końcowego. Na koniec będziesz w pełni przygotowany do wykonania tego zadania z pewnością siebie.
 
 ## Wymagania wstępne
 
@@ -38,7 +38,7 @@ Zanim zaczniesz pisać kod, kluczowe jest prawidłowe skonfigurowanie środowisk
 1.  Utwórz nowy projekt: Otwórz program Visual Studio, utwórz nowy projekt aplikacji konsoli i nadaj mu nazwę opisową, np.`HideExcelTabs`.
 2. Dodaj odniesienie do Aspose.Cells: Przejdź do Menedżera pakietów NuGet i wyszukaj „Aspose.Cells for .NET”. Zainstaluj go w swoim projekcie.
  Alternatywnie, jeśli pracujesz w trybie offline, możesz[pobierz Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/) i ręcznie dodaj plik DLL do odniesień swojego projektu.
-3.  Przygotuj plik Excela: Umieść plik Excela, który chcesz zmodyfikować (np.`book1.xls`) w katalogu twojego projektu. Upewnij się, że znasz ścieżkę do pliku.
+3. Przygotuj plik Excela: Umieść plik Excela, który chcesz zmodyfikować (np.`book1.xls`) w katalogu twojego projektu. Upewnij się, że znasz ścieżkę do pliku.
 
 ## Krok 2: Otwórz plik Excel
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- W tym kroku tworzymy instancję`Workbook` klasa, która reprezentuje plik Excel. Ścieżka do pliku Excel jest podana jako parametr. Upewnij się, że zastąpisz`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do pliku, w którym znajduje się plik Excel.
+ W tym kroku tworzymy instancję`Workbook` klasa, która reprezentuje plik Excel. Ścieżka do pliku Excel jest podana jako parametr. Upewnij się, że zastąpisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do pliku, w którym znajduje się plik Excel.
 
 Ładując skoroszyt, nawiązujesz połączenie z plikiem, umożliwiając dalsze modyfikacje. Bez tego nie można dokonać żadnych zmian.
 
@@ -97,7 +97,7 @@ Zapisywanie jest kluczowe. Bez tego kroku wszystkie zmiany wprowadzone do skoros
 
 I masz! Udało Ci się ukryć zakładki arkuszy w pliku Excela za pomocą Aspose.Cells dla .NET. Ta prosta poprawka może sprawić, że Twoje dokumenty Excela będą wyglądać bardziej dopracowane i skupione, zwłaszcza gdy udostępniasz pliki klientom lub członkom zespołu, którzy nie muszą widzieć wszystkich działających zakładek.
 
-Dzięki Aspose.Cells dla .NET możesz manipulować plikami Excela na wiele sposobów, od ukrywania kart po tworzenie dynamicznych raportów, wykresów i wiele więcej. Jeśli jesteś nowy w tym narzędziu, nie wahaj się go zbadać[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby uzyskać bardziej szczegółowe informacje o funkcjach i możliwościach.
+ Dzięki Aspose.Cells dla .NET możesz manipulować plikami Excela na wiele sposobów, od ukrywania kart po tworzenie dynamicznych raportów, wykresów i wiele więcej. Jeśli jesteś nowy w tym narzędziu, nie wahaj się go zbadać[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby uzyskać bardziej szczegółowe informacje o funkcjach i możliwościach.
 
 ## Najczęściej zadawane pytania
 
@@ -105,7 +105,7 @@ Dzięki Aspose.Cells dla .NET możesz manipulować plikami Excela na wiele sposo
  Nie, ukrywanie kart przez`ShowTabs` właściwość ukrywa lub pokazuje wszystkie karty arkuszy na raz. Jeśli chcesz ukryć poszczególne arkusze, możesz ustawić widoczność każdego arkusza osobno.
 
 ### Jak mogę wyświetlić podgląd ukrytych kart w programie Excel?  
- Możesz przełączać`ShowTabs` nieruchomość z powrotem do`true` używając tej samej struktury kodu, jeśli chcesz wyświetlić podgląd lub przywrócić karty.
+ Możesz przełączać`ShowTabs`nieruchomość z powrotem do`true` używając tej samej struktury kodu, jeśli chcesz wyświetlić podgląd lub przywrócić karty.
 
 ### Czy ukrycie kart wpłynie na dane lub funkcjonalność skoroszytu?  
 Nie, ukrywanie kart zmienia tylko wygląd wizualny. Dane i funkcje w skoroszycie pozostają niezmienione.

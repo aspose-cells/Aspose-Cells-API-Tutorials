@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Elk van deze blokken bootst de vorige stap na, maar past de`PaperSize` eigenschap dienovereenkomstig. Door alleen de formaatindicator te veranderen, krijgt u moeiteloos verschillende papierafmetingen. Het is alsof u de grootte van een doos verandert op basis van wat u moet opslaan!
+ Elk van deze blokken bootst de vorige stap na, maar past de`PaperSize`eigenschap dienovereenkomstig. Door alleen de formaatindicator te veranderen, krijgt u moeiteloos verschillende papierafmetingen. Het is alsof u de grootte van een doos verandert op basis van wat u moet opslaan!
 
 ## Conclusie
 

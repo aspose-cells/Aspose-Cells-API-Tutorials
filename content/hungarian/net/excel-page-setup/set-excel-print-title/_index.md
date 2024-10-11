@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2. lépés: Példányosítson egy munkafüzet-objektumot
 
- Ezután létrehozzuk a`Workbook` osztály, amely egy Excel fájlt jelöl.
+ Ezután létrehozzuk a`Workbook`osztály, amely egy Excel fájlt jelöl.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Ez a sor inicializál egy új munkafüzetet, és készen áll a manipulációra.
 
 ## 3. lépés: Szerezze be a PageSetup Reference-t
 
- Most lépjünk be a munkalaphoz`PageSetup`ingatlan. Itt lesz konfigurálva a legtöbb nyomtatási beállítás.
+ Most lépjünk be a munkalaphoz`PageSetup` ingatlan. Itt lesz konfigurálva a legtöbb nyomtatási beállítás.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
@@ -103,7 +103,7 @@ Ezzel az 1. és 2. sor címsorként lesz megjelölve. Tehát, ha van néhány fe
 
 ## 6. lépés: Mentse el a munkafüzetet
 
-A folyamat utolsó lépése a munkafüzet mentése az összes alkalmazott beállítással. 
+folyamat utolsó lépése a munkafüzet mentése az összes alkalmazott beállítással. 
 
 ```csharp
 workbook.Save(dataDir + "SetPrintTitle_out.xls");

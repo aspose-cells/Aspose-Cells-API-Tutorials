@@ -15,7 +15,7 @@ När du arbetar med Excel-filer programmatiskt, oavsett om det är för rapporte
 
 Innan vi sätter igång finns det några saker du behöver för att se till att du är redo:
 
-1.  Aspose.Cells för .NET Library: Detta är kärnkomponenten som gör det möjligt att manipulera Excel-filer. Om du inte har installerat det än kan du göra det[ladda ner den härifrån](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells för .NET Library: Detta är kärnkomponenten som gör det möjligt att manipulera Excel-filer. Om du inte har installerat det än kan du göra det[ladda ner den härifrån](https://releases.aspose.com/cells/net/).
 2. Utvecklingsmiljö: Du bör ha en utvecklingsmiljö inrättad, helst Visual Studio, där du kan skriva och köra C#-kod.
 3. Grundläggande förståelse för C#: Även om jag kommer att förklara varje steg, kommer en grundläggande förståelse av C# att hjälpa dig att följa med bättre.
 4. Excel-fil: Du bör skapa en Excel-fil (vi hänvisar till "book1.xls" i denna handledning). Du kan skapa en enkel fil med ett par kalkylblad för detta ändamål.
@@ -58,7 +58,7 @@ Här öppnar vi "book1.xls". Det är avgörande att den här filen finns i din a
  Därefter måste du skapa en`Workbook` objekt. Detta objekt representerar din Excel-fil och låter dig manipulera dess innehåll.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 // Öppna Excel-filen genom filströmmen
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Låt oss nu komma till sakens kärna – att ta bort ett kalkylblad med dess nam
 workbook.Worksheets.RemoveAt("Sheet1");
 ```
 
-I det här exemplet försöker vi ta bort ett kalkylblad med namnet "Sheet1". Om det här arket finns kommer det att tas bort. Om det inte gör det kommer du att stöta på ett undantag, så se till att namnet matchar exakt.
+det här exemplet försöker vi ta bort ett kalkylblad med namnet "Sheet1". Om det här arket finns kommer det att tas bort. Om det inte gör det kommer du att stöta på ett undantag, så se till att namnet matchar exakt.
 
 ## Steg 5: Spara arbetsboken
 
@@ -96,7 +96,7 @@ Lek gärna med andra funktioner i Aspose.Cells-biblioteket, och tveka inte att e
 ## FAQ's
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells erbjuder en gratis provperiod, men du måste köpa en licens för fortsatt användning. Du kan få din gratis provperiod[här](https://releases.aspose.com/).
+Aspose.Cells erbjuder en gratis provperiod, men du måste köpa en licens för fortsatt användning. Du kan få din gratis provperiod[här](https://releases.aspose.com/).
 
 ### Kan jag ta bort flera kalkylblad samtidigt?
 Du kan iterera genom kalkylbladssamlingen och ta bort flera ark med en slinga. Se bara till att du hanterar indexen korrekt.

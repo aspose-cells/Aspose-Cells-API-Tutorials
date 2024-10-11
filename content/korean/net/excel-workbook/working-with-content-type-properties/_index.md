@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## 2단계: 새 통합 문서 만들기
 
- 이제 출력 디렉토리가 있으므로 새 통합 문서를 만들어 보겠습니다.`Workbook`클래스는 Excel 파일을 다루기 위한 시작점입니다.
+ 이제 출력 디렉토리가 있으므로 새 통합 문서를 만들어 보겠습니다.`Workbook` 클래스는 Excel 파일을 다루기 위한 시작점입니다.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -99,7 +99,7 @@ workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
 Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 ```
 
-이 메시지는 이전 단계를 모두 성공적으로 완료하면 콘솔에 나타납니다.
+이 메시지는 이전 모든 단계가 성공적으로 완료되면 콘솔에 나타납니다.
 
 ## 결론
 
@@ -120,4 +120,4 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 물론입니다! 적절하게 직렬화할 수만 있다면 복잡한 객체를 콘텐츠 유형 속성에 추가할 수 있습니다.
 
 ### 더 많은 문서는 어디에서 찾을 수 있나요?
-더 자세한 지침은 다음을 참조하세요.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).
+ 더 자세한 지침은 다음을 참조하세요.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).

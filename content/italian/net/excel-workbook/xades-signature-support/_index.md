@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Sostituisci con il percorso del tuo file PFX
 
 ## Fase 4: creare la firma digitale
 
- Ora creiamo la firma digitale utilizzando`DigitalSignature`classe. È qui che avviene la magia!
+ Ora creiamo la firma digitale utilizzando`DigitalSignature` classe. È qui che avviene la magia!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Sì, per creare una firma Xades è necessario un certificato digitale valido (fi
  Assolutamente! Puoi ottenere una prova gratuita da[Sito web di Aspose](https://releases.aspose.com/).
 
 ### Aspose.Cells è compatibile con tutte le versioni di .NET?
-Aspose.Cells supporta varie versioni del framework .NET. Controlla il[documentazione](https://reference.aspose.com/cells/net/) per i dettagli sulla compatibilità.
+ Aspose.Cells supporta varie versioni del framework .NET. Controlla il[documentazione](https://reference.aspose.com/cells/net/) per i dettagli sulla compatibilità.
 
 ### Dove posso ottenere supporto se riscontro problemi?
  Puoi visitare il[Forum di Aspose](https://forum.aspose.com/c/cells/9) per il supporto e l'assistenza della comunità.

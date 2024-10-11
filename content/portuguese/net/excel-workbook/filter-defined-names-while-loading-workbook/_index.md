@@ -37,7 +37,7 @@ Vamos dividir o processo de filtragem de nomes definidos durante o carregamento 
 
 ## Etapa 1: Especifique as opções de carga
 
- primeira coisa que faremos é criar uma instância do`LoadOptions` classe. Esta classe nos ajudará a especificar como queremos carregar nosso arquivo Excel.
+ A primeira coisa que faremos é criar uma instância do`LoadOptions` classe. Esta classe nos ajudará a especificar como queremos carregar nosso arquivo Excel.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Agora que nossas opções de carga estão especificadas, é hora de carregar a p
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Nesta linha, você está criando uma nova instância do`Workbook`class, passando o caminho para seu arquivo Excel de exemplo e as opções de carregamento. Isso carrega sua pasta de trabalho com os nomes definidos filtrados conforme especificado.
+ Nesta linha, você está criando uma nova instância do`Workbook` class, passando o caminho para seu arquivo Excel de exemplo e as opções de carregamento. Isso carrega sua pasta de trabalho com os nomes definidos filtrados conforme especificado.
 
 ## Etapa 4: Salve o arquivo de saída
 
@@ -87,7 +87,7 @@ Com esta linha, você fornece uma indicação clara de que a operação foi conc
 
 ## Conclusão
 
-aí está! Filtrar nomes definidos ao carregar uma pasta de trabalho com Aspose.Cells for .NET pode ser feito com algumas etapas simples. Esse processo é extremamente útil em cenários em que você precisa otimizar seu processamento de dados ou evitar que dados desnecessários afetem seus cálculos.
+E aí está! Filtrar nomes definidos ao carregar uma pasta de trabalho com Aspose.Cells for .NET pode ser feito com algumas etapas simples. Esse processo é extremamente útil em cenários em que você precisa otimizar seu processamento de dados ou evitar que dados desnecessários afetem seus cálculos.
 
 Seguindo este guia, você pode carregar seus arquivos do Excel com confiança enquanto controla quais dados deseja excluir. Não importa se você está desenvolvendo aplicativos que gerenciam grandes conjuntos de dados ou implementando lógica de negócios específica, dominar este recurso só aumentará suas habilidades de manipulação do Excel.
 
@@ -106,4 +106,4 @@ Filtrar nomes definidos pode levar a fórmulas quebradas se eles fizerem referê
  Sim, você pode obter uma avaliação gratuita do Aspose.Cells para testar suas capacidades antes de comprar. Confira[aqui](https://releases.aspose.com/).
 
 ### Onde posso encontrar mais exemplos e documentação?
- Você pode encontrar documentação abrangente e mais exemplos na página de referência do Aspose.Cells[aqui](https://reference.aspose.com/cells/net/).
+Você pode encontrar documentação abrangente e mais exemplos na página de referência do Aspose.Cells[aqui](https://reference.aspose.com/cells/net/).

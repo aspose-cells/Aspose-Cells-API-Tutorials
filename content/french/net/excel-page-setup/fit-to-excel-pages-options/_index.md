@@ -16,7 +16,7 @@ Bienvenue dans le guide ultime sur l'utilisation de la puissante bibliothèque A
 Avant de vous lancer dans le codage, assurez-vous que vous disposez de tout ce dont vous avez besoin pour commencer. Voici ce que vous devez avoir en place :
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agit de votre plateforme principale pour tous les travaux de développement.
-2.  Aspose.Cells pour .NET : vous devez avoir téléchargé et ajouté la bibliothèque Aspose.Cells à votre projet. Vous pouvez facilement la récupérer à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells pour .NET : vous devez avoir téléchargé et ajouté la bibliothèque Aspose.Cells à votre projet. Vous pouvez facilement la récupérer à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base en C# : une bonne connaissance de la programmation C# vous sera d'une grande aide. Si vous savez gérer les variables, les boucles et les E/S de fichiers de base, vous serez à l'aise.
 4. .NET Framework : assurez-vous que votre projet est configuré avec la version appropriée de .NET Framework, car la bibliothèque est conçue pour être compatible avec cet écosystème.
 
@@ -54,9 +54,9 @@ Tout d'abord, initialisons notre classeur et accédons à la feuille de calcul s
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
-// Accéder à la première feuille de calcul du fichier Excel
+//Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`détermine le nombre de pages que votre feuille de calcul s'étendra verticalement.
-- `FitToPagesWide` définit la configuration horizontale de la page. Définir les deux sur`1` signifie que votre contenu tiendra parfaitement sur une seule page, transformant votre document en un chef-d'œuvre épuré.
+- `FitToPagesTall` détermine le nombre de pages que votre feuille de calcul s'étendra verticalement.
+- `FitToPagesWide` définit la configuration horizontale de la page. Définir les deux sur`1`signifie que votre contenu tiendra parfaitement sur une seule page, transformant votre document en un chef-d'œuvre épuré.
 
 ## Étape 3 : Enregistrez votre classeur
 
@@ -97,7 +97,7 @@ Et voilà ! Vous avez appris à utiliser les options d'ajustement aux pages Exce
 Aspose.Cells est une bibliothèque .NET robuste pour la gestion programmatique des fichiers Excel, permettant aux développeurs de créer et de manipuler facilement des feuilles de calcul.
 
 ### Puis-je essayer Aspose.Cells gratuitement ?
- Oui ! Vous pouvez vous inscrire pour un essai gratuit[ici](https://releases.aspose.com/).
+Oui ! Vous pouvez vous inscrire pour un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Comment acheter Aspose.Cells ?
  Vous pouvez faire votre achat[ici](https://purchase.aspose.com/buy).

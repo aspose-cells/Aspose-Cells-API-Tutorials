@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Di Sini,`workbook.Worksheets[0]` mengacu pada lembar kerja pertama di buku kerja Anda.`PageSetup`Properti akan memberi Anda kendali atas pengaturan pagination pada lembar Anda.
+ Di Sini,`workbook.Worksheets[0]` mengacu pada lembar kerja pertama di buku kerja Anda.`PageSetup` Properti akan memberi Anda kendali atas pengaturan pagination pada lembar Anda.
 
 ## Langkah 4: Mengatur Urutan Pencetakan
 
 
- Dengan`PageSetup` objek, saatnya memberi tahu Excel bagaimana Anda ingin halaman dicetak. Anda memiliki opsi untuk mengatur urutan sebagai "Over Then Down" atau "Down Then Over."
+ Dengan`PageSetup`objek, saatnya memberi tahu Excel bagaimana Anda ingin halaman dicetak. Anda memiliki opsi untuk mengatur urutan sebagai "Over Then Down" atau "Down Then Over."
 
 Berikut kode untuk mengatur urutan pencetakan:
 

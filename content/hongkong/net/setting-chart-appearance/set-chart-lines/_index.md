@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 接下來，您需要使用工作簿中的特定工作表。我們將獲取第一個工作表。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -135,7 +135,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-說明：在這裡，您可以自訂圖表各個組成部分的顏色，以使其在視覺上引人注目。每條線針對圖表的不同區域。
+說明：在這裡，您要自訂圖表各個組成部分的顏色，以使其在視覺上引人注目。每條線針對圖表的不同區域。
 
 ## 步驟9：套用線條樣式
 

@@ -9,7 +9,7 @@ url: /de/net/manipulating-chart-types/modify-line-chart/
 ---
 ## Einführung
 
-Das Erstellen optisch ansprechender und informativer Diagramme ist für eine effektive Datendarstellung unerlässlich, insbesondere in geschäftlichen und akademischen Umgebungen. Aber wie verbessern Sie Ihre Liniendiagramme, um die Geschichte hinter den Zahlen zu vermitteln? Hier kommt Aspose.Cells für .NET ins Spiel. In diesem Artikel werden wir uns mit der Verwendung von Aspose.Cells befassen, um ein vorhandenes Liniendiagramm mühelos zu ändern. Wir behandeln alles von Voraussetzungen bis hin zu schrittweisen Anleitungen, damit Sie das Beste aus Ihren Datenvisualisierungsbemühungen herausholen können. 
+Das Erstellen optisch ansprechender und informativer Diagramme ist für eine effektive Datendarstellung unerlässlich, insbesondere in geschäftlichen und akademischen Umgebungen. Aber wie verbessern Sie Ihre Liniendiagramme, um die Geschichte hinter den Zahlen zu vermitteln? Hier kommt Aspose.Cells für .NET ins Spiel. In diesem Artikel werden wir uns mit der Verwendung von Aspose.Cells befassen, um ein vorhandenes Liniendiagramm mühelos zu ändern. Wir behandeln alles von Voraussetzungen bis hin zu schrittweisen Anleitungen, damit Sie Ihre Datenvisualisierungsbemühungen optimal nutzen können. 
 
 ## Voraussetzungen 
 
@@ -89,7 +89,7 @@ chart.NSeries.Add("{0.3, 0.7, 1.2}", true);
 ```
 Diese Zeile fügt eine weitere, vierte Datenreihe hinzu und ermöglicht Ihnen, mehr Daten visuell darzustellen.
 
-## Schritt 5: Auf der zweiten Achse darstellen
+## Schritt 5: Auf der zweiten Achse zeichnen
 
 Um die neuen Datenreihen optisch abzugrenzen, stellen wir die vierte Reihe auf einer zweiten Achse dar.
 

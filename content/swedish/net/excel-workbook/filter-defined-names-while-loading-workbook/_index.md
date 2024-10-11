@@ -37,7 +37,7 @@ Låt oss bryta ner processen med att filtrera definierade namn medan vi laddar e
 
 ## Steg 1: Ange laddningsalternativ
 
-Det första vi ska göra är att skapa en instans av`LoadOptions` klass. Den här klassen hjälper oss att specificera hur vi vill ladda vår Excel-fil.
+ Det första vi ska göra är att skapa en instans av`LoadOptions` klass. Den här klassen hjälper oss att specificera hur vi vill ladda vår Excel-fil.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Nu när våra laddningsalternativ är specificerade är det dags att ladda själ
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- På den här raden skapar du en ny instans av`Workbook`klass och skickar sökvägen till exemplet på Excel-filen och laddningsalternativen. Detta laddar din arbetsbok med de definierade namnen filtrerade ut som specificerat.
+ På den här raden skapar du en ny instans av`Workbook` klass och skickar sökvägen till exemplet på Excel-filen och laddningsalternativen. Detta laddar din arbetsbok med de definierade namnen filtrerade ut som specificerat.
 
 ## Steg 4: Spara utdatafilen
 
@@ -106,4 +106,4 @@ Filtrering av definierade namn kan leda till trasiga formler om de refererar til
  Ja, du kan få en gratis testversion av Aspose.Cells för att testa dess kapacitet innan du köper. Kolla in det[här](https://releases.aspose.com/).
 
 ### Var kan jag hitta fler exempel och dokumentation?
- Du kan hitta omfattande dokumentation och fler exempel på Aspose.Cells referenssida[här](https://reference.aspose.com/cells/net/).
+Du kan hitta omfattande dokumentation och fler exempel på Aspose.Cells referenssida[här](https://reference.aspose.com/cells/net/).

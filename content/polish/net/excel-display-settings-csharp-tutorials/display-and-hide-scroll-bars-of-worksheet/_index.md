@@ -45,7 +45,7 @@ W tym miejscu należy określić ścieżkę do pliku Excel, z którym chcesz pra
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Zastępować`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik Excel. Pozwala to Twojemu programowi znaleźć niezbędne pliki, którymi będzie manipulował.
+ Zastępować`YOUR DOCUMENT DIRECTORY` rzeczywistą ścieżką, gdzie przechowywany jest Twój plik Excel. Pozwala to Twojemu programowi znaleźć niezbędne pliki, którymi będzie manipulował.
 
 ## Krok 2: Utwórz strumień plików
 
@@ -56,7 +56,7 @@ Tutaj tworzysz strumień plików w celu odczytania pliku Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- Ten`FileStream`Klasa umożliwia odczytywanie i zapisywanie plików. W tym przypadku otwieramy nasz plik Excel w trybie odczytu.
+ Ten`FileStream` Klasa umożliwia odczytywanie i zapisywanie plików. W tym przypadku otwieramy nasz plik Excel w trybie odczytu.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
@@ -123,7 +123,7 @@ Postępując zgodnie z tymi prostymi krokami, nauczyłeś się, jak wyświetlać
  Tak! Wystarczy ustawić`IsVScrollBarVisible` I`IsHScrollBarVisible` powrót do`true`.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
- Aspose.Cells nie jest w pełni darmowy, ale możesz wypróbować go bezpłatnie przez ograniczony czas lub rozważyć zakup[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells nie jest w pełni darmowy, ale możesz wypróbować go bezpłatnie przez ograniczony czas lub rozważyć zakup[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Jakimi typami plików Excela mogę manipulować za pomocą Aspose.Cells?  
 Możesz pracować z różnymi formatami plików Excel, w tym .xls, .xlsx, .xlsm, .xlsb itp.

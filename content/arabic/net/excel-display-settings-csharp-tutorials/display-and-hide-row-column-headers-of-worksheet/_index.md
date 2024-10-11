@@ -2,7 +2,7 @@
 title: إظهار وإخفاء رؤوس الصفوف والأعمدة في ورقة العمل
 linktitle: إظهار وإخفاء رؤوس الصفوف والأعمدة في ورقة العمل
 second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
-description: تعرف على كيفية إخفاء رؤوس الصفوف والأعمدة في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل خطوة بخطوة.
+description: تعرف على كيفية إخفاء رؤوس الصفوف والأعمدة في Excel باستخدام Aspose.Cells for .NET من خلال هذا الدليل خطوة بخطوة.
 type: docs
 weight: 40
 url: /ar/net/excel-display-settings-csharp-tutorials/display-and-hide-row-column-headers-of-worksheet/
@@ -103,7 +103,7 @@ workbook.Save(dataDir + "output.xls");
 fstream.Close();
 ```
 
- إغلاق`fstream` يعد هذا أمرًا بالغ الأهمية لأنه يضمن عدم وجود تسريبات للذاكرة أو أقفال ملفات مفتوحة في تطبيقك.
+ إغلاق`fstream`يعد هذا أمرًا بالغ الأهمية لأنه يضمن عدم وجود تسريبات للذاكرة أو أقفال ملفات مفتوحة في تطبيقك.
 
 ## خاتمة
 
@@ -121,7 +121,7 @@ Aspose.Cells عبارة عن مكتبة .NET قوية لإدارة جداول ب
  على الرغم من أنه يمكنك استخدام إصدار تجريبي مجاني، إلا أنه يلزم الحصول على ترخيص للاستخدام التجاري المستمر. يمكنك العثور على خيارات الشراء[هنا](https://purchase.aspose.com/buy).
 
 ### هل يتوفر الدعم لـ Aspose.Cells؟  
- نعم، توفر Aspose الدعم من خلال منتدياتها، والتي يمكنك الوصول إليها[هنا](https://forum.aspose.com/c/cells/9).
+نعم، توفر Aspose الدعم من خلال منتدياتها، والتي يمكنك الوصول إليها[هنا](https://forum.aspose.com/c/cells/9).
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Cells؟  
-يمكنك التقدم بطلب للحصول على ترخيص مؤقت لأغراض التقييم على[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+ يمكنك التقدم بطلب للحصول على ترخيص مؤقت لأغراض التقييم على[هذا الرابط](https://purchase.aspose.com/temporary-license/).

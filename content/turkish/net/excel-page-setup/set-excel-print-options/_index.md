@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Daha sonra, bir tane oluşturmamız gerekecek`Workbook` nesne. Bu nesne, elektronik tablo verileriniz için bir kapsayıcı görevi görür.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 

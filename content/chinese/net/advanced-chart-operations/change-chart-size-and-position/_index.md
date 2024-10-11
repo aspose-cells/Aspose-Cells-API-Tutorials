@@ -9,7 +9,7 @@ url: /zh/net/advanced-chart-operations/change-chart-size-and-position/
 ---
 ## 介绍
 
-当谈到以编程方式操作电子表格时，很难忽视 Aspose.Cells for .NET 的多功能性和强大功能。您是否曾经发现自己在调整 Excel 文件中图表的大小或重新定位时遇到困难？如果是这样，那您就有福了！本指南将带您完成使用 Aspose.Cells 更改电子表格中图表的大小和位置的简单步骤。系好安全带，因为我们将深入探讨这个主题！
+当谈到以编程方式操作电子表格时，很难忽视 Aspose.Cells for .NET 的多功能性和强大功能。您是否曾经发现自己在调整 Excel 文件中图表的大小或重新定位时遇到困难？如果是这样，您就有福了！本指南将带您完成使用 Aspose.Cells 更改电子表格中图表的大小和位置的简单步骤。系好安全带，因为我们将深入探讨这个主题！
 
 ## 先决条件
 
@@ -113,7 +113,7 @@ Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
 
 ## 结论
 
-恭喜！您刚刚学会了如何使用 Aspose.Cells for .NET 更改 Excel 中图表的大小和位置。通过这些步骤，您不仅可以让图表看起来更好，还可以让图表完美地融入电子表格中，从而更专业地呈现您的数据。为什么不尝试一下，今天就开始操作您的图表呢？ 
+恭喜！您刚刚学会了如何使用 Aspose.Cells for .NET 更改 Excel 中图表的大小和位置。通过这些步骤，您不仅可以让图表看起来更好，还可以让其完美地融入电子表格中，从而更专业地呈现您的数据。为什么不尝试一下并立即开始操作您的图表呢？ 
 
 ## 常见问题解答
 

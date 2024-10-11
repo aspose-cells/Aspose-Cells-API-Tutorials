@@ -123,7 +123,7 @@ fstream.Close();
 是的！你只需要設定`IsVScrollBarVisible`和`IsHScrollBarVisible`回到`true`.
 
 ### Aspose.Cells 可以免費使用嗎？  
- Aspose.Cells 並非完全免費，但您可以在有限時間內免費試用或考慮購買[臨時許可證](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells 並非完全免費，但您可以在有限時間內免費試用或考慮購買[臨時許可證](https://purchase.aspose.com/temporary-license/).
 
 ### 我可以使用 Aspose.Cells 操作哪些類型的 Excel 檔案？  
 您可以使用各種 Excel 格式，包括 .xls、.xlsx、.xlsm、.xlsb 等。

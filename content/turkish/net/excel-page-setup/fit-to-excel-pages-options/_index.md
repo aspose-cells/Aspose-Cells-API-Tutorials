@@ -16,7 +16,7 @@ Güçlü Aspose.Cells for .NET kütüphanesini kullanma konusunda nihai rehbere 
 Kodlamaya başlamadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte sahip olmanız gerekenler:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu, tüm geliştirme çalışmalarınız için ana merkezinizdir.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip projenize eklemeniz gerekir. Bunu şuradan kolayca alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip projenize eklemeniz gerekir. Bunu şuradan kolayca alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık çok yardımcı olacaktır. Değişkenleri, döngüleri ve temel dosya G/Ç'sini idare edebiliyorsanız, kendinizi evinizde hissedeceksiniz.
 4. .NET Framework: Kütüphanenin bu ekosistemle uyumlu olacak şekilde tasarlandığından, projenizin uygun .NET Framework sürümüyle kurulduğundan emin olun.
 
@@ -54,9 +54,9 @@ Excel sayfalarınızı biçimlendirmeye hazır mısınız? Süreci adım adım i
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`çalışma sayfanızın dikey olarak kaç sayfaya yayılacağını belirler.
-- `FitToPagesWide` yatay sayfa düzenini tanımlar. Her ikisini de ayarlamak`1` İçeriğinizin tek bir sayfaya düzgün bir şekilde sığması ve belgenizin akıcı bir şahesere dönüşmesi anlamına gelir.
+- `FitToPagesTall` çalışma sayfanızın dikey olarak kaç sayfaya yayılacağını belirler.
+- `FitToPagesWide` yatay sayfa düzenini tanımlar. Her ikisini de ayarlamak`1`İçeriğinizin tek bir sayfaya düzgün bir şekilde sığması ve belgenizin akıcı bir şahesere dönüşmesi anlamına gelir.
 
 ## Adım 3: Çalışma Kitabınızı Kaydedin
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 Aspose.Cells, Excel dosyalarını programlı bir şekilde yönetmek için güçlü bir .NET kütüphanesidir ve geliştiricilerin elektronik tabloları kolaylıkla oluşturmasını ve düzenlemesini sağlar.
 
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
- Evet! Ücretsiz denemeye kaydolabilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Ücretsiz denemeye kaydolabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells'i nasıl satın alabilirim?
  Satın alma işleminizi gerçekleştirebilirsiniz[Burada](https://purchase.aspose.com/buy).

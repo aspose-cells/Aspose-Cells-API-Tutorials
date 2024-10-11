@@ -97,7 +97,7 @@ Opět se tím přistupuje k prvnímu grafu v listu; ujistěte se, že struktura 
 
 ## Krok 5: Vytvořte PDF s požadovanou velikostí stránky
 
-Nakonec je čas vytvořit PDF z grafu se zadanou velikostí stránky. Zde je kouzelná čára kódu, která to všechno zvládne:
+Nakonec je čas vytvořit PDF z grafu se zadanou velikostí stránky. Zde je kouzelná čára kódu, která to všechno dělá:
 
 ```csharp
 //Vytvořte graf pdf s požadovanou velikostí stránky.

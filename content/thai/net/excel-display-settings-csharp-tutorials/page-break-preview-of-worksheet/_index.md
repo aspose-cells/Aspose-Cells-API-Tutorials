@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## ขั้นตอนที่ 3: สร้างตัวอย่างสมุดงาน
 
 ```csharp
-// การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
+//การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 // การเปิดไฟล์ Excel ผ่านทางสตรีมไฟล์
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## ขั้นตอนที่ 4: เข้าถึงแผ่นงาน
 
 ```csharp
-// การเข้าถึงแผ่นงานแรกในไฟล์ Excel
+//การเข้าถึงแผ่นงานแรกในไฟล์ Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

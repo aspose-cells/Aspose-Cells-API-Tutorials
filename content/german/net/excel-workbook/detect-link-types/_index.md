@@ -63,7 +63,7 @@ Diese Zeile verweist auf das Verzeichnis, das die Excel-Datei enthält. Stellen 
 Als Nächstes laden wir unsere Arbeitsmappe. Das ist, als ob Ihre Excel-Datei im Hintergrund geöffnet wird, sodass wir ihren Inhalt lesen und bearbeiten können.
 
 ```csharp
-// Laden der Arbeitsmappe
+//Laden der Arbeitsmappe
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

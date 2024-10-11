@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte vše na svém místě, abyste mohli plynu
 1.  Aspose.Cells for .NET Library – budete muset nainstalovat tuto. Můžeš to chytit[zde](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Zajistěte, aby vaše vývojové prostředí bylo nastaveno na nejnovější verzi .NET.
 3. IDE (Integrated Development Environment) – doporučuje se Visual Studio.
-4. Platná licence Aspose.Cells – Pokud ji nemáte, můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo se podívejte na jejich[zkušební verze zdarma](https://releases.aspose.com/).
+4.  Platná licence Aspose.Cells – Pokud ji nemáte, můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/)nebo se podívejte na jejich[zkušební verze zdarma](https://releases.aspose.com/).
 
 Jste připraveni jít? Pojďme to rozebrat!
 
@@ -174,11 +174,11 @@ Nyní, když je vše nastaveno, uložíme sešit, abychom viděli graf v akci.
 workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
 
-je to! Právě jste vytvořili spojnicový graf s datovými značkami pomocí Aspose.Cells pro .NET.
+A je to! Právě jste vytvořili spojnicový graf s datovými značkami pomocí Aspose.Cells pro .NET.
 
 ## Závěr
 
-Vytváření grafů programově v Excelu se může zdát skličující, ale s Aspose.Cells pro .NET je to stejně snadné, jako postupovat podle receptu krok za krokem. Od nastavení sešitu až po přizpůsobení vzhledu grafu tato výkonná knihovna zvládne vše. Ať už vytváříte sestavy, řídicí panely nebo vizualizace dat, Aspose.Cells vám to umožní rychle.
+Vytváření grafů programově v Excelu se může zdát skličující, ale s Aspose.Cells pro .NET je to stejně snadné, jako postupovat podle receptu krok za krokem. Od nastavení sešitu až po přizpůsobení vzhledu grafu, tato výkonná knihovna zvládne vše. Ať už vytváříte sestavy, řídicí panely nebo vizualizace dat, Aspose.Cells vám to umožní udělat snadno.
 
 ## FAQ
 

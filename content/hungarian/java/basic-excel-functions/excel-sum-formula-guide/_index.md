@@ -65,7 +65,7 @@ Az Aspose.Cells leegyszerűsíti a SUM képlet megvalósítását. A következő
 Cell sumCell = worksheet.getCells().get("B1");
 sumCell.setFormula("=SUM(A1:A10)");
 
-// Számítsa ki és mentse el a munkafüzetet
+// Számolja ki és mentse el a munkafüzetet
 workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
@@ -84,7 +84,7 @@ sumCell1.setFormula("=SUM(A1:A10)");
 Cell sumCell2 = worksheet.getCells().get("C1");
 sumCell2.setFormula("=SUM(D1:D10)");
 
-// Számítsa ki és mentse el a munkafüzetet
+// Számolja ki és mentse el a munkafüzetet
 workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
@@ -100,7 +100,7 @@ Itt kiszámítottuk az A1–A10 és a D1–D10 cellák értékeinek összegét, 
 Cell sumCell = worksheet.getCells().get("B1");
 sumCell.setFormula("=SUMIF(A1:A10, \">5\")");
 
-// Számítsa ki és mentse el a munkafüzetet
+// Számolja ki és mentse el a munkafüzetet
 workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```

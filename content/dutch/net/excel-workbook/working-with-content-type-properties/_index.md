@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Stap 2: Maak een nieuwe werkmap
 
- Nu we onze output directory hebben, gaan we een nieuwe werkmap maken. De`Workbook`klasse is het startpunt voor het werken met Excel-bestanden.
+ Nu we onze output directory hebben, gaan we een nieuwe werkmap maken. De`Workbook` klasse is het startpunt voor het werken met Excel-bestanden.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Ja! Aspose.Cells ondersteunt verschillende formaten, waaronder XLS, XLSX, CSV en
 Absoluut! Je kunt complexe objecten toevoegen aan eigenschappen van contenttypen, zolang ze maar op de juiste manier geserialiseerd kunnen worden.
 
 ### Waar kan ik meer documentatie vinden?
-Voor meer gedetailleerde richtlijnen, zie de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).
+ Voor meer gedetailleerde richtlijnen, zie de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).

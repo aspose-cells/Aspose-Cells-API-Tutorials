@@ -30,7 +30,7 @@ Pour prendre des décisions éclairées, vous devez comprendre les méthodes d'e
 
 Découvrez comment choisir la méthode d’exportation de données la plus adaptée en fonction de vos besoins spécifiques.
 
-## Méthode 1 : Exporter des données vers CSV
+## Méthode 1 : Exporter des données vers un fichier CSV
 
 ### Exemple de code source
 

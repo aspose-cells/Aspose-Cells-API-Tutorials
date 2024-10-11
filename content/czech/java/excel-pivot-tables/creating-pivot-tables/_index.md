@@ -35,7 +35,7 @@ Zadejte rozsah dat, který chcete zahrnout do kontingenční tabulky.
 
 ```java
 // Zadejte rozsah dat pro kontingenční tabulku
-String sourceData = "Sheet1!A1:D100"; // Změňte toto na rozsah dat
+String sourceData = "Sheet1!A1:D100"; // Změňte to na rozsah dat
 ```
 
 ## Krok 4: Vytvořte kontingenční tabulku

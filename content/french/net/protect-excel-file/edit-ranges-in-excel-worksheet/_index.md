@@ -80,7 +80,7 @@ Avant de pouvoir configurer les plages modifiables, nous devons récupérer la c
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 ```
 
-Cette ligne récupère la collection dans laquelle vous gérerez vos plages protégées. C'est bon à savoir ce qui est disponible sous le capot !
+Cette ligne récupère la collection dans laquelle vous gérerez vos plages protégées. C'est bon de savoir ce qui est disponible sous le capot !
 
 ## Étape 5 : Définir et créer une plage protégée
 

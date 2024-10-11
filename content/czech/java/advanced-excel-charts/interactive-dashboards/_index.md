@@ -65,7 +65,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Nastavte rozsah dat grafu
 chart.getNSeries().add("A2:A13", true);
 
-// Upravte graf podle potřeby
+// Přizpůsobte graf podle potřeby
 // (např. nastavit název grafu, popisky os atd.)
 ```
 

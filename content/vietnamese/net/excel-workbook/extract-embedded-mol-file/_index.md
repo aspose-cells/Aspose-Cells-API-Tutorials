@@ -72,7 +72,7 @@ Chúng ta hãy chia nhỏ quá trình trích xuất thành các bước dễ th�
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Trong bước này, chúng ta tạo một phiên bản mới của`Workbook`lớp, đóng vai trò như cầu nối đến nội dung tệp Excel của bạn. Tệp được tải ở đây để sau này chúng ta có thể lặp lại qua các trang tính và tìm các đối tượng MOL được nhúng.
+ Trong bước này, chúng ta tạo một phiên bản mới của`Workbook` lớp, đóng vai trò như cầu nối đến nội dung tệp Excel của bạn. Tệp được tải ở đây để sau này chúng ta có thể lặp lại qua các trang tính và tìm các đối tượng MOL được nhúng.
 
 ## Bước 3: Lặp lại qua các trang tính
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Với đoạn trích này, chúng tôi đang sử dụng một`foreach` vòng lặp để duyệt qua mọi trang tính trong sổ làm việc của chúng tôi. Bằng cách truy cập`OleObjects` bộ sưu tập, chúng ta có thể truy cập vào tất cả các đối tượng nhúng trên trang tính cụ thể đó. 
+ Với đoạn trích này, chúng tôi đang sử dụng một`foreach` vòng lặp để duyệt qua mọi trang tính trong sổ làm việc của chúng tôi. Bằng cách truy cập`OleObjects`bộ sưu tập, chúng ta có thể truy cập vào tất cả các đối tượng nhúng trên trang tính cụ thể đó. 
 
 ## Bước 4: Trích xuất các đối tượng OLE
 
@@ -132,7 +132,7 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ được thiết kế đ
 Chắc chắn rồi! Aspose.Cells cho phép bạn trích xuất nhiều định dạng tệp nhúng khác nhau như PDF, hình ảnh, v.v., không chỉ các tệp MOL.
 
 ### Tôi có cần mua Aspose.Cells để sử dụng không?  
-Mặc dù có bản dùng thử miễn phí, nhưng cần có giấy phép để có đầy đủ tính năng. Bạn có thể[mua nó ở đây](https://purchase.aspose.com/buy).
+ Mặc dù có bản dùng thử miễn phí, nhưng cần có giấy phép để có đầy đủ tính năng. Bạn có thể[mua nó ở đây](https://purchase.aspose.com/buy).
 
 ### Có cần thiết phải sử dụng Visual Studio cho quá trình này không?  
 Trong khi chúng tôi trình bày bằng Visual Studio, bạn có thể sử dụng bất kỳ IDE nào tương thích với C# để chạy dự án của mình.

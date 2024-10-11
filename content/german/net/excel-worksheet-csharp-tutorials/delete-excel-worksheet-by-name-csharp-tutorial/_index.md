@@ -15,7 +15,7 @@ Wenn Sie programmgesteuert mit Excel-Dateien arbeiten, sei es für Berichte, Dat
 
 Bevor wir beginnen, müssen Sie sicherstellen, dass Sie ein paar Dinge bereit haben:
 
-1.  Aspose.Cells für .NET-Bibliothek: Dies ist die Kernkomponente, die die Bearbeitung von Excel-Dateien ermöglicht. Wenn Sie sie noch nicht installiert haben, können Sie[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells für .NET-Bibliothek: Dies ist die Kernkomponente, die die Bearbeitung von Excel-Dateien ermöglicht. Wenn Sie sie noch nicht installiert haben, können Sie[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 2. Entwicklungsumgebung: Sie sollten eine Entwicklungsumgebung eingerichtet haben, vorzugsweise Visual Studio, in der Sie C#-Code schreiben und ausführen können.
 3. Grundlegende Kenntnisse in C#: Ich werde zwar jeden Schritt erklären, aber wenn Sie über grundlegende Kenntnisse in C# verfügen, können Sie den Anweisungen besser folgen.
 4. Excel-Datei: Sie sollten eine Excel-Datei erstellt haben (in diesem Tutorial verweisen wir auf „book1.xls“). Sie können zu diesem Zweck eine einfache Datei mit einigen Arbeitsblättern erstellen.
@@ -58,7 +58,7 @@ Hier öffnen wir „book1.xls“. Es ist wichtig, dass diese Datei in dem von Ih
  Als nächstes müssen Sie eine`Workbook` Objekt. Dieses Objekt stellt Ihre Excel-Datei dar und ermöglicht Ihnen, deren Inhalt zu bearbeiten.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook workbook = new Workbook(fstream);
 ```
@@ -96,7 +96,7 @@ Probieren Sie die anderen Funktionen der Aspose.Cells-Bibliothek aus und scheuen
 ## Häufig gestellte Fragen
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells bietet eine kostenlose Testversion an, aber Sie müssen eine Lizenz erwerben, um sie weiterhin nutzen zu können. Sie können Ihre kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+Aspose.Cells bietet eine kostenlose Testversion an, aber Sie müssen eine Lizenz erwerben, um sie weiterhin nutzen zu können. Sie können Ihre kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### Kann ich mehrere Arbeitsblätter gleichzeitig entfernen?
 Sie können die Arbeitsblattsammlung durchlaufen und mithilfe einer Schleife mehrere Blätter entfernen. Stellen Sie einfach sicher, dass Sie die Indizes richtig verwalten.

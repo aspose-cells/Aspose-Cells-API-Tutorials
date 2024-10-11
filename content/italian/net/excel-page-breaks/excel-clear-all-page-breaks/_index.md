@@ -87,7 +87,7 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 
 ## Conclusione
 
-Eliminare le interruzioni di pagina in Excel non deve essere un compito arduo. Con Aspose.Cells per .NET, hai un potente alleato che semplifica il processo in pochi semplici passaggi. Che tu stia preparando presentazioni importanti o semplicemente riordinando i tuoi fogli di calcolo, questa comoda libreria ti consente di concentrarti su ciò che conta davvero. Quindi, rimboccati le maniche e trasforma la tua esperienza Excel!
+Eliminare le interruzioni di pagina in Excel non deve essere un compito arduo. Con Aspose.Cells per .NET, hai un potente alleato che semplifica il processo in pochi semplici passaggi. Che tu stia preparando presentazioni importanti o semplicemente sistemando i tuoi fogli di calcolo, questa comoda libreria ti consente di concentrarti su ciò che conta davvero. Quindi, rimboccati le maniche e trasforma la tua esperienza Excel!
 
 ## Domande frequenti
 

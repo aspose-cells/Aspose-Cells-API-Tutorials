@@ -72,9 +72,9 @@ Rozdělme proces extrakce do snadno pochopitelných kroků.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- V tomto kroku vytvoříme novou instanci`Workbook`třídy, která funguje jako most k obsahu vašeho souboru Excel. Soubor se načte zde, takže můžeme později iterovat listy a najít vložené objekty MOL.
+ V tomto kroku vytvoříme novou instanci`Workbook` třídy, která funguje jako most k obsahu vašeho souboru Excel. Soubor se načte zde, takže můžeme později iterovat listy a najít vložené objekty MOL.
 
-## Krok 3: Iterujte pracovními listy
+## Krok 3: Projděte si pracovní listy
 
 Nyní, když je náš sešit načten, je čas jít hlouběji. Chcete-li najít jakékoli vložené objekty, musíte projít každý list v sešitu:
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- S tímto úryvkem používáme a`foreach` smyčka, abyste mohli projít každý list v našem sešitu. Přístupem k`OleObjects` kolekce, můžeme získat přístup ke všem vloženým objektům na tomto konkrétním listu. 
+ S tímto úryvkem používáme a`foreach` smyčka, abyste mohli projít každý list v našem sešitu. Přístupem k`OleObjects`kolekce, můžeme získat přístup ke všem vloženým objektům na tomto konkrétním listu. 
 
 ## Krok 4: Extrahujte objekty OLE
 
@@ -121,7 +121,7 @@ Tento jednoduchý řádek odešle zprávu do konzole, jakmile bude celá vaše o
 
 ## Závěr
 
-A tady to máte! Úspěšně jste extrahovali vložené soubory MOL ze souboru aplikace Excel pomocí Aspose.Cells for .NET. Nyní můžete využít své nově nabyté dovednosti a uplatnit je v jiných scénářích, kde potřebujete extrahovat soubory objektů z listů aplikace Excel. Tato metoda je nejen efektivní, ale také otevírá dveře k bezproblémové manipulaci s různými operacemi souvisejícími s Excelem.
+tady to máte! Úspěšně jste extrahovali vložené soubory MOL ze souboru aplikace Excel pomocí Aspose.Cells for .NET. Nyní můžete využít své nově nabyté dovednosti a uplatnit je v jiných scénářích, kde potřebujete extrahovat soubory objektů z listů aplikace Excel. Tato metoda je nejen efektivní, ale také otevírá dveře k bezproblémové manipulaci s různými operacemi souvisejícími s Excelem.
 
 ## FAQ
 
@@ -132,7 +132,7 @@ Aspose.Cells for .NET je výkonná knihovna navržená pro manipulaci a správu 
 Absolutně! Aspose.Cells umožňuje extrahovat různé vložené formáty souborů, jako jsou PDF, obrázky a další, nejen soubory MOL.
 
 ### Musím si koupit Aspose.Cells, abych je mohl používat?  
- když je k dispozici bezplatná zkušební verze, pro plné funkce je nutná licence. Můžete[koupit zde](https://purchase.aspose.com/buy).
+ I když je k dispozici bezplatná zkušební verze, pro plné funkce je nutná licence. Můžete[koupit zde](https://purchase.aspose.com/buy).
 
 ### Je pro tento proces nutné mít Visual Studio?  
 Zatímco jsme demonstrovali používání sady Visual Studio, můžete ke spuštění svého projektu použít libovolné IDE kompatibilní s C#.

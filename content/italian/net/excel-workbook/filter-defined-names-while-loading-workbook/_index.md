@@ -2,7 +2,7 @@
 title: Filtra i nomi definiti durante il caricamento della cartella di lavoro
 linktitle: Filtra i nomi definiti durante il caricamento della cartella di lavoro
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come filtrare i nomi definiti durante il caricamento di una cartella di lavoro con Aspose.Cells per .NET in questa guida completa.
+description: In questa guida completa scoprirai come filtrare i nomi definiti durante il caricamento di una cartella di lavoro con Aspose.Cells per .NET.
 type: docs
 weight: 100
 url: /it/net/excel-workbook/filter-defined-names-while-loading-workbook/
@@ -37,7 +37,7 @@ Analizziamo nel dettaglio il processo di filtraggio dei nomi definiti durante il
 
 ## Passaggio 1: specificare le opzioni di carico
 
-La prima cosa che faremo è creare un'istanza di`LoadOptions` classe. Questa classe ci aiuterà a specificare come vogliamo caricare il nostro file Excel.
+ La prima cosa che faremo è creare un'istanza di`LoadOptions` classe. Questa classe ci aiuterà a specificare come vogliamo caricare il nostro file Excel.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -53,7 +53,7 @@ Poi, dobbiamo definire quali dati vogliamo filtrare durante il caricamento della
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-La tilde (~) indica che vogliamo escludere i nomi definiti dal processo di caricamento. Questo è fondamentale se vuoi mantenere il tuo carico di lavoro leggero ed evitare dati non necessari che possono complicare la tua elaborazione.
+La tilde (~) indica che vogliamo escludere nomi definiti dal processo di caricamento. Questo è fondamentale se vuoi mantenere il tuo carico di lavoro leggero ed evitare dati non necessari che possono complicare la tua elaborazione.
 
 ## Passaggio 3: caricare la cartella di lavoro
 
@@ -63,7 +63,7 @@ Ora che le nostre opzioni di caricamento sono specificate, è il momento di cari
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- In questa riga, stai creando una nuova istanza di`Workbook`classe, passando il percorso al tuo file Excel di esempio e le opzioni di caricamento. Questo carica la tua cartella di lavoro con i nomi definiti filtrati come specificato.
+ In questa riga, stai creando una nuova istanza di`Workbook` classe, passando il percorso al tuo file Excel di esempio e le opzioni di caricamento. Questo carica la tua cartella di lavoro con i nomi definiti filtrati come specificato.
 
 ## Passaggio 4: salvare il file di output
 
@@ -89,7 +89,7 @@ Con questa riga si fornisce una chiara indicazione che l'operazione è stata com
 
 Ed ecco fatto! Il filtraggio dei nomi definiti durante il caricamento di una cartella di lavoro con Aspose.Cells per .NET può essere ottenuto con pochi semplici passaggi. Questo processo è estremamente utile negli scenari in cui è necessario semplificare l'elaborazione dei dati o impedire che dati non necessari influiscano sui calcoli.
 
-Seguendo questa guida, puoi caricare con sicurezza i tuoi file Excel controllando quali dati vuoi escludere. Sia che tu stia sviluppando applicazioni che gestiscono grandi set di dati o implementando una logica aziendale specifica, padroneggiare questa funzionalità non farà che migliorare le tue capacità di manipolazione di Excel.
+Seguendo questa guida, puoi caricare con sicurezza i tuoi file Excel controllando quali dati vuoi escludere. Che tu stia sviluppando applicazioni che gestiscono grandi set di dati o implementando una logica aziendale specifica, padroneggiare questa funzionalità non farà che migliorare le tue capacità di manipolazione di Excel.
 
 ## Domande frequenti
 
@@ -106,4 +106,4 @@ Filtrare i nomi definiti può portare a formule non funzionanti se fanno riferim
  Sì, puoi ottenere una prova gratuita di Aspose.Cells per testarne le capacità prima di acquistarlo. Dai un'occhiata[Qui](https://releases.aspose.com/).
 
 ### Dove posso trovare altri esempi e documentazione?
- Puoi trovare una documentazione completa e altri esempi nella pagina di riferimento di Aspose.Cells[Qui](https://reference.aspose.com/cells/net/).
+Puoi trovare una documentazione completa e altri esempi nella pagina di riferimento di Aspose.Cells[Qui](https://reference.aspose.com/cells/net/).

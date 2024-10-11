@@ -71,7 +71,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
     @Override
     public void cellChanged(Cell cell) {
         if (cell.getName().equals("B2")) {
-            //清除之前的城市下拉列表
+            //清除之前的城市下拉選單
             citySheet.getCells().get("B2").setValue("");
             
             //確定所選國家
@@ -111,7 +111,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ### Aspose.Cells for Java 適合小型和大型專案嗎？
 
-是的，Aspose.Cells for Java 用途廣泛，可用於各種規模的專案。無論您正在開發小型實用程式還是複雜的企業應用程序，Aspose.Cells for Java 都可以簡化您的 Excel 相關任務。
+是的，Aspose.Cells for Java 用途廣泛，可用於各種規模的專案。無論您正在開發小型實用程式還是複雜的企業應用程序，Aspose.Cells for Java 都可以簡化您與 Excel 相關的任務。
 
 ### 我是否需要高階程式設計技能才能使用 Aspose.Cells for Java 實作級聯下拉選單？
 

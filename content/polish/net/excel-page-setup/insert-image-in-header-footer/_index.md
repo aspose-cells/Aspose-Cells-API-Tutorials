@@ -15,7 +15,7 @@ Podczas pracy z plikami Excela nagłówki i stopki odgrywają kluczową rolę w 
 
 Zanim zagłębisz się w kod, musisz przygotować kilka rzeczy:
 
-1. Aspose.Cells dla biblioteki .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w środowisku .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells dla biblioteki .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w środowisku .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 2. Visual Studio lub inne środowisko IDE: Będziesz potrzebować zintegrowanego środowiska programistycznego, aby pisać i wykonywać kod C#.
 3.  Przykładowy obraz: Przygotuj obraz, który chcesz wstawić do nagłówka lub stopki. W naszym przykładzie użyjemy logo firmy o nazwie`aspose-logo.jpg`.
 4. Podstawowa znajomość języka C#: Choć nie jest to obowiązkowe, zrozumienie języka C# ułatwi Ci korzystanie z tego samouczka.
@@ -95,7 +95,7 @@ Mając już dane binarne obrazu, możemy wstawić je do nagłówka.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Ten wiersz umieszcza obraz w środkowej części nagłówka. Parametr`1` określa sekcję nagłówka.
+ Ten wiersz umieszcza obraz w środkowej części nagłówka. Parametr`1`określa sekcję nagłówka.
 
 ## Krok 7: Ustawianie zawartości nagłówka
 

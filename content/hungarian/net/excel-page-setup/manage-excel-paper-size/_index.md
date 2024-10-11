@@ -17,7 +17,7 @@ Mielőtt belemerülne az Excel papírméretek kezelésének technikai részletei
 
 1. A C# alapvető ismerete: A C# programozás ismerete jelentősen megkönnyíti az Aspose.Cells projektekbe való integrálásának folyamatát.
 2. Visual Studio telepítve: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén a C# kód írásához és végrehajtásához.
-3.  Aspose.Cells for .NET Library: be kell szereznie az Aspose.Cells fájlt. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells for .NET Library: be kell szereznie az Aspose.Cells fájlt. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
 4. NuGet Package Manager: Győződjön meg arról, hogy rendelkezik hozzáféréssel a NuGet Package Managerhez, mivel könnyen telepítheti az Aspose.Cells szoftvert.
 
 Ezeket az előfeltételeket szem előtt tartva kezdjük!

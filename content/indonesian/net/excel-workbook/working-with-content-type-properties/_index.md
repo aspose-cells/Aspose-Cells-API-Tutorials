@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Langkah 2: Buat Buku Kerja Baru
 
- Sekarang setelah kita memiliki direktori output, mari buat buku kerja baru.`Workbook`kelas adalah titik awal untuk menangani file Excel.
+ Sekarang setelah kita memiliki direktori output, mari buat buku kerja baru.`Workbook` kelas adalah titik awal untuk menangani file Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Ya! Aspose.Cells mendukung berbagai format, termasuk XLS, XLSX, CSV, dan lainnya
 Tentu saja! Anda dapat menambahkan objek kompleks ke properti tipe konten asalkan objek tersebut dapat diserialisasikan dengan benar.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
-Untuk panduan lebih rinci, lihat[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Untuk panduan lebih rinci, lihat[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).

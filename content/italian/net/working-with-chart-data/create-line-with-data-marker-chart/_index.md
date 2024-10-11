@@ -18,7 +18,7 @@ Prima di iniziare, assicurati di avere tutto a posto per procedere senza intoppi
 1.  Aspose.Cells per la libreria .NET – Dovrai installarla. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
 2. .NET Framework: assicurati che il tuo ambiente di sviluppo sia configurato con la versione più recente di .NET.
 3. IDE (Integrated Development Environment): si consiglia Visual Studio.
-4. Una licenza Aspose.Cells valida: se non ne hai una, puoi richiederne una[licenza temporanea](https://purchase.aspose.com/temporary-license/) o dai un'occhiata al loro[prova gratuita](https://releases.aspose.com/).
+4.  Una licenza Aspose.Cells valida: se non ne hai una, puoi richiederne una[licenza temporanea](https://purchase.aspose.com/temporary-license/) dai un'occhiata al loro[prova gratuita](https://releases.aspose.com/).
 
 Pronti a partire? Analizziamolo nel dettaglio!
 

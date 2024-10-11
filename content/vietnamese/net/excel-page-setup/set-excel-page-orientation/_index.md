@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Bây giờ, bạn sẽ tạo một thể hiện của lớp Workbook, biểu diễn một tệp Excel.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Tiếp theo, bạn sẽ cần truy cập vào trang tính mà bạn muốn đặt hướng. Vì mỗi sổ làm việc có thể có nhiều trang tính, bạn nên nêu rõ trang tính bạn đang làm việc.
 
 ```csharp
-// Truy cập vào trang tính đầu tiên trong tệp Excel
+//Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

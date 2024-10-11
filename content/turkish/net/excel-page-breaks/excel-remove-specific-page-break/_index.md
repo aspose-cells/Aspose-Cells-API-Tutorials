@@ -16,7 +16,7 @@ Excel dosyalarıyla çalışmaya gelince, sayfa sonlarını yönetmek biraz zor 
 Kodun ince ayrıntılarına dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ön koşulların hızlı bir kontrol listesi:
 
 1. Visual Studio: .NET uygulamalarınızı oluşturmak ve çalıştırmak için çalışan bir Visual Studio kurulumuna ihtiyacınız olacak.
-2. .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu henüz yapmadıysanız, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu henüz yapmadıysanız, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 4. Bir Excel dosyası: Deneyebileceğimiz bazı sayfa sonlarını içeren bir Excel dosyası bulundurun.
 
@@ -53,14 +53,14 @@ Artık kurulumumuz hazır olduğuna göre, Excel dosyasındaki belirli bir sayfa
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Açıklama: Değiştir`YOUR DOCUMENT DIRECTORY` Dosyalarınızın gerçek yolu ile. Excel dosyanızı buradan yükleyecek ve daha sonra değiştirilmiş Excel dosyanızı kaydedeceksiniz.
+ Açıklama: Değiştir`YOUR DOCUMENT DIRECTORY`Dosyalarınızın gerçek yolu ile. Excel dosyanızı buradan yükleyecek ve daha sonra değiştirilmiş Excel dosyanızı kaydedeceksiniz.
 
 ## Adım 2: Çalışma Kitabı Nesnesini Örneklendirin
 
 Sırada, çalışma kitabımızı yüklememiz gerekiyor. Daha basit bir ifadeyle, çalışma kitabını Excel dosyanız olarak düşünün.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Açıklama: Burada çalışma kitabını yeni bir adla kaydediyoruz (`RemoveSpec
 ## SSS
 
 ### Birden fazla sayfa sonunu aynı anda kaldırabilir miyim?  
-Evet, yapabilirsiniz! Sadece döngüden geçin`HorizontalPageBreaks` Ve`VerticalPageBreaks` koleksiyonlar ve kullanım`RemoveAt` Yöntem.
+ Evet, yapabilirsiniz! Sadece döngüden geçin`HorizontalPageBreaks` Ve`VerticalPageBreaks` koleksiyonlar ve kullanım`RemoveAt` Yöntem.
 
 ### Sayfa sonları için hangi dizini kullanacağımı nasıl bileceğim?  
 Sayfa sonları arasında, dizinlerini yazdırmak veya hata ayıklayıcı aracılığıyla incelemek için bir döngü kullanarak yineleme yapabilirsiniz.

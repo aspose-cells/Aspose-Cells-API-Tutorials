@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Ahora es el momento de crear un nuevo libro de trabajo. Básicamente, aquí es donde se guardarán todos los datos y configuraciones.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Los archivos de Excel pueden contener varias hojas de cálculo. Accederemos a la primera hoja de cálculo para aplicar nuestro factor de escala.
 
 ```csharp
-// Acceder a la primera hoja de cálculo del archivo Excel
+//Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

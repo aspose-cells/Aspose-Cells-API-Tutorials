@@ -15,7 +15,7 @@ Ti è mai capitato di dover aggiungere un nuovo foglio a un file Excel in modo p
 
 Prima di iniziare a scrivere codice, assicuriamoci di avere tutto il necessario per questo progetto:
 
-1. Visual Studio: assicurati di avere Visual Studio installato. Se non lo hai ancora, puoi scaricarlo da[Sito web Microsoft](https://visualstudio.microsoft.com/).
+1.  Visual Studio: assicurati di avere Visual Studio installato. Se non lo hai ancora, puoi scaricarlo da[Sito web Microsoft](https://visualstudio.microsoft.com/).
 2.  Libreria Aspose.Cells: avrai bisogno della libreria Aspose.Cells per .NET. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
 3. .NET Framework: assicurati che il tuo progetto sia configurato per una versione compatibile di .NET Framework (in genere funziona bene .NET Framework 4.0 o versione successiva).
 4. Conoscenza di base del linguaggio C#: la familiarità con il linguaggio C# e la programmazione orientata agli oggetti ti aiuterà a comprendere meglio il codice.
@@ -62,7 +62,7 @@ Nel codice sopra, dichiariamo il percorso in cui risiederà il nostro file Excel
 Successivamente, creeremo un'istanza della classe Workbook. Questa classe è la spina dorsale di tutte le operazioni correlate a Excel che eseguirai.
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Ora che il nostro quaderno di lavoro è pronto, aggiungiamo il nuovo foglio!
 int i = workbook.Worksheets.Add();
 ```
 
- Qui stiamo usando il`Add()` metodo del`Worksheets` collezione presente all'interno del`Workbook` classe. Il metodo restituisce un indice (`i`) del foglio appena aggiunto. È come aggiungere una pagina al tuo quaderno: semplice ed efficiente!
+ Qui stiamo usando il`Add()` metodo del`Worksheets` collezione presente all'interno del`Workbook` classe. Il metodo restituisce un indice (`i`del foglio appena aggiunto. È come aggiungere una pagina al tuo quaderno: semplice ed efficiente!
 
 ## Passaggio 4: Assegna un nome al nuovo foglio di lavoro
 
@@ -119,7 +119,7 @@ Aspose.Cells per .NET è una potente libreria per creare, manipolare e convertir
  Sì, basta chiamare il`Add()` metodo più volte e fare riferimento a ciascun foglio tramite il suo indice!
 
 ### Esiste una versione di prova gratuita di Aspose.Cells?  
-Certamente! Puoi scaricare una prova gratuita[Qui](https://releases.aspose.com/).
+ Certamente! Puoi scaricare una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Posso formattare il nuovo foglio dopo averlo aggiunto?  
 Assolutamente! Puoi applicare stili, formati e persino formule ai tuoi fogli di lavoro utilizzando le funzionalità della libreria.

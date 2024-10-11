@@ -38,7 +38,7 @@ La personnalisation de la forme de vos étiquettes de données peut rendre vos g
 
 ## Définition des données de catégorie et des données de graphique
 
- Organiser et afficher efficacement les données de catégorie de votre graphique peut s'avérer délicat. Aspose.Cells pour .NET propose des solutions transparentes pour définir les données de catégorie et les données de graphique, garantissant que vos visuels sont à la fois précis et attrayants. Cela est particulièrement utile lors de la gestion de grands ensembles de données ou de la création de graphiques dynamiques qui se mettent à jour en fonction des entrées de l'utilisateur. Consultez ces tutoriels pour maîtriser la configuration[données de catégorie](./setting-category-data/) et[données graphiques](./setting-chart-data/) dans vos fichiers Excel.
+ Organiser et afficher efficacement les données de catégorie de votre graphique peut s'avérer délicat. Aspose.Cells pour .NET propose des solutions transparentes pour définir les données de catégorie et les données de graphique, garantissant que vos visuels sont à la fois précis et attrayants. Cela est particulièrement utile lors de la gestion de grands ensembles de données ou de la création de graphiques dynamiques qui se mettent à jour en fonction des entrées utilisateur. Consultez ces tutoriels pour maîtriser la configuration[données de catégorie](./setting-category-data/) et[données graphiques](./setting-chart-data/) dans vos fichiers Excel.
 
 ## Définir le code de format des valeurs de la série de graphiques
 

@@ -16,7 +16,7 @@ url: /ko/net/excel-workbook/get-odata-details/
 코드를 자세히 살펴보기 전에 이 튜토리얼을 따라하는 데 필요한 모든 것이 있는지 확인해 보겠습니다. 필요한 것은 다음과 같습니다.
 
 1. Visual Studio: Visual Studio가 설치되어 있는지 확인하세요. .NET 개발에 이상적인 환경입니다.
-2. Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리를 다운로드하여 설치하세요.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) . 또한 무료 체험판을 사용해 볼 수도 있습니다.[여기](https://releases.aspose.com/).
+2.  Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리를 다운로드하여 설치하세요.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) . 또한 무료 체험판을 사용해 볼 수도 있습니다.[여기](https://releases.aspose.com/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 코드의 미묘한 차이를 더 잘 이해하는 데 도움이 됩니다.
 4. 샘플 Excel 파일: 이 튜토리얼에서는 "ODataSample.xlsx"라는 Excel 파일을 사용하게 되는데, 이 파일은 작업 디렉토리에 저장해야 합니다.
 
@@ -99,7 +99,7 @@ foreach (PowerQueryFormula PQF in PQFcoll)
 
 ## 4단계: 실행 및 확인
 
- 마지막으로 코드가 올바르게 실행되고 예상 출력을 반환하는지 확인해야 합니다. 다음 줄을 끝에 추가하세요.`Main` 방법:
+마지막으로 코드가 올바르게 실행되고 예상 출력을 반환하는지 확인해야 합니다. 다음 줄을 끝에 추가하세요.`Main` 방법:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -126,4 +126,4 @@ Power Query 수식을 사용하면 사용자는 Excel 내의 다양한 소스에
  방문할 수 있습니다[애스포지 포럼](https://forum.aspose.com/c/cells/9) 지원과 지역 사회의 도움을 요청하세요.
 
 ### Aspose.Cells는 어디서 구매할 수 있나요?
-Aspose.Cells는 다음에서 구매할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+ Aspose.Cells는 다음에서 구매할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).

@@ -53,14 +53,14 @@ Nu de map is ingesteld, is het tijd om een bestandsstroom te maken waarmee u met
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- In deze stap openen we`book1.xls`die al in de door u opgegeven directory zou moeten staan. Zorg dat u dit bestand bij de hand hebt, anders geeft het proces een foutmelding.
+ In deze stap openen we`book1.xls`, die al in de door u opgegeven directory zou moeten staan. Zorg dat u dit bestand bij de hand hebt, anders geeft het proces een foutmelding.
 
 ## Stap 3: Een werkmapobject instantiëren
 
 Vervolgens moeten we een exemplaar van de klasse Workbook maken, waarin ons Excel-bestand wordt opgeslagen.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Door een werkmapinstantie te maken vanuit onze bestandsstroom, kunnen we nu de i
 
 ## Stap 4: Een nieuw werkblad toevoegen
 
- Hier komt het spannende gedeelte! Laten we een nieuw werkblad toevoegen aan onze werkmap. Dit doen we door de`Add()` methode van de`Worksheets` verzameling.
+Hier komt het spannende gedeelte! Laten we een nieuw werkblad toevoegen aan onze werkmap. Dit doen we door de`Add()` methode van de`Worksheets`verzameling.
 
 ```csharp
 // Een nieuw werkblad toevoegen aan het werkmapobject
@@ -87,7 +87,7 @@ Zodra we het nieuwe werkblad hebben gemaakt, is het belangrijk om er een referen
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Hier gebruiken we de index`i` om te verwijzen naar ons nieuw gecreëerde werkblad. Dit stelt ons in staat om het verder te manipuleren.
+ Hier gebruiken we de index`i` om te verwijzen naar ons nieuw gecreëerde werkblad. Dit stelt ons in staat om het verder te manipuleren.
 
 ## Stap 6: Stel de naam van het nieuwe werkblad in
 

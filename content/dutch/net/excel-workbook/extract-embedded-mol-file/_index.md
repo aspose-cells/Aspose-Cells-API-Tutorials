@@ -72,7 +72,7 @@ Laten we het extractieproces opsplitsen in eenvoudig te volgen stappen.
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- In deze stap maken we een nieuw exemplaar van de`Workbook`class, die fungeert als een brug naar de inhoud van uw Excel-bestand. Het bestand wordt hier geladen, zodat we later door de sheets kunnen itereren en de ingebedde MOL-objecten kunnen vinden.
+ In deze stap maken we een nieuw exemplaar van de`Workbook` class, die fungeert als een brug naar de inhoud van uw Excel-bestand. Het bestand wordt hier geladen, zodat we later door de sheets kunnen itereren en de ingebedde MOL-objecten kunnen vinden.
 
 ## Stap 3: Herhaal de werkbladen
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Met dit fragment gebruiken we een`foreach` lus om elk blad in onze werkmap te doorlopen. Door toegang te krijgen tot de`OleObjects` verzameling, krijgen we toegang tot alle ingesloten objecten op dat specifieke blad. 
+ Met dit fragment gebruiken we een`foreach` lus om elk blad in onze werkmap te doorlopen. Door toegang te krijgen tot de`OleObjects`verzameling, krijgen we toegang tot alle ingesloten objecten op dat specifieke blad. 
 
 ## Stap 4: OLE-objecten extraheren
 
@@ -132,7 +132,7 @@ Aspose.Cells voor .NET is een krachtige bibliotheek die is ontworpen voor het be
 Absoluut! Met Aspose.Cells kunt u verschillende ingesloten bestandsformaten extraheren, zoals PDF's, afbeeldingen en meer, niet alleen MOL-bestanden.
 
 ### Moet ik Aspose.Cells kopen om het te kunnen gebruiken?  
-Hoewel er een gratis proefversie beschikbaar is, is een licentie vereist voor volledige functies. U kunt[koop het hier](https://purchase.aspose.com/buy).
+ Hoewel er een gratis proefversie beschikbaar is, is een licentie vereist voor volledige functies. U kunt[koop het hier](https://purchase.aspose.com/buy).
 
 ### Is het nodig om Visual Studio te hebben voor dit proces?  
 Hoewel we dit hebben gedemonstreerd met Visual Studio, kunt u elke C#-compatibele IDE gebruiken om uw project uit te voeren.

@@ -16,7 +16,7 @@ Dans le monde en constante évolution de la gestion des données, la capacité �
 Avant de nous plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin pour suivre ce tutoriel. Voici ce dont vous aurez besoin :
 
 1. Visual Studio : assurez-vous que Visual Studio est installé. Il s'agit de l'environnement idéal pour le développement .NET.
-2. Bibliothèque Aspose.Cells : téléchargez et installez la bibliothèque Aspose.Cells pour .NET à partir du[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/) . Vous pouvez également essayer une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
+2.  Bibliothèque Aspose.Cells : téléchargez et installez la bibliothèque Aspose.Cells pour .NET à partir du[Page de téléchargement d'Aspose](https://releases.aspose.com/cells/net/) . Vous pouvez également essayer une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 3. Connaissances de base de C# : la familiarité avec la programmation C# vous aidera à mieux comprendre les nuances du code.
 4. Un exemple de fichier Excel : pour ce didacticiel, nous utiliserons un fichier Excel nommé « ODataSample.xlsx », qui doit être stocké dans votre répertoire de travail.
 
@@ -99,7 +99,7 @@ Dans ce bloc, nous :
 
 ## Étape 4 : Exécuter et vérifier
 
- Enfin, vous devez vous assurer que le code s'exécute correctement et renvoie le résultat attendu. Ajoutez la ligne suivante à la fin de votre`Main` méthode:
+Enfin, vous devez vous assurer que le code s'exécute correctement et renvoie le résultat attendu. Ajoutez la ligne suivante à la fin de votre`Main` méthode:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -126,4 +126,4 @@ Les formules Power Query permettent aux utilisateurs de connecter, de combiner e
  Vous pouvez visiter le[Forum Aspose](https://forum.aspose.com/c/cells/9) pour le soutien et l'aide communautaire.
 
 ### Où puis-je acheter Aspose.Cells ?
-Vous pouvez acheter Aspose.Cells auprès de leur[page d'achat](https://purchase.aspose.com/buy).
+ Vous pouvez acheter Aspose.Cells auprès de leur[page d'achat](https://purchase.aspose.com/buy).

@@ -46,7 +46,7 @@ Antes de poder manipular cualquier archivo de Excel, debe especificar la ubicaci
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- En este paso, asignará la ubicación de su archivo de Excel a la`dataDir`cadena. Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra`.xls` donde se encuentra el archivo.
+ En este paso, asignará la ubicación de su archivo de Excel a la`dataDir` cadena. Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra`.xls` donde se encuentra el archivo.
 
 ## Paso 2: Crear un flujo de archivos
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Los archivos de Excel suelen contener varias hojas de cálculo. En este tutorial, accederemos a la primera hoja de cálculo del libro.
 
 ```csharp
-// Acceder a la primera hoja de cálculo del archivo Excel
+//Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Ahora viene la parte divertida: ¡ocultar las líneas de cuadrícula! Con solo una línea de código, puedes alternar la visibilidad de las líneas de cuadrícula.
 
 ```csharp
-// Ocultar las líneas de cuadrícula de la primera hoja de cálculo del archivo Excel
+//Ocultar las líneas de cuadrícula de la primera hoja de cálculo del archivo Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Cerrar el flujo de archivos es fundamental porque garantiza que todos los recurs
 
 ## Conclusión
 
- ¡Y eso es todo! Acabas de aprender a mostrar y ocultar líneas de cuadrícula en una hoja de cálculo de Excel con Aspose.Cells para .NET. Ya sea que estés puliendo un informe o presentando datos en un formato más legible, esta sencilla técnica puede afectar significativamente la apariencia de tus hojas de cálculo. ¿La mejor parte? Solo se necesitan unas pocas líneas de código para hacer grandes cambios. Si estás listo para probar esto, no olvides obtener una[prueba gratis](https://releases.aspose.com/) ¡Y empieza a codificar!
+¡Y eso es todo! Acabas de aprender a mostrar y ocultar líneas de cuadrícula en una hoja de cálculo de Excel con Aspose.Cells para .NET. Ya sea que estés puliendo un informe o presentando datos en un formato más legible, esta sencilla técnica puede afectar significativamente la apariencia de tus hojas de cálculo. ¿La mejor parte? Solo se necesitan unas pocas líneas de código para hacer grandes cambios. Si estás listo para probar esto, no olvides obtener una[prueba gratis](https://releases.aspose.com/) ¡Y empieza a codificar!
 
 ## Preguntas frecuentes
 

@@ -2,7 +2,7 @@
 title: Excel Flytta kalkylblad
 linktitle: Excel Flytta kalkylblad
 second_title: Aspose.Cells för .NET API-referens
-description: Lär dig att flytta kalkylblad i Excel med Aspose.Cells för .NET i vår steg-för-steg-guide. Bemästra konsten att programmera i Excel.
+description: Lär dig att flytta kalkylblad i Excel med Aspose.Cells för .NET i vår steg-för-steg-guide. Bemästra konsten att programmera Excel.
 type: docs
 weight: 40
 url: /sv/net/excel-copy-worksheet/excel-move-worksheet/
@@ -16,7 +16,7 @@ Excel är ett oumbärligt verktyg för dataorganisation, och när du arbetar med
 Innan vi dyker in, låt oss få några saker på plats:
 
 1. .NET Framework: Se till att du har en kompatibel version av .NET Framework installerad på din dator. Aspose.Cells stöder olika versioner, så kontrollera deras dokumentation för detaljer.
-2.  Aspose.Cells för .NET Library: Du måste ladda ner Aspose.Cells-biblioteket. Om du inte har gjort detta ännu, besök[nedladdningslänk](https://releases.aspose.com/cells/net/) att ta tag i den.
+2.  Aspose.Cells för .NET Library: Du måste ladda ner Aspose.Cells-biblioteket. Om du inte har gjort det ännu, besök[nedladdningslänk](https://releases.aspose.com/cells/net/) att ta tag i den.
 3. Visual Studio eller valfri IDE: Ha en utvecklingsmiljö redo där du kan skriva och köra din .NET-kod.
 4. En grundläggande förståelse för C#: Bekantskap med C#-programmering kommer att vara oerhört hjälpsam, men oroa dig inte om du är ny på det – jag guidar dig genom koden!
 5.  Exempel på Excel-fil: För att testa funktionaliteten, ha en enkel Excel-fil, till exempel`book1.xls`, redo att gå. Du kan skapa en med Excel eller ladda ner några exempelfiler om det behövs.

@@ -37,7 +37,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Informuje kompilator, że chcesz użyć biblioteki Aspose.Cells i przestrzeni nazw System w celu uzyskania podstawowej funkcjonalności.
+Informuje to kompilator, że chcesz użyć biblioteki Aspose.Cells i przestrzeni nazw System w celu uzyskania podstawowej funkcjonalności.
 
 Podzielmy to na przejrzysty samouczek krok po kroku, abyś mógł łatwo śledzić. Gotowy do drogi? Zaczynamy!
 

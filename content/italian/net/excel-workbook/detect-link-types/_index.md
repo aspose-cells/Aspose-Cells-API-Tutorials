@@ -63,7 +63,7 @@ Questa riga punta alla directory contenente il file Excel. Assicurati di adattar
 Poi, caricheremo la nostra cartella di lavoro. È come aprire il tuo file Excel in background, consentendoci di leggere e manipolare il suo contenuto.
 
 ```csharp
-// Carica la cartella di lavoro
+//Carica la cartella di lavoro
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

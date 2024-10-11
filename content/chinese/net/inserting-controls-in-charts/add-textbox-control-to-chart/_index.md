@@ -18,7 +18,7 @@ url: /zh/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 - 对 C# 有基本了解：对 C# 编程有基本了解会很有帮助。不用担心；您不需要成为专家，只要熟悉语法即可。
 - 已安装 Aspose.Cells 库：确保已安装 Aspose.Cells for .NET 库。您可以从以下位置下载[这里](https://releases.aspose.com/cells/net/)如果你还没有。
 - Visual Studio：熟悉 Visual Studio 或任何您喜欢用于 .NET 框架的 IDE 至关重要。
-- 现有的 Excel 文件：在本例中，我们将使用名为“sampleAddingTextBoxControlInChart.xls”的现有 Excel 文件。您可以创建一个或下载一个示例。
+- 现有 Excel 文件：在本例中，我们将使用名为“sampleAddingTextBoxControlInChart.xls”的现有 Excel 文件。您可以创建一个或下载一个示例。
 
 现在一切就绪，让我们开始编码部分！
 

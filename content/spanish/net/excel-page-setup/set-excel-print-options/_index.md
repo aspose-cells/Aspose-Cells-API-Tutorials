@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  A continuación, necesitaremos crear un`Workbook` objeto. Este objeto actúa como un contenedor para los datos de su hoja de cálculo.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

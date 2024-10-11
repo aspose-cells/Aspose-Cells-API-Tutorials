@@ -61,7 +61,7 @@ Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-Fal
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
 ```
 
-## Βήμα 3: Πρόσβαση στο πρώτο φύλλο εργασίας
+## Βήμα 3: Πρόσβαση στο Πρώτο φύλλο εργασίας
 
 Με τα βιβλία εργασίας φορτωμένα, ήρθε η ώρα να αποκτήσετε πρόσβαση στο πρώτο φύλλο εργασίας από κάθε βιβλίο εργασίας. Η ομορφιά του Aspose.Cells είναι ότι αυτό είναι γελοία απλό:
 
@@ -74,7 +74,7 @@ Worksheet ws12 = wb2.Worksheets[0];
 
 ## Βήμα 4: Ελέγξτε τη ρύθμιση μεγέθους χαρτιού
 
- Τώρα έρχεται το διασκεδαστικό μέρος! Θα θέλετε να ελέγξετε εάν η ρύθμιση μεγέθους χαρτιού είναι αυτόματη για κάθε φύλλο εργασίας. Αυτό γίνεται με επιθεώρηση του`IsAutomaticPaperSize` ιδιοκτησία του`PageSetup` τάξη. Χρησιμοποιήστε το ακόλουθο απόσπασμα κώδικα:
+ Τώρα έρχεται το διασκεδαστικό μέρος! Θα θέλετε να ελέγξετε εάν η ρύθμιση μεγέθους χαρτιού είναι αυτόματη για κάθε φύλλο εργασίας. Αυτό γίνεται με την επιθεώρηση του`IsAutomaticPaperSize` ιδιοκτησία του`PageSetup` τάξη. Χρησιμοποιήστε το ακόλουθο απόσπασμα κώδικα:
 
 ```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);

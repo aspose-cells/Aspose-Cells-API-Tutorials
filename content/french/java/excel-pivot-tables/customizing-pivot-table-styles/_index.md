@@ -8,7 +8,7 @@ weight: 18
 url: /fr/java/excel-pivot-tables/customizing-pivot-table-styles/
 ---
 
-Les tableaux croisés dynamiques sont des outils puissants pour résumer et analyser les données d'une feuille de calcul. Avec l'API Aspose.Cells pour Java, vous pouvez non seulement créer des tableaux croisés dynamiques, mais également personnaliser leurs styles pour rendre la présentation de vos données visuellement attrayante. Dans ce guide étape par étape, nous vous montrerons comment y parvenir à l'aide d'exemples de code source.
+Les tableaux croisés dynamiques sont des outils puissants pour résumer et analyser les données d'une feuille de calcul. Avec l'API Aspose.Cells pour Java, vous pouvez non seulement créer des tableaux croisés dynamiques, mais également personnaliser leurs styles pour rendre votre présentation de données visuellement attrayante. Dans ce guide étape par étape, nous vous montrerons comment y parvenir à l'aide d'exemples de code source.
 
 ## Commencer
 
@@ -74,7 +74,7 @@ La personnalisation des styles de tableaux croisés dynamiques dans Aspose.Cells
 ### Est-il possible d'ajouter une mise en forme conditionnelle aux tableaux croisés dynamiques ?
    Absolument, vous pouvez appliquer une mise en forme conditionnelle pour mettre en évidence des données spécifiques dans vos tableaux croisés dynamiques.
 
-### Puis-je exporter des tableaux croisés dynamiques vers différents formats de fichiers ?
+### Puis-je exporter des tableaux croisés dynamiques vers différents formats de fichiers ?
    Aspose.Cells pour Java vous permet d'enregistrer vos tableaux croisés dynamiques dans différents formats, notamment Excel, PDF, etc.
 
 ### Où puis-je trouver plus de documentation sur la personnalisation du tableau croisé dynamique ?

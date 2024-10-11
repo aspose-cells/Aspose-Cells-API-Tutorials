@@ -114,7 +114,7 @@ Tak, możesz połączyć więcej niż trzy ciągi tekstowe za pomocą CONCATENAT
  Tak, Aspose.Cells dla języka Java zapewnia alternatywny sposób łączenia tekstu za pomocą`Cell.putValue` metoda. Możesz połączyć tekst z wielu komórek i ustawić wynik w innej komórce bez używania formuł.
 
 ```java
-// Łączenie tekstu z komórek A1, B1 i C1 w komórce D1 bez użycia formuł
+// Połącz tekst z komórek A1, B1 i C1 do komórki D1 bez użycia formuł
 String concatenatedText = text1 + text2 + text3;
 worksheet.getCells().get("D1").putValue(concatenatedText);
 ```

@@ -15,7 +15,7 @@ Heb je ooit een nieuw werkblad aan een Excel-bestand moeten toevoegen via een pr
 
 Voordat we beginnen met coderen, willen we controleren of u over alles beschikt wat u voor dit project nodig hebt:
 
-1. Visual Studio: Zorg ervoor dat u Visual Studio hebt geïnstalleerd. Als u het nog niet hebt, kunt u het downloaden van de[Microsoft-website](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Zorg ervoor dat u Visual Studio hebt geïnstalleerd. Als u het nog niet hebt, kunt u het downloaden van de[Microsoft-website](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells-bibliotheek: U hebt de Aspose.Cells for .NET-bibliotheek nodig. U kunt[download het hier](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Zorg ervoor dat uw project is ingesteld voor een compatibele versie van .NET Framework (meestal werkt .NET Framework 4.0 of hoger goed).
 4. Basiskennis van C#: Kennis van C# en objectgeoriënteerd programmeren helpt u de code beter te begrijpen.
@@ -62,7 +62,7 @@ In de bovenstaande code declareren we het pad waar ons Excel-bestand zal worden 
 Vervolgens gaan we een instantie van de Workbook-klasse maken. Deze klasse is de ruggengraat van alle Excel-gerelateerde bewerkingen die u uitvoert.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Nu ons werkboek klaar is, kunnen we het nieuwe werkblad toevoegen!
 int i = workbook.Worksheets.Add();
 ```
 
- Hier gebruiken we de`Add()` methode van de`Worksheets` collectie aanwezig binnen de`Workbook` klasse. De methode retourneert een index (`i`) van het nieuw toegevoegde blad. Het is alsof je een pagina aan je notitieboek toevoegt - eenvoudig en efficiënt!
+ Hier gebruiken we de`Add()` methode van de`Worksheets` collectie aanwezig binnen de`Workbook` klasse. De methode retourneert een index (`i`van het nieuw toegevoegde blad. Het is alsof je een pagina aan je notitieboek toevoegt - eenvoudig en efficiënt!
 
 ## Stap 4: Uw nieuwe werkblad een naam geven
 
@@ -119,7 +119,7 @@ Aspose.Cells voor .NET is een krachtige bibliotheek voor het maken, bewerken en 
  Ja, bel gewoon de`Add()` methode meerdere keren en verwijs naar elk blad via de index!
 
 ### Bestaat er een gratis proefversie van Aspose.Cells?  
-Zeker! Je kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
+ Zeker! Je kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 
 ### Kan ik het nieuwe werkblad opmaken nadat ik het heb toegevoegd?  
 Absoluut! U kunt stijlen, opmaak en zelfs formules toepassen op uw werkbladen met behulp van de functies van de bibliotheek.

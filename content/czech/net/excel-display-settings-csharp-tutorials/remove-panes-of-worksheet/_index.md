@@ -78,7 +78,7 @@ V tomto případě nastavujeme aktivní buňku na A20. To není nezbytně nutné
 
 Nadpis: Eliminujte tabule
 
-Nyní okamžik, na který jste čekali! Jediným jednoduchým příkazem odstraníme rozdělené panely z našeho listu. Zde je kód:
+Nyní, okamžik, na který jste čekali! Jediným jednoduchým příkazem odstraníme rozdělené panely z našeho listu. Zde je kód:
 
 ```csharp
 // Rozdělte okno listu

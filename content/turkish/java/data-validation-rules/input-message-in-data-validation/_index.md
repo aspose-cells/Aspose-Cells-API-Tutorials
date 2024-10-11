@@ -126,7 +126,7 @@ Bu makalede, Java için Aspose.Cells kullanarak veri doğrulama kurallarına gir
 
 ### Birden fazla hücreye aynı anda veri doğrulaması nasıl eklerim?
 
- Birden fazla hücreye veri doğrulaması eklemek için bir hücre aralığı tanımlayabilir ve doğrulama kurallarını bu aralığa uygulayabilirsiniz. Java için Aspose.Cells, hücre aralığını belirtmenize olanak tanır.`CellArea` sınıf.
+ Birden fazla hücreye veri doğrulaması eklemek için bir hücre aralığı tanımlayabilir ve doğrulama kurallarını bu aralığa uygulayabilirsiniz. Java için Aspose.Cells, hücre aralığını belirtmenize olanak tanır`CellArea` sınıf.
 
 ### Veri doğrulama için özel formüller kullanabilir miyim?
 

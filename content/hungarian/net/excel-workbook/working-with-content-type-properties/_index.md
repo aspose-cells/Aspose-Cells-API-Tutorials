@@ -23,7 +23,7 @@ Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rend
 
 ## Csomagok importálása
 
-Az Aspose.Cells használatához importálnia kell a szükséges névtereket a C# fájlba. Ez hozzáférést biztosít a programnak a könyvtár által biztosított osztályokhoz és metódusokhoz. Ezt a következőképpen teheti meg:
+Az Aspose.Cells használatához importálnia kell a szükséges névtereket a C# fájlba. Ez hozzáférést biztosít a programnak a könyvtár által biztosított osztályokhoz és metódusokhoz. Íme, hogyan kell ezt megtenni:
 
 ```csharp
 using Aspose.Cells.WebExtensions;
@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## 2. lépés: Hozzon létre egy új munkafüzetet
 
- Most, hogy megvan a kimeneti könyvtárunk, hozzunk létre egy új munkafüzetet. A`Workbook`osztály az Excel fájlok kezelésének kiindulópontja.
+ Most, hogy megvan a kimeneti könyvtárunk, hozzunk létre egy új munkafüzetet. A`Workbook` osztály az Excel fájlok kezelésének kiindulópontja.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Igen! Az Aspose.Cells különféle formátumokat támogat, beleértve az XLS, XL
 Teljesen! Összetett objektumokat adhat hozzá a tartalomtípus tulajdonságaihoz, amennyiben azok megfelelően szerializálhatók.
 
 ### Hol találok további dokumentációt?
-Részletesebb útmutatásért lásd a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).
+ Részletesebb útmutatásért lásd a[Aspose.Cells Documentation](https://reference.aspose.com/cells/net/).

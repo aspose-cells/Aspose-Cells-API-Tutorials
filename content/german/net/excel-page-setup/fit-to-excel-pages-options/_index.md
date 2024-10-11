@@ -16,7 +16,7 @@ Willkommen zum ultimativen Leitfaden zur Nutzung der leistungsstarken Aspose.Cel
 Bevor wir mit dem Programmieren beginnen, sollten Sie sicherstellen, dass Sie alles haben, was Sie für den Anfang brauchen. Folgendes sollten Sie zur Hand haben:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Dies ist Ihr zentraler Knotenpunkt für alle Entwicklungsarbeiten.
-2.  Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und zu Ihrem Projekt hinzufügen. Sie können sie ganz einfach von der[Aspose-Website](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und zu Ihrem Projekt hinzufügen. Sie können sie ganz einfach von der[Aspose-Website](https://releases.aspose.com/cells/net/).
 3. Grundlegende C#-Kenntnisse: Kenntnisse in der C#-Programmierung sind enorm hilfreich. Wenn Sie mit Variablen, Schleifen und grundlegender Datei-E/A umgehen können, sind Sie sofort zu Hause.
 4. .NET Framework: Stellen Sie sicher, dass Ihr Projekt mit der entsprechenden .NET Framework-Version eingerichtet ist, da die Bibliothek auf Kompatibilität innerhalb dieses Ökosystems ausgelegt ist.
 
@@ -54,9 +54,9 @@ Lassen Sie uns zunächst unsere Arbeitsmappe initialisieren und auf das gewünsc
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
-// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`bestimmt, wie viele Seiten sich Ihr Arbeitsblatt vertikal erstreckt.
-- `FitToPagesWide` definiert die horizontale Seiteneinrichtung.`1` bedeutet, dass Ihr Inhalt genau auf eine Seite passt und Ihr Dokument in ein übersichtliches Meisterwerk verwandelt wird.
+- `FitToPagesTall` bestimmt, wie viele Seiten sich Ihr Arbeitsblatt vertikal erstreckt.
+- `FitToPagesWide` definiert die horizontale Seiteneinrichtung.`1`bedeutet, dass Ihr Inhalt genau auf eine Seite passt und Ihr Dokument in ein übersichtliches Meisterwerk verwandelt wird.
 
 ## Schritt 3: Speichern Sie Ihre Arbeitsmappe
 
@@ -97,7 +97,7 @@ Und da haben Sie es! Sie haben gelernt, wie Sie die Optionen „An Excel-Seiten 
 Aspose.Cells ist eine robuste .NET-Bibliothek zur programmgesteuerten Verwaltung von Excel-Dateien, mit der Entwickler problemlos Tabellen erstellen und bearbeiten können.
 
 ### Kann ich Aspose.Cells kostenlos testen?
- Ja! Sie können sich für eine kostenlose Testversion anmelden[Hier](https://releases.aspose.com/).
+Ja! Sie können sich für eine kostenlose Testversion anmelden[Hier](https://releases.aspose.com/).
 
 ### Wie kaufe ich Aspose.Cells?
  Sie können Ihren Einkauf tätigen[Hier](https://purchase.aspose.com/buy).

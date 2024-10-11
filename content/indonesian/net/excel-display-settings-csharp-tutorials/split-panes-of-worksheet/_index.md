@@ -38,14 +38,14 @@ Setelah kita bahas hal-hal penting, mari kita lanjut ke bagian yang menarik—me
 Sebelum kita dapat membagi panel, kita memerlukan buku kerja untuk bekerja! Langkah ini sama pentingnya dengan membuka buku sebelum Anda mulai membacanya.
 
 ```csharp
-//Jalur ke direktori dokumen
+// Jalur ke direktori dokumen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Buat buku kerja baru dan buka file templat
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Pada kode di atas, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda berada.`Workbook` kelas memuat berkas Excel ke dalam memori.
+ Pada kode di atas, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda berada.`Workbook`kelas memuat berkas Excel ke dalam memori.
 
 ## Langkah 2: Mengatur Sel Aktif
 
@@ -84,7 +84,7 @@ Apa gunanya semua kerja keras Anda jika Anda tidak menyimpannya? Menyimpannya me
 book.Save(dataDir + "output.xls");
 ```
 
- Di sini,`Save()`metode menyimpan buku kerja dengan panel yang baru Anda bagi menjadi file Excel keluaran. Perubahan yang Anda buat kini siap untuk Anda—atau orang lain—gunakan.
+ Di sini,`Save()` metode menyimpan buku kerja dengan panel yang baru Anda bagi menjadi file Excel keluaran. Perubahan yang Anda buat kini siap untuk Anda—atau orang lain—gunakan.
 
 ## Kesimpulan
 

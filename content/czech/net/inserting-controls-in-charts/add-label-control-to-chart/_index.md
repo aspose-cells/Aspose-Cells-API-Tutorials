@@ -73,7 +73,7 @@ Nyní, když máme náš sešit, přistupme k listu obsahujícímu graf. Budeme 
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Tento krok je o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
+Tento krok je celý o navigaci v budově. Máte klíč (sešit), ale nyní musíte najít svůj pokoj (pracovní list).
 
 ## Krok 4: Získejte graf
 
@@ -112,7 +112,7 @@ Zde dáte svému uměleckému dílu název. Pomáhá divákům pochopit, na co s
 Nyní se pojďme rozhodnout, jak bude štítek umístěn ve vztahu k grafu. Zde jej nastavíme jako volně plovoucí, což znamená, že jej lze přesouvat nezávisle na prvcích grafu.
 
 ```csharp
-//Nastavte Typ umístění, způsob, jakým je štítek připojen k buňkám.
+// Nastavte Typ umístění, způsob, jakým je štítek připojen k buňkám.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ A tady to máte! Úspěšně jste přidali ovládací prvek štítku do grafu po
 Ano! Můžete změnit písmo, barvu, velikost a další vlastnosti štítku podle svých potřeb.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells je placený produkt; můžete však začít s a[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat jeho vlastnosti.
+ Aspose.Cells je placený produkt; můžete však začít s a[zkušební verze zdarma](https://releases.aspose.com/)prozkoumat jeho vlastnosti.
 
 ### Co když chci přidat více štítků?
 Kroky přidávání štítků můžete opakovat tolikrát, kolikrát je potřeba, každý s různými pozicemi a texty.

@@ -55,7 +55,7 @@ En primer lugar, deberá definir la ubicación de su archivo de Excel. Aquí es 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Solo reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra`book1.xls` El archivo reside en el disco. ¡Piense en esto como darle a su GPS la dirección correcta antes de comenzar un viaje por carretera!
+ Solo reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra`book1.xls`El archivo reside en el disco. ¡Piense en esto como darle a su GPS la dirección correcta antes de comenzar un viaje por carretera!
 
 ## Paso 4: Abra el archivo Excel con FileStream
 

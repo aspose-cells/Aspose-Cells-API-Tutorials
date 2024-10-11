@@ -1,6 +1,6 @@
 ---
 title: Skaffa Excel-kalkylblad efter namn C# Tutorial
-linktitle: Hämta Excel-kalkylblad efter namn
+linktitle: Hämta Excel-arbetsblad efter namn
 second_title: Aspose.Cells för .NET API-referens
 description: Få åtkomst till Excel-kalkylblad med namn i C# med steg-för-steg-vägledning, med Aspose.Cells för .NET för bättre kodeffektivitet.
 type: docs
@@ -18,7 +18,7 @@ Innan vi hoppar in i det saftiga, låt oss se till att du är redo för framgån
 1. .NET-utvecklingsmiljö: Se till att du har en .NET-utvecklingsmiljö redo att användas. Du kan använda Visual Studio eller vilken annan IDE du väljer.
 2.  Aspose.Cells Library: Du bör också ha Aspose.Cells-biblioteket installerat. Om du inte har gjort detta ännu, oroa dig inte! Du kan ladda ner den[här](https://releases.aspose.com/cells/net/).
 3. Grundläggande förståelse för C#: Att känna till grunderna i C#-programmering hjälper dig att följa med smidigt.
-4. En Excel-fil: Ha en Excel-fil redo som du vill arbeta med. För vårt exempel använder vi en enkel fil med namnet`book1.xlsx` med minst ett kalkylblad som heter "Sheet1".
+4.  En Excel-fil: Ha en Excel-fil redo som du vill arbeta med. För vårt exempel använder vi en enkel fil med namnet`book1.xlsx` med minst ett kalkylblad som heter "Sheet1".
 
 Nu när du är klar, låt oss gräva in!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ange din dokumentkatalog
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kombinera för att bilda hela vägen
 ```
 
- Här, byt ut`"YOUR DOCUMENT DIRECTORY"`med den faktiska sökvägen på ditt system var`book1.xlsx` lagras. Använder`Path.Combine` är snyggt eftersom det säkerställer att sökvägen är korrekt konstruerad över olika operativsystem.
+ Här, byt ut`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen på ditt system var`book1.xlsx` lagras. Använder`Path.Combine` är snyggt eftersom det säkerställer att sökvägen är korrekt konstruerad över olika operativsystem.
 
 ## Steg 2: Skapa en filström
 

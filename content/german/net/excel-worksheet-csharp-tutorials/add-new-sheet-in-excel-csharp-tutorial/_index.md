@@ -15,7 +15,7 @@ Mussten Sie schon einmal programmgesteuert ein neues Blatt zu einer Excel-Datei 
 
 Bevor wir mit der Codierung beginnen, stellen wir sicher, dass Sie alles haben, was Sie für dieses Projekt benötigen:
 
-1. Visual Studio: Stellen Sie sicher, dass Sie Visual Studio installiert haben. Wenn Sie es noch nicht haben, können Sie es von der[Microsoft-Website](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Stellen Sie sicher, dass Sie Visual Studio installiert haben. Wenn Sie es noch nicht haben, können Sie es von der[Microsoft-Website](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek für .NET. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Stellen Sie sicher, dass Ihr Projekt für eine kompatible Version des .NET Frameworks eingerichtet ist (normalerweise funktioniert .NET Framework 4.0 oder höher gut).
 4. Grundlegende C#-Kenntnisse: Vertrautheit mit C# und objektorientierter Programmierung hilft Ihnen, den Code besser zu verstehen.
@@ -62,7 +62,7 @@ Im obigen Code deklarieren wir den Pfad, in dem unsere Excel-Datei gespeichert w
 Als Nächstes erstellen wir eine Instanz der Klasse Workbook. Diese Klasse ist das Rückgrat aller Excel-bezogenen Vorgänge, die Sie ausführen.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -77,14 +77,14 @@ Jetzt, da unsere Arbeitsmappe fertig ist, fügen wir das neue Blatt hinzu!
 int i = workbook.Worksheets.Add();
 ```
 
- Hier verwenden wir die`Add()` Methode der`Worksheets` Sammlung vorhanden innerhalb der`Workbook` Klasse. Die Methode gibt einen Index zurück (`i`) des neu hinzugefügten Blattes. Es ist, als würden Sie Ihrem Notizbuch eine Seite hinzufügen – einfach und effizient!
+ Hier verwenden wir die`Add()` Methode der`Worksheets` Sammlung vorhanden innerhalb der`Workbook` Klasse. Die Methode gibt einen Index zurück (`i`des neu hinzugefügten Blattes. Es ist, als würden Sie Ihrem Notizbuch eine Seite hinzufügen – einfach und effizient!
 
 ## Schritt 4: Benennen Sie Ihr neues Arbeitsblatt
 
 Was ist ein Blatt ohne Namen? Geben wir unserem neu erstellten Arbeitsblatt einen Namen zur einfachen Identifizierung.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
 Worksheet worksheet = workbook.Worksheets[i];
 
 // Festlegen des Namens des neu hinzugefügten Arbeitsblatts
@@ -119,7 +119,7 @@ Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Erstellen, Bearbe
  Ja, rufen Sie einfach die`Add()` Methode mehrmals und verweisen Sie auf jedes Blatt über seinen Index!
 
 ### Gibt es eine kostenlose Testversion von Aspose.Cells?  
-Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
+ Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 
 ### Kann ich das neue Blatt nach dem Hinzufügen formatieren?  
 Auf jeden Fall! Sie können mit den Funktionen der Bibliothek Stile, Formate und sogar Formeln auf Ihre Arbeitsblätter anwenden.

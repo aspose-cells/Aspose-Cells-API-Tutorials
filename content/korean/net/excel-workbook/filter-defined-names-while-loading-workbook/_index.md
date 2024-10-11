@@ -37,7 +37,7 @@ using System.Text;
 
 ## 1단계: 부하 옵션 지정
 
-우리가 가장 먼저 할 일은 인스턴스를 만드는 것입니다.`LoadOptions` 클래스. 이 클래스는 우리가 Excel 파일을 어떻게 로드할지 지정하는 데 도움이 됩니다.
+ 우리가 가장 먼저 할 일은 인스턴스를 만드는 것입니다.`LoadOptions` 클래스. 이 클래스는 우리가 Excel 파일을 어떻게 로드할지 지정하는 데 도움이 됩니다.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- 이 줄에서는 새 인스턴스를 만듭니다.`Workbook`클래스, 샘플 Excel 파일과 로드 옵션에 대한 경로를 전달합니다. 이렇게 하면 정의된 이름이 지정된 대로 필터링되어 통합 문서가 로드됩니다.
+ 이 줄에서는 새 인스턴스를 만듭니다.`Workbook` 클래스, 샘플 Excel 파일과 로드 옵션에 대한 경로를 전달합니다. 이렇게 하면 정의된 이름이 지정된 대로 필터링되어 통합 문서가 로드됩니다.
 
 ## 4단계: 출력 파일 저장
 
@@ -106,4 +106,4 @@ Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 만들고, 조작�
  네, Aspose.Cells의 무료 체험판을 받아 구매하기 전에 기능을 테스트해 볼 수 있습니다. 확인해 보세요[여기](https://releases.aspose.com/).
 
 ### 더 많은 예와 문서는 어디에서 볼 수 있나요?
- Aspose.Cells 참조 페이지에서 포괄적인 문서와 더 많은 예를 찾을 수 있습니다.[여기](https://reference.aspose.com/cells/net/).
+Aspose.Cells 참조 페이지에서 포괄적인 문서와 더 많은 예를 찾을 수 있습니다.[여기](https://reference.aspose.com/cells/net/).

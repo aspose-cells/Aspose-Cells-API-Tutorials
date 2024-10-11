@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-page-breaks/excel-remove-specific-page-break/
 在我們深入研究程式碼的細節之前，讓我們確保您擁有開始使用所需的一切。以下是先決條件的快速清單：
 
 1. Visual Studio：您需要安裝有效的 Visual Studio 才能建立和執行 .NET 應用程式。
-2. Aspose.Cells for .NET：請確保您已安裝 Aspose.Cells 函式庫。如果您還沒有這樣做，您可以從以下位置下載[這裡](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：請確保您已安裝 Aspose.Cells 函式庫。如果您還沒有這樣做，您可以從以下位置下載[這裡](https://releases.aspose.com/cells/net/).
 3. C# 基礎知識：熟悉 C# 程式設計將有助於您更好地理解程式碼片段。
 4. Excel 文件：準備一個 Excel 文件，其中包含一些分頁符號供我們進行試驗。
 
@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-說明：這一行建立了一個新的實例`Workbook`，它會載入指定的 Excel 檔案（在本例中，它的名稱為`PageBreaks.xls`）。 
+說明：這一行創建了一個新的實例`Workbook`，它會載入指定的 Excel 檔案（在本例中，它的名稱為`PageBreaks.xls`）。 
 
 ## 步驟 3：刪除水平分頁符
 

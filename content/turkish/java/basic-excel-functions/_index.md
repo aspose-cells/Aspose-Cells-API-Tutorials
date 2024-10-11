@@ -17,7 +17,7 @@ Excel işlevlerine dalmadan önce, geliştirme ortamınızı Aspose.Cells for Ja
 
 ## Temel Excel Fonksiyonlarını Keşfetmek:
 
-Kapsamlı eğitimlerimiz, SUM ve AVERAGE'den IF ifadelerine ve veri sıralamaya kadar temel Excel işlevlerinde size yol gösterecektir. Her konu, Java için Aspose.Cells kullanılarak pratik örnekler ve kod parçacıklarıyla adım adım açıklanmaktadır. İster yeni başlayan olun, ister becerilerinizi tazelemek isteyin, eğitimlerimiz elektronik tablo düzenlemede başarılı olmak için ihtiyaç duyduğunuz bilgiyi sağlar.
+Kapsamlı eğitimlerimiz, SUM ve AVERAGE'den IF ifadelerine ve veri sıralamaya kadar temel Excel işlevlerinde size yol gösterecektir. Her konu, Java için Aspose.Cells kullanılarak pratik örnekler ve kod parçacıklarıyla adım adım açıklanmaktadır. İster yeni başlayan olun ister becerilerinizi tazelemek isteyin, eğitimlerimiz elektronik tablo düzenlemede başarılı olmak için ihtiyaç duyduğunuz bilgiyi sağlar.
 
 Bu başlıklar ve paragraflar, Aspose.Cells for Java'yı kullanarak temel Excel işlevleri konusuna açık ve ilgi çekici bir giriş sunarak, okuyucuları eğitimleri keşfetmeye ve elektronik tablo düzenleme becerilerini geliştirmeye davet ediyor.
 

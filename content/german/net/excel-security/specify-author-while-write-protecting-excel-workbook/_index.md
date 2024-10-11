@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Ersetzen Sie unbedingt`"YOUR SOURCE DIRECTORY"` Und`"YOUR OUTPUT DIRECTORY"`mit tatsächlichen Pfaden auf Ihrem Computer. Betrachten Sie dies als das Erstellen eines aufgeräumten Arbeitsbereichs, bevor Sie mit der Erstellung Ihres Meisterwerks beginnen!
+ Ersetzen Sie unbedingt`"YOUR SOURCE DIRECTORY"` Und`"YOUR OUTPUT DIRECTORY"` mit tatsächlichen Pfaden auf Ihrem Computer. Betrachten Sie dies als das Erstellen eines aufgeräumten Arbeitsbereichs, bevor Sie mit der Erstellung Ihres Meisterwerks beginnen!
 
 ## Schritt 2: Erstellen Sie eine leere Arbeitsmappe
 
@@ -89,7 +89,7 @@ Der letzte Schritt besteht darin, die Arbeitsmappe im gewünschten Format zu spe
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Hier wird die Ausgabedatei im von Ihnen angegebenen Ausgabeverzeichnis mit dem Namen gespeichert`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Hier zahlt sich Ihre harte Arbeit endlich aus und Sie können Ihr Arbeitsbuch mit anderen teilen, da Sie wissen, dass es gut geschützt ist!
+ Hier wird die Ausgabedatei im von Ihnen angegebenen Ausgabeverzeichnis mit dem Namen gespeichert`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Hier zahlt sich Ihre harte Arbeit endlich aus und Sie können Ihr Arbeitsbuch mit anderen teilen, da Sie wissen, dass es gut geschützt ist!
 
 ## Abschluss
 
@@ -110,4 +110,4 @@ Und da haben Sie es! Sie haben gelernt, wie Sie eine Excel-Arbeitsmappe erstelle
 Absolut! Aspose.Cells funktioniert nahtlos sowohl in Desktop- als auch in Webanwendungen mit .NET.
 
 ### Was muss ich tun, wenn ich Unterstützung benötige?  
- Bei Fragen und zur Fehlerbehebung ist die Aspose-Community sehr hilfreich. Sie können ihre besuchen[Support-Forum](https://forum.aspose.com/c/cells/9) um Hilfe.
+Bei Fragen und zur Fehlerbehebung ist die Aspose-Community sehr hilfreich. Sie können ihre besuchen[Support-Forum](https://forum.aspose.com/c/cells/9) um Hilfe.

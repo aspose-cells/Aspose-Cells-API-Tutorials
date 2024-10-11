@@ -9,7 +9,7 @@ url: /it/net/excel-workbook/add-web-extension/
 ---
 ## Introduzione
 
-In questa guida, ti guideremo attraverso il processo di aggiunta di Web Extension a una cartella di lavoro Excel con Aspose.Cells per .NET. Che tu stia creando un potente dashboard di dati o automatizzando attività di reporting, questo tutorial ti fornirà le informazioni di cui hai bisogno per arricchire le tue applicazioni Excel.
+In questa guida, ti guideremo attraverso il processo di aggiunta di estensioni Web a una cartella di lavoro Excel con Aspose.Cells per .NET. Che tu stia creando un potente dashboard di dati o automatizzando attività di reporting, questo tutorial ti fornirà le informazioni di cui hai bisogno per arricchire le tue applicazioni Excel.
 
 ## Prerequisiti
 

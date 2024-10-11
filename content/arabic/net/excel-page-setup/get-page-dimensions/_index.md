@@ -44,7 +44,7 @@ url: /ar/net/excel-page-setup/get-page-dimensions/
 
 ### إضافة باستخدام التوجيهات
 
- في الجزء العلوي من`Program.cs` الملف، أدخل هذا باستخدام التوجيه للوصول إلى وظيفة Aspose.Cells:
+ في الجزء العلوي من`Program.cs`الملف، أدخل هذا باستخدام التوجيه للوصول إلى وظيفة Aspose.Cells:
 
 ```csharp
 using System;

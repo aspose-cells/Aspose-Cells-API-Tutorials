@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Ora creeremo un'istanza della classe Workbook, che rappresenta un file Excel.
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Successivamente, dovrai accedere al foglio di lavoro su cui vuoi impostare l'orientamento. Poiché ogni cartella di lavoro può avere più fogli di lavoro, dovresti dichiarare esplicitamente con quale stai lavorando.
 
 ```csharp
-// Accesso al primo foglio di lavoro nel file Excel
+//Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

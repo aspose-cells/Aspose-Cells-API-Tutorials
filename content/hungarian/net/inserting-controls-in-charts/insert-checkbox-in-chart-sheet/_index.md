@@ -19,7 +19,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy mindent be�
 - Mindenekelőtt a Visual Studiora lesz szüksége. Ha még nincs telepítve, letöltheti a Microsoft webhelyéről.
 
 ### Aspose.Cells Library
--  következő alapvető eszköz az Aspose.Cells könyvtár a .NET-hez. Könnyen beszerezheti a[Aspose honlapja](https://releases.aspose.com/cells/net/) letöltéshez. Ha inkább tesztelni szeretne vásárlás előtt, van még egy[ingyenes próbaverzió elérhető](https://releases.aspose.com/).
+-  A következő alapvető eszköz az Aspose.Cells könyvtár a .NET-hez. Könnyen beszerezheti a[Aspose honlapja](https://releases.aspose.com/cells/net/) letöltéshez. Ha inkább tesztelni szeretne vásárlás előtt, van még egy[ingyenes próbaverzió elérhető](https://releases.aspose.com/).
 
 ### A C# alapvető ismerete
 - Mivel néhány kódot írunk, a C# alapvető ismerete hasznos lesz. Ne aggódj; Elmagyarázom a dolgokat, ahogy haladunk!
@@ -42,7 +42,7 @@ Nyissa meg a Visual Studio-t, és hozzon létre egy új konzolalkalmazás-projek
 
 ### Telepítse az Aspose.Cells programot a NuGet segítségével
 
-projekt beállítása után ideje hozzáadni az Aspose.Cells könyvtárat. Ezt a NuGet Package Manager segítségével teheti meg:
+A projekt beállítása után ideje hozzáadni az Aspose.Cells könyvtárat. Ezt a NuGet Package Manager segítségével teheti meg:
 - Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
 - Keresse meg az „Aspose.Cells” kifejezést, és kattintson az „Install” gombra.
 - Ez az összes szükséges függőséget felveszi, és megkönnyíti a könyvtár használatának megkezdését.
@@ -64,13 +64,13 @@ Most, hogy készen vagyunk, merüljünk bele a kódolási részbe! Az alábbiakb
 
 Mielőtt rátérnénk az izgalmas részre, meg kell határoznunk, hova szeretnénk menteni a fájlunkat. Meg kell adnia a kimeneti könyvtár elérési útját.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Váltson át a megadott könyvtárra
+string outputDir = "C:\\YourOutputDirectory\\"; // Váltson át a megadott könyvtárra
 ```
  Ügyeljen arra, hogy cserélje ki`"C:\\YourOutputDirectory\\"` azzal az elérési úttal, ahová a fájlt menteni szeretné. Gondoljon erre úgy, mint a munkaterület felállítására; tudnia kell, hová helyezi az eszközeit (vagy ebben az esetben az Excel-fájlt).
 
 ## 2. lépés: Munkafüzet-objektum példányosítása
 
- Ezután létrehozunk egy példányt a`Workbook` osztály. Itt zajlik majd minden munkánk.
+Ezután létrehozzuk a`Workbook` osztály. Itt zajlik majd minden munkánk.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -137,7 +137,7 @@ Az Aspose.Cells egy hatékony könyvtár Excel-fájlok létrehozásához és kez
 Egyáltalán nem! Amint az ebben az oktatóanyagban bemutatásra került, néhány egyszerű kódsor segítségével megtehető.
 
 ### Hol vásárolhatok Aspose.Cells-t?  
-Az Aspose.Cells-t megvásárolhatja tőlük[vásárlási link](https://purchase.aspose.com/buy).
+ Az Aspose.Cells-t megvásárolhatja tőlük[vásárlási link](https://purchase.aspose.com/buy).
 
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?  
  Az Aspose támogatási fórumot biztosít, ahol kérdéseket tehet fel, és megoldásokat találhat. Nézze meg őket[támogatási oldal](https://forum.aspose.com/c/cells/9).

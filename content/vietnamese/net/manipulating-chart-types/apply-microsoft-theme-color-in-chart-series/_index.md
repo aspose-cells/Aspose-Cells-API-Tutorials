@@ -79,7 +79,7 @@ Giống như việc lật đến một trang cụ thể trong một cuốn sách
 Bây giờ là lúc tìm biểu đồ mà chúng ta muốn sửa đổi. Đây chính là nơi phép thuật thực sự bắt đầu!
 
 ```csharp
-// Lấy biểu đồ đầu tiên trong trang tính
+//Lấy biểu đồ đầu tiên trong trang tính
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,11 +112,11 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
  Bây giờ, hãy áp dụng màu chủ đề của Microsoft. Chúng ta sẽ chọn một`Accent` phong cách vì ai mà không thích chút màu sắc chứ?
 
 ```csharp
-// Tạo chủ đề theo phong cách Accent
+//Tạo chủ đề theo phong cách Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
-Chỉ với một vài dòng ở đây, bạn đã chỉ định rằng chuỗi biểu đồ của bạn sẽ phản ánh một màu chủ đề nhất định, tăng thêm tính thanh lịch và thương hiệu cho hình ảnh của bạn.
+Chỉ với một vài dòng ở đây, bạn đã chỉ định rằng chuỗi biểu đồ của bạn sẽ phản ánh một màu chủ đề nhất định, tăng thêm sự thanh lịch và thương hiệu cho hình ảnh của bạn.
 
 ## Bước 8: Thiết lập màu cho ô
 

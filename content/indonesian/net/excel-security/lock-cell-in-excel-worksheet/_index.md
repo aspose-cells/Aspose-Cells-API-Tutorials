@@ -15,7 +15,7 @@ Dalam dunia yang serba cepat saat ini, mengelola data dengan aman sangat penting
 
 Sebelum kita masuk ke inti kode, ada beberapa hal yang perlu Anda siapkan:
 
-1. Aspose.Cells untuk .NET: Unduh dan instal versi terbaru Aspose.Cells untuk .NET dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells untuk .NET: Unduh dan instal versi terbaru Aspose.Cells untuk .NET dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: Lingkungan pengembangan yang disiapkan untuk .NET. Pilihan yang populer termasuk Visual Studio atau JetBrains Rider.
 3. Pemahaman Dasar C#: Meskipun kami akan memandu Anda melalui kode langkah demi langkah, memiliki pemahaman dasar tentang pemrograman C# akan membantu Anda memahami konsep lebih cepat.
 4. Direktori Dokumen Anda: Pastikan Anda telah menyiapkan direktori tempat Anda dapat menyimpan file Excel untuk pengujian.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Buku Kerja Anda
 
- Selanjutnya, Anda ingin memuat buku kerja Excel tempat Anda ingin mengunci sel. Ini dilakukan dengan membuat contoh`Workbook` kelas dan mengarahkannya ke file Excel yang Anda inginkan.
+Selanjutnya, Anda ingin memuat buku kerja Excel tempat Anda ingin mengunci sel. Ini dilakukan dengan membuat contoh`Workbook` kelas dan mengarahkannya ke file Excel yang Anda inginkan.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Jika Anda lupa kata sandinya, Anda tidak akan dapat membuka proteksi lembar kerj
  Tentu saja! Anda dapat membuka sel dengan mengatur`IsLocked` properti untuk`false` dan mencabut perlindungan.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis bagi pengguna. Namun, untuk penggunaan berkelanjutan, Anda perlu membeli lisensi. Kunjungi[Halaman pembelian Aspose](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+Aspose.Cells menawarkan uji coba gratis bagi pengguna. Namun, untuk penggunaan berkelanjutan, Anda perlu membeli lisensi. Kunjungi[Halaman pembelian Aspose](https://purchase.aspose.com/buy) untuk lebih jelasnya.

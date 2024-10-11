@@ -16,7 +16,7 @@ När det gäller att arbeta med Excel-filer kan det vara lite knepigt att hanter
 Innan vi dyker in i kodens snålhet, låt oss se till att du har allt du behöver för att komma igång. Här är en snabb checklista med förutsättningar:
 
 1. Visual Studio: Du behöver en fungerande installation av Visual Studio för att skapa och köra dina .NET-applikationer.
-2. Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket installerat. Om du inte har gjort det ännu kan du ladda ner det från[här](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket installerat. Om du inte har gjort det ännu kan du ladda ner det från[här](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering hjälper dig att förstå kodavsnitten bättre.
 4. En Excel-fil: Ha en Excel-fil till hands som innehåller några sidbrytningar som vi kan experimentera med.
 
@@ -53,14 +53,14 @@ Först och främst måste du ange var dina Excel-dokument lagras. Detta hjälper
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Förklaring: Byt ut`YOUR DOCUMENT DIRECTORY` med den faktiska sökvägen till dina filer. Det är här du laddar din Excel-fil från och sparar din modifierade Excel-fil senare.
+ Förklaring: Byt ut`YOUR DOCUMENT DIRECTORY`med den faktiska sökvägen till dina filer. Det är här du laddar din Excel-fil från och sparar din modifierade Excel-fil senare.
 
 ## Steg 2: Instantiera arbetsboksobjektet
 
 Nästa steg måste vi ladda vår arbetsbok. I enklare termer, tänk på en arbetsbok som din Excel-fil.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Och där har du det! Att ta bort specifika sidbrytningar från en Excel-fil med 
 ## FAQ's
 
 ### Kan jag ta bort flera sidbrytningar samtidigt?  
-Ja, det kan du! Gå bara igenom`HorizontalPageBreaks` och`VerticalPageBreaks` samlingar och använda`RemoveAt` metod.
+ Ja, det kan du! Gå bara igenom`HorizontalPageBreaks` och`VerticalPageBreaks` samlingar och använda`RemoveAt` metod.
 
 ### Hur vet jag vilket index som ska användas för sidbrytningar?  
 Du kan iterera genom sidbrytningarna med en loop för att skriva ut deras index eller inspektera dem via felsökaren.

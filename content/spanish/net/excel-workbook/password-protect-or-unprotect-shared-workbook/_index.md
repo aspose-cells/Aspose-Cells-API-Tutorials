@@ -53,7 +53,7 @@ A continuación, crearemos una instancia de un nuevo libro de Excel. Piense en e
 Workbook wb = new Workbook();
 ```
 
-Esta línea inicializa un nuevo objeto de libro de trabajo llamado`wb`Ahora estamos listos para trabajar en este lienzo nuevo.
+ Esta línea inicializa un nuevo objeto de libro de trabajo llamado`wb`Ahora estamos listos para trabajar en este lienzo nuevo.
 
 ## Paso 3: Proteger el libro de trabajo compartido con contraseña
 
@@ -117,4 +117,4 @@ Lamentablemente, si olvida la contraseña, no podrá desproteger el libro de tra
 Aspose.Cells es compatible principalmente con .NET, pero también tiene bibliotecas para Java y otros lenguajes. ¡Visite su sitio para obtener más información!
 
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
- Puede solicitar ayuda a través de su foro de soporte:[Soporte de Aspose](https://forum.aspose.com/c/cells/9).
+Puede solicitar ayuda a través de su foro de soporte:[Soporte de Aspose](https://forum.aspose.com/c/cells/9).

@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Vervang met het pad naar uw PFX-bestand
 
 ## Stap 4: De digitale handtekening maken
 
- Laten we nu de digitale handtekening maken met behulp van de`DigitalSignature`klas. Dit is waar de magie gebeurt!
+ Laten we nu de digitale handtekening maken met behulp van de`DigitalSignature` klas. Dit is waar de magie gebeurt!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Ja, u hebt een geldig digitaal certificaat (PFX-bestand) nodig om een Xades-hand
  Absoluut! Je kunt een gratis proefversie krijgen van de[Aspose-website](https://releases.aspose.com/).
 
 ### Is Aspose.Cells compatibel met alle versies van .NET?
-Aspose.Cells ondersteunt verschillende versies van het .NET-framework. Controleer de[documentatie](https://reference.aspose.com/cells/net/) voor compatibiliteitsdetails.
+ Aspose.Cells ondersteunt verschillende versies van het .NET-framework. Controleer de[documentatie](https://reference.aspose.com/cells/net/) voor compatibiliteitsdetails.
 
 ### Waar kan ik ondersteuning krijgen als ik problemen ondervind?
  U kunt de[Aspose-forum](https://forum.aspose.com/c/cells/9) voor ondersteuning en hulp van de gemeenschap.

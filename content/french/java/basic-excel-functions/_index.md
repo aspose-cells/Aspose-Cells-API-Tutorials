@@ -38,7 +38,7 @@ Découvrez comment utiliser la fonction MOYENNE dans Excel avec Aspose.Cells pou
 Découvrez comment utiliser la fonction Excel MAX avec Aspose.Cells pour Java. Découvrez des instructions étape par étape, des exemples de code et des FAQ dans ce didacticiel complet.
 ### [Fonction MIN expliquée dans Excel](./min-function-in-excel-explained/)
 Découvrez la puissance de la fonction MIN dans Excel avec Aspose.Cells pour Java. Apprenez à trouver les valeurs minimales sans effort.
-### [Fonctions de texte Excel démystifiées](./excel-text-functions-demystified/)
+### [Les fonctions de texte d'Excel démystifiées](./excel-text-functions-demystified/)
 Découvrez les secrets des fonctions de texte d'Excel avec Aspose.Cells pour Java. Apprenez à manipuler, extraire et transformer du texte dans Excel sans effort.
 ### [Tutoriel sur les fonctions de date d'Excel](./excel-date-functions-tutorial/)
 Apprenez les fonctions de date d'Excel à l'aide d'Aspose.Cells pour Java. Explorez des didacticiels étape par étape avec le code source.

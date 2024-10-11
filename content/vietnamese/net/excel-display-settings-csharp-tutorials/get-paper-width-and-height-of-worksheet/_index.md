@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Mỗi khối này mô phỏng bước trước đó nhưng điều chỉnh`PaperSize` tài sản theo đó. Chỉ cần thay đổi chỉ báo kích thước, bạn có thể dễ dàng có được các kích thước giấy khác nhau. Giống như thay đổi kích thước của một hộp dựa trên những gì bạn cần lưu trữ!
+ Mỗi khối này mô phỏng bước trước đó nhưng điều chỉnh`PaperSize`tài sản theo đó. Chỉ cần thay đổi chỉ báo kích thước, bạn có thể dễ dàng có được các kích thước giấy khác nhau. Giống như thay đổi kích thước của một hộp dựa trên những gì bạn cần lưu trữ!
 
 ## Phần kết luận
 

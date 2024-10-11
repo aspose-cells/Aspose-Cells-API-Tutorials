@@ -30,7 +30,7 @@ using System;
 using Aspose.Cells.Charts;
 ```
 
-Te przestrzenie nazw dadzą ci dostęp do klas i metod używanych w Aspose.Cells do pracy z plikami Excela i ich komponentami, takimi jak wykresy.
+Te przestrzenie nazw dadzą ci dostęp do klas i metod używanych w Aspose.Cells do pracy z plikami Excela i ich składnikami, takimi jak wykresy.
 
 Teraz przejdźmy do konkretów. Postępuj zgodnie z tymi instrukcjami krok po kroku, aby wyodrębnić podtytuł wykresu z pliku ODS.
 

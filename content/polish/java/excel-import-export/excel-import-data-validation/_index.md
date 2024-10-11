@@ -21,7 +21,7 @@ Aby rozpocząć naszą podróż, najpierw musimy skonfigurować środowisko prog
 
 2.  Pobierz Aspose.Cells: Odwiedź[Strona pobierania Aspose.Cells dla Java](https://releases.aspose.com/cells/java/) aby pobrać bibliotekę. Postępuj zgodnie z podanymi instrukcjami instalacji.
 
-3. Utwórz projekt Java: Utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
+3. Utwórz projekt Java: Skonfiguruj nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
 
 4. Dodaj Aspose.Cells do swojego projektu: Dodaj bibliotekę Aspose.Cells do swojego projektu jako zależność.
 

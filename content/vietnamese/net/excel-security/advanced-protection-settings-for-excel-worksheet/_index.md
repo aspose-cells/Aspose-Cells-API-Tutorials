@@ -16,7 +16,7 @@ Trong thời đại kỹ thuật số, việc quản lý và bảo mật dữ li
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
 1. Môi trường phát triển: Bạn nên cài đặt Visual Studio trên máy của mình vì nó cung cấp IDE tuyệt vời cho việc phát triển .NET.
-2.  Thư viện Aspose.Cells: Tải xuống thư viện Aspose.Cells. Bạn có thể lấy nó từ[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Tải xuống thư viện Aspose.Cells. Bạn có thể lấy nó từ[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Đảm bảo bạn hiểu rõ về C# và .NET Framework để dễ dàng theo dõi.
 4. Tạo một dự án: Thiết lập một ứng dụng Console mới trong Visual Studio nơi chúng ta sẽ viết mã.
 
@@ -48,7 +48,7 @@ Hãy chia nhỏ quá trình triển khai thành các bước dễ quản lý. Ch
 
 ## Bước 1: Tạo luồng tệp cho tệp Excel của bạn
 
- Đầu tiên, chúng ta cần tải một tệp Excel hiện có. Chúng ta sẽ sử dụng`FileStream` để truy cập vào nó.
+Đầu tiên, chúng ta cần tải một tệp Excel hiện có. Chúng ta sẽ sử dụng`FileStream` để truy cập vào nó.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Bây giờ chúng ta đã có một luồng tập tin, chúng ta có thể tạo một`Workbook` sự vật.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,10 +74,10 @@ Workbook excel = new Workbook(fstream);
 Với mục đích của chúng ta, chúng ta sẽ chỉ làm việc với bảng tính đầu tiên. Hãy truy cập vào nó.
 
 ```csharp
-// Truy cập vào trang tính đầu tiên trong tệp Excel
+//Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
- Các bảng tính được lập chỉ mục bắt đầu từ số không, vì vậy`Worksheets[0]`tham chiếu đến trang tính đầu tiên trong tệp Excel. Bây giờ, chúng ta có thể áp dụng cài đặt bảo vệ cho trang tính cụ thể này.
+ Các bảng tính được lập chỉ mục bắt đầu từ số không, vì vậy`Worksheets[0]` tham chiếu đến trang tính đầu tiên trong tệp Excel. Bây giờ, chúng ta có thể áp dụng cài đặt bảo vệ cho trang tính cụ thể này.
 
 ## Bước 4: Áp dụng Cài đặt Bảo vệ Nâng cao
 
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // Lưu tệp Excel đã sửa đổi
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Ở đây chúng ta đang lưu sổ làm việc vào một tệp mới,`output.xls`. Bằng cách này, tệp gốc vẫn còn nguyên vẹn và chúng ta có thể kiểm tra các biện pháp bảo vệ được áp dụng trong tệp mới.
+ Ở đây chúng ta đang lưu sổ làm việc vào một tệp mới,`output.xls`Bằng cách này, tệp gốc vẫn còn nguyên vẹn và chúng ta có thể kiểm tra các biện pháp bảo vệ được áp dụng trong tệp mới.
 
 ## Bước 6: Đóng luồng tập tin
 
@@ -148,7 +148,7 @@ Và bạn đã có nó! Bạn đã triển khai thành công các thiết lập 
 Aspose.Cells là một thư viện mạnh mẽ cho phép bạn tạo, thao tác và chuyển đổi các tệp Excel theo chương trình trong .NET.
 
 ### Tôi có thể bảo vệ nhiều trang tính cùng lúc không?
- Có! Bạn có thể áp dụng các thiết lập bảo vệ tương tự cho nhiều bảng tính bằng cách lặp lại qua`Worksheets` bộ sưu tập.
+ Có! Bạn có thể áp dụng các thiết lập bảo vệ tương tự cho nhiều bảng tính bằng cách lặp lại qua`Worksheets`bộ sưu tập.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
  Mặc dù có bản dùng thử miễn phí, nhưng cần có giấy phép để phát triển toàn diện. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

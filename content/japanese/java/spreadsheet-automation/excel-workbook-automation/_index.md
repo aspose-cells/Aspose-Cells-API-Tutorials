@@ -103,4 +103,4 @@ Excel ブックの自動化に関するよくある質問を次に示します�
 ### Aspose.Cells for Java の詳細なドキュメントやリソースはどこで入手できますか?
     APIドキュメントは以下を参照できます。[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/)詳しい情報とコードサンプルについては、こちらをご覧ください。
 
-Excel 自動化のニーズに合わせて Aspose.Cells for Java のより高度な機能や性能を自由に探索してください。具体的な質問がある場合や、さらにサポートが必要な場合は、遠慮なくお問い合わせください。
+Excel 自動化のニーズに合わせて Aspose.Cells for Java のより高度な機能や性能を自由に探究してください。具体的な質問がある場合や、さらにサポートが必要な場合は、遠慮なくお問い合わせください。

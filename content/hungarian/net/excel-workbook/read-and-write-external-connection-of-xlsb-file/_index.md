@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Ebben a kódrészletben`"Your Document Directory"` és`"Your Document Directory"`feltételezik, hogy lekérik a megfelelő elérési utat, ahol a bemeneti és kimeneti fájlok lesznek. Ezeket a metódusokat lecserélheti keménykódolt elérési utakra, ha úgy tetszik.
+ Ebben a kódrészletben`"Your Document Directory"` és`"Your Document Directory"` feltételezik, hogy lekérik a megfelelő elérési utat, ahol a bemeneti és kimeneti fájlok lesznek. Ezeket a metódusokat lecserélheti keménykódolt elérési utakra, ha úgy tetszik.
 
 ## 2. lépés: Töltse be az XLSB fájlt
 
@@ -68,7 +68,7 @@ A munkafüzet betöltése után hozzáférhet a külső kapcsolataihoz. Esetünk
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Itt,`DataConnections[0]` a munkafüzet első kapcsolatára utal. Úgy öntjük, mint a`DBConnection` írja be a további manipulációhoz.
+ Itt,`DataConnections[0]` munkafüzet első kapcsolatára utal. Úgy öntjük, mint a`DBConnection` írja be a további manipulációhoz.
 
 ## 4. lépés: A csatlakozási információk kibontása
 
@@ -96,7 +96,7 @@ Ez a kódsor gyakorlatilag átnevezi a kapcsolatot az eredeti nevéről "NewCust
 
 ## 6. lépés: Mentse el a változtatásokat
 
-A módosítások elvégzése után a módosításokat vissza kell mentenie az XLSB fájlba. Íme, hogyan kell csinálni:
+módosítások elvégzése után a módosításokat vissza kell mentenie az XLSB fájlba. Íme, hogyan kell csinálni:
 
 ```csharp
 // Mentse el az Excel Xlsb fájlt
@@ -125,7 +125,7 @@ Ez az üzenet megnyugtatja Önt arról, hogy a kód sikeresen lefutott, és az �
 Az XLSB-fájl egy bináris Excel-fájlformátum, amely bináris formátumban tárolja a táblázat adatait, így kompaktabbá és gyorsabbá teszi a megnyitást.
 
 ### Hogyan telepíthetem az Aspose.Cells for .NET fájlt?  
-Könnyen letöltheti az Aspose webhelyéről[itt](https://releases.aspose.com/cells/net/).
+ Könnyen letöltheti az Aspose webhelyéről[itt](https://releases.aspose.com/cells/net/).
 
 ### Használhatom ingyenesen az Aspose.Cells-t?  
  Igen! Kezdheti egy ingyenes próbaverzióval, amely elérhető[itt](https://releases.aspose.com/).

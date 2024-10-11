@@ -15,7 +15,7 @@ Hiç Excel dosyasına programatik olarak yeni bir sayfa eklemeniz gerektiğini f
 
 Kodlamaya başlamadan önce, bu proje için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz:[Microsoft web sitesi](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz:[Microsoft web sitesi](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Projenizin .NET Framework'ün uyumlu bir sürümü için ayarlandığından emin olun (genellikle .NET Framework 4.0 veya üzeri iyi çalışır).
 4. Temel C# Bilgisi: C# ve nesne yönelimli programlamaya aşinalık, kodu daha iyi anlamanıza yardımcı olacaktır.
@@ -62,7 +62,7 @@ Yukarıdaki kodda, Excel dosyamızın bulunacağı yolu bildiriyoruz (`dataDir`)
 Sırada, Workbook sınıfının bir örneğini oluşturacağız. Bu sınıf, gerçekleştireceğiniz Excel ile ilgili işlemlerin omurgasıdır.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Artık çalışma kitabımız hazır olduğuna göre, yeni sayfayı ekleyelim!
 int i = workbook.Worksheets.Add();
 ```
 
- Burada şunu kullanıyoruz:`Add()` yöntemi`Worksheets` koleksiyon mevcut`Workbook` sınıf. Yöntem bir dizin döndürür (`i`) yeni eklenen sayfanın. Defterinize bir sayfa eklemek gibi - basit ve etkili!
+ Burada şunu kullanıyoruz:`Add()` yöntemi`Worksheets` koleksiyon mevcut`Workbook` sınıf. Yöntem bir dizin döndürür (`i`yeni eklenen sayfanın. Defterinize bir sayfa eklemek gibi - basit ve etkili!
 
 ## Adım 4: Yeni Çalışma Sayfanıza İsim Verme
 
@@ -119,7 +119,7 @@ Aspose.Cells for .NET, Microsoft Excel'in kurulmasına gerek kalmadan Excel dosy
  Evet, sadece arayın`Add()` Yöntemi birden fazla kez deneyin ve her sayfaya indeksiyle başvurun!
 
 ### Aspose.Cells'in ücretsiz deneme sürümü var mı?  
-Kesinlikle! Ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+ Kesinlikle! Ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Yeni sayfayı ekledikten sonra biçimlendirebilir miyim?  
 Kesinlikle! Kütüphanenin özelliklerini kullanarak çalışma sayfalarınıza stiller, biçimler ve hatta formüller uygulayabilirsiniz.

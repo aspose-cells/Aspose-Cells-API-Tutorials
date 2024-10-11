@@ -18,7 +18,7 @@ Trước khi đi sâu vào những điều hấp dẫn, hãy đảm bảo bạn 
 1. Môi trường phát triển .NET: Đảm bảo bạn có môi trường phát triển .NET sẵn sàng. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
 2.  Thư viện Aspose.Cells: Bạn cũng nên cài đặt thư viện Aspose.Cells. Nếu bạn chưa thực hiện việc này, đừng lo lắng! Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Biết những kiến thức cơ bản về lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
-4. Tệp Excel: Chuẩn bị sẵn tệp Excel mà bạn muốn làm việc. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng một tệp đơn giản có tên`book1.xlsx` với ít nhất một bảng tính có tên "Sheet1".
+4.  Tệp Excel: Chuẩn bị sẵn tệp Excel mà bạn muốn làm việc. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng một tệp đơn giản có tên`book1.xlsx` với ít nhất một bảng tính có tên "Sheet1".
 
 Bây giờ bạn đã sẵn sàng, chúng ta hãy bắt đầu thôi!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Chỉ định thư mục tài li�
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kết hợp để tạo thành đường dẫn đầy đủ
 ```
 
- Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế trên hệ thống của bạn nơi`book1.xlsx` được lưu trữ. Sử dụng`Path.Combine` rất gọn gàng vì nó đảm bảo đường dẫn được xây dựng chính xác trên các hệ điều hành khác nhau.
+ Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn nơi`book1.xlsx` được lưu trữ. Sử dụng`Path.Combine` rất gọn gàng vì nó đảm bảo đường dẫn được xây dựng chính xác trên các hệ điều hành khác nhau.
 
 ## Bước 2: Tạo luồng tệp
 

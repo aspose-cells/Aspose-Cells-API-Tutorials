@@ -154,4 +154,4 @@ Ja! För att skydda flera kolumner, upprepa helt enkelt kolumnlåskoden för var
 Aspose.Cells stöder en mängd olika format inklusive XLSX, XLS, CSV och mer.
 
 ### Hur får jag support för Aspose.Cells?
- Du kan hitta hjälp och stöd från samhället på[Aspose forum](https://forum.aspose.com/c/cells/9).
+ Du kan hitta hjälp och samhällsstöd på[Aspose forum](https://forum.aspose.com/c/cells/9).

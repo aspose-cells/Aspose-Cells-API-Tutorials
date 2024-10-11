@@ -2,7 +2,7 @@
 title: Excel でのデータ統合
 linktitle: Excel でのデータ統合
 second_title: Aspose.Cells Java Excel 処理 API
-description: より優れた洞察力と意思決定のために、Excel でデータを効率的に統合する方法を学びます。Aspose.Cells for Java を使用したソース コード付きのステップ バイ ステップ ガイド。
+description: より優れた洞察と意思決定のために、Excel でデータを効率的に統合する方法を学びます。Aspose.Cells for Java を使用したソース コード付きのステップ バイ ステップ ガイド。
 type: docs
 weight: 19
 url: /ja/java/spreadsheet-automation/data-integration-in-excel/

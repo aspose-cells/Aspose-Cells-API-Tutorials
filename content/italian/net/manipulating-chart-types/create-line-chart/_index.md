@@ -50,14 +50,14 @@ Il primo passo è definire dove vuoi salvare il tuo file di output. È come impo
 // Directory di uscita
 string outputDir = "Your Output Directory";
 ```
- Sostituire`"Your Output Directory"`con il percorso effettivo in cui si desidera salvare il file Excel generato.
+ Sostituire`"Your Output Directory"` con il percorso effettivo in cui si desidera salvare il file Excel generato.
 
 ## Passaggio 2: creare un'istanza dell'oggetto Workbook
 
 Poi, dobbiamo creare una nuova istanza di cartella di lavoro. Pensa alla cartella di lavoro come alla tela su cui fluirà la tua creatività. 
 
 ```csharp
-// Creazione di un'istanza di un oggetto Workbook
+//Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 Questa riga inizializza una nuova cartella di lavoro che conterrà tutti i dati e gli elementi visivi.

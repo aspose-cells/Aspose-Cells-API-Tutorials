@@ -122,7 +122,7 @@ Console.WriteLine("ChangeTickLabelDirection executed successfully.");
 
 ## 结论
 
-就这样！只需几个步骤，您就可以使用 Aspose.Cells for .NET 修改 Excel 图表中刻度标签的方向。通过利用这个强大的库，您可以增强图表的可读性，让观众更容易理解数据。无论是用于演示、报告还是个人项目，您现在都具备了使 Excel 图表具有视觉吸引力的知识。
+就这样！只需几个步骤，您就可以使用 Aspose.Cells for .NET 修改 Excel 图表中刻度标签的方向。通过利用这个强大的库，您可以增强图表的可读性，让观众更容易理解数据。无论是用于演示、报告还是个人项目，您现在都具备了使您的 Excel 图表具有视觉吸引力的知识。
 
 ## 常见问题解答
 

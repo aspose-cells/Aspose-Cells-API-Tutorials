@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Sonra, bir çalışma kitabının yeni bir örneğini oluşturalım. Çalışma kitabını, verilerinizi boyayabileceğiniz boş bir tuval olarak düşünün.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 

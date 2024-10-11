@@ -9,7 +9,7 @@ url: /nl/net/advanced-chart-operations/
 ---
 ## Invoering
 
-Aspose.Cells voor .NET is uw go-to-tool voor het beheren, manipuleren en aanpassen van Excel-grafieken in code. Of u nu een beginner of een expert bent, geavanceerde grafiekbewerkingen kunnen uw Excel-vaardigheden naar een hoger niveau tillen. Dit artikel introduceert verschillende krachtige tutorials die alles behandelen, van het maken van 3D-grafieken tot het instellen van gegevenslabels en het werken met sparklines. Laten we eens kijken hoe u het volledige potentieel van Excel-grafieken kunt benutten met Aspose.Cells voor .NET!
+Aspose.Cells voor .NET is uw go-to tool voor het beheren, manipuleren en aanpassen van Excel-grafieken in code. Of u nu een beginner of een expert bent, geavanceerde grafiekbewerkingen kunnen uw Excel-vaardigheden naar een hoger niveau tillen. Dit artikel introduceert verschillende krachtige tutorials die alles behandelen, van het maken van 3D-grafieken tot het instellen van gegevenslabels en het werken met sparklines. Laten we eens kijken hoe u het volledige potentieel van Excel-grafieken kunt benutten met Aspose.Cells voor .NET!
 
 ## 3D-indeling toepassen op grafiek
 
@@ -46,7 +46,7 @@ Soms moet u de manier waarop getallen in uw grafiekreeks worden opgemaakt aanpas
 
 ## Conclusie
 
-Van het verbeteren van diagramvisuals tot het aanpassen van diagramposities, Aspose.Cells voor .NET vereenvoudigt geavanceerde Excel-diagrambewerkingen. Door deze tutorials te volgen, kunt u uw datavisualisatievaardigheden verbeteren en uw Excel-diagrammen echt laten opvallen. Of u nu opmaakt in 3D of werkt met sparklines, Aspose.Cells voor .NET zorgt voor een soepele, moeiteloze implementatie.
+Van het verbeteren van diagrammen tot het aanpassen van diagramposities, Aspose.Cells voor .NET vereenvoudigt geavanceerde Excel-diagrambewerkingen. Door deze tutorials te volgen, kunt u uw datavisualisatievaardigheden verbeteren en uw Excel-diagrammen echt laten opvallen. Of u nu opmaakt in 3D of werkt met sparklines, Aspose.Cells voor .NET zorgt voor een soepele, moeiteloze implementatie.
 
 ## Geavanceerde grafiekbewerkingen tutorials
 ### [3D-indeling toepassen op grafiek](./apply-3d-format-to-chart/)
@@ -57,7 +57,7 @@ Leer hoe u de grootte en positie van grafieken in Excel kunt wijzigen met Aspose
 Wijzig snel de richting van maatstreeplabels in Excel-grafieken met Aspose.Cells voor .NET. Volg deze handleiding voor een naadloze implementatie.
 ### [Excel 2016-grafieken lezen en manipuleren](./read-and-manipulate-excel-2016-charts/)
 Leer hoe u Excel 2016-grafieken kunt lezen en bewerken met Aspose.Cells voor .NET met deze stapsgewijze handleiding.
-### [Stel het type gegevenslabels van de grafiek in](./set-shape-type-of-data-labels-of-chart/)
+### [Stel het vormtype van de gegevenslabels van de grafiek in](./set-shape-type-of-data-labels-of-chart/)
 Verbeter uw Excel-grafieken met aangepaste gegevenslabelvormen met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding om uw gegevenspresentatie te verbeteren.
 ### [Categoriegegevens instellen](./setting-category-data/)
 Leer hoe u categoriegegevens in Excel-grafieken instelt met Aspose.Cells voor .NET. Volg onze stapsgewijze tutorial voor eenvoudige implementatie.

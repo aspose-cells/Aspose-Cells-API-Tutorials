@@ -9,7 +9,7 @@ url: /fr/net/setting-chart-appearance/set-titles-and-axes-in-chart/
 ---
 ## Introduction
 
-La création de graphiques visuellement attrayants et informatifs est un élément essentiel de l'analyse et de la présentation des données. Dans cet article, nous découvrirons comment définir des titres et des axes dans des graphiques à l'aide d'Aspose.Cells pour .NET. Grâce à ses fonctionnalités robustes, Aspose.Cells vous permet de créer, de manipuler et de personnaliser efficacement des fichiers Excel. À la fin de ce guide, vous serez en mesure de créer un graphique avec des titres et des axes correctement définis qui communiquent efficacement vos données.
+La création de graphiques visuellement attrayants et informatifs est un élément essentiel de l'analyse et de la présentation des données. Dans cet article, nous allons découvrir comment définir des titres et des axes dans des graphiques à l'aide d'Aspose.Cells pour .NET. Grâce à ses fonctionnalités robustes, Aspose.Cells vous permet de créer, de manipuler et de personnaliser efficacement des fichiers Excel. À la fin de ce guide, vous serez en mesure de créer un graphique avec des titres et des axes correctement définis qui communiquent efficacement vos données.
 
 ## Prérequis
 
@@ -47,7 +47,7 @@ Dans cette étape, nous allons instancier un nouveau classeur.
 ```csharp
 //Répertoire de sortie
 static string outputDir = "Your Document Directory";
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 

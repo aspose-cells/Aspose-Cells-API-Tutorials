@@ -54,7 +54,7 @@ Workbook workbook = new Workbook();
 
 ## 第 2 步：访问工作表
 
-一旦我们有了工作簿，下一个任务就是访问我们将添加数据和图表的工作表。
+一旦我们有了工作簿，下一个任务就是访问我们将要添加数据和图表的工作表。
 
 要获取新创建的工作簿中的第一个工作表，您可以这样做：
 
@@ -141,7 +141,7 @@ chart.NSeries[0].Area.ForegroundColor = Color.Red;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-渐变可为您的图表增添额外的专业气息。
+渐变可为您的图表增添额外的专业感。
 
 ## 步骤 8：保存工作簿
 
@@ -157,7 +157,7 @@ workbook.Save(outputDir + "outputSettingChartArea.xlsx");
 
 ## 结论
 
-恭喜！您已成功学会如何使用 Aspose.Cells for .NET 设置图表区域。借助这个强大的库，您可以操作 Excel 文件、添加图表并自定义它们以满足您的需求。这为增强应用程序中的数据可视化开辟了无限可能。如果您有任何疑问或想将您的图表技能提升到一个新的水平，请随时进一步探索！
+恭喜！您已成功学会如何使用 Aspose.Cells for .NET 设置图表区域。借助这个强大的库，您可以操作 Excel 文件、添加图表并自定义它们以满足您的需求。这为您在应用程序中增强数据可视化开辟了无限可能。如果您有任何疑问或想将您的图表技能提升到一个新的水平，请随时进一步探索！
 
 ## 常见问题解答
 
@@ -168,7 +168,7 @@ Aspose.Cells 是一个用于以编程方式管理 Excel 文件的 .NET 库。它
 是的！Aspose.Cells 拥有适用于不同平台的库，包括 Java、Python 和 Cloud，使其适用于各种环境。
 
 ### 有免费试用吗？
-当然可以！您可以免费试用 Aspose.Cells[这里](https://releases.aspose.com/).
+当然！您可以免费试用 Aspose.Cells[这里](https://releases.aspose.com/).
 
 ### 如果在使用 Aspose.Cells 时遇到问题怎么办？
 您可以从 Aspose.Cells 社区和论坛寻求帮助和支持[这里](https://forum.aspose.com/c/cells/9).

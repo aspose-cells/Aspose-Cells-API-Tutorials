@@ -46,7 +46,7 @@ Herhangi bir Excel dosyasını düzenleyebilmeniz için dosyanızın konumunu be
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu adımda Excel dosyanızın konumunu atayacaksınız`dataDir`dize. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`.xls` dosya bulundu.
+ Bu adımda Excel dosyanızın konumunu atayacaksınız`dataDir` dize. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`.xls` dosya bulundu.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Excel dosyaları genellikle birden fazla çalışma sayfası içerir. Bu eğitim için çalışma kitabındaki ilk çalışma sayfasına erişiyoruz.
 
 ```csharp
-// Excel dosyasındaki ilk çalışma sayfasına erişim
+//Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Şimdi eğlenceli kısma geliyoruz – kılavuz çizgilerini gizleme! Sadece bir satır kodla kılavuz çizgilerinin görünürlüğünü değiştirebilirsiniz.
 
 ```csharp
-// Excel dosyasının ilk çalışma sayfasının kılavuz çizgilerini gizleme
+//Excel dosyasının ilk çalışma sayfasının kılavuz çizgilerini gizleme
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Dosya akışını kapatmak çok önemlidir çünkü tüm kaynakların düzgün b
 
 ## Çözüm
 
- Ve işte bitti! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında kılavuz çizgilerini nasıl görüntüleyeceğinizi ve gizleyeceğinizi öğrendiniz. İster bir raporu cilalıyor olun ister verileri daha okunabilir bir biçimde sunuyor olun, bu basit teknik elektronik tablolarınızın görünümünü önemli ölçüde etkileyebilir. En iyi yanı mı? Büyük değişiklikler yapmak için yalnızca birkaç satır kod gerekir. Bunu denemeye hazırsanız, bir tane almayı unutmayın[ücretsiz deneme](https://releases.aspose.com/) ve kodlamaya başlayın!
+Ve işte bitti! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında kılavuz çizgilerini nasıl görüntüleyeceğinizi ve gizleyeceğinizi öğrendiniz. İster bir raporu cilalıyor olun ister verileri daha okunabilir bir biçimde sunuyor olun, bu basit teknik elektronik tablolarınızın görünümünü önemli ölçüde etkileyebilir. En iyi yanı mı? Büyük değişiklikler yapmak için yalnızca birkaç satır kod gerekir. Bunu denemeye hazırsanız, bir tane almayı unutmayın[ücretsiz deneme](https://releases.aspose.com/) ve kodlamaya başlayın!
 
 ## SSS
 

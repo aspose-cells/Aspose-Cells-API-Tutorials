@@ -112,7 +112,7 @@ Tutaj nadajesz tytuł swojej pracy. Pomaga to widzom zrozumieć, co oglądają.
 Teraz zdecydujmy, jak etykieta jest pozycjonowana względem wykresu. Tutaj ustawimy ją jako swobodnie pływającą, co oznacza, że można ją przesuwać niezależnie od elementów wykresu.
 
 ```csharp
-//Ustaw typ rozmieszczenia, czyli sposób, w jaki etykieta będzie dołączana do komórek.
+// Ustaw typ rozmieszczenia, czyli sposób, w jaki etykieta będzie dołączana do komórek.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ I masz to! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspos
 Tak! Możesz zmienić czcionkę, kolor, rozmiar i inne właściwości etykiety, aby dopasować je do swoich potrzeb.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells jest produktem płatnym, jednak możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcje.
+ Aspose.Cells jest produktem płatnym, jednak możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/)aby poznać jego funkcje.
 
 ### A co jeśli chcę dodać wiele etykiet?
 Możesz powtórzyć kroki dodawania etykiet tyle razy, ile potrzebujesz, za każdym razem zmieniając ich położenie i tekst.

@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Każdy z tych bloków naśladuje poprzedni krok, ale dostosowuje`PaperSize` nieruchomości odpowiednio. Poprzez prostą zmianę wskaźnika rozmiaru, bez wysiłku uzyskasz różne wymiary papieru. To jak zmiana rozmiaru pudełka w zależności od tego, co musisz przechowywać!
+ Każdy z tych bloków naśladuje poprzedni krok, ale dostosowuje`PaperSize`nieruchomości odpowiednio. Poprzez prostą zmianę wskaźnika rozmiaru, bez wysiłku uzyskasz różne wymiary papieru. To jak zmiana rozmiaru pudełka w zależności od tego, co musisz przechowywać!
 
 ## Wniosek
 

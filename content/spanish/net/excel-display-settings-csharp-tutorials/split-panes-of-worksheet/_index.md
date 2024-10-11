@@ -38,14 +38,14 @@ Ahora que cubrimos lo esencial, pasemos a la parte emocionante: ¡dividir panele
 Antes de poder dividir los paneles, necesitamos un libro de trabajo con el que trabajar. Este paso es tan esencial como abrir un libro antes de empezar a leerlo.
 
 ```csharp
-//La ruta al directorio de documentos
+// La ruta al directorio de documentos
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Cree una instancia de un nuevo libro de trabajo y abra un archivo de plantilla
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- En el código anterior, reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra su archivo de Excel.`Workbook` La clase carga el archivo Excel en la memoria.
+ En el código anterior, reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra su archivo de Excel.`Workbook`La clase carga el archivo Excel en la memoria.
 
 ## Paso 2: Establezca la celda activa
 
@@ -84,7 +84,7 @@ Después de dividir los paneles, solo queda guardar el trabajo. Este último pas
 book.Save(dataDir + "output.xls");
 ```
 
- Aquí, el`Save()`El método guarda el libro de trabajo con los paneles recién divididos en un archivo de salida de Excel. Los cambios que realizó ahora están listos para que usted (o cualquier otra persona) los use.
+ Aquí, el`Save()` El método guarda el libro de trabajo con los paneles recién divididos en un archivo de salida de Excel. Los cambios que realizó ahora están listos para que usted (o cualquier otra persona) los use.
 
 ## Conclusión
 

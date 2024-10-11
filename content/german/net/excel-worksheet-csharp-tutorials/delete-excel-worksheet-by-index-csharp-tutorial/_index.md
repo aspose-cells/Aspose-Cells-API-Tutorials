@@ -55,7 +55,7 @@ Zuerst müssen Sie den Speicherort Ihrer Excel-Datei angeben. Hier teilen Sie de
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen Sie einfach`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, auf dem Ihr`book1.xls` Datei befindet. Stellen Sie sich das so vor, als würden Sie Ihrem GPS vor Beginn einer Autofahrt die richtige Adresse mitteilen!
+ Ersetzen Sie einfach`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, auf dem Ihr`book1.xls`Datei befindet. Stellen Sie sich das so vor, als würden Sie Ihrem GPS vor Beginn einer Autofahrt die richtige Adresse mitteilen!
 
 ## Schritt 4: Öffnen Sie die Excel-Datei mit einem FileStream
 

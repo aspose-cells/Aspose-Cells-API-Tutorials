@@ -132,7 +132,7 @@ workbook.Save(outputDir + "outputModifyLineChart.xlsx");
 
 ## Passaggio 9: eseguire il programma
 
-Infine, per vedere tutto in azione, esegui la tua applicazione console. Dovresti vedere il messaggio che indica che la modifica è riuscita!
+Infine, per vedere tutto in azione, esegui la tua applicazione console. Dovresti vedere il messaggio che indica che la modifica è stata eseguita correttamente!
 
 ```csharp
 Console.WriteLine("ModifyLineChart executed successfully.");

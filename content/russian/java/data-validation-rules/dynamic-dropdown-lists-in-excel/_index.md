@@ -2,7 +2,7 @@
 title: Динамические раскрывающиеся списки в Excel
 linktitle: Динамические раскрывающиеся списки в Excel
 second_title: API обработки Java Excel Aspose.Cells
-description: Откройте для себя мощь динамических раскрывающихся списков в Excel. Пошаговое руководство по использованию Aspose.Cells для Java. Улучшите свои электронные таблицы с помощью интерактивного выбора данных.
+description: Откройте для себя мощь динамических выпадающих списков в Excel. Пошаговое руководство по использованию Aspose.Cells для Java. Улучшите свои электронные таблицы с помощью интерактивного выбора данных.
 type: docs
 weight: 11
 url: /ru/java/data-validation-rules/dynamic-dropdown-lists-in-excel/

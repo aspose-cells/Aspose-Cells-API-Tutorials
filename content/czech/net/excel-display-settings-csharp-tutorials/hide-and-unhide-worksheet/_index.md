@@ -36,7 +36,7 @@ Nyní, když jsme všichni nastaveni a připraveni ke kódování, pojďme si te
 
 ## Krok 1: Nastavte své prostředí
 
- V tomto kroku nastavíte cestu k souboru, kde se nachází váš soubor Excel. Nahradit`"YOUR DOCUMENT DIRECTORY"` s cestou k vašemu souboru.
+ tomto kroku nastavíte cestu k souboru, kde se nachází váš soubor Excel. Nahradit`"YOUR DOCUMENT DIRECTORY"` s cestou k vašemu souboru.
 
 ```csharp
 // Cesta k adresáři dokumentů.
@@ -72,7 +72,7 @@ Tento krok je jako říct "Ahoj!" do sešitu, takže ví, že jste tam, abyste p
 S sešitem v ruce je čas otevřít konkrétní list, který chcete skrýt. Začneme prvním pracovním listem.
 
 ```csharp
-// Přístup k prvnímu listu v souboru aplikace Excel
+//Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Po skrytí listu budete chtít uložit změny, které jste v souboru provedli. T
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Zde uložíme sešit jako`output.out.xls`. Je to jako zapečetit svou práci do obálky. Pokud to neuložíte, všechna vaše tvrdá práce bude ztracena!
+ Zde uložíme sešit jako`output.out.xls`. Je to jako zapečetit svou práci do obálky. Pokud to neuložíte, všechna vaše tvrdá práce bude ztracena!
 
 ## Krok 7: Zavřete Stream souborů
 
@@ -132,7 +132,7 @@ Manipulace s excelovými listy pomocí Aspose.Cells for .NET nemusí být sklič
  Ano, můžete procházet`Worksheets` sběr a nastavit`IsVisible` vlastnost na hodnotu false pro každý list, který chcete skrýt.
 
 ### Jaké formáty souborů Aspose.Cells podporuje?
- Aspose.Cells podporuje různé formáty včetně XLS, XLSX, CSV a dalších. Můžete zkontrolovat úplný seznam[zde](https://reference.aspose.com/cells/net/).
+Aspose.Cells podporuje různé formáty včetně XLS, XLSX, CSV a dalších. Můžete zkontrolovat celý seznam[zde](https://reference.aspose.com/cells/net/).
 
 ### Potřebuji licenci k používání Aspose.Cells?
  Můžete začít s bezplatnou zkušební verzí a prozkoumat jeho funkce. Pro produkční aplikace je vyžadována plná licence. Najděte si o tom více[zde](https://purchase.aspose.com/buy).

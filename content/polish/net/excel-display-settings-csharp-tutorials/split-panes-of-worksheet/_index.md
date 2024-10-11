@@ -38,14 +38,14 @@ Teraz, gdy omówiliśmy już podstawy, możemy przejść do ekscytującej częś
 Zanim będziemy mogli podzielić panele, potrzebujemy skoroszytu, z którym będziemy pracować! Ten krok jest tak samo istotny, jak otwarcie książki przed rozpoczęciem czytania.
 
 ```csharp
-//Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Utwórz nowy skoroszyt i otwórz plik szablonu
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- W powyższym kodzie zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik Excel.`Workbook` Klasa ładuje plik Excela do pamięci.
+ W powyższym kodzie zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik Excel.`Workbook`Klasa ładuje plik Excela do pamięci.
 
 ## Krok 2: Ustaw aktywną komórkę
 
@@ -84,11 +84,11 @@ Jaki pożytek z całej twojej ciężkiej pracy, jeśli jej nie zachowasz? Zapisy
 book.Save(dataDir + "output.xls");
 ```
 
- Tutaj,`Save()`Metoda zapisuje skoroszyt z nowo podzielonymi panelami w pliku wyjściowym Excela. Wprowadzone zmiany są teraz gotowe do użycia przez Ciebie — lub kogokolwiek innego.
+ Tutaj,`Save()` Metoda zapisuje skoroszyt z nowo podzielonymi panelami w pliku wyjściowym Excela. Wprowadzone zmiany są teraz gotowe do użycia przez Ciebie — lub kogokolwiek innego.
 
 ## Wniosek
 
-I masz to! Właśnie nauczyłeś się, jak dzielić panele w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Koniec z niekończącym się przewijaniem lub traceniem kontroli nad danymi. Ta metoda sprawia, że obsługa dużych plików Excela jest o wiele mniej przytłaczająca i o wiele bardziej wydajna. Dzięki możliwości dzielenia paneli możesz teraz śledzić krytyczne punkty danych podczas pracy ze złożonymi arkuszami kalkulacyjnymi.
+masz to! Właśnie nauczyłeś się, jak dzielić panele w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Koniec z niekończącym się przewijaniem lub traceniem kontroli nad danymi. Ta metoda sprawia, że obsługa dużych plików Excela jest o wiele mniej przytłaczająca i o wiele bardziej wydajna. Dzięki możliwości dzielenia paneli możesz teraz śledzić krytyczne punkty danych podczas pracy ze złożonymi arkuszami kalkulacyjnymi.
 
 ## Najczęściej zadawane pytania
 

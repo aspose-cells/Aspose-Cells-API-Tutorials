@@ -139,7 +139,7 @@ Tento řádek uloží váš sešit jako soubor aplikace Excel. Ujistěte se, že
 
 ## Závěr
 
-A tady to máte! Úspěšně jste se naučili chránit konkrétní buňky v excelovém listu pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete ochránit svá data a zajistit, aby k úpravě důležitých informací měli přístup pouze ti správní lidé. Pamatujte, že ochrana buněk je jen jednou z mnoha funkcí nabízených Aspose.Cells, které pomáhají efektivně spravovat a manipulovat se soubory Excel.
+tady to máte! Úspěšně jste se naučili chránit konkrétní buňky v excelovém listu pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu můžete ochránit svá data a zajistit, aby k úpravě důležitých informací měli přístup pouze ti správní lidé. Pamatujte, že ochrana buněk je jen jednou z mnoha funkcí nabízených Aspose.Cells, které pomáhají efektivně spravovat a manipulovat se soubory Excel.
 
 ## FAQ
 

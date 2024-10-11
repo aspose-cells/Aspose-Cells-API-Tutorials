@@ -103,7 +103,7 @@ Son olarak, tüm kaynakların serbest bırakılması için dosya akışını kap
 fstream.Close();
 ```
 
- Kapatma`fstream` Uygulamanızda bellek sızıntısı veya açık dosya kilidi olmamasını sağladığı için önemlidir.
+ Kapatma`fstream`Uygulamanızda bellek sızıntısı veya açık dosya kilidi olmamasını sağladığı için önemlidir.
 
 ## Çözüm
 
@@ -121,7 +121,7 @@ Aspose.Cells, Excel elektronik tablolarını yönetmek için güçlü bir .NET k
  Ücretsiz deneme sürümünü kullanabilirsiniz ancak devam eden ticari kullanım için lisans gereklidir. Satın alma seçeneklerini bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells için destek mevcut mu?  
- Evet, Aspose, erişebileceğiniz forumları aracılığıyla destek sağlar[Burada](https://forum.aspose.com/c/cells/9).
+Evet, Aspose, erişebileceğiniz forumları aracılığıyla destek sağlar[Burada](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?  
-Değerlendirme amaçlı geçici lisans başvurusunu şu adresten yapabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+ Değerlendirme amaçlı geçici lisans başvurusunu şu adresten yapabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).

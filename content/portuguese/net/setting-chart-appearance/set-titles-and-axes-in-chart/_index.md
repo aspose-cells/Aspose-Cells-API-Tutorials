@@ -47,7 +47,7 @@ Nesta etapa, vamos instanciar uma nova pasta de trabalho.
 ```csharp
 //Diretório de saída
 static string outputDir = "Your Document Directory";
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

@@ -78,7 +78,7 @@ workbook.Worksheets[0].VerticalPageBreaks.Clear();
 
 ## 第 5 步：儲存您的更改
 
-最後，您不想失去所有這些辛苦工作，對嗎？是時候儲存新調整的工作簿了。
+最後，您不想失去所有這些辛苦工作，對吧？是時候儲存新調整的工作簿了。
 
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");

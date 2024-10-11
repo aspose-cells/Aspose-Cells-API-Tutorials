@@ -130,7 +130,7 @@ Congelar painéis permite que você mantenha linhas ou colunas específicas vis�
 ### Posso congelar várias linhas e colunas de uma só vez?
  Sim, você pode congelar qualquer número de linhas e colunas especificando suas posições usando o`FreezePanes` método.
 
-### O Aspose.Cells é gratuito?
+### Aspose.Cells é gratuito?
 Aspose.Cells oferece um teste gratuito, mas você precisará comprar uma licença para uso de longo prazo. Verifique o[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
 
 ### Onde posso encontrar suporte para o Aspose.Cells?

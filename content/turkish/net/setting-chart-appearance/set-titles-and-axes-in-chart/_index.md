@@ -47,7 +47,7 @@ Bu adımda yeni bir çalışma kitabı örneği oluşturacağız.
 ```csharp
 //Çıktı dizini
 static string outputDir = "Your Document Directory";
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 

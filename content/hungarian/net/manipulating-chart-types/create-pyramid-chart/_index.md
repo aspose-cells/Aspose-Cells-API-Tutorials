@@ -15,7 +15,7 @@ Az adatok vizuális megjelenítésének létrehozása számos területen kulcsfo
 
 Mielőtt belevetnénk magunkat a piramisdiagramok izgalmas világába, készítsünk el néhány alapvető előfeltételt a zökkenőmentes vitorlázás élményéhez.
 
-### C# és .NET alapismeretek
+### C# és .NET alapszintű ismerete
 Alapvető ismeretekkel kell rendelkeznie a C# és .NET fejlesztésről. A Visual Studio környezet ismerete is hasznos lenne.
 
 ### Aspose.Cells for .NET Library
@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Ezután hozzunk létre egy munkafüzet új példányát. Gondoljon a munkafüzetre úgy, mint egy üres vászonra, ahol megfestheti adatait.
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 

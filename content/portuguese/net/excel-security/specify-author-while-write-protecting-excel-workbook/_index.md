@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Certifique-se de substituir`"YOUR SOURCE DIRECTORY"` e`"YOUR OUTPUT DIRECTORY"`com caminhos reais na sua máquina. Pense nisso como criar um espaço de trabalho organizado antes de começar a criar sua obra-prima!
+ Certifique-se de substituir`"YOUR SOURCE DIRECTORY"` e`"YOUR OUTPUT DIRECTORY"` com caminhos reais na sua máquina. Pense nisso como criar um espaço de trabalho organizado antes de começar a criar sua obra-prima!
 
 ## Etapa 2: Crie uma pasta de trabalho vazia
 
@@ -60,7 +60,7 @@ Assim como um artista começa com uma tela em branco, você começa com uma past
 
 ## Etapa 3: Escreva e proteja a pasta de trabalho
 
-A proteção contra gravação é um aspecto crucial, especialmente se você quiser garantir que a integridade dos seus dados permaneça intacta. Você pode fazer isso com uma senha.
+proteção contra gravação é um aspecto crucial, especialmente se você quiser garantir que a integridade dos seus dados permaneça intacta. Você pode fazer isso com uma senha.
 
 ```csharp
 // Proteja a pasta de trabalho com senha.
@@ -89,18 +89,18 @@ O passo final é salvar a pasta de trabalho no formato desejado. Neste caso, sal
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Aqui, o arquivo de saída será salvo no diretório de saída especificado com o nome`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. É aqui que seu trabalho duro finalmente compensa, e você pode compartilhar sua pasta de trabalho com outras pessoas, sabendo que ela está bem protegida!
+ Aqui, o arquivo de saída será salvo no diretório de saída especificado com o nome`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`É aqui que seu trabalho duro finalmente compensa, e você pode compartilhar sua pasta de trabalho com outras pessoas, sabendo que ela está bem protegida!
 
 ## Conclusão
 
-aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir proteção contra gravação com uma senha, especificar um autor e salvá-la perfeitamente usando o Aspose.Cells para .NET. Essa combinação de funcionalidades não apenas protegerá seus dados, mas também manterá sua integridade e fornecerá atribuição adequada.
+E aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir proteção contra gravação com uma senha, especificar um autor e salvá-la perfeitamente usando o Aspose.Cells para .NET. Essa combinação de funcionalidades não apenas protegerá seus dados, mas também manterá sua integridade e fornecerá atribuição adequada.
 
 ## Perguntas frequentes
 
 ### Posso personalizar a senha para proteção contra gravação?  
  Sim, você pode personalizar a senha conforme suas necessidades. Basta substituir`YOUR_PASSWORD` com a senha desejada.
 
-### O Aspose.Cells é gratuito?  
+### Aspose.Cells é gratuito?  
  Aspose.Cells é uma biblioteca paga, mas você pode experimentá-la gratuitamente com um teste por tempo limitado. Visite o[Link de teste gratuito](https://releases.aspose.com/) para começar.
 
 ### Como faço para comprar a biblioteca Aspose.Cells?  
@@ -110,4 +110,4 @@ aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir pro
 Absolutamente! Aspose.Cells funciona perfeitamente em aplicativos de desktop e web usando .NET.
 
 ### O que devo fazer se precisar de suporte?  
- Para perguntas e solução de problemas, a comunidade Aspose é muito útil. Você pode visitar o site deles[fórum de suporte](https://forum.aspose.com/c/cells/9) para obter assistência.
+Para perguntas e solução de problemas, a comunidade Aspose é muito útil. Você pode visitar o site deles[fórum de suporte](https://forum.aspose.com/c/cells/9) para obter assistência.

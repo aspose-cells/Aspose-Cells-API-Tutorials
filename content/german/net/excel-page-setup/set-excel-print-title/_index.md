@@ -9,7 +9,7 @@ url: /de/net/excel-page-setup/set-excel-print-title/
 ---
 ## Einführung
 
-Wenn Sie mit Excel-Tabellen arbeiten, ist es entscheidend, dass Ihre gedruckten Dokumente übersichtlich sind. Haben Sie schon einmal einen Bericht ausgedruckt und festgestellt, dass die Titel nicht auf jeder Seite angezeigt werden? Frustrierend, oder? Keine Angst! In dieser Anleitung führen wir Sie durch die Schritte zum Festlegen von Drucktiteln in Excel mit Aspose.Cells für .NET. Wenn Sie schon immer den Druckvorgang optimieren wollten, damit Ihre Tabellen professioneller aussehen, sind Sie hier richtig.
+Wenn Sie mit Excel-Tabellen arbeiten, ist es wichtig, dass Ihre gedruckten Dokumente übersichtlich sind. Haben Sie schon einmal einen Bericht ausgedruckt und festgestellt, dass die Titel nicht auf jeder Seite angezeigt werden? Frustrierend, oder? Keine Angst! In dieser Anleitung führen wir Sie durch die Schritte zum Festlegen von Drucktiteln in Excel mit Aspose.Cells für .NET. Wenn Sie schon immer den Druckvorgang optimieren wollten, damit Ihre Tabellen professioneller aussehen, sind Sie hier richtig.
 
 ## Voraussetzungen
 
@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 
- Als nächstes erstellen wir eine Instanz des`Workbook` Klasse, die eine Excel-Datei darstellt.
+ Als nächstes erstellen wir eine Instanz des`Workbook`Klasse, die eine Excel-Datei darstellt.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Diese Zeile initialisiert eine neue Arbeitsmappe und macht sie bereit zur Bearbe
 
 ## Schritt 3: PageSetup-Referenz abrufen
 
- Jetzt greifen wir auf die Arbeitsblätter zu.`PageSetup`Eigenschaft. Hier werden die meisten unserer Druckeinstellungen konfiguriert.
+ Jetzt greifen wir auf die Arbeitsblätter zu.`PageSetup` Eigenschaft. Hier werden die meisten unserer Druckeinstellungen konfiguriert.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

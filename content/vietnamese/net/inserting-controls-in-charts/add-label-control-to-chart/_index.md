@@ -112,7 +112,7 @@ label.Text = "A Label In Chart";
 Bây giờ, hãy quyết định cách nhãn được định vị liên quan đến biểu đồ. Ở đây, chúng ta sẽ đặt nhãn thành dạng thả nổi, nghĩa là nhãn có thể được di chuyển độc lập với các thành phần biểu đồ.
 
 ```csharp
-//Đặt Kiểu vị trí, cách nhãn được gắn vào ô.
+// Đặt Kiểu vị trí, cách nhãn được gắn vào ô.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Và bạn đã có nó! Bạn đã thêm thành công một điều khiển nhã
 Có! Bạn có thể thay đổi phông chữ, màu sắc, kích thước và các thuộc tính khác của nhãn cho phù hợp với nhu cầu của bạn.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells là một sản phẩm trả phí; tuy nhiên, bạn có thể bắt đầu với[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó.
+ Aspose.Cells là một sản phẩm trả phí; tuy nhiên, bạn có thể bắt đầu với[dùng thử miễn phí](https://releases.aspose.com/)để khám phá các tính năng của nó.
 
 ### Tôi phải làm sao nếu muốn thêm nhiều nhãn?
 Bạn có thể lặp lại các bước thêm nhãn nhiều lần tùy theo nhu cầu, mỗi bước có vị trí và văn bản khác nhau.

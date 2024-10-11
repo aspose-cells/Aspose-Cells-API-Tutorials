@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 
- Artık çıktı dizinimiz olduğuna göre yeni bir çalışma kitabı oluşturalım.`Workbook`sınıf, Excel dosyalarıyla uğraşmanın başlangıç noktasıdır.
+ Artık çıktı dizinimiz olduğuna göre yeni bir çalışma kitabı oluşturalım.`Workbook` sınıf, Excel dosyalarıyla uğraşmanın başlangıç noktasıdır.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Evet! Aspose.Cells, XLS, XLSX, CSV ve diğerleri dahil olmak üzere çeşitli fo
 Kesinlikle! İçerik türü özelliklerine, düzgün bir şekilde serileştirilebildikleri sürece karmaşık nesneler ekleyebilirsiniz.
 
 ### Daha fazla dokümanı nerede bulabilirim?
-Daha ayrıntılı rehberlik için şuraya bakın:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+ Daha ayrıntılı rehberlik için şuraya bakın:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).

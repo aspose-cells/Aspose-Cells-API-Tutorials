@@ -15,7 +15,7 @@ Excel dosyalarıyla çalışırken, başlıklar ve altbilgiler bağlam ve değer
 
 Gerçek kodlara dalmadan önce hazır olmanız gereken birkaç şey var:
 
-1. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin .NET ortamınıza yüklendiğinden emin olun. Henüz yoksa,[buradan indirin](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin .NET ortamınıza yüklendiğinden emin olun. Henüz yoksa,[buradan indirin](https://releases.aspose.com/cells/net/).
 2. Visual Studio veya herhangi bir IDE: C# kodunuzu yazmak ve çalıştırmak için entegre bir geliştirme ortamına ihtiyacınız olacak.
 3.  Örnek Bir Resim: Üstbilgi veya altbilgiye eklemek istediğiniz bir resim hazırlayın. Örneğimiz için, adlı bir şirket logosu kullanacağız.`aspose-logo.jpg`.
 4. Temel C# Bilgisi: Zorunlu olmamakla birlikte, C# dilini anlamak bu eğitimi takip etmenizi kolaylaştıracaktır.
@@ -95,7 +95,7 @@ Resmin ikili verileri elimizde olduğuna göre artık bunu başlığa ekleyebili
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Bu satır, resmi başlığın orta bölümüne yerleştirir. Parametre`1` başlık bölümünü belirtir.
+ Bu satır, resmi başlığın orta bölümüne yerleştirir. Parametre`1`başlık bölümünü belirtir.
 
 ## Adım 7: Başlık İçeriğini Ayarlama
 

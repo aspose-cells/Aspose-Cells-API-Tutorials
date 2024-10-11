@@ -19,7 +19,7 @@ Sebelum memulai tutorial, pastikan Anda telah menyiapkan semuanya. Berikut ini y
 - Pertama dan terutama, Anda memerlukan Visual Studio. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari situs Microsoft.
 
 ### Pustaka Aspose.Cells
-- Alat penting berikutnya adalah pustaka Aspose.Cells untuk .NET. Anda dapat dengan mudah mendapatkannya dari[Situs web Aspose](https://releases.aspose.com/cells/net/) untuk diunduh. Jika Anda lebih suka menguji sebelum membeli, ada juga[uji coba gratis tersedia](https://releases.aspose.com/).
+-  Alat penting berikutnya adalah pustaka Aspose.Cells untuk .NET. Anda dapat dengan mudah mendapatkannya dari[Situs web Aspose](https://releases.aspose.com/cells/net/) untuk diunduh. Jika Anda lebih suka menguji sebelum membeli, ada juga[uji coba gratis tersedia](https://releases.aspose.com/).
 
 ### Pemahaman Dasar C#
 - Karena kita akan menulis beberapa kode, pemahaman dasar tentang C# akan bermanfaat. Jangan khawatir; saya akan menjelaskannya sambil jalan!
@@ -64,13 +64,13 @@ Sekarang setelah semuanya siap, mari kita mulai bagian pengkodean! Berikut adala
 
 Sebelum kita masuk ke bagian yang menarik, kita perlu menentukan di mana kita ingin menyimpan berkas kita. Anda perlu menyediakan jalur direktori keluaran.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Beralih ke direktori yang Anda tentukan
+string outputDir = "C:\\YourOutputDirectory\\"; // Beralih ke direktori yang Anda tentukan
 ```
  Pastikan untuk mengganti`"C:\\YourOutputDirectory\\"` dengan jalur tempat Anda ingin menyimpan berkas Anda. Anggap ini seperti menyiapkan ruang kerja Anda; Anda perlu tahu di mana Anda meletakkan alat-alat Anda (atau dalam hal ini, berkas Excel Anda).
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
- Berikutnya, kita membuat sebuah instance dari`Workbook` kelas. Di sinilah semua pekerjaan kita akan dilakukan.
+Berikutnya, kita membuat sebuah instance dari`Workbook` kelas. Di sinilah semua pekerjaan kita akan dilakukan.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -137,7 +137,7 @@ Aspose.Cells adalah pustaka yang hebat untuk membuat dan memanipulasi file Excel
 Sama sekali tidak! Seperti yang ditunjukkan dalam tutorial ini, hal itu dapat dilakukan hanya dengan beberapa baris kode sederhana.
 
 ### Di mana saya dapat membeli Aspose.Cells?  
-Anda dapat membeli Aspose.Cells dari mereka[tautan pembelian](https://purchase.aspose.com/buy).
+ Anda dapat membeli Aspose.Cells dari mereka[tautan pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?  
  Aspose menyediakan forum dukungan tempat Anda dapat mengajukan pertanyaan dan menemukan solusi. Lihat forum mereka[halaman dukungan](https://forum.aspose.com/c/cells/9).

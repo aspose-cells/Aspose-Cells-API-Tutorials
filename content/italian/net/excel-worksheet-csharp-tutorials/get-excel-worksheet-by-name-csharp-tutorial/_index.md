@@ -18,7 +18,7 @@ Prima di addentrarci nella parte succosa, assicuriamoci che tu sia pronto per il
 1. Ambiente di sviluppo .NET: assicurati di avere un ambiente di sviluppo .NET pronto all'uso. Puoi usare Visual Studio o qualsiasi altro IDE di tua scelta.
 2.  Libreria Aspose.Cells: dovresti anche avere installata la libreria Aspose.Cells. Se non l'hai ancora fatto, non preoccuparti! Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
 3. Nozioni di base di C#: conoscere le basi della programmazione in C# ti aiuterà a seguire il corso senza problemi.
-4. Un file Excel: tieni pronto un file Excel con cui vorresti lavorare. Per il nostro esempio, useremo un semplice file denominato`book1.xlsx` con almeno un foglio di lavoro denominato "Sheet1".
+4.  Un file Excel: tieni pronto un file Excel con cui vorresti lavorare. Per il nostro esempio, useremo un semplice file denominato`book1.xlsx` con almeno un foglio di lavoro denominato "Sheet1".
 
 Ora che è tutto pronto, iniziamo!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Specifica la directory dei tuoi d
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Combina per formare il percorso completo
 ```
 
- Qui, sostituisci`"YOUR DOCUMENT DIRECTORY"`con il percorso effettivo sul tuo sistema dove`book1.xlsx` è memorizzato. Utilizzando`Path.Combine` è utile perché garantisce che il percorso venga costruito correttamente su diversi sistemi operativi.
+ Qui, sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo sul tuo sistema dove`book1.xlsx` è memorizzato. Utilizzando`Path.Combine` è utile perché garantisce che il percorso venga costruito correttamente su diversi sistemi operativi.
 
 ## Passaggio 2: creare un flusso di file
 

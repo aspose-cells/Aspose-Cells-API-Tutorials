@@ -15,7 +15,7 @@ Dans le monde en constante évolution d'aujourd'hui, la gestion sécurisée des 
 
 Avant de passer au vif du sujet, vous devez préparer quelques éléments :
 
-1. Aspose.Cells pour .NET : téléchargez et installez la dernière version d'Aspose.Cells pour .NET à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells pour .NET : téléchargez et installez la dernière version d'Aspose.Cells pour .NET à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/).
 2. IDE : un environnement de développement configuré pour .NET. Les options les plus courantes incluent Visual Studio ou JetBrains Rider.
 3. Compréhension de base de C# : bien que nous vous guiderons à travers le code étape par étape, une compréhension de base de la programmation C# vous aidera à saisir les concepts plus rapidement.
 4. Votre répertoire de documents : assurez-vous d’avoir configuré un répertoire dans lequel vous pouvez stocker vos fichiers Excel à des fins de test.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Étape 2 : Chargez votre classeur
 
- Ensuite, vous devrez charger le classeur Excel dans lequel vous souhaitez verrouiller les cellules. Pour ce faire, créez une instance de`Workbook` classe et en la pointant vers le fichier Excel souhaité.
+Ensuite, vous devrez charger le classeur Excel dans lequel vous souhaitez verrouiller les cellules. Pour ce faire, créez une instance de`Workbook` classe et en la pointant vers le fichier Excel souhaité.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -71,11 +71,11 @@ Il est maintenant temps de verrouiller une cellule spécifique de votre feuille 
 worksheet.Cells["A1"].GetStyle().IsLocked = true;
 ```
 
-Cette commande simple empêche quiconque d'apporter des modifications à la cellule « A1 ». C'est un peu comme si vous mettiez un panneau « Ne pas toucher » sur votre dessert préféré !
+Cette commande simple empêche quiconque d'apporter des modifications à la cellule « A1 ». C'est un peu comme si vous mettiez un panneau « Ne pas toucher » sur votre dessert préféré !
 
 ## Étape 5 : Protégez la feuille de calcul
 
-Le verrouillage de la cellule est une étape essentielle, mais elle ne suffit pas à elle seule ; vous devez protéger l'intégralité de la feuille de calcul pour appliquer le verrouillage. Cela ajoute une couche de sécurité, garantissant que les cellules verrouillées restent protégées.
+Le verrouillage de la cellule est une étape essentielle, mais elle ne suffit pas à elle seule. Vous devez protéger l'intégralité de la feuille de calcul pour appliquer le verrouillage. Cela ajoute une couche de sécurité, garantissant que les cellules verrouillées restent protégées.
 
 ```csharp
 worksheet.Protect(ProtectionType.All);
@@ -112,4 +112,4 @@ Si vous oubliez le mot de passe, vous ne pourrez pas déprotéger la feuille de 
  Absolument ! Vous pouvez déverrouiller les cellules en définissant le`IsLocked` propriété à`false` et supprimer la protection.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells propose un essai gratuit pour les utilisateurs. Cependant, pour une utilisation continue, vous devez acheter une licence. Visitez le[Page d'achat Aspose](https://purchase.aspose.com/buy) pour plus de détails.
+Aspose.Cells propose un essai gratuit pour les utilisateurs. Cependant, pour une utilisation continue, vous devez acheter une licence. Visitez le[Page d'achat Aspose](https://purchase.aspose.com/buy) pour plus de détails.

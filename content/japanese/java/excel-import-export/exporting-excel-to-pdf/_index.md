@@ -2,7 +2,7 @@
 title: Excel を PDF にエクスポートする
 linktitle: Excel を PDF にエクスポートする
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用して Excel ファイルを PDF に簡単にエクスポートする方法を学びます。ステップバイステップのガイドでプロセスが簡素化されます。今すぐ変換を始めましょう。
+description: Aspose.Cells for Java を使用して、Excel ファイルを PDF に簡単にエクスポートする方法を学びます。ステップ バイ ステップ ガイドでプロセスが簡素化されます。今すぐ変換を始めましょう。
 type: docs
 weight: 14
 url: /ja/java/excel-import-export/exporting-excel-to-pdf/

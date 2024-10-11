@@ -18,7 +18,7 @@ Voordat we in de sappige materie duiken, zorgen we ervoor dat je klaar bent voor
 1. .NET Development Environment: Zorg dat u een .NET development environment klaar hebt staan. U kunt Visual Studio of een andere IDE naar keuze gebruiken.
 2.  Aspose.Cells Library: U zou ook de Aspose.Cells-bibliotheek moeten hebben geïnstalleerd. Als u dit nog niet hebt gedaan, maak u dan geen zorgen! U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Als u de basisbeginselen van C#-programmering kent, kunt u de cursus soepel volgen.
-4. Een Excel-bestand: Zorg dat u een Excel-bestand bij de hand hebt waarmee u wilt werken. Voor ons voorbeeld gebruiken we een eenvoudig bestand met de naam`book1.xlsx` met minstens één werkblad met de naam "Sheet1".
+4.  Een Excel-bestand: Zorg dat u een Excel-bestand bij de hand hebt waarmee u wilt werken. Voor ons voorbeeld gebruiken we een eenvoudig bestand met de naam`book1.xlsx` met minstens één werkblad met de naam "Sheet1".
 
 Nu je er helemaal klaar voor bent, kunnen we aan de slag!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geef uw documentdirectory op
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Combineer om het volledige pad te vormen
 ```
 
- Hier, vervang`"YOUR DOCUMENT DIRECTORY"`met het werkelijke pad op uw systeem waar`book1.xlsx` is opgeslagen. Gebruikmakend van`Path.Combine` is handig omdat het ervoor zorgt dat het pad correct wordt samengesteld over verschillende besturingssystemen.
+ Hier, vervang`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad op uw systeem waar`book1.xlsx` is opgeslagen. Gebruikmakend van`Path.Combine` is handig omdat het ervoor zorgt dat het pad correct wordt samengesteld over verschillende besturingssystemen.
 
 ## Stap 2: Een bestandsstroom maken
 

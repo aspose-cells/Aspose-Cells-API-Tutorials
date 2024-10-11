@@ -31,7 +31,7 @@ Először is győződjön meg arról, hogy a megfelelő névtereket importálta 
 3. Válassza a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget, majd kattintson a „Tovább” gombra.
 4. Nevezze el a projektet, és kattintson a "Létrehozás" gombra.
 
-### Adja hozzá az Aspose.Cells Referenciát
+### Adja hozzá az Aspose.Cells Reference-t
 
 Az Aspose.Cells használatához hozzá kell adni egy hivatkozást a könyvtárhoz.
 
@@ -78,7 +78,7 @@ Az Aspose.Cells használatával egy Excel-fájl betöltése egyszerű. Íme, hog
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Mostanra már könnyedén betöltötte a munkafüzetét!
+Mostanra könnyedén betöltötte a munkafüzetét!
 
 ## A diagram elérése és kezelése
 

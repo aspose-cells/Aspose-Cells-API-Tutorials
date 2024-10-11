@@ -125,7 +125,7 @@ B5 hücresi "9" (için) ifadesini içerecek ve C5 hücresi "Benimle ara" ifadesi
 
 ## Çözüm
 
-Excel'deki metin işlevleri, metin verilerini işlemek ve analiz etmek için güçlü araçlardır. Aspose.Cells for Java ile bu işlevleri Java uygulamalarınıza kolayca dahil edebilir, metinle ilgili görevleri otomatikleştirebilir ve Excel yeteneklerinizi geliştirebilirsiniz. Daha fazla metin işlevini keşfedin ve Aspose.Cells for Java ile Excel'in tüm potansiyelini ortaya çıkarın.
+Excel'deki metin işlevleri, metin verilerini işlemek ve analiz etmek için güçlü araçlardır. Java için Aspose.Cells ile bu işlevleri Java uygulamalarınıza kolayca dahil edebilir, metinle ilgili görevleri otomatikleştirebilir ve Excel yeteneklerinizi geliştirebilirsiniz. Daha fazla metin işlevini keşfedin ve Aspose.Cells for Java ile Excel'in tüm potansiyelini ortaya çıkarın.
 
 ## SSS
 

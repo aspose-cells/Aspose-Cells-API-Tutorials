@@ -19,7 +19,7 @@ Excel에서 차트를 만든 적이 있다면 차트가 데이터를 시각화�
 - 무엇보다도 Visual Studio가 필요합니다. 아직 설치하지 않았다면 Microsoft 사이트에서 다운로드할 수 있습니다.
 
 ### Aspose.Cells 라이브러리
-- 다음 필수 도구는 .NET용 Aspose.Cells 라이브러리입니다. 쉽게 다음에서 얻을 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/) 다운로드를 위해. 구매하기 전에 테스트하고 싶다면 다음도 있습니다.[무료 체험 가능](https://releases.aspose.com/).
+-  다음 필수 도구는 .NET용 Aspose.Cells 라이브러리입니다. 쉽게 다음에서 얻을 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/cells/net/) 다운로드를 위해. 구매하기 전에 테스트하고 싶다면 다음도 있습니다.[무료 체험 가능](https://releases.aspose.com/).
 
 ### C#의 기본 이해
 - 코드를 작성하게 되므로 C#에 대한 기본적인 이해가 유익할 것입니다. 걱정하지 마세요. 진행하면서 설명하겠습니다!
@@ -64,13 +64,13 @@ using Aspose.Cells.Drawing;
 
 흥미로운 부분에 들어가기 전에, 우리는 파일을 어디에 저장할지 정의해야 합니다. 출력 디렉토리 경로를 제공해야 합니다.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //지정한 디렉토리로 변경
+string outputDir = "C:\\YourOutputDirectory\\"; // 지정한 디렉토리로 변경
 ```
  교체를 꼭 해주세요`"C:\\YourOutputDirectory\\"` 파일을 저장할 경로와 함께. 이것을 작업 공간을 설정하는 것으로 생각하세요. 도구(또는 이 경우 Excel 파일)를 어디에 둘지 알아야 합니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
- 다음으로 우리는 인스턴스를 생성합니다.`Workbook` 수업. 여기가 우리의 모든 작업이 이루어지는 곳입니다.
+다음으로 우리는 인스턴스를 생성합니다.`Workbook` 수업. 여기가 우리의 모든 작업이 이루어지는 곳입니다.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -137,7 +137,7 @@ Aspose.Cells는 .NET 애플리케이션에서 Excel 파일을 만들고 조작�
 전혀 아닙니다! 이 튜토리얼에서 보여주듯이, 몇 줄의 간단한 코드로 할 수 있습니다.
 
 ### Aspose.Cells는 어디서 구매할 수 있나요?  
-Aspose.Cells는 다음에서 구매할 수 있습니다.[구매 링크](https://purchase.aspose.com/buy).
+ Aspose.Cells는 다음에서 구매할 수 있습니다.[구매 링크](https://purchase.aspose.com/buy).
 
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?  
  Aspose는 질문을 하고 해결책을 찾을 수 있는 지원 포럼을 제공합니다.[지원 페이지](https://forum.aspose.com/c/cells/9).

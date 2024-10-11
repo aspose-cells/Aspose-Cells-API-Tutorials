@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Nu gaan we een werkmapobject maken, dat als container voor uw spreadsheet dient.
 
 ```csharp
-// Een werkmapobject instantiëren
+//Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
-Uitleg: Deze regel maakt een instantie van de`Workbook` klasse uit de Aspose.Cells-bibliotheek. Het is alsof u een nieuw leeg Excel-bestand opent waar u uw sheets en gegevens kunt toevoegen.
+ Uitleg: Deze regel maakt een instantie van de`Workbook`klasse uit de Aspose.Cells-bibliotheek. Het is alsof u een nieuw leeg Excel-bestand opent waar u uw sheets en gegevens kunt toevoegen.
 
 ## Stap 3: Verwijs naar een werkblad
 

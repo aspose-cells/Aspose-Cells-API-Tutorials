@@ -37,7 +37,7 @@ Chúng ta hãy chia nhỏ quá trình lọc các tên đã xác định trong kh
 
 ## Bước 1: Chỉ định Tùy chọn Tải
 
-Điều đầu tiên chúng ta sẽ làm là tạo một phiên bản của`LoadOptions` lớp. Lớp này sẽ giúp chúng ta chỉ định cách chúng ta muốn tải tệp Excel của mình.
+ Điều đầu tiên chúng ta sẽ làm là tạo một phiên bản của`LoadOptions` lớp. Lớp này sẽ giúp chúng ta chỉ định cách chúng ta muốn tải tệp Excel của mình.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -63,7 +63,7 @@ Bây giờ tùy chọn tải của chúng ta đã được chỉ định, đã �
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Trong dòng này, bạn đang tạo một phiên bản mới của`Workbook`lớp, truyền đường dẫn đến tệp Excel mẫu của bạn và các tùy chọn tải. Thao tác này tải sổ làm việc của bạn với các tên đã xác định được lọc ra theo chỉ định.
+ Trong dòng này, bạn đang tạo một phiên bản mới của`Workbook` lớp, truyền đường dẫn đến tệp Excel mẫu của bạn và các tùy chọn tải. Thao tác này tải sổ làm việc của bạn với các tên đã xác định được lọc ra theo chỉ định.
 
 ## Bước 4: Lưu tệp đầu ra
 
@@ -106,4 +106,4 @@ Lọc các tên đã xác định có thể dẫn đến các công thức bị 
  Có, bạn có thể dùng thử Aspose.Cells miễn phí để kiểm tra khả năng của nó trước khi mua. Hãy xem thử[đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tham khảo Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tham khảo Aspose.Cells[đây](https://reference.aspose.com/cells/net/).

@@ -48,7 +48,7 @@ dataValidation.setFormula2("100");
 Most alkalmazzuk az adatérvényesítési szabályokat az Excel munkalap kívánt tartományára.
 
 ```java
-// Java kód az adatellenőrzés alkalmazásához
+// Java kód adatérvényesítés alkalmazásához
 dataValidation.setShowInput(true);
 dataValidation.setShowError(true);
 ```

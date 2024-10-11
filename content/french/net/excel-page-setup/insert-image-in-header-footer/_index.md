@@ -15,7 +15,7 @@ Lorsque vous travaillez avec des fichiers Excel, les en-têtes et les pieds de p
 
 Avant de plonger dans le code proprement dit, vous devez préparer quelques éléments :
 
-1. Bibliothèque Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est installée dans votre environnement .NET. Si vous ne l'avez pas encore, vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
+1.  Bibliothèque Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est installée dans votre environnement .NET. Si vous ne l'avez pas encore, vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 2. Visual Studio ou tout autre IDE : vous aurez besoin d’un environnement de développement intégré pour écrire et exécuter votre code C#.
 3.  Exemple d'image : Préparez une image que vous souhaitez insérer dans l'en-tête ou le pied de page. Pour notre exemple, nous utiliserons un logo d'entreprise appelé`aspose-logo.jpg`.
 4. Connaissances de base de C# : bien que ce ne soit pas obligatoire, la compréhension de C# vous permettra de suivre plus facilement ce didacticiel.
@@ -95,7 +95,7 @@ Avec les données binaires de l’image à portée de main, nous pouvons mainten
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Cette ligne place l'image dans la partie centrale de l'en-tête. Le paramètre`1` spécifie la section d'en-tête.
+ Cette ligne place l'image dans la partie centrale de l'en-tête. Le paramètre`1`spécifie la section d'en-tête.
 
 ## Étape 7 : Définition du contenu de l'en-tête
 

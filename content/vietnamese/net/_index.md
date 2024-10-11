@@ -48,3 +48,39 @@ Khám phá Aspose.Cells để biết hướng dẫn .NET về cách dựng biể
 Khám phá hướng dẫn toàn diện về Aspose.Cells for .NET tập trung vào việc làm việc với dữ liệu biểu đồ. Tìm hiểu, tạo và tùy chỉnh biểu đồ của bạn.
 ### [Tùy chỉnh trục và đơn vị biểu đồ](./customizing-chart-axes-and-units/)
 Tùy chỉnh trục biểu đồ chính trong Aspose.Cells cho .NET với hướng dẫn dễ dàng. Học cách xử lý các đơn vị tự động và đọc nhãn trục như một chuyên gia Excel.
+### [Làm việc với siêu liên kết trong Excel](./excel-working-with-hyperlinks/)
+Mở khóa sự kỳ diệu của siêu liên kết trong Excel với Aspose.Cells cho .NET. Khám phá cách đơn giản để cải thiện bảng tính của bạn một cách hiệu quả.
+### [Làm việc với Name Ranges trong Excel](./excel-working-with-named-ranges/)
+Khám phá hướng dẫn Aspose.Cells for .NET để làm việc với các phạm vi được đặt tên trong Excel. Tìm hiểu cách truy cập tất cả hoặc các phạm vi được đặt tên cụ thể với hướng dẫn từng bước.
+### [Gộp và hủy ghép ô trong Excel](./excel-merging-unmerging-cells/)
+Làm chủ việc hợp nhất và hủy hợp nhất các ô trong Excel với hướng dẫn Aspose.Cells cho .NET dễ dàng của chúng tôi. Nâng cao kỹ năng bảng tính của bạn.
+### [Tạo và định dạng phạm vi được đặt tên trong Excel](./excel-creating-formatting-named-ranges/)
+Khám phá cách tạo và định dạng các phạm vi được đặt tên trong Excel bằng Aspose.Cells cho .NET. Nâng cao khả năng quản lý dữ liệu và trình bày trực quan của bạn một cách dễ dàng.
+### [Các thao tác nâng cao với phạm vi được đặt tên trong Excel](./excel-advanced-named-ranges/)
+Mở khóa tiềm năng của Aspose.Cells cho .NET với hướng dẫn về các thao tác nâng cao như đặt tên cho phạm vi, nhận dạng ô và hợp nhất ô để tạo báo cáo động.
+### [Quản lý các phạm vi được đặt tên trong Excel](./excel-managing-named-ranges/)
+Khám phá hướng dẫn toàn diện về quản lý các phạm vi được đặt tên trong Excel bằng Aspose.Cells cho .NET. Hoàn hảo cho người mới bắt đầu và người dùng nâng cao.
+### [Xuất và lấy dữ liệu Excel](./excel-data-export-retrieval/)
+Khám phá hướng dẫn từng bước để xuất và truy xuất dữ liệu Excel bằng Aspose.Cells cho .NET, hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng.
+### [Excel Tự động lọc và Xác thực](./excel-autofilter-validation/)
+Mở khóa quản lý dữ liệu Excel với Aspose.Cells cho hướng dẫn .NET. Tìm hiểu về lọc tự động và xác thực thập phân để cải thiện bảng tính của bạn.
+### [Tổng phụ và phép tính Excel](./excel-subtotal-calculation/)
+Khám phá cách tạo tổng phụ Excel và theo dõi tiền lệ bằng Aspose.Cells cho .NET. Thực hiện theo các hướng dẫn này để nâng cao kỹ năng bảng tính của bạn một cách dễ dàng.
+### [Phụ thuộc dữ liệu Excel và tính toán](./excel-data-dependency-calculation/)
+Khám phá hướng dẫn về Aspose.Cells for .NET bao gồm các phép tính và phụ thuộc dữ liệu Excel, bao gồm theo dõi các ô phụ thuộc, để nâng cao kỹ năng tự động hóa Excel của bạn.
+### [Xác thực và lọc dữ liệu Excel](./excel-data-validation-filter/)
+Khám phá hướng dẫn Aspose.Cells for .NET về xác thực dữ liệu và bộ lọc Excel—hướng dẫn đơn giản giúp nâng cao năng suất của bạn.
+### [Căn chỉnh và định dạng dữ liệu Excel](./excel-data-alignment-formatting/)
+Khám phá cách thay đổi căn chỉnh ô Excel mà không làm mất định dạng trong Aspose.Cells cho .NET. Tìm hiểu hướng dẫn từng bước để định dạng dữ liệu Excel liền mạch.
+### [Định dạng ngày tháng và số tùy chỉnh trong Excel](./excel-custom-number-date-formatting/)
+Tìm hiểu cách sử dụng Aspose.Cells cho .NET với hướng dẫn toàn diện của chúng tôi về định dạng số và ngày tùy chỉnh. Tối ưu hóa kỹ năng Excel của bạn.
+### [Phân loại và xuất dữ liệu Excel](./excel-data-sorting-exporting/)
+Khám phá cách sắp xếp dữ liệu và xuất giá trị HTML trong Excel bằng Aspose.Cells cho .NET thông qua các hướng dẫn dễ làm theo sau đây.
+### [Nhập và xuất dữ liệu Excel](./excel-data-import-export/)
+Mở khóa sức mạnh của Aspose.Cells cho .NET. Khám phá hướng dẫn của chúng tôi để nhập và xuất dữ liệu Excel hiệu quả một cách dễ dàng.
+### [Bảo vệ dữ liệu Excel và cảnh báo](./excel-data-preservation-warning/)
+Học cách sử dụng Aspose.Cells cho .NET để áp dụng các kỹ thuật bảo quản dữ liệu Excel nâng cao, như bảo quản tiền tố dấu nháy đơn trong ô và chỉ định cảnh báo sắp xếp trong khi sắp xếp.
+### [Tính toán phạm vi và địa chỉ trong Excel](./excel-range-address-calculation/)
+Khám phá các hướng dẫn cần thiết về Aspose.Cells cho .NET, bao gồm cách tạo phạm vi Excel, tính toán địa chỉ và các thao tác nâng cao một cách dễ dàng.
+### [Quản lý hàng ẩn và dữ liệu trùng lặp trong Excel](./excel-hidden-rows-data-duplication-management/)
+Mở khóa tiềm năng của Excel với hướng dẫn Aspose.Cells dành cho .NET, cung cấp thông tin chi tiết về cách quản lý các hàng ẩn và sao chép dữ liệu dễ dàng.

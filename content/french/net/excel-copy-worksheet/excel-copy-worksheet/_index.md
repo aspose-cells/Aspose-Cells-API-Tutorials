@@ -67,7 +67,7 @@ string InputPath = dataDir + "book1.xls";
 
 C'est une bonne idée d'utiliser des chemins dynamiques afin de pouvoir facilement basculer entre les environnements (développement, préparation, production).
 
-## Étape 2 : Ouvrir le classeur Excel
+## Étape 2 : Ouvrir le classeur Excel
 Ensuite, chargeons le fichier Excel à l’aide de la classe Workbook, qui représente un fichier Excel entier.
 
 ```csharp

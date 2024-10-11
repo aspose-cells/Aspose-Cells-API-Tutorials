@@ -10,7 +10,7 @@ url: /zh-hant/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
 
 ## Excel 中的動態下拉清單簡介
 
-Microsoft Excel 是一種多功能工具，其功能不僅僅是簡單的資料輸入和計算。其強大的功能之一是能夠創建動態下拉列表，這可以大大增強電子表格的可用性和互動性。在本逐步指南中，我們將探討如何使用 Aspose.Cells for Java 在 Excel 中建立動態下拉清單。該 API 提供了以程式設計方式處理 Excel 檔案的強大功能，使其成為自動化此類任務的絕佳選擇。
+Microsoft Excel 是一種多功能工具，其功能不僅僅是簡單的資料輸入和計算。其強大的功能之一是能夠創建動態下拉列表，這可以極大地增強電子表格的可用性和互動性。在本逐步指南中，我們將探討如何使用 Aspose.Cells for Java 在 Excel 中建立動態下拉清單。該 API 提供了以程式設計方式處理 Excel 檔案的強大功能，使其成為自動化此類任務的絕佳選擇。
 
 ## 先決條件
 

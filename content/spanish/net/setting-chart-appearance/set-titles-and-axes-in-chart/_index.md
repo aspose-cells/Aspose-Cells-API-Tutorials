@@ -47,7 +47,7 @@ En este paso, vamos a crear una instancia de un nuevo libro de trabajo.
 ```csharp
 //Directorio de salida
 static string outputDir = "Your Document Directory";
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

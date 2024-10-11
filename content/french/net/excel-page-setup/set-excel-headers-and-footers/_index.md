@@ -107,7 +107,7 @@ Maintenant que nos en-têtes sont bien ficelés, tournons notre attention vers l
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Explication : Nous insérons un message personnalisé dans le pied de page gauche, « Bonjour le monde ! » avec le texte`123` dans un style de police différent : Courier New.
+Explication : Nous insérons un message personnalisé dans le pied de page gauche, « Bonjour le monde ! » avec le texte`123` dans un style de police différent : Courier New.
 
 ## Étape 7 : Configuration du pied de page central
 

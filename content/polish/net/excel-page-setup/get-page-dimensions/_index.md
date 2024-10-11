@@ -44,7 +44,7 @@ Aby użyć Aspose.Cells, należy dodać odwołania do biblioteki:
 
 ### Dodaj dyrektywy Using
 
- Na szczycie twojego`Program.cs` plik, wstaw tę dyrektywę, aby uzyskać dostęp do funkcjonalności Aspose.Cells:
+ Na szczycie twojego`Program.cs`plik, wstaw tę dyrektywę, aby uzyskać dostęp do funkcjonalności Aspose.Cells:
 
 ```csharp
 using System;

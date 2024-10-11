@@ -125,7 +125,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 XLSB ファイルは、スプレッドシート データをバイナリ形式で保存するバイナリ Excel ファイル形式であり、よりコンパクトで開くのが速くなります。
 
 ### Aspose.Cells for .NET をインストールするにはどうすればよいですか?  
-Asposeのウェブサイトから簡単にダウンロードできます[ここ](https://releases.aspose.com/cells/net/).
+ Asposeのウェブサイトから簡単にダウンロードできます[ここ](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells を無料で使用できますか?  
 はい！無料トライアルから始めることができます。[ここ](https://releases.aspose.com/).

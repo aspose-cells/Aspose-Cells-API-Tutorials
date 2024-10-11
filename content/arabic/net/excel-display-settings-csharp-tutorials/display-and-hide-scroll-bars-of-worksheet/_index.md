@@ -45,7 +45,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- يستبدل`YOUR DOCUMENT DIRECTORY` مع المسار الفعلي الذي يتم تخزين ملف Excel فيه. يتيح هذا لبرنامجك العثور على الملفات الضرورية التي سيتعامل معها.
+ يستبدل`YOUR DOCUMENT DIRECTORY`مع المسار الفعلي الذي يتم تخزين ملف Excel فيه. يتيح هذا لبرنامجك العثور على الملفات الضرورية التي سيتعامل معها.
 
 ## الخطوة 2: إنشاء تدفق ملف
 
@@ -56,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- ال`FileStream`تتيح لك الفئة القراءة من الملفات والكتابة إليها. في هذه الحالة، نقوم بفتح ملف Excel الخاص بنا في وضع القراءة.
+ ال`FileStream` تتيح لك الفئة القراءة من الملفات والكتابة إليها. في هذه الحالة، نقوم بفتح ملف Excel الخاص بنا في وضع القراءة.
 
 ## الخطوة 3: إنشاء كائن مصنف
 
@@ -123,7 +123,7 @@ fstream.Close();
  نعم! ما عليك سوى ضبط`IsVScrollBarVisible` و`IsHScrollBarVisible` العودة الى`true`.
 
 ### هل استخدام Aspose.Cells مجاني؟  
- Aspose.Cells ليس مجانيًا تمامًا، ولكن يمكنك تجربته مجانًا لفترة محدودة أو التفكير في شرائه[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ليس مجانيًا تمامًا، ولكن يمكنك تجربته مجانًا لفترة محدودة أو التفكير في شرائه[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).
 
 ### ما هي أنواع ملفات Excel التي يمكنني التعامل معها باستخدام Aspose.Cells؟  
 يمكنك العمل مع تنسيقات Excel المختلفة، بما في ذلك .xls، و.xlsx، و.xlsm، و.xlsb، وما إلى ذلك.

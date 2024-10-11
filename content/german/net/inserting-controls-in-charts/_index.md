@@ -9,7 +9,7 @@ url: /de/net/inserting-controls-in-charts/
 ---
 ## Einführung
 
-Aspose.Cells für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler Excel-Dateien mühelos bearbeiten können. Bei der Datenvisualisierung spielen Diagramme eine wichtige Rolle. Durch die Erweiterung dieser Diagramme mit Steuerelementen wie Beschriftungen, Bildern, Textfeldern und Kontrollkästchen können Sie Ihre Präsentationen auf die nächste Ebene bringen. Im Folgenden tauchen wir in einige der hilfreichsten Tutorials zum Einfügen von Steuerelementen in Diagramme mit Aspose.Cells für .NET ein.
+Aspose.Cells für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler Excel-Dateien mühelos bearbeiten können. Wenn es um die Datenvisualisierung geht, spielen Diagramme eine wichtige Rolle. Durch die Erweiterung dieser Diagramme mit Steuerelementen wie Beschriftungen, Bildern, Textfeldern und Kontrollkästchen können Sie Ihre Präsentationen auf die nächste Ebene bringen. Im Folgenden tauchen wir in einige der hilfreichsten Tutorials zum Einfügen von Steuerelementen in Diagramme mit Aspose.Cells für .NET ein.
 
 ## Hinzufügen von Beschriftungen zu Diagrammen
 

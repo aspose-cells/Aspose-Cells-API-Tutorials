@@ -45,7 +45,7 @@ Qui puoi specificare il percorso del file Excel con cui vuoi lavorare.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Sostituire`YOUR DOCUMENT DIRECTORY` con il percorso effettivo in cui è archiviato il tuo file Excel. Ciò consente al tuo programma di trovare i file necessari che manipolerà.
+ Sostituire`YOUR DOCUMENT DIRECTORY`con il percorso effettivo in cui è archiviato il tuo file Excel. Ciò consente al tuo programma di trovare i file necessari che manipolerà.
 
 ## Passaggio 2: creare un flusso di file
 
@@ -56,7 +56,7 @@ Qui puoi creare un flusso di file per leggere il file Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- IL`FileStream`class ti consente di leggere e scrivere su file. In questo caso, stiamo aprendo il nostro file Excel in modalità lettura.
+ IL`FileStream` class ti consente di leggere e scrivere su file. In questo caso, stiamo aprendo il nostro file Excel in modalità lettura.
 
 ## Passaggio 3: creare un'istanza di un oggetto cartella di lavoro
 
@@ -123,7 +123,7 @@ Seguendo questi semplici passaggi, hai imparato come visualizzare e nascondere l
  Sì! Devi solo impostare`IsVScrollBarVisible` E`IsHScrollBarVisible` torna a`true`.
 
 ### Aspose.Cells è gratuito?  
- Aspose.Cells non è completamente gratuito, ma puoi provarlo gratuitamente per un periodo di tempo limitato o prendere in considerazione l'acquisto[una licenza temporanea](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells non è completamente gratuito, ma puoi provarlo gratuitamente per un periodo di tempo limitato o prendere in considerazione l'acquisto[una licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
 ### Quali tipi di file Excel posso manipolare con Aspose.Cells?  
 È possibile lavorare con vari formati Excel, tra cui .xls, .xlsx, .xlsm, .xlsb, ecc.

@@ -42,17 +42,17 @@ using Aspose.Cells.Charts;
 
 ```csharp
 // 출력 디렉토리
-string outputDir = "Your Output Directory"; // 이것을 원하는 경로로 변경하세요
+string outputDir = "Your Output Directory"; //이것을 원하는 경로로 변경하세요
 ```
 
 "Your Output Directory" 대신 Excel 파일을 저장할 실제 경로를 지정할 수 있습니다. 이 디렉토리가 시스템에 있는지 확인하세요. 그렇지 않으면 나중에 오류가 발생합니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
- 이제 새 인스턴스를 만들어서 작업을 시작해야 합니다.`Workbook`클래스. 이것은 Aspose.Cells를 사용하는 모든 Excel 작업을 위한 기본 구성 요소입니다.
+ 이제 새 인스턴스를 만들어서 작업을 시작해야 합니다.`Workbook` 클래스. 이것은 Aspose.Cells를 사용하는 모든 Excel 작업을 위한 기본 구성 요소입니다.
 
 ```csharp
-// Workbook 개체 인스턴스화
+//Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 

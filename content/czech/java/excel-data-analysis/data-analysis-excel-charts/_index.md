@@ -80,7 +80,7 @@ chart.getChartArea().getBorder().setVisible(false);
 chart.setTitle("Sales Analysis");
 ```
 
-## Export souboru aplikace Excel
+## Export souboru Excel
 
 Po vytvoření grafů aplikace Excel můžete sešit exportovat do formátu souboru podle vašeho výběru, například XLSX nebo PDF.
 
@@ -106,7 +106,7 @@ Ano, můžete integrovat Aspose.Cells for Java s jinými knihovnami Java, abyste
 
 Ano, Aspose.Cells for Java vyžaduje platnou licenci pro komerční použití. Licenci můžete získat z webu Aspose.
 
-### Jaké typy grafů Excel mohu vytvořit pomocí Aspose.Cells pro Java?
+### Jaké typy grafů Excel mohu vytvořit pomocí Aspose.Cells for Java?
 
 Aspose.Cells for Java podporuje širokou škálu typů grafů, včetně sloupcových grafů, spojnicových grafů, koláčových grafů a dalších. Úplný seznam podporovaných typů grafů a možností přizpůsobení naleznete v dokumentaci.
 

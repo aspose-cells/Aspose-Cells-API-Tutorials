@@ -17,7 +17,7 @@ url: /zh-hant/net/customizing-chart-axes-and-units/
 
 ## 計算圖表後讀取軸標籤
 
-現在您已經掌握了自動單元的操作，是時候解決另一個關鍵問題了：讀取軸標籤。了解圖表想要傳達的內容至關重要，而這首先要從清晰的標籤開始。在我們的綜合指南中[計算圖表後讀取軸標籤](./read-axis-labels-after-calculating-chart/)，我們將向您展示如何使用 Aspose.Cells for .NET 輕鬆擷取和操作軸標籤。想像一下：您創建了一個複雜的圖表，但沒有清晰的標籤，它就像黑暗房間裡的一幅美麗的畫一樣。我們將幫助您闡明這些標籤，使您的資料更易於存取和理解。
+現在您已經掌握了自動單元的操作，是時候解決另一個關鍵方面了：讀取軸標籤。了解圖表想要傳達的內容至關重要，而這首先要從清晰的標籤開始。在我們的綜合指南中[計算圖表後讀取軸標籤](./read-axis-labels-after-calculating-chart/)，我們將向您展示如何使用 Aspose.Cells for .NET 輕鬆擷取和操作軸標籤。想像一下：您創建了一個複雜的圖表，但沒有清晰的標籤，它就像黑暗房間裡的一幅美麗的畫一樣。我們將幫助您闡明這些標籤，使您的資料更易於存取和理解。
 
 ## 自訂圖表軸和單位教程
 ### [Handle Automatic Units of Chart Axis like Microsoft Excel]

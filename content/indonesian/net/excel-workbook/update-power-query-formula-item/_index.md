@@ -122,4 +122,4 @@ Anda dapat bekerja dengan .xlsx, .xls, .xlsm, dan beberapa format Excel lainnya 
  Ya, Anda dapat mengunduh versi uji coba gratis dari[Halaman rilis Aspose Cells](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9), tempat Anda dapat mengajukan pertanyaan dan mendapatkan jawaban dari komunitas dan tim Aspose.
+ Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9)tempat Anda dapat mengajukan pertanyaan dan mendapatkan jawaban dari komunitas dan tim Aspose.

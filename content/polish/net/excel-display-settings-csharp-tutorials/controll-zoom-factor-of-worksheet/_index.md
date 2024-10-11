@@ -78,10 +78,10 @@ Ta linijka kodu przygotuje plik Excela do edycji.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
- Ten`Workbook`obiekt jest sercem funkcjonalności Aspose.Cells. Reprezentuje plik Excel w sposób łatwy do opanowania.
+ Ten`Workbook` obiekt jest sercem funkcjonalności Aspose.Cells. Reprezentuje plik Excel w sposób łatwy do opanowania.
 
 ```csharp
-// Tworzenie instancji obiektu skoroszytu
+//Tworzenie instancji obiektu skoroszytu
 // Otwieranie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Skoroszyt jest już w pamięci, czas uzyskać dostęp do konkretnego arkusza, który chcesz zmodyfikować. W większości przypadków będzie to pierwszy arkusz (indeks 0).
 
 ```csharp
-// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

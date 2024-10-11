@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Remplacez par le chemin d'accès à votre fichier PFX
 
 ## Étape 4 : Créer la signature numérique
 
- Maintenant, créons la signature numérique en utilisant le`DigitalSignature`classe. C'est ici que la magie opère !
+ Maintenant, créons la signature numérique en utilisant le`DigitalSignature` classe. C'est ici que la magie opère !
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Oui, vous avez besoin d'un certificat numérique valide (fichier PFX) pour crée
  Absolument ! Vous pouvez obtenir un essai gratuit à partir du[Site Web d'Aspose](https://releases.aspose.com/).
 
 ### Aspose.Cells est-il compatible avec toutes les versions de .NET ?
-Aspose.Cells prend en charge différentes versions du framework .NET. Vérifiez le[documentation](https://reference.aspose.com/cells/net/) pour plus de détails sur la compatibilité.
+ Aspose.Cells prend en charge différentes versions du framework .NET. Vérifiez le[documentation](https://reference.aspose.com/cells/net/) pour plus de détails sur la compatibilité.
 
 ### Où puis-je obtenir de l’aide si je rencontre des problèmes ?
  Vous pouvez visiter le[Forum Aspose](https://forum.aspose.com/c/cells/9) pour le soutien et l’assistance de la communauté.

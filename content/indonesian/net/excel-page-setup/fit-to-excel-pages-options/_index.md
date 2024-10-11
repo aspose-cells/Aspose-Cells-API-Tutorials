@@ -16,7 +16,7 @@ Selamat datang di panduan utama tentang cara memanfaatkan pustaka Aspose.Cells f
 Sebelum memulai coding, pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini adalah hal-hal yang harus Anda siapkan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah hub utama untuk semua pekerjaan pengembangan.
-2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan menambahkan pustaka Aspose.Cells ke proyek Anda. Anda dapat dengan mudah mengambilnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Anda perlu mengunduh dan menambahkan pustaka Aspose.Cells ke proyek Anda. Anda dapat dengan mudah mengambilnya dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu. Jika Anda dapat menangani variabel, loop, dan I/O file dasar, Anda akan merasa seperti di rumah sendiri.
 4. .NET Framework: Pastikan proyek Anda disiapkan dengan versi .NET Framework yang sesuai, karena pustaka ini dirancang untuk kompatibilitas dalam ekosistem ini.
 
@@ -54,9 +54,9 @@ Pertama, mari kita inisialisasi Workbook kita dan akses lembar kerja yang diingi
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
-// Mengakses lembar kerja pertama dalam file Excel
+//Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`menentukan berapa banyak halaman lembar kerja Anda yang akan terbentang secara vertikal.
-- `FitToPagesWide` mendefinisikan pengaturan halaman horizontal. Mengatur keduanya ke`1` artinya konten Anda akan muat dengan rapi dalam satu halaman, mengubah dokumen Anda menjadi mahakarya yang ramping.
+- `FitToPagesTall` menentukan berapa banyak halaman lembar kerja Anda yang akan terbentang secara vertikal.
+- `FitToPagesWide` mendefinisikan pengaturan halaman horizontal. Mengatur keduanya ke`1`artinya konten Anda akan muat dengan rapi dalam satu halaman, mengubah dokumen Anda menjadi mahakarya yang ramping.
 
 ## Langkah 3: Simpan Buku Kerja Anda
 
@@ -97,7 +97,7 @@ Nah, itu dia! Anda telah mempelajari cara memanfaatkan Opsi Sesuaikan dengan Hal
 Aspose.Cells adalah pustaka .NET yang tangguh untuk mengelola file Excel secara terprogram, yang memungkinkan pengembang untuk membuat dan memanipulasi lembar kerja dengan mudah.
 
 ### Dapatkah saya mencoba Aspose.Cells secara gratis?
- Ya! Anda dapat mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara membeli Aspose.Cells?
  Anda dapat melakukan pembelian Anda[Di Sini](https://purchase.aspose.com/buy).

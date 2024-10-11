@@ -79,7 +79,7 @@ Proprio come quando si apre una pagina specifica di un libro, questo passaggio c
 Ora è il momento di trovare il grafico che vogliamo modificare. È qui che inizia davvero la magia!
 
 ```csharp
-// Ottieni il primo grafico nel foglio
+//Ottieni il primo grafico nel foglio
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Qui prendiamo l'impostazione del colore per la serie di grafici.
  Ora, applichiamo un colore tema Microsoft. Sceglieremo un`Accent` stile perché chi non ama un tocco di colore?
 
 ```csharp
-// Crea un tema in stile Accent
+//Crea un tema in stile Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

@@ -181,7 +181,7 @@ Console.WriteLine("Changing Major Gridlines in Chart executed successfully.");
 Aspose.Cells 是一个.NET 库，旨在以编程方式创建、操作和管理 Excel 文件。
 
 ### 我可以免费试用 Aspose.Cells 吗？  
-是的，你可以注册免费试用[这里](https://releases.aspose.com/).
+是的，您可以注册免费试用[这里](https://releases.aspose.com/).
 
 ### 如何使用 Aspose.Cells 更改图表中的其他元素？  
 您可以通过访问图表元素来自定义各种图表属性`Chart`类别，例如标题、图例和数据标签。

@@ -17,7 +17,7 @@ url: /zh/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 1. .NET 环境：您应该设置一个 .NET 开发环境。这可以是 Visual Studio、Visual Studio Code 或任何其他兼容的 IDE。
    
-2. Aspose.Cells for .NET：您需要安装 Aspose.Cells for .NET。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要安装 Aspose.Cells for .NET。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/).
 
 3. 示例 Excel 文件：获取包含图表的示例 Excel 文件。在本教程中，我们将使用名为`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`确保它位于您的项目目录中。
 

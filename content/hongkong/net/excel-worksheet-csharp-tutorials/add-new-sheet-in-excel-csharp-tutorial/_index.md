@@ -15,7 +15,7 @@ url: /zh-hant/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp
 
 在我們進行任何編碼之前，讓我們確保您擁有該專案所需的一切：
 
-1. Visual Studio：確保您已安裝 Visual Studio。如果您還沒有，您可以從以下位置下載[微軟網站](https://visualstudio.microsoft.com/).
+1.  Visual Studio：確保您已安裝 Visual Studio。如果您還沒有，您可以從以下位置下載[微軟網站](https://visualstudio.microsoft.com/).
 2. Aspose.Cells 函式庫：您需要 Aspose.Cells for .NET 函式庫。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
 3. .NET Framework：確保您的專案設定為相容版本的 .NET Framework（通常 .NET Framework 4.0 或更高版本運作良好）。
 4. 基礎 C# 知識：熟悉 C# 和物件導向程式設計將有助於您更好地理解程式碼。
@@ -84,7 +84,7 @@ int i = workbook.Worksheets.Add();
 沒有名字的表是什麼？讓我們為新建立的工作表命名，以便於識別。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[i];
 
 //設定新新增的工作表名稱
@@ -106,7 +106,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## 結論
 
-現在你就擁有了！只需幾個簡單的步驟，我們就介紹如何使用 C# 和 Aspose.Cells 將新工作表新增至 Excel 檔案。無論您只是修改程式碼還是處理更廣泛的項目，此功能都可以大大增強您的資料管理工作流程。 
+現在你就擁有了！只需幾個簡單的步驟，我們就介紹如何使用 C# 和 Aspose.Cells 將新工作表新增到 Excel 檔案中。無論您只是修改程式碼還是處理更廣泛的項目，此功能都可以大大增強您的資料管理工作流程。 
 
 有了 Aspose.Cells，就有無限的可能性。您可以透過多種方式操作資料—編輯、格式化，甚至建立公式！因此，繼續進一步探索；您的 Excel 文件將會感謝您。
 

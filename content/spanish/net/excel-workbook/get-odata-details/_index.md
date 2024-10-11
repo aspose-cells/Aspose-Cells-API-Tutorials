@@ -16,7 +16,7 @@ En el mundo de la gestión de datos, que está en constante evolución, la capac
 Antes de profundizar en el código, asegurémonos de que tienes todo lo que necesitas para seguir este tutorial. Esto es lo que necesitarás:
 
 1. Visual Studio: Asegúrate de tener instalado Visual Studio. Es el entorno ideal para el desarrollo .NET.
-2. Biblioteca Aspose.Cells: Descargue e instale la biblioteca Aspose.Cells para .NET desde[Página de descargas de Aspose](https://releases.aspose.com/cells/net/) También puedes probar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
+2.  Biblioteca Aspose.Cells: Descargue e instale la biblioteca Aspose.Cells para .NET desde[Página de descargas de Aspose](https://releases.aspose.com/cells/net/) También puedes probar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a comprender mejor los matices del código.
 4. Un archivo de Excel de muestra: para este tutorial, utilizaremos un archivo de Excel llamado "ODataSample.xlsx", que debe almacenarse en su directorio de trabajo.
 
@@ -99,7 +99,7 @@ En este bloque:
 
 ## Paso 4: Ejecutar y verificar
 
- Por último, debe asegurarse de que el código se ejecute correctamente y devuelva el resultado esperado. Agregue la siguiente línea al final de su`Main` método:
+Por último, debe asegurarse de que el código se ejecute correctamente y devuelva el resultado esperado. Agregue la siguiente línea al final de su`Main` método:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -126,4 +126,4 @@ Las fórmulas de Power Query permiten a los usuarios conectar, combinar y transf
  Puedes visitar el[Foro de Aspose](https://forum.aspose.com/c/cells/9) para apoyo y ayuda de la comunidad.
 
 ### ¿Dónde puedo comprar Aspose.Cells?
-Puedes comprar Aspose.Cells en su[Página de compra](https://purchase.aspose.com/buy).
+ Puedes comprar Aspose.Cells en su[Página de compra](https://purchase.aspose.com/buy).

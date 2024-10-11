@@ -112,7 +112,7 @@ Burada sanat eserinize bir başlık verirsiniz. Bu, izleyicilerin neye baktıkla
 Şimdi, etiketin grafiğe göre nasıl konumlandırılacağına karar verelim. Burada, onu serbest yüzen olarak ayarlayacağız, yani grafik öğelerinden bağımsız olarak hareket ettirilebilir.
 
 ```csharp
-//Yerleşim Türünü, etiketin hücrelere eklenme biçimini ayarlayın.
+// Yerleşim Türünü, etiketin hücrelere eklenme biçimini ayarlayın.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak bir grafiğe başarıyl
 Evet! Etiketin yazı tipini, rengini, boyutunu ve diğer özelliklerini ihtiyaçlarınıza göre değiştirebilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretli bir üründür; ancak, bir başlangıçla başlayabilirsiniz.[ücretsiz deneme](https://releases.aspose.com/) Özelliklerini keşfetmek için.
+ Aspose.Cells ücretli bir üründür; ancak, bir başlangıçla başlayabilirsiniz.[ücretsiz deneme](https://releases.aspose.com/)Özelliklerini keşfetmek için.
 
 ### Birden fazla etiket eklemek istersem ne olur?
 Etiket ekleme adımlarını istediğiniz kadar tekrarlayabilirsiniz; her defasında farklı konum ve metinler kullanabilirsiniz.

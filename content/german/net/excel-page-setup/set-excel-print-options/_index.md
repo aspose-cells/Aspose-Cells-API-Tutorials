@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Als nächstes müssen wir ein`Workbook` Objekt. Dieses Objekt fungiert als Container für Ihre Tabellendaten.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -127,7 +127,7 @@ Jede Zeile hier stellt eine Option dar, die das Erscheinungsbild Ihres Dokuments
 
 ## Schritt 5: Speichern der Arbeitsmappe
 
-Wenn Sie alles nach Ihren Wünschen eingerichtet haben, können Sie Ihre Arbeitsmappe nun speichern.
+Wenn Sie alles nach Ihren Wünschen eingerichtet haben, ist es endlich an der Zeit, Ihre Arbeitsmappe zu speichern.
 
 ```csharp
 // Speichern Sie die Arbeitsmappe.

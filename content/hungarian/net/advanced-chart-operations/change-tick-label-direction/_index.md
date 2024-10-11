@@ -25,7 +25,7 @@ Ezután magára az Aspose.Cells könyvtárra lesz szüksége. Könnyen letölthe
 
 ### A C# alapvető ismerete
 
-A C# programozás ismerete előnyt jelent; Ha jól ismeri az alapvető kódolási fogalmakat, akkor ezt pillanatok alatt felveszi. 
+A C# programozás ismerete előnyt jelent; ha jól ismeri az alapvető kódolási fogalmakat, akkor ezt pillanatok alatt felveszi. 
 
 ### Minta Excel fájl
 

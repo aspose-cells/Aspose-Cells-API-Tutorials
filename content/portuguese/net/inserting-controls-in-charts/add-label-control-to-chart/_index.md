@@ -112,7 +112,7 @@ label.Text = "A Label In Chart";
 Agora, vamos decidir como o rótulo é posicionado em relação ao gráfico. Aqui, vamos defini-lo como flutuante livre, o que significa que ele pode ser movido independentemente dos elementos do gráfico.
 
 ```csharp
-//Defina o Tipo de Posicionamento, a maneira como o rótulo é anexado às células.
+// Defina o Tipo de Posicionamento, a maneira como o rótulo é anexado às células.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -148,8 +148,8 @@ E aí está! Você adicionou com sucesso um controle de rótulo a um gráfico us
 ### Posso personalizar a aparência do rótulo?
 Sim! Você pode alterar a fonte, a cor, o tamanho e outras propriedades do rótulo para atender às suas necessidades.
 
-### O Aspose.Cells é gratuito?
- Aspose.Cells é um produto pago; no entanto, você pode começar com um[teste gratuito](https://releases.aspose.com/) para explorar suas características.
+### Aspose.Cells é gratuito?
+ Aspose.Cells é um produto pago; no entanto, você pode começar com um[teste gratuito](https://releases.aspose.com/)para explorar suas características.
 
 ### E se eu quiser adicionar vários rótulos?
 Você pode repetir as etapas de adição de rótulos quantas vezes forem necessárias, cada uma com posições e textos diferentes.

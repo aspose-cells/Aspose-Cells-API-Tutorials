@@ -46,7 +46,7 @@ countrySheet.getCells().get("A1").putValue("Country");
 countrySheet.getCells().get("A2").putValue("USA");
 countrySheet.getCells().get("A3").putValue("Canada");
 countrySheet.getCells().get("A4").putValue("UK");
-// Adjon hozzá további országokat, ha szükséges
+// Szükség szerint adjon hozzá további országokat
 ```
 
 ## 3. lépés: A legördülő menük létrehozása

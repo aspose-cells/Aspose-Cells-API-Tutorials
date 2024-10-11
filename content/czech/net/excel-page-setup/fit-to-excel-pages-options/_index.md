@@ -16,7 +16,7 @@ Vítejte v dokonalém průvodci o využití výkonné knihovny Aspose.Cells pro 
 Než se pustíte do kódování, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je to, co byste měli mít na svém místě:
 
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Toto je vaše hlavní centrum pro veškerou vývojovou práci.
-2.  Aspose.Cells for .NET: Musíte mít staženou knihovnu Aspose.Cells a přidat ji do svého projektu. Můžete jej snadno uchopit z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Musíte mít staženou knihovnu Aspose.Cells a přidat ji do svého projektu. Můžete jej snadno uchopit z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost programování v C# nesmírně pomůže. Pokud zvládnete proměnné, smyčky a základní souborové I/O, budete jako doma.
 4. .NET Framework: Ujistěte se, že je váš projekt nastaven s příslušnou verzí rozhraní .NET Framework, protože knihovna je navržena pro kompatibilitu v rámci tohoto ekosystému.
 
@@ -54,9 +54,9 @@ Nejprve inicializujte náš sešit a získejte přístup k požadovanému listu.
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
-// Přístup k prvnímu listu v souboru aplikace Excel
+//Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -73,8 +73,8 @@ worksheet.PageSetup.FitToPagesTall = 1;
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
-- `FitToPagesTall`určuje, kolik stránek bude váš list vertikálně zahrnovat.
-- `FitToPagesWide` definuje vodorovné nastavení stránky. Nastavení obou na`1` znamená, že se váš obsah úhledně vejde na jednu stránku a přemění váš dokument na efektivní mistrovské dílo.
+- `FitToPagesTall` určuje, kolik stránek bude váš list vertikálně zahrnovat.
+- `FitToPagesWide` definuje vodorovné nastavení stránky. Nastavení obou na`1`znamená, že se váš obsah úhledně vejde na jednu stránku a přemění váš dokument na efektivní mistrovské dílo.
 
 ## Krok 3: Uložte sešit
 
@@ -97,7 +97,7 @@ A tady to máte! Naučili jste se, jak využít možnosti Fit to Excel Pages v A
 Aspose.Cells je robustní knihovna .NET pro programovou správu souborů aplikace Excel, která umožňuje vývojářům snadno vytvářet a manipulovat s tabulkami.
 
 ### Mohu vyzkoušet Aspose.Cells zdarma?
- Ano! Můžete se přihlásit k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+Ano! Můžete se přihlásit k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Jak koupím Aspose.Cells?
  Můžete provést nákup[zde](https://purchase.aspose.com/buy).

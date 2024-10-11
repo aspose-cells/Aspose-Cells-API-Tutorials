@@ -15,7 +15,7 @@ Ao trabalhar com arquivos do Excel, cabeçalhos e rodapés desempenham um papel 
 
 Antes de mergulhar no código propriamente dito, há algumas coisas que você precisa ter prontas:
 
-1. Biblioteca Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada em seu ambiente .NET. Se você ainda não a tem, você pode[baixe aqui](https://releases.aspose.com/cells/net/).
+1.  Biblioteca Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada em seu ambiente .NET. Se você ainda não a tem, você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 2. Visual Studio ou qualquer outro IDE: você precisará de um ambiente de desenvolvimento integrado para escrever e executar seu código C#.
 3.  Uma imagem de amostra: Prepare uma imagem que você deseja inserir no cabeçalho ou rodapé. Para nosso exemplo, usaremos um logotipo de empresa chamado`aspose-logo.jpg`.
 4. Conhecimento básico de C#: embora não seja obrigatório, entender C# tornará mais fácil para você acompanhar este tutorial.
@@ -95,7 +95,7 @@ Com os dados binários da imagem em mãos, agora podemos inseri-los no cabeçalh
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Esta linha coloca a imagem na seção central do cabeçalho. O parâmetro`1` especifica a seção de cabeçalho.
+ Esta linha coloca a imagem na seção central do cabeçalho. O parâmetro`1`especifica a seção de cabeçalho.
 
 ## Etapa 7: Definindo o conteúdo do cabeçalho
 
@@ -141,7 +141,7 @@ O Aspose.Cells suporta uma variedade de formatos, incluindo JPEG, PNG, BMP, GIF 
 ### Posso inserir várias imagens no cabeçalho/rodapé?
 Sim, você pode inserir imagens separadas em diferentes seções do cabeçalho ou rodapé usando diferentes espaços reservados.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  O Aspose.Cells oferece um teste gratuito, mas uma versão licenciada está disponível para acesso total e recursos adicionais. Você pode obter um[licença temporária aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Como posso solucionar problemas com imagens que não são exibidas?

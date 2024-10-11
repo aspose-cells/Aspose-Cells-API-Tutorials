@@ -15,7 +15,7 @@ Har du någonsin behövt lägga till ett nytt ark i en Excel-fil programmatiskt?
 
 Innan vi gör någon kodning, låt oss se till att du har allt du behöver för det här projektet:
 
-1. Visual Studio: Se till att du har Visual Studio installerat. Om du inte har det ännu kan du ladda ner det från[Microsofts webbplats](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Se till att du har Visual Studio installerat. Om du inte har det ännu kan du ladda ner det från[Microsofts webbplats](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells Library: Du behöver Aspose.Cells for .NET-biblioteket. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Se till att ditt projekt är konfigurerat för en kompatibel version av .NET Framework (vanligtvis fungerar .NET Framework 4.0 eller senare bra).
 4. Grundläggande C#-kunskaper: Bekantskap med C# och objektorienterad programmering hjälper dig att förstå koden bättre.
@@ -62,7 +62,7 @@ I koden ovan deklarerar vi sökvägen där vår Excel-fil kommer att finnas (`da
 Nästa upp kommer vi att skapa en instans av Workbook-klassen. Den här klassen är ryggraden i alla Excel-relaterade operationer du ska utföra.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Nu när vår arbetsbok är klar, låt oss lägga till det nya bladet!
 int i = workbook.Worksheets.Add();
 ```
 
- Här använder vi`Add()` metod för`Worksheets` samling närvarande inom`Workbook` klass. Metoden returnerar ett index (`i`) av det nyligen tillagda arket. Det är som att lägga till en sida i din anteckningsbok - enkelt och effektivt!
+ Här använder vi`Add()` metod för`Worksheets` samling närvarande inom`Workbook` klass. Metoden returnerar ett index (`i`av det nyligen tillagda arket. Det är som att lägga till en sida i din anteckningsbok - enkelt och effektivt!
 
 ## Steg 4: Namnge ditt nya arbetsblad
 
@@ -119,7 +119,7 @@ Aspose.Cells för .NET är ett kraftfullt bibliotek för att skapa, manipulera o
  Ja, ring bara`Add()` metod flera gånger och hänvisa till varje blad efter dess index!
 
 ### Finns det en gratis testversion av Aspose.Cells?  
-Definitivt! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
+ Definitivt! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 
 ### Kan jag formatera det nya arket efter att ha lagt till det?  
 Absolut! Du kan använda stilar, format och till och med formler på dina kalkylblad med hjälp av bibliotekets funktioner.

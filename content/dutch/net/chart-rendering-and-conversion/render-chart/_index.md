@@ -91,7 +91,7 @@ int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Hier voegen we een grafiek toe op de opgegeven locatie door de lay-out ervan te definiëren: de eerste reeks getallen geeft de positie van de grafiek op het raster weer.
+Hier voegen we een grafiek toe op de opgegeven locatie door de lay-out te definiëren: de eerste reeks getallen geeft de positie van de grafiek op het raster weer.
 
 ## Stap 6: Gegevensreeksen toevoegen aan de grafiek
 

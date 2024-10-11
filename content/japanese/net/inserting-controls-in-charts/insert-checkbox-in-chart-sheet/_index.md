@@ -137,7 +137,7 @@ Aspose.Cells は、.NET アプリケーションで Excel ファイルを作成�
 いいえ、そうではありません。このチュートリアルで示されているように、ほんの数行のコードで実行できます。
 
 ### Aspose.Cells はどこで購入できますか?  
-Aspose.Cellsは以下から購入できます。[購入リンク](https://purchase.aspose.com/buy).
+ Aspose.Cellsは以下から購入できます。[購入リンク](https://purchase.aspose.com/buy).
 
 ### 問題が発生した場合、どうすればサポートを受けることができますか?  
  Asposeは、質問したり解決策を見つけたりできるサポートフォーラムを提供しています。[サポートページ](https://forum.aspose.com/c/cells/9).

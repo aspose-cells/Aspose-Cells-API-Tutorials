@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Następnie tworzymy instancję`Workbook` Klasa, która reprezentuje plik Excela.
+ Następnie tworzymy instancję`Workbook`Klasa, która reprezentuje plik Excela.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Ten wiersz inicjuje nowy skoroszyt, przygotowując go do pracy.
 
 ## Krok 3: Uzyskaj odniesienie do PageSetup
 
- Teraz uzyskajmy dostęp do arkusza kalkulacyjnego`PageSetup`property. Tutaj będzie konfigurowana większość naszych ustawień drukowania.
+ Teraz uzyskajmy dostęp do arkusza kalkulacyjnego`PageSetup` property. Tutaj będzie konfigurowana większość naszych ustawień drukowania.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

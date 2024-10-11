@@ -2,7 +2,7 @@
 title: Chránit konkrétní řádek v listu aplikace Excel
 linktitle: Chránit konkrétní řádek v listu aplikace Excel
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem přizpůsobený vývojářům.
+description: Naučte se chránit konkrétní řádky v listech aplikace Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem šitý na míru vývojářům.
 type: docs
 weight: 90
 url: /cs/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
@@ -137,7 +137,7 @@ A tady to máte! Úspěšně jste ochránili konkrétní řádek v listu aplikac
 ## FAQ
 
 ### Mohu chránit více řádků stejnou metodou?  
-Ano, proces uzamčení můžete opakovat pro všechny další řádky stejným způsobem, jako jste to udělali pro první řádek.
+Ano, proces zamykání můžete opakovat pro jakékoli další řádky stejným způsobem, jako jste to udělali pro první řádek.
 
 ### Co když chci místo řádků chránit a odemykat konkrétní buňky?  
 Můžete jednotlivě vybrat buňky a použít styly zamykání, podobně jako při zamykání řádku.
@@ -149,4 +149,4 @@ Aspose.Cells je komerční produkt, ale můžete jej vyzkoušet pomocí bezplatn
 Ne, Aspose.Cells je knihovna .NET a může pracovat offline, jakmile ji nainstalujete.
 
 ### Kde mohu získat podporu pro Aspose.Cells?  
- V případě jakýchkoli dotazů nebo podpory můžete navštívit stránku[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).
+ V případě jakýchkoli dotazů nebo podpory můžete navštívit[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).

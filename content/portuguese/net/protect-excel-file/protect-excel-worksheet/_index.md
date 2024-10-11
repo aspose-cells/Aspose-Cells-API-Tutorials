@@ -114,7 +114,7 @@ Proteger suas planilhas do Excel usando o Aspose.Cells para .NET é uma maneira 
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca para .NET que permite aos desenvolvedores ler, escrever e manipular arquivos do Excel programaticamente.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  O Aspose.Cells oferece um teste gratuito, mas para funcionalidade completa, você precisaria de uma licença paga. Você pode aprender mais sobre como obter uma[aqui](https://purchase.aspose.com/buy).
 
 ### Posso proteger várias planilhas de uma só vez?

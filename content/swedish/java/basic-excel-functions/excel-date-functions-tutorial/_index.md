@@ -67,7 +67,7 @@ String calculatedDate = worksheet.getCells().get("A1").getStringValue();
 System.out.println("Calculated Date: " + calculatedDate);
 ```
 
-### Jobbar med funktionen TODAY
+### Arbeta med TODAY-funktionen
 
 Låt oss nu utforska hur man hämtar det aktuella datumet med hjälp av funktionen TODAY med Aspose.Cells för Java.
 

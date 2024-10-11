@@ -122,4 +122,4 @@ No, Aspose.Cells consente di creare e modificare file Excel a livello di program
  Sì, puoi scaricare una versione di prova gratuita da[Pagina di rilascio di Aspose Cells](https://releases.aspose.com/).
 
 ### Come posso ottenere supporto per Aspose.Cells?
- Puoi accedere al supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9), dove puoi porre domande e trovare risposte dalla community e dal team di Aspose.
+ Puoi accedere al supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9)dove puoi porre domande e trovare risposte dalla community e dal team di Aspose.

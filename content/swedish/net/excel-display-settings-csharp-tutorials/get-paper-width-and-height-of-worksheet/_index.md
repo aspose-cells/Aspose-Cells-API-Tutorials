@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Vart och ett av dessa block efterliknar föregående steg men justerar`PaperSize` egendom i enlighet därmed. Genom att bara ändra storleksindikatorn får du olika pappersdimensioner utan ansträngning. Det är som att ändra storleken på en låda baserat på vad du behöver förvara!
+ Vart och ett av dessa block efterliknar föregående steg men justerar`PaperSize`egendom i enlighet därmed. Genom att bara ändra storleksindikatorn får du olika pappersdimensioner utan ansträngning. Det är som att ändra storleken på en låda baserat på vad du behöver förvara!
 
 ## Slutsats
 

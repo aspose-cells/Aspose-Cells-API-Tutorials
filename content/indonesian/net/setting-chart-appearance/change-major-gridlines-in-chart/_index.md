@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Perbarui dengan jalur yang Anda i
  Selanjutnya, Anda perlu membuat instance baru dari`Workbook` kelas. Objek ini akan mewakili berkas Excel Anda, yang memungkinkan Anda memanipulasi isinya.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+//Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Dalam kode ini, kami menentukan jenis bagan (dalam hal ini, bagan kolom) dan pos
 
 ## Langkah 6: Akses Instansi Bagan
 
- Setelah kita membuat grafik, kita perlu mengakses instansinya untuk mengubah propertinya. Ini dilakukan dengan mengambilnya melalui`Charts` koleksi.
+ Setelah kita membuat grafik, kita perlu mengakses instansinya untuk mengubah propertinya. Ini dilakukan dengan mengambilnya melalui`Charts`koleksi.
 
 ```csharp
 // Mengakses contoh grafik yang baru ditambahkan

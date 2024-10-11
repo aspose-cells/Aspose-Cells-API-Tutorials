@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Bước 2: Tạo một Workbook mới
 
- Bây giờ chúng ta đã có thư mục đầu ra, hãy tạo một sổ làm việc mới.`Workbook`lớp là điểm khởi đầu để xử lý các tệp Excel.
+ Bây giờ chúng ta đã có thư mục đầu ra, hãy tạo một sổ làm việc mới.`Workbook` lớp là điểm khởi đầu để xử lý các tệp Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Có! Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLS, X
 Hoàn toàn có thể! Bạn có thể thêm các đối tượng phức tạp vào thuộc tính kiểu nội dung miễn là chúng có thể được tuần tự hóa đúng cách.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
-Để biết hướng dẫn chi tiết hơn, hãy tham khảo[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Để biết hướng dẫn chi tiết hơn, hãy tham khảo[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).

@@ -15,7 +15,7 @@ Stalo se vám někdy, že jste potřebovali programově přidat nový list do so
 
 Než provedeme jakékoli kódování, ujistěte se, že máte vše, co potřebujete pro tento projekt:
 
-1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio. Pokud jej ještě nemáte, můžete si jej stáhnout z[webové stránky společnosti Microsoft](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Ujistěte se, že máte nainstalované Visual Studio. Pokud jej ještě nemáte, můžete si jej stáhnout z[webové stránky společnosti Microsoft](https://visualstudio.microsoft.com/).
 2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells for .NET. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Ujistěte se, že je váš projekt nastaven pro kompatibilní verzi .NET Framework (typicky .NET Framework 4.0 nebo vyšší funguje dobře).
 4. Základní znalost C#: Znalost C# a objektově orientovaného programování vám pomůže lépe porozumět kódu.
@@ -62,7 +62,7 @@ Ve výše uvedeném kódu deklarujeme cestu, kde bude umístěn náš soubor Exc
 Dále vytvoříme instanci třídy Workbook. Tato třída je páteří všech operací souvisejících s Excelem, které budete provádět.
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 
@@ -77,9 +77,9 @@ Nyní, když je náš sešit připraven, přidejte nový list!
 int i = workbook.Worksheets.Add();
 ```
 
- Zde používáme`Add()` metoda`Worksheets` sbírka přítomná v`Workbook` třída. Metoda vrací index (`i`) nově přidaného listu. Je to jako přidat stránku do poznámkového bloku – jednoduché a efektivní!
+ Zde používáme`Add()` metoda`Worksheets` sbírka přítomná v`Workbook` třída. Metoda vrací index (`i`nově přidaného listu. Je to jako přidat stránku do poznámkového bloku – jednoduché a efektivní!
 
-## Krok 4: Pojmenování nového listu
+## Krok 4: Pojmenujte svůj nový list
 
 Co je to list bez jména? Pojmenujme náš nově vytvořený pracovní list pro snadnou identifikaci.
 
@@ -106,7 +106,7 @@ Pouze s jedním řádkem kódu uložíme náš sešit do zadaného adresáře s 
 
 ## Závěr
 
-A tady to máte! V několika jednoduchých krocích jsme probrali, jak přidat nový list do souboru aplikace Excel pomocí C# a Aspose.Cells. Ať už si jen hrajete s kódem nebo pracujete na rozsáhlejším projektu, tato funkce může výrazně zlepšit váš pracovní postup správy dat. 
+tady to máte! V několika jednoduchých krocích jsme probrali, jak přidat nový list do souboru aplikace Excel pomocí C# a Aspose.Cells. Ať už si jen hrajete s kódem nebo pracujete na rozsáhlejším projektu, tato funkce může výrazně zlepšit váš pracovní postup správy dat. 
 
 S Aspose.Cells jsou možnosti nekonečné. S daty můžete manipulovat nesčetnými způsoby – úpravami, formátováním nebo dokonce vytvářením vzorců! Takže pokračujte a prozkoumejte dále; vaše soubory Excel vám za to poděkují.
 
@@ -119,7 +119,7 @@ Aspose.Cells for .NET je výkonná knihovna pro vytváření, manipulaci a konve
  Ano, stačí zavolat`Add()` vícekrát a odkazujte na každý list podle jeho indexu!
 
 ### Existuje bezplatná zkušební verze Aspose.Cells?  
-Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+ Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Mohu nový list po přidání naformátovat?  
 Absolutně! Pomocí funkcí knihovny můžete na své listy použít styly, formáty a dokonce vzorce.

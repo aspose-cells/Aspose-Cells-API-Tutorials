@@ -77,7 +77,7 @@ In diesem Fall nehmen wir einfach das erste Arbeitsblatt, was für dieses Beispi
 Mit dem Arbeitsblatt in der Hand können wir nun auf das Diagramm zugreifen, das wir gestalten möchten.
 
 ```csharp
-// Holen Sie sich das erste Diagramm im Blatt
+//Holen Sie sich das erste Diagramm im Blatt
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Diese Codezeile stellt sicher, dass für die erste Reihe im Diagramm eine einfar
 // Holen Sie sich die CellsColor von SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Erstellen Sie ein Design im Accent-Stil
+//Erstellen Sie ein Design im Accent-Stil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

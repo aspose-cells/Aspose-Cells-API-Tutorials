@@ -102,7 +102,7 @@ workbook.Save(dataDir + "ManagePaperSize_out.xls");
 
 ## Conclusie
 
-Het beheren van papierformaten in Excel-sheets wordt een fluitje van een cent met Aspose.Cells voor .NET. Of u nu documenten voorbereidt om af te drukken of ervoor zorgt dat ze voldoen aan specifieke richtlijnen, de hierboven beschreven stappen helpen u moeiteloos uw doelen te bereiken. Naarmate u dieper in Aspose.Cells duikt, ontdekt u nog meer krachtige functies die uw datamanipulatie- en presentatietaken kunnen verbeteren.
+Het beheren van papierformaten in Excel-sheets wordt een fluitje van een cent met Aspose.Cells voor .NET. Of u nu documenten voorbereidt voor afdrukken of ervoor zorgt dat ze voldoen aan specifieke richtlijnen, de hierboven beschreven stappen helpen u moeiteloos uw doelen te bereiken. Naarmate u dieper in Aspose.Cells duikt, ontdekt u nog krachtigere functies die uw datamanipulatie- en presentatietaken kunnen verbeteren.
 
 ## Veelgestelde vragen
 

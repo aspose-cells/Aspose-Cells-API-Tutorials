@@ -72,7 +72,7 @@ Workbook workbook = new Workbook(fstream);
 ここからが面白いところです。ワークブックに新しいワークシートを追加してみましょう。これは、`Add()`方法から`Worksheets`コレクション。
 
 ```csharp
-//Workbook オブジェクトに新しいワークシートを追加する
+// Workbook オブジェクトに新しいワークシートを追加する
 int i = workbook.Worksheets.Add();
 ```
 

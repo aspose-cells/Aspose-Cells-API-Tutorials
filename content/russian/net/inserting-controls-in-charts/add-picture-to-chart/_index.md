@@ -13,7 +13,7 @@ url: /ru/net/inserting-controls-in-charts/add-picture-to-chart/
 
 ## Предпосылки
 
-Прежде чем мы перейдем к тонкостям кодирования, необходимо выполнить несколько предварительных условий, чтобы все прошло гладко:
+Прежде чем мы перейдем к тонкостям кодирования, необходимо соблюсти несколько предварительных условий, чтобы все прошло гладко:
 
 - Visual Studio: Здесь вы будете писать и запускать свой код .NET. Убедитесь, что он у вас установлен.
 -  Aspose.Cells for .NET: Эта библиотека вам понадобится для работы с файлами Excel. Вы можете[скачать здесь](https://releases.aspose.com/cells/net/).
@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Заменять`Your Document Directory` и`Your Output Directory`с реальными путями на вашем компьютере. 
+ Заменять`Your Document Directory` и`Your Output Directory` с реальными путями на вашем компьютере. 
 
 ## Шаг 2: Загрузите существующую рабочую книгу
 
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Здесь,`50` и`50` — это координаты X и Y, где будет размещено изображение, и`200`ширина и высота изображения.
+ Здесь,`50` и`50` — это координаты X и Y, где будет размещено изображение, и`200` ширина и высота изображения.
 
 ## Шаг 6: Настройте формат линий изображения
 
@@ -151,7 +151,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 Aspose.Cells поддерживает различные форматы изображений, включая PNG, JPEG, BMP и GIF.
 
 ### Могу ли я настроить положение изображения?
- Конечно! Координаты X и Y в`AddPictureInChart` Метод позволяет точно позиционировать.
+Конечно! Координаты X и Y в`AddPictureInChart` метод позволяет точное позиционирование.
 
 ### Можно ли использовать Aspose.Cells бесплатно?
  Aspose.Cells предлагает бесплатную пробную версию, но для полного функционала требуется лицензия. Вы можете найти цены[здесь](https://purchase.aspose.com/buy).

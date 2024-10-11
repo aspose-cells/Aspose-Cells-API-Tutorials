@@ -9,7 +9,7 @@ url: /nl/net/excel-page-setup/set-excel-print-title/
 ---
 ## Invoering
 
-Als het gaat om werken met Excel-spreadsheets, is het cruciaal om duidelijkheid te creëren in uw afgedrukte documenten. Heeft u ooit een rapport afgedrukt en ontdekt dat de titels niet op elke pagina worden weergegeven? Frustrerend, toch? Nou, vrees niet langer! In deze gids leiden we u door de stappen om afdruktitels in Excel in te stellen met Aspose.Cells voor .NET. Als u ooit het afdrukproces wilde stroomlijnen om uw spreadsheets er professioneler uit te laten zien, bent u hier aan het juiste adres.
+Als het gaat om het werken met Excel-spreadsheets, is het cruciaal om duidelijkheid te creëren in uw afgedrukte documenten. Heeft u ooit een rapport afgedrukt en ontdekt dat de titels niet op elke pagina worden weergegeven? Frustrerend, toch? Nou, vrees niet langer! In deze gids leiden we u door de stappen om afdruktitels in Excel in te stellen met Aspose.Cells voor .NET. Als u ooit het afdrukproces wilde stroomlijnen om uw spreadsheets er professioneler uit te laten zien, bent u hier aan het juiste adres.
 
 ## Vereisten
 
@@ -20,7 +20,7 @@ Voordat we met de stappen beginnen, willen we ervoor zorgen dat u alles zo hebt 
 3. Basiskennis programmeren: Kennis van C#-programmering helpt u de verstrekte codefragmenten te begrijpen en aan te passen.
 4. .NET Framework: Zorg ervoor dat u de juiste versie van .NET hebt geïnstalleerd voor compatibiliteit met Aspose.Cells.
 
-Zodra u aan deze voorwaarden voldoet, kunnen we de mouwen opstropen en aan de slag!
+Zodra u aan deze voorwaarden voldoet, kunnen we aan de slag!
 
 ## Pakketten importeren
 
@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Stap 2: Een werkmapobject instantiëren
 
- Vervolgens maken we een instantie van de`Workbook` klasse, die een Excel-bestand vertegenwoordigt.
+ Vervolgens maken we een instantie van de`Workbook`klasse, die een Excel-bestand vertegenwoordigt.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Deze regel initialiseert een nieuwe werkmap, zodat deze gereed is voor bewerking
 
 ## Stap 3: Verkrijg PageSetup-referentie
 
- Laten we nu de werkbladen openen`PageSetup`eigenschap. Hier worden de meeste van onze afdrukinstellingen geconfigureerd.
+ Laten we nu de werkbladen openen`PageSetup` eigenschap. Hier worden de meeste van onze afdrukinstellingen geconfigureerd.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

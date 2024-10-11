@@ -16,7 +16,7 @@ Excel 파일을 관리하고 조작하는 데 있어 Aspose.Cells for .NET은 �
 코딩 작업에 들어가기 전에, 시작하는 데 필요한 모든 것이 있는지 확인해 보겠습니다. 필수 조건 체크리스트는 다음과 같습니다.
 
 1. Visual Studio: IDE가 필요하며, Visual Studio는 .NET 프로젝트에 적합한 선택입니다.
-2. .NET용 Aspose.Cells: 라이브러리를 다운로드하거나, 원하시면 무료 체험판으로 시작해서 익숙해질 수 있습니다. 바로 다음으로 이동하세요.[이 링크](https://releases.aspose.com).
+2.  .NET용 Aspose.Cells: 라이브러리를 다운로드하거나, 원하시면 무료 체험판으로 시작해서 익숙해질 수 있습니다. 바로 다음으로 이동하세요.[이 링크](https://releases.aspose.com).
 3. C#에 대한 기본 지식: C#의 기본을 이해하면 아무런 어려움 없이 따라갈 수 있습니다.
 4. .NET Framework: 컴퓨터에 호환되는 버전의 .NET Framework가 설치되어 있는지 확인하세요.
 5.  샘플 Excel 파일: 이 튜토리얼에서는 작업할 Excel 파일이 필요합니다. 샘플 파일 이름을 사용할 수 있습니다.`Book1.xlsx`.
@@ -58,7 +58,7 @@ using System;
 string sourceDir = "Your Document Directory";
 ```
 
- 이 코드는 우리가 경로를 찾는 데 도움이 됩니다.`Book1.xlsx` 이를 통해 향후 참조가 훨씬 쉬워집니다.
+이 코드는 우리가 경로를 찾는 데 도움이 됩니다.`Book1.xlsx` 이를 통해 향후 참조가 훨씬 쉬워집니다.
 
 ## 2단계: 통합 문서 로드
 
@@ -131,7 +131,7 @@ Console.WriteLine("PrintPreview executed successfully.");
 Aspose.Cells는 Excel 파일 형식을 처리하기 위한 강력한 라이브러리로, 데이터 조작, 서식 지정, 인쇄 미리보기 렌더링 등의 기능을 제공합니다.
 
 ### Aspose.Cells를 사용하려면 구매해야 하나요?
- 무료 체험판을 여기에서 이용할 수 있습니다.[이 링크](https://releases.aspose.com) 라이센스를 구매하기 전에.
+ 무료 체험판을 여기에서 이용할 수 있습니다.[이 링크](https://releases.aspose.com)라이센스를 구매하기 전에.
 
 ### Aspose.Cells를 모든 .NET 애플리케이션에서 사용할 수 있나요?
 네, Aspose.Cells는 ASP.NET, WinForms 등을 포함한 모든 .NET 애플리케이션에서 작동하도록 설계되었습니다.

@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Frissítse a kívánt útvonalat
  Ezután létre kell hoznia egy új példányt a`Workbook` osztály. Ez az objektum az Excel-fájlt fogja képviselni, lehetővé téve annak tartalmának kezelését.
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Ebben a kódban megadjuk a diagram típusát (jelen esetben oszlopdiagramot) és
 
 ## 6. lépés: Nyissa meg a diagrampéldányt
 
- Miután elkészítettük a diagramot, hozzá kell férnünk a példányához, hogy módosítsuk tulajdonságait. Ez úgy történik, hogy a`Charts` gyűjtemény.
+ Miután elkészítettük a diagramot, hozzá kell férnünk a példányához, hogy módosítsuk tulajdonságait. Ez úgy történik, hogy a`Charts`gyűjtemény.
 
 ```csharp
 // Az újonnan hozzáadott diagram példányának elérése

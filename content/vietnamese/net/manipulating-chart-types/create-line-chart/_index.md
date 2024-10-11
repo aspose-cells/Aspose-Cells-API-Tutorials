@@ -50,14 +50,14 @@ Bước đầu tiên là xác định nơi bạn muốn lưu tệp đầu ra. Gi
 // Thư mục đầu ra
 string outputDir = "Your Output Directory";
 ```
- Thay thế`"Your Output Directory"`với đường dẫn thực tế mà bạn muốn lưu tệp Excel đã tạo.
+ Thay thế`"Your Output Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel đã tạo.
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 
 Tiếp theo, chúng ta cần tạo một phiên bản sổ làm việc mới. Hãy nghĩ về Sổ làm việc như một bức tranh nơi sự sáng tạo của bạn sẽ tuôn chảy. 
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 Dòng này khởi tạo một bảng tính mới sẽ lưu trữ toàn bộ dữ liệu và hình ảnh của bạn.

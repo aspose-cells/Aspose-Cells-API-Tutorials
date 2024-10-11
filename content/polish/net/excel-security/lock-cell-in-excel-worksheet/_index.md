@@ -9,13 +9,13 @@ url: /pl/net/excel-security/lock-cell-in-excel-worksheet/
 ---
 ## Wstęp
 
-W dzisiejszym szybko zmieniającym się świecie bezpieczne zarządzanie danymi jest kluczowe zarówno dla firm, jak i osób prywatnych. Excel jest powszechnym narzędziem do zarządzania danymi, ale jak upewnić się, że poufne informacje pozostaną nienaruszone, a jednocześnie inni będą mogli przeglądać arkusz kalkulacyjny? Blokowanie komórek w arkuszu kalkulacyjnym programu Excel to jeden ze skutecznych sposobów ochrony danych przed niechcianymi zmianami. W tym przewodniku zagłębimy się w sposób blokowania komórek w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która upraszcza programowe czytanie, pisanie i manipulowanie plikami programu Excel.
+dzisiejszym szybko zmieniającym się świecie bezpieczne zarządzanie danymi jest kluczowe zarówno dla firm, jak i osób prywatnych. Excel jest powszechnym narzędziem do zarządzania danymi, ale jak upewnić się, że poufne informacje pozostaną nienaruszone, a jednocześnie inni będą mogli przeglądać arkusz kalkulacyjny? Blokowanie komórek w arkuszu kalkulacyjnym programu Excel to jeden ze skutecznych sposobów ochrony danych przed niechcianymi zmianami. W tym przewodniku zagłębimy się w sposób blokowania komórek w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która upraszcza programowe czytanie, pisanie i manipulowanie plikami programu Excel.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółów kodu, musisz przygotować kilka rzeczy:
 
-1. Aspose.Cells dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Cells dla .NET ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Cells dla .NET ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: Środowisko programistyczne skonfigurowane dla .NET. Popularne opcje to Visual Studio lub JetBrains Rider.
 3. Podstawowa znajomość języka C#: Chociaż przeprowadzimy Cię przez kod krok po kroku, podstawowa znajomość programowania w języku C# pomoże Ci szybciej zrozumieć koncepcje.
 4. Katalog dokumentów: Upewnij się, że masz utworzony katalog, w którym możesz przechowywać pliki programu Excel w celu testowania.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj swój skoroszyt
 
- Następnie należy załadować skoroszyt programu Excel, w którym zamierzasz zablokować komórki. Można to zrobić, tworząc wystąpienie`Workbook` klasę i wskazując na wybrany plik Excela.
+Następnie należy załadować skoroszyt programu Excel, w którym zamierzasz zablokować komórki. Można to zrobić, tworząc wystąpienie`Workbook` klasę i wskazując na wybrany plik Excela.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Jeśli zapomnisz hasła, nie będziesz mógł usunąć zabezpieczenia arkusza, d
  Oczywiście! Możesz odblokować komórki, ustawiając`IsLocked` nieruchomość do`false` i usuwanie ochrony.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje użytkownikom bezpłatną wersję próbną. Jednak do ciągłego użytkowania musisz kupić licencję. Odwiedź[Strona zakupu Aspose](https://purchase.aspose.com/buy) Aby uzyskać więcej szczegółów.
+Aspose.Cells oferuje użytkownikom bezpłatną wersję próbną. Jednak do ciągłego użytkowania musisz kupić licencję. Odwiedź[Strona zakupu Aspose](https://purchase.aspose.com/buy) po więcej szczegółów.

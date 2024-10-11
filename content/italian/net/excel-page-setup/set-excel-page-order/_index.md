@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Qui,`workbook.Worksheets[0]` si riferisce al primo foglio di lavoro nella tua cartella di lavoro. Il`PageSetup`La proprietà ti darà il controllo sulle impostazioni di impaginazione del tuo foglio.
+ Qui,`workbook.Worksheets[0]` si riferisce al primo foglio di lavoro nella tua cartella di lavoro. Il`PageSetup` La proprietà ti darà il controllo sulle impostazioni di impaginazione del tuo foglio.
 
 ## Passaggio 4: impostare l'ordine di stampa
 
 
- Con il`PageSetup` oggetto, è il momento di dire a Excel come vuoi che vengano stampate le pagine. Hai la possibilità di impostare l'ordine come "Sopra e poi Sotto" o "Sotto e poi Sopra".
+ Con il`PageSetup`oggetto, è il momento di dire a Excel come vuoi che vengano stampate le pagine. Hai la possibilità di impostare l'ordine come "Sopra e poi Sotto" o "Sotto e poi Sopra".
 
 Ecco il codice per impostare l'ordine di stampa:
 

@@ -9,13 +9,13 @@ url: /de/net/excel-security/lock-cell-in-excel-worksheet/
 ---
 ## Einführung
 
-In der heutigen schnelllebigen Welt ist die sichere Verwaltung von Daten für Unternehmen und Privatpersonen gleichermaßen von entscheidender Bedeutung. Excel ist ein gängiges Tool zur Datenverwaltung, aber wie stellen Sie sicher, dass vertrauliche Informationen erhalten bleiben, während andere die Tabellenkalkulation trotzdem einsehen können? Das Sperren von Zellen in einem Excel-Arbeitsblatt ist eine effektive Möglichkeit, Ihre Daten vor unerwünschten Änderungen zu schützen. In diesem Handbuch erfahren Sie, wie Sie Zellen in einem Excel-Arbeitsblatt mit Aspose.Cells für .NET sperren – einer leistungsstarken Bibliothek, die das programmgesteuerte Lesen, Schreiben und Bearbeiten von Excel-Dateien vereinfacht.
+In der heutigen schnelllebigen Welt ist die sichere Verwaltung von Daten für Unternehmen und Privatpersonen gleichermaßen von entscheidender Bedeutung. Excel ist ein gängiges Tool zur Datenverwaltung, aber wie stellen Sie sicher, dass vertrauliche Informationen erhalten bleiben, während andere die Tabellenkalkulation dennoch anzeigen können? Das Sperren von Zellen in einem Excel-Arbeitsblatt ist eine effektive Möglichkeit, Ihre Daten vor unerwünschten Änderungen zu schützen. In diesem Handbuch erfahren Sie, wie Sie Zellen in einem Excel-Arbeitsblatt mit Aspose.Cells für .NET sperren – einer leistungsstarken Bibliothek, die das programmgesteuerte Lesen, Schreiben und Bearbeiten von Excel-Dateien vereinfacht.
 
 ## Voraussetzungen
 
 Bevor wir uns in die Einzelheiten des Codes stürzen, müssen Sie ein paar Dinge bereithalten:
 
-1. Aspose.Cells für .NET: Laden Sie die neueste Version von Aspose.Cells für .NET herunter und installieren Sie sie von der[Aspose-Website](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells für .NET: Laden Sie die neueste Version von Aspose.Cells für .NET herunter und installieren Sie sie von der[Aspose-Website](https://releases.aspose.com/cells/net/).
 2. IDE: Eine für .NET eingerichtete Entwicklungsumgebung. Beliebte Optionen sind Visual Studio oder JetBrains Rider.
 3. Grundlegende Kenntnisse in C#: Wir führen Sie zwar Schritt für Schritt durch den Code, aber Grundkenntnisse in der C#-Programmierung helfen Ihnen dabei, die Konzepte schneller zu erfassen.
 4. Ihr Dokumentverzeichnis: Stellen Sie sicher, dass Sie ein Verzeichnis eingerichtet haben, in dem Sie Ihre Excel-Dateien zum Testen speichern können.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Schritt 2: Laden Sie Ihre Arbeitsmappe
 
- Als nächstes laden Sie die Excel-Arbeitsmappe, in der Sie Zellen sperren möchten. Dies geschieht durch Erstellen einer Instanz des`Workbook` Klasse und verweisen Sie damit auf die gewünschte Excel-Datei.
+Als nächstes laden Sie die Excel-Arbeitsmappe, in der Sie Zellen sperren möchten. Dies geschieht durch Erstellen einer Instanz des`Workbook` Klasse und verweisen Sie damit auf die gewünschte Excel-Datei.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Wenn Sie das Kennwort vergessen, können Sie den Schutz des Arbeitsblatts nicht 
  Absolut! Sie können Zellen entsperren, indem Sie die`IsLocked` Eigentum an`false` und Entfernen des Schutzes.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells bietet eine kostenlose Testversion für Benutzer an. Für die dauerhafte Nutzung müssen Sie jedoch eine Lizenz erwerben. Besuchen Sie die[Aspose-Kaufseite](https://purchase.aspose.com/buy) für weitere Details.
+Aspose.Cells bietet eine kostenlose Testversion für Benutzer an. Für die dauerhafte Nutzung müssen Sie jedoch eine Lizenz erwerben. Besuchen Sie die[Aspose-Kaufseite](https://purchase.aspose.com/buy) für weitere Details.

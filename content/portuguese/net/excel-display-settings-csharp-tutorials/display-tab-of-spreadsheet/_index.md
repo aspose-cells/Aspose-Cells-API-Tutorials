@@ -41,7 +41,7 @@ Antes de podermos manipular qualquer arquivo Excel, precisamos definir o caminho
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Substituir`"YOUR DOCUMENT DIRECTORY"`com o caminho de diretório real no seu sistema. Este diretório será onde você carregará seu arquivo Excel existente e salvará a saída.
+ Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho de diretório real no seu sistema. Este diretório será onde você carregará seu arquivo Excel existente e salvará a saída.
 
 ## Etapa 2: Instanciando um objeto de pasta de trabalho
 
@@ -61,7 +61,7 @@ No Excel, as guias na parte inferior (Planilha1, Planilha2, etc.) podem ser ocul
 workbook.Settings.ShowTabs = true;
 ```
 
- Contexto`ShowTabs` para`true` garantirá que as guias fiquem visíveis quando você abrir o arquivo Excel.
+ Contexto`ShowTabs` para`true`garantirá que as guias fiquem visíveis quando você abrir o arquivo Excel.
 
 ## Etapa 4: Salve o arquivo Excel modificado
 
@@ -71,7 +71,7 @@ Depois que as abas forem exibidas, precisamos salvar o arquivo atualizado. Isso 
 workbook.Save(dataDir + "output.xls");
 ```
 
- arquivo é salvo com o nome`output.xls` no diretório especificado anteriormente. Você também pode escolher um nome ou formato de arquivo diferente (como`.xlsx`) se necessário.
+ O arquivo é salvo com o nome`output.xls` no diretório especificado anteriormente. Você também pode escolher um nome ou formato de arquivo diferente (como`.xlsx`) se necessário.
 
 ## Conclusão
 
@@ -80,7 +80,7 @@ E aí está! Você exibiu com sucesso as guias em uma planilha do Excel usando o
 ## Perguntas frequentes
 
 ### Posso ocultar as guias no Excel usando o Aspose.Cells para .NET?
- Absolutamente! Basta definir`workbook.Settings.ShowTabs = false;` e salve o arquivo. Isso ocultará as guias quando a pasta de trabalho for aberta.
+ Absolutamente! Basta definir`workbook.Settings.ShowTabs = false;` salve o arquivo. Isso ocultará as guias quando a pasta de trabalho for aberta.
 
 ### O Aspose.Cells oferece suporte a outros recursos do Excel, como gráficos e tabelas dinâmicas?
 Sim, o Aspose.Cells é uma biblioteca abrangente que oferece suporte a quase todos os recursos do Excel, incluindo gráficos, tabelas dinâmicas, fórmulas e muito mais.

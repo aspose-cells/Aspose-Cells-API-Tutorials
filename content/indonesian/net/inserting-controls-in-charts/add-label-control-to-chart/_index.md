@@ -112,7 +112,7 @@ Di sinilah Anda memberi judul pada karya seni Anda. Judul membantu pemirsa memah
 Sekarang, mari kita tentukan bagaimana label diposisikan dalam kaitannya dengan diagram. Di sini, kita akan mengaturnya menjadi bebas mengambang, yang berarti label dapat dipindahkan secara independen dari elemen diagram.
 
 ```csharp
-//Tetapkan Jenis Penempatan, cara label ditempelkan ke sel.
+// Tetapkan Jenis Penempatan, cara label ditempelkan ke sel.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Nah, itu dia! Anda telah berhasil menambahkan kontrol label ke bagan menggunakan
 Ya! Anda dapat mengubah jenis huruf, warna, ukuran, dan properti label lainnya sesuai dengan kebutuhan Anda.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells adalah produk berbayar; namun, Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur-fiturnya.
+ Aspose.Cells adalah produk berbayar; namun, Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/)untuk menjelajahi fitur-fiturnya.
 
 ### Bagaimana jika saya ingin menambahkan beberapa label?
 Anda dapat mengulangi langkah penambahan label sebanyak yang diperlukan, masing-masing dengan posisi dan teks yang berbeda.

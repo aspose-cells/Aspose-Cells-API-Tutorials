@@ -107,7 +107,7 @@ Ahora que nuestros encabezados lucen elegantes, dirijamos nuestra atención a lo
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Explicación: Estamos insertando un mensaje personalizado en el pie de página izquierdo, "¡Hola mundo!" junto con el texto`123` en un estilo de fuente diferente: Courier New.
+Explicación: Estamos insertando un mensaje personalizado en el pie de página izquierdo, "¡Hola mundo!" junto con el texto`123` en un estilo de fuente diferente: Courier New.
 
 ## Paso 7: Configuración del pie de página central
 

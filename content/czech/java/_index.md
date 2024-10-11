@@ -26,7 +26,7 @@ Poslední část se zaměřuje na integraci a export. Naučte se, jak bezproblé
 
 Začněte svou cestu pomocí výukových programů Aspose.Cells for Java ještě dnes a odemkněte plný potenciál manipulace se soubory Excel ve vašich aplikacích Java.
 
-## Aspose.Cells pro Java tutoriály
+## Aspose.Cells for Java tutoriály
 
 ### [Základní funkce Excelu](./basic-excel-functions/)
 Prozkoumejte základní funkce Excelu pomocí Aspose.Cells for Java. Naše výukové programy pokrývají základy krok za krokem. Začněte s manipulací s tabulkami

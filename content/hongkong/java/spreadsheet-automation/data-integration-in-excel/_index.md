@@ -8,7 +8,7 @@ weight: 19
 url: /zh-hant/java/spreadsheet-automation/data-integration-in-excel/
 ---
 
-資料整合是使用 Excel 的一個重要方面，它使您能夠匯集各種來源的信息，進行分析並做出明智的決策。在本指南中，我們將引導您完成使用 Aspose.Cells for Java 在 Excel 中進行資料整合的過程。您將找到逐步說明和原始程式碼範例來簡化您的工作流程。
+資料整合是使用 Excel 的一個重要方面，使您能夠匯集各種來源的信息，進行分析並做出明智的決策。在本指南中，我們將引導您完成使用 Aspose.Cells for Java 在 Excel 中進行資料整合的過程。您將找到逐步說明和原始程式碼範例來簡化您的工作流程。
 
 ## 一、簡介
 

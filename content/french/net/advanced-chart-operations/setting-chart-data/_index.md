@@ -9,7 +9,7 @@ url: /fr/net/advanced-chart-operations/setting-chart-data/
 ---
 ## Introduction
 
-En matière de visualisation de données, les graphiques et diagrammes sont indispensables. Ils vous aident à raconter une histoire avec vos données, rendant les informations complexes plus faciles à comprendre et à interpréter. Aspose.Cells for .NET est une excellente bibliothèque qui vous permet de manipuler des fichiers Excel, y compris la possibilité de créer des graphiques impressionnants. Dans ce didacticiel, nous vous guiderons tout au long du processus de définition transparente des données d'un graphique à l'aide d'Aspose.Cells for .NET.
+En matière de visualisation de données, les graphiques et diagrammes sont indispensables. Ils vous aident à raconter une histoire avec vos données, rendant les informations complexes plus faciles à comprendre et à interpréter. Aspose.Cells pour .NET est une excellente bibliothèque qui vous permet de manipuler des fichiers Excel, y compris la possibilité de créer des graphiques impressionnants. Dans ce didacticiel, nous vous guiderons tout au long du processus de définition transparente des données d'un graphique à l'aide d'Aspose.Cells pour .NET.
 
 ## Prérequis
 

@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Tiếp theo, hãy tạo một phiên bản mới của sổ làm việc. Hãy nghĩ về sổ làm việc như một khung vẽ trống nơi bạn có thể tô màu dữ liệu của mình.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 

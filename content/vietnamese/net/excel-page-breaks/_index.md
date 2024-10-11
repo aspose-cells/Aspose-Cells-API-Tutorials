@@ -14,12 +14,12 @@ Ngắt trang là điều cần thiết khi in các tệp Excel. Chúng giúp xá
 Bạn có biết rằng bạn có thể thêm ngắt trang theo chương trình, do đó tiết kiệm cho bạn rất nhiều công việc thủ công không? Điều này có thể hoàn toàn thay đổi cách bạn chuẩn bị bảng tính để chia sẻ hoặc in ấn. Giống như có một cây đũa thần biến dữ liệu hỗn loạn thành các trang được sắp xếp đẹp mắt!
 
 ## Hướng dẫn từng bước
- Bộ sưu tập hướng dẫn của chúng tôi chia nhỏ các quy trình phức tạp thành các bài học dễ hiểu, dễ hiểu. Ví dụ, trong hướng dẫn về[Excel Thêm Ngắt Trang](./excel-add-page-breaks/)chúng tôi hướng dẫn bạn từng bước với hướng dẫn rõ ràng. Bạn sẽ không chỉ đọc thuật ngữ kỹ thuật; bạn sẽ thực sự theo dõi và áp dụng những gì bạn học được ngay vào các dự án của riêng bạn. 
+ Bộ sưu tập hướng dẫn của chúng tôi chia nhỏ các quy trình phức tạp thành các bài học dễ hiểu, dễ hiểu. Ví dụ, trong hướng dẫn về[Excel Thêm Ngắt Trang](./excel-add-page-breaks/), chúng tôi hướng dẫn bạn từng bước với hướng dẫn rõ ràng. Bạn sẽ không chỉ đọc thuật ngữ kỹ thuật; bạn sẽ thực sự theo dõi và áp dụng những gì bạn học được ngay vào các dự án của riêng bạn. 
 
  Bạn cần xóa tất cả các ngắt trang? Không vấn đề gì! Hãy xem hướng dẫn của chúng tôi trên[Excel Xóa Tất Cả Các Ngắt Trang](./excel-clear-all-page-breaks/), cung cấp một quy trình đơn giản và hiệu quả mà bất kỳ ai cũng có thể thành thạo. Tất cả là để làm cho quy trình làm việc của bạn trôi chảy và nhanh hơn.
 
 ## Tùy chỉnh trong tầm tay bạn
- Còn nếu bạn chỉ muốn xóa một số ngắt trang nhất định thì sao? Đó là nơi hướng dẫn của chúng tôi về[Excel Xóa Ngắt Trang Cụ Thể](./excel-remove-specific-page-break/) phát huy tác dụng. Nó được thiết kế riêng cho những thời điểm bạn cần kiểm soát chính xác bố cục tài liệu của mình. Với Aspose.Cells for .NET, bạn sẽ có khả năng tùy chỉnh bảng tính của mình chính xác theo ý muốn. 
+Còn nếu bạn chỉ muốn xóa một số ngắt trang nhất định thì sao? Đó là nơi hướng dẫn của chúng tôi về[Excel Xóa Ngắt Trang Cụ Thể](./excel-remove-specific-page-break/) phát huy tác dụng. Nó được thiết kế riêng cho những thời điểm bạn cần kiểm soát chính xác bố cục tài liệu của mình. Với Aspose.Cells for .NET, bạn sẽ có khả năng tùy chỉnh bảng tính của mình chính xác theo ý muốn. 
 
 ## Hướng dẫn 
 | Tiêu đề | Sự miêu tả |

@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Låt oss sedan skapa en ny instans av en arbetsbok. Se en arbetsbok som en tom duk där du kan måla dina data.
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 

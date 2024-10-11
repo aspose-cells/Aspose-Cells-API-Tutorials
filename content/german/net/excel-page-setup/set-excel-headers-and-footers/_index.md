@@ -9,7 +9,7 @@ url: /de/net/excel-page-setup/set-excel-headers-and-footers/
 ---
 ## Einführung
 
-Beim Verwalten von Tabellenkalkulationsdokumenten spielen Kopf- und Fußzeilen eine entscheidende Rolle bei der Kontextbereitstellung. Stellen Sie sich vor, Sie öffnen eine Excel-Datei und ganz oben sehen Sie den Namen des Arbeitsblatts, das Datum und vielleicht sogar den Dateinamen. Dies verleiht Ihrem Dokument einen professionellen Touch und hilft, wichtige Details auf einen Blick zu vermitteln. Wenn Sie die Professionalität Ihrer Excel-Tabellen mit Aspose.Cells für .NET verbessern möchten, sind Sie hier genau richtig! In dieser Anleitung führen wir Sie durch die Schritte zum mühelosen Festlegen von Kopf- und Fußzeilen in Ihren Excel-Tabellen. 
+Beim Verwalten von Tabellenkalkulationsdokumenten spielen Kopf- und Fußzeilen eine entscheidende Rolle bei der Kontextbereitstellung. Stellen Sie sich vor, Sie öffnen eine Excel-Datei und ganz oben sehen Sie den Namen des Arbeitsblatts, das Datum und vielleicht sogar den Dateinamen. Dies verleiht Ihrem Dokument einen professionellen Touch und hilft dabei, wichtige Details auf einen Blick zu vermitteln. Wenn Sie die Professionalität Ihrer Excel-Tabellen mit Aspose.Cells für .NET verbessern möchten, sind Sie hier genau richtig! In dieser Anleitung führen wir Sie durch die Schritte zum mühelosen Festlegen von Kopf- und Fußzeilen in Ihren Excel-Tabellen. 
 
 ## Voraussetzungen
 
@@ -107,7 +107,7 @@ Nachdem unsere Kopfzeilen nun schick aussehen, wenden wir uns den Fußzeilen zu.
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Erklärung: Wir fügen eine benutzerdefinierte Nachricht in die linke Fußzeile ein: „Hallo Welt!“ zusammen mit dem Text`123` in einem anderen Schriftstil – Courier New.
+Erklärung: Wir fügen eine benutzerdefinierte Nachricht in die linke Fußzeile ein: „Hallo Welt!“ zusammen mit dem Text`123` in einem anderen Schriftstil – Courier New.
 
 ## Schritt 7: Konfiguration der mittleren Fußzeile
 

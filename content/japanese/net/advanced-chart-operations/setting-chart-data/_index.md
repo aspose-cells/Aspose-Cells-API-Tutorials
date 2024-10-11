@@ -106,7 +106,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-ここで、追加したチャートへの参照を取得し、さらにカスタマイズすることができます。アウトラインの準備ができたら絵筆を手に取るのと似ています。これで色を追加する準備ができました。
+ここで、追加したチャートへの参照を取得し、さらにカスタマイズすることができます。アウトラインが完成した後に絵筆を手に取るのと似ています。これで色を追加する準備ができました。
 
 ## ステップ8: グラフデータソースを設定する
 

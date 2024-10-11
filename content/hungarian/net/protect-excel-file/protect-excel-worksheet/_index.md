@@ -115,7 +115,7 @@ Az Excel-munkalapok védelme az Aspose.Cells for .NET használatával hatékony 
 Az Aspose.Cells egy olyan .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok olvasását, írását és programozott kezelését.
 
 ### Az Aspose.Cells ingyenes?
- Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes funkcionalitáshoz fizetős licencre van szükség. További információ a megszerzéséről[itt](https://purchase.aspose.com/buy).
+ Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes funkcionalitáshoz fizetős licencre van szükség. A megszerzéséről többet megtudhat[itt](https://purchase.aspose.com/buy).
 
 ### Megvédhetek több munkalapot egyszerre?
 Igen, a munkafüzetben lévő összes munkalapon ismételgethet, és mindegyikre hasonlóan védelmet alkalmazhat.

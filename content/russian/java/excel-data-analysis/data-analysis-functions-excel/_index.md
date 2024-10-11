@@ -59,7 +59,7 @@ worksheet.getAutoFilter().filter(0, "Filter Criteria");
 Вы можете вычислять различные статистические данные по вашим данным, такие как сумма, среднее, минимальное и максимальное значения. Aspose.Cells упрощает этот процесс. Вот пример вычисления суммы столбца:
 
 ```java
-// Вычислить сумму столбца
+// Рассчитать сумму столбца
 double sum = worksheet.getCells().calculateSum(1, 1, worksheet.getCells().getMaxDataRow(), 1);
 ```
 

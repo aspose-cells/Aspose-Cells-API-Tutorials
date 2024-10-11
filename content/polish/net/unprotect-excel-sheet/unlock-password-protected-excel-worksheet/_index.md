@@ -25,7 +25,7 @@ Potrzebujesz działającego środowiska .NET. Jeśli jeszcze nie jesteś gotowy,
 
 ### Podstawowa wiedza o kodowaniu
 
-Trochę podstawowej wiedzy programistycznej w C# lub VB.NET bardzo się przyda. Jeśli to opanowałeś, jesteś gotowy!
+Trochę podstawowej wiedzy programistycznej w C# lub VB.NET wystarczy. Jeśli ją opanowałeś, jesteś gotowy!
 
 ## Importuj pakiety
 
@@ -114,7 +114,7 @@ Ten wiersz zapisuje skoroszyt pod nową nazwą, aby mieć pewność, że nie nad
 
 ## Krok 6: Obsługa wyjątków
 
-Na koniec zajmiemy się wszelkimi potencjalnymi problemami, które mogą się pojawić. 
+Na koniec zajmiemy się wszystkimi potencjalnymi problemami, które mogą się pojawić. 
 
 ```csharp
 catch (Exception ex)

@@ -36,7 +36,7 @@ Bây giờ chúng ta đã thiết lập xong và sẵn sàng để viết mã, h
 
 ## Bước 1: Thiết lập môi trường của bạn
 
- Trong bước này, bạn sẽ thiết lập đường dẫn tệp nơi tệp Excel của bạn được lưu trữ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tập tin của bạn.
+Trong bước này, bạn sẽ thiết lập đường dẫn tệp nơi tệp Excel của bạn được lưu trữ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tập tin của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -72,7 +72,7 @@ Bước này giống như nói “Xin chào!” với sổ làm việc của b�
 Với sổ làm việc trong tay, đã đến lúc truy cập vào trang tính cụ thể mà bạn muốn ẩn. Chúng ta sẽ bắt đầu với trang tính đầu tiên.
 
 ```csharp
-// Truy cập vào trang tính đầu tiên trong tệp Excel
+//Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ Sau khi ẩn bảng tính, bạn sẽ muốn lưu các thay đổi bạn đã th
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Ở đây, chúng tôi lưu sổ làm việc dưới dạng`output.out.xls`. Giống như niêm phong công việc của bạn trong một phong bì. Nếu bạn không lưu nó, tất cả công sức của bạn sẽ bị mất!
+ Ở đây, chúng tôi lưu sổ làm việc dưới dạng`output.out.xls`. Giống như niêm phong công việc của bạn trong một phong bì. Nếu bạn không lưu nó, tất cả công sức của bạn sẽ bị mất!
 
 ## Bước 7: Đóng luồng tập tin
 
@@ -132,7 +132,7 @@ Thao tác các bảng tính Excel bằng Aspose.Cells cho .NET không phải là
  Vâng, bạn có thể lặp qua`Worksheets` bộ sưu tập và thiết lập`IsVisible` thuộc tính thành false cho mỗi trang tính bạn muốn ẩn.
 
 ### Aspose.Cells hỗ trợ những định dạng tệp nào?
- Aspose.Cells hỗ trợ nhiều định dạng bao gồm XLS, XLSX, CSV và nhiều định dạng khác. Bạn có thể kiểm tra danh sách đầy đủ[đây](https://reference.aspose.com/cells/net/).
+Aspose.Cells hỗ trợ nhiều định dạng bao gồm XLS, XLSX, CSV và nhiều định dạng khác. Bạn có thể kiểm tra danh sách đầy đủ[đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
  Bạn có thể bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng của nó. Cần có giấy phép đầy đủ cho các ứng dụng sản xuất. Tìm hiểu thêm về nó[đây](https://purchase.aspose.com/buy).

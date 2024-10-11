@@ -51,7 +51,7 @@ if (!IsExists)
 
 ## Schritt 2: Instanziieren einer neuen Arbeitsmappe
 
-Nachdem Ihr Verzeichnis nun eingerichtet ist, erstellen wir eine neue Excel-Arbeitsmappe. Dies ist vergleichbar damit, eine leere Leinwand zu öffnen, bevor Sie mit dem Malen beginnen.
+Nachdem Ihr Verzeichnis nun eingerichtet ist, erstellen wir eine neue Excel-Arbeitsmappe. Das ist so, als würden Sie eine leere Leinwand öffnen, bevor Sie mit dem Malen beginnen.
 
 ```csharp
 // Instanziieren einer neuen Arbeitsmappe

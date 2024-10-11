@@ -36,7 +36,7 @@ Nu när vi alla är konfigurerade och redo att koda, låt oss dela upp processen
 
 ## Steg 1: Ställ in din miljö
 
- I det här steget ställer du in filsökvägen där din Excel-fil finns. Ersätta`"YOUR DOCUMENT DIRECTORY"` med sökvägen till din fil.
+ det här steget ställer du in filsökvägen där din Excel-fil finns. Ersätta`"YOUR DOCUMENT DIRECTORY"` med sökvägen till din fil.
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
@@ -72,7 +72,7 @@ Det här steget är som att säga "Hej!" till din arbetsbok, så att den vet att
 Med din arbetsbok i handen är det dags att komma åt det specifika kalkylblad du vill dölja. Vi börjar med det första arbetsbladet.
 
 ```csharp
-// Åtkomst till det första kalkylbladet i Excel-filen
+//Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -98,7 +98,7 @@ När du har gömt kalkylbladet vill du spara ändringarna du har gjort i filen. 
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Här sparar vi arbetsboken som`output.out.xls`. Det är som att försegla ditt arbete i ett kuvert. Om du inte sparar det kommer allt ditt hårda arbete att gå förlorat!
+ Här sparar vi arbetsboken som`output.out.xls`. Det är som att försegla ditt arbete i ett kuvert. Om du inte sparar det kommer allt ditt hårda arbete att gå förlorat!
 
 ## Steg 7: Stäng filströmmen
 
@@ -132,7 +132,7 @@ Att manipulera Excel-kalkylblad med Aspose.Cells för .NET behöver inte vara en
  Ja, du kan gå igenom`Worksheets` samling och ställ in`IsVisible` egenskapen till false för varje ark du vill dölja.
 
 ### Vilka filformat stöder Aspose.Cells?
- Aspose.Cells stöder en mängd olika format inklusive XLS, XLSX, CSV och mer. Du kan kontrollera hela listan[här](https://reference.aspose.com/cells/net/).
+Aspose.Cells stöder en mängd olika format inklusive XLS, XLSX, CSV och mer. Du kan kontrollera hela listan[här](https://reference.aspose.com/cells/net/).
 
 ### Behöver jag en licens för att använda Aspose.Cells?
  Du kan börja med en gratis provperiod för att utforska dess funktioner. En fullständig licens krävs för produktionsansökningar. Hitta mer om det[här](https://purchase.aspose.com/buy).

@@ -9,7 +9,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
 ---
 ## Introduction
 
-Lorsque vous travaillez avec de grandes feuilles de calcul Excel, la possibilité de conserver certaines lignes ou colonnes visibles pendant le défilement peut améliorer considérablement votre productivité. Cette fonctionnalité, connue sous le nom de blocage des volets, vous permet de verrouiller des sections spécifiques de votre feuille de calcul pour suivre les données importantes lorsque vous naviguez dans votre feuille de calcul. Dans ce didacticiel, nous découvrirons comment utiliser Aspose.Cells pour .NET pour geler les volets d'une feuille de calcul Excel. Alors, prenez votre ordinateur portable et plongeons dans le monde d'Aspose.Cells !
+Lorsque vous travaillez avec de grandes feuilles de calcul Excel, la possibilité de conserver certaines lignes ou colonnes visibles pendant le défilement peut améliorer considérablement votre productivité. Cette fonctionnalité, appelée blocage des volets, vous permet de verrouiller des sections spécifiques de votre feuille de calcul pour suivre les données importantes lorsque vous naviguez dans votre feuille de calcul. Dans ce didacticiel, nous découvrirons comment utiliser Aspose.Cells pour .NET pour geler les volets d'une feuille de calcul Excel. Alors, prenez votre ordinateur portable et plongeons dans le monde d'Aspose.Cells !
 
 ## Prérequis
 

@@ -10,7 +10,7 @@ url: /fr/java/excel-data-security/auditing-file-access/
 
 ## Introduction à l'audit de l'accès aux fichiers
 
-Dans ce didacticiel, nous allons découvrir comment auditer l'accès aux fichiers à l'aide de l'API Aspose.Cells pour Java. Aspose.Cells est une puissante bibliothèque Java qui vous permet de créer, de manipuler et de gérer des feuilles de calcul Excel. Nous allons vous montrer comment suivre et consigner les activités d'accès aux fichiers dans votre application Java à l'aide de cette API.
+Dans ce didacticiel, nous allons découvrir comment auditer l'accès aux fichiers à l'aide de l'API Aspose.Cells pour Java. Aspose.Cells est une puissante bibliothèque Java qui vous permet de créer, de manipuler et de gérer des feuilles de calcul Excel. Nous allons vous montrer comment suivre et enregistrer les activités d'accès aux fichiers dans votre application Java à l'aide de cette API.
 
 ## Prérequis
 

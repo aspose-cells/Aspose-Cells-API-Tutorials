@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Vytvořte instanci objektu sešitu
 
- Dále vytvoříme instanci`Workbook` třídy, která představuje soubor Excel.
+ Dále vytvoříme instanci`Workbook`třídy, která představuje soubor Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -73,7 +73,7 @@ Tento řádek inicializuje nový sešit a připraví jej pro manipulaci.
 
 ## Krok 3: Získejte referenční informace o nastavení PageSetup
 
- Nyní se dostaneme k pracovnímu listu`PageSetup`vlastnictví. Zde bude nakonfigurována většina našich nastavení tisku.
+ Nyní se dostaneme k pracovnímu listu`PageSetup` vlastnictví. Zde bude nakonfigurována většina našich nastavení tisku.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

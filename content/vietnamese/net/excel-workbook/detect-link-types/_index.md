@@ -63,7 +63,7 @@ Dòng này trỏ đến thư mục chứa tệp Excel. Hãy đảm bảo điều
 Tiếp theo, chúng ta sẽ tải sổ làm việc của mình. Điều này giống như mở tệp Excel của bạn ở chế độ nền, cho phép chúng ta đọc và thao tác nội dung của tệp.
 
 ```csharp
-// Tải sổ làm việc
+//Tải sổ làm việc
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

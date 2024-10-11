@@ -103,7 +103,7 @@ Slutligen måste du se till att du stänger filströmmen så att alla resurser f
 fstream.Close();
 ```
 
- Stänger`fstream` är avgörande eftersom det säkerställer att det inte finns några minnesläckor eller fillås kvar öppna i din applikation.
+ Stänger`fstream`är avgörande eftersom det säkerställer att det inte finns några minnesläckor eller fillås kvar öppna i din applikation.
 
 ## Slutsats
 
@@ -121,7 +121,7 @@ Aspose.Cells är ett kraftfullt .NET-bibliotek för att hantera Excel-kalkylblad
  Även om du kan använda en gratis testversion, krävs en licens för pågående kommersiell användning. Du hittar köpalternativen[här](https://purchase.aspose.com/buy).
 
 ### Finns det stöd tillgängligt för Aspose.Cells?  
- Ja, Aspose ger support genom deras forum, som du kan komma åt[här](https://forum.aspose.com/c/cells/9).
+Ja, Aspose ger support genom deras forum, som du kan komma åt[här](https://forum.aspose.com/c/cells/9).
 
 ### Hur kan jag få en tillfällig licens för Aspose.Cells?  
-Du kan ansöka om en tillfällig licens för utvärderingsändamål på[denna länk](https://purchase.aspose.com/temporary-license/).
+ Du kan ansöka om en tillfällig licens för utvärderingsändamål på[denna länk](https://purchase.aspose.com/temporary-license/).

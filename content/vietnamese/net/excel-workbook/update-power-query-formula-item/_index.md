@@ -122,4 +122,4 @@ Bạn có thể làm việc với .xlsx, .xls, .xlsm và một số định dạ
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[Trang phát hành Aspose Cells](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi bạn có thể đặt câu hỏi và tìm câu trả lời từ cộng đồng và nhóm Aspose.
+ Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)nơi bạn có thể đặt câu hỏi và tìm câu trả lời từ cộng đồng và nhóm Aspose.

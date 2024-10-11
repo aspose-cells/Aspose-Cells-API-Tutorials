@@ -49,7 +49,7 @@ string outputDir = "Your Output Directory";
 
 ## Paso 2: Cargue el libro de trabajo
 
-A continuación, carguemos el libro de Excel que queremos firmar. Aquí es donde cargarás el archivo de Excel existente.
+continuación, carguemos el libro de Excel que queremos firmar. Aquí es donde cargarás el archivo de Excel existente.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Reemplace con la ruta a su archivo PFX
 
 ## Paso 4: Crear la firma digital
 
- Ahora, vamos a crear la firma digital usando el`DigitalSignature`Clase. ¡Aquí es donde ocurre la magia!
+ Ahora, vamos a crear la firma digital usando el`DigitalSignature` Clase. ¡Aquí es donde ocurre la magia!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Sí, necesita un certificado digital válido (archivo PFX) para crear una firma 
  ¡Por supuesto! Puedes obtener una prueba gratuita desde[Sitio web de Aspose](https://releases.aspose.com/).
 
 ### ¿Aspose.Cells es compatible con todas las versiones de .NET?
-Aspose.Cells es compatible con varias versiones del marco .NET. Consulte la[documentación](https://reference.aspose.com/cells/net/) Para obtener detalles de compatibilidad.
+ Aspose.Cells es compatible con varias versiones del marco .NET. Consulte la[documentación](https://reference.aspose.com/cells/net/) Para obtener detalles de compatibilidad.
 
 ### ¿Dónde puedo obtener ayuda si tengo problemas?
  Puedes visitar el[Foro de Aspose](https://forum.aspose.com/c/cells/9) para apoyo y asistencia de la comunidad.

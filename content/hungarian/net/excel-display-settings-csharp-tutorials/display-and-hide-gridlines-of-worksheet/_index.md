@@ -46,7 +46,7 @@ Mielőtt bármilyen Excel-fájlt kezelhetne, meg kell adnia a fájl helyét. Ez 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ebben a lépésben hozzárendeli az Excel-fájl helyét a`dataDir`húr. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges útvonallal, ahol az Ön`.xls` fájl található.
+ Ebben a lépésben hozzárendeli az Excel-fájl helyét a`dataDir` húr. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges útvonallal, ahol az Ön`.xls` fájl található.
 
 ## 2. lépés: Fájlfolyam létrehozása
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Az Excel-fájlok általában több munkalapot tartalmaznak. Ehhez az oktatóanyaghoz a munkafüzet első munkalapját érjük el.
 
 ```csharp
-// Az Excel fájl első munkalapjának elérése
+//Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Most jön a szórakoztató rész – a rácsvonalak elrejtése! Egyetlen kódsorral átkapcsolhatja a rácsvonalak láthatóságát.
 
 ```csharp
-// Az Excel fájl első munkalapjának rácsvonalainak elrejtése
+//Az Excel fájl első munkalapjának rácsvonalainak elrejtése
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -112,11 +112,11 @@ Végül a munkafüzet mentése után ne felejtse el bezárni a fájlfolyamot a r
 fstream.Close();
 ```
 
-A fájlfolyam bezárása kulcsfontosságú, mert biztosítja az összes erőforrás megfelelő felszabadítását. A memóriaszivárgások elkerülése érdekében célszerű ezt a lépést belefoglalni a kódba.
+A fájlfolyam bezárása kulcsfontosságú, mert ez biztosítja az összes erőforrás megfelelő felszabadítását. A memóriaszivárgások elkerülése érdekében célszerű ezt a lépést belefoglalni a kódba.
 
 ## Következtetés
 
- És ez egy pakolás! Most tanulta meg, hogyan jeleníthet meg és rejthet el rácsvonalakat egy Excel-munkalapon az Aspose.Cells for .NET segítségével. Akár egy jelentést csiszol, akár olvashatóbb formátumban jeleníti meg az adatokat, ez az egyszerű technika jelentősen befolyásolhatja a táblázatok megjelenését. A legjobb rész? Csak néhány sornyi kódra van szükség a nagy változtatásokhoz. Ha készen áll arra, hogy kipróbálja, ne felejtse el megragadni a[ingyenes próbaverzió](https://releases.aspose.com/) és kezdd el a kódolást!
+És ez egy pakolás! Most tanulta meg, hogyan jeleníthet meg és rejthet el rácsvonalakat egy Excel-munkalapon az Aspose.Cells for .NET segítségével. Akár egy jelentést csiszol, akár olvashatóbb formátumban jeleníti meg az adatokat, ez az egyszerű technika jelentősen befolyásolhatja a táblázatok megjelenését. A legjobb rész? Csak néhány sornyi kódra van szükség a nagy változtatásokhoz. Ha készen áll arra, hogy kipróbálja, ne felejtse el megragadni a[ingyenes próbaverzió](https://releases.aspose.com/) és kezdd el a kódolást!
 
 ## GYIK
 

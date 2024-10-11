@@ -33,7 +33,7 @@ Install-Package Aspose.Cells
 
 - [Mua giấy phép](https://purchase.aspose.com/buy) hoặc[Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
-Sử dụng thư viện mà không có giấy phép sẽ áp dụng hình mờ vào tệp đầu ra của bạn, vì vậy hãy đảm bảo bạn đã chuẩn bị sẵn giấy phép!
+Sử dụng thư viện mà không có giấy phép sẽ áp dụng hình mờ vào tệp đầu ra của bạn, vì vậy hãy đảm bảo bạn đã có giấy phép!
 
 ### Thiết lập môi trường phát triển của bạn
 Đảm bảo bạn đã cài đặt những thứ sau:

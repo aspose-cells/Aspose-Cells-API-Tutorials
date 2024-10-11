@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Vervangen`Your Document Directory` En`Your Output Directory`met echte paden op uw computer. 
+ Vervangen`Your Document Directory` En`Your Output Directory` met echte paden op uw computer. 
 
 ## Stap 2: Laad de bestaande werkmap
 
@@ -100,7 +100,7 @@ Nu u de grafiek hebt geselecteerd, kunt u de afbeelding toevoegen!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Hier,`50` En`50` zijn de X- en Y-coördinaten waar de afbeelding wordt geplaatst, en`200`is de breedte en hoogte van de afbeelding.
+ Hier,`50` En`50` zijn de X- en Y-coördinaten waar de afbeelding wordt geplaatst, en`200` is de breedte en hoogte van de afbeelding.
 
 ## Stap 6: Pas de lijnopmaak van de afbeelding aan
 
@@ -151,7 +151,7 @@ In deze tutorial hebben we onderzocht hoe u een beetje persoonlijkheid kunt toev
 Aspose.Cells ondersteunt verschillende afbeeldingsformaten, waaronder PNG, JPEG, BMP en GIF.
 
 ### Kan ik de positie van de afbeelding aanpassen?
- Zeker! De X- en Y-coördinaten in de`AddPictureInChart` methode maakt nauwkeurige positionering mogelijk.
+Zeker! De X- en Y-coördinaten in de`AddPictureInChart` methode maakt nauwkeurige positionering mogelijk.
 
 ### Is Aspose.Cells gratis te gebruiken?
  Aspose.Cells biedt een gratis proefperiode, maar voor volledige functies is een licentie vereist. U kunt de prijzen vinden[hier](https://purchase.aspose.com/buy).

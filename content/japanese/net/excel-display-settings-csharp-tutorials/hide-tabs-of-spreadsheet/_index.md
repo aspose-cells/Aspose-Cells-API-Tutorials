@@ -38,7 +38,7 @@ using Aspose.Cells;
 1. 新しいプロジェクトを作成する: Visual Studioを開き、新しいコンソールアプリプロジェクトを作成し、わかりやすい名前を付けます。`HideExcelTabs`.
 2. Aspose.Cells 参照を追加します。NuGet パッケージ マネージャーに移動し、「Aspose.Cells for .NET」を検索します。プロジェクトにインストールします。
 オフラインで作業している場合は、[Aspose.Cells for .NET をダウンロード](https://releases.aspose.com/cells/net/)DLL ファイルをプロジェクト参照に手動で追加します。
-3.  Excelファイルを準備する: 変更したいExcelファイル（例：`book1.xls`) をプロジェクト ディレクトリにコピーします。ファイル パスを確認してください。
+3. Excelファイルを準備する: 変更したいExcelファイル（例：`book1.xls`) をプロジェクト ディレクトリにコピーします。ファイル パスを確認してください。
 
 ## ステップ2: Excelファイルを開く
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-このステップでは、`Workbook`クラスはExcelファイルを表します。Excelファイルへのパスはパラメータとして提供されます。`"YOUR DOCUMENT DIRECTORY"`Excel ファイルが存在する実際のファイル パスを入力します。
+このステップでは、`Workbook`クラスはExcelファイルを表します。Excelファイルへのパスはパラメータとして提供されます。`"YOUR DOCUMENT DIRECTORY"` Excel ファイルが存在する実際のファイル パスを入力します。
 
 ワークブックを読み込むと、ファイルとの接続が確立され、さらに変更できるようになります。これがないと、変更を行うことはできません。
 
@@ -97,7 +97,7 @@ workbook.Save(dataDir + "output.xls");
 
 これで完了です。Aspose.Cells for .NET を使用して、Excel ファイルのシート タブを正常に非表示にできました。この簡単な調整により、Excel ドキュメントがより洗練され、焦点が絞られた外観になります。特に、作業中のタブをすべて表示する必要のないクライアントやチーム メンバーとファイルを共有する場合に有効です。
 
-Aspose.Cells for .NETを使用すると、タブの非表示から動的なレポートやグラフの作成など、Excelファイルを強力に操作できます。このツールを初めて使用する場合は、[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)より詳細な機能と性能についてはこちらをご覧ください。
+ Aspose.Cells for .NETを使用すると、タブの非表示から動的なレポートやグラフの作成など、Excelファイルを強力に操作できます。このツールを初めて使用する場合は、[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)より詳細な機能と性能についてはこちらをご覧ください。
 
 ## よくある質問
 

@@ -16,7 +16,7 @@ Lorsque vous travaillez avec des fichiers Excel, la gestion des sauts de page pe
 Avant de nous plonger dans le vif du sujet, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer. Voici une liste rapide des prérequis :
 
 1. Visual Studio : vous aurez besoin d’une installation fonctionnelle de Visual Studio pour créer et exécuter vos applications .NET.
-2. Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est installée. Si vous ne l'avez pas encore fait, vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est installée. Si vous ne l'avez pas encore fait, vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : la familiarité avec la programmation C# vous aidera à mieux comprendre les extraits de code.
 4. Un fichier Excel : Ayez à portée de main un fichier Excel contenant des sauts de page avec lesquels nous pourrons expérimenter.
 
@@ -53,14 +53,14 @@ Tout d'abord, vous devez spécifier où sont stockés vos documents Excel. Cela 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Explication : Remplacer`YOUR DOCUMENT DIRECTORY` avec le chemin d'accès réel à vos fichiers. C'est ici que vous chargerez votre fichier Excel et que vous enregistrerez votre fichier Excel modifié ultérieurement.
+ Explication : Remplacer`YOUR DOCUMENT DIRECTORY`avec le chemin d'accès réel à vos fichiers. C'est ici que vous chargerez votre fichier Excel et que vous enregistrerez votre fichier Excel modifié ultérieurement.
 
 ## Étape 2 : instancier l'objet classeur
 
 Ensuite, nous devons charger notre classeur. En termes plus simples, considérez un classeur comme votre fichier Excel.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Et voilà ! Pour supprimer des sauts de page spécifiques d'un fichier Excel à 
 ## FAQ
 
 ### Puis-je supprimer plusieurs sauts de page à la fois ?  
-Oui, vous pouvez ! Il suffit de parcourir la`HorizontalPageBreaks` et`VerticalPageBreaks` collections et utiliser le`RemoveAt` méthode.
+ Oui, vous pouvez ! Il suffit de parcourir la`HorizontalPageBreaks` et`VerticalPageBreaks` collections et utiliser le`RemoveAt` méthode.
 
 ### Comment savoir quel index utiliser pour les sauts de page ?  
 Vous pouvez parcourir les sauts de page à l'aide d'une boucle pour imprimer leurs indices ou les inspecter via le débogueur.

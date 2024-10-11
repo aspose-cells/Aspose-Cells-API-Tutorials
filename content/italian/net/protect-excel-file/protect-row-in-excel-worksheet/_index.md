@@ -9,7 +9,7 @@ url: /it/net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
 ## Introduzione
 
-Quando si lavora con fogli Excel, spesso è necessario proteggere righe specifiche per mantenere l'integrità dei dati. Che tu stia gestendo un progetto di gruppo, supervisionando un report finanziario o condividendo documentazione, limitare l'accesso a determinate righe può impedire modifiche indesiderate. In questo tutorial, esploreremo come sfruttare Aspose.Cells per .NET per proteggere righe specifiche in un foglio di lavoro Excel. Quindi, prendi il tuo cappello da programmatore e tuffiamoci nell'entusiasmante mondo della manipolazione di Excel con C#!
+Quando si lavora con fogli Excel, spesso è necessario proteggere righe specifiche per mantenere l'integrità dei dati. Che si gestisca un progetto di gruppo, si supervisioni un report finanziario o si condivida documentazione, limitare l'accesso a determinate righe può impedire modifiche indesiderate. In questo tutorial, esploreremo come sfruttare Aspose.Cells per .NET per proteggere righe specifiche in un foglio di lavoro Excel. Quindi, prendi il tuo cappello da programmatore e tuffiamoci nell'entusiasmante mondo della manipolazione di Excel con C#!
 
 ## Prerequisiti
 

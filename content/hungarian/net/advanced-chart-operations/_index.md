@@ -62,7 +62,7 @@ Az Aspose.Cells for .NET segítségével testreszabott adatcímke-alakzatokkal j
 ### [Kategóriaadatok beállítása](./setting-category-data/)
 Ismerje meg, hogyan állíthat be kategóriaadatokat Excel-diagramokon az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre bemutató oktatóanyagunkat az egyszerű megvalósítás érdekében.
 ### [Diagramadatok beállítása](./setting-chart-data/)
-Tanulja meg, hogyan állíthat be diagramadatokat az Aspose.Cells for .NET segítségével egy részletes, lépésről lépésre szóló útmutatóból, amely tökéletes az adatok megjelenítésének javításához.
+Tanulja meg, hogyan állíthat be diagramadatokat az Aspose.Cells for .NET használatával egy részletes, lépésről lépésre szóló útmutatóból, amely tökéletes az adatok megjelenítésének javításához.
 ### [Értékek beállítása Diagramsorozat formátumkódja](./set-values-format-code-of-chart-series/)
 Ezzel a részletes, lépésenkénti oktatóanyaggal megtudhatja, hogyan állíthat be értékeket a diagramsorozatok formátumkódjának beállításához az Aspose.Cells for .NET-ben. Tökéletes kezdőknek.
 ### [Sparklines használata](./using-sparklines/)

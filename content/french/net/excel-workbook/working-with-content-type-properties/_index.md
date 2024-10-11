@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Étape 2 : Créer un nouveau classeur
 
- Maintenant que nous avons notre répertoire de sortie, créons un nouveau classeur.`Workbook`la classe est le point de départ pour traiter les fichiers Excel.
+ Maintenant que nous avons notre répertoire de sortie, créons un nouveau classeur.`Workbook` la classe est le point de départ pour traiter les fichiers Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Oui ! Aspose.Cells prend en charge divers formats, notamment XLS, XLSX, CSV et a
 Absolument ! Vous pouvez ajouter des objets complexes aux propriétés de type de contenu à condition qu'ils puissent être sérialisés correctement.
 
 ### Où puis-je trouver plus de documentation ?
-Pour des conseils plus détaillés, reportez-vous à la[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Pour des conseils plus détaillés, reportez-vous à la[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).

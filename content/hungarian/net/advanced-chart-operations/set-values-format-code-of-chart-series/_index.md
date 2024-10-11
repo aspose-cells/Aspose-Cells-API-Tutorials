@@ -9,7 +9,7 @@ url: /hu/net/advanced-chart-operations/set-values-format-code-of-chart-series/
 ---
 ## Bevezetés
 
-A mai adatvezérelt világban az összetett adatkészletek vizuális megjelenítése kulcsfontosságú a döntéshozatalhoz. A diagramok hatékony eszközként szolgálnak a betekintések hatékony közléséhez. Az Aspose.Cells for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a fejlesztők számára, hogy könnyedén kezeljék az Excel fájlokat, és lenyűgöző diagramokat készítsenek. Ebben az útmutatóban megvizsgáljuk, hogyan állíthatjuk be az Aspose.Cells használatával diagramsorozatok értékformátumkódját. Szóval, igyál egy csésze kávét, és induljunk el együtt erre a kódolási útra!
+A mai adatvezérelt világban az összetett adatkészletek vizuális megjelenítése kulcsfontosságú a döntéshozatalhoz. A diagramok hatékony eszközként szolgálnak a betekintések hatékony közléséhez. Az Aspose.Cells for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a fejlesztők számára, hogy könnyedén kezeljék az Excel fájlokat, és lenyűgöző diagramokat készítsenek. Ebben az útmutatóban megvizsgáljuk, hogyan állíthatjuk be az Aspose.Cells használatával diagramsorozatok értékformátumkódját. Szóval, igyál meg egy csésze kávét, és induljunk együtt erre a kódolási útra!
 
 ## Előfeltételek
 
@@ -100,7 +100,7 @@ ch.NSeries.Add("{10000, 20000, 30000, 40000}", true);
 
 Itt történik a varázslat. Beállítjuk az újonnan hozzáadott sorozat formátumkódját.
 
-A formátumkód beállítása a nyers számokat valamivel olvashatóbbá alakítja, éppúgy, mint egy szűrő alkalmazása a fénykép javítására, mielőtt megmutatná a világnak!
+A formátumkód beállítása a nyers számokat valamivel olvashatóbbá alakítja, akárcsak egy szűrő alkalmazása a fénykép javítására, mielőtt megmutatná a világnak!
 
 ```csharp
 // Nyissa meg a sorozatot, és állítsa be az értékeket a formátumkódban

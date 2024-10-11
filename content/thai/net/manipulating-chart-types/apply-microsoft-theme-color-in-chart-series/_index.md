@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ตอนนี้ถึงเวลาค้นหาแผนภูมิที่เราต้องการแก้ไขแล้ว นี่คือจุดที่ความมหัศจรรย์เริ่มต้นขึ้นจริงๆ!
 
 ```csharp
-// รับแผนภูมิแรกในแผ่นงาน
+//รับแผนภูมิแรกในแผ่นงาน
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
  ตอนนี้ เรามาลองใช้สีธีมของ Microsoft กัน เราจะเลือก`Accent` สไตล์เพราะใครล่ะไม่ชอบสีสันสดใส?
 
 ```csharp
-// สร้างธีมในสไตล์ Accent
+//สร้างธีมในสไตล์ Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

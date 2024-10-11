@@ -104,7 +104,7 @@ Estamos focando na primeira série aqui, que normalmente contém os rótulos que
 
 ## Etapa 6: Defina o tipo de forma dos rótulos de dados
 
-Agora, a parte crucial! Vamos definir o tipo de forma dos rótulos de dados. O Aspose.Cells suporta várias formas e, para este exemplo, escolheremos um balão de fala oval para um toque divertido.
+Agora, a parte crucial! Vamos definir o tipo de forma dos rótulos de dados. O Aspose.Cells suporta várias formas e, para este exemplo, escolheremos um oval de balão de fala para um toque divertido.
 
 ```csharp
 // Defina o tipo de formato dos rótulos de dados, ou seja, balão de fala oval

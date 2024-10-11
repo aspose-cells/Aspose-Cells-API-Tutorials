@@ -36,7 +36,7 @@ import com.aspose.cells.*;
 
 ## Étape 3 : Créer un classeur Excel
 
-Créez ensuite un classeur Excel dans lequel vous souhaitez ajouter la liste déroulante dynamique. Vous pouvez procéder comme suit :
+Ensuite, créez un classeur Excel dans lequel vous souhaitez ajouter la liste déroulante dynamique. Vous pouvez procéder comme suit :
 
 ```java
 Workbook workbook = new Workbook();

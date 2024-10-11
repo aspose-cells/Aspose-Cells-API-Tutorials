@@ -29,8 +29,8 @@ Vytvářejte dynamické kontingenční tabulky bez námahy pomocí Aspose.Cells 
 ### [Seskupování dat v kontingenčních tabulkách](./grouping-data-in-pivot-tables/)
 Naučte se vytvářet kontingenční tabulky v Excelu pomocí Aspose.Cells for Java. Automatizujte seskupování a analýzu dat pomocí příkladů zdrojového kódu.
 ### [Vypočítaná pole v kontingenčních tabulkách](./calculated-fields-in-pivot-tables/)
-Naučte se vytvářet vypočítaná pole v kontingenčních tabulkách pomocí Aspose.Cells for Java. Zvyšte svou analýzu dat pomocí vlastních výpočtů v aplikaci Excel.
+Naučte se vytvářet vypočítaná pole v kontingenčních tabulkách pomocí Aspose.Cells for Java. Zvyšte svou analýzu dat pomocí vlastních výpočtů v Excelu.
 ### [Obnovení dat kontingenční tabulky](./refreshing-pivot-table-data/)
 Přečtěte si, jak obnovit data kontingenční tabulky v Aspose.Cells pro Java. Udržujte svá data aktuální bez námahy.
 ### [Přizpůsobení stylů kontingenční tabulky](./customizing-pivot-table-styles/)
-Přečtěte si, jak přizpůsobit styly kontingenční tabulky v Aspose.Cells for Java API. Vytvářejte snadno vizuálně přitažlivé kontingenční tabulky.
+Naučte se, jak přizpůsobit styly kontingenční tabulky v Aspose.Cells for Java API. Vytvářejte snadno vizuálně přitažlivé kontingenční tabulky.

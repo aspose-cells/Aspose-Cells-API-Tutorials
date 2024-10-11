@@ -102,7 +102,7 @@ worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 
 ### Wie kann ich das Erscheinungsbild meiner Pivot-Tabelle anpassen?
 
-Sie können das Erscheinungsbild Ihrer Pivot-Tabelle anpassen, indem Sie verschiedene Eigenschaften und Stile ändern. Dazu gehört das Festlegen der Zellenformatierung, das Anpassen der Spaltenbreiten und das Anwenden benutzerdefinierter Stile auf die Zellen der Pivot-Tabelle. Ausführliche Anweisungen zum Anpassen von Pivot-Tabellen finden Sie in der Aspose.Cells-Dokumentation.
+Sie können das Erscheinungsbild Ihrer Pivot-Tabelle anpassen, indem Sie verschiedene Eigenschaften und Stile ändern. Dazu gehört das Festlegen der Zellenformatierung, das Anpassen der Spaltenbreiten und das Anwenden benutzerdefinierter Stile auf die Pivot-Tabellenzellen. Ausführliche Anweisungen zum Anpassen von Pivot-Tabellen finden Sie in der Aspose.Cells-Dokumentation.
 
 ### Wo finde ich fortgeschrittenere Beispiele und Ressourcen?
 

@@ -100,7 +100,7 @@ Zde přistupujeme k našemu vytvořenému grafu pomocí indexu, který jsme dř�
 
 ## Krok 7: Přidejte datové řady do grafu
 
-Nyní musíme grafu říci, odkud má data čerpat. Naše datové řady nastavíme následovně:
+Nyní musíme grafu sdělit, odkud má čerpat data. Naše datové řady nastavíme následovně:
 
 ```csharp
 chart.NSeries.Add("A1:B3", true);

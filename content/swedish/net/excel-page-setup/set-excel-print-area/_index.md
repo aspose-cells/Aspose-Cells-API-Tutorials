@@ -105,7 +105,7 @@ Genom att ställa in utskriftsområdet i en Excel-fil med Aspose.Cells för .NET
 Aspose.Cells är ett .NET-bibliotek för att skapa, manipulera och konvertera Excel-kalkylblad utan att behöva Microsoft Excel.
 
 ### Hur laddar jag ner Aspose.Cells?
- Du kan ladda ner Aspose.Cells för .NET från[släppsidan](https://releases.aspose.com/cells/net/).
+ Du kan ladda ner Aspose.Cells för .NET från[släpp sida](https://releases.aspose.com/cells/net/).
 
 ### Kan jag använda Aspose.Cells gratis?
  Ja, Aspose erbjuder en[gratis provperiod](https://releases.aspose.com/) för dig att testa bibliotekets funktioner.

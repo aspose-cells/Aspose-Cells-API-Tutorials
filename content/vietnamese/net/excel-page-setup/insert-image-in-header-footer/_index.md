@@ -15,7 +15,7 @@ Khi làm việc với các tệp Excel, tiêu đề và chân trang đóng vai t
 
 Trước khi đi sâu vào mã thực tế, bạn cần chuẩn bị một số thứ sau:
 
-1. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong môi trường .NET của mình. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong môi trường .NET của mình. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 2. Visual Studio hoặc bất kỳ IDE nào khác: Bạn sẽ cần một môi trường phát triển tích hợp để viết và thực thi mã C#.
 3.  Một hình ảnh mẫu: Chuẩn bị một hình ảnh mà bạn muốn chèn vào đầu trang hoặc chân trang. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng logo công ty có tên là`aspose-logo.jpg`.
 4. Kiến thức cơ bản về C#: Mặc dù không bắt buộc, nhưng hiểu biết về C# sẽ giúp bạn dễ dàng thực hiện theo hướng dẫn này hơn.
@@ -95,7 +95,7 @@ Với dữ liệu nhị phân của hình ảnh trong tay, bây giờ chúng ta 
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Dòng này đặt hình ảnh vào phần trung tâm của tiêu đề. Tham số`1` chỉ định phần tiêu đề.
+ Dòng này đặt hình ảnh vào phần trung tâm của tiêu đề. Tham số`1`chỉ định phần tiêu đề.
 
 ## Bước 7: Thiết lập Nội dung Tiêu đề
 

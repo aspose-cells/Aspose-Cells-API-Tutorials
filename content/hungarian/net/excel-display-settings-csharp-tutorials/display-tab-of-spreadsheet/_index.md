@@ -15,7 +15,7 @@ Táblázatokkal dolgozik, és hatékony módszert keres ezek programozott kezel�
 
 Mielőtt belevágnánk a tényleges kódba, győződjünk meg arról, hogy minden rendben van. Íme, amire szüksége van:
 
-1.  Aspose.Cells for .NET Library – Győződjön meg arról, hogy telepítve van. Megteheti[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library – Győződjön meg arról, hogy telepítve van. Tudod[a könyvtár letöltése innen](https://releases.aspose.com/cells/net/).
 2. .NET-keretrendszer – Győződjön meg arról, hogy a .NET-keretrendszer kompatibilis verzióját használja. Az Aspose.Cells for .NET támogatja a .NET-keretrendszer 2.0-tól kezdődő verzióit.
 3. Fejlesztői környezet – A Visual Studio vagy bármely más C# IDE tökéletes erre a feladatra.
 4. Alapvető C# ismerete – Nem kell varázslónak lenned, de az alapvető szintaxis megértése segít.
@@ -41,7 +41,7 @@ Mielőtt bármilyen Excel-fájlt manipulálhatnánk, meg kell határoznunk a fá
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` rendszer tényleges könyvtárútjával. Ebben a könyvtárban töltheti be a meglévő Excel-fájlt, és mentheti a kimenetet.
+ Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a rendszer tényleges könyvtárútjával. Ebben a könyvtárban töltheti be a meglévő Excel-fájlt, és mentheti a kimenetet.
 
 ## 2. lépés: Munkafüzet-objektum példányosítása
 
@@ -61,7 +61,7 @@ Az Excelben az alul lévő fülek (1. munkalap, 2. munkalap stb.) elrejthetők v
 workbook.Settings.ShowTabs = true;
 ```
 
- Beállítás`ShowTabs` hogy`true` biztosítja, hogy a lapok láthatóak legyenek az Excel fájl megnyitásakor.
+ Beállítás`ShowTabs` hogy`true`biztosítja, hogy a lapok láthatóak legyenek az Excel fájl megnyitásakor.
 
 ## 4. lépés: Mentse el a módosított Excel-fájlt
 
@@ -71,7 +71,7 @@ Miután a lapok megjelennek, el kell mentenünk a frissített fájlt. Ez biztos�
 workbook.Save(dataDir + "output.xls");
 ```
 
- fájl a névvel kerül mentésre`output.xls` a korábban megadott könyvtárban. Választhat másik nevet vagy fájlformátumot is (pl`.xlsx`), ha szükséges.
+ A fájl a névvel kerül mentésre`output.xls` a korábban megadott könyvtárban. Választhat másik nevet vagy fájlformátumot is (pl`.xlsx`), ha szükséges.
 
 ## Következtetés
 
@@ -80,7 +80,7 @@ workbook.Save(dataDir + "output.xls");
 ## GYIK
 
 ### Elrejthetem a lapokat az Excelben az Aspose.Cells for .NET használatával?
- Teljesen! Egyszerűen beállítva`workbook.Settings.ShowTabs = false;` és mentse el a fájlt. Ez elrejti a lapokat a munkafüzet megnyitásakor.
+ Teljesen! Egyszerűen beállítva`workbook.Settings.ShowTabs = false;`és mentse el a fájlt. Ez elrejti a lapokat a munkafüzet megnyitásakor.
 
 ### Az Aspose.Cells támogat más Excel-szolgáltatásokat, például diagramokat és pivot táblákat?
 Igen, az Aspose.Cells egy átfogó könyvtár, amely szinte az összes Excel szolgáltatást támogatja, beleértve a diagramokat, pivot táblákat, képleteket és egyebeket.

@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Ersätt med sökvägen till din PFX-fil
 
 ## Steg 4: Skapa den digitala signaturen
 
- Låt oss nu skapa den digitala signaturen med hjälp av`DigitalSignature`klass. Det är här magin händer!
+ Låt oss nu skapa den digitala signaturen med hjälp av`DigitalSignature` klass. Det är här magin händer!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Ja, du behöver ett giltigt digitalt certifikat (PFX-fil) för att skapa en Xade
  Absolut! Du kan få en gratis provperiod från[Aspose hemsida](https://releases.aspose.com/).
 
 ### Är Aspose.Cells kompatibel med alla versioner av .NET?
-Aspose.Cells stöder olika versioner av .NET-ramverket. Kontrollera[dokumentation](https://reference.aspose.com/cells/net/) för kompatibilitetsinformation.
+ Aspose.Cells stöder olika versioner av .NET-ramverket. Kontrollera[dokumentation](https://reference.aspose.com/cells/net/) för kompatibilitetsinformation.
 
 ### Var kan jag få support om jag stöter på problem?
  Du kan besöka[Aspose forum](https://forum.aspose.com/c/cells/9) för samhällsstöd och hjälp.

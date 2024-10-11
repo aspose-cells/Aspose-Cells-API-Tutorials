@@ -141,7 +141,7 @@ Dessa alternativ hjälper till att förbättra den visuella kvaliteten på bilde
 
 ## Steg 10: Konvertera diagram till bild med avancerade alternativ
 
-Låt oss nu faktiskt konvertera diagrammet med de avancerade alternativen vi just ställt in.
+Låt oss nu faktiskt konvertera diagrammet med hjälp av de avancerade alternativen vi just ställt in.
 
 ```csharp
 chart.ToImage(outputDir + "outputChartRendering.png", options);

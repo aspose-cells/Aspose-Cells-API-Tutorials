@@ -122,4 +122,4 @@ Aspose.Cells를 사용하면 .xlsx, .xls, .xlsm 및 기타 여러 Excel 형식�
  네, 무료 평가판을 다운로드할 수 있습니다.[Aspose Cells 릴리스 페이지](https://releases.aspose.com/).
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
- 다음을 통해 지원에 액세스할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9), 커뮤니티와 Aspose 팀에 질문을 올리고 답변을 찾을 수 있습니다.
+ 다음을 통해 지원에 액세스할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9)커뮤니티와 Aspose 팀에 질문을 올리고 답변을 찾을 수 있습니다.

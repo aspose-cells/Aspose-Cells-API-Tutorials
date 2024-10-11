@@ -48,11 +48,11 @@ string outputDir = "Your Output Directory";
 Nous allons maintenant créer un objet classeur, qui sert de conteneur pour votre feuille de calcul.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
-Explication : Cette ligne crée une instance de`Workbook` classe de la bibliothèque Aspose.Cells. C'est comme ouvrir un nouveau fichier Excel vierge dans lequel vous pouvez commencer à ajouter vos feuilles et vos données.
+ Explication : Cette ligne crée une instance de`Workbook`classe de la bibliothèque Aspose.Cells. C'est comme ouvrir un nouveau fichier Excel vierge dans lequel vous pouvez commencer à ajouter vos feuilles et vos données.
 
 ## Étape 3 : référencer une feuille de travail
 

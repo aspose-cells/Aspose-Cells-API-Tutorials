@@ -17,9 +17,9 @@ Innan du dyker in i stegen, se till att du har några saker redo:
 
 1. .NET-miljö: Du bör ha en .NET-utvecklingsmiljö inrättad. Detta kan vara Visual Studio, Visual Studio Code eller någon annan kompatibel IDE.
    
-2. Aspose.Cells för .NET: Du måste ha Aspose.Cells för .NET installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Du måste ha Aspose.Cells för .NET installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/).
 
-3.  Exempel på Excel-fil: Skaffa ett exempel på en Excel-fil som innehåller diagram. För den här handledningen kommer vi att använda en fil med namnet`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Se till att det finns i din projektkatalog.
+3. Exempel på Excel-fil: Skaffa ett exempel på en Excel-fil som innehåller diagram. För den här handledningen kommer vi att använda en fil med namnet`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Se till att det finns i din projektkatalog.
 
 4. Grundläggande programmeringskunskaper: Kännedom om C#-programmering hjälper dig att enkelt följa med.
 
@@ -44,7 +44,7 @@ using System.Text;
 using Aspose.Cells.Charts;
 ```
 
-Dessa namnrymder ger tillgång till arbetsboken, kalkylbladen och diagramfunktionerna i Aspose.Cells.
+Dessa namnrymder ger åtkomst till arbetsboken, kalkylbladen och diagramfunktionerna i Aspose.Cells.
 
 Låt oss nu bryta ner processen för att bestämma typerna av X- och Y-värden i din diagramserie. Så här gör du steg för steg.
 
@@ -56,7 +56,7 @@ Först måste du definiera katalogen där din Excel-fil finns. Ställ in sökvä
 string sourceDir = "Your Document Directory";
 ```
 
- Ersätta`"Your Document Directory"` med sökvägen där din Excel-fil sparas.
+ Ersätta`"Your Document Directory"`med sökvägen där din Excel-fil sparas.
 
 ## Steg 2: Ladda arbetsboken
 

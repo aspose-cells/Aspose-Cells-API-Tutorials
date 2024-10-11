@@ -77,7 +77,7 @@ I det här fallet tar vi helt enkelt tag i det första kalkylbladet, vilket är 
 Med kalkylbladet i handen kan vi nu komma åt diagrammet som vi har för avsikt att utforma.
 
 ```csharp
-// Få det första diagrammet i arket
+//Få det första diagrammet i arket
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -99,16 +99,16 @@ Denna kodrad säkerställer att den första serien i diagrammet är inställd p�
  Nu när vår serie är klar måste vi ändra dess färg. Detta innebär att skapa en`CellsColor` objekt och ange en temafärg. Vi väljer en accentstil för det här exemplet.
 
 ```csharp
-// Skaffa CellsColor från SolidFill
+// Skaffa CellsColor av SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Skapa ett tema i accentstil
+//Skapa ett tema i accentstil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
 Här är vad som händer:
 1. Vi får färgen på den fasta fyllningen.
-2.  Använder`ThemeColor` , anger vi en färg för vår fasta fyllning. Du kan ändra`Accent6` till någon annan temafärg beroende på vad du gillar.
+2.  Använder`ThemeColor` , ställer vi in en färg för vår fasta fyllning. Du kan ändra`Accent6` till någon annan temafärg beroende på vad du gillar.
 
 ## Steg 7: Tillämpa temat på serien
 

@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // PFX dosyanızın yolunu kullanarak değiştirin
 
 ## Adım 4: Dijital İmzayı Oluşturun
 
- Şimdi, dijital imzayı kullanarak oluşturalım`DigitalSignature`sınıf. Sihir burada gerçekleşiyor!
+ Şimdi, dijital imzayı kullanarak oluşturalım`DigitalSignature` sınıf. Sihir burada gerçekleşiyor!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Evet, Xades imzası oluşturmak için geçerli bir dijital sertifikaya (PFX dosy
  Kesinlikle! Ücretsiz denemeyi şuradan alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
 
 ### Aspose.Cells .NET'in tüm sürümleriyle uyumlu mudur?
-Aspose.Cells, .NET framework'ün çeşitli sürümlerini destekler. Kontrol edin[belgeleme](https://reference.aspose.com/cells/net/) uyumluluk ayrıntıları için.
+ Aspose.Cells, .NET framework'ün çeşitli sürümlerini destekler. Kontrol edin[belgeleme](https://reference.aspose.com/cells/net/) uyumluluk ayrıntıları için.
 
 ### Sorun yaşarsam nereden destek alabilirim?
  Ziyaret edebilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9) Toplum desteği ve yardımı için.

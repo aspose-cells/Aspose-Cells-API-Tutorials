@@ -45,7 +45,7 @@ Hier geeft u het pad op naar het Excel-bestand waarmee u wilt werken.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Vervangen`YOUR DOCUMENT DIRECTORY` met het werkelijke pad waar uw Excel-bestand is opgeslagen. Dit stelt uw programma in staat om de benodigde bestanden te vinden die het zal manipuleren.
+ Vervangen`YOUR DOCUMENT DIRECTORY`met het werkelijke pad waar uw Excel-bestand is opgeslagen. Dit stelt uw programma in staat om de benodigde bestanden te vinden die het zal manipuleren.
 
 ## Stap 2: Een bestandsstroom maken
 
@@ -56,7 +56,7 @@ Hier maakt u een bestandsstroom om het Excel-bestand te lezen.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- De`FileStream`class stelt u in staat om bestanden te lezen en ernaar te schrijven. In dit geval openen we ons Excel-bestand in leesmodus.
+ De`FileStream` class stelt u in staat om bestanden te lezen en ernaar te schrijven. In dit geval openen we ons Excel-bestand in leesmodus.
 
 ## Stap 3: Een werkmapobject instantiëren
 
@@ -123,10 +123,10 @@ Door deze eenvoudige stappen te volgen, hebt u geleerd hoe u de schuifbalken van
  Ja! Je hoeft alleen maar in te stellen`IsVScrollBarVisible` En`IsHScrollBarVisible` terug naar`true`.
 
 ### Is Aspose.Cells gratis te gebruiken?  
- Aspose.Cells is niet helemaal gratis, maar u kunt het voor een beperkte tijd gratis uitproberen of overwegen om het aan te schaffen[een tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells is niet helemaal gratis, maar u kunt het voor een beperkte tijd gratis uitproberen of overwegen om het aan te schaffen[een tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ### Welke typen Excel-bestanden kan ik bewerken met Aspose.Cells?  
-kunt met verschillende Excel-formaten werken, waaronder .xls, .xlsx, .xlsm, .xlsb, enz.
+U kunt met verschillende Excel-formaten werken, waaronder .xls, .xlsx, .xlsm, .xlsb, enz.
 
 ### Waar kan ik meer voorbeelden vinden?  
  Controleer de[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) voor aanvullende voorbeelden en tutorials.

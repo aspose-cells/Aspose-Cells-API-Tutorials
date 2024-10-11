@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Assurez-vous de remplacer`"YOUR SOURCE DIRECTORY"` et`"YOUR OUTPUT DIRECTORY"`avec des chemins réels sur votre machine. Considérez cela comme la création d'un espace de travail bien rangé avant de commencer à créer votre chef-d'œuvre !
+ Assurez-vous de remplacer`"YOUR SOURCE DIRECTORY"` et`"YOUR OUTPUT DIRECTORY"` avec des chemins réels sur votre machine. Considérez cela comme la création d'un espace de travail bien rangé avant de commencer à créer votre chef-d'œuvre !
 
 ## Étape 2 : Créer un classeur vide
 
@@ -110,4 +110,4 @@ Et voilà ! Vous avez appris à créer un classeur Excel, à définir une protec
 Absolument ! Aspose.Cells fonctionne parfaitement dans les applications de bureau et Web utilisant .NET.
 
 ### Que dois-je faire si j’ai besoin d’aide ?  
- Pour les questions et le dépannage, la communauté Aspose est très utile. Vous pouvez visiter leur[Forum de soutien](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide.
+Pour les questions et le dépannage, la communauté Aspose est très utile. Vous pouvez visiter leur[Forum de soutien](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide.

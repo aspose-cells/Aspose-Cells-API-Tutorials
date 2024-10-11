@@ -63,7 +63,7 @@ Baris ini menunjuk ke direktori yang berisi file Excel. Pastikan untuk menyesuai
 Selanjutnya, kita akan memuat buku kerja kita. Ini seperti membuka berkas Excel di latar belakang, yang memungkinkan kita membaca dan memanipulasi isinya.
 
 ```csharp
-// Memuat buku kerja
+//Memuat buku kerja
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

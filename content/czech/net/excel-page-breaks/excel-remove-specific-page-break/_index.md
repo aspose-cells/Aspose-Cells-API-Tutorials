@@ -16,7 +16,7 @@ Pokud jde o práci se soubory aplikace Excel, může být správa zalomení str�
 Než se ponoříme do toho nejnutnějšího kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je rychlý kontrolní seznam předpokladů:
 
 1. Visual Studio: K vytváření a spouštění aplikací .NET budete potřebovat funkční instalaci sady Visual Studio.
-2. Aspose.Cells for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Pokud jste to ještě neudělali, můžete si to stáhnout z[zde](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Pokud jste to ještě neudělali, můžete si to stáhnout z[zde](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
 4. Soubor Excel: Mějte po ruce soubor Excel, který obsahuje nějaké konce stránek, s nimiž můžeme experimentovat.
 
@@ -53,14 +53,14 @@ Nejprve musíte určit, kde jsou uloženy vaše dokumenty Excel. To pomáhá kó
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vysvětlení: Vyměnit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou k vašim souborům. Zde načtete soubor Excel a uložíte jej později.
+ Vysvětlení: Vyměnit`YOUR DOCUMENT DIRECTORY`se skutečnou cestou k vašim souborům. Zde načtete soubor Excel a uložíte jej později.
 
 ## Krok 2: Vytvořte instanci objektu sešitu
 
 Dále musíme načíst náš sešit. Jednoduše řečeno, představte si sešit jako soubor aplikace Excel.
 
 ```csharp
-// Vytvoření instance objektu sešitu
+//Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ A tady to máte! Odstranění konkrétních konců stránek ze souboru aplikace 
 ## FAQ
 
 ### Mohu odstranit více zalomení stránek najednou?  
-Ano, můžete! Stačí procházet`HorizontalPageBreaks` a`VerticalPageBreaks` sbírky a používat`RemoveAt` metoda.
+ Ano, můžete! Stačí procházet`HorizontalPageBreaks` a`VerticalPageBreaks` sbírky a používat`RemoveAt` metoda.
 
 ### Jak zjistím, který index použít pro konce stránek?  
 Konce stránek můžete iterovat pomocí smyčky a vytisknout jejich indexy nebo je zkontrolovat pomocí debuggeru.

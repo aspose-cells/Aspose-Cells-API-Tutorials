@@ -16,7 +16,7 @@ Vytváření dynamických a vizuálně přitažlivých grafů v Excelu je fantas
 Než se pustíme do kódování, měli byste mít připraveno několik věcí:
 
 - Základní porozumění C#: Základní znalost programování C# bude užitečná. Nebojte se; nemusíte být expert, stačí se pohodlně orientovat v syntaxi.
--  Nainstalovaná knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/)pokud jste to ještě neudělali.
+-  Nainstalovaná knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/) pokud jste to ještě neudělali.
 - Visual Studio: Nezbytná je znalost sady Visual Studio nebo jakéhokoli IDE, které chcete používat pro rozhraní .NET.
 - Existující soubor aplikace Excel: V tomto příkladu budeme pracovat s existujícím souborem aplikace Excel s názvem „sampleAddingTextBoxControlInChart.xls“. Můžete si jej vytvořit nebo si stáhnout ukázku.
 
@@ -57,7 +57,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleAddingTextBoxControlInChart.
 ```
 Tento řádek inicializuje nový objekt Workbook s naším zadaným souborem.
 
-## Krok 3: Přístup k grafu v listu
+## Krok 3: Otevřete graf v listu
 
 Vzhledem k tomu, že grafy v aplikaci Excel jsou uloženy v listu, musíme nejprve otevřít list a poté získat požadovaný graf. V tomto příkladu přistoupíme k prvnímu grafu v prvním listu.
 
@@ -76,7 +76,7 @@ Nyní jsme připraveni přidat náš TextBox. Jeho polohu a velikost upřesníme
 // Přidejte do grafu nové textové pole.
 Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100, 350, 2550);
 ```
-V tomto příkazu parametry definují umístění (x, y) a velikost (šířka, výška) textového pole v grafu. Upravte tyto hodnoty na základě vašich konkrétních potřeb rozvržení.
+tomto příkazu parametry definují umístění (x, y) a velikost (šířka, výška) textového pole v grafu. Upravte tyto hodnoty na základě vašich konkrétních potřeb rozvržení.
 
 ## Krok 5: Nastavte text pro textové pole
 

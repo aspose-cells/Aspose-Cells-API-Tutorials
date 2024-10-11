@@ -16,7 +16,7 @@ Excel 문서를 프로그래밍 방식으로 만들고 사용자 지정하면 �
 코드에 들어가기 전에 제대로 설정되었는지 확인해 보겠습니다. 시작하기 위해 필요한 것은 다음과 같습니다.
 
 1. Visual Studio 또는 .NET IDE: Visual Studio와 같은 작동하는 IDE가 있는지 확인하세요. 여기는 모든 코딩 마법이 일어나는 놀이터가 될 것입니다.
-2. .NET 패키지용 Aspose.Cells: 아직 다운로드하지 않았다면 Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 최신 버전은 다음에서 찾을 수 있습니다.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
+2.  .NET 패키지용 Aspose.Cells: 아직 다운로드하지 않았다면 Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 최신 버전은 다음에서 찾을 수 있습니다.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: 코드를 안내해 드리지만, C#에 익숙하다면 미묘한 차이를 더 잘 이해하는 데 도움이 됩니다.
 4. .NET Framework에 대한 액세스: 프로젝트가 호환되는 .NET Framework 버전을 대상으로 설정되어 있는지 확인하세요.
 
@@ -75,7 +75,7 @@ Workbook wb = new Workbook();
 Worksheet ws = wb.Worksheets[0];
 ```
 
-여기서는 코드에 "이 특정 워크시트로 작업하고 싶어요!"라고 말하는 것입니다. 
+여기서는 코드에 "이 특정 워크시트로 작업하고 싶어요!"라고 말하고 있는 것입니다. 
 
 ## 4단계: 사용자 정의 용지 크기 설정
 
@@ -124,7 +124,7 @@ Aspose.Cells를 사용하여 Excel 워크시트에 사용자 정의 용지 크�
 ## 자주 묻는 질문
 
 ### 라이선스를 구매하지 않고도 Aspose.Cells를 사용할 수 있나요?
- 예, .NET용 Aspose.Cells의 무료 평가판 버전을 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
+예, .NET용 Aspose.Cells의 무료 평가판 버전을 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### 임시 면허의 한도를 초과하면 어떻게 되나요?
  제한을 초과하면 워터마크가 찍힌 출력이 발생합니다. 중단 없는 서비스를 위해 영구 라이선스를 선택하는 것이 가장 좋습니다. 옵션을 찾을 수 있습니다.[여기](https://purchase.aspose.com/buy).
@@ -133,7 +133,7 @@ Aspose.Cells를 사용하여 Excel 워크시트에 사용자 정의 용지 크�
 네, Aspose.Cells for .NET은 .NET Core를 지원합니다. 최신 애플리케이션에 매끄럽게 통합할 수 있습니다.
 
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
- Aspose 지원 포럼을 통해 문의할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9)기술적인 문제가 발생하면 도움을 받으세요.
+ Aspose 지원 포럼을 통해 문의할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9) 기술적인 문제가 발생하면 도움을 받으세요.
 
 ### Aspose.Cells를 사용하여 워크시트의 다른 측면을 사용자 정의할 수 있나요?
 물론입니다! Aspose.Cells는 스타일, 수식 등을 포함하여 워크시트를 사용자 정의하기 위한 강력한 기능 세트를 제공합니다.

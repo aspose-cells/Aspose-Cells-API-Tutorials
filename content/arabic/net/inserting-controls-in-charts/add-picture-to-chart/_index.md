@@ -55,7 +55,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- يستبدل`Your Document Directory` و`Your Output Directory`مع المسارات الفعلية على جهاز الكمبيوتر الخاص بك. 
+ يستبدل`Your Document Directory` و`Your Output Directory` مع المسارات الفعلية على جهاز الكمبيوتر الخاص بك. 
 
 ## الخطوة 2: تحميل المصنف الموجود
 
@@ -100,7 +100,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- هنا،`50` و`50` هي إحداثيات X وY حيث سيتم وضع الصورة، و`200`هو عرض وارتفاع الصورة.
+ هنا،`50` و`50` هي إحداثيات X وY حيث سيتم وضع الصورة، و`200` هو عرض وارتفاع الصورة.
 
 ## الخطوة 6: تخصيص تنسيق خط الصورة
 
@@ -151,7 +151,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 يدعم Aspose.Cells مجموعة متنوعة من تنسيقات الصور، بما في ذلك PNG، وJPEG، وBMP، وGIF.
 
 ### هل يمكنني تخصيص موضع الصورة؟
- بالتأكيد! إحداثيات X وY في`AddPictureInChart` تسمح الطريقة بتحديد المواقع بدقة.
+بالتأكيد! إحداثيات X وY في`AddPictureInChart` تسمح الطريقة بتحديد المواقع بدقة.
 
 ### هل استخدام Aspose.Cells مجاني؟
  يقدم Aspose.Cells نسخة تجريبية مجانية، ولكن للحصول على الميزات الكاملة، يلزم الحصول على ترخيص. يمكنك العثور على الأسعار[هنا](https://purchase.aspose.com/buy).

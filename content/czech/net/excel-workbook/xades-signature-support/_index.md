@@ -66,11 +66,11 @@ string password = "pfxPassword"; // Nahraďte svým heslem PFX
 string pfx = "pfxFile"; // Nahraďte cestu k vašemu souboru PFX
 ```
 
- V tomto kroku vyměňte`pfxPassword` se svým skutečným heslem a`pfxFile` s cestou k vašemu souboru PFX. To je klíč k podpisu vašeho dokumentu!
+ V tomto kroku vyměňte`pfxPassword` se svým skutečným heslem a`pfxFile` s cestou k vašemu souboru PFX. Toto je klíč k podpisu vašeho dokumentu!
 
 ## Krok 4: Vytvořte digitální podpis
 
- Nyní vytvoříme digitální podpis pomocí`DigitalSignature`třída. Tady se děje kouzlo!
+ Nyní vytvoříme digitální podpis pomocí`DigitalSignature` třída. Tady se děje kouzlo!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -104,7 +104,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## Závěr
 
-tady to máte! Úspěšně jste přidali podpis Xades do souboru Excel pomocí Aspose.Cells for .NET. Tento proces nejen zvyšuje zabezpečení vašich dokumentů, ale také buduje důvěru vašich uživatelů zajištěním pravosti vašich souborů. 
+A tady to máte! Úspěšně jste přidali podpis Xades do souboru Excel pomocí Aspose.Cells for .NET. Tento proces nejen zvyšuje zabezpečení vašich dokumentů, ale také buduje důvěru vašich uživatelů zajištěním pravosti vašich souborů. 
 Digitální podpisy jsou nezbytnou součástí moderní správy dokumentů a se silou Aspose.Cells je můžete snadno implementovat do svých aplikací.
 
 ## FAQ
@@ -119,7 +119,7 @@ Ano, k vytvoření podpisu Xades potřebujete platný digitální certifikát (s
  Absolutně! Můžete získat bezplatnou zkušební verzi od[Aspose webové stránky](https://releases.aspose.com/).
 
 ### Je Aspose.Cells kompatibilní se všemi verzemi .NET?
-Aspose.Cells podporuje různé verze .NET frameworku. Zkontrolujte[dokumentace](https://reference.aspose.com/cells/net/) pro podrobnosti o kompatibilitě.
+ Aspose.Cells podporuje různé verze .NET frameworku. Zkontrolujte[dokumentace](https://reference.aspose.com/cells/net/) pro podrobnosti o kompatibilitě.
 
 ### Kde mohu získat podporu, pokud narazím na problémy?
  Můžete navštívit[Aspose fórum](https://forum.aspose.com/c/cells/9) za podporu a pomoc komunity.

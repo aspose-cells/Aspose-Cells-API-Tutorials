@@ -15,7 +15,7 @@ No mundo acelerado de hoje, gerenciar dados com segurança é crucial para empre
 
 Antes de entrarmos nos detalhes do código, há algumas coisas que você precisa ter prontas:
 
-1. Aspose.Cells para .NET: Baixe e instale a versão mais recente do Aspose.Cells para .NET do[Site Aspose](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells para .NET: Baixe e instale a versão mais recente do Aspose.Cells para .NET do[Site Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: Um ambiente de desenvolvimento configurado para .NET. Opções populares incluem Visual Studio ou JetBrains Rider.
 3. Noções básicas de C#: embora o guiemos pelo código passo a passo, ter uma compreensão básica da programação em C# ajudará você a entender os conceitos mais rapidamente.
 4. Seu diretório de documentos: certifique-se de ter um diretório configurado onde você pode armazenar seus arquivos do Excel para testes.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Etapa 2: Carregue sua pasta de trabalho
 
- Em seguida, você vai querer carregar a pasta de trabalho do Excel onde pretende bloquear células. Isso é feito criando uma instância do`Workbook` class e apontando para o arquivo Excel desejado.
+Em seguida, você vai querer carregar a pasta de trabalho do Excel onde pretende bloquear células. Isso é feito criando uma instância do`Workbook` class e apontando para o arquivo Excel desejado.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -111,5 +111,5 @@ Se você esquecer a senha, não poderá desproteger a planilha, por isso é cruc
 ### Posso desbloquear células depois que elas estiverem bloqueadas?
  Absolutamente! Você pode desbloquear células configurando o`IsLocked` propriedade para`false` e remover a proteção.
 
-### O Aspose.Cells é gratuito?
- O Aspose.Cells oferece um teste gratuito para usuários. No entanto, para uso contínuo, você precisa comprar uma licença. Visite o[Aspose página de compra](https://purchase.aspose.com/buy) para mais detalhes.
+### Aspose.Cells é gratuito?
+ Aspose.Cells oferece um teste gratuito para usuários. No entanto, para uso contínuo, você precisa comprar uma licença. Visite o[Aspose página de compra](https://purchase.aspose.com/buy) para mais detalhes.

@@ -45,7 +45,7 @@ Det är här du anger sökvägen till Excel-filen du vill arbeta med.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Ersätta`YOUR DOCUMENT DIRECTORY` med den faktiska sökvägen där din Excel-fil är lagrad. Detta gör att ditt program kan hitta de nödvändiga filerna som det kommer att manipulera.
+ Ersätta`YOUR DOCUMENT DIRECTORY`med den faktiska sökvägen där din Excel-fil är lagrad. Detta gör att ditt program kan hitta de nödvändiga filerna som det kommer att manipulera.
 
 ## Steg 2: Skapa en filström
 
@@ -56,7 +56,7 @@ Här skapar du en filström för att läsa Excel-filen.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- De`FileStream`klass gör att du kan läsa från och skriva till filer. I det här fallet öppnar vi vår Excel-fil i läsläge.
+ De`FileStream` klass gör att du kan läsa från och skriva till filer. I det här fallet öppnar vi vår Excel-fil i läsläge.
 
 ## Steg 3: Instantiera ett arbetsboksobjekt
 
@@ -123,7 +123,7 @@ Genom att följa dessa enkla steg har du lärt dig hur du visar och döljer rull
  Ja! Du behöver bara ställa in`IsVScrollBarVisible` och`IsHScrollBarVisible` tillbaka till`true`.
 
 ### Är Aspose.Cells gratis att använda?  
- Aspose.Cells är inte helt gratis, men du kan prova det gratis under en begränsad tid eller överväga att köpa[en tillfällig licens](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells är inte helt gratis, men du kan prova det gratis under en begränsad tid eller överväga att köpa[en tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 ### Vilka typer av Excel-filer kan jag manipulera med Aspose.Cells?  
 Du kan arbeta med olika Excel-format, inklusive .xls, .xlsx, .xlsm, .xlsb, etc.

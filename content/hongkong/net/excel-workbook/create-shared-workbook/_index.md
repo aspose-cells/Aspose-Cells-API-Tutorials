@@ -13,7 +13,7 @@ url: /zh-hant/net/excel-workbook/create-shared-workbook/
 
 ## 先決條件
 
-在我們深入了解創建共享工作簿的細節之前，讓我們先整理一些事情：
+在我們深入研究創建共享工作簿的細節之前，讓我們先整理一些事情：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。它是一個開發環境，您可以在其中編寫和運行程式碼。
 2.  Aspose.Cells for .NET：您需要擁有 Aspose.Cells 函式庫。您可以從以下位置下載：[Aspose.Cells 下載](https://releases.aspose.com/cells/net/).
@@ -115,5 +115,5 @@ Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ### 我可以在哪裡獲得 Aspose.Cells 的支援？
 您可以在以下位置找到支援並提出問題[Aspose.Cells 支援論壇](https://forum.aspose.com/c/cells/9).
 
-### 我該如何開始使用 Aspose.Cells？
+### 如何開始使用 Aspose.Cells？
 首先從以下位置下載庫[Aspose.Cells 下載](https://releases.aspose.com/cells/net/)頁面並按照本指南中提到的安裝步驟進行操作。

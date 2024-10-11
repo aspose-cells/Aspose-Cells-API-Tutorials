@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // İstediğiniz yolla güncelleyin
  Daha sonra, yeni bir örnek oluşturmanız gerekir`Workbook` sınıf. Bu nesne Excel dosyanızı temsil edecek ve içeriğini düzenlemenize olanak tanıyacaktır.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Bu kodda, grafiğin türünü (bu durumda sütun grafiği) ve onu yerleştirmek 
 
 ## Adım 6: Grafik Örneğine Erişim
 
- Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır:`Charts` koleksiyon.
+ Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır:`Charts`koleksiyon.
 
 ```csharp
 // Yeni eklenen grafiğin örneğine erişim

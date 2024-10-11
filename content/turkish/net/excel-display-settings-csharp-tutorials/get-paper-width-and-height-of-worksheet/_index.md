@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Bu blokların her biri bir önceki adımı taklit eder ancak`PaperSize` mülkü buna göre ayarlayın. Sadece boyut göstergesini değiştirerek, zahmetsizce farklı kağıt boyutları elde edersiniz. Bu, depolamanız gereken şeye göre bir kutunun boyutunu değiştirmek gibidir!
+ Bu blokların her biri bir önceki adımı taklit eder ancak`PaperSize`mülkü buna göre ayarlayın. Sadece boyut göstergesini değiştirerek, zahmetsizce farklı kağıt boyutları elde edersiniz. Bu, depolamanız gereken şeye göre bir kutunun boyutunu değiştirmek gibidir!
 
 ## Çözüm
 

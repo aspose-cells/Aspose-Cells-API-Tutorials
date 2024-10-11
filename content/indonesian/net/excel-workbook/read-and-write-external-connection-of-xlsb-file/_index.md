@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Dalam potongan kode ini,`"Your Document Directory"` Dan`"Your Document Directory"`diasumsikan mengambil jalur masing-masing tempat file input dan output Anda akan berada. Anda dapat mengganti metode ini dengan jalur hardcoded jika Anda mau.
+ Dalam potongan kode ini,`"Your Document Directory"` Dan`"Your Document Directory"` diasumsikan mengambil jalur masing-masing tempat file input dan output Anda akan berada. Anda dapat mengganti metode ini dengan jalur hardcoded jika Anda mau.
 
 ## Langkah 2: Muat File XLSB
 
@@ -68,7 +68,7 @@ Dengan buku kerja yang dimuat, Anda dapat mengakses koneksi eksternalnya. Dalam 
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Di Sini,`DataConnections[0]` mengacu pada koneksi pertama di buku kerja. Kami mentransmisikannya sebagai`DBConnection` ketik untuk manipulasi lebih lanjut.
+ Di Sini,`DataConnections[0]`mengacu pada koneksi pertama di buku kerja. Kami mentransmisikannya sebagai`DBConnection` ketik untuk manipulasi lebih lanjut.
 
 ## Langkah 4: Ekstrak Informasi Koneksi
 
@@ -125,7 +125,7 @@ Nah, itu dia! Anda telah berhasil mempelajari cara membaca dan menulis koneksi e
 File XLSB adalah format file Excel biner yang menyimpan data lembar kerja dalam format biner, membuatnya lebih ringkas dan lebih cepat untuk dibuka.
 
 ### Bagaimana cara menginstal Aspose.Cells untuk .NET?  
-Anda dapat dengan mudah mengunduhnya dari situs web Aspose[Di Sini](https://releases.aspose.com/cells/net/).
+ Anda dapat dengan mudah mengunduhnya dari situs web Aspose[Di Sini](https://releases.aspose.com/cells/net/).
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?  
  Ya! Anda dapat memulai dengan uji coba gratis, yang tersedia[Di Sini](https://releases.aspose.com/).

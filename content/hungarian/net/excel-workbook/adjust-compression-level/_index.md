@@ -56,7 +56,7 @@ Ezután betöltjük a tömöríteni kívánt Excel-munkafüzetet. Itt mutathat a
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Ez a sor inicializál egy újat`Workbook` objektum a megadott fájllal. Győződjön meg arról, hogy a fájl elérési útja helyes; különben hibákba ütközhet.
+ Ez a sor inicializál egy újat`Workbook` objektumot a megadott fájllal. Győződjön meg arról, hogy a fájl elérési útja helyes; különben hibákba ütközhet.
 
 ## 3. lépés: Hozzon létre mentési beállításokat az XLSB számára
 

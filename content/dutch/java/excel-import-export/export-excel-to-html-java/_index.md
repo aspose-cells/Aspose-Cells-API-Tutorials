@@ -11,7 +11,7 @@ In de tutorial van vandaag duiken we in het proces van het exporteren van Excel-
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat de volgende voorwaarden vervuld zijn:
+Voordat we beginnen, moet u ervoor zorgen dat aan de volgende voorwaarden is voldaan:
 
 ## 1. Java-ontwikkelomgeving
 

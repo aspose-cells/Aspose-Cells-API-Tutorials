@@ -15,7 +15,7 @@ Ao trabalhar com arquivos do Excel programaticamente, seja para relatórios, an�
 
 Antes de começar, há algumas coisas que você precisa ter em mãos:
 
-1.  Biblioteca Aspose.Cells para .NET: Este é o componente principal que torna possível manipular arquivos do Excel. Se você ainda não o instalou, você pode[baixe aqui](https://releases.aspose.com/cells/net/).
+1. Biblioteca Aspose.Cells para .NET: Este é o componente principal que torna possível manipular arquivos do Excel. Se você ainda não o instalou, você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 2. Ambiente de desenvolvimento: você deve ter um ambiente de desenvolvimento configurado, de preferência o Visual Studio, onde você pode escrever e executar código C#.
 3. Noções básicas de C#: embora eu explique cada etapa, ter uma compreensão básica de C# ajudará você a acompanhar melhor.
 4. Arquivo Excel: Você deve ter um arquivo Excel feito (vamos fazer referência a "book1.xls" neste tutorial). Você pode criar um arquivo simples com algumas planilhas para esse propósito.
@@ -58,7 +58,7 @@ Aqui, estamos abrindo "book1.xls". É crucial que esse arquivo exista no diretó
  Em seguida, você precisará criar um`Workbook` objeto. Este objeto representa seu arquivo Excel e permite que você manipule seu conteúdo.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -95,8 +95,8 @@ Sinta-se à vontade para brincar com outros recursos da biblioteca Aspose.Cells 
 
 ## Perguntas frequentes
 
-### O Aspose.Cells é gratuito?
- O Aspose.Cells oferece um teste gratuito, mas você precisará comprar uma licença para uso contínuo. Você pode obter seu teste gratuito[aqui](https://releases.aspose.com/).
+### Aspose.Cells é gratuito?
+ Aspose.Cells oferece um teste gratuito, mas você precisará comprar uma licença para uso contínuo. Você pode obter seu teste gratuito[aqui](https://releases.aspose.com/).
 
 ### Posso remover várias planilhas de uma só vez?
 Você pode iterar pela coleção de planilhas e remover várias planilhas usando um loop. Apenas garanta que você gerencie os índices corretamente.

@@ -77,7 +77,7 @@ Neste caso, estamos simplesmente pegando a primeira planilha, o que é suficient
 Com a planilha em mãos, agora podemos acessar o gráfico que pretendemos estilizar.
 
 ```csharp
-// Obtenha o primeiro gráfico na planilha
+//Obtenha o primeiro gráfico na planilha
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Esta linha de código garante que a primeira série no gráfico seja definida pa
 // Obter o CellsColor do SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Crie um tema no estilo Accent
+//Crie um tema no estilo Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

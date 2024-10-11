@@ -36,7 +36,7 @@ using Aspose.Cells;
 
 ## 1단계: 환경 설정
 
- 이 단계에서는 Excel 파일이 있는 파일 경로를 설정합니다. 바꾸기`"YOUR DOCUMENT DIRECTORY"` 파일 경로를 포함합니다.
+이 단계에서는 Excel 파일이 있는 파일 경로를 설정합니다. 바꾸기`"YOUR DOCUMENT DIRECTORY"` 파일 경로를 포함합니다.
 
 ```csharp
 // 문서 디렉토리의 경로입니다.
@@ -72,7 +72,7 @@ Workbook workbook = new Workbook(fstream);
 워크북을 손에 쥐고, 숨기고 싶은 특정 워크시트에 접근할 시간입니다. 첫 번째 워크시트부터 시작하겠습니다.
 
 ```csharp
-// Excel 파일의 첫 번째 워크시트에 액세스하기
+//Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -80,7 +80,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 5단계: 워크시트 숨기기
 
- 이제 재미있는 부분인 워크시트 숨기기가 시작됩니다!`IsVisible` 속성을 사용하면 워크시트를 보기에서 없앨 수 있습니다.
+ 이제 재미있는 부분인 워크시트 숨기기가 시작됩니다!`IsVisible` 속성을 사용하면 워크시트가 보기에서 사라지게 할 수 있습니다.
 
 ```csharp
 // Excel 파일의 첫 번째 워크시트 숨기기
@@ -98,7 +98,7 @@ worksheet.IsVisible = false;
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-여기서 우리는 통합 문서를 다음과 같이 저장합니다.`output.out.xls`. 마치 당신의 작업을 봉투에 봉인하는 것과 같습니다. 저장하지 않으면 당신의 모든 노고가 사라질 것입니다!
+ 여기서 우리는 통합 문서를 다음과 같이 저장합니다.`output.out.xls`. 마치 당신의 작업을 봉투에 봉인하는 것과 같습니다. 저장하지 않으면 당신의 모든 노고가 사라질 것입니다!
 
 ## 7단계: 파일 스트림 닫기
 
@@ -132,7 +132,7 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트를 조작하는 것은 
  네, 루프를 통해 수행할 수 있습니다.`Worksheets` 수집 및 설정`IsVisible` 숨기려는 각 시트의 속성을 false로 설정합니다.
 
 ### Aspose.Cells는 어떤 파일 형식을 지원하나요?
- Aspose.Cells는 XLS, XLSX, CSV 등 다양한 형식을 지원합니다. 전체 목록을 확인할 수 있습니다.[여기](https://reference.aspose.com/cells/net/).
+Aspose.Cells는 XLS, XLSX, CSV 등 다양한 형식을 지원합니다. 전체 목록을 확인할 수 있습니다.[여기](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells를 사용하려면 라이선스가 필요한가요?
  무료 체험판을 통해 기능을 탐색할 수 있습니다. 프로덕션 애플리케이션에는 전체 라이선스가 필요합니다. 자세한 내용을 알아보세요[여기](https://purchase.aspose.com/buy).

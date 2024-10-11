@@ -98,7 +98,7 @@ worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 workbook.Save(dataDir + "ManagePaperSize_out.xls");
 ```
 
-この行は変更したワークブックを指定されたディレクトリに保存します。ここでの出力ファイルの名前は`ManagePaperSize_out.xls`ただし、必要に応じて自由にカスタマイズしてください。
+この行は、変更したワークブックを指定されたディレクトリに保存します。ここでの出力ファイルの名前は`ManagePaperSize_out.xls`ただし、必要に応じて自由にカスタマイズしてください。
 
 ## 結論
 

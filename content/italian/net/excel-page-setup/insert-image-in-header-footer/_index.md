@@ -15,7 +15,7 @@ Quando si lavora con file Excel, intestazioni e piè di pagina svolgono un ruolo
 
 Prima di immergerti nel codice vero e proprio, ci sono alcune cose che devi avere pronte:
 
-1. Aspose.Cells per la libreria .NET: assicurati di avere la libreria Aspose.Cells installata nel tuo ambiente .NET. Se non ce l'hai ancora, puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells per la libreria .NET: assicurati di avere la libreria Aspose.Cells installata nel tuo ambiente .NET. Se non ce l'hai ancora, puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
 2. Visual Studio o qualsiasi altro IDE: avrai bisogno di un ambiente di sviluppo integrato per scrivere ed eseguire il codice C#.
 3.  Un'immagine di esempio: prepara un'immagine che vuoi inserire nell'intestazione o nel piè di pagina. Per il nostro esempio, useremo un logo aziendale chiamato`aspose-logo.jpg`.
 4. Conoscenza di base di C#: sebbene non sia obbligatorio, comprendere C# ti semplificherà la comprensione di questo tutorial.
@@ -95,7 +95,7 @@ Con i dati binari dell'immagine a disposizione, possiamo inserirli nell'intestaz
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Questa riga posiziona l'immagine nella sezione centrale dell'intestazione. Il parametro`1` specifica la sezione dell'intestazione.
+ Questa riga posiziona l'immagine nella sezione centrale dell'intestazione. Il parametro`1`specifica la sezione dell'intestazione.
 
 ## Passaggio 7: impostazione del contenuto dell'intestazione
 

@@ -67,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2. lépés: Hozzon létre egy fájlfolyamot az Excel fájlhoz
 
- Mielőtt bármilyen változtatást végrehajtanánk, meg kell nyitnunk az Excel fájlt. Ezt úgy érjük el, hogy létrehozunk a`FileStream` . Ez a folyam lehetővé teszi számunkra, hogy elolvassuk a tartalmát`book1.xls`.
+ Mielőtt bármilyen változtatást végrehajtanánk, meg kell nyitnunk az Excel fájlt. Ezt úgy érjük el, hogy létrehozunk a`FileStream` . Ez az adatfolyam lehetővé teszi számunkra, hogy elolvassuk a tartalmát`book1.xls`.
 
 ```csharp
 // A megnyitandó Excel fájlt tartalmazó fájlfolyam létrehozása
@@ -78,10 +78,10 @@ Ez a kódsor előkészíti az Excel-fájlt szerkesztésre.
 
 ## 3. lépés: Példányosítsa a munkafüzet objektumot
 
- A`Workbook`Az objektum az Aspose.Cells funkció szíve. Az Excel-fájlt kezelhető módon jeleníti meg.
+ A`Workbook` Az objektum az Aspose.Cells funkció szíve. Az Excel-fájlt kezelhető módon jeleníti meg.
 
 ```csharp
-// Munkafüzet objektum példányosítása
+//Munkafüzet objektum példányosítása
 // Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Mivel a munkafüzet már a memóriában van, itt az ideje, hogy hozzáférjen a módosítani kívánt munkalaphoz. A legtöbb esetben ez lesz az első munkalap (0. index).
 
 ```csharp
-// Az Excel fájl első munkalapjának elérése
+//Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -108,11 +108,11 @@ Most jön a varázslat! A munkalap nagyítási szintjét a következő sor segí
 worksheet.Zoom = 75;
 ```
 
-nagyítási tényező 10 és 400 között bárhol állítható, lehetővé téve a nagyítást vagy kicsinyítést igényei szerint. A 75-ös nagyítási tényező azt jelenti, hogy a felhasználók az eredeti méret 75%-át látják, így könnyebben tekinthetik meg az adatokat túlzott görgetés nélkül.
+A nagyítási tényező 10 és 400 között bárhol állítható, lehetővé téve a nagyítást vagy kicsinyítést igényei szerint. A 75-ös nagyítási tényező azt jelenti, hogy a felhasználók az eredeti méret 75%-át látják, így könnyebben tekinthetik meg az adatokat túlzott görgetés nélkül.
 
 ## 6. lépés: Mentse el a módosított Excel-fájlt
 
-A módosítások elvégzése után ne felejtse el menteni a munkáját. Ez ugyanolyan fontos, mint a dokumentum mentése a bezárás előtt!
+módosítások elvégzése után ne felejtse el menteni a munkáját. Ez ugyanolyan fontos, mint a dokumentum mentése a bezárás előtt!
 
 ```csharp
 // A módosított Excel fájl mentése
@@ -134,7 +134,7 @@ fstream.Close();
 
 ## Következtetés
 
-nagyítási tényező szabályozása az Excel munkalapokon apró részletnek tűnhet, de jelentősen javíthatja az olvashatóságot és a felhasználói élményt. Az Aspose.Cells for .NET segítségével ez a feladat egyszerű és hatékony. Több áttekinthetőségre és kényelemre számíthat a táblázatokban való navigálás során.
+A nagyítási tényező szabályozása az Excel munkalapokon apró részletnek tűnhet, de jelentősen javíthatja az olvashatóságot és a felhasználói élményt. Az Aspose.Cells for .NET segítségével ez a feladat egyszerű és hatékony. Több áttekinthetőségre és kényelemre számíthat a táblázatokban való navigálás során.
 
 ## GYIK
 

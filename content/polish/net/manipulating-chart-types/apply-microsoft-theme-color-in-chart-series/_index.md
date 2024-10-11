@@ -9,7 +9,7 @@ url: /pl/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 ---
 ## Wstęp
 
-W dzisiejszym świecie, w którym wszystko jest wizualne, sposób, w jaki prezentujemy dane, ma ogromne znaczenie. Wykresy są często niedocenianymi bohaterami prezentacji danych, upraszczając złożone informacje do łatwych do przyswojenia wizualnych perełek. Jeśli używasz programu Microsoft Excel, wiesz, jak ważne jest dostosowywanie wykresów do marki Twojej organizacji lub po prostu uczynienie ich bardziej atrakcyjnymi. Ale czy wiesz, że możesz jeszcze bardziej spersonalizować swoje wykresy za pomocą Aspose.Cells dla .NET? W tym artykule przeprowadzimy Cię przez kroki, aby zastosować kolory motywu Microsoft w serii wykresów, zapewniając, że Twoje dane nie tylko wyróżniają się, ale także pasują do estetyki innych materiałów marki.
+dzisiejszym świecie, w którym wszystko jest wizualne, sposób, w jaki prezentujemy dane, ma ogromne znaczenie. Wykresy są często niedocenianymi bohaterami prezentacji danych, upraszczając złożone informacje do łatwych do przyswojenia wizualnych perełek. Jeśli używasz programu Microsoft Excel, wiesz, jak ważne jest dostosowywanie wykresów do marki Twojej organizacji lub po prostu uczynienie ich bardziej atrakcyjnymi. Ale czy wiesz, że możesz jeszcze bardziej spersonalizować swoje wykresy za pomocą Aspose.Cells dla .NET? W tym artykule przeprowadzimy Cię przez kroki, aby zastosować kolory motywu Microsoft w serii wykresów, zapewniając, że Twoje dane nie tylko się wyróżniają, ale także pasują do estetyki innych materiałów marki.
 
 ## Wymagania wstępne
 
@@ -52,7 +52,7 @@ string sourceDir = "Your Document Directory";
 
  Pamiętaj o wymianie`"Your Output Directory"` I`"Your Document Directory"` z rzeczywistymi ścieżkami na Twoim komputerze.
 
-## Krok 2: Utwórz skoroszyt
+## Krok 2: Utwórz instancję skoroszytu
 
  Następnie musisz utworzyć instancję`Workbook` klasa, która działa jako serce naszego zarządzania plikami Excela. To jak otwieranie drzwi do twoich danych.
 
@@ -79,7 +79,7 @@ Podobnie jak przechodzenie do konkretnej strony w książce, krok ten wskazuje n
 Teraz czas znaleźć wykres, który chcemy zmodyfikować. To tutaj zaczyna się prawdziwa magia!
 
 ```csharp
-// Pobierz pierwszy wykres w arkuszu
+//Pobierz pierwszy wykres w arkuszu
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Tutaj pobieramy ustawienia kolorów dla serii wykresów.
  Teraz zastosujmy kolor motywu Microsoft. Wybierzemy`Accent` styl, bo kto nie lubi odrobiny koloru?
 
 ```csharp
-// Utwórz motyw w stylu Accent
+//Utwórz motyw w stylu Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -131,7 +131,7 @@ W tym momencie wyobrażony kolor jest oficjalnie w twojej serii. Jak to jest eks
 
 ## Krok 9: Zapisz skoroszyt
 
-końcu wykonałeś całą robotę i teraz musisz zapisać swoją pracę. Pomyśl o tym jak o cofnięciu się i podziwianiu swojego pięknie udekorowanego pokoju.
+W końcu wykonałeś całą robotę i teraz musisz zapisać swoją pracę. Pomyśl o tym jak o cofnięciu się i podziwianiu swojego pięknie udekorowanego pokoju.
 
 ```csharp
 // Zapisz plik Excela

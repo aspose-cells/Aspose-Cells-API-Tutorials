@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // Thay thế bằng đường dẫn đến tệp PFX c�
 
 ## Bước 4: Tạo chữ ký số
 
- Bây giờ, chúng ta hãy tạo chữ ký số bằng cách sử dụng`DigitalSignature`lớp học. Đây chính là nơi phép thuật xảy ra!
+ Bây giờ, chúng ta hãy tạo chữ ký số bằng cách sử dụng`DigitalSignature` lớp học. Đây chính là nơi phép thuật xảy ra!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -119,7 +119,7 @@ Có, bạn cần có chứng chỉ số hợp lệ (tệp PFX) để tạo chữ
  Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
 
 ### Aspose.Cells có tương thích với tất cả các phiên bản .NET không?
-Aspose.Cells hỗ trợ nhiều phiên bản khác nhau của .NET framework. Kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để biết thông tin chi tiết về khả năng tương thích.
+ Aspose.Cells hỗ trợ nhiều phiên bản khác nhau của .NET framework. Kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để biết thông tin chi tiết về khả năng tương thích.
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
  Bạn có thể ghé thăm[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được cộng đồng hỗ trợ và giúp đỡ.

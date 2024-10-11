@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Bây giờ, đã đến lúc tạo một sổ làm việc mới. Về cơ bản, đây là nơi lưu trữ tất cả dữ liệu và cài đặt của bạn.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Tệp Excel có thể chứa nhiều trang tính. Chúng ta sẽ truy cập trang tính đầu tiên để áp dụng hệ số tỷ lệ.
 
 ```csharp
-// Truy cập vào trang tính đầu tiên trong tệp Excel
+//Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

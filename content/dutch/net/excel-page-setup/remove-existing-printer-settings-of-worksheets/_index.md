@@ -73,7 +73,7 @@ Met deze regel wordt het Excel-bestand geopend en voorbereid op wijzigingen.
 
 ## Stap 3: Het aantal werkbladen verkrijgen
 
-Nu we een werkboek hebben, gaan we kijken hoeveel werkbladen het bevat:
+Nu we onze werkmap hebben, gaan we kijken hoeveel werkbladen deze bevat:
 
 ```csharp
 //Ontvang de aantallen vellen van de werkmap

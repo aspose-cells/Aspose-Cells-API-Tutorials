@@ -53,7 +53,7 @@ Sırada, yeni bir Excel çalışma kitabının bir örneğini oluşturacağız. 
 Workbook wb = new Workbook();
 ```
 
-Bu satır, adında yeni bir çalışma kitabı nesnesi başlatır`wb`Artık bu yeni tuval üzerinde çalışmaya hazırız.
+ Bu satır, adında yeni bir çalışma kitabı nesnesi başlatır`wb`Artık bu yeni tuval üzerinde çalışmaya hazırız.
 
 ## Adım 3: Paylaşılan Çalışma Kitabını Parola ile Koruyun
 
@@ -117,4 +117,4 @@ Ne yazık ki, şifrenizi unutursanız, üçüncü taraf araçlara veya uzmanlara
 Aspose.Cells öncelikle .NET'i destekler, ancak Java ve diğer diller için de kütüphaneleri vardır. Daha fazla bilgi için sitelerini kontrol edin!
 
 ### Aspose.Cells için desteği nasıl alabilirim?
- Destek forumları aracılığıyla yardım alabilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/cells/9).
+Destek forumları aracılığıyla yardım alabilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/cells/9).

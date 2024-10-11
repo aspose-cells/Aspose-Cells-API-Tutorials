@@ -15,7 +15,7 @@ Excel dosyalarıyla programatik olarak çalışırken, ister raporlama, ister ve
 
 Başlamadan önce, hazır bulundurmanız gereken birkaç şey var:
 
-1.  Aspose.Cells for .NET Library: Bu, Excel dosyalarını düzenlemeyi mümkün kılan temel bileşendir. Henüz yüklemediyseniz,[buradan indirin](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library: Bu, Excel dosyalarını düzenlemeyi mümkün kılan temel bileşendir. Henüz yüklemediyseniz,[buradan indirin](https://releases.aspose.com/cells/net/).
 2. Geliştirme Ortamı: C# kodlarını yazıp çalıştırabileceğiniz, tercihen Visual Studio gibi bir geliştirme ortamı kurmuş olmalısınız.
 3. C# Hakkında Temel Bilgi: Her adımı açıklayacağım ancak C# hakkında temel bir bilgiye sahip olmak daha iyi takip etmenize yardımcı olacaktır.
 4. Excel Dosyası: Bir Excel dosyanız olmalı (bu eğitimde "book1.xls"e atıfta bulunacağız). Bu amaçla birkaç çalışma sayfası içeren basit bir dosya oluşturabilirsiniz.
@@ -58,7 +58,7 @@ Burada "book1.xls" dosyasını açıyoruz. Bu dosyanın belirtilen dizinde bulun
  Daha sonra, bir tane oluşturmanız gerekecek`Workbook` nesne. Bu nesne Excel dosyanızı temsil eder ve içeriğini düzenlemenize olanak tanır.
 
 ```csharp
-// Bir Çalışma Kitabı nesnesini örnekleme
+//Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook workbook = new Workbook(fstream);
 ```
@@ -96,7 +96,7 @@ Aspose.Cells kütüphanesinin diğer özellikleriyle oynamaktan çekinmeyin ve a
 ## SSS
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak devam eden kullanım için bir lisans satın almanız gerekecek. Ücretsiz denemenizi alabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Cells ücretsiz deneme sunuyor ancak devam eden kullanım için bir lisans satın almanız gerekecek. Ücretsiz denemenizi alabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Birden fazla çalışma sayfasını aynı anda kaldırabilir miyim?
 Çalışma sayfası koleksiyonunda yineleme yapabilir ve bir döngü kullanarak birden fazla sayfayı kaldırabilirsiniz. Sadece dizinleri doğru şekilde yönettiğinizden emin olun.

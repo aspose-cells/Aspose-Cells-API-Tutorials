@@ -41,7 +41,7 @@ Voordat we een Excel-bestand kunnen bewerken, moeten we het pad definiëren waar
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vervangen`"YOUR DOCUMENT DIRECTORY"`met het werkelijke directorypad op uw systeem. Deze directory is waar u uw bestaande Excel-bestand laadt en de uitvoer opslaat.
+ Vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke directorypad op uw systeem. Deze directory is waar u uw bestaande Excel-bestand laadt en de uitvoer opslaat.
 
 ## Stap 2: Een werkmapobject instantiëren
 
@@ -61,7 +61,7 @@ In Excel kunnen de tabbladen onderaan (Sheet1, Sheet2, etc.) worden verborgen of
 workbook.Settings.ShowTabs = true;
 ```
 
- Instelling`ShowTabs` naar`true` zorgt ervoor dat de tabbladen zichtbaar zijn wanneer u het Excel-bestand opent.
+ Instelling`ShowTabs` naar`true`zorgt ervoor dat de tabbladen zichtbaar zijn wanneer u het Excel-bestand opent.
 
 ## Stap 4: Sla het gewijzigde Excel-bestand op
 
@@ -71,7 +71,7 @@ Zodra de tabbladen worden weergegeven, moeten we het bijgewerkte bestand opslaan
 workbook.Save(dataDir + "output.xls");
 ```
 
-Het bestand wordt opgeslagen met de naam`output.xls` in de eerder opgegeven directory. U kunt ook een andere naam of bestandsindeling kiezen (zoals`.xlsx`) indien nodig.
+ Het bestand wordt opgeslagen met de naam`output.xls` in de eerder opgegeven directory. U kunt ook een andere naam of bestandsindeling kiezen (zoals`.xlsx`) indien nodig.
 
 ## Conclusie
 
@@ -80,7 +80,7 @@ En daar heb je het! Je hebt de tabbladen in een Excel-spreadsheet succesvol weer
 ## Veelgestelde vragen
 
 ### Kan ik de tabbladen in Excel verbergen met Aspose.Cells voor .NET?
- Absoluut! Gewoon instellen`workbook.Settings.ShowTabs = false;` en sla het bestand op. Hierdoor worden de tabbladen verborgen wanneer de werkmap wordt geopend.
+ Absoluut! Gewoon instellen`workbook.Settings.ShowTabs = false;`en sla het bestand op. Hierdoor worden de tabbladen verborgen wanneer de werkmap wordt geopend.
 
 ### Ondersteunt Aspose.Cells andere Excel-functies zoals grafieken en draaitabellen?
 Ja, Aspose.Cells is een uitgebreide bibliotheek die vrijwel alle Excel-functies ondersteunt, waaronder grafieken, draaitabellen, formules en meer.
@@ -92,4 +92,4 @@ Nee, Aspose.Cells heeft geen Microsoft Excel of andere software nodig. Het werkt
 Ja, Aspose.Cells ondersteunt het converteren van Excel-bestanden naar verschillende formaten, zoals PDF, HTML, CSV en meer.
 
 ### Is er een gratis proefversie voor Aspose.Cells?
- Ja, u kunt een[gratis proefperiode hier](https://releases.aspose.com/) om alle functies van Aspose.Cells te ontdekken voordat u tot aankoop overgaat.
+ Ja, u kunt een[gratis proefperiode hier](https://releases.aspose.com/) om alle functies van Aspose.Cells te verkennen voordat u tot aankoop overgaat.

@@ -132,7 +132,7 @@ Dadurch erhalten Sie die Rückmeldung, dass Ihr Vorgang erfolgreich war, was imm
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich eine neue digitale Signatur zu einer bereits signierten Excel-Datei hinzugefügt, indem Sie Aspose.Cells für .NET verwenden. Digitale Signaturen sind eine leistungsstarke Methode, um die Authentizität Ihrer Dokumente sicherzustellen, und jetzt wissen Sie, wie Sie sie programmgesteuert verwalten können. Ganz gleich, ob Sie an Finanzdokumenten, Verträgen oder vertraulichen Informationen arbeiten, die Implementierung digitaler Signaturen kann die Sicherheit und das Vertrauen erhöhen.
+Und da haben Sie es! Sie haben erfolgreich eine neue digitale Signatur zu einer bereits signierten Excel-Datei hinzugefügt, indem Sie Aspose.Cells für .NET verwenden. Digitale Signaturen sind eine leistungsstarke Methode, um die Authentizität Ihrer Dokumente sicherzustellen, und jetzt wissen Sie, wie Sie sie programmgesteuert verwalten können. Unabhängig davon, ob Sie an Finanzdokumenten, Verträgen oder vertraulichen Informationen arbeiten, kann die Implementierung digitaler Signaturen die Sicherheit und das Vertrauen verbessern.
 
 ## Häufig gestellte Fragen
 

@@ -93,7 +93,7 @@ Ja, u kunt dynamische Excel-rapporten integreren met verschillende gegevensbronn
 
 ### 3. Hoe vaak moet ik gegevens in een dynamisch rapport vernieuwen?
 
-De frequentie van data refresh hangt af van uw specifieke use case. U kunt geautomatiseerde refresh-intervallen instellen of handmatige updates activeren op basis van uw vereisten.
+De frequentie van data refresh is afhankelijk van uw specifieke use case. U kunt geautomatiseerde refresh-intervallen instellen of handmatige updates activeren op basis van uw vereisten.
 
 ### 4. Zijn er beperkingen aan de grootte van dynamische rapporten?
 

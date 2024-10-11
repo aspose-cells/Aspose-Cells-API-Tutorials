@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- 교체를 꼭 해주세요`"YOUR SOURCE DIRECTORY"` 그리고`"YOUR OUTPUT DIRECTORY"`머신에 실제 경로가 있습니다. 걸작을 만들기 전에 깔끔한 작업 공간을 만드는 것으로 생각하세요!
+ 교체를 꼭 해주세요`"YOUR SOURCE DIRECTORY"` 그리고`"YOUR OUTPUT DIRECTORY"` 머신에 실제 경로가 있습니다. 걸작을 만들기 전에 깔끔한 작업 공간을 만드는 것으로 생각하세요!
 
 ## 2단계: 빈 통합 문서 만들기
 
@@ -89,7 +89,7 @@ wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- 여기에서 출력 파일은 지정된 출력 디렉토리에 이름으로 저장됩니다.`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. 이제 여러분의 노고가 마침내 보상을 받고, 여러분의 통합 문서가 잘 보호된다는 사실을 알면서 다른 사람들과 공유할 수 있습니다!
+ 여기에서 출력 파일은 지정된 출력 디렉토리에 이름으로 저장됩니다.`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`이제 여러분의 노고가 마침내 보상을 받고, 여러분의 통합 문서가 잘 보호된다는 사실을 알면서 다른 사람들과 공유할 수 있습니다!
 
 ## 결론
 
@@ -110,4 +110,4 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 물론입니다! Aspose.Cells는 .NET을 사용하여 데스크톱과 웹 애플리케이션에서 모두 원활하게 작동합니다.
 
 ### 지원이 필요하면 어떻게 해야 하나요?  
- 질문과 문제 해결을 위해 Aspose 커뮤니티가 매우 유용합니다.[지원 포럼](https://forum.aspose.com/c/cells/9) 도움이 필요하면.
+질문과 문제 해결을 위해 Aspose 커뮤니티가 매우 유용합니다.[지원 포럼](https://forum.aspose.com/c/cells/9) 도움이 필요하면.

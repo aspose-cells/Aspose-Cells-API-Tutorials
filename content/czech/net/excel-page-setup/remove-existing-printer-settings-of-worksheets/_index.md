@@ -71,7 +71,7 @@ Workbook wb = new Workbook(sourceDir + "sampleRemoveExistingPrinterSettingsOfWor
 
 Tento řádek otevře soubor Excel a připraví jej na úpravy.
 
-## Krok 3: Získejte počet listů
+## Krok 3: Získejte počet pracovních listů
 
 Nyní, když máme náš sešit, pojďme zjistit, kolik listů obsahuje:
 
@@ -141,7 +141,7 @@ A stejně tak se váš nový soubor, bez jakýchkoli starých nastavení tiskár
 
 ## Závěr
 
-A tady to máte! Pomocí Aspose.Cells for .NET jste úspěšně prošli všemi výhodami odebrání nastavení tiskárny z listů aplikace Excel. Je úžasné, jak jen pár řádků kódu dokáže uklidit vaše dokumenty a výrazně zrychlit proces tisku, že? Pamatujte, že s velkou mocí (jako u Aspose.Cells) přichází velká zodpovědnost – proto vždy svůj kód před nasazením v produkčním prostředí otestujte.
+A tady to máte! Pomocí Aspose.Cells for .NET jste úspěšně prošli všemi výhodami odebrání nastavení tiskárny z listů aplikace Excel. Je docela úžasné, jak jen pár řádků kódu dokáže uklidit vaše dokumenty a výrazně zjednodušit váš tisk, že? Pamatujte, že s velkou mocí (jako u Aspose.Cells) přichází velká zodpovědnost – proto vždy svůj kód před nasazením v produkčním prostředí otestujte.
 
 ## FAQ
 

@@ -15,7 +15,7 @@ Nel mondo frenetico di oggi, gestire i dati in modo sicuro è fondamentale sia p
 
 Prima di addentrarci nei dettagli del codice, ecco alcune cose che devi avere pronte:
 
-1. Aspose.Cells per .NET: Scarica e installa l'ultima versione di Aspose.Cells per .NET da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells per .NET: Scarica e installa l'ultima versione di Aspose.Cells per .NET da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: un ambiente di sviluppo impostato per .NET. Le opzioni più diffuse includono Visual Studio o JetBrains Rider.
 3. Nozioni di base di C#: anche se ti guideremo passo dopo passo attraverso il codice, avere una conoscenza di base della programmazione C# ti aiuterà ad afferrare i concetti più rapidamente.
 4. Directory dei documenti: assicurati di aver impostato una directory in cui archiviare i file Excel per i test.
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Passaggio 2: carica la tua cartella di lavoro
 
- Successivamente, vorrai caricare la cartella di lavoro di Excel in cui intendi bloccare le celle. Questo viene fatto creando un'istanza di`Workbook` classe e indirizzandola al file Excel desiderato.
+Successivamente, vorrai caricare la cartella di lavoro di Excel in cui intendi bloccare le celle. Questo viene fatto creando un'istanza di`Workbook` classe e indirizzandola al file Excel desiderato.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -112,4 +112,4 @@ Se dimentichi la password, non potrai più rimuovere la protezione dal foglio di
  Assolutamente! Puoi sbloccare le celle impostando`IsLocked` proprietà a`false` e rimuovendo la protezione.
 
 ### Aspose.Cells è gratuito?
- Aspose.Cells offre una prova gratuita per gli utenti. Tuttavia, per un uso continuativo, è necessario acquistare una licenza. Visita il[Pagina di acquisto Aspose](https://purchase.aspose.com/buy) per maggiori dettagli.
+Aspose.Cells offre una prova gratuita per gli utenti. Tuttavia, per un uso continuativo, è necessario acquistare una licenza. Visita il[Pagina di acquisto Aspose](https://purchase.aspose.com/buy) per maggiori dettagli.

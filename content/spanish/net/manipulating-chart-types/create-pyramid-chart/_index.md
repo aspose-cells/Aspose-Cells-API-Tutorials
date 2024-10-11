@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 A continuación, vamos a crear una nueva instancia de un libro de trabajo. Piense en un libro de trabajo como si fuera un lienzo en blanco donde puede pintar sus datos.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

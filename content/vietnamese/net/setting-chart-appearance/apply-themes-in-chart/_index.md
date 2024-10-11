@@ -77,7 +77,7 @@ Trong trường hợp này, chúng ta chỉ cần lấy worksheet đầu tiên, 
 Với bảng tính trong tay, chúng ta có thể truy cập vào biểu đồ mà chúng ta muốn định dạng.
 
 ```csharp
-// Lấy biểu đồ đầu tiên trong trang tính
+//Lấy biểu đồ đầu tiên trong trang tính
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -102,7 +102,7 @@ Dòng mã này đảm bảo rằng chuỗi đầu tiên trong biểu đồ đư�
 // Lấy CellsColor của SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-// Tạo chủ đề theo phong cách Accent
+//Tạo chủ đề theo phong cách Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

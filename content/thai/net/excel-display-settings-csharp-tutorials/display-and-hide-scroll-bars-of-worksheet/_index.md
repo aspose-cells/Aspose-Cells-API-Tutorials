@@ -45,7 +45,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- แทนที่`YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ Excel ของคุณ ซึ่งจะทำให้โปรแกรมของคุณค้นหาไฟล์ที่จำเป็นเพื่อจัดการได้
+ แทนที่`YOUR DOCUMENT DIRECTORY`ด้วยเส้นทางจริงที่จัดเก็บไฟล์ Excel ของคุณ ซึ่งจะทำให้โปรแกรมของคุณค้นหาไฟล์ที่จำเป็นเพื่อจัดการได้
 
 ## ขั้นตอนที่ 2: สร้างสตรีมไฟล์
 
@@ -56,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- การ`FileStream`คลาสนี้ช่วยให้คุณสามารถอ่านและเขียนไฟล์ได้ ในกรณีนี้ เราจะเปิดไฟล์ Excel ในโหมดอ่าน
+ การ`FileStream` คลาสนี้ช่วยให้คุณสามารถอ่านและเขียนไฟล์ได้ ในกรณีนี้ เราจะเปิดไฟล์ Excel ในโหมดอ่าน
 
 ## ขั้นตอนที่ 3: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
@@ -123,7 +123,7 @@ fstream.Close();
  ใช่แล้ว! คุณเพียงแค่ต้องตั้งค่า`IsVScrollBarVisible` และ`IsHScrollBarVisible` กลับไปที่`true`.
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?  
- Aspose.Cells ไม่ฟรีทั้งหมด แต่คุณสามารถลองใช้ฟรีได้เป็นเวลาจำกัดหรือพิจารณาซื้อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ไม่ฟรีทั้งหมด แต่คุณสามารถลองใช้ฟรีได้เป็นเวลาจำกัดหรือพิจารณาซื้อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
 
 ### ฉันสามารถจัดการไฟล์ Excel ประเภทใดได้บ้างด้วย Aspose.Cells?  
 คุณสามารถทำงานกับรูปแบบ Excel ต่างๆ ได้ รวมถึง .xls, .xlsx, .xlsm, .xlsb เป็นต้น

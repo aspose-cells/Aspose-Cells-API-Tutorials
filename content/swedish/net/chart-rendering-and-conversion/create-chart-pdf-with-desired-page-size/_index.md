@@ -1,6 +1,6 @@
 ---
-title: Skapa diagram-PDF med önskad sidstorlek
-linktitle: Skapa diagram-PDF med önskad sidstorlek
+title: Skapa diagram PDF med önskad sidstorlek
+linktitle: Skapa diagram PDF med önskad sidstorlek
 second_title: Aspose.Cells .NET Excel Processing API
 description: Skapa en PDF med ditt Excel-diagram med Aspose.Cells för .NET. Lär dig hur med denna steg-för-steg-guide.
 type: docs

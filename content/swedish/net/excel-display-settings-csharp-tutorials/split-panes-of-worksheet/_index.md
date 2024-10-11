@@ -15,7 +15,7 @@ url: /sv/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 
 Innan vi börjar dela upp rutor som en kalkylbladsguide, låt oss göra rätt inställningar. Här är vad du behöver:
 
--  Aspose.Cells för .NET: Se till att du har laddat ner och installerat det. Om du inte har det ännu, ta den[här](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells för .NET: Se till att du har laddat ner och installerat det. Om du inte har gjort det ännu, ta den[här](https://releases.aspose.com/cells/net/).
 - .NET Framework: Den här guiden förutsätter att du arbetar i en .NET-miljö.
 - En Excel-arbetsbok: Vi använder ett exempel på en Excel-fil för att visa hur den här funktionen fungerar.
 -  En tillfällig eller fullständig licens: Aspose.Cells kräver en licens. Om du bara provar det, skaffa en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license/) för att undvika utvärderingsbegränsningar.
@@ -38,14 +38,14 @@ Nu när vi har täckt det väsentliga, låt oss gå vidare till den spännande d
 Innan vi kan dela upp rutor behöver vi en arbetsbok att arbeta med! Detta steg är lika viktigt som att öppna en bok innan du börjar läsa den.
 
 ```csharp
-//Sökvägen till dokumentkatalogen
+// Sökvägen till dokumentkatalogen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Instantiera en ny arbetsbok och öppna en mallfil
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- I koden ovan, ersätt`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där din Excel-fil finns. De`Workbook` klass laddar Excel-filen i minnet.
+ I koden ovan, ersätt`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där din Excel-fil finns. De`Workbook`klass laddar Excel-filen i minnet.
 
 ## Steg 2: Ställ in den aktiva cellen
 
@@ -84,7 +84,7 @@ Vad hjälper allt ditt hårda arbete om du inte sparar det? Spara säkerställer
 book.Save(dataDir + "output.xls");
 ```
 
- Här, den`Save()`metod sparar arbetsboken med dina nyligen delade rutor till en utdata Excel-fil. Ändringarna du gjort är nu redo för dig – eller någon annan – att använda.
+ Här, den`Save()` metod sparar arbetsboken med dina nyligen delade rutor till en utdata Excel-fil. Ändringarna du gjort är nu redo för dig – eller någon annan – att använda.
 
 ## Slutsats
 

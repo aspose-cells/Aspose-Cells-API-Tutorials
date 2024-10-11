@@ -41,7 +41,7 @@ public class DataValidationDemo {
         Worksheet worksheet = workbook.getWorksheets().get(0);
         // Lägg till regel för datavalidering här
         // ...
-        // Ställ in felmeddelande för valideringsregeln
+        // Ange felmeddelande för valideringsregeln
         DataValidation validation = worksheet.getValidations().get(0);
         validation.setErrorTitle("Invalid Data");
         validation.setErrorMessage("Please enter a valid value.");

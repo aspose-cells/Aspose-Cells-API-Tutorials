@@ -15,7 +15,7 @@ Při práci se soubory Excel hrají záhlaví a zápatí zásadní roli při pos
 
 Než se ponoříte do skutečného kódu, musíte mít připraveno několik věcí:
 
-1. Knihovna Aspose.Cells for .NET: Ujistěte se, že máte ve svém prostředí .NET nainstalovanou knihovnu Aspose.Cells. Pokud ho ještě nemáte, můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
+1.  Knihovna Aspose.Cells for .NET: Ujistěte se, že máte ve svém prostředí .NET nainstalovanou knihovnu Aspose.Cells. Pokud ho ještě nemáte, můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 2. Visual Studio nebo jakékoli jiné IDE: K psaní a spouštění kódu C# budete potřebovat integrované vývojové prostředí.
 3.  Ukázkový obrázek: Připravte si obrázek, který chcete vložit do záhlaví nebo zápatí. Pro náš příklad použijeme logo společnosti tzv`aspose-logo.jpg`.
 4. Základní znalost C#: I když to není povinné, porozumění C# vám usnadní sledování tohoto návodu.
@@ -95,7 +95,7 @@ S binárními daty obrázku je nyní můžeme vložit do záhlaví.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Tento řádek umístí obrázek do střední části záhlaví. Parametr`1` určuje sekci záhlaví.
+ Tento řádek umístí obrázek do střední části záhlaví. Parametr`1`určuje sekci záhlaví.
 
 ## Krok 7: Nastavení obsahu záhlaví
 
@@ -142,7 +142,7 @@ Aspose.Cells podporuje různé formáty, včetně JPEG, PNG, BMP, GIF a TIFF.
 Ano, do různých částí záhlaví nebo zápatí můžete vložit samostatné obrázky pomocí různých zástupných symbolů.
 
 ### Je Aspose.Cells zdarma?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plný přístup a další funkce je k dispozici licencovaná verze. Můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells nabízí bezplatnou zkušební verzi, ale je k dispozici licencovaná verze pro plný přístup a další funkce. Můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/).
 
 ### Jak mohu vyřešit problémy s nezobrazováním obrázků?
 Ujistěte se, že cesta k obrázku je správná a soubor existuje. Zkontrolujte také kompatibilitu formátu obrázku.

@@ -16,7 +16,7 @@ Excel ドキュメントをプログラムで作成およびカスタマイズ�
 コードに進む前に、適切に設定されていることを確認しましょう。開始するために必要なものは次のとおりです。
 
 1. Visual Studio または任意の .NET IDE: Visual Studio のような動作する IDE があることを確認します。これが、コーディングの魔法が起こる遊び場になります。
-2. Aspose.Cells for .NET パッケージ: まだダウンロードしていない場合は、Aspose.Cells ライブラリをダウンロードしてインストールする必要があります。最新バージョンは、[Aspose.Cells ダウンロード ページ](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET パッケージ: まだダウンロードしていない場合は、Aspose.Cells ライブラリをダウンロードしてインストールする必要があります。最新バージョンは、[Aspose.Cells ダウンロード ページ](https://releases.aspose.com/cells/net/).
 3. C# の基礎知識: コードの説明は行いますが、C# に精通しているとニュアンスをより深く理解するのに役立ちます。
 4. .NET Framework へのアクセス: プロジェクトが互換性のあるバージョンの .NET Framework をターゲットにするように設定されていることを確認します。
 

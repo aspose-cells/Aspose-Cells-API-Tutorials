@@ -43,7 +43,7 @@ Avant toute chose, spécifiez le chemin d'accès à votre répertoire de documen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel. Cette étape prépare le terrain pour accéder à vos fichiers Excel de manière transparente.
+ Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel. Cette étape permet d'accéder en toute transparence à vos fichiers Excel.
 
 ## Étape 2 : Créer un flux de fichiers pour le fichier Excel
 
@@ -103,7 +103,7 @@ Enfin, vous devez vous assurer de fermer le flux de fichiers afin que toutes les
 fstream.Close();
 ```
 
- Fermeture de la`fstream` est crucial car il garantit qu'aucune fuite de mémoire ou aucun verrou de fichier ne reste ouvert dans votre application.
+ Fermeture de la`fstream`est crucial car il garantit qu'aucune fuite de mémoire ou aucun verrou de fichier ne reste ouvert dans votre application.
 
 ## Conclusion
 
@@ -121,7 +121,7 @@ Aspose.Cells est une puissante bibliothèque .NET pour la gestion des feuilles d
  Bien que vous puissiez utiliser une version d'essai gratuite, une licence est requise pour une utilisation commerciale continue. Vous pouvez trouver les options d'achat[ici](https://purchase.aspose.com/buy).
 
 ### Existe-t-il un support disponible pour Aspose.Cells ?  
- Oui, Aspose fournit une assistance via ses forums, auxquels vous pouvez accéder[ici](https://forum.aspose.com/c/cells/9).
+Oui, Aspose fournit une assistance via ses forums, auxquels vous pouvez accéder[ici](https://forum.aspose.com/c/cells/9).
 
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Cells ?  
-Vous pouvez demander une licence temporaire à des fins d'évaluation à[ce lien](https://purchase.aspose.com/temporary-license/).
+ Vous pouvez demander une licence temporaire à des fins d'évaluation à[ce lien](https://purchase.aspose.com/temporary-license/).

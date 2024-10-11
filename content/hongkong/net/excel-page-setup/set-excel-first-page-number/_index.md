@@ -104,7 +104,7 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個 .NET 函式庫，設計用於建立、操作和轉換 Excel 文件，而無需在電腦上安裝 Microsoft Excel。
+Aspose.Cells 是一個 .NET 函式庫，旨在建立、操作和轉換 Excel 文件，而無需在電腦上安裝 Microsoft Excel。
 
 ### 如何下載 Aspose.Cells？
 您可以從以下位置下載 Aspose.Cells[網站](https://releases.aspose.com/cells/net/).

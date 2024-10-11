@@ -112,7 +112,7 @@ C'est ici que vous donnez un titre à votre œuvre. Cela permet aux spectateurs 
 Maintenant, nous allons déterminer comment l'étiquette est positionnée par rapport au graphique. Ici, nous allons la définir comme flottante, ce qui signifie qu'elle peut être déplacée indépendamment des éléments du graphique.
 
 ```csharp
-//Définissez le type de placement, la manière dont l'étiquette est attachée aux cellules.
+// Définissez le type de placement, la manière dont l'étiquette est attachée aux cellules.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Et voilà ! Vous avez ajouté avec succès un contrôle d'étiquette à un grap
 Oui ! Vous pouvez modifier la police, la couleur, la taille et d'autres propriétés de l'étiquette en fonction de vos besoins.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells est un produit payant ; cependant, vous pouvez commencer avec un[essai gratuit](https://releases.aspose.com/) pour explorer ses fonctionnalités.
+ Aspose.Cells est un produit payant ; cependant, vous pouvez commencer avec un[essai gratuit](https://releases.aspose.com/)pour explorer ses fonctionnalités.
 
 ### Que faire si je souhaite ajouter plusieurs étiquettes ?
 Vous pouvez répéter les étapes d'ajout d'étiquettes autant de fois que nécessaire, chacune avec des positions et des textes différents.

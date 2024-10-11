@@ -46,7 +46,7 @@ Než budete moci manipulovat s jakýmkoli souborem aplikace Excel, musíte urči
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- V tomto kroku přiřadíte umístění souboru aplikace Excel do`dataDir`řetězec. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jste`.xls` soubor se nachází.
+ V tomto kroku přiřadíte umístění souboru aplikace Excel do`dataDir` řetězec. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jste`.xls` soubor se nachází.
 
 ## Krok 2: Vytvořte stream souborů
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Soubory aplikace Excel obvykle obsahují více listů. V tomto tutoriálu přistupujeme k prvnímu listu v sešitu.
 
 ```csharp
-// Přístup k prvnímu listu v souboru aplikace Excel
+//Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Nyní přichází ta zábavná část – skrytí mřížky! Pomocí jediného řádku kódu můžete přepínat viditelnost mřížky.
 
 ```csharp
-// Skrytí čar mřížky prvního listu souboru Excel
+//Skrytí čar mřížky prvního listu souboru Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Uzavření datového proudu souborů je zásadní, protože zajistí, že všech
 
 ## Závěr
 
- A to je zábal! Právě jste se naučili, jak zobrazit a skrýt mřížku v listu aplikace Excel pomocí Aspose.Cells for .NET. Ať už upravujete sestavu nebo předkládáte data v čitelnějším formátu, tato jednoduchá technika může výrazně ovlivnit vzhled vašich tabulek. Nejlepší část? K provedení velkých změn stačí pár řádků kódu. Pokud jste připraveni to vyzkoušet, nezapomeňte si vzít[zkušební verze zdarma](https://releases.aspose.com/) a začněte kódovat!
+ to je zábal! Právě jste se naučili, jak zobrazit a skrýt mřížku v listu aplikace Excel pomocí Aspose.Cells for .NET. Ať už upravujete sestavu nebo předkládáte data v čitelnějším formátu, tato jednoduchá technika může výrazně ovlivnit vzhled vašich tabulek. Nejlepší část? K provedení velkých změn stačí pár řádků kódu. Pokud jste připraveni to vyzkoušet, nezapomeňte si vzít[zkušební verze zdarma](https://releases.aspose.com/) a začněte kódovat!
 
 ## FAQ
 

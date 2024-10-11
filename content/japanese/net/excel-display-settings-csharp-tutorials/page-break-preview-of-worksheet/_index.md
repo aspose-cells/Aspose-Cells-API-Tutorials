@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## ステップ4: ワークシートにアクセスする
 
 ```csharp
-// Excelファイルの最初のワークシートにアクセスする
+//Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

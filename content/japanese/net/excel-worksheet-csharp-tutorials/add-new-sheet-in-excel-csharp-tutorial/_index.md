@@ -15,7 +15,7 @@ url: /ja/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 
 コーディングを始める前に、このプロジェクトに必要なものがすべて揃っていることを確認しましょう。
 
-1. Visual Studio: Visual Studioがインストールされていることを確認してください。まだインストールしていない場合は、[マイクロソフトのウェブサイト](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Visual Studioがインストールされていることを確認してください。まだインストールしていない場合は、[マイクロソフトのウェブサイト](https://visualstudio.microsoft.com/).
 2.  Aspose.Cellsライブラリ: Aspose.Cells for .NETライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
 3. .NET Framework: プロジェクトが互換性のあるバージョンの .NET Framework 用に設定されていることを確認します (通常は .NET Framework 4.0 以上が適切に動作します)。
 4. 基本的な C# の知識: C# とオブジェクト指向プログラミングに精通していると、コードをよりよく理解できるようになります。
@@ -73,11 +73,11 @@ Workbook workbook = new Workbook();
 ワークブックの準備ができたので、新しいシートを追加しましょう。
 
 ```csharp
-//Workbook オブジェクトに新しいワークシートを追加する
+// Workbook オブジェクトに新しいワークシートを追加する
 int i = workbook.Worksheets.Add();
 ```
 
-ここでは、`Add()`方法の`Worksheets`コレクション内に存在する`Workbook`クラス。メソッドはインデックス（`i`) を実行します。ノートブックにページを追加するのと同じように、シンプルで効率的です。
+ここでは、`Add()`方法の`Worksheets`コレクション内に存在する`Workbook`クラス。メソッドはインデックス（`i`を実行します。ノートブックにページを追加するのと同じように、シンプルで効率的です。
 
 ## ステップ4: 新しいワークシートに名前を付ける
 

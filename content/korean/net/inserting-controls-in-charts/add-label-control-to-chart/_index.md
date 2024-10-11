@@ -112,7 +112,7 @@ label.Text = "A Label In Chart";
 이제 차트와 관련하여 레이블을 어떻게 배치할지 결정해 보겠습니다. 여기서는 레이블을 자유 부동으로 설정하여 차트 요소와 독립적으로 이동할 수 있도록 합니다.
 
 ```csharp
-//레이블이 셀에 부착되는 방식인 배치 유형을 설정합니다.
+// 레이블이 셀에 부착되는 방식인 배치 유형을 설정합니다.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
@@ -149,7 +149,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 네! 귀하의 필요에 맞게 레이블의 글꼴, 색상, 크기 및 기타 속성을 변경할 수 있습니다.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
- Aspose.Cells는 유료 제품이지만 다음부터 시작할 수 있습니다.[무료 체험](https://releases.aspose.com/) 그 기능을 알아보세요.
+ Aspose.Cells는 유료 제품이지만 다음부터 시작할 수 있습니다.[무료 체험](https://releases.aspose.com/)그 기능을 알아보세요.
 
 ### 여러 개의 라벨을 추가하려면 어떻게 해야 하나요?
 필요한 만큼 라벨 추가 단계를 반복할 수 있으며, 각 단계는 위치와 텍스트를 다르게 할 수 있습니다.

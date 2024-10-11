@@ -119,7 +119,7 @@ Xades（XML 高级电子签名）是一种数字签名标准，它提供了确�
 当然！你可以从[Aspose 网站](https://releases.aspose.com/).
 
 ### Aspose.Cells 是否与所有版本的.NET 兼容？
-Aspose.Cells 支持 .NET 框架的各种版本。检查[文档](https://reference.aspose.com/cells/net/)了解兼容性详细信息。
+ Aspose.Cells 支持 .NET 框架的各种版本。检查[文档](https://reference.aspose.com/cells/net/)了解兼容性详细信息。
 
 ### 如果我遇到问题，可以在哪里获得支持？
 您可以访问[Aspose 论坛](https://forum.aspose.com/c/cells/9)寻求社区的支持和援助。

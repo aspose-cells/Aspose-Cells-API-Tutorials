@@ -88,7 +88,7 @@ A B3 cellában "5" lesz, mivel az "Excel"-ben 5 karakter található.
 Cell cell = worksheet.getCells().get("A4");
 cell.putValue("java programming");
 
-// Átalakítás nagybetűssé
+// Átalakítás nagybetűsre
 cell = worksheet.getCells().get("B4");
 cell.setFormula("=UPPER(A4)");
 
@@ -121,7 +121,7 @@ cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 workbook.calculateFormula();
 ```
 
-A B5 cellában a „9” lesz (a „for”) helye, a C5 cellában pedig a „Keressen velem”.
+A B5 cellában a "9" lesz (a "for" pozíciója), a C5 cellában pedig a "Keressen velem".
 
 ## Következtetés
 

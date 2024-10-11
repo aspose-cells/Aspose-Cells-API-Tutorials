@@ -78,10 +78,10 @@ Esta linha de código preparará seu arquivo Excel para edição.
 
 ## Etapa 3: Instanciar o objeto Workbook
 
- O`Workbook`object é o coração da sua funcionalidade Aspose.Cells. Ele representa seu arquivo Excel de uma forma gerenciável.
+ O`Workbook` object é o coração da sua funcionalidade Aspose.Cells. Ele representa seu arquivo Excel de uma forma gerenciável.
 
 ```csharp
-// Instanciando um objeto Workbook
+//Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Com a pasta de trabalho agora na memória, é hora de acessar a planilha específica que você quer modificar. Na maioria dos casos, essa será a primeira planilha (índice 0).
 
 ```csharp
-// Acessando a primeira planilha no arquivo Excel
+//Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -108,7 +108,7 @@ Agora vem a mágica! Você pode definir o nível de zoom da planilha usando a se
 worksheet.Zoom = 75;
 ```
 
-fator de zoom pode ser ajustado em qualquer lugar de 10 a 400, permitindo que você amplie ou reduza de acordo com suas necessidades. Um fator de zoom de 75 significa que os usuários verão 75% do tamanho original, facilitando a visualização de dados sem rolagem excessiva.
+O fator de zoom pode ser ajustado em qualquer lugar de 10 a 400, permitindo que você amplie ou reduza de acordo com suas necessidades. Um fator de zoom de 75 significa que os usuários verão 75% do tamanho original, facilitando a visualização de dados sem rolagem excessiva.
 
 ## Etapa 6: Salve o arquivo Excel modificado
 

@@ -19,7 +19,7 @@ Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã thiết l
 - Trước tiên và quan trọng nhất, bạn sẽ cần Visual Studio. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ trang web của Microsoft.
 
 ### Thư viện Aspose.Cells
-- Công cụ thiết yếu tiếp theo là thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/) để tải xuống. Nếu bạn muốn thử nghiệm trước khi mua, cũng có một[có bản dùng thử miễn phí](https://releases.aspose.com/).
+-  Công cụ thiết yếu tiếp theo là thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/) để tải xuống. Nếu bạn muốn thử nghiệm trước khi mua, cũng có một[có bản dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Hiểu biết cơ bản về C#
 - Vì chúng ta sẽ viết một số mã, nên hiểu biết cơ bản về C# sẽ có lợi. Đừng lo lắng; Tôi sẽ giải thích mọi thứ khi chúng ta thực hiện!
@@ -64,13 +64,13 @@ Bây giờ chúng ta đã thiết lập xong, hãy cùng đi sâu vào phần m�
 
 Trước khi đến phần thú vị, chúng ta cần xác định nơi chúng ta muốn lưu tệp. Bạn sẽ muốn cung cấp đường dẫn thư mục đầu ra.
 ```csharp
-string outputDir = "C:\\YourOutputDirectory\\"; //Thay đổi đến thư mục bạn chỉ định
+string outputDir = "C:\\YourOutputDirectory\\"; // Thay đổi đến thư mục bạn chỉ định
 ```
  Hãy chắc chắn thay thế`"C:\\YourOutputDirectory\\"` với đường dẫn mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như việc thiết lập không gian làm việc của bạn; bạn cần biết mình sẽ đặt các công cụ của mình ở đâu (hoặc trong trường hợp này là tệp Excel của bạn).
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Tiếp theo, chúng ta đang tạo một phiên bản của`Workbook` lớp học. Đây là nơi diễn ra mọi công việc của chúng tôi.
+Tiếp theo, chúng ta đang tạo một phiên bản của`Workbook` lớp học. Đây là nơi diễn ra mọi công việc của chúng tôi.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -137,7 +137,7 @@ Aspose.Cells là một thư viện mạnh mẽ để tạo và thao tác các t�
 Hoàn toàn không! Như đã trình bày trong hướng dẫn này, điều này có thể thực hiện chỉ bằng một vài dòng mã đơn giản.
 
 ### Tôi có thể mua Aspose.Cells ở đâu?  
-Bạn có thể mua Aspose.Cells từ[liên kết mua hàng](https://purchase.aspose.com/buy).
+ Bạn có thể mua Aspose.Cells từ[liên kết mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?  
  Aspose cung cấp diễn đàn hỗ trợ nơi bạn có thể đặt câu hỏi và tìm giải pháp. Hãy xem[trang hỗ trợ](https://forum.aspose.com/c/cells/9).

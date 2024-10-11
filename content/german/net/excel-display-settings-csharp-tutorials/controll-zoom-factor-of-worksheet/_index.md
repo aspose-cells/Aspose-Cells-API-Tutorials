@@ -78,10 +78,10 @@ Diese Codezeile bereitet Ihre Excel-Datei für die Bearbeitung vor.
 
 ## Schritt 3: Instanziieren des Arbeitsmappenobjekts
 
- Der`Workbook`Objekt ist das Herzstück Ihrer Aspose.Cells-Funktionalität. Es stellt Ihre Excel-Datei auf überschaubare Weise dar.
+ Der`Workbook` Objekt ist das Herzstück Ihrer Aspose.Cells-Funktionalität. Es stellt Ihre Excel-Datei auf überschaubare Weise dar.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Da sich die Arbeitsmappe nun im Speicher befindet, können Sie nun auf das Arbeitsblatt zugreifen, das Sie ändern möchten. In den meisten Fällen ist dies das erste Arbeitsblatt (Index 0).
 
 ```csharp
-// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

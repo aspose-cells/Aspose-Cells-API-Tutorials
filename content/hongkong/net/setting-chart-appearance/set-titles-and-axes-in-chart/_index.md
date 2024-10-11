@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 接下來，我們需要訪問工作表，在其中輸入資料並建立圖表。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增工作表的引用
+//透過傳遞工作表索引來取得新新增的工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

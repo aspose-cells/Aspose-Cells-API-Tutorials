@@ -44,7 +44,7 @@ url: /th/net/excel-page-setup/get-page-dimensions/
 
 ### เพิ่มการใช้คำสั่ง
 
- ที่ด้านบนของคุณ`Program.cs` ไฟล์ ให้แทรกสิ่งนี้โดยใช้คำสั่งเพื่อเข้าถึงฟังก์ชันการทำงานของ Aspose.Cells:
+ ที่ด้านบนของคุณ`Program.cs`ไฟล์ ให้แทรกสิ่งนี้โดยใช้คำสั่งเพื่อเข้าถึงฟังก์ชันการทำงานของ Aspose.Cells:
 
 ```csharp
 using System;

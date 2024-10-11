@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksh
 ---
 ## 介紹
 
-在資料管理方面，Microsoft Excel 是一個強大的工具，許多人依賴它來組織和分析資訊。然而，有時某些工作表需要一點謹慎——也許它們包含只有特定人員應該看到的敏感數據，或者它們可能只是讓您的用戶介面變得混亂。在這種情況下，能夠隱藏和取消隱藏工作表至關重要。幸運的是，使用 Aspose.Cells for .NET，您可以輕鬆地以程式設計方式管理 Excel 工作表！ 
+在資料管理方面，Microsoft Excel 是一個強大的工具，許多人依賴它來組織和分析資訊。然而，有時某些工作表需要一點謹慎——也許它們包含只有特定人員應該看到的敏感數據，或者它們可能只是讓您的使用者介面變得混亂。在這種情況下，能夠隱藏和取消隱藏工作表至關重要。幸運的是，使用 Aspose.Cells for .NET，您可以輕鬆地以程式設計方式管理 Excel 工作表！ 
 
 ## 先決條件
 
@@ -132,7 +132,7 @@ worksheet.IsVisible = true;
 是的，您可以循環遍歷`Worksheets`集合並設置`IsVisible`對於您想要隱藏的每張工作表，屬性設定為 false。
 
 ### Aspose.Cells 支援哪些檔案格式？
- Aspose.Cells 支援多種格式，包括 XLS、XLSX、CSV 等。您可以查看完整列表[這裡](https://reference.aspose.com/cells/net/).
+Aspose.Cells 支援多種格式，包括 XLS、XLSX、CSV 等。您可以查看完整列表[這裡](https://reference.aspose.com/cells/net/).
 
 ### 我需要許可證才能使用 Aspose.Cells 嗎？
 您可以從免費試用開始探索其功能。生產應用程式需要完整的許可證。尋找更多相關信息[這裡](https://purchase.aspose.com/buy).

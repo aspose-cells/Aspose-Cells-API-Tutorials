@@ -93,7 +93,7 @@ Oui, vous pouvez imbriquer plusieurs fonctions IF pour créer des conditions com
 
 ### Existe-t-il des exigences de licence pour Aspose.Cells pour Java ?
 
-Oui, Aspose.Cells for Java est une bibliothèque commerciale et vous devrez peut-être obtenir une licence pour l'utiliser dans vos applications. Visitez le site Web d'Aspose pour plus d'informations sur les licences.
+Oui, Aspose.Cells for Java est une bibliothèque commerciale et vous devrez peut-être obtenir une licence pour l'utiliser dans vos applications. Visitez le site Web d'Aspose pour obtenir des informations sur les licences.
 
 ### Puis-je appliquer la fonction SI à une plage de cellules dans Excel ?
 
@@ -101,4 +101,4 @@ Absolument ! Vous pouvez appliquer la fonction SI d'Excel à une plage de cellul
 
 ### Aspose.Cells pour Java est-il adapté aux applications de niveau entreprise ?
 
-Oui, Aspose.Cells pour Java est une bibliothèque robuste adaptée aux applications à petite et à grande échelle. Elle offre des fonctionnalités étendues pour travailler avec des fichiers Excel, ce qui en fait un outil précieux pour divers scénarios d'entreprise.
+Oui, Aspose.Cells for Java est une bibliothèque robuste adaptée aux applications à petite et à grande échelle. Elle offre des fonctionnalités étendues pour travailler avec des fichiers Excel, ce qui en fait un outil précieux pour divers scénarios d'entreprise.

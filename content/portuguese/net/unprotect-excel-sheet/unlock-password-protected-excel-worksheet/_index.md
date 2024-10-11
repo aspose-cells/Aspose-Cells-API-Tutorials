@@ -135,7 +135,7 @@ E aí está! Você desbloqueou com sucesso uma planilha do Excel protegida por s
 ### Posso desbloquear uma planilha do Excel sem uma senha?  
 Sim, você pode tentar desbloquear uma planilha protegida sem saber a senha, deixando o campo de senha em branco.
 
-### O Aspose.Cells é gratuito?  
+### Aspose.Cells é gratuito?  
  Aspose.Cells oferece um teste gratuito, mas para uso prolongado, você precisará comprar uma licença. Verifique seus[Comprar página](https://purchase.aspose.com/buy).
 
 ### Quais formatos o Aspose.Cells suporta?  

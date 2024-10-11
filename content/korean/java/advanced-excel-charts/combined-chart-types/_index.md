@@ -104,7 +104,7 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## 결론
 
-이 글에서는 Aspose.Cells for Java를 사용하여 결합된 차트 유형을 만드는 방법을 살펴보았습니다. Aspose.Cells for Java가 무엇인지 이해하는 것으로 시작한 다음, 결합된 차트를 만들고, 데이터를 추가하고, 모양을 사용자 지정하고, 저장/내보내기 위한 단계별 지침을 진행했습니다. Aspose.Cells for Java를 사용하면 Java 애플리케이션에서 데이터 시각화의 힘을 최대한 활용할 수 있습니다.
+이 글에서는 Aspose.Cells for Java를 사용하여 결합된 차트 유형을 만드는 방법을 살펴보았습니다. 먼저 Aspose.Cells for Java가 무엇인지 이해한 다음 결합된 차트를 만들고, 데이터를 추가하고, 모양을 사용자 지정하고, 저장/내보내기 위한 단계별 지침을 진행했습니다. Aspose.Cells for Java를 사용하면 Java 애플리케이션에서 데이터 시각화의 힘을 최대한 활용할 수 있습니다.
 
 ## 자주 묻는 질문
 

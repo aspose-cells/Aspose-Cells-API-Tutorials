@@ -15,7 +15,7 @@ Lorsque vous travaillez avec des fichiers Excel par programmation, que ce soit p
 
 Avant de commencer, vous devez vous assurer que vous disposez de quelques éléments :
 
-1.  Bibliothèque Aspose.Cells pour .NET : il s'agit du composant principal qui permet de manipuler les fichiers Excel. Si vous ne l'avez pas encore installé, vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
+1. Bibliothèque Aspose.Cells pour .NET : il s'agit du composant principal qui permet de manipuler les fichiers Excel. Si vous ne l'avez pas encore installé, vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 2. Environnement de développement : vous devez disposer d’un environnement de développement configuré, de préférence Visual Studio, dans lequel vous pouvez écrire et exécuter du code C#.
 3. Compréhension de base de C# : bien que j'explique chaque étape, avoir une compréhension de base de C# vous aidera à mieux suivre.
 4. Fichier Excel : vous devez avoir créé un fichier Excel (nous ferons référence à « book1.xls » dans ce tutoriel). Vous pouvez créer un fichier simple avec quelques feuilles de calcul à cet effet.
@@ -58,7 +58,7 @@ Ici, nous ouvrons « book1.xls ». Il est essentiel que ce fichier existe dans
  Ensuite, vous devrez créer un`Workbook` objet. Cet objet représente votre fichier Excel et vous permet de manipuler son contenu.
 
 ```csharp
-// Instanciation d'un objet Workbook
+//Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook workbook = new Workbook(fstream);
 ```
@@ -89,14 +89,14 @@ Vous pouvez renommer le fichier de sortie ou écraser le fichier d'origine selon
 
 ## Conclusion
 
-Et voilà ! Vous avez appris avec succès à supprimer une feuille de calcul Excel par nom à l'aide d'Aspose.Cells pour .NET. Cette puissante bibliothèque vous permet de manipuler des fichiers Excel sans effort et, grâce à ces connaissances, vous pouvez explorer davantage l'édition et la gestion de vos documents Excel pour diverses applications.
+Et voilà ! Vous avez appris avec succès à supprimer une feuille de calcul Excel par son nom à l'aide d'Aspose.Cells pour .NET. Cette puissante bibliothèque vous permet de manipuler des fichiers Excel sans effort et, grâce à ces connaissances, vous pouvez explorer davantage l'édition et la gestion de vos documents Excel pour diverses applications.
 
 N'hésitez pas à jouer avec d'autres fonctionnalités de la bibliothèque Aspose.Cells et n'hésitez pas à expérimenter des manipulations plus complexes au fur et à mesure que vous vous sentez à l'aise.
 
 ## FAQ
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells propose un essai gratuit, mais vous devrez acheter une licence pour continuer à l'utiliser. Vous pouvez obtenir votre essai gratuit[ici](https://releases.aspose.com/).
+Aspose.Cells propose un essai gratuit, mais vous devrez acheter une licence pour continuer à l'utiliser. Vous pouvez obtenir votre essai gratuit[ici](https://releases.aspose.com/).
 
 ### Puis-je supprimer plusieurs feuilles de calcul à la fois ?
 Vous pouvez parcourir la collection de feuilles de calcul et supprimer plusieurs feuilles à l'aide d'une boucle. Assurez-vous simplement de gérer correctement les index.

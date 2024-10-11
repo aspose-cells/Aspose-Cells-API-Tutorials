@@ -16,7 +16,7 @@ Beim Arbeiten mit Excel-Dateien kann die Verwaltung von Seitenumbrüchen etwas k
 Bevor wir uns in die Details des Codes vertiefen, stellen wir sicher, dass Sie alles haben, was Sie zum Starten benötigen. Hier ist eine kurze Checkliste der Voraussetzungen:
 
 1. Visual Studio: Sie benötigen eine funktionierende Installation von Visual Studio, um Ihre .NET-Anwendungen zu erstellen und auszuführen.
-2. Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Wenn Sie dies noch nicht getan haben, können Sie sie hier herunterladen:[Hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Wenn Sie dies noch nicht getan haben, können Sie sie hier herunterladen:[Hier](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, verstehen Sie die Codeausschnitte besser.
 4. Eine Excel-Datei: Halten Sie eine Excel-Datei bereit, die einige Seitenumbrüche enthält, mit denen wir experimentieren können.
 
@@ -53,14 +53,14 @@ Als Erstes müssen Sie angeben, wo Ihre Excel-Dokumente gespeichert sind. So kan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Erklärung: Ersetzen`YOUR DOCUMENT DIRECTORY` mit dem tatsächlichen Pfad zu Ihren Dateien. Von hier laden Sie Ihre Excel-Datei und speichern Ihre geänderte Excel-Datei später.
+ Erklärung: Ersetzen`YOUR DOCUMENT DIRECTORY`mit dem tatsächlichen Pfad zu Ihren Dateien. Von hier laden Sie Ihre Excel-Datei und speichern Ihre geänderte Excel-Datei später.
 
 ## Schritt 2: Instanziieren des Arbeitsmappenobjekts
 
 Als nächstes müssen wir unsere Arbeitsmappe laden. Einfacher ausgedrückt: Stellen Sie sich eine Arbeitsmappe als Ihre Excel-Datei vor.
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
@@ -105,7 +105,7 @@ Und da haben Sie es! Das Entfernen bestimmter Seitenumbrüche aus einer Excel-Da
 ## Häufig gestellte Fragen
 
 ### Kann ich mehrere Seitenumbrüche auf einmal entfernen?  
-Ja, das kannst du! Durchlaufe einfach die`HorizontalPageBreaks` Und`VerticalPageBreaks` Sammlungen und nutzen Sie die`RemoveAt` Verfahren.
+ Ja, das kannst du! Durchlaufe einfach die`HorizontalPageBreaks` Und`VerticalPageBreaks` Sammlungen und nutzen Sie die`RemoveAt` Verfahren.
 
 ### Woher weiß ich, welchen Index ich für Seitenumbrüche verwenden soll?  
 Sie können die Seitenumbrüche mithilfe einer Schleife durchlaufen, um ihre Indizes auszudrucken oder sie über den Debugger zu überprüfen.

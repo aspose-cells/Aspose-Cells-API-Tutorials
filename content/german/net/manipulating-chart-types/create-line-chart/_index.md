@@ -50,14 +50,14 @@ Der erste Schritt besteht darin, festzulegen, wo Sie Ihre Ausgabedatei speichern
 // Ausgabeverzeichnis
 string outputDir = "Your Output Directory";
 ```
- Ersetzen`"Your Output Directory"`durch den tatsächlichen Pfad, in dem Sie die generierte Excel-Datei speichern möchten.
+ Ersetzen`"Your Output Directory"` durch den tatsächlichen Pfad, in dem Sie die generierte Excel-Datei speichern möchten.
 
 ## Schritt 2: Instanziieren des Arbeitsmappenobjekts
 
 Als Nächstes müssen wir eine neue Arbeitsmappeninstanz erstellen. Stellen Sie sich die Arbeitsmappe als Leinwand vor, auf der Sie Ihrer Kreativität freien Lauf lassen können. 
 
 ```csharp
-// Instanziieren eines Workbook-Objekts
+//Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 Diese Zeile initialisiert eine neue Arbeitsmappe, die alle Ihre Daten und Grafiken enthält.
@@ -67,7 +67,7 @@ Diese Zeile initialisiert eine neue Arbeitsmappe, die alle Ihre Daten und Grafik
 In unserer neu erstellten Arbeitsmappe müssen wir einen Verweis auf das Arbeitsblatt erhalten, in das wir unsere Daten eingeben. Wenn die Arbeitsmappe unsere Leinwand ist, dann ist das Arbeitsblatt unsere Palette.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  Hier greifen wir auf das erste Arbeitsblatt zu (Index`0`).

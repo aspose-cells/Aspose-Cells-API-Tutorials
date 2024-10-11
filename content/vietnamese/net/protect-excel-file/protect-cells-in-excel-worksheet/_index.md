@@ -139,7 +139,7 @@ Dòng này lưu sổ làm việc của bạn dưới dạng tệp Excel. Hãy đ
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã học thành công cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể bảo vệ dữ liệu của mình, đảm bảo chỉ những người phù hợp mới có quyền truy cập để chỉnh sửa thông tin quan trọng. Hãy nhớ rằng, bảo vệ ô chỉ là một trong nhiều tính năng do Aspose.Cells cung cấp để giúp quản lý và thao tác các tệp Excel hiệu quả.
+Và bạn đã có nó! Bạn đã học thành công cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể bảo vệ dữ liệu của mình, đảm bảo chỉ những người phù hợp mới có quyền truy cập để chỉnh sửa thông tin quan trọng. Hãy nhớ rằng, bảo vệ ô chỉ là một trong nhiều tính năng do Aspose.Cells cung cấp để giúp quản lý và thao tác các tệp Excel một cách hiệu quả.
 
 ## Câu hỏi thường gặp
 

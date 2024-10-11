@@ -19,7 +19,7 @@ Los saltos de página son esenciales a la hora de imprimir archivos de Excel. Ay
  ¿Necesitas borrar todos los saltos de página? ¡No hay problema! Consulta nuestra guía sobre[Excel Borrar todos los saltos de página](./excel-clear-all-page-breaks/), que ofrece un proceso simple y eficaz que cualquiera puede dominar. Se trata de hacer que su flujo de trabajo sea más fluido y rápido.
 
 ## Personalización a tu alcance
- ¿Qué pasa si solo quieres eliminar ciertos saltos de página? Ahí es donde entra en juego nuestro tutorial sobre[Excel Eliminar salto de página específico](./excel-remove-specific-page-break/) entra en juego. Está diseñado para aquellos momentos en los que necesitas un control preciso sobre el diseño de tu documento. Con Aspose.Cells para .NET, tendrás el poder de personalizar tus hojas de cálculo exactamente como quieras. 
+¿Qué pasa si solo quieres eliminar ciertos saltos de página? Ahí es donde entra en juego nuestro tutorial sobre[Excel Eliminar salto de página específico](./excel-remove-specific-page-break/) entra en juego. Está diseñado para aquellos momentos en los que necesitas un control preciso sobre el diseño de tu documento. Con Aspose.Cells para .NET, tendrás el poder de personalizar tus hojas de cálculo exactamente como quieras. 
 
 ## Tutoriales 
 | Título | Descripción |

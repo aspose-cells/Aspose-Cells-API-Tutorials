@@ -55,7 +55,7 @@ Pertama, Anda perlu menentukan lokasi file Excel Anda. Di sinilah Anda akan memb
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ganti saja`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda`book1.xls` file berada. Anggap saja ini seperti memberikan alamat yang benar kepada GPS Anda sebelum memulai perjalanan!
+ Ganti saja`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda`book1.xls`file berada. Anggap saja ini seperti memberikan alamat yang benar kepada GPS Anda sebelum memulai perjalanan!
 
 ## Langkah 4: Buka File Excel dengan FileStream
 

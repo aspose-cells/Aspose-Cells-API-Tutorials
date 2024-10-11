@@ -57,7 +57,7 @@ wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-Aquí, hemos agregado dos hojas de trabajo denominadas "TestSheet1" y "TestSheet2". Esto es como crear dos páginas diferentes en su libro de trabajo donde puede administrar el contenido de forma independiente.
+Aquí, hemos agregado dos hojas de trabajo denominadas "Hoja de prueba 1" y "Hoja de prueba 2". Esto es como crear dos páginas diferentes en su libro de trabajo donde puede administrar el contenido de forma independiente.
 
 ## Paso 3: Acceda a las hojas de trabajo
 

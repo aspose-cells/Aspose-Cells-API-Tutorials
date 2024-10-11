@@ -16,7 +16,7 @@ Với thế giới kỹ thuật số liên tục phát triển, làm việc vớ
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để triển khai thành công hướng dẫn này. Sau đây là những gì bạn cần:
 
 1.  Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[đây](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells cho .NET: Bạn sẽ cần phải tích hợp Aspose.Cells cho .NET vào dự án của bạn. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/). Thư viện này rất cần thiết để làm việc với các tệp Excel và hỗ trợ nhiều chức năng khác nhau.
+2.  Aspose.Cells cho .NET: Bạn sẽ cần phải tích hợp Aspose.Cells cho .NET vào dự án của bạn. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/)Thư viện này rất cần thiết để làm việc với các tệp Excel và hỗ trợ nhiều chức năng khác nhau.
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn dễ dàng theo dõi hơn. Đừng lo lắng; chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình!
 4. Thư mục tài liệu của bạn: Đảm bảo bạn có một thư mục trên máy tính để lưu trữ các tệp Excel cho hướng dẫn này. 
 
@@ -53,14 +53,14 @@ Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tạo 
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Trong bước này, chúng ta đang mở`book1.xls`tệp này phải có trong thư mục bạn chỉ định. Hãy đảm bảo bạn có tệp này trong tay, nếu không quá trình này sẽ báo lỗi.
+ Trong bước này, chúng ta đang mở`book1.xls`, tệp này phải có trong thư mục bạn chỉ định. Hãy đảm bảo bạn có tệp này trong tay, nếu không quá trình này sẽ báo lỗi.
 
 ## Bước 3: Khởi tạo một đối tượng Workbook
 
 Tiếp theo, chúng ta cần tạo một thể hiện của lớp Workbook để chứa tệp Excel của chúng ta.
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+//Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,7 +69,7 @@ Bằng cách tạo một phiên bản sổ làm việc từ luồng tệp, giờ
 
 ## Bước 4: Thêm một bảng tính mới
 
- Đây là phần thú vị! Chúng ta hãy thêm một bảng tính mới vào sổ làm việc của chúng ta. Điều này được thực hiện bằng cách sử dụng`Add()` phương pháp từ`Worksheets` bộ sưu tập.
+Đây là phần thú vị! Chúng ta hãy thêm một bảng tính mới vào sổ làm việc của chúng ta. Điều này được thực hiện bằng cách sử dụng`Add()` phương pháp từ`Worksheets`bộ sưu tập.
 
 ```csharp
 // Thêm một trang tính mới vào đối tượng Workbook
@@ -87,7 +87,7 @@ Sau khi tạo bảng tính mới, điều quan trọng là phải có tham chi�
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
-Ở đây, chúng tôi đang sử dụng chỉ mục`i` để tham chiếu đến bảng tính mới tạo của chúng tôi. Điều này cho phép chúng tôi thao tác nó xa hơn.
+ Ở đây, chúng tôi đang sử dụng chỉ mục`i` để tham chiếu đến bảng tính mới tạo của chúng tôi. Điều này cho phép chúng tôi thao tác nó xa hơn.
 
 ## Bước 6: Đặt tên cho trang tính mới
 

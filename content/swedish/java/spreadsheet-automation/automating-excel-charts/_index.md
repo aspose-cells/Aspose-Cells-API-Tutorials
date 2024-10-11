@@ -62,7 +62,7 @@ Låt oss skapa ett diagram på arbetsbladet. Till exempel skapar vi ett kolumndi
 // Lägg till ett diagram i arbetsbladet
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 0, 0, 15, 5);
 
-// Gå till diagrammet
+// Få tillgång till diagrammet
 Chart chart = worksheet.getCharts().get(chartIndex);
 ```
 

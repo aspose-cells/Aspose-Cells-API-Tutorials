@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Cada uno de estos bloques imita el paso anterior pero ajusta el`PaperSize` Propiedad correspondiente. Con solo cambiar el indicador de tamaño, obtendrás diferentes dimensiones de papel sin esfuerzo. ¡Es como cambiar el tamaño de una caja en función de lo que necesitas almacenar!
+ Cada uno de estos bloques imita el paso anterior pero ajusta el`PaperSize`Propiedad correspondiente. Con solo cambiar el indicador de tamaño, obtendrás diferentes dimensiones de papel sin esfuerzo. ¡Es como cambiar el tamaño de una caja en función de lo que necesitas almacenar!
 
 ## Conclusión
 
@@ -102,7 +102,7 @@ Aspose.Cells es una biblioteca .NET diseñada para procesar archivos Excel sin n
  Aspose.Cells proporciona opciones para configurar tamaños de papel personalizados utilizando el`PageSetup` clase.
 
 ### ¿Es necesario tener conocimientos de codificación para utilizar Aspose.Cells?
-Los conocimientos básicos de codificación ayudan, pero puedes seguir tutoriales para una comprensión más fácil.
+Los conocimientos básicos de codificación ayudan, pero puedes seguir tutoriales para una comprensión más sencilla.
 
 ### ¿Dónde puedo encontrar más ejemplos?
  El[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) Ofrece una gran cantidad de ejemplos y tutoriales.

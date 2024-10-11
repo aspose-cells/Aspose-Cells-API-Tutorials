@@ -31,7 +31,7 @@ using System;
 
 Esta linha de código permite que você aproveite as poderosas funcionalidades oferecidas pelo Aspose.Cells em seu projeto, fornecendo as ferramentas necessárias para manipular arquivos do Excel sem problemas.
 
-Agora que estabelecemos as bases, vamos dividir a definição da ordem das páginas do Excel em etapas mais fáceis de gerenciar!
+Agora que estabelecemos as bases, vamos dividir a definição da ordem das páginas do Excel em etapas gerenciáveis!
 
 ## Etapa 1: especifique seu diretório de documentos
 
@@ -73,12 +73,12 @@ Workbook workbook = new Workbook();
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Aqui,`workbook.Worksheets[0]` refere-se à primeira planilha em sua pasta de trabalho. O`PageSetup`propriedade lhe dará controle sobre as configurações de paginação da sua planilha.
+ Aqui,`workbook.Worksheets[0]` refere-se à primeira planilha em sua pasta de trabalho. O`PageSetup` propriedade lhe dará controle sobre as configurações de paginação da sua planilha.
 
 ## Etapa 4: Defina a ordem de impressão
 
 
- Com o`PageSetup` objeto, é hora de dizer ao Excel como você quer que as páginas sejam impressas. Você tem a opção de definir a ordem como "Sobre e depois para baixo" ou "Sobre e depois para cima".
+ Com o`PageSetup`objeto, é hora de dizer ao Excel como você quer que as páginas sejam impressas. Você tem a opção de definir a ordem como "Sobre e depois para baixo" ou "Sobre e depois para cima".
 
 Aqui está o código para definir a ordem de impressão:
 

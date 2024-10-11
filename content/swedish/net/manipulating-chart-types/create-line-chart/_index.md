@@ -50,14 +50,14 @@ Det första steget är att definiera var du vill spara din utdatafil. Det är so
 // Utdatakatalog
 string outputDir = "Your Output Directory";
 ```
- Ersätta`"Your Output Directory"`med den faktiska sökvägen där du vill spara den genererade Excel-filen.
+ Ersätta`"Your Output Directory"` med den faktiska sökvägen där du vill spara den genererade Excel-filen.
 
 ## Steg 2: Instantiera arbetsboksobjektet
 
 Därefter måste vi skapa en ny arbetsboksinstans. Tänk på arbetsboken som duken där din kreativitet kommer att flöda. 
 
 ```csharp
-// Instantiera ett arbetsboksobjekt
+//Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 Den här raden initierar en ny arbetsbok som innehåller alla dina data och bilder.
@@ -155,4 +155,4 @@ Ja, du kan ladda ner en gratis testversion för att utforska dess funktioner. F�
  Absolut! Du kan hitta svar och ställa frågor på[Aspose.Cells forum](https://forum.aspose.com/c/cells/9).
 
 ### Hur köper jag en licens?  
- Licenser kan lätt köpas via[köpsidan](https://purchase.aspose.com/buy).
+ Licenser kan enkelt köpas via[köpsidan](https://purchase.aspose.com/buy).

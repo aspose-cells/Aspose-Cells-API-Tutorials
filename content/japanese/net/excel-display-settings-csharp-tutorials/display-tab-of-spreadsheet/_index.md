@@ -61,7 +61,7 @@ Excel では、下部にあるタブ (Sheet1、Sheet2 など) を表示または
 workbook.Settings.ShowTabs = true;
 ```
 
-設定`ShowTabs`に`true` Excel ファイルを開いたときにタブが表示されるようになります。
+設定`ShowTabs`に`true`Excel ファイルを開いたときにタブが表示されるようになります。
 
 ## ステップ4: 変更したExcelファイルを保存する
 

@@ -63,7 +63,7 @@ Cette ligne pointe vers le répertoire contenant le fichier Excel. Assurez-vous 
 Ensuite, nous allons charger notre classeur. Cela revient à ouvrir votre fichier Excel en arrière-plan, ce qui nous permet de lire et de manipuler son contenu.
 
 ```csharp
-// Charger le classeur
+//Charger le classeur
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

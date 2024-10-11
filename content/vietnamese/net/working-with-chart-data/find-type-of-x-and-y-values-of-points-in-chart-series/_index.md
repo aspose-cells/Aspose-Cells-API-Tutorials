@@ -17,9 +17,9 @@ Trước khi thực hiện các bước, hãy đảm bảo bạn đã chuẩn b�
 
 1. Môi trường .NET: Bạn nên thiết lập môi trường phát triển .NET. Có thể là Visual Studio, Visual Studio Code hoặc bất kỳ IDE tương thích nào khác.
    
-2. Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 
-3.  Tệp Excel mẫu: Nhận tệp Excel mẫu có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Đảm bảo nó nằm trong thư mục dự án của bạn.
+3. Tệp Excel mẫu: Nhận tệp Excel mẫu có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Đảm bảo nó nằm trong thư mục dự án của bạn.
 
 4. Kiến thức lập trình cơ bản: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 
@@ -56,7 +56,7 @@ Bây giờ, chúng ta hãy phân tích quy trình xác định loại giá trị
 string sourceDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` bằng đường dẫn lưu tệp Excel của bạn.
+ Thay thế`"Your Document Directory"`bằng đường dẫn lưu tệp Excel của bạn.
 
 ## Bước 2: Tải Workbook
 

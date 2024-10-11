@@ -47,7 +47,7 @@ using System.Drawing;
 ```csharp
 //आउटपुट निर्देशिका
 static string outputDir = "Your Document Directory";
-// वर्कबुक ऑब्जेक्ट को इंस्टैंशिएट करना
+//वर्कबुक ऑब्जेक्ट को इंस्टैंशिएट करना
 Workbook workbook = new Workbook();
 ```
 

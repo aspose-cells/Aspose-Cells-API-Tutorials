@@ -63,7 +63,7 @@ Bu satır Excel dosyasını içeren dizini gösterir. Dosyanızın konumuna gör
 Sonra, çalışma kitabımızı yükleyeceğiz. Bu, Excel dosyanızı arka planda açmak gibidir ve içeriğini okumamıza ve düzenlememize olanak tanır.
 
 ```csharp
-// Çalışma kitabını yükle
+//Çalışma kitabını yükle
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 

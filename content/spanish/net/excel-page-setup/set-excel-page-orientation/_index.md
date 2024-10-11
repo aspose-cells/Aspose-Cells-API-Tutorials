@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Ahora, creará una instancia de la clase Workbook, que representa un archivo Excel.
 
 ```csharp
-// Creación de una instancia de un objeto Workbook
+//Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 A continuación, deberá acceder a la hoja de cálculo en la que desea establecer la orientación. Dado que cada libro de trabajo puede tener varias hojas de cálculo, debe indicar explícitamente con cuál está trabajando.
 
 ```csharp
-// Acceder a la primera hoja de cálculo del archivo Excel
+//Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

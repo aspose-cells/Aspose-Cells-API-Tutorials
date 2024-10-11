@@ -78,7 +78,7 @@ cell.setFormulaLocal("REDACT()");
 
 ### 2. Ersetzung
 
-Bei der Substitution werden Daten durch ähnliche, aber fiktive Informationen ersetzt, um die Datenintegrität zu wahren.
+Bei der Substitution werden Daten durch ähnliche, aber fiktive Informationen ersetzt, um die Datenintegrität aufrechtzuerhalten.
 
 ```java
 // Ersetzen des Wertes einer Zelle

@@ -47,7 +47,7 @@ using System.Text;
 
 E assim, você se preparou para o sucesso! Vamos percorrer as etapas de criação de uma pasta de trabalho compartilhada.
 
-Agora estamos chegando na parte mais interessante! Veja como criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET, dividido em etapas fáceis de seguir.
+Agora estamos chegando na parte suculenta! Veja como criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET, dividido em etapas fáceis de seguir.
 
 ## Etapa 1: Defina o diretório de saída
 

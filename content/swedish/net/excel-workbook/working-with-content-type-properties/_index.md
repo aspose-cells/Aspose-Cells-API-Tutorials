@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Steg 2: Skapa en ny arbetsbok
 
- Nu när vi har vår utdatakatalog, låt oss skapa en ny arbetsbok. De`Workbook`klass är utgångspunkten för att hantera Excel-filer.
+ Nu när vi har vår utdatakatalog, låt oss skapa en ny arbetsbok. De`Workbook` klass är utgångspunkten för att hantera Excel-filer.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -120,4 +120,4 @@ Ja! Aspose.Cells stöder olika format, inklusive XLS, XLSX, CSV och andra.
 Absolut! Du kan lägga till komplexa objekt till egenskaper för innehållstyp så länge de kan serialiseras korrekt.
 
 ### Var kan jag hitta mer dokumentation?
-För mer detaljerad vägledning, se[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/).
+ För mer detaljerad vägledning, se[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/).

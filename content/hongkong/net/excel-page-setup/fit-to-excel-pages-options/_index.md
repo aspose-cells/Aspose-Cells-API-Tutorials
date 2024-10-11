@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-page-setup/fit-to-excel-pages-options/
 在開始編碼之前，讓我們確保您擁有開始編碼所需的一切。這是您應該具備的：
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。這是您所有開發工作的主要中心。
-2.  Aspose.Cells for .NET：您需要下載 Aspose.Cells 庫並將其新增至您的專案。您可以輕鬆地從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET：您需要下載 Aspose.Cells 庫並將其新增至您的專案。您可以輕鬆地從[阿斯普斯網站](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知識：熟悉 C# 程式設計將有很大幫助。如果您可以處理變數、迴圈和基本檔案 I/O，那麼您就會輕鬆自在。
 4. .NET Framework：確保您的專案使用適當的 .NET Framework 版本進行設置，因為該程式庫旨在與此生態系統相容。
 
