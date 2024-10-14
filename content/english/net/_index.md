@@ -84,3 +84,38 @@ Learn to use Aspose.Cells for .NET for advanced Excel data preservation techniqu
 Discover essential tutorials on Aspose.Cells for .NET, covering Excel range creation, address calculation, and advanced manipulations with ease.
 ### [Excel Hidden Rows and Data Duplication Management](./excel-hidden-rows-data-duplication-management/)
 Unlock Excel’s potential with Aspose.Cells for .NET tutorials, providing insights on managing hidden rows and duplicating data effortlessly.
+### [Excel Comment and Annotation](./excel-comment-annotation/)
+
+### [Excel Shapes and Controls](./excel-shapes-controls/)
+
+### [Excel OLE and Picture Objects](./excel-ole-picture-objects/)
+
+### [Excel Shape and Label Access](./excel-shape-label-access/)
+
+### [Excel Shape and Text Modifications](./excel-shape-text-modifications/)
+
+### [Excel File Handling](./excel-file-handling/)
+
+### [CSV File Handling](./csv-file-handling/)
+
+### [File Loading and Parsing](./data-loading-and-parsing/)
+
+### [Saving Files in Different Formats](./saving-files-in-different-formats/)
+
+### [File Handling](./file-handling/)
+
+### [Document Properties](./document-properties/)
+
+### [Conversion and Rendering](./conversion-and-rendering/)
+
+### [Security and Encryption](./security-and-encryption/)
+
+### [Worksheet Operations](./worksheet-operations/)
+
+### [Conversion to PDF](./conversion-to-pdf/)
+
+### [Image and Chart Operations](./image-and-chart-operations/)
+
+### [XPS and PDF Operations](./xps-and-pdf-operations/)
+
+### [Link and Configuration Operations](./link-and-configuration-operations/)
