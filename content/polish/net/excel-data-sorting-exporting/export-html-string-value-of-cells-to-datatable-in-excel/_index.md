@@ -2,7 +2,7 @@
 title: Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel
 linktitle: Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak eksportować wartości ciągu HTML z komórek programu Excel do tabeli DataTable przy użyciu Aspose.Cells for .NET, korzystając z prostego samouczka krok po kroku.
+description: Dowiedz się, jak eksportować wartości ciągu HTML z komórek programu Excel do tabeli DataTable przy użyciu Aspose.Cells dla .NET, korzystając z prostego samouczka krok po kroku.
 type: docs
 weight: 11
 url: /pl/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/
@@ -21,7 +21,7 @@ Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebuj
 4. Przykładowy plik Excela: Będziesz potrzebować przykładowego pliku Excela (`sampleExportTableAsHtmlString.xlsx`) do pracy. Upewnij się, że znajduje się w katalogu, do którego jest dostęp.
 5. Menedżer pakietów NuGet: Upewnij się, że masz dostęp do Menedżera pakietów NuGet w swoim projekcie, aby móc łatwo dodać bibliotekę Aspose.Cells.
 
-Mając te warunki wstępne za sobą, możemy zabrać się za kodowanie!
+Mając te warunki za sobą, możemy zabrać się za kodowanie!
 
 ## Importuj pakiety
 
@@ -72,7 +72,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
 
 Ta prosta linia kodu inicjuje skoroszyt i ładuje określony plik Excela.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po załadowaniu skoroszytu będziesz chciał uzyskać dostęp do konkretnego arkusza zawierającego interesujące Cię dane. Zazwyczaj zaczynasz od pierwszego arkusza:
 

@@ -61,7 +61,7 @@ Dans Excel, les onglets du bas (Feuille1, Feuille2, etc.) peuvent être masqués
 workbook.Settings.ShowTabs = true;
 ```
 
- Paramètre`ShowTabs` à`true`garantira que les onglets sont visibles lorsque vous ouvrez le fichier Excel.
+ Paramètre`ShowTabs` à`true` garantira que les onglets sont visibles lorsque vous ouvrez le fichier Excel.
 
 ## Étape 4 : Enregistrer le fichier Excel modifié
 
@@ -80,7 +80,7 @@ Et voilà ! Vous avez réussi à afficher les onglets dans une feuille de calcul
 ## FAQ
 
 ### Puis-je masquer les onglets dans Excel à l'aide d'Aspose.Cells pour .NET ?
- Absolument ! Il suffit de régler`workbook.Settings.ShowTabs = false;`et enregistrez le fichier. Cela masquera les onglets lorsque le classeur est ouvert.
+ Absolument ! Il suffit de régler`workbook.Settings.ShowTabs = false;` et enregistrez le fichier. Cela masquera les onglets lorsque le classeur est ouvert.
 
 ### Aspose.Cells prend-il en charge d’autres fonctionnalités Excel telles que les graphiques et les tableaux croisés dynamiques ?
 Oui, Aspose.Cells est une bibliothèque complète qui prend en charge presque toutes les fonctionnalités d'Excel, y compris les graphiques, les tableaux croisés dynamiques, les formules, etc.

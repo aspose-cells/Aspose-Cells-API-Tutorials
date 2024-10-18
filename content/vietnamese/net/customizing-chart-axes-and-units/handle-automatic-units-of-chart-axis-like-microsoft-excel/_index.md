@@ -18,7 +18,7 @@ Trước khi bắt đầu hướng dẫn, hãy đảm bảo rằng bạn có m�
 1. Đã cài đặt Visual Studio: Bạn sẽ cần một IDE như Visual Studio để viết và thực thi mã .NET.
 2. .NET Framework: Hướng dẫn này giả định rằng bạn đang sử dụng .NET Framework 4.0 trở lên. Tuy nhiên, Aspose.Cells cũng tương thích với .NET Core.
 3.  Thư viện Aspose.Cells: Nếu bạn chưa thực hiện việc này, hãy tải xuống thư viện từ trang web Aspose[đây](https://releases.aspose.com/cells/net/) . Bạn cũng có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
-4.  Tệp Excel mẫu: Chúng tôi sẽ sử dụng tệp Excel mẫu có tên`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Đảm bảo rằng bạn đã có tệp này trong thư mục làm việc của mình.
+4. Tệp Excel mẫu: Chúng tôi sẽ sử dụng tệp Excel mẫu có tên`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Đảm bảo rằng bạn đã có sẵn tập tin này trong thư mục làm việc của mình.
 
 ## Nhập gói
 
@@ -62,7 +62,7 @@ Bây giờ bạn đã sẵn sàng để bắt đầu thao tác với tệp Excel
 Trước khi tải tệp Excel, hãy thiết lập thư mục đầu ra và thư mục nguồn. Điều này sẽ cho phép chúng ta chỉ định nơi lưu trữ tệp của mình.
 
 ```csharp
-// Thư mục đầu ra - nơi PDF sẽ được lưu
+//Thư mục đầu ra - nơi PDF sẽ được lưu
 string outputDir = "Your Output Directory"; // chỉ định thư mục đầu ra của bạn ở đây
 
 // Thư mục nguồn - nơi chứa tệp Excel mẫu
@@ -84,7 +84,7 @@ Bây giờ, bạn đã tải bảng tính của mình một cách dễ dàng!
 
 ### Bước 3: Truy cập vào trang tính đầu tiên
 
-Tiếp theo, chúng ta sẽ truy cập vào bảng tính đầu tiên có biểu đồ của chúng ta. 
+Tiếp theo, chúng ta sẽ truy cập vào trang tính đầu tiên có biểu đồ của chúng ta. 
 
 ```csharp
 // Truy cập vào bảng tính đầu tiên
@@ -108,7 +108,7 @@ Trong Excel, một trong những tính năng chính trong biểu đồ là xử 
 
 ```csharp
 // Đặt đơn vị chính cho trục Y
-ch.AxisY.MajorUnit = 10; // Bạn có thể thiết lập theo yêu cầu của bạn
+ch.AxisY.MajorUnit = 10; //Bạn có thể thiết lập theo yêu cầu của bạn
 ```
 
 Hãy cùng cập nhật các đơn vị tự động ngay bây giờ!
@@ -126,7 +126,7 @@ ch.ToPdf(outputDir + "outputHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.pd
 
 ### Bước 7: Thực hiện chương trình
 
-Đảm bảo mọi thứ được thiết lập đúng, sau đó chạy ứng dụng của bạn. Bạn sẽ thấy thông báo có nội dung:
+Hãy đảm bảo mọi thứ được thiết lập đúng, sau đó chạy ứng dụng của bạn. Bạn sẽ thấy thông báo như sau:
 
 ```csharp
 Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed successfully.");
@@ -148,7 +148,7 @@ Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, thao tác và c
 Chỉ cần thư viện Aspose.Cells và .NET Framework được cài đặt trên máy của bạn.
 
 ### Tôi có thể xuất biểu đồ ở định dạng khác ngoài PDF không?
-Hoàn toàn có thể! Aspose.Cells hỗ trợ nhiều định dạng khác nhau như XLSX, HTML và hình ảnh.
+Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng khác nhau như XLSX, HTML và hình ảnh.
 
 ### Tôi có thể tìm sự hỗ trợ ở đâu nếu gặp vấn đề?
-Bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose[đây](https://forum.aspose.com/c/cells/9).
+ Bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose[đây](https://forum.aspose.com/c/cells/9).

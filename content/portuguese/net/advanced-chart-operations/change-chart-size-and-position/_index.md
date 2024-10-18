@@ -1,7 +1,7 @@
 ---
 title: Alterar tamanho e posição do gráfico
 linktitle: Alterar tamanho e posição do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a alterar o tamanho e a posição dos gráficos no Excel usando o Aspose.Cells para .NET com este guia fácil de seguir.
 type: docs
 weight: 11
@@ -109,7 +109,7 @@ Por fim, salvamos nossas alterações em um novo arquivo do Excel. Especifique u
 Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
 ```
 
-Para encerrar as coisas de forma organizada, fornecemos feedback sobre se a operação foi concluída com sucesso. Esta é uma ótima prática, que lhe dá um fechamento claro e confiante em sua tarefa — assim como admirar seu trabalho depois de reorganizar os móveis!
+Para finalizar as coisas de forma organizada, fornecemos feedback sobre se a operação foi concluída com sucesso. Esta é uma ótima prática, que lhe dá um fechamento claro e confiante em sua tarefa — assim como admirar seu trabalho depois de reorganizar os móveis!
 
 ## Conclusão
 

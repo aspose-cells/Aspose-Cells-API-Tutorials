@@ -78,7 +78,7 @@ Worksheet ws = wb.Worksheets[0];
 // Få tillgång till alla diagram en efter en och läs deras typer
 for (int i = 0; i < ws.Charts.Count; i++)
 {
-    // Få tillgång till diagrammet
+    // Gå till diagrammet
     Chart ch = ws.Charts[i];
 ```
 

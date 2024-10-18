@@ -18,7 +18,7 @@ Voordat we met het daadwerkelijke coderen beginnen, willen we ervoor zorgen dat 
 ### Basiskennis van C#
 - Kennis van C#-programmering is essentieel, omdat we deze programmeertaal gaan gebruiken om onze code te schrijven.
 
-### Aspose.Cells Geïnstalleerd
+### Aspose.Cellen Geïnstalleerd
 -  Zorg ervoor dat u Aspose.Cells voor .NET in uw ontwikkelomgeving hebt geïnstalleerd. Als u het nog niet hebt geïnstalleerd, ga dan naar de[Downloadlink](https://releases.aspose.com/cells/net/) om te beginnen.
 
 ### Visuele Studio
@@ -80,7 +80,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## Stap 5: Toegang tot het werkblad
 
-Verkrijg een referentie naar het werkblad waar u aan wilt werken. Als u met het eerste werkblad werkt:
+Verkrijg een referentie naar het werkblad waaraan u wilt werken. Als u met het eerste werkblad werkt:
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];

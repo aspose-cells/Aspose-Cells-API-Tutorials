@@ -86,7 +86,7 @@ Aspose.Cells for Java 提供了廣泛的格式化選項和工具來處理複雜�
 
 ### 4.我可以使用同一個函式庫將資料匯出到Excel嗎？
 
-絕對地！ Aspose.Cells for Java 支援向 Excel 檔案匯入資料和從 Excel 檔案匯出資料。
+絕對地！ Aspose.Cells for Java 支援從 Excel 檔案匯入和匯出資料。
 
 ### 5. 使用Aspose.Cells for Java有任何授權要求嗎？
 

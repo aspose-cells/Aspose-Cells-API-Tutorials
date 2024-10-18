@@ -9,7 +9,7 @@ url: /id/net/manipulating-chart-types/modify-line-chart/
 ---
 ## Perkenalan
 
-Membuat bagan yang menarik secara visual dan informatif sangat penting untuk representasi data yang efektif, terutama dalam lingkungan bisnis dan akademis. Namun, bagaimana Anda menyempurnakan bagan garis untuk menyampaikan cerita di balik angka-angka? Di sinilah Aspose.Cells for .NET berperan. Dalam artikel ini, kita akan membahas penggunaan Aspose.Cells untuk memodifikasi bagan garis yang sudah ada dengan mudah. Kami akan membahas semuanya mulai dari prasyarat hingga petunjuk langkah demi langkah, yang akan membantu Anda memaksimalkan upaya visualisasi data Anda. 
+Membuat bagan yang menarik secara visual dan informatif sangat penting untuk representasi data yang efektif, terutama dalam lingkungan bisnis dan akademis. Namun, bagaimana Anda menyempurnakan bagan garis untuk menyampaikan cerita di balik angka-angka? Di sinilah Aspose.Cells for .NET berperan. Dalam artikel ini, kita akan mendalami penggunaan Aspose.Cells untuk memodifikasi bagan garis yang sudah ada dengan mudah. Kami akan membahas semuanya mulai dari prasyarat hingga petunjuk langkah demi langkah, yang akan membantu Anda memaksimalkan upaya visualisasi data Anda. 
 
 ## Prasyarat 
 
@@ -31,7 +31,7 @@ Meskipun kami akan menjelaskan semuanya langkah demi langkah, pemahaman dasar te
 
 Untuk memulai, kita perlu menyiapkan proyek kita dengan mengimpor namespace yang diperlukan. Berikut cara melakukannya:
 
-### Membuat Proyek Baru di Visual Studio
+### Buat Proyek Baru di Visual Studio
 Buka Visual Studio dan buat proyek Aplikasi Konsol C# baru. Beri nama yang relevan, seperti "LineChartModifier".
 
 ### Tambahkan Referensi ke Aspose.Cells
@@ -144,7 +144,7 @@ Memodifikasi diagram garis menggunakan Aspose.Cells untuk .NET tidak harus menja
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bisakah saya menggunakan Aspose.Cells untuk tipe bagan lainnya?
+### Dapatkah saya menggunakan Aspose.Cells untuk tipe bagan lainnya?
 Ya, Anda dapat memodifikasi berbagai jenis bagan (seperti batang, pai, dsb.) menggunakan metode yang serupa.
 
 ### Apakah ada versi uji coba Aspose.Cells yang tersedia?

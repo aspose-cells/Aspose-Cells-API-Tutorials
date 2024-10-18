@@ -20,7 +20,7 @@ Antes de comenzar, aquí hay algunas cosas que necesitarás:
 3. Un IDE: necesitará un editor de código o un entorno de desarrollo integrado (IDE) como Visual Studio. 
 4. Archivo XLSB de muestra: trabajaremos con un archivo XLSB de muestra que contiene conexiones externas. Puede crear su propio archivo o descargar muestras en línea. 
 
-¡Una vez que tengamos todos estos requisitos previos establecidos, estaremos listos para comenzar a codificar!
+¡Una vez que tengamos todos estos requisitos previos en su lugar, estaremos listos para comenzar a codificar!
 
 ## Importar paquetes
 

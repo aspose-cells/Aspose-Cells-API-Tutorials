@@ -56,7 +56,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` आपकी मशीन पर वास्तविक पथों के साथ.
+ प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` आपके मशीन पर वास्तविक पथ के साथ.
 
 ## चरण 2: स्रोत एक्सेल फ़ाइल लोड करें
 
@@ -152,5 +152,5 @@ Aspose.Cells एक शक्तिशाली .NET लाइब्रेरी
 ### क्या मुझे Aspose.Cells के लिए भुगतान करना होगा?  
 Aspose.Cells एक वाणिज्यिक उत्पाद है, लेकिन वे एक निःशुल्क परीक्षण प्रदान करते हैं, जिसे आप पा सकते हैं[यहाँ](https://releases.aspose.com/).
 
-### यदि मुझे Aspose.Cells के साथ समस्या आती है तो मुझे सहायता कहां से मिल सकती है?  
+### यदि मुझे Aspose.Cells के साथ कोई समस्या आती है तो मुझे सहायता कहां से मिल सकती है?  
  यदि आपको कोई समस्या आती है, तो उनके[सहयता मंच](https://forum.aspose.com/c/cells/9) विशेषज्ञों से सहायता प्राप्त करने के लिए एक बढ़िया संसाधन है।

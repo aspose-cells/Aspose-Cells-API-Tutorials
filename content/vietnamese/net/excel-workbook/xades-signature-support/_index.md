@@ -91,7 +91,7 @@ workbook.SetDigitalSignature(dsCollection);
 
  Ở đây, chúng tôi tạo ra một`DigitalSignatureCollection`, thêm chữ ký của chúng tôi vào đó, sau đó đặt bộ sưu tập này vào sổ làm việc. Đây là cách chúng tôi đính kèm chữ ký vào tệp Excel.
 
-## Bước 6: Lưu sổ làm việc đã ký
+## Bước 6: Lưu Workbook đã ký
 
 Cuối cùng, đã đến lúc lưu sổ làm việc đã ký vào thư mục đầu ra. Bước này hoàn tất quy trình.
 

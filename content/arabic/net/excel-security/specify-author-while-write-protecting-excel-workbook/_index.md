@@ -56,7 +56,7 @@ string outputDir = "YOUR OUTPUT DIRECTORY";
 Workbook wb = new Workbook();
 ```
 
-تمامًا كما يبدأ الفنان بلوحة قماشية فارغة، فإنك تبدأ بدفتر عمل فارغ يمكنك فيه لاحقًا تضمين البيانات أو التنسيق.
+تمامًا كما يبدأ الفنان بلوحة قماشية فارغة، فإنك تبدأ بمصنف عمل فارغ يمكنك فيه لاحقًا تضمين البيانات أو التنسيق.
 
 ## الخطوة 3: حماية المصنف
 
@@ -78,7 +78,7 @@ wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
- تأكد من الاستبدال`"YOUR_AUTHOR"` بالاسم الذي تريد ربطه بالمستند. فكر في هذا الأمر وكأنه توقيع على عملك الفني، فهو يتيح للناس معرفة من يجب شكره على هذه القطعة!
+ تأكد من الاستبدال`"YOUR_AUTHOR"` بالاسم الذي تريد ربطه بالمستند. فكر في هذا الأمر كأنك تقوم بتوقيع عملك الفني، فهو يتيح للناس معرفة من يجب شكره على هذه القطعة!
 
 ## الخطوة 5: احفظ المصنف
 
@@ -89,7 +89,7 @@ wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- هنا، سيتم حفظ ملف الإخراج في دليل الإخراج المحدد بالاسم`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`هذا هو المكان الذي يأتي فيه عملك الشاق بثماره أخيرًا، ويمكنك مشاركة مصنفك مع الآخرين، مع العلم أنه محمي بشكل جيد!
+ هنا، سيتم حفظ ملف الإخراج في دليل الإخراج المحدد باسم`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`هذا هو المكان الذي يأتي فيه عملك الشاق بثماره أخيرًا، ويمكنك مشاركة مصنفك مع الآخرين، مع العلم أنه محمي بشكل جيد!
 
 ## خاتمة
 

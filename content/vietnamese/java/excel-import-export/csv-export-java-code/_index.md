@@ -30,7 +30,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 1.  Tải xuống thư viện Aspose.Cells cho Java từ trang web[đây](https://releases.aspose.com/cells/java/).
 2. Bao gồm tệp JAR đã tải xuống vào classpath của dự án bạn.
 
-## Viết Mã Xuất CSV
+## Viết mã xuất CSV
 
 Bây giờ, hãy viết mã Java để xuất dữ liệu sang tệp CSV bằng Aspose.Cells. Sau đây là một ví dụ đơn giản:
 
@@ -58,7 +58,7 @@ public class CsvExportExample {
 }
 ```
 
-Trong đoạn mã này, chúng ta tải một bảng tính Excel, chỉ định các tùy chọn CSV (chẳng hạn như dấu phân cách), sau đó lưu bảng tính dưới dạng tệp CSV.
+Trong đoạn mã này, chúng ta tải một bảng tính Excel, chỉ định các tùy chọn CSV (như dấu phân cách), sau đó lưu bảng tính dưới dạng tệp CSV.
 
 ## Chạy Mã
 
@@ -66,7 +66,7 @@ Biên dịch và chạy mã Java trong IDE của bạn. Đảm bảo rằng bạ
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã học cách xuất dữ liệu sang định dạng CSV bằng Aspose.Cells for Java. Thư viện đa năng này giúp đơn giản hóa quy trình làm việc với các tệp Excel trong các ứng dụng Java.
+Xin chúc mừng! Bạn đã học cách xuất dữ liệu sang định dạng CSV bằng Aspose.Cells for Java. Thư viện đa năng này đơn giản hóa quy trình làm việc với các tệp Excel trong các ứng dụng Java.
 
 ---
 

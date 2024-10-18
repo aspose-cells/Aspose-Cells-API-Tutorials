@@ -16,7 +16,7 @@ url: /zh-hant/net/inserting-controls-in-charts/add-picture-to-chart/
 在我們深入了解編碼的本質之前，您需要順利遵循一些先決條件：
 
 - Visual Studio：您將在此處編寫和執行 .NET 程式碼。確保您已安裝它。
--  Aspose.Cells for .NET：您需要這個函式庫來處理 Excel 檔案。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET：您需要這個函式庫來處理 Excel 檔案。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
 - 對 C# 的基本了解：雖然我將指導您完成程式碼，但掌握 C# 基礎知識將使事情變得更加清晰。
 
 ### 安裝步驟

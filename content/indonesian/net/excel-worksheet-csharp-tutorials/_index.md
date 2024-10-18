@@ -12,7 +12,7 @@ Apakah Anda siap untuk meningkatkan kemampuan Excel Anda dengan Aspose.Cells unt
 
 ## Menambahkan Lembar Kerja Menjadi Mudah
 
- Bayangkan Anda sedang mengerjakan buku kerja Excel yang besar, dan tiba-tiba Anda perlu menambahkan lembar kerja lain. Kedengarannya menakutkan? Tidak dengan[Tutorial C# Menambahkan Lembar Kerja Excel ke Buku Kerja yang Ada](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/)Kami uraikan prosesnya langkah demi langkah, untuk memastikan Anda memahami cara mengintegrasikan lembar kerja baru ke dalam buku kerja yang sudah ada dengan lancar. Anda akan menemukan petunjuk yang jelas dan contoh praktis, sehingga Anda dapat mengikutinya tanpa merasa bingung. 
+ Bayangkan Anda sedang mengerjakan buku kerja Excel yang besar, dan tiba-tiba Anda perlu menambahkan lembar kerja lain. Kedengarannya menakutkan? Tidak dengan[Tutorial Menambahkan Lembar Kerja Excel ke Buku Kerja yang Ada di C#](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/)Kami uraikan prosesnya langkah demi langkah, untuk memastikan Anda memahami cara mengintegrasikan lembar kerja baru ke dalam buku kerja yang sudah ada dengan lancar. Anda akan menemukan petunjuk yang jelas dan contoh praktis, sehingga Anda dapat mengikutinya tanpa merasa bingung. 
 
 ## Menghapus Lembar Kerja Tanpa Hambatan
 
@@ -25,7 +25,7 @@ Apakah Anda siap untuk meningkatkan kemampuan Excel Anda dengan Aspose.Cells unt
 ## Tutorial
 | Judul | Keterangan |
 | --- | --- | 
-| [Tutorial C# Menambahkan Lembar Kerja Excel ke Buku Kerja yang Ada](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Pelajari cara menambahkan lembar kerja Excel ke buku kerja yang ada menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah terperinci ini. |  
+| [Tutorial Menambahkan Lembar Kerja Excel ke Buku Kerja yang Ada di C#](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Pelajari cara menambahkan lembar kerja Excel ke buku kerja yang ada menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah terperinci ini. |  
 | [Tutorial Menambahkan Lembar Baru di Excel C#](./add-new-sheet-in-excel-csharp-tutorial/) | Pelajari cara menambahkan lembar baru di Excel menggunakan C# dengan Aspose.Cells. Tutorial ini menguraikan proses menjadi langkah-langkah yang sederhana dan dapat ditindaklanjuti. |  
 | [Tutorial Menghapus Lembar Kerja Excel Berdasarkan Indeks C#](./delete-excel-worksheet-by-index-csharp-tutorial/) | Pelajari cara menghapus lembar kerja Excel berdasarkan indeks di C# menggunakan Aspose.Cells. Ikuti tutorial langkah demi langkah yang mudah ini untuk menyederhanakan pengelolaan buku kerja Anda. |  
 | [Tutorial Menghapus Lembar Kerja Excel Berdasarkan Nama C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Pelajari cara menghapus lembar kerja Excel berdasarkan nama menggunakan C#. Tutorial yang mudah dipahami bagi pemula ini memandu Anda langkah demi langkah dengan Aspose.Cells untuk .NET. |  

@@ -17,7 +17,7 @@ Voordat we beginnen, zijn er een paar voorwaarden waaraan u moet voldoen:
 
 1. Basiskennis van C#: Een basiskennis van C# en het .NET Framework zal u zeker helpen bij het navigeren door de tutorial.
 2.  Aspose.Cells voor .NET Geïnstalleerd: U moet de Aspose.Cells voor .NET-bibliotheek hebben. U kunt[download het hier](https://releases.aspose.com/cells/net/).
-3. Visual Studio of vergelijkbare IDE: U hebt een Integrated Development Environment (IDE) zoals Visual Studio nodig om de code te schrijven en uit te voeren.
+3. Visual Studio of vergelijkbare IDE: U hebt een geïntegreerde ontwikkelomgeving (IDE) zoals Visual Studio nodig om de code te schrijven en uit te voeren.
 4. Excel-bestand: U moet een Excel-bestand hebben (zoals`book1.xls`) beschikbaar in uw documentenmap voor bewerking.
 5. Naamruimten: zorg ervoor dat u de benodigde naamruimten in uw code opneemt, met name voor het verwerken van bestanden en de Aspose.Cells-bibliotheek.
 
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Stap 3: Instantieer de werkmap
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Stap 4: Toegang tot het werkblad
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -83,11 +83,11 @@ Hier benaderen we het eerste werkblad in uw werkmap met behulp van de index (nul
 ## Stap 5: Schakel pagina-eindevoorbeeld in
 
 ```csharp
-// Het werkblad weergeven in een pagina-eindevoorbeeld
+// Het werkblad weergeven in pagina-eindevoorbeeld
 worksheet.IsPageBreakPreview = true;
 ```
 
-Deze cruciale stap schakelt de pagina-einde preview-modus voor het werkblad in. U zult zien hoe dit de lay-out en afdrukopmaak beïnvloedt wanneer u het bestand later opent.
+Deze cruciale stap schakelt de pagina-einde-previewmodus voor het werkblad in. U zult zien hoe dit de lay-out en afdrukopmaak beïnvloedt wanneer u het bestand later opent.
 
 ## Stap 6: Sla de werkmap op
 
@@ -109,7 +109,7 @@ Tot slot is het een goede gewoonte om resources op te schonen. Het sluiten van d
 
 ## Conclusie
 
-En daar heb je het! Je hebt de pagina-einde preview voor een werkblad succesvol ingeschakeld met Aspose.Cells voor .NET. Deze functie kan je vermogen om afdruklay-outs te beheren aanzienlijk verbeteren, waardoor het gemakkelijker wordt om je gegevens op een gestructureerde manier te presenteren. Of je nu rapporten genereert of gegevens voorbereidt voor afdrukken, Aspose.Cells biedt je de tools die je nodig hebt om je creativiteit en productiviteit de vrije loop te laten. Dus waar wacht je nog op? Duik in je volgende Excel-project met Aspose.Cells en zie hoe het je workflow transformeert!
+En daar heb je het! Je hebt de pagina-einde preview voor een werkblad succesvol ingeschakeld met Aspose.Cells voor .NET. Deze functie kan je vermogen om afdruklay-outs te beheren aanzienlijk verbeteren, waardoor het gemakkelijker wordt om je gegevens op een gestructureerde manier te presenteren. Of je nu rapporten genereert of gegevens voorbereidt voor afdrukken, Aspose.Cells biedt je de tools die je nodig hebt om je creativiteit en productiviteit de vrije loop te laten. Dus, waar wacht je nog op? Duik in je volgende Excel-project met Aspose.Cells en zie hoe het je workflow transformeert!
 
 ## Veelgestelde vragen
 

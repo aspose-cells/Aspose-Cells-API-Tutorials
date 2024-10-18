@@ -9,11 +9,11 @@ url: /tr/net/excel-creating-formatting-named-ranges/
 ---
 ## giriiş
 
-Bu makale, özellikle Excel'de adlandırılmış aralıklar oluşturma ve biçimlendirmeye odaklanarak .NET için Aspose.Cells eğitimleri için bir kılavuz görevi görmektedir. Süreci adım adım ele alacağız ve bu işlevlerin Excel elektronik tablolarınızın hem kullanılabilirliğini hem de estetiğini geliştirmedeki önemini göstereceğiz. 
+Bu makale, özellikle Excel'de adlandırılmış aralıklar oluşturma ve biçimlendirmeye odaklanarak .NET için Aspose.Cells eğitimlerine yönelik bir kılavuz görevi görmektedir. Süreci adım adım ele alacağız ve bu işlevlerin Excel elektronik tablolarınızın hem kullanılabilirliğini hem de estetiğini geliştirmedeki önemini göstereceğiz. 
 
 ## Excel'de Adlandırılmış Aralıklar Oluşturma
 
-Adlandırılmış aralıklarla başlayalım. Excel'deki sonsuz satır ve sütunlardan bunaldıysanız, yalnız değilsiniz! Adlandırılmış aralıklar günü kurtarmak için burada. Bunları Excel'in veri ormanındaki kişisel yol işaretleriniz olarak düşünün, hücre adresleri arasında dolaşmadan ihtiyacınız olan bilgiye sizi yönlendirin. .NET için Aspose.Cells ile adlandırılmış aralık oluşturmak basittir ve veri yönetimi için inanılmaz derecede faydalıdır.
+Adlandırılmış aralıklarla başlayalım. Excel'deki sonsuz satır ve sütunlardan bunaldıysanız, yalnız değilsiniz! Adlandırılmış aralıklar günü kurtarmak için burada. Bunları Excel'in veri ormanındaki kişisel yol işaretleriniz olarak düşünün, hücre adresleri arasında dolaşmadan ihtiyacınız olan bilgiye sizi yönlendirin. .NET için Aspose.Cells ile adlandırılmış aralık oluşturmak basit ve veri yönetimi için inanılmaz derecede faydalıdır.
 
 Başlamaya hazır mısınız? Öncelikle, Aspose.Cells'i .NET projenize entegre etmeniz gerekir. Eklendikten sonra, belirli bir hücre kümesini adlandırabilirsiniz (belki satış rakamları veya önemli ölçümler) ve bunlara başvurmayı kolaylaştırabilirsiniz. Formüllerinize "B2:B20" gibi bir şey yazmak yerine, sadece "SalesData" kullanabilirsiniz. Bu, kapaklı bir telefondan akıllı telefona yükseltme yapmak gibidir: hayatınızı çok daha kolay hale getiriyorsunuz! 
 

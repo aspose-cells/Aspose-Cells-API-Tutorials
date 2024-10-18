@@ -17,7 +17,7 @@ Avant de plonger dans les détails techniques de la gestion des formats de papie
 
 1. Compréhension de base de C# : la familiarité avec la programmation C# facilitera considérablement le processus d'intégration d'Aspose.Cells dans vos projets.
 2. Visual Studio installé : assurez-vous que Visual Studio est installé sur votre ordinateur pour écrire et exécuter du code C#.
-3.  Bibliothèque Aspose.Cells pour .NET : vous devez obtenir Aspose.Cells. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
+3. Bibliothèque Aspose.Cells pour .NET : vous devez obtenir Aspose.Cells. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 4. Gestionnaire de packages NuGet : assurez-vous d’avoir accès au gestionnaire de packages NuGet, car vous pouvez facilement installer Aspose.Cells en l’utilisant.
 
 Avec ces prérequis en tête, commençons !
@@ -48,7 +48,7 @@ using System;
 
 Ces espaces de noms sont essentiels pour accéder aux classes et aux méthodes liées à la manipulation et à l'impression des classeurs.
 
-Maintenant, décomposons les étapes à suivre pour gérer la taille du papier d'une feuille de calcul Excel à l'aide d'Aspose.Cells. Nous définirons la taille du papier sur A4 à titre d'exemple, mais vous pouvez adapter le code à différentes tailles de papier si nécessaire.
+Maintenant, décomposons les étapes pour gérer la taille du papier d'une feuille de calcul Excel à l'aide d'Aspose.Cells. Nous allons définir la taille du papier sur A4 à titre d'exemple, mais vous pouvez adapter le code à différentes tailles de papier si nécessaire.
 
 ## Étape 1 : Spécifier le chemin d’accès au répertoire des documents
 
@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Étape 2 : Créer un objet classeur
 
- Ensuite, vous allez instancier un`Workbook` objet, qui représente votre fichier Excel. Voici comment procéder :
+ Ensuite, vous allez instancier un`Workbook` objet qui représente votre fichier Excel. Voici comment procéder :
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -78,7 +78,7 @@ Après avoir créé un classeur, vous souhaiterez accéder à la feuille de calc
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Ici, nous récupérons la première feuille de calcul (index 0) pour la modifier.
+Ici, nous récupérons la première feuille de calcul (index 0) pour modification.
 
 ## Étape 4 : Définir le format du papier
 

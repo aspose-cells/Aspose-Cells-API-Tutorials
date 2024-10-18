@@ -83,7 +83,7 @@ Slutligen, du vill inte förlora allt detta hårda arbete, eller hur? Det är da
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 ```
- Här sparar vi justeringarna vi gjorde i en ny Excel-fil som heter`ClearAllPageBreaks_out.xls` i samma katalog som vi angav tidigare. Det är din trofé för ett väl utfört jobb!
+ Här sparar vi justeringarna vi gjorde i en ny Excel-fil som heter`ClearAllPageBreaks_out.xls` i samma katalog som vi angav tidigare. Det är din trofé för ett väl utfört arbete!
 
 ## Slutsats
 

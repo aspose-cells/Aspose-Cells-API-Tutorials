@@ -93,7 +93,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách thực hiện phân
 
 ### Làm thế nào để cài đặt Aspose.Cells cho Java?
 
- Bạn có thể tải xuống Aspose.Cells cho Java từ trang web[đây](https://releases.aspose.com/cells/java/). Làm theo hướng dẫn cài đặt được cung cấp để thiết lập nó trong dự án Java của bạn.
+ Bạn có thể tải xuống Aspose.Cells cho Java từ trang web[đây](https://releases.aspose.com/cells/java/). Thực hiện theo hướng dẫn cài đặt được cung cấp để thiết lập nó trong dự án Java của bạn.
 
 ### Tôi có thể thực hiện các phép tính nâng cao trong bảng trục không?
 

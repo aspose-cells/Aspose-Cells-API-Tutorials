@@ -31,7 +31,7 @@ Begin vandaag nog met de Aspose.Cells voor Java-zelfstudies en ontgrendel het vo
 ### [Basisfuncties van Excel](./basic-excel-functions/)
 Ontdek essentiële Excel-functies met Aspose.Cells voor Java. Onze tutorials behandelen de basis stap voor stap. Ga aan de slag met spreadsheetmanipulatie
 ### [Gegevensvalidatieregels](./data-validation-rules/)
-Master Data Validation Rules met Aspose.Cells voor Java. Maak foutloze Excel-sheets. Bekijk nu uitgebreide tutorials!
+Master Data Validation Rules met Aspose.Cells voor Java. Maak foutloze Excel-sheets. Ontdek nu uitgebreide tutorials!
 ### [Excel-gegevensanalyse](./excel-data-analysis/)
 Ontgrendel krachtige Excel-data-analyse met Aspose.Cells voor Java. Ontdek stapsgewijze tutorials voor Java-ontwikkelaars. Krijg vandaag nog inzicht in data. 
 ### [Excel draaitabellen](./excel-pivot-tables/)

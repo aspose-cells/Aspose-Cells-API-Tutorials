@@ -109,11 +109,11 @@ Na koniec zapisujemy zmiany w nowym pliku Excel. Podaj odpowiednią nazwę dla e
 Console.WriteLine("ChangeChartSizeAndPosition executed successfully.");
 ```
 
-Aby wszystko ładnie podsumować, udzielamy informacji zwrotnej, czy operacja zakończyła się pomyślnie. To świetna praktyka, która daje Ci jasne i pewne zamknięcie zadania — tak jak podziwianie swojej pracy po przestawieniu mebli!
+Aby wszystko ładnie podsumować, udzielamy informacji zwrotnej, czy operacja zakończyła się sukcesem. To świetna praktyka, która daje Ci jasne i pewne zamknięcie zadania — tak jak podziwianie swojej pracy po przestawieniu mebli!
 
 ## Wniosek
 
-Gratulacje! Właśnie nauczyłeś się, jak zmieniać rozmiar i położenie wykresów w programie Excel za pomocą Aspose.Cells dla .NET. Dzięki tym krokom możesz sprawić, że wykresy nie tylko będą wyglądać lepiej, ale także idealnie wpasują się w arkusze kalkulacyjne, co przełoży się na bardziej profesjonalną prezentację danych. Dlaczego nie spróbować i nie zacząć manipulować wykresami już dziś? 
+Gratulacje! Właśnie nauczyłeś się, jak zmieniać rozmiar i położenie wykresów w programie Excel za pomocą Aspose.Cells dla .NET. Dzięki tym krokom możesz sprawić, że wykresy nie tylko będą wyglądać lepiej, ale także idealnie pasować do arkuszy kalkulacyjnych, co przełoży się na bardziej profesjonalną prezentację danych. Dlaczego nie spróbować i nie zacząć manipulować wykresami już dziś? 
 
 ## Najczęściej zadawane pytania
 

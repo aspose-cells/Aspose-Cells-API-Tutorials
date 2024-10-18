@@ -1,6 +1,6 @@
 ---
-title: Nascondi e mostra il foglio di lavoro
-linktitle: Nascondi e mostra il foglio di lavoro
+title: Foglio di lavoro per nascondere e visualizzare
+linktitle: Foglio di lavoro per nascondere e visualizzare
 second_title: Riferimento API Aspose.Cells per .NET
 description: Padroneggia la manipolazione dei fogli di lavoro Excel con questa guida completa per nascondere e mostrare i fogli utilizzando Aspose.Cells per .NET. Semplifica la gestione dei tuoi dati.
 type: docs
@@ -72,7 +72,7 @@ Questo passaggio equivale a dire "Ciao!" al tuo libro di lavoro, che saprà che 
 Con la tua cartella di lavoro in mano, è il momento di accedere al foglio di lavoro specifico che vuoi nascondere. Inizieremo con il primo foglio di lavoro.
 
 ```csharp
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -124,7 +124,7 @@ Così facendo, si sollevano di nuovo le tende, permettendo di vedere di nuovo tu
 
 ## Conclusione
 
-Manipolare fogli di lavoro Excel usando Aspose.Cells per .NET non deve essere un compito arduo. Con solo poche righe di codice, puoi nascondere o rivelare dati importanti con facilità. Questa capacità può essere particolarmente utile in scenari in cui chiarezza e sicurezza sono fondamentali. Che tu stia segnalando dati o semplicemente cercando di mantenere il tuo lavoro pulito e ordinato, sapere come gestire la visibilità del foglio di lavoro può fare una grande differenza nel tuo flusso di lavoro!
+Manipolare fogli di lavoro Excel usando Aspose.Cells per .NET non deve essere un compito scoraggiante. Con solo poche righe di codice, puoi nascondere o rivelare dati importanti con facilità. Questa capacità può essere particolarmente utile in scenari in cui chiarezza e sicurezza sono fondamentali. Che tu stia segnalando dati o semplicemente cercando di mantenere il tuo lavoro pulito e ordinato, sapere come gestire la visibilità del foglio di lavoro può fare una grande differenza nel tuo flusso di lavoro!
 
 ## Domande frequenti
 

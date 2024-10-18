@@ -9,7 +9,7 @@ url: /zh/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 ---
 ## 介绍
 
-在数字时代，管理和保护您的数据比以往任何时候都更加重要。Excel 工作表通常用于存储敏感信息，您可能希望控制谁可以在这些工作表中执行什么操作。使用 Aspose.Cells for .NET，这是一个功能强大的工具，可让您以编程方式操作 Excel 文件。在本指南中，我们将介绍 Excel 工作表的高级保护设置，确保您的数据保持安全，同时仍允许基本可用性。 
+在数字时代，管理和保护数据比以往任何时候都更加重要。Excel 工作表通常用于存储敏感信息，您可能希望控制谁可以在这些工作表中执行什么操作。Aspose.Cells for .NET 是一款功能强大的工具，可让您以编程方式操作 Excel 文件。在本指南中，我们将介绍 Excel 工作表的高级保护设置，确保您的数据保持安全，同时仍允许基本可用性。 
 
 ## 先决条件 
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 //通过文件流打开Excel文件
 Workbook excel = new Workbook(fstream);
 ```
-此行创建一个新的`Workbook`例如，打开我们在上一步中指定的文件。`Workbook`对象至关重要，因为它在代码中代表我们的 Excel 文件。
+此行创建了新的`Workbook`例如，打开我们在上一步中指定的文件。`Workbook`对象至关重要，因为它在代码中代表我们的 Excel 文件。
 
 ## 步骤 3：访问所需工作表
 

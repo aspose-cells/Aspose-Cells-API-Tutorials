@@ -63,7 +63,7 @@ Deze regel initialiseert een nieuw werkmapobject dat we gaan wijzigen.
 Elke werkmap kan meerdere werkbladen bevatten en voor ons doel zullen we de eerste benaderen. Zie het als het openen van een tabblad in een Excel-bestand.
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Nu hebben we toegang tot het eerste werkblad waar we ons benoemde bereik gaan ma
 Nu is het tijd om het benoemde bereik te maken. Met een benoemd bereik kunt u een specifieke set cellen in uw werkblad definiëren.
 
 ```csharp
-//Een benoemd bereik maken
+// Een benoemd bereik maken
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Nadat u al deze wijzigingen hebt aangebracht, is de volgende stap het opslaan va
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Deze regel slaat uw wijzigingen op in een bestand met de naam`outputCreateNamedRangeofCells.xlsx`Zorg ervoor dat het opgegeven pad correct is, anders geeft het programma een foutmelding!
+ Deze regel slaat uw wijzigingen op in een bestand met de naam`outputCreateNamedRangeofCells.xlsx`Zorg ervoor dat het opgegeven pad correct is, anders geeft het programma een foutmelding!
 
 ## Stap 8: Controleer of de operatie succesvol is
 

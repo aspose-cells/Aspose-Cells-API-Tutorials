@@ -51,7 +51,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-Als Erstes müssen wir definieren, wo sich unsere Quelldatei befindet und wo die Ausgabedatei gespeichert werden soll. Ersetzen Sie „Ihr Dokumentverzeichnis“ und „Ihr Ausgabeverzeichnis“ durch Ihre tatsächlichen Ordnerpfade. Betrachten Sie diese Verzeichnisse als Ihre Heimatbasis und Startrampe, auf der sich Ihre Dateien befinden.
+Als Erstes müssen wir definieren, wo sich unsere Quelldatei befindet und wo die Ausgabedatei gespeichert werden soll. Ersetzen Sie „Ihr Dokumentverzeichnis“ und „Ihr Ausgabeverzeichnis“ durch Ihre tatsächlichen Ordnerpfade. Betrachten Sie diese Verzeichnisse als Ihre Heimatbasis und Startrampe, wo Ihre Dateien gespeichert sind.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
@@ -75,7 +75,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Chart chart = worksheet.Charts[0];
 ```
 
-Nachdem wir das Arbeitsblatt abgerufen haben, können wir direkt mit dem Zugriff auf das Diagramm beginnen! Wir greifen auf das erste Diagramm zu (wieder Index`[0]`). Das ist, als ob Sie ein Kunstwerk auswählen, das Sie aufpeppen möchten. Stellen Sie sicher, dass Ihr Diagramm in diesem Arbeitsblatt vorhanden ist, sonst stehen Sie vor einem Rätsel!
+Nachdem wir das Arbeitsblatt abgerufen haben, können wir direkt mit dem Zugriff auf das Diagramm beginnen! Wir greifen auf das erste Diagramm zu (wieder Index`[0]`). Das ist, als ob Sie ein Kunstwerk auswählen, das Sie aufpeppen möchten. Stellen Sie sicher, dass Ihr Diagramm in diesem Arbeitsblatt vorhanden ist, sonst stehen Sie ratlos da!
 
 ## Schritt 5: Größe des Diagramms ändern
 
@@ -113,7 +113,7 @@ Um die Sache ordentlich abzuschließen, geben wir Ihnen Feedback, ob der Vorgang
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben gerade gelernt, wie Sie die Größe und Position von Diagrammen in Excel mit Aspose.Cells für .NET ändern können. Mit diesen Schritten können Sie Ihre Diagramme nicht nur besser aussehen lassen, sondern sie auch perfekt in Ihre Tabellen einpassen, was zu einer professionelleren Präsentation Ihrer Daten führt. Warum probieren Sie es nicht aus und beginnen noch heute mit der Bearbeitung Ihrer Diagramme? 
+Herzlichen Glückwunsch! Sie haben gerade gelernt, wie Sie die Größe und Position von Diagrammen in Excel mit Aspose.Cells für .NET ändern können. Mit diesen Schritten können Sie dafür sorgen, dass Ihre Diagramme nicht nur besser aussehen, sondern auch perfekt in Ihre Tabellen passen, was zu einer professionelleren Präsentation Ihrer Daten führt. Warum probieren Sie es nicht aus und beginnen noch heute mit der Bearbeitung Ihrer Diagramme? 
 
 ## Häufig gestellte Fragen
 

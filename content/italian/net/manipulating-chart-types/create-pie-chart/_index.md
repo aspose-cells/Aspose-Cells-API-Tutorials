@@ -23,7 +23,7 @@ Per gli utenti avanzati, è possibile applicare una licenza temporanea per sbloc
 
 ## Importa pacchetti
 
-Per iniziare, importa i namespace e i pacchetti necessari per questo tutorial. Questi includono le operazioni di I/O di base e il pacchetto Aspose.Cells.
+Per iniziare, importa i namespace e i pacchetti necessari per questo tutorial. Questi includono le operazioni I/O di base e il pacchetto Aspose.Cells.
 
 ```csharp
 using System;
@@ -125,7 +125,7 @@ Impostiamo il riempimento sfumato per l'area del grafico e nascondiamo il bordo 
 
 ## Passaggio 6: definire i dati del grafico
 
- È il momento di collegare il grafico ai nostri dati.`NSeries` proprietà del grafico collega le cifre di vendita e le regioni al grafico a torta.
+ È il momento di collegare il grafico ai nostri dati.`NSeries` proprietà del grafico associa le cifre di vendita e le regioni al grafico a torta.
 
 ```csharp
 chart.NSeries.Add("Data!B2:B8", true);
@@ -179,7 +179,7 @@ workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
 
 ## Conclusione
 
-Creare un grafico a torta con Aspose.Cells per .NET è un processo semplice e personalizzabile. Seguendo questa guida, puoi generare un grafico dall'aspetto professionale che trasmette informazioni preziose in pochi passaggi. Che si tratti di reporting aziendale o scopi educativi, padroneggiare la creazione di grafici migliorerà le tue competenze di automazione Excel. Ricorda, Aspose.Cells fornisce la flessibilità di cui hai bisogno per creare file Excel sbalorditivi e basati sui dati senza sforzo.
+Creare un grafico a torta con Aspose.Cells per .NET è un processo semplice e personalizzabile. Seguendo questa guida, puoi generare un grafico dall'aspetto professionale che trasmette informazioni preziose in pochi passaggi. Che si tratti di reporting aziendale o scopi didattici, padroneggiare la creazione di grafici migliorerà le tue competenze di automazione Excel. Ricorda, Aspose.Cells fornisce la flessibilità di cui hai bisogno per creare file Excel sbalorditivi e basati sui dati senza sforzo.
 
 ## Domande frequenti
 

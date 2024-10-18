@@ -9,7 +9,7 @@ url: /hu/net/excel-workbook/add-web-extension/
 ---
 ## Bevezetés
 
-Ebben az útmutatóban végigvezetjük a webbővítmények hozzáadásának folyamatán egy Excel-munkafüzethez az Aspose.Cells for .NET segítségével. Akár egy hatékony adat-irányítópultot épít, akár automatizálja a jelentéskészítési feladatokat, ez az oktatóanyag az Excel-alkalmazások gazdagításához szükséges betekintést nyújt.
+Ebben az útmutatóban végigvezetjük a webbővítmények hozzáadásának folyamatán az Aspose.Cells for .NET segítségével Excel-munkafüzethez. Akár egy hatékony adat-irányítópultot épít, akár automatizálja a jelentéskészítési feladatokat, ez az oktatóanyag az Excel-alkalmazások gazdagításához szükséges betekintést nyújt.
 
 ## Előfeltételek
 

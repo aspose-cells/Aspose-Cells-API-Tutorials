@@ -91,7 +91,7 @@ Chart ch = ws.Charts[0];
 
 Encore une fois, si le graphique souhaité n’est pas le premier, modifiez simplement l’index en conséquence.
 
-## Étape 5 : Accéder à la série de graphiques
+## Étape 5 : Accéder à la série de graphiques
 
 Le graphique étant désormais accessible, vous devez aller plus loin pour modifier les étiquettes de données. La série représente les points de données de votre graphique.
 
@@ -136,7 +136,7 @@ Une fois que vous voyez ce message, accédez à votre répertoire de sortie pour
 
 ## Conclusion
 
-Et voilà, vous disposez d'un guide simple pour améliorer les étiquettes de données dans les graphiques Excel à l'aide d'Aspose.Cells pour .NET ! La personnalisation des types de formes rend non seulement vos graphiques plus attrayants visuellement, mais contribue également à transmettre plus efficacement l'histoire de vos données. N'oubliez pas que la visualisation des données est avant tout une question de clarté et d'engagement. N'hésitez donc pas à jouer avec différentes formes et styles : après tout, vos données méritent la meilleure présentation.
+Et voilà, vous disposez d'un guide simple pour améliorer les étiquettes de données dans les graphiques Excel à l'aide d'Aspose.Cells pour .NET ! La personnalisation des types de formes rend non seulement vos graphiques plus attrayants visuellement, mais contribue également à transmettre plus efficacement l'histoire de vos données. N'oubliez pas que la visualisation des données est avant tout une question de clarté et d'engagement. N'hésitez donc pas à jouer avec différentes formes et styles : après tout, vos données méritent la meilleure présentation possible.
 
 ## FAQ
 

@@ -35,7 +35,7 @@ Det första steget i vår kod innebär att skapa en instans av Workbook-objektet
 // Utdatakatalog
 string outputDir = "Your Document Directory"();
 
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 Denna kodrad talar om för vårt program att skapa en ny arbetsbok. Det är viktigt eftersom du kommer att lägga till intervall och värden i den här arbetsboken.

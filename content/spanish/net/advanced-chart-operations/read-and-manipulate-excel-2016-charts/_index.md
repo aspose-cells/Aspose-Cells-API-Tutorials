@@ -15,7 +15,7 @@ Excel es una herramienta poderosa para la visualización y presentación de dato
 
 Antes de comenzar con el código, asegurémonos de que todo esté listo. Estos son los requisitos previos que necesitará:
 
-1.  Aspose.Cells para .NET: Debes tener instalada esta biblioteca. Si aún no lo tienes, puedes descargarla[aquí](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells para .NET: Debes tener instalada esta librería. Si aún no lo tienes, puedes descargarla[aquí](https://releases.aspose.com/cells/net/).
 2. .NET Framework: asegúrate de tener .NET Framework instalado en tu entorno de desarrollo. Aspose.Cells admite varios frameworks, por lo que debes comprobar la compatibilidad.
 3. IDE: utilice un IDE como Visual Studio para escribir y ejecutar su código. 
 4. Conocimientos básicos de C#: comprender los fundamentos de la programación en C# hará que seguir este tutorial sea mucho más fácil.

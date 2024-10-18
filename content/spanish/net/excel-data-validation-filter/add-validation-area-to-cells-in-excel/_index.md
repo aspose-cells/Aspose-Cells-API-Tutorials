@@ -54,11 +54,11 @@ Ahora que tenemos nuestro libro de trabajo, es momento de acceder a la hoja de t
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-En este caso, tomamos la primera hoja de cálculo de nuestro libro de trabajo. Las hojas de cálculo son como las páginas de un libro, cada una contiene datos distintos. Este paso garantiza que esté trabajando en la hoja correcta.
+En este caso, vamos a tomar la primera hoja de cálculo de nuestro libro de trabajo. Las hojas de cálculo son como las páginas de un libro, cada una de las cuales contiene datos distintos. Este paso garantiza que esté trabajando en la hoja correcta.
 
 ## Paso 3: Acceda a la colección de validaciones
 
-continuación, debemos acceder a la colección de validaciones de la hoja de cálculo. Aquí es donde podemos administrar nuestras validaciones de datos:
+A continuación, debemos acceder a la colección de validaciones de la hoja de cálculo. Aquí es donde podemos administrar nuestras validaciones de datos:
 
 ```csharp
 Validation validation = worksheet.Validations[0];
@@ -84,7 +84,7 @@ Ahora, agreguemos el área de celda definida a nuestro objeto de validación. Es
 validation.AddArea(cellArea, false, false);
 ```
 
-Esta línea no solo le muestra a Aspose dónde aplicar la validación, sino que también permite saber si se deben anular las validaciones existentes. Un paso pequeño pero poderoso que ayuda a mantener el control sobre la integridad de los datos.
+Esta línea no solo muestra a Aspose dónde aplicar la validación, sino que también permite saber si se deben anular las validaciones existentes. Un paso pequeño pero poderoso que ayuda a mantener el control sobre la integridad de los datos.
 
 ## Paso 6: Guarda tu libro de trabajo
 
@@ -94,7 +94,7 @@ Después de todo ese arduo trabajo, debemos asegurarnos de que los cambios se gu
 workbook.Save(outputDir + "ValidationsSample_out.xlsx");
 ```
 
-En este punto, guardaremos el libro de trabajo modificado en un archivo nuevo. Siempre es una buena idea crear un archivo de salida independiente para no perder los datos originales.
+En este punto, guardamos el libro de trabajo modificado en un archivo nuevo. Siempre es una buena idea crear un archivo de salida independiente para no perder los datos originales.
 
 ## Paso 7: Mensaje de confirmación
 

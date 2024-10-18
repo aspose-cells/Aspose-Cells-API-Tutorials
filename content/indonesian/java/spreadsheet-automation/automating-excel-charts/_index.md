@@ -56,7 +56,7 @@ Worksheet worksheet = workbook.getWorksheets().add("ChartSheet");
 
 ### 4. Membuat Bagan
 
-Mari kita buat diagram pada lembar kerja. Misalnya, kita akan membuat diagram kolom:
+Mari kita buat bagan pada lembar kerja. Misalnya, kita akan membuat bagan kolom:
 
 ```java
 // Tambahkan bagan ke lembar kerja

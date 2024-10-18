@@ -92,7 +92,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 ## 6단계: 작업 창 추가 및 구성
 
-이제 웹 확장 프로그램을 Excel UI에서 대화형으로 표시하고 볼 수 있도록 작업 창을 추가해 보겠습니다.
+이제 웹 확장 기능을 Excel UI에서 상호 작용하고 볼 수 있도록 작업 창을 추가해 보겠습니다.
 
 ```csharp
 int taskPaneIndex = taskPanes.Add();
@@ -140,7 +140,7 @@ Aspose.Cells for .NET을 사용하여 Excel 통합 문서에 웹 확장 기능�
  네! Aspose.Cells는 유료 소프트웨어이며 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells는 어떤 프로그래밍 언어를 지원하나요?
-Aspose.Cells는 기본적으로 .NET 애플리케이션용이지만 Java 및 다른 언어용 버전도 있습니다.
+Aspose.Cells는 주로 .NET 애플리케이션용이지만 Java 및 다른 언어용 버전도 있습니다.
 
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?
 문제가 발생하거나 질문이 있는 경우 다음을 방문하세요.[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 도움이 필요하면.

@@ -9,20 +9,20 @@ url: /pl/net/setting-chart-appearance/set-chart-area/
 ---
 ## Wstęp
 
-Witamy w świecie manipulacji danymi z Aspose.Cells dla .NET! Jeśli kiedykolwiek chciałeś, aby Twoje arkusze kalkulacyjne były nie tylko funkcjonalne, ale i wizualnie efektowne, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w to, jak ustawiać obszary wykresów w programie Excel przy użyciu biblioteki Aspose.Cells — potężnego narzędzia dla programistów, którzy chcą ulepszyć swoje aplikacje o solidne możliwości arkusza kalkulacyjnego. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik podzieli wszystko na łatwe do opanowania kroki. Zaczynajmy!
+Witamy w świecie manipulacji danymi z Aspose.Cells dla .NET! Jeśli kiedykolwiek chciałeś, aby Twoje arkusze kalkulacyjne były nie tylko funkcjonalne, ale i wizualnie efektowne, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w to, jak ustawiać obszary wykresów w programie Excel za pomocą biblioteki Aspose.Cells — potężnego narzędzia dla programistów, którzy chcą ulepszyć swoje aplikacje o solidne możliwości arkusza kalkulacyjnego. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik podzieli wszystko na łatwe do opanowania kroki. Zaczynajmy!
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w szczegóły tworzenia wykresów, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto wymagania wstępne, które należy spełnić, aby skorzystać z tego samouczka:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Jest on niezbędny do pisania i wykonywania kodu .NET.
-2. .NET Framework: Ten przewodnik najlepiej działa z .NET Framework lub .NET Core. Upewnij się, że masz zainstalowaną wymaganą wersję (4.5 lub nowszą).
-3. Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+2. .NET Framework: Ten przewodnik działa najlepiej z .NET Framework lub .NET Core. Upewnij się, że masz zainstalowaną wymaganą wersję (4.5 lub nowszą).
+3.  Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
 4. Podstawowa wiedza o C#: Podstawowe zrozumienie programowania w C# pomoże Ci lepiej zrozumieć kroki. Nie martw się, jeśli nie jesteś profesjonalistą — wszystko Ci wyjaśnię!
 
 ## Importuj pakiety
 
-Teraz, gdy wszystko jest już skonfigurowane, pierwszym krokiem technicznym jest zaimportowanie niezbędnych pakietów. Pozwoli nam to wykorzystać funkcjonalności oferowane przez Aspose.Cells. Oto, jak to zrobić:
+Teraz, gdy wszystko jest już skonfigurowane, pierwszym krokiem technicznym jest zaimportowanie niezbędnych pakietów. Pozwoli nam to wykorzystać funkcjonalności oferowane przez Aspose.Cells. Oto, jak możesz to zrobić:
 
 1. Otwórz swój projekt: Uruchom program Visual Studio i otwórz lub utwórz nowy projekt.
 2. Zainstaluj Aspose.Cells: Jeśli jeszcze tego nie zrobiłeś, zainstaluj pakiet Aspose.Cells. Możesz to zrobić za pomocą NuGet Package Manager. Przejdź do Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution, wyszukaj „Aspose.Cells” i zainstaluj go w swoim projekcie.
@@ -95,7 +95,7 @@ Tutaj dodaliśmy wykres kolumnowy, który zaczyna się od wiersza 5, kolumny 0 i
 
 ## Krok 5: Uzyskaj dostęp do instancji wykresu
 
-Teraz, gdy stworzyliśmy wykres, możemy wejść z nim w interakcję.
+Teraz, gdy stworzyliśmy wykres, możemy zacząć z nim interakcję.
 
 Aby pracować z nowym wykresem, uzyskaj do niego dostęp za pomocą jego indeksu:
 
@@ -107,7 +107,7 @@ Teraz masz bezpośredni dostęp do możliwości modyfikowania i ulepszania swoje
 
 ## Krok 6: Powiąż dane z wykresem
 
-Twój wykres musi wiedzieć, które dane wizualizować. Powiążmy nasze wcześniej wprowadzone dane z wykresem.
+Twój wykres musi wiedzieć, jakie dane wizualizować. Powiążmy nasze wcześniej wprowadzone dane z wykresem.
 
 Oto jak możemy dodać serię do naszego wykresu, używając danych, które właśnie wprowadziliśmy:
 
@@ -123,7 +123,7 @@ To tutaj rzeczy naprawdę ożywają! Dostosowanie obszaru wykresu sprawia, że T
 
 ### Ustaw kolory dla obszaru wykresu
 
-Nadajmy Twojemu wykresowi trochę charakteru. Każdy obszar wykresu można dostosować za pomocą różnych kolorów:
+Nadajmy Twojemu wykresowi trochę stylu. Każdy obszar wykresu można dostosować za pomocą różnych kolorów:
 
 ```csharp
 chart.PlotArea.Area.ForegroundColor = Color.Blue;
@@ -153,7 +153,7 @@ Zapiszmy skoroszyt, aby nie stracić naszego dzieła:
 workbook.Save(outputDir + "outputSettingChartArea.xlsx");
 ```
 
-Spowoduje to zapisanie pliku Excel ze wszystkimi wykresami i danymi.
+Spowoduje to zapisanie pliku Excel ze wszystkimi wykresami i danymi w nienaruszonym stanie.
 
 ## Wniosek
 
@@ -171,7 +171,7 @@ Tak! Aspose.Cells ma biblioteki dla różnych platform, w tym Java, Python i Clo
  Oczywiście! Możesz eksplorować Aspose.Cells z dostępną bezpłatną wersją próbną[Tutaj](https://releases.aspose.com/).
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose.Cells?
- Pomocy i wsparcia możesz szukać w społeczności Aspose.Cells i na dostępnych forach[Tutaj](https://forum.aspose.com/c/cells/9).
+ Możesz szukać pomocy i wsparcia w społeczności Aspose.Cells i na dostępnych forach[Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Jak mogę zakupić licencję?
-Licencję można zakupić bezpośrednio na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).
+ Licencję można zakupić bezpośrednio na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).

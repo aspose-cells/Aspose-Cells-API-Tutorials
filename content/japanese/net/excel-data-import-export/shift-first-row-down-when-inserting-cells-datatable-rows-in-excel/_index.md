@@ -173,4 +173,4 @@ Aspose.Cells for .NET は、開発者が .NET アプリケーションで Excel 
 XLSX、XLS、CSV など、さまざまな Excel ファイル形式を作成できます。
 
 ### Aspose.Cells のサポートはどこで受けられますか?
-質問やヘルプが必要な場合は、[Aspose フォーラム](https://forum.aspose.com/c/cells/9).
+質問したり、ヘルプを見つけたりすることができます[Aspose フォーラム](https://forum.aspose.com/c/cells/9).

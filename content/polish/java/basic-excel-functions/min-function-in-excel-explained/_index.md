@@ -80,7 +80,7 @@ Po zastosowaniu wzoru należy ponownie obliczyć arkusz, aby uzyskać wynik:
 workbook.calculateFormula();
 ```
 
-### Krok 7: Uzyskaj wynik
+### Krok 7: Otrzymaj wynik
 
 Na koniec pobierz wynik funkcji MIN:
 

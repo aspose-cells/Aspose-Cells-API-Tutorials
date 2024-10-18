@@ -16,7 +16,7 @@ Aspose.Cells for .NET est un outil précieux pour la gestion de fichiers Excel p
 Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin. 
 
 1. Visual Studio ou tout autre environnement de développement intégré .NET (IDE) : assurez-vous de disposer d'un IDE approprié pour écrire et exécuter votre code C#.
-2. Aspose.Cells pour .NET : vous devrez télécharger et référencer la bibliothèque Aspose.Cells dans votre projet. Vous pouvez la télécharger à partir du[Sorties d'Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells pour .NET : vous devrez télécharger et référencer la bibliothèque Aspose.Cells dans votre projet. Vous pouvez la télécharger à partir du[Sorties d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : une connaissance de C# et des concepts de programmation orientée objet vous aidera à mieux comprendre les exemples.
 4. .NET Framework : ce didacticiel suppose que vous utilisez .NET Framework 4.5 ou une version ultérieure.
 
@@ -44,7 +44,7 @@ Tout d'abord, vous devez déterminer l'emplacement où vous souhaitez enregistre
 static string outputDir = "Your Document Directory"; // spécifiez ici votre répertoire de documents
 ```
 
- Remplacer`"Your Document Directory"` avec votre chemin de fichier actuel. C'est ici que le fichier Excel généré sera enregistré.
+ Remplacer`"Your Document Directory"` avec votre chemin de fichier réel. C'est ici que le fichier Excel généré sera enregistré.
 
 ## Étape 2 : créer une classe définie par l'utilisateur pour les éléments de données
 
@@ -116,7 +116,7 @@ Maintenant que tout est configuré, importons notre liste d’éléments de donn
 ws.Cells.ImportCustomObjects(dis, 0, 0, opts);
 ```
 
-Cette ligne importe efficacement les données à partir de la cellule A1.
+Cette ligne importe effectivement les données à partir de la cellule A1.
 
 ## Étape 8 : Calculer les formules
 
@@ -168,7 +168,7 @@ Et voilà ! Vous avez importé avec succès des données dans une feuille Excel 
 Aspose.Cells est une bibliothèque .NET conçue pour créer, manipuler et convertir des fichiers Excel par programmation.
 
 ### Comment installer Aspose.Cells pour .NET ?
- Vous pouvez le télécharger à partir du[Sorties d'Aspose](https://releases.aspose.com/cells/net/)et référencez-le dans votre projet.
+ Vous pouvez le télécharger à partir du[Sorties d'Aspose](https://releases.aspose.com/cells/net/) et référencez-le dans votre projet.
 
 ### Puis-je utiliser Aspose.Cells gratuitement ?
  Oui, Aspose propose un essai gratuit disponible sur[ce lien](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells est une bibliothèque .NET conçue pour créer, manipuler et conver
  Des exemples et de la documentation supplémentaires peuvent être trouvés sur le site[Page de documentation d'Aspose](https://reference.aspose.com/cells/net/).
 
 ### Que faire si je rencontre des problèmes lors de l’utilisation d’Aspose ?
- Vous pouvez demander de l'aide sur le forum d'assistance Aspose[ici](https://forum.aspose.com/c/cells/9).
+Vous pouvez demander de l'aide sur le forum d'assistance Aspose[ici](https://forum.aspose.com/c/cells/9).
  

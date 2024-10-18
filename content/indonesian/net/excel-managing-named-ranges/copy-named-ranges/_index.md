@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Kode ini akan memberi Anda akses ke kelas-kelas penting seperti`Workbook`, `Worksheet` , Dan`Range`, yang mana Anda perlu memanipulasi file Excel.
+Kode ini akan memberi Anda akses ke kelas-kelas penting seperti`Workbook`, `Worksheet` Dan`Range`, yang mana Anda perlu memanipulasi file Excel.
 
 Sekarang setelah prasyarat kita terpenuhi, mari kita uraikan prosesnya menjadi beberapa langkah yang mudah diikuti.
 ## Langkah 1: Siapkan Direktori Output Anda

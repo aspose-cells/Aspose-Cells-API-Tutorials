@@ -9,7 +9,7 @@ url: /pl/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 ---
 ## Wstęp
 
-Jeśli chodzi o programowe tworzenie i zarządzanie arkuszami kalkulacyjnymi programu Excel, Aspose.Cells dla .NET to potężna biblioteka, która znacznie ułatwia nam pracę. Niezależnie od tego, czy musisz generować raporty, manipulować danymi czy formatować wykresy, Aspose.Cells jest dla Ciebie. W tym samouczku zagłębiamy się w jedną konkretną funkcję: kontrolowanie współczynnika powiększenia arkusza kalkulacyjnego. Czy zdarzyło Ci się mrużyć oczy na małą komórkę lub frustrować się powiększeniem, które nie pasowało do Twoich danych? Cóż, wszyscy przez to przechodziliśmy! Więc pomóżmy Ci zarządzać poziomami powiększenia w arkuszach kalkulacyjnych programu Excel i ulepszyć Twoje wrażenia użytkownika.
+Jeśli chodzi o programowe tworzenie i zarządzanie arkuszami kalkulacyjnymi programu Excel, Aspose.Cells dla .NET to potężna biblioteka, która znacznie ułatwia nam pracę. Niezależnie od tego, czy musisz generować raporty, manipulować danymi czy formatować wykresy, Aspose.Cells ma dla Ciebie wsparcie. W tym samouczku zagłębiamy się w jedną konkretną funkcję: kontrolowanie współczynnika powiększenia arkusza kalkulacyjnego. Czy zdarzyło Ci się mrużyć oczy na małą komórkę lub frustrować się powiększeniem, które nie pasowało do Twoich danych? Cóż, wszyscy przez to przechodziliśmy! Więc pomóżmy Ci zarządzać poziomami powiększenia w arkuszach kalkulacyjnych programu Excel i ulepszyć Twoje wrażenia użytkownika.
 
 ## Wymagania wstępne
 
@@ -17,7 +17,7 @@ Zanim przejdziemy do kontrolowania współczynnika powiększenia arkusza kalkula
 
 1. Środowisko programistyczne .NET: Należy mieć skonfigurowane środowisko .NET, np. Visual Studio.
 2.  Biblioteka Aspose.Cells: Musisz zainstalować bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
-3. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# z pewnością pomoże Ci poruszać się po tym samouczku.
+3. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# z pewnością pomoże Ci w poruszaniu się po tym samouczku.
 4. Microsoft Excel: Choć nie będziemy używać programu Excel bezpośrednio w naszym kodzie, jego zainstalowanie może okazać się pomocne przy testowaniu wyników.
 
 ## Importuj pakiety
@@ -32,7 +32,7 @@ Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsoli. Możesz 
 
 Teraz czas dodać odniesienie do biblioteki Aspose.Cells. Możesz:
 
--  Pobierz bibliotekę DLL z[Tutaj](https://releases.aspose.com/cells/net/) i ręcznie dodaj go do projektu.
+-  Pobierz bibliotekę DLL z[Tutaj](https://releases.aspose.com/cells/net/) ręcznie dodaj go do projektu.
 - Możesz też użyć Menedżera pakietów NuGet i uruchomić następujące polecenie w konsoli Menedżera pakietów:
 
 ```bash
@@ -81,7 +81,7 @@ Ta linijka kodu przygotuje plik Excela do edycji.
  Ten`Workbook` obiekt jest sercem funkcjonalności Aspose.Cells. Reprezentuje plik Excel w sposób łatwy do opanowania.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 // Otwieranie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Skoroszyt jest już w pamięci, czas uzyskać dostęp do konkretnego arkusza, który chcesz zmodyfikować. W większości przypadków będzie to pierwszy arkusz (indeks 0).
 
 ```csharp
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

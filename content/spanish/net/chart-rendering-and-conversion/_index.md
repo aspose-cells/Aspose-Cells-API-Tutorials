@@ -17,11 +17,11 @@ Cuando trabaja con gráficos de Excel, necesita las herramientas adecuadas para 
 
 ## [Convertir gráfico a PDF](./convert-chart-to-pdf/)
 
-¿Necesita convertir su gráfico a formato PDF para compartirlo o imprimirlo? El tutorial Convertir gráfico a formato PDF le guiará por los sencillos pasos para transformar sus gráficos de Excel a formato PDF. Esta guía garantiza que sus gráficos conserven su calidad y formato al convertirlos, lo que los deja listos para su presentación con solo unos pocos clics.
+¿Necesita convertir su gráfico a formato PDF para compartirlo o imprimirlo? El tutorial Convertir gráfico a formato PDF le guiará por los sencillos pasos para transformar sus gráficos de Excel a formato PDF. Esta guía garantiza que sus gráficos conserven su calidad y formato al convertirlos, lo que los deja listos para su presentación con solo unos clics.
 
 ## [Crear un gráfico en formato PDF con el tamaño de página deseado](./create-chart-pdf-with-desired-page-size/)
 
-veces, es necesario controlar el tamaño del gráfico al guardarlo en formato PDF. Esta guía explica cómo crear un gráfico en formato PDF con las dimensiones de página exactas que desea. Si sigue el tutorial Crear un gráfico en formato PDF con el tamaño de página deseado, aprenderá a personalizar el formato PDF resultante para que se ajuste a sus necesidades específicas, lo que resulta perfecto para informes y presentaciones en los que la precisión es fundamental.
+veces, es necesario controlar el tamaño del gráfico al guardarlo en formato PDF. Esta guía explica cómo crear un gráfico en formato PDF con las dimensiones de página exactas que desea. Si sigue el tutorial Crear un gráfico en formato PDF con el tamaño de página deseado, aprenderá a personalizar el formato PDF de salida para que se ajuste a sus necesidades específicas, lo que resulta perfecto para informes y presentaciones en los que la precisión es fundamental.
 
 ## Tutoriales de conversión y representación de gráficos
 ### [Diagrama de renderizado](./render-chart/)

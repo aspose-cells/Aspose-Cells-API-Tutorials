@@ -49,7 +49,7 @@ using Aspose.Cells;
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// 디렉토리가 없으면 새로 만듭니다.
+//디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ if (!IsExists)
 다음으로 Workbook 클래스의 인스턴스를 만들 것입니다. 이 클래스는 수행할 모든 Excel 관련 작업의 중추입니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -77,21 +77,21 @@ Workbook workbook = new Workbook();
 int i = workbook.Worksheets.Add();
 ```
 
- 여기서 우리는 다음을 사용하고 있습니다.`Add()` 의 방법`Worksheets` 컬렉션이 현재 존재함`Workbook` 클래스. 이 메서드는 인덱스(`i`새로 추가된 시트의. 노트북에 페이지를 추가하는 것과 같습니다. 간단하고 효율적입니다!
+ 여기서 우리는 다음을 사용하고 있습니다.`Add()` 의 방법`Worksheets` 컬렉션이 현재 존재함`Workbook` 클래스. 이 메서드는 인덱스(`i`) 새로 추가된 시트의. 노트북에 페이지를 추가하는 것과 같습니다. 간단하고 효율적입니다!
 
 ## 4단계: 새 워크시트 이름 지정
 
 이름이 없는 시트는 무엇일까요? 새로 만든 워크시트에 이름을 붙여 쉽게 식별할 수 있도록 합시다.
 
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[i];
 
 // 새로 추가된 워크시트의 이름 설정
 worksheet.Name = "My Worksheet";
 ```
 
- 인덱스를 사용하여 새로 생성된 시트에 대한 참조를 얻습니다.`i`. 그런 다음, 간단히 "내 워크시트"로 이름을 설정합니다. 이런 식으로 시트 이름을 지정하는 것은 좋은 관행이며, 특히 컨텍스트가 중요한 더 큰 Excel 파일을 작업할 때 그렇습니다.
+ 인덱스를 사용하여 새로 생성된 시트에 대한 참조를 얻습니다.`i`그런 다음, 간단히 "내 워크시트"로 이름을 설정합니다. 이런 식으로 시트 이름을 지정하는 것은 좋은 관행이며, 특히 컨텍스트가 중요한 더 큰 Excel 파일을 작업할 때 그렇습니다.
 
 ## 5단계: Excel 파일 저장
 

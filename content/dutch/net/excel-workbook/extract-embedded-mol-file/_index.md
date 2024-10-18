@@ -13,11 +13,11 @@ Heb je ooit ingesloten bestanden, met name MOL-bestanden, uit een Excel-spreadsh
 
 ## Vereisten
 
-Voordat we in het extractieproces duiken, zorgen we ervoor dat je volledig bent uitgerust om het te volgen. Dit is wat je nodig hebt:
+Voordat we in het extractieproces duiken, zorgen we ervoor dat je volledig bent uitgerust om mee te doen. Dit is wat je nodig hebt:
 
 - Basiskennis van C#: Een beetje vertrouwdheid met C# helpt al een heel eind. Zelfs als je net begint, zou je het tempo moeten kunnen bijhouden.
 - Visual Studio: Zorg dat Visual Studio op uw systeem is geïnstalleerd. Het is noodzakelijk voor het schrijven en uitvoeren van uw C#-code.
--  Aspose.Cells voor .NET: Als u het nog niet hebt gedownload, ga dan naar de[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/) en download de nieuwste versie.
+- Aspose.Cells voor .NET: Als u het nog niet hebt gedownload, ga dan naar de[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/) en download de nieuwste versie.
 - .NET Framework: Zorg ervoor dat u een compatibele versie van .NET Framework hebt geïnstalleerd.
 -  Een Excel-bestand met ingebedde MOL-objecten: voor ons voorbeeld gebruiken we`EmbeddedMolSample.xlsx`Zorg ervoor dat u dit bestand gereed hebt voor de extractie.
 
@@ -66,7 +66,7 @@ Laten we het extractieproces opsplitsen in eenvoudig te volgen stappen.
 
 ## Stap 2: Laad de werkmap
 
- Zodra je je`workbook` Nadat u dit hebt ingesteld met ons voorbeeld-Excel-bestand, is de volgende stap het laden van de werkmap en het voorbereiden van de extractie:
+ Zodra je je`workbook` Nadat u dit hebt ingesteld met ons voorbeeld-Excelbestand, is de volgende stap het laden van de werkmap en het voorbereiden van de extractie:
 
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Met dit fragment gebruiken we een`foreach` lus om elk blad in onze werkmap te doorlopen. Door toegang te krijgen tot de`OleObjects`verzameling, krijgen we toegang tot alle ingesloten objecten op dat specifieke blad. 
+ Met dit fragment gebruiken we een`foreach` lus om elk blad in onze werkmap te doorlopen. Door toegang te krijgen tot de`OleObjects` verzameling, krijgen we toegang tot alle ingesloten objecten op dat specifieke blad. 
 
 ## Stap 4: OLE-objecten extraheren
 

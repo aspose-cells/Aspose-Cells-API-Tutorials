@@ -106,7 +106,7 @@ Abra el archivo de Excel generado para comprobar los resultados de la función C
 
 ## Solución de problemas comunes
 
-Si encuentra algún problema al usar Aspose.Cells para Java o implementar la función CONTAR.SI, consulte la documentación y los foros para obtener soluciones.
+Si encuentra algún problema al utilizar Aspose.Cells para Java o al implementar la función CONTAR.SI, consulte la documentación y los foros para obtener soluciones.
 
 ## Mejores prácticas para usar COUNTIF
 

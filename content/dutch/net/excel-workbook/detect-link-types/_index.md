@@ -9,7 +9,7 @@ url: /nl/net/excel-workbook/detect-link-types/
 ---
 ## Invoering
 
-Heb je ooit tot je knieën in een spreadsheet gezeten en hyperlinks door je hele Excel-document heen bestudeerd? Je bent niet de enige! Hyperlinks zijn cruciaal voor het verbeteren van de navigatie en het opnemen van dynamische bronnen in je spreadsheets. Maar begrijp je het verschil tussen deze links? Of je nu een beginnende Excel-liefhebber bent of een doorgewinterde professional, weten hoe je linktypen kunt detecteren en categoriseren kan je gegevensbeheer aanzienlijk stroomlijnen. Maak kennis met Aspose.Cells voor .NET, een krachtige bibliotheek die het werken met Excel-bestanden in .NET-toepassingen vereenvoudigt. In deze tutorial leiden we je door het detecteren van hyperlinktypen met Aspose.Cells. Aan het einde ben je uitgerust met de kennis om hyperlinks in je Excel-documenten efficiënt te verwerken.
+Heb je ooit tot je knieën in een spreadsheet gezeten en hyperlinks onderzocht die verspreid door je Excel-document stonden? Je bent niet de enige! Hyperlinks zijn cruciaal voor het verbeteren van de navigatie en het opnemen van dynamische bronnen in je spreadsheets. Maar begrijp je het verschil tussen deze links? Of je nu een beginnende Excel-liefhebber bent of een doorgewinterde professional, weten hoe je linktypen kunt detecteren en categoriseren kan je gegevensbeheer aanzienlijk stroomlijnen. Maak kennis met Aspose.Cells voor .NET, een krachtige bibliotheek die het werken met Excel-bestanden in .NET-toepassingen vereenvoudigt. In deze tutorial leiden we je door het detecteren van hyperlinktypen met Aspose.Cells. Aan het einde ben je uitgerust met de kennis om hyperlinks in je Excel-documenten efficiënt te verwerken.
 
 ## Vereisten
 
@@ -45,7 +45,7 @@ using System;
 
 Nu we deze imports hebben uitgevoerd, kunnen we als een pro aan de slag met ons Excel-bestand!
 
-En nu begint het plezier! We zullen het codefragment dat u hebt verstrekt, opsplitsen in een stapsgewijze handleiding. Elke stap zal duidelijk en beknopt uitleggen wat we doen.
+En nu begint het plezier! We zullen het codefragment dat u hebt aangeleverd, opsplitsen in een stapsgewijze handleiding. Elke stap zal duidelijk en beknopt uitleggen wat we doen.
 
 ## Stap 1: Definieer de bronmap
 
@@ -63,11 +63,11 @@ Deze regel verwijst naar de directory die het Excel-bestand bevat. Zorg ervoor d
 Vervolgens laden we onze werkmap. Dit is alsof u uw Excel-bestand op de achtergrond opent, zodat we de inhoud ervan kunnen lezen en bewerken.
 
 ```csharp
-//Laad de werkmap
+// Laad de werkmap
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Dit is wat er gebeurt: we maken een exemplaar van de`Workbook` klasse en het pad van ons Excel-bestand doorgeven. Als alles soepel verloopt, is uw werkmap nu open voor zaken!
+Dit is wat er gebeurt: we maken een exemplaar van de`Workbook` klasse en het pad van ons Excel-bestand doorgeven. Als alles soepel verloopt, is uw werkmap nu open voor zaken!
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -96,7 +96,7 @@ Met dit bereik kunnen we eenvoudig hyperlinks binnen deze cellen ophalen.
 Hier komt het spannende gedeelte: de hyperlinks eruit halen! We halen de hyperlinks uit ons gedefinieerde bereik.
 
 ```csharp
-// Hyperlinks binnen bereik krijgen
+//Hyperlinks binnen bereik krijgen
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 
@@ -113,7 +113,7 @@ foreach (Hyperlink link in hyperlinks)
 }
 ```
 
- Deze lus neemt elke hyperlink, opent de eigenschappen ervan en geeft ze weer in de console.`TextToDisplay` eigenschap geeft ons de tekst die zichtbaar is in de cel, terwijl`LinkType` vertelt ons wat voor soort hyperlink het is (bijv. extern, intern, e-mail, enz.). Het is alsof u vertelt of de link naar een andere webpagina leidt, naar een ander deel van dezelfde spreadsheet of naar een e-mailconcept!
+ Deze lus neemt elke hyperlink, opent de eigenschappen ervan en geeft ze weer in de console.`TextToDisplay` eigenschap geeft ons de tekst die zichtbaar is in de cel, terwijl`LinkType` vertelt ons wat voor soort hyperlink het is (bijv. extern, intern, e-mail, enz.). Het is alsof u te horen krijgt of de link naar een andere webpagina leidt, naar een ander deel van dezelfde spreadsheet of naar een e-mailconcept!
 
 ## Stap 7: Definitieve bevestigingsbericht
 
@@ -141,7 +141,7 @@ U kunt Aspose.Cells installeren via NuGet in Visual Studio door te zoeken naar '
 Absoluut! Aspose.Cells kan Excel-bestanden lezen en maken, wat uitgebreide gegevensmanipulatie- en rapportagemogelijkheden mogelijk maakt.
 
 ### Met welke soorten hyperlinks kan ik werken?  
-kunt werken met interne, externe, e-mail- en zelfs koppelingstypen naar andere documenten in uw Excel-bestanden.
+U kunt werken met interne, externe, e-mail- en zelfs koppelingstypen naar andere documenten in uw Excel-bestanden.
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Cells?  
  Voor ondersteuning kunt u terecht op het Aspose-forum[hier](https://forum.aspose.com/c/cells/9).

@@ -73,7 +73,7 @@ Met deze regel wordt het Excel-bestand geopend en voorbereid op wijzigingen.
 
 ## Stap 3: Het aantal werkbladen verkrijgen
 
-Nu we onze werkmap hebben, gaan we kijken hoeveel werkbladen deze bevat:
+Nu we een werkboek hebben, gaan we kijken hoeveel werkbladen het bevat:
 
 ```csharp
 //Ontvang de aantallen vellen van de werkmap
@@ -93,7 +93,7 @@ for (int i = 0; i < sheetCount; i++)
     Worksheet ws = wb.Worksheets[i];
 ```
 
-In deze lus bekijken we elk werkblad één voor één.
+In deze lus benaderen we elk werkblad één voor één.
 
 ## Stap 5: Toegang tot en controle van printerinstellingen
 
@@ -141,7 +141,7 @@ En zo is uw nieuwe bestand, zonder oude printerinstellingen, opgeslagen in de op
 
 ## Conclusie
 
-En daar heb je het! Je hebt met succes de ins en outs van het verwijderen van printerinstellingen uit Excel-werkbladen doorlopen met Aspose.Cells voor .NET. Het is verbazingwekkend hoe slechts een paar regels code je documenten kunnen opruimen en je afdrukproces veel soepeler kunnen maken, toch? Vergeet niet dat met grote kracht (zoals die van Aspose.Cells) ook grote verantwoordelijkheid gepaard gaat. Test je code dus altijd voordat je deze in een productieomgeving implementeert.
+En daar heb je het! Je hebt met succes de ins en outs van het verwijderen van printerinstellingen uit Excel-werkbladen doorlopen met Aspose.Cells voor .NET. Het is verbazingwekkend hoe slechts een paar regels code je documenten kunnen opruimen en je afdrukproces veel soepeler kunnen maken, toch? Vergeet niet dat met grote kracht (zoals die van Aspose.Cells) ook grote verantwoordelijkheid komt. Test je code dus altijd voordat je deze in een productieomgeving implementeert.
 
 ## Veelgestelde vragen
 

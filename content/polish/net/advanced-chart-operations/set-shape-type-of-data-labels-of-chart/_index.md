@@ -15,7 +15,7 @@ url: /pl/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 
 Zanim przejdziemy do kodowania, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Oto, czego będziesz potrzebować:
 
-1.  Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz je ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Ta biblioteka pozwala na wszelkiego rodzaju manipulacje dokumentami Excela.
+1.  Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz je ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Ta biblioteka umożliwia wszelkiego rodzaju manipulacje dokumentami Excela.
 2. Visual Studio: Powinieneś mieć go zainstalowanego w swoim systemie, aby pisać i uruchamiać aplikacje .NET. Upewnij się, że jest to wersja, która obsługuje .NET Framework lub .NET Core zgodnie z potrzebami Twojego projektu.
 3. Podstawowa znajomość języka C#: Znajomość podstawowych pojęć programowania i składni języka C# z pewnością pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. Plik Excel: Będziesz także potrzebować przykładowego skoroszytu Excela, z którym będziesz pracować. Możesz utworzyć własny lub użyć dowolnego istniejącego.
@@ -69,7 +69,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xl
 
  Ta linia tworzy nowy`Workbook` obiekt i wskazuje na istniejący plik. Upewnij się, że ścieżka do pliku jest poprawna!
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Teraz, gdy mamy już skoroszyt, musimy uzyskać dostęp do arkusza zawierającego wykres, który chcemy dostosować.
 
@@ -141,7 +141,7 @@ oto masz — prosty przewodnik po ulepszaniu etykiet danych na wykresach Excela 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?  
-Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe manipulowanie plikami Excela.
+Aspose.Cells to potężna biblioteka .NET umożliwiająca programistom programowe manipulowanie plikami Excela.
 
 ### Czy mogę zmieniać różne aspekty wykresu programu Excel za pomocą programu Aspose?  
 Oczywiście! Aspose.Cells oferuje rozbudowane funkcjonalności do modyfikowania wykresów, w tym serie danych, etykiety, style i wiele więcej.

@@ -33,7 +33,7 @@ Workbook workbook = new Workbook("your-file.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Stap 4: Toegang tot de draaitabel
+## Stap 4: Toegang krijgen tot de draaitabel
 Om met de draaitabel te werken, moet u deze openen in uw werkblad. Stel dat uw draaitabel de naam "PivotTable1" heeft.
 
 ```java
@@ -67,13 +67,13 @@ Gefeliciteerd! U hebt geleerd hoe u berekende velden in draaitabellen kunt maken
    U kunt complexere formules maken door functies en veldverwijzingen in het berekende veld te combineren.
 
 ### Kan ik een berekend veld verwijderen als ik het niet meer nodig heb?
-   Ja, u kunt een berekend veld uit de draaitabel verwijderen door de`pivotFields` verzameling en het verwijderen van het veld op naam.
+   Ja, u kunt een berekend veld uit de draaitabel verwijderen door de`pivotFields` verzameling en verwijdering van het veld op naam.
 
 ### Is Aspose.Cells voor Java geschikt voor grote datasets?
    Ja, Aspose.Cells voor Java is ontworpen om grote Excel-bestanden en datasets efficiënt te verwerken.
 
 ### Zijn er beperkingen voor berekende velden in draaitabellen?
-   Berekende velden hebben enkele beperkingen, zoals het niet ondersteunen van bepaalde typen berekeningen. Controleer de documentatie voor details.
+   Berekende velden hebben enkele beperkingen, zoals het niet ondersteunen van bepaalde typen berekeningen. Controleer de documentatie voor meer informatie.
 
 ### Waar kan ik meer informatie vinden over Aspose.Cells voor Java?
     U kunt de API-documentatie bekijken op[Aspose.Cells voor Java-documentatie](https://reference.aspose.com/cells/java/).

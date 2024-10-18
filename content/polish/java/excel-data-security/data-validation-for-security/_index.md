@@ -10,7 +10,7 @@ url: /pl/java/excel-data-security/data-validation-for-security/
 
 ## Wstęp
 
-W erze, w której dane są siłą napędową firm i organizacji, zapewnienie ich bezpieczeństwa i dokładności jest najważniejsze. Walidacja danych jest krytycznym aspektem tego procesu. W tym artykule zbadano, w jaki sposób Aspose.Cells for Java można wykorzystać do wdrożenia solidnych mechanizmów walidacji danych.
+W erze, w której dane są krwiobiegiem firm i organizacji, zapewnienie ich bezpieczeństwa i dokładności jest najważniejsze. Walidacja danych jest krytycznym aspektem tego procesu. W tym artykule zbadano, w jaki sposób Aspose.Cells for Java można wykorzystać do wdrożenia solidnych mechanizmów walidacji danych.
 
 ## Czym jest walidacja danych?
 
@@ -76,7 +76,7 @@ customValidation.setFormula1("=ISNUMBER(A1)"); // Zdefiniuj tutaj swoją niestan
 
 ## Obsługa błędów walidacji danych
 
-Gdy walidacja danych się nie powiedzie, ważne jest, aby obsługiwać błędy w sposób łagodny. Możesz ustawić niestandardowe komunikaty o błędach i style:
+Gdy walidacja danych się nie powiedzie, ważne jest, aby obsługiwać błędy z gracją. Możesz ustawić niestandardowe komunikaty o błędach i style:
 
 ```java
 dataValidation.setShowDropDown(true);
@@ -97,7 +97,7 @@ validationList.setFormula1("List1"); // Zdefiniuj źródło swojej listy
 validationList.setShowDropDown(true);
 ```
 
-## Ochrona arkuszy i skoroszytów
+## Ochrona arkuszy kalkulacyjnych i skoroszytów
 
 Aby jeszcze bardziej zwiększyć bezpieczeństwo, chroń swoje arkusze kalkulacyjne i skoroszyty. Aspose.Cells for Java zapewnia solidne mechanizmy ochrony.
 

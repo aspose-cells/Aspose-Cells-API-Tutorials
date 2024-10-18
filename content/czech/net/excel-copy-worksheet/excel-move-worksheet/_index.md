@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Vysvětlení: 
 
- Tento řádek přiděluje řetězcovou proměnnou`dataDir` pro uložení cesty k adresáři dokumentů. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je uložen váš soubor Excel. Je to jako dávat někomu pokyny; musíte svému kódu sdělit, kde přesně hledat soubory.
+Tento řádek přiděluje řetězcovou proměnnou`dataDir` pro uložení cesty k adresáři dokumentů. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je uložen váš soubor Excel. Je to jako dávat někomu pokyny; musíte svému kódu sdělit, kde přesně hledat soubory.
 
 ## Krok 2: Načtěte sešit
 
@@ -68,7 +68,7 @@ Vysvětlení:
 
  Tady,`Workbook` objekt (`wb` ) se vytvoří načtením souboru Excel určeného pomocí`InputPath` . Myslete na to`Workbook` jako digitální verzi knihy, kterou chcete upravit. V podstatě otevíráte svou knihu, abyste na ní mohli pracovat.
 
-## Krok 3: Přístup ke kolekci Worksheet Collection
+## Krok 3: Vstupte do kolekce Worksheet Collection
 
 ```csharp
 WorksheetCollection sheets = wb.Worksheets;
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Vysvětlení:  
 
-Tento řádek načte první list z kolekce. Indexování v programování často začíná od nuly, proto používáme`[0]`. Považujte to za výběr první kapitoly ve vaší knize, připravenou k úpravě.
+ Tento řádek načte první list z kolekce. Indexování v programování často začíná od nuly, proto používáme`[0]`. Považujte to za výběr první kapitoly ve vaší knize, připravenou k úpravě.
 
 ## Krok 5: Přesuňte list
 
@@ -106,11 +106,11 @@ wb.Save(dataDir + "MoveWorksheet_out.xls");
 
 Vysvětlení:  
 
- Nakonec uložíme náš sešit s novým názvem,`MoveWorksheet_out.xls`. Tento krok dokončí vaše změny a zapíše je do nového souboru aplikace Excel. Je to podobné, jako když odložíte hotový rukopis své knihy na polici.
+ Nakonec náš sešit uložíme pod novým názvem,`MoveWorksheet_out.xls`. Tento krok dokončí vaše změny a zapíše je do nového souboru aplikace Excel. Je to podobné, jako když odložíte hotový rukopis své knihy na polici.
 
 ## Závěr
 
-tady to máte! Nyní máte solidní přehled o tom, jak přesouvat listy v souboru aplikace Excel pomocí Aspose.Cells for .NET. Nejen, že jste se dozvěděli o programové správě souborů aplikace Excel, ale také jste se zabývali jazykem C# a některými praktickými koncepty programování. Tato dovednost je neuvěřitelně přínosná, zvláště když se správa dat neustále vyvíjí.
+A tady to máte! Nyní máte solidní přehled o tom, jak přesouvat listy v souboru aplikace Excel pomocí Aspose.Cells for .NET. Nejen, že jste se dozvěděli o programové správě souborů aplikace Excel, ale také jste se zabývali jazykem C# a některými praktickými koncepty programování. Tato dovednost je neuvěřitelně přínosná, zvláště když se správa dat neustále vyvíjí.
 
 ## FAQ
 

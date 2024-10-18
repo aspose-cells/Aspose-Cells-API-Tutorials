@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Denna kod ger dig tillgång till viktiga klasser som t.ex`Workbook`, `Worksheet` , och`Range`, som du behöver för att manipulera Excel-filer.
+Denna kod ger dig tillgång till viktiga klasser som t.ex`Workbook`, `Worksheet` och`Range`, som du behöver för att manipulera Excel-filer.
 
 Nu när vi har våra förutsättningar sorterade, låt oss dela upp processen i lätta att följa steg.
 ## Steg 1: Konfigurera din utdatakatalog

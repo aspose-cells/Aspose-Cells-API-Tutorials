@@ -1,7 +1,7 @@
 ---
 title: Recuperar dados de células no Excel
 linktitle: Recuperar dados de células no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como recuperar dados de células do Excel usando o Aspose.Cells para .NET neste tutorial passo a passo, perfeito para iniciantes e desenvolvedores experientes.
 type: docs
 weight: 10
@@ -36,7 +36,7 @@ Com esses namespaces importados, você está pronto para começar a codificar. V
 
 ## Etapa 1: configure seu diretório de documentos
 
-O primeiro passo é definir o caminho para o diretório de documentos onde seu arquivo Excel está localizado. Isso é crucial porque diz ao aplicativo onde encontrar o arquivo com o qual você quer trabalhar.
+primeiro passo é definir o caminho para o diretório de documentos onde seu arquivo Excel está localizado. Isso é crucial porque diz ao aplicativo onde encontrar o arquivo com o qual você quer trabalhar.
 
 
 ```csharp
@@ -44,7 +44,7 @@ O primeiro passo é definir o caminho para o diretório de documentos onde seu a
 string dataDir = "Your Document Directory";
 ```
 
- Substituir`"Your Document Directory"` com o caminho real onde seu`book1.xls` arquivo é armazenado. Este caminho é onde o Aspose.Cells procurará o arquivo quando você tentar abri-lo.
+ Substituir`"Your Document Directory"` com o caminho real onde seu`book1.xls` o arquivo é armazenado. Este caminho é onde o Aspose.Cells procurará o arquivo quando você tentar abri-lo.
 
 ## Etapa 2: Abra a pasta de trabalho existente
 
@@ -56,7 +56,7 @@ Agora que você configurou o diretório do documento, o próximo passo é abrir 
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Aqui, criamos um`Workbook`objeto passando o caminho completo do arquivo Excel. Esta etapa inicializa a pasta de trabalho e a deixa pronta para recuperação de dados.
+ Aqui, criamos um`Workbook` objeto passando o caminho completo do arquivo Excel. Esta etapa inicializa a pasta de trabalho e a deixa pronta para recuperação de dados.
 
 ## Etapa 3: Acesse a primeira planilha
 
@@ -68,7 +68,7 @@ Após abrir a pasta de trabalho, você vai querer acessar a planilha específica
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- O`Worksheets` coleção permite que você acesse diferentes planilhas na pasta de trabalho. O índice`[0]` refere-se à primeira planilha. Se você quiser acessar planilhas subsequentes, você pode alterar o índice de acordo.
+ O`Worksheets` coleção permite que você acesse diferentes planilhas na pasta de trabalho. O índice`[0]`refere-se à primeira planilha. Se você quiser acessar planilhas subsequentes, você pode alterar o índice de acordo.
 
 ## Etapa 4: Loop através das células
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Avaliando o tipo de dados da célula para valor de data/hora
+        // Avaliando o tipo de dados da célula para valor de data/hora
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Nesta etapa, fazemos um loop em cada célula da planilha. Para cada célula, verificamos seu tipo de dados usando um`switch` declaração. Dependendo do tipo, recuperamos o valor e o imprimimos no console. Aqui está uma análise dos casos:
+ Nesta etapa, fazemos um loop em cada célula da planilha. Para cada célula, verificamos seu tipo de dados usando um`switch`declaração. Dependendo do tipo, recuperamos o valor e o imprimimos no console. Aqui está uma análise dos casos:
 
 -  IsString: Se a célula contiver uma string, nós a recuperamos usando`StringValue`.
 -  IsNumeric: Para valores numéricos, usamos`DoubleValue`.
@@ -143,7 +143,7 @@ Recuperar dados de células do Excel usando o Aspose.Cells para .NET é um proce
 Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manipular e converter arquivos do Excel sem precisar instalar o Microsoft Excel.
 
 ### Posso usar o Aspose.Cells gratuitamente?  
- Sim, o Aspose.Cells oferece um teste gratuito que você pode usar para testar seus recursos. Você pode baixá-lo[aqui](https://releases.aspose.com/).
+Sim, o Aspose.Cells oferece um teste gratuito que você pode usar para testar seus recursos. Você pode baixá-lo[aqui](https://releases.aspose.com/).
 
 ### Que tipos de dados posso recuperar de células do Excel?  
 Você pode recuperar vários tipos de dados, incluindo strings, números, booleanos e valores de data/hora.

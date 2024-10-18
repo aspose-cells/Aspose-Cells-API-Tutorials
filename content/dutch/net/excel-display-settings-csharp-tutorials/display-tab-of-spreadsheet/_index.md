@@ -61,7 +61,7 @@ In Excel kunnen de tabbladen onderaan (Sheet1, Sheet2, etc.) worden verborgen of
 workbook.Settings.ShowTabs = true;
 ```
 
- Instelling`ShowTabs` naar`true`zorgt ervoor dat de tabbladen zichtbaar zijn wanneer u het Excel-bestand opent.
+ Instelling`ShowTabs` naar`true` zorgt ervoor dat de tabbladen zichtbaar zijn wanneer u het Excel-bestand opent.
 
 ## Stap 4: Sla het gewijzigde Excel-bestand op
 
@@ -80,7 +80,7 @@ En daar heb je het! Je hebt de tabbladen in een Excel-spreadsheet succesvol weer
 ## Veelgestelde vragen
 
 ### Kan ik de tabbladen in Excel verbergen met Aspose.Cells voor .NET?
- Absoluut! Gewoon instellen`workbook.Settings.ShowTabs = false;`en sla het bestand op. Hierdoor worden de tabbladen verborgen wanneer de werkmap wordt geopend.
+ Absoluut! Gewoon instellen`workbook.Settings.ShowTabs = false;` en sla het bestand op. Hierdoor worden de tabbladen verborgen wanneer de werkmap wordt geopend.
 
 ### Ondersteunt Aspose.Cells andere Excel-functies zoals grafieken en draaitabellen?
 Ja, Aspose.Cells is een uitgebreide bibliotheek die vrijwel alle Excel-functies ondersteunt, waaronder grafieken, draaitabellen, formules en meer.

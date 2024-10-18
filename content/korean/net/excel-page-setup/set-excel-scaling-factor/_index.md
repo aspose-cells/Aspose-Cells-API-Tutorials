@@ -16,7 +16,7 @@ Excel 파일을 프로그래밍 방식으로 처리하는 경우 Aspose.Cells fo
 실제적인 단계를 살펴보기 전에 꼭 갖춰야 할 몇 가지 전제 조건이 있습니다.
 
 1. Visual Studio 설치: 이 환경 내에서 코드를 작성하므로 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요.
-2.  Aspose.Cells for .NET 라이브러리: Aspose.Cells 라이브러리 사본을 얻으세요. 다음에서 다운로드할 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/cells/net/) . 확실하지 않으면 다음으로 시작할 수 있습니다.[무료 체험](https://releases.aspose.com/).
+2.  .NET용 Aspose.Cells 라이브러리: Aspose.Cells 라이브러리 사본을 얻으세요. 다음에서 다운로드할 수 있습니다.[Aspose 릴리스 페이지](https://releases.aspose.com/cells/net/) . 확실하지 않으면 다음으로 시작할 수 있습니다.[무료 체험](https://releases.aspose.com/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 대한 기본적인 이해가 있으면 유익하며, 특히 라이브러리 작업을 처음 접하는 경우 더욱 그렇습니다.
 4. .NET Framework: 라이브러리와 호환되는 버전의 .NET Framework를 프로젝트에서 타겟으로 삼고 있는지 확인하세요.
 
@@ -28,7 +28,7 @@ Excel 파일을 프로그래밍 방식으로 처리하는 경우 Aspose.Cells fo
 
 ### DLL을 다운로드하세요
 
-1.  로 이동[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) .NET 버전에 적합한 패키지를 다운로드하세요.
+1.  로 이동[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) .NET 버전에 맞는 패키지를 다운로드하세요.
 2. 다운로드한 파일을 추출하고 다음을 찾으세요.`Aspose.Cells.dll` 파일.
 
 ### Visual Studio에서 참조 추가
@@ -58,14 +58,14 @@ Excel 워크시트에서 배율 요소를 설정하는 과정을 관리 가능�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 교체했는지 확인하세요`"YOUR DOCUMENT DIRECTORY"` Excel 파일을 저장할 컴퓨터의 실제 경로를 입력합니다.
+교체했는지 확인하세요`"YOUR DOCUMENT DIRECTORY"` Excel 파일을 저장할 컴퓨터의 실제 경로를 입력합니다.
 
 ## 2단계: 새 통합 문서 개체 만들기
 
 이제 새 통합 문서를 만들 시간입니다. 기본적으로 모든 데이터와 설정이 저장되는 곳입니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel 파일에는 여러 워크시트가 포함될 수 있습니다. 우리는 첫 번째 워크시트에 액세스하여 스케일링 인수를 적용합니다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -108,7 +108,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 
 그리고 그게 전부입니다! Aspose.Cells for .NET을 사용하여 Excel 워크시트의 배율 인수를 성공적으로 설정했습니다. 이 라이브러리는 Excel 파일을 관리하고 조작하는 것을 매우 쉽게 만들어 복잡한 Excel 서식 코드에 얽매이지 않고 애플리케이션 개발에 집중할 수 있도록 합니다.
 
-스케일링 요소를 조정하는 기능은 Aspose.Cells가 제공하는 여러 기능 중 하나일 뿐입니다. 더 자세히 살펴보면 애플리케이션이 Excel 파일을 처리하는 방식을 향상시킬 수 있는 수많은 기능을 발견하게 될 것입니다.
+스케일링 요소를 조정하는 기능은 Aspose.Cells가 제공하는 많은 기능 중 하나일 뿐입니다. 더 탐색하면 응용 프로그램이 Excel 파일을 처리하는 방식을 향상시킬 수 있는 수많은 기능을 발견하게 될 것입니다.
 
 ## 자주 묻는 질문
 
@@ -122,7 +122,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
  물론입니다! 무료 체험판을 받으실 수 있습니다[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells에 대한 문서는 어디에서 찾을 수 있나요?  
-문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
+ 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells에 대한 기술 지원은 어떻게 받을 수 있나요?  
  도움이 필요하면 다음을 통해 연락할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9).

@@ -10,7 +10,7 @@ url: /it/java/excel-data-security/workbook-encryption-methods/
 
 ## Introduzione ai metodi di crittografia delle cartelle di lavoro
 
-Nell'era digitale odierna, la sicurezza dei dati è fondamentale. Quando si tratta di gestire informazioni sensibili nelle cartelle di lavoro di Excel, la crittografia diventa una componente critica. Aspose.Cells per Java, una potente API Java per lavorare con file Excel, fornisce vari metodi per proteggere le cartelle di lavoro tramite crittografia. In questa guida completa, esploreremo i diversi metodi di crittografia delle cartelle di lavoro offerti da Aspose.Cells per Java e mostreremo come implementarli nelle applicazioni Java.
+Nell'era digitale odierna, la sicurezza dei dati è fondamentale. Quando si tratta di gestire informazioni sensibili nelle cartelle di lavoro di Excel, la crittografia diventa un componente critico. Aspose.Cells per Java, una potente API Java per lavorare con file Excel, fornisce vari metodi per proteggere le cartelle di lavoro tramite crittografia. In questa guida completa, esploreremo i diversi metodi di crittografia delle cartelle di lavoro offerti da Aspose.Cells per Java e mostreremo come implementarli nelle applicazioni Java.
 
 ## Informazioni sulla crittografia della cartella di lavoro
 
@@ -73,7 +73,7 @@ workbook.save("path/to/encrypted/workbook.xlsx");
 
 ## Conclusione
 
-Proteggere le tue cartelle di lavoro Excel con la crittografia è un passaggio cruciale per salvaguardare i dati sensibili. Aspose.Cells per Java semplifica questo processo offrendo vari metodi di crittografia che puoi facilmente integrare nelle tue applicazioni Java. Che tu preferisca la crittografia basata su password o la crittografia AES avanzata, Aspose.Cells ha quello che fa per te.
+Proteggere le tue cartelle di lavoro Excel con la crittografia è un passaggio cruciale per salvaguardare i dati sensibili. Aspose.Cells per Java semplifica questo processo offrendo vari metodi di crittografia che puoi facilmente integrare nelle tue applicazioni Java. Che tu preferisca la crittografia basata su password o la crittografia AES avanzata, Aspose.Cells ti copre.
 
 ## Domande frequenti
 
@@ -87,7 +87,7 @@ No, una volta che una cartella di lavoro è crittografata con un metodo specific
 
 ### Esiste un limite alla lunghezza e alla complessità della password di crittografia?
 
-Sebbene non vi siano limiti rigidi, si consiglia di utilizzare una password complessa e univoca per aumentare la sicurezza.
+Sebbene non ci siano limiti rigidi, si consiglia di utilizzare una password complessa e univoca per aumentare la sicurezza.
 
 ### Posso decifrare una cartella di lavoro crittografata senza la password?
 

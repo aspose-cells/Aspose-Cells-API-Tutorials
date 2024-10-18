@@ -41,7 +41,7 @@ using Aspose.Cells;
 
 Agora que temos tudo configurado, vamos proteger uma linha específica em nossa planilha do Excel passo a passo. O exemplo que usaremos bloqueia a primeira linha, mas você pode ajustá-lo para qualquer linha que desejar.
 
-## Etapa 1: Defina o diretório de documentos
+## Etapa 1: Defina o diretório do documento
 
 Primeiro, precisamos definir um diretório onde armazenaremos nosso arquivo Excel. Veja como fazer:
 
@@ -49,7 +49,7 @@ Primeiro, precisamos definir um diretório onde armazenaremos nosso arquivo Exce
 // O caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // mude para o caminho desejado.
 
-// Crie um diretório se ele ainda não estiver presente.
+//Crie um diretório se ele ainda não estiver presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -57,7 +57,7 @@ if (!isExists)
 
  Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde você deseja salvar seu novo arquivo Excel.
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, criaremos uma nova pasta de trabalho usando Aspose.Cells. Esta é sua tela em branco para criar uma planilha.
 
@@ -142,8 +142,8 @@ Sim, você pode repetir o processo de bloqueio para quaisquer outras linhas da m
 ### E se eu quiser proteger e desbloquear células específicas em vez de linhas?  
 Você pode selecionar células individualmente e aplicar estilos de bloqueio, semelhante a como você bloqueia uma linha.
 
-### Aspose.Cells é gratuito?  
-Aspose.Cells é um produto comercial, mas você pode experimentá-lo com uma avaliação gratuita disponível[aqui](https://releases.aspose.com/).
+### O Aspose.Cells é gratuito?  
+ Aspose.Cells é um produto comercial, mas você pode experimentá-lo com uma avaliação gratuita disponível[aqui](https://releases.aspose.com/).
 
 ### Preciso de uma conexão com a internet para usar o Aspose.Cells?  
 Não, Aspose.Cells é uma biblioteca .NET e pode funcionar offline depois de instalada.

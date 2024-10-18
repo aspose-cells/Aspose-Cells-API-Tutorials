@@ -9,7 +9,7 @@ url: /vi/net/excel-copy-worksheet/
 ---
 ## Giới thiệu
 
-Khi nói đến việc quản lý các tệp Excel bằng .NET, Aspose.Cells nổi bật như một thư viện mạnh mẽ có thể xử lý mọi thứ từ các tác vụ đơn giản đến các hoạt động tự động hóa phức tạp. Nhưng bạn phải bắt đầu từ đâu? Đừng lo lắng, chúng tôi đã hỗ trợ bạn với một loạt các hướng dẫn được thiết kế dành riêng cho các nhà phát triển .NET như bạn!
+Khi nói đến việc quản lý các tệp Excel bằng .NET, Aspose.Cells nổi bật như một thư viện mạnh mẽ có thể xử lý mọi thứ từ các tác vụ đơn giản đến các hoạt động tự động hóa phức tạp. Nhưng bạn sẽ bắt đầu từ đâu? Đừng lo lắng, chúng tôi sẽ hỗ trợ bạn với một loạt các hướng dẫn được thiết kế dành riêng cho các nhà phát triển .NET như bạn!
 
 ## Sao chép các trang tính dễ dàng
 
@@ -17,7 +17,7 @@ Khi nói đến việc quản lý các tệp Excel bằng .NET, Aspose.Cells n�
 
 ## Tối ưu hóa việc quản lý Excel của bạn
 
-Tiếp theo, chúng tôi cung cấp hướng dẫn về việc đáp ứng các yêu cầu phức tạp hơn như sao chép nhiều bảng tính. Nếu bạn đã từng phải quản lý nhiều bảng tính cùng lúc, bạn sẽ biết điều này có thể tẻ nhạt như thế nào. Rất may, hướng dẫn của chúng tôi về[Excel Sao chép các trang tính giữa các sổ làm việc](./excel-copy-worksheets-between-workbooks/) trình bày cách sắp xếp hợp lý việc quản lý bảng tính của bạn. Với các ví dụ dễ làm theo, bạn sẽ khám phá các mẹo và thủ thuật giúp các tác vụ này dễ dàng thực hiện trong quy trình làm việc của bạn.
+ Tiếp theo, chúng tôi cung cấp hướng dẫn về việc đáp ứng các yêu cầu phức tạp hơn như sao chép nhiều bảng tính. Nếu bạn đã từng phải quản lý nhiều bảng tính cùng lúc, bạn sẽ biết điều này có thể tẻ nhạt như thế nào. Rất may, hướng dẫn của chúng tôi về[Excel Sao chép các trang tính giữa các sổ làm việc](./excel-copy-worksheets-between-workbooks/)trình bày cách sắp xếp hợp lý việc quản lý bảng tính của bạn. Với các ví dụ dễ làm theo, bạn sẽ khám phá các mẹo và thủ thuật giúp các tác vụ này dễ dàng thực hiện trong quy trình làm việc của bạn.
 
 ## Làm chủ chuyển động của Worksheet
 

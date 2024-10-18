@@ -25,7 +25,7 @@ Sekarang setelah Anda menentukan rentang yang diberi nama, mari kita bahas tenta
 
 Bayangkan duduk dalam rapat di mana diagram dan grafik menarik perhatian Anda. Itulah gunanya format yang baik! Anda dapat mengubah gaya font, menambahkan warna, dan bahkan mengatur batas untuk membuat data Anda lebih menarik secara visual. Ini seperti berdandan untuk acara khusus—kesan pertama itu penting! 
 
- Bagi mereka yang ingin mempelajari cara memformat rentang Anda secara efektif, cukup ikuti panduan langkah demi langkah kami di[Format Rentang di Excel](./format-ranges/).
+ Bagi mereka yang ingin mempelajari cara memformat rentang Anda secara efektif, cukup ikuti panduan langkah demi langkah kami di[Memformat Rentang di Excel](./format-ranges/).
 
 ### Kesimpulan
 
@@ -34,5 +34,5 @@ Singkatnya, Aspose.Cells untuk .NET menyediakan alat yang hebat untuk membuat da
 ## Membuat dan Memformat Rentang Bernama di Tutorial Excel
 ### [Membuat Rentang Sel Bernama di Excel](./create-named-range-of-cells/)
 Pelajari cara mudah membuat rentang sel bernama di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan data Anda.
-### [Format Rentang di Excel](./format-ranges/)
+### [Memformat Rentang di Excel](./format-ranges/)
 Kuasai seni memformat rentang di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami yang komprehensif. Tingkatkan presentasi data Anda.

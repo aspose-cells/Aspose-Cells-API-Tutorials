@@ -9,7 +9,7 @@ url: /vi/net/excel-page-breaks/excel-add-page-breaks/
 ---
 ## Giới thiệu
 
-Bạn có thấy mệt mỏi khi phải tự tay thêm ngắt trang vào bảng tính Excel của mình không? Có thể bạn có một bảng tính dài không in tốt vì mọi thứ cứ chạy song song với nhau. Vâng, bạn thật may mắn! Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Cells cho .NET để tự động hóa quy trình thêm ngắt trang. Hãy tưởng tượng bạn có thể sắp xếp các bảng tính của mình một cách hiệu quả—làm cho chúng gọn gàng và dễ nhìn mà không phải lo lắng về những thứ nhỏ nhặt. Hãy cùng phân tích từng bước và làm cho trò chơi Excel của bạn trở nên mạnh mẽ hơn!
+Bạn có thấy mệt mỏi khi phải tự tay thêm ngắt trang vào các trang tính Excel của mình không? Có thể bạn có một bảng tính dài không in tốt vì mọi thứ cứ chạy song song với nhau. Vâng, bạn thật may mắn! Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Cells cho .NET để tự động hóa quy trình thêm ngắt trang. Hãy tưởng tượng bạn có thể sắp xếp các bảng tính của mình một cách hiệu quả—làm cho chúng gọn gàng và dễ nhìn mà không phải lo lắng về những thứ nhỏ nhặt. Hãy cùng phân tích từng bước và làm cho trò chơi Excel của bạn trở nên mạnh mẽ hơn!
 
 ## Điều kiện tiên quyết
 
@@ -47,7 +47,7 @@ using System;
 
 Vậy là bạn đã sẵn sàng để bắt đầu viết mã rồi!
 
-Bây giờ chúng ta sẽ cùng tìm hiểu quy trình thêm ngắt trang vào tệp Excel bằng Aspose.Cells theo từng bước.
+Bây giờ chúng ta sẽ hướng dẫn từng bước thực hiện quy trình thêm ngắt trang vào tệp Excel bằng Aspose.Cells.
 
 ## Bước 1: Thiết lập môi trường của bạn
 

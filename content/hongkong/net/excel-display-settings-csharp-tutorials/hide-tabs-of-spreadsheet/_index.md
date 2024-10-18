@@ -78,7 +78,7 @@ workbook.Settings.ShowTabs = false;
 workbook.Settings.ShowTabs = true;
 ```
 
-這對於當前任務不是強制性的，但如果您正在建立用戶可以在顯示和隱藏選項卡之間切換的互動式程序，則非常有用。
+這對於當前任務不是強制性的，但如果您正在創建一個互動式程序，用戶可以在顯示和隱藏選項卡之間切換，那麼這很有用。
 
 ## 步驟5：保存修改後的Excel文件
 
@@ -95,7 +95,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## 結論
 
-現在你就擁有了！您已使用 Aspose.Cells for .NET 成功隱藏了 Excel 檔案中的工作表標籤。這個簡單的調整可以讓您的 Excel 文件看起來更加精美和集中，尤其是在與不需要查看所有工作標籤的客戶或團隊成員共享文件時。
+現在你就得到它了！您已使用 Aspose.Cells for .NET 成功隱藏了 Excel 檔案中的工作表標籤。這個簡單的調整可以讓您的 Excel 文件看起來更加精美和集中，尤其是在與不需要查看所有工作標籤的客戶或團隊成員共享文件時。
 
 使用 Aspose.Cells for .NET，您可以以強大的方式操作 Excel 文件，從隱藏選項卡到建立動態報告、圖表等。如果您是這個工具的新手，請隨時探索[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)了解更深入的特性和功能。
 

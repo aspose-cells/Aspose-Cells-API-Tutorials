@@ -23,7 +23,7 @@ Sekarang, mari kita bahas tentang impor data. Memindahkan data ke Excel terkadan
 
 Tutorial ini akan membekali Anda dengan keterampilan untuk mengimpor kumpulan data Anda sambil menjaga integritas bidang rumus. Bayangkan ini: Anda memiliki proyeksi keuangan dalam file CSV, dan Anda perlu mengimpornya ke Excel tanpa kehilangan semua rumus yang penting tersebut. Kami akan menunjukkan kepada Anda cara melakukannya dengan contoh-contoh yang jelas dan praktik terbaik yang memastikan data Anda tetap utuh dan dapat digunakan.[Baca selengkapnya](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
-## Tutorial Pemformatan Nomor dan Tanggal Kustom Excel
+## Tutorial Format Tanggal dan Angka Kustom Excel
 ### [Periksa apakah Nilai Sel dalam Format Angka Kustom Tertentu](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Pelajari cara memeriksa nilai sel Excel terhadap format angka kustom menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
 ### [Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)

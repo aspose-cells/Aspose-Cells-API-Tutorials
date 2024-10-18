@@ -9,7 +9,7 @@ url: /vi/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-sp
 ---
 ## Giới thiệu
 
-Làm việc với các tệp Excel theo chương trình đôi khi có thể giống như đang tung hứng hàng ngàn thứ cùng một lúc, đúng không? Vâng, nếu bạn từng cần kiểm soát độ rộng thanh tab trong bảng tính Excel, bạn đã đến đúng nơi rồi! Sử dụng Aspose.Cells cho .NET, bạn có thể dễ dàng thao tác nhiều cài đặt tệp Excel khác nhau, chẳng hạn như điều chỉnh độ rộng thanh tab của trang tính, giúp bảng tính của bạn tùy chỉnh hơn và thân thiện với người dùng hơn. Hôm nay, chúng tôi sẽ chia nhỏ cách bạn có thể thực hiện việc này bằng các bước rõ ràng, dễ làm theo.
+Làm việc với các tệp Excel theo chương trình đôi khi có thể giống như đang tung hứng hàng nghìn thứ cùng một lúc, đúng không? Vâng, nếu bạn từng cần kiểm soát độ rộng thanh tab trong bảng tính Excel, bạn đã đến đúng nơi rồi! Sử dụng Aspose.Cells cho .NET, bạn có thể dễ dàng thao tác nhiều cài đặt tệp Excel khác nhau, chẳng hạn như điều chỉnh độ rộng thanh tab của trang tính, giúp bảng tính của bạn tùy chỉnh hơn và thân thiện với người dùng hơn. Hôm nay, chúng tôi sẽ chia nhỏ cách bạn có thể thực hiện việc này bằng các bước rõ ràng, dễ làm theo.
 
 Trong hướng dẫn này, chúng tôi sẽ đề cập đến mọi thứ bạn cần biết về việc kiểm soát độ rộng thanh tab bằng Aspose.Cells cho .NET—từ các điều kiện tiên quyết đến hướng dẫn từng bước chi tiết. Đến cuối, bạn sẽ tinh chỉnh cài đặt Excel như một chuyên gia. Sẵn sàng chưa? Hãy cùng bắt đầu!
 
@@ -34,7 +34,7 @@ using Aspose.Cells;
 
 Bây giờ chúng ta hãy chuyển sang phần cốt lõi của nhiệm vụ. Tôi sẽ chia nhỏ từng bước để bạn có thể dễ dàng theo dõi ngay cả khi bạn không phải là nhà phát triển dày dạn kinh nghiệm.
 
-## Bước 1: Thiết lập dự án và sổ làm việc của bạn
+## Bước 1: Thiết lập Dự án và Sổ làm việc của bạn
 
 Đầu tiên chúng ta cần một đối tượng Workbook sẽ chứa tệp Excel của chúng ta. Hãy tưởng tượng đây là biểu diễn kỹ thuật số của một tệp Excel thực tế. Chúng ta sẽ tải một tệp Excel hiện có hoặc bạn có thể tạo một tệp mới nếu cần.
 
@@ -42,7 +42,7 @@ Bây giờ chúng ta hãy chuyển sang phần cốt lõi của nhiệm vụ. T�
 
 - Mở Visual Studio hoặc .NET IDE mà bạn thích.
 - Tạo một dự án Ứng dụng bảng điều khiển mới.
-- Cài đặt gói Aspose.Cells cho .NET thông qua NuGet bằng cách chạy lệnh sau trong Bảng điều khiển quản lý gói NuGet:
+- Cài đặt gói Aspose.Cells cho .NET thông qua NuGet bằng cách chạy lệnh sau trong NuGet Package Manager Console:
 
 ```bash
 Install-Package Aspose.Cells

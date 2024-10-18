@@ -41,15 +41,15 @@ string outputDir = "Your Document Directory"; // Zastąp swoim katalogiem
 ## Krok 3: Utwórz obiekt skoroszytu
 Teraz możesz utworzyć skoroszyt programu Excel! Tutaj będą znajdować się wszystkie arkusze i dane.
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
-Ten wiersz inicjuje nowy skoroszyt w pamięci, zapewniając Ci puste miejsce do pracy.
+Ten wiersz inicjuje nowy skoroszyt w pamięci, zapewniając puste miejsce do pracy.
 ## Krok 4: Dodawanie nowego arkusza kalkulacyjnego
 W programie Excel każdy skoroszyt może zawierać wiele arkuszy. Dodajmy jeden do naszego skoroszytu.
 ```csharp
 // Dodawanie nowego arkusza do obiektu Skoroszyt
-workbook.Worksheets.Add(); //Dodaje domyślnie nowy pusty arkusz kalkulacyjny
+workbook.Worksheets.Add(); // Dodaje domyślnie nowy pusty arkusz kalkulacyjny
 ```
 To polecenie dodaje nowy arkusz kalkulacyjny, dzięki czemu skoroszyt będzie zawierał co najmniej jeden arkusz, którym możesz manipulować.
 ## Krok 5: Dostęp do pierwszego arkusza kalkulacyjnego
@@ -74,7 +74,7 @@ Gdy klikasz na hiperłącze, chcesz, aby jakiś tekst wyświetlał sens, dokąd 
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Link To Other Sheet Cell";
 ```
-Spowoduje to, że w komórce „B3” pojawi się opcja „Link to other sheet cell”, co będzie stanowić wskazówkę dla osób korzystających z arkusza kalkulacyjnego.
+Spowoduje to, że w komórce „B3” pojawi się opcja „Link to other sheet cell” (Link do innej komórki arkusza), co będzie stanowić wskazówkę dla osób korzystających z arkusza kalkulacyjnego.
 ## Krok 8: Zapisz swój skoroszyt
 Gdy wszystko jest już ustawione, czas zapisać nowo utworzony skoroszyt z osadzonym hiperłączem.
 ```csharp
@@ -89,7 +89,7 @@ Console.WriteLine("AddingLinkToOtherSheetCell executed successfully.");
 ```
 I masz! Stworzyłeś podstawowy program C#, który dodaje wewnętrzny hiperłącze do skoroszytu programu Excel przy użyciu Aspose.Cells dla .NET.
 ## Wniosek
-tym samouczku przeszliśmy przez kroki potrzebne do dodania hiperłącza do innego arkusza w skoroszycie programu Excel za pomocą Aspose.Cells dla .NET. Linki w arkuszach kalkulacyjnych mogą działać jak punkty orientacyjne w morzu danych, dzięki czemu nawigacja staje się dziecinnie prosta. Wyobraź sobie, o ile bardziej wydajny mógłby być Twój przepływ pracy dzięki prawidłowo połączonym arkuszom kalkulacyjnym! Teraz, gdy masz to potężne narzędzie na wyciągnięcie ręki, możesz eksperymentować dalej z możliwościami Aspose.Cells, aby zwiększyć swoją produktywność.
+tym samouczku przeszliśmy przez kroki potrzebne do dodania hiperłącza do innego arkusza w skoroszycie programu Excel za pomocą Aspose.Cells dla .NET. Linki w arkuszach kalkulacyjnych mogą działać jak punkty orientacyjne w morzu danych, ułatwiając nawigację. Wyobraź sobie, o ile bardziej wydajny mógłby być Twój przepływ pracy dzięki prawidłowo połączonym arkuszom kalkulacyjnym! Teraz, gdy masz to potężne narzędzie na wyciągnięcie ręki, możesz eksperymentować dalej z możliwościami Aspose.Cells, aby zwiększyć swoją produktywność.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?  
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca tworzenie i modyfikowanie plików Excel bez użycia programu Microsoft Excel.
@@ -97,7 +97,7 @@ Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca tworzenie i modyfik
  Tak! Możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
 ### Czy muszę zainstalować program Microsoft Excel, aby korzystać z Aspose.Cells?  
 Nie, Aspose.Cells działa niezależnie od programu Microsoft Excel.
-### Czy można łączyć ze sobą wiele arkuszy?  
+### Czy można łączyć wiele arkuszy?  
 Oczywiście! Możesz utworzyć wiele hiperłączy wskazujących na różne arkusze, stosując to samo podejście.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?  
  Możesz skontaktować się ze społecznością Aspose, aby uzyskać wsparcie[Tutaj](https://forum.aspose.com/c/cells/9).

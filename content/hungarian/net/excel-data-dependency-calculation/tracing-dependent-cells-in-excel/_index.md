@@ -44,7 +44,7 @@ Nyissa meg a Visual Studio-t, és hozzon létre egy új C#-projektet. Választha
 
 ### Névterek importálása
 
-C# kódfájl tetején a következő névtereket kell importálnia:
+A C# kódfájl tetején a következő névtereket kell importálnia:
 
 ```csharp
 using System.IO;
@@ -84,7 +84,7 @@ Most, hogy megnyitottuk a munkafüzetet, itt az ideje, hogy kézbe vegyük az eg
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Magyarázat: A fenti kód a munkafüzetünk első munkalapját (0. index) célozza meg, és lekéri a`Cells` gyűjtemény, amellyel az eltartottak felkutatásán fogunk dolgozni.
+Magyarázat: A fenti kód a munkafüzetünk első munkalapját (0. index) célozza meg, és lekéri a`Cells` gyűjtemény, amellyel az eltartottak felkutatásán fogunk dolgozni.
 
 ## 4. lépés: Válassza ki a cellát
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Magyarázat: Ez a hurok átmegy a tömbünk minden függő celláján, és kiírja a nevét – ez elég egyszerű! A`Console.ReadKey()` biztosítja, hogy a konzolablak nyitva maradjon, amíg meg nem nyom egy billentyűt, így időt ad a kimenet olvasására.
+Magyarázat: Ez a hurok átmegy a tömbünk minden függő celláján, és kiírja a nevét – ez elég egyszerű! A`Console.ReadKey()` biztosítja, hogy a konzolablak nyitva maradjon, amíg meg nem nyom egy billentyűt, így időt ad a kimenet olvasására.
 
 ## Következtetés
 
@@ -133,7 +133,7 @@ Az Aspose.Cells egy hatékony könyvtár az Excel fájlok kezelésére .NET alka
  Igen! Az Aspose kínál a[ingyenes próbaverzió](https://releases.aspose.com/) szoftverükről, lehetővé téve annak funkcióinak felfedezését a vásárlás előtt.
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
-Támogatást kérhetsz a[Aspose fórum](https://forum.aspose.com/c/cells/9), ahol a felhasználók és szakértők közössége segíthet Önnek. 
+ Támogatást kérhetsz a[Aspose fórum](https://forum.aspose.com/c/cells/9), ahol a felhasználók és szakértők közössége segíthet Önnek. 
 
 ### Az Aspose.Cells alkalmas nagyméretű Excel-fájlokhoz?
 Teljesen! Az Aspose.Cells úgy lett kialakítva, hogy hatékonyan működjön nagy Excel-fájlokkal, robusztus kezelést és teljesítményt biztosítva.

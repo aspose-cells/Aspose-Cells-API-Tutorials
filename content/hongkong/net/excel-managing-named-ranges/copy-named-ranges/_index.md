@@ -8,7 +8,7 @@ weight: 10
 url: /zh-hant/net/excel-managing-named-ranges/copy-named-ranges/
 ---
 ## 介紹
-Excel 是全球數百萬人使用的強大工具，用於資料組織和分析。但是，當涉及到以程式設計方式操作 Excel 檔案（例如複製命名範圍）時，可能會有點棘手。值得慶幸的是，Aspose.Cells for .NET 讓這項任務變得簡單且有效率。本文將引導您完成使用 Aspose.Cells for .NET 在 Excel 中複製命名範圍的過程，並以逐步方式進行解釋，以便您可以輕鬆掌握。
+Excel 是全球數百萬人使用的強大工具，用於資料組織和分析。但當涉及到以程式設計方式操作 Excel 檔案（例如複製命名範圍）時，可能會有點棘手。值得慶幸的是，Aspose.Cells for .NET 讓這項任務變得簡單且有效率。本文將引導您完成使用 Aspose.Cells for .NET 在 Excel 中複製命名範圍的過程，並以逐步方式進行解釋，以便您可以輕鬆掌握。
 ## 先決條件
 在深入研究複製命名範圍的細節之前，您需要確保有一些事情已經排列好。這是您需要的：
 1. .NET 環境：確保您已設定 .NET 開發環境。您可以使用 Visual Studio 或您選擇的任何其他 IDE。
@@ -101,7 +101,7 @@ Console.WriteLine("CopyNamedRanges executed successfully.");
 ```
 運行此行將表示您的程式碼執行順利。
 ## 結論
-現在你就擁有了！您已成功使用 Aspose.Cells for .NET 一步步在 Excel 中複製命名範圍。此流程可讓您自動執行 Excel 任務並更有效地管理資料。透過一些練習，您將能夠立即執行更複雜的 Excel 自動化任務。
+現在你就得到它了！您已成功使用 Aspose.Cells for .NET 一步步在 Excel 中複製命名範圍。此流程可讓您自動執行 Excel 任務並更有效地管理資料。透過一些練習，您將能夠立即執行更複雜的 Excel 自動化任務。
 ## 常見問題解答
 ### 什麼是 Aspose.Cells for .NET？
 Aspose.Cells 是一個 .NET 函式庫，可讓開發人員以程式設計方式建立、操作和轉換 Excel 檔案。

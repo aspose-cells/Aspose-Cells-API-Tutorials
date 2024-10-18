@@ -18,7 +18,7 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới thao tác v
 
 ## CONCATENATE - Kết hợp văn bản
 
- Các`CONCATENATE`chức năng cho phép bạn hợp nhất văn bản từ các ô khác nhau. Hãy xem cách thực hiện với Aspose.Cells cho Java:
+ Các`CONCATENATE`chức năng cho phép bạn hợp nhất văn bản từ các ô khác nhau. Hãy cùng xem cách thực hiện với Aspose.Cells cho Java:
 
 ```java
 // Mã Java để nối văn bản bằng Aspose.Cells

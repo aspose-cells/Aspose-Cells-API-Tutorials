@@ -132,7 +132,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 保护了 Excel 工作表中的特定行。此功能对于需要确保数据完整性同时仍共享 Excel 文件的开发人员和用户非常有用。现在，您可以放心地共享电子表格，同时保护其中的重要信息。
+就这样！您已成功使用 Aspose.Cells for .NET 保护了 Excel 工作表中的特定行。此功能对于需要确保数据完整性同时仍共享 Excel 文件的开发人员和用户非常有用。现在您可以放心地共享电子表格，同时保护其中的重要信息。
 
 ## 常见问题解答
 
@@ -143,7 +143,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 您可以单独选择单元格并应用锁定样式，类似于锁定行的方式。
 
 ### Aspose.Cells 可以免费使用吗？  
-Aspose.Cells 是一款商业产品，但你可以免费试用[这里](https://releases.aspose.com/).
+ Aspose.Cells 是一款商业产品，但你可以免费试用[这里](https://releases.aspose.com/).
 
 ### 我需要互联网连接才能使用 Aspose.Cells 吗？  
 不是，Aspose.Cells 是一个.NET 库，一旦安装就可以离线工作。

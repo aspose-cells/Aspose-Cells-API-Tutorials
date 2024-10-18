@@ -41,7 +41,7 @@ using Aspose.Cells;
 
 Nachdem wir nun alles eingerichtet haben, schützen wir Schritt für Schritt eine bestimmte Zeile in unserem Excel-Arbeitsblatt. In unserem Beispiel wird die erste Zeile gesperrt, Sie können dies jedoch für jede gewünschte Zeile anpassen.
 
-## Schritt 1: Dokumentverzeichnis definieren
+## Schritt 1: Definieren Sie das Dokumentverzeichnis
 
 Zuerst müssen wir ein Verzeichnis definieren, in dem wir unsere Excel-Datei speichern. So geht's:
 
@@ -49,7 +49,7 @@ Zuerst müssen wir ein Verzeichnis definieren, in dem wir unsere Excel-Datei spe
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Wechseln Sie zu Ihrem gewünschten Pfad.
 
-// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -143,7 +143,7 @@ Ja, Sie können den Sperrvorgang für alle weiteren Zeilen auf die gleiche Weise
 Sie können Zellen einzeln auswählen und Sperrstile anwenden, ähnlich wie Sie eine Zeile sperren.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?  
-Aspose.Cells ist ein kommerzielles Produkt, aber Sie können es mit einer kostenlosen Testversion ausprobieren[Hier](https://releases.aspose.com/).
+ Aspose.Cells ist ein kommerzielles Produkt, aber Sie können es mit einer kostenlosen Testversion ausprobieren[Hier](https://releases.aspose.com/).
 
 ### Benötige ich eine Internetverbindung, um Aspose.Cells zu verwenden?  
 Nein, Aspose.Cells ist eine .NET-Bibliothek und kann nach der Installation offline verwendet werden.

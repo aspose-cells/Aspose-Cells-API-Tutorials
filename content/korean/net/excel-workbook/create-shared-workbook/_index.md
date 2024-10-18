@@ -2,7 +2,7 @@
 title: 공유 워크북 만들기
 linktitle: 공유 워크북 만들기
 second_title: .NET API 참조를 위한 Aspose.Cells
-description: 이 간단한 단계별 가이드로 Aspose.Cells for .NET을 사용하여 공유 워크북을 만드는 방법을 알아보세요. 팀 협업을 강화하기에 완벽합니다.
+description: 이 간단한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 공유 워크북을 만드는 방법을 알아보세요. 팀 협업을 강화하기에 완벽합니다.
 type: docs
 weight: 70
 url: /ko/net/excel-workbook/create-shared-workbook/
@@ -86,7 +86,7 @@ wb.Settings.Shared = true;
 //공유 워크북 저장
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
 ```
- 여기서 우리는 공유 통합 문서를 이름으로 저장합니다.`outputSharedWorkbook.xlsx` 지정된 출력 디렉토리에 있습니다. 이렇게 하면 여러 사용자가 공유하고 수정할 수 있는 Excel 파일이 생성됩니다.
+ 여기서 우리는 공유 통합 문서를 이름으로 저장합니다.`outputSharedWorkbook.xlsx` 지정된 출력 디렉토리에 있습니다. 이렇게 하면 이제 여러 사용자가 공유하고 수정할 수 있는 Excel 파일이 생성됩니다.
 
 ## 5단계: 성공 메시지 표시
 

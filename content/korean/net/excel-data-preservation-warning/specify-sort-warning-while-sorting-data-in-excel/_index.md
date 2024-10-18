@@ -15,7 +15,7 @@ Excel에서 데이터를 정렬해 보았지만 예상치 못한 결과에 당�
 
 데이터 정렬의 세부적인 내용에 들어가기 전에 꼭 갖춰야 할 몇 가지 전제 조건이 있습니다.
 
-1. Visual Studio: IDE나 코드 편집기가 필요하며, Visual Studio는 .NET 개발을 위한 최고의 옵션 중 하나입니다.
+1. Visual Studio: IDE 또는 코드 편집기가 필요하며, Visual Studio는 .NET 개발을 위한 최고의 옵션 중 하나입니다.
 2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 있는지 확인하세요. 다음에서 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/) 또는 다음으로 시작하세요[무료 체험](https://releases.aspose.com/).
 3. C#에 대한 기본 이해: C#에 대한 약간의 친숙함이 큰 도움이 될 것입니다. 이전에 C#을 잠깐 사용해 본 적이 있다면, 잘 해낼 수 있습니다!
 4.  샘플 Excel 파일: 샘플 Excel 파일을 생성할 수 있습니다.`sampleSortAsNumber.xlsx` 정렬하려는 열 A에 데이터가 있는 경우.
@@ -36,7 +36,7 @@ using Aspose.Cells.Sorting;
 
 ## 1단계: 문서 디렉토리 설정
 
- 먼저 문서 디렉토리 경로를 지정해야 합니다. 여기가`sampleSortAsNumber.xlsx` 파일이 위치하게 됩니다. 바꾸기`"Your Document Directory"` Excel 파일이 있는 실제 경로를 사용합니다.
+ 먼저 문서 디렉토리 경로를 지정해야 합니다. 여기가`sampleSortAsNumber.xlsx` 파일이 위치하게 됩니다. 바꾸기`"Your Document Directory"`Excel 파일이 있는 실제 경로를 사용합니다.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -50,7 +50,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sampleSortAsNumber.xlsx");
 ```
 
- 여기서 Excel 파일을 로드합니다.`workbook` 조작 대상.
+ 여기서 Excel 파일을 로드합니다.`workbook` 조작을 위한 객체.
 
 ## 3단계: 워크시트에 액세스
 
@@ -74,7 +74,7 @@ CellArea ca = CellArea.CreateCellArea("A1", "A20");
 
 ## 5단계: DataSorter 개체 만들기
 
- 우리가 정렬하기 전에, 우리는 필요합니다`DataSorter` 분류 과정을 처리합니다. 이것은 바인더를 정리하기 위해 전문적인 정리사를 고용하는 것과 같습니다.
+ 우리가 정렬하기 전에, 우리는 필요합니다`DataSorter` 분류 과정을 처리합니다. 이것은 전문적인 정리사를 고용하여 바인더를 정리하는 것과 같습니다.
 
 ```csharp
 DataSorter sorter = workbook.DataSorter;

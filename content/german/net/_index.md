@@ -15,11 +15,11 @@ Egal, ob Sie Anfänger oder erfahrener Entwickler sind, die Tutorials von Aspose
 ## Anleitungen
 
 ### [Excel-Arbeitsblatt](./excel-worksheet-csharp-tutorials/)
-Die C#-Tutorials von Aspose.Cells bieten Schritt-für-Schritt-Anleitungen zum einfachen und effizienten Bearbeiten von Excel-Tabellen.
+Die C#-Tutorials von Aspose.Cells bieten Schritt-für-Schritt-Anleitungen für die einfache und effiziente Bearbeitung von Excel-Tabellen.
 ### [Excel-Anzeigeeinstellungen](./excel-display-settings-csharp-tutorials)
-Sehen Sie sich die C#-Tutorials von Aspose.Cells an, um die Excel-Anzeige anzupassen. Ändern Sie Schriftarten, Farben, Formate und erstellen Sie attraktive Berichte.
-### [Excel-Seite einrichten](./excel-page-setup)
-Sehen Sie sich die Aspose.Cells für .NET-Tutorials zum Einrichten des Seitenlayouts von Excel an. Passen Sie Ihre Excel-Dateien ganz einfach an.
+Sehen Sie sich die Aspose.Cells C#-Tutorials an, um die Excel-Anzeige anzupassen. Ändern Sie Schriftarten, Farben, Formate und erstellen Sie attraktive Berichte.
+### [Excel-Seiteneinrichtung](./excel-page-setup)
+Sehen Sie sich die Aspose.Cells für .NET-Tutorials zum Einrichten des Seitenlayouts von Excel an. Passen Sie Ihre Excel-Dateien mühelos an.
 ### [Excel-Datei schützen](./protect-excel-file/)
 Sehen Sie sich die Aspose.Cells für .NET-Tutorials zum Schutz von Excel-Dateien an. Erfahren Sie, wie Sie Ihre vertraulichen Daten mit C# schützen.
 ### [Excel-Arbeitsmappe](./excel-workbook/)
@@ -27,7 +27,7 @@ Entdecken Sie die Tutorials zu Aspose.Cells für .NET, um die Arbeit mit Excel-A
 ### [Excel-Arbeitsblatt kopieren](./excel-copy-worksheet/)
 Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für .NET kopieren und anpassen. Detaillierte Tutorials zur Beherrschung der Datenmanipulation und -formatierung.
 ### [Excel-Seitenumbrüche](./excel-page-breaks/)
-Schauen Sie sich ausführliche Tutorials zu Excel-Seitenumbrüchen mit Aspose.Cells für .NET an. Verbessern Sie mühelos das Layout Ihrer Excel-Arbeitsmappen.
+Sehen Sie sich ausführliche Tutorials zu Excel-Seitenumbrüchen mit Aspose.Cells für .NET an. Verbessern Sie mühelos das Layout Ihrer Excel-Arbeitsmappen.
 ### [Schutz der Excel-Tabelle aufheben](./unprotect-excel-sheet/)
 Erfahren Sie, wie Sie den Schutz einer Excel-Tabelle mit Aspose.Cells für .NET aufheben. Detaillierte Tutorials für Entwickler in C#.
 ### [Excel-Sicherheit](./excel-security/)
@@ -79,8 +79,44 @@ Entdecken Sie in diesen leicht verständlichen Tutorials, wie Sie mit Aspose.Cel
 ### [Excel-Datenimport und -export](./excel-data-import-export/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET. Entdecken Sie unsere Tutorials, um Excel-Daten effizient und mühelos zu importieren und zu exportieren.
 ### [Excel-Datenerhaltung und Warnung](./excel-data-preservation-warning/)
-Erfahren Sie, wie Sie Aspose.Cells für .NET für erweiterte Techniken zur Excel-Datenerhaltung verwenden, etwa das Beibehalten einfacher Anführungszeichen als Präfixe in Zellen und das Angeben von Sortierwarnungen während des Sortierens.
+Erfahren Sie, wie Sie Aspose.Cells für .NET für erweiterte Excel-Datenerhaltungstechniken verwenden, z. B. das Beibehalten einfacher Anführungszeichenpräfixe in Zellen und das Angeben von Sortierwarnungen während des Sortierens.
 ### [Excel-Bereichs- und Adressberechnung](./excel-range-address-calculation/)
-Entdecken Sie wichtige Tutorials zu Aspose.Cells für .NET, die die Erstellung von Excel-Bereichen, die Berechnung von Adressen und erweiterte Manipulationen mit Leichtigkeit abdecken.
+Entdecken Sie wichtige Tutorials zu Aspose.Cells für .NET, die die Erstellung von Excel-Bereichen, Adressberechnungen und erweiterte Manipulationen mit Leichtigkeit abdecken.
 ### [Verwaltung ausgeblendeter Zeilen und Datenduplizierung in Excel](./excel-hidden-rows-data-duplication-management/)
 Schöpfen Sie das Potenzial von Excel mit den Tutorials zu Aspose.Cells für .NET aus und erhalten Sie Einblicke in die Verwaltung ausgeblendeter Zeilen und die mühelose Duplizieren von Daten.
+### [Excel-Kommentare und -Anmerkungen](./excel-comment-annotation/)
+Verbessern Sie Ihre Excel-Kenntnisse mit Aspose.Cells für .NET-Tutorials zu Kommentaren und Anmerkungen, einschließlich Schritt-für-Schritt-Anleitungen zum Anreichern Ihrer Tabellen.
+### [Excel-Formen und -Steuerelemente](./excel-shapes-controls/)
+Entdecken Sie umfassende Aspose.Cells für .NET-Tutorials zum Hinzufügen von Excel-Formen und -Steuerelementen. Lernen Sie Schritt-für-Schritt-Methoden zum programmgesteuerten Verbessern Ihrer Excel-Arbeitsblätter.
+### [Excel OLE und Bildobjekte](./excel-ole-picture-objects/)
+Entfesseln Sie die Leistungsfähigkeit von Excel mit Aspose.Cells für .NET. Meistern Sie die Handhabung von OLE-Objekten und Bildern mit unseren leicht verständlichen Tutorials.
+### [Zugriff auf Excel-Formen und -Beschriftungen](./excel-shape-label-access/)
+Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET mit unseren umfassenden Tutorials zu OLE-Objektbeschriftungen und Smart Art-Formerkennung in Excel.
+### [Excel-Form- und Textänderungen](./excel-shape-text-modifications/)
+Lernen Sie, Excel-Formen und -Text mit Aspose.Cells für .NET zu bearbeiten, mit leicht verständlichen Tutorials und praktischen Codebeispielen.
+### [Handhabung von Excel-Dateien](./excel-file-handling/)
+Schöpfen Sie Ihr Excel-Potenzial mit Aspose.Cells für .NET-Tutorials. Exportieren Sie Eigenschaften, verwalten Sie leere Zeilen und laden Sie sichtbare Blätter ganz einfach.
+### [Handhabung von CSV-Dateien](./csv-file-handling/)
+Entdecken Sie umfassende Aspose.Cells-Tutorials für .NET zum Umgang mit CSV-Dateien, einschließlich dem einfachen und effizienten Öffnen, Analysieren und Bearbeiten von Daten.
+### [Laden und Analysieren von Dateien](./data-loading-and-parsing/)
+Entsperren Sie Ihre Excel-Daten mühelos mit Aspose.Cells für .NET-Tutorials. Erfahren Sie, wie Sie verschlüsselte, Nur-Daten-, FODS- und SXC-Dateien öffnen.
+### [Speichern von Dateien in verschiedenen Formaten](./saving-files-in-different-formats/)
+Entdecken Sie umfassende Tutorials zum Speichern von Excel-Dateien in verschiedenen Formaten mit Aspose.Cells für .NET. Verbessern Sie Ihre Excel-Kenntnisse.
+### [Dateiverwaltung](./file-handling/)
+Entdecken Sie detaillierte Tutorials zum Umgang mit Dateien in Aspose.Cells für .NET, einschließlich des Speicherns in verschiedenen Formaten, Speicherorten und mit benutzerdefinierten Trennzeichen.
+### [Dokumenteigenschaften](./document-properties/)
+Nutzen Sie die Funktionen von Aspose.Cells für .NET mit unseren umfassenden Tutorials zu Dokumenteigenschaften, um Ihre Fähigkeiten zur Excel-Dateiverwaltung zu verbessern.
+### [Konvertierung und Rendering](./conversion-and-rendering/)
+Entdecken Sie die Tutorials zu Aspose.Cells für .NET mit erweiterten Anleitungen zum nahtlosen Konvertieren und Rendern von Excel-Dateien in verschiedene Formate.
+### [Sicherheit und Verschlüsselung](./security-and-encryption/)
+Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET mit unseren Tutorials zu Sicherheit und Verschlüsselung. Lernen Sie, Dateien mühelos zu erkennen und zu verschlüsseln.
+### [Arbeitsblattoperationen](./worksheet-operations/)
+Schöpfen Sie das volle Potenzial von Aspose.Cells für .NET mit diesen praktischen Tutorials zu Arbeitsblattoperationen und der Verbesserung Ihrer Excel-Dateien.
+### [Konvertierung in PDF](./conversion-to-pdf/)
+Wandeln Sie Ihre Excel-Dateien und Diagramme mit unseren leicht verständlichen Aspose.Cells-Tutorials für .NET in nahtlose PDFs um.
+### [Bild- und Diagrammoperationen](./image-and-chart-operations/)
+Entdecken Sie den umfassenden Leitfaden zu Aspose.Cells für .NET-Tutorials. Erfahren Sie mehr über Bild- und Diagrammoperationen, um Ihre Produktivität zu steigern.
+### [XPS- und PDF-Operationen](./xps-and-pdf-operations/)
+Entdecken Sie umfassende Aspose.Cells für .NET-Tutorials zu XPS- und PDF-Operationen, um Ihre Dateikonvertierungen zu optimieren.
+### [Verbindungs- und Konfigurationsvorgänge](./link-and-configuration-operations/)
+Entdecken Sie umfassende Tutorials zu Aspose.Cells für .NET, einschließlich Linkkonfiguration und mehr. Perfekt für Entwickler, die ihre Excel-Anwendungen verbessern möchten.

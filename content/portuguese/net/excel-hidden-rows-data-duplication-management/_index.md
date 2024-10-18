@@ -1,7 +1,7 @@
 ---
 title: Gerenciamento de linhas ocultas e duplicação de dados do Excel
 linktitle: Gerenciamento de linhas ocultas e duplicação de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desbloqueie o potencial do Excel com os tutoriais do Aspose.Cells para .NET, que fornecem insights sobre como gerenciar linhas ocultas e duplicar dados sem esforço.
 type: docs
 weight: 42

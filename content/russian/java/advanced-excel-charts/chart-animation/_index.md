@@ -16,7 +16,7 @@ url: /ru/java/advanced-excel-charts/chart-animation/
 
 Прежде чем приступить к созданию анимации диаграмм, убедитесь, что выполнены следующие предварительные условия:
 
-1.  Aspose.Cells for Java: Убедитесь, что у вас установлена библиотека Aspose.Cells for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells for Java: Убедитесь, что у вас установлена библиотека Aspose.Cells for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/java/).
 
 2. Среда разработки Java: в вашей системе должна быть настроена среда разработки Java.
 
@@ -62,7 +62,7 @@ Chart chart = worksheet.getCharts().get(0); // При необходимости
 
 ```java
 chart.getChartObject().setAnimationType(AnimationType.SLIDE);
-chart.getChartObject().setAnimationDuration(1000); // Длительность анимации в миллисекундах
+chart.getChartObject().setAnimationDuration(1000); // Продолжительность анимации в миллисекундах
 chart.getChartObject().setAnimationDelay(500);    // Задержка перед началом анимации (миллисекунды)
 ```
 
@@ -82,7 +82,7 @@ workbook.save("output.xlsx");
 
 ### Как изменить тип анимации?
 
- Чтобы изменить тип анимации, используйте`setAnimationType` метод на объекте диаграммы. Вы можете выбрать из различных типов, таких как`SLIDE`, `FADE` , и`GROW_SHRINK`.
+ Чтобы изменить тип анимации, используйте`setAnimationType` Метод на объекте диаграммы. Вы можете выбрать из различных типов, таких как`SLIDE`, `FADE` и`GROW_SHRINK`.
 
 ### Могу ли я настроить продолжительность анимации?
 
@@ -90,4 +90,4 @@ workbook.save("output.xlsx");
 
 ### Какова цель задержки анимации?
 
- Задержка анимации определяет временной промежуток перед началом анимации диаграммы. Используйте`setAnimationDelay`метод установки задержки в миллисекундах.
+ Задержка анимации определяет временной промежуток перед началом анимации диаграммы. Используйте`setAnimationDelay` метод установки задержки в миллисекундах.

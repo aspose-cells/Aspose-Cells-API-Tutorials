@@ -2,7 +2,7 @@
 title: تعليقات على الرسم البياني
 linktitle: تعليقات على الرسم البياني
 second_title: واجهة برمجة تطبيقات معالجة Excel في Java من Aspose.Cells
-description: قم بتعزيز مخططاتك باستخدام التعليقات التوضيحية للمخططات باستخدام Aspose.Cells for Java - دليل خطوة بخطوة. تعرف على كيفية إضافة التعليقات التوضيحية لتصور البيانات المعلوماتية.
+description: قم بتحسين مخططاتك باستخدام التعليقات التوضيحية للمخططات باستخدام Aspose.Cells for Java - دليل خطوة بخطوة. تعرف على كيفية إضافة التعليقات التوضيحية لتصور البيانات المعلوماتية.
 type: docs
 weight: 16
 url: /ar/java/advanced-excel-charts/chart-annotations/

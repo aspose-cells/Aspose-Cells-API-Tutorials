@@ -89,7 +89,7 @@ Nyní, když jsme přidali naše vlastnosti typu obsahu, uložme sešit do výst
 workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
 ```
 
-Tento řádek uloží sešit jako "WorkingWithContentTypeProperties_out.xlsx". Pokud chcete, můžete změnit název souboru!
+Tento řádek uloží sešit jako "WorkingWithContentTypeProperties_out.xlsx". Neváhejte upravit název souboru, pokud si přejete!
 
 ## Krok 5: Potvrďte úspěšné provedení
 
@@ -120,4 +120,4 @@ Ano! Aspose.Cells podporuje různé formáty, včetně XLS, XLSX, CSV a dalšíc
 Absolutně! Do vlastností typu obsahu můžete přidávat složité objekty, pokud je lze správně serializovat.
 
 ### Kde najdu další dokumentaci?
- Podrobnější návod naleznete v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Podrobnější pokyny naleznete v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).

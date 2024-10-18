@@ -134,7 +134,7 @@ Keluaran konsol sederhana ini dapat meyakinkan Anda bahwa semua langkah telah di
 
 ## Kesimpulan
 
-Dalam panduan ini, kami telah menjelajahi seluk-beluk penanganan apostrof di Excel menggunakan Aspose.Cells untuk .NET. Dari menyiapkan lingkungan hingga memanipulasi file Excel secara efektif, Anda telah belajar menghilangkan potensi jebakan yang sering ditemui saat bekerja dengan string numerik dan pemformatan otomatis.
+Dalam panduan ini, kami telah menjelajahi seluk-beluk penanganan apostrof awal di Excel menggunakan Aspose.Cells untuk .NET. Dari menyiapkan lingkungan hingga memanipulasi file Excel secara efektif, Anda telah belajar menghilangkan potensi jebakan yang sering ditemui saat bekerja dengan string numerik dan pemformatan otomatis.
 
 Sekarang, apakah Anda membuat laporan, membuat fungsionalitas untuk analisis data, atau mengelola impor dan ekspor data, Anda memiliki alat untuk menangani skenario tersebut dengan percaya diri!
 

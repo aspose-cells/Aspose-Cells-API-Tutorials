@@ -148,7 +148,7 @@ Aspose.Cells for Java を使用すると、さまざまなソースからのデ�
 
 ### Aspose.Cells for Java で作成した 3D チャートを他の形式にエクスポートできますか?
 
-はい、Aspose.Cells for Java で作成した 3D チャートを、画像形式 (PNG、JPEG など) や PDF など、さまざまな形式にエクスポートできます。Aspose.Cells が提供する適切な方法を使用して、チャートを希望の形式で保存します。
+はい、Aspose.Cells for Java で作成した 3D チャートは、画像形式 (PNG、JPEG など) や PDF など、さまざまな形式にエクスポートできます。Aspose.Cells が提供する適切な方法を使用して、チャートを希望の形式で保存します。
 
 ### Aspose.Cells for Java を使用してインタラクティブな 3D チャートを作成することは可能ですか?
 

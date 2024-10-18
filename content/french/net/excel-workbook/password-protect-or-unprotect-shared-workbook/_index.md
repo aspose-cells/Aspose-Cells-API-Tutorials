@@ -86,7 +86,7 @@ La touche finale consiste à enregistrer votre classeur. C'est là que votre tra
 wb.Save(outputDir + "outputProtectSharedWorkbook.xlsx");
 ```
 
-Cette ligne enregistre votre classeur protégé dans le répertoire de sortie désigné avec le nom « outputProtectSharedWorkbook.xlsx ». 
+Cette ligne enregistre votre classeur protégé dans le répertoire de sortie désigné sous le nom « outputProtectSharedWorkbook.xlsx ». 
 
 ## Étape 6 : Vérifier l’exécution
 

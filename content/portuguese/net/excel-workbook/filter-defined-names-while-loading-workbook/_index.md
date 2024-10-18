@@ -53,7 +53,7 @@ Em seguida, precisamos definir quais dados queremos filtrar ao carregar a pasta 
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-O til (~) operador denota que queremos excluir nomes definidos do processo de carregamento. Isso é crucial se você quiser manter sua carga de trabalho leve e evitar dados desnecessários que podem complicar seu processamento.
+O til (~operador denota que queremos excluir nomes definidos do processo de carregamento. Isso é crucial se você quiser manter sua carga de trabalho leve e evitar dados desnecessários que podem complicar seu processamento.
 
 ## Etapa 3: Carregue a pasta de trabalho
 

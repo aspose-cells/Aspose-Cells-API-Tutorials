@@ -1,7 +1,7 @@
 ---
 title: Gerenciando intervalos nomeados no Excel
 linktitle: Gerenciando intervalos nomeados no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Explore tutoriais abrangentes sobre como gerenciar intervalos nomeados no Excel usando Aspose.Cells para .NET. Perfeito para iniciantes e usuários avançados.
 type: docs
 weight: 25
@@ -21,6 +21,6 @@ Ao trabalhar com o Excel, gerenciar intervalos nomeados pode aumentar significat
 
 ## Gerenciando intervalos nomeados em tutoriais do Excel
 ### [Copiar intervalos nomeados no Excel](./copy-named-ranges/)
-Aprenda como copiar intervalos nomeados no Excel usando Aspose.Cells para .NET com nosso guia detalhado passo a passo. Perfeito para iniciantes.
+Aprenda como copiar intervalos nomeados no Excel usando Aspose.Cells para .NET com nosso guia passo a passo detalhado. Perfeito para iniciantes.
 ### [Remover intervalo nomeado no Excel](./remove-named-range/)
 Aprenda como remover intervalos nomeados no Excel usando o Aspose.Cells para .NET com instruções detalhadas passo a passo.

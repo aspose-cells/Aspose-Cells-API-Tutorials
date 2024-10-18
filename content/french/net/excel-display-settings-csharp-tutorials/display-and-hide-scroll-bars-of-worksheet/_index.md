@@ -45,7 +45,7 @@ C'est ici que vous spécifiez le chemin d'accès au fichier Excel avec lequel vo
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Remplacer`YOUR DOCUMENT DIRECTORY`avec le chemin réel où votre fichier Excel est stocké. Cela permet à votre programme de trouver les fichiers nécessaires qu'il va manipuler.
+ Remplacer`YOUR DOCUMENT DIRECTORY` avec le chemin réel où votre fichier Excel est stocké. Cela permet à votre programme de trouver les fichiers nécessaires qu'il manipulera.
 
 ## Étape 2 : Créer un flux de fichiers
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Ce`Workbook` L'objet contient désormais toutes les données et tous les paramètres de votre fichier Excel, ce qui permet une manipulation ultérieure dans le processus.
+ Ce`Workbook`L'objet contient désormais toutes les données et tous les paramètres de votre fichier Excel, ce qui permet une manipulation ultérieure du processus.
 
 ## Étape 4 : masquer la barre de défilement verticale
 
@@ -123,7 +123,7 @@ En suivant ces étapes simples, vous avez appris à afficher et à masquer les b
  Oui ! Il vous suffit de définir`IsVScrollBarVisible` et`IsHScrollBarVisible` retour à`true`.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?  
-Aspose.Cells n'est pas entièrement gratuit, mais vous pouvez l'essayer gratuitement pendant une durée limitée ou envisager de l'acheter[une licence temporaire](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells n'est pas entièrement gratuit, mais vous pouvez l'essayer gratuitement pendant une durée limitée ou envisager de l'acheter[une licence temporaire](https://purchase.aspose.com/temporary-license/).
 
 ### Quels types de fichiers Excel puis-je manipuler avec Aspose.Cells ?  
 Vous pouvez travailler avec différents formats Excel, notamment .xls, .xlsx, .xlsm, .xlsb, etc.

@@ -1,14 +1,14 @@
 ---
 title: Remover intervalo nomeado no Excel
 linktitle: Remover intervalo nomeado no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como remover intervalos nomeados no Excel usando o Aspose.Cells para .NET com instruções detalhadas passo a passo.
 type: docs
 weight: 11
 url: /pt/net/excel-managing-named-ranges/remove-named-range/
 ---
 ## Introdução
-Excel se tornou um item básico no gerenciamento e análise de dados para muitas pessoas e organizações. Seja você um analista de dados experiente ou simplesmente alguém que gosta de organizar seus dados, dominar o Excel é essencial. Hoje, estamos mergulhando em um recurso específico, mas poderoso: remover intervalos nomeados usando Aspose.Cells para .NET. Este guia o guiará pelas etapas para fazer isso de forma eficaz. Então, arregace as mangas e vamos começar!
+Excel se tornou um item básico no gerenciamento e análise de dados para muitas pessoas e organizações. Seja você um analista de dados experiente ou simplesmente alguém que gosta de organizar seus dados, dominar o Excel é essencial. Hoje, estamos mergulhando em um recurso específico, mas poderoso: remover intervalos nomeados usando o Aspose.Cells para .NET. Este guia o guiará pelas etapas para fazer isso de forma eficaz. Então, arregace as mangas e vamos começar!
 
 ## Pré-requisitos
 

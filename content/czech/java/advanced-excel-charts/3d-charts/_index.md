@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Nastavení rozsahu dat pro graf
 chart.getNSeries().add("A2:B4", true);
 
-// Přizpůsobení atributů grafu
+//Přizpůsobení atributů grafu
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -138,7 +138,7 @@ Aspose.Cells for Java vám umožňuje integrovat data z různých zdrojů do va�
 
 ## Závěr
 
-tomto článku jsme prozkoumali, jak vytvořit 3D grafy pomocí Aspose.Cells pro Java. Probrali jsme nastavení, základní tvorbu grafů, přizpůsobení a pokročilé funkce práce s 3D grafy. Aspose.Cells for Java poskytuje robustní a uživatelsky přívětivou platformu pro generování vizuálně přitažlivých a informativních 3D grafů v Excelu.
+V tomto článku jsme prozkoumali, jak vytvořit 3D grafy pomocí Aspose.Cells pro Java. Probrali jsme nastavení, základní tvorbu grafů, přizpůsobení a pokročilé funkce práce s 3D grafy. Aspose.Cells for Java poskytuje robustní a uživatelsky přívětivou platformu pro generování vizuálně přitažlivých a informativních 3D grafů v Excelu.
 
 ## FAQ
 
@@ -152,7 +152,7 @@ Ano, 3D grafy vytvořené pomocí Aspose.Cells for Java můžete exportovat do r
 
 ### Je možné vytvořit interaktivní 3D grafy pomocí Aspose.Cells pro Java?
 
-Aspose.Cells for Java se primárně zaměřuje na vytváření statických 3D grafů pro soubory Excel. U interaktivních grafů s pokročilou interaktivitou můžete zvážit použití jiných vizualizačních knihoven nebo nástrojů v kombinaci se soubory aplikace Excel.
+Aspose.Cells for Java se primárně zaměřuje na vytváření statických 3D grafů pro soubory Excel. Pro interaktivní grafy s pokročilou interaktivitou můžete zvážit použití jiných vizualizačních knihoven nebo nástrojů v kombinaci s vašimi soubory Excel.
 
 ### Mohu automatizovat proces aktualizace dat v mých 3D grafech?
 

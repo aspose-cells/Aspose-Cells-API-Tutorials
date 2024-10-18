@@ -26,13 +26,13 @@ Excel 파일을 조작하기 전에 필요한 패키지를 가져와야 합니�
 
 ### 프로젝트 만들기
 
-Visual Studio를 열고 새 콘솔 애플리케이션 프로젝트를 만듭니다. 원하는 이름을 지정할 수 있습니다. "ZoomWorksheetDemo"라고 합시다.
+Visual Studio를 열고 새 콘솔 애플리케이션 프로젝트를 만듭니다. 원하는 이름을 지정할 수 있습니다. "ZoomWorksheetDemo"라고 하죠.
 
 ### Aspose.Cells 참조 추가
 
 이제 Aspose.Cells 라이브러리 참조를 추가할 시간입니다. 다음 중 하나를 선택할 수 있습니다.
 
--  DLL을 다운로드하세요[여기](https://releases.aspose.com/cells/net/) 프로젝트에 수동으로 추가하세요.
+-  DLL을 다운로드하세요[여기](https://releases.aspose.com/cells/net/)프로젝트에 수동으로 추가하세요.
 - 또는 NuGet 패키지 관리자를 사용하고 패키지 관리자 콘솔에서 다음 명령을 실행합니다.
 
 ```bash
@@ -81,7 +81,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  그만큼`Workbook` 객체는 Aspose.Cells 기능의 핵심입니다. 관리하기 쉬운 방식으로 Excel 파일을 나타냅니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 이제 워크북이 메모리에 있으므로 수정하려는 특정 워크시트에 액세스할 차례입니다. 대부분의 경우 이는 첫 번째 워크시트(인덱스 0)가 됩니다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -112,7 +112,7 @@ worksheet.Zoom = 75;
 
 ## 6단계: 수정된 Excel 파일 저장
 
-변경한 후에는 작업을 저장하는 것을 잊지 마세요. 이것은 문서를 닫기 전에 저장하는 것만큼 중요합니다!
+변경한 후에는 작업을 저장하는 것을 잊지 마세요. 이는 문서를 닫기 전에 저장하는 것만큼 중요합니다!
 
 ```csharp
 // 수정된 Excel 파일 저장하기

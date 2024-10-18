@@ -14,7 +14,7 @@ Microsoft Excel is een krachtige spreadsheettoepassing die een breed scala aan f
 
 ## Wat is Aspose.Cells voor Java?
 
-Aspose.Cells voor Java is een Java-bibliotheek met veel functies waarmee ontwikkelaars moeiteloos Excel-bestanden kunnen maken, bewerken en converteren. Het biedt een breed scala aan functionaliteiten voor Excel-automatisering, waardoor het een ideale keuze is voor bedrijven en ontwikkelaars die programmatisch met Excel-bestanden in Java-applicaties moeten werken.
+Aspose.Cells for Java is een Java-bibliotheek met veel functies waarmee ontwikkelaars moeiteloos Excel-bestanden kunnen maken, bewerken en converteren. Het biedt een breed scala aan functionaliteiten voor Excel-automatisering, waardoor het een ideale keuze is voor bedrijven en ontwikkelaars die programmatisch met Excel-bestanden in Java-applicaties moeten werken.
 
 ## Aspose.Cells voor Java installeren
 
@@ -81,7 +81,7 @@ options.setIgnoreError(true);
 worksheet.calculateFormula(options);
 ```
 
-## Aanpassen van COUNTIF-criteria
+## AANTAL.ALS-criteria aanpassen
 
 U kunt de criteria voor de functie AANTAL.ALS aanpassen om cellen te tellen die aan specifieke voorwaarden voldoen. Bijvoorbeeld het tellen van cellen met waarden die groter zijn dan een bepaald getal, die specifieke tekst bevatten of die overeenkomen met een patroon.
 
@@ -108,7 +108,7 @@ Open het gegenereerde Excel-bestand om de resultaten van de functie AANTAL.ALS t
 
 Als u problemen ondervindt bij het gebruik van Aspose.Cells voor Java of bij het implementeren van de functie AANTAL.ALS, raadpleeg dan de documentatie en forums voor oplossingen.
 
-## Aanbevolen werkwijzen voor het gebruik van AANTAL.ALS
+## Aanbevolen procedures voor het gebruik van AANTAL.ALS
 
 Wanneer u de functie AANTAL.ALS gebruikt, moet u rekening houden met de aanbevolen procedures om de nauwkeurigheid en efficiëntie van uw Excel-automatiseringstaken te garanderen.
 

@@ -15,7 +15,7 @@ La creación y personalización de documentos de Excel mediante programación pu
 
 Antes de sumergirnos en el código, asegurémonos de que esté configurado correctamente. Esto es lo que necesita para comenzar:
 
-1. Visual Studio o cualquier IDE .NET: asegúrate de tener un IDE que funcione como Visual Studio. Este será tu espacio de juego donde se desarrollará toda la magia de la codificación.
+1. Visual Studio o cualquier IDE .NET: asegúrate de tener un IDE funcional como Visual Studio. Este será tu espacio de juego donde se desarrollará toda la magia de la codificación.
 2.  Paquete Aspose.Cells para .NET: si aún no lo ha hecho, deberá descargar e instalar la biblioteca Aspose.Cells. Puede encontrar la última versión en[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: si bien lo guiaremos a través del código, estar familiarizado con C# lo ayudará a comprender mejor los matices.
 4. Acceso a .NET Framework: asegúrese de que su proyecto esté configurado para apuntar a una versión compatible de .NET Framework.
@@ -30,7 +30,7 @@ Abra Visual Studio o su IDE .NET preferido.
 
 ### Crear un nuevo proyecto
 
-Inicie una nueva aplicación de consola de C#. Es una forma sencilla de probar nuestro código sin la sobrecarga de una aplicación web.
+Inicie una nueva aplicación de consola de C#. Es una forma sencilla de probar nuestro código sin la sobrecarga que supone una aplicación web.
 
 ### Añadir referencia de Aspose.Cells
 
@@ -57,7 +57,7 @@ Antes de comenzar a codificar, decida dónde desea guardar el archivo PDF de sal
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Asegúrese de reemplazar`"YOUR_OUTPUT_DIRECTORY"` con la ruta real donde desea que se guarde su documento PDF. Piense en esto como si estuviera preparando una mesa antes de comenzar a cocinar; necesita un espacio limpio para trabajar.
+ Asegúrese de reemplazar`"YOUR_OUTPUT_DIRECTORY"` con la ruta real donde desea guardar su documento PDF. Piense en esto como si estuviera preparando una mesa antes de comenzar a cocinar; necesita un espacio limpio para trabajar.
 
 ## Paso 2: Crear un objeto de libro de trabajo
 
@@ -127,7 +127,7 @@ Implementar un tamaño de papel personalizado para sus hojas de cálculo de Exce
 Sí, puedes probar una versión de prueba gratuita de Aspose.Cells para .NET, disponible[aquí](https://releases.aspose.com/).
 
 ### ¿Qué pasa si excedo los límites de la licencia temporal?
- Si se exceden los límites, se generarán resultados con marca de agua. Lo mejor es optar por una licencia permanente para un servicio ininterrumpido. Puede encontrar opciones[aquí](https://purchase.aspose.com/buy).
+ Si se exceden los límites, se obtendrán resultados con marca de agua. Lo mejor es optar por una licencia permanente para un servicio ininterrumpido. Puede encontrar opciones[aquí](https://purchase.aspose.com/buy).
 
 ### ¿Aspose.Cells es compatible con .NET Core?
 Sí, Aspose.Cells para .NET es compatible con .NET Core. Puedes integrarlo en tus aplicaciones modernas sin problemas.

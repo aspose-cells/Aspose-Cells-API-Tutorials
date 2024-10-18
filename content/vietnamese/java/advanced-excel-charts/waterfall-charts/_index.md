@@ -91,7 +91,7 @@ Tạo biểu đồ thác nước bằng Aspose.Cells for Java rất đơn giản
 
 ### Làm thế nào để tùy chỉnh giao diện biểu đồ thác nước của tôi?
 
-Bạn có thể tùy chỉnh giao diện biểu đồ thác nước của mình bằng cách sửa đổi các thuộc tính như màu sắc, nhãn dữ liệu và nhãn trục. Tham khảo tài liệu Aspose.Cells để biết hướng dẫn chi tiết.
+Bạn có thể tùy chỉnh giao diện của biểu đồ thác nước bằng cách sửa đổi các thuộc tính như màu sắc, nhãn dữ liệu và nhãn trục. Tham khảo tài liệu Aspose.Cells để biết hướng dẫn chi tiết.
 
 ### Tôi có thể tạo nhiều biểu đồ thác nước trong cùng một bảng tính không?
 
@@ -99,7 +99,7 @@ Có, bạn có thể tạo nhiều biểu đồ thác nước trong cùng một 
 
 ### Aspose.Cells có tương thích với các môi trường phát triển Java khác nhau không?
 
-Có, Aspose.Cells for Java tương thích với nhiều môi trường phát triển Java, bao gồm Eclipse, IntelliJ IDEA và NetBeans.
+Có, Aspose.Cells for Java tương thích với nhiều môi trường phát triển Java khác nhau, bao gồm Eclipse, IntelliJ IDEA và NetBeans.
 
 ### Tôi có thể thêm chuỗi dữ liệu bổ sung vào biểu đồ thác nước của mình không?
 

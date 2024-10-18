@@ -27,7 +27,7 @@ Gdy już spełnisz te wymagania wstępne, możemy przejść bezpośrednio do kod
 Aby użyć Aspose.Cells, musisz zaimportować wymagane przestrzenie nazw w swoim projekcie. Oto, jak możesz to zrobić:
 
 ### Dodaj odniesienie Aspose.Cells
-- Otwórz projekt programu Visual Studio.
+- Otwórz projekt Visual Studio.
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
 - Wyszukaj „Aspose.Cells” i zainstaluj.
 
@@ -42,7 +42,7 @@ using System;
 
 Mając to z głowy, zacznijmy pisać kod!
 
-Teraz, gdy nasza konfiguracja jest już gotowa, zaczniemy od podzielenia procesu usuwania konkretnego podziału strony w pliku Excel na łatwiejsze do wykonania kroki.
+Teraz, gdy nasza konfiguracja jest już gotowa, zaczniemy od podzielenia procesu usuwania konkretnego podziału strony w pliku Excel na mniejsze, łatwiejsze do wykonania kroki.
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
@@ -53,18 +53,18 @@ Po pierwsze, musisz określić, gdzie przechowywane są Twoje dokumenty Excela. 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wyjaśnienie: Zamień`YOUR DOCUMENT DIRECTORY` rzeczywistą ścieżką do Twoich plików. To jest miejsce, w którym załadujesz swój plik Excel i zapiszesz zmodyfikowany plik Excel później.
+ Wyjaśnienie: Zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką do Twoich plików. To jest miejsce, w którym załadujesz swój plik Excel i zapiszesz zmodyfikowany plik Excel później.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
 Następnie musimy załadować nasz skoroszyt. Mówiąc prościej, pomyśl o skoroszycie jako o pliku Excel.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Wyjaśnienie: Ten wiersz tworzy nową instancję`Workbook` , który ładuje określony plik Excel (w tym przykładzie ma on nazwę`PageBreaks.xls`). 
+Wyjaśnienie: Ten wiersz tworzy nową instancję`Workbook` , który ładuje określony plik Excel (w tym przykładzie ma on nazwę`PageBreaks.xls`). 
 
 ## Krok 3: Usuń poziomy podział strony
 

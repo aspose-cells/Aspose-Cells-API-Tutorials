@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Nyní vytvoříme objekt sešitu, který slouží jako kontejner pro vaši tabulku.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 

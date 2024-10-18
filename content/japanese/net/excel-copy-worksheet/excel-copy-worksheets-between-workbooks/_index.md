@@ -15,7 +15,7 @@ Excel ブック間でワークシートを手動でコピーしたことがあ�
 
 コードに進む前に、開始するための適切なツールが揃っていることを確認しましょう。
 
--  Aspose.Cells for .NET: ダウンロードできます[ここ](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: ダウンロードできます[ここ](https://releases.aspose.com/cells/net/).
 - Visual Studio または .NET フレームワークをサポートする任意の IDE。
 - 有効な免許証または[一時ライセンス](https://purchase.aspose.com/temporary-license/)Aspose.Cells の全機能をテストしたい場合。
 - C# と .NET フレームワークの基本的な理解。
@@ -37,7 +37,7 @@ using Aspose.Cells;
 
 ## ステップ1: ドキュメントディレクトリを設定する
 
-まず、ファイルの保存場所を定義する必要があります。この手順は、宝探しの地図を選ぶようなものと考えてください。コードにワークブックを見つけて保存する場所を指示します。
+まず、ファイルの保存場所を定義する必要があります。この手順は、宝探しの地図を選択するようなもので、コードにワークブックを見つけて保存する場所を指示します。
 
 ```csharp
 //ドキュメント ディレクトリへのパス。
@@ -68,7 +68,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Workbook excelWorkbook1 = new Workbook();
 ```
 
-この行は、次の名前の空のワークブックを作成します。`excelWorkbook1`最初のブックから移動した後、コピーされたワークシートはここに保存されます。
+この行は、次の名前の空のワークブックを作成します。`excelWorkbook1`最初のブックから移動した後、コピーしたワークシートはここに保存されます。
 
 ## ステップ4: ワークシートをコピーする
 
@@ -96,7 +96,7 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 
 これで完了です。Aspose.Cells for .NET を使用して、ある Excel ブックから別の Excel ブックにワークシートをコピーできました。これは簡単なプロセスで、特に複雑なスプレッドシートや大きなスプレッドシートで作業する場合に、手動でコピーして貼り付ける手間が省けます。Aspose.Cells for .NET は、シートのコピー、ワークブックの結合、またはより高度なタスクの実行など、Excel ファイルを簡単に操作できる強力なツールです。
 
-コーディングは、小さなステップに分割すると簡単になります。次に Excel ファイルの管理が必要になったときには、プロのように処理できるようになります。
+コーディングは、小さなステップに分割すると簡単になります。次に Excel ファイルの管理が必要になったときには、プロのように扱えるようになります。
 
 ## よくある質問
 
@@ -110,7 +110,7 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 
 ### この機能には有料ライセンスが必要ですか?
 
- Aspose.Cellsの無料版でも基本的な機能は使えますが、[一時ライセンス](https://purchase.aspose.com/temporary-license/)または、フル機能を利用し、透かしなどの制限を回避するには、有料ライセンスを購入してください。
+ Aspose.Cellsの無料版でも基本的な機能は使えますが、有料版を購入することをお勧めします。[一時ライセンス](https://purchase.aspose.com/temporary-license/)または、フル機能を利用し、透かしなどの制限を回避するには、有料ライセンスを購入してください。
 
 ### グラフや画像を含むワークシートをコピーできますか?
 

@@ -76,7 +76,7 @@ customValidation.setFormula1("=ISNUMBER(A1)"); // Define tu fórmula personaliza
 
 ## Manejo de errores de validación de datos
 
-Cuando falla la validación de datos, es fundamental gestionar los errores de forma adecuada. Puede configurar mensajes y estilos de error personalizados:
+Cuando falla la validación de datos, es fundamental gestionar los errores con elegancia. Puede configurar mensajes y estilos de error personalizados:
 
 ```java
 dataValidation.setShowDropDown(true);

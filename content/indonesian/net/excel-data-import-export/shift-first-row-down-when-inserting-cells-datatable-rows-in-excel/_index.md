@@ -13,7 +13,7 @@ Apakah Anda lelah menggeser baris secara manual saat memasukkan data baru ke dal
 
 ## Prasyarat
 
-Sebelum kita masuk ke pengkodean, mari pastikan Anda telah menyiapkan semuanya:
+Sebelum kita masuk ke pengkodean, mari pastikan Anda sudah menyiapkan semuanya:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio (2017 atau yang lebih baru seharusnya berfungsi dengan baik).
 2.  Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
@@ -156,7 +156,7 @@ Terakhir, kita akan menyimpan buku kerja yang dimodifikasi kembali ke sebuah fil
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah mempelajari cara menyisipkan baris DataTable ke dalam lembar Excel tanpa memindahkan baris pertama menggunakan Aspose.Cells for .NET. Proses ini tidak hanya menyederhanakan manipulasi data dalam Excel, tetapi juga meningkatkan kinerja aplikasi Anda dengan mengotomatiskan tugas yang biasanya merepotkan. Dengan pengetahuan ini dalam perangkat Anda, Anda lebih siap untuk menangani tugas otomatisasi Excel, sehingga menghemat waktu dan tenaga Anda.
+Nah, itu dia! Anda telah mempelajari cara menyisipkan baris DataTable ke dalam lembar Excel tanpa memindahkan baris pertama menggunakan Aspose.Cells for .NET. Proses ini tidak hanya menyederhanakan manipulasi data dalam Excel, tetapi juga meningkatkan kinerja aplikasi Anda dengan mengotomatiskan tugas yang biasanya merepotkan. Dengan pengetahuan ini di perangkat Anda, Anda lebih siap untuk menangani tugas otomatisasi Excel, sehingga menghemat waktu dan tenaga Anda.
 
 ## Pertanyaan yang Sering Diajukan
 

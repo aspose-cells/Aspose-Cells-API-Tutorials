@@ -67,7 +67,7 @@ Workbook excel = new Workbook(fstream);
 
 ## Passaggio 4: accedi al primo foglio di lavoro
 
-Una volta ottenuta la cartella di lavoro, il passo successivo è accedere al foglio che vuoi proteggere. I file Excel possono avere più fogli e in questo esempio useremo solo il primo.
+Una volta ottenuta la cartella di lavoro, il passo successivo è accedere al foglio che vuoi proteggere. I file Excel possono avere più fogli e, in questo esempio, useremo solo il primo.
 
 ```csharp
 Worksheet worksheet = excel.Worksheets[0];

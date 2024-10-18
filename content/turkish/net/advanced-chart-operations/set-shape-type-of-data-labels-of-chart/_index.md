@@ -46,7 +46,7 @@ Artık her şey hazır olduğuna göre, kodlama kısmına geçelim! Netlik için
 
 ## Adım 1: Dizinlerinizi Tanımlayın
 
-İlk önce, dosyalarınızın nerede bulunduğunu tanımlayalım: hem kaynak dosyayı hem de değiştirilen dosyayı kaydetmek istediğiniz hedef klasörü.
+Öncelikle dosyalarınızın nerede bulunduğunu tanımlayalım: hem kaynak dosyayı hem de değiştirilen dosyayı kaydetmek istediğiniz hedef klasörü.
 
 ```csharp
 // Kaynak dizini
@@ -147,10 +147,10 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla dü
 Kesinlikle! Aspose.Cells, veri serileri, etiketler, stiller ve daha fazlası dahil olmak üzere grafikleri değiştirmek için kapsamlı işlevler sunar.
 
 ### Aspose.Cells ile hangi programlama dillerini kullanabilirim?  
-Bu makale .NET'e odaklansa da Aspose.Cells ayrıca REST API'leri aracılığıyla Java, PHP, Python ve daha fazlasını da destekler.
+Bu makale .NET'e odaklansa da, Aspose.Cells ayrıca REST API'leri aracılığıyla Java, PHP, Python ve daha fazlasını da destekler.
 
 ### Aspose.Cells için ödeme yapmam gerekir mi?  
-Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümü sunarlar; bu sürümü bulabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümü sunarlar; bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells ile ilgili sorunlar yaşarsam nereden yardım alabilirim?  
  Herhangi bir sorunla karşılaşırsanız,[destek forumu](https://forum.aspose.com/c/cells/9) Uzmanlardan yardım almak için harika bir kaynaktır.

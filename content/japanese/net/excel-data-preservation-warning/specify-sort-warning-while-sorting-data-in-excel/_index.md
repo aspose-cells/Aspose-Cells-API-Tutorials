@@ -9,14 +9,14 @@ url: /ja/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-
 ---
 ## 導入
 
-Excel でデータを並べ替えようとしたけれど、予想外の結果に困惑したことはありませんか? テキストとして保存された数値を並べ替えると、特に期待どおりに動作しない場合は混乱を招く可能性があります。このチュートリアルでは、Aspose.Cells for .NET を使用して Excel でデータを並べ替えるときに並べ替えの警告を指定する方法を詳しく説明します。Aspose.Cells は、Microsoft Excel をインストールしなくても開発者が Excel ファイルを操作できる強力な API です。経験豊富な開発者でも、初心者でも、最後までお読みください。Excel でプロのように並べ替えをマスターするのに役立つステップバイステップのガイドを用意しました。
+Excel でデータを並べ替えようとしたけれど、予想外の結果に困惑したことはありませんか? テキストとして保存された数値を並べ替えると、特に期待どおりに動作しない場合は混乱を招く可能性があります。このチュートリアルでは、Aspose.Cells for .NET を使用して Excel でデータを並べ替えるときに並べ替えの警告を指定する方法について詳しく説明します。Aspose.Cells は、Microsoft Excel をインストールしなくても開発者が Excel ファイルを操作できる強力な API です。経験豊富な開発者でも、初心者でも、最後までお読みください。Excel でプロのように並べ替えをマスターするのに役立つステップバイステップのガイドを用意しました。
 
 ## 前提条件
 
 データの並べ替えの細部に入る前に、いくつかの前提条件を満たす必要があります。
 
 1. Visual Studio: IDE またはコード エディターが必要になります。Visual Studio は .NET 開発に最適なオプションの 1 つです。
-2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリがインストールされていることを確認してください。[ダウンロードリンク](https://releases.aspose.com/cells/net/)または、[無料トライアル](https://releases.aspose.com/).
+2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリがあることを確認してください。[ダウンロードリンク](https://releases.aspose.com/cells/net/)または、[無料トライアル](https://releases.aspose.com/).
 3. C# の基本的な理解: C# に少し慣れておくと、大いに役立ちます。以前に C# を少し使用したことがあるなら、問題ありません。
 4. サンプルExcelファイル: サンプルExcelファイルを作成できます。`sampleSortAsNumber.xlsx`並べ替えたい列 A のデータを入力します。
 
@@ -36,7 +36,7 @@ using Aspose.Cells.Sorting;
 
 ## ステップ1: ドキュメントディレクトリを設定する
 
-まず、ドキュメントディレクトリへのパスを指定する必要があります。`sampleSortAsNumber.xlsx`ファイルが見つかります。`"Your Document Directory"` Excel ファイルが存在する実際のパスを入力します。
+まず、ドキュメントディレクトリへのパスを指定する必要があります。`sampleSortAsNumber.xlsx`ファイルが見つかります。`"Your Document Directory"`Excel ファイルが存在する実際のパスを入力します。
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -74,7 +74,7 @@ CellArea ca = CellArea.CreateCellArea("A1", "A20");
 
 ## ステップ5: DataSorterオブジェクトを作成する
 
-分類する前に、`DataSorter`仕分け作業を処理します。これは、バインダーを整理するためにプロの整理業者を雇うようなものです。
+分類する前に、`DataSorter`仕分けのプロセスを処理します。これは、バインダーを整理するためにプロの整理業者を雇うようなものです。
 
 ```csharp
 DataSorter sorter = workbook.DataSorter;

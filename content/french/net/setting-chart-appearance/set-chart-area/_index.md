@@ -17,8 +17,8 @@ Avant de nous plonger dans les détails de la création de graphiques, assurons-
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il est essentiel pour écrire et exécuter du code .NET.
 2. .NET Framework : ce guide fonctionne mieux avec .NET Framework ou .NET Core. Assurez-vous d'avoir installé la version requise (4.5 ou ultérieure).
-3. Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
-4. Connaissances de base en C# : une compréhension fondamentale de la programmation C# vous aidera à mieux comprendre les étapes. Ne vous inquiétez pas si vous n'êtes pas un pro, je vous expliquerai tout !
+3.  Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
+4. Connaissances de base en C# : une compréhension fondamentale de la programmation C# vous aidera à mieux comprendre les étapes. Ne vous inquiétez pas si vous n'êtes pas un pro, je vous expliquerai tout !
 
 ## Paquets d'importation
 
@@ -162,7 +162,7 @@ Félicitations ! Vous avez appris avec succès à configurer une zone de graphi
 ## FAQ
 
 ### Qu'est-ce qu'Aspose.Cells ?
-Aspose.Cells est une bibliothèque .NET permettant de gérer des fichiers Excel par programmation. Elle permet de créer, de modifier et de convertir des documents Excel de manière transparente.
+Aspose.Cells est une bibliothèque .NET permettant de gérer les fichiers Excel par programmation. Elle permet de créer, de modifier et de convertir des documents Excel de manière transparente.
 
 ### Puis-je utiliser Aspose.Cells sur d'autres plateformes ?
 Oui ! Aspose.Cells dispose de bibliothèques pour différentes plateformes, notamment Java, Python et Cloud, ce qui le rend polyvalent dans divers environnements.
@@ -174,4 +174,4 @@ Oui ! Aspose.Cells dispose de bibliothèques pour différentes plateformes, not
  Vous pouvez demander de l'aide et du soutien à la communauté Aspose.Cells et aux forums disponibles[ici](https://forum.aspose.com/c/cells/9).
 
 ### Comment puis-je acheter une licence ?
-Vous pouvez acheter une licence directement sur le site Web d'Aspose[ici](https://purchase.aspose.com/buy).
+ Vous pouvez acheter une licence directement sur le site Web d'Aspose[ici](https://purchase.aspose.com/buy).

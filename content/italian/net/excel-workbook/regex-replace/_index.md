@@ -2,7 +2,7 @@
 title: Sostituisci espressione regolare
 linktitle: Sostituisci espressione regolare
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come usare in modo efficiente la sostituzione regex in Excel con Aspose.Cells per .NET. Aumenta la produttività e la precisione nelle attività del tuo foglio di calcolo.
+description: Scopri come usare in modo efficiente la sostituzione regex in Excel con Aspose.Cells per .NET. Aumenta la produttività e la precisione nelle tue attività sui fogli di calcolo.
 type: docs
 weight: 140
 url: /it/net/excel-workbook/regex-replace/
@@ -24,14 +24,14 @@ Prima di addentrarci nei dettagli della programmazione, assicuriamoci che tu sia
 
 Per iniziare, assicurati di aver impostato il tuo progetto aggiungendo la libreria Aspose.Cells. Puoi farlo tramite NuGet Package Manager in Visual Studio.
 
-1. Apri il progetto e vai su Strumenti > Gestore pacchetti NuGet > Gestisci pacchetti NuGet per la soluzione.
+1. Apri il tuo progetto e vai su Strumenti > Gestore pacchetti NuGet > Gestisci pacchetti NuGet per la soluzione.
 2.  Cercare`Aspose.Cells` e installarlo.
 
 Ora che è tutto pronto, importiamo i pacchetti necessari per la nostra applicazione.
 
 ## Importa pacchetti
 
-Prima di addentrarci negli esempi, dobbiamo importare gli spazi dei nomi Aspose.Cells richiesti nel nostro file C#.
+Prima di immergerci negli esempi, dobbiamo importare gli spazi dei nomi Aspose.Cells richiesti nel nostro file C#.
 
 ```csharp
 using System;

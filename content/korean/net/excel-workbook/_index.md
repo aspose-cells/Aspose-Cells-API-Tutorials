@@ -13,17 +13,17 @@ Excel 파일 관리에 어려움을 겪고 계신가요? 서명을 추가하거�
 
 ## 웹 확장 정보 액세스
 
-웹 확장 정보에 액세스하는 방법을 이해하면 Excel 스프레드시트에서 새로운 가능성이 열릴 수 있습니다. 이를 통해 파일 내에서 향상된 상호 작용이 가능합니다.[웹 확장 정보 액세스](./access-web-extension-information/) Aspose.Cells를 처음 사용하는 사람도 쉽게 사용할 수 있도록 단계별 안내를 제공합니다.
+웹 확장 정보에 액세스하는 방법을 이해하면 Excel 스프레드시트에서 새로운 가능성이 열릴 수 있습니다. 파일 내에서 향상된 상호 작용이 가능합니다.[웹 확장 정보 액세스](./access-web-extension-information/) Aspose.Cells를 처음 사용하는 사람도 쉽게 이 과정을 진행할 수 있도록 단계별 안내를 제공합니다.
 
 ## 디지털 서명 추가
 
- 서명된 Excel 파일에 디지털 서명을 추가해야 했던 적이 있나요? 가이드에서 이 작업을 수행하는 방법을 알아보세요.[이미 서명된 Excel 파일에 디지털 서명 추가](./add-digital-signature-to-an-already-signed-excel-file/)디지털 서명은 신뢰성과 무결성을 보장하여 Excel 파일의 기능성을 높일 뿐만 아니라 보안성도 높여줍니다.
+ 서명된 Excel 파일에 디지털 서명을 추가해야 했던 적이 있나요? 가이드에서 이 작업을 수행하는 방법을 알아보세요.[이미 서명된 Excel 파일에 디지털 서명 추가](./add-digital-signature-to-an-already-signed-excel-file/)디지털 서명은 신뢰성과 무결성을 보장하여 Excel 파일을 기능적으로 만들 뿐만 아니라 안전하게 보호합니다.
 
 ## 공유 워크북 만들기
 
  오늘날 직장에서는 협업이 핵심이며 이에 대한 튜토리얼이 있습니다.[공유 워크북 만들기](./create-shared-workbook/) 공유 워크북을 손쉽게 설정할 수 있습니다. Excel에서 데이터 분석이나 프로젝트 관리를 함께 해야 하는 팀에 완벽합니다. 
 
-## 내장 파일 추출
+## 내장된 파일 추출
 
 Excel에 내장된 파일이 포함될 수 있다는 사실을 알고 계셨나요? 내장된 MOL 파일을 추출하기 위해 스프레드시트를 더 깊이 파고들어야 했던 적이 있다면, 다음 튜토리얼을 확인해 보세요.[내장된 MOL 파일 추출](./extract-embedded-mol-file/)이 가이드는 이러한 파일을 검색하는 간단한 프로세스를 안내하여 Excel 통합 문서에 숨겨진 중요한 데이터를 절대 잃지 않도록 합니다.
 
@@ -33,7 +33,7 @@ Excel에 내장된 파일이 포함될 수 있다는 사실을 알고 계셨나�
 
 ## 비밀번호 보호로 보안 강화
 
- 보안은 필수적이며, 특히 민감한 정보가 포함된 공유 워크북의 경우 더욱 그렇습니다.[공유 통합 문서 암호 보호 또는 보호 해제](./password-protect-or-unprotect-shared-workbook/)워크북을 잠그고 적절한 사람만 액세스할 수 있도록 하는 단계를 자세히 설명합니다. 파일이 안전하다는 것을 알면 파일을 공유하는 데 더 자신감을 가질 수 있습니다.
+ 보안은 필수적이며, 특히 민감한 정보가 포함된 공유 워크북의 경우 더욱 그렇습니다.[공유 통합 문서 암호 보호 또는 보호 해제](./password-protect-or-unprotect-shared-workbook/)워크북을 잠그고 올바른 사람만 액세스할 수 있도록 하는 단계를 자세히 설명합니다. 파일이 안전하다는 것을 알면 파일을 공유하는 데 더 자신감을 가질 수 있습니다.
 
 ## 정규 표현식으로 생산성 향상
 
@@ -66,11 +66,11 @@ Excel에 내장된 파일이 포함될 수 있다는 사실을 알고 계셨나�
 | [웹 확장 추가](./add-web-extension/) | 이 단계별 자습서를 통해 .NET용 Aspose.Cells를 사용하여 Excel 파일에 웹 확장 기능을 추가하는 방법을 알아보고 스프레드시트 기능을 향상하세요. |  
 | [압축 레벨 조정](./adjust-compression-level/) | Aspose.Cells for .NET을 사용하여 Excel 파일의 압축 수준을 조정하는 방법을 알아보세요. 이 단계별 가이드로 파일 크기를 효율적으로 최적화하세요. |  
 | [선행 아포스트로피 허용](./allow-leading-apostrophe/) | Aspose.Cells for .NET을 사용하여 Excel에서 선행 아포스트로피를 손쉽게 관리하세요. 이 포괄적인 튜토리얼은 단계별로 프로세스를 안내합니다. |  
-| [공유 워크북 만들기](./create-shared-workbook/) | 이 간단한 단계별 가이드로 Aspose.Cells for .NET을 사용하여 공유 워크북을 만드는 방법을 알아보세요. 팀 협업을 강화하기에 완벽합니다. |  
+| [공유 워크북 만들기](./create-shared-workbook/) | 이 간단한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 공유 워크북을 만드는 방법을 알아보세요. 팀 협업을 강화하기에 완벽합니다. |  
 | [링크 유형 감지](./detect-link-types/) | Aspose.Cells for .NET을 사용하여 Excel에서 하이퍼링크 유형을 감지하는 방법을 알아보세요. 간단한 단계와 코드 예제가 포함되어 있습니다. |  
 | [내장된 Mol 파일 추출](./extract-embedded-mol-file/) | Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 포함된 MOL 파일을 쉽게 추출하는 방법을 알아보세요. |  
 | [워크북을 로드하는 동안 정의된 이름 필터링](./filter-defined-names-while-loading-workbook/) | 이 포괄적인 가이드에서는 Aspose.Cells for .NET을 사용하여 통합 문서를 로드하는 동안 정의된 이름을 필터링하는 방법을 알아봅니다. |  
-| [오다타 세부 정보 얻기](./get-odata-details/) | 이 자세한 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel에서 OData 세부 정보를 추출하는 방법을 알아보세요. |  
+| [오다타 세부 정보 얻기](./get-odata-details/) | 이 자세한 단계별 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel에서 OData 세부 정보를 추출하는 방법을 알아봅니다. |  
 | [공유 통합 문서 암호 보호 또는 보호 해제](./password-protect-or-unprotect-shared-workbook/) | 암호 보호 및 보호 해제 기술에 대한 간단한 가이드를 통해 Aspose.Cells for .NET을 사용하여 공유 Excel 파일을 보호하세요. |  
 | [XLSB 파일의 외부 연결 읽기 및 쓰기](./read-and-write-external-connection-of-xlsb-file/) | 이 포괄적인 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 XLSB 파일에서 외부 연결을 관리하는 방법을 알아봅니다. |  
 | [정규식 바꾸기](./regex-replace/) | Aspose.Cells for .NET을 사용하여 Excel에서 regex replace를 효율적으로 사용하는 방법을 알아보세요. 스프레드시트 작업에서 생산성과 정확성을 높이세요. |  

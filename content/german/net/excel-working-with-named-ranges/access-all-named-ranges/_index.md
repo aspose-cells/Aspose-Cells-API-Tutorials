@@ -64,9 +64,9 @@ Diese letzte Bestätigung wirkt wie ein Schulterklopfen und zeigt Ihnen, dass Si
 Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Cells für .NET auf alle benannten Bereiche in einer Excel-Tabelle zugreifen. Diese Anleitung hat Sie von den Grundlagen der Einrichtung Ihrer Umgebung bis zum mühelosen Abrufen benannter Bereiche aus Ihrer Excel-Datei geführt. Jetzt können Sie dieses Wissen nutzen, um Ihre Excel-Datenverwaltungsfähigkeiten zu verbessern. Ob für persönliche Projekte oder professionelle Aufgaben, diese Fähigkeit kann bahnbrechend sein.
 ## Häufig gestellte Fragen
 ### Was sind benannte Bereiche in Excel?
-Benannte Bereiche bieten die Möglichkeit, einer bestimmten Zelle oder einem Zellbereich einen Namen zuzuweisen, um die Bezugnahme zu erleichtern.
+Benannte Bereiche bieten die Möglichkeit, einer bestimmten Zelle oder einem Zellbereich einen Namen zuzuweisen, um die Referenz zu erleichtern.
 ### Kann ich benannte Bereiche mit Aspose.Cells ändern?
-Ja, mit Aspose.Cells können Sie benannte Bereiche programmgesteuert erstellen, ändern und löschen.
+Ja, über Aspose.Cells können Sie benannte Bereiche programmgesteuert erstellen, ändern und löschen.
 ### Ist die Nutzung von Aspose.Cells kostenlos?
  Aspose.Cells bietet eine kostenlose Testversion an, für die vollständige Nutzung ist jedoch eine Lizenz erforderlich. Sie können sich die[Preisgestaltung](https://purchase.aspose.com/buy).
 ### Wo finde ich weitere Dokumentation?

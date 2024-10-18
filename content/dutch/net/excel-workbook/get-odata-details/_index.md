@@ -2,7 +2,7 @@
 title: Odata-details ophalen
 linktitle: Odata-details ophalen
 second_title: Aspose.Cells voor .NET API-referentie
-description: Ontdek hoe u OData-gegevens uit Excel kunt extraheren met Aspose.Cells voor .NET in deze gedetailleerde stapsgewijze zelfstudie.
+description: Ontdek in deze gedetailleerde stapsgewijze zelfstudie hoe u OData-gegevens uit Excel kunt extraheren met Aspose.Cells voor .NET.
 type: docs
 weight: 110
 url: /nl/net/excel-workbook/get-odata-details/
@@ -30,7 +30,7 @@ Laten we onze codeerreis beginnen door de benodigde pakketten in ons project te 
 
 1. Open Visual Studio.
 2. Klik op 'Een nieuw project maken'.
-3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is bepalend.
+3. Kies 'Console-app (.NET Core)' of 'Console-app (.NET Framework)'. Uw voorkeur is voldoende.
 4. Geef uw project een naam (bijvoorbeeld ODataDetailsExtractor) en klik op 'Maken'.
 
 ### Installeer Aspose.Cells NuGet-pakket
@@ -109,7 +109,7 @@ Zodra u het hebt toegevoegd, voert u uw project uit. U zou de verbindingsnamen s
 
 ## Conclusie
 
-En daar heb je het! In een paar eenvoudige stappen heb je de kracht van Aspose.Cells voor .NET gebruikt om OData-details uit een Excel-bestand te halen. Het is verbazingwekkend hoe eenvoudig het kan zijn om met de juiste tools en instructies in complexe databeheertaken te duiken. Door Aspose.Cells te gebruiken, maak je je werk niet alleen makkelijker; je ontsluit ook een heel nieuw rijk aan mogelijkheden voor datamanipulatie. Nu je de basis onder de knie hebt, kun je de mogelijkheden verder verkennen: het is een game changer!
+En daar heb je het! In een paar eenvoudige stappen heb je de kracht van Aspose.Cells voor .NET gebruikt om OData-details uit een Excel-bestand te halen. Het is verbazingwekkend hoe eenvoudig het kan zijn om met de juiste tools en instructies in complexe databeheertaken te duiken. Door Aspose.Cells te gebruiken, maak je niet alleen je werk makkelijker; je ontsluit ook een heel nieuw rijk aan mogelijkheden voor datamanipulatie. Nu je de basis onder de knie hebt, kun je de mogelijkheden verder verkennen: het is een game changer!
 
 ## Veelgestelde vragen
 

@@ -67,7 +67,7 @@ Workbook book = new Workbook();
 
 Tutaj po prostu utworzymy nowy skoroszyt, który będzie zawierał dane i konfiguracje z naszego arkusza kalkulacyjnego.
 
-## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 2: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po utworzeniu wystąpienia skoroszytu, będziesz chciał uzyskać dostęp do pierwszego arkusza. Każdy skoroszyt może zawierać wiele arkuszy, ale w tej demonstracji skupimy się na pierwszym.
 
@@ -86,7 +86,7 @@ sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 ```
 
-Ten kod ustawia rozmiar papieru na A2 i natychmiast wyświetla szerokość i wysokość. Piękno Aspose.Cells tkwi w jego prostocie!
+Ten kod ustawia rozmiar papieru na A2 i natychmiast wyprowadza szerokość i wysokość. Piękno Aspose.Cells tkwi w jego prostocie!
 
 ## Krok 4: Powtórz dla innych rozmiarów papieru
 

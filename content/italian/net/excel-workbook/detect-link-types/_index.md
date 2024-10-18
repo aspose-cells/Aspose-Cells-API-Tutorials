@@ -17,7 +17,7 @@ Prima di iniziare la nostra esplorazione dei tipi di collegamento ipertestuale, 
 
 1. Conoscenza di base di C#: una conoscenza fondamentale della programmazione C# ti aiuterà a seguire il corso senza problemi.
 2. Visual Studio installato: per eseguire le applicazioni .NET, sarà necessario che sul computer sia installato Visual Studio o un altro IDE compatibile.
-3.  Aspose.Cells per la libreria .NET: se non l'hai già fatto, dovrai scaricare e installare la libreria Aspose.Cells. Puoi trovarla[Qui](https://releases.aspose.com/cells/net/).
+3.  Libreria Aspose.Cells per .NET: se non l'hai già fatto, dovrai scaricare e installare la libreria Aspose.Cells. Puoi trovarla[Qui](https://releases.aspose.com/cells/net/).
 4.  Esempio di file Excel: per questo tutorial, assicurati di avere un file Excel denominato`LinkTypes.xlsx`Può essere creato da zero o scaricato da Internet.
 
 Una volta soddisfatti questi prerequisiti, sei pronto a partire!
@@ -63,11 +63,11 @@ Questa riga punta alla directory contenente il file Excel. Assicurati di adattar
 Poi, caricheremo la nostra cartella di lavoro. È come aprire il tuo file Excel in background, consentendoci di leggere e manipolare il suo contenuto.
 
 ```csharp
-//Carica la cartella di lavoro
+// Carica la cartella di lavoro
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Ecco cosa sta succedendo: stiamo creando un'istanza di`Workbook` classe e passando il percorso del nostro file Excel. Se tutto va liscio, la tua cartella di lavoro è ora aperta per gli affari!
+Ecco cosa sta succedendo: stiamo creando un'istanza di`Workbook` classe e passando il percorso del nostro file Excel. Se tutto va liscio, la tua cartella di lavoro è ora aperta per gli affari!
 
 ## Passaggio 3: accedi al foglio di lavoro
 
@@ -96,7 +96,7 @@ Grazie a questo intervallo, possiamo recuperare facilmente i collegamenti iperte
 Ecco la parte emozionante: estrarre gli hyperlink! Estraiamo gli hyperlink dal nostro intervallo definito.
 
 ```csharp
-// Ottieni collegamenti ipertestuali nell'intervallo
+//Ottieni collegamenti ipertestuali nell'intervallo
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

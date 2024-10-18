@@ -40,7 +40,7 @@ Debes agregar una referencia a la biblioteca Aspose.Cells en tu proyecto. A cont
 
 Al hacer esto, te aseguras de que todas las funciones necesarias de Aspose.Cells estén a tu alcance.
 
-### Uso del espacio de nombres
+### Usando el espacio de nombres
 
 En la parte superior del archivo CS principal, deberá incluir el espacio de nombres Aspose.Cells. Así es como debería verse el código:
 
@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  A continuación, necesitaremos crear un`Workbook` objeto. Este objeto actúa como un contenedor para los datos de su hoja de cálculo.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ En esta línea, obtenemos la configuración de página para la primera hoja de t
 // Permitir imprimir líneas de cuadrícula
 pageSetup.PrintGridlines = true;
 
-// Permitir imprimir encabezados de filas/columnas
+// Permitir imprimir encabezados de filas y columnas
 pageSetup.PrintHeadings = true;
 
 // Permitir imprimir la hoja de cálculo en modo blanco y negro

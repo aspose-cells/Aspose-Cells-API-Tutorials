@@ -9,7 +9,7 @@ url: /fr/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 ---
 ## Introduction
 
-Avez-vous déjà eu besoin d'ajouter une nouvelle feuille à un fichier Excel par programmation ? Si c'est le cas, vous êtes au bon endroit ! Dans ce guide, nous nous penchons sur les bases de l'utilisation d'Aspose.Cells pour .NET, une bibliothèque puissante conçue pour la manipulation de fichiers Excel. Nous décrirons les conditions préalables, décomposerons le code en étapes faciles à suivre et vous aiderons à démarrer en un rien de temps.
+Avez-vous déjà eu besoin d'ajouter une nouvelle feuille à un fichier Excel par programmation ? Si c'est le cas, vous êtes au bon endroit ! Dans ce guide, nous nous penchons sur les bases de l'utilisation d'Aspose.Cells pour .NET, une bibliothèque puissante conçue pour la manipulation de fichiers Excel. Nous décrirons les prérequis, décomposerons le code en étapes faciles à suivre et vous aiderons à démarrer en un rien de temps.
 
 ## Prérequis
 
@@ -49,20 +49,20 @@ Pour commencer, vous devez vous assurer que vous disposez d'un endroit sûr pour
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Créez un répertoire s'il n'est pas déjà présent.
+//Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Dans le code ci-dessus, nous déclarons le chemin où notre fichier Excel résidera (`dataDir`). Après cela, on vérifie si ce répertoire existe déjà. Si ce n'est pas le cas, on en crée un. C'est aussi simple que ça !
+Dans le code ci-dessus, nous déclarons le chemin où notre fichier Excel résidera (`dataDir`). Ensuite, on vérifie si ce répertoire existe déjà. Si ce n'est pas le cas, on en crée un. C'est aussi simple que ça !
 
 ## Étape 2 : Instanciation d'un objet de classeur
 
 Ensuite, nous allons créer une instance de la classe Workbook. Cette classe est l'épine dorsale de toutes les opérations liées à Excel que vous effectuerez.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Maintenant que notre classeur est prêt, ajoutons cette nouvelle feuille !
 int i = workbook.Worksheets.Add();
 ```
 
- Ici, nous utilisons le`Add()` méthode de la`Worksheets` collection présente au sein de la`Workbook` classe. La méthode renvoie un index (`i`de la feuille nouvellement ajoutée. C'est comme ajouter une page à votre carnet - simple et efficace !
+ Ici, nous utilisons le`Add()` méthode de la`Worksheets` collection présente au sein de la`Workbook` classe. La méthode renvoie un index (`i`) de la feuille nouvellement ajoutée. C'est comme ajouter une page à votre carnet - simple et efficace !
 
 ## Étape 4 : Nommer votre nouvelle feuille de calcul
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Vous obtenez une référence à la feuille nouvellement créée en utilisant son index`i`. Ensuite, nous définissons simplement son nom sur « Ma feuille de calcul ». Nommer vos feuilles de cette manière est une bonne pratique, en particulier lorsque vous travaillez avec des fichiers Excel plus volumineux où le contexte est essentiel.
+ Vous obtenez une référence à la feuille nouvellement créée en utilisant son index`i`Ensuite, nous définissons simplement son nom sur « Ma feuille de calcul ». Nommer vos feuilles de cette manière est une bonne pratique, en particulier lorsque vous travaillez avec des fichiers Excel plus volumineux où le contexte est essentiel.
 
 ## Étape 5 : enregistrement du fichier Excel
 
@@ -106,7 +106,7 @@ Avec une seule ligne de code, nous enregistrons notre classeur dans le répertoi
 
 ## Conclusion
 
-Et voilà ! En quelques étapes simples, nous avons expliqué comment ajouter une nouvelle feuille à un fichier Excel à l'aide de C# et d'Aspose.Cells. Que vous vous contentiez de modifier du code ou que vous travailliez sur un projet plus vaste, cette fonctionnalité peut grandement améliorer votre flux de travail de gestion des données. 
+Et voilà ! En quelques étapes simples, nous avons expliqué comment ajouter une nouvelle feuille à un fichier Excel à l'aide de C# et d'Aspose.Cells. Que vous souhaitiez simplement modifier du code ou travailler sur un projet plus vaste, cette fonctionnalité peut grandement améliorer votre flux de travail de gestion des données. 
 
 Avec Aspose.Cells, les possibilités sont infinies. Vous pouvez manipuler les données de multiples façons : édition, formatage ou même création de formules ! Alors, allez-y et explorez davantage ; vos fichiers Excel vous en seront reconnaissants.
 

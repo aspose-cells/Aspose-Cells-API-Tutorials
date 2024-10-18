@@ -9,7 +9,7 @@ url: /id/net/excel-working-with-named-ranges/
 ---
 ## Perkenalan
 
-Rentang bernama di Excel bagaikan kantong-kantong kecil kekuasaan. Rentang ini memungkinkan Anda mengelola data secara lebih efisien dengan memberi nama tertentu pada sel atau kelompok sel. Hal ini membuat rumus lebih mudah dipahami dan digunakan. Dalam artikel ini, kita akan membahas bagaimana Aspose.Cells for .NET dapat membantu Anda memanfaatkan potensi penuh rentang bernama. Baik Anda mengakses semua rentang bernama atau hanya satu rentang tertentu, kami siap membantu Anda.
+Rentang bernama di Excel seperti kantung-kantung kecil kekuasaan. Rentang ini memungkinkan Anda mengelola data secara lebih efisien dengan memberi sel atau kelompok sel nama tertentu. Hal ini membuat rumus lebih mudah dipahami dan digunakan. Dalam artikel ini, kita akan membahas bagaimana Aspose.Cells for .NET dapat membantu Anda memanfaatkan potensi penuh rentang bernama. Baik Anda mengakses semua rentang bernama atau hanya satu rentang tertentu, kami siap membantu Anda.
 
 ## Mengakses Semua Rentang Bernama di Excel
 

@@ -16,7 +16,7 @@ Amikor az Excel-táblázatok szerkesztéséről van szó, az egyik leghatékonya
 Mielőtt belevágnánk a kódolásba, győződjünk meg arról, hogy minden be van állítva. Íme, amire szüksége van:
 
 1. Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. A közösségi kiadás tökéletesen működik.
-2.  Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Szüksége van az Aspose.Cells for .NET könyvtárra. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismeretek: A C# alapvető ismerete sokat segíthet.
 4. Projektbeállítás: Hozzon létre egy új C#-konzolalkalmazást a Visual Studióban.
 
@@ -41,7 +41,7 @@ Tegyük ki a kódot a könyvtár létrehozásához (ha még nem létezik):
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Hozzon létre könyvtárat, ha még nincs jelen.
+//Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

@@ -84,7 +84,7 @@ Nachdem wir nun die Arbeitsmappe geöffnet haben, ist es an der Zeit, die einzel
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Erklärung: Der obige Code zielt auf das erste Arbeitsblatt (Index 0) in unserer Arbeitsmappe und ruft die`Cells` Sammlung, mit der wir zur Suche nach Angehörigen arbeiten.
+Erklärung: Der obige Code zielt auf das erste Arbeitsblatt (Index 0) in unserer Arbeitsmappe und ruft die`Cells` Sammlung, mit der wir zur Suche nach Angehörigen arbeiten.
 
 ## Schritt 4: Zelle auswählen
 
@@ -96,7 +96,7 @@ Cell cell = cells["B2"];
 
  Erklärung: Diese Linie zielt auf Zelle`B2` damit wir prüfen können, welche Zellen davon abhängen. Wenn Sie eine andere Zelle verfolgen möchten, ändern Sie einfach`B2` zu Ihrem gewünschten Zellbezug. 
 
-## Schritt 5: Die abhängigen Zellen abrufen
+## Schritt 5: Holen Sie sich die abhängigen Zellen
 
  Jetzt kommt der spaßige Teil – die Suche nach den Angehörigen! Wir erfassen sie mit dem`GetDependents` Verfahren.
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Erklärung: Diese Schleife durchläuft jede abhängige Zelle in unserem Array und gibt ihren Namen aus – ziemlich unkompliziert! Die`Console.ReadKey()` stellt sicher, dass das Konsolenfenster geöffnet bleibt, bis Sie eine Taste drücken, sodass Sie Zeit haben, die Ausgabe zu lesen.
+Erklärung: Diese Schleife durchläuft jede abhängige Zelle in unserem Array und gibt ihren Namen aus – ziemlich unkompliziert! Die`Console.ReadKey()` stellt sicher, dass das Konsolenfenster geöffnet bleibt, bis Sie eine Taste drücken, sodass Sie Zeit haben, die Ausgabe zu lesen.
 
 ## Abschluss
 
@@ -133,7 +133,7 @@ Aspose.Cells ist eine leistungsstarke Bibliothek zur Handhabung von Excel-Dateie
  Ja! Aspose bietet eine[Kostenlose Testversion](https://releases.aspose.com/) ihrer Software, sodass Sie deren Funktionen vor dem Kauf erkunden können.
 
 ### Wie erhalte ich Unterstützung für Aspose.Cells?
-Sie erhalten Unterstützung durch das[Aspose-Forum](https://forum.aspose.com/c/cells/9), wo Ihnen eine Community aus Benutzern und Experten helfen kann. 
+ Sie erhalten Unterstützung durch das[Aspose-Forum](https://forum.aspose.com/c/cells/9), wo Ihnen eine Community aus Benutzern und Experten helfen kann. 
 
 ### Ist Aspose.Cells für große Excel-Dateien geeignet?
 Auf jeden Fall! Aspose.Cells ist für die effiziente Arbeit mit großen Excel-Dateien konzipiert und bietet eine robuste Handhabung und Leistung.

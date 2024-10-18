@@ -16,7 +16,7 @@ url: /ja/java/data-validation-rules/conditional-data-validation/
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
-- Java Development Kit (JDK) がシステムにインストールされています。
+- システムに Java 開発キット (JDK) がインストールされています。
 -  Aspose.Cells for Javaライブラリ。ここからダウンロードできます。[ここ](https://releases.aspose.com/cells/java/).
 
 ## ステップ1: 新しいJavaプロジェクトを作成する
@@ -56,7 +56,7 @@ DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1
 
 ## ステップ5: 検証メッセージとエラーアラートを設定する
 
-基準を満たさないデータを入力したときにユーザーをガイドする検証メッセージとエラー アラートを提供できます。手順は次のとおりです。
+基準を満たさないデータをユーザーが入力したときに、検証メッセージとエラー アラートを提供してユーザーを誘導することができます。手順は次のとおりです。
 
 ```java
 dataValidation.setErrorMessage("Please enter a number between 1 and 100.");

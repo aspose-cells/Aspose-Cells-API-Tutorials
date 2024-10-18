@@ -16,8 +16,8 @@ Excel'de dinamik ve görsel olarak çekici grafikler oluşturmak, verileri etkil
 Kodlamaya başlamadan önce, elinizde olması gereken birkaç şey var:
 
 - C#'ın Temel Anlayışı: C# programlamanın temellerine hakim olmak faydalı olacaktır. Endişelenmeyin; uzman olmanıza gerek yok, sadece sözdiziminde gezinme konusunda rahat olmanız yeterli.
--  Yüklü Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
-- Visual Studio: .NET Framework için kullanmayı tercih ettiğiniz Visual Studio veya herhangi bir IDE'ye aşinalık önemlidir.
+- Yüklü Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
+- Visual Studio: .NET framework için kullanmayı tercih ettiğiniz Visual Studio veya herhangi bir IDE'ye aşinalık şarttır.
 - Mevcut Bir Excel Dosyası: Bu örnek için, "sampleAddingTextBoxControlInChart.xls" adlı mevcut bir Excel dosyasıyla çalışacağız. Bir tane oluşturabilir veya bir örnek indirebilirsiniz.
 
 Artık her şey yerli yerinde olduğuna göre kodlama kısmına geçebiliriz!
@@ -136,7 +136,7 @@ Son adım, yaptığınız değişiklikleri yeni bir Excel dosyasına kaydetmekti
 // Excel dosyasını kaydedin.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Yer değiştirmek`"outputAddingTextBoxControlInChart.xls"` istediğiniz dosya adıyla.
+ Yer değiştirmek`"outputAddingTextBoxControlInChart.xls"`istediğiniz dosya adıyla.
 
 ## Çözüm
 
@@ -157,4 +157,4 @@ Evet! TextBox oluşturma adımlarını farklı pozisyonlarda tekrarlayarak ihtiy
  Kapsamlı belgelere erişebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Aspose destek forumu aracılığıyla yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+ Aspose destek forumundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).

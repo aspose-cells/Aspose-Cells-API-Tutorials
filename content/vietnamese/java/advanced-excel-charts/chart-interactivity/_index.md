@@ -16,7 +16,7 @@ Biểu đồ tương tác bổ sung một chiều hướng mới cho trực quan
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 - Môi trường phát triển Java
-- Aspose.Cells cho Thư viện Java (Tải xuống từ[đây](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells cho Thư viện Java (Tải xuống từ[đây](https://releases.aspose.com/cells/java/)
 
 ## Bước 1: Thiết lập dự án Java của bạn
 

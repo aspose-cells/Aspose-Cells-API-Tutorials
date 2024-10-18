@@ -14,7 +14,7 @@ Az adatvezérelt döntéshozatal világában kulcsfontosságú a hatékony adatv
 
 ## Lépésről lépésre az adatvizualizációhoz:
 
-Oktatóanyagaink átfogó utazást kínálnak a fejlett Excel diagramok birodalmába. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ezek a lépésenkénti útmutatók egyértelmű útmutatást adnak az adatvizualizáció művészetének elsajátításához. Tanulja meg a diagramstílusok személyre szabását, az adatcímkék alkalmazását és az interaktív elemek beépítését, így a diagramok nem csak informatívak, hanem vonzóak is.
+Oktatóanyagaink átfogó utazást kínálnak a fejlett Excel diagramok birodalmába. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ezek a lépésenkénti útmutatók egyértelmű útmutatást adnak az adatvizualizáció művészetének elsajátításához. Tanulja meg a diagramstílusok testreszabását, az adatcímkék alkalmazását és az interaktív elemek beépítését, így a diagramok nem csak informatívak, hanem vonzóak is.
 
 ## Oldja fel az adatvizualizációban rejlő lehetőségeket:
 
@@ -40,4 +40,4 @@ Ismerje meg, hogyan készíthet lenyűgöző diagramanimációkat az Aspose.Cell
 ### [Vízesés diagramok](./waterfall-charts/)
 Ismerje meg, hogyan hozhat létre lenyűgöző vízesés-diagramokat az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató forráskóddal az adatok hatékony megjelenítéséhez.
 ### [Diagram interaktivitás](./chart-interactivity/)
-Ismerje meg, hogyan hozhat létre interaktív diagramokat az Aspose.Cells for Java használatával. Javítsa az adatok megjelenítését interaktivitással.
+Ismerje meg, hogyan hozhat létre interaktív diagramokat az Aspose.Cells for Java használatával. Növelje az adatok megjelenítését interaktivitással.

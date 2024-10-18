@@ -64,13 +64,13 @@ Ora, entriamo nel vivo di questo tutorial. Utilizzeremo un semplice pezzo di cod
 
 ## Passaggio 1: definire il percorso del documento
 
-Per prima cosa, dobbiamo impostare il percorso del nostro documento Excel. Qui specificherai dove si trova il tuo file Excel. 
+Per prima cosa, dobbiamo impostare il percorso del nostro documento Excel. Qui è dove specificherai dove si trova il tuo file Excel. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Suggerimento: sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si trova il tuo file Excel (chiamiamolo`book1.xls`) si trova. 
+ Suggerimento: sostituisci`"YOUR DOCUMENT DIRECTORY"`con il percorso effettivo in cui si trova il tuo file Excel (chiamiamolo`book1.xls`) si trova. 
 
 ## Passaggio 2: creare un'istanza di un oggetto cartella di lavoro
 
@@ -100,7 +100,7 @@ Questa è la parte magica!
 worksheet.Unprotect("");
 ```
 
- Se il tuo foglio di lavoro è protetto da una password e conosci la password, dovresti sostituire la stringa vuota`""`con la password effettiva. Se non la conosci, lasciala vuota ed eseguila per vedere se funziona.
+ Se il tuo foglio di lavoro è protetto da una password e conosci la password, dovresti sostituire la stringa vuota`""` con la password effettiva. Se non la conosci, lasciala vuota ed eseguila per vedere se funziona.
 
 ## Passaggio 5: salvare la cartella di lavoro
 

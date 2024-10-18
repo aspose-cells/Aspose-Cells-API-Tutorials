@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Adja meg a dokumentumkönyvtár
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- Ebben a lépésben deklarálunk egy változót`sourceDir` amely az Excel-fájl helyére mutat. Ezután létrehozunk egy új példányt a`Workbook`osztályt a fájl betöltéséhez. Ez olyan, mintha kinyitnánk azt a könyvet, amit el szeretnénk olvasni!
+ Ebben a lépésben deklarálunk egy változót`sourceDir` amely az Excel-fájl helyére mutat. Ezután létrehozunk egy új példányt a`Workbook` osztályt a fájl betöltéséhez. Ez olyan, mintha kinyitnánk azt a könyvet, amit el szeretnénk olvasni!
 
 ## 2. lépés: Nyissa meg az első munkalapot
 
@@ -58,14 +58,14 @@ A munkafüzet betöltése után a következő lépés az első munkalap elérés
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Itt érintjük meg a`Worksheets` munkafüzetünk gyűjteményét és az első munkalap elérését (amely általában 0 index). Ez a lépés döntő fontosságú, mert minden szűrési műveletünket ezen a lapon hajtjuk végre.
+ Itt érintjük meg a`Worksheets`munkafüzetünk gyűjteményét és az első munkalap elérését (amely általában 0 index). Ez a lépés döntő fontosságú, mert minden szűrési műveletünket ezen a lapon hajtjuk végre.
 
 ## 3. lépés: Határozza meg a szűrőparamétereket
 
 Most állítsuk be a speciális szűrőparamétereinket. Ez magában foglalja a szűrni kívánt tartományt és a feltételeket.
 
 ```csharp
-string rangeToFilter = "A5:D19"; // A szűrni kívánt adatok tartománya
+string rangeToFilter = "A5:D19"; // A szűrendő adatok tartománya
 string criteriaRange = "A1:D2"; // A szűrési kritériumok köre
 ```
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Adja meg a kimeneti könyvtára
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Végül megadjuk, hogy hova szeretnénk menteni a szűrt munkafüzetet a segítségével`Save` módszer. Adhat új nevet (ebben az esetben`outputAdvancedFilter.xlsx`), hogy az eredeti sértetlen maradjon.
+ Végül megadjuk, hogy hova szeretnénk menteni a szűrt munkafüzetet a segítségével`Save` módszer. Adhat új nevet (ebben az esetben`outputAdvancedFilter.xlsx`), hogy az eredeti sértetlen maradjon.
 
 ## Következtetés
 
@@ -100,7 +100,7 @@ Nem, az Aspose.Cells függetlenül működik, és nem szükséges a Microsoft Ex
  Igen, ingyenesen kipróbálhatja az Aspose.Cells-t, ha letölti a próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 
 ### Kaphatok támogatást, ha problémákba ütközöm?
-Teljesen! Közösségi támogatást kaphat a[Aspose fórum](https://forum.aspose.com/c/cells/9).
+ Teljesen! Közösségi támogatást kaphat a[Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
  Ideiglenes licencet kérhet a vásárlási oldalukról[itt](https://purchase.aspose.com/temporary-license/). 

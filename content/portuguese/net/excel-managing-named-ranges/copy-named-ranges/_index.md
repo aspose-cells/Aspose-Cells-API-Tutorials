@@ -1,8 +1,8 @@
 ---
 title: Copiar intervalos nomeados no Excel
 linktitle: Copiar intervalos nomeados no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
-description: Aprenda como copiar intervalos nomeados no Excel usando Aspose.Cells para .NET com nosso guia detalhado passo a passo. Perfeito para iniciantes.
+second_title: API de processamento do Aspose.Cells .NET Excel
+description: Aprenda como copiar intervalos nomeados no Excel usando Aspose.Cells para .NET com nosso guia passo a passo detalhado. Perfeito para iniciantes.
 type: docs
 weight: 10
 url: /pt/net/excel-managing-named-ranges/copy-named-ranges/
@@ -27,15 +27,15 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Este código lhe dará acesso a aulas essenciais como`Workbook`, `Worksheet` , e`Range`, que você precisará para manipular arquivos do Excel.
+Este código lhe dará acesso a aulas essenciais como`Workbook`, `Worksheet` e`Range`, que você precisará para manipular arquivos do Excel.
 
-Agora que temos nossos pré-requisitos definidos, vamos dividir o processo em etapas fáceis de seguir.
+Agora que classificamos nossos pré-requisitos, vamos dividir o processo em etapas fáceis de seguir.
 ## Etapa 1: configure seu diretório de saída
 Primeiro, você vai querer definir onde seu arquivo Excel resultante será salvo. É como configurar sua caixa de correio antes de receber uma carta!
 ```csharp
 string outputDir = "Your Document Directory\\"; // Certifique-se de usar barras invertidas duplas para caminhos de diretório
 ```
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 Em seguida, você precisa instanciar uma nova pasta de trabalho, o que é como abrir uma nova planilha no Excel. 
 ```csharp
 Workbook workbook = new Workbook();

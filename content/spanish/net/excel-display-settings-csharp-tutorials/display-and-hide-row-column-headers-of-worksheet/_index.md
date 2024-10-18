@@ -31,7 +31,7 @@ using Aspose.Cells;
 ```
 
 -  El`Aspose.Cells` El espacio de nombres nos da acceso a la funcionalidad de Aspose.Cells y a las clases necesarias para manejar archivos de Excel.
--  El`System.IO` El espacio de nombres es esencial para las operaciones de manejo de archivos, como leer y escribir archivos.
+-  El`System.IO` El espacio de nombres es esencial para operaciones de manejo de archivos, como leer y escribir archivos.
 
 Ahora, analicemos los pasos que deberá seguir para ocultar los encabezados de filas y columnas en su hoja de cálculo de Excel.
 
@@ -53,7 +53,7 @@ A continuación, deberá crear una secuencia de archivos para abrir el archivo d
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Aquí especificamos que queremos abrir`book1.xls` Ubicado en el directorio especificado. El`FileMode.Open` El parámetro indica que estamos abriendo un archivo existente. Asegúrese siempre de que el nombre del archivo coincida con el que tiene.
+Aquí especificamos que queremos abrir`book1.xls` Ubicado en el directorio especificado. El`FileMode.Open` El parámetro indica que estamos abriendo un archivo existente. Asegúrese siempre de que el nombre del archivo coincida con el que tiene.
 
 ## Paso 3: Crear una instancia de un objeto de libro de trabajo
 
@@ -83,7 +83,7 @@ En este fragmento de código, accedemos a la primera hoja de cálculo del libro.
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Configuración`IsRowColumnHeadersVisible` a`false` Ocultará eficazmente los encabezados tanto en filas como en columnas, creando una apariencia más limpia para la presentación de sus datos.
+ Configuración`IsRowColumnHeadersVisible` a`false`Ocultará eficazmente los encabezados tanto en filas como en columnas, creando una apariencia más limpia para la presentación de sus datos.
 
 ## Paso 6: Guarde el archivo Excel modificado
 
@@ -93,7 +93,7 @@ Una vez que hayas realizado las modificaciones, debes guardar el archivo. A cont
 workbook.Save(dataDir + "output.xls");
 ```
 
- Esta línea guarda sus cambios en un nuevo archivo llamado`output.xls` en el mismo directorio. Esto garantiza que conserve el original.`book1.xls` intacto mientras se trabaja con la nueva versión.
+ Esta línea guarda sus cambios en un nuevo archivo llamado`output.xls` en el mismo directorio. Esto garantiza que conserve el original`book1.xls` intacto mientras se trabaja con la nueva versión.
 
 ## Paso 7: Cerrar el flujo de archivos
 
@@ -103,7 +103,7 @@ Por último, debes asegurarte de cerrar el flujo de archivos para que se liberen
 fstream.Close();
 ```
 
- Cerrando el`fstream`es crucial ya que garantiza que no haya pérdidas de memoria ni bloqueos de archivos abiertos en su aplicación.
+ Cerrando el`fstream` es crucial ya que garantiza que no haya pérdidas de memoria ni bloqueos de archivos abiertos en su aplicación.
 
 ## Conclusión
 
@@ -121,7 +121,7 @@ Aspose.Cells es una potente biblioteca .NET para administrar hojas de cálculo d
  Si bien puede utilizar una versión de prueba gratuita, se requiere una licencia para el uso comercial continuo. Puede encontrar las opciones de compra[aquí](https://purchase.aspose.com/buy).
 
 ### ¿Hay soporte disponible para Aspose.Cells?  
-Sí, Aspose brinda soporte a través de sus foros, a los que puedes acceder[aquí](https://forum.aspose.com/c/cells/9).
+ Sí, Aspose brinda soporte a través de sus foros, a los que puedes acceder[aquí](https://forum.aspose.com/c/cells/9).
 
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Cells?  
  Puede solicitar una licencia temporal para fines de evaluación en[Este enlace](https://purchase.aspose.com/temporary-license/).

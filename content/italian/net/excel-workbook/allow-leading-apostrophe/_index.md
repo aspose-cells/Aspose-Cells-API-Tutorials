@@ -9,7 +9,7 @@ url: /it/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## Introduzione
 
-Benvenuti a questa guida passo passo su come usare Aspose.Cells per .NET per gestire i fogli di calcolo senza problemi, concentrandosi in particolare sulla gestione degli apostrofi iniziali nei valori delle celle. La capacità di gestire i dati in modo efficace è fondamentale nel mondo odierno incentrato sui dati. Avete mai notato come Excel a volte può trattare i valori di testo che iniziano con un apostrofo in modo diverso? Questo può portare a risultati inaspettati se state automatizzando le attività di Excel con codice .NET. Niente paura! Questo tutorial vi aiuterà a orientarvi in questo. 
+Benvenuti a questa guida passo passo su come usare Aspose.Cells per .NET per gestire i fogli di calcolo senza problemi, concentrandosi in particolare sulla gestione degli apostrofi iniziali nei valori delle celle. La capacità di gestire i dati in modo efficace è fondamentale nel mondo odierno incentrato sui dati. Avete mai notato come Excel a volte può trattare i valori di testo che iniziano con un apostrofo in modo diverso? Ciò può portare a risultati inaspettati se si stanno automatizzando le attività di Excel con codice .NET. Niente paura! Questo tutorial vi aiuterà a orientarvi in questo. 
 
 ## Prerequisiti
 
@@ -60,7 +60,7 @@ WorkbookDesigner designer = new WorkbookDesigner();
 
 ## Passaggio 3: caricare la cartella di lavoro esistente
 
-Successivamente, caricheremo la cartella di lavoro esistente che contiene i nostri marcatori intelligenti.
+Successivamente caricheremo la cartella di lavoro esistente che contiene i nostri marcatori intelligenti.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");

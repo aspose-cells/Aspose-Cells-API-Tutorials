@@ -95,7 +95,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tạo quy tắc xá
 
 Có, bạn có thể áp dụng xác thực dữ liệu tùy chỉnh cho nhiều phạm vi trong cùng một bảng tính bằng cách lặp lại Bước 5 cho mỗi phạm vi mong muốn.
 
-### Có loại xác thực dữ liệu nào khác được Aspose.Cells cho Java hỗ trợ không?
+### Aspose.Cells cho Java có hỗ trợ các loại xác thực dữ liệu khác không?
 
 Có, Aspose.Cells for Java hỗ trợ nhiều loại xác thực dữ liệu, bao gồm số nguyên, số thập phân, ngày tháng, thời gian, độ dài văn bản, v.v.
 

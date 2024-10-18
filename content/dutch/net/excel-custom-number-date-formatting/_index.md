@@ -23,7 +23,7 @@ Laten we het nu over data-import hebben. Het verplaatsen van data naar Excel kan
 
 Deze tutorial leert u de vaardigheden om uw datasets te importeren en tegelijkertijd de integriteit van formulevelden te behouden. Stel u voor: u hebt financiële prognoses in een CSV-bestand en u moet deze importeren in Excel zonder die belangrijke formules te verliezen. We laten u zien hoe u dat doet met duidelijke voorbeelden en best practices die ervoor zorgen dat uw data intact en bruikbaar overkomt.[Lees meer](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
-## Zelfstudies voor aangepaste getal- en datumnotatie in Excel
+## Zelfstudies voor aangepaste getal- en datumopmaak in Excel
 ### [Controleren of een celwaarde een specifiek aangepast getalformaat heeft](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Leer hoe u Excel-celwaarden kunt controleren aan de hand van aangepaste getalnotaties met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
 ### [Formulevelden specificeren bij het importeren van gegevens naar een Excel-blad](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)

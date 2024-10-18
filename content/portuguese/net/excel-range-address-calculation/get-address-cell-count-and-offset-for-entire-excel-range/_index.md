@@ -1,7 +1,7 @@
 ---
 title: Obter endereço, contagem de células e deslocamento para todo o intervalo do Excel
 linktitle: Obter endereço, contagem de células e deslocamento para todo o intervalo do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a manipular intervalos do Excel usando Aspose.Cells para .NET. Obtenha insights sobre endereços, deslocamentos e muito mais com nosso tutorial fácil.
 type: docs
 weight: 11
@@ -108,9 +108,9 @@ Por fim, vamos encerrar as coisas. Adicionaremos uma mensagem simples para indic
 ```csharp
 Console.WriteLine("GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange executed successfully.");
 ```
-E é isso! Você acabou de criar uma ferramenta simples, mas poderosa, para recuperar informações essenciais de intervalos do Excel usando Aspose.Cells for .NET.
+E é isso! Você acabou de criar uma ferramenta simples, mas poderosa, para recuperar informações essenciais de intervalos do Excel usando Aspose.Cells para .NET.
 ## Conclusão
-Parabéns por concluir este tutorial! Você aprendeu a criar uma pasta de trabalho, acessar intervalos e recuperar informações valiosas usando o Aspose.Cells para .NET. Com essas novas habilidades, você agora está equipado para lidar com arquivos do Excel como um profissional. Quer você esteja criando relatórios, analisando dados ou apenas se envolvendo com manipulação de dados, esta biblioteca é uma ferramenta valiosa em seu arsenal.
+Parabéns por concluir este tutorial! Você aprendeu a criar uma pasta de trabalho, acessar intervalos e recuperar informações valiosas usando o Aspose.Cells para .NET. Com essas novas habilidades, você agora está equipado para lidar com arquivos do Excel como um profissional. Não importa se você está criando relatórios, analisando dados ou apenas se envolvendo com manipulação de dados, esta biblioteca é uma ferramenta valiosa em seu arsenal.
 ## Perguntas frequentes
 ### O que é Aspose.Cells para .NET?  
 Aspose.Cells for .NET é uma biblioteca poderosa para gerenciar arquivos Excel em aplicativos .NET. Ela permite que desenvolvedores criem, manipulem e convertam documentos Excel programaticamente.

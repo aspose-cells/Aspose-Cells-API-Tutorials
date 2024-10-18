@@ -63,7 +63,7 @@ workbook.calculateFormula();
 
 ## LEN - عد الأحرف
 
- ال`LEN` تحسب الدالة عدد الأحرف في سلسلة نصية. دعنا نرى كيفية استخدامها مع Aspose.Cells لـ Java:
+ ال`LEN` تحسب هذه الدالة عدد الأحرف في سلسلة نصية. دعنا نرى كيفية استخدامها مع Aspose.Cells لـ Java:
 
 ```java
 // كود جافا لحساب الأحرف باستخدام Aspose.Cells
@@ -110,7 +110,7 @@ workbook.calculateFormula();
 Cell cell = worksheet.getCells().get("A5");
 cell.putValue("Search for me");
 
-// العثور على موضع "ل"
+// ابحث عن موضع "لـ"
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 

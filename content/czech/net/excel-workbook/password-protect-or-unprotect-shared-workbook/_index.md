@@ -64,7 +64,7 @@ Nyní přichází ta zajímavá část – ochrana našeho sešitu. Použitím h
 wb.ProtectSharedWorkbook("1234");
 ```
 
-V tomto případě je naše heslo "1234". Můžete to změnit na cokoliv, co preferujete. Tento příkaz uzamkne sešit a zabrání neoprávněným úpravám.
+V tomto případě je naše heslo „1234“. Můžete to změnit na cokoliv, co preferujete. Tento příkaz uzamkne sešit a zabrání neoprávněným úpravám.
 
 ## Krok 4: (Volitelné) Zrušte ochranu sešitu
 

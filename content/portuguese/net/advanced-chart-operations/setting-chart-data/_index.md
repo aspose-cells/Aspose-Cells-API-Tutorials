@@ -1,7 +1,7 @@
 ---
 title: Definindo dados do gráfico
 linktitle: Definindo dados do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a definir dados de gráfico usando o Aspose.Cells para .NET por meio de um guia detalhado e passo a passo, perfeito para aprimorar a visualização de dados.
 type: docs
 weight: 16
@@ -13,7 +13,7 @@ Quando se trata de visualização de dados, gráficos e tabelas são indispensá
 
 ## Pré-requisitos
 
-Antes de começar, há algumas coisas que você precisa saber para dar início a essa jornada. 
+Antes de começarmos, há algumas coisas que você precisa saber para dar início a essa jornada. 
 
 ### Instalar Aspose.Cells para .NET
 
@@ -106,7 +106,7 @@ Esta linha de código cria um gráfico de colunas em um local específico dentro
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Aqui, obtemos uma referência ao gráfico que acabamos de adicionar, permitindo que o personalizemos ainda mais. É semelhante a pegar o pincel depois que o contorno está pronto – agora você está pronto para adicionar um pouco de cor!
+Aqui, obtemos uma referência ao gráfico que acabamos de adicionar, permitindo que o personalizemos ainda mais. É semelhante a pegar o pincel depois que o contorno estiver pronto – agora você está pronto para adicionar um pouco de cor!
 
 ## Etapa 8: Definir fonte de dados do gráfico
 
@@ -140,7 +140,7 @@ Esta etapa fornece o encerramento do nosso processo, nos informando que nosso gr
 
 ## Conclusão
 
-Definir dados de gráfico usando Aspose.Cells para .NET não precisa ser uma tarefa assustadora. Seguindo essas etapas, você pode criar gráficos visualmente atraentes que simplificam a interpretação de dados. Não importa se você está trabalhando com dados financeiros, cronogramas de projetos ou resultados de pesquisas, os insights que essas representações visuais fornecem são inestimáveis. Então, por que não incorporar gráficos em seu próximo relatório e impressionar seu público?
+Definir dados de gráfico usando Aspose.Cells para .NET não precisa ser uma tarefa assustadora. Seguindo estas etapas, você pode criar gráficos visualmente atraentes que simplificam a interpretação de dados. Não importa se você está trabalhando com dados financeiros, cronogramas de projetos ou resultados de pesquisas, os insights que essas representações visuais fornecem são inestimáveis. Então, por que não incorporar gráficos em seu próximo relatório e impressionar seu público?
 
 ## Perguntas frequentes
 

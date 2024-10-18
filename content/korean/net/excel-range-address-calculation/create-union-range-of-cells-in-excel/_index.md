@@ -2,7 +2,7 @@
 title: Excel에서 셀의 합집합 범위 만들기
 linktitle: Excel에서 셀의 합집합 범위 만들기
 second_title: Aspose.Cells .NET Excel 처리 API
-description: Aspose.Cells for .NET을 사용하여 간단한 단계로 Excel에서 셀의 합집합 범위를 만드는 방법을 알아보세요. 프로그래밍 방식으로 Excel 기술을 향상시키세요.
+description: Aspose.Cells for .NET을 사용하여 간단한 단계로 Excel에서 셀의 합집합 범위를 만드는 방법을 알아보세요. Excel 기술을 프로그래밍 방식으로 향상시키세요.
 type: docs
 weight: 10
 url: /ko/net/excel-range-address-calculation/create-union-range-of-cells-in-excel/
@@ -35,7 +35,7 @@ using System;
 // 출력 디렉토리
 string outputDir = "Your Document Directory"();
 
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 이 코드 줄은 프로그램에 새 워크북을 만들라고 말합니다. 이 워크북에 범위와 값을 추가하게 되므로 필수적입니다.
@@ -45,7 +45,7 @@ Workbook workbook = new Workbook();
 // 유니온 범위 생성
 UnionRange unionRange = workbook.Worksheets.CreateUnionRange("sheet1!A1:A10,sheet1!C1:C10", 0);
 ```
- 여기서 우리는 결합하고자 하는 범위를 정의합니다. 이 경우, 우리는 A1에서 A10까지 그리고 C1에서 C10까지 셀을 선택합니다.`0` 첫 번째 워크시트(sheet1)에서 작업 중임을 나타냅니다.
+ 여기서 우리는 결합하고자 하는 범위를 정의합니다. 이 경우, 우리는 A1에서 A10까지, C1에서 C10까지 셀을 선택합니다.`0` 첫 번째 워크시트(sheet1)에서 작업 중임을 나타냅니다.
 ## 3단계: 값 할당
 이제 유니언 범위가 준비되었으니, 값을 넣어서 생명력을 불어넣을 차례입니다. 이 단계에서는 해당 유니언 범위 내의 모든 셀에 대해 특정 값을 설정하는 것이 포함됩니다.
 ```csharp

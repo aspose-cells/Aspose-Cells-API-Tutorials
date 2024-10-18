@@ -16,7 +16,7 @@ Bagan interaktif menambahkan dimensi baru pada visualisasi data, yang memungkink
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 - Lingkungan Pengembangan Java
-- Aspose.Cells untuk Pustaka Java (Unduh dari[Di Sini](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells untuk Pustaka Java (Unduh dari[Di Sini](https://releases.aspose.com/cells/java/)
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
@@ -25,7 +25,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 ## Langkah 2: Memuat Data
 
-Untuk membuat grafik interaktif, Anda memerlukan data. Mari kita mulai dengan memuat beberapa contoh data dari file Excel menggunakan Aspose.Cells.
+Untuk membuat diagram interaktif, Anda memerlukan data. Mari kita mulai dengan memuat beberapa contoh data dari file Excel menggunakan Aspose.Cells.
 
 ```java
 // Memuat file Excel
@@ -68,7 +68,7 @@ Untuk menerapkan fungsi drill-down, Anda dapat menggunakan hyperlink atau membua
 
 ```java
 // Tambahkan hyperlink ke titik data
-String url = "https://contoh.com/data-detail";
+String url = "https://contoh.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 

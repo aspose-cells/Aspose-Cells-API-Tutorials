@@ -18,7 +18,7 @@ Yüzlerce satırdan oluşan devasa bir elektronik tablonuz olduğunu düşünün
 
 ## [Excel'de Önceki Örnekleri İzleme](./tracing-precedents-in-excel/)
 
-O sinir bozucu formülün verilerini nereden çektiğini hiç merak ettiniz mi? Karmaşık bir Excel çalışma kitabında öncülleri elle izlemek samanlıkta iğne aramak gibi hissettirebilir. Neyse ki, .NET için Aspose.Cells, öncülleri yalnızca birkaç satır kodla izlemek için bir özellik sunuyor. Bu eğitim, elektronik tablolarınızda farklı hücrelerin nasıl etkileşime girdiğini anlamak için mükemmel. Tahmin işini ortadan kaldıralım ve formüllerinizi kristal berraklığında yapalım!  
+Hiç o sinir bozucu formülün verilerini nereden çektiğini merak ettiniz mi? Karmaşık bir Excel çalışma kitabında öncülleri elle izlemek samanlıkta iğne aramak gibi hissettirebilir. Neyse ki, Aspose.Cells for .NET, öncülleri yalnızca birkaç satır kodla izlemek için bir özellik sunuyor. Bu eğitim, elektronik tablolarınızda farklı hücrelerin nasıl etkileşime girdiğini anlamak için mükemmel. Tahmin işini ortadan kaldıralım ve formüllerinizi kristal berraklığında yapalım!  
 [Excel'de Önceki Örnekleri İzleme](./tracing-precedents-in-excel/)
 
 ## Excel Alt Toplam ve Hesaplama Eğitimleri

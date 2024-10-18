@@ -16,7 +16,7 @@ Im digitalen Zeitalter ist die Verwaltung und Sicherung Ihrer Daten wichtiger de
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
 1. Entwicklungsumgebung: Sie sollten Visual Studio auf Ihrem Computer installiert haben, da es eine hervorragende IDE für die .NET-Entwicklung bietet.
-2. Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek herunter. Sie erhalten sie von[Aspose Downloads-Seite](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek herunter. Sie erhalten sie von der[Aspose Downloads-Seite](https://releases.aspose.com/cells/net/).
 3. Grundlegende C#-Kenntnisse: Stellen Sie sicher, dass Sie über gute Kenntnisse von C# und .NET Framework verfügen, um problemlos folgen zu können.
 4. Projekt erstellen: Richten Sie in Visual Studio eine neue Konsolenanwendung ein, in der wir den Code schreiben.
 
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Da wir nun einen Dateistream haben, können wir einen`Workbook` Objekt.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Für unsere Zwecke arbeiten wir nur mit dem ersten Arbeitsblatt. Greifen wir darauf zu.
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Arbeitsblätter werden beginnend bei Null indiziert, so`Worksheets[0]` bezieht sich auf das erste Arbeitsblatt in der Excel-Datei. Jetzt können wir unsere Schutzeinstellungen auf dieses spezielle Blatt anwenden.
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // Speichern der geänderten Excel-Datei
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Hier speichern wir die Arbeitsmappe in einer neuen Datei.`output.xls`Auf diese Weise bleibt die Originaldatei intakt und wir können die angewendeten Schutzmaßnahmen in unserer neuen Datei überprüfen.
+ Hier speichern wir die Arbeitsmappe in einer neuen Datei.`output.xls`Auf diese Weise bleibt die Originaldatei intakt und wir können die angewendeten Schutzmechanismen in unserer neuen Datei überprüfen.
 
 ## Schritt 6: Schließen Sie den Dateistream
 

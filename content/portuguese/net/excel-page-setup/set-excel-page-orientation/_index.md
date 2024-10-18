@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Agora, você criará uma instância da classe Workbook, que representa um arquivo do Excel.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Em seguida, você precisará acessar a planilha na qual deseja definir a orientação. Como cada pasta de trabalho pode ter várias planilhas, você deve declarar explicitamente com qual delas está trabalhando.
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -89,7 +89,7 @@ Como colocar a página concluída de volta na prateleira, esta linha de código 
 
 ## Conclusão
 
-E aí está! Você configurou com sucesso a orientação de página de um arquivo Excel usando Aspose.Cells para .NET. É como aprender uma nova língua; uma vez que você entenda o básico, você pode expandir suas capacidades e criar alguma mágica real. Para aquelas tarefas repetitivas que costumavam se arrastar, você descobrirá que programar com Aspose pode economizar tempo e esforço consideráveis.
+E aí está! Você configurou com sucesso a orientação de página de um arquivo Excel usando Aspose.Cells para .NET. É como aprender uma nova linguagem; uma vez que você entenda o básico, você pode expandir suas capacidades e criar alguma mágica real. Para aquelas tarefas repetitivas que costumavam se arrastar, você descobrirá que programar com Aspose pode economizar tempo e esforço consideráveis.
 
 ## Perguntas frequentes
 

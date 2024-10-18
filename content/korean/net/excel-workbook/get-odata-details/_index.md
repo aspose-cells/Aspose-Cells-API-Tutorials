@@ -2,7 +2,7 @@
 title: 오다타 세부 정보 얻기
 linktitle: 오다타 세부 정보 얻기
 second_title: .NET API 참조를 위한 Aspose.Cells
-description: 이 자세한 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel에서 OData 세부 정보를 추출하는 방법을 알아보세요.
+description: 이 자세한 단계별 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel에서 OData 세부 정보를 추출하는 방법을 알아봅니다.
 type: docs
 weight: 110
 url: /ko/net/excel-workbook/get-odata-details/
@@ -18,7 +18,7 @@ url: /ko/net/excel-workbook/get-odata-details/
 1. Visual Studio: Visual Studio가 설치되어 있는지 확인하세요. .NET 개발에 이상적인 환경입니다.
 2.  Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리를 다운로드하여 설치하세요.[Aspose 다운로드 페이지](https://releases.aspose.com/cells/net/) . 또한 무료 체험판을 사용해 볼 수도 있습니다.[여기](https://releases.aspose.com/).
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 코드의 미묘한 차이를 더 잘 이해하는 데 도움이 됩니다.
-4. 샘플 Excel 파일: 이 튜토리얼에서는 "ODataSample.xlsx"라는 Excel 파일을 사용하게 되는데, 이 파일은 작업 디렉토리에 저장해야 합니다.
+4. 샘플 Excel 파일: 이 튜토리얼에서는 "ODataSample.xlsx"라는 Excel 파일을 사용하게 되는데, 이 파일은 작업 디렉토리에 저장되어야 합니다.
 
 이러한 구성 요소가 준비되면 손쉽게 OData 세부 정보를 추출할 준비가 된 것입니다!
 
@@ -57,7 +57,7 @@ using System;
 
 ## 1단계: 워크북 설정
 
- 이 초기 단계에서는 인스턴스를 생성합니다.`Workbook` 클래스를 열고 Excel 파일을 로드합니다.
+ 이 초기 단계에서는 인스턴스를 생성합니다.`Workbook` 클래스를 만들고 Excel 파일을 로드합니다.
 
 ```csharp
 // 소스 디렉토리 설정
@@ -123,7 +123,7 @@ Aspose.Cells는 개발자가 Microsoft Excel이 없어도 Excel 문서를 만들
 Power Query 수식을 사용하면 사용자는 Excel 내의 다양한 소스에서 데이터를 연결, 결합하고 변환할 수 있습니다.
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
- 방문할 수 있습니다[애스포지 포럼](https://forum.aspose.com/c/cells/9) 지원과 지역 사회의 도움을 요청하세요.
+ 방문할 수 있습니다[Aspose 포럼](https://forum.aspose.com/c/cells/9) 지원과 지역 사회의 도움을 요청하세요.
 
 ### Aspose.Cells는 어디서 구매할 수 있나요?
  Aspose.Cells는 다음에서 구매할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).

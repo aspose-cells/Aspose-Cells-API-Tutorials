@@ -55,13 +55,13 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## 3단계: 탭 표시
 
-Excel에서 하단의 탭(Sheet1, Sheet2 등)을 숨기거나 표시할 수 있습니다. Aspose.Cells를 사용하면 쉽게 가시성을 제어할 수 있습니다. 탭의 가시성을 켜 보겠습니다.
+Excel에서 하단 탭(Sheet1, Sheet2 등)을 숨기거나 표시할 수 있습니다. Aspose.Cells를 사용하면 쉽게 가시성을 제어할 수 있습니다. 탭의 가시성을 켜 보겠습니다.
 
 ```csharp
 workbook.Settings.ShowTabs = true;
 ```
 
- 환경`ShowTabs` 에게`true`Excel 파일을 열 때 탭이 표시되도록 합니다.
+ 환경`ShowTabs` 에게`true` Excel 파일을 열 때 탭이 표시되는지 확인합니다.
 
 ## 4단계: 수정된 Excel 파일 저장
 
@@ -80,7 +80,7 @@ workbook.Save(dataDir + "output.xls");
 ## 자주 묻는 질문
 
 ### Aspose.Cells for .NET을 사용하여 Excel에서 탭을 숨길 수 있나요?
- 물론입니다! 간단하게 설정`workbook.Settings.ShowTabs = false;`그리고 파일을 저장합니다. 이렇게 하면 통합 문서가 열릴 때 탭이 숨겨집니다.
+ 물론입니다! 간단하게 설정`workbook.Settings.ShowTabs = false;` 그리고 파일을 저장합니다. 이렇게 하면 통합 문서가 열릴 때 탭이 숨겨집니다.
 
 ### Aspose.Cells는 차트, 피벗 테이블과 같은 다른 Excel 기능을 지원합니까?
 네, Aspose.Cells는 차트, 피벗 테이블, 수식 등 거의 모든 Excel 기능을 지원하는 포괄적인 라이브러리입니다.

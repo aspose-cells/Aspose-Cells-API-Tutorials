@@ -17,7 +17,7 @@ url: /ja/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 
 1. C# と .NET の基礎知識: コーディングを始める前に、C# プログラミングと .NET フレームワークの基礎を理解していることを確認してください。
 2.  Aspose.Cells for .NET: まだインストールしていない場合は、Aspose.Cells for .NETをインストールする必要があります。無料トライアルはこちらからダウンロードできます。[ここ](https://releases.aspose.com/).
-3. Visual Studio またはお好みの IDE: C# コードを記述するための環境を設定します。幅広い機能と使いやすさから、Visual Studio が推奨されます。
+3. Visual Studio または任意の IDE: C# コードを記述するための環境を設定します。幅広い機能と使いやすさから、Visual Studio が推奨されます。
 4. サンプルExcelファイル: サンプルExcelファイル(`sampleExportTableAsHtmlString.xlsx`) を使用します。アクセス可能なディレクトリに配置されていることを確認してください。
 5. NuGet パッケージ マネージャー: Aspose.Cells ライブラリを簡単に追加するには、プロジェクトで NuGet パッケージ マネージャーにアクセスできることを確認してください。
 

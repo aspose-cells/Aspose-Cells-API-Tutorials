@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Ange din dokumentkatalog
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- I det här steget deklarerar vi en variabel`sourceDir` som pekar på platsen för din Excel-fil. Sedan skapar vi en ny instans av`Workbook`klass för att ladda den filen. Det här är som att öppna boken vi vill läsa!
+ I det här steget deklarerar vi en variabel`sourceDir` som pekar på platsen för din Excel-fil. Sedan skapar vi en ny instans av`Workbook` klass för att ladda den filen. Det här är som att öppna boken vi vill läsa!
 
 ## Steg 2: Öppna det första arbetsbladet
 
@@ -58,7 +58,7 @@ Med vår arbetsbok laddad är nästa steg att komma åt det första kalkylbladet
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Här knackar vi på`Worksheets` samling av vår arbetsbok och åtkomst till det första kalkylbladet (som vanligtvis är index 0). Detta steg är avgörande eftersom alla våra filtreringsåtgärder kommer att utföras på det här arket.
+ Här knackar vi på`Worksheets`samling av vår arbetsbok och åtkomst till det första kalkylbladet (som vanligtvis är index 0). Detta steg är avgörande eftersom alla våra filtreringsåtgärder kommer att utföras på det här arket.
 
 ## Steg 3: Definiera filterparametrarna
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Ange din utdatakatalog
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Slutligen anger vi var vi vill att den filtrerade arbetsboken ska sparas med hjälp av`Save` metod. Du kan ge den ett nytt namn (i det här fallet,`outputAdvancedFilter.xlsx`) för att behålla originalet intakt.
+ Slutligen anger vi var vi vill att den filtrerade arbetsboken ska sparas med hjälp av`Save` metod. Du kan ge den ett nytt namn (i det här fallet,`outputAdvancedFilter.xlsx`) för att behålla originalet intakt.
 
 ## Slutsats
 
@@ -100,7 +100,7 @@ Nej, Aspose.Cells fungerar självständigt och kräver inte att Microsoft Excel 
  Ja, du kan prova Aspose.Cells gratis genom att ladda ner testversionen från[här](https://releases.aspose.com/).
 
 ### Kan jag få support om jag stöter på problem?
-Absolut! Du kan få samhällsstöd på[Aspose forum](https://forum.aspose.com/c/cells/9).
+ Absolut! Du kan få samhällsstöd på[Aspose forum](https://forum.aspose.com/c/cells/9).
 
 ### Hur får jag en tillfällig licens för Aspose.Cells?
  Du kan begära en tillfällig licens från deras köpsida[här](https://purchase.aspose.com/temporary-license/). 

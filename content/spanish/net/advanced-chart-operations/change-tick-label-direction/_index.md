@@ -2,7 +2,7 @@
 title: Cambiar la dirección de la etiqueta de la marca de verificación
 linktitle: Cambiar la dirección de la etiqueta de la marca de verificación
 second_title: API de procesamiento de Excel Aspose.Cells .NET
-description: Cambie la dirección de las etiquetas de graduación en los gráficos de Excel rápidamente con Aspose.Cells para .NET. Siga esta guía para una implementación perfecta.
+description: Cambie rápidamente la dirección de las etiquetas de las marcas de verificación en los gráficos de Excel con Aspose.Cells para .NET. Siga esta guía para lograr una implementación perfecta.
 type: docs
 weight: 12
 url: /es/net/advanced-chart-operations/change-tick-label-direction/
@@ -98,7 +98,7 @@ Esto supone que hay al menos un gráfico en la hoja de cálculo. Si está trabaj
 chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
 ```
 
-Con esta sencilla línea, estamos redefiniendo la orientación de las etiquetas de verificación. ¡Es como pasar una página en un libro para ver el texto con más claridad!
+Con esta sencilla línea, estamos redefiniendo la orientación de las etiquetas de verificación. ¡Es como pasar una página de un libro para ver el texto con más claridad!
 
 ## Paso 6: Guardar el archivo de salida
 

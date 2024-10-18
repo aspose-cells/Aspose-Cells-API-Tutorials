@@ -129,7 +129,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells？
-Aspose.Cells 是一個功能強大的 .NET 程式庫，用於處理 Excel 文件，提供以程式設計方式建立、編輯和轉換電子表格等功能。
+Aspose.Cells 是一個功能強大的 .NET 函式庫，用於處理 Excel 文件，提供以程式設計方式建立、編輯和轉換電子表格等功能。
 
 ### 我可以套用多個可編輯範圍嗎？
 絕對地！您可以致電`Add`方法上的`allowRanges`多次集合以指定多個可編輯範圍。

@@ -9,7 +9,7 @@ url: /it/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
 ## Introduzione
 
-Quando si tratta di lavorare con fogli di lavoro Excel, la flessibilità è spesso la chiave, specialmente quando più utenti hanno bisogno di accedere per modificare aree specifiche senza compromettere l'integrità dei dati dell'intero foglio. È qui che Aspose.Cells per .NET brilla! In questo tutorial, ci immergeremo in come consentire agli utenti di modificare determinati intervalli all'interno di un foglio di lavoro Excel proteggendo il resto del documento. Entro la fine di questo articolo, non solo avrai afferrato i concetti, ma avrai anche un esempio tangibile con cui lavorare. 
+Quando si tratta di lavorare con fogli di lavoro Excel, la flessibilità è spesso la chiave, soprattutto quando più utenti hanno bisogno di accedere per modificare aree specifiche senza compromettere l'integrità dei dati dell'intero foglio. È qui che Aspose.Cells per .NET brilla! In questo tutorial, ci immergeremo in come consentire agli utenti di modificare determinati intervalli all'interno di un foglio di lavoro Excel proteggendo il resto del documento. Entro la fine di questo articolo, non solo avrai afferrato i concetti, ma avrai anche un esempio tangibile con cui lavorare. 
 
 ## Prerequisiti
 
@@ -41,7 +41,7 @@ Per qualsiasi operazione sui file, è fondamentale avere una posizione definita 
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Creare la directory se non è già presente.
+//Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -84,7 +84,7 @@ Questa raccolta ci consentirà di gestire quali intervalli sono modificabili nel
 
 ## Passaggio 5: definire l'intervallo protetto
 
-Ora definiamo quale parte del foglio di lavoro vogliamo proteggere, consentendo al contempo le modifiche entro un intervallo specificato.
+Ora definiamo quale parte del foglio di lavoro vogliamo proteggere, consentendo al contempo le modifiche a un intervallo specificato.
 
 ```csharp
 // Definisci ProtectedRange

@@ -1,7 +1,7 @@
 ---
 title: Adicionar controle TextBox ao gráfico
 linktitle: Adicionar controle TextBox ao gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como adicionar um TextBox a gráficos no Excel usando Aspose.Cells para .NET. Melhore sua visualização de dados sem esforço.
 type: docs
 weight: 12
@@ -16,7 +16,7 @@ Criar gráficos dinâmicos e visualmente atraentes no Excel é uma maneira fant�
 Antes de começarmos a codificar, há algumas coisas que você deve ter em mente:
 
 - Noções básicas de C#: Uma compreensão fundamental da programação em C# será útil. Não se preocupe; você não precisa ser um especialista, apenas estar confortável navegando pela sintaxe.
--  Biblioteca Aspose.Cells instalada: Certifique-se de ter a biblioteca Aspose.Cells para .NET instalada. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/) se você ainda não o fez.
+- Biblioteca Aspose.Cells instalada: Certifique-se de ter a biblioteca Aspose.Cells para .NET instalada. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/) se você ainda não o fez.
 - Visual Studio: É essencial ter familiaridade com o Visual Studio ou qualquer IDE que você prefira usar para o .NET Framework.
 - Um arquivo Excel existente: para este exemplo, trabalharemos com um arquivo Excel existente chamado "sampleAddingTextBoxControlInChart.xls". Você pode criar um ou baixar um exemplo.
 
@@ -136,7 +136,7 @@ O último passo é salvar as alterações que você fez em um novo arquivo do Ex
 // Salve o arquivo Excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Substituir`"outputAddingTextBoxControlInChart.xls"` com o nome de arquivo que você preferir.
+ Substituir`"outputAddingTextBoxControlInChart.xls"`com o nome de arquivo que você preferir.
 
 ## Conclusão
 
@@ -150,7 +150,7 @@ Aspose.Cells para .NET é uma biblioteca poderosa para criar, manipular e conver
 ### Posso adicionar várias caixas de texto a um único gráfico?
 Sim! Você pode adicionar quantas TextBoxes precisar repetindo os passos de criação de TextBox com posições diferentes.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  Aspose.Cells é uma biblioteca paga, mas você pode baixar uma versão de teste gratuita em[aqui](https://releases.aspose.com/).
 
 ### Onde posso encontrar mais documentação sobre o Aspose.Cells?

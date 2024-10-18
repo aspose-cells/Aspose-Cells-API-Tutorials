@@ -47,7 +47,7 @@ In deze stap gaan we een nieuwe werkmap instantiëren.
 ```csharp
 //Uitvoermap
 static string outputDir = "Your Document Directory";
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 

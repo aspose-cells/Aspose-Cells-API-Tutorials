@@ -53,7 +53,7 @@ Tiếp theo, chúng ta cần xác định dữ liệu nào chúng ta muốn lọ
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Dấu ngã (~) toán tử biểu thị rằng chúng ta muốn loại trừ các tên đã xác định khỏi quá trình tải. Điều này rất quan trọng nếu bạn muốn giữ khối lượng công việc của mình nhẹ và tránh dữ liệu không cần thiết có thể làm phức tạp quá trình xử lý của bạn.
+Dấu ngã (~toán tử biểu thị rằng chúng ta muốn loại trừ các tên đã xác định khỏi quá trình tải. Điều này rất quan trọng nếu bạn muốn giữ khối lượng công việc của mình nhẹ và tránh dữ liệu không cần thiết có thể làm phức tạp quá trình xử lý của bạn.
 
 ## Bước 3: Tải Workbook
 
@@ -87,7 +87,7 @@ Với dòng này, bạn cung cấp dấu hiệu rõ ràng rằng thao tác đã 
 
 ## Phần kết luận
 
-Và bạn đã có nó! Lọc các tên đã xác định trong khi tải sổ làm việc với Aspose.Cells cho .NET có thể thực hiện được bằng một vài bước đơn giản. Quy trình này cực kỳ hữu ích trong các tình huống mà bạn cần hợp lý hóa quá trình xử lý dữ liệu hoặc ngăn dữ liệu không cần thiết ảnh hưởng đến các phép tính của bạn.
+Và bạn đã có nó! Lọc các tên đã xác định trong khi tải sổ làm việc với Aspose.Cells cho .NET có thể thực hiện được bằng một vài bước đơn giản. Quy trình này cực kỳ hữu ích trong các tình huống mà bạn cần sắp xếp hợp lý quá trình xử lý dữ liệu hoặc ngăn dữ liệu không cần thiết ảnh hưởng đến các phép tính của bạn.
 
 Bằng cách làm theo hướng dẫn này, bạn có thể tự tin tải các tệp Excel của mình trong khi kiểm soát dữ liệu bạn muốn loại trừ. Cho dù bạn đang phát triển các ứng dụng quản lý các tập dữ liệu lớn hay triển khai logic kinh doanh cụ thể, việc thành thạo tính năng này sẽ chỉ nâng cao kỹ năng thao tác Excel của bạn.
 

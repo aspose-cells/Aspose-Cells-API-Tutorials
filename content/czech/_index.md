@@ -20,7 +20,7 @@ Zde jsou odkazy na některé užitečné zdroje:
 - [Nastavení stránky Excel](./net/excel-page-setup)
 - [Chraňte soubor Excel](./net/protect-excel-file/)
 
-## Aspose.Cells for Java tutoriály
+## Aspose.Cells pro Java tutoriály
 {{% alert color="primary" %}}
 Prozkoumejte výukové programy Aspose.Cells for Java. Master Excel manipulace se soubory s příklady kódu. Vylepšete své dovednosti Java ještě dnes!
 {{% /alert %}}

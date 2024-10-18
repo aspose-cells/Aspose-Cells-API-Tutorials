@@ -1,6 +1,6 @@
 ---
-title: Cách sử dụng hàm IF trong Excel
-linktitle: Cách sử dụng hàm IF trong Excel
+title: Cách sử dụng hàm IF của Excel
+linktitle: Cách sử dụng hàm IF của Excel
 second_title: API xử lý Excel Java của Aspose.Cells
 description: Mở khóa sức mạnh của hàm IF trong Excel với Aspose.Cells cho Java. Học cách triển khai logic có điều kiện một cách liền mạch.
 type: docs
@@ -32,7 +32,7 @@ import com.aspose.cells.*;
 
 ## Bước 3: Tạo một bảng tính Excel
 
-Bây giờ, hãy tạo một sổ làm việc Excel mới và một bảng tính để làm việc. Chúng ta cũng sẽ thêm một số dữ liệu mẫu vào bảng tính.
+Bây giờ, hãy tạo một bảng tính Excel mới và một bảng tính để làm việc. Chúng ta cũng sẽ thêm một số dữ liệu mẫu vào bảng tính.
 
 ```java
 // Tạo một Workbook mới
@@ -101,4 +101,4 @@ Chắc chắn rồi! Bạn có thể áp dụng hàm IF của Excel cho một ph
 
 ### Aspose.Cells for Java có phù hợp với các ứng dụng cấp doanh nghiệp không?
 
-Có, Aspose.Cells for Java là một thư viện mạnh mẽ phù hợp cho cả các ứng dụng quy mô nhỏ và cấp doanh nghiệp. Nó cung cấp các tính năng mở rộng để làm việc với các tệp Excel, khiến nó trở thành một công cụ có giá trị cho nhiều tình huống kinh doanh khác nhau.
+Có, Aspose.Cells for Java là một thư viện mạnh mẽ phù hợp cho cả ứng dụng quy mô nhỏ và cấp doanh nghiệp. Nó cung cấp các tính năng mở rộng để làm việc với các tệp Excel, khiến nó trở thành một công cụ có giá trị cho nhiều tình huống kinh doanh khác nhau.

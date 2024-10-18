@@ -16,7 +16,7 @@ url: /ko/net/excel-page-setup/set-excel-headers-and-footers/
 세부적인 내용을 살펴보기 전에, 시작하는 데 필요한 모든 것이 있는지 확인해 보겠습니다. 우선, 다음이 필요합니다.
 
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 여기서 C# 코드를 작성하고 실행할 것입니다.
-2.  Aspose.Cells for .NET 라이브러리: Aspose.Cells 라이브러리가 필요합니다. 아직 다운로드하지 않았다면 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+2.  .NET 라이브러리용 Aspose.Cells: Aspose.Cells 라이브러리가 필요합니다. 아직 다운로드하지 않았다면 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본적인 이해: 모든 코드 샘플이 이 언어로 작성되므로 C# 프로그래밍에 대한 지식이 매우 중요합니다.
 4. 프로젝트 설정: Visual Studio에서 Excel 머리글/바닥글 논리를 구현할 새 C# 프로젝트를 만듭니다.
 
@@ -77,7 +77,7 @@ PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 pageSetup.SetHeader(0, "&A");
 ```
 
- 설명:`SetHeader` 이 방법을 사용하면 헤더의 내용을 정의할 수 있습니다. 여기서,`&A` 워크시트의 이름을 나타내며 헤더의 왼쪽에 표시됩니다.
+설명:`SetHeader` 이 방법을 사용하면 헤더의 내용을 정의할 수 있습니다. 여기서,`&A` 워크시트의 이름을 나타내며 헤더의 왼쪽에 표시됩니다.
 
 ## 4단계: 중앙 헤더 사용자 지정
 
@@ -87,7 +87,7 @@ pageSetup.SetHeader(0, "&A");
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- 설명:`&D` 그리고`&T` 코드는 각각 현재 날짜와 시간으로 자동 대체됩니다. 또한 이 헤더의 글꼴은 "Times New Roman"이고 굵게 지정해야 합니다.
+설명:`&D` 그리고`&T` 코드는 각각 현재 날짜와 시간으로 자동 대체됩니다. 또한 이 헤더의 글꼴은 "Times New Roman"이고 굵게 지정해야 합니다.
 
 ## 5단계: 올바른 헤더 설정
 
@@ -117,7 +117,7 @@ pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 pageSetup.SetFooter(1, "&P");
 ```
 
- 설명:`&P` 코드는 자동으로 바닥글 중앙에 페이지 번호를 삽입합니다. 이는 페이지를 추적하는 편리한 방법입니다.
+설명:`&P` 코드는 자동으로 바닥글 중앙에 페이지 번호를 삽입합니다. 이는 페이지를 추적하는 편리한 방법입니다.
 
 ## 8단계: 오른쪽 바닥글 구성
 
@@ -131,7 +131,7 @@ pageSetup.SetFooter(2, "&N");
 
 ## 9단계: 통합 문서 저장
 
-이제 모든 것이 설정되었으므로, 작업의 성과를 확인하려면 통합 문서를 저장하기만 하면 됩니다.
+이제 모든 것이 설정되었으니, 작업의 성과를 확인하려면 통합 문서를 저장하기만 하면 됩니다.
 
 ```csharp
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
@@ -141,7 +141,7 @@ excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 
 ## 결론
 
-이제 다 됐습니다! Aspose.Cells for .NET을 사용하여 Excel에서 머리글과 바닥글을 설정하는 것은 다음 단계를 따르면 간단합니다. 문서의 모양을 개선했을 뿐만 아니라 중요한 맥락을 제공하여 기능도 개선했습니다. 보고서를 준비하든, 템플릿을 공유하든, 단순히 데이터를 정리하든, 머리글과 바닥글은 이길 수 없는 전문적인 분위기를 더합니다. 그러니 한 번 시도해보고 이 강력한 라이브러리로 Excel 문서를 관리하는 것이 얼마나 쉬운지 확인해 보세요!
+이제 다 됐습니다! Aspose.Cells for .NET을 사용하여 Excel에서 머리글과 바닥글을 설정하는 것은 다음 단계를 따르면 간단합니다. 문서의 모양을 개선했을 뿐만 아니라 중요한 맥락을 제공하여 기능도 개선했습니다. 보고서를 준비하든, 템플릿을 공유하든, 단순히 데이터를 정리하든, 머리글과 바닥글은 이길 수 없는 전문적인 분위기를 더해줍니다. 그러니 한 번 시도해보고 이 강력한 라이브러리로 Excel 문서를 관리하는 것이 얼마나 쉬운지 확인해 보세요!
 
 ## 자주 묻는 질문
 

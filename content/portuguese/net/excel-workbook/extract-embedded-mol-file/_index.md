@@ -2,7 +2,7 @@
 title: Extrair arquivo Mol incorporado
 linktitle: Extrair arquivo Mol incorporado
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda como extrair facilmente arquivos MOL incorporados de uma pasta de trabalho do Excel usando o Aspose.Cells para .NET.
+description: Aprenda a extrair facilmente arquivos MOL incorporados de uma pasta de trabalho do Excel usando o Aspose.Cells para .NET.
 type: docs
 weight: 90
 url: /pt/net/excel-workbook/extract-embedded-mol-file/
@@ -17,7 +17,7 @@ Antes de mergulharmos no processo de extração, vamos garantir que você esteja
 
 - Conhecimento básico de C#: Um pouco de familiaridade com C# vai te ajudar muito. Mesmo se você estiver apenas começando, você deve conseguir manter o ritmo.
 - Visual Studio: Tenha o Visual Studio instalado no seu sistema. Ele é necessário para escrever e executar seu código C#.
--  Aspose.Cells para .NET: Se você ainda não baixou, vá para o[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/) e pegue a versão mais recente.
+- Aspose.Cells para .NET: Se você ainda não baixou, vá para o[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/) e pegue a versão mais recente.
 - .NET Framework: certifique-se de ter uma versão compatível do .NET Framework instalada.
 -  Um arquivo Excel com objetos MOL incorporados: para nosso exemplo, usaremos`EmbeddedMolSample.xlsx`. Certifique-se de ter este arquivo pronto para a extração.
 
@@ -37,7 +37,7 @@ No seu projeto recém-criado, você precisará adicionar o pacote Aspose.Cells. 
 2. Selecione "Gerenciar pacotes NuGet".
 3. Procure por "Aspose.Cells" e clique em "Instalar".
 
-### Importar o namespace Aspose.Cells
+### Importe o namespace Aspose.Cells
 
 ```csharp
 using Aspose.Cells.Drawing;
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Com este snippet, estamos usando um`foreach` loop para percorrer cada planilha em nossa pasta de trabalho. Ao acessar o`OleObjects`coleção, podemos ter acesso a todos os objetos incorporados naquela planilha específica. 
+ Com este snippet, estamos usando um`foreach` loop para percorrer cada planilha em nossa pasta de trabalho. Ao acessar o`OleObjects` coleção, podemos ter acesso a todos os objetos incorporados naquela planilha específica. 
 
 ## Etapa 4: Extrair objetos OLE
 
@@ -104,7 +104,7 @@ foreach (OleObject ole in oles)
 }
 ```
 
-Nessa abordagem:
+Nesta abordagem:
 - Acompanhamos o índice para nomear os arquivos de saída sequencialmente.
 - Para cada objeto OLE, criamos um novo arquivo usando FileStream.
 - Em seguida, gravamos os dados incorporados neste arquivo e fechamos o fluxo.
@@ -121,7 +121,7 @@ Esta linha simples envia uma mensagem para o console quando toda a operação de
 
 ## Conclusão
 
-aí está! Você extraiu com sucesso arquivos MOL incorporados de um arquivo Excel usando o Aspose.Cells for .NET. Agora você pode usar suas novas habilidades e aplicá-las a outros cenários em que precisa extrair arquivos de objeto de planilhas do Excel. Este método não é apenas eficaz, mas também abre portas para lidar com várias operações relacionadas ao Excel sem esforço.
+E aí está! Você extraiu com sucesso arquivos MOL incorporados de um arquivo Excel usando o Aspose.Cells for .NET. Agora você pode usar suas novas habilidades e aplicá-las a outros cenários em que precisa extrair arquivos de objeto de planilhas do Excel. Este método não é apenas eficaz, mas também abre portas para lidar com várias operações relacionadas ao Excel sem esforço.
 
 ## Perguntas frequentes
 
@@ -132,7 +132,7 @@ Aspose.Cells para .NET é uma biblioteca poderosa projetada para manipular e ger
 Absolutamente! O Aspose.Cells permite que você extraia vários formatos de arquivo incorporados, como PDFs, imagens e muito mais, não apenas arquivos MOL.
 
 ### Preciso comprar o Aspose.Cells para usá-lo?  
- Embora haja um teste gratuito disponível, uma licença é necessária para recursos completos. Você pode[compre aqui](https://purchase.aspose.com/buy).
+ Embora haja um teste gratuito disponível, uma licença é necessária para todos os recursos. Você pode[compre aqui](https://purchase.aspose.com/buy).
 
 ### É necessário ter o Visual Studio para esse processo?  
 Embora tenhamos demonstrado o uso do Visual Studio, você pode usar qualquer IDE compatível com C# para executar seu projeto.

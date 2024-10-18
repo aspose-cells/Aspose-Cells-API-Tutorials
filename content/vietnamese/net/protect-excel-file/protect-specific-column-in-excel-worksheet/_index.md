@@ -15,7 +15,7 @@ Trong thế giới mà việc quản lý dữ liệu ngày càng trở nên ph�
 
 Trước khi bắt đầu viết mã, bạn cần lưu ý một số điều kiện tiên quyết sau:
 
-1. Visual Studio: Đảm bảo bạn đã cài đặt Microsoft Visual Studio (tốt nhất là phiên bản 2017 trở lên). Đây sẽ là môi trường phát triển của bạn. 
+1. Visual Studio: Đảm bảo bạn đã cài đặt Microsoft Visual Studio (tốt nhất là 2017 trở lên). Đây sẽ là môi trường phát triển của bạn. 
 2.  Thư viện Aspose.Cells: Bạn phải tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể[tải xuống thư viện ở đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 3. Hiểu biết cơ bản về C#: Mặc dù các ví dụ mã khá đơn giản, nhưng việc có kiến thức cơ bản về C# sẽ giúp bạn thực hiện các điều chỉnh khi cần thiết.
 4. .NET Framework: Đảm bảo dự án của bạn nhắm mục tiêu đến .NET Framework nơi Aspose.Cells được hỗ trợ.
@@ -48,7 +48,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Đoạn mã sẽ tạo một thư mục theo đường dẫn đã chỉ định nếu đường dẫn đó chưa tồn tại, đảm bảo bạn có vị trí an toàn cho tệp đầu ra của mình.
+Đoạn mã sẽ tạo một thư mục theo đường dẫn đã chỉ định nếu thư mục đó chưa tồn tại, đảm bảo bạn có vị trí an toàn cho tệp đầu ra của mình.
 
 ## Bước 2: Tạo một Workbook mới
 
@@ -96,7 +96,7 @@ for (int i = 0; i <= 255; i++)
 
 ## Bước 5: Khóa cột mong muốn
 
-Bây giờ, bạn sẽ muốn khóa cụ thể cột đầu tiên, trong khi vẫn để tất cả các cột khác có thể chỉnh sửa. Sau đây là cách bạn có thể thực hiện:
+Bây giờ, bạn sẽ muốn khóa cột đầu tiên cụ thể, trong khi vẫn để tất cả các cột khác có thể chỉnh sửa. Sau đây là cách bạn có thể thực hiện:
 
 ```csharp
 // Lấy kiểu cột đầu tiên.

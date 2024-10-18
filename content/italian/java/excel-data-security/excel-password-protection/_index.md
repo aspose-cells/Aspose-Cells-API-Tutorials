@@ -14,7 +14,7 @@ Nell'era digitale, proteggere i tuoi dati sensibili è fondamentale. I fogli di 
 
 ## Prerequisiti
 
-Prima di immergerti nel mondo della protezione tramite password di Excel con Aspose.Cells per Java, dovrai assicurarti di disporre degli strumenti e delle conoscenze necessarie:
+Prima di immergerti nel mondo della protezione tramite password di Excel con Aspose.Cells per Java, dovrai assicurarti di disporre degli strumenti e delle conoscenze necessari:
 
 - Ambiente di sviluppo Java
 -  Aspose.Cells per Java API (puoi scaricarlo[Qui](https://releases.aspose.com/cells/java/)
@@ -86,7 +86,7 @@ public class ExcelPasswordProtection {
             Protection protection = workbook.getSettings().getProtection();
             protection.setWorkbookProtection(WorkbookProtectionType.ALL);
 
-            // Salva la cartella di lavoro protetta
+            // Salvare la cartella di lavoro protetta
             workbook.save("ProtectedSample.xlsx");
             System.out.println("Excel file protected successfully.");
         } catch (Exception e) {
@@ -110,7 +110,7 @@ In questo tutorial, abbiamo imparato come aggiungere la protezione tramite passw
 
 ### Posso impostare password diverse per fogli di lavoro diversi all'interno dello stesso file Excel?
 
-Sì, è possibile impostare password diverse per singoli fogli di lavoro all'interno dello stesso file Excel utilizzando Aspose.Cells per Java.
+Sì, puoi impostare password diverse per singoli fogli di lavoro all'interno dello stesso file Excel utilizzando Aspose.Cells per Java.
 
 ### È possibile proteggere celle o intervalli specifici in un foglio di lavoro Excel?
 

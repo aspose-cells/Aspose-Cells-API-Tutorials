@@ -16,12 +16,12 @@ url: /ko/net/inserting-controls-in-charts/add-label-control-to-chart/
 자세한 내용을 살펴보기 전에 시작하는 데 필요한 사항을 살펴보겠습니다.
 
 - C#의 기본 지식: C# 프로그래밍의 기본을 이해하는 것이 중요합니다. 초보자라면 걱정하지 마세요. 단계가 명확하고 간결할 것입니다.
-- Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. Visual Studio의 NuGet 패키지 관리자를 통해 이 작업을 수행할 수 있습니다. 아직 설치하지 않았다면 다음을 확인하세요.[다운로드 링크](https://releases.aspose.com/cells/net/) 도서관을 위해서.
+-  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. Visual Studio의 NuGet 패키지 관리자를 통해 이 작업을 수행할 수 있습니다. 아직 설치하지 않았다면 다음을 확인하세요.[다운로드 링크](https://releases.aspose.com/cells/net/) 도서관을 위해서.
 - Visual Studio: 코드를 작성하고 실행하려면 Visual Studio와 같은 통합 개발 환경(IDE)이 필요합니다.
 
 ## 패키지 가져오기
 
-모든 것을 제자리에 놓았으면 다음 단계는 필요한 패키지를 가져오는 것입니다. 다음은 이를 수행하는 방법입니다.
+모든 것을 제자리에 놓았으면 다음 단계는 필요한 패키지를 가져오는 것입니다. 방법은 다음과 같습니다.
 
 ### Aspose.Cells 포함
 
@@ -62,18 +62,18 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- 여기서 우리는 다음을 사용하고 있습니다.`Workbook` Aspose.Cells의 클래스를 사용하여 Excel 파일을 엽니다. 창의성이 흐르도록 문을 여는 것과 같습니다!
+ 여기서 우리는 다음을 사용하고 있습니다.`Workbook`Aspose.Cells의 클래스를 사용하여 Excel 파일을 엽니다. 창의성이 흐르도록 문을 여는 것과 같습니다!
 
 ## 3단계: 워크시트에 액세스
 
 이제 워크북이 있으니 차트가 들어 있는 워크시트에 접근해 보겠습니다. 차트가 첫 번째 워크시트에 있다고 가정하겠습니다.
 
 ```csharp
-// 첫 번째 시트에서 디자이너 차트를 받으세요.
+// 첫 번째 시트에서 디자이너 차트를 가져옵니다.
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-이 단계는 모두 건물을 탐색하는 것입니다. 열쇠(워크북)는 있지만 이제 방(워크시트)을 찾아야 합니다.
+이 단계는 모두 건물을 탐색하는 것입니다. 열쇠(워크북)는 있지만, 이제 방(워크시트)을 찾아야 합니다.
 
 ## 4단계: 차트 가져오기
 
@@ -83,7 +83,7 @@ Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
 
-이 선은 갤러리에서 올바른 예술 작품을 찾는 것과 비슷합니다. 차트가 기다리고 있고, 이제 더 밝게 빛날 준비가 되었습니다!
+이 선은 갤러리에서 올바른 예술 작품을 찾는 것과 비슷합니다. 차트가 기다리고 있으며, 이제 더 밝게 빛날 준비가 되었습니다!
 
 ## 5단계: 차트에 레이블 추가
 
@@ -94,7 +94,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- 여기,`AddLabelInChart` 귀하가 지정한 좌표와 치수에 따라 라벨을 만드는 일을 담당합니다. 마치 아트워크 주위에 아름다운 프레임을 부착하는 것과 같습니다!
+ 여기,`AddLabelInChart`귀하가 지정한 좌표와 치수에 따라 라벨을 만드는 일을 담당합니다. 마치 아트워크 주위에 아름다운 프레임을 부착하는 것과 같습니다!
 
 ## 6단계: 레이블 텍스트 설정
 
@@ -149,7 +149,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 네! 귀하의 필요에 맞게 레이블의 글꼴, 색상, 크기 및 기타 속성을 변경할 수 있습니다.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
- Aspose.Cells는 유료 제품이지만 다음부터 시작할 수 있습니다.[무료 체험](https://releases.aspose.com/)그 기능을 알아보세요.
+ Aspose.Cells는 유료 제품이지만 다음부터 시작할 수 있습니다.[무료 체험](https://releases.aspose.com/) 그 기능을 알아보세요.
 
 ### 여러 개의 라벨을 추가하려면 어떻게 해야 하나요?
 필요한 만큼 라벨 추가 단계를 반복할 수 있으며, 각 단계는 위치와 텍스트를 다르게 할 수 있습니다.

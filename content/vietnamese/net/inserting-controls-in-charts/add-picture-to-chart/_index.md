@@ -16,12 +16,12 @@ Bạn có thấy chán những biểu đồ nhàm chán thiếu nét cá nhân k
 Trước khi đi sâu vào phần cốt lõi của việc viết mã, bạn cần có một số điều kiện tiên quyết để có thể thực hiện suôn sẻ:
 
 - Visual Studio: Đây là nơi bạn sẽ viết và chạy mã .NET của mình. Hãy đảm bảo rằng bạn đã cài đặt nó.
--  Aspose.Cells cho .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 - Hiểu biết cơ bản về C#: Mặc dù tôi sẽ hướng dẫn bạn viết mã, nhưng việc nắm được những kiến thức cơ bản về C# sẽ giúp bạn hiểu rõ hơn.
 
 ### Các bước cài đặt
 
-1. Cài đặt Aspose.Cells: Bạn có thể thêm Aspose.Cells vào dự án Visual Studio của mình thông qua NuGet Package Manager. Thực hiện việc này bằng cách điều hướng đến Tools > NuGet Package Manager > Manage NuGet Packages for Solution và tìm kiếm “Aspose.Cells.” Nhấp vào Install.
+1. Cài đặt Aspose.Cells: Bạn có thể thêm Aspose.Cells vào dự án Visual Studio của mình thông qua NuGet Package Manager. Thực hiện bằng cách điều hướng đến Tools > NuGet Package Manager > Manage NuGet Packages for Solution và tìm kiếm “Aspose.Cells.” Nhấp vào Install.
 2. Thiết lập dự án của bạn: Tạo một dự án ứng dụng bảng điều khiển C# mới trong Visual Studio.
 
 ## Nhập gói
@@ -84,7 +84,7 @@ Hãy đảm bảo rằng bạn đã lưu ảnh vào thư mục đã chỉ địn
 Bây giờ, hãy chỉ định biểu đồ nào chúng ta sẽ thêm hình ảnh vào. Trong ví dụ này, chúng ta sẽ nhắm mục tiêu vào biểu đồ đầu tiên trên bảng tính đầu tiên.
 
 ```csharp
-// Lấy biểu đồ thiết kế ở trang thứ hai.
+//Lấy biểu đồ thiết kế ở trang thứ hai.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -151,7 +151,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách thêm một chút c
 Aspose.Cells hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG, JPEG, BMP và GIF.
 
 ### Tôi có thể tùy chỉnh vị trí của hình ảnh không?
-Chắc chắn rồi! Tọa độ X và Y trong`AddPictureInChart` phương pháp cho phép định vị chính xác.
+ Chắc chắn rồi! Tọa độ X và Y trong`AddPictureInChart` phương pháp cho phép định vị chính xác.
 
 ### Aspose.Cells có miễn phí sử dụng không?
  Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng, cần phải có giấy phép. Bạn có thể tìm thấy giá[đây](https://purchase.aspose.com/buy).

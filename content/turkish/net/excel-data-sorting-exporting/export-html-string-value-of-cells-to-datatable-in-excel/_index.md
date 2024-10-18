@@ -80,7 +80,7 @@ Bu basit kod satırı çalışma kitabını başlatır ve belirtilen Excel dosya
 Worksheet ws = wb.Worksheets[0];
 ```
 
-Burada, ilk çalışma sayfasıyla (indeks 0) çalışıyoruz. Verilerinizin doğru sayfada olduğundan emin olun.
+Burada ilk çalışma sayfasıyla (indeks 0) çalışıyoruz. Verilerinizin doğru sayfada olduğundan emin olun.
 
 ## Adım 4: Dışa Aktarma Tablosu Seçeneklerini Belirleyin
 

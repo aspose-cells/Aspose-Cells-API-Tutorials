@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Förklaring: 
 
- Denna rad allokerar en strängvariabel`dataDir` för att hålla sökvägen till din dokumentkatalog. Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där din Excel-fil är lagrad. Det är som att ge vägbeskrivningar till någon; du måste tala om för din kod exakt var du ska leta efter filer.
+Denna rad allokerar en strängvariabel`dataDir` för att hålla sökvägen till din dokumentkatalog. Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där din Excel-fil är lagrad. Det är som att ge vägbeskrivningar till någon; du måste tala om för din kod exakt var du ska leta efter filer.
 
 ## Steg 2: Ladda arbetsboken
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Förklaring:  
 
-Den här raden hämtar det första kalkylbladet från samlingen. Indexering i programmering börjar ofta från noll, det är därför vi använder`[0]`. Se detta som att välja det första kapitlet i din bok, redo för modifiering.
+ Den här raden hämtar det första kalkylbladet från samlingen. Indexering i programmering börjar ofta från noll, det är därför vi använder`[0]`. Se detta som att välja det första kapitlet i din bok, redo för modifiering.
 
 ## Steg 5: Flytta arbetsbladet
 

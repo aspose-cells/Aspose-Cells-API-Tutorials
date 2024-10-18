@@ -9,7 +9,7 @@ url: /zh/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-s
 ---
 ## 介绍
 
-创建视觉上吸引人且信息丰富的图表对于各个领域的数据表示至关重要。无论您处理的是销售数据、绩效指标还是任何其他类型的信息，能够制作高质量的图表都会让您的发现更加深入和清晰。如果您使用的是 .NET 应用程序，Aspose.Cells 是一个功能强大的库，可让您轻而易举地处理 Excel 文档和生成图表。在本教程中，我们将指导您完成从具有所需页面大小的 Excel 文件创建图表 PDF 的过程。
+创建视觉上吸引人且信息丰富的图表对于各个领域的数据表示至关重要。无论您处理的是销售数据、绩效指标还是任何其他类型的信息，能够制作高质量的图表都会让您的发现更加深入和清晰。如果您使用的是 .NET 应用程序，Aspose.Cells 是一个功能强大的库，可让您轻松处理 Excel 文档和生成图表。在本教程中，我们将指导您完成从具有所需页面大小的 Excel 文件创建图表 PDF 的过程。
 
 ## 先决条件
 
@@ -29,7 +29,7 @@ url: /zh/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-s
 
 ### 示例 Excel 文件
 
-您将需要一个包含至少一个图表的示例 Excel 文件。您可以创建一个示例文件或下载一个以供在本教程中使用。
+您需要一个至少包含一个图表的示例 Excel 文件。您可以创建一个示例文件或下载一个以供在本教程中使用。
 
 ## 导入包
 
@@ -71,7 +71,7 @@ string sourceDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
-这`Workbook`类是与 Excel 文档交互的核心。确保路径正确指向您的 Excel 文件 - 此处的错误将阻止其余代码的执行。
+这`Workbook`类是与 Excel 文档交互的核心。确保路径正确指向 Excel 文件 — 此处的错误将阻止其余代码的执行。
 
 ## 步骤 3：访问第一个工作表
 
@@ -86,7 +86,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## 步骤 4：访问第一个图表
 
-现在，让我们访问您想要导出为 PDF 的图表。此步骤假设您的工作表至少包含一个图表。
+现在，让我们访问您要导出为 PDF 的图表。此步骤假设您的工作表至少包含一个图表。
 
 ```csharp
 //访问工作表内的第一个图表。
@@ -125,7 +125,7 @@ Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
 
 ## 常见问题解答
 
-### Aspose.Cells for .NET 用于什么用途？  
+### Aspose.Cells for .NET 用于什么？  
 Aspose.Cells for .NET 用于在.NET 应用程序中以编程方式创建、编辑和转换 Excel 文档。
 
 ### 我可以免费使用 Aspose.Cells 吗？  

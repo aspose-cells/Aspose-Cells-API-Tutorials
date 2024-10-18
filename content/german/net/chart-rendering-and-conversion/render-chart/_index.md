@@ -157,7 +157,7 @@ Wenn Sie ein ansprechendes und leicht weiterzugebendes Dokument wünschen, könn
 chart.ToPdf(outputDir + "outputChartRendering.pdf");
 ```
 
-Mit diesem Schritt wird eine PDF-Datei erstellt, die Ihr Diagramm enthält. Damit ist es ideal für digitale Berichte oder zum Teilen mit Kollegen geeignet.
+Mit diesem Schritt wird eine PDF-Datei erstellt, die Ihr Diagramm enthält. Sie eignet sich perfekt für digitale Berichte oder zum Teilen mit Kollegen.
 
 ## Abschluss 
 
@@ -178,4 +178,4 @@ Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen unter[Hier
  Community-Unterstützung und Ressourcen finden Sie unter[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
 
 ### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?
- Ja, für die weitere Nutzung nach der Testphase ist eine Lizenz erforderlich. Sie können jedoch eine vorübergehende Lizenz beantragen.[Hier](https://purchase.aspose.com/temporary-license/).
+ Ja, für die weitere Nutzung nach Ablauf der Testphase ist eine Lizenz erforderlich. Sie können jedoch eine temporäre Lizenz beantragen.[Hier](https://purchase.aspose.com/temporary-license/).

@@ -39,7 +39,7 @@ Meistern Sie Excel-Pivot-Tabellen mit Aspose.Cells für Java. Erfahren Sie, wie 
 ### [Erweiterte Excel-Diagramme](./advanced-excel-charts/)
 Entdecken Sie erweiterte Excel-Diagramm-Tutorials mit Aspose.Cells für Java. Verbessern Sie Ihre Datenvisualisierungsfähigkeiten Schritt für Schritt. Meistern Sie noch heute die Diagrammerstellung!
 ### [Excel Import/Export](./excel-import-export/)
-Mit Aspose.Cells für Java können Sie Excel-Dateien mühelos importieren und exportieren. Entdecken Sie Schritt-für-Schritt-Tutorials für einen nahtlosen Datenaustausch. Meistern Sie noch heute die Excel-Verarbeitung!
+Mit Aspose.Cells für Java können Sie Excel-Dateien mühelos importieren und exportieren. Entdecken Sie Schritt-für-Schritt-Tutorials für einen nahtlosen Datenaustausch. Meistern Sie noch heute die Handhabung von Excel!
 ### [Excel-Datensicherheit](./excel-data-security/)
 Verbessern Sie die Excel-Datensicherheit mit Aspose.Cells für Java. Erfahren Sie Schritt für Schritt, wie Sie Ihre Tabellen schützen, Dateien verschlüsseln und die Datenintegrität gewährleisten.
 ### [Automatisierung von Tabellenkalkulationen](./spreadsheet-automation/)

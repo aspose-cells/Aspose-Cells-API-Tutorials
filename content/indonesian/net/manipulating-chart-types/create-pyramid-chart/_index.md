@@ -58,12 +58,12 @@ string outputDir = "Your Output Directory";
 
  Pastikan untuk mengganti`"Your Output Directory"` dengan jalur yang valid di komputer Anda. Jalur ini adalah tempat penyimpanan berkas Excel yang Anda buat.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Selanjutnya, mari kita buat contoh baru dari sebuah workbook. Bayangkan workbook sebagai kanvas kosong tempat Anda dapat melukis data Anda.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -71,7 +71,7 @@ Baris ini menginisialisasi buku kerja baru, siap untuk entri data dan visualisas
 
 ## Langkah 3: Dapatkan Referensi ke Lembar Kerja
 
-Setiap buku kerja berisi setidaknya satu lembar kerja. Di sini kita akan merujuk ke lembar kerja pertama yang akan digunakan.
+Setiap buku kerja berisi setidaknya satu lembar kerja. Di sini kita akan merujuk lembar kerja pertama yang akan digunakan.
 
 ```csharp
 // Mendapatkan referensi lembar kerja yang baru ditambahkan dengan meneruskan indeks lembar kerjanya
@@ -131,7 +131,7 @@ Pada bagian ini, kita menghubungkan data dalam sel A1 ke B3, sehingga diagram pi
 
 ## Langkah 8: Simpan File Excel
 
-Akhirnya, saatnya menyimpan karya agung kita. Mari tulis buku kerja Excel ke dalam sebuah file.
+Akhirnya, saatnya menyimpan karya agung kita. Mari kita tulis buku kerja Excel ke dalam sebuah file.
 
 ```csharp
 // Menyimpan file Excel

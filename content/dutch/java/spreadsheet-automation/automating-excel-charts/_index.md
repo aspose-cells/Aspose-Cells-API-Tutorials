@@ -84,7 +84,7 @@ U kunt het uiterlijk van het diagram, de labels en andere eigenschappen naar wen
 // Titel van grafiek instellen
 chart.setTitle("Sales Chart");
 
-// Pas de grafiekstijl aan
+// Grafiekstijl aanpassen
 chart.getChartArea().setForegroundColor(Color.getLightSkyBlue());
 
 // Aslabels en titels aanpassen

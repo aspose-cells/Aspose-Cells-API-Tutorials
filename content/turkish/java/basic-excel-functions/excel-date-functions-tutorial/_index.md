@@ -2,7 +2,7 @@
 title: Excel Tarih Fonksiyonları Eğitimi
 linktitle: Excel Tarih Fonksiyonları Eğitimi
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells kullanarak Excel Tarih Fonksiyonlarını öğrenin. Kaynak kodlu adım adım öğreticileri keşfedin.
+description: Aspose.Cells for Java kullanarak Excel Tarih Fonksiyonlarını öğrenin. Kaynak kodlu adım adım öğreticileri keşfedin.
 type: docs
 weight: 19
 url: /tr/java/basic-excel-functions/excel-date-functions-tutorial/

@@ -90,7 +90,7 @@ Questa riga salva la cartella di lavoro protetta nella directory di output desig
 
 ## Passaggio 6: verificare l'esecuzione
 
-Dopo aver salvato la cartella di lavoro, è buona norma verificare se tutto è andato bene. Ecco un semplice messaggio di conferma:
+Dopo aver salvato la cartella di lavoro, è buona norma verificare che tutto sia andato bene. Ecco un semplice messaggio di conferma:
 
 ```csharp
 Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfully.\r\n");

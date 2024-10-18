@@ -19,12 +19,12 @@ Nel nostro tutorial, imparerai come implementare un semplice frammento di codice
 
 ## Specificare i campi formula durante l'importazione dei dati nel foglio Excel
 
-Ora, parliamo delle importazioni di dati. Spostare dati in Excel a volte può sembrare come tentare di risolvere un puzzle in cui mancano alcuni pezzi. Niente paura! Con Aspose.Cells, importare dati specificando campi formula è un gioco da ragazzi.
+Ora parliamo delle importazioni di dati. Spostare dati in Excel a volte può sembrare come tentare di risolvere un puzzle in cui mancano alcuni pezzi. Niente paura! Con Aspose.Cells, importare dati specificando campi formula è un gioco da ragazzi.
 
 Questo tutorial ti fornirà le competenze per importare i tuoi set di dati mantenendo l'integrità dei campi formula. Immagina questo: hai proiezioni finanziarie in un file CSV e devi importarlo in Excel senza perdere quelle formule importantissime. Ti mostriamo come fare proprio questo con esempi chiari e best practice che assicurano che i tuoi dati arrivino intatti e utilizzabili.[Per saperne di più](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
 ## Tutorial di formattazione personalizzata di numeri e date in Excel
 ### [Controlla se un valore di cella è in un formato numerico personalizzato specifico](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
-Scopri come confrontare i valori delle celle di Excel con formati numerici personalizzati utilizzando Aspose.Cells per .NET con questa guida dettagliata.
+Scopri come confrontare i valori delle celle di Excel con formati numerici personalizzati utilizzando Aspose.Cells per .NET con questa esercitazione dettagliata.
 ### [Specificare i campi formula durante l'importazione dei dati nel foglio Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.

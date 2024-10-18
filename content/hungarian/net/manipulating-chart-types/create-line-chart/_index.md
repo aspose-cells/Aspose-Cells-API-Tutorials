@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Ezután létre kell hoznunk egy új munkafüzet-példányt. Gondoljon a munkafüzetre úgy, mint arra a vászonra, ahol kreativitása kiárad. 
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 Ez a sor inicializál egy új munkafüzetet, amely az összes adatot és vizualitást tartalmazza.

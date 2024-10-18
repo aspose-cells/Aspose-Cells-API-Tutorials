@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Następnie musimy utworzyć nową instancję skoroszytu. Pomyśl o skoroszycie jako o płótnie, na którym będzie płynąć Twoja kreatywność. 
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 Ten wiersz inicjuje nowy skoroszyt, który będzie zawierał wszystkie dane i elementy wizualne.
@@ -119,7 +119,7 @@ W tym przykładzie informujemy wykres, aby użył wartości w komórkach od A1 d
 
 ## Krok 8: Zapisz plik Excel
 
-Wielki finał! Po całej ciężkiej pracy nadszedł czas, aby zapisać plik Excela i zobaczyć wykres liniowy w akcji.
+Wielki finał! Po całej ciężkiej pracy czas zapisać plik Excela i zobaczyć wykres liniowy w akcji.
 
 ```csharp
 // Zapisywanie pliku Excel
@@ -127,7 +127,7 @@ workbook.Save(outputDir + "outputHowToCreateLineChart.xlsx");
 ```
  Ten wiersz zapisuje skoroszyt w określonym katalogu wyjściowym pod nazwą`outputHowToCreateLineChart.xlsx`.
 
-## Krok 9: Wykonaj i sprawdź
+## Krok 9: Wykonaj i zweryfikuj
 
 Na koniec możesz uruchomić swój kod i sprawdzić, czy wykres liniowy został pomyślnie utworzony w katalogu wyjściowym! 
 
@@ -138,12 +138,12 @@ Spowoduje to wyświetlenie komunikatu na konsoli informującego, że wszystko pr
 
 ## Wniosek
 
-Tworzenie wykresu liniowego za pomocą Aspose.Cells dla .NET to wydajny sposób na ożywienie danych. Postępując zgodnie z tym przewodnikiem krok po kroku, możesz łatwo wizualizować trendy i relacje w swoich zestawach danych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, Aspose.Cells zapewnia elastyczność i moc automatyzacji zadań wizualizacji danych. 
+Tworzenie wykresu liniowego przy użyciu Aspose.Cells dla .NET to wydajny sposób na ożywienie danych. Postępując zgodnie z tym przewodnikiem krok po kroku, możesz łatwo wizualizować trendy i relacje w swoich zestawach danych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, Aspose.Cells zapewnia elastyczność i moc automatyzacji zadań wizualizacji danych. 
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells dla .NET?  
-Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do programowego zarządzania plikami Excela i manipulowania nimi. Umożliwia ona programistom tworzenie, edytowanie i konwertowanie arkuszy kalkulacyjnych.
+Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do programowego zarządzania plikami Excela i manipulowania nimi. Umożliwia ona programistom tworzenie, edycję i konwersję arkuszy kalkulacyjnych.
 
 ### Czy Aspose.Cells obsługuje wykresy?  
 Tak, Aspose.Cells zapewnia rozbudowaną obsługę różnych typów wykresów, w tym wykresów liniowych, kołowych, słupkowych i innych.

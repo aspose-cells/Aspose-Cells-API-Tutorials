@@ -17,7 +17,7 @@ Excel 是最广泛使用的数据管理工具之一，它允许用户以有组�
 
 1. Visual Studio：确保您的机器上安装了 Visual Studio。它是友好的 IDE（集成开发环境），可让您轻松编写和测试 .NET 应用程序。
 2.  Aspose.Cells 库：下载 Aspose.Cells for .NET 库。您可以从以下位置获取[Aspose 版本](https://releases.aspose.com/cells/net/).
-3. .NET Framework：确保您的目标版本至少为 .NET Framework 4.0 或更高版本。这就像为您的房子选择合适的地基一样 - 这很重要！
+3. .NET Framework：确保您至少以 .NET Framework 4.0 或更高版本为目标。这就像为您的房子选择合适的地基一样 - 这很重要！
 4. 基本 C# 知识：需要熟悉 C# 编程。如果您刚刚开始，请不要担心；我将逐步指导您完成代码。
 
 ## 导入包
@@ -73,7 +73,7 @@ Worksheet WS = workbook.Worksheets[0]; //访问第一个工作表
 Aspose.Cells.Range range = WS.Cells.CreateRange(1, 1, 5, 5); //从第 1 行、第 1 列创建一个范围，跨越 5 行 5 列
 ```
 
-说明：此方法创建一个从第 1 行、第 1 列开始的区域（如果从 0 开始计算行/列，则在 Excel 术语中为 B2）。我们指定我们想要一个 5 行 5 列的块，最终得到一个整齐的小正方形。
+说明：此方法创建一个从第 1 行第 1 列开始的区域（如果从 0 开始计算行/列，则在 Excel 术语中为 B2）。我们指定我们想要一个 5 行 5 列的块，最终得到一个整齐的小正方形。
 
 ## 步骤 5：命名范围
 
@@ -105,7 +105,7 @@ stl.Font.Name = "Arial"; //将字体设置为 Arial
 stl.Font.IsBold = true; //使字体加粗
 ```
 
-说明：在这里，我们定义要使用“Arial”作为字体并将其设为粗体。想象一下，这会给你的文本增添一些力量！
+说明：在这里，我们定义要使用“Arial”作为字体并将其设为粗体。想想这会给你的文本增添一些力量吧！
 
 ## 步骤 8：设置文本颜色
 

@@ -16,8 +16,8 @@ I fogli di calcolo Excel sono diventati uno strumento indispensabile per la gest
 Prima di addentrarci nei dettagli tecnici della gestione dei formati cartacei di Excel, è necessario avere ben chiari alcuni aspetti:
 
 1. Conoscenza di base di C#: la familiarità con la programmazione C# semplificherà notevolmente il processo di integrazione di Aspose.Cells nei tuoi progetti.
-2. Visual Studio installato: assicurati di avere Visual Studio installato sul tuo computer per scrivere ed eseguire codice C#.
-3.  Aspose.Cells per la libreria .NET: dovrai ottenere Aspose.Cells. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
+2. Visual Studio installato: assicurati di aver installato Visual Studio sul tuo computer per scrivere ed eseguire codice C#.
+3. Aspose.Cells per la libreria .NET: dovrai ottenere Aspose.Cells. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
 4. NuGet Package Manager: assicurati di avere accesso a NuGet Package Manager, poiché puoi facilmente installare Aspose.Cells tramite esso.
 
 Tenendo a mente questi prerequisiti, cominciamo!

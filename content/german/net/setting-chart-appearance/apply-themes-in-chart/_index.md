@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Stellen Sie sicher, dass`sampleApplyingThemesInChart.xlsx` existiert in Ihrem Quellverzeichnis.
+ Stellen Sie sicher, dass`sampleApplyingThemesInChart.xlsx`existiert in Ihrem Quellverzeichnis.
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -77,7 +77,7 @@ In diesem Fall nehmen wir einfach das erste Arbeitsblatt, was für dieses Beispi
 Mit dem Arbeitsblatt in der Hand können wir nun auf das Diagramm zugreifen, das wir gestalten möchten.
 
 ```csharp
-//Holen Sie sich das erste Diagramm im Blatt
+// Holen Sie sich das erste Diagramm im Blatt
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Diese Codezeile stellt sicher, dass für die erste Reihe im Diagramm eine einfar
 
 ## Schritt 6: Konfigurieren Sie die Farbe
 
- Jetzt, da unsere Serie fertig ist, müssen wir ihre Farbe ändern. Dazu müssen wir ein`CellsColor` Objekt und Angabe einer Designfarbe. Für dieses Beispiel wählen wir einen Akzentstil.
+ Jetzt, da unsere Serie fertig ist, müssen wir ihre Farbe ändern. Dazu müssen wir ein`CellsColor`Objekt und Angabe einer Designfarbe. Für dieses Beispiel wählen wir einen Akzentstil.
 
 ```csharp
 // Holen Sie sich die CellsColor von SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Erstellen Sie ein Design im Accent-Stil
+// Erstellen Sie ein Design im Accent-Stil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -144,7 +144,7 @@ Diese Zeile gibt eine Meldung in der Konsole aus, die besagt, dass die Aufgabe a
 
 ## Abschluss
 
-Das Anwenden von Designs auf Ihre Diagramme in Excel mithilfe von Aspose.Cells für .NET kann die Anzeige Ihrer Daten komplett verändern. Dadurch werden Ihre Diagramme nicht nur ästhetisch ansprechender, sondern Ihre Botschaft wird auch effektiver vermittelt. Indem Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie Ihre Diagramme ganz einfach anpassen und Ihre Daten auf eine Weise präsentieren, die die Aufmerksamkeit Ihres Publikums fesselt.
+Das Anwenden von Designs auf Ihre Diagramme in Excel mithilfe von Aspose.Cells für .NET kann die Darstellung Ihrer Daten komplett verändern. Dadurch werden Ihre Diagramme nicht nur ästhetisch ansprechender, sondern Ihre Botschaft wird auch effektiver vermittelt. Indem Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie Ihre Diagramme ganz einfach anpassen und Ihre Daten auf eine Weise präsentieren, die die Aufmerksamkeit Ihres Publikums fesselt.
 
 ## Häufig gestellte Fragen
 

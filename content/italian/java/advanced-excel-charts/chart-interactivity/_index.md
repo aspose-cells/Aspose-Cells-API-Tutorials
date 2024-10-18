@@ -10,13 +10,13 @@ url: /it/java/advanced-excel-charts/chart-interactivity/
 
 ## Introduzione
 
-I grafici interattivi aggiungono una nuova dimensione alla visualizzazione dei dati, consentendo agli utenti di esplorare e comprendere meglio i dati. In questo tutorial, ti mostreremo come creare grafici interattivi utilizzando Aspose.Cells per Java. Imparerai ad aggiungere funzionalità come tooltip, etichette dati e funzionalità drill-down ai tuoi grafici, rendendo le tue presentazioni di dati più coinvolgenti.
+I grafici interattivi aggiungono una nuova dimensione alla visualizzazione dei dati, consentendo agli utenti di esplorare e comprendere meglio i dati. In questo tutorial, ti mostreremo come creare grafici interattivi utilizzando Aspose.Cells per Java. Imparerai come aggiungere funzionalità come tooltip, etichette dati e funzionalità drill-down ai tuoi grafici, rendendo le tue presentazioni di dati più coinvolgenti.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 - Ambiente di sviluppo Java
-- Aspose.Cells per la libreria Java (scarica da[Qui](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells per la libreria Java (scarica da[Qui](https://releases.aspose.com/cells/java/)
 
 ## Passaggio 1: impostazione del progetto Java
 

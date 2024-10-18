@@ -31,7 +31,7 @@ using Aspose.Cells;
 
 Setelah prasyarat dan paket-paket selesai, mari beralih ke bagian yang menyenangkan: pengkodean!
 
-Berikut rincian cara menggabungkan sel dalam rentang bernama di lembar Excel menggunakan Aspose.Cells untuk .NET.
+Berikut rincian cara menggabungkan sel dalam rentang bernama di lembar Excel menggunakan Aspose.Cells for .NET.
 
 ## Langkah 1: Buat Buku Kerja Baru
 

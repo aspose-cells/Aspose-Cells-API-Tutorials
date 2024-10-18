@@ -69,7 +69,7 @@ Raadpleeg de documentatie van Aspose.Cells voor Java voor meer geavanceerde func
 ### V: Zijn er licentievereisten voor het gebruik van Aspose.Cells voor Java?
    - A: Ja, Aspose.Cells vereist een geldige licentie voor productiegebruik. U kunt een licentie verkrijgen via de Aspose-website.
 
-### V: Kan ik specifieke werkbladen uit een Excel-werkmap exporteren naar HTML?
+### V: Kan ik specifieke werkbladen uit een Excel-werkmap naar HTML exporteren?
    - A: Ja, u kunt specifieke bladen exporteren door de bladnamen of indices in uw code op te geven.
 
 ### V: Waar kan ik meer voorbeelden en bronnen vinden voor Aspose.Cells voor Java?

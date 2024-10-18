@@ -1,7 +1,7 @@
 ---
 title: Definindo a aparência do gráfico
 linktitle: Definindo a aparência do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Explore os tutoriais do Aspose.Cells for .NET sobre como definir a aparência do gráfico. Aprenda a aplicar temas, alterar linhas de grade, definir áreas de gráfico, títulos, eixos e muito mais com guias fáceis.
 type: docs
 weight: 22
@@ -35,7 +35,7 @@ Aprenda como aplicar temas a gráficos no Excel usando Aspose.Cells para .NET co
 ### [Alterar as principais linhas de grade no gráfico](./change-major-gridlines-in-chart/)
 Aprenda como alterar as principais linhas de grade em gráficos do Excel usando o Aspose.Cells para .NET com nosso guia passo a passo detalhado.
 ### [Obtenha as principais linhas de grade do gráfico](./get-major-gridlines-of-chart/)
-Aprenda como obter linhas de grade principais em gráficos usando Aspose.Cells para .NET com este tutorial detalhado passo a passo. Aprimore suas habilidades de relatórios do Excel.
+Aprenda como obter linhas de grade principais em gráficos usando Aspose.Cells para .NET com este tutorial detalhado passo a passo. Melhore suas habilidades de relatórios do Excel.
 ### [Definir área do gráfico](./set-chart-area/)
 Desbloqueie o potencial dos gráficos do Excel com o Aspose.Cells para .NET. Aprenda a definir áreas de gráfico passo a passo em nosso tutorial fácil.
 ### [Definir linhas do gráfico](./set-chart-lines/)

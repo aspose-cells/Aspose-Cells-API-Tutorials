@@ -124,11 +124,11 @@ Console.WriteLine("ReadManipulateExcel2016Charts executed successfully.");
 
 ## 结论
 
-恭喜！您已成功学会如何使用 Aspose.Cells for .NET 读取和操作 Excel 2016 图表。这个功能强大的库可让您灵活地以编程方式处理 Excel 文件，从而提高您的工作流程效率。无论您需要更新图表标题、修改数据，还是创建新图表，Aspose.Cells 都能满足您的需求。
+恭喜！您已成功学会如何使用 Aspose.Cells for .NET 读取和操作 Excel 2016 图表。这个功能强大的库可让您灵活地以编程方式处理 Excel 文件，从而提高工作流程效率。无论您需要更新图表标题、修改数据，还是创建新图表，Aspose.Cells 都能满足您的需求。
 
 ## 常见问题解答
 
-### Aspose.Cells for .NET 用于什么用途？
+### Aspose.Cells for .NET 用于什么？
 Aspose.Cells for .NET 是一个以编程方式处理 Excel 文件的库，允许开发人员在 .NET 应用程序内创建、读取、操作和转换 Excel 文件。
 
 ### 如何下载 Aspose.Cells？

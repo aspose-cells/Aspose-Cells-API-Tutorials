@@ -12,9 +12,9 @@ Aspose.Cells for Java'nın gücünü Spreadsheet Automation Tutorials'ımızda k
 
 ## Veri İş Akışınızı Basitleştirin
 
-### Aspose.Cells ile Başlarken
+### Aspose.Cells'e Başlarken
 
-Aspose.Cells for Java'yı kaynaktan indirerek bir adım öne geçin. Eğitimimiz sizi entegrasyon boyunca yönlendirerek Java elektronik tablo görevlerinizi otomatikleştirmenizi kolaylaştırır.
+Aspose.Cells for Java'yı kaynaktan indirerek bir adım öne geçin. Eğitimimiz, Java elektronik tablo görevlerinizi otomatikleştirmenizi kolaylaştırarak entegrasyonda size rehberlik eder.
 
 ### Veri İşleme Kolaylaştırıldı
 

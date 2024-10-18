@@ -14,7 +14,7 @@ In questa guida completa, ti guideremo attraverso il processo di importazione de
 
 Prima di immergerti nel codice, assicurati di avere i seguenti prerequisiti:
 
-1. Ambiente di sviluppo Java: assicurati di aver installato Java JDK sul tuo sistema.
+1. Ambiente di sviluppo Java: assicurati di avere Java JDK installato sul tuo sistema.
 2.  Aspose.Cells per Java: Scarica e includi la libreria Aspose.Cells per Java nel tuo progetto. Puoi trovare il link per il download[Qui](https://releases.aspose.com/cells/java/).
 
 ## Creazione di un progetto Java

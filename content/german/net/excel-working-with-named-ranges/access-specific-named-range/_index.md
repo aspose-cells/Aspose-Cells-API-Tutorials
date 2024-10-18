@@ -13,7 +13,7 @@ In der heutigen schnelllebigen Welt sind Daten alles. Unternehmen leben von Erke
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Sie können es hier herunterladen:[Hier](https://visualstudio.microsoft.com/).
 2. .NET Framework: Stellen Sie sicher, dass Sie das entsprechende .NET Framework installiert haben. Aspose.Cells unterstützt mehrere Versionen. Überprüfen Sie daher die Dokumentation auf Kompatibilität.
-3.  Aspose.Cells-Bibliothek: Sie können die Aspose.Cells-Bibliothek herunterladen von der[Webseite](https://releases.aspose.com/cells/net/). Alternativ können Sie zur Installation auch den NuGet Package Manager in Visual Studio verwenden.
+3.  Aspose.Cells-Bibliothek: Sie können die Aspose.Cells-Bibliothek herunterladen von der[Webseite](https://releases.aspose.com/cells/net/). Alternativ können Sie zur Installation auch den NuGet-Paket-Manager in Visual Studio verwenden.
 4. Grundkenntnisse in C#: Vertrautheit mit der C#-Programmierung und den Grundlagen von Excel ist von Vorteil.
 Nachdem wir nun das Wesentliche bereit haben, können wir weitermachen!
 ## Pakete importieren
@@ -33,7 +33,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleAccessSpecificNamedRange.xls
 ```
  Ersetzen Sie hier`"Your Document Directory"` durch den tatsächlichen Pfad, in dem Ihre Datei gespeichert ist.
 ## Schritt 2: Zugriff auf den benannten Bereich
- Um den angegebenen benannten Bereich zu erhalten, verwenden Sie die`GetRangeByName` Methode. Dadurch wird der Bereich abgerufen, der dem zuvor zugewiesenen Namen zugeordnet ist.
+ Um den angegebenen benannten Bereich zu erhalten, verwenden Sie die`GetRangeByName` -Methode. Dadurch wird der Bereich abgerufen, der dem zuvor zugewiesenen Namen zugeordnet ist.
 ```csharp
 Range range = workbook.Worksheets.GetRangeByName("MyRangeTwo");
 ```

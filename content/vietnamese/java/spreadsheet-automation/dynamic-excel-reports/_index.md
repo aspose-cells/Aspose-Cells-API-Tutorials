@@ -53,7 +53,7 @@ worksheet.getCells().get("C2").setFormula("=B2*1.1"); // Tính toán mức tăng
 
 ## Bước 5: Áp dụng Kiểu và Định dạng
 
-Để làm cho báo cáo của bạn hấp dẫn về mặt trực quan, bạn có thể áp dụng kiểu và định dạng cho các ô, hàng và cột. Ví dụ, bạn có thể thay đổi màu nền ô hoặc đặt phông chữ:
+Để làm cho báo cáo của bạn hấp dẫn về mặt trực quan, bạn có thể áp dụng kiểu và định dạng cho ô, hàng và cột. Ví dụ, bạn có thể thay đổi màu nền ô hoặc đặt phông chữ:
 
 ```java
 // Áp dụng kiểu dáng và định dạng
@@ -65,7 +65,7 @@ worksheet.getCells().applyStyle(style, new StyleFlag());
 
 ## Bước 6: Tự động làm mới dữ liệu
 
-Chìa khóa cho báo cáo động là khả năng tự động làm mới dữ liệu. Bạn có thể lên lịch quy trình này hoặc kích hoạt thủ công. Ví dụ: bạn có thể làm mới dữ liệu từ cơ sở dữ liệu theo định kỳ hoặc khi người dùng nhấp vào nút.
+Chìa khóa của báo cáo động là khả năng tự động làm mới dữ liệu. Bạn có thể lên lịch quy trình này hoặc kích hoạt thủ công. Ví dụ: bạn có thể làm mới dữ liệu từ cơ sở dữ liệu theo định kỳ hoặc khi người dùng nhấp vào nút.
 
 ```java
 // Làm mới dữ liệu

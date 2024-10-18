@@ -9,7 +9,7 @@ url: /tr/net/excel-workbook/working-with-content-type-properties/
 ---
 ## giriiş
 
-Aspose.Cells for .NET kullanarak Excel dosya düzenleme dünyasına dalıyorsanız, içerik türü özelliklerini keşfetmek isteyebilirsiniz. Bu özellikler, çeşitli dosya türleri ve biçimleriyle uğraşırken son derece yararlı olabilecek çalışma kitaplarınız için özel meta verileri tanımlamanıza olanak tanır. Ayrıntılı veri yönetimi gerektiren uygulamalar oluşturuyor veya Excel dosyalarınıza ek bilgi eklemek istiyorsanız, içerik türü özelliklerini anlamak hayati bir beceridir.
+.NET için Aspose.Cells kullanarak Excel dosya düzenleme dünyasına dalıyorsanız, içerik türü özelliklerini keşfetmek isteyebilirsiniz. Bu özellikler, çeşitli dosya türleri ve biçimleriyle uğraşırken son derece yararlı olabilecek çalışma kitaplarınız için özel meta verileri tanımlamanıza olanak tanır. Ayrıntılı veri yönetimi gerektiren uygulamalar oluşturuyor veya Excel dosyalarınıza ek bilgi eklemek istiyorsanız, içerik türü özelliklerini anlamak hayati bir beceridir.
 
 ## Ön koşullar
 
@@ -34,7 +34,7 @@ Aspose.Cells işlevlerine kolay erişim sağlamak için bu yönergeleri C# dosya
 
 ## Adım 1: Çıktı Dizininizi Ayarlayın
 
-İlk olarak, yeni Excel dosyamızı kaydedeceğimiz çıktı dizinini ayarlayalım. Bu, projenizi düzenli tutmanıza yardımcı olacaktır.
+Öncelikle yeni Excel dosyamızı kaydedeceğimiz çıktı dizinini ayarlayalım. Bu projenizi düzenli tutmanıza yardımcı olacaktır.
 
 ```csharp
 string outputDir = "Your Document Directory";

@@ -138,7 +138,7 @@ Có, bạn có thể tùy chỉnh tiêu chí cho hàm COUNTIF để đếm các 
 
  Bạn có thể đánh giá một công thức trong Aspose.Cells cho Java bằng cách sử dụng`calculateFormula` phương pháp với các tùy chọn phù hợp.
 
-### Thực hành tốt nhất khi sử dụng COUNTIF trong Excel là gì?
+### Thực hành tốt nhất khi sử dụng hàm COUNTIF trong Excel là gì?
 
 Các biện pháp tốt nhất để sử dụng COUNTIF bao gồm giữ cho tiêu chí rõ ràng, sử dụng tham chiếu ô cho tiêu chí và kiểm tra công thức với dữ liệu mẫu.
 

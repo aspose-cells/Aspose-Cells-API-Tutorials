@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Nyní, když máme souborový proud, můžeme vytvořit soubor`Workbook` objekt.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Pro naše účely budeme pracovat pouze s prvním pracovním listem. Pojďme k tomu přistupovat.
 
 ```csharp
-//Přístup k prvnímu listu v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Listy jsou indexovány od nuly, takže`Worksheets[0]` odkazuje na první list v souboru Excel. Nyní můžeme použít naše nastavení ochrany na tento konkrétní list.

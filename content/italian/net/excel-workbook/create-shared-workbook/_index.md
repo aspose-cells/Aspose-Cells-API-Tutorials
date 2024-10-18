@@ -51,7 +51,7 @@ Ora entriamo nella parte succosa! Ecco come creare una cartella di lavoro condiv
 
 ## Passaggio 1: impostare la directory di output
 
-In questo passaggio, definirai dove verrà salvato il file di output. È come decidere dove mettere i biscotti appena sfornati: vuoi assicurarti che siano facili da trovare in seguito!
+In questo passaggio, definirai dove verrà salvato il file di output. È come decidere dove mettere i tuoi biscotti appena sfornati: vuoi assicurarti che siano facili da trovare in seguito!
 
 ```csharp
 //Directory di uscita

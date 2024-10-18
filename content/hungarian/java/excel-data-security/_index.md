@@ -2,7 +2,7 @@
 title: Excel adatbiztonság
 linktitle: Excel adatbiztonság
 second_title: Aspose.Cells Java Excel Processing API
-description: Fokozza az Excel adatbiztonságát az Aspose.Cells for Java segítségével. Ismerje meg lépésről lépésre, hogyan védheti meg táblázatait, hogyan titkosíthatja a fájlokat, és hogyan biztosíthatja az adatok integritását.
+description: Növelje az Excel adatbiztonságát az Aspose.Cells for Java segítségével. Ismerje meg lépésről lépésre, hogyan védheti meg táblázatait, hogyan titkosíthatja a fájlokat, és hogyan biztosíthatja az adatok integritását.
 type: docs
 weight: 17
 url: /hu/java/excel-data-security/
@@ -13,10 +13,10 @@ Egy olyan korban, amikor az adatok uralkodnak, az Excel-táblázatok biztonság�
 
 
 ## Jelszavas védelem
-A jelszavas védelem az első védelmi vonal. Az Aspose.Cells for Java segítségével jelszót is beállíthat a megnyitáshoz és jelszót az Excel-fájlok módosításához. Ez a kettős védelmi réteg biztosítja, hogy csak az arra jogosult személyek férhessenek hozzá a táblázatokhoz, és módosíthassák azokat. A biztonsági intézkedés zökkenőmentes megvalósításához kódpéldákat mutatunk be.
+jelszavas védelem az első védelmi vonal. Az Aspose.Cells for Java segítségével jelszót is beállíthat a megnyitáshoz és jelszót az Excel-fájlok módosításához. Ez a kettős védelmi réteg biztosítja, hogy csak az arra jogosult személyek férhessenek hozzá a táblázatokhoz, és módosíthassák azokat. A biztonsági intézkedés zökkenőmentes megvalósításához kódpéldákat mutatunk be.
 
 ## Fájl titkosítás
-mai összekapcsolt világban a fájlok titkosítása elengedhetetlen. Az Aspose.Cells for Java lehetővé teszi Excel-fájlok titkosítását iparági szabványos titkosítási algoritmusok használatával. Végigvezetjük a fájlok titkosításának és szükség esetén megfejtésének folyamatán.
+A mai összekapcsolt világban a fájlok titkosítása elengedhetetlen. Az Aspose.Cells for Java lehetővé teszi Excel-fájlok titkosítását iparági szabványos titkosítási algoritmusok használatával. Végigvezetjük a fájlok titkosításának és szükség esetén megfejtésének folyamatán.
 
 ## Adatok érvényesítése
 Az adatok integritásának biztosítása kulcsfontosságú. Megvizsgáljuk, hogyan használhatjuk az adatellenőrzési szabályokat a hibás adatbevitel megelőzésére. Az Aspose.Cells for Java segítségével olyan adatellenőrzési szabályokat állíthat be, amelyek meghatározott feltételekre korlátozzák az adatbevitelt, így biztosítva, hogy Excel-lapjai pontosak és hibamentesek maradjanak.
@@ -25,7 +25,7 @@ Az adatok integritásának biztosítása kulcsfontosságú. Megvizsgáljuk, hogy
 ### [Excel jelszavas védelem](./excel-password-protection/)
 Ismerje meg, hogyan javíthatja az adatbiztonságot az Excel jelszavas védelemmel az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal az adatok maximális bizalmas kezeléséért.
 ### [Cellzárási stratégiák](./cell-locking-strategies/)
-Tanuljon meg hatékony cellazárolási stratégiákat az Aspose.Cells for Java használatával. Növelje az adatok biztonságát és integritását az Excel-fájlokban lépésről lépésre.
+Tanuljon meg hatékony cellazárolási stratégiákat az Aspose.Cells for Java használatával. Fokozza az adatok biztonságát és integritását az Excel-fájlokban lépésről lépésre.
 ### [Munkafüzet titkosítási módszerei](./workbook-encryption-methods/)
 Növelje az adatbiztonságot az Aspose.Cells segítségével a Java munkafüzet titkosításhoz. Ismerje meg az Excel-munkafüzetek titkosítását lépésről lépésre.
 ### [Adatmaszkolási technikák](./data-masking-techniques/)

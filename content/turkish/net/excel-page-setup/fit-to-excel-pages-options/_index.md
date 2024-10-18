@@ -2,7 +2,7 @@
 title: Excel Sayfalarına Sığdırma Seçenekleri
 linktitle: Excel Sayfalarına Sığdırma Seçenekleri
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET ile Fit to Excel Pages seçeneklerini nasıl kullanacağınızı öğrenin ve verilerinizi kolay adım adım bir kılavuzda güzel bir şekilde sunun.
+description: Aspose.Cells for .NET ile Fit to Excel Pages seçeneklerini nasıl kullanacağınızı öğrenin ve verilerinizi kolay adım adım bir kılavuzla güzel bir şekilde sunun.
 type: docs
 weight: 30
 url: /tr/net/excel-page-setup/fit-to-excel-pages-options/
@@ -43,7 +43,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Artık Aspose.Cells ile kodlamaya başlamanız için ortamı hazırladınız!
+Artık Aspose.Cells ile kodlamaya başlamanın zeminini hazırladık!
 
 Excel sayfalarınızı biçimlendirmeye hazır mısınız? Süreci adım adım inceleyelim.
 
@@ -54,9 +54,9 @@ Excel sayfalarınızı biçimlendirmeye hazır mısınız? Süreci adım adım i
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+// Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -69,7 +69,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```csharp
 // Çalışma sayfasının uzunluğunun kaç sayfaya kadar uzanacağının ayarlanması
 worksheet.PageSetup.FitToPagesTall = 1;
-// Çalışma sayfasının genişliğinin kaç sayfaya kadar uzanacağını ayarlama
+// Çalışma sayfasının genişliğinin yayılacağı sayfa sayısının ayarlanması
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

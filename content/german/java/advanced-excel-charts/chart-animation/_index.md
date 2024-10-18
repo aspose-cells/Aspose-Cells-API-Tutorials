@@ -16,9 +16,9 @@ In diesem Tutorial erfahren Sie, wie Sie mit der Aspose.Cells-API für Java dyna
 
 Bevor wir mit der Erstellung von Diagrammanimationen beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.Cells für Java: Stellen Sie sicher, dass Sie die Bibliothek Aspose.Cells für Java installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells für Java: Stellen Sie sicher, dass Sie die Bibliothek Aspose.Cells für Java installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/cells/java/).
 
-2. Java-Entwicklungsumgebung: Auf Ihrem System sollte eine Java-Entwicklungsumgebung eingerichtet sein.
+2. Java-Entwicklungsumgebung: Sie sollten auf Ihrem System eine Java-Entwicklungsumgebung eingerichtet haben.
 
 Beginnen wir nun Schritt für Schritt mit der Erstellung von Diagrammanimationen.
 
@@ -66,7 +66,7 @@ chart.getChartObject().setAnimationDuration(1000); // Dauer der Animation in Mil
 chart.getChartObject().setAnimationDelay(500);    // Verzögerung vor dem Start der Animation (Millisekunden)
 ```
 
-## Schritt 5: Speichern der Excel-Arbeitsmappe
+## Schritt 5: Speichern Sie die Excel-Arbeitsmappe
 
 Vergessen Sie nicht, die geänderte Arbeitsmappe mit den Diagrammanimationseinstellungen zu speichern:
 
@@ -82,7 +82,7 @@ In diesem Tutorial haben wir gelernt, wie man Diagrammanimationen mit der Aspose
 
 ### Wie kann ich den Animationstyp ändern?
 
- Um den Animationstyp zu ändern, verwenden Sie die`setAnimationType` Methode auf dem Diagrammobjekt. Sie können aus verschiedenen Typen wählen, wie`SLIDE`, `FADE` , Und`GROW_SHRINK`.
+ Um den Animationstyp zu ändern, verwenden Sie die`setAnimationType` Methode auf dem Diagrammobjekt. Sie können aus verschiedenen Typen wählen, wie`SLIDE`, `FADE` Und`GROW_SHRINK`.
 
 ### Kann ich die Dauer der Animation anpassen?
 
@@ -90,4 +90,4 @@ In diesem Tutorial haben wir gelernt, wie man Diagrammanimationen mit der Aspose
 
 ### Was ist der Zweck der Animationsverzögerung?
 
- Die Animationsverzögerung bestimmt die Zeitspanne, bevor die Diagrammanimation startet. Verwenden Sie die`setAnimationDelay`Methode, um die Verzögerung in Millisekunden einzustellen.
+ Die Animationsverzögerung bestimmt die Zeitspanne, bevor die Diagrammanimation startet. Verwenden Sie die`setAnimationDelay` Methode, um die Verzögerung in Millisekunden einzustellen.

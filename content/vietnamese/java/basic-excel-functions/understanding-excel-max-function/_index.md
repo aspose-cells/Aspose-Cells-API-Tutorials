@@ -94,9 +94,9 @@ Hàm MAX tìm giá trị số lớn nhất trong một phạm vi, trong khi hàm
 
 Có, bạn có thể. Bạn có thể kết hợp hàm MAX với các hàm logic như IF để tìm giá trị lớn nhất dựa trên các điều kiện cụ thể.
 
-### Tôi phải xử lý lỗi như thế nào khi sử dụng hàm MAX trong Aspose.Cells?
+### Làm thế nào để xử lý lỗi khi sử dụng hàm MAX trong Aspose.Cells?
 
-Bạn có thể sử dụng khối try-catch để xử lý các trường hợp ngoại lệ có thể phát sinh khi sử dụng hàm MAX. Kiểm tra dữ liệu không phải số trong phạm vi trước khi áp dụng hàm để tránh lỗi.
+Bạn có thể sử dụng khối try-catch để xử lý các ngoại lệ có thể phát sinh khi sử dụng hàm MAX. Kiểm tra dữ liệu không phải số trong phạm vi trước khi áp dụng hàm để tránh lỗi.
 
 ### Aspose.Cells for Java có phù hợp để làm việc với các tệp Excel lớn không?
 

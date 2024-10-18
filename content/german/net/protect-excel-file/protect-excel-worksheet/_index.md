@@ -18,7 +18,7 @@ Bevor wir beginnen, müssen Sie sicherstellen, dass Sie über Folgendes verfüge
 1. Visual Studio installiert: Sie benötigen eine Entwicklungsumgebung. Visual Studio ist eine beliebte Wahl für .NET-Entwickler.
 2.  Aspose.Cells-Bibliothek: Laden Sie die Aspose.Cells-Bibliothek für .NET herunter und installieren Sie sie. Sie erhalten sie[Hier](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung helfen Ihnen, die Konzepte schneller zu erfassen.
-4. Excel-Installation (optional): Obwohl dies nicht unbedingt erforderlich ist, kann die Installation von Excel Ihnen dabei helfen, Ihre Ergebnisse problemlos zu überprüfen.
+4. Excel-Installation (optional): Obwohl die Installation von Excel nicht unbedingt erforderlich ist, kann sie Ihnen dabei helfen, Ihre Ergebnisse einfach zu überprüfen.
 
 Nachdem wir nun das Wesentliche abgedeckt haben, stürzen wir uns in den Code!
 
@@ -35,7 +35,7 @@ Diese Namespaces bieten Zugriff auf die Dateiverwaltung und die Funktionen inner
 
 Lassen Sie uns nun den Vorgang zum Schützen eines Excel-Arbeitsblatts in überschaubare Schritte unterteilen.
 
-## Schritt 1: Dokumentverzeichnis definieren
+## Schritt 1: Definieren Sie das Dokumentverzeichnis
 
 In diesem ersten Schritt definieren Sie den Pfad zum Verzeichnis, in dem Ihre Excel-Dokumente gespeichert sind. Dieses Verzeichnis ist wichtig, um Ihre Excel-Dateien zu finden und zu speichern.
 
@@ -77,7 +77,7 @@ Diese Zeile greift auf das erste Arbeitsblatt in der Excel-Datei zu. Wenn Sie ei
 
 ## Schritt 5: Schützen Sie das Arbeitsblatt
 
-Jetzt kommt der Kernteil: das Schützen des Arbeitsblatts. Aspose.Cells ermöglicht es Ihnen, verschiedene Schutzarten festzulegen. In unserem Code schützen wir das Blatt vollständig mit einem Passwort.
+Jetzt kommt der Kernteil: der Schutz des Arbeitsblatts. Aspose.Cells ermöglicht es Ihnen, verschiedene Schutzarten festzulegen. In unserem Code schützen wir das Blatt vollständig mit einem Passwort.
 
 ```csharp
 worksheet.Protect(ProtectionType.All, "aspose", null);

@@ -13,7 +13,7 @@ Avez-vous déjà essayé d'imprimer une feuille Excel et de gérer les dimension
 
 ## Prérequis 
 
-Avant d’aborder la magie du codage, rassemblons ce dont vous avez besoin pour commencer :
+Avant d'aborder la magie du codage, rassemblons ce dont vous avez besoin pour commencer :
 
 1. Compréhension de base de C# : vous devez avoir une compréhension de base de C#. Si vous débutez en programmation, ne vous inquiétez pas ! Nous allons vous expliquer les choses simplement.
 2.  Bibliothèque Aspose.Cells : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée sur votre ordinateur. Vous pouvez la télécharger à partir de[ce lien](https://releases.aspose.com/cells/net/).
@@ -43,18 +43,18 @@ La première étape pour travailler avec Aspose.Cells consiste à créer un nouv
 Workbook wb = new Workbook();
 ```
 
-Cette ligne instancie un nouvel objet classeur, prêt à être manipulé. Vous ne verrez rien pour l'instant, mais notre toile est prête !
+Cette ligne instancie un nouvel objet classeur, prêt à être manipulé. Vous ne verrez rien pour l'instant, mais notre canevas est défini !
 
 ## Étape 2 : Accéder à la première feuille de travail
 
-Maintenant que nous avons notre classeur, nous devons accéder à une feuille de calcul spécifique qu'il contient. Une feuille de calcul est comme une page unique dans votre classeur, et c'est là que toute l'action se déroule.
+Maintenant que nous avons notre classeur, nous devons accéder à une feuille de calcul spécifique à l'intérieur de celui-ci. Une feuille de calcul est comme une page unique dans votre classeur, et c'est là que toute l'action se déroule.
 
 ```csharp
 //Accéder à la première feuille de calcul
 Worksheet ws = wb.Worksheets[0];
 ```
 
-Ici, nous récupérons la première feuille de calcul (index 0) de notre classeur. Vous pouvez considérer cela comme si vous tourniez la première page d'un livre. 
+Ici, nous récupérons la première feuille de calcul (index 0) de notre classeur. Vous pouvez l'envisager comme si vous tourniez la première page d'un livre. 
 
 ## Étape 3 : définir le format du papier et obtenir les dimensions
 

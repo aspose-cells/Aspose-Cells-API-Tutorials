@@ -9,11 +9,11 @@ url: /zh/net/excel-display-settings-csharp-tutorials/display-and-hide-row-column
 ---
 ## 介绍
 
-确保您的 Excel 电子表格看起来专业至关重要，尤其是在与同事或客户共享时。干净、无干扰的电子表格通常可以带来更清晰的沟通和更好的数据呈现。Excel 表格经常被忽视的功能之一是行和列标题。在某些情况下，您可能希望隐藏这些标题，以便让查看者的注意力完全集中在数据上。使用 Aspose.Cells for .NET，这样做比您想象的要顺利。让我们逐步了解如何在工作表中显示和隐藏行列标题。
+确保您的 Excel 电子表格看起来专业至关重要，尤其是在与同事或客户共享时。干净、无干扰的电子表格通常可以带来更清晰的沟通和更好的数据呈现。Excel 表格经常被忽视的功能之一是行和列标题。在某些情况下，您可能希望隐藏这些标题，以便让查看者的注意力完全集中在数据上。使用 Aspose.Cells for .NET，这样做比您想象的要顺利。让我们逐步深入研究如何在工作表中显示和隐藏行列标题。
 
 ## 先决条件
 
-在开始编写代码之前，请确保您已准备好开始编写代码所需的一切：
+在开始编写代码之前，请确保您已准备好开始工作所需的一切：
 
 1.  Aspose.Cells for .NET：确保您已下载并安装了 Aspose.Cells for .NET 库。您可以从以下位置获取[这里](https://releases.aspose.com/cells/net/).
 2. 开发环境：您应该设置一个 .NET 开发环境。Visual Studio 非常适合此用途。
@@ -93,7 +93,7 @@ worksheet.IsRowColumnHeadersVisible = false;
 workbook.Save(dataDir + "output.xls");
 ```
 
-此行将更改保存到名为`output.xls`在同一目录中。这可确保保留原始`book1.xls`在使用新版本时保持完整。
+此行将更改保存到名为`output.xls`在同一目录中。这可确保您保留原始`book1.xls`在使用新版本时保持完整。
 
 ## 步骤 7：关闭文件流
 

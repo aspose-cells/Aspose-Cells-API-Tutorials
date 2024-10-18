@@ -89,7 +89,7 @@ dsCollection.Add(signature);
 workbook.SetDigitalSignature(dsCollection);
 ```
 
-在這裡，我們創建一個`DigitalSignatureCollection`，新增我們的簽名，然後將此集合設定到工作簿中。這就是我們將簽名附加到 Excel 檔案的方式。
+在這裡，我們創建一個`DigitalSignatureCollection`，新增我們的簽名，然後將此集合設定到工作簿中。這就是我們將簽名附加到 Excel 檔案的方法。
 
 ## 第 6 步：儲存已簽署的工作簿
 
@@ -104,7 +104,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## 結論
 
-現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將 Xades 簽章新增至您的 Excel 檔案。此過程不僅增強了文件的安全性，還透過確保文件的真實性與使用者建立了信任。 
+現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將 Xades 簽章新增至您的 Excel 檔案。此過程不僅增強了文件的安全性，還透過確保文件的真實性與使用者建立了信任。 
 數位簽章是現代文件管理的重要組成部分，借助 Aspose.Cells 的強大功能，您可以在應用程式中輕鬆實現它們。
 
 ## 常見問題解答

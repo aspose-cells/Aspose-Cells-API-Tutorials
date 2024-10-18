@@ -9,15 +9,15 @@ url: /tr/net/excel-workbook/extract-embedded-mol-file/
 ---
 ## giriiş
 
-Hiç kendinizi gömülü dosyaları, özellikle de MOL dosyalarını bir Excel elektronik tablosundan çıkarma ihtiyacı içinde buldunuz mu? Bu zor bir iş, değil mi? Ama endişelenmeyin! .NET için Aspose.Cells'in yardımıyla, bu görünüşte karmaşık görevi parkta yürüyüşe dönüştürebiliriz. Bu eğitimde, güçlü Aspose.Cells kitaplığını kullanarak bir Excel dosyasından MOL dosyalarını nasıl çıkaracağınız konusunda adım adım size rehberlik edeceğiz.
+Hiç gömülü dosyaları, özellikle de MOL dosyalarını bir Excel elektronik tablosundan çıkarmanız gerektiğini fark ettiniz mi? Bu zor bir iş, değil mi? Ama endişelenmeyin! .NET için Aspose.Cells'in yardımıyla, bu görünüşte karmaşık görevi parkta yürüyüşe dönüştürebiliriz. Bu eğitimde, güçlü Aspose.Cells kitaplığını kullanarak bir Excel dosyasından MOL dosyalarını nasıl çıkaracağınız konusunda adım adım size rehberlik edeceğiz.
 
 ## Ön koşullar
 
 Çıkarma sürecine dalmadan önce, takip etmek için tam donanımlı olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
 
-- C# Temel Bilgisi: C# ile ilgili biraz bilgi sahibi olmak çok işe yarayacaktır. Yeni başlıyor olsanız bile, hızınızı koruyabilmelisiniz.
+- Temel C# Bilgisi: C# ile ilgili biraz bilgi sahibi olmak çok işe yarayacaktır. Yeni başlıyor olsanız bile, hızınızı koruyabilmelisiniz.
 - Visual Studio: Sisteminizde Visual Studio'nun yüklü olması gerekir. C# kodunuzu yazmak ve çalıştırmak için gereklidir.
--  Aspose.Cells for .NET: Henüz indirmediyseniz şuraya gidin:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/) ve en son sürümü edinin.
+- Aspose.Cells for .NET: Henüz indirmediyseniz şuraya gidin:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/) ve en son sürümü edinin.
 - .NET Framework: Uyumlu bir .NET Framework sürümünün yüklü olduğundan emin olun.
 -  Gömülü MOL Nesneleri İçeren Bir Excel Dosyası: Örneğimiz için şunu kullanacağız:`EmbeddedMolSample.xlsx`Bu dosyanın çıkarılmaya hazır olduğundan emin olun.
 
@@ -48,7 +48,7 @@ using System.IO;
 
 Artık projeniz Aspose.Cells kütüphanesinin işlevlerini kullanabilir durumda olmalı.
 
-## Adım 1: Ortamı Ayarlama
+## Adım 1: Ortamı Kurma
 
 Artık gerekli paketleri içe aktardığımıza göre, MOL dosyalarını çıkarmak için ortamımızı ayarlayalım.
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Bu kod parçacığıyla, şunu kullanıyoruz:`foreach` çalışma kitabımızdaki her sayfayı dolaşacak döngü. Erişim yoluyla`OleObjects`koleksiyon, o belirli sayfadaki tüm gömülü nesnelere erişim sağlayabiliriz. 
+ Bu kod parçacığıyla, şunu kullanıyoruz:`foreach` çalışma kitabımızdaki her sayfayı dolaşacak döngü. Erişim yoluyla`OleObjects` koleksiyon, o belirli sayfadaki tüm gömülü nesnelere erişim sağlayabiliriz. 
 
 ## Adım 4: OLE Nesnelerini Çıkarın
 
@@ -109,7 +109,7 @@ Bu yaklaşımda:
 - Her OLE nesnesi için FileStream kullanarak yeni bir dosya oluşturuyoruz.
 - Daha sonra gömülü veriyi bu dosyaya yazıp akışı kapatıyoruz.
 
-## Adım 5: Yürütmeyi Onaylayın
+## Adım 5: Uygulamayı Onaylayın
 
 Çıkarım mantığınız tamamlandıktan sonra, çıkarma işleminizin başarılı bir şekilde yürütüldüğünü doğrulamak iyi bir uygulamadır:
 
@@ -121,7 +121,7 @@ Bu basit satır, tüm çıkarma işleminiz sorunsuz bir şekilde tamamlandığı
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasından gömülü MOL dosyalarını başarıyla çıkardınız. Şimdi yeni edindiğiniz becerilerinizi alıp Excel sayfalarından nesne dosyaları çıkarmanız gereken diğer senaryolara uygulayabilirsiniz. Bu yöntem yalnızca etkili olmakla kalmaz, aynı zamanda çeşitli Excel ile ilgili işlemleri zahmetsizce halletmenin kapılarını da açar.
+Ve işte oldu! Aspose.Cells for .NET kullanarak gömülü MOL dosyalarını bir Excel dosyasından başarıyla çıkardınız. Şimdi yeni edindiğiniz becerilerinizi alıp Excel sayfalarından nesne dosyaları çıkarmanız gereken diğer senaryolara uygulayabilirsiniz. Bu yöntem yalnızca etkili olmakla kalmaz, aynı zamanda çeşitli Excel ile ilgili işlemleri zahmetsizce halletmenin kapılarını da açar.
 
 ## SSS
 
@@ -137,5 +137,5 @@ Kesinlikle! Aspose.Cells, yalnızca MOL dosyalarını değil, PDF'ler, resimler 
 ### Bu işlem için Visual Studio'ya sahip olmak gerekli mi?  
 Biz Visual Studio kullanarak gösterdik ama siz projenizi çalıştırmak için herhangi bir C# uyumlu IDE'yi kullanabilirsiniz.
 
-### Aspose.Cells için desteği nereden bulabilirim?  
+### Aspose.Cells için desteği nerede bulabilirim?  
  Erişebilirsiniz[Aspose destek forumları](https://forum.aspose.com/c/cells/9) rehberlik ve sorun giderme için.

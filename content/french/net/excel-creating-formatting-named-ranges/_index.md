@@ -33,6 +33,6 @@ En résumé, Aspose.Cells pour .NET fournit des outils puissants pour créer et 
 
 ## Tutoriels sur la création et la mise en forme de plages nommées dans Excel
 ### [Créer une plage de cellules nommée dans Excel](./create-named-range-of-cells/)
-Découvrez comment créer facilement une plage de cellules nommée dans Excel à l'aide d'Aspose.Cells pour .NET grâce à ce guide étape par étape. Optimisez la gestion de vos données.
+Découvrez comment créer facilement une plage de cellules nommée dans Excel à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape. Optimisez la gestion de vos données.
 ### [Formater les plages dans Excel](./format-ranges/)
 Maîtrisez l'art de la mise en forme des plages dans Excel à l'aide d'Aspose.Cells pour .NET grâce à notre guide complet étape par étape. Améliorez la présentation de vos données.

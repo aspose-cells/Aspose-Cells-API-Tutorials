@@ -19,7 +19,7 @@ url: /zh/net/excel-creating-formatting-named-ranges/
 
 如果你正在寻找创建命名范围的详细步骤，请查看我们的[在 Excel 中创建命名单元格区域](./create-named-range-of-cells/).
 
-## Excel 中的格式范围
+## Excel 中的格式化范围
 
 现在您已经了解了命名范围，让我们来谈谈格式化。您可能会想，“数据不就是数字吗？”但关键在于：您呈现数据的方式可以决定其清晰度和影响力。使用 Aspose.Cells for .NET 在 Excel 中格式化范围不仅仅是为了让事情看起来漂亮；它还可以让您的数据更容易理解。 
 

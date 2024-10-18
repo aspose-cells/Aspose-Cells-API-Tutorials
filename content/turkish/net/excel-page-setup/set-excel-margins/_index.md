@@ -15,7 +15,7 @@ Excel belgelerini programatik olarak yönetmeye gelince, Aspose.Cells for .NET, 
 
 Excel çalışma sayfalarında kenar boşluklarını ayarlamanın inceliklerine dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
-1. C# Temel Anlayışı: C#'a aşina olmak, kod parçacıklarını etkili bir şekilde anlamanıza ve uygulamanıza yardımcı olacaktır.
+1. C# Temel Anlayışı: C#'a aşinalık, kod parçacıklarını etkili bir şekilde anlamanıza ve uygulamanıza yardımcı olacaktır.
 2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Eğer sahip değilseniz, şuradan indirebilirsiniz:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
 3. IDE Kurulumu: Bir geliştirme ortamı kurduğunuzdan emin olun. Visual Studio gibi IDE'ler C# geliştirme için harikadır.
 4.  Lisans Anahtarı (İsteğe bağlı): Deneme sürümünü kullanabilmenize rağmen, geçici veya tam lisansa sahip olmak tüm özelliklerin kilidini açmanıza yardımcı olabilir. Lisanslama hakkında daha fazla bilgi edinebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

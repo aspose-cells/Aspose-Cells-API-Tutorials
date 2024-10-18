@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Este código te dará acceso a clases esenciales como`Workbook`, `Worksheet` , y`Range`, que necesitarás para manipular archivos de Excel.
+Este código te dará acceso a clases esenciales como`Workbook`, `Worksheet` y`Range`, que necesitarás para manipular archivos de Excel.
 
 Ahora que tenemos nuestros requisitos previos resueltos, dividamos el proceso en pasos fáciles de seguir.
 ## Paso 1: Configurar el directorio de salida
@@ -60,7 +60,7 @@ range1.Name = "MyRange";
 ```
 Aquí, hemos creado un rango desde las celdas E12 a I12 y le hemos dado el nombre "MiRango". Nombrar los rangos es esencial, ya que le permite hacer referencia a ellos fácilmente más adelante.
 ## Paso 6: Establezca los bordes del contorno para el rango
-A continuación, agreguemos un poco de estilo a nuestra gama estableciendo bordes de contorno. ¡Esto hace que sus datos sean visualmente atractivos!
+A continuación, agreguemos un poco de estilo a nuestro rango estableciendo bordes de contorno. ¡Esto hace que sus datos sean visualmente atractivos!
 ```csharp
 range1.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 range1.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
@@ -74,7 +74,7 @@ Ahora es el momento de completar nuestro rango con algunos datos.
 range1[0, 0].PutValue("Test");
 range1[0, 4].PutValue("123");
 ```
-Este fragmento de código rellena la primera celda del rango con el texto "Test" y la última celda con el número "123". Es como rellenar un formulario con información esencial.
+Este fragmento de código llena la primera celda del rango con el texto "Test" y la última celda con el número "123". Es como completar un formulario con información esencial.
 ## Paso 8: Crea otro rango
 continuación, necesitará otro rango donde copiará los datos de su primer rango.
 ```csharp

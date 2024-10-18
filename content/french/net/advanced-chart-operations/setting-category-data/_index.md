@@ -15,7 +15,7 @@ Lorsqu'il s'agit de gérer et de manipuler des fichiers Excel par programmation,
 
 Avant de plonger dans les détails, assurons-nous que vous avez tout ce dont vous avez besoin :
 
-1. Environnement de développement : assurez-vous de disposer d'un environnement de développement .NET. Visual Studio est recommandé.
+1. Environnement de développement : assurez-vous de disposer d'un environnement de développement .NET. Visual Studio est recommandé.
 2.  Bibliothèque Aspose.Cells pour .NET : téléchargez la dernière version de la bibliothèque à partir du[Page de téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Compréhension de base de C# : la familiarité avec les concepts de C# et d’Excel vous aidera à mieux appréhender le contenu.
 4.  Accès à la documentation : Avoir accès à[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/) peut fournir des informations supplémentaires si vous êtes bloqué. 
@@ -102,7 +102,7 @@ Ici, nous désignons chaque ensemble de données par des catégories telles que 
 
 Avec nos données en place, nous sommes prêts à ajouter un graphique pour représenter visuellement ces données.
 
-## Étape 7 : Ajout d’un graphique à la feuille de calcul
+## Étape 7 : Ajout d'un graphique à la feuille de calcul
 
 Maintenant, ajoutons un graphique de type « Colonne » sur la feuille de calcul.
 
@@ -120,7 +120,7 @@ Avant de pouvoir remplir le graphique avec des données, nous devons accéder à
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Avec cette étape, nous sommes tous prêts à ajouter notre série de données au graphique maintenant.
+Avec cette étape, nous sommes désormais prêts à ajouter notre série de données au graphique.
 
 ## Étape 9 : Ajout de séries de données au graphique
 

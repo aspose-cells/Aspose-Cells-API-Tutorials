@@ -1,5 +1,5 @@
 ---
-title: Tutorial C# Menambahkan Lembar Kerja Excel ke Buku Kerja yang Ada
+title: Tutorial Menambahkan Lembar Kerja Excel ke Buku Kerja yang Ada di C#
 linktitle: Tambahkan Lembar Kerja Excel ke Buku Kerja yang Ada
 second_title: Referensi API Aspose.Cells untuk .NET
 description: Pelajari cara menambahkan lembar kerja Excel ke buku kerja yang ada menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah terperinci ini.
@@ -55,12 +55,12 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
  Pada langkah ini, kita membuka`book1.xls`, yang seharusnya sudah ada di direktori yang Anda tentukan. Pastikan Anda memiliki berkas ini, atau proses akan menghasilkan kesalahan.
 
-## Langkah 3: Membuat Objek Buku Kerja
+## Langkah 3: Membuat Instansi Objek Buku Kerja
 
 Berikutnya, kita perlu membuat contoh kelas Workbook yang akan menampung berkas Excel kita.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,18 +69,18 @@ Dengan membuat contoh buku kerja dari aliran berkas kita, kita sekarang dapat me
 
 ## Langkah 4: Tambahkan Lembar Kerja Baru
 
-Berikut bagian yang menarik! Mari tambahkan lembar kerja baru ke buku kerja kita. Ini dilakukan dengan menggunakan`Add()` metode dari`Worksheets`koleksi.
+ Berikut bagian yang menarik! Mari tambahkan lembar kerja baru ke buku kerja kita. Ini dilakukan dengan menggunakan`Add()` metode dari`Worksheets`koleksi.
 
 ```csharp
 // Menambahkan lembar kerja baru ke objek Buku Kerja
 int i = workbook.Worksheets.Add();
 ```
 
- Dengan baris kode ini, kita menambahkan lembar baru, dan indeks lembar baru ini ditangkap dalam variabel`i`.
+Dengan baris kode ini, kita menambahkan lembar baru, dan indeks lembar baru ini ditangkap dalam variabel`i`.
 
 ## Langkah 5: Dapatkan Referensi ke Lembar Kerja yang Baru Ditambahkan
 
-Setelah kita membuat lembar kerja baru, penting untuk mendapatkan referensinya. Dengan cara ini, kita dapat menyesuaikan atributnya, seperti nama lembar kerja.
+Setelah kita membuat lembar kerja baru, penting untuk mendapatkan referensi ke lembar kerja tersebut. Dengan cara ini, kita dapat menyesuaikan atributnya, seperti nama lembar kerja.
 
 ```csharp
 // Mendapatkan referensi lembar kerja yang baru ditambahkan dengan meneruskan indeks lembar kerjanya

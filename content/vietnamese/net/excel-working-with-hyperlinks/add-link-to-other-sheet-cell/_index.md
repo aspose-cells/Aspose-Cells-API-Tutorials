@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Thay thế bằng thư mục c�
 ## Bước 3: Khởi tạo đối tượng Workbook
 Bây giờ bạn đã sẵn sàng tạo sổ làm việc Excel của mình! Đây là nơi lưu trữ tất cả các trang tính và dữ liệu của bạn.
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 Dòng này khởi tạo một bảng tính mới trong bộ nhớ, cung cấp cho bạn một trang giấy trắng để làm việc.
@@ -49,7 +49,7 @@ Dòng này khởi tạo một bảng tính mới trong bộ nhớ, cung cấp ch
 Trong Excel, mỗi sổ làm việc có thể chứa nhiều trang tính. Hãy thêm một trang tính vào sổ làm việc của chúng ta.
 ```csharp
 // Thêm một trang tính mới vào đối tượng Workbook
-workbook.Worksheets.Add(); //Thêm một bảng tính trống mới theo mặc định
+workbook.Worksheets.Add(); // Thêm một bảng tính trống mới theo mặc định
 ```
 Lệnh này sẽ thêm một bảng tính mới và bây giờ bảng tính của bạn sẽ chứa ít nhất một bảng tính để bạn thao tác.
 ## Bước 5: Truy cập trang tính đầu tiên

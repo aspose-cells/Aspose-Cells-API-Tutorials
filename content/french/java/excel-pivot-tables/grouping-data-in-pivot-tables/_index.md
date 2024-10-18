@@ -12,7 +12,7 @@ Les tableaux croisés dynamiques sont un outil puissant pour analyser et résume
 
 ## Introduction
 
-Les tableaux croisés dynamiques offrent un moyen flexible d'organiser et de résumer les données provenant de grands ensembles de données. Ils vous permettent de créer des vues personnalisées de vos données en les regroupant en catégories ou en hiérarchies. Cela peut vous aider à identifier plus facilement les tendances, les modèles et les valeurs aberrantes dans vos données.
+Les tableaux croisés dynamiques offrent un moyen flexible d'organiser et de résumer les données de grands ensembles de données. Ils vous permettent de créer des vues personnalisées de vos données en les regroupant en catégories ou en hiérarchies. Cela peut vous aider à identifier plus facilement les tendances, les modèles et les valeurs aberrantes dans vos données.
 
 ## Étape 1 : Créer un tableau croisé dynamique
 
@@ -93,7 +93,7 @@ Le regroupement de données dans des tableaux croisés dynamiques est une techni
 
 ### 1. Quel est le but des tableaux croisés dynamiques dans Excel ?
 
-Les tableaux croisés dynamiques dans Excel permettent de résumer et d'analyser de grands ensembles de données. Ils vous permettent de créer des vues personnalisées de vos données, facilitant ainsi l'identification de modèles et de tendances.
+Les tableaux croisés dynamiques dans Excel permettent de résumer et d'analyser de grands ensembles de données. Ils vous permettent de créer des vues personnalisées de vos données, facilitant ainsi l'identification des modèles et des tendances.
 
 ### 2. Comment puis-je personnaliser le regroupement des données dans un tableau croisé dynamique ?
 

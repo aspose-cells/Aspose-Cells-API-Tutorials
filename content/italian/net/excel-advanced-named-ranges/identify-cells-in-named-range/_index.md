@@ -84,7 +84,7 @@ Qui, stiamo ottenendo l'intervallo denominato dalla nostra cartella di lavoro. G
 Adesso arriva la parte interessante: recuperare informazioni sulla gamma a cui abbiamo appena avuto accesso. 
 
 ```csharp
-// Identificare le celle dell'intervallo.
+// Identificare le celle di intervallo.
 Console.WriteLine("First Row : " + range.FirstRow);
 Console.WriteLine("First Column : " + range.FirstColumn);
 Console.WriteLine("Row Count : " + range.RowCount);

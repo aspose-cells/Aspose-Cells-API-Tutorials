@@ -45,7 +45,7 @@ cells.importData(yourDataArray, 0, 0, importOptions);
 A kimutatástáblák hatékony módszert jelentenek az adatok Excelben történő összegzésére és elemzésére. Hozzon létre egy pivot táblát a munkafüzetünkben az adatelemzés megkönnyítése érdekében.
 
 ```java
-// Java kód pivot tábla létrehozásához
+// Java kód egy pivot tábla létrehozásához
 PivotTableCollection pivotTables = worksheet.getPivotTables();
 int index = pivotTables.add("A1", "E10", "PivotTable");
 PivotTable pivotTable = pivotTables.get(index);
@@ -53,7 +53,7 @@ PivotTable pivotTable = pivotTables.get(index);
 
 ## Pivot tábla mezők meghatározása
 
-Az adatelemzés hatékony végrehajtásához meg kell adnunk, hogy mely mezőket vegyük fel a pivot táblánkra. Ezek a mezők lehetnek importált adataink oszlopai.
+Az adatelemzés hatékony elvégzéséhez meg kell határoznunk, hogy mely mezőket vegyük fel a kimutatástáblázatunkba. Ezek a mezők lehetnek az importált adataink oszlopai.
 
 ```java
 // Java kód a pivot tábla mezőinek meghatározásához

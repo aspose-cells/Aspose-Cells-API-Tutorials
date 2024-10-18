@@ -2,7 +2,7 @@
 title: Criar pasta de trabalho compartilhada
 linktitle: Criar pasta de trabalho compartilhada
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda a criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET com este guia passo a passo simples. Perfeito para melhorar a colaboração em equipe.
+description: Aprenda a criar uma pasta de trabalho compartilhada usando Aspose.Cells for .NET com este guia passo a passo simples. Perfeito para melhorar a colaboração em equipe.
 type: docs
 weight: 70
 url: /pt/net/excel-workbook/create-shared-workbook/
@@ -47,7 +47,7 @@ using System.Text;
 
 E assim, você se preparou para o sucesso! Vamos percorrer as etapas de criação de uma pasta de trabalho compartilhada.
 
-Agora estamos chegando na parte suculenta! Veja como criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET, dividido em etapas fáceis de seguir.
+Agora estamos chegando na parte mais interessante! Veja como criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET, dividido em etapas fáceis de seguir.
 
 ## Etapa 1: Defina o diretório de saída
 

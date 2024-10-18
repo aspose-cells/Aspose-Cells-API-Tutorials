@@ -27,7 +27,7 @@ Antes de nos aprofundarmos nos detalhes técnicos, vamos entender por que automa
 
 ### 2. Inicializando Aspose.Cells
 
-Agora, vamos criar um aplicativo Java e inicializar Aspose.Cells:
+Agora, vamos criar um aplicativo Java e inicializar o Aspose.Cells:
 
 ```java
 import com.aspose.cells.Workbook;

@@ -78,13 +78,13 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
 ## 3단계: 셀에 접근
 
-이제 통합 문서를 열었으니 개별 셀을 손에 넣을 차례입니다. Worksheets 컬렉션에 액세스하여 이를 수행할 수 있습니다.
+이제 워크북을 열었으니 개별 셀을 손에 넣을 차례입니다. Worksheets 컬렉션에 액세스하여 이를 수행할 수 있습니다.
 
 ```csharp
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- 설명: 위 코드는 통합 문서의 첫 번째 워크시트(인덱스 0)를 대상으로 검색합니다.`Cells` 우리가 종속 항목을 추적하는 데 사용할 컬렉션입니다.
+설명: 위 코드는 통합 문서의 첫 번째 워크시트(인덱스 0)를 대상으로 검색합니다.`Cells` 우리가 종속 항목을 추적하는 데 사용할 컬렉션입니다.
 
 ## 4단계: 셀 선택
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- 설명: 이 루프는 배열의 각 종속 셀을 통과하여 이름을 출력합니다. 매우 간단합니다!`Console.ReadKey()` 키를 누를 때까지 콘솔 창이 열려 있도록 하여 출력을 읽을 시간을 제공합니다.
+설명: 이 루프는 배열의 각 종속 셀을 통과하여 이름을 출력합니다. 매우 간단합니다!`Console.ReadKey()` 키를 누를 때까지 콘솔 창이 열려 있도록 하여 출력을 읽을 시간을 제공합니다.
 
 ## 결론
 
@@ -133,7 +133,7 @@ Aspose.Cells는 .NET 애플리케이션에서 Excel 파일을 처리하기 위�
  네! Aspose에서 제공합니다.[무료 체험](https://releases.aspose.com/) 소프트웨어를 구매하기 전에 기능을 미리 체험해 볼 수 있습니다.
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?
-당신은 다음을 통해 지원을 구할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9)사용자와 전문가 커뮤니티가 도움을 줄 수 있는 곳입니다. 
+ 당신은 다음을 통해 지원을 구할 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9)사용자와 전문가 커뮤니티가 도움을 줄 수 있는 곳입니다. 
 
 ### Aspose.Cells는 대용량 Excel 파일에 적합합니까?
 물론입니다! Aspose.Cells는 대용량 Excel 파일을 효율적으로 처리하도록 설계되어 강력한 처리 및 성능을 제공합니다.

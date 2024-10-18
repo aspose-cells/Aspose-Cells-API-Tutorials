@@ -49,7 +49,7 @@ Per prima cosa, dobbiamo definire una directory in cui archiviare il nostro file
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // modifica il percorso desiderato.
 
-// Creare la directory se non è già presente.
+//Creare la directory se non è già presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -143,7 +143,7 @@ Sì, puoi ripetere il processo di blocco per qualsiasi altra riga, nello stesso 
 È possibile selezionare singolarmente le celle e applicare stili di blocco, in modo simile a come si blocca una riga.
 
 ### Aspose.Cells è gratuito?  
-Aspose.Cells è un prodotto commerciale, ma puoi provarlo con una versione di prova gratuita disponibile[Qui](https://releases.aspose.com/).
+ Aspose.Cells è un prodotto commerciale, ma puoi provarlo con una versione di prova gratuita disponibile[Qui](https://releases.aspose.com/).
 
 ### Ho bisogno di una connessione Internet per utilizzare Aspose.Cells?  
 No, Aspose.Cells è una libreria .NET e può funzionare offline una volta installata.

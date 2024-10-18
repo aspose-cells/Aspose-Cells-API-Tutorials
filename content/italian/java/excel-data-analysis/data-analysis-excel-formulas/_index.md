@@ -18,7 +18,7 @@ Per iniziare con Aspose.Cells per Java, devi configurare il tuo ambiente Java e 
 
 1.  Scarica Aspose.Cells: Visita[Aspose.Cells per Java](https://releases.aspose.com/cells/java/) per scaricare l'ultima versione della libreria.
 
-2. Aggiungi Aspose.Cells al tuo progetto: includi il file JAR Aspose.Cells nel percorso di build del tuo progetto Java.
+2. Aggiungi Aspose.Cells al tuo progetto: includi il file JAR Aspose.Cells nel percorso di compilazione del tuo progetto Java.
 
 Ora che il nostro ambiente è pronto, esploriamo alcune tecniche essenziali di analisi dei dati.
 

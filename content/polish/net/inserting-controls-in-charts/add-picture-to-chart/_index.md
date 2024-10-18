@@ -16,7 +16,7 @@ Czy masz dość nudnych wykresów, którym brakuje osobistego akcentu? Chcesz do
 Zanim przejdziemy do szczegółów kodowania, istnieje kilka warunków wstępnych, które musisz spełnić, aby wszystko poszło gładko:
 
 - Visual Studio: Tutaj będziesz pisać i uruchamiać swój kod .NET. Upewnij się, że masz go zainstalowanego.
--  Aspose.Cells dla .NET: Ta biblioteka będzie Ci potrzebna do pracy z plikami Excel. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Ta biblioteka będzie Ci potrzebna do pracy z plikami Excel. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 - Podstawowa znajomość języka C#: wprawdzie przeprowadzę Cię przez kod, ale znajomość podstaw języka C# sprawi, że wszystko stanie się jaśniejsze.
 
 ### Kroki instalacji
@@ -84,7 +84,7 @@ Upewnij się, że zdjęcie zostało zapisane w określonym katalogu.
 Teraz określmy, do którego wykresu dodamy nasz obraz. W tym przykładzie będziemy celować w pierwszy wykres na pierwszym arkuszu.
 
 ```csharp
-// W drugim arkuszu znajdziesz wykres projektanta.
+// drugim arkuszu znajdziesz wykres projektanta.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -145,13 +145,13 @@ W tym samouczku sprawdziliśmy, jak dodać odrobinę osobowości do wykresów Ex
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodać wiele zdjęć do jednego wykresu?
- Tak! Możesz zadzwonić`AddPictureInChart` Metodę tę możesz powtarzać wielokrotnie, aby dodać tyle zdjęć, ile chcesz.
+ Tak! Możesz zadzwonić`AddPictureInChart` Metodę tę powtarzaj wielokrotnie, aby dodać tyle zdjęć, ile chcesz.
 
 ### Jakie formaty obrazów obsługuje Aspose.Cells?
 Aspose.Cells obsługuje wiele formatów obrazów, w tym PNG, JPEG, BMP i GIF.
 
 ### Czy mogę dostosować położenie obrazu?
-Oczywiście! Współrzędne X i Y w`AddPictureInChart` Metoda ta pozwala na precyzyjne pozycjonowanie.
+ Oczywiście! Współrzędne X i Y w`AddPictureInChart` Metoda ta pozwala na precyzyjne pozycjonowanie.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
  Aspose.Cells oferuje bezpłatną wersję próbną, ale do korzystania z pełnych funkcji wymagana jest licencja. Cennik można znaleźć[Tutaj](https://purchase.aspose.com/buy).

@@ -52,7 +52,7 @@ In plaats van "Your Output Directory" kunt u een daadwerkelijk pad opgeven waar 
  Nu wilt u beginnen met het maken van een nieuw exemplaar van de`Workbook` klasse. Dit is de fundamentele bouwsteen voor alle Excel-bewerkingen met Aspose.Cells.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -147,7 +147,7 @@ workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 
 En daar heb je het! Je hebt zojuist een aangepaste grafiek gemaakt met Aspose.Cells voor .NET. Met slechts een paar regels code kun je nu je gegevens effectief visualiseren, waardoor rapporten en presentaties veel aantrekkelijker worden. 
 
-Vergeet niet dat de kracht van grafieken ligt in hun vermogen om een verhaal te vertellen, om complexe data in één oogopslag begrijpelijk te maken. Ga dus aan de slag, experimenteer met verschillende datasets en grafiektypen en laat uw data het werk doen!
+Vergeet niet dat de kracht van grafieken ligt in hun vermogen om een verhaal te vertellen, om complexe data in één oogopslag begrijpelijk te maken. Dus ga je gang, experimenteer met verschillende datasets en grafiektypen en laat je data het werk doen!
 
 ## Veelgestelde vragen
 

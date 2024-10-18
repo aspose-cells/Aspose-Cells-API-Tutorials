@@ -41,7 +41,7 @@ using Aspose.Cells;
 
 让我们将其分解为清晰的分步教程，以便您轻松跟进。准备好了吗？开始吧！
 
-## 步骤 1：设置源目录和输出目录
+## 步骤 1：设置源和输出目录
 
 首先，您需要定义源目录和输出目录。这些目录将保存您的输入文件以及您想要保存任何输出的位置。操作方法如下：
 
@@ -98,7 +98,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 ## 常见问题解答
 
 ### 什么是 Aspose.Cells？
-Aspose.Cells 是一个.NET 库，旨在以编程方式管理 Excel 电子表格文件，无需安装 Excel。
+Aspose.Cells 是一个.NET 库，旨在以编程方式管理 Excel 电子表格文件，而无需安装 Excel。
 
 ### 我可以在非Windows环境中使用Aspose.Cells吗？
 是的！Aspose.Cells 支持跨平台开发，因此您可以在各种有 .NET 的环境中工作。

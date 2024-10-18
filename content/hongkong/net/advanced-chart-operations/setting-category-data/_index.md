@@ -140,7 +140,7 @@ chart.NSeries.Add("A1:B4", true);
 chart.NSeries.CategoryData = "C1:C4";
 ```
 
-透過分配此範圍，我們告訴圖表哪些單元格對應於資料系列中的類別。如果沒有這一步，您的圖表將只是一組數字！
+透過分配此範圍，我們告訴圖表哪些單元格對應於我們的資料系列中的類別。如果沒有這一步，您的圖表將只是一組數字！
 
 ## 第11步：儲存Excel文件
 
@@ -164,7 +164,7 @@ Console.WriteLine("SettingCategoryData executed successfully.");
 
 ## 結論
 
-現在你就擁有了！您已使用 Aspose.Cells for .NET 成功為 Excel 工作簿中的圖表設定類別資料。這種方法的優點在於它允許您自動操作 Excel 文件，而無需在電腦上安裝 Excel。 
+現在你就得到它了！您已使用 Aspose.Cells for .NET 成功為 Excel 工作簿中的圖表設定類別資料。這種方法的優點在於它允許您自動操作 Excel 文件，而無需在電腦上安裝 Excel。 
 
 ## 常見問題解答
 

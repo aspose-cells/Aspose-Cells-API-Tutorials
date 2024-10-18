@@ -20,7 +20,7 @@ Excel 스프레드시트를 편집할 때 가장 유용한 기능 중 하나는 
 3. 기본 C# 지식: C#에 대한 기본적인 이해가 큰 도움이 됩니다.
 4. 프로젝트 설정: Visual Studio에서 새 C# 콘솔 애플리케이션을 만듭니다.
 
-완벽합니다. 다 준비되었습니다! 이제 코드의 핵심을 파헤쳐 보겠습니다.
+완벽합니다. 다 준비되었습니다! 이제 코드의 핵심을 파헤쳐 봅시다.
 
 ## 패키지 가져오기
 
@@ -41,7 +41,7 @@ Excel 파일 작업을 시작하기 전에 파일이 상주할 디렉토리를 �
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// 디렉토리가 없으면 새로 만듭니다.
+//디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -124,7 +124,7 @@ sheet.Protect(ProtectionType.All);
 마침내 튜토리얼의 마지막 단계인 통합 문서를 정의된 디렉터리에 저장하는 단계에 도달했습니다!
 
 ```csharp
-// Excel 파일을 저장합니다
+// Excel 파일을 저장하세요
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
@@ -142,11 +142,11 @@ Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들
 ### Excel 워크시트에서 특정 셀을 보호할 수 있습니까?  
 네, Aspose.Cells를 사용하면 편집 가능한 특정 범위를 정의하고 워크시트의 나머지 부분을 보호할 수 있습니다.
 
-### Aspose.Cells의 체험판이 있나요?  
+### Aspose.Cells의 평가판이 있나요?  
  물론입니다! 무료 체험판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells를 다른 프로그래밍 언어와 함께 사용할 수 있나요?  
-이 튜토리얼은 .NET에 초점을 맞추고 있지만 Aspose.Cells는 Java와 Cloud API를 포함한 여러 프로그래밍 언어로 사용할 수 있습니다.
+이 튜토리얼은 .NET에 초점을 맞추고 있지만 Aspose.Cells는 Java와 Cloud API를 포함한 여러 프로그래밍 언어로도 사용할 수 있습니다.
 
 ### Aspose.Cells에 대한 자세한 정보는 어디에서 볼 수 있나요?  
  전체 문서를 탐색할 수 있습니다.[여기](https://reference.aspose.com/cells/net/).

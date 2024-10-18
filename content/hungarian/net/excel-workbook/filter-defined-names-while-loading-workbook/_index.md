@@ -2,7 +2,7 @@
 title: Meghatározott nevek szűrése munkafüzet betöltése közben
 linktitle: Meghatározott nevek szűrése munkafüzet betöltése közben
 second_title: Aspose.Cells for .NET API Reference
-description: Ebből az átfogó útmutatóból megtudhatja, hogyan szűrheti a definiált neveket az Aspose.Cells for .NET segítségével munkafüzet betöltésekor.
+description: Ebből az átfogó útmutatóból megtudhatja, hogyan szűrheti ki a meghatározott neveket az Aspose.Cells for .NET segítségével munkafüzet betöltésekor.
 type: docs
 weight: 100
 url: /hu/net/excel-workbook/filter-defined-names-while-loading-workbook/
@@ -53,7 +53,7 @@ Ezután meg kell határoznunk, hogy milyen adatokat szeretnénk kiszűrni a munk
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-A hullám (~) operátor azt jelzi, hogy a definiált neveket ki akarjuk zárni a betöltési folyamatból. Ez döntő fontosságú, ha szeretné csökkenteni a munkaterhelését, és elkerülni a szükségtelen adatokat, amelyek megnehezíthetik a feldolgozást.
+A hullám (~operátor azt jelzi, hogy a definiált neveket ki akarjuk zárni a betöltési folyamatból. Ez döntő fontosságú, ha szeretné csökkenteni a munkaterhelését, és elkerülni a szükségtelen adatokat, amelyek megnehezíthetik a feldolgozást.
 
 ## 3. lépés: Töltse be a munkafüzetet
 
@@ -89,7 +89,7 @@ Ezzel a sorral egyértelműen jelzi, hogy a művelet problémamentesen befejező
 
 És megvan! A definiált nevek szűrése munkafüzet betöltésekor az Aspose.Cells for .NET segítségével néhány egyszerű lépéssel megvalósítható. Ez a folyamat rendkívül hasznos olyan esetekben, amikor egyszerűsíteni kell az adatfeldolgozást, vagy meg kell akadályozni, hogy a szükségtelen adatok befolyásolják a számításokat.
 
-Az útmutató követésével magabiztosan betöltheti Excel-fájljait, miközben szabályozhatja, hogy mely adatokat kívánja kizárni. Függetlenül attól, hogy nagy adatkészleteket kezelő alkalmazásokat fejleszt, vagy konkrét üzleti logikát valósít meg, ennek a funkciónak az elsajátítása csak fejleszti Excel-kezelési készségeit.
+Az útmutató követésével magabiztosan betöltheti Excel-fájljait, miközben szabályozhatja, hogy mely adatokat kívánja kizárni. Függetlenül attól, hogy nagy adatkészleteket kezelő alkalmazásokat fejleszt, vagy konkrét üzleti logikát valósít meg, ennek a funkciónak az elsajátítása csak javítja Excel-kezelési készségeit.
 
 ## GYIK
 

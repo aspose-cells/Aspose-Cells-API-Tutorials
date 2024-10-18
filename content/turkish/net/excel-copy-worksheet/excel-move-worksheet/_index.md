@@ -18,7 +18,7 @@ Konuya dalmadan önce birkaç şeyi yerli yerine oturtalım:
 1. .NET Framework: Makinenizde .NET Framework'ün uyumlu bir sürümünün yüklü olduğundan emin olun. Aspose.Cells çeşitli sürümleri destekler, bu nedenle ayrıntılar için belgelerine bakın.
 2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesini indirmeniz gerekecek. Bunu henüz yapmadıysanız, şurayı ziyaret edin:[indirme bağlantısı](https://releases.aspose.com/cells/net/) onu yakalamak için.
 3. Visual Studio veya Herhangi Bir IDE: .NET kodunuzu yazıp çalıştırabileceğiniz bir geliştirme ortamına sahip olun.
-4. C# Hakkında Temel Bilgi: C# programlamaya aşinalık son derece faydalı olacaktır, ancak yeniyseniz endişelenmeyin; sizi kodda yönlendireceğim!
+4. C# Hakkında Temel Bilgi: C# programlamaya aşina olmak çok faydalı olacaktır, ancak yeniyseniz endişelenmeyin; sizi kodda yönlendireceğim!
 5.  Örnek Excel Dosyası: İşlevselliği test etmek için basit bir Excel dosyasına sahip olun, örneğin:`book1.xls`, kullanıma hazır. Excel kullanarak bir tane oluşturabilir veya gerekirse bazı örnek dosyaları indirebilirsiniz.
 
 ## Paketleri İçe Aktarma
@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Açıklama: 
 
- Bu satır bir dize değişkeni ayırır`dataDir` Belgelerinizin dizinine giden yolu tutmak için. Değiştir`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın saklandığı gerçek yol ile. Birine yol tarifi vermek gibidir; kodunuza dosyaları tam olarak nerede arayacağını söylemeniz gerekir.
+Bu satır bir dize değişkeni ayırır`dataDir` Belgelerinizin dizinine giden yolu tutmak için. Değiştir`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın saklandığı gerçek yol ile. Birine yol tarifi vermek gibidir; kodunuza dosyaları tam olarak nerede arayacağını söylemeniz gerekir.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Açıklama:  
 
-Bu satır koleksiyondan ilk çalışma sayfasını alır. Programlamada dizinleme genellikle sıfırdan başlar, bu yüzden kullanırız`[0]`Bunu, kitabınızın ilk bölümünü seçmek, değişikliğe hazır hale getirmek olarak düşünün.
+ Bu satır koleksiyondan ilk çalışma sayfasını alır. Programlamada dizinleme genellikle sıfırdan başlar, bu yüzden kullanırız`[0]`Bunu, kitabınızın ilk bölümünü seçmek, değişikliğe hazır hale getirmek olarak düşünün.
 
 ## Adım 5: Çalışma Sayfasını Taşı
 

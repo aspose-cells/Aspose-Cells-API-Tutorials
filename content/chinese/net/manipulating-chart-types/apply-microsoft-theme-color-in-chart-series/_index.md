@@ -94,7 +94,7 @@ Chart chart = worksheet.Charts[0];
 chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 ```
 
-这类似于在装饰房间之前决定房间的外观和感觉——先设置基础，再添加细节。
+这类似于在装饰房间之前决定房间的外观和感觉——先设置基础，然后再添加细节。
 
 ## 步骤 6：创建单元格颜色对象
 
@@ -138,7 +138,7 @@ chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 workbook.Save(outputDir + "outputMicrosoftThemeColorInChartSeries.xlsx");
 ```
 
-您的 Excel 文件现在充满色彩和个性，已准备好展示！
+您的 Excel 文件现在充满色彩和个性，可以展示了！
 
 ## 步骤 10：确认信息
 
@@ -150,7 +150,7 @@ Console.WriteLine("MicrosoftThemeColorInChartSeries executed successfully.");
 
 ## 结论
 
-使用 Aspose.Cells for .NET 自定义图表既简单又强大。按照上述步骤，您可以轻松地将 Microsoft 主题颜色应用于您的图表系列，从而增强数据演示的视觉吸引力。这不仅可以使您的图表与您的品牌形象保持一致，还可以使信息更吸引您的受众。无论您是在为利益相关者准备报告还是起草演示文稿，这些小调整都可以产生巨大的影响。
+使用 Aspose.Cells for .NET 自定义图表既简单又强大。按照上述步骤，您可以轻松地将 Microsoft 主题颜色应用于您的图表系列，从而增强数据演示的视觉吸引力。这不仅可以使您的图表与您的品牌形象保持一致，还可以使信息更吸引您的受众。无论您是在为利益相关者准备报告还是起草演示文稿，这些小调整都可以带来巨大的变化。
 
 ## 常见问题解答
 

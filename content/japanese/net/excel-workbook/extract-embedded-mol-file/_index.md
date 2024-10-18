@@ -1,6 +1,6 @@
 ---
-title: 埋め込まれたMolファイルの抽出
-linktitle: 埋め込まれたMolファイルの抽出
+title: 埋め込まれたMolファイルを抽出する
+linktitle: 埋め込まれたMolファイルを抽出する
 second_title: Aspose.Cells for .NET API リファレンス
 description: Aspose.Cells for .NET を使用して、Excel ブックから埋め込まれた MOL ファイルを簡単に抽出する方法を学習します。
 type: docs
@@ -17,7 +17,7 @@ Excel スプレッドシートから埋め込みファイル、特に MOL ファ
 
 - C# の基礎知識: C# に少し慣れておくと、大いに役立ちます。始めたばかりでも、ついていけるはずです。
 - Visual Studio: システムに Visual Studio をインストールします。これは、C# コードの記述と実行に必要です。
--  Aspose.Cells for .NET: まだダウンロードしていない場合は、[Aspose.Cells ダウンロード ページ](https://releases.aspose.com/cells/net/)最新バージョンを入手してください。
+- Aspose.Cells for .NET: まだダウンロードしていない場合は、[Aspose.Cells ダウンロード ページ](https://releases.aspose.com/cells/net/)最新バージョンを入手してください。
 - .NET Framework: 互換性のあるバージョンの .NET Framework がインストールされていることを確認します。
 -  MOLオブジェクトが埋め込まれたExcelファイル: この例では、`EmbeddedMolSample.xlsx`抽出用にこのファイルを準備しておく必要があります。
 
@@ -135,7 +135,7 @@ Aspose.Cells for .NET は、.NET アプリケーション内で Excel ファイ�
 無料トライアルもありますが、フル機能を使用するにはライセンスが必要です。[こちらから購入](https://purchase.aspose.com/buy).
 
 ### このプロセスには Visual Studio が必要ですか?  
-ここでは Visual Studio を使用してデモを行いましたが、プロジェクトを実行するには C# と互換性のある任意の IDE を使用できます。
+ここでは Visual Studio を使用して説明しましたが、プロジェクトを実行するには C# と互換性のある任意の IDE を使用できます。
 
 ### Aspose.Cells のサポートはどこで見つかりますか?  
 アクセスできます[Aspose サポート フォーラム](https://forum.aspose.com/c/cells/9)ガイダンスとトラブルシューティングのため。

@@ -48,9 +48,9 @@ string sourceDir = "Your Document Directory"; // Zadejte adresář dokumentů
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- V tomto kroku deklarujeme proměnnou`sourceDir` který ukazuje na umístění vašeho souboru Excel. Poté vytvoříme novou instanci`Workbook`třídy k načtení tohoto souboru. Je to jako otevřít knihu, kterou si chceme přečíst!
+ V tomto kroku deklarujeme proměnnou`sourceDir` který ukazuje na umístění vašeho souboru Excel. Poté vytvoříme novou instanci`Workbook` třídy k načtení tohoto souboru. Je to jako otevřít knihu, kterou si chceme přečíst!
 
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 
 S načteným sešitem je dalším krokem přístup k prvnímu listu.
 
@@ -58,7 +58,7 @@ S načteným sešitem je dalším krokem přístup k prvnímu listu.
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Tady se dotýkáme`Worksheets` sběr našeho sešitu a přístup k prvnímu listu (který je obvykle index 0). Tento krok je zásadní, protože všechny naše filtrovací akce budou provedeny na tomto listu.
+ Tady se dotýkáme`Worksheets`sběr našeho sešitu a přístup k prvnímu listu (který je obvykle index 0). Tento krok je zásadní, protože všechny naše filtrovací akce budou provedeny na tomto listu.
 
 ## Krok 3: Definujte parametry filtru
 
@@ -82,11 +82,11 @@ string outputDir = "Your Document Directory"; // Zadejte svůj výstupní adres�
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Nakonec určíme, kam chceme filtrovaný sešit uložit pomocí`Save` metoda. Můžete mu dát nový název (v tomto případě`outputAdvancedFilter.xlsx`), aby originál zůstal neporušený.
+ Nakonec určíme, kam chceme filtrovaný sešit uložit pomocí`Save` metoda. Můžete mu dát nový název (v tomto případě`outputAdvancedFilter.xlsx`), aby originál zůstal neporušený.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste použili pokročilý filtr na list aplikace Excel pomocí Aspose.Cells pro .NET. Tento podrobný průvodce vám poskytl rámec, který potřebujete, abyste mohli využít sílu manipulace s daty ve vašich vlastních aplikacích. Stejně jako ten kouzelník nyní víte, jak zmizet nepodstatná data.
+tady to máte! Úspěšně jste použili pokročilý filtr na list aplikace Excel pomocí Aspose.Cells pro .NET. Tento podrobný průvodce vám poskytl rámec, který potřebujete, abyste mohli využít sílu manipulace s daty ve vašich vlastních aplikacích. Stejně jako ten kouzelník nyní víte, jak zmizet nepodstatná data.
 
 ## FAQ
 
@@ -100,7 +100,7 @@ Ne, Aspose.Cells funguje nezávisle a nevyžaduje instalaci aplikace Microsoft E
  Ano, Aspose.Cells můžete vyzkoušet zdarma stažením zkušební verze z[zde](https://releases.aspose.com/).
 
 ### Mohu získat podporu, pokud narazím na problémy?
-Absolutně! Podporu komunity můžete získat na[Aspose fórum](https://forum.aspose.com/c/cells/9).
+ Absolutně! Podporu komunity můžete získat na[Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 ### Jak získám dočasnou licenci pro Aspose.Cells?
  Na jejich nákupní stránce můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/). 

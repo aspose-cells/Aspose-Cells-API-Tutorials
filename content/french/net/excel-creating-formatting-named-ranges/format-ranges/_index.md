@@ -31,7 +31,7 @@ using Aspose.Cells;
 using System.Drawing;r
 ```
 
- Le`Aspose.Cells` L'espace de noms contient toutes les classes dont nous aurons besoin pour manipuler les fichiers Excel.`System.Drawing` L'espace de noms nous aidera dans la gestion des couleurs, car à quoi sert le formatage sans certaines couleurs, n'est-ce pas ?
+ Le`Aspose.Cells` L'espace de noms contient toutes les classes dont nous aurons besoin pour manipuler les fichiers Excel.`System.Drawing` L'espace de noms nous aidera dans la gestion des couleurs, car à quoi sert le formatage sans quelques couleurs, n'est-ce pas ?
 
 Décomposons maintenant le processus de formatage des plages dans une feuille de calcul Excel en étapes claires et gérables.
 
@@ -43,7 +43,7 @@ Tout d’abord, vous devez créer une variable pour contenir le chemin où vous 
 string dataDir = "Your Document Directory"; // Précisez ici votre répertoire
 ```
 
-Explication : Cette ligne initialise un`dataDir` variable. Vous devez remplacer`"Your Document Directory"` avec le chemin d'accès réel sur votre machine où vous souhaitez enregistrer le fichier Excel. Considérez cela comme la préparation du terrain pour l'affichage de votre chef-d'œuvre !
+ Explication : Cette ligne initialise un`dataDir` variable. Vous devez remplacer`"Your Document Directory"` avec le chemin d'accès réel sur votre machine où vous souhaitez enregistrer le fichier Excel. Considérez cela comme la préparation du terrain pour l'affichage de votre chef-d'œuvre !
 
 ## Étape 2 : créer un nouveau classeur
 
@@ -53,7 +53,7 @@ Ensuite, nous allons créer une instance du classeur. Cela revient à ouvrir une
 Workbook workbook = new Workbook();
 ```
 
- Explication : Le`Workbook` La classe représente un fichier Excel. En l'instanciant, vous créez essentiellement un nouveau document Excel que vous pouvez manipuler.
+Explication : Le`Workbook` La classe représente un fichier Excel. En l'instanciant, vous créez essentiellement un nouveau document Excel que vous pouvez manipuler.
 
 ## Étape 3 : Accéder à la première feuille de travail
 
@@ -85,7 +85,7 @@ range.Name = "MyRange"; // Attribuer un nom à la plage
 
 Explication : Nommer votre gamme, c'est comme mettre une étiquette sur un pot : cela permet de se souvenir plus facilement de ce qu'il y a à l'intérieur !
 
-## Étape 6 : déclarer et créer un objet de style
+## Étape 6 : Déclarer et créer un objet de style
 
 Nous entrons maintenant dans la partie passionnante : le style ! Créons un objet de style que nous appliquerons à notre gamme.
 
@@ -102,7 +102,7 @@ Ensuite, nous allons spécifier les propriétés de police pour nos cellules.
 
 ```csharp
 stl.Font.Name = "Arial"; // Définir la police sur Arial
-stl.Font.IsBold = true; //Mettre la police en gras
+stl.Font.IsBold = true; // Mettre la police en gras
 ```
 
 Explication : Ici, nous définissons que nous voulons utiliser « Arial » comme police et la mettre en gras. Considérez cela comme une manière de donner de la force à votre texte !
@@ -134,11 +134,11 @@ Explication : nous remplissons la plage avec un jaune vif ! Un motif uni garan
 
 ```csharp
 StyleFlag flg = new StyleFlag();
-flg.Font = true; //Activer les attributs de police
+flg.Font = true; // Activer les attributs de police
 flg.CellShading = true; // Activer l'ombrage des cellules
 ```
 
- Explication : Le`StyleFlag` L'objet indique à la bibliothèque les propriétés de style que nous voulons appliquer, un peu comme cocher des cases sur une liste de tâches !
+Explication : Le`StyleFlag` L'objet indique à la bibliothèque les propriétés de style que nous voulons appliquer, un peu comme cocher des cases sur une liste de tâches !
 
 ## Étape 11 : Appliquer le style à la plage
 
@@ -174,7 +174,7 @@ Explication : Cette ligne affiche un message sur la console indiquant que notre 
 
 Dans ce didacticiel, nous avons parcouru les étapes de mise en forme des plages dans Excel à l'aide d'Aspose.Cells pour .NET. Que vous souhaitiez que vos données aient du texte en gras, des couleurs vives ou une structure essentielle au sein des plages, cette bibliothèque est là pour vous. De cette façon, vous pouvez transformer vos données de fades en grandioses avec quelques lignes de code !
 
- Au fur et à mesure que vous poursuivez votre parcours de programmation, n'hésitez pas à explorer davantage de fonctionnalités d'Aspose.Cells, car il offre une multitude de fonctionnalités pour travailler avec des fichiers Excel. Pour en savoir plus, consultez le[documentation](https://reference.aspose.com/cells/net/) pour libérer de nouveaux potentiels dans vos projets de développement !
+Au fur et à mesure que vous poursuivez votre parcours de programmation, n'hésitez pas à explorer davantage de fonctionnalités d'Aspose.Cells, car il offre une multitude de fonctionnalités pour travailler avec des fichiers Excel. Pour en savoir plus, consultez le[documentation](https://reference.aspose.com/cells/net/) pour libérer de nouveaux potentiels dans vos projets de développement !
 
 ## FAQ
 
@@ -182,7 +182,7 @@ Dans ce didacticiel, nous avons parcouru les étapes de mise en forme des plages
 Aspose.Cells est une bibliothèque puissante pour .NET qui permet aux développeurs de manipuler les fichiers Excel de manière transparente, parfaite pour créer et modifier des feuilles de calcul par programmation.
 
 ### Puis-je utiliser Aspose.Cells gratuitement ?
-Oui ! Aspose propose une version d'essai gratuite. Vous pouvez commencer à utiliser la bibliothèque et tester ses fonctionnalités avant de procéder à un achat. Découvrez la[essai gratuit](https://releases.aspose.com/).
+ Oui ! Aspose propose une version d'essai gratuite. Vous pouvez commencer à utiliser la bibliothèque et tester ses fonctionnalités avant de procéder à un achat. Découvrez la[essai gratuit](https://releases.aspose.com/).
 
 ### Comment appliquer plusieurs styles à une plage dans Excel ?
  Vous pouvez créer plusieurs`Style` objets et appliquez chacun d'eux en utilisant le`ApplyStyle` méthode avec leurs respectifs`StyleFlag`.

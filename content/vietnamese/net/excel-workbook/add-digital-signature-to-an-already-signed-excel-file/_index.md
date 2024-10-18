@@ -62,7 +62,7 @@ Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDi
 
 ## Bước 3: Tạo Bộ sưu tập chữ ký số
 
-Bây giờ, hãy tạo một bộ sưu tập chữ ký số. Bộ sưu tập này sẽ chứa tất cả chữ ký số mà bạn muốn thêm vào sổ làm việc.
+Bây giờ, hãy tạo một bộ sưu tập chữ ký số. Bộ sưu tập này sẽ chứa tất cả các chữ ký số mà bạn muốn thêm vào sổ làm việc.
 
 ```csharp
 // Tạo bộ sưu tập chữ ký số
@@ -113,7 +113,7 @@ Bằng cách thực hiện dòng này, về cơ bản bạn đang đính kèm ch
 Cuối cùng, bạn sẽ muốn lưu bảng tính đã sửa đổi vào thư mục đầu ra và giải phóng mọi tài nguyên đang được sử dụng.
 
 ```csharp
-// Lưu bảng tính và hủy bỏ nó.
+// Lưu bảng tính và xóa nó.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
@@ -128,7 +128,7 @@ Bước này đảm bảo rằng những thay đổi của bạn được lưu v
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
-Điều này cung cấp phản hồi cho biết thao tác của bạn đã thành công, điều này luôn tuyệt vời!
+Điều này cung cấp phản hồi cho biết hoạt động của bạn đã thành công, điều này luôn tuyệt vời!
 
 ## Phần kết luận
 

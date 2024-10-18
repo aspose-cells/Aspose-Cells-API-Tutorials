@@ -16,7 +16,7 @@ Wykresy to potężny sposób wizualizacji danych, a czasami dodanie etykiety mo�
 Zanim przejdziemy do szczegółów, omówmy, co jest potrzebne na początek:
 
 - Podstawowa wiedza o C#: Zrozumienie podstaw programowania w C# jest kluczowe. Jeśli jesteś początkującym, nie martw się – kroki będą jasne i zwięzłe.
-- Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz to zrobić za pomocą Menedżera pakietów NuGet w programie Visual Studio. Jeśli jeszcze tego nie zrobiłeś, sprawdź[link do pobrania](https://releases.aspose.com/cells/net/) dla biblioteki.
+-  Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz to zrobić za pomocą Menedżera pakietów NuGet w programie Visual Studio. Jeśli jeszcze tego nie zrobiłeś, sprawdź[link do pobrania](https://releases.aspose.com/cells/net/) dla biblioteki.
 - Visual Studio: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby pisać i wykonywać kod.
 
 ## Importuj pakiety
@@ -62,7 +62,7 @@ Następnie załadujemy plik Excela zawierający wykres, do którego chcemy doda�
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Tutaj używamy`Workbook` klasa z Aspose.Cells, aby otworzyć nasz plik Excel. To jak otwieranie drzwi, aby pozwolić kreatywności płynąć!
+ Tutaj używamy`Workbook`klasa z Aspose.Cells, aby otworzyć nasz plik Excel. To jak otwieranie drzwi, aby pozwolić kreatywności płynąć!
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -94,7 +94,7 @@ Teraz nadchodzi ekscytująca część – dodanie etykiety do wykresu. Określim
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Tutaj,`AddLabelInChart` zajmuje się tworzeniem etykiety na podstawie podanych przez Ciebie współrzędnych i wymiarów. To jak przymocowanie pięknej ramki wokół Twojej pracy artystycznej!
+ Tutaj,`AddLabelInChart`zajmuje się tworzeniem etykiety na podstawie podanych przez Ciebie współrzędnych i wymiarów. To jak przymocowanie pięknej ramki wokół Twojej pracy artystycznej!
 
 ## Krok 6: Ustaw tekst etykiety
 
@@ -149,7 +149,7 @@ I masz to! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspos
 Tak! Możesz zmienić czcionkę, kolor, rozmiar i inne właściwości etykiety, aby dopasować je do swoich potrzeb.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells jest produktem płatnym, jednak możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/)aby poznać jego funkcje.
+ Aspose.Cells jest produktem płatnym, jednak możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcje.
 
 ### A co jeśli chcę dodać wiele etykiet?
 Możesz powtórzyć kroki dodawania etykiet tyle razy, ile potrzebujesz, za każdym razem zmieniając ich położenie i tekst.

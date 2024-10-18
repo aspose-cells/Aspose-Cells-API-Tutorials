@@ -15,10 +15,10 @@ url: /fr/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 
 Avant de commencer à fractionner les volets comme un assistant de feuille de calcul, commençons par configurer correctement notre système. Voici ce dont vous aurez besoin :
 
--  Aspose.Cells pour .NET : assurez-vous de l'avoir téléchargé et installé. Si vous ne l'avez pas encore fait, téléchargez-le[ici](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells pour .NET : assurez-vous de l'avoir téléchargé et installé. Si ce n'est pas encore fait, téléchargez-le[ici](https://releases.aspose.com/cells/net/).
 - .NET Framework : ce guide suppose que vous travaillez dans un environnement .NET.
 - Un classeur Excel : nous utiliserons un exemple de fichier Excel pour montrer comment cette fonctionnalité fonctionne.
--  Une licence temporaire ou complète : Aspose.Cells nécessite une licence. Si vous ne faites que l'essayer, procurez-vous-en une[permis temporaire gratuit](https://purchase.aspose.com/temporary-license/) pour éviter les limitations d’évaluation.
+-  Une licence temporaire ou complète : Aspose.Cells nécessite une licence. Si vous ne faites qu'essayer, procurez-vous-en une[permis temporaire gratuit](https://purchase.aspose.com/temporary-license/) pour éviter les limitations d’évaluation.
 
 ## Paquets d'importation
 
@@ -58,7 +58,7 @@ Le choix de la cellule active est crucial, car le fractionnement du panneau dém
 book.Worksheets[0].ActiveCell = "A20";
 ```
 
- Ce morceau de code fait`A20` la cellule active. C'est important car la division se produit autour de ce point, tout comme la navigation dans Excel se concentre souvent autour d'une cellule spécifique.
+ Ce morceau de code fait`A20` la cellule active. C'est important car le fractionnement se produit autour de ce point, tout comme la navigation dans Excel se concentre souvent autour d'une cellule spécifique.
 
 ## Étape 3 : diviser la feuille de calcul
 
@@ -77,7 +77,7 @@ book.Worksheets[0].Split();
 
 Après avoir divisé les volets, il ne vous reste plus qu'à enregistrer votre travail. Cette dernière étape garantit que vos modifications sont enregistrées dans le fichier de sortie spécifié.
 
-À quoi sert tout votre dur labeur si vous ne le sauvegardez pas ? En sauvegardant, vous vous assurez que vos vitres magnifiquement séparées restent intactes pour une utilisation ultérieure.
+À quoi sert tout votre dur labeur si vous ne le conservez pas ? En sauvegardant, vous vous assurez que vos vitres magnifiquement séparées restent intactes pour une utilisation ultérieure.
 
 ```csharp
 // Enregistrer le fichier Excel

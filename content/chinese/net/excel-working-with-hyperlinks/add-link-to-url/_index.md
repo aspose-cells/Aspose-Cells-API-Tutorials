@@ -94,7 +94,7 @@ Console.WriteLine("AddingLinkToURL executed successfully.");
 ### 我需要购买 Aspose.Cells 才能使用它吗？  
 您可以免费试用试用版[Aspose 的下载页面](https://releases.aspose.com/)。如果你觉得有用，你可以从[这里](https://purchase.aspose.com/buy).
 ### 使用 Aspose.Cells 有什么好处?  
-Aspose.Cells提供了一套强大的功能来创建、操作和转换Excel文件，使其成为开发人员的热门选择。
+Aspose.Cells 提供了一套强大的功能来创建、操作和转换 Excel 文件，使其成为开发人员的热门选择。
 ### 我可以自定义超链接文本的外观吗？  
 当然！您可以使用 Aspose.Cells 库设置单元格格式属性来更改字体、颜色或样式。
 ### 有社区支持 Aspose.Cells 吗？  

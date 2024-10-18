@@ -28,7 +28,7 @@ Prima di scrivere qualsiasi codice, dovrai aggiungere un riferimento alla librer
 
 ### Scarica la DLL
 
-1.  Vai al[Pagina download di Aspose](https://releases.aspose.com/cells/net/) e scarica il pacchetto appropriato per la tua versione .NET.
+1.  Vai al[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/) e scarica il pacchetto appropriato per la tua versione .NET.
 2. Estrarre il file scaricato e individuare il`Aspose.Cells.dll` file.
 
 ### Aggiungere riferimento in Visual Studio
@@ -58,14 +58,14 @@ Per prima cosa, devi stabilire dove vuoi salvare il tuo file Excel di output. Qu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Assicurati di sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo sul computer in cui desideri salvare il file Excel.
+Assicurati di sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo sul computer in cui desideri salvare il file Excel.
 
 ## Passaggio 2: creare un nuovo oggetto cartella di lavoro
 
 Ora è il momento di creare una nuova cartella di lavoro. È qui che essenzialmente risiederanno tutti i tuoi dati e le tue impostazioni.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 I file Excel possono contenere più fogli di lavoro. Accederemo al primo foglio di lavoro per applicare il nostro fattore di scala.
 
 ```csharp
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -122,7 +122,7 @@ Sì! Aspose.Cells può essere utilizzato sia nelle applicazioni desktop che in q
  Assolutamente! Puoi ottenere una versione di prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Dove posso trovare la documentazione per Aspose.Cells?  
-La documentazione può essere trovata[Qui](https://reference.aspose.com/cells/net/).
+ La documentazione può essere trovata[Qui](https://reference.aspose.com/cells/net/).
 
 ### Come posso ottenere supporto tecnico per Aspose.Cells?  
  Puoi richiedere assistenza tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9).

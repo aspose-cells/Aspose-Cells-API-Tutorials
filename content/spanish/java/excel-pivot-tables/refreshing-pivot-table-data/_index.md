@@ -55,7 +55,7 @@ pivotTable.calculateData();
 
 ## Paso 5: Guardar el libro de trabajo actualizado
 
-Después de actualizar la tabla dinámica, guarde su libro de trabajo con los datos actualizados.
+Después de actualizar la tabla dinámica, guarde el libro de trabajo con los datos actualizados.
 
 ```java
 String outputFilePath = "path_to_updated_workbook.xlsx";

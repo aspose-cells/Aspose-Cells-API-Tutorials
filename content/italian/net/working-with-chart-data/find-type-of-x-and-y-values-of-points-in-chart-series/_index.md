@@ -15,11 +15,11 @@ Creare grafici significativi e rappresentazioni visive dei dati è essenziale ne
 
 Prima di procedere, assicurati di avere pronte alcune cose:
 
-1. Ambiente .NET: dovresti avere un ambiente di sviluppo .NET configurato. Potrebbe essere Visual Studio, Visual Studio Code o qualsiasi altro IDE compatibile.
+1. Ambiente .NET: dovresti avere un ambiente di sviluppo .NET impostato. Potrebbe essere Visual Studio, Visual Studio Code o qualsiasi altro IDE compatibile.
    
 2.  Aspose.Cells per .NET: dovrai avere Aspose.Cells per .NET installato. Puoi scaricarlo da[Qui](https://releases.aspose.com/cells/net/).
 
-3. File Excel di esempio: Ottieni un file Excel di esempio che contiene grafici. Per questo tutorial, useremo un file denominato`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Assicurati che sia nella directory del tuo progetto.
+3.  File Excel di esempio: Ottieni un file Excel di esempio che contiene grafici. Per questo tutorial, useremo un file denominato`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Assicurati che sia nella directory del tuo progetto.
 
 4. Conoscenze di base di programmazione: la familiarità con la programmazione C# ti aiuterà a seguire il tutorial con facilità.
 
@@ -56,11 +56,11 @@ Per prima cosa, devi definire la directory in cui si trova il tuo file Excel. Im
 string sourceDir = "Your Document Directory";
 ```
 
- Sostituire`"Your Document Directory"`con il percorso in cui è salvato il file Excel.
+ Sostituire`"Your Document Directory"` con il percorso in cui è salvato il file Excel.
 
 ## Passaggio 2: caricare la cartella di lavoro
 
- Quindi, carica il file Excel in un`Workbook` oggetto. Ciò consente di accedere a tutto il contenuto del file.
+ Quindi, carica il file Excel in un`Workbook`oggetto. Ciò consente di accedere a tutto il contenuto del file.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

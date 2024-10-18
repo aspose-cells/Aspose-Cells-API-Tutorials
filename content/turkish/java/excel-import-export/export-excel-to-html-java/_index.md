@@ -27,7 +27,7 @@ Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) yeni bir Java projesi olu
 
 ## Adım 2: Aspose.Cells Kütüphanesini Ekleyin
 
- Aspose.Cells for Java kütüphanesini projenizin sınıf yoluna ekleyin. Maven kullanıyorsanız, kütüphaneyi projenize ekleyin.`pom.xml` dosya.
+ Aspose.Cells for Java kütüphanesini projenizin sınıf yoluna ekleyin. Maven kullanıyorsanız, kütüphaneyi şuraya ekleyin:`pom.xml` dosya.
 
 ## Adım 3: Excel Dosyasını Yükle
 
@@ -61,7 +61,7 @@ Daha gelişmiş özellikler ve özelleştirme seçenekleri için Aspose.Cells fo
 ## SSS
 
 ###	S: Karmaşık biçimlendirmeye sahip Excel dosyalarını HTML'e aktarabilir miyim?
-   - C: Evet, Java için Aspose.Cells, karmaşık biçimlendirmeye sahip Excel dosyalarının, biçimlendirmeyi mümkün olduğunca koruyarak HTML'ye aktarılmasını destekler.
+   - C: Evet, Java için Aspose.Cells, karmaşık biçimlendirmeye sahip Excel dosyalarının biçimlendirmeyi mümkün olduğunca koruyarak HTML'ye aktarılmasını destekler.
 
 ### S: Aspose.Cells Excel dosyalarının toplu işlenmesi için uygun mudur?
    - C: Kesinlikle! Aspose.Cells toplu işleme için oldukça uygundur ve birden fazla Excel dosyasını içeren görevlerin otomatikleştirilmesini kolaylaştırır.

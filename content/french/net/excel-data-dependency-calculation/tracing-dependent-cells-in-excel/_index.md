@@ -9,7 +9,7 @@ url: /fr/net/excel-data-dependency-calculation/tracing-dependent-cells-in-excel/
 ---
 ## Introduction
 
-Les feuilles de calcul Excel sont comme un réseau de données interconnectées, où la modification d'une cellule peut avoir des répercussions sur de nombreuses autres. Mais comment suivre ces connexions ? Plongeons dans le monde du traçage des cellules dépendantes dans Excel à l'aide d'Aspose.Cells pour .NET ! Dans ce guide, nous découvrirons comment identifier et répertorier les cellules dépendantes. 
+Les feuilles de calcul Excel sont comme un réseau de données interconnectées, où la modification d'une cellule peut avoir des répercussions sur de nombreuses autres. Mais comment suivre ces connexions ? Plongeons-nous dans le monde du traçage des cellules dépendantes dans Excel à l'aide d'Aspose.Cells pour .NET ! Dans ce guide, nous découvrirons comment identifier et répertorier les cellules dépendantes. 
 
 ## Prérequis
 
@@ -20,7 +20,7 @@ Avant de commencer, voici quelques éléments que vous devez avoir pour assurer 
 3. Visual Studio : c'est un environnement fantastique pour écrire et tester votre code .NET. Assurez-vous qu'il est correctement installé sur votre machine. 
 4. Un fichier Excel : vous aurez besoin d'un fichier Excel contenant des formules avec lesquelles travailler. Nous utiliserons un fichier nommé`Book1.xlsx`, mais n'hésitez pas à utiliser le vôtre !
 
-Prêt à vous mettre au travail et à commencer à suivre ces cellules ? Entrons dans le vif du sujet !
+Prêt à vous mettre au travail et à commencer à suivre ces cellules ? Passons aux choses sérieuses !
 
 ## Paquets d'importation
 
@@ -84,7 +84,7 @@ Maintenant que le classeur est ouvert, il est temps de mettre la main sur les ce
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Explication : Le code ci-dessus cible la première feuille de calcul (index 0) de notre classeur et récupère le`Cells` collection avec laquelle nous travaillerons pour retracer les personnes à charge.
+Explication : Le code ci-dessus cible la première feuille de calcul (index 0) de notre classeur et récupère le`Cells` collection avec laquelle nous travaillerons pour retracer les personnes à charge.
 
 ## Étape 4 : Sélectionnez la cellule
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Explication : Cette boucle parcourt chaque cellule dépendante de notre tableau et imprime son nom, ce qui est assez simple !`Console.ReadKey()` garantit que la fenêtre de la console reste ouverte jusqu'à ce que vous appuyiez sur une touche, vous donnant ainsi le temps de lire la sortie.
+Explication : Cette boucle parcourt chaque cellule dépendante de notre tableau et imprime son nom, ce qui est assez simple !`Console.ReadKey()` garantit que la fenêtre de la console reste ouverte jusqu'à ce que vous appuyiez sur une touche, vous donnant ainsi le temps de lire la sortie.
 
 ## Conclusion
 
@@ -133,7 +133,7 @@ Aspose.Cells est une bibliothèque puissante pour la gestion des fichiers Excel 
  Oui ! Aspose propose une[essai gratuit](https://releases.aspose.com/) de leur logiciel, vous permettant d'explorer ses fonctionnalités avant d'acheter.
 
 ### Comment obtenir de l'aide pour Aspose.Cells ?
-Vous pouvez demander de l'aide par l'intermédiaire du[Forum Aspose](https://forum.aspose.com/c/cells/9), où une communauté d'utilisateurs et d'experts peut vous aider. 
+ Vous pouvez demander de l'aide via le[Forum Aspose](https://forum.aspose.com/c/cells/9), où une communauté d'utilisateurs et d'experts peut vous aider. 
 
 ### Aspose.Cells est-il adapté aux fichiers Excel volumineux ?
 Absolument ! Aspose.Cells est conçu pour fonctionner efficacement avec des fichiers Excel volumineux, offrant une gestion et des performances robustes.

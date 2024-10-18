@@ -50,7 +50,7 @@ pivotTable.getDataFields().get(0).setFunction(PivotFieldFunction.SUM);
 workbook.save("output.xlsx");
 ```
 
-## Passaggio 2: raggruppare i dati
+## Passaggio 2: raggruppa i dati
 
  In Aspose.Cells per Java, è possibile raggruppare i dati all'interno della tabella pivot utilizzando`PivotField` classe. Ecco un esempio di come raggruppare un campo nella tabella pivot:
 

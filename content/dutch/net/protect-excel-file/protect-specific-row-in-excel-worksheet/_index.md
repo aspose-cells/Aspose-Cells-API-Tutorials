@@ -2,7 +2,7 @@
 title: Specifieke rij in Excel-werkblad beveiligen
 linktitle: Specifieke rij in Excel-werkblad beveiligen
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u specifieke rijen in Excel-werkbladen kunt beveiligen met Aspose.Cells voor .NET. Een stapsgewijze handleiding op maat voor ontwikkelaars.
+description: Leer hoe u specifieke rijen in Excel-werkbladen kunt beveiligen met Aspose.Cells voor .NET. Een stapsgewijze handleiding speciaal voor ontwikkelaars.
 type: docs
 weight: 90
 url: /nl/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
@@ -49,7 +49,7 @@ Eerst moeten we een directory definiëren waar we ons Excel-bestand opslaan. Dit
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ga naar het gewenste pad.
 
-// Maak een map aan als deze nog niet bestaat.
+//Maak een map aan als deze nog niet bestaat.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -97,7 +97,7 @@ for (int i = 0; i <= 255; i++)
 
 ## Stap 5: Vergrendel de gewenste rij
 
-Nu is het tijd om de rij te vergrendelen die u wilt beveiligen. In dit geval vergrendelen we de eerste rij.
+Nu is het tijd om de rij die u wilt beveiligen te vergrendelen. In dit geval vergrendelen we de eerste rij.
 
 ```csharp
 //Kies voor de stijl van de eerste rij.
@@ -143,7 +143,7 @@ Ja, u kunt het vergrendelingsproces voor alle andere rijen herhalen, op dezelfde
 U kunt cellen afzonderlijk selecteren en vergrendelingsstijlen toepassen, vergelijkbaar met hoe u een rij vergrendelt.
 
 ### Is Aspose.Cells gratis te gebruiken?  
-Aspose.Cells is een commercieel product, maar u kunt het uitproberen met een gratis proefversie die beschikbaar is[hier](https://releases.aspose.com/).
+ Aspose.Cells is een commercieel product, maar u kunt het uitproberen met een gratis proefversie die beschikbaar is[hier](https://releases.aspose.com/).
 
 ### Heb ik een internetverbinding nodig om Aspose.Cells te gebruiken?  
 Nee, Aspose.Cells is een .NET-bibliotheek en kan offline worden gebruikt nadat u het hebt geïnstalleerd.

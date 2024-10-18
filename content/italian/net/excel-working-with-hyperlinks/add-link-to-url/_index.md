@@ -12,7 +12,7 @@ Stai cercando di migliorare il tuo foglio di calcolo Excel aggiungendo collegame
 ## Prerequisiti
 Prima di addentrarci nei dettagli dell'aggiunta di un collegamento ipertestuale in Excel con Aspose.Cells, ci sono alcuni prerequisiti che devi verificare:
 1. .NET Framework: assicurati di avere impostato l'ambiente .NET necessario. Aspose.Cells è compatibile con varie versioni di .NET, quindi scegli quella più adatta al tuo progetto.
-2. Libreria Aspose.Cells: devi avere installata la libreria Aspose.Cells. Puoi scaricarla da[Pagina di rilascio di Aspose](https://releases.aspose.com/cells/net/).
+2. Libreria Aspose.Cells: è necessario che la libreria Aspose.Cells sia installata. È possibile scaricarla da[Pagina di rilascio di Aspose](https://releases.aspose.com/cells/net/).
 3. Ambiente di sviluppo: utilizza un IDE come Visual Studio, che ti aiuterà a gestire facilmente i tuoi progetti.
 4. Conoscenze di programmazione di base: la familiarità con C# e la comprensione dei concetti di programmazione orientata agli oggetti renderanno il processo più fluido.
 Ora che tutto è pronto, passiamo alla codifica!
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Cambia il tuo percorso
 ## Passaggio 2: creare un oggetto cartella di lavoro
  Qui creeremo un'istanza di`Workbook` classe. Pensa a un quaderno di lavoro come a una tela bianca per il tuo foglio di calcolo.
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 A questo punto, hai sostanzialmente detto: "Ehi, Aspose, creiamo un nuovo file Excel!"
@@ -87,7 +87,7 @@ Console.WriteLine("AddingLinkToURL executed successfully.");
 In questo modo hai creato un programma C# funzionale che aggiunge un collegamento ipertestuale a Excel utilizzando Aspose.Cells.
 ## Conclusione
 Ed ecco fatto! Hai imparato come aggiungere un collegamento ipertestuale a un URL in un file Excel usando Aspose.Cells per .NET. È piuttosto semplice, vero? Con solo poche righe di codice, puoi creare fogli di calcolo interattivi che comunicano meglio i tuoi dati. Quindi vai avanti e provaci!
-Grazie per esserti unito a me in questo tutorial. Se hai domande o vuoi condividere le tue esperienze, sentiti libero di saltare nei commenti. Continua a esplorare e buona codifica!
+Grazie per esserti unito a me in questo tutorial. Se hai domande o vuoi condividere le tue esperienze, sentiti libero di saltare nei commenti. Continua a esplorare e buona programmazione!
 ## Domande frequenti
 ### Posso aggiungere più collegamenti ipertestuali in un foglio di lavoro?  
 Sì! Puoi aggiungere tutti i collegamenti ipertestuali di cui hai bisogno ripetendo i passaggi di aggiunta dei collegamenti ipertestuali per celle diverse.

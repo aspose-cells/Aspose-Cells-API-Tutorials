@@ -59,7 +59,7 @@ Kop: Een werkmapinstantie maken
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Zorg ervoor dat het Excel-bestand`"Book1.xls"` bestaat in de opgegeven directory, anders krijg je fouten. 
+ Zorg ervoor dat het Excel-bestand`"Book1.xls"` bestaat in de opgegeven directory, anders ontstaan er fouten. 
 
 ## Stap 3: Stel de actieve cel in
 

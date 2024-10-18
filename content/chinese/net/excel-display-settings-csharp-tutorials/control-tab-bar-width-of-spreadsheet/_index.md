@@ -36,7 +36,7 @@ using Aspose.Cells;
 
 ## 步骤 1：设置项目和工作簿
 
-我们首先需要一个 Workbook 对象来保存我们的 Excel 文件。想象一下这是实际 Excel 文件的数字表示。我们将加载现有的 Excel 文件，或者您可以根据需要创建一个新的文件。
+我们首先需要一个 Workbook 对象来保存我们的 Excel 文件。想象一下这是实际 Excel 文件的数字表示。我们将加载一个现有的 Excel 文件，或者您可以根据需要创建一个新的文件。
 
 ### 设置项目
 
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.xls");
 ### 是否可以自定义单个标签的宽度？
 不，Aspose.Cells 不允许单独调整标签宽度，只允许调整整体标签栏宽度。
 
-### 我如何撤消对标签宽度的更改？
+### 如何撤消对标签宽度的更改？
 简单重置`workbook.Settings.SheetTabBarWidth`恢复其默认值（通常在 300 左右）。
 
 ### Aspose.Cells 是否支持选项卡的其他自定义选项？

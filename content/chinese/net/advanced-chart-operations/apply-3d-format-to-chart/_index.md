@@ -13,7 +13,7 @@ url: /zh/net/advanced-chart-operations/apply-3d-format-to-chart/
 
 ## 先决条件
 
-在我们深入探讨将 3D 格式应用于图表的细节之前，让我们确保您已准备好所需的一切。
+在我们深入研究将 3D 格式应用于图表的细节之前，让我们确保您已准备好所需的一切。
 
 ### 软件要求
 
@@ -57,7 +57,7 @@ using Aspose.Cells.Charts;
 string outputDir = "Your Document Directory";
 Workbook book = new Workbook();
 ```
-想想这个`Workbook`就像一张空白画布——您可以用丰富多彩的数据和富有影响力的可视化效果来填充它。
+想想这个`Workbook`就像一块空白画布——您可以用丰富多彩的数据和富有影响力的可视化效果来填充它。
 
 ## 步骤 2：重命名第一个工作表
 
@@ -155,7 +155,7 @@ bevel.Height = 2;
 bevel.Width = 5;
 ```
 
-就像雕刻家塑造石头一样，我们正在创造深度，让我们的图表变得生动！
+就像雕刻家塑造石头一样，我们正在创造深度，让我们的图表栩栩如生！
 
 ## 步骤 10：自定义表面材质和照明
 

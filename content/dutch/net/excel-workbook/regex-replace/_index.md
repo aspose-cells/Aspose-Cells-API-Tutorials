@@ -13,7 +13,7 @@ Bent u het zat om urenlang handmatig nauwkeurige wijzigingen aan te brengen in u
 
 ## Vereisten
 
-Voordat we in de details van het coderen duiken, willen we er zeker van zijn dat je goed bent voorbereid op de reis die voor je ligt.
+Voordat we in de details van het coderen duiken, willen we er eerst voor zorgen dat je goed bent voorbereid op de reis die voor je ligt.
 
 1. .NET Framework: Zorg dat u een .NET-omgeving hebt ingesteld. Of het nu .NET Core of .NET Framework is, u zou goed moeten zitten.
 2.  Aspose.Cells Library: Deze bibliotheek is uw sleutel tot het ontgrendelen van krachtige spreadsheetmanipulaties. U kunt[download het hier](https://releases.aspose.com/cells/net/).

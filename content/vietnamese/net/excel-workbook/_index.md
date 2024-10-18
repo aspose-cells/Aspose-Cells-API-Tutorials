@@ -17,7 +17,7 @@ Hiểu cách truy cập thông tin tiện ích mở rộng web có thể mở ra
 
 ## Thêm chữ ký số
 
- Bạn đã bao giờ cần thêm chữ ký số vào tệp Excel đã ký chưa? Khám phá cách thực hiện việc này với hướng dẫn của chúng tôi trên[Thêm chữ ký số vào tệp Excel đã ký](./add-digital-signature-to-an-already-signed-excel-file/)Chữ ký số đảm bảo tính xác thực và toàn vẹn, giúp tệp Excel của bạn không chỉ hoạt động được mà còn an toàn.
+ Bạn đã bao giờ cần thêm chữ ký số vào tệp Excel đã ký chưa? Khám phá cách thực hiện việc này với hướng dẫn của chúng tôi trên[Thêm chữ ký số vào tệp Excel đã ký](./add-digital-signature-to-an-already-signed-excel-file/). Chữ ký số đảm bảo tính xác thực và toàn vẹn, giúp tệp Excel của bạn không chỉ hoạt động được mà còn an toàn.
 
 ## Tạo sổ làm việc được chia sẻ
 
@@ -25,7 +25,7 @@ Hiểu cách truy cập thông tin tiện ích mở rộng web có thể mở ra
 
 ## Trích xuất các tập tin nhúng
 
-Bạn có biết rằng Excel có thể chứa các tệp nhúng không? Nếu bạn từng cần đào sâu hơn vào bảng tính của mình để trích xuất tệp MOL nhúng, bạn sẽ muốn xem hướng dẫn của chúng tôi về[Trích xuất tệp MOL nhúng](./extract-embedded-mol-file/). Hướng dẫn này sẽ hướng dẫn bạn quy trình đơn giản để khôi phục các tệp này, đảm bảo bạn không bao giờ mất dữ liệu quan trọng ẩn trong sổ làm việc Excel của mình.
+Bạn có biết Excel có thể chứa các tệp nhúng không? Nếu bạn từng cần đào sâu hơn vào bảng tính của mình để trích xuất tệp MOL nhúng, bạn sẽ muốn xem hướng dẫn của chúng tôi về[Trích xuất tệp MOL nhúng](./extract-embedded-mol-file/). Hướng dẫn này sẽ hướng dẫn bạn quy trình đơn giản để khôi phục các tệp này, đảm bảo bạn không bao giờ mất dữ liệu quan trọng ẩn trong sổ làm việc Excel của mình.
 
 ## Xử lý kết nối bên ngoài trong tệp XLSB
 

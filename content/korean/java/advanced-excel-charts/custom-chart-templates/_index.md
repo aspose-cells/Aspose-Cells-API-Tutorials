@@ -27,7 +27,7 @@ url: /ko/java/advanced-excel-charts/custom-chart-templates/
 
 ### 1단계: 프로젝트 설정
 
-가장 좋아하는 통합 개발 환경(IDE)에서 새 Java 프로젝트를 만드는 것으로 시작하세요. 프로젝트의 종속성에 Aspose.Cells for Java 라이브러리를 추가하세요.
+좋아하는 통합 개발 환경(IDE)에서 새 Java 프로젝트를 만드는 것으로 시작합니다. 프로젝트의 종속성에 Aspose.Cells for Java 라이브러리를 추가해야 합니다.
 
 ### 2단계: Aspose.Cells 초기화
 
@@ -112,8 +112,8 @@ Aspose.Cells for Java는 막대형 차트, 선형 차트, 산점도, 원형 차�
 
 ### Aspose.Cells for Java는 간단한 데이터와 복잡한 데이터 모두에 적합합니까?
 
-물론입니다! Aspose.Cells for Java는 다재다능하며 간단한 데이터 시나리오와 복잡한 데이터 시나리오를 모두 처리할 수 있습니다. 기본 데이터 집합이나 복잡한 재무 모델을 사용하든 Aspose.Cells가 처리해 드립니다.
+물론입니다! Aspose.Cells for Java는 다재다능하며 간단한 데이터 시나리오와 복잡한 데이터 시나리오를 모두 처리할 수 있습니다. 기본 데이터 세트나 복잡한 재무 모델을 사용하든 Aspose.Cells가 처리해 드립니다.
 
 ### 더 많은 자료와 문서는 어디에서 찾을 수 있나요?
 
- 포괄적인 설명서 및 예제는 Aspose.Cells for Java 설명서를 방문하세요.[여기](https://reference.aspose.com/cells/java/).
+ 포괄적인 설명서와 예제는 Aspose.Cells for Java 설명서를 방문하세요.[여기](https://reference.aspose.com/cells/java/).

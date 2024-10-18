@@ -49,7 +49,7 @@ Nejprve musíme definovat adresář, kam budeme ukládat náš soubor Excel. Pos
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // změnit na požadovanou cestu.
 
-// Vytvořte adresář, pokud ještě není přítomen.
+//Vytvořte adresář, pokud ještě není přítomen.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -137,16 +137,16 @@ A tady to máte! Úspěšně jste ochránili konkrétní řádek v listu aplikac
 ## FAQ
 
 ### Mohu chránit více řádků stejnou metodou?  
-Ano, proces zamykání můžete opakovat pro jakékoli další řádky stejným způsobem, jako jste to udělali pro první řádek.
+Ano, proces uzamčení můžete opakovat pro všechny další řádky stejným způsobem, jako jste to udělali pro první řádek.
 
 ### Co když chci místo řádků chránit a odemykat konkrétní buňky?  
 Můžete jednotlivě vybrat buňky a použít styly zamykání, podobně jako při zamykání řádku.
 
 ### Je Aspose.Cells zdarma k použití?  
-Aspose.Cells je komerční produkt, ale můžete jej vyzkoušet pomocí bezplatné zkušební verze[zde](https://releases.aspose.com/).
+ Aspose.Cells je komerční produkt, ale můžete jej vyzkoušet pomocí bezplatné zkušební verze[zde](https://releases.aspose.com/).
 
 ### Potřebuji k používání Aspose.Cells připojení k internetu?  
 Ne, Aspose.Cells je knihovna .NET a může pracovat offline, jakmile ji nainstalujete.
 
 ### Kde mohu získat podporu pro Aspose.Cells?  
- V případě jakýchkoli dotazů nebo podpory můžete navštívit[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).
+ V případě jakýchkoli dotazů nebo podpory můžete navštívit stránku[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).

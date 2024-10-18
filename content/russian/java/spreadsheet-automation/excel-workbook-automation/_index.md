@@ -2,14 +2,14 @@
 title: Автоматизация рабочих книг Excel
 linktitle: Автоматизация рабочих книг Excel
 second_title: API обработки Java Excel Aspose.Cells
-description: Изучите автоматизацию Excel Workbook на Java с помощью Aspose.Cells. Создавайте, читайте, обновляйте файлы Excel программно. Начните прямо сейчас!
+description: Изучите автоматизацию Excel Workbook на Java с Aspose.Cells. Создавайте, читайте, обновляйте файлы Excel программно. Начните прямо сейчас!
 type: docs
 weight: 16
 url: /ru/java/spreadsheet-automation/excel-workbook-automation/
 ---
 
 ## Введение
-В этом уроке мы рассмотрим, как автоматизировать операции с книгами Excel с помощью библиотеки Aspose.Cells for Java. Aspose.Cells — это мощный API Java, который позволяет вам программно создавать, изменять и управлять файлами Excel.
+В этом уроке мы рассмотрим, как автоматизировать операции с книгами Excel с помощью библиотеки Aspose.Cells для Java. Aspose.Cells — это мощный API Java, который позволяет вам создавать, изменять и управлять файлами Excel программным способом.
 
 ## Предпосылки
  Прежде чем начать, убедитесь, что в ваш проект добавлена библиотека Aspose.Cells for Java. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/java/).

@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Paso 4: Establezca el número de la primera página
 
- Ahora viene la magia. Puedes establecer el número de la primera página de las páginas impresas de la hoja de cálculo asignando un valor a`FirstPageNumber`:
+ Ahora viene la magia. Puedes establecer el primer número de página de las páginas impresas de la hoja de cálculo asignando un valor a`FirstPageNumber`:
 
 ```csharp
 worksheet.PageSetup.FirstPageNumber = 2;

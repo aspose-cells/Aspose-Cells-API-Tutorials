@@ -47,7 +47,7 @@ using Aspose.Cells;
 
 Met deze regel code kunt u alle klassen en methoden gebruiken die Aspose.Cells biedt. Zonder deze regel zou u Aspose.Cells in elke methode moeten refereren, waardoor uw code rommelig wordt.
 
-Nu we de vereisten op een rijtje hebben gezet en de benodigde pakketten hebben geïmporteerd, gaan we het voorbeeld stap voor stap uitleggen.
+Nu we de vereisten op orde hebben en de benodigde pakketten hebben geïmporteerd, gaan we het voorbeeld stap voor stap uitleggen.
 
 ## Stap 1: De documentenmap instellen
 
@@ -117,7 +117,7 @@ Het identificeren van cellen in een benoemd bereik met Aspose.Cells voor .NET is
 Aspose.Cells voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en converteren.
 
 ### Kan ik Aspose.Cells gratis gebruiken?
-Jazeker! Aspose biedt een gratis proefversie waarmee u de functies van de bibliotheek kunt testen. 
+Jazeker! Aspose biedt een gratis proefversie aan waarmee u de functies van de bibliotheek kunt testen. 
 
 ### Hoe definieer ik een benoemd bereik in Excel?
 Om een benoemd bereik te maken, selecteert u de cellen die u wilt opnemen, gaat u naar het tabblad Formules in Excel en kiest u 'Naam definiëren'.

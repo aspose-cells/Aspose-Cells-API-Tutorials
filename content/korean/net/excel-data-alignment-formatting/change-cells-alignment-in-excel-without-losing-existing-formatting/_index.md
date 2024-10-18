@@ -9,16 +9,16 @@ url: /ko/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-wit
 ---
 ## 소개
 
-Excel 파일을 관리하는 것은 때때로 미궁을 헤매는 것처럼 느껴질 수 있습니다. 특히 셀 정렬을 변경하는 것과 같은 필수적인 조정을 하는 동안 서식을 유지하는 경우 더욱 그렇습니다. Excel에서 셀 정렬을 조정하려고 했지만 서식이 흐트러지는 것을 본 적이 있다면, 당신만 그런 것은 아닙니다! 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 서식을 잃지 않고 Excel 셀 정렬을 변경하는 방법을 자세히 알아보겠습니다. 소매를 걷어붙이고 시작해 봅시다!
+Excel 파일을 관리하는 것은 때때로 미궁을 탐색하는 것과 같을 수 있습니다. 특히 셀 정렬을 변경하는 것과 같은 필수적인 조정을 하는 동안 서식을 유지하는 경우 더욱 그렇습니다. Excel에서 셀 정렬을 조정하려고 시도했지만 서식이 흐트러지는 것을 발견한 적이 있다면, 당신만 그런 것은 아닙니다! 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 서식을 잃지 않고 Excel 셀 정렬을 변경하는 방법을 자세히 알아보겠습니다. 소매를 걷어붙이고 시작해 봅시다!
 
 ## 필수 조건
 
 실제 코딩에 들어가기 전에 모든 것이 올바르게 설정되었는지 확인하는 것이 중요합니다. 필요한 것은 다음과 같습니다.
 
-1. Visual Studio: Visual Studio(.NET을 지원하는 모든 버전)가 컴퓨터에 설치되어 있는지 확인하세요.
+1. Visual Studio: 컴퓨터에 Visual Studio(.NET을 지원하는 모든 버전)가 설치되어 있는지 확인하세요.
 2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치하세요.[Aspose 사이트](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: C# 컨텍스트에서 작업하게 되므로 C# 프로그래밍에 대한 약간의 지식이 있으면 좋습니다.
-4. 샘플 Excel 파일: 데모를 위해 샘플 Excel 파일을 준비하십시오(예:`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`)에 일부 초기 셀 서식이 포함되어 있습니다.
+4.  샘플 Excel 파일: 데모를 위해 샘플 Excel 파일을 준비하십시오(예:`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`)에 일부 초기 셀 서식이 포함되어 있습니다.
 
 ## 패키지 가져오기
 
@@ -54,10 +54,10 @@ using Aspose.Cells.Tables;
 
 ```csharp
 // 소스 디렉토리
-string sourceDir = "Your Document Directory\\"; // 실제 디렉토리로 대체하세요
+string sourceDir = "Your Document Directory\\"; // 실제 디렉토리로 바꾸세요
 
 // 출력 디렉토리
-string outputDir = "Your Document Directory\\"; // 실제 디렉토리로 대체하세요
+string outputDir = "Your Document Directory\\"; // 실제 디렉토리로 바꾸세요
 ```
 
  이 코드는 입력 및 출력 파일의 경로를 설정합니다. 다음을 반드시 바꾸십시오.`"Your Document Directory\\"` 컴퓨터의 실제 경로와 일치합니다.
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- 설정하여`Alignments` StyleFlag의 속성`true`Aspose.Cells에 정렬 스타일을 올바르게 적용하라고 지시합니다.
+ 설정하여`Alignments`StyleFlag의 속성`true`, Aspose.Cells에 정렬 스타일을 올바르게 적용하라고 지시합니다.
 
 ## 7단계: 셀 범위에 스타일 적용
 
@@ -165,7 +165,7 @@ Aspose.Cells for .NET을 사용하면 기존 서식을 그대로 유지하면서
 ### Aspose.Cells는 대용량 Excel 파일을 처리할 수 있나요?
 물론입니다! 성능에 최적화되어 있고 대용량 파일을 효율적으로 처리할 수 있습니다.
 
-### Aspose.Cells의 체험판이 있나요?
+### Aspose.Cells의 평가판이 있나요?
  네! 사이트에서 무료 평가판을 다운로드할 수 있습니다.[무료 체험](https://releases.aspose.com/).
 
 ### Aspose.Cells는 어떤 프로그래밍 언어를 지원하나요?

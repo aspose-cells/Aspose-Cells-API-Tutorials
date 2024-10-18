@@ -1,8 +1,8 @@
 ---
 title: การป้องกันคอลัมน์ในเวิร์กชีต Excel
 linktitle: การป้องกันคอลัมน์ในเวิร์กชีต Excel
-second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
-description: เรียนรู้วิธีการปกป้องคอลัมน์เฉพาะใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนง่ายๆ ของเราเพื่อการปกป้องข้อมูลที่ราบรื่น
+second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
+description: เรียนรู้วิธีการปกป้องคอลัมน์เฉพาะใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนง่ายๆ ของเราเพื่อการปกป้องข้อมูลอย่างราบรื่น
 type: docs
 weight: 40
 url: /th/net/protect-excel-file/protect-column-in-excel-worksheet/
@@ -51,7 +51,7 @@ using Aspose.Cells;
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// สร้างไดเร็กทอรีหากยังไม่มีอยู่
+//สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

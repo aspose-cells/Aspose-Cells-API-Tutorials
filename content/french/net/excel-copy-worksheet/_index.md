@@ -17,7 +17,7 @@ Lorsqu'il s'agit de gérer des fichiers Excel à l'aide de .NET, Aspose.Cells se
 
 ## Optimisez votre gestion Excel
 
-Nous vous proposons ensuite des conseils pour répondre à des exigences plus complexes, comme la copie de plusieurs feuilles de calcul. Si vous avez déjà dû gérer plusieurs classeurs simultanément, vous savez à quel point cela peut être fastidieux. Heureusement, notre tutoriel sur[Copier des feuilles de calcul entre des classeurs Excel](./excel-copy-worksheets-between-workbooks/) montre comment rationaliser la gestion de vos feuilles de calcul. À l'aide d'exemples faciles à suivre, vous découvrirez des trucs et astuces qui simplifient ces tâches dans votre flux de travail.
+ Nous vous proposons ensuite des conseils pour répondre à des exigences plus complexes, comme la copie de plusieurs feuilles de calcul. Si vous avez déjà dû gérer plusieurs classeurs simultanément, vous savez à quel point cela peut être fastidieux. Heureusement, notre tutoriel sur[Copier des feuilles de calcul entre des classeurs Excel](./excel-copy-worksheets-between-workbooks/)montre comment rationaliser la gestion de vos feuilles de calcul. À l'aide d'exemples faciles à suivre, vous découvrirez des trucs et astuces qui simplifient la gestion de ces tâches dans votre flux de travail.
 
 ## Maîtriser le mouvement des feuilles de travail
 

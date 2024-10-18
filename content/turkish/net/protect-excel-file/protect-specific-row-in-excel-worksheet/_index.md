@@ -49,7 +49,7 @@ Artık her şeyi ayarladığımıza göre, Excel çalışma sayfamızdaki belirl
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // İstediğiniz yola geçin.
 
-// Eğer mevcut değilse dizin oluşturun.
+//Eğer mevcut değilse dizin oluşturun.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -100,7 +100,7 @@ for (int i = 0; i <= 255; i++)
 Şimdi, korumak istediğiniz satırı kilitlemenin zamanı geldi. Bu durumda, ilk satırı kilitliyoruz.
 
 ```csharp
-//İlk satır stilini al.
+//İlk sıra stilini al.
 style = sheet.Cells.Rows[0].Style;
 // Kilitle onu.
 style.IsLocked = true;
@@ -132,7 +132,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Çözüm
 
-İşte karşınızda! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki belirli bir satırı başarıyla korudunuz. Bu işlevsellik, Excel dosyalarını paylaşırken veri bütünlüğünü sağlaması gereken geliştiriciler ve kullanıcılar için inanılmaz derecede kullanışlıdır. Artık elektronik tablolarınızı güvenle paylaşırken içlerindeki hayati bilgileri koruyabilirsiniz.
+İşte oldu! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki belirli bir satırı başarıyla korudunuz. Bu işlevsellik, Excel dosyalarını paylaşırken veri bütünlüğünü sağlaması gereken geliştiriciler ve kullanıcılar için inanılmaz derecede kullanışlıdır. Artık elektronik tablolarınızı güvenle paylaşırken içlerindeki hayati bilgileri koruyabilirsiniz.
 
 ## SSS
 
@@ -143,7 +143,7 @@ Evet, ilk satırda yaptığınız gibi diğer satırlar için de kilitleme işle
 Hücreleri tek tek seçebilir ve tıpkı bir satırı kilitlediğiniz gibi kilitleme stilleri uygulayabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
-Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümüyle deneyebilirsiniz[Burada](https://releases.aspose.com/).
+ Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümüyle deneyebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells'i kullanmak için internet bağlantısına ihtiyacım var mı?  
 Hayır, Aspose.Cells bir .NET kütüphanesidir ve kurulduktan sonra çevrimdışı olarak da çalışabilir.

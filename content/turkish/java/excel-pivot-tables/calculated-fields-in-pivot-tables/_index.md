@@ -8,15 +8,15 @@ weight: 15
 url: /tr/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 ---
 ## giriiş
-Pivot Tablolar, Excel'de verileri analiz etmek ve özetlemek için güçlü bir araçtır. Ancak bazen Pivot Tablo içindeki verileriniz üzerinde özel hesaplamalar yapmanız gerekir. Bu eğitimde, Java için Aspose.Cells kullanarak Pivot Tablolarda hesaplanmış alanların nasıl oluşturulacağını göstereceğiz ve böylece veri analizinizi bir üst seviyeye taşıyacaksınız.
+Pivot Tablolar, Excel'de verileri analiz etmek ve özetlemek için güçlü bir araçtır. Ancak bazen Pivot Tablo içindeki verileriniz üzerinde özel hesaplamalar yapmanız gerekir. Bu eğitimde, Aspose.Cells for Java kullanarak Pivot Tablolarda hesaplanmış alanların nasıl oluşturulacağını göstereceğiz ve böylece veri analizinizi bir üst seviyeye taşıyacaksınız.
 
 ### Ön koşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - Java için Aspose.Cells kütüphanesi kuruldu.
-- Java programlamanın temel bilgisi.
+- Temel Java programlama bilgisi.
 
 ## Adım 1: Java Projenizi Kurma
- Öncelikle, favori IDE'nizde yeni bir Java projesi oluşturun ve Aspose.Cells for Java kütüphanesini ekleyin. Kütüphaneyi şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+ Öncelikle, favori IDE'nizde yeni bir Java projesi oluşturun ve Aspose.Cells for Java kütüphanesini ekleyin. Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 2: Gerekli Sınıfları İçe Aktarma
 Java kodunuzda, Aspose.Cells'den gerekli sınıfları içe aktarın. Bu sınıflar Pivot Tablolar ve hesaplanan alanlarla çalışmanıza yardımcı olacaktır.

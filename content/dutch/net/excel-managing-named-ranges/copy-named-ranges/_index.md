@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Met deze code krijgt u toegang tot essentiële lessen zoals:`Workbook`, `Worksheet` , En`Range`, die u nodig hebt om Excel-bestanden te bewerken.
+Met deze code krijgt u toegang tot essentiële lessen zoals:`Workbook`, `Worksheet` En`Range`, die u nodig hebt om Excel-bestanden te bewerken.
 
 Nu we de vereisten op een rijtje hebben, kunnen we het proces opsplitsen in eenvoudig te volgen stappen.
 ## Stap 1: Stel uw uitvoermap in
@@ -75,7 +75,7 @@ range1[0, 0].PutValue("Test");
 range1[0, 4].PutValue("123");
 ```
 Dit stukje code vult de eerste cel van het bereik met de tekst "Test" en de laatste cel met het nummer "123". Het is alsof je een formulier invult met essentiële informatie.
-## Stap 8: Maak een ander bereik
+## Stap 8: Een ander bereik maken
 Vervolgens hebt u een ander bereik nodig waar u de gegevens uit het eerste bereik naartoe kopieert.
 ```csharp
 Range range2 = worksheet.Cells.CreateRange("B3", "F3");
@@ -106,7 +106,7 @@ En daar heb je het! Je hebt met succes benoemde bereiken gekopieerd in Excel met
 ### Wat is Aspose.Cells voor .NET?
 Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en converteren.
 ### Moet ik Excel geïnstalleerd hebben om Aspose.Cells te kunnen gebruiken?
-Nee, Aspose.Cells werkt onafhankelijk van Excel. Het kan echter wel handig zijn om het geïnstalleerd te hebben om de uitvoer visueel te testen.
+Nee, Aspose.Cells werkt onafhankelijk van Excel, maar het kan wel handig zijn om het geïnstalleerd te hebben om de uitvoer visueel te testen.
 ### Kan ik Aspose.Cells gebruiken met andere programmeertalen?
 Aspose.Cells biedt verschillende versies voor verschillende talen, waaronder Java en Python.
 ### Hoe krijg ik technische ondersteuning voor Aspose.Cells?

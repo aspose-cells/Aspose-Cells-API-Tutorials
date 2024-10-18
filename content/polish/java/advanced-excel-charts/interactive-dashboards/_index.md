@@ -104,7 +104,7 @@ Gratulacje! Nauczyłeś się, jak tworzyć interaktywne pulpity nawigacyjne przy
 
 Możesz dostosować wygląd wykresu, uzyskując dostęp do różnych właściwości wykresu, takich jak tytuły, etykiety, kolory i style, korzystając z interfejsu API Aspose.Cells for Java.
 
-### Czy mogę zintegrować dane ze źródeł zewnętrznych z moim pulpitem nawigacyjnym?
+### Czy mogę zintegrować dane z zewnętrznych źródeł z moim pulpitem nawigacyjnym?
 
 Tak, Aspose.Cells for Java pozwala importować dane z różnych źródeł, w tym baz danych i plików zewnętrznych, i uwzględniać je w pulpicie nawigacyjnym.
 

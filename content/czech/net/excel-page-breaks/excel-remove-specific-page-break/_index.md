@@ -53,18 +53,18 @@ Nejprve musíte určit, kde jsou uloženy vaše dokumenty Excel. To pomáhá kó
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vysvětlení: Vyměnit`YOUR DOCUMENT DIRECTORY`se skutečnou cestou k vašim souborům. Zde načtete soubor Excel a uložíte jej později.
+ Vysvětlení: Vyměnit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou k vašim souborům. Zde načtete soubor Excel a uložíte jej později.
 
 ## Krok 2: Vytvořte instanci objektu sešitu
 
 Dále musíme načíst náš sešit. Jednoduše řečeno, představte si sešit jako soubor aplikace Excel.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Vysvětlení: Tento řádek vytváří novou instanci a`Workbook` , který načte zadaný soubor Excel (v tomto příkladu se jmenuje`PageBreaks.xls`). 
+Vysvětlení: Tento řádek vytváří novou instanci a`Workbook` , který načte zadaný soubor Excel (v tomto příkladu se jmenuje`PageBreaks.xls`). 
 
 ## Krok 3: Odstraňte vodorovný konec stránky
 

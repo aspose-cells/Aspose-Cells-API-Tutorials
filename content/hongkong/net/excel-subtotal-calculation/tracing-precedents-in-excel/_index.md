@@ -2,7 +2,7 @@
 title: 在 Excel 中追蹤先例
 linktitle: 在 Excel 中追蹤先例
 second_title: Aspose.Cells .NET Excel 處理 API
-description: 了解如何使用 Aspose.Cells for .NET 在 Excel 中追蹤先例！探索逐步程式碼教程，增強您的電子表格技能。
+description: 了解如何使用 Aspose.Cells for .NET 在 Excel 中追蹤先例！了解逐步程式碼教程，增強您的電子表格技能。
 type: docs
 weight: 11
 url: /zh-hant/net/excel-subtotal-calculation/tracing-precedents-in-excel/
@@ -74,7 +74,7 @@ foreach (ReferredArea area in ret)
 在此程式碼片段中，我們使用一個簡單的`foreach`循環列印輸入到 B4 的儲存格的工作表名稱和儲存格參考。這`CellsHelper.CellIndexToName`函數將行和列索引轉換為可讀的儲存格引用，例如“A1”、“B2”等。 
 
 ## 結論
-現在你就擁有了！您已使用 Aspose.Cells for .NET 在 Excel 中成功追蹤先例。了解單元格依賴性可以增強您的電子表格管理技能，並讓您的數據驅動決策更加清晰。這有點像是解決難題，將資料的來源拼湊在一起。現在繼續，在您自己的數據上嘗試一下，並釋放 Aspose.Cells 的力量！
+現在你就得到它了！您已使用 Aspose.Cells for .NET 在 Excel 中成功追蹤先例。了解單元格依賴性可以增強您的電子表格管理技能，並讓您的數據驅動決策更加清晰。這有點像是解決難題，將資料的來源拼湊在一起。現在繼續，在您自己的數據上嘗試一下，並釋放 Aspose.Cells 的力量！
 ## 常見問題解答
 ### 什麼是 Aspose.Cells？  
 Aspose.Cells 是一個 .NET 函式庫，用於在不使用 Microsoft Excel 的情況下建立、操作和轉換 Excel 電子表格。

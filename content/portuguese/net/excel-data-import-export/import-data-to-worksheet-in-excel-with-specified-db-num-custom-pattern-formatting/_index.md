@@ -1,7 +1,7 @@
 ---
 title: Importar dados para o Excel com formatação de padrão numérico de banco de dados personalizado
 linktitle: Importar dados para o Excel com formatação de padrão numérico de banco de dados personalizado
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a importar dados para o Excel com formatação DB Num personalizada usando o Aspose.Cells para .NET neste tutorial fácil de seguir.
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ Quando se trata de manipulação de planilhas, importar dados para o Excel e for
 Antes de pularmos para o âmago da questão, vamos garantir que você tenha tudo o que precisa. Aqui está uma lista de verificação rápida de pré-requisitos para prepará-lo para o sucesso:
 
 1. .NET Framework: Certifique-se de ter o .NET Framework instalado em sua máquina. O Aspose.Cells funciona perfeitamente com várias versões do .NET.
-2.  Aspose.Cells para .NET: Você precisará baixar e instalar a biblioteca Aspose.Cells. Você pode obtê-la do[link para download](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells para .NET: Você precisará baixar e instalar a biblioteca Aspose.Cells. Você pode obtê-la do[link para download](https://releases.aspose.com/cells/net/).
 3. Ambiente de Desenvolvimento Integrado (IDE): Use um IDE como o Visual Studio, onde você pode escrever e executar seu código C#.
 4. Conhecimento básico de C#: Ter um conhecimento básico de C# ajudará você a acompanhar as práticas de codificação que usaremos neste guia.
 
@@ -67,7 +67,7 @@ Em seguida, você criará uma nova pasta de trabalho, que é basicamente seu arq
 Workbook wb = new Workbook();
 ```
 
-Aqui, estamos instanciando um novo`Workbook` objeto. Esta é sua tela em branco!
+ Aqui, estamos instanciando um novo`Workbook` objeto. Esta é sua tela em branco!
 
 ## Etapa 3: Acesse a primeira planilha
 
@@ -108,7 +108,7 @@ Ao escolher o estilo da célula, você estará se preparando para adicionar seu 
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Esta linha informa ao Excel para formatar o número`123` de acordo com o padrão DBNum correspondente à língua chinesa. Bem legal, né?
+ Esta linha informa ao Excel para formatar o número`123` de acordo com o padrão DBNum correspondente à língua chinesa. Bem legal, né?
 
 ## Etapa 7: Defina o estilo de célula atualizado
 

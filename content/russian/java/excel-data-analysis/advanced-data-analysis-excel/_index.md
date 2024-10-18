@@ -54,7 +54,7 @@ workbook.save("updated_sample.xlsx");
 
 ## Извлечение и преобразование данных
 
-Aspose.Cells for Java позволяет вам извлекать данные из листов Excel без усилий. Вы можете легко выполнять преобразования данных, такие как фильтрация, сортировка и слияние.
+Aspose.Cells for Java позволяет вам извлекать данные из листов Excel без усилий. Вы можете выполнять преобразования данных, такие как фильтрация, сортировка и слияние, с легкостью.
 
 ```java
 // Извлечь данные из диапазона
@@ -103,7 +103,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Установить источник данных
 chart.setChartData("A1:B10", true);
 
-// Настроить диаграмму
+// Настройте диаграмму
 chart.getTitle().setText("Sales Analysis");
 chart.getAxes().getHorizontalAxis().setTitle("Months");
 chart.getAxes().getVerticalAxis().setTitle("Sales");

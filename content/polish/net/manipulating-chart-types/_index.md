@@ -21,16 +21,16 @@ Czy jesteś gotowy, aby przekształcić swoje dane w oszałamiające wizualizacj
  Trzeba porównać proporcje na pierwszy rzut oka?[Utwórz wykres kołowy](./create-pie-chart/) samouczek uczy, jak zamienić dane z Excela w prostą, skuteczną wizualizację. Wykresy kołowe są idealne do pokazania, jak różne części składają się na całość — tak jak krojenie pizzy!
 
 ## Utwórz wykres piramidalny
- Czy kiedykolwiek myślałeś o wizualizacji danych w piramidzie?[Utwórz wykres piramidalny](./create-pyramid-chart/)tutorial nauczy Cię, jak utworzyć ten charakterystyczny wykres przy użyciu Aspose.Cells dla .NET. Wykresy piramidalne są idealne dla danych hierarchicznych lub danych, które naturalnie spływają w dół. Pomyśl o tym jak o budowaniu piramidy z bloków danych ułożonych jeden na drugim — proste, ale skuteczne w prezentacjach.
+ Czy kiedykolwiek myślałeś o wizualizacji danych w piramidzie?[Utwórz wykres piramidalny](./create-pyramid-chart/) tutorial nauczy Cię, jak utworzyć ten charakterystyczny wykres przy użyciu Aspose.Cells dla .NET. Wykresy piramidalne są idealne dla danych hierarchicznych lub danych, które naturalnie spływają w dół. Pomyśl o tym jak o budowaniu piramidy z bloków danych ułożonych jeden na drugim — proste, ale potężne w prezentacjach.
 
 ## Modyfikuj wykres liniowy
- Więc stworzyłeś swój wykres liniowy, ale teraz nadszedł czas, aby go udoskonalić.[Modyfikuj wykres liniowy](./modify-line-chart/) samouczek przeprowadzi Cię przez modyfikację istniejących wykresów liniowych. Niezależnie od tego, czy chodzi o zmianę kolorów, dostosowanie osi, czy modyfikację serii danych, ten przewodnik Cię obejmie. Pomyśl o tym jak o edycji zdjęcia — masz już podstawy, teraz chodzi o to, aby błyszczały!
+ Więc stworzyłeś swój wykres liniowy, ale teraz nadszedł czas, aby go udoskonalić.[Modyfikuj wykres liniowy](./modify-line-chart/)samouczek przeprowadzi Cię przez modyfikację istniejących wykresów liniowych. Niezależnie od tego, czy chodzi o zmianę kolorów, dostosowanie osi, czy modyfikację serii danych, ten przewodnik Cię obejmie. Pomyśl o tym jak o edycji zdjęcia — masz już podstawy, teraz chodzi o to, aby błyszczały!
 
 ### Modyfikuj wykres kołowy
- Wykresy kołowe mogą być świetne, ale czasami trzeba wprowadzić kilka zmian, aby lepiej przedstawić dane. Dzięki[Modyfikuj wykres kołowy](./modify-pie-chart/)samouczek, nauczysz się, jak dostosować wykresy kołowe, aby dokładnie pasowały do danych. Być może musisz dostosować wycinki, zmienić kolory, a nawet rozbić wycinek, aby go podkreślić — ten przewodnik pokaże Ci, jak to zrobić!
+ Wykresy kołowe mogą być świetne, ale czasami trzeba wprowadzić kilka zmian, aby lepiej przedstawić dane. Dzięki[Modyfikuj wykres kołowy](./modify-pie-chart/) samouczek, nauczysz się, jak dostosować wykresy kołowe, aby dokładnie pasowały do danych. Być może musisz dostosować wycinki, zmienić kolory, a nawet rozbić wycinek, aby podkreślić — ten przewodnik pokaże Ci, jak to zrobić!
 
 ### Zastosuj kolor motywu Microsoft w serii wykresów
- Chcesz, aby Twoje wykresy były zgodne z marką Twojej firmy? Dowiedz się, jak to zrobić[Zastosuj kolor motywu Microsoft w serii wykresów](./apply-microsoft-theme-color-in-chart-series/) używając Aspose.Cells dla .NET. Ten samouczek pokazuje, jak dopasować schemat kolorów wykresu do kolorów motywu Microsoft, zapewniając profesjonalny i spójny wygląd prezentacji. To jak ubieranie danych w idealny, pasujący garnitur!
+ Chcesz, aby Twoje wykresy były zgodne z marką Twojej firmy? Dowiedz się, jak to zrobić[Zastosuj kolor motywu Microsoft w serii wykresów](./apply-microsoft-theme-color-in-chart-series/)używając Aspose.Cells dla .NET. Ten samouczek pokazuje, jak dopasować schemat kolorów wykresu do kolorów motywu Microsoft, zapewniając profesjonalny i spójny wygląd prezentacji. To jak ubieranie danych w idealny, pasujący garnitur!
 
 ## Manipulowanie typami wykresów - samouczki
 ### [Utwórz niestandardowy wykres](./create-custom-chart/)

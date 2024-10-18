@@ -58,7 +58,7 @@ Bây giờ, hãy tải tệp Excel có chứa Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Các`Workbook` class là điểm vào của bạn vào tệp Excel. Bằng cách truyền đường dẫn của tệp nguồn, chúng ta đang tạo một thể hiện cho phép chúng ta thao tác nó. Bạn có thể tưởng tượng nó giống như việc mở một cuốn sách—bạn đang chuẩn bị đọc (hoặc chỉnh sửa) nội dung của nó.
+ Các`Workbook` class là điểm vào của bạn vào tệp Excel. Bằng cách truyền đường dẫn đến tệp nguồn của chúng tôi, chúng tôi đang tạo một thể hiện cho phép chúng tôi thao tác nó. Bạn có thể tưởng tượng nó giống như việc mở một cuốn sách—bạn đang chuẩn bị đọc (hoặc chỉnh sửa) nội dung của nó.
 
 ## Bước 3: Truy cập vào Data Mashup
 

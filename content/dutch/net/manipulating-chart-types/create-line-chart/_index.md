@@ -15,7 +15,7 @@ Bent u klaar om uw gegevens in verbluffende helderheid te visualiseren? Lijndiag
 
 Voordat we in de details duiken van het maken van een lijndiagram, willen we eerst controleren of u alles goed kunt volgen:
 
-1. Visual Studio: Zorg ervoor dat Visual Studio op uw computer is geïnstalleerd, aangezien dit een van de populairste IDE's is voor .NET-ontwikkeling.
+1. Visual Studio: Zorg ervoor dat Visual Studio op uw computer is geïnstalleerd, aangezien dit een van de populairste IDE's voor .NET-ontwikkeling is.
 2.  Aspose.Cells voor .NET-bibliotheek: U hebt de Aspose.Cells-bibliotheek nodig, die u kunt downloaden van[hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van de programmeertaal C# helpt u de voorbeelden en codefragmenten beter te begrijpen.
 4. .NET Framework of .NET Core: Een basisconfiguratie van een van beide frameworks, aangezien dit de basis vormt voor onze applicaties.
@@ -57,14 +57,14 @@ string outputDir = "Your Output Directory";
 Vervolgens moeten we een nieuwe workbook-instantie maken. Beschouw de Workbook als het canvas waar uw creativiteit op zal stromen. 
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 Met deze regel wordt een nieuwe werkmap geïnitialiseerd die al uw gegevens en afbeeldingen bevat.
 
 ## Stap 3: Toegang tot het werkblad
 
-In onze nieuw gecreëerde werkmap moeten we een referentie krijgen naar het werkblad waar we onze gegevens zullen invoeren. Als de werkmap ons canvas is, dan is het werkblad ons palet.
+In onze nieuw gecreëerde werkmap moeten we een referentie krijgen naar het werkblad waar we onze gegevens invoeren. Als de werkmap ons canvas is, dan is het werkblad ons palet.
 
 ```csharp
 // De referentie van het nieuw toegevoegde werkblad verkrijgen door de index van het werkblad door te geven
@@ -85,7 +85,7 @@ worksheet.Cells["B1"].PutValue(4);
 worksheet.Cells["B2"].PutValue(20);
 worksheet.Cells["B3"].PutValue(50);
 ```
-In dit fragment voegen we waarden toe aan cellen in de kolommen A en B. Kolom A vertegenwoordigt de X-aswaarden, terwijl kolom B de Y-aswaarden vertegenwoordigt.
+In dit fragment voegen we waarden toe aan cellen in de kolommen A en B. Kolom A vertegenwoordigt de waarden op de X-as, terwijl kolom B de waarden op de Y-as vertegenwoordigt.
 
 ## Stap 5: Voeg een lijndiagram toe aan het werkblad
 

@@ -8,9 +8,9 @@ weight: 10
 url: /vi/net/excel-range-address-calculation/create-union-range-of-cells-in-excel/
 ---
 ## Giới thiệu
-Bạn đang muốn nâng cao kỹ năng Excel của mình theo chương trình? Vâng, bạn đã đến đúng trang rồi! Hôm nay, chúng ta sẽ khám phá thế giới hấp dẫn của Aspose.Cells dành cho .NET, một thư viện mạnh mẽ giúp việc thao tác các tệp Excel trở nên dễ dàng. Cụ thể, chúng ta sẽ tìm hiểu cách tạo một phạm vi hợp nhất các ô trong Excel. Tính năng này đặc biệt hữu ích khi bạn muốn thực hiện các phép toán trên các phạm vi ô không liền kề một cách liền mạch. Vì vậy, cho dù bạn là một lập trình viên có kinh nghiệm hay là một người mới bắt đầu tò mò, hãy cùng bắt đầu hành trình thú vị này!
+Bạn đang muốn nâng cao kỹ năng Excel của mình theo chương trình? Vâng, bạn đã đến đúng trang rồi! Hôm nay, chúng ta sẽ khám phá thế giới hấp dẫn của Aspose.Cells cho .NET, một thư viện mạnh mẽ giúp việc thao tác các tệp Excel trở nên dễ dàng. Cụ thể, chúng ta sẽ tìm hiểu cách tạo một phạm vi hợp nhất các ô trong Excel. Tính năng này đặc biệt hữu ích khi bạn muốn thực hiện các phép toán trên các phạm vi ô không liền kề một cách liền mạch. Vì vậy, cho dù bạn là một lập trình viên có kinh nghiệm hay là một người mới bắt đầu tò mò, hãy cùng bắt đầu hành trình thú vị này!
 ## Điều kiện tiên quyết
-Trước khi đi sâu vào các chi tiết cơ bản để tạo một dãy ô hợp nhất, chúng ta hãy thiết lập đúng bối cảnh. Sau đây là một số điều kiện tiên quyết để bạn bắt đầu:
+Trước khi đi sâu vào các chi tiết cơ bản để tạo một phạm vi hợp nhất các ô, chúng ta hãy thiết lập đúng giai đoạn. Sau đây là một số điều kiện tiên quyết để bạn bắt đầu:
 - Kiến thức cơ bản về C#: Kiến thức thực tế về lập trình C# sẽ có lợi, đặc biệt nếu bạn có kinh nghiệm thực tế về lập trình hướng đối tượng.
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 -  Thư viện Aspose.Cells: Bạn phải có thư viện Aspose.Cells. Bạn có thể dễ dàng[tải xuống ở đây](https://releases.aspose.com/cells/net/).
@@ -30,12 +30,12 @@ Lệnh này bao gồm không gian tên Aspose.Cells, chứa tất cả các lớ
 
 Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình tạo phạm vi hợp nhất thành các bước dễ quản lý.
 ## Bước 1: Khởi tạo một đối tượng Workbook
-Bước đầu tiên trong mã của chúng ta bao gồm việc tạo một thể hiện của đối tượng Workbook. Hãy nghĩ về Workbook như một bức tranh trống nơi chúng ta sẽ vẽ kiệt tác của mình.
+Bước đầu tiên trong mã của chúng ta bao gồm việc tạo một thể hiện của đối tượng Workbook. Hãy nghĩ về Workbook như một bức tranh vải trắng nơi chúng ta sẽ vẽ kiệt tác của mình.
 ```csharp
 // Thư mục đầu ra
 string outputDir = "Your Document Directory"();
 
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 Dòng mã này yêu cầu chương trình của chúng ta tạo một sổ làm việc mới. Điều này rất cần thiết vì bạn sẽ thêm phạm vi và giá trị vào sổ làm việc này.

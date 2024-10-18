@@ -27,7 +27,7 @@ url: /zh/java/data-validation-rules/creating-custom-data-validation/
 让我们首先使用 Aspose.Cells for Java 创建一个新的 Excel 工作簿。
 
 ```java
-//用于创建新 Excel 工作簿的 Java 代码
+// Java 代码用于创建新的 Excel 工作簿
 Workbook workbook = new Workbook();
 ```
 

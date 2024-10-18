@@ -2,7 +2,7 @@
 title: معالجة Excel بالدفعات
 linktitle: معالجة Excel بالدفعات
 second_title: واجهة برمجة تطبيقات معالجة Excel في Java من Aspose.Cells
-description: اكتشف كيفية تبسيط مهام معالجة Excel بالدفعات باستخدام Aspose.Cells for Java. قم بأتمتة معالجة البيانات وتحويلها ومعالجتها باستخدام أمثلة التعليمات البرمجية المصدرية.
+description: اكتشف كيفية تبسيط مهام معالجة Excel المجمعة باستخدام Aspose.Cells for Java. قم بأتمتة معالجة البيانات وتحويلها ومعالجتها باستخدام أمثلة التعليمات البرمجية المصدرية.
 type: docs
 weight: 10
 url: /ar/java/spreadsheet-automation/batch-excel-processing/

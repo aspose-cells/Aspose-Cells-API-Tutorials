@@ -37,7 +37,7 @@ Antes de comenzar cualquier codificación, es fundamental configurar correctamen
 
 1.  Crear un nuevo proyecto: abra Visual Studio, cree un nuevo proyecto de aplicación de consola y asígnele un nombre descriptivo, como`HideExcelTabs`.
 2. Agregue la referencia de Aspose.Cells: vaya al Administrador de paquetes NuGet y busque “Aspose.Cells para .NET”. Instálelo en su proyecto.
- Alternativamente, si estás trabajando sin conexión, puedes[Descargar Aspose.Cells para .NET](https://releases.aspose.com/cells/net/) y agregue el archivo DLL manualmente a las referencias de su proyecto.
+ Alternativamente, si trabaja sin conexión, puede:[Descargar Aspose.Cells para .NET](https://releases.aspose.com/cells/net/) y agregue el archivo DLL manualmente a las referencias de su proyecto.
 3. Prepare el archivo Excel: Coloque el archivo Excel que desea modificar (por ejemplo,`book1.xls`) en el directorio de tu proyecto. Asegúrate de conocer la ruta del archivo.
 
 ## Paso 2: Abra el archivo Excel
@@ -91,7 +91,7 @@ workbook.Save(dataDir + "output.xls");
 
  Aquí, guardamos el libro de trabajo modificado como`output.xls` en el mismo directorio. Puedes nombrar el archivo como quieras.
 
-Guardar es fundamental. Sin este paso, todos los cambios realizados en el libro de trabajo se perderán una vez que se cierre el programa.
+Guardar es fundamental. Sin este paso, todos los cambios realizados en el libro de trabajo se perderán una vez que se salga del programa.
 
 ## Conclusión
 

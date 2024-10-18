@@ -32,7 +32,7 @@ Aspose.Cells for Java는 Java 개발자가 Excel 파일을 프로그래밍 방�
 Aspose.Cells for Java를 사용하여 필수 Excel 함수를 탐색하세요. 튜토리얼에서는 기본 사항을 단계별로 다룹니다. 스프레드시트 조작을 시작하세요
 ### [데이터 검증 규칙](./data-validation-rules/)
 Aspose.Cells for Java를 사용한 마스터 데이터 검증 규칙. 오류 없는 Excel 시트를 만드세요. 지금 포괄적인 튜토리얼을 살펴보세요!
-### [Excel 데이터 분석](./excel-data-analysis/)
+### [엑셀 데이터 분석](./excel-data-analysis/)
 Aspose.Cells for Java로 강력한 Excel 데이터 분석을 잠금 해제하세요. Java 개발자를 위한 단계별 튜토리얼을 살펴보세요. 오늘 데이터 통찰력을 마스터하세요. 
 ### [Excel 피벗 테이블](./excel-pivot-tables/)
 Aspose.Cells for Java로 Excel 피벗 테이블을 마스터하세요. 데이터를 손쉽게 만들고, 사용자 지정하고, 분석하는 방법을 알아보세요.

@@ -98,7 +98,7 @@ Worksheet ws1 = excelWorkbook1.Worksheets[0];
 // Benennen Sie das Arbeitsblatt
 ws1.Name = "MySheet";
 ```
-Wir haben eine neue Arbeitsmappe erstellt (`excelWorkbook1`) und das erste Arbeitsblatt in „MeinBlatt“ umbenannt. Es ist immer eine gute Idee, Ihren Blättern aussagekräftige Namen zu geben, um später leichter darauf zugreifen zu können.
+Wir haben eine neue Arbeitsmappe erstellt (`excelWorkbook1`) und das erste Arbeitsblatt in „MySheet“ umbenannt. Es ist immer eine gute Idee, Ihren Blättern aussagekräftige Namen zu geben, um später leichter darauf zugreifen zu können.
 
 ## Schritt 5: Kopieren Sie das Arbeitsblatt
 
@@ -137,7 +137,7 @@ Aspose.Cells ist eine .NET-Bibliothek, mit der Entwickler Excel-Dateien in versc
  Sie können eine temporäre Lizenz anfordern unter[dieser Link](https://purchase.aspose.com/temporary-license/).
 
 ### Wo finde ich weitere Dokumentation zu Aspose.Cells?  
-Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
+ Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
 
 ### Gibt es Support für Aspose.Cells-Benutzer?  
  Auf jeden Fall! Sie erhalten Unterstützung durch das[Aspose-Forum](https://forum.aspose.com/c/cells/9).

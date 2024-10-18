@@ -122,7 +122,7 @@ Bạn sẽ thấy kích thước trang của cả hai trang tính khớp nhau sa
 ## Bước 8: Lưu sổ làm việc của bạn
 
 Lưu thay đổi của bạn:
-Đừng quên lưu lại sổ làm việc của bạn sau khi đã làm việc chăm chỉ nhé!
+Đừng quên lưu lại sổ làm việc của bạn sau tất cả những công sức bỏ ra nhé!
 
 ```csharp
 wb.Save("CopiedPageSetupExample.xlsx");
@@ -140,10 +140,10 @@ Sử dụng Aspose.Cells cho .NET giúp quản lý bảng tính dễ dàng. Bạ
 Aspose.Cells là một thư viện mạnh mẽ để làm việc với bảng tính trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?  
-Aspose.Cells chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng cũng có các thư viện Aspose khác dành cho các ngôn ngữ khác nhau.
+Aspose.Cells chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng cũng có các thư viện Aspose khác dành cho các ngôn ngữ khác.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?  
- Vâng, bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) của Aspose.Cells.
+ Có, bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) của Aspose.Cells.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?  
  Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

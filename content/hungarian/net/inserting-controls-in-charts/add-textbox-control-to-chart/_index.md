@@ -15,8 +15,8 @@ A dinamikus és tetszetős diagramok Excelben készítése fantasztikus módja a
 
 Mielőtt belevágnánk a kódolásba, van néhány dolog, amit a helyén kell tartani:
 
-- C# alapvető ismerete: Hasznos lesz a C# programozás alapvető ismerete. Ne aggódj; nem kell szakértőnek lenni, csak kényelmesen eligazodni a szintaxisban.
--  Telepített Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells for .NET könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+- A C# alapvető ismerete: Hasznos lesz a C# programozás alapvető ismerete. Ne aggódj; nem kell szakértőnek lenni, csak kényelmesen eligazodni a szintaxisban.
+- Telepített Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells for .NET könyvtár. Letöltheti innen[itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 - Visual Studio: Alapvető fontosságú a Visual Studio vagy bármely olyan IDE ismerete, amelyet a .NET keretrendszerhez szeretne használni.
 - Meglévő Excel-fájl: Ebben a példában egy "sampleAddingTextBoxControlInChart.xls" nevű meglévő Excel-fájllal fogunk dolgozni. Létrehozhat egyet, vagy letölthet egy mintát.
 
@@ -110,7 +110,7 @@ Ezen sorok mindegyike módosítja a szöveg megjelenését a TextBoxban, javítv
 
 ## 7. lépés: Formázza meg a szövegdoboz megjelenését
 
-TextBox hátterének és szegélyének formázása is elengedhetetlen. Ez kiemeli a diagramon.
+A TextBox hátterének és szegélyének formázása is elengedhetetlen. Ez kiemeli a diagramon.
 
 ```csharp
 // Szerezze meg a szövegdoboz kitöltési formátumát.
@@ -136,7 +136,7 @@ Az utolsó lépés az elvégzett módosítások mentése egy új Excel-fájlba. 
 // Mentse el az excel fájlt.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Cserélje ki`"outputAddingTextBoxControlInChart.xls"` a kívánt fájlnévvel.
+ Cserélje ki`"outputAddingTextBoxControlInChart.xls"` kívánt fájlnévvel.
 
 ## Következtetés
 

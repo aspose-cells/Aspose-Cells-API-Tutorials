@@ -63,7 +63,7 @@ Questa riga inizializza un nuovo oggetto cartella di lavoro che andremo a modifi
 Ogni cartella di lavoro può avere più fogli di lavoro e, per il nostro scopo, accederemo al primo. Immagina di aprire una scheda in un file Excel.
 
 ```csharp
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Ora abbiamo accesso al primo foglio di lavoro in cui creeremo il nostro interval
 Ora è il momento di creare l'intervallo denominato. Un intervallo denominato consente di definire un set specifico di celle nel foglio di lavoro.
 
 ```csharp
-//Creazione di un intervallo denominato
+// Creazione di un intervallo denominato
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Dopo aver apportato tutte queste modifiche, il passo successivo è salvare la ca
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Questa riga salva le modifiche in un file denominato`outputCreateNamedRangeofCells.xlsx`Assicurati che il percorso specificato sia corretto; in caso contrario, il programma genererà un errore!
+ Questa riga salva le modifiche in un file denominato`outputCreateNamedRangeofCells.xlsx`Assicurati che il percorso specificato sia corretto; in caso contrario, il programma genererà un errore!
 
 ## Fase 8: Verificare il successo dell'operazione
 
@@ -127,7 +127,7 @@ Ora puoi eseguire il programma e, se tutto è impostato correttamente, vedrai un
 
 ## Conclusione
 
-Creare intervalli denominati in Excel può semplificare notevolmente la gestione dei dati e rendere le formule più facili da comprendere. Con Aspose.Cells per .NET, si tratta di un'attività semplice che può migliorare la funzionalità dei file Excel. Con i passaggi che abbiamo trattato, dovresti ora essere in grado di creare un intervallo denominato e applicarvi degli stili, rendendo i dati non solo funzionali ma anche visivamente gestibili.
+La creazione di intervalli denominati in Excel può semplificare notevolmente la gestione dei dati e rendere le formule più facili da comprendere. Con Aspose.Cells per .NET, si tratta di un'attività semplice che può migliorare la funzionalità dei file Excel. Con i passaggi che abbiamo trattato, dovresti ora essere in grado di creare un intervallo denominato e di applicarvi degli stili, rendendo i dati non solo funzionali ma anche visivamente gestibili.
 
 ## Domande frequenti
 

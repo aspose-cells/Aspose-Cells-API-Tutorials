@@ -9,13 +9,13 @@ url: /id/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
 ## Perkenalan
 
-Pernahkah Anda menyalin lembar kerja antar-buku kerja Excel secara manual? Ini seperti mencoba melakukan juggling sambil mengendarai sepeda roda satu! Namun dengan Aspose.Cells for .NET, Anda dapat menyederhanakan tugas ini dan membuatnya semudah mengiris mentega. Baik Anda mengelola kumpulan data besar atau perlu menggabungkan informasi, menyalin lembar kerja antar-buku kerja dapat menghemat banyak waktu. Dalam tutorial ini, kami akan menunjukkan kepada Anda cara melakukannya dengan tepat menggunakan Aspose.Cells for .NET. Di akhir panduan ini, Anda akan dapat menyelesaikan tugas Excel dengan mudah.
+Pernahkah Anda menyalin lembar kerja antar-buku kerja Excel secara manual? Ini seperti mencoba melakukan juggling sambil mengendarai sepeda roda satu! Namun dengan Aspose.Cells for .NET, Anda dapat menyederhanakan tugas ini dan membuatnya semudah mengiris mentega. Baik Anda mengelola set data besar atau perlu menggabungkan informasi, menyalin lembar kerja antar-buku kerja dapat menghemat banyak waktu. Dalam tutorial ini, kami akan menunjukkan kepada Anda cara melakukannya dengan tepat menggunakan Aspose.Cells for .NET. Di akhir panduan ini, Anda akan dapat menyelesaikan tugas Excel dengan mudah.
 
 ## Prasyarat
 
 Sebelum kita menyelami kodenya, mari pastikan Anda dilengkapi dengan alat yang tepat untuk memulai:
 
--  Aspose.Cells untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
+- Aspose.Cells untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 - Visual Studio atau IDE apa pun yang mendukung kerangka kerja .NET.
 -  Lisensi yang valid atau[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda ingin menguji fungsionalitas penuh Aspose.Cells.
 - Pemahaman dasar tentang C# dan kerangka kerja .NET.
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Sekarang setelah Anda membuka buku kerja pertama, saatnya membuat buku kerja kosong lain tempat Anda akan menempelkan lembar kerja yang disalin. Anggap saja ini seperti membuka buku catatan kosong baru tempat Anda akan mentransfer data.
 
 ```csharp
-// Buat Buku Kerja lainnya.
+//Buat Buku Kerja lainnya.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Terakhir, Anda akan menyimpan buku kerja kedua dengan lembar kerja yang disalin. Ini seperti menyimpan catatan yang baru Anda tulis di folder baru di komputer Anda.
 
 ```csharp
-//Simpan berkasnya.
+// Simpan berkasnya.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

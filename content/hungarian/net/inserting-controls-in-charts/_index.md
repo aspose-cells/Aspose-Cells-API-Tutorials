@@ -21,7 +21,7 @@ További kontextust szeretne hozzáadni Excel diagramjaihoz? A címkék óriási
 
 Egy kép többet ér ezer szónál, nem? Ez vonatkozik az Excel diagramokra is. A .NET-hez készült Aspose.Cells segítségével képeket adhat hozzá a diagramokhoz olyan egyszerű, mintha clipart-ot szúrna be egy Word-dokumentumba. A képek segíthetnek a diagramok látványosabbá tételében, növelve az elköteleződést a bemutatott adatokkal. Függetlenül attól, hogy pénzügyi adatokat vagy eladási adatokat mutat be, a releváns képek hozzáadásával az adatok összekapcsolhatók a narratívával.
 
-Kíváncsi, hogyan működik ez? Nézze meg a[Kép hozzáadása a diagramhoz](./add-picture-to-chart/) oktatóanyag.
+ Kíváncsi, hogyan működik ez? Nézze meg a[Kép hozzáadása a diagramhoz](./add-picture-to-chart/) oktatóanyag.
 
 ## Szövegdobozok és jelölőnégyzetek beszúrása
 

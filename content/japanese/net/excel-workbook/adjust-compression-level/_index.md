@@ -100,7 +100,7 @@ elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 6 Elapsed Time: " + elapsedMs);
 ```
 
-今回は圧縮タイプをレベル6に設定し、保存操作を繰り返します。
+今回は圧縮タイプをレベル6に設定して保存操作を繰り返します。
 
 ### レベル9圧縮
 

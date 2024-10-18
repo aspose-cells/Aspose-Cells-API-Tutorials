@@ -9,7 +9,7 @@ url: /es/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cel
 ---
 ## Introducción
 
-Al trabajar con archivos de Excel, es posible que te encuentres en situaciones en las que necesites conservar un prefijo de comillas simples en los valores de las celdas. Esto puede ser particularmente crucial cuando los datos con los que estás trabajando necesitan un cuidado adicional, como en el caso de los identificadores o cadenas en los que no quieres que Excel interprete el valor. En esta guía, vamos a profundizar en cómo lograr esto usando Aspose.Cells para .NET. Así que, toma tu bebida favorita y ¡comencemos!
+Al trabajar con archivos de Excel, es posible que te encuentres en situaciones en las que necesites conservar un prefijo de comillas simples en los valores de las celdas. Esto puede ser particularmente crucial cuando los datos con los que estás trabajando necesitan un cuidado adicional, como en el caso de identificadores o cadenas en los que no quieres que Excel interprete el valor. En esta guía, vamos a profundizar en cómo lograr esto usando Aspose.Cells para .NET. Así que, toma tu bebida favorita y ¡comencemos!
 
 ## Prerrequisitos
 
@@ -56,7 +56,7 @@ Workbook wb = new Workbook();
 
 ## Paso 2: Acceda a la hoja de trabajo
 
-continuación, tenemos en nuestras manos la primera hoja de trabajo del libro de ejercicios. Aquí es donde se llevará a cabo nuestra acción.
+continuación, nos hacemos con la primera hoja de trabajo del libro de ejercicios. Aquí es donde se desarrollará nuestra acción.
 
 ```csharp
 // Acceda a la primera hoja de trabajo
@@ -179,7 +179,7 @@ En este punto, la salida debería mostrar falso ya que indicamos explícitamente
 
 ## Conclusión
 
-¡Y ya está! Siguiendo estos pasos, aprendió a conservar el prefijo de comillas simples en los valores de las celdas al usar Aspose.Cells para .NET. Si bien puede parecer un detalle menor, mantener la integridad de los datos en Excel puede ser crucial en muchas aplicaciones, especialmente si maneja identificadores o cadenas con formato. 
+¡Y ya está! Si sigue estos pasos, habrá aprendido a conservar el prefijo de comillas simples en los valores de las celdas al utilizar Aspose.Cells para .NET. Aunque parezca un detalle menor, mantener la integridad de los datos en Excel puede ser crucial en muchas aplicaciones, especialmente si maneja identificadores o cadenas con formato. 
 
 ## Preguntas frecuentes
 

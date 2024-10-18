@@ -86,7 +86,7 @@ dataValidation.setFormula2("12/31/2023");
 
 ### Java용 Aspose.Cells를 어떻게 다운로드하나요?
 
- Java용 Aspose.Cells를 다운로드할 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/java/).
+ Aspose.Cells for Java는 다음에서 다운로드할 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/java/).
 
 ### Java용 Aspose.Cells를 사용하여 사용자 정의 검증 규칙을 만들 수 있나요?
 

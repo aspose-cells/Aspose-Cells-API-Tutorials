@@ -9,7 +9,7 @@ url: /de/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 ## Einführung
 
-Wenn Sie programmgesteuert mit Excel-Dateien arbeiten, besteht eine der häufigsten Aufgaben darin, Zellen innerhalb eines benannten Bereichs zusammenzuführen. Egal, ob Sie die Berichterstellung automatisieren, Dashboards erstellen oder einfach große Datensätze verwalten, das Zusammenführen von Zellen ist eine wichtige Technik. In diesem Tutorial erfahren Sie, wie Sie Zellen in einem benannten Bereich mithilfe von Aspose.Cells für .NET zusammenführen – einer leistungsstarken Bibliothek, mit der Entwickler Excel-Dateien bearbeiten können, ohne Microsoft Excel installieren zu müssen.
+Wenn Sie programmgesteuert mit Excel-Dateien arbeiten, besteht eine der häufigsten Aufgaben darin, Zellen innerhalb eines benannten Bereichs zusammenzuführen. Egal, ob Sie die Berichterstellung automatisieren, Dashboards erstellen oder einfach große Datensätze verwalten, das Zusammenführen von Zellen ist eine wichtige Technik. In diesem Tutorial erfahren Sie, wie Sie Zellen in einem benannten Bereich mit Aspose.Cells für .NET zusammenführen – einer leistungsstarken Bibliothek, mit der Entwickler Excel-Dateien bearbeiten können, ohne Microsoft Excel installieren zu müssen.
 
 ## Voraussetzungen
 
@@ -68,7 +68,7 @@ Hier wählen wir Zellen von D6 bis I12 aus – ein Block, der mehrere Zeilen und
 
 ## Schritt 4: Benennen Sie den Bereich
 
-Durch die Benennung eines Bereichs lässt sich später leichter darauf verweisen, insbesondere bei großen Datensätzen.
+Durch die Benennung eines Bereichs können Sie später leichter darauf verweisen, insbesondere bei großen Datensätzen.
 
 ```csharp
 // Benennen Sie den Bereich.
@@ -159,7 +159,7 @@ Dabei wird die Arbeitsmappe unter dem Namen "outputMergeCellsInNamedRange.xlsx" 
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich Zellen in einem benannten Bereich zusammengeführt, einige schöne Formatierungen angewendet und sogar einige Daten eingegeben – alles mit Aspose.Cells für .NET. Egal, ob Sie an der Automatisierung von Berichten arbeiten, Excel-Dateien bearbeiten oder einfach nur neue Techniken erlernen, diese Schritt-für-Schritt-Anleitung sollte Ihnen die Grundlagen vermitteln, die Sie benötigen.
+Und da haben Sie es! Sie haben erfolgreich Zellen in einem benannten Bereich zusammengeführt, einige schöne Formatierungen angewendet und sogar einige Daten eingegeben – alles mit Aspose.Cells für .NET. Egal, ob Sie an der Automatisierung von Berichten arbeiten, Excel-Dateien bearbeiten oder einfach nur neue Techniken erlernen, diese Schritt-für-Schritt-Anleitung sollte Ihnen die nötigen Grundlagen vermitteln.
 
 ## Häufig gestellte Fragen
 
@@ -167,7 +167,7 @@ Und da haben Sie es! Sie haben erfolgreich Zellen in einem benannten Bereich zus
 Nein, Sie können in Aspose.Cells nur zusammenhängende Zellen zusammenführen.
 
 ### Kann ich einen Zusammenführungsvorgang programmgesteuert rückgängig machen?  
- Sobald Zellen verbunden sind, können Sie sie mit dem`UnMerge()` Methode in Aspose.Cells.
+ Sobald Zellen verbunden sind, können Sie die Verbindung wieder aufheben, indem Sie auf`UnMerge()` Methode in Aspose.Cells.
 
 ### Werden durch das Zusammenführen von Zellen die darin enthaltenen Daten entfernt?  
 Wenn sich vor dem Zusammenführen Daten in den Zellen befanden, bleiben die Daten aus der ersten Zelle des Bereichs erhalten.

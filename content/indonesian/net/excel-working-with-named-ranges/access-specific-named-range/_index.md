@@ -47,12 +47,12 @@ else
 ```
 
 ## Kesimpulan
-Selamat! Anda berhasil mengakses rentang bernama tertentu di Excel menggunakan Aspose.Cells untuk .NET. Pustaka canggih ini menghilangkan kerumitan manipulasi Excel dan memberi Anda fleksibilitas untuk mengotomatiskan tugas secara efisien. Baik Anda pengembang atau analis data, memanfaatkan kekuatan Aspose.Cells dapat menghemat waktu dan meningkatkan produktivitas Anda.
+Selamat! Anda berhasil mengakses rentang bernama tertentu di Excel menggunakan Aspose.Cells untuk .NET. Pustaka canggih ini menghilangkan kerumitan manipulasi Excel dan memberi Anda fleksibilitas untuk mengotomatiskan tugas secara efisien. Baik Anda seorang pengembang atau analis data, memanfaatkan kekuatan Aspose.Cells dapat menghemat waktu dan meningkatkan produktivitas Anda.
 ## Pertanyaan yang Sering Diajukan
 ### Apa itu Aspose.Cells untuk .NET?  
 Aspose.Cells untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram tanpa memerlukan Microsoft Excel.
 ### Bagaimana saya bisa mendapatkan uji coba Aspose.Cells gratis?  
-Anda dapat mengunduh uji coba gratis Aspose.Cells dari situs web[Di Sini](https://releases.aspose.com/).
+Anda dapat mengunduh uji coba Aspose.Cells gratis dari situs web[Di Sini](https://releases.aspose.com/).
 ### Bisakah saya mengakses beberapa rentang bernama?  
  Ya, Anda dapat mengakses beberapa rentang bernama dengan memanggil`GetRangeByName` beberapa kali, masing-masing dengan nama rentang yang berbeda.
 ### Apakah Aspose.Cells kompatibel dengan semua versi Excel?  

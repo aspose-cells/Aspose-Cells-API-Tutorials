@@ -9,13 +9,13 @@ url: /tr/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
 ## giriiş
 
-Hiç kendinizi Excel çalışma kitapları arasında manuel olarak çalışma sayfalarını kopyalarken buldunuz mu? Bu, tek tekerlekli bisiklet sürerken hokkabazlık yapmaya çalışmaya benziyor! Ancak Aspose.Cells for .NET ile bu görevi basitleştirebilir ve tereyağından kıl çeker gibi yapabilirsiniz. İster büyük veri kümelerini yönetiyor olun, ister bilgileri birleştirmeniz gereksin, çalışma sayfalarını çalışma kitapları arasında kopyalamak size çok zaman kazandırabilir. Bu eğitimde, Aspose.Cells for .NET kullanarak bunu tam olarak nasıl yapacağınızı göstereceğiz. Bu kılavuzun sonunda, Excel görevlerinizi kolayca halledebileceksiniz.
+Hiç kendinizi Excel çalışma kitapları arasında manuel olarak çalışma sayfalarını kopyalarken buldunuz mu? Bu, tek tekerlekli bisiklet sürerken hokkabazlık yapmaya çalışmaya benziyor! Ancak Aspose.Cells for .NET ile bu görevi basitleştirebilir ve tereyağından kıl çeker gibi yapabilirsiniz. İster büyük veri kümelerini yönetiyor olun, ister bilgileri birleştirmeniz gereksin, çalışma sayfalarını çalışma kitapları arasında kopyalamak size çok zaman kazandırabilir. Bu eğitimde, Aspose.Cells for .NET kullanarak bunu tam olarak nasıl yapacağınızı göstereceğiz. Bu kılavuzun sonunda, Excel görevlerinizi kolaylıkla halledebileceksiniz.
 
 ## Ön koşullar
 
 Koda dalmadan önce, başlamak için doğru araçlara sahip olduğunuzdan emin olalım:
 
--  Aspose.Cells for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 - Visual Studio veya .NET framework'ü destekleyen herhangi bir IDE.
 -  Geçerli bir lisans veya[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Cells'in tüm işlevlerini test etmek istiyorsanız.
 - C# ve .NET framework hakkında temel bilgi.
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Artık ilk çalışma kitabınız açık olduğuna göre, kopyalanan çalışma sayfasını yapıştıracağınız başka bir boş çalışma kitabı oluşturmanın zamanı geldi. Bunu, verileri aktaracağınız yeni bir boş not defteri açmak olarak düşünün.
 
 ```csharp
-// Başka bir Çalışma Kitabı oluşturun.
+//Başka bir Çalışma Kitabı oluşturun.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Son olarak, kopyalanan çalışma sayfasıyla ikinci çalışma kitabını kaydedeceksiniz. Bu, yeni yazdığınız notları bilgisayarınızda yeni bir klasöre kaydetmek gibidir.
 
 ```csharp
-//Dosyayı kaydedin.
+// Dosyayı kaydedin.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -102,9 +102,9 @@ Unutmayın, kodlamayı daha küçük adımlara böldüğünüzde daha kolay hale
 
 ### Birden fazla çalışma sayfasını aynı anda kopyalayabilir miyim?
 
- Evet, kaynak çalışma kitabındaki çalışma sayfalarında dolaşabilir ve bunları hedef çalışma kitabına kopyalayabilirsiniz. Her çalışma sayfasının kendine ait`Copy` Yöntem.
+ Evet, kaynak çalışma kitabındaki çalışma sayfalarında dolaşabilir ve bunları hedef çalışma kitabına kopyalayabilirsiniz. Her çalışma sayfasının kendine ait`Copy` yöntem.
 
-### Veri içeren bir çalışma kitabını çalışma sayfasına kopyalayabilir miyim?
+### Veri içeren bir çalışma kitabına çalışma sayfasını kopyalayabilir miyim?
 
 Kesinlikle! Bir çalışma sayfasını, halihazırda veri içeriyor olsa bile, mevcut herhangi bir çalışma kitabına kopyalayabilirsiniz. Sadece doğru çalışma sayfası dizinini belirtin.
 

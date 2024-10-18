@@ -32,7 +32,7 @@ Bevor wir die Excel-Datei bearbeiten können, müssen wir die erforderlichen Pak
 
 Jetzt ist es an der Zeit, den Verweis auf die Aspose.Cells-Bibliothek hinzuzufügen. Sie können entweder:
 
--  Laden Sie die DLL herunter von[Hier](https://releases.aspose.com/cells/net/) und fügen Sie es manuell zu Ihrem Projekt hinzu.
+-  Laden Sie die DLL herunter von[Hier](https://releases.aspose.com/cells/net/)und fügen Sie es manuell zu Ihrem Projekt hinzu.
 - Oder verwenden Sie den NuGet-Paket-Manager und führen Sie den folgenden Befehl in der Paket-Manager-Konsole aus:
 
 ```bash
@@ -81,7 +81,7 @@ Diese Codezeile bereitet Ihre Excel-Datei für die Bearbeitung vor.
  Der`Workbook` Objekt ist das Herzstück Ihrer Aspose.Cells-Funktionalität. Es stellt Ihre Excel-Datei auf überschaubare Weise dar.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Da sich die Arbeitsmappe nun im Speicher befindet, können Sie nun auf das Arbeitsblatt zugreifen, das Sie ändern möchten. In den meisten Fällen ist dies das erste Arbeitsblatt (Index 0).
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -139,7 +139,7 @@ Die Steuerung des Zoomfaktors in Excel-Arbeitsblättern mag wie ein kleines Deta
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Cells für .NET?
-Es ist eine leistungsstarke Bibliothek zum programmgesteuerten Verwalten von Excel-Dateien in .NET-Anwendungen.
+Es ist eine leistungsstarke Bibliothek zur programmgesteuerten Verwaltung von Excel-Dateien in .NET-Anwendungen.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?
  Ja, Aspose bietet eine kostenlose Testversion an[Hier](https://releases.aspose.com/).

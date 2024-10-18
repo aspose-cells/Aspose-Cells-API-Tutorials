@@ -11,7 +11,7 @@ url: /vi/net/excel-working-with-named-ranges/access-all-named-ranges/
 Trong thế giới quản lý dữ liệu, Excel vẫn là một công cụ mạnh mẽ khi nói đến bảng tính. Nhưng bạn đã bao giờ thấy mình bị vướng vào một mạng lưới các phạm vi được đặt tên chưa? Nếu bạn gật đầu đồng ý, bạn sẽ được thưởng thức một điều thú vị! Trong hướng dẫn này, tôi sẽ hướng dẫn bạn quy trình truy cập tất cả các phạm vi được đặt tên trong tệp Excel bằng Aspose.Cells cho .NET. Cho dù bạn đang làm việc trên một dự án đơn giản hay một nhiệm vụ phân tích dữ liệu phức tạp, việc hiểu cách truy cập hiệu quả vào các phạm vi được đặt tên có thể giúp cuộc sống của bạn dễ dàng hơn rất nhiều.
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết để theo dõi. Sau đây là những gì bạn cần có:
-1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio (bất kỳ phiên bản gần đây nào cũng có thể hoạt động).
+1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio (bất kỳ phiên bản nào gần đây đều có thể hoạt động).
 2.  Aspose.Cells cho .NET: Bạn sẽ cần tích hợp Aspose.Cells vào dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Nếu bạn quen thuộc với C#, bạn sẽ dễ dàng vượt qua hướng dẫn này.
 ## Nhập gói

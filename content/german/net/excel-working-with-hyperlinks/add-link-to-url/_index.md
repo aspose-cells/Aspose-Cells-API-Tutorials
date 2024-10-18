@@ -8,10 +8,10 @@ weight: 12
 url: /de/net/excel-working-with-hyperlinks/add-link-to-url/
 ---
 ## Einführung
-Möchten Sie Ihre Excel-Tabelle durch das Hinzufügen von Hyperlinks verbessern? Vielleicht möchten Sie auf eine Website oder ein anderes Dokument verlinken – so oder so sind Sie hier richtig! In dieser Anleitung zeigen wir Ihnen, wie Sie mit Aspose.Cells für .NET einen Link zu einer URL in einer Excel-Datei hinzufügen. Egal, ob Sie ein erfahrener Profi oder ein Neuling sind, ich werde es in einfache, ansprechende Schritte aufschlüsseln, mit denen Sie Tabellen wie ein Zauberer erstellen können. Also, schnappen Sie sich Ihr Lieblingsgetränk, machen Sie es sich bequem und legen Sie los!
+Möchten Sie Ihre Excel-Tabelle durch das Hinzufügen von Hyperlinks verbessern? Vielleicht möchten Sie auf eine Website oder ein anderes Dokument verlinken – in jedem Fall sind Sie hier richtig! In dieser Anleitung erfahren Sie, wie Sie mit Aspose.Cells für .NET einen Link zu einer URL in einer Excel-Datei hinzufügen. Egal, ob Sie ein erfahrener Profi oder ein Neuling sind, ich werde es in einfache, ansprechende Schritte aufschlüsseln, mit denen Sie Tabellen wie ein Zauberer erstellen können. Also, schnappen Sie sich Ihr Lieblingsgetränk, machen Sie es sich bequem und legen Sie los!
 ## Voraussetzungen
 Bevor wir uns mit den Einzelheiten zum Hinzufügen eines Hyperlinks in Excel mit Aspose.Cells befassen, müssen Sie einige Voraussetzungen von Ihrer Liste abhaken:
-1. .NET Framework: Stellen Sie sicher, dass Sie die erforderliche .NET-Umgebung eingerichtet haben. Aspose.Cells ist mit verschiedenen Versionen von .NET kompatibel. Wählen Sie also diejenige aus, die am besten zu Ihrem Projekt passt.
+1. .NET Framework: Stellen Sie sicher, dass Sie die erforderliche .NET-Umgebung eingerichtet haben. Aspose.Cells ist mit verschiedenen .NET-Versionen kompatibel. Wählen Sie also die Version aus, die am besten zu Ihrem Projekt passt.
 2. Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek installiert haben. Sie können sie von der[Aspose-Veröffentlichungsseite](https://releases.aspose.com/cells/net/).
 3. Entwicklungsumgebung: Verwenden Sie eine IDE wie Visual Studio, mit der Sie Ihre Projekte problemlos verwalten können.
 4. Grundlegende Programmierkenntnisse: Vertrautheit mit C# und ein Verständnis der Konzepte der objektorientierten Programmierung erleichtern den Prozess.
@@ -23,7 +23,7 @@ Beginnen Sie mit der Erstellung eines neuen C#-Projekts in Ihrer IDE. Wählen Si
 ### Fügen Sie die Aspose.Cells-Referenz hinzu
 1. Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt.
 2. Wählen Sie „Hinzufügen“ und klicken Sie dann auf „Referenz“.
-3. Navigieren Sie zu dem Speicherort, an dem Sie Aspose.Cells heruntergeladen haben, und wählen Sie es aus.
+3. Navigieren Sie zu dem Speicherort, an den Sie Aspose.Cells heruntergeladen haben, und wählen Sie es aus.
 4. Klicken Sie auf „OK“, um die Referenz hinzuzufügen.
 ### Using-Direktive hinzufügen
 Oben in Ihrer Codedatei müssen Sie die folgende Anweisung einfügen, damit Sie problemlos auf den Aspose.Cells-Namespace zugreifen können.
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Ändern Sie Ihren Pfad
 ## Schritt 2: Erstellen eines Arbeitsmappenobjekts
  Hier erstellen wir eine Instanz des`Workbook` Klasse. Stellen Sie sich eine Arbeitsmappe als leere Leinwand für Ihre Tabelle vor.
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 In dieser Phase haben Sie im Wesentlichen gesagt: „Hey, Aspose, lass uns eine neue Excel-Datei erstellen!“

@@ -60,14 +60,14 @@ Den här raden pekar på katalogen som innehåller Excel-filen. Se till att just
 
 ## Steg 2: Ladda arbetsboken
 
-Därefter ska vi ladda vår arbetsbok. Det är som att öppna din Excel-fil i bakgrunden, så att vi kan läsa och manipulera dess innehåll.
+Därefter laddar vi vår arbetsbok. Det är som att öppna din Excel-fil i bakgrunden, så att vi kan läsa och manipulera dess innehåll.
 
 ```csharp
-//Ladda arbetsboken
+// Ladda arbetsboken
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Här är vad som händer: vi skapar en instans av`Workbook` klass och passerar sökvägen till vår Excel-fil. Om allt går smidigt är din arbetsbok nu öppen för affärer!
+Här är vad som händer: vi skapar en instans av`Workbook` klass och passerar sökvägen till vår Excel-fil. Om allt går smidigt är din arbetsbok nu öppen för affärer!
 
 ## Steg 3: Öppna arbetsbladet
 
@@ -96,7 +96,7 @@ Med detta intervall kan vi enkelt hämta hyperlänkar inom dessa celler.
 Här kommer den spännande delen: att dra ut hyperlänkarna! Vi extraherar hyperlänkarna från vårt definierade sortiment.
 
 ```csharp
-// Få hyperlänkar inom räckhåll
+//Få hyperlänkar inom räckhåll
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

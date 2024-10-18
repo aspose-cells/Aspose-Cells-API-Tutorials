@@ -17,7 +17,7 @@ Mielőtt belemerülnénk a kódba, be kell állítania néhány előfeltételt:
 
 1. Visual Studio telepítve: Győződjön meg arról, hogy a Visual Studio (bármilyen verzió) készen áll a gépen, mivel .NET környezetben fogunk dolgozni.
 2.  Aspose.Cells for .NET Library: Le kell töltenie és hozzá kell adnia az Aspose.Cells könyvtárat a projekthez. Megkaphatod a legújabb verziót[itt](https://releases.aspose.com/cells/net/).
-3. C# alapvető ismerete: A C# programozás ismerete segít a zökkenőmentes követésben.
+3. A C# alapvető ismerete: A C# programozás ismerete segít a zökkenőmentes követésben.
 
 Most, hogy az előfeltételeink már nincsenek útban, ugorjunk rögtön a szükséges csomagok importálására.
 
@@ -43,7 +43,7 @@ A kezdéshez létre kell hoznia egy munkafüzet példányát. Ez az Excel-fájlu
 Workbook wb = new Workbook();
 ```
 
- Inicializálással`Workbook`beállítunk egy új Excel fájlt a memóriában, készen a manipulációra.
+ Inicializálással`Workbook`, beállítunk egy új Excel fájlt a memóriában, készen a manipulációra.
 
 ## 2. lépés: Állítsa be a munkafüzet beállításait
 

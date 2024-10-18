@@ -102,6 +102,6 @@ MAX 函数用于查找某个范围内的最大数值，而 MAXA 函数则同时�
 
 是的，Aspose.Cells for Java 旨在高效处理大型 Excel 文件。它提供读取、写入和操作各种大小的 Excel 文件的功能。
 
-### 在哪里可以找到更多有关 Aspose.Cells for Java 的文档和示例？
+### 在哪里可以找到有关 Aspose.Cells for Java 的更多文档和示例？
 
 您可以参考 Aspose.Cells for Java 文档：[这里](https://reference.aspose.com/cells/java/)获得全面的信息和示例。

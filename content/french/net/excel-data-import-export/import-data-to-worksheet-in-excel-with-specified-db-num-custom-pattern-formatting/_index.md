@@ -9,14 +9,14 @@ url: /fr/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 ---
 ## Introduction
 
-En matière de manipulation de feuilles de calcul, l'importation de données dans Excel et leur formatage correct peuvent sembler une tâche écrasante, en particulier lorsque vous souhaitez utiliser des formats spécifiques basés sur la culture tels que les modèles DB Num. Si vous vous êtes déjà senti embourbé dans les détails techniques du formatage Excel, vous êtes au bon endroit ! Dans ce guide, nous allons décomposer les choses en étapes simples à l'aide d'Aspose.Cells pour .NET, ce qui rend vos importations de données non seulement simples mais aussi esthétiques. Alors, accrochez-vous bien, car nous plongeons directement dans le monde de la programmation .NET, du formatage et de l'exportation de fichiers Excel en toute simplicité !
+En matière de manipulation de feuilles de calcul, l'importation de données dans Excel et leur formatage correct peuvent sembler une tâche écrasante, en particulier lorsque vous souhaitez utiliser des formats spécifiques basés sur la culture tels que les modèles DB Num. Si vous vous êtes déjà senti embourbé dans les détails techniques du formatage Excel, vous êtes au bon endroit ! Dans ce guide, nous allons décomposer les choses en étapes simples à l'aide d'Aspose.Cells pour .NET, rendant vos importations de données non seulement simples mais aussi esthétiques. Alors, accrochez-vous bien, car nous plongeons directement dans le monde de la programmation .NET, du formatage et de l'exportation de fichiers Excel en toute simplicité !
 
 ## Prérequis
 
 Avant de passer aux choses sérieuses, assurons-nous que vous disposez de tout ce dont vous avez besoin. Voici une liste rapide des prérequis pour vous préparer au succès :
 
 1. .NET Framework : assurez-vous que .NET Framework est installé sur votre ordinateur. Aspose.Cells fonctionne parfaitement avec différentes versions de .NET.
-2.  Aspose.Cells pour .NET : vous devez télécharger et installer la bibliothèque Aspose.Cells. Vous pouvez la récupérer à partir du[lien de téléchargement](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells pour .NET : vous devez télécharger et installer la bibliothèque Aspose.Cells. Vous pouvez la récupérer à partir du[lien de téléchargement](https://releases.aspose.com/cells/net/).
 3. Environnement de développement intégré (IDE) : utilisez un IDE comme Visual Studio dans lequel vous pouvez écrire et exécuter votre code C#.
 4. Connaissances de base de C# : avoir une compréhension fondamentale de C# vous aidera à suivre les pratiques de codage que nous utiliserons dans ce guide.
 
@@ -32,7 +32,7 @@ Pour travailler efficacement avec Aspose.Cells, vous devez importer les espaces 
 
 ### Référence Aspose.Cells
 
-Vous devez inclure la bibliothèque Aspose.Cells dans votre projet. Cliquez avec le bouton droit sur votre projet dans l'Explorateur de solutions et sélectionnez « Ajouter une référence ». Accédez à l'emplacement où vous avez installé Aspose.Cells et sélectionnez-le.
+Vous devez inclure la bibliothèque Aspose.Cells dans votre projet. Cliquez avec le bouton droit de la souris sur votre projet dans l'Explorateur de solutions et sélectionnez « Ajouter une référence ». Accédez à l'emplacement où vous avez installé Aspose.Cells et sélectionnez-le.
 
 ### Importer les espaces de noms nécessaires
 
@@ -67,7 +67,7 @@ Ensuite, vous allez créer un nouveau classeur, qui est essentiellement votre fi
 Workbook wb = new Workbook();
 ```
 
-Ici, nous instancions un nouveau`Workbook` objet. Ceci est votre toile vierge !
+ Ici, nous instancions un nouveau`Workbook` objet. Ceci est votre toile vierge !
 
 ## Étape 3 : Accéder à la première feuille de travail
 
@@ -108,7 +108,7 @@ C'est ici que la magie opère. Vous pouvez spécifier un modèle de format perso
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Cette ligne indique à Excel de formater le nombre`123` selon le modèle DBNum correspondant à la langue chinoise. Plutôt sympa, non ?
+ Cette ligne indique à Excel de formater le nombre`123` selon le modèle DBNum correspondant à la langue chinoise. Plutôt sympa, non ?
 
 ## Étape 7 : définir le style de cellule mis à jour
 
@@ -122,7 +122,7 @@ C'est comme habiller votre téléphone portable avec une nouvelle tenue élégan
 
 ## Étape 8 : Ajuster la largeur de la colonne
 
-Assurons-nous que tout est bien net et bien organisé. Vous pouvez ajuster la largeur de la première colonne pour mieux l'adapter à vos données.
+Assurons-nous que tout soit bien net. Vous pouvez ajuster la largeur de la première colonne pour mieux adapter vos données.
 
 ```csharp
 ws.Cells.SetColumnWidth(0, 30);

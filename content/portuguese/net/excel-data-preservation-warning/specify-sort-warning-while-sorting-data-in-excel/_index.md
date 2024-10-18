@@ -1,7 +1,7 @@
 ---
 title: Especificar aviso de classificação ao classificar dados no Excel
 linktitle: Especificar aviso de classificação ao classificar dados no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Classifique dados do Excel sem esforço usando o Aspose.Cells para .NET. Aprenda estratégias passo a passo para gerenciar dados do Excel de forma eficaz neste tutorial abrangente.
 type: docs
 weight: 11
@@ -36,7 +36,7 @@ Agora que temos tudo em ordem, vamos percorrer o processo de classificação pas
 
 ## Etapa 1: configure seu diretório de documentos
 
- Primeiro, você precisa especificar o caminho para o diretório do seu documento. É aqui que seu`sampleSortAsNumber.xlsx` arquivo será localizado. Substituir`"Your Document Directory"` com o caminho real onde seu arquivo Excel reside.
+ Primeiro, você precisa especificar o caminho para o diretório do seu documento. É aqui que seu`sampleSortAsNumber.xlsx` arquivo será localizado. Substituir`"Your Document Directory"`com o caminho real onde seu arquivo Excel reside.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -95,7 +95,7 @@ Aqui está um rápido resumo do que está acontecendo:
 - Convertemos a coluna "A" em seu índice numérico.
 - Dizemos ao classificador para adicionar uma chave para a coluna A e especificamos que queremos que a classificação seja em ordem crescente.
 
-## Etapa 7: especifique classificar como número
+## Etapa 7: especifique Classificar como número
 
  Para evitar o problema comum de classificação de números armazenados como texto, podemos definir o`SortAsNumber` propriedade para true.
 

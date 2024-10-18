@@ -16,7 +16,7 @@ Beim Bearbeiten von Excel-Tabellen ist eine der leistungsstärksten Funktionen d
 Bevor wir mit dem Programmieren beginnen, stellen wir sicher, dass alles eingerichtet ist. Folgendes benötigen Sie:
 
 1. Visual Studio: Stellen Sie sicher, dass Sie Visual Studio installiert haben. Die Community Edition funktioniert einwandfrei.
-2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek für .NET. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells für .NET-Bibliothek. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 3. Grundlegende C#-Kenntnisse: Grundlegende Kenntnisse in C# sind sehr hilfreich.
 4. Projekt-Setup: Erstellen Sie eine neue C#-Konsolenanwendung in Visual Studio.
 
@@ -41,7 +41,7 @@ Lassen Sie uns den Code zum Erstellen eines Verzeichnisses festlegen (sofern es 
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -51,7 +51,7 @@ if (!IsExists)
 
 ## Schritt 2: Instanziieren einer neuen Arbeitsmappe
 
-Nachdem Ihr Verzeichnis nun eingerichtet ist, erstellen wir eine neue Excel-Arbeitsmappe. Das ist so, als würden Sie eine leere Leinwand öffnen, bevor Sie mit dem Malen beginnen.
+Nachdem Ihr Verzeichnis nun eingerichtet ist, erstellen wir eine neue Excel-Arbeitsmappe. Dies ist vergleichbar damit, eine leere Leinwand zu öffnen, bevor Sie mit dem Malen beginnen.
 
 ```csharp
 // Instanziieren einer neuen Arbeitsmappe
@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 Hier greifen wir auf das erste Arbeitsblatt zu, was dem Aufschlagen eines neuen Blattes Papier in Ihrem Notizbuch ähnelt.
 
-## Schritt 4: Bereiche zum Bearbeiten zulassen
+## Schritt 4: Bereiche zum Bearbeiten zulassen abrufen
 
 Bevor wir die bearbeitbaren Bereiche einrichten können, müssen wir die Sammlung geschützter Bereiche aus unserem Arbeitsblatt abrufen.
 

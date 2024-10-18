@@ -17,7 +17,7 @@ url: /zh/net/excel-data-import-export/
 
 ## 使用 DataTable 插入操作将行向下移动
 
-接下来是另一个常见的挑战：将 DataTable 行插入 Excel 而不弄乱第一行。如果您曾经插入数据并发现标题被推下，您会喜欢本教程。这就像试图重新布置家具而不丢失位置一样——很棘手，对吧？但是使用本指南中概述的技术，您可以微调 DataTable 行，同时确保重要的第一行保持完整。本教程为您提供了一种实用、用户友好的方法，使您能够毫不费力地自动化 Excel 流程。准备好简化您的工作流程了吗？[点击此处查看分步指南](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/).
+接下来是另一个常见的挑战：将 DataTable 行插入 Excel 而不弄乱第一行。如果您曾经插入数据并发现标题被推下，那么您会喜欢本教程。这就像试图重新布置家具而不丢失位置一样——很棘手，对吧？但是使用本指南中概述的技术，您可以微调 DataTable 行，同时确保重要的第一行保持完整。本教程为您提供了一种实用、用户友好的方法，使您能够毫不费力地自动化 Excel 流程。准备好简化您的工作流程了吗？[点击此处查看分步指南](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/).
 
 ## Excel 数据导入导出教程
 ### [使用自定义数据库数字模式格式将数据导入 Excel](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)

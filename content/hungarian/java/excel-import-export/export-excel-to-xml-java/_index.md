@@ -52,9 +52,9 @@ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 worksheet.save(outputStream, SaveFormat.XML);
 ```
 
-## 5. lépés: Mentse az XML fájlt
+## 5. lépés: Az XML fájl mentése
 
-Szükség esetén az XML adatokat fájlba mentheti.
+Szükség esetén az XML-adatokat fájlba mentheti.
 
 ```java
 // Mentse el az XML adatokat egy fájlba

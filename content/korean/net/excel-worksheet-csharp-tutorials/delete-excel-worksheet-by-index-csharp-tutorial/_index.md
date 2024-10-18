@@ -18,7 +18,7 @@ Excel은 우리 직장 생활에 없어서는 안 될 부분이 되었죠? 우�
 1. C#에 대한 기본 지식: 기본 C# 프로그램을 작성하는 데 익숙해야 합니다. 간단한 C# 애플리케이션을 만들고 실행할 수 있다면 준비가 된 것입니다!
 2.  Aspose.Cells 라이브러리: 이것은 우리의 주요 도구입니다. .NET용 Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 필요한 파일을 찾을 수 있습니다.[여기](https://releases.aspose.com/cells/net/). 
 3. Visual Studio 또는 모든 C# IDE: 코드를 작성하고 실행하려면 Visual Studio와 같은 통합 개발 환경(IDE)이 필요합니다. 마지막으로 연 지 1분이 지났다면 지금이 먼지를 털 때입니다!
-4.  기존 Excel 파일: 작업할 Excel 파일이 있는지 확인하세요. 이 튜토리얼에서는 다음을 사용합니다.`book1.xls`하지만 원하는 것을 사용하면 됩니다. 다만 올바른 형식인지 확인하세요.
+4.  기존 Excel 파일: 작업하려는 Excel 파일이 있는지 확인하세요. 이 튜토리얼에서는 다음을 사용합니다.`book1.xls`하지만 원하는 것을 사용하면 됩니다. 다만 올바른 형식인지 확인하세요.
 
 ## 패키지 가져오기
 
@@ -55,7 +55,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 그냥 교체하세요`"YOUR DOCUMENT DIRECTORY"` 실제 경로와 함께`book1.xls`파일이 상주합니다. 이것은 도로 여행을 시작하기 전에 GPS에 올바른 주소를 제공하는 것으로 생각하세요!
+ 그냥 교체하세요`"YOUR DOCUMENT DIRECTORY"` 실제 경로와 함께`book1.xls` 파일이 상주합니다. 이것은 도로 여행을 시작하기 전에 GPS에 올바른 주소를 제공하는 것으로 생각하세요!
 
 ## 4단계: FileStream으로 Excel 파일 열기
 
@@ -95,7 +95,7 @@ workbook.Worksheets.RemoveAt(0);
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- 새 이름으로 저장하려면 다음을 변경하세요.`"output.out.xls"` 원하는 대로. Word 문서에서 '저장' 버튼을 누르는 것처럼 상상해 보세요. 수정 사항을 유지하고 싶을 겁니다.
+새 이름으로 저장하려면 다음을 변경하세요.`"output.out.xls"` 원하는 대로. Word 문서에서 '저장' 버튼을 누르는 것처럼 상상해 보세요. 수정 사항을 유지하고 싶을 겁니다.
 
 ## 8단계: 파일 스트림 닫기
 

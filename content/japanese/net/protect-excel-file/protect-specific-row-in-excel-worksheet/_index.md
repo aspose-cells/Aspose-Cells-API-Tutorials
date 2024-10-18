@@ -106,7 +106,7 @@ style = sheet.Cells.Rows[0].Style;
 style.IsLocked = true;
 //フラグをインスタンス化します。
 flag = new StyleFlag();
-//ロック設定を行います。
+//ロック設定を設定します。
 flag.Locked = true;
 //最初の行にスタイルを適用します。
 sheet.Cells.ApplyRowStyle(0, style, flag);
@@ -132,7 +132,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## 結論
 
-これで完了です。Aspose.Cells for .NET を使用して、Excel ワークシートの特定の行を正常に保護できました。この機能は、Excel ファイルを共有しながらデータの整合性を確保する必要のある開発者やユーザーにとって非常に便利です。これで、スプレッドシート内の重要な情報を保護しながら、自信を持ってスプレッドシートを共有できます。
+これで完了です。Aspose.Cells for .NET を使用して、Excel ワークシートの特定の行を正常に保護できました。この機能は、Excel ファイルを共有しながらデータの整合性を確保する必要のある開発者やユーザーにとって非常に便利です。これで、スプレッドシート内の重要な情報を保護しながら、自信を持って共有できます。
 
 ## よくある質問
 
@@ -143,7 +143,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 行をロックする場合と同様に、セルを個別に選択してロック スタイルを適用できます。
 
 ### Aspose.Cells は無料で使用できますか?  
-Aspose.Cellsは商用製品ですが、無料トライアルで試用することができます。[ここ](https://releases.aspose.com/).
+ Aspose.Cellsは商用製品ですが、無料トライアルで試用することができます。[ここ](https://releases.aspose.com/).
 
 ### Aspose.Cells を使用するにはインターネット接続が必要ですか?  
 いいえ、Aspose.Cells は .NET ライブラリであり、インストールするとオフラインで動作できます。

@@ -8,7 +8,7 @@ weight: 11
 url: /id/net/excel-subtotal-calculation/tracing-precedents-in-excel/
 ---
 ## Perkenalan
-Pernahkah Anda terjebak dalam jaringan rumus Excel yang rumit, dan berusaha keras mencari tahu sel mana yang digunakan dalam perhitungan Anda? Jika demikian, Anda tidak sendirian! Memahami preseden di Excel dapat meningkatkan keterampilan analisis data dan menyederhanakan alur kerja Anda secara signifikan. Dalam artikel ini, kita akan membahas cara melacak preseden di Excel menggunakan Aspose.Cells untuk .NET. Aspose.Cells adalah pustaka canggih yang memberi Anda kemampuan untuk memanipulasi file Excel dengan sangat mudah, dan kami akan memandu Anda melalui panduan langkah demi langkah agar Anda dapat melacak ketergantungan sel tersebut dalam waktu singkat. Jadi, ambil minuman berkafein favorit Anda, duduk santai, dan mari kita mulai!
+Pernahkah Anda terjebak dalam jaringan rumus Excel yang rumit, dan berusaha keras mencari tahu sel mana yang digunakan dalam perhitungan Anda? Jika demikian, Anda tidak sendirian! Memahami preseden di Excel dapat meningkatkan keterampilan analisis data dan menyederhanakan alur kerja Anda secara signifikan. Dalam artikel ini, kita akan membahas cara melacak preseden di Excel menggunakan Aspose.Cells untuk .NET. Aspose.Cells adalah pustaka canggih yang memberi Anda kemampuan untuk memanipulasi file Excel dengan sangat mudah, dan kami akan memandu Anda melalui panduan langkah demi langkah untuk membantu Anda melacak ketergantungan sel tersebut dalam waktu singkat. Jadi, ambil minuman berkafein favorit Anda, duduk santai, dan mari kita mulai!
 ## Prasyarat
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang dibutuhkan untuk mengikuti tutorial kami. 
 ### 1. Pengetahuan Dasar C#

@@ -17,10 +17,10 @@ Excel 电子表格已成为管理数据的不可或缺的工具，尤其是在�
 
 1. 对 C# 的基本了解：熟悉 C# 编程将大大简化将 Aspose.Cells 集成到您的项目中的过程。
 2. 已安装 Visual Studio：确保您的机器上安装了 Visual Studio 以编写和执行 C# 代码。
-3.  Aspose.Cells for .NET Library：您需要获取 Aspose.Cells。您可以[点击下载](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET Library：您需要获取 Aspose.Cells。您可以[点击下载](https://releases.aspose.com/cells/net/).
 4. NuGet 包管理器：确保您可以访问 NuGet 包管理器，因为您可以使用它轻松安装 Aspose.Cells。
 
-记住这些先决条件，让我们开始吧！
+考虑到这些先决条件，让我们开始吧！
 
 ## 导入包
 
@@ -92,7 +92,7 @@ worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 
 ## 步骤 5：保存工作簿
 
-一旦指定了纸张尺寸，就该保存工作簿，以便将更改写入文件。
+指定纸张尺寸后，就该保存工作簿，以便将更改写入文件。
 
 ```csharp
 workbook.Save(dataDir + "ManagePaperSize_out.xls");

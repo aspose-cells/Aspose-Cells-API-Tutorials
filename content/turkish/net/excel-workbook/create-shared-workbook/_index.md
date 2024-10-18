@@ -9,7 +9,7 @@ url: /tr/net/excel-workbook/create-shared-workbook/
 ---
 ## giriiş
 
-Paylaşılan bir çalışma kitabı oluşturmak, özellikle farklı ekipler veya departmanlar arasında veri taşıyorsanız, iş birliği için oyunun kurallarını değiştirebilir. Aspose.Cells for .NET ile Excel dosyalarını programatik olarak yönetmek için emrinizde sağlam bir araç var. Bu kılavuz, paylaşılan bir çalışma kitabı oluşturma adımlarında size yol gösterecek ve iş birliğinizi daha akıcı ve verimli hale getirecektir. İster acemi ister deneyimli bir geliştirici olun, bu basit ama güçlü eğitimle kendinizi şımartacaksınız!
+Paylaşılan bir çalışma kitabı oluşturmak, özellikle farklı ekipler veya departmanlar arasında veri taşıyorsanız, iş birliği için oyunun kurallarını değiştirebilir. Aspose.Cells for .NET ile Excel dosyalarını programatik olarak yönetmek için emrinizde sağlam bir araç var. Bu kılavuz, iş birliğinizi daha akıcı ve verimli hale getirerek paylaşılan bir çalışma kitabı oluşturma adımlarında size yol gösterecektir. İster acemi ister deneyimli bir geliştirici olun, bu basit ama güçlü eğitimle kendinizi şımartacaksınız!
 
 ## Ön koşullar
 
@@ -36,7 +36,7 @@ Artık ortamımız hazır olduğuna göre, işe koyulabilmemiz için gerekli pak
 2. "Aspose.Cells"i arayın ve kurun. Bu, projenize gerekli referansları ekleyecektir.
 
 ### Yönergeleri Kullanarak Ekle
- En üstte`Program.cs` dosyaya aşağıdaki using yönergesini ekleyin:
+ En üstte`Program.cs` dosyaya, aşağıdaki using yönergesini ekleyin:
 
 ```csharp
 using System;
@@ -99,7 +99,7 @@ Bu basit kod satırı, görevimizin başarıyla tamamlandığını belirten bir 
 
 ## Çözüm 
 
-Paylaşılan bir çalışma kitabı oluşturmak yalnızca bir Excel dosyası oluşturmakla ilgili değildir; ekipler arasında iş birliğini ve verimliliği artırmakla ilgilidir. Aspose.Cells for .NET ile süreç basit ve kullanıcı dostudur. Burada özetlenen adımları izleyerek, birden fazla kullanıcının aynı anda etkileşime girmesine izin veren bir çalışma kitabı zahmetsizce oluşturabilirsiniz. Öyleyse neden bekliyorsunuz? Hemen dalın ve ekiplerinizin daha önce hiç olmadığı gibi iş birliği yapmasını sağlayan paylaşılan çalışma kitapları oluşturmaya başlayın!
+Paylaşılan bir çalışma kitabı oluşturmak yalnızca bir Excel dosyası oluşturmakla ilgili değildir; ekipler arasında iş birliğini ve verimliliği artırmakla ilgilidir. Aspose.Cells for .NET ile süreç basit ve kullanıcı dostudur. Burada özetlenen adımları izleyerek, birden fazla kullanıcının aynı anda etkileşime girmesine izin veren bir çalışma kitabı zahmetsizce oluşturabilirsiniz. Öyleyse neden bekliyorsunuz? Hemen dalın ve ekiplerinizin daha önce hiç olmadığı gibi iş birliği yapmasını sağlayacak paylaşılan çalışma kitapları oluşturmaya başlayın!
 
 ## SSS
 

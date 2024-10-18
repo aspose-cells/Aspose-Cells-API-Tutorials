@@ -41,7 +41,7 @@ En primer lugar, deberá especificar el directorio en el que se encuentran sus a
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Actualizar en consecuencia
 ```
 
- Esta línea establece el`dataDir` variable, que es la ruta base para ubicar la imagen que desea insertar en el encabezado.
+ Esta línea establece el`dataDir` variable, que es la ruta base para localizar la imagen que desea insertar en el encabezado.
 
 ## Paso 2: Creación de un objeto de libro de trabajo
 
@@ -95,7 +95,7 @@ Con los datos binarios de la imagen a mano, ahora podemos insertarla en el encab
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Esta línea coloca la imagen en la sección central del encabezado. El parámetro`1`especifica la sección de encabezado.
+ Esta línea coloca la imagen en la sección central del encabezado. El parámetro`1` especifica la sección de encabezado.
 
 ## Paso 7: Configuración del contenido del encabezado
 
@@ -121,7 +121,7 @@ Esta línea guarda el libro de trabajo con el nombre de archivo especificado en 
 
 ## Paso 9: Cerrar el FileStream
 
- Por último, no olvides cerrar tu`FileStream` para liberar los recursos.
+ Por último, no olvides cerrar tu`FileStream` Para liberar los recursos.
 
 ```csharp
 inFile.Close();
@@ -148,4 +148,4 @@ Sí, puedes insertar imágenes separadas en diferentes secciones del encabezado 
 Asegúrese de que la ruta de la imagen sea correcta y que el archivo exista. Compruebe también la compatibilidad del formato de la imagen.
 
 ### ¿Dónde puedo encontrar documentación adicional para Aspose.Cells?
-Puede encontrar documentación detallada[aquí](https://reference.aspose.com/cells/net/).
+ Puede encontrar documentación detallada[aquí](https://reference.aspose.com/cells/net/).

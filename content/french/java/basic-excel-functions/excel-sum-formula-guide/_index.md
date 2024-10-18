@@ -2,7 +2,7 @@
 title: Guide de la formule SUM d'Excel
 linktitle: Guide de la formule SUM d'Excel
 second_title: API de traitement Java Excel Aspose.Cells
-description: Libérez la puissance de la formule Excel SUM avec Aspose.Cells pour Java - Votre guide complet de l'automatisation Excel.
+description: Libérez la puissance de la formule Excel SUM avec Aspose.Cells pour Java - Votre guide complet pour l'automatisation Excel.
 type: docs
 weight: 10
 url: /fr/java/basic-excel-functions/excel-sum-formula-guide/

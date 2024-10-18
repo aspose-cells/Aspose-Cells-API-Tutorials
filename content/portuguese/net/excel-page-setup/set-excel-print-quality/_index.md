@@ -18,7 +18,7 @@ Antes de pularmos para os detalhes da codificação, vamos garantir que você es
 1. Conhecimento básico de C#: Familiaridade com a linguagem de programação C# é essencial, pois escreveremos nosso código nessa linguagem.
 2. Visual Studio instalado: você precisará de um IDE para escrever seu código C#, e o Visual Studio é altamente recomendado devido aos seus recursos robustos e facilidade de uso.
 3. Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells. Você pode baixá-la facilmente[aqui](https://releases.aspose.com/cells/net/).
-4. .NET Framework: certifique-se de ter o .NET Framework instalado em sua máquina, compatível com o Aspose.Cells.
+4. .NET Framework: certifique-se de ter o .NET Framework instalado em sua máquina, compatível com Aspose.Cells.
 5.  Uma chave de licença: embora o Aspose.Cells ofereça um teste gratuito, considere comprar uma licença se você planeja usá-lo em produção. Você pode comprar uma[aqui](https://purchase.aspose.com/buy).
 
 ## Pacotes de importação
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Explicação: O`PrintQuality` property pode ser definido para qualquer valor, tipicamente entre 75 e 600 dpi (pontos por polegada). Neste caso, estamos definindo para 180 dpi, o que é ótimo para um bom equilíbrio entre qualidade e tamanho do arquivo.
+Explicação: O`PrintQuality` property pode ser definido para qualquer valor, tipicamente entre 75 e 600 dpi (pontos por polegada). Neste caso, estamos definindo para 180 dpi, o que é ótimo para um bom equilíbrio entre qualidade e tamanho do arquivo.
 
 ## Etapa 5: Salvando a pasta de trabalho
 
@@ -101,7 +101,7 @@ A qualidade máxima de impressão que você pode definir é 600 dpi.
 ### Posso definir diferentes qualidades de impressão para diferentes planilhas?  
 Sim! Você pode acessar cada planilha separadamente e definir suas qualidades de impressão individualmente.
 
-### Aspose.Cells é gratuito?  
+### O Aspose.Cells é gratuito?  
 O Aspose.Cells oferece um teste gratuito, mas você precisa comprar uma licença para uso a longo prazo.
 
 ### Alterar a qualidade de impressão afetará o tamanho do arquivo?  

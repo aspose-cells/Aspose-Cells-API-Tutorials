@@ -2,7 +2,7 @@
 title: 워크시트의 창 고정
 linktitle: 워크시트의 창 고정
 second_title: .NET API 참조를 위한 Aspose.Cells
-description: 이 포괄적인 튜토리얼에서는 .NET용 Aspose.Cells를 사용하여 Excel에서 창을 고정하는 방법을 알아봅니다. 단계별 지침과 필수 팁이 담겨 있습니다.
+description: 이 포괄적인 튜토리얼에서는 .NET용 Aspose.Cells를 사용하여 Excel에서 창을 고정하는 방법을 알아봅니다. 단계별 지침과 필수 팁이 포함되어 있습니다.
 type: docs
 weight: 70
 url: /ko/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/

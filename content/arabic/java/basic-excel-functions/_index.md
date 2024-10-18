@@ -33,7 +33,7 @@ url: /ar/java/basic-excel-functions/
 ### [دالة COUNTIF في Excel](./countif-function-in-excel/)
 تعرف على كيفية استخدام الدالة COUNTIF في Excel باستخدام Aspose.Cells for Java. دليل خطوة بخطوة وأمثلة أكواد لتحليل البيانات بكفاءة.
 ### [دالة المتوسط في Excel](./average-function-in-excel/)
-تعرف على كيفية استخدام دالة AVERAGE في Excel باستخدام Aspose.Cells for Java. دليل خطوة بخطوة وعينات التعليمات البرمجية ونصائح لأتمتة Excel بكفاءة.
+تعرف على كيفية استخدام دالة AVERAGE في Excel باستخدام Aspose.Cells for Java. دليل خطوة بخطوة، وعينات التعليمات البرمجية، ونصائح لأتمتة Excel بكفاءة.
 ### [فهم دالة MAX في Excel](./understanding-excel-max-function/)
 تعرف على كيفية استخدام دالة Excel MAX مع Aspose.Cells لـ Java. اكتشف الإرشادات خطوة بخطوة وأمثلة التعليمات البرمجية والأسئلة الشائعة في هذا البرنامج التعليمي الشامل.
 ### [شرح دالة MIN في برنامج Excel](./min-function-in-excel-explained/)

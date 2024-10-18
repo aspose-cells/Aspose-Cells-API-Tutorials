@@ -1,7 +1,7 @@
 ---
 title: Ler e manipular gráficos do Excel 2016
 linktitle: Ler e manipular gráficos do Excel 2016
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a ler e manipular gráficos do Excel 2016 usando o Aspose.Cells para .NET com este guia passo a passo.
 type: docs
 weight: 13
@@ -124,7 +124,7 @@ Console.WriteLine("ReadManipulateExcel2016Charts executed successfully.");
 
 ## Conclusão
 
-Parabéns! Você aprendeu com sucesso como ler e manipular gráficos do Excel 2016 usando o Aspose.Cells para .NET. Esta biblioteca poderosa lhe dá a flexibilidade para manipular arquivos do Excel programaticamente, tornando seu fluxo de trabalho mais eficiente. Se você precisa atualizar títulos de gráficos, modificar dados ou até mesmo criar novos gráficos, o Aspose.Cells tem tudo o que você precisa.
+Parabéns! Você aprendeu com sucesso como ler e manipular gráficos do Excel 2016 usando o Aspose.Cells para .NET. Esta biblioteca poderosa oferece a flexibilidade para manipular arquivos do Excel programaticamente, tornando seu fluxo de trabalho mais eficiente. Se você precisa atualizar títulos de gráficos, modificar dados ou até mesmo criar novos gráficos, o Aspose.Cells tem tudo o que você precisa.
 
 ## Perguntas frequentes
 

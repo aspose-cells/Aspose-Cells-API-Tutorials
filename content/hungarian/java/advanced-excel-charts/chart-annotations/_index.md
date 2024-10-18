@@ -18,7 +18,7 @@ Mielőtt belemerülnénk a megvalósításba, győződjön meg arról, hogy a k�
 
 - Java fejlesztői környezet
 - Aspose.Cells for Java Library
-- Java programozás alapvető ismerete
+- A Java programozás alapvető ismerete
 
 ## Az Aspose.Cells beállítása Java számára
 
@@ -80,7 +80,7 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## kommentárok testreszabása
+## Annotációk testreszabása
 
 Tovább testreszabhatja a megjegyzéseket a betűtípusuk, színük és egyéb tulajdonságaik megváltoztatásával.
 

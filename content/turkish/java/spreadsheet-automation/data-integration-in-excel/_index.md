@@ -42,7 +42,7 @@ Birçok senaryoda, veriler birden fazla Excel sayfasına dağılmıştır. Veril
 
 ## 5. Veri Dönüşümü ve Temizleme
 
-Analizden önce, veriler genellikle dönüşüm ve temizleme gerektirir. Java için Aspose.Cells, veri işleme için çeşitli yöntemler sağlar:
+Analizden önce, veriler genellikle dönüştürme ve temizleme gerektirir. Java için Aspose.Cells, veri işleme için çeşitli yöntemler sağlar:
 
 ```java
 // Veri dönüştürme ve temizleme için Java kodu
@@ -82,9 +82,9 @@ Excel'de veri entegrasyonu, Java için Aspose.Cells ile çocuk oyuncağı haline
 
 ## 10. SSS
 
-### S1: Aspose.Cells for Java'yı kullanmak ücretsiz mi?
+### S1: Java için Aspose.Cells'i kullanmak ücretsiz mi?
 
-Aspose.Cells for Java ücretsiz deneme sunuyor ancak tam kullanım için lisans gerekiyor. Fiyatlandırma ayrıntıları için web sitelerini kontrol edin.
+Aspose.Cells for Java ücretsiz deneme sunar, ancak tam kullanım için lisans gerekir. Fiyatlandırma ayrıntıları için web sitelerini kontrol edin.
 
 ### S2: Veritabanlarındaki verileri Excel'e entegre edebilir miyim?
 
@@ -102,4 +102,4 @@ Kesinlikle! Java için Aspose.Cells, karmaşık veri bütünleştirme süreçler
 
 Java için Aspose.Cells sağlam bir seçim olsa da Apache POI gibi alternatifler de Excel entegrasyon yetenekleri sağlar.
 
-Bu kapsamlı kılavuz, Aspose.Cells for Java kullanarak Excel'de veri entegrasyonunda ustalaşmanıza yardımcı olacaktır. Daha fazla araştırma yapmaktan ve bu adımları özel ihtiyaçlarınıza göre uyarlamaktan çekinmeyin. Mutlu veri entegrasyonu!
+Bu kapsamlı kılavuz, Aspose.Cells for Java kullanarak Excel'de veri entegrasyonunda ustalaşmanıza yardımcı olacaktır. Daha fazla araştırma yapmaktan ve bu adımları kendi özel ihtiyaçlarınıza göre uyarlamaktan çekinmeyin. Mutlu veri entegrasyonu!

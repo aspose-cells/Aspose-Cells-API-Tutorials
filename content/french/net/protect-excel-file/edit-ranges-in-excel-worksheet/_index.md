@@ -9,7 +9,7 @@ url: /fr/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 ---
 ## Introduction
 
-Lorsqu'il s'agit de modifier des feuilles de calcul Excel, l'une des fonctionnalités les plus puissantes et pratiques est la possibilité de protéger certaines zones tout en autorisant les modifications dans d'autres. Cela peut être incroyablement utile dans les environnements collaboratifs où plusieurs utilisateurs ont besoin d'accéder aux cellules, mais ne doivent modifier que celles désignées. Aujourd'hui, nous allons découvrir comment exploiter Aspose.Cells pour .NET pour gérer les plages modifiables dans une feuille de calcul Excel. Alors, prenez votre boisson de codage préférée et commençons !
+Lorsqu'il s'agit de modifier des feuilles de calcul Excel, l'une des fonctionnalités les plus puissantes et pratiques est la possibilité de protéger certaines zones tout en autorisant les modifications dans d'autres. Cela peut être incroyablement utile dans les environnements collaboratifs où plusieurs utilisateurs ont besoin d'accéder aux cellules, mais ne doivent modifier que celles qui sont désignées. Aujourd'hui, nous allons découvrir comment exploiter Aspose.Cells pour .NET pour gérer les plages modifiables dans une feuille de calcul Excel. Alors, prenez votre boisson de codage préférée et commençons !
 
 ## Prérequis
 
@@ -41,7 +41,7 @@ Avant de commencer à travailler avec des fichiers Excel, il est judicieux de d�
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Créez un répertoire s'il n'est pas déjà présent.
+//Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

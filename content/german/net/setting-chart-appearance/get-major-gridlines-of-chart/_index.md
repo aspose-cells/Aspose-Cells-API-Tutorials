@@ -15,7 +15,7 @@ Das Erstellen optisch ansprechender und informativer Diagramme ist für eine eff
 
 Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass Sie alles bereit haben:
 
--  Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek heruntergeladen und in Ihrem Projekt referenziert haben. Sie können sie erhalten[Hier](https://releases.aspose.com/cells/net/).
+- Aspose.Cells für .NET: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek heruntergeladen und in Ihrem Projekt referenziert haben. Sie können sie erhalten[Hier](https://releases.aspose.com/cells/net/).
 - Entwicklungsumgebung: Jede .NET-Entwicklungsumgebung ist geeignet, aufgrund der robusten Unterstützung und Tools wird jedoch dringend Visual Studio empfohlen.
 - Grundlegende Kenntnisse in C#: Kenntnisse der Grundlagen der C#-Programmierung sind hilfreich, da wir Code schreiben werden.
 
@@ -55,7 +55,7 @@ Stellen Sie sich diese Arbeitsmappe als leere Leinwand vor, auf der wir unsere D
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
-Sobald wir unsere Arbeitsmappe haben, müssen wir auf das spezifische Arbeitsblatt zugreifen, in dem unser Diagramm gespeichert wird. In diesem Fall greifen wir auf das erste Arbeitsblatt zu:
+Sobald wir unsere Arbeitsmappe haben, müssen wir auf das spezifische Arbeitsblatt zugreifen, in dem unser Diagramm gespeichert wird. In diesem Fall nehmen wir das erste Arbeitsblatt:
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Hier geben wir einige zufällige Werte in Zellen ein`A1` Zu`B3`. Diese Daten dienen als Datenquelle für unser Diagramm. Es ist wichtig, aussagekräftige Daten zur Visualisierung zu haben, sonst besteht das Diagramm nur aus hübschen Linien ohne Kontext!
+ Hier geben wir einige zufällige Werte in Zellen ein`A1` Zu`B3`Diese Daten dienen als Datenquelle für unser Diagramm. Es ist wichtig, aussagekräftige Daten zur Visualisierung zu haben, sonst besteht das Diagramm nur aus hübschen Linien ohne Kontext!
 
 ## Schritt 5: Dem Arbeitsblatt ein Diagramm hinzufügen
 
@@ -131,9 +131,9 @@ chart.CategoryAxis.MajorGridLines.IsVisible = true;
 chart.ValueAxis.MajorGridLines.IsVisible = true;
 ```
 
-Diese beiden Linien stellen sicher, dass Benutzer die Daten problemlos lesen und interpretieren können, indem sie eine visuelle Anleitung zur Ausrichtung der Werte bieten. 
+Diese beiden Linien stellen sicher, dass Benutzer die Daten leicht lesen und interpretieren können, indem sie eine visuelle Anleitung zur Ausrichtung der Werte bieten. 
 
-## Schritt 10: Speichern Sie die Arbeitsmappe
+## Schritt 10: Speichern der Arbeitsmappe
 
 Endlich ist es Zeit, unser Meisterwerk zu retten!
 

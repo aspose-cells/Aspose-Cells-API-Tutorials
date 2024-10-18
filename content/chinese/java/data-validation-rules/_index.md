@@ -15,7 +15,7 @@ url: /zh/java/data-validation-rules/
 Aspose.Cells 使您能够根据特定需求创建自定义数据验证规则。无论您是限制输入值、设置日期范围还是实施复杂条件，我们的教程都会引导您完成整个过程。解锁防止错误并保持 Excel 表中数据一致性的能力。
 
 ## 轻松制作无错误的 Excel 表格
-通过遵循我们关于使用 Aspose.Cells for Java 进行数据验证规则的全面教程，您将获得创建无错误 Excel 工作表所需的专业知识。提高数据准确性，简化流程，成为熟练的 Excel 用户。立即开始您的旅程并在 Excel 中脱颖而出！
+通过遵循我们关于使用 Aspose.Cells for Java 进行数据验证规则的全面教程，您将获得创建无错误 Excel 工作表所需的专业知识。提高数据准确性，简化流程，并成为熟练的 Excel 用户。立即开始您的旅程并在 Excel 中脱颖而出！
 
 ## 数据验证规则教程
 ### [创建自定义数据验证](./creating-custom-data-validation/)

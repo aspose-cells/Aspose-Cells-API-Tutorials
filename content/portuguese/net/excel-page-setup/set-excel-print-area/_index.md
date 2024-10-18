@@ -13,14 +13,14 @@ Quando se trata de gerenciar arquivos do Excel programaticamente, muitos desenvo
 
 ## Pré-requisitos
 
-Antes de mergulharmos de cabeça em nossa aventura de codificação, vamos tirar um momento para garantir que você tenha tudo o que precisa para seguir adiante. Aqui está a lista de verificação:
+Antes de mergulharmos de cabeça em nossa aventura de codificação, vamos reservar um momento para garantir que você tenha tudo o que precisa para seguir adiante. Aqui está a lista de verificação:
 
 1. Visual Studio: certifique-se de ter o Visual Studio instalado, pois é o ambiente de desenvolvimento que usaremos.
 2. .NET Framework: Garanta que seu projeto esteja configurado com o .NET Framework compatível com Aspose.Cells. Geralmente, .NET Core ou .NET Framework 4.5 e superior funcionarão.
 3.  Biblioteca Aspose.Cells: Você precisará ter o Aspose.Cells para .NET. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 4. Conhecimento básico de C#: A familiaridade com a sintaxe e a estrutura do C# é essencial, pois escreveremos segmentos de código ao longo deste guia.
 
-Depois de cumprir esses pré-requisitos, você estará pronto para entrar no mundo da manipulação do Excel!
+Depois de cumprir esses pré-requisitos, você estará pronto para mergulhar no mundo da manipulação do Excel!
 
 ## Pacotes de importação
 
@@ -105,7 +105,7 @@ Definir a área de impressão em um arquivo Excel usando o Aspose.Cells para .NE
 Aspose.Cells é uma biblioteca .NET para criar, manipular e converter planilhas do Excel sem precisar do Microsoft Excel.
 
 ### Como faço para baixar o Aspose.Cells?
- Você pode baixar o Aspose.Cells para .NET em[página de lançamento](https://releases.aspose.com/cells/net/).
+ Você pode baixar o Aspose.Cells para .NET do[página de lançamento](https://releases.aspose.com/cells/net/).
 
 ### Posso usar o Aspose.Cells gratuitamente?
  Sim, a Aspose oferece uma[teste gratuito](https://releases.aspose.com/) para você testar os recursos da biblioteca.

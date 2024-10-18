@@ -62,7 +62,7 @@ Workbook book = new Workbook(sourceDir + "sampleUsingSparklines.xlsx");
 
  Ten kod tworzy instancję`Workbook` klasę i ładuje określony plik szablonu z katalogu źródłowego.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Następnie przejdziemy do pierwszego arkusza w naszym skoroszycie. 
 

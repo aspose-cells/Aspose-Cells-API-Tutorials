@@ -17,9 +17,9 @@ Mielőtt belevágna a lépésekbe, győződjön meg róla, hogy néhány dolog k
 
 1. .NET-környezet: Be kell állítania egy .NET-fejlesztői környezetet. Ez lehet Visual Studio, Visual Studio Code vagy bármely más kompatibilis IDE.
    
-2.  Aspose.Cells for .NET: Aspose.Cells for .NET telepítve kell lennie. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Az Aspose.Cells for .NET-re telepítve kell lennie. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
 
-3. Minta Excel-fájl: Szerezzen be egy minta Excel-fájlt, amely diagramokat tartalmaz. Ehhez az oktatóanyaghoz egy nevű fájlt fogunk használni`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Győződjön meg róla, hogy a projektkönyvtárban van.
+3.  Minta Excel-fájl: Szerezzen be egy minta Excel-fájlt, amely diagramokat tartalmaz. Ehhez az oktatóanyaghoz egy nevű fájlt fogunk használni`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Győződjön meg róla, hogy a projektkönyvtárban van.
 
 4. Alapvető programozási ismeretek: A C# programozás ismerete megkönnyíti a követést.
 
@@ -46,7 +46,7 @@ using Aspose.Cells.Charts;
 
 Ezek a névterek hozzáférést biztosítanak az Aspose.Cells munkafüzetéhez, munkalapjaihoz és diagramfunkcióihoz.
 
-Most bontsuk le az X és Y értékek típusának meghatározásának folyamatát a diagramsorozatban. Lépésről lépésre ezt megteheti.
+Most bontsuk le az X és Y értékek típusának meghatározását a diagramsorozatban. Lépésről lépésre ezt megteheti.
 
 ## 1. lépés: Határozza meg a forráskönyvtárat
 
@@ -56,11 +56,11 @@ Először is meg kell határoznia azt a könyvtárat, amelyben az Excel-fájl ta
 string sourceDir = "Your Document Directory";
 ```
 
- Cserélje ki`"Your Document Directory"`az Excel-fájl mentési elérési útjával.
+ Cserélje ki`"Your Document Directory"` az Excel-fájl mentési elérési útjával.
 
 ## 2. lépés: Töltse be a munkafüzetet
 
- Ezután töltse be az Excel fájlt a`Workbook` objektum. Ez lehetővé teszi a fájl teljes tartalmához való hozzáférést.
+ Ezután töltse be az Excel fájlt a`Workbook`objektum. Ez lehetővé teszi a fájl teljes tartalmához való hozzáférést.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -117,12 +117,12 @@ Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfu
 
 ## Következtetés
 
-Ezzel az útmutatóval sikeresen lekérheti és azonosíthatja az X és Y értékek típusait a diagramsorozatokban az Aspose.Cells for .NET használatával. Akár adatok alapján hoz döntéseket, akár csak vizuálisan kell bemutatnia, ezeknek az értékeknek a megértése kritikus fontosságú. Tehát folytassa, fedezze fel tovább, és tegye tartalmasabbá adatbemutatóit!
+Ezzel az útmutatóval sikeresen lekérheti és azonosíthatja az X és Y értékek típusait a diagramsorozatokban az Aspose.Cells for .NET használatával. Akár adatok alapján hoz döntéseket, akár csak vizuálisan kell bemutatnia, ezeknek az értékeknek a megértése kritikus. Tehát folytassa, fedezze fel tovább, és tegye tartalmasabbá adatbemutatóit!
 
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Excel telepítése nélkül kezeljék és kezeljék az Excel fájlokat.
+Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára az Excel-fájlok kezelését és kezelését a Microsoft Excel telepítése nélkül.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?
 Igen, az Aspose ingyenes próbaverziót biztosít, amelynek során felfedezheti az Aspose.Cells szolgáltatásait.

@@ -18,7 +18,7 @@ Az adatelemzés terén az Excel továbbra is a sarokköve a különféle iparág
 
 ## A Data Insights elsajátítása ma
 
-Ha elsajátítja az Excel adatelemzést az Aspose.Cells for Java programmal, versenyelőnyt szerez az adatokban rejlő lehetőségek teljes kihasználásában. Legyen szó trendek feltárásáról, jelentések készítéséről vagy folyamatok automatizálásáról, ezek az oktatóanyagok felvértezik azokat a készségeket, amelyek a mai adatközpontú környezetben való kitűnéshez szükségesek. Merüljön el oktatóanyagainkban, és kezdje el az adatok gyakorlati ismeretekké alakítását még ma.
+Ha elsajátítja az Excel adatelemzést az Aspose.Cells for Java programmal, versenyelőnyt szerez az adatokban rejlő lehetőségek teljes kihasználásában. Legyen szó trendek feltárásáról, jelentések készítéséről vagy folyamatok automatizálásáról, ezek az oktatóanyagok felvértezik azokat a készségeket, amelyek a mai adatközpontú környezetben való kitűnéshez szükségesek. Merüljön el oktatóanyagainkban, és kezdje el az adatokat gyakorlati ismeretekké alakítani még ma.
 
 ## Excel adatelemzési oktatóanyagok
 ### [Adatelemző funkciók Excel](./data-analysis-functions-excel/)

@@ -115,7 +115,7 @@ elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
 ```
 
-En este paso, establecemos el tipo de compresión en Nivel 9, que debería producir el tamaño de archivo más pequeño, pero puede tardar más en guardarse.
+En este paso, establecemos el tipo de compresión en Nivel 9, que debería producir el tamaño de archivo más pequeño, pero puede demorar más en guardarse.
 
 ## Paso 5: Salida final
 

@@ -2,7 +2,7 @@
 title: إضافة رابط إلى ملف خارجي في Excel
 linktitle: إضافة رابط إلى ملف خارجي في Excel
 second_title: واجهة برمجة تطبيقات معالجة Excel الخاصة بـ Aspose.Cells .NET
-description: تعرف على كيفية إضافة ارتباطات ملفات خارجية في Excel باستخدام Aspose.Cells for .NET من خلال هذا الدليل المفصل. قم بتحسين جداول البيانات الخاصة بك.
+description: تعرف على كيفية إضافة ارتباطات ملفات خارجية في Excel باستخدام Aspose.Cells for .NET من خلال هذا الدليل التفصيلي. قم بتحسين جداول البيانات الخاصة بك.
 type: docs
 weight: 10
 url: /ar/net/excel-working-with-hyperlinks/add-link-to-external-file/
@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## الخطوة 2: إنشاء كائن مصنف
 بعد ذلك، سننشئ مصنف Excel جديدًا. هذا هو المكان الفارغ الذي يمكنك البدء في إضافة الوظائف إليه.
 ```csharp
-//إنشاء كائن مصنف
+// إنشاء كائن مصنف
 Workbook workbook = new Workbook();
 ```
  فكر في`Workbook` كدفتر ملاحظات جديد يمكنك تدوين كل ما تحتاج إليه فيه. إنه فارغ الآن، وجاهز لاستقبال ملاحظاتك!
@@ -52,7 +52,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Hyperlinks.Add("A5", 1, 1, outputDir + "SomeExcelFile.xlsx");
 worksheet.Hyperlinks[0].TextToDisplay = "Link To External File";
 ```
- في هذا السطر، تقوم بتحديد خلية،`A5`، للارتباط التشعبي. تحدد المعلمات التي تم تمريرها المكان الذي سيقود إليه الارتباط التشعبي. كما يمكنك أيضًا تعيين النص الذي سيتم عرضه في الخلية. الأمر أشبه بكتابة ملاحظة مع ملصق لاصق يشير إلى صندوق كنز!
+ في هذا السطر، تقوم بتحديد خلية،`A5`، للارتباط التشعبي. تحدد المعلمات التي تم تمريرها المكان الذي سيقود إليه الارتباط التشعبي. كما يمكنك تعيين النص الذي سيتم عرضه في الخلية. الأمر أشبه بكتابة ملاحظة مع ملصق لاصق يشير إلى صندوق كنز!
 ## الخطوة 5: احفظ المصنف
 بعد الانتهاء من صياغة تحفتك الفنية، حان وقت حفظها. سيؤدي هذا إلى إنشاء ملف Excel الخاص بك بالارتباط التشعبي المضاف حديثًا.
 ```csharp
@@ -79,7 +79,7 @@ Console.WriteLine("AddingLinkToExternalFile executed successfully.");
 ### ما هو Aspose.Cells؟
 Aspose.Cells عبارة عن مكتبة .NET تستخدم لإنشاء ملفات Excel ومعالجتها برمجيًا.
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟
- نعم، تقدم Aspose نسخة تجريبية مجانية متاحة للتنزيل[هنا](https://releases.aspose.com/).
+ نعم، تقدم Aspose إصدارًا تجريبيًا مجانيًا متاحًا للتنزيل[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Cells؟
  يمكنك التقدم بطلب للحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على المزيد من الأمثلة لاستخدام Aspose.Cells؟

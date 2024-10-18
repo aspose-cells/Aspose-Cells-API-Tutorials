@@ -19,7 +19,7 @@ Antes de pasar al código, asegurémonos de que tienes todo lo que necesitas:
 Si bien Aspose.Cells simplifica muchas tareas, es fundamental tener conocimientos básicos de C#. Debes sentirte cómodo leyendo y escribiendo código C# básico.
 
 ### Aspose.Cells para .NET
- Asegúrese de tener Aspose.Cells instalado en su proyecto. Puede descargarlo desde[sitio web](https://releases.aspose.com/cells/net/) Si aún no lo has hecho.
+ Asegúrate de tener Aspose.Cells instalado en tu proyecto. Puedes descargarlo desde[sitio web](https://releases.aspose.com/cells/net/) Si aún no lo has hecho.
 
 ### Entorno de desarrollo
 Debes tener instalado un IDE como Visual Studio. Esto te ayudará a manejar y probar tu código de manera eficaz.
@@ -74,7 +74,7 @@ Este código toma la primera hoja de trabajo (índice 0) de ambos libros de trab
 
 ## Paso 4: Verifique la configuración del tamaño del papel
 
- ¡Ahora viene la parte divertida! Deberás comprobar si la configuración del tamaño del papel es automática para cada hoja de cálculo. Esto se hace inspeccionando la`IsAutomaticPaperSize` propiedad de la`PageSetup` Clase. Utilice el siguiente fragmento de código:
+ Ahora viene la parte divertida. Deberá comprobar si la configuración del tamaño del papel es automática para cada hoja de cálculo. Esto se hace inspeccionando la`IsAutomaticPaperSize` propiedad de la`PageSetup` Clase. Utilice el siguiente fragmento de código:
 
 ```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);

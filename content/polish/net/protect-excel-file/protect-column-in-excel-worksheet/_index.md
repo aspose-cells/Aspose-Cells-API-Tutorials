@@ -46,12 +46,12 @@ teraz przejdźmy do szczegółów! Oto podział każdego kroku związanego z och
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
-Po pierwsze — potrzebujesz miejsca, w którym zapiszesz plik Excel. Oto, jak skonfigurować katalog dokumentów:
+Po pierwsze — potrzebujesz miejsca do zapisania pliku Excel. Oto jak skonfigurować katalog dokumentów:
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Utwórz katalog, jeśli jeszcze go nie ma.
+//Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -99,7 +99,7 @@ StyleFlag flag;
 Zanim będziemy mogli zablokować konkretną kolumnę, powinniśmy odblokować wszystkie kolumny w arkuszu kalkulacyjnym. Ten krok jest kluczowy, aby upewnić się, że tylko kolumna, którą chcemy chronić, pozostanie zablokowana.
 
 ```csharp
-// Przejdź przez wszystkie kolumny arkusza kalkulacyjnego i odblokuj je.
+// Przejdź przez wszystkie kolumny arkusza i odblokuj je.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;

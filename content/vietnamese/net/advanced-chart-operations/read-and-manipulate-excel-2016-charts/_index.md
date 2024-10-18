@@ -91,9 +91,9 @@ Bên trong vòng lặp, hãy in ra loại của từng biểu đồ. Điều nà
     Console.WriteLine(ch.Type);
 ```
 
-## Bước 6: Sửa đổi Tiêu đề Biểu đồ
+## Bước 6: Sửa đổi tiêu đề biểu đồ
 
-Đây chính là nơi thú vị bắt đầu! Bạn có thể thay đổi tiêu đề của từng biểu đồ một cách linh hoạt dựa trên loại biểu đồ.
+Đây chính là nơi niềm vui bắt đầu! Bạn có thể thay đổi tiêu đề của từng biểu đồ một cách linh hoạt dựa trên loại biểu đồ.
 
 ```csharp
     // Thay đổi tiêu đề của biểu đồ theo loại của chúng
@@ -112,7 +112,7 @@ Sau khi thực hiện thay đổi, bạn cần lưu sổ làm việc đã sửa 
 wb.Save(outputDir + "outputReadManipulateExcel2016Charts.xlsx");
 ```
 
-Hãy nhớ cung cấp tên hợp lệ cho tệp đầu ra!
+Nhớ cung cấp tên hợp lệ cho tệp đầu ra!
 
 ## Bước 8: Tin nhắn xác nhận
 

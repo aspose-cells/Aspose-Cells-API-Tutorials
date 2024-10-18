@@ -9,14 +9,14 @@ url: /es/net/inserting-controls-in-charts/add-label-control-to-chart/
 ---
 ## Introducción
 
-Los gráficos son una forma eficaz de visualizar datos y, a veces, agregar una etiqueta puede mejorar aún más la claridad. Si trabaja con Aspose.Cells para .NET, puede agregar fácilmente una etiqueta a sus gráficos para brindar contexto adicional. En este tutorial, le explicaremos cómo hacerlo paso a paso, lo que le permitirá estar bien preparado para implementarlo en sus propios proyectos.
+Los gráficos son una forma eficaz de visualizar datos y, a veces, agregar una etiqueta puede mejorar la claridad aún más. Si trabaja con Aspose.Cells para .NET, puede agregar fácilmente una etiqueta a sus gráficos para brindar contexto adicional. En este tutorial, le explicaremos cómo hacerlo paso a paso, lo que le permitirá estar bien preparado para implementarlo en sus propios proyectos.
 
 ## Prerrequisitos
 
 Antes de profundizar en los detalles, cubramos lo que necesitas para comenzar:
 
 - Conocimientos básicos de C#: es fundamental comprender los conceptos básicos de programación en C#. Si eres principiante, no te preocupes: los pasos serán claros y concisos.
-- Biblioteca Aspose.Cells: asegúrese de tener instalada la biblioteca Aspose.Cells. Puede hacerlo a través del Administrador de paquetes NuGet en Visual Studio. Si aún no lo ha hecho, consulte la[enlace de descarga](https://releases.aspose.com/cells/net/) Para la biblioteca.
+-  Biblioteca Aspose.Cells: asegúrese de tener instalada la biblioteca Aspose.Cells. Puede hacerlo a través del Administrador de paquetes NuGet en Visual Studio. Si aún no lo ha hecho, consulte la[enlace de descarga](https://releases.aspose.com/cells/net/) Para la biblioteca.
 - Visual Studio: necesitará un entorno de desarrollo integrado (IDE) como Visual Studio para escribir y ejecutar su código.
 
 ## Importar paquetes
@@ -41,7 +41,7 @@ Ahora que ya está preparado, manos a la obra y vayamos a lo importante. Repasar
 
 ## Paso 1: Definir directorios
 
-Primero, definiremos las rutas de nuestros directorios de origen y de salida. Aquí es donde buscaremos nuestro archivo de Excel existente y donde se guardará el archivo modificado.
+Primero, definiremos las rutas de nuestros directorios de origen y salida. Aquí es donde buscaremos nuestro archivo de Excel existente y donde se guardará el archivo modificado.
 
 ```csharp
 // Directorio de fuentes
@@ -62,7 +62,7 @@ A continuación, cargaremos el archivo Excel que contiene el gráfico al que que
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Aquí, estamos usando el`Workbook` Clase de Aspose.Cells para abrir nuestro archivo de Excel. ¡Es como abrir la puerta para que fluya la creatividad!
+ Aquí, estamos usando el`Workbook`Clase de Aspose.Cells para abrir nuestro archivo de Excel. ¡Es como abrir la puerta para que fluya la creatividad!
 
 ## Paso 3: Acceda a la hoja de trabajo
 
@@ -94,7 +94,7 @@ Ahora viene la parte más interesante: agregar la etiqueta al gráfico. Definire
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Aquí,`AddLabelInChart` Se encarga de crear una etiqueta en función de las coordenadas y dimensiones que especifiques. ¡Es como colocar un hermoso marco alrededor de tu obra de arte!
+ Aquí,`AddLabelInChart`Se encarga de crear una etiqueta en función de las coordenadas y dimensiones que especifiques. ¡Es como colocar un hermoso marco alrededor de tu obra de arte!
 
 ## Paso 6: Establezca el texto de la etiqueta
 
@@ -105,7 +105,7 @@ A continuación, deberás configurar el texto de la etiqueta recién creada.
 label.Text = "A Label In Chart";
 ```
 
-Aquí es donde le das un título a tu obra de arte. Ayuda a los espectadores a comprender lo que están viendo.
+Aquí es donde le das un título a tu obra de arte. Ayuda a los espectadores a entender lo que están viendo.
 
 ## Paso 7: Establezca el tipo de ubicación
 
@@ -149,7 +149,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 ¡Sí! Puedes cambiar la fuente, el color, el tamaño y otras propiedades de la etiqueta para adaptarlas a tus necesidades.
 
 ### ¿Aspose.Cells es de uso gratuito?
- Aspose.Cells es un producto pago; sin embargo, puedes comenzar con un[prueba gratis](https://releases.aspose.com/)para explorar sus características.
+ Aspose.Cells es un producto pago; sin embargo, puedes comenzar con un[prueba gratis](https://releases.aspose.com/) para explorar sus características.
 
 ### ¿Qué pasa si quiero agregar varias etiquetas?
 Puede repetir los pasos de adición de etiquetas tantas veces como sea necesario, cada una con diferentes posiciones y textos.

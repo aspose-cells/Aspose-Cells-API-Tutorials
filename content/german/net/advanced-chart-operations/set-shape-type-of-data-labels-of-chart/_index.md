@@ -17,7 +17,7 @@ Bevor wir mit dem Programmieren beginnen, stellen wir sicher, dass Sie alles ric
 
 1.  Aspose.Cells für .NET: Falls noch nicht geschehen, laden Sie es herunter von der[Aspose-Website](https://releases.aspose.com/cells/net/). Diese Bibliothek ermöglicht alle Arten von Manipulationen mit Excel-Dokumenten.
 2. Visual Studio: Sie sollten dies auf Ihrem System installiert haben, um .NET-Anwendungen schreiben und ausführen zu können. Stellen Sie sicher, dass es sich um die Version handelt, die .NET Framework oder .NET Core entsprechend den Anforderungen Ihres Projekts unterstützt.
-3. Grundlegende Kenntnisse in C#: Wenn Sie mit den grundlegenden Konzepten der Programmierung und der C#-Syntax vertraut sind, werden Sie die Codeausschnitte auf jeden Fall besser verstehen.
+3. Grundlegende Kenntnisse in C#: Wenn Sie mit den grundlegenden Programmierkonzepten und der C#-Syntax vertraut sind, werden Sie die Codeausschnitte auf jeden Fall besser verstehen.
 4. Eine Excel-Datei: Sie benötigen außerdem eine Beispiel-Excel-Arbeitsmappe, mit der Sie arbeiten können. Sie können Ihre eigene erstellen oder eine vorhandene verwenden.
 
 Nachdem wir nun die Voraussetzungen erfüllt haben, können wir direkt loslegen!
@@ -115,7 +115,7 @@ srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 
 ## Schritt 7: Speichern Sie die Excel-Ausgabedatei
 
-Sie haben die schwere Arbeit erledigt und jetzt ist es an der Zeit, Ihre Arbeit zu speichern. Lassen Sie uns die geänderte Datenbeschriftungsform wieder in eine Excel-Datei einfügen.
+Sie haben die schwere Arbeit erledigt und jetzt ist es Zeit, Ihre Arbeit zu speichern. Lassen Sie uns die geänderte Datenbeschriftungsform wieder in eine Excel-Datei einfügen.
 
 ```csharp
 // Speichern der Excel-Ausgabedatei

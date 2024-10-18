@@ -46,12 +46,12 @@ string outputDir = "Your Output Directory"; // Perbarui dengan jalur yang Anda i
 
  Mengganti`"Your Output Directory"` dengan jalur sebenarnya di mana Anda ingin menyimpan berkas Anda.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
  Selanjutnya, Anda perlu membuat instance baru dari`Workbook` kelas. Objek ini akan mewakili berkas Excel Anda, yang memungkinkan Anda memanipulasi isinya.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Dalam kode ini, kami menentukan jenis bagan (dalam hal ini, bagan kolom) dan pos
 
 ## Langkah 6: Akses Instansi Bagan
 
- Setelah kita membuat grafik, kita perlu mengakses instansinya untuk mengubah propertinya. Ini dilakukan dengan mengambilnya melalui`Charts`koleksi.
+Setelah kita membuat grafik, kita perlu mengakses instansinya untuk mengubah propertinya. Ini dilakukan dengan mengambilnya melalui`Charts`koleksi.
 
 ```csharp
 // Mengakses contoh grafik yang baru ditambahkan
@@ -134,7 +134,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Dalam kode ini, kami menetapkan berbagai warna untuk berbagai bagian grafik. Menyesuaikan tampilan dapat membuat data Anda jauh lebih menarik!
+Dalam kode ini, kami menetapkan berbagai warna untuk berbagai bagian diagram. Menyesuaikan tampilan dapat membuat data Anda jauh lebih menarik!
 
 ## Langkah 9: Ubah Warna Garis Kisi Utama
 
@@ -169,7 +169,7 @@ Terakhir, mari tambahkan pesan untuk mengonfirmasi bahwa tugas kita berhasil:
 Console.WriteLine("Changing Major Gridlines in Chart executed successfully.");
 ```
 
-Keluaran konsol sederhana ini memberi tahu Anda bahwa program Anda berjalan benar tanpa hambatan apa pun.
+Keluaran konsol sederhana ini memberi tahu Anda bahwa program Anda berjalan dengan benar tanpa hambatan apa pun.
 
 ## Kesimpulan
 

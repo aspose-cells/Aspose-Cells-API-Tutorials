@@ -13,11 +13,11 @@ url: /zh/net/advanced-chart-operations/using-sparklines/
 
 ## 先决条件
 
-在我们深入迷你图的世界之前，让我们先了解一下一些先决条件，为我们的旅程做好准备：
+在我们深入迷你图的世界之前，让我们先了解一下一些为我们的旅程做好准备的先决条件：
 
 1. 熟悉 C#：C# 编程的基本知识将帮助您更好地理解编码部分。
 2. 已安装 .NET Framework：确保您的系统上安装了 .NET 框架。
-3. Aspose.Cells for .NET：您需要在项目中使用 Aspose.Cells 库。您可以从以下位置下载[这里](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET：您需要在项目中使用 Aspose.Cells 库。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/).
 4. Excel 模板：我们将使用名为`sampleUsingSparklines.xlsx`将其保存在工作目录中。
 
 现在我们已经完成了必要的设置，让我们分解一下实现迷你图的步骤吧！
@@ -71,7 +71,7 @@ Workbook book = new Workbook(sourceDir + "sampleUsingSparklines.xlsx");
 Worksheet sheet = book.Worksheets[0];
 ```
 
-通过访问第一个工作表，我们可以开始处理其中的数据和特征。
+通过访问第一个工作表，我们可以开始操作其中的数据和特征。
 
 ## 步骤 4：读取现有迷你图（如果有）
 

@@ -20,11 +20,11 @@ Antes de começarmos, vamos garantir que você tenha tudo configurado para segui
 3. Conhecimento básico de programação: a familiaridade com a programação em C# ajudará você a entender e modificar os trechos de código fornecidos.
 4. .NET Framework: certifique-se de ter a versão correta do .NET instalada para compatibilidade com o Aspose.Cells.
 
-Depois de cumprir esses pré-requisitos, podemos arregaçar as mangas e começar!
+Depois que você tiver esses pré-requisitos, podemos arregaçar as mangas e começar!
 
 ## Pacotes de importação
 
-Para começar a aproveitar o poder do Aspose.Cells, certifique-se de incluir os pacotes necessários em seu projeto. 
+Para começar a aproveitar o poder do Aspose.Cells, certifique-se de incluir os pacotes necessários no seu projeto. 
 
 ### Adicionar referência Aspose.Cells
 

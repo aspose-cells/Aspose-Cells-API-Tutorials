@@ -9,7 +9,7 @@ url: /nl/net/advanced-chart-operations/setting-chart-data/
 ---
 ## Invoering
 
-Als het gaat om datavisualisatie, zijn grafieken en diagrammen onmisbaar. Ze helpen u een verhaal te vertellen met uw data, waardoor complexe informatie gemakkelijker te begrijpen en te interpreteren is. Aspose.Cells voor .NET is een uitstekende bibliotheek waarmee u Excel-bestanden kunt manipuleren, inclusief de mogelijkheid om geweldige grafieken te maken. In deze tutorial leiden we u door het proces van het naadloos instellen van grafiekgegevens met Aspose.Cells voor .NET.
+Als het gaat om datavisualisatie, zijn grafieken en diagrammen onmisbaar. Ze helpen u een verhaal te vertellen met uw data, waardoor complexe informatie gemakkelijker te begrijpen en te interpreteren is. Aspose.Cells voor .NET is een uitstekende bibliotheek waarmee u Excel-bestanden kunt manipuleren, inclusief de mogelijkheid om geweldige diagrammen te maken. In deze tutorial leiden we u door het proces van het naadloos instellen van diagramgegevens met Aspose.Cells voor .NET.
 
 ## Vereisten
 
@@ -44,7 +44,7 @@ string outputDir = "Your Output Directory";
 
  In deze stap geeft u aan waar u uw Excel-bestand wilt opslaan. Vervangen`"Your Output Directory"` met het daadwerkelijke pad waar u het bestand wilt hebben. Dit is hetzelfde als het instellen van de werkruimte voordat u begint met schilderen – u wilt niet overal verf hebben!
 
-## Stap 2: Maak een werkboek
+## Stap 2: Maak een werkmap
 
 ```csharp
 Workbook workbook = new Workbook();

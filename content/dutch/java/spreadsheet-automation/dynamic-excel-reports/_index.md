@@ -78,7 +78,7 @@ In deze tutorial hebben we de basisbeginselen van het maken van dynamische Excel
 
 Dynamische Excel-rapporten zijn een waardevolle troef voor bedrijven die afhankelijk zijn van up-to-date informatie. Met Aspose.Cells voor Java kunt u robuuste en flexibele rapporten bouwen die zich moeiteloos aanpassen aan veranderende gegevens.
 
-Nu hebt u de basis om dynamische rapporten te maken die zijn afgestemd op uw specifieke behoeften. Experimenteer met verschillende functies en u bent op weg naar het maken van krachtige, datagestuurde Excel-rapporten.
+Nu hebt u de basis om dynamische rapporten te maken die zijn afgestemd op uw specifieke behoeften. Experimenteer met verschillende functies en u bent op weg naar het bouwen van krachtige, datagestuurde Excel-rapporten.
 
 
 ## Veelgestelde vragen
@@ -93,7 +93,7 @@ Ja, u kunt dynamische Excel-rapporten integreren met verschillende gegevensbronn
 
 ### 3. Hoe vaak moet ik gegevens in een dynamisch rapport vernieuwen?
 
-De frequentie van data refresh is afhankelijk van uw specifieke use case. U kunt geautomatiseerde refresh-intervallen instellen of handmatige updates activeren op basis van uw vereisten.
+De frequentie van data refresh hangt af van uw specifieke use case. U kunt geautomatiseerde refresh-intervallen instellen of handmatige updates activeren op basis van uw vereisten.
 
 ### 4. Zijn er beperkingen aan de grootte van dynamische rapporten?
 

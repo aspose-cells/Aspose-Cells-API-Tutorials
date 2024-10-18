@@ -8,7 +8,7 @@ weight: 11
 url: /tr/net/excel-subtotal-calculation/tracing-precedents-in-excel/
 ---
 ## giriiş
-Kendinizi Excel formüllerinin karmaşık bir ağında buldunuz mu, umutsuzca hesaplamalarınıza hangi hücrelerin girdiğini anlamaya çalıştınız mı? Eğer öyleyse, yalnız değilsiniz! Excel'deki emsalleri anlamak, veri analizi becerilerinizi önemli ölçüde geliştirebilir ve iş akışınızı düzene sokabilir. Bu makalede, .NET için Aspose.Cells kullanarak Excel'de emsalleri nasıl izleyeceğinizi inceleyeceğiz. Aspose.Cells, Excel dosyalarını etkileyici bir kolaylıkla düzenlemenize olanak tanıyan güçlü bir kütüphanedir ve bu hücre bağımlılıklarını kısa sürede izlemenizi sağlayacak adım adım bir kılavuzda size yol göstereceğiz. O halde, en sevdiğiniz kafeinli içeceğinizi alın, arkanıza yaslanın ve başlayalım!
+Kendinizi Excel formüllerinin karmaşık bir ağında buldunuz mu, umutsuzca hesaplamalarınıza hangi hücrelerin girdiğini anlamaya çalıştınız mı? Eğer öyleyse, yalnız değilsiniz! Excel'deki emsalleri anlamak, veri analizi becerilerinizi önemli ölçüde geliştirebilir ve iş akışınızı düzene sokabilir. Bu makalede, .NET için Aspose.Cells kullanarak Excel'de emsalleri nasıl izleyeceğinizi inceleyeceğiz. Aspose.Cells, Excel dosyalarını etkileyici bir kolaylıkla düzenlemenize olanak tanıyan güçlü bir kütüphanedir ve bu hücre bağımlılıklarını kısa sürede izlemenizi sağlayacak adım adım bir kılavuzda size yol göstereceğiz. O halde en sevdiğiniz kafeinli içeceğinizi alın, arkanıza yaslanın ve başlayalım!
 ## Ön koşullar
 Başlamadan önce, eğitimimize başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. 
 ### 1. C#'ın Temel Bilgileri
@@ -84,5 +84,5 @@ Aspose.Cells, Microsoft Excel olmadan Excel elektronik tabloları oluşturmak, d
  Evet yapabilirsiniz; sadece döngüye girin`ReferredAreaCollection` sayfalara erişmek için.
 ### Aspose.Cells .NET Core ile uyumlu mu?  
 Evet, Aspose.Cells .NET Core'u destekler, dolayısıyla onu çeşitli .NET çerçevelerinde kullanabilirsiniz.
-### Aspose.Cells için desteği nereden bulabilirim?  
+### Aspose.Cells için desteği nerede bulabilirim?  
 Yardım alabilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9).

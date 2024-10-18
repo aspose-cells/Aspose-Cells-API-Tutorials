@@ -15,7 +15,7 @@ Excel 파일을 프로그래밍 방식으로 작업할 때, 보고, 데이터 �
 
 시작하기에 앞서 꼭 준비해야 할 몇 가지 사항이 있습니다.
 
-1. Aspose.Cells for .NET 라이브러리: 이것은 Excel 파일을 조작할 수 있게 해주는 핵심 구성 요소입니다. 아직 설치하지 않았다면,[여기에서 다운로드하세요](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET 라이브러리: 이것은 Excel 파일을 조작할 수 있게 해주는 핵심 구성 요소입니다. 아직 설치하지 않았다면,[여기에서 다운로드하세요](https://releases.aspose.com/cells/net/).
 2. 개발 환경: C# 코드를 작성하고 실행할 수 있는 개발 환경(Visual Studio가 바람직함)을 설정해야 합니다.
 3. C#에 대한 기본적인 이해: 모든 단계를 설명하겠지만, C#에 대한 기본적인 이해가 있으면 더 잘 따라갈 수 있습니다.
 4. Excel 파일: Excel 파일을 만들어야 합니다(이 튜토리얼에서는 "book1.xls"를 참조합니다). 이 목적을 위해 몇 개의 워크시트가 있는 간단한 파일을 만들 수 있습니다.
@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  다음으로 다음을 만들어야 합니다.`Workbook` 객체. 이 객체는 Excel 파일을 나타내며 해당 내용을 조작할 수 있습니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
 ```
@@ -85,7 +85,7 @@ workbook.Worksheets.RemoveAt("Sheet1");
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-필요에 따라 출력 파일의 이름을 바꾸거나 원본 파일을 덮어쓸 수 있습니다. 중요한 부분은 이 단계에서 변경 사항이 보존된다는 것입니다!
+필요에 따라 출력 파일의 이름을 바꾸거나 원본 파일을 덮어쓸 수 있습니다. 중요한 점은 이 단계에서 변경 사항이 보존된다는 것입니다!
 
 ## 결론
 
@@ -96,7 +96,7 @@ Aspose.Cells 라이브러리의 다른 기능을 자유롭게 사용해보세요
 ## 자주 묻는 질문
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
-Aspose.Cells는 무료 체험판을 제공하지만 계속 사용하려면 라이선스를 구매해야 합니다. 무료 체험판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+ Aspose.Cells는 무료 체험판을 제공하지만 계속 사용하려면 라이선스를 구매해야 합니다. 무료 체험판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### 한 번에 여러 개의 워크시트를 제거할 수 있나요?
 루프를 사용하여 워크시트 컬렉션을 반복하고 여러 시트를 제거할 수 있습니다. 인덱스를 올바르게 관리하기만 하면 됩니다.

@@ -8,7 +8,7 @@ weight: 10
 url: /de/net/excel-working-with-hyperlinks/add-link-to-external-file/
 ---
 ## Einführung
-Wenn Sie programmgesteuert mit Excel-Dateien arbeiten, ist es wichtig, sie interaktiv zu gestalten und mit anderen Ressourcen zu verbinden. Eine solche Funktion ist das Hinzufügen von Hyperlinks, die auf externe Dateien verweisen. Egal, ob Sie an einem Unternehmens-Dashboard, einem Projektbericht oder nur an persönlichen Tabellen arbeiten: Wenn Sie wissen, wie Sie diese Verbindungen erstellen, können Sie Ihre Produktivität und Organisation steigern. In diesem Handbuch erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinks nahtlos in Ihre Tabellen integrieren können.
+Wenn Sie programmgesteuert mit Excel-Dateien arbeiten, ist es wichtig, sie interaktiv zu gestalten und mit anderen Ressourcen zu verbinden. Eine solche Funktion ist das Hinzufügen von Hyperlinks, die auf externe Dateien verweisen. Egal, ob Sie an einem Unternehmens-Dashboard, einem Projektbericht oder nur an persönlichen Tabellen arbeiten: Wenn Sie wissen, wie Sie diese Verbindungen herstellen, können Sie Ihre Produktivität und Organisation steigern. In diesem Handbuch erfahren Sie, wie Sie mit Aspose.Cells für .NET Hyperlinks nahtlos in Ihre Tabellen integrieren können.
 ## Voraussetzungen
 Bevor Sie mit dem Programmieren beginnen, müssen Sie sicherstellen, dass Ihre Umgebung richtig eingerichtet ist. Folgendes benötigen Sie:
 1. Grundkenntnisse in C#: Kenntnisse in C# sind von Vorteil, da die Beispiele in dieser Sprache codiert sind.
@@ -35,14 +35,14 @@ string outputDir = "Your Document Directory";
 ## Schritt 2: Erstellen eines Arbeitsmappenobjekts
 Als Nächstes erstellen wir eine neue Excel-Arbeitsmappe. Dies ist Ihre leere Leinwand, auf der Sie Funktionen hinzufügen können.
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
  Denken Sie an die`Workbook` als neues Notizbuch, in das Sie alles Wichtige schreiben können. Es ist im Moment leer und wartet auf Ihre Eingaben!
 ## Schritt 3: Zugriff auf das gewünschte Arbeitsblatt
 Jede Arbeitsmappe kann mehrere Arbeitsblätter enthalten. Hier greifen wir auf das erste Arbeitsblatt zu, in das wir unseren Hyperlink einfügen.
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 Hier sagen wir: „Hey, ich möchte am ersten Blatt arbeiten.“ Es ist, als würden Sie eine bestimmte Seite in Ihrem Notizbuch öffnen.
@@ -61,7 +61,7 @@ workbook.Save(outputDir + "outputAddingLinkToExternalFile.xlsx");
 ```
 Hier geben Sie Ihrem neuen Dokument einen Namen. Stellen Sie es sich so vor, als würden Sie Ihr Notizbuch schließen, nachdem Sie wichtige Notizen gemacht haben!
 ## Schritt 6: Erstellen der externen Datei
-Da Sie in Ihrem Hyperlink auf eine externe Datei verweisen, müssen Sie diese Datei auch erstellen, um die Funktion des Links zu gewährleisten!
+Da Sie in Ihrem Hyperlink auf eine externe Datei verweisen, müssen Sie diese Datei auch erstellen, um sicherzustellen, dass der Link funktioniert!
 ```csharp
 workbook = new Workbook();
 workbook.Save(outputDir + "SomeExcelFile.xlsx");

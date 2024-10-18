@@ -109,7 +109,7 @@ Java용 Aspose.Cells를 사용하여 Excel에서 여러 셀의 텍스트를 연�
 
 네, Excel에서 CONCATENATE를 사용하고 Java용 Aspose.Cells를 사용하여 세 개 이상의 텍스트 문자열을 연결할 수 있습니다. 필요에 따라 추가 셀 참조를 포함하도록 수식을 확장하기만 하면 됩니다.
 
-### Java용 Aspose.Cells에서 CONCATENATE의 대안이 있나요?
+### Java용 Aspose.Cells에서 CONCATENATE에 대한 대안이 있나요?
 
  예, Aspose.Cells for Java는 다음을 사용하여 텍스트를 연결하는 대체 방법을 제공합니다.`Cell.putValue` 방법. 여러 셀의 텍스트를 연결하고 수식을 사용하지 않고도 다른 셀에 결과를 설정할 수 있습니다.
 

@@ -168,7 +168,7 @@ Grattis! Du har framgångsrikt renderat ett diagram med Aspose.Cells för .NET. 
 ### Vilka typer av diagram kan jag skapa med Aspose.Cells för .NET?
 Du kan skapa en mängd olika diagram, inklusive kolumn-, linje-, cirkel- och stapeldiagram, bland annat.
 
-### Kan jag anpassa utseendet på diagrammen?
+### Kan jag anpassa diagrammets utseende?
 Ja, Aspose.Cells möjliggör omfattande anpassning, inklusive färger, stilar och diagramelement.
 
 ### Finns det en gratis provperiod?

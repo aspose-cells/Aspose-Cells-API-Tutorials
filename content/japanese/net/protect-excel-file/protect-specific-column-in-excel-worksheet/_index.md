@@ -18,7 +18,7 @@ url: /ja/net/protect-excel-file/protect-specific-column-in-excel-worksheet/
 1. Visual Studio: Microsoft Visual Studio がインストールされていることを確認します (2017 以降が望ましい)。これが開発環境として機能します。 
 2.  Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードし、プロジェクトで参照する必要があります。[ライブラリをここからダウンロード](https://releases.aspose.com/cells/net/)まだ行っていない場合は、行ってください。
 3. C# の基本的な理解: コード例はわかりやすいものですが、C# の基本的な知識があれば、必要に応じて調整を行うことができます。
-4. .NET Framework: プロジェクトが Aspose.Cells がサポートされている .NET Framework を対象としていることを確認します。
+4. .NET Framework: プロジェクトが Aspose.Cells がサポートされている .NET Framework をターゲットにしていることを確認します。
 
 さて、楽しい部分、つまりコーディングに移りましょう。
 
@@ -74,7 +74,7 @@ Worksheet sheet = wb.Worksheets[0];
 
 ## ステップ4: すべての列のロックを解除する
 
-特定の列を保護済みとして設定するには、まずワークシート内のすべての列のロックを解除する必要があります。この手順により、列を変更するための準備が整います。
+特定の列を保護済みとして設定するには、まずワークシート内のすべての列のロックを解除する必要があります。この手順により、列を変更できるように準備します。
 
 ```csharp
 //スタイル オブジェクトを定義します。
@@ -105,7 +105,7 @@ style = sheet.Cells.Columns[0].Style;
 style.IsLocked = true;
 //フラグをインスタンス化します。
 flag = new StyleFlag();
-//ロック設定を行います。
+//ロック設定を設定します。
 flag.Locked = true;
 //最初の列にスタイルを適用します。
 sheet.Cells.Columns[0].ApplyStyle(style, flag);

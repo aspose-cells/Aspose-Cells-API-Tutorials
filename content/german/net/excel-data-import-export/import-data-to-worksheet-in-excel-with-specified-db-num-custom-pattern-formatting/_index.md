@@ -9,14 +9,14 @@ url: /de/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 ---
 ## Einführung
 
-Wenn es um die Bearbeitung von Tabellenkalkulationen geht, kann das Importieren und korrekte Formatieren von Daten in Excel wie eine überwältigende Aufgabe erscheinen, insbesondere wenn Sie bestimmte kulturbasierte Formate wie DB-Num-Muster verwenden möchten. Wenn Sie sich jemals von den technischen Details der Excel-Formatierung überfordert gefühlt haben, sind Sie hier richtig! In diesem Handbuch werden wir die Dinge mithilfe von Aspose.Cells für .NET in einfache Schritte aufteilen, damit Ihre Datenimporte nicht nur unkompliziert, sondern auch ästhetisch ansprechend sind. Halten Sie sich also fest, denn wir tauchen direkt in die Welt der .NET-Programmierung, Formatierung und des Exports von Excel-Dateien ein!
+Wenn es um die Bearbeitung von Tabellenkalkulationen geht, kann das Importieren und korrekte Formatieren von Daten in Excel eine überwältigende Aufgabe sein, insbesondere wenn Sie bestimmte kulturbasierte Formate wie DB-Num-Muster verwenden möchten. Wenn Sie sich jemals von den technischen Details der Excel-Formatierung überfordert gefühlt haben, sind Sie hier richtig! In diesem Handbuch werden wir die Dinge mithilfe von Aspose.Cells für .NET in einfache Schritte aufteilen, damit Ihre Datenimporte nicht nur unkompliziert, sondern auch ästhetisch ansprechend sind. Halten Sie sich also fest, denn wir tauchen direkt in die Welt der .NET-Programmierung, Formatierung und des Exports von Excel-Dateien ein!
 
 ## Voraussetzungen
 
 Bevor wir uns ins Detail stürzen, stellen wir sicher, dass Sie alles haben, was Sie brauchen. Hier ist eine kurze Checkliste mit den Voraussetzungen, die Sie auf Erfolg vorbereiten:
 
 1. .NET Framework: Stellen Sie sicher, dass das .NET Framework auf Ihrem Computer installiert ist. Aspose.Cells funktioniert nahtlos mit verschiedenen .NET-Versionen.
-2.  Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und installieren. Sie finden sie im[Downloadlink](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und installieren. Sie finden sie im[Downloadlink](https://releases.aspose.com/cells/net/).
 3. Integrierte Entwicklungsumgebung (IDE): Verwenden Sie eine IDE wie Visual Studio, in der Sie Ihren C#-Code schreiben und ausführen können.
 4. Grundkenntnisse in C#: Grundlegende Kenntnisse in C# helfen Ihnen dabei, die in diesem Handbuch verwendeten Codierungspraktiken zu befolgen.
 
@@ -67,7 +67,7 @@ Als Nächstes erstellen Sie eine neue Arbeitsmappe, die im Wesentlichen Ihre Exc
 Workbook wb = new Workbook();
 ```
 
-Hier instantiieren wir ein neues`Workbook` Objekt. Dies ist Ihre leere Leinwand!
+ Hier instantiieren wir ein neues`Workbook` Objekt. Dies ist Ihre leere Leinwand!
 
 ## Schritt 3: Zugriff auf das erste Arbeitsblatt
 
@@ -81,7 +81,7 @@ So, als würden Sie ein Buch auf der ersten Seite aufschlagen, greifen Sie auf d
 
 ## Schritt 4: Daten in eine Zelle eingeben
 
- Füllen wir nun eine Zelle mit einigen Daten. Für dieses Beispiel geben wir den Wert ein`123` in Zelle A1.
+ Nun füllen wir eine Zelle mit einigen Daten. Für dieses Beispiel geben wir den Wert ein`123` in Zelle A1.
 
 ```csharp
 Cell cell = ws.Cells["A1"];
@@ -108,7 +108,7 @@ Und hier geschieht die Magie. Sie können ein benutzerdefiniertes Formatmuster m
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Diese Zeile weist Excel an, die Zahl zu formatieren`123` gemäß dem DBNum-Muster, das der chinesischen Sprache entspricht. Ziemlich ordentlich, oder?
+ Diese Zeile weist Excel an, die Zahl zu formatieren`123` gemäß dem DBNum-Muster, das der chinesischen Sprache entspricht. Ziemlich ordentlich, oder?
 
 ## Schritt 7: Festlegen des aktualisierten Zellenstils
 

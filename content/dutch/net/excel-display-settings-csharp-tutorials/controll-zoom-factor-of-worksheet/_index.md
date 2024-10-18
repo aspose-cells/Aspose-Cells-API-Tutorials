@@ -32,7 +32,7 @@ Open Visual Studio en maak een nieuw Console Application-project. U kunt het een
 
 Nu is het tijd om de Aspose.Cells bibliotheekreferentie toe te voegen. U kunt:
 
--  Download de DLL van[hier](https://releases.aspose.com/cells/net/) en voeg het handmatig toe aan uw project.
+-  Download de DLL van[hier](https://releases.aspose.com/cells/net/)en voeg het handmatig toe aan uw project.
 - Of gebruik NuGet Package Manager en voer de volgende opdracht uit in de Package Manager Console:
 
 ```bash
@@ -41,7 +41,7 @@ Install-Package Aspose.Cells
 
 ### Importeer de naamruimte
 
- In jouw`Program.cs` bestand, zorg ervoor dat u de Aspose.Cells-naamruimte bovenaan importeert:
+ In jouw`Program.cs` Zorg ervoor dat u de Aspose.Cells-naamruimte bovenaan importeert:
 
 ```csharp
 using System.IO;
@@ -67,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Stap 2: Maak een bestandsstroom voor het Excel-bestand
 
- Voordat we wijzigingen kunnen aanbrengen, moeten we het Excel-bestand openen. We doen dit door een`FileStream` Met deze stream kunnen we de inhoud van`book1.xls`.
+ Voordat we wijzigingen kunnen aanbrengen, moeten we het Excel-bestand openen. We doen dit door een`FileStream` . Met deze stream kunnen we de inhoud van lezen`book1.xls`.
 
 ```csharp
 // Een bestandsstroom maken met het te openen Excel-bestand
@@ -81,23 +81,23 @@ Met deze regel code bereidt u uw Excel-bestand voor op bewerking.
  De`Workbook` object is het hart van uw Aspose.Cells functionaliteit. Het vertegenwoordigt uw Excel bestand op een beheersbare manier.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook workbook = new Workbook(fstream);
 ```
 
  Hier gebruiken we de`FileStream` gemaakt in de vorige stap om het Excel-bestand in de`Workbook` voorwerp.
 
-## Stap 4: Toegang tot het gewenste werkblad
+## Stap 4: Ga naar het gewenste werkblad
 
 Nu de werkmap in het geheugen staat, is het tijd om het specifieke werkblad te openen dat u wilt wijzigen. In de meeste gevallen is dit het eerste werkblad (index 0).
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Het is alsof u een boek op een specifieke pagina opent om uw aantekeningen te maken!
+Het is alsof u een boek op een specifieke pagina opent en uw aantekeningen maakt!
 
 ## Stap 5: Pas de zoomfactor aan
 

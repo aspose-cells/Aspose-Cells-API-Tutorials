@@ -1,7 +1,7 @@
 ---
 title: Criando e formatando intervalos nomeados no Excel
 linktitle: Criando e formatando intervalos nomeados no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra como criar e formatar intervalos nomeados no Excel com Aspose.Cells para .NET. Melhore seu gerenciamento de dados e apresentação visual sem esforço.
 type: docs
 weight: 23

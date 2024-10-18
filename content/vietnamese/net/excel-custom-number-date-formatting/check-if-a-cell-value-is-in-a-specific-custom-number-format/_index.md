@@ -43,7 +43,7 @@ Bây giờ chúng ta đã chuẩn bị mọi thứ, hãy chia nhỏ quy trình t
 Workbook wb = new Workbook();
 ```
 
- Bằng cách khởi tạo`Workbook`chúng tôi thiết lập một tệp Excel mới trong bộ nhớ, sẵn sàng để thao tác.
+ Bằng cách khởi tạo`Workbook`, chúng tôi thiết lập một tệp Excel mới trong bộ nhớ, sẵn sàng để thao tác.
 
 ## Bước 2: Thiết lập Cài đặt Sổ làm việc
 
@@ -81,14 +81,14 @@ c.PutValue(2347);
 
 ## Bước 5: Thiết lập Kiểu của Ô
 
-Sau khi đặt giá trị vào ô, đã đến lúc truy cập và sửa đổi kiểu của ô đó.
+Sau khi nhập giá trị vào ô, đã đến lúc truy cập và sửa đổi kiểu của ô đó.
 
 ```csharp
 // Truy cập kiểu của ô và thiết lập thuộc tính Style.Custom của nó
 Style s = c.GetStyle();
 ```
 
-Chúng tôi lấy lại kiểu hiện tại của ô "A1". Đây là nơi chúng tôi có thể xác định định dạng số tùy chỉnh của mình.
+Chúng tôi lấy kiểu hiện tại của ô "A1". Đây là nơi chúng tôi có thể xác định định dạng số tùy chỉnh của mình.
 
 ## Bước 6: Gán Định dạng Số Tùy chỉnh
 
@@ -111,13 +111,13 @@ Trong khối mã này, chúng tôi cố gắng thiết lập định dạng số
 
 ## Bước 7: Xác thực thực hiện thành công
 
-Cuối cùng, in một thông báo xác nhận để cho biết thao tác đã được thực hiện, bất kể thành công hay không.
+Cuối cùng, in ra thông báo xác nhận để cho biết thao tác đã được thực hiện, bất kể thành công hay không.
 
 ```csharp
 Console.WriteLine("CheckCustomNumberFormat executed successfully.");
 ```
 
-Tính năng này cho phép bạn quan sát quá trình kiểm tra đã chạy hay chưa, bất kể thành công hay thất bại.
+Tính năng này cho phép bạn quan sát quá trình kiểm tra đã chạy, bất kể thành công hay thất bại.
 
 ## Phần kết luận
 
@@ -126,7 +126,7 @@ Khám phá khả năng của Aspose.Cells for .NET cung cấp một bộ công c
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là thư viện .NET được thiết kế để tạo, thao tác và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
+Aspose.Cells là thư viện .NET được thiết kế để tạo, xử lý và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells[đây](https://releases.aspose.com/).

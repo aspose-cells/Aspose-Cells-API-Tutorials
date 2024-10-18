@@ -21,16 +21,16 @@ Bent u klaar om uw data om te zetten in verbluffende visuals? Aspose.Cells voor 
  Moet u verhoudingen in één oogopslag vergelijken?[Cirkeldiagram maken](./create-pie-chart/) tutorial leert u hoe u uw Excel-gegevens omzet in een eenvoudige, effectieve visual. Cirkeldiagrammen zijn perfect om te laten zien hoe verschillende onderdelen het geheel vormen, net als het snijden van een pizza!
 
 ## Piramidediagram maken
- Heb je er ooit over nagedacht om data in een piramide te visualiseren?[Piramidediagram maken](./create-pyramid-chart/)tutorial leert u hoe u deze onderscheidende grafiek maakt met Aspose.Cells voor .NET. Piramidediagrammen zijn perfect voor hiërarchische gegevens of gegevens die op natuurlijke wijze naar beneden stromen. Zie het als het bouwen van een piramide met blokken gegevens die op elkaar zijn gestapeld: eenvoudig maar krachtig voor presentaties.
+ Heb je er ooit over nagedacht om data te visualiseren in een piramide?[Piramidediagram maken](./create-pyramid-chart/) tutorial leert u hoe u deze onderscheidende grafiek maakt met Aspose.Cells voor .NET. Piramidediagrammen zijn perfect voor hiërarchische gegevens of gegevens die op natuurlijke wijze naar beneden stromen. Zie het als het bouwen van een piramide met blokken gegevens die op elkaar zijn gestapeld: eenvoudig maar krachtig voor presentaties.
 
 ## Lijndiagram wijzigen
- Dus, je hebt je lijndiagram gemaakt, maar nu is het tijd om het te perfectioneren.[Lijndiagram wijzigen](./modify-line-chart/) tutorial begeleidt u bij het aanpassen van uw bestaande lijndiagrammen. Of het nu gaat om het veranderen van kleuren, het aanpassen van assen of het tweaken van de datareeksen, deze gids helpt u verder. Zie het als het bewerken van een foto: u hebt al de basis, nu gaat het erom deze te laten schitteren!
+ Dus, je hebt je lijndiagram gemaakt, maar nu is het tijd om het te perfectioneren. De[Lijndiagram wijzigen](./modify-line-chart/)tutorial begeleidt u bij het aanpassen van uw bestaande lijndiagrammen. Of het nu gaat om het veranderen van kleuren, het aanpassen van assen of het tweaken van de datareeksen, deze gids helpt u verder. Zie het als het bewerken van een foto: u hebt al de basis, nu gaat het erom deze te laten schitteren!
 
 ### Wijzig cirkeldiagram
- Cirkeldiagrammen kunnen geweldig zijn, maar soms moet u een paar wijzigingen aanbrengen om uw gegevens beter weer te geven. Met de[Wijzig cirkeldiagram](./modify-pie-chart/)tutorial, leert u hoe u uw cirkeldiagrammen kunt aanpassen om ze precies op uw gegevens af te stemmen. Misschien moet u de segmenten aanpassen, kleuren wijzigen of zelfs een segment laten exploderen om de nadruk te leggen. Deze gids laat u zien hoe!
+ Cirkeldiagrammen kunnen geweldig zijn, maar soms moet u een paar wijzigingen aanbrengen om uw gegevens beter weer te geven. Met de[Wijzig cirkeldiagram](./modify-pie-chart/) tutorial, leert u hoe u uw cirkeldiagrammen kunt aanpassen om ze precies op uw gegevens af te stemmen. Misschien moet u de segmenten aanpassen, kleuren wijzigen of zelfs een segment laten exploderen om de nadruk te leggen. Deze gids laat u zien hoe!
 
 ### Microsoft-themakleur toepassen in grafiekreeksen
- Wilt u uw grafieken in lijn houden met de branding van uw bedrijf? Leer hoe u[Microsoft-themakleur toepassen in grafiekreeksen](./apply-microsoft-theme-color-in-chart-series/) met Aspose.Cells voor .NET. Deze tutorial laat zien hoe u het kleurenschema van uw grafiek kunt matchen met Microsoft-themakleuren, zodat uw presentaties er professioneel en samenhangend uitzien. Het is alsof u uw gegevens in een perfect, bijpassend pak kleedt!
+ Wilt u uw grafieken in lijn houden met de branding van uw bedrijf? Leer hoe u[Microsoft-themakleur toepassen in grafiekreeksen](./apply-microsoft-theme-color-in-chart-series/)met Aspose.Cells voor .NET. Deze tutorial laat zien hoe u het kleurenschema van uw grafiek kunt matchen met Microsoft-themakleuren, zodat uw presentaties er professioneel en samenhangend uitzien. Het is alsof u uw gegevens in een perfect, bijpassend pak kleedt!
 
 ## Handleidingen voor het manipuleren van grafiektypen
 ### [Aangepaste grafiek maken](./create-custom-chart/)

@@ -39,7 +39,7 @@ Trước tiên, hãy chuẩn bị sổ làm việc của bạn để bạn có t
 
 ```csharp
 string SourceDir = "Your Document Directory";
-string outputDir = "Your Document Directory"; // Cập nhật đường dẫn này theo đường dẫn thực tế của bạn.
+string outputDir = "Your Document Directory"; // Cập nhật thông tin này theo đường dẫn thực tế của bạn.
 
 Workbook workbook = new Workbook(SourceDir + "ValidationsSample.xlsx");
 ```

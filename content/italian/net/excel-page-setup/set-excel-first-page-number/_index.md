@@ -106,7 +106,7 @@ Ed ecco fatto! Hai impostato con successo il numero della prima pagina di un fog
 ### Che cos'è Aspose.Cells?
 Aspose.Cells è una libreria .NET progettata per creare, manipolare e convertire file Excel senza dover installare Microsoft Excel sul computer.
 
-### Come faccio a scaricare Aspose.Cells?
+### Come posso scaricare Aspose.Cells?
  Puoi scaricare Aspose.Cells da[sito web](https://releases.aspose.com/cells/net/).
 
 ### Esiste una versione gratuita di Aspose.Cells?

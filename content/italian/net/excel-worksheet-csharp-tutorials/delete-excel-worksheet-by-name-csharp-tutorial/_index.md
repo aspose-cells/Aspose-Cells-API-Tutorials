@@ -15,7 +15,7 @@ Quando si lavora con file Excel a livello di programmazione, che si tratti di re
 
 Prima di iniziare, ecco alcune cose che devi assicurarti di avere pronte:
 
-1. Aspose.Cells per la libreria .NET: questo è il componente principale che rende possibile la manipolazione dei file Excel. Se non lo hai ancora installato, puoi[scaricalo da qui](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells per la libreria .NET: questo è il componente principale che rende possibile la manipolazione dei file Excel. Se non lo hai ancora installato, puoi[scaricalo da qui](https://releases.aspose.com/cells/net/).
 2. Ambiente di sviluppo: dovresti disporre di un ambiente di sviluppo configurato, preferibilmente Visual Studio, in cui puoi scrivere ed eseguire codice C#.
 3. Nozioni di base di C#: anche se spiegherò ogni passaggio, avere una conoscenza di base di C# ti aiuterà a seguire meglio il tutto.
 4. File Excel: Dovresti aver creato un file Excel (faremo riferimento a "book1.xls" in questo tutorial). Puoi creare un file semplice con un paio di fogli di lavoro per questo scopo.
@@ -58,7 +58,7 @@ Qui stiamo aprendo "book1.xls". È fondamentale che questo file esista nella dir
  Successivamente, dovrai creare un`Workbook` oggetto. Questo oggetto rappresenta il tuo file Excel e ti consente di manipolarne il contenuto.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 // Apertura del file Excel tramite il flusso di file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -96,7 +96,7 @@ Sentiti libero di sperimentare altre funzionalità della libreria Aspose.Cells e
 ## Domande frequenti
 
 ### Aspose.Cells è gratuito?
-Aspose.Cells offre una prova gratuita, ma dovrai acquistare una licenza per continuare a utilizzarla. Puoi ottenere la tua prova gratuita[Qui](https://releases.aspose.com/).
+ Aspose.Cells offre una prova gratuita, ma dovrai acquistare una licenza per continuare a utilizzarla. Puoi ottenere la tua prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Posso rimuovere più fogli di lavoro contemporaneamente?
 Puoi scorrere la raccolta di fogli di lavoro e rimuovere più fogli usando un loop. Assicurati solo di gestire correttamente gli indici.

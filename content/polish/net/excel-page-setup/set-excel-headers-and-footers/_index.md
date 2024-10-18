@@ -57,7 +57,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook excel = new Workbook();
 ```
 
- Wyjaśnienie: Tutaj zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, w której chcesz zapisać plik Excel.`Workbook` obiekt stanowi główny punkt wejścia do tworzenia i modyfikowania plików Excela.
+ Wyjaśnienie: Tutaj zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, w której chcesz zapisać plik Excel.`Workbook` obiekt stanowi główny punkt wejścia do tworzenia i edycji plików Excela.
 
 ## Krok 2: Uzyskaj odniesienie do PageSetup
 
@@ -77,7 +77,7 @@ Teraz zacznijmy ustawiać nagłówek. Zaczniemy od lewej sekcji:
 pageSetup.SetHeader(0, "&A");
 ```
 
- Wyjaśnienie:`SetHeader` Metoda pozwala nam zdefiniować zawartość nagłówka. Tutaj,`&A` oznacza nazwę arkusza kalkulacyjnego, która będzie wyświetlana po lewej stronie nagłówka.
+Wyjaśnienie:`SetHeader` Metoda pozwala nam zdefiniować zawartość nagłówka. Tutaj,`&A` oznacza nazwę arkusza kalkulacyjnego, która będzie wyświetlana po lewej stronie nagłówka.
 
 ## Krok 4: Dostosuj nagłówek centralny
 
@@ -87,7 +87,7 @@ Następnie dostosujemy centralny nagłówek, aby wyświetlał bieżącą datę i
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Wyjaśnienie:`&D` I`&T` kody automatycznie zastąpią się bieżącą datą i czasem. Określamy również, że czcionka tego nagłówka powinna być „Times New Roman” i pogrubiona.
+Wyjaśnienie:`&D` I`&T` kody automatycznie zastąpią się bieżącą datą i czasem. Określamy również, że czcionka tego nagłówka powinna być „Times New Roman” i pogrubiona.
 
 ## Krok 5: Ustaw właściwy nagłówek
 
@@ -117,7 +117,7 @@ Następnie ustawiamy stopkę środkową tak, aby wyświetlała bieżący numer s
 pageSetup.SetFooter(1, "&P");
 ```
 
- Wyjaśnienie:`&P` Kod automatycznie wstawia numer strony na środku stopki — przydatny sposób na śledzenie stron.
+Wyjaśnienie:`&P` Kod automatycznie wstawia numer strony na środku stopki — przydatny sposób na śledzenie stron.
 
 ## Krok 8: Konfiguracja prawej stopki
 

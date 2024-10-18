@@ -16,8 +16,8 @@ Wenn es um die programmgesteuerte Verarbeitung von Excel-Dateien geht, ist Aspos
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie brauchen. 
 
 1. Visual Studio oder eine beliebige integrierte Entwicklungsumgebung (IDE) von .NET: Stellen Sie sicher, dass Sie über eine geeignete IDE zum Schreiben und Ausführen Ihres C#-Codes verfügen.
-2. Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und in Ihrem Projekt referenzieren. Sie können sie von der[Aspose-Veröffentlichungen](https://releases.aspose.com/cells/net/).
-3. Grundlegende C#-Kenntnisse: Vertrautheit mit C# und Konzepten der objektorientierten Programmierung hilft Ihnen, die Beispiele besser zu verstehen.
+2.  Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und in Ihrem Projekt referenzieren. Sie können sie von der[Aspose-Veröffentlichungen](https://releases.aspose.com/cells/net/).
+3. Grundlegende C#-Kenntnisse: Wenn Sie mit C# und den Konzepten der objektorientierten Programmierung vertraut sind, können Sie die Beispiele besser verstehen.
 4. .NET Framework: Dieses Tutorial setzt voraus, dass Sie .NET Framework 4.5 oder höher verwenden.
 
 Sobald Sie die Voraussetzungen geklärt haben, können wir mit dem Importieren einiger Daten in ein Excel-Tabellenblatt mit angegebenen Formelfeldern fortfahren.
@@ -156,11 +156,11 @@ Um auf einfache Weise zu bestätigen, dass alles ordnungsgemäß ausgeführt wur
 Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully.");
 ```
 
-Dadurch erhalten Sie unmittelbar die Rückmeldung, dass der Code problemlos funktioniert hat.
+Dadurch erhalten Sie sofort die Rückmeldung, dass der Code problemlos funktioniert hat.
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich Daten in ein Excel-Blatt importiert, indem Sie Aspose.Cells für .NET und angegebene Formelfelder verwendet haben. Indem Sie diese Schritte befolgen, können Sie ähnliche Techniken anwenden, um Datenverarbeitungsaufgaben zu automatisieren, die auf Ihre Bedürfnisse zugeschnitten sind. Egal, ob Sie Zahlen für Berichte verarbeiten oder einfach nur Daten pflegen, die Kunst der Excel-Manipulation mit Aspose zu beherrschen, ist eine lohnende Fähigkeit.
+Und da haben Sie es! Sie haben erfolgreich Daten in ein Excel-Blatt importiert, indem Sie Aspose.Cells für .NET verwendet und Formelfelder angegeben haben. Indem Sie diese Schritte befolgen, können Sie ähnliche Techniken anwenden, um Datenverarbeitungsaufgaben zu automatisieren, die auf Ihre Bedürfnisse zugeschnitten sind. Egal, ob Sie Zahlen für Berichte verarbeiten oder einfach nur Daten pflegen, die Kunst der Excel-Manipulation mit Aspose zu beherrschen, ist eine lohnende Fähigkeit.
 
 ## Häufig gestellte Fragen
 
@@ -168,7 +168,7 @@ Und da haben Sie es! Sie haben erfolgreich Daten in ein Excel-Blatt importiert, 
 Aspose.Cells ist eine .NET-Bibliothek zum programmgesteuerten Erstellen, Bearbeiten und Konvertieren von Excel-Dateien.
 
 ### Wie installiere ich Aspose.Cells für .NET?
- Sie können es herunterladen von der[Aspose-Veröffentlichungen](https://releases.aspose.com/cells/net/)und verweisen Sie in Ihrem Projekt darauf.
+ Sie können es herunterladen von der[Aspose-Veröffentlichungen](https://releases.aspose.com/cells/net/) und verweisen Sie in Ihrem Projekt darauf.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?
  Ja, Aspose bietet eine kostenlose Testversion an unter[dieser Link](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells ist eine .NET-Bibliothek zum programmgesteuerten Erstellen, Bearbei
  Weitere Beispiele und Dokumentation finden Sie unter[Aspose-Dokumentationsseite](https://reference.aspose.com/cells/net/).
 
 ### Was ist, wenn bei der Verwendung von Aspose Probleme auftreten?
- Sie können im Aspose-Supportforum Hilfe suchen[Hier](https://forum.aspose.com/c/cells/9).
+Sie können im Aspose-Supportforum Hilfe suchen[Hier](https://forum.aspose.com/c/cells/9).
  

@@ -19,13 +19,13 @@ Prima di iniziare, ecco alcuni prerequisiti che dovresti avere:
 2.  Aspose.Cells per .NET installato: è necessario disporre della libreria Aspose.Cells per .NET. È possibile[scaricalo da qui](https://releases.aspose.com/cells/net/).
 3. Visual Studio o IDE simile: per scrivere ed eseguire il codice, avrai bisogno di un ambiente di sviluppo integrato (IDE).
 4. File Excel: Dovresti avere un file Excel (come`book1.xls`) disponibile nella directory dei documenti per la manipolazione.
-5. Spazi dei nomi: assicurati di includere nel tuo codice gli spazi dei nomi necessari, in particolare per la gestione dei file e della libreria Aspose.Cells.
+5. Spazi dei nomi: assicurati di includere nel codice gli spazi dei nomi necessari, in particolare per la gestione dei file e della libreria Aspose.Cells.
 
 Ora che abbiamo esaminato i prerequisiti, passiamo alla codifica vera e propria.
 
 ## Importa pacchetti
 
-Per iniziare a usare Aspose.Cells nel tuo progetto C#, devi importare i pacchetti necessari. Puoi farlo aggiungendo riferimenti al tuo progetto.
+Per iniziare a usare Aspose.Cells nel tuo progetto C#, devi importare i pacchetti necessari. Questo può essere fatto aggiungendo riferimenti al tuo progetto.
 
 ### Includi gli spazi dei nomi richiesti
 
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Passaggio 3: creare un'istanza della cartella di lavoro
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 // Apertura del file Excel tramite il flusso di file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Passaggio 4: accedi al foglio di lavoro
 
 ```csharp
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

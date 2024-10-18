@@ -15,7 +15,7 @@ Lorsqu'il s'agit de travailler avec des feuilles de calcul Excel, la flexibilit�
 
 Avant de passer aux choses sérieuses, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer :
 
-1. Environnement de développement .NET : vous devez disposer d’un environnement de développement .NET fonctionnel (il peut s’agir de Visual Studio ou de tout autre IDE de votre choix).
+1. Environnement de développement .NET : vous devez disposer d’un environnement de développement .NET fonctionnel configuré (il peut s’agir de Visual Studio ou de tout autre IDE de votre choix).
 2.  Bibliothèque Aspose.Cells pour .NET : Téléchargez et installez la bibliothèque Aspose.Cells. Vous pouvez la trouver[ici](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : la familiarité avec la programmation C# vous aidera à parcourir facilement les exemples de code.
 4. Comprendre les bases d'Excel : connaître le fonctionnement d'Excel fournira une base pour les fonctionnalités dont nous allons parler.
@@ -41,7 +41,7 @@ Pour toute opération sur les fichiers, il est essentiel de définir un emplacem
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Créez un répertoire s'il n'est pas déjà présent.
+//Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -73,7 +73,7 @@ Dans cet extrait de code, nous accédons à la première feuille de calcul de no
 
 ## Étape 4 : Obtenir l'autorisation de modifier les plages
 
- Pour activer des plages spécifiques de la feuille de calcul pour l'édition, nous devons accéder à la`AllowEditRanges` propriété.
+ Pour activer des plages spécifiques de la feuille de calcul pour l'édition, nous devons accéder à l'`AllowEditRanges` propriété.
 
 ```csharp
 // Obtenir les plages de modification autorisées

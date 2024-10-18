@@ -1,7 +1,7 @@
 ---
 title: Criar gráfico de pirâmide
 linktitle: Criar gráfico de pirâmide
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a criar facilmente um gráfico de pirâmide no Excel usando Aspose.Cells para .NET com este guia passo a passo. Perfeito para visualização de dados.
 type: docs
 weight: 13
@@ -13,7 +13,7 @@ Criar representações visuais de dados é crucial em muitos campos, desde anál
 
 ## Pré-requisitos
 
-Antes de mergulharmos no emocionante mundo dos gráficos de pirâmide, vamos preparar alguns pré-requisitos essenciais para garantir uma experiência de navegação tranquila.
+Antes de mergulharmos no emocionante mundo dos gráficos de pirâmide, vamos preparar você com alguns pré-requisitos essenciais para garantir uma experiência de navegação tranquila.
 
 ### Conhecimento básico de C# e .NET
 Você deve ter um entendimento básico de desenvolvimento em C# e .NET. Familiaridade com o ambiente do Visual Studio também seria benéfica.
@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Em seguida, vamos criar uma nova instância de uma pasta de trabalho. Pense em uma pasta de trabalho como uma tela em branco onde você pode pintar seus dados.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

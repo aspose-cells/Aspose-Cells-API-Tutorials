@@ -13,7 +13,7 @@ Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara mengekspor da
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java JDK pada sistem Anda.
 2.  Aspose.Cells untuk Java: Unduh dan sertakan pustaka Aspose.Cells untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cells/java/).

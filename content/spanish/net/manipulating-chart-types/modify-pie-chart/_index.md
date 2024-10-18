@@ -44,7 +44,7 @@ Una vez que el proyecto esté listo, es momento de agregar la biblioteca Aspose.
 2. Seleccione Administrar paquetes NuGet.
 3. Vaya a la pestaña Explorar.
 4. Buscar Aspose.Cells.
-5. Haga clic en Instalar y acepte los acuerdos de licencia.
+5. Haga clic en Instalar y acepte todos los acuerdos de licencia.
 
 Ahora que tiene la biblioteca instalada, importemos los espacios de nombres necesarios en su código.
 
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Ahora, analicemos la hoja en particular que contiene el gráfico circular. Supongamos que el gráfico circular está en la segunda hoja de cálculo (índice 1):
 
 ```csharp
-// Obtén el cuadro de diseño en la segunda hoja.
+//Obtén el cuadro de diseño en la segunda hoja.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

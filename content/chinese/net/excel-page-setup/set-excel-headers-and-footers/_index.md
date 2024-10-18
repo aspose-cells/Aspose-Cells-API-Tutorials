@@ -121,7 +121,7 @@ pageSetup.SetFooter(1, "&P");
 
 ## 步骤 8：右页脚配置
 
-为了完成页脚设置，让我们设置右页脚以显示文档中的总页数。
+为了完成页脚设置，让我们设置正确的页脚以显示文档中的总页数。
 
 ```csharp
 pageSetup.SetFooter(2, "&N");
@@ -149,7 +149,7 @@ excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 Aspose.Cells 是一个.NET 库，用于以编程方式创建、操作和呈现 Excel 文件。
 
 ### 我可以免费试用 Aspose.Cells 吗？
-是的！您可以从[这里](https://releases.aspose.com/).
+是的！你可以从[这里](https://releases.aspose.com/).
 
 ### Aspose.Cells 是否与旧的 Excel 格式兼容？
 当然！Aspose.Cells 支持新旧 Excel 文件格式。

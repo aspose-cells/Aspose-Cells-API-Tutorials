@@ -16,7 +16,7 @@ Eleged van az unalmas grafikonokból, amelyekből hiányzik a személyes érint�
 Mielőtt belevágnánk a kódolás finomságába, van néhány előfeltétel, amelyeket simán be kell tartania:
 
 - Visual Studio: Itt írhatja és futtathatja a .NET kódot. Győződjön meg arról, hogy telepítve van.
--  Aspose.Cells for .NET: Erre a könyvtárra lesz szüksége az Excel fájlokkal való munkavégzéshez. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Erre a könyvtárra lesz szüksége az Excel fájlokkal való munkavégzéshez. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 - A C# alapismeretei: Miközben végigvezetem a kódon, a C# alapjaival kapcsolatos fogantyú tisztább lesz a dolgokon.
 
 ### Telepítési lépések
@@ -30,7 +30,7 @@ Miután mindent beállított, a következő lépés a szükséges csomagok impor
 
 ### Importálja a szükséges névtereket
 
-C# kódfájl tetején a következő névtereket kell importálnia:
+A C# kódfájl tetején a következő névtereket kell importálnia:
 
 ```csharp
 using Aspose.Cells;
@@ -43,7 +43,7 @@ Ez azt mondja a programodnak: „Hé! Használni fogom az Aspose.Cells nagyszer�
 
 Most, hogy megvannak az előfeltételeink, bontsuk le a folyamatot falatnyi lépésekre. 
 
-## 1. lépés: Határozza meg könyvtárait
+## 1. lépés: Határozza meg a könyvtárait
 
 Először is be kell állítanunk a bemeneti és kimeneti fájljaink elérési útját. Ez a lépés kulcsfontosságú, mert tudnunk kell, hol találjuk a meglévő Excel fájlunkat, és hova mentsük a módosított fájlt.
 
@@ -84,7 +84,7 @@ Győződjön meg arról, hogy a képet a megadott könyvtárba mentette.
 Most pedig határozzuk meg, hogy melyik diagramhoz adjuk hozzá a képünket. Ebben a példában az első munkalap első diagramját célozzuk meg.
 
 ```csharp
-// Szerezze be a tervezői diagramot a második lapon.
+//Szerezze be a tervezői diagramot a második lapon.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -151,7 +151,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet egy kis egyéniséget adni
 Az Aspose.Cells számos képformátumot támogat, beleértve a PNG, JPEG, BMP és GIF formátumokat.
 
 ### Testreszabhatom a kép helyzetét?
-Biztosan! Az X és Y koordináták a`AddPictureInChart` módszer lehetővé teszi a pontos pozicionálást.
+ Biztosan! Az X és Y koordináták a`AddPictureInChart` módszer lehetővé teszi a pontos pozicionálást.
 
 ### Az Aspose.Cells ingyenesen használható?
  Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes szolgáltatáshoz licenc szükséges. Az árat megtalálod[itt](https://purchase.aspose.com/buy).

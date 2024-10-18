@@ -15,7 +15,7 @@ Bạn đã bao giờ thấy mình sao chép các bảng tính giữa các sổ l
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã được trang bị những công cụ phù hợp để bắt đầu:
 
--  Aspose.Cells cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 - Visual Studio hoặc bất kỳ IDE nào hỗ trợ .NET framework.
 -  Một giấy phép hợp lệ hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn muốn kiểm tra đầy đủ chức năng của Aspose.Cells.
 - Hiểu biết cơ bản về C# và .NET framework.
@@ -37,14 +37,14 @@ Bây giờ bạn đã thiết lập mọi thứ, chúng ta hãy cùng tìm hiể
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
-Trước tiên, bạn cần xác định vị trí các tệp của mình. Hãy coi bước này như việc chọn bản đồ cho cuộc săn tìm kho báu của bạn – nó cho mã biết nơi tìm và lưu trữ sổ làm việc của bạn.
+Trước tiên, bạn cần xác định vị trí các tệp của mình. Hãy nghĩ về bước này như việc chọn bản đồ cho cuộc săn tìm kho báu của bạn – nó cho mã biết nơi tìm và lưu trữ sổ làm việc của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Trong dòng này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến các tệp Excel của bạn. Đây là nơi các sổ làm việc của bạn sẽ được tải từ đó và lưu vào.
+ Trong dòng này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến các tệp Excel của bạn. Đây là nơi sổ làm việc của bạn sẽ được tải từ đó và lưu vào.
 
 ## Bước 2: Mở Workbook đầu tiên
 
@@ -57,14 +57,14 @@ string InputPath = dataDir + "book1.xls";
 Workbook excelWorkbook0 = new Workbook(InputPath);
 ```
 
- Đây, bạn đang tải`book1.xls` (đảm bảo tập tin tồn tại trong thư mục của bạn) vào một thư mục mới`Workbook` đối tượng được gọi là`excelWorkbook0`. Đây là sổ làm việc nguồn chứa bảng tính bạn sẽ sao chép.
+ Đây, bạn đang tải`book1.xls` (đảm bảo tập tin tồn tại trong thư mục của bạn) vào một thư mục mới`Workbook` đối tượng được gọi là`excelWorkbook0`. Đây là sổ làm việc nguồn chứa bảng tính mà bạn sẽ sao chép.
 
 ## Bước 3: Tạo một Workbook thứ hai
 
 Bây giờ bạn đã mở sổ làm việc đầu tiên, đã đến lúc tạo một sổ làm việc trống khác, nơi bạn sẽ dán bảng tính đã sao chép. Hãy nghĩ về điều này như việc mở một sổ tay trống mới, nơi bạn sẽ chuyển dữ liệu.
 
 ```csharp
-// Tạo một Workbook khác.
+//Tạo một Workbook khác.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Cuối cùng, bạn sẽ lưu sổ làm việc thứ hai với bảng tính đã sao chép. Điều này giống như lưu các ghi chú mới viết của bạn vào một thư mục mới trên máy tính.
 
 ```csharp
-//Lưu tập tin.
+// Lưu tập tin.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

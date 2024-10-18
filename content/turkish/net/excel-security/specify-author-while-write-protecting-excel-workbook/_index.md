@@ -89,7 +89,7 @@ Son adım çalışma kitabını istenilen formatta kaydetmektir. Bu durumda, onu
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Burada, çıktı dosyası belirtilen çıktı dizininize şu adla kaydedilecektir:`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`İşte tam bu noktada sıkı çalışmanızın karşılığını almış olacaksınız ve çalışma kitabınızı iyi korunduğunu bilerek başkalarıyla paylaşabileceksiniz!
+ Burada çıktı dosyası, belirtilen çıktı dizininize şu adla kaydedilecektir:`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`İşte tam burada sıkı çalışmanızın karşılığını almış oluyorsunuz ve çalışma kitabınızı iyi korunduğunu bilerek başkalarıyla paylaşabiliyorsunuz!
 
 ## Çözüm
 

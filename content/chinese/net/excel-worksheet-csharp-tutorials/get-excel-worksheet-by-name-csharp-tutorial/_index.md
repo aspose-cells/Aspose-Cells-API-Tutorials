@@ -13,12 +13,12 @@ url: /zh/net/excel-worksheet-csharp-tutorials/get-excel-worksheet-by-name-csharp
 
 ## 先决条件
 
-在我们开始讨论重要内容之前，让我们先确保您已做好成功的准备。以下是您需要做的：
+在我们开始讨论重要内容之前，让我们先确保您已做好成功的准备。以下是您需要的内容：
 
 1. .NET 开发环境：确保您已准备好 .NET 开发环境。您可以使用 Visual Studio 或您选择的任何其他 IDE。
 2.  Aspose.Cells 库：您还应该安装 Aspose.Cells 库。如果您还没有安装，不用担心！您可以下载[这里](https://releases.aspose.com/cells/net/).
 3. 对 C# 的基本了解：了解 C# 编程的基础知识将帮助您顺利学习。
-4.  Excel 文件：准备好要使用的 Excel 文件。在我们的示例中，我们将使用一个名为`book1.xlsx`至少有一个名为“Sheet1”的工作表。
+4. Excel 文件：准备好要使用的 Excel 文件。在我们的示例中，我们将使用一个名为`book1.xlsx`至少有一个名为“Sheet1”的工作表。
 
 现在您已一切就绪，让我们开始吧！
 
@@ -34,7 +34,7 @@ using Aspose.Cells;
 
 这`Aspose.Cells`库将提供操作 Excel 文件所需的所有功能，同时`System.IO`将允许您处理文件流。
 
-现在，让我们开始本教程的重点。我们将通过名称将访问工作表的过程分解为清晰、易于管理的步骤。
+现在，让我们开始本教程的重点。我们将按名称访问工作表的过程分解为清晰、易于管理的步骤。
 
 ## 步骤 1：设置文件路径
 

@@ -17,7 +17,7 @@ Belefáradt az Excel fájlkezeléssel való küszködésbe? Ha valaha is szembes
 
 ## Digitális aláírások hozzáadása
 
- Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónkkal[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/). A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
+ Szüksége volt már arra, hogy digitális aláírást adjon egy aláírt Excel-fájlhoz? Fedezze fel, hogyan kell ezt megtenni az útmutatónk segítségével[Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz](./add-digital-signature-to-an-already-signed-excel-file/). A digitális aláírások hitelességet és integritást biztosítanak, így Excel-fájljai nem csak működőképesek, hanem biztonságosak is.
 
 ## Megosztott munkafüzetek létrehozása
 
@@ -69,8 +69,8 @@ Akkor miért ne ragadná meg ezt a lehetőséget Excel-készségei fejlesztésé
 | [Megosztott munkafüzet létrehozása](./create-shared-workbook/) | Ebből az egyszerű, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre megosztott munkafüzetet az Aspose.Cells for .NET használatával. Tökéletes a csapatmunka fokozására. |  
 | [Hivatkozástípusok észlelése](./detect-link-types/) | Ismerje meg, hogyan észlelheti a hiperhivatkozástípusokat az Excelben az Aspose.Cells for .NET használatával. Könnyű lépéseket és kódpéldákat tartalmaz. |  
 | [A beágyazott Mol fájl kibontása](./extract-embedded-mol-file/) | Ismerje meg, hogyan bonthat ki egyszerűen beágyazott MOL-fájlokat egy Excel-munkafüzetből az Aspose.Cells for .NET segítségével. |  
-| [Meghatározott nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) | Ebből az átfogó útmutatóból megtudhatja, hogyan szűrheti a definiált neveket az Aspose.Cells for .NET segítségével munkafüzet betöltésekor. |  
-| [Szerezze be az Odata részleteit](./get-odata-details/) | Fedezze fel, hogyan bonthatja ki az OData részleteit az Excelből az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre mutató oktatóanyagban. |  
+| [Meghatározott nevek szűrése munkafüzet betöltése közben](./filter-defined-names-while-loading-workbook/) | Ebből az átfogó útmutatóból megtudhatja, hogyan szűrheti ki a meghatározott neveket az Aspose.Cells for .NET segítségével munkafüzet betöltésekor. |  
+| [Szerezze be az Odata részleteit](./get-odata-details/) | Fedezze fel, hogyan bonthatja ki az OData részleteit az Excelből az Aspose.Cells for .NET használatával ebben a részletes, lépésről lépésre mutató oktatóanyagban. |  
 | [Megosztott munkafüzet jelszavas védelme vagy védelem feloldása](./password-protect-or-unprotect-shared-workbook/) | Biztosítsa megosztott Excel-fájljait az Aspose.Cells for .NET segítségével a jelszavas védelemről és a védelem megszüntetéséről szóló egyszerű útmutatónkkal. |  
 | [Az XLSB fájl külső kapcsolatának olvasása és írása](./read-and-write-external-connection-of-xlsb-file/) | Ebből az átfogó oktatóanyagból megtudhatja, hogyan kezelheti a külső kapcsolatokat XLSB-fájlokban az Aspose.Cells for .NET használatával. |  
 | [Regex Csere](./regex-replace/) | Ismerje meg, hogyan használhatja hatékonyan a regex cserét az Excelben az Aspose.Cells for .NET segítségével. Növelje a táblázatkezelési feladatok termelékenységét és pontosságát. |  

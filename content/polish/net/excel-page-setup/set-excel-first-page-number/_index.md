@@ -16,7 +16,7 @@ Jeśli chodzi o programowe manipulowanie plikami Excela, Aspose.Cells for .NET w
 Zanim przejdziemy do soczystych rzeczy, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto krótka lista kontrolna:
 
 1. Środowisko .NET: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Możesz użyć Visual Studio lub dowolnego innego IDE, które obsługuje .NET.
-2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells, którą można łatwo zainstalować za pomocą NuGet. Możesz ją pobrać bezpośrednio z[Strona internetowa Aspose.Cells](https://releases.aspose.com/cells/net/) jeśli wolisz.
+2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells, którą można łatwo zainstalować za pomocą NuGet. Możesz pobrać ją bezpośrednio z[Strona internetowa Aspose.Cells](https://releases.aspose.com/cells/net/) jeśli wolisz.
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# bardzo pomoże Ci zrozumieć podane przykłady.
 
 ## Importowanie pakietów
@@ -47,7 +47,7 @@ using System;
 
 W tym momencie możesz już rozpocząć pracę z plikami Excela!
 
-Po skonfigurowaniu projektu przejdźmy do procesu ustawiania pierwszego numeru strony dla pierwszego arkusza kalkulacyjnego w pliku Excela.
+Po skonfigurowaniu projektu przejdźmy do procesu ustawiania numeru pierwszej strony dla pierwszego arkusza kalkulacyjnego w pliku Excel.
 
 ## Krok 1: Zdefiniuj katalog danych
 
@@ -67,9 +67,9 @@ Następnie musimy utworzyć wystąpienie klasy Workbook. Ta klasa reprezentuje p
 Workbook workbook = new Workbook();
 ```
 
-Czym więc jest Workbook? Pomyśl o nim jak o wirtualnej walizce, która mieści wszystkie Twoje arkusze kalkulacyjne i ustawienia.
+Czym więc jest Workbook? Pomyśl o nim jak o wirtualnej walizce, która mieści wszystkie arkusze i ustawienia.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Teraz, gdy mamy nasz skoroszyt, musimy uzyskać odwołanie do pierwszego arkusza. W Aspose.Cells arkusze są indeksowane od zera, co oznacza, że pierwszy arkusz ma indeks 0.
 
@@ -116,4 +116,4 @@ Tak! Możesz wypróbować Aspose.Cells za darmo, pobierając wersję próbną[Tu
  W przypadku pytań dotyczących wsparcia możesz odwiedzić stronę[Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Czy mogę używać Aspose.Cells w środowisku chmurowym?
-Tak, Aspose.Cells można zintegrować z dowolną aplikacją .NET, w tym z aplikacjami w chmurze, pod warunkiem że obsługuje ona środowisko uruchomieniowe .NET.
+Tak, Aspose.Cells można zintegrować z dowolną aplikacją .NET, w tym z aplikacjami opartymi na chmurze, pod warunkiem że obsługuje ona środowisko uruchomieniowe .NET.

@@ -16,10 +16,10 @@ Die Erstellung visueller Darstellungen von Daten ist in vielen Bereichen von ent
 Bevor wir in die spannende Welt der Pyramidendiagramme eintauchen, wollen wir einige grundlegende Voraussetzungen schaffen, um einen reibungslosen Ablauf zu gewährleisten.
 
 ### Grundkenntnisse in C# und .NET
-Sie sollten über grundlegende Kenntnisse in der C#- und .NET-Entwicklung verfügen. Kenntnisse in der Visual Studio-Umgebung sind ebenfalls von Vorteil.
+Sie sollten über grundlegende Kenntnisse der C#- und .NET-Entwicklung verfügen. Kenntnisse der Visual Studio-Umgebung sind ebenfalls von Vorteil.
 
 ### Aspose.Cells für .NET-Bibliothek
- Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können sie direkt von der[Aspose.Cells für .NET-Releaseseite](https://releases.aspose.com/cells/net/)Folgen Sie den Installationsanweisungen oder verwenden Sie den NuGet Package Manager, um es einfach in Ihr Projekt zu integrieren.
+ Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können sie direkt von der[Aspose.Cells für .NET-Releaseseite](https://releases.aspose.com/cells/net/)Befolgen Sie die Installationsanweisungen oder verwenden Sie den NuGet Package Manager, um es einfach in Ihr Projekt zu integrieren.
 
 ### Visual Studio
 Für die Codierung unseres Beispielprogramms wird eine funktionierende Installation von Visual Studio empfohlen. 
@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Als Nächstes erstellen wir eine neue Instanz einer Arbeitsmappe. Stellen Sie sich eine Arbeitsmappe als leere Leinwand vor, auf die Sie Ihre Daten malen können.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -74,7 +74,7 @@ Diese Zeile initialisiert eine neue Arbeitsmappe, die zur Dateneingabe und Visua
 Jede Arbeitsmappe enthält mindestens ein Arbeitsblatt. Hier verweisen wir auf das erste Arbeitsblatt, mit dem wir arbeiten.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -148,7 +148,7 @@ Zu guter Letzt fügen wir in der Konsole etwas Feedback hinzu, um zu bestätigen
 Console.WriteLine("HowToCreatePyramidChart executed successfully.");
 ```
 
-Diese Zeile benachrichtigt Sie darüber, dass Ihre Aufgabe zum Erstellen des Pyramidendiagramms ohne Probleme abgeschlossen wurde.
+Diese Zeile benachrichtigt Sie darüber, dass die Erstellung Ihres Pyramidendiagramms ohne Probleme abgeschlossen wurde.
 
 ## Abschluss
 

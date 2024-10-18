@@ -15,10 +15,10 @@ En el mundo digital actual, proteger los documentos es más importante que nunca
 
 Antes de adentrarnos en los detalles de la codificación, hay algunas cosas que debes tener en cuenta:
 
-1.  Aspose.Cells para .NET: Asegúrese de tener la biblioteca Aspose.Cells instalada en su proyecto .NET. Puede descargarla desde[sitio](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells para .NET: Asegúrese de tener la biblioteca Aspose.Cells instalada en su proyecto .NET. Puede descargarla desde el sitio web[sitio](https://releases.aspose.com/cells/net/).
 2.  Archivo de certificado: necesitará un archivo de certificado válido (normalmente un`.pfx` archivo) que contiene su certificado digital. Asegúrese de conocer la contraseña de este archivo.
 3. Entorno de desarrollo: configure su entorno de desarrollo con Visual Studio o cualquier otro IDE que admita .NET.
-4. Conocimientos básicos de C#: Estar familiarizado con la programación en C# le ayudará a seguir el proceso sin problemas.
+4. Conocimientos básicos de C#: estar familiarizado con la programación en C# le ayudará a seguir el proceso sin problemas.
 5. Archivos de muestra: tenga un archivo de Excel de muestra que ya esté firmado digitalmente. Este será el archivo al que agregará una nueva firma.
 
 Ahora que tenemos todo en su lugar, ¡comencemos a codificar!

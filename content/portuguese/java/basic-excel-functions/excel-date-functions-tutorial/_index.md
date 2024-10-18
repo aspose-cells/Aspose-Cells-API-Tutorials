@@ -48,7 +48,7 @@ Antes de começarmos a codificar, precisamos configurar o Aspose.Cells para Java
 
 ### Usando a função DATE com Aspose.Cells
 
-Vamos começar com um exemplo prático de como usar a função DATA no Excel usando o Aspose.Cells para Java.
+Vamos começar com um exemplo prático de como usar a função DATA no Excel usando Aspose.Cells para Java.
 
 ```java
 // Criar uma nova pasta de trabalho

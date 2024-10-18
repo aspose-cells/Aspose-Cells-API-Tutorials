@@ -17,7 +17,7 @@ Na era digital, proteger seus dados confidenciais é primordial. Planilhas do Ex
 Antes de mergulhar no mundo da proteção por senha do Excel com o Aspose.Cells para Java, você precisará garantir que possui as ferramentas e o conhecimento necessários:
 
 - Ambiente de desenvolvimento Java
--  Aspose.Cells para API Java (Você pode baixá-lo[aqui](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells para Java API (Você pode baixá-lo[aqui](https://releases.aspose.com/cells/java/)
 - Conhecimento básico de programação Java
 
 ## Configurando o ambiente

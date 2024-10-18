@@ -13,7 +13,7 @@ Excel 문서를 프로그래밍 방식으로 만들고 사용자 지정하면 �
 
 ## 필수 조건
 
-코드에 들어가기 전에 제대로 설정되었는지 확인해 보겠습니다. 시작하기 위해 필요한 것은 다음과 같습니다.
+코드를 살펴보기 전에 제대로 설정되었는지 확인해 보겠습니다. 시작하기 위해 필요한 것은 다음과 같습니다.
 
 1. Visual Studio 또는 .NET IDE: Visual Studio와 같은 작동하는 IDE가 있는지 확인하세요. 여기는 모든 코딩 마법이 일어나는 놀이터가 될 것입니다.
 2.  .NET 패키지용 Aspose.Cells: 아직 다운로드하지 않았다면 Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 최신 버전은 다음에서 찾을 수 있습니다.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
@@ -75,7 +75,7 @@ Workbook wb = new Workbook();
 Worksheet ws = wb.Worksheets[0];
 ```
 
-여기서는 코드에 "이 특정 워크시트로 작업하고 싶어요!"라고 말하고 있는 것입니다. 
+여기서는 코드에 "이 특정 워크시트로 작업하고 싶어요!"라고 말하는 것입니다. 
 
 ## 4단계: 사용자 정의 용지 크기 설정
 
@@ -115,7 +115,7 @@ b4.PutValue("Pdf Page Dimensions: 6.00 x 4.00 in");
 wb.Save(outputDir + "outputCustomPaperSize.pdf");
 ```
 
-이 줄을 통해 지금까지 한 모든 작업을 PDF 형식으로 깔끔하게 정리하라고 프로그램에 지시하는 것입니다.
+이 줄을 통해 지금까지 한 모든 작업을 PDF 형식으로 깔끔하게 패키징하라고 프로그램에 지시하는 것입니다.
 
 ## 결론
 

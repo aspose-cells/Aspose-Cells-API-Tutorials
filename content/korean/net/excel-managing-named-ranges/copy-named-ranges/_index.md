@@ -27,9 +27,9 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-이 코드를 사용하면 다음과 같은 필수 수업에 액세스할 수 있습니다.`Workbook`, `Worksheet` , 그리고`Range`Excel 파일을 조작하는 데 필요합니다.
+이 코드를 사용하면 다음과 같은 필수 수업에 액세스할 수 있습니다.`Workbook`, `Worksheet` 그리고`Range`Excel 파일을 조작하는 데 필요합니다.
 
-이제 필수 조건을 정리했으니, 그 과정을 쉽게 따라할 수 있는 단계로 나누어 보겠습니다.
+이제 전제 조건을 정리했으니, 그 과정을 쉽게 따라할 수 있는 단계로 나누어 보겠습니다.
 ## 1단계: 출력 디렉토리 설정
 먼저, 결과 Excel 파일이 저장될 위치를 정의해야 합니다. 편지를 받기 전에 사서함을 설정하는 것과 같습니다!
 ```csharp
@@ -74,7 +74,7 @@ range1.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Medium, Color.Fro
 range1[0, 0].PutValue("Test");
 range1[0, 4].PutValue("123");
 ```
-이 코드는 범위의 첫 번째 셀을 "Test"라는 텍스트로 채우고 마지막 셀을 숫자 "123"으로 채웁니다. 필수 정보로 양식을 채우는 것과 같습니다.
+이 코드는 범위의 첫 번째 셀을 "Test"라는 텍스트로 채우고 마지막 셀을 "123"이라는 숫자로 채웁니다. 필수 정보로 양식을 채우는 것과 같습니다.
 ## 8단계: 다른 범위 만들기
 다음으로, 첫 번째 범위의 데이터를 복사할 또 다른 범위가 필요합니다.
 ```csharp
@@ -106,7 +106,7 @@ Console.WriteLine("CopyNamedRanges executed successfully.");
 ### .NET용 Aspose.Cells란 무엇인가요?
 Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환할 수 있는 .NET 라이브러리입니다.
 ### Aspose.Cells를 사용하려면 Excel을 설치해야 합니까?
-아니요, Aspose.Cells는 Excel과 독립적으로 작동하지만 설치해 놓으면 출력을 시각적으로 테스트하는 데 편리할 수 있습니다.
+아니요, Aspose.Cells는 Excel과 독립적으로 작동하지만, 설치해 놓으면 출력을 시각적으로 테스트하기에 편리할 수 있습니다.
 ### Aspose.Cells를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
 Aspose.Cells는 Java, Python 등 다양한 언어에 대해 여러 버전을 제공합니다.
 ### Aspose.Cells에 대한 기술 지원을 받으려면 어떻게 해야 하나요?

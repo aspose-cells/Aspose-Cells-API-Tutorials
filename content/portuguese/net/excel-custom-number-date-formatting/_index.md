@@ -1,7 +1,7 @@
 ---
 title: Formatação personalizada de números e datas do Excel
 linktitle: Formatação personalizada de números e datas do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a usar o Aspose.Cells para .NET com nossos tutoriais abrangentes sobre formatação personalizada de números e datas. Otimize suas habilidades no Excel.
 type: docs
 weight: 37

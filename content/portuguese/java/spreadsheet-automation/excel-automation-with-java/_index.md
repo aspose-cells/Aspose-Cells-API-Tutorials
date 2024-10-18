@@ -44,7 +44,7 @@ System.out.println("Value of cell A1: " + cellValue);
 
 ## 4. Escrevendo arquivos Excel
 
-Explore como criar e modificar arquivos Excel. Aqui está um exemplo de gravação de dados em um arquivo Excel:
+Explore como criar e modificar arquivos do Excel. Aqui está um exemplo de gravação de dados em um arquivo do Excel:
 
 ```java
 // Criar uma nova pasta de trabalho

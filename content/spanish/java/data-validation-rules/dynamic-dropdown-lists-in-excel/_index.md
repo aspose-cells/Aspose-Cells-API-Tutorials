@@ -63,7 +63,7 @@ range.setValue(fruits);
 
 ## Paso 6: Agregar validación de datos
 
-Ahora, puedes agregar la validación de datos a la celda donde quieras que aparezca la lista desplegable. En este ejemplo, la agregaremos a la celda B2:
+Ahora, puedes agregar la validación de datos a la celda deseada donde quieres que aparezca la lista desplegable. En este ejemplo, la agregaremos a la celda B2:
 
 ```java
 Cell cell = worksheet.getCells().get("B2");
@@ -82,7 +82,7 @@ workbook.save("DynamicDropdownExample.xlsx");
 
 ## Conclusión
 
-Crear listas desplegables dinámicas en Excel con Aspose.Cells para Java es una forma eficaz de mejorar la interactividad de las hojas de cálculo. Con solo unos pocos pasos, puede proporcionar a los usuarios opciones seleccionables que se actualizan automáticamente. Esta función es valiosa para crear formularios fáciles de usar, informes interactivos y más.
+La creación de listas desplegables dinámicas en Excel con Aspose.Cells para Java es una forma eficaz de mejorar la interactividad de las hojas de cálculo. Con solo unos pocos pasos, puede proporcionar a los usuarios opciones seleccionables que se actualizan automáticamente. Esta función es valiosa para crear formularios fáciles de usar, informes interactivos y más.
 
 ## Preguntas frecuentes
 
@@ -100,8 +100,8 @@ Sí, puedes crear listas desplegables en cascada en Excel con Aspose.Cells para 
 
 ### ¿Puedo proteger la hoja de trabajo con listas desplegables dinámicas?
 
-Sí, puede proteger la hoja de cálculo y, al mismo tiempo, permitir que los usuarios interactúen con listas desplegables dinámicas. Utilice las funciones de protección de hojas de Excel para controlar qué celdas se pueden editar y cuáles están protegidas.
+Sí, puedes proteger la hoja de cálculo y, al mismo tiempo, permitir que los usuarios interactúen con listas desplegables dinámicas. Usa las funciones de protección de hojas de Excel para controlar qué celdas se pueden editar y cuáles están protegidas.
 
 ### ¿Existe algún límite en la cantidad de elementos en la lista desplegable?
 
-La cantidad de elementos de la lista desplegable está limitada por el tamaño máximo de la hoja de cálculo de Excel. Sin embargo, es una buena práctica mantener la lista concisa y relevante para el contexto para mejorar la experiencia del usuario.
+La cantidad de elementos en la lista desplegable está limitada por el tamaño máximo de la hoja de cálculo de Excel. Sin embargo, es una buena práctica mantener la lista concisa y relevante para el contexto para mejorar la experiencia del usuario.

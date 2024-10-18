@@ -30,7 +30,7 @@ Pelajari cara membuat tipe bagan gabungan menggunakan Aspose.Cells untuk Java. P
 ### [Bagan 3D](./3d-charts/)
 Pelajari Cara Membuat Grafik 3D yang Menakjubkan di Java dengan Aspose.Cells. Panduan Langkah demi Langkah untuk Visualisasi Data Excel.
 ### [Pelabelan Data](./data-labeling/)
-Buka Potensi Pelabelan Data dengan Aspose.Cells untuk Java. Pelajari Teknik Langkah demi Langkah.
+Manfaatkan Potensi Pelabelan Data dengan Aspose.Cells untuk Java. Pelajari Teknik Langkah demi Langkah.
 ### [Analisis Garis Tren](./trendline-analysis/)
 Kuasai Analisis Garis Tren di Java dengan Aspose.Cells. Pelajari cara membuat wawasan berdasarkan data dengan petunjuk langkah demi langkah dan contoh kode.
 ### [Anotasi Bagan](./chart-annotations/)

@@ -56,7 +56,7 @@ Nachdem Sie das Dokumentverzeichnis eingerichtet haben, besteht der nächste Sch
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Hier erstellen wir eine`Workbook`Objekt, indem Sie den vollständigen Pfad der Excel-Datei übergeben. Dieser Schritt initialisiert die Arbeitsmappe und bereitet sie für den Datenabruf vor.
+ Hier erstellen wir eine`Workbook` Objekt, indem Sie den vollständigen Pfad der Excel-Datei übergeben. Dieser Schritt initialisiert die Arbeitsmappe und bereitet sie für den Datenabruf vor.
 
 ## Schritt 3: Zugriff auf das erste Arbeitsblatt
 
@@ -68,7 +68,7 @@ Nachdem Sie die Arbeitsmappe geöffnet haben, möchten Sie auf das spezifische A
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Der`Worksheets` Sammlung ermöglicht Ihnen den Zugriff auf verschiedene Blätter in der Arbeitsmappe. Der Index`[0]` verweist auf das erste Arbeitsblatt. Wenn Sie auf nachfolgende Blätter zugreifen möchten, können Sie den Index entsprechend ändern.
+ Der`Worksheets` Sammlung ermöglicht Ihnen den Zugriff auf verschiedene Blätter in der Arbeitsmappe. Der Index`[0]`verweist auf das erste Arbeitsblatt. Wenn Sie auf nachfolgende Blätter zugreifen möchten, können Sie den Index entsprechend ändern.
 
 ## Schritt 4: Durch die Zellen schleifen
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Auswerten des Datentyps der Zellendaten für Datums-/Zeitwerte
+        // Auswerten des Datentyps der Zellendaten für Datums-/Zeitwerte
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- In diesem Schritt durchlaufen wir jede Zelle im Arbeitsblatt. Für jede Zelle überprüfen wir ihren Datentyp mithilfe eines`switch` Anweisung. Je nach Typ rufen wir den Wert ab und drucken ihn auf der Konsole aus. Hier ist eine Aufschlüsselung der Fälle:
+ In diesem Schritt durchlaufen wir jede Zelle im Arbeitsblatt. Für jede Zelle überprüfen wir ihren Datentyp mithilfe eines`switch`Anweisung. Abhängig vom Typ rufen wir den Wert ab und drucken ihn auf der Konsole aus. Hier ist eine Aufschlüsselung der Fälle:
 
 -  IsString: Wenn die Zelle einen String enthält, ermitteln wir diesen mit`StringValue`.
 -  IsNumeric: Für numerische Werte verwenden wir`DoubleValue`.
@@ -143,13 +143,13 @@ Das Abrufen von Daten aus Excel-Zellen mit Aspose.Cells für .NET ist ein unkomp
 Aspose.Cells ist eine .NET-Bibliothek, mit der Entwickler Excel-Dateien erstellen, bearbeiten und konvertieren können, ohne dass Microsoft Excel installiert sein muss.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?  
- Ja, Aspose.Cells bietet eine kostenlose Testversion an, mit der Sie die Funktionen testen können. Sie können sie herunterladen[Hier](https://releases.aspose.com/).
+Ja, Aspose.Cells bietet eine kostenlose Testversion an, mit der Sie die Funktionen testen können. Sie können sie herunterladen[Hier](https://releases.aspose.com/).
 
 ### Welche Arten von Daten kann ich aus Excel-Zellen abrufen?  
 Sie können verschiedene Datentypen abrufen, darunter Zeichenfolgen, Zahlen, Boolesche Werte und Datums-/Uhrzeitwerte.
 
 ### Wie erhalte ich Unterstützung für Aspose.Cells?  
- Sie erhalten Unterstützung unter[Aspose-Forum](https://forum.aspose.com/c/cells/9) wo Sie Fragen stellen und Hilfe von der Community erhalten können.
+ Sie erhalten Unterstützung durch den Besuch der[Aspose-Forum](https://forum.aspose.com/c/cells/9) wo Sie Fragen stellen und Hilfe von der Community erhalten können.
 
 ### Ist eine temporäre Lizenz verfügbar?  
  Ja, Aspose bietet eine temporäre Lizenz zu Testzwecken an. Weitere Informationen finden Sie hier[Hier](https://purchase.aspose.com/temporary-license/).

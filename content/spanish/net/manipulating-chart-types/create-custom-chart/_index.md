@@ -47,12 +47,12 @@ string outputDir = "Your Output Directory"; //Cambie esto a la ruta deseada
 
 En lugar de "Su directorio de salida", puede especificar una ruta real donde desea que se guarde el archivo de Excel. Asegúrese de que este directorio exista en su sistema; de lo contrario, se producirán errores más adelante.
 
-## Paso 2: Creación de una instancia de un objeto de libro de trabajo
+## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
  Ahora, querrás comenzar creando una nueva instancia de`Workbook` clase. Este es el componente fundamental para cualquier operación de Excel que utilice Aspose.Cells.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -137,7 +137,7 @@ Esto permite crear gráficos de tipo mixto, ofreciendo oportunidades de visualiz
 Después de todas esas configuraciones, es hora de guardar el archivo de Excel. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 ```
 

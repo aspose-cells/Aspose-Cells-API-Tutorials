@@ -57,7 +57,7 @@ public class DataMaskingExample {
    public static void main(String[] args) {
 	   // Initialiseer Aspose.Cells
 	   License license = new License();
-	   license.setLicense("Aspose.Cells.lic"); // Vervang dit door het pad naar uw licentiebestand
+	   license.setLicense("Aspose.Cells.lic"); // Vervang met het pad naar uw licentiebestand
    }
 }
 ```

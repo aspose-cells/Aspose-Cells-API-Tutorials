@@ -69,7 +69,7 @@ System.out.println("Calculated Date: " + calculatedDate);
 
 ### TODAY関数の使い方
 
-ここで、Aspose.Cells for Java で TODAY 関数を使用して現在の日付を取得する方法を見てみましょう。
+ここで、Aspose.Cells for Java で TODAY 関数を使用して現在の日付を取得する方法を説明します。
 
 ```java
 //新しいワークブックを作成する
@@ -139,7 +139,7 @@ System.out.println("End of Month: " + endOfMonth);
 
 ## 結論
 
-このチュートリアルでは、Excel の日付関数と、Aspose.Cells for Java を使用してそれらを操作する方法について包括的に説明しました。Aspose.Cells の設定方法、DATE、TODAY、DATEDIF、EOMONTH 関数の使用方法、プログラムによる日付計算の実行方法を学習しました。この知識があれば、Excel での日付関連のタスクを効率化し、Java アプリケーションを強化できます。
+このチュートリアルでは、Excel の日付関数と、Aspose.Cells for Java を使用してそれらを操作する方法についての包括的な概要を説明しました。Aspose.Cells の設定方法、DATE、TODAY、DATEDIF、EOMONTH 関数の使用方法、プログラムによる日付計算の実行方法を学習しました。この知識があれば、Excel での日付関連のタスクを効率化し、Java アプリケーションを強化できます。
 
 ## よくある質問
 

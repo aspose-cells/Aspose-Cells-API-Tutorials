@@ -16,7 +16,7 @@ url: /ko/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 핵심을 파고들기 전에, 필요한 모든 것을 갖추었는지 확인해 보겠습니다. 성공을 위한 전제 조건의 간단한 체크리스트는 다음과 같습니다.
 
 1. .NET Framework: 컴퓨터에 .NET Framework가 설치되어 있는지 확인하세요. Aspose.Cells는 다양한 .NET 버전과 원활하게 작동합니다.
-2.  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 다음에서 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/).
+2. .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 설치해야 합니다. 다음에서 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/).
 3. 통합 개발 환경(IDE): Visual Studio와 같은 IDE를 사용하여 C# 코드를 작성하고 실행할 수 있습니다.
 4. C#에 대한 기본 지식: C#에 대한 기본적인 이해가 있으면 이 가이드에서 사용하는 코딩 관행을 따라가는 데 도움이 됩니다.
 
@@ -45,7 +45,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-이 간단한 한 줄은 Aspose.Cells가 제공하는 모든 기능에 대한 게이트웨이입니다. 
+이 간단한 한 줄을 통해 Aspose.Cells가 제공하는 모든 기능을 사용할 수 있습니다. 
 
 이제 모든 전제 조건을 충족하고 필요한 패키지를 가져왔으니 Excel로 데이터를 가져오고 사용자 지정 DB Num 패턴 서식을 적용하는 단계별 프로세스를 살펴보겠습니다. 명확성과 이해를 보장하기 위해 체계적으로 진행하겠습니다.
 
@@ -67,7 +67,7 @@ string dataDir = "Your Document Directory";
 Workbook wb = new Workbook();
 ```
 
-여기서 우리는 새로운 것을 인스턴스화하고 있습니다`Workbook` 객체입니다. 이것은 당신의 빈 캔버스입니다!
+ 여기서 우리는 새로운 것을 인스턴스화하고 있습니다`Workbook` 객체입니다. 이것은 당신의 빈 캔버스입니다!
 
 ## 3단계: 첫 번째 워크시트에 액세스
 
@@ -108,7 +108,7 @@ Style st = cell.GetStyle();
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-이 줄은 Excel에 숫자를 서식 지정하도록 지시합니다.`123` 중국어에 해당하는 DBNum 패턴에 따라. 꽤 깔끔하죠?
+ 이 줄은 Excel에 숫자를 서식 지정하도록 지시합니다.`123` 중국어에 해당하는 DBNum 패턴에 따라. 꽤 깔끔하죠?
 
 ## 7단계: 업데이트된 셀 스타일 설정
 
@@ -128,7 +128,7 @@ cell.SetStyle(st);
 ws.Cells.SetColumnWidth(0, 30);
 ```
 
-여기서는 열 너비를 확장하여 데이터가 좁게 느껴지지 않도록 합니다. 데이터에 숨 쉴 공간을 주는 것처럼 생각하세요!
+여기서는 열 너비를 확장하여 데이터가 좁아 보이지 않도록 합니다. 데이터에 숨 쉴 공간을 주는 것처럼 생각하세요!
 
 ## 9단계: 통합 문서 저장
 
@@ -160,5 +160,5 @@ Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들
 ### Excel 파일은 어떤 형식으로 저장할 수 있나요?  
 Aspose.Cells는 XLSX, XLS, CSV, PDF 등 다양한 형식을 지원합니다.
 
-### 더 많은 지원은 어디서 받을 수 있나요?  
+### 더 많은 지원은 어디에서 받을 수 있나요?  
  도움이 필요하면 방문하세요[지원 포럼](https://forum.aspose.com/c/cells/9) 지역사회와 전문가에게 도움을 요청하세요.

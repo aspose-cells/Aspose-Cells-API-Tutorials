@@ -10,7 +10,7 @@ url: /pl/java/excel-data-analysis/data-analysis-excel-pivot/
 
 ## Wprowadzenie do Aspose.Cells dla Java
 
-Zanim zagłębimy się w szczegóły analizy danych, zapoznajmy się z Aspose.Cells for Java. Ta biblioteka Java jest częścią rodziny produktów Aspose.Cells, znanej ze swoich możliwości obsługi plików Excel. Aspose.Cells for Java umożliwia programowe tworzenie, modyfikowanie i manipulowanie skoroszytami, arkuszami, wykresami i tabelami przestawnymi programu Excel.
+Zanim zagłębimy się w szczegóły analizy danych, zapoznajmy się z Aspose.Cells dla Javy. Ta biblioteka Javy jest częścią rodziny produktów Aspose.Cells, znanej ze swoich możliwości obsługi plików Excel. Aspose.Cells dla Javy umożliwia programowe tworzenie, modyfikowanie i manipulowanie skoroszytami, arkuszami, wykresami i tabelami przestawnymi programu Excel.
 
 ## Wymagania wstępne
 
@@ -87,13 +87,13 @@ Teraz, gdy utworzyliśmy i dostosowaliśmy naszą tabelę przestawną, czas prze
 
 ## Wniosek
 
-tym przewodniku przyjrzeliśmy się sposobowi przeprowadzania analizy danych w programie Excel przy użyciu Aspose.Cells dla języka Java. Zaczęliśmy od utworzenia nowego skoroszytu, zaimportowania danych i utworzenia tabeli przestawnej. Następnie zdefiniowaliśmy pola tabeli przestawnej, zagregowaliśmy dane i dostosowaliśmy układ. Dzięki tym narzędziom możesz odblokować pełny potencjał analizy danych w programie Excel z językiem Java.
+tym przewodniku przyjrzeliśmy się sposobowi przeprowadzania analizy danych w programie Excel przy użyciu Aspose.Cells for Java. Zaczęliśmy od utworzenia nowego skoroszytu, zaimportowania danych i utworzenia tabeli przestawnej. Następnie zdefiniowaliśmy pola tabeli przestawnej, zagregowaliśmy dane i dostosowaliśmy układ. Dzięki tym narzędziom możesz odblokować pełny potencjał analizy danych w programie Excel z Javą.
 
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Cells dla Java?
 
- Możesz pobrać Aspose.Cells dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/cells/java/). Postępuj zgodnie z instrukcjami instalacji, aby skonfigurować go w swoim projekcie Java.
+ Możesz pobrać Aspose.Cells dla Java ze strony internetowej[Tutaj](https://releases.aspose.com/cells/java/). Postępuj zgodnie z podanymi instrukcjami instalacji, aby skonfigurować go w swoim projekcie Java.
 
 ### Czy mogę wykonywać zaawansowane obliczenia w tabelach przestawnych?
 
@@ -109,4 +109,4 @@ Oczywiście! Aspose.Cells for Java pozwala na automatyzację zadań analizy dany
 
 ### Czy istnieją jakieś wymagania licencyjne dla Aspose.Cells dla Java?
 
-Tak, Aspose.Cells for Java jest biblioteką komercyjną i będziesz potrzebować ważnej licencji, aby używać jej w swoich projektach. Odwiedź stronę Aspose, aby uzyskać szczegóły dotyczące licencjonowania i informacje o cenach.
+Tak, Aspose.Cells for Java jest biblioteką komercyjną i będziesz potrzebować ważnej licencji, aby używać jej w swoich projektach. Odwiedź stronę internetową Aspose, aby uzyskać szczegóły dotyczące licencjonowania i informacje o cenach.

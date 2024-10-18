@@ -14,7 +14,7 @@ Dans le monde de la manipulation et de l'analyse des données, Excel est un outi
 
 ## Comprendre la fonction MIN
 
-La fonction MIN dans Excel est une fonction mathématique fondamentale qui vous permet de déterminer la plus petite valeur dans un ensemble de nombres donné ou une plage de cellules. Elle est souvent utilisée dans les scénarios où vous devez identifier la valeur la plus basse parmi une collection de points de données.
+La fonction MIN dans Excel est une fonction mathématique fondamentale qui vous aide à déterminer la plus petite valeur dans un ensemble de nombres donné ou une plage de cellules. Elle est souvent utilisée dans les scénarios où vous devez identifier la valeur la plus basse parmi une collection de points de données.
 
 ### Syntaxe de la fonction MIN
 

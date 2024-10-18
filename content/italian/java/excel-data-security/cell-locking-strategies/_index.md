@@ -99,7 +99,7 @@ Con questa singola riga di codice puoi proteggere l'intero foglio di lavoro da q
 
 ## Scenari di blocco delle celle personalizzati
 
-I requisiti specifici del tuo progetto potrebbero richiedere strategie di blocco delle celle uniche. Aspose.Cells per Java offre la flessibilità necessaria per soddisfare scenari personalizzati. Sia che tu debba bloccare le celle in base all'input dell'utente o adattare dinamicamente le regole di blocco, puoi riuscirci con le ampie funzionalità dell'API.
+I requisiti specifici del tuo progetto potrebbero richiedere strategie di blocco delle celle uniche. Aspose.Cells per Java offre la flessibilità per soddisfare scenari personalizzati. Sia che tu debba bloccare le celle in base all'input dell'utente o adattare dinamicamente le regole di blocco, puoi ottenerlo con le ampie funzionalità dell'API.
 
 ## Buone pratiche
 

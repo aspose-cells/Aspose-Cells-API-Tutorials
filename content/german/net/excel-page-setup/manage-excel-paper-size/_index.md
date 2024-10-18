@@ -17,7 +17,7 @@ Bevor Sie sich in die technischen Details der Verwaltung von Excel-Papiergröße
 
 1. Grundlegende Kenntnisse in C#: Kenntnisse in der C#-Programmierung erleichtern die Integration von Aspose.Cells in Ihre Projekte erheblich.
 2. Visual Studio installiert: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist, um C#-Code zu schreiben und auszuführen.
-3.  Aspose.Cells für .NET-Bibliothek: Sie müssen Aspose.Cells erwerben. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells für .NET-Bibliothek: Sie müssen Aspose.Cells erwerben. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 4. NuGet-Paket-Manager: Stellen Sie sicher, dass Sie Zugriff auf den NuGet-Paket-Manager haben, da Sie Aspose.Cells damit problemlos installieren können.
 
 Unter Berücksichtigung dieser Voraussetzungen können wir loslegen!
@@ -58,7 +58,7 @@ In diesem Schritt legen Sie das Verzeichnis fest, in dem Sie die geänderte Exce
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ersetzen`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad auf Ihrem System, in dem Sie die Datei speichern möchten. Dies könnte beispielsweise so aussehen:`C:\Documents\`.
+ Ersetzen`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad auf Ihrem System, in dem Sie die Datei speichern möchten. Es könnte zum Beispiel so aussehen:`C:\Documents\`.
 
 ## Schritt 2: Erstellen eines Arbeitsmappenobjekts
 
@@ -113,7 +113,7 @@ Mit Aspose.Cells für .NET wird die Verwaltung von Papiergrößen in Excel-Tabel
 Ja, Sie können in einer Schleife auf mehrere Arbeitsblätter zugreifen und für jedes die gleichen Papierformateinstellungen anwenden.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells ist eine kommerzielle Bibliothek, bietet jedoch eine kostenlose Testversion an. Sie können eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) um alle Funktionen zu bewerten.
+ Aspose.Cells ist eine kommerzielle Bibliothek; es gibt jedoch eine kostenlose Testversion. Sie können eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) um alle Funktionen zu bewerten.
 
 ### Wie behandle ich Ausnahmen bei der Arbeit mit Aspose.Cells?
 Sie können Ihren Code in einen Try-Catch-Block einschließen, um alle Ausnahmen zu behandeln, die während der Arbeitsmappenbearbeitung auftreten können.

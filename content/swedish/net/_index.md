@@ -16,7 +16,7 @@ Oavsett om du är nybörjare eller en erfaren utvecklare ger Aspose.Cells för .
 
 ### [Excel arbetsblad](./excel-worksheet-csharp-tutorials/)
 Aspose.Cells C#-handledningar erbjuder steg-för-steg-instruktioner för att manipulera Excel-kalkylblad med lätthet och effektivitet.
-### [Visningsinställningar för Excel](./excel-display-settings-csharp-tutorials)
+### [Excel-skärminställningar](./excel-display-settings-csharp-tutorials)
 Kolla in Aspose.Cells C#-tutorials för att anpassa Excel-skärmen. Ändra typsnitt, färger, format och skapa attraktiva rapporter.
 ### [Excel sidinställningar](./excel-page-setup)
 Kolla in Aspose.Cells för .NET-handledningarna om hur du ställer in Excels sidlayout. Anpassa dina Excel-filer med lätthet.
@@ -53,7 +53,7 @@ Lås upp magin med hyperlänkar i Excel med Aspose.Cells för .NET. Upptäck hur
 ### [Arbeta med namngivna intervall i Excel](./excel-working-with-named-ranges/)
 Utforska Aspose.Cells för .NET handledningar för att arbeta med namngivna intervall i Excel. Lär dig hur du kommer åt alla eller specifika namngivna intervall med steg-för-steg-guider.
 ### [Sammanfoga och ta bort celler i Excel](./excel-merging-unmerging-cells/)
-Bemästra slå samman och ta bort celler i Excel med våra enkla Aspose.Cells för .NET-tutorials. Lyft dina kalkylbladsfärdigheter.
+Bemästra sammanslagning och upphävande av celler i Excel med våra enkla Aspose.Cells för .NET-tutorials. Lyft dina kalkylbladsfärdigheter.
 ### [Skapa och formatera namngivna intervall i Excel](./excel-creating-formatting-named-ranges/)
 Upptäck hur du skapar och formaterar namngivna intervall i Excel med Aspose.Cells för .NET. Förbättra din datahantering och visuella presentation utan ansträngning.
 ### [Avancerade operationer med namngivna intervall i Excel](./excel-advanced-named-ranges/)
@@ -84,3 +84,39 @@ Lär dig att använda Aspose.Cells för .NET för avancerade Excel-databevarande
 Upptäck viktiga handledningar om Aspose.Cells för .NET, som täcker skapande av Excel-intervall, adressberäkning och avancerade manipulationer med lätthet.
 ### [Excel dolda rader och hantering av dataduplicering](./excel-hidden-rows-data-duplication-management/)
 Lås upp Excels potential med Aspose.Cells för .NET-tutorials, som ger insikter om hur du hanterar dolda rader och duplicerar data utan ansträngning.
+### [Excel-kommentar och anteckning](./excel-comment-annotation/)
+Förbättra dina Excel-kunskaper med Aspose.Cells för .NET-tutorials om kommentarer och anteckningar, med steg-för-steg-guider för att berika dina kalkylblad.
+### [Excel-former och kontroller](./excel-shapes-controls/)
+Utforska omfattande Aspose.Cells för .NET tutorials om att lägga till Excel-former och kontroller. Lär dig steg-för-steg-metoder för att förbättra dina Excel-kalkylblad programmatiskt.
+### [Excel OLE och bildobjekt](./excel-ole-picture-objects/)
+Lås upp kraften i Excel med Aspose.Cells för .NET. Bemästra OLE-objekt och bildhantering genom våra enkla handledningar.
+### [Excel Shape and Label Access](./excel-shape-label-access/)
+Lås upp kraften i Aspose.Cells för .NET med våra omfattande handledningar som täcker OLE-objektetiketter och Smart Art-formidentifiering i Excel.
+### [Modifieringar av form och text i Excel](./excel-shape-text-modifications/)
+Lär dig att manipulera Excel-former och text med Aspose.Cells för .NET med lätta att följa handledningar och praktiska kodexempel.
+### [Excel-filhantering](./excel-file-handling/)
+Lås upp din Excel-potential med Aspose.Cells för .NET tutorials. Exportera egenskaper, hantera tomma rader och ladda synliga ark enkelt.
+### [CSV-filhantering](./csv-file-handling/)
+Utforska omfattande Aspose.Cells för .NET självstudier om hantering av CSV-filer, inklusive öppning, analys och manipulering av data med lätthet och effektivitet.
+### [Filladdning och analys](./data-loading-and-parsing/)
+Lås upp dina Excel-data utan ansträngning med Aspose.Cells för .NET tutorials. Lär dig att öppna krypterade FODS- och SXC-filer.
+### [Spara filer i olika format](./saving-files-in-different-formats/)
+Upptäck omfattande handledningar om hur du sparar Excel-filer i olika format med Aspose.Cells för .NET. Förbättra dina Excel-kunskaper.
+### [Filhantering](./file-handling/)
+Upptäck detaljerade tutorials för hantering av filer i Aspose.Cells för .NET, inklusive att spara till olika format, platser och anpassade separatorer.
+### [Dokumentegenskaper](./document-properties/)
+Lås upp funktionerna hos Aspose.Cells för .NET med våra omfattande handledningar om dokumentegenskaper för att förbättra dina färdigheter i Excel-filhantering.
+### [Konvertering och rendering](./conversion-and-rendering/)
+Utforska Aspose.Cells för .NET tutorials, med avancerade guider för att konvertera och rendera Excel-filer till olika format sömlöst.
+### [Säkerhet och kryptering](./security-and-encryption/)
+Lås upp kraften i Aspose.Cells för .NET med våra handledningar om säkerhet och kryptering. Lär dig att upptäcka och kryptera filer utan ansträngning.
+### [Arbetsblad Operations](./worksheet-operations/)
+Lås upp den fulla potentialen hos Aspose.Cells för .NET med dessa praktiska handledningar som täcker arbetsbladsoperationer och förbättrar dina Excel-filer.
+### [Konvertering till PDF](./conversion-to-pdf/)
+Förvandla dina Excel-filer och diagram till sömlösa PDF-filer med våra lätta att följa Aspose.Cells för .NET-tutorials.
+### [Bild- och sjökortsoperationer](./image-and-chart-operations/)
+Utforska den omfattande guiden om Aspose.Cells för .NET tutorials. Lär dig mer om bild- och diagramoperationer för att förbättra din produktivitet.
+### [XPS- och PDF-operationer](./xps-and-pdf-operations/)
+Upptäck omfattande Aspose.Cells för .NET-tutorials om XPS- och PDF-operationer för att effektivisera dina filkonverteringar.
+### [Länk- och konfigurationsoperationer](./link-and-configuration-operations/)
+Upptäck omfattande självstudier om Aspose.Cells för .NET, inklusive länkkonfiguration och mer. Perfekt för utvecklare som vill förbättra sina Excel-applikationer.

@@ -58,14 +58,14 @@ En primer lugar, debe determinar dónde desea guardar el archivo de salida de Ex
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Asegúrese de reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real en su máquina donde desea que se guarde el archivo de Excel.
+Asegúrese de reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real en su máquina donde desea que se guarde el archivo de Excel.
 
 ## Paso 2: Crear un nuevo objeto de libro de trabajo
 
 Ahora es el momento de crear un nuevo libro de trabajo. Básicamente, aquí es donde se guardarán todos los datos y configuraciones.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Los archivos de Excel pueden contener varias hojas de cálculo. Accederemos a la primera hoja de cálculo para aplicar nuestro factor de escala.
 
 ```csharp
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -113,7 +113,7 @@ La capacidad de ajustar el factor de escala es solo una de las muchas funciones 
 ## Preguntas frecuentes
 
 ### ¿Qué es Aspose.Cells para .NET?  
-Aspose.Cells para .NET es una potente biblioteca que se utiliza para crear y manipular archivos Excel en aplicaciones .NET, proporcionando amplias funcionalidades sin necesidad de instalar Excel.
+Aspose.Cells para .NET es una potente biblioteca utilizada para crear y manipular archivos Excel en aplicaciones .NET, proporcionando amplias funcionalidades sin necesidad de instalar Excel.
 
 ### ¿Puedo usar Aspose.Cells para .NET en una aplicación web?  
 ¡Sí! Aspose.Cells se puede utilizar tanto en aplicaciones de escritorio como web, siempre que estén orientadas al marco .NET.
@@ -122,7 +122,7 @@ Aspose.Cells para .NET es una potente biblioteca que se utiliza para crear y man
  ¡Por supuesto! Puedes obtener una versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar documentación para Aspose.Cells?  
-La documentación se puede encontrar[aquí](https://reference.aspose.com/cells/net/).
+ La documentación se puede encontrar[aquí](https://reference.aspose.com/cells/net/).
 
 ### ¿Cómo puedo obtener soporte técnico para Aspose.Cells?  
  Puede solicitar ayuda a través del[Foro de Aspose](https://forum.aspose.com/c/cells/9).

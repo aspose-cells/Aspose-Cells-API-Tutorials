@@ -17,7 +17,7 @@ url: /ja/java/excel-data-security/auditing-file-access/
 始める前に、次の前提条件を満たしていることを確認してください。
 
 - [Java 開発キット (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)システムにインストールされています。
--  Aspose.Cells for Javaライブラリ。ダウンロードは以下から行えます。[Aspose.Cells for Java の Web サイト](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Javaライブラリ。以下からダウンロードできます。[Aspose.Cells for Java の Web サイト](https://releases.aspose.com/cells/java/).
 
 ## ステップ1: Javaプロジェクトの設定
 
@@ -55,7 +55,7 @@ public class FileAccessLogger {
 
 ## ステップ 3: Aspose.Cells を使用してファイル操作を実行する
 
-それでは、Aspose.Cellsをプロジェクトに統合して、ファイル操作とログアクセスアクティビティを実行してみましょう。というクラスを作成します。`ExcelFileManager.java`:
+さて、Aspose.Cellsをプロジェクトに統合して、ファイル操作とログアクセスアクティビティを実行してみましょう。というクラスを作成します。`ExcelFileManager.java`:
 
 ```java
 import com.aspose.cells.Workbook;

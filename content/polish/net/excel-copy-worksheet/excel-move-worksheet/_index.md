@@ -27,7 +27,7 @@ Pierwszym krokiem do udanej pracy z Aspose.Cells jest zaimportowanie niezbędnyc
 
 ### Skonfiguruj swój projekt
 
-1. Otwórz program Visual Studio lub preferowany przez siebie program IDE.
+1. Otwórz program Visual Studio lub preferowane środowisko IDE.
 2. Utwórz nowy projekt C# (Windows Forms, Console App itp., w zależności od preferencji).
 
 ### Dodaj odniesienie Aspose.Cells
@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Wyjaśnienie: 
 
- Ten wiersz przydziela zmienną łańcuchową`dataDir` aby zachować ścieżkę do katalogu dokumentów. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest plik Excela. To tak, jakby dawać komuś wskazówki; musisz powiedzieć swojemu kodowi dokładnie, gdzie szukać plików.
+Ten wiersz przydziela zmienną łańcuchową`dataDir` aby zachować ścieżkę do katalogu dokumentów. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie przechowywany jest plik Excela. To tak, jakby dawać komuś wskazówki; musisz powiedzieć swojemu kodowi dokładnie, gdzie szukać plików.
 
 ## Krok 2: Załaduj skoroszyt
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Wyjaśnienie:  
 
-Ten wiersz pobiera pierwszy arkusz roboczy ze zbioru. Indeksowanie w programowaniu często zaczyna się od zera, dlatego używamy`[0]`. Rozważ to jako wybór pierwszego rozdziału w swojej książce, gotowego do modyfikacji.
+ Ten wiersz pobiera pierwszy arkusz roboczy ze zbioru. Indeksowanie w programowaniu często zaczyna się od zera, dlatego używamy`[0]`. Rozważ to jako wybór pierwszego rozdziału w swojej książce, gotowego do modyfikacji.
 
 ## Krok 5: Przenieś arkusz kalkulacyjny
 
@@ -106,11 +106,11 @@ wb.Save(dataDir + "MoveWorksheet_out.xls");
 
 Wyjaśnienie:  
 
- Na koniec zapisujemy nasz skoroszyt pod nową nazwą,`MoveWorksheet_out.xls`. Ten krok finalizuje zmiany i zapisuje je w nowym pliku Excel. Jest to podobne do odłożenia gotowego rękopisu książki na półkę.
+ Na koniec zapisujemy nasz skoroszyt pod nową nazwą,`MoveWorksheet_out.xls`. Ten krok finalizuje Twoje zmiany i zapisuje je w nowym pliku Excel. Jest to podobne do odłożenia gotowego rękopisu Twojej książki na półkę.
 
 ## Wniosek
 
-masz to! Teraz masz solidne pojęcie o tym, jak przenosić arkusze kalkulacyjne w pliku Excela za pomocą Aspose.Cells dla .NET. Nie tylko nauczyłeś się programowego zarządzania plikami Excela, ale także zapoznałeś się z C# i kilkoma praktycznymi koncepcjami programowania. Ta umiejętność jest niezwykle przydatna, zwłaszcza że zarządzanie danymi wciąż ewoluuje.
+I masz to! Teraz masz solidne pojęcie o tym, jak przenosić arkusze kalkulacyjne w pliku Excela za pomocą Aspose.Cells dla .NET. Nie tylko nauczyłeś się programowego zarządzania plikami Excela, ale także zapoznałeś się z C# i kilkoma praktycznymi koncepcjami programowania. Ta umiejętność jest niezwykle przydatna, zwłaszcza że zarządzanie danymi wciąż ewoluuje.
 
 ## Najczęściej zadawane pytania
 

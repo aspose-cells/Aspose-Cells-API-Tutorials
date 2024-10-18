@@ -137,7 +137,7 @@ Console.WriteLine("AddWebExtension executed successfully.");
  Aspose.Cells предлагает бесплатную пробную версию для тестирования. Вы можете узнать больше из[Бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Могу ли я приобрести Aspose.Cells?
- Да! Aspose.Cells — платное ПО, и вы можете купить его[здесь](https://purchase.aspose.com/buy).
+ Да! Aspose.Cells — платное программное обеспечение, и вы можете купить его[здесь](https://purchase.aspose.com/buy).
 
 ### Какие языки программирования поддерживает Aspose.Cells?
 Aspose.Cells в первую очередь предназначен для приложений .NET, но также имеет версии для Java и других языков.

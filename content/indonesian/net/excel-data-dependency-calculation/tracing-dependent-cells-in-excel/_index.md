@@ -74,7 +74,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
- Penjelasan: Baris kode ini menggabungkan`dataDir` dan nama berkas untuk membuat jalur lengkap untuk memuat buku kerja Excel. 
+ Penjelasan: Baris kode ini menggabungkan`dataDir` dan nama berkas untuk membuat jalur lengkap guna memuat buku kerja Excel. 
 
 ## Langkah 3: Akses Sel
 
@@ -84,7 +84,7 @@ Sekarang setelah kita membuka buku kerja, saatnya untuk mengakses sel-sel indivi
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Penjelasan: Kode di atas menargetkan lembar kerja pertama (indeks 0) di buku kerja kita dan mengambil`Cells` koleksi, yang akan kita gunakan untuk melacak tanggungan.
+Penjelasan: Kode di atas menargetkan lembar kerja pertama (indeks 0) di buku kerja kita dan mengambil`Cells` koleksi, yang akan kita gunakan untuk melacak tanggungan.
 
 ## Langkah 4: Pilih Sel
 
@@ -104,7 +104,7 @@ Cell cell = cells["B2"];
 Cell[] ret = cell.GetDependents(true);
 ```
 
- Penjelasan: Ini mengembalikan array`Cell` objek yang bergantung pada sel yang ditentukan.`true` argumen menunjukkan kita ingin mempertimbangkan sel dari semua lembar kerja dalam buku kerja.
+ Penjelasan: Ini mengembalikan array`Cell` objek yang bergantung pada sel yang ditentukan.`true` argumen menunjukkan kita ingin mempertimbangkan sel dari semua lembar kerja di buku kerja.
 
 ## Langkah 6: Menampilkan Sel Dependen
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Penjelasan: Loop ini melewati setiap sel dependen dalam array kita dan mencetak namanya—cukup mudah!`Console.ReadKey()` memastikan jendela konsol tetap terbuka sampai Anda menekan tombol, memberi Anda waktu untuk membaca output.
+Penjelasan: Loop ini melewati setiap sel dependen dalam array kita dan mencetak namanya—cukup mudah!`Console.ReadKey()` memastikan bahwa jendela konsol tetap terbuka sampai Anda menekan tombol, memberi Anda waktu untuk membaca output.
 
 ## Kesimpulan
 
@@ -133,10 +133,10 @@ Aspose.Cells adalah pustaka yang hebat untuk menangani berkas Excel dalam aplika
  Ya! Aspose menawarkan[uji coba gratis](https://releases.aspose.com/) perangkat lunaknya, yang memungkinkan Anda menjelajahi fitur-fiturnya sebelum membeli.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
-Anda dapat mencari dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9), tempat komunitas pengguna dan pakar dapat membantu Anda. 
+ Anda dapat mencari dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9), tempat komunitas pengguna dan pakar dapat membantu Anda. 
 
 ### Apakah Aspose.Cells cocok untuk file Excel berukuran besar?
-Tentu saja! Aspose.Cells dirancang untuk bekerja secara efisien dengan file Excel berukuran besar, menyediakan penanganan dan kinerja yang tangguh.
+Tentu saja! Aspose.Cells dirancang untuk bekerja secara efisien dengan file Excel berukuran besar, memberikan penanganan dan kinerja yang tangguh.
 
 ### Bisakah saya membeli Aspose.Cells?
  Ya! Anda dapat membeli Aspose.Cells melalui[halaman pembelian](https://purchase.aspose.com/buy) untuk pilihan lisensi yang fleksibel.

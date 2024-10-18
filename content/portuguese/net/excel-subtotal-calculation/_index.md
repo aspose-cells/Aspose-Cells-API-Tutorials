@@ -1,7 +1,7 @@
 ---
 title: Subtotal e cálculo do Excel
 linktitle: Subtotal e cálculo do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra como criar subtotais do Excel e rastrear precedentes usando Aspose.Cells para .NET. Siga estes tutoriais para aprimorar suas habilidades com planilhas sem esforço.
 type: docs
 weight: 33

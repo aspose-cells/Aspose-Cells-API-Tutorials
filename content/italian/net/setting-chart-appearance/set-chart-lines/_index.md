@@ -16,7 +16,7 @@ Creare grafici visivamente accattivanti e informativi è essenziale nella rappre
 Prima di immergerti nella parte di codifica, assicurati di avere a disposizione quanto segue:
 
 - Visual Studio: assicurati di avere Visual Studio installato. Si consiglia vivamente di utilizzare la versione più recente per sfruttare tutte le funzionalità.
-- .NET Framework: il tuo progetto dovrebbe essere basato su .NET Framework (o .NET Core) in cui implementerai Aspose.Cells.
+- .NET Framework: il progetto deve essere basato su .NET Framework (o .NET Core) in cui implementerai Aspose.Cells.
 -  Aspose.Cells per .NET: Scarica e installa Aspose.Cells da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
 - Conoscenza di base di C#: la familiarità con il linguaggio di programmazione C# sarà utile durante la codifica.
 
@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Ora creeremo un oggetto cartella di lavoro, che fungerà da contenitore per il foglio di calcolo.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 

@@ -33,7 +33,7 @@ using Aspose.Cells;
 
 Esta biblioteca es poderosa y le permite realizar una gran cantidad de operaciones, incluida la protección de sus datos dentro de archivos de Excel, que es lo que pretendemos lograr hoy.
 
-Dividiremos esto en varios pasos claros y concisos. Protegerás columnas específicas, lo que permitirá que el resto de la hoja de cálculo siga siendo editable.
+Vamos a dividir esto en varios pasos claros y concisos. Protegerás columnas específicas, lo que permitirá que el resto de la hoja de cálculo siga siendo editable.
 
 ## Paso 1: Configurar el directorio de datos
 
@@ -63,7 +63,7 @@ Workbook wb = new Workbook();
 
 ## Paso 3: Acceda a la primera hoja de trabajo
 
-Una vez creado el libro de trabajo, querrás acceder a la primera hoja de trabajo donde realizarás tus operaciones:
+Después de crear el libro de trabajo, querrás acceder a la primera hoja de trabajo donde realizarás tus operaciones:
 
 ```csharp
 // Cree un objeto de hoja de cálculo y obtenga la primera hoja.
@@ -96,7 +96,7 @@ for (int i = 0; i <= 255; i++)
 
 ## Paso 5: Bloquear la columna deseada
 
-Ahora, deberá bloquear la primera columna específicamente, mientras deja todas las demás columnas editables. A continuación, le indicamos cómo hacerlo:
+Ahora, querrás bloquear la primera columna específicamente, mientras dejas que todas las demás columnas sean editables. Aquí te mostramos cómo hacerlo:
 
 ```csharp
 // Obtener el primer estilo de columna.
@@ -115,7 +115,7 @@ Aquí, el código obtiene el estilo de la primera columna, la bloquea y luego ap
 
 ## Paso 6: Proteger la hoja de trabajo
 
-El siguiente paso consiste en habilitar la protección para toda la hoja de cálculo. Aquí es donde se aplicarán los bloqueos de columnas:
+El siguiente paso consiste en habilitar la protección para toda la hoja de cálculo. Aquí es donde los bloqueos de columnas surtirán efecto:
 
 ```csharp
 // Proteger la hoja.

@@ -17,7 +17,7 @@ W erze cyfrowej zabezpieczenie poufnych danych jest najważniejsze. Arkusze kalk
 Zanim zagłębisz się w świat ochrony hasłem w programie Excel za pomocą Aspose.Cells for Java, upewnij się, że dysponujesz niezbędnymi narzędziami i wiedzą:
 
 - Środowisko programistyczne Java
--  Aspose.Cells dla API Java (Możesz go pobrać[Tutaj](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells dla API Java (Można go pobrać)[Tutaj](https://releases.aspose.com/cells/java/)
 - Podstawowa znajomość programowania w Javie
 
 ## Konfigurowanie środowiska
@@ -120,6 +120,6 @@ Oczywiście. Możesz chronić określone komórki lub zakresy, ustawiając opcje
 
 Tak, możesz zmienić hasło dla pliku Excel, który jest już zabezpieczony. W tym celu wczytaj plik, ustaw nowe hasło i zapisz je.
 
-### Czy istnieją jakieś ograniczenia dotyczące ochrony hasłem w plikach Excela?
+### Czy istnieją jakieś ograniczenia dotyczące ochrony hasłem plików Excel?
 
 Ochrona hasłem plików programu Excel to skuteczny sposób zabezpieczenia, jednak dla zapewnienia maksymalnego bezpieczeństwa ważne jest, aby wybierać silne hasła i zachowywać ich poufność.

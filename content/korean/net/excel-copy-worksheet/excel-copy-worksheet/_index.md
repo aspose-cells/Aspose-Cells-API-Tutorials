@@ -2,7 +2,7 @@
 title: Excel 복사 워크시트
 linktitle: Excel 복사 워크시트
 second_title: .NET API 참조를 위한 Aspose.Cells
-description: 이 쉬운 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 워크시트를 복사하는 방법을 알아보세요. Excel 작업을 자동화하려는 .NET 개발자에게 이상적입니다.
+description: 이 쉽게 따라할 수 있는 단계별 가이드로 Aspose.Cells for .NET을 사용하여 Excel 워크시트를 복사하는 방법을 알아보세요. Excel 작업을 자동화하려는 .NET 개발자에게 이상적입니다.
 type: docs
 weight: 20
 url: /ko/net/excel-copy-worksheet/excel-copy-worksheet/
@@ -83,7 +83,7 @@ Workbook wb = new Workbook(InputPath);
 WorksheetCollection sheets = wb.Worksheets;
 ```
 
-- `WorksheetCollection` 기본적으로 워크북의 모든 워크시트 목록입니다. 이것이 우리가 시트를 복사하는 데 사용할 것입니다.
+- `WorksheetCollection` 기본적으로 워크북에 있는 모든 워크시트의 목록입니다. 이것이 우리가 시트를 복사하는 데 사용할 것입니다.
 
 ## 4단계: 기존 워크시트 복사
 이제 흥미로운 부분인 워크시트 복제에 대해 알아보겠습니다! 여기서는 "Sheet1"의 내용을 새 시트에 복사합니다.

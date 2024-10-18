@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksh
 ---
 ## 介紹
 
-使用大型 Excel 工作表時，能夠在捲動時保持某些行或列可見可顯著提高您的工作效率。此功能稱為凍結窗格，可讓您鎖定工作表的特定部分，以便在瀏覽電子表格時追蹤重要資料。在本教學中，我們將探討如何利用 Aspose.Cells for .NET 凍結 Excel 工作表中的窗格。那麼，拿起您的筆記型電腦，讓我們深入 Aspose.Cells 的世界吧！
+使用大型 Excel 工作表時，在捲動時保持某些行或列可見可顯著提高您的工作效率。此功能稱為凍結窗格，可讓您鎖定工作表的特定部分，以便在瀏覽電子表格時追蹤重要資料。在本教學中，我們將探討如何利用 Aspose.Cells for .NET 凍結 Excel 工作表中的窗格。那麼，拿起您的筆記型電腦，讓我們深入 Aspose.Cells 的世界吧！
 
 ## 先決條件
 

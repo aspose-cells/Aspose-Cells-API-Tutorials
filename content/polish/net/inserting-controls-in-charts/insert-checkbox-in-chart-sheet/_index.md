@@ -119,7 +119,7 @@ Na koniec zapiszmy naszą pracę. Oto ostatni element układanki:
 ```csharp
 workbook.Save(outputDir + "InsertCheckboxInChartSheet_out.xlsx");
 ```
-Ta linia zapisuje nowo utworzony plik Excela z polem wyboru w zdefiniowanym katalogu wyjściowym. To tak, jakby zapieczętować grafikę w ochronnym etui!
+Ta linia zapisuje nowo utworzony plik Excela z polem wyboru w zdefiniowanym katalogu wyjściowym. To tak, jakby zapieczętować grafikę w etui ochronnym!
 
 ## Wniosek
 
@@ -128,7 +128,7 @@ I masz! Udało Ci się dodać pole wyboru do arkusza wykresu w pliku Excel przy 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?  
-Aspose.Cells to potężna biblioteka służąca do tworzenia i modyfikowania plików Excel w aplikacjach .NET.
+Aspose.Cells to potężna biblioteka do tworzenia i modyfikowania plików Excel w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
  Tak, Aspose oferuje bezpłatny okres próbny. Możesz zacząć od dostępnej wersji próbnej[Tutaj](https://releases.aspose.com/).

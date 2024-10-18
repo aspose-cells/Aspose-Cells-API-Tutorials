@@ -1,6 +1,6 @@
 ---
-title: Thêm Kiểm soát Nhãn vào Biểu đồ
-linktitle: Thêm Kiểm soát Nhãn vào Biểu đồ
+title: Thêm điều khiển nhãn vào biểu đồ
+linktitle: Thêm điều khiển nhãn vào biểu đồ
 second_title: API xử lý Excel Aspose.Cells .NET
 description: Tìm hiểu cách thêm điều khiển nhãn vào biểu đồ của bạn trong Aspose.Cells cho .NET với hướng dẫn từng bước này. Nâng cao khả năng trực quan hóa dữ liệu của bạn.
 type: docs
@@ -9,14 +9,14 @@ url: /vi/net/inserting-controls-in-charts/add-label-control-to-chart/
 ---
 ## Giới thiệu
 
-Biểu đồ là một cách mạnh mẽ để trực quan hóa dữ liệu và đôi khi, việc thêm nhãn có thể tăng cường độ rõ nét hơn nữa. Nếu bạn đang làm việc với Aspose.Cells cho .NET, bạn có thể dễ dàng thêm nhãn vào biểu đồ của mình để cung cấp thêm ngữ cảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thực hiện từng bước, đảm bảo bạn được trang bị đầy đủ để triển khai trong các dự án của riêng mình.
+Biểu đồ là một cách mạnh mẽ để trực quan hóa dữ liệu và đôi khi, việc thêm nhãn có thể tăng cường độ rõ nét hơn nữa. Nếu bạn đang làm việc với Aspose.Cells cho .NET, bạn có thể dễ dàng thêm nhãn vào biểu đồ của mình để cung cấp thêm ngữ cảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thực hiện từng bước một, đảm bảo bạn được trang bị đầy đủ để triển khai trong các dự án của riêng mình.
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào chi tiết, chúng ta hãy cùng tìm hiểu những gì bạn cần để bắt đầu:
 
 - Kiến thức cơ bản về C#: Điều quan trọng là phải hiểu những điều cơ bản về lập trình C#. Nếu bạn là người mới bắt đầu, đừng lo lắng – các bước sẽ rõ ràng và súc tích.
-- Thư viện Aspose.Cells: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet Package Manager trong Visual Studio. Nếu bạn chưa cài đặt, hãy xem[liên kết tải xuống](https://releases.aspose.com/cells/net/) cho thư viện.
+-  Thư viện Aspose.Cells: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet Package Manager trong Visual Studio. Nếu bạn chưa cài đặt, hãy xem[liên kết tải xuống](https://releases.aspose.com/cells/net/) cho thư viện.
 - Visual Studio: Bạn sẽ cần một môi trường phát triển tích hợp (IDE) như Visual Studio để viết và thực thi mã của mình.
 
 ## Nhập gói
@@ -62,7 +62,7 @@ Tiếp theo, chúng ta sẽ tải tệp Excel có chứa biểu đồ mà chúng
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Ở đây, chúng tôi đang sử dụng`Workbook` lớp từ Aspose.Cells để mở tệp Excel của chúng tôi. Giống như mở khóa cánh cửa để sự sáng tạo tuôn trào!
+ Ở đây, chúng tôi đang sử dụng`Workbook`lớp từ Aspose.Cells để mở tệp Excel của chúng tôi. Giống như mở khóa cánh cửa để sự sáng tạo tuôn trào!
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -73,7 +73,7 @@ Bây giờ chúng ta đã có sổ làm việc, hãy truy cập vào trang tính
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Bước này là về việc điều hướng tòa nhà. Bạn đã có chìa khóa (sổ tay hướng dẫn), nhưng bây giờ bạn cần tìm phòng của mình (bảng tính).
+Bước này là về việc điều hướng tòa nhà. Bạn đã có chìa khóa (sổ tay làm việc), nhưng bây giờ bạn cần tìm phòng của mình (bảng tính).
 
 ## Bước 4: Lấy biểu đồ
 
@@ -94,7 +94,7 @@ Bây giờ đến phần thú vị – thêm nhãn vào biểu đồ. Chúng ta 
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Đây,`AddLabelInChart` đảm nhiệm việc tạo nhãn dựa trên tọa độ và kích thước bạn chỉ định. Giống như việc gắn một khung đẹp xung quanh tác phẩm nghệ thuật của bạn vậy!
+ Đây,`AddLabelInChart`đảm nhiệm việc tạo nhãn dựa trên tọa độ và kích thước bạn chỉ định. Giống như việc gắn một khung đẹp xung quanh tác phẩm nghệ thuật của bạn vậy!
 
 ## Bước 6: Đặt Văn bản Nhãn
 
@@ -116,9 +116,9 @@ Bây giờ, hãy quyết định cách nhãn được định vị liên quan đ
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
-Hãy nghĩ đến bước này như việc cho nhãn của bạn một chút tự do để di chuyển trên vải. Nó có cá tính riêng!
+Hãy nghĩ đến bước này như việc cho nhãn của bạn một chút tự do để di chuyển trên vải. Nó có cá tính riêng của nó!
 
-## Bước 8: Lưu sổ làm việc
+## Bước 8: Lưu Workbook
 
 Cuối cùng, lưu bảng tính đã sửa đổi vào thư mục đầu ra. 
 
@@ -127,7 +127,7 @@ Cuối cùng, lưu bảng tính đã sửa đổi vào thư mục đầu ra.
 workbook.Save(outputDir + "outputAddingLabelControlInChart.xls");
 ```
 
-Đây là nơi bạn hoàn tất giao dịch. Bạn đang hoàn thiện kiệt tác của mình và lưu lại để mọi người cùng xem!
+Đây là nơi bạn hoàn tất thỏa thuận. Bạn đang hoàn thiện kiệt tác của mình và lưu lại để mọi người cùng xem!
 
 ## Bước 9: Xác nhận thực hiện
 
@@ -137,7 +137,7 @@ Cuối cùng, hãy đảm bảo rằng mọi việc diễn ra suôn sẻ bằng 
 Console.WriteLine("AddingLabelControlInChart executed successfully.");
 ```
 
-Giống như việc bạn đang giới thiệu sản phẩm hoàn thiện của mình với thế giới và sẵn sàng nhận được những tràng pháo tay vậy!
+Giống như việc bạn đang giới thiệu sản phẩm hoàn thiện của mình với thế giới và sẵn sàng nhận được tràng pháo tay vậy!
 
 ## Phần kết luận
 
@@ -149,7 +149,7 @@ Và bạn đã có nó! Bạn đã thêm thành công một điều khiển nhã
 Có! Bạn có thể thay đổi phông chữ, màu sắc, kích thước và các thuộc tính khác của nhãn cho phù hợp với nhu cầu của bạn.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells là một sản phẩm trả phí; tuy nhiên, bạn có thể bắt đầu với[dùng thử miễn phí](https://releases.aspose.com/)để khám phá các tính năng của nó.
+ Aspose.Cells là một sản phẩm trả phí; tuy nhiên, bạn có thể bắt đầu với[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó.
 
 ### Tôi phải làm sao nếu muốn thêm nhiều nhãn?
 Bạn có thể lặp lại các bước thêm nhãn nhiều lần tùy theo nhu cầu, mỗi bước có vị trí và văn bản khác nhau.

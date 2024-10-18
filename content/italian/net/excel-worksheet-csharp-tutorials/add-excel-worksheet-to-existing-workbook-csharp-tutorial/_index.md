@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Ora dobbiamo creare un'istanza della classe Workbook, che conterrà il nostro file Excel.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 // Apertura del file Excel tramite il flusso di file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,18 +69,18 @@ Creando un'istanza di cartella di lavoro dal nostro flusso di file, ora possiamo
 
 ## Passaggio 4: aggiungere un nuovo foglio di lavoro
 
-Ecco la parte emozionante! Aggiungiamo un nuovo foglio di lavoro alla nostra cartella di lavoro. Questo si fa usando il`Add()` metodo dal`Worksheets`collezione.
+ Ecco la parte emozionante! Aggiungiamo un nuovo foglio di lavoro alla nostra cartella di lavoro. Questo si fa usando il`Add()` metodo dal`Worksheets`collezione.
 
 ```csharp
 // Aggiungere un nuovo foglio di lavoro all'oggetto Cartella di lavoro
 int i = workbook.Worksheets.Add();
 ```
 
- Con questa riga di codice, stiamo aggiungendo un nuovo foglio e l'indice di questo nuovo foglio viene catturato nella variabile`i`.
+Con questa riga di codice, stiamo aggiungendo un nuovo foglio e l'indice di questo nuovo foglio viene catturato nella variabile`i`.
 
 ## Passaggio 5: ottenere un riferimento al foglio di lavoro appena aggiunto
 
-Una volta creato il nuovo foglio di lavoro, è importante ottenere un riferimento ad esso. In questo modo, possiamo personalizzarne gli attributi, come il nome del foglio.
+Una volta creato il nuovo foglio di lavoro, è importante ottenere un riferimento ad esso. In questo modo, possiamo personalizzare i suoi attributi, come il nome del foglio.
 
 ```csharp
 // Ottenere il riferimento del foglio di lavoro appena aggiunto passando l'indice del suo foglio

@@ -13,7 +13,7 @@ Har du någonsin undrat hur du kan piffa upp de där cirkeldiagrammen i dina Exc
 
 ## Förutsättningar
 
-Innan vi dyker in i det snåriga med att ändra cirkeldiagram finns det några förutsättningar du bör ha på plats:
+Innan vi dyker in i det smaskiga med att ändra cirkeldiagram, finns det några förutsättningar du bör ha på plats:
 
 - Grundläggande kunskaper om C#: En grundläggande förståelse för C#-programmering hjälper dig att enkelt följa med.
 - Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket installerat. Oavsett om du bestämmer dig för att använda den fullständiga versionen eller väljer en gratis provperiod, se till att den är redo att användas.
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Låt oss nu dyka in i det specifika arket som innehåller cirkeldiagrammet. Vi kommer att anta att cirkeldiagrammet finns på det andra kalkylbladet (index 1):
 
 ```csharp
-// Få designerdiagrammet i det andra bladet.
+//Få designerdiagrammet i det andra bladet.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

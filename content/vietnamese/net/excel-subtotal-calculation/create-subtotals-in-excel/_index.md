@@ -11,7 +11,7 @@ url: /vi/net/excel-subtotal-calculation/create-subtotals-in-excel/
 Bạn đã sẵn sàng nâng cao kỹ năng Excel và làm cho bảng tính của mình năng động hơn chưa? Việc tạo tổng phụ trong Excel có thể giúp bạn phân loại và tóm tắt dữ liệu hiệu quả, cho phép diễn giải và báo cáo dữ liệu tốt hơn. Nếu bạn là người thường xuyên phải vật lộn với hàng đống số liệu, thì việc tạo tóm tắt có cấu trúc là điều cần thiết. Hôm nay, chúng ta sẽ tìm hiểu cách tạo tổng phụ dễ dàng bằng Aspose.Cells for .NET, một thư viện mạnh mẽ được thiết kế để xử lý mọi thao tác tệp Excel của bạn.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào cách tạo tổng phụ trong Excel, bạn cần đáp ứng một số điều kiện tiên quyết sau:
-1. Đã cài đặt Aspose.Cells cho .NET: Đảm bảo bạn đã thiết lập thư viện Aspose.Cells trong môi trường phát triển của mình. Nếu bạn chưa thực hiện việc này, bạn có thể dễ dàng[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+1.  Đã cài đặt Aspose.Cells cho .NET: Đảm bảo bạn đã thiết lập thư viện Aspose.Cells trong môi trường phát triển của mình. Nếu bạn chưa thực hiện việc này, bạn có thể dễ dàng[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 2. Môi trường .NET: Bạn nên có môi trường .NET đang hoạt động để chúng ta có thể làm việc với thư viện. Cho dù là Visual Studio hay bất kỳ IDE nào khác, hãy đảm bảo rằng bạn thoải mái khi viết mã bằng C#.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ có lợi. Các ví dụ chúng tôi sẽ cung cấp bằng cú pháp C#, vì vậy, việc quen thuộc với nó sẽ giúp bạn hiểu được quy trình.
 4.  Bảng tính Excel: Một tệp Excel mẫu để thực hành. Chúng tôi sẽ sử dụng một tệp có tên là`book1.xls` trong hướng dẫn của chúng tôi.
@@ -29,7 +29,7 @@ Lệnh này nhập mọi thứ chúng ta cần từ thư viện Aspose để tha
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`book1.xls` được lưu trữ. Điều này cho chương trình biết nơi tìm tệp Excel mà chúng ta sẽ thao tác.
+ Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`book1.xls`được lưu trữ. Điều này cho chương trình biết nơi tìm tệp Excel mà chúng ta sẽ thao tác.
 ## Bước 2: Tạo một Workbook mới
 Tiếp theo, chúng ta sẽ tạo một phiên bản mới của đối tượng Workbook. Điều này sẽ cho phép chúng ta mở và chỉnh sửa tệp Excel của mình.
 ```csharp
@@ -37,7 +37,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
  Ở đây, chúng ta đang tạo ra một đối tượng`Workbook` và tải nó với những gì chúng tôi đã chỉ định`book1.xls` tệp. Đối tượng sổ làm việc này hiện chứa tất cả thông tin từ tệp Excel và cho phép chúng ta sửa đổi nó.
 ## Bước 3: Truy cập Bộ sưu tập tế bào
-Để thao tác trên nội dung của bảng tính Excel, chúng ta cần truy cập vào bộ sưu tập “Ô”.
+Để thao tác trên nội dung của bảng tính Excel, chúng ta cần truy cập vào bộ sưu tập “Cells”.
 ```csharp
 Cells cells = workbook.Worksheets[0].Cells;
 ```
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Ở đây, chúng tôi định nghĩa một`CellArea` chỉ định phạm vi mà chúng ta quan tâm. Trong trường hợp này, chúng ta đã chọn vùng từ B3 (Hàng 2, Cột 1) đến C19 (Hàng 18, Cột 2). Đây là nơi chúng ta sẽ tính tổng phụ của mình.
+ Ở đây, chúng tôi định nghĩa một`CellArea`chỉ định phạm vi mà chúng ta quan tâm. Trong trường hợp này, chúng ta đã chọn vùng từ B3 (Hàng 2, Cột 1) đến C19 (Hàng 18, Cột 2). Đây là nơi chúng ta sẽ tính tổng phụ của mình.
 ## Bước 5: Áp dụng Tổng phụ
 Đây là cốt lõi trong hoạt động của chúng tôi – áp dụng tổng phụ vào diện tích ô đã xác định.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  Trong dòng này, chúng ta gọi là`Subtotal` phương pháp. Các tham số được xác định là:
 - `ca`: Phạm vi ô mà chúng ta đã xác định trước đó.
 - `0`: Chỉ mục này đề cập đến cột chứa các giá trị cần tính tổng phụ. 
-- `ConsolidationFunction.Sum`Điều này chỉ rõ rằng chúng ta muốn tính tổng các giá trị.
+- `ConsolidationFunction.Sum`: Điều này chỉ rõ rằng chúng ta muốn tính tổng các giá trị.
 - `new int[] { 1 }`:Điều này cho biết chúng ta đang tính tổng các giá trị từ cột thứ hai (Cột C).
 ## Bước 6: Lưu tệp Excel đã sửa đổi
 Cuối cùng, chúng ta cần lưu những thay đổi vào một tệp Excel mới. 

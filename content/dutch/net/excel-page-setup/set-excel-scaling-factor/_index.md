@@ -17,7 +17,7 @@ Voordat we met de praktische stappen beginnen, zijn er een paar voorwaarden waar
 
 1. Visual Studio geïnstalleerd: Zorg ervoor dat u Visual Studio op uw computer hebt geïnstalleerd, aangezien we onze code in deze omgeving gaan schrijven.
 2.  Aspose.Cells voor .NET-bibliotheek: verkrijg een kopie van de Aspose.Cells-bibliotheek. U kunt deze downloaden van de[Aspose Releases-pagina](https://releases.aspose.com/cells/net/) Als je het niet zeker weet, kun je beginnen met een[gratis proefperiode](https://releases.aspose.com/).
-3. Basiskennis van C#: Een basiskennis van C#-programmering is handig, vooral als u nog niet eerder met bibliotheken hebt gewerkt.
+3. Basiskennis van C#: Een basiskennis van C#-programmering is nuttig, vooral als u nog niet eerder met bibliotheken hebt gewerkt.
 4. .NET Framework: Zorg ervoor dat uw project gericht is op een compatibele versie van .NET Framework voor de bibliotheek.
 
 Nu we hebben vastgesteld wat u nodig hebt, kunnen we beginnen met het importeren van de benodigde pakketten.
@@ -47,7 +47,7 @@ using System;
 
 Nu de pakketten zijn geïmporteerd, bent u klaar om te gaan coderen!
 
-Laten we het proces van het instellen van de schaalfactor in uw Excel-werkbladen opsplitsen in beheersbare stappen.
+Laten we het proces voor het instellen van de schaalfactor in uw Excel-werkbladen opsplitsen in beheersbare stappen.
 
 ## Stap 1: Bereid uw documentenmap voor
 
@@ -58,14 +58,14 @@ Eerst moet u bepalen waar u uw Excel-uitvoerbestand wilt opslaan. Deze directory
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zorg ervoor dat u vervangt`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad op uw computer waar u het Excel-bestand wilt opslaan.
+Zorg ervoor dat u vervangt`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad op uw computer waar u het Excel-bestand wilt opslaan.
 
 ## Stap 2: Een nieuw werkmapobject maken
 
 Nu is het tijd om een nieuwe werkmap te maken. Dit is in principe waar al uw gegevens en instellingen zullen leven.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel-bestanden kunnen meerdere werkbladen bevatten. We openen het eerste werkblad om onze schaalfactor toe te passen.
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -122,7 +122,7 @@ Ja! Aspose.Cells kunnen worden gebruikt in zowel desktop- als webapplicaties, zo
  Absoluut! Je kunt een gratis proefversie krijgen[hier](https://releases.aspose.com/).
 
 ### Waar kan ik documentatie voor Aspose.Cells vinden?  
-De documentatie is te vinden[hier](https://reference.aspose.com/cells/net/).
+ De documentatie is te vinden[hier](https://reference.aspose.com/cells/net/).
 
 ### Hoe kan ik technische ondersteuning krijgen voor Aspose.Cells?  
  U kunt contact opnemen voor hulp via de[Aspose-forum](https://forum.aspose.com/c/cells/9).

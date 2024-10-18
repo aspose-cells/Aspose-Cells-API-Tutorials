@@ -28,7 +28,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // डेटा रेंज निर्दिष्ट करें
 CellArea sourceData = new CellArea();
 sourceData.startRow = 0;
-sourceData.endRow = 19; // डेटा की 20 पंक्तियाँ मानकर
+sourceData.endRow = 19; // मान लें कि डेटा की 20 पंक्तियाँ हैं
 sourceData.startColumn = 0;
 sourceData.endColumn = 3; // डेटा के 4 कॉलम मानते हुए
 
@@ -58,7 +58,7 @@ workbook.save("output.xlsx");
 // पिवट तालिका में "उत्पाद" फ़ील्ड तक पहुँचें
 PivotField productField = pivotTable.getPivotFields().get("Product");
 
-//"उत्पाद" फ़ील्ड को किसी विशिष्ट मानदंड के आधार पर समूहीकृत करें, जैसे, आरंभिक अक्षर के आधार पर
+//"उत्पाद" फ़ील्ड को किसी विशिष्ट मानदंड के अनुसार समूहीकृत करें, जैसे, आरंभिक अक्षर के अनुसार
 productField.setIsAutoSubtotals(false);
 productField.setBaseField("Product");
 productField.setAutoSort(true);

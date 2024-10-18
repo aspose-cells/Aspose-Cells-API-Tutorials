@@ -9,7 +9,7 @@ url: /fr/net/excel-workbook/create-shared-workbook/
 ---
 ## Introduction
 
-Créer un classeur partagé peut changer la donne en matière de collaboration, surtout si vous jonglez avec des données entre différentes équipes ou différents services. Avec Aspose.Cells pour .NET, vous disposez d'un outil robuste pour gérer les fichiers Excel par programmation. Ce guide vous guidera à travers les étapes de création d'un classeur partagé, rendant votre collaboration plus simple et plus efficace. Que vous soyez un développeur novice ou expérimenté, vous allez vous régaler avec ce tutoriel simple mais puissant !
+La création d'un classeur partagé peut changer la donne en matière de collaboration, en particulier si vous jonglez avec des données entre différentes équipes ou différents services. Avec Aspose.Cells pour .NET, vous disposez d'un outil robuste pour gérer les fichiers Excel par programmation. Ce guide vous guidera à travers les étapes de création d'un classeur partagé, rendant votre collaboration plus simple et plus efficace. Que vous soyez un développeur novice ou expérimenté, vous allez vous régaler avec ce tutoriel simple mais puissant !
 
 ## Prérequis
 
@@ -24,7 +24,7 @@ Une fois ces conditions préalables remplies, vous êtes prêt à commencer à c
 
 ## Paquets d'importation
 
-Maintenant que notre environnement est prêt, importons les packages nécessaires pour pouvoir commencer. Voici comment procéder :
+Maintenant que notre environnement est prêt, importons les paquets nécessaires pour pouvoir commencer. Voici comment procéder :
 
 ### Créer un nouveau projet
 1. Ouvrez Visual Studio.

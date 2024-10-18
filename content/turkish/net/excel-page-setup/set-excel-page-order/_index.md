@@ -9,7 +9,7 @@ url: /tr/net/excel-page-setup/set-excel-page-order/
 ---
 ## giriiş
 
-Kendinizi hiç Excel dosyasında karmakarışık sayfalar arasında gezinirken buldunuz mu? Ne demek istediğimi biliyorsunuzdur—baskılı çıktı hayal ettiğiniz gibi görünmüyor. Peki, size sayfalarınızın yazdırılacağı sırayı kontrol edebileceğinizi söylesem? Evet, doğru duydunuz! .NET için Aspose.Cells ile Excel çalışma kitaplarınızın sayfa sırasını kolayca ayarlayabilir ve bunları yalnızca profesyonel görünmekle kalmayıp aynı zamanda okunmasını da kolaylaştırabilirsiniz. Bu eğitim, Excel sayfa sırasını ayarlamak için gereken adımlarda size yol gösterecek ve basılı belgelerinizin bilgileri açık ve düzenli bir şekilde sunmasını sağlayacaktır.
+Kendinizi hiç Excel dosyasındaki karmakarışık sayfalar arasında gezinirken buldunuz mu? Ne demek istediğimi biliyorsunuzdur: basılı çıktı hayal ettiğiniz gibi görünmüyor. Peki, size sayfalarınızın yazdırılacağı sırayı kontrol edebileceğinizi söylesem? Evet, doğru duydunuz! .NET için Aspose.Cells ile Excel çalışma kitaplarınızın sayfa sırasını kolayca ayarlayabilir ve bunları yalnızca profesyonel görünmekle kalmayıp aynı zamanda okunmasını da kolaylaştırabilirsiniz. Bu eğitim, Excel sayfa sırasını ayarlamak için gereken adımlarda size yol gösterecek ve basılı belgelerinizin bilgileri açık ve düzenli bir şekilde sunmasını sağlayacaktır.
 
 ## Ön koşullar
 
@@ -21,7 +21,7 @@ Koda dalmadan önce, yerinde olması gereken birkaç şey var:
 
 ## Paketleri İçe Aktar
 
-İlk önce, gerekli paketleri C# uygulamanıza aktarmanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+İlk önce, gerekli paketleri C# uygulamanıza aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ```csharp
 using System.IO;
@@ -43,7 +43,7 @@ Belge dizininize işaret eden bir değişkeni şu şekilde ayarlayacaksınız:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satırda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` dosyanızı kaydetmek istediğiniz yol ile. Örneğin, dosyanızı Masaüstünüzde "ExcelFiles" adlı bir klasöre kaydetmek istiyorsanız, aşağıdaki gibi görünebilir:
+ Bu satırda şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` dosyanızı kaydetmek istediğiniz yol ile. Örneğin, dosyanızı Masaüstünüzdeki "ExcelFiles" adlı bir klasöre kaydetmek istiyorsanız, aşağıdaki gibi görünebilir:
 
 ```csharp
 string dataDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
@@ -78,7 +78,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ## Adım 4: Yazdırma Sırasını Ayarlayın
 
 
- İle`PageSetup`nesne, Excel'e sayfaların nasıl yazdırılmasını istediğinizi söylemenin zamanı geldi. Sırayı "Üzerinden Sonra Aşağı" veya "Aşağısından Sonra Üzerine" olarak ayarlama seçeneğiniz var.
+ İle`PageSetup`nesne, Excel'e sayfaların nasıl yazdırılmasını istediğinizi söylemenin zamanı geldi. Sırayı "Üzerinden Sonra Aşağı" veya "Aşağısından Sonra Yukarı" olarak ayarlama seçeneğiniz var.
 
 Yazdırma sırasını ayarlamak için kod şu şekilde:
 

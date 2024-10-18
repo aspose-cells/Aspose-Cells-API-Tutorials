@@ -34,7 +34,7 @@ Per iniziare, devi aggiungere la libreria Aspose.Cells al tuo progetto. Puoi far
 
 Questa fase di configurazione è come gettare le basi per il funzionamento di Excel!
 
-## Fase 2: Utilizzo delle dichiarazioni
+## Passaggio 2: utilizzo delle dichiarazioni
 
 Ora, dovrai includere i namespace rilevanti per lavorare con Aspose.Cells. Includi quanto segue all'inizio del tuo file di codice:
 
@@ -55,7 +55,7 @@ Per prima cosa, dovrai definire la posizione del tuo file Excel. Qui è dove ind
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Basta sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui ti trovi`book1.xls`file risiede. Pensa a questo come se stessi dando al tuo GPS l'indirizzo corretto prima di iniziare un viaggio su strada!
+ Basta sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui ti trovi`book1.xls` file. Pensa a questo come se avessi dato al tuo GPS l'indirizzo corretto prima di iniziare un viaggio su strada!
 
 ## Passaggio 4: aprire il file Excel con un FileStream
 
@@ -95,7 +95,7 @@ Dopo aver eliminato il foglio di lavoro, devi salvare le modifiche. Ecco come ri
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Puoi scegliere di salvarlo con un nuovo nome modificandolo`"output.out.xls"` a quello che vuoi. Immagina di premere il pulsante "Salva" su un documento Word: vuoi mantenere le tue modifiche.
+Puoi scegliere di salvarlo con un nuovo nome modificandolo`"output.out.xls"` a quello che vuoi. Immagina di premere il pulsante "Salva" su un documento Word: vuoi mantenere le tue modifiche.
 
 ## Passaggio 8: chiudere il flusso di file
 

@@ -95,7 +95,7 @@ Med bildens binära data till hands kan vi nu infoga den i rubriken.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Den här raden placerar bilden i den centrala delen av rubriken. Parametern`1`anger rubriksektionen.
+ Den här raden placerar bilden i den centrala delen av rubriken. Parametern`1` anger rubriksektionen.
 
 ## Steg 7: Ställa in rubrikinnehållet
 
@@ -148,4 +148,4 @@ Ja, du kan infoga separata bilder i olika delar av sidhuvudet eller sidfoten gen
 Se till att bildsökvägen är korrekt och att filen finns. Kontrollera också bildformatets kompatibilitet.
 
 ### Var kan jag hitta ytterligare dokumentation för Aspose.Cells?
-Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/cells/net/).
+ Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/cells/net/).

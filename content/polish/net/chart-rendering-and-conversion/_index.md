@@ -9,7 +9,7 @@ url: /pl/net/chart-rendering-and-conversion/
 ---
 ## Wstęp
 
-Podczas pracy z wykresami programu Excel potrzebujesz odpowiednich narzędzi do tworzenia, modyfikowania i konwertowania danych na dopracowane, profesjonalne wizualizacje. Aspose.Cells for .NET oferuje zestaw funkcji, które sprawiają, że ten proces jest łatwiejszy niż kiedykolwiek. Niezależnie od tego, czy renderujesz wykresy, konwertujesz je do plików PDF, czy dostrajasz rozmiar strony, te samouczki pomogą Ci na każdym kroku.
+Podczas pracy z wykresami programu Excel potrzebujesz odpowiednich narzędzi do tworzenia, modyfikowania i konwertowania danych na dopracowane, profesjonalne wizualizacje. Aspose.Cells dla .NET oferuje zestaw funkcji, które sprawiają, że ten proces jest łatwiejszy niż kiedykolwiek. Niezależnie od tego, czy renderujesz wykresy, konwertujesz je do plików PDF, czy dostrajasz rozmiar strony, te samouczki pomogą Ci na każdym kroku.
 
 ## [Wykres renderowania](./render-chart/)
 

@@ -2,7 +2,7 @@
 title: Adjon hozzá hivatkozást az URL-hez az Excelben
 linktitle: Adjon hozzá hivatkozást az URL-hez az Excelben
 second_title: Aspose.Cells .NET Excel Processing API
-description: Ezzel a részletes oktatóanyaggal megtudhatja, hogyan adhat hozzá egyszerűen egy URL-hivatkozást az Excelben az Aspose.Cells for .NET segítségével. Egyszerűsítse táblázatait.
+description: Ezzel a részletes oktatóanyaggal megtudhatja, hogyan adhat hozzá egyszerűen URL-hivatkozást az Excelben az Aspose.Cells for .NET segítségével. Egyszerűsítse táblázatait.
 type: docs
 weight: 12
 url: /hu/net/excel-working-with-hyperlinks/add-link-to-url/
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Válts az utadra
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
  Itt létrehozunk egy példányt a`Workbook` osztály. Gondoljon a munkafüzetre úgy, mint egy üres vászonra a táblázata számára.
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 Ebben a szakaszban lényegében azt mondtad: "Hé, Aspose, készítsünk egy új Excel-fájlt!"

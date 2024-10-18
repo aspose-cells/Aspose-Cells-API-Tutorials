@@ -98,7 +98,7 @@ workbook.Save(outputDir + "ValidationsSample_out.xlsx");
 
 ## 7단계: 확인 메시지
 
-보세요! 성공했습니다! 마무리를 멋지게 하기 위해 모든 것이 성공적으로 실행되었는지 확인하기 위해 확인 메시지를 인쇄해 보겠습니다.
+짜잔! 성공했습니다! 마무리를 멋지게 하기 위해, 모든 것이 성공적으로 실행되었는지 확인하기 위해 확인 메시지를 인쇄해 보겠습니다.
 
 ```csharp
 Console.WriteLine("AddValidationArea executed successfully.");

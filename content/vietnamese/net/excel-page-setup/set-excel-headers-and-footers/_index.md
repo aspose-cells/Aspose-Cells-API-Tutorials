@@ -77,7 +77,7 @@ Bây giờ, chúng ta hãy bắt đầu thiết lập tiêu đề. Chúng ta s�
 pageSetup.SetHeader(0, "&A");
 ```
 
- Giải thích:`SetHeader` phương pháp cho phép chúng ta xác định nội dung của tiêu đề. Ở đây,`&A` biểu thị tên của bảng tính, sẽ xuất hiện ở phía bên trái của tiêu đề.
+Giải thích:`SetHeader` phương pháp cho phép chúng ta xác định nội dung của tiêu đề. Ở đây,`&A` biểu thị tên của bảng tính, sẽ xuất hiện ở phía bên trái của tiêu đề.
 
 ## Bước 4: Tùy chỉnh Tiêu đề Trung tâm
 
@@ -87,7 +87,7 @@ Tiếp theo, chúng ta sẽ tùy chỉnh tiêu đề trung tâm để hiển th�
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Giải thích:`&D` Và`&T` mã sẽ tự động thay thế bằng ngày và giờ hiện tại. Chúng tôi cũng chỉ định phông chữ cho tiêu đề này phải là "Times New Roman" và in đậm.
+Giải thích:`&D` Và`&T` mã sẽ tự động thay thế bằng ngày và giờ hiện tại. Chúng tôi cũng chỉ định phông chữ cho tiêu đề này phải là "Times New Roman" và in đậm.
 
 ## Bước 5: Đặt Tiêu đề Đúng
 
@@ -117,7 +117,7 @@ Tiếp theo, chúng ta thiết lập phần chân trang ở giữa để hiển 
 pageSetup.SetFooter(1, "&P");
 ```
 
- Giải thích:`&P` Mã này tự động chèn số trang vào giữa chân trang—một cách tiện lợi để theo dõi các trang.
+Giải thích:`&P` Mã này tự động chèn số trang vào giữa chân trang—một cách tiện lợi để theo dõi các trang.
 
 ## Bước 8: Cấu hình chân trang bên phải
 
@@ -129,9 +129,9 @@ pageSetup.SetFooter(2, "&N");
 
  Giải thích: Ở đây,`&N` sẽ được thay thế bằng tổng số trang. Nó tạo thêm nét chuyên nghiệp, đặc biệt là đối với các tài liệu dài hơn.
 
-## Bước 9: Lưu Workbook
+## Bước 9: Lưu sổ làm việc
 
-Sau khi mọi thứ đã được thiết lập, bạn chỉ cần lưu sổ làm việc để xem thành quả lao động của mình.
+Sau khi mọi thứ đã được thiết lập, bạn chỉ cần lưu bảng tính để xem thành quả lao động của mình.
 
 ```csharp
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");

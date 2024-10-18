@@ -18,7 +18,7 @@ url: /ru/net/advanced-chart-operations/setting-category-data/
 1. Среда разработки: Убедитесь, что у вас настроена среда разработки .NET. Рекомендуется Visual Studio.
 2.  Библиотека Aspose.Cells for .NET: Загрузите последнюю версию библиотеки с сайта[Страница загрузки Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Базовое понимание C#: знакомство с концепциями C# и Excel поможет вам более легко усвоить материал.
-4.  Доступ к документации: Наличие доступа к[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) может предоставить дополнительную информацию, если вы застрянете. 
+4.  Доступ к документации: Имея доступ к[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) может предоставить дополнительную информацию, если вы застрянете. 
 
 Теперь, когда все готово, давайте шаг за шагом откроем магию работы с Excel.
 
@@ -110,7 +110,7 @@ worksheet.Cells["C4"].PutValue("Y2");
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
 ```
 
-Эта строка создает новую столбчатую диаграмму, начиная со строки 5 и столбца 0 рабочего листа.
+Эта строка создает новую столбчатую диаграмму, начинающуюся со строки 5 и столбца 0 рабочего листа.
 
 ## Шаг 8: Доступ к экземпляру диаграммы
 
@@ -150,7 +150,7 @@ chart.NSeries.CategoryData = "C1:C4";
 workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
 ```
 
-Эта команда сохраняет вашу книгу в указанном выходном каталоге под именем «outputSettingCategoryData.xlsx». 
+Эта команда сохраняет вашу рабочую книгу в указанном выходном каталоге под именем «outputSettingCategoryData.xlsx». 
 
 ## Шаг 12: Подтверждающее сообщение
 

@@ -21,7 +21,7 @@ Před potápěním se ujistěte, že máte splněny následující předpoklady:
 4.  Ukázková data: Měli byste mít soubor Excel, nejlépe pojmenovaný`sourseSampleCountryNames.xlsx`, který se nachází ve vámi určeném zdrojovém adresáři. Tento soubor bude obsahovat data, která budeme filtrovat.
 5.  Licencování: Pro plnou funkčnost zvažte pořízení licence prostřednictvím tohoto[odkaz](https://purchase.aspose.com/buy) . Pokud chcete otestovat funkce, můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/).
 
-Máte vše připraveno? Jdeme!
+Máte vše připraveno? Jdeme na to!
 
 ## Importujte balíčky
 
@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Nyní musíme získat přístup ke konkrétnímu listu, se kterým chceme pracovat:
 
 ```csharp
-//Přístup k prvnímu listu v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Vysvětlení: The`Worksheets` kolekce nám umožňuje přístup k jednotlivým listům. Použití`[0]` odkazuje na první list v souboru Excel, což je obecně běžná praxe při práci se souborem s jedním listem.
+Vysvětlení: The`Worksheets` kolekce nám umožňuje přístup k jednotlivým listům. Použití`[0]` odkazuje na první list v souboru Excel, což je obecně běžná praxe při práci se souborem s jedním listem.
 
 ## Krok 4: Nastavení automatického filtru
 
@@ -82,7 +82,7 @@ Tady začíná kouzlo! Vytvoříme rozsah automatického filtru pro naše data:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Vysvětlení: The`AutoFilter.Range` vlastnost umožňuje určit, které řádky se mají filtrovat. V tomto případě filtrujeme řádky v rozsahu A1 až A18, o kterých se předpokládá, že obsahují naše data.
+Vysvětlení: The`AutoFilter.Range` vlastnost umožňuje určit, které řádky se mají filtrovat. V tomto případě filtrujeme řádky v rozsahu A1 až A18, o kterých se předpokládá, že obsahují naše data.
 
 ## Krok 5: Použijte podmínku filtru
 
@@ -93,7 +93,7 @@ Dalším krokem je definování podmínky filtru. Chceme zobrazit pouze ty řád
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Vysvětlení: The`Custom` metoda definuje naši logiku filtrování. První argument (`0` ) znamená, že filtrujeme na základě prvního sloupce (A) a`FilterOperatorType.BeginsWith`určuje naši podmínku hledat řádky začínající na "Ba".
+Vysvětlení: The`Custom` metoda definuje naši logiku filtrování. První argument (`0` ) znamená, že filtrujeme na základě prvního sloupce (A) a`FilterOperatorType.BeginsWith`určuje naši podmínku hledat řádky začínající na "Ba".
 
 ## Krok 6: Obnovte filtr
 
@@ -115,7 +115,7 @@ Nyní je čas uložit změny, které jsme provedli:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Vysvětlení: The`Save` metoda zapíše upravený sešit zpět do zadané výstupní cesty. To spadá pod zápis vámi definovaných filtrů do nového souboru, takže vaše původní data zůstanou nedotčena.
+Vysvětlení: The`Save` metoda zapíše upravený sešit zpět do zadané výstupní cesty. To spadá pod zápis vámi definovaných filtrů do nového souboru, takže vaše původní data zůstanou nedotčena.
 
 ## Krok 8: Potvrzení výstupu
 

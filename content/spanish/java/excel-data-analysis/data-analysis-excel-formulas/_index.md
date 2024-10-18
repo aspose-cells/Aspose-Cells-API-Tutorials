@@ -90,13 +90,13 @@ En este artículo, hemos explorado el análisis de datos en Excel con Aspose.Cel
 
 ## Preguntas frecuentes
 
-### ¿Aspose.Cells para Java es gratuito?
+### ¿Aspose.Cells para Java es de uso gratuito?
 
  No, Aspose.Cells para Java es una biblioteca comercial con una tarifa de licencia. Puede visitar el sitio web[Sitio web de Aspose](https://www.aspose.com/) para obtener más información sobre sus precios.
 
 ### ¿Puedo usar Aspose.Cells para Java tanto en aplicaciones de escritorio como web?
 
-Sí, puedes usar Aspose.Cells para Java tanto en aplicaciones de escritorio como web para trabajar con archivos Excel.
+Sí, puedes usar Aspose.Cells para Java tanto en aplicaciones de escritorio como web para trabajar con archivos de Excel.
 
 ### ¿Existe alguna limitación en el tamaño de los archivos de Excel que puedo manipular con Aspose.Cells?
 

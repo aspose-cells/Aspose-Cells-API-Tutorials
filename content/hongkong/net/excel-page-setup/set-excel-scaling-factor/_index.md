@@ -102,7 +102,7 @@ worksheet.PageSetup.Zoom = 100;
 workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
-這將保存應用了縮放因子的 Excel 檔案。確保將有效的檔案名稱附加到您的`dataDir`.
+這將保存應用了縮放係數的 Excel 檔案。確保將有效的檔案名稱附加到您的`dataDir`.
 
 ## 結論
 
@@ -113,7 +113,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 ## 常見問題解答
 
 ### 什麼是 Aspose.Cells for .NET？  
-Aspose.Cells for .NET 是一個功能強大的程式庫，用於在.NET 應用程式中建立和操作 Excel 文件，無需安裝 Excel 即可提供豐富的功能。
+Aspose.Cells for .NET是一個功能強大的函式庫，用於在.NET應用程式中建立和操作Excel文件，無需安裝Excel即可提供豐富的功能。
 
 ### 我可以在 Web 應用程式中使用 Aspose.Cells for .NET 嗎？  
 是的！ Aspose.Cells 可以在桌面和 Web 應用程式中使用，只要它們是針對 .NET 框架。

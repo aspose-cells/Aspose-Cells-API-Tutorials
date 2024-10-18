@@ -29,7 +29,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/page-break-preview-of-works
 
 ### 包括必需的命名空间
 
-首先，确保在 C# 文件顶部包含以下命名空间：
+首先，确保在 C# 文件顶部包含了以下命名空间：
 
 ```csharp
 using System.IO;
@@ -114,7 +114,7 @@ fstream.Close();
 ## 常见问题解答
 
 ### 什么是 Aspose.Cells？
-Aspose.Cells 是一个 .NET API，允许开发人员创建、操作和转换 Excel 文件，而无需安装 Microsoft Excel。
+Aspose.Cells 是一个.NET API，允许开发人员创建、操作和转换 Excel 文件，而无需安装 Microsoft Excel。
 
 ### 我可以免费使用 Aspose.Cells 吗？
 是的，Aspose 提供免费试用版供测试。您可以[点击此处免费试用](https://releases.aspose.com/).
@@ -125,5 +125,5 @@ Aspose.Cells 是一个 .NET API，允许开发人员创建、操作和转换 Exc
 ### Aspose.Cells 提供技术支持吗？
 当然！您可以通过[Aspose 支持论坛](https://forum.aspose.com/c/cells/9).
 
-### 我可以在多个工作表上应用分页符预览吗？
+### 我可以在多个工作表上应用分页预览吗？
 是的，您可以循环遍历工作簿的工作表并对每个工作表单独应用相同的属性。

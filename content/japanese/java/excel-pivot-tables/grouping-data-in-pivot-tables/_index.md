@@ -16,7 +16,7 @@ url: /ja/java/excel-pivot-tables/grouping-data-in-pivot-tables/
 
 ## ステップ1: ピボットテーブルを作成する
 
-まず、Aspose.Cells for Java を使用してピボット テーブルを作成します。以下は、サンプル Excel ファイルからピボット テーブルを作成する方法の例です。
+まず、Aspose.Cells for Java を使用してピボット テーブルを作成しましょう。以下は、サンプル Excel ファイルからピボット テーブルを作成する方法の例です。
 
 ```java
 // Excelファイルを読み込む
@@ -58,7 +58,7 @@ Aspose.Cells for Javaでは、ピボットテーブル内のデータをグル�
 //ピボットテーブルの「製品」フィールドにアクセスする
 PivotField productField = pivotTable.getPivotFields().get("Product");
 
-//「製品」フィールドを特定の基準（例：先頭文字）でグループ化します
+//「製品」フィールドを特定の基準（例：先頭文字）でグループ化する
 productField.setIsAutoSubtotals(false);
 productField.setBaseField("Product");
 productField.setAutoSort(true);
@@ -93,11 +93,11 @@ workbook.save("output_custom_grouping.xlsx");
 
 ### 1. Excel のピボット テーブルの目的は何ですか?
 
-Excel のピボット テーブルは、大規模なデータセットを要約および分析するために使用されます。データのカスタム ビューを作成できるため、パターンや傾向の特定が容易になります。
+Excel のピボット テーブルは、大規模なデータセットを要約および分析するために使用されます。データのカスタム ビューを作成できるため、パターンや傾向を簡単に特定できます。
 
 ### 2. ピボット テーブル内のデータのグループ化をカスタマイズするにはどうすればよいですか?
 
-ピボットテーブル内のデータのグループ化は、`PivotField` Aspose.Cells for Java のクラス。これにより、日付ベースの間隔やカスタム ルールなどのグループ化基準を指定できます。
+ピボットテーブル内のデータのグループ化は、`PivotField` Aspose.Cells for Java のクラス。これにより、日付ベースの間隔やカスタム ルールなどのグループ化条件を指定できます。
 
 ### 3. Aspose.Cells for Java を使用してピボット テーブルの作成を自動化できますか?
 

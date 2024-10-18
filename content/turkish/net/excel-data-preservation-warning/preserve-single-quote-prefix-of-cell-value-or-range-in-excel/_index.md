@@ -9,7 +9,7 @@ url: /tr/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cel
 ---
 ## giriiş
 
-Excel dosyaları üzerinde çalışırken, hücre değerlerinde tek tırnak işareti önekini korumanız gereken durumlarla karşılaşabilirsiniz. Bu, özellikle de üzerinde çalıştığınız verilerin, Excel'in değeri yorumlamasını istemediğiniz tanımlayıcılar veya dizeler gibi ekstra özen gerektirdiği durumlarda çok önemli olabilir. Bu kılavuzda, bunu .NET için Aspose.Cells kullanarak nasıl başaracağınıza derinlemesine bakacağız. O halde, en sevdiğiniz içeceği alın ve başlayalım!
+Excel dosyaları üzerinde çalışırken, hücre değerlerinde tek tırnak işareti önekini korumanız gereken durumlarla karşılaşabilirsiniz. Bu, özellikle de üzerinde çalıştığınız verilerin, Excel'in değeri yorumlamasını istemediğiniz tanımlayıcılar veya dizeler gibi ekstra özen gerektirmesi durumunda çok önemli olabilir. Bu kılavuzda, bunu .NET için Aspose.Cells kullanarak nasıl başaracağınıza derinlemesine bakacağız. O halde, en sevdiğiniz içeceği alın ve başlayalım!
 
 ## Ön koşullar
 
@@ -33,7 +33,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Bu satır, Aspose.Cells kütüphanesinin sağladığı tüm sınıflara ve yöntemlere erişmenizi sağlayarak Excel dosyalarını zahmetsizce düzenlemenize olanak tanır. 
+Bu satır, Aspose.Cells kütüphanesinin sağladığı tüm sınıflara ve yöntemlere erişmenizi sağlayarak Excel dosyaları üzerinde zahmetsizce işlem yapmanıza olanak tanır. 
 
 Şimdi hücre değerlerinde tek tırnak işaretini korumak için yapılması gereken adımları açıklayalım.
 
@@ -112,7 +112,7 @@ Bu adımdan sonra tırnak işareti önekinin doğruya değiştiğini göreceksin
 
 ## Adım 6: StyleFlags'ı Anlayın
 
- Şimdi, bunun nasıl olduğunu inceleyelim`StyleFlag` teklif önekimizi etkileyebilir.
+ Şimdi, nasıl olduğunu inceleyelim`StyleFlag` teklif önekimizi etkileyebilir.
 
 ```csharp
 // Boş bir stil oluştur
@@ -131,7 +131,7 @@ rng.ApplyStyle(st, flag);
 
  İşte mesele burada! Belirterek`flag.QuotePrefix = false`, programa "Hey, var olan önek'e dokunma." diyoruz. Peki ne oluyor?
 
-## Adım 7: Alıntı Önekini Tekrar Kontrol Edin
+## Adım 7: Teklif Önekini Tekrar Kontrol Edin
 
 Değişikliklerimizin mevcut alıntı önekini nasıl etkileyeceğini görelim.
 
@@ -161,7 +161,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
- Bu turda, şunları belirliyoruz:`flag.QuotePrefix = true`, bu da hücrenin tırnak işareti önekini güncellemek istediğimiz anlamına geliyor.
+ Bu turda,`flag.QuotePrefix = true`, bu da hücrenin tırnak işareti önekini güncellemek istediğimiz anlamına gelir.
 
 ## Adım 9: Teklif Önekinin Son Kontrolü
 

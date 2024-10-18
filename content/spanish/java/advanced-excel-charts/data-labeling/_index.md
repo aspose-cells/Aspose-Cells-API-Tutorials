@@ -116,7 +116,7 @@ workbook.save("labeled_data.xlsx");
 
 ## Conclusión
 
-El etiquetado de datos es un paso fundamental para que los datos de su hoja de cálculo sean accesibles y comprensibles. Con Aspose.Cells para Java, tiene a su disposición una herramienta potente para mejorar sus tareas de análisis y gestión de datos.
+El etiquetado de datos es un paso crucial para que los datos de su hoja de cálculo sean accesibles y comprensibles. Con Aspose.Cells para Java, tiene a su disposición una herramienta poderosa para mejorar sus tareas de análisis y gestión de datos.
 
 ## Preguntas frecuentes
 

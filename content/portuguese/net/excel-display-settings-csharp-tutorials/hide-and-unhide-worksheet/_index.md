@@ -72,7 +72,7 @@ Esta etapa é como dizer “Olá!” para sua pasta de trabalho, para que ela sa
 Com sua pasta de trabalho em mãos, é hora de acessar a planilha específica que você quer esconder. Começaremos com a primeira planilha.
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## Etapa 7: Feche o fluxo de arquivos
 
-Por fim, você deve fechar o fluxo de arquivo. Este passo é vital para liberar recursos do sistema e evitar vazamentos de memória.
+Por fim, você deve fechar o fluxo de arquivos. Este passo é vital para liberar recursos do sistema e evitar vazamentos de memória.
 
 ```csharp
 // Fechando o fluxo de arquivos para liberar todos os recursos

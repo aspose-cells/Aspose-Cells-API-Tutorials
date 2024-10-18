@@ -19,7 +19,7 @@ Zanim zaczniemy, musisz spełnić kilka warunków wstępnych:
 2.  Aspose.Cells dla .NET zainstalowany: Musisz mieć bibliotekę Aspose.Cells dla .NET. Możesz[pobierz stąd](https://releases.aspose.com/cells/net/).
 3. Visual Studio lub podobne środowisko IDE: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby pisać i wykonywać kod.
 4. Plik Excela: Powinieneś mieć plik Excela (taki jak`book1.xls`) dostępne w katalogu dokumentów, do edycji.
-5. Przestrzenie nazw: Upewnij się, że w kodzie uwzględniono niezbędne przestrzenie nazw, zwłaszcza w przypadku obsługi plików i biblioteki Aspose.Cells.
+5. Przestrzenie nazw: Upewnij się, że w kodzie uwzględniłeś niezbędne przestrzenie nazw, zwłaszcza w przypadku obsługi plików i biblioteki Aspose.Cells.
 
 Teraz, gdy omówiliśmy już wymagania wstępne, możemy przejść do właściwego kodowania.
 
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Krok 3: Utwórz skoroszyt
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 // Otwieranie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Krok 4: Uzyskaj dostęp do arkusza kalkulacyjnego
 
 ```csharp
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -105,7 +105,7 @@ Po wprowadzeniu zmian konieczne jest zapisanie skoroszytu. Tutaj zapisujemy go j
 fstream.Close();
 ```
 
-Na koniec, dobrym nawykiem jest czyszczenie zasobów. Zamknięcie strumienia plików zwalnia wszystkie zasoby z nim powiązane, zapobiegając wyciekom pamięci.
+Na koniec, dobrym nawykiem jest czyszczenie zasobów. Zamknięcie strumienia pliku zwalnia wszystkie zasoby z nim powiązane, zapobiegając wyciekom pamięci.
 
 ## Wniosek
 

@@ -16,7 +16,7 @@ I file Excel sono onnipresenti nel mondo odierno basato sui dati, e sono uno dei
 Prima di immergerti nel tutorial, assicurati di aver impostato tutto il necessario per usare Aspose.Cells per .NET in modo efficace. Ecco una checklist da seguire:
 
 1. .NET Framework: assicurati che .NET Framework sia installato sul tuo computer. 
-2.  Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells. Puoi ottenerla da[Qui](https://releases.aspose.com/cells/net/).
+2. Libreria Aspose.Cells: Scarica e installa la libreria Aspose.Cells. Puoi ottenerla da[Qui](https://releases.aspose.com/cells/net/).
 3. IDE: Sebbene qualsiasi editor di codice vada bene, l'utilizzo di un IDE come Visual Studio fornisce una piattaforma solida per lo sviluppo .NET.
 4.  Un file ODS di esempio: avrai bisogno di un file ODS che contenga grafici. Per questo tutorial, useremo`SampleChart.ods`.
 5. Conoscenza di base di C#: la familiarità con C# ti aiuterà ad afferrare rapidamente i concetti e ad apportare le modifiche necessarie.
@@ -39,7 +39,7 @@ Ora, entriamo nel vivo dell'argomento. Segui queste istruzioni passo dopo passo 
 Crea un nuovo progetto di applicazione console
 
 - Apri Visual Studio (o il tuo IDE preferito).
--  Crea un nuovo progetto di applicazione console e assegnagli un nome pertinente, ad esempio`ChartSubtitleExtractor`.
+- Crea un nuovo progetto di applicazione console e assegnagli un nome pertinente, ad esempio`ChartSubtitleExtractor`.
 
 ## Passaggio 2: aggiungere il pacchetto NuGet Aspose.Cells
 

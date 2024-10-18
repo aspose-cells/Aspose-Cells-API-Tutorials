@@ -58,14 +58,14 @@ Först måste du bestämma var du vill spara din utdata Excel-fil. Denna katalog
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Se till att du byter ut`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen på din maskin där du vill att Excel-filen ska sparas.
+Se till att du byter ut`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen på din maskin där du vill att Excel-filen ska sparas.
 
 ## Steg 2: Skapa ett nytt arbetsboksobjekt
 
 Nu är det dags att skapa en ny arbetsbok. Det är i huvudsak där alla dina data och inställningar kommer att leva.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel-filer kan innehålla flera kalkylblad. Vi kommer åt det första kalkylbladet för att tillämpa vår skalningsfaktor.
 
 ```csharp
-//Åtkomst till det första kalkylbladet i Excel-filen
+// Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -122,7 +122,7 @@ Ja! Aspose.Cells kan användas i både skrivbords- och webbapplikationer så lä
  Absolut! Du kan få en gratis testversion[här](https://releases.aspose.com/).
 
 ### Var kan jag hitta dokumentation för Aspose.Cells?  
-Dokumentationen kan hittas[här](https://reference.aspose.com/cells/net/).
+ Dokumentationen kan hittas[här](https://reference.aspose.com/cells/net/).
 
 ### Hur kan jag få teknisk support för Aspose.Cells?  
  Du kan kontakta för hjälp via[Aspose forum](https://forum.aspose.com/c/cells/9).

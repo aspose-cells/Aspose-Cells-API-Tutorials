@@ -10,7 +10,7 @@ url: /tr/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
 
 ## Excel'de Dinamik Açılır Listelere Giriş
 
-Microsoft Excel, basit veri girişi ve hesaplamaların ötesine geçen çok yönlü bir araçtır. Güçlü özelliklerinden biri, elektronik tablolarınızın kullanılabilirliğini ve etkileşimini büyük ölçüde artırabilen dinamik açılır listeler oluşturma yeteneğidir. Bu adım adım kılavuzda, Java için Aspose.Cells kullanarak Excel'de dinamik açılır listelerin nasıl oluşturulacağını inceleyeceğiz. Bu API, Excel dosyalarıyla programatik olarak çalışmak için sağlam işlevsellik sağlar ve bu da onu bu tür görevleri otomatikleştirmek için mükemmel bir seçim haline getirir.
+Microsoft Excel, basit veri girişi ve hesaplamaların ötesine geçen çok yönlü bir araçtır. Güçlü özelliklerinden biri, elektronik tablolarınızın kullanılabilirliğini ve etkileşimini büyük ölçüde artırabilen dinamik açılır listeler oluşturma yeteneğidir. Bu adım adım kılavuzda, Aspose.Cells for Java kullanarak Excel'de dinamik açılır listelerin nasıl oluşturulacağını inceleyeceğiz. Bu API, Excel dosyalarıyla programatik olarak çalışmak için sağlam işlevsellik sağlar ve bu da onu bu tür görevleri otomatikleştirmek için mükemmel bir seçim haline getirir.
 
 ## Ön koşullar
 

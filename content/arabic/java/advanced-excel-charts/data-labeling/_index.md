@@ -84,7 +84,7 @@ worksheet.getCells().merge(0, 0, 0, 3);
 ```java
 // إضافة ارتباط تشعبي إلى خلية
 Hyperlink hyperlink = worksheet.getHyperlinks().add(cell);
-hyperlink.setAddress("https://مثال.com");
+hyperlink.setAddress("https://example.com");
 
 // إدراج صورة في خلية
 int pictureIndex = worksheet.getPictures().add(2, 2, "logo.png");
@@ -95,7 +95,7 @@ cell.setFormula("=SUM(B2:B5)");
 
 ## معالجة حالات الخطأ
 
-تعرف على كيفية التعامل مع الاستثناءات وحالات الخطأ بسلاسة لضمان موثوقية عملية تصنيف البيانات الخاصة بك.
+تعرف على كيفية التعامل مع الاستثناءات وحالات الخطأ بشكل سليم لضمان موثوقية عملية تصنيف البيانات الخاصة بك.
 
 ```java
 try {

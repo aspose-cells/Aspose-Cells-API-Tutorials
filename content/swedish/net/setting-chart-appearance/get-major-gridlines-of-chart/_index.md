@@ -15,7 +15,7 @@ Att skapa visuellt tilltalande och informativa diagram är avgörande för effek
 
 Innan vi dyker in i handledningen, se till att du har allt klart:
 
--  Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket nedladdat och refererat till i ditt projekt. Du kan få det[här](https://releases.aspose.com/cells/net/).
+- Aspose.Cells för .NET: Se till att du har Aspose.Cells-biblioteket nedladdat och refererat till i ditt projekt. Du kan få det[här](https://releases.aspose.com/cells/net/).
 - Utvecklingsmiljö: Alla .NET-utvecklingsmiljöer fungerar, men Visual Studio rekommenderas starkt för dess robusta stöd och verktyg.
 - Grundläggande förståelse för C#: Bekantskap med C#-programmeringsgrunderna kommer att vara till hjälp eftersom vi kommer att skriva lite kod.
 
@@ -45,7 +45,7 @@ Denna kodrad hjälper oss att hålla ordning på våra filer. Se till att sökv�
 
 ## Steg 2: Skapa ett arbetsboksobjekt
 
-Därefter kommer vi att skapa ett arbetsboksobjekt. Detta objekt kommer att representera vår Excel-fil.
+Därefter skapar vi ett arbetsboksobjekt. Detta objekt kommer att representera vår Excel-fil.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -76,11 +76,11 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Här anger vi några slumpmässiga värden i celler`A1` till`B3`. Dessa data kommer att fungera som datakälla för vårt diagram. Det är viktigt att ha meningsfull data att visualisera; annars skulle diagrammet bara vara vackra linjer utan sammanhang!
+ Här anger vi några slumpmässiga värden i celler`A1` till`B3`Dessa data kommer att fungera som datakällan för vårt diagram. Det är viktigt att ha meningsfull data att visualisera; annars skulle diagrammet bara vara vackra linjer utan sammanhang!
 
 ## Steg 5: Lägg till ett diagram i arbetsbladet
 
-Nu är det dags att lägga till ett diagram i vårt arbetsblad. Vi skapar ett kolumndiagram med följande kod:
+Nu är det dags att lägga till ett diagram i vårt arbetsblad. Vi kommer att skapa ett kolumndiagram med följande kod:
 
 ```csharp
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);

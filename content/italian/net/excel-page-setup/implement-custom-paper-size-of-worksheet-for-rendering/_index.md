@@ -51,7 +51,7 @@ Ora che tutto è a posto, analizziamo nel dettaglio i passaggi necessari per imp
 
 ## Passaggio 1: impostare la directory di output
 
-Prima di iniziare a scrivere il codice, decidi dove vuoi salvare il file PDF di output e configuralo nel codice.
+Prima di iniziare a scrivere il codice, decidi dove vuoi salvare il file PDF di output e impostalo nel codice.
 
 ```csharp
 string outputDir = "YOUR_OUTPUT_DIRECTORY";

@@ -2,7 +2,7 @@
 title: Náhled tisku sešitu
 linktitle: Náhled tisku sešitu
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se vytvářet náhledy tisku pro soubory Excel pomocí Aspose.Cells for .NET. Naučte se kroky kódování v podrobném, snadno srozumitelném tutoriálu.
+description: Naučte se vytvářet náhledy tisku pro soubory Excel pomocí Aspose.Cells for .NET. Naučte se kroky kódování v podrobném a snadno srozumitelném tutoriálu.
 type: docs
 weight: 170
 url: /cs/net/excel-workbook/workbook-print-preview/

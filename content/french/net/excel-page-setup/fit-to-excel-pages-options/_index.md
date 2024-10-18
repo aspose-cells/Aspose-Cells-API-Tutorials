@@ -54,9 +54,9 @@ Tout d'abord, initialisons notre classeur et accédons à la feuille de calcul s
 ```csharp
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -74,7 +74,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` détermine le nombre de pages que votre feuille de calcul s'étendra verticalement.
-- `FitToPagesWide` définit la configuration horizontale de la page. Définir les deux sur`1`signifie que votre contenu tiendra parfaitement sur une seule page, transformant votre document en un chef-d'œuvre épuré.
+- `FitToPagesWide` définit la configuration horizontale de la page. Définir les deux sur`1`Cela signifie que votre contenu tiendra parfaitement sur une seule page, transformant votre document en un chef-d'œuvre épuré.
 
 ## Étape 3 : Enregistrez votre classeur
 

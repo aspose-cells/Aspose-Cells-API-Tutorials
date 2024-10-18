@@ -35,7 +35,7 @@ using Aspose.Cells;
 
 ## Étape 1 : Configurer le chemin d’accès au répertoire de documents
 
-Commençons par définir où nos fichiers Excel seront stockés. Cette étape est cruciale pour référencer les fichiers avec lesquels nous voulons travailler plus tard dans le processus.
+Commençons par définir où seront stockés nos fichiers Excel. Cette étape est cruciale pour référencer les fichiers avec lesquels nous souhaitons travailler plus tard dans le processus.
 
 ```csharp
 // Le chemin vers le répertoire des documents.
@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Ensuite, nous devons créer une instance de la classe Workbook, qui contiendra notre fichier Excel.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ En créant une instance de classeur à partir de notre flux de fichiers, nous po
 
 ## Étape 4 : Ajouter une nouvelle feuille de calcul
 
-Voici la partie passionnante ! Ajoutons une nouvelle feuille de calcul à notre classeur. Cela se fait en utilisant le`Add()` méthode de la`Worksheets`collection.
+ Voici la partie passionnante ! Ajoutons une nouvelle feuille de calcul à notre classeur. Cela se fait en utilisant le`Add()` méthode de la`Worksheets`collection.
 
 ```csharp
 // Ajout d'une nouvelle feuille de calcul à l'objet Workbook
 int i = workbook.Worksheets.Add();
 ```
 
- Avec cette ligne de code, nous ajoutons une nouvelle feuille et l'index de cette nouvelle feuille est capturé dans la variable`i`.
+Avec cette ligne de code, nous ajoutons une nouvelle feuille et l'index de cette nouvelle feuille est capturé dans la variable`i`.
 
 ## Étape 5 : Obtenir une référence à la feuille de calcul nouvellement ajoutée
 

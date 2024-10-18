@@ -32,7 +32,7 @@ using Aspose.Cells;
 
 이 네임스페이스에는 Excel 파일을 다루고 필요한 기능을 구현하는 데 필요한 모든 클래스와 메서드가 포함되어 있습니다.
 
-Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 특정 셀을 보호하는 프로세스를 풀어보겠습니다. 코드를 여러 소화 가능한 단계로 분해합니다.
+Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 특정 셀을 보호하는 프로세스를 풀어보겠습니다. 코드를 소화하기 쉬운 여러 단계로 나눕니다.
 
 ## 1단계: 작업 디렉토리 설정
 
@@ -41,7 +41,7 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 특정 셀을 보
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// 디렉토리가 없으면 새로 만듭니다.
+//디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -56,7 +56,7 @@ if (!IsExists)
 // 새로운 통합 문서를 만듭니다.
 Workbook wb = new Workbook();
 ```
- 우리는 새로운 것을 인스턴스화했습니다`Workbook` 객체. 이것을 데이터를 칠할 빈 캔버스라고 생각하세요.
+ 우리는 새로운 것을 인스턴스화했습니다`Workbook` 객체입니다. 이것을 데이터를 칠할 빈 캔버스라고 생각하세요.
 
 ## 3단계: 워크시트에 액세스
 
@@ -92,7 +92,7 @@ for (int i = 0; i <= 255; i++)
 
 ## 5단계: 특정 셀 잠금
 
-이제 흥미로운 부분인 특정 셀 잠금에 대해 알아보겠습니다! 이 예에서는 셀 A1, B1, C1을 잠급니다.
+이제 흥미로운 부분으로 넘어갑니다. 특정 셀을 잠그는 것입니다! 이 예에서는 셀 A1, B1, C1을 잠급니다.
 
 ```csharp
 // 3개의 셀을 잠그세요... 즉, A1, B1, C1.
@@ -140,10 +140,10 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 .NET용 Aspose.Cells는 C#을 사용하여 Excel 파일을 프로그래밍 방식으로 조작하기 위한 강력한 라이브러리로, 개발자는 Microsoft Excel이 없어도 Excel 스프레드시트를 만들고, 수정하고, 변환할 수 있습니다.
 
 ### .NET용 Aspose.Cells를 어떻게 설치하나요?  
- 웹사이트에서 Aspose.Cells for .NET을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/). 제공된 설치 지침을 따르세요.
+ Aspose.Cells for .NET은 웹사이트에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/). 제공된 설치 지침을 따르세요.
 
 ### 3개 이상의 셀을 보호할 수 있나요?  
-물론입니다! 예시에서 A1, B1, C1에 대한 것과 비슷한 줄을 더 추가하여 필요한 만큼 셀을 잠글 수 있습니다.
+물론입니다! 예시에서 A1, B1, C1에 대한 것과 비슷한 줄을 더 추가하여 필요한 만큼 많은 셀을 잠글 수 있습니다.
 
 ### Excel 파일은 어떤 형식으로 저장할 수 있나요?  
 XLSX, XLS, CSV 등 다양한 형식으로 Excel 파일을 저장할 수 있습니다.`SaveFormat` 매개변수를 적절히 조정하세요.

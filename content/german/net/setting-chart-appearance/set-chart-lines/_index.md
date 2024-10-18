@@ -30,7 +30,7 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Lassen Sie uns den Vorgang in überschaubare Schritte aufteilen, damit Sie ihn problemlos nachvollziehen können.
+Lassen Sie uns den Vorgang in überschaubare Schritte unterteilen, damit Sie ihn problemlos nachvollziehen können.
 
 ## Schritt 1: Definieren Sie Ihr Ausgabeverzeichnis
 
@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Jetzt erstellen wir ein Arbeitsmappenobjekt, das als Container für Ihre Tabelle dient.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Als Nächstes müssen Sie mit einem bestimmten Blatt in Ihrer Arbeitsmappe arbeiten. Wir nehmen das erste Arbeitsblatt.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -152,7 +152,7 @@ chart.NSeries[0].Marker.MarkerStyle = Aspose.Cells.Charts.ChartMarkerType.Triang
 chart.NSeries[1].Border.Weight = Aspose.Cells.Drawing.WeightType.MediumLine;
 ```
 
-Erklärung: Der obige Code passt die Grenzen der Diagrammreihe an, gibt ihnen eine gepunktete Linie und ändert sogar die Datenpunktmarkierungen in Dreiecke. Es geht um die persönliche Note!
+Erklärung: Der obige Code passt die Grenzen der Diagrammreihe an, gibt ihr eine gepunktete Linie und ändert sogar die Datenpunktmarkierungen in Dreiecke. Es geht um die persönliche Note!
 
 ## Schritt 10: Speichern Sie Ihre Arbeitsmappe
 
@@ -182,7 +182,7 @@ Herzlichen Glückwunsch! Sie beherrschen jetzt die Grundlagen zum Erstellen und 
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Cells für .NET?  
-Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zum Bearbeiten von Excel-Tabellen in .NET-Anwendungen.
+Aspose.Cells für .NET ist eine leistungsstarke Bibliothek zur Bearbeitung von Excel-Tabellen in .NET-Anwendungen.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?  
  Ja, Aspose bietet eine kostenlose Testversion zum Testen der Funktionalität an. Sie können sie herunterladen[Hier](https://releases.aspose.com/).

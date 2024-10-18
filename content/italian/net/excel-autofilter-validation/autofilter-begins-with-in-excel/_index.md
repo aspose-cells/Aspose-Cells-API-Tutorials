@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Ora dobbiamo accedere al foglio di lavoro specifico con cui vogliamo lavorare:
 
 ```csharp
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Spiegazione: Il`Worksheets` la raccolta ci consente di accedere a fogli individuali. Utilizzando`[0]` fa riferimento al primo foglio di lavoro del file Excel, il che è generalmente una pratica comune quando si lavora con un file composto da un solo foglio.
+Spiegazione: Il`Worksheets` la raccolta ci consente di accedere a fogli individuali. Utilizzando`[0]` fa riferimento al primo foglio di lavoro del file Excel, il che è generalmente una pratica comune quando si lavora con un file composto da un solo foglio.
 
 ## Passaggio 4: impostazione del filtro automatico
 
@@ -82,7 +82,7 @@ Ecco dove inizia la magia! Creeremo un intervallo AutoFilter per i nostri dati:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Spiegazione: Il`AutoFilter.Range` proprietà consente di specificare quali righe filtrare. In questo caso, stiamo filtrando le righe nell'intervallo da A1 a A18, che si suppone contengano i nostri dati.
+Spiegazione: Il`AutoFilter.Range` proprietà consente di specificare quali righe filtrare. In questo caso, stiamo filtrando le righe nell'intervallo da A1 a A18, che si suppone contengano i nostri dati.
 
 ## Passaggio 5: applicare la condizione del filtro
 
@@ -93,7 +93,7 @@ Il passo successivo è definire la condizione del filtro. Vogliamo visualizzare 
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Spiegazione: Il`Custom` metodo definisce la nostra logica di filtraggio. Il primo argomento (`0` ) indica che stiamo filtrando in base alla prima colonna (A) e`FilterOperatorType.BeginsWith`specifica la nostra condizione per cercare le righe che iniziano con "Ba".
+Spiegazione: Il`Custom` metodo definisce la nostra logica di filtraggio. Il primo argomento (`0` ) indica che stiamo filtrando in base alla prima colonna (A) e`FilterOperatorType.BeginsWith`specifica la nostra condizione per cercare le righe che iniziano con "Ba".
 
 ## Passaggio 6: Aggiorna il filtro
 
@@ -115,7 +115,7 @@ Adesso è il momento di salvare le modifiche apportate:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Spiegazione: Il`Save` il metodo riscrive la Workbook modificata nel percorso di output specificato. Ciò rientra nella scrittura dei filtri definiti in un nuovo file in modo che i dati originali rimangano intatti.
+Spiegazione: Il`Save` il metodo riscrive la Workbook modificata nel percorso di output specificato. Ciò rientra nella scrittura dei filtri definiti in un nuovo file in modo che i dati originali rimangano intatti.
 
 ## Fase 8: Conferma dell'output
 

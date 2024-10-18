@@ -52,7 +52,7 @@ moet eerst bepalen waar u uw Excel-bestand wilt opslaan. Zo kunt u dat opgeven:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geef hier uw directorypad op
-// Maak een map aan als deze nog niet bestaat.
+//Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -129,7 +129,7 @@ sheet.Protect(ProtectionType.All);
 
 ## Stap 7: De werkmap opslaan
 
-Tot slot wilt u uw werk opslaan! Dit is hoe u dat doet:
+Ten slotte wilt u uw werk opslaan! Dit is hoe u dat doet:
 
 ```csharp
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
@@ -153,7 +153,7 @@ Absoluut! U kunt zoveel cellen vergrendelen als u wilt door de celvergrendelings
  Aspose.Cells biedt een gratis proefperiode, maar voor doorlopend gebruik is een licentie vereist. U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 
 ### Waar kan ik de documentatie vinden?
-De documentatie is te vinden[hier](https://reference.aspose.com/cells/net/).
+ De documentatie is te vinden[hier](https://reference.aspose.com/cells/net/).
 
 ### In welke bestandsformaten kan ik Excel-bestanden opslaan?
 Aspose.Cells ondersteunt meerdere formaten, waaronder XLSX, XLS, CSV en meer.

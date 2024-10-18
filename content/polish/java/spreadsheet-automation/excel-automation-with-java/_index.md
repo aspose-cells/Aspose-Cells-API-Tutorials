@@ -2,7 +2,7 @@
 title: Automatyzacja programu Excel za pomocą języka Java
 linktitle: Automatyzacja programu Excel za pomocą języka Java
 second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego i biblioteki Aspose.Cells, która umożliwia przetwarzanie danych w programie Excel.
+description: Dowiedz się, jak automatyzować zadania programu Excel w języku Java, korzystając z przykładów kodu źródłowego przy użyciu Aspose.Cells, zaawansowanej biblioteki do edycji danych w programie Excel.
 type: docs
 weight: 18
 url: /pl/java/spreadsheet-automation/excel-automation-with-java/

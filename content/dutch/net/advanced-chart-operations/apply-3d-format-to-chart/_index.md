@@ -132,7 +132,7 @@ chart.NSeries.CategoryData = "DataSheet!A1:A3";
 
 Dit is vergelijkbaar met een chef die een gerecht bereidt met specifieke ingrediënten. Elk datapunt is belangrijk!
 
-## Stap 8: Toegang tot en opmaak van de gegevensreeks
+## Stap 8: Toegang tot en formattering van de gegevensreeks
 
 Nu we onze gegevens hebben gekoppeld, kunnen we de gegevensreeksen pakken en er 3D-effecten op toepassen.
 
@@ -142,7 +142,7 @@ ShapePropertyCollection spPr = ser.ShapeProperties;
 Format3D fmt3d = spPr.Format3D;
 ```
 
-We willen graag wat extra flair aan ons gerecht toevoegen. Zie het als een kruidenmix die de algehele smaak verbetert.
+We willen wat extra flair aan ons gerecht toevoegen. Zie het als een kruidenmix die de algehele smaak verbetert.
 
 ## Stap 9: 3D-afschuiningseffecten toepassen
 
@@ -167,7 +167,7 @@ fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
 fmt3d.LightingAngle = 20;
 ```
 
-De juiste belichting en het juiste materiaal kunnen een plat object omtoveren tot een boeiend beeld. Denk aan een filmset die vakkundig is belicht om elke scène te verbeteren.
+De juiste belichting en het juiste materiaal kunnen een plat object omtoveren tot een boeiend beeld. Denk aan een filmset die vakkundig is verlicht om elke scène te verbeteren.
 
 ## Stap 11: Laatste hand aan het uiterlijk van de serie
 

@@ -49,7 +49,7 @@ Primero, debemos definir un directorio donde almacenaremos nuestro archivo de Ex
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // cambia a la ruta deseada
 
-// Crear directorio si aún no está presente.
+//Crear directorio si aún no está presente.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -136,14 +136,14 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Preguntas frecuentes
 
-### ¿Puedo proteger varias filas usando el mismo método?  
+### ¿Puedo proteger varias filas utilizando el mismo método?  
 Sí, puedes repetir el proceso de bloqueo para cualquier otra fila de la misma manera que lo hiciste para la primera fila.
 
 ### ¿Qué pasa si quiero proteger y desbloquear celdas específicas en lugar de filas?  
 Puede seleccionar celdas individualmente y aplicar estilos de bloqueo, de forma similar a como bloquea una fila.
 
 ### ¿Aspose.Cells es de uso gratuito?  
-Aspose.Cells es un producto comercial, pero puedes probarlo con una versión de prueba gratuita disponible[aquí](https://releases.aspose.com/).
+ Aspose.Cells es un producto comercial, pero puedes probarlo con una versión de prueba gratuita disponible[aquí](https://releases.aspose.com/).
 
 ### ¿Necesito una conexión a Internet para utilizar Aspose.Cells?  
 No, Aspose.Cells es una biblioteca .NET y puede funcionar sin conexión una vez que la haya instalado.

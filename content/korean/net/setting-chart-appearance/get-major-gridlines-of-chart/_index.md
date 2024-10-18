@@ -15,7 +15,7 @@ url: /ko/net/setting-chart-appearance/get-major-gridlines-of-chart/
 
 튜토리얼을 시작하기 전에 모든 것을 준비했는지 확인하세요.
 
--  .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에서 참조했는지 확인하세요. 가져올 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+- .NET용 Aspose.Cells: Aspose.Cells 라이브러리를 다운로드하여 프로젝트에서 참조했는지 확인하세요. 가져올 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 - 개발 환경: 모든 .NET 개발 환경이 가능하지만, 강력한 지원과 도구를 제공하는 Visual Studio를 적극 권장합니다.
 - C#에 대한 기본적인 이해: C# 프로그래밍의 기본에 대해 잘 알고 있으면 일부 코드를 작성할 때 도움이 됩니다.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- 여기서 우리는 셀에 임의의 값을 입력합니다.`A1` 에게`B3`. 이 데이터는 차트의 데이터 소스 역할을 합니다. 시각화할 의미 있는 데이터가 있어야 합니다. 그렇지 않으면 차트는 맥락이 없는 예쁜 선일 뿐입니다!
+ 여기서 우리는 셀에 임의의 값을 입력합니다.`A1` 에게`B3`이 데이터는 차트의 데이터 소스 역할을 합니다. 시각화할 의미 있는 데이터가 있어야 합니다. 그렇지 않으면 차트는 맥락이 없는 예쁜 선일 뿐입니다!
 
 ## 5단계: 워크시트에 차트 추가
 
@@ -145,7 +145,7 @@ workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 
 ## 결론
 
-그리고 보일라! Aspose.Cells for .NET을 사용하여 주요 격자선이 있는 차트를 특징으로 하는 Excel 스프레드시트를 성공적으로 만들었습니다. 차트에 대해 배웠을 뿐만 아니라 시각적으로 매력적인 요소를 쉽게 조작하는 기술도 얻었습니다. 이 방법은 비즈니스 보고서, 학술 프레젠테이션 또는 데이터 시각화가 메시지를 전달하는 데 중요한 모든 시나리오에서 정말 도움이 될 수 있습니다.
+보세요! Aspose.Cells for .NET을 사용하여 주요 격자선이 있는 차트를 특징으로 하는 Excel 스프레드시트를 성공적으로 만들었습니다. 차트에 대해 배웠을 뿐만 아니라 시각적으로 매력적인 요소를 쉽게 조작하는 기술도 얻었습니다. 이 방법은 비즈니스 보고서, 학술 프레젠테이션 또는 데이터 시각화가 메시지를 전달하는 데 중요한 모든 시나리오에서 정말 도움이 될 수 있습니다.
 
 이러한 기술을 익히면 데이터를 돋보이게 하는 동적 보고서를 만드는 데 한 걸음 더 다가갈 수 있습니다!
 
@@ -154,7 +154,7 @@ workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ### .NET용 Aspose.Cells란 무엇인가요?
 .NET용 Aspose.Cells는 Excel 스프레드시트를 조작하기 위한 강력한 API로, 개발자가 스프레드시트 파일을 만들고, 조작하고, 변환할 수 있도록 해줍니다.
 
-### Aspose.Cells에 대한 임시 라이선스를 받으려면 어떻게 해야 하나요?
+### Aspose.Cells에 대한 임시 라이센스를 받으려면 어떻게 해야 하나요?
  임시 면허증은 다음 사이트를 방문하여 취득할 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
 
 ### 색상 외에 차트의 모양을 사용자 정의할 수 있나요?

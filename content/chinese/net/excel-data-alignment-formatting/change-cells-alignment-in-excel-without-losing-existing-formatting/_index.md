@@ -48,7 +48,7 @@ using Aspose.Cells.Tables;
 
 现在我们已经满足了先决条件并导入了包，让我们逐步分解改变单元格对齐的过程。
 
-## 步骤 1：设置源目录和输出目录
+## 步骤 1：设置源和输出目录
 
 首先，您需要定义 Excel 文件的存储位置以及处理后将其保存在何处。
 
@@ -67,7 +67,7 @@ string outputDir = "Your Document Directory\\"; //替换为您的实际目录
 接下来，您需要将示例 Excel 文件加载到应用程序中。
 
 ```csharp
-//加载包含具有格式的单元格的示例 Excel 文件。
+//加载包含带格式的单元格的示例 Excel 文件。
 Workbook wb = new Workbook(sourceDir + "sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx");
 ```
 
@@ -126,7 +126,7 @@ flag.Alignments = true;
 
 ## 步骤 7：将样式应用于单元格区域
 
-设置好样式和标志后，就可以将这些样式应用到单元格范围了：
+有了样式和标志后，就可以将这些样式应用到单元格范围了：
 
 ```csharp
 //将样式应用于单元格范围。
@@ -169,7 +169,7 @@ Console.WriteLine("ChangeCellsAlignmentAndKeepExistingFormatting executed succes
 是的！您可以从网站下载免费试用版[免费试用](https://releases.aspose.com/).
 
 ### Aspose.Cells 支持哪些编程语言?
-Aspose.Cells 主要通过各自的库支持.NET、Java 和其他几种语言。
+Aspose.Cells 主要通过相应的库支持.NET、Java 和其他几种语言。
 
 ### 如何获得 Aspose.Cells 的支持？
 如有任何疑问或支持相关问题，请访问[支持论坛](https://forum.aspose.com/c/cells/9).

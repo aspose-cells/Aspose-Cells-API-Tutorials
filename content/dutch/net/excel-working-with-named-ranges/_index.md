@@ -13,7 +13,7 @@ Benoemde bereiken in Excel zijn als kleine energiebronnen. Ze stellen u in staat
 
 ## Toegang tot alle benoemde bereiken in Excel
 
-Stel je voor dat je meerdere benoemde bereiken hebt verspreid over je Excel-sheet en je moet ze allemaal ophalen voor verwerking. In plaats van elk bereik afzonderlijk op te sporen, biedt Aspose.Cells voor .NET je een gestroomlijnde manier om ze in één keer te openen! Deze methode vereenvoudigt je workflow en bespaart tijd.
+Stel je voor dat je meerdere benoemde bereiken verspreid over je Excel-sheet hebt en je moet ze allemaal ophalen voor verwerking. In plaats van elk bereik afzonderlijk op te sporen, biedt Aspose.Cells voor .NET je een gestroomlijnde manier om ze in één keer te openen! Deze methode vereenvoudigt je workflow en bespaart tijd.
 
  Door gebruik te maken van de`Workbook.Worksheets.Names`verzameling, kunt u eenvoudig toegang krijgen tot alle benoemde bereiken. Of u nu grote datasets beheert of taken automatiseert, deze functie is een game-changer. Wilt u leren hoe u dit stap voor stap kunt doen? Lees meer in onze gedetailleerde[Toegang tot alle benoemde bereiken in Excel](./access-all-named-ranges/) handleiding.
 

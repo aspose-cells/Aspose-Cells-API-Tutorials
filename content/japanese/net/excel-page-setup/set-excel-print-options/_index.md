@@ -38,7 +38,7 @@ url: /ja/net/excel-page-setup/set-excel-print-options/
 - 「NuGet パッケージの管理」をクリックします。
 - 「Aspose.Cells」を検索し、「インストール」をクリックします。 
 
-これを行うことで、Aspose.Cells の必要な機能がすべて利用できるようになります。
+こうすることで、Aspose.Cells の必要な機能がすべて利用できるようになります。
 
 ### 名前空間の使用
 

@@ -1,7 +1,7 @@
 ---
 title: O Autofiltro começa com no Excel
 linktitle: O Autofiltro começa com no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como filtrar automaticamente linhas do Excel usando Aspose.Cells no .NET sem esforço com este guia passo a passo abrangente.
 type: docs
 weight: 10
@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Agora, precisamos acessar a planilha específica com a qual queremos trabalhar:
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Explicação: O`Worksheets` coleção nos permite acessar folhas individuais. Usando`[0]` faz referência à primeira planilha no seu arquivo Excel, o que geralmente é uma prática comum ao trabalhar com um arquivo de planilha única.
+Explicação: O`Worksheets` coleção nos permite acessar folhas individuais. Usando`[0]` faz referência à primeira planilha do seu arquivo Excel, o que geralmente é uma prática comum ao trabalhar com um arquivo de planilha única.
 
 ## Etapa 4: Configurando o AutoFiltro
 
@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Explicação: O`AutoFilter.Range` propriedade permite que você especifique quais linhas filtrar. Neste caso, estamos filtrando linhas dentro do intervalo A1 a A18, que são assumidas como contendo nossos dados.
+Explicação: O`AutoFilter.Range` propriedade permite que você especifique quais linhas filtrar. Neste caso, estamos filtrando linhas dentro do intervalo A1 a A18, que são assumidas como contendo nossos dados.
 
 ## Etapa 5: Aplicar condição de filtro
 
@@ -93,7 +93,7 @@ O próximo passo é definir a condição do filtro. Queremos exibir apenas aquel
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Explicação: O`Custom` método define nossa lógica de filtragem. O primeiro argumento (`0` ) indica que estamos filtrando com base na primeira coluna (A) e na`FilterOperatorType.BeginsWith`especifica nossa condição para procurar linhas que começam com "Ba".
+Explicação: O`Custom` método define nossa lógica de filtragem. O primeiro argumento (`0` ) indica que estamos filtrando com base na primeira coluna (A) e na`FilterOperatorType.BeginsWith`especifica nossa condição para procurar linhas que começam com "Ba".
 
 ## Etapa 6: Atualize o filtro
 
@@ -115,7 +115,7 @@ Agora é hora de salvar as alterações que fizemos:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Explicação: O`Save` método grava a Workbook modificada de volta no caminho de saída especificado. Isso se enquadra na gravação de seus filtros definidos em um novo arquivo para que seus dados originais permaneçam intactos.
+Explicação: O`Save` método grava a Workbook modificada de volta no caminho de saída especificado. Isso se enquadra na gravação de seus filtros definidos em um novo arquivo para que seus dados originais permaneçam intactos.
 
 ## Etapa 8: Confirmação de saída
 
@@ -129,7 +129,7 @@ Explicação: Esta linha simples gera uma mensagem de confirmação no console, 
 
 ## Conclusão
 
-Em um mundo onde o gerenciamento de dados pode parecer esmagador, dominar recursos como AutoFiltro no Excel por meio do Aspose.Cells para .NET permite que você manipule dados de forma eficiente e eficaz. Você aprendeu a filtrar linhas do Excel que começam com "Ba", implementando o método passo a passo. Com a prática, você será capaz de adaptar esse método para várias necessidades de filtragem de dados em seus projetos em andamento.
+Em um mundo onde o gerenciamento de dados pode parecer esmagador, dominar recursos como AutoFiltro no Excel por meio do Aspose.Cells para .NET permite que você manipule dados de forma eficiente e eficaz. Você aprendeu a filtrar linhas do Excel que começam com "Ba", implementando o método passo a passo. Com a prática, você poderá adaptar esse método para várias necessidades de filtragem de dados em seus projetos em andamento.
 
 ## Perguntas frequentes
 

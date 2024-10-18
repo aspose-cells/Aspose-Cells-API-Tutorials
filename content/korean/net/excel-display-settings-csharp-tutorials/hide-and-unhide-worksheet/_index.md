@@ -18,7 +18,7 @@ Excel 시트를 제어하기 위한 이 여정을 시작하기 전에 순조로�
 1. C#에 대한 기본 지식: C#에 대한 지식은 필수적입니다. 이 언어로 코드를 작성하게 되기 때문입니다.
 2.  .NET용 Aspose.Cells: Aspose.Cells가 설치되어 있는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. 개발 환경: C# 코드를 컴파일하고 실행할 수 있는 Visual Studio 2022와 같은 IDE입니다.
-4.  Excel 파일: 조작할 Excel 파일을 준비하세요. 이 튜토리얼에서는 샘플 파일을 만들어 보겠습니다.`book1.xls`.
+4.  Excel 파일: 조작할 수 있는 Excel 파일을 준비하세요. 이 튜토리얼에서는 샘플 파일 이름을 만들어 보겠습니다.`book1.xls`.
 5. .NET Framework: 최소 .NET Framework 4.5 이상.
 
 이러한 요구 사항을 모두 충족하면 준비가 완료된 것입니다!
@@ -72,7 +72,7 @@ Workbook workbook = new Workbook(fstream);
 워크북을 손에 쥐고, 숨기고 싶은 특정 워크시트에 접근할 시간입니다. 첫 번째 워크시트부터 시작하겠습니다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -80,7 +80,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 5단계: 워크시트 숨기기
 
- 이제 재미있는 부분인 워크시트 숨기기가 시작됩니다!`IsVisible` 속성을 사용하면 워크시트가 보기에서 사라지게 할 수 있습니다.
+ 이제 재미있는 부분인 워크시트 숨기기가 시작됩니다!`IsVisible` 속성을 사용하면 워크시트를 보기에서 없앨 수 있습니다.
 
 ```csharp
 // Excel 파일의 첫 번째 워크시트 숨기기
@@ -128,7 +128,7 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트를 조작하는 것은 
 
 ## 자주 묻는 질문
 
-### 여러 워크시트를 한 번에 숨길 수 있나요?
+### 한 번에 여러 워크시트를 숨길 수 있나요?
  네, 루프를 통해 수행할 수 있습니다.`Worksheets` 수집 및 설정`IsVisible` 숨기려는 각 시트의 속성을 false로 설정합니다.
 
 ### Aspose.Cells는 어떤 파일 형식을 지원하나요?

@@ -9,7 +9,7 @@ url: /fr/net/excel-page-setup/set-excel-scaling-factor/
 ---
 ## Introduction
 
-En matière de gestion de fichiers Excel par programmation, Aspose.Cells pour .NET se distingue comme une bibliothèque de premier ordre qui permet aux développeurs de manipuler et de créer des feuilles de calcul de manière transparente. Une exigence courante lors de l'utilisation d'Excel est d'ajuster le facteur d'échelle d'une feuille de calcul pour garantir que son contenu s'adapte parfaitement lors de l'impression ou de la visualisation. Dans cet article, nous allons parcourir le processus de définition du facteur d'échelle Excel à l'aide d'Aspose.Cells pour .NET, en vous fournissant un guide complet et facile à suivre.
+En matière de gestion de fichiers Excel par programmation, Aspose.Cells for .NET se distingue comme une bibliothèque de premier ordre qui permet aux développeurs de manipuler et de créer des feuilles de calcul de manière transparente. Une exigence courante lors de l'utilisation d'Excel est d'ajuster le facteur d'échelle d'une feuille de calcul pour garantir que son contenu s'adapte parfaitement lors de l'impression ou de la visualisation. Dans cet article, nous allons parcourir le processus de définition du facteur d'échelle Excel à l'aide d'Aspose.Cells for .NET, en vous fournissant un guide complet et facile à suivre.
 
 ## Prérequis
 
@@ -58,14 +58,14 @@ Tout d’abord, vous devez déterminer où vous souhaitez enregistrer votre fich
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Assurez-vous de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel sur votre machine où vous souhaitez que le fichier Excel soit enregistré.
+Assurez-vous de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel sur votre machine où vous souhaitez que le fichier Excel soit enregistré.
 
 ## Étape 2 : Créer un nouvel objet de classeur
 
 Il est maintenant temps de créer un nouveau classeur. C'est essentiellement là que se trouveront toutes vos données et tous vos paramètres.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Les fichiers Excel peuvent contenir plusieurs feuilles de calcul. Nous allons accéder à la première feuille de calcul pour appliquer notre facteur d'échelle.
 
 ```csharp
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -122,7 +122,7 @@ Oui ! Aspose.Cells peut être utilisé dans les applications de bureau et Web �
  Absolument ! Vous pouvez obtenir une version d'essai gratuite[ici](https://releases.aspose.com/).
 
 ### Où puis-je trouver la documentation pour Aspose.Cells ?  
-La documentation peut être trouvée[ici](https://reference.aspose.com/cells/net/).
+ La documentation peut être trouvée[ici](https://reference.aspose.com/cells/net/).
 
 ### Comment puis-je obtenir un support technique pour Aspose.Cells ?  
  Vous pouvez demander de l'aide via le[Forum Aspose](https://forum.aspose.com/c/cells/9).

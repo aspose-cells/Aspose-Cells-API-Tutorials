@@ -9,7 +9,7 @@ url: /id/net/excel-data-sorting-exporting/
 ---
 ## Perkenalan
 
-Apakah Anda siap untuk meningkatkan kemampuan Excel Anda? Jika Anda ingin mengurutkan data dan mengekspor nilai HTML dengan mudah menggunakan Aspose.Cells for .NET, Anda telah datang ke tempat yang tepat! Dalam artikel ini, kita akan membahas dua tutorial yang fantastis: cara mengurutkan data dengan daftar pengurutan khusus di Excel dan cara mengekspor nilai string HTML dari sel ke DataTable. Mari kita mulai!
+Apakah Anda siap untuk meningkatkan kemampuan Excel Anda? Jika Anda ingin mengurutkan data dan mengekspor nilai HTML dengan mudah menggunakan Aspose.Cells for .NET, Anda telah datang ke tempat yang tepat! Dalam artikel ini, kita akan membahas dua tutorial yang fantastis: cara mengurutkan data dengan daftar pengurutan kustom di Excel dan cara mengekspor nilai string HTML dari sel ke DataTable. Mari kita mulai!
 
 ## Mengurutkan Data di Excel: Daftar Urutan Kustom Dibuat Mudah
 

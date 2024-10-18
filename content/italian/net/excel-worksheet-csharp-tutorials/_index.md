@@ -16,7 +16,7 @@ Siete pronti a migliorare il vostro gioco Excel con Aspose.Cells per .NET? Che s
 
 ## Eliminazione di fogli di lavoro senza intoppi
 
- Hai mai creato accidentalmente una dozzina di fogli di lavoro solo per renderti conto che devi semplificare la tua cartella di lavoro? Nessun problema! Il nostro[Eliminare il foglio di lavoro Excel per indice C# Tutorial](./delete-excel-worksheet-by-index-csharp-tutorial/) E[Eliminare il foglio di lavoro Excel in base al nome C# Tutorial](./delete-excel-worksheet-by-name-csharp-tutorial/) sono qui per salvare la giornata. Spiegheremo come rimuovere senza sforzo qualsiasi foglio di lavoro per indice o nome, rendendo la gestione della cartella di lavoro un gioco da ragazzi. Chi avrebbe mai pensato che l'eliminazione potesse essere così soddisfacente?
+ Hai mai creato accidentalmente una dozzina di fogli di lavoro solo per renderti conto che devi semplificare la tua cartella di lavoro? Nessun problema! Il nostro[Eliminare il foglio di lavoro Excel per indice C# Tutorial](./delete-excel-worksheet-by-index-csharp-tutorial/) E[Eliminare il foglio di lavoro Excel in base al nome C# Tutorial](./delete-excel-worksheet-by-name-csharp-tutorial/) sono qui per salvare la giornata. Spiegheremo come rimuovere senza sforzo qualsiasi foglio di lavoro per indice o nome, rendendo la gestione della tua cartella di lavoro un gioco da ragazzi. Chi avrebbe mai pensato che l'eliminazione potesse essere così soddisfacente?
 
 ## Accedere ai fogli di lavoro come un professionista
 

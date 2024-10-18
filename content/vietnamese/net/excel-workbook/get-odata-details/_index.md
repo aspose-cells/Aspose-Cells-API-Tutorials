@@ -13,7 +13,7 @@ Trong thế giới quản lý dữ liệu không ngừng phát triển, khả n�
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để làm theo hướng dẫn này. Sau đây là những gì bạn cần:
+Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để làm theo hướng dẫn này. Sau đây là những gì bạn cần:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Đây là môi trường lý tưởng để phát triển .NET.
 2.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET từ[Trang tải xuống Aspose](https://releases.aspose.com/cells/net/) . Bạn cũng có thể dùng thử phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).

@@ -107,7 +107,7 @@ ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLa
 في هذا الكود:
 - سيتم حفظ ملف PDF في دليل الإخراج الذي حددته مسبقًا.
 -  الارقام`7, 7` يمثل العرض والارتفاع لحجم الصفحة المطلوب، على التوالي.
-- يضمن PageLayoutAlignmentType.Center أن المخطط متمركز في منتصف الصفحة.
+- PageLayoutAlignmentType.Center يضمن أن المخطط متمركز في الصفحة.
 
 ## الخطوة 6: رسالة التأكيد
 
@@ -129,7 +129,7 @@ Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
 يتم استخدام Aspose.Cells for .NET لإنشاء مستندات Excel وتحريرها وتحويلها برمجيًا في تطبيقات .NET.
 
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟  
- نعم، تقدم Aspose.Cells[نسخة تجريبية مجانية](https://releases.aspose.com/) لأغراض التقييم.
+ نعم، يقدم Aspose.Cells[نسخة تجريبية مجانية](https://releases.aspose.com/) لأغراض التقييم.
 
 ### هل هناك طريقة لتمديد فترة تجربتي بعد الفترة الأولية؟  
  يمكنك التقدم بطلب للحصول على[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) للاختبار الموسع.

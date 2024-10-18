@@ -1,7 +1,7 @@
 ---
 title: Adicionar link para arquivo externo no Excel
 linktitle: Adicionar link para arquivo externo no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como adicionar links de arquivo externo no Excel usando Aspose.Cells para .NET com este guia passo a passo. Melhore suas planilhas.
 type: docs
 weight: 10
@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Etapa 2: Criar um objeto de pasta de trabalho
 Em seguida, criaremos uma nova pasta de trabalho do Excel. Esta é sua tela em branco onde você pode começar a adicionar funcionalidades.
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
  Pense no`Workbook` como um novo caderno onde você pode anotar tudo o que precisa. Ele está vazio agora, pronto para sua entrada!
@@ -74,7 +74,7 @@ Console.WriteLine("AddingLinkToExternalFile executed successfully.");
 ```
 Esta linha exibirá uma mensagem confirmando o sucesso da operação no seu console. É como dizer: “Tudo pronto! O trabalho está feito!”
 ## Conclusão
-aí está! Em apenas algumas etapas, você aprendeu como adicionar hiperlinks a arquivos externos em uma pasta de trabalho do Excel usando o Aspose.Cells for .NET. Essa funcionalidade poderosa aprimora a adaptabilidade de suas planilhas e conecta seus dados de forma eficiente. Com esse conhecimento, você pode criar documentos do Excel mais interativos e úteis, promovendo melhor organização e colaboração.
+E aí está! Em apenas algumas etapas, você aprendeu como adicionar hiperlinks a arquivos externos em uma pasta de trabalho do Excel usando o Aspose.Cells for .NET. Essa funcionalidade poderosa aprimora a adaptabilidade de suas planilhas e conecta seus dados de forma eficiente. Com esse conhecimento, você pode criar documentos do Excel mais interativos e úteis, promovendo melhor organização e colaboração.
 ## Perguntas frequentes
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca .NET usada para criar e manipular arquivos do Excel programaticamente.

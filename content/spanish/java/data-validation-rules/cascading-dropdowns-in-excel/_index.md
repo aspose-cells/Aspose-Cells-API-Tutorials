@@ -38,7 +38,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 
 ## Paso 2: Rellenar datos
 
-Ahora, necesitamos completar nuestras hojas de cálculo con datos. En la hoja "Países", enumeraremos los países y, en la hoja "Ciudades", la dejaremos inicialmente vacía, ya que la completaremos de forma dinámica más adelante.
+Ahora, necesitamos completar nuestras hojas de cálculo con datos. En la hoja "Países", enumeraremos los países y, en la hoja "Ciudades", la dejaremos inicialmente vacía, ya que la completaremos dinámicamente más adelante.
 
 ```java
 //Código Java para rellenar la hoja "Países"

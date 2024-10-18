@@ -14,7 +14,7 @@ En la era digital actual, la validación de datos desempeña un papel fundamenta
 
 ## Comprender la validación de datos
 
-Antes de sumergirnos en los detalles técnicos de la implementación de la validación de datos usando Aspose.Cells para Java, tomémonos un momento para comprender qué es la validación de datos y por qué es importante.
+Antes de sumergirnos en los detalles técnicos de la implementación de la validación de datos utilizando Aspose.Cells para Java, tomémonos un momento para comprender qué es la validación de datos y por qué es importante.
 
 ### ¿Qué es la validación de datos?
 
@@ -127,4 +127,4 @@ Sí, Aspose.Cells para Java es versátil y puede manejar escenarios de validaci�
 
 ### ¿Puedo personalizar la apariencia de los mensajes de error en Excel?
 
-Sí, puede personalizar los mensajes de error que se muestran cuando los usuarios ingresan datos no válidos. Aspose.Cells para Java le permite configurar mensajes de error personalizados para brindar instrucciones claras a los usuarios.
+Sí, puedes personalizar los mensajes de error que se muestran cuando los usuarios ingresan datos no válidos. Aspose.Cells para Java te permite configurar mensajes de error personalizados para brindar instrucciones claras a los usuarios.

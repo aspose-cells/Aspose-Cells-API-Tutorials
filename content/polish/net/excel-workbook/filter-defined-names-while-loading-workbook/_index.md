@@ -31,7 +31,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Te przestrzenie nazw pozwalają wykorzystać pełną moc biblioteki Aspose.Cells do efektywnego manipulowania plikami Excela.
+Te przestrzenie nazw umożliwiają wykorzystanie pełnego potencjału biblioteki Aspose.Cells do efektywnego manipulowania plikami Excela.
 
 Podzielmy proces filtrowania zdefiniowanych nazw podczas ładowania skoroszytu na przejrzyste i łatwe do opanowania kroki.
 
@@ -53,7 +53,7 @@ Następnie musimy zdefiniować, jakie dane chcemy odfiltrować podczas ładowani
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Tylda (~) oznacza, że chcemy wykluczyć zdefiniowane nazwy z procesu ładowania. Jest to kluczowe, jeśli chcesz utrzymać obciążenie pracą na niskim poziomie i uniknąć niepotrzebnych danych, które mogą komplikować przetwarzanie.
+Tylda (~oznacza, że chcemy wykluczyć zdefiniowane nazwy z procesu ładowania. Jest to kluczowe, jeśli chcesz utrzymać obciążenie pracą na niskim poziomie i uniknąć niepotrzebnych danych, które mogą komplikować przetwarzanie.
 
 ## Krok 3: Załaduj skoroszyt
 

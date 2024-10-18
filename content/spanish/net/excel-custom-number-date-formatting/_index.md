@@ -13,7 +13,7 @@ Cuando se trata de trabajar con archivos de Excel en .NET, Aspose.Cells es una h
 
 ## Cómo comprobar si un valor de celda tiene un formato de número personalizado específico
 
-¿Alguna vez se ha preguntado si el valor de una celda se ajusta a un determinado formato numérico personalizado? Imagine que está trabajando con registros financieros y que la precisión es crucial. Con Aspose.Cells, puede comprobar fácilmente si el valor de una celda se ajusta a un formato predefinido. Esta función puede evitar errores y garantizar que sus datos sean coherentes. 
+¿Alguna vez se preguntó si el valor de una celda se ajusta a un determinado formato numérico personalizado? Imagine que está trabajando con registros financieros y que la precisión es crucial. Con Aspose.Cells, puede comprobar fácilmente si el valor de una celda se ajusta a un formato predefinido. Esta función puede evitar errores y garantizar que sus datos sean coherentes. 
 
 En nuestro tutorial, aprenderá a implementar un fragmento de código simple que verifique si una celda cumple con sus criterios de formato personalizados. Lo guiaremos paso a paso a través del proceso y le proporcionaremos ejemplos de código que puede adaptar a sus proyectos. ¿Tiene un caso de uso específico? Nuestras explicaciones detalladas lo ayudarán a navegar por varios escenarios, lo que le garantizará que pueda aplicar este conocimiento de manera amplia.[Leer más](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 

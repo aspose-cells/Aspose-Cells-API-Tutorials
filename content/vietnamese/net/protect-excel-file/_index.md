@@ -19,7 +19,7 @@ Hãy tưởng tượng bạn cần xử lý một lượng lớn dữ liệu tro
 
 ## Hướng dẫn được thiết kế riêng cho bạn
 
- Nhưng đó không phải là tất cả! Bảo vệ dữ liệu của bạn cũng quan trọng không kém. Bạn sẽ không để cửa trước của mình mở toang, phải không? Tương tự như vậy, hướng dẫn của chúng tôi cung cấp cho bạn các công cụ để khóa bất kỳ phần nào trong bảng tính Excel của bạn. Hãy xem hướng dẫn về[Bảo vệ các tế bào cụ thể](./protect-specific-cells-in-a-excel-worksheet/) để tìm hiểu cách bảo vệ dữ liệu của bạn hiệu quả. Chúng tôi hướng dẫn bạn từng bước, giúp bạn dễ dàng thực hiện ngay cả với những người mới bắt đầu lập trình.
+Nhưng đó không phải là tất cả! Bảo vệ dữ liệu của bạn cũng quan trọng không kém. Bạn sẽ không để cửa trước của mình mở toang, phải không? Tương tự như vậy, hướng dẫn của chúng tôi cung cấp cho bạn các công cụ để khóa bất kỳ phần nào trong bảng tính Excel của bạn. Hãy xem hướng dẫn về[Bảo vệ các tế bào cụ thể](./protect-specific-cells-in-a-excel-worksheet/) để tìm hiểu cách bảo vệ dữ liệu của bạn hiệu quả. Chúng tôi hướng dẫn bạn từng bước, giúp bạn dễ dàng thực hiện ngay cả với những người mới bắt đầu lập trình.
 
 Chắc chắn rồi! Chúng ta hãy cùng tìm hiểu thêm về tầm quan trọng của các hướng dẫn này trong hành trình thành thạo Excel của bạn và cách chúng có thể phù hợp với quy trình phát triển của bạn.
 

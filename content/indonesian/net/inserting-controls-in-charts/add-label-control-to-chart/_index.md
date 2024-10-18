@@ -16,7 +16,7 @@ Bagan merupakan cara yang ampuh untuk memvisualisasikan data, dan terkadang, men
 Sebelum kita menyelami hal-hal yang lebih mendalam, mari kita bahas apa saja yang Anda perlukan untuk memulai:
 
 - Pengetahuan Dasar tentang C#: Sangat penting untuk memahami dasar-dasar pemrograman C#. Jika Anda seorang pemula, jangan khawatir – langkah-langkahnya akan jelas dan ringkas.
-- Pustaka Aspose.Cells: Pastikan Anda telah memasang pustaka Aspose.Cells. Anda dapat melakukannya melalui Pengelola Paket NuGet di Visual Studio. Jika Anda belum melakukannya, lihat[tautan unduhan](https://releases.aspose.com/cells/net/) untuk perpustakaan.
+-  Pustaka Aspose.Cells: Pastikan Anda telah memasang pustaka Aspose.Cells. Anda dapat melakukannya melalui Pengelola Paket NuGet di Visual Studio. Jika Anda belum melakukannya, lihat[tautan unduhan](https://releases.aspose.com/cells/net/) untuk perpustakaan.
 - Visual Studio: Anda memerlukan lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
 
 ## Paket Impor
@@ -62,7 +62,7 @@ Berikutnya, kita akan memuat berkas Excel berisi bagan yang ingin kita beri labe
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Di sini, kami menggunakan`Workbook` kelas dari Aspose.Cells untuk membuka berkas Excel kita. Ini seperti membuka pintu agar kreativitas mengalir!
+ Di sini, kami menggunakan`Workbook`kelas dari Aspose.Cells untuk membuka berkas Excel kita. Ini seperti membuka pintu agar kreativitas mengalir!
 
 ## Langkah 3: Akses Lembar Kerja
 
@@ -94,7 +94,7 @@ Sekarang tibalah bagian yang menarik – menambahkan label ke grafik. Kita akan 
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Di Sini,`AddLabelInChart` menangani pembuatan label berdasarkan koordinat dan dimensi yang Anda tentukan. Mirip seperti memasang bingkai cantik di sekeliling karya seni Anda!
+ Di Sini,`AddLabelInChart`menangani pembuatan label berdasarkan koordinat dan dimensi yang Anda tentukan. Mirip seperti memasang bingkai cantik di sekeliling karya seni Anda!
 
 ## Langkah 6: Mengatur Teks Label
 
@@ -109,7 +109,7 @@ Di sinilah Anda memberi judul pada karya seni Anda. Judul membantu pemirsa memah
 
 ## Langkah 7: Mengatur Jenis Penempatan
 
-Sekarang, mari kita tentukan bagaimana label diposisikan dalam kaitannya dengan diagram. Di sini, kita akan mengaturnya menjadi bebas mengambang, yang berarti label dapat dipindahkan secara independen dari elemen diagram.
+Sekarang, mari kita tentukan bagaimana label diposisikan dalam kaitannya dengan diagram. Di sini, kita akan mengaturnya menjadi mengambang bebas, yang berarti label dapat dipindahkan secara independen dari elemen diagram.
 
 ```csharp
 // Tetapkan Jenis Penempatan, cara label ditempelkan ke sel.
@@ -131,13 +131,13 @@ Di sinilah Anda menyegel kesepakatan. Anda menyelesaikan mahakarya Anda dan meny
 
 ## Langkah 9: Konfirmasi Eksekusi
 
-Terakhir, yakinkan diri Anda bahwa semuanya berjalan lancar dengan mencetak konfirmasi ke konsol.
+Terakhir, yakinkan diri Anda bahwa semuanya berjalan lancar dengan mencetak konfirmasi pada konsol.
 
 ```csharp
 Console.WriteLine("AddingLabelControlInChart executed successfully.");
 ```
 
-Itu seperti memperlihatkan produk jadi Anda ke seluruh dunia, siap untuk mendapat tepuk tangan!
+Itu seperti memperlihatkan produk jadi Anda ke dunia, siap untuk mendapat tepuk tangan!
 
 ## Kesimpulan
 
@@ -149,7 +149,7 @@ Nah, itu dia! Anda telah berhasil menambahkan kontrol label ke bagan menggunakan
 Ya! Anda dapat mengubah jenis huruf, warna, ukuran, dan properti label lainnya sesuai dengan kebutuhan Anda.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells adalah produk berbayar; namun, Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/)untuk menjelajahi fitur-fiturnya.
+ Aspose.Cells adalah produk berbayar; namun, Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur-fiturnya.
 
 ### Bagaimana jika saya ingin menambahkan beberapa label?
 Anda dapat mengulangi langkah penambahan label sebanyak yang diperlukan, masing-masing dengan posisi dan teks yang berbeda.

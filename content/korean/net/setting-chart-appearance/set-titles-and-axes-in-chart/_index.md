@@ -42,12 +42,12 @@ using System.Drawing;
 
 ## 1단계: 워크북 만들기
 
-이 단계에서는 새로운 통합 문서를 인스턴스화하겠습니다. 
+이 단계에서는 새 통합 문서를 인스턴스화하겠습니다. 
 
 ```csharp
 //출력 디렉토리
 static string outputDir = "Your Document Directory";
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 다음으로, 데이터를 입력하고 차트를 만들 워크시트에 액세스해야 합니다.
 
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -93,10 +93,10 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 
 ## 5단계: 차트 인스턴스에 액세스
 
-차트를 만든 후에는 해당 차트에 대한 참조를 저장하여 사용자 정의해야 합니다.
+차트를 만든 후에는 차트를 사용자 정의할 수 있도록 해당 참조를 저장해야 합니다.
 
 ```csharp
-// 새로 추가된 차트의 인스턴스에 접근하기
+// 새로 추가된 차트의 인스턴스에 액세스하기
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
@@ -170,7 +170,7 @@ chart.CategoryAxis.Title.Text = "Categories";
 chart.ValueAxis.Title.Text = "Values";
 ```
 
-축을 도로의 표지판과 같다고 생각하세요. 축은 차트를 볼 때 무엇을 기대해야 할지 청중에게 안내합니다.
+축을 도로의 표지판과 같다고 생각하세요. 축은 차트를 볼 때 무엇을 기대해야 할지 청중에게 안내해줍니다.
 
 ## 11단계: 통합 문서 저장
 
@@ -195,7 +195,7 @@ Console.WriteLine("SettingTitlesAxes executed successfully.");
 
 ## 결론
 
-Aspose.Cells for .NET을 사용하여 Excel에서 잘 구성되고 시각적으로 매력적인 차트를 만드는 것은 이러한 단계를 따르면 간단합니다. 제목을 추가하고 축을 설정하여 간단한 데이터 세트를 메시지를 효과적으로 전달하는 통찰력 있는 시각적 표현으로 변환할 수 있습니다. 비즈니스 프레젠테이션, 프로젝트 보고서 또는 단순히 개인적인 용도이든 차트를 사용자 지정하면 큰 차이를 만들 수 있습니다.
+이러한 단계를 따르면 Aspose.Cells for .NET을 사용하여 Excel에서 잘 구성되고 시각적으로 매력적인 차트를 만드는 것은 간단합니다. 제목을 추가하고 축을 설정하면 간단한 데이터 세트를 메시지를 효과적으로 전달하는 통찰력 있는 시각적 표현으로 변환할 수 있습니다. 비즈니스 프레젠테이션, 프로젝트 보고서 또는 단순히 개인적인 용도로든 차트를 사용자 지정하면 큰 차이를 만들 수 있습니다.
 
 ## 자주 묻는 질문
 

@@ -9,7 +9,7 @@ url: /nl/net/working-with-chart-data/create-line-with-data-marker-chart/
 ---
 ## Invoering
 
-Heb je je ooit afgevraagd hoe je verbluffende grafieken in Excel programmatisch kunt maken? Nou, gesp je vast, want vandaag duiken we in het maken van een Line with Data Marker Chart met Aspose.Cells voor .NET. Deze tutorial leidt je door elke stap, zodat je een stevige greep hebt op het genereren van grafieken, zelfs als je net begint met Aspose.Cells.
+Heb je je ooit afgevraagd hoe je verbluffende grafieken in Excel programmatisch kunt maken? Nou, gesp je vast, want vandaag duiken we in het maken van een lijn met gegevensmarkeringsdiagram met Aspose.Cells voor .NET. Deze tutorial leidt je door elke stap, zodat je een stevige greep hebt op het genereren van grafieken, zelfs als je net begint met Aspose.Cells.
 
 ## Vereisten
 
@@ -79,7 +79,7 @@ for (int i = 21; i < 41; i++)
 }
 ```
 
-Hier gebruiken we willekeurige getallen om gegevens te simuleren, maar in echte toepassingen kunt u de gegevens vullen met werkelijke waarden uit uw dataset.
+Hier gebruiken we willekeurige getallen om gegevens te simuleren, maar in de praktijk kunt u de gegevens vullen met werkelijke waarden uit uw dataset.
 
 ## Stap 3: Voeg de grafiek toe aan het werkblad
 
@@ -93,7 +93,7 @@ int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
 Chart chart = worksheet.Charts[idx];
 ```
 
-Dit fragment voegt een lijndiagram met gegevensmarkeringen toe aan het werkblad en plaatst het in een specifiek bereik (1,3 tot 20,20). Vrij eenvoudig, toch?
+Met dit fragment wordt een lijndiagram met gegevensmarkeringen aan het werkblad toegevoegd, waardoor het in een specifiek bereik (1,3 tot 20,20) wordt geplaatst. Vrij eenvoudig, toch?
 
 ## Stap 4: Pas het uiterlijk van de grafiek aan
 

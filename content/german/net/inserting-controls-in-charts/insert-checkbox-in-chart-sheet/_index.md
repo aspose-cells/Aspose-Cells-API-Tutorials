@@ -58,7 +58,7 @@ using Aspose.Cells.Drawing;
 
 Jetzt haben Sie die Einrichtung abgeschlossen! Es ist, als würde man vor dem Bau eines Hauses ein solides Fundament legen – entscheidend für eine stabile Struktur.
 
-Jetzt, da alles eingerichtet ist, können wir uns mit dem Codierungsteil befassen! Hier finden Sie eine detaillierte Anleitung zum Einfügen eines Kontrollkästchens in ein Diagrammblatt mit Aspose.Cells.
+Jetzt, da wir alles eingerichtet haben, können wir uns mit dem Codierungsteil befassen! Hier finden Sie eine detaillierte Anleitung zum Einfügen eines Kontrollkästchens in ein Diagrammblatt mit Aspose.Cells.
 
 ## Schritt 1: Definieren Sie Ihr Ausgabeverzeichnis
 
@@ -70,7 +70,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Wechseln Sie in das angegeben
 
 ## Schritt 2: Instanziieren eines Arbeitsmappenobjekts
 
-Als nächstes erstellen wir eine Instanz des`Workbook` Klasse. Hier wird unsere gesamte Arbeit stattfinden.
+Als nächstes erstellen wir eine Instanz des`Workbook` Klasse. Hier findet unsere gesamte Arbeit statt.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -123,7 +123,7 @@ Diese Zeile speichert Ihre neu erstellte Excel-Datei mit dem Kontrollkästchen i
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich ein Kontrollkästchen zu einem Diagrammblatt in einer Excel-Datei hinzugefügt, indem Sie Aspose.Cells für .NET verwendet haben. Indem Sie diese Schritte befolgen, können Sie interaktive und dynamische Excel-Tabellen erstellen, die großartige Funktionalität bieten und Ihre Datenvisualisierungen noch ansprechender machen.
+Und da haben Sie es! Sie haben erfolgreich ein Kontrollkästchen zu einem Diagrammblatt in einer Excel-Datei hinzugefügt, indem Sie Aspose.Cells für .NET verwenden. Indem Sie diese Schritte befolgen, können Sie interaktive und dynamische Excel-Tabellen erstellen, die großartige Funktionalität bieten und Ihre Datenvisualisierungen noch ansprechender machen.
 
 ## Häufig gestellte Fragen
 

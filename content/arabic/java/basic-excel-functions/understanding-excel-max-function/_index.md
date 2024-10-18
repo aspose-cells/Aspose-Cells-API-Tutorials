@@ -18,7 +18,7 @@ url: /ar/java/basic-excel-functions/understanding-excel-max-function/
 
 - بيئة تطوير جافا (JDK)
 - مكتبة Aspose.Cells لـ Java
-- بيئة التطوير المتكاملة (IDE) حسب اختيارك (Eclipse، IntelliJ، إلخ.)
+- بيئة التطوير المتكاملة (IDE) حسب اختيارك (Eclipse، IntelliJ، وما إلى ذلك)
 
 ## إضافة Aspose.Cells إلى مشروعك
 
@@ -92,7 +92,7 @@ System.out.println("The maximum sales value is: " + maxSales);
 
 ### هل يمكنني استخدام الدالة MAX مع المعايير الشرطية؟
 
-نعم، يمكنك ذلك. يمكنك الجمع بين دالة MAX والدوال المنطقية مثل IF للعثور على القيمة القصوى بناءً على شروط محددة.
+نعم، يمكنك ذلك. يمكنك دمج دالة MAX مع الدوال المنطقية مثل IF للعثور على القيمة القصوى بناءً على شروط محددة.
 
 ### كيف أتعامل مع الأخطاء عند استخدام الدالة MAX في Aspose.Cells؟
 

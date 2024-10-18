@@ -102,7 +102,7 @@ Und da haben Sie es! Sie haben die Blattregisterkarten in einer Excel-Datei mith
 ## Häufig gestellte Fragen
 
 ### Kann ich in der Arbeitsmappe bestimmte Registerkarten ausblenden, anstatt alle Registerkarten auszublenden?  
- Nein, das Ausblenden von Tabs über die`ShowTabs` Eigenschaft blendet alle Blattregisterkarten gleichzeitig aus oder ein. Wenn Sie einzelne Blätter ausblenden möchten, können Sie die Sichtbarkeit jedes Blatts separat festlegen.
+ Nein, das Ausblenden von Tabs über die`ShowTabs` Eigenschaft blendet alle Blattregisterkarten gleichzeitig aus oder zeigt sie an. Wenn Sie einzelne Blätter ausblenden möchten, können Sie die Sichtbarkeit jedes Blatts separat festlegen.
 
 ### Wie kann ich eine Vorschau der ausgeblendeten Registerkarten in Excel anzeigen?  
  Sie können die`ShowTabs`Eigentum zurück zu`true` Verwenden Sie dieselbe Codestruktur, wenn Sie eine Vorschau der Registerkarten anzeigen oder diese wiederherstellen müssen.

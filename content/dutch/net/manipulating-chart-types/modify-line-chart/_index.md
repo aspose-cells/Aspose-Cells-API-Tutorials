@@ -87,7 +87,7 @@ Deze code voegt een derde gegevensreeks toe aan de grafiek met de opgegeven waar
 ```csharp
 chart.NSeries.Add("{0.3, 0.7, 1.2}", true);
 ```
-Met deze regel wordt een andere gegevensreeks toegevoegd, de vierde, waardoor u meer gegevens visueel kunt weergeven.
+Met deze regel voegt u nog een gegevensreeks toe, de vierde, waardoor u meer gegevens visueel kunt weergeven.
 
 ## Stap 5: Teken op de tweede as
 

@@ -11,7 +11,7 @@ url: /sv/net/excel-subtotal-calculation/create-subtotals-in-excel/
 Är du redo att höja dina Excel-kunskaper och göra dina kalkylblad mer dynamiska? Att skapa delsummor i Excel kan hjälpa dig att kategorisera och sammanfatta data effektivt, vilket möjliggör bättre datatolkning och rapportering. Om du är någon som ofta brottas med massor av siffror är det viktigt att skapa strukturerade sammanfattningar. Idag ska vi dyka in i hur du skapar delsummor utan ansträngning med Aspose.Cells för .NET, ett kraftfullt bibliotek som är designat för att hantera alla dina Excel-filmanipulationer.
 ## Förutsättningar
 Innan vi dyker in i det snåriga med att skapa delsummor i Excel, finns det några förutsättningar du bör ha på plats:
-1. Aspose.Cells för .NET installerat: Se till att du har Aspose.Cells-biblioteket inställt i din utvecklingsmiljö. Om du inte har gjort detta än kan du enkelt[ladda ner den här](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells för .NET installerat: Se till att du har Aspose.Cells-biblioteket inställt i din utvecklingsmiljö. Om du inte har gjort detta än kan du enkelt[ladda ner den här](https://releases.aspose.com/cells/net/).
 2. .NET-miljö: Du bör ha en fungerande .NET-miljö där vi kan arbeta med biblioteket. Oavsett om det är Visual Studio eller någon annan IDE, se till att du är bekväm med att koda i C#.
 3. Grundläggande kunskaper i C#: Bekantskap med C# kommer att vara fördelaktigt. Exemplen vi kommer att tillhandahålla är i C#-syntax, så att vara bekväm med det hjälper dig att förstå processen.
 4.  Excel-arbetsblad: Ett exempel på Excel-fil att öva på. Vi kommer att använda en fil som heter`book1.xls` i vår handledning.
@@ -29,7 +29,7 @@ Till att börja med måste vi definiera var vår Excel-fil finns. Det är här v
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Ersätta`"Your Document Directory"` med den faktiska vägen där din`book1.xls` lagras. Detta talar om för programmet var Excel-filen vi kommer att manipulera kan hitta.
+ Ersätta`"Your Document Directory"` med den faktiska vägen där din`book1.xls`lagras. Detta talar om för programmet var Excel-filen vi kommer att manipulera kan hitta.
 ## Steg 2: Instantiera en ny arbetsbok
 Nästa upp kommer vi att skapa en ny instans av Workbook-objektet. Detta gör att vi kan öppna och redigera vår Excel-fil.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Här definierar vi a`CellArea` som anger intervallet vi är intresserade av. I det här fallet har vi valt området från B3 (rad 2, kolumn 1) till C19 (rad 18, kolumn 2). Det är här vi kommer att beräkna våra delsummor.
+ Här definierar vi a`CellArea`som anger intervallet vi är intresserade av. I det här fallet har vi valt området från B3 (rad 2, kolumn 1) till C19 (rad 18, kolumn 2). Det är här vi kommer att beräkna våra delsummor.
 ## Steg 5: Tillämpa delsummor
 Detta är hjärtat i vår verksamhet – att tillämpa delsumman på det definierade cellområdet.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  På den här raden kallar vi`Subtotal` metod. De definierade parametrarna är:
 - `ca`: Cellintervallet vi definierade tidigare.
 - `0`: Detta index hänvisar till kolumnen som innehåller värdena som ska subtotalas. 
-- `ConsolidationFunction.Sum`Detta anger att vi vill summera värdena.
+- `ConsolidationFunction.Sum`: Detta anger att vi vill summera värdena.
 - `new int[] { 1 }`: Detta indikerar att vi summerar värdena från den andra kolumnen (kolumn C).
 ## Steg 6: Spara den modifierade Excel-filen
 Äntligen måste vi spara våra ändringar i en ny Excel-fil. 

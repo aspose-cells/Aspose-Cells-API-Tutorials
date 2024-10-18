@@ -76,7 +76,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 3);
 ```
 
 ## Conclusion
-Aspose.Cells pour Java propose une large gamme de fonctionnalités pour l'analyse de données dans Excel. Dans ce guide, nous avons abordé les bases du tri, du filtrage, du calcul de statistiques et de la création de tableaux croisés dynamiques. Vous pouvez désormais exploiter la puissance d'Aspose.Cells pour automatiser et rationaliser vos tâches d'analyse de données dans Excel.
+Aspose.Cells pour Java propose une large gamme de fonctionnalités pour l'analyse des données dans Excel. Dans ce guide, nous avons abordé les bases du tri, du filtrage, du calcul des statistiques et de la création de tableaux croisés dynamiques. Vous pouvez désormais exploiter la puissance d'Aspose.Cells pour automatiser et rationaliser vos tâches d'analyse de données dans Excel.
 
 ## FAQ
 

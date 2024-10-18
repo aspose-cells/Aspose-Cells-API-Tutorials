@@ -13,7 +13,7 @@ url: /ja/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 ## 前提条件
 
-手順に進む前に、いくつかのものを準備しておいてください。
+手順に進む前に、いくつかの準備が整っていることを確認してください。
 
 1. .NET 環境: .NET 開発環境をセットアップする必要があります。Visual Studio、Visual Studio Code、またはその他の互換性のある IDE を使用できます。
    
@@ -56,7 +56,7 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
-交換する`"Your Document Directory"`Excel ファイルが保存されているパスを入力します。
+交換する`"Your Document Directory"` Excel ファイルが保存されているパスを入力します。
 
 ## ステップ2: ワークブックを読み込む
 

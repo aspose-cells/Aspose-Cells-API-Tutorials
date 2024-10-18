@@ -27,7 +27,7 @@ url: /ko/net/excel-workbook/access-web-extension-information/
 
 1. 프로젝트 열기: Visual Studio IDE를 실행하고 Aspose.Cells를 사용할 프로젝트를 엽니다.
 2.  NuGet 패키지 추가: 이동`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution` . 검색`Aspose.Cells` 설치하세요.
-3. 지시어 사용: Aspose.Cells 네임스페이스에 액세스하려면 C# 파일 맨 위에 다음 using 지시어를 추가합니다.
+3. 지시문 사용: Aspose.Cells 네임스페이스에 액세스하려면 C# 파일 맨 위에 다음 using 지시문을 추가합니다.
 
 ```csharp
 using Aspose.Cells.WebExtensions;
@@ -53,7 +53,7 @@ Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 
 ## 3단계: 웹 확장 작업 창 가져오기
 
- 통합 문서가 로드되면 이제 액세스할 수 있습니다.`WebExtensionTaskPanes` 컬렉션. 이렇게 하면 통합 문서에 포함된 웹 확장에 필요한 액세스가 제공됩니다.
+ 통합 문서가 로드되면 이제 액세스할 수 있습니다.`WebExtensionTaskPanes` 컬렉션. 이렇게 하면 통합 문서에 포함된 웹 확장에 필요한 액세스 권한이 부여됩니다.
 
 ```csharp
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
@@ -115,7 +115,7 @@ Aspose.Cells는 .NET 애플리케이션에서 Excel 스프레드시트를 조작
 ### Aspose.Cells를 어떻게 다운로드하나요?
  여기에서 다운로드할 수 있습니다[공식 사이트](https://releases.aspose.com/cells/net/).
 
-### Aspose.Cells는 웹 확장을 지원하나요?
+### Aspose.Cells는 웹 확장을 지원합니까?
 네, Aspose.Cells는 웹 확장 기능을 완벽하게 지원하여 효과적인 조작과 액세스가 가능합니다.
 
 ### Aspose.Cells는 어떤 프로그래밍 언어를 지원하나요?

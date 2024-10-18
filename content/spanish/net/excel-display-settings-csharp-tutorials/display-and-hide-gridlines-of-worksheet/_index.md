@@ -39,14 +39,14 @@ Ahora, desglosemos este ejemplo paso a paso para que quede más claro y sencillo
 
 ## Paso 1: Configura tu directorio de trabajo
 
-Antes de poder manipular cualquier archivo de Excel, debe especificar la ubicación del archivo. Esta ruta indicará el directorio donde se encuentra el archivo de Excel.
+Antes de poder manipular cualquier archivo de Excel, debe especificar la ubicación del archivo. Esta ruta apuntará al directorio donde se encuentra el archivo de Excel.
 
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- En este paso, asignará la ubicación de su archivo de Excel a la`dataDir` cadena. Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra`.xls` donde se encuentra el archivo.
+ En este paso, asignará la ubicación de su archivo de Excel a la`dataDir` cadena. Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra`.xls`donde se encuentra el archivo.
 
 ## Paso 2: Crear un flujo de archivos
 
@@ -57,7 +57,7 @@ A continuación, crearemos un flujo de archivos para abrir el archivo de Excel. 
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Aquí se crea un FileStream para abrir el archivo de Excel. Usamos el`FileMode.Open` Bandera para indicar que estamos abriendo un archivo existente. Asegúrate de que tu archivo de Excel (en este caso, "book1.xls") esté en el directorio correcto.
+ Aquí se crea un FileStream para abrir el archivo de Excel. Usamos el`FileMode.Open` Bandera para indicar que estamos abriendo un archivo existente. Asegúrese de que su archivo de Excel (en este caso, "book1.xls") esté en el directorio correcto.
 
 ## Paso 3: Crear una instancia del objeto de libro de trabajo
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Los archivos de Excel suelen contener varias hojas de cálculo. En este tutorial, accederemos a la primera hoja de cálculo del libro.
 
 ```csharp
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Ahora viene la parte divertida: ¡ocultar las líneas de cuadrícula! Con solo una línea de código, puedes alternar la visibilidad de las líneas de cuadrícula.
 
 ```csharp
-//Ocultar las líneas de cuadrícula de la primera hoja de cálculo del archivo Excel
+// Ocultar las líneas de cuadrícula de la primera hoja de cálculo del archivo Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Cerrar el flujo de archivos es fundamental porque garantiza que todos los recurs
 
 ## Conclusión
 
-¡Y eso es todo! Acabas de aprender a mostrar y ocultar líneas de cuadrícula en una hoja de cálculo de Excel con Aspose.Cells para .NET. Ya sea que estés puliendo un informe o presentando datos en un formato más legible, esta sencilla técnica puede afectar significativamente la apariencia de tus hojas de cálculo. ¿La mejor parte? Solo se necesitan unas pocas líneas de código para hacer grandes cambios. Si estás listo para probar esto, no olvides obtener una[prueba gratis](https://releases.aspose.com/) ¡Y empieza a codificar!
+ ¡Y eso es todo! Acabas de aprender a mostrar y ocultar líneas de cuadrícula en una hoja de cálculo de Excel con Aspose.Cells para .NET. Ya sea que estés puliendo un informe o presentando datos en un formato más legible, esta sencilla técnica puede afectar significativamente la apariencia de tus hojas de cálculo. ¿La mejor parte? Solo se necesitan unas pocas líneas de código para hacer grandes cambios. Si estás listo para probar esto, no olvides obtener una[prueba gratis](https://releases.aspose.com/) ¡Y empieza a codificar!
 
 ## Preguntas frecuentes
 
@@ -124,7 +124,7 @@ Cerrar el flujo de archivos es fundamental porque garantiza que todos los recurs
  Puedes configurar`worksheet.IsGridlinesVisible = true;` para que las líneas de la cuadrícula vuelvan a ser visibles.
 
 ### ¿Puedo ocultar líneas de cuadrícula solo para rangos o celdas específicos?  
- No, el`IsGridlinesVisible` La propiedad se aplica a toda la hoja de cálculo, no a celdas específicas.
+ No, el`IsGridlinesVisible`La propiedad se aplica a toda la hoja de cálculo, no a celdas específicas.
 
 ### ¿Puedo manipular varias hojas de trabajo a la vez?  
  ¡Sí! Puedes recorrer el`Worksheets` recopilación y aplicar cambios a cada hoja.

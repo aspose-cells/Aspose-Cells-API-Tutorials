@@ -18,7 +18,7 @@ Prima di iniziare il tutorial, assicuriamoci che tu abbia tutto il necessario pe
 1. Visual Studio installato: per scrivere ed eseguire il codice .NET, avrai bisogno di un IDE come Visual Studio.
 2. .NET Framework: questo tutorial presuppone che tu stia utilizzando .NET Framework 4.0 o versione successiva. Tuttavia, Aspose.Cells è compatibile anche con .NET Core.
 3.  Libreria Aspose.Cells: se non lo hai ancora fatto, scarica la libreria dal sito web di Aspose[Qui](https://releases.aspose.com/cells/net/) . Puoi anche iniziare con una prova gratuita disponibile[Qui](https://releases.aspose.com/).
-4.  File Excel di esempio: utilizzeremo un file Excel di esempio denominato`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Assicurati di avere questo file pronto nella tua directory di lavoro.
+4. File Excel di esempio: utilizzeremo un file Excel di esempio denominato`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Assicurati di avere questo file pronto nella tua directory di lavoro.
 
 ## Importa pacchetti
 
@@ -62,7 +62,7 @@ Ora sei pronto per iniziare a manipolare il nostro file Excel!
 Prima di caricare il file Excel, impostiamo le directory di output e di origine. Questo ci consentirà di specificare dove sono archiviati i nostri file.
 
 ```csharp
-// Directory di output: dove verrà salvato il PDF
+//Directory di output: dove verrà salvato il PDF
 string outputDir = "Your Output Directory"; // specifica qui la tua directory di output
 
 // Directory di origine: dove si trova il file Excel di esempio
@@ -108,7 +108,7 @@ In Excel, una delle funzionalità chiave nei grafici è la gestione delle unità
 
 ```csharp
 // Imposta l'unità principale per l'asse Y
-ch.AxisY.MajorUnit = 10; // Puoi impostare in base alle tue esigenze
+ch.AxisY.MajorUnit = 10; //Puoi impostare in base alle tue esigenze
 ```
 
 Aggiorniamo subito le unità automatiche!
@@ -150,5 +150,5 @@ Solo la libreria Aspose.Cells e un .NET Framework installati sul computer.
 ### Posso visualizzare i grafici in formati diversi dal PDF?
 Assolutamente! Aspose.Cells supporta vari formati come XLSX, HTML e immagini.
 
-### Dove posso trovare supporto se riscontro problemi?
-Puoi chiedere aiuto alla comunità Aspose[Qui](https://forum.aspose.com/c/cells/9).
+### Dove posso trovare supporto se riscontro dei problemi?
+ Puoi chiedere aiuto alla comunità Aspose[Qui](https://forum.aspose.com/c/cells/9).

@@ -27,7 +27,7 @@ Aspose.Cells for Java를 사용하여 Excel 암호 보호로 데이터 보안을
 ### [셀 잠금 전략](./cell-locking-strategies/)
 Aspose.Cells for Java를 사용하여 효과적인 셀 잠금 전략을 배우세요. 단계별 안내로 Excel 파일의 데이터 보안 및 무결성을 강화하세요.
 ### [통합 문서 암호화 방법](./workbook-encryption-methods/)
-Aspose.Cells for Java Workbook Encryption으로 데이터 보안을 강화하세요. Excel Workbook을 단계별로 암호화하는 방법을 알아보세요.
+Aspose.Cells for Java Workbook 암호화로 데이터 보안을 강화하세요. Excel Workbook을 단계별로 암호화하는 방법을 알아보세요.
 ### [데이터 마스킹 기술](./data-masking-techniques/)
 Aspose.Cells for Java를 사용하여 효과적인 데이터 마스킹 기술을 배우세요. 데이터 무결성을 유지하면서 민감한 정보를 보호하세요.
 ### [파일 액세스 감사](./auditing-file-access/)

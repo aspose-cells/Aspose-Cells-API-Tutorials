@@ -38,7 +38,7 @@ using System.IO;
 
 ## 1단계: 소스 및 출력 디렉토리 설정
 
-먼저, 소스 Excel 파일이 어디에 있는지, 서명된 출력 파일을 어디에 저장할지 정의해야 합니다. 이는 파일을 효율적으로 구성하는 데 도움이 되기 때문에 중요한 단계입니다.
+먼저, 우리는 소스 Excel 파일이 어디에 있는지, 그리고 서명된 출력 파일을 어디에 저장할지 정의해야 합니다. 이것은 파일을 효율적으로 구성하는 데 도움이 되기 때문에 중요한 단계입니다.
 
 ```csharp
 // 소스 디렉토리
@@ -104,7 +104,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## 결론
 
-이제 Aspose.Cells for .NET을 사용하여 Excel 파일에 Xades 서명을 성공적으로 추가했습니다. 이 프로세스는 문서의 보안을 강화할 뿐만 아니라 파일의 신뢰성을 보장하여 사용자와의 신뢰를 구축합니다. 
+이제 아시죠! Aspose.Cells for .NET을 사용하여 Excel 파일에 Xades 서명을 성공적으로 추가했습니다. 이 프로세스는 문서의 보안을 강화할 뿐만 아니라 파일의 신뢰성을 보장하여 사용자와의 신뢰를 구축합니다. 
 디지털 서명은 현대 문서 관리에 필수적인 부분이며, Aspose.Cells의 기능을 사용하면 애플리케이션에서 디지털 서명을 쉽게 구현할 수 있습니다.
 
 ## 자주 묻는 질문
@@ -115,7 +115,7 @@ Xades(XML Advanced Electronic Signatures)는 전자 문서의 무결성과 진�
 ### Xades 서명을 만들려면 디지털 인증서가 필요합니까?
 네, Xades 서명을 만들려면 유효한 디지털 인증서(PFX 파일)가 필요합니다.
 
-### 구매하기 전에 Aspose.Cells를 .NET용으로 테스트해 볼 수 있나요?
+### 구매하기 전에 Aspose.Cells for .NET을 테스트해 볼 수 있나요?
  물론입니다! 무료 체험판을 받으실 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/).
 
 ### Aspose.Cells는 모든 버전의 .NET과 호환됩니까?

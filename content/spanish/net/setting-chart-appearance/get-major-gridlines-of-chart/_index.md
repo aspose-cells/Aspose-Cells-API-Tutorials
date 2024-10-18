@@ -15,7 +15,7 @@ La creación de gráficos visualmente atractivos e informativos es esencial para
 
 Antes de sumergirnos en el tutorial, asegúrate de tener todo listo:
 
--  Aspose.Cells para .NET: Asegúrese de tener la biblioteca Aspose.Cells descargada y referenciada en su proyecto. Puede obtenerla[aquí](https://releases.aspose.com/cells/net/).
+- Aspose.Cells para .NET: Asegúrese de tener la biblioteca Aspose.Cells descargada y referenciada en su proyecto. Puede obtenerla[aquí](https://releases.aspose.com/cells/net/).
 - Entorno de desarrollo: cualquier entorno de desarrollo .NET funcionará, pero se recomienda Visual Studio por su sólido soporte y herramientas.
 - Comprensión básica de C#: Estar familiarizado con los conceptos básicos de programación de C# será útil ya que escribiremos algo de código.
 
@@ -45,7 +45,7 @@ Esta línea de código nos ayuda a mantener organizados nuestros archivos. Aseg�
 
 ## Paso 2: Crear un objeto de libro de trabajo
 
-continuación, crearemos un objeto de libro de trabajo. Este objeto representará nuestro archivo de Excel.
+A continuación, crearemos un objeto de libro de trabajo. Este objeto representará nuestro archivo de Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -110,7 +110,7 @@ Este código le indica a nuestro gráfico que utilice el rango de celdas A1 a B3
 
 ## Paso 8: Personaliza la apariencia del gráfico
 
-A continuación, haremos que nuestro gráfico sea estéticamente agradable. Podemos modificar los colores de las distintas áreas del gráfico:
+continuación, haremos que nuestro gráfico sea estéticamente agradable. Podemos modificar los colores de las distintas áreas del gráfico:
 
 ```csharp
 chart.PlotArea.Area.ForegroundColor = Color.Yellow;
@@ -141,13 +141,13 @@ Estas dos líneas garantizarán que los usuarios puedan leer e interpretar fáci
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-Esta línea guardará tu trabajo como un archivo de Excel en el directorio especificado. Considéralo como hacer clic en "guardar" en tu obra de arte, lo que garantiza que esté allí para que otros la admiren (o para que tú la vuelvas a ver).
+Esta línea guardará su trabajo como un archivo de Excel en el directorio especificado. Considérelo como hacer clic en "guardar" en su obra de arte, lo que garantiza que esté allí para que otros la admiren (o para que usted la vuelva a ver).
 
 ## Conclusión
 
 ¡Y listo! Has creado con éxito una hoja de cálculo de Excel que incluye un gráfico con líneas de cuadrícula principales utilizando Aspose.Cells para .NET. No solo aprendiste sobre gráficos, sino que también adquiriste habilidades para manipular elementos visualmente atractivos. Este método puede ser muy útil en informes comerciales, presentaciones académicas o cualquier escenario en el que la visualización de datos sea clave para transmitir tu mensaje.
 
-¡Si domina estas técnicas, estará en el camino correcto para crear informes dinámicos que harán que sus datos destaquen!
+¡Si domina estas técnicas, estará bien encaminado para crear informes dinámicos que hagan que sus datos destaquen!
 
 ## Preguntas frecuentes
 

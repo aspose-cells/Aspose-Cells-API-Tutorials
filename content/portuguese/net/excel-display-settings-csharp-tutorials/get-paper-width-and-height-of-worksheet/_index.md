@@ -58,7 +58,7 @@ Aqui, estamos pegando a primeira planilha (índice 0) da nossa pasta de trabalho
 
 ## Etapa 3: Defina o tamanho do papel e obtenha as dimensões
 
-Agora vem a parte emocionante! Vamos definir diferentes tamanhos de papel e recuperar suas dimensões uma por uma. Esta etapa é crucial, pois nos permite ver como tamanhos diferentes afetam o layout.
+Agora vem a parte emocionante! Definiremos diferentes tamanhos de papel e recuperaremos suas dimensões uma por uma. Esta etapa é crucial, pois nos permite ver como tamanhos diferentes afetam o layout.
 
 ```csharp
 //Defina o tamanho do papel como A2 e imprima a largura e a altura do papel em polegadas
@@ -99,7 +99,7 @@ Aspose.Cells é uma biblioteca .NET projetada para processar arquivos do Excel s
  Sim! Você pode começar com um teste gratuito disponível em[este link](https://releases.aspose.com/).
 
 ### Como posso definir tamanhos de papel personalizados?
- Aspose.Cells fornece opções para definir tamanhos de papel personalizados usando o`PageSetup` aula.
+ O Aspose.Cells fornece opções para definir tamanhos de papel personalizados usando o`PageSetup` aula.
 
 ### É necessário conhecimento de codificação para usar o Aspose.Cells?
 Conhecimento básico de codificação ajuda, mas você pode seguir tutoriais para facilitar o entendimento!

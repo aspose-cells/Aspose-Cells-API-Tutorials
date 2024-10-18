@@ -26,7 +26,7 @@ Entdecken Sie die Leistungsfähigkeit dynamischer Dropdown-Listen in Excel. Schr
 Optimieren Sie Ihre Datenvalidierungsfehlermeldungen mit Aspose.Cells für Java. Erfahren Sie, wie Sie Benutzererfahrungen erstellen, anpassen und verbessern.
 ### [Kaskadierende Dropdown-Listen in Excel](./cascading-dropdowns-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java kaskadierende Dropdown-Menüs in Excel erstellen. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und Expertentipps für die effiziente Bearbeitung von Excel-Tabellen.
-### [Datumsüberprüfung in Tabellenkalkulationen](./date-validation-in-spreadsheets/)
+### [Datumsvalidierung in Tabellenkalkulationen](./date-validation-in-spreadsheets/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Datumsvalidierung in Excel-Tabellen durchführen. Stellen Sie mit unserer Schritt-für-Schritt-Anleitung die Genauigkeit und Integrität Ihrer Daten sicher. Entdecken Sie leistungsstarke Excel-Manipulationstechniken.
 ### [Tipps zur Validierung numerischer Daten](./numeric-data-validation-tips/)
 Beherrschen Sie die numerische Datenvalidierung mit Aspose.Cells für Java. Erfahren Sie, wie Sie die Datengenauigkeit sicherstellen und Fehler in Ihren Java-Anwendungen vermeiden.

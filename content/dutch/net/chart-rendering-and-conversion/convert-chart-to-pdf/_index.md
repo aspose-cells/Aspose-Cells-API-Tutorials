@@ -18,7 +18,7 @@ Voordat u in de tutorial duikt, moet u ervoor zorgen dat u de juiste instellinge
 ### .NET-framework
 Zorg ervoor dat u het .NET-framework op uw machine hebt geïnstalleerd. Aspose.Cells is compatibel met verschillende versies, maar werkt over het algemeen het beste met de nieuwste.
 
-### Aspose.Cells Bibliotheek
+### Aspose.Cells-bibliotheek
  U hebt de Aspose.Cells for .NET-bibliotheek nodig. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/)De bibliotheek wordt geleverd met een uitgebreide API die alle functies omvat die u nodig hebt voor Excel-manipulaties.
 
 ### Visuele Studio
@@ -38,7 +38,7 @@ Begin met het maken van een nieuw C#-project in Visual Studio:
 1. Open Visual Studio.
 2. Klik op ‘Een nieuw project maken’.
 3. Selecteer “Console App (.NET Core)” of “Console App (.NET Framework)” op basis van uw vereisten.
-4. Geef uw project een naam en klik op ‘Maken’.
+4. Geef uw project een naam en klik op “Maken”.
 
 ### Voeg Aspose.Cells-referentie toe
 
@@ -157,7 +157,7 @@ En daar heb je het! Door Aspose.Cells voor .NET te gebruiken, wordt het converte
  Ja, je kunt door de`worksheet.Charts` verzameling om elke grafiek afzonderlijk te converteren.
 
 ### Is Aspose.Cells geschikt voor grote Excel-bestanden?
-Absoluut! Aspose.Cells is geoptimaliseerd voor prestaties en kan grote Excel-bestanden efficiënt verwerken.
+Absoluut! Aspose.Cells is geoptimaliseerd voor prestaties en kan efficiënt grote Excel-bestanden verwerken.
 
 ### Welke versies van .NET ondersteunt Aspose.Cells?
 Aspose.Cells ondersteunt verschillende versies van .NET, waaronder .NET Framework en .NET Core.

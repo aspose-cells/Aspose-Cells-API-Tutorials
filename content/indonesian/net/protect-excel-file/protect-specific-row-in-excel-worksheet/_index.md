@@ -49,7 +49,7 @@ Pertama, kita perlu menentukan direktori tempat kita akan menyimpan berkas Excel
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // ubah ke jalur yang Anda inginkan.
 
-// Buat direktori jika belum ada.
+//Buat direktori jika belum ada.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -143,7 +143,7 @@ Ya, Anda dapat mengulangi proses penguncian untuk baris lainnya dengan cara yang
 Anda dapat memilih sel satu per satu dan menerapkan gaya penguncian, mirip dengan cara Anda mengunci baris.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?  
-Aspose.Cells adalah produk komersial, tetapi Anda dapat mencobanya dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+ Aspose.Cells adalah produk komersial, tetapi Anda dapat mencobanya dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
 
 ### Apakah saya memerlukan koneksi internet untuk menggunakan Aspose.Cells?  
 Tidak, Aspose.Cells adalah pustaka .NET dan dapat bekerja secara offline setelah Anda menginstalnya.

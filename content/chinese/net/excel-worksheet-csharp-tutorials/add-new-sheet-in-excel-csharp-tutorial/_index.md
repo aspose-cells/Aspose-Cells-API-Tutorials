@@ -77,7 +77,7 @@ Workbook workbook = new Workbook();
 int i = workbook.Worksheets.Add();
 ```
 
-在这里，我们使用`Add()`方法`Worksheets`收藏品目前在`Workbook`类。该方法返回一个索引（`i`新增工作表。就像在笔记本中添加一页一样 - 简单又高效！
+在这里，我们使用`Add()`方法`Worksheets`收藏品目前在`Workbook`类。该方法返回一个索引（`i`) 即可添加新工作表。就像在笔记本中添加一页一样，简单又高效！
 
 ## 步骤 4：命名新工作表
 
@@ -108,7 +108,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 就这样！只需几个简单的步骤，我们就介绍了如何使用 C# 和 Aspose.Cells 将新工作表添加到 Excel 文件。无论您只是在修改代码还是在处理更广泛的项目，此功能都可以大大增强您的数据管理工作流程。 
 
-有了 Aspose.Cells，一切皆有可能。您可以用各种方式处理数据 — 编辑、格式化，甚至创建公式！所以请继续探索吧；您的 Excel 文件会感谢您的帮助。
+有了 Aspose.Cells，一切皆有可能。您可以通过多种方式处理数据 — 编辑、格式化，甚至创建公式！所以请继续探索；您的 Excel 文件会感谢您的帮助。
 
 ## 常见问题解答
 
@@ -116,7 +116,7 @@ workbook.Save(dataDir + "output.out.xls");
 Aspose.Cells for .NET 是一个功能强大的库，用于创建、操作和转换 Excel 文件，无需安装 Microsoft Excel。
 
 ### 我可以一次添加多张工作表吗？  
-是的，只需致电`Add()`方法多次，并通过其索引引用每个工作表！
+是的，只需致电`Add()`方法多次，并通过其索引引用每张表！
 
 ### Aspose.Cells 有免费试用版吗？  
 当然！您可以下载免费试用版[这里](https://releases.aspose.com/).
@@ -124,5 +124,5 @@ Aspose.Cells for .NET 是一个功能强大的库，用于创建、操作和转�
 ### 添加新工作表后我可以格式化它吗？  
 当然可以！您可以使用库的功能将样式、格式甚至公式应用于工作表。
 
-### 在哪里可以找到更多信息和支持？  
+### 我可以在哪里找到更多信息和支持？  
 您可以探索[文档](https://reference.aspose.com/cells/net/)获取详细指南并加入社区支持[论坛](https://forum.aspose.com/c/cells/9). 

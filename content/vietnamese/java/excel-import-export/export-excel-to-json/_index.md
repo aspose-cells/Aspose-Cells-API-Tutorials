@@ -2,7 +2,7 @@
 title: Xuất Excel sang JSON
 linktitle: Xuất Excel sang JSON
 second_title: API xử lý Excel Java của Aspose.Cells
-description: Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Java. Làm theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch.
+description: Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch.
 type: docs
 weight: 17
 url: /vi/java/excel-import-export/export-excel-to-json/

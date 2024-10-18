@@ -85,7 +85,7 @@ Aspose.Cells para Java utiliza algoritmos de cifrado fuertes como AES-128 para p
 
 No, una vez que un libro de trabajo se cifra con un método específico, no puedes cambiar el método de cifrado para ese libro de trabajo.
 
-### ¿Existe un límite para la longitud y complejidad de la contraseña de cifrado?
+### ¿Existe un límite para la longitud y la complejidad de la contraseña de cifrado?
 
 Si bien no existe un límite estricto, se recomienda utilizar una contraseña segura y única para mejorar la seguridad.
 

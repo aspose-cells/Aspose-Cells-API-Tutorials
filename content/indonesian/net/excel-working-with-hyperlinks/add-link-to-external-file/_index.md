@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Langkah 2: Buat Objek Buku Kerja
 Selanjutnya, kita akan membuat buku kerja Excel baru. Ini adalah kanvas kosong tempat Anda dapat mulai menambahkan fungsi.
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
  Pikirkanlah tentang`Workbook` sebagai buku catatan baru tempat Anda dapat menuliskan semua yang Anda butuhkan. Sekarang buku catatan itu kosong, siap untuk masukan Anda!
@@ -72,9 +72,9 @@ Terakhir, mari cetak pesan konfirmasi setelah semuanya berhasil dilakukan.
 ```csharp
 Console.WriteLine("AddingLinkToExternalFile executed successfully.");
 ```
-Baris ini akan menampilkan pesan yang mengonfirmasi keberhasilan operasi di konsol Anda. Pesan ini seperti mengatakan, “Semua sudah siap! Pekerjaan sudah selesai!”
+Baris ini akan menampilkan pesan yang mengonfirmasi keberhasilan operasi di konsol Anda. Seperti mengatakan, “Semua sudah siap! Pekerjaan sudah selesai!”
 ## Kesimpulan
-Nah, itu dia! Hanya dalam beberapa langkah, Anda telah mempelajari cara menambahkan hyperlink ke file eksternal dalam buku kerja Excel menggunakan Aspose.Cells for .NET. Fungsionalitas hebat ini meningkatkan kemampuan adaptasi lembar kerja Anda dan menghubungkan data Anda secara efisien. Dengan pengetahuan ini, Anda dapat membuat dokumen Excel yang lebih interaktif dan bermanfaat, yang mendorong organisasi dan kolaborasi yang lebih baik.
+Nah, itu dia! Hanya dalam beberapa langkah, Anda telah mempelajari cara menambahkan hyperlink ke file eksternal dalam buku kerja Excel menggunakan Aspose.Cells for .NET. Fungsionalitas hebat ini meningkatkan kemampuan adaptasi lembar kerja Anda dan menghubungkan data Anda secara efisien. Dengan pengetahuan ini, Anda dapat membuat dokumen Excel yang lebih interaktif dan bermanfaat, yang mendorong pengorganisasian dan kolaborasi yang lebih baik.
 ## Pertanyaan yang Sering Diajukan
 ### Apa itu Aspose.Cells?
 Aspose.Cells adalah pustaka .NET yang digunakan untuk membuat dan memanipulasi file Excel secara terprogram.

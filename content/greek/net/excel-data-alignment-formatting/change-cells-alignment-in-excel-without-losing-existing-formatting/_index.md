@@ -18,7 +18,7 @@ url: /el/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-wit
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio (οποιαδήποτε έκδοση που υποστηρίζει .NET) στον υπολογιστή σας.
 2.  Aspose.Cells για .NET: Κάντε λήψη και εγκατάσταση της βιβλιοθήκης Aspose.Cells από[Ο ιστότοπος του Aspose](https://releases.aspose.com/cells/net/).
 3. Βασικές γνώσεις C#: Λίγη εξοικείωση με τον προγραμματισμό C# θα σας φανεί χρήσιμη καθώς θα εργαζόμαστε σε ένα πλαίσιο C#.
-4. Δείγμα αρχείου Excel: Για επίδειξη, ετοιμάστε ένα δείγμα αρχείου Excel (π.χ.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) που περιέχει κάποια αρχική μορφοποίηση κελιών.
+4.  Δείγμα αρχείου Excel: Για επίδειξη, ετοιμάστε ένα δείγμα αρχείου Excel (π.χ.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) που περιέχει κάποια αρχική μορφοποίηση κελιών.
 
 ## Εισαγωγή πακέτων
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ρυθμίζοντας το`Alignments` ιδιοκτησία του StyleFlag να`true`, λέτε στο Aspose.Cells να εφαρμόσει σωστά τα στυλ ευθυγράμμισης.
+ Ρυθμίζοντας το`Alignments`ιδιοκτησία του StyleFlag να`true`, λέτε στο Aspose.Cells να εφαρμόσει σωστά τα στυλ ευθυγράμμισης.
 
 ## Βήμα 7: Εφαρμόστε το στυλ στην περιοχή κελιών
 

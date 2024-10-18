@@ -9,7 +9,7 @@ url: /vi/net/excel-data-import-export/
 ---
 ## Giới thiệu
 
-Chào mừng bạn đến với hành trình thú vị để làm chủ thao tác dữ liệu Excel với Aspose.Cells cho .NET. Nếu bạn đã từng vật lộn với việc đưa dữ liệu vào Excel một cách liền mạch hoặc gặp phải sự cố khi cố gắng tinh chỉnh bảng tính của mình, thì bạn đã đến đúng nơi rồi! Thư viện mạnh mẽ này cho phép các nhà phát triển tương tác với Excel theo cách chưa từng có, giúp bạn dễ dàng thực hiện các thao tác như nhập và xuất dữ liệu. Trong bài viết này, chúng tôi sẽ nêu bật hai hướng dẫn thiết yếu sẽ giúp bạn đi đúng hướng.
+Chào mừng bạn đến với hành trình thú vị để làm chủ thao tác dữ liệu Excel với Aspose.Cells cho .NET. Nếu bạn đã từng vật lộn với việc đưa dữ liệu của mình vào Excel một cách liền mạch hoặc gặp phải sự cố khi cố gắng điều chỉnh bảng tính của mình, thì bạn đã đến đúng nơi rồi! Thư viện mạnh mẽ này cho phép các nhà phát triển tương tác với Excel theo cách chưa từng có, giúp bạn thực hiện các thao tác như nhập và xuất dữ liệu một cách dễ dàng. Trong bài viết này, chúng tôi sẽ nêu bật hai hướng dẫn thiết yếu sẽ giúp bạn đi đúng hướng.
 
 ## Nhập dữ liệu vào Excel với định dạng tùy chỉnh
 

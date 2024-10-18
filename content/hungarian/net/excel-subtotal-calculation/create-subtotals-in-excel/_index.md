@@ -11,7 +11,7 @@ url: /hu/net/excel-subtotal-calculation/create-subtotals-in-excel/
 Készen áll arra, hogy javítsa Excel-készségeit, és dinamikusabbá tegye táblázatait? Az Excelben részösszegek létrehozása segíthet az adatok hatékony kategorizálásában és összesítésében, ami jobb adatértelmezést és jelentéskészítést tesz lehetővé. Ha Ön olyan ember, aki gyakran találja magát birkózni rengeteg számmal, elengedhetetlen a strukturált összefoglalók létrehozása. Ma belevetjük magunkat abba, hogyan hozhatunk létre részösszegeket könnyedén az Aspose.Cells for .NET használatával, amely egy olyan hatékony könyvtár, amely képes kezelni az összes Excel-fájlkezelést.
 ## Előfeltételek
 Mielőtt belevetnénk magunkat a részösszegek Excelben való létrehozásának mesterkéltségébe, meg kell felelnie néhány előfeltételnek:
-1. Aspose.Cells for .NET telepítve: Győződjön meg arról, hogy az Aspose.Cells könyvtár be van állítva a fejlesztői környezetben. Ha még nem tette meg, könnyen megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET telepítve: Győződjön meg arról, hogy az Aspose.Cells könyvtár be van állítva a fejlesztői környezetben. Ha még nem tette meg, könnyen megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 2. .NET-környezet: Rendelkeznie kell egy működő .NET-környezettel, ahol együttműködhetünk a könyvtárral. Legyen szó Visual Studio-ról vagy bármely más IDE-ről, ügyeljen arra, hogy kényelmesen kódoljon C#-ban.
 3. Alapszintű C# ismerete: A C# ismerete előnyt jelent. Az általunk bemutatott példák C# szintaxisúak, így ha jól ismeri, segít megérteni a folyamatot.
 4.  Excel munkalap: egy példa Excel-fájl a gyakorláshoz. nevű fájlt fogjuk használni`book1.xls` oktatóanyagunkban.
@@ -29,7 +29,7 @@ A kezdéshez meg kell határoznunk, hol található az Excel fájlunk. Itt mondj
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`book1.xls` tárolva van. Ez megmondja a programnak, hogy hol találja meg a kezelni kívánt Excel fájlt.
+ Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`book1.xls`tárolva van. Ez megmondja a programnak, hogy hol találja meg a kezelni kívánt Excel fájlt.
 ## 2. lépés: Példányosítson egy új munkafüzetet
 Ezután létrehozzuk a munkafüzet objektum új példányát. Ez lehetővé teszi az Excel fájl megnyitását és szerkesztését.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Itt definiáljuk a`CellArea` Ebben az esetben a B3 (2. sor, 1. oszlop) és a C19 (18. sor, 2. oszlop) közötti területet választottuk. Itt fogjuk kiszámolni a részösszegeket.
+ Itt definiáljuk a`CellArea`Ebben az esetben a B3 (2. sor, 1. oszlop) és a C19 (18. sor, 2. oszlop) közötti területet választottuk. Itt fogjuk kiszámolni a részösszegeket.
 ## 5. lépés: Alkalmazza a Részösszegeket
 Ez a működésünk lényege – a részösszeg alkalmazása a meghatározott cellaterületre.
 ```csharp
@@ -60,7 +60,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  Ebben a sorban hívjuk a`Subtotal` módszer. A meghatározott paraméterek a következők:
 - `ca`: A korábban meghatározott cellák tartománya.
 - `0`: Ez az index arra az oszlopra vonatkozik, amely a részösszegezendő értékeket tartalmazza. 
-- `ConsolidationFunction.Sum`Ez megadja, hogy az értékeket össze akarjuk adni.
+- `ConsolidationFunction.Sum`: Ez megadja, hogy az értékeket össze akarjuk adni.
 - `new int[] { 1 }`: Ez azt jelzi, hogy a második oszlop (C oszlop) értékeit összesítjük.
 ## 6. lépés: Mentse el a módosított Excel-fájlt
 Végül el kell mentenünk a változtatásokat egy új Excel fájlba. 
@@ -79,6 +79,6 @@ Az Aspose.Cells for .NET egy hatékony könyvtár, amely lehetővé teszi a fejl
 ### Lehetséges más típusú Excel-szolgáltatások létrehozása az Aspose.Cells használatával?
 Teljesen! Az Aspose.Cells lehetővé teszi különféle Excel-műveletek végrehajtását, például diagramok létrehozását, munkalapok kezelését és cellaformátumok módosítását.
 ### Használhatom ingyenesen az Aspose.Cells-t?
- Tudod[próbáljon ki egy ingyenes próbaverziót](https://releases.aspose.com/) Az Aspose.Cells szolgáltatást, hogy a vásárlás előtt fedezze fel a funkcióit.
+ Megteheti[próbáljon ki egy ingyenes próbaverziót](https://releases.aspose.com/) Az Aspose.Cells szolgáltatást, hogy a vásárlás előtt fedezze fel a funkcióit.
 ### Milyen támogatási lehetőségek állnak rendelkezésre?
  Bármilyen probléma esetén keresse fel a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) segítséget kapni, és megosztani betekintést a felhasználók és fejlesztők közösségével.

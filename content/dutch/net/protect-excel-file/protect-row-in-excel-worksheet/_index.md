@@ -34,7 +34,7 @@ Nu we de vereiste pakketten hebben geïmporteerd, doorlopen we de stappen om een
 
 ## Stap 1: Definieer de directory
 
-In deze stap specificeren we de locatie waar ons Excel-bestand wordt opgeslagen. Het is belangrijk om ervoor te zorgen dat deze directory bestaat, anders maken we deze programmatisch aan indien nodig.
+In deze stap specificeren we de locatie waar ons Excel-bestand wordt opgeslagen. Het is belangrijk om ervoor te zorgen dat deze directory bestaat, anders maken we deze programmatisch aan als dat nodig is.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Vervang met uw documentpad
@@ -57,7 +57,7 @@ Workbook wb = new Workbook();
 
 ## Stap 3: Toegang tot het werkblad
 
-Nu de werkmap is gemaakt, kunnen we aan de slag met het eerste werkblad. Vergeet niet dat een Excel-bestand meerdere werkbladen kan bevatten, dus het is cruciaal om de juiste te kiezen.
+Nu de werkmap is gemaakt, gaan we aan de slag met het eerste werkblad. Vergeet niet dat een Excel-bestand meerdere werkbladen kan bevatten, dus het is cruciaal om de juiste te kiezen.
 
 ```csharp
 Worksheet sheet = wb.Worksheets[0]; // Toegang tot het eerste blad

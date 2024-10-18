@@ -29,7 +29,7 @@ Lassen Sie uns zunächst ein neues Java-Projekt erstellen, in dem wir eine bedin
 
 ## Schritt 2: Aspose.Cells für Java importieren
 
-In Ihrem Java-Projekt müssen Sie die Bibliothek Aspose.Cells für Java importieren, um auf ihre Funktionen zugreifen zu können. So können Sie das tun:
+In Ihrem Java-Projekt müssen Sie die Bibliothek Aspose.Cells für Java importieren, um auf ihre Funktionen zuzugreifen. So können Sie das tun:
 
 ```java
 import com.aspose.cells.*;

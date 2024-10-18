@@ -178,7 +178,7 @@ A je to! Právě jste vytvořili spojnicový graf s datovými značkami pomocí 
 
 ## Závěr
 
-Vytváření grafů programově v Excelu se může zdát skličující, ale s Aspose.Cells pro .NET je to stejně snadné, jako postupovat podle receptu krok za krokem. Od nastavení sešitu až po přizpůsobení vzhledu grafu, tato výkonná knihovna zvládne vše. Ať už vytváříte sestavy, řídicí panely nebo vizualizace dat, Aspose.Cells vám to umožní udělat snadno.
+Vytváření grafů programově v Excelu se může zdát skličující, ale s Aspose.Cells pro .NET je to stejně snadné, jako postupovat podle receptu krok za krokem. Od nastavení sešitu až po přizpůsobení vzhledu grafu tato výkonná knihovna zvládne vše. Ať už vytváříte sestavy, řídicí panely nebo vizualizace dat, Aspose.Cells vám to umožní rychle.
 
 ## FAQ
 

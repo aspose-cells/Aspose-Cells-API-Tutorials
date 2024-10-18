@@ -17,7 +17,7 @@ Aspose.Cells for .NET によるデータ操作の世界へようこそ。スプ�
 
 1. Visual Studio: マシンに Visual Studio がインストールされていることを確認してください。これは、.NET コードの記述と実行に不可欠です。
 2. .NET Framework: このガイドは、.NET Framework または .NET Core で最適に動作します。必要なバージョン (4.5 以降) がインストールされていることを確認してください。
-3. Aspose.Cells: Aspose.Cellsライブラリが必要です。こちらからダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Aspose.Cellsライブラリが必要です。こちらからダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
 4. C# の基礎知識: C# プログラミングの基礎知識があれば、手順をよりよく理解できます。プロでなくても心配しないでください。すべて説明します!
 
 ## パッケージのインポート
@@ -66,7 +66,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## ステップ3: サンプルデータを入力する
 
-すべてのグラフには視覚化するためのデータが必要です。ワークシートにいくつかのサンプル値を入力してみましょう。
+すべてのグラフには視覚化するためのデータが必要です。ワークシートにサンプル値をいくつか入力してみましょう。
 
 ここで、特定のセルに値を追加します。ワークシートのセルにデータを入力する方法は次のとおりです。
 
@@ -168,10 +168,10 @@ Aspose.Cells は、Excel ファイルをプログラムで管理するための 
 はい！Aspose.Cells には、Java、Python、クラウドなど、さまざまなプラットフォーム用のライブラリが用意されており、さまざまな環境で汎用的に使用できます。
 
 ### 無料トライアルはありますか？
-もちろんです！Aspose.Cellsを無料トライアルで試すことができます。[ここ](https://releases.aspose.com/).
+もちろんです！Aspose.Cellsを無料トライアルで試すことができます[ここ](https://releases.aspose.com/).
 
 ### Aspose.Cells の使用中に問題が発生した場合はどうすればよいですか?
- Aspose.Cellsコミュニティやフォーラムからヘルプやサポートを受けることができます。[ここ](https://forum.aspose.com/c/cells/9).
+Aspose.Cellsコミュニティやフォーラムからヘルプやサポートを受けることができます。[ここ](https://forum.aspose.com/c/cells/9).
 
 ### ライセンスを購入するにはどうすればよいですか?
 ライセンスはAsposeのWebサイトから直接購入できます。[ここ](https://purchase.aspose.com/buy).

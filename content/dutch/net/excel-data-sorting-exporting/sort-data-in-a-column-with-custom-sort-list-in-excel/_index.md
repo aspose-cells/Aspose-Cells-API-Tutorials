@@ -25,7 +25,7 @@ Zorg ervoor dat u een werkende .NET-ontwikkelomgeving hebt ingesteld. U kunt Vis
 
 ### Aspose.Cells voor .NET NuGet-pakket
 
-U hebt de Aspose.Cells-bibliotheek voor .NET nodig die in uw project is geïnstalleerd. U kunt deze eenvoudig toevoegen via NuGet Package Manager. 
+hebt de Aspose.Cells-bibliotheek voor .NET nodig die in uw project is geïnstalleerd. U kunt deze eenvoudig toevoegen via NuGet Package Manager. 
 
 Zo doe je dat:
 
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Stap 2: Laad het bron-Excelbestand
 
- Vervolgens laden we het Excel-bestand dat de gegevens bevat die u wilt sorteren. Dit doet u door een exemplaar van de`Workbook` klasse en het pad van uw bronbestand doorgeven.
+Vervolgens laden we het Excel-bestand dat de gegevens bevat die u wilt sorteren. Dit doet u door een exemplaar van de`Workbook` klasse en het pad van uw bronbestand doorgeven.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -93,7 +93,7 @@ string[] customSortList = new string[] { "USA,US", "Brazil,BR", "China,CN", "Rus
 
 ## Stap 6: Voeg een sorteersleutel toe en voer de sortering uit
 
-Nu is het tijd om te sorteren! We gebruiken hiervoor de klasse DataSorter. Maak een sleutel voor sorteren op basis van onze aangepaste lijst en voer de sorteerbewerking uit.
+Nu is het tijd om te sorteren! Hiervoor gebruiken we de klasse DataSorter. Maak een sleutel voor sorteren op basis van onze aangepaste lijst en voer de sorteerbewerking uit.
 
 ```csharp
 wb.DataSorter.AddKey(0, SortOrder.Ascending, customSortList);

@@ -15,7 +15,7 @@ Zanurzmy się w tym ekscytującym samouczku, a po jego zakończeniu będziesz w 
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu, aby ten proces przebiegał sprawnie:
+Zanim zaczniemy, jest kilka rzeczy, które musisz zrobić, aby cały proces przebiegał sprawnie:
 
 1.  Biblioteka Aspose.Cells dla .NET – Możesz ją pobrać ze strony wydania Aspose[Tutaj](https://releases.aspose.com/cells/net/).
 2. Środowisko .NET – wymagane jest podstawowe środowisko programistyczne .NET, np. Visual Studio.
@@ -35,7 +35,7 @@ using Aspose.Cells;
 
 Oto podstawowe funkcje importowania, których będziesz potrzebować, aby móc manipulować plikami Excela i obsługiwać strumienie plików.
 
-Teraz rozłóżmy ten przykład krok po kroku dla jasności i prostoty. Każdy krok będzie łatwy do naśladowania, zapewniając, że rozumiesz proces od początku do końca!
+Teraz rozłóżmy ten przykład krok po kroku dla jasności i prostoty. Każdy krok będzie łatwy do naśladowania, zapewniając, że zrozumiesz proces od początku do końca!
 
 ## Krok 1: Skonfiguruj swój katalog roboczy
 
@@ -46,11 +46,11 @@ Zanim będziesz mógł manipulować jakimkolwiek plikiem Excel, musisz określi�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym kroku przypiszesz lokalizację swojego pliku Excel do`dataDir` ciąg. Zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie jesteś`.xls` plik się znajduje.
+ W tym kroku przypiszesz lokalizację swojego pliku Excel do`dataDir` ciąg. Zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie jesteś`.xls`plik się znajduje.
 
 ## Krok 2: Utwórz strumień plików
 
-Następnie utworzymy strumień pliku, aby otworzyć plik Excel. Ten krok jest niezbędny, ponieważ zapewnia nam sposób interakcji z plikiem w formacie strumienia.
+Następnie utworzymy strumień pliku, aby otworzyć plik Excel. Ten krok jest niezbędny, ponieważ zapewnia nam sposób na interakcję z plikiem w formacie strumienia.
 
 ```csharp
 // Tworzenie strumienia plików zawierającego plik Excela do otwarcia
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Pliki Excela zazwyczaj zawierają wiele arkuszy kalkulacyjnych. W tym samouczku uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego w skoroszycie.
 
 ```csharp
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -83,10 +83,10 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Krok 5: Ukryj linie siatki w arkuszu kalkulacyjnym
 
-Teraz nadchodzi zabawna część – ukrywanie linii siatki! Za pomocą jednej linijki kodu możesz przełączać widoczność linii siatki.
+Teraz nadchodzi zabawna część – ukrywanie linii siatki! Za pomocą tylko jednej linijki kodu możesz przełączać widoczność linii siatki.
 
 ```csharp
-//Ukrywanie linii siatki pierwszego arkusza kalkulacyjnego pliku Excel
+// Ukrywanie linii siatki pierwszego arkusza kalkulacyjnego pliku Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Zamknięcie strumienia plików jest kluczowe, ponieważ zapewnia, że wszystkie 
 
 ## Wniosek
 
- to już wszystko! Właśnie nauczyłeś się, jak wyświetlać i ukrywać linie siatki w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET. Niezależnie od tego, czy dopracowujesz raport, czy prezentujesz dane w bardziej czytelnym formacie, ta prosta technika może znacząco wpłynąć na wygląd Twoich arkuszy kalkulacyjnych. A co jest najlepsze? Wystarczy kilka linijek kodu, aby wprowadzić duże zmiany. Jeśli jesteś gotowy, aby to wypróbować, nie zapomnij pobrać[bezpłatny okres próbny](https://releases.aspose.com/) i zacznij kodować!
+ I to już wszystko! Właśnie nauczyłeś się, jak wyświetlać i ukrywać linie siatki w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET. Niezależnie od tego, czy dopracowujesz raport, czy prezentujesz dane w bardziej czytelnym formacie, ta prosta technika może znacząco wpłynąć na wygląd Twoich arkuszy kalkulacyjnych. A co jest najlepsze? Wystarczy kilka linijek kodu, aby wprowadzić duże zmiany. Jeśli jesteś gotowy, aby to wypróbować, nie zapomnij pobrać[bezpłatny okres próbny](https://releases.aspose.com/) i zacznij kodować!
 
 ## Najczęściej zadawane pytania
 
@@ -124,7 +124,7 @@ Zamknięcie strumienia plików jest kluczowe, ponieważ zapewnia, że wszystkie 
  Możesz ustawić`worksheet.IsGridlinesVisible = true;` aby ponownie wyświetlić linie siatki.
 
 ### Czy mogę ukryć linie siatki tylko dla określonych zakresów lub komórek?  
- Nie,`IsGridlinesVisible` Właściwość dotyczy całego arkusza kalkulacyjnego, a nie konkretnych komórek.
+ Nie,`IsGridlinesVisible`Właściwość dotyczy całego arkusza kalkulacyjnego, a nie konkretnych komórek.
 
 ### Czy mogę pracować na wielu arkuszach jednocześnie?  
  Tak! Możesz przejść przez`Worksheets` kolekcję i zastosuj zmiany na każdym arkuszu.

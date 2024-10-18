@@ -42,7 +42,7 @@ Gdy projekt jest gotowy, czas dodać bibliotekę Aspose.Cells. Możesz ją zains
 
 1. „Eksploratorze rozwiązań” kliknij prawym przyciskiem myszy swój projekt.
 2. Wybierz opcję Zarządzaj pakietami NuGet.
-3. Przejdź do karty Przeglądaj.
+3. Przejdź do zakładki Przeglądaj.
 4. Wyszukaj Aspose.Cells.
 5. Kliknij Zainstaluj i zaakceptuj wszystkie umowy licencyjne.
 
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Teraz zajmijmy się konkretnym arkuszem, który zawiera wykres kołowy. Załóżmy, że wykres kołowy znajduje się na drugim arkuszu (indeks 1):
 
 ```csharp
-// W drugim arkuszu znajdziesz wykres projektanta.
+// drugim arkuszu znajdziesz wykres projektanta.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
@@ -157,12 +157,12 @@ Dzięki temu będziesz mieć pewność, że zmiany zostały wprowadzone zgodnie 
 
 # Wniosek
 
-Oto i masz! Za pomocą kilku prostych kroków udało Ci się zmodyfikować wykres kołowy za pomocą Aspose.Cells dla .NET. Ta potężna biblioteka nie tylko ułatwia manipulowanie plikami Excela, ale także pozwala personalizować wizualizacje danych, aby uzyskać maksymalny efekt. Jeśli w swojej pracy zajmujesz się prezentacją danych, zainwestowanie czasu w naukę korzystania z Aspose.Cells z pewnością się opłaci. Więc śmiało, pobaw się tymi wykresami i zobacz, jak możesz ożywić swoje dane!
+Oto i masz! Za pomocą kilku prostych kroków udało Ci się zmodyfikować wykres kołowy za pomocą Aspose.Cells dla .NET. Ta potężna biblioteka nie tylko ułatwia manipulowanie plikami Excela, ale także pozwala personalizować wizualizacje danych, aby uzyskać maksymalny efekt. Jeśli w swojej pracy zajmujesz się prezentacją danych, poświęcenie czasu na naukę korzystania z Aspose.Cells z pewnością się opłaci. Więc śmiało, pobaw się tymi wykresami i zobacz, jak możesz ożywić swoje dane!
 
 # Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells dla .NET?  
-Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, modyfikowania i konwertowania plików Excel programowo, bez konieczności używania programu Microsoft Excel.
+Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, edytowania i konwertowania plików Excel programowo, bez konieczności używania programu Microsoft Excel.
 
 ### Czy mogę modyfikować inne wykresy niż kołowe?  
 Oczywiście! Aspose.Cells obsługuje różne typy wykresów, w tym wykresy słupkowe, liniowe i obszarowe, umożliwiając elastyczną wizualizację danych.

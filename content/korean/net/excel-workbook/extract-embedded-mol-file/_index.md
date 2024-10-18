@@ -17,7 +17,7 @@ Excel 스프레드시트에서 임베디드 파일, 특히 MOL 파일을 추출�
 
 - C#에 대한 기본 지식: C#에 대한 약간의 친숙함은 많은 도움이 될 것입니다. 이제 막 시작하더라도 따라갈 수 있을 것입니다.
 - Visual Studio: 시스템에 Visual Studio를 설치하세요. C# 코드를 작성하고 실행하는 데 필요합니다.
--  .NET용 Aspose.Cells: 아직 다운로드하지 않았다면 다음으로 이동하세요.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/) 최신 버전을 다운로드하세요.
+- .NET용 Aspose.Cells: 아직 다운로드하지 않았다면 다음으로 이동하세요.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/) 최신 버전을 다운로드하세요.
 - .NET Framework: 호환되는 버전의 .NET Framework가 설치되어 있는지 확인하세요.
 -  MOL 개체가 포함된 Excel 파일: 예를 들어 다음을 사용합니다.`EmbeddedMolSample.xlsx`추출을 위해 이 파일을 준비했는지 확인하세요.
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- 이 스니펫을 사용하면 다음을 사용할 수 있습니다.`foreach` 워크북의 모든 시트를 살펴보려면 루프를 사용합니다.`OleObjects`컬렉션을 사용하면 해당 특정 시트에 포함된 모든 개체에 접근할 수 있습니다. 
+ 이 스니펫을 사용하면 다음을 사용할 수 있습니다.`foreach` 워크북의 모든 시트를 살펴보려면 루프를 사용합니다.`OleObjects` 컬렉션을 사용하면 해당 특정 시트에 포함된 모든 개체에 접근할 수 있습니다. 
 
 ## 4단계: OLE 개체 추출
 

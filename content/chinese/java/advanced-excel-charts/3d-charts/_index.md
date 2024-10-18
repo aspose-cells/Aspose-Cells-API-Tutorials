@@ -18,7 +18,7 @@ Aspose.Cells for Java 是一个功能强大的 Java API，用于处理 Excel 文
 
 ## 为什么使用 Aspose.Cells for Java 创建 3D 图表？
 
-Aspose.Cells for Java 提供了一套全面的功能和工具，用于处理 Excel 文件和图表。它提供了一个用户友好的界面，用于创建、自定义和操作图表，包括 3D 图表。此外，Aspose.Cells for Java 确保生成的图表与各种 Excel 版本兼容，使其成为图表创建的可靠选择。
+Aspose.Cells for Java 提供了一套全面的功能和工具，用于处理 Excel 文件和图表。它提供了一个用户友好的界面，用于创建、自定义和操作图表（包括 3D 图表）。此外，Aspose.Cells for Java 确保生成的图表与各种 Excel 版本兼容，使其成为图表创建的可靠选择。
 
 ## 设置 Java 版 Aspose.Cells
 
@@ -95,7 +95,7 @@ chart.getChartTitle().setText("3D Bar Chart");
 
 ### 将图表保存到文件
 
-最后，将图表保存到 Excel 文件。
+最后，将图表保存为 Excel 文件。
 
 ```java
 workbook.save("3D_Chart.xlsx");
@@ -134,7 +134,7 @@ Aspose.Cells for Java支持各种类型的3D图表，包括：
 
 ## 数据集成
 
-Aspose.Cells for Java 允许您将来自各种来源的数据集成到您的图表中。您可以从数据库、外部文件加载数据，甚至可以从 API 获取实时数据。这可确保您的图表保持最新并反映最新信息。
+Aspose.Cells for Java 允许您将来自各种来源的数据集成到图表中。您可以从数据库、外部文件加载数据，甚至可以从 API 获取实时数据。这可确保您的图表保持最新并反映最新信息。
 
 ## 结论
 

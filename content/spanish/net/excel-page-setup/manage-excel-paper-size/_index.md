@@ -17,7 +17,7 @@ Antes de profundizar en los detalles técnicos de la gestión de tamaños de pap
 
 1. Comprensión básica de C#: la familiaridad con la programación en C# facilitará significativamente el proceso de integración de Aspose.Cells en sus proyectos.
 2. Visual Studio instalado: asegúrese de tener Visual Studio instalado en su máquina para escribir y ejecutar código C#.
-3.  Biblioteca Aspose.Cells para .NET: necesitará obtener Aspose.Cells. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
+3. Biblioteca Aspose.Cells para .NET: necesitará obtener Aspose.Cells. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
 4. Administrador de paquetes NuGet: asegúrese de tener acceso al Administrador de paquetes NuGet, ya que puede instalar Aspose.Cells fácilmente usándolo.
 
 Con estos prerrequisitos en mente, ¡comencemos!
@@ -58,11 +58,11 @@ En este paso, deberás configurar el directorio en el que deseas almacenar el ar
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real en su sistema donde desea guardar el archivo. Por ejemplo, podría ser algo como`C:\Documents\`.
+ Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real en tu sistema donde quieres guardar el archivo. Por ejemplo, podría ser algo como`C:\Documents\`.
 
 ## Paso 2: Crear un objeto de libro de trabajo
 
- A continuación, crearás una instancia`Workbook` objeto, que representa su archivo de Excel. A continuación, le indicamos cómo hacerlo:
+ A continuación, crearás una instancia de`Workbook` objeto, que representa su archivo de Excel. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
 Workbook workbook = new Workbook();

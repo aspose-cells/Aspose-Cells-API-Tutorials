@@ -52,7 +52,7 @@ Potongan kode tersebut membuat direktori di jalur yang ditentukan jika belum ada
 
 ## Langkah 2: Buat Buku Kerja Baru
 
-Berikutnya, kita perlu membuat buku kerja baru. Aspose.Cells memungkinkan Anda membuat dan memanipulasi file Excel dengan mudah. Berikut cara melakukannya:
+Selanjutnya, kita perlu membuat buku kerja baru. Aspose.Cells memungkinkan Anda membuat dan memanipulasi file Excel dengan mudah. Berikut cara melakukannya:
 
 ```csharp
 // Buat buku kerja baru.

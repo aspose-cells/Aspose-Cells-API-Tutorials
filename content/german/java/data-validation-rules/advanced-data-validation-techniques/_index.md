@@ -98,7 +98,7 @@ Auf jeden Fall! Aspose.Cells für Java bietet robuste Unterstützung für die Da
 
 ### Gibt es vordefinierte Optionen zur Validierung von Listendaten?
 
-Ja, Sie können Dropdown-Listen mit vordefinierten Optionen zur Listendatenvalidierung definieren.
+Ja, Sie können Dropdown-Listen mit vordefinierten Optionen zur Validierung von Listendaten definieren.
 
 ### Wo finde ich weitere Dokumentation zu Aspose.Cells für Java?
 

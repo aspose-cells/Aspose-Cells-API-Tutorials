@@ -77,7 +77,7 @@ workbook.save("output.xlsx");
 ```
 
 ## Abschluss
-In diesem Tutorial haben wir den Prozess zum Erstellen von Pivot-Tabellen mithilfe der Aspose.Cells für Java-API durchgegangen. Sie können jetzt Ihre Datenanalyse- und Visualisierungsfunktionen ganz einfach verbessern.
+In diesem Tutorial haben wir den Prozess zum Erstellen von Pivot-Tabellen mithilfe der Aspose.Cells-API für Java durchgegangen. Sie können jetzt Ihre Datenanalyse- und Visualisierungsfunktionen ganz einfach verbessern.
 
 ## FAQs
 ### Was ist eine Pivot-Tabelle?

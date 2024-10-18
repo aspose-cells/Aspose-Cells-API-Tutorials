@@ -55,7 +55,7 @@ Neste exemplo, estamos carregando um arquivo chamado "Book1.xlsx". Certifique-se
 
 ## Etapa 3: Acesse a planilha
 
-Depois que sua pasta de trabalho for carregada, o próximo passo é acessar a planilha específica dentro daquela pasta de trabalho. É aqui que toda a mágica vai acontecer. 
+Depois que você tiver sua pasta de trabalho carregada, o próximo passo é acessar a planilha específica dentro daquela pasta de trabalho. É aqui que toda a mágica vai acontecer. 
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -111,5 +111,5 @@ Se você esquecer a senha, não poderá desproteger a planilha, por isso é cruc
 ### Posso desbloquear células depois que elas estiverem bloqueadas?
  Absolutamente! Você pode desbloquear células configurando o`IsLocked` propriedade para`false` e remover a proteção.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  Aspose.Cells oferece um teste gratuito para usuários. No entanto, para uso contínuo, você precisa comprar uma licença. Visite o[Aspose página de compra](https://purchase.aspose.com/buy) para mais detalhes.

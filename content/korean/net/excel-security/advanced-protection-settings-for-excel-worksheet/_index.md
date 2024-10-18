@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  이제 파일 스트림이 있으므로 다음을 생성할 수 있습니다.`Workbook` 물체.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 우리의 목적을 위해, 우리는 단지 첫 번째 워크시트로 작업할 것입니다. 접근해 봅시다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = excel.Worksheets[0];
 ```
  워크시트는 0부터 색인이 지정되므로`Worksheets[0]` Excel 파일의 첫 번째 워크시트를 말합니다. 이제 이 특정 시트에 보호 설정을 적용할 수 있습니다.
@@ -154,7 +154,7 @@ Aspose.Cells는 .NET에서 Excel 파일을 프로그래밍 방식으로 만들�
  무료 체험판이 있지만, 본격적인 개발을 위해서는 라이선스가 필요합니다. 임시 라이선스를 받을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### 보호된 Excel 워크시트의 잠금을 해제하려면 어떻게 해야 하나요?
-워크시트에 설정된 비밀번호를 알고 있는 경우 적절한 방법을 사용하여 프로그래밍 방식으로 보호 설정을 제거하거나 수정해야 합니다.
+워크시트에 설정된 비밀번호를 알고 있는 경우, 적절한 방법을 사용하여 프로그래밍 방식으로 보호 설정을 제거하거나 수정해야 합니다.
 
 ### Aspose.Cells에 대한 지원 포럼이 있나요?
  물론입니다! 커뮤니티 지원 및 리소스를 다음에서 찾을 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).

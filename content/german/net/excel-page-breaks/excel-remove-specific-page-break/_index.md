@@ -44,29 +44,29 @@ Nachdem das geklärt ist, fangen wir an, Code zu schreiben!
 
 Nachdem unser Setup nun fertig ist, beginnen wir damit, den Vorgang zum Entfernen eines bestimmten Seitenumbruchs in einer Excel-Datei in überschaubare Schritte zu unterteilen.
 
-## Schritt 1: Dokumentverzeichnis definieren
+## Schritt 1: Definieren Sie das Dokumentverzeichnis
 
-Als Erstes müssen Sie angeben, wo Ihre Excel-Dokumente gespeichert sind. So kann der Code besser erkennen, wo er nach Ihren Dateien suchen soll.
+Als Erstes müssen Sie angeben, wo Ihre Excel-Dokumente gespeichert sind. So kann der Code erkennen, wo er nach Ihren Dateien suchen soll.
 
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Erklärung: Ersetzen`YOUR DOCUMENT DIRECTORY`mit dem tatsächlichen Pfad zu Ihren Dateien. Von hier laden Sie Ihre Excel-Datei und speichern Ihre geänderte Excel-Datei später.
+ Erklärung: Ersetzen`YOUR DOCUMENT DIRECTORY` mit dem tatsächlichen Pfad zu Ihren Dateien. Von hier laden Sie Ihre Excel-Datei und speichern Ihre geänderte Excel-Datei später.
 
 ## Schritt 2: Instanziieren des Arbeitsmappenobjekts
 
 Als nächstes müssen wir unsere Arbeitsmappe laden. Einfacher ausgedrückt: Stellen Sie sich eine Arbeitsmappe als Ihre Excel-Datei vor.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Erklärung: Diese Zeile erzeugt eine neue Instanz einer`Workbook` , wodurch die angegebene Excel-Datei geladen wird (in diesem Beispiel heißt sie`PageBreaks.xls`). 
+Erklärung: Diese Zeile erzeugt eine neue Instanz einer`Workbook` , wodurch die angegebene Excel-Datei geladen wird (in diesem Beispiel heißt sie`PageBreaks.xls`). 
 
-## Schritt 3: Entfernen Sie den horizontalen Seitenumbruch
+## Schritt 3: Horizontalen Seitenumbruch entfernen
 
 Konzentrieren wir uns nun auf den horizontalen Seitenumbruch. Dabei handelt es sich um die Umbrüche, die die Seiten vertikal teilen.
 
@@ -111,10 +111,10 @@ Und da haben Sie es! Das Entfernen bestimmter Seitenumbrüche aus einer Excel-Da
 Sie können die Seitenumbrüche mithilfe einer Schleife durchlaufen, um ihre Indizes auszudrucken oder sie über den Debugger zu überprüfen.
 
 ### Gibt es eine Möglichkeit, entfernte Seitenumbrüche wieder hinzuzufügen?  
- Leider wird nach dem Entfernen eines Seitenumbruchs mit dem`RemoveAt` -Methode, kann es innerhalb dieser Sitzung nicht wiederhergestellt werden. Sie müssen es manuell neu erstellen.
+ Leider wird nach dem Entfernen eines Seitenumbruchs mit dem`RemoveAt` Methode, kann es innerhalb dieser Sitzung nicht wiederhergestellt werden. Sie müssen es manuell neu erstellen.
 
 ### Kann ich diese Methode auf andere Arbeitsblätter in der Arbeitsmappe anwenden?  
  Absolut! Ändern Sie einfach die Indexnummer in`workbook.Worksheets[index]` um das gewünschte Arbeitsblatt anzusteuern.
 
 ### Ist Aspose.Cells ein kostenloses Tool?  
- Aspose.Cells bietet eine kostenlose Testversion an, aber für die volle Funktionalität müssen Sie eine Lizenz erwerben. Sie können es ausprobieren[Hier](https://purchase.aspose.com/buy).
+ Aspose.Cells bietet eine kostenlose Testversion an, für die volle Funktionalität müssen Sie jedoch eine Lizenz erwerben. Sie können es ausprobieren[Hier](https://purchase.aspose.com/buy).

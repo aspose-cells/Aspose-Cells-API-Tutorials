@@ -10,7 +10,7 @@ url: /ko/java/data-validation-rules/conditional-data-validation/
 
 ## Java용 Aspose.Cells 소개
 
-조건부 데이터 검증의 세부 사항을 살펴보기 전에 Java용 Aspose.Cells를 간략히 소개하겠습니다. Aspose.Cells는 개발자가 Microsoft Excel 없이도 Excel 스프레드시트를 만들고, 조작하고, 관리할 수 있는 강력한 Java 라이브러리입니다. 데이터 검증을 포함하여 Excel 파일 작업을 위한 광범위한 기능을 제공합니다.
+조건부 데이터 검증의 세부 사항을 살펴보기 전에 Java용 Aspose.Cells를 간략히 소개해 보겠습니다. Aspose.Cells는 개발자가 Microsoft Excel 없이도 Excel 스프레드시트를 만들고, 조작하고, 관리할 수 있는 강력한 Java 라이브러리입니다. 데이터 검증을 포함하여 Excel 파일 작업을 위한 광범위한 기능을 제공합니다.
 
 ## 필수 조건
 

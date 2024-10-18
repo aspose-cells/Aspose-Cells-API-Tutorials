@@ -15,7 +15,7 @@ Beim Arbeiten mit Tabellenkalkulationen, insbesondere in einer professionellen U
 
 Bevor wir uns in den Code vertiefen, müssen Sie einige Voraussetzungen erfüllen:
 
-1. Visual Studio installiert: Stellen Sie sicher, dass Visual Studio (jede Version) auf Ihrem Computer bereit ist, da wir in einer .NET-Umgebung arbeiten.
+1. Visual Studio installiert: Stellen Sie sicher, dass Visual Studio (jede Version) auf Ihrem Computer installiert ist, da wir in einer .NET-Umgebung arbeiten.
 2.  Aspose.Cells für .NET-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek herunterladen und zu Ihrem Projekt hinzufügen. Sie können die neueste Version herunterladen[Hier](https://releases.aspose.com/cells/net/).
 3. Grundlegende Kenntnisse in C#: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie problemlos mitmachen.
 
@@ -43,7 +43,7 @@ Zu Beginn müssen Sie eine Instanz einer Arbeitsmappe erstellen. Dies ist die Gr
 Workbook wb = new Workbook();
 ```
 
- Durch Initialisieren`Workbook`wir richten eine neue Excel-Datei im Speicher ein, die zur Bearbeitung bereit ist.
+ Durch Initialisieren`Workbook`, wir richten eine neue Excel-Datei im Speicher ein, die zur Bearbeitung bereit ist.
 
 ## Schritt 2: Arbeitsmappeneinstellungen einrichten
 

@@ -14,7 +14,7 @@ url: /zh/java/excel-data-security/data-masking-techniques/
 
 ## 先决条件
 
-在深入研究使用 Aspose.Cells for Java 进行数据屏蔽之前，请确保您已满足以下先决条件：
+在我们深入研究使用 Aspose.Cells for Java 进行数据屏蔽之前，请确保您已满足以下先决条件：
 
 - 已安装 Java 开发工具包 (JDK)
 - Aspose.Cells for Java API 库

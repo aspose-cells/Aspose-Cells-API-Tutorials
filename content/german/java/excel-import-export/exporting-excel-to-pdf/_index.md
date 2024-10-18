@@ -20,7 +20,7 @@ Bevor wir uns mit dem Prozess befassen, stellen Sie sicher, dass Sie die folgend
 
 ## Schritt 1: Erstellen Sie ein Java-Projekt
 
-Beginnen Sie mit der Erstellung eines neuen Java-Projekts in der von Ihnen gewählten integrierten Entwicklungsumgebung (IDE) oder im Texteditor. Konfigurieren Sie Ihr Projekt so, dass die Aspose.Cells-Bibliothek für Java genutzt wird.
+Beginnen Sie mit der Erstellung eines neuen Java-Projekts in der von Ihnen gewählten integrierten Entwicklungsumgebung (IDE) oder im Texteditor. Konfigurieren Sie Ihr Projekt so, dass die Aspose.Cells-Bibliothek für Java verwendet wird.
 
 ## Schritt 2: Laden Sie die Excel-Datei
 

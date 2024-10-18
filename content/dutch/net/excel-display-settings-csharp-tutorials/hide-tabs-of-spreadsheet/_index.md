@@ -89,7 +89,7 @@ Nadat u de tabbladen hebt verborgen, is de volgende stap het opslaan van de wijz
 workbook.Save(dataDir + "output.xls");
 ```
 
- Hier slaan we de aangepaste werkmap op als`output.xls` in dezelfde directory. U kunt het bestand elke gewenste naam geven.
+ Hier slaan we de aangepaste werkmap op als`output.xls` in dezelfde directory. U kunt het bestand een naam geven die u wilt.
 
 Opslaan is cruciaal. Zonder deze stap gaan alle wijzigingen die in de werkmap zijn aangebracht verloren zodra het programma wordt afgesloten.
 

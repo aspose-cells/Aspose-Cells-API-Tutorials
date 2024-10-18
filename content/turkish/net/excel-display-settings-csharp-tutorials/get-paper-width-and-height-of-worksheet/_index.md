@@ -54,19 +54,19 @@ Artık çalışma kitabımız olduğuna göre, içindeki belirli bir çalışma 
 Worksheet ws = wb.Worksheets[0];
 ```
 
-Burada, çalışma kitabımızdan ilk çalışma kağıdını (indeks 0) alıyoruz. Bunu bir kitabın ilk sayfasına geçmek gibi düşünebilirsiniz. 
+Burada, çalışma kitabımızdan ilk çalışma sayfasını (indeks 0) alıyoruz. Bunu bir kitabın ilk sayfasına geçmek gibi düşünebilirsiniz. 
 
 ## Adım 3: Kağıt Boyutunu Ayarlayın ve Ölçüleri Alın
 
 Şimdi heyecan verici kısım geliyor! Farklı kağıt boyutları ayarlayıp boyutlarını tek tek alacağız. Bu adım, farklı boyutların düzeni nasıl etkilediğini görmemizi sağladığı için önemlidir.
 
 ```csharp
-//Kağıt boyutunu A2 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
+//Kağıt boyutunu A2 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
 ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Bu blokta, kağıt boyutunu A2 olarak ayarlıyoruz ve ardından genişliğini ve yüksekliğini alıyoruz.`PaperWidth` Ve`PaperHeight` özellikler inç cinsinden boyutları sağlar. Bu, bir çerçeveye resim koymadan önce boyutunu kontrol etmeye benzer.
+ Bu blokta, kağıt boyutunu A2 olarak ayarlıyoruz ve ardından genişliğini ve yüksekliğini alıyoruz.`PaperWidth` Ve`PaperHeight` özellikler boyutları inç cinsinden sağlar. Bu, bir çerçeveye resim koymadan önce boyutunu kontrol etmeye benzer.
 
 ## Adım 4: Diğer Kağıt Boyutları İçin Tekrarlayın
 

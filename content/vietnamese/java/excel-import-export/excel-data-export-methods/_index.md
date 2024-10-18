@@ -169,7 +169,7 @@ A: Có, Aspose.Cells for Java hỗ trợ xuất công thức Excel cùng với g
 ### H: Aspose.Cells for Java có phù hợp để xử lý hàng loạt các tệp Excel không?
 A: Hoàn toàn đúng. Aspose.Cells for Java được thiết kế để xử lý hàng loạt, do đó là lựa chọn tuyệt vời để tự động hóa các tác vụ.
 
-### H: Làm thế nào tôi có thể xử lý các tệp Excel được bảo vệ bằng mật khẩu bằng Aspose.Cells for Java?
+### H: Làm thế nào tôi có thể xử lý các tệp Excel được bảo vệ bằng mật khẩu bằng Aspose.Cells cho Java?
 A: Aspose.Cells for Java cung cấp các phương pháp để làm việc với các tệp Excel được bảo vệ bằng mật khẩu, cho phép bạn mở khóa và thao tác chúng.
 
 ### H: Có cộng đồng hoặc diễn đàn hỗ trợ nào dành cho người dùng Aspose.Cells dành cho Java không?

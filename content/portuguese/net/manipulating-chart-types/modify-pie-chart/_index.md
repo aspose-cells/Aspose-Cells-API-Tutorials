@@ -1,7 +1,7 @@
 ---
 title: Modificar gráfico de pizza
 linktitle: Modificar gráfico de pizza
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desbloqueie o poder do Aspose.Cells para .NET para modificar seus gráficos de pizza do Excel sem esforço. Siga este tutorial para obter orientação passo a passo.
 type: docs
 weight: 16
@@ -9,7 +9,7 @@ url: /pt/net/manipulating-chart-types/modify-pie-chart/
 ---
 ## Introdução
 
-Já se perguntou como você poderia dar um toque especial a esses gráficos de pizza em suas planilhas do Excel? Os gráficos de pizza podem ser uma maneira fantástica de visualizar dados, mantendo seu público envolvido e informado. No entanto, às vezes esses gráficos não contam a história que você quer que eles contem imediatamente. É aí que o Aspose.Cells para .NET entra em cena. Esta biblioteca poderosa permite que você manipule arquivos do Excel programaticamente, dando a você as ferramentas necessárias para personalizar seus gráficos de pizza até o menor detalhe. Neste tutorial, vamos nos aprofundar na modificação de um gráfico de pizza usando o Aspose.Cells. Seja alterando rótulos de dados ou ajustando a estética do gráfico.
+Já se perguntou como você poderia dar um toque especial aos gráficos de pizza em suas planilhas do Excel? Os gráficos de pizza podem ser uma maneira fantástica de visualizar dados, mantendo seu público envolvido e informado. No entanto, às vezes esses gráficos não contam a história que você quer que eles contem imediatamente. É aí que o Aspose.Cells para .NET entra em cena. Esta biblioteca poderosa permite que você manipule arquivos do Excel programaticamente, dando a você as ferramentas necessárias para personalizar seus gráficos de pizza até o menor detalhe. Neste tutorial, vamos nos aprofundar na modificação de um gráfico de pizza usando o Aspose.Cells. Seja alterando rótulos de dados ou ajustando a estética do gráfico.
 
 ## Pré-requisitos
 
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Agora, vamos mergulhar na planilha específica que contém o gráfico de pizza. Vamos assumir que o gráfico de pizza está na segunda planilha (índice 1):
 
 ```csharp
-// Pegue o gráfico do designer na segunda folha.
+//Pegue o gráfico do designer na segunda folha.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

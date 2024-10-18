@@ -79,7 +79,7 @@ Precis som att gå till en specifik sida i en bok, leder detta steg oss dit vi b
 Nu är det dags att hitta diagrammet som vi vill ändra. Det är här magin verkligen börjar!
 
 ```csharp
-//Få det första diagrammet i arket
+// Få det första diagrammet i arket
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -109,10 +109,10 @@ Här tar vi tag i färginställningen för diagramserien.
 
 ## Steg 7: Använd temafärgen
 
- Låt oss nu tillämpa en Microsoft-temafärg. Vi väljer en`Accent` stil för vem älskar inte en färgklick?
+ Låt oss nu tillämpa en Microsoft-temafärg. Vi väljer en`Accent` stil för vem älskar inte en pop av färg?
 
 ```csharp
-//Skapa ett tema i accentstil
+// Skapa ett tema i accentstil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

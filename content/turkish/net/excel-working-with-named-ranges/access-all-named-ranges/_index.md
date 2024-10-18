@@ -8,12 +8,12 @@ weight: 10
 url: /tr/net/excel-working-with-named-ranges/access-all-named-ranges/
 ---
 ## giriiş
-Veri yönetimi dünyasında, Excel elektronik tablolar söz konusu olduğunda bir güç merkezi olmaya devam ediyor. Peki kendinizi hiç adlandırılmış aralıkların ağında buldunuz mu? Eğer başını sallıyorsanız, sizi bir ziyafet bekliyor! Bu kılavuzda, .NET için Aspose.Cells kullanarak bir Excel dosyasındaki tüm adlandırılmış aralıklara erişme sürecini adım adım anlatacağım. İster basit bir proje üzerinde ister karmaşık bir veri analizi görevi üzerinde çalışıyor olun, adlandırılmış aralıklara nasıl etkili bir şekilde erişeceğinizi anlamak hayatınızı çok daha kolaylaştırabilir.
+Veri yönetimi dünyasında, Excel elektronik tablolar söz konusu olduğunda bir güç merkezi olmaya devam ediyor. Peki kendinizi adlandırılmış aralıkların bir ağında buldunuz mu hiç? Eğer başını sallıyorsanız, sizi bir ziyafet bekliyor! Bu kılavuzda, .NET için Aspose.Cells kullanarak bir Excel dosyasındaki tüm adlandırılmış aralıklara erişme sürecini adım adım anlatacağım. İster basit bir proje üzerinde ister karmaşık bir veri analizi görevi üzerinde çalışıyor olun, adlandırılmış aralıklara nasıl etkili bir şekilde erişeceğinizi anlamak hayatınızı çok daha kolaylaştırabilir.
 ## Ön koşullar
 Başlamadan önce, takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım. İşte sahip olmanız gerekenler:
 1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun (herhangi bir güncel sürüm işe yarayacaktır).
 2.  .NET için Aspose.Cells: Projenize Aspose.Cells'i entegre etmeniz gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
-3. Temel C# Bilgisi: Eğer C#'a aşinaysanız, bu eğitimi kolayca tamamlayabilirsiniz.
+3. C# Temel Bilgisi: Eğer C#'a aşinaysanız, bu eğitimi kolayca tamamlayabilirsiniz.
 ## Paketleri İçe Aktar
 Öncelikle, Aspose.Cells'in işlevlerine erişebilmeniz için gerekli paketleri içe aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
 1. Visual Studio projenizi açın.
@@ -26,7 +26,7 @@ using Aspose.Cells;
 ```
 Artık her şey ayarlandığına göre, Excel'de adlandırılmış tüm aralıklara nasıl erişeceğinize dair adım adım kılavuza geçelim.
 ## Adım 1: Kaynak Dizini Tanımlayın
-Bu adımda Excel dosyamızın nerede bulunduğunu belirteceğiz. Yolların esnekliği bu işlemi çeşitli sistemlerde sorunsuz hale getirir.
+Bu adımda Excel dosyamızın nerede bulunduğunu belirteceğiz. Yolların esnekliği bu işlemi çeşitli sistemler arasında sorunsuz hale getirir.
 Excel dosyanızın yolunu tanımlayarak başlayın. Yolu dizin yapınıza göre değiştirin. İşte bir kod satırı örneği:
 ```csharp
 string sourceDir = "Your Document Directory";
@@ -38,7 +38,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sampleAccessAllNamedRanges.xlsx");
 ```
-Bu satır bir`Workbook` hedef Excel dosyamızla etkileşime girmemizi sağlayan nesne,`sampleAccessAllNamedRanges.xlsx`. 
+Bu satır bir`Workbook` hedef Excel dosyamızla etkileşim kurmamızı sağlayan nesne,`sampleAccessAllNamedRanges.xlsx`. 
 ## Adım 3: Tüm Adlandırılmış Aralıkları Alma
 Şimdi operasyonun kalbine geliyoruz: adlandırılmış aralıkları getirmek.
  Çalışma kitabınızdan adlandırılmış tüm aralıkları almak için şunu kullanacaksınız:`GetNamedRanges` yöntem. Bunu nasıl yapabileceğinizi anlatalım:
@@ -53,9 +53,9 @@ Adlandırılmış aralıkların toplam sayısını konsola yazdıracağız:
 Console.WriteLine("Total Number of Named Ranges: " + range.Length);
 ```
 Bu satır, kaç tane adlandırılmış aralığın bulunduğuna dair hızlı bir genel bakış sağlayan sayıyı görüntüler.
-## Adım 5: Yürütmeyi Onaylayın
-Son olarak, her şeyin düzgün bir şekilde yürütüldüğünü doğrulayan bir mesaj ekleyelim!
-Konsola şuna benzer kısa bir mesaj gönderin:
+## Adım 5: Uygulamayı Onaylayın
+Son olarak, her şeyin sorunsuz bir şekilde yürütüldüğünü doğrulayan bir mesaj ekleyelim!
+Konsola şu şekilde kısa bir mesaj gönderin:
 ```csharp
 Console.WriteLine("AccessAllNamedRanges executed successfully.");
 ```

@@ -72,7 +72,7 @@ area.endColumn = 0;
 validation.addArea(area);
 ```
 
-## Étape 6 : enregistrement du fichier Excel
+## Étape 6 : enregistrement du fichier Excel
 
 Enfin, enregistrez le fichier Excel avec les règles de validation des données personnalisées appliquées.
 

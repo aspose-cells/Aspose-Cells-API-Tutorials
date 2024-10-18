@@ -27,11 +27,11 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Ce code vous donnera accès à des cours essentiels tels que`Workbook`, `Worksheet` , et`Range`, dont vous aurez besoin pour manipuler des fichiers Excel.
+Ce code vous donnera accès à des cours essentiels tels que`Workbook`, `Worksheet` et`Range`, dont vous aurez besoin pour manipuler des fichiers Excel.
 
 Maintenant que nous avons trié nos prérequis, décomposons le processus en étapes faciles à suivre.
 ## Étape 1 : Configurez votre répertoire de sortie
-Tout d'abord, vous devez définir l'emplacement où sera enregistré votre fichier Excel résultant. C'est comme paramétrer votre boîte aux lettres avant de recevoir un courrier !
+Tout d'abord, vous devez définir l'emplacement où sera enregistré votre fichier Excel. C'est comme paramétrer votre boîte aux lettres avant de recevoir un courrier !
 ```csharp
 string outputDir = "Your Document Directory\\"; // Assurez-vous d'utiliser des doubles barres obliques inverses pour les chemins de répertoire
 ```
@@ -58,7 +58,7 @@ Il est maintenant temps de créer une plage nommée. Vous la créerez en défini
 Range range1 = worksheet.Cells.CreateRange("E12", "I12");
 range1.Name = "MyRange";
 ```
-Ici, nous avons créé une plage allant des cellules E12 à I12 et lui avons donné le nom « MyRange ». Nommer les plages est essentiel car cela vous permet de les référencer facilement par la suite.
+Ici, nous avons créé une plage allant des cellules E12 à I12 et lui avons donné le nom « MyRange ». Il est essentiel de nommer les plages car cela vous permet de les référencer facilement par la suite.
 ## Étape 6 : Définir les bordures du contour de la plage
 Ensuite, ajoutons un peu de style à notre gamme en définissant des bordures de contour. Cela rend vos données visuellement attrayantes !
 ```csharp

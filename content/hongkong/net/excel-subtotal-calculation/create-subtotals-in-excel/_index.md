@@ -29,7 +29,7 @@ using Aspose.Cells;
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-代替`"Your Document Directory"`與您的實際路徑`book1.xls`被儲存。這告訴程式在哪裡可以找到我們將要操作的 Excel 檔案。
+代替`"Your Document Directory"`與你的實際路徑`book1.xls`被儲存。這告訴程式在哪裡可以找到我們將要操作的 Excel 檔案。
 ## 第 2 步：實例化新工作簿
 接下來，我們將建立 Workbook 物件的新實例。這將使我們能夠開啟並編輯 Excel 文件。
 ```csharp

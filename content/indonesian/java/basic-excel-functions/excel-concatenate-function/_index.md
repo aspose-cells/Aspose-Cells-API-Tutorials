@@ -14,7 +14,7 @@ Dalam tutorial ini, kita akan mempelajari cara menggunakan fungsi CONCATENATE di
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 1. Lingkungan Pengembangan Java: Anda harus menginstal Java pada sistem Anda bersama dengan Lingkungan Pengembangan Terpadu (IDE) yang sesuai seperti Eclipse atau IntelliJ IDEA.
 

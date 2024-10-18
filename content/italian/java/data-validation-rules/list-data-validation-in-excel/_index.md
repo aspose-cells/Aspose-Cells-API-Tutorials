@@ -32,7 +32,7 @@ La convalida dei dati è essenziale perché aiuta a:
 - Garantire l'integrità dei dati: aiuta a mantenere l'integrità e l'affidabilità dei dati Excel.
 - Semplificazione dell'elaborazione dei dati: i dati convalidati possono essere elaborati in modo più efficiente, risparmiando tempo e fatica.
 
-Ora che abbiamo trattato le nozioni di base, approfondiamo l'implementazione pratica della convalida dei dati utilizzando Aspose.Cells per Java.
+Ora che abbiamo trattato le basi, approfondiamo l'implementazione pratica della convalida dei dati utilizzando Aspose.Cells per Java.
 
 ## Implementazione della convalida dei dati con Aspose.Cells per Java
 

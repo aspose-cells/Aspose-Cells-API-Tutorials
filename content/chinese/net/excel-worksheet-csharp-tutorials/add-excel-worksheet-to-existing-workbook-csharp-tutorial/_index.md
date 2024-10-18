@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 ## 步骤 6：设置新工作表的名称
 
-没有名字的工作表算什么？让我们给新添加的工作表赋予一个身份！
+没有名字的工作表算什么？让我们给新添加的工作表赋予一个身份吧！
 
 ```csharp
 //设置新添加的工作表的名称
@@ -109,7 +109,7 @@ worksheet.Name = "My Worksheet";
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-在这里，我们将工作簿保存为`output.out.xls`。您可以将此文件命名为任何您想要的名称；只需确保它保存在正确的目录中即可。
+在这里我们将工作簿保存为`output.out.xls`。您可以将此文件命名为任何您想要的名称；只需确保它保存在正确的目录中即可。
 
 ## 步骤 8：关闭文件流
 

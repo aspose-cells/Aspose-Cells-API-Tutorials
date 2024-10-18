@@ -10,7 +10,7 @@ url: /id/java/excel-data-security/cell-locking-strategies/
 
 ## Perkenalan
 
-Di era digital ini, lembar kerja Excel berfungsi sebagai tulang punggung bagi banyak operasi bisnis. Namun, apa yang terjadi jika informasi sensitif atau rumus penting tidak sengaja diubah atau dihapus? Di sinilah penguncian sel berperan. Aspose.Cells untuk Java menawarkan serangkaian alat dan teknik untuk mengunci sel dalam file Excel Anda, memastikan integritas dan keamanan data.
+Di era digital ini, lembar kerja Excel berfungsi sebagai tulang punggung bagi banyak operasi bisnis. Namun, apa yang terjadi jika informasi sensitif atau rumus penting tidak sengaja diubah atau dihapus? Di sinilah penguncian sel berperan. Aspose.Cells untuk Java menawarkan serangkaian alat dan teknik untuk mengunci sel dalam file Excel Anda, guna memastikan integritas dan keamanan data.
 
 ## Mengapa Penguncian Sel Itu Penting
 
@@ -68,7 +68,7 @@ cellArea.endColumn = 5;
 worksheetProtection.setAllowEditingRange(cellArea, true); // Izinkan pengeditan rentang yang ditentukan
 ```
 
-Cuplikan kode ini memperagakan cara memberikan izin pengeditan tertentu dalam rentang sel yang ditentukan.
+Potongan kode ini memperagakan cara memberikan izin pengeditan tertentu dalam rentang sel yang ditentukan.
 
 ## Penguncian Sel Bersyarat
 
@@ -125,7 +125,7 @@ Penguncian sel adalah teknik yang digunakan untuk mencegah perubahan yang tidak 
 
 Ya, Aspose.Cells untuk Java memungkinkan Anda menentukan aturan penguncian sel khusus untuk memenuhi persyaratan khusus proyek Anda. Anda dapat menerapkan strategi penguncian tingkat lanjut yang disesuaikan dengan kebutuhan Anda.
 
-### Mungkinkah mengunci sel secara bersyarat?
+### Apakah mungkin untuk mengunci sel secara bersyarat?
 
 Ya, Anda dapat mengunci sel secara kondisional berdasarkan kriteria tertentu menggunakan Aspose.Cells untuk Java. Ini memungkinkan Anda untuk mengunci atau membuka kunci sel secara dinamis, tergantung pada kondisi yang Anda tentukan.
 

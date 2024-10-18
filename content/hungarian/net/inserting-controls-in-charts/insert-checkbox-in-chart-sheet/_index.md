@@ -66,7 +66,7 @@ Mielőtt rátérnénk az izgalmas részre, meg kell határoznunk, hova szeretné
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Váltson át a megadott könyvtárra
 ```
- Ügyeljen arra, hogy cserélje ki`"C:\\YourOutputDirectory\\"` azzal az elérési úttal, ahová a fájlt menteni szeretné. Gondoljon erre úgy, mint a munkaterület felállítására; tudnia kell, hová helyezi az eszközeit (vagy ebben az esetben az Excel-fájlt).
+ Ügyeljen arra, hogy cserélje ki`"C:\\YourOutputDirectory\\"` azzal az elérési úttal, ahová a fájlt menteni szeretné. Tekintse ezt úgy, mint a munkaterület felállítását; tudnia kell, hová helyezi az eszközeit (vagy ebben az esetben az Excel-fájlt).
 
 ## 2. lépés: Munkafüzet-objektum példányosítása
 

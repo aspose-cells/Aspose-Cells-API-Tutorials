@@ -15,7 +15,7 @@ Vous est-il déjà arrivé de devoir copier manuellement des feuilles de calcul 
 
 Avant de plonger dans le code, assurons-nous que vous disposez des bons outils pour commencer :
 
--  Aspose.Cells pour .NET : vous pouvez le télécharger[ici](https://releases.aspose.com/cells/net/).
+- Aspose.Cells pour .NET : vous pouvez le télécharger[ici](https://releases.aspose.com/cells/net/).
 - Visual Studio ou tout autre IDE prenant en charge .NET Framework.
 -  Un permis valide ou un[permis temporaire](https://purchase.aspose.com/temporary-license/) si vous souhaitez tester toutes les fonctionnalités d'Aspose.Cells.
 - Une compréhension de base de C# et du framework .NET.
@@ -64,13 +64,13 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Maintenant que vous avez ouvert le premier classeur, il est temps de créer un autre classeur vide dans lequel vous collerez la feuille de calcul copiée. Considérez cela comme l'ouverture d'un nouveau bloc-notes vierge dans lequel vous transférerez les données.
 
 ```csharp
-// Créer un autre classeur.
+//Créer un autre classeur.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
  Cette ligne crée un classeur vide nommé`excelWorkbook1`C'est ici que la feuille de calcul copiée sera stockée après l'avoir déplacée du premier classeur.
 
-## Étape 4 : Copiez la feuille de travail
+## Étape 4 : Copiez la feuille de calcul
 
 Et voilà la magie ! Dans cette étape, vous allez copier la feuille de calcul du premier classeur dans le second. C'est comme transférer une note d'un cahier à un autre.
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Enfin, vous enregistrerez le deuxième classeur avec la feuille de calcul copiée. C'est comme si vous enregistriez vos notes nouvellement écrites dans un nouveau dossier sur votre ordinateur.
 
 ```csharp
-//Sauvegarder le fichier.
+// Sauvegarder le fichier.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -102,11 +102,11 @@ N'oubliez pas que le codage devient plus facile lorsque vous le décomposez en �
 
 ### Puis-je copier plusieurs feuilles de calcul à la fois ?
 
- Oui, vous pouvez parcourir les feuilles de calcul du classeur source et les copier dans le classeur de destination. Chaque feuille de calcul a son propre`Copy` méthode.
+ Oui, vous pouvez parcourir les feuilles de calcul du classeur source et les copier dans le classeur de destination. Chaque feuille de calcul a sa propre`Copy` méthode.
 
-### Puis-je copier une feuille de calcul dans un classeur contenant déjà des données ?
+### Puis-je copier une feuille de calcul dans un classeur qui contient déjà des données ?
 
-Absolument ! Vous pouvez copier une feuille de calcul dans n'importe quel classeur existant, même si elle contient déjà des données. Il vous suffit de spécifier l'index de feuille de calcul correct.
+Absolument ! Vous pouvez copier une feuille de calcul dans n'importe quel classeur existant, même s'il contient déjà des données. Il vous suffit de spécifier l'index de feuille de calcul correct.
 
 ### Ai-je besoin d'une licence payante pour cette fonctionnalité ?
 

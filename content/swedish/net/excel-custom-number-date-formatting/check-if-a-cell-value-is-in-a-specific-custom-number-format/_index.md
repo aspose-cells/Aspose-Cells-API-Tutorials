@@ -43,9 +43,9 @@ För att börja måste du skapa en instans av en arbetsbok. Detta är grunden f�
 Workbook wb = new Workbook();
 ```
 
- Genom att initiera`Workbook`ställer vi in en ny Excel-fil i minnet, redo för manipulation.
+ Genom att initiera`Workbook`, ställer vi in en ny Excel-fil i minnet, redo för manipulation.
 
-## Steg 2: Ställ in arbetsbokinställningar
+## Steg 2: Konfigurera arbetsbokinställningar
 
 Därefter måste vi konfigurera inställningarna för vår arbetsbok. Detta är avgörande eftersom det hjälper till att fånga upp fel angående anpassade nummerformat.
 
@@ -107,7 +107,7 @@ catch (Exception ex)
 }
 ```
 
-I detta kodblock försöker vi ställa in ett ogiltigt anpassat nummerformat. Eftersom vi har aktiverat undantagskastning i våra arbetsboksinställningar kommer detta att fånga eventuella problem och skriva ut felmeddelandet.
+detta kodblock försöker vi ställa in ett ogiltigt anpassat nummerformat. Eftersom vi har aktiverat undantagskastning i våra arbetsboksinställningar kommer detta att fånga eventuella problem och skriva ut felmeddelandet.
 
 ## Steg 7: Validera framgångsexekvering
 

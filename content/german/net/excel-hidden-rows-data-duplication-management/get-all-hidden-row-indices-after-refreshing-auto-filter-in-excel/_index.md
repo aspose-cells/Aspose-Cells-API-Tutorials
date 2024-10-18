@@ -84,7 +84,7 @@ Mit der Anwendung des Autofilters beginnt die Magie! Wir geben an, welche Spalte
 ws.AutoFilter.AddFilter(0, "Orange"); // Autofilter für die erste Spalte anwenden
 ```
 
-## Schritt 5: Aktualisieren Sie den Autofilter und holen Sie ausgeblendete Zeilen
+## Schritt 5: Aktualisieren Sie den Autofilter und holen Sie sich ausgeblendete Zeilen
 
 Die folgende Zeile aktualisiert den Autofilter. Sie gibt die Indizes der Zeilen zurück, die nach Anwendung unseres Filters ausgeblendet sind. Wenn Sie den Parameter auf „true“ setzen, wird der Filter effektiv aktualisiert.
 
@@ -126,7 +126,7 @@ Ja! Aspose.Cells verfügt über integrierte Funktionen zum Anwenden von Filtern 
  Aspose.Cells bietet eine kostenlose Testversion an, aber Sie müssen eine Lizenz erwerben, um sie weiterhin nutzen zu können. Überprüfen Sie die[Kaufseite](https://purchase.aspose.com/buy) für Details.
 
 ### Wie kann ich Support für Aspose.Cells erhalten?
- Sie können Unterstützung von der Aspose-Community über das[Aspose-Forum](https://forum.aspose.com/c/cells/9).
+ Sie können Unterstützung von der Aspose-Community erhalten über das[Aspose-Forum](https://forum.aspose.com/c/cells/9).
 
 ### Wo finde ich die Dokumentation für Aspose.Cells?
  Die komplette Dokumentation ist verfügbar[Hier](https://reference.aspose.com/cells/net/).

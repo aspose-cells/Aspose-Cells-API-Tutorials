@@ -15,7 +15,7 @@ Já se viu copiando planilhas entre pastas de trabalho do Excel manualmente? É 
 
 Antes de mergulharmos no código, vamos garantir que você esteja equipado com as ferramentas certas para começar:
 
--  Aspose.Cells para .NET: Você pode baixá-lo[aqui](https://releases.aspose.com/cells/net/).
+- Aspose.Cells para .NET: Você pode baixá-lo[aqui](https://releases.aspose.com/cells/net/).
 - Visual Studio ou qualquer IDE que suporte o .NET Framework.
 -  Uma licença válida ou uma[licença temporária](https://purchase.aspose.com/temporary-license/) se você quiser testar a funcionalidade completa do Aspose.Cells.
 - Uma compreensão básica de C# e do framework .NET.
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Agora que você tem a primeira pasta de trabalho aberta, é hora de criar outra pasta de trabalho vazia onde você colará a planilha copiada. Pense nisso como abrir um novo caderno em branco para onde você transferirá os dados.
 
 ```csharp
-// Crie outra pasta de trabalho.
+//Crie outra pasta de trabalho.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Por fim, você salvará a segunda pasta de trabalho com a planilha copiada. Isso é como salvar suas notas recém-escritas em uma pasta nova no seu computador.
 
 ```csharp
-//Salve o arquivo.
+// Salve o arquivo.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -94,7 +94,7 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 
 ## Conclusão
 
-E é isso! Você copiou com sucesso uma planilha de uma pasta de trabalho do Excel para outra usando o Aspose.Cells para .NET. É um processo direto que evita que você tenha que copiar e colar manualmente, especialmente ao trabalhar com planilhas complexas ou grandes. O Aspose.Cells para .NET é uma ferramenta poderosa que permite que você manipule arquivos do Excel com facilidade, seja copiando planilhas, mesclando pastas de trabalho ou executando tarefas mais avançadas.
+é isso! Você copiou com sucesso uma planilha de uma pasta de trabalho do Excel para outra usando o Aspose.Cells para .NET. É um processo direto que evita que você tenha que copiar e colar manualmente, especialmente ao trabalhar com planilhas complexas ou grandes. O Aspose.Cells para .NET é uma ferramenta poderosa que permite que você manipule arquivos do Excel com facilidade, seja copiando planilhas, mesclando pastas de trabalho ou executando tarefas mais avançadas.
 
 Lembre-se, a codificação se torna mais fácil quando você a divide em etapas menores. Então, da próxima vez que precisar gerenciar seus arquivos do Excel, você estará preparado para lidar com isso como um profissional.
 

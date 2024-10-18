@@ -10,7 +10,7 @@ url: /id/java/basic-excel-functions/excel-text-functions-demystified/
 
 # Fungsi Teks Excel Diungkap Menggunakan Aspose.Cells untuk Java
 
-Dalam tutorial ini, kita akan mempelajari dunia manipulasi teks di Excel menggunakan Aspose.Cells for Java API. Baik Anda pengguna Excel yang berpengalaman atau baru memulai, memahami fungsi teks dapat meningkatkan keterampilan spreadsheet Anda secara signifikan. Kita akan menjelajahi berbagai fungsi teks dan memberikan contoh praktis untuk mengilustrasikan penggunaannya.
+Dalam tutorial ini, kita akan mempelajari dunia manipulasi teks di Excel menggunakan Aspose.Cells untuk API Java. Baik Anda pengguna Excel yang berpengalaman atau baru memulai, memahami fungsi teks dapat meningkatkan keterampilan spreadsheet Anda secara signifikan. Kita akan menjelajahi berbagai fungsi teks dan memberikan contoh praktis untuk mengilustrasikan penggunaannya.
 
 ## Memulai
 
@@ -137,7 +137,7 @@ Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
 ```
 
-### Bisakah saya mengekstrak karakter pertama dan terakhir dari rangkaian teks?
+### Bisakah saya mengekstrak karakter pertama dan terakhir dari string teks?
 
  Ya, Anda bisa menggunakan`LEFT` Dan`RIGHT` fungsi untuk mengekstrak karakter dari awal atau akhir string teks. Misalnya:
 ```java

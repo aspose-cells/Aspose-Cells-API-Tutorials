@@ -1,7 +1,7 @@
 ---
 title: Especificar campos de fórmula ao importar dados para uma planilha do Excel
 linktitle: Especificar campos de fórmula ao importar dados para uma planilha do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como importar dados para planilhas do Excel com campos de fórmula especificados usando o Aspose.Cells para .NET neste tutorial detalhado.
 type: docs
 weight: 11
@@ -16,7 +16,7 @@ Quando se trata de manipular arquivos do Excel programaticamente, o Aspose.Cells
 Antes de mergulhar no código, vamos garantir que você tenha tudo o que precisa. 
 
 1. Visual Studio ou qualquer ambiente de desenvolvimento integrado (IDE) .NET: certifique-se de ter um IDE adequado para escrever e executar seu código C#.
-2. Aspose.Cells para .NET: Você precisará baixar e referenciar a biblioteca Aspose.Cells em seu projeto. Você pode baixá-la do[Lançamentos da Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells para .NET: Você precisará baixar e referenciar a biblioteca Aspose.Cells em seu projeto. Você pode baixá-la do[Lançamentos da Aspose](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: A familiaridade com C# e conceitos de programação orientada a objetos ajudará você a entender melhor os exemplos.
 4. .NET Framework: Este tutorial pressupõe que você esteja usando o .NET Framework 4.5 ou superior.
 
@@ -32,7 +32,7 @@ using System;
 using System.Collections.Generic;
 ```
 
-Isso permite que você use as classes e métodos fornecidos pela biblioteca Aspose.Cells sem precisar prefixá-los com o namespace todas as vezes.
+Isso permite que você use as classes e os métodos fornecidos pela biblioteca Aspose.Cells sem precisar prefixá-los com o namespace todas as vezes.
 
 Vamos dividir todo o processo em etapas gerenciáveis:
 
@@ -168,14 +168,14 @@ E aí está! Você importou dados com sucesso para uma planilha do Excel usando 
 Aspose.Cells é uma biblioteca .NET projetada para criar, manipular e converter arquivos do Excel programaticamente.
 
 ### Como instalo o Aspose.Cells para .NET?
- Você pode baixá-lo do[Lançamentos da Aspose](https://releases.aspose.com/cells/net/) referencie-o em seu projeto.
+ Você pode baixá-lo do[Lançamentos da Aspose](https://releases.aspose.com/cells/net/) e referencie-o em seu projeto.
 
 ### Posso usar o Aspose.Cells gratuitamente?
  Sim, o Aspose oferece um teste gratuito disponível em[este link](https://releases.aspose.com/).
 
 ### Onde posso encontrar mais exemplos?
- Exemplos adicionais e documentação podem ser encontrados em[Página de documentação do Aspose](https://reference.aspose.com/cells/net/).
+ Exemplos e documentação adicionais podem ser encontrados em[Página de documentação do Aspose](https://reference.aspose.com/cells/net/).
 
 ### E se eu tiver problemas ao usar o Aspose?
- Você pode buscar ajuda no fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9).
+Você pode buscar ajuda no fórum de suporte do Aspose[aqui](https://forum.aspose.com/c/cells/9).
  

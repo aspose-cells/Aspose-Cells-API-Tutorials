@@ -9,7 +9,7 @@ url: /de/net/manipulating-chart-types/create-custom-chart/
 ---
 ## Einführung
 
-Das Erstellen benutzerdefinierter Diagramme in Excel mithilfe der Aspose.Cells-Bibliothek für .NET ist nicht nur unkompliziert, sondern auch eine fantastische Möglichkeit, Ihre Daten effektiv zu visualisieren. Diagramme können banale Daten in überzeugende Geschichten verwandeln und es Analysten und Entscheidungsträgern so erleichtern, Erkenntnisse zu gewinnen. In diesem Tutorial gehen wir ausführlich darauf ein, wie Sie benutzerdefinierte Diagramme in Ihren Anwendungen erstellen können. Wenn Sie also Ihre Berichte verbessern oder Ihrer Datenpräsentation einfach mehr Flair verleihen möchten, sind Sie hier richtig!
+Das Erstellen benutzerdefinierter Diagramme in Excel mithilfe der Aspose.Cells-Bibliothek für .NET ist nicht nur unkompliziert, sondern auch eine fantastische Möglichkeit, Ihre Daten effektiv zu visualisieren. Diagramme können banale Daten in überzeugende Geschichten verwandeln und es Analysten und Entscheidungsträgern so erleichtern, Erkenntnisse zu gewinnen. In diesem Tutorial erfahren Sie ausführlich, wie Sie benutzerdefinierte Diagramme in Ihren Anwendungen erstellen können. Wenn Sie also Ihre Berichte verbessern oder Ihrer Datenpräsentation einfach mehr Flair verleihen möchten, sind Sie hier richtig!
 
 ## Voraussetzungen
 
@@ -52,7 +52,7 @@ Anstelle von „Ihr Ausgabeverzeichnis“ können Sie einen tatsächlichen Pfad 
  Nun möchten Sie mit der Erstellung einer neuen Instanz des`Workbook` Klasse. Dies ist der grundlegende Baustein für alle Excel-Operationen mit Aspose.Cells.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 

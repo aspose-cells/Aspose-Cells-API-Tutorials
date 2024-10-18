@@ -16,7 +16,7 @@ Excel ist ein vielseitiges Tool zur Datenbearbeitung, aber die Integration von D
 
 ## 2. Einrichten von Aspose.Cells für Java
 
- Bevor Sie in die Datenintegration eintauchen, müssen Sie Aspose.Cells für Java einrichten. Sie können die Bibliothek von herunterladen[Hier](https://releases.aspose.com/cells/java/). Befolgen Sie die Installationsanweisungen, um zu beginnen.
+ Bevor Sie in die Datenintegration eintauchen, müssen Sie Aspose.Cells für Java einrichten. Sie können die Bibliothek von herunterladen[Hier](https://releases.aspose.com/cells/java/). Folgen Sie den Installationsanweisungen, um zu beginnen.
 
 ## 3. Daten in Excel laden
 
@@ -96,7 +96,7 @@ Die Größe der integrierten Daten hängt vom Arbeitsspeicher Ihres Systems und 
 
 ### F4: Kann ich Datenintegrationsaufgaben mit Aspose.Cells für Java automatisieren?
 
-Auf jeden Fall! Aspose.Cells für Java bietet eine leistungsstarke API für die Automatisierung, mit der Sie komplexe Datenintegrationsprozesse skripten können.
+Auf jeden Fall! Aspose.Cells für Java bietet eine leistungsstarke API zur Automatisierung, mit der Sie komplexe Datenintegrationsprozesse skripten können.
 
 ### F5: Gibt es alternative Bibliotheken für die Excel-Datenintegration?
 

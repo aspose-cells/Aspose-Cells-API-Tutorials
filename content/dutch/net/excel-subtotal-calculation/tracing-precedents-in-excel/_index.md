@@ -10,7 +10,7 @@ url: /nl/net/excel-subtotal-calculation/tracing-precedents-in-excel/
 ## Invoering
 Heb je jezelf ooit in een wirwar van Excel-formules bevonden, wanhopig proberend om erachter te komen welke cellen in je berekeningen worden gebruikt? Zo ja, dan ben je niet de enige! Het begrijpen van precedenten in Excel kan je vaardigheden voor data-analyse aanzienlijk verbeteren en je workflow stroomlijnen. In dit artikel onderzoeken we hoe je precedenten in Excel kunt traceren met Aspose.Cells voor .NET. Aspose.Cells is een krachtige bibliotheek waarmee je Excel-bestanden met indrukwekkend gemak kunt manipuleren, en we leiden je door een stapsgewijze handleiding om die celafhankelijkheden in een mum van tijd te traceren. Dus pak je favoriete cafeïnehoudende drankje, leun achterover en laten we erin duiken!
 ## Vereisten
-Voordat we beginnen, willen we er zeker van zijn dat je alles hebt wat je nodig hebt om met onze tutorial te beginnen. 
+Voordat we beginnen, willen we ervoor zorgen dat je alles bij de hand hebt om met onze tutorial aan de slag te gaan. 
 ### 1. Basiskennis van C#
 Kennis van de programmeertaal C# is essentieel, omdat je codefragmenten schrijft om onze taken uit te voeren.
 ### 2. Aspose.Cells voor .NET
@@ -18,7 +18,7 @@ Je hebt de Aspose.Cells-bibliotheek nodig. Als je deze nog niet hebt gedownload,
 ### 3. Ontwikkelomgeving
 Zorg ervoor dat u een .NET-ontwikkelomgeving hebt ingesteld. Visual Studio is een geweldige keuze voor het ontwikkelen van C#-applicaties.
 ### 4. Voorbeeld Excel-bestand
-Voor deze tutorial hebt u een Excel-voorbeeldbestand nodig met de naam "Book1.xlsx". Zorg ervoor dat het is opgeslagen in een toegankelijke map. 
+Voor deze tutorial hebt u een voorbeeld-Excel-bestand nodig met de naam "Book1.xlsx". Zorg ervoor dat het is opgeslagen in een toegankelijke map. 
 Als u aan al deze voorwaarden hebt voldaan, bent u helemaal klaar om aan de slag te gaan met het traceren van precedenten!
 ## Pakketten importeren
 Nu u aan de vereisten hebt voldaan, is het tijd om de benodigde pakketten in uw C#-project te importeren om aan de slag te gaan.
@@ -27,7 +27,7 @@ Laten we beginnen bij het begin: open uw C#-project in Visual Studio.
 ### Referenties toevoegen
 moet een referentie toevoegen aan de Aspose.Cells DLL. Klik met de rechtermuisknop op uw project in de Solution Explorer, selecteer Add > Reference, blader vervolgens naar de locatie waar u Aspose.Cells hebt gedownload en selecteer het DLL-bestand.
 ### Naamruimte-opname
-Voeg de volgende naamruimten toe aan uw C#-bestand door de volgende regels bovenaan toe te voegen:
+Voeg in uw C#-bestand de volgende naamruimten toe door bovenaan deze regels toe te voegen:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -62,7 +62,7 @@ ReferredAreaCollection ret = cell.GetPrecedents();
 ```
  Hier,`GetPrecedents()` De methode doet het zware werk en verzamelt alle cellen die invoer leveren aan cel B4. 
 ## Stap 5: Loop door precedenten
-Laten we nu de verzameling precedenten eens doornemen om wat nuttige informatie te verzamelen.
+Laten we nu de verzameling precedenten doornemen om wat nuttige informatie te verzamelen.
 ```csharp
 foreach (ReferredArea area in ret)
 {

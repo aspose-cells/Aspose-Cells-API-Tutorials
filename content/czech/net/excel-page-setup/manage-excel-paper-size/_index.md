@@ -17,7 +17,7 @@ Než se ponoříte do technických detailů správy velikostí papíru Excel, mu
 
 1. Základní porozumění C#: Znalost programování v C# výrazně usnadní proces integrace Aspose.Cells do vašich projektů.
 2. Nainstalované Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio, abyste mohli psát a spouštět kód C#.
-3.  Aspose.Cells for .NET Library: Budete muset získat Aspose.Cells. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET Library: Budete muset získat Aspose.Cells. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 4. NuGet Package Manager: Ujistěte se, že máte přístup k NuGet Package Manageru, protože pomocí něj můžete snadno nainstalovat Aspose.Cells.
 
 S ohledem na tyto předpoklady můžeme začít!
@@ -38,7 +38,7 @@ Začněte vytvořením nového projektu C# v sadě Visual Studio.
 
 ### Importujte požadované jmenné prostory
 
-V horní části souboru C# importujte následující jmenné prostory:
+horní části souboru C# importujte následující jmenné prostory:
 
 ```csharp
 using System.IO;

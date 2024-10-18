@@ -13,15 +13,15 @@ Excel oyununuzu bir üst seviyeye taşımaya hazır mısınız? Aspose.Cells for
 
 ## Excel'de Verileri Sıralama: Özel Sıralama Listesi Kolaylaştırıldı
 
-Verileri sıralamak çocuk oyuncağı gibi görünebilir, ancak karışıma özel bir sıralama listesi eklediğinizde işler biraz daha ilginç hale gelir. İster adları, ister tarihleri veya herhangi bir veri kümesini düzenliyor olun, sırayı özelleştirmek yeni bir bakış açısı getirebilir ve verilerinizin anlaşılmasını kolaylaştırabilir. Bir kitap rafı düzenlediğinizi düşünün; sadece alfabetik olarak mı düzenlersiniz yoksa türlere göre özel bir sıra mı oluşturursunuz? Özel sıralamanın güzelliği budur! 
+Verileri sıralamak çocuk oyuncağı gibi görünebilir, ancak karışıma özel bir sıralama listesi eklediğinizde işler biraz daha ilginç hale gelir. İster adları, ister tarihleri veya herhangi bir veri kümesini düzenliyor olun, sırayı özelleştirmek yeni bir bakış açısı getirebilir ve verilerinizin anlaşılmasını kolaylaştırabilir. Bir kitap rafını düzenlediğinizi düşünün; sadece alfabetik olarak mı düzenlersiniz yoksa türlere göre özel bir sıra mı oluşturursunuz? Özel sıralamanın güzelliği budur! 
 
- Bizim[Excel'de Özel Sıralama Listesiyle Sütundaki Verileri Sıralama öğreticisi](./sort-data-in-a-column-with-custom-sort-list-in-excel/)Aspose.Cells ile özel bir sıralama listesinin nasıl ayarlanacağını adım adım anlatacağız. Çok basit: sıralama önceliklerinizi nasıl tanımlayacağınızı ve Excel'in buna göre nasıl yanıt vereceğini öğreneceksiniz. Bu eğitim size sadece adımları vermekle kalmıyor; gerçek hayattan örneklerle etkileşime girerek öğrenme sürecini ilişkilendirilebilir ve keyifli hale getiriyor.
+ Bizim[Excel'de Özel Sıralama Listesiyle Bir Sütundaki Verileri Sıralama öğreticisi](./sort-data-in-a-column-with-custom-sort-list-in-excel/)Aspose.Cells ile özel bir sıralama listesinin nasıl ayarlanacağını adım adım anlatacağız. Çok basit: sıralama önceliklerinizi nasıl tanımlayacağınızı ve Excel'in buna göre nasıl yanıt vereceğini öğreneceksiniz. Bu eğitim size sadece adımları vermekle kalmıyor; gerçek hayattan örneklerle etkileşime girerek öğrenme sürecini ilişkilendirilebilir ve keyifli hale getiriyor.
 
 ## HTML Değerlerini Dışa Aktarma: Hücreleri DataTable'a Dönüştürme
 
 Şimdi, HTML dize değerlerini dışa aktarmaya geçelim. Diyelim ki Excel'de zengin HTML biçimlendirmesiyle muhteşem bir tablo oluşturdunuz ve şimdi bu verileri bir web uygulamasında kullanmak istiyorsunuz. Bunu nasıl başarırsınız? İşte ikinci eğitimimiz burada devreye giriyor. 
 
- İle[Excel'de Hücrelerin HTML Dize Değerini DataTable'a Aktarma öğreticisi](./export-html-string-value-of-cells-to-datatable-in-excel/), Aspose.Cells for .NET kullanarak bu güzel biçimlendirilmiş hücreleri çıkarmayı ve bunları bir DataTable'a dönüştürmeyi öğreneceksiniz. Bu, tozlu eski bir kitaptan en sevdiğiniz dijital yemek pişirme uygulamanıza lezzetli bir tarif aktarmak gibidir; kullanışlı ve verimli!
+ İle[Excel'de Hücrelerin HTML Dize Değerini DataTable'a Aktarma öğreticisi](./export-html-string-value-of-cells-to-datatable-in-excel/), bu güzel biçimlendirilmiş hücreleri çıkarmayı ve bunları Aspose.Cells for .NET kullanarak bir DataTable'a dönüştürmeyi öğreneceksiniz. Bu, tozlu eski bir kitaptan en sevdiğiniz dijital yemek pişirme uygulamanıza lezzetli bir tarif aktarmak gibidir; kullanışlı ve verimli!
 
 ## Excel Veri Sıralama ve Dışa Aktarma Eğitimleri
 ### [Excel'de Özel Sıralama Listesiyle Bir Sütundaki Verileri Sıralama](./sort-data-in-a-column-with-custom-sort-list-in-excel/)

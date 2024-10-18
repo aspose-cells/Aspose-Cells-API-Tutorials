@@ -18,7 +18,7 @@ Innan vi går in i handledningen, låt oss se till att du har allt som krävs f�
 1. Visual Studio installerad: Du behöver en IDE som Visual Studio för att skriva och köra din .NET-kod.
 2. .NET Framework: Denna handledning förutsätter att du använder .NET Framework 4.0 eller senare. Men Aspose.Cells är kompatibel med .NET Core också.
 3.  Aspose.Cells Library: Om du inte redan har gjort detta, ladda ner biblioteket från Asposes webbplats[här](https://releases.aspose.com/cells/net/) . Du kan också börja med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
-4.  Exempel på Excel-fil: Vi kommer att använda ett exempel på en Excel-fil med namnet`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Se till att du har den här filen redo i din arbetskatalog.
+4. Exempel på Excel-fil: Vi kommer att använda ett exempel på en Excel-fil med namnet`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Se till att du har den här filen redo i din arbetskatalog.
 
 ## Importera paket
 
@@ -62,7 +62,7 @@ Nu är du redo att börja manipulera vår Excel-fil!
 Innan vi laddar Excel-filen, låt oss ställa in utdata- och källkatalogerna. Detta gör att vi kan ange var våra filer lagras.
 
 ```csharp
-// Utdatakatalog - där PDF:en kommer att sparas
+//Utdatakatalog - där PDF:en kommer att sparas
 string outputDir = "Your Output Directory"; // ange din utdatakatalog här
 
 // Källkatalog - där exemplet på Excel-filen finns
@@ -78,7 +78,7 @@ Att använda Aspose.Cells är att ladda en Excel-fil enkelt. Så här gör du:
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Vid det här laget har du lätt laddat din arbetsbok!
+Vid det här laget har du enkelt laddat din arbetsbok!
 
 ## Få åtkomst till och manipulera diagrammet
 
@@ -108,7 +108,7 @@ I Excel är en av nyckelfunktionerna i diagram hantering av automatiska enheter 
 
 ```csharp
 // Ställ in huvudenhet för Y-axeln
-ch.AxisY.MajorUnit = 10; // Du kan ställa in enligt dina krav
+ch.AxisY.MajorUnit = 10; //Du kan ställa in enligt dina krav
 ```
 
 Låt oss uppdatera de automatiska enheterna nu!
@@ -151,4 +151,4 @@ Bara Aspose.Cells-biblioteket och ett .NET Framework installerat på din maskin.
 Absolut! Aspose.Cells stöder olika format som XLSX, HTML och bilder.
 
 ### Var kan jag hitta support om jag stöter på problem?
-Du kan söka hjälp från Aspose-communityt[här](https://forum.aspose.com/c/cells/9).
+ Du kan söka hjälp från Aspose-communityt[här](https://forum.aspose.com/c/cells/9).

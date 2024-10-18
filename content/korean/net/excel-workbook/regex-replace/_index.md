@@ -53,7 +53,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- 여기,`"Your Document Directory"` 그리고`"Your Document Directory"` 소스 및 출력 경로를 편리하게 가져오는 데 도움이 되는 유틸리티 기능입니다. 소스 디렉토리에 다음 이름의 파일이 있는지 확인하세요.`SampleRegexReplace.xlsx` 이 예를 들어보겠습니다.
+ 여기,`"Your Document Directory"` 그리고`"Your Document Directory"` 소스 및 출력 경로를 편리하게 가져오는 데 도움이 되는 유틸리티 함수입니다. 소스 디렉토리에 다음 이름의 파일이 있는지 확인하세요.`SampleRegexReplace.xlsx` 이 예를 들어보겠습니다.
 
 ## 2단계: 통합 문서 로드
 

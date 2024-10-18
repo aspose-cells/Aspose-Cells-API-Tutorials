@@ -36,7 +36,7 @@ Vamos agora para o cerne da nossa tarefa. Vou dividir cada passo, para que seja 
 
 ## Etapa 1: configure seu projeto e pasta de trabalho
 
-A primeira coisa que precisamos é de um objeto Workbook que irá armazenar nosso arquivo Excel. Imagine isso como sua representação digital de um arquivo Excel real. Vamos carregar um arquivo Excel existente, ou você pode criar um novo, se necessário.
+primeira coisa que precisamos é de um objeto Workbook que irá armazenar nosso arquivo Excel. Imagine isso como sua representação digital de um arquivo Excel real. Vamos carregar um arquivo Excel existente, ou você pode criar um novo, se necessário.
 
 ### Configurando o Projeto
 
@@ -55,11 +55,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Substitua pelo caminho do seu arq
 Workbook workbook = new Workbook(dataDir + "book1.xls"); 
 ```
 
- Aqui,`book1.xls` é o arquivo Excel que modificaremos. Se você não tiver um arquivo existente, você pode criar um no Excel e então salvá-lo no diretório do seu projeto.
+ Aqui,`book1.xls` é o arquivo Excel que modificaremos. Se você não tiver um arquivo existente, você pode criar um no Excel e salvá-lo no diretório do seu projeto.
 
 ## Etapa 2: ajuste a visibilidade da guia
 
-segunda coisa que faremos é garantir que a barra de abas esteja visível. Isso garante que as abas possam ser ajustadas para largura. Pense nisso como garantir que seu painel de configurações esteja visível antes de começar a alterar as coisas.
+A segunda coisa que faremos é garantir que a barra de abas esteja visível. Isso garante que as abas possam ser ajustadas para largura. Pense nisso como garantir que seu painel de configurações esteja visível antes de começar a alterar as coisas.
 
 ```csharp
 workbook.Settings.ShowTabs = true;
@@ -89,11 +89,11 @@ workbook.Save(dataDir + "output.xls");
 
 ## Conclusão
 
-E é isso! Agora você aprendeu com sucesso como controlar a largura da barra de guias em uma planilha do Excel usando o Aspose.Cells for .NET. Esse simples ajuste pode fazer uma grande diferença ao navegar em grandes pastas de trabalho, dando às suas planilhas uma aparência mais polida e amigável.
+é isso! Agora você aprendeu com sucesso como controlar a largura da barra de guias em uma planilha do Excel usando o Aspose.Cells for .NET. Esse simples ajuste pode fazer uma grande diferença ao navegar em grandes pastas de trabalho, dando às suas planilhas uma aparência mais polida e amigável.
 
 ## Perguntas frequentes
 
-### Posso ocultar a barra de abas completamente usando o Aspose.Cells?
+### Posso ocultar a barra de guias completamente usando o Aspose.Cells?
  Sim! Ao definir`workbook.Settings.ShowTabs` para`false`, você pode ocultar a barra de abas completamente.
 
 ### O que acontece se eu definir a largura da aba muito grande?

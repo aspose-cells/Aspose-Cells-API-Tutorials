@@ -10,7 +10,7 @@ url: /ja/java/basic-excel-functions/excel-text-functions-demystified/
 
 # Aspose.Cells for Java を使用して Excel テキスト関数を解明する
 
-このチュートリアルでは、Aspose.Cells for Java API を使用して Excel でのテキスト操作の世界を詳しく見ていきます。Excel の熟練ユーザーでも、初心者でも、テキスト関数を理解することでスプレッドシートのスキルを大幅に向上できます。さまざまなテキスト関数について説明し、その使用方法を示す実用的な例を示します。
+このチュートリアルでは、Aspose.Cells for Java API を使用して Excel でのテキスト操作の世界を詳しく見ていきます。Excel の熟練ユーザーでも、初心者でも、テキスト関数を理解することでスプレッドシートのスキルを大幅に向上させることができます。さまざまなテキスト関数について説明し、その使用方法を示す実用的な例を示します。
 
 ## はじめる
 

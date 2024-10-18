@@ -91,7 +91,7 @@ Ecco alcune domande comuni relative all'automazione delle cartelle di lavoro di 
 ### Posso automatizzare le attività di Excel in Java senza che Excel sia installato sul mio computer?
    Sì, puoi. Aspose.Cells per Java ti consente di lavorare con file Excel senza richiedere l'installazione di Microsoft Excel.
 
-### Come formatto le celle o applico stili ai dati di Excel utilizzando Aspose.Cells?
+### Come formattare le celle o applicare stili ai dati di Excel utilizzando Aspose.Cells?
    Puoi applicare vari formati e stili alle celle usando Aspose.Cells. Fai riferimento alla documentazione API per esempi dettagliati.
 
 ### Aspose.Cells per Java è compatibile con diversi formati di file Excel?

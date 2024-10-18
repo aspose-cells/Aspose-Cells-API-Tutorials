@@ -9,7 +9,7 @@ url: /pt/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 ---
 ## Introdução
 
-Quando se trata de criar e gerenciar planilhas do Excel programaticamente, o Aspose.Cells para .NET é uma biblioteca poderosa que torna nosso trabalho muito mais fácil. Se você precisa gerar relatórios, manipular dados ou formatar gráficos, o Aspose.Cells está ao seu lado. Neste tutorial, estamos nos aprofundando em um recurso específico: controlar o fator de zoom de uma planilha. Já se viu apertando os olhos para uma célula minúscula ou frustrado com um zoom que não se ajusta aos seus dados? Bem, todos nós já passamos por isso! Então, vamos ajudá-lo a gerenciar os níveis de zoom em suas planilhas do Excel e aprimorar sua experiência de usuário.
+Quando se trata de criar e gerenciar planilhas do Excel programaticamente, o Aspose.Cells para .NET é uma biblioteca poderosa que torna nosso trabalho muito mais fácil. Se você precisa gerar relatórios, manipular dados ou formatar gráficos, o Aspose.Cells está ao seu lado. Neste tutorial, estamos nos aprofundando em um recurso específico: controlar o fator de zoom de uma planilha. Já se viu apertando os olhos para uma célula minúscula ou frustrado com um zoom que não se ajusta aos seus dados? Bem, todos nós já passamos por isso! Então, vamos ajudá-lo a gerenciar os níveis de zoom em suas planilhas do Excel e melhorar sua experiência de usuário.
 
 ## Pré-requisitos
 
@@ -32,7 +32,7 @@ Abra o Visual Studio e crie um novo projeto Console Application. Você pode nome
 
 Agora, é hora de adicionar a referência da biblioteca Aspose.Cells. Você pode:
 
--  Baixe a DLL de[aqui](https://releases.aspose.com/cells/net/) e adicione-o ao seu projeto manualmente.
+-  Baixe a DLL de[aqui](https://releases.aspose.com/cells/net/) adicione-o ao seu projeto manualmente.
 - Ou use o Gerenciador de Pacotes NuGet e execute o seguinte comando no Console do Gerenciador de Pacotes:
 
 ```bash
@@ -81,7 +81,7 @@ Esta linha de código preparará seu arquivo Excel para edição.
  O`Workbook` object é o coração da sua funcionalidade Aspose.Cells. Ele representa seu arquivo Excel de uma forma gerenciável.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Com a pasta de trabalho agora na memória, é hora de acessar a planilha específica que você quer modificar. Na maioria dos casos, essa será a primeira planilha (índice 0).
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -108,11 +108,11 @@ Agora vem a mágica! Você pode definir o nível de zoom da planilha usando a se
 worksheet.Zoom = 75;
 ```
 
-O fator de zoom pode ser ajustado em qualquer lugar de 10 a 400, permitindo que você amplie ou reduza de acordo com suas necessidades. Um fator de zoom de 75 significa que os usuários verão 75% do tamanho original, facilitando a visualização de dados sem rolagem excessiva.
+fator de zoom pode ser ajustado em qualquer lugar de 10 a 400, permitindo que você amplie ou reduza de acordo com suas necessidades. Um fator de zoom de 75 significa que os usuários verão 75% do tamanho original, facilitando a visualização de dados sem rolagem excessiva.
 
 ## Etapa 6: Salve o arquivo Excel modificado
 
-Depois de fazer suas alterações, não esqueça de salvar seu trabalho. Isso é tão crucial quanto salvar um documento antes de fechá-lo!
+Após fazer suas alterações, não esqueça de salvar seu trabalho. Isso é tão crucial quanto salvar um documento antes de fechá-lo!
 
 ```csharp
 // Salvando o arquivo Excel modificado

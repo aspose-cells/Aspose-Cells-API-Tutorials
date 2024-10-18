@@ -35,7 +35,7 @@ using System.Text;
 
 Ces importations vous donnent accès aux fonctionnalités dont vous aurez besoin pour manipuler les fichiers Excel et leurs connexions.
 
-## Étape 1 : Configurer les répertoires
+## Étape 1 : Configurer les répertoires
 
 Avant de travailler avec votre fichier XLSB, vous devez configurer vos répertoires source et de sortie. Cette étape est essentielle pour garder vos fichiers organisés.
 

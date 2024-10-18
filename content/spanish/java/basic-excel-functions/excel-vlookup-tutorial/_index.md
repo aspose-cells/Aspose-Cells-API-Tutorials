@@ -10,7 +10,7 @@ url: /es/java/basic-excel-functions/excel-vlookup-tutorial/
 
 ## Introducción
 
-En este tutorial completo, nos adentraremos en el mundo de BUSCARV de Excel mediante la potente API Aspose.Cells para Java. Tanto si es un principiante como un desarrollador experimentado, esta guía le guiará por los pasos necesarios para aprovechar el potencial de Aspose.Cells para Java y realizar operaciones BUSCARV sin esfuerzo.
+En este completo tutorial, nos adentraremos en el mundo de BUSCARV de Excel mediante la potente API de Aspose.Cells para Java. Tanto si es un principiante como un desarrollador experimentado, esta guía le guiará por los pasos necesarios para aprovechar el potencial de Aspose.Cells para Java y realizar operaciones de BUSCARV sin esfuerzo.
 
 ## Prerrequisitos
 
@@ -91,7 +91,7 @@ if (cell != null) {
 
 Aspose.Cells para Java está diseñado específicamente para desarrolladores de Java. Sin embargo, Aspose también ofrece bibliotecas para otros lenguajes de programación. Asegúrese de visitar su sitio web para obtener más información.
 
-### ¿Aspose.Cells para Java es gratuito?
+### ¿Aspose.Cells para Java es de uso gratuito?
 
 Aspose.Cells para Java no es una biblioteca gratuita y requiere una licencia válida para su uso comercial. Puede encontrar información sobre precios y licencias en el sitio web de Aspose.
 

@@ -38,7 +38,7 @@ Sekarang setelah prasyarat kita terpenuhi, mari kita uraikan proses penerapan te
 
 ## Langkah 1: Siapkan Direktori Output dan Sumber Anda
 
-Hal pertama yang perlu kita lakukan adalah membuat direktori output dan direktori source. Di sinilah Anda akan memuat file Excel dan menyimpan file yang dimodifikasi.
+Hal pertama yang perlu kita lakukan adalah membuat direktori output dan direktori sumber. Di sinilah Anda akan memuat file Excel dan menyimpan file yang dimodifikasi.
 
 ```csharp
 // Direktori keluaran
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Pastikan bahwa`sampleApplyingThemesInChart.xlsx` ada di direktori sumber Anda.
+ Pastikan bahwa`sampleApplyingThemesInChart.xlsx`ada di direktori sumber Anda.
 
 ## Langkah 3: Akses Lembar Kerja
 
@@ -77,7 +77,7 @@ Dalam kasus ini, kita cukup mengambil lembar kerja pertama, yang cukup untuk con
 Dengan lembar kerja di tangan, kita sekarang dapat mengakses bagan yang ingin kita beri gaya.
 
 ```csharp
-//Dapatkan grafik pertama di lembar tersebut
+// Dapatkan grafik pertama di lembar tersebut
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Baris kode ini memastikan bahwa seri pertama pada bagan diatur untuk menggunakan
 
 ## Langkah 6: Konfigurasikan Warna
 
- Sekarang seri kita sudah siap, kita perlu mengubah warnanya. Ini melibatkan pembuatan`CellsColor` objek dan menentukan warna tema. Kita akan memilih gaya aksen untuk contoh ini.
+ Sekarang seri kita sudah siap, kita perlu mengubah warnanya. Ini melibatkan pembuatan`CellsColor`objek dan menentukan warna tema. Kita akan memilih gaya aksen untuk contoh ini.
 
 ```csharp
 // Dapatkan CellsColor dari SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Buat tema dalam gaya Aksen
+// Buat tema dalam gaya Aksen
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

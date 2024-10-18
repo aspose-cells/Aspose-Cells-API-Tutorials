@@ -29,7 +29,7 @@ Kenntnisse in der C#-Programmierung sind von Vorteil. Wenn Sie mit den grundlege
 
 ### Beispiel-Excel-Datei
 
-Für dieses Tutorial benötigen Sie eine Excel-Beispieldatei mit einem Diagramm, mit dem Sie herumexperimentieren können. Sie können eine erstellen oder ein Beispiel aus verschiedenen Online-Ressourcen herunterladen. Wir werden in der gesamten Anleitung auf die Datei „SampleChangeTickLabelDirection.xlsx“ verweisen.
+Für dieses Tutorial benötigen Sie eine Excel-Beispieldatei mit einem Diagramm zum Ausprobieren. Sie können eine erstellen oder ein Beispiel aus verschiedenen Online-Ressourcen herunterladen. Wir werden in der gesamten Anleitung auf die Datei „SampleChangeTickLabelDirection.xlsx“ verweisen.
 
 ## Pakete importieren
 
@@ -44,7 +44,7 @@ using Aspose.Cells.Charts;
 
 Diese Namespaces geben uns alles, was wir zum Ändern unserer Excel-Diagramme benötigen. 
 
-Nachdem wir nun unser Setup geklärt haben, unterteilen wir es in einfache, klare Schritte.
+Nachdem wir nun unser Setup geklärt haben, wollen wir es in einfache, klare Schritte unterteilen.
 
 ## Schritt 1: Quell- und Ausgabeverzeichnis festlegen
 
@@ -90,7 +90,7 @@ Chart chart = worksheet.Charts[0];
 
 Dies setzt voraus, dass das Arbeitsblatt mindestens ein Diagramm enthält. Wenn Sie mit mehr als einem Diagramm arbeiten, möchten Sie möglicherweise den Index des Diagramms angeben, das Sie ändern möchten.
 
-## Schritt 5: Ändern der Richtung der Teilstrichbeschriftung
+## Schritt 5: Ändern Sie die Richtung der Teilstrichbeschriftung
 
 Jetzt kommt der spaßige Teil! Wir ändern die Richtung der Teilstrichbeschriftungen auf horizontal. Sie können je nach Bedarf auch andere Optionen wie vertikal oder diagonal wählen.
 
@@ -100,7 +100,7 @@ chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
 
 Mit dieser einfachen Zeile definieren wir die Ausrichtung der Teilstrichbeschriftungen neu. Das ist so, als würde man eine Seite in einem Buch umblättern, um den Text besser sehen zu können!
 
-## Schritt 6: Speichern Sie die Ausgabedatei
+## Schritt 6: Speichern der Ausgabedatei
 
 Nachdem wir nun unsere Änderungen vorgenommen haben, speichern wir die Arbeitsmappe unter einem neuen Namen, damit wir sowohl die ursprüngliche als auch die geänderte Version behalten können.
 
@@ -122,7 +122,7 @@ Sie erhalten dadurch nicht nur eine Bestätigung, sondern sind auch stets über 
 
 ## Abschluss
 
-Und da haben Sie es! Mit nur wenigen Schritten können Sie die Richtung der Teilstrichbeschriftungen in Ihren Excel-Diagrammen mithilfe von Aspose.Cells für .NET ändern. Durch die Nutzung dieser leistungsstarken Bibliothek können Sie die Lesbarkeit Ihrer Diagramme verbessern und Ihrem Publikum die Interpretation der Daten erleichtern. Ob für Präsentationen, Berichte oder persönliche Projekte – Sie verfügen jetzt über das Wissen, um Ihre Excel-Diagramme optisch ansprechend zu gestalten.
+Und da haben Sie es! Mit nur wenigen Schritten können Sie die Richtung der Teilstrichbeschriftungen in Ihren Excel-Diagrammen mithilfe von Aspose.Cells für .NET ändern. Durch die Nutzung dieser leistungsstarken Bibliothek können Sie die Lesbarkeit Ihrer Diagramme verbessern und Ihrem Publikum die Interpretation der Daten erleichtern. Ob für Präsentationen, Berichte oder persönliche Projekte, Sie verfügen jetzt über das Wissen, um Ihre Excel-Diagramme optisch ansprechend zu gestalten.
 
 ## Häufig gestellte Fragen
 

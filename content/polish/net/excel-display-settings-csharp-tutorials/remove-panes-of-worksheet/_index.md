@@ -9,7 +9,7 @@ url: /pl/net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/
 ---
 ## Wstęp
 
-Czy kiedykolwiek miałeś problemy z arkuszami kalkulacyjnymi, które mają te irytujące zamrożone okienka? Jeśli tak, nie jesteś sam! Wielu z nas to przeżyło, próbując dowiedzieć się, jak skutecznie poruszać się po plikach Excel. Niezależnie od tego, czy czyścisz arkusz kalkulacyjny do prezentacji, udostępniasz dane, czy po prostu chcesz uzyskać bardziej uproszczony widok, usunięcie okienek może mieć ogromne znaczenie. W tym artykule przyjrzymy się, jak rozwiązać ten problem, używając Aspose.Cells dla .NET. Ale zanim zagłębimy się w kod, przygotujmy się na kilka warunków wstępnych.
+Czy kiedykolwiek miałeś problemy z arkuszami kalkulacyjnymi, które mają te irytujące zamrożone okienka? Jeśli tak, nie jesteś sam! Wielu z nas to przeżyło, próbując dowiedzieć się, jak skutecznie poruszać się po plikach Excela. Niezależnie od tego, czy czyścisz arkusz kalkulacyjny do prezentacji, udostępniasz dane, czy po prostu chcesz uzyskać bardziej uproszczony widok, usunięcie okienek może mieć ogromne znaczenie. W tym artykule przyjrzymy się, jak rozwiązać ten problem, używając Aspose.Cells dla .NET. Ale zanim zagłębimy się w kod, przygotujmy się na kilka warunków wstępnych.
 
 ## Wymagania wstępne
 
@@ -18,7 +18,7 @@ Zanim rzucisz się na głęboką wodę kodowania, upewnijmy się, że wszystko j
 1. Visual Studio: Zainstalowanie programu Visual Studio zapewni Ci niezawodne środowisko programistyczne do tworzenia aplikacji .NET.
 2.  Biblioteka Aspose.Cells: Oczywiście, nie możesz tego zrobić bez biblioteki Aspose.Cells. Nie martw się, możesz ją łatwo pobrać z[Tutaj](https://releases.aspose.com/cells/net/) i nawet oferują[bezpłatny okres próbny](https://releases.aspose.com/).
 3. Podstawowa wiedza o C#: Jeśli znasz C#, będzie ci o wiele łatwiej nadążać. Pomocna będzie wiedza, jak pracować z klasami, metodami i obiektami.
-4. Plik szablonu Excel: Do ćwiczeń będziesz potrzebować również pliku Excel do pracy. Możesz utworzyć prosty plik lub pobrać przykład.
+4. Plik szablonu Excel: Do ćwiczeń będziesz potrzebować również pliku Excel, z którym będziesz pracować. Możesz utworzyć prosty plik lub pobrać przykład.
 
 Mając już narzędzia i wiedzę, możemy przejść do importowania niezbędnych pakietów.
 

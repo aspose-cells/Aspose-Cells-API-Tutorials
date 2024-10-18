@@ -57,9 +57,9 @@ public class ExcelToPdfConverter {
 
  Pastikan Anda mengganti`"path/to/your/excel/file.xlsx"` dengan jalur sebenarnya ke berkas Excel Anda.
 
-## Langkah 3: Konversi Excel ke PDF
+## Langkah 3: Ubah Excel ke PDF
 
-Setelah file Excel dimuat, kita sekarang dapat melanjutkan untuk mengonversinya ke format PDF. Aspose.Cells menyederhanakan proses ini secara signifikan:
+Setelah berkas Excel dimuat, kita sekarang dapat melanjutkan untuk mengonversinya ke format PDF. Aspose.Cells menyederhanakan proses ini secara signifikan:
 
 ```java
 // Simpan buku kerja Excel sebagai file PDF

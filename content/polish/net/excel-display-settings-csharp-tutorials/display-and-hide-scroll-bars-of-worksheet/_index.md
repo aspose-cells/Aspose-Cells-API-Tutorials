@@ -45,7 +45,7 @@ W tym miejscu należy określić ścieżkę do pliku Excel, z którym chcesz pra
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Zastępować`YOUR DOCUMENT DIRECTORY` rzeczywistą ścieżką, gdzie przechowywany jest Twój plik Excel. Pozwala to Twojemu programowi znaleźć niezbędne pliki, którymi będzie manipulował.
+ Zastępować`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik Excel. Pozwala to Twojemu programowi znaleźć niezbędne pliki, którymi będzie manipulował.
 
 ## Krok 2: Utwórz strumień plików
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Ten`Workbook` Obiekt przechowuje teraz wszystkie dane i ustawienia pliku Excel, umożliwiając późniejszą modyfikację.
+ Ten`Workbook`Obiekt przechowuje teraz wszystkie dane i ustawienia pliku Excel, umożliwiając późniejszą modyfikację.
 
 ## Krok 4: Ukryj pionowy pasek przewijania
 
@@ -123,9 +123,9 @@ Postępując zgodnie z tymi prostymi krokami, nauczyłeś się, jak wyświetlać
  Tak! Wystarczy ustawić`IsVScrollBarVisible` I`IsHScrollBarVisible` powrót do`true`.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
-Aspose.Cells nie jest w pełni darmowy, ale możesz wypróbować go bezpłatnie przez ograniczony czas lub rozważyć zakup[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells nie jest w pełni darmowy, ale możesz wypróbować go bezpłatnie przez ograniczony czas lub rozważyć zakup[tymczasowa licencja](https://purchase.aspose.com/temporary-license/).
 
-### Jakimi typami plików Excela mogę manipulować za pomocą Aspose.Cells?  
+### Jakimi typami plików Excel mogę manipulować za pomocą Aspose.Cells?  
 Możesz pracować z różnymi formatami plików Excel, w tym .xls, .xlsx, .xlsm, .xlsb itp.
 
 ### Gdzie mogę znaleźć więcej przykładów?  

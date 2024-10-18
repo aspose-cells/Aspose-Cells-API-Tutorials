@@ -17,7 +17,7 @@ Sebelum menyelami detail teknis pengelolaan ukuran kertas Excel, Anda perlu meny
 
 1. Pemahaman Dasar C#: Keakraban dengan pemrograman C# akan secara signifikan memudahkan proses mengintegrasikan Aspose.Cells ke dalam proyek Anda.
 2. Visual Studio Terpasang: Pastikan Anda telah memasang Visual Studio di komputer Anda untuk menulis dan mengeksekusi kode C#.
-3.  Pustaka Aspose.Cells untuk .NET: Anda perlu mendapatkan Aspose.Cells. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+3. Pustaka Aspose.Cells untuk .NET: Anda perlu mendapatkan Aspose.Cells. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 4. Pengelola Paket NuGet: Pastikan Anda memiliki akses ke Pengelola Paket NuGet karena Anda dapat dengan mudah menginstal Aspose.Cells menggunakannya.
 
 Dengan mengingat prasyarat ini, mari kita mulai!
@@ -58,7 +58,7 @@ Pada langkah ini, Anda akan menentukan direktori tempat Anda ingin menyimpan ber
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda tempat Anda ingin menyimpan berkas tersebut. Misalnya, bisa seperti ini`C:\Documents\`.
+ Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada sistem Anda tempat Anda ingin menyimpan berkas tersebut. Misalnya, bisa jadi seperti ini`C:\Documents\`.
 
 ## Langkah 2: Buat Objek Buku Kerja
 

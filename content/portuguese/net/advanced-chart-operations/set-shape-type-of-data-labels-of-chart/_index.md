@@ -1,7 +1,7 @@
 ---
 title: Definir o tipo de forma dos rótulos de dados do gráfico
 linktitle: Definir o tipo de forma dos rótulos de dados do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Melhore seus gráficos do Excel com formas de rótulos de dados personalizados usando Aspose.Cells para .NET. Siga este guia passo a passo para elevar sua apresentação de dados.
 type: docs
 weight: 14
@@ -46,7 +46,7 @@ Agora que estamos todos configurados, vamos mergulhar na parte de codificação!
 
 ## Etapa 1: Defina seus diretórios
 
-Primeiro, vamos definir onde seus arquivos estão localizados: tanto o arquivo de origem quanto a pasta de destino onde você deseja salvar o arquivo modificado.
+Primeiramente, vamos definir onde seus arquivos estão localizados — tanto o arquivo de origem quanto a pasta de destino onde você deseja salvar o arquivo modificado.
 
 ```csharp
 // Diretório de origem

@@ -33,17 +33,17 @@ using System.Drawing;r
 
  Các`Aspose.Cells` không gian tên chứa tất cả các lớp mà chúng ta cần để thao tác với các tệp Excel.`System.Drawing` không gian tên sẽ giúp chúng ta quản lý màu sắc, vì định dạng sẽ như thế nào nếu không có màu sắc, đúng không?
 
-Bây giờ, chúng ta hãy chia nhỏ quá trình định dạng phạm vi trong bảng tính Excel thành các bước rõ ràng và dễ quản lý.
+Bây giờ, chúng ta hãy chia nhỏ quy trình định dạng phạm vi trong bảng tính Excel thành các bước rõ ràng và dễ quản lý.
 
 ## Bước 1: Chỉ định thư mục tài liệu của bạn
 
-Trước tiên, bạn cần tạo một biến để giữ đường dẫn đến nơi bạn muốn lưu tài liệu Excel. 
+Trước tiên, bạn cần tạo một biến để chứa đường dẫn đến nơi bạn muốn lưu tài liệu Excel. 
 
 ```csharp
 string dataDir = "Your Document Directory"; // Chỉ định thư mục của bạn ở đây
 ```
 
-Giải thích: Dòng này khởi tạo một`dataDir` biến. Bạn nên thay thế`"Your Document Directory"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn lưu tệp Excel. Hãy nghĩ về điều này như việc thiết lập bối cảnh nơi kiệt tác của bạn sẽ được trưng bày!
+ Giải thích: Dòng này khởi tạo một`dataDir` biến. Bạn nên thay thế`"Your Document Directory"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn lưu tệp Excel. Hãy nghĩ về điều này như việc thiết lập bối cảnh nơi kiệt tác của bạn sẽ được trưng bày!
 
 ## Bước 2: Tạo một Workbook mới
 
@@ -53,7 +53,7 @@ Tiếp theo, chúng ta sẽ tạo một phiên bản của sổ làm việc. Đi
 Workbook workbook = new Workbook();
 ```
 
- Giải thích:`Workbook` lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, về cơ bản bạn đang tạo một tài liệu Excel mới mà bạn có thể thao tác.
+Giải thích:`Workbook` lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, về cơ bản bạn đang tạo một tài liệu Excel mới mà bạn có thể thao tác.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -63,7 +63,7 @@ Bây giờ, chúng ta hãy đến trang tính đầu tiên trong sổ làm việ
 Worksheet WS = workbook.Worksheets[0]; // Truy cập vào bảng tính đầu tiên
 ```
 
-Giải thích: Ở đây, chúng ta chọn bảng tính đầu tiên (hãy nhớ rằng, việc lập chỉ mục bắt đầu từ số 0!) từ sổ làm việc mà chúng ta sẽ áp dụng định dạng.
+Giải thích: Ở đây, chúng ta chọn bảng tính đầu tiên (hãy nhớ rằng việc lập chỉ mục bắt đầu từ số 0!) từ sổ làm việc mà chúng ta sẽ áp dụng định dạng.
 
 ## Bước 4: Tạo một phạm vi ô
 
@@ -102,7 +102,7 @@ Tiếp theo, chúng ta sẽ chỉ định thuộc tính phông chữ cho các ô
 
 ```csharp
 stl.Font.Name = "Arial"; // Đặt phông chữ thành Arial
-stl.Font.IsBold = true; //Làm cho phông chữ đậm
+stl.Font.IsBold = true; // Làm cho phông chữ đậm
 ```
 
 Giải thích: Ở đây, chúng tôi định nghĩa rằng chúng tôi muốn sử dụng "Arial" làm phông chữ và làm cho nó đậm. Hãy nghĩ về nó như là cung cấp cho văn bản của bạn một số sức mạnh!
@@ -130,15 +130,15 @@ Giải thích: Chúng tôi đang tô màu vàng tươi cho phạm vi! Một mẫ
 
 ## Bước 10: Tạo đối tượng StyleFlag
 
- Để áp dụng các kiểu chúng ta đã tạo, chúng ta cần một`StyleFlag` đối tượng để chỉ định những thuộc tính nào chúng ta sẽ kích hoạt.
+ Để áp dụng các kiểu chúng ta đã tạo, chúng ta cần một`StyleFlag` đối tượng để chỉ định thuộc tính nào chúng ta sẽ kích hoạt.
 
 ```csharp
 StyleFlag flg = new StyleFlag();
-flg.Font = true; //Bật thuộc tính phông chữ
+flg.Font = true; // Bật thuộc tính phông chữ
 flg.CellShading = true; // Bật chế độ đổ bóng ô
 ```
 
- Giải thích:`StyleFlag` đối tượng cho thư viện biết chúng ta muốn áp dụng thuộc tính kiểu nào—giống như việc đánh dấu vào các ô trong danh sách việc cần làm!
+Giải thích:`StyleFlag` đối tượng cho thư viện biết chúng ta muốn áp dụng thuộc tính kiểu nào—giống như việc đánh dấu vào các ô trong danh sách việc cần làm!
 
 ## Bước 11: Áp dụng Kiểu cho Phạm vi
 
@@ -174,7 +174,7 @@ Giải thích: Dòng này in ra thông báo đến bảng điều khiển cho bi
 
 Trong hướng dẫn này, chúng tôi đã hướng dẫn các bước định dạng phạm vi trong Excel bằng Aspose.Cells cho .NET. Cho dù bạn muốn dữ liệu của mình có văn bản in đậm, màu sắc rực rỡ hay cấu trúc cần thiết trong phạm vi, thư viện này đều có thể đáp ứng nhu cầu của bạn. Chỉ cần như vậy, bạn có thể biến đổi dữ liệu của mình từ nhạt nhẽo thành hoành tráng chỉ bằng một vài dòng mã!
 
- Khi bạn tiếp tục hành trình lập trình của mình, đừng ngần ngại khám phá thêm các tính năng của Aspose.Cells, vì nó cung cấp rất nhiều chức năng để làm việc với các tệp Excel. Để đọc thêm, hãy xem[tài liệu](https://reference.aspose.com/cells/net/) để mở ra tiềm năng mới trong các dự án phát triển của bạn!
+Khi bạn tiếp tục hành trình lập trình của mình, đừng ngần ngại khám phá thêm các tính năng của Aspose.Cells, vì nó cung cấp rất nhiều chức năng để làm việc với các tệp Excel. Để đọc thêm, hãy xem[tài liệu](https://reference.aspose.com/cells/net/) để mở ra tiềm năng mới trong các dự án phát triển của bạn!
 
 ## Câu hỏi thường gặp
 
@@ -182,7 +182,7 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn các bước định 
 Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nhà phát triển thao tác với các tệp Excel một cách liền mạch—hoàn hảo để tạo và chỉnh sửa bảng tính theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
-Có! Aspose cung cấp phiên bản dùng thử miễn phí. Bạn có thể bắt đầu với thư viện và kiểm tra các tính năng của nó trước khi mua. Kiểm tra[dùng thử miễn phí](https://releases.aspose.com/).
+ Có! Aspose cung cấp phiên bản dùng thử miễn phí. Bạn có thể bắt đầu với thư viện và kiểm tra các tính năng của nó trước khi mua. Kiểm tra[dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Làm thế nào để áp dụng nhiều kiểu cho một phạm vi trong Excel?
  Bạn có thể tạo nhiều`Style` đối tượng và áp dụng từng đối tượng bằng cách sử dụng`ApplyStyle` phương pháp với tương ứng của họ`StyleFlag`.

@@ -14,7 +14,7 @@ En esta guía completa, le explicaremos el proceso de importación de datos desd
 
 Antes de sumergirse en el código, asegúrese de tener los siguientes requisitos previos:
 
-1. Entorno de desarrollo Java: asegúrese de tener Java JDK instalado en su sistema.
+1. Entorno de desarrollo de Java: asegúrese de tener Java JDK instalado en su sistema.
 2.  Aspose.Cells para Java: descargue e incluya la biblioteca Aspose.Cells para Java en su proyecto. Puede encontrar el enlace de descarga[aquí](https://releases.aspose.com/cells/java/).
 
 ## Creando un proyecto Java

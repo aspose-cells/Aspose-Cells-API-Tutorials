@@ -118,7 +118,7 @@ sheet.Cells["C1"].SetStyle(style);
 //最后，现在保护工作表。
 sheet.Protect(ProtectionType.All);
 ```
-通过调用`Protect`方法，我们应用保护设置。使用`ProtectionType.All`，我们指定工作表的所有方面都将受到保护。
+通过调用`Protect`方法，我们应用保护设置。使用`ProtectionType.All`，我们指定将保护工作表的所有方面。
 
 ## 步骤 7：保存 Excel 文件
 

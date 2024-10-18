@@ -15,7 +15,7 @@ Bij het werken met spreadsheets, met name in een professionele omgeving, zijn pr
 
 Voordat we in de code duiken, moet u een aantal zaken regelen:
 
-1. Visual Studio geïnstalleerd: Zorg ervoor dat u Visual Studio (elke versie) op uw computer hebt staan, aangezien we in een .NET-omgeving werken.
+1. Visual Studio geïnstalleerd: Zorg ervoor dat Visual Studio (elke versie) op uw computer staat, aangezien we in een .NET-omgeving werken.
 2.  Aspose.Cells voor .NET-bibliotheek: U moet de Aspose.Cells-bibliotheek downloaden en toevoegen aan uw project. U kunt de nieuwste versie downloaden[hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de cursus naadloos te volgen.
 
@@ -23,7 +23,7 @@ Nu we de vereisten hebben besproken, kunnen we direct beginnen met het importere
 
 ## Pakketten importeren
 
-Om met Aspose.Cells te werken, moet u eerst de vereiste naamruimten importeren in uw C#-project. Voeg bovenaan uw C#-bestand het volgende toe met behulp van richtlijnen:
+Om met Aspose.Cells te werken, moet u eerst de vereiste namespaces importeren in uw C#-project. Voeg bovenaan uw C#-bestand het volgende toe met behulp van richtlijnen:
 
 ```csharp
 using Aspose.Cells;
@@ -43,7 +43,7 @@ Om te beginnen moet u een exemplaar van een werkmap maken. Dit is de basis van o
 Workbook wb = new Workbook();
 ```
 
- Door te initialiseren`Workbook`we zetten een nieuw Excel-bestand in het geheugen, klaar voor bewerking.
+ Door te initialiseren`Workbook`, we zetten een nieuw Excel-bestand in het geheugen, klaar voor bewerking.
 
 ## Stap 2: Werkboekinstellingen instellen
 
@@ -98,7 +98,7 @@ Nu gaan we proberen een ongeldige aangepaste getalnotatie in te stellen om te zi
 try
 {
     // Deze regel genereert een uitzondering als de opmaak ongeldig is
-    s.Custom = "ggg @ fff"; // Ongeldige aangepaste getalnotatie
+    s.Custom = "ggg @ fff"; // Ongeldige aangepaste nummernotatie
     c.SetStyle(s);
 }
 catch (Exception ex)

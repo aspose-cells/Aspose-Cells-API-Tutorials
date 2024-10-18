@@ -79,7 +79,7 @@ Csakúgy, mint egy könyv adott oldalának lapozása, ez a lépés oda irányít
 Itt az ideje, hogy megkeressük a módosítani kívánt diagramot. Itt kezdődik igazán a varázslat!
 
 ```csharp
-//Szerezd meg a lap első diagramját
+// Szerezd meg a lap első diagramját
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Itt megragadjuk a diagramsorozat színbeállítását.
  Most alkalmazzunk egy Microsoft témaszínt. Mi választunk egy`Accent` stílus, mert ki nem szereti a pop színeket?
 
 ```csharp
-//Hozzon létre egy témát hangsúlyos stílusban
+// Hozzon létre egy témát hangsúlyos stílusban
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -164,7 +164,7 @@ Az Aspose.Cells egy hatékony könyvtár, amellyel Excel-fájlokat kezelnek .NET
 Teljesen! Az Aspose.Cells lehetővé teszi a színek széles körű testreszabását, beleértve az RGB-értékeket, a szabványos színeket és egyebeket.
 
 ### Hol találok további dokumentumokat?
- Megtekintheti az Aspose.Cells dokumentációját[itt](https://reference.aspose.com/cells/net/) részletesebb útmutatók és funkciók megtekintéséhez.
+ Megtekintheti az Aspose.Cells dokumentációját[itt](https://reference.aspose.com/cells/net/) részletesebb útmutatókért és funkciókért.
 
 ### Van-e támogatás, ha problémákat tapasztalok?
  Igen! Látogassa meg az Aspose fórumot[itt](https://forum.aspose.com/c/cells/9) közösségi támogatásért, és segítséget kaphat kérdéseivel kapcsolatban.

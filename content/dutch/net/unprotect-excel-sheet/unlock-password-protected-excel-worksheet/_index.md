@@ -2,7 +2,7 @@
 title: Ontgrendel wachtwoordbeveiligd Excel-werkblad
 linktitle: Ontgrendel wachtwoordbeveiligd Excel-werkblad
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u een wachtwoordbeveiligd Excel-spreadsheet ontgrendelt met Aspose.Cells voor .NET. Stapsgewijze tutorial in C#.
+description: Leer hoe u een met een wachtwoord beveiligd Excel-spreadsheet ontgrendelt met Aspose.Cells voor .NET. Stapsgewijze tutorial in C#.
 type: docs
 weight: 10
 url: /nl/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
@@ -70,11 +70,11 @@ Allereerst moeten we het pad van ons Excel-document instellen. Hier specificeert
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tip: Vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar uw Excel-bestand zich bevindt (laten we het zo noemen)`book1.xls`) bevindt zich. 
+ Tip: Vervangen`"YOUR DOCUMENT DIRECTORY"`met het werkelijke pad waar uw Excel-bestand zich bevindt (laten we het zo noemen)`book1.xls`) bevindt. 
 
 ## Stap 2: Een werkmapobject instantiëren
 
-Vervolgens moeten we een instantie van de Workbook-klasse maken. Dit object vertegenwoordigt het Excel-bestand in uw code.
+Vervolgens moeten we een instantie van de Workbook-klasse maken. Dit object vertegenwoordigt het Excel-bestand binnen uw code.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -84,7 +84,7 @@ Deze regel leest het opgegeven Excel-bestand en laadt het in het geheugen, zodat
 
 ## Stap 3: Toegang tot het werkblad
 
-Elke Excel-werkmap bevat werkbladen en we willen toegang krijgen tot het werkblad dat we willen ontgrendelen. 
+Elke Excel-werkmap bevat werkbladen en we willen toegang hebben tot het werkblad dat we willen ontgrendelen. 
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -100,7 +100,7 @@ Dit is het magische gedeelte!
 worksheet.Unprotect("");
 ```
 
- Als uw werkblad met een wachtwoord is beveiligd en u weet het wachtwoord, vervangt u de lege tekenreeks`""`met het werkelijke wachtwoord. Als je het niet weet, laat het dan leeg en voer het uit om te kijken of het werkt.
+ Als uw werkblad met een wachtwoord is beveiligd en u weet het wachtwoord, vervangt u de lege tekenreeks`""` met het werkelijke wachtwoord. Als je het niet weet, laat het dan leeg en voer het uit om te kijken of het werkt.
 
 ## Stap 5: Sla de werkmap op
 
@@ -110,7 +110,7 @@ Nu we de beveiliging van het werkblad hebben opgeheven, is het tijd om de wijzig
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Met deze regel wordt de werkmap onder een nieuwe naam opgeslagen, zodat het oorspronkelijke bestand niet wordt overschreven. 
+Met deze regel wordt de werkmap onder een nieuwe naam opgeslagen. Zo voorkomen we dat het oorspronkelijke bestand wordt overschreven. 
 
 ## Stap 6: Uitzonderingsafhandeling
 

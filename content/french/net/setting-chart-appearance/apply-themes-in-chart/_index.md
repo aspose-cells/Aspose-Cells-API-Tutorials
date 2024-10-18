@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Assurez-vous que`sampleApplyingThemesInChart.xlsx` existe dans votre répertoire source.
+ Assurez-vous que`sampleApplyingThemesInChart.xlsx`existe dans votre répertoire source.
 
 ## Étape 3 : Accéder à la feuille de travail
 
@@ -77,7 +77,7 @@ Dans ce cas, nous récupérons simplement la première feuille de calcul, ce qui
 Avec la feuille de travail en main, nous pouvons maintenant accéder au graphique que nous souhaitons styliser.
 
 ```csharp
-//Obtenir le premier graphique de la feuille
+// Obtenir le premier graphique de la feuille
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Cette ligne de code garantit que la première série du graphique est configuré
 
 ## Étape 6 : Configurer la couleur
 
- Maintenant que notre série est prête, nous devons modifier sa couleur. Cela implique de créer une`CellsColor` objet et en spécifiant une couleur de thème. Nous choisirons un style d'accentuation pour cet exemple.
+ Maintenant que notre série est prête, nous devons modifier sa couleur. Cela implique de créer une`CellsColor`objet et en spécifiant une couleur de thème. Nous choisirons un style d'accentuation pour cet exemple.
 
 ```csharp
 // Obtenir la couleur des cellules de SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Créer un thème dans le style Accent
+// Créer un thème dans le style Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

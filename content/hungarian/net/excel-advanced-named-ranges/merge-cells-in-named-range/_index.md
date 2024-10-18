@@ -64,7 +64,7 @@ Most, hogy megvan a munkalapunk, ideje létrehozni egy tartományt. A tartomány
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
-Itt a D6-tól az I12-ig terjedő cellákat választunk ki – ez a blokk több sort és oszlopot takar. Hamarosan összevonjuk ezt a választékot!
+Itt a D6-tól az I12-ig terjedő cellákat választunk ki – ez a blokk több sort és oszlopot takar. Hamarosan egyesítjük ezt a választékot!
 
 ## 4. lépés: Nevezze el a tartományt
 

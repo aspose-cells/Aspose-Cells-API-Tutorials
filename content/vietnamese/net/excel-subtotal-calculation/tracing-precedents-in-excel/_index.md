@@ -48,7 +48,7 @@ Sau khi tải bảng tính, bước tiếp theo là truy cập vào bảng tính
 ```csharp
 Cells cells = workbook.Worksheets[0].Cells;
 ```
-Thao tác này sẽ lấy các ô từ trang tính đầu tiên (chỉ mục 0) của sổ làm việc của bạn. Giống như việc bạn có sẵn hộp công cụ, chứa đầy mọi công cụ bạn có thể cần!
+Thao tác này sẽ lấy các ô từ trang tính đầu tiên (chỉ mục 0) của sổ làm việc của bạn. Giống như việc bạn chuẩn bị sẵn hộp công cụ, chứa đầy mọi công cụ bạn có thể cần!
 ## Bước 3: Chọn ô quan tâm
 Bây giờ, bạn cần chọn ô cụ thể có tiền lệ mà bạn muốn theo dõi. Trong trường hợp này, chúng ta sẽ chọn ô B4.
 ```csharp
@@ -61,7 +61,7 @@ Hãy lấy các tiền lệ cho ô đã chọn của chúng ta. Đây là bướ
 ReferredAreaCollection ret = cell.GetPrecedents();
 ```
  Đây,`GetPrecedents()` Phương pháp này thực hiện nhiệm vụ nặng nề, thu thập bất kỳ tế bào nào cung cấp đầu vào cho tế bào B4. 
-## Bước 5: Lặp qua các tiền lệ
+## Bước 5: Lặp lại các tiền lệ
 Bây giờ, chúng ta hãy lặp lại bộ sưu tập các tiền lệ để tìm ra một số thông tin hữu ích.
 ```csharp
 foreach (ReferredArea area in ret)

@@ -84,7 +84,7 @@ int sheetCount = wb.Worksheets.Count;
 
 ## Bước 4: Lặp lại qua từng trang tính
 
-Với số lượng trang tính trong tay, đã đến lúc lặp lại từng trang tính trong sổ làm việc. Bạn sẽ muốn kiểm tra từng trang tính để biết cài đặt máy in hiện có.
+Với số lượng trang tính trong tay, đã đến lúc lặp qua từng trang tính trong sổ làm việc. Bạn sẽ muốn kiểm tra từng trang tính để biết cài đặt máy in hiện có.
 
 ```csharp
 for (int i = 0; i < sheetCount; i++)
@@ -141,7 +141,7 @@ Và cứ như vậy, tập tin mới của bạn, không có bất kỳ cài đ�
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã điều hướng thành công các ngóc ngách của việc xóa cài đặt máy in khỏi các bảng tính Excel bằng Aspose.Cells cho .NET. Thật tuyệt vời khi chỉ một vài dòng mã có thể sắp xếp gọn gàng các tài liệu của bạn và làm cho quy trình in của bạn trở nên mượt mà hơn nhiều, phải không? Hãy nhớ rằng, với sức mạnh lớn (như Aspose.Cells), đi kèm với trách nhiệm lớn—vì vậy hãy luôn kiểm tra mã của bạn trước khi triển khai nó trong môi trường sản xuất.
+Và bạn đã có nó! Bạn đã điều hướng thành công các ngóc ngách của việc xóa cài đặt máy in khỏi các bảng tính Excel bằng Aspose.Cells cho .NET. Thật tuyệt vời khi chỉ cần một vài dòng mã có thể sắp xếp gọn gàng các tài liệu của bạn và làm cho quy trình in của bạn trở nên mượt mà hơn nhiều, phải không? Hãy nhớ rằng, với sức mạnh lớn (như Aspose.Cells), đi kèm với trách nhiệm lớn—vì vậy hãy luôn kiểm tra mã của bạn trước khi triển khai nó trong môi trường sản xuất.
 
 ## Câu hỏi thường gặp
 

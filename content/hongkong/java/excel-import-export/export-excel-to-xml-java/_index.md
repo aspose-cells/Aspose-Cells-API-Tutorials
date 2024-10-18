@@ -24,7 +24,7 @@ url: /zh-hant/java/excel-import-export/export-excel-to-xml-java/
 
 ## 第 2 步：載入 Excel 文件
 
-要將 Excel 資料匯出為 XML，我們首先需要載入 Excel 檔案。
+要將 Excel 資料匯出到 XML，我們首先需要載入 Excel 檔案。
 
 ```java
 //載入 Excel 文件

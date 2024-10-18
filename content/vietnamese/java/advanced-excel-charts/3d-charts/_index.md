@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Thiết lập phạm vi dữ liệu cho biểu đồ
 chart.getNSeries().add("A2:B4", true);
 
-// Tùy chỉnh các thuộc tính biểu đồ
+//Tùy chỉnh thuộc tính biểu đồ
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -138,7 +138,7 @@ Aspose.Cells for Java cho phép bạn tích hợp dữ liệu từ nhiều ngu�
 
 ## Phần kết luận
 
-Trong bài viết này, chúng tôi đã khám phá cách tạo biểu đồ 3D bằng Aspose.Cells for Java. Chúng tôi đã thảo luận về thiết lập, cách tạo biểu đồ cơ bản, tùy chỉnh và các tính năng nâng cao khi làm việc với biểu đồ 3D. Aspose.Cells for Java cung cấp một nền tảng mạnh mẽ và thân thiện với người dùng để tạo biểu đồ 3D hấp dẫn về mặt hình ảnh và nhiều thông tin trong Excel.
+Trong bài viết này, chúng tôi đã khám phá cách tạo biểu đồ 3D bằng Aspose.Cells for Java. Chúng tôi đã thảo luận về thiết lập, tạo biểu đồ cơ bản, tùy chỉnh và các tính năng nâng cao khi làm việc với biểu đồ 3D. Aspose.Cells for Java cung cấp một nền tảng mạnh mẽ và thân thiện với người dùng để tạo biểu đồ 3D hấp dẫn về mặt hình ảnh và nhiều thông tin trong Excel.
 
 ## Câu hỏi thường gặp
 

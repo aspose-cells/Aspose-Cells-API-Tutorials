@@ -38,7 +38,7 @@ Adja meg azt az adattartományt, amelyet fel szeretne venni a kimutatástábláz
 String sourceData = "Sheet1!A1:D100"; // Módosítsa ezt az adattartományra
 ```
 
-## 4. lépés: Hozzon létre egy kimutatástáblát
+## 4. lépés: Hozzon létre egy kimutatást
 Most hozzuk létre a kimutatástáblát.
 
 ```java

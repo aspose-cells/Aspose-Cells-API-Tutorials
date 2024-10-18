@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 接下來，我們需要訪問工作表，在其中輸入資料並建立圖表。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -209,7 +209,7 @@ Aspose.Cells 是一個功能強大的程式庫，可讓您在.NET 應用程式�
 是的，您可以透過以下方式免費試用 Aspose.Cells[試用連結](https://releases.aspose.com/).
 
 ### 在哪裡可以找到 Aspose.Cells 文件？
-您可以在以下位置找到全面的文檔[Aspose.Cells 參考頁面](https://reference.aspose.com/cells/net/).
+您可以在以下位置找到全面的文件：[Aspose.Cells 參考頁面](https://reference.aspose.com/cells/net/).
 
 ### 我如何獲得 Aspose.Cells 的支援？
 您可以在以下位置獲得社區支持[Aspose論壇](https://forum.aspose.com/c/cells/9).

@@ -99,8 +99,8 @@ Et voilà ! Vous avez maintenant appris à contrôler la largeur de la barre d'o
 ### Que se passe-t-il si je règle la largeur de l’onglet trop grande ?
 Si la largeur est trop grande, les onglets peuvent s'étendre au-delà de la fenêtre visible, nécessitant un défilement horizontal.
 
-### Est-il possible de personnaliser les largeurs d’onglets individuels ?
-Non, Aspose.Cells ne permet pas de régler la largeur des onglets individuellement, uniquement la largeur globale de la barre d'onglets.
+### Est-il possible de personnaliser les largeurs des onglets individuels ?
+Non, Aspose.Cells ne permet pas de régler la largeur des onglets individuellement, mais uniquement la largeur globale de la barre d'onglets.
 
 ### Comment puis-je annuler les modifications apportées à la largeur de l’onglet ?
  Réinitialiser simplement`workbook.Settings.SheetTabBarWidth` à sa valeur par défaut (qui est généralement d'environ 300).

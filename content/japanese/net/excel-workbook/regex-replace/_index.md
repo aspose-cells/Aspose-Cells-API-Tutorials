@@ -2,7 +2,7 @@
 title: 正規表現置換
 linktitle: 正規表現置換
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel で正規表現の置換を効率的に使用する方法を学習します。スプレッドシート タスクの生産性と精度が向上します。
+description: Aspose.Cells for .NET を使用して Excel で正規表現置換を効率的に使用する方法を学習します。スプレッドシート タスクの生産性と精度が向上します。
 type: docs
 weight: 140
 url: /ja/net/excel-workbook/regex-replace/
@@ -129,7 +129,7 @@ Console.WriteLine("RegexReplace executed successfully.");
 はい、XLS、XLSX、CSV など、さまざまな形式をサポートしています。
 
 ### 正規表現を使用して複数の異なる単語を一度に置き換えることはできますか?  
-はい、複数の用語を同時に一致させる、より複雑な正規表現パターンを作成できます。
+はい、より複雑な正規表現パターンを作成して、複数の用語を同時に一致させることができます。
 
 ### Aspose.Cells のその他の例やドキュメントはどこで見つかりますか?  
 包括的なドキュメントが見つかります[ここ](https://reference.aspose.com/cells/net/).

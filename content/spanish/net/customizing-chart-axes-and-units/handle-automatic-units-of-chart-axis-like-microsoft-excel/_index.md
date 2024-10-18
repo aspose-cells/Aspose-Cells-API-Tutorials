@@ -18,11 +18,11 @@ Antes de comenzar con el tutorial, asegurémonos de que tienes todo lo necesario
 1. Visual Studio instalado: necesitará un IDE como Visual Studio para escribir y ejecutar su código .NET.
 2. .NET Framework: este tutorial asume que estás usando .NET Framework 4.0 o posterior. Sin embargo, Aspose.Cells también es compatible con .NET Core.
 3.  Biblioteca Aspose.Cells: si aún no lo ha hecho, descargue la biblioteca del sitio web de Aspose[aquí](https://releases.aspose.com/cells/net/) También puedes empezar con una prueba gratuita disponible[aquí](https://releases.aspose.com/).
-4.  Archivo de Excel de muestra: utilizaremos un archivo de Excel de muestra llamado`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Asegúrese de tener este archivo listo en su directorio de trabajo.
+4. Archivo de Excel de muestra: utilizaremos un archivo de Excel de muestra llamado`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Asegúrese de tener este archivo listo en su directorio de trabajo.
 
 ## Importar paquetes
 
-Lo primero es lo primero: asegurémonos de que hayas importado los espacios de nombres adecuados para tu proyecto. Aquí te explicamos cómo empezar:
+Lo primero es lo primero: asegurémonos de que hayas importado los espacios de nombres adecuados para tu proyecto. A continuación, te indicamos cómo empezar:
 
 ### Crear un nuevo proyecto
 
@@ -62,11 +62,11 @@ using Aspose.Cells.Charts;
 Antes de cargar el archivo de Excel, configuremos los directorios de origen y de salida. Esto nos permitirá especificar dónde se almacenarán nuestros archivos.
 
 ```csharp
-// Directorio de salida: donde se guardará el PDF
+//Directorio de salida: donde se guardará el PDF
 string outputDir = "Your Output Directory"; // Especifique aquí su directorio de salida
 
 // Directorio de origen: donde se encuentra el archivo Excel de muestra
-string sourceDir = "Your Document Directory"; // Especifique su directorio de origen aquí
+string sourceDir = "Your Document Directory"; // Especifique aquí su directorio de origen
 ```
 
 ### Paso 2: Cargue el archivo Excel
@@ -108,7 +108,7 @@ En Excel, una de las características clave de los gráficos es el manejo autom�
 
 ```csharp
 // Establecer la unidad principal para el eje Y
-ch.AxisY.MajorUnit = 10; // Puede configurarlo según sus necesidades.
+ch.AxisY.MajorUnit = 10; //Puede configurarlo según sus necesidades.
 ```
 
 ¡Actualicemos las unidades automáticas ahora!
@@ -151,4 +151,4 @@ Solo la biblioteca Aspose.Cells y un .NET Framework instalado en su máquina.
 ¡Por supuesto! Aspose.Cells admite varios formatos, como XLSX, HTML e imágenes.
 
 ### ¿Dónde puedo encontrar ayuda si tengo problemas?
-Puede buscar ayuda en la comunidad Aspose[aquí](https://forum.aspose.com/c/cells/9).
+ Puede buscar ayuda en la comunidad Aspose[aquí](https://forum.aspose.com/c/cells/9).

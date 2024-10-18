@@ -35,7 +35,7 @@ using System.Text;
 
 ## ステップ1: ディレクトリを設定する
 
-ワークブックを開始する前に、ソース ファイルが保存されているパスと出力を保存するパスを設定することをお勧めします。手順は次のとおりです。
+ワークブックを開始する前に、ソース ファイルが配置されているパスと出力を保存するパスを設定することをお勧めします。手順は次のとおりです。
 
 ```csharp
 //ソースディレクトリ
@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
-必ず交換してください`"YOUR SOURCE DIRECTORY"`そして`"YOUR OUTPUT DIRECTORY"`マシン上の実際のパスを使用します。傑作の作成を開始する前に、整頓されたワークスペースを作成すると考えてください。
+必ず交換してください`"YOUR SOURCE DIRECTORY"`そして`"YOUR OUTPUT DIRECTORY"`実際のパスを使用して、傑作の作成を開始する前に、整頓されたワークスペースを作成すると考えてください。
 
 ## ステップ2: 空のワークブックを作成する
 

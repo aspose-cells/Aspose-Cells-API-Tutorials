@@ -18,7 +18,7 @@ Než se pustíme do šťavnatých věcí, ujistíme se, že jste připraveni na 
 1. Vývojové prostředí .NET: Ujistěte se, že máte připravené vývojové prostředí .NET. Můžete použít Visual Studio nebo jakékoli jiné IDE dle vašeho výběru.
 2.  Knihovna Aspose.Cells: Měli byste mít také nainstalovanou knihovnu Aspose.Cells. Pokud jste to ještě neudělali, nezoufejte! Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
 3. Základní porozumění C#: Znalost základů programování v C# vám pomůže hladce pokračovat.
-4.  Soubor Excel: Připravte si soubor Excel, se kterým chcete pracovat. Pro náš příklad použijeme jednoduchý soubor s názvem`book1.xlsx` s alespoň jedním listem s názvem "Sheet1".
+4. Soubor Excel: Připravte si soubor Excel, se kterým chcete pracovat. Pro náš příklad použijeme jednoduchý soubor s názvem`book1.xlsx` s alespoň jedním listem s názvem "Sheet1".
 
 Nyní, když máte vše připraveno, pojďme se do toho pustit!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zadejte adresář dokumentů
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Spojením vytvořte celou cestu
 ```
 
- Tady, vyměňte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ve vašem systému, kde`book1.xlsx` je uložen. Využití`Path.Combine` je úhledný, protože zajišťuje správnou konstrukci cesty napříč různými operačními systémy.
+ Tady, vyměňte`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou ve vašem systému, kde`book1.xlsx` je uložen. Využití`Path.Combine` je úhledný, protože zajišťuje správnou konstrukci cesty napříč různými operačními systémy.
 
 ## Krok 2: Vytvořte stream souborů
 
@@ -115,7 +115,7 @@ Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům program
 Aspose.Cells podporuje různé formáty, včetně XLS, XLSX, CSV a dalších.
 
 ### Potřebuji licenci k používání Aspose.Cells?
- Zatímco tam je a[zkušební verze zdarma](https://releases.aspose.com/) dispozici, budete si nakonec muset zakoupit licenci, abyste jej mohli používat bez omezení.
+ Zatímco tam je a[zkušební verze zdarma](https://releases.aspose.com/) k dispozici, budete si nakonec muset zakoupit licenci, abyste jej mohli používat bez omezení.
 
 ### Kde najdu podporu pro Aspose.Cells?
- Prostřednictvím nich můžete získat podporu[fórum podpory](https://forum.aspose.com/c/cells/9).
+Prostřednictvím nich můžete získat podporu[fórum podpory](https://forum.aspose.com/c/cells/9).

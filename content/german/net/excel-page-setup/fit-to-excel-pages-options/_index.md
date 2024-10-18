@@ -17,7 +17,7 @@ Bevor wir mit dem Programmieren beginnen, sollten Sie sicherstellen, dass Sie al
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Dies ist Ihr zentraler Knotenpunkt für alle Entwicklungsarbeiten.
 2. Aspose.Cells für .NET: Sie müssen die Aspose.Cells-Bibliothek herunterladen und zu Ihrem Projekt hinzufügen. Sie können sie ganz einfach von der[Aspose-Website](https://releases.aspose.com/cells/net/).
-3. Grundlegende C#-Kenntnisse: Kenntnisse in der C#-Programmierung sind enorm hilfreich. Wenn Sie mit Variablen, Schleifen und grundlegender Datei-E/A umgehen können, sind Sie sofort zu Hause.
+3. Grundlegende C#-Kenntnisse: Kenntnisse in der C#-Programmierung sind eine große Hilfe. Wenn Sie mit Variablen, Schleifen und grundlegender Datei-E/A umgehen können, sind Sie sofort zu Hause.
 4. .NET Framework: Stellen Sie sicher, dass Ihr Projekt mit der entsprechenden .NET Framework-Version eingerichtet ist, da die Bibliothek auf Kompatibilität innerhalb dieses Ökosystems ausgelegt ist.
 
 Alles bereit? Super, dann kommen wir zum spaßigen Teil!
@@ -54,9 +54,9 @@ Lassen Sie uns zunächst unsere Arbeitsmappe initialisieren und auf das gewünsc
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

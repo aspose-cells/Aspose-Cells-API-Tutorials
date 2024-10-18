@@ -51,7 +51,7 @@ Este código guardará los datos de Excel como un archivo JSON llamado "output.j
 Ahora puede trabajar con los datos JSON según sea necesario. Puede analizarlos, manipularlos o utilizarlos en sus aplicaciones.
 
 ## Conclusión
-¡Felicitaciones! Ha exportado con éxito datos de Excel a JSON con Aspose.Cells para Java. Esta guía paso a paso le ha proporcionado el código fuente necesario para agilizar el proceso. Ahora, puede convertir archivos de Excel a JSON de manera eficiente en sus aplicaciones Java.
+¡Felicitaciones! Ha exportado correctamente datos de Excel a JSON con Aspose.Cells para Java. Esta guía paso a paso le ha proporcionado el código fuente necesario para agilizar el proceso. Ahora, puede convertir archivos de Excel a JSON de manera eficiente en sus aplicaciones Java.
 
 ## Preguntas frecuentes
 ### ¿Puedo exportar varias hojas de Excel a un solo archivo JSON?

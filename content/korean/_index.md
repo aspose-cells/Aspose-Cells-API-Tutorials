@@ -28,7 +28,7 @@ Aspose.Cells for Java 튜토리얼을 탐색하세요. 코드 예제로 Excel �
 다음은 유용한 자료에 대한 링크입니다.
 - [기본 Excel 함수](./java/basic-excel-functions/)
 - [데이터 검증 규칙](./java/data-validation-rules/)
-- [Excel 데이터 분석](./java/excel-data-analysis/)
+- [엑셀 데이터 분석](./java/excel-data-analysis/)
 - [Excel 피벗 테이블](./java/excel-pivot-tables/)
 - [고급 Excel 차트](./java/advanced-excel-charts/)
 - [Excel 가져오기 내보내기](./java/excel-import-export/)

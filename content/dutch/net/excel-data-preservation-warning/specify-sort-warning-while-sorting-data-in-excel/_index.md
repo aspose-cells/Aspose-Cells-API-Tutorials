@@ -9,11 +9,11 @@ url: /nl/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-
 ---
 ## Invoering
 
-Heb je ooit geprobeerd om gegevens in Excel te sorteren, alleen om verbaasd te raken door onverwachte resultaten? Het sorteren van getallen die zijn opgeslagen als tekst kan leiden tot verwarring, vooral wanneer ze zich niet gedragen zoals je verwacht. In deze tutorial duiken we in hoe je sorteerwaarschuwingen kunt specificeren tijdens het sorteren van gegevens in Excel met behulp van Aspose.Cells voor .NET. Aspose.Cells is een krachtige API waarmee ontwikkelaars Excel-bestanden kunnen bewerken zonder dat Microsoft Excel geïnstalleerd hoeft te zijn. Dus, of je nu een doorgewinterde ontwikkelaar bent of net begint, blijf hangen! We hebben een stapsgewijze handleiding die je zal helpen om sorteren in Excel onder de knie te krijgen als een professional.
+Heb je ooit geprobeerd om gegevens in Excel te sorteren, alleen om verbijsterd te raken door onverwachte resultaten? Het sorteren van getallen die zijn opgeslagen als tekst kan leiden tot verwarring, vooral wanneer ze zich niet gedragen zoals je verwacht. In deze tutorial duiken we in hoe je sorteerwaarschuwingen kunt specificeren tijdens het sorteren van gegevens in Excel met behulp van Aspose.Cells voor .NET. Aspose.Cells is een krachtige API waarmee ontwikkelaars Excel-bestanden kunnen bewerken zonder dat Microsoft Excel geïnstalleerd hoeft te worden. Dus, of je nu een doorgewinterde ontwikkelaar bent of net begint, blijf hangen! We hebben een stapsgewijze handleiding die je zal helpen om sorteren in Excel onder de knie te krijgen als een professional.
 
 ## Vereisten
 
-Voordat we in de details duiken van het sorteren van gegevens, zijn er een paar voorwaarden waaraan u moet voldoen:
+Voordat we dieper ingaan op het sorteren van gegevens, moet u aan een aantal voorwaarden voldoen:
 
 1. Visual Studio: U hebt een IDE of code-editor nodig en Visual Studio is een van de beste opties voor .NET-ontwikkeling.
 2.  Aspose.Cells Library: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt. U kunt deze ophalen via de[Downloadlink](https://releases.aspose.com/cells/net/) of begin met de[Gratis proefperiode](https://releases.aspose.com/).
@@ -36,7 +36,7 @@ Nu we alles op orde hebben, gaan we het sorteerproces stap voor stap doorlopen.
 
 ## Stap 1: Stel uw documentenmap in
 
- Allereerst moet u het pad naar uw documentdirectory opgeven. Dit is waar uw`sampleSortAsNumber.xlsx` bestand zal worden gevonden. Vervangen`"Your Document Directory"` met het werkelijke pad waar uw Excel-bestand zich bevindt.
+ Allereerst moet u het pad naar uw documentdirectory opgeven. Dit is waar uw`sampleSortAsNumber.xlsx` bestand zal worden gevonden. Vervangen`"Your Document Directory"`met het werkelijke pad waar uw Excel-bestand zich bevindt.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -60,7 +60,7 @@ Zodra u uw werkmap hebt, wilt u toegang tot het specifieke werkblad waar uw gege
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Deze regel haalt het eerste werkblad (index 0) uit de werkmap op. Als uw gegevens op een ander werkblad staan, past u de index dienovereenkomstig aan!
+Deze regel haalt het eerste werkblad (index 0) op uit de werkmap. Als uw gegevens op een ander werkblad staan, past u de index dienovereenkomstig aan!
 
 ## Stap 4: Definieer het celgebied
 

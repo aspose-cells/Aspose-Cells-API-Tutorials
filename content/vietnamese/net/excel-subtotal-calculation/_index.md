@@ -1,6 +1,6 @@
 ---
-title: Tổng phụ và phép tính Excel
-linktitle: Tổng phụ và phép tính Excel
+title: Tổng phụ và tính toán của Excel
+linktitle: Tổng phụ và tính toán của Excel
 second_title: API xử lý Excel Aspose.Cells .NET
 description: Khám phá cách tạo tổng phụ Excel và theo dõi tiền lệ bằng Aspose.Cells cho .NET. Thực hiện theo các hướng dẫn này để nâng cao kỹ năng bảng tính của bạn một cách dễ dàng.
 type: docs
@@ -13,7 +13,7 @@ Xử lý các tệp Excel có thể rất tẻ nhạt, đặc biệt là khi tí
 
 ## [Tạo Tổng phụ trong Excel](./create-subtotals-in-excel/)
 
-Hãy tưởng tượng bạn có một bảng tính lớn với hàng trăm hàng. Tính toán tổng phụ theo cách thủ công nghe có vẻ khó khăn, phải không? Nhưng với Aspose.Cells cho .NET, việc này dễ như ăn bánh. Hướng dẫn này hướng dẫn bạn cách tạo tổng phụ trong Excel theo chương trình. Tại sao phải tốn thời gian vào các tác vụ lặp đi lặp lại khi chỉ cần một vài dòng mã có thể làm được điều đó cho bạn? Đến cuối hướng dẫn này, bạn sẽ thiết lập được tổng phụ của mình trong thời gian ngắn.  
+Hãy tưởng tượng bạn có một bảng tính lớn với hàng trăm hàng. Tính toán tổng phụ thủ công nghe có vẻ khó khăn, phải không? Nhưng với Aspose.Cells cho .NET, việc này dễ như ăn bánh. Hướng dẫn này hướng dẫn bạn cách tạo tổng phụ trong Excel theo chương trình. Tại sao phải tốn thời gian vào các tác vụ lặp đi lặp lại khi chỉ cần một vài dòng mã có thể làm được điều đó cho bạn? Đến cuối hướng dẫn này, bạn sẽ thiết lập được tổng phụ của mình trong thời gian ngắn.  
 [Tạo Tổng phụ trong Excel](./create-subtotals-in-excel/)
 
 ## [Theo dõi tiền lệ trong Excel](./tracing-precedents-in-excel/)

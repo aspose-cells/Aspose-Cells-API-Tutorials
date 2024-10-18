@@ -17,7 +17,7 @@ url: /zh-hant/net/setting-chart-appearance/set-chart-area/
 
 1. Visual Studio：確保您的電腦上安裝了 Visual Studio。它對於編寫和執行 .NET 程式碼至關重要。
 2. .NET Framework：本指南最適合與 .NET Framework 或 .NET Core 一起使用。確保您已安裝所需的版本（4.5 或更高版本）。
-3. Aspose.Cells：您需要Aspose.Cells 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells：您需要Aspose.Cells 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/cells/net/).
 4. 基本 C# 知識：對 C# 程式設計的基本了解將幫助您更好地掌握這些步驟。如果您不是專業人士，請不要擔心—我會解釋一切！
 
 ## 導入包

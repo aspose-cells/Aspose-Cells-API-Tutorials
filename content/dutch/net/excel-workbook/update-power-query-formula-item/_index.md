@@ -16,7 +16,7 @@ Als u ooit met Excel hebt gewerkt, weet u hoe krachtig het kan zijn, vooral wann
 Voordat u in de code duikt, moet u een aantal zaken instellen:
 
 1. Visual Studio: U hebt een geïntegreerde ontwikkelomgeving (IDE) nodig om uw .NET-code te schrijven en uit te voeren. Visual Studio is de beste keuze.
-2.  Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells-bibliotheek binnen uw project beschikbaar hebt. U kunt deze downloaden van de[plaats](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells-bibliotheek beschikbaar hebt in uw project. U kunt deze downloaden van de[plaats](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: We nemen dit samen door, maar enige basiskennis van C# is zeker nuttig, vooral bij het navigeren door verschillende klassen en methoden.
 4. Voorbeeld Excel-bestanden: U hebt de Excel-bestanden nodig die in het codefragment worden genoemd. Zorg ervoor dat u het volgende hebt:
    - `SamplePowerQueryFormula.xlsx`

@@ -1,7 +1,7 @@
 ---
 title: Criar gráfico de linhas
 linktitle: Criar gráfico de linhas
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Crie gráficos de linha impressionantes usando Aspose.Cells para .NET. Siga nosso guia passo a passo para visualizar seus dados de forma eficaz.
 type: docs
 weight: 11
@@ -44,7 +44,7 @@ Agora, vamos dividir todo o processo em etapas simples e digeríveis. Cada etapa
 
 ## Etapa 1: Configurar o diretório de saída
 
-primeiro passo é definir onde você quer salvar seu arquivo de saída. É como configurar seu espaço de trabalho antes de começar a sujar as mãos. 
+primeiro passo é definir onde você quer salvar seu arquivo de saída. É como configurar seu espaço de trabalho antes de começar a colocar a mão na massa. 
 
 ```csharp
 // Diretório de saída
@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Em seguida, precisamos criar uma nova instância de workbook. Pense no Workbook como a tela onde sua criatividade fluirá. 
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Esta linha inicializa uma nova pasta de trabalho que conterá todos os seus dados e visuais.

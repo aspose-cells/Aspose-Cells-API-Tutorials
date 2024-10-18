@@ -44,7 +44,7 @@ string outputDir = "Your Document Directory";
 
 Esta linha de código recupera o caminho do diretório onde o arquivo gerado será armazenado. Certifique-se de que este diretório exista; caso contrário, você poderá enfrentar um erro de arquivo não encontrado mais tarde.
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, criaremos uma instância de uma nova pasta de trabalho do Excel. Pense nisso como se estivesse colocando uma tela em branco para começar sua obra-prima.
 
@@ -66,7 +66,7 @@ wb.ProtectSharedWorkbook("1234");
 
 Neste caso, "1234" é nossa senha. Você pode alterá-la para o que preferir. Este comando bloqueia a pasta de trabalho, impedindo edições não autorizadas.
 
-## Etapa 4: (Opcional) Desproteger a pasta de trabalho
+## Etapa 4: (Opcional) Desproteja a pasta de trabalho
 
 Se mudar de ideia ou precisar editar a pasta de trabalho mais tarde, você pode desbloqueá-la facilmente descomentando a linha abaixo. É como ter uma chave para o seu cofre:
 
@@ -110,7 +110,7 @@ Absolutamente! Você pode usar qualquer string que atenda aos requisitos da sua 
 ### O que acontece se eu esquecer a senha?
 Infelizmente, se você esquecer a senha, não poderá desproteger a pasta de trabalho sem recorrer a ferramentas de terceiros ou especialistas.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  Aspose.Cells é um produto comercial, mas você pode experimentá-lo gratuitamente por tempo limitado por meio do teste gratuito:[Teste grátis](https://releases.aspose.com/).
 
 ### Existe uma maneira de usar isso em outras linguagens de programação?

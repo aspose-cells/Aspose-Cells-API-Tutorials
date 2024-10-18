@@ -2,7 +2,7 @@
 title: Papierbreite und -höhe des Arbeitsblatts ermitteln
 linktitle: Papierbreite und -höhe des Arbeitsblatts ermitteln
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erfahren Sie mit einer einfachen Schritt-für-Schritt-Anleitung, wie Sie die Papierbreite und -höhe von Arbeitsblättern in Aspose.Cells für .NET erhalten.
+description: Erfahren Sie mit einer einfachen Schritt-für-Schritt-Anleitung, wie Sie die Papierbreite und -höhe von Arbeitsblättern in Aspose.Cells für .NET ermitteln.
 type: docs
 weight: 80
 url: /de/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/

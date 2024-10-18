@@ -34,7 +34,7 @@ Mari kita uraikan prosesnya menjadi beberapa langkah yang dapat dikelola sehingg
 
 ## Langkah 1: Tentukan Direktori Output Anda
 
-Pertama-tama, Anda memerlukan tempat untuk menyimpan berkas Excel yang baru Anda buat. Tetapkan direktori output di bagian atas kode Anda seperti ini:
+Pertama-tama, Anda memerlukan tempat untuk menyimpan berkas Excel yang baru Anda buat. Tentukan direktori output di bagian atas kode Anda seperti ini:
 
 ```csharp
 // Direktori keluaran
@@ -43,12 +43,12 @@ string outputDir = "Your Output Directory";
 
  Penjelasan: Ganti "Direktori Output Anda" dengan jalur tempat Anda ingin Aspose.Cells menyimpan file, seperti`C:\\MyExcelFiles\\`.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Sekarang, kita akan membuat objek buku kerja, yang berfungsi sebagai wadah bagi lembar kerja Anda.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -63,7 +63,7 @@ Selanjutnya, Anda perlu bekerja dengan lembar tertentu di buku kerja Anda. Kita 
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Penjelasan: Lembar kerja diindeks mulai dari 0, jadi`worksheets[0]` merujuk pada lembar kerja pertama.
+ Penjelasan: Lembar kerja diindeks mulai dari 0, jadi`worksheets[0]` mengacu pada lembar kerja pertama.
 
 ## Langkah 4: Tambahkan Nilai Sampel ke Sel
 
@@ -112,7 +112,7 @@ Mari tambahkan rangkaian data untuk bagan kita.
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Penjelasan: Baris ini memerintahkan diagram untuk menarik data dari rentang yang ditentukan. Parameter kedua menentukan apakah rentang data mencakup kategori.
+Penjelasan: Baris ini memerintahkan bagan untuk menarik data dari rentang yang ditentukan. Parameter kedua menentukan apakah rentang data mencakup kategori.
 
 ## Langkah 8: Sesuaikan Tampilan Bagan
 

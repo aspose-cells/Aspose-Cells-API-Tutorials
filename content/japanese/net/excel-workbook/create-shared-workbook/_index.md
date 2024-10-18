@@ -47,7 +47,7 @@ using System.Text;
 
 これで、成功への準備は完了です。共有ブックを作成する手順を見ていきましょう。
 
-いよいよ本題に入ります。Aspose.Cells for .NET を使用して共有ブックを作成する方法を、わかりやすい手順に分けて説明します。
+いよいよ、重要な部分に入ります。ここでは、Aspose.Cells for .NET を使用して共有ブックを作成する方法を、わかりやすい手順に分けて説明します。
 
 ## ステップ1: 出力ディレクトリを設定する
 
@@ -76,7 +76,7 @@ Workbook wb = new Workbook();
 //ワークブックを共有する
 wb.Settings.Shared = true;
 ```
-設定`wb.Settings.Shared`に`true`このワークブックには複数のユーザーが同時にアクセスできることを示します。これは、家の鍵を友人に渡すのと同じで、友人は好きなときに出入りできます。
+設定`wb.Settings.Shared`に`true`は、このワークブックに複数のユーザーが同時にアクセスできることを示します。これは、家の鍵を友人に渡すのと同じで、友人は好きなときに出入りできます。
 
 ## ステップ4: 共有ブックを保存する
 
@@ -116,4 +116,4 @@ Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 サポートを見つけたり質問したりできます[Aspose.Cells サポート フォーラム](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells の使用を開始するにはどうすればよいですか?
-まずはライブラリをダウンロードしてください[Aspose.Cells ダウンロード](https://releases.aspose.com/cells/net/)ページにアクセスし、このガイドに記載されているインストール手順に従ってください。
+まず、ライブラリをダウンロードしてください。[Aspose.Cells ダウンロード](https://releases.aspose.com/cells/net/)ページにアクセスし、このガイドに記載されているインストール手順に従ってください。

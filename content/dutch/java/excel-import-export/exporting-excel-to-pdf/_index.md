@@ -12,7 +12,7 @@ In deze uitgebreide gids leiden we u door het proces van het exporteren van een 
 
 ## Vereisten
 
-Voordat we met het proces beginnen, moet u ervoor zorgen dat de volgende vereisten zijn ingesteld:
+Voordat we aan het proces beginnen, moet u ervoor zorgen dat de volgende vereisten zijn ingesteld:
 
 1. Java Development Environment: Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt Java downloaden en installeren vanaf de website als u dat nog niet hebt gedaan.
 
@@ -24,7 +24,7 @@ Begin met het maken van een nieuw Java-project in uw gekozen Integrated Developm
 
 ## Stap 2: Laad het Excel-bestand
 
-Om een Excel-bestand naar PDF te exporteren, moet u eerst het Excel-bestand in uw Java-applicatie laden met Aspose.Cells. Hier is een gedetailleerd voorbeeld van hoe u dit kunt doen:
+Om een Excel-bestand naar PDF te exporteren, moet u eerst het Excel-bestand in uw Java-applicatie laden met Aspose.Cells. Hier is een gedetailleerd voorbeeld van hoe u dit kunt bereiken:
 
 ```java
 // Importeer de benodigde Aspose.Cells-klassen

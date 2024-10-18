@@ -9,7 +9,7 @@ url: /nl/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-wo
 ---
 ## Invoering
 
-Nu de digitale wereld voortdurend evolueert, is het werken met spreadsheets een cruciaal onderdeel geworden van veel bedrijfsprocessen. Van het beheren van financiën tot het organiseren van gegevens, de mogelijkheid om Excel-werkbladen programmatisch toe te voegen en te bewerken kan u veel tijd besparen en uw workflow stroomlijnen. In deze gids duiken we diep in hoe u een Excel-werkblad toevoegt aan een bestaande werkmap met behulp van Aspose.Cells voor .NET, de krachtige bibliotheek die is ontworpen om spreadsheettaken moeiteloos te automatiseren. Laten we de mouwen opstropen en aan de slag gaan!
+Nu de digitale wereld zich voortdurend ontwikkelt, is het werken met spreadsheets een cruciaal onderdeel geworden van veel bedrijfsprocessen. Van het beheren van financiën tot het organiseren van gegevens, de mogelijkheid om Excel-werkbladen programmatisch toe te voegen en te bewerken kan u veel tijd besparen en uw workflow stroomlijnen. In deze gids duiken we diep in hoe u een Excel-werkblad toevoegt aan een bestaande werkmap met behulp van Aspose.Cells voor .NET, de krachtige bibliotheek die is ontworpen om spreadsheettaken moeiteloos te automatiseren. Laten we de mouwen opstropen en aan de slag gaan!
 
 ## Vereisten
 
@@ -17,7 +17,7 @@ Voordat we in de code duiken, zorgen we ervoor dat je alles hebt wat je nodig he
 
 1.  Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Als u het nog niet hebt, kunt u het downloaden van[hier](https://visualstudio.microsoft.com/vs/).
 2.  Aspose.Cells voor .NET: U moet Aspose.Cells voor .NET in uw project hebben geïntegreerd. U kunt het verkrijgen via de[downloadlink](https://releases.aspose.com/cells/net/)Deze bibliotheek is essentieel voor het werken met Excel-bestanden en ondersteunt een breed scala aan functionaliteiten.
-3. Basiskennis van C#: Kennis van de programmeertaal C# helpt u om het gemakkelijker te volgen. Maak u geen zorgen; wij leiden u stap voor stap door de processen!
+3. Basiskennis van C#: Kennis van de programmeertaal C# helpt u om het gemakkelijker te volgen. Maak u geen zorgen; we leiden u stap voor stap door de processen!
 4. Uw documentenmap: zorg ervoor dat u een map op uw computer hebt waar u uw Excel-bestanden voor deze tutorial kunt opslaan. 
 
 Alles op de lijst? Geweldig! Laten we nu de benodigde pakketten importeren.
@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Vervolgens moeten we een exemplaar van de klasse Workbook maken, waarin ons Excel-bestand wordt opgeslagen.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Door een werkmapinstantie te maken vanuit onze bestandsstroom, kunnen we nu de i
 
 ## Stap 4: Een nieuw werkblad toevoegen
 
-Hier komt het spannende gedeelte! Laten we een nieuw werkblad toevoegen aan onze werkmap. Dit doen we door de`Add()` methode van de`Worksheets`verzameling.
+ Hier komt het spannende gedeelte! Laten we een nieuw werkblad toevoegen aan onze werkmap. Dit doen we door de`Add()` methode van de`Worksheets`verzameling.
 
 ```csharp
 // Een nieuw werkblad toevoegen aan het werkmapobject
 int i = workbook.Worksheets.Add();
 ```
 
- Met deze regel code voegen we een nieuw blad toe en de index van dit nieuwe blad wordt vastgelegd in de variabele`i`.
+Met deze regel code voegen we een nieuw blad toe en de index van dit nieuwe blad wordt vastgelegd in de variabele`i`.
 
 ## Stap 5: Verkrijg een referentie naar het nieuw toegevoegde werkblad
 
@@ -109,7 +109,7 @@ Nu onze aanpassingen zijn voltooid, is het tijd om onze werkmap op te slaan. Dez
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Hier slaan we onze werkmap op als`output.out.xls`. U kunt dit bestand elke gewenste naam geven; zorg er alleen voor dat het in de juiste map wordt opgeslagen.
+ Hier slaan we onze werkmap op als`output.out.xls`kunt dit bestand een naam geven die u wilt. Zorg er alleen voor dat u het in de juiste map opslaat.
 
 ## Stap 8: Sluit de bestandsstroom
 

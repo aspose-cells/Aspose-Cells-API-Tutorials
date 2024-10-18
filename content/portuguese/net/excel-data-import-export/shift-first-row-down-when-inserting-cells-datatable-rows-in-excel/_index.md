@@ -1,7 +1,7 @@
 ---
 title: Deslocar a primeira linha para baixo ao inserir linhas de tabela de dados no Excel
 linktitle: Deslocar a primeira linha para baixo ao inserir linhas de tabela de dados no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a inserir linhas do DataTable no Excel sem deslocar a primeira linha para baixo usando o Aspose.Cells para .NET. Guia passo a passo para automação sem esforço.
 type: docs
 weight: 11
@@ -40,7 +40,7 @@ Esses pacotes são essenciais para trabalhar com a pasta de trabalho, planilha e
 
 Comece criando um novo C# Console Application no Visual Studio. Dê ao seu projeto um nome adequado, como “ExcelDataImport”.
 
-### Adicionar pacote NuGet Aspose.Cells
+### Adicionar pacote Aspose.Cells NuGet
 
 Para adicionar o pacote Aspose.Cells, clique com o botão direito do mouse no seu projeto no Solution Explorer, selecione Manage NuGet Packages e pesquise por “Aspose.Cells”. Instale o pacote para garantir que você possa acessar todas as funcionalidades de que precisamos.
 

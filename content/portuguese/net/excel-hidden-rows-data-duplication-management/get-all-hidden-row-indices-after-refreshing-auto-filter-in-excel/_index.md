@@ -1,7 +1,7 @@
 ---
 title: Obtenha índices de linhas ocultas após atualizar o filtro automático no Excel
 linktitle: Obtenha índices de linhas ocultas após atualizar o filtro automático no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra como recuperar índices de linhas ocultas após atualizar o Auto Filter no Excel usando Aspose.Cells para .NET. Simplifique seu gerenciamento de dados.
 type: docs
 weight: 10
@@ -86,7 +86,7 @@ ws.AutoFilter.AddFilter(0, "Orange"); // Aplicar filtro automático para a prime
 
 ## Etapa 5: atualize o filtro automático e obtenha linhas ocultas
 
-A linha a seguir atualiza o Auto Filter. Ele retornará os índices das linhas que estão ocultas após aplicar nosso filtro. Definir o parâmetro como true atualiza o filtro efetivamente.
+A linha a seguir atualiza o Auto Filter. Ela retornará os índices das linhas que estão ocultas após aplicar nosso filtro. Definir o parâmetro como true atualiza o filtro efetivamente.
 
 ```csharp
 int[] rowIndices = ws.AutoFilter.Refresh(true);
@@ -122,7 +122,7 @@ Aspose.Cells é uma biblioteca poderosa para .NET que permite aos desenvolvedore
 ### Posso filtrar dados no Excel usando Aspose.Cells?
 Sim! O Aspose.Cells tem funcionalidades integradas para aplicar filtros e trabalhar com dados do Excel de forma eficaz.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  Aspose.Cells oferece um teste gratuito, mas você precisará comprar uma licença para uso contínuo. Verifique o[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
 
 ### Como posso obter suporte para o Aspose.Cells?

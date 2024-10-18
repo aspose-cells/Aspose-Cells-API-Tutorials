@@ -18,7 +18,7 @@ Avant de passer au didacticiel, assurons-nous que vous disposez de tout ce dont 
 1. Visual Studio installé : vous aurez besoin d’un IDE comme Visual Studio pour écrire et exécuter votre code .NET.
 2. .NET Framework : ce didacticiel suppose que vous utilisez .NET Framework 4.0 ou une version ultérieure. Cependant, Aspose.Cells est également compatible avec .NET Core.
 3.  Bibliothèque Aspose.Cells : si vous ne l'avez pas encore fait, téléchargez la bibliothèque à partir du site Web Aspose[ici](https://releases.aspose.com/cells/net/) . Vous pouvez également commencer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
-4.  Exemple de fichier Excel : nous utiliserons un exemple de fichier Excel nommé`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Assurez-vous que ce fichier est prêt dans votre répertoire de travail.
+4. Exemple de fichier Excel : nous utiliserons un exemple de fichier Excel nommé`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Assurez-vous que ce fichier est prêt dans votre répertoire de travail.
 
 ## Paquets d'importation
 
@@ -62,7 +62,7 @@ Vous êtes maintenant prêt à commencer à manipuler notre fichier Excel !
 Avant de charger le fichier Excel, configurons les répertoires de sortie et de source. Cela nous permettra de spécifier où nos fichiers sont stockés.
 
 ```csharp
-// Répertoire de sortie - où le PDF sera enregistré
+//Répertoire de sortie - où le PDF sera enregistré
 string outputDir = "Your Output Directory"; // spécifiez ici votre répertoire de sortie
 
 // Répertoire source - où se trouve le fichier Excel d'exemple
@@ -108,7 +108,7 @@ Dans Excel, l'une des fonctionnalités clés des graphiques est la gestion autom
 
 ```csharp
 // Définir l'unité principale pour l'axe Y
-ch.AxisY.MajorUnit = 10; // Vous pouvez définir selon vos besoins
+ch.AxisY.MajorUnit = 10; //Vous pouvez définir selon vos besoins
 ```
 
 Mettons à jour les unités automatiques maintenant !
@@ -151,4 +151,4 @@ Il suffit de la bibliothèque Aspose.Cells et d'un .NET Framework installé sur 
 Absolument ! Aspose.Cells prend en charge différents formats tels que XLSX, HTML et les images.
 
 ### Où puis-je trouver de l’aide si je rencontre des problèmes ?
-Vous pouvez demander de l'aide à la communauté Aspose[ici](https://forum.aspose.com/c/cells/9).
+ Vous pouvez demander de l'aide à la communauté Aspose[ici](https://forum.aspose.com/c/cells/9).

@@ -31,18 +31,18 @@ using Aspose.Cells;
 // 출력 디렉토리
 string outputDir = "Your Document Directory";
 ```
- 바꾸다`"Your Document Directory"` 파일을 저장하려는 실제 경로와 함께. 이것은 문서를 정리하여 나중에 찾기 쉽게 만드는 올바른 폴더를 선택하는 것과 같습니다!
+ 바꾸다`"Your Document Directory"` 파일을 저장하려는 실제 경로와 함께. 이것은 문서를 정리하여 나중에 찾기 쉽게 하기 위해 올바른 폴더를 선택하는 것과 같습니다!
 ## 2단계: 통합 문서 개체 만들기
 다음으로, 새로운 Excel 통합 문서를 만들겠습니다. 이것은 기능을 추가하기 시작할 수 있는 빈 캔버스입니다.
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
  생각해 보세요`Workbook` 필요한 모든 것을 적을 수 있는 새로운 노트북으로. 지금은 비어 있고, 여러분의 의견을 기다리고 있습니다!
 ## 3단계: 원하는 워크시트에 액세스
 모든 워크북에는 여러 워크시트가 포함될 수 있습니다. 여기서는 하이퍼링크를 추가할 첫 번째 워크시트에 액세스합니다.
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 여기서 우리는 "안녕, 첫 번째 시트에서 작업하고 싶어."라고 말합니다. 노트북의 특정 페이지를 여는 것과 같습니다.
@@ -52,7 +52,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Hyperlinks.Add("A5", 1, 1, outputDir + "SomeExcelFile.xlsx");
 worksheet.Hyperlinks[0].TextToDisplay = "Link To External File";
 ```
- 이 줄에서는 셀을 지정합니다.`A5`, 하이퍼링크의 경우. 전달된 매개변수는 하이퍼링크가 어디로 이어질지 정의합니다. 또한 셀에 표시될 텍스트도 설정합니다. 보물상자를 가리키는 스티커 라벨이 있는 메모를 쓰는 것과 같습니다!
+ 이 줄에서는 셀을 지정하고 있습니다.`A5`, 하이퍼링크의 경우. 전달된 매개변수는 하이퍼링크가 어디로 이어질지 정의합니다. 또한 셀에 표시될 텍스트도 설정합니다. 보물상자를 가리키는 스티커 라벨이 있는 메모를 쓰는 것과 같습니다!
 ## 5단계: 통합 문서 저장
 걸작을 만든 후에는 저장할 때입니다. 이렇게 하면 새로 추가된 하이퍼링크가 있는 Excel 파일이 생성됩니다.
 ```csharp
@@ -74,15 +74,15 @@ Console.WriteLine("AddingLinkToExternalFile executed successfully.");
 ```
 이 줄은 콘솔에서 작업의 성공을 확인하는 메시지를 표시합니다. "모두 준비되었습니다! 작업이 완료되었습니다!"라고 말하는 것과 같습니다.
 ## 결론
-이제 다 봤습니다! 몇 단계만 거치면 Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 외부 파일에 하이퍼링크를 추가하는 방법을 배웠습니다. 이 강력한 기능은 스프레드시트의 적응성을 향상시키고 데이터를 효율적으로 연결합니다. 이러한 지식을 바탕으로 더욱 상호 작용적이고 유용한 Excel 문서를 만들어 더 나은 구성과 협업을 촉진할 수 있습니다.
+이제 다 됐습니다! 몇 단계만 거치면 Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 외부 파일에 하이퍼링크를 추가하는 방법을 배웠습니다. 이 강력한 기능은 스프레드시트의 적응성을 향상시키고 데이터를 효율적으로 연결합니다. 이러한 지식을 바탕으로 더욱 상호 작용적이고 유용한 Excel 문서를 만들어 더 나은 구성과 협업을 촉진할 수 있습니다.
 ## 자주 묻는 질문
 ### Aspose.Cells란 무엇인가요?
 Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 만들고 조작하는 데 사용되는 .NET 라이브러리입니다.
 ### Aspose.Cells를 무료로 사용할 수 있나요?
  예, Aspose에서는 다운로드 가능한 무료 평가판 버전을 제공합니다.[여기](https://releases.aspose.com/).
-### Aspose.Cells에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
+### Aspose.Cells에 대한 임시 라이선스를 얻으려면 어떻게 해야 하나요?
  임시면허를 신청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Cells 사용에 대한 더 많은 예는 어디에서 볼 수 있나요?
  포괄적인 가이드와 예제는 설명서를 참조할 수 있습니다.[여기](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells 사용자에게 기술 지원을 제공할 수 있나요?
- 네, Aspose 지원 포럼에서 도움을 받으실 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
+ 네, Aspose 지원 포럼에서 도움을 받을 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).

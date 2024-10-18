@@ -35,7 +35,7 @@ A kódunk első lépése a Workbook objektum példányának létrehozása. Gondo
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory"();
 
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 Ez a kódsor arra utasítja programunkat, hogy hozzon létre egy új munkafüzetet. Ez elengedhetetlen, mert tartományokat és értékeket fog hozzáadni ehhez a munkafüzethez.

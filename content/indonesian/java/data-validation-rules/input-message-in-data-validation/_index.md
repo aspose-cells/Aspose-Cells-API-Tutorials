@@ -86,7 +86,7 @@ area.endColumn = 0;
 validation.addArea(area);
 ```
 
-## Bekerja dengan Tipe Data Berbeda
+## Bekerja dengan Tipe Data yang Berbeda
 
 Aspose.Cells untuk Java memungkinkan Anda bekerja dengan berbagai tipe data untuk validasi data, termasuk bilangan bulat, bilangan desimal, tanggal, dan teks.
 

@@ -2,7 +2,7 @@
 title: Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele
 linktitle: Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kapsamlı kılavuzda, Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin.
+description: Bu kapsamlı kılavuzda, .NET için Aspose.Cells ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin.
 type: docs
 weight: 100
 url: /tr/net/excel-workbook/filter-defined-names-while-loading-workbook/
@@ -53,11 +53,11 @@ Sonra, çalışma kitabını yüklerken hangi verileri filtrelemek istediğimizi
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Tilde (~) operatörü, tanımlanmış isimleri yükleme işleminden hariç tutmak istediğimizi belirtir. Bu, iş yükünüzü hafif tutmak ve işleminizi karmaşıklaştırabilecek gereksiz verilerden kaçınmak istiyorsanız önemlidir.
+Tilde (~operatörü, tanımlanmış isimleri yükleme işleminden hariç tutmak istediğimizi belirtir. Bu, iş yükünüzü hafif tutmak ve işleminizi karmaşıklaştırabilecek gereksiz verilerden kaçınmak istiyorsanız önemlidir.
 
 ## Adım 3: Çalışma Kitabını Yükleyin
 
-Artık yükleme seçeneklerimiz belirtildiğine göre, çalışma kitabını yükleme zamanı geldi. Aşağıdaki kodu kullanın:
+Artık yükleme seçeneklerimiz belirtildiğine göre, çalışma kitabının kendisini yükleme zamanı geldi. Aşağıdaki kodu kullanın:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
@@ -75,7 +75,7 @@ wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
 
 Bu satır yeni çalışma kitabınızı belirtilen bir çıktı dizinine kaydeder. Orijinal çalışma kitabınız hesaplamalarında tanımlı adlar kullanan formüller içeriyorsa, bu formüllerin filtreleme nedeniyle bozulabileceğini lütfen unutmayın.
 
-## Adım 5: Yürütmeyi Onaylayın
+## Adım 5: Uygulamayı Onaylayın
 
 Son olarak, işlemimizin başarılı olduğunu doğrulayabiliriz. Her şeyin sorunsuz gittiğinden emin olmak için konsolunuzda geri bildirim sağlamak iyi bir uygulamadır.
 
@@ -87,7 +87,7 @@ Bu satırla, operasyonun herhangi bir sorun yaşanmadan tamamlandığının net 
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlanmış isimleri filtrelemek birkaç basit adımla gerçekleştirilebilir. Bu süreç, veri işlemenizi kolaylaştırmanız veya gereksiz verilerin hesaplamalarınızı etkilemesini önlemeniz gereken senaryolarda son derece yararlıdır.
+Ve işte karşınızda! Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlı isimleri filtrelemek birkaç basit adımla gerçekleştirilebilir. Bu süreç, veri işlemenizi kolaylaştırmanız veya gereksiz verilerin hesaplamalarınızı etkilemesini önlemeniz gereken senaryolarda son derece yararlıdır.
 
 Bu kılavuzu izleyerek, hangi verileri hariç tutmak istediğinizi kontrol ederek Excel dosyalarınızı güvenle yükleyebilirsiniz. İster büyük veri kümelerini yöneten uygulamalar geliştiriyor olun, ister belirli iş mantığını uyguluyor olun, bu özelliğin ustalaşması yalnızca Excel düzenleme becerilerinizi geliştirecektir.
 

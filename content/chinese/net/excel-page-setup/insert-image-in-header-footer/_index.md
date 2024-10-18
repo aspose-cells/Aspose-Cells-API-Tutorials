@@ -1,6 +1,6 @@
 ---
-title: 在页眉页脚中插入图像
-linktitle: 在页眉页脚中插入图像
+title: 在页眉页脚中插入图片
+linktitle: 在页眉页脚中插入图片
 second_title: Aspose.Cells for .NET API 参考
 description: 通过本全面的分步指南学习如何使用 Aspose.Cells for .NET 在页眉页脚中插入图像。
 type: docs
@@ -95,7 +95,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
-此行将图像放置在标题的中央部分。参数`1`指定标题部分。
+此行将图像放置在页眉的中央部分。参数`1`指定标题部分。
 
 ## 步骤 7：设置标题内容
 
@@ -142,7 +142,7 @@ Aspose.Cells 支持多种格式，包括 JPEG、PNG、BMP、GIF 和 TIFF。
 是的，您可以使用不同的占位符将单独的图像插入到页眉或页脚的不同部分。
 
 ### Aspose.Cells 免费吗？
- Aspose.Cells 提供免费试用，但授权版本可获得完整访问权限和附加功能。您可以获得[此处为临时执照](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells 提供免费试用，但授权版本可实现完全访问和附加功能。您可以获得[此处为临时执照](https://purchase.aspose.com/temporary-license/).
 
 ### 如何解决图像无法显示的问题？
 确保图片路径正确且文件存在。同时检查图片格式兼容性。

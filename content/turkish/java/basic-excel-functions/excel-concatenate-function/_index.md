@@ -107,7 +107,7 @@ Aspose.Cells for Java'yı kullanarak Excel'deki farklı hücrelerdeki metni birl
 
 ### CONCATENATE kullanarak üçten fazla metin dizesini birleştirebilir miyim?
 
-Evet, Excel ve Java için Aspose.Cells'de CONCATENATE kullanarak üçten fazla metin dizesini birleştirebilirsiniz. Gerektiğinde ek hücre başvurularını eklemek için formülü genişletmeniz yeterlidir.
+Evet, Excel'de ve Java için Aspose.Cells'de CONCATENATE kullanarak üçten fazla metin dizesini birleştirebilirsiniz. Gerektiğinde ek hücre başvurularını eklemek için formülü genişletmeniz yeterlidir.
 
 ### Java için Aspose.Cells'de CONCATENATE'e bir alternatif var mı?
 

@@ -53,18 +53,18 @@ Per prima cosa, devi specificare dove sono archiviati i tuoi documenti Excel. Qu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Spiegazione: Sostituisci`YOUR DOCUMENT DIRECTORY`con il percorso effettivo dei tuoi file. È qui che caricherai il tuo file Excel e salverai il tuo file Excel modificato in seguito.
+ Spiegazione: Sostituisci`YOUR DOCUMENT DIRECTORY` con il percorso effettivo dei tuoi file. È qui che caricherai il tuo file Excel e salverai il tuo file Excel modificato in seguito.
 
 ## Passaggio 2: creare un'istanza dell'oggetto Workbook
 
 Ora dobbiamo caricare la nostra cartella di lavoro. In parole più semplici, pensa a una cartella di lavoro come al tuo file Excel.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Spiegazione: Questa riga crea una nuova istanza di un`Workbook` , che carica il file Excel specificato (in questo esempio, si chiama`PageBreaks.xls`). 
+Spiegazione: Questa riga crea una nuova istanza di un`Workbook` , che carica il file Excel specificato (in questo esempio, si chiama`PageBreaks.xls`). 
 
 ## Passaggio 3: rimuovere l'interruzione di pagina orizzontale
 

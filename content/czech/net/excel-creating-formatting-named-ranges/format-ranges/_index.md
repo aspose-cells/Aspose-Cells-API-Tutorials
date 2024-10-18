@@ -43,7 +43,7 @@ Nejprve musíte vytvořit proměnnou, která bude obsahovat cestu, kam chcete ul
 string dataDir = "Your Document Directory"; // Zde zadejte svůj adresář
 ```
 
-Vysvětlení: Tento řádek inicializuje a`dataDir` variabilní. Měli byste vyměnit`"Your Document Directory"` se skutečnou cestou na vašem počítači, kam chcete soubor Excel uložit. Berte to jako přípravu scény, kde bude vaše mistrovské dílo vystaveno!
+ Vysvětlení: Tento řádek inicializuje a`dataDir` variabilní. Měli byste vyměnit`"Your Document Directory"` se skutečnou cestou na vašem počítači, kam chcete soubor Excel uložit. Berte to jako přípravu scény, kde bude vaše mistrovské dílo vystaveno!
 
 ## Krok 2: Vytvořte nový sešit
 
@@ -53,7 +53,7 @@ Dále vytvoříme instanci sešitu. Je to jako otevřít nové prázdné plátno
 Workbook workbook = new Workbook();
 ```
 
- Vysvětlení: The`Workbook` třída představuje soubor Excel. Jeho vytvořením v podstatě vytváříte nový dokument Excel, se kterým můžete manipulovat.
+Vysvětlení: The`Workbook` třída představuje soubor Excel. Jeho vytvořením v podstatě vytváříte nový dokument Excel, se kterým můžete manipulovat.
 
 ## Krok 3: Otevřete první pracovní list
 
@@ -102,7 +102,7 @@ Dále upřesníme vlastnosti písma pro naše buňky.
 
 ```csharp
 stl.Font.Name = "Arial"; // Nastavte písmo na Arial
-stl.Font.IsBold = true; //Zvýrazněte písmo
+stl.Font.IsBold = true; // Zvýrazněte písmo
 ```
 
 Vysvětlení: Zde definujeme, že chceme jako písmo použít „Arial“ a udělat ho tučným. Berte to tak, že dodá vašemu textu nějakou sílu!
@@ -134,11 +134,11 @@ Vysvětlení: Naplňujeme řadu jasně žlutou! Pevný vzor zajišťuje konziste
 
 ```csharp
 StyleFlag flg = new StyleFlag();
-flg.Font = true; //Povolit atributy písma
+flg.Font = true; // Povolit atributy písma
 flg.CellShading = true; // Povolit stínování buněk
 ```
 
- Vysvětlení: The`StyleFlag` objekt říká knihovně, které vlastnosti stylu chceme použít – něco jako zaškrtávání políček v seznamu úkolů!
+Vysvětlení: The`StyleFlag` objekt říká knihovně, které vlastnosti stylu chceme použít – něco jako zaškrtávání políček v seznamu úkolů!
 
 ## Krok 11: Použijte styl na rozsah
 
@@ -152,7 +152,7 @@ Vysvětlení: Tento řádek přebírá náš definovaný styl a aplikuje ho na z
 
 ## Krok 12: Uložte soubor Excel
 
-V neposlední řadě si chceme ušetřit práci. 
+neposlední řadě si chceme ušetřit práci. 
 
 ```csharp
 workbook.Save(dataDir + "outputFormatRanges1.xlsx"); // Uložte sešit do zadaného adresáře
@@ -174,7 +174,7 @@ Vysvětlení: Tento řádek vytiskne zprávu do konzole, která oznamuje, že n�
 
 V tomto tutoriálu jsme prošli kroky formátování rozsahů v Excelu pomocí Aspose.Cells pro .NET. Ať už chcete, aby vaše data měla tučný text, živé barvy nebo základní strukturování v rámci rozsahů, tato knihovna vám pomůže. Jen tak můžete transformovat svá data z nevýrazných na velká pomocí několika řádků kódu!
 
- Jak budete pokračovat ve své programátorské cestě, neváhejte prozkoumat další funkce Aspose.Cells, protože nabízí nepřeberné množství funkcí pro práci se soubory Excel. Pro další čtení se podívejte na[dokumentace](https://reference.aspose.com/cells/net/) odemknout nový potenciál ve vašich rozvojových projektech!
+Jak budete pokračovat ve své programátorské cestě, neváhejte prozkoumat další funkce Aspose.Cells, protože nabízí nepřeberné množství funkcí pro práci se soubory Excel. Pro další čtení se podívejte na[dokumentace](https://reference.aspose.com/cells/net/) odemknout nový potenciál ve vašich rozvojových projektech!
 
 ## FAQ
 
@@ -182,7 +182,7 @@ V tomto tutoriálu jsme prošli kroky formátování rozsahů v Excelu pomocí A
 Aspose.Cells je výkonná knihovna pro .NET, která umožňuje vývojářům bezproblémově manipulovat se soubory aplikace Excel – ideální pro vytváření a úpravu tabulek programově.
 
 ### Mohu používat Aspose.Cells zdarma?
-Ano! Aspose nabízí bezplatnou zkušební verzi. S knihovnou můžete začít a před jejím nákupem otestovat její funkce. Podívejte se na[zkušební verze zdarma](https://releases.aspose.com/).
+ Ano! Aspose nabízí bezplatnou zkušební verzi. S knihovnou můžete začít a před jejím nákupem otestovat její funkce. Podívejte se na[zkušební verze zdarma](https://releases.aspose.com/).
 
 ### Jak mohu použít více stylů na rozsah v aplikaci Excel?
  Můžete vytvořit více`Style` objekty a aplikujte každý z nich pomocí`ApplyStyle` metoda s jejich příslušnými`StyleFlag`.

@@ -27,7 +27,7 @@ Trước khi đi sâu vào mã hóa và thao tác biểu đồ, chúng ta hãy l
 ### Tệp Excel có biểu đồ
 - Sẽ rất hữu ích nếu có một tệp Excel chứa ít nhất một biểu đồ mà chúng ta có thể thao tác cho hướng dẫn này.
 
-Sau khi đã hoàn thành các điều kiện tiên quyết này trong danh sách, bạn đã sẵn sàng học cách thay đổi kích thước và vị trí biểu đồ như một chuyên gia!
+Sau khi đã đánh dấu các điều kiện tiên quyết này vào danh sách, bạn đã sẵn sàng học cách thay đổi kích thước và vị trí biểu đồ như một chuyên gia!
 
 ## Nhập gói
 
@@ -40,7 +40,7 @@ using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```
 
-Những câu lệnh này cho trình biên dịch biết rằng chúng ta sẽ sử dụng các lớp từ thư viện Aspose.Cells. Hãy đảm bảo bạn có điều này ở đầu mã của mình để tránh gặp khó khăn sau này!
+Những câu lệnh này cho trình biên dịch biết rằng chúng ta sẽ sử dụng các lớp từ thư viện Aspose.Cells. Hãy đảm bảo bạn đặt câu lệnh này ở đầu mã của mình để tránh gặp trục trặc sau này!
 
 Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước dễ quản lý. Chúng ta sẽ thực hiện từng bước một, đảm bảo mọi thứ đều rõ ràng.
 
@@ -75,7 +75,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Chart chart = worksheet.Charts[0];
 ```
 
-Với bảng tính đã lấy được, chúng ta sẽ bắt đầu truy cập vào biểu đồ! Chúng ta sẽ lấy biểu đồ đầu tiên (một lần nữa, chỉ mục`[0]`). Điều này giống như việc chọn tác phẩm nghệ thuật mà bạn muốn tô điểm. Hãy đảm bảo biểu đồ của bạn có trong bảng tính đó, nếu không bạn sẽ phải bối rối!
+Với bảng tính đã lấy được, chúng ta sẽ bắt đầu truy cập biểu đồ ngay! Chúng ta sẽ lấy biểu đồ đầu tiên (một lần nữa, chỉ mục`[0]`). Điều này giống như việc chọn tác phẩm nghệ thuật mà bạn muốn tô điểm. Hãy đảm bảo biểu đồ của bạn có trong bảng tính đó, nếu không bạn sẽ phải bối rối!
 
 ## Bước 5: Thay đổi kích thước biểu đồ
 
@@ -84,7 +84,7 @@ chart.ChartObject.Width = 400;
 chart.ChartObject.Height = 300;
 ```
 
- Đã đến lúc thay đổi kích thước của biểu đồ! Ở đây, chúng ta đang thiết lập chiều rộng thành`400` pixel và chiều cao để`300` pixel. Điều chỉnh kích thước cũng giống như việc chọn khung hoàn hảo cho tác phẩm nghệ thuật của bạn—quá lớn hoặc quá nhỏ, nó sẽ không vừa với căn phòng.
+ Đã đến lúc thay đổi kích thước của biểu đồ! Ở đây, chúng ta đang thiết lập chiều rộng thành`400` pixel và chiều cao để`300` pixel. Điều chỉnh kích thước cũng giống như việc chọn khung hoàn hảo cho tác phẩm nghệ thuật của bạn—quá lớn hoặc quá nhỏ, thì nó sẽ không vừa với căn phòng.
 
 ## Bước 6: Định vị lại biểu đồ
 
@@ -130,4 +130,4 @@ Có, bạn có thể sử dụng Aspose.Cells trong bất kỳ IDE nào tương 
  Bạn có thể tìm thấy sự hỗ trợ trong đội ngũ tận tâm của họ[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 
 ### Có giấy phép tạm thời không?  
- Có, bạn có thể mua giấy phép tạm thời để đánh giá Aspose.Cells trong thời gian ngắn, giấy phép này hiện có sẵn[đây](https://purchase.aspose.com/temporary-license/).
+ Có, bạn có thể mua giấy phép tạm thời để đánh giá Aspose.Cells trong thời gian ngắn, giấy phép này có sẵn[đây](https://purchase.aspose.com/temporary-license/).

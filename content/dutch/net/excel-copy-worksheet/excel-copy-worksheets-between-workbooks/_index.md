@@ -13,10 +13,10 @@ Heb je ooit handmatig werkbladen tussen Excel-werkmappen gekopieerd? Het is een 
 
 ## Vereisten
 
-Voordat we in de code duiken, willen we er zeker van zijn dat je over de juiste hulpmiddelen beschikt om aan de slag te gaan:
+Voordat we in de code duiken, willen we ervoor zorgen dat je over de juiste hulpmiddelen beschikt om aan de slag te gaan:
 
--  Aspose.Cells voor .NET: U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
-- Visual Studio of een IDE die .NET Framework ondersteunt.
+- Aspose.Cells voor .NET: U kunt het downloaden[hier](https://releases.aspose.com/cells/net/).
+- Visual Studio of een andere IDE die .NET Framework ondersteunt.
 -  Een geldig rijbewijs of een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) als u de volledige functionaliteit van Aspose.Cells wilt testen.
 - Basiskennis van C# en het .NET Framework.
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Nu u de eerste werkmap open hebt, is het tijd om een andere lege werkmap te maken waar u het gekopieerde werkblad in plakt. Zie dit als het openen van een nieuw leeg notitieboek waar u de gegevens naartoe overzet.
 
 ```csharp
-// Maak een nieuwe werkmap.
+//Maak een nieuwe werkmap.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Ten slotte slaat u de tweede werkmap op met het gekopieerde werkblad. Dit is alsof u uw nieuw geschreven notities opslaat in een nieuwe map op uw computer.
 
 ```csharp
-//Sla het bestand op.
+// Sla het bestand op.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -102,7 +102,7 @@ Vergeet niet dat coderen makkelijker wordt als je het opdeelt in kleinere stappe
 
 ### Kan ik meerdere werkbladen tegelijk kopiëren?
 
- Ja, u kunt door de werkbladen in de bronwerkmap heen bladeren en ze naar de doelwerkmap kopiëren. Elk werkblad heeft zijn eigen`Copy` methode.
+ Ja, u kunt door de werkbladen in de bronwerkmap heen lopen en ze naar de doelwerkmap kopiëren. Elk werkblad heeft zijn eigen`Copy` methode.
 
 ### Kan ik een werkblad kopiëren naar een werkmap die al gegevens bevat?
 

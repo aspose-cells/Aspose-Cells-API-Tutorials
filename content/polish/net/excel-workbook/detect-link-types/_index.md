@@ -43,7 +43,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
-Po wykonaniu tych importów możemy zacząć pracować nad naszym plikiem Excel jak profesjonalista!
+Po wykonaniu tych importów możemy zacząć pracować z naszym plikiem Excel jak profesjonalista!
 
 A teraz zaczyna się zabawa! Rozłożymy fragment kodu, który nam dostarczyłeś, na przewodnik krok po kroku. Każdy krok będzie wyjaśniał, co robimy, jasno i zwięźle.
 
@@ -60,14 +60,14 @@ Ten wiersz wskazuje na katalog zawierający plik Excel. Upewnij się, że ście�
 
 ## Krok 2: Załaduj skoroszyt
 
-Następnie załadujemy nasz skoroszyt. To tak, jakbyśmy otwierali plik Excel w tle, co pozwoli nam czytać i manipulować jego zawartością.
+Następnie załadujemy nasz skoroszyt. To tak, jakbyśmy otwierali plik Excela w tle, co pozwoli nam czytać i manipulować jego zawartością.
 
 ```csharp
-//Załaduj skoroszyt
+// Załaduj skoroszyt
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Oto, co się dzieje: tworzymy instancję`Workbook` class i przekazując ścieżkę naszego pliku Excel. Jeśli wszystko pójdzie gładko, twój skoroszyt jest już otwarty do użytku!
+Oto, co się dzieje: tworzymy wystąpienie`Workbook` class i przekazując ścieżkę naszego pliku Excel. Jeśli wszystko pójdzie gładko, twój skoroszyt jest już otwarty do użytku!
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -96,7 +96,7 @@ Dzięki temu zakresowi możemy łatwo pobrać hiperłącza znajdujące się w ty
 Oto ekscytująca część: wyciąganie hiperłączy! Wyciągniemy hiperłącza z naszego zdefiniowanego zakresu.
 
 ```csharp
-// Uzyskaj hiperłącza w zasięgu
+//Uzyskaj hiperłącza w zasięgu
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 
@@ -141,7 +141,7 @@ Możesz zainstalować Aspose.Cells za pośrednictwem NuGet w programie Visual St
 Oczywiście! Aspose.Cells może zarówno czytać, jak i tworzyć pliki Excel, co pozwala na rozległe możliwości manipulacji danymi i raportowania.
 
 ### Z jakimi typami hiperłączy mogę pracować?  
-plikach programu Excel można pracować z typami dokumentów wewnętrznych, zewnętrznych, wiadomościami e-mail, a nawet linkami do innych dokumentów.
+W plikach programu Excel można pracować z typami dokumentów wewnętrznych, zewnętrznych, wiadomościami e-mail, a nawet linkami do innych dokumentów.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?  
  Aby uzyskać pomoc, sprawdź forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).

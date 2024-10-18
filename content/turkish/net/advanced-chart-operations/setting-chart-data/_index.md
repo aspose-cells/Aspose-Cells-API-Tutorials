@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Şimdi çalışma kitabındaki ilk çalışma sayfasına erişiyoruz. Çalışma sayfaları, her sayfanın kendi veri ve grafik kümesini içerebildiği bir kitaptaki sayfalar gibidir.
+Şimdi çalışma kitabındaki ilk çalışma sayfasına erişiyoruz. Çalışma sayfaları bir kitaptaki sayfalar gibidir, her sayfa kendi veri ve grafik kümesini içerebilir.
 
 ## Adım 4: Hücrelere Örnek Değerler Ekleyin
 
@@ -88,7 +88,7 @@ worksheet.Cells["C3"].PutValue("Y1");
 worksheet.Cells["C4"].PutValue("Y2");
 ```
 
-Bu adım, 'C' sütununa kategori verileri ekleyerek izleyicilerinizin grafiğinizin neyi temsil ettiğini anlamalarına yardımcı olur. Bunu bir rapordaki her bölüm için bir başlık yazmak gibi düşünün - netlik anahtardır.
+Bu adım, 'C' sütununa kategori verileri ekleyerek izleyicilerinizin grafiğinizin neyi temsil ettiğini anlamalarına yardımcı olur. Bunu bir rapordaki her bölüm için bir başlık yazmak olarak düşünün - netlik anahtardır.
 
 ## Adım 6: Çalışma Sayfasına Bir Grafik Ekleyin
 

@@ -32,7 +32,7 @@ Innan vi kan manipulera Excel-filen måste vi importera de nödvändiga paketen.
 
 Nu är det dags att lägga till Aspose.Cells biblioteksreferens. Du kan antingen:
 
--  Ladda ner DLL från[här](https://releases.aspose.com/cells/net/) och lägg till det i ditt projekt manuellt.
+-  Ladda ner DLL från[här](https://releases.aspose.com/cells/net/)och lägg till det i ditt projekt manuellt.
 - Eller använd NuGet Package Manager och kör följande kommando i Package Manager Console:
 
 ```bash
@@ -81,7 +81,7 @@ Denna kodrad förbereder din Excel-fil för redigering.
  De`Workbook` objektet är hjärtat i din Aspose.Cells funktionalitet. Den representerar din Excel-fil på ett hanterbart sätt.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 // Öppna Excel-filen genom filströmmen
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Med arbetsboken nu i minnet är det dags att komma åt det specifika kalkylblad du vill ändra. I de flesta fall kommer detta att vara det första kalkylbladet (index 0).
 
 ```csharp
-//Åtkomst till det första kalkylbladet i Excel-filen
+// Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

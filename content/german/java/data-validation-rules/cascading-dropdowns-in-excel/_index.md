@@ -97,7 +97,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ## Abschluss
 
-In diesem umfassenden Leitfaden haben wir untersucht, wie man mit Aspose.Cells für Java kaskadierende Dropdowns in Excel erstellt. Wir haben zunächst die Voraussetzungen geschaffen, die Excel-Arbeitsmappe erstellt, Daten aufgefüllt und uns dann mit den Feinheiten der Erstellung von Dropdowns und der Implementierung des dynamischen kaskadierenden Verhaltens befasst. Als Entwickler verfügen Sie nun über das Wissen und die Tools, um Ihre Excel-Dateien mit interaktiven Dropdowns zu erweitern und so ein nahtloses Benutzererlebnis zu bieten.
+In diesem umfassenden Leitfaden haben wir untersucht, wie man mit Aspose.Cells für Java kaskadierende Dropdowns in Excel erstellt. Wir haben damit begonnen, die Voraussetzungen zu schaffen, die Excel-Arbeitsmappe zu erstellen, Daten aufzufüllen und uns dann mit den Feinheiten der Erstellung von Dropdowns und der Implementierung des dynamischen kaskadierenden Verhaltens befasst. Als Entwickler verfügen Sie nun über das Wissen und die Tools, um Ihre Excel-Dateien mit interaktiven Dropdowns zu verbessern und so ein nahtloses Benutzererlebnis zu bieten.
 
 ## Häufig gestellte Fragen
 

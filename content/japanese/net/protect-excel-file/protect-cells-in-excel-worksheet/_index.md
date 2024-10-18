@@ -9,13 +9,13 @@ url: /ja/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## 導入
 
-今日のデジタル世界では、スプレッドシートでデータを安全に管理することがこれまで以上に重要になっています。機密情報を扱う場合でも、単に書式設定がそのまま維持されるようにしたい場合でも、Excel ワークシートの特定のセルを保護することは大きな変化をもたらします。幸いなことに、.NET を使用している場合、Aspose.Cells を使用すると、このプロセスが簡単になります。この記事では、Excel ワークシートのセルを保護して、データが安全かつ健全な状態を保つための簡単な手順を説明します。
+今日のデジタル世界では、スプレッドシートでデータを安全に管理することがこれまで以上に重要になっています。機密情報を扱う場合でも、単に書式設定がそのまま維持されるようにしたい場合でも、Excel ワークシートの特定のセルを保護することは大きな変化をもたらします。幸いなことに、.NET を使用している場合、Aspose.Cells を使用するとこのプロセスが簡単になります。この記事では、Excel ワークシートのセルを保護して、データが安全かつ健全な状態を保つための簡単な手順を説明します。
 
 ## 前提条件
 
-セルを保護するための細かい作業に入る前に、いくつかの前提条件を満たす必要があります。
+セルを保護するための詳細な手順に入る前に、いくつかの前提条件を満たす必要があります。
 
-1. Visual Studio: コンピューターに Visual Studio がインストールされていることを確認してください。これは、.NET 開発の主要な IDE です。
+1. Visual Studio: コンピューターに Visual Studio がインストールされていることを確認してください。これは .NET 開発の主要な IDE です。
 2.  Aspose.Cellsライブラリ: プロジェクトでAspose.Cellsライブラリが利用可能である必要があります。NuGetパッケージマネージャーを使用して簡単にインストールするか、直接ダウンロードすることができます。[Aspose.Cells サイト](https://releases.aspose.com/cells/net/).
 3. 基本的な C# の知識: C# プログラミングに少し精通していると、スムーズに理解できるようになります。
 
@@ -90,7 +90,7 @@ for (int i = 0; i <= 255; i++)
     Style style = sheet.Cells.Columns[(byte)i].Style;
     style.IsLocked = false; //列のロックを解除
     StyleFlag styleflag = new StyleFlag();
-    styleflag.Locked = true; //このスタイルをロックすることを示す
+    styleflag.Locked = true; //このスタイルをロックすることを示します
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
 }
 ```

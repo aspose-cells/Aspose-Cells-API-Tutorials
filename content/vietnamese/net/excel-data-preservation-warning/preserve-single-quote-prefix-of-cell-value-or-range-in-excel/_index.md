@@ -184,7 +184,7 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn đã h�
 ## Câu hỏi thường gặp
 
 ### Mục đích của tiền tố dấu nháy đơn trong Excel là gì?  
-Tiền tố dấu ngoặc đơn yêu cầu Excel xử lý giá trị như văn bản, đảm bảo rằng giá trị đó không được hiểu là số hoặc công thức.
+Tiền tố dấu nháy đơn yêu cầu Excel xử lý giá trị như văn bản, đảm bảo rằng giá trị đó không được hiểu là số hoặc công thức.
 
 ### Tôi có thể sử dụng Aspose.Cells trong ứng dụng web không?  
 Có! Aspose.Cells cho .NET hoạt động tốt với cả ứng dụng trên máy tính để bàn và web.

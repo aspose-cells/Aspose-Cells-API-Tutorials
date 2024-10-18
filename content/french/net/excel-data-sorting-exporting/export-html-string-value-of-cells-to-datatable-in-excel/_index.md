@@ -62,7 +62,7 @@ string sourceDir = "Your Document Directory";
 
  Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel vers votre fichier Excel.
 
-## Étape 2 : charger le fichier Excel d'exemple
+## Étape 2 : charger l’exemple de fichier Excel
 
  L'étape suivante consiste à charger le classeur Excel. Vous utiliserez le`Workbook` classe de Aspose.Cells pour faire cela. Voici comment vous pouvez charger le fichier :
 

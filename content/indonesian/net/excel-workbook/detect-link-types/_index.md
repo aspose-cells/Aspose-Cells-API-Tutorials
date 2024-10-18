@@ -9,7 +9,7 @@ url: /id/net/excel-workbook/detect-link-types/
 ---
 ## Perkenalan
 
-Pernahkah Anda benar-benar sibuk dengan spreadsheet, mengamati hyperlink yang tersebar di seluruh dokumen Excel Anda? Anda tidak sendirian! Hyperlink sangat penting untuk meningkatkan navigasi dan menggabungkan sumber daya dinamis ke dalam spreadsheet Anda. Namun, apakah Anda memahami perbedaan di antara tautan-tautan ini? Baik Anda seorang penggemar Excel pemula atau profesional berpengalaman, mengetahui cara mendeteksi dan mengkategorikan jenis tautan dapat secara signifikan menyederhanakan manajemen data Anda. Gunakan Aspose.Cells untuk .NET, pustaka canggih yang menyederhanakan pekerjaan dengan file Excel dalam aplikasi .NET. Dalam tutorial ini, kami akan memandu Anda mendeteksi jenis hyperlink menggunakan Aspose.Cells. Pada akhirnya, Anda akan dibekali dengan pengetahuan untuk menangani hyperlink secara efisien dalam dokumen Excel Anda.
+Pernahkah Anda sibuk dengan spreadsheet, mengamati hyperlink yang tersebar di seluruh dokumen Excel Anda? Anda tidak sendirian! Hyperlink sangat penting untuk meningkatkan navigasi dan menggabungkan sumber daya dinamis ke dalam spreadsheet Anda. Namun, apakah Anda memahami perbedaan di antara tautan-tautan ini? Baik Anda penggemar Excel pemula atau profesional berpengalaman, mengetahui cara mendeteksi dan mengkategorikan jenis tautan dapat secara signifikan menyederhanakan manajemen data Anda. Gunakan Aspose.Cells untuk .NET, pustaka canggih yang menyederhanakan pekerjaan dengan file Excel dalam aplikasi .NET. Dalam tutorial ini, kami akan memandu Anda mendeteksi jenis hyperlink menggunakan Aspose.Cells. Pada akhirnya, Anda akan dibekali dengan pengetahuan untuk menangani hyperlink secara efisien dalam dokumen Excel Anda.
 
 ## Prasyarat
 
@@ -63,11 +63,11 @@ Baris ini menunjuk ke direktori yang berisi file Excel. Pastikan untuk menyesuai
 Selanjutnya, kita akan memuat buku kerja kita. Ini seperti membuka berkas Excel di latar belakang, yang memungkinkan kita membaca dan memanipulasi isinya.
 
 ```csharp
-//Memuat buku kerja
+// Memuat buku kerja
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Inilah yang terjadi: kita membuat sebuah instance dari`Workbook` kelas dan meneruskan jalur file Excel kita. Jika semuanya berjalan lancar, buku kerja Anda kini siap digunakan!
+Inilah yang terjadi: kita membuat sebuah instance dari`Workbook` kelas dan meneruskan jalur file Excel kita. Jika semuanya berjalan lancar, buku kerja Anda kini siap digunakan!
 
 ## Langkah 3: Akses Lembar Kerja
 
@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Langkah 4: Buat Rentang
 
- Sekarang, kita akan menentukan rentang dalam lembar kerja. Rentang memungkinkan kita untuk menargetkan sel tertentu untuk operasi kita. Dalam hal ini, kita akan membuat rentang dari`A1` ke`A7`, yang berisi hyperlink kami.
+ Sekarang, kita akan menentukan rentang dalam lembar kerja. Rentang memungkinkan kita untuk menargetkan sel tertentu untuk operasi kita. Dalam kasus ini, kita akan membuat rentang dari`A1` ke`A7`, yang berisi hyperlink kami.
 
 ```csharp
 // Buat rentang A1:B3
@@ -96,7 +96,7 @@ Dengan rentang ini, kita dapat dengan mudah mengambil hyperlink dalam sel ini.
 Berikut bagian yang menarik: mengekstrak hyperlink! Kita akan mengekstrak hyperlink dari rentang yang telah kita tentukan.
 
 ```csharp
-// Dapatkan Hyperlink dalam jangkauan
+//Dapatkan Hyperlink dalam jangkauan
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

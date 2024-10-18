@@ -1,6 +1,6 @@
 ---
-title: การส่งออกและดึงข้อมูล Excel
-linktitle: การส่งออกและดึงข้อมูล Excel
+title: การส่งออกและการดึงข้อมูล Excel
+linktitle: การส่งออกและการดึงข้อมูล Excel
 second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
 description: สำรวจบทช่วยสอนแบบทีละขั้นตอนสำหรับการส่งออกและการดึงข้อมูล Excel โดยใช้ Aspose.Cells สำหรับ .NET เหมาะสำหรับนักพัฒนาในทุกระดับทักษะ
 type: docs

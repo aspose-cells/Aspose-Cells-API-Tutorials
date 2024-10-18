@@ -9,7 +9,7 @@ url: /pl/net/manipulating-chart-types/modify-line-chart/
 ---
 ## Wstęp
 
-Tworzenie atrakcyjnych wizualnie i informacyjnych wykresów jest niezbędne do skutecznej reprezentacji danych, szczególnie w środowisku biznesowym i akademickim. Ale jak ulepszyć wykresy liniowe, aby przekazać historię stojącą za liczbami? To właśnie tutaj wkracza Aspose.Cells dla .NET. W tym artykule zagłębimy się w używanie Aspose.Cells do bezproblemowej modyfikacji istniejącego wykresu liniowego. Omówimy wszystko, od warunków wstępnych po instrukcje krok po kroku, pomagając Ci w pełni wykorzystać Twoje wysiłki związane z wizualizacją danych. 
+Tworzenie atrakcyjnych wizualnie i informacyjnych wykresów jest niezbędne do skutecznej reprezentacji danych, szczególnie w środowisku biznesowym i akademickim. Ale jak ulepszyć wykresy liniowe, aby przekazać historię stojącą za liczbami? To właśnie tutaj wkracza Aspose.Cells dla .NET. W tym artykule zagłębimy się w używanie Aspose.Cells do bezproblemowej modyfikacji istniejącego wykresu liniowego. Omówimy wszystko, od wymagań wstępnych po instrukcje krok po kroku, pomagając Ci w pełni wykorzystać Twoje wysiłki związane z wizualizacją danych. 
 
 ## Wymagania wstępne 
 
@@ -29,7 +29,7 @@ Choć wszystko wyjaśnimy krok po kroku, podstawowa znajomość języka C# pozwo
 
 ## Importuj pakiety
 
-Aby zacząć, musimy skonfigurować nasz projekt, importując wymagane przestrzenie nazw. Oto, jak to zrobić:
+Aby rozpocząć, musimy skonfigurować nasz projekt, importując wymagane przestrzenie nazw. Oto, jak to zrobić:
 
 ### Utwórz nowy projekt w programie Visual Studio
 Otwórz Visual Studio i utwórz nowy projekt C# Console Application. Nazwij go w odpowiedni sposób, np. „LineChartModifier”.

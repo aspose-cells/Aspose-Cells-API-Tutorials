@@ -41,7 +41,7 @@ Laten we de code voor het aanmaken van een directory (als deze nog niet bestaat)
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Maak een map aan als deze nog niet bestaat.
+//Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 Hier openen we het eerste werkblad. Dit is vergelijkbaar met het openslaan van een nieuw vel papier in uw notitieboek.
 
-## Stap 4: Bereiken voor bewerking toestaan
+## Stap 4: Toestaan dat bewerkingsbereiken worden bewerkt
 
 Voordat we de bewerkbare bereiken kunnen instellen, moeten we de verzameling beveiligde bereiken uit ons werkblad ophalen.
 

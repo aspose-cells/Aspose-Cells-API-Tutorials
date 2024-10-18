@@ -21,7 +21,7 @@ Trong hướng dẫn này, bạn sẽ học cách xử lý tiền tố dấu nh�
 
 ## Chỉ định cảnh báo sắp xếp khi sắp xếp dữ liệu trong Excel
 
-Sắp xếp dữ liệu trong Excel nghe có vẻ đơn giản, đúng không? Nhưng khi liên quan đến các tập dữ liệu phức tạp, mọi thứ có thể trở nên phức tạp. Hãy tưởng tượng việc sắp xếp một loạt các ô và vô tình mất thông tin quan trọng vì một thiết lập bị bỏ qua. Đó là lúc cảnh báo sắp xếp trở nên hữu ích.
+Sắp xếp dữ liệu trong Excel nghe có vẻ đơn giản, đúng không? Nhưng khi liên quan đến các tập dữ liệu phức tạp, mọi thứ có thể trở nên phức tạp. Hãy tưởng tượng việc sắp xếp một loạt các ô và vô tình làm mất thông tin quan trọng vì một thiết lập bị bỏ qua. Đó là lúc cảnh báo sắp xếp trở nên hữu ích.
 
 Hướng dẫn này hướng dẫn bạn quy trình chỉ định cảnh báo sắp xếp bằng Aspose.Cells cho .NET. Với những cảnh báo này, bạn có thể tránh được những bất ngờ không mong muốn trong quá trình sắp xếp dữ liệu, đảm bảo không có dữ liệu nào bị đặt sai chỗ hoặc bị xóa. Tìm hiểu cách bật các cài đặt này để giúp tác vụ sắp xếp của bạn an toàn và hiệu quả hơn.
 

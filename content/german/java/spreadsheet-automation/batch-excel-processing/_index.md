@@ -93,7 +93,7 @@ Die Automatisierung der Stapelverarbeitung von Excel mit Aspose.Cells für Java 
 ### 1. Kann ich Aufgaben für verschiedene Excel-Dateiformate (z. B. XLSX, XLS) automatisieren?
    Ja, Aspose.Cells für Java unterstützt verschiedene Excel-Dateiformate.
 
-### 2. Wie kann ich eine große Anzahl von Excel-Dateien effizient verarbeiten?
+### 2. Wie kann ich eine große Anzahl an Excel-Dateien effizient verarbeiten?
    Sie können die Parallelverarbeitung oder Multithreading verwenden, um große Dateimengen effektiv zu verarbeiten.
 
 ### 3. Gibt es Lizenzanforderungen für Aspose.Cells für Java?

@@ -17,7 +17,7 @@ Antes de pular para a codificação, vamos garantir que você tenha tudo o que p
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado na sua máquina. Este é seu hub principal para todo o trabalho de desenvolvimento.
 2. Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells baixada e adicionada ao seu projeto. Você pode obtê-la facilmente do[Site Aspose](https://releases.aspose.com/cells/net/).
-3. Conhecimento básico de C#: Familiaridade com programação em C# ajudará imensamente. Se você consegue lidar com variáveis, loops e E/S de arquivo básico, você se sentirá em casa.
+3. Conhecimento básico de C#: Familiaridade com programação em C# ajudará imensamente. Se você consegue lidar com variáveis, loops e E/S de arquivo básico, você estará em casa.
 4. .NET Framework: certifique-se de que seu projeto esteja configurado com a versão apropriada do .NET Framework, pois a biblioteca foi projetada para compatibilidade com esse ecossistema.
 
 Tem tudo pronto? Incrível, vamos para a parte divertida!
@@ -54,15 +54,15 @@ Primeiro, vamos inicializar nossa Workbook e acessar a planilha desejada. É aqu
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
 -  Aqui, você está simplesmente criando um`Workbook` instância que representa seu arquivo Excel. O`Worksheet` objeto permite que você interaja com a planilha específica que deseja modificar.
 
-## Etapa 2: especificar opções de configuração de página
+## Etapa 2: especifique as opções de configuração da página
 
 Agora, vamos definir os parâmetros para ajustar sua planilha em páginas específicas. É aqui que você pode especificar quantas páginas de largura e altura seu conteúdo deve aparecer.
 
@@ -99,7 +99,7 @@ Aspose.Cells é uma biblioteca .NET robusta para gerenciar arquivos do Excel pro
 ### Posso testar o Aspose.Cells gratuitamente?
 Sim! Você pode se inscrever para um teste gratuito[aqui](https://releases.aspose.com/).
 
-### Como posso comprar o Aspose.Cells?
+### Como faço para comprar o Aspose.Cells?
  Você pode fazer sua compra[aqui](https://purchase.aspose.com/buy).
 
 ### Quais opções de suporte estão disponíveis?

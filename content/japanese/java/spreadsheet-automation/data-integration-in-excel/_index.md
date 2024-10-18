@@ -2,7 +2,7 @@
 title: Excel でのデータ統合
 linktitle: Excel でのデータ統合
 second_title: Aspose.Cells Java Excel 処理 API
-description: より優れた洞察と意思決定のために、Excel でデータを効率的に統合する方法を学びます。Aspose.Cells for Java を使用したソース コード付きのステップ バイ ステップ ガイド。
+description: より優れた洞察力と意思決定のために、Excel でデータを効率的に統合する方法を学びます。Aspose.Cells for Java を使用したソース コード付きのステップ バイ ステップ ガイド。
 type: docs
 weight: 19
 url: /ja/java/spreadsheet-automation/data-integration-in-excel/
@@ -69,7 +69,7 @@ Excel の強みは、複雑な計算を実行できることです。Aspose.Cell
 
 ## 8. 統合データのエクスポート
 
-データが統合され分析されたら、それをエクスポートする必要があります。Aspose.Cells for Java を使用すると、ワークブックをさまざまな形式で保存できます。
+データを統合して分析したら、それをエクスポートする必要があります。Aspose.Cells for Java を使用すると、ワークブックをさまざまな形式で保存できます。
 
 ```java
 //統合データをエクスポートするためのJavaコード
@@ -84,7 +84,7 @@ Aspose.Cells for Java を使用すると、Excel でのデータ統合が簡単�
 
 ### Q1: Aspose.Cells for Java は無料で使用できますか?
 
-Aspose.Cells for Java は無料試用版を提供していますが、フル機能を使用するにはライセンスが必要です。価格の詳細については、Web サイトを確認してください。
+Aspose.Cells for Java は無料試用版を提供していますが、フル機能を使用するにはライセンスが必要です。価格の詳細については、同社の Web サイトを確認してください。
 
 ### Q2: データベースのデータを Excel に統合できますか?
 

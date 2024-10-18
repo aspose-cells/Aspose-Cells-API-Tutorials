@@ -9,7 +9,7 @@ url: /id/net/manipulating-chart-types/create-custom-chart/
 ---
 ## Perkenalan
 
-Membuat bagan kustom di Excel menggunakan pustaka Aspose.Cells untuk .NET tidak hanya mudah, tetapi juga merupakan cara yang fantastis untuk memvisualisasikan data Anda secara efektif. Bagan dapat mengubah data biasa menjadi cerita yang menarik, sehingga memudahkan analis dan pembuat keputusan untuk memperoleh wawasan. Dalam tutorial ini, kami akan membahas secara mendalam cara membuat bagan kustom dalam aplikasi Anda. Jadi, jika Anda ingin meningkatkan laporan atau sekadar menambahkan gaya pada presentasi data, Anda berada di tempat yang tepat!
+Membuat bagan kustom di Excel menggunakan pustaka Aspose.Cells untuk .NET tidak hanya mudah, tetapi juga merupakan cara yang fantastis untuk memvisualisasikan data Anda secara efektif. Bagan dapat mengubah data biasa menjadi cerita yang menarik, sehingga memudahkan analis dan pembuat keputusan untuk memperoleh wawasan. Dalam tutorial ini, kami akan membahas secara mendalam cara membuat bagan kustom dalam aplikasi Anda. Jadi, jika Anda ingin meningkatkan laporan atau sekadar menambahkan gaya pada presentasi data Anda, Anda berada di tempat yang tepat!
 
 ## Prasyarat
 
@@ -18,7 +18,7 @@ Sebelum kita membahas seluk-beluk pembuatan bagan, mari pastikan Anda telah meny
 1. Visual Studio atau IDE apa pun yang kompatibel dengan .NET: Ini akan menjadi taman bermain Anda untuk menulis dan menguji kode Anda.
 2.  Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah memasang pustaka ini. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 3. Pemahaman dasar tentang C#: Akan bermanfaat bagi Anda untuk memahami konsep dasar C#, karena kami akan menggunakannya dalam contoh kode kami.
-4. Contoh kumpulan data: Untuk membuat diagram, memiliki beberapa data sangatlah penting. Kami akan menggunakan kumpulan data sederhana dalam contoh ini, tetapi Anda dapat menyesuaikannya dengan kebutuhan Anda.
+4. Contoh kumpulan data: Untuk membuat diagram, penting untuk memiliki beberapa data. Kami akan menggunakan kumpulan data sederhana dalam contoh ini, tetapi Anda dapat menyesuaikannya dengan kebutuhan Anda.
 
 ## Paket Impor
 
@@ -52,7 +52,7 @@ Sebagai ganti "Direktori Output Anda," Anda dapat menentukan jalur sebenarnya te
  Sekarang, Anda ingin memulainya dengan membuat contoh baru dari`Workbook` kelas. Ini adalah blok dasar untuk semua operasi Excel yang menggunakan Aspose.Cells.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -97,7 +97,7 @@ Sekarang kita sampai pada bagian yang menarik—menambahkan bagan yang akan seca
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 ```
 
-Pada baris ini, kita akan menambahkan diagram kolom. Anda juga dapat menggunakan jenis diagram lain seperti diagram garis, diagram pai, atau diagram batang sesuai kebutuhan.
+Pada baris ini, kita akan menambahkan diagram kolom. Anda juga dapat menggunakan jenis diagram lain seperti diagram garis, diagram pai, atau diagram batang sesuai kebutuhan Anda.
 
 ## Langkah 6: Mengakses Instansi Bagan
 

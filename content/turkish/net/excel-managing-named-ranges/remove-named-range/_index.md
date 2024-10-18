@@ -18,7 +18,7 @@ Gerçek kodlamaya geçmeden önce, yerinde olması gereken birkaç şey var:
 
 Aspose.Cells for .NET ile sorunsuz bir şekilde çalışmak için aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Visual Studio: Visual Studio'yu indirin ve kurun (Community Edition gayet iyi)[Visual Studio web sitesi](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Visual Studio'yu indirin ve kurun (Community Edition gayet iyidir)[Visual Studio web sitesi](https://visualstudio.microsoft.com/).
 2. .NET Framework: .NET Framework'ün uygun bir sürümünü kullandığınızdan emin olun. Aspose.Cells, .NET Framework 4.0 ve üzerini destekler.
 3. Aspose.Cells Kütüphanesi: Uygulamanızda Aspose.Cells for .NET kütüphanesini indirmeniz ve başvurmanız gerekir. İndirilebilir paketi bulabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 

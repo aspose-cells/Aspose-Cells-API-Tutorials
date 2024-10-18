@@ -29,7 +29,7 @@ Stellen Sie sicher, dass Sie Aspose.Cells für .NET installiert haben. Alle Deta
 
 ### Beispiel-Excel-Datei
 
-Sie benötigen eine Excel-Beispieldatei, die mindestens ein Diagramm enthält. Sie können eine Beispieldatei erstellen oder herunterladen, um sie in diesem Tutorial zu verwenden.
+Sie benötigen eine Excel-Beispieldatei, die mindestens ein Diagramm enthält. Sie können eine Beispieldatei erstellen oder eine herunterladen, um sie in diesem Tutorial zu verwenden.
 
 ## Pakete importieren
 

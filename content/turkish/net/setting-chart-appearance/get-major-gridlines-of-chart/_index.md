@@ -15,7 +15,7 @@ Görsel olarak çekici ve bilgilendirici grafikler oluşturmak, etkili veri sunu
 
 Eğitime başlamadan önce her şeyin hazır olduğundan emin olun:
 
--  .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin indirildiğinden ve referans alındığından emin olun. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+- .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin indirildiğinden ve referans alındığından emin olun. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 - Geliştirme Ortamı: Herhangi bir .NET geliştirme ortamı işe yarar, ancak sağlam desteği ve araçları nedeniyle Visual Studio şiddetle tavsiye edilir.
 - C# Temel Anlayışı: Biraz kod yazacağımız için C# programlamanın temellerine aşina olmak faydalı olacaktır.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Burada hücrelere bazı rastgele değerler giriyoruz`A1` ile`B3`. Bu veriler grafiğimiz için veri kaynağı görevi görecektir. Görselleştirmek için anlamlı verilere sahip olmak önemlidir; aksi takdirde grafik hiçbir bağlamı olmayan güzel çizgilerden ibaret olurdu!
+ Burada hücrelere bazı rastgele değerler giriyoruz`A1` ile`B3`Bu veriler grafiğimiz için veri kaynağı görevi görecektir. Görselleştirmek için anlamlı verilere sahip olmak önemlidir; aksi takdirde grafik hiçbir bağlamı olmayan güzel çizgilerden ibaret olurdu!
 
 ## Adım 5: Çalışma Sayfasına Bir Grafik Ekleyin
 
@@ -96,7 +96,7 @@ Az önce oluşturduğumuz grafiği düzenlemek isteyeceksiniz, o yüzden ona bir
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Burada daha önce kaydettiğimiz indeksi kullanarak oluşturduğumuz grafiğimize erişiyoruz. 
+Burada daha önce kaydettiğimiz indeksi kullanarak oluşturduğumuz grafiğe erişiyoruz. 
 
 ## Adım 7: Grafiğe Veri Serileri Ekleyin
 
@@ -141,7 +141,7 @@ Sonunda şaheserimizi kurtarmanın zamanı geldi!
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-Bu satır, çalışmanızı belirtilen dizinde bir Excel dosyası olarak kaydedecektir. Bunu, sanat eserinize "kaydet" tıklamak, başkalarının hayranlık duyması (veya sizin tekrar ziyaret etmeniz!) için orada olduğundan emin olmak olarak düşünün.
+Bu satır, çalışmanızı belirtilen dizinde bir Excel dosyası olarak kaydedecektir. Bunu, sanat eserinize "kaydet" düğmesine tıklamak, başkalarının hayranlık duyması (veya sizin tekrar ziyaret etmeniz!) için orada olduğundan emin olmak olarak düşünün.
 
 ## Çözüm
 

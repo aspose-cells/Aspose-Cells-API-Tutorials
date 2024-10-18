@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Mã này sẽ cho bạn quyền truy cập vào các lớp học thiết yếu như`Workbook`, `Worksheet` , Và`Range`, mà bạn sẽ cần để thao tác với các tệp Excel.
+Mã này sẽ cho bạn quyền truy cập vào các lớp học thiết yếu như`Workbook`, `Worksheet` Và`Range`, mà bạn sẽ cần để thao tác với các tệp Excel.
 
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy chia nhỏ quy trình thành các bước dễ thực hiện.
 ## Bước 1: Thiết lập thư mục đầu ra của bạn

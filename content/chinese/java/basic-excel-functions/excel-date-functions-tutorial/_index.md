@@ -18,7 +18,7 @@ Excel 拥有多种日期函数，可简化复杂的日期相关计算。这些�
 
 ### DATE 函数
 
-DATE 函数使用提供的年、月、日值构造日期。我们将演示如何将其与 Aspose.Cells for Java 一起使用。
+DATE 函数使用提供的年、月、日值构造日期。我们将演示如何将其与 Aspose.Cells for Java 结合使用。
 
 ### TODAY 函数
 
@@ -40,13 +40,13 @@ EOMONTH 返回给定日期的月份最后一天。了解如何使用 Aspose.Cell
 
 在开始编码之前，我们需要在项目中设置 Aspose.Cells for Java。请按照以下步骤开始。
 
-1. 下载并安装 Aspose.Cells：访问[Aspose.Cells for Java](https://releases.aspose.com/cells/java/)并下载最新版本。
+1. 下载并安装 Aspose.Cells：访问[Java 版 Aspose.Cells](https://releases.aspose.com/cells/java/)并下载最新版本。
 
 2. 在您的项目中包含 Aspose.Cells：将 Aspose.Cells 库添加到您的 Java 项目中。
 
 3. 许可证配置：确保您拥有有效的许可证来使用 Aspose.Cells。
 
-### 将 DATE 函数与 Aspose.Cells 结合使用
+### 在 Aspose.Cells 中使用 DATE 函数
 
 让我们从一个实际的例子开始，说明如何使用 Aspose.Cells for Java 在 Excel 中使用 DATE 函数。
 

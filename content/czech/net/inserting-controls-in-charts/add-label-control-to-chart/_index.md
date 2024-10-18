@@ -16,7 +16,7 @@ Grafy představují účinný způsob vizualizace dat a někdy může přidání
 Než se ponoříme do toho nejnutnějšího, pojďme si probrat, co potřebujete, abyste mohli začít:
 
 - Základní znalost C#: Je důležité porozumět základům programování v C#. Pokud jste začátečník, nebojte se – kroky budou jasné a stručné.
-- Knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete to udělat prostřednictvím NuGet Package Manager v sadě Visual Studio. Pokud jste tak ještě neučinili, podívejte se na[odkaz ke stažení](https://releases.aspose.com/cells/net/) pro knihovnu.
+-  Knihovna Aspose.Cells: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete to udělat prostřednictvím NuGet Package Manager v sadě Visual Studio. Pokud jste tak ještě neučinili, podívejte se na[odkaz ke stažení](https://releases.aspose.com/cells/net/) pro knihovnu.
 - Visual Studio: K psaní a spouštění kódu budete potřebovat integrované vývojové prostředí (IDE), jako je Visual Studio.
 
 ## Importujte balíčky
@@ -62,7 +62,7 @@ Dále načteme soubor Excel, který obsahuje graf, ke kterému chceme přidat po
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Zde používáme`Workbook` třídy z Aspose.Cells a otevřete náš soubor Excel. Je to jako odemknout dveře a nechat kreativitu proudit!
+ Zde používáme`Workbook`třídy z Aspose.Cells a otevřete náš soubor Excel. Je to jako odemknout dveře a nechat kreativitu proudit!
 
 ## Krok 3: Otevřete sešit
 
@@ -94,7 +94,7 @@ Nyní přichází ta vzrušující část – přidání štítku do grafu. Defi
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Zde,`AddLabelInChart` se postará o vytvoření štítku na základě vámi zadaných souřadnic a rozměrů. Je to jako připevnit krásný rám kolem vašeho uměleckého díla!
+ Zde,`AddLabelInChart`se postará o vytvoření štítku na základě vámi zadaných souřadnic a rozměrů. Je to jako připevnit krásný rám kolem vašeho uměleckého díla!
 
 ## Krok 6: Nastavte text štítku
 
@@ -149,7 +149,7 @@ A tady to máte! Úspěšně jste přidali ovládací prvek štítku do grafu po
 Ano! Můžete změnit písmo, barvu, velikost a další vlastnosti štítku podle svých potřeb.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells je placený produkt; můžete však začít s a[zkušební verze zdarma](https://releases.aspose.com/)prozkoumat jeho vlastnosti.
+ Aspose.Cells je placený produkt; můžete však začít s a[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat jeho vlastnosti.
 
 ### Co když chci přidat více štítků?
 Kroky přidávání štítků můžete opakovat tolikrát, kolikrát je potřeba, každý s různými pozicemi a texty.

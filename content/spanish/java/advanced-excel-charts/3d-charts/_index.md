@@ -14,7 +14,7 @@ Aspose.Cells para Java es una potente API de Java para trabajar con archivos de 
 
 ## ¿Qué son los gráficos 3D?
 
-Los gráficos 3D son un tipo de visualización de datos que añade profundidad a los gráficos 2D tradicionales. Ofrecen una forma más inmersiva de presentar los datos, lo que facilita la comprensión de las relaciones complejas dentro de los conjuntos de datos. Los gráficos 3D pueden ser especialmente útiles cuando se trabaja con datos multidimensionales.
+Los gráficos 3D son un tipo de visualización de datos que añade profundidad a los gráficos 2D tradicionales. Ofrecen una forma más envolvente de presentar los datos, lo que facilita la comprensión de las relaciones complejas dentro de los conjuntos de datos. Los gráficos 3D pueden ser especialmente útiles cuando se trabaja con datos multidimensionales.
 
 ## ¿Por qué utilizar Aspose.Cells para Java para crear gráficos 3D?
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Configuración del rango de datos para el gráfico
 chart.getNSeries().add("A2:B4", true);
 
-// Personalización de atributos de gráficos
+//Personalización de atributos de gráficos
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

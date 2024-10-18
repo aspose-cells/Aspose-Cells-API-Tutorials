@@ -18,9 +18,9 @@ description: Les didacticiels Aspose.Cells C# offrent des instructions étape pa
 
  Avez-vous déjà créé par accident une douzaine de feuilles de calcul pour vous rendre compte que vous devez rationaliser votre classeur ? Ne vous inquiétez pas ! Notre[Supprimer une feuille de calcul Excel par index Tutoriel C#](./delete-excel-worksheet-by-index-csharp-tutorial/) et[Supprimer une feuille de calcul Excel par nom Tutoriel C#](./delete-excel-worksheet-by-name-csharp-tutorial/) sont là pour vous sauver la mise. Nous vous expliquerons comment supprimer sans effort n'importe quelle feuille de calcul par index ou par nom, ce qui simplifie la gestion de votre classeur. Qui aurait cru que la suppression pouvait être aussi satisfaisante ?
 
-## Accéder aux feuilles de calcul comme un pro
+## Accéder aux feuilles de travail comme un pro
 
- Accéder à des feuilles de calcul spécifiques par nom ou par index peut parfois ressembler à chercher une aiguille dans une botte de foin. Mais avec notre[Obtenir une feuille de calcul Excel par nom Tutoriel C#](./get-excel-worksheet-by-name-csharp-tutorial/)vous apprendrez à identifier facilement la feuille exacte dont vous avez besoin. Ce guide améliore l'efficacité de votre code, vous permettant de travailler plus intelligemment, et non plus durement.
+ Accéder à des feuilles de calcul spécifiques par nom ou par index peut parfois donner l'impression de chercher une aiguille dans une botte de foin. Mais avec notre[Obtenir une feuille de calcul Excel par nom Tutoriel C#](./get-excel-worksheet-by-name-csharp-tutorial/)vous apprendrez à identifier facilement la feuille exacte dont vous avez besoin. Ce guide améliore l'efficacité de votre code, vous permettant de travailler plus intelligemment, et non plus durement.
 
 ## Tutoriels
 | Titre | Description |

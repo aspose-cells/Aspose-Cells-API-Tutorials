@@ -23,7 +23,7 @@ Aspose.Cells for Java を使用した高度なデータ分析の世界に飛び�
 
 ## Aspose.Cells for Java の設定
 
-まず、プロジェクトに Aspose.Cells for Java を設定することから始めましょう。準備するには、次の手順に従ってください。
+まず、プロジェクトに Aspose.Cells for Java を設定することから始めましょう。次の手順に従って準備を整えてください。
 
 1. 提供されたリンクから Aspose.Cells for Java ライブラリをダウンロードします。
 2. ライブラリを Java プロジェクトに追加します。

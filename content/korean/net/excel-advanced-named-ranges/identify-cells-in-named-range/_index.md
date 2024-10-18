@@ -21,7 +21,7 @@ url: /ko/net/excel-advanced-named-ranges/identify-cells-in-named-range/
 
 ### .NET Framework 설치 
 
-컴퓨터에 .NET Framework가 설치되어 있는지 확인하세요. Aspose.Cells는 다양한 버전과 호환되지만 항상 최신 버전을 사용하는 것이 좋습니다.
+컴퓨터에 .NET Framework가 설치되어 있는지 확인하세요. Aspose.Cells는 다양한 버전과 호환되지만 항상 최신 버전을 선호합니다.
 
 ### .NET 라이브러리용 Aspose.Cells
 
@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 이제 Excel 파일을 Workbook 개체로 로드할 시간입니다.
 
 ```csharp
-// 새로운 통합 문서를 인스턴스화합니다.
+// 새 통합 문서를 인스턴스화합니다.
 Workbook workbook = new Workbook(dataDir + "sampleIdentifyCellsInNamedRange.xlsx");
 ```
  이 줄은 Excel 파일을 나타내는 새 Workbook 인스턴스를 초기화합니다.`Workbook`모든 스프레드시트를 담은 폴더인데, 이 줄을 입력하면 그 폴더가 열립니다!
@@ -98,7 +98,7 @@ Console.WriteLine("Column Count : " + range.ColumnCount);
 
 마치 상자 안을 들여다보며 어떤 물건이 들어 있고 어떻게 정리되어 있는지 보는 것과 같습니다!
 
-## 5단계: 성공을 나타냅니다
+## 5단계: 성공 표시
 
 마지막으로, 코드가 성공적으로 실행되었는지 확인하고 싶습니다.
 
@@ -117,7 +117,7 @@ Aspose.Cells for .NET을 사용하여 명명된 범위에서 셀을 식별하는
 .NET용 Aspose.Cells는 개발자가 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환할 수 있는 강력한 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
-네! Aspose는 라이브러리의 기능을 테스트하는 데 사용할 수 있는 무료 평가판 버전을 제공합니다. 
+네! Aspose는 라이브러리의 기능을 테스트하는 데 사용할 수 있는 무료 평가판을 제공합니다. 
 
 ### Excel에서 이름이 지정된 범위를 정의하려면 어떻게 해야 하나요?
 이름이 지정된 범위를 만들려면 포함하려는 셀을 선택하고 Excel의 수식 탭으로 가서 "이름 정의"를 선택합니다.

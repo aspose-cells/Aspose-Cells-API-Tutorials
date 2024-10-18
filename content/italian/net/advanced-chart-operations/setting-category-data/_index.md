@@ -9,7 +9,7 @@ url: /it/net/advanced-chart-operations/setting-category-data/
 ---
 ## Introduzione
 
-Quando si tratta di gestire e manipolare file Excel in modo programmatico, avere gli strumenti giusti può fare la differenza. Aspose.Cells per .NET si distingue come uno di questi strumenti, consentendo agli sviluppatori di creare, modificare e convertire file Excel senza sforzo. Che tu stia creando un'applicazione di analisi dati complessa o che tu abbia semplicemente bisogno di automatizzare la generazione di report, Aspose.Cells ti copre. 
+Quando si tratta di gestire e manipolare file Excel a livello di programmazione, avere gli strumenti giusti può fare la differenza. Aspose.Cells per .NET si distingue come uno di questi strumenti, consentendo agli sviluppatori di creare, modificare e convertire file Excel senza sforzo. Che tu stia creando un'applicazione di analisi dati complessa o che tu abbia semplicemente bisogno di automatizzare la generazione di report, Aspose.Cells ti copre. 
 
 ## Prerequisiti 
 
@@ -130,7 +130,7 @@ Successivamente, aggiungerai la raccolta di serie, che definisce i dati che verr
 chart.NSeries.Add("A1:B4", true);
 ```
 
-Questa riga specifica che il grafico deve accettare i dati dagli intervalli da A1 a B4, consentendo di visualizzare tali valori.
+Questa riga specifica che il grafico deve accettare i dati dagli intervalli A1 a B4, consentendo di visualizzare tali valori.
 
 ## Passaggio 10: impostazione dei dati della categoria
 

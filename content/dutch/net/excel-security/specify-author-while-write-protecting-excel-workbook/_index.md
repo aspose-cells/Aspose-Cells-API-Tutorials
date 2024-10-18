@@ -17,7 +17,7 @@ Voordat we in de details van de implementatie duiken, is het essentieel om een s
 
 1. Visual Studio: U hebt een werkende installatie van Visual Studio nodig. Dit is waar u uw .NET-code schrijft en compileert.
 2. .NET Framework: Zorg ervoor dat u het .NET Framework hebt geïnstalleerd. Aspose.Cells ondersteunt verschillende versies, dus kies er een die bij uw toepassing past.
-3.  Aspose.Cells Library: U moet de Aspose.Cells-bibliotheek hebben. U kunt deze ophalen via de[officiële downloadpagina](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells Library: U moet de Aspose.Cells-bibliotheek hebben. U kunt deze verkrijgen via de[officiële downloadpagina](https://releases.aspose.com/cells/net/).
 4. Basiskennis van C#: Kennis van C# helpt u moeiteloos door het coderingsproces te navigeren.
 
 ## Pakketten importeren
@@ -49,7 +49,7 @@ string outputDir = "YOUR OUTPUT DIRECTORY";
 
 ## Stap 2: Maak een lege werkmap
 
-Nu we onze directory's hebben ingesteld, is de volgende stap het maken van een lege werkmap. Dit is in feite het canvas waar u uw data naartoe schrijft.
+Nu we onze directory's hebben ingesteld, is de volgende stap het maken van een lege werkmap. Dit is in feite het canvas waar u uw data op schrijft.
 
 ```csharp
 // Maak een lege werkmap.

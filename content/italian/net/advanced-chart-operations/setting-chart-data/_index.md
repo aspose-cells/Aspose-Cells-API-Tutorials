@@ -9,7 +9,7 @@ url: /it/net/advanced-chart-operations/setting-chart-data/
 ---
 ## Introduzione
 
-Quando si tratta di visualizzazione dei dati, grafici e diagrammi sono indispensabili. Ti aiutano a raccontare una storia con i tuoi dati, rendendo le informazioni complesse più facili da comprendere e interpretare. Aspose.Cells per .NET è un'eccellente libreria che ti consente di manipolare file Excel, inclusa la possibilità di creare grafici fantastici. In questo tutorial, ti guideremo attraverso il processo di impostazione dei dati del grafico senza problemi utilizzando Aspose.Cells per .NET.
+Quando si tratta di visualizzazione dei dati, grafici e diagrammi sono indispensabili. Ti aiutano a raccontare una storia con i tuoi dati, rendendo le informazioni complesse più facili da comprendere e interpretare. Aspose.Cells per .NET è un'eccellente libreria che ti consente di manipolare file Excel, inclusa la possibilità di creare fantastici grafici. In questo tutorial, ti guideremo attraverso il processo di impostazione dei dati del grafico senza problemi utilizzando Aspose.Cells per .NET.
 
 ## Prerequisiti
 
@@ -50,7 +50,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
- Qui, crei un'istanza di`Workbook` class, che è essenzialmente il tuo file Excel. Immaginalo come una tela bianca che aspetta che tu la riempia di dati e grafici. 
+ Qui, crei un'istanza di`Workbook` classe, che è essenzialmente il tuo file Excel. Immaginalo come una tela bianca che aspetta che tu la riempia di dati e grafici. 
 
 ## Passaggio 3: accedi al primo foglio di lavoro
 
@@ -75,7 +75,7 @@ worksheet.Cells["B3"].PutValue(50);
 worksheet.Cells["B4"].PutValue(40);
 ```
 
-In questo passaggio, stiamo popolando le celle con dati campione. Qui, abbiamo due serie di valori che rappresenteranno la nostra serie di grafici. È come riempire la dispensa di ingredienti prima di iniziare a cucinare: hai bisogno dei componenti giusti al loro posto!
+In questo passaggio, stiamo popolando le celle con dati campione. Qui, abbiamo due set di valori che rappresenteranno la nostra serie di grafici. È come riempire la dispensa di ingredienti prima di iniziare a cucinare: hai bisogno dei componenti giusti al loro posto!
 
 ## Passaggio 5: aggiunta di etichette di categoria
 
@@ -120,13 +120,13 @@ Con questo passaggio, stiamo informando il grafico da dove estrarre i dati. Prop
 
 ## Passaggio 9: Salvare il file Excel
 
-Hai quasi finito! Ora salviamo il tuo lavoro.
+Hai quasi finito! Ora, salviamo il tuo lavoro.
 
 ```csharp
 workbook.Save(outputDir + "outputSettingChartsData.xlsx");
 ```
 
-Con questa riga di codice, salvi la tua cartella di lavoro come file Excel. Considera questa la pennellata finale sul tuo capolavoro: è il momento di mostrare il tuo lavoro!
+Con questa riga di codice, salvi la tua cartella di lavoro come file Excel. Considerala la pennellata finale sul tuo capolavoro: è il momento di mostrare il tuo lavoro!
 
 ## Passaggio 10: messaggio di conferma
 

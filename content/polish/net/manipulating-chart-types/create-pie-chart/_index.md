@@ -9,7 +9,7 @@ url: /pl/net/manipulating-chart-types/create-pie-chart/
 ---
 ## Wstęp
 
-Tworzenie wykresów jest niezbędne do wizualnego przedstawiania danych, a wykresy kołowe są jednym z najpopularniejszych sposobów zilustrowania, w jaki sposób części składają się na całość. Dzięki Aspose.Cells dla .NET możesz łatwo zautomatyzować generowanie wykresów kołowych w plikach Excela. W tym samouczku zagłębimy się w to, jak utworzyć wykres kołowy od podstaw za pomocą Aspose.Cells dla .NET, z przewodnikiem krok po kroku, aby uczynić ten proces płynnym i prostym. Niezależnie od tego, czy jesteś nowy w tym narzędziu, czy chcesz poprawić swoje umiejętności automatyzacji programu Excel, ten przewodnik jest dla Ciebie!
+Tworzenie wykresów jest niezbędne do wizualnego przedstawiania danych, a wykresy kołowe są jednym z najpopularniejszych sposobów zilustrowania, w jaki sposób części składają się na całość. Dzięki Aspose.Cells dla .NET możesz łatwo zautomatyzować generowanie wykresów kołowych w plikach Excela. W tym samouczku zagłębimy się w to, jak utworzyć wykres kołowy od podstaw za pomocą Aspose.Cells dla .NET, z przewodnikiem krok po kroku, aby uczynić ten proces płynnym i prostym. Niezależnie od tego, czy jesteś nowy w tym narzędziu, czy chcesz poprawić swoje umiejętności automatyzacji programu Excel, ten przewodnik Cię obejmuje!
 
 ## Wymagania wstępne
 
@@ -17,7 +17,7 @@ Zanim zagłębisz się w kod, upewnij się, że masz następujące ustawienia:
 
 1.  Aspose.Cells for .NET Library: Upewnij się, że Aspose.Cells jest zainstalowany w Twoim projekcie. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
 2. Środowisko programistyczne .NET: upewnij się, że Twój projekt jest skonfigurowany do korzystania z .NET Framework lub .NET Core.
-3. Podstawowa znajomość języka C#: Powinieneś swobodnie posługiwać się programowaniem w języku C#, szczególnie programowaniem obiektowym (OOP).
+3. Podstawowa znajomość języka C#: Powinieneś znać podstawy programowania w języku C#, szczególnie programowania obiektowego (OOP).
 
 Dla zaawansowanych użytkowników, tymczasowa licencja może zostać zastosowana, aby odblokować wszystkie funkcje Aspose.Cells. Możesz poprosić o nią od[Tutaj](https://purchase.aspose.com/temporary-license/).
 

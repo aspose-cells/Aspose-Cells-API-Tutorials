@@ -1,7 +1,7 @@
 ---
 title: Trabalhando com hiperlinks no Excel
 linktitle: Trabalhando com hiperlinks no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desbloqueie a mágica dos hiperlinks no Excel com Aspose.Cells para .NET. Descubra como é simples aprimorar suas planilhas de forma eficaz.
 type: docs
 weight: 20

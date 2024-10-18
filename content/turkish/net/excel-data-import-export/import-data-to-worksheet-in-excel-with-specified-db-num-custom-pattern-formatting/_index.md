@@ -16,11 +16,11 @@ E-tablo düzenleme söz konusu olduğunda, verileri Excel'e aktarmak ve doğru �
 Ayrıntılara girmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte sizi başarıya hazırlayacak ön koşulların hızlı bir kontrol listesi:
 
 1. .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells çeşitli .NET sürümleriyle sorunsuz bir şekilde çalışır.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
 3. Entegre Geliştirme Ortamı (IDE): C# kodunuzu yazıp çalıştırabileceğiniz Visual Studio gibi bir IDE kullanın.
 4. Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak, bu kılavuzda kullanacağımız kodlama uygulamalarını takip etmenize yardımcı olacaktır.
 
-Her şey tamam mı? Harika! Gerekli paketleri içe aktarmaya geçelim.
+Her şeyi aldınız mı? Harika! Gerekli paketleri içe aktarmaya geçelim.
 
 ## Paketleri İçe Aktar
 
@@ -67,7 +67,7 @@ Daha sonra, esasen Excel dosyanız olan yeni bir çalışma kitabı oluşturacak
 Workbook wb = new Workbook();
 ```
 
-Burada yeni bir örnek oluşturuyoruz`Workbook` nesne. Bu sizin boş tuvaliniz!
+ Burada yeni bir örnek oluşturuyoruz`Workbook` nesne. Bu sizin boş tuvaliniz!
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -90,7 +90,7 @@ cell.PutValue(123);
 
 Burada doğrudan Excel ile konuşuyorsunuz; verileri doğrudan A1 hücresine koyuyorsunuz! 
 
-## Adım 5: Hücre Stili'ne erişin
+## Adım 5: Hücre Stiline Erişim
 
 Her hücrenin bir stili vardır ve nasıl görüneceğini özelleştirebilirsiniz. Özel bir biçim uygulamak için, önce hücrenin stiline erişmeniz gerekir.
 
@@ -108,7 +108,7 @@ Hücrenin stilini yakalayarak, ona kendi özgün dokunuşunuzu katmaya hazırlan
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Bu satır Excel'e sayıyı biçimlendirmesini söyler`123` Çince diline karşılık gelen DBNum desenine göre. Oldukça hoş, değil mi?
+ Bu satır Excel'e sayıyı biçimlendirmesini söyler`123` Çince diline karşılık gelen DBNum desenine göre. Oldukça hoş, değil mi?
 
 ## Adım 7: Güncellenen Hücre Stilini Ayarlayın
 

@@ -36,7 +36,7 @@ O mascaramento de dados é essencial por vários motivos:
 
 ## Introdução ao Aspose.Cells para Java
 
-Antes de aplicar técnicas de mascaramento de dados, vamos configurar nosso ambiente Java e incluir a biblioteca Aspose.Cells.
+Antes de podermos aplicar técnicas de mascaramento de dados, vamos configurar nosso ambiente Java e incluir a biblioteca Aspose.Cells.
 
 1. Baixe Aspose.Cells para Java:
 

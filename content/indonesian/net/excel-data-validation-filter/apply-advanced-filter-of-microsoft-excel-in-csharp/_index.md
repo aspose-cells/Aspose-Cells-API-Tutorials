@@ -9,17 +9,17 @@ url: /id/net/excel-data-validation-filter/apply-advanced-filter-of-microsoft-exc
 ---
 ## Perkenalan
 
-Pernahkah Anda kesulitan mencoba memfilter kumpulan data besar di Excel, tetapi ternyata alat bawaan tidak cukup untuk memenuhi kebutuhan Anda? Dalam dunia manipulasi dan analisis data, pemfilteran tingkat lanjut dapat menghemat banyak waktu dan tenaga. Jika Anda ingin menerapkannya dalam aplikasi C#, tidak perlu mencari lagi! Dalam panduan ini, kita akan membahas secara mendalam penggunaan Aspose.Cells for .NET untuk menerapkan filter tingkat lanjut pada buku kerja Excel. 
+Pernahkah Anda kesulitan mencoba memfilter kumpulan data besar di Excel, tetapi ternyata alat bawaan tidak cukup untuk memenuhi kebutuhan Anda? Dalam dunia manipulasi dan analisis data, pemfilteran tingkat lanjut dapat menghemat banyak waktu dan tenaga. Jika Anda ingin menerapkannya dalam aplikasi C#, jangan cari lagi! Dalam panduan ini, kita akan membahas secara mendalam penggunaan Aspose.Cells for .NET untuk menerapkan filter tingkat lanjut pada buku kerja Excel. 
 
 ## Prasyarat
 
-Sebelum kita memulai petualangan coding ini, mari kita pastikan kita sudah memiliki perlengkapan yang lengkap. Berikut ini adalah prasyarat yang diperlukan:
+Sebelum memulai petualangan coding ini, mari kita pastikan kita sudah memiliki perlengkapan yang lengkap. Berikut ini adalah prasyarat yang diperlukan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di situlah semua keajaiban terjadi.
 2.  Aspose.Cells untuk .NET: Anda memerlukan pustaka Aspose.Cells. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Pastikan Anda dikonfigurasi untuk bekerja dengan .NET Framework (versi 4.0 atau yang lebih baru direkomendasikan).
 4. Pengetahuan Dasar C#: Keakraban dengan C# akan membantu Anda mengikutinya dengan lebih mudah.
-5. Contoh Berkas Excel: Siapkan contoh berkas Excel untuk kami kerjakan. Jika Anda tidak memilikinya, Anda dapat membuat berkas sederhana dengan contoh data.
+5. Contoh Berkas Excel: Siapkan contoh berkas Excel untuk kami gunakan. Jika Anda tidak memilikinya, Anda dapat membuat berkas sederhana dengan contoh data.
 
 ## Paket Impor
 
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Tentukan direktori dokumen Anda
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- Pada langkah ini, kita mendeklarasikan sebuah variabel`sourceDir` yang menunjuk ke lokasi file Excel Anda. Kemudian, kami membuat contoh baru dari`Workbook`kelas untuk memuat berkas tersebut. Ini seperti membuka buku yang ingin kita baca!
+ Pada langkah ini, kita mendeklarasikan sebuah variabel`sourceDir` yang menunjuk ke lokasi file Excel Anda. Kemudian, kami membuat contoh baru dari`Workbook` kelas untuk memuat berkas tersebut. Ini seperti membuka buku yang ingin kita baca!
 
 ## Langkah 2: Akses Lembar Kerja Pertama
 
@@ -58,7 +58,7 @@ Setelah buku kerja kita dimuat, langkah berikutnya adalah mengakses lembar kerja
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Di sini, kami memanfaatkan`Worksheets` kumpulan buku kerja kita dan mengakses lembar kerja pertama (yang biasanya indeksnya 0). Langkah ini penting karena semua tindakan penyaringan akan dilakukan pada lembar ini.
+ Di sini, kami memanfaatkan`Worksheets`kumpulan buku kerja kita dan mengakses lembar kerja pertama (yang biasanya indeksnya 0). Langkah ini penting karena semua tindakan penyaringan akan dilakukan pada lembar ini.
 
 ## Langkah 3: Tentukan Parameter Filter
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Tentukan direktori keluaran And
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Terakhir, kami menentukan di mana kami ingin buku kerja yang difilter disimpan menggunakan`Save` metode. Anda dapat memberinya nama baru (dalam hal ini,`outputAdvancedFilter.xlsx`) untuk menjaga agar dokumen asli tetap utuh.
+ Terakhir, kami menentukan di mana kami ingin buku kerja yang difilter disimpan menggunakan`Save` metode. Anda dapat memberinya nama baru (dalam hal ini,`outputAdvancedFilter.xlsx`) untuk menjaga agar dokumen asli tetap utuh.
 
 ## Kesimpulan
 
@@ -100,7 +100,7 @@ Tidak, Aspose.Cells beroperasi secara independen dan tidak memerlukan Microsoft 
  Ya, Anda dapat mencoba Aspose.Cells secara gratis dengan mengunduh versi uji coba dari[Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya mendapatkan dukungan jika saya mengalami masalah?
-Tentu saja! Anda bisa mendapatkan dukungan komunitas di[Forum Aspose](https://forum.aspose.com/c/cells/9).
+ Tentu saja! Anda bisa mendapatkan dukungan komunitas di[Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Cells?
  Anda dapat meminta lisensi sementara dari halaman pembelian mereka[Di Sini](https://purchase.aspose.com/temporary-license/). 

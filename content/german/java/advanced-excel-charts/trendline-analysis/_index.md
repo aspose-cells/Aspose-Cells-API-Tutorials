@@ -2,7 +2,7 @@
 title: Trendlinienanalyse
 linktitle: Trendlinienanalyse
 second_title: Aspose.Cells Java Excel-Verarbeitungs-API
-description: Beherrschen Sie Trendlinienanalysen in Java mit Aspose.Cells. Lernen Sie mit Schritt-für-Schritt-Anleitungen und Codebeispielen, datengesteuerte Erkenntnisse zu erstellen.
+description: Beherrschen Sie die Trendlinienanalyse in Java mit Aspose.Cells. Lernen Sie mit Schritt-für-Schritt-Anleitungen und Codebeispielen, datengesteuerte Erkenntnisse zu erstellen.
 type: docs
 weight: 15
 url: /de/java/advanced-excel-charts/trendline-analysis/

@@ -75,7 +75,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Chart chart = worksheet.Charts[0];
 ```
 
-Con la hoja de trabajo recuperada, ¡nos sumergimos directamente en el acceso al gráfico! Tomamos el primer gráfico (nuevamente, índice`[0]`). Esto es como seleccionar la obra de arte que quieres embellecer. Asegúrate de que tu gráfico exista en esa hoja de trabajo, ¡o te quedarás con la cabeza llena de dudas!
+Con la hoja de trabajo recuperada, ¡nos sumergimos directamente en el acceso al gráfico! Tomamos el primer gráfico (nuevamente, índice`[0]`). Esto es como seleccionar la obra de arte que quieres embellecer. Asegúrate de que tu gráfico exista en esa hoja de trabajo, ¡o te quedarás rascándote la cabeza!
 
 ## Paso 5: Cambiar el tamaño del gráfico
 

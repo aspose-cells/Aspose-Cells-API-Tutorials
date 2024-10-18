@@ -1,15 +1,15 @@
 ---
 title: Mesclar células em um intervalo nomeado no Excel
 linktitle: Mesclar células em um intervalo nomeado no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
-description: Aprenda como mesclar células em um intervalo nomeado usando Aspose.Cells para .NET neste tutorial passo a passo. Descubra como formatar, estilizar e automatizar relatórios do Excel.
+second_title: API de processamento do Aspose.Cells .NET Excel
+description: Aprenda como mesclar células em um intervalo nomeado usando Aspose.Cells for .NET neste tutorial passo a passo. Descubra como formatar, estilizar e automatizar relatórios do Excel.
 type: docs
 weight: 11
 url: /pt/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 ## Introdução
 
-Ao trabalhar com arquivos do Excel programaticamente, uma das tarefas comuns que você pode encontrar é mesclar células dentro de um intervalo nomeado. Não importa se você está automatizando a geração de relatórios, criando painéis ou simplesmente gerenciando grandes conjuntos de dados, mesclar células é uma técnica essencial. Neste tutorial, exploraremos como mesclar células em um intervalo nomeado usando o Aspose.Cells para .NET — uma biblioteca poderosa que permite que os desenvolvedores manipulem arquivos do Excel sem precisar instalar o Microsoft Excel.
+Ao trabalhar com arquivos do Excel programaticamente, uma das tarefas comuns que você pode encontrar é mesclar células dentro de um intervalo nomeado. Não importa se você está automatizando a geração de relatórios, criando painéis ou simplesmente gerenciando grandes conjuntos de dados, mesclar células é uma técnica essencial. Neste tutorial, exploraremos como mesclar células em um intervalo nomeado usando o Aspose.Cells para .NET — uma biblioteca poderosa que permite que os desenvolvedores manipulem arquivos do Excel sem precisar do Microsoft Excel instalado.
 
 ## Pré-requisitos
 
@@ -175,5 +175,5 @@ Se houver dados nas células antes da mesclagem, os dados da primeira célula do
 ### Posso aplicar estilos diferentes a células individuais dentro de um intervalo mesclado?  
 Não, um intervalo mesclado atua como uma única célula, então você não pode aplicar estilos diferentes a células individuais dentro dele.
 
-### Como posso acessar uma célula mesclada após a mesclagem?  
+### Como faço para acessar uma célula mesclada após a mesclagem?  
 Após a mesclagem, você ainda pode acessar a célula mesclada usando as coordenadas do canto superior esquerdo.

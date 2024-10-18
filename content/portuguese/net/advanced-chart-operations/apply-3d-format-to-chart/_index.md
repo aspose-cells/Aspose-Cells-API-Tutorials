@@ -1,7 +1,7 @@
 ---
 title: Aplicar formato 3D ao gráfico
 linktitle: Aplicar formato 3D ao gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra como criar gráficos 3D impressionantes no Excel usando Aspose.Cells para .NET. Siga nosso guia passo a passo simples.
 type: docs
 weight: 10

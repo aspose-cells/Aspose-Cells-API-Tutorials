@@ -24,9 +24,9 @@ Microsoft Excel 是一款多功能工具，它的功能远不止简单的数据�
 
 ## 步骤 1：设置 Java 项目
 
-首先在您的 IDE 中创建一个新的 Java 项目，并将 Aspose.Cells for Java 库添加到您的项目依赖项中。
+首先在您的 IDE 中创建一个新的 Java 项目，并将 Aspose.Cells for Java 库添加到项目的依赖项中。
 
-## 步骤2：导入所需包
+## 第 2 步：导入所需包
 
 在您的 Java 代码中，从 Aspose.Cells 库导入必要的包：
 
@@ -92,7 +92,7 @@ workbook.save("DynamicDropdownExample.xlsx");
 
 ### 我可以将条件格式应用于具有动态下拉列表的单元格吗？
 
-是的，您可以将条件格式应用于具有动态下拉列表的单元格。 Aspose.Cells for Java 提供全面的格式化选项，允许您根据特定条件突出显示单元格。
+是的，您可以将条件格式应用于具有动态下拉列表的单元格。 Aspose.Cells for Java 提供了全面的格式化选项，允许您根据特定条件突出显示单元格。
 
 ### 是否可以创建级联下拉列表？
 

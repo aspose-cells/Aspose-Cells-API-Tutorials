@@ -16,7 +16,7 @@ Interaktiva diagram lägger till en ny dimension till datavisualisering, så att
 
 Innan vi börjar, se till att du har följande förutsättningar:
 - Java utvecklingsmiljö
-- Aspose.Cells for Java Library (Ladda ner från[här](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells for Java Library (Ladda ner från[här](https://releases.aspose.com/cells/java/)
 
 ## Steg 1: Konfigurera ditt Java-projekt
 

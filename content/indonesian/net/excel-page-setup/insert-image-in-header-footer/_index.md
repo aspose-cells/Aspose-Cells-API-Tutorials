@@ -95,7 +95,7 @@ Dengan data biner gambar yang ada, kita sekarang dapat memasukkannya ke dalam he
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Baris ini menempatkan gambar di bagian tengah header. Parameter`1`menentukan bagian header.
+ Baris ini menempatkan gambar di bagian tengah header. Parameter`1` menentukan bagian header.
 
 ## Langkah 7: Mengatur Konten Header
 
@@ -148,4 +148,4 @@ Ya, Anda dapat menyisipkan gambar terpisah ke dalam bagian berbeda di header ata
 Pastikan jalur gambar sudah benar dan berkasnya ada. Periksa juga kompatibilitas format gambar.
 
 ### Di mana saya dapat menemukan dokumentasi tambahan untuk Aspose.Cells?
-Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
+ Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).

@@ -56,7 +56,7 @@ Especifique o diretório onde seu arquivo Excel está localizado. Aqui está um 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Esta linha define o caminho para o seu diretório. Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real para onde seu`book1.xls` arquivo é salvo. É como dar ao seu código o endereço da sua casa onde o arquivo Excel está—ele precisa saber onde encontrá-lo!
+ Esta linha define o caminho para o seu diretório. Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real para onde seu`book1.xls` arquivo é salvo. É como dar ao seu código o endereço da sua casa onde o arquivo Excel está — ele precisa saber onde encontrá-lo!
 
 ## Etapa 3: Crie um fluxo de arquivos
 
@@ -130,7 +130,7 @@ Congelar painéis permite que você mantenha linhas ou colunas específicas vis�
 ### Posso congelar várias linhas e colunas de uma só vez?
  Sim, você pode congelar qualquer número de linhas e colunas especificando suas posições usando o`FreezePanes` método.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
 Aspose.Cells oferece um teste gratuito, mas você precisará comprar uma licença para uso de longo prazo. Verifique o[página de compra](https://purchase.aspose.com/buy) para mais detalhes.
 
 ### Onde posso encontrar suporte para o Aspose.Cells?

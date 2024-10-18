@@ -41,7 +41,7 @@ Lo primero que queremos hacer es definir dónde se guardarán los archivos. Este
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crear directorio si aún no está presente.
+//Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -137,7 +137,7 @@ Este comando guarda el libro de trabajo en el directorio especificado con el nom
 ## Preguntas frecuentes
 
 ### ¿Qué es Aspose.Cells para .NET?  
-Aspose.Cells para .NET es una potente biblioteca para manipular archivos de Excel mediante programación usando C#, lo que permite a los desarrolladores crear, modificar y convertir hojas de cálculo de Excel sin necesidad de Microsoft Excel.
+Aspose.Cells para .NET es una potente biblioteca para manipular archivos de Excel mediante programación utilizando C#, lo que permite a los desarrolladores crear, modificar y convertir hojas de cálculo de Excel sin necesidad de Microsoft Excel.
 
 ### ¿Cómo instalo Aspose.Cells para .NET?  
  Puede descargar Aspose.Cells para .NET desde el sitio web[aquí](https://releases.aspose.com/cells/net/). Siga las instrucciones de instalación proporcionadas.

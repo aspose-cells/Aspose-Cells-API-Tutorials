@@ -9,7 +9,7 @@ url: /zh/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 ---
 ## 介绍
 
-如果您曾经在 Excel 中创建过图表，您就会知道它们对于可视化数据非常有用。但是，如果您可以通过在图表中添加复选框来进一步增强交互性，会怎么样？虽然这听起来可能有点微妙，但使用 .NET 的 Aspose.Cells 库实际上非常简单。在本教程中，我将逐步指导您完成该过程，使其简单易懂。
+如果您曾经在 Excel 中创建过图表，那么您就会知道它们对于可视化数据非常有用。但是，如果您可以通过在图表中添加复选框来进一步增强交互性，会怎么样？虽然这听起来可能有点微妙，但使用 .NET 的 Aspose.Cells 库实际上非常简单。在本教程中，我将逐步指导您完成该过程，使其简单易懂。
 
 ## 先决条件
 
@@ -19,7 +19,7 @@ url: /zh/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 - 首先，你需要 Visual Studio。如果你还没有安装，你可以从 Microsoft 网站下载。
 
 ### Aspose.Cells 库
-- 下一个必备工具是 .NET 的 Aspose.Cells 库。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/)供下载。如果您希望先试用再购买，也可以[可免费试用](https://releases.aspose.com/).
+- 下一个必备工具是 .NET 的 Aspose.Cells 库。您可以从[Aspose 网站](https://releases.aspose.com/cells/net/)可供下载。如果您希望先试用再购买，也可以[可免费试用](https://releases.aspose.com/).
 
 ### 对 C# 有基本了解
 - 由于我们将编写一些代码，因此对 C# 有基本的了解将大有裨益。别担心，我会在过程中为您解释一切！
@@ -86,7 +86,7 @@ sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
 ```
 在此代码中，您将：
 - 向工作簿中添加新的图表表。
-- 选择图表类型。这里我们选择简单的柱状图。
+- 选择图表类型。这里我们选择一个简单的柱形图。
 - 指定图表的尺寸。
 
 将此步骤视为在将您的艺术品放入相框之前选择您想要的相框类型。
@@ -101,7 +101,7 @@ sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 
 ## 步骤 5：向图表添加复选框
 
-现在，我们开始进入最有趣的部分 — 向图表添加复选框。操作方法如下：
+现在，我们进入最有趣的部分 — 向图表添加复选框。操作方法如下：
 ```csharp
 sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 400, 400, 1000, 600);
 sheet.Charts[0].Shapes[0].Text = "CheckBox 1";
@@ -109,7 +109,7 @@ sheet.Charts[0].Shapes[0].Text = "CheckBox 1";
 在此代码中：
 - 我们指定想要添加的形状类型 — 在本例中为复选框。
 - `PlacementType.Move`意味着如果图表移动，复选框也会移动。
-- 我们还设置了图表区域内复选框的位置和大小，最后，我们设置了复选框的文本标签。
+- 我们还设置了图表区域内复选框的位置和大小，最后设置了复选框的文本标签。
 
 添加复选框就像在圣代上放一颗樱桃；它可以增强整个演示的效果！
 

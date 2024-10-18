@@ -14,7 +14,7 @@ url: /ja/java/excel-import-export/export-excel-to-xml-java/
 
 始める前に、次の前提条件を満たしていることを確認してください。
 
-- Java Development Kit (JDK) がシステムにインストールされています。
+- システムに Java 開発キット (JDK) がインストールされています。
 -  Aspose.Cells for Javaライブラリはダウンロードできます[ここ](https://releases.aspose.com/cells/java/).
 
 ## ステップ1: プロジェクトの設定
@@ -112,7 +112,7 @@ public class ExcelToXMLExporter {
    Aspose.Cells for Java は、エクスポートされた XML データ内の Excel 数式を維持し、その機能を維持します。
 
 ### 4. XML エクスポート形式をカスタマイズできますか?
-   はい、Aspose.Cells の広範な API を使用して XML エクスポート形式をカスタマイズし、特定の要件を満たすことができます。
+   はい、Aspose.Cells の広範な API を使用して、特定の要件に合わせて XML エクスポート形式をカスタマイズできます。
 
 ### 5. Aspose.Cells for Java を使用するにはライセンス要件がありますか?
    はい、実稼働環境でライブラリを使用するには、Aspose から有効なライセンスを取得する必要があります。ライセンスの詳細については、同社の Web サイトをご覧ください。

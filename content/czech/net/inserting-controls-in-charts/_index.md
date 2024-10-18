@@ -21,7 +21,7 @@ Chcete do grafů Excel přidat další kontext? Štítky mohou výrazně změnit
 
 Obrázek vydá za tisíc slov, ne? To platí i pro grafy v Excelu. S Aspose.Cells for .NET je přidávání obrázků do grafů stejně snadné jako vkládání klipartů do dokumentu aplikace Word. Obrázky mohou pomoci vytvořit vaše grafy vizuálně atraktivnějšími a zvýšit interakci s daty, která prezentujete. Ať už prezentujete finanční data nebo údaje o prodeji, přidání relevantních snímků pomáhá propojit data s příběhem.
 
-Zajímá vás, jak to funguje? Podívejte se na[Přidat obrázek do grafu](./add-picture-to-chart/) konzultace.
+ Zajímá vás, jak to funguje? Podívejte se na[Přidat obrázek do grafu](./add-picture-to-chart/) konzultace.
 
 ## Vkládání textových polí a zaškrtávacích políček
 

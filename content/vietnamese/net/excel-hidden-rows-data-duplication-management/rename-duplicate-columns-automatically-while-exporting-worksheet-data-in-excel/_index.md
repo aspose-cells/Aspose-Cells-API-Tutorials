@@ -60,7 +60,7 @@ ws.Cells["A2"].PutValue("Data");
 ws.Cells["B2"].PutValue("Data");
 ws.Cells["C2"].PutValue("Data");
 ```
-Ở đây, chúng ta sẽ điền hàng 2 bằng “Dữ liệu” cho mỗi cột. Hãy nghĩ về việc này giống như việc cho cùng một nội dung vào mỗi lọ.
+Ở đây, chúng ta điền hàng 2 bằng “Dữ liệu” cho mỗi cột. Hãy nghĩ về việc này giống như việc cho cùng một nội dung vào mỗi lọ.
 ## Bước 5: Tạo ExportTableOptions
  MỘT`ExportTableOptions`đối tượng sẽ cho phép chúng ta xác định cách xử lý quy trình xuất. Đây là nơi chúng ta chỉ định ý định xử lý tên cột trùng lặp tự động.
 ```csharp
@@ -68,14 +68,14 @@ ExportTableOptions opts = new ExportTableOptions();
 opts.ExportColumnName = true;
 opts.RenameStrategy = RenameStrategy.Letter;
 ```
- Bằng cách thiết lập`ExportColumnName` với true, chúng tôi đang chỉ ra rằng chúng tôi muốn bao gồm tên cột trong dữ liệu đã xuất của mình. Với`RenameStrategy.Letter`, chúng tôi đang cho Aspose biết cách xử lý các bản sao bằng cách thêm các chữ cái (ví dụ: People, People_1, People_2, v.v.).
-## Bước 6: Xuất dữ liệu sang DataTable
+ Bằng cách thiết lập`ExportColumnName` với true, chúng tôi đang chỉ ra rằng chúng tôi muốn bao gồm các tên cột trong dữ liệu đã xuất của mình. Với`RenameStrategy.Letter`, chúng tôi đang cho Aspose biết cách xử lý các bản sao bằng cách thêm các chữ cái (ví dụ: People, People_1, People_2, v.v.).
+## Bước 6: Xuất dữ liệu vào DataTable
  Bây giờ, chúng ta hãy thực hiện việc xuất dữ liệu thực tế bằng cách sử dụng`ExportDataTable` phương pháp:
 ```csharp
 System.Data.DataTable dataTable = ws.Cells.ExportDataTable(0, 0, 4, 3, opts);
 ```
- Dòng này xuất phạm vi được chỉ định (từ hàng 0, cột 0, đến hàng 4, cột 3) vào một`DataTable`. Đó là thời điểm chúng ta trích xuất dữ liệu thành một định dạng dễ thao tác hơn – giống như việc tập hợp những chiếc lọ có dán nhãn lại với nhau trên kệ.
-## Bước 7: In tên cột của DataTable
+ Dòng này xuất phạm vi được chỉ định (từ hàng 0, cột 0, đến hàng 4, cột 3) vào một`DataTable`. Đó là thời điểm chúng ta trích xuất dữ liệu thành một định dạng dễ thao tác hơn – giống như việc gom những chiếc lọ có dán nhãn lại với nhau trên kệ.
+## Bước 7: In Tên Cột của DataTable
 Cuối cùng, chúng ta sẽ in ra tên cột để xem Aspose xử lý các bản sao như thế nào:
 ```csharp
 for (int i = 0; i < dataTable.Columns.Count; i++)

@@ -1,6 +1,6 @@
 ---
-title: Łączenie i rozdzielanie komórek w programie Excel
-linktitle: Łączenie i rozdzielanie komórek w programie Excel
+title: Scalanie i rozdzielanie komórek w programie Excel
+linktitle: Scalanie i rozdzielanie komórek w programie Excel
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
 description: Opanuj scalanie i rozłączanie komórek w programie Excel dzięki naszym prostym samouczkom Aspose.Cells dla .NET. Podnieś swoje umiejętności arkusza kalkulacyjnego.
 type: docs

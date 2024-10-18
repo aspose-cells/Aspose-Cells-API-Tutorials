@@ -96,7 +96,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 這類似於在裝飾房間之前決定房間的外觀和感覺——在添加細節之前設置基礎。
 
-## 第 6 步：建立單元格顏色對象
+## 第 6 步：建立儲存格顏色對象
 
 接下來，我們需要定義圖表填滿區域的顏色。這就是我們如何將我們選擇的顏色帶入生活。
 

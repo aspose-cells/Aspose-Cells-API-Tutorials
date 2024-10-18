@@ -2,14 +2,14 @@
 title: Excel Yazdırma Alanını Ayarla
 linktitle: Excel Yazdırma Alanını Ayarla
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak bir Excel sayfasında yazdırma alanının nasıl ayarlanacağını öğrenin. Yazdırma görevlerinizi kolaylaştırmak için adım adım kılavuzumuzu izleyin.
+description: Aspose.Cells for .NET kullanarak bir Excel sayfasındaki yazdırma alanını nasıl ayarlayacağınızı öğrenin. Yazdırma görevlerinizi kolaylaştırmak için adım adım kılavuzumuzu izleyin.
 type: docs
 weight: 140
 url: /tr/net/excel-page-setup/set-excel-print-area/
 ---
 ## giriiş
 
-Excel dosyalarını programatik olarak yönetmeye gelince, birçok geliştirici süreci basitleştiren kütüphanelere yönelir. .NET ekosistemindeki bu tür güçlü araçlardan biri Aspose.Cells'dir. Bu kütüphane, elektronik tablo düzenleme için tasarlanmıştır ve Excel dosyalarını kolayca oluşturma, değiştirme ve yönetme olanağı sağlar. Bugün, belirli bir göreve dalacağız: Excel sayfasındaki yazdırma alanını ayarlama. Excel'de yazdırma ayarlarıyla boğuştuysanız, bu işlevselliğin ne kadar önemli olabileceğini biliyorsunuzdur. O halde kollarımızı sıvayalım ve başlayalım!
+Excel dosyalarını programatik olarak yönetmeye gelince, birçok geliştirici süreci basitleştiren kütüphanelere yönelir. .NET ekosistemindeki bu tür güçlü araçlardan biri Aspose.Cells'dir. Bu kütüphane, elektronik tablo düzenleme için tasarlanmıştır ve Excel dosyalarını kolayca oluşturma, değiştirme ve yönetme olanağı sağlar. Bugün, belirli bir göreve dalacağız: Excel sayfasındaki yazdırma alanını ayarlama. Excel'deki yazdırma ayarlarıyla boğuştuysanız, bu işlevselliğin ne kadar önemli olabileceğini biliyorsunuzdur. O halde kollarımızı sıvayalım ve başlayalım!
 
 ## Ön koşullar
 
@@ -24,7 +24,7 @@ Bu ön koşulları sağladığınızda, Excel'i kullanma dünyasına atılmaya h
 
 ## Paketleri İçe Aktar
 
-C# projenizde Aspose.Cells'i kullanmaya başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Bu, bir seyahat için çantalarınızı toplamaya benzer; her şeye hazır olmak için tüm temel öğeleri toplayın. Kod dosyanızın en üstüne şunları eklemeniz gerekir:
+C# projenizde Aspose.Cells'i kullanmaya başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Bu, bir seyahat için çantalarınızı toplamaya benzer; her şeye hazır olmak için tüm temel öğeleri toplayın. Kod dosyanızın en üstüne eklemeniz gerekenler şunlardır:
 
 ```csharp
 using Aspose.Cells;
@@ -51,13 +51,13 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Çalışma Kitabı sınıfının bir örneğini oluşturun.
 
- Şimdi Excel çalışma kitabınızın tam planını oluşturmanın zamanı geldi. Bunu bir örnek oluşturarak yapacaksınız`Workbook` nesne. Bu adım tüm sihrin başladığı yerdir:
+ Şimdi Excel çalışma kitabınızın tam planını oluşturma zamanı. Bunu bir örnek oluşturarak yapacaksınız`Workbook` nesne. Bu adım tüm sihrin başladığı yerdir:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Şunu düşünün:`Workbook` tuvaliniz kadar kaliteli. Eklediğiniz her ayrıntı nihai tabloya yansıyacak—Excel dosyanız!
+ Şunu düşünün:`Workbook` tuvaliniz kadar sınıf. Eklediğiniz her ayrıntı nihai tabloya yansıyacak—Excel dosyanız!
 
 ## Adım 3: PageSetup'a erişin
 
@@ -75,7 +75,7 @@ Bu adım paletinizi açıp çalışmak istediğiniz renkleri seçmeye benzer. Pa
 
 Hücre aralığını kullanarak yazdırma alanını ayarlayın.
 
-Şimdi meselenin özüne geliyoruz: Sayfanızın hangi kısmını yazdıracağınızı tanımlama. Diyelim ki A1 hücresinden T35'e kadar her şeyi yazdırmak istiyorsunuz. Bunu şu şekilde ayarlayacaksınız:
+Şimdi meselenin özüne geliyoruz: Sayfanızın hangi kısmının yazdırılacağını tanımlama. Diyelim ki A1 hücresinden T35'e kadar her şeyi yazdırmak istiyorsunuz. Bunu şu şekilde ayarlayacaksınız:
 
 ```csharp
 pageSetup.PrintArea = "A1:T35";

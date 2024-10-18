@@ -35,7 +35,7 @@ Dòng mã đơn giản này cho phép bạn truy cập vào mọi thứ bạn c�
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
-Trước khi chúng ta có thể thao tác với bất kỳ tệp Excel nào, chúng ta cần xác định đường dẫn lưu trữ tệp của bạn. Điều này rất quan trọng vì ứng dụng cần biết nơi tìm và lưu tài liệu.
+Trước khi chúng ta có thể thao tác với bất kỳ tệp Excel nào, chúng ta cần xác định đường dẫn nơi tệp của bạn được lưu trữ. Điều này rất quan trọng vì ứng dụng cần biết nơi tìm và lưu tài liệu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -61,7 +61,7 @@ Trong Excel, các tab ở phía dưới (Sheet1, Sheet2, v.v.) có thể đượ
 workbook.Settings.ShowTabs = true;
 ```
 
- Cài đặt`ShowTabs` ĐẾN`true`sẽ đảm bảo các tab hiển thị khi bạn mở tệp Excel.
+ Cài đặt`ShowTabs` ĐẾN`true` sẽ đảm bảo các tab hiển thị khi bạn mở tệp Excel.
 
 ## Bước 4: Lưu tệp Excel đã sửa đổi
 
@@ -80,16 +80,16 @@ Và bạn đã có nó! Bạn đã hiển thị thành công các tab trong bả
 ## Câu hỏi thường gặp
 
 ### Tôi có thể ẩn các tab trong Excel bằng Aspose.Cells cho .NET không?
- Chắc chắn rồi! Chỉ cần thiết lập`workbook.Settings.ShowTabs = false;`và lưu tệp. Thao tác này sẽ ẩn các tab khi mở sổ làm việc.
+ Chắc chắn rồi! Chỉ cần thiết lập`workbook.Settings.ShowTabs = false;` và lưu tệp. Thao tác này sẽ ẩn các tab khi mở sổ làm việc.
 
 ### Aspose.Cells có hỗ trợ các tính năng khác của Excel như biểu đồ và bảng tổng hợp không?
 Có, Aspose.Cells là một thư viện toàn diện hỗ trợ hầu hết các tính năng của Excel, bao gồm biểu đồ, bảng tổng hợp, công thức, v.v.
 
 ### Tôi có cần cài đặt Microsoft Excel trên máy của mình để sử dụng Aspose.Cells không?
-Không, Aspose.Cells không yêu cầu Microsoft Excel hoặc bất kỳ phần mềm nào khác. Nó hoạt động độc lập, đây là một trong những lợi thế lớn nhất của nó.
+Không, Aspose.Cells không yêu cầu Microsoft Excel hoặc bất kỳ phần mềm nào khác. Nó hoạt động độc lập, đó là một trong những lợi thế lớn nhất của nó.
 
 ### Tôi có thể chuyển đổi tệp Excel sang các định dạng khác bằng Aspose.Cells không?
 Có, Aspose.Cells hỗ trợ chuyển đổi các tệp Excel sang nhiều định dạng khác nhau như PDF, HTML, CSV, v.v.
 
 ### Có bản dùng thử miễn phí Aspose.Cells không?
- Vâng, bạn có thể tải xuống[dùng thử miễn phí tại đây](https://releases.aspose.com/) để khám phá đầy đủ các tính năng của Aspose.Cells trước khi mua.
+ Có, bạn có thể tải xuống[dùng thử miễn phí tại đây](https://releases.aspose.com/) để khám phá đầy đủ các tính năng của Aspose.Cells trước khi mua.

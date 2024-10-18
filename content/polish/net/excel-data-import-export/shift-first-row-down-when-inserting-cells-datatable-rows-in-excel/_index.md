@@ -127,7 +127,7 @@ public static void Run()
 
 ## Krok 5: Ustaw opcje importu
 
- Aby kontrolować zachowanie importu, należy utworzyć wystąpienie`ImportTableOptions` i odpowiednio ustaw właściwości. Konkretnie chcemy ustawić`ShiftFirstRowDown` Do`false`.
+ Aby kontrolować zachowanie importu, należy utworzyć wystąpienie`ImportTableOptions` i odpowiednio ustawić właściwości. Konkretnie chcemy ustawić`ShiftFirstRowDown` Do`false`.
 
 ```csharp
     ImportTableOptions opts = new ImportTableOptions();

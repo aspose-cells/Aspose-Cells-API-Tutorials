@@ -17,8 +17,8 @@ url: /ko/net/advanced-chart-operations/apply-3d-format-to-chart/
 
 ### 소프트웨어 요구 사항
 
-- Visual Studio: .NET 애플리케이션 작업을 위해 Visual Studio가 설치되어 있는지 확인하세요.
--  .NET용 Aspose.Cells: 아직 설치하지 않았다면 Aspose.Cells를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/cells/net/).
+- Visual Studio: .NET 애플리케이션을 사용하려면 Visual Studio가 설치되어 있는지 확인하세요.
+-  .NET용 Aspose.Cells: 아직 다운로드하지 않았다면 Aspose.Cells를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/cells/net/).
 
 ### 코딩 환경 설정
 
@@ -57,7 +57,7 @@ using Aspose.Cells.Charts;
 string outputDir = "Your Document Directory";
 Workbook book = new Workbook();
 ```
- 이것을 생각해 보세요`Workbook` 빈 캔버스처럼—다채로운 데이터와 인상적인 시각화로 채울 수 있도록 준비되어 있습니다.
+ 이것을 생각해 보세요`Workbook` 빈 캔버스처럼—다채로운 데이터와 인상적인 시각화로 채울 수 있습니다.
 
 ## 2단계: 첫 번째 워크시트 이름 바꾸기
 
@@ -93,7 +93,7 @@ dataSheet.Cells["A3"].PutValue("C");
 Worksheet sheet = book.Worksheets.Add("MyChart");
 ```
 
-이 워크시트를 귀하의 데이터 성과가 전개되는 무대로 생각해 보세요.
+이 워크시트를 귀하의 무대로 생각해보세요. 귀하의 데이터 성과가 펼쳐지는 곳입니다.
 
 ## 5단계: 차트 추가
 
@@ -142,7 +142,7 @@ ShapePropertyCollection spPr = ser.ShapeProperties;
 Format3D fmt3d = spPr.Format3D;
 ```
 
-우리는 요리에 약간의 맛을 더할 준비를 하고 있습니다. 전반적인 풍미를 향상시키는 양념이라고 생각하시면 됩니다.
+우리는 요리에 약간의 풍미를 더할 준비를 하고 있습니다. 전반적인 풍미를 향상시키는 양념이라고 생각하시면 됩니다.
 
 ## 9단계: 3D 베벨 효과 적용
 
@@ -194,7 +194,7 @@ Console.WriteLine("Applying3DFormat executed successfully.");
 
 ## 결론
 
-축하합니다! Aspose.Cells for .NET을 사용하여 시각적으로 매력적인 3D 차트를 성공적으로 만들었습니다. 이러한 단계를 따르면 이제 데이터 프레젠테이션을 강화하여 정보를 제공할 뿐만 아니라 시각적으로 매력적으로 만들 수 있는 강력한 도구가 생깁니다. 차트를 다듬을 때 각 시각화가 스토리라는 점을 기억하세요. 매력적이고 명확하며 강렬하게 만들어 보세요!
+축하합니다! Aspose.Cells for .NET을 사용하여 시각적으로 매력적인 3D 차트를 성공적으로 만들었습니다. 이러한 단계를 따르면 이제 데이터 프레젠테이션을 강화하여 정보적일 뿐만 아니라 시각적으로 매력적으로 만들 수 있는 강력한 도구가 생깁니다. 차트를 다듬을 때 각 시각화가 스토리라는 점을 기억하세요. 매력적이고 명확하며 영향력 있게 만들어 보세요!
 
 ## 자주 묻는 질문
 
@@ -211,4 +211,4 @@ Console.WriteLine("Applying3DFormat executed successfully.");
 네, 그림자, 그라데이션, 다양한 스타일 등 다양한 효과를 적용해 차트를 3D 이상으로 향상시킬 수 있습니다.
 
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?
- 지원을 받으려면 다음을 방문하세요.[애스포지 포럼](https://forum.aspose.com/c/cells/9) 지역사회에 대한 지원과 도움을 요청합니다.
+ 지원을 받으려면 다음을 방문하세요.[Aspose 포럼](https://forum.aspose.com/c/cells/9) 지역사회에 대한 지원과 도움을 요청합니다.

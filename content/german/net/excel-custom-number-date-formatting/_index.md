@@ -21,7 +21,7 @@ In unserem Tutorial erfahren Sie, wie Sie einen einfachen Codeausschnitt impleme
 
 Lassen Sie uns nun über Datenimporte sprechen. Das Verschieben von Daten in Excel kann sich manchmal wie der Versuch anfühlen, ein Puzzle zu lösen, bei dem einige Teile fehlen. Keine Angst! Mit Aspose.Cells ist das Importieren von Daten unter Angabe von Formelfeldern ein Kinderspiel.
 
-In diesem Tutorial lernen Sie, wie Sie Ihre Datensätze importieren und dabei die Integrität der Formelfelder wahren. Stellen Sie sich vor: Sie haben Finanzprognosen in einer CSV-Datei und müssen diese in Excel importieren, ohne die wichtigen Formeln zu verlieren. Wir zeigen Ihnen anhand klarer Beispiele und bewährter Methoden, wie Sie genau das tun, damit Ihre Daten intakt und nutzbar sind.[Mehr lesen](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
+In diesem Tutorial lernen Sie, wie Sie Ihre Datensätze importieren und dabei die Integrität der Formelfelder beibehalten. Stellen Sie sich vor: Sie haben Finanzprognosen in einer CSV-Datei und müssen diese in Excel importieren, ohne die wichtigen Formeln zu verlieren. Wir zeigen Ihnen anhand klarer Beispiele und bewährter Methoden, wie Sie genau das tun, damit Ihre Daten intakt und nutzbar sind.[Mehr lesen](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
 ## Tutorials zur benutzerdefinierten Zahlen- und Datumsformatierung in Excel
 ### [Überprüfen, ob ein Zellenwert ein bestimmtes benutzerdefiniertes Zahlenformat aufweist](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)

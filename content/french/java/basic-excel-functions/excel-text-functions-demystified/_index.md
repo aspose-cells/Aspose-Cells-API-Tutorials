@@ -18,7 +18,7 @@ Dans ce didacticiel, nous allons nous plonger dans le monde de la manipulation d
 
 ## CONCATENER - Combinaison de texte
 
- Le`CONCATENATE`La fonction permet de fusionner du texte provenant de différentes cellules. Voyons comment procéder avec Aspose.Cells pour Java :
+ Le`CONCATENATE`La fonction vous permet de fusionner du texte provenant de différentes cellules. Voyons comment procéder avec Aspose.Cells pour Java :
 
 ```java
 // Code Java pour concaténer du texte à l'aide d'Aspose.Cells

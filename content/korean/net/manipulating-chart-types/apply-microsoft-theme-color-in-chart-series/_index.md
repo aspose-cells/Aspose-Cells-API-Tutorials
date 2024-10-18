@@ -24,7 +24,7 @@ url: /ko/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 
 ## 패키지 가져오기
 
-우선, 우리는 C# 프로젝트에 필요한 라이브러리를 가져와야 합니다. 이를 수행하는 방법은 다음과 같습니다.
+우선, 우리는 C# 프로젝트에 필요한 라이브러리를 가져와야 합니다. 다음은 그 방법입니다.
 
 ```csharp
 using System;
@@ -40,7 +40,7 @@ using Aspose.Cells.Charts;
 
 ## 1단계: 출력 및 소스 디렉토리 정의
 
-가장 먼저 해야 할 일은 출력 파일이 어디에 저장될지, 샘플 파일이 어디에 저장될지 지정하는 것입니다. 여행을 떠나기 전에 목적지를 설정하는 것으로 생각하세요.
+가장 먼저 해야 할 일은 출력 파일이 들어갈 곳과 샘플 파일이 있는 곳을 지정하는 것입니다. 여행을 떠나기 전에 목적지를 설정하는 것으로 생각하세요.
 
 ```csharp
 // 출력 디렉토리
@@ -65,7 +65,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleMicrosoftThemeColorInChartSe
 
 ## 3단계: 워크시트에 액세스
 
-통합 문서를 열었다면 특정 워크시트로 이동하고 싶을 것입니다. 많은 경우 차트는 첫 번째 또는 특정 시트에 있습니다.
+통합 문서를 열었다면 특정 워크시트로 이동하고 싶을 것입니다. 많은 경우 차트는 첫 번째 또는 특정 시트에 있을 것입니다.
 
 ```csharp
 // 첫 번째 워크시트를 받으세요
@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 이제 수정하고 싶은 차트를 찾을 시간입니다. 여기서 마법이 진짜로 시작됩니다!
 
 ```csharp
-//시트의 첫 번째 차트를 가져옵니다
+// 시트의 첫 번째 차트를 가져옵니다
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
  이제 Microsoft 테마 색상을 적용해 보겠습니다.`Accent` 스타일이 중요하죠. 누가 컬러풀한 걸 좋아하지 않겠어요?
 
 ```csharp
-//Accent 스타일로 테마 만들기
+// Accent 스타일로 테마 만들기
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -134,7 +134,7 @@ chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 마침내 모든 기초 작업을 마쳤고, 이제 작업을 저장해야 합니다. 이것은 한 걸음 물러나 아름답게 장식된 방을 감상하는 것으로 생각하세요.
 
 ```csharp
-// Excel 파일을 저장합니다
+// Excel 파일을 저장하세요
 workbook.Save(outputDir + "outputMicrosoftThemeColorInChartSeries.xlsx");
 ```
 

@@ -51,7 +51,7 @@ public class ChartTemplateExample {
 
 ### Passaggio 3: aggiunta di dati
 
-Prima di creare un grafico, hai bisogno di dati. Puoi importare dati da una fonte esistente o generarli a livello di programmazione. Per questo esempio, genereremo dati campione:
+Prima di creare un grafico, hai bisogno di dati. Puoi importare dati da una fonte esistente o generarli programmaticamente. Per questo esempio, genereremo dati campione:
 
 ```java
 // Aggiungere dati a un foglio di lavoro

@@ -15,7 +15,7 @@ Quando lavori su file Excel, potresti trovarti in situazioni in cui devi preserv
 
 Prima di intraprendere questo viaggio di programmazione, assicuriamoci di avere tutto ciò di cui hai bisogno:
 
-1. Visual Studio: per eseguire il codice .NET sarà necessario un ambiente di sviluppo.
+1. Visual Studio: per eseguire il codice .NET avrai bisogno di un ambiente di sviluppo.
 2.  Aspose.Cells per .NET: assicurati di aver scaricato questa libreria e di averla referenziata nel tuo progetto. Puoi prendere l'ultima versione da[Link per scaricare](https://releases.aspose.com/cells/net/).
 3. Nozioni di base sulla programmazione C#: è utile conoscere C#, soprattutto se si prevede di modificare il codice.
 4. Un sistema operativo Windows: poiché Aspose.Cells è principalmente incentrato su Windows, averlo installato renderà le cose più fluide.
@@ -24,7 +24,7 @@ Ora che abbiamo la nostra checklist, passiamo alla parte divertente: la codifica
 
 ## Importa pacchetti
 
-Per dare il via alle cose, dobbiamo importare i pacchetti necessari nel nostro progetto C#. Ecco il pacchetto che dovresti tenere d'occhio:
+Per dare il via alle cose, dobbiamo importare i pacchetti necessari nel nostro progetto C#. Ecco il pacchetto che dovresti cercare:
 
 ```csharp
 using System;
@@ -56,7 +56,7 @@ Workbook wb = new Workbook();
 
 ## Passaggio 2: accedi al foglio di lavoro
 
-Poi, mettiamo le mani sul primo foglio di lavoro del quaderno di lavoro. È qui che avrà luogo la nostra azione.
+Poi, mettiamo le mani sul primo foglio di lavoro del workbook. È qui che avrà luogo la nostra azione.
 
 ```csharp
 // Accedi al primo foglio di lavoro
@@ -93,12 +93,12 @@ Console.WriteLine("Quote Prefix of Cell A1: " + st.QuotePrefix);
 
 Qui, accediamo alle informazioni di stile per la cella. Inizialmente, il prefisso delle virgolette dovrebbe essere falso, poiché non c'è una virgoletta singola.
 
-## Passaggio 5: aggiungere un prefisso con virgoletta singola
+## Passaggio 5: aggiungere un prefisso con virgolette singole
 
 Ora proviamo a sperimentare inserendo un singolo apice nel valore della cella.
 
 ```csharp
-// Inserisci del testo nella cella, all'inizio deve esserci una virgoletta singola
+// Inserisci del testo nella cella, deve avere una virgoletta singola all'inizio
 cell.PutValue("'Text");
 
 // Stile di accesso della cella A1
@@ -183,7 +183,7 @@ Ed ecco fatto! Seguendo questi passaggi, hai imparato come preservare il prefiss
 
 ## Domande frequenti
 
-### A cosa serve il prefisso apice singolo in Excel?  
+### Qual è lo scopo del prefisso apice singolo in Excel?  
 Il prefisso con virgolette singole indica a Excel di trattare il valore come testo, il che garantisce che non venga interpretato come un numero o una formula.
 
 ### Posso usare Aspose.Cells nelle applicazioni web?  

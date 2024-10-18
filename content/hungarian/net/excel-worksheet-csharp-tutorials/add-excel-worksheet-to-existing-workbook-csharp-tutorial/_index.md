@@ -20,7 +20,7 @@ Mielőtt belevágnánk a kódba, győződjünk meg arról, hogy minden megvan, a
 3. A C# alapvető ismerete: A C# programozási nyelv ismerete segít a könnyebb követésben. Ne aggódj; lépésről lépésre végigvezetjük a folyamatokon!
 4. Dokumentumok könyvtára: Győződjön meg arról, hogy van egy mappa a számítógépén, ahol tárolhatja az oktatóanyag Excel-fájljait. 
 
-Megvan minden a listán? Nagy! Most importáljuk a szükséges csomagokat.
+Minden megvan a listán? Nagy! Most importáljuk a szükséges csomagokat.
 
 ## Csomagok importálása
 
@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Ezután létre kell hoznunk a Workbook osztály egy példányát, amely az Excel fájlunkat fogja tárolni.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 // Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Ha létrehozunk egy munkafüzet-példányt a fájlfolyamunkból, mostantól kód
 
 ## 4. lépés: Új munkalap hozzáadása
 
-Itt jön az izgalmas rész! Adjunk hozzá egy új munkalapot a munkafüzetünkhöz. Ez a`Add()` módszer a`Worksheets`gyűjtemény.
+ Itt jön az izgalmas rész! Adjunk hozzá egy új munkalapot a munkafüzetünkhöz. Ez a`Add()` módszer a`Worksheets`gyűjtemény.
 
 ```csharp
 // Új munkalap hozzáadása a munkafüzet objektumhoz
 int i = workbook.Worksheets.Add();
 ```
 
- Ezzel a kódsorral egy új lapot adunk hozzá, és ennek az új lapnak az indexe rögzítésre kerül a változóban`i`.
+Ezzel a kódsorral egy új lapot adunk hozzá, és ennek az új lapnak az indexe rögzítésre kerül a változóban`i`.
 
 ## 5. lépés: Szerezzen hivatkozást az újonnan hozzáadott munkalapra
 
@@ -102,14 +102,14 @@ worksheet.Name = "My Worksheet";
 
 ## 7. lépés: Mentse el az Excel fájlt
 
-módosítások befejeztével ideje elmenteni munkafüzetünket. Ez a lépés végrehajtja az összes változtatásunkat, és lehetővé teszi számunkra, hogy a jövőben az újonnan létrehozott munkalapot használjuk.
+A módosítások befejeztével ideje elmenteni munkafüzetünket. Ez a lépés végrehajtja az összes változtatásunkat, és lehetővé teszi számunkra, hogy a jövőben az újonnan létrehozott munkalapot használjuk.
 
 ```csharp
 // Az Excel fájl mentése
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Itt a munkafüzetünket másként mentjük`output.out.xls`. Ezt a fájlt bárminek elnevezheti; csak győződjön meg arról, hogy a megfelelő könyvtárba menti.
+ Itt mentjük a munkafüzetünket másként`output.out.xls`Ezt a fájlt bárminek elnevezheti; csak győződjön meg arról, hogy a megfelelő könyvtárba menti.
 
 ## 8. lépés: Zárja be a Fájlfolyamot
 

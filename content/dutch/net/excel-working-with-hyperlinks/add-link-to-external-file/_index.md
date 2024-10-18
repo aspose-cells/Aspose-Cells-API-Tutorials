@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Stap 2: Een werkmapobject maken
 Vervolgens maken we een nieuwe Excel-werkmap. Dit is uw lege canvas waar u functionaliteiten kunt toevoegen.
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
  Denk aan de`Workbook` als een nieuw notitieboek waar je alles in kunt schrijven wat je nodig hebt. Het is nu leeg, klaar voor jouw input!

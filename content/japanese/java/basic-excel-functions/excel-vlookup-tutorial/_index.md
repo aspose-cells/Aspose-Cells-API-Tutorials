@@ -89,11 +89,11 @@ if (cell != null) {
 
 ### Aspose.Cells for Java を他のプログラミング言語で使用できますか?
 
-Aspose.Cells for Java は、Java 開発者向けに特別に設計されています。ただし、Aspose は他のプログラミング言語用のライブラリも提供しています。詳細については、必ず Web サイトを確認してください。
+Aspose.Cells for Java は、Java 開発者向けに特別に設計されています。ただし、Aspose は他のプログラミング言語用のライブラリも提供しています。詳細については、同社の Web サイトを確認してください。
 
 ### Aspose.Cells for Java は無料で使用できますか?
 
-Aspose.Cells for Java は無料のライブラリではなく、商用利用には有効なライセンスが必要です。価格の詳細とライセンス情報については、Aspose Web サイトでご確認ください。
+Aspose.Cells for Java は無料のライブラリではなく、商用利用には有効なライセンスが必要です。価格の詳細とライセンス情報については、Aspose Web サイトをご覧ください。
 
 ### Excel の VLOOKUP に代わるものはありますか?
 

@@ -96,7 +96,7 @@ Aspose.Cells for Java로 일괄 Excel 처리를 자동화하면 여러 Excel 파
 ### 2. 많은 수의 Excel 파일을 효율적으로 처리하려면 어떻게 해야 합니까?
    병렬 처리나 멀티스레딩을 사용하면 대량의 파일을 효과적으로 처리할 수 있습니다.
 
-### 3. Aspose.Cells for Java에 대한 라이선스 요구 사항은 있습니까?
+### 3. Aspose.Cells for Java에 대한 라이선스 요구 사항은 있나요?
    네, 프로젝트에서 Aspose.Cells for Java를 사용하려면 유효한 라이선스가 필요합니다.
 
 ### 4. Aspose.Cells for Java에 대한 추가 리소스와 문서는 어디에서 찾을 수 있나요?

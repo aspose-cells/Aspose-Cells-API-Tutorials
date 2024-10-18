@@ -9,11 +9,11 @@ url: /id/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-cs
 ---
 ## Perkenalan
 
-Excel telah menjadi bagian tak terpisahkan dari kehidupan kerja kita, bukan? Kita sering mendapati diri kita menggunakan banyak lembar kerja, sehingga mudah tersesat dalam data. Namun, apa yang Anda lakukan saat Anda perlu membersihkannya? Jika Anda ingin menghapus lembar kerja dalam file Excel berdasarkan indeksnya menggunakan C#, Aspose.Cells membuat tugas ini sangat sederhana dan efisien. Dalam tutorial ini, saya akan memandu Anda melalui setiap langkah yang perlu diikuti, jadi jangan khawatir; meskipun Anda benar-benar pemula, Anda akan dapat menghapus lembar kerja itu dalam waktu singkat!
+Excel telah menjadi bagian tak terpisahkan dari kehidupan kerja kita, bukan? Kita sering mendapati diri kita bekerja dengan beberapa lembar kerja, sehingga mudah tersesat dalam data. Namun, apa yang Anda lakukan saat Anda perlu membersihkan semuanya? Jika Anda ingin menghapus lembar kerja dalam file Excel berdasarkan indeksnya menggunakan C#, Aspose.Cells membuat tugas ini sangat sederhana dan efisien. Dalam tutorial ini, saya akan memandu Anda melalui setiap langkah yang perlu diikuti, jadi jangan khawatir; meskipun Anda benar-benar pemula, Anda akan dapat menghapus lembar kerja itu dalam waktu singkat!
 
 ## Prasyarat
 
-Sebelum mulai menulis kode, pastikan Anda sudah menyiapkan semuanya. Berikut ini yang Anda perlukan:
+Sebelum mulai menggunakan kode, pastikan Anda sudah menyiapkan semuanya. Berikut ini yang Anda perlukan:
 
 1. Pengetahuan Dasar C#: Anda harus merasa nyaman menulis program C# dasar. Jika Anda dapat membuat dan menjalankan aplikasi C# sederhana, Anda sudah siap!
 2.  Pustaka Aspose.Cells: Ini adalah alat utama kami. Anda perlu mengunduh dan menginstal pustaka Aspose.Cells untuk .NET. Anda dapat menemukan berkas yang diperlukan[Di Sini](https://releases.aspose.com/cells/net/). 
@@ -55,7 +55,7 @@ Pertama, Anda perlu menentukan lokasi file Excel Anda. Di sinilah Anda akan memb
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ganti saja`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda`book1.xls`file berada. Anggap saja ini seperti memberikan alamat yang benar kepada GPS Anda sebelum memulai perjalanan!
+ Ganti saja`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda`book1.xls` file berada. Anggap saja ini seperti memberikan alamat yang benar kepada GPS Anda sebelum memulai perjalanan!
 
 ## Langkah 4: Buka File Excel dengan FileStream
 
@@ -95,7 +95,7 @@ Setelah menghapus lembar kerja, Anda harus menyimpan perubahan. Beginilah cara A
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Anda dapat memilih untuk menyimpannya dengan nama baru dengan mengubah`"output.out.xls"` sesuai keinginan Anda. Bayangkan seperti menekan tombol 'Simpan' pada dokumen Word — Anda ingin menyimpan modifikasi Anda.
+Anda dapat memilih untuk menyimpannya dengan nama baru dengan mengubah`"output.out.xls"` sesuai keinginan Anda. Bayangkan seperti menekan tombol 'Simpan' pada dokumen Word — Anda ingin menyimpan modifikasi Anda.
 
 ## Langkah 8: Tutup Aliran File
 

@@ -70,7 +70,7 @@ Ez a kódsor egy új munkafüzetet hoz létre, amelyet kezelhetünk.
 Minden munkafüzet egy vagy több munkalapból áll. Egy adott munkalapon való munkához hozzáférésre van szükségünk ehhez a gyűjteményhez.
 
 ```csharp
-// Szerezd meg az összes feladatlapot a könyvben.
+// Szerezd meg a könyvben található összes feladatlapot.
 WorksheetCollection worksheets = workbook.Worksheets;
 ```
 

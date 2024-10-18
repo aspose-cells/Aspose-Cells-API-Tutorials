@@ -2,7 +2,7 @@
 title: Excel Copiar Planilha de Outra Pasta de Trabalho
 linktitle: Excel Copiar Planilha de Outra Pasta de Trabalho
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda a copiar uma planilha de uma pasta de trabalho do Excel para outra usando o Aspose.Cells para .NET com este guia passo a passo.
+description: Aprenda como copiar uma planilha de uma pasta de trabalho do Excel para outra usando o Aspose.Cells para .NET com este guia passo a passo.
 type: docs
 weight: 10
 url: /pt/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
@@ -79,7 +79,7 @@ Aqui, criamos a primeira pasta de trabalho e preenchemos a primeira planilha (`w
 Vamos configurar a página para repetir linhas de cabeçalho ao imprimir, só para que possamos ver esse recurso em ação:
 
 ```csharp
-//Defina um objeto pagesetup com base na primeira planilha
+//Defina um objeto de configuração de página com base na primeira planilha
 PageSetup pagesetup = ws0.PageSetup;
 // As cinco primeiras linhas são repetidas em cada página
 pagesetup.PrintTitleRows = "$1:$5";
@@ -109,7 +109,7 @@ Vamos copiar o conteúdo da planilha da primeira pasta de trabalho para a segund
 // primeira planilha da segunda pasta de trabalho
 ws1.Copy(ws0);
 ```
- O`Copy` o método pega todo o conteúdo da planilha de origem (`ws0`e duplica-o na planilha de destino (`ws1`). Tão simples, certo?
+ O`Copy` O método pega todo o conteúdo da planilha de origem (`ws0`e duplica-o na planilha de destino (`ws1`). Tão simples, certo?
 
 ## Etapa 6: Salve a nova pasta de trabalho
 
@@ -137,7 +137,7 @@ Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores criar, manip
  Você pode solicitar uma licença temporária visitando[este link](https://purchase.aspose.com/temporary-license/).
 
 ### Onde posso encontrar mais documentação sobre o Aspose.Cells?  
-Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/cells/net/).
+ Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/cells/net/).
 
 ### Existe algum suporte disponível para usuários do Aspose.Cells?  
  Com certeza! Você pode obter suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9).

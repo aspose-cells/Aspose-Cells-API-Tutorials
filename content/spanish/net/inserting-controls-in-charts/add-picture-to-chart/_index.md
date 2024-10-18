@@ -16,7 +16,7 @@ url: /es/net/inserting-controls-in-charts/add-picture-to-chart/
 Antes de adentrarnos en los detalles de la codificación, hay algunos requisitos previos que debes tener en cuenta para seguir el proceso sin problemas:
 
 - Visual Studio: aquí es donde escribirás y ejecutarás tu código .NET. Asegúrate de tenerlo instalado.
--  Aspose.Cells para .NET: Necesitará esta biblioteca para trabajar con archivos de Excel. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
+- Aspose.Cells para .NET: Necesitará esta biblioteca para trabajar con archivos de Excel. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/).
 - Comprensión básica de C#: si bien lo guiaré a través del código, tener un conocimiento básico de C# hará que las cosas sean más claras.
 
 ### Pasos de instalación
@@ -84,7 +84,7 @@ Asegúrese de tener la imagen guardada en el directorio especificado.
 Ahora, especifiquemos a qué gráfico vamos a agregar nuestra imagen. En este ejemplo, apuntaremos al primer gráfico de la primera hoja de cálculo.
 
 ```csharp
-// Obtén el cuadro de diseño en la segunda hoja.
+//Obtén el cuadro de diseño en la segunda hoja.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Conclusión
 
-En este tutorial, hemos explorado cómo inyectar un poco de personalidad a sus gráficos de Excel agregando imágenes con Aspose.Cells para .NET. Con solo unos pocos pasos simples, puede hacer que sus presentaciones pasen de ser mundanas a memorables. Entonces, ¿qué está esperando? ¡Pruébelo y deje que sus gráficos brillen!
+En este tutorial, hemos explorado cómo inyectar un poco de personalidad a sus gráficos de Excel agregando imágenes con Aspose.Cells para .NET. Con solo unos pocos pasos simples, puede elevar sus presentaciones de mundanas a memorables. Entonces, ¿qué está esperando? ¡Pruébelo y deje que sus gráficos brillen!
 
 ## Preguntas frecuentes
 
@@ -151,7 +151,7 @@ En este tutorial, hemos explorado cómo inyectar un poco de personalidad a sus g
 Aspose.Cells admite una variedad de formatos de imagen, incluidos PNG, JPEG, BMP y GIF.
 
 ### ¿Puedo personalizar la posición de la imagen?
-¡Por supuesto! Las coordenadas X e Y en el`AddPictureInChart` El método permite un posicionamiento preciso.
+ ¡Por supuesto! Las coordenadas X e Y en el`AddPictureInChart` El método permite un posicionamiento preciso.
 
 ### ¿Aspose.Cells es de uso gratuito?
  Aspose.Cells ofrece una prueba gratuita, pero para obtener todas las funciones se requiere una licencia. Puede consultar los precios[aquí](https://purchase.aspose.com/buy).

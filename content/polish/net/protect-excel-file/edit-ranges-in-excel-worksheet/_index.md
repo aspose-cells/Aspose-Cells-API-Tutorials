@@ -15,7 +15,7 @@ Jeśli chodzi o edycję arkuszy kalkulacyjnych programu Excel, jedną z najpotę
 
 Zanim przejdziemy do kodowania, upewnijmy się, że wszystko jest gotowe. Oto, czego potrzebujesz:
 
-1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. Wersja community działa doskonale.
+1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio. Wersja community działa doskonale.
 2.  Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# okaże się bardzo przydatna.
 4. Konfiguracja projektu: Utwórz nową aplikację konsolową C# w programie Visual Studio.
@@ -41,7 +41,7 @@ Przedstawmy kod służący do tworzenia katalogu (jeśli jeszcze nie istnieje):
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Utwórz katalog, jeśli jeszcze go nie ma.
+//Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

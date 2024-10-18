@@ -13,7 +13,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 
 ## 先决条件
 
-在我们开始控制工作表的缩放比例之前，让我们确保您已准备好所需的一切。以下是必需的：
+在我们开始控制工作表的缩放比例之前，让我们确保您已准备好所需的一切。以下是要点：
 
 1. .NET 开发环境：您应该设置一个 .NET 环境，例如 Visual Studio。
 2.  Aspose.Cells 库：您需要安装 Aspose.Cells for .NET 库。您可以从以下位置下载[这里](https://releases.aspose.com/cells/net/).
@@ -28,7 +28,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 
 打开 Visual Studio 并创建一个新的控制台应用程序项目。您可以随意命名它 - 我们将其命名为“ZoomWorksheetDemo”。
 
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 
 现在，是时候添加 Aspose.Cells 库引用了。您可以：
 
@@ -108,7 +108,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Zoom = 75;
 ```
 
-缩放系数可在 10 到 400 之间任意调整，让您可以根据需要放大或缩小。缩放系数为 75 意味着用户将看到原始尺寸的 75%，这样无需过多滚动即可更轻松地查看数据。
+缩放系数可在 10 到 400 之间任意调整，让您可以根据需要放大或缩小。缩放系数为 75 意味着用户将看到原始尺寸的 75%，这样无需过度滚动即可更轻松地查看数据。
 
 ## 步骤6：保存修改后的Excel文件
 

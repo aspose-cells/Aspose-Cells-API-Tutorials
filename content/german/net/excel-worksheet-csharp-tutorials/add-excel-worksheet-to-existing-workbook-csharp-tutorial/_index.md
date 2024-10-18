@@ -16,7 +16,7 @@ Da sich die digitale Welt ständig weiterentwickelt, ist die Arbeit mit Tabellen
 Bevor wir uns in den Code stürzen, stellen wir sicher, dass Sie alles haben, was Sie brauchen, um dieses Tutorial erfolgreich umzusetzen. Folgendes benötigen Sie:
 
 1.  Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Wenn Sie es noch nicht haben, können Sie es hier herunterladen:[Hier](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET in Ihr Projekt integriert haben. Sie erhalten es von[Downloadlink](https://releases.aspose.com/cells/net/)Diese Bibliothek ist für die Arbeit mit Excel-Dateien unerlässlich und unterstützt eine breite Palette von Funktionen.
+2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET in Ihr Projekt integrieren. Sie erhalten es von[Downloadlink](https://releases.aspose.com/cells/net/)Diese Bibliothek ist für die Arbeit mit Excel-Dateien unerlässlich und unterstützt eine breite Palette von Funktionen.
 3. Grundlegende Kenntnisse in C#: Wenn Sie mit der Programmiersprache C# vertraut sind, können Sie den Anweisungen leichter folgen. Keine Sorge, wir führen Sie Schritt für Schritt durch die Prozesse!
 4. Ihr Dokumentverzeichnis: Stellen Sie sicher, dass Sie auf Ihrem Computer über einen Ordner verfügen, in dem Sie Ihre Excel-Dateien für dieses Tutorial speichern können. 
 
@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Als Nächstes müssen wir eine Instanz der Workbook-Klasse erstellen, die unsere Excel-Datei enthält.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,21 +69,21 @@ Indem wir aus unserem Dateistrom eine Arbeitsmappeninstanz erstellen, können wi
 
 ## Schritt 4: Neues Arbeitsblatt hinzufügen
 
-Jetzt kommt der spannende Teil! Fügen wir unserer Arbeitsmappe ein neues Arbeitsblatt hinzu. Dies geschieht mit dem`Add()` Methode aus der`Worksheets`Sammlung.
+ Jetzt kommt der spannende Teil! Fügen wir unserer Arbeitsmappe ein neues Arbeitsblatt hinzu. Dies geschieht mit dem`Add()` Methode aus der`Worksheets`Sammlung.
 
 ```csharp
 // Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
 int i = workbook.Worksheets.Add();
 ```
 
- Mit dieser Codezeile fügen wir ein neues Blatt hinzu und der Index dieses neuen Blattes wird in der Variablen erfasst`i`.
+Mit dieser Codezeile fügen wir ein neues Blatt hinzu und der Index dieses neuen Blattes wird in der Variablen erfasst`i`.
 
 ## Schritt 5: Erhalten Sie einen Verweis auf das neu hinzugefügte Arbeitsblatt
 
 Sobald wir das neue Arbeitsblatt erstellt haben, ist es wichtig, einen Verweis darauf zu erhalten. Auf diese Weise können wir seine Attribute, wie den Namen des Blattes, anpassen.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
@@ -98,7 +98,7 @@ Was ist ein Arbeitsblatt ohne Namen? Geben wir unserem neu hinzugefügten Arbeit
 worksheet.Name = "My Worksheet";
 ```
 
- Sie können ändern`"My Worksheet"` mit dem gewünschten Namen. So können Sie Ihre Excel-Tabellen effizienter organisieren.
+ Sie können ändern`"My Worksheet"` mit dem gewünschten Namen. So können Sie Ihre Excel-Tabellen effektiver organisieren.
 
 ## Schritt 7: Speichern Sie die Excel-Datei
 
@@ -109,7 +109,7 @@ Nachdem wir unsere Änderungen abgeschlossen haben, können wir unsere Arbeitsma
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Hier speichern wir unsere Arbeitsmappe als`output.out.xls`. Sie können dieser Datei einen beliebigen Namen geben; stellen Sie nur sicher, dass sie im richtigen Verzeichnis gespeichert wird.
+ Hier speichern wir unsere Arbeitsmappe als`output.out.xls`Sie können dieser Datei einen beliebigen Namen geben; stellen Sie nur sicher, dass sie im richtigen Verzeichnis gespeichert wird.
 
 ## Schritt 8: Schließen Sie den Dateistream
 
@@ -131,7 +131,7 @@ Egal, ob Sie große Datensätze verwalten oder Finanzberichte erstellen, wenn Si
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Cells?
-Aspose.Cells ist eine leistungsstarke Bibliothek für die Arbeit mit Excel-Dateien in .NET-Anwendungen, die es Benutzern ermöglicht, Tabellenkalkulationen zu erstellen, zu bearbeiten und zu verwalten, ohne Microsoft Excel zu benötigen.
+Aspose.Cells ist eine leistungsstarke Bibliothek für die Arbeit mit Excel-Dateien in .NET-Anwendungen, die es Benutzern ermöglicht, Tabellen zu erstellen, zu bearbeiten und zu verwalten, ohne Microsoft Excel zu benötigen.
 
 ### Ist Aspose.Cells kostenlos?
  Aspose.Cells bietet eine kostenlose Testversion für Benutzer an, mit der sie das Produkt vor dem Kauf testen können. Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).

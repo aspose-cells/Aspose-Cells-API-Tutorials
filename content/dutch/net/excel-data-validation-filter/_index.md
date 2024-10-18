@@ -23,4 +23,4 @@ Excel is een krachtpatser als het gaat om databeheer, maar soms heeft het gewoon
 ### [Geavanceerde filter van Microsoft Excel toepassen in C#](./apply-advanced-filter-of-microsoft-excel-in-csharp/)
 Leer hoe u geavanceerde filters toepast in Excel met C# en Aspose.Cells. Inclusief stapsgewijze handleiding voor eenvoudige implementatie.
 ### [Validatiegebied toevoegen aan cellen in Excel](./add-validation-area-to-cells-in-excel/)
-Leer hoe u validatiegebieden toevoegt in Excel met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw gegevensintegriteit.
+Leer hoe u validatiegebieden in Excel kunt toevoegen met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw gegevensintegriteit.

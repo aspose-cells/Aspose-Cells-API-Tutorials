@@ -13,12 +13,12 @@ Zarządzanie plikami Excela może czasami przypominać poruszanie się po labiry
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do faktycznego kodowania, ważne jest, aby upewnić się, że wszystko jest poprawnie skonfigurowane. Oto, czego będziesz potrzebować:
+Zanim przejdziemy do właściwego kodowania, ważne jest, aby upewnić się, że wszystko jest poprawnie skonfigurowane. Oto, czego będziesz potrzebować:
 
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio (dowolna wersja obsługująca platformę .NET).
 2.  Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells z[Strona Aspose'a](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Niewielka znajomość programowania w języku C# okaże się przydatna, ponieważ będziemy pracować w kontekście tego języka.
-4. Przykładowy plik programu Excel: W celach demonstracyjnych przygotuj przykładowy plik programu Excel (np.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) zawierający początkowe formatowanie komórek.
+4.  Przykładowy plik programu Excel: W celach demonstracyjnych przygotuj przykładowy plik programu Excel (np.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) zawierający początkowe formatowanie komórek.
 
 ## Importuj pakiety
 
@@ -103,7 +103,7 @@ Teraz musimy zdefiniować style wyrównania, które chcemy zastosować.
 // Utwórz obiekt stylu.
 Style st = wb.CreateStyle();
 
-// Ustaw wyrównanie poziome i pionowe na środku.
+// Ustaw wyrównanie poziome i pionowe na środek.
 st.HorizontalAlignment = TextAlignmentType.Center;
 st.VerticalAlignment = TextAlignmentType.Center;
 ```
@@ -122,11 +122,11 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ustawiając`Alignments` właściwość StyleFlag do`true`, poinstruuj Aspose.Cells, aby prawidłowo stosował style wyrównania.
+ Ustawiając`Alignments`właściwość StyleFlag do`true`, poinstruuj Aspose.Cells, aby prawidłowo stosował style wyrównania.
 
 ## Krok 7: Zastosuj styl do zakresu komórek
 
-Mając już ustawione style i flagi, czas zastosować je do zakresu komórek:
+Mając już ustawione style i flagi, można zastosować je do zakresu komórek:
 
 ```csharp
 // Zastosuj styl do zakresu komórek.
@@ -154,7 +154,7 @@ Po zapisaniu pliku miło jest dać znać, że wszystko zadziałało zgodnie z oc
 Console.WriteLine("ChangeCellsAlignmentAndKeepExistingFormatting executed successfully.");
 ```
 
-Ten komunikat pojawia się na konsoli, jeśli operacja zakończy się bez problemów.
+Ten komunikat pojawi się na konsoli, jeśli operacja zakończy się bez problemów.
 
 ## Wniosek
 

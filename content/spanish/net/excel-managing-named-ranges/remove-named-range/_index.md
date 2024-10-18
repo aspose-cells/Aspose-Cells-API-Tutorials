@@ -99,7 +99,7 @@ Range range1 = worksheet.Cells.CreateRange("E12", "I12");
 range1.Name = "FirstRange";
 ```
 
-Aquí, definimos un rango desde las celdas E12 a I12 y lo llamamos “FirstRange”.
+Aquí, definimos un rango desde las celdas E12 a I12 y lo llamamos “PrimerRango”.
 
 ## Paso 6: Dar formato al rango con nombre
 
@@ -115,7 +115,7 @@ range1.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Medium, Color.Fro
 
 Estamos agregando un borde azul marino medio alrededor de nuestra gama para que sea visualmente atractiva.
 
-## Paso 7: Inserción de datos en el rango
+## Paso 7: Insertar datos en el rango
 
 A continuación, podemos rellenar nuestras celdas con algunos datos para hacerlas funcionales.
 

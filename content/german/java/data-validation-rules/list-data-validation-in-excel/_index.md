@@ -28,7 +28,7 @@ Bei der Datenvalidierung handelt es sich um einen Prozess, der die Genauigkeit u
 
 Die Datenvalidierung ist wichtig, weil sie bei Folgendem hilft:
 
-- Vermeidung ungültiger Dateneingaben: Benutzer werden angeleitet, nur gültige Daten einzugeben, wodurch das Fehlerrisiko verringert wird.
+- Verhinderung ungültiger Dateneingaben: Benutzer werden angeleitet, nur gültige Daten einzugeben, wodurch das Fehlerrisiko verringert wird.
 - Sicherstellen der Datenintegrität: Es hilft, die Integrität und Zuverlässigkeit Ihrer Excel-Daten aufrechtzuerhalten.
 - Rationalisierung der Datenverarbeitung: Validierte Daten können effizienter verarbeitet werden, was Zeit und Aufwand spart.
 
@@ -42,11 +42,11 @@ Hier ist eine Schritt-für-Schritt-Anleitung zur Implementierung der Datenvalidi
 
 ### Schritt 1: Einrichten Ihrer Entwicklungsumgebung
 
-Bevor Sie Aspose.Cells für Java verwenden können, müssen Sie Ihre Entwicklungsumgebung einrichten. Stellen Sie sicher, dass Java installiert ist, und laden Sie die Aspose.Cells-Bibliothek für Java von der Website herunter.
+Bevor Sie Aspose.Cells für Java verwenden können, müssen Sie Ihre Entwicklungsumgebung einrichten. Stellen Sie sicher, dass Java installiert ist, und laden Sie die Bibliothek Aspose.Cells für Java von der Website herunter.
 
 ### Schritt 2: Erstellen Sie eine neue Excel-Arbeitsmappe
 
- Erstellen Sie zunächst eine neue Excel-Arbeitsmappe mit Aspose.Cells für Java. Dies können Sie tun, indem Sie eine`Workbook` Objekt:
+ Erstellen Sie zunächst eine neue Excel-Arbeitsmappe mit Aspose.Cells für Java. Sie können dies tun, indem Sie eine`Workbook` Objekt:
 
 ```java
 Workbook workbook = new Workbook();

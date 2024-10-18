@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Se till att`sampleApplyingThemesInChart.xlsx` finns i din källkatalog.
+ Se till att`sampleApplyingThemesInChart.xlsx`finns i din källkatalog.
 
 ## Steg 3: Öppna arbetsbladet
 
@@ -77,7 +77,7 @@ I det här fallet tar vi helt enkelt tag i det första kalkylbladet, vilket är 
 Med kalkylbladet i handen kan vi nu komma åt diagrammet som vi har för avsikt att utforma.
 
 ```csharp
-//Få det första diagrammet i arket
+// Få det första diagrammet i arket
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Denna kodrad säkerställer att den första serien i diagrammet är inställd p�
 
 ## Steg 6: Konfigurera färgen
 
- Nu när vår serie är klar måste vi ändra dess färg. Detta innebär att skapa en`CellsColor` objekt och ange en temafärg. Vi väljer en accentstil för det här exemplet.
+ Nu när vår serie är klar måste vi ändra dess färg. Detta innebär att skapa en`CellsColor`objekt och ange en temafärg. Vi väljer en accentstil för det här exemplet.
 
 ```csharp
 // Skaffa CellsColor av SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Skapa ett tema i accentstil
+// Skapa ett tema i accentstil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

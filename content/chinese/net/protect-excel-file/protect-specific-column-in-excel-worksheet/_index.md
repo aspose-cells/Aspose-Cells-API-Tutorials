@@ -9,7 +9,7 @@ url: /zh/net/protect-excel-file/protect-specific-column-in-excel-worksheet/
 ---
 ## 介绍
 
-在数据管理日益复杂的世界中，了解如何保护文档的特定部分可以保护重要信息免遭不必要的更改。无论您是管理成绩的学生、跟踪预算的项目经理还是处理敏感数据的分析师，在允许其他人使用电子表格的同时保护关键信息的安全都至关重要。本指南将演示如何使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定列。
+在数据管理日益复杂的世界中，了解如何保护文档的特定部分可以保护重要信息免受不必要的更改。无论您是管理成绩的学生、跟踪预算的项目经理还是处理敏感数据的分析师，在允许其他人使用电子表格的同时保护关键信息的安全至关重要。本指南将演示如何使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定列。
 
 ## 先决条件 
 
@@ -133,7 +133,7 @@ sheet.Protect(ProtectionType.All);
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
-此代码将以 Excel 97-2003 格式在指定路径保存您的工作簿。请确保替换`dataDir`替换为您的实际目录路径。
+此代码将以 Excel 97-2003 格式保存您的工作簿到指定路径。请确保替换`dataDir`替换为您的实际目录路径。
 
 ## 结论
 
@@ -148,7 +148,7 @@ Aspose.Cells for .NET 是一个功能强大的库，旨在在.NET 应用程序�
 是的！要保护多个列，只需对要保护的每个列重复列锁定代码即可。
 
 ### 有试用版吗？
-是的！您可以使用以下方式探索 Aspose.Cells 的功能[免费试用版在这里](https://releases.aspose.com/).
+是的！您可以使用以下方式探索 Aspose.Cells 的功能[此处有免费试用版](https://releases.aspose.com/).
 
 ### Aspose.Cells 支持哪些文件格式?
 Aspose.Cells 支持多种格式，包括 XLSX、XLS、CSV 等。

@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 
  Giải thích: Ở đây, chúng ta tạo một phiên bản mới của`Workbook` lớp. Đối tượng này sẽ lưu trữ tất cả dữ liệu và cài đặt bạn muốn áp dụng vào tệp Excel của mình.
 
-## Bước 3: Truy cập vào trang tính đầu tiên
+## Bước 3: Truy cập trang tính đầu tiên
 
 Mỗi bảng tính đều bao gồm nhiều trang tính và chúng ta cần truy cập vào trang tính cụ thể mà chúng ta muốn điều chỉnh cài đặt in.
 
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Giải thích:`PrintQuality` Thuộc tính có thể được đặt thành bất kỳ giá trị nào, thường là từ 75 đến 600 dpi (chấm trên một inch). Trong trường hợp này, chúng tôi đặt thành 180 dpi, rất tuyệt vời để cân bằng tốt giữa chất lượng và kích thước tệp.
+Giải thích:`PrintQuality` Thuộc tính có thể được đặt thành bất kỳ giá trị nào, thường là từ 75 đến 600 dpi (chấm trên một inch). Trong trường hợp này, chúng tôi đặt thành 180 dpi, rất tuyệt vời để cân bằng tốt giữa chất lượng và kích thước tệp.
 
 ## Bước 5: Lưu sổ làm việc
 

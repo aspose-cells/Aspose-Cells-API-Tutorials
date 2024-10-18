@@ -9,7 +9,7 @@ url: /ko/net/excel-page-setup/insert-image-in-header-footer/
 ---
 ## 소개
 
-Excel 파일을 사용할 때 머리글과 바닥글은 맥락과 귀중한 정보를 제공하는 데 중요한 역할을 합니다. 회사를 위한 보고서를 초안하고 있다고 상상해 보세요. 회사 로고가 머리글에 있어야 전문적인 느낌을 줄 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 시트의 머리글이나 바닥글에 이미지를 삽입하는 방법을 보여드리겠습니다.
+Excel 파일을 사용할 때 머리글과 바닥글은 맥락과 귀중한 정보를 제공하는 데 중요한 역할을 합니다. 회사를 위한 보고서를 초안하고 있다고 가정해 보겠습니다. 회사 로고가 머리글에 있어야 전문적인 느낌을 줄 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 시트의 머리글이나 바닥글에 이미지를 삽입하는 방법을 보여드리겠습니다.
 
 ## 필수 조건
 
@@ -35,7 +35,7 @@ using System;
 
 ## 1단계: 디렉토리 경로 설정
 
-먼저 Excel 파일과 이미지가 있는 디렉토리를 지정해야 합니다. 로컬 구조에 맞게 경로를 업데이트합니다.
+먼저, Excel 파일과 이미지가 있는 디렉토리를 지정해야 합니다. 로컬 구조에 맞게 경로를 업데이트하세요.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // 이에 따라 업데이트하세요
@@ -95,7 +95,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- 이 줄은 헤더의 중앙 섹션에 이미지를 배치합니다. 매개변수`1`헤더 섹션을 지정합니다.
+ 이 줄은 헤더의 중앙 섹션에 이미지를 배치합니다. 매개변수`1` 헤더 섹션을 지정합니다.
 
 ## 7단계: 헤더 콘텐츠 설정
 
@@ -135,7 +135,7 @@ inFile.Close();
 
 ## 자주 묻는 질문
 
-### Aspose.Cells는 어떤 이미지 파일 형식을 지원하나요?
+### Aspose.Cells는 어떤 이미지 파일 형식을 지원합니까?
 Aspose.Cells는 JPEG, PNG, BMP, GIF, TIFF 등 다양한 형식을 지원합니다.
 
 ### 헤더/푸터에 여러 개의 이미지를 삽입할 수 있나요?
@@ -148,4 +148,4 @@ Aspose.Cells는 JPEG, PNG, BMP, GIF, TIFF 등 다양한 형식을 지원합니�
 이미지 경로가 올바르고 파일이 존재하는지 확인하세요. 이미지 형식 호환성도 확인하세요.
 
 ### Aspose.Cells에 대한 추가 문서는 어디에서 찾을 수 있나요?
-자세한 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
+ 자세한 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).

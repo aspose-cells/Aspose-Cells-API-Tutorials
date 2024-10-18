@@ -59,7 +59,7 @@ Sırada yeni bir çalışma kitabı oluşturmamız gerekiyor. Aspose.Cells, Exce
 Workbook wb = new Workbook();
 ```
 
- Yeni bir örnek oluşturarak`Workbook`nesne, boş bir sayfa ile başlıyorsunuz, elektronik tablonuzu özelleştirmeye hazırsınız.
+ Yeni bir örnek oluşturarak`Workbook`Nesne, boş bir sayfa ile başlıyorsunuz ve elektronik tablonuzu özelleştirmeye hazırsınız.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -74,7 +74,7 @@ Worksheet sheet = wb.Worksheets[0];
 
 ## Adım 4: Tüm Sütunların Kilidini Açın
 
-Belirli sütunları korumalı olarak ayarlamak için önce çalışma sayfasındaki tüm sütunların kilidini açmanız gerekir. Bu adım onları değişikliklere hazırlar:
+Belirli sütunları korumalı olarak ayarlamak için, önce çalışma sayfasındaki tüm sütunların kilidini açmanız gerekir. Bu adım, bunları değişikliklere hazırlar:
 
 ```csharp
 // Stil nesnesini tanımlayın.
@@ -122,11 +122,11 @@ Bir sonraki adım, tüm çalışma sayfası için korumayı etkinleştirmeyi iç
 sheet.Protect(ProtectionType.All);
 ```
 
- The`Protect` Bu yöntem, sayfadaki tüm eyleme geçirilebilir öğelerin, özellikle izin verdiğiniz alanlar (kilitsiz sütunlar gibi) hariç, güvence altına alınmasını sağlar.
+ The`Protect` yöntem, sayfadaki tüm eyleme geçirilebilir öğelerin, özellikle izin verdiğiniz alanlar (kilitsiz sütunlar gibi) hariç, güvence altına alınmasını sağlar.
 
 ## Adım 7: Çalışma Kitabını Kaydedin
 
-Her şeyi yapılandırdıktan ve hazırladıktan sonra, çalışma kitabınızı kaydederek tüm değişikliklerin kaydedildiğinden emin olmanın zamanı geldi:
+Her şeyi yapılandırdıktan ve hazır hale getirdikten sonra, çalışma kitabınızı kaydederek tüm değişikliklerin kaydedildiğinden emin olmanın zamanı geldi:
 
 ```csharp
 // Excel dosyasını kaydedin.

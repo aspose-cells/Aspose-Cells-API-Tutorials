@@ -9,7 +9,7 @@ url: /pt/net/unprotect-excel-sheet/
 ---
 ## Introdução
 
-Se você estiver trabalhando com arquivos do Excel no .NET, você pode ter encontrado situações em que precisa acessar planilhas bloqueadas. A boa notícia é que o Aspose.Cells para .NET oferece uma maneira robusta de gerenciar esses desafios. Imagine sentar em sua mesa, olhando para uma pasta de trabalho do Excel, apenas para perceber que você não pode acessar os dados porque eles estão bloqueados. Frustrante, certo? Vamos mergulhar em como essa poderosa biblioteca pode fazer esses dias ficarem para trás.
+Se você estiver trabalhando com arquivos do Excel no .NET, você pode ter encontrado situações em que precisa acessar planilhas bloqueadas. A boa notícia é que o Aspose.Cells para .NET oferece uma maneira robusta de gerenciar esses desafios. Imagine sentar em sua mesa, olhando para uma pasta de trabalho do Excel, apenas para perceber que você não pode acessar os dados porque eles estão bloqueados. Frustrante, certo? Vamos mergulhar em como essa biblioteca poderosa pode fazer esses dias ficarem para trás.
 
 ## Desbloqueando planilhas do Excel protegidas por senha 
 
@@ -29,6 +29,6 @@ Com esses tutoriais, você não só aprenderá como desbloquear e desproteger pl
 ## Tutoriais 
 | Título | Descrição |
 | --- | --- |
-| [Desbloquear planilha do Excel protegida por senha](./unlock-password-protected-excel-worksheet/) | Aprenda como desbloquear uma planilha do Excel protegida por senha usando Aspose.Cells para .NET. Tutorial passo a passo em C#. |  
+| [Desbloquear planilha do Excel protegida por senha](./unlock-password-protected-excel-worksheet/) | Aprenda como desbloquear uma planilha Excel protegida por senha usando Aspose.Cells para .NET. Tutorial passo a passo em C#. |  
 | [Desbloquear planilha protegida do Excel](./unlock-protected-excel-sheet/) | Aprenda como desbloquear planilhas protegidas do Excel usando o Aspose.Cells para .NET neste tutorial passo a passo para iniciantes.  |  
 | [Desproteger Planilha Simples do Excel](./unprotect-simple-excel-sheet/) | Aprenda como desproteger planilhas do Excel facilmente usando o Aspose.Cells for .NET com este guia passo a passo. Recupere acesso aos seus dados em pouco tempo. |  

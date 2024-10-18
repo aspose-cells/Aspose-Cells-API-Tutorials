@@ -9,7 +9,7 @@ url: /nl/net/excel-security/
 ---
 ## Invoering
 
-Ontdek onze uitgebreide collectie Aspose.Cells voor .NET-zelfstudies! Of u nu een beginner bent of uw Excel-vaardigheden wilt aanscherpen, onze zelfstudies zijn ontworpen om uw vaardigheid in het beheren van Excel-bestanden via .NET-toepassingen te vergroten. Duik in specifieke functies zoals geavanceerde beveiligingsinstellingen, vergrendelende cellen en auteursspecificatie terwijl u uw werkmap tegen schrijven beveiligt. Elke gids biedt een eenvoudige, gestructureerde aanpak, zodat u de belangrijkste concepten en technieken begrijpt zonder dat u zich overweldigd voelt. 
+Ontdek onze uitgebreide collectie Aspose.Cells voor .NET-zelfstudies! Of u nu een beginner bent of uw Excel-vaardigheden wilt aanscherpen, onze zelfstudies zijn ontworpen om uw vaardigheid in het beheren van Excel-bestanden via .NET-toepassingen te vergroten. Duik in specifieke functies zoals geavanceerde beveiligingsinstellingen, vergrendelende cellen en auteursspecificatie terwijl u uw werkmap tegen schrijven beveiligt. Elke handleiding biedt een eenvoudige, gestructureerde aanpak, zodat u de belangrijkste concepten en technieken begrijpt zonder dat u zich overweldigd voelt. 
 
 ## Verbeter uw Excel-beveiliging 
 
@@ -32,5 +32,5 @@ Concluderend, mijn mede-Excel-enthousiastelingen, de wereld van Aspose.Cells voo
 | Titel | Beschrijving |
 | --- | --- |
 | [Geavanceerde beveiligingsinstellingen voor Excel-werkbladen](./advanced-protection-settings-for-excel-worksheet/) | Beveilig uw Excel-gegevens met geavanceerde beveiligingsinstellingen met Aspose.Cells voor .NET! Leer stap voor stap hoe u besturingselementen implementeert in deze uitgebreide tutorial. |  
-| [Cel vergrendelen in Excel-werkblad](./lock-cell-in-excel-worksheet/) | Leer hoe u cellen in Excel-werkbladen kunt vergrendelen met Aspose.Cells voor .NET. Eenvoudige stapsgewijze tutorial voor veilig gegevensbeheer. |  
+| [Cel vergrendelen in Excel-werkblad](./lock-cell-in-excel-worksheet/) | Leer hoe u cellen in Excel-werkbladen kunt vergrendelen met Aspose.Cells voor .NET. Eenvoudige stapsgewijze zelfstudie voor veilig gegevensbeheer. |  
 | [Auteur opgeven bij schrijfbeveiliging van Excel-werkmap](./specify-author-while-write-protecting-excel-workbook/) | Leer in deze stapsgewijze handleiding hoe u uw Excel-werkmap tegen schrijven kunt beveiligen terwijl u een auteur opgeeft met Aspose.Cells voor .NET. |  

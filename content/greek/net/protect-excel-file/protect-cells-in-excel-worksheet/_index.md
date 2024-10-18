@@ -52,7 +52,7 @@ using Aspose.Cells;
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Καθορίστε τη διαδρομή του καταλόγου σας εδώ
-// Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
+//Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -153,7 +153,7 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
  Το Aspose.Cells προσφέρει δωρεάν δοκιμή, αλλά η συνεχής χρήση απαιτεί άδεια. Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Πού μπορώ να βρω την τεκμηρίωση;
-Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/cells/net/).
+ Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/cells/net/).
 
 ### Σε ποιες μορφές αρχείων μπορώ να αποθηκεύσω αρχεία Excel;
 Το Aspose.Cells υποστηρίζει πολλαπλές μορφές, συμπεριλαμβανομένων των XLSX, XLS, CSV και άλλων.

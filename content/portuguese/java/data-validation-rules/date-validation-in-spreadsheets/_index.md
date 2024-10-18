@@ -2,7 +2,7 @@
 title: Validação de data em planilhas
 linktitle: Validação de data em planilhas
 second_title: API de processamento Java Excel Aspose.Cells
-description: Aprenda como executar validação de data em planilhas do Excel usando Aspose.Cells para Java. Garanta a precisão e a integridade dos dados com nosso guia passo a passo. Explore técnicas poderosas de manipulação do Excel.
+description: Aprenda como executar validação de data em planilhas do Excel usando Aspose.Cells para Java. Garanta a precisão e integridade dos dados com nosso guia passo a passo. Explore técnicas poderosas de manipulação do Excel.
 type: docs
 weight: 14
 url: /pt/java/data-validation-rules/date-validation-in-spreadsheets/

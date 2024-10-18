@@ -94,7 +94,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak přidat anotace grafu pomocí Aspose.Cells pro Java. Poznámky zvyšují jasnost a porozumění vašim grafům, takže jsou pro vaše publikum informativnější. Můžete prozkoumat pokročilejší možnosti anotací a formátování a vytvořit vizuálně přitažlivé grafy přizpůsobené vašim konkrétním potřebám.
+tomto tutoriálu jsme se naučili, jak přidat anotace grafu pomocí Aspose.Cells pro Java. Poznámky zvyšují jasnost a porozumění vašim grafům, takže jsou pro vaše publikum informativnější. Můžete prozkoumat pokročilejší možnosti anotací a formátování a vytvořit vizuálně přitažlivé grafy přizpůsobené vašim konkrétním potřebám.
 
 ## FAQ
 

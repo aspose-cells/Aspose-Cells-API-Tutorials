@@ -9,7 +9,7 @@ url: /es/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-
 ---
 ## Introducción
 
-¿Está cansado de tener que cambiar filas manualmente al insertar nuevos datos en sus hojas de cálculo de Excel? ¡Pues está de suerte! En este artículo, nos adentraremos en cómo automatizar este proceso con Aspose.Cells para .NET. Al final de este tutorial, no solo aprenderá a trabajar con tablas de datos en Excel, sino también a personalizar las opciones de importación para que se adapten mejor a sus necesidades. Créame, ¡esto puede ahorrarle mucho tiempo y molestias! Así que, tome una taza de café y ¡comencemos!
+¿Está cansado de tener que cambiar filas manualmente al insertar nuevos datos en sus hojas de cálculo de Excel? ¡Pues está de suerte! En este artículo, nos adentraremos en cómo automatizar este proceso con Aspose.Cells para .NET. Al final de este tutorial, no solo aprenderá a trabajar con tablas de datos en Excel, sino también a personalizar las opciones de importación para que se adapten mejor a sus necesidades. Créame, ¡esto puede ahorrarle mucho tiempo y molestias! Así que, ¡tome una taza de café y comencemos!
 
 ## Prerrequisitos
 
@@ -67,7 +67,7 @@ Aquí, definimos los nombres de las columnas y los datos para cada columna, lo q
 
 ## Paso 3: Implementar los miembros de la interfaz ICellsDataTable
 
- Dentro de la`CellsDataTable` clase, necesitas implementar los miembros de la`ICellsDataTable` Interfaz. Aquí está la implementación requerida:
+ Dentro de la`CellsDataTable` clase, necesitas implementar los miembros de la`ICellsDataTable` Interfaz. Esta es la implementación requerida:
 
 ```csharp
 public object this[string columnName]

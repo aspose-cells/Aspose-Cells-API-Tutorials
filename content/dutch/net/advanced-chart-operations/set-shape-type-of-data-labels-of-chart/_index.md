@@ -9,22 +9,22 @@ url: /nl/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 ---
 ## Invoering
 
-In de wereld van datavisualisatie zijn diagrammen een veelgebruikte methode om complexe informatie op een toegankelijke manier te presenteren. Echter, niet alle datalabels zijn gelijk! Soms moet u die labels laten opvallen, en het gebruik van verschillende vormen kan een groot verschil maken. Als u de datalabels in uw Excel-diagrammen wilt verbeteren met aangepaste vormen, bent u op de juiste plek beland. Deze gids leidt u door het instellen van het vormtype van datalabels in een diagram met behulp van Aspose.Cells voor .NET. Laten we erin duiken!
+In de wereld van datavisualisatie zijn grafieken een veelgebruikte methode om complexe informatie op een toegankelijke manier te presenteren. Echter, niet alle datalabels zijn gelijk! Soms moet u die labels laten opvallen, en het gebruik van verschillende vormen kan een groot verschil maken. Als u de datalabels in uw Excel-grafieken wilt verbeteren met aangepaste vormen, bent u op de juiste plek beland. Deze gids leidt u door het instellen van het vormtype van datalabels in een grafiek met behulp van Aspose.Cells voor .NET. Laten we erin duiken!
 
 ## Vereisten
 
 Voordat we beginnen met coderen, moeten we ervoor zorgen dat alles correct is ingesteld. Dit is wat je nodig hebt:
 
-1.  Aspose.Cells voor .NET: Als u dat nog niet hebt gedaan, download het dan van de[Aspose-website](https://releases.aspose.com/cells/net/)Met deze bibliotheek kunt u allerlei bewerkingen uitvoeren met Excel-documenten.
+1.  Aspose.Cells voor .NET: Als u dat nog niet hebt gedaan, download het dan van de[Aspose-website](https://releases.aspose.com/cells/net/)Met deze bibliotheek kunt u allerlei bewerkingen uitvoeren op Excel-documenten.
 2. Visual Studio: U moet dit op uw systeem geïnstalleerd hebben om .NET-toepassingen te schrijven en uit te voeren. Zorg ervoor dat het de versie is die .NET Framework of .NET Core ondersteunt, afhankelijk van de behoeften van uw project.
 3. Basiskennis van C#: Kennis van de basisconcepten van programmeren en de C#-syntaxis helpen u de codefragmenten beter te begrijpen.
 4. Een Excel-bestand: U hebt ook een voorbeeld Excel-werkmap nodig om mee te werken. U kunt uw eigen werkmap maken of een bestaande gebruiken.
 
-Nu we de vereisten hebben, kunnen we meteen beginnen!
+Nu we de vereisten hebben, kunnen we meteen aan de slag!
 
 ## Pakketten importeren
 
-Voordat u kunt beginnen met coderen, moet u de relevante Aspose.Cells-naamruimten importeren. Dit geeft u toegang tot de uitgebreide functionaliteit die de bibliotheek biedt. Dit is hoe u dit doet:
+Voordat u kunt beginnen met coderen, moet u de relevante Aspose.Cells-naamruimten importeren. Dit geeft u toegang tot de uitgebreide functionaliteit die de bibliotheek biedt. Dit is hoe u dat doet:
 
 ### Aspose.Cellen importeren
 
@@ -104,14 +104,14 @@ We richten ons hier op de eerste serie, die doorgaans de labels bevat die u moge
 
 ## Stap 6: Stel het vormtype van de gegevenslabels in
 
-Nu het cruciale deel! Laten we het vormtype van de gegevenslabels instellen. Aspose.Cells ondersteunt verschillende vormen en voor dit voorbeeld kiezen we een ovale tekstballon voor een leuk tintje.
+Nu het cruciale deel! Laten we het vormtype van de datalabels instellen. Aspose.Cells ondersteunt verschillende vormen en voor dit voorbeeld kiezen we een ovale tekstballon voor een leuk tintje.
 
 ```csharp
 // Stel het vormtype van de gegevenslabels in, bijvoorbeeld Speech Bubble Ovaal
 srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 ```
 
- Experimenteer gerust met verschillende vormen door te variëren`DataLabelShapeType.WedgeEllipseCallout` naar andere beschikbare opties!
+ Experimenteer gerust met verschillende vormen door de vorm te veranderen`DataLabelShapeType.WedgeEllipseCallout` naar andere beschikbare opties!
 
 ## Stap 7: Sla het Excel-uitvoerbestand op
 
@@ -150,7 +150,7 @@ Absoluut! Aspose.Cells biedt uitgebreide functionaliteiten om grafieken te wijzi
 Hoewel dit artikel zich richt op .NET, ondersteunt Aspose.Cells ook Java, PHP, Python en meer via REST API's.
 
 ### Moet ik betalen voor Aspose.Cells?  
-Aspose.Cells is een commercieel product, maar ze bieden een gratis proefversie aan, die u hier kunt vinden[hier](https://releases.aspose.com/).
+Aspose.Cells is een commercieel product, maar ze bieden een gratis proefversie aan, die u kunt vinden[hier](https://releases.aspose.com/).
 
 ### Waar kan ik hulp krijgen als ik problemen heb met Aspose.Cells?  
  Als u problemen ondervindt,[ondersteuningsforum](https://forum.aspose.com/c/cells/9) is een geweldige bron voor hulp van experts.

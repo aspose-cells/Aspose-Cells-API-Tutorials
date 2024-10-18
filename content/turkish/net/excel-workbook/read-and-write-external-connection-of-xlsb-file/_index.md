@@ -85,7 +85,7 @@ Bu adım, harici bağlantınızın geçerli durumunu doğrulamanızı sağlar. B
 
 ## Adım 5: Bağlantıyı Değiştirin
 
-Bazen, işleri daha açık hale getirmek veya yeni adlandırma kurallarına uymak için sadece bir isim değişikliği yeterlidir. Mevcut bağlantı adını daha alakalı bir şeye değiştirelim.
+Bazen, işleri daha açık hale getirmek veya yeni adlandırma kurallarına uymak için sadece bir ad değişikliği yeterlidir. Mevcut bağlantı adını daha alakalı bir şeye değiştirelim.
 
 ```csharp
 // Bağlantı Adını Değiştir
@@ -105,7 +105,7 @@ wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
 
 Bu kod satırı, yeni bağlantı adı da dahil olmak üzere tüm değişikliklerinizi koruyarak güncellenmiş çalışma kitabınızı kaydeder.
 
-## Adım 7: Yürütmeyi Onaylayın
+## Adım 7: Uygulamayı Onaylayın
 
 Son olarak, her şeyin sorunsuz çalıştığını doğrulayalım. Sonunda basit bir mesaj bunu açıklığa kavuşturacaktır.
 
@@ -117,12 +117,12 @@ Bu mesaj, kodunuzun başarıyla çalıştığına ve tüm değişikliklerin bekl
 
 ## Çözüm
 
-Ve işte karşınızda! Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları okumayı ve yazmayı başarıyla öğrendiniz. Bu adımları izleyerek Excel veri bağlantılarınızı etkili bir şekilde yönetebilir, Excel ile çalışmanızı çok daha akıcı ve daha az sinir bozucu hale getirebilirsiniz. Unutmayın, ister kapsamlı veri kümeleriyle ilgileniyor olun ister sadece bilgilerinizi düzenliyor olun, Aspose.Cells ihtiyacınız olan araçlara sahiptir.
+Ve işte oldu! Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları okumayı ve yazmayı başarıyla öğrendiniz. Bu adımları izleyerek Excel veri bağlantılarınızı etkili bir şekilde yönetebilir, Excel ile çalışmanızı çok daha akıcı ve daha az sinir bozucu hale getirebilirsiniz. Unutmayın, ister kapsamlı veri kümeleriyle ilgileniyor olun ister sadece bilgilerinizi düzenliyor olun, Aspose.Cells ihtiyacınız olan araçlara sahiptir.
 
 ## SSS
 
 ### XLSB dosyası nedir?  
-XLSB dosyası, elektronik tablo verilerini ikili biçimde saklayan, böylece daha kompakt ve daha hızlı açılan bir Excel dosya biçimidir.
+XLSB dosyası, elektronik tablo verilerini ikili biçimde saklayan, böylece daha kompakt ve daha hızlı açılan bir ikili Excel dosya biçimidir.
 
 ### Aspose.Cells for .NET'i nasıl kurarım?  
  Bunu Aspose web sitesinden kolayca indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).

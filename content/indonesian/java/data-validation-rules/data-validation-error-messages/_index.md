@@ -66,13 +66,13 @@ validation.setErrorMessage("Please enter a number between 1 and 100.");
 
 ### Bagaimana saya dapat menyesuaikan pesan kesalahan lebih lanjut?
 
-Anda dapat memformat pesan kesalahan menggunakan tag HTML, menambahkan informasi khusus konteks, dan bahkan melokalkan pesan untuk bahasa yang berbeda.
+Anda dapat memformat pesan kesalahan menggunakan tag HTML, menambahkan informasi spesifik konteks, dan bahkan melokalkan pesan untuk bahasa yang berbeda.
 
 ### Dapatkah saya menggunakan ikon atau gambar dalam pesan kesalahan?
 
 Ya, Anda dapat menyematkan gambar atau ikon dalam pesan kesalahan untuk membuatnya lebih menarik secara visual dan informatif.
 
-### Apakah mungkin untuk memvalidasi data di beberapa sel secara bersamaan?
+### Apakah mungkin untuk memvalidasi data dalam beberapa sel secara bersamaan?
 
 Ya, Aspose.Cells untuk Java memungkinkan Anda memvalidasi data dalam beberapa sel dan menentukan pesan kesalahan untuk setiap aturan validasi.
 
@@ -84,13 +84,13 @@ Pesan kesalahan validasi data sangat penting untuk meningkatkan pengalaman pengg
 
 ### Bagaimana saya dapat menyesuaikan pesan kesalahan lebih lanjut?
 
-Anda dapat memformat pesan kesalahan menggunakan tag HTML, menambahkan informasi khusus konteks, dan bahkan melokalkan pesan untuk bahasa yang berbeda.
+Anda dapat memformat pesan kesalahan menggunakan tag HTML, menambahkan informasi spesifik konteks, dan bahkan melokalkan pesan untuk bahasa yang berbeda.
 
 ### Dapatkah saya menggunakan ikon atau gambar dalam pesan kesalahan?
 
 Ya, Anda dapat menyematkan gambar atau ikon dalam pesan kesalahan untuk membuatnya lebih menarik secara visual dan informatif.
 
-### Apakah mungkin untuk memvalidasi data di beberapa sel secara bersamaan?
+### Apakah mungkin untuk memvalidasi data dalam beberapa sel secara bersamaan?
 
 Ya, Aspose.Cells untuk Java memungkinkan Anda memvalidasi data dalam beberapa sel dan menentukan pesan kesalahan untuk setiap aturan validasi.
 

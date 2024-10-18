@@ -17,7 +17,7 @@ Innan du dyker in i de tekniska detaljerna för att hantera Excel-pappersstorlek
 
 1. Grundläggande förståelse för C#: Förtrogenhet med C#-programmering kommer avsevärt att underlätta processen för att integrera Aspose.Cells i dina projekt.
 2. Visual Studio installerad: Se till att du har Visual Studio installerat på din maskin för att skriva och köra C#-kod.
-3.  Aspose.Cells för .NET Library: Du måste skaffa Aspose.Cells. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells för .NET Library: Du måste skaffa Aspose.Cells. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
 4. NuGet Package Manager: Se till att du har tillgång till NuGet Package Manager eftersom du enkelt kan installera Aspose.Cells med den.
 
 Med dessa förutsättningar i åtanke, låt oss komma igång!
@@ -113,7 +113,7 @@ Att hantera pappersstorlekar i Excel-ark blir en bris med Aspose.Cells för .NET
 Ja, du kan komma åt flera kalkylblad i en slinga och tillämpa samma pappersstorleksinställningar på vart och ett.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells är ett kommersiellt bibliotek; men det erbjuder en gratis provperiod. Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera dess fullständiga funktioner.
+ Aspose.Cells är ett kommersiellt bibliotek; dock erbjuder den en gratis provperiod. Du kan begära en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera dess fulla funktioner.
 
 ### Hur hanterar jag undantag när jag arbetar med Aspose.Cells?
 Du kan slå in din kod i ett försök-fångst-block för att hantera eventuella undantag som kan inträffa under manipulering av arbetsbok.

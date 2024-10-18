@@ -9,7 +9,7 @@ url: /vi/java/excel-data-security/
 ---
 
 ## Giới thiệu
-Trong thời đại mà dữ liệu là vua, việc đảm bảo tính bảo mật cho các bảng tính Excel của bạn là tối quan trọng. Cho dù bạn đang xử lý dữ liệu tài chính nhạy cảm, báo cáo kinh doanh bí mật hay bất kỳ thông tin quan trọng nào khác, thì việc bảo vệ các tệp Excel của bạn khỏi sự truy cập và giả mạo trái phép là rất quan trọng. Aspose.Cells for Java cung cấp các công cụ mạnh mẽ để tăng cường bảo mật dữ liệu Excel của bạn và trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước thiết yếu để bảo vệ dữ liệu có giá trị của bạn.
+Trong thời đại mà dữ liệu là vua, việc đảm bảo tính bảo mật cho các bảng tính Excel của bạn là tối quan trọng. Cho dù bạn đang xử lý dữ liệu tài chính nhạy cảm, báo cáo kinh doanh bí mật hay bất kỳ thông tin quan trọng nào khác, thì việc bảo vệ các tệp Excel của bạn khỏi sự truy cập và can thiệp trái phép là rất quan trọng. Aspose.Cells for Java cung cấp các công cụ mạnh mẽ để tăng cường bảo mật dữ liệu Excel của bạn và trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước thiết yếu để bảo vệ dữ liệu có giá trị của bạn.
 
 
 ## Bảo vệ mật khẩu

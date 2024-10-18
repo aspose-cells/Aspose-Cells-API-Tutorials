@@ -16,7 +16,7 @@ Les fichiers Excel sont un élément essentiel de la gestion des données profes
 Avant de nous plonger dans le processus de déprotection proprement dit, vous devez mettre en place quelques éléments :
 
 1. Visual Studio : assurez-vous que Visual Studio est installé pour le développement .NET. Cet environnement facilite l'utilisation des bibliothèques Aspose.Cells en toute transparence.
-2.  Bibliothèque Aspose.Cells : vous devrez installer la bibliothèque Aspose.Cells. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
+2.  Bibliothèque Aspose.Cells : Vous devrez installer la bibliothèque Aspose.Cells. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : une compréhension fondamentale de la programmation C# vous aidera à comprendre comment le code interagit avec la bibliothèque Aspose.Cells.
 4. Exemple de fichier Excel : disposez d'un fichier Excel simple protégé avec ou sans mot de passe pour tester le processus de déprotection.
 5. Microsoft Excel (facultatif) : il est toujours pratique d'avoir Excel à portée de main pour vérifier que les modifications apportées par Aspose.Cells sont exactes.
@@ -82,7 +82,7 @@ Dans cette ligne, nous ciblons la première feuille de calcul. Si vous devez dé
 
 ## Étape 4 : Supprimer la protection de la feuille de calcul
 
-Voici la partie cruciale : déverrouiller la feuille de calcul ! S'il n'y a pas de mot de passe défini, il suffit d'une simple ligne de commande :
+Voici la partie cruciale : déverrouiller la protection de la feuille de calcul ! S'il n'y a pas de mot de passe défini, il suffit d'une simple ligne de commande :
 
 ```csharp
 worksheet.Unprotect();

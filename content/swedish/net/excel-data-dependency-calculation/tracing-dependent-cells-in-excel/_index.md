@@ -84,7 +84,7 @@ Nu när vi har arbetsboken öppen är det dags att lägga vantarna på de enskil
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Förklaring: Ovanstående kod riktar sig till det första kalkylbladet (index 0) i vår arbetsbok och hämtar`Cells` insamling, som vi kommer att arbeta med för att spåra anhöriga.
+Förklaring: Ovanstående kod riktar sig till det första kalkylbladet (index 0) i vår arbetsbok och hämtar`Cells` insamling, som vi kommer att arbeta med för att spåra anhöriga.
 
 ## Steg 4: Välj cellen
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Förklaring: Den här slingan går igenom varje beroende cell i vår array och skriver ut dess namn – ganska enkelt! De`Console.ReadKey()` ser till att konsolfönstret förblir öppet tills du trycker på en tangent, vilket ger dig tid att läsa utdata.
+Förklaring: Den här slingan går igenom varje beroende cell i vår array och skriver ut dess namn – ganska enkelt! De`Console.ReadKey()` ser till att konsolfönstret förblir öppet tills du trycker på en tangent, vilket ger dig tid att läsa utdata.
 
 ## Slutsats
 
@@ -133,7 +133,7 @@ Aspose.Cells är ett kraftfullt bibliotek för hantering av Excel-filer i .NET-a
  Ja! Aspose erbjuder en[gratis provperiod](https://releases.aspose.com/) av deras programvara, så att du kan utforska dess funktioner innan du köper.
 
 ### Hur får jag support för Aspose.Cells?
-Du kan söka stöd genom[Aspose forum](https://forum.aspose.com/c/cells/9), där en grupp användare och experter kan hjälpa dig. 
+ Du kan söka stöd genom[Aspose forum](https://forum.aspose.com/c/cells/9), där en grupp användare och experter kan hjälpa dig. 
 
 ### Är Aspose.Cells lämplig för stora Excel-filer?
 Absolut! Aspose.Cells är utformad för att arbeta effektivt med stora Excel-filer, vilket ger robust hantering och prestanda.

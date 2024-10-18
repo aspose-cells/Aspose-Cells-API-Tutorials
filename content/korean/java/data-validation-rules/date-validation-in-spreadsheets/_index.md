@@ -17,7 +17,7 @@ url: /ko/java/data-validation-rules/date-validation-in-spreadsheets/
 날짜 검증을 시작하기 전에 다음 사항이 준비되었는지 확인하세요.
 - Java 개발 환경 설정.
 -  Java 라이브러리용 Aspose.Cells 다운로드[여기](https://releases.aspose.com/cells/java/).
-- Java로 Excel 파일을 다루는 데 필요한 기본 지식이 필요합니다.
+- Java로 Excel 파일을 다루는 데 필요한 기본 지식.
 
 ## Java용 Aspose.Cells 설정
 

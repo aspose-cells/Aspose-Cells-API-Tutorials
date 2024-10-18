@@ -9,7 +9,7 @@ url: /ko/net/manipulating-chart-types/create-line-chart/
 ---
 ## 소개
 
-데이터를 놀라울 정도로 선명하게 시각화할 준비가 되셨나요? 선형 차트는 시간에 따른 추세나 두 변수 간의 관계를 표시하는 환상적인 방법입니다. 비즈니스 프로젝트의 데이터를 관리하든 개인 지표를 분석하든, 프로그래밍 방식으로 선형 차트를 만들 수 있는 기능은 시간을 절약하고 더 큰 유연성을 제공할 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 선형 차트를 만드는 각 단계를 안내해 드리겠습니다. 뛰어들 준비가 되셨나요? 시작해 볼까요!
+데이터를 놀라울 정도로 선명하게 시각화할 준비가 되셨나요? 선형 차트는 시간에 따른 추세나 두 변수 간의 관계를 표시하는 환상적인 방법입니다. 비즈니스 프로젝트의 데이터를 관리하든 개인 지표를 분석하든, 선형 차트를 프로그래밍 방식으로 만들 수 있는 기능은 시간을 절약하고 더 큰 유연성을 제공할 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 선형 차트를 만드는 각 단계를 안내해 드리겠습니다. 뛰어들 준비가 되셨나요? 시작해 볼까요!
 
 ## 필수 조건
 
@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 다음으로, 새로운 워크북 인스턴스를 만들어야 합니다. 워크북을 창의성이 흘러가는 캔버스로 생각하세요. 
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 이 줄은 모든 데이터와 시각적 내용을 보관하는 새 통합 문서를 초기화합니다.
@@ -67,7 +67,7 @@ Workbook workbook = new Workbook();
 새로 만든 워크북에서 데이터를 입력할 워크시트에 대한 참조를 얻어야 합니다. 워크북이 캔버스라면 워크시트는 팔레트입니다.
 
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  여기서 우리는 첫 번째 워크시트(색인)에 접근합니다.`0`).
@@ -102,7 +102,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Line, 5, 0, 
 차트를 추가한 후에는 새로 만든 차트 개체를 사용할 차례입니다. 
 
 ```csharp
-// 새로 추가된 차트의 인스턴스에 접근하기
+// 새로 추가된 차트의 인스턴스에 액세스하기
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 이 코드는 차트에 연결하여 차트를 더욱 세부적으로 조작할 수 있도록 해줍니다.
@@ -115,7 +115,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 // "A1" 셀부터 "B3" 셀까지의 차트에 SeriesCollection(차트 데이터 소스) 추가
 chart.NSeries.Add("A1:B3", true);
 ```
-이 예에서는 차트에 A1부터 B3 셀의 값을 사용하라고 지시합니다.
+이 예에서는 차트에 A1부터 B3 셀까지의 값을 사용하라고 지시합니다.
 
 ## 8단계: Excel 파일 저장
 

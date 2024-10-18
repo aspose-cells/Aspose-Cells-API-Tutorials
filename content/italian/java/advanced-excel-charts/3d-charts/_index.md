@@ -14,7 +14,7 @@ Aspose.Cells per Java è una potente API Java per lavorare con file Excel, inclu
 
 ## Cosa sono i grafici 3D?
 
-I grafici 3D sono un tipo di visualizzazione dei dati che aggiunge profondità ai grafici 2D tradizionali. Forniscono un modo più immersivo per presentare i dati, rendendo più facile comprendere relazioni complesse all'interno dei set di dati. I grafici 3D possono essere particolarmente utili quando si ha a che fare con dati multidimensionali.
+grafici 3D sono un tipo di visualizzazione dei dati che aggiunge profondità ai grafici 2D tradizionali. Forniscono un modo più immersivo per presentare i dati, rendendo più facile comprendere relazioni complesse all'interno di set di dati. I grafici 3D possono essere particolarmente utili quando si ha a che fare con dati multidimensionali.
 
 ## Perché utilizzare Aspose.Cells per Java per creare grafici 3D?
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Impostazione dell'intervallo di dati per il grafico
 chart.getNSeries().add("A2:B4", true);
 
-// Personalizzazione degli attributi del grafico
+//Personalizzazione degli attributi del grafico
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -144,7 +144,7 @@ In questo articolo, abbiamo esplorato come creare grafici 3D utilizzando Aspose.
 
 ### Come posso aggiungere più serie di dati a un grafico 3D?
 
- Per aggiungere più serie di dati a un grafico 3D, puoi utilizzare`chart.getNSeries().add()` metodo e specifica l'intervallo di dati per ogni serie. Assicurati di impostare il tipo di grafico appropriato per ogni serie per differenziarle.
+ Per aggiungere più serie di dati a un grafico 3D, puoi utilizzare`chart.getNSeries().add()` metodo e specificare l'intervallo di dati per ogni serie. Assicurati di impostare il tipo di grafico appropriato per ogni serie per differenziarle.
 
 ### Posso esportare grafici 3D creati con Aspose.Cells per Java in altri formati?
 

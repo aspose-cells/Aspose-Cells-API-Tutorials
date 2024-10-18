@@ -15,9 +15,9 @@ url: /zh/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-name-csh
 
 在我们开始之前，你需要确保已经准备好以下几件事：
 
-1. Aspose.Cells for .NET Library：这是操作 Excel 文件的核心组件。如果您尚未安装，您可以[从这里下载](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library：这是操作 Excel 文件的核心组件。如果您尚未安装，您可以[从这里下载](https://releases.aspose.com/cells/net/).
 2. 开发环境：您应该设置一个开发环境，最好是 Visual Studio，您可以在其中编写和运行 C# 代码。
-3. 对 C# 的基本了解：虽然我会解释每个步骤，但对 C# 的基本了解将有助于您更好地理解。
+3. 对 C# 的基本了解：虽然我会解释每个步骤，但对 C# 有基本的了解将有助于您更好地理解。
 4. Excel 文件：您应该已经制作了一个 Excel 文件（在本教程中我们将引用“book1.xls”）。您可以为此目的创建一个包含几个工作表的简单文件。
 
 一旦满足了这些先决条件，您就可以开始实际的编码了！
@@ -96,7 +96,7 @@ workbook.Save(dataDir + "output.out.xls");
 ## 常见问题解答
 
 ### Aspose.Cells 可以免费使用吗？
-Aspose.Cells 提供免费试用，但您需要购买许可证才能继续使用。您可以获取免费试用版[这里](https://releases.aspose.com/).
+ Aspose.Cells 提供免费试用，但您需要购买许可证才能继续使用。您可以获取免费试用版[这里](https://releases.aspose.com/).
 
 ### 我可以一次删除多个工作表吗？
 您可以遍历工作表集合并使用循环删除多个工作表。只需确保正确管理索引即可。

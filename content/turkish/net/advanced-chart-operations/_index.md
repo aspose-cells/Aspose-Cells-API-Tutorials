@@ -34,7 +34,7 @@ Elbette! Aspose.Cells for .NET kullanarak gerçekleştirebileceğiniz daha geli�
 
 ## Bir Grafikteki Veri Etiketlerinin Şekil Türünü Ayarlama
 
-Veri etiketlerinizin şeklini özelleştirmek, grafiklerinizi daha etkileşimli ve görsel olarak ilgi çekici hale getirebilir. Etiketleriniz için yuvarlatılmış dikdörtgenler, daireler veya başka şekiller isteyip istemediğinize bakılmaksızın, Aspose.Cells for .NET bu ayarları değiştirmek için kolay bir yol sunar. Bu, veri sunumlarınızın daha profesyonel bir görünümle öne çıkması için harikadır.[Veri etiketlerinin nasıl özelleştirileceğini öğrenin](./set-shape-type-of-data-labels-of-chart/) sadece birkaç basit adımla.
+Veri etiketlerinizin şeklini özelleştirmek, grafiklerinizi daha etkileşimli ve görsel olarak ilgi çekici hale getirebilir. Etiketleriniz için yuvarlatılmış dikdörtgenler, daireler veya diğer şekiller isteyip istemediğinize bakılmaksızın, Aspose.Cells for .NET bu ayarları değiştirmek için kolay bir yol sunar. Bu, veri sunumlarınızın daha profesyonel bir görünümle öne çıkması için harikadır.[Veri etiketlerinin nasıl özelleştirileceğini öğrenin](./set-shape-type-of-data-labels-of-chart/) sadece birkaç basit adımla.
 
 ## Kategori Verilerini ve Grafik Verilerini Ayarlama
 
@@ -42,7 +42,7 @@ Veri etiketlerinizin şeklini özelleştirmek, grafiklerinizi daha etkileşimli 
 
 ## Grafik Serisinin Değer Biçimi Kodunu Ayarla
 
-Bazen, daha iyi bir netlik için grafik serilerinizde sayıların biçimlendirilme biçimini özelleştirmeniz gerekir. Aspose.Cells for .NET, değer biçimi kodlarını tercih ettiğiniz görüntüleme biçimine uyacak şekilde ayarlamanıza olanak tanır. İster para birimi, ister yüzde veya özel sayı biçimlendirmesi olsun, bu özellik verilerinizin nasıl sunulacağı konusunda size tam kontrol sağlar.[Nasıl olduğunu öğrenin](./set-values-format-code-of-chart-series/) format kodlarını kolayca ayarlamak için.
+Bazen, daha iyi bir netlik için grafik serilerinizde sayıların biçimlendirilme biçimini özelleştirmeniz gerekir. Aspose.Cells for .NET, tercih ettiğiniz görüntüleme biçimine uyacak şekilde değer biçimi kodları ayarlamanıza olanak tanır. İster para birimi, ister yüzde veya özel sayı biçimlendirmesi olsun, bu özellik verilerinizin nasıl sunulacağı konusunda size tam kontrol sağlar.[Nasıl olduğunu öğrenin](./set-values-format-code-of-chart-series/) format kodlarını kolayca ayarlamak için.
 
 ## Çözüm
 

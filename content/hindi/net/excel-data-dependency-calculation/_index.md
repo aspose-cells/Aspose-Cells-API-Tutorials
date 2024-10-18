@@ -2,7 +2,7 @@
 title: एक्सेल डेटा निर्भरता और गणना
 linktitle: एक्सेल डेटा निर्भरता और गणना
 second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: अपने Excel स्वचालन कौशल को बढ़ाने के लिए, आश्रित कोशिकाओं का पता लगाने सहित Excel डेटा निर्भरता और गणनाओं को कवर करने वाले .NET ट्यूटोरियल के लिए Aspose.Cells की खोज करें।
+description: अपने Excel स्वचालन कौशल को बढ़ाने के लिए, Excel डेटा निर्भरता और गणनाओं को कवर करने वाले Aspose.Cells for .NET ट्यूटोरियल की खोज करें, जिसमें आश्रित कोशिकाओं का पता लगाना शामिल है।
 type: docs
 weight: 34
 url: /hi/net/excel-data-dependency-calculation/

@@ -63,15 +63,15 @@ Cette ligne pointe vers le répertoire contenant le fichier Excel. Assurez-vous 
 Ensuite, nous allons charger notre classeur. Cela revient à ouvrir votre fichier Excel en arrière-plan, ce qui nous permet de lire et de manipuler son contenu.
 
 ```csharp
-//Charger le classeur
+// Charger le classeur
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Voici ce qui se passe : nous créons une instance de`Workbook` classe et en passant le chemin de notre fichier Excel. Si tout se passe bien, votre classeur est maintenant ouvert aux affaires !
+Voici ce qui se passe : nous créons une instance de`Workbook` classe et en passant le chemin de notre fichier Excel. Si tout se passe bien, votre classeur est maintenant ouvert aux affaires !
 
 ## Étape 3 : Accéder à la feuille de travail
 
-Chaque classeur peut contenir plusieurs feuilles de calcul. Pour cet exemple, nous allons travailler avec la première feuille de calcul. Accédons-y !
+Chaque classeur peut contenir plusieurs feuilles de calcul. Pour cet exemple, nous travaillerons avec la première feuille de calcul. Accédons-y !
 
 ```csharp
 // Obtenir la première feuille de calcul (par défaut)
@@ -96,7 +96,7 @@ Avec cette gamme, nous pouvons facilement récupérer des hyperliens au sein de 
 Voici la partie passionnante : extraire les hyperliens ! Nous allons extraire les hyperliens de notre plage définie.
 
 ```csharp
-// Obtenez des hyperliens à portée
+//Obtenez des hyperliens à portée
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

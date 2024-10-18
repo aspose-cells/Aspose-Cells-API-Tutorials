@@ -1,7 +1,7 @@
 ---
 title: Obter legenda do gráfico para arquivo ODS
 linktitle: Obter legenda do gráfico para arquivo ODS
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Explore como extrair legendas de gráficos de arquivos ODS usando Aspose.Cells para .NET com este guia detalhado passo a passo. Perfeito para desenvolvedores.
 type: docs
 weight: 12
@@ -16,10 +16,10 @@ Arquivos Excel são onipresentes no mundo atual, orientado a dados, servindo com
 Antes de mergulhar no tutorial, você vai querer ter certeza de que configurou tudo o que é necessário para usar o Aspose.Cells for .NET efetivamente. Aqui está uma lista de verificação a seguir:
 
 1. .NET Framework: certifique-se de ter o .NET Framework instalado na sua máquina. 
-2.  Biblioteca Aspose.Cells: Baixe e instale a biblioteca Aspose.Cells. Você pode obtê-la em[aqui](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: Baixe e instale a biblioteca Aspose.Cells. Você pode obtê-la em[aqui](https://releases.aspose.com/cells/net/).
 3. IDE: Embora qualquer editor de código sirva, usar um IDE como o Visual Studio fornece uma plataforma robusta para desenvolvimento .NET.
 4.  Um arquivo ODS de amostra: Você precisará de um arquivo ODS que contenha gráficos. Para este tutorial, usaremos`SampleChart.ods`.
-5. Conhecimento básico de C#: a familiaridade com C# ajudará você a entender os conceitos rapidamente e realizar modificações conforme necessário.
+5. Conhecimento básico de C#: A familiaridade com C# ajudará você a entender os conceitos rapidamente e realizar modificações conforme necessário.
 
 ## Pacotes de importação
 
@@ -39,7 +39,7 @@ Agora, vamos ao que interessa. Siga estas instruções passo a passo para extrai
 Criar um novo projeto de aplicativo de console
 
 - Abra o Visual Studio (ou seu IDE preferido).
--  Crie um novo projeto de aplicativo de console e dê a ele um nome relevante, como`ChartSubtitleExtractor`.
+- Crie um novo projeto de aplicativo de console e dê a ele um nome relevante, como`ChartSubtitleExtractor`.
 
 ## Etapa 2: Adicionar pacote NuGet Aspose.Cells
 
@@ -81,7 +81,7 @@ Com a pasta de trabalho carregada, agora você pode acessar a planilha específi
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Esta linha simples de código permite que você segmente a primeira planilha dentro da pasta de trabalho onde seu gráfico reside.
+Esta linha simples de código permite que você direcione a primeira planilha dentro da pasta de trabalho onde seu gráfico reside.
 
 ## Etapa 6: Acesse o gráfico
 
@@ -97,7 +97,7 @@ Chart chart = worksheet.Charts[0];
 
 Extraia a legenda do gráfico
 
-Finalmente, esta etapa é onde a mágica acontece – você obterá o subtítulo do objeto do gráfico e o exibirá. Ao converter o texto do subtítulo em uma string, você pode facilmente lê-lo ou manipulá-lo mais adiante, conforme necessário.
+Finalmente, esta etapa é onde a mágica acontece – você obterá a legenda do objeto do gráfico e a exibirá. Ao converter o texto da legenda em uma string, você pode facilmente lê-la ou manipulá-la conforme necessário.
 
 ```csharp
 Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
@@ -117,7 +117,7 @@ Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
 
 ## Conclusão
 
-E aí está! Em apenas algumas etapas simples, você aprendeu como extrair o subtítulo do gráfico de um arquivo ODS usando o Aspose.Cells para .NET. Lembre-se, embora este guia tenha se concentrado em subtítulos, a biblioteca oferece uma ampla gama de funcionalidades, incluindo trabalhar com diferentes tipos de gráficos, manipular dados e automatizar tarefas. Então, se você está fazendo a curadoria de relatórios ou desenvolvendo aplicativos baseados em dados, o Aspose.Cells pode ser uma ferramenta útil em seu arsenal.
+aí está! Em apenas algumas etapas simples, você aprendeu como extrair o subtítulo do gráfico de um arquivo ODS usando o Aspose.Cells para .NET. Lembre-se, embora este guia tenha se concentrado em subtítulos, a biblioteca oferece uma ampla gama de funcionalidades, incluindo trabalhar com diferentes tipos de gráficos, manipular dados e automatizar tarefas. Então, se você está fazendo a curadoria de relatórios ou desenvolvendo aplicativos baseados em dados, o Aspose.Cells pode ser uma ferramenta útil em seu arsenal.
 
 ## Perguntas frequentes
 
@@ -134,4 +134,4 @@ Sim, você pode experimentar o Aspose.Cells com uma avaliação gratuita dispon�
 Você pode solicitar uma licença temporária para fins de avaliação na plataforma de compra da Aspose.
 
 ### Onde posso encontrar suporte para o Aspose.Cells?
-O suporte está disponível no fórum Aspose, onde você pode fazer perguntas e encontrar soluções existentes.
+suporte está disponível no fórum Aspose, onde você pode fazer perguntas e encontrar soluções existentes.

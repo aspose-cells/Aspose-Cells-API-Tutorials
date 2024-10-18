@@ -54,7 +54,7 @@ string outputDir = "Your Output Directory";
 
 ## Paso 2: Cargue el archivo Excel de origen
 
-Ahora que hemos configurado nuestros directorios, es hora de cargar el archivo Excel con el que queremos trabajar.
+Ahora que hemos configurado nuestros directorios, es hora de cargar el archivo de Excel con el que queremos trabajar.
 
 Cargar un archivo de Excel es como abrir un libro antes de leerlo. Sin abrirlo, no se puede profundizar en su contenido. 
 

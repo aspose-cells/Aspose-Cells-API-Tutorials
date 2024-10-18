@@ -19,7 +19,7 @@ Excel ファイルの生成と操作に関しては、印刷設定を制御で�
 2. Visual Studio がインストールされている: C# コードを記述するには IDE が必要です。強力な機能と使いやすさから、Visual Studio が強く推奨されます。
 3. Aspose.Cells for .NET: Aspose.Cellsライブラリを入手してください。簡単にダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
 4. .NET Framework: お使いのマシンに Aspose.Cells と互換性のある .NET Framework がインストールされていることを確認します。
-5. ライセンスキー: Aspose.Cellsは無料トライアルを提供していますが、本番環境で使用する予定がある場合はライセンスの購入を検討してください。[ここ](https://purchase.aspose.com/buy).
+5. ライセンスキー: Aspose.Cellsは無料トライアルを提供していますが、本番環境で使用する予定の場合はライセンスの購入を検討してください。[ここ](https://purchase.aspose.com/buy).
 
 ## パッケージのインポート
 
@@ -104,7 +104,7 @@ Aspose.Cells for .NET を使用して Excel ファイルの印刷品質を設定
 ### Aspose.Cells は無料で使用できますか?  
 Aspose.Cells は無料試用版を提供していますが、長期使用にはライセンスを購入する必要があります。
 
-### 印刷品質を変更するとファイル サイズに影響しますか?  
+### 印刷品質を変更するとファイルサイズに影響しますか?  
 はい、印刷品質が高くなると通常はファイル サイズが大きくなりますが、出力品質は向上します。
 
 ### Aspose.Cells に関するその他のリソースはどこで見つかりますか?  

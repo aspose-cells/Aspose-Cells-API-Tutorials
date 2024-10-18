@@ -9,7 +9,7 @@ url: /it/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 ---
 ## Introduzione
 
-Quando si tratta di modificare fogli di calcolo Excel, una delle funzionalità più potenti che torna utile è la possibilità di proteggere determinate aree consentendo modifiche in altre. Ciò può essere incredibilmente utile in ambienti collaborativi in cui più utenti hanno bisogno di accedere ma devono modificare solo celle designate. Oggi, approfondiremo come sfruttare Aspose.Cells per .NET per gestire intervalli modificabili all'interno di un foglio di lavoro Excel. Quindi, prendi la tua bevanda di programmazione preferita e iniziamo!
+Quando si tratta di modificare fogli di calcolo Excel, una delle funzionalità più potenti che torna utile è la possibilità di proteggere determinate aree consentendo modifiche in altre. Ciò può essere incredibilmente utile in ambienti collaborativi in cui più utenti devono accedere ma devono modificare solo celle designate. Oggi, approfondiremo come sfruttare Aspose.Cells per .NET per gestire intervalli modificabili all'interno di un foglio di lavoro Excel. Quindi, prendi la tua bevanda di programmazione preferita e iniziamo!
 
 ## Prerequisiti
 
@@ -17,7 +17,7 @@ Prima di buttarci nella codifica, assicuriamoci che tutto sia pronto. Ecco cosa 
 
 1. Visual Studio: assicurati di avere Visual Studio installato. La community edition funziona perfettamente.
 2.  Libreria Aspose.Cells: hai bisogno della libreria Aspose.Cells per .NET. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
-3. Conoscenza di base del linguaggio C#: una conoscenza di base del linguaggio C# sarà molto utile.
+3. Conoscenza di base del linguaggio C#: una conoscenza fondamentale del linguaggio C# sarà molto utile.
 4. Impostazione del progetto: creare una nuova applicazione console C# in Visual Studio.
 
 Flawless: sei pronto! Ora, tuffiamoci nei dettagli del codice.
@@ -41,7 +41,7 @@ Diamo un'occhiata al codice per creare una directory (se non esiste già):
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Creare la directory se non è già presente.
+//Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -80,7 +80,7 @@ Prima di poter impostare gli intervalli modificabili, dobbiamo recuperare la rac
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 ```
 
-Questa riga recupera la collezione in cui gestirai i tuoi range protetti. È bene sapere cosa c'è sotto il cofano!
+Questa riga recupera la collezione in cui gestirai i tuoi range protetti. È bene sapere cosa c'è di disponibile sotto il cofano!
 
 ## Passaggio 5: definire e creare un intervallo protetto
 

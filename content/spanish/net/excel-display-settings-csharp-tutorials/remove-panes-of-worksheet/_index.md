@@ -24,7 +24,7 @@ Ahora que tenemos nuestras herramientas y conocimientos listos, pasemos a import
 
 ## Importar paquetes
 
-Antes de comenzar a codificar, debemos importar los paquetes relevantes de la biblioteca Aspose.Cells. Esto nos permitirá utilizar todas las excelentes funciones que ofrece la biblioteca. Esto es lo que debes incluir en la parte superior de tu archivo C#:
+Antes de comenzar a codificar, debemos importar los paquetes relevantes de la biblioteca Aspose.Cells. Esto nos permitirá utilizar todas las excelentes funciones que ofrece la biblioteca. Esto es lo que debe incluir en la parte superior de su archivo C#:
 
 ```csharp
 using System.IO;

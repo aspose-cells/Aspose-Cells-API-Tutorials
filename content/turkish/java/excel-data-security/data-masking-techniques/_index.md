@@ -34,7 +34,7 @@ Veri maskeleme çeşitli nedenlerle önemlidir:
 - Uyumluluk: GDPR ve HIPAA gibi pek çok düzenleme kişisel ve gizli bilgilerin korunmasını zorunlu kılmaktadır.
 - Test ve Geliştirme: Maskelenmiş veriler, geliştiricilerin ve test uzmanlarının güvenlikten ödün vermeden gerçekçi veri kümeleriyle çalışmasına olanak tanır.
 
-## Java için Aspose.Cells ile Başlarken
+## Java için Aspose.Cells'e Başlarken
 
 Veri maskeleme tekniklerini uygulayabilmemiz için öncelikle Java ortamımızı ayarlayalım ve Aspose.Cells kütüphanesini ekleyelim.
 
@@ -78,7 +78,7 @@ cell.setFormulaLocal("REDACT()");
 
 ### 2. İkame
 
-İkame, veri bütünlüğünü korumak için veriyi benzer ancak kurgusal bilgilerle değiştirme işlemidir.
+İkame, veri bütünlüğünü korumak için verilerin benzer ancak kurgusal bilgilerle değiştirilmesidir.
 
 ```java
 // Bir hücrenin değerini değiştir

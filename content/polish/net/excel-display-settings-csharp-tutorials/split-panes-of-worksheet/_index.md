@@ -102,7 +102,7 @@ Podział paneli umożliwia niezależne przewijanie w obu panelach. Zamrożenie p
 Tak, możesz usunąć podział, zamykając i ponownie otwierając skoroszyt lub resetując go programowo.
 
 ### Czy dzielenie paneli działa tak samo w przypadku różnych formatów plików Excel (XLS, XLSX)?  
- Tak,`Split()` Metoda działa zarówno w przypadku formatów XLS, jak i XLSX.
+ Tak,`Split()` Metoda ta działa zarówno w przypadku formatów XLS, jak i XLSX.
 
 ### Czy mogę używać Aspose.Cells bez licencji?  
  Tak, ale ma swoje ograniczenia. Aby w pełni skorzystać z doświadczenia, najlepiej jest użyć[tymczasowy](https://purchase.aspose.com/temporary-license/) Lub[płatna licencja](https://purchase.aspose.com/buy).

@@ -9,7 +9,7 @@ url: /tr/net/excel-page-breaks/excel-clear-all-page-breaks/
 ---
 ## giriiş
 
-Excel ile uğraştıysanız, sayfa sonlarının hem bir nimet hem de bir lanet olabileceğini bilirsiniz. Bunlar, elektronik tablonuzun düzenini yazdırma için düzenlemenize yardımcı olur, ancak bazen karmaşık veya yanlış yerleştirilmiş olabilirler. İster bir rapor, ister bir mali tablo veya basit bir ev bütçesi hazırlıyor olun, Excel dosyanızdaki tüm sayfa sonlarını nasıl temizleyeceğinizi bulmak, ihtiyacınız olan düzenleme olabilir. .NET için Aspose.Cells'e girin; Excel dosyalarını yönetmeyi çocuk oyuncağı haline getiren sağlam bir kütüphane. Bu makalede, bir Excel çalışma sayfasındaki tüm sayfa sonlarını adım adım nasıl temizleyeceğinize bakacağız, böylece ter dökmeden kontrol ve netlik elde edeceksiniz. Emniyet kemerlerinizi bağlayın; başlayalım!
+Excel ile uğraştıysanız, sayfa sonlarının hem bir nimet hem de bir lanet olabileceğini bilirsiniz. Bunlar, elektronik tablonuzun düzenini yazdırma için düzenlemenize yardımcı olur, ancak bazen karmaşık veya yanlış yerleştirilmiş olabilirler. İster bir rapor, ister bir mali tablo veya basit bir ev bütçesi hazırlıyor olun, Excel dosyanızdaki tüm sayfa sonlarını nasıl temizleyeceğinizi bulmak, ihtiyacınız olan düzenleme olabilir. .NET için Aspose.Cells'e girin; Excel dosyalarını yönetmeyi çocuk oyuncağı haline getiren sağlam bir kütüphane. Bu makalede, Excel çalışma sayfasındaki tüm sayfa sonlarını adım adım nasıl temizleyeceğinize bakacağız, böylece ter dökmeden kontrol ve netlik elde edeceksiniz. Emniyet kemerlerinizi bağlayın; başlayalım!
 
 ## Ön koşullar
 
@@ -103,5 +103,5 @@ Aspose.Cells for .NET, Excel dosyalarını .NET uygulamalarınız içerisinde so
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
  Aspose.Cells'in tüm özelliklerinin kilidini açmak için geçici bir lisans başvurusunda bulunmak için şu adresi ziyaret edebilirsiniz:[bu sayfa](https://purchase.aspose.com/temporary-license/).
 
-### Aspose.Cells hangi formatları destekler?
+### Aspose.Cells hangi formatları destekliyor?
 Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli elektronik tablo formatlarını destekler.

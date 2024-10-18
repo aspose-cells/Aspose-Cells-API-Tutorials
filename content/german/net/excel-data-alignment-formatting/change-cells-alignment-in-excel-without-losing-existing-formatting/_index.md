@@ -9,7 +9,7 @@ url: /de/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-wit
 ---
 ## Einführung
 
-Die Verwaltung von Excel-Dateien kann sich manchmal wie das Navigieren durch ein Labyrinth anfühlen, insbesondere wenn es darum geht, die Formatierung beizubehalten und gleichzeitig wichtige Anpassungen wie die Änderung der Zellausrichtung vorzunehmen. Wenn Sie jemals versucht haben, die Ausrichtung von Zellen in Excel zu optimieren, nur um festzustellen, dass die Formatierung gestört wurde, sind Sie nicht allein! In diesem Tutorial werden wir uns damit befassen, wie Sie die Ausrichtung von Excel-Zellen ändern können, ohne die Formatierung zu verlieren, indem Sie Aspose.Cells für .NET verwenden. Krempeln wir die Ärmel hoch und legen los!
+Die Verwaltung von Excel-Dateien kann sich manchmal wie das Navigieren durch ein Labyrinth anfühlen, insbesondere wenn es darum geht, die Formatierung beizubehalten und gleichzeitig wichtige Anpassungen wie die Änderung der Zellausrichtung vorzunehmen. Wenn Sie jemals versucht haben, die Ausrichtung von Zellen in Excel zu optimieren, nur um festzustellen, dass die Formatierung gestört wird, sind Sie nicht allein! In diesem Tutorial werden wir uns damit befassen, wie Sie die Ausrichtung von Excel-Zellen ändern können, ohne die Formatierung zu verlieren, indem Sie Aspose.Cells für .NET verwenden. Krempeln wir die Ärmel hoch und legen los!
 
 ## Voraussetzungen
 
@@ -18,7 +18,7 @@ Bevor wir mit der eigentlichen Codierung beginnen, müssen Sie sicherstellen, da
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio (jede Version, die .NET unterstützt) auf Ihrem Computer installiert ist.
 2.  Aspose.Cells für .NET: Laden Sie die Aspose.Cells-Bibliothek herunter und installieren Sie sie von[Asposes Website](https://releases.aspose.com/cells/net/).
 3. Grundkenntnisse in C#: Ein wenig Vertrautheit mit der C#-Programmierung ist hilfreich, da wir in einem C#-Kontext arbeiten werden.
-4. Beispiel-Excel-Datei: Lassen Sie zur Veranschaulichung eine Beispiel-Excel-Datei vorbereiten (z. B.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), das eine anfängliche Zellenformatierung enthält.
+4.  Beispiel-Excel-Datei: Lassen Sie zur Demonstration eine Beispiel-Excel-Datei vorbereiten (z. B.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), das eine anfängliche Zellenformatierung enthält.
 
 ## Pakete importieren
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Durch die Einstellung der`Alignments` Eigenschaft der StyleFlag auf`true`weisen Sie Aspose.Cells an, die Ausrichtungsstile richtig anzuwenden.
+ Durch die Einstellung der`Alignments`Eigenschaft der StyleFlag auf`true`weisen Sie Aspose.Cells an, die Ausrichtungsstile richtig anzuwenden.
 
 ## Schritt 7: Den Stil auf den Zellbereich anwenden
 

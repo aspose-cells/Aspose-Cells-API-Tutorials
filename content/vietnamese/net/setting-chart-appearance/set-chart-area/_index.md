@@ -17,7 +17,7 @@ Trước khi đi sâu vào chi tiết tạo biểu đồ, hãy đảm bảo bạ
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nó rất cần thiết để viết và thực thi mã .NET.
 2. .NET Framework: Hướng dẫn này hoạt động tốt nhất với .NET Framework hoặc .NET Core. Đảm bảo bạn đã cài đặt phiên bản bắt buộc (4.5 trở lên).
-3. Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt các bước tốt hơn. Đừng lo lắng nếu bạn không phải là chuyên gia—tôi sẽ giải thích mọi thứ!
 
 ## Nhập gói
@@ -26,7 +26,7 @@ Bây giờ bạn đã thiết lập xong, bước kỹ thuật đầu tiên liê
 
 1. Mở dự án của bạn: Khởi chạy Visual Studio và mở hoặc tạo một dự án mới.
 2. Cài đặt Aspose.Cells: Nếu bạn chưa thực hiện, hãy cài đặt gói Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet Package Manager. Vào Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution, tìm kiếm "Aspose.Cells" và cài đặt vào dự án của bạn.
-3. Thêm Sử dụng Chỉ thị: Ở đầu tệp mã của bạn, hãy thêm các chỉ thị sử dụng sau:
+3. Thêm Chỉ thị bằng cách sử dụng: Ở đầu tệp mã của bạn, hãy thêm các chỉ thị bằng cách sử dụng sau:
 
 ```csharp
 using System;
@@ -56,7 +56,7 @@ Dòng này tạo một bảng tính Excel mới. Khá đơn giản, phải khôn
 
 Sau khi có bảng tính, nhiệm vụ tiếp theo là truy cập vào trang tính nơi chúng ta sẽ thêm dữ liệu và biểu đồ.
 
-Để có được bảng tính đầu tiên trong bảng tính mới tạo của bạn, bạn có thể thực hiện như sau:
+Để lấy bảng tính đầu tiên trong bảng tính mới tạo của bạn, bạn có thể thực hiện như sau:
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -131,7 +131,7 @@ chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 ```
 
-Chúng ta có vùng đồ thị màu xanh, vùng biểu đồ màu vàng và chuỗi dữ liệu đầu tiên màu đỏ. Hãy thoải mái thử nghiệm với các màu khác nhau!
+Chúng tôi có vùng đồ thị màu xanh, vùng biểu đồ màu vàng và chuỗi dữ liệu đầu tiên màu đỏ. Hãy thoải mái thử nghiệm với các màu khác nhau!
 
 ### Độ dốc cho Diện tích Chuỗi
 
@@ -141,11 +141,11 @@ Chúng ta có vùng đồ thị màu xanh, vùng biểu đồ màu vàng và chu
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Hiệu ứng chuyển màu giúp tăng thêm nét chuyên nghiệp cho biểu đồ của bạn.
+Độ dốc tăng thêm nét chuyên nghiệp cho biểu đồ của bạn.
 
 ## Bước 8: Lưu sổ làm việc của bạn
 
-Cuối cùng, sau khi đã thiết lập vùng biểu đồ theo ý muốn, đã đến lúc lưu lại mọi công sức của bạn.
+Cuối cùng, khi bạn đã thiết lập xong vùng biểu đồ theo ý muốn, đã đến lúc lưu lại mọi công sức của bạn.
 
 Hãy lưu lại sổ làm việc để không làm mất kiệt tác của mình:
 
@@ -174,4 +174,4 @@ Có! Aspose.Cells có các thư viện cho nhiều nền tảng khác nhau, bao 
  Bạn có thể tìm kiếm sự giúp đỡ và hỗ trợ từ cộng đồng Aspose.Cells và các diễn đàn có sẵn[đây](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể mua giấy phép bằng cách nào?
-Bạn có thể mua giấy phép trực tiếp từ trang web Aspose[đây](https://purchase.aspose.com/buy).
+ Bạn có thể mua giấy phép trực tiếp từ trang web Aspose[đây](https://purchase.aspose.com/buy).

@@ -2,7 +2,7 @@
 title: Análisis avanzado de datos en Excel
 linktitle: Análisis avanzado de datos en Excel
 second_title: API de procesamiento de Excel en Java Aspose.Cells
-description: Domine el análisis avanzado de datos en Excel con Aspose.Cells para Java. Aprenda paso a paso con ejemplos de código fuente.
+description: Domine el análisis de datos avanzado en Excel con Aspose.Cells para Java. Aprenda paso a paso con ejemplos de código fuente.
 type: docs
 weight: 12
 url: /es/java/excel-data-analysis/advanced-data-analysis-excel/

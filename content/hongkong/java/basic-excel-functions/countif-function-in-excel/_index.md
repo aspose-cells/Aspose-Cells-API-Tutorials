@@ -122,13 +122,13 @@ Aspose.Cells for Java 提供了 Excel 自動化的進階功能和選項。瀏覽
 
 ## 結論
 
-在本文中，我們學習如何使用 Aspose.Cells for Java 在 Excel 中使用 COUNTIF 函數。 Aspose.Cells 提供了一種在 Java 應用程式中自動執行 Excel 任務的無縫方法，從而更輕鬆地有效地處理和分析資料。
+在本文中，我們學習如何使用 Aspose.Cells for Java 在 Excel 中使用 COUNTIF 函數。 Aspose.Cells 提供了一種在 Java 應用程式中自動執行 Excel 任務的無縫方法，使高效地處理和分析資料變得更加容易。
 
 ## 常見問題解答
 
 ### 如何安裝 Aspose.Cells for Java？
 
-若要安裝 Aspose.Cells for Java，請從下列位址下載程式庫：[這裡](https://releases.aspose.com/cells/java/)並將 JAR 檔案加入到 Java 專案的類別路徑中。
+若要安裝 Aspose.Cells for Java，請從下列位置下載程式庫：[這裡](https://releases.aspose.com/cells/java/)並將 JAR 檔案加入到 Java 專案的類別路徑中。
 
 ### 我可以自訂 COUNTIF 函數的條件嗎？
 

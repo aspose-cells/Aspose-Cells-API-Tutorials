@@ -43,7 +43,7 @@ Pour commencer, vous devez créer une instance d'un classeur. Il s'agit de la ba
 Workbook wb = new Workbook();
 ```
 
- En initialisant`Workbook`nous créons un nouveau fichier Excel en mémoire, prêt à être manipulé.
+ En initialisant`Workbook`, nous créons un nouveau fichier Excel en mémoire, prêt à être manipulé.
 
 ## Étape 2 : Configurer les paramètres du classeur
 
@@ -77,7 +77,7 @@ Cell c = ws.Cells["A1"];
 c.PutValue(2347);
 ```
 
- En utilisant`PutValue` , nous insérons le numéro`2347` dans la cellule « A1 ». 
+ En utilisant`PutValue` , nous insérons le numéro`2347` dans la cellule « A1 ». 
 
 ## Étape 5 : définir le style de la cellule
 

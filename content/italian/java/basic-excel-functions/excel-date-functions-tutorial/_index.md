@@ -139,13 +139,13 @@ System.out.println("End of Month: " + endOfMonth);
 
 ## Conclusione
 
-Questo tutorial ha fornito una panoramica completa delle funzioni data di Excel e di come utilizzarle tramite Aspose.Cells per Java. Hai imparato come impostare Aspose.Cells, utilizzare le funzioni DATE, TODAY, DATEDIF ed EOMONTH ed eseguire calcoli di data a livello di programmazione. Con questa conoscenza, puoi semplificare le tue attività relative alle date in Excel e migliorare le tue applicazioni Java.
+Questo tutorial ha fornito una panoramica completa delle funzioni data di Excel e di come utilizzarle utilizzando Aspose.Cells per Java. Hai imparato come impostare Aspose.Cells, utilizzare le funzioni DATE, TODAY, DATEDIF ed EOMONTH ed eseguire calcoli di data a livello di programmazione. Con questa conoscenza, puoi semplificare le tue attività relative alle date in Excel e migliorare le tue applicazioni Java.
 
 ## Domande frequenti
 
 ### Come formatto le date in Aspose.Cells per Java?
 
- La formattazione delle date in Aspose.Cells è semplice. Puoi usare`Style` classe per definire i formati di data e applicarli alle celle. Ad esempio, per visualizzare le date nel formato "dd-MM-yyyy":
+ La formattazione delle date in Aspose.Cells è semplice. Puoi usare`Style` classe per definire i formati data e applicarli alle celle. Ad esempio, per visualizzare le date nel formato "dd-MM-yyyy":
 
 ```java
 // Crea uno stile di data

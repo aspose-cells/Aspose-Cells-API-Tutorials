@@ -56,7 +56,7 @@ Maintenant que le répertoire du document est configuré, l’étape suivante co
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Ici, nous créons un`Workbook`objet en transmettant le chemin complet du fichier Excel. Cette étape initialise le classeur et le prépare pour la récupération des données.
+ Ici, nous créons un`Workbook` objet en transmettant le chemin complet du fichier Excel. Cette étape initialise le classeur et le prépare pour la récupération des données.
 
 ## Étape 3 : Accéder à la première feuille de travail
 
@@ -68,7 +68,7 @@ Après avoir ouvert le classeur, vous devez accéder à la feuille de calcul sp�
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Le`Worksheets` La collection permet d'accéder aux différentes feuilles du classeur. L'index`[0]` fait référence à la première feuille de calcul. Si vous souhaitez accéder aux feuilles suivantes, vous pouvez modifier l'index en conséquence.
+ Le`Worksheets` La collection permet d'accéder aux différentes feuilles du classeur. L'index`[0]`fait référence à la première feuille de calcul. Si vous souhaitez accéder aux feuilles suivantes, vous pouvez modifier l'index en conséquence.
 
 ## Étape 4 : Parcourir les cellules
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Évaluation du type de données des données de la cellule pour la valeur date/heure
+        // Évaluation du type de données des données de la cellule pour la valeur date/heure
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Dans cette étape, nous parcourons chaque cellule de la feuille de calcul. Pour chaque cellule, nous vérifions son type de données à l'aide d'un`switch` instruction. Selon le type, nous récupérons la valeur et l'imprimons sur la console. Voici une répartition des cas :
+ Dans cette étape, nous parcourons chaque cellule de la feuille de calcul. Pour chaque cellule, nous vérifions son type de données à l'aide d'un`switch`instruction. Selon le type, nous récupérons la valeur et l'imprimons sur la console. Voici une répartition des cas :
 
 -  IsString : Si la cellule contient une chaîne, nous la récupérons en utilisant`StringValue`.
 -  IsNumeric : Pour les valeurs numériques, nous utilisons`DoubleValue`.
@@ -143,7 +143,7 @@ La récupération de données à partir de cellules Excel à l'aide d'Aspose.Cel
 Aspose.Cells est une bibliothèque .NET qui permet aux développeurs de créer, manipuler et convertir des fichiers Excel sans avoir besoin d'installer Microsoft Excel.
 
 ### Puis-je utiliser Aspose.Cells gratuitement ?  
- Oui, Aspose.Cells propose un essai gratuit que vous pouvez utiliser pour tester ses fonctionnalités. Vous pouvez le télécharger[ici](https://releases.aspose.com/).
+Oui, Aspose.Cells propose un essai gratuit que vous pouvez utiliser pour tester ses fonctionnalités. Vous pouvez le télécharger[ici](https://releases.aspose.com/).
 
 ### Quels types de données puis-je récupérer à partir de cellules Excel ?  
 Vous pouvez récupérer différents types de données, notamment des chaînes, des nombres, des booléens et des valeurs de date/heure.

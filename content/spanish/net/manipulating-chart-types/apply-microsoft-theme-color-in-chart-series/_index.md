@@ -79,7 +79,7 @@ Al igual que cuando pasamos a una página específica de un libro, este paso nos
 Ahora es el momento de encontrar el gráfico que queremos modificar. ¡Aquí es donde realmente comienza la magia!
 
 ```csharp
-//Obtenga el primer gráfico en la hoja
+// Obtenga el primer gráfico en la hoja
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Aquí tomamos la configuración de color para la serie de gráficos.
  Ahora, apliquemos un color de tema de Microsoft. Elegiremos un`Accent` estilo porque ¿a quién no le gusta un toque de color?
 
 ```csharp
-//Crear un tema en estilo Accent
+// Crear un tema en estilo Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -155,7 +155,7 @@ Personalizar gráficos con Aspose.Cells para .NET es sencillo y eficaz. Si sigue
 ## Preguntas frecuentes
 
 ### ¿Qué es Aspose.Cells?
-Aspose.Cells es una potente biblioteca utilizada para manipular archivos de Excel en aplicaciones .NET, lo que permite a los usuarios crear, modificar y convertir documentos de Excel.
+Aspose.Cells es una potente biblioteca utilizada para manipular archivos de Excel en aplicaciones .NET, permitiendo a los usuarios crear, modificar y convertir documentos de Excel.
 
 ### ¿Necesito una licencia para utilizar Aspose.Cells?
  Sí, aunque hay una versión de prueba gratuita disponible, se requiere una licencia para el uso comercial continuo. Puede explorar las opciones de licencia[aquí](https://purchase.aspose.com/buy).

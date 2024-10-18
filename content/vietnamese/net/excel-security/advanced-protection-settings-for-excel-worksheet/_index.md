@@ -9,7 +9,7 @@ url: /vi/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 ---
 ## Giới thiệu
 
-Trong thời đại kỹ thuật số, việc quản lý và bảo mật dữ liệu của bạn quan trọng hơn bao giờ hết. Các bảng tính Excel thường được sử dụng để lưu trữ thông tin nhạy cảm và bạn có thể muốn kiểm soát ai có thể làm gì trong các bảng tính đó. Hãy nhập Aspose.Cells cho .NET, một công cụ mạnh mẽ cho phép bạn thao tác các tệp Excel theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cài đặt bảo vệ nâng cao cho các bảng tính Excel, đảm bảo dữ liệu của bạn vẫn an toàn trong khi vẫn cho phép khả năng sử dụng thiết yếu. 
+Trong thời đại kỹ thuật số, việc quản lý và bảo mật dữ liệu của bạn quan trọng hơn bao giờ hết. Các bảng tính Excel thường được sử dụng để lưu trữ thông tin nhạy cảm và bạn có thể muốn kiểm soát ai có thể làm gì trong các bảng tính đó. Hãy nhập Aspose.Cells cho .NET, một công cụ mạnh mẽ cho phép bạn thao tác các tệp Excel theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cài đặt bảo vệ nâng cao cho các bảng tính Excel, đảm bảo dữ liệu của bạn vẫn an toàn trong khi vẫn cho phép khả năng sử dụng cần thiết. 
 
 ## Điều kiện tiên quyết 
 
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Bây giờ chúng ta đã có một luồng tập tin, chúng ta có thể tạo một`Workbook` sự vật.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Với mục đích của chúng ta, chúng ta sẽ chỉ làm việc với bảng tính đầu tiên. Hãy truy cập vào nó.
 
 ```csharp
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Các bảng tính được lập chỉ mục bắt đầu từ số không, vì vậy`Worksheets[0]` tham chiếu đến trang tính đầu tiên trong tệp Excel. Bây giờ, chúng ta có thể áp dụng cài đặt bảo vệ cho trang tính cụ thể này.

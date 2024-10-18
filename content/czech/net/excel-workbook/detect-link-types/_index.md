@@ -2,7 +2,7 @@
 title: Detekce typů odkazů
 linktitle: Detekce typů odkazů
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Snadné kroky a příklady kódu v ceně.
+description: Naučte se detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells for .NET. Zahrnuty jednoduché kroky a příklady kódu.
 type: docs
 weight: 80
 url: /cs/net/excel-workbook/detect-link-types/
@@ -63,11 +63,11 @@ Tento řádek ukazuje na adresář obsahující soubor Excel. Nezapomeňte uprav
 Dále načteme náš sešit. Je to jako otevřít soubor Excel na pozadí, což nám umožňuje číst a manipulovat s jeho obsahem.
 
 ```csharp
-//Načtěte sešit
+// Načtěte sešit
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Zde je to, co se děje: vytváříme instanci souboru`Workbook` třídy a předání cesty k našemu souboru Excel. Pokud vše půjde hladce, váš sešit je nyní otevřený!
+Zde je to, co se děje: vytváříme instanci souboru`Workbook` třídy a předání cesty k našemu souboru Excel. Pokud vše půjde hladce, váš sešit je nyní otevřený!
 
 ## Krok 3: Otevřete sešit
 
@@ -96,7 +96,7 @@ S tímto rozsahem můžeme snadno načíst hypertextové odkazy v těchto buňk�
 Zde přichází ta vzrušující část: vytahování hypertextových odkazů! Extrahujeme hypertextové odkazy z našeho definovaného rozsahu.
 
 ```csharp
-// Získejte hypertextové odkazy v dosahu
+//Získejte hypertextové odkazy v dosahu
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 
@@ -141,7 +141,7 @@ Aspose.Cells můžete nainstalovat přes NuGet ve Visual Studiu vyhledáním „
 Absolutně! Aspose.Cells umí číst i vytvářet soubory Excel, což umožňuje rozsáhlé možnosti manipulace s daty a vytváření sestav.
 
 ### S jakými typy hypertextových odkazů mohu pracovat?  
-souborech Excel můžete pracovat s interními, externími, e-mailovými a dokonce i typy odkazů na jiné dokumenty.
+V souborech Excel můžete pracovat s interními, externími, e-mailovými a dokonce i typy odkazů na jiné dokumenty.
 
 ### Kde mohu získat podporu pro Aspose.Cells?  
  Podporu získáte na fóru Aspose[zde](https://forum.aspose.com/c/cells/9).

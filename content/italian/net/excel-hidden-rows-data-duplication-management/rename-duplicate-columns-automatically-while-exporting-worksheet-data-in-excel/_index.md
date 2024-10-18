@@ -15,7 +15,7 @@ Prima di addentrarci nei dettagli tecnici, assicuriamoci che tu abbia tutto il n
 2. Aspose.Cells per .NET: dovrai scaricare e installare Aspose.Cells. Puoi farlo da[Qui](https://releases.aspose.com/cells/net/)È una potente libreria che semplifica il lavoro con i file Excel.
 3. Conoscenza di base di C#: è necessaria una conoscenza fondamentale della programmazione C#, poiché scriveremo frammenti di codice all'interno del linguaggio.
 4. .NET Framework: dovresti avere installato .NET Framework. Questo tutorial è applicabile ai progetti .NET Framework.
-Una volta soddisfatti questi prerequisiti, siamo pronti per immergerci nel codice!
+Una volta soddisfatti questi prerequisiti, siamo pronti a immergerci nel codice!
 ## Importa pacchetti
 Ora che hai a disposizione tutti gli strumenti necessari, iniziamo importando i pacchetti richiesti per Aspose.Cells. Questo è un passaggio cruciale, poiché importare i namespace giusti ci consente di accedere senza problemi alle funzionalità della libreria.
 ### Apri il tuo progetto
@@ -70,7 +70,7 @@ opts.RenameStrategy = RenameStrategy.Letter;
 ```
  Impostando`ExportColumnName` su true, stiamo indicando che vogliamo includere i nomi delle colonne nei nostri dati esportati. Con`RenameStrategy.Letter`, stiamo dicendo ad Aspose come gestire i duplicati aggiungendo delle lettere (ad esempio, Persone, Persone_1, Persone_2, ecc.).
 ## Passaggio 6: esportare i dati in DataTable
- Ora, eseguiamo l'esportazione effettiva dei dati utilizzando`ExportDataTable` metodo:
+ Ora, eseguiamo l'esportazione effettiva dei dati utilizzando il`ExportDataTable` metodo:
 ```csharp
 System.Data.DataTable dataTable = ws.Cells.ExportDataTable(0, 0, 4, 3, opts);
 ```

@@ -66,7 +66,7 @@ Dále musíme načíst váš soubor Excel do objektu sešitu. To nám umožňuje
 Workbook wb = new Workbook(sourceDir + "sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx");
 ```
 
- Tady vytváříme nový`Workbook` objekt, který načte zadaný soubor Excel.
+ Zde vytváříme nový`Workbook` objekt, který načte zadaný soubor Excel.
 
 ## Krok 3: Otevřete požadovaný pracovní list
 

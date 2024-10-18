@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Langkah 2: Muat File Excel Sumber
 
- Selanjutnya, kita akan memuat berkas Excel yang berisi data yang ingin Anda urutkan. Hal ini dilakukan dengan membuat contoh`Workbook` kelas dan meneruskan jalur berkas sumber Anda.
+Selanjutnya, kita akan memuat berkas Excel yang berisi data yang ingin Anda urutkan. Hal ini dilakukan dengan membuat contoh`Workbook` kelas dan meneruskan jalur berkas sumber Anda.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");

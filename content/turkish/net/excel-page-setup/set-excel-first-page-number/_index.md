@@ -9,14 +9,14 @@ url: /tr/net/excel-page-setup/set-excel-first-page-number/
 ---
 ## giriiş
 
-Excel dosyalarını programatik olarak işlemeye gelince, Aspose.Cells for .NET güçlü bir kütüphane olarak öne çıkıyor. İster raporlar üreten bir web uygulaması geliştiriyor olun, ister verileri yöneten bir masaüstü uygulaması oluşturuyor olun, Excel dosya biçimlendirmesi üzerinde kontrol sahibi olmak çok önemlidir. Genellikle göz ardı edilen özelliklerden biri, Excel çalışma sayfalarınızın ilk sayfa numarasını ayarlamaktır. Bu kılavuzda, adım adım bir yaklaşımla tam olarak bunu nasıl yapacağınızı göstereceğiz.
+Excel dosyalarını programatik olarak işlemeye gelince, Aspose.Cells for .NET güçlü bir kütüphane olarak öne çıkıyor. İster raporlar üreten bir web uygulaması geliştiriyor olun, ister verileri yöneten bir masaüstü uygulaması oluşturuyor olun, Excel dosya biçimlendirmesi üzerinde kontrol sahibi olmak çok önemlidir. Genellikle göz ardı edilen özelliklerden biri de Excel çalışma sayfalarınızın ilk sayfa numarasını ayarlamaktır. Bu kılavuzda, adım adım bir yaklaşımla tam olarak bunu nasıl yapacağınızı göstereceğiz.
 
 ## Ön koşullar
 
 Sulu konulara dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte kısa bir kontrol listesi:
 
 1. .NET Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Visual Studio veya .NET'i destekleyen herhangi bir IDE kullanabilirsiniz.
-2.  Aspose.Cells Kütüphanesi: NuGet aracılığıyla kolayca kurulabilen Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu doğrudan şu adresten indirebilirsiniz:[Aspose.Cells web sitesi](https://releases.aspose.com/cells/net/) Eğer tercih ederseniz.
+2.  Aspose.Cells Kütüphanesi: NuGet aracılığıyla kolayca kurulabilen Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu doğrudan şuradan indirebilirsiniz:[Aspose.Cells web sitesi](https://releases.aspose.com/cells/net/) Eğer tercih ederseniz.
 3. C# Temel Anlayışı: C# programlama diline aşina olmanız, sunulan örnekleri anlamanıza büyük ölçüde yardımcı olacaktır.
 
 ## Paketleri İçe Aktarma
@@ -85,7 +85,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.FirstPageNumber = 2;
 ```
 
-Bu durumda, ilk sayfa numarasını 2 olarak ayarlıyoruz. Bu sayede belgeyi yazdırdığınızda, ilk sayfa varsayılan 1 yerine 2 olarak numaralandırılacak. Bu, önceki belgelerden sayfa numaralandırmasının devam etmesi gereken raporlar için özellikle yararlıdır.
+Bu durumda, ilk sayfa numarasını 2 olarak ayarlıyoruz. Bu sayede belgeyi yazdırdığınızda, ilk sayfa varsayılan 1 yerine 2 olarak numaralandırılacak. Bu, özellikle önceki belgelerden sayfa numaralandırmasının devam etmesi gereken raporlar için yararlıdır.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 

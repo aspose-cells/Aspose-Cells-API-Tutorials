@@ -73,7 +73,7 @@ Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.
 
  Ten`Workbook` Klasa jest kluczowa dla interakcji z dokumentem Excel. Upewnij się, że ścieżka wskazuje poprawnie plik Excel — błąd w tym miejscu uniemożliwi wykonanie reszty kodu.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po załadowaniu skoroszytu następnym krokiem jest uzyskanie dostępu do arkusza zawierającego żądany wykres.
 

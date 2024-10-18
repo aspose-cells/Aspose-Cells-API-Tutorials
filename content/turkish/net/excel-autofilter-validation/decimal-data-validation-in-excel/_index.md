@@ -13,9 +13,9 @@ Herhangi bir işte net iletişim için doğru verilerle elektronik tablolar olu�
 
 ## Ön koşullar
 
-Koda dalmadan önce, sorunsuz bir deneyim için her şeyin ayarlandığından emin olun:
+Koda dalmadan önce, sorunsuz bir seyir deneyimi için her şeyin ayarlandığından emin olun:
 
-1. Visual Studio: Daha önce yapmadıysanız Visual Studio'yu indirin ve kurun. .NET uygulamaları geliştirmek için mükemmel bir ortamdır.
+1. Visual Studio: Henüz yapmadıysanız Visual Studio'yu indirin ve kurun. .NET uygulamaları geliştirmek için mükemmel bir ortamdır.
 2.  .NET için Aspose.Cells: Projenize Aspose.Cells kütüphanesinin eklenmesi gerekir. Bunu şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Her ne kadar her şeyi adım adım açıklasak da, C# programlamanın temellerine dair bir anlayışa sahip olmak, kavramları daha iyi kavramanızı sağlayacaktır.
 4. .NET Framework: Aspose.Cells ile uyumlu gerekli .NET Framework'ün yüklü olduğundan emin olun.
@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory";
 
  Yer değiştirmek`"Your Document Directory"` Excel dosyalarınızı kaydetmek istediğiniz yolu yazın.
 
-## Adım 2: Dizin Varlığını Kontrol Edin
+## Adım 2: Dizin Varlığını Kontrol Etme
 
 Bu kod parçası dizinin var olup olmadığını kontrol eder ve yoksa oluşturur:
 
@@ -82,7 +82,7 @@ Bir kitabın birden fazla sayfası olduğu gibi, bir çalışma kitabının da b
 
 ## Adım 5: Doğrulama Koleksiyonunu Edinin
 
-Şimdi, veri doğrulama kurallarımızı yöneteceğimiz yer burası olduğundan, doğrulama koleksiyonunu çalışma sayfasından çekelim:
+Şimdi, veri doğrulama kurallarımızı yöneteceğimiz yer burası olduğundan, çalışma sayfasından doğrulama koleksiyonunu çekelim:
 
 ```csharp
 ValidationCollection validations = ExcelWorkSheet.Validations;
@@ -203,7 +203,7 @@ Excel'de veri doğrulama, belirli bir hücreye veya aralığa girilebilecek veri
 Evet! Yanlış veri girişleri yapıldığında kullanıcıları yönlendirmek için özel hata mesajları sağlayabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak. Geçici bir lisans edinme hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak. Geçici bir lisans edinme hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Excel'de hangi veri türlerini doğrulayabilirim?
 Aspose.Cells ile tam sayılar, ondalıklar, tarihler, listeler ve özel formüller dahil olmak üzere çeşitli veri türlerini doğrulayabilirsiniz.

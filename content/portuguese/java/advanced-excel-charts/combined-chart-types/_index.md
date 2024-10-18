@@ -116,9 +116,9 @@ Neste artigo, exploramos como criar tipos de gráficos combinados usando Aspose.
 
 Sim, o Aspose.Cells para Java suporta uma ampla variedade de tipos de gráficos, incluindo gráficos de barras, gráficos de pizza, gráficos de dispersão e muito mais. Você pode consultar a documentação para obter exemplos e uso.
 
-### Aspose.Cells para Java é adequado tanto para iniciantes quanto para desenvolvedores Java experientes?
+### O Aspose.Cells para Java é adequado tanto para iniciantes quanto para desenvolvedores Java experientes?
 
-O Aspose.Cells para Java foi projetado para ser amigável ao usuário, tornando-o adequado tanto para iniciantes quanto para desenvolvedores experientes. Ele fornece uma API de alto nível para uso fácil, ao mesmo tempo em que oferece recursos avançados para aqueles com mais experiência.
+Aspose.Cells para Java foi projetado para ser amigável ao usuário, tornando-o adequado tanto para iniciantes quanto para desenvolvedores experientes. Ele fornece uma API de alto nível para uso fácil, ao mesmo tempo em que oferece recursos avançados para aqueles com mais experiência.
 
 ### Posso personalizar ainda mais a aparência do meu gráfico combinado?
 

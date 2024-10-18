@@ -58,14 +58,14 @@ Primeiro, você precisa determinar onde quer salvar seu arquivo Excel de saída.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Certifique-se de substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real na sua máquina onde você deseja que o arquivo Excel seja salvo.
+Certifique-se de substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real na sua máquina onde você deseja que o arquivo Excel seja salvo.
 
 ## Etapa 2: Criar um novo objeto de pasta de trabalho
 
 Agora, é hora de criar uma nova pasta de trabalho. É aqui que todos os seus dados e configurações ficarão.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Arquivos Excel podem conter várias planilhas. Acessaremos a primeira planilha para aplicar nosso fator de escala.
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -122,7 +122,7 @@ Sim! Aspose.Cells pode ser usado tanto em aplicativos desktop quanto web, desde 
  Absolutamente! Você pode obter uma versão de teste gratuita[aqui](https://releases.aspose.com/).
 
 ### Onde posso encontrar documentação para Aspose.Cells?  
- documentação pode ser encontrada[aqui](https://reference.aspose.com/cells/net/).
+ A documentação pode ser encontrada[aqui](https://reference.aspose.com/cells/net/).
 
 ### Como posso obter suporte técnico para o Aspose.Cells?  
  Você pode entrar em contato para obter assistência através do[Fórum Aspose](https://forum.aspose.com/c/cells/9).

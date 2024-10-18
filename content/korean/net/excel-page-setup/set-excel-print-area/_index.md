@@ -16,7 +16,7 @@ Excel 파일을 프로그래밍 방식으로 관리하는 경우 많은 개발�
 코딩 모험에 뛰어들기 전에, 따라야 할 모든 것을 갖추었는지 확인하기 위해 잠시 시간을 내어 보겠습니다. 체크리스트는 다음과 같습니다.
 
 1. Visual Studio: 개발 환경으로 사용할 Visual Studio가 설치되어 있는지 확인하세요.
-2. .NET Framework: Aspose.Cells와 호환되는 .NET Framework로 프로젝트를 설정했는지 확인하세요. 일반적으로 .NET Core 또는 .NET Framework 4.5 이상이 작동합니다.
+2. .NET Framework: Aspose.Cells와 호환되는 .NET Framework로 프로젝트가 설정되었는지 확인하세요. 일반적으로 .NET Core 또는 .NET Framework 4.5 이상이 작동합니다.
 3.  Aspose.Cells 라이브러리: .NET용 Aspose.Cells가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 4. C#에 대한 기본 지식: 이 가이드 전반에 걸쳐 코드 세그먼트를 작성하게 되므로 C# 구문과 구조에 익숙해야 합니다.
 
@@ -81,7 +81,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.PrintArea = "A1:T35";
 ```
 
-이 줄은 본질적으로 Excel에 "이봐, 인쇄할 때 이 지정된 영역에만 집중해."라고 말합니다. 하이라이트 릴에 무엇을 포함할지 선택하는 것과 같습니다!
+이 줄은 기본적으로 Excel에 "이봐, 인쇄할 때 이 지정된 영역에만 집중해."라고 말합니다. 하이라이트 릴에 무엇을 포함할지 선택하는 것과 같습니다!
 
 ## 5단계: 통합 문서 저장
 

@@ -41,7 +41,7 @@ Pierwszą rzeczą, którą będziesz chciał zrobić, jest zdefiniowanie, gdzie 
 
 ```csharp
 // Katalog wyjściowy
-string outputDir = "Your Output Directory"; // Zaktualizuj wybraną ścieżką
+string outputDir = "Your Output Directory"; // Zaktualizuj wybraną przez siebie ścieżką
 ```
 
  Zastępować`"Your Output Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik.
@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Zaktualizuj wybraną ścieżką
  Następnie należy utworzyć nową instancję`Workbook` Klasa. Ten obiekt będzie reprezentował Twój plik Excel, umożliwiając Ci manipulowanie jego zawartością.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ W tym kodzie określamy typ wykresu (w tym przypadku wykres kolumnowy) i pozycj�
 
 ## Krok 6: Uzyskaj dostęp do instancji wykresu
 
- Po utworzeniu wykresu musimy uzyskać dostęp do jego wystąpienia, aby zmodyfikować jego właściwości. Można to zrobić, pobierając go za pomocą`Charts`kolekcja.
+Po utworzeniu wykresu musimy uzyskać dostęp do jego wystąpienia, aby zmodyfikować jego właściwości. Można to zrobić, pobierając go za pomocą`Charts`kolekcja.
 
 ```csharp
 // Uzyskiwanie dostępu do wystąpienia nowo dodanego wykresu
@@ -134,17 +134,17 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-W tym kodzie ustawiamy różne kolory dla różnych części wykresu. Dostosowanie wyglądu może sprawić, że Twoje dane będą o wiele bardziej angażujące!
+tym kodzie ustawiamy różne kolory dla różnych części wykresu. Dostosowanie wyglądu może sprawić, że Twoje dane będą o wiele bardziej angażujące!
 
-## Krok 9: Zmień główne kolory linii siatki
+## Krok 9: Zmień główne kolory siatki
 
 Teraz czas na główne wydarzenie! Aby zwiększyć czytelność, zmienimy kolor głównych linii siatki wzdłuż obu osi naszego wykresu.
 
 ```csharp
-// Ustawienie koloru głównych linii siatki osi kategorii na srebrny
+// Ustawianie koloru głównych linii siatki osi kategorii na srebrny
 chart.CategoryAxis.MajorGridLines.Color = Color.Silver;
 
-// Ustawienie koloru głównych linii siatki osi wartości na czerwony
+// Ustawianie koloru głównych linii siatki osi wartości na czerwony
 chart.ValueAxis.MajorGridLines.Color = Color.Red;
 ```
 
@@ -173,7 +173,7 @@ Ten prosty komunikat konsoli informuje, że program został uruchomiony poprawni
 
 ## Wniosek
 
-masz to! Udało Ci się nauczyć, jak zmieniać główne linie siatki na wykresie za pomocą Aspose.Cells dla .NET. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko manipulowałeś plikami Excel programowo, ale także poprawiłeś ich atrakcyjność wizualną dzięki dostosowaniom kolorów. Możesz swobodnie eksperymentować dalej z Aspose.Cells, aby pogłębić swoje umiejętności prezentacji danych i uczynić swoje wykresy jeszcze bardziej dynamicznymi!
+I masz to! Udało Ci się nauczyć, jak zmieniać główne linie siatki na wykresie za pomocą Aspose.Cells dla .NET. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko manipulowałeś plikami Excel programowo, ale także poprawiłeś ich atrakcyjność wizualną dzięki dostosowaniom kolorów. Możesz swobodnie eksperymentować dalej z Aspose.Cells, aby pogłębić swoje umiejętności prezentacji danych i uczynić swoje wykresy jeszcze bardziej dynamicznymi!
 
 ## Najczęściej zadawane pytania
 
@@ -184,7 +184,7 @@ Aspose.Cells to biblioteka .NET przeznaczona do programowego tworzenia, modyfiko
  Tak, możesz zapisać się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę zmienić inne elementy na wykresie za pomocą Aspose.Cells?  
- Można w podobny sposób dostosowywać różne właściwości wykresu, uzyskując dostęp do elementów wykresu za pomocą`Chart` klasę, taką jak tytuły, legendy i etykiety danych.
+ Można w podobny sposób dostosowywać różne właściwości wykresu, uzyskując dostęp do elementów wykresu za pomocą`Chart` klasy, takie jak tytuły, legendy i etykiety danych.
 
 ### Jakie formaty plików obsługuje Aspose.Cells?  
 Aspose.Cells obsługuje wiele formatów plików, w tym XLSX, XLS, CSV i inne.

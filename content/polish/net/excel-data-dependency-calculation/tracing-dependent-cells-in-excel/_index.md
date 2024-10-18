@@ -18,7 +18,7 @@ Zanim zaczniemy, oto kilka rzeczy, które powinieneś wiedzieć, aby zapewnić s
 1. Podstawowa znajomość języka C#: Ponieważ będziemy pisać kod w języku C#, podstawowa znajomość tego języka pomoże Ci szybko zrozumieć podstawowe koncepcje.
 2.  Biblioteka Aspose.Cells dla .NET: Musisz pobrać bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać ze strony[Link do pobrania](https://releases.aspose.com/cells/net/).
 3. Visual Studio: To fantastyczne środowisko do pisania i testowania kodu .NET. Upewnij się, że jest poprawnie zainstalowany na Twoim komputerze. 
-4. Plik Excel: Będziesz potrzebować pliku Excel zawierającego pewne formuły do pracy. Będziemy używać pliku o nazwie`Book1.xlsx`, ale możesz użyć swojego własnego!
+4. Plik Excel: Będziesz potrzebować pliku Excel zawierającego kilka formuł do pracy. Będziemy używać pliku o nazwie`Book1.xlsx`, ale możesz użyć swojego własnego!
 
 Gotowi zapiąć pasy i zacząć śledzić te komórki? Przejdźmy do konkretów!
 
@@ -84,7 +84,7 @@ Teraz, gdy mamy otwarty skoroszyt, czas na poszczególne komórki. Możemy to zr
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Wyjaśnienie: Powyższy kod ma na celu pierwszy arkusz roboczy (indeks 0) w naszym skoroszycie i pobiera`Cells` kolekcja, którą wykorzystamy do śledzenia osób zależnych.
+Wyjaśnienie: Powyższy kod ma na celu pierwszy arkusz roboczy (indeks 0) w naszym skoroszycie i pobiera`Cells` kolekcja, którą wykorzystamy do śledzenia osób zależnych.
 
 ## Krok 4: Wybierz komórkę
 
@@ -104,7 +104,7 @@ Cell cell = cells["B2"];
 Cell[] ret = cell.GetDependents(true);
 ```
 
- Wyjaśnienie: Zwraca tablicę`Cell` obiekty, które są zależne od określonej komórki.`true` Argument wskazuje, że chcemy wziąć pod uwagę komórki ze wszystkich arkuszy w skoroszycie.
+ Wyjaśnienie: Zwraca tablicę`Cell` obiekty zależne od określonej komórki.`true` Argument wskazuje, że chcemy wziąć pod uwagę komórki ze wszystkich arkuszy w skoroszycie.
 
 ## Krok 6: Wyświetl komórki zależne
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Wyjaśnienie: Ta pętla przechodzi przez każdą zależną komórkę w naszej tablicy i drukuje jej nazwę — całkiem proste!`Console.ReadKey()` zapewnia, że okno konsoli pozostanie otwarte do momentu naciśnięcia klawisza, dając Ci czas na odczytanie wyników.
+Wyjaśnienie: Ta pętla przechodzi przez każdą zależną komórkę w naszej tablicy i drukuje jej nazwę — całkiem proste!`Console.ReadKey()` zapewnia, że okno konsoli pozostanie otwarte do momentu naciśnięcia klawisza, dając Ci czas na odczytanie wyników.
 
 ## Wniosek
 
@@ -133,7 +133,7 @@ Aspose.Cells to potężna biblioteka do obsługi plików Excel w aplikacjach .NE
  Tak! Aspose oferuje[bezpłatny okres próbny](https://releases.aspose.com/) ich oprogramowania, co pozwoli Ci zapoznać się z jego funkcjami przed zakupem.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
-Możesz szukać wsparcia poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie społeczność użytkowników i ekspertów może Ci pomóc. 
+ Możesz szukać wsparcia poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie społeczność użytkowników i ekspertów może Ci pomóc. 
 
 ### Czy Aspose.Cells nadaje się do dużych plików Excela?
 Oczywiście! Aspose.Cells jest zaprojektowany do wydajnej pracy z dużymi plikami Excel, zapewniając solidną obsługę i wydajność.

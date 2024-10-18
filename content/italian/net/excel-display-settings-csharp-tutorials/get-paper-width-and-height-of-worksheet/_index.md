@@ -54,7 +54,7 @@ Ora che abbiamo la nostra cartella di lavoro, dobbiamo accedere a uno specifico 
 Worksheet ws = wb.Worksheets[0];
 ```
 
-Qui, prendiamo il primo foglio di lavoro (indice 0) dal nostro quaderno di lavoro. Puoi immaginarlo come se stessi sfogliando la prima pagina di un libro. 
+Qui, prendiamo il primo foglio di lavoro (indice 0) dal nostro quaderno di lavoro. Puoi pensare a questo come se stessimo sfogliando la prima pagina di un libro. 
 
 ## Passaggio 3: imposta il formato della carta e ottieni le dimensioni
 
@@ -84,11 +84,11 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Ciascuno di questi blocchi imita il passaggio precedente ma regola l'`PaperSize`proprietà di conseguenza. Semplicemente cambiando l'indicatore di dimensione, ottieni diverse dimensioni di carta senza sforzo. È come cambiare la dimensione di una scatola in base a ciò che devi conservare!
+ Ciascuno di questi blocchi imita il passaggio precedente ma ne regola l'`PaperSize`proprietà di conseguenza. Semplicemente cambiando l'indicatore di dimensione, ottieni diverse dimensioni di carta senza sforzo. È come cambiare la dimensione di una scatola in base a ciò che devi conservare!
 
 ## Conclusione
 
-Ed ecco fatto! Seguendo questi passaggi, puoi facilmente impostare e recuperare le dimensioni di vari formati di carta in Aspose.Cells per .NET. Questa capacità non solo ti fa risparmiare tempo, ma impedisce anche gli incidenti di stampa che possono verificarsi a causa di impostazioni di pagina non configurate correttamente. Quindi, la prossima volta che dovrai stampare un foglio Excel o creare un report, potrai farlo con sicurezza, sapendo di avere le dimensioni a portata di mano. 
+Ed ecco fatto! Seguendo questi passaggi, puoi facilmente impostare e recuperare le dimensioni di vari formati di carta in Aspose.Cells per .NET. Questa capacità non solo ti fa risparmiare tempo, ma previene anche gli incidenti di stampa che possono verificarsi a causa di impostazioni di pagina non configurate correttamente. Quindi, la prossima volta che dovrai stampare un foglio Excel o creare un report, potrai farlo con sicurezza, sapendo di avere le dimensioni a portata di mano. 
 
 ## Domande frequenti
 

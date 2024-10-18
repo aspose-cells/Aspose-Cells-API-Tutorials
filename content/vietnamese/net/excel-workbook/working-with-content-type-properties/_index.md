@@ -60,9 +60,9 @@ Khi sổ làm việc của chúng ta đã sẵn sàng, đã đến lúc thêm m�
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Trong bước này, chúng tôi đã thêm một thuộc tính có tên là "MK31" với giá trị "Dữ liệu đơn giản".`Add` phương thức trả về chỉ mục của thuộc tính mới được thêm vào, chúng ta có thể sử dụng sau.
+ Trong bước này, chúng tôi đã thêm một thuộc tính có tên là "MK31" với giá trị "Dữ liệu đơn giản".`Add` phương thức này trả về chỉ mục của thuộc tính mới được thêm vào, chúng ta có thể sử dụng sau.
 
-### Thiết lập thuộc tính Nillable
+### Đặt thuộc tính Nillable
 
 ```csharp
 workbook.ContentTypeProperties[index].IsNillable = false;

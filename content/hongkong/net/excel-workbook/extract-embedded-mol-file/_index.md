@@ -17,7 +17,7 @@ url: /zh-hant/net/excel-workbook/extract-embedded-mol-file/
 
 - C# 基礎：稍微熟悉一下 C# 會有很大幫助。即使您剛開始，您也應該能夠跟上步伐。
 - Visual Studio：在您的系統上安裝 Visual Studio。它對於編寫和執行 C# 程式碼是必要的。
--  Aspose.Cells for .NET：如果您還沒有下載它，請前往[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/)並取得最新版本。
+- Aspose.Cells for .NET：如果您還沒有下載它，請前往[Aspose.Cells 下載頁面](https://releases.aspose.com/cells/net/)並取得最新版本。
 - .NET Framework：請確保您安裝了相容版本的 .NET Framework。
 - 帶有嵌入 MOL 物件的 Excel 檔案：對於我們的範例，我們將使用`EmbeddedMolSample.xlsx`。確保您已準備好該文件以供提取。
 
@@ -121,7 +121,7 @@ Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 
 ## 結論
 
-現在你就擁有了！您已使用 Aspose.Cells for .NET 成功從 Excel 檔案中提取嵌入的 MOL 檔案。現在，您可以利用新發現的技能並將其應用於需要從 Excel 工作表中提取物件檔案的其他場景。這種方法不僅有效，而且可以輕鬆處理各種與 Excel 相關的操作。
+現在你就得到它了！您已使用 Aspose.Cells for .NET 成功從 Excel 檔案中提取嵌入的 MOL 檔案。現在，您可以利用新發現的技能並將其應用於需要從 Excel 工作表中提取物件檔案的其他場景。這種方法不僅有效，而且可以輕鬆處理各種與 Excel 相關的操作。
 
 ## 常見問題解答
 

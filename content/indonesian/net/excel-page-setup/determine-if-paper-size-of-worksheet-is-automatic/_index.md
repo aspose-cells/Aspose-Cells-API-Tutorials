@@ -9,7 +9,7 @@ url: /id/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
 ## Perkenalan
 
-Jika Anda menyelami dunia manipulasi spreadsheet menggunakan Aspose.Cells untuk .NET, Anda telah membuat pilihan yang fantastis. Kemampuan untuk menyesuaikan dan mengelola file Excel secara terprogram dapat menyederhanakan banyak tugas, membuat pekerjaan Anda lebih efisien. Dalam panduan ini, kami akan fokus pada tugas tertentu: menentukan apakah pengaturan ukuran kertas lembar kerja bersifat otomatis. Jadi, ambil topi coding Anda dan mari kita mulai!
+Jika Anda menyelami dunia manipulasi spreadsheet menggunakan Aspose.Cells for .NET, Anda telah membuat pilihan yang fantastis. Kemampuan untuk menyesuaikan dan mengelola file Excel secara terprogram dapat menyederhanakan banyak tugas, membuat pekerjaan Anda lebih efisien. Dalam panduan ini, kami akan fokus pada tugas tertentu: menentukan apakah pengaturan ukuran kertas lembar kerja bersifat otomatis. Jadi, ambil topi coding Anda dan mari kita mulai!
 
 ## Prasyarat
 
@@ -104,7 +104,7 @@ Aspose.Cells adalah pustaka .NET yang dirancang untuk mengelola berkas lembar ke
 Ya! Aspose.Cells mendukung pengembangan lintas platform, sehingga Anda dapat bekerja di berbagai lingkungan tempat .NET tersedia.
 
 ### Apakah saya memerlukan lisensi untuk Aspose.Cells?
- Meskipun Anda dapat memulai dengan uji coba gratis, penggunaan selanjutnya memerlukan lisensi yang dibeli. Detail selengkapnya dapat ditemukan[Di Sini](https://purchase.aspose.com/buy).
+ Meskipun Anda dapat memulai dengan uji coba gratis, penggunaan lanjutan memerlukan lisensi yang dibeli. Detail selengkapnya dapat ditemukan[Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya dapat memeriksa apakah ukuran kertas lembar kerja otomatis di C#?
 Seperti yang ditampilkan dalam panduan, Anda dapat memeriksa`IsAutomaticPaperSize` milik`PageSetup` kelas.

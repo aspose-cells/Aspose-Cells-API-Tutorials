@@ -19,7 +19,7 @@ V tomto kurzu se naučíte, jak zacházet s předponami jednoduchých uvozovek v
 
 [Přečtěte si více](./preserve-single-quote-prefix-of-cell-value-or-range-in-excel/)
 
-## Určete upozornění na řazení při řazení dat v aplikaci Excel
+## Při řazení dat v Excelu zadejte upozornění na řazení
 
 Řazení dat v Excelu zní jednoduše, že? Ale když to zahrnuje složité datové sady, věci mohou být složitější. Představte si, že třídíte řadu buněk a náhodně ztratíte důležité informace kvůli přehlíženému nastavení. To je místo, kde se hodí upozornění na řazení.
 
@@ -30,5 +30,5 @@ Tento výukový program vás provede procesem specifikace upozornění na řazen
 ## Výukové programy pro ochranu a varování v Excelu
 ### [Zachovat předponu jednoduché uvozovky hodnoty buňky nebo rozsahu v aplikaci Excel](./preserve-single-quote-prefix-of-cell-value-or-range-in-excel/)
 Naučte se, jak zachovat předpony jednoduchých uvozovek v buňkách aplikace Excel pomocí Aspose.Cells for .NET s tímto jednoduchým návodem krok za krokem.
-### [Určete upozornění na řazení při řazení dat v aplikaci Excel](./specify-sort-warning-while-sorting-data-in-excel/)
+### [Při řazení dat v Excelu zadejte upozornění na řazení](./specify-sort-warning-while-sorting-data-in-excel/)
 Bez námahy třídit data aplikace Excel pomocí Aspose.Cells pro .NET. Naučte se krok za krokem strategie pro efektivní správu dat Excelu v tomto komplexním kurzu.

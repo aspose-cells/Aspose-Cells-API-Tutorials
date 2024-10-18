@@ -21,7 +21,7 @@ Vous souhaitez ajouter du contexte supplémentaire à vos graphiques Excel ? Le
 
 Une image vaut mille mots, n'est-ce pas ? Cela s'applique également aux graphiques Excel. Avec Aspose.Cells pour .NET, ajouter des images à vos graphiques est aussi simple que d'insérer des cliparts dans un document Word. Les images peuvent contribuer à rendre vos graphiques plus attrayants visuellement, en stimulant l'engagement envers les données que vous présentez. Que vous présentiez des données financières ou des chiffres de vente, l'ajout d'images pertinentes permet de relier les données au récit.
 
-Vous êtes curieux de savoir comment cela fonctionne ? Découvrez le[Ajouter une image au graphique](./add-picture-to-chart/) tutoriel.
+ Vous êtes curieux de savoir comment cela fonctionne ? Découvrez le[Ajouter une image au graphique](./add-picture-to-chart/) tutoriel.
 
 ## Insertion de zones de texte et de cases à cocher
 
@@ -35,7 +35,7 @@ En suivant ces tutoriels, vous pouvez améliorer considérablement vos compéten
 ### [Ajouter un contrôle d'étiquette au graphique](./add-label-control-to-chart/)
 Découvrez comment ajouter un contrôle d'étiquette à vos graphiques dans Aspose.Cells pour .NET avec ce guide étape par étape. Améliorez la visualisation de vos données.
 ### [Ajouter une image au graphique](./add-picture-to-chart/)
-Découvrez comment ajouter facilement des images à des graphiques Excel à l'aide d'Aspose.Cells pour .NET. Améliorez vos graphiques et vos présentations en quelques étapes simples.
+Découvrez comment ajouter facilement des images aux graphiques Excel à l'aide d'Aspose.Cells pour .NET. Améliorez vos graphiques et vos présentations en quelques étapes simples.
 ### [Ajouter un contrôle de zone de texte au graphique](./add-textbox-control-to-chart/)
 Découvrez comment ajouter une zone de texte aux graphiques dans Excel à l'aide d'Aspose.Cells pour .NET. Améliorez la visualisation de vos données sans effort.
 ### [Insérer une case à cocher dans la feuille de graphique](./insert-checkbox-in-chart-sheet/)

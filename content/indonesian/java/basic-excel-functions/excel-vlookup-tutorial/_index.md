@@ -10,7 +10,7 @@ url: /id/java/basic-excel-functions/excel-vlookup-tutorial/
 
 ## Perkenalan
 
-Dalam tutorial komprehensif ini, kita akan mempelajari dunia Excel VLOOKUP menggunakan Aspose.Cells for Java API yang canggih. Baik Anda seorang pemula atau pengembang berpengalaman, panduan ini akan memandu Anda melalui langkah-langkah untuk memanfaatkan potensi Aspose.Cells for Java guna menjalankan operasi VLOOKUP dengan mudah.
+Dalam tutorial komprehensif ini, kita akan mendalami dunia Excel VLOOKUP menggunakan Aspose.Cells for Java API yang canggih. Baik Anda seorang pemula atau pengembang berpengalaman, panduan ini akan memandu Anda melalui langkah-langkah untuk memanfaatkan potensi Aspose.Cells for Java guna menjalankan operasi VLOOKUP dengan mudah.
 
 ## Prasyarat
 
@@ -77,7 +77,7 @@ if (cell != null) {
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mempelajari cara melakukan operasi VLOOKUP menggunakan Aspose.Cells untuk Java. API canggih ini menyederhanakan tugas Excel yang rumit, sehingga perjalanan pengembangan Anda menjadi lebih lancar.
+Selamat! Anda telah berhasil mempelajari cara melakukan operasi VLOOKUP menggunakan Aspose.Cells untuk Java. API canggih ini menyederhanakan tugas Excel yang rumit, membuat perjalanan pengembangan Anda lebih lancar.
 
 Sekarang, lanjutkan dan jelajahi kemungkinan tak terbatas Aspose.Cells untuk Java dalam proyek Excel Anda!
 

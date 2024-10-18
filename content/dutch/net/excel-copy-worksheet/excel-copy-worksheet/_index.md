@@ -9,7 +9,7 @@ url: /nl/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 ## Invoering
 
-In de wereld van dataverwerking zijn spreadsheets overal te vinden, van het beheren van verkoopcijfers tot het organiseren van projectgegevens. Maar hoe beheert u deze bestanden wanneer automatisering noodzakelijk wordt? Nou, als u in .NET werkt, is Aspose.Cells een uitstekende tool voor het programmatisch manipuleren van Excel-bestanden. In dit artikel leiden we u door het kopiëren van een werkblad binnen een Excel-bestand met behulp van Aspose.Cells voor .NET. Dit is een veelvoorkomende taak wanneer u gegevens in nieuwe werkbladen moet dupliceren zonder helemaal opnieuw te beginnen.
+In de wereld van dataverwerking zijn spreadsheets overal te vinden: van het beheren van verkoopcijfers tot het organiseren van projectgegevens. Maar hoe beheert u deze bestanden wanneer automatisering noodzakelijk wordt? Nou, als u in .NET werkt, is Aspose.Cells een uitstekende tool voor het programmatisch manipuleren van Excel-bestanden. In dit artikel leiden we u door het kopiëren van een werkblad binnen een Excel-bestand met behulp van Aspose.Cells voor .NET. Dit is een veelvoorkomende taak wanneer u gegevens in nieuwe werkbladen moet dupliceren zonder helemaal opnieuw te beginnen.
 
 Dus, gesp je vast! We gaan ons nu verdiepen in dit proces, maar op een manier die simpel, conversationeel en duidelijk is.
 

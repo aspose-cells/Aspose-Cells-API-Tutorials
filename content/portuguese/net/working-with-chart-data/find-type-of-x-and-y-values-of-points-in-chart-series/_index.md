@@ -1,7 +1,7 @@
 ---
 title: Encontre o tipo de valores X e Y dos pontos na série do gráfico
 linktitle: Encontre o tipo de valores X e Y dos pontos na série do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a encontrar os tipos de valores X e Y em séries de gráficos usando o Aspose.Cells para .NET com este guia detalhado e fácil de seguir.
 type: docs
 weight: 11
@@ -19,7 +19,7 @@ Antes de começar, certifique-se de ter algumas coisas prontas:
    
 2.  Aspose.Cells para .NET: Você precisará ter o Aspose.Cells para .NET instalado. Você pode baixá-lo em[aqui](https://releases.aspose.com/cells/net/).
 
-3. Arquivo Excel de exemplo: Obtenha um arquivo Excel de exemplo que contenha gráficos. Para este tutorial, usaremos um arquivo chamado`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Certifique-se de que ele esteja no diretório do seu projeto.
+3.  Arquivo Excel de exemplo: Obtenha um arquivo Excel de exemplo que contenha gráficos. Para este tutorial, usaremos um arquivo chamado`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Certifique-se de que ele esteja no diretório do seu projeto.
 
 4. Conhecimento básico de programação: a familiaridade com a programação em C# ajudará você a acompanhar facilmente.
 
@@ -33,7 +33,7 @@ Abra seu IDE e crie um novo projeto .NET. Certifique-se de ter instalado o pacot
 
 ### Importar namespaces necessários
 
-No início do seu arquivo C#, inclua as seguintes diretivas using:
+No topo do seu arquivo C#, inclua as seguintes diretivas using:
 
 ```csharp
 using System;
@@ -56,11 +56,11 @@ Primeiro, você precisa definir o diretório onde seu arquivo Excel está locali
 string sourceDir = "Your Document Directory";
 ```
 
- Substituir`"Your Document Directory"`com o caminho onde seu arquivo Excel foi salvo.
+ Substituir`"Your Document Directory"` com o caminho onde seu arquivo Excel foi salvo.
 
 ## Etapa 2: Carregue a pasta de trabalho
 
- Em seguida, carregue o arquivo Excel em um`Workbook` objeto. Isso permite que você acesse todo o conteúdo do arquivo.
+ Em seguida, carregue o arquivo Excel em um`Workbook`objeto. Isso permite que você acesse todo o conteúdo do arquivo.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -128,7 +128,7 @@ Aspose.Cells é uma biblioteca .NET que permite aos desenvolvedores gerenciar e 
 Sim, o Aspose oferece um teste gratuito durante o qual você pode explorar os recursos do Aspose.Cells.
 
 ### Que tipos de gráficos posso criar com o Aspose.Cells?
-Aspose.Cells suporta vários tipos de gráficos, incluindo colunas, barras, linhas, pizza e muito mais.
+O Aspose.Cells suporta vários tipos de gráficos, incluindo colunas, barras, linhas, pizza e muito mais.
 
 ### Como posso obter suporte para o Aspose.Cells?
  Você pode acessar o suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9).

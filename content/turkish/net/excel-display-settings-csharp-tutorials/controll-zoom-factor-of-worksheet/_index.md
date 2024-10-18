@@ -2,7 +2,7 @@
 title: Çalışma Sayfasının Yakınlaştırma Faktörünü Kontrol Et
 linktitle: Çalışma Sayfasının Yakınlaştırma Faktörünü Kontrol Et
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel çalışma sayfalarının yakınlaştırma faktörünü basit adımlarla nasıl kontrol edeceğinizi öğrenin. E-tablolarınızdaki okunabilirliği artırın.
+description: Aspose.Cells for .NET'i kullanarak Excel çalışma sayfalarının yakınlaştırma faktörünü basit adımlarla nasıl kontrol edeceğinizi öğrenin. E-tablolarınızdaki okunabilirliği artırın.
 type: docs
 weight: 20
 url: /tr/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-worksheet/
@@ -32,7 +32,7 @@ Visual Studio'yu açın ve yeni bir Konsol Uygulaması projesi oluşturun. İste
 
 Şimdi Aspose.Cells kütüphane referansını ekleme zamanı. Şunlardan birini yapabilirsiniz:
 
--  DLL'yi şuradan indirin:[Burada](https://releases.aspose.com/cells/net/) ve bunu manuel olarak projenize ekleyin.
+-  DLL'yi şuradan indirin:[Burada](https://releases.aspose.com/cells/net/)ve bunu manuel olarak projenize ekleyin.
 - Veya NuGet Paket Yöneticisi'ni kullanın ve Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:
 
 ```bash
@@ -67,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Excel Dosyası için Bir Dosya Akışı Oluşturun
 
- Herhangi bir değişiklik yapabilmemiz için Excel dosyasını açmamız gerekiyor. Bunu bir Excel dosyası oluşturarak gerçekleştiriyoruz.`FileStream` Bu akış, içerikleri okumamızı sağlayacak`book1.xls`.
+ Herhangi bir değişiklik yapabilmemiz için Excel dosyasını açmamız gerekiyor. Bunu bir Excel dosyası oluşturarak gerçekleştiriyoruz.`FileStream` Bu akış, içeriği okumamızı sağlayacak`book1.xls`.
 
 ```csharp
 // Açılacak Excel dosyasını içeren bir dosya akışı oluşturma
@@ -81,7 +81,7 @@ Bu kod satırı Excel dosyanızı düzenlemeye hazırlayacaktır.
  The`Workbook` nesnesi Aspose.Cells işlevselliğinizin kalbidir. Excel dosyanızı yönetilebilir bir şekilde temsil eder.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Çalışma kitabı artık bellekte olduğuna göre, değiştirmek istediğiniz belirli çalışma sayfasına erişme zamanı geldi. Çoğu durumda, bu ilk çalışma sayfası (indeks 0) olacaktır.
 
 ```csharp
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+// Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -27,7 +27,7 @@ C# 및 .NET 개발에 대한 기초적인 이해가 있어야 합니다. Visual 
 ### 라이센스(선택 사항)
  무료 체험판을 통해 실험해 볼 수 있습니다.[무료 체험 링크](https://releases.aspose.com/) 생산용으로 사용하려면 다음을 방문하는 것을 고려하세요.[구매 링크](https://purchase.aspose.com/buy) 또는 임시 라이센스를 선택하십시오.[임시 라이센스 링크](https://purchase.aspose.com/temporary-license/).
 
-이제 모든 준비가 끝났으니, 직접 만들어볼까요!
+이제 모든 준비가 끝났으니, 본격적으로 시작해볼까요!
 
 ## 패키지 가져오기
 
@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 다음으로, 통합 문서의 새 인스턴스를 만들어 보겠습니다. 통합 문서를 데이터를 칠할 수 있는 빈 캔버스로 생각해보세요.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -74,11 +74,11 @@ Workbook workbook = new Workbook();
 모든 워크북에는 최소한 하나의 워크시트가 들어 있습니다. 여기서는 작업할 첫 번째 워크시트를 참조하겠습니다.
 
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- 참조함으로써`Worksheets[0]`, 첫 번째 시트와 직접 상호 작용하여 데이터와 차트를 추가할 것입니다.
+ 참조함으로써`Worksheets[0]`, 첫 번째 시트와 직접 상호 작용하여 데이터와 차트를 추가할 수 있습니다.
 
 ## 4단계: 셀에 샘플 데이터 추가
 
@@ -112,7 +112,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pyramid, 5, 
 차트를 추가한 후에는 차트에 액세스하여 설정해야 합니다.
 
 ```csharp
-// 새로 추가된 차트의 인스턴스에 접근하기
+// 새로 추가된 차트의 인스턴스에 액세스하기
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 

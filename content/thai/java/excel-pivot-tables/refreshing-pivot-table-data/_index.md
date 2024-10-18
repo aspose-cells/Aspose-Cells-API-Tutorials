@@ -37,7 +37,7 @@ Workbook workbook = new Workbook(filePath);
 ค้นหาตารางสรุปข้อมูลในเวิร์กบุ๊กของคุณ คุณสามารถทำได้โดยระบุชีตและชื่อของมัน
 
 ```java
-String sheetName = "Sheet1"; // แทนที่ด้วยชื่อชีทของคุณ
+String sheetName = "Sheet1"; // แทนที่ด้วยชื่อชีตของคุณ
 String pivotTableName = "PivotTable1"; // แทนที่ด้วยชื่อตาราง Pivot ของคุณ
 
 Worksheet worksheet = workbook.getWorksheets().get(sheetName);

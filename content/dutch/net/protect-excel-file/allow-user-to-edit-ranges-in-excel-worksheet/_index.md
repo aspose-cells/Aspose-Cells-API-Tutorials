@@ -18,7 +18,7 @@ Voordat we in de details duiken, willen we ervoor zorgen dat u alles bij de hand
 1. .NET-ontwikkelomgeving: U dient over een functionerende .NET-ontwikkelomgeving te beschikken (dit kan Visual Studio zijn of een andere IDE naar keuze).
 2.  Aspose.Cells voor .NET-bibliotheek: Download en installeer de Aspose.Cells-bibliotheek. U kunt deze vinden[hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Als u bekend bent met C#-programmering, kunt u gemakkelijk door de codevoorbeelden navigeren.
-4. Begrijp de basisprincipes van Excel: Kennis van de werking van Excel vormt de basis voor de functionaliteiten die we gaan bespreken.
+4. Begrijp de basisprincipes van Excel: Als u weet hoe Excel werkt, legt u een basis voor de functionaliteiten die we gaan bespreken.
 
 Zodra deze vereisten zijn geregeld, bent u klaar om te gaan!
 
@@ -41,7 +41,7 @@ Voor alle bestandsbewerkingen is het cruciaal om een gedefinieerde locatie te he
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Maak een map aan als deze nog niet bestaat.
+//Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -71,7 +71,7 @@ Worksheet sheet = book.Worksheets[0];
 
 In dit codefragment openen we het eerste werkblad van onze werkmap, dat we in de volgende stappen gaan bewerken.
 
-## Stap 4: Bereiken voor bewerking toestaan
+## Stap 4: Toestaan dat bewerkingsbereiken worden bewerkt
 
  Om specifieke bereiken van het werkblad voor bewerking in te schakelen, moeten we toegang krijgen tot de`AllowEditRanges` eigendom.
 
@@ -84,7 +84,7 @@ Met deze verzameling kunnen we bepalen welke bereiken in ons werkblad bewerkbaar
 
 ## Stap 5: Definieer het beschermde bereik
 
-Vervolgens definiëren we welk deel van het werkblad we willen beveiligen, maar toch bewerkingen binnen een bepaald bereik willen toestaan.
+Vervolgens definiëren we welk deel van het werkblad we willen beveiligen, terwijl we bewerkingen binnen een bepaald bereik willen toestaan.
 
 ```csharp
 // Definieer ProtectedRange

@@ -65,7 +65,7 @@ worksheet.getCells().get("B1").setFormula("=AVERAGE(A1:A3)");
 double average = worksheet.getCells().get("B1").getDoubleValue();
 ```
 
-## Geavanceerde technieken voor gegevensanalyse
+## Geavanceerde data-analysetechnieken
 
 ### Draaitabellen
 
@@ -86,7 +86,7 @@ pivotTable.calculateData();
 
 ## Conclusie
 
-In dit artikel hebben we data-analyse in Excel onderzocht met behulp van Aspose.Cells voor Java. We begonnen met het introduceren van de bibliotheek en het instellen van de Java-omgeving. Vervolgens hebben we basis-Excel-formules zoals SUM en AVERAGE voor data-analyse behandeld. Tot slot hebben we geavanceerde technieken zoals draaitabellen besproken.
+In dit artikel hebben we data-analyse in Excel onderzocht met Aspose.Cells voor Java. We begonnen met het introduceren van de bibliotheek en het instellen van de Java-omgeving. Vervolgens hebben we basis-Excel-formules zoals SUM en AVERAGE voor data-analyse behandeld. Tot slot hebben we geavanceerde technieken zoals draaitabellen besproken.
 
 ## Veelgestelde vragen
 

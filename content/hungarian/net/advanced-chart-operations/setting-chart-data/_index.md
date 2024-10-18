@@ -2,7 +2,7 @@
 title: Diagramadatok beállítása
 linktitle: Diagramadatok beállítása
 second_title: Aspose.Cells .NET Excel Processing API
-description: Tanulja meg, hogyan állíthat be diagramadatokat az Aspose.Cells for .NET használatával egy részletes, lépésről lépésre szóló útmutatóból, amely tökéletes az adatok megjelenítésének javításához.
+description: Tanulja meg, hogyan állíthat be diagramadatokat az Aspose.Cells for .NET segítségével egy részletes, lépésről lépésre szóló útmutatóból, amely tökéletes az adatok megjelenítésének javításához.
 type: docs
 weight: 16
 url: /hu/net/advanced-chart-operations/setting-chart-data/

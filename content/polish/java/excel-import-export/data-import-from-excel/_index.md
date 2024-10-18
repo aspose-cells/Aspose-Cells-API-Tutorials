@@ -1,6 +1,6 @@
 ---
-title: Import danych z programu Excel
-linktitle: Import danych z programu Excel
+title: Import danych z Excela
+linktitle: Import danych z Excela
 second_title: Aspose.Cells Java Excel Processing API
 description: Dowiedz się, jak importować dane z programu Excel za pomocą Aspose.Cells for Java. Kompleksowy przewodnik z kodem źródłowym do bezproblemowego pobierania danych.
 type: docs

@@ -9,7 +9,7 @@ url: /pt/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
 ## Introdução
 
-Quando se trata de trabalhar com planilhas do Excel, a flexibilidade geralmente é essencial — especialmente quando vários usuários precisam acessar para editar áreas específicas sem comprometer a integridade dos dados de toda a planilha. É aqui que o Aspose.Cells para .NET brilha! Neste tutorial, vamos nos aprofundar em como permitir que os usuários editem determinados intervalos em uma planilha do Excel enquanto protegemos o restante do documento. Ao final deste artigo, você não apenas entenderá os conceitos, mas também terá um exemplo tangível para trabalhar. 
+Quando se trata de trabalhar com planilhas do Excel, a flexibilidade geralmente é essencial — especialmente quando vários usuários precisam acessar para editar áreas específicas sem comprometer a integridade dos dados de toda a planilha. É aqui que o Aspose.Cells para .NET brilha! Neste tutorial, vamos nos aprofundar em como permitir que os usuários editem determinados intervalos em uma planilha do Excel enquanto protegem o restante do documento. Ao final deste artigo, você não apenas entenderá os conceitos, mas também terá um exemplo tangível para trabalhar. 
 
 ## Pré-requisitos
 
@@ -41,7 +41,7 @@ Para qualquer operação de arquivo, é crucial ter um local definido onde nosso
 // O caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Crie um diretório se ele ainda não estiver presente.
+//Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -113,7 +113,7 @@ Este código protegerá toda a planilha de quaisquer alterações indesejadas, e
 
 ## Etapa 7: Salve o arquivo Excel
 
-Vamos salvar a pasta de trabalho para que possamos ver nossas alterações refletidas em um arquivo do Excel.
+Vamos salvar a pasta de trabalho para que possamos ver nossas alterações refletidas em um arquivo Excel.
 
 ```csharp
 // Salvar o arquivo Excel

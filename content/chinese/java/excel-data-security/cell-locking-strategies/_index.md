@@ -14,11 +14,11 @@ url: /zh/java/excel-data-security/cell-locking-strategies/
 
 ## 为什么单元锁定很重要
 
-在大多数行业中，数据的准确性和保密性是不可协商的。单元格锁定为您的电子表格提供了额外的保护层，可防止未经授权的更改，同时允许合法用户根据需要与数据交互。本文将指导您完成根据您的特定要求量身定制的单元格锁定策略的实施过程。
+在大多数行业中，数据的准确性和保密性是不可妥协的。单元格锁定为您的电子表格提供了额外的保护层，可防止未经授权的更改，同时允许合法用户根据需要与数据交互。本文将指导您完成根据您的特定要求量身定制的单元格锁定策略的实施过程。
 
 ## Aspose.Cells for Java 入门
 
-在深入研究单元格锁定之前，让我们确保您的工具包中拥有必要的工具。首先，您需要下载并设置 Aspose.Cells for Java。您可以找到下载链接[这里](https://releases.aspose.com/cells/java/)。安装完库后，我们就可以进行基础操作了。
+在深入研究单元格锁定之前，让我们确保您的工具包中拥有必要的工具。首先，您需要下载并设置 Aspose.Cells for Java。您可以找到下载链接[这里](https://releases.aspose.com/cells/java/)。一旦安装了库，我们就可以继续进行基础操作。
 
 ## 基本单元锁定
 
@@ -95,7 +95,7 @@ formatCondition.setStyle(style);
 worksheet.protect(ProtectionType.ALL);
 ```
 
-使用这一行代码，您可以保护整个工作表不被任何编辑。
+使用这一行代码，您可以保护整个工作表免受任何编辑。
 
 ## 自定义单元格锁定方案
 
@@ -119,7 +119,7 @@ worksheet.protect(ProtectionType.ALL);
 
 ### 如何保护整个 Excel 工作表？
 
-您可以使用 Aspose.Cells for Java 保护整个 Excel 工作表，方法是调用`protect`使用工作表对象上的方法`ProtectionType.ALL`范围。
+您可以使用 Aspose.Cells for Java 保护整个 Excel 工作表，方法是调用`protect`方法在工作表对象上使用`ProtectionType.ALL`范围。
 
 ### 我可以定义自定义单元格锁定规则吗？
 

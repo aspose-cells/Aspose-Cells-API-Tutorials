@@ -15,7 +15,7 @@ Amikor programozottan dolgozik Excel-fájlokkal, legyen szó jelentéskészíté
 
 Mielőtt elkezdenénk, néhány dolgot kell tennie, hogy biztosan készen álljon:
 
-1. Aspose.Cells for .NET Library: Ez az alapvető összetevő, amely lehetővé teszi az Excel-fájlok kezelését. Ha még nem telepítette, megteheti[töltsd le innen](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library: Ez az alapvető összetevő, amely lehetővé teszi az Excel-fájlok kezelését. Ha még nem telepítette, megteheti[töltsd le innen](https://releases.aspose.com/cells/net/).
 2. Fejlesztői környezet: Be kell állítani egy fejlesztői környezetet, lehetőleg a Visual Studio-t, ahol írhat és futtathat C# kódot.
 3. A C# alapismerete: Bár minden lépést elmagyarázok, a C# alapismerete segít jobban követni.
 4. Excel-fájl: Készítsen egy Excel-fájlt (ebben az oktatóanyagban a "book1.xls"-re hivatkozunk). Erre a célra létrehozhat egy egyszerű fájlt néhány munkalappal.
@@ -58,7 +58,7 @@ Itt megnyitjuk a "book1.xls" fájlt. Nagyon fontos, hogy ez a fájl a megadott k
  Ezután létre kell hoznia a`Workbook` objektum. Ez az objektum az Excel-fájlt képviseli, és lehetővé teszi annak tartalmának kezelését.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 // Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook workbook = new Workbook(fstream);
 ```
@@ -96,7 +96,7 @@ Nyugodtan játsszon az Aspose.Cells könyvtár egyéb funkcióival, és ne haboz
 ## GYIK
 
 ### Az Aspose.Cells ingyenesen használható?
-Az Aspose.Cells ingyenes próbaverziót kínál, de a további használathoz licencet kell vásárolnia. Megkaphatja az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+ Az Aspose.Cells ingyenes próbaverziót kínál, de a további használathoz licencet kell vásárolnia. Megkaphatja az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### Eltávolíthatok több munkalapot egyszerre?
 Iterálhat a munkalapgyűjteményben, és egy hurok segítségével több lapot is eltávolíthat. Csak győződjön meg arról, hogy megfelelően kezeli az indexeket.

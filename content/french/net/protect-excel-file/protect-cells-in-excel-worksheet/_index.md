@@ -52,13 +52,13 @@ Vous devez d'abord déterminer où enregistrer votre fichier Excel. Voici commen
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Spécifiez ici le chemin de votre répertoire
-// Créez un répertoire s'il n'est pas déjà présent.
+//Créez un répertoire s'il n'est pas déjà présent.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Cet extrait de code vérifie si un répertoire spécifié existe. Si ce n'est pas le cas, il en crée un. Ceci est essentiel pour garantir que votre fichier enregistré possède un répertoire désigné !
+Cet extrait de code vérifie si un répertoire spécifié existe. Si ce n'est pas le cas, il en crée un. Ceci est essentiel pour garantir que votre fichier enregistré a un répertoire désigné !
 
 ## Étape 2 : Créer un nouveau classeur
 
@@ -139,7 +139,7 @@ Cette ligne enregistre votre classeur sous forme de fichier Excel. Assurez-vous 
 
 ## Conclusion
 
-Et voilà ! Vous avez appris avec succès à protéger des cellules spécifiques dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Avec seulement quelques lignes de code, vous pouvez protéger vos données, en vous assurant que seules les bonnes personnes ont accès à la modification des informations critiques. N'oubliez pas que la protection des cellules n'est qu'une des nombreuses fonctionnalités offertes par Aspose.Cells pour vous aider à gérer et à manipuler efficacement les fichiers Excel.
+Et voilà ! Vous avez appris avec succès à protéger des cellules spécifiques dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Avec seulement quelques lignes de code, vous pouvez protéger vos données, en vous assurant que seules les bonnes personnes ont accès à la modification des informations critiques. N'oubliez pas que la protection des cellules n'est qu'une des nombreuses fonctionnalités offertes par Aspose.Cells pour vous aider à gérer et à manipuler efficacement les fichiers Excel.
 
 ## FAQ
 
@@ -153,7 +153,7 @@ Absolument ! Vous pouvez verrouiller autant de cellules que vous le souhaitez en
  Aspose.Cells propose un essai gratuit, mais son utilisation continue nécessite une licence. Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 ### Où puis-je trouver la documentation ?
-La documentation peut être trouvée[ici](https://reference.aspose.com/cells/net/).
+ La documentation peut être trouvée[ici](https://reference.aspose.com/cells/net/).
 
 ### Dans quels formats de fichiers puis-je enregistrer des fichiers Excel ?
 Aspose.Cells prend en charge plusieurs formats, notamment XLSX, XLS, CSV, etc.

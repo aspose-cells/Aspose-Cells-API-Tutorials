@@ -2,7 +2,7 @@
 title: Maak een verenigingsbereik van cellen in Excel
 linktitle: Maak een verenigingsbereik van cellen in Excel
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u een verenigingsbereik van cellen in Excel kunt maken met Aspose.Cells voor .NET in eenvoudige stappen. Verbeter uw Excel-vaardigheden op een programmatische manier.
+description: Leer hoe u een verenigingsbereik van cellen in Excel kunt maken met Aspose.Cells voor .NET in eenvoudige stappen. Verbeter uw Excel-vaardigheden programmatisch.
 type: docs
 weight: 10
 url: /nl/net/excel-range-address-calculation/create-union-range-of-cells-in-excel/
@@ -35,7 +35,7 @@ De eerste stap in onze code is het maken van een instantie van het Workbook-obje
 // Uitvoermap
 string outputDir = "Your Document Directory"();
 
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 Deze regel code vertelt ons programma om een nieuwe werkmap te maken. Het is essentieel omdat u bereiken en waarden aan deze werkmap toevoegt.
@@ -54,7 +54,7 @@ unionRange.Value = "ABCD";
 ```
 In dit voorbeeld wijzen we de waarde "ABCD" toe aan alle cellen in het unionbereik. Wanneer u het resulterende Excel-bestand opent, ziet u "ABCD" prachtig weergegeven in alle gedefinieerde cellen!
 ## Stap 4: Sla de werkmap op
-Na al het harde werk is het cruciaal om de werkmap op te slaan, zodat uw wijzigingen niet verloren gaan. Dit is alsof u een schilderij opslaat na een marathon van kunstsessies!
+Na al het harde werk is het cruciaal om de werkmap op te slaan, zodat uw wijzigingen niet verloren gaan. Dit is alsof u een schilderij opslaat na een marathon-kunstsessie!
 ```csharp
 // Sla de uitvoerwerkmap op
 workbook.Save(outputDir + "CreateUnionRange_out.xlsx");
@@ -67,7 +67,7 @@ Console.WriteLine("CreateUnionRange executed successfully.");
 ```
 En daar heb je het! Je hebt met succes een verenigingsbereik van cellen in een Excel-bestand gemaakt met Aspose.Cells voor .NET.
 ## Conclusie
-Het maken van een union range van cellen in Excel hoeft niet te voelen als het navigeren door een doolhof! Met Aspose.Cells voor .NET kunt u dit bereiken met slechts een paar regels code. Deze vaardigheid zal niet alleen uw programmeergereedschap verbeteren, maar het opent ook de deur naar veel robuustere Excel-manipulaties. 
+Het maken van een verenigingsbereik van cellen in Excel hoeft niet te voelen als navigeren door een doolhof! Met Aspose.Cells voor .NET kunt u dit bereiken met slechts een paar regels code. Deze vaardigheid zal niet alleen uw programmeergereedschap verbeteren, maar het opent ook de deur naar veel robuustere Excel-manipulaties. 
 
 ## Veelgestelde vragen
 ### Wat is een verenigingsbereik in Excel?

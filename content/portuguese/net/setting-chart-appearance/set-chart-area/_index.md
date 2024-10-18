@@ -1,7 +1,7 @@
 ---
 title: Definir área do gráfico
 linktitle: Definir área do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desbloqueie o potencial dos gráficos do Excel com o Aspose.Cells para .NET. Aprenda a definir áreas de gráfico passo a passo em nosso tutorial fácil.
 type: docs
 weight: 13
@@ -17,7 +17,7 @@ Antes de mergulharmos nos detalhes da criação de gráficos, vamos garantir que
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado na sua máquina. Ele é essencial para escrever e executar código .NET.
 2. .NET Framework: Este guia funciona melhor com .NET Framework ou .NET Core. Certifique-se de ter a versão necessária instalada (4.5 ou posterior).
-3. Aspose.Cells: Você precisará da biblioteca Aspose.Cells. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Você precisará da biblioteca Aspose.Cells. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/).
 4. Conhecimento básico de C#: Um entendimento básico de programação em C# ajudará você a entender melhor os passos. Não se preocupe se você não for um profissional — eu explicarei tudo!
 
 ## Pacotes de importação
@@ -26,7 +26,7 @@ Agora que você está tudo pronto, o primeiro passo técnico envolve importar os
 
 1. Abra seu projeto: inicie o Visual Studio e abra ou crie um novo projeto.
 2. Instalar Aspose.Cells: Se você ainda não fez isso, instale o pacote Aspose.Cells. Você pode fazer isso por meio do NuGet Package Manager. Vá para Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution, procure por "Aspose.Cells" e instale-o em seu projeto.
-3. Adicione diretivas using: No topo do seu arquivo de código, adicione estas diretivas using:
+3. Adicionar diretivas de uso: no topo do seu arquivo de código, adicione estas diretivas de uso:
 
 ```csharp
 using System;
@@ -165,7 +165,7 @@ Parabéns! Você aprendeu com sucesso como configurar uma área de gráfico usan
 Aspose.Cells é uma biblioteca .NET para gerenciar arquivos Excel programaticamente. Ela permite criar, modificar e converter documentos Excel perfeitamente.
 
 ### Posso usar o Aspose.Cells em outras plataformas?
-Sim! O Aspose.Cells tem bibliotecas para diferentes plataformas, incluindo Java, Python e Cloud, o que o torna versátil em vários ambientes.
+Sim! O Aspose.Cells tem bibliotecas para diferentes plataformas, incluindo Java, Python e Cloud, tornando-o versátil em vários ambientes.
 
 ### Existe um teste gratuito disponível?
  Absolutamente! Você pode explorar o Aspose.Cells com um teste gratuito disponível[aqui](https://releases.aspose.com/).
@@ -174,4 +174,4 @@ Sim! O Aspose.Cells tem bibliotecas para diferentes plataformas, incluindo Java,
  Você pode buscar ajuda e suporte na comunidade e fóruns do Aspose.Cells disponíveis[aqui](https://forum.aspose.com/c/cells/9).
 
 ### Como posso comprar uma licença?
-Você pode comprar uma licença diretamente do site da Aspose[aqui](https://purchase.aspose.com/buy).
+ Você pode comprar uma licença diretamente do site da Aspose[aqui](https://purchase.aspose.com/buy).

@@ -20,7 +20,7 @@ Trước khi đi sâu vào chi tiết triển khai, trước tiên chúng ta hã
 
 Trước khi bắt đầu làm việc với Aspose.Cells cho Java và mã hóa, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 -  Thư viện Aspose.Cells cho Java, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 
 ## Bắt đầu

@@ -17,7 +17,7 @@ Ayrıntılara dalmadan önce, başarıya hazır olduğunuzdan emin olalım. İht
 
 1. Temel C# bilgisi: C# bilgisine sahip olmak programlama kavramlarını kolayca kavramanıza yardımcı olacaktır.
 2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
-3. Visual Studio: C# kodunuzu yazmak ve çalıştırmak için uygun bir IDE. .NET'i destekleyen herhangi bir sürüm işe yarayacaktır.
+3. Visual Studio: C# kodunuzu yazmak ve çalıştırmak için uygun bir IDE. .NET'i destekleyen herhangi bir sürüm yeterli olacaktır.
 4.  Excel dosyası: Gösterimimiz için, adlı bir Excel dosyası kullanacağız.`sampleSeries_ValuesFormatCode.xlsx`Çalışma dizininizde hazır bulundurduğunuzdan emin olun.
 
 ## Paketleri İçe Aktar
@@ -123,7 +123,7 @@ wb.Save(outputDir + "outputSeries_ValuesFormatCode.xlsx");
 
 Her şeyi toparlamak için bir başarı mesajı yazdırabiliriz.
 
-Bir performansın sonunda alkış almak gibi, bu onaylanma duygusu da size başarmanın sıcak, yumuşak hissini yaşatır.
+Tıpkı bir performansın sonunda alkış almak gibi, bu onaylanma duygusu da size başarmanın sıcak, yumuşak hissini yaşatır.
 
 ```csharp
 Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");
@@ -142,7 +142,7 @@ Aspose.Cells for .NET, geliştiricilerin .NET uygulamalarını kullanarak Excel 
 Evet, Aspose.Cells üretim ortamlarında kullanım için bir lisans gerektirir. Test amaçlı geçici bir lisans seçebilirsiniz.
 
 ### Aspose.Cells kullanarak sıfırdan grafikler oluşturabilir miyim?
-Kesinlikle! Aspose.Cells, sıfırdan grafik oluşturma ve özelleştirme için sağlam bir işlevsellik sunar.
+Kesinlikle! Aspose.Cells, sıfırdan grafik oluşturma ve özelleştirme için güçlü bir işlevsellik sunar.
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
  Şuraya erişebilirsiniz:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.

@@ -17,7 +17,7 @@ Excel ファイルをプログラムで管理および操作する場合、適�
 
 1. 開発環境: .NET 開発環境が設定されていることを確認してください。Visual Studio が推奨されます。
 2.  Aspose.Cells for .NETライブラリ: 最新バージョンのライブラリを以下からダウンロードしてください。[Aspose.Cells ダウンロード ページ](https://releases.aspose.com/cells/net/).
-3. C# の基本的な理解: C# と Excel の概念を理解しておくと、内容をよりスムーズに理解できるようになります。
+3. C# の基本的な理解: C# と Excel の概念を理解していると、内容をよりスムーズに理解できるようになります。
 4. ドキュメントへのアクセス: ドキュメントへのアクセス[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)行き詰まった場合に追加の洞察を提供できます。 
 
 準備が整ったら、Excel 操作の魔法を段階的に解き明かしてみましょう。
@@ -100,7 +100,7 @@ worksheet.Cells["C4"].PutValue("Y2");
 
 ## チャートの作成
 
-データの準備ができたら、このデータを視覚的に表すグラフを追加する準備が整いました。
+データの準備ができたら、このデータを視覚的に表すグラフを追加する準備が整います。
 
 ## ステップ 7: ワークシートにグラフを追加する
 
@@ -154,7 +154,7 @@ workbook.Save(outputDir + "outputSettingCategoryData.xlsx");
 
 ## ステップ12: 確認メッセージ
 
-最後に、すべてがシームレスに機能したことを確認するために、少しフィードバックを追加できます。
+最後に、すべてがシームレスに動作したことを確認するために、少しフィードバックを追加できます。
 
 ```csharp
 Console.WriteLine("SettingCategoryData executed successfully.");

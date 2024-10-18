@@ -2,7 +2,7 @@
 title: Ajouter une image au graphique
 linktitle: Ajouter une image au graphique
 second_title: API de traitement Excel Aspose.Cells .NET
-description: Découvrez comment ajouter facilement des images à des graphiques Excel à l'aide d'Aspose.Cells pour .NET. Améliorez vos graphiques et vos présentations en quelques étapes simples.
+description: Découvrez comment ajouter facilement des images aux graphiques Excel à l'aide d'Aspose.Cells pour .NET. Améliorez vos graphiques et vos présentations en quelques étapes simples.
 type: docs
 weight: 11
 url: /fr/net/inserting-controls-in-charts/add-picture-to-chart/
@@ -13,10 +13,10 @@ Vous en avez assez des graphiques ennuyeux qui manquent de touche personnelle ? 
 
 ## Prérequis
 
-Avant de passer aux choses sérieuses du codage, vous devez respecter quelques conditions préalables pour pouvoir suivre le code en douceur :
+Avant de passer aux choses sérieuses du codage, vous devez respecter quelques conditions préalables pour pouvoir suivre le processus en douceur :
 
 - Visual Studio : c'est ici que vous écrirez et exécuterez votre code .NET. Assurez-vous qu'il est installé.
--  Aspose.Cells pour .NET : vous aurez besoin de cette bibliothèque pour travailler avec des fichiers Excel. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
+- Aspose.Cells pour .NET : vous aurez besoin de cette bibliothèque pour travailler avec des fichiers Excel. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 - Compréhension de base de C# : même si je vous guiderai à travers le code, avoir une idée des bases de C# rendra les choses plus claires.
 
 ### Étapes d'installation
@@ -84,7 +84,7 @@ Assurez-vous que l'image est enregistrée dans le répertoire spécifié.
 Maintenant, précisons à quel graphique nous allons ajouter notre image. Dans cet exemple, nous ciblerons le premier graphique de la première feuille de calcul.
 
 ```csharp
-// Obtenez le tableau du concepteur dans la deuxième feuille.
+//Obtenez le tableau du concepteur dans la deuxième feuille.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -104,7 +104,7 @@ Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, strea
 
 ## Étape 6 : Personnaliser le format de ligne de l'image
 
-Vous souhaitez ajouter une touche d'originalité à votre photo ? Vous pouvez personnaliser sa bordure ! Voici comment procéder :
+Vous souhaitez ajouter une touche d'originalité à votre image ? Vous pouvez personnaliser sa bordure ! Voici comment procéder :
 
 ```csharp
 // Obtenir le type de format de ligne de l'image.
@@ -140,18 +140,18 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Conclusion
 
-Dans ce tutoriel, nous avons exploré comment ajouter un peu de personnalité à vos graphiques Excel en ajoutant des images à l'aide d'Aspose.Cells pour .NET. En quelques étapes simples, vous pouvez faire passer vos présentations de banales à mémorables. Alors, qu'attendez-vous ? Essayez-le et laissez vos graphiques briller !
+Dans ce tutoriel, nous avons exploré comment ajouter un peu de personnalité à vos graphiques Excel en ajoutant des images à l'aide d'Aspose.Cells pour .NET. En quelques étapes simples, vous pouvez faire passer vos présentations de banales à mémorables. Alors, qu'attendez-vous ? Lancez-vous et laissez vos graphiques briller !
 
 ## FAQ
 
 ### Puis-je ajouter plusieurs images à un seul graphique ?
  Oui ! Vous pouvez appeler le`AddPictureInChart` Répétez la méthode plusieurs fois pour ajouter autant d'images que vous le souhaitez.
 
-### Quels formats d’image Aspose.Cells prend-il en charge ?
+### Quels formats d’image sont pris en charge par Aspose.Cells ?
 Aspose.Cells prend en charge une variété de formats d'image, notamment PNG, JPEG, BMP et GIF.
 
 ### Puis-je personnaliser la position de l'image ?
-Bien sûr ! Les coordonnées X et Y dans le`AddPictureInChart` méthode permet un positionnement précis.
+ Bien sûr ! Les coordonnées X et Y dans le`AddPictureInChart` méthode permet un positionnement précis.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
  Aspose.Cells propose un essai gratuit, mais pour bénéficier de toutes les fonctionnalités, une licence est requise. Vous pouvez trouver les tarifs[ici](https://purchase.aspose.com/buy).

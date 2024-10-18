@@ -81,7 +81,7 @@ Hier fügen wir zwei Spalten hinzu: eine für Regionen und eine für Verkaufszah
 
 ## Schritt 3: Fügen Sie ein Diagrammblatt hinzu
 
-Als Nächstes fügen wir ein separates Arbeitsblatt hinzu, in dem das Kreisdiagramm enthalten ist.
+Als Nächstes fügen wir ein separates Arbeitsblatt hinzu, das das Kreisdiagramm enthält.
 
 ```csharp
 int sheetIndex = workbook.Worksheets.Add(SheetType.Chart);
@@ -190,7 +190,7 @@ Ja! Aspose.Cells unterstützt verschiedene Diagrammtypen, darunter Balkendiagram
  Sie können die kostenlose Version mit einigen Einschränkungen nutzen. Für den vollen Funktionsumfang benötigen Sie eine Lizenz, die Sie kaufen können[Hier](https://purchase.aspose.com/buy).
 
 ### Kann ich das Diagramm in Formate wie PDF oder Bilder exportieren?
-Auf jeden Fall! Aspose.Cells ermöglicht Ihnen den Export von Diagrammen in verschiedene Formate, darunter PDF und PNG.
+Auf jeden Fall! Mit Aspose.Cells können Sie Diagramme in verschiedene Formate exportieren, darunter PDF und PNG.
 
 ### Ist es möglich, jedes Tortenstück mit einer anderen Farbe zu gestalten?
  Ja, Sie können jedem Slice eine andere Farbe zuweisen, indem Sie die`IsColorVaried` Eigentum an`true`, wie im Tutorial gezeigt.

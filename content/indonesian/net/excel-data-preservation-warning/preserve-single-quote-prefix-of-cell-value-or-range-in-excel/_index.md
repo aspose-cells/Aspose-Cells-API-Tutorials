@@ -129,7 +129,7 @@ Range rng = ws.Cells.CreateRange("A1");
 rng.ApplyStyle(st, flag);
 ```
 
- Inilah kendalanya! Dengan menentukan`flag.QuotePrefix = false`, kita memberi tahu program tersebut, “Hei, jangan sentuh awalan yang sudah ada.” Jadi apa yang terjadi?
+ Inilah kendalanya! Dengan menentukan`flag.QuotePrefix = false`, kita memberi tahu program, “Hei, jangan sentuh awalan yang ada.” Jadi apa yang terjadi?
 
 ## Langkah 7: Periksa kembali Awalan Kutipan
 

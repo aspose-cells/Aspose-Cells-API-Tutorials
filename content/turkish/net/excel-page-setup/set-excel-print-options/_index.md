@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Daha sonra, bir tane oluşturmamız gerekecek`Workbook` nesne. Bu nesne, elektronik tablo verileriniz için bir kapsayıcı görevi görür.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -127,7 +127,7 @@ Buradaki her satır, belgenizin yazdırıldığında nasıl göründüğünü iy
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 
-Her şeyi istediğiniz gibi ayarladıktan sonra, artık çalışma kitabınızı kaydetme zamanı geldi.
+Her şeyi istediğiniz gibi ayarladıktan sonra, artık çalışma kitabınızı kaydetmenin zamanı geldi.
 
 ```csharp
 // Çalışma kitabını kaydedin.

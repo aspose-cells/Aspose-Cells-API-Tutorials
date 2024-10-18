@@ -10,10 +10,10 @@ url: /id/net/excel-subtotal-calculation/create-subtotals-in-excel/
 ## Perkenalan
 Apakah Anda siap untuk meningkatkan keterampilan Excel dan membuat lembar kerja Anda lebih dinamis? Membuat subtotal di Excel dapat membantu Anda mengkategorikan dan meringkas data secara efektif, sehingga memungkinkan interpretasi dan pelaporan data yang lebih baik. Jika Anda sering kali kesulitan dengan banyak angka, membuat ringkasan terstruktur sangatlah penting. Hari ini, kita akan membahas cara membuat subtotal dengan mudah menggunakan Aspose.Cells for .NET, pustaka canggih yang dirancang untuk menangani semua manipulasi file Excel Anda.
 ## Prasyarat
-Sebelum kita menyelami seluk-beluk pembuatan subtotal di Excel, ada beberapa prasyarat yang harus Anda penuhi:
-1. Aspose.Cells untuk .NET Terpasang: Pastikan Anda telah menyiapkan pustaka Aspose.Cells di lingkungan pengembangan Anda. Jika Anda belum melakukannya, Anda dapat dengan mudah[unduh disini](https://releases.aspose.com/cells/net/).
+Sebelum kita menyelami seluk-beluk pembuatan subtotal di Excel, ada beberapa prasyarat yang mesti Anda penuhi:
+1.  Aspose.Cells untuk .NET Terpasang: Pastikan Anda telah menyiapkan pustaka Aspose.Cells di lingkungan pengembangan Anda. Jika Anda belum melakukannya, Anda dapat dengan mudah[unduh disini](https://releases.aspose.com/cells/net/).
 2. Lingkungan .NET: Anda harus memiliki lingkungan .NET yang berfungsi agar kita dapat bekerja dengan pustaka tersebut. Baik itu Visual Studio atau IDE lainnya, pastikan Anda merasa nyaman membuat kode dalam C#.
-3. Pengetahuan Dasar tentang C#: Keakraban dengan C# akan sangat bermanfaat. Contoh-contoh yang akan kami berikan menggunakan sintaks C#, jadi memahaminya akan membantu Anda memahami prosesnya.
+3. Pengetahuan Dasar tentang C#: Keakraban dengan C# akan sangat bermanfaat. Contoh-contoh yang akan kami berikan menggunakan sintaks C#, jadi pemahaman yang baik akan membantu Anda memahami prosesnya.
 4.  Lembar Kerja Excel: Contoh file Excel untuk berlatih. Kita akan menggunakan file bernama`book1.xls` dalam tutorial kami.
 5.  Akses ke Dokumentasi dan Dukungan Online: Mengenal Lebih Dekat[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) dapat sangat membantu saat Anda maju dalam menggunakan perpustakaan.
 Sekarang setelah fondasinya tersusun, mari masuk ke bagian teknis!
@@ -29,7 +29,7 @@ Untuk memulai, kita perlu menentukan di mana file Excel kita berada. Di sinilah 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda`book1.xls` disimpan. Ini memberi tahu program tempat menemukan file Excel yang akan kita manipulasi.
+ Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda`book1.xls`disimpan. Ini memberi tahu program tempat menemukan file Excel yang akan kita manipulasi.
 ## Langkah 2: Buat Buku Kerja Baru
 Selanjutnya, kita akan membuat contoh baru dari objek Workbook. Ini akan memungkinkan kita untuk membuka dan mengedit berkas Excel kita.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // abad ke-19
 ca.EndColumn = 2;
 ```
- Di sini, kami mendefinisikan`CellArea` yang menentukan rentang yang kita minati. Dalam kasus ini, kita telah memilih area dari B3 (Baris 2, Kolom 1) hingga C19 (Baris 18, Kolom 2). Di sinilah kita akan menghitung subtotal kita.
+ Di sini, kami mendefinisikan`CellArea`yang menentukan rentang yang kita minati. Dalam kasus ini, kita telah memilih area dari B3 (Baris 2, Kolom 1) hingga C19 (Baris 18, Kolom 2). Di sinilah kita akan menghitung subtotal kita.
 ## Langkah 5: Terapkan Subtotal
 Inilah inti operasi kami – menerapkan subtotal ke area sel yang ditentukan.
 ```csharp
@@ -60,10 +60,10 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
  Pada baris ini, kita menyebutnya`Subtotal` metode. Parameter yang ditetapkan adalah:
 - `ca`: Rentang sel yang telah kita definisikan sebelumnya.
 - `0`: Indeks ini merujuk pada kolom yang memuat nilai yang akan dijumlahkan. 
-- `ConsolidationFunction.Sum`Ini menentukan bahwa kita ingin menjumlahkan nilai-nilai.
+- `ConsolidationFunction.Sum`: Ini menentukan bahwa kita ingin menjumlahkan nilai-nilainya.
 - `new int[] { 1 }`: Ini menunjukkan bahwa kita menjumlahkan nilai dari kolom kedua (Kolom C).
 ## Langkah 6: Simpan File Excel yang Telah Dimodifikasi
-Terakhir, kita perlu menyimpan perubahan ke berkas Excel baru. 
+Terakhir, kita perlu menyimpan perubahan kita ke berkas Excel baru. 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```

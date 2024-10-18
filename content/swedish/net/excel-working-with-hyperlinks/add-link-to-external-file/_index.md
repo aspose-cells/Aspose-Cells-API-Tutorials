@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Steg 2: Skapa ett arbetsboksobjekt
 Därefter skapar vi en ny Excel-arbetsbok. Det här är din tomma arbetsyta där du kan börja lägga till funktioner.
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
  Tänk på`Workbook` som en ny anteckningsbok där du kan skriva ner allt du behöver. Det är tomt just nu, redo för din input!
@@ -47,7 +47,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 Här säger vi, "Hej, jag vill jobba på det första arket." Det är som att öppna en viss sida i din anteckningsbok.
 ## Steg 4: Lägg till en hyperlänk
-Nu, för det roliga: att lägga till hyperlänken! Detta låter dig länka till en extern fil, som ett annat Excel-dokument.
+Nu till det roliga: att lägga till hyperlänken! Detta låter dig länka till en extern fil, som ett annat Excel-dokument.
 ```csharp
 worksheet.Hyperlinks.Add("A5", 1, 1, outputDir + "SomeExcelFile.xlsx");
 worksheet.Hyperlinks[0].TextToDisplay = "Link To External File";
@@ -59,7 +59,7 @@ Efter att ha skapat ditt mästerverk är det dags att spara det. Detta kommer at
 // Sparar Excel-filen
 workbook.Save(outputDir + "outputAddingLinkToExternalFile.xlsx");
 ```
-Här namnger du ditt nya dokument. Se det som att stänga din anteckningsbok efter att ha skrivit ner viktiga anteckningar!
+Här namnger du ditt nya dokument. Se det som att du stänger din anteckningsbok efter att ha skrivit ner viktiga anteckningar!
 ## Steg 6: Skapa den externa filen
 Eftersom du refererade till en extern fil i din hyperlänk måste du också skapa den här filen för att säkerställa att länken fungerar!
 ```csharp

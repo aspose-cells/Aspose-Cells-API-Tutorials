@@ -102,6 +102,6 @@ Automatizace extrakce dat pomocí Aspose.Cells for Java zjednodušuje proces zí
    Ano, k používání Aspose.Cells for Java ve svých projektech budete potřebovat platnou licenci.
 
 ### 5. Kde najdu další zdroje a dokumentaci k Aspose.Cells for Java?
-    Prozkoumejte dokumentaci API na adrese[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
+    Prozkoumejte dokumentaci API na[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
 
 Začněte automatizovat své úlohy extrakce dat ještě dnes pomocí Aspose.Cells for Java a zefektivněte své procesy získávání dat.

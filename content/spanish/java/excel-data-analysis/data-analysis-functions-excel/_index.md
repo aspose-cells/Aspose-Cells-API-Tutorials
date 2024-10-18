@@ -10,7 +10,7 @@ url: /es/java/excel-data-analysis/data-analysis-functions-excel/
 
 ## Introducción a las funciones de análisis de datos en Excel con Aspose.Cells para Java
 
-En esta guía completa, exploraremos cómo aprovechar Aspose.Cells para Java para realizar funciones de análisis de datos en Excel. Ya sea que sea un desarrollador o un analista de datos, Aspose.Cells para Java proporciona funciones poderosas para manipular y analizar datos de Excel de manera programática. Cubriremos varias tareas de análisis de datos, como ordenar, filtrar, calcular estadísticas y más. ¡Vamos a profundizar!
+En esta guía completa, exploraremos cómo aprovechar Aspose.Cells para Java para realizar funciones de análisis de datos en Excel. Ya sea que sea un desarrollador o un analista de datos, Aspose.Cells para Java proporciona funciones potentes para manipular y analizar datos de Excel de manera programática. Cubriremos varias tareas de análisis de datos, como ordenar, filtrar, calcular estadísticas y más. ¡Vamos a profundizar!
 
 ## Prerrequisitos
 Antes de comenzar, asegúrese de tener los siguientes requisitos previos:

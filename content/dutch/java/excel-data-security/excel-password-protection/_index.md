@@ -2,7 +2,7 @@
 title: Excel-wachtwoordbeveiliging
 linktitle: Excel-wachtwoordbeveiliging
 second_title: Aspose.Cells Java Excel-verwerkings-API
-description: Leer hoe u de beveiliging van uw gegevens kunt verbeteren met Excel-wachtwoordbeveiliging met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor ultieme vertrouwelijkheid van uw gegevens.
+description: Leer hoe u de beveiliging van gegevens kunt verbeteren met Excel-wachtwoordbeveiliging met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor ultieme vertrouwelijkheid van gegevens.
 type: docs
 weight: 10
 url: /nl/java/excel-data-security/excel-password-protection/

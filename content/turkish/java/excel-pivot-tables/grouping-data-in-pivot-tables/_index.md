@@ -93,7 +93,7 @@ Pivot tablolarda veri gruplandırma, Excel'de veri analiz etmek ve özetlemek i�
 
 ### 1. Excel'deki pivot tabloların amacı nedir?
 
-Excel'deki pivot tablolar büyük veri kümelerini özetlemek ve analiz etmek için kullanılır. Verilerinizin özel görünümlerini oluşturmanıza olanak tanır ve bu da kalıpları ve eğilimleri belirlemeyi kolaylaştırır.
+Excel'deki pivot tablolar büyük veri kümelerini özetlemek ve analiz etmek için kullanılır. Verilerinizin özel görünümlerini oluşturmanıza olanak tanır ve kalıpları ve eğilimleri belirlemeyi kolaylaştırır.
 
 ### 2. Pivot tablodaki verilerin gruplandırılmasını nasıl özelleştirebilirim?
 

@@ -83,7 +83,7 @@ for (int i = 0; i < dataTable.Columns.Count; i++)
     Console.WriteLine(dataTable.Columns[i].ColumnName);
 }
 ```
- Cette boucle traverse les colonnes de la`DataTable`et imprime chaque nom de colonne sur la console. C'est la satisfaction de voir nos bocaux alignés, étiquetés et prêts à l'emploi.
+ Cette boucle traverse les colonnes de la`DataTable`et imprime le nom de chaque colonne sur la console. C'est la satisfaction de voir nos bocaux alignés, étiquetés et prêts à l'emploi.
 ## Conclusion
 Et voilà ! En suivant ces étapes, vous êtes désormais équipé pour renommer automatiquement les colonnes en double lors de l'exportation de données Excel à l'aide d'Aspose.Cells pour .NET. Cela vous permet non seulement de gagner du temps, mais également de garantir que vos données restent organisées et compréhensibles. N'est-ce pas formidable que la technologie nous facilite la vie ? Si vous avez des questions en cours de route, n'hésitez pas à nous contacter dans les commentaires.
 ## FAQ

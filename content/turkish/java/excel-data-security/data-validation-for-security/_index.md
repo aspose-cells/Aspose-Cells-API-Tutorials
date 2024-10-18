@@ -18,7 +18,7 @@ Veri doğrulama, bir sisteme girilen verilerin kabul edilmeden önce belirli kri
 
 ## Veri Doğrulamasının Önemi
 
-Veri doğrulaması önemlidir çünkü verilerinizin bütünlüğünü ve güvenliğini korur. Veri girişi üzerinde kurallar ve kısıtlamalar uygulayarak, veri ihlalleri, sistem çökmeleri ve veri bozulması gibi çok çeşitli sorunları önleyebilirsiniz.
+Veri doğrulaması önemlidir çünkü verilerinizin bütünlüğünü ve güvenliğini korur. Veri girişi üzerinde kurallar ve kısıtlamalar uygulayarak veri ihlalleri, sistem çökmeleri ve veri bozulması gibi çok çeşitli sorunları önleyebilirsiniz.
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -105,7 +105,7 @@ Güvenliği daha da artırmak için çalışma sayfalarınızı ve çalışma ki
 // Çalışma sayfasını koruyun
 worksheet.protect(ProtectionType.ALL);
 
-// Çalışma kitabını koru
+// Çalışma kitabını koruyun
 workbook.protect(ProtectionType.ALL);
 ```
 
@@ -141,8 +141,8 @@ Java için Aspose.Cells'i kurmak için kütüphaneyi indirin ve Java projenize e
 
 ### Özel veri doğrulama kuralları oluşturabilir miyim?
 
-Evet, Aspose.Cells for Java'yı kullanarak özel veri doğrulama kuralları oluşturabilirsiniz.
+Evet, Java için Aspose.Cells'i kullanarak özel veri doğrulama kuralları oluşturabilirsiniz.
 
 ### Gelişmiş veri doğrulama teknikleri nelerdir?
 
-Gelişmiş teknikler arasında basamaklı açılır listeler ve doğrulama için formüller kullanmak yer alır.
+Gelişmiş teknikler arasında basamaklı açılır listeler ve doğrulama için formüller kullanımı yer alır.

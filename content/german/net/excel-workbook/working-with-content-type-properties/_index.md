@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Schritt 2: Erstellen Sie eine neue Arbeitsmappe
 
- Nachdem wir nun unser Ausgabeverzeichnis haben, erstellen wir eine neue Arbeitsmappe.`Workbook` Klasse ist der Ausgangspunkt für den Umgang mit Excel-Dateien.
+ Nachdem wir nun unser Ausgabeverzeichnis haben, erstellen wir eine neue Arbeitsmappe. Die`Workbook` Klasse ist der Ausgangspunkt für den Umgang mit Excel-Dateien.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

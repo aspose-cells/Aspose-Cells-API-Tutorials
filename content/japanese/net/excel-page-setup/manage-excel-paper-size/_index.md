@@ -17,14 +17,14 @@ Excel の用紙サイズ管理の技術的な詳細に入る前に、いくつ�
 
 1. C# の基本的な理解: C# プログラミングに精通していると、Aspose.Cells をプロジェクトに統合するプロセスが大幅に容易になります。
 2. Visual Studio がインストールされている: C# コードを記述して実行するには、マシンに Visual Studio がインストールされていることを確認してください。
-3.  Aspose.Cells for .NETライブラリ: Aspose.Cellsを入手する必要があります。[ここからダウンロード](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NETライブラリ: Aspose.Cellsを入手する必要があります。[ここからダウンロード](https://releases.aspose.com/cells/net/).
 4. NuGet パッケージ マネージャー: NuGet パッケージ マネージャーを使用すると Aspose.Cells を簡単にインストールできるため、NuGet パッケージ マネージャーにアクセスできることを確認してください。
 
 これらの前提条件を念頭に置いて、始めましょう。
 
 ## パッケージのインポート
 
-Aspose.Cells の使用を開始するには、C# コードに必要な名前空間をインポートする必要があります。手順は次のとおりです。
+Aspose.Cells を使い始めるには、C# コードに必要な名前空間をインポートする必要があります。手順は次のとおりです。
 
 ### 新しい C# プロジェクトを作成する
 
@@ -58,7 +58,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-交換する`"YOUR DOCUMENT DIRECTORY"`ファイルをシステム上に保存する実際のパスを入力します。たとえば、次のようになります。`C:\Documents\`.
+交換する`"YOUR DOCUMENT DIRECTORY"`ファイルを実際に保存するシステム上のパスを入力します。たとえば、次のようになります。`C:\Documents\`.
 
 ## ステップ2: ワークブックオブジェクトを作成する
 
@@ -98,7 +98,7 @@ worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 workbook.Save(dataDir + "ManagePaperSize_out.xls");
 ```
 
-この行は、変更したワークブックを指定されたディレクトリに保存します。ここでの出力ファイルの名前は`ManagePaperSize_out.xls`ただし、必要に応じて自由にカスタマイズしてください。
+この行は変更したワークブックを指定されたディレクトリに保存します。ここでの出力ファイルの名前は`ManagePaperSize_out.xls`ただし、必要に応じて自由にカスタマイズしてください。
 
 ## 結論
 

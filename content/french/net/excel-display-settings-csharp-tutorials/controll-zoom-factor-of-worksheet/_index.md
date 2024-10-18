@@ -9,7 +9,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 ---
 ## Introduction
 
-Lorsqu'il s'agit de créer et de gérer des feuilles de calcul Excel par programmation, Aspose.Cells pour .NET est une bibliothèque puissante qui facilite grandement notre travail. Que vous ayez besoin de générer des rapports, de manipuler des données ou de formater des graphiques, Aspose.Cells est là pour vous. Dans ce tutoriel, nous nous penchons sur une fonctionnalité spécifique : le contrôle du facteur de zoom d'une feuille de calcul. Vous êtes-vous déjà retrouvé à plisser les yeux devant une minuscule cellule ou à être frustré par un zoom qui ne correspond pas à vos données ? Eh bien, nous sommes tous passés par là ! Nous allons donc vous aider à gérer les niveaux de zoom dans vos feuilles de calcul Excel et à améliorer votre expérience utilisateur.
+Lorsqu'il s'agit de créer et de gérer des feuilles de calcul Excel par programmation, Aspose.Cells pour .NET est une bibliothèque puissante qui facilite grandement notre travail. Que vous ayez besoin de générer des rapports, de manipuler des données ou de formater des graphiques, Aspose.Cells est là pour vous. Dans ce tutoriel, nous nous penchons sur une fonctionnalité spécifique : le contrôle du facteur de zoom d'une feuille de calcul. Vous êtes-vous déjà retrouvé à plisser les yeux devant une minuscule cellule ou frustré par un zoom qui ne correspond pas à vos données ? Eh bien, nous sommes tous passés par là ! Nous allons donc vous aider à gérer les niveaux de zoom dans vos feuilles de calcul Excel et à améliorer votre expérience utilisateur.
 
 ## Prérequis
 
@@ -32,7 +32,7 @@ Ouvrez Visual Studio et créez un nouveau projet d'application console. Vous pou
 
 Il est maintenant temps d'ajouter la référence de la bibliothèque Aspose.Cells. Vous pouvez soit :
 
--  Téléchargez la DLL à partir de[ici](https://releases.aspose.com/cells/net/) et ajoutez-le manuellement à votre projet.
+-  Téléchargez la DLL à partir de[ici](https://releases.aspose.com/cells/net/)et ajoutez-le manuellement à votre projet.
 - Ou utilisez le gestionnaire de packages NuGet et exécutez la commande suivante dans la console du gestionnaire de packages :
 
 ```bash
@@ -81,7 +81,7 @@ Cette ligne de code préparera votre fichier Excel pour l'édition.
  Le`Workbook` L'objet est le cœur de votre fonctionnalité Aspose.Cells. Il représente votre fichier Excel de manière gérable.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,13 +93,13 @@ Workbook workbook = new Workbook(fstream);
 Le classeur étant désormais en mémoire, il est temps d'accéder à la feuille de calcul spécifique que vous souhaitez modifier. Dans la plupart des cas, il s'agira de la première feuille de calcul (index 0).
 
 ```csharp
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 C'est comme ouvrir un livre sur une page spécifique pour faire vos annotations !
 
-## Étape 5 : Ajuster le facteur de zoom
+## Étape 5 : Régler le facteur de zoom
 
 Et maintenant, place à la magie ! Vous pouvez définir le niveau de zoom de la feuille de calcul à l'aide de la ligne suivante :
 

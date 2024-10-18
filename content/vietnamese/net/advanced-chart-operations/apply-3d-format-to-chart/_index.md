@@ -142,7 +142,7 @@ ShapePropertyCollection spPr = ser.ShapeProperties;
 Format3D fmt3d = spPr.Format3D;
 ```
 
-Chúng ta đang chuẩn bị thêm một chút gia vị vào món ăn của mình - hãy coi đó như một loại gia vị làm tăng thêm hương vị tổng thể.
+Chúng ta đang chuẩn bị thêm chút gia vị vào món ăn của mình - hãy coi đó như một loại gia vị giúp tăng thêm hương vị tổng thể.
 
 ## Bước 9: Áp dụng hiệu ứng vát 3D
 
@@ -202,7 +202,7 @@ Xin chúc mừng! Bạn đã tạo thành công biểu đồ 3D hấp dẫn về
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các tài liệu Excel theo chương trình, bao gồm tạo biểu đồ và sơ đồ.
 
 ### Tôi có thể tùy chỉnh kiểu biểu đồ trong Aspose.Cells không?
-Có! Aspose.Cells hỗ trợ nhiều loại biểu đồ như Cột, Đường, Hình tròn và nhiều loại khác nữa, có thể dễ dàng tùy chỉnh.
+Có! Aspose.Cells hỗ trợ nhiều loại biểu đồ như Cột, Đường, Hình tròn và nhiều loại khác nữa, có thể tùy chỉnh dễ dàng.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?
  Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).

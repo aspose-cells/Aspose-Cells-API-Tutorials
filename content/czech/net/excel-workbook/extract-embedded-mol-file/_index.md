@@ -17,7 +17,7 @@ Než se ponoříme do procesu extrakce, ujistěte se, že jste plně vybaveni, a
 
 - Základní znalost C#: Malá znalost C# bude dlouhá cesta. I když právě začínáte, měli byste být schopni udržet tempo.
 - Visual Studio: Mějte na svém systému nainstalované Visual Studio. Je nezbytný pro psaní a provádění vašeho kódu C#.
--  Aspose.Cells for .NET: Pokud jste si ji ještě nestáhli, přejděte na[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/) a stáhněte si nejnovější verzi.
+- Aspose.Cells for .NET: Pokud jste si ji ještě nestáhli, přejděte na[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/) a stáhněte si nejnovější verzi.
 - .NET Framework: Ujistěte se, že máte nainstalovanou kompatibilní verzi rozhraní .NET Framework.
 -  Soubor aplikace Excel s vloženými objekty MOL: Pro náš příklad budeme používat`EmbeddedMolSample.xlsx`. Ujistěte se, že máte tento soubor připravený k extrakci.
 
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 
  V tomto kroku vytvoříme novou instanci`Workbook` třídy, která funguje jako most k obsahu vašeho souboru Excel. Soubor se načte zde, takže můžeme později iterovat listy a najít vložené objekty MOL.
 
-## Krok 3: Projděte si pracovní listy
+## Krok 3: Iterujte pracovními listy
 
 Nyní, když je náš sešit načten, je čas jít hlouběji. Chcete-li najít jakékoli vložené objekty, musíte projít každý list v sešitu:
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- S tímto úryvkem používáme a`foreach` smyčka, abyste mohli projít každý list v našem sešitu. Přístupem k`OleObjects`kolekce, můžeme získat přístup ke všem vloženým objektům na tomto konkrétním listu. 
+ S tímto úryvkem používáme a`foreach` smyčka, abyste mohli projít každý list v našem sešitu. Přístupem k`OleObjects` kolekce, můžeme získat přístup ke všem vloženým objektům na tomto konkrétním listu. 
 
 ## Krok 4: Extrahujte objekty OLE
 
@@ -121,7 +121,7 @@ Tento jednoduchý řádek odešle zprávu do konzole, jakmile bude celá vaše o
 
 ## Závěr
 
-tady to máte! Úspěšně jste extrahovali vložené soubory MOL ze souboru aplikace Excel pomocí Aspose.Cells for .NET. Nyní můžete využít své nově nabyté dovednosti a uplatnit je v jiných scénářích, kde potřebujete extrahovat soubory objektů z listů aplikace Excel. Tato metoda je nejen efektivní, ale také otevírá dveře k bezproblémové manipulaci s různými operacemi souvisejícími s Excelem.
+A tady to máte! Úspěšně jste extrahovali vložené soubory MOL ze souboru aplikace Excel pomocí Aspose.Cells for .NET. Nyní můžete využít své nově nabyté dovednosti a uplatnit je v jiných scénářích, kde potřebujete extrahovat soubory objektů z listů aplikace Excel. Tato metoda je nejen efektivní, ale také otevírá dveře k bezproblémové manipulaci s různými operacemi souvisejícími s Excelem.
 
 ## FAQ
 

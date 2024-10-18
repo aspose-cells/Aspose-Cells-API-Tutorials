@@ -144,7 +144,7 @@ Bu aralığı atayarak, grafiğe hangi hücrelerin veri serimizdeki kategorilere
 
 ## Adım 11: Excel Dosyasını Kaydetme
 
-Her şey tamam, şimdi emeklerimizi kurtarmanın zamanı geldi. 
+Her şey tamamsa, artık emeklerimizi kurtarmanın zamanı geldi. 
 
 ```csharp
 workbook.Save(outputDir + "outputSettingCategoryData.xlsx");

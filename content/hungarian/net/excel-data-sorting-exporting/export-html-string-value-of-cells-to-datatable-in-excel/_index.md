@@ -2,7 +2,7 @@
 title: Exportálja a cellák HTML karakterlánc-értékét az Excel adattáblázatába
 linktitle: Exportálja a cellák HTML karakterlánc-értékét az Excel adattáblázatába
 second_title: Aspose.Cells .NET Excel Processing API
-description: Egy egyszerű, lépésenkénti oktatóanyagból megtudhatja, hogyan exportálhat HTML-karakterlánc-értékeket Excel-cellákból egy DataTable-ba az Aspose.Cells for .NET használatával.
+description: Ismerje meg, hogyan exportálhat HTML-karakterlánc-értékeket Excel-cellákból egy DataTable-ba az Aspose.Cells for .NET használatával egy egyszerű, lépésenkénti oktatóanyagban.
 type: docs
 weight: 11
 url: /hu/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/
@@ -64,7 +64,7 @@ string sourceDir = "Your Document Directory";
 
 ## 2. lépés: Töltse be az Excel mintafájlt
 
- A következő lépés az Excel munkafüzet betöltése. Használni fogja a`Workbook` osztályt az Aspose.Cells-től. Így töltheti be a fájlt:
+ A következő lépés az Excel munkafüzet betöltése. Használni fogja a`Workbook` osztályban az Aspose.Cells-től. Így töltheti be a fájlt:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");

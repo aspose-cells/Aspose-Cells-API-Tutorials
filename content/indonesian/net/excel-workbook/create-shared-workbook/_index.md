@@ -2,7 +2,7 @@
 title: Buat Buku Kerja Bersama
 linktitle: Buat Buku Kerja Bersama
 second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang mudah ini. Sempurna untuk meningkatkan kolaborasi tim.
+description: Pelajari cara membuat buku kerja bersama menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Sempurna untuk meningkatkan kolaborasi tim.
 type: docs
 weight: 70
 url: /id/net/excel-workbook/create-shared-workbook/

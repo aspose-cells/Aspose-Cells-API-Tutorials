@@ -9,7 +9,7 @@ url: /id/net/advanced-chart-operations/setting-category-data/
 ---
 ## Perkenalan
 
-Jika berbicara tentang mengelola dan memanipulasi file Excel secara terprogram, memiliki alat yang tepat dapat membuat perbedaan. Aspose.Cells for .NET menonjol sebagai salah satu alat tersebut, yang memungkinkan pengembang untuk membuat, mengedit, dan mengonversi file Excel dengan mudah. Baik Anda sedang membangun aplikasi analisis data yang kompleks atau hanya perlu mengotomatiskan pembuatan laporan, Aspose.Cells siap membantu Anda. 
+Jika berbicara tentang mengelola dan memanipulasi file Excel secara terprogram, memiliki alat yang tepat dapat membuat perbedaan besar. Aspose.Cells for .NET menonjol sebagai salah satu alat tersebut, yang memungkinkan pengembang untuk membuat, mengedit, dan mengonversi file Excel dengan mudah. Baik Anda sedang membangun aplikasi analisis data yang kompleks atau hanya perlu mengotomatiskan pembuatan laporan, Aspose.Cells siap membantu Anda. 
 
 ## Prasyarat 
 
@@ -100,7 +100,7 @@ Di sini, kami menandai setiap set data dengan kategori seperti “Q1” dan “Y
 
 ## Membuat Bagan
 
-Setelah data kita tersedia, kita siap menambahkan bagan untuk menyajikan data ini secara visual.
+Setelah data kita tersedia, kita siap menambahkan bagan untuk merepresentasikan data ini secara visual.
 
 ## Langkah 7: Menambahkan Bagan ke Lembar Kerja
 
@@ -110,7 +110,7 @@ Sekarang, mari tambahkan bagan jenis 'Kolom' pada lembar kerja.
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
 ```
 
-Baris ini membuat bagan kolom baru yang dimulai pada baris 5 dan kolom 0 pada lembar kerja.
+Baris ini membuat bagan kolom baru yang dimulai pada baris 5 dan kolom 0 lembar kerja.
 
 ## Langkah 8: Mengakses Instansi Bagan
 

@@ -1,6 +1,6 @@
 ---
-title: Přidat odkaz na externí soubor v Excelu
-linktitle: Přidat odkaz na externí soubor v Excelu
+title: Přidat odkaz na externí soubor v aplikaci Excel
+linktitle: Přidat odkaz na externí soubor v aplikaci Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se přidávat externí odkazy na soubory v Excelu pomocí Aspose.Cells for .NET pomocí tohoto podrobného průvodce. Vylepšete své tabulky.
 type: docs
@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Krok 2: Vytvořte objekt sešitu
 Dále vytvoříme nový excelový sešit. Toto je vaše prázdné plátno, kde můžete začít přidávat funkce.
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
  Myslete na`Workbook` jako nový sešit, kam si můžete zapsat vše potřebné. Právě teď je prázdný, připraven na váš příspěvek!
@@ -74,7 +74,7 @@ Console.WriteLine("AddingLinkToExternalFile executed successfully.");
 ```
 Na tomto řádku se zobrazí zpráva potvrzující úspěšnost operace ve vaší konzoli. Je to jako říct: „Vše připraveno! Práce je hotová!"
 ## Závěr
-tady to máte! V několika krocích jste se naučili přidávat hypertextové odkazy na externí soubory v sešitu aplikace Excel pomocí Aspose.Cells for .NET. Tato výkonná funkce zvyšuje přizpůsobivost vašich tabulek a efektivně propojuje vaše data. S těmito znalostmi můžete vytvářet interaktivnější a užitečnější dokumenty aplikace Excel, což podporuje lepší organizaci a spolupráci.
+A tady to máte! V několika krocích jste se naučili přidávat hypertextové odkazy na externí soubory v sešitu aplikace Excel pomocí Aspose.Cells for .NET. Tato výkonná funkce zvyšuje přizpůsobivost vašich tabulek a efektivně propojuje vaše data. S těmito znalostmi můžete vytvářet interaktivnější a užitečnější dokumenty aplikace Excel, což podporuje lepší organizaci a spolupráci.
 ## FAQ
 ### Co je Aspose.Cells?
 Aspose.Cells je .NET knihovna používaná pro vytváření a manipulaci se soubory Excelu programově.

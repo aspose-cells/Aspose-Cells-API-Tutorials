@@ -13,11 +13,11 @@ Mussten Sie schon einmal eingebettete Dateien, insbesondere MOL-Dateien, aus ein
 
 ## Voraussetzungen
 
-Bevor wir uns in den Extraktionsprozess stürzen, stellen wir sicher, dass Sie ausreichend ausgerüstet sind, um mitzumachen. Folgendes brauchen Sie:
+Bevor wir uns in den Extraktionsprozess stürzen, stellen wir sicher, dass Sie ausreichend ausgerüstet sind, um mitzumachen. Folgendes benötigen Sie:
 
 - Grundkenntnisse in C#: Ein wenig Vertrautheit mit C# wird Ihnen sehr helfen. Selbst wenn Sie gerade erst anfangen, sollten Sie in der Lage sein, Schritt zu halten.
 - Visual Studio: Installieren Sie Visual Studio auf Ihrem System. Es ist zum Schreiben und Ausführen Ihres C#-Codes erforderlich.
--  Aspose.Cells für .NET: Wenn Sie es noch nicht heruntergeladen haben, gehen Sie zu[Aspose.Cells-Downloadseite](https://releases.aspose.com/cells/net/) und holen Sie sich die neueste Version.
+- Aspose.Cells für .NET: Wenn Sie es noch nicht heruntergeladen haben, gehen Sie zu[Aspose.Cells-Downloadseite](https://releases.aspose.com/cells/net/) und holen Sie sich die neueste Version.
 - .NET Framework: Stellen Sie sicher, dass Sie eine kompatible Version des .NET Frameworks installiert haben.
 -  Eine Excel-Datei mit eingebetteten MOL-Objekten: Für unser Beispiel verwenden wir`EmbeddedMolSample.xlsx`. Stellen Sie sicher, dass Sie diese Datei für die Extraktion bereit haben.
 
@@ -82,11 +82,11 @@ Nachdem unsere Arbeitsmappe nun geladen ist, ist es an der Zeit, tiefer zu grabe
 foreach (Worksheet sheet in workbook.Worksheets)
 {
     OleObjectCollection oles = sheet.OleObjects;
-    // Mit der Verarbeitung der OLE-Objekte fortfahren...
+    // Weiter mit der Verarbeitung der OLE-Objekte...
 }
 ```
 
- Mit diesem Snippet verwenden wir ein`foreach` Schleife, um jedes Blatt in unserer Arbeitsmappe zu durchlaufen. Durch den Zugriff auf die`OleObjects`Sammlung können wir auf alle eingebetteten Objekte auf diesem bestimmten Blatt zugreifen. 
+ Mit diesem Snippet verwenden wir ein`foreach` Schleife, um jedes Blatt in unserer Arbeitsmappe zu durchlaufen. Durch den Zugriff auf die`OleObjects` Sammlung können wir auf alle eingebetteten Objekte auf diesem bestimmten Blatt zugreifen. 
 
 ## Schritt 4: OLE-Objekte extrahieren
 

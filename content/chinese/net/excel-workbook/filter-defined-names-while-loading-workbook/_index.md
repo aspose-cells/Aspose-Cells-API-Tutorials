@@ -53,7 +53,7 @@ LoadOptions opts = new LoadOptions();
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-波浪符号 (~) 运算符表示我们希望从加载过程中排除已定义的名称。如果您希望减轻工作量并避免不必要的数据使处理复杂化，这一点至关重要。
+波浪符号 (~运算符表示我们希望从加载过程中排除已定义的名称。如果您希望减轻工作量并避免不必要的数据使处理复杂化，这一点至关重要。
 
 ## 步骤 3：加载工作簿
 

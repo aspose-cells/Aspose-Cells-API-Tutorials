@@ -2,7 +2,7 @@
 title: Mengatur Judul Cetak Excel
 linktitle: Mengatur Judul Cetak Excel
 second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara mengatur judul cetak Excel secara efisien menggunakan Aspose.Cells for .NET. Sederhanakan proses pencetakan Anda dengan panduan langkah demi langkah kami.
+description: Pelajari cara mengatur judul cetak Excel secara efisien menggunakan Aspose.Cells untuk .NET. Sederhanakan proses pencetakan Anda dengan panduan langkah demi langkah kami.
 type: docs
 weight: 170
 url: /id/net/excel-page-setup/set-excel-print-title/
@@ -13,14 +13,14 @@ Saat bekerja dengan lembar kerja Excel, memastikan kejelasan dalam dokumen cetak
 
 ## Prasyarat
 
-Sebelum kita masuk ke langkah-langkahnya, mari pastikan Anda telah menyiapkan semuanya agar dapat mengikuti dengan lancar:
+Sebelum kita masuk ke langkah-langkahnya, mari pastikan Anda telah menyiapkan semuanya agar dapat mengikuti langkah-langkah dengan lancar:
 
 1. Visual Studio Terpasang: Anda memerlukan versi Visual Studio yang berfungsi di komputer Anda tempat Anda dapat menjalankan aplikasi .NET.
 2.  Aspose.Cells untuk .NET: Jika Anda belum melakukannya, unduh Aspose.Cells untuk .NET dari[lokasi](https://releases.aspose.com/cells/net/)Pustaka ini merupakan inti operasi kami untuk mengelola berkas Excel secara terprogram.
 3. Pengetahuan Pemrograman Dasar: Keakraban dengan pemrograman C# akan membantu Anda memahami dan memodifikasi potongan kode yang disediakan.
 4. .NET Framework: Pastikan Anda menginstal versi .NET yang benar untuk kompatibilitas dengan Aspose.Cells.
 
-Setelah Anda memiliki prasyarat ini, kita bisa mulai bekerja!
+Setelah Anda menyiapkan prasyarat ini, kita bisa mulai bekerja!
 
 ## Paket Impor
 
@@ -47,7 +47,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Ini akan memungkinkan kita untuk menggunakan semua kelas dan metode yang ditetapkan dalam pustaka Aspose.Cells tanpa harus mengkualifikasinya secara penuh setiap saat.
+Ini akan memungkinkan kita untuk menggunakan semua kelas dan metode yang didefinisikan dalam pustaka Aspose.Cells tanpa harus mengkualifikasinya secara penuh setiap saat.
 
 Baiklah, sekarang untuk bagian yang menyenangkan—kita mulai memprogram! Di bagian ini, kita akan membahas contoh sederhana yang menunjukkan cara mengatur judul cetak untuk buku kerja Excel.
 
@@ -61,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Ganti saja`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file Excel Anda. Misalnya, Anda dapat menggunakan`@"C:\Reports\"`.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
  Selanjutnya, kita membuat sebuah instance dari`Workbook`kelas, yang merepresentasikan berkas Excel.
 

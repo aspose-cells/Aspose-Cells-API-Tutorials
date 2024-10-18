@@ -156,7 +156,7 @@ Abschließend speichern wir die geänderte Arbeitsmappe wieder in einer Datei:
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben gelernt, wie Sie DataTable-Zeilen in ein Excel-Blatt einfügen, ohne die erste Zeile mit Aspose.Cells für .NET zu verschieben. Dieser Prozess rationalisiert nicht nur die Datenmanipulation in Excel, sondern verbessert auch die Leistung Ihrer Anwendung, indem er eine normalerweise mühsame Aufgabe automatisiert. Mit diesem Wissen in Ihrem Toolkit sind Sie besser für die Bewältigung von Excel-Automatisierungsaufgaben gerüstet und sparen Zeit und Mühe.
+Und da haben Sie es! Sie haben gelernt, wie Sie mit Aspose.Cells für .NET DataTable-Zeilen in ein Excel-Blatt einfügen, ohne die erste Zeile zu verschieben. Dieser Prozess rationalisiert nicht nur die Datenmanipulation in Excel, sondern verbessert auch die Leistung Ihrer Anwendung, indem er eine normalerweise mühsame Aufgabe automatisiert. Mit diesem Wissen in Ihrem Toolkit sind Sie besser für die Bewältigung von Excel-Automatisierungsaufgaben gerüstet und sparen Zeit und Mühe.
 
 ## Häufig gestellte Fragen
 

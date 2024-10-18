@@ -9,11 +9,11 @@ url: /id/net/excel-page-breaks/excel-clear-all-page-breaks/
 ---
 ## Perkenalan
 
-Jika Anda pernah mencoba-coba Excel, Anda tahu bahwa pemisah halaman bisa menjadi berkah sekaligus kutukan. Pemisah halaman membantu mengatur tata letak lembar kerja Anda untuk dicetak, tetapi terkadang, pemisah halaman bisa berantakan atau tidak pada tempatnya. Baik Anda sedang mempersiapkan laporan, laporan keuangan, atau anggaran rumah tangga sederhana, mencari tahu cara menghapus semua pemisah halaman di file Excel mungkin merupakan cara yang Anda butuhkan. Gunakan Aspose.Cells for .NET—pustaka tangguh yang memudahkan pengelolaan file Excel. Dalam artikel ini, kita akan membahas cara menghapus semua pemisah halaman di lembar kerja Excel langkah demi langkah, sehingga Anda dapat mengontrol dan memperjelasnya tanpa kesulitan. Bersiaplah; mari kita mulai!
+Jika Anda pernah mencoba-coba Excel, Anda tahu bahwa pemisah halaman bisa menjadi berkah sekaligus kutukan. Pemisah halaman membantu mengatur tata letak lembar kerja Anda untuk dicetak, tetapi terkadang, pemisah halaman bisa berantakan atau tidak pada tempatnya. Baik Anda sedang mempersiapkan laporan, laporan keuangan, atau anggaran rumah tangga sederhana, mencari tahu cara menghapus semua pemisah halaman di file Excel mungkin merupakan cara yang Anda butuhkan. Gunakan Aspose.Cells for .NET—pustaka tangguh yang memudahkan pengelolaan file Excel. Dalam artikel ini, kita akan membahas cara menghapus semua pemisah halaman di lembar kerja Excel langkah demi langkah, sehingga Anda dapat mengontrol dan memperjelasnya tanpa bersusah payah. Bersiaplah; mari kita mulai!
 
 ## Prasyarat
 
-Sebelum menyelami seluk-beluk membersihkan jeda halaman di Excel, Anda perlu memastikan bahwa Anda memiliki prasyarat berikut ini:
+Sebelum menyelami seluk-beluk membersihkan hentian halaman di Excel, Anda perlu memastikan bahwa Anda memiliki prasyarat berikut ini:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio untuk menjalankan proyek .NET Anda.
 2. Pustaka Aspose.Cells untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.Cells untuk .NET. Pustaka ini tidak hanya canggih, tetapi juga sangat mudah digunakan!
@@ -38,7 +38,7 @@ using System;
 
 Langkah-langkah ini mempersiapkan kita untuk bermain-main dengan buku kerja—membersihkan pemisah halaman yang mengganggu!
 
-Mari kita uraikan menjadi beberapa langkah yang dapat dikelola. Kita telah menyiapkan prasyaratnya; sekarang mari kita masuk ke inti tutorialnya.
+Mari kita uraikan menjadi beberapa langkah yang mudah dilakukan. Kita telah menyiapkan prasyaratnya; sekarang mari kita masuk ke inti tutorialnya.
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
@@ -49,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
  Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda berada. Ini seperti memberi tahu program Anda di mana menemukan tulang anjing sebelum Anda mengajarinya untuk mengambilnya!
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
  Sekarang saatnya untuk membawa file Excel Anda ke dunia C# kita. Kita melakukan ini dengan membuat`Workbook` obyek.
 

@@ -47,7 +47,7 @@ In questo passaggio creeremo una nuova cartella di lavoro.
 ```csharp
 //Directory di uscita
 static string outputDir = "Your Document Directory";
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -82,7 +82,7 @@ Qui, stai inserendo i dati nelle colonne A e B del tuo foglio di lavoro. Questi 
 
 ## Passaggio 4: aggiungere un grafico
 
-Adesso arriva la parte entusiasmante: aggiungere un grafico al foglio di lavoro per visualizzare i dati!
+Adesso arriva la parte emozionante: aggiungere un grafico al foglio di lavoro per visualizzare i dati!
 
 ```csharp
 // Aggiungere un grafico al foglio di lavoro
@@ -111,7 +111,7 @@ Il passo successivo è indicare al nostro grafico quale fonte dati utilizzare.
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Questa linea collega il grafico ai nostri dati campione, in modo che sappia da dove estrarre le informazioni. È fondamentale per rendere il grafico accurato.
+Questa linea collega il grafico ai nostri dati campione, in modo che sappia da dove estrarre le informazioni. È fondamentale per rendere il grafico in modo accurato.
 
 ## Passaggio 7: personalizza i colori del grafico
 

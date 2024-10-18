@@ -9,7 +9,7 @@ url: /ja/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-ax
 ---
 ## 導入
 
-Excel ファイルの操作に関しては、Aspose.Cells for .NET は、Excel 関連のタスクの自動化プロセスを簡素化する強力なライブラリとして際立っています。レポートの生成、グラフの作成、複雑なスプレッドシートの管理など、どのような作業でも、このライブラリは頼りになるツールです。このチュートリアルでは、Microsoft Excel と同じように、グラフ軸の自動単位を処理する方法を説明します。では、コーディング ギアを手に取り、Aspose.Cells の世界に深く入り込んでいきましょう。
+Excel ファイルの操作に関しては、Aspose.Cells for .NET は、Excel 関連のタスクを自動化するプロセスを簡素化する強力なライブラリとして際立っています。レポートの生成、グラフの作成、複雑なスプレッドシートの管理など、どのような作業でも、このライブラリは頼りになるツールです。このチュートリアルでは、Microsoft Excel と同じように、グラフ軸の自動単位を処理する方法を説明します。では、コーディング ギアを手に取り、Aspose.Cells の世界に深く入り込んでいきましょう。
 
 ## 前提条件
 
@@ -18,7 +18,7 @@ Excel ファイルの操作に関しては、Aspose.Cells for .NET は、Excel �
 1. Visual Studio がインストールされている: .NET コードを記述して実行するには、Visual Studio などの IDE が必要です。
 2. .NET Framework: このチュートリアルでは、.NET Framework 4.0 以降を使用していることを前提としています。ただし、Aspose.Cells は .NET Core とも互換性があります。
 3.  Aspose.Cells ライブラリ: まだ行っていない場合は、Aspose の Web サイトからライブラリをダウンロードしてください。[ここ](https://releases.aspose.com/cells/net/)無料トライアルから始めることもできます[ここ](https://releases.aspose.com/).
-4. サンプルExcelファイル: サンプルExcelファイルを使用します。`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`このファイルが作業ディレクトリに用意されていることを確認してください。
+4. サンプルExcelファイル: サンプルExcelファイルを使用します。`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`作業ディレクトリにこのファイルが用意されていることを確認してください。
 
 ## パッケージのインポート
 
@@ -151,4 +151,4 @@ Aspose.Cells は、Excel ファイルを作成、操作、変換するための�
 もちろんです! Aspose.Cells は、XLSX、HTML、画像など、さまざまな形式をサポートしています。
 
 ### 問題が発生した場合、どこでサポートを受けることができますか?
-Asposeコミュニティからサポートを受けることができます[ここ](https://forum.aspose.com/c/cells/9).
+ Asposeコミュニティからサポートを受けることができます[ここ](https://forum.aspose.com/c/cells/9).

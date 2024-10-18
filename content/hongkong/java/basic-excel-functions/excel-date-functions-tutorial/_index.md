@@ -145,7 +145,7 @@ System.out.println("End of Month: " + endOfMonth);
 
 ### 如何在 Aspose.Cells for Java 中設定日期格式？
 
-在 Aspose.Cells 中設定日期格式非常簡單。您可以使用`Style`類別來定義日期格式並將其套用至儲存格。例如，以“dd-MM-yyyy”格式顯示日期：
+在 Aspose.Cells 中設定日期格式非常簡單。您可以使用`Style`類別來定義日期格式並將其應用於儲存格。例如，以“dd-MM-yyyy”格式顯示日期：
 
 ```java
 //建立日期樣式

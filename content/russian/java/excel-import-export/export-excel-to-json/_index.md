@@ -64,7 +64,7 @@ workbook.save("output.json", jsonSaveOptions);
    API Aspose.Cells можно использовать для навигации и манипулирования сложными структурами данных Excel перед экспортом в JSON.
 
 ### Могу ли я настроить формат вывода JSON?
-   Да, вы можете настроить формат вывода JSON с помощью параметров, предоставляемых JsonSaveOptions в Aspose.Cells for Java.
+   Да, вы можете настроить формат вывода JSON, используя параметры, предоставляемые JsonSaveOptions в Aspose.Cells for Java.
 
 ### Доступна ли пробная версия Aspose.Cells для Java?
    Да, вы можете загрузить пробную версию Aspose.Cells для Java с их веб-сайта, чтобы оценить ее возможности.

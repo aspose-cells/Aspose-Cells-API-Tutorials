@@ -36,7 +36,7 @@ Beginnen wir mit dem Importieren der erforderlichen Pakete. In Ihrer C#-Anwendun
 
 ### Erforderliche Namespaces importieren
 
-Importieren wir nun die für unsere Aufgabe benötigten Namespaces. Fügen Sie oben in Ihrer Datei Program.cs die folgenden Zeilen hinzu:
+Jetzt importieren wir die für unsere Aufgabe benötigten Namespaces. Fügen Sie oben in Ihrer Datei Program.cs die folgenden Zeilen hinzu:
 
 ```csharp
 using Aspose.Cells.WebExtensions;
@@ -63,11 +63,11 @@ Diese Zeile verweist auf das Verzeichnis, das die Excel-Datei enthält. Stellen 
 Als Nächstes laden wir unsere Arbeitsmappe. Das ist, als ob Ihre Excel-Datei im Hintergrund geöffnet wird, sodass wir ihren Inhalt lesen und bearbeiten können.
 
 ```csharp
-//Laden der Arbeitsmappe
+// Laden der Arbeitsmappe
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Folgendes passiert: Wir erstellen eine Instanz des`Workbook` Klasse und übergeben Sie den Pfad unserer Excel-Datei. Wenn alles glatt läuft, ist Ihre Arbeitsmappe jetzt einsatzbereit!
+Folgendes passiert: Wir erstellen eine Instanz des`Workbook` Klasse und übergeben Sie den Pfad unserer Excel-Datei. Wenn alles glatt läuft, ist Ihre Arbeitsmappe jetzt einsatzbereit!
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -96,7 +96,7 @@ Mit diesem Bereich können wir problemlos Hyperlinks innerhalb dieser Zellen abr
 Jetzt kommt der spannende Teil: das Herausziehen der Hyperlinks! Wir extrahieren die Hyperlinks aus unserem definierten Bereich.
 
 ```csharp
-// Holen Sie sich Hyperlinks in Reichweite
+//Holen Sie sich Hyperlinks in Reichweite
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 
@@ -123,7 +123,7 @@ Fügen wir abschließend eine einfache Bestätigungsnachricht hinzu, um anzuzeig
 Console.WriteLine("DetectLinkTypes executed successfully.");
 ```
 
-Damit können wir bestätigen, dass unser Programm reibungslos lief. Ein sanfter Stupser sagt: „Hey, alles fertig!“
+So können wir bestätigen, dass unser Programm reibungslos lief. Ein sanfter Stupser sagt: „Hey, alles fertig!“
 
 ## Abschluss
 
@@ -141,7 +141,7 @@ Sie können Aspose.Cells über NuGet in Visual Studio installieren, indem Sie in
 Auf jeden Fall! Aspose.Cells kann Excel-Dateien sowohl lesen als auch erstellen und ermöglicht so umfangreiche Datenbearbeitungs- und Berichtsfunktionen.
 
 ### Mit welchen Arten von Hyperlinks kann ich arbeiten?  
-Sie können mit internen, externen und E-Mail-basierten Dokumenten sowie sogar mit Linktypen zu anderen Dokumenten in Ihren Excel-Dateien arbeiten.
+Sie können mit internen, externen und E-Mail-Typen sowie sogar Linktypen zu anderen Dokumenten in Ihren Excel-Dateien arbeiten.
 
 ### Wo erhalte ich Support für Aspose.Cells?  
  Für Support besuchen Sie das Aspose-Forum[Hier](https://forum.aspose.com/c/cells/9).

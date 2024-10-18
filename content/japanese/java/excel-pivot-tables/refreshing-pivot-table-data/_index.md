@@ -16,7 +16,7 @@ url: /ja/java/excel-pivot-tables/refreshing-pivot-table-data/
 
 ## ステップ 1: Aspose.Cells を初期化する
 
-始めるには、Aspose.CellsでJava環境を設定する必要があります。まだ行っていない場合は、ライブラリをダウンロードしてインストールしてください。[Aspose.Cells for Java のダウンロード](https://releases.aspose.com/cells/java/)ページ。
+始めるには、Aspose.CellsでJava環境を設定する必要があります。まだの場合は、ライブラリをダウンロードしてインストールしてください。[Aspose.Cells for Java のダウンロード](https://releases.aspose.com/cells/java/)ページ。
 
 ```java
 import com.aspose.cells.Workbook;

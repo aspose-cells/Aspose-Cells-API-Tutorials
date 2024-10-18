@@ -83,7 +83,7 @@ public class UpdateExcelData {
 ```
 
 ## Çözüm
-Bu eğitimde, Java için Aspose.Cells kullanarak Excel Çalışma Kitabı Otomasyonunun temellerini ele aldık. Excel çalışma kitaplarını programatik olarak nasıl oluşturacağınızı, okuyacağınızı ve güncelleyeceğinizi öğrendiniz. Aspose.Cells, gelişmiş Excel otomasyonu için çok çeşitli özellikler sunarak, onu Java uygulamalarınızda Excel dosyalarını işlemek için güçlü bir araç haline getirir.
+Bu eğitimde, Java için Aspose.Cells kullanarak Excel Çalışma Kitabı Otomasyonunun temellerini ele aldık. Excel çalışma kitaplarını programatik olarak nasıl oluşturacağınızı, okuyacağınızı ve güncelleyeceğinizi öğrendiniz. Aspose.Cells, gelişmiş Excel otomasyonu için çok çeşitli özellikler sunarak, Java uygulamalarınızda Excel dosyalarını işlemek için güçlü bir araç haline getirir.
 
 ## Sıkça Sorulan Sorular (SSS)
 Excel Çalışma Kitabı Otomasyonu ile ilgili bazı yaygın sorular şunlardır:

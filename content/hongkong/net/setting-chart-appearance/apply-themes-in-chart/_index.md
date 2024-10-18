@@ -108,7 +108,7 @@ cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 
 這是發生的事情：
 1. 我們獲得實體填滿的顏色。
-2. 使用`ThemeColor`，我們為純色填滿設定顏色。你可以改變`Accent6`根據您的喜好，可以選擇任何其他主題顏色。
+2. 使用`ThemeColor` ，我們為純色填滿設定顏色。你可以改變`Accent6`根據您的喜好，可以選擇任何其他主題顏色。
 
 ## 第 7 步：將主題應用到系列中
 

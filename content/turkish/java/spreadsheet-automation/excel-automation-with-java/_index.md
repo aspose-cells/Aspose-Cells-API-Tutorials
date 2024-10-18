@@ -17,7 +17,7 @@ Excel otomasyonu, Excel dosyalarını okuma, yazma ve düzenleme gibi görevleri
 
 ## 2. Java Projenizi Kurma
 
- Başlamak için Aspose.Cells for Java'yı şu adresten indirin:[Burada](https://releases.aspose.com/cells/java/). Kütüphaneyi Java projenize ekleyin. İşte Aspose.Cells'i Gradle projenize eklemek için bir kod parçası:
+ Başlamak için Aspose.Cells for Java'yı şu adresten indirin:[Burada](https://releases.aspose.com/cells/java/). Kütüphaneyi Java projenize ekleyin. İşte Gradle projenize Aspose.Cells eklemek için bir kod parçası:
 
 ```gradle
 dependencies {

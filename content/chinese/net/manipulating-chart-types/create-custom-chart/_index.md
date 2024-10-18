@@ -147,7 +147,7 @@ workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 
 就这样！您刚刚使用 Aspose.Cells for .NET 创建了一个自定义图表。只需几行代码，您现在就可以有效地可视化数据，使报告和演示文稿更具吸引力。 
 
-请记住，图表的强大之处在于它能够讲述故事，让复杂的数据一目了然。所以，继续尝试不同的数据集和图表类型，让你的数据说话吧！
+请记住，图表的强大之处在于它们能够讲述故事，让复杂的数据一目了然。所以，继续尝试不同的数据集和图表类型，让你的数据说话吧！
 
 ## 常见问题解答
 
@@ -164,4 +164,4 @@ Aspose.Cells 是一个功能强大的库，用于在 .NET 应用程序中处理 
 是的，你可以从[此链接](https://purchase.aspose.com/temporary-license/).
 
 ### 在哪里可以找到有关 Aspose.Cells 的更多文档？
-您可以探索完整文档[这里](https://reference.aspose.com/cells/net/).
+您可以浏览完整文档[这里](https://reference.aspose.com/cells/net/).

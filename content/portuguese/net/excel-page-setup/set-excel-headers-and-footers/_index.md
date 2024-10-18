@@ -16,7 +16,7 @@ Quando se trata de gerenciar documentos de planilhas, cabeçalhos e rodapés des
 Antes de mergulharmos nos detalhes, vamos garantir que você tenha tudo o que precisa para começar. Primeiro, você precisará de:
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado na sua máquina. É aqui que você escreverá e executará seu código C#.
-2.  Biblioteca Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells. Se você ainda não fez isso, você pode baixá-la de[aqui](https://releases.aspose.com/cells/net/).
+2.  Biblioteca Aspose.Cells para .NET: Você precisa ter a biblioteca Aspose.Cells. Se você ainda não fez isso, você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/).
 3. Noções básicas de C#: A familiaridade com a programação em C# é crucial, pois todos os exemplos de código estarão nessa linguagem.
 4. Configuração de projeto: crie um novo projeto C# no Visual Studio onde implementaremos nossa lógica de cabeçalho/rodapé do Excel.
 
@@ -77,7 +77,7 @@ Agora, vamos começar a configurar o cabeçalho. Começaremos com a seção esqu
 pageSetup.SetHeader(0, "&A");
 ```
 
- Explicação: O`SetHeader` método nos permite definir o conteúdo do cabeçalho. Aqui,`&A` denota o nome da planilha, que aparecerá no lado esquerdo do cabeçalho.
+Explicação: O`SetHeader` método nos permite definir o conteúdo do cabeçalho. Aqui,`&A` denota o nome da planilha, que aparecerá no lado esquerdo do cabeçalho.
 
 ## Etapa 4: Personalize o cabeçalho central
 
@@ -87,7 +87,7 @@ Em seguida, personalizaremos o cabeçalho central para exibir a data e a hora at
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Explicação: O`&D` e`&T` os códigos serão substituídos automaticamente pela data e hora atuais, respectivamente. Também estamos especificando que a fonte para este cabeçalho deve ser "Times New Roman" e negrito.
+Explicação: O`&D` e`&T` os códigos serão substituídos automaticamente pela data e hora atuais, respectivamente. Também estamos especificando que a fonte para este cabeçalho deve ser "Times New Roman" e negrito.
 
 ## Etapa 5: Defina o cabeçalho correto
 
@@ -117,7 +117,7 @@ Em seguida, definimos o rodapé central para exibir o número da página atual:
 pageSetup.SetFooter(1, "&P");
 ```
 
- Explicação: O`&P` O código insere automaticamente o número da página no centro do rodapé, uma maneira prática de controlar as páginas.
+Explicação: O`&P` O código insere automaticamente o número da página no centro do rodapé, uma maneira prática de controlar as páginas.
 
 ## Etapa 8: Configuração do rodapé direito
 

@@ -9,7 +9,7 @@ url: /pt/net/excel-workbook/update-power-query-formula-item/
 ---
 ## Introdução
 
-Se você já trabalhou com o Excel, sabe o quão poderoso ele pode ser, especialmente quando você começa a mergulhar no Power Queries. Eles são o molho secreto que permite transformar, limpar e analisar seus dados sem esforço. Uma maneira bacana de manipular suas fórmulas do Power Query no Excel é por meio do Aspose.Cells para .NET. Hoje, vamos orientá-lo na atualização de itens de fórmula do Power Query passo a passo. Então, pegue seu chapéu de codificação e vamos começar!
+Se você já trabalhou com o Excel, sabe o quão poderoso ele pode ser, especialmente quando você começa a mergulhar no Power Queries. Esse é o molho secreto que permite transformar, limpar e analisar seus dados sem esforço. Uma maneira bacana de manipular suas fórmulas do Power Query no Excel é por meio do Aspose.Cells para .NET. Hoje, vamos orientá-lo na atualização de itens de fórmula do Power Query passo a passo. Então, pegue seu chapéu de codificação e vamos começar!
 
 ## Pré-requisitos
 
@@ -90,7 +90,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 -  Dentro desse ciclo, mergulhamos em cada`PowerQueryFormulaItem`.
 - Verificamos se o nome do item corresponde a "Fonte". Se corresponder, atualizamos seu valor para vincular ao nosso novo arquivo de origem.
 
-Isso é como encontrar a página certa em um manual e fazer as atualizações necessárias: é um processo simples e meticuloso.
+Isso é semelhante a encontrar a página certa em um manual e fazer as atualizações necessárias: é um processo simples e meticuloso.
 
 ## Etapa 5: Salve a pasta de trabalho atualizada
 
@@ -122,4 +122,4 @@ Você pode trabalhar com .xlsx, .xls, .xlsm e vários outros formatos do Excel u
  Sim, você pode baixar uma versão de teste gratuita no[Página de lançamento do Aspose Cells](https://releases.aspose.com/).
 
 ### Como posso obter suporte para o Aspose.Cells?
- Você pode acessar o suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9)onde você pode fazer perguntas e encontrar respostas da comunidade e da equipe da Aspose.
+ Você pode acessar o suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9)onde você pode fazer perguntas e encontrar respostas da comunidade e da equipe do Aspose.

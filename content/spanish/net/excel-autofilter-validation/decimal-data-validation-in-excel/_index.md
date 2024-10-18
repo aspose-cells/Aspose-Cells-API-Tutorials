@@ -67,7 +67,7 @@ A continuación, crearemos un nuevo objeto de libro de trabajo, que es esencialm
 Workbook workbook = new Workbook();
 ```
 
-Piense en un libro de trabajo como si fuera un lienzo en blanco para sus datos. En este punto, no tiene contenido, pero está listo para que lo dibujen.
+Piense en un libro de trabajo como si fuera un lienzo en blanco para sus datos. En este punto, no tiene contenido, pero está listo para que lo pinten.
 
 ## Paso 4: Crear y acceder a la hoja de trabajo
 
@@ -124,7 +124,7 @@ validation.Type = ValidationType.Decimal;
 
 Al establecer el tipo en Decimal, le indicamos a Excel que espere valores decimales en la celda validada.
 
-## Paso 9: Especifique el operador
+## Paso 9: Especificar el operador
 
 Ahora, especificaremos la condición para los valores permitidos. Queremos asegurarnos de que los datos ingresados se encuentren entre dos rangos:
 
@@ -136,7 +136,7 @@ Piense en ello como si estuviera trazando una línea divisoria. Cualquier númer
 
 ## Paso 10: Establecer límites para la validación
 
-continuación, estableceremos los límites inferior y superior para nuestra validación:
+A continuación, estableceremos los límites inferior y superior para nuestra validación:
 
 ```csharp
 validation.Formula1 = Decimal.MinValue.ToString();
@@ -191,7 +191,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## Conclusión
 
-Implementar la validación de datos decimales en Excel con Aspose.Cells para .NET es muy sencillo si sigue estos sencillos pasos. No solo garantiza que los datos permanezcan limpios y estructurados, sino que también mejora la integridad general de los datos en sus hojas de cálculo, lo que las hace confiables y fáciles de usar.
+Implementar la validación de datos decimales en Excel con Aspose.Cells para .NET es muy fácil si sigue estos sencillos pasos. No solo se asegura de que los datos permanezcan limpios y estructurados, sino que también mejora la integridad general de los datos en sus hojas de cálculo, lo que las hace confiables y fáciles de usar.
 Ya sea que trabajes en finanzas, gestión de proyectos o cualquier campo que utilice informes de datos, dominar estas habilidades mejorará significativamente tu productividad. Así que, ¡anímate a intentarlo! Tus hojas de cálculo te lo agradecerán.
 
 ## Preguntas frecuentes
@@ -203,7 +203,7 @@ La validación de datos en Excel es una función que restringe el tipo de datos 
 ¡Sí! Puedes proporcionar mensajes de error personalizados para orientar a los usuarios cuando se introducen datos incorrectos.
 
 ### ¿Aspose.Cells es de uso gratuito?
- Aspose.Cells ofrece una prueba gratuita, pero necesitará una licencia para un uso a largo plazo. Puede encontrar más información sobre cómo adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ofrece una prueba gratuita, pero necesitará una licencia para un uso a largo plazo. Puede encontrar más información sobre cómo adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Qué tipos de datos puedo validar en Excel?
 Con Aspose.Cells, puede validar varios tipos de datos, incluidos números enteros, decimales, fechas, listas y fórmulas personalizadas.

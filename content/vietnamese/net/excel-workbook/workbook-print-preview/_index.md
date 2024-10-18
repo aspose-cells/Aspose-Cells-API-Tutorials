@@ -16,7 +16,7 @@ Khi nói đến việc quản lý và thao tác các tệp Excel, Aspose.Cells c
 Trước khi bắt đầu hành động mã hóa, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là danh sách kiểm tra các điều kiện tiên quyết:
 
 1. Visual Studio: Bạn sẽ cần một IDE và Visual Studio là lựa chọn tuyệt vời cho các dự án .NET.
-2.  Aspose.Cells cho .NET: Bạn có thể tải xuống thư viện hoặc nếu bạn thích, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để làm quen. Chỉ cần truy cập[liên kết này](https://releases.aspose.com).
+2.  Aspose.Cells cho .NET: Bạn có thể tải xuống thư viện hoặc nếu thích, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để làm quen. Chỉ cần truy cập[liên kết này](https://releases.aspose.com).
 3. Kiến thức cơ bản về C#: Hiểu được những nguyên tắc cơ bản của C# sẽ giúp bạn theo dõi mà không gặp bất kỳ trở ngại nào.
 4. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích trên máy của mình.
 5.  Tệp Excel mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel để làm việc. Bạn có thể sử dụng tệp mẫu có tên`Book1.xlsx`.
@@ -78,7 +78,7 @@ Trước khi tạo bản xem trước khi in, chúng ta cần thiết lập các
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
- Trong trường hợp này, chúng tôi đang tạo một phiên bản của`ImageOrPrintOptions`, giúp chúng ta có thể linh hoạt hơn trong cách xem bản xem trước khi in.
+ Trong trường hợp này, chúng ta đang tạo một thể hiện của`ImageOrPrintOptions`, giúp chúng ta có thể linh hoạt hơn trong cách xem bản xem trước khi in.
 
 ## Bước 4: Tạo bản xem trước khi in của sổ làm việc
 

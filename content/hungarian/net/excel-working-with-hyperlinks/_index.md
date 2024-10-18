@@ -26,4 +26,4 @@ Ebből a lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá külső
 ### [Hivatkozás hozzáadása más munkalapcellához az Excelben](./add-link-to-other-sheet-cell/)
 Ismerje meg, hogyan adhat belső hivatkozásokat az Excel-lapok celláihoz az Aspose.Cells for .NET segítségével. Fokozza könnyedén a navigációt a táblázatokban.
 ### [Adjon hozzá hivatkozást az URL-hez az Excelben](./add-link-to-url/)
-Ezzel a részletes oktatóanyaggal megtudhatja, hogyan adhat hozzá egyszerűen egy URL-hivatkozást az Excelben az Aspose.Cells for .NET segítségével. Egyszerűsítse táblázatait.
+Ezzel a részletes oktatóanyaggal megtudhatja, hogyan adhat hozzá egyszerűen URL-hivatkozást az Excelben az Aspose.Cells for .NET segítségével. Egyszerűsítse táblázatait.

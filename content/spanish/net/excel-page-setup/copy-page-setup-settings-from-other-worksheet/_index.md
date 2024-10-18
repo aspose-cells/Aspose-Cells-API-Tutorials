@@ -34,7 +34,7 @@ using System;
 
 Esta única línea le permite acceder a todos los componentes potentes de la biblioteca Aspose.Cells.
 
-Dividiremos todo el proceso en pasos manejables para asegurarnos de que comprendas cada parte por completo. Crearemos un libro de trabajo, agregaremos dos hojas de trabajo, modificaremos la configuración de página de una y luego copiaremos esas configuraciones en otra.
+Vamos a dividir todo el proceso en pasos manejables para asegurarnos de que comprendas completamente cada parte. Crearemos un libro de trabajo, agregaremos dos hojas de trabajo, modificaremos la configuración de página de una y luego copiaremos esas configuraciones en otra.
 
 ## Paso 1: Crear un libro de trabajo
 
@@ -57,7 +57,7 @@ wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-Aquí, hemos agregado dos hojas de trabajo denominadas "Hoja de prueba 1" y "Hoja de prueba 2". Esto es como crear dos páginas diferentes en su libro de trabajo donde puede administrar el contenido de forma independiente.
+Aquí, hemos agregado dos hojas de trabajo denominadas "TestSheet1" y "TestSheet2". Esto es como crear dos páginas diferentes en su libro de trabajo donde puede administrar el contenido de forma independiente.
 
 ## Paso 3: Acceda a las hojas de trabajo
 

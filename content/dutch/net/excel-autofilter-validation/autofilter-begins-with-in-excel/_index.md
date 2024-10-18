@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Nu moeten we toegang krijgen tot het specifieke werkblad waarmee we willen werken:
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Uitleg: De`Worksheets` collectie geeft ons toegang tot individuele bladen. Met behulp van`[0]` verwijst naar het eerste werkblad in uw Excel-bestand, wat doorgaans gebruikelijk is bij het werken met een bestand met één werkblad.
+Uitleg: De`Worksheets` collectie geeft ons toegang tot individuele bladen. Met behulp van`[0]` verwijst naar het eerste werkblad in uw Excel-bestand, wat doorgaans gebruikelijk is bij het werken met een bestand met één werkblad.
 
 ## Stap 4: Het AutoFilter instellen
 
@@ -82,7 +82,7 @@ Hier begint de magie! We maken een AutoFilter-bereik voor onze gegevens:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Uitleg: De`AutoFilter.Range` property kunt u opgeven welke rijen u wilt filteren. In dit geval filteren we rijen binnen het bereik A1 tot A18, waarvan wordt aangenomen dat ze onze gegevens bevatten.
+Uitleg: De`AutoFilter.Range` property kunt u opgeven welke rijen u wilt filteren. In dit geval filteren we rijen binnen het bereik A1 tot A18, waarvan wordt aangenomen dat ze onze gegevens bevatten.
 
 ## Stap 5: Filtervoorwaarde toepassen
 
@@ -93,14 +93,14 @@ De volgende stap is het definiëren van de filtervoorwaarde. We willen alleen di
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Uitleg: De`Custom` methode definieert onze filterlogica. Het eerste argument (`0` ) geeft aan dat we filteren op basis van de eerste kolom (A), en de`FilterOperatorType.BeginsWith`specificeert onze voorwaarde om te zoeken naar rijen die beginnen met "Ba".
+Uitleg: De`Custom` methode definieert onze filterlogica. Het eerste argument (`0` ) geeft aan dat we filteren op basis van de eerste kolom (A), en de`FilterOperatorType.BeginsWith`specificeert onze voorwaarde om te zoeken naar rijen die beginnen met "Ba".
 
 ## Stap 6: Vernieuw het filter
 
 Nadat u de filtervoorwaarde hebt toegepast, moeten we ervoor zorgen dat Excel wordt vernieuwd om de wijzigingen weer te geven:
 
 ```csharp
-// Vernieuw het filter om gefilterde rijen weer te geven/verbergen
+// Vernieuw het filter om gefilterde rijen te tonen/verbergen
 worksheet.AutoFilter.Refresh();
 ```
 
@@ -115,11 +115,11 @@ Nu is het tijd om de wijzigingen op te slaan:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Uitleg: De`Save` methode schrijft de gewijzigde Workbook terug naar het opgegeven uitvoerpad. Dit valt onder het schrijven van uw gedefinieerde filters naar een nieuw bestand, zodat uw originele gegevens intact blijven.
+Uitleg: De`Save` methode schrijft de gewijzigde Workbook terug naar het opgegeven uitvoerpad. Dit valt onder het schrijven van uw gedefinieerde filters naar een nieuw bestand, zodat uw originele gegevens intact blijven.
 
 ## Stap 8: Bevestiging van de uitvoer
 
-Laten we tot slot nog even bevestigen dat onze operatie succesvol was:
+Laten we tot slot nog eens bevestigen dat onze operatie succesvol was:
 
 ```csharp
 Console.WriteLine("AutofilterBeginsWith executed successfully.\r\n");

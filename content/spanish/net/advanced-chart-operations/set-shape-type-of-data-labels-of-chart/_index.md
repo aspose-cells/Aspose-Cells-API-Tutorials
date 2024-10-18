@@ -60,7 +60,7 @@ string outputDir = "Your Output Directory";
 
 ## Paso 2: Cargue el archivo Excel de origen
 
-A continuación, tendrás que cargar el archivo de Excel con el que quieres trabajar. ¡Aquí es donde comienza la magia!
+A continuación, deberás cargar el archivo de Excel con el que quieres trabajar. ¡Aquí es donde comienza la magia!
 
 ```csharp
 // Cargar archivo fuente de Excel

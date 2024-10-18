@@ -86,7 +86,7 @@ Walidacja danych jest krytycznym aspektem utrzymania jakości danych w arkuszach
 
 ### Jak pobrać Aspose.Cells dla Java?
 
- Aspose.Cells dla języka Java można pobrać ze strony[link do pobrania](https://releases.aspose.com/cells/java/).
+ Możesz pobrać Aspose.Cells dla Java ze strony[link do pobrania](https://releases.aspose.com/cells/java/).
 
 ### Czy mogę tworzyć niestandardowe reguły walidacji przy użyciu Aspose.Cells dla Java?
 

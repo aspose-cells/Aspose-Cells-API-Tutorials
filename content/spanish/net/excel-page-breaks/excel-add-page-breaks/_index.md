@@ -9,7 +9,7 @@ url: /es/net/excel-page-breaks/excel-add-page-breaks/
 ---
 ## Introducción
 
-¿Está cansado de agregar manualmente saltos de página en sus hojas de Excel? Tal vez tenga una hoja de cálculo extensa que no se imprime bien porque todo se ejecuta junto. ¡Bueno, está de suerte! En esta guía, profundizaremos en cómo usar Aspose.Cells para .NET para automatizar el proceso de agregar saltos de página. Imagine poder ordenar sus hojas de cálculo de manera eficiente, haciéndolas prolijas y presentables sin preocuparse por los detalles menores. ¡Veámoslo paso a paso y mejoremos su Excel!
+¿Está cansado de agregar saltos de página manualmente en sus hojas de Excel? Tal vez tenga una hoja de cálculo extensa que no se imprime bien porque todo se ejecuta junto. ¡Bueno, está de suerte! En esta guía, profundizaremos en cómo usar Aspose.Cells para .NET para automatizar el proceso de agregar saltos de página. Imagine poder ordenar sus hojas de cálculo de manera eficiente, haciéndolas prolijas y presentables sin preocuparse por los detalles menores. ¡Veámoslo paso a paso y mejoremos su Excel!
 
 ## Prerrequisitos
 
@@ -110,7 +110,7 @@ Si bien Aspose.Cells ofrece una prueba gratuita, el uso continuo requiere una co
 
 ### ¿Puedo agregar varios saltos de página?
 
- ¡Sí! Simplemente use el`Add` Método para que varias celdas creen rupturas adicionales.
+ ¡Sí! Simplemente utilice el`Add` Método para que varias celdas creen rupturas adicionales.
 
 ### ¿En qué formatos puedo guardar archivos de Excel?
 

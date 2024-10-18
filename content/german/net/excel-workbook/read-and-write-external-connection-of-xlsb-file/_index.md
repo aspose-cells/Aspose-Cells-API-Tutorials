@@ -107,7 +107,7 @@ Diese Codezeile speichert Ihre aktualisierte Arbeitsmappe und behält alle Ihre 
 
 ## Schritt 7: Ausführung bestätigen
 
-Abschließend bestätigen wir noch, dass alles reibungslos funktioniert hat. Eine kurze Nachricht am Ende macht das deutlich.
+Abschließend bestätigen wir, dass alles reibungslos funktioniert hat. Eine kurze Nachricht am Ende macht dies deutlich.
 
 ```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");

@@ -155,7 +155,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## 結論
 
-現在你就擁有了！只需幾個步驟，您就學會如何使用 Aspose.Cells for .NET 保護 Excel 工作表中的特定欄位。透過遵循這些簡單的說明，您不僅可以保護您的數據，還可以確保您的 Excel 文件保持可靠和安全。
+現在你就得到它了！只需幾個步驟，您就學會如何使用 Aspose.Cells for .NET 保護 Excel 工作表中的特定欄位。透過遵循這些簡單的說明，您不僅可以保護您的數據，還可以確保您的 Excel 文件保持可靠和安全。
 
 ## 常見問題解答
 

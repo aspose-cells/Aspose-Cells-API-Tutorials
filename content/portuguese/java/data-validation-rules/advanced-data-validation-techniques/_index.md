@@ -48,7 +48,7 @@ Agora que abordamos o básico, vamos explorar técnicas avançadas de validaçã
 
 ### Fórmula de validação personalizada
 
-Em alguns casos, você pode precisar implementar lógica de validação personalizada. Aspose.Cells para Java permite que você defina fórmulas personalizadas para validação de dados.
+Em alguns casos, você pode precisar implementar lógica de validação personalizada. O Aspose.Cells para Java permite que você defina fórmulas personalizadas para validação de dados.
 
 ```java
 // Código Java para fórmula de validação personalizada

@@ -1,7 +1,7 @@
 ---
 title: Operações avançadas de gráficos
 linktitle: Operações avançadas de gráficos
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Explore tutoriais de operações de gráficos avançados para Aspose.Cells para .NET, incluindo gráficos 3D, dimensionamento de gráficos, rótulos de marcação e muito mais, com guias fáceis de seguir.
 type: docs
 weight: 23
@@ -9,7 +9,7 @@ url: /pt/net/advanced-chart-operations/
 ---
 ## Introdução
 
-Aspose.Cells para .NET é sua ferramenta de referência para gerenciar, manipular e personalizar gráficos do Excel em código. Seja você iniciante ou especialista, operações avançadas de gráficos podem levar suas habilidades do Excel para o próximo nível. Este artigo apresenta vários tutoriais poderosos que abrangem tudo, desde a criação de gráficos 3D até a configuração de rótulos de dados e trabalho com sparklines. Vamos mergulhar em como você pode desbloquear todo o potencial dos gráficos do Excel com o Aspose.Cells para .NET!
+Aspose.Cells para .NET é sua ferramenta de referência para gerenciar, manipular e personalizar gráficos do Excel em código. Seja você um iniciante ou um especialista, operações avançadas de gráficos podem levar suas habilidades do Excel para o próximo nível. Este artigo apresenta vários tutoriais poderosos que abrangem tudo, desde a criação de gráficos 3D até a configuração de rótulos de dados e trabalho com sparklines. Vamos mergulhar em como você pode desbloquear todo o potencial dos gráficos do Excel com o Aspose.Cells para .NET!
 
 ## Aplicar formato 3D ao gráfico
 
@@ -21,7 +21,7 @@ Quer fazer seus gráficos do Excel se destacarem? Aplicar um formato 3D é uma v
 
 ## Usando Sparklines para Insights Rápidos
 
- Sparklines são gráficos pequenos e leves que fornecem um rápido resumo visual das tendências de dados. O Aspose.Cells for .NET facilita a integração deles em suas pastas de trabalho do Excel. Perfeito para qualquer um que queira adicionar visualização de dados perspicaz sem desorganizar a planilha.[Confira o tutorial](./using-sparklines/) para obter instruções passo a passo.
+ Sparklines são gráficos pequenos e leves que fornecem um rápido resumo visual das tendências de dados. O Aspose.Cells for .NET facilita a integração deles em suas planilhas do Excel. Perfeito para qualquer um que queira adicionar visualização de dados perspicaz sem bagunçar a planilha.[Confira o tutorial](./using-sparklines/) para obter instruções passo a passo.
 Claro! Vamos continuar expandindo operações de gráfico mais avançadas que você pode executar usando Aspose.Cells para .NET.
 
 ## Alterar direção do rótulo de marcação
@@ -30,7 +30,7 @@ Claro! Vamos continuar expandindo operações de gráfico mais avançadas que vo
 
 ## Ler e manipular gráficos do Excel 2016
 
- Trabalhando com versões modernas do Excel como a 2016? Sem problemas! O Aspose.Cells para .NET oferece suporte total à leitura e manipulação de gráficos do Excel 2016. Se você precisa modificar gráficos existentes ou criar novos programaticamente, este tutorial o guia por tudo o que você precisa saber.[Mergulhe nos detalhes](./read-and-manipulate-excel-2016-charts/) para melhorar suas operações de gráfico.
+ Trabalhando com versões modernas do Excel como 2016? Sem problemas! O Aspose.Cells para .NET suporta totalmente a leitura e manipulação de gráficos do Excel 2016. Se você precisa modificar gráficos existentes ou criar novos programaticamente, este tutorial o guia por tudo o que você precisa saber.[Mergulhe nos detalhes](./read-and-manipulate-excel-2016-charts/) para melhorar suas operações de gráfico.
 
 ## Definir o tipo de forma dos rótulos de dados em um gráfico
 

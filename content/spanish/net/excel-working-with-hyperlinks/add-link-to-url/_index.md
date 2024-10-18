@@ -12,7 +12,7 @@ url: /es/net/excel-working-with-hyperlinks/add-link-to-url/
 ## Prerrequisitos
 Antes de profundizar en los detalles de cómo agregar un hipervínculo en Excel con Aspose.Cells, hay algunos requisitos previos que debe marcar en su lista:
 1. .NET Framework: asegúrese de tener configurado el entorno .NET necesario. Aspose.Cells es compatible con varias versiones de .NET, así que elija la que mejor se adapte a su proyecto.
-2. Biblioteca Aspose.Cells: Necesita tener instalada la biblioteca Aspose.Cells. Puede descargarla desde el sitio web[Página de lanzamiento de Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: Necesita tener instalada la biblioteca Aspose.Cells. Puede descargarla desde[Página de lanzamiento de Aspose](https://releases.aspose.com/cells/net/).
 3. Entorno de desarrollo: utiliza un IDE como Visual Studio, que te ayudará a administrar tus proyectos fácilmente.
 4. Conocimientos básicos de programación: la familiaridad con C# y la comprensión de los conceptos de programación orientada a objetos harán que el proceso sea más sencillo.
 ¡Con todo listo para funcionar, vamos a empezar a codificar!
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Cambia tu camino
 ## Paso 2: Crear un objeto de libro de trabajo
  Aquí, crearemos una instancia de`Workbook` clase. Piense en un libro de trabajo como un lienzo en blanco para su hoja de cálculo.
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 En esta etapa, básicamente has dicho: "Oye, Aspose, ¡creemos un nuevo archivo de Excel!".
@@ -55,7 +55,7 @@ En la mayoría de los casos, querrá manipular la primera hoja de cálculo de su
 // Obtención de la referencia de la primera hoja de cálculo
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-¡Y así ya tienes tu hoja de trabajo en la mano!
+¡Y ya tienes tu hoja de trabajo en la mano!
 ## Paso 4: Agregar el hipervínculo
 Ahora viene la parte crucial: agregar el hipervínculo en sí. Aquí está la clave para agregar un vínculo en el que se pueda hacer clic en una celda`B4` que conduce al sitio web de Aspose.
 ```csharp
@@ -75,7 +75,7 @@ Esta línea le indica a Excel que muestre "Aspose - File Format APIs" en lugar d
 ## Paso 6: Guardar el libro de trabajo
 Por último, guardaremos el libro de Excel que acabamos de crear. ¡Aquí es donde todo tu arduo trabajo dará sus frutos!
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(outputDir + "outputAddingLinkToURL.xlsx");
 ```
 ¡Ahora deberías ver un nuevo archivo Excel en el directorio especificado!

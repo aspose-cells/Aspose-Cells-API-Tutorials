@@ -9,7 +9,7 @@ url: /id/net/excel-workbook/xades-signature-support/
 ---
 ## Perkenalan
 
-Di dunia digital saat ini, pengamanan dokumen menjadi lebih penting dari sebelumnya. Baik Anda berurusan dengan informasi bisnis yang sensitif maupun data pribadi, memastikan integritas dan keaslian berkas Anda adalah yang terpenting. Salah satu cara untuk mencapainya adalah melalui tanda tangan digital, khususnya, tanda tangan Xades. Jika Anda seorang pengembang .NET yang ingin menerapkan dukungan tanda tangan Xades di aplikasi Anda, Anda berada di tempat yang tepat! Dalam panduan ini, kami akan memandu Anda melalui proses penambahan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells for .NET. Jadi, mari kita langsung mulai!
+Di dunia digital saat ini, pengamanan dokumen menjadi lebih penting dari sebelumnya. Baik Anda berurusan dengan informasi bisnis yang sensitif maupun data pribadi, memastikan integritas dan keaslian berkas Anda adalah yang terpenting. Salah satu cara untuk mencapainya adalah melalui tanda tangan digital, khususnya, tanda tangan Xades. Jika Anda seorang pengembang .NET yang ingin menerapkan dukungan tanda tangan Xades di aplikasi Anda, Anda berada di tempat yang tepat! Dalam panduan ini, kami akan memandu Anda melalui proses penambahan tanda tangan Xades ke berkas Excel menggunakan Aspose.Cells untuk .NET. Jadi, mari kita langsung mulai!
 
 ## Prasyarat
 
@@ -55,7 +55,7 @@ Selanjutnya, mari kita muat buku kerja Excel yang ingin kita tandatangani. Di si
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
 
- Di sini, kita membuat contoh baru dari`Workbook` class, dengan meneruskan jalur file Excel sumber. Pastikan nama file sesuai dengan yang ada di direktori sumber Anda.
+ Di sini, kita membuat contoh baru dari`Workbook` class, dengan meneruskan jalur file Excel sumber. Pastikan nama file sesuai dengan yang ada di direktori sumber.
 
 ## Langkah 3: Siapkan Sertifikat Digital Anda
 
@@ -93,7 +93,7 @@ workbook.SetDigitalSignature(dsCollection);
 
 ## Langkah 6: Simpan Buku Kerja yang Telah Ditandatangani
 
-Akhirnya, saatnya menyimpan buku kerja yang telah ditandatangani ke direktori output. Langkah ini mengakhiri proses.
+Akhirnya, saatnya menyimpan buku kerja yang telah ditandatangani ke direktori keluaran. Langkah ini mengakhiri proses.
 
 ```csharp
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");

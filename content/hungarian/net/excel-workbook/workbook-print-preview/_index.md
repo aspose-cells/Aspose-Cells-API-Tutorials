@@ -131,7 +131,7 @@ Ez a vonal olyan, mint egy befejező simítás egy projekt befejezése után –
 Az Aspose.Cells egy hatékony könyvtár az Excel fájlformátumok kezelésére, és olyan funkciókat kínál, mint az adatkezelés, a formázás és a nyomtatási előnézetek megjelenítése.
 
 ### Meg kell vásárolnom az Aspose.Cells-t a használatához?
- Kezdheti egy ingyenes próbaverzióval, amely elérhető a címen[ezt a linket](https://releases.aspose.com)mielőtt a licenc megvásárlása mellett döntene.
+ Kezdheti a következő címen elérhető ingyenes próbaverzióval[ezt a linket](https://releases.aspose.com)mielőtt a licenc megvásárlása mellett döntene.
 
 ### Használhatom az Aspose.Cells-t bármely .NET alkalmazásban?
 Igen, az Aspose.Cells bármilyen .NET-alkalmazással működik, beleértve az ASP.NET-et, a WinForms-t és egyebeket.

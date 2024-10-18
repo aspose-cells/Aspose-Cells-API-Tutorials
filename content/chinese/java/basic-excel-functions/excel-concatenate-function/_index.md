@@ -68,7 +68,7 @@ worksheet.getCells().get("D1").setFormula("=CONCATENATE(A1, B1, C1)");
 
 ## 步骤 6：计算公式
 
-为了确保 CONCATENATE 公式得到评估，您需要重新计算工作表中的公式。
+为了确保 CONCATENATE 公式被评估，您需要重新计算工作表中的公式。
 
 ```java
 //重新计算公式

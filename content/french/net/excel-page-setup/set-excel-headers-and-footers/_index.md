@@ -18,7 +18,7 @@ Avant de passer aux choses sérieuses, assurons-nous que vous disposez de tout c
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. C'est ici que vous écrirez et exécuterez votre code C#.
 2.  Bibliothèque Aspose.Cells pour .NET : vous devez disposer de la bibliothèque Aspose.Cells. Si vous ne l'avez pas encore fait, vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
 3. Une compréhension de base de C# : la familiarité avec la programmation C# est cruciale, car tous les exemples de code seront dans ce langage.
-4. Configuration d’un projet : créez un nouveau projet C# dans Visual Studio où nous implémenterons notre logique d’en-tête/pied de page Excel.
+4. Configuration d’un projet : créez un nouveau projet C# dans Visual Studio où nous allons implémenter notre logique d’en-tête/pied de page Excel.
 
 Une fois que vous avez confirmé que vous disposez des prérequis ci-dessus, il est temps de se salir les mains !
 
@@ -77,7 +77,7 @@ Commençons maintenant à configurer l'en-tête. Nous commencerons par la sectio
 pageSetup.SetHeader(0, "&A");
 ```
 
- Explication : Le`SetHeader` La méthode nous permet de définir le contenu de l'en-tête. Ici,`&A` désigne le nom de la feuille de calcul, qui apparaîtra sur le côté gauche de l'en-tête.
+Explication : Le`SetHeader` La méthode nous permet de définir le contenu de l'en-tête. Ici,`&A` désigne le nom de la feuille de calcul, qui apparaîtra sur le côté gauche de l'en-tête.
 
 ## Étape 4 : Personnaliser l’en-tête central
 
@@ -87,11 +87,11 @@ Ensuite, nous allons personnaliser l’en-tête central pour afficher la date et
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Explication : Le`&D` et`&T` les codes se remplaceront automatiquement par la date et l'heure actuelles, respectivement. Nous spécifions également que la police de cet en-tête doit être « Times New Roman » et en gras.
+Explication : Le`&D` et`&T` les codes se remplaceront automatiquement par la date et l'heure actuelles, respectivement. Nous spécifions également que la police de cet en-tête doit être « Times New Roman » et en gras.
 
-## Étape 5 : Définir l’en-tête approprié
+## Étape 5 : Définir le bon en-tête
 
-Définissons maintenant la section de droite de l'en-tête pour afficher le nom du fichier.
+Définissons maintenant la section droite de l'en-tête pour afficher le nom du fichier.
 
 ```csharp
 pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
@@ -117,7 +117,7 @@ Ensuite, nous définissons le pied de page central pour afficher le numéro de p
 pageSetup.SetFooter(1, "&P");
 ```
 
- Explication : Le`&P` le code insère automatiquement le numéro de page au centre du pied de page, un moyen pratique de suivre les pages.
+Explication : Le`&P` le code insère automatiquement le numéro de page au centre du pied de page, un moyen pratique de suivre les pages.
 
 ## Étape 8 : Configuration du pied de page droit
 

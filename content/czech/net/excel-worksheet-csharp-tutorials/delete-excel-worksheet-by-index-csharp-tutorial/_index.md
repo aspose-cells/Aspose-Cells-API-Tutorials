@@ -36,7 +36,7 @@ Tento krok nastavení je jako položení základů pro vaši operaci Excel!
 
 ## Krok 2: Použití příkazů
 
-Nyní budete muset zahrnout relevantní jmenné prostory pro práci s Aspose.Cells. Na začátek souboru s kódem uveďte následující:
+Nyní budete muset zahrnout relevantní jmenné prostory pro práci s Aspose.Cells. Na začátek souboru kódu vložte následující:
 
 ```csharp
 using System.IO;
@@ -55,7 +55,7 @@ Nejprve budete muset definovat umístění souboru Excel. Zde dáte programu pok
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Stačí vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jste`book1.xls`soubor sídlí. Berte to tak, že před zahájením cesty poskytnete svému GPS správnou adresu!
+ Stačí vyměnit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jste`book1.xls` soubor sídlí. Berte to tak, že před zahájením cesty poskytnete svému GPS správnou adresu!
 
 ## Krok 4: Otevřete soubor Excel pomocí FileStream
 
@@ -65,7 +65,7 @@ Dále vytvoříme souborový stream, který otevře váš soubor Excel. To je z�
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-V tomto kroku metaforicky otočíme klíčem, abychom odemkli váš soubor Excel. 
+tomto kroku metaforicky otočíme klíčem, abychom odemkli váš soubor Excel. 
 
 ## Krok 5: Vytvořte instanci objektu sešitu
 
@@ -85,7 +85,7 @@ Nyní přichází ta vzrušující část – odstranění listu! Můžete to sn
 workbook.Worksheets.RemoveAt(0);
 ```
 
-tomto příkladu odstraňujeme první list v kolekci (nezapomeňte, že index je založen na nule). Je to jako vyhodit jednu botu, kterou jste nenosili celé věky – přetvořte svůj dokument Excel tak, aby vám zůstalo jen to, co potřebujete!
+V tomto příkladu odstraňujeme první list v kolekci (nezapomeňte, že index je založen na nule). Je to jako vyhodit jednu botu, kterou jste nenosili celé věky – přetvořte svůj dokument Excel tak, aby vám zůstalo jen to, co potřebujete!
 
 ## Krok 7: Uložte upravený sešit
 
@@ -95,7 +95,7 @@ Po odstranění listu musíte uložit změny. Tímto způsobem zapisujete své v
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Změnou můžete zvolit uložení pod novým názvem`"output.out.xls"` na cokoli si budete přát. Představte si to jako stisknutí tlačítka „Uložit“ v dokumentu aplikace Word – chcete si ponechat své úpravy.
+Změnou můžete zvolit uložení pod novým názvem`"output.out.xls"` na cokoli si budete přát. Představte si to jako stisknutí tlačítka „Uložit“ v dokumentu aplikace Word – chcete si ponechat své úpravy.
 
 ## Krok 8: Zavřete Stream souborů
 
@@ -109,7 +109,7 @@ Je to jako zavírat dveře na cestě ven a zajistit, abyste za sebou nezanechali
 
 ## Závěr
 
-tady to máte! Úspěšně jste se naučili, jak odstranit excelový list podle jeho indexu pomocí C# a Aspose.Cells. Proces je přímočarý, jakmile se seznámíte se základy. Nyní můžete snadno vyčistit nepotřebné listy ze sešitů, díky čemuž budou vaše data lépe spravovatelná a organizovaná.
+A tady to máte! Úspěšně jste se naučili, jak odstranit excelový list podle jeho indexu pomocí C# a Aspose.Cells. Proces je přímočarý, jakmile se seznámíte se základy. Nyní můžete snadno vyčistit nepotřebné listy ze sešitů, díky čemuž budou vaše data lépe spravovatelná a organizovaná.
 
 ## FAQ
 
@@ -117,7 +117,7 @@ tady to máte! Úspěšně jste se naučili, jak odstranit excelový list podle 
 Aspose.Cells je knihovna .NET, která poskytuje vývojářům rozsáhlé možnosti pro manipulaci se soubory aplikace Excel. Od vytváření a úprav až po převod souborů aplikace Excel je to mocný nástroj!
 
 ### Potřebuji licenci k používání Aspose.Cells?
- Ano, Aspose.Cells je placená knihovna, ale můžete začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/). Před nákupem si můžete prozkoumat funkce.
+ Ano, Aspose.Cells je placená knihovna, ale můžete začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/)Před nákupem si můžete prozkoumat funkce.
 
 ### Mohu odstranit více listů najednou?
 Ano, můžete procházet listy a mazat je pomocí jejich příslušných indexů. Nezapomeňte při odstraňování listů odpovídajícím způsobem upravit index.

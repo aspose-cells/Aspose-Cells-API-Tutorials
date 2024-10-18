@@ -48,18 +48,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 이제 Excel 파일을 나타내는 Workbook 클래스의 인스턴스를 생성해 보겠습니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
- 새로운 것을 만듭니다`Workbook`마치 노트북에서 새 빈 페이지를 열어서 원하는 정보를 무엇이든 채울 수 있게 된 것과 같습니다!
+ 새로운 것을 만듭니다`Workbook`마치 노트북에서 새 빈 페이지를 여는 것과 같아서, 원하는 정보를 무엇이든 채울 수 있습니다!
 
 ## 3단계: 첫 번째 워크시트에 액세스
 
-다음으로, 방향을 설정하려는 워크시트에 액세스해야 합니다. 각 워크북에는 여러 워크시트가 있을 수 있으므로 작업 중인 워크시트를 명시적으로 지정해야 합니다.
+다음으로, 방향을 설정하려는 워크시트에 액세스해야 합니다. 각 워크북에는 여러 워크시트가 있을 수 있으므로 작업하는 워크시트를 명시적으로 지정해야 합니다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -94,7 +94,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 ## 자주 묻는 질문
 
 ### Aspose.Cells for .NET은 무엇에 사용되나요?
-.NET용 Aspose.Cells는 생성, 편집, 변환 등의 기능을 갖춘 Excel 파일을 프로그래밍 방식으로 관리하기 위한 강력한 라이브러리입니다.
+.NET용 Aspose.Cells는 생성, 편집, 변환 등의 기능을 통해 Excel 파일을 프로그래밍 방식으로 관리하기 위한 강력한 라이브러리입니다.
 
 ### 화면 방향을 가로로도 변경할 수 있나요?
  네! 방향을 설정할 수 있습니다.`PageOrientationType.Landscape` 비슷한 방식으로.
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 ### Aspose.Cells에 대한 지원이 있나요?
  물론입니다! 방문하실 수 있습니다.[지원 포럼](https://forum.aspose.com/c/cells/9) 문의사항이나 도움이 필요하면 으로 연락하세요.
 
-### Aspose.Cells에 대한 임시 라이선스를 받으려면 어떻게 해야 하나요?
+### Aspose.Cells에 대한 임시 라이센스를 받으려면 어떻게 해야 하나요?
  임시 라이센스를 요청할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/)제한 없이 기능을 사용해 볼 수 있습니다.
 
 ### Aspose.Cells는 대용량 Excel 파일을 처리할 수 있나요?

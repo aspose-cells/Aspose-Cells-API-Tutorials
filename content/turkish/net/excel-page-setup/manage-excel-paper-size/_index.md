@@ -17,7 +17,7 @@ Excel kağıt boyutlarını yönetmenin teknik ayrıntılarına dalmadan önce, 
 
 1. C# Temel Anlayışı: C# programlamaya aşinalık, Aspose.Cells'i projelerinize entegre etme sürecini önemli ölçüde kolaylaştıracaktır.
 2. Visual Studio Kurulu Olmalıdır: C# kodlarını yazmak ve çalıştırmak için makinenizde Visual Studio'nun kurulu olduğundan emin olun.
-3.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells'i edinmeniz gerekecek.[buradan indirin](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells'i edinmeniz gerekecek.[buradan indirin](https://releases.aspose.com/cells/net/).
 4. NuGet Paket Yöneticisi: Aspose.Cells'i kolayca kurabileceğiniz için NuGet Paket Yöneticisine erişiminiz olduğundan emin olun.
 
 Bu ön koşulları aklımızda tutarak başlayalım!
@@ -30,7 +30,7 @@ Aspose.Cells ile çalışmaya başlamak için, gerekli ad alanlarını C# kodunu
 
 Öncelikle Visual Studio'da yeni bir C# projesi oluşturun.
 
-### Aspose.Cells NuGet Paketini Yükle
+### Aspose.Cells NuGet Paketini Yükleyin
 
 1. Projenize sağ tıklayın ve “NuGet Paketlerini Yönet” seçeneğini seçin.
 2. Gözat sekmesinde Aspose.Cells'i arayın.
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "ManagePaperSize_out.xls");
 
 ## Çözüm
 
-Excel sayfalarındaki kağıt boyutlarını yönetmek, Aspose.Cells for .NET ile çocuk oyuncağı haline gelir. İster belgeleri yazdırmak için hazırlıyor olun, ister belirli yönergelere uymalarını sağlıyor olun, yukarıda özetlenen adımlar hedeflerinize zahmetsizce ulaşmanıza yardımcı olacaktır. Aspose.Cells'e daha derinlemesine daldıkça, veri işleme ve sunum görevlerinizi geliştirebilecek daha da güçlü özellikler keşfedeceksiniz.
+Excel sayfalarındaki kağıt boyutlarını yönetmek, Aspose.Cells for .NET ile çocuk oyuncağı haline gelir. Belgeleri yazdırmak için hazırlıyor veya belirli yönergelere uymalarını sağlıyor olun, yukarıda özetlenen adımlar hedeflerinize zahmetsizce ulaşmanıza yardımcı olacaktır. Aspose.Cells'e daha derinlemesine daldıkça, veri işleme ve sunum görevlerinizi geliştirebilecek daha da güçlü özellikler keşfedeceksiniz.
 
 ## SSS
 
@@ -116,7 +116,7 @@ Evet, bir döngü içerisinde birden fazla çalışma sayfasına erişebilir ve 
  Aspose.Cells ticari bir kütüphanedir; ancak ücretsiz deneme sunar. Bir talepte bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm özelliklerini değerlendirmek için.
 
 ### Aspose.Cells ile çalışırken istisnaları nasıl ele alırım?
-Çalışma kitabı düzenlemesi sırasında oluşabilecek istisnaları ele almak için kodunuzu bir try-catch bloğuna sarabilirsiniz.
+Çalışma kitabı düzenlemesi sırasında oluşabilecek herhangi bir istisnayı ele almak için kodunuzu bir try-catch bloğuna sarabilirsiniz.
 
 ### Aspose.Cells için ek kaynakları ve desteği nerede bulabilirim?
  Daha fazla bilgiyi şurada bulabilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/) veya ziyaret edin[destek forumu](https://forum.aspose.com/c/cells/9).

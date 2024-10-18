@@ -114,6 +114,6 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 बिल्कुल! Aspose.Cells for Java पेशेवर-ग्रेड एक्सेल-आधारित डेटा विज़ुअलाइज़ेशन बनाने के लिए उपकरणों और सुविधाओं का एक मजबूत सेट प्रदान करता है।
 
-### मैं Aspose.Cells for Java पर अधिक ट्यूटोरियल कहां पा सकता हूं?
+### मैं Java के लिए Aspose.Cells पर अधिक ट्यूटोरियल कहां पा सकता हूं?
 
  आप Aspose.Cells for Java पर अधिक ट्यूटोरियल और दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/cells/java/).

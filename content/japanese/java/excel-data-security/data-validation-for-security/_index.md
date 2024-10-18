@@ -66,7 +66,7 @@ dataValidation.setFormula2("100");
 
 ## カスタムデータ検証ルール
 
-基本的な検証だけでは不十分な場合があります。カスタム検証ルールを実装する必要がある場合があります。その方法は次のとおりです。
+場合によっては、基本的な検証だけでは不十分です。カスタム検証ルールを実装する必要があるかもしれません。その方法は次のとおりです。
 
 ```java
 DataValidation customValidation = worksheet.getDataValidations().add(area);

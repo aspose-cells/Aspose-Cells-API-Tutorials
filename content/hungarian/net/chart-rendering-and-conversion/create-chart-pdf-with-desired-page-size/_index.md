@@ -2,7 +2,7 @@
 title: Hozzon létre PDF diagramot a kívánt oldalmérettel
 linktitle: Hozzon létre PDF diagramot a kívánt oldalmérettel
 second_title: Aspose.Cells .NET Excel Processing API
-description: Hozzon létre egy PDF-fájlt az Excel diagramjával az Aspose.Cells for .NET segítségével. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan.
+description: Hozzon létre egy PDF-fájlt az Excel diagrammal az Aspose.Cells for .NET segítségével. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan.
 type: docs
 weight: 12
 url: /hu/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/

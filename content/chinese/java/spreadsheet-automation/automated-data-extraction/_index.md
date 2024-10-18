@@ -72,7 +72,7 @@ System.out.println("Data from A1: " + data);
 要从一系列单元格中提取数据，请使用以下代码：
 
 ```java
-//定义范围（例如 A1:B10）
+//定义一个范围（例如，A1:B10）
 CellArea cellArea = new CellArea();
 cellArea.StartRow = 0;
 cellArea.StartColumn = 0;

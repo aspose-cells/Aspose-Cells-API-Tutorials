@@ -9,14 +9,14 @@ url: /vi/net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 ---
 ## Giới thiệu
 
-Trong thế giới kinh doanh phát triển nhanh như hiện nay, việc quản lý dữ liệu hiệu quả và an toàn là tối quan trọng. Với mức độ phổ biến của các bảng tính Excel, việc bảo vệ thông tin nhạy cảm trong đó là rất quan trọng. Tuy nhiên, đôi khi, bạn có thể cần truy cập vào một bảng tính được bảo vệ—cho dù bạn quên mật khẩu hay chỉ cần sửa đổi dữ liệu. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách mở khóa một bảng tính Excel được bảo vệ bằng thư viện Aspose.Cells for .NET mạnh mẽ. Đến cuối hướng dẫn này, bạn sẽ được trang bị đầy đủ để giải quyết nhiệm vụ này một cách dễ dàng và tự tin!
+Trong thế giới kinh doanh phát triển nhanh chóng ngày nay, việc quản lý dữ liệu hiệu quả và an toàn là tối quan trọng. Với mức độ phổ biến của các bảng tính Excel, việc bảo vệ thông tin nhạy cảm trong đó là rất quan trọng. Tuy nhiên, đôi khi, bạn có thể cần truy cập vào một bảng tính được bảo vệ—cho dù bạn quên mật khẩu hay chỉ cần sửa đổi dữ liệu. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách mở khóa một bảng tính Excel được bảo vệ bằng thư viện Aspose.Cells for .NET mạnh mẽ. Đến cuối hướng dẫn này, bạn sẽ được trang bị đầy đủ để giải quyết nhiệm vụ này một cách dễ dàng và tự tin!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu viết mã, điều quan trọng là phải đảm bảo bạn đã thiết lập mọi thứ để có trải nghiệm mượt mà với Aspose.Cells cho .NET:
 
 1.  Visual Studio: Bạn cần cài đặt Visual Studio trên máy của mình. Nếu bạn không có, hãy tải xuống phiên bản mới nhất từ[Trang web Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/)Ngoài ra, bạn có thể cài đặt trực tiếp thông qua NuGet trong Visual Studio.
+2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/). Ngoài ra, bạn có thể cài đặt trực tiếp thông qua NuGet trong Visual Studio.
 3. Hiểu biết cơ bản về C#: Vì chúng ta sẽ viết mã C#, nên hiểu biết cơ bản về ngôn ngữ này sẽ rất hữu ích. Nếu bạn mới làm quen với C#, có rất nhiều tài nguyên có sẵn để giúp bạn bắt kịp.
 4. Tệp Excel: Chuẩn bị sẵn một sổ làm việc Excel mà bạn muốn mở khóa. Đối với ví dụ này, chúng tôi sẽ gọi nó là "book1.xls".
 
@@ -69,11 +69,11 @@ Bây giờ sổ làm việc đã được tải, bạn sẽ muốn truy cập v�
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Bằng cách chỉ định`[0]`bạn đang nói với hệ thống rằng bạn muốn trang tính đầu tiên. Nếu trang tính của bạn không phải là trang tính đầu tiên, chỉ cần thay đổi chỉ mục này thành số thích hợp.
+ Bằng cách chỉ định`[0]`, bạn đang nói với hệ thống rằng bạn muốn trang tính đầu tiên. Nếu trang tính của bạn không phải là trang tính đầu tiên, chỉ cần thay đổi chỉ mục này thành số thích hợp.
 
 ## Bước 4: Bỏ bảo vệ trang tính
 
-Bây giờ đến phần quan trọng—bỏ bảo vệ worksheet. Nếu bạn có mật khẩu, bạn có thể nhập mật khẩu ở đây; nếu không, hãy để trống cho một sheet không được bảo vệ.
+Bây giờ đến phần quan trọng—bỏ bảo vệ worksheet. Nếu bạn có mật khẩu, bạn có thể nhập mật khẩu ở đây; nếu không, hãy để trống đối với một sheet không được bảo vệ.
 
 ```csharp
 worksheet.Unprotect("");
@@ -87,7 +87,7 @@ Sau khi bảng tính được bỏ bảo vệ, bạn cần lưu các thay đổi
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Ở đây bạn đang lưu các thay đổi vào một tệp mới có tên là “output.out.xls” trong cùng thư mục. Bạn có thể đổi tên tệp theo ý muốn, nhưng hãy đảm bảo duy trì`.xls` phần mở rộng để có thể nhận dạng được đây là tệp Excel.
+ Ở đây bạn đang lưu các thay đổi vào một tệp mới có tên là “output.out.xls” trong cùng thư mục. Bạn có thể đổi tên tệp theo ý muốn, nhưng hãy đảm bảo duy trì`.xls`phần mở rộng để có thể nhận dạng được như một tệp Excel.
 
 ## Bước 6: Xử lý lỗi
 
@@ -116,7 +116,7 @@ Và bạn đã có nó! Mở khóa một bảng tính Excel được bảo vệ 
 Có! Bạn có thể lặp qua từng trang tính trong bảng tính và bỏ bảo vệ chúng theo cách tương tự.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng cần có giấy phép để sử dụng sản xuất. Kiểm tra[mua](https://purchase.aspose.com/buy)trang để biết thêm thông tin.
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng cần có giấy phép để sử dụng sản xuất. Kiểm tra[mua](https://purchase.aspose.com/buy) trang để biết thêm thông tin.
 
 ### Nếu tôi không biết mật khẩu thì sao?
 Nếu một trang tính được bảo vệ bằng mật khẩu và bạn không có mật khẩu, thư viện sẽ không giúp vượt qua các hạn chế vì điều này vi phạm chính sách đạo đức.

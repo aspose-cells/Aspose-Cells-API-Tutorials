@@ -19,4 +19,4 @@ Nu vraagt u zich misschien af hoe Aspose.Cells dit proces vereenvoudigt. Aspose.
 
 ## Zelfstudies over het samenvoegen en opheffen van cellen in Excel
 ### [Samengevoegde cellen in Excel ontkoppelen](./unmerge-merged-cells/)
-Maak eenvoudig samengevoegde cellen los in Excel met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om betere spreadsheets te maken.
+Maak samengevoegde cellen in Excel eenvoudig los met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om betere spreadsheets te maken.

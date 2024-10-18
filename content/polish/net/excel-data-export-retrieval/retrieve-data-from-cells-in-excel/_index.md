@@ -24,7 +24,7 @@ Gdy już spełnisz te wymagania wstępne, możemy zacząć badać sposoby pobier
 
 ## Importuj pakiety
 
-Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw w swoim projekcie C#. Pozwoli ci to wykorzystać klasy i metody dostarczane przez Aspose.Cells.
+Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu C#. Pozwoli ci to wykorzystać klasy i metody dostarczone przez Aspose.Cells.
 
 ```csharp
 using System.IO;
@@ -56,9 +56,9 @@ Teraz, gdy masz już skonfigurowany katalog dokumentów, następnym krokiem jest
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Tutaj tworzymy`Workbook`obiekt, przekazując pełną ścieżkę pliku Excel. Ten krok inicjuje skoroszyt i przygotowuje go do pobierania danych.
+ Tutaj tworzymy`Workbook` obiekt, przekazując pełną ścieżkę pliku Excel. Ten krok inicjuje skoroszyt i przygotowuje go do pobierania danych.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po otwarciu skoroszytu, będziesz chciał uzyskać dostęp do konkretnego arkusza, z którego chcesz pobrać dane. W tym przypadku uzyskamy dostęp do pierwszego arkusza.
 
@@ -68,7 +68,7 @@ Po otwarciu skoroszytu, będziesz chciał uzyskać dostęp do konkretnego arkusz
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Ten`Worksheets` kolekcja umożliwia dostęp do różnych arkuszy w skoroszycie. Indeks`[0]` odnosi się do pierwszego arkusza. Jeśli chcesz uzyskać dostęp do kolejnych arkuszy, możesz odpowiednio zmienić indeks.
+ Ten`Worksheets` kolekcja umożliwia dostęp do różnych arkuszy w skoroszycie. Indeks`[0]`odnosi się do pierwszego arkusza. Jeśli chcesz uzyskać dostęp do kolejnych arkuszy, możesz odpowiednio zmienić indeks.
 
 ## Krok 4: Pętla przez komórki
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Ocena typu danych komórki dla wartości daty/godziny
+        // Ocena typu danych komórki dla wartości daty/godziny
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- W tym kroku przechodzimy przez każdą komórkę w arkuszu. Dla każdej komórki sprawdzamy jej typ danych za pomocą`switch` polecenie. W zależności od typu pobieramy wartość i drukujemy ją na konsoli. Oto podział przypadków:
+ W tym kroku przechodzimy przez każdą komórkę w arkuszu. Dla każdej komórki sprawdzamy jej typ danych za pomocą`switch`polecenie. W zależności od typu pobieramy wartość i drukujemy ją na konsoli. Oto podział przypadków:
 
 -  IsString: Jeśli komórka zawiera ciąg znaków, pobieramy go za pomocą`StringValue`.
 -  IsNumeric: W przypadku wartości numerycznych używamy`DoubleValue`.
@@ -143,7 +143,7 @@ Pobieranie danych z komórek Excela za pomocą Aspose.Cells dla .NET to prosty p
 Aspose.Cells to biblioteka .NET umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
- Tak, Aspose.Cells oferuje bezpłatną wersję próbną, której możesz użyć do przetestowania jej funkcji. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose.Cells oferuje bezpłatną wersję próbną, której możesz użyć do przetestowania jej funkcji. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
 
 ### Jakie typy danych mogę pobrać z komórek programu Excel?  
 Można pobierać różne typy danych, w tym ciągi znaków, liczby, wartości logiczne oraz wartości daty/godziny.

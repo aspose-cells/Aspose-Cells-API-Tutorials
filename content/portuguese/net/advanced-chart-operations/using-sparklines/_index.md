@@ -1,7 +1,7 @@
 ---
 title: Usando Sparklines
 linktitle: Usando Sparklines
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a usar sparklines de forma eficaz no Excel com o Aspose.Cells para .NET. Guia passo a passo incluído para uma experiência tranquila.
 type: docs
 weight: 18
@@ -20,7 +20,7 @@ Antes de mergulharmos no mundo dos sparklines, vamos abordar alguns pré-requisi
 3. Aspose.Cells para .NET: Você precisará ter a biblioteca Aspose.Cells disponível em seu projeto. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/net/).
 4.  Modelo Excel: Usaremos um arquivo Excel chamado`sampleUsingSparklines.xlsx`. Salve-o no diretório de trabalho.
 
-Agora que temos a configuração necessária, vamos detalhar as etapas para implementar sparklines!
+Agora que temos a configuração necessária, vamos detalhar as etapas para implementar os sparklines!
 
 ## Pacotes de importação
 

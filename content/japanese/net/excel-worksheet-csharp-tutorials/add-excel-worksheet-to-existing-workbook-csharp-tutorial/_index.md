@@ -24,7 +24,7 @@ url: /ja/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-wo
 
 ## パッケージのインポート
 
-まず、Aspose.Cells ライブラリから重要な名前空間をインポートする必要があります。手順は次のとおりです。
+まず、Aspose.Cells ライブラリから重要な名前空間をインポートする必要があります。その方法は次のとおりです。
 
 ```csharp
 using System.IO;

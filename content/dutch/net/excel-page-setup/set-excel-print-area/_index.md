@@ -24,7 +24,7 @@ Zodra u aan deze vereisten voldoet, bent u klaar om aan de slag te gaan met Exce
 
 ## Pakketten importeren
 
-Om aan de slag te gaan met Aspose.Cells in uw C#-project, moet u de benodigde namespaces importeren. Dit is vergelijkbaar met het inpakken van uw koffers voor een reis: verzamel alle benodigdheden zodat u op alles voorbereid bent. Dit is wat u bovenaan uw codebestand moet opnemen:
+Om aan de slag te gaan met Aspose.Cells in uw C#-project, moet u de benodigde namespaces importeren. Dit is vergelijkbaar met het inpakken van uw koffers voor een reis: verzamel alle benodigdheden zodat u op alles bent voorbereid. Dit is wat u bovenaan uw codebestand moet opnemen:
 
 ```csharp
 using Aspose.Cells;
@@ -63,7 +63,7 @@ Workbook workbook = new Workbook();
 
 Haal het PageSetup-object van het eerste werkblad op.
 
- Elk werkblad in uw werkmap heeft zijn eigen instellingen, zoals afdrukgebied, pagina-oriëntatie en marges. U krijgt toegang tot deze eigenschappen met behulp van de`PageSetup` klas. Hier is hoe je de eerste sheet pakt`PageSetup`:
+ Elk werkblad in uw werkmap heeft zijn eigen instellingen, zoals afdrukgebied, pagina-oriëntatie en marges. U krijgt toegang tot deze eigenschappen met behulp van de`PageSetup` klas. Hier is hoe je het eerste vel pakt`PageSetup`:
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
@@ -87,7 +87,7 @@ Deze regel vertelt Excel in feite: "Hé, wanneer u gaat afdrukken, concentreer u
 
 Sla uw werkmap op in de aangegeven map.
 
-Ten slotte, met alles ingesteld, is het tijd om uw meesterwerk op te slaan. U gebruikt de volgende coderegel om uw werkmap op te slaan:
+Ten slotte, met alles ingesteld, is het tijd om je meesterwerk op te slaan. Je gebruikt de volgende coderegel om je werkmap op te slaan:
 
 ```csharp
 workbook.Save(dataDir + "SetPrintArea_out.xls");

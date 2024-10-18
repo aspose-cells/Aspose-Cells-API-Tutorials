@@ -1,7 +1,7 @@
 ---
 title: Definir linhas do gráfico
 linktitle: Definir linhas do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a personalizar linhas de gráfico no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo detalhado.
 type: docs
 weight: 14
@@ -9,7 +9,7 @@ url: /pt/net/setting-chart-appearance/set-chart-lines/
 ---
 ## Introdução
 
-Criar gráficos visualmente atraentes e informativos é essencial na representação de dados. Seja você um analista de dados, um gerente de negócios ou apenas alguém que ama organizar dados, os gráficos podem melhorar significativamente a maneira como você apresenta suas informações. Este tutorial o guiará pelo processo de configuração de linhas de gráfico usando Aspose.Cells para .NET, uma biblioteca poderosa para manipular arquivos Excel. No final, você saberá como criar gráficos impressionantes repletos de personalizações para fazer seus dados do Excel se destacarem!
+Criar gráficos visualmente atraentes e informativos é essencial na representação de dados. Seja você um analista de dados, um gerente de negócios ou apenas alguém que ama organizar dados, os gráficos podem melhorar significativamente a maneira como você apresenta suas informações. Este tutorial o guiará pelo processo de configuração de linhas de gráfico usando o Aspose.Cells para .NET, uma biblioteca poderosa para manipular arquivos do Excel. No final, você saberá como criar gráficos impressionantes repletos de personalizações para fazer seus dados do Excel se destacarem!
 
 ## Pré-requisitos
 
@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Agora, criaremos um objeto de pasta de trabalho, que servirá como um contêiner para sua planilha.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

@@ -79,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Τώρα ήρθε η ώρα να βρούμε το γράφημα που θέλουμε να τροποποιήσουμε. Εδώ αρχίζει πραγματικά η μαγεία!
 
 ```csharp
-//Πάρτε το πρώτο γράφημα στο φύλλο
+// Πάρτε το πρώτο γράφημα στο φύλλο
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
  Τώρα, ας εφαρμόσουμε ένα χρώμα θέματος της Microsoft. Θα επιλέξουμε ένα`Accent` στυλ γιατί σε ποιον δεν αρέσει το ποπ του χρώματος;
 
 ```csharp
-//Δημιουργήστε ένα θέμα σε στυλ Accent
+// Δημιουργήστε ένα θέμα σε στυλ Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

@@ -43,7 +43,7 @@ using Aspose.Cells.Charts;
 Workbook workbook = new Workbook();
 ```
 
-Thao tác này khởi tạo một bảng tính Excel mới. Nhưng dữ liệu sẽ đi đâu? Chúng ta hãy giải quyết vấn đề đó ở bước tiếp theo.
+Thao tác này sẽ khởi tạo một bảng tính Excel mới. Nhưng dữ liệu sẽ đi đâu? Chúng ta hãy giải quyết vấn đề đó ở bước tiếp theo.
 
 ## Bước 2: Thêm dữ liệu vào trang tính
 
@@ -133,7 +133,7 @@ chart.NSeries.CategoryData = "Data!A2:A8";
 chart.NSeries.IsColorVaried = true;
 ```
 
- Dòng đầu tiên chỉ rõ rằng chúng ta đang sử dụng dữ liệu bán hàng từ các ô`B2:B8` . Chúng tôi cũng yêu cầu biểu đồ sử dụng tên vùng từ`A2:A8` dưới dạng nhãn danh mục.
+ Dòng đầu tiên chỉ rõ rằng chúng ta đang sử dụng dữ liệu bán hàng từ các ô`B2:B8` . Chúng tôi cũng yêu cầu biểu đồ sử dụng tên vùng từ`A2:A8` như nhãn danh mục.
 
 ## Bước 7: Thêm nhãn dữ liệu
 
@@ -169,7 +169,7 @@ legend.Border.Color = Color.Blue;
 legend.Area.FillFormat.Texture = TextureType.Bouquet;
 ```
 
-## Bước 9: Lưu Workbook
+## Bước 9: Lưu sổ làm việc
 
 Cuối cùng, chúng ta lưu sổ làm việc vào một tệp Excel. Bạn có thể chỉ định thư mục đầu ra và tên tệp khi cần.
 
@@ -179,7 +179,7 @@ workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
 
 ## Phần kết luận
 
-Tạo biểu đồ hình tròn bằng Aspose.Cells cho .NET là một quy trình đơn giản và có thể tùy chỉnh. Bằng cách làm theo hướng dẫn này, bạn có thể tạo biểu đồ trông chuyên nghiệp, truyền tải những hiểu biết có giá trị chỉ trong vài bước. Cho dù là để báo cáo kinh doanh hay mục đích giáo dục, việc thành thạo việc tạo biểu đồ sẽ nâng cao kỹ năng tự động hóa Excel của bạn. Hãy nhớ rằng, Aspose.Cells cung cấp sự linh hoạt mà bạn cần để tạo các tệp Excel tuyệt đẹp, dựa trên dữ liệu một cách dễ dàng.
+Tạo biểu đồ hình tròn bằng Aspose.Cells cho .NET là một quy trình đơn giản và có thể tùy chỉnh. Bằng cách làm theo hướng dẫn này, bạn có thể tạo biểu đồ trông chuyên nghiệp truyền tải những hiểu biết có giá trị chỉ trong vài bước. Cho dù là để báo cáo kinh doanh hay mục đích giáo dục, việc thành thạo việc tạo biểu đồ sẽ nâng cao kỹ năng tự động hóa Excel của bạn. Hãy nhớ rằng, Aspose.Cells cung cấp sự linh hoạt mà bạn cần để tạo các tệp Excel tuyệt đẹp, dựa trên dữ liệu một cách dễ dàng.
 
 ## Câu hỏi thường gặp
 

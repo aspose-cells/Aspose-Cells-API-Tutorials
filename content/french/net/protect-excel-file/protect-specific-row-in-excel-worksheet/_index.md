@@ -49,7 +49,7 @@ Tout d'abord, nous devons définir un répertoire dans lequel nous allons stocke
 // Le chemin vers le répertoire des documents.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // changez pour le chemin souhaité.
 
-// Créez un répertoire s'il n'est pas déjà présent.
+//Créez un répertoire s'il n'est pas déjà présent.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -143,7 +143,7 @@ Oui, vous pouvez répéter le processus de verrouillage pour toutes les autres l
 Vous pouvez sélectionner individuellement des cellules et appliquer des styles de verrouillage, de la même manière que vous avez verrouillé une ligne.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?  
-Aspose.Cells est un produit commercial, mais vous pouvez l'essayer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
+ Aspose.Cells est un produit commercial, mais vous pouvez l'essayer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
 
 ### Ai-je besoin d'une connexion Internet pour utiliser Aspose.Cells ?  
 Non, Aspose.Cells est une bibliothèque .NET et peut fonctionner hors ligne une fois installée.

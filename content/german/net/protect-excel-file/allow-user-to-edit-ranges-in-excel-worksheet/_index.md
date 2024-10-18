@@ -24,14 +24,14 @@ Sobald diese Voraussetzungen erfüllt sind, kann es losgehen!
 
 ## Pakete importieren
 
-Bevor wir mit dem Codieren beginnen, müssen wir sicherstellen, dass unser Projekt den Aspose.Cells-Namespace erkennt. So importieren Sie die erforderlichen Pakete:
+Bevor wir mit dem Programmieren beginnen, müssen wir sicherstellen, dass unser Projekt den Aspose.Cells-Namespace erkennt. So importieren Sie die erforderlichen Pakete:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Nachdem wir nun alles importiert haben, was wir brauchen, tauchen wir Schritt für Schritt in unser Tutorial ein.
+Nachdem wir nun alles importiert haben, was wir brauchen, können wir uns Schritt für Schritt in unser Tutorial stürzen.
 
 ## Schritt 1: Einrichten des Dokumentverzeichnisses
 
@@ -41,7 +41,7 @@ Für alle Dateivorgänge ist es wichtig, einen definierten Speicherort für unse
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -69,9 +69,9 @@ Jede neu erstellte Arbeitsmappe enthält mindestens ein Arbeitsblatt. Greifen wi
 Worksheet sheet = book.Worksheets[0];
 ```
 
-In diesem Codeausschnitt greifen wir auf das erste Arbeitsblatt unserer Arbeitsmappe zu, das wir in den nachfolgenden Schritten bearbeiten werden.
+In diesem Codeausschnitt greifen wir auf das erste Arbeitsblatt unserer Arbeitsmappe zu, das wir in den folgenden Schritten bearbeiten werden.
 
-## Schritt 4: Bereiche zum Bearbeiten zulassen
+## Schritt 4: Bereiche zum Bearbeiten zulassen abrufen
 
  Um bestimmte Bereiche des Arbeitsblatts für die Bearbeitung freizugeben, müssen wir auf die`AllowEditRanges` Eigentum.
 

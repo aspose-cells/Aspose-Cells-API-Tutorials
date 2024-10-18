@@ -12,7 +12,7 @@ url: /pt/java/spreadsheet-automation/excel-workbook-automation/
 Neste tutorial, exploraremos como automatizar operações de planilhas do Excel usando a biblioteca Aspose.Cells for Java. Aspose.Cells é uma API Java poderosa que permite criar, manipular e gerenciar arquivos do Excel programaticamente.
 
 ## Pré-requisitos
- Antes de começar, certifique-se de ter a biblioteca Aspose.Cells for Java adicionada ao seu projeto. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/java/).
+ Antes de começarmos, certifique-se de ter a biblioteca Aspose.Cells for Java adicionada ao seu projeto. Você pode baixá-la em[aqui](https://releases.aspose.com/cells/java/).
 
 ## Etapa 1: Crie uma nova pasta de trabalho do Excel
 Vamos começar criando uma nova pasta de trabalho do Excel usando Aspose.Cells. Abaixo está um exemplo de como fazer isso:
@@ -83,7 +83,7 @@ public class UpdateExcelData {
 ```
 
 ## Conclusão
-Neste tutorial, cobrimos os conceitos básicos da Automação de Pasta de Trabalho do Excel usando o Aspose.Cells para Java. Você aprendeu como criar, ler e atualizar pastas de trabalho do Excel programaticamente. O Aspose.Cells fornece uma ampla gama de recursos para automação avançada do Excel, tornando-o uma ferramenta poderosa para manipular arquivos do Excel em seus aplicativos Java.
+Neste tutorial, cobrimos os conceitos básicos da Automação de Pastas de Trabalho do Excel usando o Aspose.Cells para Java. Você aprendeu como criar, ler e atualizar pastas de trabalho do Excel programaticamente. O Aspose.Cells fornece uma ampla gama de recursos para automação avançada do Excel, tornando-o uma ferramenta poderosa para manipular arquivos do Excel em seus aplicativos Java.
 
 ## Perguntas Frequentes (FAQs)
 Aqui estão algumas perguntas comuns relacionadas à automação de pastas de trabalho do Excel:

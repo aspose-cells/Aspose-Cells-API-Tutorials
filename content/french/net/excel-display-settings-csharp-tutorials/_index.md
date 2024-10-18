@@ -9,7 +9,7 @@ url: /fr/net/excel-display-settings-csharp-tutorials/
 ---
 ## Introduction
 
-Lorsqu'il s'agit de manipuler des feuilles de calcul Excel à l'aide de .NET, Aspose.Cells est l'un des meilleurs choix disponibles. Mais avec autant de fonctionnalités et de capacités regroupées dans cette bibliothèque polyvalente, il peut être un peu difficile de se lancer. C'est là qu'interviennent nos didacticiels pratiques ! Ils sont conçus pour vous guider à travers tout, du contrôle de la largeur de la barre d'onglets au masquage et à l'affichage des feuilles de calcul.
+Lorsqu'il s'agit de manipuler des feuilles de calcul Excel à l'aide de .NET, Aspose.Cells est l'un des meilleurs choix disponibles. Mais avec autant de fonctionnalités et de capacités intégrées dans cette bibliothèque polyvalente, il peut être un peu difficile de se lancer. C'est là qu'interviennent nos didacticiels pratiques ! Ils sont conçus pour vous guider à travers tout, du contrôle de la largeur de la barre d'onglets au masquage et à l'affichage des feuilles de calcul.
 
 ## Maîtriser les fonctions de base
 
@@ -29,7 +29,7 @@ En matière d'esthétique, une autre fonctionnalité essentielle consiste à con
 
 ## Geler et diviser des volets en toute simplicité
 
-L'une des fonctionnalités les plus utiles de toute feuille Excel est la possibilité de figer les volets. Pensez-y : avez-vous déjà perdu la trace de la ligne d'en-tête lorsque vous faites défiler une feuille de calcul gigantesque ? C'est incroyablement frustrant ! Notre tutoriel sur le gel des volets vous guide tout au long du processus afin que vous puissiez garder les informations essentielles à portée de vue tout en parcourant de grands ensembles de données. Imaginez que vous veniez de terminer une longue analyse et que vous deviez faire défiler la page vers le haut à chaque fois pour vous rappeler des en-têtes. C'est fini ![En savoir plus](./freeze-panes-of-worksheet/).
+L'une des fonctionnalités les plus utiles de toute feuille Excel est la possibilité de figer les volets. Pensez-y : avez-vous déjà perdu la trace de la ligne d'en-tête lorsque vous faites défiler une feuille de calcul gigantesque ? C'est incroyablement frustrant ! Notre didacticiel sur le gel des volets vous guide tout au long du processus afin que vous puissiez garder les informations essentielles à portée de vue tout en parcourant de grands ensembles de données. Imaginez que vous veniez de terminer une longue analyse et que vous deviez faire défiler la page vers le haut à chaque fois pour vous rappeler des en-têtes. C'est fini ![En savoir plus](./freeze-panes-of-worksheet/).
 
  Mais que faire si vous parcourez des sections spécifiques de la feuille de calcul ? C'est là que le fractionnement des volets peut vraiment s'avérer utile. Il vous permet d'afficher différentes zones de votre feuille de calcul en même temps, ce qui facilite la comparaison des données ou le suivi des modifications dans différentes parties de la feuille. Ce didacticiel simplifie la tâche de fractionnement des volets en quelques étapes simples que vous pouvez maîtriser en un rien de temps.[En savoir plus](./split-panes-of-worksheet/).
 
@@ -56,7 +56,7 @@ En explorant ces didacticiels instructifs sur Aspose.Cells pour .NET, vous appre
 | [Onglet d'affichage de la feuille de calcul](./display-tab-of-spreadsheet/) | Découvrez comment afficher l'onglet d'une feuille de calcul à l'aide d'Aspose.Cells pour .NET dans ce guide étape par étape. Maîtrisez facilement l'automatisation d'Excel en C#. |  
 | [Geler les volets d'une feuille de calcul](./freeze-panes-of-worksheet/) | Apprenez à figer des volets dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel complet, accompagné d'instructions étape par étape et de conseils essentiels. |  
 | [Obtenir la largeur et la hauteur du papier de la feuille de calcul](./get-paper-width-and-height-of-worksheet/) | Découvrez comment obtenir la largeur et la hauteur du papier des feuilles de calcul dans Aspose.Cells pour .NET avec un guide simple étape par étape. |  
-| [Feuille de travail pour masquer et afficher](./hide-and-unhide-worksheet/) | Maîtrisez la manipulation des feuilles de calcul Excel avec ce guide complet pour masquer et afficher les feuilles à l'aide d'Aspose.Cells pour .NET. Optimisez la gestion de vos données. |  
+| [Feuille de travail Masquer et afficher](./hide-and-unhide-worksheet/) | Maîtrisez la manipulation des feuilles de calcul Excel avec ce guide complet pour masquer et afficher les feuilles à l'aide d'Aspose.Cells pour .NET. Optimisez la gestion de vos données. |  
 | [Masquer les onglets de la feuille de calcul](./hide-tabs-of-spreadsheet/) | Masquez les onglets d'une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Découvrez comment masquer et afficher par programmation les onglets d'une feuille en quelques étapes simples. |  
 | [Aperçu du saut de page de la feuille de calcul](./page-break-preview-of-worksheet/) | Apprenez à utiliser Aspose.Cells pour .NET pour activer les aperçus de saut de page dans les feuilles de calcul Excel grâce à un didacticiel simple étape par étape. |  
 | [Supprimer les volets de la feuille de calcul](./remove-panes-of-worksheet/) | Découvrez comment supprimer sans effort des volets d'une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET avec notre guide étape par étape. |  

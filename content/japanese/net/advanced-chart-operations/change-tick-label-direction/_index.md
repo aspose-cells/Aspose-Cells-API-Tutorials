@@ -118,7 +118,7 @@ workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
 Console.WriteLine("ChangeTickLabelDirection executed successfully.");
 ```
 
-これにより、確認が行えるだけでなく、プロセスのステータスに関する情報も得られます。 
+これにより、確認だけでなく、プロセスのステータスに関する情報も得られます。 
 
 ## 結論
 

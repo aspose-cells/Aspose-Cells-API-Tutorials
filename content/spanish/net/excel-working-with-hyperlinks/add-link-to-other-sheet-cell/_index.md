@@ -32,7 +32,7 @@ Antes de escribir cualquier código, necesitamos crear un nuevo proyecto C#.
 3. Ponle a tu proyecto un nombre descriptivo como "ExcelLinkDemo".
 4. Agregue una referencia a Aspose.Cells.dll. Puede hacerlo haciendo clic derecho en "Referencias" en el Explorador de soluciones, seleccionando "Agregar referencia" y navegando hasta donde instaló Aspose.Cells.
 ## Paso 2: Defina su directorio de salida
-A continuación, debe especificar dónde desea guardar el archivo de Excel de salida. A continuación, se muestra cómo puede definirlo en su código:
+A continuación, debe especificar dónde desea guardar el archivo de Excel de salida. A continuación, se muestra cómo definirlo en el código:
 ```csharp
 // Directorio de salida para su archivo Excel
 string outputDir = "Your Document Directory"; // Reemplazar con su directorio
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Reemplazar con su directorio
 ## Paso 3: Crear una instancia del objeto de libro de trabajo
 ¡Ya está listo para crear su libro de trabajo de Excel! Aquí es donde se guardarán todas sus hojas y datos.
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Esta línea inicializa un nuevo libro de trabajo en la memoria, lo que le proporciona un lienzo en blanco sobre el cual trabajar.
@@ -49,7 +49,7 @@ Esta línea inicializa un nuevo libro de trabajo en la memoria, lo que le propor
 En Excel, cada libro de trabajo puede contener varias hojas. Agreguemos una a nuestro libro de trabajo.
 ```csharp
 // Agregar una nueva hoja de cálculo al objeto Libro de trabajo
-workbook.Worksheets.Add(); //Agrega una nueva hoja de cálculo en blanco de forma predeterminada
+workbook.Worksheets.Add(); // Agrega una nueva hoja de cálculo en blanco de forma predeterminada
 ```
 Este comando agrega una nueva hoja de trabajo y ahora su libro de trabajo contiene al menos una hoja para que usted pueda manipular.
 ## Paso 5: Acceder a la primera hoja de trabajo

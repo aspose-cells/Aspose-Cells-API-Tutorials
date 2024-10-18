@@ -18,7 +18,7 @@ Zanim zaczniesz kodować, upewnijmy się, że masz wszystko, czego potrzebujesz,
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To jest Twoje główne centrum dla wszystkich prac programistycznych.
 2. Aspose.Cells dla .NET: Musisz pobrać bibliotekę Aspose.Cells i dodać ją do swojego projektu. Możesz ją łatwo pobrać z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza C#: Znajomość programowania C# będzie bardzo pomocna. Jeśli potrafisz obsługiwać zmienne, pętle i podstawowe operacje wejścia/wyjścia plików, poczujesz się jak w domu.
-4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany przy użyciu odpowiedniej wersji .NET Framework, ponieważ biblioteka została zaprojektowana tak, aby była zgodna z tym ekosystemem.
+4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z wykorzystaniem odpowiedniej wersji .NET Framework, ponieważ biblioteka została zaprojektowana tak, aby była zgodna z tym ekosystemem.
 
 Wszystko gotowe? Super, przejdźmy do zabawy!
 
@@ -54,9 +54,9 @@ Najpierw zainicjujmy nasz Workbook i uzyskajmy dostęp do żądanego arkusza. To
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

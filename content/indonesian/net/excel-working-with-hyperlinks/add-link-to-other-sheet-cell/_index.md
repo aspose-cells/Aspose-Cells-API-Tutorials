@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Ganti dengan direktori Anda
 ## Langkah 3: Buat Instansiasi Objek Buku Kerja
 Sekarang Anda siap membuat buku kerja Excel! Di sinilah semua lembar dan data Anda akan berada.
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 Baris ini menginisialisasi buku kerja baru dalam memori, memberi Anda kanvas kosong untuk dikerjakan.
@@ -49,7 +49,7 @@ Baris ini menginisialisasi buku kerja baru dalam memori, memberi Anda kanvas kos
 Di Excel, setiap buku kerja dapat berisi beberapa lembar. Mari tambahkan satu lembar ke buku kerja kita.
 ```csharp
 // Menambahkan lembar kerja baru ke objek Buku Kerja
-workbook.Worksheets.Add(); //Menambahkan lembar kerja kosong baru secara default
+workbook.Worksheets.Add(); // Menambahkan lembar kerja kosong baru secara default
 ```
 Perintah ini menambahkan lembar kerja baru, dan sekarang buku kerja Anda berisi setidaknya satu lembar untuk Anda manipulasi.
 ## Langkah 5: Mengakses Lembar Kerja Pertama
@@ -70,11 +70,11 @@ Dalam perintah ini, kita memberi tahu Excel untuk menjadikan sel “B3” sebaga
 - Indeks lembar yang kami tautkan (1, yang merujuk ke lembar kedua).
 - Sel target yang ingin kita tautkan (sel di "Sheet2").
 ## Langkah 7: Menambahkan Teks Tampilan untuk Hyperlink
-Saat Anda mengeklik hyperlink, Anda ingin teks tampilan menjelaskan ke mana tautan itu mengarah. Di situlah baris berikutnya muncul.
+Saat Anda mengklik hyperlink, Anda ingin teks tampilan menjelaskan ke mana tautan itu mengarah. Di situlah baris berikutnya muncul.
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Link To Other Sheet Cell";
 ```
-Ini akan membuat “Link To Other Sheet Cell” muncul di sel “B3,” yang akan memandu siapa saja yang menggunakan spreadsheet tersebut.
+Ini akan membuat “Link To Other Sheet Cell” muncul di sel “B3,” dan akan memandu siapa saja yang menggunakan spreadsheet tersebut.
 ## Langkah 8: Simpan Buku Kerja Anda
 Setelah semuanya diatur, saatnya menyimpan buku kerja yang baru Anda buat dengan hyperlink yang tertanam.
 ```csharp

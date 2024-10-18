@@ -9,7 +9,7 @@ url: /de/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
 ## Einführung
 
-Sind Sie bereit, die Bereiche eines Excel-Arbeitsblatts mit Aspose.Cells für .NET aufzuteilen? Stellen Sie sich Folgendes vor: Sie haben ein riesiges Excel-Arbeitsblatt und sind es leid, ständig zu den Überschriften zurückzuscrollen, nur um sich daran zu erinnern, mit welcher Spalte Sie arbeiten. Hier kommt „Bereiche aufteilen“ ins Spiel. Mit dieser praktischen Funktion können Sie einen Teil Ihres Arbeitsblatts fixieren, was die Navigation erheblich erleichtert. Egal, ob Sie mit Finanzdaten, Bestandsverwaltung oder riesigen Datensätzen arbeiten, das Aufteilen von Bereichen kann Ihre Produktivität um das Zehnfache steigern. 
+Sind Sie bereit, die Bereiche eines Excel-Arbeitsblatts mit Aspose.Cells für .NET aufzuteilen? Stellen Sie sich Folgendes vor: Sie haben ein riesiges Excel-Arbeitsblatt und sind es leid, ständig zu den Überschriften zurückzuscrollen, nur um sich daran zu erinnern, mit welcher Spalte Sie arbeiten. Hier kommt „Bereiche aufteilen“ ins Spiel. Mit dieser praktischen Funktion können Sie einen Teil Ihres Arbeitsblatts fixieren, was die Navigation erheblich erleichtert. Ganz gleich, ob Sie mit Finanzdaten, Bestandsverwaltung oder riesigen Datensätzen arbeiten, das Aufteilen von Bereichen kann Ihre Produktivität um das Zehnfache steigern. 
 
 ## Voraussetzungen
 
@@ -49,7 +49,7 @@ Workbook book = new Workbook(dataDir + "Book1.xls");
 
 ## Schritt 2: Aktive Zelle festlegen
 
- Nach dem Laden der Arbeitsmappe ist es an der Zeit, die aktive Zelle festzulegen. In Excel ist die aktive Zelle diejenige, die aktuell ausgewählt ist oder im Fokus steht. In diesem Tutorial wählen wir die Zelle`A20` im ersten Arbeitsblatt.
+ Nach dem Laden der Arbeitsmappe ist es an der Zeit, die aktive Zelle festzulegen. In Excel ist die aktive Zelle diejenige, die aktuell ausgewählt oder im Fokus ist. In diesem Tutorial wählen wir die Zelle`A20` im ersten Arbeitsblatt.
 
 Das Festlegen der aktiven Zelle ist entscheidend, da die Teilung der Bereiche von dieser aktiven Zelle aus beginnt. Es ist, als ob Sie entscheiden, wo Sie den ersten Schnitt in eine Pizza machen – suchen Sie sich Ihr Stück aus!
 
@@ -58,20 +58,20 @@ Das Festlegen der aktiven Zelle ist entscheidend, da die Teilung der Bereiche vo
 book.Worksheets[0].ActiveCell = "A20";
 ```
 
- Dieser Code macht`A20` die aktive Zelle. Dies ist wichtig, da die Aufteilung an diesem Punkt erfolgt, so wie Ihre Navigation in Excel häufig auf eine bestimmte Zelle zentriert ist.
+ Dieser Code macht`A20` die aktive Zelle. Dies ist wichtig, da die Aufteilung an diesem Punkt erfolgt, genau wie Ihre Navigation in Excel oft auf eine bestimmte Zelle ausgerichtet ist.
 
 ## Schritt 3: Teilen Sie das Arbeitsblatt
 
 Nachdem die aktive Zelle nun festgelegt ist, kommen wir zum spaßigen Teil – dem Aufteilen des Arbeitsblatts! In diesem Schritt geschieht die Magie. Sie können das Arbeitsblatt zur einfacheren Anzeige und Navigation in mehrere Bereiche aufteilen.
 
-Dies ist der Kern des gesamten Tutorials. Indem Sie das Arbeitsblatt aufteilen, erstellen Sie separate Bereiche, die es Ihnen ermöglichen, durch verschiedene Abschnitte Ihres Excel-Blatts zu blättern, ohne Überschriften oder andere wichtige Bereiche aus den Augen zu verlieren.
+Dies ist der Kern des gesamten Tutorials. Indem Sie das Arbeitsblatt teilen, erstellen Sie separate Bereiche, die es Ihnen ermöglichen, durch verschiedene Abschnitte Ihres Excel-Blatts zu blättern, ohne Überschriften oder andere wichtige Bereiche aus den Augen zu verlieren.
 
 ```csharp
 // Teilen des Arbeitsblattfensters
 book.Worksheets[0].Split();
 ```
 
- Mit dem`Split()` -Methode sagen Sie Aspose.Cells, dass das Arbeitsblatt an der aktiven Zelle geteilt werden soll (`A20` in diesem Fall). Ab diesem Punkt erstellt Excel eine Unterteilung im Blatt, die die Bereiche voneinander trennt, damit Sie unabhängig voneinander navigieren können.
+ Mit dem`Split()` Methode sagen Sie Aspose.Cells, dass das Arbeitsblatt an der aktiven Zelle geteilt werden soll (`A20` in diesem Fall). Ab diesem Punkt erstellt Excel eine Unterteilung im Blatt, die die Bereiche voneinander trennt, damit Sie unabhängig voneinander navigieren können.
 
 ## Schritt 4: Speichern der Arbeitsmappe
 

@@ -39,7 +39,7 @@ using Aspose.Cells;
 
 Cela indique au compilateur que vous souhaitez utiliser la bibliothèque Aspose.Cells et l'espace de noms System pour les fonctionnalités de base.
 
-Décomposons-le en un tutoriel clair, étape par étape, pour que vous puissiez le suivre facilement. Prêt à vous lancer ? C'est parti !
+Décomposons-le en un tutoriel clair, étape par étape, afin que vous puissiez suivre facilement. Prêt à vous lancer ? C'est parti !
 
 ## Étape 1 : Configurez vos répertoires source et de sortie
 
@@ -83,7 +83,7 @@ Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " 
 
  Ici, nous imprimons les résultats sur la console. Vous verrez`True` ou`False`, en fonction des paramètres de chaque feuille de calcul.
 
-## Étape 5 : Terminez le travail
+## Étape 5 : Emballer
 
 Enfin, c'est une bonne habitude de fournir un retour d'information indiquant que votre code a été exécuté avec succès. Ajoutez un message simple à la fin de votre méthode principale :
 

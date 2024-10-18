@@ -32,7 +32,7 @@ Leer hoe u verbluffende 3D-grafieken in Java maakt met Aspose.Cells. Stapsgewijz
 ### [Gegevenslabeling](./data-labeling/)
 Ontgrendel het potentieel van datalabeling met Aspose.Cells voor Java. Leer stapsgewijze technieken.
 ### [Trendlijnanalyse](./trendline-analysis/)
-Leer trendlijnanalyse in Java met Aspose.Cells. Leer datagestuurde inzichten creëren met stapsgewijze instructies en codevoorbeelden.
+Leer Trendline Analysis in Java met Aspose.Cells. Leer datagedreven inzichten te creëren met stapsgewijze instructies en codevoorbeelden.
 ### [Grafiekannotaties](./chart-annotations/)
 Verbeter uw grafieken met grafiekannotaties met Aspose.Cells voor Java - Een stapsgewijze handleiding. Leer hoe u annotaties toevoegt voor informatieve datavisualisatie.
 ### [Grafiekanimatie](./chart-animation/)

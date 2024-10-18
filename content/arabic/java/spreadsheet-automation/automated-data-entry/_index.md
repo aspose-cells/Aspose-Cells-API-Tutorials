@@ -27,7 +27,7 @@ url: /ar/java/spreadsheet-automation/automated-data-entry/
 
 ### 2. تهيئة Aspose.Cells
 
-الآن، دعنا ننشئ تطبيق Java ونقوم بتشغيل Aspose.Cells:
+الآن، دعنا نقوم بإنشاء تطبيق Java ونقوم بتشغيل Aspose.Cells:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -42,7 +42,7 @@ public class DataEntryAutomation {
 
 ### 3. تحميل البيانات ومعالجتها
 
-بعد ذلك، دعنا نقوم بتحميل ملف Excel الموجود والتلاعب ببياناته:
+بعد ذلك، دعنا نحمل ملف Excel الموجود ونقوم بالتلاعب ببياناته:
 
 ```java
 // تحميل ملف Excel

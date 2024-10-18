@@ -25,7 +25,7 @@ url: /zh/net/manipulating-chart-types/modify-line-chart/
 虽然我们会逐步解释所有内容，但对 C# 的基本了解将帮助您顺利完成本教程。
 
 ### 现有的 Excel 文件
-确保准备好带有折线图的 Excel 文件。我们将使用名为`sampleModifyLineChart.xlsx`，所以也要准备好这个。 
+确保准备好包含折线图的 Excel 文件。我们将使用名为`sampleModifyLineChart.xlsx`，所以也要准备好这个。 
 
 ## 导入包
 
@@ -140,7 +140,7 @@ Console.WriteLine("ModifyLineChart executed successfully.");
 
 ## 结论 
 
-使用 Aspose.Cells for .NET 修改折线图并不一定是一项艰巨的任务。正如我们所见，通过遵循这些简单的步骤，您可以添加数据系列、自定义视觉效果并创建动态图表来讲述数据背后的故事。这不仅可以增强您的演示效果，还可以增强理解。那么为什么要等呢？立即开始尝试使用图表并成为数据可视化大师！
+使用 Aspose.Cells for .NET 修改折线图并不一定是一项艰巨的任务。正如我们所见，通过遵循这些简单的步骤，您可以添加数据系列、自定义视觉效果并创建动态图表来讲述数据背后的故事。这不仅可以增强您的演示效果，还可以增强理解。那么为什么要等呢？立即开始尝试图表并成为数据可视化大师！
 
 ## 常见问题解答
 

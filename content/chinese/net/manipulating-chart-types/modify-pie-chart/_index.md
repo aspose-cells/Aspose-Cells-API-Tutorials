@@ -18,7 +18,7 @@ url: /zh/net/manipulating-chart-types/modify-pie-chart/
 - C# 基础知识：对 C# 编程的基本了解将帮助您轻松跟上。
 - Aspose.Cells for .NET：您需要安装 Aspose.Cells 库。无论您决定使用完整版还是选择免费试用版，请确保它已准备就绪。
 - Visual Studio 或任何 C# IDE：您需要一个环境来编写和执行您的 C# 代码。
--  Excel 示例文件：对于本教程，请使用名为`sampleModifyPieChart.xlsx`将被使用。
+-  Excel 示例文件：对于本教程，名为的示例 Excel 文件`sampleModifyPieChart.xlsx`将被使用。
 
 您可以下载 Aspose.Cells 库[这里](https://releases.aspose.com/cells/net/).
 
@@ -100,7 +100,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
-通过访问`Worksheets`集合，我们就可以得到我们需要的具体工作表。
+通过访问`Worksheets`集合，我们就可以得到我们需要的特定工作表。
 
 ## 步骤 4：获取图表
 
@@ -110,7 +110,7 @@ Worksheet sheet = workbook.Worksheets[1];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
 
-在这里，我们从指定的工作表中抓取第一个图表。
+这里，我们从指定的工作表中抓取第一个图表。
 
 ## 步骤 5：访问数据标签
 

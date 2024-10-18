@@ -83,7 +83,7 @@ workbook.ContentTypeProperties[index].IsNillable = true;
 
 ## ステップ4: ワークブックを保存する
 
-コンテンツ タイプのプロパティを追加したので、先ほど設定した出力ディレクトリにワークブックを保存しましょう。 
+コンテンツ タイプのプロパティを追加したので、先ほど設定した出力ディレクトリにブックを保存しましょう。 
 
 ```csharp
 workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
@@ -111,7 +111,7 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 Aspose.Cells for .NET は、.NET アプリケーションで Excel ファイルを作成、操作、変換するための強力なライブラリです。
 
 ### Aspose.Cells を他のファイル形式で使用できますか?
-はい! Aspose.Cells は、XLS、XLSX、CSV など、さまざまな形式をサポートしています。
+はい！Aspose.Cells は、XLS、XLSX、CSV など、さまざまな形式をサポートしています。
 
 ### Aspose.Cells の無料トライアルを入手するにはどうすればよいですか?
 無料トライアルは以下からダウンロードできます。[サイト](https://releases.aspose.com/).

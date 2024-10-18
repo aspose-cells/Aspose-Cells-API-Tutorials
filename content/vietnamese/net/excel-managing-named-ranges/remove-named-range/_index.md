@@ -120,7 +120,7 @@ Chúng tôi đang thêm đường viền màu xanh navy trung bình xung quanh s
 Tiếp theo, chúng ta có thể điền một số dữ liệu vào ô để nó hoạt động.
 
 ```csharp
-// Nhập một số dữ liệu có định dạng vào một số ô trong phạm vi.
+// Nhập một số dữ liệu với một số định dạng vào một số ô trong phạm vi.
 range1[0, 0].PutValue("Test");            
 range1[0, 4].PutValue(123);
 ```
@@ -154,7 +154,7 @@ Với bước này, chúng ta đã sao chép dữ liệu từ "FirstRange" thàn
 
 ## Bước 10: Xóa phạm vi được đặt tên
 
-Bây giờ là phần nổi bật của hướng dẫn: xóa phạm vi được đặt tên. Đây là nơi mọi thứ kết hợp lại với nhau.
+Bây giờ đến phần nổi bật của hướng dẫn của chúng tôi: xóa phạm vi được đặt tên. Đây là nơi mọi thứ kết hợp lại với nhau.
 
 ```csharp
 // Xóa phạm vi được đặt tên trước đó (range1) cùng với nội dung của nó.
@@ -182,7 +182,7 @@ Cuối cùng nhưng không kém phần quan trọng, hãy lưu lại công việ
 workbook.Save(outputDir + "outputRemoveNamedRange.xlsx");
 ```
 
-Lệnh này lưu sổ làm việc của bạn với những thay đổi chúng ta đã thực hiện—đây là nơi lưu giữ toàn bộ công sức của bạn!
+Lệnh này lưu sổ làm việc của bạn với những thay đổi chúng ta đã thực hiện—đây là nơi lưu giữ mọi công sức của bạn!
 
 ## Bước 13: Xác nhận thực hiện thành công
 
@@ -201,7 +201,7 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách thao tác cá
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện .NET được thiết kế để xử lý các tệp Excel theo cách lập trình.
+Aspose.Cells là một thư viện .NET được thiết kế để xử lý các tệp Excel theo chương trình.
 
 ### Tôi có thể xóa nhiều phạm vi được đặt tên cùng một lúc không?
 Có, bạn có thể lặp qua bộ sưu tập các phạm vi được đặt tên và xóa chúng khi cần.

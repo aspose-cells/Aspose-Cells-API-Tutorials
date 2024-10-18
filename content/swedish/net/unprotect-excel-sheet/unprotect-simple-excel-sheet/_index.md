@@ -9,7 +9,7 @@ url: /sv/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
 ---
 ## Introduktion
 
-Excel-filer är en stapelvara i företags- och personlig datahantering, vilket gör att användare kan organisera och analysera sin information effektivt. Men ibland stöter vi på ett låst Excel-ark, vilket gör att vi kliar oss i huvudet - speciellt när vi glömmer lösenordet. Tack och lov erbjuder Aspose.Cells-biblioteket för .NET en utmärkt lösning för att enkelt avskydda enkla Excel-ark. I den här guiden går vi igenom stegen som behövs för att avskydda ett Excel-kalkylblad, spara ditt arbete och återgå till att behandla dina data smidigt. Så om du är redo att återta kontrollen över dina kalkylark, låt oss börja!
+Excel-filer är en häftklammer i affärs- och personlig datahantering, vilket gör det möjligt för användare att organisera och analysera sin information effektivt. Men ibland stöter vi på ett låst Excel-ark, vilket gör att vi kliar oss i huvudet - speciellt när vi glömmer lösenordet. Tack och lov erbjuder Aspose.Cells-biblioteket för .NET en utmärkt lösning för att enkelt avskydda enkla Excel-ark. I den här guiden går vi igenom stegen som behövs för att avskydda ett Excel-kalkylblad, spara ditt arbete och återgå till att behandla dina data smidigt. Så om du är redo att återta kontrollen över dina kalkylark, låt oss börja!
 
 ## Förutsättningar
 
@@ -27,7 +27,7 @@ Nu när vi har allt i ordning, låt oss snabbt ställa in vår miljö. För att 
 
 ### Konfigurera ditt projekt
 
- Öppna din Visual Studio och skapa ett nytt C#-projekt. I den`Solution Explorer` , högerklicka på ditt projekt och välj Lägg till nytt objekt... Välj C# Class och namnge det på lämpligt sätt (till exempel,`ExcelUnprotector.cs`).
+ Öppna din Visual Studio och skapa ett nytt C#-projekt. I den`Solution Explorer` , högerklicka på ditt projekt och välj Lägg till nytt objekt... Välj C#-klass och namnge det på lämpligt sätt (till exempel,`ExcelUnprotector.cs`).
 
 ### Installera Aspose.Cells
 

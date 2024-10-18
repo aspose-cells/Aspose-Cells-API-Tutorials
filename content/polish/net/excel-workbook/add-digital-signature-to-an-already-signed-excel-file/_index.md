@@ -106,7 +106,7 @@ Teraz czas dodać kolekcję podpisów cyfrowych do skoroszytu. To tutaj dzieje s
 workbook.AddDigitalSignature(dsCollection);
 ```
 
-Wykonując tę linię, skutecznie dołączasz nowy podpis cyfrowy do już podpisanego skoroszytu.
+Wykonując tę linię, de facto dołączasz nowy podpis cyfrowy do już podpisanego skoroszytu.
 
 ## Krok 7: Zapisz i usuń skoroszyt
 
@@ -128,7 +128,7 @@ Podsumowując, dobrym pomysłem jest potwierdzenie, że kod został wykonany pom
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
-W ten sposób otrzymasz informację zwrotną, że operacja zakończyła się sukcesem, a to zawsze miło zobaczyć!
+Dzięki temu otrzymasz informację zwrotną, że operacja zakończyła się sukcesem, a to zawsze miło zobaczyć!
 
 ## Wniosek
 

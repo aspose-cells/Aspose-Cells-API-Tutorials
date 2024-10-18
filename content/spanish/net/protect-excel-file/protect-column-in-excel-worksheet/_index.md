@@ -13,7 +13,7 @@ Administrar datos en hojas de cálculo de Excel puede parecer como navegar por u
 
 ## Prerrequisitos
 
-Antes de embarcarnos en este viaje de protección de datos, hay algunas cosas que necesitarás saber:
+Antes de embarcarnos en este viaje de protección de datos, hay algunas cosas que necesitarás hacer:
 
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu computadora. Es un entorno amigable para el desarrollo de .NET.
 2.  Biblioteca Aspose.Cells: Necesitará la biblioteca Aspose.Cells para .NET. Si aún no la ha instalado, puede obtenerla desde[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/net/).
@@ -51,7 +51,7 @@ Lo primero es lo primero: necesitas un lugar donde guardar tu archivo de Excel. 
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crear directorio si aún no está presente.
+//Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -151,7 +151,7 @@ Este comando bloquea la hoja y garantiza que nadie pueda editar nada a menos que
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
-Esta línea guarda el libro de trabajo en el directorio especificado. ¡Asegúrese de ponerle un nombre fácil de recordar al archivo!
+Esta línea guarda el libro de trabajo en el directorio especificado. ¡Asegúrese de darle un nombre fácil de recordar al archivo!
 
 ## Conclusión
 

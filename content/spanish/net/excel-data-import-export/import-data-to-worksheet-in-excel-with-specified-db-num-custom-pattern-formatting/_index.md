@@ -16,7 +16,7 @@ Cuando se trata de manipular hojas de cálculo, importar datos a Excel y formate
 Antes de entrar en materia, asegurémonos de que tienes todo lo que necesitas. Aquí tienes una lista rápida de requisitos previos para prepararte para el éxito:
 
 1. .NET Framework: asegúrese de tener instalado .NET Framework en su equipo. Aspose.Cells funciona sin problemas con varias versiones de .NET.
-2.  Aspose.Cells para .NET: deberá descargar e instalar la biblioteca Aspose.Cells. Puede descargarla desde el sitio web[enlace de descarga](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells para .NET: deberá descargar e instalar la biblioteca Aspose.Cells. Puede descargarla desde el sitio web[enlace de descarga](https://releases.aspose.com/cells/net/).
 3. Entorno de desarrollo integrado (IDE): utilice un IDE como Visual Studio donde pueda escribir y ejecutar su código C#.
 4. Conocimientos básicos de C#: tener un conocimiento básico de C# le ayudará a seguir las prácticas de codificación que usaremos en esta guía.
 
@@ -32,7 +32,7 @@ Para trabajar de manera eficaz con Aspose.Cells, debe importar los espacios de n
 
 ### Referencia Aspose.Cells
 
-Debe incluir la biblioteca Aspose.Cells en su proyecto. Haga clic con el botón derecho en su proyecto en el Explorador de soluciones y seleccione "Agregar referencia". Busque la ubicación donde instaló Aspose.Cells y selecciónela.
+Debes incluir la biblioteca Aspose.Cells en tu proyecto. Haz clic derecho en tu proyecto en el Explorador de soluciones y selecciona "Agregar referencia". Busca la ubicación donde instalaste Aspose.Cells y selecciónala.
 
 ### Importar espacios de nombres necesarios
 
@@ -49,7 +49,7 @@ Esta simple línea es su puerta de entrada a toda la funcionalidad que Aspose.Ce
 
 Ahora que cubrimos todos los requisitos previos y hemos importado los paquetes necesarios, profundicemos en el proceso paso a paso de importación de datos a Excel y aplicación del formato de patrón numérico de base de datos personalizado. Lo haremos de manera metódica para garantizar la claridad y la comprensión.
 
-## Paso 1: Establezca el directorio de datos
+## Paso 1: Establecer el directorio de datos
 
 En primer lugar, debe especificar la ruta del directorio de documentos donde se guardará el resultado. Ajústelo según la estructura de su archivo.
 
@@ -67,7 +67,7 @@ A continuación, creará un nuevo libro de trabajo, que es esencialmente su arch
 Workbook wb = new Workbook();
 ```
 
-Aquí, estamos creando una nueva instancia`Workbook` objeto. ¡Éste es tu lienzo en blanco!
+ Aquí, estamos instanciando una nueva`Workbook` objeto. ¡Éste es tu lienzo en blanco!
 
 ## Paso 3: Acceda a la primera hoja de trabajo
 
@@ -108,7 +108,7 @@ Aquí es donde ocurre la magia. Puedes especificar un patrón de formato persona
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Esta línea le dice a Excel que formatee el número`123` según el patrón DBNum correspondiente al idioma chino. Bastante interesante, ¿verdad?
+ Esta línea le dice a Excel que formatee el número`123` según el patrón DBNum correspondiente al idioma chino. Bastante interesante, ¿verdad?
 
 ## Paso 7: Establezca el estilo de celda actualizado
 
@@ -142,7 +142,7 @@ wb.Save(dataDir + "outputDBNumCustomFormatting.pdf", SaveFormat.Pdf);
 
 ## Conclusión
 
-¡Y ya está! Importó correctamente los datos a Excel, aplicó el formato DB Num personalizado y los guardó en formato PDF. Con Aspose.Cells para .NET, este proceso no solo se vuelve más fácil, sino también mucho más flexible y potente. Ya no tendrá que lidiar con las opciones de formato integradas de Excel: ¡ahora tiene una línea de control directa a través del código!
+¡Y ya está! Importó correctamente los datos a Excel, aplicó el formato DB Num personalizado y los guardó en formato PDF. Con Aspose.Cells para .NET, este proceso no solo se vuelve más sencillo, sino también mucho más flexible y potente. Ya no tendrá que lidiar con las opciones de formato integradas de Excel: ¡ahora tiene una línea de control directa a través del código!
 
 Ya sea que esté preparando informes de datos o creando estados financieros, aprovechar el poder de Aspose.Cells elevará su capacidad para trabajar con hojas de cálculo a un nivel completamente nuevo. ¿Entonces, qué está esperando? ¡Sumérjase en sus proyectos con confianza y deje que sus datos brillen!
 

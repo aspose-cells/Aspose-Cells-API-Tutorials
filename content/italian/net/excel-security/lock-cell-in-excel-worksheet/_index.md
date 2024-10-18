@@ -103,7 +103,7 @@ Il blocco delle celle in un foglio di lavoro Excel tramite Aspose.Cells per .NET
 Sì, è possibile bloccare più celle applicando la proprietà di blocco a una matrice di riferimenti di celle.
 
 ### Per bloccare il cellulare è necessaria una password?
-No, il blocco delle celle non richiede una password; tuttavia, è possibile aggiungere una protezione tramite password quando si protegge il foglio di lavoro per aumentare la sicurezza.
+No, il blocco delle celle non richiede una password; tuttavia, è possibile aggiungere una protezione tramite password quando si protegge il foglio di lavoro per aumentarne la sicurezza.
 
 ### Cosa succede se dimentico la password di un foglio di lavoro protetto?
 Se dimentichi la password, non potrai più rimuovere la protezione dal foglio di lavoro, quindi è fondamentale conservarla al sicuro.

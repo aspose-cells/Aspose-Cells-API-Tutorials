@@ -20,7 +20,7 @@ Trước khi bắt đầu tạo mẫu biểu đồ tùy chỉnh, hãy cùng làm
 
 Để làm theo hướng dẫn này, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 -  Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 
 ## Tạo mẫu biểu đồ tùy chỉnh

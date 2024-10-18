@@ -66,7 +66,7 @@ workbook.save("output.json", jsonSaveOptions);
 ### 我可以自定义 JSON 输出格式吗？
    是的，您可以使用 Aspose.Cells for Java 的 JsonSaveOptions 提供的选项自定义 JSON 输出格式。
 
-### 是否有 Aspose.Cells for Java 的试用版？
+### 是否有适用于 Java 的 Aspose.Cells 试用版？
    是的，您可以从他们的网站下载 Aspose.Cells for Java 的试用版来评估其功能。
 
 欢迎随意探索使用 Aspose.Cells for Java 的更多可能性来增强您的数据处理能力。

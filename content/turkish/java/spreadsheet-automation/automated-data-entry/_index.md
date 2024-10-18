@@ -99,7 +99,7 @@ Aspose.Cells for Java ile veri girişini otomatikleştirmek, veri yönetimi sür
 ### Farklı dosya formatlarından veri girişini otomatikleştirebilir miyim?
    Kesinlikle. Aspose.Cells, CSV, veritabanları ve daha fazlası dahil olmak üzere çeşitli kaynaklardan veri içe aktarmayı destekler.
 
-### Aspose.Cells for Java için herhangi bir lisanslama gereksinimi var mı?
+### Java için Aspose.Cells için herhangi bir lisanslama gereksinimi var mı?
    Evet, projelerinizde Aspose.Cells for Java'yı kullanmak için geçerli bir lisansa ihtiyacınız olacak.
 
 ### Excel dosyalarında veri doğrulamayı nasıl yapabilirim?

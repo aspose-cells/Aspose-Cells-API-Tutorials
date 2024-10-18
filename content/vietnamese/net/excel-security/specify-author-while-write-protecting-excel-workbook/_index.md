@@ -45,7 +45,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR SOURCE DIRECTORY"` Và`"YOUR OUTPUT DIRECTORY"` với các đường dẫn thực tế trên máy của bạn. Hãy nghĩ về điều này như việc tạo ra một không gian làm việc gọn gàng trước khi bạn bắt đầu tạo ra kiệt tác của mình!
+ Hãy chắc chắn thay thế`"YOUR SOURCE DIRECTORY"` Và`"YOUR OUTPUT DIRECTORY"` với các đường dẫn thực tế trên máy của bạn. Hãy nghĩ về điều này như việc tạo ra một không gian làm việc gọn gàng trước khi bạn bắt đầu chế tác kiệt tác của mình!
 
 ## Bước 2: Tạo một Workbook trống
 
@@ -56,7 +56,7 @@ Bây giờ chúng ta đã thiết lập xong các thư mục, bước tiếp the
 Workbook wb = new Workbook();
 ```
 
-Giống như một nghệ sĩ bắt đầu với một tấm vải trắng, bạn cũng bắt đầu với một bảng tính trống, nơi bạn có thể thêm dữ liệu hoặc định dạng sau đó.
+Giống như một nghệ sĩ bắt đầu với một tờ giấy trắng, bạn cũng bắt đầu với một bảng tính trống, nơi bạn có thể thêm dữ liệu hoặc định dạng sau đó.
 
 ## Bước 3: Viết Bảo vệ Sổ làm việc
 
@@ -67,7 +67,7 @@ Bảo vệ ghi là một khía cạnh quan trọng, đặc biệt nếu bạn mu
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
- Trong dòng này, thay thế`"YOUR_PASSWORD"` với mật khẩu mạnh do bạn chọn. Mật khẩu này hoạt động như một cánh cửa bị khóa—chỉ những người có chìa khóa (mật khẩu) mới có thể vào.
+ Trong dòng này, thay thế`"YOUR_PASSWORD"` với mật khẩu mạnh do bạn chọn. Mật khẩu này hoạt động giống như một cánh cửa bị khóa—chỉ những người có chìa khóa (mật khẩu) mới có thể vào.
 
 ## Bước 4: Chỉ định tác giả
 

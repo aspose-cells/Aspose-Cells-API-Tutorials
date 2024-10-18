@@ -15,7 +15,7 @@ Zanim zaczniemy brudzić sobie ręce kodem, jest kilka rzeczy, które musisz mie
 ### Czego potrzebujesz:
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To nasze IDE do programowania w C#.
 2. .NET Framework: Ten samouczek skupia się na aplikacjach .NET, dlatego upewnij się, że masz .NET Framework w wersji 4.0 lub nowszej.
-3. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) Nowi użytkownicy powinni rozważyć rozpoczęcie od[bezpłatny okres próbny](https://releases.aspose.com/).
+3. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) . Nowi użytkownicy powinni rozważyć rozpoczęcie od[bezpłatny okres próbny](https://releases.aspose.com/).
 4. Podstawowa wiedza o C#: Nieco znajomości C# ułatwi tę podróż. Nie martw się, jeśli jesteś nowicjuszem; poprowadzę cię krok po kroku!
 Mając to na uwadze, czas zakasać rękawy i wziąć się do pracy!
 ## Importuj pakiety
@@ -45,7 +45,7 @@ W tym kroku utworzymy nowy skoroszyt. Skoroszyt to zasadniczo cały plik Excela.
 Workbook wb = new Workbook();
 ```
 Ta linijka kodu inicjuje nową instancję skoroszytu, dzięki czemu możemy zacząć pracę od nowa.
-## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 2: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Następnie musimy dostać się do konkretnego arkusza kalkulacyjnego w skoroszycie. Domyślnie Excel daje nam jeden arkusz kalkulacyjny — zgadłeś — pierwszy!
 ```csharp
 // Otwórz pierwszy arkusz kalkulacyjny.
@@ -121,4 +121,4 @@ Tak, istnieją alternatywne biblioteki, takie jak EPPlus i ClosedXML, ale Aspose
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?  
  Możesz sprawdzić[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
- Aby uzyskać pomoc lub zadać pytania, odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/cells/9)gdzie możesz znaleźć pomoc od społeczności i zespołu wsparcia.
+ W celu uzyskania pomocy lub przesłania zapytania odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/cells/9)gdzie możesz znaleźć pomoc od społeczności i zespołu wsparcia.

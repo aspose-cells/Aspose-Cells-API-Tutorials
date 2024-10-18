@@ -98,7 +98,7 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ## 常见问题解答
 
 ### 我可以自定义写保护密码吗？  
-是的，您可以根据需要自定义密码。只需替换`YOUR_PASSWORD`输入您想要的密码。
+是的，您可以根据需要自定义密码。只需替换`YOUR_PASSWORD`使用您想要的密码。
 
 ### Aspose.Cells 可以免费使用吗？  
 Aspose.Cells 是一个付费库，但您可以免费试用一段时间。请访问[免费试用链接](https://releases.aspose.com/)开始吧。
@@ -110,4 +110,4 @@ Aspose.Cells 是一个付费库，但您可以免费试用一段时间。请访�
 当然！Aspose.Cells 可以在使用 .NET 的桌面和 Web 应用程序中无缝运行。
 
 ### 如果我需要支持该怎么办？  
-对于问题和故障排除，Aspose 社区非常有帮助。您可以访问他们的[支持论坛](https://forum.aspose.com/c/cells/9)寻求帮助。
+对于问题和疑难解答，Aspose 社区非常有帮助。您可以访问他们的[支持论坛](https://forum.aspose.com/c/cells/9)寻求帮助。

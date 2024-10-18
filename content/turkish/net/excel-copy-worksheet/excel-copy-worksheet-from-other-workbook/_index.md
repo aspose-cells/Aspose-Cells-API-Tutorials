@@ -1,6 +1,6 @@
 ---
-title: Excel Çalışma Sayfasını Başka Bir Çalışma Kitabından Kopyala
-linktitle: Excel Çalışma Sayfasını Başka Bir Çalışma Kitabından Kopyala
+title: Excel Çalışma Sayfasını Diğer Çalışma Kitabından Kopyala
+linktitle: Excel Çalışma Sayfasını Diğer Çalışma Kitabından Kopyala
 second_title: Aspose.Cells for .NET API Başvurusu
 description: Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak bir çalışma sayfasını bir Excel çalışma kitabından diğerine nasıl kopyalayacağınızı öğrenin.
 type: docs
@@ -13,7 +13,7 @@ Hiç kendinizi birden fazla Excel çalışma kitabıyla boğuşurken, verilerini
 
 ## Ön koşullar
 
-Kodlama kısmına dalmadan önce, ihtiyacınız olan her şeyi sıralayalım. Endişelenmeyin; bu roket bilimi değil! İhtiyacınız olanlar şunlar:
+Kodlama kısmına dalmadan önce, ihtiyacınız olan her şeyi sıralayalım. Endişelenmeyin; bu roket bilimi değil! İhtiyacınız olacak şeyler şunlar:
 
 1. Visual Studio (veya herhangi bir .NET IDE): Makinenizde bir .NET geliştirme ortamı kurulu olmalıdır.
 2.  .NET için Aspose.Cells: Aspose.Cells'i indirip yüklemeniz gerekecek. Eğer henüz yoksa, edinebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
@@ -48,7 +48,7 @@ Artık her şey hazır olduğuna göre, heyecan verici kısma geçelim: Çalış
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";  // Bunu gerçek dizininize güncelleyin
 ```
- The`dataDir` değişkeni, son Excel dosyasını kaydedeceğiniz yolu depolayacaktır. "BELGE DİZİNİNİZİ" sisteminizdeki gerçek yolla değiştirdiğinizden emin olun.
+ The`dataDir` değişkeni, son Excel dosyasını kaydedeceğiniz yolu depolayacaktır. "BELGE DİZİNİNİZ"i sisteminizdeki gerçek yolla değiştirdiğinizden emin olun.
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun ve Verilerle Doldurun
 
@@ -95,7 +95,7 @@ pagesetup.PrintTitleRows = "$1:$5";
 Workbook excelWorkbook1 = new Workbook();
 // Kitaptaki ilk çalışma sayfasını alın
 Worksheet ws1 = excelWorkbook1.Worksheets[0];
-// Çalışma sayfasının adını verin
+// Çalışma sayfasına isim verin
 ws1.Name = "MySheet";
 ```
 Yeni bir çalışma kitabı oluşturduk (`excelWorkbook1`) ve ilk çalışma sayfasının adını "MySheet" olarak değiştirdim. Sayfalarınıza daha sonra daha kolay erişim için anlamlı isimler vermek her zaman iyi bir fikirdir.
@@ -123,7 +123,7 @@ Bu satır ikinci çalışma kitabınızı belirtilen yola kaydedecektir. Kodunuz
 
 ## Çözüm
 
-Ve işte karşınızda! Aspose.Cells for .NET kullanarak bir çalışma kitabını bir çalışma kitabından diğerine kopyalamayı başarıyla öğrendiniz. Özellikle farklı dosyalara yayılmış büyük miktarda veriyle uğraşırken sahip olunması inanılmaz derecede kullanışlı bir beceridir. Sadece birkaç satır kodla Excel verilerinizi çok daha rahat bir şekilde düzenleyebilir, yönetebilir ve erişebilirsiniz.
+Ve işte oldu! Aspose.Cells for .NET kullanarak bir çalışma kitabını bir çalışma kitabından diğerine kopyalamayı başarıyla öğrendiniz. Özellikle farklı dosyalara yayılmış büyük miktarda veriyle uğraşırken sahip olunması inanılmaz derecede kullanışlı bir beceridir. Sadece birkaç satır kodla Excel verilerinizi çok daha rahat bir şekilde düzenleyebilir, yönetebilir ve erişebilirsiniz.
 
 ## SSS
 
@@ -137,7 +137,7 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını çeşitli formatlarda oluşt
  Geçici lisans talebinde bulunmak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?  
-Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+ Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells kullanıcıları için herhangi bir destek mevcut mu?  
  Kesinlikle! Destek alabilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9).

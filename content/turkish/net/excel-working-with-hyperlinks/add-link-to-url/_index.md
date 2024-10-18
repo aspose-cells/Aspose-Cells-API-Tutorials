@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Yolunuzu değiştirin
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
  Burada, bir örnek oluşturacağız`Workbook` sınıf. Bir çalışma kitabını elektronik tablonuz için boş bir tuval olarak düşünün.
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 Bu aşamada esasen şunu söylemiş oluyorsunuz: "Hey, Aspose, yeni bir Excel dosyası oluşturalım!"
@@ -62,7 +62,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 // "B4" hücresindeki bir URL'ye köprü metni ekleme
 worksheet.Hyperlinks.Add("B4", 1, 1, "https://www.aspose.com");
 ```
-Bunu kısaca açıklamak gerekirse:
+Bunu parçalara ayırmak gerekirse:
 - `"B4"`: Bu, köprü metninin görüneceği hücredir.
 - `1, 1`: Bu tam sayılar satır ve sütun indeksine karşılık gelir (indekslerin sıfırdan başladığını unutmayın).
 - URL, basitçe bağlantınızın yönlendirdiği yerdir.
@@ -71,15 +71,15 @@ Bunu kısaca açıklamak gerekirse:
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Aspose - File Format APIs";
 ```
-Bu satır Excel'e ham URL'yi göstermek yerine "Aspose - Dosya Biçimi API'leri"ni göstermesini söyler. Çok daha temiz, değil mi?
+Bu satır Excel'e ham URL'yi göstermek yerine "Aspose - Dosya Biçimi API'leri"ni görüntülemesini söyler. Çok daha temiz, değil mi?
 ## Adım 6: Çalışma Kitabını Kaydedin
-Son olarak, yeni oluşturduğumuz Excel çalışma kitabımızı kaydedeceğiz. Tüm sıkı çalışmanızın karşılığını burada alacaksınız!
+Son olarak, yeni oluşturduğumuz Excel çalışma kitabımızı kaydedeceğiz. İşte tüm sıkı çalışmanızın karşılığını alacağınız yer burası!
 ```csharp
 // Excel dosyasını kaydetme
 workbook.Save(outputDir + "outputAddingLinkToURL.xlsx");
 ```
 Artık belirttiğiniz dizinde yeni bir Excel dosyası görmelisiniz!
-## Adım 7: Yürütmeyi Onaylayın
+## Adım 7: Uygulamayı Onaylayın
 İsteğe bağlı olarak, her şeyin yolunda gittiğini doğrulamak için bir konsol mesajı eklemek isteyebilirsiniz.
 ```csharp
 Console.WriteLine("AddingLinkToURL executed successfully.");
@@ -92,7 +92,7 @@ Bu eğitimde bana katıldığınız için teşekkürler. Sorularınız varsa vey
 ### Bir çalışma sayfasına birden fazla köprü metni ekleyebilir miyim?  
 Evet! Farklı hücreler için köprü ekleme adımlarını tekrarlayarak ihtiyacınız kadar köprü ekleyebilirsiniz.
 ### Aspose.Cells'i kullanmak için satın almam gerekiyor mu?  
- Deneme sürümüyle ücretsiz deneyebilirsiniz.[Aspose'un indirme sayfası](https://releases.aspose.com/) Eğer faydalı bulursanız, buradan satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ Deneme sürümüyle ücretsiz olarak deneyebilirsiniz.[Aspose'un indirme sayfası](https://releases.aspose.com/) Eğer faydalı bulursanız, buradan satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
 ### Aspose.Cells kullanmanın faydaları nelerdir?  
 Aspose.Cells, Excel dosyalarını oluşturmak, düzenlemek ve dönüştürmek için güçlü bir özellik seti sunarak geliştiriciler arasında popüler bir seçim haline gelmiştir.
 ### Köprü metninin görünümünü özelleştirebilir miyim?  

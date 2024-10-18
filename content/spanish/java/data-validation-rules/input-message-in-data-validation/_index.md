@@ -30,7 +30,7 @@ Para utilizar Aspose.Cells para Java en su proyecto, debe agregar la biblioteca 
 
 ## Cómo agregar validación de datos a una hoja de cálculo
 
-Ahora que ya tiene configurado el proyecto, comencemos a agregar la validación de datos a una hoja de cálculo. Primero, cree un nuevo libro de Excel y una hoja de cálculo.
+Ahora que tiene configurado su proyecto, comencemos a agregar la validación de datos a una hoja de cálculo. Primero, cree un nuevo libro de Excel y una hoja de cálculo.
 
 ```java
 // Crear un nuevo libro de trabajo

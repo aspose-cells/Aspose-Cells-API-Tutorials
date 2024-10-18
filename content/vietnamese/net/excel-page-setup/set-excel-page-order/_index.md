@@ -103,7 +103,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn vừa học được cách thiết lập thứ tự trang trong Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể tùy chỉnh cách in tài liệu Excel của mình, giúp chúng dễ theo dõi và hấp dẫn về mặt thị giác. Chức năng này rất hữu ích, đặc biệt là khi xử lý các tập dữ liệu lớn, nơi thứ tự trang có thể ảnh hưởng đáng kể đến khả năng đọc. 
+Xin chúc mừng! Bạn vừa học cách thiết lập thứ tự trang trong Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể tùy chỉnh cách in tài liệu Excel của mình, giúp chúng dễ theo dõi và hấp dẫn về mặt trực quan. Chức năng này rất hữu ích, đặc biệt là khi xử lý các tập dữ liệu lớn, nơi thứ tự trang có thể ảnh hưởng đáng kể đến khả năng đọc. 
 
 ## Câu hỏi thường gặp
 

@@ -41,7 +41,7 @@ Hãy cùng khám phá quy trình bảo vệ các ô cụ thể trong bảng tín
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo thư mục nếu thư mục đó chưa có.
+//Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -56,7 +56,7 @@ Tiếp theo, hãy tạo một bảng tính mới để làm việc.
 // Tạo một bảng tính mới.
 Workbook wb = new Workbook();
 ```
- Chúng tôi đã tạo ra một cái mới`Workbook` đối tượng. Hãy nghĩ về điều này như một bức tranh trắng nơi bạn sẽ tô màu cho dữ liệu của mình.
+ Chúng tôi đã tạo ra một cái mới`Workbook` đối tượng. Hãy nghĩ về điều này như một bức tranh vải trắng nơi bạn sẽ tô màu cho dữ liệu của mình.
 
 ## Bước 3: Truy cập vào Bảng tính
 

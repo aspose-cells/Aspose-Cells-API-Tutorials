@@ -18,7 +18,7 @@ Trước khi đi sâu vào phần lập trình, hãy đảm bảo rằng bạn �
 1. .NET Framework: Đảm bảo bạn đã thiết lập môi trường .NET. Cho dù là .NET Core hay .NET Framework, bạn đều có thể sử dụng.
 2.  Thư viện Aspose.Cells: Thư viện này là chìa khóa để bạn mở khóa các thao tác bảng tính mạnh mẽ. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. IDE: Sử dụng Môi trường phát triển tích hợp (IDE) yêu thích của bạn như Visual Studio, giúp trải nghiệm viết mã của bạn mượt mà hơn nhiều.
-4. Kiến thức lập trình cơ bản: Sự quen thuộc với C# và các khái niệm về biểu thức chính quy sẽ rất có lợi.
+4. Kiến thức lập trình cơ bản: Sự quen thuộc với C# và các khái niệm về biểu thức chính quy sẽ có lợi.
 
 ## Thiết lập môi trường
 
@@ -77,7 +77,7 @@ replace.RegexKey = true; // Chỉ rõ rằng chúng tôi đang sử dụng regex
 ```
 
 Trong cấu hình này:
-- `CaseSensitive` được thiết lập để`false`nghĩa là tìm kiếm "KIM" của chúng tôi sẽ bỏ qua chữ hoa hay chữ thường.
+- `CaseSensitive` được thiết lập để`false`nghĩa là tìm kiếm "KIM" của chúng ta sẽ bỏ qua chữ hoa hay chữ thường.
 - `MatchEntireCellContents` được thiết lập để`false` vì vậy chúng ta có thể thay thế một phần nội dung của tế bào.
 - `RegexKey` được thiết lập để`true` để chỉ ra rằng chúng tôi sẽ sử dụng biểu thức chính quy cho tìm kiếm của mình.
 
@@ -90,7 +90,7 @@ workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 ```
 
 Trong dòng này:
-- `\\b` biểu thị ranh giới từ trong biểu thức chính quy, đảm bảo chúng ta chỉ thay thế "KIM" khi nó xuất hiện dưới dạng một từ hoàn chỉnh chứ không phải là một phần của từ khác.
+- `\\b` biểu thị ranh giới từ trong biểu thức chính quy, đảm bảo chúng ta chỉ thay thế "KIM" khi nó xuất hiện dưới dạng một từ toàn bộ chứ không phải là một phần của từ khác.
 - Chúng tôi thay thế nó bằng "^^^TIM^^^" (chú ý ba dấu mũ). Điều này cho thấy việc thay thế dựa trên biểu thức chính quy có thể dễ dàng như thế nào!
 
 ## Bước 5: Lưu sổ làm việc

@@ -21,7 +21,7 @@ Vuoi aggiungere ulteriore contesto ai tuoi grafici Excel? Le etichette possono f
 
 Un'immagine vale più di mille parole, giusto? Questo vale anche per i grafici Excel. Con Aspose.Cells per .NET, aggiungere immagini ai grafici è facile come inserire clipart in un documento Word. Le immagini possono aiutare a rendere i grafici più accattivanti dal punto di vista visivo, stimolando l'interazione con i dati che stai presentando. Che tu stia presentando dati finanziari o cifre di vendita, aggiungere immagini pertinenti aiuta a collegare i dati alla narrazione.
 
-Curioso di sapere come funziona? Dai un'occhiata a[Aggiungi immagine al grafico](./add-picture-to-chart/) lezione.
+ Curioso di sapere come funziona? Dai un'occhiata a[Aggiungi immagine al grafico](./add-picture-to-chart/) lezione.
 
 ## Inserimento di caselle di testo e caselle di controllo
 

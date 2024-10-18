@@ -15,7 +15,7 @@ Při programové práci se soubory Excelu, ať už se jedná o vytváření sest
 
 Než začneme, je několik věcí, které budete potřebovat, abyste se ujistili, že máte připraveno:
 
-1. Aspose.Cells for .NET Library: Toto je základní komponenta, která umožňuje manipulovat se soubory aplikace Excel. Pokud jste jej ještě nenainstalovali, můžete[stáhněte si to odtud](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library: Toto je základní komponenta, která umožňuje manipulovat se soubory aplikace Excel. Pokud jste jej ještě nenainstalovali, můžete[stáhněte si to odtud](https://releases.aspose.com/cells/net/).
 2. Vývojové prostředí: Měli byste mít nastavené vývojové prostředí, nejlépe Visual Studio, kde můžete psát a spouštět kód C#.
 3. Základní porozumění C#: I když vysvětlím každý krok, základní znalost C# vám pomůže lépe sledovat.
 4. Soubor Excel: Měli byste mít vytvořený soubor Excel (v tomto tutoriálu budeme odkazovat na "book1.xls"). Pro tento účel můžete vytvořit jednoduchý soubor s několika pracovními listy.
@@ -58,7 +58,7 @@ Zde otevíráme "book1.xls". Je důležité, aby tento soubor existoval ve vámi
  Dále budete muset vytvořit a`Workbook` objekt. Tento objekt představuje váš soubor Excel a umožňuje vám manipulovat s jeho obsahem.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Nyní pojďme k jádru věci – odstranění listu podle jeho názvu.
 workbook.Worksheets.RemoveAt("Sheet1");
 ```
 
-tomto příkladu se snažíme odstranit list s názvem "List1". Pokud tento list existuje, bude úspěšně odstraněn. Pokud ne, narazíte na výjimku, takže se ujistěte, že se název přesně shoduje.
+V tomto příkladu se snažíme odstranit list s názvem "List1". Pokud tento list existuje, bude úspěšně odstraněn. Pokud ne, narazíte na výjimku, takže se ujistěte, že se název přesně shoduje.
 
 ## Krok 5: Uložení sešitu
 
@@ -96,7 +96,7 @@ Neváhejte a pohrajte si s dalšími funkcemi knihovny Aspose.Cells a neváhejte
 ## FAQ
 
 ### Je Aspose.Cells zdarma k použití?
-Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro další používání si budete muset zakoupit licenci. Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+ Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro další používání si budete muset zakoupit licenci. Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Mohu odstranit více listů najednou?
 Kolekci listů můžete iterovat a odstranit více listů pomocí smyčky. Jen se ujistěte, že spravujete indexy správně.

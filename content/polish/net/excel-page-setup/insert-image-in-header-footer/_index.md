@@ -2,7 +2,7 @@
 title: Wstaw obraz w nagłówku i stopce
 linktitle: Wstaw obraz w nagłówku i stopce
 second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak wstawiać obrazy do nagłówków i stopek za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
+description: Dowiedz się, jak wstawiać obrazy do nagłówków i stopek za pomocą Aspose.Cells dla .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
 type: docs
 weight: 60
 url: /pl/net/excel-page-setup/insert-image-in-header-footer/
@@ -15,7 +15,7 @@ Podczas pracy z plikami Excela nagłówki i stopki odgrywają kluczową rolę w 
 
 Zanim zagłębisz się w kod, musisz przygotować kilka rzeczy:
 
-1.  Aspose.Cells dla biblioteki .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w środowisku .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+1.  Biblioteka Aspose.Cells dla .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w środowisku .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 2. Visual Studio lub inne środowisko IDE: Będziesz potrzebować zintegrowanego środowiska programistycznego, aby pisać i wykonywać kod C#.
 3.  Przykładowy obraz: Przygotuj obraz, który chcesz wstawić do nagłówka lub stopki. W naszym przykładzie użyjemy logo firmy o nazwie`aspose-logo.jpg`.
 4. Podstawowa znajomość języka C#: Choć nie jest to obowiązkowe, zrozumienie języka C# ułatwi Ci korzystanie z tego samouczka.
@@ -35,7 +35,7 @@ Te importy zapewnią dostęp do wszystkich klas, których potrzebujemy do obsłu
 
 ## Krok 1: Konfigurowanie ścieżki katalogu
 
-Najpierw musisz określić katalog, w którym znajdują się pliki i obrazy Excela. Zaktualizuj ścieżkę, aby pasowała do Twojej lokalnej struktury.
+Najpierw musisz określić katalog, w którym znajdują się pliki Excela i obrazy. Zaktualizuj ścieżkę, aby pasowała do Twojej lokalnej struktury.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Aktualizuj odpowiednio
@@ -95,7 +95,7 @@ Mając już dane binarne obrazu, możemy wstawić je do nagłówka.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Ten wiersz umieszcza obraz w środkowej części nagłówka. Parametr`1`określa sekcję nagłówka.
+ Ten wiersz umieszcza obraz w środkowej części nagłówka. Parametr`1` określa sekcję nagłówka.
 
 ## Krok 7: Ustawianie zawartości nagłówka
 
@@ -148,4 +148,4 @@ Tak, możesz wstawiać oddzielne obrazy w różnych sekcjach nagłówka lub stop
 Upewnij się, że ścieżka do obrazu jest poprawna i plik istnieje. Sprawdź również zgodność formatu obrazu.
 
 ### Gdzie mogę znaleźć dodatkową dokumentację dotyczącą Aspose.Cells?
-Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+ Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).

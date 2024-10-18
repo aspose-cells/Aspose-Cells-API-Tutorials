@@ -17,7 +17,7 @@ Avant de nous plonger dans les détails de la création de graphiques, assurons-
 
 1. Visual Studio ou tout autre IDE compatible .NET : ce sera votre terrain de jeu pour écrire et tester votre code.
 2.  Bibliothèque Aspose.Cells pour .NET : assurez-vous que cette bibliothèque est installée. Vous pouvez la télécharger[ici](https://releases.aspose.com/cells/net/).
-3. Compréhension de base de C# : il serait bénéfique pour vous de comprendre les concepts de base de C#, car nous les utiliserons dans nos exemples de code.
+3. Compréhension de base de C# : il serait utile pour vous de comprendre les concepts de base de C#, car nous les utiliserons dans nos exemples de code.
 4. Un exemple de jeu de données : pour créer des graphiques, il est essentiel de disposer de certaines données. Nous utiliserons un jeu de données simple dans notre exemple, mais vous pouvez l'adapter à vos besoins.
 
 ## Paquets d'importation
@@ -52,7 +52,7 @@ Au lieu de « Votre répertoire de sortie », vous pouvez spécifier un chemin
  Maintenant, vous voudrez commencer par créer une nouvelle instance de`Workbook` classe. Il s'agit de l'élément de base fondamental pour toutes les opérations Excel utilisant Aspose.Cells.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -132,7 +132,7 @@ chart.NSeries[1].Type = Aspose.Cells.Charts.ChartType.Line;
 
 Cela permet de créer des graphiques de types mixtes, offrant des opportunités de visualisation uniques.
 
-## Étape 9 : Enregistrer le classeur
+## Étape 9 : Enregistrer le classeur
 
 Après toutes ces configurations, il est temps d'enregistrer votre fichier Excel. Voici comment procéder :
 

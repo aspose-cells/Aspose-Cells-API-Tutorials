@@ -30,7 +30,7 @@ Excel 是组织数据不可或缺的工具，当在单个工作簿中处理多�
 1. 打开 Visual Studio 或您喜欢的 IDE。
 2. 创建一个新的 C# 项目（Windows 窗体、控制台应用程序等，取决于您的偏好）。
 
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 
 - 在解决方案资源管理器中右键单击您的项目并选择“管理 NuGet 包”。
 - 搜索“Aspose.Cells”并安装库。
@@ -106,7 +106,7 @@ wb.Save(dataDir + "MoveWorksheet_out.xls");
 
 解释：  
 
-最后，我们用新名称保存工作簿，`MoveWorksheet_out.xls`。此步骤完成您的更改并将其写入新的 Excel 文件。这类似于将您书的完成稿放在书架上。
+最后，我们用新名称保存工作簿，`MoveWorksheet_out.xls`。此步骤完成您的更改并将其写入新的 Excel 文件。这类似于将书的完成稿放在书架上。
 
 ## 结论
 

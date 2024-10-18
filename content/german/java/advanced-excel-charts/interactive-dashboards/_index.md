@@ -36,7 +36,7 @@ Workbook workbook = new Workbook();
 
 ## Daten hinzufügen
 
-Um unser Dashboard interaktiv zu gestalten, benötigen wir Daten. Sie können entweder Beispieldaten generieren oder diese aus einer externen Quelle abrufen. Für dieses Beispiel erstellen wir einige Beispieldaten.
+Um unser Dashboard interaktiv zu gestalten, benötigen wir Daten. Sie können entweder Beispieldaten generieren oder sie aus einer externen Quelle abrufen. Für dieses Beispiel erstellen wir einige Beispieldaten.
 
 ```java
 // Greifen Sie auf das erste Arbeitsblatt zu

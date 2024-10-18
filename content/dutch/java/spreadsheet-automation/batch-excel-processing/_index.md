@@ -15,7 +15,7 @@ Het verwerken van meerdere Excel-bestanden in een batchproces kan tijdrovend en 
 Het automatiseren van batchverwerking in Excel biedt verschillende voordelen:
 
 1. Efficiëntie: Bespaar tijd door meerdere bestanden tegelijkertijd te verwerken.
-2. Nauwkeurigheid: verklein het risico op fouten tijdens de gegevensverwerking.
+2. Nauwkeurigheid: verminder het risico op fouten tijdens de gegevensverwerking.
 3. Consistentie: Zorg voor een uniforme gegevensopmaak in alle bestanden.
 4. Schaalbaarheid: Verwerk moeiteloos grote volumes Excel-bestanden.
 

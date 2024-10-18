@@ -99,7 +99,7 @@ Aspose.Cells for Java ile toplu Excel işlemeyi otomatikleştirmek, birden fazla
 ### 3. Aspose.Cells for Java için herhangi bir lisanslama gereksinimi var mı?
    Evet, projelerinizde Aspose.Cells for Java'yı kullanmak için geçerli bir lisansa ihtiyacınız olacak.
 
-### 4. Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
+### 4. Java için Aspose.Cells hakkında daha fazla kaynak ve belgeyi nerede bulabilirim?
     API belgelerini şu adreste inceleyin:[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
 
 Aspose.Cells for Java'yı kullanarak toplu Excel işleme görevlerinizi optimize edin ve üretkenliğinizi artırın.

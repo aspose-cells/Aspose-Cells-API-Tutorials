@@ -29,7 +29,7 @@ Innan vi dyker in i det tråkiga med att tillämpa ett 3D-format på ett diagram
 Install-Package Aspose.Cells
 ```
 
-3. Installera utdatakatalog: Ange en utdatakatalog där dina genererade filer kommer att sparas – det här kan vara så enkelt som att skapa en mapp på skrivbordet.
+3. Konfigurera utdatakatalog: Ange en utdatakatalog där dina genererade filer kommer att sparas – det här kan vara så enkelt som att skapa en mapp på skrivbordet.
 
 Nu när du är klar är det dags att hoppa in i koden och skapa några bländande 3D-diagram!
 

@@ -84,7 +84,7 @@ Ora che abbiamo aperto la cartella di lavoro, è il momento di mettere le mani s
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Spiegazione: Il codice sopra riportato punta al primo foglio di lavoro (indice 0) nella nostra cartella di lavoro e recupera il`Cells` raccolta, con cui lavoreremo per rintracciare le persone a carico.
+Spiegazione: Il codice sopra riportato punta al primo foglio di lavoro (indice 0) nella nostra cartella di lavoro e recupera il`Cells` raccolta, con cui lavoreremo per rintracciare le persone a carico.
 
 ## Passaggio 4: selezionare la cella
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Spiegazione: Questo ciclo passa attraverso ogni cella dipendente nel nostro array e ne stampa il nome, piuttosto semplice!`Console.ReadKey()` assicura che la finestra della console rimanga aperta finché non si preme un tasto, dando il tempo di leggere l'output.
+Spiegazione: Questo ciclo passa attraverso ogni cella dipendente nel nostro array e ne stampa il nome, piuttosto semplice!`Console.ReadKey()` assicura che la finestra della console rimanga aperta finché non si preme un tasto, dando il tempo di leggere l'output.
 
 ## Conclusione
 
@@ -133,7 +133,7 @@ Aspose.Cells è una potente libreria per la gestione di file Excel in applicazio
  Sì! Aspose offre un[prova gratuita](https://releases.aspose.com/) del loro software, consentendoti di esplorarne le funzionalità prima di acquistarlo.
 
 ### Come posso ottenere supporto per Aspose.Cells?
-Puoi cercare supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9), dove una comunità di utenti ed esperti può aiutarti. 
+ Puoi cercare supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9), dove una comunità di utenti ed esperti può aiutarti. 
 
 ### Aspose.Cells è adatto per file Excel di grandi dimensioni?
 Assolutamente! Aspose.Cells è progettato per funzionare in modo efficiente con file Excel di grandi dimensioni, offrendo gestione e prestazioni robuste.

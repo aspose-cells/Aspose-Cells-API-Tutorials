@@ -13,7 +13,7 @@ Excel grafikleriyle çalışırken, verilerinizi cilalı, profesyonel görseller
 
 ## [Grafik Oluştur](./render-chart/)
 
-Ham verileri şık, bilgilendirici grafiklere dönüştürmek mi istiyorsunuz? Render Chart öğreticisi, .NET'te zahmetsizce yüksek kaliteli grafikler oluşturmayı gösterir. İster çubuk grafikler, ister pasta grafikler veya daha karmaşık görselleştirmeler oluşturun, adımları takip etmenin kolay olduğunu göreceksiniz. Aspose.Cells, teknik ayrıntılara takılıp kalmadan grafiklerinizin parlamasına odaklanabilmeniz için süreci basitleştirir.
+Ham verileri şık, bilgilendirici grafiklere dönüştürmek mi istiyorsunuz? Render Chart öğreticisi, .NET'te zahmetsizce yüksek kaliteli grafikler oluşturmayı gösterir. İster çubuk grafikler, ister pasta grafikler veya daha karmaşık görselleştirmeler oluşturuyor olun, adımları takip etmenin kolay olduğunu göreceksiniz. Aspose.Cells, teknik ayrıntılara takılıp kalmadan grafiklerinizin parlamasına odaklanabilmeniz için süreci basitleştirir.
 
 ## [Tabloyu PDF'ye Dönüştür](./convert-chart-to-pdf/)
 

@@ -16,13 +16,13 @@ Bu eğitimde, Aspose.Cells for Java API'sini kullanarak dinamik grafik animasyon
 
 Grafik animasyonları oluşturmaya başlamadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Java için Aspose.Cells: Java için Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
+1. Java için Aspose.Cells: Java için Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/java/).
 
 2. Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olması gerekir.
 
 Şimdi adım adım grafik animasyonları oluşturmaya başlayalım.
 
-## Adım 1: Aspose.Cells Kütüphanesini İçe Aktar
+## Adım 1: Aspose.Cells Kütüphanesini İçe Aktarın
 
 Öncelikle Aspose.Cells kütüphanesini Java projenize aktarmanız gerekir. Bunu Java dosyanıza aşağıdaki kodu ekleyerek yapabilirsiniz:
 
@@ -39,7 +39,7 @@ Veri ve grafikler içeren mevcut bir Excel çalışma kitabını yükleyebilir v
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
-Yeni bir çalışma kitabı oluşturmanın yolu da şöyle:
+Ve yeni bir çalışma kitabı oluşturmanın yolu şöyledir:
 
 ```java
 // Yeni bir çalışma kitabı oluştur
@@ -82,7 +82,7 @@ Bu eğitimde, Java API için Aspose.Cells'i kullanarak grafik animasyonları olu
 
 ### Animasyon türünü nasıl değiştirebilirim?
 
- Animasyon türünü değiştirmek için şunu kullanın:`setAnimationType` grafik nesnesindeki yöntem. Çeşitli türlerden seçim yapabilirsiniz.`SLIDE`, `FADE` , Ve`GROW_SHRINK`.
+ Animasyon türünü değiştirmek için şunu kullanın:`setAnimationType` grafik nesnesindeki yöntem. Çeşitli türlerden seçim yapabilirsiniz.`SLIDE`, `FADE` Ve`GROW_SHRINK`.
 
 ### Animasyon süresini özelleştirebilir miyim?
 
@@ -90,4 +90,4 @@ Bu eğitimde, Java API için Aspose.Cells'i kullanarak grafik animasyonları olu
 
 ### Animasyon gecikmesinin amacı nedir?
 
- Animasyon gecikmesi, grafik animasyonu başlamadan önceki zaman aralığını belirler.`setAnimationDelay`Gecikmeyi milisaniye cinsinden ayarlama yöntemi.
+ Animasyon gecikmesi, grafik animasyonu başlamadan önceki zaman aralığını belirler.`setAnimationDelay` Gecikmeyi milisaniye cinsinden ayarlama yöntemi.

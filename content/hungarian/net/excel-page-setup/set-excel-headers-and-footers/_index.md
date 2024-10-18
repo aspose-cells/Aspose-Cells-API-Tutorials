@@ -77,7 +77,7 @@ Most kezdjük el a fejléc beállítását. Kezdjük a bal oldali résszel:
 pageSetup.SetHeader(0, "&A");
 ```
 
- Magyarázat: A`SetHeader` metódus lehetővé teszi, hogy meghatározzuk a fejléc tartalmát. Itt,`&A` a munkalap nevét jelöli, amely a fejléc bal oldalán fog megjelenni.
+Magyarázat: A`SetHeader` metódus lehetővé teszi, hogy meghatározzuk a fejléc tartalmát. Itt,`&A` a munkalap nevét jelöli, amely a fejléc bal oldalán fog megjelenni.
 
 ## 4. lépés: A központi fejléc testreszabása
 
@@ -87,7 +87,7 @@ Ezután testre szabjuk a központi fejlécet, hogy az aktuális dátumot és id�
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Magyarázat: A`&D` és`&T` kódok automatikusan felváltják magukat az aktuális dátumra és időre. Azt is meghatározzuk, hogy a fejléc betűtípusának "Times New Roman" és félkövér betűtípusnak kell lennie.
+Magyarázat: A`&D` és`&T` kódok automatikusan felváltják magukat az aktuális dátumra és időre. Azt is meghatározzuk, hogy a fejléc betűtípusának "Times New Roman" és félkövér betűtípusnak kell lennie.
 
 ## 5. lépés: Állítsa be a jobb oldali fejlécet
 
@@ -117,7 +117,7 @@ Ezután beállítjuk a középső láblécet az aktuális oldalszám megjelenít
 pageSetup.SetFooter(1, "&P");
 ```
 
- Magyarázat: A`&P` kód automatikusan beszúrja az oldalszámot a lábléc közepébe – ez egy praktikus módja az oldalak nyomon követésének.
+Magyarázat: A`&P` kód automatikusan beszúrja az oldalszámot a lábléc közepébe – ez egy praktikus módja az oldalak nyomon követésének.
 
 ## 8. lépés: A jobb lábléc konfigurálása
 

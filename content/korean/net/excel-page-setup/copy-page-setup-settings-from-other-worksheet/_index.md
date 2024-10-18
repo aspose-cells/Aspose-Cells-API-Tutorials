@@ -2,14 +2,14 @@
 title: 다른 워크시트에서 페이지 설정 복사
 linktitle: 다른 워크시트에서 페이지 설정 복사
 second_title: .NET API 참조를 위한 Aspose.Cells
-description: 이 단계별 가이드를 통해 .NET용 Aspose.Cells를 사용하여 워크시트 간에 페이지 설정 설정을 복사하는 방법을 알아보세요. 스프레드시트 관리를 개선하는 데 적합합니다.
+description: 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 워크시트 간에 페이지 설정 설정을 복사하는 방법을 알아보세요. 스프레드시트 관리를 개선하는 데 적합합니다.
 type: docs
 weight: 10
 url: /ko/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 ---
 ## 소개
 
-한 워크시트에서 다른 워크시트로 페이지 설정을 복제해야 하는 상황에 처한 적이 있나요? 재무 보고서나 프로젝트 일정을 작업하든, 프레젠테이션의 균일성이 중요합니다. Aspose.Cells for .NET을 사용하면 워크시트 간에 페이지 설정 설정을 쉽게 복사할 수 있습니다. 이 가이드는 .NET이나 Aspose.Cells를 처음 사용하는 경우에도 단계별로 프로세스를 안내하여 간단하고 직관적으로 만들 수 있도록 합니다. 시작할 준비가 되셨나요? 시작해 볼까요!
+한 워크시트에서 다른 워크시트로 페이지 설정을 복제해야 하는 상황에 처한 적이 있나요? 재무 보고서나 프로젝트 타임라인을 작업하든, 프레젠테이션의 균일성이 중요합니다. Aspose.Cells for .NET을 사용하면 워크시트 간에 페이지 설정 설정을 쉽게 복사할 수 있습니다. 이 가이드는 .NET이나 Aspose.Cells를 처음 사용하는 경우에도 단계별로 프로세스를 안내하여 간단하고 직관적으로 만들 수 있도록 합니다. 시작할 준비가 되셨나요? 시작해 볼까요!
 
 ## 필수 조건
 
@@ -18,7 +18,7 @@ url: /ko/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 1. .NET 개발 환경: Visual Studio나 원하는 다른 IDE와 같이 .NET과 호환되는 환경이 설정되어 있는지 확인하세요.
 2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 이해: C#의 기본을 아는 것은 개념을 더 잘 이해하는 데 확실히 도움이 됩니다.
-4.  Aspose.Cells 설명서: 다음을 숙지하세요.[선적 서류 비치](https://reference.aspose.com/cells/net/)나중에 유용하다고 생각되는 고급 구성이나 추가 기능이 있다면 알려주세요.
+4.  Aspose.Cells 설명서: 다음을 숙지하세요.[선적 서류 비치](https://reference.aspose.com/cells/net/)나중에 유용할 수 있는 고급 구성이나 추가 기능이 있다면 알려주세요.
 
 이제 필수 구성 요소를 정리했으니, 필요한 패키지를 가져와 보겠습니다!
 
@@ -50,7 +50,7 @@ Workbook wb = new Workbook();
 ## 2단계: 워크시트 추가
 
 워크북에 워크시트 추가:
-이제 워크북이 생겼으니 워크시트를 추가할 차례입니다.
+이제 워크북이 생겼으니, 워크시트를 추가할 차례입니다.
 
 ```csharp
 wb.Worksheets.Add("TestSheet1");

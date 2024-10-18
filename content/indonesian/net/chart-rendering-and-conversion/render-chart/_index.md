@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 
 ## Langkah 3: Tambahkan Lembar Kerja Baru
 
-Sekarang setelah kita memiliki buku kerja, saatnya menambahkan lembar kerja baru. Bayangkan lembar kerja sebagai halaman-halaman berbeda dalam buku catatan, tempat Anda dapat menyimpan data secara teratur.
+Sekarang setelah kita memiliki buku kerja, saatnya untuk menambahkan lembar kerja baru. Bayangkan lembar kerja sebagai halaman-halaman berbeda dalam buku catatan, tempat Anda dapat menyimpan data secara teratur.
 
 ```csharp
 int sheetIndex = workbook.Worksheets.Add();
@@ -105,7 +105,7 @@ Garis ini menghubungkan rangkaian data grafik dengan nilai dalam sel "A1" hingga
 
 ## Langkah 7: Simpan Bagan sebagai Gambar
 
-Sekarang mari ubah bagan kita ke dalam format gambar, sehingga dapat dengan mudah dibagikan dan dilihat.
+Sekarang mari ubah bagan kita ke dalam format gambar, sehingga dapat dibagikan dan dilihat dengan mudah.
 
 ```csharp
 chart.ToImage(outputDir + "outputChartRendering.emf", System.Drawing.Imaging.ImageFormat.Emf);

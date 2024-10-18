@@ -18,7 +18,7 @@ Avant de plonger, mettons quelques points en place :
 1. .NET Framework : assurez-vous qu'une version compatible de .NET Framework est installée sur votre ordinateur. Aspose.Cells prend en charge plusieurs versions, consultez donc leur documentation pour plus de détails.
 2.  Bibliothèque Aspose.Cells pour .NET : vous devrez télécharger la bibliothèque Aspose.Cells. Si vous ne l'avez pas encore fait, visitez le site[lien de téléchargement](https://releases.aspose.com/cells/net/) pour l'attraper.
 3. Visual Studio ou n’importe quel IDE : disposez d’un environnement de développement prêt dans lequel vous pouvez écrire et exécuter votre code .NET.
-4. Une compréhension de base de C# : une connaissance de la programmation C# sera extrêmement utile, mais ne vous inquiétez pas si vous êtes nouveau dans ce domaine, je vous guiderai à travers le code !
+4. Une compréhension de base de C# : une connaissance de la programmation C# sera extrêmement utile, mais ne vous inquiétez pas si vous êtes nouveau dans ce domaine : je vous guiderai à travers le code !
 5.  Exemple de fichier Excel : pour tester la fonctionnalité, disposez d'un fichier Excel simple, par exemple`book1.xls`, prêt à l'emploi. Vous pouvez en créer un à l'aide d'Excel ou télécharger des exemples de fichiers si nécessaire.
 
 ## Importation de paquets
@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Explication: 
 
- Cette ligne alloue une variable de chaîne`dataDir` pour conserver le chemin d'accès à votre répertoire de documents. Remplacez`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre fichier Excel est stocké. C'est comme donner des instructions à quelqu'un ; vous devez indiquer à votre code exactement où chercher les fichiers.
+Cette ligne alloue une variable de chaîne`dataDir` pour conserver le chemin d'accès à votre répertoire de documents. Remplacez`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre fichier Excel est stocké. C'est comme donner des instructions à quelqu'un ; vous devez indiquer à votre code exactement où chercher les fichiers.
 
 ## Étape 2 : charger le classeur
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Explication:  
 
-Cette ligne récupère la première feuille de calcul de la collection. L'indexation en programmation démarre souvent à partir de zéro, c'est pourquoi nous utilisons`[0]`Considérez ceci comme la sélection du premier chapitre de votre livre, prêt à être modifié.
+ Cette ligne récupère la première feuille de calcul de la collection. L'indexation en programmation démarre souvent à partir de zéro, c'est pourquoi nous utilisons`[0]`Considérez ceci comme la sélection du premier chapitre de votre livre, prêt à être modifié.
 
 ## Étape 5 : Déplacer la feuille de calcul
 

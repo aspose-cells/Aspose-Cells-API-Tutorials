@@ -18,9 +18,9 @@ Antes de comenzar, aquí hay algunas cosas que debes tener para garantizar un vi
 1. Conocimientos básicos de C#: dado que escribiremos nuestro código en C#, tener una comprensión fundamental del lenguaje le ayudará a comprender los conceptos rápidamente.
 2.  Biblioteca Aspose.Cells para .NET: deberá descargar la biblioteca Aspose.Cells para .NET. Puede obtenerla en[Enlace de descarga](https://releases.aspose.com/cells/net/).
 3. Visual Studio: es un entorno fantástico para escribir y probar código .NET. Asegúrate de tenerlo instalado correctamente en tu equipo. 
-4. Un archivo de Excel: necesitarás un archivo de Excel que contenga algunas fórmulas con las que trabajar. Usaremos un archivo llamado`Book1.xlsx`¡Pero siéntete libre de usar el tuyo propio!
+4. Un archivo de Excel: necesitarás un archivo de Excel que contenga algunas fórmulas con las que trabajar. Usaremos un archivo llamado`Book1.xlsx`¡Pero siéntete libre de usar el tuyo!
 
-¿Listo para abrocharse el cinturón y comenzar a rastrear esas células? ¡Vayamos al meollo del asunto!
+¿Estás listo para abrocharte el cinturón y comenzar a rastrear esas células? ¡Vayamos al meollo del asunto!
 
 ## Importar paquetes
 
@@ -28,7 +28,7 @@ Lo primero es lo primero. Necesitamos importar los paquetes necesarios en nuestr
 
 ### Abra su proyecto
 
-Abra Visual Studio y cree un nuevo proyecto de C#. Puede optar por crear una aplicación de consola o una aplicación de Windows Forms.
+Abra Visual Studio y cree un nuevo proyecto de C#. Puede elegir crear una aplicación de consola o una aplicación de Windows Forms.
 
 ### Agregar la biblioteca Aspose.Cells
 
@@ -58,7 +58,7 @@ Ahora, desglosemos el proceso de rastreo de células dependientes en pasos manej
 
 ## Paso 1: Configurar el directorio de documentos
 
-Para poder trabajar con su archivo de Excel, debe especificar la ruta donde se encuentra su documento. A continuación, le indicamos cómo hacerlo:
+Para trabajar con su archivo de Excel, debe especificar la ruta donde se encuentra su documento. A continuación, le indicamos cómo hacerlo:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -84,7 +84,7 @@ Ahora que tenemos el libro de trabajo abierto, es hora de acceder a las celdas i
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Explicación: El código anterior apunta a la primera hoja de trabajo (índice 0) en nuestro libro de trabajo y recupera el`Cells` colección, con la que trabajaremos para rastrear dependientes.
+Explicación: El código anterior apunta a la primera hoja de trabajo (índice 0) en nuestro libro de trabajo y recupera el`Cells` colección, con la que trabajaremos para rastrear dependientes.
 
 ## Paso 4: Seleccione la celda
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Explicación: Este bucle recorre cada celda dependiente de nuestra matriz e imprime su nombre, ¡bastante sencillo!`Console.ReadKey()` garantiza que la ventana de la consola permanezca abierta hasta que presione una tecla, lo que le da tiempo para leer la salida.
+Explicación: Este bucle recorre cada celda dependiente de nuestra matriz e imprime su nombre, ¡bastante sencillo!`Console.ReadKey()` garantiza que la ventana de la consola permanezca abierta hasta que presione una tecla, lo que le da tiempo para leer la salida.
 
 ## Conclusión
 
@@ -133,7 +133,7 @@ Aspose.Cells es una potente biblioteca para gestionar archivos de Excel en aplic
  ¡Sí! Aspose ofrece una[prueba gratis](https://releases.aspose.com/) de su software, lo que le permite explorar sus características antes de comprarlo.
 
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
-Puede buscar apoyo a través de[Foro de Aspose](https://forum.aspose.com/c/cells/9), donde una comunidad de usuarios y expertos podrá ayudarle. 
+ Puede buscar apoyo a través de[Foro de Aspose](https://forum.aspose.com/c/cells/9), donde una comunidad de usuarios y expertos podrá ayudarle. 
 
 ### ¿Aspose.Cells es adecuado para archivos grandes de Excel?
 ¡Por supuesto! Aspose.Cells está diseñado para trabajar de manera eficiente con archivos de Excel de gran tamaño, lo que proporciona un manejo y un rendimiento sólidos.

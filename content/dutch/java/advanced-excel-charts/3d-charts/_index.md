@@ -26,7 +26,7 @@ Voordat we 3D-diagrammen gaan maken, gaan we Aspose.Cells voor Java instellen.
 
 ### Downloaden en installeren
 
-U kunt de Aspose.Cells for Java-bibliotheek downloaden van de website. Volg na het downloaden de installatie-instructies om de bibliotheek in uw Java-project in te stellen.
+kunt de Aspose.Cells for Java-bibliotheek downloaden van de website. Volg na het downloaden de installatie-instructies om de bibliotheek in uw Java-project in te stellen.
 
 ### Licentie-initialisatie
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Het gegevensbereik voor de grafiek instellen
 chart.getNSeries().add("A2:B4", true);
 
-// Grafiekkenmerken aanpassen
+//Grafiekkenmerken aanpassen
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -110,7 +110,7 @@ Aspose.Cells voor Java ondersteunt verschillende typen 3D-grafieken, waaronder:
 - Lijndiagrammen: Geef trends over een bepaalde periode weer.
 - Vlakdiagrammen: Markeer het gebied tussen de gegevens en de as.
 
-kunt deze grafieken maken met behulp van vergelijkbare stappen en met de juiste grafiektypen.
+U kunt deze grafieken maken met behulp van vergelijkbare stappen en met de juiste grafiektypen.
 
 ## Geavanceerde grafiekaanpassing
 

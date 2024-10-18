@@ -47,7 +47,7 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình 
 ```csharp
 //Thư mục đầu ra
 static string outputDir = "Your Document Directory";
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -124,7 +124,7 @@ chart.PlotArea.Area.ForegroundColor = Color.Blue;
 // Thiết lập màu nền trước của vùng biểu đồ
 chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 
-// Thiết lập màu nền trước của vùng 1st SeriesCollection
+// Thiết lập màu nền trước của vùng SeriesCollection thứ 1
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 
 // Thiết lập màu nền trước của vùng điểm 1 của SeriesCollection
@@ -195,7 +195,7 @@ Không gì tuyệt vời hơn cảm giác hoàn thành tốt công việc!
 
 ## Phần kết luận
 
-Tạo biểu đồ có cấu trúc tốt và hấp dẫn về mặt trực quan trong Excel bằng Aspose.Cells cho .NET rất đơn giản khi bạn làm theo các bước sau. Bằng cách thêm tiêu đề và đặt trục, bạn có thể chuyển đổi một tập dữ liệu đơn giản thành một biểu diễn trực quan sâu sắc truyền đạt thông điệp của bạn một cách hiệu quả. Cho dù đó là cho bài thuyết trình kinh doanh, báo cáo dự án hay chỉ đơn giản là để sử dụng cá nhân, việc tùy chỉnh biểu đồ của bạn có thể tạo ra sự khác biệt lớn.
+Tạo biểu đồ có cấu trúc tốt và hấp dẫn về mặt hình ảnh trong Excel bằng Aspose.Cells cho .NET rất đơn giản khi bạn làm theo các bước sau. Bằng cách thêm tiêu đề và đặt trục, bạn có thể biến một tập dữ liệu đơn giản thành một biểu diễn trực quan sâu sắc truyền đạt thông điệp của bạn một cách hiệu quả. Cho dù đó là cho bài thuyết trình kinh doanh, báo cáo dự án hay chỉ đơn giản là để sử dụng cá nhân, việc tùy chỉnh biểu đồ của bạn có thể tạo ra sự khác biệt lớn.
 
 ## Câu hỏi thường gặp
 

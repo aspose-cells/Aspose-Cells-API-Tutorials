@@ -14,7 +14,7 @@ Veri doğrulama, Excel elektronik tablolarınıza yanlış veya tutarsız verile
 
 ## Java için Aspose.Cells Kurulumu
 
- Gelişmiş tekniklere dalmadan önce, Java için Aspose.Cells ile başlayalım. Kütüphaneyi şuradan indirebilirsiniz:[Java için Aspose.Cells indirme bağlantısı](https://releases.aspose.com/cells/java/) . Belgelerde verilen kurulum talimatlarını izlediğinizden emin olun.[Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).
+ Gelişmiş tekniklere dalmadan önce, Java için Aspose.Cells ile başlayalım. Kütüphaneyi şuradan indirebilirsiniz:[Java için Aspose.Cells indirme bağlantısı](https://releases.aspose.com/cells/java/) . Lütfen belgelerde verilen kurulum talimatlarını takip ettiğinizden emin olun.[Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).
 
 ## Temel Veri Doğrulaması
 
@@ -80,7 +80,7 @@ dataValidation.setFormula2("12/31/2023");
 
 ## Çözüm
 
-Veri doğrulama, Excel elektronik tablolarında veri kalitesini korumanın kritik bir yönüdür. Java için Aspose.Cells, hem temel hem de gelişmiş veri doğrulama tekniklerini uygulamak için kapsamlı bir araç seti sağlar. Bu makalede özetlenen adımları izleyerek, veri odaklı uygulamalarınızın güvenilirliğini ve doğruluğunu artırabilirsiniz.
+Veri doğrulama, Excel elektronik tablolarında veri kalitesini korumanın kritik bir yönüdür. Aspose.Cells for Java, hem temel hem de gelişmiş veri doğrulama tekniklerini uygulamak için kapsamlı bir araç seti sağlar. Bu makalede özetlenen adımları izleyerek, veri odaklı uygulamalarınızın güvenilirliğini ve doğruluğunu artırabilirsiniz.
 
 ## SSS
 
@@ -96,10 +96,10 @@ Evet, bu makalede gösterildiği gibi, özel doğrulama formüllerini kullanarak
 
 Kesinlikle! Java için Aspose.Cells, Excel elektronik tablolarında tarih ve saat doğrulaması için güçlü destek sağlar.
 
-### Liste veri doğrulaması için önceden tanımlanmış seçenekler var mı?
+### Liste verilerinin doğrulanması için önceden tanımlanmış seçenekler var mı?
 
 Evet, liste verilerinin doğrulanması için önceden tanımlanmış seçeneklere sahip açılır listeler tanımlayabilirsiniz.
 
 ### Java için Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
 
-Ayrıntılı dokümanları ve referansları şu adreste bulabilirsiniz:[Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).
+Ayrıntılı dokümantasyon ve referansları şu adreste bulabilirsiniz:[Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/).

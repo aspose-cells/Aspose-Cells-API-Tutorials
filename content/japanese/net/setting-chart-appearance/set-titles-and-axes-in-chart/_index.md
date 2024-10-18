@@ -100,7 +100,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-ここで、新しく作成したチャートを取得し、変更する準備をします。まるで絵筆を手に取って絵を描き始めるようなものです。
+ここで、新しく作成したチャートを取得し、変更できるようにします。まるでブラシを手に取って絵を描き始めるようなものです。
 
 ## ステップ6: チャートデータソースを定義する
 
@@ -127,7 +127,7 @@ chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 //第1シリーズコレクションエリアの前景色の設定
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 
-//第1シリーズコレクションポイントの領域のフォアグラウンドカラーの設定
+//第1シリーズコレクションポイントの領域の前景色の設定
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 
 //2番目のシリーズコレクションの領域をグラデーションで塗りつぶす
@@ -152,7 +152,7 @@ chart.Title.Text = "Sales Performance";
 タイトルが目立つように、フォントの色を調整しましょう。
 
 ```csharp
-//グラフタイトルのフォント色を青に設定する
+//チャートタイトルのフォント色を青に設定する
 chart.Title.Font.Color = Color.Blue;
 ```
 
@@ -174,7 +174,7 @@ chart.ValueAxis.Title.Text = "Values";
 
 ## ステップ11: ワークブックを保存する
 
-最後に、チャートの作成とカスタマイズという大変な作業を終えたら、変更を保存します。
+最後に、チャートの作成とカスタマイズという大変な作業が終わったら、変更を保存します。
 
 ```csharp
 // Excelファイルの保存
@@ -191,11 +191,11 @@ workbook.Save(outputDir + "outputSettingTitlesAxes.xlsx");
 Console.WriteLine("SettingTitlesAxes executed successfully.");
 ```
 
-仕事をやり遂げたときのあの感覚に勝るものはありません! 
+仕事をやり遂げたときのあの気持ちに勝るものはありません! 
 
 ## 結論
 
-以下の手順に従えば、Aspose.Cells for .NET を使用して Excel で構造がしっかりしていて視覚的に魅力的なグラフを作成するのは簡単です。タイトルを追加して軸を設定することで、シンプルなデータセットを、メッセージを効果的に伝える洞察力のある視覚表現に変換できます。ビジネス プレゼンテーション、プロジェクト レポート、または単に個人で使用する場合でも、グラフをカスタマイズすると大きな違いが生まれます。
+Aspose.Cells for .NET を使用して Excel で構造化され、視覚的に魅力的なグラフを作成するのは、次の手順に従えば簡単です。タイトルを追加し、軸を設定することで、シンプルなデータセットを、メッセージを効果的に伝える洞察力のある視覚表現に変換できます。ビジネス プレゼンテーション、プロジェクト レポート、または単に個人で使用する場合でも、グラフをカスタマイズすると大きな違いが生まれます。
 
 ## よくある質問
 

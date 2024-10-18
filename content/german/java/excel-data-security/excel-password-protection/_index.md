@@ -58,7 +58,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
-In diesem Code haben wir eine einfache Excel-Datei mit einigen Daten erstellt. Jetzt schützen wir sie mit einem Passwort.
+In diesem Code haben wir eine einfache Excel-Datei mit einigen Daten erstellt. Jetzt wollen wir sie mit einem Passwort schützen.
 
 ## Schützen der Excel-Datei
 

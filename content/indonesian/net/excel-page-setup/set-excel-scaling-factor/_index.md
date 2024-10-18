@@ -20,7 +20,7 @@ Sebelum kita masuk ke langkah-langkah praktis, ada beberapa prasyarat yang perlu
 3. Pengetahuan Dasar C#: Memiliki pemahaman dasar tentang pemrograman C# akan bermanfaat, terutama jika Anda baru bekerja dengan pustaka.
 4. .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang kompatibel untuk pustaka tersebut.
 
-Sekarang setelah kita menentukan apa yang Anda butuhkan, mari mulai dengan mengimpor paket-paket yang diperlukan.
+Sekarang setelah kita menentukan apa yang Anda butuhkan, mari mulai dengan mengimpor paket yang diperlukan.
 
 ## Paket Impor
 
@@ -58,14 +58,14 @@ Pertama, Anda perlu menentukan di mana Anda ingin menyimpan file Excel keluaran 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pastikan Anda mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda di mana Anda ingin file Excel disimpan.
+Pastikan Anda mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya pada komputer Anda di mana Anda ingin file Excel disimpan.
 
 ## Langkah 2: Buat Objek Buku Kerja Baru
 
 Sekarang, saatnya membuat buku kerja baru. Di sinilah semua data dan pengaturan Anda akan berada.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 File Excel dapat berisi beberapa lembar kerja. Kita akan mengakses lembar kerja pertama untuk menerapkan faktor skala.
 
 ```csharp
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -102,7 +102,7 @@ Anda telah membuat penyesuaian yang diperlukan; sekarang saatnya menyimpan perub
 workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
- Ini akan menyimpan berkas Excel Anda dengan faktor skala yang diterapkan. Pastikan untuk menambahkan nama berkas yang valid ke berkas Anda.`dataDir`.
+ Ini menyimpan berkas Excel Anda dengan faktor skala yang diterapkan. Pastikan untuk menambahkan nama berkas yang valid ke`dataDir`.
 
 ## Kesimpulan
 
@@ -122,7 +122,7 @@ Ya! Aspose.Cells dapat digunakan di aplikasi desktop dan web asalkan menargetkan
  Tentu saja! Anda bisa mendapatkan versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Cells?  
-Dokumentasinya dapat ditemukan[Di Sini](https://reference.aspose.com/cells/net/).
+ Dokumentasinya dapat ditemukan[Di Sini](https://reference.aspose.com/cells/net/).
 
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Cells?  
  Anda dapat menghubungi kami untuk mendapatkan bantuan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).

@@ -8,9 +8,9 @@ weight: 11
 url: /zh/net/excel-subtotal-calculation/tracing-precedents-in-excel/
 ---
 ## 介绍
-您是否曾发现自己陷入了 Excel 公式的混乱之中，拼命想弄清楚哪些单元格正在输入到您的计算中？如果是这样，您并不孤单！了解 Excel 中的先例可以显著提高您的数据分析技能并简化您的工作流程。在本文中，我们将探讨如何使用 Aspose.Cells for .NET 在 Excel 中跟踪先例。Aspose.Cells 是一个功能强大的库，可让您轻松操作 Excel 文件，我们将引导您逐步完成指南，让您立即跟踪这些单元格依赖关系。所以，拿上您最喜欢的含咖啡因的饮料，坐下来，让我们开始吧！
+您是否曾发现自己陷入了 Excel 公式的纠结中，拼命想弄清楚哪些单元格正在输入到您的计算中？如果是这样，您并不孤单！了解 Excel 中的先例可以显著提高您的数据分析技能并简化您的工作流程。在本文中，我们将探讨如何使用 Aspose.Cells for .NET 在 Excel 中跟踪先例。Aspose.Cells 是一个功能强大的库，可让您轻松操作 Excel 文件，我们将引导您完成分步指南，让您立即跟踪这些单元格依赖关系。所以，拿上您最喜欢的含咖啡因的饮料，坐下来，让我们开始吧！
 ## 先决条件
-在我们开始之前，让我们确保您已准备好进入我们的教程所需的一切。 
+在开始之前，请确保您已准备好进入我们的教程所需的一切。 
 ### 1. C# 基础知识
 熟悉 C# 编程语言至关重要，因为您将编写代码片段来执行我们的任务。
 ### 2.适用于 .NET 的 Aspose.Cells
@@ -33,7 +33,7 @@ using System.IO;
 using Aspose.Cells;
 using System;
 ```
-导入完包之后，您现在就可以开始进行最有趣的部分了，即开始追踪先例！
+导入完包之后，您现在就可以开始进行最有趣的部分了，我们可以开始追踪先例了！
 
 现在，让我们使用 Aspose.Cells 库来分解在 Excel 表中追踪先例的实际过程。
 ## 步骤 1：设置工作簿
@@ -61,7 +61,7 @@ Cell cell = cells["B4"];
 ReferredAreaCollection ret = cell.GetPrecedents();
 ```
 这里，`GetPrecedents()`方法完成了繁重的工作，收集了所有向单元格 B4 提供输入的单元格。 
-## 步骤 5：循环遍历先例
+## 第 5 步：循环遍历先例
 现在，让我们循环遍历先例集合来获取一些有用的信息。
 ```csharp
 foreach (ReferredArea area in ret)
@@ -80,7 +80,7 @@ foreach (ReferredArea area in ret)
 Aspose.Cells 是一个.NET 库，用于在没有 Microsoft Excel 的情况下创建、操作和转换 Excel 电子表格。
 ### 如何获得 Aspose.Cells 的免费试用版？  
 您可以从[Aspose 发布页面](https://releases.aspose.com/).
-### 我可以跨多张表追踪先例吗？  
+### 我可以在多张表格中追踪先例吗？  
 是的，你可以；只需循环`ReferredAreaCollection`访问工作表。
 ### Aspose.Cells 与 .NET Core 兼容吗？  
 是的，Aspose.Cells 支持.NET Core，因此您可以在各种.NET 框架中使用它。

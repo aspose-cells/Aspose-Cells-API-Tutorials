@@ -14,7 +14,7 @@ Walidacja danych pomaga zachować integralność danych, uniemożliwiając użyt
 
 ## Wymagania wstępne
 
-Zanim zaczniesz pisać kod, upewnij się, że spełniasz następujące wymagania:
+Zanim zaczniesz pisać kod, upewnij się, że spełniasz następujące wymagania wstępne:
 
 -  Aspose.Cells dla Java: Pobierz i zainstaluj bibliotekę ze strony[Tutaj](https://releases.aspose.com/cells/java/).
 
@@ -24,7 +24,7 @@ Aby rozpocząć, utwórz nowy projekt Java w preferowanym zintegrowanym środowi
 
 ## Krok 2: Tworzenie skoroszytu programu Excel
 
-Zacznijmy od utworzenia nowego skoroszytu programu Excel przy użyciu Aspose.Cells dla języka Java.
+Zacznijmy od utworzenia nowego skoroszytu programu Excel przy użyciu pakietu Aspose.Cells dla języka Java.
 
 ```java
 // Kod Java do utworzenia nowego skoroszytu programu Excel
@@ -83,7 +83,7 @@ workbook.save("CustomDataValidation.xlsx");
 
 ## Wniosek
 
-W tym samouczku przyjrzeliśmy się sposobowi tworzenia niestandardowych reguł walidacji danych przy użyciu Aspose.Cells for Java. Wykonując te kroki, możesz upewnić się, że Twoje dane w programie Excel są zgodne z określonymi kryteriami, zwiększając integralność i dokładność danych.
+W tym samouczku przyjrzeliśmy się sposobowi tworzenia niestandardowych reguł walidacji danych przy użyciu Aspose.Cells for Java. Postępując zgodnie z tymi krokami, możesz upewnić się, że Twoje dane w programie Excel są zgodne z określonymi kryteriami, zwiększając integralność i dokładność danych.
 
 ## Najczęściej zadawane pytania
 

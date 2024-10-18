@@ -13,7 +13,7 @@ Em um mundo onde o gerenciamento de dados está se tornando cada vez mais comple
 
 ## Pré-requisitos 
 
-Antes de mergulhar no código, há alguns pré-requisitos que você precisa cuidar:
+Antes de mergulhar no código, há alguns pré-requisitos que você precisa atender:
 
 1. Visual Studio: Certifique-se de ter o Microsoft Visual Studio instalado (de preferência 2017 ou posterior). Ele servirá como seu ambiente de desenvolvimento. 
 2.  Biblioteca Aspose.Cells: Você deve ter a biblioteca Aspose.Cells baixada e referenciada em seu projeto. Você pode[baixe a biblioteca aqui](https://releases.aspose.com/cells/net/) se você ainda não o fez.
@@ -50,7 +50,7 @@ if (!IsExists)
 
 O trecho de código cria um diretório no caminho especificado, caso ele ainda não exista, garantindo que você tenha um local seguro para seu arquivo de saída.
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, precisamos criar uma nova pasta de trabalho. O Aspose.Cells permite que você crie e manipule arquivos do Excel com facilidade. Veja como é feito:
 
@@ -70,7 +70,7 @@ Depois que a pasta de trabalho for criada, você precisará acessar a primeira p
 Worksheet sheet = wb.Worksheets[0];
 ```
 
- O`Worksheet` objeto permite que você manipule a planilha específica na pasta de trabalho. Neste caso, estamos usando a primeira planilha.
+ O`Worksheet` O objeto permite que você manipule a planilha específica na pasta de trabalho. Neste caso, estamos usando a primeira planilha.
 
 ## Etapa 4: Desbloquear todas as colunas
 

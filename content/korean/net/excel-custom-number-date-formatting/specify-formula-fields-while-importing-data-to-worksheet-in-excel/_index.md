@@ -9,14 +9,14 @@ url: /ko/net/excel-custom-number-date-formatting/specify-formula-fields-while-im
 ---
 ## 소개
 
-Excel 파일을 프로그래밍 방식으로 처리하는 경우 Aspose.Cells for .NET은 매우 귀중한 도구입니다. Excel 스프레드시트를 쉽게 만들고, 수정하고, 조작할 수 있는 강력한 기능을 제공합니다. 제공하는 흥미로운 기능 중 하나는 Excel 시트로 데이터를 가져오는 동안 수식 필드를 지정할 수 있는 기능입니다. 재무 보고서를 작성하고 사용자 입력에 따라 총계를 자동으로 계산해야 한다고 가정해 보겠습니다. 이 튜토리얼은 깔끔하고 간단한 접근 방식으로 바로 그러한 것을 달성하는 방법을 단계별로 안내합니다.
+Excel 파일을 프로그래밍 방식으로 처리하는 경우 Aspose.Cells for .NET은 매우 귀중한 도구입니다. Excel 스프레드시트를 쉽게 만들고, 수정하고, 조작할 수 있는 강력한 기능을 제공합니다. 제공하는 흥미로운 기능 중 하나는 Excel 시트로 데이터를 가져오는 동안 수식 필드를 지정할 수 있는 기능입니다. 재무 보고서를 작성하고 사용자 입력에 따라 총계를 자동으로 계산해야 한다고 가정해 보겠습니다. 이 튜토리얼은 깔끔하고 간단한 접근 방식으로 바로 이를 달성하는 방법을 단계별로 안내합니다.
 
 ## 필수 조건
 
-코드를 살펴보기 전에 필요한 모든 것이 있는지 확인해 보겠습니다. 
+코드를 살펴보기 전에 먼저 필요한 것이 모두 있는지 확인해 보겠습니다. 
 
 1. Visual Studio나 .NET 통합 개발 환경(IDE): C# 코드를 작성하고 실행할 수 있는 적합한 IDE가 있는지 확인하세요.
-2. .NET용 Aspose.Cells: 프로젝트에서 Aspose.Cells 라이브러리를 다운로드하여 참조해야 합니다. 다음에서 다운로드할 수 있습니다.[Aspose 출시](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells: 프로젝트에서 Aspose.Cells 라이브러리를 다운로드하여 참조해야 합니다. 다음에서 다운로드할 수 있습니다.[Aspose 출시](https://releases.aspose.com/cells/net/).
 3. 기본 C# 지식: C# 및 객체 지향 프로그래밍 개념에 익숙하면 예제를 더 잘 이해하는 데 도움이 됩니다.
 4. .NET Framework: 이 자습서에서는 .NET Framework 4.5 이상을 사용한다고 가정합니다.
 
@@ -168,7 +168,7 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
 Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 만들고, 조작하고, 변환하도록 설계된 .NET 라이브러리입니다.
 
 ### .NET용 Aspose.Cells를 어떻게 설치하나요?
- 여기에서 다운로드할 수 있습니다[Aspose 출시](https://releases.aspose.com/cells/net/)프로젝트에서 참조하세요.
+ 여기에서 다운로드할 수 있습니다[Aspose 출시](https://releases.aspose.com/cells/net/) 프로젝트에서 참조하세요.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
  예, Aspose에서는 무료 체험판을 제공합니다.[이 링크](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 만들고, 조작�
  추가 예와 문서는 다음에서 찾을 수 있습니다.[Aspose 문서 페이지](https://reference.aspose.com/cells/net/).
 
 ### Aspose를 사용하는 동안 문제가 발생하면 어떻게 해야 하나요?
- Aspose 지원 포럼에서 도움을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
+Aspose 지원 포럼에서 도움을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
  

@@ -22,7 +22,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập môi trư�
 
 ## Tạo một dự án Java mới
 
-Bắt đầu bằng cách tạo một dự án Java mới trong IDE bạn chọn. Đặt cho nó một cái tên có ý nghĩa, chẳng hạn như "DataValidationDemo."
+Bắt đầu bằng cách tạo một dự án Java mới trong IDE bạn đã chọn. Đặt cho nó một cái tên có ý nghĩa, chẳng hạn như "DataValidationDemo."
 
 ## Thêm Aspose.Cells cho Java vào dự án của bạn
 

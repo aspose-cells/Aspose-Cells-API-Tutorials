@@ -9,13 +9,13 @@ url: /pl/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 ## Wstęp
 
-Podczas pracy z plikami Excela programowo, jednym z typowych zadań, na jakie możesz się natknąć, jest scalanie komórek w obrębie nazwanego zakresu. Niezależnie od tego, czy automatyzujesz generowanie raportów, tworzysz pulpity nawigacyjne, czy po prostu zarządzasz dużymi zestawami danych, scalanie komórek jest niezbędną techniką. W tym samouczku przyjrzymy się, jak scalać komórki w obrębie nazwanego zakresu przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która pozwala programistom manipulować plikami Excela bez konieczności instalowania programu Microsoft Excel.
+Podczas pracy z plikami Excela programowo, jednym z typowych zadań, na jakie możesz się natknąć, jest scalanie komórek w obrębie nazwanego zakresu. Niezależnie od tego, czy automatyzujesz generowanie raportów, tworzysz pulpity nawigacyjne, czy po prostu zarządzasz dużymi zestawami danych, scalanie komórek jest niezbędną techniką. W tym samouczku przyjrzymy się, jak scalać komórki w obrębie nazwanego zakresu przy użyciu Aspose.Cells dla .NET — potężnej biblioteki, która umożliwia programistom manipulowanie plikami Excela bez konieczności instalowania programu Microsoft Excel.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz przygotowane następujące rzeczy:
 
--  Aspose.Cells dla .NET: Można go pobrać ze strony[Strona wydań Aspose.Cells](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells dla .NET: Możesz pobrać go ze strony[Strona wydań Aspose.Cells](https://releases.aspose.com/cells/net/).
 - .NET Framework zainstalowany na Twoim komputerze.
 - Podstawowa znajomość języka C#: Pomocna będzie znajomość takich pojęć, jak klasy, metody i obiekty.
 
@@ -31,7 +31,7 @@ using Aspose.Cells;
 
 Mając już za sobą wymagania wstępne i pakiety, możemy przejść do przyjemniejszej części: kodowania!
 
-Poniżej przedstawiono sposób scalania komórek w nazwanym zakresie w arkuszu programu Excel przy użyciu pakietu Aspose.Cells dla platformy .NET.
+Poniżej przedstawiono sposób scalania komórek w nazwanym zakresie w arkuszu programu Excel przy użyciu Aspose.Cells dla platformy .NET.
 
 ## Krok 1: Utwórz nowy skoroszyt
 
@@ -44,7 +44,7 @@ Workbook wb1 = new Workbook();
 
 Dzięki zainicjowaniu nowego skoroszytu mamy teraz pusty plik Excela gotowy do manipulacji. To jak rozpoczęcie od pustego płótna!
 
-## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 2: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Każdy skoroszyt zawiera arkusze, a w tym przypadku chcemy pracować z pierwszym. Weźmy go!
 
@@ -66,7 +66,7 @@ Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 
 Tutaj wybieramy komórki od D6 do I12 — blok obejmujący wiele wierszy i kolumn. Wkrótce połączymy ten zakres!
 
-## Krok 4: Nadaj nazwę zakresowi
+## Krok 4: Nazwij zakres
 
 Nadanie nazwy zakresowi ułatwia późniejsze odwołanie się do niego, zwłaszcza w przypadku dużych zbiorów danych.
 
@@ -75,7 +75,7 @@ Nadanie nazwy zakresowi ułatwia późniejsze odwołanie się do niego, zwłaszc
 mrange.Name = "TestRange";
 ```
 
-Nazywając ten zakres „TestRange”, możemy go szybko pobrać później w kodzie, bez konieczności ponownego określania współrzędnych komórki.
+Nadając temu zakresowi nazwę „TestRange”, możemy go szybko pobrać później w kodzie, bez konieczności ponownego określania współrzędnych komórki.
 
 ## Krok 5: Scalanie zakresu komórek
 
@@ -169,7 +169,7 @@ Nie, w Aspose.Cells można scalać tylko sąsiadujące komórki.
 ### Czy mogę programowo cofnąć operację scalania?  
  Po połączeniu komórek możesz je rozdzielić za pomocą`UnMerge()` metoda w Aspose.Cells.
 
-### Czy scalanie komórek powoduje usunięcie zawartych w nich danych?  
+### Czy scalenie komórek powoduje usunięcie zawartych w nich danych?  
 Jeśli przed scaleniem w komórkach znajdowały się jakieś dane, zostaną zachowane dane z pierwszej komórki zakresu.
 
 ### Czy mogę zastosować różne style do poszczególnych komórek w ramach scalonego zakresu?  

@@ -42,7 +42,7 @@ Décomposons le tout en étapes faciles à gérer. Nous avons déjà posé les b
 
 ## Étape 1 : Configurez votre répertoire de documents
 
-Pour réaliser cette amélioration, vous devez déclarer un chemin d'accès pour votre document. C'est là que vous conserverez votre fichier Excel d'entrée et que vous enregistrerez également la sortie une fois que vous aurez supprimé les sauts de page.
+Pour aborder cette amélioration, vous devez déclarer un chemin d'accès pour votre document. C'est là que vous conserverez votre fichier Excel d'entrée et que vous enregistrerez également la sortie une fois que vous aurez supprimé les sauts de page.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

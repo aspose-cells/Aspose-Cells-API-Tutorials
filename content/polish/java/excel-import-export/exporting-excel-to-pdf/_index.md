@@ -57,7 +57,7 @@ public class ExcelToPdfConverter {
 
  Upewnij się, że wymieniasz`"path/to/your/excel/file.xlsx"` z rzeczywistą ścieżką do pliku Excel.
 
-## Krok 3: Konwersja pliku Excel do formatu PDF
+## Krok 3: Konwersja Excela do PDF
 
 Po załadowaniu pliku Excel możemy przejść do konwersji do formatu PDF. Aspose.Cells znacznie upraszcza ten proces:
 

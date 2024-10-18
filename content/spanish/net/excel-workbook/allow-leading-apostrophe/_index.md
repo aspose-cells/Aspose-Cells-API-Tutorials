@@ -16,7 +16,7 @@ Bienvenido a esta guía paso a paso sobre cómo usar Aspose.Cells para .NET para
 Antes de sumergirnos en el código, aquí hay algunos requisitos previos que debes cumplir:
 
 1. Conocimientos básicos de .NET: es fundamental estar familiarizado con el marco .NET. Si ya tienes experiencia con C# o VB.NET, considérate preparado.
-2. Biblioteca Aspose.Cells para .NET: necesitará tener instalado Aspose.Cells. Puede hacerlo fácilmente a través del administrador de paquetes NuGet o descargarlo desde el sitio web[Sitio de Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells para .NET: necesitará tener Aspose.Cells instalado. Puede hacerlo fácilmente a través del administrador de paquetes NuGet o descargarlo desde el sitio web.[Sitio de Aspose](https://releases.aspose.com/cells/net/).
 3. Configuración de IDE: asegúrese de tener un entorno de desarrollo integrado (IDE) como Visual Studio listo para codificar.
 4. Archivo de Excel de muestra: puede utilizar el archivo de muestra ("AllowLeadingApostropheSample.xlsx") con el que trabajaremos en el código.
 
@@ -49,7 +49,7 @@ string outputDir = "Your Output Directory";
 
 ## Paso 2: Crear un objeto de diseño de libros de trabajo
 
-Ahora, instanciaremos WorkbookDesigner, que es crucial para trabajar con marcadores inteligentes en Aspose.Cells.
+Ahora, crearemos una instancia de WorkbookDesigner, que es crucial para trabajar con marcadores inteligentes en Aspose.Cells.
 
 ```csharp
 // Creación de una instancia de un objeto WorkbookDesigner

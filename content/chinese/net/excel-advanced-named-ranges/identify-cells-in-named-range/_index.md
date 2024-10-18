@@ -117,7 +117,7 @@ Console.WriteLine("IdentifyCellsInNamedRange executed successfully.");
 Aspose.Cells for .NET 是一个功能强大的库，允许开发人员以编程方式创建、操作和转换 Excel 文件。
 
 ### 我可以免费使用 Aspose.Cells 吗？
-是的！Aspose 提供免费试用版，您可以用它来测试该库的功能。 
+是的！Aspose 提供免费试用版，您可以用来测试该库的功能。 
 
 ### 如何在 Excel 中定义命名范围？
 要创建命名范围，请选择要包含的单元格，转到 Excel 中的“公式”选项卡，然后选择“定义名称”。

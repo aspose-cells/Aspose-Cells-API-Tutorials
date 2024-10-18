@@ -2,7 +2,7 @@
 title: Metodi di esportazione dati Excel
 linktitle: Metodi di esportazione dati Excel
 second_title: API di elaborazione Excel Java Aspose.Cells
-description: Sblocca il potenziale dei metodi di esportazione dati Excel usando Aspose.Cells per Java. Impara con esempi pratici di codice sorgente in questa guida completa. Ottimizza le tue competenze di gestione dati oggi stesso.
+description: Sblocca il potenziale dei metodi di esportazione dati Excel utilizzando Aspose.Cells per Java. Impara con esempi pratici di codice sorgente in questa guida completa. Ottimizza le tue competenze di gestione dati oggi stesso.
 type: docs
 weight: 11
 url: /it/java/excel-import-export/excel-data-export-methods/
@@ -109,7 +109,7 @@ public class ExcelToHTML {
         // Crea opzioni di salvataggio HTML
         HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
 
-        // Salva la cartella di lavoro come HTML
+        // Salvare la cartella di lavoro come HTML
         workbook.save("output.html", htmlSaveOptions);
     }
 }

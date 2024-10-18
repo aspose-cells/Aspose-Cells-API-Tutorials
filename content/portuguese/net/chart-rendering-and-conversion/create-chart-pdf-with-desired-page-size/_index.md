@@ -1,7 +1,7 @@
 ---
 title: Crie um gráfico em PDF com o tamanho de página desejado
 linktitle: Crie um gráfico em PDF com o tamanho de página desejado
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Crie um PDF com seu gráfico do Excel usando Aspose.Cells para .NET. Aprenda como com este guia passo a passo.
 type: docs
 weight: 12
@@ -121,7 +121,7 @@ Esta mensagem aparecerá na janela do console quando o processo for concluído, 
 
 ## Conclusão
 
-Parabéns! Você acabou de aprender como aproveitar o Aspose.Cells para .NET para criar um PDF a partir de um gráfico contido em um arquivo Excel. Esta biblioteca poderosa simplifica o processo de manipulação de documentos Excel e geração de representações visuais de dados, economizando horas de formatação manual. Não deixe de explorar a infinidade de outros recursos que o Aspose.Cells oferece além da geração de PDF — você nunca sabe o que pode aprimorar ainda mais seus projetos!
+Parabéns! Você acabou de aprender como aproveitar o Aspose.Cells para .NET para criar um PDF a partir de um gráfico contido em um arquivo Excel. Esta poderosa biblioteca simplifica o processo de manipulação de documentos Excel e geração de representações visuais de dados, economizando horas de formatação manual. Não deixe de explorar a infinidade de outros recursos que o Aspose.Cells oferece além da geração de PDF — você nunca sabe o que pode aprimorar ainda mais seus projetos!
 
 ## Perguntas frequentes
 

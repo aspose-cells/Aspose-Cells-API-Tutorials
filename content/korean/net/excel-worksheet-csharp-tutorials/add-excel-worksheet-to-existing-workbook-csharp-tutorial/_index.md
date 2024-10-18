@@ -18,7 +18,7 @@ url: /ko/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-wo
 1.  Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. 아직 설치되어 있지 않으면 다음에서 다운로드할 수 있습니다.[여기](https://visualstudio.microsoft.com/vs/).
 2.  .NET용 Aspose.Cells: 프로젝트에 Aspose.Cells for .NET을 통합해야 합니다. 다음에서 가져올 수 있습니다.[다운로드 링크](https://releases.aspose.com/cells/net/)이 라이브러리는 Excel 파일 작업에 필수적이며 광범위한 기능을 지원합니다.
 3. C#에 대한 기본 이해: C# 프로그래밍 언어에 대한 지식은 더 쉽게 따라갈 수 있도록 도와줍니다. 걱정하지 마세요. 단계별로 프로세스를 안내해 드리겠습니다!
-4. 문서 디렉토리: 이 튜토리얼의 Excel 파일을 저장할 수 있는 폴더가 컴퓨터에 있는지 확인하세요. 
+4. 문서 디렉토리: 이 튜토리얼을 위해 Excel 파일을 저장할 수 있는 폴더가 컴퓨터에 있는지 확인하세요. 
 
 목록에 있는 모든 것을 다 얻었나요? 좋아요! 이제 필요한 패키지를 임포트해 봅시다.
 
@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 다음으로, Excel 파일을 보관할 Workbook 클래스의 인스턴스를 만들어야 합니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,27 +69,27 @@ Workbook workbook = new Workbook(fstream);
 
 ## 4단계: 새 워크시트 추가
 
-이제 흥미로운 부분이 나옵니다! 워크북에 새 워크시트를 추가해 보겠습니다. 이것은 다음을 사용하여 수행됩니다.`Add()` 방법에서`Worksheets`수집.
+ 이제 흥미로운 부분이 나옵니다! 워크북에 새 워크시트를 추가해 보겠습니다. 이것은 다음을 사용하여 수행됩니다.`Add()` 방법에서`Worksheets`수집.
 
 ```csharp
 // Workbook 개체에 새 워크시트 추가
 int i = workbook.Worksheets.Add();
 ```
 
- 이 코드 줄을 사용하여 새 시트를 추가하고 이 새 시트의 인덱스가 변수에 캡처됩니다.`i`.
+이 코드 줄을 사용하여 새 시트를 추가하고 이 새 시트의 인덱스가 변수에 캡처됩니다.`i`.
 
 ## 5단계: 새로 추가된 워크시트에 대한 참조 얻기
 
 새 워크시트를 만든 후에는 참조를 얻는 것이 중요합니다. 이렇게 하면 시트 이름과 같은 속성을 사용자 지정할 수 있습니다.
 
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
  여기서 우리는 인덱스를 사용하고 있습니다`i` 새로 만든 워크시트를 참조하기 위해서입니다. 이렇게 하면 더 조작할 수 있습니다.
 
-## 6단계: 새 워크시트의 이름 설정
+## 6단계: 새 워크시트 이름 설정
 
 이름이 없는 워크시트가 뭐죠? 새로 추가한 워크시트에 정체성을 부여해 봅시다!
 
@@ -142,5 +142,5 @@ Aspose.Cells는 .NET 애플리케이션에서 Excel 파일을 작업하기 위�
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?
  지원을 받고 질문할 수 있습니다.[지원 포럼](https://forum.aspose.com/c/cells/9).
 
-### Aspose.Cells에 대한 임시 라이선스를 받으려면 어떻게 해야 하나요?
+### Aspose.Cells에 대한 임시 라이센스를 받으려면 어떻게 해야 하나요?
  Aspose 웹사이트에서 임시 라이센스를 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

@@ -2,7 +2,7 @@
 title: Excel'de ORTALAMA İşlevi
 linktitle: Excel'de ORTALAMA İşlevi
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java ile Excel'de AVERAGE işlevini nasıl kullanacağınızı öğrenin. Adım adım kılavuz, kod örnekleri ve verimli Excel otomasyonu için ipuçları.
+description: Excel'de AVERAGE işlevini Aspose.Cells for Java ile nasıl kullanacağınızı öğrenin. Adım adım kılavuz, kod örnekleri ve verimli Excel otomasyonu için ipuçları.
 type: docs
 weight: 15
 url: /tr/java/basic-excel-functions/average-function-in-excel/
@@ -58,7 +58,7 @@ Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=AVERAGE(A1:A4)");
 ```
 
-Bu kodda, A1'den A4'e kadar olan hücrelerdeki sayıların ortalamasını hesaplamak için B1 hücresine formül ayarlıyoruz.
+Bu kodda, A1 ile A4 hücrelerindeki sayıların ortalamasını hesaplamak için B1 hücresine formül ayarlıyoruz.
 
 ## Excel Sayfasını Biçimlendirme
 
@@ -77,7 +77,7 @@ Bu kod hücrenin yazı tipini, boyutunu ve ön plan rengini değiştirir.
 
 ## Excel Dosyalarını Kaydetme ve Dışa Aktarma
 
-Excel sayfanızı oluşturup biçimlendirdikten sonra, onu belirli bir konuma kaydedebilir veya PDF veya CSV gibi çeşitli biçimlere aktarabilirsiniz. İşte PDF olarak kaydetme yöntemi:
+Excel sayfanızı oluşturup biçimlendirdikten sonra, onu belirli bir konuma kaydedebilir veya PDF veya CSV gibi çeşitli biçimlere aktarabilirsiniz. İşte PDF olarak nasıl kaydedeceğiniz:
 
 ```java
 // Çalışma kitabını PDF olarak kaydetmek için Java kodu
@@ -125,7 +125,7 @@ Java için Aspose.Cells, Excel otomasyonunu basitleştirerek size zaman ve emek 
 
 ### Excel hücrelerinin görünümünü nasıl özelleştirebilirim?
 
-Java için Aspose.Cells'i kullanarak yazı tiplerini, renkleri ve stilleri değiştirerek hücre görünümünü özelleştirebilirsiniz. Ayrıntılı talimatlar için belgelere bakın.
+Aspose.Cells for Java'yı kullanarak yazı tiplerini, renkleri ve stilleri değiştirerek hücre görünümünü özelleştirebilirsiniz. Ayrıntılı talimatlar için belgelere bakın.
 
 ### Aspose.Cells for Java'nın daha gelişmiş özelliklerine nereden erişebilirim?
 

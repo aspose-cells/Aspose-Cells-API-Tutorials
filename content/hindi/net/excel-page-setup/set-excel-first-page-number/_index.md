@@ -89,7 +89,7 @@ worksheet.PageSetup.FirstPageNumber = 2;
 
 ## चरण 5: कार्यपुस्तिका सहेजें
 
- अंत में, अब आपके परिवर्तनों को सहेजने का समय आ गया है।`Save` विधि कार्यपुस्तिका को निर्दिष्ट स्थान पर सहेज देगी.
+ अंत में, अपने परिवर्तनों को सहेजने का समय आ गया है।`Save` विधि कार्यपुस्तिका को निर्दिष्ट स्थान पर सहेज देगी.
 
 ```csharp
 workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
@@ -107,7 +107,7 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 Aspose.Cells एक .NET लाइब्रेरी है जिसे आपके मशीन पर Microsoft Excel स्थापित किए बिना Excel फ़ाइलों को बनाने, हेरफेर करने और परिवर्तित करने के लिए डिज़ाइन किया गया है।
 
 ### मैं Aspose.Cells कैसे डाउनलोड करूं?
- आप Aspose.Cells को यहाँ से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/cells/net/).
+ आप Aspose.Cells को यहां से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/cells/net/).
 
 ### क्या Aspose.Cells का कोई निःशुल्क संस्करण उपलब्ध है?
 हाँ! आप परीक्षण संस्करण डाउनलोड करके Aspose.Cells को निःशुल्क आज़मा सकते हैं[यहाँ](https://releases.aspose.com/).

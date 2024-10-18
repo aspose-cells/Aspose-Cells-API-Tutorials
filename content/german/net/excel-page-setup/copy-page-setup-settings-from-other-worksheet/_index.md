@@ -57,7 +57,7 @@ wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-Hier haben wir zwei Arbeitsblätter mit den Namen „TestSheet1“ und „TestSheet2“ hinzugefügt. Dies ist, als würden Sie in Ihrer Arbeitsmappe zwei verschiedene Seiten erstellen, auf denen Sie den Inhalt unabhängig voneinander verwalten können.
+Hier haben wir zwei Arbeitsblätter mit den Namen „TestSheet1“ und „TestSheet2“ hinzugefügt. Das ist so, als würden Sie in Ihrer Arbeitsmappe zwei verschiedene Seiten erstellen, deren Inhalt Sie unabhängig voneinander verwalten können.
 
 ## Schritt 3: Zugriff auf die Arbeitsblätter
 

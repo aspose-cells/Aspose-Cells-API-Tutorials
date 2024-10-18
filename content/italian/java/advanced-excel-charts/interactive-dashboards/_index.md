@@ -110,7 +110,7 @@ Sì, Aspose.Cells per Java consente di importare dati da varie fonti, tra cui da
 
 ### Ci sono limitazioni al numero di elementi interattivi che posso aggiungere?
 
-Il numero di elementi interattivi che puoi aggiungere alla tua dashboard è limitato dalla memoria disponibile e dalle risorse di sistema. Sii consapevole delle considerazioni sulle prestazioni quando progetti la tua dashboard.
+Il numero di elementi interattivi che puoi aggiungere alla tua dashboard è limitato dalla memoria disponibile e dalle risorse di sistema. Tieni a mente le considerazioni sulle prestazioni quando progetti la tua dashboard.
 
 ### Posso esportare la mia dashboard interattiva in altri formati, come PDF o HTML?
 
@@ -118,4 +118,4 @@ Sì, Aspose.Cells per Java offre la possibilità di esportare la tua dashboard i
 
 ### Aspose.Cells per Java è adatto a progetti di visualizzazione dati su larga scala?
 
-Sì, Aspose.Cells per Java è adatto sia per progetti di visualizzazione dati su piccola scala che su larga scala. La sua flessibilità e il suo ampio set di funzionalità lo rendono una scelta solida per requisiti diversi.
+Sì, Aspose.Cells per Java è adatto sia per progetti di visualizzazione dati su piccola che su larga scala. La sua flessibilità e il suo ampio set di funzionalità lo rendono una scelta solida per requisiti diversi.

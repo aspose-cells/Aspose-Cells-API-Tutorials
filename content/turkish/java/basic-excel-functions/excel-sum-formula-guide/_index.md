@@ -2,7 +2,7 @@
 title: Excel SUM Formül Kılavuzu
 linktitle: Excel SUM Formül Kılavuzu
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile Excel SUM Formülünün Gücünü Açığa Çıkarın - Excel Otomasyonuna Yönelik Kapsamlı Kılavuzunuz.
+description: Aspose.Cells for Java ile Excel SUM Formülünün Gücünü Açığa Çıkarın - Excel Otomasyonuna Yönelik Kapsamlı Kılavuzunuz.
 type: docs
 weight: 10
 url: /tr/java/basic-excel-functions/excel-sum-formula-guide/
@@ -117,7 +117,7 @@ Verilerinizi sunarken biçimlendirme çok önemlidir. Aspose.Cells, SUM sonuçla
 
 ## Çözüm
 
-Bu kapsamlı kılavuzda, Excel SUM formülünü ve Aspose.Cells for Java'yı kullanarak bundan nasıl yararlanacağınızı inceledik. Ortamınızı nasıl kuracağınızı, çalışma kitapları nasıl oluşturacağınızı, veri nasıl ekleyeceğinizi ve SUM formülünü çeşitli senaryolarda nasıl uygulayacağınızı öğrendiniz. Bu bilgiyle Excel otomasyon görevlerinizi kolaylaştırabilir ve Aspose.Cells'in tüm potansiyelini ortaya çıkarabilirsiniz.
+Bu kapsamlı kılavuzda, Excel SUM formülünü ve Aspose.Cells for Java kullanarak bundan nasıl yararlanacağınızı inceledik. Ortamınızı nasıl kuracağınızı, çalışma kitapları nasıl oluşturacağınızı, veri nasıl ekleyeceğinizi ve SUM formülünü çeşitli senaryolarda nasıl uygulayacağınızı öğrendiniz. Bu bilgiyle Excel otomasyon görevlerinizi kolaylaştırabilir ve Aspose.Cells'in tüm potansiyelini ortaya çıkarabilirsiniz.
 
 ## SSS
 

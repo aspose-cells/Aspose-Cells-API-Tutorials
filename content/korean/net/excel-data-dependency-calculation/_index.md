@@ -2,7 +2,7 @@
 title: Excel 데이터 종속성 및 계산
 linktitle: Excel 데이터 종속성 및 계산
 second_title: Aspose.Cells .NET Excel 처리 API
-description: Excel 데이터 종속성 및 계산을 다루는 .NET용 Aspose.Cells 자습서를 살펴보고 종속 셀 추적을 포함하여 Excel 자동화 기술을 향상하세요.
+description: Excel 데이터 종속성 및 계산을 다루는 .NET용 Aspose.Cells 자습서를 살펴보고 종속 셀 추적을 포함하여 Excel 자동화 기술을 향상시켜 보세요.
 type: docs
 weight: 34
 url: /ko/net/excel-data-dependency-calculation/

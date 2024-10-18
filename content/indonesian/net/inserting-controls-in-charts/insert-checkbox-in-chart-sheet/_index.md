@@ -62,7 +62,7 @@ Sekarang setelah semuanya siap, mari kita mulai bagian pengkodean! Berikut adala
 
 ## Langkah 1: Tentukan Direktori Output Anda
 
-Sebelum kita masuk ke bagian yang menarik, kita perlu menentukan di mana kita ingin menyimpan berkas kita. Anda perlu menyediakan jalur direktori keluaran.
+Sebelum kita masuk ke bagian yang menarik, kita perlu menentukan di mana kita ingin menyimpan berkas kita. Anda perlu memberikan jalur direktori keluaran.
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Beralih ke direktori yang Anda tentukan
 ```

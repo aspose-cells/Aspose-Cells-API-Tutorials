@@ -87,7 +87,7 @@ Door een specifieke cel aan te wijzen voor uw breaks, bepaalt u hoe uw gegevens 
 
 ## Stap 4: De werkmap opslaan
 
-Nadat u de pagina-einden hebt toegevoegd, is de volgende stap het opslaan van uw bijgewerkte werkmap.
+Nadat u de pagina-einden hebt toegevoegd, moet u uw bijgewerkte werkmap opslaan.
 
 ```csharp
 workbook.Save(dataDir + "AddingPageBreaks_out.xls");
@@ -96,7 +96,7 @@ workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 
 ## Conclusie
 
-Pagina-einden toevoegen in Excel met Aspose.Cells voor .NET kan de presentatie van uw spreadsheets aanzienlijk verbeteren. Of u nu rapporten, afdrukken of gewoon de lay-out opschoont, begrijpen hoe u uw Excel-bestanden programmatisch beheert, is een game-changer. We hebben de basisbeginselen behandeld, van het importeren van pakketten tot het opslaan van de werkmap. Nu bent u uitgerust om pagina-einden toe te voegen en uw Excel-projecten naar een hoger niveau te tillen!
+Pagina-einden toevoegen in Excel met Aspose.Cells voor .NET kan de presentatie van uw spreadsheets aanzienlijk verbeteren. Of u nu rapporten, afdrukken of gewoon de lay-out opschoont, begrijpen hoe u uw Excel-bestanden programmatisch beheert, is een game-changer. We hebben de basisbeginselen doorlopen, van het importeren van pakketten tot het opslaan van de werkmap. Nu bent u uitgerust om pagina-einden toe te voegen en uw Excel-projecten naar een hoger niveau te tillen!
 
 ## Veelgestelde vragen
 

@@ -99,7 +99,7 @@ Workbook workbook = new Workbook();
 // Greifen Sie auf das erste Arbeitsblatt zu
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Zwei Datumswerte festlegen
+// Festlegen von zwei Datumswerten
 worksheet.getCells().get("A1").putValue("2023-09-07");
 worksheet.getCells().get("A2").putValue("2023-08-01");
 

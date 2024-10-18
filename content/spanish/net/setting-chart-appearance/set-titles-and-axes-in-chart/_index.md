@@ -47,11 +47,11 @@ En este paso, vamos a crear una instancia de un nuevo libro de trabajo.
 ```csharp
 //Directorio de salida
 static string outputDir = "Your Document Directory";
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
-Esta línea de código crea una nueva instancia de libro de trabajo que utilizaremos para nuestras operaciones. Piense en ello como si abriera un lienzo en blanco donde podemos agregar nuestros datos y gráficos.
+Esta línea de código crea una nueva instancia de libro de trabajo que utilizaremos para nuestras operaciones. Piense en ello como si abriésemos un lienzo en blanco donde podemos agregar nuestros datos y gráficos.
 
 ## Paso 2: Acceda a la hoja de trabajo
 
@@ -177,7 +177,7 @@ Piense en los ejes como si fueran señales en una carretera: guían a su audienc
 Finalmente, después de todo el arduo trabajo de crear y personalizar el gráfico, es hora de guardar nuestros cambios.
 
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(outputDir + "outputSettingTitlesAxes.xlsx");
 ```
 

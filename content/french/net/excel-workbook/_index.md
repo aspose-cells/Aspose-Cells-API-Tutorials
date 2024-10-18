@@ -13,7 +13,7 @@ Vous en avez assez de lutter avec la gestion des fichiers Excel ? Si vous avez d
 
 ## Accéder aux informations sur les extensions Web
 
-Comprendre comment accéder aux informations des extensions Web peut ouvrir de nouvelles possibilités dans vos feuilles de calcul Excel. Cela permet une interactivité améliorée dans vos fichiers. Notre tutoriel sur[Accéder aux informations sur l'extension Web](./access-web-extension-information/) fournit une procédure pas à pas pour faciliter ce processus, même pour ceux qui sont nouveaux dans Aspose.Cells.
+Comprendre comment accéder aux informations des extensions Web peut ouvrir de nouvelles possibilités dans vos feuilles de calcul Excel. Cela permet une interactivité améliorée dans vos fichiers. Notre tutoriel sur[Accéder aux informations sur l'extension Web](./access-web-extension-information/) fournit une procédure pas à pas pour rendre ce processus facile, même pour ceux qui sont nouveaux dans Aspose.Cells.
 
 ## Ajout de signatures numériques
 
@@ -45,7 +45,7 @@ Saviez-vous qu'Excel peut contenir des fichiers intégrés ? Si vous avez déjà
 
 ## Gestion des aperçus avant impression
 
- De temps en temps, vous devez présenter vos données de la manière la plus professionnelle possible. Apprendre à créer des aperçus avant impression peut être une compétence essentielle. Dans notre tutoriel sur[Aperçu avant impression du cahier d'exercices](./workbook-print-preview/), vous découvrirez comment formater correctement vos données avant de les imprimer. Ce processus peut vous éviter des erreurs embarrassantes et garantir que vos rapports sont aussi beaux sur papier qu'à l'écran.
+ De temps à autre, vous devez présenter vos données de la manière la plus professionnelle possible. Apprendre à créer des aperçus avant impression peut être une compétence essentielle. Dans notre tutoriel sur[Aperçu avant impression du cahier d'exercices](./workbook-print-preview/), vous découvrirez comment formater correctement vos données avant de les imprimer. Ce processus peut vous éviter des erreurs embarrassantes et garantir que vos rapports sont aussi beaux sur papier qu'à l'écran.
 
 ## Travailler avec des noms définis
 

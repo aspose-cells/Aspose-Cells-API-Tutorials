@@ -8,7 +8,7 @@ weight: 10
 url: /id/java/spreadsheet-automation/batch-excel-processing/
 ---
 
-Menangani beberapa file Excel dalam satu proses batch dapat memakan waktu dan rawan kesalahan jika dilakukan secara manual. Dalam tutorial ini, kita akan membahas cara menyederhanakan tugas pemrosesan Excel secara batch menggunakan Aspose.Cells for Java, API Java yang canggih untuk bekerja dengan file Excel.
+Menangani beberapa file Excel dalam proses batch dapat memakan waktu dan rawan kesalahan jika dilakukan secara manual. Dalam tutorial ini, kita akan membahas cara menyederhanakan tugas pemrosesan Excel batch menggunakan Aspose.Cells for Java, API Java yang canggih untuk bekerja dengan file Excel.
 
 ## Mengapa Mengotomatiskan Pemrosesan Excel Batch?
 

@@ -18,7 +18,7 @@ Mielőtt belemerülnénk a tényleges kódolásba, elengedhetetlen, hogy minden 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio (bármilyen verzió, amely támogatja a .NET-et) telepítve van a számítógépén.
 2.  Aspose.Cells for .NET: Töltse le és telepítse az Aspose.Cells könyvtárat innen[Aspose oldala](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismerete: Hasznos lesz egy kis C# programozási ismerete, mivel C# kontextusban fogunk dolgozni.
-4. Minta Excel fájl: A demonstrációhoz készítsen egy Excel minta fájlt (pl.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), amely tartalmaz néhány kezdeti cellaformázást.
+4.  Minta Excel fájl: A demonstrációhoz készítsen egy Excel minta fájlt (pl.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`), amely tartalmaz néhány kezdeti cellaformázást.
 
 ## Csomagok importálása
 
@@ -50,7 +50,7 @@ Most, hogy az előfeltételeinket rendeztük és a csomagokat importáltuk, bont
 
 ## 1. lépés: Állítsa be a forrás- és kimeneti könyvtárakat
 
-kezdéshez meg kell határoznia, hogy hol tárolja az Excel-fájlt, és hova szeretné menteni a feldolgozás után.
+A kezdéshez meg kell határoznia, hogy hol tárolja az Excel-fájlt, és hova szeretné menteni a feldolgozás után.
 
 ```csharp
 // Forrás könyvtár
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Beállításával a`Alignments` a StyleFlag tulajdona`true`, akkor megmondja az Aspose.Cells-nek, hogy megfelelően alkalmazza az igazítási stílusokat.
+ Beállításával a`Alignments` StyleFlag tulajdona`true`, akkor megmondja az Aspose.Cells-nek, hogy megfelelően alkalmazza az igazítási stílusokat.
 
 ## 7. lépés: Alkalmazza a stílust a cellatartományra
 

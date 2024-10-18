@@ -15,7 +15,7 @@ Das programmgesteuerte Erstellen und Verwalten von Excel-Dateien kann ziemlich m
 
 Bevor wir beginnen, sollten einige Voraussetzungen erfüllt sein:
 
-1. Grundkenntnisse in C#: Grundlegende Kenntnisse in C# und dem .NET-Framework werden Ihnen sicherlich dabei helfen, sich im Lernprogramm zurechtzufinden.
+1. Grundkenntnisse in C#: Grundlegende Kenntnisse in C# und dem .NET-Framework werden Ihnen sicherlich dabei helfen, sich durch das Tutorial zu navigieren.
 2.  Aspose.Cells für .NET installiert: Sie müssen die Aspose.Cells für .NET-Bibliothek installiert haben. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 3. Visual Studio oder ähnliche IDE: Sie benötigen eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio, um den Code zu schreiben und auszuführen.
 4. Excel-Datei: Sie sollten eine Excel-Datei haben (wie`book1.xls`) stehen in Ihrem Dokumentverzeichnis zur Bearbeitung zur Verfügung.
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Schritt 3: Instanziieren der Arbeitsmappe
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 // Öffnen der Excel-Datei über den Dateistream
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,11 +74,11 @@ Workbook workbook = new Workbook(fstream);
 ## Schritt 4: Zugriff auf das Arbeitsblatt
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Hier greifen wir auf das erste Arbeitsblatt in Ihrer Arbeitsmappe über seinen Index (nullbasiert) zu. Wenn Sie mehrere Blätter haben, können Sie auf andere zugreifen, indem Sie den Index ändern.
+Hier greifen wir über seinen Index (nullbasiert) auf das erste Arbeitsblatt in Ihrer Arbeitsmappe zu. Wenn Sie mehrere Blätter haben, können Sie durch Ändern des Index auf andere zugreifen.
 
 ## Schritt 5: Seitenumbruchvorschau aktivieren
 
@@ -96,7 +96,7 @@ Dieser wichtige Schritt aktiviert den Seitenumbruchvorschaumodus für das Arbeit
 workbook.Save(dataDir + "output.xls");
 ```
 
-Nachdem Sie Ihre Änderungen vorgenommen haben, müssen Sie die Arbeitsmappe unbedingt speichern. Hier speichern wir sie als`output.xls`, aber Sie können den Dateinamen nach Bedarf ändern.
+Nachdem Sie Ihre Änderungen vorgenommen haben, müssen Sie die Arbeitsmappe unbedingt speichern. Hier speichern wir sie als`output.xls`, Sie können den Dateinamen jedoch nach Bedarf ändern.
 
 ## Schritt 7: Ressourcen bereinigen
 

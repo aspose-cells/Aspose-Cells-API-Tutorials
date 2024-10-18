@@ -2,7 +2,7 @@
 title: Opties voor aanpassen aan Excel-pagina's
 linktitle: Opties voor aanpassen aan Excel-pagina's
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u de opties voor Aanpassen aan Excel-pagina's kunt gebruiken met Aspose.Cells voor .NET en uw gegevens op een prachtige manier kunt presenteren in een eenvoudige stapsgewijze handleiding.
+description: Leer hoe u de opties voor Aanpassen aan Excel-pagina's kunt gebruiken met Aspose.Cells voor .NET en uw gegevens op prachtige wijze kunt presenteren in een eenvoudige stapsgewijze handleiding.
 type: docs
 weight: 30
 url: /nl/net/excel-page-setup/fit-to-excel-pages-options/
@@ -43,20 +43,20 @@ using Aspose.Cells;
 using System;
 ```
 
-bent nu klaar om te beginnen met coderen met Aspose.Cells!
+U bent nu klaar om te beginnen met coderen met Aspose.Cells!
 
 Klaar om uw Excel-pagina's te formatteren? Laten we het proces stap voor stap uitleggen.
 
 ## Stap 1: Stel uw werkruimte in
 
-Laten we eerst onze werkmap initialiseren en toegang krijgen tot het gewenste werkblad. Dit is waar alle actie begint.
+Laten we eerst onze Workbook initialiseren en het gewenste werkblad openen. Dit is waar alle actie begint.
 
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

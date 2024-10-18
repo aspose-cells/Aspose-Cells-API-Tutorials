@@ -33,10 +33,10 @@ Workbook workbook = new Workbook();
 
 ## ステップ3: ワークシートの追加
 
-ここで、カスタム データ検証を適用するワークシートをワークブックに追加しましょう。
+ここで、カスタム データ検証を適用するワークシートをワークブックに追加します。
 
 ```java
-//ワークシートを追加するためのJavaコード
+//ワークシートを追加するJavaコード
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 

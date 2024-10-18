@@ -9,7 +9,7 @@ url: /id/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 ---
 ## Perkenalan
 
-Dalam hal mengedit lembar kerja Excel, salah satu fitur paling hebat yang berguna adalah kemampuan untuk melindungi area tertentu sekaligus mengizinkan pengeditan di area lain. Ini bisa sangat berguna dalam lingkungan kolaboratif di mana banyak pengguna memerlukan akses tetapi hanya boleh mengubah sel yang ditentukan. Hari ini, kita akan membahas cara memanfaatkan Aspose.Cells for .NET untuk mengelola rentang yang dapat diedit dalam lembar kerja Excel. Jadi, ambil minuman pengodean favorit Anda dan mari kita mulai!
+Dalam hal mengedit lembar kerja Excel, salah satu fitur paling canggih yang berguna adalah kemampuan untuk melindungi area tertentu sekaligus mengizinkan pengeditan di area lain. Ini bisa sangat berguna dalam lingkungan kolaboratif di mana banyak pengguna memerlukan akses tetapi hanya boleh mengubah sel yang ditentukan. Hari ini, kita akan membahas cara memanfaatkan Aspose.Cells for .NET untuk mengelola rentang yang dapat diedit dalam lembar kerja Excel. Jadi, ambil minuman pengodean favorit Anda dan mari kita mulai!
 
 ## Prasyarat
 
@@ -41,7 +41,7 @@ Mari kita buat kode untuk membuat direktori (jika belum ada):
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat direktori jika belum ada.
+//Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -95,7 +95,7 @@ int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 ```
 
-Dalam kode di atas, kita membuat rentang terproteksi bernama "r2" yang memungkinkan pengeditan di sel dari baris 1, kolom 1 hingga baris 3, kolom 3 (yang dalam bahasa Excel diterjemahkan menjadi blok A1 hingga C3). Anda dapat menyesuaikan indeks ini sesuai kebutuhan.
+Dalam kode di atas, kita membuat rentang terproteksi bernama "r2" yang memungkinkan pengeditan di sel dari baris 1, kolom 1 hingga baris 3, kolom 3 (yang dalam istilah Excel diterjemahkan menjadi blok A1 hingga C3). Anda dapat menyesuaikan indeks ini sesuai kebutuhan.
 
 ## Langkah 6: Tetapkan Kata Sandi 
 
@@ -106,7 +106,7 @@ Menetapkan kata sandi untuk rentang yang dilindungi memastikan bahwa hanya merek
 proteced_range.Password = "YOUR_PASSWORD";
 ```
 
- Mengganti`"YOUR_PASSWORD"` dengan kata sandi pilihan Anda. Ingat, jangan membuatnya terlalu sederhana—anggap saja seperti mengunci peti harta karun Anda!
+ Mengganti`"YOUR_PASSWORD"` dengan kata sandi pilihan Anda. Ingat saja, jangan membuatnya terlalu sederhana—anggap saja seperti mengunci peti harta karun Anda!
 
 ## Langkah 7: Lindungi Lembaran
 

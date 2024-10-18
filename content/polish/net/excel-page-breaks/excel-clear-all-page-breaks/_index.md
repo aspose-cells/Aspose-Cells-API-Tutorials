@@ -9,7 +9,7 @@ url: /pl/net/excel-page-breaks/excel-clear-all-page-breaks/
 ---
 ## Wstęp
 
-Jeśli kiedykolwiek bawiłeś się programem Excel, wiesz, że podziały stron mogą być zarówno błogosławieństwem, jak i przekleństwem. Pomagają w uporządkowaniu układu arkusza kalkulacyjnego do drukowania, ale czasami mogą być zagracone lub źle umieszczone. Niezależnie od tego, czy przygotowujesz raport, sprawozdanie finansowe, czy prosty budżet domowy, dowiedzenie się, jak wyczyścić wszystkie podziały stron w pliku programu Excel, może być właśnie tym, czego potrzebujesz, aby uporządkować dane. Wprowadź Aspose.Cells dla .NET — solidną bibliotekę, która sprawia, że zarządzanie plikami programu Excel staje się dziecinnie proste. W tym artykule przyjrzymy się krok po kroku, jak wyczyścić wszystkie podziały stron w arkuszu kalkulacyjnym programu Excel, dzięki czemu będziesz mieć kontrolę i przejrzystość bez wysiłku. Zapnij pasy; zaczynajmy!
+Jeśli kiedykolwiek bawiłeś się programem Excel, wiesz, że podziały stron mogą być zarówno błogosławieństwem, jak i przekleństwem. Pomagają w uporządkowaniu układu arkusza kalkulacyjnego do drukowania, ale czasami mogą być zagracone lub źle umieszczone. Niezależnie od tego, czy przygotowujesz raport, sprawozdanie finansowe, czy prosty budżet domowy, dowiedzenie się, jak wyczyścić wszystkie podziały stron w pliku programu Excel, może być właśnie tym, czego potrzebujesz, aby uporządkować dane. Wprowadź Aspose.Cells dla .NET — solidną bibliotekę, która sprawia, że zarządzanie plikami programu Excel jest dziecinnie proste. W tym artykule przyjrzymy się krok po kroku, jak wyczyścić wszystkie podziały stron w arkuszu kalkulacyjnym programu Excel, dzięki czemu będziesz mieć kontrolę i przejrzystość bez wysiłku. Zapnij pasy; zaczynajmy!
 
 ## Wymagania wstępne
 
@@ -74,7 +74,7 @@ Teraz zróbmy to samo dla pionowych podziałów stron.
 ```csharp
 workbook.Worksheets[0].VerticalPageBreaks.Clear();
 ```
-Dzięki tej linii upewniasz się, że wszystkie pionowe podziały stron również znikną. Po tej operacji Twój arkusz kalkulacyjny będzie wyglądał na odmłodzony — zupełnie jak po dobrym wiosennym porządkowaniu!
+Dzięki tej linijce upewniasz się, że wszystkie pionowe podziały stron również znikną. Po tej operacji Twój arkusz kalkulacyjny będzie wyglądał na odmłodzony — zupełnie jak po dobrym wiosennym porządkowaniu!
 
 ## Krok 5: Zapisz zmiany
 

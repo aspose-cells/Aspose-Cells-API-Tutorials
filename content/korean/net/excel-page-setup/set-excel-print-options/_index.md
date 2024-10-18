@@ -13,7 +13,7 @@ url: /ko/net/excel-page-setup/set-excel-print-options/
 
 ## 필수 조건
 
-코드로 들어가기 전에, 원활하게 진행하는 데 필요한 모든 것이 있는지 확인해 보겠습니다.
+코드로 넘어가기 전에, 원활하게 진행하는 데 필요한 모든 것이 있는지 확인해 보겠습니다.
 
 1. Visual Studio나 .NET IDE: 안정적인 개발 환경이 필요합니다.
 2. .NET용 Aspose.Cells 라이브러리: 이 라이브러리를 설치했는지 확인하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  다음으로, 우리는 다음을 만들어야 합니다.`Workbook` 객체. 이 객체는 스프레드시트 데이터의 컨테이너 역할을 합니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -148,7 +148,7 @@ Aspose.Cells는 Excel 파일을 조작하고 관리할 수 있는 강력한 .NET
 ### Aspose.Cells 무료 체험판을 받을 수 있나요?  
  네, Aspose.Cells의 무료 평가판에 접속할 수 있습니다.[여기](https://releases.aspose.com/).
 
-### Aspose.Cells에 대한 임시 라이선스를 어떻게 얻을 수 있나요?  
+### Aspose.Cells에 대한 임시 라이선스를 얻으려면 어떻게 해야 하나요?  
  이를 통해 임시 라이센스를 요청할 수 있습니다.[링크](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells에 대한 도움말이나 지원은 어디서 찾을 수 있나요?  

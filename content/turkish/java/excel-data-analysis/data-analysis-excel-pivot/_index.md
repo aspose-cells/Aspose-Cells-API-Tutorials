@@ -17,7 +17,7 @@ Veri analizinin inceliklerine dalmadan önce, Aspose.Cells for Java ile tanışa
 Bu kılavuzu takip etmek için aşağıdakilere ihtiyacınız olacak:
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
--  Java için Aspose.Cells: Projenize Aspose.Cells for Java kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Aspose.Cells for Java kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 - Örnek Veriler: Analiz etmek istediğiniz Excel verilerini hazırlayın.
 
 ## Yeni Bir Excel Çalışma Kitabı Oluşturma
@@ -53,7 +53,7 @@ PivotTable pivotTable = pivotTables.get(index);
 
 ## Pivot Tablo Alanlarını Tanımlama
 
-Veri analizini etkili bir şekilde gerçekleştirmek için pivot tablomuza hangi alanların dahil edileceğini belirtmemiz gerekir. Bu alanlar içe aktardığımız verilerden sütunlar olabilir.
+Veri analizini etkili bir şekilde gerçekleştirmek için pivot tablomuza hangi alanları dahil edeceğimizi belirtmemiz gerekir. Bu alanlar içe aktardığımız verilerden sütunlar olabilir.
 
 ```java
 // Pivot tablo alanlarını tanımlamak için Java kodu
@@ -73,7 +73,7 @@ pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // SU
 
 ## Pivot Tablo Düzenini Özelleştirme
 
-Pivot tablomuzu daha bilgilendirici hale getirmek için filtreler ekleme, sıralama ve alan konumlarını değiştirme gibi özelliklerle düzenini özelleştirebiliriz.
+Pivot tablomuzu daha bilgilendirici hale getirmek için filtreler ekleme, sıralama ve alan konumlarını değiştirme gibi düzenlemelerle düzenini özelleştirebiliriz.
 
 ```java
 // Pivot tablo düzenini özelleştirmek için Java kodu
@@ -107,6 +107,6 @@ Evet, Java için Aspose.Cells büyük veri kümelerini verimli bir şekilde işl
 
 Kesinlikle! Java için Aspose.Cells, Excel dosyalarını işlemek için Java kodu yazarak veri analizi görevlerini otomatikleştirmenize olanak tanır. Bu görevleri zamanlayabilir veya sorunsuz otomasyon için uygulamalarınıza entegre edebilirsiniz.
 
-### Aspose.Cells for Java için herhangi bir lisanslama gereksinimi var mı?
+### Java için Aspose.Cells için herhangi bir lisanslama gereksinimi var mı?
 
 Evet, Aspose.Cells for Java ticari bir kütüphanedir ve projelerinizde kullanmak için geçerli bir lisansa ihtiyacınız olacak. Lisanslama ayrıntıları ve fiyatlandırma bilgileri için Aspose web sitesini ziyaret edin.

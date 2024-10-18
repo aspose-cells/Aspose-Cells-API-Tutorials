@@ -78,7 +78,7 @@ workbook.Worksheets[0].VerticalPageBreaks.Clear();
 
 ## 第 5 步：儲存您的更改
 
-最後，您不想失去所有這些辛苦工作，對吧？是時候儲存新調整的工作簿了。
+最後，您不想失去所有這些辛苦工作，對嗎？是時候儲存新調整的工作簿了。
 
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
@@ -87,7 +87,7 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 
 ## 結論
 
-清除 Excel 中的分頁符號不一定是一項艱鉅的任務。有了 Aspose.Cells for .NET，您就擁有了一個強大的盟友，可以將流程簡化為幾個簡單的步驟。無論您是在準備重要的簡報還是只是整理電子表格，這個方便的庫都可以讓您專注於真正重要的事情。因此，捲起袖子，徹底改變您的 Excel 體驗！
+清除 Excel 中的分頁符號不一定是一項艱鉅的任務。有了 Aspose.Cells for .NET，您就擁有了一個強大的盟友，可以將流程簡化為幾個簡單的步驟。無論您是在準備重要的簡報還是只是在整理電子表格，這個方便的庫都可以讓您專注於真正重要的事情。因此，捲起袖子，徹底改變您的 Excel 體驗！
 
 ## 常見問題解答
 

@@ -9,7 +9,7 @@ url: /nl/net/excel-page-setup/set-excel-page-orientation/
 ---
 ## Invoering
 
-Als het aankomt op het programmatisch beheren van Excel-bestanden, is Aspose.Cells voor .NET een krachtige bibliotheek die het proces aanzienlijk vereenvoudigt. Maar hebt u zich ooit afgevraagd hoe u de pagina-oriëntatie in een Excel-sheet kunt aanpassen? U hebt geluk! Deze gids leidt u door het instellen van uw Excel-pagina-oriëntatie met Aspose.Cells. Tegen de tijd dat we dit afronden, kunt u uw alledaagse taken omzetten in soepele bewerkingen met slechts een paar regels code!
+Als het gaat om het programmatisch beheren van Excel-bestanden, is Aspose.Cells voor .NET een krachtige bibliotheek die het proces aanzienlijk vereenvoudigt. Maar hebt u zich ooit afgevraagd hoe u de pagina-oriëntatie in een Excel-sheet kunt aanpassen? U hebt geluk! Deze gids leidt u door het instellen van uw Excel-pagina-oriëntatie met Aspose.Cells. Tegen de tijd dat we dit afronden, kunt u uw alledaagse taken omzetten in soepele bewerkingen met slechts een paar regels code!
 
 ## Vereisten
 
@@ -30,7 +30,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Laten we nu het proces van het aanpassen van de pagina-oriëntatie in Excel eens bekijken. Dit wordt een praktisch, stapsgewijs avontuur, dus gesp je vast!
+Laten we nu het proces van het aanpassen van de pagina-oriëntatie in Excel eens doornemen. Dit wordt een praktisch, stapsgewijs avontuur, dus gesp je vast!
 
 ## Stap 1: Definieer uw documentendirectory
 
@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Nu gaat u een exemplaar van de klasse Workbook maken, die een Excel-bestand vertegenwoordigt.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -59,11 +59,11 @@ Workbook workbook = new Workbook();
 Vervolgens moet u het werkblad openen waarop u de oriëntatie wilt instellen. Omdat elke werkmap meerdere werkbladen kan hebben, moet u expliciet aangeven met welk werkblad u werkt.
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Deze zin is alsof je in je notitieboekje duikt en naar de eerste pagina bladert, waar al het moois gebeurt.
+Deze zin is alsof je in je notitieboekje duikt en naar de eerste pagina bladert, waar al je magie gebeurt.
 
 ## Stap 4: Stel de pagina-oriëntatie in op Staand
 

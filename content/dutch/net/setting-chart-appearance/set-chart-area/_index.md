@@ -17,7 +17,7 @@ Voordat we in de details duiken van het maken van een grafiek, zorgen we ervoor 
 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Het is essentieel voor het schrijven en uitvoeren van .NET-code.
 2. .NET Framework: Deze handleiding werkt het beste met .NET Framework of .NET Core. Zorg ervoor dat u de vereiste versie hebt geïnstalleerd (4.5 of later).
-3. Aspose.Cells: Je hebt de Aspose.Cells-bibliotheek nodig. Je kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Je hebt de Aspose.Cells-bibliotheek nodig. Je kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/).
 4. Basiskennis C#: Een fundamenteel begrip van C# programmeren zal u helpen de stappen beter te begrijpen. Maak u geen zorgen als u geen pro bent—ik zal alles uitleggen!
 
 ## Pakketten importeren
@@ -40,7 +40,7 @@ Nu we de basis hebben behandeld, kunnen we verder met de kern van de tutorial: h
 
 ## Stap 1: Stel uw werkmap in
 
-Het opzetten van uw werkboek is de eerste stap in het maken van diagrammen. Zie het werkboek als een leeg canvas waar alle magie gebeurt.
+Het opzetten van uw werkboek is de eerste stap in het maken van diagrammen. Beschouw het werkboek als een leeg canvas waar alle magie gebeurt.
 
 We beginnen met het instantiëren van een Workbook-object. Dit is de basis die al uw werkbladen bevat.
 
@@ -174,4 +174,4 @@ Jazeker! Aspose.Cells heeft bibliotheken voor verschillende platforms, waaronder
  U kunt hulp en ondersteuning zoeken bij de Aspose.Cells-community en de beschikbare forums[hier](https://forum.aspose.com/c/cells/9).
 
 ### Hoe kan ik een licentie kopen?
- kunt een licentie rechtstreeks via de Aspose-website aanschaffen[hier](https://purchase.aspose.com/buy).
+ U kunt een licentie rechtstreeks via de Aspose-website aanschaffen[hier](https://purchase.aspose.com/buy).

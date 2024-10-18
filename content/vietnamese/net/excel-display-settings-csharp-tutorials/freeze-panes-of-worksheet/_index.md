@@ -66,7 +66,7 @@ Sử dụng FileStream để mở tệp Excel hiện có. Cách thực hiện nh
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Các`FileStream` cho phép bạn đọc và ghi tệp bằng cách cung cấp luồng byte. Nói một cách đơn giản, nó mở ra cánh cửa đến tệp Excel của bạn để bạn có thể bắt đầu làm việc với nó.
+ Các`FileStream` cho phép bạn đọc và ghi tệp bằng cách cung cấp luồng byte. Nói một cách đơn giản, nó mở cửa cho tệp Excel của bạn để bạn có thể bắt đầu làm việc với nó.
 
 ## Bước 4: Khởi tạo một đối tượng Workbook
 
@@ -106,7 +106,7 @@ Sau khi thực hiện thay đổi, hãy đảm bảo bạn lưu sổ làm việc
 workbook.Save(dataDir + "output.xls");
 ```
 
- Việc lưu tệp của bạn là rất quan trọng! Dòng này đảm bảo rằng tất cả các thay đổi bạn đã thực hiện, bao gồm cả các ngăn đóng băng, được ghi lại vào tệp Excel mới có tên là`output.xls`. Hãy nghĩ đến việc dán phong bì sau khi viết xong bức thư quan trọng của bạn.
+ Việc lưu tệp của bạn là rất quan trọng! Dòng này đảm bảo rằng tất cả các thay đổi bạn đã thực hiện, bao gồm cả các ngăn đóng băng, đều được ghi lại vào tệp Excel mới có tên là`output.xls`. Hãy nghĩ đến việc dán phong bì sau khi viết xong bức thư quan trọng của bạn.
 
 ## Bước 8: Đóng luồng tập tin
 
@@ -116,7 +116,7 @@ Cuối cùng, đóng FileStream để giải phóng tài nguyên:
 fstream.Close();
 ```
 
-Đóng FileStream là điều cần thiết để quản lý tài nguyên. Giống như đóng cửa lại sau khi bạn hoàn thành công việc. Bước này đảm bảo rằng không có tài nguyên nào bị lãng phí và ứng dụng của bạn chạy trơn tru.
+Đóng FileStream là điều cần thiết để quản lý tài nguyên. Giống như đóng cửa lại sau khi bạn hoàn thành công việc. Bước này đảm bảo không lãng phí tài nguyên và ứng dụng của bạn chạy trơn tru.
 
 ## Phần kết luận
 

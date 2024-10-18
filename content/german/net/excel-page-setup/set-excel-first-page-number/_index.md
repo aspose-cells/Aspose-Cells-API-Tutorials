@@ -17,7 +17,7 @@ Bevor wir uns in die interessanten Details stürzen, sollten wir sicherstellen, 
 
 1. .NET-Umgebung: Stellen Sie sicher, dass Sie eine .NET-Entwicklungsumgebung eingerichtet haben. Sie können Visual Studio oder jede andere IDE verwenden, die .NET unterstützt.
 2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek, die einfach über NuGet installiert werden kann. Sie können sie direkt von der[Aspose.Cells-Website](https://releases.aspose.com/cells/net/) wenn Sie es vorziehen.
-3. Grundlegende Kenntnisse in C#: Die Vertrautheit mit der Programmiersprache C# trägt wesentlich zum Verständnis der bereitgestellten Beispiele bei.
+3. Grundlegende Kenntnisse in C#: Die Vertrautheit mit der Programmiersprache C# wird Ihnen beim Verständnis der bereitgestellten Beispiele sehr helfen.
 
 ## Pakete importieren
 
@@ -77,7 +77,7 @@ Da wir nun unsere Arbeitsmappe haben, müssen wir einen Verweis auf das erste Ar
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-## Schritt 4: Erste Seitenzahl festlegen
+## Schritt 4: Legen Sie die erste Seitenzahl fest
 
  Und jetzt kommt die Magie! Sie können die erste Seitenzahl der gedruckten Seiten des Arbeitsblatts festlegen, indem Sie einen Wert zuweisen an`FirstPageNumber`:
 

@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // 차트의 데이터 범위 설정
 chart.getNSeries().add("A2:B4", true);
 
-// 차트 속성 사용자 정의
+//차트 속성 사용자 정의
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -142,7 +142,7 @@ Aspose.Cells for Java를 사용하면 다양한 소스의 데이터를 차트에
 
 ## 자주 묻는 질문
 
-### 3D 차트에 여러 데이터 시리즈를 추가하려면 어떻게 해야 하나요?
+### 3D 차트에 여러 개의 데이터 시리즈를 추가하려면 어떻게 해야 하나요?
 
  3D 차트에 여러 데이터 시리즈를 추가하려면 다음을 사용할 수 있습니다.`chart.getNSeries().add()` 방법을 선택하고 각 시리즈에 대한 데이터 범위를 지정합니다. 각 시리즈에 대해 적절한 차트 유형을 설정하여 구분해야 합니다.
 

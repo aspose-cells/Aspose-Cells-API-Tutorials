@@ -15,7 +15,7 @@ Előfordult már, hogy kézzel másol munkalapokat Excel-munkafüzetek között?
 
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy fel van szerelve a megfelelő eszközökkel a kezdéshez:
 
--  Aspose.Cells for .NET: Letöltheti[itt](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Letöltheti[itt](https://releases.aspose.com/cells/net/).
 - Visual Studio vagy bármely IDE, amely támogatja a .NET-keretrendszert.
 -  Érvényes jogosítvány vagy a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha az Aspose.Cells teljes funkcionalitását szeretné tesztelni.
 - A C# és a .NET keretrendszer alapvető ismerete.
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Most, hogy az első munkafüzet nyitva van, ideje létrehozni egy másik üres munkafüzetet, amelybe beillesztheti a másolt munkalapot. Tekintsd ezt úgy, mint egy új üres jegyzetfüzet megnyitását, ahová átviheted az adatokat.
 
 ```csharp
-// Hozzon létre egy másik munkafüzetet.
+//Hozzon létre egy másik munkafüzetet.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Végül elmenti a második munkafüzetet a másolt munkalappal. Ez olyan, mintha az újonnan írt jegyzeteit egy új mappába mentené a számítógépén.
 
 ```csharp
-//Mentse el a fájlt.
+// Mentse el a fájlt.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

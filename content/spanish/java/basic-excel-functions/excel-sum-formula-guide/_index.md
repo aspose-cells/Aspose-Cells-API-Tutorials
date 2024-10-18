@@ -74,7 +74,7 @@ workbook.save("sample.xlsx");
 
 ## Aplicación de SUM en diferentes rangos
 
-También puede aplicar la fórmula SUMA a varios rangos en su hoja de cálculo. Por ejemplo, si tiene datos en diferentes columnas o filas que desea agregar por separado, puede hacerlo de la siguiente manera:
+También puede aplicar la fórmula SUMA a varios rangos en su hoja de cálculo. Por ejemplo, si tiene datos en diferentes columnas o filas que desea sumar por separado, puede hacerlo de la siguiente manera:
 
 ```java
 // Sumar dos rangos diferentes

@@ -47,14 +47,14 @@ else
 ```
 
 ## Conclusión
-¡Felicitaciones! Ha accedido exitosamente a un rango específico con nombre en Excel usando Aspose.Cells para .NET. Esta poderosa biblioteca elimina las complicaciones de las manipulaciones de Excel y le brinda la flexibilidad para automatizar tareas de manera eficiente. Ya sea un desarrollador o un analista de datos, aprovechar el poder de Aspose.Cells puede ahorrarle tiempo y mejorar su productividad.
+¡Felicitaciones! Ha accedido exitosamente a un rango con nombre específico en Excel usando Aspose.Cells para .NET. Esta poderosa biblioteca elimina las complicaciones de las manipulaciones de Excel y le brinda la flexibilidad para automatizar tareas de manera eficiente. Ya sea que sea un desarrollador o un analista de datos, aprovechar el poder de Aspose.Cells puede ahorrarle tiempo y mejorar su productividad.
 ## Preguntas frecuentes
 ### ¿Qué es Aspose.Cells para .NET?  
 Aspose.Cells para .NET es una potente biblioteca que permite a los desarrolladores crear, manipular y convertir archivos de Excel mediante programación sin necesidad de Microsoft Excel.
 ### ¿Cómo puedo obtener una prueba gratuita de Aspose.Cells?  
 Puede descargar una versión de prueba gratuita de Aspose.Cells desde el sitio web[aquí](https://releases.aspose.com/).
 ### ¿Puedo acceder a múltiples rangos con nombre?  
- Sí, puedes acceder a varios rangos con nombre llamando`GetRangeByName` varias veces, cada una con un nombre de rango diferente.
+ Sí, puedes acceder a múltiples rangos con nombre llamando`GetRangeByName` varias veces, cada una con un nombre de rango diferente.
 ### ¿Aspose.Cells es compatible con todas las versiones de Excel?  
 Sí, Aspose.Cells admite diferentes formatos, incluidos .xls, .xlsx y más.
 ### ¿Dónde puedo obtener soporte para Aspose.Cells?  

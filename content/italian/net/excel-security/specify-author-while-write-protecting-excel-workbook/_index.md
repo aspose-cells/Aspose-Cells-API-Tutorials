@@ -93,7 +93,7 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 
 ## Conclusione
 
-Ed ecco fatto! Hai imparato come creare una cartella di lavoro Excel, impostare la protezione da scrittura con una password, specificare un autore e salvarla senza problemi usando Aspose.Cells per .NET. Questa combinazione di funzionalità non solo proteggerà i tuoi dati, ma ne manterrà anche l'integrità e fornirà la corretta attribuzione.
+Ed ecco fatto! Hai imparato come creare una cartella di lavoro Excel, impostare la protezione da scrittura con una password, specificare un autore e salvarla senza problemi utilizzando Aspose.Cells per .NET. Questa combinazione di funzionalità non solo proteggerà i tuoi dati, ma ne manterrà anche l'integrità e fornirà la corretta attribuzione.
 
 ## Domande frequenti
 

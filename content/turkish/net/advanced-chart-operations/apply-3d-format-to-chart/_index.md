@@ -57,7 +57,7 @@ Bu bölüm, süreci yönetilebilir adımlara bölerek her aşama hakkında net b
 string outputDir = "Your Document Directory";
 Workbook book = new Workbook();
 ```
- Bunu düşünün`Workbook` Boş bir tuval olarak, onu renkli veriler ve etkili görsellerle doldurmaya hazır.
+ Bunu düşünün`Workbook` Boş bir tuval olarak—renkli veriler ve etkili görselleştirmelerle doldurmanız için hazır.
 
 ## Adım 2: İlk Çalışma Sayfasını Yeniden Adlandırın
 
@@ -85,7 +85,7 @@ dataSheet.Cells["A3"].PutValue("C");
 
 Bir tarifin malzemelere bağlı olması gibi, grafiğinizin etkinliği de girdiğiniz verilerin kalitesine ve organizasyonuna bağlıdır.
 
-## Adım 4: Yeni Bir Grafik Çalışma Sayfası Oluşturun
+## Adım 4: Yeni Bir Grafik Çalışma Sayfası Ayarlayın
 
 Grafik için yeni bir çalışma sayfası oluşturmanın zamanı geldi. Bu, veri görselleştirmenizi düzenli tutmanıza yardımcı olur.
 
@@ -210,5 +210,5 @@ Evet! Aspose.Cells, Sütun, Çizgi, Pasta ve daha birçok farklı grafik türün
 ### Grafiklere 3D formatların dışında başka efektler uygulayabilir miyim?
 Evet, grafiklerinizi 3B'nin ötesine taşımak için gölgeler, degradeler ve farklı stiller gibi çeşitli efektler uygulayabilirsiniz.
 
-### Aspose.Cells için desteği nereden bulabilirim?
+### Aspose.Cells için desteği nerede bulabilirim?
  Destek için şu adresi ziyaret edebilirsiniz:[Aspose Forum](https://forum.aspose.com/c/cells/9) Toplum desteği ve yardımı için.

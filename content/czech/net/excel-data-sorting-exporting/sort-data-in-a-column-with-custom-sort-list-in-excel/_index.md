@@ -25,7 +25,7 @@ Ujistěte se, že máte nastavené funkční vývojové prostředí .NET. Může
 
 ### Aspose.Cells pro balíček .NET NuGet
 
-V projektu potřebujete nainstalovanou knihovnu Aspose.Cells pro .NET. Můžete jej snadno přidat přes NuGet Package Manager. 
+projektu potřebujete nainstalovanou knihovnu Aspose.Cells pro .NET. Můžete jej snadno přidat přes NuGet Package Manager. 
 
 Jak na to:
 
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Krok 2: Načtěte zdrojový soubor Excel
 
- Dále načteme soubor Excel, který obsahuje data, která chcete seřadit. To se provádí vytvořením instance souboru`Workbook` třídy a předání cesty ke zdrojovému souboru.
+Dále načteme soubor Excel, který obsahuje data, která chcete seřadit. To se provádí vytvořením instance souboru`Workbook` třídy a předání cesty ke zdrojovému souboru.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");

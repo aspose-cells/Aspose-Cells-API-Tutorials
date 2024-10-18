@@ -9,11 +9,11 @@ url: /es/net/excel-page-setup/set-excel-print-title/
 ---
 ## Introducción
 
-Cuando se trata de trabajar con hojas de cálculo de Excel, garantizar la claridad en los documentos impresos es crucial. ¿Alguna vez imprimió un informe y descubrió que los títulos no se muestran en todas las páginas? Frustrante, ¿verdad? ¡Pues no tema más! En esta guía, le explicaremos los pasos para configurar los títulos de impresión en Excel con Aspose.Cells para .NET. Si alguna vez quiso agilizar el proceso de impresión para que sus hojas de cálculo tengan un aspecto más profesional, ha llegado al lugar correcto.
+Cuando se trata de trabajar con hojas de cálculo de Excel, garantizar la claridad en los documentos impresos es crucial. ¿Alguna vez imprimió un informe y descubrió que los títulos no se muestran en todas las páginas? Frustrante, ¿verdad? ¡No tema más! En esta guía, lo guiaremos por los pasos para configurar los títulos de impresión en Excel usando Aspose.Cells para .NET. Si alguna vez quiso agilizar el proceso de impresión para que sus hojas de cálculo se vean más profesionales, llegó al lugar correcto.
 
 ## Prerrequisitos
 
-Antes de sumergirnos en los pasos, asegurémonos de que tienes todo configurado para seguir sin problemas:
+Antes de sumergirnos en los pasos, asegurémonos de que tienes todo configurado para seguir el proceso sin problemas:
 
 1. Visual Studio instalado: necesitará una versión funcional de Visual Studio en su máquina donde pueda ejecutar aplicaciones .NET.
 2.  Aspose.Cells para .NET: si aún no lo ha hecho, descargue Aspose.Cells para .NET desde[sitio](https://releases.aspose.com/cells/net/)Esta biblioteca es el corazón de nuestra operación para administrar archivos de Excel mediante programación.
@@ -59,7 +59,7 @@ Lo primero que debemos hacer es especificar dónde se guardará nuestro document
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Solo reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta donde desea guardar su archivo de Excel. Por ejemplo, podría utilizar`@"C:\Reports\"`.
+ Solo reemplázalo`"YOUR DOCUMENT DIRECTORY"` con la ruta donde desea guardar su archivo de Excel. Por ejemplo, podría utilizar`@"C:\Reports\"`.
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
@@ -109,7 +109,7 @@ El último paso de nuestro proceso es guardar el libro de trabajo con todas las 
 workbook.Save(dataDir + "SetPrintTitle_out.xls");
 ```
 
-Asegúrese de que el directorio de sus documentos esté especificado correctamente para que pueda encontrar fácilmente este archivo Excel recién creado. 
+Asegúrese de que el directorio de documentos esté especificado correctamente para que pueda encontrar fácilmente este archivo Excel recién creado. 
 
 ¡Y así, tus títulos de impresión estarán listos y tu archivo Excel estará listo para imprimir!
 

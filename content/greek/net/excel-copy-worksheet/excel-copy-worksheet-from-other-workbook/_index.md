@@ -137,7 +137,7 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetFromWorkbookToOther_out.xls");
  Μπορείτε να ζητήσετε μια προσωρινή άδεια κάνοντας μια επίσκεψη[αυτόν τον σύνδεσμο](https://purchase.aspose.com/temporary-license/).
 
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.Cells;  
-Μπορείτε να βρείτε αναλυτική τεκμηρίωση[εδώ](https://reference.aspose.com/cells/net/).
+ Μπορείτε να βρείτε αναλυτική τεκμηρίωση[εδώ](https://reference.aspose.com/cells/net/).
 
 ### Υπάρχει διαθέσιμη υποστήριξη για τους χρήστες του Aspose.Cells;  
  Απολύτως! Μπορείτε να λάβετε υποστήριξη μέσω του[Aspose φόρουμ](https://forum.aspose.com/c/cells/9).

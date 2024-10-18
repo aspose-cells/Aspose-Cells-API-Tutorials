@@ -66,7 +66,7 @@ Tendrás que trabajar con la primera hoja de cálculo del libro. Acceder a la ho
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- El índice`0` apunta a la primera hoja de cálculo. En Excel, piense en ello como si abriera la primera pestaña de su libro de cálculo.
+ El índice`0` apunta a la primera hoja de cálculo. En Excel, piense en ello como si abriera la primera pestaña de su libro de trabajo.
 
 ## Paso 5: Agregar valores de muestra a las celdas
 

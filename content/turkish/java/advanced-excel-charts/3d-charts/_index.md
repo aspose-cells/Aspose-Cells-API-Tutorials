@@ -18,7 +18,7 @@ Aspose.Cells for Java, çeşitli grafik türlerinin oluşturulması da dahil olm
 
 ## 3D grafikler oluşturmak için Java için Aspose.Cells'i neden kullanmalısınız?
 
-Java için Aspose.Cells, Excel dosyaları ve grafikleriyle çalışmak için kapsamlı bir özellik ve araç seti sunar. 3D grafikler dahil olmak üzere grafikleri oluşturmak, özelleştirmek ve düzenlemek için kullanıcı dostu bir arayüz sağlar. Ek olarak, Java için Aspose.Cells, oluşturulan grafiklerin çok çeşitli Excel sürümleriyle uyumlu olmasını sağlayarak grafik oluşturma için güvenilir bir seçenek haline getirir.
+Java için Aspose.Cells, Excel dosyaları ve grafikleriyle çalışmak için kapsamlı bir özellik ve araç seti sunar. 3D grafikler de dahil olmak üzere grafikleri oluşturmak, özelleştirmek ve düzenlemek için kullanıcı dostu bir arayüz sağlar. Ayrıca, Java için Aspose.Cells, oluşturulan grafiklerin çok çeşitli Excel sürümleriyle uyumlu olmasını sağlayarak grafik oluşturma için güvenilir bir seçenek haline getirir.
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Grafik için veri aralığını ayarlama
 chart.getNSeries().add("A2:B4", true);
 
-// Grafik niteliklerini özelleştirme
+//Grafik niteliklerini özelleştirme
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -148,9 +148,9 @@ Bu makalede, Aspose.Cells for Java kullanarak 3B grafiklerin nasıl oluşturulac
 
 ### Aspose.Cells for Java ile oluşturulan 3D grafikleri diğer formatlara aktarabilir miyim?
 
-Evet, Aspose.Cells for Java ile oluşturulan 3B grafikleri resim formatları (örn. PNG, JPEG) ve PDF dahil olmak üzere çeşitli formatlara aktarabilirsiniz. Grafiği istediğiniz formatta kaydetmek için Aspose.Cells tarafından sağlanan uygun yöntemleri kullanın.
+Evet, Aspose.Cells for Java ile oluşturulan 3B grafikleri, resim biçimleri (örneğin PNG, JPEG) ve PDF dahil olmak üzere çeşitli biçimlere aktarabilirsiniz. Grafiği istediğiniz biçimde kaydetmek için Aspose.Cells tarafından sağlanan uygun yöntemleri kullanın.
 
-### Aspose.Cells for Java ile etkileşimli 3D grafikler oluşturmak mümkün müdür?
+### Java için Aspose.Cells ile etkileşimli 3D grafikler oluşturmak mümkün müdür?
 
 Java için Aspose.Cells, öncelikle Excel dosyaları için statik 3B grafikler oluşturmaya odaklanır. Gelişmiş etkileşimliliğe sahip etkileşimli grafikler için, Excel dosyalarınızla birlikte diğer görselleştirme kitaplıklarını veya araçlarını kullanmayı düşünebilirsiniz.
 

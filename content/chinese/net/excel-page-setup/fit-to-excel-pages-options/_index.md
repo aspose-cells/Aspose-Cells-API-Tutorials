@@ -29,7 +29,7 @@ url: /zh/net/excel-page-setup/fit-to-excel-pages-options/
 ### 打开你的 C# 项目
 打开 Visual Studio 并加载或创建您想要使用 Aspose.Cells 的 C# 项目。
 
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 1. 在解决方案资源管理器中右键单击您的项目。
 2. 选择“管理 NuGet 包”。
 3. 搜索“Aspose.Cells”并安装该包。

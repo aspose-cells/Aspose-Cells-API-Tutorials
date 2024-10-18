@@ -29,7 +29,7 @@ Sebelum kita menyelami seluk-beluk penerapan format 3D ke bagan, mari pastikan A
 Install-Package Aspose.Cells
 ```
 
-3. Siapkan Direktori Output: Tetapkan direktori output tempat file yang Anda buat akan disimpan—ini bisa semudah membuat folder di desktop Anda.
+3. Siapkan Direktori Output: Tentukan direktori output tempat file yang Anda buat akan disimpan—ini bisa semudah membuat folder di desktop Anda.
 
 Sekarang semuanya sudah siap, waktunya untuk masuk ke kode dan membuat beberapa grafik 3D yang menakjubkan!
 
@@ -155,7 +155,7 @@ bevel.Height = 2;
 bevel.Width = 5;
 ```
 
-Seperti halnya seorang pematung membentuk batu, kita menciptakan kedalaman yang membuat bagan kita menjadi hidup!
+Layaknya seorang pematung membentuk batu, kita menciptakan kedalaman yang membuat bagan kita menjadi hidup!
 
 ## Langkah 10: Sesuaikan Material Permukaan dan Pencahayaan
 

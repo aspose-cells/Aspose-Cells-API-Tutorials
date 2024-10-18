@@ -18,7 +18,7 @@ Excel 파일을 프로그래밍 방식으로 작업하면 많은 시간과 노�
 1. .NET 개발 환경: .NET 개발 환경이 준비되어 있는지 확인하세요. Visual Studio나 원하는 다른 IDE를 사용할 수 있습니다.
 2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리도 설치해야 합니다. 아직 설치하지 않았다면 걱정하지 마세요! 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 이해: C# 프로그래밍의 기본을 알면 원활하게 따라갈 수 있습니다.
-4.  Excel 파일: 작업하고 싶은 Excel 파일을 준비하세요. 예를 들어, 간단한 파일을 사용하겠습니다.`book1.xlsx` 최소한 하나의 워크시트에 "Sheet1"이라는 이름이 있어야 합니다.
+4. Excel 파일: 작업하고 싶은 Excel 파일을 준비하세요. 예를 들어, 간단한 파일 이름을 사용하겠습니다.`book1.xlsx` 최소한 하나의 워크시트에 "Sheet1"이라는 이름이 있어야 합니다.
 
 이제 모든 준비가 끝났으니, 시작해볼까요!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // 문서 디렉토리를 지정하�
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // 전체 경로를 형성하기 위해 결합합니다.
 ```
 
- 여기서 교체하세요`"YOUR DOCUMENT DIRECTORY"` 시스템의 실제 경로와 함께`book1.xlsx` 저장되어 있습니다. 활용`Path.Combine` 다양한 운영체제에서 경로가 올바르게 구성되도록 보장하기 때문에 깔끔합니다.
+ 여기서 교체하세요`"YOUR DOCUMENT DIRECTORY"`시스템의 실제 경로와 함께`book1.xlsx` 저장되어 있습니다. 활용`Path.Combine` 다양한 운영체제에서 경로가 올바르게 구성되도록 보장하기 때문에 깔끔합니다.
 
 ## 2단계: 파일 스트림 만들기
 
@@ -115,7 +115,7 @@ Aspose.Cells는 개발자가 Excel 스프레드시트를 프로그래밍 방식�
 Aspose.Cells는 XLS, XLSX, CSV 등 다양한 형식을 지원합니다.
 
 ### Aspose.Cells를 사용하려면 라이선스가 필요한가요?
- ~가 있는 동안[무료 체험](https://releases.aspose.com/)사용할 수 있지만, 제한 없이 사용하려면 결국 라이센스를 구입해야 합니다.
+ ~가 있는 동안[무료 체험](https://releases.aspose.com/) 사용할 수 있지만, 제한 없이 사용하려면 결국 라이센스를 구입해야 합니다.
 
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?
- 당신은 그들을 통해 지원을 받을 수 있습니다[지원 포럼](https://forum.aspose.com/c/cells/9).
+당신은 그들을 통해 지원을 받을 수 있습니다[지원 포럼](https://forum.aspose.com/c/cells/9).

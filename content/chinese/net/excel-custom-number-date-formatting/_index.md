@@ -9,7 +9,7 @@ url: /zh/net/excel-custom-number-date-formatting/
 ---
 ## 介绍
 
-当谈到在 .NET 中处理 Excel 文件时，Aspose.Cells 是一款强大的工具，可帮助您简化数据管理任务。如果您曾经为自定义数字格式而苦恼，或者需要高效地导入数据，那么您来对地方了！在本文中，我们将介绍一些实用教程，这些教程将提高您的 Excel 技能并为您节省大量时间。
+在 .NET 中处理 Excel 文件时，Aspose.Cells 是一款强大的工具，可帮助您简化数据管理任务。如果您曾经为自定义数字格式而苦恼，或者需要高效地导入数据，那么您来对地方了！在本文中，我们将介绍一些实用教程，这些教程将提高您的 Excel 技能并为您节省大量时间。
 
 ## 检查单元格值是否采用特定的自定义数字格式
 
@@ -19,9 +19,9 @@ url: /zh/net/excel-custom-number-date-formatting/
 
 ## 将数据导入 Excel 工作表时指定公式字段
 
-现在，我们来谈谈数据导入。将数据移入 Excel 有时感觉就像尝试解决一个缺少某些部分的难题。不要害怕！使用 Aspose.Cells，在指定公式字段的同时导入数据轻而易举。
+现在，我们来谈谈数据导入。将数据移入 Excel 有时感觉就像试图解决一个缺少某些部分的难题。别害怕！使用 Aspose.Cells，在指定公式字段的同时导入数据轻而易举。
 
-本教程将教您如何导入数据集，同时保持公式字段的完整性。想象一下：您在 CSV 文件中获得了财务预测，您需要将其导入 Excel，同时又不丢失所有重要的公式。我们将通过清晰的示例和最佳实践向您展示如何做到这一点，确保您的数据完整无缺且可用。[阅读更多](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
+本教程将教您如何导入数据集，同时保持公式字段的完整性。想象一下：您在 CSV 文件中获得了财务预测，您需要将其导入 Excel，同时又不丢失所有重要的公式。我们将通过清晰的示例和最佳实践向您展示如何做到这一点，确保您的数据完整可用。[阅读更多](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
 ## Excel 自定义数字和日期格式教程
 ### [检查单元格值是否采用特定的自定义数字格式](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)

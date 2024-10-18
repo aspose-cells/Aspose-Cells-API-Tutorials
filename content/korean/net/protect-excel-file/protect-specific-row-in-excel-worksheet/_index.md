@@ -9,7 +9,7 @@ url: /ko/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 ---
 ## 소개
 
-오늘날의 빠르게 움직이는 세상에서 스프레드시트를 효과적으로 관리하는 것은 그 어느 때보다 중요합니다. Microsoft Excel은 많은 산업과 직업에서 없어서는 안 될 도구입니다. 그러나 이러한 문서를 공유함에 따라, 특히 협업 환경에서는 스프레드시트 내의 특정 정보를 보호하는 것이 중요해집니다. 그렇다면 Excel에서 원치 않는 수정을 방지하기 위해 행을 봉인하려면 어떻게 해야 할까요? 글쎄요, .NET으로 작업하고 있다면 운이 좋습니다! Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 처리하기 위한 훌륭한 라이브러리로, 특정 행을 효율적으로 보호할 수 있습니다.
+오늘날의 빠르게 움직이는 세상에서 스프레드시트를 효과적으로 관리하는 것은 그 어느 때보다 중요합니다. Microsoft Excel은 많은 산업과 직업에서 없어서는 안 될 도구입니다. 그러나 이러한 문서를 공유함에 따라, 특히 협업 환경에서 스프레드시트 내의 특정 정보를 보호하는 것이 중요해집니다. 그렇다면 Excel에서 원치 않는 수정을 방지하기 위해 행을 봉인하려면 어떻게 해야 할까요? 글쎄요, .NET으로 작업하고 있다면 운이 좋습니다! Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 처리하기 위한 훌륭한 라이브러리로, 특정 행을 효율적으로 보호할 수 있습니다.
 
 ## 필수 조건
 
@@ -49,7 +49,7 @@ using Aspose.Cells;
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // 원하는 경로로 변경하세요.
 
-// 디렉토리가 없으면 새로 만듭니다.
+//디렉토리가 없으면 디렉토리를 생성합니다.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -97,7 +97,7 @@ for (int i = 0; i <= 255; i++)
 
 ## 5단계: 원하는 행 잠금
 
-이제 보호하려는 행을 잠글 차례입니다. 이 경우, 첫 번째 행을 잠급니다.
+이제 보호하려는 행을 잠글 시간입니다. 이 경우, 우리는 첫 번째 행을 잠급니다.
 
 ```csharp
 //첫 번째 행 스타일을 가져옵니다.
@@ -143,7 +143,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 행을 잠그는 것과 비슷하게 셀을 개별적으로 선택하고 잠금 스타일을 적용할 수 있습니다.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?  
-Aspose.Cells는 상용 제품이지만 무료 평가판을 통해 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
+ Aspose.Cells는 상용 제품이지만 무료 평가판을 통해 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells를 사용하려면 인터넷 연결이 필요합니까?  
 아니요, Aspose.Cells는 .NET 라이브러리이므로 설치하면 오프라인에서도 작업할 수 있습니다.

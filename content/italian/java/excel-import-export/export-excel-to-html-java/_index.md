@@ -43,7 +43,7 @@ Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 Ora, convertiamo il file Excel in formato HTML. Aspose.Cells fornisce un metodo semplice per questo:
 
 ```java
-// Salva la cartella di lavoro come HTML
+// Salvare la cartella di lavoro come HTML
 workbook.save("output.html", SaveFormat.HTML);
 ```
 

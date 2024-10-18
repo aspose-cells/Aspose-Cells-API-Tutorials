@@ -32,11 +32,11 @@ using Aspose.Cells.Sorting;
 ```
 Direktif penggunaan ini memastikan bahwa kode Anda dapat mengakses kelas dan metode yang diperlukan dari pustaka Aspose.Cells.
 
-Setelah semuanya beres, mari kita jalani proses penyortiran langkah demi langkah.
+Setelah semuanya beres, mari kita jalankan proses penyortiran langkah demi langkah.
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
- Pertama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah Anda`sampleSortAsNumber.xlsx` file akan ditemukan. Ganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Excel Anda berada.
+ Pertama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah Anda`sampleSortAsNumber.xlsx` file akan ditemukan. Ganti`"Your Document Directory"`dengan jalur sebenarnya tempat file Excel Anda berada.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Langkah 2: Buat Contoh Buku Kerja
 
- Berikutnya, Anda akan membuat sebuah instance dari`Workbook`kelas menggunakan jalur yang baru saja Anda tentukan. Anggap buku kerja sebagai versi digital dari binder fisik untuk lembar kerja Anda.
+ Berikutnya, Anda akan membuat sebuah instance dari`Workbook`kelas menggunakan jalur yang baru saja Anda tentukan. Anggaplah buku kerja sebagai versi digital dari binder fisik untuk lembar kerja Anda.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sampleSortAsNumber.xlsx");

@@ -52,7 +52,7 @@ using System.Drawing;
 
 ## 1단계: 소스 및 출력 디렉토리 정의 
 
-첫 번째 단계는 입력 파일의 위치와 출력(정렬된 파일)을 저장할 위치를 정의하는 것입니다. 두 개의 경로를 지정해야 합니다. 하나는 원본 Excel 파일에 대한 경로이고 다른 하나는 정렬 후 출력을 저장하는 경로입니다.
+첫 번째 단계는 입력 파일의 위치와 출력(정렬된 파일)을 저장할 위치를 정의하는 것입니다. 두 개의 경로를 지정해야 합니다. 하나는 소스 Excel 파일에 대한 경로이고 다른 하나는 정렬 후 출력을 저장하기 위한 경로입니다.
 
 ```csharp
 string sourceDir = "Your Document Directory\\";
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## 2단계: 소스 Excel 파일 로드
 
- 다음으로 정렬하려는 데이터가 포함된 Excel 파일을 로드합니다. 이는 인스턴스를 생성하여 수행됩니다.`Workbook` 클래스를 사용하고 소스 파일의 경로를 전달합니다.
+다음으로 정렬하려는 데이터가 포함된 Excel 파일을 로드합니다. 이는 인스턴스를 생성하여 수행됩니다.`Workbook` 클래스를 사용하고 소스 파일의 경로를 전달합니다.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");

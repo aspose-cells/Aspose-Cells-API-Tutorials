@@ -2,7 +2,7 @@
 title: Usuń arkusz kalkulacyjny Excel według indeksu C# Tutorial
 linktitle: Usuń arkusz kalkulacyjny programu Excel według indeksu
 second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak usunąć arkusz kalkulacyjny Excela według indeksu w C# przy użyciu Aspose.Cells. Postępuj zgodnie z tym prostym samouczkiem krok po kroku, aby uprościć zarządzanie skoroszytem.
+description: Dowiedz się, jak usunąć arkusz kalkulacyjny programu Excel według indeksu w języku C# przy użyciu Aspose.Cells. Postępuj zgodnie z tym prostym samouczkiem krok po kroku, aby uprościć zarządzanie skoroszytem.
 type: docs
 weight: 30
 url: /pl/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-csharp-tutorial/
@@ -55,7 +55,7 @@ Najpierw musisz zdefiniować lokalizację pliku Excel. Tutaj poinstruujesz progr
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls`plik rezyduje. Pomyśl o tym jak o podaniu swojemu GPS-owi prawidłowego adresu przed rozpoczęciem podróży drogowej!
+ Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls` plik rezyduje. Pomyśl o tym jak o podaniu swojemu GPS-owi prawidłowego adresu przed rozpoczęciem podróży drogowej!
 
 ## Krok 4: Otwórz plik Excela za pomocą FileStream
 
@@ -85,7 +85,7 @@ Teraz nadchodzi ekscytująca część — usuwanie arkusza kalkulacyjnego! Może
 workbook.Worksheets.RemoveAt(0);
 ```
 
-tym przykładzie usuwamy pierwszy arkusz roboczy w kolekcji (pamiętaj, indeks jest zerowy). To jak wyrzucanie buta, którego nie nosiłeś od wieków — zmień kształt dokumentu Excel, aby zachować tylko to, czego potrzebujesz!
+W tym przykładzie usuwamy pierwszy arkusz roboczy w kolekcji (pamiętaj, indeks jest zerowy). To jak wyrzucanie buta, którego nie nosiłeś od wieków — zmień kształt dokumentu Excel, aby zachować tylko to, czego potrzebujesz!
 
 ## Krok 7: Zapisz zmodyfikowany skoroszyt
 
@@ -95,7 +95,7 @@ Po usunięciu arkusza kalkulacyjnego musisz zapisać zmiany. W ten sposób zapis
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Możesz zapisać go pod nową nazwą, zmieniając`"output.out.xls"` do czegokolwiek chcesz. Wyobraź sobie, że klikasz przycisk „Zapisz” w dokumencie Word — chcesz zachować swoje modyfikacje.
+Możesz zapisać go pod nową nazwą, zmieniając`"output.out.xls"` do czegokolwiek chcesz. Wyobraź sobie, że klikasz przycisk „Zapisz” w dokumencie Word — chcesz zachować swoje modyfikacje.
 
 ## Krok 8: Zamknij strumień plików
 
@@ -109,7 +109,7 @@ To tak, jakbyś wychodząc zamknął drzwi i miał pewność, że nie pozostawis
 
 ## Wniosek
 
-masz to! Udało Ci się nauczyć, jak usunąć arkusz kalkulacyjny Excela według jego indeksu, używając C# i Aspose.Cells. Proces jest prosty, gdy tylko opanujesz podstawy. Teraz możesz łatwo usunąć niepotrzebne arkusze ze swoich skoroszytów, dzięki czemu Twoje dane będą bardziej przejrzyste i uporządkowane.
+I masz to! Udało Ci się nauczyć, jak usunąć arkusz kalkulacyjny Excela według jego indeksu, używając C# i Aspose.Cells. Proces jest prosty, gdy tylko opanujesz podstawy. Teraz możesz łatwo usunąć niepotrzebne arkusze ze swoich skoroszytów, dzięki czemu Twoje dane będą bardziej przejrzyste i uporządkowane.
 
 ## Najczęściej zadawane pytania
 
@@ -117,7 +117,7 @@ masz to! Udało Ci się nauczyć, jak usunąć arkusz kalkulacyjny Excela wedłu
 Aspose.Cells to biblioteka .NET, która zapewnia programistom szerokie możliwości manipulowania plikami Excel. Od tworzenia i edytowania do konwertowania plików Excel, to potężne narzędzie!
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Tak, Aspose.Cells to płatna biblioteka, ale możesz zacząć od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/). Przed zakupem możesz zapoznać się z funkcjami.
+ Tak, Aspose.Cells to płatna biblioteka, ale możesz zacząć od bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/)Przed zakupem możesz zapoznać się z funkcjami.
 
 ### Czy mogę usunąć wiele arkuszy kalkulacyjnych jednocześnie?
 Tak, możesz przechodzić przez arkusze i usuwać je za pomocą odpowiednich indeksów. Pamiętaj tylko, aby odpowiednio dostosować indeks podczas usuwania arkuszy.

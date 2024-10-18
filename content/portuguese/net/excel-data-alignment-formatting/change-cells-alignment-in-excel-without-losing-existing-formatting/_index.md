@@ -1,7 +1,7 @@
 ---
 title: Alterar o alinhamento das células do Excel sem perder a formatação
 linktitle: Alterar o alinhamento das células do Excel sem perder a formatação
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como alterar o alinhamento de células do Excel sem perder a formatação usando o Aspose.Cells para .NET. Siga nosso guia passo a passo abrangente para um controle perfeito.
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ Antes de mergulharmos na codificação real, é essencial garantir que você ten
 1. Visual Studio: certifique-se de ter o Visual Studio (qualquer versão compatível com .NET) instalado no seu computador.
 2.  Aspose.Cells para .NET: Baixe e instale a biblioteca Aspose.Cells de[Site da Aspose](https://releases.aspose.com/cells/net/).
 3. Conhecimento básico de C#: Um pouco de familiaridade com programação em C# será útil, pois trabalharemos em um contexto C#.
-4. Arquivo Excel de exemplo: para demonstração, tenha um arquivo Excel de exemplo preparado (por exemplo,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) que contém alguma formatação de célula inicial.
+4.  Arquivo Excel de exemplo: para demonstração, tenha um arquivo Excel de exemplo preparado (por exemplo,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) que contém alguma formatação de célula inicial.
 
 ## Pacotes de importação
 
@@ -75,7 +75,7 @@ Esta linha de código usa a classe Workbook para carregar seu arquivo Excel exis
 
 ## Etapa 3: Acesse a planilha desejada
 
-Após carregar a pasta de trabalho, acesse a planilha que você deseja manipular. Arquivos do Excel podem ter várias planilhas, então garanta que você está mirando na planilha certa.
+Após carregar a pasta de trabalho, acesse a planilha que você deseja manipular. Arquivos do Excel podem ter várias planilhas, então certifique-se de que você está mirando na planilha certa.
 
 ```csharp
 // Acesse a primeira planilha.
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ao definir o`Alignments` propriedade do StyleFlag para`true`, você diz ao Aspose.Cells para aplicar os estilos de alinhamento corretamente.
+ Ao definir o`Alignments`propriedade do StyleFlag para`true`, você diz ao Aspose.Cells para aplicar os estilos de alinhamento corretamente.
 
 ## Etapa 7: aplique o estilo ao intervalo de células
 

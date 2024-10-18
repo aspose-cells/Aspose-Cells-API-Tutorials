@@ -1,7 +1,7 @@
 ---
 title: Validação de dados decimais no Excel
 linktitle: Validação de dados decimais no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra como implementar validação de dados decimais no Excel usando Aspose.Cells para .NET com nosso guia fácil de seguir. Melhore a integridade dos dados sem esforço.
 type: docs
 weight: 11
@@ -126,7 +126,7 @@ Ao definir o tipo como Decimal, estamos instruindo o Excel a esperar valores dec
 
 ## Etapa 9: Especifique o operador
 
-Agora, especificaremos a condição para valores permitidos. Queremos garantir que os dados inseridos fiquem entre dois intervalos:
+Agora, especificaremos a condição para valores permitidos. Queremos garantir que os dados inseridos caiam entre dois intervalos:
 
 ```csharp
 validation.Operator = OperatorType.Between;
@@ -167,7 +167,7 @@ area.StartColumn = 0;
 area.EndColumn = 0;
 ```
 
-Nesta configuração, estamos dizendo que a validação se aplica da célula A1 a A10.
+Nessa configuração, estamos dizendo que a validação se aplica da célula A1 a A10.
 
 ## Etapa 13: Adicione a área de validação
 
@@ -187,7 +187,7 @@ Por fim, vamos salvar a pasta de trabalho com nossa validação de dados decimai
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-aí está! Você criou com sucesso uma pasta de trabalho com validação de dados decimais usando Aspose.Cells for .NET.
+E aí está! Você criou com sucesso uma pasta de trabalho com validação de dados decimais usando Aspose.Cells for .NET.
 
 ## Conclusão
 
@@ -202,8 +202,8 @@ A validação de dados no Excel é um recurso que restringe o tipo de dados que 
 ### Posso personalizar a mensagem de erro na validação de dados?
 Sim! Você pode fornecer mensagens de erro personalizadas para orientar os usuários quando entradas de dados incorretas forem feitas.
 
-### Aspose.Cells é gratuito?
- O Aspose.Cells oferece um teste gratuito, mas você precisará de uma licença para uso de longo prazo. Você pode encontrar mais informações sobre como adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+### O Aspose.Cells é gratuito?
+ Aspose.Cells oferece um teste gratuito, mas você precisará de uma licença para uso de longo prazo. Você pode encontrar mais informações sobre como adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Que tipos de dados posso validar no Excel?
 Com o Aspose.Cells, você pode validar vários tipos de dados, incluindo números inteiros, decimais, datas, listas e fórmulas personalizadas.

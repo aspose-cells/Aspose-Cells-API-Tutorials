@@ -17,7 +17,7 @@ Innan vi dyker in i utvinningsprocessen, låt oss se till att du är fullt utrus
 
 - Grundläggande kunskaper om C#: En liten förtrogenhet med C# kommer att räcka långt. Även om du precis har börjat bör du kunna hålla jämna steg.
 - Visual Studio: Har Visual Studio installerat på ditt system. Det är nödvändigt för att skriva och köra din C#-kod.
--  Aspose.Cells för .NET: Om du inte har laddat ner det ännu, gå över till[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/net/) och hämta den senaste versionen.
+- Aspose.Cells för .NET: Om du inte har laddat ner det ännu, gå över till[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/net/) och hämta den senaste versionen.
 - .NET Framework: Se till att du har en kompatibel version av .NET Framework installerad.
 -  En Excel-fil med inbäddade MOL-objekt: För vårt exempel kommer vi att använda`EmbeddedMolSample.xlsx`. Se till att du har den här filen redo för extrahering.
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Med det här utdraget använder vi en`foreach` slinga för att gå igenom varje ark i vår arbetsbok. Genom att komma åt`OleObjects`samling kan vi få tillgång till alla inbäddade objekt på just det arket. 
+ Med det här utdraget använder vi en`foreach` slinga för att gå igenom varje ark i vår arbetsbok. Genom att komma åt`OleObjects` samling kan vi få tillgång till alla inbäddade objekt på just det arket. 
 
 ## Steg 4: Extrahera OLE-objekt
 

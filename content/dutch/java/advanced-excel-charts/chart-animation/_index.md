@@ -16,7 +16,7 @@ In deze tutorial gaan we onderzoeken hoe u dynamische diagramanimaties kunt make
 
 Voordat we beginnen met het maken van diagramanimaties, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1.  Aspose.Cells voor Java: Zorg ervoor dat u de Aspose.Cells voor Java-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells voor Java: Zorg ervoor dat u de Aspose.Cells voor Java-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/java/).
 
 2. Java-ontwikkelomgeving: Er moet een Java-ontwikkelomgeving op uw systeem zijn ingesteld.
 
@@ -82,7 +82,7 @@ In deze tutorial hebben we geleerd hoe je diagramanimaties maakt met behulp van 
 
 ### Hoe kan ik het animatietype wijzigen?
 
- Om het animatietype te wijzigen, gebruikt u de`setAnimationType` methode op het grafiekobject. U kunt kiezen uit verschillende typen zoals`SLIDE`, `FADE` , En`GROW_SHRINK`.
+ Om het animatietype te wijzigen, gebruikt u de`setAnimationType` methode op het grafiekobject. U kunt kiezen uit verschillende typen zoals`SLIDE`, `FADE` En`GROW_SHRINK`.
 
 ### Kan ik de duur van de animatie aanpassen?
 
@@ -90,4 +90,4 @@ In deze tutorial hebben we geleerd hoe je diagramanimaties maakt met behulp van 
 
 ### Wat is het doel van animatievertraging?
 
- De animatievertraging bepaalt de tijdsinterval voordat de grafiekanimatie start. Gebruik de`setAnimationDelay`Methode om de vertraging in milliseconden in te stellen.
+ De animatievertraging bepaalt de tijdsinterval voordat de grafiekanimatie start. Gebruik de`setAnimationDelay` Methode om de vertraging in milliseconden in te stellen.

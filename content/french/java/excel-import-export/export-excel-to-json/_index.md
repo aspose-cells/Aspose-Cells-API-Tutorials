@@ -60,7 +60,7 @@ Félicitations ! Vous avez exporté avec succès des données Excel vers JSON �
 ### Aspose.Cells pour Java est-il compatible avec les derniers formats Excel ?
    Oui, Aspose.Cells pour Java prend en charge les derniers formats Excel, notamment XLSX et XLS.
 
-### Comment puis-je gérer des structures de données Excel complexes lors de l'exportation JSON ?
+### Comment puis-je gérer des structures de données Excel complexes lors de l’exportation JSON ?
    Vous pouvez utiliser l'API Aspose.Cells pour parcourir et manipuler des structures de données Excel complexes avant de les exporter au format JSON.
 
 ### Puis-je personnaliser le format de sortie JSON ?

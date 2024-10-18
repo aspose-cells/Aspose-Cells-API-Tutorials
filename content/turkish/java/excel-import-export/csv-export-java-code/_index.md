@@ -16,7 +16,7 @@ Bu adım adım kılavuzda, güçlü Aspose.Cells for Java kütüphanesini kullan
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java JDK'nın yüklü olduğundan emin olun.
-2.  Java için Aspose.Cells: Projenize Aspose.Cells for Java kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+2.  Aspose.Cells for Java: Aspose.Cells for Java kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 
 ## Bir Java Projesi Oluşturma
 
@@ -58,7 +58,7 @@ public class CsvExportExample {
 }
 ```
 
-Bu kodda, bir Excel çalışma kitabını yüklüyoruz, CSV seçeneklerini (örneğin ayırıcı) belirliyoruz ve ardından çalışma sayfasını CSV dosyası olarak kaydediyoruz.
+Bu kodda, bir Excel çalışma kitabı yüklüyoruz, CSV seçeneklerini (örneğin ayırıcı) belirliyoruz ve ardından çalışma sayfasını CSV dosyası olarak kaydediyoruz.
 
 ## Kodu Çalıştırma
 

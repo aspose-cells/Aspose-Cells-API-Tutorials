@@ -36,7 +36,7 @@ Most, hogy minden rendben van, menjünk végig a válogatás folyamatán lépés
 
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
 
- Először is meg kell adnia a dokumentumkönyvtár elérési útját. Itt van a tiéd`sampleSortAsNumber.xlsx` fájl található. Cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
+ Először is meg kell adnia a dokumentumkönyvtár elérési útját. Itt van a tiéd`sampleSortAsNumber.xlsx` fájl található. Cserélje ki`"Your Document Directory"`az Excel-fájl tényleges elérési útjával.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -105,7 +105,7 @@ sorter.SortAsNumber = true;
 
 Ez a lépés döntő! Gondoskodik arról, hogy a számokat numerikus értékként kezelje karakterláncok helyett, ami megakadályozza, hogy a rendezési problémák, például a „10” a „2” elé kerüljenek.
 
-## 8. lépés: Hajtsa végre a rendezést
+## 8. lépés: Végezze el a rendezést
 
 Most jöjjön a szórakoztató rész! Ideje rendezni a megadott cellaterületet az imént beállított rendezővel.
 

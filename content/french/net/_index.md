@@ -31,7 +31,7 @@ Découvrez des tutoriels détaillés sur les sauts de page Excel avec Aspose.Cel
 ### [Supprimer la protection de la feuille Excel](./unprotect-excel-sheet/)
 Découvrez comment déprotéger une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Tutoriels détaillés pour les développeurs en C#.
 ### [Sécurité Excel](./excel-security/)
-Découvrez des tutoriels complets sur la sécurité Excel avec Aspose.Cells pour .NET. Protégez vos fichiers Excel et contrôlez l'accès aux données sensibles.
+Découvrez des tutoriels complets sur la sécurité d'Excel avec Aspose.Cells pour .NET. Protégez vos fichiers Excel et contrôlez l'accès aux données sensibles.
 ### [Supprimer la protection de la feuille Excel](./unprotect-excel-sheet/)
 Découvrez comment déprotéger une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Tutoriels détaillés pour les développeurs en C#.
 ### [Insertion de contrôles dans les graphiques](./inserting-controls-in-charts/)
@@ -47,7 +47,7 @@ Découvrez les didacticiels Aspose.Cells pour .NET sur le rendu des graphiques, 
 ### [Travailler avec des données graphiques](./working-with-chart-data/)
 Découvrez des didacticiels complets sur Aspose.Cells pour .NET axés sur l'utilisation des données graphiques. Apprenez, créez et personnalisez vos graphiques.
 ### [Personnalisation des axes et des unités du graphique](./customizing-chart-axes-and-units/)
-Maîtrisez la personnalisation des axes de graphiques dans Aspose.Cells pour .NET avec des tutoriels simples. Apprenez à gérer les unités automatiques et à lire les étiquettes des axes comme un pro d'Excel.
+Maîtrisez la personnalisation des axes des graphiques dans Aspose.Cells pour .NET avec des tutoriels simples. Apprenez à gérer les unités automatiques et à lire les étiquettes des axes comme un pro d'Excel.
 ### [Travailler avec des hyperliens dans Excel](./excel-working-with-hyperlinks/)
 Libérez la magie des hyperliens dans Excel avec Aspose.Cells pour .NET. Découvrez à quel point il est simple d'améliorer efficacement vos feuilles de calcul.
 ### [Travailler avec des plages nommées dans Excel](./excel-working-with-named-ranges/)
@@ -79,8 +79,44 @@ Découvrez comment trier des données et exporter des valeurs HTML dans Excel av
 ### [Importation et exportation de données Excel](./excel-data-import-export/)
 Exploitez la puissance d'Aspose.Cells pour .NET. Explorez nos tutoriels pour importer et exporter efficacement des données Excel en toute simplicité.
 ### [Conservation des données Excel et avertissement](./excel-data-preservation-warning/)
-Apprenez à utiliser Aspose.Cells pour .NET pour les techniques avancées de conservation des données Excel, telles que la conservation des préfixes entre guillemets simples dans les cellules et la spécification des avertissements de tri pendant le tri.
+Apprenez à utiliser Aspose.Cells pour .NET pour les techniques avancées de préservation des données Excel, telles que la préservation des préfixes entre guillemets simples dans les cellules et la spécification des avertissements de tri pendant le tri.
 ### [Calcul de plage et d'adresse Excel](./excel-range-address-calculation/)
 Découvrez des tutoriels essentiels sur Aspose.Cells pour .NET, couvrant la création de plages Excel, le calcul d'adresses et les manipulations avancées en toute simplicité.
 ### [Gestion des lignes cachées et de la duplication des données dans Excel](./excel-hidden-rows-data-duplication-management/)
 Libérez le potentiel d'Excel avec les didacticiels Aspose.Cells pour .NET, fournissant des informations sur la gestion des lignes masquées et la duplication des données sans effort.
+### [Commentaires et annotations Excel](./excel-comment-annotation/)
+Améliorez vos compétences Excel avec les didacticiels Aspose.Cells pour .NET sur les commentaires et les annotations, comprenant des guides étape par étape pour enrichir vos feuilles de calcul.
+### [Formes et contrôles Excel](./excel-shapes-controls/)
+Découvrez les didacticiels complets Aspose.Cells pour .NET sur l'ajout de formes et de contrôles Excel. Apprenez des méthodes étape par étape pour améliorer vos feuilles de calcul Excel par programmation.
+### [Objets OLE et image Excel](./excel-ole-picture-objects/)
+Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Maîtrisez les objets OLE et la gestion des images grâce à nos didacticiels faciles à suivre.
+### [Accès aux formes et aux étiquettes Excel](./excel-shape-label-access/)
+Libérez la puissance d'Aspose.Cells pour .NET avec nos didacticiels complets, couvrant les étiquettes d'objets OLE et l'identification des formes Smart Art dans Excel.
+### [Modifications de forme et de texte dans Excel](./excel-shape-text-modifications/)
+Apprenez à manipuler les formes et le texte Excel à l'aide d'Aspose.Cells pour .NET avec des didacticiels faciles à suivre et des exemples de code pratiques.
+### [Gestion des fichiers Excel](./excel-file-handling/)
+Libérez votre potentiel Excel avec les didacticiels Aspose.Cells pour .NET. Exportez les propriétés, gérez les lignes vides et chargez facilement les feuilles visibles.
+### [Gestion des fichiers CSV](./csv-file-handling/)
+Découvrez des didacticiels complets Aspose.Cells pour .NET sur la gestion des fichiers CSV, notamment l'ouverture, l'analyse et la manipulation des données avec facilité et efficacité.
+### [Chargement et analyse de fichiers](./data-loading-and-parsing/)
+Déverrouillez vos données Excel sans effort avec les tutoriels Aspose.Cells pour .NET. Apprenez à ouvrir des fichiers chiffrés, contenant uniquement des données, FODS et SXC.
+### [Enregistrer des fichiers dans différents formats](./saving-files-in-different-formats/)
+Découvrez des tutoriels complets sur l'enregistrement de fichiers Excel dans différents formats à l'aide d'Aspose.Cells pour .NET. Améliorez vos compétences Excel.
+### [Gestion des fichiers](./file-handling/)
+Découvrez des didacticiels détaillés sur la gestion des fichiers dans Aspose.Cells pour .NET, y compris l'enregistrement dans divers formats, emplacements et séparateurs personnalisés.
+### [Propriétés du document](./document-properties/)
+Libérez les capacités d'Aspose.Cells pour .NET avec nos didacticiels complets sur les propriétés des documents pour améliorer vos compétences en gestion de fichiers Excel.
+### [Conversion et rendu](./conversion-and-rendering/)
+Découvrez les didacticiels Aspose.Cells pour .NET, comprenant des guides avancés sur la conversion et le rendu transparent de fichiers Excel dans différents formats.
+### [Sécurité et cryptage](./security-and-encryption/)
+Exploitez la puissance d'Aspose.Cells pour .NET avec nos tutoriels sur la sécurité et le chiffrement. Apprenez à détecter et à chiffrer des fichiers sans effort.
+### [Opérations sur la feuille de travail](./worksheet-operations/)
+Libérez tout le potentiel d'Aspose.Cells pour .NET avec ces didacticiels pratiques couvrant les opérations de feuille de calcul et l'amélioration de vos fichiers Excel.
+### [Conversion en PDF](./conversion-to-pdf/)
+Transformez vos fichiers et graphiques Excel en PDF transparents avec nos didacticiels Aspose.Cells pour .NET faciles à suivre.
+### [Opérations sur les images et les graphiques](./image-and-chart-operations/)
+Découvrez le guide complet sur les didacticiels Aspose.Cells pour .NET. Découvrez les opérations sur les images et les graphiques pour améliorer votre productivité.
+### [Opérations XPS et PDF](./xps-and-pdf-operations/)
+Découvrez des didacticiels complets Aspose.Cells pour .NET sur les opérations XPS et PDF pour rationaliser vos conversions de fichiers.
+### [Opérations de liaison et de configuration](./link-and-configuration-operations/)
+Découvrez des tutoriels complets sur Aspose.Cells pour .NET, notamment la configuration des liens et bien plus encore. Parfait pour les développeurs qui cherchent à améliorer leurs applications Excel.

@@ -9,7 +9,7 @@ url: /id/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tuto
 ---
 ## Perkenalan
 
-Pernahkah Anda merasa perlu menambahkan lembar baru ke berkas Excel secara terprogram? Jika ya, Anda berada di tempat yang tepat! Dalam panduan ini, kami akan membahas hal-hal penting dalam penggunaan Aspose.Cells untuk .NET, pustaka canggih yang dirancang khusus untuk memanipulasi berkas Excel. Kami akan menguraikan prasyaratnya, menguraikan kode menjadi langkah-langkah yang mudah diikuti, dan membantu Anda menggunakannya dalam waktu singkat.
+Pernahkah Anda merasa perlu menambahkan lembar baru ke berkas Excel secara terprogram? Jika ya, Anda berada di tempat yang tepat! Dalam panduan ini, kami akan membahas hal-hal penting dalam penggunaan Aspose.Cells untuk .NET, pustaka canggih yang dirancang khusus untuk memanipulasi berkas Excel. Kami akan menguraikan prasyaratnya, menguraikan kode menjadi langkah-langkah yang mudah diikuti, dan membantu Anda memulai dan menjalankannya dalam waktu singkat.
 
 ## Prasyarat
 
@@ -49,7 +49,7 @@ Pertama-tama, Anda perlu memastikan bahwa Anda memiliki tempat yang aman untuk m
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat direktori jika belum ada.
+//Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ Pada kode di atas, kami mendeklarasikan jalur tempat file Excel kami akan berada
 Selanjutnya, kita akan membuat contoh kelas Workbook. Kelas ini adalah tulang punggung semua operasi terkait Excel yang akan Anda lakukan.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Sekarang buku kerja kita sudah siap, mari tambahkan lembar baru!
 int i = workbook.Worksheets.Add();
 ```
 
- Di sini, kami menggunakan`Add()` metode dari`Worksheets` koleksi yang ada di dalam`Workbook` kelas. Metode mengembalikan indeks (`i`dari lembar yang baru ditambahkan. Mirip seperti menambahkan halaman ke buku catatan Anda - mudah dan efisien!
+ Di sini, kami menggunakan`Add()` metode dari`Worksheets` koleksi yang ada di dalam`Workbook` kelas. Metode mengembalikan indeks (`i`) dari lembar yang baru ditambahkan. Mirip seperti menambahkan halaman ke buku catatan Anda - mudah dan efisien!
 
 ## Langkah 4: Memberi Nama Lembar Kerja Baru Anda
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Anda mendapatkan referensi ke lembar yang baru dibuat dengan menggunakan indeksnya`i`. Kemudian, kita tinggal menetapkan namanya menjadi "My Worksheet". Memberi nama lembar kerja seperti ini adalah praktik yang baik, terutama saat bekerja dengan file Excel yang lebih besar di mana konteks adalah hal yang penting.
+ Anda mendapatkan referensi ke lembar yang baru dibuat dengan menggunakan indeksnya`i`Kemudian, kita tinggal menetapkan namanya menjadi "My Worksheet". Memberi nama lembar kerja seperti ini adalah praktik yang baik, terutama saat bekerja dengan file Excel yang lebih besar di mana konteks adalah hal yang penting.
 
 ## Langkah 5: Menyimpan File Excel
 
@@ -102,7 +102,7 @@ Kita sudah sampai di tahap akhir! Saatnya menyimpan karya agung Anda.
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Hanya dengan satu baris kode, kita menyimpan buku kerja kita ke direktori yang ditentukan dengan nama "output.out.xls". Anggap saja ini seperti menutup buku catatan dan menaruhnya di rak untuk disimpan dengan aman.
+Hanya dengan satu baris kode, kita menyimpan buku kerja kita ke direktori yang ditentukan dengan nama "output.out.xls". Anggap saja seperti menutup buku catatan dan menaruhnya di rak untuk disimpan dengan aman.
 
 ## Kesimpulan
 

@@ -116,7 +116,7 @@ Farklı renkler kullanarak grafiğiniz estetik açıdan hoş görünecek ve ilk 
 
 ## Adım 7: İkinci Değer Eksenini Görünür Hale Getirin
 
-İkinci değer ekseninin görünürlüğünün sağlanması, iki eksen arasındaki ölçeğin ve karşılaştırmanın anlaşılmasına yardımcı olur.
+İkinci değer ekseninin görünürlüğünün sağlanması, iki eksen arasındaki ölçek ve karşılaştırmanın anlaşılmasına yardımcı olur.
 
 ```csharp
 chart.SecondValueAxis.IsVisible = true;

@@ -15,7 +15,7 @@ Tạo biểu đồ hấp dẫn về mặt thị giác và nhiều thông tin là
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã chuẩn bị mọi thứ:
 
--  Aspose.Cells cho .NET: Đảm bảo bạn đã tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Đảm bảo bạn đã tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 - Môi trường phát triển: Bất kỳ môi trường phát triển .NET nào cũng có thể sử dụng, nhưng Visual Studio được khuyến khích sử dụng vì có công cụ và hỗ trợ mạnh mẽ.
 - Hiểu biết cơ bản về C#: Sự quen thuộc với những kiến thức cơ bản về lập trình C# sẽ hữu ích vì chúng ta sẽ viết một số mã.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Ở đây, chúng ta đang nhập một số giá trị ngẫu nhiên vào các ô`A1` ĐẾN`B3`. Dữ liệu này sẽ đóng vai trò là nguồn dữ liệu cho biểu đồ của chúng ta. Điều cần thiết là phải có dữ liệu có ý nghĩa để trực quan hóa; nếu không, biểu đồ sẽ chỉ là những đường thẳng đẹp mà không có ngữ cảnh!
+ Ở đây, chúng ta đang nhập một số giá trị ngẫu nhiên vào các ô`A1` ĐẾN`B3`Dữ liệu này sẽ đóng vai trò là nguồn dữ liệu cho biểu đồ của chúng ta. Điều cần thiết là phải có dữ liệu có ý nghĩa để trực quan hóa; nếu không, biểu đồ sẽ chỉ là những đường thẳng đẹp mà không có ngữ cảnh!
 
 ## Bước 5: Thêm biểu đồ vào bảng tính
 
@@ -86,7 +86,7 @@ Bây giờ là lúc thêm biểu đồ vào bảng tính của chúng ta. Chúng
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-Dòng này yêu cầu Aspose thêm biểu đồ cột bắt đầu từ vị trí được chỉ định trên bảng tính. Bạn có thể nghĩ về điều này như việc mở hộp đựng đồ dùng sơn của mình—chuẩn bị trực quan hóa dữ liệu theo cách đầy màu sắc!
+Dòng này yêu cầu Aspose thêm biểu đồ cột bắt đầu từ vị trí được chỉ định trên bảng tính. Bạn có thể coi đây là việc mở hộp đựng đồ dùng sơn của mình—chuẩn bị trực quan hóa dữ liệu theo cách đầy màu sắc!
 
 ## Bước 6: Truy cập Biểu đồ mới được thêm vào
 

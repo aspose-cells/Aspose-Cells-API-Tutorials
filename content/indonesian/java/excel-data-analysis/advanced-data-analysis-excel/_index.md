@@ -162,7 +162,7 @@ Dalam studi kasus ini, kami akan membahas:
 
 - Impor dan pembersihan data.
 - Menghitung total penjualan dan persentase pertumbuhan.
-- Membuat grafik yang informatif.
+- Membuat grafik yang berwawasan.
 - Membangun tabel pivot untuk wawasan yang lebih mendalam.
 
 Nantikan panduan langkah demi langkah untuk studi kasus ini di bagian berikutnya.

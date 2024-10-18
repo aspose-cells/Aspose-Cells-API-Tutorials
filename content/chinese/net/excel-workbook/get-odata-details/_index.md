@@ -30,7 +30,7 @@ url: /zh/net/excel-workbook/get-odata-details/
 
 1. 打开 Visual Studio。
 2. 点击“创建新项目”。
-3. 选择“控制台应用程序（.NET Core）”或“控制台应用程序（.NET Framework）”—根据您偏好即可。
+3. 选择“控制台应用程序（.NET Core）”或“控制台应用程序（.NET Framework）”—根据你的偏好即可。
 4. 命名您的项目（例如，ODataDetailsExtractor）并单击“创建”。
 
 ### 安装 Aspose.Cells NuGet 包
@@ -109,7 +109,7 @@ Console.WriteLine("GetOdataDetails executed successfully.");
 
 ## 结论
 
-就这样！只需几个简单的步骤，您就可以利用 Aspose.Cells for .NET 的强大功能从 Excel 文件中提取 OData 详细信息。使用正确的工具和说明，深入处理复杂的数据管理任务是多么简单，这真是令人惊讶。通过使用 Aspose.Cells，您不仅可以让工作更轻松；还可以开启数据操作的全新可能性。现在您已经掌握了基础知识，继续进一步探索它的功能——它将改变游戏规则！
+就这样！只需几个简单的步骤，您就可以利用 Aspose.Cells for .NET 的强大功能从 Excel 文件中提取 OData 详细信息。使用正确的工具和说明，深入处理复杂的数据管理任务是多么简单，这真是令人惊讶。通过使用 Aspose.Cells，您不仅可以让您的工作更轻松；还可以开启数据操作的全新可能性。现在您已经掌握了基础知识，继续进一步探索它的功能——它将改变游戏规则！
 
 ## 常见问题解答
 

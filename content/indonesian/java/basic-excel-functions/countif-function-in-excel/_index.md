@@ -83,7 +83,7 @@ worksheet.calculateFormula(options);
 
 ## Menyesuaikan kriteria COUNTIF
 
-Anda dapat menyesuaikan kriteria untuk fungsi COUNTIF guna menghitung sel yang memenuhi kondisi tertentu. Misalnya, menghitung sel dengan nilai lebih besar dari angka tertentu, berisi teks tertentu, atau sesuai dengan pola.
+Anda dapat menyesuaikan kriteria untuk fungsi COUNTIF guna menghitung sel yang memenuhi kondisi tertentu. Misalnya, menghitung sel dengan nilai lebih besar dari angka tertentu, berisi teks tertentu, atau yang cocok dengan suatu pola.
 
 ```java
 // Kriteria COUNTIF kustom
@@ -102,7 +102,7 @@ workbook.save("CountifExample.xlsx");
 
 ## Menguji dan memverifikasi hasil
 
-Buka berkas Excel yang dihasilkan untuk memeriksa hasil fungsi COUNTIF. Anda akan melihat hitungan berdasarkan kriteria Anda di sel yang ditentukan.
+Buka file Excel yang dihasilkan untuk memeriksa hasil fungsi COUNTIF. Anda akan melihat hitungan berdasarkan kriteria Anda di sel yang ditentukan.
 
 ## Memecahkan masalah umum
 
@@ -130,7 +130,7 @@ Dalam artikel ini, kita telah mempelajari cara menggunakan fungsi COUNTIF di Exc
 
  Untuk menginstal Aspose.Cells untuk Java, unduh pustaka dari[Di Sini](https://releases.aspose.com/cells/java/) dan tambahkan file JAR ke classpath proyek Java Anda.
 
-### Bisakah saya menyesuaikan kriteria untuk fungsi COUNTIF?
+### Dapatkah saya menyesuaikan kriteria untuk fungsi COUNTIF?
 
 Ya, Anda dapat menyesuaikan kriteria untuk fungsi COUNTIF untuk menghitung sel yang memenuhi kondisi tertentu, seperti nilai yang lebih besar dari angka tertentu atau berisi teks tertentu.
 

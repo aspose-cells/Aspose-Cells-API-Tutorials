@@ -62,7 +62,7 @@ string sourceDir = "Your Document Directory";
 
 Assurez-vous de remplacer « Votre répertoire de sortie » et « Votre répertoire de documents » par les chemins d'accès réels sur votre système. Cela indique où Aspose enregistrera le PDF généré et où il trouvera le fichier Excel.
 
-## Étape 2 : charger le fichier Excel d'exemple
+## Étape 2 : charger l’exemple de fichier Excel
 
 Ensuite, vous devez charger le fichier Excel qui contient le graphique. Voici comment procéder :
 
@@ -134,7 +134,7 @@ Aspose.Cells pour .NET est utilisé pour créer, éditer et convertir des docume
 ### Existe-t-il un moyen de prolonger mon essai au-delà de la période initiale ?  
  Vous pouvez postuler pour un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour des tests prolongés.
 
-### Que faire si je rencontre des problèmes ou si j’ai des questions ?  
+### Que faire si je rencontre des problèmes ou si j'ai des questions ?  
  Vous pouvez demander de l'aide à la communauté Aspose sur leur[Forum de soutien](https://forum.aspose.com/c/cells/9).
 
 ### Comment puis-je acheter Aspose.Cells ?  

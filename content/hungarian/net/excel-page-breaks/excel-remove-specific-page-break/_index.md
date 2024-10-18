@@ -53,18 +53,18 @@ Először is meg kell határoznia az Excel-dokumentumok tárolási helyét. Ez s
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Magyarázat: Cserélje ki`YOUR DOCUMENT DIRECTORY` fájlok tényleges elérési útjával. Innen töltheti be az Excel-fájlt, és később mentheti el a módosított Excel-fájlt.
+ Magyarázat: Cserélje ki`YOUR DOCUMENT DIRECTORY` a fájlok tényleges elérési útjával. Innen töltheti be az Excel-fájlt, és később mentheti el a módosított Excel-fájlt.
 
 ## 2. lépés: Példányosítsa a munkafüzet objektumot
 
 Ezután be kell töltenünk a munkafüzetünket. Egyszerűbben fogalmazva, képzelje el a munkafüzetet Excel-fájlként.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Magyarázat: Ez a sor egy új példányt hoz létre a`Workbook` , amely betölti a megadott Excel-fájlt (ebben a példában a neve`PageBreaks.xls`). 
+Magyarázat: Ez a sor egy új példányt hoz létre a`Workbook` , amely betölti a megadott Excel-fájlt (ebben a példában a neve`PageBreaks.xls`). 
 
 ## 3. lépés: Távolítsa el a vízszintes oldaltörést
 

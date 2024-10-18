@@ -2,7 +2,7 @@
 title: Excel Veri Bağımlılığı ve Hesaplaması
 linktitle: Excel Veri Bağımlılığı ve Hesaplaması
 second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Excel otomasyon becerilerinizi geliştirmek için, bağımlı hücreleri izleme de dahil olmak üzere Excel veri bağımlılıklarını ve hesaplamalarını kapsayan Aspose.Cells for .NET eğitimlerini keşfedin.
+description: Excel otomasyon becerilerinizi geliştirmek için bağımlı hücreleri izleme de dahil olmak üzere Excel veri bağımlılıklarını ve hesaplamalarını kapsayan Aspose.Cells for .NET eğitimlerini keşfedin.
 type: docs
 weight: 34
 url: /tr/net/excel-data-dependency-calculation/

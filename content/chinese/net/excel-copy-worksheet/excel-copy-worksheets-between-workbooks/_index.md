@@ -9,13 +9,13 @@ url: /zh/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
 ## 介绍
 
-您是否曾经手动在 Excel 工作簿之间复制工作表？这有点像在骑独轮车时玩杂耍！但使用 Aspose.Cells for .NET，您可以简化此任务并使其像切黄油一样顺畅。无论您是管理大型数据集还是需要合并信息，在工作簿之间复制工作表都可以节省大量时间。在本教程中，我们将向您展示如何使用 Aspose.Cells for .NET 执行此操作。在本指南结束时，您将轻松完成 Excel 任务。
+您是否曾经手动在 Excel 工作簿之间复制工作表？这有点像在骑独轮车时玩杂耍！但使用 Aspose.Cells for .NET，您可以简化此任务并使其像切黄油一样顺畅。无论您是管理大型数据集还是需要整合信息，在工作簿之间复制工作表都可以节省大量时间。在本教程中，我们将向您展示如何使用 Aspose.Cells for .NET 执行此操作。在本指南结束时，您将轻松完成 Excel 任务。
 
 ## 先决条件
 
 在深入研究代码之前，让我们确保您已配备正确的工具来开始操作：
 
--  Aspose.Cells for .NET：您可以下载[这里](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET：您可以下载[这里](https://releases.aspose.com/cells/net/).
 - Visual Studio 或任何支持.NET 框架的 IDE。
 - 有效的执照或[临时执照](https://purchase.aspose.com/temporary-license/)如果您想测试 Aspose.Cells 的全部功能。
 - 对 C# 和 .NET 框架有基本的了解。
@@ -53,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```csharp
 string InputPath = dataDir + "book1.xls";
 //创建工作簿。
-//打开文件进入第一本书。
+//打开一个文件进入第一本书。
 Workbook excelWorkbook0 = new Workbook(InputPath);
 ```
 
@@ -68,7 +68,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Workbook excelWorkbook1 = new Workbook();
 ```
 
-此行创建一个名为`excelWorkbook1`。这是将工作表从第一个工作簿移出后，复制的工作表将存放在此处。
+这行代码创建一个名为`excelWorkbook1`。这是将工作表从第一个工作簿移出后，复制的工作表将存放在此处。
 
 ## 步骤 4：复制工作表
 

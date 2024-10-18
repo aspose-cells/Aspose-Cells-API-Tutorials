@@ -58,7 +58,7 @@ Carichiamo ora il file Excel in cui risiede Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- IL`Workbook` class è il tuo punto di ingresso nel file Excel. Passando il percorso del nostro file sorgente, stiamo creando un'istanza che ci consente di manipolarlo. Puoi immaginarlo come l'apertura di un libro: ti stai preparando a leggere (o modificare) il suo contenuto.
+ IL`Workbook` class è il tuo punto di ingresso nel file Excel. Passando il percorso del nostro file sorgente, stiamo creando un'istanza che ci consente di manipolarlo. Puoi immaginarlo come l'apertura di un libro: ti stai preparando a leggerne (o modificarne) il contenuto.
 
 ## Passaggio 3: accedere al Data Mashup
 

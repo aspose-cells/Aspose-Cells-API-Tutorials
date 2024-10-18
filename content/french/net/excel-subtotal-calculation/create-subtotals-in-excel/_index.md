@@ -11,9 +11,9 @@ url: /fr/net/excel-subtotal-calculation/create-subtotals-in-excel/
 Êtes-vous prêt à améliorer vos compétences Excel et à rendre vos feuilles de calcul plus dynamiques ? La création de sous-totaux dans Excel peut vous aider à catégoriser et à résumer efficacement les données, ce qui permet une meilleure interprétation et un meilleur reporting des données. Si vous êtes quelqu'un qui se retrouve souvent aux prises avec des tas de chiffres, il est essentiel de générer des résumés structurés. Aujourd'hui, nous allons découvrir comment créer des sous-totaux sans effort à l'aide d'Aspose.Cells pour .NET, une bibliothèque puissante conçue pour gérer toutes vos manipulations de fichiers Excel.
 ## Prérequis
 Avant de plonger dans le vif du sujet de la création de sous-totaux dans Excel, vous devez remplir quelques conditions préalables :
-1. Aspose.Cells pour .NET installé : assurez-vous que la bibliothèque Aspose.Cells est configurée dans votre environnement de développement. Si vous ne l'avez pas encore fait, vous pouvez facilement[téléchargez-le ici](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells pour .NET installé : assurez-vous que la bibliothèque Aspose.Cells est configurée dans votre environnement de développement. Si vous ne l'avez pas encore fait, vous pouvez facilement[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 2. Environnement .NET : vous devez disposer d'un environnement .NET opérationnel dans lequel nous pouvons travailler avec la bibliothèque. Qu'il s'agisse de Visual Studio ou de tout autre IDE, assurez-vous que vous maîtrisez le codage en C#.
-3. Connaissances de base de C# : une connaissance de C# sera bénéfique. Les exemples que nous fournirons sont en syntaxe C#, donc être à l'aise avec cette syntaxe vous aidera à comprendre le processus.
+3. Connaissances de base de C# : une connaissance de C# sera bénéfique. Les exemples que nous fournirons sont en syntaxe C#, donc être à l'aise avec celle-ci vous aidera à comprendre le processus.
 4.  Feuille de calcul Excel : un exemple de fichier Excel pour s'entraîner. Nous utiliserons un fichier appelé`book1.xls` dans notre tutoriel.
 5.  Accès à la documentation et au support en ligne : Se familiariser avec le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) peut être incroyablement utile à mesure que vous progressez dans l’utilisation de la bibliothèque.
 Maintenant que nous avons posé les bases, passons à la partie technique !
@@ -29,7 +29,7 @@ Pour commencer, nous devons définir où se trouve notre fichier Excel. C'est ic
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Remplacer`"Your Document Directory"` avec le chemin réel où votre`book1.xls` est stocké. Cela indique au programme où trouver le fichier Excel que nous allons manipuler.
+ Remplacer`"Your Document Directory"` avec le chemin réel où votre`book1.xls`est stocké. Cela indique au programme où trouver le fichier Excel que nous allons manipuler.
 ## Étape 2 : créer un nouveau classeur
 Ensuite, nous allons créer une nouvelle instance de l'objet Workbook. Cela nous permettra d'ouvrir et de modifier notre fichier Excel.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Ici, nous définissons un`CellArea` qui spécifie la plage qui nous intéresse. Dans ce cas, nous avons choisi la zone allant de B3 (ligne 2, colonne 1) à C19 (ligne 18, colonne 2). C'est ici que nous allons calculer nos sous-totaux.
+ Ici, nous définissons un`CellArea`qui spécifie la plage qui nous intéresse. Dans ce cas, nous avons choisi la zone allant de B3 (ligne 2, colonne 1) à C19 (ligne 18, colonne 2). C'est ici que nous allons calculer nos sous-totaux.
 ## Étape 5 : Appliquer les sous-totaux
 C’est le cœur de notre opération : appliquer le sous-total à la zone de cellule définie.
 ```csharp

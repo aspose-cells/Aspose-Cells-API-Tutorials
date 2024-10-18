@@ -1,7 +1,7 @@
 ---
 title: Ler rótulos de eixos após calcular o gráfico
 linktitle: Ler rótulos de eixos após calcular o gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desbloqueie seu potencial com Aspose.Cells para .NET. Aprenda a ler rótulos de eixos de gráficos facilmente em nosso guia detalhado passo a passo.
 type: docs
 weight: 11
@@ -15,8 +15,8 @@ Ao trabalhar com arquivos Excel no .NET, uma das bibliotecas mais poderosas à s
 
 Antes de mergulharmos nos detalhes do código, vamos garantir que você tenha tudo o que precisa para começar:
 
-1. Visual Studio: Você deve ter o Visual Studio instalado em sua máquina. Se você ainda não o tem, você pode baixá-lo do[Site da Microsoft](https://visualstudio.microsoft.com/).
-2.  Biblioteca Aspose.Cells: Este guia pressupõe que você tenha a biblioteca Aspose.Cells. Você pode baixá-la facilmente em[Página de lançamento do Aspose](https://releases.aspose.com/cells/net/) . Se você não tem certeza de onde começar, o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) pode ser seu melhor amigo!
+1.  Visual Studio: Você deve ter o Visual Studio instalado em sua máquina. Se você ainda não o tem, você pode baixá-lo do[Site da Microsoft](https://visualstudio.microsoft.com/).
+2.  Biblioteca Aspose.Cells: Este guia pressupõe que você tenha a biblioteca Aspose.Cells. Você pode baixá-la facilmente em[Página de lançamento do Aspose](https://releases.aspose.com/cells/net/) Se você não tem certeza de onde começar, o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) pode ser seu melhor amigo!
 3. Conhecimento básico de C#: A familiaridade com a linguagem de programação C# ajudará você a entender os exemplos e acompanhá-los sem problemas.
 4.  Arquivo Excel: Certifique-se de ter um arquivo Excel contendo gráficos para este tutorial. Você pode criar um arquivo Excel de exemplo chamado`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` para fins de teste.
 5. Ambiente .NET: Verifique se seu ambiente .NET está configurado corretamente. Este tutorial tem como alvo o .NET framework, então certifique-se de que está tudo certo!
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- O`Workbook`class é seu gateway para o arquivo Excel. Ao fornecer o caminho completo, criamos uma nova instância de workbook que contém nossos dados Excel.
+ O`Workbook` class é seu gateway para o arquivo Excel. Ao fornecer o caminho completo, criamos uma nova instância de workbook que contém nossos dados Excel.
 
 ## Etapa 3: Acesse a primeira planilha
 
@@ -89,7 +89,7 @@ ch.Calculate();
 ```
 Calcular o gráfico garante que todos os dados e rótulos sejam atualizados de acordo com os dados mais recentes em sua planilha. É como recarregar uma bateria antes de usá-la!
 
-## Ler rótulos de eixos
+## Ler rótulos de eixo
 
 ## Etapa 6: Acesse o Eixo de Categoria
 
@@ -98,11 +98,11 @@ Agora, vamos ler os rótulos dos eixos do eixo de categorias.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Aqui, estamos puxando os rótulos do eixo de categorias e armazenando-os em um`ArrayList`. Esta lista é essencial para iterar e exibir seus rótulos.
+ Aqui, estamos puxando os rótulos do eixo de categorias e armazenando-os em um`ArrayList`. Esta lista é essencial para iterar e exibir seus rótulos.
 
-## Etapa 7: Imprima os rótulos do eixo no console
+## Etapa 7: Imprimir os rótulos do eixo no console
 
-Por fim, vamos imprimir essas etiquetas no console.
+Por fim, vamos imprimir esses rótulos no console.
 
 ```csharp
 Console.WriteLine("Category Axis Labels: ");
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Este snippet primeiro gera um título e uma linha separadora. Em seguida, fazemos um loop por cada rótulo no`lstLabels` ArrayList e imprima-o no console. Se houver dez rótulos, você verá cada um deles ali!
+Este snippet primeiro gera um título e uma linha separadora. Então, fazemos um loop por cada rótulo no`lstLabels` ArrayList e imprima-o no console. Se houver dez rótulos, você verá cada um deles ali!
 
 ## Etapa 8: Mensagem final
 
@@ -127,7 +127,7 @@ Este é um lembrete amigável de que seu processo ocorreu sem problemas!
 
 ## Conclusão
 
-aí está — um guia completo sobre como ler rótulos de eixos de categoria de um gráfico em um arquivo Excel usando a biblioteca Aspose.Cells para .NET. Bem direto, certo? Com apenas algumas linhas de código, você pode extrair informações importantes de suas planilhas e integrá-las aos seus aplicativos perfeitamente.
+E aí está — um guia completo sobre como ler rótulos de eixos de categoria de um gráfico em um arquivo Excel usando a biblioteca Aspose.Cells para .NET. Bem direto, certo? Com apenas algumas linhas de código, você pode extrair informações importantes de suas planilhas e integrá-las aos seus aplicativos perfeitamente.
 
 ## Perguntas frequentes
 
@@ -137,11 +137,11 @@ Aspose.Cells é uma biblioteca poderosa para manipular arquivos Excel em .NET. E
 ### Posso usar o Aspose.Cells em um teste gratuito?
  Sim! Você pode baixar uma versão de teste gratuita em[aqui](https://releases.aspose.com/).
 
-### Como posso comprar o Aspose.Cells?
+### Como faço para comprar o Aspose.Cells?
  Você pode comprar uma licença para Aspose.Cells através de seu[página de compra](https://purchase.aspose.com/buy).
 
 ### Onde posso encontrar suporte para o Aspose.Cells?
- Você pode visitar o fórum Aspose para obter suporte[aqui](https://forum.aspose.com/c/cells/9).
+Você pode visitar o fórum Aspose para obter suporte[aqui](https://forum.aspose.com/c/cells/9).
 
 ### Posso obter uma licença temporária?
  Sim! A Aspose oferece uma licença temporária que você pode solicitar de[este link](https://purchase.aspose.com/temporary-license/).

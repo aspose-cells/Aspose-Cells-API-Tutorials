@@ -15,8 +15,8 @@ Quando lavori con file Excel in .NET, una delle librerie più potenti a tua disp
 
 Prima di addentrarci nei dettagli del codice, assicuriamoci di avere tutto il necessario per iniziare:
 
-1. Visual Studio: Visual Studio dovrebbe essere installato sul tuo computer. Se non lo hai ancora, puoi scaricarlo da[Sito web Microsoft](https://visualstudio.microsoft.com/).
-2.  Libreria Aspose.Cells: questa guida presuppone che tu abbia la libreria Aspose.Cells. Puoi scaricarla facilmente da[Pagina di rilascio di Aspose](https://releases.aspose.com/cells/net/) Se non sei sicuro da dove iniziare, il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) può essere il tuo migliore amico!
+1.  Visual Studio: Visual Studio dovrebbe essere installato sul tuo computer. Se non lo hai ancora, puoi scaricarlo da[Sito web Microsoft](https://visualstudio.microsoft.com/).
+2.  Libreria Aspose.Cells: questa guida presuppone che tu abbia la libreria Aspose.Cells. Puoi scaricarla facilmente da[Pagina di rilascio di Aspose](https://releases.aspose.com/cells/net/)Se non sei sicuro da dove iniziare, il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) può essere il tuo migliore amico!
 3. Conoscenza di base di C#: la familiarità con il linguaggio di programmazione C# ti aiuterà a comprendere gli esempi e a seguirli senza intoppi.
 4.  File Excel: assicurati di avere un file Excel contenente grafici per questo tutorial. Puoi creare un file Excel di esempio denominato`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` a scopo di test.
 5. Ambiente .NET: controlla che il tuo ambiente .NET sia impostato correttamente. Questo tutorial è mirato al framework .NET, quindi assicurati di essere pronto per partire!
@@ -46,7 +46,7 @@ Dopo aver aggiunto queste importazioni, sei pronto per passare alla parte più i
 
 ## Passaggio 1: definire la directory di origine
 
-Per prima cosa imposta il percorso della directory in cui si trova il file Excel. 
+Per prima cosa, imposta il percorso della directory in cui si trova il file Excel. 
 
 ```csharp
 string sourceDir = "Your Document Directory";
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- IL`Workbook`class è il tuo gateway per il file Excel. Fornendo il percorso completo, creiamo una nuova istanza di cartella di lavoro che contiene i nostri dati Excel.
+ IL`Workbook` class è il tuo gateway per il file Excel. Fornendo il percorso completo, creiamo una nuova istanza di cartella di lavoro che contiene i nostri dati Excel.
 
 ## Passaggio 3: accedi al primo foglio di lavoro
 
@@ -98,7 +98,7 @@ Ora leggiamo le etichette degli assi dall'asse delle categorie.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Qui, estraiamo le etichette dall'asse delle categorie e le memorizziamo in un`ArrayList`Questo elenco è fondamentale per scorrere e visualizzare le etichette.
+ Qui, estraiamo le etichette dall'asse delle categorie e le memorizziamo in un`ArrayList`Questo elenco è fondamentale per scorrere e visualizzare le etichette.
 
 ## Passaggio 7: stampare le etichette degli assi sulla console
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Questo frammento prima produce un titolo e una riga di separazione. Poi, eseguiamo un ciclo su ogni etichetta nel`lstLabels` ArrayList e stampalo sulla console. Se ci sono dieci etichette, le vedrai tutte lì!
+Questo frammento prima produce un titolo e una riga di separazione. Poi, eseguiamo un ciclo su ogni etichetta nel`lstLabels` ArrayList e stampalo sulla console. Se ci sono dieci etichette, le vedrai tutte lì!
 
 ## Fase 8: Messaggio finale
 
@@ -123,7 +123,7 @@ Una volta terminato, diamo un messaggio finale di successo all'utente.
 ```csharp
 Console.WriteLine("ReadAxisLabelsAfterCalculatingTheChart executed successfully.");
 ```
-Questo è un promemoria amichevole che il tuo processo si è svolto senza intoppi!
+Questo è un amichevole promemoria che il tuo processo si è svolto senza intoppi!
 
 ## Conclusione
 
@@ -141,7 +141,7 @@ Aspose.Cells è una potente libreria per la manipolazione di file Excel in .NET.
  Puoi acquistare una licenza per Aspose.Cells tramite il loro[pagina di acquisto](https://purchase.aspose.com/buy).
 
 ### Dove posso trovare supporto per Aspose.Cells?
- Puoi visitare il forum Aspose per supporto[Qui](https://forum.aspose.com/c/cells/9).
+Puoi visitare il forum Aspose per supporto[Qui](https://forum.aspose.com/c/cells/9).
 
 ### Posso ottenere una licenza temporanea?
  Sì! Aspose offre una licenza temporanea che puoi richiedere a[questo collegamento](https://purchase.aspose.com/temporary-license/).

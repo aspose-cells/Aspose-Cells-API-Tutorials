@@ -17,7 +17,7 @@ Innan vi dyker in i det nättiga med att skapa diagram, låt oss se till att du 
 
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator. Det är viktigt för att skriva och köra .NET-kod.
 2. .NET Framework: Den här guiden fungerar bäst med .NET Framework eller .NET Core. Se till att du har den version som krävs installerad (4.5 eller senare).
-3. Aspose.Cells: Du behöver Aspose.Cells-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Du behöver Aspose.Cells-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/).
 4. Grundläggande C#-kunskap: En grundläggande förståelse för C#-programmering hjälper dig att förstå stegen bättre. Oroa dig inte om du inte är proffs – jag ska förklara allt!
 
 ## Importera paket
@@ -91,7 +91,7 @@ Låt oss lägga till ett kolumndiagram på en specifik position i vårt kalkylbl
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 ```
 
-Här har vi lagt till ett kolumndiagram som börjar från rad 5, kolumn 0 och sträcker sig till rad 25 respektive 10. Allt klart för att fånga några ögon!
+Här har vi lagt till ett kolumndiagram som börjar från rad 5, kolumn 0 och sträcker sig till rad 25 respektive 10. Allt redo att fånga några ögon!
 
 ## Steg 5: Öppna diagraminstansen
 
@@ -174,4 +174,4 @@ Ja! Aspose.Cells har bibliotek för olika plattformar, inklusive Java, Python oc
  Du kan söka hjälp och stöd från Aspose.Cells community och tillgängliga forum[här](https://forum.aspose.com/c/cells/9).
 
 ### Hur kan jag köpa en licens?
-Du kan köpa en licens direkt från Asposes webbplats[här](https://purchase.aspose.com/buy).
+ Du kan köpa en licens direkt från Asposes webbplats[här](https://purchase.aspose.com/buy).

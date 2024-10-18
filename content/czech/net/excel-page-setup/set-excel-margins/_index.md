@@ -24,7 +24,7 @@ Nyní, když jsme splnili naše předpoklady, pojďme se vrhnout přímo do kód
 
 ## Importujte balíčky
 
-Chcete-li začít, budete muset importovat potřebné jmenné prostory do vašeho projektu C#. To je zásadní, protože to říká vašemu kódu, kde najít třídy a metody Aspose.Cells, které budete používat.
+Chcete-li začít, budete muset importovat potřebné jmenné prostory do vašeho projektu C#. To je zásadní, protože říká vašemu kódu, kde najít třídy a metody Aspose.Cells, které budete používat.
 
 ```csharp
 using System.IO;
@@ -58,7 +58,7 @@ Workbook workbook = new Workbook();
 
 S tímto řádkem kódu jste právě vytvořili prázdný sešit připravený k akci!
 
-## Krok 3: Přístup ke kolekci Worksheet Collection
+## Krok 3: Vstupte do kolekce Worksheet Collection
 
 Jakmile máte sešit nastaven, dalším krokem je přístup k listům obsaženým v tomto sešitu.
 

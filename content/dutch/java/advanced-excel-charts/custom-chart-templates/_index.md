@@ -63,7 +63,7 @@ Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 
 ### Stap 4: Een grafiek maken
 
-Laten we nu een grafiek maken en deze naar wens aanpassen. U kunt kiezen uit verschillende grafiektypen, zoals staafdiagrammen, lijndiagrammen, cirkeldiagrammen en meer. Hier is een voorbeeld van het maken van een staafdiagram:
+Laten we nu een grafiek maken en deze aanpassen aan uw behoeften. U kunt kiezen uit verschillende grafiektypen, zoals staafdiagrammen, lijndiagrammen, cirkeldiagrammen en meer. Hier is een voorbeeld van het maken van een staafdiagram:
 
 ```java
 // Voeg een grafiek toe aan het werkblad
@@ -108,7 +108,7 @@ Aspose.Cells voor Java ondersteunt een breed scala aan diagramtypen, waaronder s
 
 ### Kan ik aangepaste thema's op mijn grafieken toepassen?
 
-Ja, u kunt aangepaste thema's en sjablonen toepassen op uw grafieken in Aspose.Cells voor Java. Hiermee kunt u een consistente look en feel behouden in uw grafieken en rapporten.
+Ja, u kunt aangepaste thema's en sjablonen toepassen op uw diagrammen in Aspose.Cells voor Java. Hiermee kunt u een consistente look en feel behouden in uw diagrammen en rapporten.
 
 ### Is Aspose.Cells voor Java geschikt voor zowel eenvoudige als complexe gegevens?
 

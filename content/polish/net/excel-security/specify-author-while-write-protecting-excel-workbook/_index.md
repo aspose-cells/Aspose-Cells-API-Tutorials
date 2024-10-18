@@ -1,6 +1,6 @@
 ---
-title: Określ autora podczas ochrony skoroszytu programu Excel przed zapisem
-linktitle: Określ autora podczas ochrony skoroszytu programu Excel przed zapisem
+title: Określ autora podczas ochrony zapisu skoroszytu programu Excel
+linktitle: Określ autora podczas ochrony zapisu skoroszytu programu Excel
 second_title: Aspose.Cells dla .NET API Reference
 description: W tym przewodniku krok po kroku dowiesz się, jak włączyć ochronę przed zapisem w skoroszycie programu Excel, określając jednocześnie autora za pomocą Aspose.Cells for .NET.
 type: docs
@@ -109,5 +109,5 @@ I masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić oc
 ### Czy mogę zastosować to podejście w aplikacjach internetowych?  
 Oczywiście! Aspose.Cells działa bezproblemowo zarówno w aplikacjach desktopowych, jak i internetowych, korzystając z .NET.
 
-### Co powinienem zrobić, jeśli potrzebuję wsparcia?  
+### Co mam zrobić, jeśli potrzebuję wsparcia?  
  przypadku pytań i rozwiązywania problemów, społeczność Aspose jest bardzo pomocna. Możesz odwiedzić ich[forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.

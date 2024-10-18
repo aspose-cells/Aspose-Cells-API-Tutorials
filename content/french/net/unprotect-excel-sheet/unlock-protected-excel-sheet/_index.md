@@ -16,7 +16,7 @@ Dans le monde des affaires actuel, qui évolue à un rythme effréné, la gestio
 Avant de vous lancer dans le code, il est essentiel de vous assurer que tout est configuré pour une expérience fluide avec Aspose.Cells pour .NET :
 
 1.  Visual Studio : vous devez avoir Visual Studio installé sur votre ordinateur. Si vous ne l'avez pas, téléchargez la dernière version à partir du[Site Web de Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Bibliothèque Aspose.Cells : Vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez l'obtenir en la téléchargeant à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/)Alternativement, vous pouvez l’installer directement via NuGet dans Visual Studio.
+2.  Bibliothèque Aspose.Cells : Vous aurez besoin de la bibliothèque Aspose.Cells. Vous pouvez l'obtenir en la téléchargeant à partir du[Site Web d'Aspose](https://releases.aspose.com/cells/net/). Alternativement, vous pouvez l’installer directement via NuGet dans Visual Studio.
 3. Compréhension de base de C# : comme nous allons écrire du code C#, une compréhension de base du langage sera utile. Si vous débutez avec C#, de nombreuses ressources sont à votre disposition pour vous aider à vous familiariser avec le langage.
 4. Un fichier Excel : préparez un classeur Excel que vous souhaitez déverrouiller. Dans cet exemple, nous l'appellerons « book1.xls ».
 
@@ -44,7 +44,7 @@ using Aspose.Cells;
 
 Pour déverrouiller une feuille Excel protégée à l'aide d'Aspose.Cells pour .NET, les étapes sont simples. Nous détaillerons clairement chaque étape et vous guiderons tout au long du processus.
 
-## Étape 1 : Configurez le chemin d'accès à votre fichier
+## Étape 1 : Configurez votre chemin de fichier
 
 Tout d’abord, vous devez définir le répertoire dans lequel se trouve votre fichier Excel. Cela est crucial car le code doit savoir où chercher « book1.xls ».
 
@@ -69,11 +69,11 @@ Maintenant que le classeur est chargé, vous devez accéder à la feuille de cal
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- En spécifiant`[0]`vous indiquez au système que vous voulez la première feuille. Si votre feuille n'est pas la première, remplacez simplement cet index par le numéro approprié.
+ En spécifiant`[0]`, vous indiquez au système que vous voulez la première feuille. Si votre feuille n'est pas la première, remplacez simplement cet index par le numéro approprié.
 
 ## Étape 4 : Supprimer la protection de la feuille de calcul
 
-Vient maintenant la partie critique : déverrouiller la feuille de calcul. Si vous avez un mot de passe, vous pouvez le saisir ici ; sinon, laissez-le vide pour une feuille non protégée.
+Vient maintenant la partie critique : déprotéger la feuille de calcul. Si vous avez un mot de passe, vous pouvez le saisir ici ; sinon, laissez-le vide pour une feuille non protégée.
 
 ```csharp
 worksheet.Unprotect("");
@@ -87,7 +87,7 @@ Une fois la feuille de calcul déprotégée, vous devez enregistrer les modifica
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Ici, vous enregistrez les modifications dans un nouveau fichier nommé « output.out.xls » dans le même répertoire. Vous pouvez le renommer comme bon vous semble, mais veillez à conserver le`.xls` extension pour le garder reconnaissable comme un fichier Excel.
+ Ici, vous enregistrez les modifications dans un nouveau fichier nommé « output.out.xls » dans le même répertoire. Vous pouvez le renommer comme bon vous semble, mais veillez à conserver le`.xls`extension pour le garder reconnaissable comme un fichier Excel.
 
 ## Étape 6 : Gestion des erreurs
 
@@ -116,7 +116,7 @@ Et voilà ! Déverrouiller une feuille Excel protégée à l'aide d'Aspose.Cells
 Oui ! Vous pouvez parcourir chaque feuille du classeur et les déprotéger de la même manière.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells propose un essai gratuit, mais une licence est requise pour une utilisation en production. Vérifiez leur[achat](https://purchase.aspose.com/buy)page pour plus d'informations.
+Aspose.Cells propose un essai gratuit, mais une licence est requise pour une utilisation en production. Vérifiez leur[achat](https://purchase.aspose.com/buy) page pour plus d'informations.
 
 ### Que faire si je ne connais pas le mot de passe ?
 Si une feuille est protégée par un mot de passe et que vous ne disposez pas du mot de passe, la bibliothèque ne vous aidera pas à contourner les restrictions car cela est contraire aux politiques éthiques.

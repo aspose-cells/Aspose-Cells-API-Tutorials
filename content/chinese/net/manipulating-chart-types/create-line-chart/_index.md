@@ -40,7 +40,7 @@ using Aspose.Cells.Charts;
 
 此行导入`Aspose.Cells`命名空间，它包含我们用于创建折线图的所有类和方法。
 
-现在，让我们将整个过程分解为简单易懂的步骤。每个步骤都将指导您完成使用 Aspose.Cells for .NET 创建折线图的逻辑流程。
+现在，让我们将整个过程分解为简单易懂的步骤。每个步骤都将引导您完成使用 Aspose.Cells for .NET 创建折线图的逻辑流程。
 
 ## 步骤 1：设置输出目录
 
@@ -138,7 +138,7 @@ Console.WriteLine("HowToCreateLineChart executed successfully.");
 
 ## 结论
 
-使用 Aspose.Cells for .NET 创建折线图是一种让数据栩栩如生的有效方法。按照本分步指南，您可以轻松地可视化数据集中的趋势和关系。无论您是经验丰富的开发人员还是刚刚起步，Aspose.Cells 都能为您提供自动化数据可视化任务的灵活性和功能。 
+使用 Aspose.Cells for .NET 创建折线图是一种让数据栩栩如生的有效方法。按照本分步指南，您可以轻松地可视化数据集中的趋势和关系。无论您是经验丰富的开发人员还是刚刚起步，Aspose.Cells 都能为您提供灵活性和功能来自动化数据可视化任务。 
 
 ## 常见问题解答
 

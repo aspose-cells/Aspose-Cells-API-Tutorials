@@ -16,7 +16,7 @@ Excel 파일은 오늘날의 데이터 중심 세계에서 널리 사용되며, 
 튜토리얼을 시작하기 전에 Aspose.Cells for .NET을 효과적으로 사용하는 데 필요한 모든 것을 설정했는지 확인해야 합니다. 다음은 따라야 할 체크리스트입니다.
 
 1. .NET Framework: 컴퓨터에 .NET Framework가 설치되어 있는지 확인하세요. 
-2.  Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드하고 설치하세요. 다음에서 얻을 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 다운로드하고 설치하세요. 다음에서 얻을 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. IDE: 어떤 코드 편집기든 괜찮지만, Visual Studio와 같은 IDE를 사용하면 .NET 개발을 위한 강력한 플랫폼을 제공합니다.
 4.  샘플 ODS 파일: 차트가 포함된 ODS 파일이 필요합니다. 이 튜토리얼에서는 다음을 사용합니다.`SampleChart.ods`.
 5. C#에 대한 기본 지식: C#에 익숙하면 개념을 빠르게 파악하고 필요에 따라 수정하는 데 도움이 됩니다.
@@ -39,7 +39,7 @@ using Aspose.Cells.Charts;
 새 콘솔 애플리케이션 프로젝트 만들기
 
 - Visual Studio(또는 선호하는 IDE)를 엽니다.
--  새 콘솔 애플리케이션 프로젝트를 만들고 다음과 같은 관련 이름을 지정합니다.`ChartSubtitleExtractor`.
+- 새 콘솔 애플리케이션 프로젝트를 만들고 다음과 같은 관련 이름을 지정합니다.`ChartSubtitleExtractor`.
 
 ## 2단계: Aspose.Cells NuGet 패키지 추가
 
@@ -117,7 +117,7 @@ Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
 
 ## 결론
 
-이제 다 알게 되셨죠! 몇 가지 간단한 단계만 거치면 Aspose.Cells for .NET을 사용하여 ODS 파일에서 차트 부제를 추출하는 방법을 알게 되셨습니다. 이 가이드는 부제에 초점을 맞추었지만, 라이브러리는 다양한 유형의 차트 작업, 데이터 조작, 작업 자동화를 포함한 광범위한 기능을 제공합니다. 따라서 보고서를 큐레이팅하든 데이터 기반 애플리케이션을 개발하든 Aspose.Cells는 여러분의 무기고에 편리한 도구가 될 수 있습니다.
+이제 다 봤습니다! 몇 가지 간단한 단계만 거치면 Aspose.Cells for .NET을 사용하여 ODS 파일에서 차트 부제를 추출하는 방법을 배웠습니다. 이 가이드는 부제에 초점을 맞추었지만 라이브러리는 다양한 유형의 차트 작업, 데이터 조작, 작업 자동화를 포함한 광범위한 기능을 제공합니다. 따라서 보고서를 큐레이팅하든 데이터 기반 애플리케이션을 개발하든 Aspose.Cells는 무기고에 편리한 도구가 될 수 있습니다.
 
 ## 자주 묻는 질문
 

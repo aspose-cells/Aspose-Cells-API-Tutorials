@@ -10,7 +10,7 @@ url: /pl/net/excel-working-with-hyperlinks/add-link-to-url/
 ## Wstęp
 Czy chcesz ulepszyć swój arkusz kalkulacyjny Excel, dodając hiperłącza? Może chcesz połączyć się ze stroną internetową lub innym dokumentem – tak czy inaczej, trafiłeś we właściwe miejsce! W tym przewodniku zajmiemy się tym, jak dodać łącze do adresu URL w pliku Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym profesjonalistą, czy nowicjuszem, rozłożę to na proste, angażujące kroki, które pozwolą Ci tworzyć arkusze kalkulacyjne jak czarodziej. Więc weź swój ulubiony napój, usiądź wygodnie i zaczynajmy!
 ## Wymagania wstępne
-Zanim przejdziemy do szczegółów dodawania hiperłączy w programie Excel za pomocą Aspose.Cells, należy spełnić kilka warunków wstępnych:
+Zanim przejdziemy do szczegółów dodawania hiperłączy w programie Excel za pomocą Aspose.Cells, musisz spełnić kilka warunków wstępnych:
 1. .NET Framework: Upewnij się, że masz skonfigurowane niezbędne środowisko .NET. Aspose.Cells jest kompatybilny z różnymi wersjami .NET, więc wybierz tę, która najlepiej pasuje do Twojego projektu.
 2. Biblioteka Aspose.Cells: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać ze strony[Strona wydania Aspose](https://releases.aspose.com/cells/net/).
 3. Środowisko programistyczne: Użyj środowiska IDE, np. Visual Studio, które ułatwi Ci zarządzanie projektami.
@@ -45,11 +45,11 @@ string outputDir = "Your Document Directory/"; // Zmień swoją ścieżkę
 ## Krok 2: Utwórz obiekt skoroszytu
  Tutaj utworzymy instancję`Workbook` klasa. Pomyśl o skoroszycie jako o pustym płótnie dla arkusza kalkulacyjnego.
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 Na tym etapie powiedziałeś w zasadzie: „Hej, Aspose, utwórzmy nowy plik Excela!”
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 W większości przypadków będziesz chciał manipulować pierwszym arkuszem kalkulacyjnym w nowym skoroszycie. Oto jak go zdobyć.
 ```csharp
 // Uzyskanie odniesienia do pierwszego arkusza roboczego
@@ -63,7 +63,7 @@ Teraz nadchodzi kluczowa część – dodanie samego hiperłącza. Oto klucz do 
 worksheet.Hyperlinks.Add("B4", 1, 1, "https://www.aspose.com");
 ```
 Mówiąc w skrócie:
-- `"B4"`:To jest komórka, w której pojawi się hiperłącze.
+- `"B4"`: To jest komórka, w której pojawi się hiperłącze.
 - `1, 1`:Te liczby całkowite odpowiadają indeksom wiersza i kolumny (należy pamiętać, że indeksy zaczynają się od zera).
 - Adres URL to po prostu miejsce, do którego prowadzi Twój link.
 ## Krok 5: Ustaw tekst wyświetlany
@@ -87,7 +87,7 @@ Console.WriteLine("AddingLinkToURL executed successfully.");
 W ten sposób stworzyłeś funkcjonalny program w języku C#, który dodaje hiperłącze do programu Excel za pomocą Aspose.Cells.
 ## Wniosek
 I masz! Nauczyłeś się, jak dodać hiperłącze do adresu URL w pliku Excela, używając Aspose.Cells dla .NET. To całkiem proste, prawda? Za pomocą zaledwie kilku linijek kodu możesz tworzyć interaktywne arkusze kalkulacyjne, które lepiej komunikują Twoje dane. Więc śmiało, spróbuj!
-Dziękuję za dołączenie do mnie w tym samouczku. Jeśli masz pytania lub chcesz podzielić się swoimi doświadczeniami, śmiało wskakuj do komentarzy. Kontynuuj eksplorację i szczęśliwego kodowania!
+Dziękuję za dołączenie do mnie w tym samouczku. Jeśli masz pytania lub chcesz podzielić się swoimi doświadczeniami, śmiało wskakuj do komentarzy. Kontynuuj eksplorację i miłego kodowania!
 ## Najczęściej zadawane pytania
 ### Czy mogę dodać wiele hiperłączy w jednym arkuszu kalkulacyjnym?  
 Tak! Możesz dodać tyle hiperłączy, ile potrzebujesz, powtarzając kroki dodawania hiperłączy dla różnych komórek.

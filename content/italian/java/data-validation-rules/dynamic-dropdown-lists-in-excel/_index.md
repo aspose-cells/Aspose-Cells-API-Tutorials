@@ -10,7 +10,7 @@ url: /it/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
 
 ## Introduzione agli elenchi a discesa dinamici in Excel
 
-Microsoft Excel è uno strumento versatile che va oltre il semplice inserimento dati e i calcoli. Una delle sue potenti funzionalità è la possibilità di creare elenchi a discesa dinamici, che possono migliorare notevolmente l'usabilità e l'interattività dei tuoi fogli di calcolo. In questa guida passo passo, esploreremo come creare elenchi a discesa dinamici in Excel utilizzando Aspose.Cells per Java. Questa API fornisce funzionalità robuste per lavorare con i file Excel a livello di programmazione, rendendola una scelta eccellente per automatizzare attività come questa.
+Microsoft Excel è uno strumento versatile che va oltre il semplice inserimento dati e i calcoli. Una delle sue potenti funzionalità è la possibilità di creare elenchi a discesa dinamici, che possono migliorare notevolmente l'usabilità e l'interattività dei tuoi fogli di calcolo. In questa guida passo passo, esploreremo come creare elenchi a discesa dinamici in Excel utilizzando Aspose.Cells per Java. Questa API fornisce funzionalità robuste per lavorare con file Excel a livello di programmazione, rendendola una scelta eccellente per automatizzare attività come questa.
 
 ## Prerequisiti
 
@@ -104,4 +104,4 @@ Sì, puoi proteggere il foglio di lavoro consentendo comunque agli utenti di int
 
 ### Ci sono limitazioni al numero di elementi nell'elenco a discesa?
 
-Il numero di elementi nell'elenco a discesa è limitato dalla dimensione massima del foglio di lavoro di Excel. Tuttavia, è buona norma mantenere l'elenco conciso e pertinente al contesto per migliorare l'esperienza utente.
+Il numero di elementi nell'elenco a discesa è limitato dalla dimensione massima del foglio di lavoro di Excel. Tuttavia, è una buona norma mantenere l'elenco conciso e pertinente al contesto per migliorare l'esperienza utente.

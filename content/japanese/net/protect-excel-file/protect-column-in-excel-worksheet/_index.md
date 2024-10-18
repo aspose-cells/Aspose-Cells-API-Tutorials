@@ -42,7 +42,7 @@ using Aspose.Cells;
 
 この行は、コード内で Aspose.Cells 機能を使用することをプログラムに伝えます。 
 
-それでは、詳細を見ていきましょう。Excel ワークシート内の列を保護するために必要な各手順を次に示します。 
+それでは、詳細を見ていきましょう。Excel ワークシート内の列を保護するために必要な各手順を以下に説明します。 
 
 ## ステップ1: ドキュメントディレクトリを設定する
 
@@ -123,7 +123,7 @@ style = sheet.Cells.Columns[0].Style;
 style.IsLocked = true;
 //フラグをインスタンス化します。
 flag = new StyleFlag();
-//ロック設定を行います。
+//ロック設定を設定します。
 flag.Locked = true;
 //最初の列にスタイルを適用します。
 sheet.Cells.Columns[0].ApplyStyle(style, flag);

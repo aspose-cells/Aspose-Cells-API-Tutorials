@@ -17,7 +17,7 @@ När det kommer till att hantera Excel-filer med hjälp av .NET utmärker sig As
 
 ## Effektivisera din Excel-hantering
 
-När vi går vidare erbjuder vi vägledning om att uppfylla mer intrikata krav som att kopiera flera kalkylblad. Om du någonsin har behövt hantera flera arbetsböcker samtidigt, vet du hur tråkigt det här kan bli. Tack och lov, vår handledning om[Excel Kopiera arbetsblad mellan arbetsböcker](./excel-copy-worksheets-between-workbooks/) visar hur du effektiviserar din kalkylarkshantering. Med lätta att följa exempel kommer du att upptäcka tips och tricks som gör att de här uppgifterna blir lätta i ditt arbetsflöde.
+ När vi går vidare erbjuder vi vägledning om att uppfylla mer intrikata krav som att kopiera flera kalkylblad. Om du någonsin har behövt hantera flera arbetsböcker samtidigt, vet du hur tråkigt det här kan bli. Tack och lov, vår handledning om[Excel Kopiera arbetsblad mellan arbetsböcker](./excel-copy-worksheets-between-workbooks/)visar hur du effektiviserar din kalkylarkshantering. Med lätta att följa exempel kommer du att upptäcka tips och tricks som gör att de här uppgifterna blir lätta i ditt arbetsflöde.
 
 ## Bemästra arbetsbladsrörelse
 

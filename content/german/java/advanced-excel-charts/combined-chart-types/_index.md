@@ -118,7 +118,7 @@ Ja, Aspose.Cells für Java unterstützt eine breite Palette von Diagrammtypen, d
 
 ### Ist Aspose.Cells für Java sowohl für Anfänger als auch für erfahrene Java-Entwickler geeignet?
 
-Aspose.Cells für Java ist benutzerfreundlich gestaltet und eignet sich sowohl für Anfänger als auch für erfahrene Entwickler. Es bietet eine High-Level-API für eine einfache Verwendung und erweiterte Funktionen für erfahrenere Entwickler.
+Aspose.Cells für Java ist benutzerfreundlich gestaltet und eignet sich daher sowohl für Anfänger als auch für erfahrene Entwickler. Es bietet eine High-Level-API für eine einfache Verwendung und erweiterte Funktionen für erfahrenere Entwickler.
 
 ### Kann ich das Erscheinungsbild meines kombinierten Diagramms weiter anpassen?
 

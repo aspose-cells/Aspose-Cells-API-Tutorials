@@ -2,7 +2,7 @@
 title: 차트에 TextBox 컨트롤 추가
 linktitle: 차트에 TextBox 컨트롤 추가
 second_title: Aspose.Cells .NET Excel 처리 API
-description: Aspose.Cells for .NET을 사용하여 Excel에서 차트에 TextBox를 추가하는 방법을 알아보세요. 손쉽게 데이터 시각화를 향상시키세요.
+description: Aspose.Cells for .NET을 사용하여 Excel에서 차트에 TextBox를 추가하는 방법을 알아보세요. 손쉽게 데이터 시각화를 향상하세요.
 type: docs
 weight: 12
 url: /ko/net/inserting-controls-in-charts/add-textbox-control-to-chart/
@@ -16,8 +16,8 @@ Excel에서 동적이고 시각적으로 매력적인 차트를 만드는 것은
 코딩에 들어가기 전에 꼭 준비해야 할 몇 가지 사항이 있습니다.
 
 - C#에 대한 기본 이해: C# 프로그래밍에 대한 기본적인 이해가 도움이 될 것입니다. 걱정하지 마세요. 전문가가 될 필요는 없고 구문을 탐색하는 데만 능숙하면 됩니다.
--  Aspose.Cells 라이브러리 설치: Aspose.Cells for .NET 라이브러리가 설치되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/) 아직 하지 않았다면.
-- Visual Studio: .NET 프레임워크에 대해 Visual Studio나 원하는 IDE에 대한 지식이 필수적입니다.
+- Aspose.Cells 라이브러리 설치: Aspose.Cells for .NET 라이브러리가 설치되어 있는지 확인하세요. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/) 아직 하지 않았다면.
+- Visual Studio: .NET 프레임워크에 대해 선호하는 Visual Studio나 IDE에 대한 지식이 필수적입니다.
 - 기존 Excel 파일: 이 예제에서는 "sampleAddingTextBoxControlInChart.xls"라는 기존 Excel 파일을 사용합니다. 하나를 만들거나 샘플을 다운로드할 수 있습니다.
 
 이제 모든 것이 준비되었으니, 코딩 단계로 들어가보겠습니다!
@@ -55,14 +55,14 @@ string outputDir = "Your Output Directory";
 // 기존 파일을 엽니다.
 Workbook workbook = new Workbook(sourceDir + "sampleAddingTextBoxControlInChart.xls");
 ```
-이 줄은 지정된 파일로 새 Workbook 객체를 초기화합니다.
+이 줄은 지정된 파일로 새로운 Workbook 객체를 초기화합니다.
 
 ## 3단계: 워크시트에서 차트에 액세스
 
 Excel의 차트는 워크시트에 저장되므로 먼저 워크시트에 액세스한 다음 원하는 차트를 가져와야 합니다. 이 예에서는 첫 번째 워크시트의 첫 번째 차트에 액세스합니다.
 
 ```csharp
-// 첫 번째 시트에서 디자이너 차트를 받으세요.
+// 첫 번째 시트에서 디자이너 차트를 가져옵니다.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -136,7 +136,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 // Excel 파일을 저장합니다.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- 바꾸다`"outputAddingTextBoxControlInChart.xls"` 원하는 파일 이름으로 저장하세요.
+ 바꾸다`"outputAddingTextBoxControlInChart.xls"`원하는 파일 이름으로 저장하세요.
 
 ## 결론
 

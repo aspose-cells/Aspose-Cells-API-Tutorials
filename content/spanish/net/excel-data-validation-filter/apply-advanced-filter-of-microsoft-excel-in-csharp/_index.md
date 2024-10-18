@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Especifique el directorio de su
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- En este paso, declaramos una variable`sourceDir` que apunta a la ubicación de su archivo de Excel. Luego, creamos una nueva instancia de la`Workbook`clase para cargar ese archivo. ¡Esto es como abrir el libro que queremos leer!
+ En este paso, declaramos una variable`sourceDir` que apunta a la ubicación de su archivo de Excel. Luego, creamos una nueva instancia de la`Workbook` clase para cargar ese archivo. ¡Esto es como abrir el libro que queremos leer!
 
 ## Paso 2: Acceda a la primera hoja de trabajo
 
@@ -58,7 +58,7 @@ Con nuestro libro de trabajo cargado, el siguiente paso es acceder a la primera 
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Aquí, estamos aprovechando la`Worksheets` Recopilación de nuestro libro de trabajo y acceso a la primera hoja de trabajo (que suele ser el índice 0). Este paso es crucial porque todas nuestras acciones de filtrado se realizarán en esta hoja.
+ Aquí, estamos aprovechando la`Worksheets`Recopilación de nuestro libro de trabajo y acceso a la primera hoja de trabajo (que suele ser el índice 0). Este paso es crucial porque todas nuestras acciones de filtrado se realizarán en esta hoja.
 
 ## Paso 3: Definir los parámetros del filtro
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Especifique su directorio de sa
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Finalmente, especificamos dónde queremos que se guarde el libro de trabajo filtrado utilizando el`Save` método. Puedes darle un nuevo nombre (en este caso,`outputAdvancedFilter.xlsx`) para mantener el original intacto.
+ Finalmente, especificamos dónde queremos que se guarde el libro de trabajo filtrado utilizando el`Save` método. Puedes darle un nuevo nombre (en este caso,`outputAdvancedFilter.xlsx`) para mantener el original intacto.
 
 ## Conclusión
 
@@ -100,7 +100,7 @@ No, Aspose.Cells funciona de forma independiente y no requiere que Microsoft Exc
  Sí, puedes probar Aspose.Cells gratis descargando la versión de prueba desde[aquí](https://releases.aspose.com/).
 
 ### ¿Puedo obtener ayuda si encuentro problemas?
-¡Por supuesto! Puedes obtener ayuda de la comunidad en[Foro de Aspose](https://forum.aspose.com/c/cells/9).
+ ¡Por supuesto! Puedes obtener ayuda de la comunidad en[Foro de Aspose](https://forum.aspose.com/c/cells/9).
 
 ### ¿Cómo obtengo una licencia temporal para Aspose.Cells?
  Puedes solicitar una licencia temporal desde su página de compra.[aquí](https://purchase.aspose.com/temporary-license/). 

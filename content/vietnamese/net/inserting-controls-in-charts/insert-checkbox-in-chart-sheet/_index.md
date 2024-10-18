@@ -9,13 +9,13 @@ url: /vi/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 ---
 ## Giới thiệu
 
-Nếu bạn đã từng tạo biểu đồ trong Excel, bạn biết rằng chúng có thể cực kỳ mạnh mẽ để trực quan hóa dữ liệu. Nhưng nếu bạn có thể tăng cường khả năng tương tác đó hơn nữa bằng cách thêm hộp kiểm ngay trong biểu đồ thì sao? Mặc dù điều này nghe có vẻ hơi phức tạp, nhưng thực ra nó khá đơn giản với thư viện Aspose.Cells dành cho .NET. Trong hướng dẫn này, tôi sẽ hướng dẫn bạn từng bước thực hiện, giúp bạn dễ dàng và dễ làm theo.
+Nếu bạn đã từng tạo biểu đồ trong Excel, bạn biết rằng chúng có thể cực kỳ mạnh mẽ để trực quan hóa dữ liệu. Nhưng nếu bạn có thể tăng cường khả năng tương tác đó hơn nữa bằng cách thêm hộp kiểm ngay trong biểu đồ thì sao? Mặc dù điều này nghe có vẻ hơi phức tạp, nhưng thực tế lại khá đơn giản với thư viện Aspose.Cells dành cho .NET. Trong hướng dẫn này, tôi sẽ hướng dẫn bạn từng bước thực hiện, giúp bạn dễ dàng và dễ làm theo.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã thiết lập mọi thứ. Sau đây là những gì bạn cần:
 
-### Đã cài đặt Visual Studio
+### Visual Studio đã được cài đặt
 - Trước tiên và quan trọng nhất, bạn sẽ cần Visual Studio. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ trang web của Microsoft.
 
 ### Thư viện Aspose.Cells
@@ -47,7 +47,7 @@ Sau khi thiết lập xong dự án, đã đến lúc thêm thư viện Aspose.C
 - Tìm kiếm “Aspose.Cells” và nhấp vào “Cài đặt”.
 - Thao tác này sẽ kéo tất cả các phụ thuộc bạn cần vào, giúp bạn dễ dàng bắt đầu sử dụng thư viện.
 
-### Thêm cần thiết bằng cách sử dụng các chỉ thị
+### Thêm Chỉ thị Sử dụng Cần thiết
 
  Ở đầu trang của bạn`Program.cs` tệp, thêm các lệnh sau để sử dụng các chức năng của Aspose.Cells:
 ```csharp
@@ -66,7 +66,7 @@ Trước khi đến phần thú vị, chúng ta cần xác định nơi chúng t
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Thay đổi đến thư mục bạn chỉ định
 ```
- Hãy chắc chắn thay thế`"C:\\YourOutputDirectory\\"` với đường dẫn mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như việc thiết lập không gian làm việc của bạn; bạn cần biết mình sẽ đặt các công cụ của mình ở đâu (hoặc trong trường hợp này là tệp Excel của bạn).
+ Hãy chắc chắn thay thế`"C:\\YourOutputDirectory\\"` với đường dẫn mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như thiết lập không gian làm việc của bạn; bạn cần biết mình sẽ đặt các công cụ của mình ở đâu (hoặc trong trường hợp này là tệp Excel của bạn).
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -93,7 +93,7 @@ Hãy coi bước này như việc lựa chọn loại khung ảnh bạn muốn t
 
 ## Bước 4: Thêm Chuỗi Dữ Liệu vào Biểu Đồ của Bạn
 
-Tại thời điểm này, hãy điền một số chuỗi dữ liệu vào biểu đồ. Để thêm dữ liệu mẫu:
+Tại thời điểm này, chúng ta hãy điền một số chuỗi dữ liệu vào biểu đồ. Để thêm dữ liệu mẫu:
 ```csharp
 sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 ```
@@ -111,7 +111,7 @@ Trong đoạn mã này:
 - `PlacementType.Move` có nghĩa là nếu biểu đồ di chuyển thì hộp kiểm cũng sẽ di chuyển.
 - Chúng ta cũng thiết lập vị trí và kích thước của hộp kiểm trong vùng biểu đồ và cuối cùng, chúng ta thiết lập nhãn văn bản của hộp kiểm.
 
-Thêm hộp kiểm cũng giống như việc đặt một quả anh đào lên trên ly kem của bạn; nó làm cho toàn bộ bài thuyết trình trở nên hấp dẫn hơn!
+Thêm hộp kiểm cũng giống như việc đặt một quả anh đào lên trên ly kem của bạn; nó làm tăng thêm vẻ đẹp cho toàn bộ bài thuyết trình!
 
 ## Bước 6: Lưu tệp Excel
 

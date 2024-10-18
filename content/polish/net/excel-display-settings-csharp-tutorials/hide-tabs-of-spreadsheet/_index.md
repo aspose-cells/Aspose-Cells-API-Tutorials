@@ -17,7 +17,7 @@ Zanim przejdziemy do szczegółów, jest kilka rzeczy, które musisz mieć, aby 
 
 1.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Jeśli go nie masz,[pobierz tutaj](https://releases.aspose.com/cells/net/) . Możesz również użyć[bezpłatny okres próbny](https://releases.aspose.com/) jeśli tylko chcesz to przetestować.
 2. Środowisko programistyczne: Powinieneś mieć zainstalowany program Visual Studio lub inne środowisko programistyczne .NET.
-3. Podstawowa znajomość języka C#: Choć szczegółowo wyjaśnimy każdy krok, aby płynnie śledzić przykłady kodu, konieczna jest podstawowa znajomość języka C#.
+3. Podstawowa znajomość języka C#: Choć wyjaśnimy każdy krok, aby płynnie śledzić przykłady kodu, konieczna jest podstawowa znajomość języka C#.
 4. Plik Excela: Będziesz potrzebować istniejącego pliku Excela, możesz też utworzyć nowy w folderze projektu.
 
 ## Importuj przestrzenie nazw

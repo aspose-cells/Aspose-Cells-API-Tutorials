@@ -9,7 +9,7 @@ url: /fr/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 ---
 ## Introduction
 
-Vous êtes-vous déjà retrouvé bloqué hors d'une feuille de calcul Excel, regardant les données non modifiables et souhaitant un moyen d'y accéder ? Nous sommes tous passés par là ! La protection par mot de passe peut être une arme à double tranchant : elle offre une sécurité, mais ressemble parfois davantage à une prison. Heureusement, si vous êtes un développeur ou une personne à l'aise avec la programmation .NET, Aspose.Cells est là pour vous, vous permettant de déverrouiller ces feuilles de calcul protégées sans effort. Dans ce guide, nous vous expliquerons les étapes à suivre pour déverrouiller une feuille de calcul Excel protégée par mot de passe à l'aide d'Aspose.Cells pour .NET. 
+Vous êtes-vous déjà retrouvé bloqué hors d'une feuille de calcul Excel, regardant les données non modifiables et souhaitant un moyen d'y accéder ? Nous sommes tous passés par là ! La protection par mot de passe peut être une arme à double tranchant : elle offre une sécurité, mais donne parfois l'impression d'être dans une prison. Heureusement, si vous êtes un développeur ou une personne à l'aise avec la programmation .NET, Aspose.Cells est là pour vous, vous permettant de déverrouiller ces feuilles de calcul protégées sans effort. Dans ce guide, nous vous expliquerons les étapes à suivre pour déverrouiller une feuille de calcul Excel protégée par mot de passe à l'aide d'Aspose.Cells pour .NET. 
 
 ## Prérequis
 
@@ -21,11 +21,11 @@ Vous avez besoin d'un environnement .NET fonctionnel. Si vous n'êtes pas encore
 
 ### Aspose.Cells pour .NET
 
- Vous devez disposer d'Aspose.Cells pour .NET. Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/net/) Assurez-vous de vous familiariser avec la documentation, qui peut être trouvée[ici](https://reference.aspose.com/cells/net/).
+ Vous devez disposer d'Aspose.Cells pour .NET. Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/net/) . Assurez-vous de vous familiariser avec la documentation, qui peut être trouvée[ici](https://reference.aspose.com/cells/net/).
 
 ### Connaissances de base en codage
 
-Quelques connaissances de base en programmation en C# ou VB.NET vous seront d'une grande aide. Si vous maîtrisez tout cela, vous êtes prêt !
+Quelques connaissances de base en programmation C# ou VB.NET vous seront d'une grande aide. Si vous maîtrisez tout cela, vous êtes prêt !
 
 ## Paquets d'importation
 
@@ -70,7 +70,7 @@ Tout d'abord, nous devons définir le chemin d'accès de notre document Excel. C
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Astuce : Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où se trouve votre fichier Excel (appelons-le`book1.xls`) est situé. 
+ Astuce : Remplacer`"YOUR DOCUMENT DIRECTORY"`avec le chemin réel où se trouve votre fichier Excel (appelons-le`book1.xls`) est situé. 
 
 ## Étape 2 : instancier un objet classeur
 
@@ -100,7 +100,7 @@ C'est la partie magique !
 worksheet.Unprotect("");
 ```
 
- Si votre feuille de calcul est protégée par un mot de passe et que vous connaissez le mot de passe, vous devez remplacer la chaîne vide`""`avec le mot de passe réel. Si vous ne le connaissez pas, laissez-le simplement vide et exécutez-le pour voir s'il fonctionne.
+ Si votre feuille de calcul est protégée par un mot de passe et que vous connaissez le mot de passe, vous devez remplacer la chaîne vide`""` avec le mot de passe réel. Si vous ne le connaissez pas, laissez-le simplement vide et exécutez-le pour voir s'il fonctionne.
 
 ## Étape 5 : Enregistrer le classeur
 

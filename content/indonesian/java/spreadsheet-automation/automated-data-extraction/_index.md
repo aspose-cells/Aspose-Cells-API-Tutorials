@@ -93,7 +93,7 @@ Mengotomatiskan ekstraksi data dengan Aspose.Cells untuk Java menyederhanakan pr
    Ya, Aspose.Cells untuk Java mendukung ekstraksi data dari file yang dilindungi kata sandi.
 
 ### 2. Apakah ada batasan ukuran file Excel yang dapat diproses?
-   Aspose.Cells dapat menangani berkas Excel berukuran besar secara efisien.
+   Aspose.Cells dapat menangani file Excel berukuran besar secara efisien.
 
 ### 3. Bagaimana cara mengekstrak data dari beberapa lembar kerja dalam file Excel?
    Anda dapat mengulangi lembar kerja dan mengekstrak data dari masing-masing lembar kerja menggunakan Aspose.Cells.

@@ -9,7 +9,7 @@ url: /cs/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
 ---
 ## Zavedení
 
-Pokud jste někdy pracovali s Excelem, víte, jak důležité je mít svá data uspořádaná a snadno dostupná. Jedním z nejúčinnějších způsobů, jak toho dosáhnout, je použití pojmenovaných rozsahů. Pojmenované rozsahy umožňují seskupovat buňky a odkazovat na ně jménem namísto odkazu na buňku, čímž jsou vzorce, navigace a správa dat mnohem jednodušší. Dnes vás provedeme kroky k vytvoření pojmenovaného rozsahu buněk v Excelu pomocí Aspose.Cells for .NET. Ať už vyvíjíte komplexní nástroje pro analýzu dat, automatizujete sestavy nebo jen chcete zjednodušit práci s tabulkovým procesorem, zvládnutí pojmenovaných rozsahů zvýší vaši produktivitu.
+Pokud jste někdy pracovali s Excelem, víte, jak důležité je mít svá data uspořádaná a snadno dostupná. Jedním z nejúčinnějších způsobů, jak toho dosáhnout, je použití pojmenovaných rozsahů. Pojmenované rozsahy umožňují seskupovat buňky a odkazovat na ně jménem namísto odkazu na buňku, čímž jsou vzorce, navigace a správa dat mnohem jednodušší. Dnes vás provedeme kroky k vytvoření pojmenovaného rozsahu buněk v Excelu pomocí Aspose.Cells for .NET. Ať už vyvíjíte komplexní nástroje pro analýzu dat, automatizujete sestavy nebo jen chcete zjednodušit práci s tabulkami, zvládnutí pojmenovaných rozsahů zvýší vaši produktivitu.
 
 ## Předpoklady
 
@@ -63,7 +63,7 @@ Tento řádek inicializuje nový objekt sešitu, který budeme upravovat.
 Každý sešit může mít více listů a pro naše účely budeme přistupovat k prvnímu z nich. Představte si to jako otevření karty v souboru aplikace Excel.
 
 ```csharp
-//Přístup k prvnímu listu v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Nyní máme přístup k prvnímu listu, kde vytvoříme náš pojmenovaný rozsa
 Nyní je čas vytvořit pojmenovaný rozsah. Pojmenovaný rozsah umožňuje definovat konkrétní sadu buněk v listu.
 
 ```csharp
-//Vytvoření pojmenovaného rozsahu
+// Vytvoření pojmenovaného rozsahu
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Po provedení všech těchto změn je dalším krokem uložení sešitu. Budete 
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Tento řádek uloží vaše změny do souboru s názvem`outputCreateNamedRangeofCells.xlsx`. Ujistěte se, že zadaná cesta je správná; jinak program vyhodí chybu!
+ Tento řádek uloží vaše změny do souboru s názvem`outputCreateNamedRangeofCells.xlsx`. Ujistěte se, že zadaná cesta je správná; jinak program vyhodí chybu!
 
 ## Krok 8: Ověřte úspěšnost operace
 

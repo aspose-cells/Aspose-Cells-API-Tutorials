@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Ez a kód hozzáférést biztosít az alapvető osztályokhoz, mint pl`Workbook`, `Worksheet` , és`Range`, amelyre szüksége lesz az Excel fájlok kezeléséhez.
+Ez a kód hozzáférést biztosít az alapvető osztályokhoz, mint pl`Workbook`, `Worksheet` és`Range`, amelyre szüksége lesz az Excel fájlok kezeléséhez.
 
 Most, hogy az előfeltételeinket rendeztük, bontsuk le a folyamatot könnyen követhető lépésekre.
 ## 1. lépés: Állítsa be a kimeneti könyvtárat

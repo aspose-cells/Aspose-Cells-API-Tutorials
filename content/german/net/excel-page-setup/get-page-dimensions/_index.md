@@ -33,7 +33,7 @@ Der erste Schritt auf unserem Weg besteht darin, die erforderlichen Aspose.Cells
 
 ### Neues Projekt erstellen
 
- Öffnen Sie Visual Studio und erstellen Sie ein neues C#-Konsolenanwendungsprojekt. Sie können es beliebig benennen, wir verwenden`GetPageDimensions`.
+ Öffnen Sie Visual Studio und erstellen Sie ein neues C#-Konsolenanwendungsprojekt. Sie können es beliebig benennen, beginnen wir mit`GetPageDimensions`.
 
 ### Verweise hinzufügen
 
@@ -59,7 +59,7 @@ Lassen Sie uns nun Schritt für Schritt untersuchen, wie Sie die Abmessungen ver
 
 ## Schritt 1: Erstellen Sie eine Instanz der Workbook-Klasse
 
-Als Erstes müssen Sie eine Instanz der Workbook-Klasse aus Aspose.Cells erstellen. Diese Klasse stellt eine Excel-Datei dar.
+Als Erstes müssen Sie eine Instanz der Workbook-Klasse von Aspose.Cells erstellen. Diese Klasse stellt eine Excel-Datei dar.
 
 ```csharp
 Workbook book = new Workbook();
@@ -123,7 +123,7 @@ Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben nun erfolgreich gelernt, wie Sie mit Aspose.Cells für .NET Seitenabmessungen für verschiedene Papiergrößen abrufen. Ganz gleich, ob Sie Berichtstools, automatisierte Tabellenkalkulationen oder Datenanalysefunktionen entwickeln, die Möglichkeit, Seitenabmessungen für verschiedene Formate abzurufen, kann von unschätzbarem Wert sein. 
+Herzlichen Glückwunsch! Sie haben nun erfolgreich gelernt, wie Sie mit Aspose.Cells für .NET Seitenabmessungen für verschiedene Papiergrößen abrufen. Egal, ob Sie Berichtstools, automatisierte Tabellenkalkulationen oder Datenanalysefunktionen entwickeln, die Möglichkeit, Seitenabmessungen für verschiedene Formate abzurufen, kann von unschätzbarem Wert sein. 
 
 ## Häufig gestellte Fragen
 

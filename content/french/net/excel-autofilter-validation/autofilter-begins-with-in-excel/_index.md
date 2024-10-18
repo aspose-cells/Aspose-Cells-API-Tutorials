@@ -37,7 +37,7 @@ Cela importe les fonctionnalités principales d'Aspose.Cells ainsi que les fonct
 
 Maintenant que votre environnement est configuré et que les packages nécessaires sont importés, décomposons la fonctionnalité de filtrage automatique en étapes faciles à gérer. Nous allons implémenter un filtre qui extrait les lignes commençant par « Ba ».
 
-## Étape 1 : Définir les répertoires source et de sortie
+## Étape 1 : définir les répertoires source et de sortie
 
 Tout d’abord, définissons où se trouve notre fichier Excel d’entrée, ainsi que l’endroit où nous souhaitons enregistrer notre sortie filtrée :
 
@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Maintenant, nous devons accéder à la feuille de calcul spécifique avec laquelle nous voulons travailler :
 
 ```csharp
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Explication : Le`Worksheets` collection nous permet d'accéder à des feuilles individuelles. En utilisant`[0]` fait référence à la première feuille de calcul de votre fichier Excel, ce qui est généralement une pratique courante lorsque vous travaillez avec un fichier à feuille unique.
+Explication : Le`Worksheets` collection nous permet d'accéder à des feuilles individuelles. En utilisant`[0]` fait référence à la première feuille de calcul de votre fichier Excel, ce qui est généralement une pratique courante lorsque vous travaillez avec un fichier à feuille unique.
 
 ## Étape 4 : Configuration du filtre automatique
 
@@ -82,7 +82,7 @@ C'est ici que la magie commence ! Nous allons créer une plage de filtres autom
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Explication : Le`AutoFilter.Range` La propriété vous permet de spécifier les lignes à filtrer. Dans ce cas, nous filtrons les lignes comprises entre A1 et A18, qui sont supposées contenir nos données.
+Explication : Le`AutoFilter.Range` La propriété vous permet de spécifier les lignes à filtrer. Dans ce cas, nous filtrons les lignes comprises entre A1 et A18, qui sont supposées contenir nos données.
 
 ## Étape 5 : Appliquer la condition de filtrage
 
@@ -93,7 +93,7 @@ L'étape suivante consiste à définir la condition de filtrage. Nous souhaitons
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Explication : Le`Custom` La méthode définit notre logique de filtrage. Le premier argument (`0` ) indique que nous filtrons en fonction de la première colonne (A) et de la`FilterOperatorType.BeginsWith`spécifie notre condition pour rechercher les lignes commençant par « Ba ».
+Explication : Le`Custom` La méthode définit notre logique de filtrage. Le premier argument (`0` ) indique que nous filtrons en fonction de la première colonne (A) et de la`FilterOperatorType.BeginsWith`spécifie notre condition pour rechercher les lignes commençant par « Ba ».
 
 ## Étape 6 : Actualiser le filtre
 
@@ -115,9 +115,9 @@ Il est maintenant temps d’enregistrer les modifications que nous avons apport�
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Explication : Le`Save` La méthode réécrit le classeur modifié dans le chemin de sortie spécifié. Cela revient à écrire vos filtres définis dans un nouveau fichier afin que vos données d'origine restent intactes.
+Explication : Le`Save` La méthode réécrit le classeur modifié dans le chemin de sortie spécifié. Cela revient à écrire vos filtres définis dans un nouveau fichier afin que vos données d'origine restent intactes.
 
-## Étape 8 : Confirmation de sortie
+## Étape 8 : Confirmation de sortie
 
 Enfin, confirmons que notre opération a réussi :
 
@@ -136,7 +136,7 @@ Dans un monde où la gestion des données peut sembler écrasante, la maîtrise 
 ### Quel est le but du filtre automatique dans Excel ?  
 AutoFilter permet aux utilisateurs de trier et de filtrer rapidement les données dans une feuille de calcul, ce qui permet de se concentrer facilement sur des ensembles de données spécifiques.
 
-### Puis-je filtrer en fonction de plusieurs critères avec Aspose.Cells ?  
+### Puis-je filtrer en fonction de plusieurs critères avec Aspose.Cells ?  
 Oui, Aspose.Cells prend en charge des options de filtrage avancées qui vous permettent de définir plusieurs critères.
 
 ### Ai-je besoin d'une licence pour Aspose.Cells pour l'utiliser ?  

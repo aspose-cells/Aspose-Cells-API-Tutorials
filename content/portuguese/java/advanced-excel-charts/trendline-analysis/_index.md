@@ -78,7 +78,7 @@ Agora, você tem um gráfico com uma linha de tendência adicionada. Você pode 
 
 ##Conclusão
 
-Neste tutorial, aprendemos como executar a Análise de Linha de Tendência usando o Aspose.Cells para Java. Criamos uma pasta de trabalho do Excel de exemplo, adicionamos dados, criamos um gráfico e adicionamos uma linha de tendência para visualizar e analisar os dados. Agora você pode usar essas técnicas para executar a análise de linha de tendência em seus próprios conjuntos de dados.
+Neste tutorial, aprendemos como executar a Análise de Linha de Tendência usando o Aspose.Cells para Java. Criamos uma pasta de trabalho de exemplo do Excel, adicionamos dados, criamos um gráfico e adicionamos uma linha de tendência para visualizar e analisar os dados. Agora você pode usar essas técnicas para executar a análise de linha de tendência em seus próprios conjuntos de dados.
 
 ## Perguntas frequentes
 

@@ -16,7 +16,7 @@ Nell'era digitale, gestire e proteggere i tuoi dati è più importante che mai. 
 Prima di immergerci nel codice, assicuriamoci di avere tutto ciò di cui hai bisogno:
 
 1. Ambiente di sviluppo: dovresti avere Visual Studio installato sul tuo computer, poiché fornisce un eccellente IDE per lo sviluppo .NET.
-2. Libreria Aspose.Cells: Scarica la libreria Aspose.Cells. Puoi ottenerla da[Pagina download di Aspose](https://releases.aspose.com/cells/net/).
+2. Libreria Aspose.Cells: Scarica la libreria Aspose.Cells. Puoi ottenerla da[Pagina dei download di Aspose](https://releases.aspose.com/cells/net/).
 3. Conoscenza di base di C#: assicurati di avere una buona conoscenza di C# e .NET Framework per seguire facilmente il corso.
 4. Creare un progetto: impostare una nuova applicazione console in Visual Studio in cui scriveremo il codice.
 
@@ -48,7 +48,7 @@ Suddividiamo l'implementazione in passaggi gestibili. Creeremo un semplice file 
 
 ## Passaggio 1: crea un flusso di file per il tuo file Excel
 
-Innanzitutto, dobbiamo caricare un file Excel esistente. Useremo un`FileStream` per accedervi.
+Per prima cosa, dobbiamo caricare un file Excel esistente. Useremo un`FileStream` per accedervi.
 
 ```csharp
 // Percorso verso la directory dei documenti.
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Ora che abbiamo un flusso di file, possiamo creare un`Workbook` oggetto.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 // Apertura del file Excel tramite il flusso di file
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Per i nostri scopi, lavoreremo solo con il primo foglio di lavoro. Accediamoci.
 
 ```csharp
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
  I fogli di lavoro sono indicizzati a partire da zero, quindi`Worksheets[0]` si riferisce al primo foglio di lavoro nel file Excel. Ora, possiamo applicare le nostre impostazioni di protezione a questo foglio specifico.

@@ -1,6 +1,6 @@
 ---
-title: Ändra Excel-cellers justering utan att förlora formateringen
-linktitle: Ändra Excel-cellers justering utan att förlora formateringen
+title: Ändra justering av Excel-celler utan att förlora formatering
+linktitle: Ändra justering av Excel-celler utan att förlora formatering
 second_title: Aspose.Cells .NET Excel Processing API
 description: Lär dig hur du ändrar justering av Excel-celler utan att förlora formatering med Aspose.Cells för .NET. Följ vår omfattande steg-för-steg-guide för sömlös kontroll.
 type: docs
@@ -18,7 +18,7 @@ Innan vi dyker in i själva kodningen är det viktigt att se till att du har all
 1. Visual Studio: Se till att du har Visual Studio (alla versioner som stöder .NET) installerat på din dator.
 2.  Aspose.Cells för .NET: Ladda ner och installera Aspose.Cells-biblioteket från[Asposes webbplats](https://releases.aspose.com/cells/net/).
 3. Grundläggande kunskaper i C#: Lite förtrogenhet med C#-programmering kommer väl till pass då vi kommer att arbeta i ett C#-sammanhang.
-4. Exempel på Excel-fil: För demonstration, låt förbereda ett exempel på Excel-fil (t.ex.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) som innehåller viss initial cellformatering.
+4.  Exempel på Excel-fil: För demonstration, låt förbereda ett exempel på Excel-fil (t.ex.`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) som innehåller viss initial cellformatering.
 
 ## Importera paket
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Genom att ställa in`Alignments` egenskapen för StyleFlag till`true`, säger du till Aspose.Cells att tillämpa justeringsstilarna korrekt.
+ Genom att ställa in`Alignments`StyleFlaggens egendom till`true`, säger du till Aspose.Cells att tillämpa justeringsstilarna korrekt.
 
 ## Steg 7: Tillämpa stilen på cellområdet
 

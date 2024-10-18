@@ -103,7 +103,7 @@ Selalu bungkus kode Anda dalam blok try-catch untuk menangani pengecualian secar
 
 ## Fitur Tambahan
 
-Aspose.Cells untuk Java menawarkan berbagai fitur yang lebih dari sekadar yang telah kami bahas dalam artikel ini. Anda dapat membuat bagan, tabel pivot, melakukan kalkulasi tingkat lanjut, dan banyak lagi. Jelajahi dokumentasi untuk informasi yang lengkap.
+Aspose.Cells untuk Java menawarkan berbagai fitur yang lebih dari sekadar yang telah kami bahas dalam artikel ini. Anda dapat membuat bagan, tabel pivot, melakukan perhitungan tingkat lanjut, dan banyak lagi. Jelajahi dokumentasi untuk informasi yang lengkap.
 
 ## Kesimpulan
 
@@ -127,6 +127,6 @@ Aspose.Cells untuk Java menyederhanakan otomatisasi Excel, menghemat waktu dan t
 
 Anda dapat menyesuaikan tampilan sel dengan mengubah font, warna, dan gaya menggunakan Aspose.Cells untuk Java. Lihat dokumentasi untuk petunjuk terperinci.
 
-### Di mana saya dapat mengakses fitur Aspose.Cells untuk Java yang lebih canggih?
+### Di mana saya dapat mengakses fitur Aspose.Cells yang lebih canggih untuk Java?
 
 Untuk daftar lengkap fitur dan fungsionalitas lanjutan, lihat dokumentasi Aspose.Cells untuk Java.

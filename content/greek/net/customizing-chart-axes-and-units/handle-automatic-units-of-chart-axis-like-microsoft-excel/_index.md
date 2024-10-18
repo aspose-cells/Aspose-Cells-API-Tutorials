@@ -18,7 +18,7 @@ url: /el/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-ax
 1. Εγκαταστάθηκε το Visual Studio: Θα χρειαστείτε ένα IDE όπως το Visual Studio για να γράψετε και να εκτελέσετε τον κώδικα .NET.
 2. .NET Framework: Αυτό το σεμινάριο προϋποθέτει ότι χρησιμοποιείτε .NET Framework 4.0 ή νεότερη έκδοση. Ωστόσο, το Aspose.Cells είναι συμβατό και με .NET Core.
 3.  Aspose.Cells Library: Εάν δεν το έχετε κάνει ήδη, κάντε λήψη της βιβλιοθήκης από τον ιστότοπο Aspose[εδώ](https://releases.aspose.com/cells/net/) . Μπορείτε επίσης να ξεκινήσετε με μια δωρεάν δοκιμή διαθέσιμη[εδώ](https://releases.aspose.com/).
-4.  Δείγμα αρχείου Excel: Θα χρησιμοποιήσουμε ένα δείγμα αρχείου Excel με το όνομα`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Βεβαιωθείτε ότι έχετε έτοιμο αυτό το αρχείο στον κατάλογο εργασίας σας.
+4. Δείγμα αρχείου Excel: Θα χρησιμοποιήσουμε ένα δείγμα αρχείου Excel με το όνομα`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Βεβαιωθείτε ότι έχετε έτοιμο αυτό το αρχείο στον κατάλογο εργασίας σας.
 
 ## Εισαγωγή πακέτων
 
@@ -62,7 +62,7 @@ using Aspose.Cells.Charts;
 Πριν φορτώσουμε το αρχείο Excel, ας ρυθμίσουμε τους καταλόγους εξόδου και προέλευσης. Αυτό θα μας επιτρέψει να καθορίσουμε πού αποθηκεύονται τα αρχεία μας.
 
 ```csharp
-// Κατάλογος εξόδου - όπου θα αποθηκευτεί το PDF
+//Κατάλογος εξόδου - όπου θα αποθηκευτεί το PDF
 string outputDir = "Your Output Directory"; // καθορίστε τον κατάλογο εξόδου σας εδώ
 
 // Κατάλογος προέλευσης - όπου βρίσκεται το δείγμα αρχείου Excel
@@ -108,7 +108,7 @@ Chart ch = ws.Charts[0];
 
 ```csharp
 // Ρυθμίστε τη κύρια μονάδα για τον άξονα Υ
-ch.AxisY.MajorUnit = 10; // Μπορείτε να ορίσετε σύμφωνα με τις απαιτήσεις σας
+ch.AxisY.MajorUnit = 10; //Μπορείτε να ορίσετε σύμφωνα με τις απαιτήσεις σας
 ```
 
 Ας ενημερώσουμε τις αυτόματες μονάδες τώρα!
@@ -151,4 +151,4 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 Απολύτως! Το Aspose.Cells υποστηρίζει διάφορες μορφές, όπως XLSX, HTML και εικόνες.
 
 ### Πού μπορώ να βρω υποστήριξη εάν αντιμετωπίσω προβλήματα;
-Μπορείτε να ζητήσετε βοήθεια από την κοινότητα Aspose[εδώ](https://forum.aspose.com/c/cells/9).
+ Μπορείτε να ζητήσετε βοήθεια από την κοινότητα Aspose[εδώ](https://forum.aspose.com/c/cells/9).

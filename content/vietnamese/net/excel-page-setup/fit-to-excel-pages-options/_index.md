@@ -9,11 +9,11 @@ url: /vi/net/excel-page-setup/fit-to-excel-pages-options/
 ---
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn tối ưu về cách sử dụng thư viện Aspose.Cells mạnh mẽ cho .NET! Nếu bạn từng thấy mình thất vọng về cách sắp xếp các bảng tính Excel của mình sao cho vừa vặn trên các trang, bạn không phải là người duy nhất. Trong thế giới năng động của thao tác tệp Excel, việc đảm bảo dữ liệu của bạn được trình bày tốt có thể là một thách thức. Hôm nay, chúng ta sẽ đi sâu vào tính năng "Fit to Excel Pages Options". Vì vậy, hãy cầm máy tính xách tay của bạn lên và bắt đầu thôi!
+Chào mừng bạn đến với hướng dẫn tuyệt vời về cách sử dụng thư viện Aspose.Cells mạnh mẽ cho .NET! Nếu bạn từng thấy mình thất vọng về cách sắp xếp các bảng tính Excel của mình sao cho vừa vặn trên các trang, bạn không phải là người duy nhất. Trong thế giới năng động của thao tác tệp Excel, việc đảm bảo dữ liệu của bạn được trình bày tốt có thể là một thách thức. Hôm nay, chúng ta sẽ đi sâu vào tính năng "Fit to Excel Pages Options". Vì vậy, hãy cầm máy tính xách tay của bạn lên và bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu. Sau đây là những gì bạn cần có:
+Trước khi bắt đầu viết mã, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là những gì bạn cần có:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là trung tâm chính cho mọi công việc phát triển.
 2. Aspose.Cells cho .NET: Bạn cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
@@ -54,9 +54,9 @@ Bạn đã sẵn sàng định dạng các trang Excel của mình chưa? Chúng
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

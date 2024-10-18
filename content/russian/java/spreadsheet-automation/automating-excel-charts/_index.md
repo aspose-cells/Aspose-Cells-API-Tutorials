@@ -2,7 +2,7 @@
 title: Автоматизация диаграмм Excel
 linktitle: Автоматизация диаграмм Excel
 second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как автоматизировать создание и настройку диаграмм Excel с помощью Aspose.Cells для Java с примерами исходного кода. Оптимизируйте свои задачи по построению диаграмм.
+description: Изучите, как автоматизировать создание и настройку диаграмм Excel с помощью Aspose.Cells для Java с примерами исходного кода. Оптимизируйте свои задачи по построению диаграмм.
 type: docs
 weight: 17
 url: /ru/java/spreadsheet-automation/automating-excel-charts/

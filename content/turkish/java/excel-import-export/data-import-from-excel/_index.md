@@ -2,7 +2,7 @@
 title: Excel'den Veri Aktarımı
 linktitle: Excel'den Veri Aktarımı
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrenin. Sorunsuz veri alma için kaynak kodlu kapsamlı bir kılavuz.
+description: Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrenin. Sorunsuz veri alımı için kaynak kodlu kapsamlı bir kılavuz.
 type: docs
 weight: 16
 url: /tr/java/excel-import-export/data-import-from-excel/
@@ -15,7 +15,7 @@ Bu kapsamlı kılavuzda, güçlü Aspose.Cells for Java kütüphanesini kullanar
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 1. Java Geliştirme Ortamı: Sisteminizde Java JDK'nın yüklü olduğundan emin olun.
-2.  Java için Aspose.Cells: Projenize Aspose.Cells for Java kütüphanesini indirin ve ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
+2.  Aspose.Cells for Java: Aspose.Cells for Java kütüphanesini indirin ve projenize ekleyin. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 
 ## Bir Java Projesi Oluşturma
 

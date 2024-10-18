@@ -41,7 +41,7 @@ Bir dizin oluşturmak için gereken kodu yazalım (eğer halihazırda yoksa):
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Eğer mevcut değilse dizin oluşturun.
+//Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -110,7 +110,7 @@ proteced_range.Password = "YOUR_PASSWORD";
 
 ## Adım 7: Sayfayı Koruyun
 
-Artık düzenlenebilir aralığımızı tanımladığımıza ve bir parola ile güvence altına aldığımıza göre, tüm çalışma sayfasını korumanın zamanı geldi.
+Artık düzenlenebilir aralığımızı tanımladığımıza ve bir parola ile güvence altına aldığımıza göre, şimdi tüm çalışma sayfasını koruma zamanı.
 
 ```csharp
 // Sayfayı koruyun
@@ -137,7 +137,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 ## SSS
 
 ### Aspose.Cells Nedir?  
-Aspose.Cells, geliştiricilerin Excel dosyalarını programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
+Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
 
 ### Excel çalışma sayfasındaki belirli hücreleri koruyabilir miyim?  
 Evet, Aspose.Cells'i kullanarak belirli düzenlenebilir aralıklar tanımlayabilir ve çalışma sayfasının geri kalanını koruyabilirsiniz.

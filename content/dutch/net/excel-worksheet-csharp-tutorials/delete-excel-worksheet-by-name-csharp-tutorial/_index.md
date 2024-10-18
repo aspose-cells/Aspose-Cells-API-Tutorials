@@ -15,7 +15,7 @@ Wanneer u programmatisch met Excel-bestanden werkt, of het nu voor rapportage, d
 
 Voordat we beginnen, moet u een aantal dingen paraat hebben:
 
-1. Aspose.Cells voor .NET Library: Dit is het kerncomponent dat het mogelijk maakt om Excel-bestanden te manipuleren. Als u het nog niet hebt geïnstalleerd, kunt u[download het hier](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells voor .NET Library: Dit is het kerncomponent dat het mogelijk maakt om Excel-bestanden te manipuleren. Als u het nog niet hebt geïnstalleerd, kunt u[download het hier](https://releases.aspose.com/cells/net/).
 2. Ontwikkelomgeving: U dient een ontwikkelomgeving in te richten, bij voorkeur Visual Studio, waarin u C#-code kunt schrijven en uitvoeren.
 3. Basiskennis van C#: Ik zal elke stap uitleggen, maar een basiskennis van C# helpt je om het beter te kunnen volgen.
 4. Excel-bestand: U moet een Excel-bestand hebben gemaakt (we verwijzen in deze tutorial naar "book1.xls"). U kunt hiervoor een eenvoudig bestand met een paar werkbladen maken.
@@ -58,7 +58,7 @@ Hier openen we "book1.xls". Het is cruciaal dat dit bestand in de door u opgegev
  Vervolgens moet u een`Workbook` object. Dit object vertegenwoordigt uw Excel-bestand en stelt u in staat de inhoud ervan te manipuleren.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook workbook = new Workbook(fstream);
 ```
@@ -85,7 +85,7 @@ Nadat u het gewenste werkblad hebt verwijderd, is het tijd om uw wijzigingen op 
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-U kunt het uitvoerbestand hernoemen of het originele bestand overschrijven indien nodig. Het belangrijkste is dat uw wijzigingen in deze stap behouden blijven!
+kunt het uitvoerbestand hernoemen of het originele bestand overschrijven indien nodig. Het belangrijkste is dat uw wijzigingen in deze stap behouden blijven!
 
 ## Conclusie
 
@@ -96,7 +96,7 @@ Experimenteer gerust met andere functies van de Aspose.Cells-bibliotheek en aarz
 ## Veelgestelde vragen
 
 ### Is Aspose.Cells gratis te gebruiken?
-Aspose.Cells biedt een gratis proefperiode, maar u moet een licentie kopen voor voortgezet gebruik. U kunt uw gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ Aspose.Cells biedt een gratis proefperiode, maar u moet een licentie kopen voor voortgezet gebruik. U kunt uw gratis proefperiode krijgen[hier](https://releases.aspose.com/).
 
 ### Kan ik meerdere werkbladen tegelijk verwijderen?
 U kunt door de werkbladverzameling itereren en meerdere werkbladen verwijderen met behulp van een lus. Zorg er alleen voor dat u de indexen correct beheert.

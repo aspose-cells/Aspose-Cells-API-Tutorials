@@ -15,7 +15,7 @@ url: /ar/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-
 
 قبل أن ننتقل إلى الترميز، دعنا نتأكد من إعداد كل شيء:
 
-1. Visual Studio: تأكد من تثبيت Visual Studio (يجب أن يعمل إصدار 2017 أو الإصدارات الأحدث بشكل جيد).
+1. Visual Studio: تأكد من تثبيت Visual Studio (يجب أن يعمل الإصدار 2017 أو الأحدث بشكل جيد).
 2.  Aspose.Cells لـ .NET: يجب أن يكون لديك مكتبة Aspose.Cells. إذا لم تقم بذلك بعد، فيمكنك تنزيلها[هنا](https://releases.aspose.com/cells/net/).
 3. الفهم الأساسي لـ C# وExcel: إن الفهم الأساسي لبرمجة C# وكيفية عمل Excel سيساعدك بالتأكيد على المتابعة بشكل أكثر فعالية.
 

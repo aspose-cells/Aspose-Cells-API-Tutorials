@@ -15,7 +15,7 @@ Dalam artikel ini, kami akan memandu Anda melalui tutorial langkah demi langkah 
 
 ## Prasyarat
 
-Sebelum menyelami kode tersebut, ada beberapa prasyarat yang perlu Anda penuhi:
+Sebelum menyelami kodenya, ada beberapa prasyarat yang perlu Anda penuhi:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda karena kita akan membuat kode dalam C#.
 2.  Aspose.Cells untuk .NET: Anda perlu menginstal Aspose.Cells untuk .NET. Jika Anda belum melakukannya, unduh dari[Di Sini](https://releases.aspose.com/cells/net/).
@@ -41,7 +41,7 @@ Hal pertama yang ingin kita lakukan adalah menentukan di mana file Anda akan dis
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat direktori jika belum ada.
+//Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -112,7 +112,7 @@ Untuk setiap sel yang ditentukan, kami mengambil gaya saat ini dan mengatur`IsLo
 
 ## Langkah 6: Lindungi Lembar Kerja
 
-Daftar periksa kita hampir selesai! Langkah terakhir yang perlu Anda lakukan adalah melindungi lembar kerja itu sendiri.
+Daftar periksa kami hampir selesai! Langkah terakhir yang perlu Anda lakukan adalah melindungi lembar kerja itu sendiri.
 
 ```csharp
 // Terakhir, Lindungi lembaran sekarang.

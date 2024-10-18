@@ -49,7 +49,7 @@ Worksheet worksheet = workbook.getWorksheets().get("Sheet1");
 
 ## Stap 3: Data valideren
 
-Nu komt het cruciale deel: het valideren van datums in de spreadsheet. We itereren door de cellen en controleren of ze geldige datums bevatten:
+Nu komt het cruciale deel: het valideren van datums in de spreadsheet. We gaan door de cellen itereren en controleren of ze geldige datums bevatten:
 
 ```java
 // Herhaal de cellen
@@ -71,7 +71,7 @@ for (int row = 0; row < worksheet.getCells().getMaxDataRow(); row++) {
 }
 ```
 
-In dit voorbeeld hebben we gecontroleerd of de datum in een cel in de toekomst ligt en hebben we deze gemarkeerd als "Invalid Date" indien waar. U kunt de validatielogica aanpassen aan uw vereisten.
+In dit voorbeeld hebben we gecontroleerd of de datum in een cel in de toekomst ligt en hebben we deze gemarkeerd als "Ongeldige datum" als dit waar is. U kunt de validatielogica aanpassen aan uw vereisten.
 
 ## Stap 4: Het bijgewerkte Excel-bestand opslaan
 

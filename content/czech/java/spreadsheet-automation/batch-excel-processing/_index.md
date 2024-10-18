@@ -100,6 +100,6 @@ Automatizace dávkového zpracování aplikace Excel pomocí Aspose.Cells for Ja
    Ano, k používání Aspose.Cells for Java ve svých projektech budete potřebovat platnou licenci.
 
 ### 4. Kde najdu další zdroje a dokumentaci k Aspose.Cells for Java?
-    Prozkoumejte dokumentaci API na adrese[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
+    Prozkoumejte dokumentaci API na[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
 
 Optimalizujte své dávkové úlohy zpracování Excelu a zvyšte produktivitu pomocí Aspose.Cells pro Java.

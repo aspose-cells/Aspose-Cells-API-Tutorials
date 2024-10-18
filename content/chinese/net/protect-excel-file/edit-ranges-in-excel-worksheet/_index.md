@@ -13,7 +13,7 @@ url: /zh/net/protect-excel-file/edit-ranges-in-excel-worksheet/
 
 ## 先决条件
 
-在开始编码之前，让我们确保您已做好一切准备。以下是您需要的内容：
+在开始编码之前，让我们先确保您已做好一切准备。以下是您需要的内容：
 
 1. Visual Studio：确保已安装 Visual Studio。社区版运行良好。
 2.  Aspose.Cells 库：您需要 Aspose.Cells for .NET 库。您可以[点击下载](https://releases.aspose.com/cells/net/).
@@ -149,4 +149,4 @@ Aspose.Cells 是一个功能强大的.NET 库，允许开发人员以编程方�
 虽然本教程重点介绍.NET，但 Aspose.Cells 适用于多种编程语言，包括 Java 和云 API。
 
 ### 在哪里可以找到有关 Aspose.Cells 的更多信息？  
-您可以探索完整文档[这里](https://reference.aspose.com/cells/net/).
+您可以浏览完整文档[这里](https://reference.aspose.com/cells/net/).

@@ -19,7 +19,7 @@ Sebelum kita mempelajari fungsi Excel, mari kita mulai dengan menyiapkan lingkun
 
 Tutorial lengkap kami akan memandu Anda melalui fungsi-fungsi Excel yang penting, mulai dari SUM dan AVERAGE hingga pernyataan IF dan pengurutan data. Setiap topik dijelaskan langkah demi langkah, dengan contoh-contoh praktis dan cuplikan kode menggunakan Aspose.Cells untuk Java. Baik Anda seorang pemula atau ingin menyegarkan keterampilan Anda, tutorial kami menyediakan pengetahuan yang Anda butuhkan untuk unggul dalam manipulasi spreadsheet.
 
-Judul dan paragraf ini memberikan pengenalan yang jelas dan menarik tentang topik fungsi Excel dasar menggunakan Aspose.Cells untuk Java, yang mengundang pembaca untuk menjelajahi tutorial dan meningkatkan keterampilan manipulasi spreadsheet mereka.
+Judul dan paragraf ini memberikan pengenalan yang jelas dan menarik tentang topik fungsi dasar Excel menggunakan Aspose.Cells untuk Java, yang mengundang pembaca untuk menjelajahi tutorial dan meningkatkan keterampilan manipulasi spreadsheet mereka.
 
 ## Tutorial Fungsi Dasar Excel
 ### [Panduan Rumus SUM Excel](./excel-sum-formula-guide/)

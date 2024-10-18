@@ -97,7 +97,7 @@ Volg deze stappen om tekst uit verschillende cellen in Excel samen te voegen met
 
 2. Voer de tekstgegevens in de gewenste cellen in.
 
-3.  Gebruik de`setFormula` methode om een CONCATENATE-formule te maken die de tekst uit de cellen aaneenschakelt.
+3.  Gebruik de`setFormula` Methode om een CONCATENATE-formule te maken die de tekst uit de cellen aaneenschakelt.
 
 4.  Bereken de formules in het werkblad opnieuw met behulp van`workbook.calculateFormula()`.
 

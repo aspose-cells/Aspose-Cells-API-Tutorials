@@ -72,7 +72,7 @@ Deze stap is alsof u “Hallo!” zegt tegen uw werkboek, zodat het weet dat u e
 Met uw werkboek in de hand is het tijd om toegang te krijgen tot het specifieke werkblad dat u wilt verbergen. We beginnen met het eerste werkblad.
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -113,7 +113,7 @@ Beschouw dit als het achter je dichtdoen van de deur nadat je weggaat. Het is al
 
 ## Stap 8: Het werkblad zichtbaar maken
 
- Om het werkblad weer zichtbaar te maken, moet u de volgende instellingen opgeven:`IsVisible` eigenschap terug naar true. Dit is hoe je dat doet:
+ Om het werkblad weer zichtbaar te maken, moet u de`IsVisible` eigenschap terug naar true. Dit is hoe je dat doet:
 
 ```csharp
 // Toont het eerste werkblad van het Excel-bestand
@@ -138,7 +138,7 @@ Aspose.Cells ondersteunt een verscheidenheid aan formaten, waaronder XLS, XLSX, 
  U kunt beginnen met een gratis proefperiode om de functies te verkennen. Voor productietoepassingen is een volledige licentie vereist. Lees er meer over[hier](https://purchase.aspose.com/buy).
 
 ### Is het mogelijk om werkbladen te verbergen op basis van bepaalde voorwaarden?
-Absoluut! U kunt voorwaardelijke logica in uw code implementeren om te bepalen of een werkblad verborgen of weergegeven moet worden op basis van uw criteria.
+Absoluut! U kunt voorwaardelijke logica in uw code implementeren om te bepalen of een werkblad moet worden verborgen of weergegeven op basis van uw criteria.
 
 ### Hoe krijg ik ondersteuning voor Aspose.Cells?
  U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9) voor vragen of problemen.

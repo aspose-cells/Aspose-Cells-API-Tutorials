@@ -17,7 +17,7 @@ Innan vi går in i koden, låt oss se till att du har allt du behöver för att 
 
 1. .NET Framework: Se till att du har .NET installerat på din dator. Aspose.Cells fungerar bäst med .NET Standard eller .NET Core.
 2.  Aspose.Cells Library: Du kan ladda ner den senaste versionen från[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/net/). Installera det via NuGet eller lägg manuellt till en referens till ditt projekt.
-3. Visual Studio: En solid IDE kommer att göra ditt liv enklare. Se till att du har det konfigurerat på din dator.
+3. Visual Studio: En solid IDE kommer att göra ditt liv enklare. Se till att du har konfigurerat det på din dator.
 4. Grundläggande C#-kunskaper: Bekantskap med C#-programmering är viktigt, eftersom vi kommer att skriva kodavsnitt på detta språk.
 5. Förståelse av Excel: En grundläggande förståelse för Excel och dess komponenter hjälper dig att förstå vad vi gör här.
 

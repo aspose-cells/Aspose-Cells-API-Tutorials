@@ -10,7 +10,7 @@ is_root: true
 
 Aspose.Cells for .NET은 .NET 애플리케이션에서 Excel 파일을 작업하기 위한 다양한 기능을 제공하는 강력한 라이브러리입니다. 이 튜토리얼은 프로젝트에서 Aspose.Cells의 잠재력을 최대한 활용하기 위한 다양한 단계를 안내합니다. 스프레드시트를 만들고, 편집하고, 서식을 지정하고, 데이터를 조작하고, 계산을 수행하고, 차트를 관리하는 방법 등을 배우게 됩니다. 명확한 코드 예제와 단계별 설명을 통해 이 튜토리얼은 Aspose.Cells for .NET을 사용하는 방법을 빠르게 익히고 Excel 개발 기술을 향상시키는 데 도움이 됩니다.
 
-초보자이든 숙련된 개발자이든 Aspose.Cells for .NET 튜토리얼은 핵심 개념과 프로그래밍 모범 사례를 이해하는 데 귀중한 리소스를 제공합니다. Aspose.Cells의 다양한 기능을 살펴보고 Excel 파일을 쉽게 조작할 수 있는 견고하고 강력한 애플리케이션을 만드는 방법을 알아보세요. 데이터 처리 작업을 자동화하든, 동적 보고서를 생성하든, 대화형 대시보드를 만들든 Aspose.Cells 튜토리얼은 이 라이브러리의 모든 잠재력을 활용하여 Excel 파일 조작 측면에서 특정 요구 사항을 충족하는 데 도움이 됩니다.
+초보자이든 숙련된 개발자이든 Aspose.Cells for .NET 튜토리얼은 핵심 개념과 프로그래밍 모범 사례를 이해하는 데 귀중한 리소스를 제공합니다. Aspose.Cells의 다양한 기능을 살펴보고 Excel 파일을 쉽게 조작할 수 있는 견고하고 강력한 애플리케이션을 만드는 방법을 알아보세요. 데이터 처리 작업을 자동화하든, 동적 보고서를 생성하든, 대화형 대시보드를 만들든 Aspose.Cells 튜토리얼은 Excel 파일 조작 측면에서 특정 요구 사항을 충족하기 위해 이 라이브러리의 모든 잠재력을 활용하는 데 도움이 됩니다.
 
 ## 튜토리얼
 
@@ -67,7 +67,7 @@ Aspose.Cells for .NET 튜토리얼로 Excel 데이터 관리를 잠금 해제하
 ### [Excel 소계 및 계산](./excel-subtotal-calculation/)
 Aspose.Cells for .NET을 사용하여 Excel 소계를 만들고 선례를 추적하는 방법을 알아보세요. 이 튜토리얼을 따라 스프레드시트 기술을 손쉽게 향상시키세요.
 ### [Excel 데이터 종속성 및 계산](./excel-data-dependency-calculation/)
-Excel 데이터 종속성 및 계산을 다루는 .NET용 Aspose.Cells 자습서를 살펴보고 종속 셀 추적을 포함하여 Excel 자동화 기술을 향상하세요.
+Excel 데이터 종속성 및 계산을 다루는 .NET용 Aspose.Cells 자습서를 살펴보고 종속 셀 추적을 포함하여 Excel 자동화 기술을 향상시켜 보세요.
 ### [Excel 데이터 검증 및 필터](./excel-data-validation-filter/)
 Excel 데이터 검증 및 필터에 대한 Aspose.Cells for .NET 튜토리얼을 확인해 보세요. 생산성을 높여주는 간단한 가이드입니다.
 ### [Excel 데이터 정렬 및 서식 지정](./excel-data-alignment-formatting/)
@@ -84,3 +84,39 @@ Aspose.Cells for .NET에서 서식을 잃지 않고 Excel 셀 정렬을 변경�
 Excel 범위 생성, 주소 계산 및 고급 조작을 쉽게 다루는 Aspose.Cells for .NET에 대한 필수 튜토리얼을 알아보세요.
 ### [Excel 숨겨진 행 및 데이터 중복 관리](./excel-hidden-rows-data-duplication-management/)
 Aspose.Cells for .NET 튜토리얼을 통해 Excel의 잠재력을 활용하고, 숨겨진 행을 관리하고 데이터를 쉽게 복제하는 방법에 대한 통찰력을 제공합니다.
+### [Excel 주석 및 주석](./excel-comment-annotation/)
+Aspose.Cells for .NET 튜토리얼을 통해 주석과 설명에 대한 Excel 기술을 향상시키고, 스프레드시트를 풍부하게 만드는 단계별 가이드를 제공합니다.
+### [Excel 도형 및 컨트롤](./excel-shapes-controls/)
+Excel 모양과 컨트롤을 추가하는 방법에 대한 포괄적인 Aspose.Cells for .NET 튜토리얼을 살펴보세요. Excel 워크시트를 프로그래밍 방식으로 향상시키는 단계별 방법을 알아보세요.
+### [Excel OLE 및 그림 개체](./excel-ole-picture-objects/)
+Aspose.Cells for .NET으로 Excel의 힘을 활용하세요. 따라하기 쉬운 튜토리얼을 통해 OLE 개체와 그림 처리를 마스터하세요.
+### [Excel 모양 및 레이블 액세스](./excel-shape-label-access/)
+포괄적인 튜토리얼을 통해 Excel에서 OLE 개체 레이블과 Smart Art 모양 식별을 다루는 Aspose.Cells for .NET의 강력한 기능을 활용해보세요.
+### [Excel 모양 및 텍스트 수정](./excel-shape-text-modifications/)
+쉽게 따라할 수 있는 튜토리얼과 실용적인 코드 예제를 통해 Aspose.Cells for .NET을 사용하여 Excel 도형과 텍스트를 조작하는 방법을 알아보세요.
+### [Excel 파일 처리](./excel-file-handling/)
+Aspose.Cells for .NET 튜토리얼로 Excel 잠재력을 발휘하세요. 속성을 내보내고, 빈 행을 관리하고, 보이는 시트를 쉽게 로드하세요.
+### [CSV 파일 처리](./csv-file-handling/)
+CSV 파일을 처리하고 데이터를 쉽고 효율적으로 열고 구문 분석하고 조작하는 방법에 대한 포괄적인 Aspose.Cells for .NET 튜토리얼을 살펴보세요.
+### [파일 로딩 및 파싱](./data-loading-and-parsing/)
+Aspose.Cells for .NET 튜토리얼로 Excel 데이터를 손쉽게 잠금 해제하세요. 암호화된, 데이터 전용, FODS 및 SXC 파일을 여는 방법을 알아보세요.
+### [다양한 형식으로 파일 저장](./saving-files-in-different-formats/)
+Aspose.Cells for .NET을 사용하여 다양한 형식으로 Excel 파일을 저장하는 방법에 대한 포괄적인 튜토리얼을 알아보세요. Excel 기술을 향상시키세요.
+### [파일 처리](./file-handling/)
+.NET용 Aspose.Cells에서 파일을 처리하는 방법에 대한 자세한 자습서를 알아보세요. 여기에는 다양한 형식, 위치 및 사용자 정의 구분 기호로 저장하는 방법도 포함됩니다.
+### [문서 속성](./document-properties/)
+포괄적인 문서 속성 튜토리얼을 통해 .NET용 Aspose.Cells의 기능을 활용해 Excel 파일 관리 기술을 향상시키세요.
+### [변환 및 렌더링](./conversion-and-rendering/)
+Excel 파일을 다양한 형식으로 원활하게 변환하고 렌더링하는 방법에 대한 고급 가이드를 제공하는 Aspose.Cells for .NET 튜토리얼을 살펴보세요.
+### [보안 및 암호화](./security-and-encryption/)
+보안 및 암호화에 대한 튜토리얼로 .NET용 Aspose.Cells의 힘을 활용하세요. 파일을 손쉽게 탐지하고 암호화하는 방법을 알아보세요.
+### [워크시트 작업](./worksheet-operations/)
+워크시트 작업과 Excel 파일의 향상을 다루는 실용적인 튜토리얼을 통해 .NET용 Aspose.Cells의 모든 잠재력을 활용해 보세요.
+### [PDF로 변환](./conversion-to-pdf/)
+따라하기 쉬운 Aspose.Cells for .NET 튜토리얼을 사용하여 Excel 파일과 차트를 완벽한 PDF로 변환하세요.
+### [이미지 및 차트 작업](./image-and-chart-operations/)
+.NET 튜토리얼을 위한 Aspose.Cells에 대한 포괄적인 가이드를 살펴보세요. 생산성을 높이기 위한 이미지 및 차트 작업에 대해 알아보세요.
+### [XPS 및 PDF 작업](./xps-and-pdf-operations/)
+XPS 및 PDF 작업에 대한 포괄적인 Aspose.Cells for .NET 튜토리얼을 통해 파일 변환을 간소화하세요.
+### [링크 및 구성 작업](./link-and-configuration-operations/)
+Aspose.Cells for .NET에 대한 포괄적인 튜토리얼을 알아보세요. 여기에는 링크 구성 등이 포함됩니다. Excel 애플리케이션을 개선하려는 개발자에게 완벽합니다.

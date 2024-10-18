@@ -94,7 +94,7 @@ Você pode alterar a formatação da tabela dinâmica acessando suas propriedade
 
 Sim, você pode criar várias tabelas dinâmicas na mesma planilha especificando diferentes locais de destino.
 
-### Q4: Posso filtrar dados em uma tabela dinâmica?
+### P4: Posso filtrar dados em uma tabela dinâmica?
 
 Sim, você pode aplicar filtros a tabelas dinâmicas para exibir subconjuntos de dados específicos.
 

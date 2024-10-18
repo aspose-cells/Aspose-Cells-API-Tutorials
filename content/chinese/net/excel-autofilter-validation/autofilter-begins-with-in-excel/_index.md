@@ -33,7 +33,7 @@ using Aspose.Cells;
 using System;
 ```
 
-这将导入核心 Aspose.Cells 功能以及我们依赖于控制台交互的基本系统功能。
+这将导入核心 Aspose.Cells 功能以及我们依赖的控制台交互的基本系统功能。
 
 现在您已设置好环境并导入了必要的包，让我们将自动筛选功能分解为易于管理的步骤。我们将实现一个筛选器，用于提取以“Ba”开头的行。
 
@@ -104,7 +104,7 @@ worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 worksheet.AutoFilter.Refresh();
 ```
 
-说明：此行调用自动筛选器进行刷新，以确保可见行与应用的筛选条件相对应。这类似于点击 Excel 中的刷新按钮。
+说明：此行调用自动筛选器上的刷新，以确保可见行与应用的筛选条件相对应。这类似于点击 Excel 中的刷新按钮。
 
 ## 步骤 7：保存修改后的 Excel 文件
 
@@ -125,7 +125,7 @@ workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 Console.WriteLine("AutofilterBeginsWith executed successfully.\r\n");
 ```
 
-解释：这一行简单的内容向控制台输出一条确认消息，让您知道过滤过程已完成且没有错误。
+解释：这一行简单的代码向控制台输出一条确认消息，让您知道过滤过程已完成并且没有错误。
 
 ## 结论
 

@@ -47,7 +47,7 @@ Das ist, als würde man vor dem Bau eines Hauses das Fundament legen – Sie bra
 
 ## Schritt 2: Öffnen Sie die Excel-Datei
 
-Lassen Sie uns nun einen Dateistream erstellen, um unsere Excel-Arbeitsmappe zu öffnen. Dieser Schritt ist entscheidend, da Sie die Datei lesen und bearbeiten müssen.
+Erstellen wir nun einen Dateistream, um unsere Excel-Arbeitsmappe zu öffnen. Dieser Schritt ist entscheidend, da Sie die Datei lesen und bearbeiten müssen.
 
 ```csharp
 // Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
@@ -72,7 +72,7 @@ Mit diesem Schritt sagen Sie Ihrem Arbeitsbuch sozusagen „Hallo!“, damit es 
 Wenn Sie Ihr Arbeitsbuch zur Hand haben, können Sie nun auf das Arbeitsblatt zugreifen, das Sie ausblenden möchten. Wir beginnen mit dem ersten Arbeitsblatt.
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -113,7 +113,7 @@ Betrachten Sie dies als das Schließen der Tür hinter sich, nachdem Sie gegange
 
 ## Schritt 8: Arbeitsblatt einblenden
 
- Um das Arbeitsblatt wieder einzublenden, müssen Sie die`IsVisible` Eigenschaft wieder auf true setzen. So geht's:
+ Um das Arbeitsblatt wieder einzublenden, müssen Sie die`IsVisible` -Eigenschaft wieder auf true zurückzusetzen. So geht's:
 
 ```csharp
 // Zeigt das erste Arbeitsblatt der Excel-Datei

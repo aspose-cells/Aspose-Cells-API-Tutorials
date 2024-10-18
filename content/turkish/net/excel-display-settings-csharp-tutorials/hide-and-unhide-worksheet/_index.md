@@ -32,7 +32,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Artık her şey hazır ve kodlamaya hazır olduğumuza göre, süreci yönetilebilir adımlara bölelim. Çalışma sayfasını gizlemekle başlayacağız ve ardından nasıl gizleneceğini keşfedeceğiz.
+Artık her şey hazır ve kodlamaya hazır olduğumuza göre, süreci yönetilebilir adımlara bölelim. Çalışma sayfasını gizlemekle başlayacağız ve ardından onu nasıl gizleyeceğimizi keşfedeceğiz.
 
 ## Adım 1: Ortamınızı Kurun
 
@@ -72,7 +72,7 @@ Bu adım, çalışma kitabınıza "Merhaba!" demek gibidir; böylece sizin orada
 Elinizde çalışma kitabınız varken, gizlemek istediğiniz belirli çalışma sayfasına erişme zamanı. İlk çalışma sayfasıyla başlayacağız.
 
 ```csharp
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+// Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## Adım 7: Dosya Akışını Kapatın
 
-Son olarak dosya akışını kapatmalısınız. Bu adım sistem kaynaklarını serbest bırakmak ve bellek sızıntılarını önlemek için hayati önem taşır.
+Son olarak, dosya akışını kapatmalısınız. Bu adım, sistem kaynaklarını serbest bırakmak ve bellek sızıntılarını önlemek için hayati önem taşır.
 
 ```csharp
 // Tüm kaynakları serbest bırakmak için dosya akışını kapatıyorum

@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
-說明：這一行創建了一個新的實例`Workbook`，它會載入指定的 Excel 檔案（在本例中，它的名稱為`PageBreaks.xls`）。 
+說明：這一行建立了一個新的實例`Workbook`，它會載入指定的 Excel 檔案（在本例中，它的名稱為`PageBreaks.xls`）。 
 
 ## 步驟 3：刪除水平分頁符
 
@@ -100,7 +100,7 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 
 ## 結論
 
-現在你就擁有了！使用 Aspose.Cells for .NET 從 Excel 檔案中刪除特定分頁符號就像執行上述步驟一樣簡單。透過本指南，您可以確保 Excel 文件的格式完美適合列印，而不會出現任何雜散分頁符號。
+現在你就得到它了！使用 Aspose.Cells for .NET 從 Excel 檔案中刪除特定分頁符號就像執行上述步驟一樣簡單。透過本指南，您可以確保 Excel 文件的格式完美適合列印，而不會出現任何雜散分頁符號。
 
 ## 常見問題解答
 

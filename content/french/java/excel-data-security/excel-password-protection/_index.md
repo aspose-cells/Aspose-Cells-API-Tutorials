@@ -100,7 +100,7 @@ public class ExcelPasswordProtection {
 
 ## Conclusion
 
-Dans ce tutoriel, nous avons appris à ajouter une protection par mot de passe aux fichiers Excel à l'aide d'Aspose.Cells pour Java. Il s'agit d'une technique essentielle pour sécuriser vos données sensibles et préserver leur confidentialité. Avec seulement quelques lignes de code, vous pouvez vous assurer que seuls les utilisateurs autorisés peuvent accéder à vos feuilles de calcul Excel.
+Dans ce tutoriel, nous avons appris à ajouter une protection par mot de passe aux fichiers Excel à l'aide d'Aspose.Cells pour Java. Il s'agit d'une technique essentielle pour sécuriser vos données sensibles et préserver la confidentialité. Avec seulement quelques lignes de code, vous pouvez vous assurer que seuls les utilisateurs autorisés peuvent accéder à vos feuilles de calcul Excel.
 
 ## FAQ
 

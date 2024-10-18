@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Ställa in dataintervallet för diagrammet
 chart.getNSeries().add("A2:B4", true);
 
-// Anpassa diagramattribut
+//Anpassa diagramattribut
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -138,7 +138,7 @@ Aspose.Cells för Java låter dig integrera data från olika källor i dina diag
 
 ## Slutsats
 
-den här artikeln undersökte vi hur man skapar 3D-diagram med Aspose.Cells för Java. Vi diskuterade inställningar, grundläggande diagramskapande, anpassning och avancerade funktioner för att arbeta med 3D-diagram. Aspose.Cells för Java tillhandahåller en robust och användarvänlig plattform för att skapa visuellt tilltalande och informativa 3D-diagram i Excel.
+I den här artikeln undersökte vi hur man skapar 3D-diagram med Aspose.Cells för Java. Vi diskuterade inställningar, grundläggande diagramskapande, anpassning och avancerade funktioner för att arbeta med 3D-diagram. Aspose.Cells för Java tillhandahåller en robust och användarvänlig plattform för att skapa visuellt tilltalande och informativa 3D-diagram i Excel.
 
 ## FAQ's
 

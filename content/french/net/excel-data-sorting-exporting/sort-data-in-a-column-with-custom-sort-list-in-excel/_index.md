@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Étape 2 : charger le fichier Excel source
 
- Ensuite, nous allons charger le fichier Excel qui contient les données que vous souhaitez trier. Pour cela, il faut créer une instance de`Workbook` classe et en passant le chemin de votre fichier source.
+Ensuite, nous allons charger le fichier Excel qui contient les données que vous souhaitez trier. Pour cela, il faut créer une instance de`Workbook` classe et en passant le chemin de votre fichier source.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -135,4 +135,4 @@ Bien que cela soit utile, vous pouvez suivre ce tutoriel et apprendre au fur et 
 Absolument ! Vous pouvez acquérir une licence temporaire si vous souhaitez tester toutes les fonctionnalités de la bibliothèque sans restrictions.
 
 ### Puis-je télécharger des exemples ou de la documentation pour Aspose.Cells ?
- Oui ! Aspose fournit une documentation complète et des exemples de projets qui peuvent vous être d'une grande aide. Consultez le[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Oui ! Aspose fournit une documentation complète et des exemples de projets qui peuvent vous être d'une grande aide. Découvrez le[Documentation sur Aspose.Cells](https://reference.aspose.com/cells/net/).

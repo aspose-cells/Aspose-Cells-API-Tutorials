@@ -18,7 +18,7 @@ Voordat we beginnen met het daadwerkelijke opheffingsproces, zijn er een paar di
 1. Visual Studio: Zorg ervoor dat u Visual Studio hebt geïnstalleerd voor .NET-ontwikkeling. Deze omgeving maakt het eenvoudiger om naadloos met Aspose.Cells-bibliotheken te werken.
 2.  Aspose.Cells Library: U moet de Aspose.Cells-bibliotheek installeren. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Een fundamenteel begrip van C#-programmering helpt u te begrijpen hoe de code samenwerkt met de Aspose.Cells-bibliotheek.
-4. Voorbeeld van een Excel-bestand: Gebruik een eenvoudig Excel-bestand dat met of zonder wachtwoord is beveiligd om het proces voor het opheffen van de beveiliging te testen.
+4. Voorbeeld van een Excel-bestand: Gebruik een eenvoudig Excel-bestand dat met of zonder wachtwoord is beveiligd om te testen of het bestand opheffen van de beveiliging werkt.
 5. Microsoft Excel (optioneel): Het is altijd handig om Excel bij de hand te hebben, zodat u kunt controleren of de wijzigingen die Aspose.Cells heeft aangebracht, correct zijn.
 
 ## Pakketten importeren
@@ -72,7 +72,7 @@ Door het pad naar uw Excel-bestand op te geven (`book1.xls`), laadt u het docume
 
 ## Stap 3: Toegang tot het werkblad
 
-Laten we nu het werkblad benaderen dat u wilt opheffen. Als u over het algemeen maar één werkblad hebt, is dit het eerste (index 0).
+Laten we nu het werkblad benaderen dat u wilt opheffen. Over het algemeen geldt dat als u maar één werkblad hebt, dit het eerste is (index 0).
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];

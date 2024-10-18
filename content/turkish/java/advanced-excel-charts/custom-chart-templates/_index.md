@@ -20,7 +20,7 @@ Sürekli gelişen veri görselleştirme dünyasında, verilerinizin hikayesini e
 
 Bu eğitimi takip edebilmek için aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-- Sisteminizde Java Development Kit (JDK) yüklü.
+- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
 -  Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 
 ## Özel Bir Grafik Şablonu Oluşturma

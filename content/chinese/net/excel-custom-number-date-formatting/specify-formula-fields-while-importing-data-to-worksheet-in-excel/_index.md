@@ -16,7 +16,7 @@ url: /zh/net/excel-custom-number-date-formatting/specify-formula-fields-while-im
 在深入研究代码之前，让我们确保您拥有所需的一切。 
 
 1. Visual Studio 或任何 .NET 集成开发环境 (IDE)：确保您有一个合适的 IDE 来编写和运行您的 C# 代码。
-2. Aspose.Cells for .NET：您需要下载并在项目中引用 Aspose.Cells 库。您可以从[Aspose 发布](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET：您需要下载并在项目中引用 Aspose.Cells 库。您可以从[Aspose 发布](https://releases.aspose.com/cells/net/).
 3. 基本 C# 知识：熟悉 C# 和面向对象编程概念将帮助您更好地理解示例。
 4. .NET Framework：本教程假设您使用 .NET Framework 4.5 或更高版本。
 

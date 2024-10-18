@@ -9,7 +9,7 @@ url: /id/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 ## Perkenalan
 
-Dalam dunia penanganan data, spreadsheet ada di mana-mana—mulai dari mengelola angka penjualan hingga mengatur data proyek. Namun, bagaimana Anda mengelola file-file ini saat otomatisasi menjadi hal yang penting? Nah, jika Anda bekerja di .NET, Aspose.Cells adalah alat yang sangat baik untuk memanipulasi file Excel secara terprogram. Dalam artikel ini, kami akan memandu Anda menyalin lembar kerja dalam file Excel menggunakan Aspose.Cells untuk .NET. Ini adalah tugas umum saat Anda perlu menduplikasi data di lembar baru tanpa memulai dari awal.
+Dalam dunia penanganan data, spreadsheet ada di mana-mana—mulai dari mengelola angka penjualan hingga mengatur data proyek. Namun, bagaimana Anda mengelola file-file ini saat otomatisasi menjadi penting? Nah, jika Anda bekerja di .NET, Aspose.Cells adalah alat yang sangat baik untuk memanipulasi file Excel secara terprogram. Dalam artikel ini, kami akan memandu Anda menyalin lembar kerja dalam file Excel menggunakan Aspose.Cells untuk .NET. Ini adalah tugas umum saat Anda perlu menduplikasi data di lembar baru tanpa memulai dari awal.
 
 Jadi, kencangkan sabuk pengaman Anda! Kita akan menyelami proses ini secara mendalam, tetapi dengan cara yang sederhana, komunikatif, dan jelas.
 
@@ -108,7 +108,7 @@ Selesai! Anda telah berhasil menduplikasi lembar kerja dalam file Excel.
 
 ## Kesimpulan
 
-Menyalin lembar kerja di Aspose.Cells untuk .NET tidak hanya mudah tetapi juga sangat efisien. Hanya dengan beberapa baris kode, Anda dapat mengotomatiskan tugas Excel yang berulang, sehingga memudahkan Anda saat menangani kumpulan data besar atau laporan berpola. Baik Anda mengotomatiskan laporan keuangan, log inventaris, atau apa pun yang memerlukan Excel, Aspose.Cells adalah solusi yang tepat untuk Anda.
+Menyalin lembar kerja di Aspose.Cells untuk .NET tidak hanya mudah tetapi juga sangat efisien. Hanya dengan beberapa baris kode, Anda dapat mengotomatiskan tugas Excel yang berulang, sehingga memudahkan Anda saat menangani kumpulan data besar atau laporan berformat. Baik Anda mengotomatiskan laporan keuangan, log inventaris, atau apa pun yang memerlukan Excel, Aspose.Cells adalah solusi yang tepat untuk Anda.
 
 ## Pertanyaan yang Sering Diajukan
 

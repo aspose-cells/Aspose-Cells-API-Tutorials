@@ -11,7 +11,7 @@ url: /fr/net/excel-working-with-hyperlinks/add-link-to-url/
 Vous cherchez à améliorer votre feuille de calcul Excel en ajoutant des hyperliens ? Vous souhaitez peut-être créer un lien vers un site Web ou un autre document ? Dans tous les cas, vous êtes au bon endroit ! Dans ce guide, nous aborderons la façon d'ajouter un lien vers une URL dans un fichier Excel à l'aide d'Aspose.Cells pour .NET. Que vous soyez un professionnel chevronné ou un débutant, je vais vous expliquer comment procéder en étapes simples et engageantes qui vous permettront de créer des feuilles de calcul comme un magicien. Alors, prenez votre boisson préférée, installez-vous confortablement et commençons !
 ## Prérequis
 Avant de plonger dans les détails de l'ajout d'un lien hypertexte dans Excel avec Aspose.Cells, vous devez vérifier quelques conditions préalables dans votre liste :
-1. .NET Framework : assurez-vous que l'environnement .NET requis est configuré. Aspose.Cells est compatible avec différentes versions de .NET. Choisissez donc celle qui convient le mieux à votre projet.
+1. .NET Framework : assurez-vous que l'environnement .NET nécessaire est configuré. Aspose.Cells est compatible avec différentes versions de .NET. Choisissez donc celle qui convient le mieux à votre projet.
 2. Bibliothèque Aspose.Cells : vous devez avoir installé la bibliothèque Aspose.Cells. Vous pouvez la télécharger à partir du[Page de sortie d'Aspose](https://releases.aspose.com/cells/net/).
 3. Environnement de développement : utilisez un IDE comme Visual Studio, qui vous aidera à gérer facilement vos projets.
 4. Connaissances de base en programmation : une familiarité avec C# et une compréhension des concepts de programmation orientée objet rendront le processus plus fluide.
@@ -19,7 +19,7 @@ Maintenant que tout est prêt, passons au codage !
 ## Paquets d'importation
 La première étape de notre quête consiste à importer le package Aspose.Cells nécessaire dans votre projet. Cela vous permet d'accéder à toutes les puissantes fonctionnalités qu'Aspose.Cells a à offrir.
 ### Créer un nouveau projet
-Commencez par créer un nouveau projet C# dans votre IDE. Choisissez une application console pour ce didacticiel, car elle est simple et facile à exécuter.
+Commencez par créer un nouveau projet C# dans votre IDE. Choisissez une application console pour ce tutoriel, car elle est simple et facile à exécuter.
 ### Ajoutez la référence Aspose.Cells
 1. Faites un clic droit sur votre projet dans l’Explorateur de solutions.
 2. Sélectionnez « Ajouter » puis cliquez sur « Référence ».
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Changez votre chemin
 ## Étape 2 : Créer un objet classeur
  Ici, nous allons créer une instance de`Workbook` classe. Considérez un classeur comme une toile vierge pour votre feuille de calcul.
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 À ce stade, vous avez essentiellement dit : « Hé, Aspose, créons un nouveau fichier Excel ! »
@@ -66,7 +66,7 @@ Pour le décomposer :
 - `"B4"`:Il s'agit de la cellule dans laquelle le lien hypertexte apparaîtra.
 - `1, 1`:Ces entiers correspondent à l'index de ligne et de colonne (en gardant à l'esprit que les indices sont basés sur zéro).
 - L'URL est simplement l'endroit où votre lien mène.
-## Étape 5 : définir le texte d’affichage
+## Étape 5 : Définir le texte d’affichage
  Ensuite, vous souhaitez spécifier quel texte sera affiché dans la cellule`B4`Voici à quoi ressemble le code :
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Aspose - File Format APIs";

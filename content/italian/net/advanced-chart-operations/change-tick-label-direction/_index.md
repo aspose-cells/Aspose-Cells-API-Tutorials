@@ -122,7 +122,7 @@ In questo modo non solo riceverai una conferma, ma sarai anche informato sullo s
 
 ## Conclusione
 
-Ed ecco fatto! Con pochi passaggi, puoi modificare la direzione delle etichette di spunta nei tuoi grafici Excel usando Aspose.Cells per .NET. Utilizzando questa potente libreria, puoi migliorare la leggibilità dei tuoi grafici, rendendo più facile per il tuo pubblico interpretare i dati. Che si tratti di presentazioni, report o progetti personali, ora sei dotato delle conoscenze per rendere i tuoi grafici Excel visivamente accattivanti.
+Ed ecco fatto! Con pochi semplici passaggi, puoi modificare la direzione delle etichette di spunta nei tuoi grafici Excel utilizzando Aspose.Cells per .NET. Utilizzando questa potente libreria, puoi migliorare la leggibilità dei tuoi grafici, rendendo più facile per il tuo pubblico interpretare i dati. Che si tratti di presentazioni, report o progetti personali, ora sei dotato delle conoscenze per rendere i tuoi grafici Excel visivamente accattivanti.
 
 ## Domande frequenti
 

@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` Ve`"Your Output Directory"` dosyalarınızın saklandığı gerçek yollarla.
+ Yer değiştirmek`"Your Document Directory"` Ve`"Your Output Directory"` Dosyalarınızın saklandığı gerçek yollar ile.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
@@ -135,7 +135,7 @@ Aspose.Cells for .NET, Excel dosyalarıyla programlı olarak çalışmak için b
  Aspose.Cells'i web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells .xlsx dışındaki Excel dosya formatlarını destekliyor mu?
-Evet! Aspose.Cells, .xls, .csv, .pdf ve daha fazlası dahil olmak üzere çeşitli dosya biçimlerini destekler.
+Evet! Aspose.Cells, .xls, .csv, .pdf ve daha fazlası dahil olmak üzere çeşitli dosya formatlarını destekler.
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
  Evet, Aspose erişebileceğiniz ücretsiz bir deneme sunuyor[Burada](https://releases.aspose.com/).

@@ -1,7 +1,7 @@
 ---
 title: Preservar prefixo de aspas simples de valor de célula ou intervalo no Excel
 linktitle: Preservar prefixo de aspas simples de valor de célula ou intervalo no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como preservar prefixos de aspas simples em células do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo fácil.
 type: docs
 weight: 10
@@ -95,7 +95,7 @@ Aqui, acessamos as informações de estilo para a célula. Inicialmente, o prefi
 
 ## Etapa 5: adicione um prefixo de aspas simples
 
-Agora, vamos experimentar colocar aspas simples no valor da célula.
+Agora, vamos experimentar colocar uma aspa simples no valor da célula.
 
 ```csharp
 // Coloque algum texto na célula, ele tem aspas simples no início

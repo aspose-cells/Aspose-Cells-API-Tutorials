@@ -59,7 +59,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## 2. lépés: Állítsa be a lap láthatóságát
 
-második dolog, amit meg kell tennünk, hogy a lapsáv látható legyen. Ez biztosítja, hogy a fülek szélessége állítható legyen. Gondoljon erre úgy, mint annak biztosítására, hogy a beállítások panelje látható legyen, mielőtt megváltoztatja a dolgokat.
+A második dolog, amit meg kell tennünk, hogy a lapsáv látható legyen. Ez biztosítja, hogy a fülek szélessége állítható legyen. Gondoljon erre úgy, mint annak biztosítására, hogy a beállítások panelje látható legyen, mielőtt megváltoztatja a dolgokat.
 
 ```csharp
 workbook.Settings.ShowTabs = true;

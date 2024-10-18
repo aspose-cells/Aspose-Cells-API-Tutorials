@@ -16,7 +16,7 @@ Excel 파일을 프로그래밍 방식으로 관리하고 조작하는 데 있�
 자세한 내용을 살펴보기 전에 먼저 필요한 모든 것을 갖추었는지 확인해 보겠습니다.
 
 1. 개발 환경: .NET 개발 환경이 설정되어 있는지 확인하세요. Visual Studio를 권장합니다.
-2.  .NET 라이브러리용 Aspose.Cells: 라이브러리의 최신 버전을 다음에서 다운로드하세요.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
+2.  .NET 라이브러리용 Aspose.Cells: 다음에서 라이브러리의 최신 버전을 다운로드하세요.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본적인 이해: C# 및 Excel 개념에 익숙하면 내용을 더 원활하게 이해하는 데 도움이 됩니다.
 4.  문서에 대한 액세스: 액세스 가능[Aspose.Cells 문서](https://reference.aspose.com/cells/net/) 막힐 경우 추가적인 통찰력을 제공할 수 있습니다. 
 
@@ -66,7 +66,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- 인덱스`0` 첫 번째 워크시트를 가리킵니다. Excel에서는 통합 문서의 첫 번째 탭을 여는 것으로 생각하면 됩니다.
+ 인덱스`0` 첫 번째 워크시트를 가리킵니다. Excel에서는 통합 문서의 첫 번째 탭을 여는 것으로 생각하세요.
 
 ## 5단계: 셀에 샘플 값 추가
 
@@ -96,7 +96,7 @@ worksheet.Cells["C3"].PutValue("Y1");
 worksheet.Cells["C4"].PutValue("Y2");
 ```
 
-여기서는 각 데이터 집합을 "Q1" 및 "Y1"과 같은 범주로 표시하여 나중에 차트를 해석하기 쉽게 만들었습니다.
+여기서는 각 데이터 집합을 "Q1"과 "Y1"과 같은 범주로 표시하여 나중에 차트를 해석하기 쉽게 만들었습니다.
 
 ## 차트 만들기
 
@@ -164,7 +164,7 @@ Console.WriteLine("SettingCategoryData executed successfully.");
 
 ## 결론
 
-이제 Aspose.Cells for .NET을 사용하여 Excel 통합 문서의 차트에 대한 범주 데이터를 성공적으로 설정했습니다. 이 접근 방식의 장점은 컴퓨터에 Excel을 설치하지 않고도 Excel 파일 조작을 자동화할 수 있다는 것입니다. 
+이제 다 됐습니다! Aspose.Cells for .NET을 사용하여 Excel 통합 문서의 차트에 대한 범주 데이터를 성공적으로 설정했습니다. 이 접근 방식의 장점은 컴퓨터에 Excel을 설치하지 않고도 Excel 파일 조작을 자동화할 수 있다는 것입니다. 
 
 ## 자주 묻는 질문
 

@@ -19,7 +19,7 @@ Zorg ervoor dat u een aantal dingen bij de hand hebt voordat u met de stappen be
    
 2.  Aspose.Cells voor .NET: U moet Aspose.Cells voor .NET geïnstalleerd hebben. U kunt het downloaden van[hier](https://releases.aspose.com/cells/net/).
 
-3. Voorbeeld Excel-bestand: ontvang een voorbeeld Excel-bestand met grafieken. Voor deze tutorial gebruiken we een bestand met de naam`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Zorg ervoor dat het in uw projectmap staat.
+3.  Voorbeeld Excel-bestand: ontvang een voorbeeld Excel-bestand met grafieken. Voor deze tutorial gebruiken we een bestand met de naam`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Zorg ervoor dat het in uw projectmap staat.
 
 4. Basiskennis programmeren: Als u bekend bent met C#-programmering, kunt u de cursus gemakkelijk volgen.
 
@@ -46,7 +46,7 @@ using Aspose.Cells.Charts;
 
 Deze naamruimten bieden toegang tot de werkmap-, werkblad- en grafiekfuncties van Aspose.Cells.
 
-Laten we nu het proces van het bepalen van de typen X- en Y-waarden in uw grafiekserie opsplitsen. Hier is hoe u het stap voor stap kunt doen.
+Laten we nu het proces van het bepalen van de typen X- en Y-waarden in uw grafiekseries opsplitsen. Hier is hoe u het stap voor stap kunt doen.
 
 ## Stap 1: Definieer de bronmap
 
@@ -56,11 +56,11 @@ Eerst moet u de directory definiëren waar uw Excel-bestand zich bevindt. Stel h
 string sourceDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"`met het pad waar uw Excel-bestand is opgeslagen.
+ Vervangen`"Your Document Directory"` met het pad waar uw Excel-bestand is opgeslagen.
 
 ## Stap 2: Laad de werkmap
 
- Laad vervolgens het Excel-bestand in een`Workbook` object. Hiermee krijgt u toegang tot alle inhoud van het bestand.
+ Laad vervolgens het Excel-bestand in een`Workbook`object. Hiermee krijgt u toegang tot alle inhoud van het bestand.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -134,4 +134,4 @@ Aspose.Cells ondersteunt verschillende typen diagrammen, waaronder kolom-, staaf
  U kunt ondersteuning krijgen via de[Aspose-forum](https://forum.aspose.com/c/cells/9).
 
 ### Is er een tijdelijke licentie beschikbaar voor Aspose.Cells?
- Ja, u kunt een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om het product vrij te kunnen beoordelen.
+ Ja, u kunt een aanvraag indienen[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om het product vrij te kunnen evalueren.

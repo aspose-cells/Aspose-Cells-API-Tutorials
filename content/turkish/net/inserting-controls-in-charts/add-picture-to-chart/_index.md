@@ -16,12 +16,12 @@ Kişisel bir dokunuştan yoksun sıkıcı grafiklerden bıktınız mı? Excel g�
 Kodlamanın inceliklerine dalmadan önce, sorunsuz bir şekilde ilerleyebilmeniz için sahip olmanız gereken birkaç ön koşul vardır:
 
 - Visual Studio: .NET kodunuzu yazacağınız ve çalıştıracağınız yer burasıdır. Yüklü olduğundan emin olun.
--  Aspose.Cells for .NET: Excel dosyalarıyla çalışmak için bu kütüphaneye ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Excel dosyalarıyla çalışmak için bu kütüphaneye ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
 - C#'ın Temel Anlayışı: Kod boyunca size rehberlik edeceğim, ancak C# temellerine hakim olmak işleri daha net hale getirecektir.
 
 ### Kurulum Adımları
 
-1. Aspose.Cells'i yükleyin: Aspose.Cells'i NuGet Paket Yöneticisi aracılığıyla Visual Studio projenize ekleyebilirsiniz. Bunu Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e giderek ve “Aspose.Cells”i arayarak yapın. Yükle'ye tıklayın.
+1. Aspose.Cells'i yükleyin: NuGet Paket Yöneticisi aracılığıyla Visual Studio projenize Aspose.Cells ekleyebilirsiniz. Bunu Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e giderek ve “Aspose.Cells”i arayarak yapın. Yükle'ye tıklayın.
 2. Projenizi Kurma: Visual Studio'da yeni bir C# konsol uygulaması projesi oluşturun.
 
 ## Paketleri İçe Aktar
@@ -84,7 +84,7 @@ Resmin belirtilen dizine kaydedildiğinden emin olun.
 Şimdi, resmimizi hangi grafiğe ekleyeceğimizi belirtelim. Bu örnekte, ilk çalışma sayfasındaki ilk grafiğe odaklanacağız.
 
 ```csharp
-// İkinci sayfadaki tasarımcı şemasını alın.
+//İkinci sayfadaki tasarımcı şemasını alın.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -128,7 +128,7 @@ Tüm bu sıkı çalışmalardan sonra, aşağıdaki kod satırını çalıştır
 workbook.Save(outputDir + "outputAddingPictureInChart.xls");
 ```
 
-Artık resminiz başarıyla grafiğe entegre edildi ve çıktı dosyanız görüntülenmeye hazır!
+Artık resminiz grafiğe başarıyla entegre edildi ve çıktı dosyanız görüntülenmeye hazır!
 
 ## Adım 8: Başarılı Olduğunu Göster
 
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Cells for .NET kullanarak resimler ekleyerek Excel grafiklerinize biraz kişilik katmanın yollarını inceledik. Sadece birkaç basit adımla, sunumlarınızı sıradanlıktan unutulmazlığa yükseltebilirsiniz. Öyleyse, ne bekliyorsunuz? Bir deneyin ve grafiklerinizin parlamasına izin verin!
+Bu eğitimde, Aspose.Cells for .NET kullanarak resimler ekleyerek Excel grafiklerinize biraz kişilik katmanın yollarını inceledik. Sadece birkaç basit adımla sunumlarınızı sıradanlıktan unutulmazlığa yükseltebilirsiniz. Öyleyse, ne bekliyorsunuz? Bir deneyin ve grafiklerinizin parlamasına izin verin!
 
 ## SSS
 
@@ -151,7 +151,7 @@ Bu eğitimde, Aspose.Cells for .NET kullanarak resimler ekleyerek Excel grafikle
 Aspose.Cells PNG, JPEG, BMP ve GIF gibi çeşitli resim formatlarını destekler.
 
 ### Resmin konumunu özelleştirebilir miyim?
-Kesinlikle! X ve Y koordinatları`AddPictureInChart` yöntem hassas konumlandırmaya izin verir.
+ Kesinlikle! X ve Y koordinatları`AddPictureInChart` yöntem hassas konumlandırmaya izin verir.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
  Aspose.Cells ücretsiz deneme sunuyor ancak tüm özellikler için lisans gerekiyor. Fiyatlandırmayı bulabilirsiniz[Burada](https://purchase.aspose.com/buy).

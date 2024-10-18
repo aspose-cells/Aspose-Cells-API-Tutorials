@@ -78,7 +78,7 @@ System.out.println("The maximum sales value is: " + maxSales);
 
 ## Lidando com Erros
 
-É essencial lidar com erros potenciais ao trabalhar com arquivos Excel. Se o intervalo especificado não contiver valores numéricos, a função MAX retornará um erro. Você pode usar mecanismos de tratamento de erros em Java para lidar com essas situações graciosamente.
+É essencial lidar com erros potenciais ao trabalhar com arquivos do Excel. Se o intervalo especificado não contiver valores numéricos, a função MAX retornará um erro. Você pode usar mecanismos de tratamento de erros em Java para lidar com essas situações graciosamente.
 
 ## Conclusão
 

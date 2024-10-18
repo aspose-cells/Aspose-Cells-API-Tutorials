@@ -19,7 +19,7 @@ Excel'de büyük miktarda veriyi işlemeniz gerektiğini düşünün. "Bu sonsuz
 
 ## Size Özel Eğitimler
 
- Ama hepsi bu kadar değil! Verilerinizi korumak da aynı derecede önemlidir. Ön kapınızı ardına kadar açık bırakmazsınız, değil mi? Benzer şekilde, kılavuzlarımız Excel sayfanızın herhangi bir bölümünü kilitlemeniz için araçlar sunar. Eğitime göz atın[Belirli Hücreleri Korumak](./protect-specific-cells-in-a-excel-worksheet/) Verilerinizi etkili bir şekilde nasıl koruyacağınızı öğrenmek için. Programlamaya yeni başlayanlar için bile basit hale getirerek, her adımda size yol gösteriyoruz.
+Ama hepsi bu kadar değil! Verilerinizi korumak da aynı derecede önemlidir. Ön kapınızı ardına kadar açık bırakmazsınız, değil mi? Benzer şekilde, kılavuzlarımız Excel sayfanızın herhangi bir bölümünü kilitlemeniz için araçlar sunar. Eğitime göz atın[Belirli Hücreleri Korumak](./protect-specific-cells-in-a-excel-worksheet/) Verilerinizi etkili bir şekilde nasıl koruyacağınızı öğrenmek için. Programlamaya yeni başlayanlar için bile basit hale getirerek, her adımda size yol gösteriyoruz.
 
 Elbette! Excel'de ustalaşma arayışınızda bu eğitimlerin önemini ve bunların geliştirme iş akışınıza nasıl uyum sağlayabileceğini daha ayrıntılı olarak ele alalım.
 
@@ -42,7 +42,7 @@ Herhangi bir teknolojiyi anlamanın en iyi yollarından biri, derinlemesine ara�
 ## Eğitimler 
 | Başlık | Tanım |
 | --- | --- |
-| [Kullanıcının Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver](./allow-user-to-edit-ranges-in-excel-worksheet/) | Kullanıcıların Aspose.Cells for .NET kullanarak bir Excel elektronik tablosundaki belirli aralıkları düzenlemesine izin verin. C# kaynak koduyla adım adım kılavuz. |  
+| [Kullanıcının Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver](./allow-user-to-edit-ranges-in-excel-worksheet/) | Kullanıcıların Aspose.Cells for .NET kullanarak Excel elektronik tablosundaki belirli aralıkları düzenlemesine izin verin. C# kaynak koduyla adım adım kılavuz. |  
 | [Excel Çalışma Sayfasındaki Aralıkları Düzenle](./edit-ranges-in-excel-worksheet/) | Bu kapsamlı kılavuzda adım adım talimatlarla Aspose.Cells for .NET kullanarak Excel çalışma sayfalarındaki aralıkları düzenlemeyi öğrenin. |  
 | [Excel Çalışma Sayfasındaki Hücreleri Koru](./protect-cells-in-excel-worksheet/) | Bu ayrıntılı kılavuzda, kod örnekleriyle birlikte Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki belirli hücreleri nasıl koruyacağınızı öğrenin. |  
 | [Excel Çalışma Sayfasında Sütunu Koru](./protect-column-in-excel-worksheet/) | Aspose.Cells for .NET kullanarak Excel'deki belirli sütunları nasıl koruyacağınızı öğrenin. Sorunsuz veri koruması için kolay eğitimimizi izleyin. |  

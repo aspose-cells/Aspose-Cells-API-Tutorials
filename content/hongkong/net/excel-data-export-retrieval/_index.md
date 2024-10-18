@@ -1,6 +1,6 @@
 ---
-title: Excel資料匯出與擷取
-linktitle: Excel資料匯出與擷取
+title: Excel資料匯出與檢索
+linktitle: Excel資料匯出與檢索
 second_title: Aspose.Cells .NET Excel 處理 API
 description: 探索使用 Aspose.Cells for .NET 匯出和擷取 Excel 資料的逐步教程，非常適合任何技能水平的開發人員。
 type: docs

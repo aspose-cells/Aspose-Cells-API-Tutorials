@@ -1,7 +1,7 @@
 ---
 title: Adicionar área de validação às células no Excel
 linktitle: Adicionar área de validação às células no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a adicionar áreas de validação no Excel usando Aspose.Cells para .NET com nosso guia passo a passo. Melhore a integridade dos seus dados.
 type: docs
 weight: 11
@@ -108,7 +108,7 @@ E aí está! Com essa linha, você está confirmando para si mesmo (e para qualq
 
 ## Conclusão
 
-Você conseguiu! Seguindo essas etapas, você adicionou com sucesso uma área de validação às suas células do Excel usando o Aspose.Cells para .NET. Não há mais dados errantes passando despercebidos! O Excel agora é seu ambiente controlado. Este método não é apenas uma tarefa simples; é uma parte essencial do gerenciamento de dados que melhora a precisão e a confiabilidade.
+Você conseguiu! Seguindo essas etapas, você adicionou com sucesso uma área de validação às suas células do Excel usando o Aspose.Cells para .NET. Não há mais dados errantes passando despercebidos! O Excel agora é seu ambiente controlado. Esse método não é apenas uma tarefa simples; é uma parte essencial do gerenciamento de dados que melhora a precisão e a confiabilidade.
 
 ## Perguntas frequentes
 

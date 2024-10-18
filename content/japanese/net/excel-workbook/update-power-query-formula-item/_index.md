@@ -110,7 +110,7 @@ Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ## よくある質問
 
 ### Aspose.Cells とは何ですか?
-Aspose.Cells は、Microsoft Excel をインストールしなくても .NET アプリケーションで Excel ファイルを操作するための強力なライブラリです。
+Aspose.Cells は、Microsoft Excel をインストールしなくても .NET アプリケーションで Excel ファイルを操作できる強力なライブラリです。
 
 ### Aspose.Cells を実行するには Microsoft Excel が必要ですか?
 いいえ、Aspose.Cells を使用すると、サーバーまたは開発マシンに Excel がなくても、プログラムで Excel ファイルを作成および編集できます。
@@ -119,7 +119,7 @@ Aspose.Cells は、Microsoft Excel をインストールしなくても .NET ア
 Aspose.Cells を使用すると、.xlsx、.xls、.xlsm、およびその他のいくつかの Excel 形式を操作できます。
 
 ### Aspose.Cells の試用版はありますか?
-はい、無料試用版をこちらからダウンロードできます。[Aspose Cells リリースページ](https://releases.aspose.com/).
+はい、無料試用版をこちらからダウンロードできます。[Aspose Cells リリース ページ](https://releases.aspose.com/).
 
 ### Aspose.Cells のサポートを受けるにはどうすればよいですか?
 サポートは以下からアクセスできます。[Aspose フォーラム](https://forum.aspose.com/c/cells/9)では、コミュニティや Aspose チームから質問したり回答を見つけることができます。

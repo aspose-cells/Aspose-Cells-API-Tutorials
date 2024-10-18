@@ -68,7 +68,7 @@ Qui selezioniamo le celle da D6 a I12, un blocco che copre più righe e colonne.
 
 ## Passaggio 4: Assegna un nome all'intervallo
 
-Assegnare un nome a un intervallo semplifica il successivo riferimento, soprattutto quando si gestiscono set di dati di grandi dimensioni.
+Assegnare un nome a un intervallo semplifica il riferimento successivo, soprattutto quando si gestiscono set di dati di grandi dimensioni.
 
 ```csharp
 // Assegna un nome all'intervallo.
@@ -114,7 +114,7 @@ style.Pattern = BackgroundType.Solid;
 style.ForegroundColor = System.Drawing.Color.Aqua;
 ```
 
-Qui, stiamo allineando il testo sia orizzontalmente che verticalmente al centro, e impostando un colore di sfondo azzurro (acqua). Elegante, vero?
+Qui, stiamo allineando il testo sia orizzontalmente che verticalmente al centro, e impostando un colore di sfondo azzurro (acquamarina). Elegante, vero?
 
 ## Passaggio 8: applicare lo stile all'intervallo
 

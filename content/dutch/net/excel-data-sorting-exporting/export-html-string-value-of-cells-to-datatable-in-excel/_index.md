@@ -33,7 +33,7 @@ Klik in Visual Studio met de rechtermuisknop op uw project in Solution Explorer 
 
 ### Zoeken naar Aspose.Cells
 
- Typ in de NuGet-pakketbeheerder`Aspose.Cells` in de zoekbalk.
+ Typ in de NuGet Package Manager:`Aspose.Cells` in de zoekbalk.
 
 ### Installeer het pakket
 

@@ -60,7 +60,7 @@ Pobierzmy precedensy dla naszej wybranej komórki. W tym kroku dzieje się magia
 ```csharp
 ReferredAreaCollection ret = cell.GetPrecedents();
 ```
- Tutaj,`GetPrecedents()` Metoda ta wykonuje ciężką pracę, gromadząc wszystkie komórki, które dostarczają danych wejściowych do komórki B4. 
+ Tutaj,`GetPrecedents()` Metoda ta wykonuje ciężką pracę, gromadząc wszystkie komórki, które dostarczają dane wejściowe do komórki B4. 
 ## Krok 5: Przejrzyj precedensy
 Teraz przejrzyjmy zbiór precedensów, aby uzyskać przydatne informacje.
 ```csharp
@@ -71,10 +71,10 @@ foreach (ReferredArea area in ret)
     Console.WriteLine(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
 }
 ```
- W tym fragmencie kodu wykorzystujemy prosty`foreach` pętla do drukowania nazw arkuszy i odwołań do komórek, które są wprowadzane do B4.`CellsHelper.CellIndexToName`funkcja przekształca indeksy wierszy i kolumn na czytelne odwołania do komórek, takie jak „A1”, „B2” itd. 
+ W tym fragmencie kodu wykorzystujemy prosty`foreach` pętla do drukowania nazw arkuszy i odwołań do komórek komórek zasilających B4.`CellsHelper.CellIndexToName`funkcja przekształca indeksy wierszy i kolumn na czytelne odwołania do komórek, takie jak „A1”, „B2” itd. 
 
 ## Wniosek
-I masz to! Udało Ci się prześledzić precedensy w programie Excel przy użyciu Aspose.Cells dla .NET. Zrozumienie zależności komórek może poprawić Twoje umiejętności zarządzania arkuszem kalkulacyjnym i zapewnić przejrzystość decyzji opartych na danych. To trochę jak rozwiązywanie układanki, składanie w całość, skąd pochodzą Twoje dane. Teraz spróbuj tego na własnych danych i uwolnij moc Aspose.Cells!
+I masz to! Udało Ci się prześledzić precedensy w programie Excel przy użyciu Aspose.Cells dla .NET. Zrozumienie zależności komórek może poprawić Twoje umiejętności zarządzania arkuszem kalkulacyjnym i zapewnić przejrzystość decyzji opartych na danych. To trochę jak rozwiązywanie puzzli, składanie w całość, skąd pochodzą Twoje dane. Teraz spróbuj tego na własnych danych i uwolnij moc Aspose.Cells!
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?  
 Aspose.Cells to biblioteka .NET służąca do tworzenia, modyfikowania i konwertowania arkuszy kalkulacyjnych programu Excel bez użycia programu Microsoft Excel.

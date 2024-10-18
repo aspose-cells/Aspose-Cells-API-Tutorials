@@ -90,7 +90,7 @@ workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie man mit Aspose.Cells für Java Datenanalysen durchführt und Excel-Diagramme erstellt. Mit seinen leistungsstarken Funktionen und seiner Benutzerfreundlichkeit vereinfacht Aspose.Cells die Umwandlung von Rohdaten in aufschlussreiche Diagramme und Berichte.
+In diesem Tutorial haben wir untersucht, wie man mit Aspose.Cells für Java Datenanalysen durchführt und Excel-Diagramme erstellt. Mit seinen leistungsstarken Funktionen und seiner Benutzerfreundlichkeit vereinfacht Aspose.Cells den Prozess der Umwandlung von Rohdaten in aufschlussreiche Diagramme und Berichte.
 
 ## Häufig gestellte Fragen
 

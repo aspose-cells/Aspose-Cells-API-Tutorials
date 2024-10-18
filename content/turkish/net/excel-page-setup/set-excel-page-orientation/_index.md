@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Şimdi, bir Excel dosyasını temsil eden Çalışma Kitabı sınıfının bir örneğini oluşturacaksınız.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Sonra, yönlendirmeyi ayarlamak istediğiniz çalışma sayfasına erişmeniz gerekir. Her çalışma kitabının birden fazla çalışma sayfası olabileceğinden, hangisiyle çalıştığınızı açıkça belirtmelisiniz.
 
 ```csharp
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+// Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -81,7 +81,7 @@ Bu, kitabı uzunlamasına mı yoksa yanlamasına mı okuyacağınıza karar verm
 Son olarak, çalışmanızı kaydetme zamanı geldi. Yaptığınız tüm değişikliklerin bir dosyaya geri yazıldığından emin olmak istersiniz.
 
 ```csharp
-// Çalışma kitabını kaydedin.
+// Çalışma Kitabını Kaydedin.
 workbook.Save(dataDir + "PageOrientation_out.xls");
 ```
 
@@ -89,7 +89,7 @@ Tamamlanmış sayfayı rafa geri koymak gibi, bu kod satırı dosyanızı belirt
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasının sayfa yönünü başarıyla yapılandırdınız. Yeni bir dil öğrenmek gibi; temelleri kavradığınızda, yeteneklerinizi genişletebilir ve gerçek bir sihir yaratabilirsiniz. Eskiden sıkıcı olan tekrarlayan görevler için, Aspose ile programlamanın size önemli ölçüde zaman ve emek kazandırabileceğini göreceksiniz.
+Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasının sayfa yönünü başarıyla yapılandırdınız. Yeni bir dil öğrenmek gibi; temelleri kavradığınızda, yeteneklerinizi genişletebilir ve gerçek bir sihir yaratabilirsiniz. Daha önce sıkıcı olan tekrarlayan görevler için, Aspose ile programlamanın size önemli ölçüde zaman ve emek kazandırabileceğini göreceksiniz.
 
 ## SSS
 

@@ -2,7 +2,7 @@
 title: Cellzárási stratégiák
 linktitle: Cellzárási stratégiák
 second_title: Aspose.Cells Java Excel Processing API
-description: Tanuljon meg hatékony cellazárási stratégiákat az Aspose.Cells for Java használatával. Növelje az adatok biztonságát és integritását az Excel-fájlokban lépésről lépésre.
+description: Tanuljon meg hatékony cellazárolási stratégiákat az Aspose.Cells for Java használatával. Fokozza az adatok biztonságát és integritását az Excel-fájlokban lépésről lépésre.
 type: docs
 weight: 11
 url: /hu/java/excel-data-security/cell-locking-strategies/
@@ -109,7 +109,7 @@ Az Ön konkrét projektkövetelményei egyedi cellazárolási stratégiákat ig�
 
 ## Következtetés
 
-Ebben a cikkben megvizsgáltuk az Aspose.Cells for Java használatával történő cellazárolás alapvető szempontjait. Az itt tárgyalt stratégiák megvalósításával növelheti Excel-fájljainak biztonságát és integritását, biztosítva, hogy adatai pontosak és bizalmasak maradjanak.
+Ebben a cikkben megvizsgáltuk az Aspose.Cells for Java használatával történő cellazárolás alapvető szempontjait. Az itt tárgyalt stratégiák megvalósításával növelheti Excel-fájlok biztonságát és integritását, biztosítva, hogy adatai pontosak és bizalmasak maradjanak.
 
 ## GYIK
 

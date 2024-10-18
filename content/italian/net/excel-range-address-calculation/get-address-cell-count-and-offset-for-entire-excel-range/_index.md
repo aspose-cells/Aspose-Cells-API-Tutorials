@@ -51,7 +51,7 @@ Ora dobbiamo mettere le mani su un foglio di lavoro specifico all'interno della 
 // Accedi al primo foglio di lavoro.
 Worksheet ws = wb.Worksheets[0];
 ```
- Qui, stiamo indicizzando in`Worksheets` raccolta per afferrare il primo foglio.
+ Qui, stiamo indicizzando nel`Worksheets` raccolta per afferrare il primo foglio.
 ## Passaggio 3: creare un intervallo
 Ora, creiamo un intervallo nel nostro foglio di lavoro. Un intervallo può essere una singola cella o un gruppo di celle. Creeremo un intervallo che si estende da A1 a B3.
 ```csharp

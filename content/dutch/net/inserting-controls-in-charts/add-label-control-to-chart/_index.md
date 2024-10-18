@@ -16,7 +16,7 @@ Grafieken zijn een krachtige manier om gegevens te visualiseren en soms kan het 
 Voordat we in de details duiken, leggen we eerst uit wat je nodig hebt om te beginnen:
 
 - Basiskennis van C#: Het is cruciaal om de basis van C#-programmering te begrijpen. Als u een beginner bent, maak u dan geen zorgen – de stappen zullen duidelijk en beknopt zijn.
-- Aspose.Cells-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt dit doen via NuGet Package Manager in Visual Studio. Als u dat nog niet hebt gedaan, bekijk dan de[downloadlink](https://releases.aspose.com/cells/net/) voor de bibliotheek.
+-  Aspose.Cells-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt dit doen via NuGet Package Manager in Visual Studio. Als u dat nog niet hebt gedaan, bekijk dan de[downloadlink](https://releases.aspose.com/cells/net/) voor de bibliotheek.
 - Visual Studio: U hebt een geïntegreerde ontwikkelomgeving (IDE) zoals Visual Studio nodig om uw code te schrijven en uit te voeren.
 
 ## Pakketten importeren
@@ -51,7 +51,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-Zie dit als het decor voor een toneelstuk. Je moet weten waar je acteurs (bestanden) zijn!
+Zie dit als het opzetten van het toneel voor een toneelstuk. Je moet weten waar je acteurs (bestanden) zijn!
 
 ## Stap 2: Open het bestaande bestand
 
@@ -62,7 +62,7 @@ Vervolgens laden we het Excel-bestand met de grafiek waaraan we een label willen
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Hier gebruiken we de`Workbook` klasse van Aspose.Cells om ons Excel-bestand te openen. Het is alsof je de deur ontgrendelt om de creativiteit te laten stromen!
+ Hier gebruiken we de`Workbook`klasse van Aspose.Cells om ons Excel-bestand te openen. Het is alsof je de deur ontgrendelt om de creativiteit te laten stromen!
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -94,7 +94,7 @@ Nu komt het spannende gedeelte: het label toevoegen aan de grafiek. We definiër
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Hier,`AddLabelInChart` zorgt ervoor dat er een label wordt gemaakt op basis van de coördinaten en afmetingen die u opgeeft. Het is alsof u een mooi kader om uw kunstwerk plakt!
+ Hier,`AddLabelInChart`zorgt ervoor dat er een label wordt gemaakt op basis van de coördinaten en afmetingen die u opgeeft. Het is alsof u een mooi kader om uw kunstwerk plakt!
 
 ## Stap 6: Stel de labeltekst in
 
@@ -141,7 +141,7 @@ Het is alsof je je eindproduct aan de wereld laat zien, klaar voor applaus!
 
 ## Conclusie
 
-En daar heb je het! Je hebt met succes een labelbesturingselement toegevoegd aan een grafiek met Aspose.Cells voor .NET. Met slechts een paar regels code heb je de helderheid van je visuele datarepresentatie verbeterd, waardoor deze veel informatiever is geworden. Vergeet niet dat deze labels onschatbare hulpmiddelen kunnen zijn, of je nu een presentatie samenstelt of je verdiept in data-analyse.
+En daar heb je het! Je hebt succesvol een labelbesturingselement toegevoegd aan een grafiek met Aspose.Cells voor .NET. Met slechts een paar regels code heb je de helderheid van je visuele datarepresentatie verbeterd, waardoor deze veel informatiever is geworden. Vergeet niet dat deze labels onschatbare hulpmiddelen kunnen zijn, of je nu een presentatie samenstelt of je verdiept in data-analyse.
 
 ## Veelgestelde vragen
 
@@ -149,7 +149,7 @@ En daar heb je het! Je hebt met succes een labelbesturingselement toegevoegd aan
 Ja! U kunt het lettertype, de kleur, de grootte en andere eigenschappen van het label naar wens aanpassen.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells is een betaald product, maar u kunt beginnen met een[gratis proefperiode](https://releases.aspose.com/)om de kenmerken ervan te verkennen.
+ Aspose.Cells is een betaald product, maar u kunt beginnen met een[gratis proefperiode](https://releases.aspose.com/) om de kenmerken ervan te verkennen.
 
 ### Wat als ik meerdere labels wil toevoegen?
 U kunt de stappen voor het toevoegen van labels zo vaak herhalen als nodig is, telkens met een andere positie en tekst.

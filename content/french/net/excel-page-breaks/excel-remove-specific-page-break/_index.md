@@ -53,18 +53,18 @@ Tout d'abord, vous devez spécifier où sont stockés vos documents Excel. Cela 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Explication : Remplacer`YOUR DOCUMENT DIRECTORY`avec le chemin d'accès réel à vos fichiers. C'est ici que vous chargerez votre fichier Excel et que vous enregistrerez votre fichier Excel modifié ultérieurement.
+ Explication : Remplacer`YOUR DOCUMENT DIRECTORY` avec le chemin d'accès réel à vos fichiers. C'est ici que vous chargerez votre fichier Excel et que vous enregistrerez votre fichier Excel modifié ultérieurement.
 
 ## Étape 2 : instancier l'objet classeur
 
 Ensuite, nous devons charger notre classeur. En termes plus simples, considérez un classeur comme votre fichier Excel.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Explication : Cette ligne crée une nouvelle instance d'un`Workbook` , qui charge votre fichier Excel spécifié (dans cet exemple, il est nommé`PageBreaks.xls`). 
+Explication : Cette ligne crée une nouvelle instance d'un`Workbook` , qui charge votre fichier Excel spécifié (dans cet exemple, il est nommé`PageBreaks.xls`). 
 
 ## Étape 3 : Supprimer le saut de page horizontal
 
@@ -75,7 +75,7 @@ Maintenant, ciblons le saut de page horizontal. Il s'agit des sauts qui divisent
 workbook.Worksheets[0].HorizontalPageBreaks.RemoveAt(0);
 ```
 
-Explication : Cette ligne accède à la première feuille de calcul (indexée à 0) et supprime le premier saut de page horizontal (indexé à 0 également). Vous pouvez modifier l'index pour supprimer d'autres sauts de page si vous en avez plusieurs. 
+Explication : Cette ligne accède à la première feuille de calcul (indexée 0) et supprime le premier saut de page horizontal (là encore indexé 0). Vous pouvez modifier l'index pour supprimer d'autres sauts de page si vous en avez plusieurs. 
 
 ## Étape 4 : supprimer le saut de page vertical
 

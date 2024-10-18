@@ -2,7 +2,7 @@
 title: Dodaj kontrolkę TextBox do wykresu
 linktitle: Dodaj kontrolkę TextBox do wykresu
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Ulepsz wizualizację danych bez wysiłku.
+description: Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Bez wysiłku udoskonalaj wizualizację danych.
 type: docs
 weight: 12
 url: /pl/net/inserting-controls-in-charts/add-textbox-control-to-chart/
@@ -16,7 +16,7 @@ Tworzenie dynamicznych i wizualnie atrakcyjnych wykresów w programie Excel to f
 Zanim przejdziemy do kodowania, jest kilka rzeczy, które powinieneś mieć na miejscu:
 
 - Podstawowa znajomość języka C#: podstawowa znajomość programowania w języku C# będzie pomocna. Nie martw się; nie musisz być ekspertem, wystarczy, że będziesz swobodnie poruszać się po składni.
--  Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
+- Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
 - Visual Studio: Znajomość programu Visual Studio lub dowolnego środowiska IDE preferowanego do obsługi platformy .NET jest niezbędna.
 - Istniejący plik Excela: W tym przykładzie będziemy pracować z istniejącym plikiem Excela o nazwie „sampleAddingTextBoxControlInChart.xls”. Możesz utworzyć plik lub pobrać próbkę.
 
@@ -76,7 +76,7 @@ Teraz jesteśmy gotowi, aby dodać nasz TextBox. Określimy jego pozycję i rozm
 // Dodaj nowe pole tekstowe do wykresu.
 Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100, 350, 2550);
 ```
-tym poleceniu parametry definiują lokalizację (x, y) i rozmiar (szerokość, wysokość) pola tekstowego na wykresie. Dostosuj te wartości w oparciu o swoje konkretne potrzeby układu.
+W tym poleceniu parametry definiują lokalizację (x, y) i rozmiar (szerokość, wysokość) pola tekstowego na wykresie. Dostosuj te wartości w oparciu o swoje konkretne potrzeby układu.
 
 ## Krok 5: Ustaw tekst dla pola tekstowego
 
@@ -110,7 +110,7 @@ Każdy z tych wierszy modyfikuje wygląd tekstu wewnątrz pola tekstowego, zwię
 
 ## Krok 7: Formatowanie wyglądu pola tekstowego
 
-Ważne jest również sformatowanie tła i obramowania TextBox. Dzięki temu będzie się wyróżniać na wykresie.
+Ważne jest również sformatowanie tła i obramowania pola tekstowego. Dzięki temu wyróżnia się ono na wykresie.
 
 ```csharp
 // Pobierz format wypełnienia pola tekstowego.
@@ -136,7 +136,7 @@ Ostatnim krokiem jest zapisanie zmian, które wprowadziłeś do nowego pliku Exc
 // Zapisz plik Excela.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Zastępować`"outputAddingTextBoxControlInChart.xls"` z dowolną nazwą pliku.
+ Zastępować`"outputAddingTextBoxControlInChart.xls"` dowolną nazwą pliku.
 
 ## Wniosek
 

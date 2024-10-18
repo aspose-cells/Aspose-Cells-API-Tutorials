@@ -51,7 +51,7 @@ countrySheet.getCells().get("A4").putValue("UK");
 
 ## Passaggio 3: creazione dei menu a discesa
 
-Successivamente, creeremo elenchi a discesa per le colonne Paese e Città. Questi elenchi a discesa saranno collegati in modo tale che quando si seleziona un Paese, l'elenco a discesa della città si aggiornerà di conseguenza.
+Successivamente, creeremo elenchi a discesa per le colonne Paese e Città. Questi elenchi a discesa saranno collegati in modo tale che quando si seleziona un Paese, l'elenco a discesa della città verrà aggiornato di conseguenza.
 
 ```java
 // Codice Java per creare elenchi a discesa
@@ -61,7 +61,7 @@ validation.setType(DataValidationType.LIST);
 validation.setFormula1("Countries!$A$2:$A$4"); // Riferimento all'elenco dei paesi
 ```
 
-## Passaggio 4: implementazione di menu a discesa a cascata
+## Fase 4: implementazione di menu a discesa a cascata
 
 Ora arriva la parte emozionante: implementare i menu a discesa a cascata. Utilizzeremo Aspose.Cells per Java per aggiornare dinamicamente il menu a discesa della città in base al paese selezionato.
 

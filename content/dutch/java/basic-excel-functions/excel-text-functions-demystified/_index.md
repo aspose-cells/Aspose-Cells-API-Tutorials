@@ -59,7 +59,7 @@ cell.setFormula("=RIGHT(A2, 5)");
 workbook.calculateFormula();
 ```
 
-In cel B2 staat 'Excel' en in cel C2 staat 'Rocks!'.
+In cel B2 staat dan 'Excel' en in cel C2 staat 'Rocks!'.
 
 ## LEN - Tekens tellen
 
@@ -145,7 +145,7 @@ Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
 ```
 
-### Hoe kan ik het aantal tekens in een tekstreeks tellen?
+### Hoe kan ik de tekens in een tekstreeks tellen?
 
  Gebruik de`LEN` functie om de tekens in een tekstreeks te tellen. Bijvoorbeeld:
 ```java

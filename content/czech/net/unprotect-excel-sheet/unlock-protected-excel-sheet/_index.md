@@ -9,14 +9,14 @@ url: /cs/net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 ---
 ## Zavedení
 
-dnešním uspěchaném obchodním světě je efektivní a bezpečná správa dat prvořadá. Vzhledem k tomu, jak často se listy Excelu používají, je ochrana citlivých informací v nich zásadní. Někdy však můžete potřebovat přístup k chráněnému listu – ať už jste zapomněli heslo, nebo jednoduše potřebujete upravit data. V této příručce vás provedeme tím, jak odemknout chráněný list aplikace Excel pomocí výkonné knihovny Aspose.Cells for .NET. Na konci tohoto tutoriálu budete dobře vybaveni, abyste se s tímto úkolem vypořádali snadno a sebevědomě!
+V dnešním uspěchaném obchodním světě je efektivní a bezpečná správa dat prvořadá. Vzhledem k tomu, jak často se listy Excelu používají, je ochrana citlivých informací v nich zásadní. Někdy však můžete potřebovat přístup k chráněnému listu – ať už jste zapomněli heslo, nebo jednoduše potřebujete upravit data. V této příručce vás provedeme tím, jak odemknout chráněný list aplikace Excel pomocí výkonné knihovny Aspose.Cells for .NET. Na konci tohoto tutoriálu budete dobře vybaveni, abyste se s tímto úkolem vypořádali snadno a sebevědomě!
 
 ## Předpoklady
 
 Než se pustíte do kódu, je důležité se ujistit, že máte vše nastaveno pro bezproblémový provoz s Aspose.Cells pro .NET:
 
 1.  Visual Studio: Na vašem počítači musíte mít nainstalované Visual Studio. Pokud jej nemáte, stáhněte si nejnovější verzi z[Web Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete jej získat stažením z[Aspose webové stránky](https://releases.aspose.com/cells/net/)Případně jej můžete nainstalovat přímo přes NuGet ve Visual Studiu.
+2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete jej získat stažením z[Aspose webové stránky](https://releases.aspose.com/cells/net/). Případně jej můžete nainstalovat přímo přes NuGet ve Visual Studiu.
 3. Základní porozumění C#: Vzhledem k tomu, že budeme psát kód C#, bude se nám hodit základní znalost jazyka. Pokud jste v C# nováčkem, máte k dispozici spoustu zdrojů, které vám pomohou zrychlit.
 4. Soubor Excel: Připravte si sešit Excel, který chcete odemknout. V tomto příkladu jej budeme označovat jako "book1.xls."
 
@@ -69,7 +69,7 @@ Nyní, když je sešit načten, budete chtít získat přístup k listu, který 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Upřesněním`[0]`říkáte systému, že chcete první list. Pokud váš list není první, jednoduše změňte tento index na příslušné číslo.
+ Upřesněním`[0]`, říkáte systému, že chcete první list. Pokud váš list není první, jednoduše změňte tento index na příslušné číslo.
 
 ## Krok 4: Zrušte ochranu listu
 
@@ -87,7 +87,7 @@ Jakmile je list nechráněný, je třeba uložit provedené změny. Je to jako s
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Zde ukládáte změny do nového souboru s názvem „output.out.xls“ ve stejném adresáři. Můžete jej přejmenovat, jak uznáte za vhodné, ale nezapomeňte jej zachovat`.xls` rozšíření, aby byl rozpoznatelný jako soubor aplikace Excel.
+ Zde ukládáte změny do nového souboru s názvem „output.out.xls“ ve stejném adresáři. Můžete jej přejmenovat, jak uznáte za vhodné, ale nezapomeňte jej zachovat`.xls`rozšíření, aby byl rozpoznatelný jako soubor aplikace Excel.
 
 ## Krok 6: Zpracování chyb
 
@@ -116,7 +116,7 @@ A tady to máte! Odemknutí chráněného listu Excelu pomocí Aspose.Cells pro 
 Ano! Můžete procházet každý list v sešitu a podobně je zrušit.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro produkční použití je vyžadována licence. Zkontrolujte jejich[nákup](https://purchase.aspose.com/buy)stránce pro více informací.
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro produkční použití je vyžadována licence. Zkontrolujte jejich[nákup](https://purchase.aspose.com/buy) stránce pro více informací.
 
 ### Co když neznám heslo?
 Pokud je list chráněn heslem a vy heslo nemáte, knihovna nepomůže obejít omezení, protože je v rozporu s etickými zásadami.

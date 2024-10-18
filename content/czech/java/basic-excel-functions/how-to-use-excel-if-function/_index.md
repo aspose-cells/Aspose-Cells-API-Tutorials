@@ -93,7 +93,7 @@ Ano, můžete vnořit více funkcí KDYŽ a vytvářet složité podmínky v Exc
 
 ### Existují nějaké licenční požadavky pro Aspose.Cells for Java?
 
-Ano, Aspose.Cells for Java je komerční knihovna a možná budete muset získat licenci, abyste ji mohli používat ve svých aplikacích. Podrobnosti o licencích najdete na webu Aspose.
+Ano, Aspose.Cells for Java je komerční knihovna a možná budete muset získat licenci, abyste ji mohli používat ve svých aplikacích. Navštivte web Aspose pro podrobnosti o licencích.
 
 ### Mohu použít funkci KDYŽ na rozsah buněk v Excelu?
 

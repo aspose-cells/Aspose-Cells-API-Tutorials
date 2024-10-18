@@ -26,7 +26,7 @@ Excel 차트를 돋보이게 만들고 싶으신가요? 3D 형식을 적용하�
 
 ## 틱 레이블 방향 변경
 
- 차트의 눈금 레이블은 데이터 가독성에 필수적이지만, 때로는 기본 방향이 디자인에 맞지 않을 수 있습니다. Aspose.Cells for .NET을 사용하면 눈금 레이블 방향을 쉽게 변경하여 차트가 원하는 대로 보이도록 할 수 있습니다. 이는 특히 복잡한 축이나 겹치는 레이블을 처리할 때 유용합니다.[여기에서 방법을 알아보세요](./change-tick-label-direction/).
+ 차트의 눈금 레이블은 데이터 가독성에 필수적이지만, 때로는 기본 방향이 디자인에 맞지 않을 수도 있습니다. Aspose.Cells for .NET을 사용하면 눈금 레이블 방향을 쉽게 변경하여 차트가 원하는 대로 정확히 보이도록 할 수 있습니다. 이는 특히 복잡한 축이나 겹치는 레이블을 처리할 때 유용합니다.[여기에서 방법을 알아보세요](./change-tick-label-direction/).
 
 ## Excel 2016 차트 읽기 및 조작
 
@@ -58,7 +58,7 @@ Aspose.Cells for .NET을 사용하여 Excel 차트의 눈금 레이블 방향을
 ### [Excel 2016 차트 읽기 및 조작](./read-and-manipulate-excel-2016-charts/)
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 2016 차트를 읽고 조작하는 방법을 알아보세요.
 ### [차트의 데이터 레이블의 모양 유형 설정](./set-shape-type-of-data-labels-of-chart/)
-Aspose.Cells for .NET을 사용하여 사용자 지정 데이터 레이블 모양으로 Excel 차트를 강화하세요. 이 단계별 가이드를 따라 데이터 프레젠테이션을 향상시키세요.
+Aspose.Cells for .NET을 사용하여 사용자 지정 데이터 레이블 모양으로 Excel 차트를 향상시키세요. 이 단계별 가이드를 따라 데이터 프레젠테이션을 향상시키세요.
 ### [카테고리 데이터 설정](./setting-category-data/)
 Aspose.Cells for .NET을 사용하여 Excel 차트에서 범주 데이터를 설정하는 방법을 알아보세요. 쉬운 구현을 위한 단계별 튜토리얼을 따르세요.
 ### [차트 데이터 설정](./setting-chart-data/)

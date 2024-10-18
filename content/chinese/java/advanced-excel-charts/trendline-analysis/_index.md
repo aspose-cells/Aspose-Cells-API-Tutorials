@@ -84,7 +84,7 @@ workbook.save("output.xlsx");
 
 ### 如何更改趋势线类型？
 
-要更改趋势线类型，请修改`TrendlineType`添加趋势线时枚举。例如，使用`TrendlineType.POLYNOMIAL`对于多项式趋势线。
+要更改趋势线类型，请修改`TrendlineType`添加趋势线时使用枚举。例如，使用`TrendlineType.POLYNOMIAL`对于多项式趋势线。
 
 ### 我可以自定义趋势线的外观吗？
 

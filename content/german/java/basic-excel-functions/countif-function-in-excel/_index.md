@@ -26,7 +26,7 @@ Bevor wir uns mit der Verwendung der Funktion COUNTIF befassen, müssen wir Aspo
 
 ## Einrichten Ihres Java-Projekts
 
-Nachdem wir nun die Aspose.Cells-Bibliothek in unserem Projekt haben, richten wir ein einfaches Java-Projekt für die Arbeit mit Excel-Dateien ein.
+Nachdem wir nun die Aspose.Cells-Bibliothek in unserem Projekt haben, richten wir ein grundlegendes Java-Projekt für die Arbeit mit Excel-Dateien ein.
 
 1. Erstellen Sie ein neues Java-Projekt in Ihrer bevorzugten integrierten Entwicklungsumgebung (IDE).
 
@@ -102,7 +102,7 @@ workbook.save("CountifExample.xlsx");
 
 ## Testen und Überprüfen der Ergebnisse
 
-Öffnen Sie die generierte Excel-Datei, um die Ergebnisse der Funktion ZÄHLENWENN zu überprüfen. Sie sollten die Zählungen basierend auf Ihren Kriterien in den angegebenen Zellen sehen.
+Öffnen Sie die generierte Excel-Datei, um die Ergebnisse der Funktion ZÄHLENWENN zu überprüfen. Sie sollten die Ihren Kriterien entsprechenden Zählungen in den angegebenen Zellen sehen.
 
 ## Beheben allgemeiner Probleme
 

@@ -72,7 +72,7 @@ Det här steget är som att säga "Hej!" till din arbetsbok, så att den vet att
 Med din arbetsbok i handen är det dags att komma åt det specifika kalkylblad du vill dölja. Vi börjar med det första arbetsbladet.
 
 ```csharp
-//Åtkomst till det första kalkylbladet i Excel-filen
+// Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

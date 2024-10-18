@@ -35,12 +35,12 @@ Der erste Schritt in unserem Code besteht darin, eine Instanz des Workbook-Objek
 // Ausgabeverzeichnis
 string outputDir = "Your Document Directory"();
 
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 Diese Codezeile weist unser Programm an, eine neue Arbeitsmappe zu erstellen. Dies ist wichtig, da Sie dieser Arbeitsmappe Bereiche und Werte hinzufügen werden.
 ## Schritt 2: Erstellen eines Union-Bereichs
-Als nächstes müssen wir einen Vereinigungsbereich erstellen. Dadurch können wir mehrere Zellbereiche zu einem kombinieren. Es ist, als würde man Freunde aus verschiedenen Gruppen zu einer Party zusammenbringen – jeder hat seinen eigenen Bereich, aber zusammen schaffen sie eine lustige Atmosphäre!
+Als Nächstes müssen wir einen Vereinigungsbereich erstellen. Dadurch können wir mehrere Zellbereiche zu einem kombinieren. Es ist, als würden wir Freunde aus verschiedenen Gruppen zu einer Party zusammenbringen – jeder hat seinen eigenen Bereich, aber gemeinsam schaffen sie eine tolle Atmosphäre!
 ```csharp
 // Union-Bereich erstellen
 UnionRange unionRange = workbook.Worksheets.CreateUnionRange("sheet1!A1:A10,sheet1!C1:C10", 0);

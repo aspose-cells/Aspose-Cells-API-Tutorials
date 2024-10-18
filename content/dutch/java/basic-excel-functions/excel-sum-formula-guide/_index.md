@@ -105,7 +105,7 @@ workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
 
-In dit voorbeeld tellen we de waarden in de cellen A1 tot en met A10 bij elkaar op, maar we nemen alleen de getallen groter dan 5 mee.
+In dit voorbeeld tellen we de waarden in de cellen A1 tot en met A10 bij elkaar op, maar we tellen alleen de getallen groter dan 5 mee.
 
 ## Omgaan met fouten en randgevallen
 

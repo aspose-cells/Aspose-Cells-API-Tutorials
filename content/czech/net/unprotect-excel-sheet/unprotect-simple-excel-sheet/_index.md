@@ -52,7 +52,7 @@ Pojďme si proces odblokování rozebrat do podrobných kroků.
 
 ## Krok 1: Definování cesty k adresáři
 
-První věc, kterou musíte udělat, je zadat cestu k adresáři, kde se nachází váš soubor Excel. To je nezbytné, protože to říká vašemu programu, kde má najít soubor, který chcete zrušit.
+První věc, kterou musíte udělat, je zadat cestu k adresáři, kde se nachází váš soubor Excel. To je nezbytné, protože to vašemu programu sdělí, kde má najít soubor, který chcete zrušit.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Změňte to na svou skutečnou cestu
@@ -78,7 +78,7 @@ Nyní se dostaneme k listu, který chcete zrušit. Obecně platí, že pokud má
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-tomto řádku se zaměřujeme na první pracovní list. Pokud potřebujete zrušit ochranu jiného listu, jednoduše změňte indexové číslo.
+V tomto řádku se zaměřujeme na první pracovní list. Pokud potřebujete zrušit ochranu jiného listu, jednoduše změňte indexové číslo.
 
 ## Krok 4: Odstranění ochrany listu
 

@@ -61,7 +61,7 @@ Workbook wb = new Workbook();
 
  Poprzez utworzenie nowego`Workbook`obiekt, zaczynasz od pustej karty, gotowej do dostosowania arkusza kalkulacyjnego.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po utworzeniu skoroszytu należy uzyskać dostęp do pierwszego arkusza, w którym będą wykonywane operacje:
 
@@ -81,7 +81,7 @@ Aby ustawić określone kolumny jako chronione, musisz najpierw odblokować wszy
 Style style;
 // Zdefiniuj obiekt flagi stylu.
 StyleFlag flag;
-// Przejdź przez wszystkie kolumny arkusza kalkulacyjnego i odblokuj je.
+// Przejdź przez wszystkie kolumny arkusza i odblokuj je.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -92,7 +92,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
- Ten kod przechodzi przez każdą z pierwszych 256 kolumn. Odblokowuje każdą kolumnę poprzez modyfikację ustawień stylu.`StyleFlag` zapewnia, że zablokowaną właściwość można będzie później zastosować.
+ Ten kod przechodzi przez każdą z pierwszych 256 kolumn. Odblokowuje każdą kolumnę poprzez modyfikację ustawień stylu.`StyleFlag` zapewnia, że zablokowaną właściwość można będzie zastosować później.
 
 ## Krok 5: Zablokuj żądaną kolumnę
 

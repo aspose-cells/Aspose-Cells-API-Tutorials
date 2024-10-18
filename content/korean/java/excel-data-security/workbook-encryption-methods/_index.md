@@ -2,7 +2,7 @@
 title: 통합 문서 암호화 방법
 linktitle: 통합 문서 암호화 방법
 second_title: Aspose.Cells Java Excel 처리 API
-description: Aspose.Cells for Java Workbook Encryption으로 데이터 보안을 강화하세요. Excel Workbook을 단계별로 암호화하는 방법을 알아보세요.
+description: Aspose.Cells for Java Workbook 암호화로 데이터 보안을 강화하세요. Excel Workbook을 단계별로 암호화하는 방법을 알아보세요.
 type: docs
 weight: 12
 url: /ko/java/excel-data-security/workbook-encryption-methods/
@@ -14,7 +14,7 @@ url: /ko/java/excel-data-security/workbook-encryption-methods/
 
 ## 통합 문서 암호화 이해
 
-구현 세부 사항을 살펴보기 전에 먼저 통합 문서 암호화가 무엇이고 왜 필수적인지 알아보겠습니다. 통합 문서 암호화는 Excel 통합 문서의 내용을 보호하기 위해 암호화 알고리즘을 통합 문서 내의 데이터에 적용하는 프로세스입니다. 이렇게 하면 암호 해독 키가 있는 권한이 있는 사용자만 통합 문서의 내용에 액세스하고 볼 수 있으므로 민감한 데이터가 엿보는 눈으로부터 안전하게 보호됩니다.
+구현 세부 사항을 살펴보기 전에 먼저 통합 문서 암호화가 무엇이고 왜 필수적인지 알아보겠습니다. 통합 문서 암호화는 Excel 통합 문서의 데이터에 암호화 알고리즘을 적용하여 콘텐츠를 보호하는 프로세스입니다. 이렇게 하면 암호 해독 키가 있는 권한이 있는 사용자만 통합 문서의 콘텐츠에 액세스하고 볼 수 있으므로 민감한 데이터가 엿보는 눈으로부터 안전하게 보호됩니다.
 
 ## 필수 조건
 
@@ -29,7 +29,7 @@ Aspose.Cells for Java로 Excel 통합 문서를 보호하는 여정을 시작해
 
 ### 1단계: Java 라이브러리용 Aspose.Cells 가져오기
 
-Java 라이브러리용 Aspose.Cells를 Java 프로젝트로 임포트하는 것으로 시작합니다. 라이브러리를 프로젝트의 클래스 경로에 추가하여 이를 수행할 수 있습니다.
+Java 라이브러리를 Java 프로젝트로 가져오는 것으로 시작합니다. 라이브러리를 프로젝트의 클래스 경로에 추가하여 이를 수행할 수 있습니다.
 
 ```java
 import com.aspose.cells.*;
@@ -73,7 +73,7 @@ workbook.save("path/to/encrypted/workbook.xlsx");
 
 ## 결론
 
-암호화로 Excel 통합 문서를 보호하는 것은 민감한 데이터를 보호하는 데 중요한 단계입니다. Aspose.Cells for Java는 Java 애플리케이션에 쉽게 통합할 수 있는 다양한 암호화 방법을 제공하여 이 프로세스를 간소화합니다. 암호 기반 암호화나 고급 AES 암호화를 선호하든 Aspose.Cells가 해결해 드립니다.
+암호화를 사용하여 Excel 통합 문서를 보호하는 것은 민감한 데이터를 보호하는 데 중요한 단계입니다. Aspose.Cells for Java는 Java 애플리케이션에 쉽게 통합할 수 있는 다양한 암호화 방법을 제공하여 이 프로세스를 간소화합니다. 암호 기반 암호화나 고급 AES 암호화를 선호하든 Aspose.Cells가 해결해 드립니다.
 
 ## 자주 묻는 질문
 

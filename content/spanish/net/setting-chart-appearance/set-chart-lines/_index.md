@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Ahora, crearemos un objeto de libro de trabajo, que sirve como contenedor para su hoja de cálculo.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -159,7 +159,7 @@ Explicación: El código anterior personaliza los bordes de la serie del gráfic
 Ahora, guardemos tu arduo trabajo en un archivo Excel.
 
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(outputDir + "outputSettingChartLines.xlsx");
 ```
 

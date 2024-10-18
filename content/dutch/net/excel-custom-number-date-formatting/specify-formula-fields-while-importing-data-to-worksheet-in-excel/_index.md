@@ -16,9 +16,9 @@ Als het aankomt op het programmatisch verwerken van Excel-bestanden, is Aspose.C
 Voordat we in de code duiken, controleren we of je alles hebt wat je nodig hebt. 
 
 1. Visual Studio of een andere .NET Integrated Development Environment (IDE): zorg ervoor dat u een geschikte IDE hebt om uw C#-code te schrijven en uit te voeren.
-2. Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek in uw project downloaden en ernaar verwijzen. U kunt deze downloaden van de[Aspose-releases](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek in uw project downloaden en ernaar verwijzen. U kunt deze downloaden van de[Aspose-releases](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C# en objectgeoriënteerde programmeerconcepten helpt u de voorbeelden beter te begrijpen.
-4. .NET Framework: In deze zelfstudie wordt ervan uitgegaan dat u .NET Framework 4.5 of hoger gebruikt.
+4. .NET Framework: in deze zelfstudie wordt ervan uitgegaan dat u .NET Framework 4.5 of hoger gebruikt.
 
 Zodra u aan de vereisten hebt voldaan, kunt u gegevens importeren in een Excel-bestand met de opgegeven formulevelden.
 
@@ -90,7 +90,7 @@ dis.Add(di);
 
 ## Stap 5: Maak een werkmap en Access-werkblad
 
-Maak vervolgens de werkmap en open het eerste werkblad waar we uiteindelijk de gegevens naartoe importeren.
+Maak vervolgens de werkmap en open het eerste werkblad waar we uiteindelijk de gegevens zullen importeren.
 
 ```csharp
 Workbook wb = new Workbook(); // een nieuwe werkmap maken
@@ -156,7 +156,7 @@ Om eenvoudig te controleren of alles correct is verlopen, kunt u een bericht afd
 Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully.");
 ```
 
-Hierdoor krijgt u direct feedback dat de code zonder problemen heeft gewerkt.
+Zo krijgt u direct feedback dat de code zonder problemen heeft gewerkt.
 
 ## Conclusie
 
@@ -168,7 +168,7 @@ En daar heb je het! Je hebt succesvol data geïmporteerd in een Excel-sheet met 
 Aspose.Cells is een .NET-bibliotheek die is ontworpen voor het programmatisch maken, bewerken en converteren van Excel-bestanden.
 
 ### Hoe installeer ik Aspose.Cells voor .NET?
- Je kunt het downloaden van de[Aspose-releases](https://releases.aspose.com/cells/net/)en ernaar verwijzen in uw project.
+ Je kunt het downloaden van de[Aspose-releases](https://releases.aspose.com/cells/net/) en ernaar verwijzen in uw project.
 
 ### Kan ik Aspose.Cells gratis gebruiken?
  Ja, Aspose biedt een gratis proefperiode aan die beschikbaar is op[deze link](https://releases.aspose.com/).
@@ -176,6 +176,6 @@ Aspose.Cells is een .NET-bibliotheek die is ontworpen voor het programmatisch ma
 ### Waar kan ik meer voorbeelden vinden?
  Aanvullende voorbeelden en documentatie vindt u op de[Aspose documentatiepagina](https://reference.aspose.com/cells/net/).
 
-### Wat moet ik doen als ik problemen ondervind bij het gebruik van Aspose?
- U kunt hulp zoeken via het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9).
+### Wat moet ik doen als ik problemen ondervind tijdens het gebruik van Aspose?
+ kunt hulp zoeken via het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9).
  

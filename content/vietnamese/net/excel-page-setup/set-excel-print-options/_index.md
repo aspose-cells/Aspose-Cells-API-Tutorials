@@ -56,7 +56,7 @@ Bây giờ, hãy bắt tay vào thực hiện và tìm hiểu mã lệnh! Chúng
 
 ## Bước 1: Xác định thư mục tài liệu
 
-Bước đầu tiên bao gồm việc chỉ định nơi tệp Excel của bạn sẽ nằm. Thay vì mã hóa cứng các đường dẫn trên toàn bộ mã của bạn, hãy giữ cho nó gọn gàng và ngăn nắp.
+Bước đầu tiên bao gồm việc chỉ định nơi lưu trữ tệp Excel của bạn. Thay vì mã hóa cứng các đường dẫn trên toàn bộ mã của bạn, hãy giữ cho nó gọn gàng và ngăn nắp.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Tiếp theo, chúng ta sẽ cần tạo một`Workbook` đối tượng. Đối tượng này hoạt động như một vùng chứa dữ liệu bảng tính của bạn.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -78,7 +78,7 @@ Workbook workbook = new Workbook();
 
 ## Bước 3: Truy cập Thiết lập Trang
 
- Để kiểm soát cách in bảng tính Excel của bạn, bạn sẽ cần truy cập`PageSetup` tính chất của bảng tính.
+ Để kiểm soát cách in bảng tính Excel của bạn, bạn sẽ cần truy cập vào`PageSetup` thuộc tính của bảng tính.
 
 ```csharp
 // Lấy tham chiếu của PageSetup của trang tính
@@ -89,7 +89,7 @@ Trong dòng này, chúng ta đang thiết lập trang cho trang tính đầu ti�
 
 ## Bước 4: Cấu hình Tùy chọn in
 
-Bây giờ đến phần thú vị! Chúng ta có thể tùy chỉnh nhiều cài đặt in khác nhau để làm cho bản Excel đã in trông chuyên nghiệp.
+Bây giờ đến phần thú vị! Chúng ta có thể tùy chỉnh nhiều cài đặt in khác nhau để làm cho bản Excel in của mình trông chuyên nghiệp.
 
 ```csharp
 // Cho phép in lưới

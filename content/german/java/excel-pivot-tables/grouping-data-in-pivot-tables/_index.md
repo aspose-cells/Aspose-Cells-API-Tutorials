@@ -8,7 +8,7 @@ weight: 14
 url: /de/java/excel-pivot-tables/grouping-data-in-pivot-tables/
 ---
 
-Pivot-Tabellen sind ein leistungsstarkes Tool zum Analysieren und Zusammenfassen von Daten in Tabellen. Sie ermöglichen Ihnen das Gruppieren und Kategorisieren von Daten, um wertvolle Erkenntnisse zu gewinnen. In diesem Artikel erfahren Sie, wie Sie mit Aspose.Cells für Java Daten in Pivot-Tabellen effektiv gruppieren können. Außerdem werden Quellcodebeispiele bereitgestellt.
+Pivot-Tabellen sind ein leistungsstarkes Tool zum Analysieren und Zusammenfassen von Daten in Tabellenkalkulationen. Sie ermöglichen Ihnen das Gruppieren und Kategorisieren von Daten, um wertvolle Erkenntnisse zu gewinnen. In diesem Artikel erfahren Sie, wie Sie mit Aspose.Cells für Java Daten in Pivot-Tabellen effektiv gruppieren können, und wir zeigen Ihnen Quellcodebeispiele.
 
 ## Einführung
 
@@ -93,7 +93,7 @@ Das Gruppieren von Daten in Pivot-Tabellen ist eine wertvolle Technik zum Analys
 
 ### 1. Was ist der Zweck von Pivot-Tabellen in Excel?
 
-Pivot-Tabellen in Excel dienen zum Zusammenfassen und Analysieren großer Datensätze. Sie ermöglichen die Erstellung benutzerdefinierter Ansichten Ihrer Daten, sodass Muster und Trends leichter zu erkennen sind.
+Pivot-Tabellen in Excel dienen zum Zusammenfassen und Analysieren großer Datensätze. Sie ermöglichen Ihnen die Erstellung benutzerdefinierter Ansichten Ihrer Daten, wodurch Muster und Trends leichter zu erkennen sind.
 
 ### 2. Wie kann ich die Gruppierung von Daten in einer Pivot-Tabelle anpassen?
 

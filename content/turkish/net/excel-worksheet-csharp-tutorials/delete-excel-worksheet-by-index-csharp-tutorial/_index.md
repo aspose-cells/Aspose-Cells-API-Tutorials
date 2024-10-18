@@ -55,7 +55,7 @@ Bu adım, büyük bir partiden önce arkadaşlarınızı davet etmeye benzer; k�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Sadece değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`book1.xls`dosya bulunur. Bunu, bir yolculuğa başlamadan önce GPS'inize doğru adresi vermek olarak düşünün!
+ Sadece değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`book1.xls` dosya bulunur. Bunu, bir yolculuğa başlamadan önce GPS'inize doğru adresi vermek olarak düşünün!
 
 ## Adım 4: Excel Dosyasını FileStream ile Açın
 
@@ -79,7 +79,7 @@ Burada, Excel verilerinize bir ağ geçidi oluşturuyorsunuz! Çalışma kitabı
 
 ## Adım 6: Çalışma Sayfasını Dizinle Kaldırın
 
-Şimdi heyecan verici kısma geliyoruz: çalışma sayfasını kaldırma! Bunu, silmek istediğiniz çalışma sayfasının dizinini belirterek kolayca yapabilirsiniz. 
+Şimdi heyecan verici kısma geliyoruz: çalışma sayfasını kaldırma! Bunu silmek istediğiniz çalışma sayfasının dizinini belirterek kolayca yapabilirsiniz. 
 
 ```csharp
 workbook.Worksheets.RemoveAt(0);
@@ -95,7 +95,7 @@ Bu örnekte, koleksiyondaki ilk çalışma sayfasını kaldırıyoruz (unutmayı
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Değiştirerek yeni bir adla kaydetmeyi seçebilirsiniz.`"output.out.xls"` istediğinize. Bunu bir Word belgesinde 'Kaydet' düğmesine basmak gibi düşünün — değişikliklerinizi saklamak istersiniz.
+Değiştirerek yeni bir adla kaydetmeyi seçebilirsiniz.`"output.out.xls"` istediğinize. Bunu bir Word belgesinde 'Kaydet' düğmesine basmak gibi düşünün — değişikliklerinizi saklamak istersiniz.
 
 ## Adım 8: Dosya Akışını Kapatın
 
@@ -117,7 +117,7 @@ Ve işte karşınızda! C# ve Aspose.Cells kullanarak bir Excel çalışma sayfa
 Aspose.Cells, geliştiricilere Excel dosyalarını işlemek için kapsamlı yetenekler sağlayan bir .NET kütüphanesidir. Excel dosyalarını oluşturmaktan ve düzenlemekten dönüştürmeye kadar, güçlü bir araçtır!
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümüyle başlayabilirsiniz[Burada](https://releases.aspose.com/). Satın almadan önce özelliklerini inceleyebilirsiniz.
+ Evet, Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümüyle başlayabilirsiniz[Burada](https://releases.aspose.com/)Satın almadan önce özelliklerini inceleyebilirsiniz.
 
 ### Birden fazla çalışma sayfasını aynı anda silebilir miyim?
 Evet, çalışma sayfaları arasında dolaşabilir ve ilgili dizinlerini kullanarak silebilirsiniz. Çalışma sayfalarını kaldırırken dizini buna göre ayarlamayı unutmayın.

@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Spiegazione: 
 
- Questa riga alloca una variabile stringa`dataDir` per contenere il percorso alla directory dei tuoi documenti. Sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui è archiviato il tuo file Excel. È come dare indicazioni a qualcuno; devi dire al tuo codice esattamente dove cercare i file.
+Questa riga alloca una variabile stringa`dataDir` per contenere il percorso alla directory dei tuoi documenti. Sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui è archiviato il tuo file Excel. È come dare indicazioni a qualcuno; devi dire al tuo codice esattamente dove cercare i file.
 
 ## Passaggio 2: caricare la cartella di lavoro
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Spiegazione:  
 
-Questa riga recupera il primo foglio di lavoro dalla raccolta. L'indicizzazione nella programmazione spesso parte da zero, motivo per cui utilizziamo`[0]`Considera questo come la selezione del primo capitolo del tuo libro, pronto per essere modificato.
+ Questa riga recupera il primo foglio di lavoro dalla raccolta. L'indicizzazione nella programmazione spesso parte da zero, motivo per cui utilizziamo`[0]`Considera questo come la selezione del primo capitolo del tuo libro, pronto per essere modificato.
 
 ## Passaggio 5: spostare il foglio di lavoro
 

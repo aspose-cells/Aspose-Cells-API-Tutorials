@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Nu när vi har en filström kan vi skapa en`Workbook` objekt.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 // Öppna Excel-filen genom filströmmen
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 För våra syften kommer vi bara att arbeta med det första arbetsbladet. Låt oss komma åt den.
 
 ```csharp
-//Åtkomst till det första kalkylbladet i Excel-filen
+// Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Arbetsblad indexeras från noll, alltså`Worksheets[0]` hänvisar till det första kalkylbladet i Excel-filen. Nu kan vi tillämpa våra skyddsinställningar på detta specifika blad.

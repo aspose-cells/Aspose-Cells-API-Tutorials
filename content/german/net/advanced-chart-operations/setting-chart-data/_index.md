@@ -34,7 +34,7 @@ using Aspose.Cells;
 
 Auf diese Weise müssen Sie nicht den vollständigen Pfad der in Ihrem Code verwendeten Klassen eingeben, was den Code übersichtlicher und lesbarer macht.
 
-Nachdem Sie nun alles vorbereitet haben, können wir den Prozess zum Festlegen der Diagrammdaten Schritt für Schritt durchgehen. Wir erstellen ein Säulendiagramm auf der Grundlage einiger Beispieldaten.
+Nachdem Sie nun alles vorbereitet haben, können wir nun Schritt für Schritt den Prozess zum Festlegen der Diagrammdaten durchgehen. Wir erstellen ein Säulendiagramm auf der Grundlage einiger Beispieldaten.
 
 ## Schritt 1: Ausgabeverzeichnis definieren
 
@@ -108,7 +108,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
 Hier erhalten wir einen Verweis auf das Diagramm, das wir gerade hinzugefügt haben, sodass wir es weiter anpassen können. Es ist so, als würden Sie den Pinsel in die Hand nehmen, nachdem die Umrisse fertig sind – jetzt können Sie etwas Farbe hinzufügen!
 
-## Schritt 8: Datenquelle für das Diagramm festlegen
+## Schritt 8: Datenquelle für Diagramm festlegen
 
 Hier verbinden wir unser Diagramm mit den von uns vorbereiteten Daten.
 
@@ -154,7 +154,7 @@ Aspose.Cells ist eine .NET-Bibliothek, mit der Benutzer Excel-Dateien erstellen,
 Ja! Aspose.Cells unterstützt verschiedene Diagrammtypen, darunter Linien-, Balken-, Kreisdiagramme und mehr.
 
 ### Gibt es eine kostenlose Testversion für Aspose.Cells?  
- Auf jeden Fall! Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ Auf jeden Fall! Sie können eine kostenlose Testversion nutzen[Hier](https://releases.aspose.com/).
 
 ### Wie erhalte ich technischen Support für Aspose.Cells?  
  Für Unterstützung besuchen Sie bitte die[Aspose Forum](https://forum.aspose.com/c/cells/9).

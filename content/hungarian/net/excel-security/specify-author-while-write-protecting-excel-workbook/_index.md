@@ -89,7 +89,7 @@ Az utolsó lépés a munkafüzet elmentése a kívánt formátumban. Ebben az es
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül mentésre a névvel`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Itt a kemény munkája végre meghozza gyümölcsét, és megoszthatja munkafüzetét másokkal, tudva, hogy jól védett!
+ Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül a névvel`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Itt a kemény munkája végre meghozza gyümölcsét, és megoszthatja munkafüzetét másokkal, tudva, hogy jól védett!
 
 ## Következtetés
 

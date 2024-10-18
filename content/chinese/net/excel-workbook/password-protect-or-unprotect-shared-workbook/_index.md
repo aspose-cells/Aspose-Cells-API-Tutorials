@@ -22,7 +22,7 @@ url: /zh/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
 
 ## 导入包
 
-首先，您需要导入必要的软件包。在您的 C# 项目中，包含 Aspose.Cells 库。您可以按照以下步骤操作：
+首先，您需要导入必要的软件包。在您的 C# 项目中，包含 Aspose.Cells 库。您可以这样做：
 
 ```csharp
 using System;

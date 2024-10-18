@@ -41,14 +41,14 @@ using Aspose.Cells;
 
 ## 步骤 1：加载源工作簿
 
-首先，我们需要加载想要应用过滤器的现有 Excel 工作簿。
+首先，我们需要加载要应用过滤器的现有 Excel 工作簿。
 
 ```csharp
 string sourceDir = "Your Document Directory"; //指定您的文档目录
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
-在此步骤中，我们声明一个变量`sourceDir`指向 Excel 文件的位置。然后，我们创建一个新的实例`Workbook`类来加载该文件。这就像打开我们想读的书一样！
+在此步骤中，我们声明一个变量`sourceDir`指向 Excel 文件的位置。然后，我们创建一个新的`Workbook`类来加载该文件。这就像打开我们想读的书一样！
 
 ## 第 2 步：访问第一个工作表
 
@@ -71,7 +71,7 @@ string criteriaRange = "A1:D2"; //筛选条件范围
 
 在此步骤中，我们定义两个字符串： 
 - `rangeToFilter`表示我们将应用过滤器的数据范围。
-- `criteriaRange`表示包含过滤条件的单元格。这些条件将决定我们如何对数据进行排序。
+- `criteriaRange`表示包含筛选条件的单元格。这些条件将决定我们如何对数据进行排序。
 
 ## 步骤 4：保存修改的工作簿
 

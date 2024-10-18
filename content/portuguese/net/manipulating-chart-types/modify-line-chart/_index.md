@@ -1,7 +1,7 @@
 ---
 title: Modificar gráfico de linhas
 linktitle: Modificar gráfico de linhas
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a modificar gráficos de linhas no Excel usando o Aspose.Cells para .NET com este guia detalhado passo a passo.
 type: docs
 weight: 15
@@ -13,7 +13,7 @@ Criar gráficos visualmente atraentes e informativos é essencial para uma repre
 
 ## Pré-requisitos 
 
-Antes de entrarmos nos detalhes da modificação de gráficos, vamos garantir que você tenha tudo o que precisa para começar. Aqui estão os pré-requisitos essenciais:
+Antes de pularmos para os detalhes da modificação de gráficos, vamos garantir que você tenha tudo o que precisa para começar. Aqui estão os pré-requisitos essenciais:
 
 ### Instalar o Visual Studio
  Você precisará do Visual Studio instalado em sua máquina para escrever e executar o código C# efetivamente. Se você ainda não o tem, você pode baixá-lo de[Site do Visual Studio](https://visualstudio.microsoft.com/).
@@ -96,7 +96,7 @@ Para diferenciar visualmente a nova série de dados, plotaremos a quarta série 
 ```csharp
 chart.NSeries[3].PlotOnSecondAxis = true;
 ```
-Isso permite que seu gráfico apresente claramente relacionamentos complexos entre várias séries de dados.
+Isso permite que seu gráfico apresente relacionamentos complexos entre várias séries de dados claramente.
 
 ## Etapa 6: personalizar a aparência da série
 

@@ -2,14 +2,14 @@
 title: Kullanıcının Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver
 linktitle: Kullanıcının Excel Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Kullanıcıların Aspose.Cells for .NET kullanarak bir Excel elektronik tablosundaki belirli aralıkları düzenlemesine izin verin. C# kaynak koduyla adım adım kılavuz.
+description: Kullanıcıların Aspose.Cells for .NET kullanarak Excel elektronik tablosundaki belirli aralıkları düzenlemesine izin verin. C# kaynak koduyla adım adım kılavuz.
 type: docs
 weight: 10
 url: /tr/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
 ## giriiş
 
-Excel çalışma sayfalarıyla çalışırken, esneklik genellikle önemlidir; özellikle birden fazla kullanıcının tüm sayfanın veri bütünlüğünü tehlikeye atmadan belirli alanları düzenlemeye erişmesi gerektiğinde. İşte .NET için Aspose.Cells'in parladığı yer burasıdır! Bu eğitimde, kullanıcıların belgenin geri kalanını korurken bir Excel çalışma sayfasındaki belirli aralıkları düzenlemesine nasıl izin verileceğini derinlemesine inceleyeceğiz. Bu makalenin sonunda, yalnızca kavramları kavramakla kalmayacak, aynı zamanda üzerinde çalışmak için elle tutulur bir örneğiniz de olacak. 
+Excel çalışma sayfalarıyla çalışmaya gelince, esneklik genellikle önemlidir; özellikle birden fazla kullanıcının tüm sayfanın veri bütünlüğünü tehlikeye atmadan belirli alanları düzenlemeye erişmesi gerektiğinde. İşte .NET için Aspose.Cells'in parladığı yer burasıdır! Bu eğitimde, kullanıcıların belgenin geri kalanını korurken bir Excel çalışma sayfasındaki belirli aralıkları düzenlemesine nasıl izin verileceğini derinlemesine inceleyeceğiz. Bu makalenin sonunda, yalnızca kavramları kavramakla kalmayacak, aynı zamanda üzerinde çalışmak için elle tutulur bir örneğiniz de olacak. 
 
 ## Ön koşullar
 
@@ -41,7 +41,7 @@ Herhangi bir dosya işlemi için, belgelerimizin kaydedileceği tanımlanmış b
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Eğer mevcut değilse dizin oluşturun.
+//Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -109,7 +109,7 @@ Artık düzenlenebilir aralığımızı ayarladığımıza göre çalışma sayf
 sheet.Protect(ProtectionType.All);
 ```
 
-Bu kod, çalışma sayfasının tamamını, az önce belirttiğimiz aralık haricinde, istenmeyen değişikliklerden koruyacaktır.
+Bu kod, az önce belirttiğimiz aralık haricinde, çalışma sayfasının tamamını istenmeyen değişikliklerden koruyacaktır.
 
 ## Adım 7: Excel Dosyasını Kaydedin
 

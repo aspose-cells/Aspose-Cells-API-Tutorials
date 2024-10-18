@@ -9,7 +9,7 @@ url: /tr/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bar
 ---
 ## giriiş
 
-Excel dosyalarını programatik olarak yönetmek çoğu zaman sihir gibi görünebilir! İster kullanıcı deneyimini geliştirmek, ister elektronik tablo uygulamanızın arayüzünü basitleştirmek isteyin, kaydırma çubukları gibi görsel bileşenleri kontrol etmek esastır. Bu kılavuzda, .NET için Aspose.Cells kullanarak bir çalışma sayfasının kaydırma çubuklarının nasıl görüntüleneceğini ve gizleneceğini inceleyeceğiz. Bu konuda yeniyseniz veya becerilerinizi geliştirmek istiyorsanız, doğru yerdesiniz!
+Excel dosyalarını programatik olarak yönetmek çoğu zaman sihir gibi görünebilir! İster kullanıcı deneyimini geliştirmek, ister elektronik tablo uygulamanızın arayüzünü basitleştirmek isteyin, kaydırma çubukları gibi görsel bileşenleri kontrol etmek önemlidir. Bu kılavuzda, .NET için Aspose.Cells kullanarak bir çalışma sayfasının kaydırma çubuklarının nasıl görüntüleneceğini ve gizleneceğini inceleyeceğiz. Bu konuda yeniyseniz veya becerilerinizi geliştirmek istiyorsanız, doğru yerdesiniz!
 
 ## Ön koşullar
 
@@ -38,14 +38,14 @@ using Aspose.Cells;
 
 ## Adım 1: Dosya Yolunu Tanımlayın
 
-Burada çalışmak istediğiniz Excel dosyasının yolunu belirteceksiniz.
+Burada çalışmak istediğiniz Excel dosyasının yolunu belirtiyorsunuz.
 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Yer değiştirmek`YOUR DOCUMENT DIRECTORY`Excel dosyanızın saklandığı gerçek yol ile. Bu, programınızın işleyebileceği gerekli dosyaları bulmasını sağlar.
+ Yer değiştirmek`YOUR DOCUMENT DIRECTORY` Excel dosyanızın saklandığı gerçek yol ile. Bu, programınızın işleyebileceği gerekli dosyaları bulmasını sağlar.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Bu`Workbook` nesne artık Excel dosyanızdaki tüm verileri ve ayarları tutar ve bu sayede işlem sırasında daha sonra düzenleme yapmanıza olanak sağlar.
+ Bu`Workbook`nesne artık Excel dosyanızdaki tüm verileri ve ayarları tutar ve bu sayede işlem sırasında daha sonra düzenleme yapmanıza olanak sağlar.
 
 ## Adım 4: Dikey Kaydırma Çubuğunu Gizle
 
@@ -123,7 +123,7 @@ Bu basit adımları izleyerek, Aspose.Cells for .NET kullanarak bir çalışma s
  Evet! Sadece ayarlamanız gerekiyor`IsVScrollBarVisible` Ve`IsHScrollBarVisible` geri dönmek`true`.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
-Aspose.Cells tamamen ücretsiz değildir, ancak sınırlı bir süre için ücretsiz olarak deneyebilir veya satın almayı düşünebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells tamamen ücretsiz değildir, ancak sınırlı bir süre için ücretsiz olarak deneyebilir veya satın almayı düşünebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells ile hangi tür Excel dosyalarını işleyebilirim?  
 .xls, .xlsx, .xlsm, .xlsb gibi çeşitli Excel formatlarıyla çalışabilirsiniz.

@@ -27,7 +27,7 @@ url: /zh/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort
 
 您需要在项目中安装适用于 .NET 的 Aspose.Cells 库。您可以通过 NuGet 包管理器轻松添加它。 
 
-操作方法如下：
+具体操作如下：
 
 1. 在 Visual Studio 中打开您的项目。
 2. 转到“工具”>“NuGet 包管理器”>“管理解决方案的 NuGet 包”。

@@ -10,7 +10,7 @@ url: /id/java/data-validation-rules/creating-custom-data-validation/
 
 ## Perkenalan
 
-Validasi data membantu menjaga integritas data dengan mencegah pengguna memasukkan data yang salah atau tidak valid ke dalam lembar kerja Excel. Meskipun Excel menawarkan opsi validasi data bawaan, ada beberapa skenario di mana Anda perlu menentukan aturan validasi khusus. Aspose.Cells for Java memungkinkan Anda untuk mencapainya secara efisien.
+Validasi data membantu menjaga integritas data dengan mencegah pengguna memasukkan data yang salah atau tidak valid ke dalam lembar kerja Excel. Meskipun Excel menawarkan opsi validasi data bawaan, ada beberapa skenario di mana Anda perlu menentukan aturan validasi khusus. Aspose.Cells untuk Java memungkinkan Anda mencapainya secara efisien.
 
 ## Prasyarat
 

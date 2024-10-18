@@ -48,7 +48,7 @@ worksheet.getCells().get("A4").putValue(45);
 
 ## Etapa 4: Usando a função SE do Excel
 
-Agora vem a parte emocionante – usar a função IF do Excel. Neste exemplo, usaremos a função IF para determinar a nota com base na pontuação.
+Agora vem a parte emocionante – usar a função SE do Excel. Neste exemplo, usaremos a função SE para determinar a nota com base na pontuação.
 
 ```java
 // Aplique a função SE para calcular notas

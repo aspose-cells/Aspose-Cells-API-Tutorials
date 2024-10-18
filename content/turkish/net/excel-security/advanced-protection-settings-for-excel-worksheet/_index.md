@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Artık bir dosya akışımız olduğuna göre, bir tane oluşturabiliriz`Workbook` nesne.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Bizim amacımız için, sadece ilk çalışma kağıdıyla çalışacağız. Ona erişelim.
 
 ```csharp
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+// Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Çalışma sayfaları sıfırdan başlayarak indekslenir, bu nedenle`Worksheets[0]` Excel dosyasındaki ilk çalışma sayfasını ifade eder. Şimdi, koruma ayarlarımızı bu belirli sayfaya uygulayabiliriz.
@@ -126,7 +126,7 @@ Once we've applied all the necessary settings, it’s time to save our modificat
 // Değiştirilen Excel dosyasını kaydetme
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Burada çalışma kitabını yeni bir dosyaya kaydediyoruz,`output.xls`Bu şekilde orijinal dosyamız bozulmadan kalır ve uygulanan korumaları yeni dosyamızda kontrol edebiliriz.
+ Burada çalışma kitabını yeni bir dosyaya kaydediyoruz,`output.xls`Bu şekilde orijinal dosyamız bozulmadan kalır ve yeni dosyamızda uygulanan korumaları kontrol edebiliriz.
 
 ## Adım 6: Dosya Akışını Kapatın
 

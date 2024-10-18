@@ -11,7 +11,7 @@ url: /cs/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-sp
 
 Programově pracovat se soubory Excelu může někdy připadat jako žonglování s tisíci věcmi najednou, že? Pokud jste někdy potřebovali ovládat šířku panelu karet v excelové tabulce, jste na správném místě! Pomocí Aspose.Cells for .NET můžete snadno manipulovat s různými nastaveními souborů aplikace Excel, jako je například úprava šířky panelu karet listu, díky čemuž bude tabulka přizpůsobenější a uživatelsky přívětivější. Dnes si rozebereme, jak to můžete udělat pomocí jasných a snadno pochopitelných kroků.
 
-tomto tutoriálu pokryjeme vše, co potřebujete vědět o ovládání šířky panelu karet pomocí Aspose.Cells pro .NET – od předpokladů až po podrobného průvodce krok za krokem. Na konci budete ladit nastavení Excelu jako profík. Připraveni? Pojďme se ponořit!
+V tomto tutoriálu pokryjeme vše, co potřebujete vědět o ovládání šířky panelu karet pomocí Aspose.Cells pro .NET – od předpokladů až po podrobného průvodce krok za krokem. Na konci budete ladit nastavení Excelu jako profík. Připraveni? Pojďme se ponořit!
 
 ## Předpoklady
 
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## Závěr
 
-A je to! Nyní jste se úspěšně naučili, jak ovládat šířku lišty v tabulce Excel pomocí Aspose.Cells for .NET. Toto jednoduché vyladění může znamenat velký rozdíl při procházení velkých sešitů a dává vašim tabulkám uhlazenější a uživatelsky přívětivější vzhled.
+je to! Nyní jste se úspěšně naučili, jak ovládat šířku lišty v tabulce Excel pomocí Aspose.Cells for .NET. Toto jednoduché vyladění může znamenat velký rozdíl při procházení velkých sešitů a dává vašim tabulkám uhlazenější a uživatelsky přívětivější vzhled.
 
 ## FAQ
 
@@ -102,7 +102,7 @@ Pokud je šířka nastavena příliš velká, karty se mohou roztáhnout za vidi
 ### Je možné přizpůsobit šířky jednotlivých karet?
 Ne, Aspose.Cells neumožňuje individuální úpravy šířky karet, pouze celkovou šířku lišty karet.
 
-### Jak mohu vrátit zpět změny šířky karty?
+### Jak mohu vrátit změny šířky karty?
  Jednoduše resetujte`workbook.Settings.SheetTabBarWidth` na výchozí hodnotu (která je obvykle kolem 300).
 
 ### Podporuje Aspose.Cells další možnosti přizpůsobení pro karty?

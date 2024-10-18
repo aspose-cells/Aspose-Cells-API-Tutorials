@@ -8,7 +8,7 @@ weight: 10
 url: /pl/java/excel-import-export/bulk-data-import-excel/
 ---
 
-tym kompleksowym przewodniku przeprowadzimy Cię przez proces masowego importu danych z programu Excel przy użyciu potężnego interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy masz do czynienia z dużym zestawem danych, czy po prostu chcesz usprawnić przetwarzanie danych, ten samouczek krok po kroku z przykładami kodu źródłowego pomoże Ci skutecznie osiągnąć Twoje cele.
+tym kompleksowym przewodniku przeprowadzimy Cię przez proces wykonywania masowego importu danych z programu Excel przy użyciu potężnego interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy masz do czynienia z dużym zestawem danych, czy po prostu chcesz usprawnić przetwarzanie danych, ten samouczek krok po kroku z przykładami kodu źródłowego pomoże Ci skutecznie osiągnąć Twoje cele.
 
 ## Wstęp
 
@@ -82,7 +82,7 @@ Aspose.Cells for Java oferuje rozbudowane opcje formatowania i narzędzia do obs
 
 ### 3. Czy Aspose.Cells for Java nadaje się do przetwarzania wsadowego plików Excel?
 
-Tak, Aspose.Cells for Java doskonale nadaje się do przetwarzania wsadowego, ułatwiając automatyzację importu i przetwarzania danych.
+Tak, Aspose.Cells for Java doskonale nadaje się do przetwarzania wsadowego, umożliwiając łatwą automatyzację importu i przetwarzania danych.
 
 ### 4. Czy mogę eksportować dane do programu Excel, korzystając z tej samej biblioteki?
 

@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Questo codice ti darà accesso a classi essenziali come`Workbook`, `Worksheet` , E`Range`, che ti servirà per manipolare i file Excel.
+Questo codice ti darà accesso a classi essenziali come`Workbook`, `Worksheet` E`Range`, che ti servirà per manipolare i file Excel.
 
 Ora che abbiamo chiarito i prerequisiti, scomponiamo il processo in passaggi facili da seguire.
 ## Passaggio 1: imposta la directory di output
@@ -94,7 +94,7 @@ Infine, salva la cartella di lavoro nella directory di output specificata.
 workbook.Save(outputDir + "outputCopyNamedRanges.xlsx");
 ```
 Questa riga salva la cartella di lavoro, incorporando tutte le tue modifiche, in un file denominato "outputCopyNamedRanges.xlsx". È il gran finale dei tuoi sforzi di codifica!
-## Passaggio 11: Conferma esecuzione
+## Passaggio 11: conferma dell'esecuzione
 Puoi inviare un feedback alla console per confermare che tutto sia andato liscio.
 ```csharp
 Console.WriteLine("CopyNamedRanges executed successfully.");

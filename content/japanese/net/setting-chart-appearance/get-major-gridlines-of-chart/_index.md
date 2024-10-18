@@ -15,7 +15,7 @@ url: /ja/net/setting-chart-appearance/get-major-gridlines-of-chart/
 
 チュートリアルに進む前に、すべての準備が整っていることを確認してください。
 
--  Aspose.Cells for .NET: Aspose.Cellsライブラリがダウンロードされ、プロジェクトで参照されていることを確認してください。[ここ](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Aspose.Cellsライブラリがダウンロードされ、プロジェクトで参照されていることを確認してください。[ここ](https://releases.aspose.com/cells/net/).
 - 開発環境: どの .NET 開発環境でも動作しますが、強力なサポートとツールを備えているため、Visual Studio を強くお勧めします。
 - C# の基本的な理解: コードを書くことになるので、C# プログラミングの基礎を理解していると役立ちます。
 
@@ -86,7 +86,7 @@ worksheet.Cells["B3"].PutValue(50);
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-この行は、ワークシート上の指定された位置から始まる縦棒グラフを追加するように Aspose に指示します。これは、絵の具を箱から取り出すようなもので、データをカラフルに視覚化する準備をするようなものです。
+この行は、Aspose にワークシート上の指定された位置から縦棒グラフを追加するように指示します。これは、絵の具を箱から取り出すようなもので、データをカラフルに視覚化する準備をするようなものです。
 
 ## ステップ6: 新しく追加されたチャートにアクセスする
 
@@ -98,7 +98,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
 ここでは、以前に保存したインデックスを使用して、作成したチャートにアクセスしています。 
 
-## ステップ7: グラフにデータ系列を追加する
+## ステップ 7: グラフにデータ系列を追加する
 
 ここで、チャートにデータをどこから取得するかを指定する必要があります。データ シリーズを次のように設定します。
 
@@ -141,7 +141,7 @@ chart.ValueAxis.MajorGridLines.IsVisible = true;
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-この行は、指定されたディレクトリに作品を Excel ファイルとして保存します。これは、自分の作品に対して「保存」をクリックするのと同じで、他の人が鑑賞できるように (または自分で再度鑑賞できるように) 保存されます。
+この行は、指定されたディレクトリに作品を Excel ファイルとして保存します。これは、自分の作品に対して「保存」をクリックするのと同じで、他の人が鑑賞できるように (または自分で再度見ることができるように) 保存されます。
 
 ## 結論
 
@@ -155,7 +155,7 @@ workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 Aspose.Cells for .NET は、Excel スプレッドシートを操作するための強力な API であり、開発者はスプレッドシート ファイルを作成、操作、変換できます。
 
 ### Aspose.Cells の一時ライセンスを取得するにはどうすればよいですか?
-一時ライセンスを取得するには、[このリンク](https://purchase.aspose.com/temporary-license/).
+臨時ライセンスを取得するには、[このリンク](https://purchase.aspose.com/temporary-license/).
 
 ### 色以外にグラフの外観をカスタマイズできますか?
 はい! Aspose.Cells では、グラフ要素のフォント、スタイル、フォーマットなど、幅広いカスタマイズが可能です。

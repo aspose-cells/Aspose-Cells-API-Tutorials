@@ -41,7 +41,7 @@ url: /ar/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 
 ### استيراد مساحة الاسم
 
-أضف التوجيه التالي في أعلى ملف التعليمات البرمجية الخاص بك:
+أضف التوجيه التالي باستخدام في الجزء العلوي من ملف التعليمات البرمجية الخاص بك:
 
 ```csharp
 using System;
@@ -80,7 +80,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
 Worksheet ws = wb.Worksheets[0];
 ```
 
-هنا، نعمل على ورقة العمل الأولى (المؤشر 0). تأكد من أن بياناتك موجودة في الورقة الصحيحة.
+هنا، نعمل على ورقة العمل الأولى (الفهرس 0). تأكد من أن بياناتك موجودة في الورقة الصحيحة.
 
 ## الخطوة 4: تحديد خيارات تصدير الجدول
 

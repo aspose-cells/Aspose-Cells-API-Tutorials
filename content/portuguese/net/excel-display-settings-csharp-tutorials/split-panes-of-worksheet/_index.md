@@ -96,7 +96,7 @@ aí está! Você acabou de aprender como dividir painéis em uma planilha do Exc
  Sim, você pode dividir a planilha em vários painéis especificando diferentes células ativas e chamando o`Split()` método.
 
 ### Qual é a diferença entre dividir painéis e congelá-los?  
-Dividir painéis permite que você role em ambos os painéis independentemente. Congelar painéis bloqueia os cabeçalhos ou linhas/colunas específicas para que fiquem visíveis ao rolar.
+Dividir painéis permite que você role em ambos os painéis independentemente. Congelar painéis bloqueia os cabeçalhos ou linhas/colunas específicas para que eles permaneçam visíveis ao rolar.
 
 ### Posso remover a divisão depois de aplicá-la?  
 Sim, você pode remover a divisão fechando e reabrindo a pasta de trabalho ou redefinindo-a programaticamente.

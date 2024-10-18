@@ -17,7 +17,7 @@ Veri koruma yolculuğumuza başlamadan önce, başlamanız için ihtiyacınız o
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için dostça bir ortamdır.
 2.  Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Eğer henüz yüklemediyseniz, şuradan edinebilirsiniz:[Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/).
-3. Temel C# Bilgisi: C# programlamaya biraz aşina olmak, kodu daha iyi anlamanıza yardımcı olacaktır.
+3. Temel C# Bilgisi: C# programlamaya aşina olmak, kodu daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework: .NET framework'ün kurulu olduğundan emin olun. Bu kütüphane hem .NET Framework hem de .NET Core ile sorunsuz bir şekilde çalışır.
 
 Artık her şeyi hallettiğimize göre, ilerleyelim ve o sütunu korumaya alalım!
@@ -51,7 +51,7 @@ Bu satır programınıza kodunuzda Aspose.Cells özelliklerini kullanacağınız
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Eğer mevcut değilse dizin oluşturun.
+//Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -110,7 +110,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
-Bu döngü her sütundan geçer (0'dan 255'e kadar) ve bunların kilidini açar. Bunu tarlanızı ekime hazırlamak olarak düşünün; toprağı temizlersiniz, böylece daha sonra yalnızca belirli bir ürün gelişebilir.
+Bu döngü her bir sütundan geçer (0'dan 255'e kadar) ve bunların kilidini açar. Bunu tarlanızı ekime hazırlamak olarak düşünün; toprağı temizlersiniz, böylece daha sonra yalnızca belirli bir ürün gelişebilir.
 
 ## Adım 6: İstenilen Sütunu Kilitleyin
 

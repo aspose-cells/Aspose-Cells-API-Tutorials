@@ -129,7 +129,7 @@ Dzięki temu udało Ci się ustawić marginesy w arkuszu kalkulacyjnym Excel prz
 Aspose.Cells to biblioteka .NET umożliwiająca programistom tworzenie, modyfikowanie i konwertowanie plików Excela programowo, bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
-Możesz skorzystać z bezpłatnej wersji próbnej, ale do dłuższego użytkowania lub korzystania z zaawansowanych funkcji potrzebna będzie licencja.
+Możesz skorzystać z bezpłatnej wersji próbnej, jednak do dłuższego użytkowania lub korzystania z zaawansowanych funkcji potrzebna będzie licencja.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
  Możesz zapoznać się z dokumentacją Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).

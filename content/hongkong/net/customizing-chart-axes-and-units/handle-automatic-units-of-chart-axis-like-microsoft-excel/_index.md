@@ -28,7 +28,7 @@ url: /zh-hant/net/customizing-chart-axes-and-units/handle-automatic-units-of-cha
 
 1. 打開視覺工作室。
 2. 按一下“建立新專案”。
-3. 選擇“控制台應用程式（.NET Framework）”，然後按一下“下一步”。
+3. 選擇“控制台應用程式（.NET Framework）”並按一下“下一步”。
 4. 為您的專案命名並點擊“建立”。
 
 ### 加入 Aspose.Cells 參考
@@ -78,7 +78,7 @@ string sourceDir = "Your Document Directory"; //在此指定您的來源目錄
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-到目前為止，您已經輕鬆加載了工作簿！
+到現在為止，您已經輕鬆加載了工作簿！
 
 ## 存取和操作圖表
 
@@ -104,7 +104,7 @@ Chart ch = ws.Charts[0];
 
 在 Excel 中，圖表的關鍵功能之一是處理圖表軸的自動單位，這有助於保持視覺效果乾淨且易於理解。幸運的是，Aspose.Cells 可以讓您輕鬆修改這些屬性。
 
-要操縱軸，您可能需要訪問`Axis`的圖表並設置`MajorUnit`:
+要操縱軸，您可能需要訪問`Axis`的圖表並設置`MajorUnit`：
 
 ```csharp
 //設定Y軸的主要單位

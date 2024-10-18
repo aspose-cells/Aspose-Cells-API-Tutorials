@@ -38,7 +38,7 @@ public class CreateExcelWorkbook {
 ```
 
 ## Stap 2: Excel-gegevens lezen
-Laten we nu eens leren hoe u gegevens uit een bestaande Excel-werkmap kunt lezen:
+Laten we nu eens kijken hoe u gegevens uit een bestaande Excel-werkmap kunt lezen:
 
 ```java
 import com.aspose.cells.*;
@@ -89,7 +89,7 @@ In deze tutorial hebben we de basis van Excel Workbook Automation behandeld met 
 Hier volgen enkele veelgestelde vragen over Excel-werkmapautomatisering:
 
 ### Kan ik Excel-taken in Java automatiseren zonder dat Excel op mijn computer is geïnstalleerd?
-   Ja, dat kan. Met Aspose.Cells voor Java kunt u met Excel-bestanden werken zonder dat u Microsoft Excel hoeft te installeren.
+   Ja, dat kan. Met Aspose.Cells voor Java kunt u met Excel-bestanden werken zonder dat Microsoft Excel geïnstalleerd hoeft te zijn.
 
 ### Hoe kan ik cellen opmaken of stijlen toepassen op Excel-gegevens met Aspose.Cells?
    U kunt verschillende opmaak en stijlen toepassen op cellen met Aspose.Cells. Raadpleeg de API-documentatie voor gedetailleerde voorbeelden.

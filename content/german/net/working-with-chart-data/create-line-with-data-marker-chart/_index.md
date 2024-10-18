@@ -20,7 +20,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie alles bereit haben, um nahtlos 
 3. IDE (Integrated Development Environment) – Visual Studio wird empfohlen.
 4.  Eine gültige Aspose.Cells-Lizenz – Wenn Sie keine haben, können Sie eine anfordern[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/)oder schauen Sie sich ihre[Kostenlose Testversion](https://releases.aspose.com/).
 
-Bereit loszulegen? Dann lass es uns gemeinsam angehen!
+Bereit loszulegen? Dann lass es uns aufschlüsseln!
 
 ## Erforderliche Pakete importieren
 
@@ -151,7 +151,7 @@ Durch die Anpassung der Farben machen Sie das Diagramm nicht nur funktional, son
 
 ## Schritt 7: X- und Y-Werte für jede Serie festlegen
 
-Lassen Sie uns abschließend die X- und Y-Werte für jede unserer Reihen zuweisen.
+Lassen Sie uns abschließend für jede unserer Reihen die X- und Y-Werte zuweisen.
 
 ```csharp
 // Legen Sie die X- und Y-Werte der ersten Reihe fest

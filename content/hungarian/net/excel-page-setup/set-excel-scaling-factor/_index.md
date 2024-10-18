@@ -2,7 +2,7 @@
 title: Állítsa be az Excel méretezési tényezőjét
 linktitle: Állítsa be az Excel méretezési tényezőjét
 second_title: Aspose.Cells for .NET API Reference
-description: Ismerje meg az Excel-fájlok egyszerű kezelését és a méretezési tényező testreszabását az Aspose.Cells for .NET segítségével.
+description: Tanulja meg az Excel-fájlok egyszerű kezelését és a méretezési tényező testreszabását az Aspose.Cells for .NET segítségével.
 type: docs
 weight: 180
 url: /hu/net/excel-page-setup/set-excel-scaling-factor/
@@ -58,14 +58,14 @@ Először is meg kell határoznia, hová szeretné menteni a kimeneti Excel-fáj
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` azzal a tényleges elérési úttal a gépen, ahová az Excel fájlt menteni szeretné.
+Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal a gépen, ahová az Excel fájlt menteni szeretné.
 
 ## 2. lépés: Hozzon létre egy új munkafüzet-objektumot
 
 Most itt az ideje egy új munkafüzet létrehozásának. Lényegében itt fog élni az összes adata és beállítása.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Az Excel fájlok több munkalapot is tartalmazhatnak. A méretezési tényező alkalmazásához elérjük az első munkalapot.
 
 ```csharp
-//Az Excel fájl első munkalapjának elérése
+// Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -122,7 +122,7 @@ Igen! Az Aspose.Cells mind asztali, mind webes alkalmazásokban használható, a
  Teljesen! Ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 
 ### Hol találom az Aspose.Cells dokumentációját?  
- dokumentáció megtalálható[itt](https://reference.aspose.com/cells/net/).
+ A dokumentáció megtalálható[itt](https://reference.aspose.com/cells/net/).
 
 ### Hogyan szerezhetek technikai támogatást az Aspose.Cells-hez?  
- Segítséget a címen kérhet[Aspose fórum](https://forum.aspose.com/c/cells/9).
+ Segítséget a címen keresztül kérhet[Aspose fórum](https://forum.aspose.com/c/cells/9).

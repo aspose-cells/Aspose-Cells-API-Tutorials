@@ -1,6 +1,6 @@
 ---
-title: Určete upozornění na řazení při řazení dat v aplikaci Excel
-linktitle: Určete upozornění na řazení při řazení dat v aplikaci Excel
+title: Při řazení dat v Excelu zadejte upozornění na řazení
+linktitle: Při řazení dat v Excelu zadejte upozornění na řazení
 second_title: Aspose.Cells .NET Excel Processing API
 description: Bez námahy třídit data aplikace Excel pomocí Aspose.Cells pro .NET. Naučte se krok za krokem strategie pro efektivní správu dat Excelu v tomto komplexním kurzu.
 type: docs
@@ -36,7 +36,7 @@ Nyní, když máme vše v pořádku, pojďme si projít proces třídění krok 
 
 ## Krok 1: Nastavte adresář dokumentů
 
- Nejprve musíte zadat cestu k adresáři dokumentů. Tady je vaše`sampleSortAsNumber.xlsx` soubor bude umístěn. Nahradit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor Excel.
+ Nejprve musíte zadat cestu k adresáři dokumentů. Tady je vaše`sampleSortAsNumber.xlsx` soubor bude umístěn. Nahradit`"Your Document Directory"`se skutečnou cestou, kde se nachází váš soubor Excel.
 
 ```csharp
 string dataDir = "Your Document Directory";

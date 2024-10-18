@@ -70,7 +70,7 @@ Först och främst måste vi ställa in sökvägen till vårt Excel-dokument. De
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tips: Byt ut`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen där din Excel-fil (låt oss kalla den`book1.xls`) finns. 
+ Tips: Byt ut`"YOUR DOCUMENT DIRECTORY"`med den faktiska sökvägen där din Excel-fil (låt oss kalla den`book1.xls`) finns. 
 
 ## Steg 2: Instantiera ett arbetsboksobjekt
 
@@ -100,7 +100,7 @@ Det här är den magiska delen!
 worksheet.Unprotect("");
 ```
 
- Om ditt kalkylblad är skyddat med ett lösenord och du känner till lösenordet, skulle du ersätta den tomma strängen`""`med det faktiska lösenordet. Om du inte känner till det, lämna det bara tomt och kör det för att se om det fungerar.
+ Om ditt kalkylblad är skyddat med ett lösenord och du känner till lösenordet, skulle du ersätta den tomma strängen`""` med det faktiska lösenordet. Om du inte känner till det, lämna det bara tomt och kör det för att se om det fungerar.
 
 ## Steg 5: Spara arbetsboken
 

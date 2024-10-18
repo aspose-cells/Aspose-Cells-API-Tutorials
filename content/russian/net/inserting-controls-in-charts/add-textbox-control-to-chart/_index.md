@@ -16,7 +16,7 @@ url: /ru/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 Прежде чем приступить к кодированию, вам следует подготовить несколько вещей:
 
 - Базовое понимание C#: Фундаментальное понимание программирования на C# будет полезным. Не волнуйтесь, вам не нужно быть экспертом, просто удобно ориентироваться в синтаксисе.
--  Установленная библиотека Aspose.Cells: Убедитесь, что у вас установлена библиотека Aspose.Cells for .NET. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/net/) если вы еще этого не сделали.
+- Установленная библиотека Aspose.Cells: Убедитесь, что у вас установлена библиотека Aspose.Cells for .NET. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/net/) если вы еще этого не сделали.
 - Visual Studio: Обязательное знание Visual Studio или любой IDE, которую вы предпочитаете использовать для .NET Framework.
 - Существующий файл Excel: в этом примере мы будем работать с существующим файлом Excel с именем "sampleAddingTextBoxControlInChart.xls". Вы можете создать его или загрузить пример.
 
@@ -24,7 +24,7 @@ url: /ru/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 
 ## Импортные пакеты
 
-Первым делом нам нужно импортировать необходимые пространства имен Aspose.Cells в наш проект C#. Вы можете легко это сделать, включив следующие строки в начало вашего файла кода:
+Первым делом нам нужно импортировать необходимые пространства имен Aspose.Cells в наш проект C#. Вы можете сделать это легко, включив следующие строки в начало вашего файла кода:
 
 ```csharp
 using System;
@@ -83,7 +83,7 @@ Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100
 Как только TextBox будет на месте, пора заполнить его содержимым. Вы можете добавить любой текст, который посчитаете необходимым для своей диаграммы.
 
 ```csharp
-// Введите текст.
+// Заполните текст.
 textbox0.Text = "Sales By Region";
 ```
 Вы можете заменить «Продажи по регионам» любым текстом, соответствующим вашим данным.
@@ -136,7 +136,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 // Сохраните файл Excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Заменять`"outputAddingTextBoxControlInChart.xls"` с любым именем файла, которое вы предпочитаете.
+ Заменять`"outputAddingTextBoxControlInChart.xls"`с любым именем файла, которое вы предпочитаете.
 
 ## Заключение
 

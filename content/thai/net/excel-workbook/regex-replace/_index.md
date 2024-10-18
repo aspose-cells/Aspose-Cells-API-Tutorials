@@ -1,8 +1,8 @@
 ---
 title: แทนที่ Regex
 linktitle: แทนที่ Regex
-second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
-description: เรียนรู้วิธีใช้ regex replace ใน Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ .NET เพิ่มประสิทธิภาพการทำงานและความแม่นยำในงานสเปรดชีตของคุณ
+second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
+description: เรียนรู้วิธีใช้ regex replace ใน Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ .NET เพิ่มประสิทธิภาพและความแม่นยำในงานสเปรดชีตของคุณ
 type: docs
 weight: 140
 url: /th/net/excel-workbook/regex-replace/
@@ -126,10 +126,10 @@ Console.WriteLine("RegexReplace executed successfully.");
 แน่นอน! Aspose.Cells เป็นไลบรารีที่มีประสิทธิภาพซึ่งมีฟังก์ชันมากมายสำหรับการสร้าง แก้ไข และแปลงไฟล์ Excel
 
 ### Aspose.Cells รองรับรูปแบบ Excel ทั้งหมดหรือไม่  
-ใช่ รองรับรูปแบบต่างๆ เช่น XLS, XLSX, CSV และอื่นๆ
+ใช่ รองรับรูปแบบต่างๆ เช่น XLS, XLSX, CSV และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถใช้ regex เพื่อแทนที่คำที่แตกต่างกันหลายคำพร้อมกันได้ไหม  
 ใช่ คุณสามารถสร้างรูปแบบ regex ที่ซับซ้อนยิ่งขึ้นเพื่อจับคู่เงื่อนไขหลายเงื่อนไขพร้อมกันได้
 
-### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.Cells ได้จากที่ไหน  
+### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.Cells ได้จากที่ใด  
  คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/cells/net/).

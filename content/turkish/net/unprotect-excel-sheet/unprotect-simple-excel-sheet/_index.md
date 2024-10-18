@@ -13,7 +13,7 @@ Excel dosyaları, kullanıcıların bilgilerini etkili bir şekilde düzenlemele
 
 ## Ön koşullar
 
-Gerçek koruma kaldırma sürecine dalmadan önce, yerinde olması gereken birkaç şey var:
+Gerçek korumayı kaldırma sürecine dalmadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: .NET geliştirme için Visual Studio'nun yüklü olduğundan emin olun. Bu ortam, Aspose.Cells kütüphaneleriyle sorunsuz bir şekilde çalışmayı kolaylaştırır.
 2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini yüklemeniz gerekecektir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).

@@ -19,7 +19,7 @@ A automação da extração de dados oferece diversas vantagens:
 
 1. Eficiência: Elimine a extração manual de dados, economizando tempo e esforço.
 2. Precisão: reduza o risco de erros na recuperação de dados.
-3. Consistência: mantenha a formatação de dados uniforme em todas as extrações.
+3. Consistência: mantenha a formatação uniforme dos dados em todas as extrações.
 4. Escalabilidade: lide com grandes volumes de dados sem esforço.
 
 ## Começando

@@ -11,7 +11,7 @@ url: /cs/net/excel-working-with-hyperlinks/
 
 Přistihli jste se někdy, že chcete, aby byly vaše excelové tabulky interaktivnější? Ať už se jedná o propojení s externími dokumenty, navigaci mezi listy nebo přidávání adres URL, na které lze kliknout, mohou hypertextové odkazy posunout vaši prezentaci dat na zcela novou úroveň! A s Aspose.Cells pro .NET je tento proces snadný jako facka. Pojďme prozkoumat, jak efektivně používat hypertextové odkazy v excelových sešitech pomocí několika praktických výukových programů.
 
-## Přidat odkaz na externí soubor v Excelu
+## Přidat odkaz na externí soubor v aplikaci Excel
 Představte si, že můžete související dokumenty propojit přímo s vaší tabulkou; je to změna hry! V našem tutoriálu na[přidávání odkazů na externí soubory v Excelu](./add-link-to-external-file/), provedeme vás procesem krok za krokem. Dozvíte se, jak vytvořit hypertextový odkaz, který odkazuje na externí soubor ve vašem počítači nebo síti. To je ideální pro spojení různých zdrojů, aniž byste zaplnili list. Je to jako mít digitální kartotéku na dosah ruky!
 
 ## Přidat odkaz na jinou buňku listu v Excelu
@@ -21,7 +21,7 @@ Představte si, že můžete související dokumenty propojit přímo s vaší t
 Konečně v našem průvodci na[přidání hypertextového odkazu URL v aplikaci Excel](./add-link-to-url/), zjistíte, jak jednoduché je propojit tabulky s webem. Ať už potřebujete odkazovat na webovou stránku pro další informace nebo odkazovat na výukové video, tato funkce vše umožňuje. Představte si přímý odkaz na zdroj, který doplní vaše data – vaši čtenáři vám za to poděkují!
 
 ## Práce s hypertextovými odkazy v Excel tutoriálech
-### [Přidat odkaz na externí soubor v Excelu](./add-link-to-external-file/)
+### [Přidat odkaz na externí soubor v aplikaci Excel](./add-link-to-external-file/)
 Naučte se přidávat externí odkazy na soubory v Excelu pomocí Aspose.Cells for .NET pomocí tohoto podrobného průvodce. Vylepšete své tabulky.
 ### [Přidat odkaz na jinou buňku listu v Excelu](./add-link-to-other-sheet-cell/)
 Naučte se přidávat interní odkazy do buněk v listech aplikace Excel pomocí Aspose.Cells for .NET. Vylepšete navigaci ve svých tabulkách bez námahy.

@@ -85,7 +85,7 @@ Aspose.Cells untuk Java menyediakan berbagai fitur untuk analisis data di Excel.
 Anda dapat menerapkan beberapa kriteria pengurutan dengan menentukan beberapa kolom dalam opsi pengurutan. Misalnya, untuk mengurutkan menurut kolom A dalam urutan menaik dan kemudian menurut kolom B dalam urutan menurun, Anda akan mengubah kode pengurutan seperti ini:
 
 ```java
-// Buat objek opsi penyortiran dengan beberapa kriteria penyortiran
+// Buat objek opsi pengurutan dengan beberapa kriteria pengurutan
 DataSorter sorter = workbook.getDataSorter();
 sorter.sort(worksheet, cellArea, new int[] {0, 1}, new int[] {SortOrder.ASCENDING, SortOrder.DESCENDING});
 ```

@@ -8,7 +8,7 @@ weight: 17
 url: /vi/java/basic-excel-functions/min-function-in-excel-explained/
 ---
 
-## Giới thiệu về hàm MIN trong Excel được giải thích bằng Aspose.Cells cho Java
+## Giới thiệu về hàm MIN trong Excel được giải thích bằng cách sử dụng Aspose.Cells cho Java
 
 Trong thế giới xử lý và phân tích dữ liệu, Excel là một công cụ đáng tin cậy. Nó cung cấp nhiều hàm khác nhau để giúp người dùng thực hiện các phép tính phức tạp một cách dễ dàng. Một trong những hàm đó là hàm MIN, cho phép bạn tìm giá trị nhỏ nhất trong một phạm vi ô. Trong bài viết này, chúng ta sẽ đi sâu vào hàm MIN trong Excel và quan trọng hơn là cách sử dụng hàm này hiệu quả với Aspose.Cells for Java.
 
@@ -66,7 +66,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Bây giờ, giả sử bạn có một dãy số trong các ô từ A1 đến A10 và bạn muốn tìm giá trị nhỏ nhất trong số đó. Bạn có thể sử dụng Aspose.Cells for Java để áp dụng hàm MIN như sau:
 
 ```java
-// Áp dụng hàm MIN vào phạm vi A1:A10 và lưu kết quả vào ô B1
+// Áp dụng hàm MIN cho phạm vi A1:A10 và lưu kết quả vào ô B1
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=MIN(A1:A10)");
 ```

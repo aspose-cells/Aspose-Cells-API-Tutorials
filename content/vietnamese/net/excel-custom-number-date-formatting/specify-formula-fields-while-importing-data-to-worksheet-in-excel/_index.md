@@ -16,7 +16,7 @@ Khi nói đến việc xử lý các tệp Excel theo chương trình, Aspose.Ce
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ mình cần. 
 
 1. Visual Studio hoặc bất kỳ môi trường phát triển tích hợp (IDE) .NET nào: Đảm bảo bạn có IDE phù hợp để viết và chạy mã C#.
-2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[Aspose phát hành](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[Aspose phát hành](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# và các khái niệm lập trình hướng đối tượng sẽ giúp bạn hiểu các ví dụ tốt hơn.
 4. .NET Framework: Hướng dẫn này giả định rằng bạn đang sử dụng .NET Framework 4.5 trở lên.
 
@@ -150,7 +150,7 @@ Hãy đảm bảo tên tệp đầu ra của bạn có liên quan và mô tả r
 
 ## Bước 11: Kiểm tra thực hiện
 
-Một cách đơn giản để xác nhận mọi thứ đã chạy đúng là bạn có thể in một tin nhắn.
+Một cách đơn giản để xác nhận mọi thứ đã chạy đúng, bạn có thể muốn in một tin nhắn.
 
 ```csharp
 Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully.");
@@ -168,7 +168,7 @@ Và bạn đã có nó! Bạn đã nhập dữ liệu thành công vào một b�
 Aspose.Cells là một thư viện .NET được thiết kế để tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?
- Bạn có thể tải nó xuống từ[Aspose phát hành](https://releases.aspose.com/cells/net/)và tham chiếu nó trong dự án của bạn.
+ Bạn có thể tải nó xuống từ[Aspose phát hành](https://releases.aspose.com/cells/net/) và tham chiếu nó trong dự án của bạn.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
  Có, Aspose cung cấp bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells là một thư viện .NET được thiết kế để tạo, thao 
  Các ví dụ và tài liệu bổ sung có thể được tìm thấy tại[Trang tài liệu Aspose](https://reference.aspose.com/cells/net/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose?
- Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
  

@@ -72,7 +72,7 @@ System.out.println("Data from A1: " + data);
 Um Daten aus einem Zellbereich zu extrahieren, verwenden Sie den folgenden Code:
 
 ```java
-// Definieren Sie einen Bereich (z. B. A1:B10)
+// Definieren Sie einen Bereich (z. B. A1:B10).
 CellArea cellArea = new CellArea();
 cellArea.StartRow = 0;
 cellArea.StartColumn = 0;

@@ -52,7 +52,7 @@ Excel 워크시트에서 특정 셀을 보호하는 방법을 보여주는 코�
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // 여기에 디렉토리 경로를 지정하세요
-// 디렉토리가 없으면 새로 만듭니다.
+//디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -72,7 +72,7 @@ Workbook wb = new Workbook();
 
 ## 3단계: 첫 번째 워크시트 액세스
 
-대부분의 경우 통합 문서의 첫 번째 시트에서 작업하게 됩니다.
+대부분의 경우, 통합 문서의 첫 번째 시트에서 작업하게 됩니다.
 
 ```csharp
 Worksheet sheet = wb.Worksheets[0]; // 첫 번째 워크시트에 접근하기
@@ -95,7 +95,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
-이 루프는 가능한 모든 열(최대 256개)을 실행하고 스타일을 잠금 해제하도록 설정합니다. 어떤 면에서는 "이봐, 너희 모두는 편집할 자유가 있어!"라고 말하는 셈입니다.
+이 루프는 가능한 모든 열(최대 256개)을 실행하고 스타일을 잠금 해제하도록 설정합니다. 어떤 의미에서, "이봐, 너희 모두는 편집할 자유가 있어!"라고 말하는 것입니다.
 
 ## 5단계: 특정 셀 잠금
 
@@ -153,7 +153,7 @@ Aspose.Cells는 .NET 언어를 사용하여 다양한 형식의 Excel 파일을 
  Aspose.Cells는 무료 체험판을 제공하지만 계속 사용하려면 라이선스가 필요합니다. 임시 라이선스를 받을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### 해당 문서는 어디서 찾을 수 있나요?
-문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
+ 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/cells/net/).
 
 ### Excel 파일은 어떤 파일 형식으로 저장할 수 있나요?
 Aspose.Cells는 XLSX, XLS, CSV 등 다양한 형식을 지원합니다.

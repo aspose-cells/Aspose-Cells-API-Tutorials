@@ -24,7 +24,7 @@ Une fois ces conditions préalables réglées, vous êtes prêt à créer des gr
 
 ## Paquets d'importation
 
-Maintenant que nous avons configuré notre environnement, nous devons importer les packages nécessaires dans notre code C#. Tout comme vous rassemblez vos outils avant de démarrer un projet, l'importation de packages est essentielle pour vous assurer de disposer de tout ce dont vous avez besoin.
+Maintenant que nous avons configuré notre environnement, nous devons importer les packages nécessaires dans notre code C#. Tout comme vous rassemblez vos outils avant de démarrer un projet, l'importation de packages est essentielle pour vous assurer d'avoir tout ce dont vous avez besoin.
 
 Voici comment procéder :
 
@@ -57,14 +57,14 @@ string outputDir = "Your Output Directory";
 Ensuite, nous devons créer une nouvelle instance de classeur. Considérez le classeur comme la toile sur laquelle votre créativité va s'exprimer. 
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 Cette ligne initialise un nouveau classeur qui contiendra toutes vos données et visuels.
 
 ## Étape 3 : Accéder à la feuille de travail
 
-Dans notre classeur nouvellement créé, nous devons obtenir une référence à la feuille de calcul dans laquelle nous allons saisir nos données. Si le classeur est notre canevas, alors la feuille de calcul est notre palette.
+Dans notre classeur nouvellement créé, nous devons obtenir une référence à la feuille de calcul dans laquelle nous allons saisir nos données. Si le classeur est notre toile, alors la feuille de calcul est notre palette.
 
 ```csharp
 // Obtention de la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille

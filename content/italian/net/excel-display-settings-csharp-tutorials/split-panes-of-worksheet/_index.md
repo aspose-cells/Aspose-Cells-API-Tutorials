@@ -13,7 +13,7 @@ Siete pronti a dividere i riquadri di un foglio di lavoro Excel usando Aspose.Ce
 
 ## Prerequisiti
 
-Prima di iniziare a dividere i riquadri come un mago dei fogli di calcolo, impostiamo correttamente la configurazione. Ecco cosa ti servirà:
+Prima di iniziare a dividere i riquadri come un mago dei fogli di calcolo, impostiamo correttamente la nostra configurazione. Ecco cosa ti servirà:
 
 -  Aspose.Cells per .NET: assicurati di averlo scaricato e installato. Se non l'hai ancora fatto, prendilo[Qui](https://releases.aspose.com/cells/net/).
 - .NET Framework: questa guida presuppone che si stia lavorando in un ambiente .NET.
@@ -29,7 +29,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ora che abbiamo affrontato le nozioni fondamentali, passiamo alla parte emozionante: dividere i vetri!
+Ora che abbiamo affrontato le nozioni fondamentali, passiamo alla parte più interessante: la divisione dei vetri!
 
 ## Passaggio 1: creare un'istanza di una cartella di lavoro
 

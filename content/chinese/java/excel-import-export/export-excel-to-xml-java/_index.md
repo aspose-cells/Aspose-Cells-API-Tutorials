@@ -63,7 +63,7 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("output.xml")) {
 }
 ```
 
-## 步骤 6：完整代码示例
+## 步骤 6：完成代码示例
 
 以下是使用 Aspose.Cells 在 Java 中将 Excel 导出为 XML 的完整代码示例：
 

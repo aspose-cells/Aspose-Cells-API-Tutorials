@@ -9,14 +9,14 @@ url: /sv/net/inserting-controls-in-charts/add-picture-to-chart/
 ---
 ## Introduktion
 
-Är du trött på tråkiga listor som saknar en personlig touch? Vill du lära dig hur du piffar upp dina Excel-bilder genom att lägga till bilder? Nåväl, du har tur! I den här handledningen kommer vi att dyka in i Aspose.Cells-världen för .NET och lära oss hur man lägger till bilder i diagram i Excel. Så ta din favoritkopp kaffe och låt oss börja!
+Är du trött på tråkiga listor som saknar en personlig touch? Vill du lära dig hur du piffar upp dina Excel-bilder genom att lägga till bilder? Nåväl, du har tur! I den här handledningen kommer vi att dyka in i Aspose.Cells-världen för .NET och lära oss hur du lägger till bilder i diagram i Excel. Så ta din favoritkopp kaffe och låt oss börja!
 
 ## Förutsättningar
 
 Innan vi hoppar in i det snälla med kodning, finns det några förutsättningar du måste ha för att följa smidigt:
 
 - Visual Studio: Det är här du kommer att skriva och köra din .NET-kod. Se till att du har den installerad.
--  Aspose.Cells för .NET: Du behöver det här biblioteket för att arbeta med Excel-filer. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
+- Aspose.Cells för .NET: Du behöver det här biblioteket för att arbeta med Excel-filer. Du kan[ladda ner den här](https://releases.aspose.com/cells/net/).
 - Grundläggande förståelse för C#: Även om jag ska guida dig genom koden, kommer det att göra saker tydligare om du har grepp om C#s grunder.
 
 ### Installationssteg
@@ -84,7 +84,7 @@ Se till att du har bilden sparad i den angivna katalogen.
 Låt oss nu specificera vilket diagram vi ska lägga till vår bild på. I det här exemplet riktar vi oss mot det första diagrammet i det första kalkylbladet.
 
 ```csharp
-// Få designerdiagrammet i det andra bladet.
+//Få designerdiagrammet i det andra bladet.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -151,7 +151,7 @@ I den här handledningen har vi utforskat hur du kan injicera lite personlighet 
 Aspose.Cells stöder en mängd olika bildformat, inklusive PNG, JPEG, BMP och GIF.
 
 ### Kan jag anpassa bildens position?
-Säkert! X- och Y-koordinaterna i`AddPictureInChart` metod möjliggör exakt positionering.
+ Säkert! X- och Y-koordinaterna i`AddPictureInChart` metod möjliggör exakt positionering.
 
 ### Är Aspose.Cells gratis att använda?
  Aspose.Cells erbjuder en gratis provperiod, men för alla funktioner krävs en licens. Du kan hitta priset[här](https://purchase.aspose.com/buy).

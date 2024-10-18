@@ -11,7 +11,7 @@ url: /tr/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-sp
 
 Excel dosyalarıyla programatik olarak çalışmak bazen aynı anda binlerce şeyi birden idare etmek gibi hissettirebilir, değil mi? Peki, bir Excel elektronik tablosunda sekme çubuğu genişliğini kontrol etmeniz gerektiyse, doğru yerdesiniz! .NET için Aspose.Cells'i kullanarak, sayfa sekme çubuğu genişliğini ayarlamak, elektronik tablonuzu daha özelleştirilmiş ve kullanıcı dostu hale getirmek gibi çeşitli Excel dosya ayarlarını kolayca değiştirebilirsiniz. Bugün, bunu nasıl yapabileceğinizi açık ve kolay takip edilebilir adımlarla açıklayacağız.
 
-Bu eğitimde, .NET için Aspose.Cells kullanarak sekme çubuğu genişliğini kontrol etmek için bilmeniz gereken her şeyi ele alacağız; ön koşullardan ayrıntılı adım adım kılavuza kadar. Sonunda, Excel ayarlarını bir profesyonel gibi değiştiriyor olacaksınız. Hazır mısınız? Hadi başlayalım!
+Bu eğitimde, .NET için Aspose.Cells'i kullanarak sekme çubuğu genişliğini kontrol etmek için bilmeniz gereken her şeyi ele alacağız; ön koşullardan ayrıntılı adım adım kılavuza kadar. Sonunda, Excel ayarlarını bir profesyonel gibi değiştiriyor olacaksınız. Hazır mısınız? Hadi başlayalım!
 
 ## Ön koşullar
 

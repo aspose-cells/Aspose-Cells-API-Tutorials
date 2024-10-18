@@ -15,8 +15,8 @@ Cuando se trabaja con archivos de Excel en .NET, una de las bibliotecas más pot
 
 Antes de sumergirnos en los detalles del código, asegurémonos de que tienes todo lo que necesitas para comenzar:
 
-1. Visual Studio: Debes tener Visual Studio instalado en tu equipo. Si aún no lo tienes, puedes descargarlo desde el sitio[Sitio web de Microsoft](https://visualstudio.microsoft.com/).
-2.  Biblioteca Aspose.Cells: esta guía asume que tienes la biblioteca Aspose.Cells. Puedes descargarla fácilmente desde[Página de lanzamiento de Aspose](https://releases.aspose.com/cells/net/) Si no está seguro de por dónde empezar,[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) ¡Puede ser tu mejor amigo!
+1.  Visual Studio: Debes tener Visual Studio instalado en tu equipo. Si aún no lo tienes, puedes descargarlo desde el sitio[Sitio web de Microsoft](https://visualstudio.microsoft.com/).
+2.  Biblioteca Aspose.Cells: esta guía asume que tienes la biblioteca Aspose.Cells. Puedes descargarla fácilmente desde[Página de lanzamiento de Aspose](https://releases.aspose.com/cells/net/)Si no está seguro de por dónde empezar,[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) ¡Puede ser tu mejor amigo!
 3. Conocimientos básicos de C#: la familiaridad con el lenguaje de programación C# le ayudará a comprender los ejemplos y seguirlos sin problemas.
 4.  Archivo de Excel: asegúrese de tener un archivo de Excel que contenga gráficos para este tutorial. Puede crear un archivo de Excel de muestra llamado`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` para fines de prueba.
 5. Entorno .NET: comprueba que tu entorno .NET esté configurado correctamente. Este tutorial está orientado al marco .NET, así que asegúrate de que todo esté en orden.
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- El`Workbook`La clase es la puerta de acceso al archivo de Excel. Al proporcionar la ruta completa, creamos una nueva instancia de libro de trabajo que contiene nuestros datos de Excel.
+ El`Workbook` La clase es la puerta de acceso al archivo de Excel. Al proporcionar la ruta completa, creamos una nueva instancia de libro de trabajo que contiene nuestros datos de Excel.
 
 ## Paso 3: Acceda a la primera hoja de trabajo
 
@@ -98,7 +98,7 @@ Ahora, leamos las etiquetas de los ejes del eje de categorías.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Aquí, extraemos las etiquetas del eje de categorías y las almacenamos en un`ArrayList`Esta lista es vital para iterar y mostrar sus etiquetas.
+ Aquí, extraemos las etiquetas del eje de categorías y las almacenamos en un`ArrayList`Esta lista es vital para iterar y mostrar sus etiquetas.
 
 ## Paso 7: Imprima las etiquetas de los ejes en la consola
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Este fragmento primero genera un título y una línea separadora. Luego, recorremos cada etiqueta en el`lstLabels` ArrayList e imprímelo en la consola. Si hay diez etiquetas, ¡verás cada una de ellas allí mismo!
+Este fragmento primero genera un título y una línea separadora. Luego, recorremos cada etiqueta en el`lstLabels` ArrayList e imprímelo en la consola. Si hay diez etiquetas, ¡verás cada una de ellas allí mismo!
 
 ## Paso 8: Mensaje final
 
@@ -127,7 +127,7 @@ Console.WriteLine("ReadAxisLabelsAfterCalculatingTheChart executed successfully.
 
 ## Conclusión
 
-ahí lo tienes: una guía completa sobre cómo leer las etiquetas de los ejes de categorías de un gráfico en un archivo de Excel utilizando la biblioteca Aspose.Cells para .NET. Bastante sencillo, ¿verdad? Con solo unas pocas líneas de código, puedes extraer información importante de tus hojas de cálculo e integrarla en tus aplicaciones sin problemas.
+Y ahí lo tienes: una guía completa sobre cómo leer las etiquetas de los ejes de categorías de un gráfico en un archivo de Excel utilizando la biblioteca Aspose.Cells para .NET. Bastante sencillo, ¿verdad? Con solo unas pocas líneas de código, puedes extraer información importante de tus hojas de cálculo e integrarla en tus aplicaciones sin problemas.
 
 ## Preguntas frecuentes
 
@@ -141,7 +141,7 @@ Aspose.Cells es una potente biblioteca para manipular archivos de Excel en .NET.
  Puede comprar una licencia para Aspose.Cells a través de su[Página de compra](https://purchase.aspose.com/buy).
 
 ### ¿Dónde puedo encontrar soporte para Aspose.Cells?
- Puede visitar el foro de Aspose para obtener ayuda.[aquí](https://forum.aspose.com/c/cells/9).
+Puede visitar el foro de Aspose para obtener ayuda.[aquí](https://forum.aspose.com/c/cells/9).
 
 ### ¿Puedo obtener una licencia temporal?
  ¡Sí! Aspose ofrece una licencia temporal que puedes solicitar a[Este enlace](https://purchase.aspose.com/temporary-license/).

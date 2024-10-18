@@ -17,7 +17,7 @@ url: /ko/net/excel-copy-worksheet/
 
 ## Excel 관리를 간소화하세요
 
-계속해서, 여러 워크시트를 복사하는 것과 같은 더 복잡한 요구 사항을 충족하는 방법에 대한 지침을 제공합니다. 여러 워크북을 동시에 관리해야 했던 적이 있다면 이것이 얼마나 지루한지 알 것입니다. 다행히도,[워크북 간 Excel 복사 워크시트](./excel-copy-worksheets-between-workbooks/) 스프레드시트 관리를 간소화하는 방법을 보여줍니다. 따라하기 쉬운 예를 통해 이러한 작업을 워크플로우를 통해 쉽게 수행할 수 있는 팁과 요령을 알아볼 수 있습니다.
+ 계속해서, 여러 워크시트를 복사하는 것과 같은 더 복잡한 요구 사항을 충족하는 방법에 대한 지침을 제공합니다. 여러 워크북을 동시에 관리해야 했던 적이 있다면 이것이 얼마나 지루한지 알 것입니다. 다행히도,[Excel에서 워크북 간 워크시트 복사](./excel-copy-worksheets-between-workbooks/)스프레드시트 관리를 간소화하는 방법을 보여줍니다. 따라하기 쉬운 예를 통해 이러한 작업을 워크플로우를 통해 쉽게 수행할 수 있는 팁과 요령을 알아볼 수 있습니다.
 
 ## 워크시트 이동 마스터링
 
@@ -31,6 +31,6 @@ Aspose.Cells for .NET은 스프레드시트 복사를 포함하여 Excel 파일�
 | 제목 | 설명 |
 | --- | --- |
 | [다른 통합 문서에서 Excel 복사 워크시트](./excel-copy-worksheet-from-other-workbook/) | 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 한 Excel 통합 문서에서 다른 통합 문서로 워크시트를 복사하는 방법을 알아보세요. |  
-| [Excel 복사 워크시트](./excel-copy-worksheet/) | 이 쉬운 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 워크시트를 복사하는 방법을 알아보세요. Excel 작업을 자동화하려는 .NET 개발자에게 이상적입니다. |  
-| [워크북 간 Excel 복사 워크시트](./excel-copy-worksheets-between-workbooks/) | Aspose.Cells for .NET을 사용하여 Excel 워크북 간에 워크시트를 복사하는 방법을 알아보세요. 스프레드시트 관리를 간소화하기 위한 코드 예제가 포함된 단계별 가이드입니다. |  
+| [Excel 복사 워크시트](./excel-copy-worksheet/) | 이 쉽게 따라할 수 있는 단계별 가이드로 Aspose.Cells for .NET을 사용하여 Excel 워크시트를 복사하는 방법을 알아보세요. Excel 작업을 자동화하려는 .NET 개발자에게 이상적입니다. |  
+| [Excel에서 워크북 간 워크시트 복사](./excel-copy-worksheets-between-workbooks/) | Aspose.Cells for .NET을 사용하여 Excel 워크북 간에 워크시트를 복사하는 방법을 알아보세요. 스프레드시트 관리를 간소화하기 위한 코드 예제가 포함된 단계별 가이드입니다. |  
 | [Excel 이동 워크시트](./excel-move-worksheet/) | 단계별 가이드에서 Aspose.Cells for .NET을 사용하여 Excel에서 워크시트를 이동하는 방법을 알아보세요. Excel 프로그래밍의 기술을 마스터하세요. |  

@@ -116,4 +116,4 @@ Aspose.Cells for Java 支持多种图表类型，包括条形图、折线图、�
 
 ### 在哪里可以找到更多资源和文档？
 
-欲获取全面的文档和示例，请访问 Aspose.Cells for Java 文档[这里](https://reference.aspose.com/cells/java/).
+欲获取全面的文档和示例，请访问 Aspose.Cells for Java 文档：[这里](https://reference.aspose.com/cells/java/).

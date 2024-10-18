@@ -27,7 +27,7 @@ Eğitim, sizi her adımda yönlendirmek için tasarlanmış olsa da, C# hakkınd
 
 Projenizde .NET için Aspose.Cells kütüphanesinin yüklü olması gerekir. Bunu NuGet Paket Yöneticisi aracılığıyla kolayca ekleyebilirsiniz. 
 
-Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+İşte bunu nasıl yapacağınız:
 
 1. Projenizi Visual Studio’da açın.
 2. "Araçlar" > "NuGet Paket Yöneticisi" > "Çözüm için NuGet Paketlerini Yönet" seçeneğine gidin.
@@ -52,7 +52,7 @@ Paketleri içeri aktardıktan sonra artık ilerlemeye hazırız.
 
 ## Adım 1: Kaynak ve Çıktı Dizinlerini Tanımlayın 
 
-İlk adım, giriş dosyanızın nerede bulunduğunu ve çıktının (sıralanmış dosya) nerede kaydedilmesini istediğinizi tanımlamaktır. İki yol belirtmeniz gerekir: biri kaynak Excel dosyası için ve diğeri sıralandıktan sonra çıktının kaydedilmesi için.
+İlk adım, giriş dosyanızın nerede bulunduğunu ve çıktının (sıralanmış dosya) nerede kaydedilmesini istediğinizi tanımlamaktır. İki yol belirtmeniz gerekir: biri kaynak Excel dosyası için ve diğeri de sıralandıktan sonra çıktının kaydedilmesi için.
 
 ```csharp
 string sourceDir = "Your Document Directory\\";
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Adım 2: Kaynak Excel Dosyasını Yükleyin
 
- Sonra, sıralamak istediğiniz verileri içeren Excel dosyasını yükleyeceğiz. Bu, bir örneğin oluşturulmasıyla yapılır`Workbook` sınıf ve kaynak dosyanızın yolunu geçiriyoruz.
+Sonra, sıralamak istediğiniz verileri içeren Excel dosyasını yükleyeceğiz. Bu, bir örneğin oluşturulmasıyla yapılır`Workbook` sınıf ve kaynak dosyanızın yolunu geçiriyoruz.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -134,5 +134,5 @@ Yararlı olsa da, bu eğitimi takip edebilir ve ilerledikçe öğrenebilirsiniz!
 ### Aspose.Cells için geçici lisans kullanmak mümkün müdür?
 Kesinlikle! Kütüphanenin tüm özelliklerini kısıtlama olmadan test etmek istiyorsanız geçici bir lisans satın alabilirsiniz.
 
-### Aspose.Cells için örnek veya dokümanları indirebilir miyim?
+### Aspose.Cells için örnekleri veya dokümanları indirebilir miyim?
  Evet! Aspose, size büyük ölçüde yardımcı olabilecek kapsamlı belgeler ve örnek projeler sunar. Şuraya göz atın:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).

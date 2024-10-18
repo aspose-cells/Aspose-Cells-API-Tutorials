@@ -2,7 +2,7 @@
 title: Upravit výsečový graf
 linktitle: Upravit výsečový graf
 second_title: Aspose.Cells .NET Excel Processing API
-description: Odemkněte sílu Aspose.Cells pro .NET a bez námahy upravujte své výsečové grafy Excel. Postupujte podle tohoto návodu, kde najdete pokyny krok za krokem.
+description: Odemkněte sílu Aspose.Cells pro .NET a bez námahy upravujte své výsečové grafy Excel. Postupujte podle tohoto návodu, kde najdete podrobné pokyny.
 type: docs
 weight: 16
 url: /cs/net/manipulating-chart-types/modify-pie-chart/
@@ -18,7 +18,7 @@ Než se vrhneme na to, co je při úpravách koláčových grafů složité, mě
 - Základní znalost C#: Základní znalost programování v C# vám pomůže snadno sledovat.
 - Aspose.Cells for .NET: Budete muset mít nainstalovanou knihovnu Aspose.Cells. Ať už se rozhodnete používat plnou verzi nebo se rozhodnete pro bezplatnou zkušební verzi, ujistěte se, že je připravena k použití.
 - Visual Studio nebo libovolné C# IDE: Pro psaní a spouštění kódu C# budete potřebovat prostředí.
--  Ukázkový soubor aplikace Excel: Pro tento výukový program je ukázkový soubor aplikace Excel s názvem`sampleModifyPieChart.xlsx` budou použity.
+-  Ukázkový soubor aplikace Excel: Pro tento výukový program je ukázkový soubor aplikace Excel s názvem`sampleModifyPieChart.xlsx` bude použito.
 
  Můžete si stáhnout knihovnu Aspose.Cells[zde](https://releases.aspose.com/cells/net/).
 
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Nyní se pojďme ponořit do konkrétního listu, který obsahuje výsečový graf. Budeme předpokládat, že výsečový graf je na druhém listu (index 1):
 
 ```csharp
-// Získejte graf návrháře na druhém listu.
+//Získejte graf návrháře na druhém listu.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
@@ -174,4 +174,4 @@ Ano! Aspose nabízí bezplatnou zkušební verzi, která vám umožní otestovat
 Podporu můžete najít na fórech Aspose, kde vám mohou pomoci členové komunity a zaměstnanci Aspose.
 
 ### Musím mít nainstalovaný Microsoft Excel, abych mohl používat Aspose.Cells?  
-Ne, Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel. Nepotřebujete jej nainstalovaný ve vašem systému.
+Ne, Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel. Nemusíte jej mít nainstalovaný v systému.

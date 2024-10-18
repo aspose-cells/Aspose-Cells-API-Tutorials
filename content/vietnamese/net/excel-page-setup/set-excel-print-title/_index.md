@@ -115,7 +115,7 @@ Và như vậy, tiêu đề bản in của bạn đã được thiết lập và
 
 ## Phần kết luận
 
-Thiết lập tiêu đề in trong Excel bằng Aspose.Cells cho .NET là một quy trình đơn giản có thể cải thiện đáng kể khả năng đọc của các tài liệu in của bạn. Bằng cách làm theo các bước được nêu trong bài viết này, giờ đây bạn đã có kỹ năng để giữ cho các hàng và cột tiêu đề quan trọng đó hiển thị trong suốt báo cáo của mình. Điều này không chỉ nâng cao khả năng trình bày chuyên nghiệp mà còn tiết kiệm thời gian trong quá trình xem xét!
+Thiết lập tiêu đề in trong Excel bằng Aspose.Cells cho .NET là một quy trình đơn giản có thể cải thiện đáng kể khả năng đọc của các tài liệu in của bạn. Bằng cách làm theo các bước được nêu trong bài viết này, giờ đây bạn đã có kỹ năng để giữ cho các hàng và cột tiêu đề quan trọng đó hiển thị trong toàn bộ báo cáo của mình. Điều này không chỉ nâng cao khả năng trình bày chuyên nghiệp mà còn tiết kiệm thời gian trong quá trình xem xét!
 
 ## Câu hỏi thường gặp
 

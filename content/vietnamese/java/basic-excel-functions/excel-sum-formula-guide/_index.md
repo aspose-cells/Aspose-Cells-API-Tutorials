@@ -135,7 +135,7 @@ Aspose.Cells cung cấp hỗ trợ mạnh mẽ cho các công thức Excel, bao 
 
 ### Tôi có thể tự động hóa các hàm Excel khác bằng Aspose.Cells không?
 
-Hoàn toàn đúng! Aspose.Cells for Java hỗ trợ nhiều hàm Excel, khiến nó trở thành công cụ đa năng để tự động hóa nhiều tác vụ khác nhau, bao gồm tính toán, trích xuất dữ liệu và định dạng.
+Hoàn toàn có thể! Aspose.Cells for Java hỗ trợ nhiều hàm Excel, khiến nó trở thành công cụ đa năng để tự động hóa nhiều tác vụ khác nhau, bao gồm tính toán, trích xuất dữ liệu và định dạng.
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
 

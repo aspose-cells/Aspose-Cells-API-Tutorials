@@ -13,10 +13,10 @@ url: /tr/net/excel-workbook/access-web-extension-information/
 
 ## Ön koşullar 
 
-Kollarımızı sıvayıp başlamadan önce, ayarlamanız gereken birkaç şey var. Her şeyin sorunsuz bir şekilde yürümesini sağlamak için bir kontrol listesi:
+Kolları sıvayıp başlamadan önce, ayarlamanız gereken birkaç şey var. Her şeyin sorunsuz bir şekilde yürümesini sağlamak için bir kontrol listesi:
 
 1. .NET Ortamı: Makinenizde bir .NET ortamının kurulu olduğundan emin olun. Bu genellikle Visual Studio veya başka bir uyumlu IDE'nin kurulu olması anlamına gelir.
-2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Terlemeyin; kolayca yapabilirsiniz[en son sürümü buradan indirin](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu dert etmeyin; kolayca yapabilirsiniz[en son sürümü buradan indirin](https://releases.aspose.com/cells/net/).
 3.  Örnek Excel Dosyası: Bu eğitim için, bir örnek Excel dosyanız olduğundan emin olun (örneğin`WebExtensionsSample.xlsx`) erişilebilir. İçerisinde web uzantıları olan bir tane oluşturabilir veya gerekirse bir tane indirebilirsiniz. 
 4. Temel C# Bilgisi: C# programlamanın temellerini anlamak bu eğitimde gezinmeyi çok daha kolay hale getirecektir.
 5. NuGet Paket Yöneticisi: NuGet'e aşinalık, projeniz içerisinde Aspose.Cells'i sorunsuz bir şekilde yönetmenize yardımcı olabilir.
@@ -26,7 +26,7 @@ Kollarımızı sıvayıp başlamadan önce, ayarlamanız gereken birkaç şey va
 Artık her şeyi ayarladığımıza göre, gerekli paketleri getirmenin zamanı geldi. Bunu projenizde nasıl yapabileceğinizi burada bulabilirsiniz:
 
 1. Projenizi Açın: Visual Studio IDE'nizi başlatın ve Aspose.Cells'i kullanmak istediğiniz projeyi açın.
-2.  NuGet Paketi Ekle: Şuraya git`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution` . Ara`Aspose.Cells` ve kurun.
+2.  NuGet Paketi Ekle: Git`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution` . Ara`Aspose.Cells` ve kurun.
 3. Kullanım Yönergesi: Aspose.Cells ad alanlarına erişmek için C# dosyanızın en üstüne aşağıdaki kullanım yönergesini ekleyin:
 
 ```csharp
@@ -42,7 +42,7 @@ Excel dosyanızın depolandığı kaynak dizini tanımlayarak başlayın. Bu, pr
 string sourceDir = "Your Document Directory";
 ```
 
-## Adım 2: Excel Çalışma Kitabını Yükleyin
+## Adım 2: Excel Çalışma Kitabını yükleyin
 
 Sonra, Excel çalışma kitabınızı yüklemek isteyeceksiniz. Bu adım, herhangi bir Web Uzantısına erişim de dahil olmak üzere çalışma kitabının içeriğini düzenlemenize olanak tanır.
 

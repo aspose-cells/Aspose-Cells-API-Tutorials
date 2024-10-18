@@ -42,7 +42,7 @@ Aspose.Cells for Java 是一个功能强大的 Java 库，可帮助开发人员�
 
 ### 步骤 1：设置开发环境
 
-在开始使用 Aspose.Cells for Java 之前，您需要设置开发环境。确保您已安装 Java 并从网站下载 Aspose.Cells for Java 库。
+在开始使用 Aspose.Cells for Java 之前，您需要设置开发环境。请确保已安装 Java 并从网站下载 Aspose.Cells for Java 库。
 
 ### 步骤 2：创建新的 Excel 工作簿
 
@@ -97,7 +97,7 @@ cell.addValidation(validation);
 
 ### 步骤 6：保存 Excel 文件
 
-最后，保存应用数据验证规则的 Excel 文件：
+最后，保存应用了数据验证规则的 Excel 文件：
 
 ```java
 workbook.save("validated_data.xlsx");
@@ -113,7 +113,7 @@ workbook.save("validated_data.xlsx");
 
 安装 Aspose.Cells for Java 非常简单。您可以从 Aspose 网站下载该库，然后按照文档中提供的安装说明进行操作。
 
-### 我可以同时对多个单元格应用数据验证吗？
+### 我可以一次对多个单元格应用数据验证吗？
 
 是的，您可以通过遍历单元格并根据需要应用验证规则将数据验证应用于工作表中的多个单元格。
 

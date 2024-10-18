@@ -80,7 +80,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
             // กรอกเมืองลงในดรอปดาวน์ตามประเทศที่เลือก
             switch (selectedCountry) {
                 case "USA":
-                    validation.setFormula1("Cities!$A$2:$A$4"); // ประชากรในเมืองต่างๆ ของสหรัฐอเมริกา
+                    validation.setFormula1("Cities!$A$2:$A$4"); // เติมชีวิตชีวาให้กับเมืองต่างๆ ในสหรัฐอเมริกา
                     break;
                 case "Canada":
                     validation.setFormula1("Cities!$B$2:$B$4"); // ประชากรในเมืองต่างๆ ของแคนาดา
@@ -88,7 +88,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
                 case "UK":
                     validation.setFormula1("Cities!$C$2:$C$4"); // ประชากรในเมืองต่างๆ ในสหราชอาณาจักร
                     break;
-                // เพิ่มกรณีสำหรับประเทศอื่นๆ
+                // เพิ่มกรณีสำหรับประเทศอื่น ๆ
             }
         }
     }
@@ -111,7 +111,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ### Aspose.Cells สำหรับ Java เหมาะกับโปรเจ็กต์ขนาดเล็กและขนาดใหญ่หรือไม่
 
-ใช่ Aspose.Cells สำหรับ Java มีความยืดหยุ่นและสามารถนำไปใช้กับโปรเจ็กต์ทุกขนาดได้ ไม่ว่าคุณจะทำงานกับโปรแกรมขนาดเล็กหรือแอปพลิเคชันระดับองค์กรที่ซับซ้อน Aspose.Cells สำหรับ Java จะช่วยเพิ่มประสิทธิภาพงานที่เกี่ยวข้องกับ Excel ของคุณได้
+ใช่ Aspose.Cells สำหรับ Java มีความยืดหยุ่นและสามารถนำไปใช้กับโปรเจ็กต์ทุกขนาดได้ ไม่ว่าคุณจะทำงานกับยูทิลิตี้ขนาดเล็กหรือแอปพลิเคชันระดับองค์กรที่ซับซ้อน Aspose.Cells สำหรับ Java จะช่วยเพิ่มประสิทธิภาพงานที่เกี่ยวข้องกับ Excel ของคุณได้
 
 ### ฉันจำเป็นต้องมีทักษะการเขียนโปรแกรมขั้นสูงในการนำ Cascading Dropdown มาใช้กับ Aspose.Cells สำหรับ Java หรือไม่
 

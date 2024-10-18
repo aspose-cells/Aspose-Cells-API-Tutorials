@@ -17,15 +17,15 @@ Zanim zagłębisz się w kod, upewnij się, że wszystko jest skonfigurowane, ab
 
 1. Visual Studio: Pobierz i zainstaluj Visual Studio, jeśli jeszcze tego nie zrobiłeś. To idealne środowisko do tworzenia aplikacji .NET.
 2.  Aspose.Cells dla .NET: Musisz dodać bibliotekę Aspose.Cells do swojego projektu. Możesz ją pobrać za pośrednictwem[ten link](https://releases.aspose.com/cells/net/).
-3. Podstawowa wiedza o języku C#: Chociaż wszystko wyjaśnimy krok po kroku, podstawowa znajomość programowania w języku C# pozwoli Ci lepiej zrozumieć te koncepcje.
+3. Podstawowa znajomość języka C#: Chociaż wszystko wyjaśnimy krok po kroku, podstawowa znajomość programowania w języku C# pozwoli Ci lepiej zrozumieć te koncepcje.
 4. .NET Framework: Upewnij się, że masz zainstalowaną niezbędną wersję .NET Framework zgodną z Aspose.Cells.
-5. Biblioteki: Aby uniknąć błędów kompilacji, w swoim projekcie odwołuj się do biblioteki Aspose.Cells.
+5. Biblioteki: Aby uniknąć błędów kompilacji, odwołuj się do biblioteki Aspose.Cells w swoim projekcie.
 
 Teraz, gdy omówiliśmy już podstawy, możemy przejść do ekscytującej części: kodowania.
 
 ## Importuj pakiety
 
-Na początek musisz zaimportować niezbędne pakiety do pliku C#. Umożliwi ci to dostęp do funkcjonalności Aspose.Cells.
+Na początek musisz zaimportować niezbędne pakiety do pliku C#. Umożliwi Ci to dostęp do funkcjonalności Aspose.Cells.
 
 ```csharp
 using System.IO;
@@ -136,7 +136,7 @@ Pomyśl o tym jak o narysowaniu linii granicznej. Każda liczba poza tym zakrese
 
 ## Krok 10: Ustal limity dla walidacji
 
-Następnie ustalimy dolny i górny limit dla naszej walidacji:
+Następnie ustalimy dolny i górny limit naszej walidacji:
 
 ```csharp
 validation.Formula1 = Decimal.MinValue.ToString();
@@ -187,7 +187,7 @@ Na koniec zapiszmy skoroszyt z włączoną walidacją danych dziesiętnych:
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-masz! Udało Ci się utworzyć skoroszyt z walidacją danych dziesiętnych przy użyciu Aspose.Cells dla .NET.
+I masz! Udało Ci się utworzyć skoroszyt z walidacją danych dziesiętnych przy użyciu Aspose.Cells dla .NET.
 
 ## Wniosek
 
@@ -203,7 +203,7 @@ Sprawdzanie poprawności danych w programie Excel to funkcja ograniczająca typ 
 Tak! Możesz zapewnić niestandardowe komunikaty o błędach, aby pomóc użytkownikom, gdy zostaną wprowadzone nieprawidłowe dane.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania potrzebna będzie licencja. Więcej informacji na temat uzyskania tymczasowej licencji można znaleźć[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania potrzebna będzie licencja. Więcej informacji na temat uzyskania tymczasowej licencji można znaleźć[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie typy danych mogę sprawdzać w programie Excel?
 Za pomocą Aspose.Cells można sprawdzać poprawność różnych typów danych, w tym liczb całkowitych, liczb dziesiętnych, dat, list i formuł niestandardowych.

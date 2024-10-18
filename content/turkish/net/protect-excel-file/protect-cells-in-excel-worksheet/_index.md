@@ -52,13 +52,13 @@ Excel çalışma sayfasındaki belirli hücrelerin nasıl korunacağını göste
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Burada dizin yolunuzu belirtin
-// Eğer mevcut değilse dizin oluşturun.
+//Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Bu kod parçacığı belirtilen bir dizinin var olup olmadığını kontrol eder. Yoksa bir tane oluşturur. Bu, kaydedilmiş dosyanızın belirlenmiş bir ana dizine sahip olduğundan emin olmak için önemlidir!
+Bu kod parçacığı belirtilen bir dizinin var olup olmadığını kontrol eder. Yoksa, bir tane oluşturur. Bu, kaydedilmiş dosyanızın belirlenmiş bir ana sayfaya sahip olduğundan emin olmak için önemlidir!
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 
@@ -153,7 +153,7 @@ Kesinlikle! İstediğiniz her hücre için hücre kilitleme adımlarını tekrar
  Aspose.Cells ücretsiz deneme sunuyor ancak devam eden kullanım lisans gerektiriyor. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Dokümantasyonu nerede bulabilirim?
-Belgeler bulunabilir[Burada](https://reference.aspose.com/cells/net/).
+ Belgeler bulunabilir[Burada](https://reference.aspose.com/cells/net/).
 
 ### Excel dosyalarını hangi dosya biçimlerinde kaydedebilirim?
 Aspose.Cells, XLSX, XLS, CSV ve daha fazlası dahil olmak üzere birden fazla formatı destekler.

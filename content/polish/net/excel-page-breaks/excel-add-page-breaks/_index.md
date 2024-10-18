@@ -16,7 +16,7 @@ Czy jesteś zmęczony ręcznym dodawaniem podziałów stron w arkuszach Excela? 
 Zanim przejdziemy do kodowania, omówmy, czego będziesz potrzebować, żeby zacząć:
 
 1. Visual Studio: Powinieneś mieć zainstalowany Visual Studio na swoim komputerze. To IDE pomoże Ci bezproblemowo zarządzać projektami .NET.
-2.  Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells. Możesz znaleźć najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells. Najnowszą wersję znajdziesz[Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# sprawi, że nauka stanie się dziecinnie prosta.
 4. Dokumentacja referencyjna: Trzymaj dokumentację Aspose.Cells pod ręką, aby uzyskać definicje i zaawansowane funkcjonalności. Możesz ją sprawdzić[Tutaj](https://reference.aspose.com/cells/net/).
 

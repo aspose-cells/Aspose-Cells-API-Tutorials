@@ -13,7 +13,7 @@ url: /ko/net/setting-chart-appearance/set-chart-lines/
 
 ## 필수 조건
 
-코딩 부분으로 넘어가기 전에 다음 사항이 준비되어 있는지 확인하세요.
+코딩 부분으로 넘어가기 전에 다음 사항이 준비되었는지 확인하세요.
 
 - Visual Studio: Visual Studio가 설치되어 있는지 확인하세요. 모든 기능을 활용하려면 최신 버전을 사용하는 것이 좋습니다.
 - .NET Framework: 프로젝트는 Aspose.Cells를 구현할 .NET Framework(또는 .NET Core)를 기반으로 해야 합니다.
@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 이제 스프레드시트의 컨테이너 역할을 하는 통합 문서 개체를 만들어 보겠습니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 다음으로, 워크북의 특정 시트로 작업해야 합니다. 첫 번째 워크시트를 가져오겠습니다.
 
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -97,7 +97,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 이제 방금 만든 차트를 참조해야 합니다.
 
 ```csharp
-// 새로 추가된 차트의 인스턴스에 접근하기
+// 새로 추가된 차트의 인스턴스에 액세스하기
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
@@ -116,7 +116,7 @@ chart.NSeries.Add("A1:B3", true);
 
 ## 8단계: 차트 모양 사용자 지정
 
-이제 재밌는 부분입니다. 차트를 사용자 정의해 보겠습니다! 색상을 바꿔 봅시다.
+이제 재밌는 부분입니다. 차트를 사용자 정의해 보겠습니다! 색상을 몇 가지 변경해 보겠습니다.
 
 ```csharp
 // 플롯 영역의 전경색 설정
@@ -188,10 +188,10 @@ Console.WriteLine("SettingChartLines executed successfully.");
  네, Aspose는 기능을 테스트하기 위한 무료 체험판을 제공합니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells에 대한 지원이 있나요?  
- 물론입니다! 다음을 통해 지원을 받을 수 있습니다.[애스포지 포럼](https://forum.aspose.com/c/cells/9).
+ 물론입니다! 다음을 통해 지원을 받을 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells를 사용하여 다른 유형의 차트를 만들 수 있나요?  
 네, Aspose는 선형, 원형, 영역형 차트 등 다양한 유형의 차트를 지원합니다.
 
-### Aspose.Cells에 대한 임시 라이선스를 받으려면 어떻게 해야 하나요?  
+### Aspose.Cells에 대한 임시 라이센스를 받으려면 어떻게 해야 하나요?  
  당신은 신청할 수 있습니다[임시 면허](https://purchase.aspose.com/temporary-license/) Aspose 웹사이트를 통해서.

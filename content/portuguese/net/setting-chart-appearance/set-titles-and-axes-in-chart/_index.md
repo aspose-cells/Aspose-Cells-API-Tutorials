@@ -1,7 +1,7 @@
 ---
 title: Definir títulos e eixos no gráfico
 linktitle: Definir títulos e eixos no gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a definir títulos e eixos em gráficos usando o Aspose.Cells para .NET com este guia passo a passo, completo com exemplos de código e dicas.
 type: docs
 weight: 15
@@ -20,7 +20,7 @@ Antes de mergulharmos no tutorial passo a passo, vamos garantir que você tenha 
 3.  Biblioteca Aspose.Cells: Baixe e instale a biblioteca Aspose.Cells. Você pode encontrá-la em[link para download](https://releases.aspose.com/cells/net/).
 4. Conhecimento básico de C#: A familiaridade com a programação em C# ajudará você a acompanhar com mais conforto.
 
-Com tudo isso em mãos, vamos começar a importar os pacotes necessários e criar nosso primeiro gráfico do Excel!
+Com tudo isso pronto, vamos começar a importar os pacotes necessários e criar nosso primeiro gráfico do Excel!
 
 ## Pacotes de importação
 
@@ -47,7 +47,7 @@ Nesta etapa, vamos instanciar uma nova pasta de trabalho.
 ```csharp
 //Diretório de saída
 static string outputDir = "Your Document Directory";
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

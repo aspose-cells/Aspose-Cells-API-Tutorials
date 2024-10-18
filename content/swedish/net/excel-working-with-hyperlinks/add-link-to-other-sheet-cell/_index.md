@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Ersätt med din katalog
 ## Steg 3: Instantiera arbetsboksobjektet
 Nu är du redo att skapa din Excel-arbetsbok! Det är här alla dina ark och data kommer att finnas.
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 Den här raden initierar en ny arbetsbok i minnet, vilket ger dig en tom arbetsyta att arbeta på.
@@ -49,7 +49,7 @@ Den här raden initierar en ny arbetsbok i minnet, vilket ger dig en tom arbetsy
 I Excel kan varje arbetsbok innehålla flera ark. Låt oss lägga till en i vår arbetsbok.
 ```csharp
 // Lägga till ett nytt kalkylblad till Workbook-objektet
-workbook.Worksheets.Add(); //Lägger till ett nytt tomt kalkylblad som standard
+workbook.Worksheets.Add(); // Lägger till ett nytt tomt kalkylblad som standard
 ```
 Det här kommandot lägger till ett nytt kalkylblad och nu innehåller din arbetsbok minst ett ark som du kan manipulera.
 ## Steg 5: Få åtkomst till det första arbetsbladet

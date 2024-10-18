@@ -1,7 +1,7 @@
 ---
 title: Manipule unidades automáticas do eixo do gráfico como o Microsoft Excel
 linktitle: Manipule unidades automáticas do eixo do gráfico como o Microsoft Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a lidar com unidades automáticas de eixo de gráfico no Excel como um profissional usando Aspose.Cells para .NET! Tutorial passo a passo incluso.
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ Antes de começarmos o tutorial, vamos garantir que você tenha tudo o que é ne
 1. Visual Studio instalado: você precisará de um IDE como o Visual Studio para escrever e executar seu código .NET.
 2. .NET Framework: Este tutorial pressupõe que você esteja usando o .NET Framework 4.0 ou posterior. No entanto, o Aspose.Cells também é compatível com o .NET Core.
 3.  Biblioteca Aspose.Cells: Se você ainda não fez isso, baixe a biblioteca do site Aspose[aqui](https://releases.aspose.com/cells/net/) . Você também pode começar com um teste gratuito disponível[aqui](https://releases.aspose.com/).
-4.  Arquivo Excel de exemplo: Usaremos um arquivo Excel de exemplo chamado`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Certifique-se de ter este arquivo pronto em seu diretório de trabalho.
+4. Arquivo Excel de exemplo: Usaremos um arquivo Excel de exemplo chamado`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Certifique-se de ter este arquivo pronto em seu diretório de trabalho.
 
 ## Pacotes de importação
 
@@ -57,12 +57,12 @@ Agora você está pronto para começar a manipular nosso arquivo Excel!
 
 ## Carregue o arquivo Excel de exemplo
 
-### Etapa 1: Inicialize seus diretórios
+### Etapa 1: inicialize seus diretórios
 
 Antes de carregar o arquivo Excel, vamos configurar os diretórios de saída e de origem. Isso nos permitirá especificar onde nossos arquivos são armazenados.
 
 ```csharp
-// Diretório de saída - onde o PDF será salvo
+//Diretório de saída - onde o PDF será salvo
 string outputDir = "Your Output Directory"; // especifique seu diretório de saída aqui
 
 // Diretório de origem - onde o arquivo Excel de amostra está localizado
@@ -108,7 +108,7 @@ No Excel, um dos principais recursos em gráficos é o tratamento de unidades au
 
 ```csharp
 // Definir unidade principal para o eixo Y
-ch.AxisY.MajorUnit = 10; // Você pode definir de acordo com sua necessidade
+ch.AxisY.MajorUnit = 10; //Você pode definir de acordo com sua necessidade
 ```
 
 Vamos atualizar as unidades automáticas agora!
@@ -117,7 +117,7 @@ Vamos atualizar as unidades automáticas agora!
 
 ### Etapa 6: Exportar o gráfico para PDF
 
-O passo final e emocionante agora é renderizar o gráfico em um arquivo PDF. É aqui que o Aspose.Cells brilha porque você pode exportar seus gráficos em diferentes formatos sem esforço.
+O passo final e emocionante agora é renderizar o gráfico em um arquivo PDF. É aqui que o Aspose.Cells brilha porque você pode exportar seus gráficos sem esforço em diferentes formatos.
 
 ```csharp
 // Renderizar gráfico para pdf
@@ -151,4 +151,4 @@ Apenas a biblioteca Aspose.Cells e um .NET Framework instalado na sua máquina.
 Absolutamente! Aspose.Cells suporta vários formatos como XLSX, HTML e imagens.
 
 ### Onde posso encontrar suporte se tiver problemas?
-Você pode procurar ajuda na comunidade Aspose[aqui](https://forum.aspose.com/c/cells/9).
+ Você pode procurar ajuda na comunidade Aspose[aqui](https://forum.aspose.com/c/cells/9).

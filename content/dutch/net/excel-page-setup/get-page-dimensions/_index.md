@@ -13,12 +13,12 @@ Als het gaat om het verwerken van spreadsheets in .NET-applicaties, springt de A
 
 ## Vereisten 
 
-Voordat we met het coderen beginnen, zijn er een paar dingen die je nodig hebt om de code effectief te kunnen volgen:
+Voordat we beginnen met coderen, zijn er een paar dingen die je nodig hebt om de code effectief te kunnen volgen:
 
 ### Visuele Studio
 Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Dit is waar u uw .NET-code schrijft en uitvoert.
 
-### Aspose.Cells Bibliotheek
+### Aspose.Cells-bibliotheek
 U moet de Aspose.Cells-bibliotheek in uw project downloaden en ernaar verwijzen. U kunt deze verkrijgen via:
 -  Downloadlink:[Aspose.Cells voor .NET](https://releases.aspose.com/cells/net/)
 
@@ -57,7 +57,7 @@ Nu we de benodigde pakketten hebben geïmporteerd, bent u op weg!
 
 Laten we nu eens kijken hoe u de afmetingen van verschillende papierformaten kunt ophalen door elke stap te doorlopen. 
 
-## Stap 1: Maak een instantie van de werkmapklasse
+## Stap 1: Maak een instantie van de werkboekklasse
 
 Het eerste wat u moet doen is een instantie van de Workbook-klasse maken vanuit Aspose.Cells. Deze klasse vertegenwoordigt een Excel-bestand.
 

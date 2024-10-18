@@ -9,14 +9,14 @@ url: /it/net/inserting-controls-in-charts/add-label-control-to-chart/
 ---
 ## Introduzione
 
-I grafici sono un modo potente per visualizzare i dati e, a volte, aggiungere un'etichetta può aumentare ulteriormente la chiarezza. Se stai lavorando con Aspose.Cells per .NET, puoi facilmente aggiungere un'etichetta ai tuoi grafici per fornire ulteriore contesto. In questo tutorial, ti guideremo passo dopo passo attraverso come farlo, assicurandoti di essere ben equipaggiato per implementarlo nei tuoi progetti.
+grafici sono un modo potente per visualizzare i dati e, a volte, aggiungere un'etichetta può aumentare ulteriormente la chiarezza. Se stai lavorando con Aspose.Cells per .NET, puoi facilmente aggiungere un'etichetta ai tuoi grafici per fornire ulteriore contesto. In questo tutorial, ti guideremo passo dopo passo attraverso come farlo, assicurandoti di essere ben equipaggiato per implementarlo nei tuoi progetti.
 
 ## Prerequisiti
 
 Prima di addentrarci nei dettagli, vediamo cosa ti occorre per iniziare:
 
 - Conoscenza di base di C#: è fondamentale comprendere le basi della programmazione in C#. Se sei un principiante, non preoccuparti: i passaggi saranno chiari e concisi.
-- Libreria Aspose.Cells: assicurati di aver installato la libreria Aspose.Cells. Puoi farlo tramite NuGet Package Manager in Visual Studio. Se non l'hai già fatto, dai un'occhiata a[collegamento per il download](https://releases.aspose.com/cells/net/) per la biblioteca.
+-  Libreria Aspose.Cells: assicurati di aver installato la libreria Aspose.Cells. Puoi farlo tramite NuGet Package Manager in Visual Studio. Se non l'hai già fatto, dai un'occhiata a[collegamento per il download](https://releases.aspose.com/cells/net/) per la biblioteca.
 - Visual Studio: per scrivere ed eseguire il codice, avrai bisogno di un ambiente di sviluppo integrato (IDE) come Visual Studio.
 
 ## Importa pacchetti
@@ -51,7 +51,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-Pensa a questo come all'impostazione del palco per un'opera teatrale. Devi sapere dove sono i tuoi attori (file)!
+Pensa a questo come all'impostazione del palco per un'opera teatrale. Devi sapere dove si trovano i tuoi attori (file)!
 
 ## Passaggio 2: aprire il file esistente
 
@@ -62,7 +62,7 @@ Successivamente caricheremo il file Excel contenente il grafico a cui vogliamo a
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Qui stiamo usando il`Workbook` classe da Aspose.Cells per aprire il nostro file Excel. È come sbloccare la porta per far fluire la creatività!
+ Qui stiamo usando il`Workbook`classe da Aspose.Cells per aprire il nostro file Excel. È come sbloccare la porta per far fluire la creatività!
 
 ## Passaggio 3: accedi al foglio di lavoro
 
@@ -94,7 +94,7 @@ Ora arriva la parte emozionante: aggiungere l'etichetta al grafico. Definiremo l
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Qui,`AddLabelInChart` si occupa di creare un'etichetta basata sulle coordinate e sulle dimensioni che specifichi. È come apporre una bella cornice attorno alla tua opera d'arte!
+ Qui,`AddLabelInChart`si occupa di creare un'etichetta basata sulle coordinate e sulle dimensioni che specifichi. È come apporre una bella cornice attorno alla tua opera d'arte!
 
 ## Passaggio 6: imposta il testo dell'etichetta
 
@@ -149,7 +149,7 @@ Ed ecco fatto! Hai aggiunto con successo un controllo etichetta a un grafico usa
 Sì! Puoi modificare il carattere, il colore, la dimensione e altre proprietà dell'etichetta in base alle tue esigenze.
 
 ### Aspose.Cells è gratuito?
- Aspose.Cells è un prodotto a pagamento; tuttavia, puoi iniziare con un[prova gratuita](https://releases.aspose.com/)per esplorarne le caratteristiche.
+ Aspose.Cells è un prodotto a pagamento; tuttavia, puoi iniziare con un[prova gratuita](https://releases.aspose.com/) per esplorarne le caratteristiche.
 
 ### Cosa succede se voglio aggiungere più etichette?
 È possibile ripetere i passaggi per aggiungere le etichette tutte le volte che si desidera, ciascuna con posizioni e testi diversi.

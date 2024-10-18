@@ -9,7 +9,7 @@ url: /pt/net/excel-workbook/detect-link-types/
 ---
 ## Introdução
 
-Você já ficou até os joelhos em uma planilha, examinando hiperlinks espalhados por todo o seu documento Excel? Você não está sozinho! Os hiperlinks são cruciais para melhorar a navegação e incorporar recursos dinâmicos em suas planilhas. Mas você entende a diferença entre esses links? Seja você um entusiasta iniciante do Excel ou um profissional experiente, saber como detectar e categorizar tipos de links pode agilizar significativamente seu gerenciamento de dados. Entre no Aspose.Cells para .NET, uma biblioteca poderosa que simplifica o trabalho com arquivos Excel em aplicativos .NET. Neste tutorial, mostraremos como detectar tipos de hiperlink usando o Aspose.Cells. No final, você estará equipado com o conhecimento para lidar eficientemente com hiperlinks em seus documentos Excel.
+Você já ficou até os joelhos em uma planilha, examinando hiperlinks espalhados por todo o seu documento Excel? Você não está sozinho! Os hiperlinks são cruciais para melhorar a navegação e incorporar recursos dinâmicos em suas planilhas. Mas você entende a diferença entre esses links? Seja você um entusiasta iniciante do Excel ou um profissional experiente, saber como detectar e categorizar tipos de links pode simplificar significativamente seu gerenciamento de dados. Entre no Aspose.Cells para .NET, uma biblioteca poderosa que simplifica o trabalho com arquivos Excel em aplicativos .NET. Neste tutorial, mostraremos como detectar tipos de hiperlink usando o Aspose.Cells. No final, você estará equipado com o conhecimento para lidar eficientemente com hiperlinks em seus documentos Excel.
 
 ## Pré-requisitos
 
@@ -63,11 +63,11 @@ Esta linha aponta para o diretório que contém o arquivo Excel. Certifique-se d
 Em seguida, carregaremos nossa pasta de trabalho. Isso é como abrir seu arquivo Excel em segundo plano, permitindo que leiamos e manipulemos seu conteúdo.
 
 ```csharp
-//Carregue a pasta de trabalho
+// Carregue a pasta de trabalho
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Aqui está o que está acontecendo: estamos criando uma instância do`Workbook` class e passando o caminho do nosso arquivo Excel. Se tudo correr bem, sua pasta de trabalho estará aberta para negócios!
+Aqui está o que está acontecendo: estamos criando uma instância do`Workbook` class e passando o caminho do nosso arquivo Excel. Se tudo correr bem, sua pasta de trabalho estará aberta para negócios!
 
 ## Etapa 3: Acesse a planilha
 
@@ -96,7 +96,7 @@ Com esse intervalo, podemos recuperar facilmente hiperlinks dentro dessas célul
 Aqui vem a parte emocionante: extrair os hyperlinks! Nós extrairemos os hyperlinks do nosso intervalo definido.
 
 ```csharp
-// Obtenha hiperlinks dentro do alcance
+//Obtenha hiperlinks dentro do alcance
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

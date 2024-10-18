@@ -22,7 +22,7 @@ Zanim przejdziemy do tworzenia naszego zakresu union, musimy zaimportować niezb
 ### Skonfiguruj swój projekt
 Najpierw upewnij się, że utworzyłeś nowy projekt w swoim IDE. Wybierz odpowiedni typ projektu dla aplikacji .NET.
 ### Dodaj odniesienie Aspose.Cells
-Następnie kliknij prawym przyciskiem myszy „Odwołania” w eksploratorze rozwiązań, wybierz „Dodaj odwołanie” i przejdź do pobranej biblioteki DLL Aspose.Cells. 
+Następnie kliknij prawym przyciskiem myszy „Odwołania” w Eksploratorze rozwiązań, wybierz „Dodaj odwołanie” i przejdź do pobranej biblioteki DLL Aspose.Cells. 
 ```csharp
 using System;
 ```
@@ -35,7 +35,7 @@ Pierwszy krok w naszym kodzie obejmuje utworzenie instancji obiektu Workbook. Po
 // Katalog wyjściowy
 string outputDir = "Your Document Directory"();
 
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 Ten wiersz kodu mówi naszemu programowi, aby utworzył nowy skoroszyt. Jest to niezbędne, ponieważ będziesz dodawać zakresy i wartości do tego skoroszytu.

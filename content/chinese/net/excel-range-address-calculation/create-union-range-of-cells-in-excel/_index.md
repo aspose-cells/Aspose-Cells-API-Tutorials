@@ -21,7 +21,7 @@ url: /zh/net/excel-range-address-calculation/create-union-range-of-cells-in-exce
 在开始创建联合范围之前，我们需要导入必要的 Aspose 包。下面介绍如何巧妙地完成此操作。
 ### 设置你的项目
 首先，确保在 IDE 中创建一个新项目。为 .NET 应用程序选择适当的项目类型。
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 接下来，右键单击解决方案资源管理器中的“引用”，选择“添加引用”，然后浏览到您下载的 Aspose.Cells DLL。 
 ```csharp
 using System;
@@ -40,7 +40,7 @@ Workbook workbook = new Workbook();
 ```
 这行代码告诉我们的程序创建一个新的工作簿。这很重要，因为您将向此工作簿添加范围和值。
 ## 步骤 2：创建联合范围
-接下来，我们需要创建一个合并范围。这使我们能够将多个单元格范围合并为一个。这就像召集来自不同团体的朋友参加聚会一样——每个人都有自己的空间，但他们一起创造了一个有趣的环境！
+接下来，我们需要创建一个合并范围。这使我们能够将多个单元格范围合并为一个。这就像聚集来自不同团体的朋友参加聚会一样——每个人都有自己的空间，但他们一起创造了一个有趣的环境！
 ```csharp
 //创建联合范围
 UnionRange unionRange = workbook.Worksheets.CreateUnionRange("sheet1!A1:A10,sheet1!C1:C10", 0);
@@ -54,7 +54,7 @@ unionRange.Value = "ABCD";
 ```
 在此示例中，我们将值“ABCD”分配给合并区域中的所有单元格。打开生成的 Excel 文件时，您会发现“ABCD”完美地显示在所有定义的单元格中！
 ## 步骤 4：保存工作簿
-经过这么多辛苦的工作后，保存工作簿至关重要，这样您的更改才不会丢失。这就像在马拉松式的艺术课程结束后保存一幅画一样！
+经过这么多辛苦的工作后，保存工作簿非常重要，这样您的更改才不会丢失。这就像在马拉松式的艺术课程结束后保存一幅画一样！
 ```csharp
 //保存输出工作簿
 workbook.Save(outputDir + "CreateUnionRange_out.xlsx");
@@ -77,6 +77,6 @@ Excel 中的联合区域允许您合并不连续的单元格区域，使您可�
 ### 如何获得 Aspose.Cells 的支持？
 如需帮助，您可以访问[Aspose 论坛](https://forum.aspose.com/c/cells/9)您可以在这里提出问题并从社区获得答案。
 ### 我可以将 Aspose.Cells 与其他编程语言一起使用吗？
-是的！Aspose.Cells 适用于多种语言，包括 Java、Python 等。您可以在 Aspose 文档中找到对所选语言的支持。
+是的！Aspose.Cells 支持多种语言，包括 Java、Python 等。您可以在 Aspose 文档中找到对所选语言的支持。
 ### 有没有办法获得 Aspose.Cells 的临时许可证？
 是的，您可以获得[临时执照](https://purchase.aspose.com/temporary-license/)用于评估目的。

@@ -18,7 +18,7 @@ Excel, veri yönetimi için güçlü bir araçtır ve Aspose.Cells for Java, pro
 
 Aspose.Cells for Java, Java geliştiricilerinin Excel dosyalarıyla zahmetsizce çalışmasını sağlayan çok yönlü bir kütüphanedir. Kapsamlı API'si ve özellikleri onu veriyle ilgili görevler için değerli bir varlık haline getirir.
 
-## Java için Aspose.Cells ile Başlarken
+## Java için Aspose.Cells'e Başlarken
 
 Pratik örneklere dalmadan önce, Aspose.Cells'i Java için kuralım ve potansiyelinden yararlanmaya hazırlanalım.
 

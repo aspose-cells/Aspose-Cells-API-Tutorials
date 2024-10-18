@@ -9,7 +9,7 @@ url: /es/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 ---
 ## Introducción
 
-Cuando se trata de la gestión de datos, Microsoft Excel es una herramienta poderosa en la que muchos confían para organizar y analizar información. Sin embargo, a veces ciertas hojas requieren un poco de discreción: tal vez contengan datos confidenciales que solo deberían ver ciertas personas o tal vez simplemente estén desordenando la interfaz de usuario. En tales casos, poder ocultar y mostrar hojas de cálculo es esencial. Afortunadamente, con Aspose.Cells para .NET, ¡puede administrar fácilmente hojas de Excel mediante programación! 
+Cuando se trata de la gestión de datos, Microsoft Excel es una herramienta poderosa en la que muchas personas confían para organizar y analizar información. Sin embargo, a veces ciertas hojas requieren un poco de discreción: tal vez contengan datos confidenciales que solo deberían ver ciertas personas o tal vez simplemente estén desordenando la interfaz de usuario. En tales casos, poder ocultar y mostrar hojas de cálculo es esencial. Afortunadamente, con Aspose.Cells para .NET, ¡puede administrar fácilmente las hojas de Excel mediante programación! 
 
 ## Prerrequisitos
 
@@ -72,7 +72,7 @@ Este paso es como decirle “¡Hola!” a tu libro de trabajo, para que sepa que
 Con el libro de trabajo en la mano, es hora de acceder a la hoja de trabajo específica que desea ocultar. Comenzaremos con la primera hoja de trabajo.
 
 ```csharp
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

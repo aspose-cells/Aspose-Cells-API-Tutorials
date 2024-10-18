@@ -49,7 +49,7 @@ Nejprve se musíte ujistit, že máte bezpečné místo pro ukládání souborů
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Vytvořte adresář, pokud ještě není přítomen.
+//Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ Ve výše uvedeném kódu deklarujeme cestu, kde bude umístěn náš soubor Exc
 Dále vytvoříme instanci třídy Workbook. Tato třída je páteří všech operací souvisejících s Excelem, které budete provádět.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Nyní, když je náš sešit připraven, přidejte nový list!
 int i = workbook.Worksheets.Add();
 ```
 
- Zde používáme`Add()` metoda`Worksheets` sbírka přítomná v`Workbook` třída. Metoda vrací index (`i`nově přidaného listu. Je to jako přidat stránku do poznámkového bloku – jednoduché a efektivní!
+ Zde používáme`Add()` metoda`Worksheets` sbírka přítomná v`Workbook` třída. Metoda vrací index (`i`) nově přidaného listu. Je to jako přidat stránku do poznámkového bloku – jednoduché a efektivní!
 
 ## Krok 4: Pojmenujte svůj nový list
 
@@ -91,11 +91,11 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Odkaz na nově vytvořený list získáte pomocí jeho indexu`i`. Poté jednoduše nastavíme jeho název na „My Worksheet“. Pojmenování listů tímto způsobem je dobrým zvykem, zejména při práci s většími soubory aplikace Excel, kde je kontext klíčový.
+ Odkaz na nově vytvořený list získáte pomocí jeho indexu`i`Poté jednoduše nastavíme jeho název na "My Worksheet". Pojmenování listů tímto způsobem je dobrým zvykem, zejména při práci s většími soubory aplikace Excel, kde je kontext klíčový.
 
 ## Krok 5: Uložení souboru Excel
 
-Teď jsme v domácím pásmu! Je čas zachránit své mistrovské dílo.
+Teď jsme v domácím prostředí! Je čas zachránit své mistrovské dílo.
 
 ```csharp
 // Uložení souboru Excel
@@ -106,7 +106,7 @@ Pouze s jedním řádkem kódu uložíme náš sešit do zadaného adresáře s 
 
 ## Závěr
 
-tady to máte! V několika jednoduchých krocích jsme probrali, jak přidat nový list do souboru aplikace Excel pomocí C# a Aspose.Cells. Ať už si jen hrajete s kódem nebo pracujete na rozsáhlejším projektu, tato funkce může výrazně zlepšit váš pracovní postup správy dat. 
+A tady to máte! V několika jednoduchých krocích jsme probrali, jak přidat nový list do souboru aplikace Excel pomocí C# a Aspose.Cells. Ať už si jen hrajete s kódem nebo pracujete na rozsáhlejším projektu, tato funkce může výrazně zlepšit váš pracovní postup správy dat. 
 
 S Aspose.Cells jsou možnosti nekonečné. S daty můžete manipulovat nesčetnými způsoby – úpravami, formátováním nebo dokonce vytvářením vzorců! Takže pokračujte a prozkoumejte dále; vaše soubory Excel vám za to poděkují.
 

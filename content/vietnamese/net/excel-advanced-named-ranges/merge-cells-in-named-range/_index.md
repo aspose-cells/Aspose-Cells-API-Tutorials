@@ -104,7 +104,7 @@ Việc lấy phạm vi theo tên cho phép chúng ta thực hiện các thao tá
 Một ô được hợp nhất có tác dụng gì nếu nó trông không được trau chuốt? Hãy tạo một đối tượng kiểu để căn chỉnh văn bản và áp dụng màu nền.
 
 ```csharp
-// Xác định một đối tượng kiểu.
+// Xác định đối tượng kiểu.
 Style style = wb1.CreateStyle();
 
 // Thiết lập căn chỉnh.

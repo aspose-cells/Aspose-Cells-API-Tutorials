@@ -42,7 +42,7 @@ using System;
 using Aspose.Cells;
 ```
 
-la hora de desbloquear una hoja de Excel protegida con Aspose.Cells para .NET, los pasos son sencillos. Explicaremos cada paso con claridad y lo guiaremos a través del proceso.
+A la hora de desbloquear una hoja de Excel protegida con Aspose.Cells para .NET, los pasos son sencillos. Explicaremos cada paso con claridad y lo guiaremos a través del proceso.
 
 ## Paso 1: Configura la ruta de tu archivo
 
@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Paso 2: Cargue el libro de trabajo
 
- A continuación, necesitamos crear una instancia de la`Workbook` Clase y carga el archivo Excel. Aquí es donde Aspose.Cells brilla, ya que nos permite manipular libros de Excel fácilmente.
+ A continuación, necesitamos crear una instancia de la`Workbook` y cargar el archivo de Excel. Aquí es donde Aspose.Cells brilla, ya que nos permite manipular libros de Excel fácilmente.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -69,7 +69,7 @@ Ahora que el libro de trabajo está cargado, querrá acceder a la hoja de trabaj
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Al especificar`[0]`le estás diciendo al sistema que quieres la primera hoja. Si tu hoja no es la primera, simplemente cambia este índice por el número apropiado.
+ Al especificar`[0]`, le estás diciendo al sistema que quieres la primera hoja. Si tu hoja no es la primera, simplemente cambia este índice por el número apropiado.
 
 ## Paso 4: Desproteger la hoja de cálculo
 
@@ -87,7 +87,7 @@ Una vez que la hoja de cálculo esté desprotegida, deberá guardar los cambios 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Aquí estás guardando los cambios en un nuevo archivo llamado “output.out.xls” en el mismo directorio. Puedes cambiarle el nombre como creas conveniente, pero asegúrate de mantener el`.xls` extensión para mantenerlo reconocible como un archivo Excel.
+ Aquí estás guardando los cambios en un nuevo archivo llamado “output.out.xls” en el mismo directorio. Puedes cambiarle el nombre como creas conveniente, pero asegúrate de mantener el`.xls`extensión para mantenerlo reconocible como un archivo Excel.
 
 ## Paso 6: Manejo de errores
 
@@ -116,7 +116,7 @@ catch(Exception ex)
 ¡Sí! Puedes recorrer cada hoja del libro y desprotegerlas de manera similar.
 
 ### ¿Aspose.Cells es de uso gratuito?
- Aspose.Cells ofrece una prueba gratuita, pero se requiere una licencia para su uso en producción. Consulte su[compra](https://purchase.aspose.com/buy)Página para obtener más información.
+Aspose.Cells ofrece una prueba gratuita, pero se requiere una licencia para su uso en producción. Consulte su[compra](https://purchase.aspose.com/buy) Página para obtener más información.
 
 ### ¿Qué pasa si no sé la contraseña?
 Si una hoja está protegida con contraseña y usted no la tiene, la biblioteca no le ayudará a eludir las restricciones ya que va en contra de las políticas éticas.

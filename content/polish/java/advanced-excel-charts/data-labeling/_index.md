@@ -20,7 +20,7 @@ Zanim zagłębimy się w kod, upewnij się, że masz zainstalowane w systemie na
 
 Aby rozpocząć, musisz pobrać i zainstalować Aspose.Cells dla Java. Wykonaj następujące proste kroki:
 
-1.  Odwiedzać[Dokumentacja Aspose.Cells dla Java](https://reference.aspose.com/cells/java/).
+1.  Odwiedzać[Dokumentacja Aspose.Cells dla języka Java](https://reference.aspose.com/cells/java/).
 2. Pobierz najnowszą wersję Aspose.Cells dla Java.
 3. Postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
@@ -130,7 +130,7 @@ Tak, możesz dostosowywać etykiety, zmieniając czcionki, kolory i inne opcje f
 
 ### jakich formatach mogę zapisać opisany arkusz kalkulacyjny?
 
-Aspose.Cells for Java obsługuje różne formaty zapisu opisanych arkuszy kalkulacyjnych, w tym format Excela.
+Aspose.Cells for Java obsługuje różne formaty zapisu opisanych arkuszy kalkulacyjnych, w tym format Excel.
 
 ### Jak radzić sobie z błędami podczas etykietowania danych?
 

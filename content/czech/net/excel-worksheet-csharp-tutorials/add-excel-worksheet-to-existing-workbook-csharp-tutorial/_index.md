@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Dále musíme vytvořit instanci třídy Workbook, která bude obsahovat náš soubor Excel.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Vytvořením instance sešitu z našeho datového proudu souborů nyní můžeme
 
 ## Krok 4: Přidejte nový list
 
-Přichází ta vzrušující část! Přidejme do sešitu nový pracovní list. To se provádí pomocí`Add()` metoda z`Worksheets`sbírka.
+ Přichází ta vzrušující část! Přidejme do sešitu nový pracovní list. To se provádí pomocí`Add()` metoda z`Worksheets`sbírka.
 
 ```csharp
 // Přidání nového listu do objektu Sešit
 int i = workbook.Worksheets.Add();
 ```
 
- S tímto řádkem kódu přidáváme nový list a index tohoto nového listu je zachycen v proměnné`i`.
+ tímto řádkem kódu přidáváme nový list a index tohoto nového listu je zachycen v proměnné`i`.
 
 ## Krok 5: Získejte odkaz na nově přidaný pracovní list
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 ## Krok 6: Nastavte název nového listu
 
-Co je to pracovní list bez jména, že? Dejme našemu nově přidanému pracovnímu listu identitu!
+Co je to za pracovní list bez jména, že? Dejme našemu nově přidanému pracovnímu listu identitu!
 
 ```csharp
 // Nastavení názvu nově přidaného listu
@@ -109,7 +109,7 @@ Po dokončení našich úprav je čas uložit náš sešit. Tento krok potvrzuje
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Zde uložíme náš sešit jako`output.out.xls`. Tento soubor můžete pojmenovat jakkoli chcete; jen se ujistěte, že je uložen ve správném adresáři.
+ Zde uložíme náš sešit jako`output.out.xls`Tento soubor můžete pojmenovat jakkoli chcete; jen se ujistěte, že je uložen ve správném adresáři.
 
 ## Krok 8: Zavřete Stream souborů
 

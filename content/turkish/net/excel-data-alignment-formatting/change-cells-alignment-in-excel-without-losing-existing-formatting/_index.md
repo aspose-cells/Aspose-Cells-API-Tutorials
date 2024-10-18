@@ -18,7 +18,7 @@ Gerçek kodlamaya dalmadan önce, her şeyin doğru şekilde ayarlandığından 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun (.NET'i destekleyen herhangi bir sürüm) yüklü olduğundan emin olun.
 2.  .NET için Aspose.Cells: Aspose.Cells kitaplığını şu adresten indirin ve yükleyin:[Aspose'un sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# bağlamında çalışacağımız için C# programlamaya dair biraz bilgi sahibi olmak işimize yarayacaktır.
-4. Örnek Excel Dosyası: Gösterim için, örnek bir Excel dosyası hazırlayın (örneğin,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) bazı başlangıç hücre biçimlendirmeleri içerir.
+4.  Örnek Excel Dosyası: Gösterim için, örnek bir Excel dosyası hazırlayın (örneğin,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) bazı başlangıç hücre biçimlendirmeleri içerir.
 
 ## Paketleri İçe Aktar
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ayarlayarak`Alignments` StyleFlag'ın özelliği`true`, Aspose.Cells'e hizalama stillerini düzgün bir şekilde uygulamasını söylersiniz.
+ Ayarlayarak`Alignments`StyleFlag'ın özelliği`true`, Aspose.Cells'e hizalama stillerini düzgün bir şekilde uygulamasını söylersiniz.
 
 ## Adım 7: Stili Hücre Aralığına Uygula
 

@@ -70,7 +70,7 @@ En primer lugar, debemos establecer la ruta de nuestro documento de Excel. Aquí
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Consejo: Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se encuentra su archivo de Excel (llamémoslo`book1.xls`) se encuentra. 
+ Consejo: Reemplazar`"YOUR DOCUMENT DIRECTORY"`con la ruta real donde se encuentra su archivo de Excel (llamémoslo`book1.xls`) se encuentra. 
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
@@ -100,7 +100,7 @@ Aquí, accedemos a la primera hoja de cálculo de nuestro libro de trabajo. Si s
 worksheet.Unprotect("");
 ```
 
- Si su hoja de cálculo está protegida con una contraseña y usted conoce la contraseña, deberá reemplazar la cadena vacía`""`Con la contraseña actual. Si no la conoces, déjala vacía y ejecútala para ver si funciona.
+ Si su hoja de cálculo está protegida con una contraseña y usted conoce la contraseña, deberá reemplazar la cadena vacía`""` Con la contraseña actual. Si no la conoces, déjala vacía y ejecútala para ver si funciona.
 
 ## Paso 5: Guardar el libro de trabajo
 

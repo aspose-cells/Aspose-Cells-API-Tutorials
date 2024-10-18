@@ -15,7 +15,7 @@ Haben Sie schon einmal Arbeitsblätter manuell zwischen Excel-Arbeitsmappen kopi
 
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie für den Einstieg über die richtigen Tools verfügen:
 
--  Aspose.Cells für .NET: Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
+- Aspose.Cells für .NET: Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
 - Visual Studio oder jede IDE, die das .NET-Framework unterstützt.
 -  Eine gültige Lizenz oder ein[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) wenn Sie die volle Funktionalität von Aspose.Cells testen möchten.
 - Grundlegende Kenntnisse von C# und dem .NET-Framework.
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Nachdem Sie nun die erste Arbeitsmappe geöffnet haben, ist es an der Zeit, eine weitere leere Arbeitsmappe zu erstellen, in die Sie das kopierte Arbeitsblatt einfügen. Stellen Sie sich das so vor, als würden Sie ein neues leeres Notizbuch öffnen, in das Sie die Daten übertragen.
 
 ```csharp
-// Erstellen Sie eine weitere Arbeitsmappe.
+//Erstellen Sie eine weitere Arbeitsmappe.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Zum Schluss speichern Sie die zweite Arbeitsmappe mit dem kopierten Arbeitsblatt. Das ist so, als würden Sie Ihre neu geschriebenen Notizen in einem neuen Ordner auf Ihrem Computer speichern.
 
 ```csharp
-//Speichern Sie die Datei.
+// Speichern Sie die Datei.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

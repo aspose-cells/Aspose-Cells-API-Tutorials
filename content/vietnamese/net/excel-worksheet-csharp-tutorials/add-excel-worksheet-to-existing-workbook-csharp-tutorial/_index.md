@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Tiếp theo, chúng ta cần tạo một thể hiện của lớp Workbook để chứa tệp Excel của chúng ta.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Bằng cách tạo một phiên bản sổ làm việc từ luồng tệp, giờ
 
 ## Bước 4: Thêm một bảng tính mới
 
-Đây là phần thú vị! Chúng ta hãy thêm một bảng tính mới vào sổ làm việc của chúng ta. Điều này được thực hiện bằng cách sử dụng`Add()` phương pháp từ`Worksheets`bộ sưu tập.
+ Đây là phần thú vị! Chúng ta hãy thêm một bảng tính mới vào sổ làm việc của chúng ta. Điều này được thực hiện bằng cách sử dụng`Add()` phương pháp từ`Worksheets`bộ sưu tập.
 
 ```csharp
 // Thêm một trang tính mới vào đối tượng Workbook
 int i = workbook.Worksheets.Add();
 ```
 
- Với dòng mã này, chúng ta đang thêm một trang tính mới và chỉ mục của trang tính mới này được ghi lại trong biến`i`.
+Với dòng mã này, chúng ta đang thêm một trang tính mới và chỉ mục của trang tính mới này được ghi lại trong biến`i`.
 
 ## Bước 5: Lấy tham chiếu đến bảng tính mới được thêm vào
 
@@ -109,7 +109,7 @@ Sau khi hoàn tất các sửa đổi, đã đến lúc lưu sổ làm việc c�
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Ở đây, chúng tôi lưu sổ làm việc của mình dưới dạng`output.out.xls`. Bạn có thể đặt tên bất kỳ cho tệp này; chỉ cần đảm bảo rằng nó được lưu trong đúng thư mục.
+ Ở đây, chúng tôi lưu sổ làm việc của mình dưới dạng`output.out.xls`Bạn có thể đặt tên cho tệp này bất kỳ tên nào bạn muốn; chỉ cần đảm bảo rằng nó được lưu trong đúng thư mục.
 
 ## Bước 8: Đóng luồng tập tin
 

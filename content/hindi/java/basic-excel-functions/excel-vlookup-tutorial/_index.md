@@ -17,7 +17,7 @@ url: /hi/java/basic-excel-functions/excel-vlookup-tutorial/
 इससे पहले कि हम इसकी बारीकियों में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - जावा डेवलपमेंट एनवायरनमेंट: सुनिश्चित करें कि आपके सिस्टम पर जावा JDK स्थापित है।
--  Aspose.Cells for Java: Aspose.Cells for Java को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/cells/java/).
+-  Aspose.Cells for Java: Aspose.Cells for Java को यहाँ से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/cells/java/).
 
 ## शुरू करना
 

@@ -76,7 +76,7 @@ Ten wiersz spowoduje otwarcie pliku Excel i przygotowanie go do modyfikacji.
 Teraz, gdy mamy już nasz skoroszyt, sprawdźmy, ile arkuszy się w nim znajduje:
 
 ```csharp
-//Pobierz liczbę arkuszy w skoroszycie
+//Pobierz liczbę arkuszy skoroszytu
 int sheetCount = wb.Worksheets.Count;
 ```
 

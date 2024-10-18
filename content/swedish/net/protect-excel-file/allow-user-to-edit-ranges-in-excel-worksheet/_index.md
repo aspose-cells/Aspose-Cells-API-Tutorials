@@ -41,7 +41,7 @@ För alla filoperationer är det avgörande att ha en definierad plats där vår
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Skapa katalog om den inte redan finns.
+//Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

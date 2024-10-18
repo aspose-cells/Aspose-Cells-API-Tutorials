@@ -40,7 +40,7 @@ url: /zh/net/chart-rendering-and-conversion/convert-chart-to-pdf/
 3. 根据您的要求选择“控制台应用程序（.NET Core）”或“控制台应用程序（.NET Framework）”。
 4. 命名您的项目并点击“创建”。
 
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 
 创建项目后，必须添加对 Aspose.Cells 库的引用：
 
@@ -166,4 +166,4 @@ Aspose.Cells 支持各种版本的.NET，包括.NET Framework 和.NET Core。
 访问[Aspose.Cells 文档](https://reference.aspose.com/cells/net/)以获得详细信息和示例。
 
 ### 有免费试用版吗？
-是的！您可以从[这里](https://releases.aspose.com/).
+是的！你可以从[这里](https://releases.aspose.com/).

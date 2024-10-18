@@ -17,7 +17,7 @@ Bevor wir uns in das Lernprogramm stürzen, wollen wir einige Voraussetzungen er
 
 ### Grundkenntnisse in C#
 
-Das Lernprogramm ist zwar so konzipiert, dass es Sie durch jeden Schritt führt, doch wenn Sie über grundlegende Kenntnisse von C# verfügen, fällt es Ihnen leichter, die vorgestellten Konzepte zu verstehen.
+Das Lernprogramm ist zwar so konzipiert, dass es Sie durch jeden Schritt führt, doch wenn Sie über grundlegende Kenntnisse von C# verfügen, wird Ihnen das Erfassen der vorgestellten Konzepte leichter fallen.
 
 ### .NET-Entwicklungsumgebung
 
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Schritt 2: Laden Sie die Excel-Quelldatei
 
- Als nächstes laden wir die Excel-Datei, die die zu sortierenden Daten enthält. Dies geschieht durch die Erstellung einer Instanz des`Workbook` Klasse und übergeben Sie den Pfad Ihrer Quelldatei.
+Als nächstes laden wir die Excel-Datei, die die zu sortierenden Daten enthält. Dies geschieht durch die Erstellung einer Instanz des`Workbook` Klasse und übergeben Sie den Pfad Ihrer Quelldatei.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");

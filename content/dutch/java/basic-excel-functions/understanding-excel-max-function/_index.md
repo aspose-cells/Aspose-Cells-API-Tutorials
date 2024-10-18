@@ -10,7 +10,7 @@ url: /nl/java/basic-excel-functions/understanding-excel-max-function/
 
 ## Invoering
 
-De MAX-functie in Excel is een waardevol hulpmiddel voor gegevensanalyse. Hiermee kunt u snel de grootste waarde binnen een bepaald celbereik vinden. Of u nu werkt met financiële gegevens, verkoopcijfers of een ander type numerieke gegevens, de MAX-functie kan u helpen de hoogste waarde eenvoudig te identificeren.
+De MAX-functie in Excel is een waardevolle tool voor data-analyse. Hiermee kunt u snel de grootste waarde binnen een bepaald celbereik vinden. Of u nu werkt met financiële gegevens, verkoopcijfers of een ander type numerieke gegevens, de MAX-functie kan u helpen de hoogste waarde eenvoudig te identificeren.
 
 ## Vereisten
 
@@ -18,7 +18,7 @@ Voordat we de MAX-functie met Aspose.Cells voor Java gaan gebruiken, moeten de v
 
 - Java-ontwikkelomgeving (JDK)
 - Aspose.Cells voor Java-bibliotheek
-- Geïntegreerde ontwikkelomgeving (IDE) van uw keuze (Eclipse, IntelliJ, etc.)
+- Geïntegreerde ontwikkelomgeving (IDE) van uw keuze (Eclipse, IntelliJ, enz.)
 
 ## Aspose.Cells toevoegen aan uw project
 
@@ -65,7 +65,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Geef het bereik van cellen op die verkoopgegevens bevatten
 CellArea salesRange = new CellArea();
-salesRange.StartRow = 1; // Ervan uitgaande dat de gegevens beginnen bij rij 2
+salesRange.StartRow = 1; // Ervan uitgaande dat de gegevens beginnen vanaf rij 2
 salesRange.StartColumn = 1; // Ervan uitgaande dat de gegevens in de tweede kolom staan
 salesRange.EndRow = 13; // Ervan uitgaande dat we gegevens hebben voor 12 maanden
 salesRange.EndColumn = 1; // Wij zijn geïnteresseerd in de verkoopkolom

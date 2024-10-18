@@ -16,7 +16,7 @@ Dalam hal penanganan lembar kerja, bagan sering kali memainkan peran penting dal
 Sebelum memulai tutorial, Anda perlu memastikan bahwa Anda memiliki pengaturan yang tepat. Berikut ini yang Anda perlukan:
 
 ### Kerangka .NET
-Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells kompatibel dengan berbagai versi tetapi cenderung berfungsi paling baik dengan versi terbaru.
+Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells kompatibel dengan berbagai versi, tetapi cenderung berfungsi paling baik dengan versi terbaru.
 
 ### Pustaka Aspose.Cells
  Anda akan memerlukan pustaka Aspose.Cells for .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/)Pustaka ini dilengkapi dengan API lengkap yang merangkum semua fungsi yang Anda perlukan untuk manipulasi Excel.
@@ -154,7 +154,7 @@ Nah, itu dia! Dengan memanfaatkan Aspose.Cells for .NET, mengonversi grafik Exce
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah Aspose.Cells mengonversi beberapa bagan sekaligus?
- Ya, Anda dapat melakukan pengulangan`worksheet.Charts` koleksi untuk mengonversi setiap grafik secara individual.
+ Ya, Anda dapat melakukan pengulangan melalui`worksheet.Charts` koleksi untuk mengonversi setiap grafik satu per satu.
 
 ### Apakah Aspose.Cells cocok untuk file Excel berukuran besar?
 Tentu saja! Aspose.Cells dioptimalkan untuk kinerja dan dapat menangani file Excel berukuran besar secara efisien.

@@ -33,7 +33,7 @@ Bu eğitim için, üzerinde oynayabileceğiniz bir grafik içeren örnek bir Exc
 
 ## Paketleri İçe Aktar
 
-Kodlamaya başlamadan önce Excel dosyaları ve içindeki grafiklerle etkileşime girmemizi sağlayacak gerekli paketleri içeri aktaralım.
+Kodlamaya başlamadan önce Excel dosyaları ve içindeki grafiklerle etkileşime girmemizi sağlayacak gerekli paketleri import edelim.
 
 ```csharp
 using System;

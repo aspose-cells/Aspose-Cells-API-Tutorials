@@ -120,7 +120,7 @@ workbook.Dispose();
 
 Bu adım, değişikliklerinizin kaydedilmesini ve çalışma kitabının uygun şekilde atılarak kaynakların serbest bırakılmasını sağlar.
 
-## Adım 8: Yürütmeyi Onaylayın
+## Adım 8: Uygulamayı Onaylayın
 
 İşleri toparlamak için, kodunuzun başarıyla yürütüldüğünü onaylamak iyi bir fikirdir. Bunu basit bir konsol mesajıyla yapabilirsiniz.
 

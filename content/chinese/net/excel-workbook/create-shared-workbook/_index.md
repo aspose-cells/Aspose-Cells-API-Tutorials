@@ -20,7 +20,7 @@ url: /zh/net/excel-workbook/create-shared-workbook/
 3. .NET Framework：确保已安装 .NET Framework。此示例适用于 .NET Core 或 .NET Framework 4.x。
 4. C# 基础知识：熟悉一点 C# 编程会大有帮助。如果您可以编写基本代码，那就没问题了！
 
-一旦满足这些先决条件，您就可以开始创建共享工作簿了。
+一旦满足了这些先决条件，您就可以开始创建共享工作簿了。
 
 ## 导入包
 
@@ -70,7 +70,7 @@ Workbook wb = new Workbook();
 
 ## 步骤 3：共享工作簿
 
-是时候让您的工作簿成为协作杰作了！共享它允许多个用户同时访问它。
+现在是时候让您的工作簿成为协作杰作了！共享它允许多个用户同时访问它。
 
 ```csharp
 //共享工作簿
@@ -106,7 +106,7 @@ Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ### 什么是共享工作簿？
 共享工作簿是一个允许多个用户同时协作处理的 Excel 文件。
 
-### 一旦共享了工作簿，我可以取消共享吗？
+### 工作簿共享后我可以取消共享吗？
 是的，您可以通过设置`Shared`财产`false`.
 
 ### 我需要许可证才能使用 Aspose.Cells 吗？

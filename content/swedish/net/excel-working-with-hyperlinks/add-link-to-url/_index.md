@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Byt till din väg
 ## Steg 2: Skapa ett arbetsboksobjekt
  Här skapar vi en instans av`Workbook` klass. Tänk på en arbetsbok som en tom duk för ditt kalkylblad.
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 I det här skedet har du i huvudsak sagt, "Hej, Aspose, låt oss skapa en ny Excel-fil!"

@@ -40,7 +40,7 @@ Pour commencer, ouvrez votre IDE C# (Visual Studio est fortement recommandé) et
 
 Une fois votre projet prêt, il est temps d'ajouter la bibliothèque Aspose.Cells. Vous pouvez l'installer à l'aide de NuGet :
 
-1. Dans « Explorateur de solutions », faites un clic droit sur votre projet.
+1. Dans « l’Explorateur de solutions », faites un clic droit sur votre projet.
 2. Sélectionnez Gérer les packages NuGet.
 3. Accédez à l’onglet Parcourir.
 4. Rechercher Aspose.Cells.
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Maintenant, examinons la feuille particulière qui contient le graphique à secteurs. Nous allons supposer que le graphique à secteurs se trouve sur la deuxième feuille de calcul (index 1) :
 
 ```csharp
-// Obtenez le tableau du concepteur dans la deuxième feuille.
+//Obtenez le tableau du concepteur dans la deuxième feuille.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

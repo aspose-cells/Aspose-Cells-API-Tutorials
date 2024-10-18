@@ -38,7 +38,7 @@ using Aspose.Cells.Rendering;
 
 ## 1단계: 출력 디렉토리 설정
 
-워크북과 차트를 만들기 전에 출력물을 저장할 위치를 설정해야 합니다. 이렇게 하면 차트가 생성될 때 정확히 어디에서 찾을 수 있는지 알 수 있습니다.
+워크북과 차트를 만들기 전에 출력이 저장될 위치를 설정해야 합니다. 이렇게 하면 차트가 생성될 때 차트를 찾을 위치를 정확히 알 수 있습니다.
 
 ```csharp
 string outputDir = "Your Output Directory"; // 여기에 출력 디렉토리를 지정하세요.
@@ -172,7 +172,7 @@ chart.ToPdf(outputDir + "outputChartRendering.pdf");
 네, Aspose.Cells를 사용하면 색상, 스타일, 차트 요소 등 광범위한 사용자 정의가 가능합니다.
 
 ### 무료 체험판이 있나요?
-물론입니다! 무료 체험판을 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+물론입니다! 무료 체험판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Aspose.Cells에 대한 지원은 어디서 받을 수 있나요?
  커뮤니티 지원 및 리소스는 다음에서 찾을 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).

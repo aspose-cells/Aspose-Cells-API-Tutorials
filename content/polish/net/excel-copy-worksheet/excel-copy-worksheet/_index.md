@@ -96,7 +96,7 @@ sheets.AddCopy("Sheet1");
 -  Możesz zastąpić`"Sheet1"` z dowolną nazwą arkusza, który chcesz skopiować.
 
 ## Krok 5: Zapisz skoroszyt
-Na koniec, po skopiowaniu arkusza, czas zapisać zaktualizowany plik Excela. Użyjemy metody Save, aby zapisać zmiany w nowym pliku.
+Na koniec, po skopiowaniu arkusza kalkulacyjnego, czas zapisać zaktualizowany plik Excela. Użyjemy metody Save, aby zapisać zmiany w nowym pliku.
 
 ```csharp
 wb.Save(dataDir + "CopyWithinWorkbook_out.xls");

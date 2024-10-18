@@ -2,7 +2,7 @@
 title: Configuración de datos del gráfico
 linktitle: Configuración de datos del gráfico
 second_title: API de procesamiento de Excel Aspose.Cells .NET
-description: Aprenda a configurar datos de gráficos usando Aspose.Cells para .NET a través de una guía detallada, paso a paso, perfecta para mejorar la visualización de datos.
+description: Aprenda a configurar datos gráficos usando Aspose.Cells para .NET a través de una guía detallada, paso a paso, perfecta para mejorar la visualización de datos.
 type: docs
 weight: 16
 url: /es/net/advanced-chart-operations/setting-chart-data/
@@ -116,7 +116,7 @@ Aquí es donde conectamos nuestro gráfico con los datos que hemos preparado.
 chart.NSeries.Add("A1:B4", true);
 ```
 
-Con este paso, le indicamos al gráfico de dónde extraer los datos. Al igual que cuando creamos una lista de reproducción agregando sus canciones favoritas a una lista, básicamente le indicamos al gráfico qué datos resaltar.
+Con este paso, le indicamos al gráfico de dónde extraer los datos. Al igual que cuando creamos una lista de reproducción agregando nuestras canciones favoritas a una lista, básicamente le indicamos al gráfico qué datos resaltar.
 
 ## Paso 9: Guarde el archivo Excel
 

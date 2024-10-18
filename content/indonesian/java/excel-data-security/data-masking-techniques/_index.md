@@ -71,7 +71,7 @@ Sekarang, mari kita jelajahi beberapa teknik penyembunyian data umum menggunakan
 Redaksi melibatkan penggantian data sensitif dengan placeholder atau nilai acak. Ini memastikan bahwa informasi asli tidak dapat disimpulkan.
 
 ```java
-// Redaksi nilai sel
+// Menyunting nilai sel
 cell.putValue("Sensitive Data");
 cell.setFormulaLocal("REDACT()");
 ```
@@ -88,7 +88,7 @@ cell.setFormulaLocal("SUBSTITUTE()");
 
 ### 3. Mengacak
 
-Pengacakan melibatkan penataan ulang data secara acak dalam satu set data.
+Pengacakan melibatkan penataan ulang data secara acak dalam satu kumpulan data.
 
 ```java
 // Mengacak rentang sel
@@ -112,7 +112,7 @@ Aspose menawarkan berbagai opsi lisensi untuk Aspose.Cells for Java, termasuk uj
 
 Aspose.Cells terutama menargetkan Java, tetapi Aspose juga menyediakan pustaka untuk bahasa lain seperti .NET, CBahasa Indonesia: ++, dan banyak lagi.
 
-### Apakah penyembunyian data dapat dikembalikan seperti semula?
+### Apakah penyembunyian data dapat dibatalkan?
 
 Teknik penyembunyian data biasanya dirancang agar tidak dapat diubah kembali, memastikan bahwa informasi sensitif tidak dapat ditemukan dengan mudah.
 

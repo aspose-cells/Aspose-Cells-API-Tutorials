@@ -16,7 +16,7 @@ Si vous vous lancez dans la manipulation de fichiers Excel avec Aspose.Cells pou
 Avant de commencer, assurons-nous que vous disposez de tous les outils nécessaires. Voici ce dont vous avez besoin :
 
 - Connaissances de base de la programmation C# : vous devez être familiarisé avec la syntaxe et les concepts de programmation.
--  Bibliothèque Aspose.Cells pour .NET : assurez-vous qu'elle est installée et prête à l'emploi. Vous pouvez télécharger la bibliothèque à partir de ce lien[lien](https://releases.aspose.com/cells/net/).
+-  Bibliothèque Aspose.Cells pour .NET : assurez-vous qu'elle est installée et prête à l'emploi. Vous pouvez télécharger la bibliothèque à partir de ce lien[lien](https://releases.aspose.com/cells/net/).
 - Visual Studio ou tout autre IDE C# : un environnement de développement est essentiel pour écrire et tester votre code.
 -  Exemple de fichier Excel : nous utiliserons un fichier Excel nommé`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`Vous pouvez créer ce fichier manuellement ou le télécharger selon vos besoins.
 
@@ -53,7 +53,7 @@ Ensuite, nous devons définir les données que nous souhaitons filtrer lors du c
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Le tilde (~) indique que nous souhaitons exclure les noms définis du processus de chargement. Ceci est crucial si vous souhaitez garder votre charge de travail légère et éviter les données inutiles qui peuvent compliquer votre traitement.
+Le tilde (~indique que nous souhaitons exclure les noms définis du processus de chargement. Ceci est crucial si vous souhaitez garder votre charge de travail légère et éviter les données inutiles qui peuvent compliquer votre traitement.
 
 ## Étape 3 : Charger le classeur
 
@@ -73,7 +73,7 @@ Après avoir chargé le classeur comme requis, l'étape suivante consiste à enr
 wb.Save(outputDir + "outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
 ```
 
-Cette ligne enregistre votre nouveau classeur dans un répertoire de sortie spécifié. Si votre classeur d'origine contenait des formules qui utilisaient des noms définis dans leurs calculs, veuillez noter que ces formules peuvent être interrompues en raison du filtrage.
+Cette ligne enregistre votre nouveau classeur dans un répertoire de sortie spécifié. Si votre classeur d'origine contenait des formules utilisant des noms définis dans leurs calculs, veuillez noter que ces formules peuvent être interrompues en raison du filtrage.
 
 ## Étape 5 : Confirmer l'exécution
 
@@ -89,7 +89,7 @@ Avec cette ligne, vous fournissez une indication claire que l’opération s’e
 
 Et voilà ! Le filtrage des noms définis lors du chargement d'un classeur avec Aspose.Cells pour .NET peut être réalisé en quelques étapes simples. Ce processus est extrêmement utile dans les scénarios où vous devez rationaliser votre traitement de données ou empêcher des données inutiles d'affecter vos calculs.
 
-En suivant ce guide, vous pouvez charger vos fichiers Excel en toute confiance tout en contrôlant les données que vous souhaitez exclure. Que vous développiez des applications qui gèrent de grands ensembles de données ou que vous implémentiez une logique métier spécifique, la maîtrise de cette fonctionnalité ne fera qu'améliorer vos compétences en matière de manipulation d'Excel.
+En suivant ce guide, vous pouvez charger vos fichiers Excel en toute confiance tout en contrôlant les données que vous souhaitez exclure. Que vous développiez des applications qui gèrent de grands ensembles de données ou que vous implémentiez une logique métier spécifique, la maîtrise de cette fonctionnalité ne fera qu'améliorer vos compétences en manipulation d'Excel.
 
 ## FAQ
 

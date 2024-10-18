@@ -43,7 +43,7 @@ Chcete-li začít, musíte vytvořit instanci sešitu. To je základ našeho sou
 Workbook wb = new Workbook();
 ```
 
- Inicializací`Workbook`nastavili jsme nový soubor Excel v paměti, připravený k manipulaci.
+ Inicializací`Workbook`, nastavili jsme nový soubor Excel v paměti, připravený k manipulaci.
 
 ## Krok 2: Nastavte nastavení sešitu
 
@@ -107,7 +107,7 @@ catch (Exception ex)
 }
 ```
 
-V tomto bloku kódu se pokoušíme nastavit neplatný formát vlastního čísla. Protože jsme v nastavení našeho sešitu povolili vyvolání výjimek, zachytí se všechny problémy a vytiskne se chybová zpráva.
+tomto bloku kódu se pokoušíme nastavit neplatný formát vlastního čísla. Protože jsme v nastavení našeho sešitu povolili vyvolání výjimek, zachytí se všechny problémy a vytiskne se chybová zpráva.
 
 ## Krok 7: Ověřte úspěšné provedení
 

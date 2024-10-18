@@ -16,7 +16,7 @@ url: /ar/java/excel-data-analysis/data-analysis-excel-formulas/
 
 للبدء في استخدام Aspose.Cells لـ Java، يتعين عليك إعداد بيئة Java الخاصة بك وتضمين مكتبة Aspose.Cells في مشروعك. فيما يلي الخطوات اللازمة للقيام بذلك:
 
-1.  تنزيل Aspose.Cells: قم بزيارة[Aspose.Cells لجافا](https://releases.aspose.com/cells/java/) لتنزيل الإصدار الأحدث من المكتبة.
+1.  تنزيل Aspose.Cells: قم بزيارة[Aspose.Cells لجافا](https://releases.aspose.com/cells/java/) لتحميل الإصدار الأحدث من المكتبة.
 
 2. إضافة Aspose.Cells إلى مشروعك: قم بتضمين ملف Aspose.Cells JAR في مسار بناء مشروع Java الخاص بك.
 
@@ -26,7 +26,7 @@ url: /ar/java/excel-data-analysis/data-analysis-excel-formulas/
 
 ### صيغة المجموع
 
-تُعد صيغة SUM واحدة من أكثر الدالات استخدامًا لتحليل البيانات في Excel. فهي تتيح لك جمع مجموعة من الأرقام بسرعة. وإليك كيفية استخدامها مع Aspose.Cells for Java:
+تُعد صيغة SUM واحدة من أكثر الدالات استخدامًا لتحليل البيانات في Excel. فهي تتيح لك جمع مجموعة من الأرقام بسرعة. وفيما يلي كيفية استخدامها مع Aspose.Cells for Java:
 
 ```java
 // إنشاء مصنف
@@ -49,7 +49,7 @@ double total = worksheet.getCells().get("A4").getDoubleValue();
 
 ### صيغة المتوسط
 
-تحسب صيغة AVERAGE متوسط نطاق من الأرقام. وإليك كيفية تطبيقها باستخدام Aspose.Cells:
+تحسب صيغة AVERAGE متوسط نطاق من الأرقام. إليك كيفية تطبيقها باستخدام Aspose.Cells:
 
 ```java
 // إنشاء مصنف (إذا لم يتم إنشاؤه بالفعل)

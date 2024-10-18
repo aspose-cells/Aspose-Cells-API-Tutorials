@@ -53,7 +53,7 @@ Vervolgens moet u een bestandsstroom maken om uw Excel-bestand te openen. Met de
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Hier geven we aan dat we willen openen`book1.xls` zich in de opgegeven directory bevindt. De`FileMode.Open` parameter geeft aan dat we een bestaand bestand openen. Zorg er altijd voor dat de bestandsnaam overeenkomt met wat u hebt.
+Hier geven we aan dat we willen openen`book1.xls` zich in de opgegeven directory bevindt. De`FileMode.Open` parameter geeft aan dat we een bestaand bestand openen. Zorg er altijd voor dat de bestandsnaam overeenkomt met wat u hebt.
 
 ## Stap 3: Een werkmapobject instantiëren
 
@@ -83,7 +83,7 @@ En nu het moment waar we op hebben gewacht! Dit is waar we daadwerkelijk de rij-
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Instelling`IsRowColumnHeadersVisible` naar`false` verbergt effectief de kopteksten in zowel rijen als kolommen, waardoor uw gegevenspresentatie er overzichtelijker uitziet.
+ Instelling`IsRowColumnHeadersVisible` naar`false`verbergt effectief de kopteksten in zowel rijen als kolommen, waardoor uw gegevenspresentatie er overzichtelijker uitziet.
 
 ## Stap 6: Sla het gewijzigde Excel-bestand op
 
@@ -103,7 +103,7 @@ Ten slotte moet u ervoor zorgen dat u de bestandsstroom sluit, zodat alle bronne
 fstream.Close();
 ```
 
- Het sluiten van de`fstream`is cruciaal omdat het ervoor zorgt dat er geen geheugenlekken of openstaande bestandsvergrendelingen in uw applicatie ontstaan.
+ Het sluiten van de`fstream` is cruciaal omdat het ervoor zorgt dat er geen geheugenlekken of openstaande bestandsvergrendelingen in uw applicatie ontstaan.
 
 ## Conclusie
 
@@ -121,7 +121,7 @@ Aspose.Cells is een krachtige .NET-bibliotheek voor het beheren van Excel-spread
  Hoewel u een gratis proefversie kunt gebruiken, is een licentie vereist voor doorlopend commercieel gebruik. U kunt de aankoopopties vinden[hier](https://purchase.aspose.com/buy).
 
 ### Is er ondersteuning beschikbaar voor Aspose.Cells?  
-Ja, Aspose biedt ondersteuning via hun forums, die u kunt raadplegen[hier](https://forum.aspose.com/c/cells/9).
+ Ja, Aspose biedt ondersteuning via hun forums, die u kunt raadplegen[hier](https://forum.aspose.com/c/cells/9).
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Cells krijgen?  
  U kunt een tijdelijke vergunning voor evaluatiedoeleinden aanvragen bij[deze link](https://purchase.aspose.com/temporary-license/).

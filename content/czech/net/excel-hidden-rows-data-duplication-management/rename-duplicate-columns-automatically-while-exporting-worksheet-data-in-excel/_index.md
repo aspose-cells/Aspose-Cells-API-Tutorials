@@ -38,7 +38,7 @@ Pro začátek musíme vytvořit sešit. Toto je kontejner pro všechny vaše lis
 Workbook wb = new Workbook();
 ```
  S tímto řádkem nová instance`Workbook` je inicializováno a představuje prázdnou tabulku. Berte to jako otevření nové knihy, do které zapíšete svá data.
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 Dále přistoupíme k prvnímu listu sešitu, kde budeme zadávat naše data.
 ```csharp
 Worksheet ws = wb.Worksheets[0];

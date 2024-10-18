@@ -17,7 +17,7 @@ Avant de plonger dans le code, il y a quelques éléments que vous devrez config
 
 1. Visual Studio : vous aurez besoin d'un environnement de développement intégré (IDE) pour écrire et exécuter votre code .NET. Visual Studio est le choix idéal.
 2.  Bibliothèque Aspose.Cells : Assurez-vous que la bibliothèque Aspose.Cells est disponible dans votre projet. Vous pouvez la télécharger à partir du[site](https://releases.aspose.com/cells/net/).
-3. Connaissances de base de C# : bien que nous allons parcourir cela ensemble, avoir une certaine compréhension fondamentale de C# sera certainement utile, en particulier lors de la navigation dans différentes classes et méthodes.
+3. Connaissances de base de C# : Bien que nous allons parcourir cela ensemble, avoir une certaine compréhension fondamentale de C# sera certainement utile, en particulier lors de la navigation dans différentes classes et méthodes.
 4. Exemples de fichiers Excel : vous aurez besoin des fichiers Excel mentionnés dans l'extrait de code. Assurez-vous d'avoir :
    - `SamplePowerQueryFormula.xlsx`
    - `SamplePowerQueryFormulaSource.xlsx`

@@ -23,7 +23,7 @@ url: /zh/net/excel-subtotal-calculation/create-subtotals-in-excel/
 using System.IO;
 using Aspose.Cells;
 ```
-这会从 Aspose 库中导入我们需要的所有东西来操作 Excel 文件。现在，让我们逐步分解代码以在 Excel 工作表中创建小计。
+这会从 Aspose 库中导入我们需要的所有内容来操作 Excel 文件。现在，让我们逐步分解代码以在 Excel 工作表中创建小计。
 ## 步骤 1：设置文件路径
 首先，我们需要定义 Excel 文件的位置。在这里，我们要告诉程序我们的文档目录。
 ```csharp

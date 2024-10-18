@@ -18,7 +18,7 @@ url: /zh-hant/net/excel-workbook/get-odata-details/
 1. Visual Studio：確保已安裝 Visual Studio。它是 .NET 開發的理想環境。
 2.  Aspose.Cells 函式庫：從下列位置下載並安裝 .NET 適用的 Aspose.Cells 函式庫：[Aspose下載頁面](https://releases.aspose.com/cells/net/)。您也可以嘗試免費試用版[這裡](https://releases.aspose.com/).
 3. C# 基礎知識：熟悉 C# 程式設計將幫助您更好地理解程式碼的細微差別。
-4. 範例 Excel 檔案：在本教學中，我們將使用名為「ODataSample.xlsx」的 Excel 文件，該文件應儲存在您的工作目錄中。
+4. 範例 Excel 檔案：在本教程中，我們將使用名為「ODataSample.xlsx」的 Excel 文件，該文件應儲存在您的工作目錄中。
 
 準備好這些組件後，您就可以開始輕鬆提取 OData 詳細資訊了！
 
@@ -109,7 +109,7 @@ Console.WriteLine("GetOdataDetails executed successfully.");
 
 ## 結論
 
-現在你就擁有了！透過幾個簡單的步驟，您就利用了 Aspose.Cells for .NET 的強大功能從 Excel 檔案中提取 OData 詳細資訊。令人驚訝的是，使用正確的工具和說明來深入研究複雜的資料管理任務是多麼簡單。透過使用 Aspose.Cells，您不僅可以讓您的工作變得更輕鬆；還可以讓您的工作更加輕鬆。您正在開啟資料操作的全新可能性領域。現在您已經掌握了基礎知識，請繼續進一步探索其功能 - 它會改變遊戲規則！
+現在你就得到它了！透過幾個簡單的步驟，您就利用了 Aspose.Cells for .NET 的強大功能從 Excel 檔案中提取 OData 詳細資訊。令人驚訝的是，使用正確的工具和說明來深入研究複雜的資料管理任務是多麼簡單。透過使用 Aspose.Cells，您不僅可以讓您的工作變得更輕鬆；還可以讓您的工作更加輕鬆。您正在開啟資料操作的全新可能性領域。現在您已經掌握了基礎知識，請繼續進一步探索其功能 - 它會改變遊戲規則！
 
 ## 常見問題解答
 

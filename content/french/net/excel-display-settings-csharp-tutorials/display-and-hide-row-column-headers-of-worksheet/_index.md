@@ -15,7 +15,7 @@ Il est essentiel de veiller à ce que vos feuilles de calcul Excel aient une app
 
 Avant de passer au code, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer :
 
-1.  Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells pour .NET est téléchargée et installée. Vous pouvez l'obtenir à partir de[ici](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells pour .NET : Assurez-vous que la bibliothèque Aspose.Cells pour .NET est téléchargée et installée. Vous pouvez l'obtenir à partir de[ici](https://releases.aspose.com/cells/net/).
 2. Environnement de développement : vous devez disposer d'un environnement de développement .NET. Visual Studio est parfait pour cela.
 3. Connaissances de base de C# : il est utile d’avoir une compréhension fondamentale de la programmation C# et de la manière de travailler avec les flux de fichiers.
 
@@ -53,7 +53,7 @@ Ensuite, vous devrez créer un flux de fichiers pour ouvrir votre fichier Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Ici, nous précisons que nous voulons ouvrir`book1.xls` situé dans le répertoire spécifié.`FileMode.Open` Le paramètre indique que nous ouvrons un fichier existant. Assurez-vous toujours que le nom du fichier correspond à ce que vous avez.
+Ici, nous précisons que nous voulons ouvrir`book1.xls` situé dans le répertoire spécifié.`FileMode.Open` Le paramètre indique que nous ouvrons un fichier existant. Assurez-vous toujours que le nom du fichier correspond à celui que vous avez.
 
 ## Étape 3 : instancier un objet classeur
 
@@ -75,15 +75,15 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 Dans cet extrait de code, nous accédons à la première feuille de calcul du classeur. Si vous avez plusieurs feuilles et que vous souhaitez accéder à une autre, modifiez l'index en conséquence.
 
-## Étape 5 : Masquer les en-têtes de ligne et de colonne
+## Étape 5 : masquer les en-têtes de ligne et de colonne
 
-Passons maintenant au moment que nous attendions ! C'est ici que nous masquons les en-têtes de ligne et de colonne de notre feuille de calcul.
+Et maintenant, le moment que nous attendions ! C'est ici que nous masquons les en-têtes de ligne et de colonne de notre feuille de calcul.
 
 ```csharp
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Paramètre`IsRowColumnHeadersVisible` à`false` masquera efficacement les en-têtes des lignes et des colonnes, créant ainsi une apparence plus propre pour la présentation de vos données.
+ Paramètre`IsRowColumnHeadersVisible` à`false`masquera efficacement les en-têtes des lignes et des colonnes, créant ainsi une apparence plus propre pour la présentation de vos données.
 
 ## Étape 6 : Enregistrer le fichier Excel modifié
 
@@ -103,7 +103,7 @@ Enfin, vous devez vous assurer de fermer le flux de fichiers afin que toutes les
 fstream.Close();
 ```
 
- Fermeture de la`fstream`est crucial car il garantit qu'aucune fuite de mémoire ou aucun verrou de fichier ne reste ouvert dans votre application.
+ Fermeture de la`fstream` est crucial car il garantit qu'aucune fuite de mémoire ou aucun verrou de fichier ne reste ouvert dans votre application.
 
 ## Conclusion
 
@@ -121,7 +121,7 @@ Aspose.Cells est une puissante bibliothèque .NET pour la gestion des feuilles d
  Bien que vous puissiez utiliser une version d'essai gratuite, une licence est requise pour une utilisation commerciale continue. Vous pouvez trouver les options d'achat[ici](https://purchase.aspose.com/buy).
 
 ### Existe-t-il un support disponible pour Aspose.Cells ?  
-Oui, Aspose fournit une assistance via ses forums, auxquels vous pouvez accéder[ici](https://forum.aspose.com/c/cells/9).
+ Oui, Aspose fournit une assistance via ses forums, auxquels vous pouvez accéder[ici](https://forum.aspose.com/c/cells/9).
 
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Cells ?  
  Vous pouvez demander une licence temporaire à des fins d'évaluation à[ce lien](https://purchase.aspose.com/temporary-license/).

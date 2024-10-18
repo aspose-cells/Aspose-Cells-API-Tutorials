@@ -2,7 +2,7 @@
 title: Regex-Ersetzung
 linktitle: Regex-Ersetzung
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erfahren Sie, wie Sie Regex-Ersetzungen in Excel mit Aspose.Cells für .NET effizient nutzen. Steigern Sie die Produktivität und Genauigkeit Ihrer Tabellenkalkulationsaufgaben.
+description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET Regex-Ersetzungen in Excel effizient nutzen. Steigern Sie die Produktivität und Genauigkeit Ihrer Tabellenkalkulationsaufgaben.
 type: docs
 weight: 140
 url: /de/net/excel-workbook/regex-replace/
@@ -15,14 +15,14 @@ Sind Sie es leid, stundenlang akribische Änderungen an Ihren Excel-Tabellen man
 
 Bevor wir uns in die Details der Codierung stürzen, stellen wir sicher, dass Sie für die bevorstehende Reise gut gerüstet sind.
 
-1. .NET Framework: Stellen Sie sicher, dass Sie eine .NET-Umgebung eingerichtet haben. Egal, ob .NET Core oder .NET Framework, Sie können problemlos loslegen.
+1. .NET Framework: Stellen Sie sicher, dass Sie eine .NET-Umgebung eingerichtet haben. Egal, ob .NET Core oder .NET Framework, Sie können loslegen.
 2.  Aspose.Cells-Bibliothek: Diese Bibliothek ist Ihr Schlüssel zur Freischaltung leistungsstarker Tabellenkalkulationsmanipulationen. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 3. Eine IDE: Verwenden Sie Ihre bevorzugte integrierte Entwicklungsumgebung (IDE) wie Visual Studio, wodurch das Codieren wesentlich reibungsloser abläuft.
 4. Grundlegende Programmierkenntnisse: Vertrautheit mit C# und den Konzepten regulärer Ausdrücke ist von Vorteil.
 
 ## Einrichten der Umgebung
 
-Stellen Sie zunächst sicher, dass Sie Ihr Projekt eingerichtet haben, indem Sie die Aspose.Cells-Bibliothek hinzufügen. Dies können Sie über den NuGet-Paket-Manager in Visual Studio tun.
+Stellen Sie zunächst sicher, dass Sie Ihr Projekt eingerichtet haben, indem Sie die Aspose.Cells-Bibliothek hinzufügen. Dies können Sie über den NuGet Package Manager in Visual Studio tun.
 
 1. Öffnen Sie Ihr Projekt und navigieren Sie zu Tools > NuGet-Paket-Manager > NuGet-Pakete für Lösung verwalten.
 2.  Suchen nach`Aspose.Cells` und installieren Sie es.

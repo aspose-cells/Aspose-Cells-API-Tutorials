@@ -16,7 +16,7 @@ Khi nói đến việc quản lý các tệp Excel theo chương trình, nhiều
 Trước khi bắt đầu cuộc phiêu lưu lập trình, hãy dành chút thời gian để đảm bảo bạn có mọi thứ cần thiết để theo dõi. Sau đây là danh sách kiểm tra:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio vì đây là môi trường phát triển mà chúng ta sẽ sử dụng.
-2. .NET Framework: Đảm bảo dự án của bạn được thiết lập với .NET Framework tương thích với Aspose.Cells. Nhìn chung, .NET Core hoặc .NET Framework 4.5 trở lên sẽ hoạt động.
+2. .NET Framework: Đảm bảo dự án của bạn được thiết lập với .NET Framework tương thích với Aspose.Cells. Nói chung, .NET Core hoặc .NET Framework 4.5 trở lên sẽ hoạt động.
 3.  Thư viện Aspose.Cells: Bạn sẽ cần phải có Aspose.Cells cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Việc quen thuộc với cú pháp và cấu trúc C# là rất quan trọng vì chúng ta sẽ viết các đoạn mã trong suốt hướng dẫn này.
 

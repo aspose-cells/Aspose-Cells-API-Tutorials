@@ -2,14 +2,14 @@
 title: Visualizza e nascondi le barre di scorrimento del foglio di lavoro
 linktitle: Visualizza e nascondi le barre di scorrimento del foglio di lavoro
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come visualizzare e nascondere le barre di scorrimento nei fogli di lavoro di Excel utilizzando Aspose.Cells per .NET con questo tutorial dettagliato e facile da seguire.
+description: Scopri come visualizzare e nascondere le barre di scorrimento nei fogli di lavoro Excel utilizzando Aspose.Cells per .NET con questo tutorial dettagliato e facile da seguire.
 type: docs
 weight: 50
 url: /it/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
 ---
 ## Introduzione
 
-Gestire i file Excel a livello di programmazione può spesso sembrare una magia! Che tu voglia migliorare l'esperienza utente o semplificare l'interfaccia della tua applicazione di foglio di calcolo, controllare componenti visivi come le barre di scorrimento è essenziale. In questa guida, esploreremo come visualizzare e nascondere le barre di scorrimento di un foglio di lavoro utilizzando Aspose.Cells per .NET. Se sei alle prime armi o stai cercando di affinare le tue competenze, sei nel posto giusto!
+Gestire i file Excel a livello di programmazione può spesso sembrare una magia! Che tu voglia migliorare l'esperienza utente o semplificare l'interfaccia della tua applicazione di fogli di calcolo, controllare componenti visivi come le barre di scorrimento è essenziale. In questa guida, esploreremo come visualizzare e nascondere le barre di scorrimento di un foglio di lavoro utilizzando Aspose.Cells per .NET. Se sei alle prime armi o stai cercando di affinare le tue competenze, sei nel posto giusto!
 
 ## Prerequisiti
 
@@ -45,7 +45,7 @@ Qui puoi specificare il percorso del file Excel con cui vuoi lavorare.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Sostituire`YOUR DOCUMENT DIRECTORY`con il percorso effettivo in cui è archiviato il tuo file Excel. Ciò consente al tuo programma di trovare i file necessari che manipolerà.
+ Sostituire`YOUR DOCUMENT DIRECTORY` con il percorso effettivo in cui è archiviato il tuo file Excel. Ciò consente al tuo programma di trovare i file necessari che manipolerà.
 
 ## Passaggio 2: creare un flusso di file
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Questo`Workbook` L'oggetto ora contiene tutti i dati e le impostazioni del file Excel, consentendone la manipolazione in un secondo momento nel processo.
+ Questo`Workbook`L'oggetto ora contiene tutti i dati e le impostazioni del file Excel, consentendone la manipolazione in un secondo momento nel processo.
 
 ## Passaggio 4: nascondere la barra di scorrimento verticale
 
@@ -111,7 +111,7 @@ Infine, ricordatevi sempre di chiudere i flussi di file per liberare risorse di 
 fstream.Close();
 ```
   
-Chiudere il flusso è una buona pratica per prevenire perdite di memoria e garantire il corretto funzionamento dell'applicazione.
+Chiudere il flusso è una buona pratica per evitare perdite di memoria e garantire il corretto funzionamento dell'applicazione.
 
 ## Conclusione
 
@@ -123,7 +123,7 @@ Seguendo questi semplici passaggi, hai imparato come visualizzare e nascondere l
  Sì! Devi solo impostare`IsVScrollBarVisible` E`IsHScrollBarVisible` torna a`true`.
 
 ### Aspose.Cells è gratuito?  
-Aspose.Cells non è completamente gratuito, ma puoi provarlo gratuitamente per un periodo di tempo limitato o prendere in considerazione l'acquisto[una licenza temporanea](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells non è completamente gratuito, ma puoi provarlo gratuitamente per un periodo di tempo limitato o prendere in considerazione l'acquisto[una licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
 ### Quali tipi di file Excel posso manipolare con Aspose.Cells?  
 È possibile lavorare con vari formati Excel, tra cui .xls, .xlsx, .xlsm, .xlsb, ecc.

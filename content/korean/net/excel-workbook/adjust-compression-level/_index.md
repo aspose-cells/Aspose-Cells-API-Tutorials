@@ -18,7 +18,7 @@ url: /ko/net/excel-workbook/adjust-compression-level/
 1. C#에 대한 기본 지식: C# 프로그래밍에 대한 기초적인 이해가 필수적입니다. 변수, 루프, 기본 파일 작업에 익숙하다면 괜찮습니다!
 2. .NET 라이브러리용 Aspose.Cells: Aspose.Cells 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/cells/net/) . 방금 시작했다면 무료 체험판을 고려해 보세요.[여기](https://releases.aspose.com/).
 3. 개발 환경: C# 코드를 작성하고 실행하기 위해 Visual Studio와 같은 개발 환경을 설정합니다. 
-4. 샘플 Excel 파일: 테스트를 위해 큰 Excel 파일을 준비하세요. 하나를 만들거나 기존 파일을 사용할 수 있지만, 압축 효과를 볼 수 있을 만큼 충분히 큰지 확인하세요.
+4. 샘플 Excel 파일: 테스트를 위해 큰 Excel 파일을 준비하세요. 하나를 만들거나 기존 파일을 사용할 수 있지만 압축 효과를 볼 수 있을 만큼 충분히 큰지 확인하세요.
 
 이러한 전제 조건을 갖추었으니 시작해 볼까요!
 
@@ -85,7 +85,7 @@ var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
 ```
 
-이 스니펫에서는 압축 유형을 수준 1로 설정하고, 통합 문서를 저장하고, 걸리는 시간을 기록합니다. 
+이 스니펫에서는 압축 유형을 수준 1로 설정하고 통합 문서를 저장한 다음 걸리는 시간을 기록합니다. 
 
 ### 레벨 6 압축
 
@@ -119,7 +119,7 @@ Console.WriteLine("Level 9 Elapsed Time: " + elapsedMs);
 
 ## 5단계: 최종 출력
 
-위의 모든 단계를 실행한 후에는 각 압축 레벨에 대한 경과 시간이 콘솔에 인쇄됩니다. 
+위의 모든 단계를 실행하면 각 압축 레벨에 대한 경과 시간이 콘솔에 인쇄됩니다. 
 
 ```csharp
 Console.WriteLine("AdjustCompressionLevel executed successfully.");

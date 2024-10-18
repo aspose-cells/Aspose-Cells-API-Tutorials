@@ -1,7 +1,7 @@
 ---
 title: Definindo dados de categoria
 linktitle: Definindo dados de categoria
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como definir dados de categoria em gráficos do Excel usando Aspose.Cells para .NET. Siga nosso tutorial passo a passo para uma implementação fácil.
 type: docs
 weight: 15
@@ -140,7 +140,7 @@ Aqui vem a parte crucial — definir nossos dados de categoria. É isso que rotu
 chart.NSeries.CategoryData = "C1:C4";
 ```
 
-Ao atribuir esse intervalo, informamos ao gráfico quais células correspondem às categorias em nossa série de dados. Sem essa etapa, seu gráfico seria apenas um conjunto de números!
+Ao atribuir esse intervalo, dizemos ao gráfico quais células correspondem às categorias em nossa série de dados. Sem essa etapa, seu gráfico seria apenas um conjunto de números!
 
 ## Etapa 11: Salvando o arquivo Excel
 

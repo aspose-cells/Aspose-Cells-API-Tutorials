@@ -2,7 +2,7 @@
 title: 高度なデータ検証テクニック
 linktitle: 高度なデータ検証テクニック
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用して、Excel の高度なデータ検証テクニックを習得します。カスタム ルール、ドロップダウン リストなどを作成し、正確なデータ制御を行う方法を学習します。
+description: Aspose.Cells for Java を使用して、Excel の高度なデータ検証テクニックを習得します。正確なデータ制御のために、カスタム ルール、ドロップダウン リストなどを作成する方法を学習します。
 type: docs
 weight: 19
 url: /ja/java/data-validation-rules/advanced-data-validation-techniques/
@@ -90,7 +90,7 @@ dataValidation.setFormula2("12/31/2023");
 
 ### Aspose.Cells for Java を使用してカスタム検証ルールを作成できますか?
 
-はい、この記事で説明されているように、カスタム検証式を使用してカスタム検証ルールを作成できます。
+はい、この記事で説明されているように、カスタム検証数式を使用してカスタム検証ルールを作成できます。
 
 ### Aspose.Cells for Java は日付と時刻の検証に適していますか?
 

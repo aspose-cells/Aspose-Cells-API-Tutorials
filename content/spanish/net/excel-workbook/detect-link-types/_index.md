@@ -24,7 +24,7 @@ Antes de comenzar a explorar los tipos de hipervínculos, es fundamental asegura
 
 ## Importar paquetes
 
-Comencemos importando los paquetes necesarios. En su aplicación C#, deberá hacer referencia a la biblioteca Aspose.Cells y a cualquier otro espacio de nombres requerido. A continuación, le indicamos cómo configurarlo.
+Comencemos importando los paquetes necesarios. En su aplicación C#, deberá hacer referencia a la biblioteca Aspose.Cells y a cualquier otro espacio de nombres requerido. A continuación, le indicamos cómo realizar la configuración.
 
 ### Configura tu proyecto
 
@@ -63,11 +63,11 @@ Esta línea apunta al directorio que contiene el archivo de Excel. Asegúrate de
 A continuación, cargaremos nuestro libro de trabajo. Esto es como abrir un archivo de Excel en segundo plano, lo que nos permite leer y manipular su contenido.
 
 ```csharp
-//Cargar el libro de trabajo
+// Cargar el libro de trabajo
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Esto es lo que está sucediendo: estamos creando una instancia de la`Workbook` clase y pasar la ruta de nuestro archivo de Excel. Si todo va bien, ¡tu libro de trabajo ya está listo para funcionar!
+Esto es lo que está sucediendo: estamos creando una instancia de la`Workbook` clase y pasar la ruta de nuestro archivo de Excel. Si todo va bien, ¡tu libro de trabajo ya está listo para funcionar!
 
 ## Paso 3: Acceda a la hoja de trabajo
 
@@ -96,7 +96,7 @@ Con este rango, podemos recuperar fácilmente hipervínculos dentro de estas cel
 Ahora viene la parte emocionante: ¡extraer los hipervínculos! Extraeremos los hipervínculos de nuestro rango definido.
 
 ```csharp
-// Obtener hipervínculos dentro del alcance
+//Obtener hipervínculos dentro del alcance
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

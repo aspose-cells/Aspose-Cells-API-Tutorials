@@ -21,7 +21,7 @@ Việc tự động hóa biểu đồ Excel mang lại một số lợi ích:
 
 ## Bắt đầu
 
-### 1. Thiết lập Môi trường
+### 1. Thiết lập môi trường
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 
@@ -110,4 +110,4 @@ Tự động hóa biểu đồ Excel với Aspose.Cells for Java giúp đơn gi�
 ### 4. Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
     Khám phá tài liệu API tại[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
 
-Tự động hóa tác vụ lập biểu đồ Excel của bạn một cách dễ dàng bằng Aspose.Cells for Java và nâng cao khả năng trực quan hóa dữ liệu.
+Tự động hóa tác vụ lập biểu đồ Excel của bạn một cách dễ dàng bằng Aspose.Cells for Java và nâng cao khả năng trực quan hóa dữ liệu của bạn.

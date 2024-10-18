@@ -53,7 +53,7 @@ for (String filePath : excelFiles) {
     // Załaduj plik Excel
     Workbook fileWorkbook = new Workbook(filePath);
     
-    //Wykonaj zadania przetwarzania na pliku Skoroszyt
+    //Wykonaj zadania przetwarzania na plikuWorkbook
 }
 ```
 
@@ -94,7 +94,7 @@ Automatyzacja przetwarzania wsadowego Excela za pomocą Aspose.Cells for Java up
    Tak, Aspose.Cells for Java obsługuje różne formaty plików Excel.
 
 ### 2. Jak mogę wydajnie przetwarzać dużą liczbę plików Excela?
-   Aby efektywnie obsługiwać duże partie plików, można wykorzystać przetwarzanie równoległe i wielowątkowość.
+   Aby efektywnie obsługiwać duże partie plików, można zastosować przetwarzanie równoległe i wielowątkowość.
 
 ### 3. Czy istnieją jakieś wymagania licencyjne dla Aspose.Cells dla Java?
    Tak, aby używać Aspose.Cells for Java w swoich projektach, musisz posiadać ważną licencję.

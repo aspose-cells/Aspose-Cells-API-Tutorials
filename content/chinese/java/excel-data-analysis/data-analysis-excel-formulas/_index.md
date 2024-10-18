@@ -16,11 +16,11 @@ url: /zh/java/excel-data-analysis/data-analysis-excel-formulas/
 
 要开始使用 Aspose.Cells for Java，您需要设置 Java 环境并在项目中包含 Aspose.Cells 库。具体步骤如下：
 
-1. 下载 Aspose.Cells：访问[Aspose.Cells for Java](https://releases.aspose.com/cells/java/)下载该库的最新版本。
+1. 下载 Aspose.Cells：访问[Java 版 Aspose.Cells](https://releases.aspose.com/cells/java/)下载该库的最新版本。
 
 2. 将 Aspose.Cells 添加到您的项目：将 Aspose.Cells JAR 文件包含在您的 Java 项目的构建路径中。
 
-现在我们已经准备好环境，让我们探索一些基本的数据分析技术。
+现在我们已经准备好了环境，让我们探索一些基本的数据分析技术。
 
 ## 数据分析的基本 Excel 公式
 
@@ -40,7 +40,7 @@ worksheet.getCells().get("A1").putValue(10);
 worksheet.getCells().get("A2").putValue(20);
 worksheet.getCells().get("A3").putValue(30);
 
-//使用 SUM 公式计算总数
+//使用 SUM 公式计算总计
 worksheet.getCells().get("A4").setFormula("=SUM(A1:A3)");
 
 //获取结果
@@ -49,7 +49,7 @@ double total = worksheet.getCells().get("A4").getDoubleValue();
 
 ### 平均值公式
 
-AVERAGE 公式计算一系列数字的平均值。以下是使用 Aspose.Cells 应用它的方法：
+AVERAGE 公式计算一系列数字的平均值。以下是使用 Aspose.Cells 应用该公式的方法：
 
 ```java
 //创建工作簿（如果尚未创建）
@@ -92,7 +92,7 @@ pivotTable.calculateData();
 
 ### Aspose.Cells for Java 可以免费使用吗？
 
-不是，Aspose.Cells for Java 是一个需要支付许可费的商业库。您可以访问[Aspose 网站](https://www.aspose.com/)了解有关其定价的更多信息。
+不是，Aspose.Cells for Java 是一个需要支付许可费的商业库。您可以访问[Aspose 网站](https://www.aspose.com/)以了解有关其定价的更多信息。
 
 ### 我可以在桌面和 Web 应用程序中使用 Aspose.Cells for Java 吗？
 

@@ -29,7 +29,7 @@ Jako u každého kódovacího dobrodružství je prvním krokem shromáždit si 
 1. Otevřete svůj projekt C# ve Visual Studiu.
 2. V Průzkumníku řešení klikněte pravým tlačítkem na projekt a vyberte Spravovat balíčky NuGet.
 3.  Hledat`Aspose.Cells` a klikněte na Instalovat.
-4. Po instalaci můžete začít používat knihovnu ve vašem kódu.
+4. Po instalaci můžete začít používat knihovnu ve svém kódu.
 
 ### Přidání pomocí směrnice
 
@@ -51,7 +51,7 @@ Za prvé – potřebujete místo pro uložení souboru Excel. Zde je návod, jak
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Vytvořte adresář, pokud ještě není přítomen.
+//Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

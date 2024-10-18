@@ -2,7 +2,7 @@
 title: Excel批次處理
 linktitle: Excel批次處理
 second_title: Aspose.Cells Java Excel 處理 API
-description: 了解如何使用 Aspose.Cells for Java 簡化批次 Excel 處理任務。使用原始碼範例自動執行資料處理、轉換和操作。
+description: 了解如何使用 Aspose.Cells for Java 簡化批次 Excel 處理任務。使用原始程式碼範例自動執行資料處理、轉換和操作。
 type: docs
 weight: 10
 url: /zh-hant/java/spreadsheet-automation/batch-excel-processing/

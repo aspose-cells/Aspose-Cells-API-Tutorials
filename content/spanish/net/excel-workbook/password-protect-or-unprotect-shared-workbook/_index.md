@@ -77,7 +77,7 @@ Si cambia de opinión o necesita editar el libro de trabajo más tarde, puede de
 
 Cuando esté listo para realizar modificaciones nuevamente, simplemente llame a este método con la contraseña correcta.
 
-## Paso 5: Guardar el archivo de Excel de salida
+## Paso 5: Guarde el archivo de Excel de salida
 
 El toque final es guardar el libro de trabajo. Aquí es donde se almacena el trabajo realizado para su uso futuro, de forma muy similar a guardar un documento en la computadora.
 
@@ -100,12 +100,12 @@ Console.WriteLine("PasswordProtectOrUnprotectSharedWorkbook executed successfull
 
 ## Conclusión
 
-En este tutorial, hemos explicado cómo proteger y desproteger un libro de trabajo compartido con Aspose.Cells para .NET. Si sigue estos pasos, podrá asegurarse de que sus archivos de Excel permanezcan seguros y, al mismo tiempo, permita la colaboración. Ya sea que comparta datos financieros confidenciales o información de clientes, proteger su trabajo es fundamental en el entorno actual.
+En este tutorial, hemos explicado cómo proteger y desproteger un libro compartido con Aspose.Cells para .NET. Si sigue estos pasos, podrá asegurarse de que sus archivos de Excel permanezcan seguros y, al mismo tiempo, permita la colaboración. Ya sea que comparta datos financieros confidenciales o información de clientes, proteger su trabajo es fundamental en el entorno actual.
 
 ## Preguntas frecuentes
 
 ### ¿Puedo utilizar contraseñas más complejas?
-¡Por supuesto! Puedes usar cualquier cadena que cumpla con los requisitos de tu política de contraseñas.
+¡Por supuesto! Puedes utilizar cualquier cadena que cumpla con los requisitos de tu política de contraseñas.
 
 ### ¿Qué pasa si olvido la contraseña?
 Lamentablemente, si olvida la contraseña, no podrá desproteger el libro de trabajo sin recurrir a herramientas o expertos de terceros.

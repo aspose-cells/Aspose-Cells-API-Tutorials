@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Nyní vytvoříte instanci třídy Workbook, která představuje soubor aplikace Excel.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Dále budete potřebovat přístup k listu, na kterém chcete nastavit orientaci. Protože každý sešit může mít více listů, měli byste výslovně uvést, se kterým pracujete.
 
 ```csharp
-//Přístup k prvnímu listu v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

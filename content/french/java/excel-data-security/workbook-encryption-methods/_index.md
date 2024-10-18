@@ -14,7 +14,7 @@ url: /fr/java/excel-data-security/workbook-encryption-methods/
 
 ## Comprendre le chiffrement des classeurs
 
-Avant de nous plonger dans les détails de la mise en œuvre, commençons par comprendre ce qu'est le chiffrement des classeurs et pourquoi il est essentiel. Le chiffrement des classeurs est le processus de sécurisation du contenu d'un classeur Excel en appliquant des algorithmes de chiffrement aux données qu'il contient. Cela garantit que seuls les utilisateurs autorisés disposant de la clé de déchiffrement peuvent accéder au contenu du classeur et le visualiser, préservant ainsi vos données sensibles des regards indiscrets.
+Avant de nous plonger dans les détails de la mise en œuvre, commençons par comprendre ce qu'est le chiffrement d'un classeur et pourquoi il est essentiel. Le chiffrement d'un classeur est le processus de sécurisation du contenu d'un classeur Excel en appliquant des algorithmes de chiffrement aux données qu'il contient. Cela garantit que seuls les utilisateurs autorisés disposant de la clé de déchiffrement peuvent accéder au contenu du classeur et le visualiser, préservant ainsi vos données sensibles des regards indiscrets.
 
 ## Prérequis
 

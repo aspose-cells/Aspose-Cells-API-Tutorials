@@ -10,7 +10,7 @@ url: /id/java/advanced-excel-charts/waterfall-charts/
 
 ## Pengenalan Grafik Waterfall menggunakan Aspose.Cells untuk Java
 
-Bagan waterfall merupakan alat penting dalam visualisasi data, yang memungkinkan Anda melacak efek kumulatif dari nilai positif atau negatif yang dimasukkan secara berurutan. Dalam panduan ini, kita akan menjelajahi cara membuat bagan waterfall yang menakjubkan menggunakan API Aspose.Cells for Java. Baik Anda mengerjakan laporan keuangan, analisis penjualan, atau proyek berbasis data apa pun, bagan waterfall dapat memberikan wawasan berharga tentang data Anda.
+Bagan waterfall merupakan alat penting dalam visualisasi data, yang memungkinkan Anda melacak efek kumulatif dari nilai positif atau negatif yang dimasukkan secara berurutan. Dalam panduan ini, kita akan menjelajahi cara membuat bagan waterfall yang menakjubkan menggunakan Aspose.Cells untuk API Java. Baik Anda mengerjakan laporan keuangan, analisis penjualan, atau proyek berbasis data apa pun, bagan waterfall dapat memberikan wawasan berharga tentang data Anda.
 
 ## Prasyarat
 
@@ -62,7 +62,7 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-Dalam contoh ini, kita memiliki kategori di kolom A dan nilai terkait di kolom B. Anda dapat mengganti data ini dengan kumpulan data Anda sendiri.
+Dalam contoh ini, kita memiliki kategori di kolom A dan nilai yang sesuai di kolom B. Anda dapat mengganti data ini dengan kumpulan data Anda sendiri.
 
 ## Langkah 4: Buat Bagan Air Terjun
 
@@ -85,7 +85,7 @@ Simpan buku kerja ke dalam sebuah berkas. Anda dapat memilih format apa pun yang
 
 ## Kesimpulan
 
-Membuat diagram waterfall menggunakan Aspose.Cells untuk Java mudah dan dapat meningkatkan kemampuan visualisasi data Anda. Dengan mengikuti langkah-langkah ini, Anda dapat secara efisien menyajikan perubahan data kumulatif dengan cara yang menarik secara visual. Bereksperimenlah dengan berbagai kumpulan data dan kustomisasi diagram untuk memenuhi kebutuhan proyek Anda dengan sebaik-baiknya.
+Membuat diagram waterfall menggunakan Aspose.Cells for Java mudah dan dapat meningkatkan kemampuan visualisasi data Anda. Dengan mengikuti langkah-langkah ini, Anda dapat secara efisien menyajikan perubahan data kumulatif dengan cara yang menarik secara visual. Bereksperimenlah dengan berbagai kumpulan data dan kustomisasi diagram untuk memenuhi kebutuhan proyek Anda dengan sebaik-baiknya.
 
 ## Pertanyaan yang Sering Diajukan
 

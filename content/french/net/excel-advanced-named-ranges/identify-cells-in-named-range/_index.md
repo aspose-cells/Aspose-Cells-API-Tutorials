@@ -123,7 +123,7 @@ Oui ! Aspose propose une version d'essai gratuite que vous pouvez utiliser pour 
 Pour créer une plage nommée, sélectionnez les cellules que vous souhaitez inclure, accédez à l'onglet Formules dans Excel et choisissez « Définir un nom ».
 
 ### Une expérience de codage est-elle requise pour utiliser Aspose.Cells ?
-Bien que cela ne soit pas obligatoire, avoir des connaissances de base en C# ou .NET vous aidera à utiliser efficacement ses fonctionnalités.
+Bien que cela ne soit pas obligatoire, avoir des connaissances de base en C# ou .NET vous aidera à utiliser ses fonctionnalités efficacement.
 
 ### Où puis-je trouver plus d'informations sur Aspose.Cells ?
  Vérifiez le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) pour des guides complets et des références API.

@@ -9,7 +9,7 @@ url: /nl/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 ---
 ## Invoering
 
-Als u ooit een grafiek in Excel hebt gemaakt, weet u dat ze ongelooflijk krachtig kunnen zijn voor het visualiseren van gegevens. Maar wat als u die interactiviteit nog verder zou kunnen verbeteren door een selectievakje direct in de grafiek toe te voegen? Hoewel dit misschien wat genuanceerd klinkt, is het eigenlijk vrij eenvoudig met de Aspose.Cells-bibliotheek voor .NET. In deze tutorial begeleid ik u stap voor stap door het proces, waardoor het eenvoudig en gemakkelijk te volgen is.
+Als u ooit een grafiek in Excel hebt gemaakt, weet u dat ze ongelooflijk krachtig kunnen zijn voor het visualiseren van gegevens. Maar wat als u die interactiviteit nog verder zou kunnen verbeteren door een selectievakje direct in de grafiek toe te voegen? Hoewel dit misschien wat genuanceerd klinkt, is het eigenlijk vrij eenvoudig met de Aspose.Cells-bibliotheek voor .NET. In deze tutorial zal ik u stap voor stap door het proces leiden, waardoor het eenvoudig en gemakkelijk te volgen is.
 
 ## Vereisten
 
@@ -18,7 +18,7 @@ Voordat we in de tutorial duiken, moeten we ervoor zorgen dat alles is ingesteld
 ### Visual Studio geïnstalleerd
 - Allereerst heb je Visual Studio nodig. Als je het nog niet hebt geïnstalleerd, kun je het downloaden van de Microsoft-site.
 
-### Aspose.Cells Bibliotheek
+### Aspose.Cells-bibliotheek
 -  De volgende essentiële tool is de Aspose.Cells-bibliotheek voor .NET. U kunt deze eenvoudig verkrijgen via de[Aspose-website](https://releases.aspose.com/cells/net/) om te downloaden. Als u liever eerst test voordat u koopt, is er ook een[gratis proefversie beschikbaar](https://releases.aspose.com/).
 
 ### Basiskennis van C#
@@ -43,7 +43,7 @@ Open Visual Studio en maak een nieuw Console Application-project. Volg gewoon de
 ### Aspose.Cells installeren via NuGet
 
 Zodra uw project is ingesteld, is het tijd om de Aspose.Cells-bibliotheek toe te voegen. U kunt dit doen via de NuGet Package Manager:
-- Klik met de rechtermuisknop op uw project in de Solution Explorer en selecteer 'NuGet-pakketten beheren'.
+- Klik met de rechtermuisknop op uw project in Solution Explorer en selecteer 'NuGet-pakketten beheren'.
 - Zoek naar “Aspose.Cells” en klik op “Installeren”.
 - Hiermee worden alle benodigde afhankelijkheden opgehaald, waardoor u de bibliotheek eenvoudig kunt gebruiken.
 

@@ -19,7 +19,7 @@ Antes de sumergirnos en la parte de codificación, preparemos todo lo que necesi
 2.  Aspose.Cells para .NET: Necesitará descargar e instalar Aspose.Cells. Si aún no lo tiene, puede obtenerlo[aquí](https://releases.aspose.com/cells/net/).
 3. Comprensión básica de C#: un poco de familiaridad con la programación en C# hará que este viaje sea más sencillo, ¡pero no te estreses si recién estás empezando!
 4. .NET Framework: asegúrese de que su proyecto tenga como objetivo una versión compatible de .NET Framework.
-5. Configuración del sistema: asegúrese de poder ejecutar y probar sus aplicaciones sin restricciones.
+5. Configuración del sistema: asegúrese de poder ejecutar y probar sus aplicaciones sin ninguna restricción.
 
 Ahora que tenemos todo en su lugar, ¡comencemos a codificar!
 
@@ -43,7 +43,7 @@ Ahora que tenemos todo listo, pasemos a la parte más interesante: copiar la hoj
 
 ## Paso 1: Configurar el directorio de documentos
 
-En primer lugar, debemos especificar dónde se almacenarán nuestros archivos de Excel. Defina la ruta del directorio de sus documentos:
+Primero, debemos especificar dónde se almacenarán nuestros archivos de Excel. Defina la ruta del directorio de sus documentos:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";  // Actualice esto a su directorio actual
@@ -57,7 +57,7 @@ A continuación, crearemos nuestro primer libro de trabajo y le agregaremos algu
 ```csharp
 // Crear un nuevo libro de trabajo
 Workbook excelWorkbook0 = new Workbook();
-// Consigue la primera hoja de trabajo del libro.
+// Obtenga la primera hoja de trabajo del libro.
 Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
 // Coloque algunos datos en las filas de encabezado (A1:A4)
@@ -93,12 +93,12 @@ Ahora, necesitamos crear otro libro de trabajo donde copiaremos la primera hoja 
 ```csharp
 // Crear otro libro de trabajo
 Workbook excelWorkbook1 = new Workbook();
-// Consigue la primera hoja de trabajo del libro.
+// Obtenga la primera hoja de trabajo del libro.
 Worksheet ws1 = excelWorkbook1.Worksheets[0];
 // Nombra la hoja de trabajo
 ws1.Name = "MySheet";
 ```
-Hemos creado un nuevo libro de trabajo (`excelWorkbook1`) y renombró la primera hoja de cálculo como "Mi hoja". Siempre es una buena idea darles nombres significativos a las hojas para facilitar el acceso más adelante.
+Hemos creado un nuevo libro de trabajo (`excelWorkbook1`) y renombré la primera hoja de cálculo como "Mi hoja". Siempre es una buena idea darles nombres significativos a las hojas para facilitar el acceso más adelante.
 
 ## Paso 5: Copiar la hoja de trabajo
 
@@ -128,7 +128,7 @@ Esta línea guardará el segundo libro de trabajo en la ruta especificada. ¡No 
 ## Preguntas frecuentes
 
 ### ¿Qué es Aspose.Cells?  
-Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, manipular, convertir y renderizar archivos de Excel en varios formatos.
+Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, manipular, convertir y renderizar archivos Excel en varios formatos.
 
 ### ¿Puedo utilizar Aspose.Cells gratis?  
  Sí, Aspose.Cells ofrece una prueba gratuita, a la que puedes acceder[aquí](https://releases.aspose.com/).
@@ -137,7 +137,7 @@ Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, man
  Puede solicitar una licencia temporal visitando[Este enlace](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Cells?  
-Puede encontrar documentación detallada[aquí](https://reference.aspose.com/cells/net/).
+ Puede encontrar documentación detallada[aquí](https://reference.aspose.com/cells/net/).
 
 ### ¿Hay algún soporte disponible para los usuarios de Aspose.Cells?  
  ¡Por supuesto! Puedes obtener ayuda a través de[Foro de Aspose](https://forum.aspose.com/c/cells/9).

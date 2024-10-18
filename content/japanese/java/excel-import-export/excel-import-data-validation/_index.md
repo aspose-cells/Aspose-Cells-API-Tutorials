@@ -38,7 +38,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 インポートされたデータの正確性を確保するには、データ検証ルールを定義する必要があります。これらのルールは、入力できるデータの種類と値を制限します。
 
 ```java
-//データ検証ルールを定義するための Java コード
+//データ検証ルールを定義するためのJavaコード
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");
 dataValidation.setFormula1("1");
 dataValidation.setFormula2("100");

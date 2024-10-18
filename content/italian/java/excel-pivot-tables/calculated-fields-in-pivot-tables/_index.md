@@ -41,7 +41,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get("PivotTable1");
 ```
 
 ## Passaggio 5: creazione di un campo calcolato
-Ora, creiamo un campo calcolato nella tabella pivot. Calcoleremo la somma di due campi esistenti, "Field1" e "Field2", e chiameremo il nostro campo calcolato "Total".
+Ora, creiamo un campo calcolato nella tabella pivot. Calcoleremo la somma di due campi esistenti, "Field1" e "Field2", e chiameremo il nostro campo calcolato "Totale".
 
 ```java
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Field1");

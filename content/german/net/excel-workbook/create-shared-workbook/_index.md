@@ -16,9 +16,9 @@ Das Erstellen einer freigegebenen Arbeitsmappe kann die Zusammenarbeit grundlege
 Bevor wir uns mit den Einzelheiten der Erstellung einer freigegebenen Arbeitsmappe befassen, sollten wir ein paar Dinge klären:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Es ist eine Entwicklungsumgebung, in der Sie Ihren Code schreiben und ausführen können.
-2.  Aspose.Cells für .NET: Sie benötigen die Bibliothek Aspose.Cells. Sie können sie hier herunterladen:[Aspose.Cells Downloads](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie hier herunterladen:[Aspose.Cells Downloads](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Stellen Sie sicher, dass Sie das .NET Framework installiert haben. Dieses Beispiel funktioniert mit .NET Core oder .NET Framework 4.x.
-4. Grundkenntnisse in C#: Etwas Vertrautheit mit der C#-Programmierung wird Ihnen sehr helfen. Wenn Sie einfachen Code schreiben können, sollte es für Sie kein Problem sein!
+4. Grundkenntnisse in C#: Ein wenig Vertrautheit mit der C#-Programmierung wird Ihnen sehr helfen. Wenn Sie einfachen Code schreiben können, sollte es für Sie kein Problem sein!
 
 Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer freigegebenen Arbeitsmappe beginnen.
 

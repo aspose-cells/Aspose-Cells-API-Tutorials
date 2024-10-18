@@ -13,7 +13,7 @@ Nếu bạn đang làm việc với các tệp Excel trong .NET, bạn có thể
 
 ## Mở khóa các trang tính Excel được bảo vệ bằng mật khẩu 
 
- Một trong những tác vụ phổ biến nhất là mở khóa các bảng tính Excel được bảo vệ bằng mật khẩu. Với Aspose.Cells cho .NET, bạn có thể thực hiện việc này một cách liền mạch. Quá trình này bao gồm một phương pháp đơn giản cho phép bạn chỉ định mật khẩu (nếu bạn có) và mở khóa bảng tính để chỉnh sửa. Hướng dẫn của chúng tôi về[mở khóa một bảng tính Excel được bảo vệ bằng mật khẩu](./unlock-password-protected-excel-worksheet/) chia nhỏ các bước này, đảm bảo ngay cả người mới bắt đầu cũng có thể làm theo. Đến cuối, bạn sẽ có thể khôi phục quyền truy cập vào dữ liệu cần thiết của mình mà không gặp khó khăn gì.
+ Một trong những tác vụ phổ biến nhất là mở khóa các bảng tính Excel được bảo vệ bằng mật khẩu. Với Aspose.Cells cho .NET, bạn có thể thực hiện việc này một cách liền mạch. Quy trình này bao gồm một phương pháp đơn giản cho phép bạn chỉ định mật khẩu (nếu bạn có) và mở khóa bảng tính để chỉnh sửa. Hướng dẫn của chúng tôi về[mở khóa một bảng tính Excel được bảo vệ bằng mật khẩu](./unlock-password-protected-excel-worksheet/) chia nhỏ các bước này, đảm bảo ngay cả người mới bắt đầu cũng có thể làm theo. Đến cuối, bạn sẽ có thể khôi phục quyền truy cập vào dữ liệu cần thiết của mình mà không gặp khó khăn gì.
 
 ## Bỏ bảo vệ các trang tính Excel dễ dàng 
 

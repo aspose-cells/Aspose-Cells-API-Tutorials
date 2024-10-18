@@ -16,7 +16,7 @@ När det gäller att hantera Excel-filer programmatiskt är Aspose.Cells för .N
 Innan vi dyker in i koden, låt oss se till att du har allt du behöver. 
 
 1. Visual Studio eller någon integrerad .NET-utvecklingsmiljö (IDE): Se till att du har en lämplig IDE för att skriva och köra din C#-kod.
-2. Aspose.Cells för .NET: Du måste ladda ner och referera till Aspose.Cells-biblioteket i ditt projekt. Du kan ladda ner den från[Aspose släpper](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells för .NET: Du måste ladda ner och referera till Aspose.Cells-biblioteket i ditt projekt. Du kan ladda ner den från[Aspose släpper](https://releases.aspose.com/cells/net/).
 3. Grundläggande C#-kunskaper: Bekantskap med C# och objektorienterade programmeringskoncept hjälper dig att förstå exemplen bättre.
 4. .NET Framework: Denna handledning förutsätter att du använder .NET Framework 4.5 eller högre.
 
@@ -86,7 +86,7 @@ dis.Add(di);
 // Upprepa för ytterligare dataobjekt
 ```
 
- Se till att anpassa varje`DataItems` instans med unika värden och formler.
+ Se till att anpassa var och en`DataItems` instans med unika värden och formler.
 
 ## Steg 5: Skapa arbetsbok och åtkomstkalkylblad
 
@@ -168,7 +168,7 @@ Och där har du det! Du har framgångsrikt importerat data till ett Excel-ark me
 Aspose.Cells är ett .NET-bibliotek designat för att skapa, manipulera och konvertera Excel-filer programmatiskt.
 
 ### Hur installerar jag Aspose.Cells för .NET?
- Du kan ladda ner den från[Aspose släpper](https://releases.aspose.com/cells/net/)och referera till det i ditt projekt.
+ Du kan ladda ner den från[Aspose släpper](https://releases.aspose.com/cells/net/) och referera till det i ditt projekt.
 
 ### Kan jag använda Aspose.Cells gratis?
  Ja, Aspose erbjuder en gratis provperiod tillgänglig på[denna länk](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells är ett .NET-bibliotek designat för att skapa, manipulera och konv
  Ytterligare exempel och dokumentation finns på[Aspose dokumentationssida](https://reference.aspose.com/cells/net/).
 
 ### Vad händer om jag stöter på problem när jag använder Aspose?
- Du kan söka hjälp från Asposes supportforum[här](https://forum.aspose.com/c/cells/9).
+Du kan söka hjälp från Asposes supportforum[här](https://forum.aspose.com/c/cells/9).
  

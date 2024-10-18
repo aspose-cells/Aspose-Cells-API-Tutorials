@@ -74,7 +74,7 @@ Sonra, bir örnek oluşturuyoruz`Workbook` sınıf. Bütün çalışmalarımız 
 ```csharp
 Workbook workbook = new Workbook();
 ```
-Bu kod satırı boş bir tuvali açmak gibidir. Boyamaya (ya da bizim durumumuzda kodlamaya) başlamaya hazırsınız!
+Bu kod satırı boş bir tuvali açmak gibidir. Boyamaya (veya bizim durumumuzda kodlamaya) başlamaya hazırsınız!
 
 ## Adım 3: Çalışma Sayfasına Grafik Ekleme
 

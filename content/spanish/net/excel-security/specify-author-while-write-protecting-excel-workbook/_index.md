@@ -2,14 +2,14 @@
 title: Especificar autor al proteger contra escritura un libro de Excel
 linktitle: Especificar autor al proteger contra escritura un libro de Excel
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Aprenda cómo proteger contra escritura su libro de Excel mientras especifica un autor usando Aspose.Cells para .NET en esta guía paso a paso.
+description: Aprenda a proteger contra escritura su libro de Excel mientras especifica un autor usando Aspose.Cells para .NET en esta guía paso a paso.
 type: docs
 weight: 30
 url: /es/net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
 ## Introducción
 
-Cuando se trata de trabajar con archivos de Excel en aplicaciones .NET, Aspose.Cells es una solución ideal para muchos desarrolladores. Su amplio conjunto de funcionalidades le permite generar, manipular y proteger archivos de Excel fácilmente. Un requisito común al que se enfrentan los desarrolladores es escribir en un libro de Excel y asegurarse de que esté protegido contra ediciones no autorizadas. Además, especificar un autor puede ser increíblemente útil para fines de seguimiento al compartir el documento. En esta guía, analizaremos en profundidad cómo puede especificar el autor mientras protege contra escritura un libro de Excel con Aspose.Cells para .NET.
+Cuando se trata de trabajar con archivos de Excel en aplicaciones .NET, Aspose.Cells es una solución a la que recurren muchos desarrolladores. Su amplio conjunto de funcionalidades le permite generar, manipular y proteger archivos de Excel fácilmente. Un requisito común al que se enfrentan los desarrolladores es escribir en un libro de Excel y asegurarse de que esté protegido contra ediciones no autorizadas. Además, especificar un autor puede ser increíblemente útil para fines de seguimiento al compartir el documento. En esta guía, analizaremos en profundidad cómo puede especificar el autor mientras protege contra escritura un libro de Excel con Aspose.Cells para .NET.
 
 ## Prerrequisitos
 

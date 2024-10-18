@@ -122,8 +122,8 @@ Java için Aspose.Cells, hem yeni başlayanlar hem de deneyimli geliştiriciler 
 
 ### Birleşik grafiğimin görünümünü daha fazla özelleştirebilir miyim?
 
-Kesinlikle! Aspose.Cells for Java kapsamlı özelleştirme seçenekleri sunar. Grafik görünümünü beğeninize göre uyarlamak için renkleri, yazı tiplerini, stilleri ve daha fazlasını değiştirebilirsiniz.
+Kesinlikle! Java için Aspose.Cells kapsamlı özelleştirme seçenekleri sunar. Grafik görünümünü beğeninize göre uyarlamak için renkleri, yazı tiplerini, stilleri ve daha fazlasını değiştirebilirsiniz.
 
 ### Java için Aspose.Cells hakkında daha fazla kaynak ve örneği nerede bulabilirim?
 
- Aspose web sitesinde kapsamlı belgelere ve çok sayıda kod örneğine ulaşabilirsiniz.[Burada](https://reference.aspose.com/cells/java/).
+ Aspose web sitesinde kapsamlı dokümantasyon ve çok sayıda kod örneği bulabilirsiniz.[Burada](https://reference.aspose.com/cells/java/).

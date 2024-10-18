@@ -14,7 +14,7 @@ Las tablas dinámicas son una herramienta poderosa para el análisis de datos, y
 
 Las tablas dinámicas son tablas interactivas que permiten resumir y analizar datos en una hoja de cálculo. Ofrecen una forma dinámica de organizar y analizar datos, lo que facilita la obtención de información y la toma de decisiones fundamentadas.
 
-## Paso 1: Importar la biblioteca Aspose.Cells
+## Paso 1: Importación de la biblioteca Aspose.Cells
 
  Antes de poder crear tablas dinámicas dinámicas, debemos importar la biblioteca Aspose.Cells a nuestro proyecto Java. Puede descargar la biblioteca desde el sitio web de Aspose releases[aquí](https://releases.aspose.com/cells/java/).
 
@@ -86,7 +86,7 @@ Si tienes alguna pregunta o necesitas más ayuda, no dudes en ponerte en contact
 
 Sí, puede aplicar cálculos personalizados a los campos de datos implementando su propia lógica.
 
-### P2: ¿Cómo puedo cambiar el formato de la tabla dinámica?
+### Q2: ¿Cómo puedo cambiar el formato de la tabla dinámica?
 
 Puede cambiar el formato de la tabla dinámica accediendo a sus propiedades de estilo y aplicando el formato deseado.
 

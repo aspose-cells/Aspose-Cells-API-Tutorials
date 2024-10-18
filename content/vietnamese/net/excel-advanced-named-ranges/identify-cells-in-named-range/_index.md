@@ -1,6 +1,6 @@
 ---
-title: Xác định ô trong phạm vi được đặt tên trong Excel
-linktitle: Xác định ô trong phạm vi được đặt tên trong Excel
+title: Xác định các ô trong phạm vi được đặt tên trong Excel
+linktitle: Xác định các ô trong phạm vi được đặt tên trong Excel
 second_title: API xử lý Excel Aspose.Cells .NET
 description: Dễ dàng xác định các ô trong phạm vi được đặt tên trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này.
 type: docs
@@ -25,7 +25,7 @@ Bạn không cần phải là chuyên gia, nhưng việc hiểu biết cơ bản
 
 ### Aspose.Cells cho thư viện .NET
 
- Bạn cần có thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/). Họ cung cấp bản dùng thử miễn phí nếu bạn muốn kiểm tra trước khi cam kết.
+ Bạn cần phải có thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/). Họ cung cấp bản dùng thử miễn phí nếu bạn muốn kiểm tra trước khi cam kết.
 
 ### Tệp Excel có Phạm vi được Đặt tên
 
@@ -105,7 +105,7 @@ Cuối cùng, chúng ta muốn xác nhận rằng mã của chúng ta đã đư�
 ```csharp
 Console.WriteLine("IdentifyCellsInNamedRange executed successfully.");
 ```
-Đây chỉ là lời đảm bảo từ chương trình của bạn để cho bạn biết mọi thứ đã diễn ra theo đúng kế hoạch. Một lời khen ngợi nhỏ không bao giờ có hại!
+Đây chỉ là lời đảm bảo từ chương trình của bạn để cho bạn biết mọi thứ đã diễn ra theo đúng kế hoạch. Một lời khen ngợi nhỏ không bao giờ là thừa!
 
 ## Phần kết luận
 

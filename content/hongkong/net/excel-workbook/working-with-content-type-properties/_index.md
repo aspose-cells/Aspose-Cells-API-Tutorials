@@ -103,7 +103,7 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
 
 ## 結論
 
-現在你就擁有了！您已使用 Aspose.Cells for .NET 成功將自訂內容類型屬性新增至 Excel 工作簿。透過遵循本逐步指南，您不僅學習如何操作 Excel 文件，還增強了其元資料功能。此技能對於需要在資料旁邊儲存附加上下文或資訊的應用程式特別有用，從而使您的工作簿更具功能性和資訊量。
+現在你就得到它了！您已使用 Aspose.Cells for .NET 成功將自訂內容類型屬性新增至 Excel 工作簿。透過遵循本逐步指南，您不僅學習如何操作 Excel 文件，還增強了其元資料功能。此技能對於需要在資料旁邊儲存附加上下文或資訊的應用程式特別有用，從而使您的工作簿更具功能性和資訊量。
 
 ## 常見問題解答
 

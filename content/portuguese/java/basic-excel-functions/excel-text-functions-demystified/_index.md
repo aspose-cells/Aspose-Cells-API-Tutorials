@@ -61,7 +61,7 @@ workbook.calculateFormula();
 
 A célula B2 terá "Excel" e a célula C2 terá "Rocks!".
 
-## LEN - Contagem de caracteres
+## LEN - Contagem de Caracteres
 
  O`LEN` função conta o número de caracteres em uma string de texto. Vamos ver como usá-la com Aspose.Cells para Java:
 

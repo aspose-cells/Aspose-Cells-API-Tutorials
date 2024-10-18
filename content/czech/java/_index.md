@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells Java Výukové programy pro zpracování tabulkového procesoru
-linktitle: Aspose.Cells for Java tutoriály
+linktitle: Aspose.Cells pro Java tutoriály
 type: docs
 weight: 10
 url: /cs/java/
@@ -26,7 +26,7 @@ Poslední část se zaměřuje na integraci a export. Naučte se, jak bezproblé
 
 Začněte svou cestu pomocí výukových programů Aspose.Cells for Java ještě dnes a odemkněte plný potenciál manipulace se soubory Excel ve vašich aplikacích Java.
 
-## Aspose.Cells for Java tutoriály
+## Aspose.Cells pro Java tutoriály
 
 ### [Základní funkce Excelu](./basic-excel-functions/)
 Prozkoumejte základní funkce Excelu pomocí Aspose.Cells for Java. Naše výukové programy pokrývají základy krok za krokem. Začněte s manipulací s tabulkami

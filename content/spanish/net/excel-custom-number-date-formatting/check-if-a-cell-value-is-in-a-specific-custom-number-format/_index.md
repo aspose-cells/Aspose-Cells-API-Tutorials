@@ -9,7 +9,7 @@ url: /es/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-s
 ---
 ## Introducción
 
-Al trabajar con hojas de cálculo, especialmente en un entorno profesional, la precisión y el formato son cruciales. Ya sea que esté realizando análisis de datos o elaborando informes visualmente atractivos, asegurarse de que los valores de las celdas se ajusten a formatos específicos puede marcar una diferencia significativa. Hoy, nos sumergiremos en una aplicación práctica de Aspose.Cells para .NET, donde demostraremos cómo verificar si un valor de celda se adhiere a un formato de número personalizado específico. Si es nuevo en Aspose.Cells o desea perfeccionar sus habilidades, ¡ha llegado al lugar correcto!
+Al trabajar con hojas de cálculo, especialmente en un entorno profesional, la precisión y el formato son cruciales. Ya sea que esté realizando análisis de datos o elaborando informes visualmente atractivos, garantizar que los valores de las celdas se ajusten a formatos específicos puede marcar una diferencia significativa. Hoy, nos sumergiremos en una aplicación práctica de Aspose.Cells para .NET, donde demostraremos cómo verificar si un valor de celda se adhiere a un formato de número personalizado específico. Si es nuevo en Aspose.Cells o desea perfeccionar sus habilidades, ¡ha llegado al lugar correcto!
 
 ## Prerrequisitos
 
@@ -19,7 +19,7 @@ Antes de sumergirnos en el código, hay algunos requisitos previos que deberás 
 2.  Biblioteca Aspose.Cells para .NET: deberá descargar y agregar la biblioteca Aspose.Cells a su proyecto. Puede descargar la última versión[aquí](https://releases.aspose.com/cells/net/).
 3. Comprensión básica de C#: la familiaridad con la programación en C# le ayudará a seguir el proceso sin problemas.
 
-Ahora que ya hemos cumplido con nuestros requisitos previos, pasemos directamente a importar los paquetes necesarios.
+Ahora que ya hemos cumplido con nuestros requisitos previos, vayamos directamente a importar los paquetes necesarios.
 
 ## Importar paquetes
 
@@ -43,7 +43,7 @@ Para comenzar, debe crear una instancia de un libro de trabajo. Esta es la base 
 Workbook wb = new Workbook();
 ```
 
- Al inicializar`Workbook`configuramos un nuevo archivo Excel en la memoria, listo para ser manipulado.
+ Al inicializar`Workbook`, configuramos un nuevo archivo Excel en la memoria, listo para ser manipulado.
 
 ## Paso 2: Configurar los ajustes del libro de trabajo
 
@@ -97,7 +97,7 @@ Ahora intentaremos establecer un formato de número personalizado no válido par
 ```csharp
 try
 {
-    // Esta línea generará una excepción si el formato no es válido.
+    // Esta línea generará una excepción si el formato no es válido
     s.Custom = "ggg @ fff"; // Formato de número personalizado no válido
     c.SetStyle(s);
 }
@@ -107,7 +107,7 @@ catch (Exception ex)
 }
 ```
 
-En este bloque de código, intentamos establecer un formato de número personalizado no válido. Como hemos habilitado la generación de excepciones en la configuración de nuestro libro de trabajo, esto detectará cualquier problema e imprimirá el mensaje de error.
+En este bloque de código, intentamos establecer un formato de número personalizado no válido. Debido a que hemos habilitado la generación de excepciones en la configuración de nuestro libro de trabajo, esto detectará cualquier problema e imprimirá el mensaje de error.
 
 ## Paso 7: Validar la ejecución exitosa
 

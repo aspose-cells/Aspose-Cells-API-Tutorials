@@ -13,7 +13,7 @@ Dalam dunia yang digerakkan oleh data saat ini, representasi visual dari kumpula
 
 ## Prasyarat
 
-Sebelum menyelami inti permasalahan, mari pastikan Anda siap untuk meraih kesuksesan. Berikut ini yang Anda butuhkan:
+Sebelum membahas lebih jauh, mari pastikan Anda siap untuk meraih kesuksesan. Berikut ini yang Anda butuhkan:
 
 1. Pemahaman dasar tentang C#: Keakraban dengan C# akan membantu Anda memahami konsep pemrograman dengan mudah.
 2.  Aspose.Cells untuk .NET: Anda memerlukan pustaka Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
@@ -112,7 +112,7 @@ srs.ValuesFormatCode = "$#,##0"; //Ini mengaturnya ke format mata uang
 
 Terakhir, kita perlu menyimpan perubahan yang telah kita buat pada berkas Excel baru.
 
-Menyimpan hasil kerja keras Anda terasa memuaskan, bukan? Menyimpan hasil kerja keras Anda akan menjaga usaha Anda dan memungkinkan Anda untuk membagikan atau mengulas hasil kerja Anda kapan saja!
+Menyimpan hasil kerja keras Anda terasa memuaskan, bukan? Ini menjaga usaha Anda dan memungkinkan Anda untuk membagikan atau mengulas hasil kerja Anda kapan saja!
 
 ```csharp
 // Simpan file Excel keluaran

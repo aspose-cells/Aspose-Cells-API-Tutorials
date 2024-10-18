@@ -15,8 +15,8 @@ Amikor Excel fájlokkal dolgozik .NET-ben, az egyik leghatékonyabb könyvtár a
 
 Mielőtt belemerülnénk a kód apró részleteibe, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges:
 
-1. Visual Studio: A Visual Studio-t telepítenie kell a gépére. Ha még nem rendelkezik vele, letöltheti a webhelyről[Microsoft webhely](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells Library: Ez az útmutató feltételezi, hogy rendelkezik az Aspose.Cells könyvtárral. Könnyen letöltheti innen[Aspose kiadási oldala](https://releases.aspose.com/cells/net/) . Ha nem biztos abban, hogy hol kezdje, a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) lehet a legjobb barátod!
+1.  Visual Studio: A Visual Studio-t telepítenie kell a gépére. Ha még nem rendelkezik vele, letöltheti a webhelyről[Microsoft webhely](https://visualstudio.microsoft.com/).
+2.  Aspose.Cells Library: Ez az útmutató feltételezi, hogy rendelkezik az Aspose.Cells könyvtárral. Könnyen letöltheti innen[Aspose kiadási oldala](https://releases.aspose.com/cells/net/) Ha nem biztos abban, hogy hol kezdje, a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) lehet a legjobb barátod!
 3. Alapvető C# ismerete: A C# programozási nyelv ismerete segít megérteni a példákat, és gond nélkül követni.
 4.  Excel-fájl: Győződjön meg arról, hogy rendelkezik egy Excel-fájllal, amely diagramokat tartalmaz ehhez az oktatóanyaghoz. Létrehozhat egy minta Excel-fájlt, melynek neve`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` tesztelési célokra.
 5. .NET-környezet: Ellenőrizze, hogy a .NET-környezet megfelelően van-e beállítva. Ez az oktatóanyag a .NET keretrendszert célozza meg, ezért győződjön meg róla, hogy készen áll!
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- A`Workbook`osztály az Ön átjárója az Excel-fájlhoz. A teljes elérési út megadásával új munkafüzet-példányt hozunk létre, amely az Excel-adatainkat tartalmazza.
+ A`Workbook` osztály az Ön átjárója az Excel-fájlhoz. A teljes elérési út megadásával új munkafüzet-példányt hozunk létre, amely az Excel-adatainkat tartalmazza.
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
@@ -98,7 +98,7 @@ Most olvassuk le a tengelycímkéket a kategóriatengelyről.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Itt kihúzzuk a címkéket a kategória tengelyéről, és eltároljuk őket egy`ArrayList`. Ez a lista létfontosságú a címkék ismétléséhez és megjelenítéséhez.
+ Itt kihúzzuk a címkéket a kategória tengelyéről, és eltároljuk őket egy`ArrayList`. Ez a lista létfontosságú a címkék ismétléséhez és megjelenítéséhez.
 
 ## 7. lépés: Nyomtassa ki a tengelycímkéket a konzolra
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Ez a részlet először egy címet és egy elválasztó sort ad ki. Ezután végigfutjuk az egyes címkéket a`lstLabels` ArrayList és nyomtassa ki a konzolra. Ha tíz címke van, mindegyiket ott fogja látni!
+Ez a részlet először egy címet és egy elválasztó sort ad ki. Ezután végigfutjuk az egyes címkéket a`lstLabels` ArrayList és nyomtassa ki a konzolra. Ha tíz címke van, mindegyiket ott fogja látni!
 
 ## 8. lépés: Utolsó üzenet
 
@@ -141,7 +141,7 @@ Az Aspose.Cells egy hatékony könyvtár az Excel-fájlok kezeléséhez .NET-ben
  Az Aspose.Cellshez licencet vásárolhat a rajtuk keresztül[vásárlási oldal](https://purchase.aspose.com/buy).
 
 ### Hol találok támogatást az Aspose.Cells számára?
- Támogatásért keresse fel az Aspose fórumot[itt](https://forum.aspose.com/c/cells/9).
+Támogatásért keresse fel az Aspose fórumot[itt](https://forum.aspose.com/c/cells/9).
 
 ### Kaphatok ideiglenes jogosítványt?
  Igen! Az Aspose ideiglenes licencet kínál, amelyet kérhet[ezt a linket](https://purchase.aspose.com/temporary-license/).

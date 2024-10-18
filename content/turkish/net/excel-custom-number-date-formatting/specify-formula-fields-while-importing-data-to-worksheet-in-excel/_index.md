@@ -16,7 +16,7 @@ Excel dosyalarını programatik olarak işlemek söz konusu olduğunda, Aspose.C
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. 
 
 1. Visual Studio veya herhangi bir .NET entegre geliştirme ortamı (IDE): C# kodunuzu yazmak ve çalıştırmak için uygun bir IDE'niz olduğundan emin olun.
-2. .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesini indirmeniz ve başvurmanız gerekecektir. Bunu şuradan indirebilirsiniz:[Aspose sürümleri](https://releases.aspose.com/cells/net/).
+2.  .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesini indirmeniz ve başvurmanız gerekecektir. Bunu şuradan indirebilirsiniz:[Aspose sürümleri](https://releases.aspose.com/cells/net/).
 3. Temel C# bilgisi: C# ve nesne yönelimli programlama kavramlarına aşinalık, örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework: Bu eğitimde .NET Framework 4.5 veya üzerini kullandığınız varsayılmaktadır.
 
@@ -148,7 +148,7 @@ wb.Save(outputDir + "outputSpecifyFormulaFieldsWhileImportingDataToWorksheet.xls
 
 Çıktı dosyanızın adının konuyla ilgili ve açıklayıcı olduğundan emin olun!
 
-## Adım 11: Yürütmeyi Kontrol Etme
+## Adım 11: Uygulamayı Kontrol Etme
 
 Her şeyin doğru şekilde çalıştığını doğrulamanın basit bir yolu olarak bir mesaj yazdırmak isteyebilirsiniz.
 
@@ -168,7 +168,7 @@ Bu size kodun herhangi bir sorun olmadan çalıştığına dair anında geri bil
 Aspose.Cells, Excel dosyalarını program aracılığıyla oluşturmak, düzenlemek ve dönüştürmek için tasarlanmış bir .NET kütüphanesidir.
 
 ### Aspose.Cells for .NET'i nasıl kurarım?
- Bunu şuradan indirebilirsiniz:[Aspose sürümleri](https://releases.aspose.com/cells/net/)ve projenizde buna referans verin.
+ Bunu şuradan indirebilirsiniz:[Aspose sürümleri](https://releases.aspose.com/cells/net/) ve projenizde buna referans verin.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
  Evet, Aspose şu adreste mevcut olan ücretsiz bir deneme sunuyor:[bu bağlantı](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells, Excel dosyalarını program aracılığıyla oluşturmak, düzenle
  Ek örnekler ve belgeler şu adreste bulunabilir:[Aspose dokümantasyon sayfası](https://reference.aspose.com/cells/net/).
 
 ### Aspose kullanırken sorunlarla karşılaşırsam ne olur?
- Aspose destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
  

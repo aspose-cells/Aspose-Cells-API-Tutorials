@@ -9,7 +9,7 @@ url: /vi/net/excel-page-setup/set-excel-margins/
 ---
 ## Giới thiệu
 
-Khi nói đến việc quản lý các tài liệu Excel theo chương trình, Aspose.Cells for .NET nổi bật như một thư viện mạnh mẽ giúp đơn giản hóa các tác vụ, từ thao tác dữ liệu cơ bản đến các thao tác bảng tính nâng cao. Một yêu cầu chung mà nhiều người trong chúng ta gặp phải là thiết lập lề cho các trang tính Excel của mình. Lề phù hợp không chỉ làm cho bảng tính của bạn đẹp về mặt thẩm mỹ mà còn tăng khả năng đọc khi in. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách thiết lập lề Excel bằng Aspose.Cells for .NET, chia nhỏ thành các bước dễ thực hiện.
+Khi nói đến việc quản lý tài liệu Excel theo chương trình, Aspose.Cells for .NET nổi bật như một thư viện mạnh mẽ giúp đơn giản hóa các tác vụ, từ thao tác dữ liệu cơ bản đến các thao tác bảng tính nâng cao. Một yêu cầu chung mà nhiều người trong chúng ta gặp phải là thiết lập lề cho các trang tính Excel của mình. Lề phù hợp không chỉ làm cho bảng tính của bạn đẹp về mặt thẩm mỹ mà còn tăng khả năng đọc khi in. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách thiết lập lề Excel bằng Aspose.Cells for .NET, chia nhỏ thành các bước dễ thực hiện.
 
 ## Điều kiện tiên quyết
 

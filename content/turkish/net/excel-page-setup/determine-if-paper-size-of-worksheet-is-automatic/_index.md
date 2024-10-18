@@ -22,7 +22,7 @@ Aspose.Cells birçok görevi basitleştirirken, C#'ın temellerini anlamak çok 
  Projenizde Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
 
 ### Geliştirme Ortamı
-Visual Studio gibi bir IDE kurmuş olmalısınız. Bu, kodunuzu etkili bir şekilde ele almanız ve test etmeniz konusunda size rehberlik eder.
+Visual Studio gibi bir IDE kurulumunuz olmalı. Bu, kodunuzu etkili bir şekilde ele almanız ve test etmeniz konusunda size rehberlik eder.
 
 ### Örnek Excel Dosyaları
 Örnek dosyalara ihtiyacınız olacak (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Ve`samplePageSetupIsAutomaticPaperSize-True.xlsx`) test amaçlıdır. Bu dosyaların kaynak dizininizde olduğundan emin olun.
@@ -43,7 +43,7 @@ Bunu kolayca takip edebilmeniz için açık, adım adım bir eğitime bölelim. 
 
 ## Adım 1: Kaynak ve Çıktı Dizinlerinizi Ayarlayın
 
-İlk önce, kaynak ve çıktı dizinlerinizi tanımlamak isteyeceksiniz. Bu dizinler girdi dosyalarınızı ve çıktıyı kaydetmek istediğiniz yeri tutacak. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+İlk önce, kaynak ve çıktı dizinlerinizi tanımlamak isteyeceksiniz. Bu dizinler girdi dosyalarınızı ve çıktıyı kaydetmek istediğiniz yeri tutacak. İşte bunu nasıl yapacağınız:
 
 ```csharp
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
@@ -93,7 +93,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 ## Çözüm 
 
-Ve böylece, Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirlemek için temelleri attınız! Paketleri içe aktarmak, çalışma kitaplarını yüklemek, çalışma sayfalarına erişmek ve kağıt boyutu özelliğini kontrol etmek için koşturdunuz; hepsi Excel dosyalarını programatik olarak düzenlerken gerekli becerilerdir. Unutmayın, Aspose.Cells'in farklı özellikleriyle ne kadar çok deney yaparsanız, uygulamalarınız o kadar güçlü hale gelecektir.
+Ve böylece, Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirlemek için temelleri attınız! Paketleri içe aktarmak, çalışma kitaplarını yüklemek, çalışma sayfalarına erişmek ve kağıt boyutu özelliğini kontrol etmek gibi Excel dosyalarını programatik olarak düzenlerken gerekli olan tüm becerilerle uğraştınız. Unutmayın, Aspose.Cells'in farklı özellikleriyle ne kadar çok deney yaparsanız, uygulamalarınız o kadar güçlü hale gelecektir.
 
 ## SSS
 

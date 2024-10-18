@@ -13,7 +13,7 @@ Hiç kendinizi bir çalışma sayfasından diğerine sayfa ayarlarını kopyalam
 
 ## Ön koşullar
 
-Koda geçmeden önce, yerinde olması gereken birkaç temel öğe var:
+Koda geçmeden önce, yerinde olması gereken birkaç temel öğe vardır:
 
 1. .NET Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir IDE gibi .NET uyumlu bir ortamınızın olduğundan emin olun.
 2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
@@ -149,4 +149,4 @@ Aspose.Cells öncelikli olarak .NET dillerini destekler, ancak farklı diller i�
  Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells için geçici lisans alabilir miyim?  
- Kesinlikle! Bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Ürünü değerlendirmek.
+ Kesinlikle! Bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Ürünü değerlendirmek için.

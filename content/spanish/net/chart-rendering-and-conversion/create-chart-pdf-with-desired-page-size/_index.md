@@ -89,7 +89,7 @@ Worksheet ws = wb.Worksheets[0];
 Ahora, accedamos al gráfico que desea exportar a PDF. Este paso supone que su hoja de cálculo contiene al menos un gráfico.
 
 ```csharp
-//Acceda al primer gráfico dentro de la hoja de trabajo.
+//Acceda al primer gráfico dentro de la hoja de cálculo.
 Chart ch = ws.Charts[0];
 ```
 
@@ -97,7 +97,7 @@ Nuevamente, esto accede al primer gráfico en la hoja de cálculo; asegúrese de
 
 ## Paso 5: Crea un PDF con el tamaño de página deseado
 
-Por último, es hora de crear el PDF a partir del gráfico con un tamaño de página específico. Esta es la línea mágica de código que lo hace todo:
+Finalmente, es momento de crear el PDF a partir del gráfico con un tamaño de página específico. Aquí está la línea mágica de código que lo hace todo:
 
 ```csharp
 //Cree un gráfico en PDF con el tamaño de página deseado.
@@ -135,7 +135,7 @@ Aspose.Cells para .NET se utiliza para crear, editar y convertir documentos de E
  Puedes solicitar una[licencia temporal](https://purchase.aspose.com/temporary-license/) para pruebas extendidas.
 
 ### ¿Qué pasa si encuentro problemas o tengo preguntas?  
- Puede buscar ayuda de la comunidad Aspose en su[foro de soporte](https://forum.aspose.com/c/cells/9).
+ Puede buscar ayuda en la comunidad de Aspose en su[foro de soporte](https://forum.aspose.com/c/cells/9).
 
 ### ¿Cómo puedo comprar Aspose.Cells?  
  Puedes comprar Aspose.Cells en[Página de compra](https://purchase.aspose.com/buy).

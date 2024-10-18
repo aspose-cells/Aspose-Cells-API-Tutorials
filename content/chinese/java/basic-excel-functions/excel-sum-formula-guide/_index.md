@@ -10,7 +10,7 @@ url: /zh/java/basic-excel-functions/excel-sum-formula-guide/
 
 ## 介绍
 
-Microsoft Excel 是一种处理数据的通用工具，SUM 公式是其最基本但最强大的功能之一。Aspose.Cells for Java 将 Excel 操作提升到一个新的水平，使您能够自动执行任务、生成报告并轻松执行复杂的计算。本指南将帮助您使用 Aspose.Cells 充分发挥 SUM 公式的潜力。
+Microsoft Excel 是一种处理数据的通用工具，SUM 公式是其最基本但最强大的功能之一。Aspose.Cells for Java 将 Excel 操作提升到一个新的水平，使您能够轻松自动执行任务、生成报告和执行复杂的计算。本指南将帮助您使用 Aspose.Cells 充分发挥 SUM 公式的潜力。
 
 ## 什么是 Aspose.Cells for Java？
 

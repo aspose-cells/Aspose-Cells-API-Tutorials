@@ -32,7 +32,7 @@ Před napsáním jakéhokoli kódu musíme vytvořit nový projekt C#.
 3. Pojmenujte svůj projekt nějak popisně, například „ExcelLinkDemo“.
 4. Přidejte odkaz na soubor Aspose.Cells.dll. Můžete to udělat tak, že v Průzkumníku řešení kliknete pravým tlačítkem na "Reference", vyberete "Přidat odkaz" a přejdete na místo, kam jste nainstalovali Aspose.Cells.
 ## Krok 2: Definujte svůj výstupní adresář
-Dále musíte určit, kam chcete uložit výstupní soubor aplikace Excel. Zde je návod, jak jej můžete definovat ve svém kódu:
+Dále musíte určit, kam chcete uložit výstupní soubor aplikace Excel. Zde je návod, jak to můžete definovat ve svém kódu:
 ```csharp
 // Výstupní adresář pro váš soubor Excel
 string outputDir = "Your Document Directory"; // Nahraďte svým adresářem
@@ -41,15 +41,15 @@ string outputDir = "Your Document Directory"; // Nahraďte svým adresářem
 ## Krok 3: Vytvořte instanci objektu sešitu
 Nyní jste připraveni vytvořit svůj excelový sešit! Zde budou umístěny všechny vaše listy a data.
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 Tento řádek inicializuje nový sešit v paměti a poskytuje vám prázdné plátno, na kterém můžete pracovat.
 ## Krok 4: Přidání nového listu
-V Excelu může každý sešit obsahovat více listů. Přidejme jeden do našeho sešitu.
+V Excelu může každý sešit obsahovat více listů. Pojďme přidat jeden do našeho sešitu.
 ```csharp
 // Přidání nového listu do objektu Sešit
-workbook.Worksheets.Add(); //Ve výchozím nastavení přidá nový prázdný list
+workbook.Worksheets.Add(); // Ve výchozím nastavení přidá nový prázdný list
 ```
 Tento příkaz přidá nový list a váš sešit nyní obsahuje alespoň jeden list, se kterým můžete manipulovat.
 ## Krok 5: Přístup k prvnímu listu

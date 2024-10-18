@@ -9,7 +9,7 @@ url: /vi/net/setting-chart-appearance/set-chart-lines/
 ---
 ## Giới thiệu
 
-Tạo biểu đồ hấp dẫn trực quan và nhiều thông tin là điều cần thiết trong việc biểu diễn dữ liệu. Cho dù bạn là nhà phân tích dữ liệu, quản lý doanh nghiệp hay chỉ là người thích sắp xếp dữ liệu, biểu đồ có thể cải thiện đáng kể cách bạn trình bày thông tin. Hướng dẫn này sẽ hướng dẫn bạn quy trình thiết lập đường biểu đồ bằng Aspose.Cells for .NET, một thư viện mạnh mẽ để thao tác với các tệp Excel. Cuối cùng, bạn sẽ biết cách tạo biểu đồ tuyệt đẹp với nhiều tùy chỉnh để làm cho dữ liệu Excel của bạn trở nên nổi bật!
+Tạo biểu đồ hấp dẫn và nhiều thông tin là điều cần thiết trong việc biểu diễn dữ liệu. Cho dù bạn là nhà phân tích dữ liệu, quản lý doanh nghiệp hay chỉ là người thích sắp xếp dữ liệu, biểu đồ có thể cải thiện đáng kể cách bạn trình bày thông tin. Hướng dẫn này sẽ hướng dẫn bạn quy trình thiết lập đường biểu đồ bằng Aspose.Cells for .NET, một thư viện mạnh mẽ để thao tác với các tệp Excel. Cuối cùng, bạn sẽ biết cách tạo biểu đồ tuyệt đẹp với nhiều tùy chỉnh để làm cho dữ liệu Excel của bạn trở nên nổi bật!
 
 ## Điều kiện tiên quyết
 
@@ -30,7 +30,7 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Hãy chia nhỏ quy trình thành các bước dễ quản lý để bạn có thể dễ dàng thực hiện.
+Hãy chia nhỏ quy trình thành các bước dễ quản lý để bạn có thể dễ dàng theo dõi.
 
 ## Bước 1: Xác định thư mục đầu ra của bạn
 
@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Bây giờ, chúng ta sẽ tạo một đối tượng sổ làm việc, đóng vai trò là nơi chứa bảng tính của bạn.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -125,7 +125,7 @@ chart.PlotArea.Area.ForegroundColor = Color.Blue;
 // Thiết lập màu nền trước của vùng biểu đồ
 chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 
-// Thiết lập màu nền trước của vùng 1st SeriesCollection
+// Thiết lập màu nền trước của vùng SeriesCollection thứ 1
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 
 // Thiết lập màu nền trước của vùng điểm 1 của SeriesCollection

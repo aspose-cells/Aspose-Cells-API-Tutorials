@@ -70,9 +70,9 @@ worksheet.getCells().insertRows(1, 1);
 worksheet.getCells().get("A2").putValue("New Data");
 ```
 
-## 6. Dar formato a hojas de Excel
+## 6. Formato de hojas de Excel
 
-Aprenda a dar formato a hojas de Excel, incluido el formato de celdas y la incorporación de gráficos. Ejemplo: dar formato a una celda.
+Aprenda a dar formato a las hojas de Excel, incluido el formato de celdas y la incorporación de gráficos. Ejemplo: dar formato a una celda.
 
 ```java
 // Formatear una celda

@@ -43,11 +43,11 @@ using Aspose.Cells.Charts;
 Workbook workbook = new Workbook();
 ```
 
-Bu yeni bir Excel çalışma kitabını başlatır. Peki veriler nereye gider? Bunu bir sonraki adımda ele alalım.
+Bu yeni bir Excel çalışma kitabını başlatır. Peki veriler nereye gider? Bunu bir sonraki adımda halledelim.
 
 ## Adım 2: Çalışma Sayfasına Veri Ekleyin
 
-Çalışma kitabı oluşturulduktan sonra, ilk çalışma sayfasına erişmemiz ve ona bir isim vermemiz gerekir. Pasta grafiği için gereken verileri buraya gireceğiz.
+Çalışma kitabı oluşturulduktan sonra, ilk çalışma sayfasına erişmemiz ve ona bir isim vermemiz gerekiyor. Pasta grafiği için gereken verileri buraya gireceğiz.
 
 ```csharp
 Worksheet sheet = workbook.Worksheets[0];
@@ -89,7 +89,7 @@ Worksheet chartSheet = workbook.Worksheets[sheetIndex];
 chartSheet.Name = "Chart";
 ```
 
-Bu yeni sayfa pasta grafiğini barındıracaktır. "Grafik" gibi bir ad vermek, kullanıcıların dosyayı açtıklarında ne beklemeleri gerektiğini bilmelerini sağlar.
+Bu yeni sayfa pasta grafiğini barındıracaktır. Buna "Grafik" gibi bir ad vermek, kullanıcıların dosyayı açtıklarında ne beklemeleri gerektiğini bilmelerini sağlar.
 
 ## Adım 4: Pasta Grafiğini Oluşturun
 
@@ -121,7 +121,7 @@ chart.PlotArea.Area.FillFormat.SetTwoColorGradient(Color.Yellow, Color.White, Gr
 chart.PlotArea.Border.IsVisible = false;
 ```
 
-Çizim alanının degrade dolgusunu ayarlıyoruz ve daha temiz bir görünüm için kenarlığı gizliyoruz.
+Arsa alanının degrade dolgusunu ayarlıyoruz ve daha temiz bir görünüm için kenarlığı gizliyoruz.
 
 ## Adım 6: Grafik Verilerini Tanımlayın
 

@@ -14,7 +14,7 @@ Les graphiques en cascade sont un outil essentiel dans la visualisation des donn
 
 ## Prérequis
 
-Avant de plonger dans les détails, assurez-vous que vous disposez des conditions préalables suivantes :
+Avant de plonger dans les détails, assurez-vous que les conditions préalables suivantes sont remplies :
 
 -  Aspose.Cells pour Java : vous devez avoir installé Aspose.Cells pour Java. Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/java/).
 
@@ -73,7 +73,7 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Nous avons ajouté un graphique en cascade à notre feuille de calcul, spécifié la série de données et les données de catégorie. Vous pouvez personnaliser davantage l'apparence du graphique selon vos besoins.
+Nous avons ajouté un graphique en cascade à notre feuille de calcul, spécifié les séries de données et les données de catégorie. Vous pouvez personnaliser davantage l'apparence du graphique selon vos besoins.
 
 ## Étape 5 : Enregistrer le classeur
 

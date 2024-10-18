@@ -14,7 +14,7 @@ Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn qu
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 -  Thư viện Aspose.Cells cho Java, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Thiết lập dự án của bạn
@@ -109,7 +109,7 @@ Xin chúc mừng! Bạn đã học thành công cách xuất dữ liệu Excel s
    Có, Aspose.Cells for Java hỗ trợ nhiều định dạng Excel khác nhau, bao gồm XLS, XLSX, v.v.
 
 ### 3. Tôi có thể xử lý công thức Excel như thế nào trong quá trình xuất?
-   Aspose.Cells for Java duy trì các công thức Excel trong dữ liệu XML được xuất ra, đồng thời bảo toàn chức năng của chúng.
+   Aspose.Cells for Java duy trì các công thức Excel trong dữ liệu XML được xuất, đồng thời bảo toàn chức năng của chúng.
 
 ### 4. Tôi có thể tùy chỉnh định dạng xuất XML không?
    Có, bạn có thể tùy chỉnh định dạng xuất XML bằng API mở rộng của Aspose.Cells để đáp ứng các yêu cầu cụ thể của bạn.

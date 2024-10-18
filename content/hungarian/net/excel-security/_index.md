@@ -17,7 +17,7 @@ Fedezze fel átfogó Aspose.Cells for .NET Tutorials gyűjteményünket! Akár k
 
 ## A cellák lezárása egyszerűen  
 
- Néha engedélyezni szeretné a felhasználóknak, hogy lássák adatait, de meg akarja akadályozni, hogy módosítsák azokat. Itt található a bemutató[Cella zárolása az Excel munkalapon](./lock-cell-in-excel-worksheet/) ragyog. Leegyszerűsíti a cellák zárolását az Excel-munkalapokon az Aspose.Cells for .NET segítségével. Képzeljen el egy kerítést a kertje körül; lehetővé teszi az embereknek, hogy megcsodálják a virágokat, de megóvja őket attól, hogy áttapossák őket. Ebben a részben lépésről-lépésre szóló utasításokat talál, amelyek a cellák zárását nem csak lehetségessé, hanem egyszerűvé teszik! A kódrészletek és példák segítségével pillanatok alatt profinak fogja érezni magát.
+ Néha engedélyezni szeretné a felhasználóknak, hogy lássák adatait, de meg akarja akadályozni, hogy módosítsák azokat. Itt található a bemutató[Cella zárolása az Excel munkalapon](./lock-cell-in-excel-worksheet/) ragyog. Leegyszerűsíti a cellák zárolását az Excel-munkalapokon az Aspose.Cells for .NET segítségével. Képzeljen el egy kerítést a kertje körül; lehetővé teszi az embereknek, hogy megcsodálják a virágokat, de megóvja őket attól, hogy áttapossák őket. Ebben a részben lépésről-lépésre szóló utasításokat talál, amelyek a cellák lezárását nem csak lehetségessé, hanem egyszerűvé teszik! A kódrészletek és példák segítségével pillanatok alatt profinak fogja érezni magát.
 
 ## Írjon Védelem személyes érintéssel  
 

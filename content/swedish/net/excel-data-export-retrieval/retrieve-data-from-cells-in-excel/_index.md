@@ -56,7 +56,7 @@ Nu när du har konfigurerat dokumentkatalogen är nästa steg att öppna arbetsb
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Här skapar vi en`Workbook`objekt genom att skicka hela sökvägen till Excel-filen. Detta steg initierar arbetsboken och gör den redo för datahämtning.
+ Här skapar vi en`Workbook` objekt genom att skicka hela sökvägen till Excel-filen. Detta steg initierar arbetsboken och gör den redo för datahämtning.
 
 ## Steg 3: Öppna det första arbetsbladet
 
@@ -68,7 +68,7 @@ När du har öppnat arbetsboken vill du komma åt det specifika kalkylblad som d
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- De`Worksheets` samling låter dig komma åt olika ark i arbetsboken. Indexet`[0]` hänvisar till det första arbetsbladet. Om du vill komma åt efterföljande blad kan du ändra indexet i enlighet med detta.
+ De`Worksheets` samling låter dig komma åt olika ark i arbetsboken. Indexet`[0]`hänvisar till det första arbetsbladet. Om du vill komma åt efterföljande blad kan du ändra indexet i enlighet med detta.
 
 ## Steg 4: Slinga genom celler
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Utvärdera datatypen för celldata för datum/tidsvärde
+        // Utvärdera datatypen för celldata för datum/tidsvärde
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- I det här steget går vi igenom varje cell i kalkylbladet. För varje cell kontrollerar vi dess datatyp med hjälp av a`switch` påstående. Beroende på typ hämtar vi värdet och skriver ut det till konsolen. Här är en uppdelning av fallen:
+ I det här steget går vi igenom varje cell i kalkylbladet. För varje cell kontrollerar vi dess datatyp med hjälp av a`switch`påstående. Beroende på typ hämtar vi värdet och skriver ut det till konsolen. Här är en uppdelning av fallen:
 
 -  IsString: Om cellen innehåller en sträng, hämtar vi den med hjälp av`StringValue`.
 -  IsNumeric: För numeriska värden använder vi`DoubleValue`.
@@ -143,7 +143,7 @@ Att hämta data från Excel-celler med Aspose.Cells för .NET är en enkel proce
 Aspose.Cells är ett .NET-bibliotek som låter utvecklare skapa, manipulera och konvertera Excel-filer utan att behöva installera Microsoft Excel.
 
 ### Kan jag använda Aspose.Cells gratis?  
- Ja, Aspose.Cells erbjuder en gratis provperiod som du kan använda för att testa dess funktioner. Du kan ladda ner den[här](https://releases.aspose.com/).
+Ja, Aspose.Cells erbjuder en gratis provperiod som du kan använda för att testa dess funktioner. Du kan ladda ner den[här](https://releases.aspose.com/).
 
 ### Vilka typer av data kan jag hämta från Excel-celler?  
 Du kan hämta olika datatyper, inklusive strängar, siffror, booleaner och datum/tidsvärden.

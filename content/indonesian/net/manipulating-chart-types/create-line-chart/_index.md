@@ -2,7 +2,7 @@
 title: Buat Bagan Garis
 linktitle: Buat Bagan Garis
 second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Buat diagram garis yang menakjubkan menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk memvisualisasikan data Anda secara efektif.
+description: Buat diagram garis yang memukau menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk memvisualisasikan data Anda secara efektif.
 type: docs
 weight: 11
 url: /id/net/manipulating-chart-types/create-line-chart/
@@ -24,7 +24,7 @@ Setelah Anda menyelesaikan prasyarat ini, Anda siap membuat beberapa bagan!
 
 ## Paket Impor
 
-Setelah kita menyiapkan lingkungan, kita perlu mengimpor paket yang diperlukan ke dalam kode C#. Sama seperti saat Anda mengumpulkan peralatan sebelum memulai proyek, mengimpor paket sangat penting untuk memastikan Anda memiliki semua yang dibutuhkan.
+Setelah kita menyiapkan lingkungan, kita perlu mengimpor paket yang diperlukan dalam kode C#. Sama seperti saat Anda mengumpulkan peralatan sebelum memulai proyek, mengimpor paket penting untuk memastikan Anda memiliki semua yang dibutuhkan.
 
 Berikut cara melakukannya:
 
@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Selanjutnya, kita perlu membuat contoh buku kerja baru. Anggaplah Buku Kerja sebagai kanvas tempat kreativitas Anda mengalir. 
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 Baris ini menginisialisasi buku kerja baru yang akan menampung semua data dan visual Anda.

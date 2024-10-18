@@ -15,8 +15,8 @@ Při práci se soubory Excel v .NET je jednou z nejvýkonnějších knihoven, kt
 
 Než se ponoříme do toho nejnutnějšího kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
 
-1. Visual Studio: Na vašem počítači byste měli mít nainstalované Visual Studio. Pokud jej ještě nemáte, můžete si jej stáhnout z[webové stránky společnosti Microsoft](https://visualstudio.microsoft.com/).
-2.  Knihovna Aspose.Cells: Tato příručka předpokládá, že máte knihovnu Aspose.Cells. Můžete si jej snadno stáhnout z[Stránka vydání Aspose](https://releases.aspose.com/cells/net/) . Pokud si nejste jisti, kde začít,[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) může být tvůj nejlepší přítel!
+1.  Visual Studio: Na vašem počítači byste měli mít nainstalované Visual Studio. Pokud jej ještě nemáte, můžete si jej stáhnout z[webové stránky společnosti Microsoft](https://visualstudio.microsoft.com/).
+2.  Knihovna Aspose.Cells: Tato příručka předpokládá, že máte knihovnu Aspose.Cells. Můžete si jej snadno stáhnout z[Stránka vydání Aspose](https://releases.aspose.com/cells/net/) Pokud si nejste jisti, kde začít,[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) může být tvůj nejlepší přítel!
 3. Základní znalost C#: Znalost programovacího jazyka C# vám pomůže porozumět příkladům a bez problémů je následovat.
 4.  Soubor Excel: Ujistěte se, že máte soubor Excel obsahující grafy pro tento výukový program. Můžete vytvořit ukázkový soubor aplikace Excel s názvem`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` pro testovací účely.
 5. Prostředí .NET: Zkontrolujte, zda je vaše prostředí .NET správně nastaveno. Tento výukový program se zaměřuje na .NET framework, takže se ujistěte, že jste připraveni!
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- The`Workbook`class je vaše brána k souboru Excel. Poskytnutím úplné cesty vytvoříme novou instanci sešitu, která obsahuje naše data aplikace Excel.
+ The`Workbook` class je vaše brána k souboru Excel. Poskytnutím úplné cesty vytvoříme novou instanci sešitu, která obsahuje naše data aplikace Excel.
 
 ## Krok 3: Otevřete první pracovní list
 
@@ -98,7 +98,7 @@ Nyní si přečteme popisky os z osy kategorií.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Zde vytahujeme štítky z osy kategorií a ukládáme je do souboru`ArrayList`. Tento seznam je nezbytný pro procházení a zobrazování vašich štítků.
+ Zde vytahujeme štítky z osy kategorií a ukládáme je do souboru`ArrayList`. Tento seznam je nezbytný pro procházení a zobrazování vašich štítků.
 
 ## Krok 7: Vytiskněte štítky os do konzoly
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Tento úryvek nejprve vydá titulek a oddělovací řádek. Poté projdeme každý štítek v`lstLabels` ArrayList a vytiskněte jej do konzole. Pokud existuje deset štítků, uvidíte každý z nich přímo tam!
+Tento úryvek nejprve vydá titulek a oddělovací řádek. Poté projdeme každý štítek v`lstLabels` ArrayList a vytiskněte jej do konzole. Pokud existuje deset štítků, uvidíte každý z nich přímo tam!
 
 ## Krok 8: Závěrečná zpráva
 
@@ -127,7 +127,7 @@ Toto je přátelská připomínka, že váš proces proběhl hladce!
 
 ## Závěr
 
-tady to máte – kompletní průvodce, jak číst popisky os kategorií z grafu v souboru aplikace Excel pomocí knihovny Aspose.Cells pro .NET. Docela přímočaré, že? Pomocí několika řádků kódu můžete vytáhnout důležité informace ze svých tabulek a bez problémů je integrovat do aplikací.
+A tady to máte – kompletní průvodce, jak číst popisky os kategorií z grafu v souboru aplikace Excel pomocí knihovny Aspose.Cells pro .NET. Docela přímočaré, že? Pomocí několika řádků kódu můžete vytáhnout důležité informace ze svých tabulek a bez problémů je integrovat do aplikací.
 
 ## FAQ
 
@@ -141,7 +141,7 @@ Aspose.Cells je výkonná knihovna pro manipulaci se soubory Excelu v .NET. Posk
  Licenci pro Aspose.Cells si můžete zakoupit prostřednictvím jejich[nákupní stránku](https://purchase.aspose.com/buy).
 
 ### Kde najdu podporu pro Aspose.Cells?
- Pro podporu můžete navštívit fórum Aspose[zde](https://forum.aspose.com/c/cells/9).
+Pro podporu můžete navštívit fórum Aspose[zde](https://forum.aspose.com/c/cells/9).
 
 ### Mohu získat dočasnou licenci?
  Ano! Aspose nabízí dočasnou licenci, kterou si můžete vyžádat[tento odkaz](https://purchase.aspose.com/temporary-license/).

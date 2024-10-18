@@ -22,7 +22,7 @@ Aspose.Cells for Java to solidny interfejs API Java, który umożliwia programis
 
 ## Tworzenie nowego skoroszytu
 
-Zacznijmy od utworzenia nowego skoroszytu programu Excel przy użyciu Aspose.Cells dla języka Java. Oto podstawowy fragment kodu, który pomoże Ci zacząć:
+Zacznijmy od utworzenia nowego skoroszytu Excela przy użyciu Aspose.Cells dla Java. Oto podstawowy fragment kodu, który pomoże Ci zacząć:
 
 ```java
 // Zainicjuj nowy skoroszyt

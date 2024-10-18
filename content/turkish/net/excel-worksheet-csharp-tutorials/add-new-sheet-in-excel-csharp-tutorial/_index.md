@@ -49,7 +49,7 @@ Başlamak için, Excel dosyalarınızı saklamak için güvenli bir yeriniz oldu
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Eğer mevcut değilse dizin oluşturun.
+//Eğer mevcut değilse dizin oluşturun.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ Yukarıdaki kodda, Excel dosyamızın bulunacağı yolu bildiriyoruz (`dataDir`)
 Sırada, Workbook sınıfının bir örneğini oluşturacağız. Bu sınıf, gerçekleştireceğiniz Excel ile ilgili işlemlerin omurgasıdır.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Artık çalışma kitabımız hazır olduğuna göre, yeni sayfayı ekleyelim!
 int i = workbook.Worksheets.Add();
 ```
 
- Burada şunu kullanıyoruz:`Add()` yöntemi`Worksheets` koleksiyon mevcut`Workbook` sınıf. Yöntem bir dizin döndürür (`i`yeni eklenen sayfanın. Defterinize bir sayfa eklemek gibi - basit ve etkili!
+ Burada şunu kullanıyoruz:`Add()` yöntemi`Worksheets` koleksiyon mevcut`Workbook` sınıf. Yöntem bir dizin döndürür (`i`) yeni eklenen sayfanın. Defterinize bir sayfa eklemek gibi - basit ve etkili!
 
 ## Adım 4: Yeni Çalışma Sayfanıza İsim Verme
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Yeni oluşturulan sayfaya, dizinini kullanarak bir referans alırsınız`i`. Sonra, adını basitçe "Çalışma Sayfam" olarak ayarlıyoruz. Sayfalarınızı bu şekilde adlandırmak iyi bir uygulamadır, özellikle bağlamın önemli olduğu daha büyük Excel dosyalarıyla çalışırken.
+ Yeni oluşturulan sayfaya, dizinini kullanarak bir referans alırsınız`i`Sonra, adını basitçe "Çalışma Sayfam" olarak ayarlıyoruz. Sayfalarınızı bu şekilde adlandırmak iyi bir uygulamadır, özellikle bağlamın önemli olduğu daha büyük Excel dosyalarıyla çalışırken.
 
 ## Adım 5: Excel Dosyasını Kaydetme
 

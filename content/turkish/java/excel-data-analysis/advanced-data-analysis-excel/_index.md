@@ -16,7 +16,7 @@ Excel şüphesiz veri analizi için çok yönlü bir araçtır, ancak büyük ve
 
 Aspose.Cells for Java ile gelişmiş veri analizi dünyasına dalmadan önce, birkaç ön koşulun yerine getirilmesi gerekir:
 
-- Java programlamanın temel bilgisi.
+- Temel Java programlama bilgisi.
 - Java ve tercih ettiğiniz IDE ile kurulmuş bir geliştirme ortamı.
 -  Java için Aspose.Cells kütüphanesini buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 - Üzerinde çalışabileceğiniz örnek veriler içeren bir Excel elektronik tablosu.
@@ -133,7 +133,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2, "Total Sales", "Sum");
 Tekrarlayan görevleri otomatikleştirmek size çok zaman kazandırabilir. Java için Aspose.Cells, Excel makrolarıyla programlı olarak çalışmanızı sağlar.
 
 ```java
-// Bir makro oluşturun
+// Bir makro oluştur
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet macroSheet = worksheets.get(worksheets.add());
 macroSheet.getCells().get("A1").putValue("Sub HelloWorld()\nMsgBox \"Hello, Aspose!\"\nEnd Sub");

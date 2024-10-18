@@ -18,7 +18,7 @@ Imagínese poder vincular documentos relacionados directamente a su hoja de cál
  Navegar por libros de trabajo grandes a veces puede parecer como buscar una aguja en un pajar. Por eso, nuestro tutorial sobre[Agregar enlaces internos a celdas de Excel](./add-link-to-other-sheet-cell/) ¡Es esencial! Aquí te mostramos cómo crear enlaces que te permitan saltar directamente a celdas específicas en otras hojas. Esta función no solo ahorra tiempo, sino que también mantiene la organización de tus datos ordenada y prolija. ¡Piensa en ello como si tuvieras una biblioteca bien organizada, todo accesible con solo un clic!
 
 ## Agregar enlace a URL en Excel
-Finalmente, en nuestra guía sobre[Cómo agregar un hipervínculo URL en Excel](./add-link-to-url/)Descubrirás lo sencillo que es conectar tus hojas de cálculo a la web. Ya sea que necesites hacer referencia a un sitio web para obtener información adicional o crear un vínculo a un videotutorial, esta función lo hace posible. Imagina crear un vínculo directo a una fuente que complemente tus datos: ¡tus lectores te lo agradecerán!
+Finalmente, en nuestra guía sobre[Cómo agregar un hipervínculo URL en Excel](./add-link-to-url/)Descubrirás lo sencillo que es conectar tus hojas de cálculo a la web. Ya sea que necesites hacer referencia a un sitio web para obtener información adicional o crear un enlace a un videotutorial, esta función lo hace posible. Imagina crear un enlace directo a una fuente que complemente tus datos: ¡tus lectores te lo agradecerán!
 
 ## Cómo trabajar con hipervínculos en tutoriales de Excel
 ### [Agregar un enlace a un archivo externo en Excel](./add-link-to-external-file/)

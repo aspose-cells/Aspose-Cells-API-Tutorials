@@ -45,14 +45,14 @@ Artık temel yapı ortaya çıktığına göre, özel bir grafik oluşturmaya il
 string outputDir = "Your Output Directory"; //Bunu istediğiniz yola değiştirin
 ```
 
-"Çıktı Dizininiz" yerine, Excel dosyasının kaydedilmesini istediğiniz gerçek bir yolu belirtebilirsiniz. Bu dizinin sisteminizde mevcut olduğundan emin olun; aksi takdirde, daha sonra hatalarla karşılaşırsınız.
+"Çıktı Dizininiz" yerine, Excel dosyasının kaydedilmesini istediğiniz gerçek bir yol belirtebilirsiniz. Bu dizinin sisteminizde mevcut olduğundan emin olun; aksi takdirde, daha sonra hatalarla karşılaşırsınız.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 
  Şimdi, yeni bir örnek oluşturarak işe başlamak isteyeceksiniz`Workbook` sınıf. Bu, Aspose.Cells kullanan herhangi bir Excel işleminin temel yapı taşıdır.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -130,7 +130,7 @@ Herhangi bir serinin türünü değiştirerek grafiğinizi daha da özelleştire
 chart.NSeries[1].Type = Aspose.Cells.Charts.ChartType.Line;
 ```
 
-Bu, benzersiz görselleştirme fırsatları sunan karma türdeki grafiklere olanak tanır.
+Bu, benzersiz görselleştirme fırsatları sunan karma tipteki grafiklere olanak tanır.
 
 ## Adım 9: Çalışma Kitabını Kaydetme
 
@@ -155,7 +155,7 @@ Unutmayın, grafiklerin gücü bir hikaye anlatma, karmaşık verileri tek bakı
 Aspose.Cells, .NET uygulamalarında Excel dosyalarıyla çalışmak için güçlü bir kütüphanedir; Excel belgelerinin düzenlenmesine, oluşturulmasına ve dönüştürülmesine olanak tanır.
 
 ### Aspose.Cells for .NET'i nasıl kurarım?
- NuGet aracılığıyla Visual Studio'da kurulumunu yapabilir veya kütüphaneyi doğrudan şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+ NuGet'i Visual Studio'da kullanarak kurabilir veya kütüphaneyi doğrudan şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
 
 ### Farklı türde grafikler oluşturabilir miyim?
 Kesinlikle! Aspose.Cells Sütun, Çizgi, Pasta ve Çubuk grafikler dahil olmak üzere çeşitli grafik türlerini destekler.

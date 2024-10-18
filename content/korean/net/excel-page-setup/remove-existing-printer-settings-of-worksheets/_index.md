@@ -49,7 +49,7 @@ using System;
 
 ## 1단계: 소스 및 출력 디렉토리 정의
 
-시작하려면 원본 Excel 파일이 있는 위치와 수정된 파일을 저장할 위치를 파악해야 합니다.
+시작하려면 원본 Excel 파일의 위치와 수정된 파일을 저장할 위치를 파악해야 합니다.
 
 ```csharp
 //소스 디렉토리
@@ -58,7 +58,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- 여기서 당신은 대체할 것입니다`"Your Document Directory"` 그리고`"Your Document Directory"` 파일이 저장된 실제 경로를 포함합니다.
+ 여기서 당신은 교체할 것입니다`"Your Document Directory"` 그리고`"Your Document Directory"` 파일이 저장된 실제 경로를 포함합니다.
 
 ## 2단계: Excel 파일 로드
 
@@ -73,7 +73,7 @@ Workbook wb = new Workbook(sourceDir + "sampleRemoveExistingPrinterSettingsOfWor
 
 ## 3단계: 워크시트 수 얻기
 
-이제 워크북이 있으니, 여기에 워크시트가 몇 장 들어 있는지 알아보겠습니다.
+이제 워크북이 있으니, 워크시트가 몇 장 들어 있는지 알아보겠습니다.
 
 ```csharp
 //워크북의 시트 수를 가져옵니다

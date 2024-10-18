@@ -19,12 +19,12 @@ La protection par mot de passe est votre première ligne de défense. Avec Aspos
 Dans le monde interconnecté d'aujourd'hui, le chiffrement des fichiers est indispensable. Aspose.Cells pour Java vous permet de chiffrer vos fichiers Excel à l'aide d'algorithmes de chiffrement standard. Nous vous guiderons tout au long du processus de chiffrement de vos fichiers et de leur déchiffrement si nécessaire.
 
 ## Validation des données
-Il est essentiel de garantir l'intégrité des données. Nous verrons comment utiliser les règles de validation des données pour éviter toute saisie erronée. Avec Aspose.Cells pour Java, vous pouvez configurer des règles de validation des données qui limitent la saisie de données à des critères spécifiques, garantissant ainsi que vos feuilles Excel restent précises et sans erreur.
+Il est essentiel de garantir l'intégrité des données. Nous verrons comment utiliser les règles de validation des données pour éviter toute saisie erronée. Avec Aspose.Cells pour Java, vous pouvez configurer des règles de validation des données qui limitent la saisie des données à des critères spécifiques, garantissant ainsi que vos feuilles Excel restent précises et sans erreur.
 
 ## Tutoriels sur la sécurité des données Excel
 ### [Protection par mot de passe Excel](./excel-password-protection/)
 Découvrez comment améliorer la sécurité des données avec la protection par mot de passe Excel à l'aide d'Aspose.Cells pour Java. Guide étape par étape avec code source pour une confidentialité optimale des données.
-### [Stratégies de verrouillage des cellules](./cell-locking-strategies/)
+### [Stratégies de verrouillage cellulaire](./cell-locking-strategies/)
 Apprenez des stratégies efficaces de verrouillage de cellules à l'aide d'Aspose.Cells pour Java. Améliorez la sécurité et l'intégrité des données dans les fichiers Excel grâce à des instructions étape par étape.
 ### [Méthodes de chiffrement du classeur](./workbook-encryption-methods/)
 Améliorez la sécurité des données avec Aspose.Cells pour le chiffrement des classeurs Java. Apprenez à chiffrer les classeurs Excel étape par étape.

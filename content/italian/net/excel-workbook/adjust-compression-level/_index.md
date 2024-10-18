@@ -85,11 +85,11 @@ var elapsedMs = watch.ElapsedMilliseconds;
 Console.WriteLine("Level 1 Elapsed Time: " + elapsedMs);
 ```
 
-In questo frammento, impostiamo il tipo di compressione su Livello 1, salviamo la cartella di lavoro e registriamo il tempo impiegato. 
+In questo frammento di codice, impostiamo il tipo di compressione su Livello 1, salviamo la cartella di lavoro e registriamo il tempo impiegato. 
 
 ### Compressione di livello 6
 
-Ora proveremo un livello di compressione di fascia media:
+Successivamente, proveremo un livello di compressione di fascia media:
 
 ```csharp
 options.CompressionType = OoxmlCompressionType.Level6;
@@ -136,7 +136,7 @@ La regolazione dei livelli di compressione quando si salvano file Excel con Aspo
 ### Che cos'è Aspose.Cells?
 Aspose.Cells è una libreria .NET che consente agli sviluppatori di creare, manipolare e convertire file Excel a livello di programmazione.
 
-### Come faccio a scaricare Aspose.Cells?
+### Come posso scaricare Aspose.Cells?
  Puoi scaricare la libreria Aspose.Cells da[sito web](https://releases.aspose.com/cells/net/).
 
 ### Posso usare Aspose.Cells gratuitamente?

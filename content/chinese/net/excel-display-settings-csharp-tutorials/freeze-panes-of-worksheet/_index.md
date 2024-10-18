@@ -25,7 +25,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
 - 您需要一个像 Visual Studio 这样的 IDE 来创建和运行您的 C# 应用程序。
 
 ### Excel 文件示例
-- 为了演示目的，你需要一个 Excel 文件，我们将其称为`book1.xls`您可以使用 Microsoft Excel 或任何兼容应用程序创建一个简单的 Excel 文件。
+- 为了演示目的，你需要一个 Excel 文件，我们将其称为`book1.xls`。您可以使用 Microsoft Excel 或任何兼容应用程序创建一个简单的 Excel 文件。
 
 一旦满足这些先决条件，我们就可以开始编码了！
 
@@ -66,7 +66,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-这`FileStream`允许您通过提供字节流来读取和写入文件。简而言之，它打开了 Excel 文件的大门，以便您可以开始使用它。
+这`FileStream`通过提供字节流，您可以读写文件。简而言之，它打开了 Excel 文件的大门，以便您可以开始使用它。
 
 ## 步骤 4：实例化工作簿对象
 
@@ -86,7 +86,7 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-这里，我们访问工作簿的第一个工作表。Excel 文件中可以有多个工作表，但在本演示中，我们重点介绍第一个工作表。这就像打开一本书中的特定页面进行阅读。
+这里，我们访问工作簿的第一张工作表。Excel 文件中可以有多个工作表，但在本演示中，我们重点介绍第一个工作表。这就像打开一本书中的特定页面进行阅读。
 
 ## 步骤 6：应用冻结窗格设置
 

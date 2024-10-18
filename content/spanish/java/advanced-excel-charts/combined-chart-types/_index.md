@@ -24,7 +24,7 @@ Una vez que tenga la biblioteca lista, puede continuar con los siguientes pasos 
 
 ## Creación de un gráfico combinado
 
-### Paso 1: Importe las clases y paquetes necesarios de Aspose.Cells para Java en su proyecto Java.
+### Paso 1: Importe las clases y paquetes necesarios de Aspose.Cells para Java a su proyecto Java.
 
 ```java
 import com.aspose.cells.*;

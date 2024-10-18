@@ -21,12 +21,12 @@ Aspose.Cells para .NET es su herramienta ideal para administrar, manipular y per
 
 ## Uso de minigráficos para obtener información rápida
 
- Los minigráficos son gráficos pequeños y livianos que brindan un resumen visual rápido de las tendencias de los datos. Aspose.Cells para .NET facilita su integración en los libros de Excel. Son perfectos para quienes desean agregar una visualización de datos detallada sin saturar la hoja.[Mira el tutorial](./using-sparklines/) para obtener instrucciones paso a paso.
+ Los minigráficos son gráficos pequeños y livianos que brindan un resumen visual rápido de las tendencias de los datos. Aspose.Cells para .NET facilita su integración en los libros de Excel. Son perfectos para quienes desean agregar una visualización de datos detallada sin saturar la hoja.[Mira el tutorial](./using-sparklines/) para instrucciones paso a paso.
 ¡Por supuesto! Sigamos ampliando las operaciones de gráficos más avanzadas que puede realizar con Aspose.Cells para .NET.
 
 ## Cambiar la dirección de la etiqueta de la marca de verificación
 
- Las etiquetas de graduación en los gráficos son esenciales para la legibilidad de los datos, pero a veces su dirección predeterminada puede no adaptarse a su diseño. Con Aspose.Cells para .NET, puede cambiar fácilmente la dirección de la etiqueta de graduación para asegurarse de que su gráfico se vea exactamente como lo desea. Esto es especialmente útil cuando se trabaja con ejes desordenados o etiquetas superpuestas.[Explora cómo hacerlo aquí](./change-tick-label-direction/).
+ Las etiquetas de graduación en los gráficos son esenciales para la legibilidad de los datos, pero a veces su dirección predeterminada puede no adaptarse a su diseño. Con Aspose.Cells para .NET, puede cambiar fácilmente la dirección de las etiquetas de graduación para asegurarse de que su gráfico se vea exactamente como lo desea. Esto es especialmente útil cuando se trabaja con ejes desordenados o etiquetas superpuestas.[Explora cómo hacerlo aquí](./change-tick-label-direction/).
 
 ## Leer y manipular gráficos de Excel 2016
 
@@ -34,11 +34,11 @@ Aspose.Cells para .NET es su herramienta ideal para administrar, manipular y per
 
 ## Establecer el tipo de forma de las etiquetas de datos en un gráfico
 
-Personalizar la forma de las etiquetas de datos puede hacer que los gráficos sean más interactivos y atractivos visualmente. Ya sea que desee rectángulos redondeados, círculos u otras formas para las etiquetas, Aspose.Cells para .NET ofrece una manera sencilla de modificar estas configuraciones. Esto es ideal para que sus presentaciones de datos se destaquen con un aspecto más profesional.[Aprenda a personalizar las etiquetas de datos](./set-shape-type-of-data-labels-of-chart/) en sólo unos sencillos pasos.
+Personalizar la forma de las etiquetas de datos puede hacer que los gráficos sean más interactivos y atractivos visualmente. Ya sea que desee rectángulos redondeados, círculos u otras formas para las etiquetas, Aspose.Cells para .NET ofrece una manera sencilla de modificar estas configuraciones. Esto es ideal para que sus presentaciones de datos se destaquen con un aspecto más profesional.[Aprenda a personalizar las etiquetas de datos](./set-shape-type-of-data-labels-of-chart/) en tan solo unos sencillos pasos.
 
 ## Configuración de datos de categorías y datos de gráficos
 
- Organizar y mostrar los datos de categorías de su gráfico de manera eficiente puede ser complicado. Aspose.Cells para .NET ofrece soluciones perfectas para configurar los datos de categorías y gráficos, lo que garantiza que sus elementos visuales sean precisos y atractivos. Esto es particularmente útil al manejar grandes conjuntos de datos o crear gráficos dinámicos que se actualizan según las entradas del usuario. Consulte estos tutoriales para dominar la configuración[datos de categoría](./setting-category-data/) y[datos del gráfico](./setting-chart-data/) en sus archivos de Excel.
+ Organizar y mostrar los datos de categorías de su gráfico de manera eficiente puede ser complicado. Aspose.Cells para .NET ofrece soluciones perfectas para configurar los datos de categorías y gráficos, lo que garantiza que sus elementos visuales sean precisos y atractivos. Esto es particularmente útil cuando se manejan grandes conjuntos de datos o se crean gráficos dinámicos que se actualizan según las entradas del usuario. Consulte estos tutoriales para dominar la configuración[datos de categoría](./setting-category-data/) y[datos del gráfico](./setting-chart-data/) en sus archivos de Excel.
 
 ## Código de formato de valores establecidos de la serie de gráficos
 
@@ -48,13 +48,13 @@ Personalizar la forma de las etiquetas de datos puede hacer que los gráficos se
 
 Desde la mejora de los elementos visuales de los gráficos hasta el ajuste de las posiciones de los mismos, Aspose.Cells para .NET simplifica las operaciones avanzadas de gráficos de Excel. Si sigue estos tutoriales, podrá mejorar sus habilidades de visualización de datos y hacer que sus gráficos de Excel realmente se destaquen. Ya sea que esté formateando en 3D o trabajando con minigráficos, Aspose.Cells para .NET garantiza una implementación sencilla y sin esfuerzo.
 
-## Tutoriales de operaciones gráficas avanzadas
+## Tutoriales de operaciones avanzadas con gráficos
 ### [Aplicar formato 3D al gráfico](./apply-3d-format-to-chart/)
 Descubra cómo crear gráficos 3D impresionantes en Excel con Aspose.Cells para .NET. Siga nuestra sencilla guía paso a paso.
 ### [Cambiar el tamaño y la posición del gráfico](./change-chart-size-and-position/)
 Aprenda a cambiar el tamaño y la posición de los gráficos en Excel usando Aspose.Cells para .NET con esta guía fácil de seguir.
 ### [Cambiar la dirección de la etiqueta de la marca de verificación](./change-tick-label-direction/)
-Cambie la dirección de las etiquetas de graduación en los gráficos de Excel rápidamente con Aspose.Cells para .NET. Siga esta guía para una implementación perfecta.
+Cambie rápidamente la dirección de las etiquetas de las marcas de verificación en los gráficos de Excel con Aspose.Cells para .NET. Siga esta guía para lograr una implementación perfecta.
 ### [Leer y manipular gráficos de Excel 2016](./read-and-manipulate-excel-2016-charts/)
 Aprenda a leer y manipular gráficos de Excel 2016 usando Aspose.Cells para .NET con esta guía paso a paso.
 ### [Establecer el tipo de forma de las etiquetas de datos del gráfico](./set-shape-type-of-data-labels-of-chart/)
@@ -62,7 +62,7 @@ Mejore sus gráficos de Excel con formas de etiquetas de datos personalizadas me
 ### [Configuración de datos de categoría](./setting-category-data/)
 Aprenda a configurar datos de categorías en gráficos de Excel con Aspose.Cells para .NET. Siga nuestro tutorial paso a paso para una implementación sencilla.
 ### [Configuración de datos del gráfico](./setting-chart-data/)
-Aprenda a configurar datos de gráficos usando Aspose.Cells para .NET a través de una guía detallada, paso a paso, perfecta para mejorar la visualización de datos.
+Aprenda a configurar datos gráficos usando Aspose.Cells para .NET a través de una guía detallada, paso a paso, perfecta para mejorar la visualización de datos.
 ### [Código de formato de valores establecidos de la serie de gráficos](./set-values-format-code-of-chart-series/)
 Aprenda a configurar el código de formato de valores de series de gráficos en Aspose.Cells para .NET con este tutorial detallado paso a paso. Perfecto para principiantes.
 ### [Uso de minigráficos](./using-sparklines/)

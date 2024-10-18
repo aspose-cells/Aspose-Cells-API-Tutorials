@@ -1,7 +1,7 @@
 ---
 title: Rastreando células dependentes no Excel
 linktitle: Rastreando células dependentes no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a rastrear células dependentes no Excel usando o Aspose.Cells para .NET com este tutorial fácil de seguir.
 type: docs
 weight: 10
@@ -84,7 +84,7 @@ Agora que temos a pasta de trabalho aberta, é hora de colocar as mãos nas cél
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Explicação: O código acima tem como alvo a primeira planilha (índice 0) em nossa pasta de trabalho e recupera o`Cells` coleção, com a qual trabalharemos para rastrear dependentes.
+Explicação: O código acima tem como alvo a primeira planilha (índice 0) em nossa pasta de trabalho e recupera o`Cells` coleção, com a qual trabalharemos para rastrear dependentes.
 
 ## Etapa 4: Selecione a célula
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Explicação: Este loop percorre cada célula dependente em nossa matriz e imprime seu nome — bem direto! O`Console.ReadKey()` garante que a janela do console permaneça aberta até que você pressione uma tecla, dando-lhe tempo para ler a saída.
+Explicação: Este loop percorre cada célula dependente em nossa matriz e imprime seu nome — bem direto! O`Console.ReadKey()` garante que a janela do console permaneça aberta até que você pressione uma tecla, dando-lhe tempo para ler a saída.
 
 ## Conclusão
 
@@ -133,10 +133,10 @@ Aspose.Cells é uma biblioteca poderosa para manipular arquivos Excel em aplicat
  Sim! A Aspose oferece uma[teste gratuito](https://releases.aspose.com/) do seu software, permitindo que você explore seus recursos antes de comprá-lo.
 
 ### Como obtenho suporte para o Aspose.Cells?
-Você pode buscar suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9), onde uma comunidade de usuários e especialistas pode ajudar você. 
+ Você pode buscar suporte através do[Fórum Aspose](https://forum.aspose.com/c/cells/9), onde uma comunidade de usuários e especialistas pode ajudar você. 
 
 ### O Aspose.Cells é adequado para arquivos grandes do Excel?
-Absolutamente! O Aspose.Cells foi projetado para trabalhar eficientemente com grandes arquivos Excel, fornecendo manuseio e desempenho robustos.
+Absolutamente! O Aspose.Cells foi projetado para trabalhar eficientemente com arquivos grandes do Excel, fornecendo manuseio e desempenho robustos.
 
 ### Posso comprar o Aspose.Cells?
- Sim! Você pode comprar Aspose.Cells através de seus[comprar página](https://purchase.aspose.com/buy) para opções de licenciamento flexíveis.
+ Sim! Você pode comprar Aspose.Cells através de seus[página de compra](https://purchase.aspose.com/buy) para opções de licenciamento flexíveis.

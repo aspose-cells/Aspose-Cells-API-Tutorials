@@ -148,7 +148,7 @@ Pelajari strategi untuk mengekspor kumpulan data besar secara efisien dan memast
 
 ## Penanganan Kesalahan dan Pemecahan Masalah
 
-Bagian ini membahas masalah umum dan cara memecahkannya saat bekerja dengan Aspose.Cells untuk Java.
+Bagian ini membahas masalah umum dan cara memecahkan masalah saat bekerja dengan Aspose.Cells untuk Java.
 
 ## Mengintegrasikan Aspose.Cells dengan Aplikasi Anda
 

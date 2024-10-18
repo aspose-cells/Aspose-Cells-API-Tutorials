@@ -11,9 +11,9 @@ url: /fr/net/excel-data-sorting-exporting/
 
 Êtes-vous prêt à améliorer votre jeu Excel ? Si vous cherchez à trier des données et à exporter des valeurs HTML de manière transparente à l'aide d'Aspose.Cells pour .NET, vous êtes au bon endroit ! Dans cet article, nous allons nous plonger dans deux tutoriels fantastiques : comment trier des données avec une liste de tri personnalisée dans Excel et comment exporter des valeurs de chaîne HTML à partir de cellules vers un DataTable. C'est parti !
 
-## Trier des données dans Excel : liste de tri personnalisée simplifiée
+## Trier des données dans Excel : liste de tri personnalisée simplifiée
 
-Trier des données peut sembler un jeu d'enfant, mais lorsque vous ajoutez une liste de tri personnalisée, les choses deviennent un peu plus intéressantes. Que vous organisiez des noms, des dates ou tout autre ensemble de données, la personnalisation de l'ordre peut apporter une nouvelle perspective et rendre vos données plus faciles à comprendre. Imaginez que vous organisez une étagère : l'organiseriez-vous simplement par ordre alphabétique ou créeriez-vous un ordre spécial basé sur les genres ? C'est la beauté du tri personnalisé ! 
+Trier des données peut sembler un jeu d'enfant, mais lorsque vous ajoutez une liste de tri personnalisée, les choses deviennent un peu plus intéressantes. Que vous organisiez des noms, des dates ou tout autre ensemble de données, la personnalisation de l'ordre peut apporter une nouvelle perspective et rendre vos données plus faciles à comprendre. Imaginez que vous organisez une bibliothèque : l'organiseriez-vous simplement par ordre alphabétique ou créeriez-vous un ordre spécial basé sur les genres ? C'est la beauté du tri personnalisé ! 
 
  Dans notre[Tutoriel sur le tri des données dans une colonne avec une liste de tri personnalisée dans Excel](./sort-data-in-a-column-with-custom-sort-list-in-excel/)nous vous expliquerons comment configurer une liste de tri personnalisée avec Aspose.Cells. C'est simple : vous apprendrez à définir vos priorités de tri et à faire en sorte qu'Excel réagisse en conséquence. Ce didacticiel ne vous donne pas seulement les étapes à suivre ; il s'appuie sur des exemples concrets, ce qui rend le processus d'apprentissage pertinent et agréable.
 

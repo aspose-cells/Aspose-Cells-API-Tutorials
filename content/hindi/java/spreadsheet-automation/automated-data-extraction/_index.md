@@ -72,7 +72,7 @@ System.out.println("Data from A1: " + data);
 कक्षों की श्रेणी से डेटा निकालने के लिए, निम्नलिखित कोड का उपयोग करें:
 
 ```java
-// एक सीमा निर्धारित करें (उदाहरणार्थ, A1:B10)
+// एक श्रेणी निर्धारित करें (उदाहरणार्थ, A1:B10)
 CellArea cellArea = new CellArea();
 cellArea.StartRow = 0;
 cellArea.StartColumn = 0;

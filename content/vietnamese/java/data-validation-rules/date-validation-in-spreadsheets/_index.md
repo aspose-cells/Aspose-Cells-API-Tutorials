@@ -23,7 +23,7 @@ Trước khi đi sâu vào xác thực ngày tháng, hãy đảm bảo bạn đ�
 
 Để bắt đầu, bạn cần thêm thư viện Aspose.Cells vào dự án Java của mình. Thực hiện theo các bước sau:
 
-1.  Tải xuống thư viện Aspose.Cells cho Java từ trang web được cung cấp[liên kết](https://releases.aspose.com/cells/java/).
+1.  Tải xuống thư viện Aspose.Cells cho Java từ thư viện được cung cấp[liên kết](https://releases.aspose.com/cells/java/).
 
 2. Bao gồm tệp JAR đã tải xuống vào classpath của dự án bạn.
 

@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Nesta etapa, você precisa substituir`"YOUR DOCUMENT DIRECTORY"`com o caminho real para a pasta do seu projeto onde seu arquivo Excel está salvo. Isso é vital porque diz ao programa onde procurar o arquivo que você quer manipular.
 
-## Etapa 2: Criar um fluxo de arquivos
+## Etapa 2: Crie um fluxo de arquivos
 
 ```csharp
 // Criando um fluxo de arquivo contendo o arquivo Excel a ser aberto
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Etapa 3: Instanciar a pasta de trabalho
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Etapa 4: Acesse a planilha
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

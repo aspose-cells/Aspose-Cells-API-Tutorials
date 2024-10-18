@@ -17,7 +17,7 @@ url: /zh/net/advanced-chart-operations/change-tick-label-direction/
 
 ### .NET 框架
 
-确保您的机器上安装了 .NET 框架。Aspose.Cells 可与各种 .NET 版本无缝协作，因此只要您使用受支持的版本，就应该可以满足要求。
+确保您的机器上安装了 .NET 框架。Aspose.Cells 可与各种 .NET 版本无缝协作，因此只要您使用受支持的版本，就应该可以满足您的要求。
 
 ### 用于.NET的Aspose.Cells
 
@@ -133,9 +133,9 @@ Console.WriteLine("ChangeTickLabelDirection executed successfully.");
 Aspose.Cells 支持各种格式，如 XLSX、XLS、CSV 等！
 
 ### 有试用版吗？  
-当然！您可以找到免费试用版[这里](https://releases.aspose.com/).
+当然可以！您可以找到免费试用版[这里](https://releases.aspose.com/).
 
-### 如果在使用 Aspose.Cells 时遇到问题怎么办？  
+### 如果我在使用 Aspose.Cells 时遇到问题怎么办？  
 欢迎随时寻求帮助[Aspose 论坛](https://forum.aspose.com/c/cells/9)；社区和支持人员的响应非常迅速！
 
 ### 我可以取得临时执照吗？  

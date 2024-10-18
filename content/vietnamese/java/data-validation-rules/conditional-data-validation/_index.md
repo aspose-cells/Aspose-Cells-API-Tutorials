@@ -16,7 +16,7 @@ Trước khi đi sâu vào chi tiết về xác thực dữ liệu có điều k
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Bộ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
+- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
 -  Aspose.Cells cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 
 ## Bước 1: Tạo một dự án Java mới

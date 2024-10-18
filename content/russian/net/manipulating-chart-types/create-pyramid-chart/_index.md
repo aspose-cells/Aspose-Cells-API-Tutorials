@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Далее, давайте создадим новый экземпляр рабочей книги. Думайте о рабочей книге как о чистом холсте, на котором вы можете рисовать свои данные.
 
 ```csharp
-//Создание объекта Workbook
+// Создание объекта Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -148,7 +148,7 @@ workbook.Save(outputDir + "outputHowToCreatePyramidChart.xlsx");
 Console.WriteLine("HowToCreatePyramidChart executed successfully.");
 ```
 
-Эта строка уведомит вас о том, что задача по созданию пирамидальной диаграммы была выполнена без каких-либо сбоев.
+Эта строка уведомит вас о том, что задача по созданию пирамидальной диаграммы выполнена без каких-либо сбоев.
 
 ## Заключение
 

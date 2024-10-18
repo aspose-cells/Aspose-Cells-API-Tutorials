@@ -2,7 +2,7 @@
 title: Validatiegebied toevoegen aan cellen in Excel
 linktitle: Validatiegebied toevoegen aan cellen in Excel
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u validatiegebieden toevoegt in Excel met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw gegevensintegriteit.
+description: Leer hoe u validatiegebieden in Excel kunt toevoegen met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw gegevensintegriteit.
 type: docs
 weight: 11
 url: /nl/net/excel-data-validation-filter/add-validation-area-to-cells-in-excel/

@@ -36,7 +36,7 @@ Nachdem wir nun alles in Ordnung gebracht haben, gehen wir den Sortiervorgang Sc
 
 ## Schritt 1: Richten Sie Ihr Dokumentverzeichnis ein
 
- Als erstes müssen Sie den Pfad zu Ihrem Dokumentverzeichnis angeben. Hier befindet sich Ihr`sampleSortAsNumber.xlsx` Datei wird gefunden. Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad, in dem sich Ihre Excel-Datei befindet.
+ Als erstes müssen Sie den Pfad zu Ihrem Dokumentverzeichnis angeben. Hier befindet sich Ihr`sampleSortAsNumber.xlsx` Datei wird gefunden. Ersetzen`"Your Document Directory"`durch den tatsächlichen Pfad, in dem sich Ihre Excel-Datei befindet.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -80,7 +80,7 @@ Dieser Code gibt den Zellbereich an, der die zu sortierenden Daten enthält.
 DataSorter sorter = workbook.DataSorter;
 ```
 
- Mit dem`sorter` Objekt fertig, als nächstes können wir die Sortierparameter festlegen.
+ Mit dem`sorter` Objekt bereit, wir können als nächstes die Sortierparameter festlegen.
 
 ## Schritt 6: Konfigurieren Sie den Sortierer
 
@@ -127,7 +127,7 @@ Und das war’s! Ihre sortierten Daten sind jetzt in einer neuen Datei gespeiche
 
 ## Abschluss
 
-In diesem Tutorial haben wir die Schritte zum Sortieren von Daten in Excel mit Aspose.Cells für .NET erläutert. Das Sortieren von Daten mag wie eine triviale Aufgabe erscheinen, aber mit den richtigen Tools und Kenntnissen können Sie sich eine Menge Ärger ersparen, insbesondere beim Umgang mit als Text gespeicherten Zahlen. Indem Sie diese Schritte befolgen, haben Sie nicht nur gelernt, wie man sortiert, sondern auch, wie Sie häufige Sortierfehler wie Text- und Zahlendiskrepanzen umgehen. Probieren Sie diese Schritte also in Ihren eigenen Projekten aus und verlieren Sie sich nie wieder im Datendschungel!
+In diesem Tutorial haben wir die Schritte zum Sortieren von Daten in Excel mit Aspose.Cells für .NET erläutert. Das Sortieren von Daten mag wie eine triviale Aufgabe erscheinen, aber mit den richtigen Tools und Kenntnissen können Sie sich eine Menge Ärger ersparen, insbesondere beim Umgang mit als Text gespeicherten Zahlen. Indem Sie diese Schritte befolgen, haben Sie nicht nur gelernt, wie man sortiert, sondern auch, wie Sie häufige Sortierfehler wie Diskrepanzen zwischen Text und Zahlen umgehen. Probieren Sie diese Schritte also in Ihren eigenen Projekten aus und verlieren Sie sich nie wieder im Datendschungel!
 
 ## Häufig gestellte Fragen
 

@@ -21,16 +21,16 @@ url: /sv/net/manipulating-chart-types/
  Behöver du jämföra proportioner med ett ögonkast? De[Skapa cirkeldiagram](./create-pie-chart/) tutorial lär dig hur du förvandlar dina Excel-data till en enkel, effektiv bild. Cirkeldiagram är perfekta för att visa hur olika delar utgör helheten – precis som att skära upp en pizza!
 
 ## Skapa pyramiddiagram
- Har du någonsin tänkt på att visualisera data i en pyramid? De[Skapa pyramiddiagram](./create-pyramid-chart/)tutorial kommer att lära dig hur du skapar detta distinkta diagram med Aspose.Cells för .NET. Pyramiddiagram är perfekta för hierarkiska data eller data som naturligt rullar ner. Se det som att bygga en pyramid med datablock staplade ovanpå varandra – enkelt men kraftfullt för presentationer.
+ Har du någonsin tänkt på att visualisera data i en pyramid? De[Skapa pyramiddiagram](./create-pyramid-chart/) tutorial kommer att lära dig hur du skapar detta distinkta diagram med Aspose.Cells för .NET. Pyramiddiagram är perfekta för hierarkiska data eller data som naturligt rullar ner. Se det som att bygga en pyramid med datablock staplade ovanpå varandra – enkelt men kraftfullt för presentationer.
 
 ## Ändra linjediagram
- Så du har skapat ditt linjediagram, men nu är det dags att justera det till perfektion. De[Ändra linjediagram](./modify-line-chart/) handledning leder dig genom att ändra dina befintliga linjediagram. Oavsett om det handlar om att ändra färger, justera axlar eller justera dataserien, har den här guiden dig täckt. Se det som att redigera ett foto – du har redan grunden, nu handlar det om att få det att glänsa!
+ Så du har skapat ditt linjediagram, men nu är det dags att justera det till perfektion. De[Ändra linjediagram](./modify-line-chart/)handledning leder dig genom att ändra dina befintliga linjediagram. Oavsett om det handlar om att ändra färger, justera axlar eller justera dataserien, har den här guiden dig täckt. Se det som att redigera ett foto – du har redan grunden, nu handlar det om att få det att glänsa!
 
 ### Ändra cirkeldiagram
- Cirkeldiagram kan vara bra, men ibland måste du göra några ändringar för att bättre representera din data. Med[Ändra cirkeldiagram](./modify-pie-chart/)tutorial, kommer du att lära dig hur du justerar dina cirkeldiagram så att de matchar dina data exakt. Kanske behöver du justera skivorna, ändra färger eller till och med explodera en skiva för att betona - den här guiden visar dig hur!
+ Cirkeldiagram kan vara bra, men ibland måste du göra några ändringar för att bättre representera din data. Med[Ändra cirkeldiagram](./modify-pie-chart/) tutorial, kommer du att lära dig hur du justerar dina cirkeldiagram så att de matchar dina data exakt. Kanske behöver du justera skivorna, ändra färger eller till och med explodera en skiva för att betona - den här guiden visar dig hur!
 
 ### Använd Microsofts temafärg i diagramserien
- Vill du hålla dina diagram i linje med ditt företags varumärke? Lär dig hur du gör[Använd Microsofts temafärg i diagramserien](./apply-microsoft-theme-color-in-chart-series/) använder Aspose.Cells för .NET. Den här handledningen visar hur du matchar ditt diagrams färgschema med Microsofts temafärger, vilket säkerställer ett professionellt och sammanhängande utseende över dina presentationer. Det är som att klä din data i en perfekt matchande kostym!
+ Vill du hålla dina diagram i linje med ditt företags varumärke? Lär dig hur du gör[Använd Microsofts temafärg i diagramserien](./apply-microsoft-theme-color-in-chart-series/)använder Aspose.Cells för .NET. Den här handledningen visar hur du matchar ditt diagrams färgschema med Microsofts temafärger, vilket säkerställer ett professionellt och sammanhängande utseende över dina presentationer. Det är som att klä din data i en perfekt matchande kostym!
 
 ## Handledning för manipulering av diagramtyper
 ### [Skapa anpassat diagram](./create-custom-chart/)

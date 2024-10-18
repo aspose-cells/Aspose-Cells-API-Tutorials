@@ -53,9 +53,9 @@ Selanjutnya, Anda perlu membuat aliran file untuk membuka file Excel Anda. Langk
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Di sini, kami menentukan bahwa kami ingin membuka`book1.xls` terletak di direktori yang ditentukan.`FileMode.Open` parameter menunjukkan kita sedang membuka berkas yang sudah ada. Selalu pastikan nama berkas sesuai dengan yang Anda miliki.
+Di sini, kami menentukan bahwa kami ingin membuka`book1.xls` terletak di direktori yang ditentukan.`FileMode.Open` parameter menunjukkan kita sedang membuka berkas yang sudah ada. Selalu pastikan nama berkas sesuai dengan yang Anda miliki.
 
-## Langkah 3: Membuat Objek Buku Kerja
+## Langkah 3: Membuat Instansi Objek Buku Kerja
 
  Sekarang saatnya untuk bekerja dengan buku kerja itu sendiri. Kita akan membuat`Workbook` obyek.
 
@@ -83,7 +83,7 @@ Sekarang saatnya kita menunggu! Di sinilah kita benar-benar menyembunyikan tajuk
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Pengaturan`IsRowColumnHeadersVisible` ke`false` akan secara efektif menyembunyikan tajuk di baris dan kolom, menciptakan tampilan yang lebih rapi untuk presentasi data Anda.
+ Pengaturan`IsRowColumnHeadersVisible` ke`false`akan secara efektif menyembunyikan tajuk di baris dan kolom, menciptakan tampilan yang lebih rapi untuk presentasi data Anda.
 
 ## Langkah 6: Simpan File Excel yang Telah Dimodifikasi
 
@@ -103,7 +103,7 @@ Terakhir, Anda perlu memastikan bahwa Anda menutup aliran berkas sehingga semua 
 fstream.Close();
 ```
 
- Penutupan`fstream`sangat penting untuk memastikan tidak ada kebocoran memori atau kunci berkas yang tertinggal terbuka di aplikasi Anda.
+ Penutupan`fstream` sangat penting karena memastikan tidak ada kebocoran memori atau kunci berkas yang tertinggal terbuka di aplikasi Anda.
 
 ## Kesimpulan
 
@@ -121,7 +121,7 @@ Aspose.Cells adalah pustaka .NET yang canggih untuk mengelola lembar kerja Excel
  Meskipun Anda dapat menggunakan versi uji coba gratis, lisensi diperlukan untuk penggunaan komersial yang berkelanjutan. Anda dapat menemukan opsi pembelian[Di Sini](https://purchase.aspose.com/buy).
 
 ### Apakah ada dukungan yang tersedia untuk Aspose.Cells?  
-Ya, Aspose menyediakan dukungan melalui forum mereka, yang dapat Anda akses[Di Sini](https://forum.aspose.com/c/cells/9).
+ Ya, Aspose menyediakan dukungan melalui forum mereka, yang dapat Anda akses[Di Sini](https://forum.aspose.com/c/cells/9).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Cells?  
  Anda dapat mengajukan lisensi sementara untuk tujuan evaluasi di[tautan ini](https://purchase.aspose.com/temporary-license/).

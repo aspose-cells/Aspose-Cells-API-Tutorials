@@ -135,7 +135,7 @@ Vous pouvez utiliser une version d'essai gratuite, mais pour une utilisation pro
  Vous pouvez explorer la documentation Aspose.Cells[ici](https://reference.aspose.com/cells/net/).
 
 ### Puis-je définir des marges pour des pages spécifiques uniquement ?
-Malheureusement, les paramètres de marge s'appliquent généralement à l'ensemble de la feuille de calcul plutôt qu'à des pages individuelles.
+Malheureusement, les paramètres de marge s'appliquent généralement à l'ensemble de la feuille de calcul plutôt qu'aux pages individuelles.
 
 ### Dans quels formats puis-je enregistrer mon fichier Excel ?
 Aspose.Cells prend en charge divers formats, notamment XLS, XLSX, CSV et PDF.

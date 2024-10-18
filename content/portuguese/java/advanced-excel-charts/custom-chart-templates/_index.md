@@ -112,7 +112,7 @@ Sim, você pode aplicar temas e modelos personalizados aos seus gráficos no Asp
 
 ### O Aspose.Cells para Java é adequado para dados simples e complexos?
 
-Absolutamente! Aspose.Cells para Java é versátil e pode lidar com cenários de dados simples e complexos. Não importa se você está trabalhando com conjuntos de dados básicos ou modelos financeiros complexos, o Aspose.Cells tem tudo o que você precisa.
+Absolutamente! O Aspose.Cells para Java é versátil e pode lidar com cenários de dados simples e complexos. Não importa se você está trabalhando com conjuntos de dados básicos ou modelos financeiros complexos, o Aspose.Cells tem tudo o que você precisa.
 
 ### Onde posso encontrar mais recursos e documentação?
 

@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 Sonra, yeni bir Excel çalışma kitabı oluşturacağız. Bu, işlevsellikler eklemeye başlayabileceğiniz boş tuvalinizdir.
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
  Şunu düşünün:`Workbook` ihtiyacınız olan her şeyi yazabileceğiniz yeni bir not defteri olarak. Şu anda boş, girdiniz için hazır!
@@ -45,7 +45,7 @@ Her çalışma kitabı birden fazla çalışma sayfası içerebilir. Burada, kö
 // Yeni eklenen çalışma sayfasının referansını sayfa indeksini geçirerek elde etme
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Burada şunu söylüyoruz: "Hey, ilk sayfa üzerinde çalışmak istiyorum." Bu, defterinizde belirli bir sayfayı açmak gibi bir şey.
+Burada şunu söylüyoruz: "Hey, ilk sayfa üzerinde çalışmak istiyorum." Bu, defterinizde belirli bir sayfayı açmak gibi.
 ## Adım 4: Bir Köprü Bağlantısı Ekleyin
 Şimdi eğlenceli kısma geçelim: köprü metni ekleme! Bu, başka bir Excel belgesi gibi harici bir dosyaya bağlanmanızı sağlar.
 ```csharp

@@ -41,7 +41,7 @@ Crea una nuova cartella di lavoro e aggiungici un foglio di lavoro. Useremo ques
 
 ## Passaggio 3: immettere i dati
 
-Adesso riempiamo il foglio di lavoro con i dati che vogliamo rappresentare nel grafico a cascata.
+Adesso, riempiamo il foglio di lavoro con i dati che vogliamo rappresentare nel grafico a cascata.
 
 ```java
 Cells cells = worksheet.getCells();

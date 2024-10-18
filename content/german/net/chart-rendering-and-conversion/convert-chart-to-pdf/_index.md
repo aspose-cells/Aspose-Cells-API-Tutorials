@@ -88,7 +88,7 @@ Laden wir nun die Excel-Datei, die die zu konvertierenden Diagramme enthält. Da
 Workbook workbook = new Workbook(sourceDir + "sampleChartToPdf.xlsx");
 ```
 
-Dieser Code initialisiert ein neues Arbeitsmappenobjekt und lädt die angegebene Excel-Datei. Stellen Sie sicher, dass der Dateiname mit dem Namen in Ihrem Quellverzeichnis übereinstimmt.
+Dieser Code initialisiert ein neues Arbeitsmappenobjekt und lädt die angegebene Excel-Datei. Stellen Sie sicher, dass der Dateiname mit dem in Ihrem Quellverzeichnis übereinstimmt.
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -125,7 +125,7 @@ Um das Diagramm direkt in einer PDF-Datei zu speichern, verwenden Sie den folgen
 chart.ToPdf(outputDir + "outputChartToPdf.pdf");
 ```
 
-Stellen Sie einfach sicher, dass das Ausgabeverzeichnis tatsächlich existiert, um Fehler zu vermeiden.
+Stellen Sie einfach sicher, dass das Ausgabeverzeichnis tatsächlich vorhanden ist, um Fehler zu vermeiden.
 
 ### Option 2: Diagramm im Memory Stream speichern
 

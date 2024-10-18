@@ -2,7 +2,7 @@
 title: Cel vergrendelen in Excel-werkblad
 linktitle: Cel vergrendelen in Excel-werkblad
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u cellen in Excel-werkbladen kunt vergrendelen met Aspose.Cells voor .NET. Eenvoudige stapsgewijze tutorial voor veilig gegevensbeheer.
+description: Leer hoe u cellen in Excel-werkbladen kunt vergrendelen met Aspose.Cells voor .NET. Eenvoudige stapsgewijze zelfstudie voor veilig gegevensbeheer.
 type: docs
 weight: 20
 url: /nl/net/excel-security/lock-cell-in-excel-worksheet/
@@ -20,7 +20,7 @@ Voordat we in de details van de code duiken, moet u een aantal dingen paraat heb
 3. Basiskennis van C#: Hoewel we u stap voor stap door de code leiden, kunt u de concepten sneller begrijpen als u een basiskennis van C#-programmering hebt.
 4. Uw documentenmap: zorg ervoor dat u een map hebt ingesteld waar u uw Excel-bestanden kunt opslaan om te testen.
 
-Nu we alle vereisten op orde hebben, kunnen we de benodigde pakketten importeren!
+Nu we alle vereisten op een rijtje hebben, kunnen we de benodigde pakketten importeren!
 
 ## Pakketten importeren
 
@@ -85,7 +85,7 @@ Met deze lijn creëert u feitelijk een beschermende barrière, vergelijkbaar met
 
 ## Stap 6: Sla uw wijzigingen op
 
-Ten slotte, nadat u de cel hebt vergrendeld en het werkblad hebt beveiligd, is het tijd om uw wijzigingen op te slaan in een nieuw Excel-bestand. Op deze manier kunt u uw originele bestand intact houden terwijl u een versie maakt met de vergrendelde cel.
+Ten slotte, na het vergrendelen van de cel en het beveiligen van het werkblad, is het tijd om uw wijzigingen op te slaan in een nieuw Excel-bestand. Op deze manier kunt u uw originele bestand intact houden terwijl u een versie maakt met de vergrendelde cel.
 
 ```csharp
 workbook.Save(dataDir + "output.xlsx");
@@ -103,7 +103,7 @@ Cellen vergrendelen in een Excel-werkblad met Aspose.Cells voor .NET is een eenv
 Ja, u kunt meerdere cellen vergrendelen door de vergrendelingseigenschap toe te passen op een matrix met celverwijzingen.
 
 ### Is er een wachtwoord nodig om een cel te vergrendelen?
-Nee, voor het vergrendelen van cellen zelf is geen wachtwoord nodig. U kunt echter wachtwoordbeveiliging toevoegen wanneer u het werkblad beveiligt om de beveiliging te verbeteren.
+Nee, voor het vergrendelen van cellen is geen wachtwoord nodig. U kunt echter wachtwoordbeveiliging toevoegen wanneer u het werkblad beveiligt om de beveiliging te verbeteren.
 
 ### Wat gebeurt er als ik het wachtwoord van een beveiligd werkblad vergeet?
 Als u het wachtwoord vergeet, kunt u de beveiliging van het werkblad niet meer opheffen. Het is daarom van groot belang dat u het wachtwoord veilig bewaart.

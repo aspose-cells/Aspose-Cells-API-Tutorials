@@ -24,7 +24,7 @@ url: /ja/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 
 ## パッケージのインポート
 
-コーディングを始める前に、必要な名前空間をインポートすることが重要です。これにより、コードが合理化され、必要な Aspose.Cells 機能にアクセスできるようになります。
+コーディングに取り掛かる前に、必要な名前空間をインポートすることが重要です。これにより、コードが効率化され、必要な Aspose.Cells 機能にアクセスできるようになります。
 
 ```csharp
 using System.IO;
@@ -61,7 +61,7 @@ Excel では、下部にあるタブ (Sheet1、Sheet2 など) を表示または
 workbook.Settings.ShowTabs = true;
 ```
 
-設定`ShowTabs`に`true`Excel ファイルを開いたときにタブが表示されるようになります。
+設定`ShowTabs`に`true` Excel ファイルを開いたときにタブが表示されるようになります。
 
 ## ステップ4: 変更したExcelファイルを保存する
 
