@@ -18,7 +18,7 @@ Başlamadan önce, sorunsuz bir şekilde ilerleyebilmeniz için her şeyin yerli
 1.  Aspose.Cells for .NET Library – Bunu yüklemeniz gerekecek. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Geliştirme ortamınızın en son .NET sürümüyle kurulduğundan emin olun.
 3. IDE (Bütünleşik Geliştirme Ortamı) – Visual Studio önerilir.
-4.  Geçerli bir Aspose.Cells lisansınız varsa, bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/)veya onlarınkini kontrol edin[ücretsiz deneme](https://releases.aspose.com/).
+4.  Geçerli bir Aspose.Cells lisansı – Eğer yoksa, bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/)veya onlarınkine göz atın[ücretsiz deneme](https://releases.aspose.com/).
 
 Hazır mısınız? Hadi parçalayalım!
 
@@ -58,7 +58,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Artık çalışma sayfamız olduğuna göre, onu biraz veriyle dolduralım. İki değer serisi için rastgele veri noktaları oluşturuyoruz.
 
 ```csharp
-// Sütun başlığını ayarla
+// Sütun başlıklarını ayarla
 worksheet.Cells[0, 0].Value = "X";
 worksheet.Cells[0, 1].Value = "Y";
 
@@ -167,7 +167,7 @@ Değerler 2. adımda doldurduğumuz verilere dayanmaktadır.
 
 ## Adım 8: Çalışma Kitabını Kaydedin
 
-Artık her şey ayarlandığına göre çalışma kitabını kaydedelim, böylece grafiği çalışırken görebilelim.
+Artık her şey ayarlandığına göre, çalışma kitabını kaydedelim, böylece grafiği çalışırken görebilelim.
 
 ```csharp
 // Çalışma kitabını kaydet
@@ -192,7 +192,7 @@ Kesinlikle! Aspose.Cells, yazı tiplerinden kılavuz çizgilerine ve daha fazlas
  Sadece kullanarak ek seriler ekleyin`NSeries.Add` Yeni veriler için hücre aralıklarını belirten yöntem.
 
 ### Tabloyu resim olarak dışarı aktarabilir miyim?  
- Evet, grafikleri doğrudan resim olarak dışa aktarabilirsiniz.`Chart.ToImage` Yöntem.
+ Evet, grafikleri doğrudan resim olarak dışa aktarabilirsiniz.`Chart.ToImage` yöntem.
 
 ### Aspose.Cells 3D grafikleri destekliyor mu?  
 Evet, Aspose.Cells 3D grafikler de dahil olmak üzere çok çeşitli grafik türlerini destekler.

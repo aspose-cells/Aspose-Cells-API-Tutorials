@@ -16,7 +16,7 @@ Az Excel-fájlok mindenütt jelen vannak a mai adatközpontú világban, és az 
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy mindent beállított, ami az Aspose.Cells for .NET hatékony használatához szükséges. Íme egy követendő ellenőrző lista:
 
 1. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a számítógépére. 
-2.  Aspose.Cells Library: Töltse le és telepítse az Aspose.Cells könyvtárat. től lehet kapni[itt](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Library: Töltse le és telepítse az Aspose.Cells könyvtárat. től lehet kapni[itt](https://releases.aspose.com/cells/net/).
 3. IDE: Bár bármely kódszerkesztő megteszi, az olyan IDE használata, mint a Visual Studio, robusztus platformot biztosít a .NET fejlesztéshez.
 4.  Minta ODS-fájl: Szüksége lesz egy diagramokat tartalmazó ODS-fájlra. Ehhez az oktatóanyaghoz használjuk`SampleChart.ods`.
 5. Alapvető C# ismerete: A C# ismerete segít a fogalmak gyors megértésében és a szükséges módosítások végrehajtásában.
@@ -39,7 +39,7 @@ Most pedig térjünk rá a lényegre. Kövesse ezeket a lépésenkénti utasít�
 Hozzon létre egy új konzolalkalmazásprojektet
 
 - Nyissa meg a Visual Studio-t (vagy a kívánt IDE-t).
--  Hozzon létre egy új konzolalkalmazás-projektet, és adjon neki megfelelő nevet, például`ChartSubtitleExtractor`.
+- Hozzon létre egy új konzolalkalmazás-projektet, és adjon neki megfelelő nevet, például`ChartSubtitleExtractor`.
 
 ## 2. lépés: Adja hozzá az Aspose.Cells NuGet csomagot
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
 
 Navigáljon a kívánt munkalaphoz
 
-munkafüzet betöltése után most hozzáférhet a kívánt diagramot tartalmazó konkrét munkalaphoz. Itt elérjük az első munkalapot.
+A munkafüzet betöltése után most hozzáférhet a kívánt diagramot tartalmazó konkrét munkalaphoz. Itt elérjük az első munkalapot.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -134,4 +134,4 @@ Igen, kipróbálhatja az Aspose.Cells-t a webhelyükön elérhető ingyenes pró
 Az Aspose vásárlási platformjáról kérhet ideiglenes licencet értékelési célokra.
 
 ### Hol találok támogatást az Aspose.Cells számára?
-A támogatás az Aspose fórumon keresztül érhető el, ahol kérdéseket tehet fel, és meglévő megoldásokat találhat.
+támogatás az Aspose fórumon keresztül érhető el, ahol kérdéseket tehet fel, és meglévő megoldásokat találhat.

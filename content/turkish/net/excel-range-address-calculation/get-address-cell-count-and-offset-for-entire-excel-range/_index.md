@@ -51,7 +51,7 @@ Sırada, çalışma kitabındaki belirli bir çalışma sayfasına ulaşmamız g
 // İlk çalışma sayfasına erişin.
 Worksheet ws = wb.Worksheets[0];
 ```
- Burada, dizine ekliyoruz`Worksheets` ilk sayfayı almak için toplanın.
+ Burada, dizine ekliyoruz`Worksheets` ilk sayfayı kapmak için toplanın.
 ## Adım 3: Bir Aralık Oluşturun
 Şimdi, çalışma sayfamızda bir aralık oluşturalım. Aralık tek bir hücre veya bir hücre grubu olabilir. A1'den B3'e kadar uzanan bir aralık oluşturacağız.
 ```csharp
@@ -95,7 +95,7 @@ Console.WriteLine("Offset: " + rng.GetOffset(2, 2).Address);
 Console.WriteLine("Entire Column: " + rng.EntireColumn.Address);
 Console.WriteLine("Entire Row: " + rng.EntireRow.Address);
 ```
-Bu çağrılar, A sütununun tamamını ve 1. satırın tamamını çıktı olarak verecek ve bu da aralığımızla ilişkili tüm hücreleri tanımlamamıza yardımcı olacaktır.
+Bu çağrılar, tüm sütun A'yı ve tüm satır 1'i çıktı olarak verecektir; bu da aralığımızla ilişkili tüm hücreleri tanımlamamıza yardımcı olur.
 ## Adım 9: Netlik için Başka Bir Ayırıcı
 Daha önce olduğu gibi çıktımızın güzel bir biçimde biçimlendirildiğinden emin olacağız:
 ```csharp

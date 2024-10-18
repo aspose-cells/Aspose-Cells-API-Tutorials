@@ -98,7 +98,7 @@ Trong bài viết này, chúng tôi đã khám phá phân tích dữ liệu tron
 
 Có, bạn có thể sử dụng Aspose.Cells for Java trong cả ứng dụng máy tính để bàn và web để làm việc với các tệp Excel.
 
-### Có giới hạn nào về kích thước tệp Excel mà tôi có thể thao tác bằng Aspose.Cells không?
+### Có giới hạn nào về kích thước tệp Excel mà tôi có thể xử lý bằng Aspose.Cells không?
 
 Aspose.Cells for Java có thể xử lý các tệp Excel lớn một cách dễ dàng, do đó bạn không cần phải lo lắng về giới hạn kích thước.
 

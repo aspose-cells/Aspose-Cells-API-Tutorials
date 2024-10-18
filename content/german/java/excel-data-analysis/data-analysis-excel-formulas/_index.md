@@ -10,7 +10,7 @@ url: /de/java/excel-data-analysis/data-analysis-excel-formulas/
 
 ## Einführung in Aspose.Cells für Java
 
-Bevor wir uns mit der Datenanalyse befassen, stellen wir Aspose.Cells für Java vor. Es handelt sich um eine leistungsstarke Java-API, mit der Entwickler Excel-Dateien in Java-Anwendungen erstellen, bearbeiten und konvertieren können. Aspose.Cells bietet umfangreiche Funktionen für die Arbeit mit Excel-Arbeitsmappen, Arbeitsblättern, Zellen und Formeln.
+Bevor wir uns in die Datenanalyse vertiefen, stellen wir Aspose.Cells für Java vor. Es handelt sich um eine leistungsstarke Java-API, mit der Entwickler Excel-Dateien in Java-Anwendungen erstellen, bearbeiten und konvertieren können. Aspose.Cells bietet umfangreiche Funktionen für die Arbeit mit Excel-Arbeitsmappen, Arbeitsblättern, Zellen und Formeln.
 
 ## Einrichten Ihrer Java-Umgebung
 
@@ -20,7 +20,7 @@ Um mit Aspose.Cells für Java zu beginnen, müssen Sie Ihre Java-Umgebung einric
 
 2. Fügen Sie Aspose.Cells zu Ihrem Projekt hinzu: Fügen Sie die Aspose.Cells-JAR-Datei in den Build-Pfad Ihres Java-Projekts ein.
 
-Nachdem unsere Umgebung nun bereit ist, wollen wir uns einige grundlegende Techniken zur Datenanalyse ansehen.
+Nachdem unsere Umgebung nun bereit ist, wollen wir uns einige grundlegende Datenanalysetechniken ansehen.
 
 ## Grundlegende Excel-Formeln zur Datenanalyse
 
@@ -49,7 +49,7 @@ double total = worksheet.getCells().get("A4").getDoubleValue();
 
 ### AVERAGE-Formel
 
-Die Formel AVERAGE berechnet den Durchschnitt einer Reihe von Zahlen. So können Sie sie mit Aspose.Cells anwenden:
+Die Formel AVERAGE berechnet den Durchschnitt eines Zahlenbereichs. So können Sie sie mit Aspose.Cells anwenden:
 
 ```java
 // Erstellen Sie eine Arbeitsmappe (sofern noch nicht geschehen).

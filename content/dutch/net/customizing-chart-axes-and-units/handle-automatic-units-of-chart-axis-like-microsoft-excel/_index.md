@@ -2,7 +2,7 @@
 title: Behandel automatische eenheden van grafiekassen zoals in Microsoft Excel
 linktitle: Behandel automatische eenheden van grafiekassen zoals in Microsoft Excel
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u als een professional automatische eenheden van grafiekassen in Excel kunt verwerken met Aspose.Cells voor .NET! Inclusief stapsgewijze zelfstudie.
+description: Leer hoe u als een professional omgaat met automatische eenheden van grafiekassen in Excel met Aspose.Cells voor .NET! Inclusief stapsgewijze zelfstudie.
 type: docs
 weight: 10
 url: /nl/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/
@@ -18,7 +18,7 @@ Voordat we met de tutorial beginnen, willen we ervoor zorgen dat je alles bij de
 1. Visual Studio geïnstalleerd: U hebt een IDE zoals Visual Studio nodig om uw .NET-code te schrijven en uit te voeren.
 2. .NET Framework: Deze tutorial gaat ervan uit dat u .NET Framework 4.0 of later gebruikt. Aspose.Cells is echter ook compatibel met .NET Core.
 3.  Aspose.Cells-bibliotheek: Als u dit nog niet hebt gedaan, download dan de bibliotheek van de Aspose-website[hier](https://releases.aspose.com/cells/net/) . U kunt ook beginnen met een gratis proefperiode die beschikbaar is[hier](https://releases.aspose.com/).
-4.  Voorbeeld Excel-bestand: We gebruiken een voorbeeld Excel-bestand met de naam`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Zorg ervoor dat u dit bestand in uw werkmap hebt staan.
+4. Voorbeeld Excel-bestand: We gebruiken een voorbeeld Excel-bestand met de naam`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Zorg ervoor dat u dit bestand in uw werkmap hebt staan.
 
 ## Pakketten importeren
 
@@ -36,7 +36,7 @@ Laten we eerst eens kijken of u de juiste namespaces voor uw project hebt geïmp
 Om Aspose.Cells te kunnen gebruiken, moet u een verwijzing naar de bibliotheek toevoegen.
 
 1. Klik in Solution Explorer met de rechtermuisknop op ‘Referenties’.
-2. Kies ‘Referentie toevoegen’.
+2. Kies “Referentie toevoegen”.
 3.  Blader naar de map waar u Aspose.Cells hebt gedownload en selecteer`Aspose.Cells.dll`.
 
 ### Importeer de vereiste naamruimten
@@ -53,7 +53,7 @@ using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```
 
-Nu bent u helemaal klaar om met ons Excel-bestand aan de slag te gaan!
+U bent nu helemaal klaar om met uw Excel-bestand aan de slag te gaan!
 
 ## Laad het voorbeeld-Excel-bestand
 
@@ -62,7 +62,7 @@ Nu bent u helemaal klaar om met ons Excel-bestand aan de slag te gaan!
 Voordat we het Excel-bestand laden, stellen we de output- en source-directory's in. Hiermee kunnen we specificeren waar onze bestanden worden opgeslagen.
 
 ```csharp
-// Uitvoermap - waar de PDF wordt opgeslagen
+//Uitvoermap - waar de PDF wordt opgeslagen
 string outputDir = "Your Output Directory"; // Geef hier uw uitvoermap op
 
 // Bronmap - waar het voorbeeld-Excel-bestand zich bevindt
@@ -108,7 +108,7 @@ In Excel is een van de belangrijkste functies in grafieken het verwerken van aut
 
 ```csharp
 // Stel de hoofdeenheid voor de Y-as in
-ch.AxisY.MajorUnit = 10; // U kunt instellen volgens uw vereisten
+ch.AxisY.MajorUnit = 10; // kunt instellen volgens uw vereisten
 ```
 
 Laten we nu de automatische eenheden updaten!
@@ -151,4 +151,4 @@ Alleen de Aspose.Cells-bibliotheek en een .NET Framework geïnstalleerd op uw co
 Absoluut! Aspose.Cells ondersteunt verschillende formaten zoals XLSX, HTML en afbeeldingen.
 
 ### Waar kan ik ondersteuning vinden als ik problemen ondervind?
- kunt hulp zoeken bij de Aspose-community[hier](https://forum.aspose.com/c/cells/9).
+ U kunt hulp zoeken bij de Aspose-community[hier](https://forum.aspose.com/c/cells/9).

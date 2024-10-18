@@ -22,7 +22,7 @@ Zanim zaczniemy, upewnij się, że masz środowisko programistyczne Java skonfig
 
 ## Tworzenie nowego projektu Java
 
-Zacznij od utworzenia nowego projektu Java w wybranym środowisku IDE. Nadaj mu znaczącą nazwę, np. „DataValidationDemo”.
+Zacznij od utworzenia nowego projektu Java w wybranym IDE. Nadaj mu znaczącą nazwę, np. „DataValidationDemo”.
 
 ## Dodawanie Aspose.Cells dla Java do projektu
 
@@ -134,7 +134,7 @@ Tak, możesz używać niestandardowych formuł do walidacji danych w Aspose.Cell
 
 ### Jak usunąć sprawdzanie poprawności danych z komórki?
 
- Aby usunąć sprawdzanie poprawności danych z komórki, wystarczy wywołać`removeDataValidation`metoda na komórce. Spowoduje to usunięcie wszelkich istniejących reguł walidacji dla tej komórki.
+ Aby usunąć sprawdzanie poprawności danych z komórki, wystarczy wywołać`removeDataValidation`metodę na komórce. Spowoduje to usunięcie wszelkich istniejących reguł walidacji dla tej komórki.
 
 ### Czy mogę ustawić różne komunikaty o błędach dla różnych reguł walidacji?
 

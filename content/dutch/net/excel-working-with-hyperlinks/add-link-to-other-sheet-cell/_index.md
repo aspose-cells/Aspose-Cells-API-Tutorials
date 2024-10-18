@@ -13,7 +13,7 @@ Stel je voor dat je door een drukke luchthaven navigeert; je wilt geen tijd vers
 Voordat we beginnen, heb je een paar dingen nodig:
 1. Visual Studio: Zorg ervoor dat u Visual Studio op uw computer hebt geïnstalleerd. Het is een handige tool voor .NET-ontwikkeling.
 2. Aspose.Cells-bibliotheek: U moet de Aspose.Cells-bibliotheek voor .NET downloaden en installeren. U kunt deze ophalen uit de[Aspose Cells downloadpagina](https://releases.aspose.com/cells/net/).
-3. Basiskennis C#: Een basiskennis van C# programmeren is al heel wat. Deze gids gaat ervan uit dat u enigszins bekend bent met de C# syntaxis.
+3. Basiskennis C#: Een basiskennis van C#-programmering is al voldoende. Deze gids gaat ervan uit dat u enigszins bekend bent met de C#-syntaxis.
 4. Microsoft Excel: Als u Excel op uw computer hebt, kunt u de resultaten van uw creatie beter visualiseren.
 5. .NET Framework: Zorg ervoor dat u werkt met een compatibele versie van .NET Framework die de Aspose.Cells-bibliotheek ondersteunt.
 ## Pakketten importeren
@@ -30,7 +30,7 @@ Voordat we code kunnen schrijven, moeten we een nieuw C#-project maken.
 1. Open Visual Studio.
 2. Maak een nieuw C# Console Application-project. 
 3. Geef uw project een beschrijvende naam, bijvoorbeeld 'ExcelLinkDemo'.
-4. Voeg een referentie toe aan Aspose.Cells.dll. U kunt dit doen door met de rechtermuisknop op 'References' te klikken in Solution Explorer, 'Add Reference' te selecteren en te navigeren naar de locatie waar u Aspose.Cells hebt geïnstalleerd.
+4. Voeg een referentie toe aan Aspose.Cells.dll. U kunt dit doen door met de rechtermuisknop op 'References' in Solution Explorer te klikken, 'Add Reference' te selecteren en te navigeren naar de locatie waar u Aspose.Cells hebt geïnstalleerd.
 ## Stap 2: Definieer uw uitvoermap
 Vervolgens moet u opgeven waar u uw Excel-uitvoerbestand wilt opslaan. Zo kunt u het definiëren in uw code:
 ```csharp
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Vervang door uw directory
 ## Stap 3: Instantieer het werkmapobject
 Nu bent u klaar om uw Excel-werkmap te maken! Dit is waar al uw bladen en gegevens zich bevinden.
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 Met deze regel wordt een nieuwe werkmap in het geheugen geïnitialiseerd, zodat u met een leeg canvas aan de slag kunt.
@@ -49,7 +49,7 @@ Met deze regel wordt een nieuwe werkmap in het geheugen geïnitialiseerd, zodat 
 In Excel kan elke werkmap meerdere sheets bevatten. Laten we er een toevoegen aan onze werkmap.
 ```csharp
 // Een nieuw werkblad toevoegen aan het werkmapobject
-workbook.Worksheets.Add(); //Voegt standaard een nieuw leeg werkblad toe
+workbook.Worksheets.Add(); // Voegt standaard een nieuw leeg werkblad toe
 ```
 Met deze opdracht wordt een nieuw werkblad toegevoegd. Uw werkmap bevat nu minimaal één werkblad dat u kunt bewerken.
 ## Stap 5: Toegang tot het eerste werkblad

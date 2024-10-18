@@ -13,12 +13,12 @@ Se hai mai giocato con Excel, sai che le interruzioni di pagina possono essere s
 
 ## Prerequisiti
 
-Prima di addentrarci nei dettagli della rimozione delle interruzioni di pagina in Excel, è necessario assicurarsi di disporre dei seguenti prerequisiti:
+Prima di addentrarci nei dettagli della cancellazione delle interruzioni di pagina in Excel, è necessario assicurarsi di disporre dei seguenti prerequisiti:
 
 1. Visual Studio: assicurati di aver installato Visual Studio per eseguire i tuoi progetti .NET.
 2. Libreria Aspose.Cells per .NET: dovrai scaricare e installare la libreria Aspose.Cells per .NET. Non è solo potente, ma anche incredibilmente intuitiva!
    -  Lo puoi trovare[qui per il download](https://releases.aspose.com/cells/net/).
-3. Conoscenza di base di C#: un po' di familiarità con C# ti aiuterà a navigare nel codice più agevolmente.
+3. Conoscenza di base di C#: un minimo di familiarità con C# ti aiuterà a navigare nel codice più agevolmente.
 4. Un file Excel: prepara il tuo file Excel, poiché sarà il nostro oggetto di prova per la rimozione delle interruzioni di pagina.
 
 ## Importa pacchetti
@@ -87,7 +87,7 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 
 ## Conclusione
 
-Eliminare le interruzioni di pagina in Excel non deve essere un compito arduo. Con Aspose.Cells per .NET, hai un potente alleato che semplifica il processo in pochi semplici passaggi. Che tu stia preparando presentazioni importanti o semplicemente sistemando i tuoi fogli di calcolo, questa comoda libreria ti consente di concentrarti su ciò che conta davvero. Quindi, rimboccati le maniche e trasforma la tua esperienza Excel!
+Eliminare le interruzioni di pagina in Excel non deve essere un compito arduo. Con Aspose.Cells per .NET, hai un potente alleato che semplifica il processo in pochi semplici passaggi. Che tu stia preparando presentazioni importanti o semplicemente riordinando i tuoi fogli di calcolo, questa comoda libreria ti consente di concentrarti su ciò che conta davvero. Quindi, rimboccati le maniche e trasforma la tua esperienza Excel!
 
 ## Domande frequenti
 

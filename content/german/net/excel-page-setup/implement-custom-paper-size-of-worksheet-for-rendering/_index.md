@@ -17,7 +17,7 @@ Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie richtig einger
 
 1. Visual Studio oder eine beliebige .NET-IDE: Stellen Sie sicher, dass Sie über eine funktionierende IDE wie Visual Studio verfügen. Dies wird Ihr Spielplatz sein, auf dem die ganze Codierungsmagie stattfindet.
 2.  Aspose.Cells für .NET-Paket: Falls noch nicht geschehen, müssen Sie die Aspose.Cells-Bibliothek herunterladen und installieren. Die neueste Version finden Sie auf der[Aspose.Cells-Downloadseite](https://releases.aspose.com/cells/net/).
-3. Grundkenntnisse in C#: Wir führen Sie zwar durch den Code, aber wenn Sie sich mit C# auskennen, werden Sie die Nuancen besser verstehen.
+3. Grundkenntnisse in C#: Wir führen Sie zwar durch den Code, aber die Vertrautheit mit C# hilft Ihnen, die Nuancen besser zu verstehen.
 4. Zugriff auf .NET Framework: Stellen Sie sicher, dass Ihr Projekt so eingerichtet ist, dass es auf eine kompatible Version des .NET Frameworks abzielt.
 
 ## Pakete importieren
@@ -57,7 +57,7 @@ Bevor wir mit der Codierung beginnen, entscheiden Sie, wo Sie Ihre PDF-Ausgabeda
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Ersetzen Sie unbedingt`"YOUR_OUTPUT_DIRECTORY"` mit dem tatsächlichen Pfad, in dem Sie Ihr PDF-Dokument speichern möchten. Stellen Sie sich das so vor, als würden Sie den Tisch decken, bevor Sie mit dem Kochen beginnen. Sie brauchen einen sauberen Platz zum Arbeiten.
+ Ersetzen Sie unbedingt`"YOUR_OUTPUT_DIRECTORY"` mit dem tatsächlichen Pfad, in dem Sie Ihr PDF-Dokument speichern möchten. Stellen Sie sich das so vor, als würden Sie den Tisch decken, bevor Sie mit dem Kochen beginnen. Sie benötigen einen sauberen Platz zum Arbeiten.
 
 ## Schritt 2: Erstellen eines Arbeitsmappenobjekts
 

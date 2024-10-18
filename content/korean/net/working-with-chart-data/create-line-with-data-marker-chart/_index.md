@@ -174,7 +174,7 @@ chart.NSeries[s3_idx].Values = "B22: B41";
 workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
 
-그리고 그게 전부입니다! 방금 Aspose.Cells for .NET을 사용하여 데이터 마커가 있는 선형 차트를 만들었습니다.
+그리고 그게 전부입니다! Aspose.Cells for .NET을 사용하여 데이터 마커가 있는 선형 차트를 만들었습니다.
 
 ## 결론
 

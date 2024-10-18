@@ -21,7 +21,7 @@ Vill du lägga till extra sammanhang till dina Excel-diagram? Etiketter kan gör
 
 En bild säger mer än tusen ord, eller hur? Detta gäller även Excel-diagram. Med Aspose.Cells för .NET är det lika enkelt att lägga till bilder till dina diagram som att infoga clipart i ett Word-dokument. Bilder kan hjälpa dig att göra dina diagram mer visuellt tilltalande, vilket ökar engagemanget med den data du presenterar. Oavsett om du presenterar finansiell data eller försäljningssiffror hjälper det att lägga till relevanta bilder för att koppla data till berättelsen.
 
-Nyfiken på hur detta fungerar? Kolla in[Lägg till bild i diagrammet](./add-picture-to-chart/) handledning.
+ Nyfiken på hur detta fungerar? Kolla in[Lägg till bild i diagrammet](./add-picture-to-chart/) handledning.
 
 ## Infoga textrutor och kryssrutor
 

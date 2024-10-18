@@ -9,7 +9,7 @@ url: /tr/net/setting-chart-appearance/apply-themes-in-chart/
 ---
 ## giriiş
 
-Excel'de görsel olarak çekici grafikler oluşturmak verilerinizi etkili bir şekilde iletmek için çok önemlidir. Temalar uygulayarak grafiklerinizin estetiğini artırabilir, bilgileri yalnızca erişilebilir değil, aynı zamanda ilgi çekici hale getirebilirsiniz. Bu kılavuzda, Aspose.Cells for .NET kullanarak temaların nasıl uygulanacağını keşfedeceğiz. O halde en sevdiğiniz atıştırmalığı alın ve grafiklerin yaratıcı dünyasına dalalım!
+Excel'de görsel olarak çekici grafikler oluşturmak verilerinizi etkili bir şekilde iletmek için çok önemlidir. Temalar uygulayarak grafiklerinizin estetiğini artırabilir, bilgileri yalnızca erişilebilir değil, aynı zamanda ilgi çekici hale getirebilirsiniz. Bu kılavuzda, .NET için Aspose.Cells kullanarak temaların nasıl uygulanacağını keşfedeceğiz. O halde en sevdiğiniz atıştırmalığı alın ve grafiklerin yaratıcı dünyasına dalalım!
 
 ## Ön koşullar
 
@@ -20,11 +20,11 @@ Kodlama bölümüne geçmeden önce, yerine getirmeniz gereken birkaç ön koşu
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET uygulamaları geliştirmek için kullanıcı dostu bir ortam sağlar.
 2. .NET Framework veya .NET Core: Tercihinize bağlı olarak, kodumuzu takip edecek şekilde .NET Framework veya .NET Core'un kurulu olması gerekir.
 3.  Aspose.Cells for .NET: Bunu kaçıramazsınız! Başlamak için Aspose.Cells for .NET'i indirin. DLL'leri bulabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
-4. C#'ın Temel Bilgileri: Kodu adım adım size anlatacağız ancak C# ile ilgili temel bilgilere sahip olmak kesinlikle yardımcı olacaktır.
+4. C# Temel Bilgisi: Kodu adım adım size anlatacağız ancak C# ile ilgili temel bilgilere sahip olmak kesinlikle yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
 
-.NET için Aspose.Cells ile çalışmak için ilk adım gerekli paketleri içe aktarmaktır. C# projenize aşağıdaki ad alanını ekleyin:
+Aspose.Cells for .NET ile çalışmak için ilk adım gerekli paketleri içe aktarmaktır. C# projenize aşağıdaki ad alanını ekleyin:
 
 ```csharp
 using System;
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Emin olun ki`sampleApplyingThemesInChart.xlsx` kaynak dizininizde mevcuttur.
+ Emin olun ki`sampleApplyingThemesInChart.xlsx`kaynak dizininizde mevcuttur.
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -77,7 +77,7 @@ Bu durumda, bu örnek için yeterli olan ilk çalışma sayfasını alıyoruz. B
 Çalışma kağıdı elimizde olduğuna göre artık biçimlendirmek istediğimiz grafiğe ulaşabiliriz.
 
 ```csharp
-//Sayfadaki ilk çizelgeyi alın
+// Sayfadaki ilk çizelgeyi alın
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.Charts[0];
 Bir temayı uygulamadan önce, grafik serimizin sağlam bir dolguya sahip olduğundan emin olalım. Bunu nasıl ayarlayabileceğiniz aşağıda açıklanmıştır:
 
 ```csharp
-// FillFormat'ın türünü ilk serinin Katı Dolgusu olarak belirtin
+// FillFormat'ın türünü ilk serinin Solid Fill'i olarak belirtin
 chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 ```
 
@@ -96,13 +96,13 @@ Bu kod satırı, grafikteki ilk serinin düz dolgu kullanacak şekilde ayarlanma
 
 ## Adım 6: Rengi Yapılandırın
 
- Artık dizimiz hazır olduğuna göre, rengini değiştirmemiz gerekiyor. Bu, bir dizi oluşturmayı içerir.`CellsColor` nesne ve bir tema rengi belirterek. Bu örnek için bir vurgu stili seçeceğiz.
+ Artık dizimiz hazır olduğuna göre, rengini değiştirmemiz gerekiyor. Bu, bir dizi oluşturmayı içerir.`CellsColor`nesne ve bir tema rengi belirterek. Bu örnek için bir vurgu stili seçeceğiz.
 
 ```csharp
 // SolidFill'in CellsColor'ını alın
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Accent stilinde bir tema oluşturun
+// Accent stilinde bir tema oluşturun
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -123,7 +123,7 @@ Bu çizgi grafikteki renkleri etkili bir şekilde günceller.
 
 ## Adım 8: Çalışma Kitabını Kaydedin
 
-Tüm bu zorlu çalışmalardan sonra, değişikliklerimizi yeni bir Excel dosyasına kaydetmemiz gerekiyor.
+Tüm bu zor çalışmalardan sonra, değişikliklerimizi yeni bir Excel dosyasına kaydetmemiz gerekiyor.
 
 ```csharp
 // Excel dosyasını kaydedin

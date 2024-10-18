@@ -136,7 +136,7 @@ Aspose.Cells for Java는 Excel 자동화를 위한 고급 기능과 옵션을 �
 
 ### Java용 Aspose.Cells에서 수식을 평가하려면 어떻게 해야 하나요?
 
- Java용 Aspose.Cells에서 다음을 사용하여 수식을 평가할 수 있습니다.`calculateFormula` 적절한 옵션을 사용한 방법.
+ Java용 Aspose.Cells에서 수식을 평가하려면 다음을 사용하십시오.`calculateFormula` 적절한 옵션을 사용한 방법.
 
 ### Excel에서 COUNTIF를 사용하는 가장 좋은 방법은 무엇입니까?
 

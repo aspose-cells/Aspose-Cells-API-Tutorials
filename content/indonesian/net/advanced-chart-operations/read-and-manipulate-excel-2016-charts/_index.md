@@ -13,7 +13,7 @@ Excel adalah alat yang hebat untuk visualisasi dan presentasi data, tetapi meman
 
 ## Prasyarat
 
-Sebelum kita mulai membuat kode, pastikan Anda sudah menyiapkan semuanya. Berikut ini adalah prasyarat yang Anda perlukan:
+Sebelum kita mulai membuat kode, mari kita pastikan Anda sudah menyiapkan semuanya. Berikut ini adalah prasyarat yang Anda perlukan:
 
 1.  Aspose.Cells untuk .NET: Anda harus menginstal pustaka ini. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di lingkungan pengembangan Anda. Aspose.Cells mendukung beberapa framework, jadi periksa kompatibilitasnya.
@@ -63,7 +63,7 @@ Pastikan berkas Excel yang Anda maksud ada di jalur yang ditentukan. Jika tidak,
 
 ## Langkah 3: Akses Lembar Kerja
 
-Berikutnya, Anda ingin mengakses lembar kerja yang berisi grafik. Biasanya, lembar kerja pertama berisi data yang relevan.
+Berikutnya, Anda ingin mengakses lembar kerja yang berisi grafik. Biasanya, ini adalah lembar kerja pertama yang berisi data yang relevan.
 
 ```csharp
 // Akses lembar kerja pertama yang berisi grafik

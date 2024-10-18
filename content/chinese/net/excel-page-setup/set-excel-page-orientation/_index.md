@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
-创建新`Workbook`就像在笔记本中打开一个新的空白页，您可以用任何您想要的信息来填充它！
+创建新的`Workbook`就像在笔记本中打开一个新的空白页，您可以用任何您想要的信息填充它！
 
 ## 步骤 3：访问第一个工作表
 
@@ -93,7 +93,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 
 ## 常见问题解答
 
-### Aspose.Cells for .NET 用于什么用途？
+### Aspose.Cells for .NET 用于什么？
 Aspose.Cells for .NET 是一个功能强大的库，用于以编程方式管理 Excel 文件，具有创建、编辑、转换等功能。
 
 ### 我也可以把方向改为横向吗？

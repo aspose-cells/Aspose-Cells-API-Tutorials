@@ -21,7 +21,7 @@ Bu öğreticiyi takip etmek için Aspose.Cells'in ne olduğuna dair sağlam bir 
 
 ### Geliştirme Ortamınızı Kurma
 
-1.  Visual Studio'yu yükleyin: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Visual Studio web sitesi](https://visualstudio.microsoft.com/).
+1.  Visual Studio'yu yükleyin: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Visual Studio web sitesi](https://visualstudio.microsoft.com/).
 
 2. .NET Framework: .NET Framework veya .NET Core'un uyumlu bir sürümüne ihtiyacınız olacak. Bu kütüphane her iki framework ile de iyi çalışır.
 

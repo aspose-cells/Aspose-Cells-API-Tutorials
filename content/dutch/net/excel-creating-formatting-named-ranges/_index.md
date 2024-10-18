@@ -23,7 +23,7 @@ Klaar om te beginnen? Eerst moet u Aspose.Cells integreren in uw .NET-project. Z
 
 Nu u uw benoemde bereiken onder de knie hebt, gaan we het over opmaak hebben. U denkt misschien: "Gaat het bij gegevens niet gewoon om getallen?" Maar hier is de clou: de manier waarop u uw gegevens presenteert, kan de helderheid en impact ervan maken of breken. Het opmaken van bereiken in Excel met Aspose.Cells voor .NET gaat niet alleen om het er mooi uit laten zien; het gaat erom uw gegevens gemakkelijker te verteren. 
 
-Stel je voor dat je in een vergadering zit waar grafieken en diagrammen opvallen en je aandacht trekken. Dat is wat goede opmaak doet! Je kunt lettertypes wijzigen, kleuren toevoegen en zelfs randen instellen om je gegevens visueel aantrekkelijker te maken. Het is vergelijkbaar met je opdoffen voor een speciale gelegenheid: de eerste indruk is belangrijk! 
+Stel je voor dat je in een vergadering zit waar grafieken en diagrammen je opvallen en je aandacht trekken. Dat is wat goede opmaak doet! Je kunt lettertypes wijzigen, kleuren toevoegen en zelfs randen instellen om je gegevens visueel aantrekkelijker te maken. Het is vergelijkbaar met je opdoffen voor een speciale gelegenheid: de eerste indruk is belangrijk! 
 
  Voor degenen die graag willen leren hoe ze hun bereiken effectief kunnen formatteren, volgt u gewoon onze stapsgewijze handleiding op[Bereiken opmaken in Excel](./format-ranges/).
 

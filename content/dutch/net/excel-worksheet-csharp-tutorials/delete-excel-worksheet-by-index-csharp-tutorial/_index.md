@@ -55,7 +55,7 @@ Eerst moet u de locatie van uw Excel-bestand definiëren. Hier geeft u het progr
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Gewoon vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar je`book1.xls`bestand bevindt. Zie dit als het geven van het juiste adres aan uw GPS voordat u aan een roadtrip begint!
+ Gewoon vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar je`book1.xls` bestand bevindt. Zie dit als het geven van het juiste adres aan uw GPS voordat u aan een roadtrip begint!
 
 ## Stap 4: Open het Excel-bestand met een FileStream
 
@@ -95,7 +95,7 @@ Nadat u het werkblad hebt verwijderd, moet u uw wijzigingen opslaan. Zo schrijft
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- U kunt ervoor kiezen om het op te slaan met een nieuwe naam door`"output.out.xls"` naar wat je maar wilt. Stel je voor dat je op de knop 'Opslaan' klikt in een Word-document — je wilt je wijzigingen behouden.
+ kunt ervoor kiezen om het op te slaan met een nieuwe naam door`"output.out.xls"` naar wat je maar wilt. Stel je voor dat je op de knop 'Opslaan' klikt in een Word-document — je wilt je wijzigingen behouden.
 
 ## Stap 8: Sluit de bestandsstroom
 
@@ -117,10 +117,10 @@ En daar heb je het! Je hebt succesvol geleerd hoe je een Excel-werkblad verwijde
 Aspose.Cells is een .NET-bibliotheek die ontwikkelaars uitgebreide mogelijkheden biedt om Excel-bestanden te manipuleren. Van het maken en bewerken tot het converteren van Excel-bestanden, het is een krachtige tool!
 
 ### Heb ik een licentie nodig om Aspose.Cells te gebruiken?
- Ja, Aspose.Cells is een betaalde bibliotheek, maar u kunt beginnen met een gratis proefversie die beschikbaar is[hier](https://releases.aspose.com/)U kunt de functies bekijken voordat u tot aankoop overgaat.
+ Ja, Aspose.Cells is een betaalde bibliotheek, maar u kunt beginnen met een gratis proefversie die beschikbaar is[hier](https://releases.aspose.com/)kunt de functies bekijken voordat u tot aankoop overgaat.
 
 ### Kan ik meerdere werkbladen tegelijk verwijderen?
-Ja, u kunt door de werkbladen heen lopen en ze verwijderen met behulp van hun respectievelijke indices. Vergeet niet de index aan te passen als u werkbladen verwijdert.
+Ja, u kunt door de werkbladen heen lopen en ze verwijderen met behulp van hun respectievelijke indexen. Vergeet niet de index aan te passen wanneer u werkbladen verwijdert.
 
 ### Wat moet ik doen als ik het verkeerde werkblad verwijder?
 Als u de werkmap niet hebt opgeslagen nadat u deze hebt verwijderd, kunt u het originele bestand gewoon opnieuw openen. Maak altijd een back-up voordat u dergelijke wijzigingen aanbrengt: beter voorkomen dan genezen!

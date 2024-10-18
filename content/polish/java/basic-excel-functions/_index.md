@@ -9,7 +9,7 @@ url: /pl/java/basic-excel-functions/
 ---
 ## Wprowadzenie do podstawowych funkcji programu Excel
 
-W świecie manipulacji arkuszami kalkulacyjnymi zrozumienie podstawowych funkcji programu Excel jest podstawą efektywnego przetwarzania danych. Dzięki Aspose.Cells for Java możesz zagłębić się w tę niezbędną wiedzę. W tej serii samouczków przeprowadzimy Cię przez podstawowe funkcje programu Excel, wyposażając Cię w umiejętności potrzebne do wydajnej pracy z arkuszami kalkulacyjnymi.
+świecie manipulacji arkuszami kalkulacyjnymi zrozumienie podstawowych funkcji programu Excel jest podstawą efektywnego przetwarzania danych. Dzięki Aspose.Cells for Java możesz zagłębić się w tę niezbędną wiedzę. W tej serii samouczków przeprowadzimy Cię przez podstawowe funkcje programu Excel, wyposażając Cię w umiejętności potrzebne do wydajnej pracy z arkuszami kalkulacyjnymi.
 
 ## Pierwsze kroki z Aspose.Cells dla Java:
 
@@ -39,6 +39,6 @@ Dowiedz się, jak używać funkcji Excel MAX z Aspose.Cells dla Java. Odkryj wsk
 ### [Funkcja MIN w programie Excel wyjaśniona](./min-function-in-excel-explained/)
 Odkryj moc funkcji MIN w programie Excel z Aspose.Cells dla Javy. Naucz się bez wysiłku znajdować wartości minimalne.
 ### [Funkcje tekstowe programu Excel wyjaśnione](./excel-text-functions-demystified/)
-Odkryj sekrety funkcji tekstowych Excela dzięki Aspose.Cells dla Java. Naucz się manipulować, wyodrębniać i przekształcać tekst w Excelu bez wysiłku.
+Odkryj sekrety funkcji tekstowych programu Excel dzięki Aspose.Cells dla Javy. Naucz się manipulować, wyodrębniać i przekształcać tekst w programie Excel bez wysiłku.
 ### [Samouczek dotyczący funkcji daty w programie Excel](./excel-date-functions-tutorial/)
 Poznaj funkcje daty w programie Excel za pomocą Aspose.Cells dla języka Java. Poznaj samouczki krok po kroku z kodem źródłowym.

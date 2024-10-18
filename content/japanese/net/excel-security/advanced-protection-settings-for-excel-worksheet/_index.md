@@ -15,12 +15,12 @@ url: /ja/net/excel-security/advanced-protection-settings-for-excel-worksheet/
 
 コードに進む前に、必要なものがすべて揃っていることを確認しましょう。
 
-1. 開発環境: .NET 開発用の優れた IDE を提供する Visual Studio をマシンにインストールしておく必要があります。
+1. 開発環境: Visual Studio は .NET 開発用の優れた IDE を提供するため、マシンにインストールしておく必要があります。
 2. Aspose.Cellsライブラリ: Aspose.Cellsライブラリをダウンロードしてください。[Aspose ダウンロード ページ](https://releases.aspose.com/cells/net/).
 3. 基本的な C# の知識: 簡単に理解できるように、C# と .NET Framework を十分に理解していることを確認してください。
 4. プロジェクトの作成: コードを記述する新しいコンソール アプリケーションを Visual Studio に設定します。
 
-これで準備はすべて整いましたので、次は楽しい部分に進みましょう。
+準備がすべて整ったので、次は楽しい部分に進みましょう。
 
 ## パッケージのインポート
 
@@ -56,7 +56,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 // Excel ファイルを開くためのファイル ストリームを作成する
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
-の`FileStream`指定された Excel ファイルを読み取ることができます。「YOUR DOCUMENT DIRECTORY」を Excel ファイルが保存されている実際のパスに変更してください。
+の`FileStream`指定された Excel ファイルを読み取ることができます。「YOUR DOCUMENT DIRECTORY」を Excel ファイルが配置されている実際のパスに変更してください。
 
 ## ステップ 2: ワークブック オブジェクトをインスタンス化する
 
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 ここでは、最初のワークシートのみを操作します。アクセスしてみましょう。
 
 ```csharp
-//Excelファイルの最初のワークシートにアクセスする
+// Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = excel.Worksheets[0];
 ```
 ワークシートは0からインデックスが付けられるので、`Worksheets[0]` Excel ファイルの最初のワークシートを参照します。これで、この特定のシートに保護設定を適用できます。

@@ -52,7 +52,7 @@ Du måste först bestämma var du ska spara din Excel-fil. Så här kan du speci
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ange din katalogsökväg här
-// Skapa katalog om den inte redan finns.
+//Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -153,7 +153,7 @@ Absolut! Du kan låsa så många celler du vill genom att upprepa celllåsstegen
  Aspose.Cells erbjuder en gratis provperiod, men fortsatt användning kräver en licens. Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag hitta dokumentationen?
-Dokumentationen kan hittas[här](https://reference.aspose.com/cells/net/).
+ Dokumentationen kan hittas[här](https://reference.aspose.com/cells/net/).
 
 ### Vilka filformat kan jag spara Excel-filer i?
 Aspose.Cells stöder flera format inklusive XLSX, XLS, CSV och mer.

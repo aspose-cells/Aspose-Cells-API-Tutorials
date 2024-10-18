@@ -16,7 +16,7 @@ Khi nói đến thao tác bảng tính, việc nhập dữ liệu vào Excel và
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có mọi thứ mình cần. Sau đây là danh sách kiểm tra nhanh các điều kiện tiên quyết để giúp bạn thành công:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.Cells hoạt động liền mạch với nhiều phiên bản .NET khác nhau.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển tích hợp (IDE): Sử dụng IDE như Visual Studio nơi bạn có thể viết và thực thi mã C#.
 4. Kiến thức cơ bản về C#: Có hiểu biết cơ bản về C# sẽ giúp bạn theo dõi các phương pháp viết mã mà chúng tôi sẽ sử dụng trong hướng dẫn này.
 
@@ -47,7 +47,7 @@ using System.Drawing;
 
 Dòng đơn giản này chính là cổng vào của bạn tới mọi chức năng mà Aspose.Cells cung cấp. 
 
-Bây giờ chúng ta đã có tất cả các điều kiện tiên quyết và đã nhập các gói cần thiết, hãy cùng tìm hiểu quy trình từng bước để nhập dữ liệu vào Excel và áp dụng định dạng mẫu DB Num tùy chỉnh. Chúng ta sẽ thực hiện theo phương pháp này để đảm bảo tính rõ ràng và dễ hiểu.
+Bây giờ chúng ta đã có tất cả các điều kiện tiên quyết và đã nhập các gói cần thiết, hãy cùng tìm hiểu từng bước trong quy trình nhập dữ liệu vào Excel và áp dụng định dạng mẫu DB Num tùy chỉnh. Chúng ta sẽ thực hiện theo phương pháp này để đảm bảo tính rõ ràng và dễ hiểu.
 
 ## Bước 1: Thiết lập thư mục dữ liệu
 
@@ -67,7 +67,7 @@ Tiếp theo, bạn sẽ tạo một bảng tính mới, về cơ bản đây ch�
 Workbook wb = new Workbook();
 ```
 
-Ở đây, chúng ta đang tạo ra một cái mới`Workbook` đối tượng. Đây là bức tranh trắng của bạn!
+ Ở đây, chúng ta đang tạo ra một cái mới`Workbook` đối tượng. Đây là bức tranh trắng của bạn!
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -108,7 +108,7 @@ Bằng cách nắm bắt phong cách của tế bào, bạn đang chuẩn bị t
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Dòng này yêu cầu Excel định dạng số`123` theo mẫu DBNum tương ứng với tiếng Trung. Khá gọn gàng, phải không?
+ Dòng này yêu cầu Excel định dạng số`123` theo mẫu DBNum tương ứng với tiếng Trung. Khá gọn gàng, phải không?
 
 ## Bước 7: Đặt Kiểu ô được cập nhật
 
@@ -130,7 +130,7 @@ ws.Cells.SetColumnWidth(0, 30);
 
 Ở đây, chúng tôi đang mở rộng chiều rộng cột, để dữ liệu của bạn không bị chật chội. Hãy nghĩ về nó như việc cung cấp không gian cho dữ liệu của bạn để thở!
 
-## Bước 9: Lưu Workbook
+## Bước 9: Lưu sổ làm việc
 
 Cuối cùng, chúng ta hãy lưu kiệt tác này vào định dạng PDF. Đây chính là phần kết tuyệt vời!
 

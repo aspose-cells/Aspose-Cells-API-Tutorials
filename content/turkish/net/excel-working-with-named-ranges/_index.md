@@ -13,7 +13,7 @@ Excel'deki adlandırılmış aralıklar küçük güç cepleri gibidir. Hücrele
 
 ## Excel'deki Tüm Adlandırılmış Aralıklara Erişim
 
-Excel sayfanızda dağılmış birden fazla adlandırılmış aralığınız olduğunu ve işlemek için hepsini almanız gerektiğini düşünün. Her aralığı tek tek aramak yerine, Aspose.Cells for .NET onlara tek seferde erişmeniz için kolaylaştırılmış bir yol sunar! Bu yöntem iş akışınızı basitleştirir ve zamandan tasarruf sağlar.
+Excel sayfanızda dağılmış birden fazla adlandırılmış aralığınız olduğunu ve işlemek için hepsini almanız gerektiğini düşünün. Her aralığı tek tek aramak yerine, Aspose.Cells for .NET bunlara tek seferde erişmeniz için kolaylaştırılmış bir yol sunar! Bu yöntem iş akışınızı basitleştirir ve zamandan tasarruf sağlar.
 
  Kullanarak`Workbook.Worksheets.Names`koleksiyon, adlandırılmış tüm aralıklara kolayca erişebilirsiniz. İster büyük veri kümelerini yönetiyor olun ister görevleri otomatikleştiriyor olun, bu özellik oyunun kurallarını değiştiriyor. Bunu adım adım nasıl yapacağınızı öğrenmek ister misiniz? Ayrıntılı bilgimizde daha fazlasını okuyun[Excel'deki Tüm Adlandırılmış Aralıklara Erişim](./access-all-named-ranges/) öğretici.
 

@@ -9,7 +9,7 @@ url: /vi/net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/
 ---
 ## Giới thiệu
 
-Bạn đã bao giờ thấy mình vật lộn với các bảng tính có những ô bị đóng băng khó chịu đó chưa? Nếu có, bạn không phải là người duy nhất! Nhiều người trong chúng ta đã từng ở đó, cố gắng tìm ra cách điều hướng các tệp Excel của mình một cách hiệu quả. Cho dù bạn đang dọn dẹp một bảng tính để trình bày, chia sẻ dữ liệu hay chỉ muốn có chế độ xem hợp lý hơn, việc xóa các ô có thể tạo nên sự khác biệt. Trong bài viết này, chúng ta sẽ khám phá cách giải quyết vấn đề này bằng Aspose.Cells cho .NET. Nhưng trước khi đi sâu vào mã, hãy cùng chuẩn bị một số điều kiện tiên quyết.
+Bạn đã bao giờ thấy mình vật lộn với các bảng tính có những ô bị đóng băng khó chịu chưa? Nếu có, bạn không phải là người duy nhất! Nhiều người trong chúng ta đã từng ở đó, cố gắng tìm ra cách điều hướng các tệp Excel của mình một cách hiệu quả. Cho dù bạn đang dọn dẹp một bảng tính để trình bày, chia sẻ dữ liệu hay chỉ muốn có chế độ xem hợp lý hơn, việc xóa các ô có thể tạo nên sự khác biệt. Trong bài viết này, chúng ta sẽ khám phá cách giải quyết vấn đề này bằng Aspose.Cells cho .NET. Nhưng trước khi đi sâu vào mã, hãy cùng chuẩn bị một số điều kiện tiên quyết.
 
 ## Điều kiện tiên quyết
 
@@ -17,14 +17,14 @@ Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn đã thiế
 
 1. Visual Studio: Cài đặt Visual Studio sẽ cung cấp cho bạn môi trường phát triển đáng tin cậy để tạo các ứng dụng .NET.
 2.  Thư viện Aspose.Cells: Rõ ràng là bạn không thể làm điều này nếu không có thư viện Aspose.Cells. Đừng lo lắng; bạn có thể dễ dàng tải xuống từ[đây](https://releases.aspose.com/cells/net/) và họ thậm chí còn cung cấp một[dùng thử miễn phí](https://releases.aspose.com/).
-3. Kiến thức cơ bản về C#: Nếu bạn quen thuộc với C#, bạn sẽ thấy dễ hiểu hơn nhiều. Biết cách làm việc với các lớp, phương thức và đối tượng sẽ hữu ích.
+3. Kiến thức cơ bản về C#: Nếu bạn quen thuộc với C#, bạn sẽ thấy dễ dàng hơn nhiều để theo dõi. Biết cách làm việc với các lớp, phương thức và đối tượng sẽ hữu ích.
 4. Tệp Excel mẫu: Để thực hành, bạn cũng cần một tệp Excel để làm việc. Bạn có thể tạo một tệp đơn giản hoặc tải xuống một ví dụ.
 
 Bây giờ chúng ta đã có đủ công cụ và kiến thức, hãy chuyển sang nhập các gói cần thiết.
 
 ## Nhập gói
 
-Trước khi bắt đầu mã hóa, chúng ta cần nhập các gói liên quan từ thư viện Aspose.Cells. Điều này sẽ cho phép chúng ta sử dụng tất cả các tính năng tuyệt vời mà thư viện cung cấp. Sau đây là những gì bạn cần đưa vào đầu tệp C# của mình:
+Trước khi bắt đầu mã hóa, chúng ta cần nhập các gói có liên quan từ thư viện Aspose.Cells. Điều này sẽ cho phép chúng ta sử dụng tất cả các tính năng tuyệt vời mà thư viện cung cấp. Sau đây là những gì bạn cần đưa vào đầu tệp C# của mình:
 
 ```csharp
 using System.IO;
@@ -39,7 +39,7 @@ Bây giờ đến phần thú vị: viết mã để xóa các ngăn khỏi bả
 
 Tiêu đề: Chỉ định thư mục tài liệu
 
-Điều đầu tiên chúng ta cần làm là chỉ định thư mục lưu trữ tài liệu của chúng ta. Điều này rất quan trọng vì chúng ta cần biết tệp đầu vào của mình nằm ở đâu và tệp đầu ra nên được lưu ở đâu. Sau đây là cách thực hiện:
+Điều đầu tiên chúng ta cần làm là chỉ định thư mục lưu trữ tài liệu của chúng ta. Điều này rất quan trọng vì chúng ta cần biết tệp đầu vào của mình nằm ở đâu và tệp đầu ra sẽ được lưu ở đâu. Sau đây là cách thực hiện:
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.

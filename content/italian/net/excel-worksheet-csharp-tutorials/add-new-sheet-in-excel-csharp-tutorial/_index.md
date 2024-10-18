@@ -49,7 +49,7 @@ Per iniziare, vorrai assicurarti di avere un posto sicuro in cui archiviare i tu
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Creare la directory se non è già presente.
+//Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ Nel codice sopra, dichiariamo il percorso in cui risiederà il nostro file Excel
 Successivamente, creeremo un'istanza della classe Workbook. Questa classe è la spina dorsale di tutte le operazioni correlate a Excel che eseguirai.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Ora che il nostro quaderno di lavoro è pronto, aggiungiamo il nuovo foglio!
 int i = workbook.Worksheets.Add();
 ```
 
- Qui stiamo usando il`Add()` metodo del`Worksheets` collezione presente all'interno del`Workbook` classe. Il metodo restituisce un indice (`i`del foglio appena aggiunto. È come aggiungere una pagina al tuo quaderno: semplice ed efficiente!
+ Qui stiamo usando il`Add()` metodo del`Worksheets` collezione presente all'interno del`Workbook` classe. Il metodo restituisce un indice (`i`) del foglio appena aggiunto. È come aggiungere una pagina al tuo quaderno: semplice ed efficiente!
 
 ## Passaggio 4: Assegna un nome al nuovo foglio di lavoro
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Si ottiene un riferimento al foglio appena creato utilizzando il suo indice`i`. Quindi, impostiamo semplicemente il suo nome su "My Worksheet". Nominare i tuoi fogli in questo modo è una buona pratica, specialmente quando lavori con file Excel più grandi in cui il contesto è fondamentale.
+ Si ottiene un riferimento al foglio appena creato utilizzando il suo indice`i`Quindi, impostiamo semplicemente il suo nome su "My Worksheet". Nominare i tuoi fogli in questo modo è una buona pratica, specialmente quando lavori con file Excel più grandi in cui il contesto è fondamentale.
 
 ## Passaggio 5: salvataggio del file Excel
 

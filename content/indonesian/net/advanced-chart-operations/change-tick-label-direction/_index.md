@@ -17,7 +17,7 @@ Sebelum kita menyelami lebih dalam, mari pastikan Anda telah menyiapkan semuanya
 
 ### Kerangka .NET
 
-Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells bekerja dengan lancar dengan berbagai versi .NET, jadi Anda akan terlindungi selama Anda menggunakan versi yang didukung.
+Pastikan Anda telah menginstal .NET framework di komputer Anda. Aspose.Cells bekerja dengan lancar dengan berbagai versi .NET, jadi Anda akan terlindungi selama Anda menggunakan versi yang didukung.
 
 ### Aspose.Cells untuk .NET
 
@@ -44,7 +44,7 @@ using Aspose.Cells.Charts;
 
 Ruang nama ini memberi kita semua yang kita butuhkan untuk memodifikasi bagan Excel kita. 
 
-Sekarang setelah pengaturan kita beres, mari kita uraikan menjadi langkah-langkah yang sederhana dan jelas.
+Sekarang setelah pengaturan kita beres, mari kita uraikan menjadi beberapa langkah yang sederhana dan jelas.
 
 ## Langkah 1: Tetapkan Direktori Sumber dan Output
 

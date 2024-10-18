@@ -49,7 +49,7 @@ Till att börja med vill du se till att du har en säker plats att lagra dina Ex
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Skapa katalog om den inte redan finns.
+//Skapa katalog om den inte redan finns.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ I koden ovan deklarerar vi sökvägen där vår Excel-fil kommer att finnas (`da
 Nästa upp kommer vi att skapa en instans av Workbook-klassen. Den här klassen är ryggraden i alla Excel-relaterade operationer du ska utföra.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Nu när vår arbetsbok är klar, låt oss lägga till det nya bladet!
 int i = workbook.Worksheets.Add();
 ```
 
- Här använder vi`Add()` metod för`Worksheets` samling närvarande inom`Workbook` klass. Metoden returnerar ett index (`i`av det nyligen tillagda arket. Det är som att lägga till en sida i din anteckningsbok - enkelt och effektivt!
+ Här använder vi`Add()` metod för`Worksheets` samling närvarande inom`Workbook` klass. Metoden returnerar ett index (`i`) av det nyligen tillagda arket. Det är som att lägga till en sida i din anteckningsbok - enkelt och effektivt!
 
 ## Steg 4: Namnge ditt nya arbetsblad
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Du får en referens till det nyskapade arket genom att använda dess index`i`. Sedan sätter vi helt enkelt dess namn till "Mitt arbetsblad". Att namnge dina ark så här är en bra praxis, särskilt när du arbetar med större Excel-filer där sammanhanget är nyckeln.
+ Du får en referens till det nyskapade arket genom att använda dess index`i`Sedan sätter vi helt enkelt dess namn till "Mitt arbetsblad". Att namnge dina ark så här är en bra praxis, särskilt när du arbetar med större Excel-filer där sammanhanget är nyckeln.
 
 ## Steg 5: Spara Excel-filen
 

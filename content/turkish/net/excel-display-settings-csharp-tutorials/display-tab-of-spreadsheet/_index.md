@@ -9,11 +9,11 @@ url: /tr/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 ---
 ## giriiş
 
-Elektronik tablolarla mı çalışıyorsunuz ve bunları programatik olarak yönetmenin etkili bir yolunu mu arıyorsunuz? Doğru yerdesiniz! İster karmaşık raporlar oluşturuyor olun ister iş akışlarını otomatikleştiriyor olun, .NET için Aspose.Cells sizin başvuracağınız kütüphanedir. Bugün, kullanışlı özelliklerinden biri olan elektronik tablonun sekmesini görüntülemeyi derinlemesine inceliyoruz.
+Elektronik tablolarla mı çalışıyorsunuz ve bunları programatik olarak yönetmenin etkili bir yolunu mu arıyorsunuz? Doğru yerdesiniz! Karmaşık raporlar oluşturuyor veya iş akışlarını otomatikleştiriyor olun, .NET için Aspose.Cells sizin başvuracağınız kütüphanedir. Bugün, kullanışlı özelliklerinden biri olan elektronik tablonun sekmesini görüntülemeyi derinlemesine inceliyoruz.
 
 ## Ön koşullar
 
-Gerçek koda geçmeden önce, her şeyin sıraya girdiğinden emin olalım. İşte ihtiyacınız olanlar:
+Gerçek koda geçmeden önce, her şeyin sıraya girdiğinden emin olalım. İhtiyacınız olanlar şunlar:
 
 1.  Aspose.Cells for .NET Library – Yüklü olduğundan emin olun.[kütüphaneyi buradan indirin](https://releases.aspose.com/cells/net/).
 2. .NET Framework – .NET Framework'ün uyumlu bir sürümünü çalıştırdığınızdan emin olun. Aspose.Cells for .NET, 2.0'dan itibaren .NET Framework sürümlerini destekler.
@@ -55,13 +55,13 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ## Adım 3: Sekmeleri Görüntüle
 
-Excel'de, alttaki sekmeler (Sheet1, Sheet2, vb.) gizlenebilir veya gösterilebilir. Aspose.Cells'i kullanarak görünürlüklerini kolayca kontrol edebilirsiniz. Sekmelerin görünürlüğünü açalım.
+Excel'de, alttaki sekmeler (Sheet1, Sheet2, vb.) gizlenebilir veya gösterilebilir. Aspose.Cells'i kullanarak, görünürlüklerini kolayca kontrol edebilirsiniz. Sekmelerin görünürlüğünü açalım.
 
 ```csharp
 workbook.Settings.ShowTabs = true;
 ```
 
- Ayar`ShowTabs` ile`true`Excel dosyasını açtığınızda sekmelerin görünür olmasını sağlayacaktır.
+ Ayar`ShowTabs` ile`true` Excel dosyasını açtığınızda sekmelerin görünür olmasını sağlayacaktır.
 
 ## Adım 4: Değiştirilen Excel Dosyasını Kaydedin
 
@@ -80,7 +80,7 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak sekmeleri bir Excel elektronik t
 ## SSS
 
 ### Aspose.Cells for .NET kullanarak Excel'deki sekmeleri gizleyebilir miyim?
- Kesinlikle! Basitçe ayarlayın`workbook.Settings.ShowTabs = false;`ve dosyayı kaydedin. Bu, çalışma kitabı açıldığında sekmeleri gizleyecektir.
+ Kesinlikle! Basitçe ayarlayın`workbook.Settings.ShowTabs = false;` ve dosyayı kaydedin. Bu, çalışma kitabı açıldığında sekmeleri gizleyecektir.
 
 ### Aspose.Cells, grafikler ve pivot tablolar gibi diğer Excel özelliklerini destekliyor mu?
 Evet, Aspose.Cells grafikler, pivot tablolar, formüller ve daha fazlası dahil olmak üzere hemen hemen tüm Excel özelliklerini destekleyen kapsamlı bir kütüphanedir.

@@ -9,7 +9,7 @@ url: /vi/net/excel-page-breaks/excel-clear-all-page-breaks/
 ---
 ## Giới thiệu
 
-Nếu bạn đã từng mày mò Excel, bạn sẽ biết rằng ngắt trang có thể vừa là một điều may mắn vừa là một điều bất hạnh. Chúng giúp sắp xếp bố cục bảng tính của bạn để in, nhưng đôi khi, chúng có thể trở nên lộn xộn hoặc không đúng chỗ. Cho dù bạn đang chuẩn bị báo cáo, báo cáo tài chính hay ngân sách hộ gia đình đơn giản, thì việc tìm ra cách xóa tất cả các ngắt trang trong tệp Excel của bạn có thể chỉ là việc dọn dẹp mà bạn cần. Hãy nhập Aspose.Cells cho .NET—một thư viện mạnh mẽ giúp quản lý các tệp Excel trở nên dễ dàng. Trong bài viết này, chúng ta sẽ xem xét cách xóa tất cả các ngắt trang trong bảng tính Excel theo từng bước, để bạn có thể kiểm soát và rõ ràng mà không phải đổ mồ hôi. Thắt dây an toàn; chúng ta hãy bắt đầu!
+Nếu bạn đã từng mày mò Excel, bạn sẽ biết rằng ngắt trang có thể vừa là một điều may mắn vừa là một điều bất hạnh. Chúng giúp sắp xếp bố cục bảng tính của bạn để in, nhưng đôi khi, chúng có thể trở nên lộn xộn hoặc không đúng chỗ. Cho dù bạn đang chuẩn bị báo cáo, báo cáo tài chính hay ngân sách hộ gia đình đơn giản, thì việc tìm ra cách xóa tất cả các ngắt trang trong tệp Excel của bạn có thể chỉ là việc dọn dẹp mà bạn cần. Hãy nhập Aspose.Cells cho .NET—một thư viện mạnh mẽ giúp quản lý các tệp Excel trở nên dễ dàng. Trong bài viết này, chúng ta sẽ xem xét cách xóa tất cả các ngắt trang trong bảng tính Excel theo từng bước, để bạn có thể kiểm soát và rõ ràng mà không phải đổ mồ hôi. Hãy thắt dây an toàn; chúng ta hãy bắt đầu!
 
 ## Điều kiện tiên quyết
 
@@ -65,7 +65,7 @@ Tiếp theo, chúng ta sẽ giải quyết các ngắt trang theo chiều ngang.
 ```csharp
 workbook.Worksheets[0].HorizontalPageBreaks.Clear();
 ```
-Chúng tôi đang yêu cầu chương trình xóa tất cả các ngắt trang theo chiều ngang trên trang tính đầu tiên. Giống như quét sạch mạng nhện khỏi góc cao đó—nó cho phép một trang sạch sẽ.
+Chúng tôi đang yêu cầu chương trình xóa tất cả các ngắt trang ngang trên trang tính đầu tiên. Giống như quét sạch mạng nhện khỏi góc cao đó—nó cho phép một trang sạch sẽ.
 
 ## Bước 4: Xóa ngắt trang theo chiều dọc
 
@@ -78,12 +78,12 @@ Với dòng này, bạn đảm bảo rằng tất cả các ngắt trang theo ch
 
 ## Bước 5: Lưu thay đổi của bạn
 
-Cuối cùng, bạn không muốn mất hết công sức này, phải không? Đã đến lúc lưu bảng tính mới điều chỉnh của bạn.
+Cuối cùng, bạn không muốn mất hết công sức này, phải không? Đã đến lúc lưu lại bảng tính mới điều chỉnh của bạn.
 
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 ```
- Ở đây, chúng tôi đang lưu các điều chỉnh mà chúng tôi đã thực hiện trong một tệp Excel mới có tên là`ClearAllPageBreaks_out.xls` trong cùng thư mục mà chúng ta đã chỉ định trước đó. Đây là chiến thắng cho công việc bạn đã hoàn thành tốt!
+ Ở đây, chúng tôi đang lưu các điều chỉnh mà chúng tôi đã thực hiện trong một tệp Excel mới có tên là`ClearAllPageBreaks_out.xls` trong cùng thư mục mà chúng tôi đã chỉ định trước đó. Đây là chiến thắng cho công việc bạn đã hoàn thành tốt!
 
 ## Phần kết luận
 

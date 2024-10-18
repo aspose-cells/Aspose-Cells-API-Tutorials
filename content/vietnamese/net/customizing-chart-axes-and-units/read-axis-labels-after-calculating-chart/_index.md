@@ -15,8 +15,8 @@ Khi làm việc với các tệp Excel trong .NET, một trong những thư vi�
 
 Trước khi đi sâu vào chi tiết của mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1. Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
-2.  Thư viện Aspose.Cells: Hướng dẫn này giả định rằng bạn có thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống từ[Trang phát hành của Aspose](https://releases.aspose.com/cells/net/) . Nếu bạn không chắc chắn nên bắt đầu từ đâu,[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) có thể là bạn tốt nhất của bạn!
+1.  Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
+2.  Thư viện Aspose.Cells: Hướng dẫn này giả định rằng bạn có thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống từ[Trang phát hành của Aspose](https://releases.aspose.com/cells/net/) Nếu bạn không chắc chắn nên bắt đầu từ đâu,[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) có thể là bạn tốt nhất của bạn!
 3. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn hiểu các ví dụ và dễ dàng thực hiện.
 4.  Tệp Excel: Đảm bảo bạn có tệp Excel chứa biểu đồ cho hướng dẫn này. Bạn có thể tạo tệp Excel mẫu có tên`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` với mục đích thử nghiệm.
 5. Môi trường .NET: Kiểm tra xem môi trường .NET của bạn đã được thiết lập đúng chưa. Hướng dẫn này nhắm vào .NET framework, vì vậy hãy đảm bảo bạn đã sẵn sàng!
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- Các`Workbook`class là cổng vào tệp Excel của bạn. Bằng cách cung cấp đường dẫn đầy đủ, chúng ta tạo một phiên bản sổ làm việc mới chứa dữ liệu Excel của chúng ta.
+ Các`Workbook` class là cổng vào tệp Excel của bạn. Bằng cách cung cấp đường dẫn đầy đủ, chúng ta tạo một phiên bản sổ làm việc mới chứa dữ liệu Excel của chúng ta.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -98,7 +98,7 @@ Bây giờ, chúng ta hãy đọc nhãn trục từ trục danh mục.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Ở đây, chúng tôi đang kéo các nhãn từ trục danh mục và lưu trữ chúng trong một`ArrayList`. Danh sách này rất quan trọng để lặp lại và hiển thị nhãn của bạn.
+ Ở đây, chúng tôi đang kéo các nhãn từ trục danh mục và lưu trữ chúng trong một`ArrayList`. Danh sách này rất quan trọng để lặp lại và hiển thị nhãn của bạn.
 
 ## Bước 7: In nhãn trục vào bảng điều khiển
 
@@ -108,13 +108,13 @@ Cuối cùng, hãy in những nhãn này ra bảng điều khiển.
 Console.WriteLine("Category Axis Labels: ");
 Console.WriteLine("---------------------");
 
-// Lặp lại các nhãn trục và in chúng từng cái một
+// Lặp lại nhãn trục và in từng cái một
 for (int i = 0; i < lstLabels.Count; i++)
 {
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Đoạn mã này đầu tiên xuất ra một tiêu đề và một dòng phân cách. Sau đó, chúng ta lặp qua từng nhãn trong`lstLabels` ArrayList và in nó ra console. Nếu có mười nhãn, bạn sẽ thấy từng nhãn ngay tại đó!
+Đoạn mã này đầu tiên xuất ra một tiêu đề và một dòng phân cách. Sau đó, chúng ta lặp qua từng nhãn trong`lstLabels` ArrayList và in nó ra console. Nếu có mười nhãn, bạn sẽ thấy từng nhãn ngay tại đó!
 
 ## Bước 8: Tin nhắn cuối cùng
 
@@ -141,7 +141,7 @@ Aspose.Cells là một thư viện mạnh mẽ để thao tác các tệp Excel 
  Bạn có thể mua giấy phép cho Aspose.Cells thông qua[trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể truy cập diễn đàn Aspose để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể ghé thăm diễn đàn Aspose để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể xin giấy phép tạm thời không?
  Có! Aspose cung cấp giấy phép tạm thời mà bạn có thể yêu cầu từ[liên kết này](https://purchase.aspose.com/temporary-license/).

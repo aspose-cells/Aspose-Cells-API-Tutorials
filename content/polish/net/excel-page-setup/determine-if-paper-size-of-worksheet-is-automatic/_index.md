@@ -9,7 +9,7 @@ url: /pl/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
 ## Wstęp
 
-Jeśli zanurzasz się w świecie manipulacji arkuszami kalkulacyjnymi przy użyciu Aspose.Cells dla .NET, dokonałeś fantastycznego wyboru. Możliwość programowego dostosowywania i zarządzania plikami Excel może uprościć wiele zadań, czyniąc Twoją pracę bardziej wydajną. W tym przewodniku skupimy się na konkretnym zadaniu: określeniu, czy ustawienia rozmiaru papieru arkusza kalkulacyjnego są automatyczne. Więc chwyć swój kapelusz kodera i zaczynajmy!
+Jeśli zanurzasz się w świecie manipulacji arkuszami kalkulacyjnymi przy użyciu Aspose.Cells dla .NET, dokonałeś fantastycznego wyboru. Możliwość dostosowywania i zarządzania plikami Excel programowo może uprościć wiele zadań, czyniąc Twoją pracę bardziej wydajną. W tym przewodniku skupimy się na konkretnym zadaniu: określeniu, czy ustawienia rozmiaru papieru arkusza kalkulacyjnego są automatyczne. Więc chwyć swój kapelusz kodera i zaczynajmy!
 
 ## Wymagania wstępne
 
@@ -37,7 +37,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Informuje to kompilator, że chcesz użyć biblioteki Aspose.Cells i przestrzeni nazw System w celu uzyskania podstawowej funkcjonalności.
+Informuje kompilator, że chcesz użyć biblioteki Aspose.Cells i przestrzeni nazw System w celu uzyskania podstawowej funkcjonalności.
 
 Podzielmy to na przejrzysty samouczek krok po kroku, abyś mógł łatwo śledzić. Gotowy do drogi? Zaczynamy!
 
@@ -61,7 +61,7 @@ Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-Fal
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
 ```
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po załadowaniu skoroszytów nadszedł czas na dostęp do pierwszego arkusza z każdego skoroszytu. Piękno Aspose.Cells polega na tym, że jest to śmiesznie proste:
 
@@ -85,7 +85,7 @@ Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " 
 
 ## Krok 5: Podsumowanie
 
-Na koniec, dobrym nawykiem jest zapewnienie informacji zwrotnej, że Twój kod został wykonany pomyślnie. Dodaj prostą wiadomość na końcu swojej metody main:
+Na koniec, dobrym nawykiem jest dostarczenie informacji zwrotnej, że Twój kod został wykonany pomyślnie. Dodaj prostą wiadomość na końcu swojej metody main:
 
 ```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");

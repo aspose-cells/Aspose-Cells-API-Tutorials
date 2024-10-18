@@ -27,7 +27,7 @@ url: /ar/java/spreadsheet-automation/data-integration-in-excel/
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// قم بتحميل بياناتك في ورقة العمل
+// قم بتحميل بياناتك إلى ورقة العمل
 // ...
 ```
 

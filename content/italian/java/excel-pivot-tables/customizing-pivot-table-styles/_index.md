@@ -8,7 +8,7 @@ weight: 18
 url: /it/java/excel-pivot-tables/customizing-pivot-table-styles/
 ---
 
-Le tabelle pivot sono potenti strumenti per riassumere e analizzare i dati in un foglio di calcolo. Con Aspose.Cells for Java API, puoi non solo creare tabelle pivot, ma anche personalizzarne gli stili per rendere la presentazione dei dati visivamente accattivante. In questa guida passo passo, ti mostreremo come ottenere questo risultato con esempi di codice sorgente.
+Le tabelle pivot sono potenti strumenti per riassumere e analizzare i dati in un foglio di calcolo. Con Aspose.Cells for Java API, puoi non solo creare tabelle pivot, ma anche personalizzarne gli stili per rendere la presentazione dei tuoi dati visivamente accattivante. In questa guida passo passo, ti mostreremo come ottenere questo risultato con esempi di codice sorgente.
 
 ## Iniziare
 

@@ -9,7 +9,7 @@ url: /fr/net/excel-copy-worksheet/excel-copy-worksheet/
 ---
 ## Introduction
 
-Dans le monde de la gestion des données, les feuilles de calcul sont omniprésentes, de la gestion des chiffres de vente à l'organisation des données de projet. Mais comment gérer ces fichiers lorsque l'automatisation devient nécessaire ? Si vous travaillez dans .NET, Aspose.Cells est un excellent outil pour manipuler des fichiers Excel par programmation. Dans cet article, nous vous guiderons dans la copie d'une feuille de calcul dans un fichier Excel à l'aide d'Aspose.Cells pour .NET. Il s'agit d'une tâche courante lorsque vous devez dupliquer des données dans de nouvelles feuilles sans repartir de zéro.
+Dans le monde de la gestion des données, les feuilles de calcul sont omniprésentes, de la gestion des chiffres de vente à l'organisation des données de projet. Mais comment gérer ces fichiers lorsque l'automatisation devient nécessaire ? Eh bien, si vous travaillez dans .NET, Aspose.Cells est un excellent outil pour manipuler des fichiers Excel par programmation. Dans cet article, nous vous guiderons dans la copie d'une feuille de calcul dans un fichier Excel à l'aide d'Aspose.Cells pour .NET. Il s'agit d'une tâche courante lorsque vous devez dupliquer des données dans de nouvelles feuilles sans repartir de zéro.
 
 Alors, attachez vos ceintures ! Nous allons nous plonger dans ce processus, mais d'une manière simple, conversationnelle et claire.
 
@@ -83,7 +83,7 @@ Chaque classeur contient plusieurs feuilles de calcul (considérez-les comme des
 WorksheetCollection sheets = wb.Worksheets;
 ```
 
-- `WorksheetCollection` est essentiellement une liste de toutes les feuilles de calcul du classeur. C'est avec cela que nous allons travailler pour copier notre feuille.
+- `WorksheetCollection` Il s'agit essentiellement d'une liste de toutes les feuilles de calcul du classeur. C'est avec cela que nous allons travailler pour copier notre feuille.
 
 ## Étape 4 : Copier une feuille de calcul existante
 Passons maintenant à la partie intéressante : dupliquer la feuille de calcul ! Ici, nous allons copier le contenu de « Feuille1 » dans une nouvelle feuille.

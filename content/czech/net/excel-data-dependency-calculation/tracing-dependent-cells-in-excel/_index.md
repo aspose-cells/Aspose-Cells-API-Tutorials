@@ -44,7 +44,7 @@ Otevřete Visual Studio a vytvořte nový projekt C#. Můžete si vybrat, zda vy
 
 ### Importovat jmenné prostory
 
-horní části souboru kódu C# musíte importovat následující jmenné prostory:
+V horní části souboru kódu C# musíte importovat následující jmenné prostory:
 
 ```csharp
 using System.IO;
@@ -84,7 +84,7 @@ Nyní, když máme sešit otevřený, je čas dostat do rukou jednotlivé buňky
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Vysvětlení: Výše uvedený kód se zaměřuje na první list (index 0) v našem sešitu a načítá soubor`Cells` sbírku, se kterou budeme pracovat při sledování závislých osob.
+Vysvětlení: Výše uvedený kód se zaměřuje na první list (index 0) v našem sešitu a načítá soubor`Cells` sbírku, se kterou budeme pracovat při sledování závislých osob.
 
 ## Krok 4: Vyberte buňku
 
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Vysvětlení: Tato smyčka prochází každou závislou buňku v našem poli a vytiskne její název – docela přímočaré! The`Console.ReadKey()` zajišťuje, že okno konzoly zůstane otevřené, dokud nestisknete klávesu, což vám poskytne čas na přečtení výstupu.
+Vysvětlení: Tato smyčka prochází každou závislou buňku v našem poli a vytiskne její název – docela přímočaré! The`Console.ReadKey()` zajišťuje, že okno konzoly zůstane otevřené, dokud nestisknete klávesu, což vám poskytne čas na přečtení výstupu.
 
 ## Závěr
 
@@ -133,7 +133,7 @@ Aspose.Cells je výkonná knihovna pro zpracování souborů aplikace Excel v ap
  Ano! Aspose nabízí a[zkušební verze zdarma](https://releases.aspose.com/) jejich softwaru, což vám umožní prozkoumat jeho funkce před zakoupením.
 
 ### Jak získám podporu pro Aspose.Cells?
-Podporu můžete hledat prostřednictvím[Aspose fórum](https://forum.aspose.com/c/cells/9), kde vám může pomoci komunita uživatelů a odborníků. 
+ Podporu můžete hledat prostřednictvím[Aspose fórum](https://forum.aspose.com/c/cells/9), kde vám může pomoci komunita uživatelů a odborníků. 
 
 ### Je Aspose.Cells vhodný pro velké soubory Excel?
 Absolutně! Aspose.Cells je navržen tak, aby efektivně pracoval s velkými soubory aplikace Excel a poskytoval robustní manipulaci a výkon.

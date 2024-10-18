@@ -9,7 +9,7 @@ url: /id/net/excel-worksheet-csharp-tutorials/get-excel-worksheet-by-name-csharp
 ---
 ## Perkenalan
 
-Bekerja dengan file Excel secara terprogram dapat menghemat banyak waktu dan tenaga, terutama saat menangani kumpulan data besar atau memerlukan otomatisasi. Dalam tutorial ini, kita akan membahas cara mendapatkan lembar kerja Excel berdasarkan namanya menggunakan Aspose.Cells for .NET. Jika Anda baru dalam hal ini atau hanya ingin mengasah keterampilan, Anda berada di tempat yang tepat. Mari kita mulai!
+Bekerja dengan file Excel secara terprogram dapat menghemat banyak waktu dan tenaga, terutama saat menangani kumpulan data besar atau memerlukan otomatisasi. Dalam tutorial ini, kita akan membahas cara mendapatkan lembar kerja Excel berdasarkan namanya menggunakan Aspose.Cells for .NET. Jika Anda baru dalam hal ini atau hanya ingin mengasah keterampilan Anda, Anda berada di tempat yang tepat. Mari kita mulai!
 
 ## Prasyarat
 
@@ -18,7 +18,7 @@ Sebelum kita masuk ke hal yang lebih penting, mari kita pastikan Anda siap untuk
 1. Lingkungan Pengembangan .NET: Pastikan Anda memiliki lingkungan pengembangan .NET yang siap digunakan. Anda dapat menggunakan Visual Studio atau IDE lain pilihan Anda.
 2.  Pustaka Aspose.Cells: Anda juga harus menginstal pustaka Aspose.Cells. Jika Anda belum melakukannya, jangan khawatir! Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
 3. Pemahaman Dasar C#: Mengetahui dasar-dasar pemrograman C# akan membantu Anda mengikutinya dengan lancar.
-4.  File Excel: Siapkan file Excel yang ingin Anda gunakan. Untuk contoh kita, kita akan menggunakan file sederhana bernama`book1.xlsx` dengan setidaknya satu lembar kerja bernama "Sheet1".
+4. File Excel: Siapkan file Excel yang ingin Anda gunakan. Untuk contoh kita, kita akan menggunakan file sederhana bernama`book1.xlsx` dengan setidaknya satu lembar kerja bernama "Sheet1".
 
 Sekarang Anda sudah siap, mari kita mulai!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Tentukan direktori dokumen Anda
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Gabungkan untuk membentuk jalur penuh
 ```
 
- Di sini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di sistem Anda di mana`book1.xlsx` disimpan. Memanfaatkan`Path.Combine` rapi karena memastikan jalur dibangun dengan benar di seluruh sistem operasi yang berbeda.
+ Di sini, ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya di sistem Anda di mana`book1.xlsx` disimpan. Memanfaatkan`Path.Combine` rapi karena memastikan jalur dibangun dengan benar di seluruh sistem operasi yang berbeda.
 
 ## Langkah 2: Buat Aliran File
 
@@ -115,7 +115,7 @@ Aspose.Cells adalah pustaka .NET canggih yang memungkinkan pengembang untuk memb
 Aspose.Cells mendukung berbagai format, termasuk XLS, XLSX, CSV, dan lainnya.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
- Meskipun ada[uji coba gratis](https://releases.aspose.com/)tersedia, Anda akhirnya perlu membeli lisensi untuk menggunakannya tanpa batasan.
+ Meskipun ada[uji coba gratis](https://releases.aspose.com/) tersedia, Anda akhirnya perlu membeli lisensi untuk menggunakannya tanpa batasan.
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan melalui mereka[forum dukungan](https://forum.aspose.com/c/cells/9).
+Anda bisa mendapatkan dukungan melalui mereka[forum dukungan](https://forum.aspose.com/c/cells/9).

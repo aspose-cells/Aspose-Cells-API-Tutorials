@@ -98,7 +98,7 @@ Funkce MIN v Excelu je šikovný nástroj pro nalezení nejmenší hodnoty v roz
 
 ### Jak mohu použít funkci MIN na dynamický rozsah buněk?
 
-Chcete-li použít funkci MIN na dynamický rozsah buněk, můžete použít vestavěné funkce Excelu, jako jsou pojmenované rozsahy, nebo použít Aspose.Cells pro Java k dynamickému definování rozsahu na základě vašich kritérií. Ujistěte se, že je rozsah ve vzorci správně specifikován a funkce MIN se odpovídajícím způsobem přizpůsobí.
+Chcete-li použít funkci MIN na dynamický rozsah buněk, můžete použít vestavěné funkce Excelu, jako jsou pojmenované rozsahy, nebo použít Aspose.Cells pro Java k dynamickému definování rozsahu na základě vašich kritérií. Ujistěte se, že rozsah je ve vzorci správně specifikován a funkce MIN se odpovídajícím způsobem přizpůsobí.
 
 ### Mohu použít funkci MIN s nečíselnými údaji?
 

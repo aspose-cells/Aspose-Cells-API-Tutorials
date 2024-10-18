@@ -76,4 +76,4 @@ Gratulacje! Nauczyłeś się, jak tworzyć pola obliczeniowe w tabelach przestaw
    Pola obliczeniowe mają pewne ograniczenia, takie jak brak obsługi niektórych typów obliczeń. Upewnij się, że sprawdziłeś dokumentację, aby uzyskać szczegółowe informacje.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Cells dla Java?
-    Dokumentację API można przejrzeć pod adresem[Dokumentacja Aspose.Cells dla Java](https://reference.aspose.com/cells/java/).
+    Dokumentację API można przejrzeć pod adresem[Dokumentacja Aspose.Cells dla języka Java](https://reference.aspose.com/cells/java/).

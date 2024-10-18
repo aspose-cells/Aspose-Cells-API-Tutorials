@@ -15,16 +15,16 @@ Wanneer u zich verdiept in geavanceerde Excel-functionaliteiten, vallen benoemde
 
 Laten we beginnen met hoe je moeiteloos cellen binnen een benoemd bereik kunt identificeren met Aspose.Cells voor .NET. Het proces verloopt naadloos! Eerst definieer je een benoemd bereik in je Excel-bestand. Aspose maakt dit ongelooflijk gebruiksvriendelijk. Je hebt alleen een paar regels code nodig om toegang te krijgen tot je gegevens en deze te bewerken. Door specifieke cellen in een benoemd bereik te kunnen identificeren, kun je je workflow aanzienlijk stroomlijnen. 
 
-Denk hier eens over na: u hebt een verkooprapport met verschillende regio's gemarkeerd met benoemde bereiken. In plaats van elke keer te filteren wanneer u informatie wilt extraheren, kunt u er rechtstreeks toegang toe krijgen via de naam. Dit bespaart niet alleen tijd, maar minimaliseert ook fouten. Als u dit in detail wilt verkennen, bekijk dan onze tutorial over[Cellen in een benoemd bereik identificeren](./identify-cells-in-named-range/). 
+ Denk hier eens over na: u hebt een verkooprapport met verschillende regio's gemarkeerd met benoemde bereiken. In plaats van elke keer te filteren wanneer u informatie wilt extraheren, kunt u er rechtstreeks toegang toe krijgen via de naam. Dit bespaart niet alleen tijd, maar minimaliseert ook fouten. Als u dit in detail wilt verkennen, bekijk dan onze tutorial over[Cellen in een benoemd bereik identificeren](./identify-cells-in-named-range/). 
 
-## Cellen in een benoemd bereik samenvoegen in Excel
+## Cellen in benoemd bereik samenvoegen in Excel
 
 Hierna volgt een van de meest visueel aantrekkelijke maar praktische handelingen: cellen samenvoegen in een benoemd bereik. Wilt u uw spreadsheets beter organiseren? Door cellen samen te voegen kunt u headers maken die meerdere kolommen of rijen beslaan, waardoor uw rapport er schoon en professioneel uitziet. Met Aspose.Cells voor .NET is het samenvoegen van cellen heel eenvoudig. 
 
-Het mooie van deze functionaliteit is het gebruiksgemak. U kunt cellen programmatisch samenvoegen, wat betekent dat uw opmaak geautomatiseerd kan worden. Stel u voor dat u wekelijkse rapporten maakt waarbij de header elke keer automatisch wordt samengevoegd. Met Aspose kost deze taak slechts een paar klikken en regels code. Benieuwd hoe u dit doet? Ga naar onze gids op[Cellen samenvoegen in een benoemd bereik](./merge-cells-in-named-range/).
+ Het mooie van deze functionaliteit is het gebruiksgemak. U kunt cellen programmatisch samenvoegen, wat betekent dat uw opmaak geautomatiseerd kan worden. Stel u voor dat u wekelijkse rapporten maakt waarbij de header elke keer automatisch wordt samengevoegd. Met Aspose kost deze taak slechts een paar klikken en regels code. Benieuwd hoe u dit doet? Ga naar onze gids op[Cellen samenvoegen in een benoemd bereik](./merge-cells-in-named-range/).
 
 ## Geavanceerde bewerkingen met benoemde bereiken in Excel-zelfstudies
 ### [Cellen in een benoemd bereik in Excel identificeren](./identify-cells-in-named-range/)
 Identificeer moeiteloos cellen in een benoemd bereik in Excel met Aspose.Cells voor .NET met deze uitgebreide stapsgewijze zelfstudie.
-### [Cellen in een benoemd bereik samenvoegen in Excel](./merge-cells-in-named-range/)
+### [Cellen in benoemd bereik samenvoegen in Excel](./merge-cells-in-named-range/)
 Leer hoe u cellen in een benoemd bereik samenvoegt met Aspose.Cells voor .NET in deze stapsgewijze tutorial. Ontdek hoe u Excel-rapporten opmaakt, stileert en automatiseert.

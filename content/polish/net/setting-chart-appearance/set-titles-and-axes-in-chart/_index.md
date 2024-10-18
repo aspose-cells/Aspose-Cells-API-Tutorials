@@ -47,11 +47,11 @@ W tym kroku utworzymy nowy skoroszyt.
 ```csharp
 //Katalog wyjściowy
 static string outputDir = "Your Document Directory";
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
-Ta linia kodu tworzy nową instancję skoroszytu, której będziemy używać do naszych operacji. Wyobraź sobie, że otwierasz puste płótno, na którym możemy dodawać nasze dane i wykresy.
+Ta linia kodu tworzy nową instancję skoroszytu, której będziemy używać do naszych operacji. Wyobraź sobie, że otwierasz puste płótno, do którego możemy dodawać nasze dane i wykresy.
 
 ## Krok 2: Uzyskaj dostęp do arkusza kalkulacyjnego
 

@@ -8,7 +8,7 @@ weight: 10
 url: /ja/net/excel-managing-named-ranges/copy-named-ranges/
 ---
 ## 導入
-Excel は、世界中で何百万人ものユーザーがデータの整理と分析に使用している強力なツールです。しかし、Excel ファイルをプログラムで操作する場合 (名前付き範囲のコピーなど) は、少し複雑になることがあります。ありがたいことに、Aspose.Cells for .NET を使用すると、このタスクが簡単かつ効率的になります。この記事では、Aspose.Cells for .NET を使用して Excel で名前付き範囲をコピーするプロセスを、ステップごとに説明するので、簡単に理解できます。
+Excel は、世界中で何百万ものユーザーがデータの整理と分析に使用している強力なツールです。しかし、Excel ファイルをプログラムで操作する場合 (名前付き範囲のコピーなど) は、少し複雑になることがあります。ありがたいことに、Aspose.Cells for .NET を使用すると、このタスクが簡単かつ効率的になります。この記事では、Aspose.Cells for .NET を使用して Excel で名前付き範囲をコピーするプロセスを、ステップごとに説明しているので、簡単に理解できます。
 ## 前提条件
 名前付き範囲のコピーの細部に入る前に、いくつかの準備が整っていることを確認する必要があります。必要なものは次のとおりです。
 1. .NET 環境: .NET 開発環境が設定されていることを確認してください。Visual Studio または任意の他の IDE を使用できます。
@@ -27,11 +27,11 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-このコードにより、次のような重要なクラスにアクセスできるようになります。`Workbook`, `Worksheet` 、 そして`Range`Excel ファイルを操作するのに必要になります。
+このコードにより、次のような重要なクラスにアクセスできるようになります。`Workbook`, `Worksheet`、 そして`Range`Excel ファイルを操作するのに必要になります。
 
 前提条件が整理されたので、プロセスをわかりやすい手順に分解してみましょう。
 ## ステップ1: 出力ディレクトリを設定する
-まず、結果の Excel ファイルを保存する場所を定義します。これは、手紙を受け取る前にメールボックスを設定するようなものです。
+まず、結果の Excel ファイルを保存する場所を定義します。手紙を受け取る前にメールボックスを設定するようなものです。
 ```csharp
 string outputDir = "Your Document Directory\\"; //ディレクトリパスには必ず二重のバックスラッシュを使用してください
 ```
@@ -94,7 +94,7 @@ range2.Copy(range1);
 workbook.Save(outputDir + "outputCopyNamedRanges.xlsx");
 ```
 この行は、すべての変更を埋め込んだワークブックを「outputCopyNamedRanges.xlsx」という名前のファイルに保存します。これはコーディング作業のグランドフィナーレです。
-## ステップ11: 実行の確認
+## ステップ11: 実行を確認する
 すべてがスムーズに進んだかどうかを確認するために、コンソールにフィードバックを提供できます。
 ```csharp
 Console.WriteLine("CopyNamedRanges executed successfully.");

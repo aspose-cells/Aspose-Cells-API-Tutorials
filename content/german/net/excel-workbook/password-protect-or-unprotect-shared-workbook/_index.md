@@ -31,7 +31,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Mit dem richtigen Paket können wir problemlos durch die Erstellung, den Schutz und die Aufhebung des Schutzes unserer freigegebenen Arbeitsmappe navigieren. 
+Mit dem richtigen Paket können wir unser freigegebenes Arbeitsbuch problemlos erstellen, schützen und den Schutz aufheben. 
 
 ## Schritt 1: Einrichten des Ausgabeverzeichnisses
 

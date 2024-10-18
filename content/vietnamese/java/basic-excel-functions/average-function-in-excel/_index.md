@@ -107,7 +107,7 @@ Aspose.Cells for Java cung cấp nhiều tính năng vượt xa những gì chú
 
 ## Phần kết luận
 
-Trong bài viết này, chúng tôi đã khám phá cách sử dụng hàm AVERAGE trong Excel bằng Aspose.Cells for Java. Chúng tôi bắt đầu bằng cách thiết lập môi trường phát triển, tạo sổ làm việc Excel mới, thêm dữ liệu, sử dụng hàm AVERAGE, định dạng trang tính và xử lý lỗi. Aspose.Cells for Java cung cấp giải pháp mạnh mẽ để tự động hóa các tác vụ Excel theo chương trình, biến nó thành công cụ có giá trị để thao tác và phân tích dữ liệu.
+Trong bài viết này, chúng tôi đã khám phá cách sử dụng hàm AVERAGE trong Excel bằng Aspose.Cells for Java. Chúng tôi bắt đầu bằng cách thiết lập môi trường phát triển, tạo sổ làm việc Excel mới, thêm dữ liệu, sử dụng hàm AVERAGE, định dạng trang tính và xử lý lỗi. Aspose.Cells for Java cung cấp giải pháp mạnh mẽ để tự động hóa các tác vụ Excel theo chương trình, biến nó thành công cụ có giá trị để xử lý và phân tích dữ liệu.
 
 ## Câu hỏi thường gặp
 

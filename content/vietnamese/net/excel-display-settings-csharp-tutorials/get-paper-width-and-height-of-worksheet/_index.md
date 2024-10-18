@@ -2,7 +2,7 @@
 title: Lấy Chiều Rộng Và Chiều Cao Của Trang Tính
 linktitle: Lấy Chiều Rộng Và Chiều Cao Của Trang Tính
 second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách lấy chiều rộng và chiều cao trang của bảng tính trong Aspose.Cells cho .NET bằng hướng dẫn từng bước đơn giản.
+description: Tìm hiểu cách lấy chiều rộng và chiều cao trang của trang tính trong Aspose.Cells cho .NET bằng hướng dẫn từng bước đơn giản.
 type: docs
 weight: 80
 url: /vi/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
@@ -25,7 +25,7 @@ Tuyệt! Bây giờ chúng ta đã kiểm tra xong những điều cần thiết
 
 ## Nhập gói
 
- Để làm cho cuộc sống của chúng ta dễ dàng hơn và tận dụng toàn bộ sức mạnh của Aspose.Cells, chúng ta cần nhập một vài gói. Đơn giản như việc thêm một`using` câu lệnh ở đầu tệp mã của bạn. Sau đây là những gì bạn cần nhập:
+ Để cuộc sống của chúng ta dễ dàng hơn và tận dụng toàn bộ sức mạnh của Aspose.Cells, chúng ta cần nhập một vài gói. Đơn giản như việc thêm một`using` câu lệnh ở đầu tệp mã của bạn. Sau đây là những gì bạn cần nhập:
 
 ```csharp
 using System;
@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Mỗi khối này mô phỏng bước trước đó nhưng điều chỉnh`PaperSize`tài sản theo đó. Chỉ cần thay đổi chỉ báo kích thước, bạn có thể dễ dàng có được các kích thước giấy khác nhau. Giống như thay đổi kích thước của một hộp dựa trên những gì bạn cần lưu trữ!
+ Mỗi khối này mô phỏng bước trước đó nhưng điều chỉnh`PaperSize`tài sản theo đó. Chỉ cần thay đổi chỉ báo kích thước, bạn có thể dễ dàng có được các kích thước giấy khác nhau. Giống như thay đổi kích thước hộp dựa trên những gì bạn cần lưu trữ!
 
 ## Phần kết luận
 

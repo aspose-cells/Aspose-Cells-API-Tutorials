@@ -10,7 +10,7 @@ url: /it/java/excel-data-analysis/data-analysis-excel-charts/
 
 ## Introduzione
 
-Nel mondo dell'analisi dei dati, Excel rimane uno strumento potente. Consente agli utenti di elaborare e visualizzare i dati con facilità. Aspose.Cells per Java, un'API dedicata al lavoro con i file Excel, porta l'analisi dei dati a un livello superiore. In questo articolo, esploreremo come utilizzare Aspose.Cells per Java per eseguire analisi dei dati e creare grafici Excel accattivanti passo dopo passo.
+Nel mondo dell'analisi dei dati, Excel rimane uno strumento potente. Consente agli utenti di elaborare e visualizzare i dati con facilità. Aspose.Cells per Java, un'API dedicata al lavoro con i file Excel, porta l'analisi dei dati a un livello superiore. In questo articolo, esploreremo come utilizzare Aspose.Cells per Java per eseguire analisi dei dati e creare accattivanti grafici Excel passo dopo passo.
 
 ## Prerequisiti
 

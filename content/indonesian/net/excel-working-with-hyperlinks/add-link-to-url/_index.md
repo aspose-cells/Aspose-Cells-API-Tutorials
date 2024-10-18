@@ -8,7 +8,7 @@ weight: 12
 url: /id/net/excel-working-with-hyperlinks/add-link-to-url/
 ---
 ## Perkenalan
-Apakah Anda ingin menyempurnakan lembar kerja Excel Anda dengan menambahkan hyperlink? Mungkin Anda ingin menautkan ke situs web atau dokumen lain – apa pun itu, Anda telah datang ke tempat yang tepat! Dalam panduan ini, kita akan membahas cara menambahkan tautan ke URL dalam file Excel menggunakan Aspose.Cells untuk .NET. Baik Anda seorang profesional berpengalaman atau pemula, saya akan menguraikannya dalam langkah-langkah sederhana dan menarik yang akan membuat Anda membuat lembar kerja seperti seorang ahli. Jadi, ambil minuman favorit Anda, nikmati, dan mari kita mulai!
+Apakah Anda ingin menyempurnakan lembar kerja Excel Anda dengan menambahkan hyperlink? Mungkin Anda ingin menautkan ke situs web atau dokumen lain – apa pun itu, Anda telah datang ke tempat yang tepat! Dalam panduan ini, kita akan membahas cara menambahkan tautan ke URL dalam file Excel menggunakan Aspose.Cells untuk .NET. Baik Anda seorang profesional berpengalaman atau pemula, saya akan menguraikannya dalam langkah-langkah sederhana dan menarik yang akan membuat Anda membuat lembar kerja seperti seorang penyihir. Jadi, ambil minuman favorit Anda, nikmati, dan mari kita mulai!
 ## Prasyarat
 Sebelum kita menyelami seluk-beluk penambahan hyperlink di Excel dengan Aspose.Cells, ada beberapa prasyarat yang perlu Anda penuhi:
 1. .NET Framework: Pastikan Anda telah menyiapkan lingkungan .NET yang diperlukan. Aspose.Cells kompatibel dengan berbagai versi .NET, jadi pilih yang paling sesuai dengan proyek Anda.
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Beralihlah ke jalur Anda
 ## Langkah 2: Buat Objek Buku Kerja
  Di sini, kita akan membuat sebuah instance dari`Workbook` kelas. Anggaplah buku kerja sebagai kanvas kosong untuk lembar kerja Anda.
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 Pada tahap ini, Anda pada dasarnya berkata, "Hai, Aspose, mari buat file Excel baru!"

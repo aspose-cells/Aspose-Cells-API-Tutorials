@@ -38,7 +38,7 @@ provedení operace SVYHLEDAT potřebujeme soubor aplikace Excel, se kterým bude
 Workbook workbook = new Workbook("example.xlsx");
 ```
 
-## Provádění VLOOKUP
+## Provádění funkce VLOOKUP
 
 Nyní provedeme operaci SVYHLEDAT, abychom našli konkrétní data v našem listu Excel.
 

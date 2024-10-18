@@ -1,7 +1,7 @@
 ---
 title: ยกเลิกการป้องกันแผ่นงาน Excel
 linktitle: ยกเลิกการป้องกันแผ่นงาน Excel
-second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
+second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
 description: เรียนรู้วิธีการยกเลิกการป้องกันสเปรดชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET บทช่วยสอนโดยละเอียดสำหรับนักพัฒนาใน C#
 type: docs
 weight: 17

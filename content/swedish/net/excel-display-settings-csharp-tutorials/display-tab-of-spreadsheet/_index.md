@@ -61,7 +61,7 @@ I Excel kan flikarna längst ner (Sheet1, Sheet2, etc.) döljas eller visas. Med
 workbook.Settings.ShowTabs = true;
 ```
 
- Miljö`ShowTabs` till`true`kommer att se till att flikarna är synliga när du öppnar Excel-filen.
+ Miljö`ShowTabs` till`true` kommer att se till att flikarna är synliga när du öppnar Excel-filen.
 
 ## Steg 4: Spara den modifierade Excel-filen
 
@@ -80,7 +80,7 @@ Och där har du det! Du har framgångsrikt visat flikarna i ett Excel-kalkylblad
 ## FAQ's
 
 ### Kan jag dölja flikarna i Excel med Aspose.Cells för .NET?
- Absolut! Enkelt inställt`workbook.Settings.ShowTabs = false;`och spara filen. Detta kommer att dölja flikarna när arbetsboken öppnas.
+ Absolut! Enkelt inställt`workbook.Settings.ShowTabs = false;` och spara filen. Detta kommer att dölja flikarna när arbetsboken öppnas.
 
 ### Stöder Aspose.Cells andra Excel-funktioner som diagram och pivottabeller?
 Ja, Aspose.Cells är ett omfattande bibliotek som stöder nästan alla Excel-funktioner, inklusive diagram, pivottabeller, formler och mer.

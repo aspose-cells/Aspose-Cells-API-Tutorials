@@ -8,7 +8,7 @@ weight: 11
 url: /nl/net/excel-managing-named-ranges/remove-named-range/
 ---
 ## Invoering
-Excel is een hoofdbestanddeel geworden in databeheer en -analyse voor veel individuen en organisaties. Of u nu een doorgewinterde data-analist bent of gewoon iemand die geniet van het organiseren van uw data, Excel onder de knie krijgen is essentieel. Vandaag duiken we in een specifieke maar krachtige functie: benoemde bereiken verwijderen met Aspose.Cells voor .NET. Deze gids leidt u door de stappen om dit effectief te bereiken. Dus, stroop uw mouwen op en laten we beginnen!
+Excel is een hoofdbestanddeel geworden in databeheer en -analyse voor veel individuen en organisaties. Of u nu een ervaren data-analist bent of gewoon iemand die geniet van het organiseren van uw data, Excel onder de knie krijgen is essentieel. Vandaag duiken we in een specifieke maar krachtige functie: benoemde bereiken verwijderen met Aspose.Cells voor .NET. Deze gids leidt u door de stappen om dit effectief te bereiken. Dus, stroop uw mouwen op en laten we beginnen!
 
 ## Vereisten
 
@@ -56,7 +56,7 @@ string outputDir = "Your Document Directory Here\\";
 
 ## Stap 2: Een nieuwe werkmap instantiëren
 
-Hoe begin je met een schone lei? Door een nieuwe werkmap te maken, natuurlijk! Deze werkmap zal dienen als ons blanco canvas.
+Hoe begin je met een schone lei? Door een nieuwe werkmap te maken, natuurlijk! Deze werkmap zal dienen als ons lege canvas.
 
 ```csharp
 // Een nieuwe werkmap maken.
@@ -171,7 +171,7 @@ Een belangrijke laatste stap is het verwijderen van het benoemde bereik uit de n
 worksheets.Names.RemoveAt(0);
 ```
 
-Hiermee wordt het benoemde bereik 'FirstRange' effectief uit de werkmap verwijderd.
+Hiermee wordt het benoemde bereik “FirstRange” effectief uit de werkmap verwijderd.
 
 ## Stap 12: De werkmap opslaan
 

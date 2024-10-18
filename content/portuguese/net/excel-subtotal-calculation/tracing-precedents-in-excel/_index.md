@@ -1,7 +1,7 @@
 ---
 title: Rastreando precedentes no Excel
 linktitle: Rastreando precedentes no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como rastrear precedentes no Excel com Aspose.Cells para .NET! Descubra tutoriais de código passo a passo aprimorando suas habilidades com planilhas.
 type: docs
 weight: 11
@@ -61,7 +61,7 @@ Vamos buscar os precedentes para nossa célula selecionada. Este passo é onde a
 ReferredAreaCollection ret = cell.GetPrecedents();
 ```
  Aqui,`GetPrecedents()` O método faz o trabalho pesado, reunindo todas as células que fornecem entrada para a célula B4. 
-## Etapa 5: Percorrer os precedentes
+## Etapa 5: Loop pelos precedentes
 Agora, vamos percorrer a coleção de precedentes para buscar algumas informações úteis.
 ```csharp
 foreach (ReferredArea area in ret)

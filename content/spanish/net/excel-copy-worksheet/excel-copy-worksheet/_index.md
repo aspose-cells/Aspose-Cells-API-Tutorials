@@ -77,7 +77,7 @@ Workbook wb = new Workbook(InputPath);
 -  El`Workbook` El objeto carga el archivo Excel ubicado en`InputPath`Aspose.Cells se encarga de analizar el archivo, por lo que no tendrá que preocuparse por la complejidad del formato de Excel.
 
 ## Paso 3: Acceda a la colección de hojas de trabajo
-Cada libro de trabajo tiene varias hojas de cálculo (piense en ellas como pestañas en su archivo de Excel). Para copiar una hoja de cálculo, primero debe acceder a estas hojas.
+Cada libro de trabajo tiene varias hojas de cálculo (piense en ellas como pestañas en su archivo de Excel). Para copiar una hoja de cálculo, primero debe tener acceso a estas hojas.
 
 ```csharp
 WorksheetCollection sheets = wb.Worksheets;
@@ -96,7 +96,7 @@ sheets.AddCopy("Sheet1");
 -  Puedes reemplazar`"Sheet1"` con cualquier nombre de hoja que quieras copiar.
 
 ## Paso 5: Guardar el libro de trabajo
-Por último, después de copiar la hoja de cálculo, es momento de guardar el archivo de Excel actualizado. Usaremos el método Guardar para guardar los cambios en un nuevo archivo.
+Finalmente, después de copiar la hoja de cálculo, es momento de guardar el archivo de Excel actualizado. Usaremos el método Guardar para guardar los cambios en un nuevo archivo.
 
 ```csharp
 wb.Save(dataDir + "CopyWithinWorkbook_out.xls");

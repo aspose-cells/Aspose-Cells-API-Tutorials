@@ -19,7 +19,7 @@ Excel maceralarımıza dalmadan önce, her şeyin yolunda olduğundan emin olal�
 2. Visual Studio: Kodlarımızla oynayabileceğimiz dost canlısı bir ortama ihtiyacımız var. Visual Studio'nuzu hazır bulundurun.
 3. Temel C# Bilgisi: Programlama konusunda uzman olmanıza gerek yok, ancak C# konusunda rahat bir anlayışa sahip olmak işleri kolaylaştıracaktır.
 4. Çalışan bir .NET Projesi: İşlevselliğimizi entegre etmek için mevcut bir projeyi oluşturmanın veya seçmenin zamanı geldi.
-5.  Bir Excel Dosyası: Eğitimimizde, Excel adlı bir dosyayla çalışacağız.`ValidationsSample.xlsx`Projenizin dizininde mevcut olduğundan emin olun.
+5.  Bir Excel Dosyası: Eğitimimizde, Excel adlı bir dosyayla çalışacağız.`ValidationsSample.xlsx`. Projenizin dizininde mevcut olduğundan emin olun.
 
 ## Paketleri İçe Aktar
 
@@ -94,7 +94,7 @@ Tüm bu sıkı çalışmadan sonra, değişikliklerimizin kaydedildiğinden emin
 workbook.Save(outputDir + "ValidationsSample_out.xlsx");
 ```
 
-Bu noktada, değiştirilen çalışma kitabını yeni bir dosyaya kaydediyoruz. Orijinal verileri kaybetmemek için ayrı bir çıktı dosyası oluşturmak her zaman iyi bir fikirdir.
+Bu noktada, değiştirilmiş çalışma kitabını yeni bir dosyaya kaydediyoruz. Orijinal verileri kaybetmemek için ayrı bir çıktı dosyası oluşturmak her zaman iyi bir fikirdir.
 
 ## Adım 7: Onay Mesajı
 

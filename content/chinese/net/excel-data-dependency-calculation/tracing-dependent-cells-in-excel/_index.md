@@ -9,7 +9,7 @@ url: /zh/net/excel-data-dependency-calculation/tracing-dependent-cells-in-excel/
 ---
 ## 介绍
 
-Excel 电子表格就像一个相互链接的数据网络，更改一个单元格可能会对许多其他单元格产生影响。但是，您如何跟踪这些连接？让我们深入了解使用 Aspose.Cells for .NET 在 Excel 中跟踪依赖单元格的世界！在本指南中，我们将探讨如何识别和列出依赖单元格。 
+Excel 电子表格就像一个相互关联的数据网络，更改一个单元格可能会对许多其他单元格产生影响。但是，您如何跟踪这些连接？让我们深入了解使用 Aspose.Cells for .NET 在 Excel 中跟踪依赖单元格的世界！在本指南中，我们将探讨如何识别和列出依赖单元格。 
 
 ## 先决条件
 
@@ -20,11 +20,11 @@ Excel 电子表格就像一个相互链接的数据网络，更改一个单元�
 3. Visual Studio：这是编写和测试 .NET 代码的绝佳环境。请确保已在计算机上正确安装它。 
 4. Excel 文件：您需要一个包含一些公式的 Excel 文件。我们将使用名为`Book1.xlsx`，但请随意使用您自己的！
 
-准备好系好安全带开始追踪这些细胞了吗？让我们开始吧！
+准备好系紧安全带开始追踪这些细胞了吗？让我们开始吧！
 
 ## 导入包
 
-首先！我们需要在 C# 项目中导入必要的包。具体操作如下：
+首先！我们需要在 C# 项目中导入必要的包。操作方法如下：
 
 ### 打开你的项目
 
@@ -78,7 +78,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
 ## 步骤 3：访问单元格
 
-现在我们已经打开了工作簿，是时候开始处理单个单元格了。我们可以通过访问 Worksheets 集合来执行此操作。
+现在我们已经打开了工作簿，是时候开始处理单个单元格了。我们可以通过访问 Worksheets 集合来做到这一点。
 
 ```csharp
 Cells cells = workbook.Worksheets[0].Cells;
@@ -139,4 +139,4 @@ Aspose.Cells 是一个功能强大的库，用于在 .NET 应用程序中处理 
 当然！Aspose.Cells 旨在高效处理大型 Excel 文件，提供强大的处理能力和性能。
 
 ### 我可以购买 Aspose.Cells 吗？
-是的！您可以通过他们的[购买页面](https://purchase.aspose.com/buy)提供灵活的许可选项。
+是的！您可以通过其购买 Aspose.Cells[购买页面](https://purchase.aspose.com/buy)获得灵活的许可选项。

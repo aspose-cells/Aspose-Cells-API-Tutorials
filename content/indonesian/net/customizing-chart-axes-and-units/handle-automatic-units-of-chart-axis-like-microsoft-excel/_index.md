@@ -18,7 +18,7 @@ Sebelum kita masuk ke tutorial, mari pastikan Anda memiliki semua yang diperluka
 1. Visual Studio Terpasang: Anda memerlukan IDE seperti Visual Studio untuk menulis dan mengeksekusi kode .NET Anda.
 2. .NET Framework: Tutorial ini mengasumsikan Anda menggunakan .NET Framework 4.0 atau yang lebih baru. Namun, Aspose.Cells juga kompatibel dengan .NET Core.
 3.  Pustaka Aspose.Cells: Jika Anda belum melakukannya, unduh pustaka dari situs web Aspose[Di Sini](https://releases.aspose.com/cells/net/) Anda juga dapat memulai dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
-4.  Contoh File Excel: Kami akan menggunakan contoh file Excel bernama`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Pastikan Anda telah menyiapkan berkas ini di direktori kerja Anda.
+4. Contoh File Excel: Kami akan menggunakan contoh file Excel bernama`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Pastikan Anda telah menyiapkan berkas ini di direktori kerja Anda.
 
 ## Paket Impor
 
@@ -62,7 +62,7 @@ Sekarang Anda siap untuk mulai memanipulasi berkas Excel kita!
 Sebelum kita memuat berkas Excel, mari kita atur direktori keluaran dan sumber. Ini akan memungkinkan kita menentukan di mana berkas kita disimpan.
 
 ```csharp
-// Direktori keluaran - tempat PDF akan disimpan
+//Direktori keluaran - tempat PDF akan disimpan
 string outputDir = "Your Output Directory"; // tentukan direktori output Anda di sini
 
 // Direktori sumber - tempat file Excel contoh berada
@@ -108,7 +108,7 @@ Di Excel, salah satu fitur utama dalam bagan adalah penanganan unit otomatis unt
 
 ```csharp
 // Tetapkan unit utama untuk sumbu Y
-ch.AxisY.MajorUnit = 10; // Anda dapat mengatur sesuai dengan kebutuhan Anda
+ch.AxisY.MajorUnit = 10; //Anda dapat mengatur sesuai dengan kebutuhan Anda
 ```
 
 Mari perbarui unit otomatis sekarang!
@@ -151,4 +151,4 @@ Cukup pustaka Aspose.Cells dan .NET Framework yang terinstal di komputer Anda.
 Tentu saja! Aspose.Cells mendukung berbagai format seperti XLSX, HTML, dan gambar.
 
 ### Di mana saya dapat menemukan dukungan jika saya mengalami masalah?
-Anda dapat mencari bantuan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+ Anda dapat mencari bantuan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/cells/9).

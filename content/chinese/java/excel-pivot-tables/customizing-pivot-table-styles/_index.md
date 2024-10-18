@@ -12,7 +12,7 @@ url: /zh/java/excel-pivot-tables/customizing-pivot-table-styles/
 
 ## 入门
 
-在自定义数据透视表样式之前，请确保已将 Aspose.Cells for Java 库集成到项目中。您可以从以下网址下载[这里](https://releases.aspose.com/cells/java/).
+在自定义数据透视表样式之前，请确保已将 Aspose.Cells for Java 库集成到项目中。您可以从以下位置下载[这里](https://releases.aspose.com/cells/java/).
 
 ## 步骤 1：创建数据透视表
 

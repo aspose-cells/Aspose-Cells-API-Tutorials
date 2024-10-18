@@ -45,7 +45,7 @@ En primer lugar, debes definir la ubicación en la que se guardará el archivo d
 string dataDir = "Your Document Directory";
 ```
 
- Solo reemplace`"Your Document Directory"` con la ruta real donde desea guardar su archivo de Excel. Podría ser algo como`@"C:\Users\YourName\Documents\"`.
+ Solo reemplázalo`"Your Document Directory"` con la ruta real donde desea guardar su archivo de Excel. Podría ser algo como`@"C:\Users\YourName\Documents\"`.
 
 ## Paso 2: Crear un nuevo libro de trabajo
 
@@ -63,7 +63,7 @@ Esta línea inicializa un nuevo objeto de libro de trabajo que modificaremos.
 Cada libro de trabajo puede tener varias hojas de trabajo y, para nuestro propósito, accederemos a la primera. Piense en ello como si estuviera abriendo una pestaña en un archivo de Excel.
 
 ```csharp
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Ahora tenemos acceso a la primera hoja de trabajo donde crearemos nuestro rango 
 Ahora es el momento de crear el rango con nombre. Un rango con nombre le permite definir un conjunto específico de celdas en su hoja de cálculo.
 
 ```csharp
-//Creando un rango con nombre
+// Creando un rango con nombre
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Después de realizar todos estos cambios, el siguiente paso es guardar el libro 
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Esta línea guarda los cambios en un archivo llamado`outputCreateNamedRangeofCells.xlsx`Asegúrese de que la ruta especificada sea correcta; de lo contrario, el programa generará un error.
+ Esta línea guarda los cambios en un archivo llamado`outputCreateNamedRangeofCells.xlsx`Asegúrese de que la ruta especificada sea correcta; de lo contrario, el programa generará un error.
 
 ## Paso 8: Verificar el éxito de la operación
 
@@ -138,7 +138,7 @@ Un rango con nombre es un nombre descriptivo que se le da a un grupo de celdas, 
 Sí, puede crear tantos rangos con nombre como desee dentro de la misma hoja de cálculo o en todo el libro.
 
 ### ¿Necesito comprar Aspose.Cells para usarlo?
-Aspose.Cells ofrece una prueba gratuita para que explores sus funciones. Sin embargo, para un uso a largo plazo, deberás comprar una licencia.
+Aspose.Cells ofrece una prueba gratuita para que explores sus funciones. Sin embargo, para un uso a largo plazo, necesitarás comprar una licencia.
 
 ### ¿Qué lenguajes de programación admite Aspose.Cells?
 Aspose.Cells admite principalmente lenguajes .NET como C#, VB.NET y más.

@@ -26,7 +26,7 @@ Artık ortamımız hazır olduğuna göre, bazı temel veri analizi tekniklerini
 
 ### TOPLAM Formülü
 
-SUM formülü Excel'de veri analizi için en sık kullanılan işlevlerden biridir. Bir dizi sayıyı hızlı bir şekilde toplamanızı sağlar. İşte Java için Aspose.Cells ile nasıl kullanabileceğiniz:
+SUM formülü Excel'de veri analizi için en sık kullanılan işlevlerden biridir. Bir dizi sayıyı hızlı bir şekilde toplamanıza olanak tanır. İşte Java için Aspose.Cells ile nasıl kullanabileceğiniz:
 
 ```java
 // Bir çalışma kitabı oluşturun
@@ -106,6 +106,6 @@ Java için Aspose.Cells büyük Excel dosyalarını kolaylıkla işleyebilir, bu
 
 Evet, Aspose.Cells Excel formüllerini çeşitli dillerde destekler ve bu da onu uluslararası kullanıcılar için çok yönlü hale getirir.
 
-### Aspose.Cells for Java için daha fazla öğretici ve kaynağı nerede bulabilirim?
+### Java için Aspose.Cells hakkında daha fazla öğretici ve kaynağı nerede bulabilirim?
 
  Java için Aspose.Cells hakkında ek öğreticileri ve belgeleri şu adreste inceleyebilirsiniz:[Aspose.Cells Java API Başvurusu](https://reference.aspose.com/cells/java/).

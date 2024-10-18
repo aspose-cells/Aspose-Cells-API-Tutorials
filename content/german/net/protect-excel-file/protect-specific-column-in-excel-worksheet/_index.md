@@ -31,7 +31,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Diese Bibliothek ist leistungsstark und ermöglicht Ihnen die Durchführung unzähliger Vorgänge, einschließlich des Schutzes Ihrer Daten in Excel-Dateien, was unser heutiges Ziel ist.
+Diese Bibliothek ist leistungsstark und ermöglicht Ihnen die Durchführung einer Vielzahl von Vorgängen, einschließlich des Schutzes Ihrer Daten in Excel-Dateien, was unser heutiges Ziel ist.
 
 Lassen Sie uns dies in mehrere klare und prägnante Schritte unterteilen. Sie schützen bestimmte Spalten, sodass der Rest des Arbeitsblatts weiterhin bearbeitet werden kann.
 

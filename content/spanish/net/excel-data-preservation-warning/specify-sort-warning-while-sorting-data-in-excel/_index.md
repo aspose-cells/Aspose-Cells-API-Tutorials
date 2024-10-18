@@ -20,7 +20,7 @@ Antes de sumergirnos en los detalles de la clasificación de datos, hay algunos 
 3. Conocimientos básicos de C#: Un poco de familiaridad con C# será de gran ayuda. Si ya has incursionado en C#, ¡estás listo para comenzar!
 4.  Archivo de Excel de muestra: puede crear un archivo de Excel de muestra llamado`sampleSortAsNumber.xlsx` con datos en la columna A que desea ordenar.
 
-¡Una vez que hayamos cumplido con estos requisitos previos, podremos pasar directamente al código!
+¡Una vez que hayas cumplido con estos requisitos previos, podemos pasar directamente al código!
 
 ## Importar paquetes
 
@@ -36,7 +36,7 @@ Ahora que tenemos todo en orden, repasemos el proceso de clasificación paso a p
 
 ## Paso 1: Configurar el directorio de documentos
 
- En primer lugar, debe especificar la ruta al directorio de documentos. Aquí es donde se encuentra su`sampleSortAsNumber.xlsx` Se ubicará el archivo. Reemplazar`"Your Document Directory"` con la ruta real donde reside su archivo Excel.
+ En primer lugar, debe especificar la ruta al directorio de documentos. Aquí es donde se encuentra su`sampleSortAsNumber.xlsx` Se ubicará el archivo. Reemplazar`"Your Document Directory"`con la ruta real donde reside su archivo de Excel.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -93,7 +93,7 @@ sorter.AddKey(idx, SortOrder.Ascending);
 
 He aquí un breve resumen de lo que está sucediendo:
 - Convertimos la columna “A” a su índice numérico.
-- Le indicamos al clasificador que agregue una clave para la columna A y especificamos que queremos que la clasificación sea en orden ascendente.
+- Le indicamos al clasificador que agregue una clave para la columna A y especificamos que queremos que la clasificación se realice en orden ascendente.
 
 ## Paso 7: Especifique la clasificación como número
 

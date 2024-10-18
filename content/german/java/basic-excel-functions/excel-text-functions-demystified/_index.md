@@ -18,7 +18,7 @@ In diesem Tutorial tauchen wir mithilfe der Aspose.Cells für Java-API in die We
 
 ## CONCATENATE - Text kombinieren
 
- Der`CONCATENATE`Mit der Funktion können Sie Text aus verschiedenen Zellen zusammenführen. Sehen wir uns an, wie das mit Aspose.Cells für Java geht:
+ Der`CONCATENATE`Mit dieser Funktion können Sie Text aus verschiedenen Zellen zusammenführen. Sehen wir uns an, wie das mit Aspose.Cells für Java geht:
 
 ```java
 // Java-Code zum Verketten von Text mit Aspose.Cells
@@ -153,7 +153,7 @@ Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
 ```
 
-### Ist es möglich, die Groß-/Kleinschreibung von Text zu ändern?
+### Ist es möglich, die Groß-/Kleinschreibung des Textes zu ändern?
 
  Ja, Sie können Text in Groß- oder Kleinbuchstaben umwandeln mit dem`UPPER` Und`LOWER` Funktionen. Zum Beispiel:
 ```java

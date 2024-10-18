@@ -19,7 +19,7 @@ Sebelum kita mulai menghapus pengaturan printer yang mengganggu tersebut, Anda p
 2.  Aspose.Cells untuk .NET: Anda akan memerlukan pustaka ini dalam proyek Anda. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/cells/net/).
 3. Contoh Berkas Excel: Untuk panduan ini, Anda memerlukan contoh berkas Excel yang berisi pengaturan printer. Anda dapat membuatnya sendiri atau menggunakan berkas demo yang disediakan oleh Aspose.
 
-Setelah kita punya semua yang dibutuhkan, mari masuk ke kodenya!
+Setelah kita memiliki semua yang dibutuhkan, mari masuk ke kodenya!
 
 ## Paket Impor
 
@@ -137,7 +137,7 @@ Setelah memproses semua lembar kerja Anda, penting untuk menyimpan buku kerja An
 wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 ```
 
-Dan begitu saja, file baru Anda, bebas dari pengaturan printer lama, disimpan di direktori keluaran yang ditentukan!
+Dan begitu saja, file baru Anda, bebas dari pengaturan printer lama apa pun, disimpan di direktori keluaran yang ditentukan!
 
 ## Kesimpulan
 

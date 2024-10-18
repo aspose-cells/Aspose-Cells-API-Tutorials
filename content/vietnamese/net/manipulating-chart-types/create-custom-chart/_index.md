@@ -15,9 +15,9 @@ Tạo biểu đồ tùy chỉnh trong Excel bằng thư viện Aspose.Cells cho 
 
 Trước khi đi sâu vào chi tiết của việc tạo biểu đồ, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 
-1. Visual Studio hoặc bất kỳ IDE nào tương thích với .NET: Đây sẽ là nơi để bạn viết và thử nghiệm mã của mình.
+1. Visual Studio hoặc bất kỳ IDE nào tương thích với .NET: Đây sẽ là sân chơi để bạn viết và thử nghiệm mã của mình.
 2.  Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện này. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
-3. Hiểu biết cơ bản về C#: Bạn sẽ được hưởng lợi khi nắm được các khái niệm cơ bản về C# vì chúng ta sẽ sử dụng chúng trong các ví dụ mã của mình.
+3. Hiểu biết cơ bản về C#: Bạn sẽ được hưởng lợi nếu nắm được các khái niệm cơ bản về C# vì chúng ta sẽ sử dụng chúng trong các ví dụ mã.
 4. Một tập dữ liệu mẫu: Để tạo biểu đồ, việc có một số dữ liệu là điều cần thiết. Chúng tôi sẽ sử dụng một tập dữ liệu đơn giản trong ví dụ của mình, nhưng bạn có thể điều chỉnh nó theo nhu cầu của mình.
 
 ## Nhập gói
@@ -52,7 +52,7 @@ Thay vì "Your Output Directory", bạn có thể chỉ định đường dẫn 
  Bây giờ, bạn sẽ muốn bắt đầu bằng cách tạo một phiên bản mới của`Workbook` lớp. Đây là khối xây dựng cơ bản cho bất kỳ hoạt động Excel nào sử dụng Aspose.Cells.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 

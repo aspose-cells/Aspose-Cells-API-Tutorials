@@ -137,7 +137,7 @@ chart.NSeries.IsColorVaried = true;
 
 ## Steg 7: Lägg till dataetiketter
 
-Att lägga till etiketter direkt i diagramsegmenten kan göra det lättare att förstå. Låt oss inkludera regionnamnen och försäljningsvärdena i cirkeldiagramsegmenten.
+Att lägga till etiketter direkt i diagramsegmenten kan göra det lättare att förstå. Låt oss inkludera regionnamnen och försäljningsvärdena i cirkeldiagrammet.
 
 ```csharp
 for (int i = 0; i < chart.NSeries.Count; i++)
@@ -149,7 +149,7 @@ for (int i = 0; i < chart.NSeries.Count; i++)
 }
 ```
 
-## Steg 8: Anpassa diagramområde och teckenförklaring
+## Steg 8: Anpassa diagramområde och förklaring
 
 Låt oss slutligen ge diagramområdet och legenden några sista detaljer. Detta förbättrar den övergripande presentationen av diagrammet.
 
@@ -171,7 +171,7 @@ legend.Area.FillFormat.Texture = TextureType.Bouquet;
 
 ## Steg 9: Spara arbetsboken
 
-Slutligen sparar vi arbetsboken till en Excel-fil. Du kan ange utdatakatalogen och filnamnet efter behov.
+Slutligen sparar vi arbetsboken till en Excel-fil. Du kan ange utdatakatalog och filnamn efter behov.
 
 ```csharp
 workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");

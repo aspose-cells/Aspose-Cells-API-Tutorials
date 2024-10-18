@@ -152,7 +152,7 @@ Az Aspose.Cells egy hatékony könyvtár, amely lehetővé teszi a fejlesztők s
 Igen, az Aspose ingyenes próbaverziót kínál, amellyel felfedezheti funkcióit. Nézze meg a[ingyenes próba link](https://releases.aspose.com/).
 
 ### Telepítenem kell a Microsoft Excelt az Aspose.Cells használatához?  
-Nem, az Aspose.Cells a Microsoft Exceltől függetlenül működik. Nem kell Excel telepítve a gépedre.
+Nem, az Aspose.Cells a Microsoft Exceltől függetlenül működik. Nem kell telepítenie az Excelt a gépére.
 
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?  
  Meglátogathatja a[Aspose fórum](https://forum.aspose.com/c/cells/9) közösségi támogatásért és forrásokért.

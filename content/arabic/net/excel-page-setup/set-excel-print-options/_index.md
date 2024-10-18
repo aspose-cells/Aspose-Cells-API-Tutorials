@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  بعد ذلك، سنحتاج إلى إنشاء`Workbook` الكائن. يعمل هذا الكائن كحاوية لبيانات جدول البيانات الخاص بك.
 
 ```csharp
-//إنشاء كائن مصنف
+// إنشاء كائن مصنف
 Workbook workbook = new Workbook();
 ```
 

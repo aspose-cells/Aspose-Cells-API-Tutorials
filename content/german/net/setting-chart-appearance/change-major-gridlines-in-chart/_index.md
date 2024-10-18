@@ -23,7 +23,7 @@ Sobald Sie alles eingerichtet haben, können wir mit dem Schreiben unseres Codes
 
 ## Pakete importieren
 
-Um mit Aspose.Cells zu arbeiten, müssen Sie zunächst die erforderlichen Pakete in Ihr C#-Projekt importieren. Öffnen Sie Ihr Visual Studio-Projekt und fügen Sie oben in Ihrer C#-Datei die folgenden using-Direktiven ein:
+Um mit Aspose.Cells zu arbeiten, müssen Sie zunächst die erforderlichen Pakete in Ihr C#-Projekt importieren. Öffnen Sie Ihr Visual Studio-Projekt und fügen Sie die folgenden using-Direktiven oben in Ihre C#-Datei ein:
 
 ```csharp
 using Aspose.Cells;
@@ -41,7 +41,7 @@ Als Erstes müssen Sie festlegen, wo die Excel-Ausgabedatei gespeichert werden s
 
 ```csharp
 // Ausgabeverzeichnis
-string outputDir = "Your Output Directory"; // Aktualisieren Sie mit Ihrem gewünschten Pfad
+string outputDir = "Your Output Directory"; // Aktualisieren Sie mit dem gewünschten Pfad
 ```
 
  Ersetzen`"Your Output Directory"` durch den tatsächlichen Pfad, in dem Sie Ihre Datei speichern möchten.
@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Aktualisieren Sie mit Ihrem gewü
  Als nächstes müssen Sie eine neue Instanz des`Workbook` Klasse. Dieses Objekt stellt Ihre Excel-Datei dar und ermöglicht Ihnen, deren Inhalt zu bearbeiten.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -62,7 +62,7 @@ Diese Codezeile initialisiert eine neue Arbeitsmappe, die eine leere Leinwand f�
  Nachdem Sie die Arbeitsmappe erstellt haben, können Sie auf das Standardarbeitsblatt zugreifen. Arbeitsblätter in Aspose.Cells sind indiziert. Wenn Sie also das erste Arbeitsblatt möchten, verweisen Sie über den Index darauf.`0`.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -95,7 +95,7 @@ In diesem Code geben wir den Diagrammtyp (in diesem Fall ein Säulendiagramm) un
 
 ## Schritt 6: Zugriff auf die Diagramminstanz
 
- Sobald wir das Diagramm erstellt haben, müssen wir auf seine Instanz zugreifen, um seine Eigenschaften zu ändern. Dies geschieht, indem wir es über den`Charts`Sammlung.
+Sobald wir das Diagramm erstellt haben, müssen wir auf seine Instanz zugreifen, um seine Eigenschaften zu ändern. Dies geschieht, indem wir es über den`Charts`Sammlung.
 
 ```csharp
 // Zugriff auf die Instanz des neu hinzugefügten Diagramms
@@ -150,7 +150,7 @@ chart.ValueAxis.MajorGridLines.Color = Color.Red;
 
 Diese Befehle setzen die Hauptgitternetzlinien für die Kategorie- und Werteachsen auf Silber bzw. Rot. Diese Unterscheidung stellt sicher, dass Ihre Betrachter den Gitternetzlinien im Diagramm problemlos folgen können.
 
-## Schritt 10: Speichern Sie die Arbeitsmappe
+## Schritt 10: Speichern der Arbeitsmappe
 
 Nachdem Sie alle Änderungen vorgenommen haben, ist es an der Zeit, die Arbeitsmappe zu speichern. Dies ist der letzte Schritt, der Ihre Bemühungen zum Erfolg führt.
 

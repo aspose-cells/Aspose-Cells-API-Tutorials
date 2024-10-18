@@ -123,7 +123,7 @@ SparklineGroup group = sheet.SparklineGroupCollection[idx];
 
 ## Adım 7: Sparkline Renklerini Özelleştirin
 
-Varsayılan renklere bağlı kalırken neden biraz gösterişli renkler kullanasınız ki? Kıvılcım renklerini özelleştirelim!
+Varsayılan renklere bağlı kalarak biraz gösteriş yapmaya ne dersiniz? Kıvılcım renklerini özelleştirelim!
 
 ```csharp
 // CellsColor'ı Oluştur
@@ -154,13 +154,13 @@ Ve işte karşınızda—Aspose.Cells for .NET kullanarak Excel çalışma sayfa
 ## SSS
 
 ### Kıvılcım çizgileri nedir?
-Kıvılcım çizgileri, tek bir hücreye sığan minyatür grafiklerdir ve veri eğilimlerinin kompakt ve basit bir şekilde görselleştirilmesini sağlar.
+Kıvılcım grafikleri, tek bir hücreye sığan minyatür grafiklerdir ve veri eğilimlerinin kompakt ve basit bir şekilde görselleştirilmesini sağlar.
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
  Evet, Aspose.Cells'in tüm özelliklerini kullanmak için geçerli bir lisansa ihtiyacınız olacak. Bir lisans alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer yeni başlıyorsanız.
 
-### Farklı türde kıvılcım grafikleri oluşturabilir miyim?
-Kesinlikle! Aspose.Cells, satır, sütun ve kazanç/kayıp kıvılcım grafikleri dahil olmak üzere çeşitli kıvılcım grafiği türlerini destekler.
+### Farklı türde kıvılcım çizgileri oluşturabilir miyim?
+Kesinlikle! Aspose.Cells, satır, sütun ve kazanç/kayıp kıvılcım çizgileri dahil olmak üzere çeşitli kıvılcım çizgisi türlerini destekler.
 
 ### Daha fazla dokümanı nerede bulabilirim?
  Aspose.Cells for .NET için ayrıntılı belgelere ve örneklere erişebilirsiniz[Burada](https://reference.aspose.com/cells/net/).

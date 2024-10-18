@@ -79,7 +79,7 @@ signature.XAdESType = XAdESType.XAdES;
 
  In diesem Snippet lesen wir die PFX-Datei in ein Byte-Array und erstellen ein neues`DigitalSignature` Objekt. Wir setzen auch die`XAdESType` Zu`XAdES`, die für unsere Unterschrift unabdingbar ist.
 
-## Schritt 5: Hinzufügen der Signatur zur Arbeitsmappe
+## Schritt 5: Signatur zur Arbeitsmappe hinzufügen
 
 Nachdem die digitale Signatur erstellt wurde, besteht der nächste Schritt darin, sie der Arbeitsmappe hinzuzufügen.
 

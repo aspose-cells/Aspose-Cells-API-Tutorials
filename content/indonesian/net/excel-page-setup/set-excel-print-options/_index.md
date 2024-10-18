@@ -13,7 +13,7 @@ Apakah Anda lelah menyajikan lembar Excel yang terlihat setengah hati saat dicet
 
 ## Prasyarat
 
-Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang diperlukan untuk melanjutkan dengan lancar:
+Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk melanjutkan dengan lancar:
 
 1. Visual Studio atau IDE .NET apa pun: Anda akan menginginkan lingkungan pengembangan yang andal.
 2. Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka ini; Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
@@ -50,13 +50,13 @@ using Aspose.Cells;
 using System;
 ```
 
-Setelah itu beres, kita siap mengatur pilihan cetak kita!
+Jika itu sudah beres, kita siap untuk mengatur pilihan cetak kita!
 
 Sekarang, mari kita mulai dan menyelami kodenya! Kita akan membahas pengaturan berbagai opsi cetak langkah demi langkah.
 
 ## Langkah 1: Tentukan Direktori Dokumen
 
-Langkah pertama melibatkan penentuan lokasi penyimpanan file Excel Anda. Daripada membuat jalur kode keras di seluruh kode Anda, mari kita buat semuanya tetap rapi.
+Langkah pertama melibatkan penentuan lokasi penyimpanan file Excel Anda. Daripada membuat jalur kode di seluruh kode, mari kita buat kode tersebut tetap rapi.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Selanjutnya, kita perlu membuat`Workbook` objek. Objek ini berfungsi sebagai wadah untuk data spreadsheet Anda.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -134,7 +134,7 @@ Setelah Anda mengatur semuanya sesuai keinginan, tibalah waktunya untuk menyimpa
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
 
-Pada langkah ini, kita menyimpan buku kerja di direktori yang telah ditentukan. Ini seperti menempelkan stiker terakhir pada proyek yang Anda buat dengan indah!
+Pada langkah ini, kita menyimpan buku kerja di direktori yang telah ditentukan. Ini seperti menempelkan stiker terakhir pada proyek Anda yang dibuat dengan indah!
 
 ## Kesimpulan
 
@@ -143,7 +143,7 @@ Selamat! Anda kini telah dibekali dengan keterampilan untuk mengatur opsi cetak 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.Cells?  
-Aspose.Cells adalah pustaka .NET canggih yang memungkinkan manipulasi dan pengelolaan file Excel.
+Aspose.Cells adalah pustaka .NET canggih yang memungkinkan manipulasi dan pengelolaan berkas Excel.
 
 ### Bisakah saya mendapatkan uji coba Aspose.Cells gratis?  
  Ya, Anda dapat mengakses uji coba gratis Aspose.Cells[Di Sini](https://releases.aspose.com/).

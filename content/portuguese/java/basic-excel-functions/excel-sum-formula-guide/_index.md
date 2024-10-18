@@ -127,7 +127,7 @@ Neste guia abrangente, exploramos a fórmula SUM do Excel e como aproveitá-la u
 
 ### Posso usar o Aspose.Cells para Java em projetos comerciais?
 
-Sim, o Aspose.Cells para Java é adequado para projetos comerciais e não comerciais. Ele oferece opções de licenciamento que atendem a vários requisitos, incluindo os de empresas.
+Sim, o Aspose.Cells for Java é adequado para projetos comerciais e não comerciais. Ele oferece opções de licenciamento que atendem a vários requisitos, incluindo os de empresas.
 
 ### Há alguma limitação para a fórmula SUM no Aspose.Cells?
 

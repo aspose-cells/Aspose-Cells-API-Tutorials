@@ -37,7 +37,7 @@ using Aspose.Cells;
 using System;
 ```
 
-该包是 Aspose 库的核心，将允许您访问其所有类和方法。
+该包是 Aspose 库的核心，可让您访问其所有类和方法。
 
 现在我们已经准备好一切，让我们进入激动人心的部分——实际将工作表从一个工作簿复制到另一个工作簿！我们将把它分解为几个明确的步骤。
 
@@ -98,7 +98,7 @@ Worksheet ws1 = excelWorkbook1.Worksheets[0];
 //命名工作表
 ws1.Name = "MySheet";
 ```
-我们创建了一个新的工作簿（`excelWorkbook1`) 并将第一个工作表重命名为“MySheet”。为工作表赋予有意义的名称总是一个好主意，以便以后更轻松地访问。
+我们创建了一个新的工作簿（`excelWorkbook1`) 并将第一个工作表重命名为“MySheet”。为工作表赋予有意义的名称以方便以后访问始终是一个好主意。
 
 ## 步骤 5：复制工作表
 
@@ -123,7 +123,7 @@ excelWorkbook1.Save(dataDir + "CopyWorksheetFromWorkbookToOther_out.xls");
 
 ## 结论
 
-就这样！您已成功学会了如何使用 Aspose.Cells for .NET 将工作表从一个工作簿复制到另一个工作簿。这是一项非常实用的技能，尤其是在处理分布在不同文件中的大量数据时。只需几行代码，您就可以更方便地组织、管理和访问 Excel 数据。
+就这样！您已经成功学会了如何使用 Aspose.Cells for .NET 将工作表从一个工作簿复制到另一个工作簿。这是一项非常实用的技能，尤其是在处理分布在不同文件中的大量数据时。只需几行代码，您就可以更方便地组织、管理和访问您的 Excel 数据。
 
 ## 常见问题解答
 

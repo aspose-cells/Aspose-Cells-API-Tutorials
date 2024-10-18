@@ -33,7 +33,7 @@ Comience abriendo su proyecto existente o cree uno nuevo si está empezando desd
 
 ### Agregar referencia a Aspose.Cells
 
-En el Explorador de soluciones, haga clic con el botón derecho en el proyecto y seleccione Administrar paquetes NuGet. Busque Aspose.Cells e instálelo. Esto es fundamental porque esta biblioteca tiene todas las capacidades mágicas que necesitamos para realizar nuestras vistas previas de impresión.
+En el Explorador de soluciones, haga clic con el botón derecho en su proyecto y seleccione Administrar paquetes NuGet. Busque Aspose.Cells e instálelo. Esto es crucial porque esta biblioteca tiene todas las capacidades mágicas que necesitamos para realizar nuestras vistas previas de impresión.
 
 ### Incluir espacios de nombres necesarios
 
@@ -109,7 +109,7 @@ SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0],
 Console.WriteLine("Worksheet page count: " + preview2.EvaluatedPageCount);
 ```
 
-En este fragmento, obtenemos la primera hoja de cálculo y generamos su vista previa de impresión, de forma similar a cuando nos centramos en un capítulo en particular de su libro. Esto nos da la cantidad de páginas de esa hoja únicamente.
+En este fragmento, obtenemos la primera hoja de cálculo y generamos su vista previa de impresión, de forma similar a cuando nos centramos en un capítulo en particular de un libro. Esto nos da la cantidad de páginas de esa hoja únicamente.
 
 ## Paso 7: Mensaje de éxito
 

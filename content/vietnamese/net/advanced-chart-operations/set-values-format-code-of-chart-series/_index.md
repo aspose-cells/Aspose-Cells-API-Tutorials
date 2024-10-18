@@ -18,7 +18,7 @@ Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã sẵn
 1. Hiểu biết cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn nắm bắt các khái niệm lập trình một cách dễ dàng.
 2.  Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Một IDE phù hợp để viết và thực thi mã C# của bạn. Bất kỳ phiên bản nào hỗ trợ .NET đều được.
-4.  Tệp Excel: Để trình diễn, chúng tôi sẽ sử dụng tệp Excel có tên`sampleSeries_ValuesFormatCode.xlsx`. Đảm bảo bạn đã chuẩn bị sẵn nó trong thư mục làm việc của mình.
+4.  Tệp Excel: Để minh họa, chúng tôi sẽ sử dụng tệp Excel có tên`sampleSeries_ValuesFormatCode.xlsx`. Đảm bảo bạn đã chuẩn bị sẵn nó trong thư mục làm việc của mình.
 
 ## Nhập gói
 
@@ -54,7 +54,7 @@ string outputDir = "Your Output Directory";
 
 ## Bước 2: Tải tệp Excel nguồn
 
-Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tải tệp Excel mà chúng ta muốn làm việc.
+Sau khi thiết lập xong thư mục, đã đến lúc tải tệp Excel mà chúng ta muốn làm việc.
 
 Tải tệp Excel cũng giống như mở một cuốn sách trước khi đọc. Nếu không mở, bạn không thể xem nội dung của nó. 
 
@@ -65,7 +65,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSeries_ValuesFormatCode.xlsx");
 
 ## Bước 3: Truy cập vào Bảng tính
 
-Sau khi đã tải xong bảng tính, chúng ta hãy bắt đầu với bảng tính đầu tiên.
+Sau khi tải xong bảng tính, chúng ta hãy bắt đầu với bảng tính đầu tiên.
 
 Mỗi trang tính trong tệp Excel hoạt động như một trang trong một cuốn sách. Bạn muốn truy cập đúng trang để tìm dữ liệu bạn quan tâm!
 
@@ -85,7 +85,7 @@ Hãy tưởng tượng biểu đồ như một bức tranh nơi kiệt tác tr�
 Chart ch = worksheet.Charts[0];
 ```
 
-## Bước 5: Thêm Chuỗi Dữ Liệu
+## Bước 5: Thêm Chuỗi Dữ liệu
 
 Sau khi đã có biểu đồ, chúng ta hãy thêm một số chuỗi dữ liệu để trực quan hóa.
 
@@ -103,7 +103,7 @@ ch.NSeries.Add("{10000, 20000, 30000, 40000}", true);
 Thiết lập mã định dạng sẽ chuyển đổi các số thô thành thứ gì đó dễ đọc hơn, giống như áp dụng bộ lọc để nâng cao chất lượng ảnh của bạn trước khi chia sẻ với thế giới!
 
 ```csharp
-// Truy cập chuỗi và thiết lập giá trị của nó định dạng mã
+// Truy cập chuỗi và thiết lập giá trị định dạng mã của nó
 Series srs = ch.NSeries[0];
 srs.ValuesFormatCode = "$#,##0"; //Điều này đặt nó thành định dạng tiền tệ
 ```
@@ -123,7 +123,7 @@ wb.Save(outputDir + "outputSeries_ValuesFormatCode.xlsx");
 
 Để kết thúc mọi việc, chúng ta có thể in ra thông báo thành công.
 
-Giống như việc nhận được tràng pháo tay vào cuối buổi biểu diễn, sự xác nhận này mang lại cho bạn cảm giác ấm áp, vui mừng vì đã hoàn thành được mục tiêu.
+Giống như việc nhận được tràng pháo tay vào cuối buổi biểu diễn, sự xác nhận này mang lại cho bạn cảm giác ấm áp, vui mừng về thành tựu.
 
 ```csharp
 Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");

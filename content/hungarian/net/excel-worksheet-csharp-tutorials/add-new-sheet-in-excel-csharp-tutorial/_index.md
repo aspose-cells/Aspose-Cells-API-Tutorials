@@ -16,7 +16,7 @@ Előfordult már, hogy új lapot kell programozottan hozzáadnia egy Excel-fájl
 Mielőtt bármiféle kódolást végzünk, győződjön meg arról, hogy rendelkezik mindennel, amire a projekthez szüksége van:
 
 1.  Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio. Ha még nem rendelkezik vele, letöltheti a webhelyről[Microsoft webhely](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Szüksége lesz az Aspose.Cells for .NET könyvtárra. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 3. .NET-keretrendszer: Győződjön meg arról, hogy projektje a .NET-keretrendszer kompatibilis verziójához van beállítva (általában a .NET-keretrendszer 4.0 vagy újabb jól működik).
 4. Alapvető C# ismeretek: A C# és az objektumorientált programozás ismerete segít a kód jobb megértésében.
 5. Szövegszerkesztő vagy IDE: erre lesz szüksége a C# kód megírásához – a Visual Studio nagyszerű lehetőség.
@@ -49,7 +49,7 @@ Először is gondoskodnia kell arról, hogy biztonságos helyen tárolja Excel f
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Hozzon létre könyvtárat, ha még nincs jelen.
+//Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ A fenti kódban megadjuk az Excel fájl elérési útját (`dataDir`). Ezt köve
 Ezután létrehozzuk a Workbook osztály egy példányát. Ez az osztály képezi a gerincét minden, az Excelhez kapcsolódó műveletnek.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Most, hogy elkészült a munkafüzetünk, adjuk hozzá az új lapot!
 int i = workbook.Worksheets.Add();
 ```
 
- Itt a`Add()` módszere a`Worksheets` kollekción belül jelen van`Workbook` osztály. A metódus egy indexet ad vissza (`i`az újonnan hozzáadott munkalapon. Ez olyan, mintha egy oldalt adna a jegyzetfüzetéhez – egyszerű és hatékony!
+ Itt a`Add()` módszere a`Worksheets` kollekción belül jelen van`Workbook` osztály. A metódus egy indexet ad vissza (`i`) az újonnan hozzáadott munkalapon. Ez olyan, mintha egy oldalt adna a jegyzetfüzetéhez – egyszerű és hatékony!
 
 ## 4. lépés: Az új munkalap elnevezése
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Az újonnan létrehozott lapra hivatkozást kap az index használatával`i`. Ezután egyszerűen beállítjuk a nevét "My Worksheet"-re. A munkalapok ilyen elnevezése jó gyakorlat, különösen akkor, ha nagyobb Excel-fájlokkal dolgozik, ahol a kontextus kulcsfontosságú.
+ Az újonnan létrehozott lapra hivatkozást kap az index használatával`i`Ezután egyszerűen beállítjuk a nevét "My Worksheet"-re. A munkalapok ilyen elnevezése jó gyakorlat, különösen akkor, ha nagyobb Excel-fájlokkal dolgozik, ahol a kontextus kulcsfontosságú.
 
 ## 5. lépés: Az Excel fájl mentése
 

@@ -18,7 +18,7 @@ Bevor wir mit der eigentlichen Codierung beginnen, müssen Sie einige Dinge vorb
 
 Um nahtlos mit Aspose.Cells für .NET zu arbeiten, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1.  Visual Studio: Laden Sie Visual Studio (Community Edition ist vollkommen ausreichend) herunter und installieren Sie es. Sie finden es auf der[Visual Studio-Website](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Laden Sie Visual Studio herunter und installieren Sie es (Community Edition ist vollkommen ausreichend). Sie finden es auf der[Visual Studio-Website](https://visualstudio.microsoft.com/).
 2. .NET Framework: Stellen Sie sicher, dass Sie eine geeignete Version des .NET Frameworks verwenden. Aspose.Cells unterstützt .NET Framework 4.0 und höher.
 3. Aspose.Cells-Bibliothek: Sie müssen die Aspose.Cells-Bibliothek für .NET herunterladen und in Ihrer Anwendung referenzieren. Sie finden das herunterladbare Paket[Hier](https://releases.aspose.com/cells/net/).
 

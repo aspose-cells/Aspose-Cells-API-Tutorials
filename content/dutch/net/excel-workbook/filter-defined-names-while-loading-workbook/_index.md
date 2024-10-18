@@ -9,7 +9,7 @@ url: /nl/net/excel-workbook/filter-defined-names-while-loading-workbook/
 ---
 ## Invoering
 
-Als u zich verdiept in Excel-bestandsmanipulatie met Aspose.Cells voor .NET, bent u op de juiste pagina terechtgekomen! In dit artikel onderzoeken we hoe u gedefinieerde namen kunt filteren tijdens het laden van een werkmap, een van de vele krachtige functies van deze fantastische API. Of u nu geavanceerde gegevensverwerking nastreeft of gewoon een handige manier nodig hebt om uw Excel-documenten programmatisch te beheren, deze gids heeft u gedekt.
+Als u zich verdiept in Excel-bestandsmanipulatie met Aspose.Cells voor .NET, bent u op de juiste pagina beland! In dit artikel onderzoeken we hoe u gedefinieerde namen kunt filteren tijdens het laden van een werkmap, een van de vele krachtige functies van deze fantastische API. Of u nu geavanceerde gegevensverwerking nastreeft of gewoon een handige manier nodig hebt om uw Excel-documenten programmatisch te beheren, deze gids heeft u gedekt.
 
 ## Vereisten
 
@@ -53,7 +53,7 @@ Vervolgens moeten we definiëren welke gegevens we willen filteren tijdens het l
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-De tilde (~) operator geeft aan dat we gedefinieerde namen willen uitsluiten van het laadproces. Dit is cruciaal als u uw werklast licht wilt houden en onnodige gegevens wilt vermijden die uw verwerking kunnen compliceren.
+De tilde (~operator geeft aan dat we gedefinieerde namen willen uitsluiten van het laadproces. Dit is cruciaal als u uw werklast licht wilt houden en onnodige gegevens wilt vermijden die uw verwerking kunnen compliceren.
 
 ## Stap 3: Laad de werkmap
 

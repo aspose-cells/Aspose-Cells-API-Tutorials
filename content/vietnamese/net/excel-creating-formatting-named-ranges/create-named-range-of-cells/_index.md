@@ -9,11 +9,11 @@ url: /vi/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
 ---
 ## Giới thiệu
 
-Nếu bạn đã từng làm việc với Excel, bạn sẽ biết tầm quan trọng của việc sắp xếp dữ liệu và dễ truy cập. Một trong những cách hiệu quả nhất để đạt được điều này là sử dụng các phạm vi được đặt tên. Phạm vi được đặt tên cho phép bạn nhóm các ô và tham chiếu đến chúng bằng tên thay vì tham chiếu ô, giúp công thức, điều hướng và quản lý dữ liệu đơn giản hơn nhiều. Hôm nay, chúng tôi sẽ hướng dẫn bạn các bước để tạo phạm vi ô được đặt tên trong Excel bằng Aspose.Cells cho .NET. Cho dù bạn đang phát triển các công cụ phân tích dữ liệu phức tạp, tự động hóa báo cáo hay chỉ muốn đơn giản hóa công việc bảng tính của mình, việc thành thạo các phạm vi được đặt tên sẽ nâng cao năng suất của bạn.
+Nếu bạn đã từng làm việc với Excel, bạn sẽ biết tầm quan trọng của việc giữ cho dữ liệu của bạn được sắp xếp và dễ truy cập. Một trong những cách hiệu quả nhất để đạt được điều này là sử dụng các phạm vi được đặt tên. Các phạm vi được đặt tên cho phép bạn nhóm các ô và tham chiếu đến chúng bằng tên thay vì tham chiếu ô, giúp công thức, điều hướng và quản lý dữ liệu đơn giản hơn nhiều. Hôm nay, chúng tôi sẽ hướng dẫn bạn các bước để tạo một phạm vi ô được đặt tên trong Excel bằng Aspose.Cells cho .NET. Cho dù bạn đang phát triển các công cụ phân tích dữ liệu phức tạp, tự động hóa báo cáo hay chỉ muốn đơn giản hóa công việc bảng tính của mình, thì việc thành thạo các phạm vi được đặt tên sẽ nâng cao năng suất của bạn.
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu tạo các phạm vi được đặt tên bằng Aspose.Cells, bạn sẽ cần thiết lập một số thứ sau:
+Trước khi bắt đầu tạo các phạm vi được đặt tên bằng Aspose.Cells, bạn sẽ cần thiết lập một số thứ:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình.
 2.  Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells từ[địa điểm](https://releases.aspose.com/cells/net/).
@@ -60,10 +60,10 @@ Dòng này khởi tạo một đối tượng sổ làm việc mới mà chúng 
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
-Mỗi sổ làm việc có thể có nhiều trang tính và vì mục đích của chúng ta, chúng ta sẽ truy cập trang tính đầu tiên. Hãy nghĩ về nó như việc mở một tab trong tệp Excel.
+Mỗi sổ làm việc có thể có nhiều trang tính và vì mục đích của chúng ta, chúng ta sẽ truy cập trang tính đầu tiên. Hãy nghĩ về việc này giống như việc mở một tab trong tệp Excel.
 
 ```csharp
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Bây giờ chúng ta có thể truy cập vào bảng tính đầu tiên, nơi c
 Bây giờ, đã đến lúc tạo phạm vi được đặt tên. Phạm vi được đặt tên cho phép bạn xác định một tập hợp các ô cụ thể trong bảng tính của mình.
 
 ```csharp
-//Tạo một phạm vi được đặt tên
+// Tạo một phạm vi được đặt tên
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Sau khi thực hiện tất cả những thay đổi này, bước tiếp theo l
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Dòng này lưu các thay đổi của bạn vào một tệp có tên`outputCreateNamedRangeofCells.xlsx`. Hãy đảm bảo đường dẫn đã chỉ định là chính xác; nếu không, chương trình sẽ báo lỗi!
+ Dòng này lưu các thay đổi của bạn vào một tệp có tên`outputCreateNamedRangeofCells.xlsx`. Hãy đảm bảo đường dẫn đã chỉ định là chính xác; nếu không, chương trình sẽ báo lỗi!
 
 ## Bước 8: Xác minh sự thành công của hoạt động
 
@@ -138,7 +138,7 @@ Phạm vi được đặt tên là tên mô tả được đặt cho một nhóm
 Có, bạn có thể tạo nhiều phạm vi được đặt tên tùy ý trong cùng một bảng tính hoặc trong toàn bộ sổ làm việc.
 
 ### Tôi có cần mua Aspose.Cells để sử dụng không?
-Aspose.Cells cung cấp bản dùng thử miễn phí để bạn khám phá các tính năng của nó. Tuy nhiên, để sử dụng lâu dài, bạn sẽ cần mua giấy phép.
+Aspose.Cells cung cấp bản dùng thử miễn phí để bạn khám phá các tính năng của nó. Tuy nhiên, để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép.
 
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.Cells chủ yếu hỗ trợ các ngôn ngữ .NET như C#, VB.NET, v.v.

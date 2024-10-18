@@ -10,13 +10,13 @@ is_root: true
 
 ## Giới thiệu
 
-Aspose.Cells for Java là một thư viện mạnh mẽ giúp các nhà phát triển Java có thể thao tác với các tệp Excel theo chương trình. Cho dù bạn cần tạo, chỉnh sửa hay chuyển đổi tài liệu Excel, Aspose.Cells đều đơn giản hóa quy trình với bộ tính năng toàn diện của nó. Trong các hướng dẫn này, chúng tôi sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau khi làm việc với Aspose.Cells for Java, cung cấp các ví dụ về mã và thông tin chi tiết để giúp bạn trở nên thành thạo trong việc thao tác với tệp Excel.
+Aspose.Cells for Java là một thư viện mạnh mẽ giúp các nhà phát triển Java có thể thao tác các tệp Excel theo chương trình. Cho dù bạn cần tạo, chỉnh sửa hay chuyển đổi tài liệu Excel, Aspose.Cells đều đơn giản hóa quy trình bằng bộ tính năng toàn diện của nó. Trong các hướng dẫn này, chúng tôi sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau khi làm việc với Aspose.Cells for Java, cung cấp các ví dụ về mã và thông tin chi tiết để giúp bạn trở nên thành thạo trong việc thao tác tệp Excel.
 
 ## Bắt đầu với Aspose.Cells cho Java
 
 Trong phần giới thiệu này, chúng tôi sẽ hướng dẫn bạn các bước thiết yếu để bắt đầu sử dụng Aspose.Cells for Java. Bạn sẽ học cách thiết lập môi trường phát triển của mình, bao gồm cả việc thêm thư viện vào dự án. Chúng tôi cũng sẽ cung cấp một ví dụ cơ bản về cách tải và sửa đổi tệp Excel, cung cấp cho bạn nền tảng vững chắc để xây dựng.
 
-## Thao tác nâng cao trên Excel với Aspose.Cells
+## Thao tác Excel nâng cao với Aspose.Cells
 
 Khi bạn đã quen với những điều cơ bản, chúng ta sẽ đi sâu vào các chủ đề nâng cao hơn. Khám phá cách thực hiện các thao tác phức tạp trên các tệp Excel, chẳng hạn như trích xuất dữ liệu, định dạng và tạo biểu đồ. Các hướng dẫn của chúng tôi sẽ trang bị cho bạn các kỹ năng để giải quyết các tình huống thực tế, từ tự động hóa báo cáo đến phân tích dữ liệu.
 
@@ -29,7 +29,7 @@ Bắt đầu hành trình của bạn với hướng dẫn Aspose.Cells cho Java
 ## Hướng dẫn sử dụng Aspose.Cells cho Java
 
 ### [Các hàm cơ bản của Excel](./basic-excel-functions/)
-Khám phá các hàm Excel thiết yếu bằng Aspose.Cells for Java. Hướng dẫn của chúng tôi trình bày các kiến thức cơ bản từng bước. Bắt đầu với thao tác bảng tính
+Khám phá các hàm Excel thiết yếu bằng Aspose.Cells for Java. Hướng dẫn của chúng tôi bao gồm các bước cơ bản từng bước. Bắt đầu với thao tác bảng tính
 ### [Quy tắc xác thực dữ liệu](./data-validation-rules/)
 Master Data Validation Rules với Aspose.Cells cho Java. Tạo các bảng tính Excel không có lỗi. Khám phá hướng dẫn toàn diện ngay!
 ### [Phân tích dữ liệu Excel](./excel-data-analysis/)
@@ -37,7 +37,7 @@ Mở khóa khả năng phân tích dữ liệu Excel mạnh mẽ với Aspose.Ce
 ### [Bảng Pivot Excel](./excel-pivot-tables/)
 Làm chủ Excel Pivot Tables với Aspose.Cells for Java. Tìm hiểu cách tạo, tùy chỉnh và phân tích dữ liệu dễ dàng.
 ### [Biểu đồ Excel nâng cao](./advanced-excel-charts/)
-Khám phá Hướng dẫn biểu đồ Excel nâng cao với Aspose.Cells cho Java. Nâng cao kỹ năng trực quan hóa dữ liệu của bạn từng bước. Làm chủ biểu đồ ngay hôm nay!
+Khám phá Hướng dẫn Biểu đồ Excel Nâng cao với Aspose.Cells cho Java. Nâng cao kỹ năng trực quan hóa dữ liệu của bạn từng bước. Làm chủ biểu đồ ngay hôm nay!
 ### [Xuất nhập khẩu Excel](./excel-import-export/)
 Dễ dàng nhập và xuất các tệp Excel với Aspose.Cells for Java. Khám phá hướng dẫn từng bước để trao đổi dữ liệu liền mạch. Làm chủ cách xử lý Excel ngay hôm nay!
 ### [Bảo mật dữ liệu Excel](./excel-data-security/)

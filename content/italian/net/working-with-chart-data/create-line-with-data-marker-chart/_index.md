@@ -120,7 +120,7 @@ Qui diamo al grafico un aspetto pulito impostando uno sfondo bianco, applicando 
 
 ## Passaggio 5: definire le serie e tracciare i punti dati
 
-Ora che il nostro grafico è pronto, dobbiamo definire le serie di dati che verranno tracciate.
+Ora che il nostro grafico è pronto, dobbiamo definire le serie di dati che verranno rappresentate.
 
 ```csharp
 // Imposta le proprietà del titolo dell'asse della categoria

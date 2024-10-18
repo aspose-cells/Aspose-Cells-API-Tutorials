@@ -2,7 +2,7 @@
 title: 操作图表类型
 linktitle: 操作图表类型
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 了解 Aspose.Cells for .NET 图表操作的基本教程，包括创建自定义、折线和饼图。学习修改图表和应用 Microsoft 主题颜色。
+description: 了解 Aspose.Cells for .NET 图表操作的基本教程，包括创建自定义图表、折线图和饼图。学习修改图表和应用 Microsoft 主题颜色。
 type: docs
 weight: 21
 url: /zh/net/manipulating-chart-types/
@@ -21,7 +21,7 @@ url: /zh/net/manipulating-chart-types/
 需要一眼就比较比例吗？[创建饼图](./create-pie-chart/)本教程将教您如何将 Excel 数据转换为简单有效的视觉效果。饼图非常适合展示不同部分如何构成整体 — 就像切披萨一样！
 
 ## 创建金字塔图
-有没有想过在金字塔中可视化数据？[创建金字塔图](./create-pyramid-chart/)本教程将教您如何使用 Aspose.Cells for .NET 创建这种独特的图表。金字塔图表非常适合分层数据或自然向下的数据。可以将其想象成用堆叠在一起的数据块构建金字塔 - 简单但功能强大，适合演示。
+有没有想过用金字塔来可视化数据？[创建金字塔图](./create-pyramid-chart/)本教程将教您如何使用 Aspose.Cells for .NET 创建这种独特的图表。金字塔图表非常适合分层数据或自然向下的数据。可以将其想象成用堆叠在一起的数据块构建金字塔 - 简单但功能强大，适合演示。
 
 ## 修改折线图
 现在，您已经创建了折线图，现在是时候对其进行调整以使其完美。[修改折线图](./modify-line-chart/)本教程将指导您修改现有的折线图。无论是更改颜色、调整轴还是调整数据系列，本指南都能满足您的需求。您可以将其想象成编辑照片 - 您已经有了基础，现在只需让它闪耀！

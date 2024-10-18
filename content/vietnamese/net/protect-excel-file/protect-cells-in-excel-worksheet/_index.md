@@ -13,7 +13,7 @@ Trong thế giới kỹ thuật số ngày nay, việc quản lý dữ liệu an
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào việc bảo vệ tế bào, bạn cần phải có một số điều kiện tiên quyết sau:
+Trước khi đi sâu vào việc bảo vệ tế bào, bạn cần thực hiện một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là IDE chính để phát triển .NET.
 2.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells trong dự án của mình. Bạn có thể dễ dàng cài đặt nó thông qua NuGet Package Manager hoặc tải xuống trực tiếp từ[Trang web Aspose.Cells](https://releases.aspose.com/cells/net/).
@@ -31,7 +31,7 @@ Bước đầu tiên trong hành trình của chúng ta là nhập các gói c�
 ### Thêm tham chiếu Aspose.Cells
 
 - Trong Solution Explorer, nhấp chuột phải vào dự án của bạn và chọn "Quản lý gói NuGet".
-- Tìm kiếm “Aspose.Cells” và nhấp vào cài đặt. Thư viện này sẽ cung cấp cho bạn quyền truy cập vào tất cả các phương pháp bạn cần để bảo vệ cell của mình.
+- Tìm kiếm “Aspose.Cells” và nhấp vào cài đặt. Thư viện này sẽ cung cấp cho bạn quyền truy cập vào tất cả các phương pháp bạn cần để bảo vệ các cell của mình.
 
 ### Sử dụng không gian tên
 
@@ -48,11 +48,11 @@ Chúng ta hãy phân tích ví dụ mã minh họa cách bảo vệ các ô cụ
 
 ## Bước 1: Thiết lập thư mục dữ liệu
 
-Trước tiên, bạn cần xác định nơi lưu tệp Excel của mình. Sau đây là cách bạn có thể chỉ định:
+Trước tiên, bạn cần xác định nơi lưu tệp Excel của mình. Sau đây là cách bạn có thể chỉ định điều đó:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Chỉ định đường dẫn thư mục của bạn ở đây
-// Tạo thư mục nếu thư mục đó chưa có.
+//Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -70,7 +70,7 @@ Workbook wb = new Workbook();
 
 Dòng này khởi tạo một bảng tính mới để bạn làm việc.
 
-## Bước 3: Truy cập vào trang tính đầu tiên
+## Bước 3: Truy cập trang tính đầu tiên
 
 Trong hầu hết các trường hợp, bạn sẽ làm việc ở trang tính đầu tiên của bảng tính:
 
@@ -139,7 +139,7 @@ Dòng này lưu sổ làm việc của bạn dưới dạng tệp Excel. Hãy đ
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã học thành công cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể bảo vệ dữ liệu của mình, đảm bảo chỉ những người phù hợp mới có quyền truy cập để chỉnh sửa thông tin quan trọng. Hãy nhớ rằng, bảo vệ ô chỉ là một trong nhiều tính năng do Aspose.Cells cung cấp để giúp quản lý và thao tác các tệp Excel một cách hiệu quả.
+Và bạn đã có nó! Bạn đã học thành công cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể bảo vệ dữ liệu của mình, đảm bảo chỉ những người phù hợp mới có quyền truy cập để chỉnh sửa thông tin quan trọng. Hãy nhớ rằng, bảo vệ ô chỉ là một trong nhiều tính năng do Aspose.Cells cung cấp để giúp quản lý và thao tác các tệp Excel hiệu quả.
 
 ## Câu hỏi thường gặp
 
@@ -153,7 +153,7 @@ Chắc chắn rồi! Bạn có thể khóa bao nhiêu ô tùy thích bằng các
  Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải có giấy phép. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm tài liệu ở đâu?
-Tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/cells/net/).
+ Tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể lưu tệp Excel ở định dạng nào?
 Aspose.Cells hỗ trợ nhiều định dạng bao gồm XLSX, XLS, CSV, v.v.

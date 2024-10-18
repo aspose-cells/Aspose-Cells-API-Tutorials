@@ -63,7 +63,7 @@ Bu satır, değiştireceğimiz yeni bir çalışma kitabı nesnesini başlatır.
 Her çalışma kitabının birden fazla çalışma sayfası olabilir ve amacımız için ilkine erişeceğiz. Bunu bir Excel dosyasında sekme açmak gibi düşünün.
 
 ```csharp
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+// Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Artık adlandırılmış aralığımızı oluşturacağımız ilk çalışma say
 Şimdi, adlandırılmış aralığı oluşturma zamanı. Adlandırılmış aralık, çalışma sayfanızda belirli bir hücre kümesi tanımlamanıza olanak tanır.
 
 ```csharp
-//Adlandırılmış bir aralık oluşturma
+// Adlandırılmış bir aralık oluşturma
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Tüm bu değişiklikleri yaptıktan sonraki adım çalışma kitabını kaydetme
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Bu satır, değişikliklerinizi şu adlı bir dosyaya kaydeder:`outputCreateNamedRangeofCells.xlsx`Belirtilen yolun doğru olduğundan emin olun; aksi takdirde program hata verecektir!
+ Bu satır, değişikliklerinizi şu adlı bir dosyaya kaydeder:`outputCreateNamedRangeofCells.xlsx`Belirtilen yolun doğru olduğundan emin olun; aksi takdirde program hata verecektir!
 
 ## Adım 8: İşlemin Başarısını Doğrulayın
 

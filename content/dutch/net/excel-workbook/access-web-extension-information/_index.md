@@ -49,7 +49,7 @@ Vervolgens wilt u uw Excel-werkmap laden. Met deze stap kunt u de inhoud van de 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 ```
- In deze regel creëren we een nieuw exemplaar van de`Workbook` klasse en verwijst deze naar ons voorbeeldbestand. 
+ In deze regel creëren we een nieuw exemplaar van de`Workbook` klasse en deze naar ons voorbeeldbestand te verwijzen. 
 
 ## Stap 3: Web Extension-taakvensters ophalen
 
@@ -80,7 +80,7 @@ Binnen die lus kunnen we nu verschillende eigenschappen van elk taakvenster extr
 3. Vergrendelingsstatus
 4. Dockstatus
 5. Winkelnaam en type
-6. Web-extensie-ID
+6. Webextensie-ID
 
 ```csharp
 Console.WriteLine("Width: " + taskPane.Width);

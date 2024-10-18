@@ -13,7 +13,7 @@ Het maken van visueel aantrekkelijke en informatieve grafieken is essentieel voo
 
 ## Vereisten
 
-Voordat u aan de slag gaat met de code, moet u aan een aantal voorwaarden voldoen om een soepele ervaring te garanderen:
+Voordat u in de code duikt, moet u aan een aantal voorwaarden voldoen om een soepele ervaring te garanderen:
 
 ### Basiskennis van C# en .NET
 
@@ -67,7 +67,7 @@ Zorg ervoor dat u "Your Output Directory" en "Your Document Directory" vervangt 
 Vervolgens moet u het Excel-bestand laden dat de grafiek bevat. Dit doet u als volgt:
 
 ```csharp
-//Laad een Excel-voorbeeldbestand met de grafiek.
+//Laad een voorbeeld-Excel-bestand met de grafiek.
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 

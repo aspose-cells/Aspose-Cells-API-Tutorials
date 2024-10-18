@@ -16,7 +16,7 @@ Už vás nebaví nudné tabulky, které postrádají osobní nádech? Chcete se 
 Než se pustíme do hrubky kódování, existuje několik předpokladů, které musíte hladce dodržovat:
 
 - Visual Studio: Zde budete psát a spouštět svůj kód .NET. Ujistěte se, že jej máte nainstalovaný.
--  Aspose.Cells for .NET: Tuto knihovnu budete potřebovat pro práci se soubory aplikace Excel. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Tuto knihovnu budete potřebovat pro práci se soubory aplikace Excel. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
 - Základní porozumění C#: I když vás provedu kódem, znalost základů C# bude věci jasnější.
 
 ### Kroky instalace
@@ -30,7 +30,7 @@ Jakmile máte vše nastaveno, dalším krokem je import potřebných balíčků 
 
 ### Importujte požadované jmenné prostory
 
-horní části souboru kódu C# budete muset importovat následující jmenné prostory:
+V horní části souboru kódu C# budete muset importovat následující jmenné prostory:
 
 ```csharp
 using Aspose.Cells;
@@ -84,7 +84,7 @@ Ujistěte se, že máte obrázek uložený v určeném adresáři.
 Nyní upřesníme, do kterého grafu přidáme náš obrázek. V tomto příkladu zacílíme na první graf na prvním listu.
 
 ```csharp
-// Získejte graf návrháře na druhém listu.
+//Získejte graf návrháře na druhém listu.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -104,7 +104,7 @@ Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, strea
 
 ## Krok 6: Upravte formát čar obrázku
 
-Chcete svému obrázku dodat nějaký šmrnc? Můžete si přizpůsobit jeho okraj! Jak na to:
+Chcete svému obrázku dodat nějaký šmrnc? Jeho ohraničení si můžete přizpůsobit! Jak na to:
 
 ```csharp
 // Získejte typ formátu řádku obrázku.
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své žebříčky zářit!
+V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své grafy zářit!
 
 ## FAQ
 
@@ -151,7 +151,7 @@ V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů apli
 Aspose.Cells podporuje různé formáty obrázků, včetně PNG, JPEG, BMP a GIF.
 
 ### Mohu upravit polohu obrázku?
-Jistě! Souřadnice X a Y v`AddPictureInChart` metoda umožňuje přesné polohování.
+ Jistě! Souřadnice X a Y v`AddPictureInChart` metoda umožňuje přesné polohování.
 
 ### Je Aspose.Cells zdarma k použití?
  Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plné funkce je vyžadována licence. Cenu najdete[zde](https://purchase.aspose.com/buy).

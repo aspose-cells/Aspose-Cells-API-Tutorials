@@ -77,7 +77,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
             // Déterminer le pays sélectionné
             String selectedCountry = cell.getStringValue();
             
-            // En fonction du pays sélectionné, remplissez la liste déroulante de la ville
+            // En fonction du pays sélectionné, remplissez la liste déroulante des villes
             switch (selectedCountry) {
                 case "USA":
                     validation.setFormula1("Cities!$A$2:$A$4"); // Peuplez avec les villes des États-Unis

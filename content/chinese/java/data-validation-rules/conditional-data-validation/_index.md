@@ -103,6 +103,6 @@ workbook.save("ConditionalValidationExample.xlsx");
 
 当然可以！您可以自定义错误消息、标题和错误警报的外观以满足应用程序的要求。
 
-### 1. Aspose.Cells for Java 中的条件数据验证有什么限制吗？
+### Aspose.Cells for Java 中的条件数据验证有什么限制吗？
 
-虽然 Aspose.Cells for Java 提供了强大的数据验证功能，但在实施复杂的验证规则时，务必查看文档以了解任何特定的限制或注意事项。
+虽然 Aspose.Cells for Java 提供了强大的数据验证功能，但在实施复杂的验证规则时，必须查看文档以了解任何特定的限制或注意事项。

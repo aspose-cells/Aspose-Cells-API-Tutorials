@@ -18,7 +18,7 @@ Nuestros tutoriales ofrecen un recorrido completo por el mundo de los gráficos 
 
 ## Descubra el potencial de la visualización de datos:
 
-Al profundizar en los gráficos avanzados de Excel con Aspose.Cells para Java, podrá comunicar información de manera eficaz. Estos tutoriales le permiten crear gráficos visualmente impactantes que cautivarán a su audiencia y mejorarán la toma de decisiones. Comience hoy mismo su viaje hacia el dominio de la visualización de datos con Aspose.Cells para Java.
+Al profundizar en los gráficos avanzados de Excel con Aspose.Cells para Java, descubrirá el potencial para comunicar información de manera eficaz. Estos tutoriales le permiten crear gráficos visualmente impactantes que cautivarán a su audiencia y mejorarán la toma de decisiones. Comience hoy mismo su viaje hacia el dominio de la visualización de datos con Aspose.Cells para Java.
 
 ## Tutoriales avanzados de gráficos en Excel
 ### [Paneles interactivos](./interactive-dashboards/)

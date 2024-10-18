@@ -100,14 +100,14 @@ E aí está! Você aprendeu como criar uma pasta de trabalho do Excel, definir p
 ### Posso personalizar a senha para proteção contra gravação?  
  Sim, você pode personalizar a senha conforme suas necessidades. Basta substituir`YOUR_PASSWORD` com a senha desejada.
 
-### Aspose.Cells é gratuito?  
+### O Aspose.Cells é gratuito?  
  Aspose.Cells é uma biblioteca paga, mas você pode experimentá-la gratuitamente com um teste por tempo limitado. Visite o[Link de teste gratuito](https://releases.aspose.com/) para começar.
 
 ### Como faço para comprar a biblioteca Aspose.Cells?  
- Você pode comprar Aspose.Cells através de seu[comprar página](https://purchase.aspose.com/buy).
+ Você pode comprar Aspose.Cells através de seu[página de compra](https://purchase.aspose.com/buy).
 
 ### Posso usar essa abordagem em aplicativos web?  
-Absolutamente! Aspose.Cells funciona perfeitamente em aplicativos de desktop e web usando .NET.
+Absolutamente! Aspose.Cells funciona perfeitamente em aplicativos desktop e web usando .NET.
 
 ### O que devo fazer se precisar de suporte?  
 Para perguntas e solução de problemas, a comunidade Aspose é muito útil. Você pode visitar o site deles[fórum de suporte](https://forum.aspose.com/c/cells/9) para obter assistência.

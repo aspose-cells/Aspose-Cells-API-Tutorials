@@ -72,7 +72,7 @@ Ez a lépés olyan, mintha azt mondaná: „Helló!” a munkafüzetébe, így t
 A munkafüzetet a kezében tartva ideje elérni az elrejteni kívánt konkrét munkalapot. Kezdjük az első munkalappal.
 
 ```csharp
-//Az Excel fájl első munkalapjának elérése
+// Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

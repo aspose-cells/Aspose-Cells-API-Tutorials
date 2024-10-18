@@ -20,7 +20,7 @@ Zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego p
 3. Podstawowa znajomość języka C#: Znajomość pojęć języka C# i programu Excel pomoże Ci w płynniejszym przyswojeniu treści.
 4.  Dostęp do dokumentacji: Posiadanie dostępu do[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) może dostarczyć dodatkowych informacji, jeśli utkniesz. 
 
-Mając wszystko już gotowe, możemy krok po kroku odkryć magię operacji w programie Excel.
+Mając wszystko gotowe, możemy krok po kroku odkryć magię operacji w programie Excel.
 
 ## Importuj pakiety 
 
@@ -48,7 +48,7 @@ Najpierw musisz określić, gdzie plik Excel zostanie zapisany. Utwórz zmienną
 string outputDir = "Your Output Directory";
 ```
 
- Zastępować`"Your Output Directory"` z rzeczywistą ścieżką do lokalizacji, w której chcesz zapisać plik wyjściowy Excel. Dzięki temu będziesz dokładnie wiedział, gdzie znaleźć swój ukończony produkt!
+ Zastępować`"Your Output Directory"` z rzeczywistą ścieżką do lokalizacji, w której chcesz zapisać plik wyjściowy Excela. Dzięki temu masz pewność, że dokładnie wiesz, gdzie znaleźć swój ukończony produkt!
 
 ## Krok 3: Tworzenie instancji obiektu skoroszytu
 
@@ -96,11 +96,11 @@ worksheet.Cells["C3"].PutValue("Y1");
 worksheet.Cells["C4"].PutValue("Y2");
 ```
 
-Tutaj oznaczamy każdy zestaw danych kategoriami takimi jak „Q1” i „Y1”, co ułatwi późniejszą interpretację wykresu.
+Tutaj oznaczamy każdy zestaw danych kategoriami takimi jak „Q1” i „Y1”, co ułatwi późniejszą interpretację naszego wykresu.
 
 ## Tworzenie wykresu
 
-Mając już dane, możemy dodać wykres, który zwizualizuje te dane.
+Mając już dane, możemy dodać wykres w celu ich wizualnej reprezentacji.
 
 ## Krok 7: Dodawanie wykresu do arkusza kalkulacyjnego
 
@@ -114,7 +114,7 @@ Ten wiersz tworzy nowy wykres kolumnowy zaczynający się od wiersza 5 i kolumny
 
 ## Krok 8: Dostęp do instancji wykresu
 
-Zanim będziemy mogli zapełnić wykres danymi, musimy uzyskać dostęp do instancji nowo utworzonego wykresu:
+Zanim będziemy mogli zapełnić wykres danymi, musimy uzyskać dostęp do wystąpienia nowo utworzonego wykresu:
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
@@ -132,7 +132,7 @@ chart.NSeries.Add("A1:B4", true);
 
 Ten wiersz określa, że wykres powinien zawierać dane z zakresów A1–B4, co pozwoli na wizualne wyświetlenie tych wartości.
 
-## Krok 10: Ustawianie kategorii danych
+## Krok 10: Ustawianie danych kategorii
 
 Oto kluczowa część — zdefiniowanie naszych danych kategorii. To właśnie one oznaczają nasze punkty danych na osi x.
 

@@ -13,7 +13,7 @@ Di era digital saat ini, mengelola data secara efektif sangatlah penting, teruta
 
 ## Prasyarat
 
-Sebelum kita mulai, Anda perlu memastikan Anda memiliki hal berikut:
+Sebelum kita mulai, Anda perlu memastikan bahwa Anda memiliki hal berikut:
 
 1. Visual Studio Terpasang: Anda memerlukan lingkungan pengembangan. Visual Studio merupakan pilihan populer bagi pengembang .NET.
 2.  Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/cells/net/).
@@ -53,9 +53,9 @@ Untuk berinteraksi dengan file Excel, FileStream dibuat. Aliran ini akan memungk
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Pada baris ini, kita membuka berkas bernama "book1.xls" dari direktori yang ditentukan. Pastikan berkas tersebut ada di lokasi tersebut untuk menghindari kesalahan.
+Pada baris ini, kita membuka berkas bernama "book1.xls" dari direktori yang ditentukan. Pastikan berkas ada di lokasi tersebut untuk menghindari kesalahan.
 
-## Langkah 3: Membuat Objek Buku Kerja
+## Langkah 3: Membuat Instansi Objek Buku Kerja
 
 Setelah kita memiliki aliran file, saatnya membuat objek Workbook. Objek ini mewakili file Excel dan memungkinkan Anda untuk memanipulasi isinya dengan mudah.
 

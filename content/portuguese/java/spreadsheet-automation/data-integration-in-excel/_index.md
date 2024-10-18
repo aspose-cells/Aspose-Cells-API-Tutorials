@@ -16,7 +16,7 @@ Excel é uma ferramenta versátil para manipulação de dados, mas integrar dado
 
 ## 2. Configurando Aspose.Cells para Java
 
- Antes de mergulhar na integração de dados, você precisa configurar o Aspose.Cells para Java. Você pode baixar a biblioteca de[aqui](https://releases.aspose.com/cells/java/). Siga as instruções de instalação para começar.
+ Antes de mergulhar na integração de dados, você precisa configurar o Aspose.Cells para Java. Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/cells/java/). Siga as instruções de instalação para começar.
 
 ## 3. Carregando dados no Excel
 
@@ -90,7 +90,7 @@ Aspose.Cells for Java oferece um teste gratuito, mas uma licença é necessária
 
 Sim, o Aspose.Cells para Java suporta integração de banco de dados. Você pode buscar dados de bancos de dados e integrá-los ao Excel.
 
-### P3: Há alguma limitação quanto ao tamanho dos dados que podem ser integrados?
+### Q3: Há alguma limitação quanto ao tamanho dos dados que podem ser integrados?
 
 O tamanho dos dados integrados depende da memória do seu sistema e das limitações do Excel. O Aspose.Cells para Java em si não impõe limites de tamanho rígidos.
 

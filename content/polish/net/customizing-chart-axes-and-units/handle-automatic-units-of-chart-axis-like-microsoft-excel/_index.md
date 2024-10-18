@@ -18,7 +18,7 @@ Zanim przejdziemy do samouczka, upewnijmy się, że masz wszystko, co jest potrz
 1. Zainstalowany program Visual Studio: Będziesz potrzebować środowiska IDE, takiego jak Visual Studio, aby pisać i wykonywać kod .NET.
 2. .NET Framework: Ten samouczek zakłada, że używasz .NET Framework 4.0 lub nowszego. Jednak Aspose.Cells jest również zgodny z .NET Core.
 3.  Biblioteka Aspose.Cells: Jeśli jeszcze tego nie zrobiłeś, pobierz bibliotekę ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/cells/net/) . Możesz również zacząć od bezpłatnego okresu próbnego dostępnego[Tutaj](https://releases.aspose.com/).
-4.  Przykładowy plik Excela: Będziemy używać przykładowego pliku Excela o nazwie`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Upewnij się, że masz ten plik w swoim katalogu roboczym.
+4. Przykładowy plik Excela: Będziemy używać przykładowego pliku Excela o nazwie`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Upewnij się, że masz ten plik w swoim katalogu roboczym.
 
 ## Importuj pakiety
 
@@ -62,7 +62,7 @@ Teraz wszystko jest gotowe, aby rozpocząć pracę nad plikiem Excel!
 Zanim załadujemy plik Excel, skonfigurujmy katalogi wyjściowe i źródłowe. Pozwoli nam to określić, gdzie przechowywane są nasze pliki.
 
 ```csharp
-// Katalog wyjściowy – gdzie zostanie zapisany plik PDF
+//Katalog wyjściowy – gdzie zostanie zapisany plik PDF
 string outputDir = "Your Output Directory"; // podaj tutaj swój katalog wyjściowy
 
 // Katalog źródłowy – w którym znajduje się przykładowy plik Excel
@@ -78,13 +78,13 @@ Używając Aspose.Cells, ładowanie pliku Excel jest proste. Oto jak to zrobić:
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Teraz z łatwością załadowałeś swój skoroszyt!
+Teraz bez problemu załadowałeś swój skoroszyt!
 
 ## Dostęp i manipulowanie wykresem
 
-### Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+### Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
-Następnie uzyskamy dostęp do pierwszego arkusza kalkulacyjnego, w którym znajduje się nasz wykres. 
+Następnie przejdziemy do pierwszego arkusza kalkulacyjnego, w którym znajduje się nasz wykres. 
 
 ```csharp
 // Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
@@ -108,7 +108,7 @@ W programie Excel jedną z kluczowych funkcji wykresów jest obsługa automatycz
 
 ```csharp
 // Ustaw główną jednostkę dla osi Y
-ch.AxisY.MajorUnit = 10; // Możesz ustawić według swoich potrzeb
+ch.AxisY.MajorUnit = 10; //Możesz ustawić według swoich potrzeb
 ```
 
 Zaktualizujmy jednostki automatyczne już teraz!
@@ -151,4 +151,4 @@ Wystarczy zainstalować na swoim komputerze bibliotekę Aspose.Cells i .NET Fram
 Oczywiście! Aspose.Cells obsługuje różne formaty, takie jak XLSX, HTML i obrazy.
 
 ### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy?
-Możesz zwrócić się o pomoc do społeczności Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+ Możesz zwrócić się o pomoc do społeczności Aspose[Tutaj](https://forum.aspose.com/c/cells/9).

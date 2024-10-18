@@ -16,8 +16,8 @@ url: /ko/net/inserting-controls-in-charts/add-picture-to-chart/
 코딩의 핵심에 들어가기 전에 순조롭게 따라가기 위해 꼭 필요한 몇 가지 전제 조건이 있습니다.
 
 - Visual Studio: 여기서 .NET 코드를 작성하고 실행합니다. 설치했는지 확인하세요.
--  .NET용 Aspose.Cells: Excel 파일을 작업하려면 이 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
-- C#에 대한 기본적인 이해: 코드를 안내해드리지만, C#의 기본을 알고 있으면 더 명확하게 이해할 수 있습니다.
+- .NET용 Aspose.Cells: Excel 파일을 사용하려면 이 라이브러리가 필요합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+- C#에 대한 기본적인 이해: 코드를 안내해드리겠지만, C#의 기본을 알고 있으면 더 명확하게 이해할 수 있습니다.
 
 ### 설치 단계
 
@@ -45,7 +45,7 @@ using System.IO;
 
 ## 1단계: 디렉토리 정의
 
-가장 먼저, 입력 및 출력 파일의 경로를 설정해야 합니다. 이 단계는 기존 Excel 파일을 찾을 위치와 수정된 파일을 저장할 위치를 알아야 하기 때문에 중요합니다.
+가장 먼저, 입력 및 출력 파일의 경로를 설정해야 합니다. 이 단계는 기존 Excel 파일을 어디에서 찾을 수 있고 수정된 파일을 어디에 저장할지 알아야 하기 때문에 중요합니다.
 
 ```csharp
 //소스 디렉토리
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 이제, 어떤 차트에 그림을 추가할지 지정해 보겠습니다. 이 예에서는 첫 번째 워크시트의 첫 번째 차트를 타겟으로 삼겠습니다.
 
 ```csharp
-// 두 번째 시트에서 디자이너 차트를 받으세요.
+//두 번째 시트에서 디자이너 차트를 받으세요.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -128,7 +128,7 @@ lineformat.Weight = 4;
 workbook.Save(outputDir + "outputAddingPictureInChart.xls");
 ```
 
-이제 그림이 차트에 성공적으로 통합되었고, 출력 파일을 볼 준비가 되었습니다!
+이제 그림이 차트에 성공적으로 통합되었고 출력 파일을 볼 준비가 되었습니다!
 
 ## 8단계: 성공을 나타냅니다
 
@@ -151,7 +151,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 Aspose.Cells는 PNG, JPEG, BMP, GIF 등 다양한 이미지 형식을 지원합니다.
 
 ### 그림의 위치를 사용자 지정할 수 있나요?
-물론입니다! X 및 Y 좌표는`AddPictureInChart` 이 방법을 사용하면 정확한 위치 지정이 가능합니다.
+ 물론입니다! X 및 Y 좌표는`AddPictureInChart` 이 방법을 사용하면 정확한 위치 지정이 가능합니다.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?
  Aspose.Cells는 무료 체험판을 제공하지만, 모든 기능을 사용하려면 라이선스가 필요합니다. 가격은 다음과 같습니다.[여기](https://purchase.aspose.com/buy).

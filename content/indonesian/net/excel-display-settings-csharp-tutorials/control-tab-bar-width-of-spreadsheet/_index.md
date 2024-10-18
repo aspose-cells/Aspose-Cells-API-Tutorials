@@ -9,7 +9,7 @@ url: /id/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-sp
 ---
 ## Perkenalan
 
-Bekerja dengan file Excel secara terprogram terkadang terasa seperti mengerjakan banyak hal sekaligus, bukan? Nah, jika Anda pernah perlu mengontrol lebar bilah tab di lembar kerja Excel, Anda berada di tempat yang tepat! Dengan menggunakan Aspose.Cells for .NET, Anda dapat dengan mudah memanipulasi berbagai pengaturan file Excel, seperti menyesuaikan lebar bilah tab lembar kerja, sehingga lembar kerja Anda lebih disesuaikan dan mudah digunakan. Hari ini, kami akan menguraikan cara melakukannya dengan langkah-langkah yang jelas dan mudah diikuti.
+Bekerja dengan file Excel secara terprogram terkadang terasa seperti mengerjakan banyak hal sekaligus, bukan? Nah, jika Anda pernah perlu mengontrol lebar bilah tab di lembar kerja Excel, Anda berada di tempat yang tepat! Dengan menggunakan Aspose.Cells for .NET, Anda dapat dengan mudah memanipulasi berbagai pengaturan file Excel, seperti menyesuaikan lebar bilah tab lembar, membuat lembar kerja Anda lebih disesuaikan dan mudah digunakan. Hari ini, kami akan menguraikan cara melakukannya dengan langkah-langkah yang jelas dan mudah diikuti.
 
 Dalam tutorial ini, kami akan membahas semua yang perlu Anda ketahui tentang cara mengontrol lebar bilah tab menggunakan Aspose.Cells untuk .NET—mulai dari prasyarat hingga panduan langkah demi langkah yang terperinci. Pada akhirnya, Anda akan mengubah pengaturan Excel seperti seorang profesional. Siap? Mari kita mulai!
 

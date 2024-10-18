@@ -27,7 +27,7 @@ Ora che abbiamo tutto allineato, impostiamo rapidamente il nostro ambiente. Per 
 
 ### Impostazione del progetto
 
- Apri Visual Studio e crea un nuovo progetto C#. In`Solution Explorer` , fai clic con il pulsante destro del mouse sul progetto e scegli Aggiungi nuovo elemento.... Seleziona la classe C# e assegnale un nome appropriato (ad esempio,`ExcelUnprotector.cs`).
+ Apri Visual Studio e crea un nuovo progetto C#. In`Solution Explorer` , fai clic con il pulsante destro del mouse sul tuo progetto e scegli Aggiungi nuovo elemento.... Seleziona la classe C# e assegnale un nome appropriato (ad esempio,`ExcelUnprotector.cs`).
 
 ### Installazione di Aspose.Cells
 
@@ -52,7 +52,7 @@ Analizziamo nel dettaglio i passaggi del processo di rimozione della protezione.
 
 ## Passaggio 1: definizione del percorso della directory
 
-La prima cosa che devi fare è specificare il percorso della directory in cui si trova il tuo file Excel. Questo è essenziale perché dice al tuo programma dove trovare il file che vuoi sproteggere.
+La prima cosa che devi fare è specificare il percorso della directory in cui si trova il tuo file Excel. Questo è essenziale perché indica al tuo programma dove trovare il file che vuoi rimuovere la protezione.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Sostituiscilo con il tuo percorso effettivo
@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Conclusione
 
-In un mondo dominato dai dati, sapere come manipolare e gestire i fogli di calcolo Excel è fondamentale. L'utilizzo di Aspose.Cells per .NET offre un modo robusto per gestire le operazioni sui file Excel, inclusa la rimozione della protezione dei fogli. Con solo poche righe di codice, hai riacquistato l'accesso al tuo contenuto protetto e puoi continuare a lavorare senza intoppi. Quindi, la prossima volta che ti imbatterai in un foglio Excel bloccato, saprai esattamente cosa fare!
+In un mondo dominato dai dati, sapere come manipolare e gestire i fogli di calcolo Excel è fondamentale. Utilizzare Aspose.Cells per .NET offre un modo robusto per gestire le operazioni sui file Excel, inclusa la rimozione della protezione dei fogli. Con solo poche righe di codice, hai riacquistato l'accesso al tuo contenuto protetto e puoi continuare a lavorare senza intoppi. Quindi, la prossima volta che ti imbatterai in un foglio Excel bloccato, saprai esattamente cosa fare!
 
 ## Domande frequenti
 

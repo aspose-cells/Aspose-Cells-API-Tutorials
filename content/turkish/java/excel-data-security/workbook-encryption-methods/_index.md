@@ -20,7 +20,7 @@ Uygulama ayrıntılarına dalmadan önce, çalışma kitabı şifrelemesinin ne 
 
 Aspose.Cells for Java ve şifreleme ile çalışmaya başlamadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Development Kit (JDK) yüklü.
+- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
 -  Java için Aspose.Cells kütüphanesini buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 
 ## Başlarken
@@ -35,7 +35,7 @@ Aspose.Cells for Java kütüphanesini Java projenize içe aktararak başlayın. 
 import com.aspose.cells.*;
 ```
 
-### Adım 2: Excel Çalışma Kitabını Yükleyin
+### Adım 2: Excel Çalışma Kitabını yükleyin
 
 Belirli bir Excel çalışma kitabıyla çalışmak için onu Java uygulamanıza yüklemeniz gerekir. Mevcut bir çalışma kitabını yüklemek için aşağıdaki kodu kullanın:
 

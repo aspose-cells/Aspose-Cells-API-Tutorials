@@ -9,7 +9,7 @@ url: /pt/net/excel-display-settings-csharp-tutorials/
 ---
 ## Introdução
 
-Quando se trata de manipular planilhas do Excel usando .NET, Aspose.Cells é uma das principais escolhas disponíveis. Mas com tantos recursos e capacidades reunidos nessa biblioteca versátil, pode ser um pouco assustador começar. É aí que nossos tutoriais úteis entram! Eles são projetados para orientá-lo em tudo, desde controlar a largura da barra de guias até ocultar e exibir planilhas.
+Quando se trata de manipular planilhas do Excel usando .NET, Aspose.Cells é uma das principais escolhas disponíveis. Mas com tantos recursos e capacidades reunidos nessa biblioteca versátil, pode ser um pouco trabalhoso começar. É aí que nossos tutoriais úteis entram em cena! Eles são projetados para orientá-lo em tudo, desde controlar a largura da barra de guias até ocultar e exibir planilhas.
 
 ## Dominando funções básicas
 
@@ -29,7 +29,7 @@ Sobre o tópico de estética, outro recurso vital é controlar a visibilidade do
 
 ## Congelamento e divisão de painéis simplificados
 
-Um dos recursos mais úteis em qualquer planilha do Excel é a capacidade de congelar painéis. Pense nisso: você já perdeu o controle da linha do cabeçalho ao rolar para baixo em uma planilha gigantesca? É incrivelmente frustrante! Nosso tutorial sobre congelamento de painéis o guia pelo processo para que você possa manter informações críticas à vista enquanto navega em grandes conjuntos de dados. Imagine que você acabou de concluir uma análise longa, apenas para ter que rolar para cima toda vez para se lembrar dos cabeçalhos. Chega![Ler mais](./freeze-panes-of-worksheet/).
+Um dos recursos mais úteis em qualquer planilha do Excel é a capacidade de congelar painéis. Pense nisso: você já perdeu o controle da linha do cabeçalho ao rolar para baixo em uma planilha gigantesca? É incrivelmente frustrante! Nosso tutorial sobre congelamento de painéis o guia pelo processo para que você possa manter informações críticas à vista enquanto navega por grandes conjuntos de dados. Imagine que você acabou de concluir uma análise longa, apenas para ter que rolar para cima toda vez para se lembrar dos cabeçalhos. Chega![Ler mais](./freeze-panes-of-worksheet/).
 
  Mas e se você estiver navegando por seções específicas da planilha? É aqui que a divisão de painéis pode realmente brilhar. Ela permite que você visualize diferentes áreas da sua planilha ao mesmo tempo, facilitando a comparação de dados ou o rastreamento de alterações em várias partes da planilha. Este tutorial simplifica a tarefa de dividir painéis em algumas etapas fáceis que você pode dominar em pouco tempo.[Ler mais](./split-panes-of-worksheet/).
 

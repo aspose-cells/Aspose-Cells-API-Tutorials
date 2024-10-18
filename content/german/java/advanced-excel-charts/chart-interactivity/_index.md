@@ -16,7 +16,7 @@ Interaktive Diagramme fügen der Datenvisualisierung eine neue Dimension hinzu u
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Java-Entwicklungsumgebung
-- Aspose.Cells für Java-Bibliothek (Download von[Hier](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells für Java-Bibliothek (Download von[Hier](https://releases.aspose.com/cells/java/)
 
 ## Schritt 1: Einrichten Ihres Java-Projekts
 

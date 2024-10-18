@@ -38,7 +38,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Esses pacotes nos permitem acessar as classes e métodos fornecidos pelo Aspose.Cells, permitindo-nos manipular nossos arquivos do Excel com eficiência.
+Esses pacotes nos permitem acessar as classes e métodos fornecidos pelo Aspose.Cells, permitindo-nos manipular nossos arquivos Excel com eficiência.
 
 Vamos dividir as coisas em etapas gerenciáveis. Nós o guiaremos pelo processo de substituição de texto no Excel usando expressões regulares, focando especificamente em como substituir ocorrências da palavra "KIM" por "TIM".
 

@@ -14,7 +14,7 @@ url: /ja/java/advanced-excel-charts/combined-chart-types/
 
 ## Aspose.Cells for Java を理解する
 
-複合グラフの作成に進む前に、Aspose.Cells for Java とは何かを簡単に理解しましょう。これは、Excel スプレッドシートを操作するための包括的な機能を提供する Java ベースのライブラリです。これには、Excel ファイル内でグラフをプログラムによって作成、編集、および強化する機能が含まれます。
+複合グラフの作成に進む前に、Aspose.Cells for Java とは何かを簡単に理解しましょう。これは、Excel スプレッドシートを操作するための包括的な機能を提供する Java ベースのライブラリです。これには、Excel ファイル内でプログラムによってグラフを作成、編集、および強化する機能が含まれます。
 
 ## はじめる
 

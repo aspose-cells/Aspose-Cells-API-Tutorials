@@ -2,7 +2,7 @@
 title: Ajustar nível de compressão
 linktitle: Ajustar nível de compressão
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda como ajustar os níveis de compactação para arquivos do Excel usando o Aspose.Cells para .NET. Otimize os tamanhos dos seus arquivos de forma eficiente com este guia passo a passo.
+description: Aprenda como ajustar os níveis de compactação para arquivos do Excel usando o Aspose.Cells for .NET. Otimize os tamanhos dos seus arquivos de forma eficiente com este guia passo a passo.
 type: docs
 weight: 50
 url: /pt/net/excel-workbook/adjust-compression-level/
@@ -18,7 +18,7 @@ Antes de mergulhar nos detalhes dos níveis de compressão, vamos garantir que v
 1. Conhecimento básico de C#: Um entendimento básico de programação em C# é essencial. Se você se sente confortável com variáveis, loops e operações básicas de arquivo, você está pronto para começar!
 2. Biblioteca Aspose.Cells para .NET: Certifique-se de ter a biblioteca Aspose.Cells instalada. Você pode baixá-la do[site](https://releases.aspose.com/cells/net/) . Se você está apenas começando, considere obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
 3. Ambiente de desenvolvimento: configure seu ambiente de desenvolvimento, de preferência o Visual Studio, para escrever e executar seu código C#. 
-4. Arquivo Excel de Exemplo: Tenha um arquivo Excel grande pronto para teste. Você pode criar um ou usar qualquer arquivo existente, mas certifique-se de que ele seja grande o suficiente para ver os efeitos da compactação.
+4. Exemplo de arquivo Excel: Tenha um arquivo Excel grande pronto para teste. Você pode criar um ou usar qualquer arquivo existente, mas certifique-se de que ele seja grande o suficiente para ver os efeitos da compactação.
 
 Com esses pré-requisitos em vigor, vamos começar!
 
@@ -26,7 +26,7 @@ Com esses pré-requisitos em vigor, vamos começar!
 
 Antes de podermos manipular arquivos do Excel, precisamos importar os namespaces necessários. Este é um passo crucial que nos permite acessar as classes e métodos fornecidos pelo Aspose.Cells.
 
-### Importar o namespace Aspose.Cells
+### Importe o namespace Aspose.Cells
 
 ```csharp
 using Aspose.Cells.Rendering;
@@ -40,7 +40,7 @@ Agora que temos tudo configurado, vamos dividir o processo de ajuste dos níveis
 
 ## Etapa 1: configure seus diretórios
 
-Primeiro, precisamos definir onde nossos arquivos serão armazenados. Isso envolve especificar o diretório de origem para nosso arquivo de entrada e o diretório de saída para nossos arquivos compactados.
+Primeiramente, precisamos definir onde nossos arquivos serão armazenados. Isso envolve especificar o diretório de origem para nosso arquivo de entrada e o diretório de saída para nossos arquivos compactados.
 
 ```csharp
 // Diretório de origem

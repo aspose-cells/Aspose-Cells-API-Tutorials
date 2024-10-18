@@ -15,8 +15,8 @@ url: /ja/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 
 細かい点に入る前に、必要なものがすべて揃っていることを確認しましょう。成功するための前提条件の簡単なチェックリストを以下に示します。
 
-1. .NET Framework: マシンに .NET Framework がインストールされていることを確認してください。Aspose.Cells は、さまざまな .NET バージョンでシームレスに動作します。
-2.  Aspose.Cells for .NET: Aspose.Cellsライブラリをダウンロードしてインストールする必要があります。[ダウンロードリンク](https://releases.aspose.com/cells/net/).
+1. .NET Framework: お使いのマシンに .NET Framework がインストールされていることを確認してください。Aspose.Cells は、さまざまな .NET バージョンでシームレスに動作します。
+2. Aspose.Cells for .NET: Aspose.Cellsライブラリをダウンロードしてインストールする必要があります。[ダウンロードリンク](https://releases.aspose.com/cells/net/).
 3. 統合開発環境 (IDE): C# コードを記述して実行できる Visual Studio などの IDE を使用します。
 4. C# の基礎知識: C# の基礎知識があれば、このガイドで使用するコーディング手法に従うのに役立ちます。
 
@@ -61,7 +61,7 @@ string dataDir = "Your Document Directory";
 
 ## ステップ2: ワークブックを作成する
 
-次に、基本的には Excel ファイルである新しいワークブックを作成します。
+次に、基本的に Excel ファイルである新しいワークブックを作成します。
 
 ```csharp
 Workbook wb = new Workbook();
@@ -81,7 +81,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## ステップ4: セルにデータを入力する
 
-さて、セルにデータを入力してみましょう。この例では、値を入力します。`123`セルA1に入力します。
+では、セルにデータを入力してみましょう。この例では、値を入力します。`123`セルA1に入力します。
 
 ```csharp
 Cell cell = ws.Cells["A1"];
@@ -149,7 +149,7 @@ wb.Save(dataDir + "outputDBNumCustomFormatting.pdf", SaveFormat.Pdf);
 ## よくある質問
 
 ### Aspose.Cells とは何ですか?  
-Aspose.Cells は、開発者がプログラムによって Excel ファイルを作成、操作、変換できるようにする強力な .NET ライブラリです。
+Aspose.Cells は、開発者がプログラムで Excel ファイルを作成、操作、変換できるようにする強力な .NET ライブラリです。
 
 ### 他の種類のセルをフォーマットできますか?  
 はい。ワークシート内の任意のセルに、さまざまなスタイル、書式、さらには数式を適用できます。

@@ -17,7 +17,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã chuẩn bị 
 
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 2.  Aspose.Cells cho .NET: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang phát hành của Aspose](https://releases.aspose.com/cells/net/).
-3. Kiến thức cơ bản về C#: Việc quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn, nhưng đừng lo lắng nếu bạn là người mới—hướng dẫn này sẽ giải thích mọi thứ từng bước một!
+3. Kiến thức cơ bản về C#: Việc quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn, nhưng đừng lo nếu bạn là người mới—hướng dẫn này sẽ giải thích mọi thứ từng bước một!
 
 ## Nhập gói
 
@@ -44,7 +44,7 @@ Trước khi tạo sổ làm việc và biểu đồ, chúng ta cần thiết l�
 string outputDir = "Your Output Directory"; // Chỉ định thư mục đầu ra ở đây.
 ```
 
-Hãy nhớ thay thế "Thư mục đầu ra" bằng đường dẫn mà bạn muốn lưu hình ảnh biểu đồ.
+Hãy thay thế "Thư mục đầu ra" bằng đường dẫn mà bạn muốn lưu hình ảnh biểu đồ của mình.
 
 ## Bước 2: Tạo một Workbook
 
@@ -84,7 +84,7 @@ Trong đoạn mã này, chúng tôi sẽ điền một số giá trị số vào
 
 ## Bước 5: Tạo biểu đồ
 
-Bây giờ là lúc tạo biểu đồ của bạn. Chúng ta sẽ thêm một loại biểu đồ cột, rất phù hợp để so sánh các giá trị.
+Bây giờ là lúc tạo biểu đồ của bạn. Chúng ta sẽ thêm loại biểu đồ cột, rất phù hợp để so sánh các giá trị.
 
 ```csharp
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);

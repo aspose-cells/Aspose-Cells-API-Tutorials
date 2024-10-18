@@ -16,7 +16,7 @@ url: /ja/net/inserting-controls-in-charts/add-label-control-to-chart/
 細かい点に入る前に、始めるために必要なことを説明しましょう。
 
 - C# の基礎知識: C# プログラミングの基礎を理解することは非常に重要です。初心者でも心配しないでください。手順は明確かつ簡潔です。
-- Aspose.Cellsライブラリ: Aspose.Cellsライブラリがインストールされていることを確認してください。これはVisual StudioのNuGetパッケージマネージャーから行うことができます。まだインストールしていない場合は、[ダウンロードリンク](https://releases.aspose.com/cells/net/)図書館用。
+-  Aspose.Cellsライブラリ: Aspose.Cellsライブラリがインストールされていることを確認してください。これはVisual StudioのNuGetパッケージマネージャーから行うことができます。まだインストールしていない場合は、[ダウンロードリンク](https://releases.aspose.com/cells/net/)図書館用。
 - Visual Studio: コードを記述して実行するには、Visual Studio のような統合開発環境 (IDE) が必要です。
 
 ## パッケージのインポート
@@ -62,7 +62,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
-ここでは、`Workbook` Aspose.Cells のクラスを使用して Excel ファイルを開きます。まるで創造力が解き放たれる扉を開けたような感じです。
+ここでは、`Workbook`Aspose.Cells のクラスを使用して Excel ファイルを開きます。まるで創造力が解き放たれる扉を開けたような感じです。
 
 ## ステップ3: ワークシートにアクセスする
 

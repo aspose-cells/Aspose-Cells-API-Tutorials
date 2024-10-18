@@ -9,7 +9,7 @@ url: /ko/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-ax
 ---
 ## 소개
 
-Excel 파일을 조작할 때 Aspose.Cells for .NET은 Excel 관련 작업을 자동화하는 프로세스를 간소화하는 강력한 라이브러리로 돋보입니다. 보고서를 생성하든, 차트를 만들든, 복잡한 스프레드시트를 관리하든, 이 라이브러리는 꼭 필요한 도구입니다. 이 튜토리얼에서는 Microsoft Excel에서와 마찬가지로 차트 축의 자동 단위를 처리하는 방법을 살펴보겠습니다. Aspose.Cells의 세계에 깊이 들어가기 위해 코딩 장비를 챙기세요!
+Excel 파일을 조작할 때 Aspose.Cells for .NET은 Excel 관련 작업을 자동화하는 프로세스를 간소화하는 강력한 라이브러리로 돋보입니다. 보고서를 생성하든, 차트를 만들든, 복잡한 스프레드시트를 관리하든, 이 라이브러리는 바로 여러분에게 필요한 도구입니다. 이 튜토리얼에서는 Microsoft Excel에서와 마찬가지로 차트 축의 자동 단위를 처리하는 방법을 살펴보겠습니다. Aspose.Cells의 세계에 깊이 들어가기 위해 코딩 장비를 챙기세요!
 
 ## 필수 조건
 
@@ -17,8 +17,8 @@ Excel 파일을 조작할 때 Aspose.Cells for .NET은 Excel 관련 작업을 �
 
 1. Visual Studio 설치: .NET 코드를 작성하고 실행하려면 Visual Studio와 같은 IDE가 필요합니다.
 2. .NET Framework: 이 튜토리얼에서는 .NET Framework 4.0 이상을 사용한다고 가정합니다. 그러나 Aspose.Cells는 .NET Core와도 호환됩니다.
-3.  Aspose.Cells 라이브러리: 아직 다운로드하지 않았다면 Aspose 웹사이트에서 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/cells/net/) . 또한 무료 체험판을 통해 시작할 수도 있습니다.[여기](https://releases.aspose.com/).
-4.  샘플 Excel 파일: 우리는 샘플 Excel 파일을 사용할 것입니다`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. 작업 디렉토리에 이 파일이 준비되어 있는지 확인하세요.
+3.  Aspose.Cells 라이브러리: 아직 다운로드하지 않았다면 Aspose 웹사이트에서 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/cells/net/) . 무료 체험판을 통해 시작할 수도 있습니다.[여기](https://releases.aspose.com/).
+4. 샘플 Excel 파일: 우리는 샘플 Excel 파일을 사용할 것입니다`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. 작업 디렉토리에 이 파일이 준비되어 있는지 확인하세요.
 
 ## 패키지 가져오기
 
@@ -62,7 +62,7 @@ using Aspose.Cells.Charts;
 Excel 파일을 로드하기 전에 출력 및 소스 디렉토리를 설정해 보겠습니다. 이렇게 하면 파일이 저장되는 위치를 지정할 수 있습니다.
 
 ```csharp
-// 출력 디렉토리 - PDF가 저장될 위치
+//출력 디렉토리 - PDF가 저장될 위치
 string outputDir = "Your Output Directory"; // 여기에 출력 디렉토리를 지정하세요
 
 // 소스 디렉토리 - 샘플 Excel 파일이 있는 위치
@@ -108,7 +108,7 @@ Excel에서 차트의 주요 기능 중 하나는 차트 축에 대한 자동 �
 
 ```csharp
 // Y축의 주요 단위 설정
-ch.AxisY.MajorUnit = 10; // 귀하의 요구 사항에 맞게 설정할 수 있습니다
+ch.AxisY.MajorUnit = 10; //귀하의 요구 사항에 맞게 설정할 수 있습니다
 ```
 
 이제 자동 단위를 업데이트해 보겠습니다!
@@ -139,7 +139,7 @@ Aspose.Cells for .NET으로 작업하는 것은 효율적일 뿐만 아니라 �
 ## 자주 묻는 질문
 
 ### .NET용 Aspose.Cells란 무엇인가요?
-Aspose.Cells는 Excel 파일을 만들고, 조작하고, 변환하기 위한 강력한 .NET 라이브러리입니다.
+Aspose.Cells는 Excel 파일을 만들고, 조작하고, 변환하는 강력한 .NET 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?
  네! 무료 체험판을 통해 시작할 수 있습니다.[여기](https://releases.aspose.com/).
@@ -151,4 +151,4 @@ Aspose.Cells는 Excel 파일을 만들고, 조작하고, 변환하기 위한 강
 물론입니다! Aspose.Cells는 XLSX, HTML, 이미지 등 다양한 형식을 지원합니다.
 
 ### 문제가 발생하면 어디에서 지원을 받을 수 있나요?
-Aspose 커뮤니티에서 도움을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).
+ Aspose 커뮤니티에서 도움을 받을 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).

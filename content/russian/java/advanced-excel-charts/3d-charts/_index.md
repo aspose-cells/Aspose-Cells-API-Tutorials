@@ -79,7 +79,7 @@ worksheet.getCells().get("B4").putValue(30);
 
 ### Настройка диаграммы
 
-Теперь давайте создадим трехмерную столбчатую диаграмму и настроим ее.
+Теперь давайте создадим 3D-столбиковую диаграмму и настроим ее.
 
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.BAR_3_D, 5, 0, 15, 5);
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Установка диапазона данных для диаграммы
 chart.getNSeries().add("A2:B4", true);
 
-// Настройка атрибутов диаграммы
+//Настройка атрибутов диаграммы
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

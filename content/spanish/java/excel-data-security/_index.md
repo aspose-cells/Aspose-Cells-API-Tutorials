@@ -16,10 +16,10 @@ En una era en la que los datos son lo más importante, garantizar la seguridad d
 La protección con contraseña es su primera línea de defensa. Con Aspose.Cells para Java, puede establecer una contraseña para abrir y una contraseña para modificar sus archivos de Excel. Esta doble capa de protección garantiza que solo las personas autorizadas puedan acceder y realizar cambios en sus hojas de cálculo. Le proporcionaremos ejemplos de código para implementar esta medida de seguridad sin problemas.
 
 ## Cifrado de archivos
-En el mundo interconectado de hoy, el cifrado de archivos es imprescindible. Aspose.Cells para Java le permite cifrar sus archivos de Excel mediante algoritmos de cifrado estándar de la industria. Le guiaremos a través del proceso de cifrado de sus archivos y de descifrado cuando sea necesario.
+En el mundo interconectado de hoy, el cifrado de archivos es una necesidad. Aspose.Cells para Java le permite cifrar sus archivos de Excel mediante algoritmos de cifrado estándar de la industria. Le guiaremos a través del proceso de cifrado de sus archivos y de descifrado cuando sea necesario.
 
 ## Validación de datos
-Garantizar la integridad de los datos es fundamental. Exploraremos cómo usar reglas de validación de datos para evitar la entrada de datos errónea. Con Aspose.Cells para Java, puede configurar reglas de validación de datos que restrinjan la entrada de datos a criterios específicos, lo que garantiza que sus hojas de Excel permanezcan precisas y sin errores.
+Garantizar la integridad de los datos es fundamental. Exploraremos cómo usar reglas de validación de datos para evitar la entrada de datos erróneos. Con Aspose.Cells para Java, puede configurar reglas de validación de datos que restrinjan la entrada de datos a criterios específicos, lo que garantiza que sus hojas de Excel permanezcan precisas y sin errores.
 
 ## Tutoriales de seguridad de datos de Excel
 ### [Protección de contraseña de Excel](./excel-password-protection/)

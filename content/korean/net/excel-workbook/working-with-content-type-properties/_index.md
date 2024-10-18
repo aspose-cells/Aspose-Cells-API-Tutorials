@@ -9,7 +9,7 @@ url: /ko/net/excel-workbook/working-with-content-type-properties/
 ---
 ## 소개
 
-Aspose.Cells for .NET을 사용하여 Excel 파일 조작의 세계에 뛰어든다면 콘텐츠 유형 속성을 살펴보고 싶을 수 있습니다. 이러한 속성을 사용하면 통합 문서에 대한 사용자 지정 메타데이터를 정의할 수 있으며, 이는 다양한 파일 유형과 형식을 처리할 때 매우 유용할 수 있습니다. 자세한 데이터 관리가 필요한 애플리케이션을 빌드하든 단순히 Excel 파일에 추가 정보를 추가하려는 경우 콘텐츠 유형 속성을 이해하는 것은 중요한 기술입니다.
+Aspose.Cells for .NET을 사용하여 Excel 파일 조작의 세계에 뛰어든다면 콘텐츠 유형 속성을 살펴보고 싶을 것입니다. 이러한 속성을 사용하면 통합 문서에 대한 사용자 지정 메타데이터를 정의할 수 있으며, 이는 다양한 파일 유형과 형식을 처리할 때 매우 유용할 수 있습니다. 자세한 데이터 관리가 필요한 애플리케이션을 빌드하든 단순히 Excel 파일에 추가 정보를 추가하려는 경우 콘텐츠 유형 속성을 이해하는 것은 중요한 기술입니다.
 
 ## 필수 조건
 
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-이 스니펫에서는 ISO 8601에 따라 포맷된 현재 날짜 및 시간을 사용하여 "MK32"라는 속성을 만듭니다. 다음을 설정하여 이 속성을 null로 만들었습니다.`IsNillable` 에게`true`.
+이 스니펫에서는 ISO 8601에 따라 포맷된 현재 날짜와 시간을 사용하여 "MK32"라는 속성을 만듭니다. 다음을 설정하여 이 속성을 null로 만들었습니다.`IsNillable` 에게`true`.
 
 ## 4단계: 통합 문서 저장
 
@@ -117,7 +117,7 @@ Console.WriteLine("WorkingWithContentTypeProperties executed successfully.");
  무료 평가판을 다운로드할 수 있습니다.[대지](https://releases.aspose.com/).
 
 ### 더 복잡한 속성을 추가할 수 있는 방법이 있나요?
-물론입니다! 적절하게 직렬화할 수만 있다면 복잡한 객체를 콘텐츠 유형 속성에 추가할 수 있습니다.
+물론입니다! 적절하게 직렬화할 수만 있다면 콘텐츠 유형 속성에 복잡한 객체를 추가할 수 있습니다.
 
 ### 더 많은 문서는 어디에서 찾을 수 있나요?
  더 자세한 지침은 다음을 참조하세요.[Aspose.Cells 문서](https://reference.aspose.com/cells/net/).

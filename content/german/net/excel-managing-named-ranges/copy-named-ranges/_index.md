@@ -8,7 +8,7 @@ weight: 10
 url: /de/net/excel-managing-named-ranges/copy-named-ranges/
 ---
 ## Einführung
-Excel ist ein leistungsstarkes Tool, das weltweit von Millionen von Menschen zur Organisation und Analyse von Daten verwendet wird. Wenn es jedoch um die programmgesteuerte Bearbeitung von Excel-Dateien geht – beispielsweise das Kopieren benannter Bereiche –, kann es etwas knifflig werden. Glücklicherweise macht Aspose.Cells für .NET diese Aufgabe einfach und effizient. Dieser Artikel führt Sie Schritt für Schritt durch den Vorgang des Kopierens benannter Bereiche in Excel mit Aspose.Cells für .NET, sodass Sie ihn problemlos nachvollziehen können.
+Excel ist ein leistungsstarkes Tool, das von Millionen Menschen weltweit zur Organisation und Analyse von Daten verwendet wird. Wenn es jedoch um die programmgesteuerte Bearbeitung von Excel-Dateien geht – beispielsweise das Kopieren benannter Bereiche –, kann es etwas knifflig werden. Glücklicherweise macht Aspose.Cells für .NET diese Aufgabe einfach und effizient. Dieser Artikel führt Sie Schritt für Schritt durch den Vorgang des Kopierens benannter Bereiche in Excel mit Aspose.Cells für .NET, sodass Sie ihn problemlos nachvollziehen können.
 ## Voraussetzungen
 Bevor Sie sich in die Details des Kopierens benannter Bereiche stürzen, müssen Sie sicherstellen, dass Sie ein paar Dinge vorbereitet haben. Folgendes benötigen Sie:
 1. .NET-Umgebung: Stellen Sie sicher, dass Sie eine .NET-Entwicklungsumgebung eingerichtet haben. Sie können Visual Studio oder eine andere IDE Ihrer Wahl verwenden.
@@ -27,13 +27,13 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Mit diesem Code erhalten Sie Zugriff auf wichtige Kurse wie`Workbook`, `Worksheet` , Und`Range`, die Sie zum Bearbeiten von Excel-Dateien benötigen.
+Mit diesem Code erhalten Sie Zugriff auf wichtige Kurse wie`Workbook`, `Worksheet` Und`Range`, die Sie zum Bearbeiten von Excel-Dateien benötigen.
 
 Nachdem wir nun unsere Voraussetzungen geklärt haben, unterteilen wir den Prozess in leicht verständliche Schritte.
 ## Schritt 1: Richten Sie Ihr Ausgabeverzeichnis ein
 Zuerst müssen Sie festlegen, wo die resultierende Excel-Datei gespeichert werden soll. Das ist, als würden Sie Ihren Briefkasten einrichten, bevor Sie einen Brief erhalten!
 ```csharp
-string outputDir = "Your Document Directory\\"; // Stellen Sie sicher, dass Sie doppelte Backslashes für Verzeichnispfade verwenden
+string outputDir = "Your Document Directory\\"; // Stellen Sie sicher, dass Sie für Verzeichnispfade doppelte Backslashes verwenden
 ```
 ## Schritt 2: Erstellen Sie eine neue Arbeitsmappe
 Als Nächstes müssen Sie eine neue Arbeitsmappe instanziieren. Dies entspricht dem Öffnen einer neuen Tabelle in Excel. 
@@ -81,14 +81,14 @@ Als Nächstes benötigen Sie einen weiteren Bereich, in den Sie die Daten aus Ih
 Range range2 = worksheet.Cells.CreateRange("B3", "F3");
 range2.Name = "testrange"; // Benennung des zweiten Bereichs
 ```
-Dieser Schritt erstellt einen Bereich von B3 bis F3, den wir verwenden, um den Inhalt von „MyRange“ zu kopieren.
+Dieser Schritt erstellt einen Bereich von B3 bis F3, den wir zum Kopieren des Inhalts von „MyRange“ verwenden.
 ## Schritt 9: Kopieren Sie den benannten Bereich in den zweiten Bereich
 Jetzt kommt der spannende Teil – das Kopieren der Daten vom ersten in den zweiten Bereich!
 ```csharp
 range2.Copy(range1);
 ```
-Mit diesem Befehl können Sie Ihre Daten effektiv von „MyRange“ nach „testrange“ übertragen. Das ist wie das Erstellen einer Fotokopie eines wichtigen Dokuments – einfach und effizient!
-## Schritt 10: Speichern Sie die Arbeitsmappe
+Mit diesem Befehl können Sie Ihre Daten effektiv von „MyRange“ nach „testrange“ übertragen. Das ist, als würden Sie eine Fotokopie eines wichtigen Dokuments erstellen – einfach und effizient!
+## Schritt 10: Speichern der Arbeitsmappe
 Speichern Sie abschließend Ihre Arbeitsmappe im angegebenen Ausgabeverzeichnis.
 ```csharp
 workbook.Save(outputDir + "outputCopyNamedRanges.xlsx");
@@ -106,7 +106,7 @@ Und da haben Sie es! Sie haben mit Aspose.Cells für .NET erfolgreich benannte B
 ### Was ist Aspose.Cells für .NET?
 Aspose.Cells ist eine .NET-Bibliothek, die es Entwicklern ermöglicht, Excel-Dateien programmgesteuert zu erstellen, zu bearbeiten und zu konvertieren.
 ### Muss Excel installiert sein, um Aspose.Cells zu verwenden?
-Nein, Aspose.Cells funktioniert unabhängig von Excel, die Installation kann jedoch praktisch sein, um Ausgaben visuell zu testen.
+Nein, Aspose.Cells funktioniert unabhängig von Excel. Die Installation kann jedoch zum visuellen Testen von Ausgaben praktisch sein.
 ### Kann ich Aspose.Cells mit anderen Programmiersprachen verwenden?
 Aspose.Cells bietet verschiedene Versionen für verschiedene Sprachen, darunter Java und Python.
 ### Wie erhalte ich technischen Support für Aspose.Cells?

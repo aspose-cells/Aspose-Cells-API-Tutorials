@@ -48,9 +48,9 @@ string sourceDir = "Your Document Directory"; // Określ katalog dokumentów
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- W tym kroku deklarujemy zmienną`sourceDir` wskazujący na lokalizację pliku Excel. Następnie tworzymy nową instancję`Workbook`klasa do załadowania tego pliku. To jest jak otwarcie książki, którą chcemy przeczytać!
+ W tym kroku deklarujemy zmienną`sourceDir` wskazujący na lokalizację pliku Excel. Następnie tworzymy nową instancję`Workbook` klasa do załadowania tego pliku. To jest jak otwarcie książki, którą chcemy przeczytać!
 
-## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 2: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po załadowaniu skoroszytu następnym krokiem jest uzyskanie dostępu do pierwszego arkusza.
 
@@ -58,7 +58,7 @@ Po załadowaniu skoroszytu następnym krokiem jest uzyskanie dostępu do pierwsz
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Tutaj korzystamy z`Worksheets` zbiór naszego skoroszytu i dostęp do pierwszego arkusza (który zwykle ma indeks 0). Ten krok jest kluczowy, ponieważ wszystkie nasze działania filtrujące zostaną wykonane na tym arkuszu.
+ Tutaj korzystamy z`Worksheets`zbiór naszego skoroszytu i dostęp do pierwszego arkusza (który zwykle ma indeks 0). Ten krok jest kluczowy, ponieważ wszystkie nasze działania filtrujące zostaną wykonane na tym arkuszu.
 
 ## Krok 3: Zdefiniuj parametry filtru
 
@@ -82,11 +82,11 @@ string outputDir = "Your Document Directory"; // Określ swój katalog wyjściow
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Na koniec określamy, gdzie chcemy zapisać przefiltrowany skoroszyt, używając`Save` metoda. Możesz nadać jej nową nazwę (w tym przypadku,`outputAdvancedFilter.xlsx`) aby zachować oryginał w nienaruszonym stanie.
+ Na koniec określamy, gdzie chcemy zapisać przefiltrowany skoroszyt, używając`Save` metoda. Możesz nadać jej nową nazwę (w tym przypadku,`outputAdvancedFilter.xlsx`) aby zachować oryginał w nienaruszonym stanie.
 
 ## Wniosek
 
-I masz to! Udało Ci się zastosować zaawansowany filtr do arkusza Excela przy użyciu Aspose.Cells dla .NET. Ten przewodnik krok po kroku dostarczył Ci ram, których potrzebujesz, aby wykorzystać moc manipulacji danymi w swoich aplikacjach. Podobnie jak ten magik, teraz wiesz, jak sprawić, aby nieistotne dane zniknęły.
+masz to! Udało Ci się zastosować zaawansowany filtr do arkusza Excela przy użyciu Aspose.Cells dla .NET. Ten przewodnik krok po kroku dostarczył Ci ram, których potrzebujesz, aby wykorzystać moc manipulacji danymi w swoich aplikacjach. Podobnie jak ten magik, teraz wiesz, jak sprawić, aby nieistotne dane zniknęły.
 
 ## Najczęściej zadawane pytania
 
@@ -100,7 +100,7 @@ Nie, Aspose.Cells działa niezależnie i nie wymaga instalacji programu Microsof
  Tak, możesz wypróbować Aspose.Cells za darmo, pobierając wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę uzyskać pomoc, jeśli napotkam problemy?
-Oczywiście! Możesz uzyskać wsparcie społeczności na[Forum Aspose](https://forum.aspose.com/c/cells/9).
+ Oczywiście! Możesz uzyskać wsparcie społeczności na[Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?
  Możesz poprosić o tymczasową licencję na stronie zakupu[Tutaj](https://purchase.aspose.com/temporary-license/). 

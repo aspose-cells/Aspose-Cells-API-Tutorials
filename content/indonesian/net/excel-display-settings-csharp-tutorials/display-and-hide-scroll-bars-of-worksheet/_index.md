@@ -45,7 +45,7 @@ Di sinilah Anda menentukan jalur ke berkas Excel yang ingin Anda kerjakan.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Mengganti`YOUR DOCUMENT DIRECTORY`dengan jalur sebenarnya tempat file Excel Anda disimpan. Ini memungkinkan program Anda menemukan file yang diperlukan untuk dimanipulasi.
+ Mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat file Excel Anda disimpan. Ini memungkinkan program Anda menemukan file yang diperlukan untuk dimanipulasi.
 
 ## Langkah 2: Buat Aliran File
 
@@ -58,7 +58,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
   
  Itu`FileStream` class memungkinkan Anda membaca dan menulis ke file. Dalam kasus ini, kita membuka file Excel dalam mode baca.
 
-## Langkah 3: Membuat Objek Buku Kerja
+## Langkah 3: Membuat Instansi Objek Buku Kerja
 
  Selanjutnya, Anda perlu membuat`Workbook` objek yang mewakili berkas Excel Anda dalam kode.
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Ini`Workbook` Objek tersebut kini memuat semua data dan pengaturan berkas Excel Anda, sehingga memungkinkan manipulasi lebih lanjut dalam proses tersebut.
+ Ini`Workbook`Objek tersebut kini memuat semua data dan pengaturan berkas Excel Anda, sehingga memungkinkan manipulasi lebih lanjut dalam proses tersebut.
 
 ## Langkah 4: Sembunyikan Bilah Gulir Vertikal
 
@@ -123,7 +123,7 @@ Dengan mengikuti langkah-langkah mudah ini, Anda telah mempelajari cara menampil
  Ya! Anda hanya perlu mengaturnya`IsVScrollBarVisible` Dan`IsHScrollBarVisible` kembali ke`true`.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?  
-Aspose.Cells tidak sepenuhnya gratis, tetapi Anda dapat mencobanya secara gratis untuk waktu terbatas atau mempertimbangkan untuk membelinya[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells tidak sepenuhnya gratis, tetapi Anda dapat mencobanya secara gratis untuk waktu terbatas atau mempertimbangkan untuk membelinya[lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Jenis file Excel apa yang dapat saya manipulasi dengan Aspose.Cells?  
 Anda dapat bekerja dengan berbagai format Excel, termasuk .xls, .xlsx, .xlsm, .xlsb, dll.

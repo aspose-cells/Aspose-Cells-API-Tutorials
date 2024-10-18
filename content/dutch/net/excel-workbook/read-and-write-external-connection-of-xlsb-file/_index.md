@@ -15,7 +15,7 @@ Hallo, Excel-enthousiastelingen! Bent u klaar om te duiken in de fascinerende we
 
 Voordat we beginnen, heb je het volgende nodig:
 
-1. Basiskennis van C#: Kennis van de programmeertaal C# zal enorm helpen. Als je je op je gemak voelt bij het schrijven van C#-code, dan ben je klaar om te gaan!
+1. Basiskennis van C#: Kennis van de programmeertaal C# zal enorm helpen. Als je comfortabel bent met het schrijven van C#-code, dan ben je klaar om te gaan!
 2.  Aspose.Cells voor .NET: U moet deze bibliotheek in uw ontwikkelomgeving hebben geïnstalleerd. Als u dat nog niet hebt gedaan, kunt u het eenvoudig downloaden[hier](https://releases.aspose.com/cells/net/). 
 3. Een IDE: U hebt een code-editor of een Integrated Development Environment (IDE) nodig, zoals Visual Studio. 
 4. Voorbeeld XLSB-bestand: We werken met een voorbeeld XLSB-bestand dat externe verbindingen bevat. U kunt uw eigen maken of samples online downloaden. 
@@ -75,7 +75,7 @@ Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as A
 Nu u toegang hebt tot de databaseverbinding, gaan we de details ervan extraheren en afdrukken naar de console. Dit helpt ons om precies te zien waar we mee werken.
 
 ```csharp
-// Druk de naam, opdracht en verbindingsinfo van de DB-verbinding af
+// De naam, opdracht en verbindingsinformatie van de DB-verbinding afdrukken
 Console.WriteLine("Connection Name: " + dbCon.Name);
 Console.WriteLine("Command: " + dbCon.Command);
 Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
@@ -85,7 +85,7 @@ Met deze stap kunt u de huidige status van uw externe verbinding verifiëren. U 
 
 ## Stap 5: Wijzig de verbinding
 
-Soms is een naamswijziging voldoende om zaken duidelijker te maken of om te voldoen aan nieuwe naamgevingsconventies. Laten we de bestaande verbindingsnaam wijzigen naar iets relevanters.
+Soms is een naamswijziging voldoende om zaken duidelijker te maken of om te voldoen aan nieuwe naamgevingsconventies. Laten we de bestaande verbindingsnaam veranderen naar iets relevanters.
 
 ```csharp
 // De verbindingsnaam wijzigen

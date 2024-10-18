@@ -61,7 +61,7 @@ Cell cell = worksheet.getCells().find(lookupValue, null, tableRange, 0, columnIn
 
 ## Gestione del risultato
 
-Ora che abbiamo eseguito VLOOKUP, gestiamo il risultato.
+Ora che abbiamo eseguito CERCA.VERT, gestiamo il risultato.
 
 ```java
 if (cell != null) {

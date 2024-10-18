@@ -59,7 +59,7 @@ In diesem Schritt laden Sie die Excel-Datei, die die Diagramme enthält. Aspose.
 Workbook wb = new Workbook(sourceDir + "sampleReadManipulateExcel2016Charts.xlsx");
 ```
 
-Stellen Sie sicher, dass die Excel-Datei, auf die Sie sich beziehen, im angegebenen Pfad vorhanden ist. Andernfalls wird möglicherweise die Fehlermeldung „Datei nicht gefunden“ angezeigt.
+Stellen Sie sicher, dass die von Ihnen referenzierte Excel-Datei im angegebenen Pfad vorhanden ist. Andernfalls wird möglicherweise die Fehlermeldung „Datei nicht gefunden“ angezeigt.
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -101,7 +101,7 @@ Und jetzt beginnt der Spaß! Sie können den Titel jedes Diagramms dynamisch je 
 }
 ```
 
-Dieser Schritt personalisiert jedes Diagramm und macht Ihre Datenvisualisierung intuitiver.
+Durch diesen Schritt wird jedes Diagramm personalisiert und die Datenvisualisierung intuitiver.
 
 ## Schritt 7: Speichern Sie die Arbeitsmappe
 

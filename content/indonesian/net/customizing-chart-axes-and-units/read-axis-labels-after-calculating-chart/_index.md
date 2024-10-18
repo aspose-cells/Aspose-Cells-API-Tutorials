@@ -15,8 +15,8 @@ Saat bekerja dengan file Excel di .NET, salah satu pustaka paling canggih yang d
 
 Sebelum kita menyelami seluk-beluk kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1. Visual Studio: Anda harus sudah menginstal Visual Studio di komputer Anda. Jika belum, Anda dapat mengunduhnya dari[Situs web Microsoft](https://visualstudio.microsoft.com/).
-2.  Pustaka Aspose.Cells: Panduan ini mengasumsikan Anda memiliki pustaka Aspose.Cells. Anda dapat mengunduhnya dengan mudah dari[Halaman rilis Aspose](https://releases.aspose.com/cells/net/) Jika Anda tidak yakin harus mulai dari mana,[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) bisa menjadi teman terbaikmu!
+1.  Visual Studio: Anda harus sudah menginstal Visual Studio di komputer Anda. Jika belum, Anda dapat mengunduhnya dari[Situs web Microsoft](https://visualstudio.microsoft.com/).
+2.  Pustaka Aspose.Cells: Panduan ini mengasumsikan Anda memiliki pustaka Aspose.Cells. Anda dapat mengunduhnya dengan mudah dari[Halaman rilis Aspose](https://releases.aspose.com/cells/net/)Jika Anda tidak yakin harus mulai dari mana,[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) bisa menjadi teman terbaikmu!
 3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda memahami contoh dan mengikutinya tanpa hambatan.
 4.  File Excel: Pastikan Anda memiliki file Excel yang berisi grafik untuk tutorial ini. Anda dapat membuat contoh file Excel bernama`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` untuk tujuan pengujian.
 5. Lingkungan .NET: Pastikan lingkungan .NET Anda telah diatur dengan benar. Tutorial ini menargetkan kerangka kerja .NET, jadi pastikan Anda siap!
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- Itu`Workbook`class adalah gerbang Anda ke berkas Excel. Dengan menyediakan jalur lengkap, kita membuat contoh buku kerja baru yang menyimpan data Excel kita.
+ Itu`Workbook` class adalah gerbang Anda ke berkas Excel. Dengan menyediakan jalur lengkap, kita membuat contoh buku kerja baru yang menyimpan data Excel kita.
 
 ## Langkah 3: Akses Lembar Kerja Pertama
 
@@ -98,7 +98,7 @@ Sekarang, mari kita baca label sumbu dari sumbu kategori.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Di sini, kami menarik label dari sumbu kategori dan menyimpannya di`ArrayList`Daftar ini penting untuk mengulang dan menampilkan label Anda.
+ Di sini, kita menarik label dari sumbu kategori dan menyimpannya di`ArrayList`Daftar ini penting untuk mengulang dan menampilkan label Anda.
 
 ## Langkah 7: Cetak Label Sumbu ke Konsol
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Potongan ini pertama-tama menampilkan judul dan baris pemisah. Kemudian, kita mengulang setiap label dalam`lstLabels` ArrayList dan cetak ke konsol. Jika ada sepuluh label, Anda akan melihat semuanya di sana!
+Potongan ini pertama-tama menampilkan judul dan baris pemisah. Kemudian, kita mengulang setiap label dalam`lstLabels` ArrayList dan cetak ke konsol. Jika ada sepuluh label, Anda akan melihat masing-masingnya di sana!
 
 ## Langkah 8: Pesan Terakhir
 
@@ -127,7 +127,7 @@ Ini adalah pengingat ramah bahwa proses Anda berjalan lancar!
 
 ## Kesimpulan
 
-Nah, itu dia—panduan lengkap tentang cara membaca label sumbu kategori dari bagan dalam file Excel menggunakan pustaka Aspose.Cells untuk .NET. Cukup mudah, bukan? Hanya dengan beberapa baris kode, Anda dapat menarik informasi penting dari spreadsheet dan mengintegrasikannya ke dalam aplikasi Anda dengan mudah.
+Nah, itu dia—panduan lengkap tentang cara membaca label sumbu kategori dari bagan dalam file Excel menggunakan pustaka Aspose.Cells untuk .NET. Cukup mudah, bukan? Hanya dengan beberapa baris kode, Anda dapat menarik informasi penting dari lembar kerja dan mengintegrasikannya ke dalam aplikasi Anda dengan mudah.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -141,7 +141,7 @@ Aspose.Cells adalah pustaka yang hebat untuk memanipulasi file Excel dalam .NET.
  Anda dapat membeli lisensi untuk Aspose.Cells melalui[halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
- Anda dapat mengunjungi forum Aspose untuk mendapatkan dukungan[Di Sini](https://forum.aspose.com/c/cells/9).
+Anda dapat mengunjungi forum Aspose untuk mendapatkan dukungan[Di Sini](https://forum.aspose.com/c/cells/9).
 
 ### Bisakah saya mendapatkan lisensi sementara?
  Ya! Aspose menawarkan lisensi sementara yang dapat Anda minta dari[tautan ini](https://purchase.aspose.com/temporary-license/).

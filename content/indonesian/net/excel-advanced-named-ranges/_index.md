@@ -15,13 +15,13 @@ Saat menyelami fungsi Excel tingkat lanjut, rentang bernama akan menonjol. Renta
 
 Mari kita mulai dengan cara mudah mengidentifikasi sel dalam rentang bernama menggunakan Aspose.Cells untuk .NET. Prosesnya lancar! Pertama, Anda akan menentukan rentang bernama dalam berkas Excel Anda. Aspose membuat ini sangat mudah digunakan. Yang Anda perlukan hanyalah beberapa baris kode untuk mengakses dan memanipulasi data Anda. Dengan mampu mengidentifikasi sel tertentu dalam rentang bernama, Anda dapat menyederhanakan alur kerja Anda secara signifikan. 
 
-Pertimbangkan ini: Anda memiliki laporan penjualan dengan berbagai wilayah yang ditandai dengan rentang bernama. Daripada memfilter setiap kali Anda ingin mengekstrak informasi, Anda dapat langsung mengaksesnya melalui nama. Ini tidak hanya menghemat waktu tetapi juga meminimalkan kesalahan. Jika Anda ingin mempelajarinya secara mendetail, lihat tutorial kami di[Mengidentifikasi Sel dalam Rentang Bernama](./identify-cells-in-named-range/). 
+ Pertimbangkan ini: Anda memiliki laporan penjualan dengan berbagai wilayah yang ditandai dengan rentang bernama. Daripada memfilter setiap kali Anda ingin mengekstrak informasi, Anda dapat langsung mengaksesnya melalui nama. Ini tidak hanya menghemat waktu tetapi juga meminimalkan kesalahan. Jika Anda ingin mempelajarinya secara mendetail, lihat tutorial kami di[Mengidentifikasi Sel dalam Rentang Bernama](./identify-cells-in-named-range/). 
 
 ## Gabungkan Sel dalam Rentang Bernama di Excel
 
 Berikutnya adalah salah satu operasi yang paling menarik secara visual namun praktis—menggabungkan sel dalam rentang bernama. Ingin membuat lembar kerja Anda lebih terorganisasi? Menggabungkan sel dapat membantu Anda membuat tajuk yang mencakup beberapa kolom atau baris, sehingga laporan Anda tampak bersih dan profesional. Dengan menggunakan Aspose.Cells for .NET, menggabungkan sel menjadi sangat mudah. 
 
-Keindahan fungsi ini terletak pada kemudahan penggunaannya. Anda dapat menggabungkan sel secara terprogram, yang berarti pemformatan Anda dapat diotomatisasi. Bayangkan membuat laporan mingguan di mana tajuknya secara otomatis digabungkan setiap saat. Dengan Aspose, tugas ini hanya memerlukan beberapa klik dan baris kode. Ingin tahu cara melakukannya? Kunjungi panduan kami di[Menggabungkan Sel dalam Rentang Bernama](./merge-cells-in-named-range/).
+ Keindahan fungsi ini terletak pada kemudahan penggunaannya. Anda dapat menggabungkan sel secara terprogram, yang berarti pemformatan Anda dapat diotomatisasi. Bayangkan membuat laporan mingguan di mana tajuknya secara otomatis digabungkan setiap saat. Dengan Aspose, tugas ini hanya memerlukan beberapa klik dan baris kode. Ingin tahu cara melakukannya? Kunjungi panduan kami di[Menggabungkan Sel dalam Rentang Bernama](./merge-cells-in-named-range/).
 
 ## Operasi Lanjutan dengan Rentang Bernama dalam Tutorial Excel
 ### [Mengidentifikasi Sel dalam Rentang Bernama di Excel](./identify-cells-in-named-range/)

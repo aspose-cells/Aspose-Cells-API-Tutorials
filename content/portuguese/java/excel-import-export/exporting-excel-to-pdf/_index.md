@@ -55,7 +55,7 @@ public class ExcelToPdfConverter {
 }
 ```
 
- Certifique-se de substituir`"path/to/your/excel/file.xlsx"` com o caminho real para o seu arquivo Excel.
+ Certifique-se de substituir`"path/to/your/excel/file.xlsx"` com o caminho real para seu arquivo Excel.
 
 ## Etapa 3: converter Excel para PDF
 
@@ -71,7 +71,7 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 
 ## Etapa 4: aprimore seu aplicativo Java
 
-Neste estágio, você converteu com sucesso um arquivo Excel para um documento PDF. Você pode aprimorar ainda mais seu aplicativo Java incorporando recursos adicionais, tratamento de erros ou interações do usuário, conforme necessário.
+Neste estágio, você converteu com sucesso um arquivo Excel para um documento PDF. Você pode aprimorar ainda mais seu aplicativo Java incorporando recursos adicionais, tratamento de erros ou interações do usuário conforme necessário.
 
 ## Conclusão
 

@@ -42,7 +42,7 @@ using Aspose.Cells;
 string outputDir = "Your Output Directory";
 ```
 
-在此步骤中，指定要保存 Excel 文件的位置。替换`"Your Output Directory"`替换为文件的实际存放路径。这就像在开始绘画之前设置工作区一样——您不会想把颜料弄得到处都是吧！
+在此步骤中，指定要保存 Excel 文件的位置。替换`"Your Output Directory"`替换为文件的实际存放路径。这就像在开始绘画之前设置工作区一样——您不会想把颜料弄得到处都是！
 
 ## 步骤 2：创建工作簿
 
@@ -79,7 +79,7 @@ worksheet.Cells["B4"].PutValue(40);
 
 ## 步骤5：添加类别标签
 
-标记数据类别也很重要，这样图表才一目了然。
+标记数据类别也很重要，这样图表才能一目了然。
 
 ```csharp
 worksheet.Cells["C1"].PutValue("Q1");
@@ -98,7 +98,7 @@ worksheet.Cells["C4"].PutValue("Y2");
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
 ```
 
-这行代码在工作表的特定位置创建柱形图。将此步骤视为勾勒绘画轮廓 - 它为下一步要填写的内容设置了框架。
+这行代码在工作表内的特定位置创建柱形图。将此步骤视为勾勒绘画轮廓 - 它为下一步要填写的内容设置了框架。
 
 ## 步骤 7：访问新添加的图表
 
@@ -136,11 +136,11 @@ workbook.Save(outputDir + "outputSettingChartsData.xlsx");
 Console.WriteLine("SettingChartsData executed successfully.");
 ```
 
-此步骤为我们的过程画上了句号，让我们知道我们的图表已成功创建并保存。可以把它想象成一场精彩表演后的掌声！
+此步骤结束了我们的流程，让我们知道我们的图表已成功创建并保存。 把它想象成一场精彩表演后的掌声！
 
 ## 结论
 
-使用 Aspose.Cells for .NET 设置图表数据并非一项艰巨的任务。通过遵循这些步骤，您可以创建具有视觉吸引力的图表，从而简化数据解释。无论您处理的是财务数据、项目时间表还是调查结果，这些可视化表示提供的见解都是无价的。那么，为什么不将图表纳入您的下一份报告中并给您的观众留下深刻印象呢？
+使用 Aspose.Cells for .NET 设置图表数据并非一项艰巨的任务。通过遵循以下步骤，您可以创建具有视觉吸引力的图表，从而简化数据解释。无论您处理的是财务数据、项目时间表还是调查结果，这些可视化表示提供的见解都是无价的。那么，为什么不将图表纳入您的下一份报告中并给您的观众留下深刻印象呢？
 
 ## 常见问题解答
 

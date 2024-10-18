@@ -54,9 +54,9 @@ Először inicializáljuk a munkafüzetünket, és elérjük a kívánt munkalap
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
-//Az Excel fájl első munkalapjának elérése
+// Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -100,7 +100,7 @@ Az Aspose.Cells egy robusztus .NET-könyvtár az Excel-fájlok programozott keze
 Igen! Regisztrálhat egy ingyenes próbaverzióra[itt](https://releases.aspose.com/).
 
 ### Hogyan vásárolhatok Aspose.Cells-t?
- Meg tudod vásárolni[itt](https://purchase.aspose.com/buy).
+ Megteheti a vásárlást[itt](https://purchase.aspose.com/buy).
 
 ### Milyen támogatási lehetőségek állnak rendelkezésre?
  Az Aspose egy fórumot kínál, ahol támogatást kaphat, és megvitathatja a problémákat más felhasználókkal. Nézd meg[itt](https://forum.aspose.com/c/cells/9).

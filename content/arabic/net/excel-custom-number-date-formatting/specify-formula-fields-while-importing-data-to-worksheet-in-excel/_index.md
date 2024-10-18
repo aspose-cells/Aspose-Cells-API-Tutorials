@@ -16,7 +16,7 @@ url: /ar/net/excel-custom-number-date-formatting/specify-formula-fields-while-im
 قبل الغوص في الكود، دعنا نتأكد من أن لديك كل ما تحتاجه. 
 
 1. Visual Studio أو أي بيئة تطوير متكاملة (IDE) لـ .NET: تأكد من أن لديك بيئة تطوير متكاملة مناسبة لكتابة وتشغيل كود C#.
-2. Aspose.Cells لـ .NET: ستحتاج إلى تنزيل مكتبة Aspose.Cells والرجوع إليها في مشروعك. يمكنك تنزيلها من[إصدارات Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells لـ .NET: ستحتاج إلى تنزيل مكتبة Aspose.Cells والرجوع إليها في مشروعك. يمكنك تنزيلها من[إصدارات Aspose](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة بلغة C# ومفاهيم البرمجة الموجهة للكائنات على فهم الأمثلة بشكل أفضل.
 4. .NET Framework: يفترض هذا البرنامج التعليمي أنك تستخدم .NET Framework 4.5 أو أعلى.
 
@@ -24,7 +24,7 @@ url: /ar/net/excel-custom-number-date-formatting/specify-formula-fields-while-im
 
 ## استيراد الحزم
 
-قبل أن تبدأ في كتابة الكود الخاص بك، ستحتاج إلى استيراد مساحة اسم Aspose.Cells اللازمة. يتم ذلك عادةً في الجزء العلوي من ملف C# الخاص بك:
+قبل أن تبدأ في كتابة الكود الخاص بك، ستحتاج إلى استيراد مساحة اسم Aspose.Cells الضرورية. يتم ذلك عادةً في الجزء العلوي من ملف C# الخاص بك:
 
 ```csharp
 using Aspose.Cells;
@@ -116,7 +116,7 @@ opts.IsFormulas = new bool[] { false, false, true, true };
 ws.Cells.ImportCustomObjects(dis, 0, 0, opts);
 ```
 
-يقوم هذا الخط باستيراد البيانات بشكل فعال بدءًا من الخلية A1.
+يقوم هذا الخط باستيراد البيانات فعليًا بدءًا من الخلية A1.
 
 ## الخطوة 8: حساب الصيغ
 
@@ -168,7 +168,7 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
 Aspose.Cells عبارة عن مكتبة .NET مصممة لإنشاء ملفات Excel ومعالجتها وتحويلها برمجيًا.
 
 ### كيف أقوم بتثبيت Aspose.Cells لـ .NET؟
- يمكنك تنزيله من[إصدارات Aspose](https://releases.aspose.com/cells/net/)وأشير إليه في مشروعك.
+ يمكنك تنزيله من[إصدارات Aspose](https://releases.aspose.com/cells/net/) وأشير إليه في مشروعك.
 
 ### هل يمكنني استخدام Aspose.Cells مجانًا؟
  نعم، تقدم Aspose نسخة تجريبية مجانية متاحة على[هذا الرابط](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells عبارة عن مكتبة .NET مصممة لإنشاء ملفات 
  يمكن العثور على أمثلة ووثائق إضافية في[صفحة توثيق Aspose](https://reference.aspose.com/cells/net/).
 
 ### ماذا لو واجهت مشاكل أثناء استخدام Aspose؟
- يمكنك طلب المساعدة من منتدى دعم Aspose[هنا](https://forum.aspose.com/c/cells/9).
+يمكنك طلب المساعدة من منتدى دعم Aspose[هنا](https://forum.aspose.com/c/cells/9).
  

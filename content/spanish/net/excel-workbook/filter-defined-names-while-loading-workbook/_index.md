@@ -47,7 +47,7 @@ LoadOptions opts = new LoadOptions();
 
 ## Paso 2: Establecer filtro de carga
 
-continuación, debemos definir qué datos queremos filtrar al cargar el libro de trabajo. En este caso, queremos evitar cargar los nombres definidos.
+A continuación, debemos definir qué datos queremos filtrar al cargar el libro de trabajo. En este caso, queremos evitar cargar los nombres definidos.
 
 ```csharp
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);

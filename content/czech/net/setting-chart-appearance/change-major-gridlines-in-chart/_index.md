@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Aktualizujte požadovanou cestu
  Dále musíte vytvořit novou instanci souboru`Workbook` třída. Tento objekt bude reprezentovat váš soubor Excel a umožní vám manipulovat s jeho obsahem.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ V tomto kódu určíme typ grafu (v tomto případě sloupcový graf) a pozici, 
 
 ## Krok 6: Přístup k instanci grafu
 
- Jakmile vytvoříme graf, potřebujeme získat přístup k jeho instanci, abychom mohli upravit jeho vlastnosti. To se provádí načtením přes`Charts`sbírka.
+Jakmile vytvoříme graf, potřebujeme získat přístup k jeho instanci, abychom mohli upravit jeho vlastnosti. To se provádí načtením přes`Charts`sbírka.
 
 ```csharp
 // Přístup k instanci nově přidaného grafu
@@ -134,7 +134,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-V tomto kódu nastavujeme různé barvy pro různé části grafu. Přizpůsobením vzhledu mohou být vaše data mnohem poutavější!
+tomto kódu nastavujeme různé barvy pro různé části grafu. Přizpůsobením vzhledu mohou být vaše data mnohem poutavější!
 
 ## Krok 9: Změňte barvy hlavní mřížky
 
@@ -173,7 +173,7 @@ Tento jednoduchý výstup z konzoly vás informuje, že váš program běžel sp
 
 ## Závěr
 
-tady to máte! Úspěšně jste se naučili, jak změnit hlavní čáry mřížky v grafu pomocí Aspose.Cells for .NET. Podle tohoto podrobného průvodce jste nejen programově manipulovali se soubory Excelu, ale také zlepšili jejich vizuální přitažlivost pomocí přizpůsobení barev. Nebojte se dále experimentovat s Aspose.Cells, abyste prohloubili své dovednosti prezentace dat a udělejte své grafy ještě dynamičtějšími!
+A tady to máte! Úspěšně jste se naučili, jak změnit hlavní čáry mřížky v grafu pomocí Aspose.Cells for .NET. Podle tohoto podrobného průvodce jste nejen programově manipulovali se soubory Excelu, ale také zlepšili jejich vizuální přitažlivost pomocí přizpůsobení barev. Nebojte se dále experimentovat s Aspose.Cells, abyste prohloubili své dovednosti prezentace dat a udělejte své grafy ještě dynamičtějšími!
 
 ## FAQ
 
@@ -184,7 +184,7 @@ Aspose.Cells je .NET knihovna určená pro vytváření, manipulaci a správu so
  Ano, můžete se přihlásit k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Jak mohu změnit další prvky v grafu pomocí Aspose.Cells?  
- Různé vlastnosti grafu můžete podobně přizpůsobit přístupem k prvkům grafu prostřednictvím`Chart` třídy, jako jsou názvy, legendy a štítky dat.
+ Různé vlastnosti grafu můžete upravit podobně přístupem k prvkům grafu prostřednictvím`Chart` třídy, jako jsou názvy, legendy a štítky dat.
 
 ### Jaké formáty souborů Aspose.Cells podporuje?  
 Aspose.Cells podporuje více formátů souborů, včetně XLSX, XLS, CSV a dalších.

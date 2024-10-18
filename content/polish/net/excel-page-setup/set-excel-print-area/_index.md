@@ -13,7 +13,7 @@ Jeśli chodzi o programowe zarządzanie plikami Excela, wielu deweloperów zwrac
 
 ## Wymagania wstępne
 
-Zanim zanurzymy się w naszej przygodzie z kodowaniem, poświęćmy chwilę, aby upewnić się, że masz wszystko, czego potrzebujesz, aby to zrobić. Oto lista kontrolna:
+Zanim zanurzymy się w naszej przygodzie z kodowaniem, poświęćmy chwilę, aby upewnić się, że masz wszystko, czego potrzebujesz, aby podążać za tym. Oto lista kontrolna:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio, ponieważ będziemy używać tego środowiska programistycznego.
 2. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z .NET Framework zgodnym z Aspose.Cells. Zazwyczaj .NET Core lub .NET Framework 4.5 i nowsze będą działać.
@@ -81,7 +81,7 @@ Teraz przechodzimy do sedna sprawy: zdefiniowania, którą część arkusza wydr
 pageSetup.PrintArea = "A1:T35";
 ```
 
-Ten wiersz w zasadzie mówi Excelowi: „Hej, gdy drukujesz, skup się tylko na tym określonym obszarze”. To tak, jakbyś wybierał, co uwzględnić w swoim filmie z najważniejszymi momentami!
+Ten wiersz w zasadzie mówi programowi Excel: „Hej, gdy drukujesz, skup się tylko na tym określonym obszarze”. To tak, jakbyś wybierał, co uwzględnić w swoim filmie z najważniejszymi momentami!
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -105,7 +105,7 @@ Ustawienie obszaru wydruku w pliku Excel przy użyciu Aspose.Cells dla .NET moż
 Aspose.Cells to biblioteka .NET umożliwiająca tworzenie, modyfikowanie i konwertowanie arkuszy kalkulacyjnych programu Excel bez konieczności korzystania z programu Microsoft Excel.
 
 ### Jak pobrać Aspose.Cells?
- Możesz pobrać Aspose.Cells dla .NET ze strony[strona wydania](https://releases.aspose.com/cells/net/).
+ Aspose.Cells dla .NET można pobrać ze strony[strona wydania](https://releases.aspose.com/cells/net/).
 
 ### Czy mogę używać Aspose.Cells za darmo?
  Tak, Aspose oferuje[bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować funkcje biblioteki.

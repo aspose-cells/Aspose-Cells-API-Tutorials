@@ -13,7 +13,7 @@ Jelajahi koleksi lengkap Tutorial Aspose.Cells untuk .NET kami! Baik Anda seoran
 
 ## Tingkatkan Keamanan Excel Anda 
 
- Dalam hal mengamankan data Excel Anda, menggunakan Aspose.Cells untuk .NET seperti memiliki perangkat yang memungkinkan Anda menyesuaikan kinerja lembar kerja Anda. Ambil contoh, tutorial tentang[Pengaturan Perlindungan Lanjutan Untuk Lembar Kerja Excel](./advanced-protection-settings-for-excel-worksheet/)Panduan ini memandu Anda menerapkan langkah-langkah perlindungan yang canggih. Bayangkan mencoba menjaga harta benda berharga Anda tetap aman; Anda tidak akan menggunakan kunci yang rapuh. Sebaliknya, Anda akan menggunakan sistem keamanan yang tinggi! Demikian pula, tutorial ini mengajarkan Anda fitur-fitur tangguh yang tersedia dengan Aspose, yang memungkinkan Anda melindungi data Anda secara efektif.
+ Dalam hal mengamankan data Excel Anda, menggunakan Aspose.Cells untuk .NET seperti memiliki perangkat yang memungkinkan Anda untuk menyesuaikan kinerja lembar kerja Anda. Ambil contoh, tutorial tentang[Pengaturan Perlindungan Lanjutan Untuk Lembar Kerja Excel](./advanced-protection-settings-for-excel-worksheet/)Panduan ini memandu Anda menerapkan langkah-langkah perlindungan yang canggih. Bayangkan mencoba menjaga harta benda berharga Anda tetap aman; Anda tidak akan menggunakan kunci yang rapuh. Sebaliknya, Anda akan menggunakan sistem keamanan yang tinggi! Demikian pula, tutorial ini mengajarkan Anda fitur-fitur tangguh yang tersedia dengan Aspose, yang memungkinkan Anda melindungi data Anda secara efektif.
 
 ## Mengunci Sel Menjadi Mudah  
 

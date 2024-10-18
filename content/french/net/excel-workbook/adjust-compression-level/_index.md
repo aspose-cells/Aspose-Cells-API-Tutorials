@@ -15,7 +15,7 @@ Lorsqu'il s'agit de gérer des fichiers Excel volumineux, un stockage efficace e
 
 Avant de plonger dans le vif du sujet des niveaux de compression, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer :
 
-1. Connaissances de base de C# : une compréhension fondamentale de la programmation C# est essentielle. Si vous êtes à l'aise avec les variables, les boucles et les opérations de base sur les fichiers, vous êtes prêt à commencer !
+1. Connaissances de base de C# : une compréhension fondamentale de la programmation C# est essentielle. Si vous êtes à l'aise avec les variables, les boucles et les opérations de base sur les fichiers, vous êtes prêt à partir !
 2. Bibliothèque Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est installée. Vous pouvez la télécharger à partir du[site web](https://releases.aspose.com/cells/net/) Si vous débutez, pensez à profiter d'un essai gratuit[ici](https://releases.aspose.com/).
 3. Environnement de développement : configurez votre environnement de développement, idéalement Visual Studio, pour écrire et exécuter votre code C#. 
 4. Exemple de fichier Excel : préparez un fichier Excel volumineux pour les tests. Vous pouvez en créer un ou utiliser n'importe quel fichier existant, mais assurez-vous qu'il est suffisamment volumineux pour voir les effets de la compression.

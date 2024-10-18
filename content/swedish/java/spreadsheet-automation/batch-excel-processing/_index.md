@@ -25,7 +25,7 @@ Att automatisera batch Excel-bearbetning erbjuder flera fördelar:
 
  För att börja, se till att du har Aspose.Cells för Java installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/java/).
 
-### 2. Initiering av Aspose.Cells
+### 2. Initialisering av Aspose.Cells
 
 Låt oss skapa en Java-applikation och initiera Aspose.Cells:
 

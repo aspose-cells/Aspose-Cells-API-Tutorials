@@ -18,7 +18,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 1.  Aspose.Cells for .NET Library – 确保已安装。您可以[点击此处下载库](https://releases.aspose.com/cells/net/).
 2. .NET Framework – 确保您运行的是兼容版本的 .NET Framework。Aspose.Cells for .NET 支持从 2.0 开始的 .NET Framework 版本。
 3. 开发环境——Visual Studio 或任何其他 C# IDE 都非常适合此任务。
-4. C# 基础知识——您不需要成为一名巫师，但了解基本语法会有所帮助。
+4. C# 基础知识 – 您不需要成为一名巫师，但了解基本语法会有所帮助。
 
 一旦设置了这些先决条件，您就可以顺利地遵循本教程。
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 步骤 2：实例化工作簿对象
 
-现在路径已设置，我们需要打开 Excel 文件。在 Aspose.Cells 中，您可以通过 Workbook 对象管理 Excel 文件。此对象包含 Excel 文件中的所有工作表、图表和设置。
+现在路径已经设置好了，我们需要打开Excel文件。在Aspose.Cells中，你通过Workbook对象管理Excel文件。该对象包含Excel文件中的所有工作表、图表和设置。
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -75,7 +75,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 在 Excel 电子表格中显示标签。这是一项简单的任务，但在您自动执行 Excel 操作时也非常有用。Aspose.Cells 让您完全控制 Excel 文件，而无需安装 Microsoft Office。从控制标签可见性到处理格式和公式等复杂任务，Aspose.Cells 只需几行代码即可实现这一切。
+就这样！您已成功使用 Aspose.Cells for .NET 在 Excel 电子表格中显示标签。这是一项简单的任务，但在您自动执行 Excel 操作时也非常有用。Aspose.Cells 让您可以完全控制 Excel 文件，而无需安装 Microsoft Office。从控制标签可见性到处理格式和公式等复杂任务，Aspose.Cells 只需几行代码即可实现这一切。
 
 ## 常见问题解答
 

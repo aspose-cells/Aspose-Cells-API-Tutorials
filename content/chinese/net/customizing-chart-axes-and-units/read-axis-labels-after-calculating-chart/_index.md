@@ -9,13 +9,13 @@ url: /zh/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 ---
 ## 介绍
 
-在 .NET 中处理 Excel 文件时，您可以使用的最强大的库之一就是 Aspose.Cells。它允许您轻松操作电子表格，无论您是读取数据、创建图表还是执行复杂的计算。在本教程中，我们将深入研究一项特定功能：计算图表后从图表中读取轴标签。如果您想知道如何以编程方式提取这些标签，那么您来对地方了！我们将逐步分解，并在此过程中提供所有必要的细节。
+在 .NET 中处理 Excel 文件时，您可以使用的最强大的库之一是 Aspose.Cells。它允许您轻松操作电子表格，无论您是读取数据、创建图表还是执行复杂的计算。在本教程中，我们将深入研究一项特定功能：计算图表后从图表中读取轴标签。如果您想知道如何以编程方式提取这些标签，那么您来对地方了！我们将逐步分解，并在此过程中提供所有必要的细节。
 
 ## 先决条件
 
 在深入研究代码细节之前，让我们确保您已准备好开始所需的一切：
 
-1. Visual Studio：您的计算机上应该已安装 Visual Studio。如果尚未安装，可以从[Microsoft 网站](https://visualstudio.microsoft.com/).
+1.  Visual Studio：您的计算机上应该已安装 Visual Studio。如果尚未安装，可以从[Microsoft 网站](https://visualstudio.microsoft.com/).
 2. Aspose.Cells 库：本指南假设您拥有 Aspose.Cells 库。您可以从以下位置轻松下载[Aspose 的发布页面](https://releases.aspose.com/cells/net/)。如果你不确定从哪里开始，[Aspose.Cells 文档](https://reference.aspose.com/cells/net/)可以成为你最好的朋友！
 3. C# 基础知识：熟悉 C# 编程语言将帮助您理解示例并顺利跟进。
 4.  Excel 文件：确保您拥有包含本教程图表的 Excel 文件。您可以创建一个名为`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`用于测试目的。
@@ -135,7 +135,7 @@ Console.WriteLine("ReadAxisLabelsAfterCalculatingTheChart executed successfully.
 Aspose.Cells 是一个功能强大的库，用于在 .NET 中操作 Excel 文件。它提供读取、写入和图表操作等各种功能。
 
 ### 我可以免费试用 Aspose.Cells 吗？
-是的！您可以从[这里](https://releases.aspose.com/).
+是的！你可以从[这里](https://releases.aspose.com/).
 
 ### 如何购买 Aspose.Cells？
 您可以通过其购买 Aspose.Cells 许可证[购买页面](https://purchase.aspose.com/buy).

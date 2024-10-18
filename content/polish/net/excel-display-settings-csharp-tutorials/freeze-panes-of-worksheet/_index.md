@@ -50,13 +50,13 @@ Twój projekt działa jak przestrzeń robocza, w której możesz wykonywać i te
 
 ## Krok 2: Określ ścieżkę do swojego dokumentu
 
-Określ katalog, w którym znajduje się plik Excel. Oto przykład:
+Określ katalog, w którym znajduje się Twój plik Excel. Oto przykład:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ten wiersz ustawia ścieżkę do twojego katalogu. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do miejsca, w którym jesteś`book1.xls` plik jest zapisywany. To tak, jakby podać kodowi adres swojego domu, w którym znajduje się plik Excela — musi wiedzieć, gdzie go znaleźć!
+ Ta linia ustawia ścieżkę do twojego katalogu. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do miejsca, w którym jesteś`book1.xls` plik jest zapisywany. To tak, jakby podać kodowi adres swojego domu, w którym znajduje się plik Excela — musi wiedzieć, gdzie go znaleźć!
 
 ## Krok 3: Utwórz strumień plików
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Ten`Workbook` obiekt reprezentuje cały plik Excel w pamięci. Pomyśl o tym jako o przeniesieniu całego pliku do obszaru roboczego, aby móc rozpocząć wprowadzanie modyfikacji.
+ Ten`Workbook` obiekt reprezentuje cały plik Excel w pamięci. Pomyśl o tym jak o przeniesieniu całego pliku do obszaru roboczego, aby móc zacząć wprowadzać modyfikacje.
 
 ## Krok 5: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -96,7 +96,7 @@ Teraz zastosuj funkcję zamrażania okienek. W naszym przypadku chcemy zamrozić
 worksheet.FreezePanes(3, 2, 3, 2);
 ```
 
-W tym wierszu dzieje się magia! Blokuje on określone wiersze i kolumny, dzięki czemu pozostają widoczne podczas przewijania reszty arkusza. Można to sobie wyobrazić jak szybę — możesz zobaczyć, co jest ważne, bez względu na to, jak daleko w dół lub w poprzek przewijasz.
+W tym wierszu dzieje się magia! Blokuje on określone wiersze i kolumny, dzięki czemu pozostają widoczne podczas przewijania reszty arkusza. Można to sobie wyobrazić jak okienko — możesz zobaczyć, co jest ważne, bez względu na to, jak daleko w dół lub w poprzek przewijasz.
 
 ## Krok 7: Zapisz zmodyfikowany plik Excela
 
@@ -106,7 +106,7 @@ Po wprowadzeniu zmian pamiętaj o zapisaniu skoroszytu:
 workbook.Save(dataDir + "output.xls");
 ```
 
- Zapisanie pliku jest kluczowe! Ten wiersz zapewnia, że wszystkie wprowadzone przez Ciebie zmiany, w tym zamrożone panele, zostaną zapisane z powrotem do nowego pliku Excel o nazwie`output.xls`Można to porównać do zaklejenia koperty po napisaniu ważnego listu.
+ Zapisanie pliku jest kluczowe! Ten wiersz zapewnia, że wszystkie wprowadzone przez Ciebie zmiany, w tym zamrożone panele, zostaną zapisane z powrotem w nowym pliku Excel o nazwie`output.xls`Można to porównać do zaklejenia koperty po napisaniu ważnego listu.
 
 ## Krok 8: Zamknij strumień plików
 

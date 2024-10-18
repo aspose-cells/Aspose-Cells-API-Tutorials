@@ -143,7 +143,7 @@ validation.Formula1 = Decimal.MinValue.ToString();
 validation.Formula2 = Decimal.MaxValue.ToString();
 ```
 
-S těmito limity je akceptováno každé desetinné číslo, bez ohledu na to, jak velké nebo malé, pokud je platné!
+těmito limity je akceptováno každé desetinné číslo, bez ohledu na to, jak velké nebo malé, pokud je platné!
 
 ## Krok 11: Přizpůsobení chybové zprávy
 
@@ -187,7 +187,7 @@ Nakonec uložme sešit s naší dekadickou validací dat:
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-tady to máte! Úspěšně jste vytvořili sešit s ověřením desetinných dat pomocí Aspose.Cells for .NET.
+A tady to máte! Úspěšně jste vytvořili sešit s ověřením desetinných dat pomocí Aspose.Cells for .NET.
 
 ## Závěr
 
@@ -203,7 +203,7 @@ Ověření dat v aplikaci Excel je funkce, která omezuje typ dat, která lze za
 Ano! Můžete poskytnout vlastní chybové zprávy, které uživatelům pomohou, když jsou zadána nesprávná data.
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro dlouhodobé používání budete potřebovat licenci. Další informace o získání dočasné licence naleznete[zde](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro dlouhodobé používání budete potřebovat licenci. Další informace o získání dočasné licence naleznete[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Jaké datové typy mohu ověřit v Excelu?
 Pomocí Aspose.Cells můžete ověřovat různé typy dat včetně celých čísel, desetinných míst, dat, seznamů a vlastních vzorců.

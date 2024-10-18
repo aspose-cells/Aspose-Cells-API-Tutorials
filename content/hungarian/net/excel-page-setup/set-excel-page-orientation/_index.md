@@ -16,7 +16,7 @@ Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .N
 A zökkenőmentes élmény érdekében, mielőtt belemerülne, fontos tisztázni néhány dolgot:
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Itt kell beírnia a kódot.
-2.  Aspose.Cells for .NET: Aspose.Cells for .NET könyvtárra van szüksége. Tudod[töltse le itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
+2.  Aspose.Cells for .NET: Aspose.Cells for .NET könyvtárra van szüksége. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 3. Alapvető C# ismerete: A C# programozási nyelv ismerete nagyon hasznos, mivel ez az oktatóanyag C# nyelven készült.
 4. Munkaterület: Készítsen kódolási környezetet és egy könyvtárat a dokumentumok mentéséhez, mert szüksége lesz rá!
 
@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Most létrehozza a Workbook osztály egy példányát, amely egy Excel-fájlt képvisel.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Ezután el kell érnie ahhoz a munkalaphoz, amelyen be szeretné állítani a tájolást. Mivel minden munkafüzetben több munkalap is lehet, kifejezetten meg kell adnia, hogy melyikkel dolgozik.
 
 ```csharp
-//Az Excel fájl első munkalapjának elérése
+// Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

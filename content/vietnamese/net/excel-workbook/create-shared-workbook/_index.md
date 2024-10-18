@@ -20,7 +20,7 @@ Trước khi đi sâu vào chi tiết về việc tạo một bảng tính dùng
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework. Ví dụ này sẽ hoạt động với .NET Core hoặc .NET Framework 4.x.
 4. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp ích rất nhiều. Nếu bạn có thể viết code cơ bản, bạn sẽ ổn thôi!
 
-Khi đã có đủ những điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu tạo bảng tính dùng chung.
+Khi đã có đủ các điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu tạo bảng tính dùng chung.
 
 ## Nhập gói
 
@@ -58,7 +58,7 @@ Trong bước này, bạn sẽ xác định nơi lưu tệp đầu ra. Giống n
 string outputDir = "Your Document Directory";
 ```
 
-## Bước 2: Tạo đối tượng Workbook
+## Bước 2: Tạo Đối tượng Sổ làm việc
 
 Tiếp theo, chúng ta tập trung vào việc tạo sổ làm việc. Đây chính là nơi phép thuật xảy ra!
 

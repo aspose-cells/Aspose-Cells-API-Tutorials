@@ -13,7 +13,7 @@ Saat bekerja dengan file Excel di lingkungan .NET, Anda mungkin perlu mengekstra
 
 ## Prasyarat
 
-Sebelum menyelami kode, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut daftar periksa singkatnya:
+Sebelum menyelami kode, mari pastikan Anda telah menyiapkan semua yang dibutuhkan. Berikut daftar periksa singkatnya:
 
 1. Pengetahuan Dasar C# dan .NET: Sebelum terjun ke coding, pastikan Anda sudah familiar dengan pemrograman C# dan dasar-dasar kerangka .NET.
 2.  Aspose.Cells untuk .NET: Jika Anda belum melakukannya, Anda perlu menginstal Aspose.Cells untuk .NET. Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).

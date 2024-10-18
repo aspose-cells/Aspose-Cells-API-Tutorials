@@ -20,7 +20,7 @@ Excel 파일을 작업할 때 페이지 나누기를 관리하는 것은 약간 
 3. C#에 대한 기본 지식: C# 프로그래밍에 익숙하면 코드 조각을 더 잘 이해하는 데 도움이 됩니다.
 4. Excel 파일: 실험해 볼 수 있도록 몇 가지 페이지 나누기가 포함된 Excel 파일을 준비해 두세요.
 
-이러한 전제 조건을 갖추면 바로 코드로 넘어갈 수 있습니다!
+이러한 전제 조건을 충족하면 바로 코드로 넘어갈 수 있습니다!
 
 ## 패키지 가져오기
 
@@ -53,18 +53,18 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 설명: 바꾸기`YOUR DOCUMENT DIRECTORY`실제 파일 경로와 함께. 여기서 Excel 파일을 로드하고 나중에 수정된 Excel 파일을 저장합니다.
+ 설명: 바꾸기`YOUR DOCUMENT DIRECTORY` 실제 파일 경로와 함께. 여기서 Excel 파일을 로드하고 나중에 수정된 Excel 파일을 저장합니다.
 
 ## 2단계: 통합 문서 개체 인스턴스화
 
 다음으로, 우리는 워크북을 로드해야 합니다. 더 간단하게 말해서, 워크북을 Excel 파일로 생각해보세요.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- 설명: 이 줄은 새 인스턴스를 생성합니다.`Workbook` , 지정된 Excel 파일을 로드합니다(이 예에서는 이름이 다음과 같습니다.`PageBreaks.xls`). 
+설명: 이 줄은 새 인스턴스를 생성합니다.`Workbook` , 지정된 Excel 파일을 로드합니다(이 예에서는 이름이 다음과 같습니다.`PageBreaks.xls`). 
 
 ## 3단계: 가로 페이지 나누기 제거
 
@@ -111,7 +111,7 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 루프를 사용하여 페이지 나누기를 반복하여 인덱스를 인쇄하거나 디버거를 통해 페이지 나누기를 검사할 수 있습니다.
 
 ### 제거된 페이지 나누기를 다시 추가할 방법이 있나요?  
- 불행히도, 페이지 나누기가 제거되면`RemoveAt` 방법으로는 해당 세션 내에서 복원할 수 없습니다. 수동으로 다시 만들어야 합니다.
+ 불행히도 페이지 나누기가 제거되면`RemoveAt` 방법으로는 해당 세션 내에서 복원할 수 없습니다. 수동으로 다시 만들어야 합니다.
 
 ### 이 방법을 통합 문서의 다른 워크시트에도 적용할 수 있나요?  
  물론입니다! 인덱스 번호만 변경하면 됩니다.`workbook.Worksheets[index]` 원하는 워크시트를 타겟팅합니다.

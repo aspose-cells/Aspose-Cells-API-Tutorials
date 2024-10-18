@@ -26,7 +26,7 @@ Descubra el poder de las listas desplegables dinámicas en Excel. Guía paso a p
 Optimice los mensajes de error de validación de datos con Aspose.Cells para Java. Aprenda a crear, personalizar y mejorar la experiencia del usuario.
 ### [Menús desplegables en cascada en Excel](./cascading-dropdowns-in-excel/)
 Aprenda a crear menús desplegables en cascada en Excel con Aspose.Cells para Java. Esta guía paso a paso proporciona el código fuente y consejos de expertos para manipular de manera eficiente las hojas de cálculo de Excel.
-### [Validación de fechas en hojas de cálculo](./date-validation-in-spreadsheets/)
+### [Validación de fecha en hojas de cálculo](./date-validation-in-spreadsheets/)
 Aprenda a realizar la validación de fechas en hojas de cálculo de Excel con Aspose.Cells para Java. Garantice la precisión e integridad de los datos con nuestra guía paso a paso. Explore potentes técnicas de manipulación de Excel.
 ### [Consejos para la validación de datos numéricos](./numeric-data-validation-tips/)
 Domine la validación de datos numéricos con Aspose.Cells para Java. Aprenda a garantizar la precisión de los datos y a evitar errores en sus aplicaciones Java.

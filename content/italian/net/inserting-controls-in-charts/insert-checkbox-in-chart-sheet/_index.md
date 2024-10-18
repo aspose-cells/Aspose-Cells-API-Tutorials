@@ -45,7 +45,7 @@ Apri Visual Studio e crea un nuovo progetto Console Application. Segui semplicem
 Una volta impostato il progetto, è il momento di aggiungere la libreria Aspose.Cells. Puoi farlo tramite NuGet Package Manager:
 - Fai clic con il pulsante destro del mouse sul progetto in Esplora soluzioni e seleziona "Gestisci pacchetti NuGet".
 - Cerca “Aspose.Cells” e clicca su “Installa”.
-- In questo modo verranno aggiunte tutte le dipendenze necessarie, semplificando l'inizio dell'utilizzo della libreria.
+- In questo modo verranno inserite tutte le dipendenze necessarie, semplificando l'inizio dell'utilizzo della libreria.
 
 ### Aggiungere le direttive di utilizzo necessarie
 
@@ -134,7 +134,7 @@ Aspose.Cells è una potente libreria per creare e manipolare file Excel nelle ap
  Sì, Aspose offre una prova gratuita. Puoi iniziare con la versione di prova disponibile[Qui](https://releases.aspose.com/).
 
 ### Aggiungere una casella di controllo a un foglio grafico è complicato?  
-Niente affatto! Come dimostrato in questo tutorial, è possibile farlo in poche semplici righe di codice.
+Niente affatto! Come dimostrato in questo tutorial, è possibile farlo con poche semplici righe di codice.
 
 ### Dove posso acquistare Aspose.Cells?  
  Puoi acquistare Aspose.Cells dal loro[link di acquisto](https://purchase.aspose.com/buy).

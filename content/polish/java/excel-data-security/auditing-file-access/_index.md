@@ -17,7 +17,7 @@ tym samouczku pokażemy, jak audytować dostęp do plików za pomocą interfejsu
 Zanim zaczniesz, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - [Zestaw narzędzi programistycznych Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.Cells for Java. Można ją pobrać ze strony[Aspose.Cells dla witryny Java](https://releases.aspose.com/cells/java/).
+-  Biblioteka Aspose.Cells dla Java. Możesz ją pobrać ze strony[Aspose.Cells dla witryny Java](https://releases.aspose.com/cells/java/).
 
 ## Krok 1: Konfigurowanie projektu Java
 

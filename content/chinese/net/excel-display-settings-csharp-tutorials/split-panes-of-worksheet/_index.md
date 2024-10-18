@@ -18,7 +18,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 -  Aspose.Cells for .NET：请确保您已下载并安装。如果尚未安装，请立即获取[这里](https://releases.aspose.com/cells/net/).
 - .NET Framework：本指南假设您在 .NET 环境中工作。
 - Excel 工作簿：我们将使用示例 Excel 文件来展示此功能的工作原理。
-- 临时或完整许可证：Aspose.Cells 需要许可证。如果您只是尝试一下，请获取[免费临时驾照](https://purchase.aspose.com/temporary-license/)以避免评估限制。
+- 临时或完整许可证：Aspose.Cells 需要许可证。如果您只是尝试一下，请获取[免费临时执照](https://purchase.aspose.com/temporary-license/)以避免评估限制。
 
 ## 导入包
 
@@ -35,7 +35,7 @@ using Aspose.Cells;
 
 这个过程的第一步是创建一个`Workbook`对象，它将代表您要修改的 Excel 文件。在本例中，我们将从目录中加载一个文件。这是您的画布，是您将在其上施展魔法的 Excel 工作表。
 
-在拆分窗格之前，我们需要一个工作簿！此步骤与在开始阅读之前打开一本书一样重要。
+在拆分窗格之前，我们需要一个工作簿！这一步就像在开始阅读之前打开一本书一样重要。
 
 ```csharp
 //文档目录的路径

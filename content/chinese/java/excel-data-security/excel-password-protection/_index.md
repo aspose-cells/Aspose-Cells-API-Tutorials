@@ -22,7 +22,7 @@ url: /zh/java/excel-data-security/excel-password-protection/
 
 ## 设置环境
 
-首先，您应该设置您的开发环境。请按照以下步骤操作：
+首先，您应该设置开发环境。请按照以下步骤操作：
 
 1. 如果尚未安装 Java，请安装。
 2. 从提供的链接下载 Aspose.Cells for Java。
@@ -96,7 +96,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
-在此代码中，我们加载先前创建的 Excel 文件，设置密码并保护工作簿。您可以替换`"MySecretPassword"`输入您想要的密码。
+在此代码中，我们加载先前创建的 Excel 文件，设置密码并保护工作簿。您可以替换`"MySecretPassword"`使用您想要的密码。
 
 ## 结论
 

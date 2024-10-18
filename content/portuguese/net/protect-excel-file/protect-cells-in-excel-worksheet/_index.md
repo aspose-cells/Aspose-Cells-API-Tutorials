@@ -52,7 +52,7 @@ Primeiro você precisa determinar onde salvar seu arquivo Excel. Veja como você
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Especifique o caminho do seu diretório aqui
-// Crie um diretório se ele ainda não estiver presente.
+//Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -60,7 +60,7 @@ if (!IsExists)
 
 Este trecho de código verifica se um diretório especificado existe. Se não, ele cria um. Isso é essencial para garantir que seu arquivo salvo tenha um lar designado!
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, precisamos criar uma nova pasta de trabalho. Aspose.Cells fornece uma maneira simples de fazer isso:
 
@@ -153,7 +153,7 @@ Absolutamente! Você pode bloquear quantas células quiser repetindo os passos d
  O Aspose.Cells oferece um teste gratuito, mas o uso contínuo requer uma licença. Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Onde posso encontrar a documentação?
- documentação pode ser encontrada[aqui](https://reference.aspose.com/cells/net/).
+ A documentação pode ser encontrada[aqui](https://reference.aspose.com/cells/net/).
 
 ### Em quais formatos de arquivo posso salvar arquivos do Excel?
 O Aspose.Cells suporta vários formatos, incluindo XLSX, XLS, CSV e muito mais.

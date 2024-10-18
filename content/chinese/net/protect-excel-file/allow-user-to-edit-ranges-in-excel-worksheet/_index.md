@@ -120,7 +120,7 @@ sheet.Protect(ProtectionType.All);
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
-确保根据需要调整文件名。这将使用我们配置的设置在指定的目录中创建一个 Excel 文件。
+确保根据需要调整文件名。这将使用我们配置的设置在您指定的目录中创建一个 Excel 文件。
 
 ## 结论
 

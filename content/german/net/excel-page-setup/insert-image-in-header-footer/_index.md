@@ -75,7 +75,7 @@ long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 
 -  Der`FileStream` wird verwendet, um das Bild im Lesemodus zu öffnen.
 -  Dann deklarieren wir ein Byte-Array`binaryData` um die Bilddaten zu speichern.
--  Zum Schluss lesen wir die Bilddaten aus dem`FileStream`.
+-  Abschließend lesen wir die Bilddaten aus dem`FileStream`.
 
 ## Schritt 5: Zugriff auf das Seiteneinrichtungsobjekt
 
@@ -95,7 +95,7 @@ Da wir nun die Binärdaten des Bildes zur Hand haben, können wir diese in den H
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Diese Zeile platziert das Bild im mittleren Bereich der Kopfzeile. Der Parameter`1`gibt den Header-Abschnitt an.
+ Diese Zeile platziert das Bild im mittleren Bereich der Kopfzeile. Der Parameter`1` gibt den Header-Abschnitt an.
 
 ## Schritt 7: Festlegen des Header-Inhalts
 
@@ -111,7 +111,7 @@ pageSetup.SetHeader(2, "&A"); // Fügt den Blattnamen ein
 
 ## Schritt 8: Speichern der Arbeitsmappe
 
-Nachdem Sie alle erforderlichen Änderungen vorgenommen haben, ist es Zeit, die Arbeitsmappe zu speichern.
+Nachdem Sie alle erforderlichen Änderungen vorgenommen haben, ist es an der Zeit, die Arbeitsmappe zu speichern.
 
 ```csharp
 workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
@@ -148,4 +148,4 @@ Ja, Sie können mithilfe unterschiedlicher Platzhalter separate Bilder in unters
 Stellen Sie sicher, dass der Bildpfad korrekt ist und die Datei vorhanden ist. Überprüfen Sie auch die Kompatibilität des Bildformats.
 
 ### Wo finde ich zusätzliche Dokumentation für Aspose.Cells?
-Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
+ Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).

@@ -10,7 +10,7 @@ url: /id/net/excel-range-address-calculation/create-union-range-of-cells-in-exce
 ## Perkenalan
 Apakah Anda ingin meningkatkan keterampilan Excel Anda secara terprogram? Nah, Anda telah membuka halaman yang tepat! Hari ini, kita akan menyelami dunia Aspose.Cells for .NET yang menarik, pustaka tangguh yang memudahkan manipulasi file Excel. Secara khusus, kita akan mempelajari cara membuat rentang gabungan sel di Excel. Fitur ini sangat berguna saat Anda ingin melakukan operasi pada rentang sel yang tidak bersebelahan dengan lancar. Jadi, apakah Anda seorang programmer berpengalaman atau pemula yang penasaran, mari kita mulai perjalanan yang mengasyikkan ini!
 ## Prasyarat
-Sebelum masuk ke inti pembuatan rentang gabungan sel, mari kita persiapkan dulu tahapannya. Berikut ini beberapa prasyarat untuk memulai:
+Sebelum masuk ke inti pembuatan rentang gabungan sel, mari kita persiapkan dulu. Berikut ini beberapa prasyarat untuk memulai:
 - Pengetahuan Dasar C#: Pengetahuan praktis tentang pemrograman C# akan bermanfaat, terutama jika Anda memiliki pengalaman langsung dengan pemrograman berorientasi objek.
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 -  Pustaka Aspose.Cells: Anda harus memiliki pustaka Aspose.Cells yang tersedia. Anda dapat dengan mudah[unduh disini](https://releases.aspose.com/cells/net/).
@@ -29,13 +29,13 @@ using System;
 Perintah ini menyertakan namespace Aspose.Cells, yang berisi semua kelas, metode, dan properti yang Anda perlukan untuk bekerja dengan file Excel.
 
 Sekarang setelah kita menyiapkan semuanya, mari kita uraikan proses pembuatan rentang serikat menjadi beberapa langkah yang lebih mudah dikelola.
-## Langkah 1: Membuat Instansi Objek Buku Kerja
+## Langkah 1: Membuat Objek Buku Kerja
 Langkah pertama dalam kode kita melibatkan pembuatan contoh objek Workbook. Bayangkan Workbook sebagai kanvas kosong tempat kita akan melukis karya agung kita.
 ```csharp
 // Direktori keluaran
 string outputDir = "Your Document Directory"();
 
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 Baris kode ini memberi tahu program kita untuk membuat buku kerja baru. Baris ini penting karena Anda akan menambahkan rentang dan nilai ke buku kerja ini.

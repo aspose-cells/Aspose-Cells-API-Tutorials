@@ -38,7 +38,7 @@ Workbook workbook = new Workbook();
 
 ## 데이터에 레이블 추가
 
-이제 데이터에 라벨을 추가하는 방법을 살펴보겠습니다. 라벨은 셀, 행 또는 열에 추가할 수 있습니다.
+이제 데이터에 레이블을 추가하는 방법을 살펴보겠습니다. 레이블은 셀, 행 또는 열에 추가할 수 있습니다.
 
 ```java
 // 셀에 라벨 추가
@@ -59,7 +59,7 @@ column.setCaption("Expenses");
 Aspose.Cells for Java를 사용하면 글꼴, 색상 및 기타 서식 옵션을 변경하여 레이블을 사용자 정의할 수 있습니다. 이렇게 하면 레이블이 정보적일 뿐만 아니라 시각적으로도 매력적으로 보입니다.
 
 ```java
-// 라벨 서식 사용자 지정
+// 라벨 서식 사용자 정의
 Style style = cell.getStyle();
 style.getFont().setBold(true);
 style.getFont().setColor(Color.getRed());
@@ -124,7 +124,7 @@ workbook.save("labeled_data.xlsx");
 
  Java용 Aspose.Cells를 설치하려면 다음을 방문하세요.[선적 서류 비치](https://reference.aspose.com/cells/java/) 자세한 설치 지침은 여기에서 확인하세요.
 
-### 라벨의 모양을 사용자 지정할 수 있나요?
+### 라벨의 모양을 사용자 정의할 수 있나요?
 
 네, Aspose.Cells for Java를 사용하면 글꼴, 색상 및 기타 서식 옵션을 변경하여 라벨을 사용자 정의할 수 있습니다.
 

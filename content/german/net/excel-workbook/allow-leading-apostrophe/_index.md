@@ -2,7 +2,7 @@
 title: Führendes Apostroph zulassen
 linktitle: Führendes Apostroph zulassen
 second_title: Aspose.Cells für .NET API-Referenz
-description: Mit Aspose.Cells für .NET können Sie führende Apostrophe in Excel mühelos verwalten. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
+description: Verwalten Sie führende Apostrophe in Excel mühelos mit Aspose.Cells für .NET. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
 type: docs
 weight: 60
 url: /de/net/excel-workbook/allow-leading-apostrophe/
@@ -20,7 +20,7 @@ Bevor Sie sich in den Code vertiefen, müssen Sie einige Voraussetzungen erfüll
 3. IDE-Setup: Stellen Sie sicher, dass Sie eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio zum Codieren bereit haben.
 4. Beispiel-Excel-Datei: Sie können die Beispieldatei („AllowLeadingApostropheSample.xlsx“) verwenden, mit der wir im Code arbeiten werden.
 
-Nachdem Sie die Voraussetzungen erfüllt haben, importieren wir die erforderlichen Pakete und richten unser Projekt ein.
+Nachdem Sie die Voraussetzungen abgehakt haben, importieren wir die erforderlichen Pakete und richten unser Projekt ein.
 
 ## Pakete importieren
 

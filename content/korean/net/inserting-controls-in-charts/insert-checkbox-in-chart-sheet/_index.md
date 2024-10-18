@@ -93,7 +93,7 @@ sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
 
 ## 4단계: 차트에 데이터 시리즈 추가
 
-이 시점에서 차트에 데이터 시리즈를 채워 봅시다. 샘플 데이터를 추가하려면:
+이 시점에서 차트에 일부 데이터 시리즈를 채워 봅시다. 샘플 데이터를 추가하려면:
 ```csharp
 sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 ```
@@ -131,7 +131,7 @@ workbook.Save(outputDir + "InsertCheckboxInChartSheet_out.xlsx");
 Aspose.Cells는 .NET 애플리케이션에서 Excel 파일을 만들고 조작하기 위한 강력한 라이브러리입니다.
 
 ### Aspose.Cells를 무료로 사용할 수 있나요?  
- 네, Aspose는 무료 체험판을 제공합니다. 사용 가능한 체험판으로 시작할 수 있습니다.[여기](https://releases.aspose.com/).
+ 네, Aspose는 무료 체험판을 제공합니다. 이용 가능한 체험판으로 시작할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### 차트 시트에 체크박스를 추가하는 것이 복잡한가요?  
 전혀 아닙니다! 이 튜토리얼에서 보여주듯이, 몇 줄의 간단한 코드로 할 수 있습니다.

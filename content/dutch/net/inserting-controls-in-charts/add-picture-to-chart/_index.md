@@ -16,7 +16,7 @@ Bent u saaie grafieken die een persoonlijke touch missen zat? Wilt u leren hoe u
 Voordat we in de details van het coderen duiken, zijn er een paar voorwaarden waaraan je moet voldoen om het proces soepel te kunnen volgen:
 
 - Visual Studio: Dit is waar u uw .NET-code schrijft en uitvoert. Zorg ervoor dat u het hebt geïnstalleerd.
--  Aspose.Cells voor .NET: U hebt deze bibliotheek nodig om met Excel-bestanden te werken. U kunt[download het hier](https://releases.aspose.com/cells/net/).
+- Aspose.Cells voor .NET: U hebt deze bibliotheek nodig om met Excel-bestanden te werken. U kunt[download het hier](https://releases.aspose.com/cells/net/).
 - Basiskennis van C#: Ik leid je door de code, maar als je de basisbeginselen van C# kent, wordt alles duidelijker.
 
 ### Installatiestappen
@@ -84,7 +84,7 @@ Zorg ervoor dat de afbeelding in de opgegeven map is opgeslagen.
 Laten we nu specificeren aan welke grafiek we onze afbeelding gaan toevoegen. In dit voorbeeld richten we ons op de eerste grafiek op het eerste werkblad.
 
 ```csharp
-// Haal het ontwerpersdiagram op het tweede blad.
+//Haal het ontwerpersdiagram op het tweede blad.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -107,7 +107,7 @@ Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, strea
 Wil je wat flair toevoegen aan je foto? Je kunt de rand aanpassen! Zo doe je dat:
 
 ```csharp
-// Selecteer het lijnformaattype van de afbeelding.
+// Bepaal het lijnopmaaktype van de afbeelding.
 Aspose.Cells.Drawing.LineFormat lineformat = pic0.Line; 
 
 // Stel de streepjesstijl in.
@@ -151,7 +151,7 @@ In deze tutorial hebben we onderzocht hoe u een beetje persoonlijkheid kunt toev
 Aspose.Cells ondersteunt verschillende afbeeldingsformaten, waaronder PNG, JPEG, BMP en GIF.
 
 ### Kan ik de positie van de afbeelding aanpassen?
-Zeker! De X- en Y-coördinaten in de`AddPictureInChart` methode maakt nauwkeurige positionering mogelijk.
+ Zeker! De X- en Y-coördinaten in de`AddPictureInChart` methode maakt nauwkeurige positionering mogelijk.
 
 ### Is Aspose.Cells gratis te gebruiken?
  Aspose.Cells biedt een gratis proefperiode, maar voor volledige functies is een licentie vereist. U kunt de prijzen vinden[hier](https://purchase.aspose.com/buy).

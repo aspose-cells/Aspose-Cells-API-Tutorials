@@ -12,7 +12,7 @@ Dans ce guide complet, nous vous expliquerons le processus d'importation de donn
 
 ## Prérequis
 
-Avant de plonger dans le code, assurez-vous que les prérequis suivants sont en place :
+Avant de plonger dans le code, assurez-vous que les conditions préalables suivantes sont en place :
 
 1. Environnement de développement Java : assurez-vous que Java JDK est installé sur votre système.
 2.  Aspose.Cells pour Java : téléchargez et incluez la bibliothèque Aspose.Cells pour Java dans votre projet. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/cells/java/).
@@ -65,7 +65,7 @@ Dans ce code, nous chargeons un classeur Excel, accédons à une cellule spécif
 
 ## Exécution du code
 
-Compilez et exécutez le code Java dans votre IDE. Assurez-vous que vous disposez d'un fichier Excel nommé « input.xlsx » dans le répertoire de votre projet. Le code affichera les données de la cellule A1 et toutes les données de la feuille de calcul.
+Compilez et exécutez le code Java dans votre IDE. Assurez-vous d'avoir un fichier Excel nommé « input.xlsx » dans votre répertoire de projet. Le code affichera les données de la cellule A1 et toutes les données de la feuille de calcul.
 
 ## Conclusion
 

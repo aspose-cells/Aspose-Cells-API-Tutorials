@@ -45,9 +45,9 @@ Agora, vamos dividir a tarefa em etapas fáceis de entender.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Substituir`YOUR DOCUMENT DIRECTORY`com o caminho real onde seu arquivo Excel está armazenado. Isso permite que seu programa encontre os arquivos necessários que ele manipulará.
+ Substituir`YOUR DOCUMENT DIRECTORY` com o caminho real onde seu arquivo Excel está armazenado. Isso permite que seu programa encontre os arquivos necessários que ele manipulará.
 
-## Etapa 2: Criar um fluxo de arquivos
+## Etapa 2: Crie um fluxo de arquivos
 
 Aqui, você cria um fluxo de arquivos para ler o arquivo Excel.
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Esse`Workbook` O objeto agora contém todos os dados e configurações do seu arquivo Excel, permitindo manipulação posterior no processo.
+ Esse`Workbook` objeto agora contém todos os dados e configurações do seu arquivo Excel, permitindo manipulação posterior no processo.
 
 ## Etapa 4: Ocultar a barra de rolagem vertical
 
@@ -122,8 +122,8 @@ Seguindo essas etapas simples, você aprendeu como exibir e ocultar as barras de
 ### Posso exibir as barras de rolagem novamente depois de ocultá-las?  
  Sim! Você só precisa definir`IsVScrollBarVisible` e`IsHScrollBarVisible` de volta para`true`.
 
-### Aspose.Cells é gratuito?  
-Aspose.Cells não é totalmente gratuito, mas você pode experimentá-lo gratuitamente por um tempo limitado ou considerar comprá-lo[uma licença temporária](https://purchase.aspose.com/temporary-license/).
+### O Aspose.Cells é gratuito?  
+ Aspose.Cells não é totalmente gratuito, mas você pode experimentá-lo gratuitamente por um tempo limitado ou considerar comprá-lo[uma licença temporária](https://purchase.aspose.com/temporary-license/).
 
 ### Que tipos de arquivos do Excel posso manipular com o Aspose.Cells?  
 Você pode trabalhar com vários formatos do Excel, incluindo .xls, .xlsx, .xlsm, .xlsb, etc.

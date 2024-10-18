@@ -13,7 +13,7 @@ url: /ja/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 
 ## 前提条件
 
-Excel シートを制御するための旅を始める前に、スムーズな旅を実現するための前提条件がいくつかあります。
+Excel シートを制御するためのこの旅に乗り出す前に、スムーズな旅を実現するための前提条件がいくつかあります。
 
 1. C# の基礎知識: この言語でコードを記述するため、C# に精通していることが必須です。
 2.  Aspose.Cells for .NET: Aspose.Cellsがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/cells/net/).
@@ -72,7 +72,7 @@ Workbook workbook = new Workbook(fstream);
 ワークブックが手元にあるので、非表示にする特定のワークシートにアクセスします。最初のワークシートから始めます。
 
 ```csharp
-//Excelファイルの最初のワークシートにアクセスする
+// Excelファイルの最初のワークシートにアクセスする
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -91,7 +91,7 @@ worksheet.IsVisible = false;
 
 ## ステップ6: 変更を保存する
 
-ワークシートを非表示にした後は、ファイルに加えた変更を保存する必要があります。これは非常に重要です。保存しないと、変更が消えてしまいます。
+ワークシートを非表示にした後、ファイルに加えた変更を保存する必要があります。これは非常に重要です。保存しないと、変更が消えてしまいます。
 
 ```csharp
 //変更した Excel ファイルを既定の形式 (Excel 2003) で保存する

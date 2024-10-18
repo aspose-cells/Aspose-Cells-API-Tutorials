@@ -31,7 +31,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Questi namespace ti daranno accesso alle funzionalità fornite da Aspose.Cells e ad altre funzionalità correlate di .NET.
+Questi namespace ti daranno accesso alle funzionalità fornite da Aspose.Cells e ad altre caratteristiche correlate di .NET.
 
 Ora, analizziamo passo dopo passo il processo di impostazione di un'area di stampa Excel. Immagina di disporre i gradini di un ruscello: vuoi assicurarti che ogni passaggio sia chiaro e preciso!
 
@@ -104,7 +104,7 @@ Impostare l'area di stampa in un file Excel usando Aspose.Cells per .NET può se
 ### Che cos'è Aspose.Cells?
 Aspose.Cells è una libreria .NET per creare, manipolare e convertire fogli di calcolo Excel senza richiedere Microsoft Excel.
 
-### Come faccio a scaricare Aspose.Cells?
+### Come posso scaricare Aspose.Cells?
  Puoi scaricare Aspose.Cells per .NET da[pagina di rilascio](https://releases.aspose.com/cells/net/).
 
 ### Posso usare Aspose.Cells gratuitamente?

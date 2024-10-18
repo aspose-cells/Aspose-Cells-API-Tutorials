@@ -183,7 +183,7 @@ El color adecuado puede evocar determinados sentimientos y reacciones: el granat
 
 ## Paso 12: Guarda tu libro de trabajo
 
-¡Por fin ha llegado el momento de guardar tu obra maestra! No olvides especificar el destino donde quieres guardarla.
+¡Por fin ha llegado el momento de guardar tu obra maestra! No olvides especificar el destino en el que quieres guardarla.
 
 ```csharp
 book.Save(outputDir + "outputApplying3DFormat.xlsx");

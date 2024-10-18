@@ -113,7 +113,7 @@ range1.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Medium, Color.From
 range1.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 ```
 
-Aby uczynić naszą ofertę atrakcyjniejszą wizualnie, dodaliśmy wokół niej średnią, granatową obwódkę.
+Aby uczynić naszą ofertę atrakcyjniejszą wizualnie, dodaliśmy wokół niej granatową, średnią obwódkę.
 
 ## Krok 7: Wprowadzanie danych do zakresu
 
@@ -165,7 +165,7 @@ Ten wiersz czyści zawartość zakresu, który chcemy usunąć, zapewniając, ż
 
 ## Krok 11: Usuwanie zakresu nazwanego z arkusza kalkulacyjnego
 
-Ważnym krokiem końcowym jest usunięcie nazwanego zakresu ze zbioru nazw arkusza kalkulacyjnego.
+Ostatnim, ważnym krokiem jest usunięcie nazwanego zakresu ze zbioru nazw arkusza kalkulacyjnego.
 
 ```csharp
 worksheets.Names.RemoveAt(0);
@@ -186,7 +186,7 @@ To polecenie zapisuje skoroszyt ze zmianami, które wprowadziliśmy — w tym mi
 
 ## Krok 13: Potwierdzenie pomyślnego wykonania
 
-Żeby to wszystko zgrabnie podsumować, możesz wyświetlić komunikat o powodzeniu na konsoli.
+Żeby to wszystko zgrabnie podsumować, możesz wyświetlić na konsoli komunikat o powodzeniu operacji.
 
 ```csharp
 Console.WriteLine("RemoveNamedRange executed successfully.");

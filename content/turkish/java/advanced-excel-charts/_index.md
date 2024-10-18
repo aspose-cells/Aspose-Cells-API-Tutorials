@@ -14,7 +14,7 @@ Veri odaklı karar alma dünyasında, etkili veri görselleştirmesi anahtardır
 
 ## Veri Görselleştirme için Adım Adım Kılavuz:
 
-Eğitimlerimiz gelişmiş Excel grafikleri alanına kapsamlı bir yolculuk sunar. İster deneyimli bir Java geliştiricisi olun, ister yeni başlıyor olun, bu adım adım kılavuzlar veri görselleştirme sanatında ustalaşmanıza yardımcı olacak net talimatlar sağlar. Grafik stillerini özelleştirmeyi, veri etiketleri uygulamayı ve etkileşimli öğeler eklemeyi öğrenin, grafiklerinizi yalnızca bilgilendirici değil, aynı zamanda ilgi çekici hale getirin.
+Eğitimlerimiz gelişmiş Excel grafikleri alanına kapsamlı bir yolculuk sunar. İster deneyimli bir Java geliştiricisi olun, ister yeni başlıyor olun, bu adım adım kılavuzlar veri görselleştirme sanatında ustalaşmanıza yardımcı olacak net talimatlar sağlar. Grafik stillerini özelleştirmeyi, veri etiketleri uygulamayı ve etkileşimli öğeleri dahil etmeyi öğrenin, grafiklerinizi yalnızca bilgilendirici değil, aynı zamanda ilgi çekici hale getirin.
 
 ## Veri Görselleştirmenin Potansiyelini Açığa Çıkarın:
 
@@ -38,6 +38,6 @@ Java için Aspose.Cells'i kullanarak Grafik Açıklamalarıyla Grafiklerinizi Ge
 ### [Grafik Animasyonu](./chart-animation/)
 Java için Aspose.Cells ile büyüleyici grafik animasyonları oluşturmayı öğrenin. Dinamik veri görselleştirme için adım adım kılavuz ve kaynak kodu dahildir.
 ### [Şelale Grafikleri](./waterfall-charts/)
-Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirme için kaynak kodlu adım adım kılavuz.
+Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
 ### [Grafik Etkileşimi](./chart-interactivity/)
 Java için Aspose.Cells'i kullanarak etkileşimli grafiklerin nasıl oluşturulacağını öğrenin. Veri görselleştirmenizi etkileşimle geliştirin.

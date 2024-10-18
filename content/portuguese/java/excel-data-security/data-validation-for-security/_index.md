@@ -14,7 +14,7 @@ Em uma era em que os dados são a força vital de empresas e organizações, gar
 
 ## O que é validação de dados?
 
-Validação de dados é um processo que garante que dados inseridos em um sistema atendam a certos critérios antes de serem aceitos. Ela impede que dados errôneos ou maliciosos corrompam bancos de dados e aplicativos.
+Validação de dados é um processo que garante que os dados inseridos em um sistema atendam a certos critérios antes de serem aceitos. Ela impede que dados errôneos ou maliciosos corrompam bancos de dados e aplicativos.
 
 ## Por que a validação de dados é importante
 

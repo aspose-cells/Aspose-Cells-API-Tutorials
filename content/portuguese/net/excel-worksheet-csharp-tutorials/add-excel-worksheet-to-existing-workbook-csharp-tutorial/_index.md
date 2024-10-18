@@ -13,7 +13,7 @@ Com o mundo digital em constante evolução, trabalhar com planilhas se tornou u
 
 ## Pré-requisitos
 
-Antes de pularmos para o código, vamos garantir que você tenha tudo o que precisa para implementar este tutorial com sucesso. Aqui está o que você vai precisar:
+Antes de pularmos para o código, vamos garantir que você tenha tudo o que precisa para implementar este tutorial com sucesso. Aqui está o que você precisará:
 
 1.  Visual Studio: Certifique-se de ter o Visual Studio instalado em sua máquina. Se você ainda não o tem, você pode baixá-lo em[aqui](https://visualstudio.microsoft.com/vs/).
 2.  Aspose.Cells para .NET: Você precisará ter o Aspose.Cells para .NET integrado ao seu projeto. Você pode obtê-lo em[link para download](https://releases.aspose.com/cells/net/)Esta biblioteca é essencial para trabalhar com arquivos do Excel e oferece suporte a uma ampla variedade de funcionalidades.
@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Em seguida, precisamos criar uma instância da classe Workbook, que conterá nosso arquivo Excel.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Ao criar uma instância de pasta de trabalho a partir do nosso fluxo de arquivos
 
 ## Etapa 4: Adicionar uma nova planilha
 
-Aí vem a parte emocionante! Vamos adicionar uma nova planilha à nossa pasta de trabalho. Isso é feito usando o`Add()` método do`Worksheets`coleção.
+ Aí vem a parte emocionante! Vamos adicionar uma nova planilha à nossa pasta de trabalho. Isso é feito usando o`Add()` método do`Worksheets`coleção.
 
 ```csharp
-// Adicionando uma nova planilha ao objeto Workbook
+// Adicionar uma nova planilha ao objeto Workbook
 int i = workbook.Worksheets.Add();
 ```
 
- Com esta linha de código, estamos adicionando uma nova planilha, e o índice desta nova planilha é capturado na variável`i`.
+Com esta linha de código, estamos adicionando uma nova planilha, e o índice desta nova planilha é capturado na variável`i`.
 
 ## Etapa 5: Obtenha uma referência para a planilha recém-adicionada
 
@@ -109,7 +109,7 @@ Com nossas modificações concluídas, é hora de salvar nossa pasta de trabalho
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Aqui, salvamos nossa pasta de trabalho como`output.out.xls`. Você pode nomear este arquivo como quiser; apenas certifique-se de que ele esteja salvo no diretório correto.
+ Aqui, salvamos nossa pasta de trabalho como`output.out.xls`Você pode nomear este arquivo como quiser; apenas certifique-se de que ele esteja salvo no diretório correto.
 
 ## Etapa 8: Feche o fluxo de arquivos
 

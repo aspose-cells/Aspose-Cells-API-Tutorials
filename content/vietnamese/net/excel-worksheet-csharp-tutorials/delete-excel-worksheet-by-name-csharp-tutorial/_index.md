@@ -2,7 +2,7 @@
 title: Xóa bảng tính Excel theo tên Hướng dẫn C#
 linktitle: Xóa bảng tính Excel theo tên
 second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách xóa bảng tính Excel theo tên bằng C#. Hướng dẫn dành cho người mới bắt đầu này sẽ hướng dẫn bạn từng bước với Aspose.Cells cho .NET.
+description: Tìm hiểu cách xóa bảng tính Excel theo tên bằng C#. Hướng dẫn dành cho người mới bắt đầu này hướng dẫn bạn từng bước với Aspose.Cells cho .NET.
 type: docs
 weight: 40
 url: /vi/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-name-csharp-tutorial/
@@ -15,7 +15,7 @@ Khi làm việc với các tệp Excel theo chương trình, cho dù là để b
 
 Trước khi bắt đầu, bạn cần đảm bảo đã chuẩn bị sẵn một số thứ sau:
 
-1. Aspose.Cells for .NET Library: Đây là thành phần cốt lõi giúp bạn có thể thao tác với các tệp Excel. Nếu bạn chưa cài đặt, bạn có thể[tải xuống từ đây](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library: Đây là thành phần cốt lõi giúp bạn có thể thao tác với các tệp Excel. Nếu bạn chưa cài đặt, bạn có thể[tải xuống từ đây](https://releases.aspose.com/cells/net/).
 2. Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển, tốt nhất là Visual Studio, nơi bạn có thể viết và chạy mã C#.
 3. Hiểu biết cơ bản về C#: Mặc dù tôi sẽ giải thích từng bước, nhưng hiểu biết cơ bản về C# sẽ giúp bạn theo dõi tốt hơn.
 4. Tệp Excel: Bạn nên tạo một tệp Excel (chúng tôi sẽ tham chiếu đến "book1.xls" trong hướng dẫn này). Bạn có thể tạo một tệp đơn giản với một vài bảng tính cho mục đích này.
@@ -58,12 +58,12 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Tiếp theo, bạn sẽ cần phải tạo một`Workbook` đối tượng. Đối tượng này đại diện cho tệp Excel của bạn và cho phép bạn thao tác nội dung của tệp.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
 ```
 
- Tại thời điểm này, bạn`workbook` bây giờ chứa toàn bộ dữ liệu từ tệp Excel và bạn có thể thực hiện nhiều thao tác khác nhau trên đó.
+ Tại thời điểm này, của bạn`workbook` bây giờ chứa toàn bộ dữ liệu từ tệp Excel và bạn có thể thực hiện nhiều thao tác khác nhau trên đó.
 
 ## Bước 4: Xóa Worksheet theo Tên
 
@@ -96,7 +96,7 @@ Bạn có thể thoải mái khám phá các tính năng khác của thư viện
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells có miễn phí sử dụng không?
-Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để tiếp tục sử dụng. Bạn có thể nhận bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để tiếp tục sử dụng. Bạn có thể nhận bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Tôi có thể xóa nhiều trang tính cùng lúc không?
 Bạn có thể lặp lại bộ sưu tập bảng tính và xóa nhiều bảng tính bằng vòng lặp. Chỉ cần đảm bảo bạn quản lý các chỉ mục một cách chính xác.

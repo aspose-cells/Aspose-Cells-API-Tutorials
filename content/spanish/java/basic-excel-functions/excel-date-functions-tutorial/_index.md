@@ -14,7 +14,7 @@ En este tutorial completo, exploraremos las funciones de fecha de Excel y cómo 
 
 ## Comprender las funciones de fecha en Excel
 
-Excel cuenta con una amplia gama de funciones de fecha que simplifican los cálculos complejos relacionados con las fechas. Estas funciones son increíblemente útiles para tareas como aritmética de fechas, búsqueda de diferencias entre fechas y más. Exploremos algunas funciones de fecha comunes:
+Excel cuenta con una amplia gama de funciones de fecha que simplifican los cálculos complejos relacionados con las fechas. Estas funciones son increíblemente útiles para tareas como aritmética de fechas, búsqueda de la diferencia entre fechas y más. Exploremos algunas funciones de fecha comunes:
 
 ### Función FECHA
 

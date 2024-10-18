@@ -16,7 +16,7 @@ Sei stanco di grafici noiosi che non hanno un tocco personale? Vuoi imparare a r
 Prima di addentrarci nei dettagli della codifica, ecco alcuni prerequisiti che devi soddisfare per seguire il tutorial senza problemi:
 
 - Visual Studio: qui è dove scriverai ed eseguirai il tuo codice .NET. Assicurati di averlo installato.
--  Aspose.Cells per .NET: questa libreria ti servirà per lavorare con i file Excel. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
+- Aspose.Cells per .NET: questa libreria ti servirà per lavorare con i file Excel. Puoi[scaricalo qui](https://releases.aspose.com/cells/net/).
 - Nozioni di base di C#: anche se ti guiderò attraverso il codice, avere una conoscenza delle basi di C# renderà le cose più chiare.
 
 ### Fasi di installazione
@@ -84,7 +84,7 @@ Assicuratevi di aver salvato l'immagine nella directory specificata.
 Ora, specifichiamo a quale grafico aggiungeremo la nostra immagine. In questo esempio, punteremo al primo grafico del primo foglio di lavoro.
 
 ```csharp
-// Prendi la tabella del designer nel secondo foglio.
+//Prendi la tabella del designer nel secondo foglio.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -117,7 +117,7 @@ lineformat.DashStyle = MsoLineDashStyle.Solid;
 lineformat.Weight = 4;    
 ```
 
-Questo frammento ti consente di scegliere l'aspetto del bordo e il suo spessore. Scegli qualsiasi stile che risuoni con la tua presentazione!
+Questo frammento ti consente di scegliere l'aspetto e lo spessore del bordo. Scegli qualsiasi stile che risuoni con la tua presentazione!
 
 ## Passaggio 7: salvare la cartella di lavoro modificata
 
@@ -151,7 +151,7 @@ In questo tutorial, abbiamo esplorato come iniettare un po' di personalità nei 
 Aspose.Cells supporta diversi formati di immagine, tra cui PNG, JPEG, BMP e GIF.
 
 ### Posso personalizzare la posizione dell'immagine?
-Certamente! Le coordinate X e Y nel`AddPictureInChart` metodo consente un posizionamento preciso.
+ Certamente! Le coordinate X e Y nel`AddPictureInChart` metodo consente un posizionamento preciso.
 
 ### Aspose.Cells è gratuito?
  Aspose.Cells offre una prova gratuita, ma per le funzionalità complete è richiesta una licenza. Puoi trovare i prezzi[Qui](https://purchase.aspose.com/buy).

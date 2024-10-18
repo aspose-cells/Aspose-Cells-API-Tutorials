@@ -24,7 +24,7 @@ Setelah prasyarat ini terpenuhi, Anda siap membuat rentang bernama pertama Anda!
 
 ## Paket Impor
 
-Sebelum kita mulai membuat kode, kita perlu mengimpor namespace yang disediakan oleh Aspose.Cells. Hal ini penting karena namespace ini berisi semua metode dan kelas yang diperlukan untuk tugas kita.
+Sebelum memulai pengodean, kita perlu mengimpor namespace yang disediakan oleh Aspose.Cells. Hal ini penting karena namespace ini berisi semua metode dan kelas yang diperlukan untuk tugas kita.
 
 Berikut cara mengimpor paket penting:
 
@@ -63,7 +63,7 @@ Baris ini menginisialisasi objek buku kerja baru yang akan kita modifikasi.
 Setiap buku kerja dapat memiliki beberapa lembar kerja, dan untuk tujuan kita, kita akan mengakses lembar kerja pertama. Anggap saja seperti membuka tab dalam file Excel.
 
 ```csharp
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Sekarang kita memiliki akses ke lembar kerja pertama di mana kita akan membuat r
 Sekarang, saatnya membuat rentang bernama. Rentang bernama memungkinkan Anda menentukan sekumpulan sel tertentu di lembar kerja Anda.
 
 ```csharp
-//Membuat rentang bernama
+// Membuat rentang bernama
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -102,7 +102,7 @@ st.ForegroundColor = System.Drawing.Color.Yellow;
 range.SetStyle(st);
 ```
 
-Ini akan menyorot sel dalam rentang yang diberi nama, membuatnya lebih mudah dikenali dalam lembar kerja Anda.
+Ini akan menyorot sel dalam rentang yang diberi nama, sehingga lebih mudah dikenali dalam lembar kerja Anda.
 
 ## Langkah 7: Simpan Buku Kerja yang Dimodifikasi
 
@@ -113,7 +113,7 @@ Setelah melakukan semua perubahan ini, langkah selanjutnya adalah menyimpan buku
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Baris ini menyimpan perubahan Anda ke file bernama`outputCreateNamedRangeofCells.xlsx`Pastikan jalur yang ditentukan sudah benar; jika tidak, program akan menampilkan kesalahan!
+ Baris ini menyimpan perubahan Anda ke file bernama`outputCreateNamedRangeofCells.xlsx`Pastikan jalur yang ditentukan sudah benar; jika tidak, program akan menampilkan kesalahan!
 
 ## Langkah 8: Verifikasi Keberhasilan Operasi
 

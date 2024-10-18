@@ -70,7 +70,7 @@ Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.Pap
 
 ## Stap 4: Herhaal voor andere papierformaten
 
-Laten we het proces herhalen voor andere gangbare papierformaten. We controleren de formaten A3, A4 en Letter. Deze herhaling is belangrijk om te begrijpen hoe elk formaat is gedefinieerd binnen het Aspose.Cells-framework.
+Laten we het proces herhalen voor andere veelvoorkomende papierformaten. We controleren de formaten A3, A4 en Letter. Deze herhaling is belangrijk om te begrijpen hoe elk formaat is gedefinieerd binnen het Aspose.Cells-framework.
 
 ```csharp
 //Stel het papierformaat in op A3 en druk de papierbreedte en -hoogte af in inches
@@ -84,7 +84,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Elk van deze blokken bootst de vorige stap na, maar past de`PaperSize`eigenschap dienovereenkomstig. Door alleen de formaatindicator te veranderen, krijgt u moeiteloos verschillende papierafmetingen. Het is alsof u de grootte van een doos verandert op basis van wat u moet opslaan!
+ Elk van deze blokken bootst de vorige stap na, maar past de`PaperSize`eigenschap dienovereenkomstig. Door alleen de maatindicator te veranderen, krijgt u moeiteloos verschillende papierafmetingen. Het is alsof u de grootte van een doos verandert op basis van wat u moet opslaan!
 
 ## Conclusie
 

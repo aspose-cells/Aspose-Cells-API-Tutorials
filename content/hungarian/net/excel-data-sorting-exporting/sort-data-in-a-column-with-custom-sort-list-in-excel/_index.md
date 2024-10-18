@@ -25,7 +25,7 @@ Győződjön meg arról, hogy be van állítva egy működő .NET fejlesztői k�
 
 ### Aspose.Cells a .NET NuGet csomaghoz
 
-A projektben telepíteni kell a .NET Aspose.Cells könyvtárát. Könnyen hozzáadhatja a NuGet Package Manager segítségével. 
+projektben telepíteni kell a .NET Aspose.Cells könyvtárát. Könnyen hozzáadhatja a NuGet Package Manager segítségével. 
 
 Íme, hogyan kell csinálni:
 
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## 2. lépés: Töltse be az Excel forrásfájlt
 
- Ezután betöltjük a rendezni kívánt adatokat tartalmazó Excel-fájlt. Ez úgy történik, hogy létrehoz egy példányt a`Workbook` osztályt, és átadja a forrásfájl elérési útját.
+Ezután betöltjük a rendezni kívánt adatokat tartalmazó Excel-fájlt. Ez úgy történik, hogy létrehoz egy példányt a`Workbook` osztályt, és átadja a forrásfájl elérési útját.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -102,7 +102,7 @@ wb.DataSorter.Sort(ws.Cells, ca);
 
 ## 7. lépés: Mentse el a kimeneti Excel fájlt
 
-A rendezés befejezése után az utolsó lépés a módosítások mentése egy új Excel-fájlba. Adja meg a kimeneti fájl nevét, és mentse a munkafüzetet.
+rendezés befejezése után az utolsó lépés a módosítások mentése egy új Excel-fájlba. Adja meg a kimeneti fájl nevét, és mentse a munkafüzetet.
 
 ```csharp
 wb.Save(outputDir + "outputSortData_CustomSortList.xlsx");

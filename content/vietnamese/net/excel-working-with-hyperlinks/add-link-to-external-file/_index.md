@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Bước 2: Tạo một đối tượng Workbook
 Tiếp theo, chúng ta sẽ tạo một bảng tính Excel mới. Đây là trang trống nơi bạn có thể bắt đầu thêm các chức năng.
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
  Nghĩ về`Workbook` như một cuốn sổ tay mới nơi bạn có thể ghi lại mọi thứ bạn cần. Hiện tại nó đang trống, sẵn sàng cho bạn nhập liệu!
@@ -52,7 +52,7 @@ Bây giờ, đến phần thú vị: thêm siêu liên kết! Điều này cho p
 worksheet.Hyperlinks.Add("A5", 1, 1, outputDir + "SomeExcelFile.xlsx");
 worksheet.Hyperlinks[0].TextToDisplay = "Link To External File";
 ```
- Trong dòng này, bạn đang chỉ định một ô,`A5`, cho siêu liên kết. Các tham số được truyền sẽ xác định siêu liên kết sẽ dẫn đến đâu. Bạn cũng thiết lập văn bản sẽ được hiển thị trong ô. Giống như viết một ghi chú có nhãn dính chỉ đến rương kho báu!
+ Trong dòng này, bạn đang chỉ định một ô,`A5`, cho siêu liên kết. Các tham số được truyền sẽ xác định siêu liên kết sẽ dẫn đến đâu. Bạn cũng thiết lập văn bản sẽ được hiển thị trong ô. Giống như viết một ghi chú có nhãn dán chỉ đến rương kho báu!
 ## Bước 5: Lưu sổ làm việc
 Sau khi hoàn thành kiệt tác của mình, đã đến lúc lưu nó. Thao tác này sẽ tạo tệp Excel của bạn với siêu liên kết mới được thêm vào.
 ```csharp
@@ -66,7 +66,7 @@ Vì bạn đã tham chiếu đến một tệp bên ngoài trong siêu liên k�
 workbook = new Workbook();
 workbook.Save(outputDir + "SomeExcelFile.xlsx");
 ```
-Ở đây, bạn đang tạo một sổ làm việc thứ hai sẽ đóng vai trò là mục tiêu của siêu liên kết của bạn. Nếu không có bước này, việc nhấp vào liên kết sẽ không dẫn đến đâu cả – giống như việc khóa một cánh cửa mà không có chìa khóa!
+Ở đây, bạn đang tạo một sổ làm việc thứ hai sẽ đóng vai trò là mục tiêu của siêu liên kết của bạn. Nếu không có bước này, việc nhấp vào liên kết sẽ không dẫn đến đâu cả – giống như việc khóa một cánh cửa không có chìa khóa!
 ## Bước 7: Tin nhắn xác nhận
 Cuối cùng, hãy in tin nhắn xác nhận khi mọi thứ đã hoàn tất thành công.
 ```csharp

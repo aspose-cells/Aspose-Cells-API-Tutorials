@@ -49,7 +49,7 @@ Para empezar, deberá asegurarse de tener un lugar seguro para almacenar sus arc
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crear directorio si aún no está presente.
+//Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -57,12 +57,12 @@ if (!IsExists)
 
 En el código anterior, declaramos la ruta donde residirá nuestro archivo Excel (`dataDir`). Después, comprobamos si este directorio ya existe. Si no existe, lo creamos. ¡Así de sencillo!
 
-## Paso 2: Creación de una instancia de un objeto de libro de trabajo
+## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
 A continuación, crearemos una instancia de la clase Workbook. Esta clase es la columna vertebral de cualquier operación relacionada con Excel que realice.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -77,7 +77,7 @@ Ahora que nuestro libro de trabajo está listo, ¡agreguemos esa nueva hoja!
 int i = workbook.Worksheets.Add();
 ```
 
- Aquí, estamos usando el`Add()` método de la`Worksheets` colección presente dentro de la`Workbook` clase. El método devuelve un índice (`i`de la hoja recién agregada. Es como agregar una página a su cuaderno: ¡simple y eficiente!
+ Aquí, estamos usando el`Add()` método de la`Worksheets` colección presente dentro de la`Workbook` clase. El método devuelve un índice (`i`) de la hoja recién agregada. Es como agregar una página a su cuaderno: ¡simple y eficiente!
 
 ## Paso 4: Ponle nombre a tu nueva hoja de trabajo
 
@@ -98,7 +98,7 @@ worksheet.Name = "My Worksheet";
 ¡Ya estamos en la recta final! Es hora de salvar tu obra maestra.
 
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(dataDir + "output.out.xls");
 ```
 

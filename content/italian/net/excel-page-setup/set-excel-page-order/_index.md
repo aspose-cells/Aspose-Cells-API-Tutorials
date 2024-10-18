@@ -114,7 +114,7 @@ Aspose.Cells è una libreria .NET che fornisce funzionalità per la manipolazion
  È possibile richiedere una licenza temporanea visitando il sito[Pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) sul sito web di Aspose.
 
 ### Posso modificare l'ordine delle pagine per più fogli di lavoro?
- Sì! Puoi accedere a ogni foglio di lavoro`PageSetup` e configurare individualmente l'ordine delle pagine.
+ Sì! Puoi accedere a ogni foglio di lavoro`PageSetup` e configurare l'ordine delle pagine individualmente.
 
 ### Quali sono le opzioni per stampare l'ordine delle pagine?
 Per l'ordine di stampa delle pagine puoi scegliere tra "Sopra e poi Sotto" e "Sotto e poi Sopra".

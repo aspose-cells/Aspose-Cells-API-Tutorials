@@ -12,7 +12,7 @@ In dieser umfassenden Anleitung führen wir Sie durch den Prozess des Importiere
 
 ## Voraussetzungen
 
-Bevor Sie in den Code eintauchen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Stellen Sie vor dem Eintauchen in den Code sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass Java JDK auf Ihrem System installiert ist.
 2.  Aspose.Cells für Java: Laden Sie die Bibliothek Aspose.Cells für Java herunter und binden Sie sie in Ihr Projekt ein. Den Download-Link finden Sie[Hier](https://releases.aspose.com/cells/java/).
@@ -69,7 +69,7 @@ Kompilieren und führen Sie den Java-Code in Ihrer IDE aus. Stellen Sie sicher, 
 
 ## Abschluss
 
-Sie haben jetzt gelernt, wie Sie mit Aspose.Cells für Java Daten aus Excel importieren. Diese Bibliothek bietet umfangreiche Funktionen für die Arbeit mit Excel-Dateien in Ihren Java-Anwendungen und macht die Datenintegration zum Kinderspiel.
+Sie haben nun gelernt, wie Sie mit Aspose.Cells für Java Daten aus Excel importieren. Diese Bibliothek bietet umfangreiche Funktionen für die Arbeit mit Excel-Dateien in Ihren Java-Anwendungen und macht die Datenintegration zum Kinderspiel.
 
 
 ## FAQs

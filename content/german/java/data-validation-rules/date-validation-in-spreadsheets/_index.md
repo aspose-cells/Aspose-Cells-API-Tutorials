@@ -1,6 +1,6 @@
 ---
-title: Datumsüberprüfung in Tabellenkalkulationen
-linktitle: Datumsüberprüfung in Tabellenkalkulationen
+title: Datumsvalidierung in Tabellenkalkulationen
+linktitle: Datumsvalidierung in Tabellenkalkulationen
 second_title: Aspose.Cells Java Excel-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Datumsvalidierung in Excel-Tabellen durchführen. Stellen Sie mit unserer Schritt-für-Schritt-Anleitung die Genauigkeit und Integrität Ihrer Daten sicher. Entdecken Sie leistungsstarke Excel-Manipulationstechniken.
 type: docs
@@ -43,7 +43,7 @@ Workbook workbook = new Workbook("your_excel_file.xlsx");
 Als Nächstes greifen wir auf das spezifische Arbeitsblatt zu, in dem wir die Datumsvalidierung durchführen möchten:
 
 ```java
-// Greifen Sie über den Namen auf das Arbeitsblatt zu
+// Zugriff auf das Arbeitsblatt nach Namen
 Worksheet worksheet = workbook.getWorksheets().get("Sheet1");
 ```
 

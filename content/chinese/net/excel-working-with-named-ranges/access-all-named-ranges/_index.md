@@ -17,7 +17,7 @@ url: /zh/net/excel-working-with-named-ranges/access-all-named-ranges/
 ## 导入包
 首先，您需要导入必要的软件包，以便能够访问 Aspose.Cells 的功能。操作方法如下：
 1. 打开您的 Visual Studio 项目。
-2. 添加对 Aspose.Cells DLL 的引用。如果您已通过 NuGet 安装它，则它应该已包含在内。
+2. 添加对 Aspose.Cells DLL 的引用。如果您已通过 NuGet 安装它，它应该已包含在内。
 3. 在 C# 文件的顶部，添加以下 using 指令：
 ```csharp
 using System;

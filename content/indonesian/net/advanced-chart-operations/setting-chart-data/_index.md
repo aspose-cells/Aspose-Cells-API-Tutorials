@@ -92,7 +92,7 @@ Langkah ini menambahkan data kategori ke kolom 'C', membantu audiens Anda memaha
 
 ## Langkah 6: Tambahkan Bagan ke Lembar Kerja
 
-Sekarang saatnya untuk menambahkan bagan itu sendiri.
+Sekarang saatnya menambahkan bagan itu sendiri.
 
 ```csharp
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
@@ -116,7 +116,7 @@ Di sinilah kita menghubungkan bagan kita dengan data yang telah kita siapkan.
 chart.NSeries.Add("A1:B4", true);
 ```
 
-Dengan langkah ini, kami memberi tahu diagram tempat untuk mengambil data. Sama seperti membuat daftar putar dengan menambahkan lagu-lagu favorit Anda ke dalam daftar, pada dasarnya kami memberi tahu diagram data mana yang akan disorot.
+Dengan langkah ini, kami memberi tahu diagram tempat untuk mengambil data. Sama seperti membuat daftar putar dengan menambahkan lagu-lagu favorit Anda ke dalam daftar, pada dasarnya kami memberi tahu diagram data mana yang harus disorot.
 
 ## Langkah 9: Simpan File Excel
 
@@ -126,7 +126,7 @@ Anda hampir selesai! Sekarang, mari simpan pekerjaan Anda.
 workbook.Save(outputDir + "outputSettingChartsData.xlsx");
 ```
 
-Dengan baris kode ini, Anda menyimpan buku kerja Anda sebagai file Excel. Anggap ini sebagai sapuan kuas terakhir pada karya agung Anda – saatnya memamerkan karya Anda!
+Dengan baris kode ini, Anda menyimpan buku kerja Anda sebagai file Excel. Anggap ini sebagai sapuan kuas terakhir pada mahakarya Anda – saatnya memamerkan karya Anda!
 
 ## Langkah 10: Pesan Konfirmasi
 

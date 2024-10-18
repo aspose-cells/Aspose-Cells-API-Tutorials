@@ -92,7 +92,7 @@ Saat ini, kita sedang membuat pratinjau seluruh buku kerja kita. Anggap saja ini
 
 ## Langkah 5: Evaluasi Jumlah Halaman
 
-Berapa banyak halaman yang akan dibutuhkan buku kerja Anda saat dicetak? Mari kita cari tahu dengan kode berikut:
+Berapa banyak halaman yang akan digunakan buku kerja Anda saat dicetak? Mari kita cari tahu dengan kode berikut:
 
 ```csharp
 Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);

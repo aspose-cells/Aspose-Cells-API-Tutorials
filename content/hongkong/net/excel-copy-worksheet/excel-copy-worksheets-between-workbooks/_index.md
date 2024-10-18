@@ -15,7 +15,7 @@ url: /zh-hant/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 
 在我們深入研究程式碼之前，讓我們確保您配備了正確的工具來開始：
 
--  Aspose.Cells for .NET：您可以下載它[這裡](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET：您可以下載它[這裡](https://releases.aspose.com/cells/net/).
 - Visual Studio 或任何支援 .NET 框架的 IDE。
 - 有效的許可證或[臨時執照](https://purchase.aspose.com/temporary-license/)如果您想測試 Aspose.Cells 的完整功能。
 - 對 C# 和 .NET 架構有基本了解。

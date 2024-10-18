@@ -16,7 +16,7 @@ Di era di mana data adalah raja, memastikan keamanan lembar kerja Excel Anda ada
 Perlindungan kata sandi adalah garis pertahanan pertama Anda. Dengan Aspose.Cells untuk Java, Anda dapat menetapkan kata sandi untuk membuka dan kata sandi untuk mengubah berkas Excel Anda. Lapisan perlindungan ganda ini memastikan bahwa hanya orang yang berwenang yang dapat mengakses dan membuat perubahan pada lembar kerja Anda. Kami akan memberikan contoh kode untuk menerapkan langkah keamanan ini dengan lancar.
 
 ## Enkripsi Berkas
-Di dunia yang saling terhubung saat ini, enkripsi file adalah suatu keharusan. Aspose.Cells untuk Java memungkinkan Anda mengenkripsi file Excel menggunakan algoritma enkripsi standar industri. Kami akan memandu Anda melalui proses enkripsi file dan menguraikannya bila diperlukan.
+Di dunia yang saling terhubung saat ini, enkripsi file adalah suatu keharusan. Aspose.Cells untuk Java memungkinkan Anda mengenkripsi file Excel Anda menggunakan algoritma enkripsi standar industri. Kami akan memandu Anda melalui proses enkripsi file Anda dan menguraikannya bila diperlukan.
 
 ## Validasi Data
 Memastikan integritas data sangatlah penting. Kami akan membahas cara menggunakan aturan validasi data untuk mencegah entri data yang salah. Dengan Aspose.Cells untuk Java, Anda dapat mengatur aturan validasi data yang membatasi input data ke kriteria tertentu, memastikan lembar Excel Anda tetap akurat dan bebas kesalahan.

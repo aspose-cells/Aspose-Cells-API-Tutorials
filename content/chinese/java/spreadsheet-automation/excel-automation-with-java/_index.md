@@ -91,7 +91,7 @@ worksheet.getCells().get("A1").setStyle(style);
 
 ## 8. 结论
 
-Aspose.Cells for Java 可帮助您高效地自动化 Excel 任务。借助这些源代码示例，您可以用 Java 启动 Excel 自动化项目。
+Aspose.Cells for Java 可让您高效地自动化 Excel 任务。借助这些源代码示例，您可以用 Java 启动 Excel 自动化项目。
 
 ## 9. 常见问题解答
 

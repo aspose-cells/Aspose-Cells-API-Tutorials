@@ -9,7 +9,7 @@ url: /fr/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 ---
 ## Introduction
 
-Que vous développiez des applications qui manipulent des fichiers Excel ou que vous bricoliez simplement pour un usage personnel, il est essentiel de comprendre comment gérer les paramètres des feuilles de calcul. Pourquoi ? Parce qu'une mauvaise configuration de l'imprimante peut faire la différence entre un rapport bien imprimé et une erreur d'impression désordonnée. De plus, à l'ère de la gestion dynamique des documents, la possibilité de supprimer facilement ces paramètres peut vous faire gagner du temps et des ressources.
+Que vous développiez des applications qui manipulent des fichiers Excel ou que vous bricoliez simplement pour un usage personnel, il est essentiel de comprendre comment gérer les paramètres des feuilles de calcul. Pourquoi ? Parce qu'une mauvaise configuration d'imprimante peut faire la différence entre un rapport bien imprimé et une erreur d'impression désordonnée. De plus, à l'ère de la gestion dynamique des documents, la possibilité de supprimer facilement ces paramètres peut vous faire gagner du temps et des ressources.
 
 ## Prérequis
 

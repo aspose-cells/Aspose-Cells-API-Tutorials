@@ -113,11 +113,11 @@ range1.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Medium, Color.From
 range1.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 ```
 
-我们在我们的产品系列周围添加了海军蓝色中等边框，以使其更具视觉吸引力。
+我们在产品系列周围添加了中号海军蓝色边框，以使其更具视觉吸引力。
 
 ## 步骤 7：将数据插入范围
 
-接下来，我们可以向我们的单元格填充一些数据，以使其发挥作用。
+接下来，我们可以用一些数据填充我们的单元格以使其发挥作用。
 
 ```csharp
 //在范围内的几个单元格中输入一些具有某些格式的数据。

@@ -9,7 +9,7 @@ url: /nl/net/excel-data-alignment-formatting/
 ---
 ## Invoering
 
-Laten we eerst eens kijken waarom je de uitlijning in de eerste plaats zou willen veranderen. Uitlijning draait om het ervoor zorgen dat je data netjes wordt gepresenteerd, wat de leesbaarheid kan verbeteren en je spreadsheets een gepolijste, professionele uitstraling kan geven. Met Aspose.Cells kun je zowel de horizontale als de verticale uitlijning aanpassen, of je nu wilt dat je tekst links, rechts, gecentreerd of uitgerekt over cellen staat. En het beste is nog wel dat je dit allemaal kunt doen zonder dat je de perfecte opmaak verliest waar je eeuwen aan hebt gewerkt!
+Laten we eerst eens kijken waarom je de uitlijning in de eerste plaats zou willen veranderen. Uitlijning draait om het ervoor zorgen dat je data netjes wordt gepresenteerd, wat de leesbaarheid kan verbeteren en je spreadsheets een gepolijste, professionele uitstraling kan geven. Met Aspose.Cells kun je zowel de horizontale als de verticale uitlijning aanpassen, of je nu wilt dat je tekst links, rechts, gecentreerd of uitgerekt over cellen staat. En het beste is nog wel dat je dit allemaal kunt doen zonder de perfecte opmaak te verliezen waar je eeuwen aan hebt gewerkt!
 
 ## Uitlijning van Excel-cellen wijzigen zonder opmaak te verliezen
 

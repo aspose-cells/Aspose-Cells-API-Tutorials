@@ -2,14 +2,14 @@
 title: Microsoft-Designfarbe in Diagrammreihen anwenden
 linktitle: Microsoft-Designfarbe in Diagrammreihen anwenden
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET Microsoft-Designfarben in Diagrammserien anwenden. Ein Schritt-für-Schritt-Tutorial zur Verbesserung der Datenvisualisierung.
+description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET Microsoft-Designfarben in Diagrammreihen anwenden. Ein Schritt-für-Schritt-Tutorial zur Verbesserung der Datenvisualisierung.
 type: docs
 weight: 14
 url: /de/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-series/
 ---
 ## Einführung
 
-In der heutigen visuell geprägten Welt ist die Art und Weise, wie wir Daten präsentieren, von großer Bedeutung. Diagramme sind oft die heimlichen Helden der Datenpräsentation, da sie komplexe Informationen in leicht verdauliche visuelle Häppchen umwandeln. Wenn Sie Microsoft Excel verwenden, wissen Sie, wie wichtig es ist, Ihre Diagramme so anzupassen, dass sie zum Branding Ihres Unternehmens passen oder sie einfach ansprechender gestalten. Aber wussten Sie, dass Sie Ihre Diagramme mit Aspose.Cells für .NET noch weiter personalisieren können? In diesem Artikel führen wir Sie durch die Schritte zum Anwenden von Microsoft-Designfarben in Ihren Diagrammreihen, um sicherzustellen, dass Ihre Daten nicht nur hervorstechen, sondern auch zur Ästhetik Ihrer anderen Branding-Materialien passen.
+In der heutigen visuell geprägten Welt ist die Art und Weise, wie wir Daten präsentieren, von großer Bedeutung. Diagramme sind oft die unbesungenen Helden der Datenpräsentation, da sie komplexe Informationen in leicht verdauliche visuelle Häppchen umwandeln. Wenn Sie Microsoft Excel verwenden, wissen Sie, wie wichtig es ist, Ihre Diagramme so anzupassen, dass sie zum Branding Ihres Unternehmens passen oder sie einfach ansprechender gestalten. Aber wussten Sie, dass Sie Ihre Diagramme mit Aspose.Cells für .NET noch weiter personalisieren können? In diesem Artikel führen wir Sie durch die Schritte zum Anwenden von Microsoft-Designfarben in Ihren Diagrammreihen, um sicherzustellen, dass Ihre Daten nicht nur hervorstechen, sondern auch zur Ästhetik Ihrer anderen Branding-Materialien passen.
 
 ## Voraussetzungen
 
@@ -79,7 +79,7 @@ So wie wir in einem Buch eine bestimmte Seite aufschlagen, führt uns dieser Sch
 Jetzt ist es an der Zeit, das Diagramm zu finden, das wir ändern möchten. Hier beginnt die wahre Magie!
 
 ```csharp
-//Holen Sie sich das erste Diagramm im Blatt
+// Holen Sie sich das erste Diagramm im Blatt
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,11 +112,11 @@ Hier greifen wir auf die Farbeinstellung für die Diagrammreihe zurück.
  Nun wenden wir eine Microsoft-Designfarbe an. Wir wählen eine`Accent` Stil, denn wer liebt nicht einen Farbtupfer?
 
 ```csharp
-//Erstellen Sie ein Design im Accent-Stil
+// Erstellen Sie ein Design im Accent-Stil
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
-Mit nur ein paar Zeilen haben Sie hier angegeben, dass Ihre Diagrammreihe eine bestimmte Themenfarbe widerspiegeln soll, und so Ihren Bildern Eleganz und Markenbewusstsein verleihen.
+Mit nur ein paar Zeilen haben Sie hier angegeben, dass Ihre Diagrammreihe eine bestimmte Themenfarbe widerspiegeln soll, und so Ihren Bildern Eleganz und Markenbewusstsein verliehen.
 
 ## Schritt 8: Stellen Sie die Zellenfarbe ein
 

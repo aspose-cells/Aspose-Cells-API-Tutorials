@@ -14,7 +14,7 @@ No mundo da manipulação de dados, a capacidade de importar e exportar arquivos
 
 ## Tutoriais passo a passo para desenvolvedores Java:
 
-Nossos tutoriais abrangentes guiarão você pelo processo intrincado de importação e exportação do Excel usando o Aspose.Cells para Java. Seja você um novato ou um desenvolvedor Java experiente, nossos guias passo a passo são projetados para garantir que você adquira as habilidades essenciais. Você aprenderá como importar dados de forma eficiente para arquivos do Excel e exportá-los de pastas de trabalho do Excel com precisão e facilidade.
+Nossos tutoriais abrangentes guiarão você pelo processo intrincado de importação e exportação do Excel usando o Aspose.Cells para Java. Seja você um novato ou um desenvolvedor Java experiente, nossos guias passo a passo são projetados para garantir que você adquira as habilidades essenciais. Você aprenderá como importar dados de forma eficiente para arquivos do Excel e exportá-los de planilhas do Excel com precisão e facilidade.
 
 ## Dominando o Excel hoje:
 

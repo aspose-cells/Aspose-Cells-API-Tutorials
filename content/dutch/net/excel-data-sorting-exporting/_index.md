@@ -19,7 +19,7 @@ Het sorteren van gegevens lijkt misschien kinderspel, maar als u een aangepaste 
 
 ## HTML-waarden exporteren: cellen converteren naar DataTable
 
-Laten we nu overgaan op het exporteren van HTML-tekenreekswaarden. Stel dat u een verbluffende tabel in Excel hebt gemaakt met rijke HTML-opmaak en u wilt die gegevens nu gebruiken in een webapplicatie. Hoe doet u dat? Daar komt onze tweede tutorial om de hoek kijken. 
+Laten we nu overgaan op het exporteren van HTML-tekenreekswaarden. Stel dat u een verbluffende tabel in Excel hebt gemaakt met rijke HTML-opmaak en u wilt die gegevens nu gebruiken in een webapplicatie. Hoe krijgt u dat voor elkaar? Daar komt onze tweede tutorial om de hoek kijken. 
 
  Met de[HTML-tekenreekswaarde van cellen exporteren naar DataTable in Excel-zelfstudie](./export-html-string-value-of-cells-to-datatable-in-excel/), leert u hoe u die prachtig opgemaakte cellen kunt extraheren en ze kunt omzetten in een DataTable met Aspose.Cells voor .NET. Het is alsof u een heerlijk recept uit een stoffig oud boek overzet naar uw favoriete digitale kook-app: handig en efficiënt!
 

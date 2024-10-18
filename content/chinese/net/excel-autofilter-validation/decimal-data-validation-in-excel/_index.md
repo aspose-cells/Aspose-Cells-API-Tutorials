@@ -9,7 +9,7 @@ url: /zh/net/excel-autofilter-validation/decimal-data-validation-in-excel/
 ---
 ## 介绍
 
-在任何企业中，创建包含准确数据的电子表格对于清晰的沟通至关重要。确保数据准确性的一种方法是使用 Excel 中的数据验证。在本教程中，我们将利用 Aspose.Cells for .NET 的强大功能来创建十进制数据验证机制，以保持数据的可靠性和干净性。如果您想提高自己的 Excel 水平，那么您来对地方了！
+创建包含准确数据的电子表格对于任何企业的清晰沟通都至关重要。确保数据准确性的一种方法是使用 Excel 中的数据验证。在本教程中，我们将利用 Aspose.Cells for .NET 的强大功能来创建十进制数据验证机制，以保持数据的可靠性和干净性。如果您想提高自己的 Excel 水平，那么您来对地方了！
 
 ## 先决条件
 
@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory";
 
 代替`"Your Document Directory"`使用您想要保存 Excel 文件的路径。
 
-## 第 2 步：检查目录是否存在
+## 步骤 2：检查目录是否存在
 
 此代码片段检查目录是否存在，如果不存在则创建目录：
 
@@ -132,7 +132,7 @@ validation.Type = ValidationType.Decimal;
 validation.Operator = OperatorType.Between;
 ```
 
-把它想象成画一条边界线。任何超出此范围的数字都将被拒绝，从而保持您的数据干净！
+把它想象成画一条边界线。任何超出此范围的数字都将被拒绝，从而保持数据干净！
 
 ## 步骤 10：建立验证限制
 
@@ -203,7 +203,7 @@ Excel 中的数据验证是一种限制可在特定单元格或范围内输入�
 是的！您可以提供自定义错误消息，以便在用户输入错误数据时提供指导。
 
 ### Aspose.Cells 可以免费使用吗？
- Aspose.Cells 提供免费试用，但您需要许可证才能长期使用。您可以找到有关获取临时许可证的更多信息[这里](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells 提供免费试用，但您需要许可证才能长期使用。您可以找到有关获取临时许可证的更多信息[这里](https://purchase.aspose.com/temporary-license/).
 
 ### 我可以在 Excel 中验证哪些数据类型？
 使用 Aspose.Cells，您可以验证各种数据类型，包括整数、小数、日期、列表和自定义公式。

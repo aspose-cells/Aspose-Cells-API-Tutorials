@@ -16,8 +16,8 @@ Excel ファイルをプログラムで処理する場合、Aspose.Cells for .NE
 コードに進む前に、必要なものがすべて揃っていることを確認しましょう。 
 
 1. Visual Studio または任意の .NET 統合開発環境 (IDE): C# コードを記述して実行するための適切な IDE があることを確認します。
-2. Aspose.Cells for .NET: プロジェクトでAspose.Cellsライブラリをダウンロードして参照する必要があります。ダウンロードは以下から行えます。[Aspose リリース](https://releases.aspose.com/cells/net/).
-3. 基本的な C# の知識: C# とオブジェクト指向プログラミングの概念を理解していると、例をよりよく理解するのに役立ちます。
+2.  Aspose.Cells for .NET: プロジェクトでAspose.Cellsライブラリをダウンロードして参照する必要があります。ダウンロードは以下から行えます。[Aspose リリース](https://releases.aspose.com/cells/net/).
+3. 基本的な C# の知識: C# とオブジェクト指向プログラミングの概念を理解していると、例をよりよく理解できるようになります。
 4. .NET Framework: このチュートリアルでは、.NET Framework 4.5 以降を使用していることを前提としています。
 
 前提条件を整理したら、指定された数式フィールドを使用して Excel シートにデータをインポートしてみましょう。
@@ -177,5 +177,5 @@ Aspose.Cells は、Excel ファイルをプログラムで作成、操作、変�
 追加の例とドキュメントは、[Aspose ドキュメント ページ](https://reference.aspose.com/cells/net/).
 
 ### Aspose の使用中に問題が発生した場合はどうすればよいですか?
- Asposeサポートフォーラムからサポートを求めることができます[ここ](https://forum.aspose.com/c/cells/9).
+Asposeサポートフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/cells/9).
  

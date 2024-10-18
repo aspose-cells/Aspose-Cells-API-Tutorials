@@ -9,7 +9,7 @@ url: /fr/net/advanced-chart-operations/setting-chart-data/
 ---
 ## Introduction
 
-En matière de visualisation de données, les graphiques et diagrammes sont indispensables. Ils vous aident à raconter une histoire avec vos données, rendant les informations complexes plus faciles à comprendre et à interpréter. Aspose.Cells pour .NET est une excellente bibliothèque qui vous permet de manipuler des fichiers Excel, y compris la possibilité de créer des graphiques impressionnants. Dans ce didacticiel, nous vous guiderons tout au long du processus de définition transparente des données d'un graphique à l'aide d'Aspose.Cells pour .NET.
+En matière de visualisation de données, les graphiques et diagrammes sont indispensables. Ils vous aident à raconter une histoire avec vos données, rendant les informations complexes plus faciles à comprendre et à interpréter. Aspose.Cells for .NET est une excellente bibliothèque qui vous permet de manipuler des fichiers Excel, y compris la possibilité de créer des graphiques impressionnants. Dans ce didacticiel, nous vous guiderons tout au long du processus de définition transparente des données d'un graphique à l'aide d'Aspose.Cells for .NET.
 
 ## Prérequis
 
@@ -108,7 +108,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
 Ici, nous obtenons une référence au graphique que nous venons d'ajouter, ce qui nous permet de le personnaliser davantage. C'est un peu comme prendre le pinceau une fois le contour prêt : vous êtes maintenant prêt à ajouter de la couleur !
 
-## Étape 8 : Définir la source des données du graphique
+## Étape 8 : définir la source des données du graphique
 
 C'est ici que nous connectons notre graphique aux données que nous avons préparées.
 
@@ -118,7 +118,7 @@ chart.NSeries.Add("A1:B4", true);
 
 Avec cette étape, nous indiquons au graphique d'où extraire les données. Tout comme lorsque vous créez une liste de lecture en ajoutant vos chansons préférées à une liste, nous indiquons essentiellement au graphique les données à mettre en évidence.
 
-## Étape 9 : Enregistrez le fichier Excel
+## Étape 9 : Enregistrer le fichier Excel
 
 Vous avez presque terminé ! Maintenant, sauvegardons votre travail.
 
@@ -148,7 +148,7 @@ La définition des données d'un graphique à l'aide d'Aspose.Cells pour .NET ne
 Aspose.Cells est une bibliothèque .NET qui permet aux utilisateurs de créer, manipuler, convertir et restituer des fichiers Excel.
 
 ### Comment installer Aspose.Cells pour .NET ?  
- Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/net/) et ajoutez-le à votre projet via NuGet Package Manager.
+ Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/net/) et ajoutez-le à votre projet via le gestionnaire de packages NuGet.
 
 ### Puis-je créer différents types de graphiques avec Aspose.Cells ?  
 Oui ! Aspose.Cells prend en charge différents types de graphiques, notamment les graphiques en courbes, à barres, à secteurs, etc.

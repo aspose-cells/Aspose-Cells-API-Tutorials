@@ -1,6 +1,6 @@
 ---
-title: Permitir apóstrofo inicial
-linktitle: Permitir apóstrofo inicial
+title: Permitir Apóstrofo Inicial
+linktitle: Permitir Apóstrofo Inicial
 second_title: Referência da API Aspose.Cells para .NET
 description: Gerencie apóstrofos iniciais sem esforço no Excel com Aspose.Cells para .NET. Este tutorial abrangente o guia passo a passo pelo processo.
 type: docs
@@ -18,7 +18,7 @@ Antes de mergulhar no código, aqui estão alguns pré-requisitos que você prec
 1. Conhecimento básico de .NET: Familiaridade com o framework .NET é essencial. Se você já se envolve com C# ou VB.NET, considere-se pronto.
 2. Biblioteca Aspose.Cells para .NET: Você precisará ter o Aspose.Cells instalado. Você pode fazer isso facilmente por meio do gerenciador de pacotes NuGet ou baixá-lo do[Site de Aspose](https://releases.aspose.com/cells/net/).
 3. Configuração do IDE: certifique-se de ter um Ambiente de Desenvolvimento Integrado (IDE), como o Visual Studio, pronto para codificação.
-4. Arquivo Excel de exemplo: Você pode usar o arquivo de exemplo ("AllowLeadingApostropheSample.xlsx") com o qual trabalharemos no código.
+4. Arquivo de exemplo do Excel: você pode usar o arquivo de exemplo ("AllowLeadingApostropheSample.xlsx") com o qual trabalharemos no código.
 
 Agora que você verificou os pré-requisitos, vamos importar os pacotes necessários e configurar nosso projeto.
 
@@ -70,7 +70,7 @@ O arquivo Excel de exemplo aqui precisa conter marcadores inteligentes para que 
 
 ## Etapa 4: Configurar as configurações da pasta de trabalho
 
-Agora, você precisa garantir que as configurações da pasta de trabalho estejam configuradas para manipular apóstrofos iniciais adequadamente.
+Agora, você precisa garantir que as configurações da pasta de trabalho estejam configuradas para lidar com apóstrofos iniciais adequadamente.
 
 ```csharp
 workbook.Settings.QuotePrefixToStyle = false;
@@ -102,7 +102,7 @@ designer.SetDataSource("sampleData", list);
 
 Certifique-se de que "sampleData" corresponda aos marcadores inteligentes no seu arquivo Excel. Dessa forma, o Aspose.Cells sabe onde inserir os dados.
 
-## Etapa 7: Processe os marcadores inteligentes
+## Etapa 7: Processar os marcadores inteligentes
 
 Vamos prosseguir com o processamento dos marcadores inteligentes com os dados que fornecemos.
 
@@ -134,7 +134,7 @@ Esta saída simples do console pode garantir que todas as etapas foram executada
 
 ## Conclusão
 
-Neste guia, navegamos pelas complexidades do tratamento de apóstrofos iniciais no Excel usando o Aspose.Cells para .NET. Desde a configuração do seu ambiente até a manipulação eficaz de arquivos do Excel, você aprendeu a eliminar armadilhas potenciais frequentemente encontradas ao trabalhar com sequências numéricas e formatação automática.
+Neste guia, navegamos pelas complexidades do tratamento de apóstrofos iniciais no Excel usando o Aspose.Cells para .NET. Desde a configuração do seu ambiente até a manipulação eficaz de arquivos do Excel, você aprendeu a eliminar potenciais armadilhas frequentemente encontradas ao trabalhar com sequências numéricas e formatação automática.
 
 Agora, quer você esteja gerando relatórios, criando funcionalidades para análise de dados ou gerenciando importações e exportações de dados, você tem as ferramentas para lidar com esses cenários com confiança!
 

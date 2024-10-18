@@ -2,7 +2,7 @@
 title: Zobrazit kartu Tabulky
 linktitle: Zobrazit kartu Tabulky
 second_title: Aspose.Cells for .NET API Reference
-description: V tomto podrobném průvodci se dozvíte, jak zobrazit záložku tabulky pomocí Aspose.Cells for .NET. Ovládněte automatizaci Excelu snadno v C#.
+description: tomto podrobném průvodci se dozvíte, jak zobrazit záložku tabulky pomocí Aspose.Cells for .NET. Ovládněte automatizaci Excelu snadno v C#.
 type: docs
 weight: 60
 url: /cs/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
@@ -61,7 +61,7 @@ V aplikaci Excel lze karty ve spodní části (List1, List2 atd.) skrýt nebo zo
 workbook.Settings.ShowTabs = true;
 ```
 
- Nastavení`ShowTabs` na`true`zajistí, že při otevření souboru aplikace Excel budou karty viditelné.
+ Nastavení`ShowTabs` na`true` zajistí, že při otevření souboru aplikace Excel budou karty viditelné.
 
 ## Krok 4: Uložte upravený soubor Excel
 
@@ -75,12 +75,12 @@ workbook.Save(dataDir + "output.xls");
 
 ## Závěr
 
-A tady to máte! Úspěšně jste zobrazili karty v excelové tabulce pomocí Aspose.Cells for .NET. Je to jednoduchý úkol, ale je také neuvěřitelně užitečný, když automatizujete operace Excelu. Aspose.Cells vám poskytuje plnou kontrolu nad soubory aplikace Excel, aniž byste museli instalovat Microsoft Office. Od ovládání viditelnosti karet až po zpracování složitých úkolů, jako je formátování a vzorce, Aspose.Cells to vše umožňuje pomocí několika řádků kódu.
+tady to máte! Úspěšně jste zobrazili karty v excelové tabulce pomocí Aspose.Cells for .NET. Je to jednoduchý úkol, ale je také neuvěřitelně užitečný, když automatizujete operace Excelu. Aspose.Cells vám poskytuje plnou kontrolu nad soubory aplikace Excel, aniž byste museli instalovat Microsoft Office. Od ovládání viditelnosti karet až po zpracování složitých úkolů, jako je formátování a vzorce, Aspose.Cells to vše umožňuje pomocí několika řádků kódu.
 
 ## FAQ
 
 ### Mohu skrýt karty v aplikaci Excel pomocí Aspose.Cells pro .NET?
- Absolutně! Jednoduše nastavit`workbook.Settings.ShowTabs = false;` uložte soubor. Tím se karty při otevření sešitu skryjí.
+ Absolutně! Jednoduše nastavit`workbook.Settings.ShowTabs = false;` a uložte soubor. Tím se karty při otevření sešitu skryjí.
 
 ### Podporuje Aspose.Cells další funkce aplikace Excel, jako jsou grafy a kontingenční tabulky?
 Ano, Aspose.Cells je komplexní knihovna, která podporuje téměř všechny funkce Excelu, včetně grafů, kontingenčních tabulek, vzorců a dalších.

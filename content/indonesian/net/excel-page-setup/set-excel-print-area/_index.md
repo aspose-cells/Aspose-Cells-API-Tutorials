@@ -47,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur pada komputer tempat Anda ingin menyimpan berkas Excel. Ini seperti menyiapkan base camp sebelum mendaki gunung!
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Buat contoh kelas Buku Kerja.
 
@@ -97,7 +97,7 @@ Pada langkah ini, Anda secara efektif mengunci semua perubahan dan menyelesaikan
 
 ## Kesimpulan
 
-Mengatur area cetak dalam file Excel menggunakan Aspose.Cells for .NET dapat menyederhanakan tugas pencetakan Anda, memastikan hanya informasi yang diperlukan yang disertakan saat Anda menekan tombol cetak. Dengan mengikuti langkah-langkah ini—menentukan direktori Anda, menginisialisasi buku kerja Anda, mengakses PageSetup, menentukan area cetak, dan menyimpan buku kerja—Anda telah membekali diri Anda dengan keterampilan yang hebat. Jadi, baik Anda sedang mempersiapkan laporan, membuat faktur, atau sekadar mengatur data Anda, kini Anda memiliki alat yang praktis untuk digunakan. Selamat membuat kode!
+Mengatur area cetak dalam file Excel menggunakan Aspose.Cells for .NET dapat menyederhanakan tugas pencetakan Anda, memastikan hanya informasi yang diperlukan yang disertakan saat Anda menekan tombol cetak. Dengan mengikuti langkah-langkah ini—menentukan direktori Anda, menginisialisasi buku kerja Anda, mengakses PageSetup, menentukan area cetak, dan menyimpan buku kerja—Anda telah membekali diri Anda dengan keterampilan yang hebat. Jadi, baik Anda sedang mempersiapkan laporan, membuat faktur, atau sekadar mengatur data Anda, kini Anda memiliki alat yang praktis. Selamat membuat kode!
 
 ## Pertanyaan yang Sering Diajukan
 

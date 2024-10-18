@@ -20,7 +20,7 @@ Avant de passer au code, assurons-nous que vous disposez de tout ce dont vous av
 3. Connaissances de base de C# : la familiarité avec les concepts de programmation C# vous aidera à naviguer à travers les exemples que nous aborderons.
 4. .NET Framework : assurez-vous que votre projet cible une version de .NET qui prend en charge Aspose.Cells.
    
-Une fois ces éléments essentiels en place, lançons notre IDE et plongeons-nous dedans !
+Une fois ces éléments essentiels en place, lançons notre IDE et plongeons-nous !
 
 ## Paquets d'importation
 
@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Ensuite, nous devrons créer un`Workbook` objet. Cet objet agit comme un conteneur pour les données de votre feuille de calcul.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -115,13 +115,13 @@ Chaque ligne ici représente une option qui améliore l'apparence de votre docum
 
 1. Imprimer les lignes de la grille : cela rend ces zones vides gênantes sur votre feuille visibles, aidant les autres à suivre facilement. 
    
-2. Imprimer les en-têtes : inclure les en-têtes de ligne et de colonne donne un contexte à vos données, un peu comme l'index d'un livre.
+2. En-têtes d'impression : l'inclusion d'en-têtes de ligne et de colonne donne un contexte à vos données, un peu comme l'index d'un livre.
 
 3. Mode noir et blanc : parfait pour ceux qui souhaitent économiser sur l’impression couleur. 
 
 4. Imprimer les commentaires sur place : l’affichage des commentaires directement dans les cellules ajoute du contexte pour vos lecteurs, de manière similaire aux notes de bas de page dans un article.
 
-5. Qualité d'impression brouillon : s'il s'agit simplement d'une ébauche, vous n'avez pas besoin d'utiliser la qualité maximale. C'est comme dessiner avant de peindre !
+5. Qualité d'impression brouillon : s'il s'agit simplement d'une ébauche, vous n'avez pas besoin d'utiliser la qualité maximale. C'est comme faire un croquis avant de peindre !
 
 6. Imprimer les erreurs comme N/A : l'affichage des erreurs comme N/A permet de garder l'impression propre et compréhensible, évitant ainsi toute confusion.
 
@@ -138,7 +138,7 @@ Dans cette étape, nous enregistrons le classeur dans le répertoire spécifié.
 
 ## Conclusion
 
-Félicitations ! Vous disposez désormais des compétences nécessaires pour définir les options d'impression à l'aide d'Aspose.Cells pour .NET. Pensez à l'impact d'une feuille de calcul imprimée bien présentée ! Fini les documents ternes ; à la place, vous produisez des impressions propres et professionnelles à chaque fois. 
+Félicitations ! Vous disposez désormais des compétences nécessaires pour définir les options d'impression à l'aide d'Aspose.Cells pour .NET. Pensez à l'impact d'une feuille de calcul imprimée bien présentée ! Fini les documents ternes ; à la place, vous produisez des impressions nettes et professionnelles à chaque fois. 
 
 ## FAQ
 
@@ -149,7 +149,7 @@ Aspose.Cells est une puissante bibliothèque .NET qui permet la manipulation et 
  Oui, vous pouvez accéder à un essai gratuit d'Aspose.Cells[ici](https://releases.aspose.com/).
 
 ### Comment obtenir une licence temporaire pour Aspose.Cells ?  
- Vous pouvez demander une licence temporaire via ce lien[lien](https://purchase.aspose.com/temporary-license/).
+ Vous pouvez demander une licence temporaire via ceci[lien](https://purchase.aspose.com/temporary-license/).
 
 ### Où puis-je trouver de l'aide ou du support pour Aspose.Cells ?  
  Visitez le forum Aspose pour obtenir de l'aide[ici](https://forum.aspose.com/c/cells/9).

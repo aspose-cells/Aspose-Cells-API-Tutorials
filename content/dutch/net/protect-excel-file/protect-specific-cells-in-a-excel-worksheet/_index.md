@@ -41,12 +41,12 @@ Het eerste wat we willen doen is definiëren waar uw bestanden naartoe gaan. Dez
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Maak een map aan als deze nog niet bestaat.
+//Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Hier definiëren we een tekenreeksvariabele`dataDir` die naar uw gewenste documentdirectory wijst. We controleren of deze directory bestaat. Als dat niet zo is, maken we hem aan. Zo weet u zeker dat u geen problemen ondervindt bij het later opslaan van uw Excel-bestand.
+ Hier definiëren we een tekenreeksvariabele`dataDir` die naar uw gewenste documentdirectory wijst. Wij controleren of deze directory bestaat. Als dat niet zo is, maken we hem aan. Dit zorgt ervoor dat u geen problemen ondervindt bij het later opslaan van uw Excel-bestand.
 
 ## Stap 2: Maak een nieuwe werkmap
 
@@ -115,7 +115,7 @@ Voor elk van de opgegeven cellen halen we de huidige stijl op en stellen we de`I
 Onze checklist is bijna compleet! De laatste stap die u moet uitvoeren is het werkblad zelf beschermen.
 
 ```csharp
-// Bescherm nu ten slotte het blad.
+// Bescherm ten slotte het blad nu.
 sheet.Protect(ProtectionType.All);
 ```
  Door de`Protect` methode op het werkblad, passen we onze beschermingsinstellingen toe. Met`ProtectionType.All`, geven we aan dat alle aspecten van het blad worden beschermd.

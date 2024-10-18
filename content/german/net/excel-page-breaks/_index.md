@@ -2,7 +2,7 @@
 title: Excel-Seitenumbrüche
 linktitle: Excel-Seitenumbrüche
 second_title: Aspose.Cells für .NET API-Referenz
-description: Schauen Sie sich ausführliche Tutorials zu Excel-Seitenumbrüchen mit Aspose.Cells für .NET an. Verbessern Sie mühelos das Layout Ihrer Excel-Arbeitsmappen.
+description: Sehen Sie sich ausführliche Tutorials zu Excel-Seitenumbrüchen mit Aspose.Cells für .NET an. Verbessern Sie mühelos das Layout Ihrer Excel-Arbeitsmappen.
 type: docs
 weight: 16
 url: /de/net/excel-page-breaks/
@@ -19,7 +19,7 @@ Wussten Sie, dass Sie Seitenumbrüche programmgesteuert einfügen und sich so je
  Müssen Sie alle Seitenumbrüche löschen? Kein Problem! Lesen Sie unseren Leitfaden auf[Excel Alle Seitenumbrüche löschen](./excel-clear-all-page-breaks/), das einen einfachen und effektiven Prozess bietet, den jeder beherrschen kann. Es geht darum, Ihren Arbeitsablauf reibungsloser und schneller zu gestalten.
 
 ## Anpassung auf Knopfdruck
-Was ist, wenn Sie nur bestimmte Seitenumbrüche entfernen möchten? Hier kommt unser Tutorial zu[Excel: Bestimmten Seitenumbruch entfernen](./excel-remove-specific-page-break/) kommt ins Spiel. Es ist auf die Momente zugeschnitten, in denen Sie eine präzise Kontrolle über Ihr Dokumentlayout benötigen. Mit Aspose.Cells für .NET können Sie Ihre Tabellen genau nach Ihren Wünschen anpassen. 
+ Was ist, wenn Sie nur bestimmte Seitenumbrüche entfernen möchten? Hier kommt unser Tutorial zu[Excel: Bestimmten Seitenumbruch entfernen](./excel-remove-specific-page-break/) kommt ins Spiel. Es ist auf die Momente zugeschnitten, in denen Sie eine präzise Kontrolle über Ihr Dokumentlayout benötigen. Mit Aspose.Cells für .NET können Sie Ihre Tabellen genau nach Ihren Wünschen anpassen. 
 
 ## Anleitungen 
 | Titel | Beschreibung |

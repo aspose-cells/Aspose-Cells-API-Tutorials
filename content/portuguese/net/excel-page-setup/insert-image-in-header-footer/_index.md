@@ -95,7 +95,7 @@ Com os dados binários da imagem em mãos, agora podemos inseri-los no cabeçalh
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Esta linha coloca a imagem na seção central do cabeçalho. O parâmetro`1`especifica a seção de cabeçalho.
+ Esta linha coloca a imagem na seção central do cabeçalho. O parâmetro`1` especifica a seção de cabeçalho.
 
 ## Etapa 7: Definindo o conteúdo do cabeçalho
 
@@ -106,7 +106,7 @@ pageSetup.SetHeader(1, "&G"); // Insere a imagem
 pageSetup.SetHeader(2, "&A"); // Insere o nome da planilha
 ```
 
-- A primeira linha insere o espaço reservado para a imagem (`&G`).
+- A primeira linha insere o espaço reservado para imagem (`&G`).
 - A segunda linha adiciona o nome da planilha na seção direita do cabeçalho, usando o espaço reservado (`&A`).
 
 ## Etapa 8: Salvando a pasta de trabalho
@@ -148,4 +148,4 @@ Sim, você pode inserir imagens separadas em diferentes seções do cabeçalho o
 Certifique-se de que o caminho da imagem esteja correto e que o arquivo exista. Verifique também a compatibilidade do formato da imagem.
 
 ### Onde posso encontrar documentação adicional para Aspose.Cells?
-Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/cells/net/).
+ Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/cells/net/).

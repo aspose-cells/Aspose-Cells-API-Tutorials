@@ -9,7 +9,7 @@ url: /zh/net/excel-data-export-retrieval/
 ---
 ## 介绍
 
-您是否希望使用 Aspose.Cells for .NET 提升您的 Excel 文件处理技能？无论您是初学者还是经验丰富的开发人员，拥有管理 Excel 数据的坚实基础都至关重要。猜猜怎么着？我已经为您做好了准备！在本文中，我将带您完成教程，帮助您掌握使用 Aspose.Cells for .NET 在 Excel 文件中导出和检索数据。
+您是否希望使用 Aspose.Cells for .NET 提高 Excel 文件处理技能？无论您是初学者还是经验丰富的开发人员，拥有管理 Excel 数据的坚实基础都至关重要。猜猜怎么着？我已经为您做好了准备！在本文中，我将带您完成教程，帮助您掌握使用 Aspose.Cells for .NET 在 Excel 文件中导出和检索数据的方法。
 
 ### 从 Excel 单元格中检索数据
 
@@ -19,4 +19,4 @@ url: /zh/net/excel-data-export-retrieval/
 
 ## Excel 数据导出和检索教程
 ### [从 Excel 单元格中检索数据](./retrieve-data-from-cells-in-excel/)
-本分步教程非常适合初学者和经验丰富的开发人员，学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据。
+本分步教程将帮助您学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据，非常适合初学者和经验丰富的开发人员。

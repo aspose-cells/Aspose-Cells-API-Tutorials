@@ -54,9 +54,9 @@ Låt oss först initiera vår arbetsbok och komma åt det önskade arbetsbladet.
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
-//Åtkomst till det första kalkylbladet i Excel-filen
+// Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

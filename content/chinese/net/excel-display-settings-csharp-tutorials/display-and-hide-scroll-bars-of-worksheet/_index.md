@@ -89,7 +89,7 @@ workbook.Settings.IsVScrollBarVisible = false;
 workbook.Settings.IsHScrollBarVisible = false;
 ```
   
-这里，我们还将水平滚动条隐藏起来。这样您就可以更好地控制工作表的外观。
+在这里，我们还将水平滚动条隐藏起来。这样您就可以更好地控制工作表的外观。
 
 ## 步骤6：保存修改后的Excel文件
 
@@ -131,5 +131,5 @@ Aspose.Cells 并非完全免费，但您可以在有限的时间内免费试用�
 ### 在哪里可以找到更多示例？  
 检查[Aspose.Cells 文档](https://reference.aspose.com/cells/net/)获得更多示例和教程。
 
-### 如果在使用 Aspose.Cells 时遇到问题怎么办？  
+### 如果我在使用 Aspose.Cells 时遇到问题怎么办？  
 您可以在 Aspose 支持论坛寻求帮助或报告问题[这里](https://forum.aspose.com/c/cells/9).

@@ -44,7 +44,7 @@ Aspose.Cells'i kullanmak için kütüphaneye referanslar eklemeniz gerekir:
 
 ### Yönergeleri Kullanarak Ekle
 
- En üstte`Program.cs`dosyasına, Aspose.Cells işlevselliğine erişmek için bu using yönergesini ekleyin:
+ En üstte`Program.cs`dosyasına, Aspose.Cells işlevselliğine erişmek için bu yönergeyi kullanarak ekleyin:
 
 ```csharp
 using System;

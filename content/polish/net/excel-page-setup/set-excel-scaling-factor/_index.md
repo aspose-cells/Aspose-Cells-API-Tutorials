@@ -29,15 +29,15 @@ Zanim napiszesz jakikolwiek kod, musisz dodać odwołanie do biblioteki Aspose.C
 ### Pobierz DLL
 
 1.  Idź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) i pobierz odpowiedni pakiet dla swojej wersji .NET.
-2. Wypakuj pobrany plik i znajdź go`Aspose.Cells.dll` plik.
+2. Wypakuj pobrany plik i zlokalizuj go`Aspose.Cells.dll` plik.
 
 ### Dodaj odniesienie w programie Visual Studio
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy „Odwołania” w Eksploratorze rozwiązań.
 3. Wybierz „Dodaj odniesienie”. 
 4.  Kliknij „Przeglądaj” i przejdź do lokalizacji`Aspose.Cells.dll` plik, który wyodrębniłeś.
-5. Wybierz ją i kliknij „OK”, aby dodać ją do projektu.
+5. Zaznacz go i kliknij „OK”, aby dodać go do projektu.
 
 ```csharp
 using System.IO;
@@ -58,25 +58,25 @@ Najpierw musisz określić, gdzie chcesz zapisać plik wyjściowy Excela. Ten ka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Upewnij się, że wymienisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać plik Excela.
+Upewnij się, że wymienisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać plik Excela.
 
 ## Krok 2: Utwórz nowy obiekt skoroszytu
 
 Teraz czas utworzyć nowy skoroszyt. To jest miejsce, w którym będą przechowywane wszystkie Twoje dane i ustawienia.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
  Tutaj deklarujemy nowy`Workbook`obiekt reprezentujący plik Excela, który umożliwi nam manipulowanie jego zawartością.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Pliki Excel mogą zawierać wiele arkuszy kalkulacyjnych. Uzyskamy dostęp do pierwszego arkusza kalkulacyjnego, aby zastosować nasz współczynnik skalowania.
 
 ```csharp
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -113,7 +113,7 @@ Możliwość dostosowania współczynnika skalowania to tylko jedna z wielu funk
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells dla .NET?  
-Aspose.Cells for .NET to rozbudowana biblioteka służąca do tworzenia i manipulowania plikami Excel w aplikacjach .NET, zapewniająca bogatą funkcjonalność bez konieczności instalowania programu Excel.
+Aspose.Cells for .NET to zaawansowana biblioteka służąca do tworzenia i manipulowania plikami Excel w aplikacjach .NET, zapewniająca bogatą funkcjonalność bez konieczności instalowania programu Excel.
 
 ### Czy mogę używać Aspose.Cells dla .NET w aplikacji internetowej?  
 Tak! Aspose.Cells można używać zarówno w aplikacjach desktopowych, jak i internetowych, o ile są one przeznaczone dla środowiska .NET.
@@ -122,7 +122,7 @@ Tak! Aspose.Cells można używać zarówno w aplikacjach desktopowych, jak i int
  Oczywiście! Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?  
-Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+ Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
  Możesz uzyskać pomoc za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9).

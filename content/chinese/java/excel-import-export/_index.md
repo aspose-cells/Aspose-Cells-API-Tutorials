@@ -22,7 +22,7 @@ url: /zh/java/excel-import-export/
 
 ## Excel 导入导出教程
 ### [批量数据导入Excel](./bulk-data-import-excel/)
-了解如何使用 Aspose.Cells for Java API 从 Excel 执行批量数据导入。通过本分步指南简化您的数据处理。
+了解如何使用 Aspose.Cells for Java API 从 Excel 执行批量数据导入。通过本分步指南简化数据处理。
 ### [Excel 数据导出方法](./excel-data-export-methods/)
 使用 Aspose.Cells for Java 释放 Excel 数据导出方法的潜力。通过本综合指南中的实用源代码示例进行学习。立即优化您的数据管理技能。
 ### [CSV 导出 Java 代码](./csv-export-java-code/)

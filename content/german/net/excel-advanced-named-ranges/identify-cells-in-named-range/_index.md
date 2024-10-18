@@ -45,9 +45,9 @@ Fügen Sie ganz am Anfang Ihrer C#-Datei die folgende Using-Direktive ein:
 using Aspose.Cells;
 ```
 
-Mit dieser Codezeile können Sie alle Klassen und Methoden nutzen, die Aspose.Cells bietet. Ohne diese Zeile müssten Sie in jeder Methode auf Aspose.Cells verweisen, was Ihren Code überladen würde.
+Mit dieser Codezeile können Sie alle Klassen und Methoden nutzen, die Aspose.Cells bietet. Ohne diese Zeile müssten Sie in jeder Methode auf Aspose.Cells verweisen, was Ihren Code überladen machen würde.
 
-Nachdem wir nun unsere Voraussetzungen geklärt und die erforderlichen Pakete importiert haben, wollen wir das Beispiel Schritt für Schritt aufschlüsseln.
+Nachdem wir nun unsere Voraussetzungen geklärt und die erforderlichen Pakete importiert haben, wollen wir das Beispiel Schritt für Schritt durchgehen.
 
 ## Schritt 1: Einrichten des Dokumentverzeichnisses
 
@@ -57,7 +57,7 @@ Als Erstes müssen wir den Pfad festlegen, in dem sich unsere Excel-Datei befind
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
- Ersetzen`"YOUR DOCUMENTS DIRECTORY"` durch den tatsächlichen Pfad auf Ihrem System, in dem die`sampleIdentifyCellsInNamedRange.xlsx` Datei gespeichert ist. Das ist so, als würde man einem Freund eine Wegbeschreibung geben – man muss angeben, wohin man gehen soll!
+ Ersetzen`"YOUR DOCUMENTS DIRECTORY"` durch den tatsächlichen Pfad auf Ihrem System, wo die`sampleIdentifyCellsInNamedRange.xlsx` Datei gespeichert ist. Das ist so, als würde man einem Freund eine Wegbeschreibung geben – man muss angeben, wohin man gehen soll!
 
 ## Schritt 2: Instanziieren einer neuen Arbeitsmappe
 
@@ -77,7 +77,7 @@ Workbook workbook = new Workbook(dataDir + "sampleIdentifyCellsInNamedRange.xlsx
 // Abrufen des angegebenen benannten Bereichs
 Range range = workbook.Worksheets.GetRangeByName("MyRangeThree");
 ```
-Hier erhalten wir den benannten Bereich aus unserer Arbeitsmappe. Benannte Bereiche sind wie Verknüpfungen zu bestimmten Teilen Ihrer Daten und erleichtern Ihnen das Leben, da Sie Zellen nicht manuell suchen müssen.
+Hier erhalten wir den benannten Bereich aus unserer Arbeitsmappe. Benannte Bereiche sind wie Verknüpfungen zu bestimmten Teilen Ihrer Daten und erleichtern Ihnen das Leben, da Sie nicht manuell nach Zellen suchen müssen.
 
 ## Schritt 4: Identifizieren der Zellen im benannten Bereich
 

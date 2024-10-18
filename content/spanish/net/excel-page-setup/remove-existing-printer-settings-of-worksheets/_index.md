@@ -62,7 +62,7 @@ string outputDir = "Your Document Directory";
 
 ## Paso 2: Cargue el archivo Excel
 
-A continuación, debemos cargar nuestro libro de trabajo (el archivo de Excel) para procesarlo. Esto se hace con una sola línea de código.
+A continuación, debemos cargar nuestro libro de trabajo (el archivo de Excel) para procesarlo. Esto se hace con solo una línea de código.
 
 ```csharp
 //Cargar archivo fuente de Excel
@@ -146,7 +146,7 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 ## Preguntas frecuentes
 
 ### ¿Qué es Aspose.Cells?  
-Aspose.Cells es una potente biblioteca que permite a los desarrolladores crear, manipular y convertir archivos Excel en aplicaciones .NET.
+Aspose.Cells es una poderosa biblioteca que permite a los desarrolladores crear, manipular y convertir archivos Excel en aplicaciones .NET.
 
 ### ¿Puedo utilizar Aspose.Cells gratis?  
 Sí, Aspose ofrece una versión de prueba gratuita que puedes usar para explorar sus funciones. Consulta la[enlace de prueba gratuita](https://releases.aspose.com/).

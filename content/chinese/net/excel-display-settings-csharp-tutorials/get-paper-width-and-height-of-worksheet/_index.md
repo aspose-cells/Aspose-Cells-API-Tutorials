@@ -15,7 +15,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-
 
 在我们进入编码魔法之前，让我们先收集一下开始所需的信息：
 
-1. 对 C# 有基本了解：您应该对 C# 有初步了解。如果您是编程新手，不用担心！我们会尽量讲得通俗易懂。
+1. 对 C# 有基本了解：您应该对 C# 有初步了解。如果您是编程新手，不用担心！我们会尽量讲得简单易懂。
 2.  Aspose.Cells 库：确保您的机器上安装了 .NET 的 Aspose.Cells 库。您可以从以下网址下载[此链接](https://releases.aspose.com/cells/net/).
 3. .NET 开发环境：设置 Visual Studio 或您选择的任何 IDE 来编写和执行您的 C# 代码。如果您不确定从哪里开始，Visual Studio 社区版是一个不错的选择。
 4. 参考文献和文档：熟悉 Aspose.Cells 文档以获得更深入的见解。您可以找到它[这里](https://reference.aspose.com/cells/net/).

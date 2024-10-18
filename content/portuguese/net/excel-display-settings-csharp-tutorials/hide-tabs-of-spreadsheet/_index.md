@@ -65,7 +65,7 @@ Depois que o arquivo é aberto, ocultar as guias da planilha é tão simples qua
 workbook.Settings.ShowTabs = false;
 ```
 
- Aqui,`ShowTabs` é uma propriedade do`Settings` aula na`Workbook` objeto. Configurando-o para`false` garante que as guias de planilhas na pasta de trabalho do Excel fiquem ocultas.
+ Aqui,`ShowTabs` é uma propriedade do`Settings` aula na`Workbook` objeto. Configurando-o para`false` garante que as guias de planilha na pasta de trabalho do Excel fiquem ocultas.
 
 Esta é a parte principal do tutorial. Se você estiver distribuindo o arquivo Excel para fins comerciais ou profissionais, ocultar guias pode apresentar uma interface mais limpa, especialmente se o destinatário não precisar navegar entre várias planilhas.
 

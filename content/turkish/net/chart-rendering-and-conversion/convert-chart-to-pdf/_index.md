@@ -19,7 +19,7 @@ Eğitime dalmadan önce doğru kuruluma sahip olduğunuzdan emin olmanız gereki
 Makinenizde .NET framework'ün yüklü olduğundan emin olun. Aspose.Cells çeşitli sürümlerle uyumludur ancak en son sürümle daha iyi çalışır.
 
 ### Aspose.Cells Kütüphanesi
- Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/)Kütüphane, Excel işlemleri için ihtiyaç duyacağınız tüm fonksiyonları kapsayan zengin bir API ile birlikte gelir.
+ Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/)Kütüphane, Excel'de ihtiyacınız olan tüm fonksiyonları kapsayan zengin bir API ile birlikte gelir.
 
 ### Görsel Stüdyo
 Visual Studio'nun yüklü olması önemlidir, çünkü .NET kodunuzu kusursuz bir şekilde yazmak için harika bir IDE'dir.
@@ -33,7 +33,7 @@ Projenizde Aspose.Cells'i başarıyla kullanmak için gerekli paketleri içe akt
 
 ### Yeni Bir Proje Oluştur
 
-Visual Studio'da yeni bir C# projesi oluşturarak başlayın:
+Öncelikle Visual Studio'da yeni bir C# projesi oluşturun:
 
 1. Visual Studio’yu açın.
 2. “Yeni proje oluştur”a tıklayın.
@@ -79,7 +79,7 @@ string sourceDir = "Your Document Directory";
 
  Değiştirdiğinizden emin olun`"Your Output Directory"` Ve`"Your Document Directory"` dosyalarınızın bulunduğu gerçek yol ile.
 
-## Adım 2: Excel Çalışma Kitabını Yükleyin
+## Adım 2: Excel Çalışma Kitabını yükleyin
 
 Şimdi, dönüştürmek istediğiniz grafikleri içeren Excel dosyasını yükleyelim. Bu oldukça basit:
 
@@ -149,7 +149,7 @@ Console.WriteLine("ChartToPdf executed successfully.");
 
 ## Çözüm
 
-Ve işte karşınızda! Aspose.Cells for .NET'i kullanarak Excel grafiklerini PDF formatlarına dönüştürmek çocuk oyuncağı haline geliyor. İster bir dosyaya ister bir bellek akışına kaydetmeyi seçin, kütüphane esneklik ve kullanım kolaylığı vaat ediyor. Öyleyse neden denemiyorsunuz? Profesyonelce biçimlendirilmiş PDF grafikleriyle raporlarınız çok daha keskin görünecek!
+Ve işte karşınızda! Aspose.Cells for .NET'i kullanarak Excel grafiklerini PDF formatlarına dönüştürmek çocuk oyuncağı haline geliyor. Bir dosyaya veya bellek akışına kaydetmeyi seçmeniz fark etmeksizin, kütüphane esneklik ve kullanım kolaylığı vaat ediyor. Öyleyse neden denemiyorsunuz? Profesyonelce biçimlendirilmiş PDF grafikleriyle raporlarınız çok daha keskin görünecek!
 
 ## SSS
 

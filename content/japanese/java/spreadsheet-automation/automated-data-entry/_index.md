@@ -15,7 +15,7 @@ url: /ja/java/spreadsheet-automation/automated-data-entry/
 技術的な詳細に入る前に、データ入力の自動化がなぜ重要なのかを理解しましょう。
 
 1. 正確性: 自動化により人為的エラーのリスクが軽減され、データの整合性が確保されます。
-2. 効率: 手動データ入力を排除することで、時間とリソースを節約します。
+2. 効率: 手動によるデータ入力を排除することで、時間とリソースを節約します。
 3. 一貫性: 自動化されたプロセスにより、データの形式が統一されます。
 4. スケーラビリティ: 自動化により大量のデータを簡単に処理できます。
 
@@ -106,6 +106,6 @@ Aspose.Cells for Java を使用してデータ入力を自動化すると、デ�
    この記事で説明されているように、Aspose.Cells を使用してデータ検証ルールを実装できます。
 
 ### Aspose.Cells for Java のその他のリソースやドキュメントはどこで入手できますか?
-   ドキュメントは以下からご覧いただけます。[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
+   ドキュメントは以下でご覧いただけます。[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 これで、Aspose.Cells for Java を使用してデータ入力を効果的に自動化するための知識とツールが手に入りました。データ処理プロセスの改善を開始し、ビジネス効率を高めましょう。

@@ -43,7 +43,7 @@ Först och främst måste du skapa en variabel för att hålla sökvägen där d
 string dataDir = "Your Document Directory"; // Ange din katalog här
 ```
 
-Förklaring: Den här raden initierar en`dataDir` variabel. Du bör byta ut`"Your Document Directory"` med den faktiska sökvägen på din maskin där du vill spara Excel-filen. Se det här som att sätta scenen för var ditt mästerverk kommer att visas!
+ Förklaring: Den här raden initierar en`dataDir` variabel. Du bör byta ut`"Your Document Directory"` med den faktiska sökvägen på din maskin där du vill spara Excel-filen. Se det här som att sätta scenen för var ditt mästerverk kommer att visas!
 
 ## Steg 2: Instantiera en ny arbetsbok
 
@@ -53,7 +53,7 @@ Nästa upp kommer vi att skapa en instans av arbetsboken. Det här är som att �
 Workbook workbook = new Workbook();
 ```
 
- Förklaring: The`Workbook` klass representerar en Excel-fil. Genom att instansiera det skapar du i princip ett nytt Excel-dokument som du kan manipulera.
+Förklaring: The`Workbook` klass representerar en Excel-fil. Genom att instansiera det skapar du i princip ett nytt Excel-dokument som du kan manipulera.
 
 ## Steg 3: Öppna det första arbetsbladet
 
@@ -102,7 +102,7 @@ Därefter kommer vi att specificera teckensnittsegenskaperna för våra celler.
 
 ```csharp
 stl.Font.Name = "Arial"; // Ställ in typsnittet på Arial
-stl.Font.IsBold = true; //Gör teckensnitt fetstilt
+stl.Font.IsBold = true; // Gör teckensnitt fetstilt
 ```
 
 Förklaring: Här definierar vi att vi vill använda "Arial" som teckensnitt och göra det fetstilt. Tänk på att det ger din text lite styrka!
@@ -134,11 +134,11 @@ Förklaring: Vi fyller sortimentet med en knallgul! Ett solidt mönster säkerst
 
 ```csharp
 StyleFlag flg = new StyleFlag();
-flg.Font = true; //Aktivera teckensnittsattribut
+flg.Font = true; // Aktivera teckensnittsattribut
 flg.CellShading = true; // Aktivera cellskuggning
 ```
 
- Förklaring: The`StyleFlag` objekt talar om för biblioteket vilka stilegenskaper vi vill använda – ungefär som att bocka av rutor på en att-göra-lista!
+Förklaring: The`StyleFlag` objekt talar om för biblioteket vilka stilegenskaper vi vill använda – ungefär som att bocka av rutor på en att-göra-lista!
 
 ## Steg 11: Tillämpa stilen på intervallet
 
@@ -174,7 +174,7 @@ Förklaring: Den här raden skriver ut ett meddelande till konsolen som indikera
 
 I den här handledningen har vi gått igenom stegen för att formatera intervall i Excel med Aspose.Cells för .NET. Oavsett om du vill att din data ska ha fet text, levande färger eller väsentlig strukturering inom intervallen, har det här biblioteket dig täckt. Precis så kan du förvandla din data från intetsägande till storslagen med några rader kod!
 
- När du fortsätter på din programmeringsresa, tveka inte att utforska fler funktioner i Aspose.Cells, eftersom det erbjuder en uppsjö av funktioner för att arbeta med Excel-filer. För ytterligare läsning, kolla in[dokumentation](https://reference.aspose.com/cells/net/) för att låsa upp ny potential i dina utvecklingsprojekt!
+När du fortsätter på din programmeringsresa, tveka inte att utforska fler funktioner i Aspose.Cells, eftersom det erbjuder en uppsjö av funktioner för att arbeta med Excel-filer. För ytterligare läsning, kolla in[dokumentation](https://reference.aspose.com/cells/net/) för att låsa upp ny potential i dina utvecklingsprojekt!
 
 ## FAQ's
 
@@ -182,7 +182,7 @@ I den här handledningen har vi gått igenom stegen för att formatera intervall
 Aspose.Cells är ett kraftfullt bibliotek för .NET som låter utvecklare manipulera Excel-filer sömlöst – perfekt för att skapa och redigera kalkylblad programmatiskt.
 
 ### Kan jag använda Aspose.Cells gratis?
-Ja! Aspose erbjuder en gratis testversion. Du kan komma igång med biblioteket och testa dess funktioner innan du gör ett köp. Kolla in[gratis provperiod](https://releases.aspose.com/).
+ Ja! Aspose erbjuder en gratis testversion. Du kan komma igång med biblioteket och testa dess funktioner innan du gör ett köp. Kolla in[gratis provperiod](https://releases.aspose.com/).
 
 ### Hur tillämpar jag flera stilar på ett intervall i Excel?
  Du kan skapa flera`Style` objekt och applicera var och en med hjälp av`ApplyStyle` metod med sina respektive`StyleFlag`.

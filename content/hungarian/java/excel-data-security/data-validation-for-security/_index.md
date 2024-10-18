@@ -18,7 +18,7 @@ Az adatellenőrzés egy olyan folyamat, amely biztosítja, hogy a rendszerbe bev
 
 ## Miért fontos az adatérvényesítés?
 
-Az adatellenőrzés azért fontos, mert védi adatainak integritását és biztonságát. Az adatbevitelre vonatkozó szabályok és korlátozások betartatásával számos probléma megelőzhető, beleértve az adatszivárgásokat, a rendszer összeomlását és az adatsérülést.
+Az adatellenőrzés azért fontos, mert védi adatainak integritását és biztonságát. Az adatbevitelre vonatkozó szabályok és korlátozások betartatásával számos probléma megelőzhető, beleértve az adatszivárgást, a rendszer összeomlását és az adatsérülést.
 
 ## Az Aspose.Cells beállítása Java számára
 
@@ -97,7 +97,7 @@ validationList.setFormula1("List1"); // Határozza meg a lista forrását
 validationList.setShowDropDown(true);
 ```
 
-## Munkalapok és munkafüzetek védelme
+## A munkalapok és munkafüzetek védelme
 
 A biztonság további fokozása érdekében védje munkalapjait és munkafüzeteit. Az Aspose.Cells for Java robusztus védelmi mechanizmusokat biztosít.
 

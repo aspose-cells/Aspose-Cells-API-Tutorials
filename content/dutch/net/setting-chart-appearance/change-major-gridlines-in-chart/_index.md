@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Update met uw gewenste pad
  Vervolgens moet u een nieuw exemplaar van de`Workbook` klasse. Dit object vertegenwoordigt uw Excel-bestand, zodat u de inhoud ervan kunt bewerken.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ In deze code specificeren we het type grafiek (in dit geval een kolomdiagram) en
 
 ## Stap 6: Toegang tot het grafiekexemplaar
 
- Zodra we de grafiek hebben gemaakt, moeten we toegang krijgen tot de instantie om de eigenschappen ervan te wijzigen. Dit doen we door deze op te halen via de`Charts`verzameling.
+Zodra we de grafiek hebben gemaakt, moeten we toegang krijgen tot de instantie om de eigenschappen ervan te wijzigen. Dit doen we door deze op te halen via de`Charts`verzameling.
 
 ```csharp
 // Toegang krijgen tot het exemplaar van de nieuw toegevoegde grafiek
@@ -104,7 +104,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
 ## Stap 7: Gegevensreeksen toevoegen aan de grafiek
 
-Nu moeten we onze data aan de grafiek binden. Dit houdt in dat we de cellen opgeven als de gegevensbron voor de grafiek.
+Nu moeten we onze data aan de grafiek binden. Dit houdt in dat we de cellen specificeren als de gegevensbron voor de grafiek.
 
 ```csharp
 // SeriesCollection (grafiekgegevensbron) toevoegen aan de grafiek, variërend van cel "A1" tot cel "B3"
@@ -115,7 +115,7 @@ In deze stap informeren we de grafiek over het gegevensbereik dat deze moet visu
 
 ## Stap 8: Pas het uiterlijk van de grafiek aan
 
-Laten we onze grafiek wat opfleuren door de kleuren van het plotgebied, grafiekgebied en seriecollecties te veranderen. Dit zal onze grafiek helpen opvallen en de visuele aantrekkingskracht ervan verbeteren.
+Laten we onze grafiek een beetje opfleuren door de kleuren van het plotgebied, grafiekgebied en seriecollecties te veranderen. Dit zal onze grafiek helpen opvallen en de visuele aantrekkingskracht ervan verbeteren.
 
 ```csharp
 // De voorgrondkleur van het plotgebied instellen

@@ -15,7 +15,7 @@ Si alguna vez ha manipulado Excel, sabrá que los saltos de página pueden ser t
 
 Antes de sumergirnos en los detalles de cómo borrar saltos de página en Excel, debe asegurarse de tener los siguientes requisitos previos:
 
-1. Visual Studio: asegúrese de tener Visual Studio instalado para ejecutar sus proyectos .NET.
+1. Visual Studio: asegúrese de tener instalado Visual Studio para ejecutar sus proyectos .NET.
 2. Biblioteca Aspose.Cells para .NET: deberá descargar e instalar la biblioteca Aspose.Cells para .NET. No solo es potente, sino que también es increíblemente fácil de usar.
    -  Puedes encontrarlo[Aquí para descargar](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: un poco de familiaridad con C# le ayudará a navegar por el código con mayor comodidad.
@@ -42,7 +42,7 @@ Vamos a dividirlo en pasos manejables. Ya hemos establecido el escenario con nue
 
 ## Paso 1: Configurar el directorio de documentos
 
-Para abordar esta mejora, debe declarar una ruta para su documento. Aquí es donde guardará el archivo de entrada de Excel y también guardará el resultado una vez que haya eliminado los saltos de página.
+Para abordar esta mejora, debe declarar una ruta para su documento. Aquí es donde guardará el archivo de Excel de entrada y también guardará el resultado una vez que haya eliminado los saltos de página.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +87,7 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 
 ## Conclusión
 
-Borrar saltos de página en Excel no tiene por qué ser una tarea ardua. Con Aspose.Cells para .NET, tienes un poderoso aliado que simplifica el proceso en unos pocos y sencillos pasos. Ya sea que estés preparando presentaciones importantes o simplemente ordenando tus hojas de cálculo, esta práctica biblioteca te permite concentrarte en lo que realmente importa. ¡Así que ponte manos a la obra y transforma tu experiencia con Excel!
+Borrar saltos de página en Excel no tiene por qué ser una tarea ardua. Con Aspose.Cells para .NET, tienes un poderoso aliado que simplifica el proceso en unos pocos pasos sencillos. Ya sea que estés preparando presentaciones importantes o simplemente ordenando tus hojas de cálculo, esta práctica biblioteca te permite concentrarte en lo que realmente importa. ¡Así que ponte manos a la obra y transforma tu experiencia con Excel!
 
 ## Preguntas frecuentes
 

@@ -20,7 +20,7 @@ Veri doğrulama hata mesajları, kullanıcılar belirtilen ölçütleri karşıl
 - Rehberlik: Neyin yanlış gittiği ve nasıl düzeltileceği konusunda rehberlik sağlarlar.
 - Hataların Önlenmesi: Geçersiz verilerin işlenmesini önleyerek veri kalitesinin artırılmasına yardımcı olurlar.
 
-Şimdi, Aspose.Cells for Java kullanarak adım adım veri doğrulama hata mesajları oluşturmaya bakalım.
+Şimdi, Java için Aspose.Cells'i kullanarak adım adım veri doğrulama hata mesajları oluşturmaya bakalım.
 
 ## Ön koşullar
 

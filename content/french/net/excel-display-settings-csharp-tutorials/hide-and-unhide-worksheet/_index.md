@@ -1,6 +1,6 @@
 ---
-title: Feuille de travail pour masquer et afficher
-linktitle: Feuille de travail pour masquer et afficher
+title: Feuille de travail Masquer et afficher
+linktitle: Feuille de travail Masquer et afficher
 second_title: Référence de l'API Aspose.Cells pour .NET
 description: Maîtrisez la manipulation des feuilles de calcul Excel avec ce guide complet pour masquer et afficher les feuilles à l'aide d'Aspose.Cells pour .NET. Optimisez la gestion de vos données.
 type: docs
@@ -72,7 +72,7 @@ Cette étape revient à dire « Bonjour ! » à votre classeur, pour qu'il sache
 Avec votre classeur en main, il est temps d'accéder à la feuille de calcul spécifique que vous souhaitez masquer. Nous commencerons par la première feuille de calcul.
 
 ```csharp
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

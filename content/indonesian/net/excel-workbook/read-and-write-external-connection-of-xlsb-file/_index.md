@@ -72,7 +72,7 @@ Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as A
 
 ## Langkah 4: Ekstrak Informasi Koneksi
 
-Sekarang setelah Anda memiliki akses ke koneksi basis data, mari ekstrak dan cetak detailnya ke konsol. Ini akan membantu kita melihat dengan tepat apa yang sedang kita kerjakan.
+Sekarang setelah Anda memiliki akses ke koneksi basis data, mari mengekstrak dan mencetak detailnya ke konsol. Ini akan membantu kita melihat dengan tepat apa yang sedang kita kerjakan.
 
 ```csharp
 // Cetak Nama, Perintah dan Info Koneksi dari DB-Connection

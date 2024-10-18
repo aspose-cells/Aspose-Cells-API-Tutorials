@@ -1,6 +1,6 @@
 ---
-title: Conserver le préfixe de guillemets simples de la valeur ou de la plage de cellules dans Excel
-linktitle: Conserver le préfixe de guillemets simples de la valeur ou de la plage de cellules dans Excel
+title: Conserver le préfixe entre guillemets simples de la valeur ou de la plage de cellules dans Excel
+linktitle: Conserver le préfixe entre guillemets simples de la valeur ou de la plage de cellules dans Excel
 second_title: API de traitement Excel Aspose.Cells .NET
 description: Apprenez à conserver les préfixes de guillemets simples dans les cellules Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple étape par étape.
 type: docs

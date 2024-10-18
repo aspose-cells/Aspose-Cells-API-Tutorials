@@ -89,7 +89,7 @@ Następnie musisz uzyskać odwołanie do komórek w arkuszu kalkulacyjnym. Możn
 Cells cells = worksheet.Cells;
 ```
 
-Dzięki temu wierszowi masz teraz dostęp do wszystkich komórek w arkuszu kalkulacyjnym, co pozwala Ci manipulować nimi według potrzeb.
+Dzięki temu wierszowi masz teraz dostęp do wszystkich komórek w arkuszu kalkulacyjnym, co umożliwia Ci manipulowanie nimi według potrzeb.
 
 ## Krok 5: Rozdziel komórki
 

@@ -18,7 +18,7 @@ Avant de nous plonger dans le codage proprement dit, il est essentiel de vous as
 1. Visual Studio : assurez-vous que Visual Studio (toute version prenant en charge .NET) est installé sur votre ordinateur.
 2.  Aspose.Cells pour .NET : téléchargez et installez la bibliothèque Aspose.Cells depuis[Site d'Aspose](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : une certaine familiarité avec la programmation C# sera utile car nous travaillerons dans un contexte C#.
-4. Exemple de fichier Excel : Pour la démonstration, préparez un exemple de fichier Excel (par exemple,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) qui contient une mise en forme initiale des cellules.
+4.  Exemple de fichier Excel : Pour la démonstration, préparez un exemple de fichier Excel (par exemple,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) qui contient une mise en forme initiale des cellules.
 
 ## Paquets d'importation
 
@@ -62,7 +62,7 @@ string outputDir = "Your Document Directory\\"; // Remplacez par votre répertoi
 
  Ce code définit les chemins d'accès aux fichiers d'entrée et de sortie. Assurez-vous de remplacer`"Your Document Directory\\"` avec le chemin réel sur votre ordinateur.
 
-## Étape 2 : charger le fichier Excel d'exemple
+## Étape 2 : charger l’exemple de fichier Excel
 
 Ensuite, vous souhaiterez charger votre exemple de fichier Excel dans l’application.
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- En définissant le`Alignments` propriété du StyleFlag à`true`, vous dites à Aspose.Cells d’appliquer correctement les styles d’alignement.
+ En définissant le`Alignments`propriété du StyleFlag à`true`, vous dites à Aspose.Cells d’appliquer correctement les styles d’alignement.
 
 ## Étape 7 : appliquer le style à la plage de cellules
 

@@ -16,7 +16,7 @@ url: /zh-hant/net/excel-data-import-export/import-data-to-worksheet-in-excel-wit
 在我們深入討論細節之前，讓我們確保您擁有所需的一切。以下是幫助您取得成功的先決條件快速清單：
 
 1. .NET Framework：請確定您的電腦上安裝了 .NET Framework。 Aspose.Cells 與各種 .NET 版本無縫合作。
-2.  Aspose.Cells for .NET：您需要下載並安裝 Aspose.Cells 函式庫。您可以從[下載連結](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET：您需要下載並安裝 Aspose.Cells 函式庫。您可以從[下載連結](https://releases.aspose.com/cells/net/).
 3. 整合開發環境 (IDE)：使用 Visual Studio 等 IDE，您可以在其中編寫和執行 C# 程式碼。
 4. C# 的基本知識：對 C# 有基本的了解將有助於您遵循我們將在本指南中使用的編碼實踐。
 
@@ -142,7 +142,7 @@ wb.Save(dataDir + "outputDBNumCustomFormatting.pdf", SaveFormat.Pdf);
 
 ## 結論
 
-現在你就擁有了！您已成功將資料匯入 Excel、套用自訂 DB 數位格式並將其儲存為 PDF 格式。透過 Aspose.Cells for .NET，這個過程不僅變得更容易，而且更靈活和更強大。不再需要糾結於 Excel 的內建格式設定選項 — 現在您可以透過程式碼直接控制！
+現在你就得到它了！您已成功將資料匯入 Excel、套用自訂 DB 數位格式並將其儲存為 PDF 格式。透過 Aspose.Cells for .NET，這個過程不僅變得更容易，而且更靈活和更強大。不再需要糾結於 Excel 的內建格式設定選項 — 現在您可以透過程式碼直接控制！
 
 無論您是準備數據報告還是建立財務報表，利用 Aspose.Cells 的強大功能都可以將您的電子表格遊戲提升到一個全新的水平。那麼，你還在等什麼？滿懷信心地投入您的專案中，讓您的數據大放異彩！
 

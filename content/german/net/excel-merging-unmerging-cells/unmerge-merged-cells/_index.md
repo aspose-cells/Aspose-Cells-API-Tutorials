@@ -2,7 +2,7 @@
 title: Zusammengeführte Zellen in Excel aufheben
 linktitle: Zusammengeführte Zellen in Excel aufheben
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Mit Aspose.Cells für .NET können Sie zusammengeführte Zellen in Excel ganz einfach trennen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um bessere Tabellen zu erstellen.
+description: Mit Aspose.Cells für .NET können Sie verbundene Zellen in Excel ganz einfach trennen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um bessere Tabellen zu erstellen.
 type: docs
 weight: 10
 url: /de/net/excel-merging-unmerging-cells/unmerge-merged-cells/
@@ -25,7 +25,7 @@ Stellen Sie sicher, dass die Aspose.Cells-Bibliothek in Ihrer .NET-Umgebung inst
 Sie sollten eine Entwicklungsumgebung wie Visual Studio eingerichtet haben, in der Sie Ihren C#-Code schreiben und ausführen können.
 
 ### Beispiel-Excel-Datei
-Schnappen Sie sich eine Excel-Beispieldatei, die einige verbundene Zellen enthält. Mit dieser Datei üben Sie das Aufheben der Zellzusammenführung.
+Holen Sie sich eine Excel-Beispieldatei, die einige verbundene Zellen enthält. Mit dieser Datei üben Sie das Aufheben der Zellzusammenführung.
 
 Nachdem alle diese Voraussetzungen erfüllt sind, können wir nun mit dem spannenden Teil beginnen: der Codierung unserer Lösung!
 

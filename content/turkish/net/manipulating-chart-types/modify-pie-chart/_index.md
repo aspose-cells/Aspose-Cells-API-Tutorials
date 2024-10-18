@@ -9,7 +9,7 @@ url: /tr/net/manipulating-chart-types/modify-pie-chart/
 ---
 ## giriiş
 
-Excel sayfalarınızdaki pasta grafiklerini nasıl süsleyebileceğinizi hiç merak ettiniz mi? Pasta grafikleri, izleyicilerinizi etkileşimde ve bilgili tutarak verileri görselleştirmenin harika bir yolu olabilir. Ancak bazen bu grafikler, kutudan çıkar çıkmaz anlatmalarını istediğiniz hikayeyi anlatmaz. İşte tam bu noktada .NET için Aspose.Cells devreye girer. Bu güçlü kitaplık, Excel dosyalarını programatik olarak düzenlemenize olanak tanır ve pasta grafiklerinizi en küçük ayrıntısına kadar özelleştirmek için ihtiyaç duyduğunuz araçları sağlar. Bu eğitimde, Aspose.Cells kullanarak bir pasta grafiğini değiştirmeye derinlemesine bir dalış yapacağız. İster veri etiketlerini değiştirmek ister grafiğin estetiğini ayarlamak olsun.
+Excel sayfalarınızdaki pasta grafiklerini nasıl süsleyebileceğinizi hiç merak ettiniz mi? Pasta grafikleri, izleyicilerinizi etkileşimde ve bilgili tutarak verileri görselleştirmenin harika bir yolu olabilir. Ancak bazen bu grafikler, kutudan çıkar çıkmaz anlatmalarını istediğiniz hikayeyi anlatmaz. İşte tam bu noktada Aspose.Cells for .NET devreye girer. Bu güçlü kitaplık, Excel dosyalarını programatik olarak düzenlemenize olanak tanır ve pasta grafiklerinizi en küçük ayrıntısına kadar özelleştirmek için ihtiyaç duyduğunuz araçları sağlar. Bu eğitimde, Aspose.Cells kullanarak bir pasta grafiğini değiştirmeye derinlemesine bir dalış yapacağız. İster veri etiketlerini değiştirmek, ister grafiğin estetiğini ayarlamak olsun.
 
 ## Ön koşullar
 
@@ -18,7 +18,7 @@ Pasta grafiklerini değiştirmenin inceliklerine dalmadan önce, yerine getirmen
 - Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak, konuyu kolayca takip etmenize yardımcı olacaktır.
 - .NET için Aspose.Cells: Aspose.Cells kütüphanesinin kurulu olması gerekir. Tam sürümü kullanmaya karar verseniz de ücretsiz denemeyi seçseniz de kullanıma hazır olduğundan emin olun.
 - Visual Studio veya Herhangi Bir C# IDE: C# kodunuzu yazıp çalıştırabileceğiniz bir ortama ihtiyacınız olacak.
--  Excel Örnek Dosyası: Bu eğitim için, şu adlı bir örnek Excel dosyası:`sampleModifyPieChart.xlsx` kullanılacaktır.
+-  Excel Örnek Dosyası: Bu eğitim için, adlı bir örnek Excel dosyası`sampleModifyPieChart.xlsx` kullanılacaktır.
 
  Aspose.Cells kütüphanesini indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Şimdi, pasta grafiğini içeren belirli sayfaya dalalım. Pasta grafiğinin ikinci çalışma sayfasında (indeks 1) olduğunu varsayacağız:
 
 ```csharp
-// İkinci sayfadaki tasarımcı şemasını alın.
+//İkinci sayfadaki tasarımcı şemasını alın.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
@@ -145,7 +145,7 @@ workbook.Save(outputDir + "outputModifyPieChart.xlsx");
 
 Bu satır çalışma kitabını belirtilen çıktı dizinine kaydeder. 
 
-## Adım 8: Yürütmeyi Onaylayın
+## Adım 8: Uygulamayı Onaylayın
 
 Son olarak, her şeyin düzgün çalıştığından emin olmak için bir onay mesajı çıktısı alalım:
 
@@ -157,7 +157,7 @@ Bu, değişikliklerinizin beklendiği gibi yapıldığına dair size biraz güve
 
 # Çözüm
 
-İşte oldu! Sadece birkaç basit adımla, Aspose.Cells for .NET kullanarak bir pasta grafiğini başarıyla değiştirdiniz. Bu güçlü kütüphane yalnızca Excel dosyalarını düzenlemeyi kolaylaştırmakla kalmıyor, aynı zamanda maksimum etki için veri görselleştirmelerinizi kişiselleştirmenize de olanak tanıyor. İşinizde veri sunumuyla uğraşıyorsanız, Aspose.Cells'i nasıl kullanacağınızı öğrenmeye zaman ayırmanız kesinlikle işe yarayacaktır. O halde devam edin, bu grafiklerle oynayın ve verilerinizi nasıl canlandırabileceğinizi görün!
+İşte oldu! Sadece birkaç basit adımla, Aspose.Cells for .NET kullanarak bir pasta grafiğini başarıyla değiştirdiniz. Bu güçlü kütüphane yalnızca Excel dosyalarını düzenlemeyi kolaylaştırmakla kalmıyor, aynı zamanda maksimum etki için veri görselleştirmelerinizi kişiselleştirmenize de olanak tanıyor. İşinizde veri sunumuyla uğraşıyorsanız, Aspose.Cells'i nasıl kullanacağınızı öğrenmeye zaman ayırmanız kesinlikle karşılığını verecektir. O halde devam edin, bu grafiklerle oynayın ve verilerinizi nasıl canlandırabileceğinizi görün!
 
 # SSS
 
@@ -170,7 +170,7 @@ Kesinlikle! Aspose.Cells, çubuk, çizgi ve alan grafikleri de dahil olmak üzer
 ### Aspose.Cells'in ücretsiz bir versiyonu var mı?  
 Evet! Aspose, satın almadan önce kütüphaneyi test etmenize olanak tanıyan ücretsiz deneme sürümü sunuyor.
 
-### Aspose.Cells için desteği nereden bulabilirim?  
+### Aspose.Cells için desteği nerede bulabilirim?  
 Topluluk üyelerinin ve Aspose personelinin size yardımcı olabileceği Aspose forumlarında destek bulabilirsiniz.
 
 ### Aspose.Cells'i kullanmak için Microsoft Excel'in yüklü olması gerekir mi?  

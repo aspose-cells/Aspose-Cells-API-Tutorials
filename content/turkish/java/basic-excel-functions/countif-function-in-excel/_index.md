@@ -63,7 +63,7 @@ worksheet.getCells().get("A5").putValue("Grapes");
 
 ## COUNTIF işlevini uygulama
 
-Şimdi heyecan verici kısma geliyoruz: Java için Aspose.Cells kullanarak COUNTIF fonksiyonunu uygulamak.
+Şimdi heyecan verici kısma geliyoruz: Java için Aspose.Cells'i kullanarak COUNTIF fonksiyonunu uygulamak.
 
 1.  Bir formül oluşturun: Şunu kullanın:`setFormula` Bir hücrede COUNTIF formülü oluşturma yöntemi.
 
@@ -134,7 +134,7 @@ Bu makalede, Aspose.Cells for Java'yı kullanarak Excel'de COUNTIF işlevini nas
 
 Evet, belirli bir sayıdan büyük değerler veya belirli bir metin içeren değerler gibi belirli koşulları karşılayan hücreleri saymak için COUNTIF işlevinin ölçütlerini özelleştirebilirsiniz.
 
-### Java için Aspose.Cells'de bir formülü nasıl değerlendiririm?
+### Java için Aspose.Cells'de bir formülü nasıl değerlendirebilirim?
 
  Java için Aspose.Cells'de bir formülü değerlendirmek için şunu kullanabilirsiniz:`calculateFormula` Uygun seçeneklerle yöntemi.
 

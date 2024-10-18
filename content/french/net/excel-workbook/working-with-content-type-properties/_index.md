@@ -113,7 +113,7 @@ Aspose.Cells pour .NET est une bibliothèque puissante pour créer, manipuler et
 ### Puis-je utiliser Aspose.Cells avec d’autres formats de fichiers ?
 Oui ! Aspose.Cells prend en charge divers formats, notamment XLS, XLSX, CSV et autres.
 
-### Comment puis-je obtenir un essai gratuit d'Aspose.Cells ?
+### Comment obtenir un essai gratuit d'Aspose.Cells ?
  Vous pouvez télécharger une version d'essai gratuite à partir du[site](https://releases.aspose.com/).
 
 ### Existe-t-il un moyen d'ajouter des propriétés plus complexes ?

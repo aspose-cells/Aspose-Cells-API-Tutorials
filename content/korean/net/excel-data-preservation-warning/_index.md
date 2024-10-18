@@ -9,7 +9,7 @@ url: /ko/net/excel-data-preservation-warning/
 ---
 ## 소개
 
-Aspose.Cells for .NET은 .NET 애플리케이션 내에서 Excel 스프레드시트를 처리하기 위한 강력한 도구입니다. 특정 셀 형식을 유지하든 데이터 정렬 경고를 관리하든 Aspose.Cells가 도와드립니다! Excel 처리 기술을 향상시키는 데 도움이 되는 몇 가지 자습서를 자세히 살펴보겠습니다.
+Aspose.Cells for .NET은 .NET 애플리케이션 내에서 Excel 스프레드시트를 처리하기 위한 강력한 도구입니다. 특정 셀 형식을 유지하거나 데이터 정렬 경고를 관리하든 Aspose.Cells가 도와드립니다! Excel 처리 기술을 향상시키는 데 도움이 되는 몇 가지 자습서를 자세히 살펴보겠습니다.
 
 ## Excel에서 셀 값 또는 범위의 작은따옴표 접두사 유지
 

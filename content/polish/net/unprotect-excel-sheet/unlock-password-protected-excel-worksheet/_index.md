@@ -25,7 +25,7 @@ Potrzebujesz działającego środowiska .NET. Jeśli jeszcze nie jesteś gotowy,
 
 ### Podstawowa wiedza o kodowaniu
 
-Trochę podstawowej wiedzy programistycznej w C# lub VB.NET wystarczy. Jeśli ją opanowałeś, jesteś gotowy!
+Trochę podstawowej wiedzy programistycznej w C# lub VB.NET bardzo się przyda. Jeśli to opanowałeś, jesteś gotowy!
 
 ## Importuj pakiety
 
@@ -70,11 +70,11 @@ Najpierw musimy ustawić ścieżkę naszego dokumentu Excel. Tutaj określisz, g
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wskazówka: Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik Excel (nazwijmy go`book1.xls`) znajduje się. 
+ Wskazówka: Zastąp`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której znajduje się Twój plik Excel (nazwijmy go`book1.xls`) znajduje się. 
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
-Następnie musimy utworzyć wystąpienie klasy Workbook. Ten obiekt reprezentuje plik Excel w kodzie.
+Następnie musimy utworzyć wystąpienie klasy Workbook. Ten obiekt reprezentuje plik Excela w kodzie.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -100,7 +100,7 @@ To jest ta magiczna część!
 worksheet.Unprotect("");
 ```
 
- Jeśli arkusz jest zabezpieczony hasłem i znasz to hasło, należy zastąpić pusty ciąg`""` rzeczywistym hasłem. Jeśli go nie znasz, po prostu zostaw je puste i uruchom, aby sprawdzić, czy działa.
+ Jeśli arkusz jest zabezpieczony hasłem i znasz to hasło, należy zastąpić pusty ciąg`""` z rzeczywistym hasłem. Jeśli go nie znasz, po prostu zostaw je puste i uruchom, aby sprawdzić, czy działa.
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -114,7 +114,7 @@ Ten wiersz zapisuje skoroszyt pod nową nazwą, aby mieć pewność, że nie nad
 
 ## Krok 6: Obsługa wyjątków
 
-Na koniec zajmiemy się wszystkimi potencjalnymi problemami, które mogą się pojawić. 
+Na koniec zajmiemy się wszelkimi potencjalnymi problemami, które mogą się pojawić. 
 
 ```csharp
 catch (Exception ex)

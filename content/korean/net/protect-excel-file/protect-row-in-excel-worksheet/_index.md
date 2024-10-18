@@ -9,7 +9,7 @@ url: /ko/net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
 ## 소개
 
-Excel 시트로 작업할 때 종종 데이터 무결성을 유지하기 위해 특정 행을 보호해야 합니다. 팀 프로젝트를 관리하든, 재무 보고서를 감독하든, 문서를 공유하든 특정 행에 대한 액세스를 제한하면 원치 않는 변경을 방지할 수 있습니다. 이 튜토리얼에서는 Aspose.Cells for .NET을 활용하여 Excel 워크시트의 특정 행을 보호하는 방법을 살펴보겠습니다. 코딩 모자를 쓰고 C#을 사용한 Excel 조작의 흥미로운 세계로 뛰어들어 보세요!
+Excel 시트로 작업할 때 종종 특정 행을 보호하여 데이터 무결성을 유지해야 합니다. 팀 프로젝트를 관리하든, 재무 보고서를 감독하든, 문서를 공유하든 특정 행에 대한 액세스를 제한하면 원치 않는 변경을 방지할 수 있습니다. 이 튜토리얼에서는 Aspose.Cells for .NET을 활용하여 Excel 워크시트의 특정 행을 보호하는 방법을 살펴보겠습니다. 코딩 모자를 쓰고 C#을 사용한 Excel 조작의 흥미로운 세계로 뛰어들어 보세요!
 
 ## 필수 조건
 
@@ -19,7 +19,7 @@ Excel 시트로 작업할 때 종종 데이터 무결성을 유지하기 위해 
 2. Visual Studio: Visual Studio(Community, Professional 또는 Enterprise)와 같은 통합 개발 환경(IDE)은 C# 코드를 효과적으로 컴파일하고 실행하는 데 도움이 됩니다.
 3. .NET Framework: 호환되는 버전의 .NET Framework가 필요합니다. Aspose.Cells는 여러 버전을 지원하므로 최신 버전인지 확인하세요. 
 4. C#에 대한 기본 지식: 이 가이드를 진행하면서 코드를 작성할 때 C#에 대한 기본적인 이해가 도움이 될 것입니다.
-5.  참조 문서: 다음을 숙지하세요.[.NET 설명서용 Aspose.Cells](https://reference.aspose.com/cells/net/) 사용된 메서드와 클래스에 대한 추가 세부정보
+5.  참조 문서: 다음을 숙지하세요.[.NET용 Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 사용된 메서드와 클래스에 대한 추가 세부정보
 
 ## 패키지 가져오기
 
@@ -98,7 +98,7 @@ sheet.Cells.ApplyRowStyle(0, style, flag); // 첫 번째 행에 스타일 적용
 
 ## 6단계: 시트 보호
 
- 행이 잠긴 상태에서 추가 단계를 거쳐 워크시트를 완전히 보호해 보겠습니다. 이렇게 하면 정의된 모든 기능에 잠금이 적용됩니다.`ProtectionType`.
+ 행이 잠긴 상태에서 추가 단계를 수행하여 워크시트를 완전히 보호해 보겠습니다. 이렇게 하면 정의된 모든 기능에 잠금이 적용됩니다.`ProtectionType`.
 
 ```csharp
 sheet.Protect(ProtectionType.All); // 모든 기능으로 시트를 보호하세요
@@ -130,7 +130,7 @@ Aspose.Cells는 사용자가 Excel 파일을 프로그래밍 방식으로 만들
  네, 먼저 시트 보호를 해제한 다음 조정할 수 있습니다.`IsLocked` 원하는 행의 속성을 변경한 후 보호를 다시 적용합니다.
 
 ### Aspose.Cells는 Excel 외에 다른 형식을 지원합니까?
-물론입니다! Aspose.Cells는 통합 문서를 CSV, PDF, HTML을 포함한 다양한 형식으로 변환하고 저장할 수 있습니다.
+물론입니다! Aspose.Cells는 통합 문서를 CSV, PDF, HTML 등 다양한 형식으로 변환하고 저장할 수 있습니다.
 
 ### Aspose.Cells에 대한 지원은 어디서 받을 수 있나요?
  방문할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 도움과 지역 사회 지침을 구하십시오.

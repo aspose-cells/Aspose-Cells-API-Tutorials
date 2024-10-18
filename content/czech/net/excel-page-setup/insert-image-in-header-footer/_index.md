@@ -95,7 +95,7 @@ S binárními daty obrázku je nyní můžeme vložit do záhlaví.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Tento řádek umístí obrázek do střední části záhlaví. Parametr`1`určuje sekci záhlaví.
+ Tento řádek umístí obrázek do střední části záhlaví. Parametr`1` určuje sekci záhlaví.
 
 ## Krok 7: Nastavení obsahu záhlaví
 
@@ -142,10 +142,10 @@ Aspose.Cells podporuje různé formáty, včetně JPEG, PNG, BMP, GIF a TIFF.
 Ano, do různých částí záhlaví nebo zápatí můžete vložit samostatné obrázky pomocí různých zástupných symbolů.
 
 ### Je Aspose.Cells zdarma?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale je k dispozici licencovaná verze pro plný přístup a další funkce. Můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plný přístup a další funkce je k dispozici licencovaná verze. Můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/).
 
 ### Jak mohu vyřešit problémy s nezobrazováním obrázků?
 Ujistěte se, že cesta k obrázku je správná a soubor existuje. Zkontrolujte také kompatibilitu formátu obrázku.
 
 ### Kde najdu další dokumentaci pro Aspose.Cells?
-Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
+ Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).

@@ -19,7 +19,7 @@ url: /el/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
    
 2.  Aspose.Cells για .NET: Θα χρειαστεί να έχετε εγκατεστημένο το Aspose.Cells για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/cells/net/).
 
-3. Δείγμα αρχείου Excel: Λάβετε ένα δείγμα αρχείου Excel που περιέχει γραφήματα. Για αυτό το σεμινάριο, θα χρησιμοποιήσουμε ένα αρχείο με το όνομα`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Βεβαιωθείτε ότι βρίσκεται στον κατάλογο του έργου σας.
+3.  Δείγμα αρχείου Excel: Λάβετε ένα δείγμα αρχείου Excel που περιέχει γραφήματα. Για αυτό το σεμινάριο, θα χρησιμοποιήσουμε ένα αρχείο με το όνομα`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Βεβαιωθείτε ότι βρίσκεται στον κατάλογο του έργου σας.
 
 4. Βασικές γνώσεις προγραμματισμού: Η εξοικείωση με τον προγραμματισμό C# θα σας βοηθήσει να ακολουθήσετε εύκολα.
 
@@ -56,11 +56,11 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
- Αντικαθιστώ`"Your Document Directory"`με τη διαδρομή όπου είναι αποθηκευμένο το αρχείο σας Excel.
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή όπου είναι αποθηκευμένο το αρχείο σας Excel.
 
 ## Βήμα 2: Φορτώστε το βιβλίο εργασίας
 
- Στη συνέχεια, φορτώστε το αρχείο Excel σε ένα`Workbook` αντικείμενο. Αυτό σας επιτρέπει να έχετε πρόσβαση σε όλα τα περιεχόμενα του αρχείου.
+ Στη συνέχεια, φορτώστε το αρχείο Excel σε ένα`Workbook`αντικείμενο. Αυτό σας επιτρέπει να έχετε πρόσβαση σε όλα τα περιεχόμενα του αρχείου.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

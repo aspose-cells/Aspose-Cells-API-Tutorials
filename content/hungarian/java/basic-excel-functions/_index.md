@@ -9,7 +9,7 @@ url: /hu/java/basic-excel-functions/
 ---
 ## Bevezetés az Excel alapvető függvényeibe
 
-A táblázatkezelés világában az Excel alapvető funkcióinak ismerete a hatékony adatfeldolgozás alapja. Az Aspose.Cells for Java segítségével elmerülhet ebben az alapvető tudásban. Ebben az oktatóanyag-sorozatban végigvezetjük az Excel alapvető funkcióin, és felvértezzük a táblázatokkal való hatékony munkavégzéshez szükséges készségekkel.
+táblázatkezelés világában az Excel alapvető funkcióinak ismerete a hatékony adatfeldolgozás alapja. Az Aspose.Cells for Java segítségével elmerülhet ebben az alapvető tudásban. Ebben az oktatóanyag-sorozatban végigvezetjük az Excel alapvető funkcióin, és felvértezzük a táblázatokkal való hatékony munkavégzéshez szükséges készségekkel.
 
 ## Az Aspose.Cells for Java használatának első lépései:
 
@@ -39,6 +39,6 @@ Ismerje meg az Excel MAX funkciójának használatát az Aspose.Cells for Java a
 ### [A MIN függvény magyarázata az Excelben](./min-function-in-excel-explained/)
 Fedezze fel a MIN függvény erejét az Excelben az Aspose.Cells for Java segítségével. Tanulja meg könnyedén megtalálni a minimális értékeket.
 ### [Az Excel szövegfüggvényei demisztifikálva](./excel-text-functions-demystified/)
-Fedezze fel az Excel szöveges függvényeinek titkait az Aspose.Cells for Java segítségével. Tanuljon meg könnyedén kezelni, kibontani és átalakítani a szöveget Excelben.
+Fedezze fel az Excel szöveges függvényeinek titkait az Aspose.Cells for Java segítségével. Tanuljon meg könnyedén kezelni, kivonatolni és átalakítani a szöveget Excelben.
 ### [Excel dátumfüggvények bemutatója](./excel-date-functions-tutorial/)
 Tanulja meg az Excel dátumfüggvényeit az Aspose.Cells for Java segítségével. Fedezze fel a lépésről lépésre bemutatott oktatóanyagokat a forráskóddal.

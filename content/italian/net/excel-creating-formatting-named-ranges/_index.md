@@ -25,7 +25,7 @@ Ora che hai definito i tuoi intervalli denominati, parliamo di formattazione. Po
 
 Immagina di essere seduto a una riunione in cui grafici e diagrammi saltano all'occhio, catturando la tua attenzione. Ecco cosa fa una buona formattazione! Puoi cambiare gli stili dei caratteri, aggiungere colori e persino impostare bordi per rendere i tuoi dati visivamente più accattivanti. È come vestirsi per un'occasione speciale: la prima impressione è quella che conta! 
 
- Per coloro che desiderano imparare come formattare efficacemente i propri intervalli, basta seguire la nostra guida passo passo su[Formato intervalli in Excel](./format-ranges/).
+ Per coloro che desiderano imparare come formattare efficacemente i propri intervalli, basta seguire la nostra guida passo passo su[Intervalli di formato in Excel](./format-ranges/).
 
 ### Conclusione
 
@@ -34,5 +34,5 @@ Per concludere, Aspose.Cells per .NET fornisce potenti strumenti per creare e fo
 ## Tutorial sulla creazione e formattazione di intervalli denominati in Excel
 ### [Crea un intervallo di celle denominato in Excel](./create-named-range-of-cells/)
 Scopri come creare facilmente un intervallo di celle denominato in Excel usando Aspose.Cells per .NET con questa guida passo-passo. Semplifica la gestione dei tuoi dati.
-### [Formato intervalli in Excel](./format-ranges/)
+### [Intervalli di formato in Excel](./format-ranges/)
 Padroneggia l'arte della formattazione degli intervalli in Excel usando Aspose.Cells per .NET con la nostra guida completa passo dopo passo. Migliora la presentazione dei tuoi dati.

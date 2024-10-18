@@ -16,7 +16,7 @@ Microsoft Excel là một công cụ đa năng vượt xa việc nhập dữ li�
 
 Trước khi bắt đầu tạo danh sách thả xuống động, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
-- Môi trường phát triển Java: Bạn nên cài đặt Java và Môi trường phát triển tích hợp (IDE) phù hợp trên hệ thống của mình.
+- Môi trường phát triển Java: Bạn phải cài đặt Java và Môi trường phát triển tích hợp (IDE) phù hợp trên hệ thống của mình.
 
 -  Thư viện Aspose.Cells cho Java: Tải xuống thư viện Aspose.Cells cho Java từ[đây](https://releases.aspose.com/cells/java/) và đưa nó vào dự án Java của bạn.
 
@@ -53,7 +53,7 @@ String[] fruits = {"Apple", "Banana", "Cherry", "Grapes", "Orange"};
 
 ## Bước 5: Tạo một phạm vi được đặt tên
 
-Để làm cho danh sách thả xuống động, bạn sẽ tạo một phạm vi được đặt tên tham chiếu đến mảng nguồn của tên trái cây. Phạm vi được đặt tên này sẽ được sử dụng trong cài đặt xác thực dữ liệu.
+Để làm cho danh sách thả xuống trở nên động, bạn sẽ tạo một phạm vi được đặt tên tham chiếu đến mảng nguồn của tên trái cây. Phạm vi được đặt tên này sẽ được sử dụng trong cài đặt xác thực dữ liệu.
 
 ```java
 Range range = worksheet.getCells().createRange("A1");
@@ -100,7 +100,7 @@ Có, bạn có thể tạo danh sách thả xuống dạng xếp tầng trong Ex
 
 ### Tôi có thể bảo vệ bảng tính bằng danh sách thả xuống động không?
 
-Có, bạn có thể bảo vệ trang tính trong khi vẫn cho phép người dùng tương tác với danh sách thả xuống động. Sử dụng các tính năng bảo vệ trang tính của Excel để kiểm soát ô nào có thể chỉnh sửa và ô nào được bảo vệ.
+Có, bạn có thể bảo vệ bảng tính trong khi vẫn cho phép người dùng tương tác với danh sách thả xuống động. Sử dụng các tính năng bảo vệ bảng tính của Excel để kiểm soát ô nào có thể chỉnh sửa và ô nào được bảo vệ.
 
 ### Có giới hạn nào về số lượng mục trong danh sách thả xuống không?
 

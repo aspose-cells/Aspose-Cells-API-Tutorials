@@ -24,7 +24,7 @@ Una vez que tengas estos requisitos previos establecidos, ¡estarás listo para 
 
 ## Importar paquetes
 
-Para comenzar a utilizar Aspose.Cells en su proyecto de C#, debe importar los espacios de nombres necesarios. Esto es similar a preparar las maletas para un viaje: reúna todos los elementos esenciales para estar preparado para cualquier cosa. Esto es lo que debe incluir en la parte superior de su archivo de código:
+Para comenzar a usar Aspose.Cells en su proyecto de C#, debe importar los espacios de nombres necesarios. Esto es similar a preparar las maletas para un viaje: reúna todos los elementos esenciales para estar preparado para cualquier cosa. Esto es lo que debe incluir en la parte superior de su archivo de código:
 
 ```csharp
 using Aspose.Cells;
@@ -51,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Crea una instancia de la clase Workbook.
 
- Ahora es el momento de crear el plano de su libro de Excel. Para ello, deberá crear una instancia de un`Workbook` objeto. En este paso es donde comienza toda la magia:
+ Ahora es el momento de crear el plano de su libro de Excel. Para ello, creará una instancia de`Workbook` objeto. En este paso es donde comienza toda la magia:
 
 ```csharp
 Workbook workbook = new Workbook();

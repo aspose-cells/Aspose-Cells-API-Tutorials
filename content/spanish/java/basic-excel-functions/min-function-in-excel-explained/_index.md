@@ -52,7 +52,7 @@ Para trabajar con un archivo de Excel, deberá cargarlo en su aplicación Java. 
 Workbook workbook = new Workbook("sample.xlsx");
 ```
 
-### Paso 4: Acceder a una hoja de trabajo
+### Paso 4: Acceda a una hoja de trabajo
 
 A continuación, acceda a la hoja de cálculo donde desea aplicar la función MIN:
 
@@ -85,7 +85,7 @@ workbook.calculateFormula();
 Finalmente, recupera el resultado de la función MIN:
 
 ```java
-//Obtenga el resultado de la celda B1
+//Obtener el resultado de la celda B1
 double minValue = cell.getDoubleValue();
 System.out.println("The minimum value is: " + minValue);
 ```

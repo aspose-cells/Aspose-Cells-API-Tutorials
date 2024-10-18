@@ -16,7 +16,7 @@ url: /zh/java/excel-pivot-tables/refreshing-pivot-table-data/
 
 ## 步骤 1：初始化 Aspose.Cells
 
-首先，您需要使用 Aspose.Cells 设置 Java 环境。如果尚未设置，请从[Aspose.Cells for Java 下载](https://releases.aspose.com/cells/java/)页。
+首先，您需要使用 Aspose.Cells 设置 Java 环境。如果尚未设置，请从以下位置下载并安装该库：[Aspose.Cells for Java 下载](https://releases.aspose.com/cells/java/)页。
 
 ```java
 import com.aspose.cells.Workbook;
@@ -80,7 +80,7 @@ workbook.save(outputFilePath);
 ### 我可以刷新的数据透视表的数量有任何限制吗？
    - 您可以刷新的数据透视表的数量取决于系统的内存和处理能力。Aspose.Cells for Java 旨在高效处理大型数据集。
 
-### 我可以安排自动刷新数据透视表吗？
+### 我可以安排自动数据透视表刷新吗？
    - 是的，您可以使用 Aspose.Cells 和 Java 调度库来安排自动数据刷新。这样您就可以保持数据透视表最新，而无需手动干预。
 
 现在您已经掌握了在 Aspose.Cells for Java 中刷新数据透视表的知识。保持分析的准确性并在数据驱动的决策中保持领先地位。

@@ -95,7 +95,7 @@ Con i dati binari dell'immagine a disposizione, possiamo inserirli nell'intestaz
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Questa riga posiziona l'immagine nella sezione centrale dell'intestazione. Il parametro`1`specifica la sezione dell'intestazione.
+ Questa riga posiziona l'immagine nella sezione centrale dell'intestazione. Il parametro`1` specifica la sezione dell'intestazione.
 
 ## Passaggio 7: impostazione del contenuto dell'intestazione
 
@@ -148,4 +148,4 @@ Sì, puoi inserire immagini separate in sezioni diverse dell'intestazione o del 
 Assicurati che il percorso dell'immagine sia corretto e che il file esista. Controlla anche la compatibilità del formato dell'immagine.
 
 ### Dove posso trovare ulteriore documentazione per Aspose.Cells?
-Puoi trovare la documentazione dettagliata[Qui](https://reference.aspose.com/cells/net/).
+ Puoi trovare la documentazione dettagliata[Qui](https://reference.aspose.com/cells/net/).

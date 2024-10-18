@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Cserélje ki a saját könyvtá
 ## 3. lépés: Példányosítsa a munkafüzet objektumot
 Most már készen áll az Excel-munkafüzet létrehozására! Itt lesz az összes lap és adat.
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 Ez a sor inicializálja az új munkafüzetet a memóriában, így egy üres vásznat kaphat, amelyen dolgozhat.
@@ -49,7 +49,7 @@ Ez a sor inicializálja az új munkafüzetet a memóriában, így egy üres vás
 Az Excelben minden munkafüzet több lapot is tartalmazhat. Adjunk hozzá egyet a munkafüzetünkhöz.
 ```csharp
 // Új munkalap hozzáadása a munkafüzet objektumhoz
-workbook.Worksheets.Add(); //Alapértelmezés szerint új üres munkalapot ad hozzá
+workbook.Worksheets.Add(); // Alapértelmezés szerint új üres munkalapot ad hozzá
 ```
 Ez a parancs egy új munkalapot ad hozzá, és most a munkafüzet legalább egy lapot tartalmaz, amelyet kezelhet.
 ## 5. lépés: Az első munkalap elérése
@@ -68,7 +68,7 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 Ebben a parancsban azt mondjuk az Excelnek, hogy a „B3” cellát hivatkozássá tegye. A paraméterek a következők:
 - A hiperhivatkozás cellájának helye („B3”).
 - A lapindex, amelyre hivatkozunk (1, ami a második lapra vonatkozik).
-- célcella, amelyhez csatolni szeretnénk (a "Sheet2" cellája).
+- A célcella, amelyhez csatolni szeretnénk (a "Sheet2" cellája).
 ## 7. lépés: Megjelenítési szöveg hozzáadása a hiperhivatkozáshoz
 Ha rákattint egy hiperhivatkozásra, azt szeretné, ha a megjelenített szöveg megértené, hová vezet. Innen jön a következő sor.
 ```csharp

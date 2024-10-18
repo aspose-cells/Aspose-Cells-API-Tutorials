@@ -22,7 +22,7 @@ Comencemos por crear una tabla dinámica con Aspose.Cells para Java. A continuac
 // Cargar el archivo Excel
 Workbook workbook = new Workbook("sample.xlsx");
 
-// Acceda a la hoja de trabajo que contiene los datos
+// Acceda a la hoja de trabajo que contiene los datos.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Especifique el rango de datos
@@ -76,7 +76,7 @@ Puede personalizar aún más la configuración de agrupación, por ejemplo, espe
 // Acceda al campo "Fecha" en la tabla dinámica (suponiendo que es un campo de fecha)
 PivotField dateField = pivotTable.getPivotFields().get("Date");
 
-// Fechas de grupo por meses
+// Agrupar fechas por meses
 dateField.setIsAutoSubtotals(false);
 dateField.setIsDateGroup(true);
 dateField.setDateGroupingType(PivotFieldDateGroupingType.MONTHS);

@@ -89,7 +89,7 @@ worksheet.PageSetup.FirstPageNumber = 2;
 
 ## الخطوة 5: احفظ المصنف
 
- أخيرًا، حان الوقت لحفظ التغييرات.`Save` ستقوم هذه الطريقة بحفظ المصنف في الموقع المحدد.
+ أخيرًا، حان الوقت لحفظ التغييرات.`Save` ستقوم الطريقة بحفظ المصنف في الموقع المحدد.
 
 ```csharp
 workbook.Save(dataDir + "SetFirstPageNumber_out.xls");

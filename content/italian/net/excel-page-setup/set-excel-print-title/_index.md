@@ -32,7 +32,7 @@ Per usare Aspose.Cells nel tuo programma, dovrai aggiungere un riferimento ad As
 
 - Fare clic con il pulsante destro del mouse sul progetto in Esplora soluzioni.
 - Selezionando “Aggiungi” > “Riferimento”.
-- Passare alla posizione del file Aspose.Cells.dll scaricato.
+- Passaggio alla posizione del file Aspose.Cells.dll scaricato.
 - Aggiungendolo al tuo progetto.
 
 Questo passaggio è essenziale, perché senza di esso il codice non riconoscerà le funzioni di Aspose.Cells!
@@ -93,7 +93,7 @@ Questo esempio designa le colonne A e B come colonne del titolo. Ora, ogni volta
 
 ## Passaggio 5: definire le righe del titolo
 
-Allo stesso modo, vuoi anche impostare quali righe appariranno come titoli.
+Allo stesso modo, puoi anche impostare quali righe appariranno come titoli.
 
 ```csharp
 pageSetup.PrintTitleRows = "$1:$2";

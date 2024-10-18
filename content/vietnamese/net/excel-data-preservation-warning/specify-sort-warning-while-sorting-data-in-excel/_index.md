@@ -24,7 +24,7 @@ Khi bạn đã đáp ứng được những điều kiện tiên quyết này, c
 
 ## Nhập gói
 
-Trong C#, để sử dụng thư viện Aspose.Cells, bạn cần nhập một số gói nhất định vào đầu mã của mình. Sau đây là cách thực hiện:
+Trong C#, để sử dụng thư viện Aspose.Cells, bạn cần phải nhập một số gói nhất định vào đầu mã của mình. Sau đây là cách thực hiện:
 
 ```csharp
 using Aspose.Cells;
@@ -36,7 +36,7 @@ Bây giờ mọi thứ đã theo thứ tự, chúng ta hãy cùng thực hiện 
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Đầu tiên, bạn cần chỉ định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi`sampleSortAsNumber.xlsx` tập tin sẽ được định vị. Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ tệp Excel của bạn.
+ Đầu tiên, bạn cần chỉ định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi`sampleSortAsNumber.xlsx` tập tin sẽ được định vị. Thay thế`"Your Document Directory"`với đường dẫn thực tế nơi lưu trữ tệp Excel của bạn.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -97,7 +97,7 @@ Sau đây là tóm tắt nhanh về những gì đang diễn ra:
 
 ## Bước 7: Chỉ định Sắp xếp theo Số
 
- Để tránh vấn đề phổ biến khi sắp xếp các số được lưu trữ dưới dạng văn bản, chúng ta có thể thiết lập`SortAsNumber` thuộc tính thành đúng.
+ Để tránh vấn đề phổ biến khi sắp xếp các số được lưu trữ dưới dạng văn bản, chúng ta có thể đặt`SortAsNumber` thuộc tính thành đúng.
 
 ```csharp
 sorter.SortAsNumber = true;
@@ -115,7 +115,7 @@ sorter.Sort(worksheet.Cells, ca);
 
 Với lệnh đơn giản này, dữ liệu của bạn sẽ tự động được sắp xếp dựa trên các tiêu chí chúng tôi đã đặt. Giống như việc lật qua tập hồ sơ của bạn và sắp xếp mọi thứ một cách hoàn hảo chỉ trong vài giây!
 
-## Bước 9: Lưu Workbook
+## Bước 9: Lưu sổ làm việc
 
 Cuối cùng, bạn cần lưu sổ làm việc đã sắp xếp của mình. Nếu bạn muốn giữ nguyên tệp gốc, hãy đảm bảo lưu nó bằng tên khác.
 

@@ -49,7 +49,7 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy bảo vệ một hàng
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // thay đổi theo con đường bạn mong muốn.
 
-// Tạo thư mục nếu thư mục đó chưa có.
+//Tạo thư mục nếu thư mục đó chưa có.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -143,7 +143,7 @@ Có, bạn có thể lặp lại quy trình khóa cho bất kỳ hàng nào khá
 Bạn có thể chọn từng ô và áp dụng kiểu khóa, tương tự như cách bạn khóa một hàng.
 
 ### Aspose.Cells có miễn phí sử dụng không?  
-Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Tôi có cần kết nối Internet để sử dụng Aspose.Cells không?  
 Không, Aspose.Cells là thư viện .NET và có thể hoạt động ngoại tuyến sau khi bạn đã cài đặt.

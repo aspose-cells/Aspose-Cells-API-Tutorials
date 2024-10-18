@@ -30,4 +30,4 @@ url: /ru/java/excel-data-analysis/
 ### [Анализ данных Диаграммы Excel](./data-analysis-excel-charts/)
 Раскройте совершенство анализа данных с Aspose.Cells для Java. Создавайте потрясающие диаграммы и отчеты Excel.
 ### [Формулы анализа данных Excel](./data-analysis-excel-formulas/)
-Откройте для себя мощь анализа данных в Excel с помощью Aspose.Cells для Java. Изучите основные формулы и методы.
+Откройте для себя мощь анализа данных в Excel с Aspose.Cells для Java. Изучите основные формулы и методы.

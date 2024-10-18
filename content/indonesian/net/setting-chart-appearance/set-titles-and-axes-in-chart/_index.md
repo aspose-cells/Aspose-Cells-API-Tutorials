@@ -47,7 +47,7 @@ Pada langkah ini, kita akan membuat buku kerja baru.
 ```csharp
 //Direktori keluaran
 static string outputDir = "Your Document Directory";
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -111,11 +111,11 @@ Berikutnya, kita perlu memberi tahu bagan kita sumber data mana yang akan diguna
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Baris ini menghubungkan bagan ke data sampel kita, sehingga bagan mengetahui dari mana informasi akan diambil. Baris ini penting untuk menampilkan bagan secara akurat.
+Baris ini menghubungkan bagan ke data sampel kita, sehingga bagan mengetahui dari mana informasi harus diambil. Baris ini penting untuk menampilkan bagan secara akurat.
 
 ## Langkah 7: Sesuaikan Warna Bagan
 
-Mari tambahkan sedikit warna—sekarang saatnya membuat bagan kita menarik secara visual!
+Mari tambahkan sedikit warna—waktunya membuat bagan kita menarik secara visual!
 
 ```csharp
 // Mengatur warna latar depan area plot
@@ -195,7 +195,7 @@ Tidak ada yang mengalahkan perasaan menyelesaikan pekerjaan dengan baik!
 
 ## Kesimpulan
 
-Membuat bagan yang terstruktur dengan baik dan menarik secara visual di Excel menggunakan Aspose.Cells for .NET mudah dilakukan jika Anda mengikuti langkah-langkah berikut. Dengan menambahkan judul dan mengatur sumbu, Anda dapat mengubah kumpulan data sederhana menjadi representasi visual yang mendalam yang mengomunikasikan pesan Anda secara efektif. Baik untuk presentasi bisnis, laporan proyek, atau sekadar untuk penggunaan pribadi, menyesuaikan bagan Anda dapat membuat perbedaan besar.
+Membuat bagan yang terstruktur dengan baik dan menarik secara visual di Excel menggunakan Aspose.Cells for .NET mudah dilakukan jika Anda mengikuti langkah-langkah berikut. Dengan menambahkan judul dan mengatur sumbu, Anda dapat mengubah kumpulan data sederhana menjadi representasi visual yang mendalam yang mengomunikasikan pesan Anda secara efektif. Baik untuk presentasi bisnis, laporan proyek, atau sekadar untuk penggunaan pribadi, menyesuaikan bagan dapat membuat perbedaan besar.
 
 ## Pertanyaan yang Sering Diajukan
 

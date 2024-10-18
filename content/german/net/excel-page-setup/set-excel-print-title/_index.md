@@ -9,14 +9,14 @@ url: /de/net/excel-page-setup/set-excel-print-title/
 ---
 ## Einführung
 
-Wenn Sie mit Excel-Tabellen arbeiten, ist es wichtig, dass Ihre gedruckten Dokumente übersichtlich sind. Haben Sie schon einmal einen Bericht ausgedruckt und festgestellt, dass die Titel nicht auf jeder Seite angezeigt werden? Frustrierend, oder? Keine Angst! In dieser Anleitung führen wir Sie durch die Schritte zum Festlegen von Drucktiteln in Excel mit Aspose.Cells für .NET. Wenn Sie schon immer den Druckvorgang optimieren wollten, damit Ihre Tabellen professioneller aussehen, sind Sie hier richtig.
+Wenn Sie mit Excel-Tabellen arbeiten, ist es entscheidend, dass Ihre gedruckten Dokumente übersichtlich sind. Haben Sie schon einmal einen Bericht ausgedruckt und festgestellt, dass die Titel nicht auf jeder Seite angezeigt werden? Frustrierend, oder? Keine Angst! In dieser Anleitung führen wir Sie durch die Schritte zum Festlegen von Drucktiteln in Excel mit Aspose.Cells für .NET. Wenn Sie schon immer den Druckvorgang optimieren wollten, damit Ihre Tabellen professioneller aussehen, sind Sie hier richtig.
 
 ## Voraussetzungen
 
 Bevor wir uns in die einzelnen Schritte stürzen, stellen wir sicher, dass Sie alles eingerichtet haben, damit Sie die Schritte problemlos durchführen können:
 
 1. Visual Studio installiert: Sie benötigen eine funktionierende Version von Visual Studio auf Ihrem Computer, auf der Sie .NET-Anwendungen ausführen können.
-2.  Aspose.Cells für .NET: Falls noch nicht geschehen, laden Sie Aspose.Cells für .NET herunter von der[Website](https://releases.aspose.com/cells/net/)Diese Bibliothek ist das Herzstück unserer Funktion zur programmgesteuerten Verwaltung von Excel-Dateien.
+2.  Aspose.Cells für .NET: Wenn Sie es noch nicht getan haben, laden Sie Aspose.Cells für .NET herunter von der[Website](https://releases.aspose.com/cells/net/)Diese Bibliothek ist das Herzstück unserer Funktion zur programmgesteuerten Verwaltung von Excel-Dateien.
 3. Grundlegende Programmierkenntnisse: Kenntnisse in der C#-Programmierung helfen Ihnen, die bereitgestellten Codeausschnitte zu verstehen und zu ändern.
 4. .NET Framework: Stellen Sie sicher, dass Sie für die Kompatibilität mit Aspose.Cells die richtige Version von .NET installiert haben.
 
@@ -69,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
-Diese Zeile initialisiert eine neue Arbeitsmappe und macht sie bereit zur Bearbeitung.
+Diese Zeile initialisiert eine neue Arbeitsmappe und macht sie zur Bearbeitung bereit.
 
 ## Schritt 3: PageSetup-Referenz abrufen
 
@@ -99,7 +99,7 @@ Ebenso möchten Sie festlegen, welche Zeilen als Titel angezeigt werden.
 pageSetup.PrintTitleRows = "$1:$2";
 ```
 
-Dadurch werden die Zeilen 1 und 2 als Titelzeilen gekennzeichnet. Wenn Sie dort also Kopfzeileninformationen haben, bleiben diese auch über mehrere Druckseiten hinweg sichtbar.
+Dadurch werden die Zeilen 1 und 2 als Titelzeilen gekennzeichnet. Wenn Sie dort also Kopfzeileninformationen haben, bleiben diese auch über mehrere gedruckte Seiten hinweg sichtbar.
 
 ## Schritt 6: Speichern der Arbeitsmappe
 

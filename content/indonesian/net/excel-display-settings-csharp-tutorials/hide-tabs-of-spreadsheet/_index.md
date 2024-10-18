@@ -22,7 +22,7 @@ Sebelum kita menyelami detailnya, ada beberapa hal yang perlu Anda persiapkan un
 
 ## Mengimpor Ruang Nama
 
-Sebelum memulai pengodean, mari pastikan bahwa kita mengimpor namespace yang diperlukan. Ini penting untuk mengakses semua fitur Aspose.Cells untuk .NET.
+Sebelum kita mulai membuat kode, mari kita pastikan bahwa kita mengimpor namespace yang diperlukan. Ini penting untuk mengakses semua fitur Aspose.Cells untuk .NET.
 
 ```csharp
 using System.IO;
@@ -65,7 +65,7 @@ Setelah berkas dibuka, menyembunyikan tab lembar semudah mengubah properti.
 workbook.Settings.ShowTabs = false;
 ```
 
- Di Sini,`ShowTabs` adalah properti dari`Settings` kelas di`Workbook` objek. Mengaturnya ke`false` memastikan bahwa tab lembar dalam buku kerja Excel disembunyikan.
+ Di Sini,`ShowTabs` adalah properti dari`Settings` kelas di dalam`Workbook` objek. Mengaturnya ke`false` memastikan bahwa tab lembar dalam buku kerja Excel disembunyikan.
 
 Ini adalah bagian penting dari tutorial ini. Jika Anda mendistribusikan berkas Excel untuk keperluan bisnis atau profesional, menyembunyikan tab dapat memberikan antarmuka yang lebih bersih, terutama jika penerima tidak perlu menavigasi di antara beberapa lembar.
 
@@ -108,7 +108,7 @@ Nah, itu dia! Anda telah berhasil menyembunyikan tab lembar kerja dalam file Exc
  Anda dapat mengaktifkan`ShowTabs`properti kembali ke`true` menggunakan struktur kode yang sama jika Anda perlu melihat atau memulihkan tab.
 
 ### Apakah menyembunyikan tab akan memengaruhi data atau fungsionalitas buku kerja?  
-Tidak, menyembunyikan tab hanya akan mengubah tampilan visual. Data dan fungsi dalam buku kerja tidak akan terpengaruh.
+Tidak, menyembunyikan tab hanya akan mengubah tampilan visual. Data dan fungsi dalam buku kerja tetap tidak terpengaruh.
 
 ### Bisakah saya menyembunyikan tab dalam format file lain seperti CSV atau PDF?  
  Tidak, menyembunyikan tab khusus untuk format file Excel seperti`.xls` Dan`.xlsx`Format file seperti CSV dan PDF tidak mendukung tab sejak awal.

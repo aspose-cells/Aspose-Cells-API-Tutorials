@@ -2,7 +2,7 @@
 title: Şelale Grafikleri
 linktitle: Şelale Grafikleri
 second_title: Aspose.Cells Java Excel İşleme API'si
-description: Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirme için kaynak kodlu adım adım kılavuz.
+description: Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
 type: docs
 weight: 18
 url: /tr/java/advanced-excel-charts/waterfall-charts/

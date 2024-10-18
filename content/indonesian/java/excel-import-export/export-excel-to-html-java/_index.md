@@ -7,11 +7,11 @@ type: docs
 weight: 19
 url: /id/java/excel-import-export/export-excel-to-html-java/
 ---
-Dalam tutorial hari ini, kita akan mendalami proses mengekspor file Excel ke format HTML menggunakan Aspose.Cells for Java API. Panduan langkah demi langkah ini akan memandu Anda melalui seluruh proses, mulai dari menyiapkan lingkungan pengembangan hingga menulis kode dan membuat file HTML dari lembar kerja Excel. Jadi, mari kita langsung mulai!
+Dalam tutorial hari ini, kita akan membahas proses mengekspor file Excel ke format HTML menggunakan Aspose.Cells for Java API. Panduan langkah demi langkah ini akan memandu Anda melalui seluruh proses, mulai dari menyiapkan lingkungan pengembangan hingga menulis kode dan membuat file HTML dari lembar kerja Excel. Jadi, mari kita langsung mulai!
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 ## 1. Lingkungan Pengembangan Java
 

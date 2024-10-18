@@ -9,7 +9,7 @@ url: /it/net/excel-workbook/get-odata-details/
 ---
 ## Introduzione
 
-Nel mondo in continua evoluzione della gestione dei dati, la capacità di connettere, analizzare e manipolare i dati in modo efficiente è diventata un'esigenza fondamentale per sviluppatori e organizzazioni. Ecco Aspose.Cells per .NET, una potente API progettata per lavorare con file Excel a livello di programmazione. Una delle sue caratteristiche stellari risiede nell'integrazione di OData, che consente agli utenti di interagire senza problemi con origini dati complesse. Che tu stia lavorando a un progetto di business intelligence su larga scala o semplicemente cercando di semplificare i tuoi processi di dati, capire come ottenere i dettagli OData può migliorare notevolmente le tue capacità. In questa guida, ti guideremo passo dopo passo nel processo di estrazione dei dettagli OData utilizzando Aspose.Cells per .NET.
+Nel mondo in continua evoluzione della gestione dei dati, la capacità di connettere, analizzare e manipolare i dati in modo efficiente è diventata un'esigenza fondamentale per sviluppatori e organizzazioni. Ecco Aspose.Cells per .NET, una potente API progettata per lavorare con file Excel a livello di programmazione. Una delle sue caratteristiche stellari risiede nell'integrazione di OData, che consente agli utenti di interagire senza problemi con origini dati complesse. Che tu stia lavorando a un progetto di business intelligence su larga scala o che tu stia semplicemente cercando di semplificare i tuoi processi di dati, capire come ottenere i dettagli OData può migliorare notevolmente le tue capacità. In questa guida, ti guideremo passo dopo passo nel processo di estrazione dei dettagli OData utilizzando Aspose.Cells per .NET.
 
 ## Prerequisiti
 
@@ -65,7 +65,7 @@ string SourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
 
-## Passaggio 2: accedere alle formule di Power Query
+## Passaggio 2: accedi alle formule di Power Query
 
 Successivamente, accederai alle formule di Power Query nella tua cartella di lavoro, che contengono i dettagli OData:
 

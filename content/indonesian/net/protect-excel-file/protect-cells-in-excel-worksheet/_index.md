@@ -52,7 +52,7 @@ Pertama-tama Anda perlu menentukan tempat untuk menyimpan berkas Excel Anda. Ber
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Tentukan jalur direktori Anda di sini
-// Buat direktori jika belum ada.
+//Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -153,7 +153,7 @@ Tentu saja! Anda dapat mengunci sel sebanyak yang Anda inginkan dengan mengulang
  Aspose.Cells menawarkan uji coba gratis, tetapi penggunaan lanjutan memerlukan lisensi. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasinya?
-Dokumentasinya dapat ditemukan[Di Sini](https://reference.aspose.com/cells/net/).
+ Dokumentasinya dapat ditemukan[Di Sini](https://reference.aspose.com/cells/net/).
 
 ### Dalam format file apa saya dapat menyimpan file Excel?
 Aspose.Cells mendukung berbagai format termasuk XLSX, XLS, CSV, dan banyak lagi.

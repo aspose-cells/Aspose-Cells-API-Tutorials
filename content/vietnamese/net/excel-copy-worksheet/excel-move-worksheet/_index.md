@@ -17,7 +17,7 @@ Trước khi bắt đầu, chúng ta hãy chuẩn bị một số điều sau:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích trên máy của mình. Aspose.Cells hỗ trợ nhiều phiên bản khác nhau, vì vậy hãy kiểm tra tài liệu của họ để biết thông tin chi tiết.
 2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Nếu bạn chưa thực hiện việc này, hãy truy cập[liên kết tải xuống](https://releases.aspose.com/cells/net/) để nắm lấy nó.
-3. Visual Studio hoặc bất kỳ IDE nào: Chuẩn bị sẵn môi trường phát triển nơi bạn có thể viết và chạy mã .NET.
+3. Visual Studio hoặc bất kỳ IDE nào: Chuẩn bị sẵn một môi trường phát triển nơi bạn có thể viết và chạy mã .NET của mình.
 4. Hiểu biết cơ bản về C#: Việc quen thuộc với lập trình C# sẽ vô cùng hữu ích, nhưng đừng lo lắng nếu bạn mới bắt đầu—tôi sẽ hướng dẫn bạn viết mã!
 5.  Tệp Excel mẫu: Để kiểm tra chức năng, hãy tạo một tệp Excel đơn giản, chẳng hạn như`book1.xls`, sẵn sàng sử dụng. Bạn có thể tạo một tệp bằng Excel hoặc tải xuống một số tệp mẫu nếu cần.
 
@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Giải thích: 
 
- Dòng này phân bổ một biến chuỗi`dataDir` để giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được lưu trữ. Giống như chỉ đường cho ai đó; bạn cần cho mã của mình biết chính xác nơi tìm tệp.
+Dòng này phân bổ một biến chuỗi`dataDir` để giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được lưu trữ. Giống như chỉ đường cho ai đó; bạn cần cho mã của mình biết chính xác nơi tìm tệp.
 
 ## Bước 2: Tải Workbook
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Giải thích:  
 
-Dòng này lấy bảng tính đầu tiên từ bộ sưu tập. Việc lập chỉ mục trong lập trình thường bắt đầu từ số không, đó là lý do tại sao chúng ta sử dụng`[0]`. Hãy coi đây như là việc lựa chọn chương đầu tiên trong cuốn sách của bạn, sẵn sàng để chỉnh sửa.
+ Dòng này lấy bảng tính đầu tiên từ bộ sưu tập. Việc lập chỉ mục trong lập trình thường bắt đầu từ số không, đó là lý do tại sao chúng ta sử dụng`[0]`. Hãy coi đây như là việc lựa chọn chương đầu tiên trong cuốn sách của bạn, sẵn sàng để chỉnh sửa.
 
 ## Bước 5: Di chuyển bảng tính
 
@@ -110,7 +110,7 @@ Giải thích:
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bây giờ bạn đã nắm vững cách di chuyển các bảng tính trong một tệp Excel bằng Aspose.Cells cho .NET. Bạn không chỉ học cách quản lý các tệp Excel theo chương trình mà còn tham gia vào C# và một số khái niệm lập trình thực tế trong quá trình này. Kỹ năng này cực kỳ có lợi, đặc biệt là khi quản lý dữ liệu tiếp tục phát triển.
+Và bạn đã có nó! Bây giờ bạn đã nắm vững cách di chuyển các bảng tính trong tệp Excel bằng Aspose.Cells cho .NET. Bạn không chỉ học cách quản lý các tệp Excel theo chương trình mà còn tham gia vào C# và một số khái niệm lập trình thực tế trong quá trình này. Kỹ năng này cực kỳ có lợi, đặc biệt là khi quản lý dữ liệu tiếp tục phát triển.
 
 ## Câu hỏi thường gặp
 

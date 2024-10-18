@@ -9,7 +9,7 @@ url: /nl/net/manipulating-chart-types/create-pie-chart/
 ---
 ## Invoering
 
-Het maken van diagrammen is essentieel voor het visueel weergeven van gegevens, en cirkeldiagrammen zijn een van de populairste manieren om te illustreren hoe delen een geheel vormen. Met Aspose.Cells voor .NET kunt u eenvoudig de generatie van cirkeldiagrammen in Excel-bestanden automatiseren. In deze tutorial duiken we in hoe u een cirkeldiagram vanaf nul kunt maken met Aspose.Cells voor .NET, met een stapsgewijze handleiding om het proces soepel en eenvoudig te maken. Of u nu nieuw bent met de tool of uw Excel-automatiseringsvaardigheden wilt verbeteren, deze handleiding heeft u gedekt!
+Het maken van diagrammen is essentieel voor het visueel weergeven van gegevens, en cirkeldiagrammen zijn een van de populairste manieren om te illustreren hoe onderdelen een geheel vormen. Met Aspose.Cells voor .NET kunt u eenvoudig de generatie van cirkeldiagrammen in Excel-bestanden automatiseren. In deze tutorial duiken we in hoe u een cirkeldiagram vanaf nul kunt maken met Aspose.Cells voor .NET, met een stapsgewijze handleiding om het proces soepel en eenvoudig te maken. Of u nu nieuw bent met de tool of uw Excel-automatiseringsvaardigheden wilt verbeteren, deze handleiding heeft u gedekt!
 
 ## Vereisten
 
@@ -100,7 +100,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- De methode`Add()` accepteert parameters voor het grafiektype (in dit geval,`ChartType.Pie`), en de locatie ervan op het werkblad. De getallen geven de rij- en kolomposities weer.
+ De methode`Add()` accepteert parameters voor het grafiektype (in dit geval,`ChartType.Pie`), en de locatie ervan op het werkblad. De getallen geven rij- en kolomposities weer.
 
 ## Stap 5: Pas het uiterlijk van de grafiek aan
 

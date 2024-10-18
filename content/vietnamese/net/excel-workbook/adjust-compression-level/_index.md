@@ -36,7 +36,7 @@ using System;
 
  Đoạn mã này nhập`Aspose.Cells` không gian tên, chứa tất cả các lớp cần thiết để làm việc với các tệp Excel.`Aspose.Cells.Xlsb` không gian tên dành riêng để xử lý các định dạng tệp XLSB.
 
-Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình điều chỉnh mức nén thành các bước dễ quản lý. Chúng ta sẽ lưu một sổ làm việc với các mức nén khác nhau và đo thời gian thực hiện cho từng thao tác. 
+Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình điều chỉnh mức độ nén thành các bước dễ quản lý. Chúng ta sẽ lưu một sổ làm việc với các mức độ nén khác nhau và đo thời gian thực hiện cho từng thao tác. 
 
 ## Bước 1: Thiết lập thư mục của bạn
 
@@ -125,7 +125,7 @@ Sau khi thực hiện tất cả các bước trên, bạn sẽ thấy thời gi
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
-Dòng này xác nhận rằng toàn bộ quá trình đã hoàn tất mà không có vấn đề gì.
+Dòng này xác nhận toàn bộ quá trình đã hoàn tất mà không có vấn đề gì.
 
 ## Phần kết luận
 
@@ -134,7 +134,7 @@ Dòng này xác nhận rằng toàn bộ quá trình đã hoàn tất mà không
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
+Aspose.Cells là một thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 
 ### Làm thế nào để tải xuống Aspose.Cells?
  Bạn có thể tải xuống thư viện Aspose.Cells từ[trang web](https://releases.aspose.com/cells/net/).

@@ -2,7 +2,7 @@
 title: Các hàm cơ bản của Excel
 linktitle: Các hàm cơ bản của Excel
 second_title: API xử lý Excel Java của Aspose.Cells
-description: Khám phá các hàm Excel thiết yếu bằng Aspose.Cells for Java. Hướng dẫn của chúng tôi trình bày các kiến thức cơ bản từng bước. Bắt đầu với thao tác bảng tính
+description: Khám phá các hàm Excel thiết yếu bằng Aspose.Cells for Java. Hướng dẫn của chúng tôi bao gồm các bước cơ bản từng bước. Bắt đầu với thao tác bảng tính
 type: docs
 weight: 10
 url: /vi/java/basic-excel-functions/
@@ -24,7 +24,7 @@ Các tiêu đề và đoạn văn này cung cấp phần giới thiệu rõ ràn
 ## Hướng dẫn các hàm cơ bản của Excel
 ### [Hướng dẫn công thức Excel SUM](./excel-sum-formula-guide/)
 Mở khóa sức mạnh của công thức SUM trong Excel với Aspose.Cells cho Java - Hướng dẫn toàn diện về tự động hóa Excel.
-### [Cách sử dụng hàm IF trong Excel](./how-to-use-excel-if-function/)
+### [Cách sử dụng hàm IF của Excel](./how-to-use-excel-if-function/)
 Mở khóa sức mạnh của hàm IF trong Excel với Aspose.Cells cho Java. Học cách triển khai logic có điều kiện một cách liền mạch.
 ### [Hướng dẫn sử dụng Excel VLOOKUP](./excel-vlookup-tutorial/)
 Mở khóa sức mạnh của hàm VLOOKUP trong Excel với Aspose.Cells cho Java - Hướng dẫn tối ưu để truy xuất dữ liệu dễ dàng.

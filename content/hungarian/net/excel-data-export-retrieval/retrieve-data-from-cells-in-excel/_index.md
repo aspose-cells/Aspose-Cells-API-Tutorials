@@ -56,7 +56,7 @@ Most, hogy beállította a dokumentumkönyvtárat, a következő lépés az, hog
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Itt létrehozunk a`Workbook`objektumot az Excel-fájl teljes elérési útjának átadásával. Ez a lépés inicializálja a munkafüzetet, és készen áll az adatlekérésre.
+ Itt létrehozunk a`Workbook` objektumot az Excel-fájl teljes elérési útjának átadásával. Ez a lépés inicializálja a munkafüzetet, és készen áll az adatlekérésre.
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
@@ -68,7 +68,7 @@ A munkafüzet megnyitása után el szeretné érni azt a konkrét munkalapot, am
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- A`Worksheets` gyűjtemény lehetővé teszi a munkafüzet különböző lapjainak elérését. Az index`[0]` az első munkalapra vonatkozik. Ha a következő lapokhoz szeretne hozzáférni, ennek megfelelően módosíthatja az indexet.
+ A`Worksheets` gyűjtemény lehetővé teszi a munkafüzet különböző lapjainak elérését. Az index`[0]`az első munkalapra vonatkozik. Ha a következő lapokhoz szeretne hozzáférni, ennek megfelelően módosíthatja az indexet.
 
 ## 4. lépés: Hurok a cellákon keresztül
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        // cella adatok adattípusának kiértékelése dátum/idő értékhez
+        // A cella adatok adattípusának kiértékelése dátum/idő értékhez
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Ebben a lépésben a munkalap egyes cellái között körbejárunk. Minden cellánál ellenőrizzük annak adattípusát a segítségével`switch` nyilatkozat. Típustól függően lekérjük az értéket és kinyomtatjuk a konzolra. Íme az esetek bontása:
+ Ebben a lépésben a munkalap egyes cellái között körbejárunk. Minden cellánál ellenőrizzük annak adattípusát a segítségével`switch`nyilatkozat. Típustól függően lekérjük az értéket és kinyomtatjuk a konzolra. Íme az esetek bontása:
 
 -  IsString: Ha a cella tartalmaz egy karakterláncot, akkor azt a használatával kérjük le`StringValue`.
 -  IsNumeric: Numerikus értékekhez használjuk`DoubleValue`.
@@ -143,7 +143,7 @@ Az adatok lekérése Excel cellákból az Aspose.Cells for .NET használatával 
 Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, kezelését és konvertálását anélkül, hogy a Microsoft Excel telepítése szükségessé válna.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?  
- Igen, az Aspose.Cells ingyenes próbaverziót kínál, amellyel tesztelheti funkcióit. Letöltheti[itt](https://releases.aspose.com/).
+Igen, az Aspose.Cells ingyenes próbaverziót kínál, amellyel tesztelheti funkcióit. Letöltheti[itt](https://releases.aspose.com/).
 
 ### Milyen típusú adatokat kérhetek le az Excel cellákból?  
 Különféle adattípusokat kérhet le, például karakterláncokat, számokat, logikai értékeket és dátum/idő értékeket.

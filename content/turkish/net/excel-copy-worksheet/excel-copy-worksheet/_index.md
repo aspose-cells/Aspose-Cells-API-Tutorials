@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 ```
 
--  The`dataDir` değişken, Excel dosyalarınızın bulunduğu dizin yolunu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek klasör yoluna.
+-  The`dataDir` değişken Excel dosyalarınızın bulunduğu dizin yolunu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek klasör yoluna.
 - `InputPath` üzerinde çalışacağımız Excel dosyasının konumunu depolar (bu durumda, "book1.xls").
 
 Ortamlar (geliştirme, hazırlama, üretim) arasında kolayca geçiş yapabilmeniz için dinamik yollar kullanmak iyi bir fikirdir.

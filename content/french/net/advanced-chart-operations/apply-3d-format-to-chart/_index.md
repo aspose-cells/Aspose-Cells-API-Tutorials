@@ -71,7 +71,7 @@ Les noms doivent être intuitifs. Dans ce cas, nous l'appelons « DataSheet »
 
 ## Étape 3 : Créer des données pour le graphique
 
-Nous allons maintenant ajouter quelques données à notre « feuille de données ». Complétons-la avec les valeurs que notre graphique utilisera.
+Nous allons maintenant ajouter des données à notre « feuille de données ». Complétons-la avec les valeurs que notre graphique utilisera.
 
 ```csharp
 Worksheet dataSheet = book.Worksheets["DataSheet"];
@@ -144,7 +144,7 @@ Format3D fmt3d = spPr.Format3D;
 
 Nous nous préparons à ajouter une touche d'originalité à notre plat : considérez-le comme un assaisonnement qui rehausse la saveur générale.
 
-## Étape 9 : appliquer des effets de biseau 3D
+## Étape 9 : Appliquer des effets de biseau 3D
 
 Ensuite, nous allons ajouter un effet de biseau pour donner une certaine dimension à notre graphique.
 

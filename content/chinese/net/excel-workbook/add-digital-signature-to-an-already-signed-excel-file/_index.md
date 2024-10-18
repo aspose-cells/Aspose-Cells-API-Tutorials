@@ -36,7 +36,7 @@ using System.Text;
 
 这些命名空间将允许您处理 Excel 文件并无缝处理数字签名。
 
-## 步骤 1：设置源目录和输出目录
+## 步骤 1：设置源和输出目录
 
 在操作 Excel 文件之前，您需要定义源文件的位置以及要保存输出文件的位置。操作方法如下：
 
@@ -69,7 +69,7 @@ Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDi
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
-此步骤至关重要，因为它允许您在需要时管理多个签名。
+这一步至关重要，因为它允许您在需要时管理多个签名。
 
 ## 步骤 4：创建新证书
 

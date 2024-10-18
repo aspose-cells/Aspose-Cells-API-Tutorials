@@ -8,7 +8,7 @@ weight: 15
 url: /nl/java/excel-import-export/export-excel-to-xml-java/
 ---
 
-In deze uitgebreide gids leiden we u door het proces van het exporteren van Excel-gegevens naar XML met Aspose.Cells voor Java. Met gedetailleerde uitleg en broncodevoorbeelden beheerst u deze essentiële taak in een mum van tijd.
+In deze uitgebreide gids leiden we u door het proces van het exporteren van Excel-gegevens naar XML met behulp van Aspose.Cells voor Java. Met gedetailleerde uitleg en broncodevoorbeelden beheerst u deze essentiële taak in een mum van tijd.
 
 ## Vereisten
 

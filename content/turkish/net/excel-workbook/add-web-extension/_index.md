@@ -34,7 +34,7 @@ Aspose.Cells ile çalışmak için öncelikle gerekli paketleri içe aktarmanız
 using Aspose.Cells;
 ```
 
-Ortamınızı kurduğunuza göre artık kodlama kısmına geçebiliriz!
+Artık ortamınızı kurduğunuza göre, kodlama kısmına geçebiliriz!
 
 Artık bir Excel çalışma kitabına bir Web Uzantısı eklemeye hazırız. Aşağıdaki adımları yakından izleyin:
 
@@ -88,7 +88,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 - Kimlik: Bu, web uzantısı için benzersiz tanımlayıcıdır. Mevcut uzantıları Office Store'da bulabilirsiniz.
 - StoreName: Yerel dili belirtir.
--  StoreType: Burada, bunu şu şekilde ayarladık:`OMEX`, bir web uzantısı paketini belirtir.
+-  StoreType: Burada, bunu şu şekilde ayarladık:`OMEX`, bir web uzantısı paketini gösterir.
 
 ## Adım 6: Görev Bölmesini Ekleyin ve Yapılandırın
 
@@ -115,7 +115,7 @@ workbook.Save(outDir + "AddWebExtension_Out.xlsx");
 ```
  Burada, çalışma kitabını daha önce belirttiğimiz çıktı dizinine kaydediyoruz. Değiştir`"AddWebExtension_Out.xlsx"` İstediğiniz dosya adıyla.
 
-## Adım 8: Yürütmeyi Onaylayın
+## Adım 8: Uygulamayı Onaylayın
 
 Son olarak, her şeyin yolunda gittiğini belirtmek için konsola bir onay mesajı yazdıralım.
 
@@ -134,7 +134,7 @@ Aspose.Cells for .NET kullanarak Excel çalışma kitaplarınıza web uzantılar
 Web Uzantıları, web içeriğinin ve işlevselliğinin doğrudan bir Excel çalışma kitabı içerisinde bütünleştirilmesine olanak tanıyarak etkileşimi artırır.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells test amaçlı ücretsiz deneme sunuyor. Daha fazla bilgi edinmek için şuraya bakabilirsiniz:[Ücretsiz Deneme bağlantısı](https://releases.aspose.com/).
+ Aspose.Cells test amaçlı ücretsiz deneme sunuyor. Daha fazla bilgi edinmek için[Ücretsiz Deneme bağlantısı](https://releases.aspose.com/).
 
 ### Aspose.Cells'i satın alabilir miyim?
  Evet! Aspose.Cells ücretli bir yazılımdır ve satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
@@ -142,5 +142,5 @@ Web Uzantıları, web içeriğinin ve işlevselliğinin doğrudan bir Excel çal
 ### Aspose.Cells hangi programlama dillerini destekliyor?
 Aspose.Cells öncelikli olarak .NET uygulamalarına yöneliktir ancak Java ve diğer diller için de sürümleri vardır.
 
-### Aspose.Cells için desteği nereden bulabilirim?
+### Aspose.Cells için desteği nerede bulabilirim?
 Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresi ziyaret edin:[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9) yardım için.

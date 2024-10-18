@@ -17,7 +17,7 @@ Czasami może być konieczne duplikowanie nazwanych zakresów z różnych powod�
 
 ## Usuwanie zakresów nazwanych w programie Excel
 
- Są sytuacje, gdy nazwane zakresy stają się przestarzałe lub po prostu zaśmiecają skoroszyt. Na szczęście Aspose.Cells dla .NET sprawia, że usuwanie tych zakresów jest tak samo łatwe, jak ich kopiowanie. Aby usunąć nazwany zakres, należy wskazać ten, który chcemy usunąć, i wywołać odpowiednią metodę w bibliotece. Ten proces czyszczenia jest niezbędny do utrzymania porządku i wydajności skoroszytu. W końcu uporządkowany arkusz kalkulacyjny to szczęśliwy arkusz kalkulacyjny![Przeczytaj więcej tutaj!](./remove-named-range/)
+ Są sytuacje, gdy nazwane zakresy stają się przestarzałe lub po prostu zaśmiecają skoroszyt. Na szczęście Aspose.Cells dla .NET sprawia, że usuwanie tych zakresów jest tak samo łatwe, jak ich kopiowanie. Aby usunąć nazwany zakres, należy wskazać ten, który chcemy usunąć i wywołać odpowiednią metodę w bibliotece. Ten proces czyszczenia jest niezbędny do utrzymania porządku i wydajności skoroszytu. W końcu uporządkowany arkusz kalkulacyjny to szczęśliwy arkusz kalkulacyjny![Przeczytaj więcej tutaj!](./remove-named-range/)
 
 ## Zarządzanie zakresami nazwanymi w samouczkach programu Excel
 ### [Kopiowanie zakresów nazwanych w programie Excel](./copy-named-ranges/)

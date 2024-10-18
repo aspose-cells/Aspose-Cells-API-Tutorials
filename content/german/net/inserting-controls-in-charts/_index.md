@@ -21,7 +21,7 @@ Möchten Sie Ihren Excel-Diagrammen zusätzlichen Kontext hinzufügen? Beschrift
 
 Ein Bild sagt mehr als tausend Worte, oder? Das gilt auch für Excel-Diagramme. Mit Aspose.Cells für .NET ist das Hinzufügen von Bildern zu Ihren Diagrammen so einfach wie das Einfügen von Cliparts in ein Word-Dokument. Bilder können dazu beitragen, Ihre Diagramme optisch ansprechender zu gestalten und die Interaktion mit den von Ihnen präsentierten Daten zu fördern. Egal, ob Sie Finanzdaten oder Verkaufszahlen präsentieren, das Hinzufügen relevanter Bilder hilft dabei, die Daten mit der Erzählung zu verknüpfen.
 
-Neugierig, wie das funktioniert? Schauen Sie sich die[Bild zum Diagramm hinzufügen](./add-picture-to-chart/) Lernprogramm.
+ Neugierig, wie das funktioniert? Schauen Sie sich die[Bild zum Diagramm hinzufügen](./add-picture-to-chart/) Lernprogramm.
 
 ## Einfügen von Textfeldern und Kontrollkästchen
 
@@ -29,7 +29,7 @@ Textfelder und Kontrollkästchen bieten praktische Möglichkeiten, Ihre Diagramm
 
  Folgen Sie den Schritt-für-Schritt-Anweisungen in[TextBox-Steuerelement zum Diagramm hinzufügen](./add-textbox-control-to-chart/) Und[Kontrollkästchen in Diagrammblatt einfügen](./insert-checkbox-in-chart-sheet/) für eine detaillierte Anleitung.
 
-Indem Sie diesen Tutorials folgen, können Sie Ihre Fähigkeiten zur Datenpräsentation mit Aspose.Cells für .NET erheblich verbessern.
+Indem Sie diese Tutorials befolgen, können Sie Ihre Fähigkeiten zur Datenpräsentation mit Aspose.Cells für .NET deutlich verbessern.
 
 ## Tutorials zum Einfügen von Steuerelementen in Diagramme
 ### [Beschriftungssteuerelement zum Diagramm hinzufügen](./add-label-control-to-chart/)

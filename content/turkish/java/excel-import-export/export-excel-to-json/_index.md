@@ -51,7 +51,7 @@ Bu kod Excel verilerini proje dizininize "output.json" adında bir JSON dosyası
 Artık JSON verileriyle gerektiği gibi çalışabilirsiniz. Bunları ayrıştırabilir, düzenleyebilir veya uygulamalarınızda kullanabilirsiniz.
 
 ## Çözüm
-Tebrikler! Aspose.Cells for Java kullanarak Excel verilerini başarıyla JSON'a aktardınız. Bu adım adım kılavuz, süreci kolaylaştırmak için gereken kaynak kodunu size sağladı. Artık Excel dosyalarını Java uygulamalarınızda JSON'a verimli bir şekilde dönüştürebilirsiniz.
+Tebrikler! Aspose.Cells for Java kullanarak Excel verilerini başarıyla JSON'a aktardınız. Bu adım adım kılavuz, süreci kolaylaştırmak için gereken kaynak kodunu size sağladı. Artık, Excel dosyalarını Java uygulamalarınızda JSON'a verimli bir şekilde dönüştürebilirsiniz.
 
 ## SSS
 ### Birden fazla Excel sayfasını tek bir JSON dosyasına aktarabilir miyim?

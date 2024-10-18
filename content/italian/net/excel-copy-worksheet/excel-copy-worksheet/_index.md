@@ -1,6 +1,6 @@
 ---
-title: Foglio di lavoro di copia Excel
-linktitle: Foglio di lavoro di copia Excel
+title: Foglio di lavoro Excel Copia
+linktitle: Foglio di lavoro Excel Copia
 second_title: Riferimento API Aspose.Cells per .NET
 description: Scopri come copiare un foglio di lavoro Excel usando Aspose.Cells per .NET con questa guida passo-passo facile da seguire. Ideale per gli sviluppatori .NET che desiderano automatizzare le attività di Excel.
 type: docs

@@ -93,6 +93,6 @@ W tym samouczku przeprowadziliśmy proces tworzenia tabel przestawnych przy uży
    Oczywiście, możesz dostosować wygląd i formatowanie tabeli przestawnej według własnych preferencji.
 
 ### Jak mogę zautomatyzować tworzenie tabel przestawnych w aplikacjach Java?
-   Możesz zautomatyzować tworzenie tabel przestawnych w języku Java przy użyciu interfejsu API Aspose.Cells for Java, jak pokazano w tym samouczku.
+   Możesz zautomatyzować tworzenie tabel przestawnych w języku Java za pomocą interfejsu API Aspose.Cells for Java, jak pokazano w tym samouczku.
 
 Teraz masz wiedzę i kod, aby tworzyć potężne tabele przestawne w Javie przy użyciu Aspose.Cells. Eksperymentuj z różnymi źródłami danych i konfiguracjami, aby dostosować tabele przestawne do swoich konkretnych potrzeb. Udanej analizy danych!

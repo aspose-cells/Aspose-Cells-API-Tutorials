@@ -2,7 +2,7 @@
 title: Odemkněte heslem chráněný excelový list
 linktitle: Odemkněte heslem chráněný excelový list
 second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Výukový program krok za krokem v C#.
+description: Naučte se, jak odemknout heslem chráněnou excelovou tabulku pomocí Aspose.Cells for .NET. Krok za krokem tutoriál v C#.
 type: docs
 weight: 10
 url: /cs/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
@@ -60,7 +60,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Nyní pojďme skočit do srdce tohoto tutoriálu. K odemknutí tohoto otravného listu použijeme jednoduchý kus kódu. Rozdělíme si to dále na jednoduché kroky.
+Nyní pojďme skočit do srdce tohoto tutoriálu. K odemknutí tohoto otravného listu použijeme jednoduchý kus kódu. Dále to rozdělíme na jednoduché kroky.
 
 ## Krok 1: Definujte cestu dokumentu
 
@@ -70,7 +70,7 @@ Nejprve musíme nastavit cestu našeho dokumentu Excel. Zde určíte, kde se nac
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tip: Vyměňte`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je váš soubor Excel (říkejme tomu`book1.xls`) se nachází. 
+ Tip: Vyměňte`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou, kde je váš soubor Excel (říkejme tomu`book1.xls`) se nachází. 
 
 ## Krok 2: Vytvořte instanci objektu sešitu
 
@@ -100,7 +100,7 @@ Tohle je ta kouzelná část!
 worksheet.Unprotect("");
 ```
 
- Pokud je váš list chráněn heslem a znáte heslo, nahradili byste prázdný řetězec`""`se skutečným heslem. Pokud ji neznáte, nechte ji prázdnou a spusťte ji, abyste zjistili, zda funguje.
+ Pokud je váš list chráněn heslem a znáte heslo, nahradili byste prázdný řetězec`""` se skutečným heslem. Pokud ji neznáte, nechte ji prázdnou a spusťte ji, abyste zjistili, zda funguje.
 
 ## Krok 5: Uložte sešit
 

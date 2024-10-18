@@ -2,7 +2,7 @@
 title: Menggunakan Sparklines
 linktitle: Menggunakan Sparklines
 second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menggunakan grafik mini secara efektif di Excel dengan Aspose.Cells untuk .NET. Panduan langkah demi langkah disertakan untuk pengalaman yang lancar.
+description: Pelajari cara menggunakan grafik mini secara efektif di Excel dengan Aspose.Cells for .NET. Panduan langkah demi langkah disertakan untuk pengalaman yang lancar.
 type: docs
 weight: 18
 url: /id/net/advanced-chart-operations/using-sparklines/
@@ -132,14 +132,14 @@ clr.Color = Color.Orange; // Pilih warna yang Anda inginkan
 group.SeriesColor = clr;
 ```
 
- Dalam kode ini, kita membuat yang baru`CellsColor` Misalnya, mengaturnya ke warna oranye, dan menerapkannya ke rangkaian grafik mini yang baru saja kita buat.
+ Dalam kode ini, kita membuat yang baru`CellsColor` Misalnya, mengaturnya ke warna jingga, dan menerapkannya ke rangkaian grafik mini yang baru saja kita buat.
 
 ## Langkah 8: Simpan Buku Kerja yang Dimodifikasi
 
 Terakhir, mari simpan perubahan kita pada buku kerja dan selesaikan!
 
 ```csharp
-// Simpan file excelnya
+// Simpan file excel
 book.Save(outputDir + "outputUsingSparklines.xlsx");
 
 Console.WriteLine("UsingSparklines executed successfully.");
@@ -160,7 +160,7 @@ Sparkline adalah grafik mini yang pas dalam satu sel, memberikan visualisasi tre
  Ya, Anda memerlukan lisensi yang valid untuk menggunakan semua fitur Aspose.Cells. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda baru memulai.
 
 ### Bisakah saya membuat berbagai jenis grafik mini?
-Tentu saja! Aspose.Cells mendukung berbagai jenis grafik mini, termasuk grafik mini baris, kolom, dan menang/kalah.
+Tentu saja! Aspose.Cells mendukung berbagai jenis grafik mini, termasuk grafik mini baris, kolom, dan grafik mini menang/kalah.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
  Anda dapat mengakses dokumentasi dan contoh terperinci untuk Aspose.Cells untuk .NET[Di Sini](https://reference.aspose.com/cells/net/).

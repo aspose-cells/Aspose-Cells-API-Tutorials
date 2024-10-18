@@ -16,7 +16,7 @@ url: /zh/net/excel-workbook/update-power-query-formula-item/
 在深入研究代码之前，您需要设置一些内容：
 
 1. Visual Studio：您需要一个集成开发环境 (IDE) 来编写和运行 .NET 代码。Visual Studio 是首选。
-2.  Aspose.Cells 库：确保您的项目中可以使用 Aspose.Cells 库。您可以从[地点](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells 库：确保您的项目中有 Aspose.Cells 库。您可以从[地点](https://releases.aspose.com/cells/net/).
 3. C# 的基础知识：当我们一起完成这一过程时，对 C# 有一些基础知识的了解肯定会有所帮助，尤其是在浏览不同的类和方法时。
 4. 示例 Excel 文件：您需要代码片段中提到的 Excel 文件。请确保您拥有：
    - `SamplePowerQueryFormula.xlsx`
@@ -62,7 +62,7 @@ Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 
 ## 步骤 3：访问数据混搭
 
-接下来，我们将访问工作簿的数据混搭中存储的 Power Query 公式。
+接下来，我们将访问存储在工作簿的数据混搭中的 Power Query 公式。
 
 ```csharp
 DataMashup mashupData = workbook.DataMashup;

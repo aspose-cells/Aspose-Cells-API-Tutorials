@@ -25,4 +25,4 @@ url: /zh-hant/net/excel-subtotal-calculation/
 ### [在 Excel 中建立小計](./create-subtotals-in-excel/)
 透過這個簡單的分步教程，了解如何使用 Aspose.Cells for .NET 在 Excel 中建立小計。
 ### [在 Excel 中追蹤先例](./tracing-precedents-in-excel/)
-了解如何使用 Aspose.Cells for .NET 在 Excel 中追蹤先例！探索逐步程式碼教程，增強您的電子表格技能。
+了解如何使用 Aspose.Cells for .NET 在 Excel 中追蹤先例！了解逐步程式碼教程，增強您的電子表格技能。

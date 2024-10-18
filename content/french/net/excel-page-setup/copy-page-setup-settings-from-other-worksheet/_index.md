@@ -20,7 +20,7 @@ Avant de passer au code, vous devez disposer de quelques éléments essentiels 
 3. Compréhension de base de C# : connaître les fondamentaux de C# vous aidera certainement à mieux saisir les concepts.
 4.  Documentation Aspose.Cells : Familiarisez-vous avec le[documentation](https://reference.aspose.com/cells/net/)pour toutes les configurations avancées ou fonctionnalités supplémentaires que vous pourriez trouver utiles plus tard.
 
-Maintenant que nos prérequis sont triés, importons les packages requis !
+Maintenant que nous avons trié nos prérequis, importons les packages requis !
 
 ## Paquets d'importation
 
@@ -105,7 +105,7 @@ TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
 
 Cette ligne de code reprend essentiellement tout le formatage de « TestSheet1 » et l'applique à « TestSheet2 ». C'est comme prendre un instantané d'une page et le coller sur une autre !
 
-## Étape 7 : Imprimer les formats de papier mis à jour
+## Étape 7 : Imprimez les formats de papier mis à jour
 
 Vérifiez à nouveau les formats de papier :
 Enfin, confirmons que les paramètres ont été copiés avec succès.
@@ -128,7 +128,7 @@ N'oubliez pas de sauvegarder votre classeur après tout ce travail acharné !
 wb.Save("CopiedPageSetupExample.xlsx");
 ```
 
-L'enregistrement du classeur est essentiel pour garantir que toutes vos modifications sont conservées. Imaginez cette étape comme si vous appuyiez sur « Enregistrer » après avoir terminé un document : il est essentiel de ne perdre aucune avancée !
+L'enregistrement du classeur est essentiel pour garantir que toutes vos modifications sont conservées. Imaginez cette étape comme si vous appuyiez sur « Enregistrer » après avoir terminé un document, ce qui est essentiel pour ne perdre aucune avancée !
 
 ## Conclusion
 

@@ -9,14 +9,14 @@ url: /ja/net/inserting-controls-in-charts/add-picture-to-chart/
 ---
 ## 導入
 
-個性のない退屈なグラフにうんざりしていませんか? 画像を追加して Excel のビジュアルに彩りを添える方法を知りたいですか? いいえ、そんなことはありません! このチュートリアルでは、Aspose.Cells for .NET の世界を詳しく見て、Excel のグラフに画像を追加する方法を学びます。お気に入りのコーヒーを片手に、さっそく始めましょう!
+個性のない退屈なグラフにうんざりしていませんか? 画像を追加して Excel のビジュアルに彩りを添える方法を知りたいですか? いいえ、そんなことはありません! このチュートリアルでは、Aspose.Cells for .NET の世界に飛び込み、Excel のグラフに画像を追加する方法を学びます。では、お気に入りのコーヒーを片手に、始めましょう!
 
 ## 前提条件
 
 コーディングの詳細に入る前に、スムーズに進めるために必要な前提条件がいくつかあります。
 
 - Visual Studio: ここで .NET コードを記述して実行します。インストールされていることを確認してください。
--  Aspose.Cells for .NET: Excelファイルを操作するにはこのライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Excelファイルを操作するにはこのライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/cells/net/).
 - C# の基本的な理解: コードの説明をしますが、C# の基本を理解しておくと、よりわかりやすくなります。
 
 ### インストール手順
@@ -84,7 +84,7 @@ FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png",
 次に、画像を追加するグラフを指定しましょう。この例では、最初のワークシートの最初のグラフを対象とします。
 
 ```csharp
-// 2 枚目のシートでデザイナー チャートを取得します。
+// 枚目のシートでデザイナー チャートを取得します。
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -140,7 +140,7 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## 結論
 
-このチュートリアルでは、Aspose.Cells for .NET を使用して画像を追加し、Excel グラフに個性を少し加える方法について説明しました。いくつかの簡単な手順を実行するだけで、プレゼンテーションを平凡なものから思い出に残るものにすることができます。さあ、何を待っているのですか? 試してみて、グラフを輝かせましょう!
+このチュートリアルでは、Aspose.Cells for .NET を使用して画像を追加し、Excel グラフに個性を少し加える方法について説明しました。いくつかの簡単な手順を実行するだけで、プレゼンテーションを平凡なものから思い出に残るものにすることができます。さあ、何を待っているのですか? ぜひ試して、グラフを輝かせてください!
 
 ## よくある質問
 

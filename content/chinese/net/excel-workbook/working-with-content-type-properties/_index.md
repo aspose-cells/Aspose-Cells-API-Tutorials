@@ -16,7 +16,7 @@ url: /zh/net/excel-workbook/working-with-content-type-properties/
 在深入研究代码之前，让我们确保您已准备好开始操作所需的一切。以下是一些先决条件：
 
 1. .NET Framework：确保您的机器上安装了 .NET。Aspose.Cells 最适合与 .NET Standard 或 .NET Core 配合使用。
-2.  Aspose.Cells 库：您可以从[Aspose.Cells 下载页面](https://releases.aspose.com/cells/net/).通过 NuGet 安装它或者手动添加对项目的引用。
+2.  Aspose.Cells 库：您可以从[Aspose.Cells 下载页面](https://releases.aspose.com/cells/net/)通过 NuGet 安装它或者手动添加对项目的引用。
 3. Visual Studio：一个可靠的 IDE 将使您的生活更加轻松。确保您已在计算机上安装它。
 4. 基本 C# 知识：熟悉 C# 编程至关重要，因为我们将用这种语言编写代码片段。
 5. 了解 Excel：对 Excel 及其组件的基本了解将帮助您理解我们在这里所做的事情。

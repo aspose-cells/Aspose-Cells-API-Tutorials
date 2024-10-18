@@ -17,7 +17,7 @@ Sebelum kita menyelami proses ekstraksi, mari pastikan Anda sudah siap sepenuhny
 
 - Pengetahuan Dasar tentang C#: Sedikit pengetahuan tentang C# akan sangat membantu. Bahkan jika Anda baru memulai, Anda seharusnya dapat mengimbanginya.
 - Visual Studio: Instal Visual Studio di sistem Anda. Diperlukan untuk menulis dan menjalankan kode C# Anda.
--  Aspose.Cells untuk .NET: Jika Anda belum mengunduhnya, kunjungi[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/) dan ambil versi terbaru.
+- Aspose.Cells untuk .NET: Jika Anda belum mengunduhnya, kunjungi[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/) dan ambil versi terbaru.
 - .NET Framework: Pastikan Anda telah menginstal versi .NET Framework yang kompatibel.
 -  File Excel dengan Objek MOL Tertanam: Untuk contoh kita, kita akan menggunakan`EmbeddedMolSample.xlsx`Pastikan Anda telah menyiapkan berkas ini untuk diekstraksi.
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Dengan potongan ini, kami menggunakan`foreach` loop untuk menelusuri setiap lembar di buku kerja kita. Dengan mengakses`OleObjects`koleksi ini, kita bisa mendapatkan akses ke semua objek yang tertanam pada lembar tertentu tersebut. 
+ Dengan potongan ini, kami menggunakan`foreach` loop untuk menelusuri setiap lembar di buku kerja kita. Dengan mengakses`OleObjects` koleksi ini, kita bisa mendapatkan akses ke semua objek yang tertanam pada lembar tertentu tersebut. 
 
 ## Langkah 4: Ekstrak Objek OLE
 

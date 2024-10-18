@@ -1,7 +1,7 @@
 ---
 title: Criar gráfico de pizza
 linktitle: Criar gráfico de pizza
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a criar um gráfico de pizza no Excel usando Aspose.Cells para .NET com este guia passo a passo. Visualize seus dados sem esforço.
 type: docs
 weight: 12

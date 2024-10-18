@@ -47,7 +47,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-交換する`"YOUR DOCUMENT DIRECTORY"`ファイルを保管したいパスを入力します。これは次のようになります。`@"C:\ExcelFiles\"`.
+交換する`"YOUR DOCUMENT DIRECTORY"`ファイルを保管したいパスを入力します。たとえば、`@"C:\ExcelFiles\"`.
 
 ## ステップ 2: 新しいワークブックをインスタンス化する
 
@@ -117,7 +117,7 @@ proteced_range.Password = "YOUR_PASSWORD";
 sheet.Protect(ProtectionType.All);
 ```
 
-このメソッドを呼び出すと、基本的にワークシート全体にロックがかかります。編集用に定義された範囲のみを変更できます。
+このメソッドを呼び出すと、基本的にワークシート全体がロックされます。編集用に定義された範囲のみを変更できます。
 
 ## ステップ8: Excelファイルを保存する
 
@@ -139,7 +139,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 ### Aspose.Cells とは何ですか?  
 Aspose.Cells は、開発者がプログラムによって Excel ファイルを作成、操作、変換できるようにする強力な .NET ライブラリです。
 
-### Excel ワークシート内の特定のセルを保護できますか?  
+### Excel ワークシート内の特定のセルを保護することはできますか?  
 はい、Aspose.Cells を使用すると、特定の編集可能な範囲を定義し、ワークシートの残りの部分を保護できます。
 
 ### Aspose.Cells の試用版はありますか?  

@@ -43,7 +43,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta del directorio actual en su sistema. Este directorio será donde cargará su archivo de Excel existente y guardará el resultado.
 
-## Paso 2: Creación de una instancia de un objeto de libro de trabajo
+## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
 Ahora que la ruta está establecida, debemos abrir el archivo de Excel. En Aspose.Cells, se administran los archivos de Excel a través de un objeto Workbook. Este objeto contiene todas las hojas de cálculo, gráficos y configuraciones de un archivo de Excel.
 
@@ -61,7 +61,7 @@ En Excel, las pestañas de la parte inferior (Hoja1, Hoja2, etc.) se pueden ocul
 workbook.Settings.ShowTabs = true;
 ```
 
- Configuración`ShowTabs` a`true`garantizará que las pestañas estén visibles cuando abra el archivo Excel.
+ Configuración`ShowTabs` a`true` garantizará que las pestañas estén visibles cuando abra el archivo Excel.
 
 ## Paso 4: Guarde el archivo Excel modificado
 
@@ -75,12 +75,12 @@ workbook.Save(dataDir + "output.xls");
 
 ## Conclusión
 
-¡Y ya está! Ha mostrado correctamente las pestañas en una hoja de cálculo de Excel con Aspose.Cells para .NET. Es una tarea sencilla, pero también resulta increíblemente útil cuando se automatizan operaciones de Excel. Aspose.Cells le ofrece un control total sobre los archivos de Excel sin necesidad de instalar Microsoft Office. Desde controlar la visibilidad de las pestañas hasta gestionar tareas complejas como el formato y las fórmulas, Aspose.Cells hace que todo sea posible con tan solo unas pocas líneas de código.
+¡Y ya está! Ha mostrado correctamente las pestañas en una hoja de cálculo de Excel con Aspose.Cells para .NET. Es una tarea sencilla, pero también resulta increíblemente útil cuando se automatizan operaciones de Excel. Aspose.Cells le ofrece un control total sobre los archivos de Excel sin necesidad de instalar Microsoft Office. Desde el control de la visibilidad de las pestañas hasta la gestión de tareas complejas como el formato y las fórmulas, Aspose.Cells hace que todo sea posible con tan solo unas pocas líneas de código.
 
 ## Preguntas frecuentes
 
 ### ¿Puedo ocultar las pestañas en Excel usando Aspose.Cells para .NET?
- ¡Por supuesto! Simplemente configúrelo`workbook.Settings.ShowTabs = false;` guarde el archivo. Esto ocultará las pestañas cuando se abra el libro de trabajo.
+ ¡Por supuesto! Simplemente configúrelo`workbook.Settings.ShowTabs = false;` y guarde el archivo. Esto ocultará las pestañas cuando se abra el libro de trabajo.
 
 ### ¿Aspose.Cells admite otras funciones de Excel como gráficos y tablas dinámicas?
 Sí, Aspose.Cells es una biblioteca completa que admite casi todas las funciones de Excel, incluidos gráficos, tablas dinámicas, fórmulas y más.

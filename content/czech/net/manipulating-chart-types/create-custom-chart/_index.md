@@ -13,7 +13,7 @@ Vytváření vlastních grafů v Excelu pomocí knihovny Aspose.Cells pro .NET n
 
 ## Předpoklady
 
-Než se ponoříme do groteskního vytváření grafů, ujistěte se, že máte vše na svém místě. Zde je to, co potřebujete:
+Než se ponoříme do hrubky tvorby grafů, ujistěte se, že máte vše na svém místě. Zde je to, co potřebujete:
 
 1. Visual Studio nebo jakékoli IDE kompatibilní s .NET: Toto bude vaše hřiště pro psaní a testování vašeho kódu.
 2.  Aspose.Cells for .NET Library: Ujistěte se, že máte nainstalovanou tuto knihovnu. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
@@ -52,7 +52,7 @@ Namísto "Váš výstupní adresář" můžete zadat skutečnou cestu, kam chcet
  Nyní budete chtít věci začít vytvořením nové instance souboru`Workbook` třída. Toto je základní stavební kámen pro jakékoli operace aplikace Excel pomocí Aspose.Cells.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 

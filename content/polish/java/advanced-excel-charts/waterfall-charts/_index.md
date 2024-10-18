@@ -10,7 +10,7 @@ url: /pl/java/advanced-excel-charts/waterfall-charts/
 
 ## Wprowadzenie do wykresów kaskadowych przy użyciu Aspose.Cells dla języka Java
 
-Wykresy kaskadowe są niezbędnym narzędziem w wizualizacji danych, umożliwiającym śledzenie kumulatywnego efektu kolejno wprowadzanych wartości dodatnich lub ujemnych. W tym przewodniku pokażemy, jak tworzyć oszałamiające wykresy kaskadowe przy użyciu interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy pracujesz nad raportami finansowymi, analizą sprzedaży czy jakimkolwiek projektem opartym na danych, wykresy kaskadowe mogą zapewnić cenne informacje na temat Twoich danych.
+Wykresy kaskadowe są niezbędnym narzędziem w wizualizacji danych, umożliwiającym śledzenie kumulatywnego efektu kolejno wprowadzanych wartości dodatnich lub ujemnych. W tym przewodniku przyjrzymy się, jak tworzyć oszałamiające wykresy kaskadowe przy użyciu interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy pracujesz nad raportami finansowymi, analizą sprzedaży czy jakimkolwiek projektem opartym na danych, wykresy kaskadowe mogą zapewnić cenne informacje na temat Twoich danych.
 
 ## Wymagania wstępne
 
@@ -73,7 +73,7 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-Dodaliśmy wykres wodospadowy do naszego arkusza kalkulacyjnego, określiliśmy serie danych i dane kategorii. Możesz dostosować wygląd wykresu dalej zgodnie ze swoimi wymaganiami.
+Dodaliśmy wykres wodospadowy do naszego arkusza kalkulacyjnego, określiliśmy serie danych i dane kategorii. Możesz dalej dostosować wygląd wykresu zgodnie ze swoimi wymaganiami.
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -107,4 +107,4 @@ Oczywiście, do wykresu kaskadowego możesz dodać więcej serii danych, aby sku
 
 ### Gdzie mogę znaleźć więcej materiałów i przykładów dla Aspose.Cells dla Java?
 
- Dokumentację Aspose.Cells dla języka Java można znaleźć pod adresem[reference.aspose.com/cells/Java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady kodu.
+ Dokumentację Aspose.Cells dla języka Java można znaleźć pod adresem[reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady kodu.

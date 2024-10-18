@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Sostituisci con la tua director
 ## Passaggio 3: creare un'istanza dell'oggetto Workbook
 Ora sei pronto per creare la tua cartella di lavoro Excel! È qui che risiederanno tutti i tuoi fogli e dati.
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 Questa riga inizializza una nuova cartella di lavoro in memoria, offrendoti una tela bianca su cui lavorare.
@@ -49,7 +49,7 @@ Questa riga inizializza una nuova cartella di lavoro in memoria, offrendoti una 
 In Excel, ogni cartella di lavoro può contenere più fogli. Aggiungiamone uno alla nostra cartella di lavoro.
 ```csharp
 // Aggiungere un nuovo foglio di lavoro all'oggetto Cartella di lavoro
-workbook.Worksheets.Add(); //Aggiunge un nuovo foglio di lavoro vuoto per impostazione predefinita
+workbook.Worksheets.Add(); // Aggiunge un nuovo foglio di lavoro vuoto per impostazione predefinita
 ```
 Questo comando aggiunge un nuovo foglio di lavoro e ora la cartella di lavoro contiene almeno un foglio da manipolare.
 ## Fase 5: Accesso al primo foglio di lavoro
@@ -89,7 +89,7 @@ Console.WriteLine("AddingLinkToOtherSheetCell executed successfully.");
 ```
 Ed ecco fatto! Hai creato un programma C# di base che aggiunge un collegamento ipertestuale interno a una cartella di lavoro di Excel utilizzando Aspose.Cells per .NET.
 ## Conclusione
-In questo tutorial, abbiamo esaminato i passaggi necessari per aggiungere un collegamento ipertestuale a un altro foglio in una cartella di lavoro Excel con Aspose.Cells per .NET. I collegamenti nei tuoi fogli di calcolo possono fungere da punti di riferimento in un mare di dati, rendendo la navigazione un gioco da ragazzi. Immagina quanto potrebbe essere più efficiente il tuo flusso di lavoro con fogli di calcolo correttamente collegati! Ora che hai questo potente strumento a portata di mano, sentiti libero di sperimentare ulteriormente le capacità di Aspose.Cells per migliorare la tua produttività.
+In questo tutorial, abbiamo esaminato i passaggi necessari per aggiungere un collegamento ipertestuale a un altro foglio in una cartella di lavoro Excel con Aspose.Cells per .NET. I collegamenti nei tuoi fogli di calcolo possono fungere da punti di riferimento in un mare di dati, rendendo la navigazione un gioco da ragazzi. Immagina quanto potrebbe essere più efficiente il tuo flusso di lavoro con fogli di calcolo correttamente collegati! Ora che hai questo potente strumento a portata di mano, sentiti libero di sperimentare ulteriormente le funzionalità di Aspose.Cells per migliorare la tua produttività.
 ## Domande frequenti
 ### Che cos'è Aspose.Cells?  
 Aspose.Cells è una potente libreria .NET per creare e manipolare file Excel senza utilizzare Microsoft Excel.

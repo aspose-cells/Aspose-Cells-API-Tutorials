@@ -9,14 +9,14 @@ url: /cs/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
 ---
 ## Zavedení
 
-Soubory Excel jsou v dnešním světě založeném na datech všudypřítomné a slouží jako jeden z primárních prostředků pro prezentaci, manipulaci a analýzu dat. Při práci s tabulkami se může stát, že budete potřebovat extrahovat informace z grafů, jako jsou názvy nebo titulky. Pokud konkrétně pracujete se soubory ODS, možná vás zajímá, jak snadno proniknout do těchto prvků grafu. Nebojte se, protože zkoumáme použití Aspose.Cells pro .NET k získání titulků grafu ze souboru ODS jednoduchým a efektivním způsobem.
+Soubory Excel jsou v dnešním světě založeném na datech všudypřítomné a slouží jako jeden z primárních prostředků pro prezentaci, manipulaci a analýzu dat. Při práci s tabulkami se může stát, že budete potřebovat extrahovat informace z grafů, jako jsou názvy nebo titulky. Pokud konkrétně pracujete se soubory ODS, možná vás zajímá, jak se do těchto prvků grafu snadno dostat. Nebojte se, protože zkoumáme použití Aspose.Cells pro .NET k získání titulků grafu ze souboru ODS jednoduchým a efektivním způsobem.
 
 ## Předpoklady
 
 Než se pustíte do výukového programu, budete se chtít ujistit, že jste nastavili vše potřebné k efektivnímu používání Aspose.Cells pro .NET. Zde je kontrolní seznam, který je třeba dodržovat:
 
 1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework. 
-2.  Knihovna Aspose.Cells: Stáhněte a nainstalujte knihovnu Aspose.Cells. Můžete to získat od[zde](https://releases.aspose.com/cells/net/).
+2. Knihovna Aspose.Cells: Stáhněte a nainstalujte knihovnu Aspose.Cells. Můžete to získat od[zde](https://releases.aspose.com/cells/net/).
 3. IDE: I když to zvládne jakýkoli editor kódu, použití IDE, jako je Visual Studio, poskytuje robustní platformu pro vývoj .NET.
 4.  Vzorový soubor ODS: Budete potřebovat soubor ODS, který obsahuje grafy. Pro tento tutoriál použijeme`SampleChart.ods`.
 5. Základní znalost C#: Znalost C# vám pomůže rychle pochopit koncepty a provádět úpravy podle potřeby.
@@ -32,14 +32,14 @@ using Aspose.Cells.Charts;
 
 Tyto jmenné prostory vám umožní přístup ke třídám a metodám používaným v Aspose.Cells pro práci se soubory aplikace Excel a jejich komponentami, jako jsou grafy.
 
-teď se pustíme do toho natvrdlého. Podle těchto podrobných pokynů extrahujte titulky grafu ze souboru ODS.
+A teď se pustíme do toho natvrdlého. Podle těchto podrobných pokynů extrahujte titulky grafu ze souboru ODS.
 
 ## Krok 1: Nastavte svůj projekt
 
 Vytvořte nový projekt aplikace konzoly
 
 - Otevřete Visual Studio (nebo preferované IDE).
--  Vytvořte nový projekt aplikace konzoly a dejte mu relevantní název, např`ChartSubtitleExtractor`.
+- Vytvořte nový projekt aplikace konzoly a dejte mu relevantní název, např`ChartSubtitleExtractor`.
 
 ## Krok 2: Přidejte balíček NuGet Aspose.Cells
 
@@ -117,7 +117,7 @@ Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
 
 ## Závěr
 
-A tady to máte! V několika jednoduchých krocích jste se naučili extrahovat titulky grafu ze souboru ODS pomocí Aspose.Cells for .NET. Pamatujte, že zatímco se tato příručka zaměřila na titulky, knihovna nabízí širokou škálu funkcí, včetně práce s různými typy grafů, manipulace s daty a automatizace úloh. Ať už tedy zpracováváte zprávy nebo vyvíjíte aplikace založené na datech, Aspose.Cells může být užitečným nástrojem ve vašem arzenálu.
+tady to máte! V několika jednoduchých krocích jste se naučili extrahovat titulky grafu ze souboru ODS pomocí Aspose.Cells for .NET. Pamatujte, že zatímco se tato příručka zaměřila na titulky, knihovna nabízí širokou škálu funkcí, včetně práce s různými typy grafů, manipulace s daty a automatizace úloh. Ať už tedy zpracováváte zprávy nebo vyvíjíte aplikace založené na datech, Aspose.Cells může být užitečným nástrojem ve vašem arzenálu.
 
 ## FAQ
 
@@ -131,7 +131,7 @@ Ano, Aspose.Cells podporuje různé formáty včetně XLSX, XLS, CSV a dalších
 Ano, můžete vyzkoušet Aspose.Cells s bezplatnou zkušební verzí dostupnou na jejich webových stránkách.
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Cells?
-Z nákupní platformy Aspose si můžete vyžádat dočasnou licenci pro účely hodnocení.
+Na nákupní platformě Aspose si můžete vyžádat dočasnou licenci pro účely hodnocení.
 
 ### Kde najdu podporu pro Aspose.Cells?
 Podpora je k dispozici prostřednictvím fóra Aspose, kde můžete klást otázky a najít stávající řešení.

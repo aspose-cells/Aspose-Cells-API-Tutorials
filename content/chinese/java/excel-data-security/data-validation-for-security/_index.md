@@ -25,7 +25,7 @@ url: /zh/java/excel-data-security/data-validation-for-security/
 在深入研究数据验证之前，让我们先使用 Aspose.Cells for Java 设置开发环境。请按照以下步骤开始：
 
 ### 安装
-1. 从以下网址下载 Aspose.Cells for Java 库[这里](https://releases.aspose.com/cells/java/).
+1. 从以下位置下载 Aspose.Cells for Java 库[这里](https://releases.aspose.com/cells/java/).
 2. 将该库添加到您的 Java 项目。
 
 ### 初始化

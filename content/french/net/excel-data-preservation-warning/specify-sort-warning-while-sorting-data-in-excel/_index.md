@@ -30,13 +30,13 @@ En C#, pour utiliser la bibliothèque Aspose.Cells, vous devez importer certains
 using Aspose.Cells;
 using Aspose.Cells.Sorting;
 ```
-Ces directives d'utilisation garantissent que votre code peut accéder aux classes et méthodes requises à partir de la bibliothèque Aspose.Cells.
+Ces directives d'utilisation garantissent que votre code peut accéder aux classes et méthodes requises de la bibliothèque Aspose.Cells.
 
 Maintenant que tout est en ordre, passons en revue le processus de tri étape par étape.
 
 ## Étape 1 : Configurez votre répertoire de documents
 
- Tout d'abord, vous devez spécifier le chemin d'accès à votre répertoire de documents. C'est là que votre`sampleSortAsNumber.xlsx` le fichier sera localisé. Remplacez`"Your Document Directory"` avec le chemin réel où se trouve votre fichier Excel.
+ Tout d'abord, vous devez spécifier le chemin d'accès à votre répertoire de documents. C'est là que votre`sampleSortAsNumber.xlsx` le fichier sera localisé. Remplacez`"Your Document Directory"`avec le chemin réel où se trouve votre fichier Excel.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -80,7 +80,7 @@ Ce code spécifie la plage de cellules contenant les données que nous souhaiton
 DataSorter sorter = workbook.DataSorter;
 ```
 
- Avec le`sorter` objet prêt, nous pouvons ensuite définir les paramètres de tri.
+ Avec le`sorter` objet prêt, nous pouvons définir les paramètres de tri ensuite.
 
 ## Étape 6 : Configurer le trieur
 

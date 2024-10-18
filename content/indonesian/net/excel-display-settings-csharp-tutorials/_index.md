@@ -13,7 +13,7 @@ Jika berbicara tentang memanipulasi lembar kerja Excel menggunakan .NET, Aspose.
 
 ## Menguasai Fungsi Dasar
 
- Tutorial tentang cara mengontrol lebar bilah tab pada lembar kerja Anda akan memulai perjalanan kita. Bayangkan saja jika Anda perlu memasukkan lebih banyak tab pada lembar Excel Anda yang penuh sesak—panduan ini menunjukkan cara mengubah lebar tersebut untuk visibilitas dan efisiensi maksimum. Kami tahu betapa frustrasinya jika ruang kerja Anda terasa berantakan, bukan? Penyesuaian sederhana ini dapat membuat perbedaan besar dalam menjaga proyek Anda tetap teratur.[Baca selengkapnya](./control-tab-bar-width-of-spreadsheet/).
+ Tutorial tentang cara mengontrol lebar bilah tab pada lembar kerja Anda akan menjadi awal perjalanan kita. Bayangkan saja jika Anda perlu memasukkan lebih banyak tab pada lembar Excel Anda yang penuh sesak—panduan ini menunjukkan cara mengubah lebar tersebut untuk visibilitas dan efisiensi maksimum. Kami tahu betapa frustrasinya jika ruang kerja Anda terasa berantakan, bukan? Penyesuaian sederhana ini dapat membuat perbedaan besar dalam menjaga proyek Anda tetap teratur.[Baca selengkapnya](./control-tab-bar-width-of-spreadsheet/).
 
 Berikutnya, kita bahas faktor pembesaran lembar kerja. Anda pernah menyipitkan mata saat melihat lembar kerja dan berharap teksnya lebih jelas? Nah, Aspose memudahkan penyesuaian tingkat pembesaran, yang memungkinkan Anda dan pengguna mengontrol keterbacaan dokumen. Ini hanyalah salah satu perubahan kecil yang meningkatkan pengalaman pengguna secara keseluruhan.[Baca selengkapnya](./controll-zoom-factor-of-worksheet/). 
 
@@ -49,7 +49,7 @@ Dengan menjelajahi tutorial mendalam tentang Aspose.Cells untuk .NET ini, Anda t
 | Judul | Keterangan |
 | --- | --- |
 | [Kontrol Lebar Bilah Tab Spreadsheet](./control-tab-bar-width-of-spreadsheet/) | Pelajari cara mengontrol lebar bilah tab lembar di Excel menggunakan Aspose.Cells for .NET dengan tutorial langkah demi langkah ini. Sesuaikan file Excel Anda secara efisien. |  
-| [Kontrol Faktor Zoom Lembar Kerja](./controll-zoom-factor-of-worksheet/) | Pelajari cara mengontrol faktor zoom lembar kerja Excel menggunakan Aspose.Cells for .NET dalam langkah-langkah sederhana. Tingkatkan keterbacaan di lembar kerja Anda. |  
+| [Kontrol Faktor Zoom Lembar Kerja](./controll-zoom-factor-of-worksheet/) | Pelajari cara mengontrol faktor zoom lembar kerja Excel menggunakan Aspose.Cells for .NET dalam langkah-langkah mudah. Tingkatkan keterbacaan di lembar kerja Anda. |  
 | [Menampilkan dan Menyembunyikan Garis Kisi Lembar Kerja](./display-and-hide-gridlines-of-worksheet/) | Pelajari cara menampilkan dan menyembunyikan garis kisi di lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah dengan contoh kode dan penjelasan. |  
 | [Menampilkan dan Menyembunyikan Header Kolom Baris Lembar Kerja](./display-and-hide-row-column-headers-of-worksheet/) | Pelajari cara menyembunyikan tajuk baris dan kolom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini. |  
 | [Menampilkan dan Menyembunyikan Bilah Gulir Lembar Kerja](./display-and-hide-scroll-bars-of-worksheet/) | Menampilkan atau menyembunyikan bilah gulir di lembar kerja Excel menggunakan Aspose.Cells untuk .NET. |  

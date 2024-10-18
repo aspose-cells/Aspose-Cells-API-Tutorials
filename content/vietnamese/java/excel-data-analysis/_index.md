@@ -14,7 +14,7 @@ Trong lĩnh vực phân tích dữ liệu, Excel vẫn là công cụ nền tả
 
 ## Hướng dẫn từng bước cho các nhà phát triển Java
 
-Hướng dẫn toàn diện của chúng tôi sẽ đưa bạn vào hành trình khám phá thế giới phân tích dữ liệu Excel bằng Aspose.Cells for Java. Cho dù bạn là một nhà phát triển Java dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn từng bước của chúng tôi đảm bảo bạn nắm được những điều cốt yếu. Từ trích xuất và chuyển đổi dữ liệu đến tính toán và trực quan hóa nâng cao, bạn sẽ tìm thấy các hướng dẫn đáp ứng mọi cấp độ chuyên môn.
+Hướng dẫn toàn diện của chúng tôi đưa bạn vào hành trình khám phá thế giới phân tích dữ liệu Excel bằng Aspose.Cells for Java. Cho dù bạn là một nhà phát triển Java dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn từng bước của chúng tôi đảm bảo bạn nắm được những điều cốt yếu. Từ trích xuất và chuyển đổi dữ liệu đến tính toán và trực quan hóa nâng cao, bạn sẽ tìm thấy các hướng dẫn đáp ứng mọi cấp độ chuyên môn.
 
 ## Làm chủ thông tin chi tiết về dữ liệu ngày nay
 

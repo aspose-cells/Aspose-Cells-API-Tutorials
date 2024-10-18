@@ -45,7 +45,7 @@ Bây giờ, chúng ta hãy chia nhỏ nhiệm vụ thành các bước dễ th�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Thay thế`YOUR DOCUMENT DIRECTORY`với đường dẫn thực tế nơi tệp Excel của bạn được lưu trữ. Điều này cho phép chương trình của bạn tìm thấy các tệp cần thiết mà nó sẽ thao tác.
+ Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi tệp Excel của bạn được lưu trữ. Điều này cho phép chương trình của bạn tìm thấy các tệp cần thiết mà nó sẽ thao tác.
 
 ## Bước 2: Tạo luồng tệp
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Cái này`Workbook` Đối tượng này hiện lưu trữ toàn bộ dữ liệu và cài đặt của tệp Excel, cho phép thao tác sau này trong quá trình thực hiện.
+ Cái này`Workbook`Đối tượng hiện lưu trữ toàn bộ dữ liệu và cài đặt của tệp Excel, cho phép thao tác sau này trong quá trình thực hiện.
 
 ## Bước 4: Ẩn thanh cuộn dọc
 
@@ -123,7 +123,7 @@ Bằng cách làm theo các bước đơn giản này, bạn đã học cách hi
  Vâng! Bạn chỉ cần thiết lập`IsVScrollBarVisible` Và`IsHScrollBarVisible` trở lại`true`.
 
 ### Aspose.Cells có miễn phí sử dụng không?  
-Aspose.Cells không hoàn toàn miễn phí, nhưng bạn có thể dùng thử miễn phí trong thời gian giới hạn hoặc cân nhắc mua[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells không hoàn toàn miễn phí, nhưng bạn có thể dùng thử miễn phí trong thời gian giới hạn hoặc cân nhắc mua[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể thao tác những loại tệp Excel nào bằng Aspose.Cells?  
 Bạn có thể làm việc với nhiều định dạng Excel khác nhau, bao gồm .xls, .xlsx, .xlsm, .xlsb, v.v.

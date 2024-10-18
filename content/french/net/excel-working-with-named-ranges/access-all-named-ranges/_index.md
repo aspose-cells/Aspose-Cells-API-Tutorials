@@ -10,7 +10,7 @@ url: /fr/net/excel-working-with-named-ranges/access-all-named-ranges/
 ## Introduction
 Dans le monde de la gestion des données, Excel reste une référence en matière de feuilles de calcul. Mais vous êtes-vous déjà retrouvé empêtré dans un réseau de plages nommées ? Si vous acceptez, vous allez vous régaler ! Dans ce guide, je vous expliquerai comment accéder à toutes les plages nommées d'un fichier Excel à l'aide d'Aspose.Cells pour .NET. Que vous travailliez sur un projet simple ou sur une tâche d'analyse de données complexe, comprendre comment accéder efficacement aux plages nommées peut vous faciliter la vie.
 ## Prérequis
-Avant de commencer, assurez-vous que vous disposez de tout ce dont vous avez besoin pour suivre le cours. Voici ce que vous devez avoir :
+Avant de commencer, assurez-vous que vous disposez de tout ce dont vous avez besoin pour suivre la formation. Voici ce que vous devez avoir :
 1. Visual Studio : assurez-vous que Visual Studio est installé (toute version récente devrait fonctionner).
 2.  Aspose.Cells pour .NET : vous devez avoir Aspose.Cells intégré à votre projet. Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
 3. Connaissances de base de C# : si vous connaissez C#, vous réussirez facilement ce didacticiel.
@@ -41,7 +41,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleAccessAllNamedRanges.xlsx");
 Cette ligne crée un`Workbook` objet qui nous permet d'interagir avec notre fichier Excel cible,`sampleAccessAllNamedRanges.xlsx`. 
 ## Étape 3 : Obtenir toutes les plages nommées
 Nous arrivons maintenant au cœur de l’opération : récupérer ces plages nommées.
- Pour obtenir toutes les plages nommées de votre classeur, vous utiliserez l'`GetNamedRanges` méthode. Voici comment vous pouvez le faire :
+ Pour obtenir toutes les plages nommées de votre classeur, vous utiliserez le`GetNamedRanges` méthode. Voici comment vous pouvez le faire :
 ```csharp
 Range[] range = workbook.Worksheets.GetNamedRanges();
 ```

@@ -9,7 +9,7 @@ url: /sv/net/excel-data-sorting-exporting/
 ---
 ## Introduktion
 
-Är du redo att höja nivån på ditt Excel-spel? Om du vill sortera data och exportera HTML-värden sömlöst med Aspose.Cells för .NET, har du kommit till rätt ställe! I den här artikeln kommer vi att fördjupa oss i två fantastiska handledningar: hur man sorterar data med en anpassad sorteringslista i Excel och hur man exporterar HTML-strängvärden från celler till en datatabell. Låt oss börja rulla!
+Är du redo att höja ditt Excel-spel i nivå? Om du vill sortera data och exportera HTML-värden sömlöst med Aspose.Cells för .NET, har du kommit till rätt ställe! I den här artikeln kommer vi att fördjupa oss i två fantastiska handledningar: hur man sorterar data med en anpassad sorteringslista i Excel och hur man exporterar HTML-strängvärden från celler till en datatabell. Låt oss börja rulla!
 
 ## Sortera data i Excel: anpassad sorteringslista på ett enkelt sätt
 

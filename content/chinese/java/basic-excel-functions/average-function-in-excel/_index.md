@@ -16,7 +16,7 @@ Excel 电子表格广泛用于数据分析和计算。最常用的数值分析�
 
 在深入使用 AVERAGE 函数之前，我们需要设置开发环境。请按照以下步骤开始：
 
-1. 下载 Aspose.Cells for Java：访问[Aspose.Cells for Java](https://releases.aspose.com/cells/java/)下载该库。
+1. 下载 Java 版 Aspose.Cells：访问[Aspose.Cells for Java](https://releases.aspose.com/cells/java/)下载该库。
 
 2. 安装 Aspose.Cells：按照 Aspose 文档中提供的安装说明进行操作[这里](https://reference.aspose.com/cells/java/).
 
@@ -27,7 +27,7 @@ Excel 电子表格广泛用于数据分析和计算。最常用的数值分析�
 要使用 AVERAGE 函数，我们首先需要一个 Excel 工作簿。让我们使用 Aspose.Cells 以编程方式创建一个：
 
 ```java
-//用于创建新 Excel 工作簿的 Java 代码
+// Java 代码用于创建新的 Excel 工作簿
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
@@ -39,7 +39,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 现在我们有了一个工作簿，让我们向其中添加一些数据。我们将模拟一个数字数据集：
 
 ```java
-//用于向 Excel 工作簿添加数据的 Java 代码
+//向 Excel 工作簿添加数据的 Java 代码
 worksheet.getCells().get("A1").putValue(10);
 worksheet.getCells().get("A2").putValue(20);
 worksheet.getCells().get("A3").putValue(30);

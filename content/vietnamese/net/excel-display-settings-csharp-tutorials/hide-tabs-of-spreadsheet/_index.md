@@ -54,7 +54,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
  Trong bước này, chúng ta tạo một thể hiện của`Workbook` lớp, biểu diễn tệp Excel. Đường dẫn đến tệp Excel của bạn được cung cấp dưới dạng tham số. Hãy đảm bảo bạn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn tệp thực tế nơi lưu trữ tệp Excel của bạn.
 
-Bằng cách tải sổ làm việc, bạn thiết lập kết nối với tệp, cho phép sửa đổi thêm. Nếu không có điều này, không thể thực hiện bất kỳ thay đổi nào.
+Bằng cách tải sổ làm việc, bạn thiết lập kết nối với tệp, cho phép sửa đổi thêm. Nếu không có kết nối này, không thể thực hiện bất kỳ thay đổi nào.
 
 ## Bước 3: Ẩn các Tab của Tệp Excel
 

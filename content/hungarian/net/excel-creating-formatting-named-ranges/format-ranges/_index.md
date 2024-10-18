@@ -43,7 +43,7 @@ Először is létre kell hoznia egy változót, amely tartalmazza az Excel-dokum
 string dataDir = "Your Document Directory"; // Itt adja meg a könyvtárát
 ```
 
-Magyarázat: Ez a sor inicializálja a`dataDir` változó. Cserélnie kellene`"Your Document Directory"` a gép tényleges elérési útjával, ahová menteni szeretné az Excel fájlt. Tekintsd ezt úgy, mint a terepet, ahol remekműve bemutatásra kerül!
+ Magyarázat: Ez a sor inicializálja a`dataDir` változó. Cserélnie kellene`"Your Document Directory"` a gép tényleges elérési útjával, ahová menteni szeretné az Excel fájlt. Tekintsd ezt úgy, mint a terepet, ahol remekműve bemutatásra kerül!
 
 ## 2. lépés: Példányosítson egy új munkafüzetet
 
@@ -53,7 +53,7 @@ Ezután létrehozzuk a munkafüzet egy példányát. Ez olyan, mintha egy új ü
 Workbook workbook = new Workbook();
 ```
 
- Magyarázat: A`Workbook` osztály egy Excel fájlt jelent. A példányosítással lényegében egy új Excel-dokumentumot hoz létre, amelyet kezelhet.
+Magyarázat: A`Workbook` osztály egy Excel fájlt jelent. A példányosítással lényegében egy új Excel-dokumentumot hoz létre, amelyet kezelhet.
 
 ## 3. lépés: Nyissa meg az első munkalapot
 
@@ -102,7 +102,7 @@ Ezután megadjuk a celláink betűtípus-tulajdonságait.
 
 ```csharp
 stl.Font.Name = "Arial"; // Állítsa be a betűtípust Arial-ra
-stl.Font.IsBold = true; //Tegye félkövérre a betűtípust
+stl.Font.IsBold = true; // Tegye félkövérre a betűtípust
 ```
 
 Magyarázat: Itt azt határozzuk meg, hogy az „Arial” betűtípust szeretnénk használni, és félkövérre szeretnénk szedni. Gondolj arra, hogy erőt ad a szövegednek!
@@ -134,11 +134,11 @@ Magyarázat: Élénk sárgával töltjük fel a választékot! A szilárd minta 
 
 ```csharp
 StyleFlag flg = new StyleFlag();
-flg.Font = true; //Betűtípus-attribútumok engedélyezése
+flg.Font = true; // Betűtípus-attribútumok engedélyezése
 flg.CellShading = true; // Cellaárnyékolás engedélyezése
 ```
 
- Magyarázat: A`StyleFlag` Az objektum megmondja a könyvtárnak, hogy mely stílustulajdonságokat szeretnénk alkalmazni – olyan, mint egy teendőlistán lévő négyzetek kipipálása!
+Magyarázat: A`StyleFlag` Az objektum megmondja a könyvtárnak, hogy mely stílustulajdonságokat szeretnénk alkalmazni – olyan, mint egy teendőlistán lévő négyzetek kipipálása!
 
 ## 11. lépés: Alkalmazza a stílust a tartományra
 
@@ -174,7 +174,7 @@ Magyarázat: Ez a sor egy üzenetet nyomtat a konzolra, jelezve, hogy programunk
 
 Ebben az oktatóanyagban végigjártuk a tartományok formázásának lépéseit az Excelben az Aspose.Cells for .NET használatával. Akár félkövér szöveget, élénk színeket, akár tartományon belüli alapvető strukturálást szeretne adatainak megjelenítését, ez a könyvtár mindenre kiterjed. Pontosan így, néhány sornyi kóddal átalakíthatja adatait unalmasból nagyszerűvé!
 
- Ahogy folytatja programozási útját, ne habozzon felfedezni az Aspose.Cells további funkcióit, mivel rengeteg funkciót kínál az Excel-fájlokkal való munkavégzéshez. További olvasnivalókért tekintse meg a[dokumentáció](https://reference.aspose.com/cells/net/) hogy új lehetőségeket tárjon fel fejlesztési projektjeiben!
+Ahogy folytatja programozási útját, ne habozzon felfedezni az Aspose.Cells további funkcióit, mivel rengeteg funkciót kínál az Excel-fájlokkal való munkavégzéshez. További olvasnivalókért tekintse meg a[dokumentáció](https://reference.aspose.com/cells/net/) hogy új lehetőségeket tárjon fel fejlesztési projektjeiben!
 
 ## GYIK
 
@@ -182,7 +182,7 @@ Ebben az oktatóanyagban végigjártuk a tartományok formázásának lépéseit
 Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára az Excel-fájlok zökkenőmentes kezelését – tökéletes a táblázatok programozott létrehozásához és szerkesztéséhez.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?
-Igen! Az Aspose ingyenes próbaverziót kínál. Vásárlás előtt elkezdheti használni a könyvtárat, és kipróbálhatja annak funkcióit. Nézze meg a[ingyenes próbaverzió](https://releases.aspose.com/).
+ Igen! Az Aspose ingyenes próbaverziót kínál. Vásárlás előtt elkezdheti használni a könyvtárat, és kipróbálhatja annak funkcióit. Nézze meg a[ingyenes próbaverzió](https://releases.aspose.com/).
 
 ### Hogyan alkalmazhatok több stílust egy tartományra az Excelben?
  Többet is létrehozhat`Style` objektumokat, és alkalmazza mindegyiket a`ApplyStyle` módszer a sajátjukkal`StyleFlag`.

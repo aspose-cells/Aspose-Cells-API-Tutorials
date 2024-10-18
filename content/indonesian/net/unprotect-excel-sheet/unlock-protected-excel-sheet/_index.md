@@ -69,7 +69,7 @@ Setelah buku kerja dimuat, Anda perlu mengakses lembar kerja yang ingin dibuka k
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Dengan menentukan`[0]`Anda memberi tahu sistem bahwa Anda menginginkan lembar pertama. Jika lembar Anda bukan yang pertama, cukup ubah indeks ini ke nomor yang sesuai.
+ Dengan menentukan`[0]`, Anda memberi tahu sistem bahwa Anda menginginkan lembar pertama. Jika lembar Anda bukan yang pertama, cukup ubah indeks ini ke nomor yang sesuai.
 
 ## Langkah 4: Buka Proteksi Lembar Kerja
 
@@ -87,11 +87,11 @@ Setelah lembar kerja tidak lagi dilindungi, Anda perlu menyimpan perubahan yang 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Di sini Anda menyimpan perubahan ke file baru bernama “output.out.xls” di direktori yang sama. Anda dapat mengganti namanya sesuai keinginan, tetapi pastikan untuk mempertahankan`.xls` agar dapat dikenali sebagai berkas Excel.
+ Di sini Anda menyimpan perubahan ke file baru bernama “output.out.xls” di direktori yang sama. Anda dapat mengganti namanya sesuai keinginan, tetapi pastikan untuk mempertahankan`.xls`agar dapat dikenali sebagai berkas Excel.
 
 ## Langkah 6: Penanganan Kesalahan
 
-Sebaiknya tambahkan penanganan kesalahan jika terjadi kesalahan. Membungkus kode dalam blok try-catch adalah cara yang bagus untuk menangkap kemungkinan pengecualian.
+Sebaiknya tambahkan penanganan kesalahan jika terjadi kesalahan. Membungkus kode dalam blok try-catch adalah cara yang bagus untuk menangkap potensi pengecualian.
 
 ```csharp
 try
@@ -116,10 +116,10 @@ Nah, itu dia! Membuka kunci lembar Excel yang dilindungi menggunakan Aspose.Cell
 Ya! Anda dapat mengulang setiap lembar di buku kerja dan membuka proteksinya dengan cara yang sama.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan produksi. Periksa[pembelian](https://purchase.aspose.com/buy)halaman untuk informasi lebih lanjut.
+Aspose.Cells menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan produksi. Periksa[pembelian](https://purchase.aspose.com/buy) halaman untuk informasi lebih lanjut.
 
 ### Bagaimana jika saya tidak tahu kata sandinya?
-Jika suatu lembar dilindungi kata sandi, dan Anda tidak mempunyai kata sandinya, perpustakaan tidak akan membantu melewati batasan karena hal itu bertentangan dengan kebijakan etika.
+Jika suatu lembar dilindungi kata sandi, dan Anda tidak mempunyai kata sandinya, perpustakaan tidak akan membantu melewati batasan karena bertentangan dengan kebijakan etika.
 
 ### Bisakah saya mengonversi format file setelah membuka proteksi?
 Tentu saja! Setelah membuka kunci, Anda dapat menyimpan buku kerja dalam format yang berbeda dengan mengubah nama file dan ekstensinya.

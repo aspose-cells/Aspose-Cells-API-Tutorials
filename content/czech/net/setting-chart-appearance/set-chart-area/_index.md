@@ -17,7 +17,7 @@ Než se ponoříme do toho nejhrubšího z tvorby grafů, ujistěte se, že mát
 
 1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to nezbytné pro psaní a spouštění kódu .NET.
 2. .NET Framework: Tato příručka funguje nejlépe s .NET Framework nebo .NET Core. Ujistěte se, že máte nainstalovanou požadovanou verzi (4.5 nebo novější).
-3. Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/).
 4. Základní znalosti C#: Základní znalost programování v C# vám pomůže lépe pochopit jednotlivé kroky. Nebojte se, pokud nejste profík – vše vám vysvětlím!
 
 ## Importujte balíčky
@@ -174,4 +174,4 @@ Ano! Aspose.Cells má knihovny pro různé platformy, včetně Javy, Pythonu a C
  Pomoc a podporu můžete vyhledat u komunity Aspose.Cells a dostupných fór[zde](https://forum.aspose.com/c/cells/9).
 
 ### Jak si mohu zakoupit licenci?
-Licenci si můžete zakoupit přímo z webu Aspose[zde](https://purchase.aspose.com/buy).
+ Licenci si můžete zakoupit přímo z webu Aspose[zde](https://purchase.aspose.com/buy).

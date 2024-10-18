@@ -33,7 +33,7 @@ Hãy bắt đầu bằng cách thiết lập Aspose.Cells for Java trong dự á
 import com.aspose.cells.*;
 ```
 
-## Tải và thao tác các tập tin Excel
+## Tải và thao tác các tệp Excel
 
 Một trong những chức năng cốt lõi của Aspose.Cells for Java là khả năng tải và thao tác các tệp Excel một cách liền mạch. Bạn có thể mở các tệp Excel hiện có, tạo tệp mới và sửa đổi nội dung của chúng theo chương trình.
 
@@ -61,7 +61,7 @@ Aspose.Cells for Java cho phép bạn trích xuất dữ liệu từ các trang 
 Range range = worksheet.getCells().createRange("A1:C10");
 Object[][] data = range.exportArray(10, 3);
 
-// Áp dụng các phép biến đổi
+// Áp dụng phép biến đổi
 // Sắp xếp dữ liệu
 range.sort(0, true);
 

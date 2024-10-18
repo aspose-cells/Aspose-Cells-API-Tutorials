@@ -10,7 +10,7 @@ url: /ko/java/excel-data-analysis/data-analysis-excel-formulas/
 
 ## Java용 Aspose.Cells 소개
 
-데이터 분석에 들어가기 전에 Java용 Aspose.Cells를 소개하겠습니다. 이는 개발자가 Java 애플리케이션에서 Excel 파일을 만들고, 조작하고, 변환할 수 있는 강력한 Java API입니다. Aspose.Cells는 Excel 통합 문서, 워크시트, 셀 및 수식을 사용하기 위한 광범위한 기능을 제공합니다.
+데이터 분석에 들어가기 전에 Java용 Aspose.Cells를 소개하겠습니다. 이는 개발자가 Java 애플리케이션에서 Excel 파일을 만들고, 조작하고, 변환할 수 있는 강력한 Java API입니다. Aspose.Cells는 Excel 통합 문서, 워크시트, 셀 및 수식을 작업하기 위한 광범위한 기능을 제공합니다.
 
 ## Java 환경 설정
 
@@ -102,7 +102,7 @@ pivotTable.calculateData();
 
 Java용 Aspose.Cells를 사용하면 대용량 Excel 파일을 쉽게 처리할 수 있으므로 크기 제한을 걱정할 필요가 없습니다.
 
-### Aspose.Cells는 다양한 언어로 Excel 수식을 지원합니까?
+### Aspose.Cells는 다양한 언어로 된 Excel 수식을 지원합니까?
 
 네, Aspose.Cells는 여러 언어로 Excel 수식을 지원하여 국제적인 사용자에게 더욱 다양하게 활용할 수 있습니다.
 

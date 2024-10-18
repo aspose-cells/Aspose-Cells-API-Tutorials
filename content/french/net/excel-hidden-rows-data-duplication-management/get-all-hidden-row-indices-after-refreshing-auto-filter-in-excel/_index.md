@@ -58,7 +58,7 @@ Avant de nous plonger dans le codage, configurons notre environnement et déclar
 string sourceDir = "Your Document Directory"; // spécifiez votre répertoire
 ```
 
-## Étape 2 : charger le fichier Excel d'exemple
+## Étape 2 : charger l’exemple de fichier Excel
 
 Ensuite, nous devons charger votre fichier Excel dans un objet classeur. Cela nous permet de le manipuler par programmation. 
 
@@ -76,7 +76,7 @@ Nous allons maintenant travailler avec la première feuille de calcul du classeu
 Worksheet ws = wb.Worksheets[0]; // Accéder à la première feuille de calcul
 ```
 
-## Étape 4 : appliquer le filtre automatique
+## Étape 4 : Appliquer le filtre automatique
 
 C'est en appliquant le filtre automatique que la magie commence ! Nous allons spécifier la colonne que nous souhaitons filtrer et définir nos critères. Ici, nous filtrons sur « Orange ». 
 

@@ -17,7 +17,7 @@ Bevor wir uns in die Details der Diagrammerstellung stürzen, stellen wir sicher
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Es ist zum Schreiben und Ausführen von .NET-Code erforderlich.
 2. .NET Framework: Diese Anleitung funktioniert am besten mit .NET Framework oder .NET Core. Stellen Sie sicher, dass Sie die erforderliche Version installiert haben (4.5 oder höher).
-3. Aspose.Cells: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Sie benötigen die Aspose.Cells-Bibliothek. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/net/).
 4. Grundlegende C#-Kenntnisse: Ein grundlegendes Verständnis der C#-Programmierung hilft Ihnen, die Schritte besser zu verstehen. Keine Sorge, wenn Sie kein Profi sind – ich erkläre Ihnen alles!
 
 ## Pakete importieren
@@ -25,7 +25,7 @@ Bevor wir uns in die Details der Diagrammerstellung stürzen, stellen wir sicher
 Nachdem Sie nun alles eingerichtet haben, besteht der erste technische Schritt darin, die erforderlichen Pakete zu importieren. Dadurch können wir die von Aspose.Cells angebotenen Funktionen nutzen. So können Sie es tun:
 
 1. Öffnen Sie Ihr Projekt: Starten Sie Visual Studio und öffnen oder erstellen Sie ein neues Projekt.
-2. Installieren Sie Aspose.Cells: Wenn Sie dies noch nicht getan haben, installieren Sie das Paket Aspose.Cells. Sie können dies über den NuGet-Paketmanager tun. Gehen Sie zu Tools -> NuGet-Paketmanager -> NuGet-Pakete für Lösung verwalten, suchen Sie nach „Aspose.Cells“ und installieren Sie es in Ihrem Projekt.
+2. Installieren Sie Aspose.Cells: Wenn Sie dies noch nicht getan haben, installieren Sie das Aspose.Cells-Paket. Sie können dies über den NuGet-Paketmanager tun. Gehen Sie zu Tools -> NuGet-Paketmanager -> NuGet-Pakete für Lösung verwalten, suchen Sie nach „Aspose.Cells“ und installieren Sie es in Ihrem Projekt.
 3. Using-Direktiven hinzufügen: Fügen Sie oben in Ihrer Codedatei die folgenden Using-Direktiven hinzu:
 
 ```csharp
@@ -42,7 +42,7 @@ Nachdem wir nun die Grundlagen abgedeckt haben, stürzen wir uns auf den Kern de
 
 Das Einrichten Ihrer Arbeitsmappe ist der erste Schritt beim Erstellen von Diagrammen. Stellen Sie sich die Arbeitsmappe als leere Leinwand vor, auf der die ganze Magie geschieht.
 
-Wir beginnen mit der Instanziierung eines Arbeitsmappenobjekts. Dies ist die Grundlage, die alle Ihre Arbeitsblätter enthält.
+Wir beginnen mit der Instanziierung eines Workbook-Objekts. Dies ist die Grundlage, die alle Ihre Arbeitsblätter enthält.
 
 ```csharp
 //Ausgabeverzeichnis
@@ -174,4 +174,4 @@ Ja! Aspose.Cells verfügt über Bibliotheken für verschiedene Plattformen, daru
  Sie können Hilfe und Unterstützung von der Aspose.Cells-Community und den verfügbaren Foren erhalten[Hier](https://forum.aspose.com/c/cells/9).
 
 ### Wie kann ich eine Lizenz erwerben?
-Sie können eine Lizenz direkt von der Aspose-Website erwerben[Hier](https://purchase.aspose.com/buy).
+ Sie können eine Lizenz direkt von der Aspose-Website erwerben[Hier](https://purchase.aspose.com/buy).

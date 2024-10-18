@@ -88,7 +88,7 @@ Questa riga non solo mostra ad Aspose dove applicare la convalida, ma consente a
 
 ## Passaggio 6: salva la tua cartella di lavoro
 
-Dopo tutto questo duro lavoro, dobbiamo assicurarci che le nostre modifiche siano salvate. Ecco come lo facciamo:
+Dopo tutto questo duro lavoro, dobbiamo assicurarci che le nostre modifiche vengano salvate. Ecco come lo facciamo:
 
 ```csharp
 workbook.Save(outputDir + "ValidationsSample_out.xlsx");

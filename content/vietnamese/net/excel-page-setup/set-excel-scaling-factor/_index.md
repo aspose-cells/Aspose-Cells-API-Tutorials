@@ -9,7 +9,7 @@ url: /vi/net/excel-page-setup/set-excel-scaling-factor/
 ---
 ## Giới thiệu
 
-Khi nói đến việc xử lý các tệp Excel theo chương trình, Aspose.Cells for .NET nổi bật như một thư viện hàng đầu cho phép các nhà phát triển thao tác và tạo bảng tính một cách liền mạch. Một yêu cầu chung khi làm việc với Excel là điều chỉnh hệ số tỷ lệ của bảng tính để đảm bảo rằng nội dung của nó vừa vặn hoàn hảo khi in hoặc xem. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập hệ số tỷ lệ Excel bằng Aspose.Cells for .NET, cung cấp cho bạn hướng dẫn toàn diện và dễ thực hiện.
+Khi nói đến việc xử lý các tệp Excel theo chương trình, Aspose.Cells for .NET nổi bật như một thư viện hàng đầu cho phép các nhà phát triển thao tác và tạo bảng tính một cách liền mạch. Một yêu cầu chung khi làm việc với Excel là điều chỉnh hệ số tỷ lệ của bảng tính để đảm bảo nội dung của nó vừa vặn hoàn hảo khi in hoặc xem. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập hệ số tỷ lệ Excel bằng Aspose.Cells for .NET, cung cấp cho bạn hướng dẫn toàn diện và dễ thực hiện.
 
 ## Điều kiện tiên quyết
 
@@ -58,14 +58,14 @@ Chúng ta hãy chia nhỏ quá trình thiết lập hệ số tỷ lệ trong b�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn rằng bạn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn lưu tệp Excel.
+Hãy chắc chắn rằng bạn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn nơi bạn muốn lưu tệp Excel.
 
 ## Bước 2: Tạo một đối tượng sổ làm việc mới
 
 Bây giờ, đã đến lúc tạo một sổ làm việc mới. Về cơ bản, đây là nơi lưu trữ tất cả dữ liệu và cài đặt của bạn.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Tệp Excel có thể chứa nhiều trang tính. Chúng ta sẽ truy cập trang tính đầu tiên để áp dụng hệ số tỷ lệ.
 
 ```csharp
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -95,7 +95,7 @@ worksheet.PageSetup.Zoom = 100;
 
 ## Bước 5: Lưu sổ làm việc
 
-Bạn đã thực hiện những điều chỉnh cần thiết; bây giờ là lúc lưu những thay đổi của bạn.
+Bạn đã thực hiện những điều chỉnh cần thiết; bây giờ là lúc lưu những thay đổi.
 
 ```csharp
 // Lưu bảng tính.
@@ -106,7 +106,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 
 ## Phần kết luận
 
-Và thế là xong! Bạn đã thiết lập thành công hệ số tỷ lệ cho bảng tính Excel của mình bằng Aspose.Cells cho .NET. Thư viện này giúp bạn quản lý và thao tác các tệp Excel dễ dàng, cho phép bạn tập trung vào việc phát triển ứng dụng mà không bị sa lầy vào mã định dạng Excel phức tạp.
+Và thế là xong! Bạn đã thiết lập thành công hệ số tỷ lệ cho bảng tính Excel của mình bằng Aspose.Cells for .NET. Thư viện này giúp bạn quản lý và thao tác các tệp Excel dễ dàng, cho phép bạn tập trung vào việc phát triển ứng dụng mà không bị sa lầy vào mã định dạng Excel phức tạp.
 
 Khả năng điều chỉnh hệ số tỷ lệ chỉ là một trong nhiều tính năng mà Aspose.Cells cung cấp. Khi khám phá sâu hơn, bạn sẽ khám phá ra nhiều chức năng có thể cải thiện cách ứng dụng của bạn xử lý tệp Excel.
 
@@ -122,7 +122,7 @@ Có! Aspose.Cells có thể được sử dụng trong cả ứng dụng máy t�
  Chắc chắn rồi! Bạn có thể nhận được phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?  
-Tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/cells/net/).
+ Tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Cells bằng cách nào?  
- Bạn có thể liên hệ để được hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+ Bạn có thể liên hệ để được hỗ trợ qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

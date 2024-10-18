@@ -2,7 +2,7 @@
 title: Funkcje tekstowe programu Excel wyjaśnione
 linktitle: Funkcje tekstowe programu Excel wyjaśnione
 second_title: Aspose.Cells Java Excel Processing API
-description: Odkryj sekrety funkcji tekstowych Excela dzięki Aspose.Cells dla Java. Naucz się manipulować, wyodrębniać i przekształcać tekst w Excelu bez wysiłku.
+description: Odkryj sekrety funkcji tekstowych programu Excel dzięki Aspose.Cells dla Javy. Naucz się manipulować, wyodrębniać i przekształcać tekst w programie Excel bez wysiłku.
 type: docs
 weight: 18
 url: /pl/java/basic-excel-functions/excel-text-functions-demystified/
@@ -66,7 +66,7 @@ Komórka B2 będzie zawierała słowo „Excel”, a komórka C2 będzie zawiera
  Ten`LEN` funkcja zlicza liczbę znaków w ciągu tekstowym. Zobaczmy, jak używać jej z Aspose.Cells dla Java:
 
 ```java
-// Kod Java do zliczania znaków przy użyciu Aspose.Cells
+// Kod Java do liczenia znaków przy użyciu Aspose.Cells
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
@@ -101,7 +101,7 @@ workbook.calculateFormula();
 
 Komórka B4 będzie zawierać „PROGRAMOWANIE JAVA”, a komórka C4 będzie zawierać „programowanie Java”.
 
-## ZNAJDŹ i ZAMIEŃ - lokalizowanie i zastępowanie tekstu
+## ZNAJDŹ i ZAMIEŃ – lokalizowanie i zastępowanie tekstu
 
  Ten`FIND` Funkcja ta umożliwia zlokalizowanie położenia określonego znaku lub tekstu w ciągu, podczas gdy`REPLACE` funkcja pomaga Ci podmieniać tekst. Zobaczmy je w akcji:
 

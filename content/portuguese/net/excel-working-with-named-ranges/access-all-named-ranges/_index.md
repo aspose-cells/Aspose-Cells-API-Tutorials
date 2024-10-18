@@ -1,7 +1,7 @@
 ---
 title: Acesse todos os intervalos nomeados no Excel
 linktitle: Acesse todos os intervalos nomeados no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desbloqueie o poder do Excel acessando intervalos nomeados com nosso guia fácil usando Aspose.Cells para .NET. Perfeito para gerenciamento de dados.
 type: docs
 weight: 10
@@ -67,7 +67,7 @@ Parabéns! Você aprendeu com sucesso como acessar todos os intervalos nomeados 
 Intervalos nomeados são uma maneira de atribuir um nome a uma célula específica ou a um intervalo de células para facilitar a referência.
 ### Posso modificar intervalos nomeados usando Aspose.Cells?
 Sim, através do Aspose.Cells, você pode criar, modificar e excluir intervalos nomeados programaticamente.
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  O Aspose.Cells oferece um teste gratuito, mas para uso completo, é necessária uma licença. Você pode conferir o[preços](https://purchase.aspose.com/buy).
 ### Onde posso encontrar mais documentação?
  Você pode visitar o[Documentação Aspose](https://reference.aspose.com/cells/net/) para informações mais detalhadas.

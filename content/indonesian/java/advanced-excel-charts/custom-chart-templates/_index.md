@@ -63,7 +63,7 @@ Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 
 ### Langkah 4: Membuat Bagan
 
-Sekarang, mari kita buat bagan dan sesuaikan dengan kebutuhan Anda. Anda dapat memilih dari berbagai jenis bagan seperti bagan batang, bagan garis, bagan pai, dan lainnya. Berikut ini contoh pembuatan bagan batang:
+Sekarang, mari kita buat diagram dan sesuaikan dengan kebutuhan Anda. Anda dapat memilih dari berbagai jenis diagram seperti diagram batang, diagram garis, diagram pai, dan lainnya. Berikut ini contoh pembuatan diagram batang:
 
 ```java
 // Tambahkan bagan ke lembar kerja

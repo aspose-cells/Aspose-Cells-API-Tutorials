@@ -4,7 +4,7 @@ linktitle: Excel-Arbeitsblatt
 type: docs
 weight: 12
 url: /de/net/excel-worksheet-csharp-tutorials/
-description: Die C#-Tutorials von Aspose.Cells bieten Schritt-für-Schritt-Anleitungen zum einfachen und effizienten Bearbeiten von Excel-Tabellen.
+description: Die C#-Tutorials von Aspose.Cells bieten Schritt-für-Schritt-Anleitungen für die einfache und effiziente Bearbeitung von Excel-Tabellen.
 ---
 ## Einführung
 
@@ -27,6 +27,6 @@ Sind Sie bereit, Ihre Excel-Kenntnisse mit Aspose.Cells für .NET zu verbessern?
 | --- | --- | 
 | [Excel-Arbeitsblatt zu vorhandener Arbeitsmappe hinzufügen C#-Tutorial](./add-excel-worksheet-to-existing-workbook-csharp-tutorial/) | Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET einem vorhandenen Arbeitsbuch ein Excel-Arbeitsblatt hinzufügen. |  
 | [Neues Tabellenblatt in Excel hinzufügen (C#-Tutorial)](./add-new-sheet-in-excel-csharp-tutorial/) | Erfahren Sie, wie Sie mit C# und Aspose.Cells ein neues Blatt in Excel hinzufügen. Dieses Tutorial unterteilt den Vorgang in einfache, umsetzbare Schritte. |  
-| [Excel-Arbeitsblatt nach Index löschen C#-Tutorial](./delete-excel-worksheet-by-index-csharp-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Arbeitsblatt nach Index in C# löschen. Folgen Sie diesem einfachen Schritt-für-Schritt-Tutorial, um Ihre Arbeitsmappenverwaltung zu vereinfachen. |  
+| [Excel-Arbeitsblatt nach Index löschen C#-Tutorial](./delete-excel-worksheet-by-index-csharp-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Arbeitsblatt nach Index in C# löschen. Folgen Sie diesem einfachen Schritt-für-Schritt-Tutorial, um die Verwaltung Ihrer Arbeitsmappe zu vereinfachen. |  
 | [Excel-Arbeitsblatt anhand des Namens löschen C#-Tutorial](./delete-excel-worksheet-by-name-csharp-tutorial/) | Erfahren Sie, wie Sie Excel-Arbeitsblätter mit C# nach Namen löschen. Dieses anfängerfreundliche Tutorial führt Sie Schritt für Schritt durch Aspose.Cells für .NET. |  
 | [Excel-Arbeitsblatt nach Namen abrufen C#-Tutorial](./get-excel-worksheet-by-name-csharp-tutorial/) | Greifen Sie in C# mit Schritt-für-Schritt-Anleitung auf Excel-Arbeitsblätter nach Namen zu und verwenden Sie Aspose.Cells für .NET für eine bessere Codeeffizienz. |  

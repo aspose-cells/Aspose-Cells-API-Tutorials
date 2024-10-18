@@ -13,7 +13,7 @@ Khi làm việc với các bảng tính Excel, tính linh hoạt thường là c
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
+Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
 1. Môi trường phát triển .NET: Bạn nên thiết lập môi trường phát triển .NET đang hoạt động (có thể là Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn).
 2.  Aspose.Cells cho Thư viện .NET: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/cells/net/).
@@ -31,7 +31,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Bây giờ chúng ta đã nhập những gì cần thiết, hãy cùng xem hướng dẫn từng bước.
+Bây giờ chúng ta đã nhập những gì cần thiết, hãy cùng tìm hiểu từng bước trong hướng dẫn.
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
@@ -41,7 +41,7 @@ Bây giờ chúng ta đã nhập những gì cần thiết, hãy cùng xem hư�
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Tạo thư mục nếu thư mục đó chưa có.
+//Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

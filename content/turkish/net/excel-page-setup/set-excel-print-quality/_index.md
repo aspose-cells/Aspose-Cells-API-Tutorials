@@ -19,7 +19,7 @@ Kodlamanın inceliklerine dalmadan önce, Aspose.Cells'i kullanmak için her şe
 2. Visual Studio Kurulu: C# kodunuzu yazmak için bir IDE'ye ihtiyacınız olacak ve Visual Studio, sağlam özellikleri ve kullanım kolaylığı nedeniyle şiddetle tavsiye edilir.
 3. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olduğunuzdan emin olun. Bunu kolayca indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
 4. .NET Framework: Makinenizde Aspose.Cells ile uyumlu .NET Framework'ün yüklü olduğundan emin olun.
-5.  Lisans Anahtarı: Aspose.Cells ücretsiz deneme sunsa da, üretimde kullanmayı planlıyorsanız bir lisans satın almayı düşünün. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+5.  Lisans Anahtarı: Aspose.Cells ücretsiz deneme sunarken, üretimde kullanmayı planlıyorsanız bir lisans satın almayı düşünün. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ## Paketleri İçe Aktar
 
@@ -41,7 +41,7 @@ Artık ön koşullarımızı sıraladığımıza göre, bir Excel çalışma say
 
 ## Adım 1: Belge Dizininizi Tanımlayın
 
-Yolculuğumuzun ilk adımı Excel dosyalarınızın saklanacağı yolu tanımlamaktır. 
+Yolculuğumuzun ilk adımı Excel dosyalarınızın depolanacağı yolu tanımlamaktır. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -51,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
-Daha sonra Excel dosyalarıyla etkileşime geçmemizi sağlayacak bir çalışma kitabı nesnesi oluşturmamız gerekiyor.
+Daha sonra Excel dosyalarıyla etkileşime geçmemizi sağlayacak olan çalışma kitabı nesnesini oluşturmamız gerekiyor.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Açıklama:`PrintQuality` özellik herhangi bir değere ayarlanabilir, genellikle 75 ile 600 dpi (inç başına nokta) arasında. Bu durumda, kalite ve dosya boyutu arasında iyi bir denge için harika olan 180 dpi'ye ayarlıyoruz.
+Açıklama:`PrintQuality` özellik herhangi bir değere ayarlanabilir, genellikle 75 ile 600 dpi (inç başına nokta) arasında. Bu durumda, kalite ve dosya boyutu arasında iyi bir denge için harika olan 180 dpi'ye ayarlıyoruz.
 
 ## Adım 5: Çalışma Kitabını Kaydetme
 
@@ -102,7 +102,7 @@ Ayarlayabileceğiniz maksimum baskı kalitesi 600 dpi'dır.
 Evet! Her çalışma sayfasına ayrı ayrı erişebilir ve baskı kalitelerini ayrı ayrı ayarlayabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
-Aspose.Cells ücretsiz deneme sürümü sunuyor ancak uzun süreli kullanım için lisans satın almanız gerekiyor.
+Aspose.Cells ücretsiz deneme imkanı sunuyor ancak uzun süreli kullanım için lisans satın almanız gerekiyor.
 
 ### Baskı kalitesini değiştirmek dosya boyutunu etkiler mi?  
 Evet, daha yüksek baskı kalitesi genellikle daha büyük dosya boyutlarıyla sonuçlanır, ancak daha iyi çıktı sağlar.

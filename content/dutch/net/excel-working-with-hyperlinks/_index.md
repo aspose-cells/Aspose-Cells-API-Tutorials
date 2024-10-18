@@ -9,7 +9,7 @@ url: /nl/net/excel-working-with-hyperlinks/
 ---
 ## Invoering
 
-Hebt u ooit gemerkt dat u uw Excel-spreadsheets interactiever wilde maken? Of het nu gaat om het linken naar externe documenten, navigeren tussen sheets of het toevoegen van klikbare URL's, hyperlinks kunnen uw gegevenspresentatie naar een heel nieuw niveau tillen! En met Aspose.Cells voor .NET wordt dit proces een fluitje van een cent. Laten we eens kijken hoe u hyperlinks effectief kunt gebruiken in uw Excel-werkmappen met behulp van handige tutorials.
+Heb je ooit gemerkt dat je je Excel-spreadsheets interactiever wilde maken? Of het nu gaat om het linken naar externe documenten, navigeren tussen sheets of het toevoegen van klikbare URL's, hyperlinks kunnen je datapresentatie naar een heel nieuw niveau tillen! En met Aspose.Cells voor .NET wordt dit proces een fluitje van een cent. Laten we eens kijken hoe je hyperlinks effectief kunt gebruiken in je Excel-werkmappen met behulp van handige tutorials.
 
 ## Link toevoegen aan extern bestand in Excel
 Stel je voor dat je gerelateerde documenten direct aan je spreadsheet kunt koppelen; dat is een game changer! In onze tutorial over[externe bestandskoppelingen toevoegen in Excel](./add-link-to-external-file/), begeleiden we u stap voor stap. U leert hoe u een hyperlink maakt die naar een extern bestand op uw computer of netwerk verwijst. Dit is perfect om verschillende bronnen samen te brengen zonder uw werkblad te rommelig te maken. Het is alsof u een digitale archiefkast binnen handbereik hebt!

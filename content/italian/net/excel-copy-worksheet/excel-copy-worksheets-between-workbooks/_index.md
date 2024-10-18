@@ -2,20 +2,20 @@
 title: Copia fogli di lavoro Excel tra cartelle di lavoro
 linktitle: Copia fogli di lavoro Excel tra cartelle di lavoro
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come copiare fogli di lavoro tra cartelle di lavoro Excel utilizzando Aspose.Cells per .NET. Una guida passo passo con esempi di codice per semplificare la gestione dei fogli di calcolo.
+description: Scopri come copiare fogli di lavoro tra cartelle di lavoro Excel usando Aspose.Cells per .NET. Una guida passo passo con esempi di codice per semplificare la gestione dei fogli di calcolo.
 type: docs
 weight: 30
 url: /it/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
 ## Introduzione
 
-Ti è mai capitato di dover copiare manualmente fogli di lavoro tra cartelle di lavoro di Excel? È un po' come cercare di destreggiarsi mentre si è su un monociclo! Ma con Aspose.Cells per .NET, puoi semplificare questo compito e renderlo fluido come tagliare il burro. Che tu stia gestendo grandi set di dati o che tu abbia bisogno di consolidare informazioni, copiare fogli di lavoro tra cartelle di lavoro può farti risparmiare un sacco di tempo. In questo tutorial, ti mostreremo esattamente come farlo usando Aspose.Cells per .NET. Alla fine di questa guida, sarai in grado di svolgere le tue attività di Excel con facilità.
+Ti è mai capitato di dover copiare manualmente fogli di lavoro tra cartelle di lavoro di Excel? È un po' come cercare di destreggiarsi mentre si è su un monociclo! Ma con Aspose.Cells per .NET, puoi semplificare questa attività e renderla fluida come tagliare il burro. Che tu stia gestendo grandi set di dati o che tu abbia bisogno di consolidare informazioni, copiare fogli di lavoro tra cartelle di lavoro può farti risparmiare un sacco di tempo. In questo tutorial, ti mostreremo esattamente come farlo usando Aspose.Cells per .NET. Alla fine di questa guida, sarai in grado di svolgere le tue attività di Excel con facilità.
 
 ## Prerequisiti
 
 Prima di immergerci nel codice, assicuriamoci di avere a disposizione gli strumenti giusti per iniziare:
 
--  Aspose.Cells per .NET: puoi scaricarlo[Qui](https://releases.aspose.com/cells/net/).
+- Aspose.Cells per .NET: puoi scaricarlo[Qui](https://releases.aspose.com/cells/net/).
 - Visual Studio o qualsiasi IDE che supporti .NET Framework.
 -  Una licenza valida o una[licenza temporanea](https://purchase.aspose.com/temporary-license/) se vuoi testare la piena funzionalità di Aspose.Cells.
 - Conoscenza di base di C# e del framework .NET.
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Ora che hai aperto la prima cartella di lavoro, è il momento di creare un'altra cartella di lavoro vuota in cui incollare il foglio di lavoro copiato. Immagina di aprire un nuovo notebook vuoto in cui trasferire i dati.
 
 ```csharp
-// Crea un'altra cartella di lavoro.
+//Crea un'altra cartella di lavoro.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -81,12 +81,12 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 
  Cosa sta succedendo qui? Il codice prende il primo foglio di lavoro da`excelWorkbook0` e lo copia nel primo foglio di`excelWorkbook1`. Super facile, vero?
 
-## Passaggio 5: Salvare la nuova cartella di lavoro
+## Passaggio 5: Salva la nuova cartella di lavoro
 
 Infine, salverai la seconda cartella di lavoro con il foglio di lavoro copiato. È come salvare i tuoi appunti appena scritti in una nuova cartella sul tuo computer.
 
 ```csharp
-//Salvare il file.
+// Salvare il file.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

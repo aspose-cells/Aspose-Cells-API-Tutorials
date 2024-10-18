@@ -14,7 +14,7 @@ Nesta era digital, as planilhas do Excel servem como uma espinha dorsal para in�
 
 ## Por que o bloqueio de células é importante
 
-A precisão e a confidencialidade dos dados não são negociáveis na maioria dos setores. O bloqueio de células fornece uma camada adicional de proteção para suas planilhas, evitando alterações não autorizadas e permitindo que usuários legítimos interajam com os dados conforme necessário. Este artigo o guiará pelo processo de implementação de estratégias de bloqueio de células adaptadas às suas necessidades específicas.
+A precisão e a confidencialidade dos dados não são negociáveis na maioria dos setores. O bloqueio de células fornece uma camada adicional de proteção para suas planilhas, evitando alterações não autorizadas e permitindo que usuários legítimos interajam com os dados conforme necessário. Este artigo o guiará pelo processo de implementação de estratégias de bloqueio de células adaptadas aos seus requisitos específicos.
 
 ## Introdução ao Aspose.Cells para Java
 
@@ -34,7 +34,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // Acessar uma célula específica
 Cell cell = worksheet.getCells().get("A1");
 
-// Bloquear a célula
+// Bloqueie a célula
 Style style = cell.getStyle();
 style.setLocked(true);
 cell.setStyle(style);
@@ -113,7 +113,7 @@ Neste artigo, exploramos os aspectos essenciais do bloqueio de células usando A
 
 ## Perguntas frequentes
 
-### que é bloqueio de célula?
+### que é bloqueio de células?
 
 Bloqueio de células é uma técnica usada para evitar alterações não autorizadas em células ou intervalos específicos dentro de uma planilha do Excel. Ele aprimora a segurança e a integridade dos dados controlando quem pode editar certas partes de uma planilha.
 

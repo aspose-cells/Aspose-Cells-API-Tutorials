@@ -26,7 +26,7 @@ Ten wiersz umożliwia dostęp do wszystkich niezbędnych klas i metod udostępni
 
 Teraz, gdy jesteśmy gotowi i przygotowani, przejdźmy przez proces dodawania łącza do pliku zewnętrznego w arkuszu kalkulacyjnym Excel. Zapnij pasy, ponieważ rozbijamy to na łatwe do opanowania kroki!
 ## Krok 1: Skonfiguruj swój katalog wyjściowy
-Aby rozpocząć, musisz określić, gdzie będą znajdować się Twoje pliki wyjściowe. W kodzie C# ustaw swój katalog wyjściowy.
+Aby rozpocząć, musisz określić, gdzie będą znajdować się Twoje pliki wyjściowe. W swoim kodzie C# ustaw swój katalog wyjściowy.
 ```csharp
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Krok 2: Utwórz obiekt skoroszytu
 Następnie utworzymy nowy skoroszyt programu Excel. To jest Twoje puste płótno, na którym możesz zacząć dodawać funkcjonalności.
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
  Pomyśl o`Workbook` jako nowy notatnik, w którym możesz zapisać wszystko, czego potrzebujesz. Jest teraz pusty, gotowy na Twój wpis!
@@ -45,7 +45,7 @@ Każdy skoroszyt może zawierać wiele arkuszy. Tutaj uzyskamy dostęp do pierws
 // Uzyskanie odniesienia do nowo dodanego arkusza roboczego poprzez podanie indeksu arkusza
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Tutaj mówimy: „Hej, chcę popracować nad pierwszym arkuszem”. To tak, jakbyśmy otworzyli konkretną stronę w swoim notatniku.
+Tutaj mówimy: „Hej, chcę popracować nad pierwszym arkuszem”. To tak, jakbyś otworzył konkretną stronę w swoim notatniku.
 ## Krok 4: Dodaj hiperłącze
 Teraz czas na zabawę: dodanie hiperłącza! Pozwala to na linkowanie do pliku zewnętrznego, np. innego dokumentu Excela.
 ```csharp
@@ -74,7 +74,7 @@ Console.WriteLine("AddingLinkToExternalFile executed successfully.");
 ```
 Ten wiersz wyświetli komunikat potwierdzający powodzenie operacji na konsoli. To tak, jakby powiedzieć: „Wszystko gotowe! Zadanie wykonane!”
 ## Wniosek
-masz to! W zaledwie kilku krokach nauczyłeś się, jak dodawać hiperłącza do plików zewnętrznych w skoroszycie programu Excel przy użyciu Aspose.Cells dla .NET. Ta potężna funkcjonalność zwiększa adaptowalność arkuszy kalkulacyjnych i skutecznie łączy dane. Dzięki tej wiedzy możesz tworzyć bardziej interaktywne i przydatne dokumenty programu Excel, wspierając lepszą organizację i współpracę.
+I masz to! W zaledwie kilku krokach nauczyłeś się, jak dodawać hiperłącza do plików zewnętrznych w skoroszycie programu Excel przy użyciu Aspose.Cells dla .NET. Ta potężna funkcjonalność zwiększa adaptowalność arkuszy kalkulacyjnych i skutecznie łączy dane. Dzięki tej wiedzy możesz tworzyć bardziej interaktywne i przydatne dokumenty programu Excel, wspierając lepszą organizację i współpracę.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to biblioteka .NET służąca do programowego tworzenia i modyfikowania plików Excel.

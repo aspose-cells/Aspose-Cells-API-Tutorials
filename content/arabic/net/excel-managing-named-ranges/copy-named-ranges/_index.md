@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-سيمنحك هذا الكود إمكانية الوصول إلى الفصول الأساسية مثل`Workbook`, `Worksheet` ، و`Range`، والتي ستحتاجها للتعامل مع ملفات Excel.
+سيمنحك هذا الكود إمكانية الوصول إلى الفصول الأساسية مثل`Workbook`, `Worksheet`، و`Range`، والتي ستحتاجها للتعامل مع ملفات Excel.
 
 الآن بعد أن قمنا بترتيب المتطلبات الأساسية لدينا، دعونا نقوم بتقسيم العملية إلى خطوات سهلة المتابعة.
 ## الخطوة 1: إعداد دليل الإخراج الخاص بك
@@ -52,7 +52,7 @@ WorksheetCollection worksheets = workbook.Worksheets;
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-## الخطوة 5: إنشاء وتسمية النطاق الأول الخاص بك
+## الخطوة 5: إنشاء النطاق الأول وتسميته
 الآن، حان الوقت لإنشاء نطاق مسمى. يمكنك إنشاؤه عن طريق تحديد قسم من الخلايا في ورقة العمل.
 ```csharp
 Range range1 = worksheet.Cells.CreateRange("E12", "I12");

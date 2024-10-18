@@ -1,6 +1,6 @@
 ---
-title: Extraer archivo Mol incorporado
-linktitle: Extraer archivo Mol incorporado
+title: Extraer archivo Mol integrado
+linktitle: Extraer archivo Mol integrado
 second_title: Referencia de API de Aspose.Cells para .NET
 description: Aprenda a extraer fácilmente archivos MOL incrustados de un libro de Excel usando Aspose.Cells para .NET.
 type: docs
@@ -16,8 +16,8 @@ url: /es/net/excel-workbook/extract-embedded-mol-file/
 Antes de sumergirnos en el proceso de extracción, asegurémonos de que estés completamente equipado para seguir adelante. Esto es lo que necesitas:
 
 - Conocimientos básicos de C#: Un poco de familiaridad con C# será de gran ayuda. Incluso si recién estás empezando, deberías poder seguir el ritmo.
-- Visual Studio: tenga Visual Studio instalado en su sistema. Es necesario para escribir y ejecutar código C#.
--  Aspose.Cells para .NET: si aún no lo ha descargado, diríjase a la[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/net/) y obtenga la última versión.
+- Visual Studio: tenga Visual Studio instalado en su sistema. Es necesario para escribir y ejecutar su código C#.
+- Aspose.Cells para .NET: si aún no lo ha descargado, diríjase a la[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/net/) y obtenga la última versión.
 - .NET Framework: asegúrese de tener instalada una versión compatible de .NET Framework.
 -  Un archivo Excel con objetos MOL integrados: para nuestro ejemplo, utilizaremos`EmbeddedMolSample.xlsx`Asegúrese de tener este archivo listo para la extracción.
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Con este fragmento, usamos un`foreach` bucle para recorrer cada hoja de nuestro libro de trabajo. Al acceder a la`OleObjects`colección, podemos obtener acceso a todos los objetos incrustados en esa hoja en particular. 
+ Con este fragmento, usamos un`foreach` bucle para recorrer cada hoja de nuestro libro de trabajo. Al acceder a la`OleObjects` colección, podemos obtener acceso a todos los objetos incrustados en esa hoja en particular. 
 
 ## Paso 4: Extraer objetos OLE
 
@@ -121,7 +121,7 @@ Esta simple línea envía un mensaje a la consola cuando toda la operación de e
 
 ## Conclusión
 
-¡Y ya está! Ha extraído con éxito archivos MOL incrustados de un archivo Excel con Aspose.Cells para .NET. Ahora puede aplicar sus nuevas habilidades a otros escenarios en los que necesite extraer archivos de objetos de hojas de Excel. Este método no solo es eficaz, sino que también abre las puertas para manejar sin esfuerzo diversas operaciones relacionadas con Excel.
+¡Y ya está! Ha extraído con éxito archivos MOL incrustados de un archivo Excel con Aspose.Cells para .NET. Ahora puede aprovechar sus nuevas habilidades y aplicarlas a otros escenarios en los que necesite extraer archivos de objetos de hojas de Excel. Este método no solo es eficaz, sino que también abre las puertas para manejar sin esfuerzo diversas operaciones relacionadas con Excel.
 
 ## Preguntas frecuentes
 

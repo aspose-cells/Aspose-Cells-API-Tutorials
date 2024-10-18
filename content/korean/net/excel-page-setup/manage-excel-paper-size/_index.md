@@ -15,10 +15,10 @@ Excel 스프레드시트는 특히 비즈니스 및 교육 환경에서 데이�
 
 Excel 용지 크기 관리의 기술적 세부 사항을 살펴보기 전에 몇 가지 사항을 준비해야 합니다.
 
-1. C#에 대한 기본적인 이해: C# 프로그래밍에 익숙하면 Aspose.Cells를 프로젝트에 통합하는 과정이 상당히 수월해질 것입니다.
+1. C#에 대한 기본적인 이해: C# 프로그래밍에 익숙하다면 Aspose.Cells를 프로젝트에 통합하는 과정이 상당히 수월해질 것입니다.
 2. Visual Studio 설치: C# 코드를 작성하고 실행하려면 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요.
-3.  .NET 라이브러리용 Aspose.Cells: Aspose.Cells를 얻어야 합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
-4. NuGet 패키지 관리자: NuGet 패키지 관리자를 사용하면 Aspose.Cells를 쉽게 설치할 수 있으므로 이에 액세스할 수 있는지 확인하세요.
+3. .NET 라이브러리용 Aspose.Cells: Aspose.Cells를 얻어야 합니다.[여기서 다운로드하세요](https://releases.aspose.com/cells/net/).
+4. NuGet 패키지 관리자: NuGet 패키지 관리자를 사용하면 Aspose.Cells를 쉽게 설치할 수 있으므로 이를 액세스할 수 있는지 확인하세요.
 
 이러한 전제 조건을 염두에 두고 시작해 볼까요!
 
@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2단계: 통합 문서 개체 만들기
 
- 다음으로 인스턴스화합니다.`Workbook` 개체는 Excel 파일을 나타냅니다. 방법은 다음과 같습니다.
+ 다음으로 인스턴스화합니다.`Workbook` Excel 파일을 나타내는 개체입니다. 방법은 다음과 같습니다.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -119,4 +119,4 @@ Aspose.Cells for .NET을 사용하면 Excel 시트의 용지 크기를 손쉽게
 통합 문서 조작 중에 발생할 수 있는 예외를 처리하려면 try-catch 블록으로 코드를 묶을 수 있습니다.
 
 ### Aspose.Cells에 대한 추가 리소스와 지원은 어디에서 찾을 수 있나요?
- 자세한 내용은 다음에서 확인할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/cells/net/) 또는 방문하세요[지원 포럼](https://forum.aspose.com/c/cells/9).
+ 더 많은 정보는 다음에서 찾을 수 있습니다.[선적 서류 비치](https://reference.aspose.com/cells/net/) 또는 방문하세요[지원 포럼](https://forum.aspose.com/c/cells/9).

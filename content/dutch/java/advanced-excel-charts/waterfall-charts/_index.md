@@ -30,7 +30,7 @@ import com.aspose.cells.*;
 
 Eerst moet u de Aspose.Cells-bibliotheek importeren naar uw Java-project. Deze bibliotheek biedt uitgebreide functionaliteit voor het werken met Excel-bestanden, waaronder het maken van grafieken.
 
-## Stap 2: Initialiseer werkmap en werkblad
+## Stap 2: Werkmap en werkblad initialiseren
 
 ```java
 Workbook workbook = new Workbook();

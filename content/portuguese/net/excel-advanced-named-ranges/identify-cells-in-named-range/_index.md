@@ -1,7 +1,7 @@
 ---
 title: Identificar células em intervalo nomeado no Excel
 linktitle: Identificar células em intervalo nomeado no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Identifique facilmente células em um intervalo nomeado no Excel usando o Aspose.Cells para .NET com este tutorial passo a passo abrangente.
 type: docs
 weight: 10
@@ -37,7 +37,7 @@ O que acontece se você não tiver um intervalo nomeado predefinido? Bem, o cód
 
 Antes de começarmos a codificar, vamos garantir que temos todos os pacotes necessários importados. Veja como fazer isso:
 
-## Importar o namespace Aspose.Cells
+## Importe o namespace Aspose.Cells
 
 No início do seu arquivo C#, inclua a seguinte diretiva using:
 
@@ -96,7 +96,7 @@ Cada um desses métodos recupera detalhes específicos sobre o intervalo nomeado
 - `RowCount` indica quantas linhas fazem parte do intervalo nomeado.
 - `ColumnCount` mostra quantas colunas o intervalo nomeado tem.
 
-É como dar uma espiada dentro de uma caixa para ver quais itens ela contém e como eles estão organizados!
+É como espiar dentro de uma caixa para ver quais itens ela contém e como eles estão organizados!
 
 ## Etapa 5: Indique o sucesso
 

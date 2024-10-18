@@ -1,6 +1,6 @@
 ---
-title: Excel Veri Saklama ve Uyarı
-linktitle: Excel Veri Saklama ve Uyarı
+title: Excel Veri Koruma ve Uyarı
+linktitle: Excel Veri Koruma ve Uyarı
 second_title: Aspose.Cells .NET Excel İşleme API'si
 description: Hücrelerdeki tek tırnak işaretlerini koruma ve sıralama sırasında sıralama uyarıları belirtme gibi gelişmiş Excel veri koruma teknikleri için Aspose.Cells for .NET'i kullanmayı öğrenin.
 type: docs
@@ -13,7 +13,7 @@ url: /tr/net/excel-data-preservation-warning/
 
 ## Excel'de Hücre Değeri veya Aralığının Tek Tırnak Önekini Koru
 
-Excel'de hiç gitmeyen o sinir bozucu tek tırnak işaretleriyle karşılaştınız mı? Belki de bazı içe aktarılmış verilerle çalışıyorsunuz ve her seferinde bunları değiştirmeye çalıştığınızda, bu tırnak işaretleri yolunuza çıkıyor. Peki, tahmin edin ne oldu? .NET için Aspose.Cells, bu tek tırnak işaretlerini kolayca korumanıza veya kaldırmanıza olanak tanır.
+Excel'de hiç gitmeyen o sinir bozucu tek tırnak işaretleriyle karşılaştınız mı? Belki de içe aktarılan verilerle çalışıyorsunuz ve her seferinde bunları değiştirmeye çalıştığınızda, bu tırnak işaretleri yolunuza çıkıyor. Peki, tahmin edin ne oldu? .NET için Aspose.Cells, bu tek tırnak işaretlerini kolayca korumanıza veya kaldırmanıza olanak tanır.
 
 Bu eğitimde, Excel hücrelerinde tek tırnak öneklerini nasıl kullanacağınızı öğreneceksiniz. Belirli biçimlendirme için bunları olduğu gibi tutmanız veya veri işlemeyi basitleştirmek için kaldırmanız gerekip gerekmediğine bakılmaksızın, bu kılavuz Aspose.Cells kullanarak işi nasıl yapacağınızı gösterecektir.
 

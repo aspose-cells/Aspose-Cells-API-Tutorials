@@ -10,7 +10,7 @@ url: /tr/java/data-validation-rules/list-data-validation-in-excel/
 
 ## Excel'de Liste Veri Doğrulamasına Giriş
 
-Günümüzün dijital çağında, veri doğrulaması Excel elektronik tablolarında depolanan bilgilerin doğruluğunu ve bütünlüğünü sağlamada önemli bir rol oynar. İster finansal verileri yönetiyor, ister envanteri takip ediyor veya anket yanıtlarını topluyor olun, hataları ve tutarsızlıkları önlemek için girdiyi doğrulamak önemlidir. Java için Aspose.Cells, Excel'de veri doğrulamasını uygulamak için güçlü bir çözüm sunarak yapılandırılmış ve doğrulanmış verilerle Excel dosyalarını zahmetsizce oluşturmanıza olanak tanır.
+Günümüzün dijital çağında, veri doğrulaması Excel elektronik tablolarında depolanan bilgilerin doğruluğunu ve bütünlüğünü sağlamada önemli bir rol oynar. İster finansal verileri yönetiyor, ister envanteri takip ediyor veya anket yanıtlarını topluyor olun, hataları ve tutarsızlıkları önlemek için girdiyi doğrulamak önemlidir. Java için Aspose.Cells, Excel'de veri doğrulamasını uygulamak için güçlü bir çözüm sunarak yapılandırılmış ve doğrulanmış verilerle Excel dosyaları oluşturmanıza olanak tanır.
 
 ## Veri Doğrulamasını Anlamak
 
@@ -111,7 +111,7 @@ Veri doğrulama, Excel elektronik tablo yönetiminin temel bir yönüdür ve ver
 
 ### Java için Aspose.Cells'i nasıl yüklerim?
 
-Aspose.Cells for Java'yı yüklemek basittir. Kütüphaneyi Aspose web sitesinden indirebilir ve belgelerde verilen kurulum talimatlarını takip edebilirsiniz.
+Java için Aspose.Cells'i yüklemek basittir. Kütüphaneyi Aspose web sitesinden indirebilir ve belgelerde verilen kurulum talimatlarını takip edebilirsiniz.
 
 ### Birden fazla hücreye aynı anda veri doğrulaması uygulayabilir miyim?
 

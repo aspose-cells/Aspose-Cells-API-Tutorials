@@ -16,7 +16,7 @@ url: /zh/java/advanced-excel-charts/chart-interactivity/
 
 在开始之前，请确保您满足以下先决条件：
 - Java 开发环境
-- Aspose.Cells for Java 库（下载自[这里](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells for Java 库（下载自[这里](https://releases.aspose.com/cells/java/)
 
 ## 步骤 1：设置 Java 项目
 
@@ -96,7 +96,7 @@ workbook.save("interactive_chart_output.xlsx");
 
 ### 如何处理 Web 应用程序中的用户交互？
 
-为了处理用户交互，您可以将 JavaScript 与 Web 应用程序结合使用来捕获由图表交互（如点击或悬停操作）触发的事件。
+为了处理用户交互，您可以将 JavaScript 与 Web 应用程序结合使用来捕获由图表交互触发的事件，例如点击或悬停操作。
 
 ### 在哪里可以找到更多示例和文档？
 

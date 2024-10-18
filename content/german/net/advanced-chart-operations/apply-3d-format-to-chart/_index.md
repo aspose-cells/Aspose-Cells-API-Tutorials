@@ -61,7 +61,7 @@ Workbook book = new Workbook();
 
 ## Schritt 2: Benennen Sie das erste Arbeitsblatt um
 
-Als nächstes benennen wir das erste Arbeitsblatt um. Dies schafft Klarheit darüber, mit welchen Daten wir arbeiten.
+Als nächstes benennen wir das erste Arbeitsblatt um. Dadurch wird klarer, mit welchen Daten wir arbeiten.
 
 ```csharp
 book.Worksheets[0].Name = "DataSheet";
@@ -83,7 +83,7 @@ dataSheet.Cells["A2"].PutValue("B");
 dataSheet.Cells["A3"].PutValue("C");
 ```
 
-So wie ein Rezept von seinen Zutaten abhängt, ist die Wirksamkeit Ihres Diagramms von der Qualität und Organisation Ihrer Eingabedaten abhängig.
+So wie ein Rezept von seinen Zutaten abhängt, beruht die Wirksamkeit Ihres Diagramms auf der Qualität und Organisation Ihrer Eingabedaten.
 
 ## Schritt 4: Einrichten eines neuen Diagramm-Arbeitsblatts
 
@@ -167,7 +167,7 @@ fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
 fmt3d.LightingAngle = 20;
 ```
 
-Mit der richtigen Beleuchtung und den richtigen Materialien kann aus einem flachen Objekt ein fesselndes Bild werden. Denken Sie an ein Filmset, das professionell ausgeleuchtet ist, um jede Szene hervorzuheben.
+Mit der richtigen Beleuchtung und den richtigen Materialien kann ein flaches Objekt in ein fesselndes Bild verwandelt werden. Denken Sie an ein Filmset, das professionell ausgeleuchtet ist, um jede Szene hervorzuheben.
 
 ## Schritt 11: Letzter Schliff am Serienauftritt
 
@@ -194,7 +194,7 @@ Das Speichern Ihrer Arbeit ist, als würden Sie Ihre Kunst in eine Galerie stell
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben mit Aspose.Cells für .NET erfolgreich ein optisch ansprechendes 3D-Diagramm erstellt. Wenn Sie diese Schritte befolgen, verfügen Sie nun über ein leistungsstarkes Tool zur Verbesserung Ihrer Datenpräsentationen, sodass diese nicht nur informativ, sondern auch optisch ansprechend sind. Denken Sie beim Verfeinern Ihrer Diagramme daran, dass jede Visualisierung eine Geschichte ist – machen Sie sie ansprechend, klar und wirkungsvoll!
+Herzlichen Glückwunsch! Sie haben mit Aspose.Cells für .NET erfolgreich ein optisch ansprechendes 3D-Diagramm erstellt. Wenn Sie diese Schritte befolgen, verfügen Sie nun über ein leistungsstarkes Tool, mit dem Sie Ihre Datenpräsentationen verbessern und sie nicht nur informativ, sondern auch optisch ansprechend gestalten können. Denken Sie beim Verfeinern Ihrer Diagramme daran, dass jede Visualisierung eine Geschichte ist – machen Sie sie ansprechend, klar und wirkungsvoll!
 
 ## Häufig gestellte Fragen
 

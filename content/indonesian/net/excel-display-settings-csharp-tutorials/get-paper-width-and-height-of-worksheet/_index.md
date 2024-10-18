@@ -13,7 +13,7 @@ Pernahkah Anda mencoba mencetak lembar Excel dan berhadapan dengan dimensi yang 
 
 ## Prasyarat 
 
-Sebelum kita masuk ke keajaiban pengkodean, mari kumpulkan apa yang Anda butuhkan untuk memulai:
+Sebelum kita masuk ke keajaiban coding, mari kumpulkan apa saja yang Anda butuhkan untuk memulai:
 
 1. Pemahaman Dasar tentang C#: Anda harus memiliki pemahaman dasar tentang C#. Jika Anda baru dalam pemrograman, jangan khawatir! Kami akan menjelaskannya secara sederhana.
 2.  Pustaka Aspose.Cells: Pastikan Anda telah menginstal pustaka Aspose.Cells untuk .NET di komputer Anda. Anda dapat mengunduhnya dari[tautan ini](https://releases.aspose.com/cells/net/).

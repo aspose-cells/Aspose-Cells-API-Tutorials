@@ -13,7 +13,7 @@ Kapsamlı Aspose.Cells for .NET Eğitimleri koleksiyonumuzu keşfedin! İster ye
 
 ## Excel Güvenliğinizi Artırın 
 
- Excel verilerinizi güvence altına almaya gelince, .NET için Aspose.Cells kullanmak, çalışma sayfalarınızın performansını özelleştirmenize olanak tanıyan bir araç takımına sahip olmak gibidir. Örneğin, şu öğreticiyi ele alalım:[Excel Çalışma Sayfası İçin Gelişmiş Koruma Ayarları](./advanced-protection-settings-for-excel-worksheet/)Bu kılavuz, karmaşık koruma önlemlerini uygulama konusunda size yol gösterir. Değerli eşyalarınızı güvende tutmaya çalıştığınızı düşünün; sadece dayanıksız bir kilit kullanmazsınız. Bunun yerine, yüksek güvenlikli bir sistem seçersiniz! Benzer şekilde, bu eğitim size Aspose ile birlikte gelen sağlam özellikleri öğreterek verilerinizi etkili bir şekilde korumanıza olanak tanır.
+ Excel verilerinizi güvence altına almaya gelince, Aspose.Cells for .NET kullanmak, çalışma sayfalarınızın performansını özelleştirmenize olanak tanıyan bir araç takımına sahip olmak gibidir. Örneğin, şu öğreticiyi ele alalım:[Excel Çalışma Sayfası İçin Gelişmiş Koruma Ayarları](./advanced-protection-settings-for-excel-worksheet/)Bu kılavuz, karmaşık koruma önlemlerini uygulama konusunda size yol gösterir. Değerli eşyalarınızı güvende tutmaya çalıştığınızı düşünün; sadece dayanıksız bir kilit kullanmazsınız. Bunun yerine, yüksek güvenlikli bir sistem seçersiniz! Benzer şekilde, bu eğitim size Aspose ile birlikte gelen sağlam özellikleri öğreterek verilerinizi etkili bir şekilde korumanıza olanak tanır.
 
 ## Kilitli Hücreler Kolaylaştırıldı  
 
@@ -21,7 +21,7 @@ Kapsamlı Aspose.Cells for .NET Eğitimleri koleksiyonumuzu keşfedin! İster ye
 
 ## Kişisel Bir Dokunuşla Yazma Koruması  
 
-Çalışma kitabınız hassas bilgiler içeriyor olabilir ve onu yazmaya karşı korumak istemeniz gayet makul. Ama neden kişisel bir dokunuş katmıyorsunuz? Nasıl yapılacağına dair eğitimimiz[Excel Çalışma Kitabını Korurken Yazarı Belirleyin](./specify-author-while-write-protecting-excel-workbook/) yazma koruması uygularken çalışma kitabınızı bir yazar adı içerecek şekilde yapılandırmanızda size rehberlik edecektir. Bunu, sanat eserinizi sergilemeden önce imzalamak gibi düşünün; sahipliğinizin açık olduğundan emin olmak istersiniz. Bu kılavuz, çalışma kitabınızın yalnızca güvenli olmasını değil, aynı zamanda yaratıcı olarak kimliğinizi yansıtmasını da sağlar!
+Çalışma kitabınız hassas bilgiler içeriyor olabilir ve onu yazmaya karşı korumak istemeniz gayet makul. Ama neden kişisel bir dokunuş katmıyorsunuz? Nasıl yapılacağına dair eğitimimiz[Excel Çalışma Kitabını Korurken Yazarı Belirleyin](./specify-author-while-write-protecting-excel-workbook/) yazma koruması uygularken bir yazar adı eklemek için çalışma kitabınızı yapılandırmanızda size rehberlik edecektir. Bunu, sanat eserinizi sergilemeden önce imzalamak gibi düşünün; sahipliğinizin açık olduğundan emin olmak istersiniz. Bu kılavuz, çalışma kitabınızın yalnızca güvenli olmasını değil, aynı zamanda yaratıcı olarak kimliğinizi yansıtmasını da sağlar!
 
 ## Çözüm 
 

@@ -9,7 +9,7 @@ url: /ko/net/setting-chart-appearance/apply-themes-in-chart/
 ---
 ## 소개
 
-Excel에서 시각적으로 매력적인 차트를 만드는 것은 데이터를 효과적으로 전달하는 데 필수적입니다. 테마를 적용하면 차트의 미적 요소를 강화하여 정보를 접근하기 쉽게 만들 뿐만 아니라 매력적으로 만들 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 테마를 적용하는 방법을 살펴보겠습니다. 좋아하는 간식을 먹고 차트의 창의적인 세계로 뛰어드세요!
+Excel에서 시각적으로 매력적인 차트를 만드는 것은 데이터를 효과적으로 전달하는 데 필수적입니다. 테마를 적용하면 차트의 미적 요소를 강화하여 정보를 접근하기 쉽게 만들 뿐만 아니라 매력적으로 만들 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 테마를 적용하는 방법을 살펴보겠습니다. 좋아하는 간식을 들고 차트의 창의적인 세계로 뛰어드세요!
 
 ## 필수 조건
 
@@ -20,7 +20,7 @@ Excel에서 시각적으로 매력적인 차트를 만드는 것은 데이터를
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. .NET 애플리케이션을 개발하기에 친화적인 환경을 제공합니다.
 2. .NET Framework 또는 .NET Core: 기본 설정에 따라 코드에 따라 .NET Framework나 .NET Core를 설정해야 합니다.
 3.  Aspose.Cells for .NET: 놓치지 마세요! Aspose.Cells for .NET을 다운로드하여 시작하세요. DLL을 찾을 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
-4. C#에 대한 기본 지식: 코드를 단계별로 안내해 드리지만, C#에 대한 기본적인 지식이 있으면 분명 도움이 될 것입니다.
+4. C#에 대한 기본 지식: 코드를 단계별로 안내해드리겠지만, C#에 대한 기본적인 지식이 있으면 분명 도움이 될 것입니다.
 
 ## 패키지 가져오기
 
@@ -38,7 +38,7 @@ using Aspose.Cells.Charts;
 
 ## 1단계: 출력 및 소스 디렉토리 설정
 
-우리가 해야 할 첫 번째 일은 출력 디렉토리와 소스 디렉토리를 설정하는 것입니다. 여기서 Excel 파일을 로드하고 수정된 파일을 저장할 곳입니다.
+가장 먼저 해야 할 일은 출력 디렉토리와 소스 디렉토리를 설정하는 것입니다. 여기서 Excel 파일을 로드하고 수정된 파일을 저장할 곳입니다.
 
 ```csharp
 // 출력 디렉토리
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- 확인하다`sampleApplyingThemesInChart.xlsx` 소스 디렉토리에 존재합니다.
+ 확인한다`sampleApplyingThemesInChart.xlsx`소스 디렉토리에 존재합니다.
 
 ## 3단계: 워크시트에 액세스
 
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 워크시트를 손에 들고 이제 스타일을 지정하려는 차트에 접근할 수 있습니다.
 
 ```csharp
-//시트의 첫 번째 차트를 가져옵니다
+// 시트의 첫 번째 차트를 가져옵니다
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 ## 6단계: 색상 구성
 
- 이제 시리즈가 준비되었으므로 색상을 수정해야 합니다. 여기에는 다음을 만드는 것이 포함됩니다.`CellsColor` 객체와 테마 색상을 지정합니다. 이 예제에서는 악센트 스타일을 선택합니다.
+ 이제 시리즈가 준비되었으므로 색상을 수정해야 합니다. 여기에는 다음을 만드는 것이 포함됩니다.`CellsColor`객체와 테마 색상을 지정합니다. 이 예제에서는 악센트 스타일을 선택합니다.
 
 ```csharp
 // SolidFill의 CellsColor를 가져옵니다
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Accent 스타일로 테마 만들기
+// Accent 스타일로 테마 만들기
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -126,7 +126,7 @@ chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 모든 힘든 작업을 마친 후에는 새로운 Excel 파일에 변경 사항을 저장해야 합니다.
 
 ```csharp
-// Excel 파일을 저장합니다
+// Excel 파일을 저장하세요
 workbook.Save(outputDir + "outputApplyingThemesInChart.xlsx");
 ```
 

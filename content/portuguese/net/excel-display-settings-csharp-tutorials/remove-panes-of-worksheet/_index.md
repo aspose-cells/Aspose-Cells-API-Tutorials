@@ -37,7 +37,7 @@ Agora vem a parte emocionante: escrever nosso código para remover os painéis d
 
 ## Etapa 1: configure seu diretório
 
-Cabeçalho: Especificar diretório do documento
+Cabeçalho: Especificar diretório de documentos
 
 primeira coisa que precisamos fazer é especificar o diretório onde nossos documentos estão armazenados. Isso é crucial porque precisamos saber onde nosso arquivo de entrada está localizado e onde o arquivo de saída deve ser salvo. Veja como é feito:
 
@@ -52,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Título: Criar uma instância de pasta de trabalho
 
- Em seguida, criaremos uma nova instância do`Workbook` class. Esta classe representa um arquivo Excel, permitindo que interajamos com ele suavemente. Abriremos uma planilha existente (nosso arquivo de modelo) aqui:
+ Em seguida, criaremos uma nova instância do`Workbook` classe. Esta classe representa um arquivo Excel, permitindo-nos interagir com ele suavemente. Abriremos uma planilha existente (nosso arquivo de modelo) aqui:
 
 ```csharp
 // Instanciar uma nova pasta de trabalho e abrir um arquivo de modelo

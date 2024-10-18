@@ -2,7 +2,7 @@
 title: Tutoriel sur la fonction RECHERCHEV dans Excel
 linktitle: Tutoriel sur la fonction RECHERCHEV dans Excel
 second_title: API de traitement Java Excel Aspose.Cells
-description: Libérez la puissance de RECHERCHEV Excel avec Aspose.Cells pour Java - Votre guide ultime pour une récupération de données sans effort.
+description: Libérez la puissance de la fonction RECHERCHEV d'Excel avec Aspose.Cells pour Java - Votre guide ultime pour une récupération de données sans effort.
 type: docs
 weight: 12
 url: /fr/java/basic-excel-functions/excel-vlookup-tutorial/

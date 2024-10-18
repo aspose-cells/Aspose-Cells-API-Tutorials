@@ -16,7 +16,7 @@ Pokud jde o programové zpracování souborů aplikace Excel, Aspose.Cells for .
 Než se ponoříme do praktických kroků, je třeba splnit několik předpokladů:
 
 1. Nainstalované Visual Studio: Ujistěte se, že máte na svém počítači nastavené Visual Studio, protože v tomto prostředí budeme psát náš kód.
-2.  Aspose.Cells for .NET Library: Získejte kopii knihovny Aspose.Cells. Můžete si jej stáhnout z[Stránka Aspose Releases](https://releases.aspose.com/cells/net/) . Pokud si nejste jisti, můžete začít s[zkušební verze zdarma](https://releases.aspose.com/).
+2.  Aspose.Cells for .NET Library: Získejte kopii knihovny Aspose.Cells. Můžete si jej stáhnout z[Stránka Aspose Releases](https://releases.aspose.com/cells/net/) . Pokud si nejste jisti, můžete začít s a[zkušební verze zdarma](https://releases.aspose.com/).
 3. Základní znalost C#: Základní znalost programování v C# bude prospěšná, zvláště pokud jste v práci s knihovnami nováčky.
 4. .NET Framework: Ujistěte se, že váš projekt cílí na kompatibilní verzi rozhraní .NET Framework pro knihovnu.
 
@@ -58,14 +58,14 @@ Nejprve musíte určit, kam chcete uložit výstupní soubor aplikace Excel. Na 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ujistěte se, že vyměňujete`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači, kam chcete soubor Excel uložit.
+Ujistěte se, že vyměňujete`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači, kam chcete soubor Excel uložit.
 
 ## Krok 2: Vytvořte nový objekt sešitu
 
 Nyní je čas vytvořit nový sešit. Zde budou v podstatě všechna vaše data a nastavení.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Soubory aplikace Excel mohou obsahovat více listů. Otevřeme první pracovní list, kde použijeme náš škálovací faktor.
 
 ```csharp
-//Přístup k prvnímu listu v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -122,7 +122,7 @@ Ano! Aspose.Cells lze použít v desktopových i webových aplikacích, pokud js
  Absolutně! Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
 
 ### Kde najdu dokumentaci pro Aspose.Cells?  
-Dokumentaci lze nalézt[zde](https://reference.aspose.com/cells/net/).
+ Dokumentaci lze nalézt[zde](https://reference.aspose.com/cells/net/).
 
 ### Jak mohu získat technickou podporu pro Aspose.Cells?  
  Můžete se obrátit na pomoc prostřednictvím[Aspose fórum](https://forum.aspose.com/c/cells/9).

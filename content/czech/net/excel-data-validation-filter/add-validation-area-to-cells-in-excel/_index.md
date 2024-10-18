@@ -31,7 +31,7 @@ using System;
 
 Tato řada je nezbytná, protože vám poskytuje přístup k rozsáhlým funkcím zabudovaným v knihovně Aspose.Cells, což zajišťuje bezproblémovou manipulaci a interakci se soubory aplikace Excel.
 
-Dobře, vyhrňme si rukávy a vrhněme se na podstatu věci – přidání oblasti ověření do našich buněk Excelu. Postupně si to rozebereme, aby to bylo co nejstravitelnější. Jste připraveni? Jdeme!
+Dobře, vyhrňme si rukávy a vrhněme se na podstatu věci – přidání oblasti ověření do našich buněk Excelu. Postupně si to rozebereme, aby to bylo co nejstravitelnější. Jste připraveni? Jdeme na to!
 
 ## Krok 1: Nastavte svůj sešit
 
@@ -46,7 +46,7 @@ Workbook workbook = new Workbook(SourceDir + "ValidationsSample.xlsx");
 
 V tomto kroku otevíráte existující soubor aplikace Excel. Ujistěte se, že cesta k vašemu souboru je správná. Pokud je vše nastaveno, budete mít objekt sešitu obsahující data ze zadaného souboru aplikace Excel.
 
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 
 Nyní, když máme náš sešit, je čas otevřít konkrétní list, do kterého chceme přidat ověření:
 

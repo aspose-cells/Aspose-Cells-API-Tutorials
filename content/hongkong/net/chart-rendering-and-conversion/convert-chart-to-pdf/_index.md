@@ -149,7 +149,7 @@ Console.WriteLine("ChartToPdf executed successfully.");
 
 ## 結論
 
-現在你就擁有了！透過利用 Aspose.Cells for .NET，將 Excel 圖表轉換為 PDF 格式變得輕而易舉。無論您選擇儲存到檔案還是記憶體流，該程式庫都保證了靈活性和易用性。那麼，為什麼不嘗試呢？使用專業格式的 PDF 圖表，您的報告看起來會更加清晰！
+現在你就得到它了！透過利用 Aspose.Cells for .NET，將 Excel 圖表轉換為 PDF 格式變得輕而易舉。無論您選擇儲存到檔案還是記憶體流，該程式庫都保證了靈活性和易用性。那麼，為什麼不嘗試呢？使用專業格式的 PDF 圖表，您的報告看起來會更加清晰！
 
 ## 常見問題解答
 

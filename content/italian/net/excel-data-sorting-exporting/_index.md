@@ -21,10 +21,10 @@ Ordinare i dati può sembrare un gioco da ragazzi, ma quando aggiungi un elenco 
 
 Ora, passiamo all'esportazione di valori di stringa HTML. Diciamo che hai creato una tabella sbalorditiva in Excel con formattazione HTML avanzata e ora vuoi utilizzare quei dati in un'applicazione Web. Come ci riesci? È qui che entra in gioco il nostro secondo tutorial. 
 
- Con il[Tutorial per esportare il valore stringa HTML delle celle in DataTable in Excel](./export-html-string-value-of-cells-to-datatable-in-excel/), imparerai a estrarre quelle celle splendidamente formattate e a convertirle in un DataTable usando Aspose.Cells per .NET. È come trasferire una deliziosa ricetta da un vecchio libro impolverato alla tua app di cucina digitale preferita: comodo ed efficiente!
+ Con il[Tutorial su come esportare il valore stringa HTML delle celle in DataTable in Excel](./export-html-string-value-of-cells-to-datatable-in-excel/), imparerai a estrarre quelle celle splendidamente formattate e a convertirle in un DataTable usando Aspose.Cells per .NET. È come trasferire una deliziosa ricetta da un vecchio libro impolverato alla tua app di cucina digitale preferita: comodo ed efficiente!
 
 ## Tutorial sull'ordinamento e l'esportazione dei dati in Excel
 ### [Ordinare i dati in una colonna con l'elenco di ordinamento personalizzato in Excel](./sort-data-in-a-column-with-custom-sort-list-in-excel/)
-Scopri come ordinare i dati in Excel utilizzando un elenco di ordinamento personalizzato con Aspose.Cells per .NET in questo tutorial completo.
+In questo tutorial completo scoprirai come ordinare i dati in Excel utilizzando un elenco di ordinamento personalizzato con Aspose.Cells per .NET.
 ### [Esportare il valore stringa HTML delle celle in DataTable in Excel](./export-html-string-value-of-cells-to-datatable-in-excel/)
 Scopri come esportare valori stringa HTML da celle di Excel in una DataTable utilizzando Aspose.Cells per .NET in un semplice tutorial passo dopo passo.

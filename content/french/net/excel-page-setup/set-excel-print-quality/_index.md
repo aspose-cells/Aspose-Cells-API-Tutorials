@@ -77,7 +77,7 @@ C'est ici que la magie opère ! Nous pouvons définir la qualité d'impression 
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Explication : Le`PrintQuality` La propriété peut être définie sur n'importe quelle valeur, généralement entre 75 et 600 dpi (points par pouce). Dans ce cas, nous la définissons sur 180 dpi, ce qui est idéal pour un bon équilibre entre qualité et taille de fichier.
+Explication : Le`PrintQuality` La propriété peut être définie sur n'importe quelle valeur, généralement entre 75 et 600 dpi (points par pouce). Dans ce cas, nous la définissons sur 180 dpi, ce qui est idéal pour un bon équilibre entre qualité et taille de fichier.
 
 ## Étape 5 : Enregistrer le classeur
 
@@ -91,7 +91,7 @@ workbook.Save(dataDir + "SetPrintQuality_out.xls");
 
 ## Conclusion
 
-Le réglage de la qualité d'impression dans un fichier Excel à l'aide d'Aspose.Cells pour .NET est simple comme bonjour ! Que vous prépariez des rapports de haute qualité ou que vous assuriez simplement la lisibilité, le contrôle de la qualité d'impression garantit que vos feuilles de calcul s'affichent de manière optimale une fois imprimées. En suivant ce guide, vous disposez désormais des connaissances nécessaires pour ajuster les paramètres d'impression en toute transparence.
+Le réglage de la qualité d'impression dans un fichier Excel à l'aide d'Aspose.Cells pour .NET est simple comme bonjour ! Que vous prépariez des rapports de haute qualité ou que vous assuriez simplement la lisibilité, le contrôle de la qualité d'impression garantit que vos feuilles de calcul s'affichent de manière optimale une fois imprimées. En suivant ce guide, vous disposez désormais des connaissances nécessaires pour ajuster les paramètres d'impression en toute transparence.
 
 ## FAQ
 

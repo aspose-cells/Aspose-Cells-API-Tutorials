@@ -55,7 +55,7 @@ Với các điều kiện tiên quyết đã thiết lập và các gói đã đ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với con đường thực tế nơi bạn`book1.xls`tập tin nằm tại đó. Hãy nghĩ về điều này như việc cung cấp cho GPS của bạn địa chỉ chính xác trước khi bắt đầu chuyến đi đường dài!
+ Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với con đường thực tế nơi bạn`book1.xls` tập tin nằm tại đó. Hãy nghĩ về điều này như việc cung cấp cho GPS của bạn địa chỉ chính xác trước khi bắt đầu chuyến đi đường dài!
 
 ## Bước 4: Mở tệp Excel bằng FileStream
 
@@ -95,7 +95,7 @@ Sau khi xóa bảng tính, bạn phải lưu các thay đổi của mình. Đây
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Bạn có thể chọn lưu nó với tên mới bằng cách thay đổi`"output.out.xls"` thành bất cứ thứ gì bạn muốn. Hãy tưởng tượng việc nhấn nút 'Lưu' trên một tài liệu Word — bạn muốn giữ lại các sửa đổi của mình.
+Bạn có thể chọn lưu nó với tên mới bằng cách thay đổi`"output.out.xls"` thành bất cứ thứ gì bạn muốn. Hãy tưởng tượng việc nhấn nút 'Lưu' trên một tài liệu Word — bạn muốn giữ lại các sửa đổi của mình.
 
 ## Bước 8: Đóng luồng tập tin
 
@@ -117,7 +117,7 @@ Và bạn đã có nó! Bạn đã học thành công cách xóa một bảng t�
 Aspose.Cells là một thư viện .NET cung cấp cho các nhà phát triển khả năng mở rộng để thao tác các tệp Excel. Từ việc tạo và chỉnh sửa đến chuyển đổi các tệp Excel, đây là một công cụ mạnh mẽ!
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Có, Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/). Bạn có thể khám phá các tính năng trước khi mua.
+ Có, Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/)Bạn có thể khám phá các tính năng trước khi mua.
 
 ### Tôi có thể xóa nhiều trang tính cùng lúc không?
 Có, bạn có thể lặp qua các trang tính và xóa chúng bằng cách sử dụng các chỉ mục tương ứng. Chỉ cần nhớ điều chỉnh chỉ mục cho phù hợp khi bạn xóa các trang tính.

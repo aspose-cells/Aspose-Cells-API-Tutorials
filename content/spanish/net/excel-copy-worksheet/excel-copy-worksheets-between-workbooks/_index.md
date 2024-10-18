@@ -15,7 +15,7 @@ url: /es/net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 
 Antes de sumergirnos en el código, asegurémonos de que esté equipado con las herramientas adecuadas para comenzar:
 
--  Aspose.Cells para .NET: Puedes descargarlo[aquí](https://releases.aspose.com/cells/net/).
+- Aspose.Cells para .NET: Puedes descargarlo[aquí](https://releases.aspose.com/cells/net/).
 - Visual Studio o cualquier IDE que admita .NET Framework.
 -  Una licencia válida o una[licencia temporal](https://purchase.aspose.com/temporary-license/) si desea probar la funcionalidad completa de Aspose.Cells.
 - Un conocimiento básico de C# y el marco .NET.
@@ -59,12 +59,12 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 
  Aquí estás cargando`book1.xls` (asegúrese de que el archivo exista en su directorio) en uno nuevo`Workbook` objeto llamado`excelWorkbook0`Este es el libro de trabajo de origen que contiene la hoja de trabajo que vas a copiar.
 
-## Paso 3: Crea un segundo libro de trabajo
+## Paso 3: Crear un segundo libro de trabajo
 
 Ahora que tienes abierto el primer libro de trabajo, es momento de crear otro libro de trabajo vacío donde pegarás la hoja de trabajo copiada. Piensa en esto como si estuvieras abriendo un nuevo cuaderno en blanco donde transferirás los datos.
 
 ```csharp
-// Crear otro libro de trabajo.
+//Crear otro libro de trabajo.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -72,7 +72,7 @@ Workbook excelWorkbook1 = new Workbook();
 
 ## Paso 4: Copiar la hoja de trabajo
 
-¡Y aquí viene la magia! En este paso, copiarás la hoja de cálculo del primer libro de trabajo al segundo. Es como transferir una nota de un cuaderno a otro.
+¡Y aquí viene la magia! En este paso, copiarás la hoja de trabajo del primer libro de trabajo al segundo. Es como transferir una nota de un cuaderno a otro.
 
 ```csharp
 // Copia la primera hoja del primer libro en el segundo libro.
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Por último, guardará el segundo libro de trabajo con la hoja de trabajo copiada. Esto es como guardar las notas recién escritas en una carpeta nueva en su computadora.
 
 ```csharp
-//Guarde el archivo.
+// Guarde el archivo.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
@@ -102,7 +102,7 @@ Recuerda que la codificación se vuelve más sencilla cuando la divides en pasos
 
 ### ¿Puedo copiar varias hojas de trabajo a la vez?
 
- Sí, puede recorrer las hojas de cálculo del libro de origen y copiarlas al libro de destino. Cada hoja de cálculo tiene su propia`Copy` método.
+ Sí, puede recorrer las hojas de trabajo del libro de origen y copiarlas al libro de destino. Cada hoja de trabajo tiene su propia`Copy` método.
 
 ### ¿Puedo copiar una hoja de cálculo a un libro que ya tiene datos?
 
@@ -118,4 +118,4 @@ Recuerda que la codificación se vuelve más sencilla cuando la divides en pasos
 
 ### ¿Cómo copio una hoja de trabajo a una posición específica en el nuevo libro de trabajo?
 
- Puede especificar el índice donde se debe colocar la hoja de cálculo copiada utilizando el`Worksheets.AddCopy` método, permitiendo un mayor control sobre dónde va la hoja.
+ Puede especificar el índice donde se debe colocar la hoja de cálculo copiada utilizando el`Worksheets.AddCopy` método, lo que permite un mayor control sobre dónde va la hoja.

@@ -103,7 +103,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
 説明: これにより、チャートのインスタンスを制御し、さらにカスタマイズしてスタイルを設定できるようになります。
 
-## ステップ7: グラフにデータ系列を追加する
+## ステップ 7: グラフにデータ系列を追加する
 
 グラフのデータ シリーズを追加しましょう。
 
@@ -128,7 +128,7 @@ chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 //第1シリーズコレクションエリアの前景色の設定
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 
-//第1シリーズコレクションポイントの領域のフォアグラウンドカラーの設定
+//第1シリーズコレクションポイントの領域の前景色の設定
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 
 //2番目のシリーズコレクションの領域をグラデーションで塗りつぶす

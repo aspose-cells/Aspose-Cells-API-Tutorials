@@ -32,7 +32,7 @@ Maskowanie danych jest niezbędne z różnych powodów:
 
 - Bezpieczeństwo: Pomaga zapobiegać nieautoryzowanemu dostępowi do poufnych danych, zmniejszając ryzyko naruszenia bezpieczeństwa danych.
 - Zgodność: Wiele przepisów, takich jak RODO i HIPAA, wymaga ochrony danych osobowych i poufnych.
-- Testowanie i rozwój: Zamaskowane dane pozwalają programistom i testerom pracować na realistycznych zestawach danych bez narażania bezpieczeństwa.
+- Testowanie i rozwój: Dzięki maskowanym danym programiści i testerzy mogą pracować na realistycznych zestawach danych bez narażania bezpieczeństwa.
 
 ## Pierwsze kroki z Aspose.Cells dla Java
 

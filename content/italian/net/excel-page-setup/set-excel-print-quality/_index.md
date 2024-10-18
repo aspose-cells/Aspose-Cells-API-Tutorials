@@ -16,7 +16,7 @@ Quando si tratta di generare e manipolare file Excel, avere il controllo sulle i
 Prima di addentrarci nei dettagli della codifica, assicuriamoci che tu sia pronto per usare Aspose.Cells. Ecco cosa ti serve:
 
 1. Conoscenza di base di C#: la familiarità con il linguaggio di programmazione C# è essenziale poiché scriveremo il nostro codice in questo linguaggio.
-2. Visual Studio installato: per scrivere il codice C# avrai bisogno di un IDE. Visual Studio è vivamente consigliato per le sue funzionalità affidabili e la sua semplicità d'uso.
+2. Visual Studio installato: per scrivere il codice C# avrai bisogno di un IDE. Visual Studio è altamente consigliato per le sue funzionalità affidabili e la sua semplicità d'uso.
 3. Aspose.Cells per .NET: assicurati di avere la libreria Aspose.Cells. Puoi scaricarla facilmente[Qui](https://releases.aspose.com/cells/net/).
 4. .NET Framework: assicurati di avere installato .NET Framework sul tuo computer, compatibile con Aspose.Cells.
 5.  Una chiave di licenza: sebbene Aspose.Cells offra una prova gratuita, considera di acquistare una licenza se hai intenzione di utilizzarla in produzione. Puoi acquistarne una[Qui](https://purchase.aspose.com/buy).
@@ -77,7 +77,7 @@ Ecco dove avviene la magia! Possiamo impostare la qualità di stampa per il fogl
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Spiegazione: Il`PrintQuality` può essere impostata su qualsiasi valore, in genere tra 75 e 600 dpi (punti per pollice). In questo caso, la stiamo impostando su 180 dpi, che è ottimo per un buon equilibrio tra qualità e dimensione del file.
+Spiegazione: Il`PrintQuality` può essere impostata su qualsiasi valore, in genere tra 75 e 600 dpi (punti per pollice). In questo caso, la stiamo impostando su 180 dpi, che è ottimo per un buon equilibrio tra qualità e dimensione del file.
 
 ## Passaggio 5: salvataggio della cartella di lavoro
 

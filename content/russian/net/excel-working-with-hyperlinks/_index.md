@@ -2,7 +2,7 @@
 title: Работа с гиперссылками в Excel
 linktitle: Работа с гиперссылками в Excel
 second_title: API обработки Excel Aspose.Cells .NET
-description: Откройте магию гиперссылок в Excel с Aspose.Cells для .NET. Узнайте, как просто эффективно улучшить ваши электронные таблицы.
+description: Откройте магию гиперссылок в Excel с Aspose.Cells для .NET. Узнайте, как просто и эффективно улучшить ваши электронные таблицы.
 type: docs
 weight: 20
 url: /ru/net/excel-working-with-hyperlinks/

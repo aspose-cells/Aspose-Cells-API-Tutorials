@@ -22,7 +22,7 @@ Aspose.Cells for Java est une bibliothèque polyvalente qui permet aux développ
 
 Avant de plonger dans les exemples pratiques, configurons Aspose.Cells pour Java et préparons-nous à exploiter son potentiel.
 
-## Comprendre les méthodes d’exportation de données Excel
+## Comprendre les méthodes d'exportation de données Excel
 
 Pour prendre des décisions éclairées, vous devez comprendre les méthodes d'exportation de données disponibles. Cette section fournit un aperçu.
 
@@ -115,7 +115,7 @@ public class ExcelToHTML {
 }
 ```
 
-## Méthode 5 : Exportation de données vers XML
+## Méthode 5 : Exportation de données au format XML
 
 ### Exemple de code source
 

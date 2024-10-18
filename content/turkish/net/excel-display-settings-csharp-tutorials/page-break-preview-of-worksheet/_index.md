@@ -9,7 +9,7 @@ url: /tr/net/excel-display-settings-csharp-tutorials/page-break-preview-of-works
 ---
 ## giriiş
 
-Doğru araçlara sahip değilseniz Excel dosyalarını programatik olarak oluşturmak ve yönetmek oldukça zahmetli olabilir. Geliştiriciler arasında çok fazla ilgi gören bu araçlardan biri de Aspose.Cells for .NET'tir. Bu güçlü API, iş akışlarınızı optimize etmenize yardımcı olabilecek çok sayıda özellik sunarken Excel dosyalarını sorunsuz bir şekilde düzenlemenizi sağlar; örneğin daha iyi bir yazdırma düzeni için sayfa sonlarını ayarlama. Bu eğitimde, Aspose.Cells for .NET kullanarak bir çalışma sayfasında sayfa sonu önizlemelerinin nasıl etkinleştirileceğini inceleyeceğiz.
+Doğru araçlara sahip değilseniz Excel dosyalarını programatik olarak oluşturmak ve yönetmek oldukça zahmetli olabilir. Geliştiriciler arasında çok ilgi gören bu araçlardan biri de Aspose.Cells for .NET'tir. Bu güçlü API, iş akışlarınızı optimize etmenize yardımcı olabilecek çok sayıda özellik sunarken Excel dosyalarını sorunsuz bir şekilde düzenlemenizi sağlar; örneğin daha iyi bir yazdırma düzeni için sayfa sonlarını ayarlama. Bu eğitimde, Aspose.Cells for .NET kullanarak bir çalışma sayfasında sayfa sonu önizlemelerinin nasıl etkinleştirileceğini inceleyeceğiz.
 
 ## Ön koşullar
 
@@ -18,7 +18,7 @@ Başlamadan önce, yerine getirmeniz gereken birkaç ön koşul var:
 1. Temel C# Bilgisi: C# ve .NET framework hakkında temel bir anlayışa sahip olmak, eğitimde gezinmenize kesinlikle yardımcı olacaktır.
 2.  Aspose.Cells for .NET Kurulu: Aspose.Cells for .NET kitaplığına sahip olmanız gerekir.[buradan indirin](https://releases.aspose.com/cells/net/).
 3. Visual Studio veya Benzer IDE: Kodu yazmak ve çalıştırmak için Visual Studio gibi bir entegre geliştirme ortamına (IDE) ihtiyacınız olacak.
-4. Excel Dosyası: Bir Excel dosyanız (örneğin`book1.xls`) düzenleme için belgeler dizininizde mevcuttur.
+4. Excel Dosyası: Bir Excel dosyanız (örneğin) olmalıdır.`book1.xls`) düzenleme için belgeler dizininizde mevcuttur.
 5. Ad Alanları: Kodunuzda gerekli ad alanlarının bulunduğundan emin olun; özellikle dosyaları ve Aspose.Cells kitaplığını işlemek için.
 
 Ön koşulları tamamladığımıza göre şimdi gerçek kodlamaya geçelim.
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Adım 3: Çalışma Kitabını Örneklendirin
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 // Excel dosyasını dosya akışı aracılığıyla açma
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Adım 4: Çalışma Sayfasına Erişim
 
 ```csharp
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+// Excel dosyasındaki ilk çalışma sayfasına erişim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

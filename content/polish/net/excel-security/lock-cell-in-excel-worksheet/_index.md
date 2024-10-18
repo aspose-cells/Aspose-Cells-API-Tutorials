@@ -18,9 +18,9 @@ Zanim przejdziemy do szczegółów kodu, musisz przygotować kilka rzeczy:
 1.  Aspose.Cells dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Cells dla .NET ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: Środowisko programistyczne skonfigurowane dla .NET. Popularne opcje to Visual Studio lub JetBrains Rider.
 3. Podstawowa znajomość języka C#: Chociaż przeprowadzimy Cię przez kod krok po kroku, podstawowa znajomość programowania w języku C# pomoże Ci szybciej zrozumieć koncepcje.
-4. Katalog dokumentów: Upewnij się, że masz utworzony katalog, w którym możesz przechowywać pliki programu Excel w celu testowania.
+4. Katalog dokumentów: Upewnij się, że masz utworzony katalog, w którym możesz przechowywać pliki programu Excel w celu przeprowadzenia testów.
 
-Teraz, gdy zadbaliśmy o wszystkie wymagania wstępne, możemy zaimportować niezbędne pakiety!
+Teraz, gdy spełniliśmy już wszystkie wymagania wstępne, możemy zaimportować niezbędne pakiety!
 
 ## Importuj pakiety
 
@@ -51,7 +51,7 @@ Następnie należy załadować skoroszyt programu Excel, w którym zamierzasz za
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
-W tym przykładzie ładujemy plik o nazwie „Book1.xlsx”. Upewnij się, że ten plik znajduje się w określonym katalogu!
+W tym przykładzie ładujemy plik o nazwie „Book1.xlsx”. Upewnij się, że ten plik istnieje w określonym katalogu!
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -71,7 +71,7 @@ Teraz czas zablokować konkretną komórkę w arkuszu kalkulacyjnym. W tym przyk
 worksheet.Cells["A1"].GetStyle().IsLocked = true;
 ```
 
-Ta prosta komenda zapobiega wprowadzaniu zmian w komórce „A1”. Pomyśl o tym jak o umieszczeniu znaku „Nie dotykać” na ulubionym deserze!
+Ta prosta komenda uniemożliwia każdemu wprowadzanie zmian w komórce „A1”. Pomyśl o tym jak o umieszczeniu znaku „Nie dotykać” na ulubionym deserze!
 
 ## Krok 5: Chroń arkusz kalkulacyjny
 
@@ -99,7 +99,7 @@ Blokowanie komórek w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla 
 
 ## Najczęściej zadawane pytania
 
-### Czy mogę zablokować wiele cel jednocześnie?
+### Czy mogę zablokować kilka cel jednocześnie?
 Tak, można zablokować wiele komórek, stosując właściwość blokowania do tablicy odwołań do komórek.
 
 ### Czy do zablokowania komórki wymagane jest hasło?
@@ -112,4 +112,4 @@ Jeśli zapomnisz hasła, nie będziesz mógł usunąć zabezpieczenia arkusza, d
  Oczywiście! Możesz odblokować komórki, ustawiając`IsLocked` nieruchomość do`false` i usuwanie ochrony.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje użytkownikom bezpłatną wersję próbną. Jednak do ciągłego użytkowania musisz kupić licencję. Odwiedź[Strona zakupu Aspose](https://purchase.aspose.com/buy) po więcej szczegółów.
+Aspose.Cells oferuje użytkownikom bezpłatną wersję próbną. Jednak do ciągłego użytkowania musisz kupić licencję. Odwiedź[Strona zakupu Aspose](https://purchase.aspose.com/buy) Aby uzyskać więcej szczegółów.

@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Sekarang, mari kita bahas lembar kerja tertentu yang berisi diagram pai. Kita akan menganggap diagram pai ada di lembar kerja kedua (indeks 1):
 
 ```csharp
-// Dapatkan bagan desainer di lembar kedua.
+//Dapatkan bagan desainer di lembar kedua.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
@@ -125,14 +125,14 @@ Dengan baris ini, kami menargetkan label data secara khusus untuk titik ketiga s
 
 ## Langkah 6: Ubah Teks Label
 
-Berikutnya, saatnya mengubah apa yang tertulis pada label tersebut. Untuk contoh kita, kita akan memperbaruinya menjadi "United Kingdom, 400K":
+Selanjutnya, saatnya mengubah apa yang tertulis pada label tersebut. Untuk contoh kita, kita akan memperbaruinya menjadi "United Kingdom, 400K":
 
 ```csharp
 // Ubah teks label.
 datalabels.Text = "United Kingdom, 400K";
 ```
 
-Sama seperti itu, kami telah memperbarui labelnya! 
+Seperti itu saja, kami telah memperbarui labelnya! 
 
 ## Langkah 7: Simpan Buku Kerja
 

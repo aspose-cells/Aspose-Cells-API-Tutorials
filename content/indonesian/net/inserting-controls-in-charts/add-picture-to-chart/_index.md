@@ -16,7 +16,7 @@ Apakah Anda bosan dengan bagan yang membosankan dan kurang memiliki sentuhan pri
 Sebelum kita masuk ke inti coding, ada beberapa prasyarat yang perlu Anda ikuti agar dapat berjalan lancar:
 
 - Visual Studio: Di sinilah Anda akan menulis dan menjalankan kode .NET. Pastikan Anda telah menginstalnya.
--  Aspose.Cells untuk .NET: Anda memerlukan pustaka ini untuk bekerja dengan file Excel. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+- Aspose.Cells untuk .NET: Anda memerlukan pustaka ini untuk bekerja dengan file Excel. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
 - Pemahaman Dasar C#: Sementara saya akan memandu Anda melalui kodenya, memahami dasar-dasar C# akan membuat segalanya lebih jelas.
 
 ### Langkah-langkah Instalasi
@@ -45,7 +45,7 @@ Sekarang setelah prasyaratnya terpenuhi, mari kita uraikan prosesnya menjadi beb
 
 ## Langkah 1: Tentukan Direktori Anda
 
-Pertama-tama, kita perlu mengatur jalur untuk berkas masukan dan keluaran. Langkah ini penting karena kita perlu tahu di mana menemukan berkas Excel yang sudah ada dan di mana menyimpan berkas yang dimodifikasi.
+Pertama-tama, kita perlu mengatur jalur untuk berkas masukan dan keluaran. Langkah ini penting karena kita perlu mengetahui di mana menemukan berkas Excel yang sudah ada dan di mana menyimpan berkas yang dimodifikasi.
 
 ```csharp
 //Direktori sumber
@@ -84,7 +84,7 @@ Pastikan Anda menyimpan gambar di direktori yang ditentukan.
 Sekarang, mari tentukan diagram mana yang akan kita tambahkan gambar. Dalam contoh ini, kita akan menargetkan diagram pertama pada lembar kerja pertama.
 
 ```csharp
-// Dapatkan bagan desainer di lembar kedua.
+//Dapatkan bagan desainer di lembar kedua.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -151,7 +151,7 @@ Dalam tutorial ini, kami telah menjajaki cara menambahkan sedikit kepribadian ke
 Aspose.Cells mendukung berbagai format gambar, termasuk PNG, JPEG, BMP, dan GIF.
 
 ### Bisakah saya menyesuaikan posisi gambar?
-Tentu saja! Koordinat X dan Y di`AddPictureInChart` metode memungkinkan penentuan posisi yang tepat.
+ Tentu saja! Koordinat X dan Y di`AddPictureInChart` metode memungkinkan penentuan posisi yang tepat.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
  Aspose.Cells menawarkan uji coba gratis, tetapi untuk fitur lengkap, diperlukan lisensi. Anda dapat menemukan harganya[Di Sini](https://purchase.aspose.com/buy).

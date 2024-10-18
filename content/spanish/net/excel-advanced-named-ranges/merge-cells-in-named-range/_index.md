@@ -9,7 +9,7 @@ url: /es/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 ## Introducción
 
-Al trabajar con archivos de Excel de forma programática, una de las tareas más habituales que puede encontrar es la combinación de celdas dentro de un rango con nombre. Ya sea que esté automatizando la generación de informes, creando paneles o simplemente administrando grandes conjuntos de datos, la combinación de celdas es una técnica esencial. En este tutorial, exploraremos cómo combinar celdas en un rango con nombre mediante Aspose.Cells para .NET, una potente biblioteca que permite a los desarrolladores manipular archivos de Excel sin necesidad de tener instalado Microsoft Excel.
+Al trabajar con archivos de Excel de forma programática, una de las tareas más habituales que puede encontrar es la de fusionar celdas dentro de un rango con nombre. Ya sea que esté automatizando la generación de informes, creando paneles o simplemente administrando grandes conjuntos de datos, la fusión de celdas es una técnica esencial. En este tutorial, exploraremos cómo fusionar celdas en un rango con nombre mediante Aspose.Cells para .NET, una potente biblioteca que permite a los desarrolladores manipular archivos de Excel sin necesidad de tener instalado Microsoft Excel.
 
 ## Prerrequisitos
 

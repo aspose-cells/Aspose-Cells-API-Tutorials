@@ -125,7 +125,7 @@ Cerrar FileStream es esencial para la gestión de recursos. Es como cerrar la pu
 ## Preguntas frecuentes
 
 ### ¿Cuál es el propósito de congelar paneles en Excel?
-La congelación de paneles le permite mantener filas o columnas específicas visibles mientras se desplaza por grandes conjuntos de datos.
+Los paneles congelados le permiten mantener filas o columnas específicas visibles mientras se desplaza por conjuntos de datos grandes.
 
 ### ¿Puedo congelar varias filas y columnas a la vez?
  Sí, puede congelar cualquier número de filas y columnas especificando sus posiciones mediante el`FreezePanes` método.

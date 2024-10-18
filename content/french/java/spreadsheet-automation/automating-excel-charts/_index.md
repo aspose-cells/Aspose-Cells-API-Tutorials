@@ -40,7 +40,7 @@ public class ExcelChartsAutomation {
 }
 ```
 
-### 3. Création d'une feuille de calcul
+### 3. Créer une feuille de calcul
 
 Pour travailler avec des graphiques, nous devons créer une feuille de calcul et la remplir avec des données :
 

@@ -9,7 +9,7 @@ url: /nl/net/excel-page-setup/set-excel-headers-and-footers/
 ---
 ## Invoering
 
-Als het gaat om het beheren van spreadsheetdocumenten, spelen kopteksten en voetteksten een cruciale rol bij het bieden van context. Stel je voor dat je een Excel-bestand opent en helemaal bovenaan de naam van het werkblad, de datum en misschien zelfs de bestandsnaam ziet. Het geeft je document een professionele uitstraling en helpt belangrijke details in één oogopslag te communiceren. Als je de professionaliteit van je Excel-sheets wilt verbeteren met Aspose.Cells voor .NET, ben je hier aan het juiste adres! In deze gids leiden we je door de stappen om moeiteloos kopteksten en voetteksten in je Excel-spreadsheets in te stellen. 
+Als het gaat om het beheren van spreadsheetdocumenten, spelen kop- en voetteksten een cruciale rol bij het bieden van context. Stel je voor dat je een Excel-bestand opent en helemaal bovenaan de naam van het werkblad, de datum en misschien zelfs de bestandsnaam ziet. Het geeft je document een professionele uitstraling en helpt belangrijke details in één oogopslag te communiceren. Als je de professionaliteit van je Excel-sheets wilt verbeteren met Aspose.Cells voor .NET, ben je hier aan het juiste adres! In deze gids leiden we je door de stappen om moeiteloos kop- en voetteksten in je Excel-spreadsheets in te stellen. 
 
 ## Vereisten
 
@@ -36,7 +36,7 @@ Nadat u uw project hebt gemaakt of geopend, moet u een referentie toevoegen aan 
 
 ### Importeer de naamruimte
 
-Voeg bovenaan uw C#-bestand de volgende regel toe om de Aspose.Cells-naamruimte te importeren:
+Voeg boven aan uw C#-bestand de volgende regel toe om de Aspose.Cells-naamruimte te importeren:
 
 ```csharp
 using System.IO;
@@ -77,7 +77,7 @@ Laten we nu beginnen met het instellen van de header. We beginnen met het linker
 pageSetup.SetHeader(0, "&A");
 ```
 
- Uitleg: De`SetHeader` methode stelt ons in staat om de inhoud van de header te definiëren. Hier,`&A` geeft de naam van het werkblad aan, die aan de linkerkant van de koptekst wordt weergegeven.
+Uitleg: De`SetHeader` methode stelt ons in staat om de inhoud van de header te definiëren. Hier,`&A` geeft de naam van het werkblad aan, die aan de linkerkant van de koptekst wordt weergegeven.
 
 ## Stap 4: Pas de centrale header aan
 
@@ -87,7 +87,7 @@ Vervolgens passen we de centrale header aan, zodat de huidige datum en tijd in e
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Uitleg: De`&D` En`&T` codes vervangen zichzelf automatisch met de huidige datum en tijd. We specificeren ook dat het lettertype voor deze header "Times New Roman" en vetgedrukt moet zijn.
+Uitleg: De`&D` En`&T` codes vervangen zichzelf automatisch met de huidige datum en tijd. We specificeren ook dat het lettertype voor deze header "Times New Roman" en vetgedrukt moet zijn.
 
 ## Stap 5: Stel de juiste header in
 
@@ -99,7 +99,7 @@ pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
  Uitleg: Hier,`&F` wordt vervangen door de bestandsnaam. We gebruiken hetzelfde lettertype als voor de centrale header om een consistente look te behouden.
 
-## Stap 6: De voettekst configureren
+## Stap 6: Configureer de voettekst
 
 Nu onze headers er gelikt uitzien, gaan we onze aandacht richten op de footers. We beginnen met de linker footer:
 
@@ -117,7 +117,7 @@ Vervolgens stellen we de middelste voettekst in om het huidige paginanummer weer
 pageSetup.SetFooter(1, "&P");
 ```
 
- Uitleg: De`&P` code voegt automatisch het paginanummer in het midden van de voettekst in: een handige manier om pagina's bij te houden.
+Uitleg: De`&P` code voegt automatisch het paginanummer in het midden van de voettekst in: een handige manier om pagina's bij te houden.
 
 ## Stap 8: Configuratie van de rechtervoettekst
 
@@ -155,7 +155,7 @@ Aspose.Cells is een .NET-bibliotheek waarmee u Excel-bestanden programmatisch ku
 Absoluut! Aspose.Cells ondersteunt zowel oude als nieuwe Excel-bestandsindelingen.
 
 ### Waar kan ik meer documentatie vinden?
- U kunt de gedetailleerde documentatie bekijken op[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).
+ U kunt de gedetailleerde documentatie hier bekijken[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/).
 
 ### Hoe krijg ik ondersteuning voor Aspose.Cells?
  Voor ondersteuning, bezoek de[Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9).

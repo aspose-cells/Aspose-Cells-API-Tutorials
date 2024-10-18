@@ -73,7 +73,7 @@ String data = fileWorkbook.getWorksheets().get(0).getCells().get("A1").getString
 
 ### 5. Conversão e Exportação
 
-Se você precisar converter arquivos do Excel para outros formatos, poderá automatizar o processo de conversão:
+Se você precisar converter arquivos do Excel para outros formatos, você pode automatizar o processo de conversão:
 
 ```java
 // Salvar o arquivo Excel como PDF

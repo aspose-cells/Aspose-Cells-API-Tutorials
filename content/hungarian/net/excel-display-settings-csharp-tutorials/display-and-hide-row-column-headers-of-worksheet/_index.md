@@ -53,7 +53,7 @@ Ezután létre kell hoznia egy fájlfolyamot az Excel-fájl megnyitásához. Ez 
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Itt megadjuk, hogy meg akarjuk nyitni`book1.xls` a megadott könyvtárban található. A`FileMode.Open` paraméter azt jelzi, hogy egy meglévő fájlt nyitunk meg. Mindig győződjön meg arról, hogy a fájlnév megegyezik a meglévő fájlnévvel.
+Itt megadjuk, hogy meg akarjuk nyitni`book1.xls` a megadott könyvtárban található. A`FileMode.Open` paraméter azt jelzi, hogy egy meglévő fájlt nyitunk meg. Mindig győződjön meg arról, hogy a fájlnév megegyezik a meglévő fájlnévvel.
 
 ## 3. lépés: Példányosítson egy munkafüzet-objektumot
 
@@ -67,7 +67,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## 4. lépés: Nyissa meg a munkalapot
 
-munkafüzet betöltése után a következő lépés az adott munkalap elérése, amelyet módosítani szeretnénk. Alapértelmezés szerint az első munkalap 0 indexszel érhető el.
+A munkafüzet betöltése után a következő lépés az adott munkalap elérése, amelyet módosítani szeretnénk. Alapértelmezés szerint az első munkalap 0 indexszel érhető el.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -83,7 +83,7 @@ Most arra a pillanatra, amire vártunk! Valójában itt rejtjük el a munkalapun
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Beállítás`IsRowColumnHeadersVisible` hogy`false` hatékonyan elrejti a fejléceket mind a sorokban, mind az oszlopokban, tisztább megjelenést biztosítva az adatok megjelenítéséhez.
+ Beállítás`IsRowColumnHeadersVisible` hogy`false`hatékonyan elrejti a fejléceket mind a sorokban, mind az oszlopokban, tisztább megjelenést biztosítva az adatok megjelenítéséhez.
 
 ## 6. lépés: Mentse el a módosított Excel-fájlt
 
@@ -93,7 +93,7 @@ Miután elvégezte a módosításokat, el kell mentenie a fájlt. Íme, hogyan k
 workbook.Save(dataDir + "output.xls");
 ```
 
- Ez a sor egy új fájlba menti a változtatásokat`output.xls` ugyanabban a könyvtárban. Ez biztosítja az eredeti megőrzését`book1.xls` sértetlen, miközben dolgozik az új verzióval.
+ Ez a sor egy új fájlba menti a változtatásokat`output.xls` ugyanabban a könyvtárban. Ez biztosítja, hogy megőrizze az eredetit`book1.xls` sértetlen, miközben dolgozik az új verzióval.
 
 ## 7. lépés: Zárja be a Fájlfolyamot
 
@@ -103,7 +103,7 @@ Végül gondoskodnia kell a fájlfolyam bezárásáról, hogy minden erőforrás
 fstream.Close();
 ```
 
- Bezárva a`fstream`kulcsfontosságú, mivel biztosítja, hogy ne maradjanak memóriaszivárgások vagy fájllezárások nyitva az alkalmazásban.
+ Bezárva a`fstream` kulcsfontosságú, mivel biztosítja, hogy ne maradjanak memóriaszivárgások vagy fájllezárások nyitva az alkalmazásban.
 
 ## Következtetés
 
@@ -121,7 +121,7 @@ Az Aspose.Cells egy hatékony .NET-könyvtár Excel-táblázatok kezelésére, a
  Bár ingyenes próbaverziót is használhat, a folyamatos kereskedelmi használathoz licenc szükséges. Megtalálhatja a vásárlási lehetőségeket[itt](https://purchase.aspose.com/buy).
 
 ### Van-e támogatás az Aspose.Cells számára?  
-Igen, az Aspose támogatást nyújt fórumaikon keresztül, amelyekhez Ön is hozzáférhet[itt](https://forum.aspose.com/c/cells/9).
+ Igen, az Aspose támogatást nyújt fórumaikon keresztül, amelyekhez Ön is hozzáférhet[itt](https://forum.aspose.com/c/cells/9).
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?  
  Ideiglenes engedélyt kérhet értékelési célból a címen[ezt a linket](https://purchase.aspose.com/temporary-license/).

@@ -25,11 +25,11 @@ Comprender cómo acceder a la información de las extensiones web puede abrir nu
 
 ## Extraer archivos incrustados
 
-¿Sabías que Excel puede contener archivos incrustados? Si alguna vez has tenido que profundizar en tus hojas de cálculo para extraer un archivo MOL incrustado, te recomendamos que consultes nuestro tutorial sobre[Extraer archivo MOL incrustado](./extract-embedded-mol-file/)Esta guía lo guiará a través del sencillo proceso de recuperación de estos archivos, lo que le garantizará que nunca perderá datos importantes ocultos en sus libros de Excel.
+¿Sabías que Excel puede contener archivos incrustados? Si alguna vez has tenido que analizar más a fondo tus hojas de cálculo para extraer un archivo MOL incrustado, te recomendamos que consultes nuestro tutorial sobre[Extraer archivo MOL incrustado](./extract-embedded-mol-file/)Esta guía lo guiará a través del sencillo proceso de recuperación de estos archivos, lo que le garantizará que nunca perderá datos importantes ocultos en sus libros de Excel.
 
 ## Manejo de conexiones externas en archivos XLSB
 
- Administrar conexiones externas, especialmente en archivos XLSB, puede ser complicado. ¡Pero no tema! Nuestra guía detallada sobre[Leer y escribir una conexión externa de un archivo XLSB](./read-and-write-external-connection-of-xlsb-file/) Simplifica esta tarea. Este tutorial proporciona ejemplos de codificación claros y conocimientos que le permiten administrar de manera eficaz la interacción de Excel con fuentes de datos externas. 
+ Administrar conexiones externas, especialmente en archivos XLSB, puede ser complicado. ¡Pero no tema! Nuestra guía detallada sobre[Leer y escribir una conexión externa de un archivo XLSB](./read-and-write-external-connection-of-xlsb-file/) Simplifica esta tarea. Este tutorial ofrece ejemplos de codificación claros y conocimientos que le permiten administrar de manera eficaz la forma en que Excel interactúa con fuentes de datos externas. 
 
 ## Mejorar la seguridad con protección por contraseña
 
@@ -37,7 +37,7 @@ Comprender cómo acceder a la información de las extensiones web puede abrir nu
 
 ## Aumentar la productividad con expresiones regulares
 
- ¿Eres fanático de las expresiones regulares? Si no, ¡quizás quieras convertirte en uno! Las expresiones regulares pueden simplificar significativamente tus tareas, especialmente cuando trabajas con grandes conjuntos de datos en Excel. Nuestro tutorial sobre[Reemplazar expresiones regulares](./regex-replace/) Le enseña a implementar funciones de reemplazo de expresiones regulares en sus hojas de cálculo, lo que le permite aumentar tanto la productividad como la precisión.
+ ¿Eres fanático de las expresiones regulares? Si no, ¡quizás quieras convertirte en uno! Las expresiones regulares pueden agilizar significativamente tus tareas, especialmente cuando trabajas con grandes conjuntos de datos en Excel. Nuestro tutorial sobre[Reemplazar expresiones regulares](./regex-replace/) Le enseña a implementar funciones de reemplazo de expresiones regulares en sus hojas de cálculo, lo que le permite aumentar tanto la productividad como la precisión.
 
 ## Actualización de elementos de Power Query
 
@@ -68,13 +68,13 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para cualquier
 | [Permitir apóstrofe inicial](./allow-leading-apostrophe/) | Administre sin esfuerzo los apóstrofos iniciales en Excel con Aspose.Cells para .NET. Este completo tutorial lo guía paso a paso a través del proceso. |  
 | [Crear un libro de trabajo compartido](./create-shared-workbook/) | Aprenda a crear un libro de trabajo compartido con Aspose.Cells para .NET con esta sencilla guía paso a paso. Perfecta para mejorar la colaboración en equipo. |  
 | [Detectar tipos de enlaces](./detect-link-types/) | Aprenda a detectar tipos de hipervínculos en Excel con Aspose.Cells para .NET. Se incluyen pasos sencillos y ejemplos de código. |  
-| [Extraer archivo Mol incorporado](./extract-embedded-mol-file/) | Aprenda a extraer fácilmente archivos MOL incrustados de un libro de Excel usando Aspose.Cells para .NET. |  
+| [Extraer archivo Mol integrado](./extract-embedded-mol-file/) | Aprenda a extraer fácilmente archivos MOL incrustados de un libro de Excel usando Aspose.Cells para .NET. |  
 | [Filtrar nombres definidos al cargar un libro de trabajo](./filter-defined-names-while-loading-workbook/) | Aprenda a filtrar nombres definidos al cargar un libro con Aspose.Cells para .NET en esta guía completa. |  
 | [Obtener detalles de Odata](./get-odata-details/) | Descubra cómo extraer detalles de OData de Excel usando Aspose.Cells para .NET en este detallado tutorial paso a paso. |  
 | [Proteger o desproteger con contraseña un libro de trabajo compartido](./password-protect-or-unprotect-shared-workbook/) | Proteja sus archivos de Excel compartidos usando Aspose.Cells para .NET con nuestra sencilla guía sobre técnicas de protección y desprotección con contraseña. |  
 | [Leer y escribir una conexión externa de un archivo XLSB](./read-and-write-external-connection-of-xlsb-file/) | Aprenda a administrar conexiones externas en archivos XLSB usando Aspose.Cells para .NET en este completo tutorial. |  
 | [Reemplazar expresiones regulares](./regex-replace/) | Aprenda a usar de manera eficiente el reemplazo de expresiones regulares en Excel con Aspose.Cells para .NET. Aumente la productividad y la precisión en sus tareas de hojas de cálculo. |  
-| [Actualizar elemento de fórmula de Power Query](./update-power-query-formula-item/) | Actualice fácilmente los elementos de fórmula de Power Query en Excel con Aspose.Cells para .NET. Guía paso a paso para optimizar sus procesos de manipulación de datos. |  
+| [Actualizar elemento de fórmula de Power Query](./update-power-query-formula-item/) | Actualice fácilmente los elementos de fórmulas de Power Query en Excel con Aspose.Cells para .NET. Guía paso a paso para optimizar sus procesos de manipulación de datos. |  
 | [Vista previa de impresión del libro de trabajo](./workbook-print-preview/) | Aprenda a crear vistas previas de impresión para archivos de Excel con Aspose.Cells para .NET. Aprenda los pasos de codificación en un tutorial detallado y fácil de seguir. |  
 | [Trabajar con propiedades de tipo de contenido](./working-with-content-type-properties/) | Aprenda a utilizar Aspose.Cells para .NET para trabajar con propiedades de tipo de contenido y mejorar la gestión de metadatos de Excel. Siga esta sencilla guía paso a paso. |  
 | [Soporte de firma de Xades](./xades-signature-support/) | Aprenda a agregar firmas de Xades a archivos de Excel usando Aspose.Cells para .NET con esta guía paso a paso. Proteja sus documentos. |  

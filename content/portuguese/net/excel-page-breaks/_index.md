@@ -14,12 +14,12 @@ Quebras de página são essenciais quando se trata de imprimir arquivos do Excel
 Você sabia que pode adicionar quebras de página programaticamente, economizando toneladas de trabalho manual? Isso pode transformar completamente a maneira como você prepara suas planilhas para compartilhamento ou impressão. É como ter uma varinha mágica que transforma dados caóticos em páginas lindamente organizadas!
 
 ## Guias passo a passo
- Nossa coleção de tutoriais divide processos complexos em lições curtas e fáceis de entender. Por exemplo, no tutorial sobre[Excel Adicionar quebras de página](./excel-add-page-breaks/), nós o guiamos por cada passo com instruções claras. Você não estará apenas lendo jargões técnicos; você estará realmente acompanhando e aplicando o que aprendeu imediatamente em seus próprios projetos. 
+ Nossa coleção de tutoriais divide processos complexos em lições curtas e fáceis de entender. Por exemplo, no tutorial sobre[Excel Adicionar quebras de página](./excel-add-page-breaks/)nós o guiamos por cada passo com instruções claras. Você não estará apenas lendo jargões técnicos; você estará realmente acompanhando e aplicando o que aprendeu imediatamente em seus próprios projetos. 
 
  Precisa limpar todas as quebras de página? Sem problemas! Confira nosso guia sobre[Excel Limpar todas as quebras de página](./excel-clear-all-page-breaks/), que oferece um processo simples e eficaz que qualquer um pode dominar. É tudo sobre tornar seu fluxo de trabalho mais suave e rápido.
 
 ## Personalização na ponta dos seus dedos
- se você quiser remover apenas certas quebras de página? É aí que entra nosso tutorial sobre[Excel Remover Quebra de Página Específica](./excel-remove-specific-page-break/) entra em cena. Ele é feito sob medida para aqueles momentos em que você precisa de controle preciso sobre o layout do seu documento. Com o Aspose.Cells para .NET, você terá o poder de personalizar suas planilhas exatamente como você quer. 
+ E se você quiser remover apenas certas quebras de página? É aí que entra nosso tutorial sobre[Excel Remover Quebra de Página Específica](./excel-remove-specific-page-break/) entra em cena. Ele é feito sob medida para aqueles momentos em que você precisa de controle preciso sobre o layout do seu documento. Com o Aspose.Cells para .NET, você terá o poder de personalizar suas planilhas exatamente como você quer. 
 
 ## Tutoriais 
 | Título | Descrição |

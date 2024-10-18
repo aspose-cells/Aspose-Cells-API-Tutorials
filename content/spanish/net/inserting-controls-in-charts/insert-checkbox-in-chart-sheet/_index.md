@@ -9,7 +9,7 @@ url: /es/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 ---
 ## Introducción
 
-Si alguna vez ha creado un gráfico en Excel, sabe que pueden ser increíblemente eficaces para visualizar datos. Pero ¿qué sucedería si pudiera mejorar aún más esa interactividad agregando una casilla de verificación directamente en el gráfico? Si bien esto puede parecer un poco matizado, en realidad es bastante sencillo con la biblioteca Aspose.Cells para .NET. En este tutorial, lo guiaré a través del proceso paso a paso, haciéndolo simple y fácil de seguir.
+Si alguna vez ha creado un gráfico en Excel, sabe que puede ser increíblemente eficaz para visualizar datos. Pero ¿qué sucedería si pudiera mejorar aún más esa interactividad agregando una casilla de verificación directamente en el gráfico? Si bien esto puede parecer un poco matizado, en realidad es bastante sencillo con la biblioteca Aspose.Cells para .NET. En este tutorial, lo guiaré a través del proceso paso a paso, haciéndolo simple y fácil de seguir.
 
 ## Prerrequisitos
 
@@ -19,7 +19,7 @@ Antes de comenzar con el tutorial, asegurémonos de que tienes todo configurado.
 - En primer lugar, necesitarás Visual Studio. Si aún no lo tienes instalado, puedes descargarlo desde el sitio de Microsoft.
 
 ### Biblioteca Aspose.Cells
--  La siguiente herramienta esencial es la biblioteca Aspose.Cells para .NET. Puede obtenerla fácilmente desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/) para descargar. Si prefieres probar antes de comprar, también hay una[prueba gratuita disponible](https://releases.aspose.com/).
+-  La siguiente herramienta esencial es la biblioteca Aspose.Cells para .NET. Puedes obtenerla fácilmente desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/) para descargar. Si prefieres probar antes de comprar, también hay una[prueba gratuita disponible](https://releases.aspose.com/).
 
 ### Conocimientos básicos de C#
 - Dado que escribiremos algo de código, será útil tener conocimientos básicos de C#. No te preocupes, ¡te lo explicaré a medida que avancemos!
@@ -68,7 +68,7 @@ string outputDir = "C:\\YourOutputDirectory\\"; // Cambie al directorio especifi
 ```
  Asegúrese de reemplazar`"C:\\YourOutputDirectory\\"` con la ruta donde desea guardar el archivo. Piense en esto como si estuviera configurando su espacio de trabajo; necesita saber dónde colocará sus herramientas (o en este caso, su archivo de Excel).
 
-## Paso 2: Creación de una instancia de un objeto de libro de trabajo
+## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
  continuación, crearemos una instancia de`Workbook` Clase. Aquí es donde se llevará a cabo todo nuestro trabajo.
 ```csharp

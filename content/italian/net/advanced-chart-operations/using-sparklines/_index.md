@@ -96,7 +96,7 @@ Eseguendo questa operazione verranno visualizzate informazioni su eventuali graf
 
 ## Passaggio 5: definire l'area della cella per i nuovi grafici sparkline
 
-Il passo successivo è definire dove verranno posizionati i nostri nuovi grafici sparkline nel foglio di lavoro. 
+Il passo successivo è definire dove verranno posizionati i nuovi grafici sparkline nel foglio di lavoro. 
 
 ```csharp
 // Definisci la CellArea D2:D10

@@ -1,7 +1,7 @@
 ---
 title: Adicionar link para outra célula da planilha no Excel
 linktitle: Adicionar link para outra célula da planilha no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a adicionar links internos a células em planilhas do Excel usando Aspose.Cells para .NET. Melhore a navegação em suas planilhas sem esforço.
 type: docs
 weight: 11
@@ -41,15 +41,15 @@ string outputDir = "Your Document Directory"; // Substitua pelo seu diretório
 ## Etapa 3: Instanciar o objeto Workbook
 Agora você está pronto para criar sua pasta de trabalho do Excel! É aqui que todas as suas planilhas e dados ficarão.
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Esta linha inicializa uma nova pasta de trabalho na memória, fornecendo uma tela em branco para você trabalhar.
 ## Etapa 4: Adicionar uma nova planilha
 No Excel, cada pasta de trabalho pode conter várias planilhas. Vamos adicionar uma à nossa pasta de trabalho.
 ```csharp
-// Adicionando uma nova planilha ao objeto Workbook
-workbook.Worksheets.Add(); //Adiciona uma nova planilha em branco por padrão
+// Adicionar uma nova planilha ao objeto Workbook
+workbook.Worksheets.Add(); // Adiciona uma nova planilha em branco por padrão
 ```
 Este comando adiciona uma nova planilha e agora sua pasta de trabalho contém pelo menos uma planilha para você manipular.
 ## Etapa 5: Acessando a primeira planilha
@@ -68,7 +68,7 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 Neste comando, estamos dizendo ao Excel para transformar a célula “B3” em um link. Os parâmetros são:
 - Localização da célula para o hiperlink (“B3”).
 - O índice da planilha ao qual estamos vinculando (1, que se refere à segunda planilha).
-- célula de destino à qual queremos vincular (a célula em "Planilha2").
+- A célula de destino à qual queremos vincular (a célula em "Planilha2").
 ## Etapa 7: Adicionar texto de exibição para hiperlink
 Quando você clica em um hiperlink, você quer algum texto de exibição para dar sentido aonde ele leva. É aí que entra a próxima linha.
 ```csharp

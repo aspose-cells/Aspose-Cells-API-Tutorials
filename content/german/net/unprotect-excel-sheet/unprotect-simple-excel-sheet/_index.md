@@ -68,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ändern Sie dies in Ihren tatsäc
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-Geben Sie den Pfad zu Ihrer Excel-Datei an (`book1.xls`) laden Sie das Dokument in den Speicher, damit Sie es bearbeiten können.
+Geben Sie den Pfad zu Ihrer Excel-Datei an (`book1.xls`), laden Sie das Dokument in den Speicher, damit Sie es bearbeiten können.
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -98,7 +98,7 @@ Nachdem Sie den Schutz Ihres Arbeitsblatts aufgehoben haben, müssen Sie Ihre Ä
 workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Hier speichern wir die ungeschützte Arbeitsmappe in einer neuen Datei mit dem Namen`output.out.xls` im selben Verzeichnis. Die`SaveFormat.Excel97To2003` Der Parameter gibt das Format an, in dem Sie es speichern möchten.
+ Hier speichern wir die ungeschützte Arbeitsmappe in einer neuen Datei namens`output.out.xls` im selben Verzeichnis. Die`SaveFormat.Excel97To2003` Der Parameter gibt das Format an, in dem Sie es speichern möchten.
 
 ## Abschluss
 

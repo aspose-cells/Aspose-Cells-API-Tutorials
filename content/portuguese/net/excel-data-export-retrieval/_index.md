@@ -1,7 +1,7 @@
 ---
 title: Exportação e recuperação de dados do Excel
 linktitle: Exportação e recuperação de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Explore tutoriais passo a passo para exportar e recuperar dados do Excel usando o Aspose.Cells para .NET, perfeito para desenvolvedores de qualquer nível de habilidade.
 type: docs
 weight: 31
@@ -13,7 +13,7 @@ Você está procurando aumentar suas habilidades de manipulação de arquivos do
 
 ### Recuperar dados de células no Excel
 
-A primeira parada em nossa jornada é aprender como recuperar dados de células do Excel. O Aspose.Cells torna isso superfácil! Com apenas algumas linhas de código, você pode extrair dados de qualquer célula em sua planilha. Imagine ser capaz de extrair valores específicos de grandes conjuntos de dados, de forma rápida e precisa. Não se trata apenas de ler os dados — você está obtendo controle total sobre seus arquivos do Excel.
+A primeira parada em nossa jornada é aprender como recuperar dados de células do Excel. O Aspose.Cells torna isso super fácil! Com apenas algumas linhas de código, você pode extrair dados de qualquer célula em sua planilha. Imagine ser capaz de extrair valores específicos de grandes conjuntos de dados, de forma rápida e precisa. Não se trata apenas de ler os dados — você está obtendo controle total sobre seus arquivos do Excel.
 
 Quer saber como fazer isso? Confira este guia prático em[Recuperar dados de células no Excel](./retrieve-data-from-cells-in-excel/) e comece a gerenciar seus dados do Excel como um profissional!
 

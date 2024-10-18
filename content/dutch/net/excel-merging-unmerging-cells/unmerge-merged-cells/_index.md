@@ -2,7 +2,7 @@
 title: Samengevoegde cellen in Excel ontkoppelen
 linktitle: Samengevoegde cellen in Excel ontkoppelen
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Maak eenvoudig samengevoegde cellen los in Excel met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om betere spreadsheets te maken.
+description: Maak samengevoegde cellen in Excel eenvoudig los met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om betere spreadsheets te maken.
 type: docs
 weight: 10
 url: /nl/net/excel-merging-unmerging-cells/unmerge-merged-cells/
@@ -18,7 +18,7 @@ Voordat we aan de slag gaan, zijn er een paar essentiële zaken die u op orde mo
 ### Basiskennis van C# en .NET Framework
 Als u bekend bent met C#-programmering en een basiskennis hebt van het .NET-framework, bent u al goed op weg. Zo niet, maak u dan geen zorgen! Deze tutorial is ontworpen om eenvoudig te zijn, zodat u onderweg de nodige concepten oppikt.
 
-### Aspose.Cells Bibliotheek
+### Aspose.Cells-bibliotheek
 Zorg ervoor dat u de Aspose.Cells-bibliotheek in uw .NET-omgeving hebt geïnstalleerd. U kunt deze eenvoudig verkrijgen door naar de[Aspose.Cells Downloadpagina](https://releases.aspose.com/cells/net/).
 
 ### IDE-installatie
@@ -27,7 +27,7 @@ U moet een ontwikkelomgeving opzetten, zoals Visual Studio, waar u uw C#-code ku
 ### Voorbeeld Excel-bestand
 Download een voorbeeld van een Excel-bestand met samengevoegde cellen. Dit bestand gaat u gebruiken om te oefenen met het ongedaan maken van samenvoegingen.
 
-Nu al deze vereisten zijn geregeld, kunnen we beginnen met het spannende gedeelte: het coderen van onze oplossing!
+Nu we aan al deze voorwaarden hebben voldaan, kunnen we beginnen met het spannende gedeelte: het coderen van onze oplossing!
 
 ## Pakketten importeren
 
@@ -58,7 +58,7 @@ string outputDir = "Your Document Directory";
 
  Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad naar uw bestanden.
 
-## Stap 2: Maak een werkboek
+## Stap 2: Maak een werkmap
 
 Nu u de mappen hebt ingesteld, is het tijd om een Workbook-object te maken. Met dit object kunt u het Excel-bestand manipuleren. U kunt dit doen met de volgende code:
 
@@ -100,7 +100,7 @@ Hier komt de cruciale stap: de cellen samenvoegen! U wilt het bereik van de same
 cells.UnMerge(5, 2, 2, 3);
 ```
 
- In dit voorbeeld is de`UnMerge` De methode gebruikt vier parameters: de beginrij-index (5), de beginkolom-index (2), het aantal rijen waarvan de samenvoeging ongedaan moet worden gemaakt (2) en het aantal kolommen waarvan de samenvoeging ongedaan moet worden gemaakt (3). Pas deze parameters aan zodat ze overeenkomen met de specifieke samengevoegde cellen in uw Excel-bestand.
+ In dit voorbeeld is de`UnMerge` De methode heeft vier parameters: de beginrij-index (5), de beginkolom-index (2), het aantal rijen waarvan de samenvoeging ongedaan moet worden gemaakt (2) en het aantal kolommen waarvan de samenvoeging ongedaan moet worden gemaakt (3). Pas deze parameters aan zodat ze overeenkomen met de specifieke samengevoegde cellen in uw Excel-bestand.
 
 ## Stap 6: Sla de werkmap op
 
@@ -125,7 +125,7 @@ En daar heb je het! Je hebt succesvol cellen in een Excel-bestand samengevoegd m
 
 ## Conclusie
 
-Cellen samenvoegen lijkt misschien omslachtig, vooral als u met grote spreadsheets werkt, maar met Aspose.Cells voor .NET is het een fluitje van een cent! Deze tutorial leidde u door alles heen, van het instellen van uw omgeving tot het uitvoeren van de code die nodig is om cellen effectief samen te voegen. De flexibiliteit die de Aspose.Cells-bibliotheek biedt, stelt u in staat om spreadsheets efficiënt te verwerken, waardoor het een ideale keuze is voor ontwikkelaars die met Excel-bestanden werken. Duik er dus in en begin te genieten van schonere, beter beheerbare spreadsheets.
+Cellen samenvoegen lijkt misschien omslachtig, vooral als u met grote spreadsheets werkt, maar met Aspose.Cells voor .NET is het een fluitje van een cent! Deze tutorial leidde u door alles heen, van het instellen van uw omgeving tot het uitvoeren van de code die nodig is om cellen effectief samen te voegen. De flexibiliteit die de Aspose.Cells-bibliotheek biedt, stelt u in staat om spreadsheets efficiënt te verwerken, waardoor het een ideale keuze is voor ontwikkelaars die met Excel-bestanden werken. Dus duik erin en begin te genieten van schonere, beter beheerbare spreadsheets.
 
 ## Veelgestelde vragen
 

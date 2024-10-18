@@ -52,7 +52,7 @@ Als nächstes müssen wir uns ein bestimmtes Arbeitsblatt innerhalb der Arbeitsm
 Worksheet ws = wb.Worksheets[0];
 ```
  Hier indizieren wir in die`Worksheets` Sammlung, um das erste Blatt zu greifen.
-## Schritt 3: Erstellen Sie einen Bereich
+## Schritt 3: Einen Bereich erstellen
 Lassen Sie uns nun einen Bereich in unserem Arbeitsblatt erstellen. Ein Bereich kann eine einzelne Zelle oder eine Gruppe von Zellen sein. Wir erstellen einen Bereich, der von A1 bis B3 reicht.
 ```csharp
 // Erstellen Sie den Bereich A1:B3.

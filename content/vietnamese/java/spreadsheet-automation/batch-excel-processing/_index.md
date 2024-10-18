@@ -8,7 +8,7 @@ weight: 10
 url: /vi/java/spreadsheet-automation/batch-excel-processing/
 ---
 
-Xử lý nhiều tệp Excel trong một quy trình hàng loạt có thể tốn thời gian và dễ xảy ra lỗi nếu thực hiện thủ công. Trong hướng dẫn này, chúng ta sẽ khám phá cách sắp xếp hợp lý các tác vụ xử lý Excel hàng loạt bằng Aspose.Cells for Java, một API Java mạnh mẽ để làm việc với các tệp Excel.
+Xử lý nhiều tệp Excel trong một quy trình hàng loạt có thể tốn thời gian và dễ xảy ra lỗi nếu thực hiện thủ công. Trong hướng dẫn này, chúng ta sẽ khám phá cách hợp lý hóa các tác vụ xử lý Excel hàng loạt bằng Aspose.Cells for Java, một API Java mạnh mẽ để làm việc với các tệp Excel.
 
 ## Tại sao nên tự động xử lý hàng loạt Excel?
 
@@ -21,7 +21,7 @@ Việc tự động xử lý hàng loạt Excel mang lại một số lợi th�
 
 ## Bắt đầu
 
-### 1. Thiết lập Môi trường
+### 1. Thiết lập môi trường
 
  Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 

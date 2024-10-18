@@ -17,7 +17,7 @@ Trước khi đi sâu vào các chi tiết kỹ thuật về cách quản lý k�
 
 1. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp quá trình tích hợp Aspose.Cells vào các dự án của bạn dễ dàng hơn đáng kể.
 2. Đã cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy để viết và thực thi mã C#.
-3.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải có được Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải có được Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
 4. Trình quản lý gói NuGet: Đảm bảo bạn có quyền truy cập vào Trình quản lý gói NuGet vì bạn có thể dễ dàng cài đặt Aspose.Cells bằng trình quản lý này.
 
 Với những điều kiện tiên quyết này, chúng ta hãy bắt đầu nhé!

@@ -110,7 +110,7 @@ Gardez à l'esprit qu'il ne s'agit là que de la pointe de l'iceberg en ce qui c
 ## FAQ
 
 ### Qu'est-ce qu'Aspose.Cells ?
-Aspose.Cells est une bibliothèque robuste pour la manipulation de feuilles de calcul Excel dans les applications .NET.
+Aspose.Cells est une bibliothèque robuste pour manipuler des feuilles de calcul Excel dans des applications .NET.
 
 ### Comment télécharger Aspose.Cells ?
  Vous pouvez le télécharger à partir du[site officiel](https://releases.aspose.com/cells/net/).

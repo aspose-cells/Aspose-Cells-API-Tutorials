@@ -140,7 +140,7 @@ Console.WriteLine("ModifyLineChart executed successfully.");
 
 ## Következtetés 
 
-vonaldiagramok módosítása az Aspose.Cells for .NET használatával nem feltétlenül ijesztő feladat. Amint láttuk, ezen egyszerű lépések követésével adatsorokat adhat hozzá, vizuális elemeket testreszabhat, és dinamikus diagramokat hozhat létre, amelyek elmondják az adatok mögött meghúzódó történetet. Ez nem csak erősíti az előadásokat, hanem javítja a megértést is. Akkor minek várni? Kezdjen el kísérletezni a diagramokkal még ma, és váljon adatvizualizációs mesterré!
+vonaldiagramok módosítása az Aspose.Cells for .NET használatával nem feltétlenül ijesztő feladat. Amint láttuk, ezen egyszerű lépések követésével adatsorokat adhat hozzá, vizuális elemeket testreszabhat, és dinamikus diagramokat hozhat létre, amelyek elmesélik az adatok mögött rejlő történetet. Ez nem csak erősíti az előadásokat, hanem javítja a megértést is. Akkor minek várni? Kezdjen el kísérletezni a diagramokkal még ma, és váljon adatvizualizációs mesterré!
 
 ## GYIK
 

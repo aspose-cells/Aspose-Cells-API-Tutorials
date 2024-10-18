@@ -10,7 +10,7 @@ url: /pl/java/advanced-excel-charts/chart-annotations/
 
 ## Wprowadzenie do adnotacji wykresów przy użyciu Aspose.Cells dla języka Java
 
-W świecie wizualizacji danych wykresy odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Pozwalają nam reprezentować złożone dane w wizualnie atrakcyjny i zrozumiały sposób. Jednak aby uczynić te wykresy jeszcze bardziej informacyjnymi, w grę wchodzą adnotacje. Adnotacje dostarczają dodatkowego kontekstu i spostrzeżeń do danych przedstawionych na wykresie. W tym artykule przyjrzymy się, jak dodawać adnotacje wykresów za pomocą Aspose.Cells for Java, potężnego interfejsu API Java do pracy z plikami Excel.
+świecie wizualizacji danych wykresy odgrywają kluczową rolę w skutecznym przekazywaniu informacji. Pozwalają nam reprezentować złożone dane w wizualnie atrakcyjny i zrozumiały sposób. Jednak aby uczynić te wykresy jeszcze bardziej informacyjnymi, w grę wchodzą adnotacje. Adnotacje dostarczają dodatkowego kontekstu i spostrzeżeń do danych przedstawionych na wykresie. W tym artykule przyjrzymy się, jak dodawać adnotacje wykresów za pomocą Aspose.Cells for Java, potężnego interfejsu API Java do pracy z plikami Excel.
 
 ## Wymagania wstępne
 
@@ -26,7 +26,7 @@ Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące 
 
 ## Tworzenie skoroszytu programu Excel
 
-Zacznijmy od utworzenia nowego skoroszytu programu Excel przy użyciu Aspose.Cells for Java. Ten skoroszyt będzie służył jako nasze płótno do dodawania wykresu z adnotacjami.
+Zacznijmy od utworzenia nowego skoroszytu programu Excel przy użyciu Aspose.Cells for Java. Ten skoroszyt będzie służył jako płótno do dodawania wykresu z adnotacjami.
 
 ```java
 // Kod Java do utworzenia nowego skoroszytu programu Excel
@@ -94,7 +94,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak dodawać adnotacje do wykresów za pomocą Aspose.Cells for Java. Adnotacje zwiększają przejrzystość i zrozumienie wykresów, czyniąc je bardziej informacyjnymi dla odbiorców. Możesz eksplorować bardziej zaawansowane opcje adnotacji i formatowania, aby tworzyć atrakcyjne wizualnie wykresy dostosowane do Twoich konkretnych potrzeb.
+tym samouczku nauczyliśmy się, jak dodawać adnotacje do wykresów za pomocą Aspose.Cells for Java. Adnotacje zwiększają przejrzystość i zrozumienie wykresów, czyniąc je bardziej informacyjnymi dla odbiorców. Możesz eksplorować bardziej zaawansowane opcje adnotacji i formatowania, aby tworzyć atrakcyjne wizualnie wykresy dostosowane do Twoich konkretnych potrzeb.
 
 ## Najczęściej zadawane pytania
 

@@ -122,7 +122,7 @@ L'etichettatura dei dati è un passaggio cruciale per rendere i dati del tuo fog
 
 ### Come faccio a installare Aspose.Cells per Java?
 
- Per installare Aspose.Cells per Java, visitare il[documentazione](https://reference.aspose.com/cells/java/) per istruzioni dettagliate sull'installazione.
+ Per installare Aspose.Cells per Java, visitare il sito[documentazione](https://reference.aspose.com/cells/java/) per istruzioni dettagliate sull'installazione.
 
 ### Posso personalizzare l'aspetto delle etichette?
 

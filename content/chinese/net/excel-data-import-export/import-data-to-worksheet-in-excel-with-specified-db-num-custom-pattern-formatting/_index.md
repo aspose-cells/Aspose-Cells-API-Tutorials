@@ -13,10 +13,10 @@ url: /zh/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-spe
 
 ## 先决条件
 
-在我们深入讨论细节之前，让我们先确保您已准备好一切所需。以下是一份快速的先决条件清单，可帮助您取得成功：
+在深入讨论细节之前，让我们先确保您已准备好一切所需。以下是一份快速的先决条件清单，可帮助您取得成功：
 
 1. .NET Framework：确保您的机器上安装了 .NET Framework。Aspose.Cells 可与各种 .NET 版本无缝协作。
-2.  Aspose.Cells for .NET：您需要下载并安装 Aspose.Cells 库。您可以从[下载链接](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET：您需要下载并安装 Aspose.Cells 库。您可以从[下载链接](https://releases.aspose.com/cells/net/).
 3. 集成开发环境 (IDE)：使用 Visual Studio 之类的 IDE，您可以在其中编写和执行 C# 代码。
 4. C# 基础知识：对 C# 有基本的了解将帮助您遵循我们在本指南中使用的编码实践。
 
@@ -45,7 +45,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-这条简单的线路是您通往 Aspose.Cells 提供的所有功能的门户。 
+这条简单的线路是您通向 Aspose.Cells 提供的所有功能的门户。 
 
 现在我们已经满足了所有先决条件并导入了必要的包，让我们深入了解将数据导入 Excel 并应用自定义 DB Num 模式格式的分步过程。我们将有条不紊地进行这一过程，以确保清晰易懂。
 

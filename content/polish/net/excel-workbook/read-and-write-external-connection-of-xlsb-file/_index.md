@@ -15,7 +15,7 @@ Hej, entuzjaści Excela! Jesteście gotowi zanurzyć się w fascynujący świat 
 
 Zanim zaczniemy, oto kilka rzeczy, których będziesz potrzebować:
 
-1. Podstawowa wiedza o C#: Znajomość języka programowania C# będzie bardzo pomocna. Jeśli czujesz się swobodnie pisząc kod C#, możesz zaczynać!
+1. Podstawowa wiedza o C#: Znajomość języka programowania C# będzie bardzo pomocna. Jeśli czujesz się swobodnie pisząc kod C#, jesteś gotowy!
 2.  Aspose.Cells dla .NET: Musisz mieć tę bibliotekę zainstalowaną w swoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz ją łatwo pobrać[Tutaj](https://releases.aspose.com/cells/net/). 
 3. IDE: Będziesz potrzebować edytora kodu lub zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio. 
 4. Przykładowy plik XLSB: Będziemy pracować z przykładowym plikiem XLSB, który zawiera połączenia zewnętrzne. Możesz utworzyć własny lub pobrać próbki online. 
@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- W tym fragmencie kodu,`"Your Document Directory"` I`"Your Document Directory"` zakłada się, że pobierają odpowiednie ścieżki do miejsca, w którym będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
+ W tym fragmencie kodu,`"Your Document Directory"` I`"Your Document Directory"` zakłada się, że pobierają odpowiednie ścieżki, gdzie będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
 
 ## Krok 2: Załaduj plik XLSB
 
@@ -134,4 +134,4 @@ Plik XLSB to binarny format pliku programu Excel, który przechowuje dane arkusz
 Oczywiście! Aspose.Cells obsługuje wiele formatów plików, w tym XLSX, CSV i inne.
 
 ### Gdzie mogę szukać pomocy, jeśli napotkam problemy?  
- Możesz uzyskać pomoc na forach Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+ Wsparcie możesz uzyskać na forach Aspose[Tutaj](https://forum.aspose.com/c/cells/9).

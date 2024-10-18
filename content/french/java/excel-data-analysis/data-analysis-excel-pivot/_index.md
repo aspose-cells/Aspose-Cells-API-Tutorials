@@ -87,7 +87,7 @@ Maintenant que nous avons créé et personnalisé notre tableau croisé dynamiqu
 
 ## Conclusion
 
-Dans ce guide, nous avons exploré comment effectuer une analyse de données dans Excel à l'aide d'Aspose.Cells pour Java. Nous avons commencé par créer un nouveau classeur, importer des données et créer un tableau croisé dynamique. Ensuite, nous avons défini les champs du tableau croisé dynamique, agrégé les données et personnalisé la mise en page. Grâce à ces outils, vous pouvez exploiter tout le potentiel de l'analyse de données dans Excel avec Java.
+Dans ce guide, nous avons découvert comment effectuer une analyse de données dans Excel à l'aide d'Aspose.Cells pour Java. Nous avons commencé par créer un nouveau classeur, importer des données et créer un tableau croisé dynamique. Ensuite, nous avons défini les champs du tableau croisé dynamique, agrégé les données et personnalisé la mise en page. Grâce à ces outils, vous pouvez exploiter tout le potentiel de l'analyse de données dans Excel avec Java.
 
 ## FAQ
 

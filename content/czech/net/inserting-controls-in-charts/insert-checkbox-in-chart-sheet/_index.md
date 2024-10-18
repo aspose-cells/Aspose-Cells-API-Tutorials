@@ -91,7 +91,7 @@ V tomto kódu jste:
 
 Považujte tento krok za výběr typu rámečku obrazu, který chcete, než do něj umístíte kresbu.
 
-## Krok 4: Přidání datových řad do grafu
+## Krok 4: Přidání datových řad do vašeho grafu
 
 V tomto okamžiku naplníme graf nějakými datovými řadami. Chcete-li přidat ukázková data:
 ```csharp

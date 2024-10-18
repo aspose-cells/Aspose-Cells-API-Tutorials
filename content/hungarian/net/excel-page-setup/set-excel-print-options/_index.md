@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Ezután létre kell hoznunk a`Workbook` objektum. Ez az objektum a táblázat adatainak tárolójaként működik.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 

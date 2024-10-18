@@ -20,7 +20,7 @@ url: /ru/java/excel-data-security/excel-password-protection/
 -  Aspose.Cells для Java API (Вы можете скачать его[здесь](https://releases.aspose.com/cells/java/)
 - Базовые знания программирования на Java
 
-## Настройка окружающей среды
+## Создание среды
 
 Для начала вам следует настроить среду разработки. Выполните следующие шаги:
 

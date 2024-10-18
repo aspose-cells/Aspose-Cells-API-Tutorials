@@ -8,7 +8,7 @@ weight: 11
 url: /de/net/excel-working-with-hyperlinks/add-link-to-other-sheet-cell/
 ---
 ## Einführung
-Stellen Sie sich vor, Sie navigieren durch einen geschäftigen Flughafen; Sie möchten keine Zeit damit verschwenden, nach Ihrem Gate zu suchen. Stattdessen führen Sie klare Schilder und hilfreiche Links nahtlos zu Ihrem Ziel. In ähnlicher Weise kann das Hinzufügen von Hyperlinks in Tabellenkalkulationssoftware wie Excel die Navigation vereinfachen und Ihre Daten benutzerfreundlicher machen. Egal, ob Sie ein komplexes Budget verwalten, Verkäufe verfolgen oder große Datensätze verarbeiten, die Möglichkeit, auf andere Tabellen zu verlinken, kann Ihnen eine Menge Zeit und Verwirrung ersparen. Heute werden wir uns damit befassen, wie Sie mit Aspose.Cells für .NET einen Link zu einer Zelle in einem anderen Tabellenblatt hinzufügen. Diese Anleitung führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie diese leistungsstarke Funktion in Ihre Excel-Tabellen implementieren können.
+Stellen Sie sich vor, Sie navigieren durch einen geschäftigen Flughafen; Sie möchten keine Zeit damit verschwenden, nach Ihrem Gate zu suchen. Stattdessen führen Sie klare Schilder und hilfreiche Links nahtlos zu Ihrem Ziel. In ähnlicher Weise kann das Hinzufügen von Hyperlinks in Tabellenkalkulationssoftware wie Excel die Navigation vereinfachen und Ihre Daten benutzerfreundlicher machen. Ganz gleich, ob Sie ein komplexes Budget verwalten, Verkäufe verfolgen oder große Datensätze verarbeiten, die Möglichkeit, auf andere Tabellen zu verlinken, kann Ihnen eine Menge Zeit und Verwirrung ersparen. Heute werden wir uns damit befassen, wie Sie mit Aspose.Cells für .NET einen Link zu einer Zelle in einem anderen Tabellenblatt hinzufügen. Diese Anleitung führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie diese leistungsstarke Funktion in Ihre Excel-Tabellen implementieren können.
 ## Voraussetzungen
 Bevor wir beginnen, benötigen Sie einige Dinge:
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Es ist ein praktisches Tool für die .NET-Entwicklung.
@@ -32,7 +32,7 @@ Bevor wir Code schreiben, müssen wir ein neues C#-Projekt erstellen.
 3. Geben Sie Ihrem Projekt einen aussagekräftigen Namen, etwa „ExcelLinkDemo“.
 4. Fügen Sie einen Verweis auf Aspose.Cells.dll hinzu. Klicken Sie dazu im Solution Explorer mit der rechten Maustaste auf „Verweise“, wählen Sie „Verweis hinzufügen“ und navigieren Sie zu dem Ort, an dem Sie Aspose.Cells installiert haben.
 ## Schritt 2: Definieren Sie Ihr Ausgabeverzeichnis
-Als Nächstes müssen Sie angeben, wo Sie Ihre Excel-Ausgabedatei speichern möchten. So können Sie dies in Ihrem Code definieren:
+Als Nächstes müssen Sie angeben, wo Sie Ihre Excel-Ausgabedatei speichern möchten. So können Sie es in Ihrem Code definieren:
 ```csharp
 // Ausgabeverzeichnis für Ihre Excel-Datei
 string outputDir = "Your Document Directory"; // Ersetzen Sie es durch Ihr Verzeichnis
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Ersetzen Sie es durch Ihr Verze
 ## Schritt 3: Instanziieren des Arbeitsmappenobjekts
 Jetzt können Sie Ihre Excel-Arbeitsmappe erstellen! Hier werden alle Ihre Blätter und Daten gespeichert.
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 Diese Zeile initialisiert eine neue Arbeitsmappe im Speicher und gibt Ihnen eine leere Leinwand zum Arbeiten.
@@ -49,7 +49,7 @@ Diese Zeile initialisiert eine neue Arbeitsmappe im Speicher und gibt Ihnen eine
 In Excel kann jede Arbeitsmappe mehrere Blätter enthalten. Fügen wir unserer Arbeitsmappe eines hinzu.
 ```csharp
 // Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
-workbook.Worksheets.Add(); //Fügt standardmäßig ein neues leeres Arbeitsblatt hinzu
+workbook.Worksheets.Add(); // Fügt standardmäßig ein neues leeres Arbeitsblatt hinzu
 ```
 Dieser Befehl fügt ein neues Arbeitsblatt hinzu. Jetzt enthält Ihre Arbeitsmappe mindestens ein Blatt, das Sie bearbeiten können.
 ## Schritt 5: Zugriff auf das erste Arbeitsblatt
@@ -70,7 +70,7 @@ Mit diesem Befehl weisen wir Excel an, die Zelle „B3“ in einen Link umzuwand
 - Der Blattindex, auf den wir verlinken (1, bezieht sich auf das zweite Blatt).
 - Die Zielzelle, mit der wir verknüpfen möchten (die Zelle in „Tabelle2“).
 ## Schritt 7: Anzeigetext für Hyperlink hinzufügen
-Wenn Sie auf einen Hyperlink klicken, möchten Sie, dass ein Text angezeigt wird, der Ihnen verdeutlicht, wohin der Link führt. Hier kommt die nächste Zeile ins Spiel.
+Wenn Sie auf einen Hyperlink klicken, möchten Sie einen Anzeigetext, der Ihnen verrät, wohin der Link führt. Hier kommt die nächste Zeile ins Spiel.
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Link To Other Sheet Cell";
 ```

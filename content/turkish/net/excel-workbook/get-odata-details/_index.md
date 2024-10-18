@@ -33,7 +33,7 @@ Kodlama yolculuğumuza gerekli paketleri projemize aktararak başlayalım. Bu pa
 3. "Konsol Uygulaması (.NET Core)" veya "Konsol Uygulaması (.NET Framework)" seçeneğini seçin; tercihiniz yeterli olacaktır.
 4. Projenize bir isim verin (örneğin, ODataDetailsExtractor) ve “Oluştur”a tıklayın.
 
-### Aspose.Cells NuGet Paketini Yükle
+### Aspose.Cells NuGet Paketini Yükleyin
 
 Aspose.Cells ile çalışmak için NuGet Paket Yöneticisi aracılığıyla yüklemeniz gerekir:
 

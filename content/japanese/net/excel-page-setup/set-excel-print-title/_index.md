@@ -2,7 +2,7 @@
 title: Excel 印刷タイトルを設定する
 linktitle: Excel 印刷タイトルを設定する
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel の印刷タイトルを効率的に設定する方法を学びます。ステップバイステップのガイドを使用して印刷プロセスを効率化します。
+description: Aspose.Cells for .NET を使用して Excel の印刷タイトルを効率的に設定する方法を学びます。ステップ バイ ステップ ガイドを使用して印刷プロセスを効率化します。
 type: docs
 weight: 170
 url: /ja/net/excel-page-setup/set-excel-print-title/

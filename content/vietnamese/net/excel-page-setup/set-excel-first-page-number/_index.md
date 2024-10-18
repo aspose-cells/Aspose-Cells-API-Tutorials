@@ -9,7 +9,7 @@ url: /vi/net/excel-page-setup/set-excel-first-page-number/
 ---
 ## Giới thiệu
 
-Khi nói đến việc thao tác các tệp Excel theo chương trình, Aspose.Cells for .NET nổi bật như một thư viện mạnh mẽ. Cho dù bạn đang phát triển một ứng dụng web tạo báo cáo hay xây dựng một ứng dụng máy tính để bàn quản lý dữ liệu, việc kiểm soát định dạng tệp Excel là rất quan trọng. Một trong những tính năng thường bị bỏ qua là thiết lập số trang đầu tiên của bảng tính Excel của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thực hiện điều đó theo từng bước.
+Khi nói đến việc thao tác các tệp Excel theo chương trình, Aspose.Cells for .NET nổi bật như một thư viện mạnh mẽ. Cho dù bạn đang phát triển một ứng dụng web tạo báo cáo hay xây dựng một ứng dụng máy tính để bàn quản lý dữ liệu, việc kiểm soát định dạng tệp Excel là rất quan trọng. Một trong những tính năng thường bị bỏ qua là thiết lập số trang đầu tiên của bảng tính Excel. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thực hiện điều đó theo từng bước.
 
 ## Điều kiện tiên quyết
 
@@ -116,4 +116,4 @@ Có! Bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xu�
  Đối với bất kỳ câu hỏi nào liên quan đến hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể sử dụng Aspose.Cells trong môi trường đám mây không?
-Có, Aspose.Cells có thể được tích hợp vào bất kỳ ứng dụng .NET nào, bao gồm cả các thiết lập dựa trên đám mây, miễn là thời gian chạy .NET được hỗ trợ.
+Có, Aspose.Cells có thể được tích hợp vào bất kỳ ứng dụng .NET nào, bao gồm cả các thiết lập trên nền tảng đám mây, miễn là thời gian chạy .NET được hỗ trợ.

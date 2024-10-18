@@ -8,7 +8,7 @@ weight: 12
 url: /nl/net/excel-working-with-hyperlinks/add-link-to-url/
 ---
 ## Invoering
-Wilt u uw Excel-spreadsheet verbeteren door hyperlinks toe te voegen? Misschien wilt u linken naar een website of een ander document – hoe dan ook, u bent hier aan het juiste adres! In deze gids gaan we in op hoe u een link naar een URL in een Excel-bestand kunt toevoegen met Aspose.Cells voor .NET. Of u nu een doorgewinterde professional bent of een beginner, ik zal het in eenvoudige, boeiende stappen uitleggen waarmee u spreadsheets kunt maken als een tovenaar. Dus pak uw favoriete drankje, ga zitten en laten we beginnen!
+Wilt u uw Excel-spreadsheet verbeteren door hyperlinks toe te voegen? Misschien wilt u linken naar een website of een ander document – hoe dan ook, u bent hier aan het juiste adres! In deze gids gaan we in op hoe u een link naar een URL in een Excel-bestand kunt toevoegen met Aspose.Cells voor .NET. Of u nu een doorgewinterde professional bent of een beginner, ik zal het uitleggen in eenvoudige, boeiende stappen waarmee u spreadsheets kunt maken als een tovenaar. Dus pak uw favoriete drankje, ga zitten en laten we beginnen!
 ## Vereisten
 Voordat we dieper ingaan op het toevoegen van een hyperlink in Excel met Aspose.Cells, zijn er een paar vereisten die u moet afvinken:
 1. .NET Framework: Zorg ervoor dat u de benodigde .NET-omgeving hebt ingesteld. Aspose.Cells is compatibel met verschillende versies van .NET, dus kies degene die het beste bij uw project past.
@@ -43,9 +43,9 @@ string outputDir = "Your Document Directory/"; // Verandering op je pad
 ```
  Zorg ervoor dat u vervangt`"Your Document Directory/"` met het daadwerkelijke pad waar u het uitvoerbestand wilt opslaan. 
 ## Stap 2: Een werkmapobject maken
- Hier maken we een instantie van de`Workbook` klas. Beschouw een werkboek als een leeg canvas voor je spreadsheet.
+ Hier maken we een instantie van de`Workbook` klas. Beschouw een werkboek als een leeg canvas voor uw spreadsheet.
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 In dit stadium zeg je eigenlijk: "Hé, Aspose, laten we een nieuw Excel-bestand maken!"
@@ -80,7 +80,7 @@ workbook.Save(outputDir + "outputAddingLinkToURL.xlsx");
 ```
 U zou nu een nieuw Excel-bestand in de door u opgegeven map moeten zien!
 ## Stap 7: Bevestig de uitvoering
-Optioneel kunt u een consolebericht toevoegen om te bevestigen dat alles soepel is verlopen.
+kunt er eventueel voor kiezen om een consolebericht toe te voegen om te bevestigen dat alles soepel is verlopen.
 ```csharp
 Console.WriteLine("AddingLinkToURL executed successfully.");
 ```

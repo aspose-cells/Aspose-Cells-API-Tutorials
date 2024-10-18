@@ -2,7 +2,7 @@
 title: Métodos de criptografia de pasta de trabalho
 linktitle: Métodos de criptografia de pasta de trabalho
 second_title: API de processamento Java Excel Aspose.Cells
-description: Melhore a Segurança de Dados com Aspose.Cells para Criptografia de Pasta de Trabalho Java. Aprenda a Criptografar Pastas de Trabalho do Excel Passo a Passo.
+description: Melhore a segurança de dados com Aspose.Cells para Java Workbook Encryption. Aprenda a criptografar planilhas do Excel passo a passo.
 type: docs
 weight: 12
 url: /pt/java/excel-data-security/workbook-encryption-methods/
@@ -46,7 +46,7 @@ Workbook workbook = new Workbook("path/to/your/workbook.xlsx");
 
 ### Etapa 3: criptografar a pasta de trabalho
 
-Agora, é hora de aplicar criptografia à pasta de trabalho. O Aspose.Cells para Java fornece opções de criptografia que você pode usar com base em seus requisitos de segurança. Aqui estão alguns métodos comuns de criptografia:
+Agora, é hora de aplicar criptografia à pasta de trabalho. O Aspose.Cells for Java fornece opções de criptografia que você pode usar com base em seus requisitos de segurança. Aqui estão alguns métodos comuns de criptografia:
 
 ### Criptografia baseada em senha
 

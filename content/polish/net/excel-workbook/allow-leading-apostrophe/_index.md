@@ -9,7 +9,7 @@ url: /pl/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## Wstęp
 
-Witamy w tym przewodniku krok po kroku, jak używać Aspose.Cells dla .NET do bezproblemowego zarządzania arkuszami kalkulacyjnymi, ze szczególnym uwzględnieniem obsługi wiodących apostrofów w wartościach komórek. Umiejętność efektywnego zarządzania danymi jest kluczowa w dzisiejszym świecie skoncentrowanym na danych. Czy zauważyłeś kiedyś, że Excel czasami może traktować wartości tekstowe zaczynające się od apostrofu inaczej? Może to prowadzić do nieoczekiwanych rezultatów, jeśli automatyzujesz zadania programu Excel za pomocą kodu .NET. Nie obawiaj się! Ten samouczek pomoże Ci poruszać się po tym. 
+Witamy w tym przewodniku krok po kroku, jak używać Aspose.Cells dla .NET do bezproblemowego zarządzania arkuszami kalkulacyjnymi, ze szczególnym uwzględnieniem obsługi wiodących apostrofów w wartościach komórek. Umiejętność efektywnego zarządzania danymi jest kluczowa w dzisiejszym świecie skoncentrowanym na danych. Czy zauważyłeś kiedyś, że Excel czasami może traktować wartości tekstowe zaczynające się od apostrofu inaczej? Może to prowadzić do nieoczekiwanych rezultatów, jeśli automatyzujesz zadania programu Excel za pomocą kodu .NET. Nie obawiaj się! Ten samouczek pomoże Ci się przez to poruszać. 
 
 ## Wymagania wstępne
 
@@ -70,7 +70,7 @@ Przykładowy plik Excela tutaj musi zawierać inteligentne znaczniki, aby ta fun
 
 ## Krok 4: Skonfiguruj ustawienia skoroszytu
 
-Teraz musisz się upewnić, że ustawienia skoroszytu są skonfigurowane tak, aby prawidłowo obsługiwać wiodące apostrofy.
+Teraz należy upewnić się, że ustawienia skoroszytu są skonfigurowane tak, aby prawidłowo obsługiwać wiodące apostrofy.
 
 ```csharp
 workbook.Settings.QuotePrefixToStyle = false;
@@ -136,7 +136,7 @@ Dzięki temu prostemu wynikowi konsoli możesz mieć pewność, że wszystkie kr
 
 W tym przewodniku omówiliśmy zawiłości obsługi apostrofów wiodących w programie Excel przy użyciu Aspose.Cells dla .NET. Od konfiguracji środowiska po efektywne manipulowanie plikami programu Excel, nauczyłeś się eliminować potencjalne pułapki często spotykane podczas pracy z ciągami liczbowymi i automatycznym formatowaniem.
 
-Teraz, niezależnie od tego, czy generujesz raporty, tworzysz funkcjonalności do analizy danych, czy zarządzasz importem i eksportem danych, masz narzędzia, które pozwolą Ci pewnie stawić czoła tym scenariuszom!
+Teraz, niezależnie od tego, czy generujesz raporty, tworzysz funkcjonalności do analizy danych, czy zarządzasz importem i eksportem danych, masz narzędzia, które pozwolą Ci pewnie stawić czoła takim scenariuszom!
 
 ## Najczęściej zadawane pytania
 

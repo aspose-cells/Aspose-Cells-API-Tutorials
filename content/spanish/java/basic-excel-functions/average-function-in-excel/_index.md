@@ -107,7 +107,7 @@ Aspose.Cells para Java ofrece una amplia gama de funciones que van más allá de
 
 ## Conclusión
 
-En este artículo, hemos explorado cómo usar la función PROMEDIO en Excel con Aspose.Cells para Java. Comenzamos configurando el entorno de desarrollo, creando un nuevo libro de Excel, agregando datos, usando la función PROMEDIO, formateando la hoja y manejando errores. Aspose.Cells para Java proporciona una solución sólida para automatizar tareas de Excel de manera programática, lo que lo convierte en una herramienta valiosa para la manipulación y el análisis de datos.
+En este artículo, hemos explorado cómo utilizar la función PROMEDIO en Excel con Aspose.Cells para Java. Comenzamos configurando el entorno de desarrollo, creando un nuevo libro de Excel, agregando datos, utilizando la función PROMEDIO, formateando la hoja y manejando errores. Aspose.Cells para Java proporciona una solución sólida para automatizar tareas de Excel de manera programática, lo que lo convierte en una herramienta valiosa para la manipulación y el análisis de datos.
 
 ## Preguntas frecuentes
 

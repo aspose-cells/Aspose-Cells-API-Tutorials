@@ -17,14 +17,14 @@ Mielőtt belevetnénk magunkat a diagramkészítés aprólékos dolgaiba, győz�
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez elengedhetetlen a .NET kód írásához és végrehajtásához.
 2. .NET-keretrendszer: Ez az útmutató a .NET-keretrendszerrel vagy a .NET Core-val működik a legjobban. Győződjön meg arról, hogy a szükséges verzió (4.5 vagy újabb) telepítve van.
-3. Aspose.Cells: Szüksége lesz az Aspose.Cells könyvtárra. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Szüksége lesz az Aspose.Cells könyvtárra. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
 4. Alapvető C# ismeretek: A C# programozás alapjainak ismerete segít a lépések jobb megértésében. Ne aggódj, ha nem vagy profi – mindent elmagyarázok!
 
 ## Csomagok importálása
 
 Most, hogy mindent beállított, az első technikai lépés a szükséges csomagok importálása. Ez lehetővé teszi számunkra, hogy kihasználjuk az Aspose.Cells által kínált funkciókat. A következőképpen teheti meg:
 
-1. A projekt megnyitása: Indítsa el a Visual Studio alkalmazást, és nyissa meg vagy hozzon létre egy új projektet.
+1. Nyissa meg projektjét: Indítsa el a Visual Studio alkalmazást, és nyissa meg vagy hozzon létre egy új projektet.
 2. Az Aspose.Cells telepítése: Ha még nem tette meg, telepítse az Aspose.Cells csomagot. Ezt a NuGet Package Manager segítségével teheti meg. Lépjen az Eszközök -> NuGet csomagkezelő -> Manage NuGet Packages for Solution menüpontra, keresse meg az „Aspose.Cells” kifejezést, és telepítse a projektbe.
 3. Irányelvek hozzáadása: A kódfájl tetején adja hozzá ezeket direktívák segítségével:
 
@@ -107,7 +107,7 @@ Mostantól közvetlen hozzáférése van diagramja módosításához és javít�
 
 ## 6. lépés: Kösse össze az adatokat a diagrammal
 
-A diagramnak tudnia kell, hogy mely adatokat kell megjelenítenie. Kössük a diagramhoz korábban bevitt adatainkat.
+A diagramnak tudnia kell, hogy mely adatokat kell megjelenítenie. Kössük a diagramhoz a korábban megadott adatainkat.
 
 Így adhatunk hozzá sorozatot a diagramunkhoz az imént bevitt adatok felhasználásával:
 
@@ -174,4 +174,4 @@ Igen! Az Aspose.Cells különböző platformokhoz, köztük Java, Python és Clo
  Kérhet segítséget és támogatást az Aspose.Cells közösségtől és a rendelkezésre álló fórumoktól[itt](https://forum.aspose.com/c/cells/9).
 
 ### Hogyan vásárolhatok licencet?
- licencet közvetlenül az Aspose webhelyéről vásárolhatja meg[itt](https://purchase.aspose.com/buy).
+ A licencet közvetlenül az Aspose webhelyéről vásárolhatja meg[itt](https://purchase.aspose.com/buy).

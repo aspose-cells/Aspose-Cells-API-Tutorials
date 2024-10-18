@@ -48,7 +48,7 @@ using System.Text;
 
 이러한 지시어는 컴파일러에게 사용하려는 클래스와 메서드를 어디에서 찾아야 하는지 알려줍니다.
 
-이 섹션에서는 프로세스를 쉽게 따를 수 있는 단계로 나누어 설명합니다. Excel 워크시트에 액세스하고, 필터를 적용하고, 숨겨진 행을 식별하게 되는데, 이 모든 것이 Aspose.Cells를 사용합니다.
+이 섹션에서는 프로세스를 쉽게 따를 수 있는 단계로 나누어 설명합니다. Excel 워크시트에 액세스하고, 필터를 적용하고, 숨겨진 행을 식별합니다. 모두 Aspose.Cells를 사용합니다.
 
 ## 1단계: 환경 설정
 
@@ -117,7 +117,7 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 ## 자주 묻는 질문
 
 ### Aspose.Cells란 무엇인가요?
-Aspose.Cells는 개발자가 Microsoft Excel이 없어도 Excel 파일을 만들고, 조작하고, 내보낼 수 있게 해주는 강력한 .NET용 라이브러리입니다.
+Aspose.Cells는 개발자가 Microsoft Excel이 없어도 Excel 파일을 만들고, 조작하고, 내보낼 수 있는 강력한 .NET용 라이브러리입니다.
 
 ### Aspose.Cells를 사용하여 Excel에서 데이터를 필터링할 수 있나요?
 네! Aspose.Cells에는 필터를 적용하고 Excel 데이터를 효과적으로 작업할 수 있는 내장 기능이 있습니다.

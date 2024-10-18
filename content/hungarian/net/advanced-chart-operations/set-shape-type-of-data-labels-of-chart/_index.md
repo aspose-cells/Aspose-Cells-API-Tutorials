@@ -44,7 +44,7 @@ Ezek a névterek lehetővé teszik a munkafüzetek, munkalapok és diagramok egy
 
 Most, hogy készen vagyunk, merüljünk bele a kódolási részbe! Az egyértelműség kedvéért lépésről lépésre bontjuk le.
 
-## 1. lépés: Határozza meg könyvtárait
+## 1. lépés: Határozza meg a könyvtárait
 
 Először is határozzuk meg, hol találhatók a fájlok – mind a forrásfájlban, mind a célmappában, ahová menteni szeretné a módosított fájlt.
 

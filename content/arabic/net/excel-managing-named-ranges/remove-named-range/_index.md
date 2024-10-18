@@ -19,7 +19,7 @@ url: /ar/net/excel-managing-named-ranges/remove-named-range/
 للعمل مع Aspose.Cells لـ .NET بسلاسة، تأكد من توفر ما يلي:
 
 1.  Visual Studio: قم بتنزيل Visual Studio وتثبيته (إصدار Community Edition جيد تمامًا) والذي يمكنك العثور عليه على[موقع فيجوال ستوديو](https://visualstudio.microsoft.com/).
-2. .NET Framework: تأكد من استخدام الإصدار المناسب من .NET Framework. يدعم Aspose.Cells إصدار .NET Framework 4.0 والإصدارات الأحدث.
+2. .NET Framework: تأكد من استخدام الإصدار المناسب من .NET Framework. يدعم Aspose.Cells إصدار .NET Framework 4.0 وما فوق.
 3. مكتبة Aspose.Cells: تحتاج إلى تنزيل مكتبة Aspose.Cells for .NET والرجوع إليها في تطبيقك. يمكنك العثور على الحزمة القابلة للتنزيل[هنا](https://releases.aspose.com/cells/net/).
 
 ### فهم أساسي للغة C#
@@ -210,7 +210,7 @@ Aspose.Cells عبارة عن مكتبة .NET مصممة للتعامل مع مل
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Cells[هنا](https://releases.aspose.com/).
 
 ### ما هي لغات البرمجة التي يدعمها Aspose.Cells؟
-ويدعم بشكل أساسي لغات .NET مثل C# وVB.NET وغيرها.
+إنه يدعم بشكل أساسي لغات .NET مثل C# و VB.NET وغيرها.
 
 ### أين يمكنني الحصول على الدعم إذا واجهت مشاكل؟
  يمكنك زيارة[منتدى دعم Aspose](https://forum.aspose.com/c/cells/9) للحصول على المساعدة في أي استفسار.

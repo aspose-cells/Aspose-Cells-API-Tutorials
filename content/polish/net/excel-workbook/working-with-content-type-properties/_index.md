@@ -16,7 +16,7 @@ Jeśli zagłębiasz się w świat manipulacji plikami Excela przy użyciu Aspose
 Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto kilka wymagań wstępnych:
 
 1. .NET Framework: Upewnij się, że masz zainstalowany .NET na swoim komputerze. Aspose.Cells działa najlepiej z .NET Standard lub .NET Core.
-2.  Biblioteka Aspose.Cells: Najnowszą wersję można pobrać ze strony[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/)Zainstaluj go za pomocą NuGet lub ręcznie dodaj odniesienie do swojego projektu.
+2.  Biblioteka Aspose.Cells: Najnowszą wersję można pobrać ze strony[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/)Zainstaluj go za pomocą NuGet lub ręcznie dodaj odwołanie do swojego projektu.
 3. Visual Studio: Solidne IDE ułatwi ci życie. Upewnij się, że masz je skonfigurowane na swoim komputerze.
 4. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# jest niezbędna, ponieważ będziemy pisać fragmenty kodu w tym języku.
 5. Znajomość programu Excel: Podstawowa znajomość programu Excel i jego składników pomoże Ci zrozumieć, co tu robimy.

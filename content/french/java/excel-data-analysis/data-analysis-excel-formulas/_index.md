@@ -26,7 +26,7 @@ Maintenant que notre environnement est prêt, explorons quelques techniques esse
 
 ### Formule SUM
 
-La formule SUM est l'une des fonctions les plus couramment utilisées pour l'analyse de données dans Excel. Elle vous permet d'additionner rapidement une plage de nombres. Voici comment vous pouvez l'utiliser avec Aspose.Cells pour Java :
+La formule SOMME est l'une des fonctions les plus couramment utilisées pour l'analyse de données dans Excel. Elle vous permet d'additionner rapidement une plage de nombres. Voici comment vous pouvez l'utiliser avec Aspose.Cells pour Java :
 
 ```java
 // Créer un classeur
@@ -86,7 +86,7 @@ pivotTable.calculateData();
 
 ## Conclusion
 
-Dans cet article, nous avons exploré l'analyse des données dans Excel à l'aide d'Aspose.Cells pour Java. Nous avons commencé par présenter la bibliothèque et configurer l'environnement Java. Ensuite, nous avons abordé les formules Excel de base telles que SUM et AVERAGE pour l'analyse des données. Enfin, nous avons abordé des techniques avancées telles que les tableaux croisés dynamiques.
+Dans cet article, nous avons exploré l'analyse des données dans Excel à l'aide d'Aspose.Cells pour Java. Nous avons commencé par présenter la bibliothèque et configurer l'environnement Java. Ensuite, nous avons abordé les formules Excel de base comme SUM et AVERAGE pour l'analyse des données. Enfin, nous avons abordé des techniques avancées comme les tableaux croisés dynamiques.
 
 ## FAQ
 

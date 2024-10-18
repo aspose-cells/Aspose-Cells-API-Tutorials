@@ -19,7 +19,7 @@ Bevor Sie mit den Schritten beginnen, stellen Sie sicher, dass Sie einige Dinge 
    
 2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells für .NET installiert haben. Sie können es herunterladen von[Hier](https://releases.aspose.com/cells/net/).
 
-3. Beispiel-Excel-Datei: Holen Sie sich eine Beispiel-Excel-Datei, die Diagramme enthält. Für dieses Tutorial verwenden wir eine Datei namens`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Stellen Sie sicher, dass es sich in Ihrem Projektverzeichnis befindet.
+3.  Beispiel-Excel-Datei: Holen Sie sich eine Beispiel-Excel-Datei, die Diagramme enthält. Für dieses Tutorial verwenden wir eine Datei namens`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Stellen Sie sicher, dass es sich in Ihrem Projektverzeichnis befindet.
 
 4. Grundlegende Programmierkenntnisse: Wenn Sie mit der C#-Programmierung vertraut sind, können Sie den Anweisungen problemlos folgen.
 
@@ -56,11 +56,11 @@ Zuerst müssen Sie das Verzeichnis angeben, in dem sich Ihre Excel-Datei befinde
 string sourceDir = "Your Document Directory";
 ```
 
- Ersetzen`"Your Document Directory"`durch den Pfad, in dem Ihre Excel-Datei gespeichert ist.
+ Ersetzen`"Your Document Directory"` durch den Pfad, in dem Ihre Excel-Datei gespeichert ist.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
- Laden Sie anschließend die Excel-Datei in ein`Workbook` Objekt. Dadurch können Sie auf den gesamten Inhalt der Datei zugreifen.
+ Laden Sie anschließend die Excel-Datei in ein`Workbook`Objekt. Dadurch können Sie auf den gesamten Inhalt der Datei zugreifen.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -122,7 +122,7 @@ Mit diesem Leitfaden sollten Sie in der Lage sein, die Typen der X- und Y-Werte 
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Cells?
-Aspose.Cells ist eine .NET-Bibliothek, mit der Entwickler Excel-Dateien verwalten und bearbeiten können, ohne dass Microsoft Excel installiert sein muss.
+Aspose.Cells ist eine .NET-Bibliothek, die es Entwicklern ermöglicht, Excel-Dateien zu verwalten und zu bearbeiten, ohne dass Microsoft Excel installiert sein muss.
 
 ### Kann ich Aspose.Cells kostenlos nutzen?
 Ja, Aspose bietet eine kostenlose Testversion an, in der Sie die Funktionen von Aspose.Cells erkunden können.

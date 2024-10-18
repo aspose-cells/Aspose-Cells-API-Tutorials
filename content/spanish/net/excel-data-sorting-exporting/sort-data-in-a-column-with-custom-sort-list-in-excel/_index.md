@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Paso 2: Cargue el archivo Excel de origen
 
- A continuación, cargaremos el archivo de Excel que contiene los datos que desea ordenar. Esto se hace creando una instancia de la`Workbook` clase y pasando la ruta de su archivo fuente.
+ continuación, cargaremos el archivo de Excel que contiene los datos que desea ordenar. Esto se hace creando una instancia de la`Workbook` clase y pasando la ruta de su archivo fuente.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -77,7 +77,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Paso 4: Especifique el área de celda a ordenar
 
- Necesitamos determinar el rango de celdas que vamos a ordenar. En este ejemplo, ordenaremos las celdas de A1 a A40. Utilice la función`CellArea.CreateCellArea` Método para definir el área de la celda.
+ Necesitamos determinar el rango de celdas que ordenaremos. En este ejemplo, ordenaremos las celdas de A1 a A40. Utilice la función`CellArea.CreateCellArea` Método para definir el área de la celda.
 
 ```csharp
 CellArea ca = CellArea.CreateCellArea("A1", "A40");
@@ -126,7 +126,7 @@ Console.WriteLine("SortDataInColumnWithCustomSortList executed successfully.\r\n
 Aspose.Cells para .NET es una biblioteca integral que le permite manipular archivos de Excel dentro de aplicaciones .NET, lo que incluye crearlos, editarlos y convertirlos.
 
 ### ¿Puedo ordenar más de una columna usando una lista de ordenamiento personalizada?
-¡Sí! Puedes agregar claves adicionales para ordenar por múltiples columnas si es necesario, solo sigue el mismo procedimiento para cada clave.
+¡Sí! Puede agregar claves adicionales para ordenar por múltiples columnas si es necesario, solo siga el mismo procedimiento para cada clave.
 
 ### ¿Necesito conocimientos previos de C# para utilizar Aspose.Cells?
 Si bien es útil, puedes seguir este tutorial y aprender sobre la marcha. Tener algunos conocimientos básicos de C# mejorará tu experiencia de aprendizaje.

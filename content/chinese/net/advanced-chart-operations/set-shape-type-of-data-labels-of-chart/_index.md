@@ -16,7 +16,7 @@ url: /zh/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 在开始编码之前，让我们确保您已正确设置了所有内容。以下是您需要的内容：
 
 1.  Aspose.Cells for .NET：如果您还没有，请从[Aspose 网站](https://releases.aspose.com/cells/net/)。该库允许对 Excel 文档进行各种操作。
-2. Visual Studio：您应该在系统上安装此软件，以便编写和运行 .NET 应用程序。根据项目需求，确保它是支持 .NET Framework 或 .NET Core 的版本。
+2. Visual Studio：您应该在系统上安装此软件来编写和运行 .NET 应用程序。根据项目需求，确保它是支持 .NET Framework 或 .NET Core 的版本。
 3. 对 C# 的基本了解：熟悉基本的编程概念和 C# 语法肯定有助于您更好地理解代码片段。
 4. Excel 文件：您还需要一个示例 Excel 工作簿。您可以创建自己的工作簿或使用任何现有的工作簿。
 
@@ -67,7 +67,7 @@ string outputDir = "Your Output Directory";
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
-此行创建一个新的`Workbook`对象并将其指向您现有的文件。确保文件路径正确！
+此行创建了新的`Workbook`对象并将其指向您现有的文件。确保文件路径正确！
 
 ## 步骤 3：访问第一个工作表
 
@@ -136,7 +136,7 @@ Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
 
 ## 结论
 
-以上就是使用 Aspose.Cells for .NET 增强 Excel 图表中数据标签的简单指南！自定义形状类型不仅可以使您的图表更具视觉吸引力，而且还有助于更有效地传达您的数据故事。请记住，数据可视化的关键在于清晰度和参与度。因此，不要犹豫尝试不同的形状和样式——毕竟，您的数据值得最好的呈现。
+以上就是使用 Aspose.Cells for .NET 增强 Excel 图表中数据标签的简单指南！自定义形状类型不仅可以使您的图表更具视觉吸引力，而且还有助于更有效地传达您的数据故事。请记住，数据可视化的关键在于清晰度和参与度。因此，不要犹豫，尝试不同的形状和样式——毕竟，您的数据值得最好的呈现。
 
 ## 常见问题解答
 

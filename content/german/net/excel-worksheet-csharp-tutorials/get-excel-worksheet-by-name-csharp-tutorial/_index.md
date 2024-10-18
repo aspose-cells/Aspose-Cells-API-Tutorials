@@ -13,14 +13,14 @@ Das programmgesteuerte Arbeiten mit Excel-Dateien kann Ihnen eine Menge Zeit und
 
 ## Voraussetzungen
 
-Bevor wir uns ins Wesentliche stürzen, stellen wir sicher, dass Sie für den Erfolg gerüstet sind. Folgendes brauchen Sie:
+Bevor wir uns ins Wesentliche stürzen, stellen wir sicher, dass Sie für den Erfolg gerüstet sind. Folgendes benötigen Sie:
 
 1. .NET-Entwicklungsumgebung: Stellen Sie sicher, dass Sie eine einsatzbereite .NET-Entwicklungsumgebung haben. Sie können Visual Studio oder eine andere IDE Ihrer Wahl verwenden.
 2.  Aspose.Cells-Bibliothek: Sie sollten auch die Aspose.Cells-Bibliothek installiert haben. Wenn Sie dies noch nicht getan haben, machen Sie sich keine Sorgen! Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
 3. Grundlegende Kenntnisse in C#: Wenn Sie die Grundlagen der C#-Programmierung kennen, können Sie problemlos mitmachen.
-4.  Eine Excel-Datei: Halten Sie eine Excel-Datei bereit, mit der Sie arbeiten möchten. Für unser Beispiel verwenden wir eine einfache Datei namens`book1.xlsx` mit mindestens einem Arbeitsblatt mit dem Namen „Sheet1“.
+4. Eine Excel-Datei: Halten Sie eine Excel-Datei bereit, mit der Sie arbeiten möchten. Für unser Beispiel verwenden wir eine einfache Datei namens`book1.xlsx` mit mindestens einem Arbeitsblatt mit dem Namen „Sheet1“.
 
-Nun, da Sie bereit sind, können wir loslegen!
+Jetzt, wo Sie bereit sind, können wir loslegen!
 
 ## Pakete importieren
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geben Sie Ihr Dokumentverzeichnis
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kombinieren Sie, um den vollständigen Pfad zu bilden
 ```
 
- Ersetzen Sie hier`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad auf Ihrem System, wo`book1.xlsx` gespeichert ist.`Path.Combine` ist praktisch, weil es sicherstellt, dass der Pfad über verschiedene Betriebssysteme hinweg korrekt erstellt wird.
+ Ersetzen Sie hier`"YOUR DOCUMENT DIRECTORY"`durch den tatsächlichen Pfad auf Ihrem System, wo`book1.xlsx` gespeichert ist.`Path.Combine` ist praktisch, weil es sicherstellt, dass der Pfad über verschiedene Betriebssysteme hinweg korrekt erstellt wird.
 
 ## Schritt 2: Erstellen eines Dateistreams
 
@@ -115,7 +115,7 @@ Aspose.Cells ist eine leistungsstarke .NET-Bibliothek, mit der Entwickler Excel-
 Aspose.Cells unterstützt verschiedene Formate, darunter XLS, XLSX, CSV und andere.
 
 ### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?
- Zwar gibt es eine[Kostenlose Testversion](https://releases.aspose.com/)verfügbar, müssen Sie eventuell eine Lizenz erwerben, um es ohne Einschränkungen nutzen zu können.
+ Zwar gibt es eine[Kostenlose Testversion](https://releases.aspose.com/) verfügbar, müssen Sie eventuell eine Lizenz erwerben, um es ohne Einschränkungen nutzen zu können.
 
 ### Wo finde ich Unterstützung für Aspose.Cells?
- Sie erhalten Unterstützung durch deren[Support-Forum](https://forum.aspose.com/c/cells/9).
+Sie erhalten Unterstützung durch deren[Support-Forum](https://forum.aspose.com/c/cells/9).

@@ -42,7 +42,7 @@ Décomposons maintenant le processus en étapes simples et compréhensibles. Sui
 
 Avant de pouvoir manipuler notre fichier Excel, nous devons spécifier où il se trouve et où la sortie doit aller. 
 
-Considérez cela comme la préparation de notre performance. Si vous ne savez pas où se trouvent vos entrées et où vous voulez vos sorties, votre programme se perdra dans le labyrinthe des répertoires de fichiers !
+Considérez cela comme la préparation du terrain pour notre performance. Si vous ne savez pas où se trouvent vos entrées et où vous voulez vos sorties, votre programme se perdra dans le labyrinthe des répertoires de fichiers !
 
 ```csharp
 // Répertoire des sources

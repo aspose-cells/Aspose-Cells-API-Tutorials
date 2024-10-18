@@ -45,7 +45,7 @@ Cette configuration vous permet d'exploiter les fonctionnalités fournies par As
 
 ## Étape 1 : Configuration du répertoire de sortie
 
-Tout d'abord, nous devons définir où notre fichier de sortie sera enregistré. Cela est essentiel car cela évite toute confusion ultérieure quant à l'emplacement de vos fichiers.
+Tout d'abord, nous devons définir où notre fichier de sortie sera enregistré. Cela est crucial car cela évite toute confusion ultérieure quant à l'emplacement de vos fichiers.
 
 ```csharp
 // Répertoire de sortie
@@ -127,7 +127,7 @@ range1[0, 4].PutValue(123);
 
 Dans cette étape, nous avons placé le mot « Test » dans la cellule E12 et le nombre 123 dans la cellule I12.
 
-## Étape 8 : Création d’une autre plage nommée
+## Étape 8 : Création d'une autre plage nommée
 
 Pour illustrer davantage notre propos, nous allons créer une autre plage nommée similaire à la première.
 

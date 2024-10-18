@@ -46,7 +46,7 @@ Em seguida, criaremos um novo arquivo Excel onde podemos aplicar a função CONT
 1. Criar um novo arquivo do Excel: Use o código a seguir para criar um novo arquivo do Excel.
 
 ```java
-// Crie um novo arquivo Excel
+// Criar um novo arquivo Excel
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -140,7 +140,7 @@ Sim, você pode personalizar os critérios da função CONT.SE para contar célu
 
 ### Quais são as melhores práticas para usar CONT.SE no Excel?
 
-As práticas recomendadas para usar CONT.SE incluem manter os critérios claros, usar referências de células para critérios e testar fórmulas com dados de amostra.
+As melhores práticas para usar CONT.SE incluem manter os critérios claros, usar referências de células para critérios e testar fórmulas com dados de amostra.
 
 ### Onde posso encontrar tutoriais avançados para Aspose.Cells para Java?
 

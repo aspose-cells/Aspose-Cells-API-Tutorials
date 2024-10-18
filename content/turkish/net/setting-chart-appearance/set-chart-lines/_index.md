@@ -2,18 +2,18 @@
 title: Grafik Çizgilerini Ayarla
 linktitle: Grafik Çizgilerini Ayarla
 second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de grafik çizgilerini nasıl özelleştireceğinizi öğrenin.
+description: Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET'i kullanarak Excel'de grafik çizgilerini nasıl özelleştireceğinizi öğrenin.
 type: docs
 weight: 14
 url: /tr/net/setting-chart-appearance/set-chart-lines/
 ---
 ## giriiş
 
-Görsel olarak çekici ve bilgilendirici grafikler oluşturmak, veri sunumunda olmazsa olmazdır. İster veri analisti, ister işletme yöneticisi veya sadece veri düzenlemeyi seven biri olun, grafikler bilgilerinizi sunma şeklinizi önemli ölçüde iyileştirebilir. Bu eğitim, Excel dosyalarını düzenlemek için güçlü bir kütüphane olan Aspose.Cells for .NET kullanarak grafik çizgileri ayarlama sürecinde size yol gösterecektir. Sonunda, Excel verilerinizi öne çıkarmak için özelleştirmelerle dolu çarpıcı grafikler oluşturmayı öğreneceksiniz!
+Görsel olarak çekici ve bilgilendirici grafikler oluşturmak, veri sunumunda olmazsa olmazdır. İster veri analisti, ister işletme yöneticisi veya sadece veri düzenlemeyi seven biri olun, grafikler bilgilerinizi sunma şeklinizi önemli ölçüde geliştirebilir. Bu eğitim, Excel dosyalarını düzenlemek için güçlü bir kütüphane olan Aspose.Cells for .NET kullanarak grafik çizgileri ayarlama sürecinde size yol gösterecektir. Sonunda, Excel verilerinizi öne çıkarmak için özelleştirmelerle dolu çarpıcı grafikler oluşturmayı öğreneceksiniz!
 
 ## Ön koşullar
 
-Kodlama kısmına dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+Kodlama kısmına geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. Tüm özelliklerden yararlanmak için en son sürümü kullanmanız şiddetle önerilir.
 - .NET Framework: Projeniz, Aspose.Cells'i uygulayacağınız .NET Framework (veya .NET Core) tabanlı olmalıdır.
@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Şimdi, elektronik tablonuz için bir kapsayıcı görevi görecek bir çalışma kitabı nesnesi oluşturacağız.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -135,7 +135,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Açıklama: Burada, grafiğin çeşitli bileşenlerinin renklerini görsel olarak çarpıcı hale getirmek için özelleştiriyorsunuz. Her satır, grafiğin farklı alanlarını hedefler.
+Açıklama: Burada, grafiğin çeşitli bileşenlerinin renklerini görsel olarak çarpıcı hale getirmek için özelleştiriyorsunuz. Her satır grafiğin farklı alanlarını hedefler.
 
 ## Adım 9: Çizgi Stillerini Uygula
 
@@ -163,7 +163,7 @@ Açıklama: Yukarıdaki kod, grafik serisinin sınırlarını özelleştirerek, 
 workbook.Save(outputDir + "outputSettingChartLines.xlsx");
 ```
 
-Açıklama: Bu satır çalışma kitabınızı belirtilen adla tanımladığınız çıktı dizinine kaydeder. Şimdi açıp harika grafiğinizi görebilirsiniz!
+Açıklama: Bu satır çalışma kitabınızı belirtilen adla tanımladığınız çıktı dizinine kaydeder. Şimdi açabilir ve harika grafiğinizi görebilirsiniz!
 
 ## Adım 11: Yürütme Onayı
 

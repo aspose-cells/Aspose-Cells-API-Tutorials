@@ -121,7 +121,7 @@ workbook.Save(dataDir + "SetMargins_out.xls");
 
 ## Conclusión
 
-Con esto, ¡has establecido márgenes con éxito en tu hoja de cálculo de Excel usando Aspose.Cells para .NET! Esta poderosa biblioteca permite a los desarrolladores manejar archivos de Excel con facilidad, y establecer márgenes es solo una de las muchas funciones disponibles a tu alcance. Al seguir los pasos descritos en este tutorial, has adquirido conocimientos no solo sobre cómo establecer márgenes, sino también sobre cómo manipular hojas de Excel mediante programación. 
+Con esto, ¡has establecido márgenes con éxito en tu hoja de cálculo de Excel usando Aspose.Cells para .NET! Esta poderosa biblioteca permite a los desarrolladores manejar archivos de Excel con facilidad, y establecer márgenes es solo una de las muchas funciones disponibles a tu alcance. Si sigues los pasos que se describen en este tutorial, habrás adquirido conocimientos no solo sobre cómo establecer márgenes, sino también sobre cómo manipular hojas de Excel mediante programación. 
 
 ## Preguntas frecuentes
 

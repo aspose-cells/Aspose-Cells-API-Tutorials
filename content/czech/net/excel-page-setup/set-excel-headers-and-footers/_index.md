@@ -77,7 +77,7 @@ Nyní začneme s nastavením záhlaví. Začneme levou částí:
 pageSetup.SetHeader(0, "&A");
 ```
 
- Vysvětlení: The`SetHeader` nám umožňuje definovat obsah hlavičky. Zde,`&A` označuje název listu, který se objeví na levé straně záhlaví.
+Vysvětlení: The`SetHeader` nám umožňuje definovat obsah hlavičky. Zde,`&A` označuje název listu, který se objeví na levé straně záhlaví.
 
 ## Krok 4: Přizpůsobte centrální záhlaví
 
@@ -87,7 +87,7 @@ Dále přizpůsobíme centrální záhlaví tak, aby zobrazovalo aktuální datu
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Vysvětlení: The`&D` a`&T` kódy se automaticky nahradí aktuálním datem a časem, resp. Také určujeme, že písmo pro toto záhlaví by mělo být „Times New Roman“ a tučné.
+Vysvětlení: The`&D` a`&T` kódy se automaticky nahradí aktuálním datem a časem, resp. Také určujeme, že písmo pro toto záhlaví by mělo být „Times New Roman“ a tučné.
 
 ## Krok 5: Nastavte pravé záhlaví
 
@@ -117,7 +117,7 @@ Dále nastavíme středové zápatí tak, aby zobrazovalo aktuální číslo str
 pageSetup.SetFooter(1, "&P");
 ```
 
- Vysvětlení: The`&P` kód automaticky vloží číslo stránky do středu zápatí – praktický způsob, jak sledovat stránky.
+Vysvětlení: The`&P` kód automaticky vloží číslo stránky do středu zápatí – praktický způsob, jak sledovat stránky.
 
 ## Krok 8: Konfigurace pravého zápatí
 
@@ -137,7 +137,7 @@ Když je vše nyní nastaveno, stačí si sešit uložit, abyste viděli plody s
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 ```
 
- Vysvětlení: Vyměnit`"SetHeadersAndFooters_out.xls"` s požadovaným názvem souboru. Uložte sešit a máte hotovo!
+ Vysvětlení: Vyměnit`"SetHeadersAndFooters_out.xls"` s požadovaným názvem souboru. Uložte si sešit a máte hotovo!
 
 ## Závěr
 

@@ -63,14 +63,14 @@ Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx")
 
 ## ステップ3: ワークシートにアクセスする
 
-ワークブックの設定が完了したら、次のステップでは、グラフが含まれている特定のワークシートにアクセスします。 
+ワークブックの設定が完了したら、次のステップは、グラフが含まれている特定のワークシートにアクセスすることです。 
 
 ```csharp
 //最初のワークシートを入手する
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-この場合は、最初のワークシートを取得するだけですが、この例ではこれで十分です。シートが複数ある場合は、必要に応じてシートのインデックスまたは名前を指定できます。
+この場合は、最初のワークシートを取得するだけですが、この例ではこれで十分です。シートが複数ある場合は、要件に応じてシートのインデックスまたは名前を指定できます。
 
 ## ステップ4: チャートを取得する
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.Charts[0];
 テーマを適用する前に、チャート シリーズが塗りつぶされていることを確認しましょう。設定方法は次のとおりです。
 
 ```csharp
-//最初のシリーズのFillFormatのタイプをSolid Fillに指定します
+//最初のシリーズのFillFormatのタイプをSolid Fillに指定します。
 chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 ```
 

@@ -2,7 +2,7 @@
 title: Při importu dat do listu aplikace Excel zadejte pole vzorců
 linktitle: Při importu dat do listu aplikace Excel zadejte pole vzorců
 second_title: Aspose.Cells .NET Excel Processing API
-description: tomto podrobném kurzu se dozvíte, jak importovat data do listů aplikace Excel se zadanými poli vzorců pomocí Aspose.Cells for .NET.
+description: V tomto podrobném kurzu se dozvíte, jak importovat data do listů aplikace Excel se zadanými poli vzorců pomocí Aspose.Cells for .NET.
 type: docs
 weight: 11
 url: /cs/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
@@ -16,7 +16,7 @@ Pokud jde o programové zpracování souborů aplikace Excel, Aspose.Cells for .
 Než se ponoříte do kódu, ujistěte se, že máte vše, co potřebujete. 
 
 1. Visual Studio nebo jakékoli integrované vývojové prostředí (IDE) .NET: Ujistěte se, že máte vhodné IDE pro psaní a spouštění kódu C#.
-2. Aspose.Cells for .NET: Budete si muset stáhnout a odkazovat na knihovnu Aspose.Cells ve svém projektu. Můžete si jej stáhnout z[Aspose vydání](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Budete si muset stáhnout a odkazovat na knihovnu Aspose.Cells ve svém projektu. Můžete si jej stáhnout z[Aspose vydání](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost C# a objektově orientovaného programování vám pomůže lépe porozumět příkladům.
 4. .NET Framework: Tento kurz předpokládá, že používáte rozhraní .NET Framework 4.5 nebo vyšší.
 
@@ -168,7 +168,7 @@ A tady to máte! Úspěšně jste importovali data do listu aplikace Excel pomoc
 Aspose.Cells je .NET knihovna určená pro vytváření, manipulaci a převod souborů aplikace Excel programově.
 
 ### Jak nainstaluji Aspose.Cells pro .NET?
- Můžete si jej stáhnout z[Aspose vydání](https://releases.aspose.com/cells/net/) odkazujte na něj ve svém projektu.
+ Můžete si jej stáhnout z[Aspose vydání](https://releases.aspose.com/cells/net/) a odkazujte na něj ve svém projektu.
 
 ### Mohu používat Aspose.Cells zdarma?
  Ano, Aspose nabízí bezplatnou zkušební verzi dostupnou na[tento odkaz](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells je .NET knihovna určená pro vytváření, manipulaci a převod so
  Další příklady a dokumentaci naleznete na[Aspose dokumentační stránku](https://reference.aspose.com/cells/net/).
 
 ### Co když při používání Aspose narazím na problémy?
- Pomoc můžete vyhledat na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
+Pomoc můžete vyhledat na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
  

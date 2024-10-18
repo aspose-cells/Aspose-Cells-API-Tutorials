@@ -16,7 +16,7 @@ Az Excel-fájlok programozott kezelése gyakran varázslatosnak tűnik! Akár a 
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik-e mindennel, amire szüksége van:
 
 1. Alapvető C# ismerete: Hasznos lesz a C# programozás alapjainak ismerete, mivel ezen a nyelven fogunk kódrészleteket írni.
-2.  Aspose.Cells for .NET: Szüksége lesz az Aspose.Cells könyvtárra. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Szüksége lesz az Aspose.Cells könyvtárra. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 3. IDE-beállítás: Integrált fejlesztői környezet (IDE), például a Visual Studio, vagy egy kódszerkesztő beállítás a C# kód írásához és végrehajtásához.
 4.  Excel fájl: minta Excel fájl (pl.`book1.xls`), amelyet szerkeszthet és tesztelhet.
 
@@ -45,7 +45,7 @@ Itt adhatja meg annak az Excel-fájlnak az elérési útját, amellyel dolgozni 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Cserélje ki`YOUR DOCUMENT DIRECTORY`az Excel-fájl tényleges elérési útjával. Ez lehetővé teszi a program számára, hogy megtalálja a szükséges fájlokat, amelyeket kezelni fog.
+ Cserélje ki`YOUR DOCUMENT DIRECTORY` az Excel-fájl tényleges elérési útjával. Ez lehetővé teszi a program számára, hogy megtalálja a szükséges fájlokat, amelyeket kezelni fog.
 
 ## 2. lépés: Fájlfolyam létrehozása
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Ez`Workbook` Az objektum mostantól az Excel-fájl összes adatát és beállítását tartalmazza, lehetővé téve a későbbi manipulálást a folyamat során.
+ Ez`Workbook`Az objektum mostantól az Excel-fájl összes adatát és beállítását tartalmazza, lehetővé téve a későbbi manipulálást a folyamat során.
 
 ## 4. lépés: A függőleges görgetősáv elrejtése
 
@@ -123,7 +123,7 @@ Ezeket az egyszerű lépéseket követve megtanulta, hogyan jelenítheti meg és
  Igen! Csak be kell állítani`IsVScrollBarVisible` és`IsHScrollBarVisible` vissza`true`.
 
 ### Az Aspose.Cells ingyenesen használható?  
-Az Aspose.Cells nem teljesen ingyenes, de korlátozott ideig ingyenesen kipróbálhatja, vagy fontolóra veheti a vásárlást[ideiglenes engedélyt](https://purchase.aspose.com/temporary-license/).
+ Az Aspose.Cells nem teljesen ingyenes, de korlátozott ideig ingyenesen kipróbálhatja, vagy fontolóra veheti a vásárlást[ideiglenes engedélyt](https://purchase.aspose.com/temporary-license/).
 
 ### Milyen típusú Excel-fájlokat kezelhetek az Aspose.Cells segítségével?  
 Különféle Excel formátumokkal dolgozhat, beleértve a .xls, .xlsx, .xlsm, .xlsb stb.

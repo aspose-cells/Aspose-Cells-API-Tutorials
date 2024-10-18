@@ -39,7 +39,7 @@ Untuk bekerja dengan Aspose.Cells, Anda perlu menginstalnya melalui NuGet Packag
 
 1. Klik kanan pada proyek Anda di Solution Explorer.
 2. Pilih "Kelola Paket NuGet."
-3. Pada tab "Telusuri", cari "Aspose.Cells."
+3. Pada tab "Telusuri", cari "Aspose.Cells".
 4. Klik “Instal” untuk menambahkan paket ke proyek Anda.
 
 ### Sertakan Ruang Nama yang Diperlukan

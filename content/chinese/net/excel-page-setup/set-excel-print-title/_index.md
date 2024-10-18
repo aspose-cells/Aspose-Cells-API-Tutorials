@@ -26,7 +26,7 @@ url: /zh/net/excel-page-setup/set-excel-print-title/
 
 要开始利用 Aspose.Cells 的强大功能，请确保在您的项目中包含必要的软件包。 
 
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 
 要在程序中使用 Aspose.Cells，您需要添加对 Aspose.Cells.dll 的引用。您可以通过以下方式执行此操作：
 
@@ -83,7 +83,7 @@ Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 
 ## 步骤 4：定义标题列
 
-为了指定哪些列将打印为标题，我们为我们的`PrintTitleColumns`财产。 
+为了指定哪些列将打印为标题，我们为`PrintTitleColumns`财产。 
 
 ```csharp
 pageSetup.PrintTitleColumns = "$A:$B";

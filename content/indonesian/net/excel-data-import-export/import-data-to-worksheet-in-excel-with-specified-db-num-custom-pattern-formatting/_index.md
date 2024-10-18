@@ -16,7 +16,7 @@ Jika menyangkut manipulasi lembar kerja, mengimpor data ke Excel dan memformatny
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut ini adalah daftar periksa singkat tentang prasyarat untuk mempersiapkan Anda meraih kesuksesan:
 
 1. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells bekerja dengan lancar dengan berbagai versi .NET.
-2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan memasang pustaka Aspose.Cells. Anda dapat mengunduhnya dari[tautan unduhan](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Anda perlu mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya dari[tautan unduhan](https://releases.aspose.com/cells/net/).
 3. Lingkungan Pengembangan Terpadu (IDE): Gunakan IDE seperti Visual Studio tempat Anda dapat menulis dan mengeksekusi kode C# Anda.
 4. Pengetahuan Dasar C#: Memiliki pemahaman dasar tentang C# akan membantu Anda mengikuti praktik pengkodean yang akan kami gunakan dalam panduan ini.
 
@@ -67,7 +67,7 @@ Berikutnya, Anda akan membuat buku kerja baru, yang pada dasarnya adalah file Ex
 Workbook wb = new Workbook();
 ```
 
-Di sini, kita membuat instance baru`Workbook` objek. Ini kanvas kosong Anda!
+ Di sini, kita membuat instance baru`Workbook` objek. Ini kanvas kosong Anda!
 
 ## Langkah 3: Akses Lembar Kerja Pertama
 
@@ -108,7 +108,7 @@ Di sinilah keajaiban terjadi. Anda dapat menentukan pola format khusus menggunak
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Baris ini memberi tahu Excel untuk memformat angka`123` sesuai dengan pola DBNum yang sesuai dengan bahasa Mandarin. Cukup rapi, bukan?
+ Baris ini memberi tahu Excel untuk memformat angka`123` sesuai dengan pola DBNum yang sesuai dengan bahasa Mandarin. Cukup rapi, bukan?
 
 ## Langkah 7: Mengatur Gaya Sel yang Diperbarui
 

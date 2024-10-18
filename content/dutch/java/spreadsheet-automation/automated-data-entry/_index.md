@@ -59,7 +59,7 @@ worksheet.getCells().get("A1").putValue("New Data");
 
 ### 4. Automatiseer gegevensimport
 
-U kunt de gegevensimport van verschillende bronnen automatiseren, zoals databases of CSV-bestanden. Hier is een voorbeeld van het importeren van gegevens uit een CSV-bestand:
+U kunt gegevensimport automatiseren vanuit verschillende bronnen, zoals databases of CSV-bestanden. Hier is een voorbeeld van het importeren van gegevens uit een CSV-bestand:
 
 ```java
 import com.aspose.cells.TxtLoadOptions;

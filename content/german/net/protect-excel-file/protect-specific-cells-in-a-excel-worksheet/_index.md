@@ -9,7 +9,7 @@ url: /de/net/protect-excel-file/protect-specific-cells-in-a-excel-worksheet/
 ---
 ## Einführung
 
-Das Erstellen von Excel-Arbeitsblättern und das Verwalten des Zellschutzes kann sich oft wie ein harter Kampf anfühlen, oder? Besonders, wenn Sie sicherstellen möchten, dass nur bestimmte Zellen bearbeitet werden können, während andere geschützt bleiben. Die gute Nachricht ist, dass Sie mit Aspose.Cells für .NET mit nur wenigen Codezeilen problemlos bestimmte Zellen in einem Excel-Arbeitsblatt schützen können!
+Das Erstellen von Excel-Arbeitsblättern und das Verwalten des Zellschutzes kann sich oft wie ein harter Kampf anfühlen, oder? Besonders, wenn Sie versuchen, sicherzustellen, dass nur bestimmte Zellen bearbeitet werden können, während andere geschützt bleiben. Die gute Nachricht ist, dass Sie mit Aspose.Cells für .NET mit nur wenigen Codezeilen problemlos bestimmte Zellen in einem Excel-Arbeitsblatt schützen können!
 
 In diesem Artikel führen wir Sie Schritt für Schritt durch die Implementierung des Zellschutzes mit Aspose.Cells für .NET. Am Ende dieses Handbuchs verfügen Sie über das Wissen, um Ihre Excel-Daten effizient zu schützen.
 
@@ -41,12 +41,12 @@ Als Erstes möchten wir festlegen, wohin Ihre Dateien gehen. Dieser Schritt ist 
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Hier definieren wir eine Stringvariable`dataDir` das auf Ihr gewünschtes Dokumentverzeichnis verweist. Wir prüfen, ob dieses Verzeichnis existiert. Wenn nicht, erstellen wir es. So stellen Sie sicher, dass beim späteren Speichern Ihrer Excel-Datei keine Probleme auftreten.
+ Hier definieren wir eine Stringvariable`dataDir` das auf das gewünschte Dokumentverzeichnis verweist. Wir prüfen, ob dieses Verzeichnis existiert. Wenn nicht, erstellen wir es. So stellen Sie sicher, dass beim späteren Speichern Ihrer Excel-Datei keine Probleme auftreten.
 
 ## Schritt 2: Erstellen Sie eine neue Arbeitsmappe
 
@@ -88,7 +88,7 @@ for (int i = 0; i <= 255; i++)
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
 }
 ```
-Diese Schleife durchläuft alle Spalten (von 0 bis 255) im Arbeitsblatt und entsperrt jede einzelne. Auf diese Weise bereiten wir die Voraussetzungen vor, um später nur die Zellen zu sperren, die wir auswählen.
+Diese Schleife durchläuft alle Spalten (von 0 bis 255) im Arbeitsblatt und entsperrt jede einzelne. Auf diese Weise bereiten wir die Voraussetzungen dafür vor, dass nur die Zellen gesperrt werden, die wir später auswählen.
 
 ## Schritt 5: Bestimmte Zellen sperren
 

@@ -9,7 +9,7 @@ url: /id/net/protect-excel-file/
 ---
 ## Perkenalan
 
-Jika Anda mempelajari otomatisasi dan manipulasi Excel menggunakan .NET, Anda mungkin bertanya-tanya, "Dari mana saya harus mulai?" Jangan khawatir! Aspose.Cells untuk .NET telah hadir, dan tutorial kami dikurasi khusus untuk Anda. Dengan segala hal mulai dari tugas pengeditan sederhana hingga tindakan perlindungan data yang lebih kompleks, kami telah membuatnya sangat mudah diikuti.
+Jika Anda mempelajari otomatisasi dan manipulasi Excel menggunakan .NET, Anda mungkin bertanya-tanya, "Dari mana saya harus mulai?" Jangan khawatir! Aspose.Cells untuk .NET telah hadir, dan tutorial kami dikurasi khusus untuk Anda. Dengan segala hal mulai dari tugas pengeditan sederhana hingga tindakan perlindungan data yang lebih rumit, kami telah membuatnya sangat mudah diikuti.
 
 ## Mengapa Menggunakan Aspose.Cells?
 
@@ -19,7 +19,7 @@ Bayangkan harus menangani sejumlah besar data di Excel. Anda mungkin berpikir, "
 
 ## Tutorial yang Disesuaikan untuk Anda
 
- Namun, itu belum semuanya! Melindungi data Anda juga penting. Anda tidak akan membiarkan pintu depan Anda terbuka lebar, bukan? Demikian pula, panduan kami menawarkan Anda alat untuk mengunci bagian mana pun dari lembar Excel Anda. Lihat tutorial di[Melindungi Sel Tertentu](./protect-specific-cells-in-a-excel-worksheet/) untuk mempelajari cara melindungi data Anda secara efektif. Kami memandu Anda melalui setiap langkah, membuatnya mudah bahkan bagi mereka yang baru mengenal pemrograman.
+Namun, itu belum semuanya! Melindungi data Anda juga penting. Anda tidak akan membiarkan pintu depan Anda terbuka lebar, bukan? Demikian pula, panduan kami menawarkan Anda alat untuk mengunci bagian mana pun dari lembar Excel Anda. Lihat tutorialnya di[Melindungi Sel Tertentu](./protect-specific-cells-in-a-excel-worksheet/) untuk mempelajari cara melindungi data Anda secara efektif. Kami memandu Anda melalui setiap langkah, membuatnya mudah bahkan bagi mereka yang baru mengenal pemrograman.
 
 Tentu saja! Mari kita bahas lebih lanjut tentang pentingnya tutorial ini dalam upaya Anda untuk menguasai Excel, dan bagaimana tutorial ini dapat disesuaikan dengan alur kerja pengembangan Anda.
 
@@ -47,7 +47,7 @@ Salah satu cara terbaik untuk memahami teknologi apa pun adalah dengan mencobany
 | [Melindungi Sel di Lembar Kerja Excel](./protect-cells-in-excel-worksheet/) | Pelajari cara melindungi sel tertentu dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET dalam panduan terperinci ini dengan contoh kode. |  
 | [Melindungi Kolom di Lembar Kerja Excel](./protect-column-in-excel-worksheet/) | Pelajari cara melindungi kolom tertentu di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial mudah kami untuk perlindungan data yang lancar. |  
 | [Lindungi Lembar Kerja Excel](./protect-excel-worksheet/) | Pelajari cara melindungi lembar kerja Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. Pastikan data Anda tetap aman dan mudah dikelola. |  
-| [Lindungi Baris Dalam Lembar Kerja Excel](./protect-row-in-excel-worksheet/) | Temukan dalam tutorial ini cara melindungi baris-baris lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah dalam C#. |  
+| [Lindungi Baris Dalam Lembar Kerja Excel](./protect-row-in-excel-worksheet/) | Temukan dalam tutorial ini cara melindungi baris-baris lembar kerja Excel menggunakan Aspose.Cells for .NET. Tutorial langkah demi langkah dalam C#. |  
 | [Melindungi Sel Tertentu Dalam Lembar Kerja Excel](./protect-specific-cells-in-a-excel-worksheet/) | Pelajari cara melindungi sel tertentu dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini. |  
 | [Lindungi Kolom Tertentu di Lembar Kerja Excel](./protect-specific-column-in-excel-worksheet/) | Pelajari cara melindungi kolom tertentu di Excel menggunakan Aspose.Cells for .NET secara efektif, memastikan data Anda tetap aman dan tidak dapat diubah. |  
 | [Lindungi Baris Tertentu di Lembar Kerja Excel](./protect-specific-row-in-excel-worksheet/) | Pelajari cara melindungi baris tertentu dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah yang dirancang khusus untuk pengembang. |  

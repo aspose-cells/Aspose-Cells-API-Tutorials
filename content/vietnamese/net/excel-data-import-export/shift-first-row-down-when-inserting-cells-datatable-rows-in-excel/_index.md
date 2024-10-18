@@ -17,7 +17,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn đã thiế
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio (phiên bản 2017 trở lên sẽ hoạt động tốt).
 2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Nếu bạn chưa thực hiện việc này, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
-3. Hiểu biết cơ bản về C# và Excel: Nắm vững kiến thức cơ bản về lập trình C# và cách Excel hoạt động chắc chắn sẽ giúp bạn theo dõi hiệu quả hơn.
+3. Hiểu biết cơ bản về C# và Excel: Nắm vững kiến thức cơ bản về lập trình C# và cách thức hoạt động của Excel chắc chắn sẽ giúp bạn theo dõi hiệu quả hơn.
 
  Bạn cũng sẽ muốn có một tệp Excel mẫu tiện dụng. Trong hướng dẫn này, chúng tôi sẽ sử dụng một mẫu có tên là`sampleImportTableOptionsShiftFirstRowDown.xlsx`. Bạn có thể tạo tệp này hoặc tìm mẫu phù hợp với nhu cầu của mình.
 
@@ -63,7 +63,7 @@ class CellsDataTable : ICellsDataTable
 }
 ```
 
-Tại đây, chúng ta sẽ xác định tên cột và dữ liệu cho mỗi cột, điều này sẽ tạo điều kiện thuận lợi cho cấu trúc của bảng được nhập.
+Tại đây, chúng ta sẽ xác định tên cột và dữ liệu cho mỗi cột, điều này sẽ tạo thuận lợi cho cấu trúc của bảng được nhập.
 
 ## Bước 3: Triển khai các thành viên giao diện ICellsDataTable
 
@@ -156,7 +156,7 @@ Cuối cùng, chúng ta sẽ lưu bảng tính đã sửa đổi trở lại và
 
 ## Phần kết luận
 
-Và bạn đã có nó! Bạn đã học cách chèn các hàng DataTable vào một trang tính Excel mà không cần di chuyển hàng đầu tiên bằng cách sử dụng Aspose.Cells cho .NET. Quá trình này không chỉ hợp lý hóa thao tác dữ liệu trong Excel mà còn nâng cao hiệu suất ứng dụng của bạn bằng cách tự động hóa một tác vụ thường cồng kềnh. Với kiến thức này trong bộ công cụ của bạn, bạn được trang bị tốt hơn để xử lý các tác vụ tự động hóa Excel, giúp bạn tiết kiệm thời gian và công sức.
+Và bạn đã có nó! Bạn đã học cách chèn các hàng DataTable vào một trang tính Excel mà không cần di chuyển hàng đầu tiên bằng cách sử dụng Aspose.Cells cho .NET. Quy trình này không chỉ hợp lý hóa thao tác dữ liệu trong Excel mà còn nâng cao hiệu suất ứng dụng của bạn bằng cách tự động hóa một tác vụ thường cồng kềnh. Với kiến thức này trong bộ công cụ của bạn, bạn sẽ được trang bị tốt hơn để xử lý các tác vụ tự động hóa Excel, giúp bạn tiết kiệm thời gian và công sức.
 
 ## Câu hỏi thường gặp
 
@@ -167,7 +167,7 @@ Aspose.Cells for .NET là một thư viện lập trình cho phép các nhà ph�
 Có, bạn sẽ cần giấy phép hợp lệ để có đầy đủ tính năng. Tuy nhiên, có bản dùng thử miễn phí để thử nghiệm ban đầu.
 
 ### Tôi có thể sử dụng Aspose.Cells trong ứng dụng web không?
-Hoàn toàn đúng! Aspose.Cells hoàn hảo cho các ứng dụng trên máy tính để bàn, web và đám mây được phát triển bằng .NET.
+Chắc chắn rồi! Aspose.Cells hoàn hảo cho các ứng dụng trên máy tính để bàn, web và đám mây được phát triển bằng .NET.
 
 ### Tôi có thể tạo những loại tệp Excel nào bằng Aspose.Cells?
 Bạn có thể tạo nhiều định dạng tệp Excel khác nhau, bao gồm XLSX, XLS, CSV, v.v.

@@ -13,7 +13,7 @@ Zadbanie o to, aby arkusze kalkulacyjne programu Excel wyglądały profesjonalni
 
 ## Wymagania wstępne
 
-Zanim zaczniesz pisać kod, upewnij się, że masz wszystko, czego potrzebujesz, aby zacząć:
+Zanim zaczniesz pisać kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
 1.  Aspose.Cells dla .NET: Upewnij się, że masz pobraną i zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
 2. Środowisko programistyczne: Powinieneś mieć skonfigurowane środowisko programistyczne .NET. Visual Studio dobrze się do tego nadaje.
@@ -53,7 +53,7 @@ Następnie musisz utworzyć strumień plików, aby otworzyć plik Excel. Ten kro
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Tutaj określamy, że chcemy otworzyć`book1.xls` znajduje się w określonym katalogu.`FileMode.Open` parametr wskazuje, że otwieramy istniejący plik. Zawsze upewnij się, że nazwa pliku pasuje do tego, co masz.
+Tutaj określamy, że chcemy otworzyć`book1.xls` znajduje się w określonym katalogu.`FileMode.Open` parametr wskazuje, że otwieramy istniejący plik. Zawsze upewnij się, że nazwa pliku pasuje do tego, co masz.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
@@ -83,7 +83,7 @@ A teraz nadszedł moment, na który czekaliśmy! To tutaj faktycznie ukrywamy na
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Ustawienie`IsRowColumnHeadersVisible` Do`false` skutecznie ukryje nagłówki w wierszach i kolumnach, dzięki czemu prezentacja danych będzie wyglądać bardziej przejrzyście.
+ Ustawienie`IsRowColumnHeadersVisible` Do`false`skutecznie ukryje nagłówki w wierszach i kolumnach, dzięki czemu prezentacja danych będzie wyglądać bardziej przejrzyście.
 
 ## Krok 6: Zapisz zmodyfikowany plik Excela
 
@@ -103,11 +103,11 @@ Na koniec należy zamknąć strumień plików, tak aby wszystkie zasoby zostały
 fstream.Close();
 ```
 
- Zamykanie`fstream`jest bardzo ważne, gdyż zapewnia, że w aplikacji nie wystąpią żadne wycieki pamięci ani blokady plików.
+ Zamykanie`fstream` jest bardzo ważne, gdyż zapewnia, że w aplikacji nie wystąpią żadne wycieki pamięci ani blokady plików.
 
 ## Wniosek
 
-I masz to! Nauczyłeś się, jak ukryć nagłówki wierszy i kolumn arkusza kalkulacyjnego Excela za pomocą Aspose.Cells dla .NET, wykonując szereg prostych kroków. Może to poprawić czytelność i ogólną prezentację Twoich arkuszy kalkulacyjnych, pozwalając odbiorcom skupić się wyłącznie na danych, które chcesz wyróżnić.
+I masz to! Nauczyłeś się, jak ukryć nagłówki wierszy i kolumn arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla .NET, wykonując szereg prostych kroków. Może to poprawić czytelność i ogólną prezentację arkuszy kalkulacyjnych, pozwalając odbiorcom skupić się wyłącznie na danych, które chcesz wyróżnić.
 
 ## Najczęściej zadawane pytania
 
@@ -121,7 +121,7 @@ Aspose.Cells to zaawansowana biblioteka .NET do zarządzania arkuszami kalkulacy
  Chociaż możesz użyć bezpłatnej wersji próbnej, licencja jest wymagana do ciągłego użytku komercyjnego. Możesz znaleźć opcje zakupu[Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy jest dostępne wsparcie dla Aspose.Cells?  
-Tak, Aspose zapewnia wsparcie za pośrednictwem swoich forów, do których możesz uzyskać dostęp[Tutaj](https://forum.aspose.com/c/cells/9).
+ Tak, Aspose zapewnia wsparcie za pośrednictwem swoich forów, do których możesz uzyskać dostęp[Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?  
  Możesz złożyć wniosek o tymczasową licencję do celów ewaluacyjnych pod adresem[ten link](https://purchase.aspose.com/temporary-license/).

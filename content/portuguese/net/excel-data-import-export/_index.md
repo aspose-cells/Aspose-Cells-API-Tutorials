@@ -1,7 +1,7 @@
 ---
 title: Importação e exportação de dados do Excel
 linktitle: Importação e exportação de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desbloqueie o poder do Aspose.Cells para .NET. Explore nossos tutoriais para importar e exportar dados do Excel com eficiência e facilidade.
 type: docs
 weight: 39

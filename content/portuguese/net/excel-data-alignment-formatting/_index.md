@@ -1,8 +1,8 @@
 ---
 title: Alinhamento e formatação de dados do Excel
 linktitle: Alinhamento e formatação de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
-description: Descubra como alterar o alinhamento de células do Excel sem perder a formatação no Aspose.Cells para .NET. Aprenda o tutorial passo a passo para formatação perfeita de dados do Excel.
+second_title: API de processamento do Aspose.Cells .NET Excel
+description: Descubra como alterar o alinhamento de células do Excel sem perder a formatação no Aspose.Cells para .NET. Aprenda o tutorial passo a passo para formatação de dados do Excel sem interrupções.
 type: docs
 weight: 36
 url: /pt/net/excel-data-alignment-formatting/

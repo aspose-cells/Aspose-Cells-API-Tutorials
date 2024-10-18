@@ -2,7 +2,7 @@
 title: Excel-Datenerhaltung und Warnung
 linktitle: Excel-Datenerhaltung und Warnung
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Aspose.Cells für .NET für erweiterte Techniken zur Excel-Datenerhaltung verwenden, etwa das Beibehalten einfacher Anführungszeichen als Präfixe in Zellen und das Angeben von Sortierwarnungen während des Sortierens.
+description: Erfahren Sie, wie Sie Aspose.Cells für .NET für erweiterte Excel-Datenerhaltungstechniken verwenden, z. B. das Beibehalten einfacher Anführungszeichenpräfixe in Zellen und das Angeben von Sortierwarnungen während des Sortierens.
 type: docs
 weight: 40
 url: /de/net/excel-data-preservation-warning/
@@ -11,7 +11,7 @@ url: /de/net/excel-data-preservation-warning/
 
 Aspose.Cells für .NET ist ein leistungsstarkes Tool zum Verwalten von Excel-Tabellen in .NET-Anwendungen. Egal, ob Sie bestimmte Zellformate beibehalten oder Warnungen zur Datensortierung verwalten möchten, Aspose.Cells unterstützt Sie dabei! Sehen wir uns einige Tutorials genauer an, die Ihnen dabei helfen, Ihre Excel-Kenntnisse zu verbessern.
 
-## Behalten Sie das einfache Anführungszeichen als Präfix eines Zellenwerts oder -bereichs in Excel bei
+## Beibehalten des einfachen Anführungszeichenpräfixes des Zellenwerts oder -bereichs in Excel
 
 Sind Sie schon einmal auf diese lästigen einfachen Anführungszeichen in Excel gestoßen, die einfach nicht verschwinden wollen? Vielleicht arbeiten Sie mit importierten Daten und jedes Mal, wenn Sie versuchen, sie zu bearbeiten, sind diese Anführungszeichen im Weg. Und wissen Sie was? Mit Aspose.Cells für .NET können Sie diese einfachen Anführungszeichen ganz einfach beibehalten oder entfernen.
 
@@ -28,7 +28,7 @@ Dieses Tutorial führt Sie durch den Prozess der Angabe von Sortierwarnungen mit
 [Mehr lesen](./specify-sort-warning-while-sorting-data-in-excel/)
 
 ## Tutorials zur Datenaufbewahrung und zu Warnhinweisen in Excel
-### [Behalten Sie das einfache Anführungszeichen als Präfix eines Zellenwerts oder -bereichs in Excel bei](./preserve-single-quote-prefix-of-cell-value-or-range-in-excel/)
+### [Beibehalten des einfachen Anführungszeichenpräfixes des Zellenwerts oder -bereichs in Excel](./preserve-single-quote-prefix-of-cell-value-or-range-in-excel/)
 Erfahren Sie in diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET einfache Anführungszeichen in Excel-Zellen beibehalten.
 ### [Geben Sie beim Sortieren von Daten in Excel eine Sortierwarnung an](./specify-sort-warning-while-sorting-data-in-excel/)
 Sortieren Sie Excel-Daten mühelos mit Aspose.Cells für .NET. Lernen Sie in diesem umfassenden Tutorial schrittweise Strategien zur effektiven Verwaltung von Excel-Daten.

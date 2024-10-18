@@ -9,7 +9,7 @@ url: /zh/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## 介绍
 
-欢迎阅读本分步指南，了解如何使用 Aspose.Cells for .NET 无缝管理电子表格，特别是重点介绍如何处理单元格值中的前导撇号。在当今以数据为中心的世界中，有效管理数据的能力至关重要。您是否注意到 Excel 有时会以不同的方式处理以撇号开头的文本值？如果您使用 .NET 代码自动执行 Excel 任务，这可能会导致意外结果。不要害怕！本教程将帮助您解决这个问题。 
+欢迎阅读本分步指南，了解如何使用 Aspose.Cells for .NET 无缝管理电子表格，特别是重点介绍如何处理单元格值中的前导撇号。在当今以数据为中心的世界中，有效管理数据的能力至关重要。您是否注意到 Excel 有时会以不同的方式处理以撇号开头的文本值？如果您使用 .NET 代码自动执行 Excel 任务，这可能会导致意外结果。不要害怕！本教程将帮助您解决这一问题。 
 
 ## 先决条件
 
@@ -17,7 +17,7 @@ url: /zh/net/excel-workbook/allow-leading-apostrophe/
 
 1. .NET 基础知识：熟悉 .NET 框架必不可少。如果您已经涉足 C# 或 VB.NET，请做好准备。
 2. Aspose.Cells for .NET 库：您需要安装 Aspose.Cells。您可以通过 NuGet 包管理器轻松完成此操作，也可以从[Aspose 网站](https://releases.aspose.com/cells/net/).
-3. IDE 设置：确保您拥有一个像 Visual Studio 这样的集成开发环境 (IDE) 来准备编码。
+3. IDE 设置：确保您拥有一个像 Visual Studio 这样的集成开发环境 (IDE) 可以用于编码。
 4. 示例 Excel 文件：您可以使用我们将在代码中使用的示例文件（“AllowLeadingApostropheSample.xlsx”）。
 
 现在您已经检查了先决条件，让我们导入必要的包并设置我们的项目。
@@ -35,7 +35,7 @@ using System.Collections.Generic;
 
 确保已在项目中添加对 Aspose.Cells 的引用。如果您使用的是 Visual Studio，则可以通过在 NuGet 包管理器下搜索“Aspose.Cells”来执行此操作。
 
-我们将把任务分解为易于管理的步骤，以确保清晰度。
+我们将把任务分解为可管理的步骤以确保清晰度。
 
 ## 步骤 1：设置源和输出目录
 
@@ -90,7 +90,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
-我们正在创建一个列表`DataObject`，其中一个名称故意包含前导撇号。这将有助于说明 Aspose.Cells 如何处理此类情况。
+我们正在创建一个列表`DataObject`，其中一个名称故意包含一个前导撇号。这将有助于说明 Aspose.Cells 如何处理此类情况。
 
 ## 步骤 6：将数据源绑定到设计器
 

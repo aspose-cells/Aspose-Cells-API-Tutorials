@@ -56,7 +56,7 @@ Laten we nu onze handen vuil maken en in de code duiken! We gaan stap voor stap 
 
 ## Stap 1: Definieer de documentdirectory
 
-De eerste stap is het aanwijzen waar uw Excel-bestand zal worden opgeslagen. In plaats van overal in uw code paden hard te coderen, houden we het netjes en opgeruimd.
+De eerste stap is het aangeven waar uw Excel-bestand zal worden opgeslagen. In plaats van overal in uw code paden hard te coderen, houden we het netjes en opgeruimd.
 
 ```csharp
 // Het pad naar de documentenmap.
@@ -65,12 +65,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Vervangen`"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad waar u uw Excel-bestand wilt opslaan. Zie dit als het instellen van uw werkruimte voordat u een project start!
 
-## Stap 2: Een exemplaar van de werkmap maken
+## Stap 2: Maak een exemplaar van de werkmap
 
  Vervolgens moeten we een`Workbook` object. Dit object fungeert als een container voor uw spreadsheetgegevens.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -113,9 +113,9 @@ pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 
 Elke regel hier vertegenwoordigt een optie die de weergave van uw document verbetert wanneer u het afdrukt:
 
-1. Rasterlijnen afdrukken: Hiermee worden die vervelende lege plekken op uw blad zichtbaar, zodat anderen gemakkelijker kunnen volgen. 
+1. Rasterlijnen afdrukken: Hiermee worden die vervelende lege plekken op uw blad zichtbaar, zodat anderen het gemakkelijk kunnen volgen. 
    
-2. Koppen afdrukken: Door rij- en kolomkoppen toe te voegen, geeft u uw gegevens context, vergelijkbaar met de index van een boek.
+2. Afdrukkoppen: Door rij- en kolomkoppen toe te voegen, geeft u uw gegevens context, vergelijkbaar met de index van een boek.
 
 3. Zwart-witmodus: Ideaal voor wie wil besparen op kleurenafdrukken. 
 
@@ -123,7 +123,7 @@ Elke regel hier vertegenwoordigt een optie die de weergave van uw document verbe
 
 5. Print Draft Kwaliteit: Als het slechts een ruwe kopie is, hoeft u niet de volledige kwaliteit te gebruiken. Het is alsof u schetst voordat u gaat schilderen!
 
-6. Fouten afdrukken als N/B: Door fouten als N/B weer te geven, blijft de afdruk overzichtelijk en begrijpelijk, en voorkomt u verwarring.
+6. Fouten afdrukken als N/B: Door fouten weer te geven als N/B blijft de afdruk overzichtelijk en begrijpelijk, en voorkomt u verwarring.
 
 ## Stap 5: Sla de werkmap op
 

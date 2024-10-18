@@ -67,7 +67,7 @@ workbook.Settings.ShowTabs = false;
 
  Qui,`ShowTabs` è una proprietà del`Settings` classe nella`Workbook` oggetto. Impostandolo su`false` assicura che le schede dei fogli nella cartella di lavoro di Excel siano nascoste.
 
-Questa è la parte fondamentale del tutorial. Se stai distribuendo il file Excel per scopi aziendali o professionali, nascondere le schede può presentare un'interfaccia più pulita, specialmente se il destinatario non ha bisogno di navigare tra più fogli.
+Questa è la parte fondamentale del tutorial. Se stai distribuendo il file Excel per scopi aziendali o professionali, nascondere le schede può presentare un'interfaccia più pulita, soprattutto se il destinatario non ha bisogno di navigare tra più fogli.
 
 ## Passaggio 4: (facoltativo) Mostra nuovamente le schede
 

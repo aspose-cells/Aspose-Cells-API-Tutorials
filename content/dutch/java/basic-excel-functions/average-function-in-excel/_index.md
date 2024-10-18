@@ -1,6 +1,6 @@
 ---
-title: GEMIDDELDE functie in Excel
-linktitle: GEMIDDELDE functie in Excel
+title: GEMIDDELDE-functie in Excel
+linktitle: GEMIDDELDE-functie in Excel
 second_title: Aspose.Cells Java Excel-verwerkings-API
 description: Leer hoe u de GEMIDDELDE functie in Excel gebruikt met Aspose.Cells voor Java. Stapsgewijze handleiding, codevoorbeelden en tips voor efficiënte Excel-automatisering.
 type: docs
@@ -10,7 +10,7 @@ url: /nl/java/basic-excel-functions/average-function-in-excel/
 
 ## Inleiding tot de GEMIDDELDE-functie in Excel
 
-Excel-spreadsheets worden veel gebruikt voor data-analyse en berekeningen. Een van de meest gebruikte functies voor numerieke analyse is de AVERAGE-functie, waarmee u het gemiddelde van een reeks getallen kunt vinden. In dit artikel onderzoeken we hoe u de AVERAGE-functie in Excel kunt gebruiken met Aspose.Cells voor Java, een krachtige API voor het programmatisch werken met Excel-bestanden.
+Excel-spreadsheets worden veel gebruikt voor data-analyse en berekeningen. Een van de meest gebruikte functies voor numerieke analyse is de functie GEMIDDELDE, waarmee u het gemiddelde van een reeks getallen kunt vinden. In dit artikel onderzoeken we hoe u de functie GEMIDDELDE in Excel kunt gebruiken met Aspose.Cells voor Java, een krachtige API voor het programmatisch werken met Excel-bestanden.
 
 ## Aspose.Cells instellen voor Java
 
@@ -24,7 +24,7 @@ Nadat u Aspose.Cells voor Java hebt geïnstalleerd, kunt u aan de slag met Excel
 
 ## Een nieuwe Excel-werkmap maken
 
-Om de functie GEMIDDELDE te gebruiken, hebben we eerst een Excel-werkmap nodig. Laten we er een programmatisch maken met Aspose.Cells:
+Om de functie GEMIDDELDE te gebruiken, hebben we eerst een Excel-werkmap nodig. Laten we er een programmatisch maken met behulp van Aspose.Cells:
 
 ```java
 // Java-code om een nieuwe Excel-werkmap te maken
@@ -77,7 +77,7 @@ Met deze code wijzigt u het lettertype, de grootte en de voorgrondkleur van de c
 
 ## Excel-bestanden opslaan en exporteren
 
-Nadat u uw Excel-sheet hebt gemaakt en geformatteerd, kunt u deze opslaan op een specifieke locatie of exporteren naar verschillende formaten, zoals PDF of CSV. Hier leest u hoe u deze kunt opslaan als PDF:
+Nadat u uw Excel-sheet hebt gemaakt en geformatteerd, kunt u deze opslaan op een specifieke locatie of exporteren naar verschillende formaten, zoals PDF of CSV. Zo slaat u het op als PDF:
 
 ```java
 // Java-code om de werkmap als PDF op te slaan

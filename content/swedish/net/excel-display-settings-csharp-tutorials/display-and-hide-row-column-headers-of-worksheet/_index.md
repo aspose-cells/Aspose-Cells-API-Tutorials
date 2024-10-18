@@ -53,7 +53,7 @@ Därefter måste du skapa en filström för att öppna din Excel-fil. Detta steg
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Här anger vi att vi vill öppna`book1.xls` finns i den angivna katalogen. De`FileMode.Open` parameter indikerar att vi öppnar en befintlig fil. Se alltid till att filnamnet stämmer överens med det du har.
+Här anger vi att vi vill öppna`book1.xls` finns i den angivna katalogen. De`FileMode.Open` parameter indikerar att vi öppnar en befintlig fil. Se alltid till att filnamnet stämmer överens med det du har.
 
 ## Steg 3: Instantiera ett arbetsboksobjekt
 
@@ -83,7 +83,7 @@ Nu för stunden vi har väntat på! Det är här vi faktiskt döljer rad- och ko
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Miljö`IsRowColumnHeadersVisible` till`false` kommer effektivt att dölja rubrikerna i både rader och kolumner, vilket skapar ett renare utseende för din datapresentation.
+ Miljö`IsRowColumnHeadersVisible` till`false`kommer effektivt att dölja rubrikerna i både rader och kolumner, vilket skapar ett renare utseende för din datapresentation.
 
 ## Steg 6: Spara den modifierade Excel-filen
 
@@ -103,7 +103,7 @@ Slutligen måste du se till att du stänger filströmmen så att alla resurser f
 fstream.Close();
 ```
 
- Stänger`fstream`är avgörande eftersom det säkerställer att det inte finns några minnesläckor eller fillås kvar öppna i din applikation.
+ Stänger`fstream` är avgörande eftersom det säkerställer att det inte finns några minnesläckor eller fillås kvar öppna i din applikation.
 
 ## Slutsats
 
@@ -121,7 +121,7 @@ Aspose.Cells är ett kraftfullt .NET-bibliotek för att hantera Excel-kalkylblad
  Även om du kan använda en gratis testversion, krävs en licens för pågående kommersiell användning. Du hittar köpalternativen[här](https://purchase.aspose.com/buy).
 
 ### Finns det stöd tillgängligt för Aspose.Cells?  
-Ja, Aspose ger support genom deras forum, som du kan komma åt[här](https://forum.aspose.com/c/cells/9).
+ Ja, Aspose ger support genom deras forum, som du kan komma åt[här](https://forum.aspose.com/c/cells/9).
 
 ### Hur kan jag få en tillfällig licens för Aspose.Cells?  
  Du kan ansöka om en tillfällig licens för utvärderingsändamål på[denna länk](https://purchase.aspose.com/temporary-license/).

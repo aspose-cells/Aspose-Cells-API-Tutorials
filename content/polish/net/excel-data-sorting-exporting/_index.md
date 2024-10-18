@@ -19,7 +19,7 @@ Sortowanie danych może wydawać się dziecinnie proste, ale gdy dodasz do tego 
 
 ## Eksportowanie wartości HTML: Konwersja komórek do tabeli danych
 
-Teraz przejdźmy do eksportowania wartości ciągu HTML. Powiedzmy, że stworzyłeś oszałamiającą tabelę w programie Excel z bogatym formatowaniem HTML i teraz chcesz wykorzystać te dane w aplikacji internetowej. Jak to zrobić? I tu pojawia się nasz drugi samouczek. 
+Teraz przejdźmy do eksportowania wartości ciągu HTML. Załóżmy, że stworzyłeś oszałamiającą tabelę w programie Excel z bogatym formatowaniem HTML i teraz chcesz wykorzystać te dane w aplikacji internetowej. Jak to zrobić? I tu właśnie pojawia się nasz drugi samouczek. 
 
  Z[Samouczek eksportu wartości ciągu HTML komórek do tabeli danych w programie Excel](./export-html-string-value-of-cells-to-datatable-in-excel/), nauczysz się wyodrębniać te pięknie sformatowane komórki i konwertować je na DataTable przy użyciu Aspose.Cells dla .NET. To jak przenoszenie pysznego przepisu ze starej, zakurzonej książki do ulubionej aplikacji do gotowania cyfrowego — wygodne i wydajne!
 
@@ -27,4 +27,4 @@ Teraz przejdźmy do eksportowania wartości ciągu HTML. Powiedzmy, że stworzy�
 ### [Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel](./sort-data-in-a-column-with-custom-sort-list-in-excel/)
 W tym kompleksowym samouczku dowiesz się, jak sortować dane w programie Excel za pomocą niestandardowej listy sortowania w Aspose.Cells for .NET.
 ### [Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel](./export-html-string-value-of-cells-to-datatable-in-excel/)
-Dowiedz się, jak eksportować wartości ciągu HTML z komórek programu Excel do tabeli DataTable przy użyciu Aspose.Cells for .NET, korzystając z prostego samouczka krok po kroku.
+Dowiedz się, jak eksportować wartości ciągu HTML z komórek programu Excel do tabeli DataTable przy użyciu Aspose.Cells dla .NET, korzystając z prostego samouczka krok po kroku.

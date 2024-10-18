@@ -1,7 +1,7 @@
 ---
 title: Renomear automaticamente colunas duplicadas ao exportar dados do Excel
 linktitle: Renomear automaticamente colunas duplicadas ao exportar dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Renomeie colunas duplicadas automaticamente no Excel com Aspose.Cells para .NET! Siga nosso guia passo a passo para simplificar suas exportações de dados sem esforço.
 type: docs
 weight: 11
@@ -31,7 +31,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 Isso permite que você acesse as classes e métodos dentro da biblioteca Aspose.Cells e do namespace System.Data, que usaremos para manipular DataTable.
-Agora, vamos detalhar o código de exemplo passo a passo, fornecendo explicações detalhadas ao longo do caminho.
+Agora, detalharemos o código de exemplo passo a passo, fornecendo explicações detalhadas ao longo do caminho.
 ## Etapa 1: Crie uma pasta de trabalho
 Para começar, precisamos criar uma pasta de trabalho. Este é o contêiner para todas as suas planilhas e dados.
 ```csharp
@@ -60,7 +60,7 @@ ws.Cells["A2"].PutValue("Data");
 ws.Cells["B2"].PutValue("Data");
 ws.Cells["C2"].PutValue("Data");
 ```
-Aqui, estamos preenchendo as linhas 2 com “Dados” para cada coluna. Pense nisso como colocar o mesmo conteúdo em cada jarra.
+Aqui, estamos preenchendo as linhas 2 com “Data” para cada coluna. Pense nisso como colocar o mesmo conteúdo em cada jar.
 ## Etapa 5: Criar ExportTableOptions
  Um`ExportTableOptions`object nos permitirá definir como lidar com o processo de exportação. É aqui que especificamos nossa intenção de lidar com nomes de colunas duplicados automaticamente.
 ```csharp

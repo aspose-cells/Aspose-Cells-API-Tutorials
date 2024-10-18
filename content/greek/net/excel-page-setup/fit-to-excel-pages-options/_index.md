@@ -54,9 +54,9 @@ using System;
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Δημιουργία αντικειμένου βιβλίου εργασίας
+// Δημιουργία αντικειμένου βιβλίου εργασίας
 Workbook workbook = new Workbook();
-//Πρόσβαση στο πρώτο φύλλο εργασίας στο αρχείο Excel
+// Πρόσβαση στο πρώτο φύλλο εργασίας στο αρχείο Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

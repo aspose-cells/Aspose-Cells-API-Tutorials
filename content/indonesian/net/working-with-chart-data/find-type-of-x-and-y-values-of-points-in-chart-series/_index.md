@@ -19,7 +19,7 @@ Sebelum memulai langkah-langkahnya, pastikan Anda telah menyiapkan beberapa hal:
    
 2.  Aspose.Cells untuk .NET: Anda perlu menginstal Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
 
-3. Contoh Berkas Excel: Dapatkan contoh berkas Excel yang berisi grafik. Untuk tutorial ini, kita akan menggunakan berkas bernama`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Pastikan ada di direktori proyek Anda.
+3.  Contoh Berkas Excel: Dapatkan contoh berkas Excel yang berisi grafik. Untuk tutorial ini, kita akan menggunakan berkas bernama`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Pastikan ada di direktori proyek Anda.
 
 4. Pengetahuan Pemrograman Dasar: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya dengan mudah.
 
@@ -56,11 +56,11 @@ Pertama, Anda perlu menentukan direktori tempat file Excel Anda berada. Atur jal
 string sourceDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"`dengan jalur tempat file Excel Anda disimpan.
+ Mengganti`"Your Document Directory"` dengan jalur tempat file Excel Anda disimpan.
 
 ## Langkah 2: Muat Buku Kerja
 
- Selanjutnya, muat file Excel ke dalam`Workbook` objek. Ini memungkinkan Anda untuk mengakses semua konten berkas.
+ Selanjutnya, muat file Excel ke dalam`Workbook`objek. Ini memungkinkan Anda untuk mengakses semua konten berkas.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

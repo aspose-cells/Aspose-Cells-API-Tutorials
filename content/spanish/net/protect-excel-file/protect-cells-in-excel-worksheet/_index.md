@@ -52,7 +52,7 @@ Primero debe determinar dónde guardar el archivo de Excel. A continuación, le 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Especifique aquí la ruta de su directorio
-// Crear directorio si aún no está presente.
+//Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -153,7 +153,7 @@ Aspose.Cells es una poderosa biblioteca para manipular archivos Excel en diferen
  Aspose.Cells ofrece una prueba gratuita, pero para continuar usándola se necesita una licencia. Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Dónde puedo encontrar la documentación?
-La documentación se puede encontrar[aquí](https://reference.aspose.com/cells/net/).
+ La documentación se puede encontrar[aquí](https://reference.aspose.com/cells/net/).
 
 ### ¿En qué formatos de archivo puedo guardar archivos de Excel?
 Aspose.Cells admite múltiples formatos, incluidos XLSX, XLS, CSV y más.

@@ -86,7 +86,7 @@ Có, Aspose.Cells for Java rất phù hợp cho các tác vụ xử lý hàng lo
 
 ### 4. Tôi có thể xuất dữ liệu sang Excel bằng cùng một thư viện không?
 
-Hoàn toàn có thể! Aspose.Cells for Java hỗ trợ cả việc nhập và xuất dữ liệu vào và ra khỏi tệp Excel.
+Chắc chắn rồi! Aspose.Cells for Java hỗ trợ cả việc nhập và xuất dữ liệu vào và ra khỏi tệp Excel.
 
 ### 5. Có yêu cầu cấp phép nào khi sử dụng Aspose.Cells cho Java không?
 

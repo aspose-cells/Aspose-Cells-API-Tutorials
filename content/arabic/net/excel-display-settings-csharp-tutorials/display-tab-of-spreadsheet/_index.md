@@ -17,7 +17,7 @@ url: /ar/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 
 1.  Aspose.Cells for .NET Library – تأكد من تثبيتها. يمكنك[تحميل المكتبة هنا](https://releases.aspose.com/cells/net/).
 2. .NET Framework – تأكد من تشغيل إصدار متوافق من .NET Framework. يدعم Aspose.Cells for .NET إصدارات .NET Framework بدءًا من 2.0.
-3. بيئة التطوير – Visual Studio أو أي C# IDE آخر مثالي لهذه المهمة.
+3. بيئة التطوير – Visual Studio أو أي بيئة تطوير متكاملة أخرى لـC# مثالية لهذه المهمة.
 4. المعرفة الأساسية بلغة C# – ليس عليك أن تكون ساحرًا، ولكن فهم بناء الجملة الأساسي سوف يساعدك.
 
 بمجرد إعداد هذه المتطلبات الأساسية، ستكون جاهزًا لمتابعة هذا البرنامج التعليمي بسلاسة.
@@ -61,9 +61,9 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 workbook.Settings.ShowTabs = true;
 ```
 
- جلسة`ShowTabs` ل`true`سيضمن أن تكون علامات التبويب مرئية عند فتح ملف Excel.
+ جلسة`ShowTabs` ل`true` سيضمن أن تكون علامات التبويب مرئية عند فتح ملف Excel.
 
-## الخطوة 4: احفظ ملف Excel المعدّل
+## الخطوة 4: حفظ ملف Excel المعدّل
 
 بمجرد عرض علامات التبويب، نحتاج إلى حفظ الملف المحدث. سيضمن هذا بقاء التغييرات عند إعادة فتح المصنف.
 
@@ -80,7 +80,7 @@ workbook.Save(dataDir + "output.xls");
 ## الأسئلة الشائعة
 
 ### هل يمكنني إخفاء علامات التبويب في Excel باستخدام Aspose.Cells لـ .NET؟
- بالتأكيد! ببساطة قم بالتعيين`workbook.Settings.ShowTabs = false;`واحفظ الملف. سيؤدي هذا إلى إخفاء علامات التبويب عند فتح المصنف.
+ بالتأكيد! ببساطة قم بالتعيين`workbook.Settings.ShowTabs = false;` واحفظ الملف. سيؤدي هذا إلى إخفاء علامات التبويب عند فتح المصنف.
 
 ### هل يدعم Aspose.Cells ميزات Excel الأخرى مثل المخططات والجداول المحورية؟
 نعم، Aspose.Cells عبارة عن مكتبة شاملة تدعم جميع ميزات Excel تقريبًا، بما في ذلك المخططات والجداول المحورية والصيغ والمزيد.

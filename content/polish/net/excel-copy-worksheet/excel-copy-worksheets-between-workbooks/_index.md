@@ -15,10 +15,10 @@ Czy zdarzyło Ci się kopiować arkusze kalkulacyjne między skoroszytami progra
 
 Zanim zagłębimy się w kod, upewnijmy się, że dysponujesz odpowiednimi narzędziami, aby zacząć:
 
--  Aspose.Cells dla .NET: Możesz go pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Możesz go pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 - Visual Studio lub dowolne środowisko IDE obsługujące platformę .NET.
 -  Ważne prawo jazdy lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli chcesz przetestować pełną funkcjonalność Aspose.Cells.
-- Podstawowa znajomość języka C# i platformy .NET.
+- Podstawowa znajomość języka C# i środowiska .NET.
 
  Możesz również sprawdzić[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) po więcej szczegółów.
 
@@ -44,7 +44,7 @@ Najpierw musisz określić, gdzie znajdują się Twoje pliki. Pomyśl o tym krok
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym wierszu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do plików Excel. To jest miejsce, z którego będą ładowane i zapisywane Twoje skoroszyty.
+ W tym wierszu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do plików Excela. To jest miejsce, z którego będą ładowane i zapisywane Twoje skoroszyty.
 
 ## Krok 2: Otwórz pierwszy skoroszyt
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 Teraz, gdy masz otwarty pierwszy skoroszyt, czas utworzyć kolejny pusty skoroszyt, do którego wkleisz skopiowany arkusz. Wyobraź sobie, że otwierasz nowy pusty notatnik, do którego przeniesiesz dane.
 
 ```csharp
-// Utwórz kolejny skoroszyt.
+//Utwórz kolejny skoroszyt.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,21 +86,21 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 Na koniec zapiszesz drugi skoroszyt z skopiowanym arkuszem. To tak, jakbyś zapisywał swoje nowo napisane notatki w nowym folderze na swoim komputerze.
 
 ```csharp
-//Zapisz plik.
+// Zapisz plik.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 
- Spowoduje to zapisanie drugiego skoroszytu ze skopiowanym arkuszem kalkulacyjnym do nowego pliku o nazwie`CopyWorksheetsBetweenWorkbooks_out.xls`Możesz zmienić nazwę na dowolną inną!
+ Spowoduje to zapisanie drugiego skoroszytu ze skopiowanym arkuszem kalkulacyjnym do nowego pliku o nazwie`CopyWorksheetsBetweenWorkbooks_out.xls`Możesz zmienić nazwę na dowolną inną, jaką tylko chcesz!
 
 ## Wniosek
 
-I to wszystko! Udało Ci się skopiować arkusz kalkulacyjny z jednego skoroszytu programu Excel do drugiego przy użyciu Aspose.Cells dla .NET. To prosty proces, który oszczędza Ci ręcznego kopiowania i wklejania, zwłaszcza podczas pracy ze złożonymi lub dużymi arkuszami kalkulacyjnymi. Aspose.Cells dla .NET to potężne narzędzie, które pozwala Ci z łatwością manipulować plikami programu Excel, niezależnie od tego, czy kopiujesz arkusze, łączysz skoroszyty, czy wykonujesz bardziej zaawansowane zadania.
+to wszystko! Udało Ci się skopiować arkusz kalkulacyjny z jednego skoroszytu programu Excel do drugiego przy użyciu Aspose.Cells dla .NET. To prosty proces, który oszczędza Ci ręcznego kopiowania i wklejania, zwłaszcza podczas pracy ze złożonymi lub dużymi arkuszami kalkulacyjnymi. Aspose.Cells dla .NET to potężne narzędzie, które pozwala Ci z łatwością manipulować plikami programu Excel, niezależnie od tego, czy kopiujesz arkusze, łączysz skoroszyty, czy wykonujesz bardziej zaawansowane zadania.
 
 Pamiętaj, kodowanie staje się łatwiejsze, gdy rozbijesz je na mniejsze kroki. Więc następnym razem, gdy będziesz musiał zarządzać plikami Excela, będziesz przygotowany, aby poradzić sobie z tym jak profesjonalista.
 
 ## Najczęściej zadawane pytania
 
-### Czy mogę kopiować wiele arkuszy jednocześnie?
+### Czy mogę kopiować wiele arkuszy kalkulacyjnych jednocześnie?
 
  Tak, możesz przeglądać arkusze w skoroszycie źródłowym i kopiować je do skoroszytu docelowego. Każdy arkusz ma swój własny`Copy` metoda.
 
@@ -112,7 +112,7 @@ Oczywiście! Możesz skopiować arkusz do dowolnego istniejącego skoroszytu, na
 
  Chociaż do podstawowych funkcji można używać bezpłatnej wersji Aspose.Cells, zaleca się pobranie[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub płatną licencję zapewniającą dostęp do pełnego zakresu funkcji i pozwalającą uniknąć ograniczeń, takich jak znaki wodne.
 
-### Czy mogę kopiować arkusze kalkulacyjne z wykresami i obrazkami?
+### Czy mogę kopiować arkusze kalkulacyjne z wykresami i obrazami?
 
 Tak! Aspose.Cells w pełni obsługuje kopiowanie arkuszy zawierających wykresy, obrazy i inne obiekty. Wszystko zostanie zachowane podczas procesu kopiowania.
 

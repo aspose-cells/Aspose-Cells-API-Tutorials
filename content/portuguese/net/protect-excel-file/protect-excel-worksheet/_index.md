@@ -35,7 +35,7 @@ Esses namespaces fornecem acesso ao manuseio de arquivos e às funcionalidades d
 
 Agora, vamos dividir o processo de proteção de uma planilha do Excel em etapas gerenciáveis.
 
-## Etapa 1: Defina o diretório de documentos
+## Etapa 1: Defina o diretório do documento
 
 Nesta primeira etapa, você definirá o caminho para o diretório onde seus documentos do Excel estão armazenados. Este diretório é essencial para localizar e salvar seus arquivos do Excel.
 

@@ -53,7 +53,7 @@ using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```
 
-现在您已全部完成，可以开始操作我们的 Excel 文件了！
+现在您已全部设置完毕，可以开始操作我们的 Excel 文件了！
 
 ## 加载示例 Excel 文件
 
@@ -66,7 +66,7 @@ using Aspose.Cells.Charts;
 string outputDir = "Your Output Directory"; //在此指定您的输出目录
 
 //源目录 - 示例 Excel 文件所在的位置
-string sourceDir = "Your Document Directory"; //在这里指定你的源目录
+string sourceDir = "Your Document Directory"; //在此指定你的源目录
 ```
 
 ### 步骤 2：加载 Excel 文件
@@ -117,7 +117,7 @@ ch.AxisY.MajorUnit = 10; //您可以根据需要设置
 
 ### 步骤 6：将图表导出为 PDF
 
-最后一步也是最令人兴奋的一步是将图表渲染为 PDF 文件。这是 Aspose.Cells 的亮点，因为您可以毫不费力地以不同的格式导出图表。
+最后一步也是最令人兴奋的一步是将图表渲染为 PDF 文件。这是 Aspose.Cells 的亮点，因为您可以毫不费力地以不同格式导出图表。
 
 ```csharp
 //将图表渲染为 pdf
@@ -134,7 +134,7 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 
 ## 结论
 
-使用 Aspose.Cells for .NET 不仅高效，而且回报丰厚。您可以像在 Excel 中格式化一样操作 Excel 文件！在本教程中，我们成功加载了 Excel 文件、访问和修改了图表并将其呈现为 PDF，同时处理了图表轴的自动单位。希望您喜欢这段 Excel 自动化之旅。
+使用 Aspose.Cells for .NET 不仅高效，而且回报丰厚。您可以像在 Excel 中格式化一样操作 Excel 文件！在本教程中，我们成功加载了 Excel 文件，访问和修改了图表，并将其呈现为 PDF，同时处理了图表轴的自动单位。希望您喜欢这段 Excel 自动化之旅。
 
 ## 常见问题解答
 
@@ -148,7 +148,7 @@ Aspose.Cells 是一个功能强大的.NET 库，用于创建、操作和转换 E
 只需在您的机器上安装 Aspose.Cells 库和 .NET Framework。
 
 ### 我可以以 PDF 以外的格式呈现图表吗？
-当然！Aspose.Cells 支持各种格式，例如 XLSX、HTML 和图像。
+当然！Aspose.Cells 支持多种格式，例如 XLSX、HTML 和图像。
 
 ### 如果我遇到问题，可以在哪里寻求支持？
 您可以向 Aspose 社区寻求帮助[这里](https://forum.aspose.com/c/cells/9).

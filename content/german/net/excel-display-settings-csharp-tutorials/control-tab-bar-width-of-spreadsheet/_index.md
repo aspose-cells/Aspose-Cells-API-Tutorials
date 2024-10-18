@@ -1,6 +1,6 @@
 ---
-title: Breite der Registerkartenleiste des Tabellenblatts steuern
-linktitle: Breite der Registerkartenleiste des Tabellenblatts steuern
+title: Breite der Registerkartenleiste des Arbeitsblatts steuern
+linktitle: Breite der Registerkartenleiste des Arbeitsblatts steuern
 second_title: Aspose.Cells für .NET API-Referenz
 description: Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie die Breite der Blattregisterkartenleiste in Excel mit Aspose.Cells für .NET steuern. Passen Sie Ihre Excel-Dateien effizient an.
 type: docs
@@ -69,7 +69,7 @@ Dieser Code stellt sicher, dass die Registerkarten in Ihrer Tabelle sichtbar sin
 
 ## Schritt 3: Passen Sie die Breite der Registerkartenleiste an
 
-Nachdem wir sichergestellt haben, dass die Registerkarten sichtbar sind, ist es an der Zeit, die Breite der Registerkartenleiste anzupassen. Und hier geschieht das Wunder. Durch die Vergrößerung der Breite werden die Registerkarten weiter auseinandergezogen, was nützlich ist, wenn Sie viele Blätter haben und mehr Platz zum Navigieren zwischen ihnen benötigen.
+Nachdem wir sichergestellt haben, dass die Registerkarten sichtbar sind, ist es an der Zeit, die Breite der Registerkartenleiste anzupassen. Und hier geschieht der Zauber. Durch die Vergrößerung der Breite breiten sich die Registerkarten weiter aus, was nützlich ist, wenn Sie viele Blätter haben und mehr Platz zum Navigieren zwischen ihnen benötigen.
 
 ```csharp
 workbook.Settings.SheetTabBarWidth = 800; // Breite in Pixeln

@@ -2,7 +2,7 @@
 title: Adicionar extensão da Web
 linktitle: Adicionar extensão da Web
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda como adicionar extensões da Web a arquivos do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo completo que aprimora as funcionalidades da sua planilha.
+description: Aprenda como adicionar extensões da web a arquivos do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo completo que aprimora as funcionalidades da sua planilha.
 type: docs
 weight: 40
 url: /pt/net/excel-workbook/add-web-extension/
@@ -28,7 +28,7 @@ Para trabalhar com Aspose.Cells, você precisa primeiro importar os pacotes nece
 
 1. Abra seu projeto: no Visual Studio, comece abrindo seu projeto.
 2. Adicionar referência: clique com o botão direito do mouse no seu projeto no Solution Explorer, selecione Gerenciar pacotes NuGet e pesquise por`Aspose.Cells`. Instale o pacote no seu projeto.
-3. Importar namespaces necessários: na parte superior do seu arquivo de código, você deve adicionar a seguinte diretiva using para o namespace Aspose.Cells:
+3. Importar namespaces necessários: no topo do seu arquivo de código, você vai querer adicionar a seguinte diretiva using para o namespace Aspose.Cells:
 
 ```csharp
 using Aspose.Cells;
@@ -40,12 +40,12 @@ Agora estamos prontos para adicionar uma extensão da Web a uma pasta de trabalh
 
 ## Etapa 1: Configurar o diretório de saída
 
-Primeiro, você precisa configurar o diretório de saída onde salvará sua pasta de trabalho modificada. Isso ajuda a manter seus arquivos organizados.
+Primeiro, você precisa configurar o diretório de saída onde você salvará sua pasta de trabalho modificada. Isso ajuda a manter seus arquivos organizados.
 
 ```csharp
 string outDir = "Your Document Directory";
 ```
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, vamos criar uma nova instância de uma Workbook. É aqui que toda a mágica acontece!
 
@@ -133,7 +133,7 @@ Adicionar extensões da Web às suas pastas de trabalho do Excel usando o Aspose
 ### O que são extensões da Web no Excel?
 As extensões da Web permitem a integração de conteúdo e funcionalidade da Web diretamente em uma pasta de trabalho do Excel, melhorando a interatividade.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  Aspose.Cells oferece um teste gratuito para fins de teste. Você pode aprender mais com o[Link de teste gratuito](https://releases.aspose.com/).
 
 ### Posso comprar o Aspose.Cells?

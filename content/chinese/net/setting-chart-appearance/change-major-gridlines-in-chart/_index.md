@@ -2,7 +2,7 @@
 title: 更改图表中的主要网格线
 linktitle: 更改图表中的主要网格线
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 通过我们详细的分步指南了解如何使用 Aspose.Cells for .NET 更改 Excel 图表中的主要网格线。
+description: 通过我们详细的分步指南学习如何使用 Aspose.Cells for .NET 更改 Excel 图表中的主要网格线。
 type: docs
 weight: 11
 url: /zh/net/setting-chart-appearance/change-major-gridlines-in-chart/
@@ -68,7 +68,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 步骤 4：使用示例数据填充工作表
 
-让我们在工作表单元格中添加一些示例值，这些值将作为我们图表的数据。这很重要，因为图表将引用这些数据。
+让我们在工作表单元格中添加一些示例值，这些值将作为图表的数据。这很重要，因为图表将引用这些数据。
 
 ```csharp
 //向单元格添加示例值
@@ -181,7 +181,7 @@ Console.WriteLine("Changing Major Gridlines in Chart executed successfully.");
 Aspose.Cells 是一个.NET 库，旨在以编程方式创建、操作和管理 Excel 文件。
 
 ### 我可以免费试用 Aspose.Cells 吗？  
-是的，您可以注册免费试用[这里](https://releases.aspose.com/).
+是的，你可以注册免费试用[这里](https://releases.aspose.com/).
 
 ### 如何使用 Aspose.Cells 更改图表中的其他元素？  
 您可以通过访问图表元素来自定义各种图表属性`Chart`类别，例如标题、图例和数据标签。

@@ -16,7 +16,7 @@ Diagramme sind eine leistungsstarke Möglichkeit, Daten zu visualisieren, und ma
 Bevor wir ins Detail gehen, klären wir, was Sie für den Anfang brauchen:
 
 - Grundkenntnisse in C#: Es ist wichtig, die Grundlagen der C#-Programmierung zu verstehen. Wenn Sie Anfänger sind, machen Sie sich keine Sorgen – die Schritte sind klar und prägnant.
-- Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können dies über den NuGet-Paket-Manager in Visual Studio tun. Wenn Sie dies noch nicht getan haben, sehen Sie sich die[Downloadlink](https://releases.aspose.com/cells/net/) für die Bibliothek.
+-  Aspose.Cells-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek installiert haben. Sie können dies über den NuGet-Paket-Manager in Visual Studio tun. Wenn Sie dies noch nicht getan haben, sehen Sie sich die[Downloadlink](https://releases.aspose.com/cells/net/) für die Bibliothek.
 - Visual Studio: Sie benötigen eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio, um Ihren Code zu schreiben und auszuführen.
 
 ## Pakete importieren
@@ -62,7 +62,7 @@ Als Nächstes laden wir die Excel-Datei, die das Diagramm enthält, dem wir eine
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Hier verwenden wir die`Workbook` Klasse von Aspose.Cells, um unsere Excel-Datei zu öffnen. Es ist, als würde man eine Tür aufschließen, um der Kreativität freien Lauf zu lassen!
+ Hier verwenden wir die`Workbook`Klasse von Aspose.Cells, um unsere Excel-Datei zu öffnen. Es ist, als würde man eine Tür aufschließen, um der Kreativität freien Lauf zu lassen!
 
 ## Schritt 3: Zugriff auf das Arbeitsblatt
 
@@ -85,7 +85,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 
 Diese Zeile ist vergleichbar mit dem Finden des richtigen Kunstwerks in einer Galerie. Ihr Diagramm wartet, und jetzt sind Sie bereit, es heller erstrahlen zu lassen!
 
-## Schritt 5: Dem Diagramm die Beschriftung hinzufügen
+## Schritt 5: Beschriftung zum Diagramm hinzufügen
 
 Jetzt kommt der spannende Teil – das Hinzufügen der Beschriftung zum Diagramm. Wir definieren die Position und Größe unserer Beschriftung.
 
@@ -94,7 +94,7 @@ Jetzt kommt der spannende Teil – das Hinzufügen der Beschriftung zum Diagramm
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Hier,`AddLabelInChart` kümmert sich um die Erstellung eines Etiketts basierend auf den von Ihnen angegebenen Koordinaten und Abmessungen. Es ist, als würden Sie einen schönen Rahmen um Ihr Kunstwerk anbringen!
+ Hier,`AddLabelInChart`kümmert sich um die Erstellung eines Etiketts basierend auf den von Ihnen angegebenen Koordinaten und Abmessungen. Es ist, als würden Sie einen schönen Rahmen um Ihr Kunstwerk anbringen!
 
 ## Schritt 6: Legen Sie den Beschriftungstext fest
 
@@ -137,7 +137,7 @@ Vergewissern Sie sich abschließend, dass alles reibungslos verlaufen ist, indem
 Console.WriteLine("AddingLabelControlInChart executed successfully.");
 ```
 
-Es ist, als würden Sie der Welt Ihr fertiges Produkt präsentieren und darauf warten, Applaus zu erhalten!
+Es ist, als würden Sie der Welt Ihr fertiges Produkt präsentieren und auf Applaus warten!
 
 ## Abschluss
 
@@ -149,7 +149,7 @@ Und da haben Sie es! Sie haben erfolgreich ein Beschriftungssteuerelement zu ein
 Ja! Sie können Schriftart, Farbe, Größe und andere Eigenschaften des Etiketts Ihren Wünschen entsprechend ändern.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells ist ein kostenpflichtiges Produkt. Sie können jedoch mit einem[Kostenlose Testversion](https://releases.aspose.com/)um seine Funktionen zu erkunden.
+ Aspose.Cells ist ein kostenpflichtiges Produkt. Sie können jedoch mit einem[Kostenlose Testversion](https://releases.aspose.com/) um seine Funktionen zu erkunden.
 
 ### Was ist, wenn ich mehrere Etiketten hinzufügen möchte?
 Sie können die Schritte zum Hinzufügen der Etiketten beliebig oft wiederholen, jeweils mit unterschiedlichen Positionen und Texten.

@@ -21,7 +21,7 @@ Aspose.Cells para .NET es una potente biblioteca que permite a los desarrollador
 
 Una imagen vale más que mil palabras, ¿no? Esto también se aplica a los gráficos de Excel. Con Aspose.Cells para .NET, agregar imágenes a sus gráficos es tan fácil como insertar imágenes prediseñadas en un documento de Word. Las imágenes pueden ayudar a que sus gráficos sean más atractivos visualmente, lo que genera interacción con los datos que está presentando. Ya sea que esté presentando datos financieros o cifras de ventas, agregar imágenes relevantes ayuda a conectar los datos con la narrativa.
 
-¿Tienes curiosidad por saber cómo funciona esto? Consulta el[Agregar imagen al gráfico](./add-picture-to-chart/) tutorial.
+ ¿Tienes curiosidad por saber cómo funciona esto? Consulta el[Agregar imagen al gráfico](./add-picture-to-chart/) tutorial.
 
 ## Inserción de cuadros de texto y casillas de verificación
 

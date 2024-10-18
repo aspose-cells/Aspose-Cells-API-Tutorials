@@ -1,5 +1,5 @@
 ---
-title: Nieuw blad toevoegen in Excel C#-zelfstudie
+title: Nieuw blad toevoegen in Excel C# Tutorial
 linktitle: Nieuw blad toevoegen in Excel
 second_title: Aspose.Cells voor .NET API-referentie
 description: Leer hoe u een nieuw werkblad toevoegt in Excel met C# met Aspose.Cells. Deze tutorial splitst het proces op in eenvoudige, uitvoerbare stappen.
@@ -49,7 +49,7 @@ Om te beginnen wilt u ervoor zorgen dat u een veilige plek hebt om uw Excel-best
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Maak een map aan als deze nog niet bestaat.
+//Maak een map aan als deze nog niet bestaat.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ In de bovenstaande code declareren we het pad waar ons Excel-bestand zal worden 
 Vervolgens gaan we een instantie van de Workbook-klasse maken. Deze klasse is de ruggengraat van alle Excel-gerelateerde bewerkingen die u uitvoert.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -77,11 +77,11 @@ Nu ons werkboek klaar is, kunnen we het nieuwe werkblad toevoegen!
 int i = workbook.Worksheets.Add();
 ```
 
- Hier gebruiken we de`Add()` methode van de`Worksheets` collectie aanwezig binnen de`Workbook` klasse. De methode retourneert een index (`i`van het nieuw toegevoegde blad. Het is alsof je een pagina aan je notitieboek toevoegt - eenvoudig en efficiënt!
+ Hier gebruiken we de`Add()` methode van de`Worksheets` collectie aanwezig binnen de`Workbook` klasse. De methode retourneert een index (`i`) van het nieuw toegevoegde blad. Het is alsof je een pagina aan je notitieboek toevoegt - eenvoudig en efficiënt!
 
 ## Stap 4: Uw nieuwe werkblad een naam geven
 
-Wat is een werkblad zonder naam? Laten we ons nieuw gemaakte werkblad een naam geven zodat we het makkelijk kunnen herkennen.
+Wat is een werkblad zonder naam? Laten we ons nieuw gemaakte werkblad een naam geven voor eenvoudige identificatie.
 
 ```csharp
 // De referentie van het nieuw toegevoegde werkblad verkrijgen door de index van het werkblad door te geven
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- U krijgt een verwijzing naar het nieuw aangemaakte werkblad door de index ervan te gebruiken`i`. Vervolgens stellen we de naam gewoon in op "Mijn werkblad". Het is een goede gewoonte om uw werkbladen op deze manier te benoemen, vooral als u met grotere Excel-bestanden werkt waarbij context van groot belang is.
+ U krijgt een verwijzing naar het nieuw aangemaakte werkblad door de index ervan te gebruiken`i`Vervolgens stellen we de naam gewoon in op "Mijn werkblad". Het is een goede gewoonte om uw werkbladen op deze manier te benoemen, vooral als u werkt met grotere Excel-bestanden waarbij context van groot belang is.
 
 ## Stap 5: Het Excel-bestand opslaan
 

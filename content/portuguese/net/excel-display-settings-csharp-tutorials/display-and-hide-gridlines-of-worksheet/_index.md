@@ -15,7 +15,7 @@ Vamos mergulhar neste tutorial emocionante e, no final, você será um profissio
 
 ## Pré-requisitos
 
-Antes de começar, há algumas coisas que você precisa ter em mãos para tornar esse processo tranquilo:
+Antes de começar, há algumas coisas que você precisa ter em mãos para que esse processo seja tranquilo:
 
 1.  Biblioteca Aspose.Cells para .NET – Você pode baixá-la na página de lançamento do Aspose[aqui](https://releases.aspose.com/cells/net/).
 2. Ambiente .NET – Você precisa ter um ambiente de desenvolvimento .NET básico, como o Visual Studio.
@@ -46,9 +46,9 @@ Antes de poder manipular qualquer arquivo Excel, você precisa especificar o loc
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nesta etapa, você atribuirá o local do seu arquivo Excel ao`dataDir` sequência. Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde seu`.xls` o arquivo está localizado.
+ Nesta etapa, você atribuirá o local do seu arquivo Excel ao`dataDir` sequência. Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real onde seu`.xls` arquivo está localizado.
 
-## Etapa 2: Criar um fluxo de arquivos
+## Etapa 2: Crie um fluxo de arquivos
 
 Em seguida, criaremos um fluxo de arquivo para abrir o arquivo Excel. Esta etapa é essencial, pois nos fornece uma maneira de interagir com o arquivo em um formato de fluxo.
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Arquivos Excel geralmente contêm várias planilhas. Para este tutorial, estamos acessando a primeira planilha na pasta de trabalho.
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Agora vem a parte divertida – esconder as linhas de grade! Com apenas uma linha de código, você pode alternar a visibilidade das linhas de grade.
 
 ```csharp
-//Ocultando as linhas de grade da primeira planilha do arquivo Excel
+// Ocultando as linhas de grade da primeira planilha do arquivo Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Fechar o fluxo de arquivo é crucial porque garante que todos os recursos sejam 
 
 ## Conclusão
 
- pronto! Você acabou de aprender como exibir e ocultar linhas de grade em uma planilha do Excel usando o Aspose.Cells para .NET. Quer você esteja aprimorando um relatório ou apresentando dados em um formato mais legível, essa técnica simples pode impactar significativamente a aparência de suas planilhas. A melhor parte? São necessárias apenas algumas linhas de código para fazer grandes mudanças. Se você estiver pronto para experimentar, não se esqueça de pegar um[teste gratuito](https://releases.aspose.com/) e comece a programar!
+ E pronto! Você acabou de aprender como exibir e ocultar linhas de grade em uma planilha do Excel usando o Aspose.Cells para .NET. Quer você esteja aprimorando um relatório ou apresentando dados em um formato mais legível, essa técnica simples pode impactar significativamente a aparência de suas planilhas. A melhor parte? São necessárias apenas algumas linhas de código para fazer grandes mudanças. Se você estiver pronto para experimentar, não se esqueça de pegar um[teste gratuito](https://releases.aspose.com/) e comece a programar!
 
 ## Perguntas frequentes
 
@@ -124,7 +124,7 @@ Fechar o fluxo de arquivo é crucial porque garante que todos os recursos sejam 
  Você pode definir`worksheet.IsGridlinesVisible = true;` para tornar as linhas de grade visíveis novamente.
 
 ### Posso ocultar linhas de grade apenas para intervalos ou células específicas?  
- Não, o`IsGridlinesVisible` propriedade se aplica à planilha inteira, não a células específicas.
+ Não, o`IsGridlinesVisible`propriedade se aplica à planilha inteira, não a células específicas.
 
 ### Posso manipular várias planilhas de uma só vez?  
  Sim! Você pode percorrer o`Worksheets` coleta e aplica alterações em cada planilha.

@@ -15,8 +15,8 @@ Lorsque vous travaillez avec des fichiers Excel dans .NET, l'une des bibliothèq
 
 Avant de plonger dans le vif du sujet, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer :
 
-1. Visual Studio : Visual Studio doit être installé sur votre ordinateur. Si vous ne l'avez pas encore, vous pouvez le télécharger à partir du[Site Web de Microsoft](https://visualstudio.microsoft.com/).
-2.  Bibliothèque Aspose.Cells : ce guide suppose que vous disposez de la bibliothèque Aspose.Cells. Vous pouvez facilement la télécharger à partir de[Page de sortie d'Aspose](https://releases.aspose.com/cells/net/) . Si vous ne savez pas par où commencer, le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) peut être ton meilleur ami !
+1.  Visual Studio : Visual Studio doit être installé sur votre ordinateur. Si vous ne l'avez pas encore, vous pouvez le télécharger à partir du[Site Web de Microsoft](https://visualstudio.microsoft.com/).
+2.  Bibliothèque Aspose.Cells : ce guide suppose que vous disposez de la bibliothèque Aspose.Cells. Vous pouvez facilement la télécharger à partir de[Page de sortie d'Aspose](https://releases.aspose.com/cells/net/) Si vous ne savez pas par où commencer, le[Documentation d'Aspose.Cells](https://reference.aspose.com/cells/net/) peut être ton meilleur ami !
 3. Connaissances de base de C# : la familiarité avec le langage de programmation C# vous aidera à comprendre les exemples et à suivre sans accroc.
 4.  Fichier Excel : Assurez-vous de disposer d'un fichier Excel contenant des graphiques pour ce didacticiel. Vous pouvez créer un exemple de fichier Excel nommé`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` à des fins de test.
 5. Environnement .NET : vérifiez que votre environnement .NET est correctement configuré. Ce didacticiel cible le framework .NET, alors assurez-vous que tout est prêt !
@@ -25,7 +25,7 @@ Maintenant que nous avons tout ce dont nous avons besoin, passons à la configur
 
 ## Paquets d'importation
 
-Avant de pouvoir exécuter du code, nous devons importer les packages nécessaires. Il s'agit d'une étape simple, mais cruciale. Pour ce faire, vous devez inclure les espaces de noms suivants en haut de votre fichier de code :
+Avant de pouvoir exécuter du code, nous devons importer les packages nécessaires. Il s'agit d'une étape simple, mais cruciale. Pour ce faire, vous devrez inclure les espaces de noms suivants en haut de votre fichier de code :
 
 ```csharp
 using System;
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- Le`Workbook`La classe est votre passerelle vers le fichier Excel. En fournissant le chemin complet, nous créons une nouvelle instance de classeur qui contient nos données Excel.
+ Le`Workbook` La classe est votre passerelle vers le fichier Excel. En fournissant le chemin complet, nous créons une nouvelle instance de classeur qui contient nos données Excel.
 
 ## Étape 3 : Accéder à la première feuille de travail
 
@@ -98,7 +98,7 @@ Lisons maintenant les étiquettes des axes de l’axe des catégories.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Ici, nous extrayons les étiquettes de l'axe des catégories et les stockons dans un`ArrayList`Cette liste est essentielle pour parcourir et afficher vos étiquettes.
+ Ici, nous extrayons les étiquettes de l'axe des catégories et les stockons dans un`ArrayList`Cette liste est essentielle pour parcourir et afficher vos étiquettes.
 
 ## Étape 7 : imprimez les étiquettes des axes sur la console
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Cet extrait génère d'abord un titre et une ligne de séparation. Ensuite, nous parcourons chaque étiquette dans le`lstLabels` ArrayList et l'imprimer sur la console. S'il y a dix étiquettes, vous les verrez toutes là !
+Cet extrait génère d'abord un titre et une ligne de séparation. Ensuite, nous parcourons chaque étiquette dans le`lstLabels` ArrayList et l'imprimer sur la console. S'il y a dix étiquettes, vous les verrez toutes là !
 
 ## Étape 8 : Message final
 
@@ -141,7 +141,7 @@ Aspose.Cells est une bibliothèque puissante pour manipuler des fichiers Excel d
  Vous pouvez acheter une licence pour Aspose.Cells via leur[page d'achat](https://purchase.aspose.com/buy).
 
 ### Où puis-je trouver du support pour Aspose.Cells ?
- Vous pouvez visiter le forum Aspose pour obtenir de l'aide[ici](https://forum.aspose.com/c/cells/9).
+Vous pouvez visiter le forum Aspose pour obtenir de l'aide[ici](https://forum.aspose.com/c/cells/9).
 
 ### Puis-je obtenir un permis temporaire ?
  Oui ! Aspose propose une licence temporaire que vous pouvez demander à[ce lien](https://purchase.aspose.com/temporary-license/).

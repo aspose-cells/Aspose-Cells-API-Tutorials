@@ -17,7 +17,7 @@ Voordat we in de code duiken, zorgen we ervoor dat je alles klaar hebt. Dit is w
 
 1. .NET-omgeving: Zorg ervoor dat u een .NET-ontwikkelomgeving hebt ingesteld. U kunt Visual Studio of een andere IDE gebruiken die .NET ondersteunt.
 2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek geïnstalleerd hebben. U kunt deze downloaden van[Aspose's releasepagina](https://releases.aspose.com/cells/net/).
-3. Basiskennis van C#: Als u bekend bent met C#-programmering, begrijpt u de voorbeelden beter. Maar maak u geen zorgen als u nog niet bekend bent met programmeren: in deze gids wordt alles stap voor stap uitgelegd!
+3. Basiskennis van C#: Als u bekend bent met C#-programmering, begrijpt u de voorbeelden beter. Maar maak u geen zorgen als u nieuw bent: in deze gids wordt alles stap voor stap uitgelegd!
 
 ## Pakketten importeren
 
@@ -46,7 +46,7 @@ string outputDir = "Your Output Directory"; // Geef hier de uitvoermap op.
 
 Zorg ervoor dat u 'Uw uitvoermap' vervangt door het pad waar u uw grafiekafbeeldingen wilt opslaan.
 
-## Stap 2: Maak een werkboek
+## Stap 2: Maak een werkmap
 
 Vervolgens maken we een nieuwe werkmap. Dit is waar alle magie gebeurt!
 
@@ -91,7 +91,7 @@ int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Hier voegen we een grafiek toe op de opgegeven locatie door de lay-out te definiëren: de eerste reeks getallen geeft de positie van de grafiek op het raster weer.
+Hier voegen we een grafiek toe op de opgegeven locatie door de lay-out ervan te definiëren: de eerste reeks getallen geeft de positie van de grafiek op het raster weer.
 
 ## Stap 6: Gegevensreeksen toevoegen aan de grafiek
 
@@ -115,7 +115,7 @@ In deze stap slaan we de grafiek op als een EMF (Enhanced Metafile) afbeelding i
 
 ## Stap 8: Converteer grafiek naar bitmap
 
-Als u liever met bitmaps werkt, kunt u uw grafiek als volgt omzetten naar een bitmapformaat.
+Als u liever met bitmaps werkt, kunt u uw grafiek als volgt naar een bitmapformaat converteren.
 
 ```csharp
 System.Drawing.Bitmap bitmap = chart.ToImage();
@@ -175,7 +175,7 @@ Ja, Aspose.Cells biedt uitgebreide aanpassingsmogelijkheden, waaronder kleuren, 
 Absoluut! U kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Cells?
- U kunt gemeenschapsondersteuning en -bronnen vinden op de[Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9).
+ U kunt ondersteuning en middelen van de gemeenschap vinden op de[Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9).
 
 ### Heb ik een licentie nodig om Aspose.Cells te gebruiken?
  Ja, voor voortgezet gebruik na de proefperiode is een licentie vereist, maar u kunt een tijdelijke licentie aanvragen[hier](https://purchase.aspose.com/temporary-license/).

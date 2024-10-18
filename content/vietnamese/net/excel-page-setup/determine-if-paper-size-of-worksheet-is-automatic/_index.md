@@ -9,7 +9,7 @@ url: /vi/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
 ## Giới thiệu
 
-Nếu bạn đang dấn thân vào thế giới thao tác bảng tính bằng Aspose.Cells for .NET, bạn đã có một lựa chọn tuyệt vời. Khả năng tùy chỉnh và quản lý các tệp Excel theo chương trình có thể đơn giản hóa nhiều tác vụ, giúp công việc của bạn hiệu quả hơn. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một tác vụ cụ thể: xác định xem cài đặt kích thước giấy của bảng tính có tự động hay không. Vì vậy, hãy đội mũ lập trình và bắt đầu thôi!
+Nếu bạn đang dấn thân vào thế giới thao tác bảng tính bằng Aspose.Cells for .NET, bạn đã có một lựa chọn tuyệt vời. Khả năng tùy chỉnh và quản lý các tệp Excel theo chương trình có thể đơn giản hóa nhiều tác vụ, giúp công việc của bạn hiệu quả hơn. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một tác vụ cụ thể: xác định xem cài đặt kích thước giấy của bảng tính có tự động hay không. Vì vậy, hãy đội mũ lập trình của bạn và bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
@@ -63,7 +63,7 @@ Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-Tru
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
-Khi các sổ làm việc đã được tải, đã đến lúc truy cập vào trang tính đầu tiên từ mỗi sổ làm việc. Điểm tuyệt vời của Aspose.Cells là điều này cực kỳ đơn giản:
+Với các sổ làm việc đã được tải, đã đến lúc truy cập vào trang tính đầu tiên từ mỗi sổ làm việc. Điểm tuyệt vời của Aspose.Cells là điều này cực kỳ đơn giản:
 
 ```csharp
 Worksheet ws11 = wb1.Worksheets[0];
@@ -104,7 +104,7 @@ Aspose.Cells là thư viện .NET được thiết kế để quản lý các t�
 Có! Aspose.Cells hỗ trợ phát triển đa nền tảng, do đó bạn có thể làm việc trong nhiều môi trường khác nhau có hỗ trợ .NET.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?
- Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Bạn có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
+ Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để kiểm tra xem kích thước trang của bảng tính có tự động trong C# không?
 Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp học.

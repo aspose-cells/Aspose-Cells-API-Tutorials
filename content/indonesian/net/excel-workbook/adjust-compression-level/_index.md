@@ -20,7 +20,7 @@ Sebelum menyelami seluk-beluk level kompresi, mari pastikan Anda memiliki semua 
 3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda, idealnya Visual Studio, untuk menulis dan mengeksekusi kode C# Anda. 
 4. Contoh Berkas Excel: Siapkan berkas Excel berukuran besar untuk pengujian. Anda dapat membuat berkas Excel atau menggunakan berkas yang sudah ada, tetapi pastikan ukurannya cukup besar untuk melihat efek kompresi.
 
-Jika prasyarat ini terpenuhi, mari kita mulai!
+Jika semua prasyarat itu terpenuhi, mari kita mulai!
 
 ## Paket Impor
 
@@ -40,7 +40,7 @@ Setelah semuanya siap, mari kita bagi proses penyesuaian tingkat kompresi menjad
 
 ## Langkah 1: Siapkan Direktori Anda
 
-Pertama-tama, kita perlu menentukan di mana file-file kita akan disimpan. Ini melibatkan penentuan direktori sumber untuk file input dan direktori output untuk file-file terkompresi.
+Pertama-tama, kita perlu menentukan di mana file kita akan disimpan. Ini melibatkan penentuan direktori sumber untuk file masukan dan direktori keluaran untuk file terkompresi.
 
 ```csharp
 // Direktori sumber

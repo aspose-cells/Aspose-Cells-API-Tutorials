@@ -22,7 +22,7 @@ Avant de passer aux détails de la modification des graphiques, assurons-nous qu
  Pour utiliser Aspose.Cells, vous avez besoin de la bibliothèque. Vous pouvez facilement télécharger la dernière version à partir de[ce lien](https://releases.aspose.com/cells/net/).
 
 ### Connaissances de base de C#
-Bien que nous expliquerons tout étape par étape, une compréhension fondamentale de C# vous aidera à naviguer en douceur dans ce didacticiel.
+Bien que nous expliquerons tout étape par étape, une compréhension fondamentale de C# vous aidera à parcourir ce didacticiel en douceur.
 
 ### Un fichier Excel existant
  Assurez-vous d'avoir un fichier Excel prêt avec un graphique linéaire. Nous travaillerons avec un fichier nommé`sampleModifyLineChart.xlsx`, alors ayez ça sous la main aussi. 
@@ -89,7 +89,7 @@ chart.NSeries.Add("{0.3, 0.7, 1.2}", true);
 ```
 Cette ligne ajoute une autre série de données, la quatrième, vous permettant de représenter davantage de données visuellement.
 
-## Étape 5 : Tracer sur le deuxième axe
+## Étape 5 : Tracer sur le deuxième axe
 
 Pour différencier visuellement la nouvelle série de données, nous allons tracer la quatrième série sur un deuxième axe.
 

@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Penjelasan: 
 
- Baris ini mengalokasikan variabel string`dataDir` untuk menyimpan jalur ke direktori dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda disimpan. Ini seperti memberi petunjuk kepada seseorang; Anda perlu memberi tahu kode Anda dengan tepat di mana harus mencari file.
+Baris ini mengalokasikan variabel string`dataDir` untuk menyimpan jalur ke direktori dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda disimpan. Ini seperti memberi petunjuk kepada seseorang; Anda perlu memberi tahu kode Anda dengan tepat di mana harus mencari file.
 
 ## Langkah 2: Muat Buku Kerja
 
@@ -66,7 +66,7 @@ Workbook wb = new Workbook(InputPath);
 
 Penjelasan:  
 
- Di sini,`Workbook` objek (`wb` ) dibuat dengan memuat file Excel yang ditentukan oleh`InputPath` Pikirkanlah`Workbook` sebagai versi digital dari buku yang ingin Anda edit. Pada dasarnya, Anda membuka buku tersebut untuk mengerjakannya.
+ Di sini,`Workbook` objek (`wb` ) dibuat dengan memuat file Excel yang ditentukan oleh`InputPath` Pikirkanlah`Workbook` sebagai versi digital dari buku yang ingin Anda edit. Pada dasarnya, Anda membuka buku untuk mengerjakannya.
 
 ## Langkah 3: Akses Koleksi Lembar Kerja
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Penjelasan:  
 
-Baris ini mengambil lembar kerja pertama dari koleksi. Pengindeksan dalam pemrograman sering dimulai dari nol, itulah sebabnya kami menggunakan`[0]`Anggap ini sebagai pemilihan bab pertama dalam buku Anda, siap untuk dimodifikasi.
+ Baris ini mengambil lembar kerja pertama dari koleksi. Pengindeksan dalam pemrograman sering dimulai dari nol, itulah sebabnya kami menggunakan`[0]`Anggap ini sebagai pemilihan bab pertama dalam buku Anda, siap untuk dimodifikasi.
 
 ## Langkah 5: Pindahkan Lembar Kerja
 

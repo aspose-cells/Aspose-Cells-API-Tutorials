@@ -16,7 +16,7 @@ Se você está mergulhando no mundo da manipulação de planilhas usando o Aspos
 Antes de começarmos a usar o código, vamos garantir que você tenha tudo o que precisa:
 
 ### Conhecimento básico de C#
-Embora o Aspose.Cells simplifique muitas tarefas, uma compreensão fundamental de C# é crucial. Você deve estar confortável lendo e escrevendo código C# básico.
+Embora o Aspose.Cells simplifique muitas tarefas, uma compreensão fundamental do C# é crucial. Você deve estar confortável lendo e escrevendo código C# básico.
 
 ### Aspose.Cells para .NET
  Certifique-se de ter o Aspose.Cells instalado em seu projeto. Você pode baixá-lo do[site](https://releases.aspose.com/cells/net/) se você ainda não o fez.
@@ -101,7 +101,7 @@ assim, você estabeleceu as bases para determinar se o tamanho do papel de uma p
 Aspose.Cells é uma biblioteca .NET projetada para gerenciar arquivos de planilhas do Excel programaticamente, sem a necessidade de instalação do Excel.
 
 ### Posso usar o Aspose.Cells em ambientes que não sejam Windows?
-Sim! O Aspose.Cells suporta desenvolvimento multiplataforma, para que você possa trabalhar em vários ambientes onde o .NET está disponível.
+Sim! O Aspose.Cells suporta desenvolvimento multiplataforma, então você pode trabalhar em vários ambientes onde o .NET está disponível.
 
 ### Preciso de uma licença para o Aspose.Cells?
  Embora você possa começar com um teste gratuito, o uso contínuo requer uma licença comprada. Mais detalhes podem ser encontrados[aqui](https://purchase.aspose.com/buy).

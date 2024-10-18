@@ -24,7 +24,7 @@ Antes de comenzar a codificar, asegurémonos de que todo esté listo. Esto es lo
 
 ## Importar paquetes
 
-Una vez que haya configurado su proyecto, el paso inicial consiste en importar el espacio de nombres Aspose.Cells necesario. Para ello, simplemente incluya la siguiente línea en la parte superior de su archivo de código:
+Una vez que haya configurado su proyecto, el paso inicial implica importar el espacio de nombres Aspose.Cells necesario. Para ello, simplemente incluya la siguiente línea en la parte superior de su archivo de código:
 
 ```csharp
 using Aspose.Cells;
@@ -41,7 +41,7 @@ Vamos a exponer el código para crear un directorio (si aún no existe):
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crear directorio si aún no está presente.
+//Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -84,7 +84,7 @@ Esta línea obtiene la colección donde administrarás tus rangos protegidos. ¡
 
 ## Paso 5: Definir y crear un rango protegido
 
-En este punto, estamos listos para definir en qué rango desea permitir ediciones. Creemos este rango.
+En este punto, estamos listos para definir en qué rango desea permitir ediciones. Vamos a crear este rango.
 
 ```csharp
 // Definir ProtectedRange
@@ -99,7 +99,7 @@ En el código anterior, estamos creando un rango protegido llamado "r2" que perm
 
 ## Paso 6: Establezca una contraseña 
 
-Al establecer una contraseña para el área protegida, se garantiza que solo quienes tengan la contraseña puedan modificar el área definida. Este paso mejora la seguridad de su hoja de cálculo.
+Al establecer una contraseña para el área protegida, se garantiza que solo aquellos que tengan la contraseña puedan modificar el área definida. Este paso mejora la seguridad de su hoja de cálculo.
 
 ```csharp
 // Especifique la contraseña
@@ -110,7 +110,7 @@ proteced_range.Password = "YOUR_PASSWORD";
 
 ## Paso 7: Proteger la hoja
 
-Ahora que tenemos nuestro rango editable definido y asegurado con una contraseña, es hora de proteger toda la hoja de trabajo.
+Ahora que tenemos nuestro rango editable definido y asegurado con una contraseña, es momento de proteger toda la hoja de trabajo.
 
 ```csharp
 // Proteger la hoja

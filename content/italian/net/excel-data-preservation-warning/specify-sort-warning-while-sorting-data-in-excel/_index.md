@@ -36,7 +36,7 @@ Ora che abbiamo tutto in ordine, vediamo passo dopo passo il processo di smistam
 
 ## Passaggio 1: imposta la directory dei documenti
 
- Per prima cosa, devi specificare il percorso della directory del tuo documento. È qui che il tuo`sampleSortAsNumber.xlsx` il file verrà localizzato. Sostituisci`"Your Document Directory"` con il percorso effettivo in cui risiede il file Excel.
+ Per prima cosa, devi specificare il percorso della directory del tuo documento. È qui che il tuo`sampleSortAsNumber.xlsx` il file verrà localizzato. Sostituisci`"Your Document Directory"`con il percorso effettivo in cui risiede il file Excel.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -135,7 +135,7 @@ In questo tutorial, abbiamo svelato i passaggi per ordinare i dati in Excel usan
 Aspose.Cells è una libreria .NET che consente agli sviluppatori di creare, manipolare e convertire file Excel a livello di programmazione.
 
 ### Posso ordinare i dati in Excel senza Aspose.Cells?  
-Sì, Excel fornisce opzioni di ordinamento integrate, ma l'utilizzo di Aspose.Cells consente la manipolazione programmatica, che può essere automatizzata.
+Sì, Excel offre opzioni di ordinamento integrate, ma l'utilizzo di Aspose.Cells consente la manipolazione programmatica, che può essere automatizzata.
 
 ### Quali tipi di dati posso ordinare utilizzando Aspose.Cells?  
 È possibile ordinare vari tipi di dati, tra cui numeri, date e testo, utilizzando diversi ordini di ordinamento.

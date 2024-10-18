@@ -90,7 +90,7 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 -  V rámci této smyčky se ponoříme do každého`PowerQueryFormulaItem`.
 - Zkontrolujeme, zda se název položky shoduje se „Zdroj“. Pokud ano, aktualizujeme jeho hodnotu, aby odkazovala na náš nový zdrojový soubor.
 
-Je to podobné, jako byste našli správnou stránku v příručce a poté provedli potřebné aktualizace – je to přímočarý a pečlivý proces.
+Je to podobné, jako byste našli správnou stránku v příručce a poté provedli nezbytné aktualizace – je to přímočarý a pečlivý proces.
 
 ## Krok 5: Uložte aktualizovaný sešit
 

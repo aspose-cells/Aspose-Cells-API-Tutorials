@@ -9,7 +9,7 @@ url: /de/net/excel-security/lock-cell-in-excel-worksheet/
 ---
 ## Einführung
 
-In der heutigen schnelllebigen Welt ist die sichere Verwaltung von Daten für Unternehmen und Privatpersonen gleichermaßen von entscheidender Bedeutung. Excel ist ein gängiges Tool zur Datenverwaltung, aber wie stellen Sie sicher, dass vertrauliche Informationen erhalten bleiben, während andere die Tabellenkalkulation dennoch anzeigen können? Das Sperren von Zellen in einem Excel-Arbeitsblatt ist eine effektive Möglichkeit, Ihre Daten vor unerwünschten Änderungen zu schützen. In diesem Handbuch erfahren Sie, wie Sie Zellen in einem Excel-Arbeitsblatt mit Aspose.Cells für .NET sperren – einer leistungsstarken Bibliothek, die das programmgesteuerte Lesen, Schreiben und Bearbeiten von Excel-Dateien vereinfacht.
+In der heutigen schnelllebigen Welt ist die sichere Verwaltung von Daten für Unternehmen und Privatpersonen gleichermaßen von entscheidender Bedeutung. Excel ist ein gängiges Tool zur Datenverwaltung, aber wie stellen Sie sicher, dass vertrauliche Informationen erhalten bleiben, während andere die Tabellenkalkulation trotzdem einsehen können? Das Sperren von Zellen in einem Excel-Arbeitsblatt ist eine effektive Möglichkeit, Ihre Daten vor unerwünschten Änderungen zu schützen. In diesem Handbuch erfahren Sie, wie Sie Zellen in einem Excel-Arbeitsblatt mit Aspose.Cells für .NET sperren – einer leistungsstarken Bibliothek, die das programmgesteuerte Lesen, Schreiben und Bearbeiten von Excel-Dateien vereinfacht.
 
 ## Voraussetzungen
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Schritt 2: Laden Sie Ihre Arbeitsmappe
 
-Als nächstes laden Sie die Excel-Arbeitsmappe, in der Sie Zellen sperren möchten. Dies geschieht durch Erstellen einer Instanz des`Workbook` Klasse und verweisen Sie damit auf die gewünschte Excel-Datei.
+Als nächstes müssen Sie die Excel-Arbeitsmappe laden, in der Sie Zellen sperren möchten. Dies geschieht durch Erstellen einer Instanz des`Workbook` Klasse und verweisen Sie damit auf die gewünschte Excel-Datei.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -108,7 +108,7 @@ Nein, für die Zellensperre selbst ist kein Kennwort erforderlich. Sie können j
 ### Was passiert, wenn ich das Kennwort für ein geschütztes Arbeitsblatt vergesse?
 Wenn Sie das Kennwort vergessen, können Sie den Schutz des Arbeitsblatts nicht aufheben. Bewahren Sie das Arbeitsblatt daher unbedingt sicher auf.
 
-### Kann ich Zellen entsperren, wenn sie einmal gesperrt sind?
+### Kann ich Zellen entsperren, wenn sie gesperrt sind?
  Absolut! Sie können Zellen entsperren, indem Sie die`IsLocked` Eigentum an`false` und Entfernen des Schutzes.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?

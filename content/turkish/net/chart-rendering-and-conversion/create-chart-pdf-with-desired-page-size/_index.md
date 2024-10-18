@@ -25,7 +25,7 @@ Aspose.Cells for .NET'in yüklü olduğundan emin olun. Tüm ayrıntıları şu 
 
 ### Geliştirme Ortamı
 
- Geliştirme ortamınızı kurun. Bu, Visual Studio veya C#'yi destekleyen herhangi bir IDE olabilir. Aspose.Cells kütüphanesini şuradan indirin ve yükleyin:[indirme sayfası](https://releases.aspose.com/cells/net/).
+ Geliştirme ortamınızı kurun. Bu, Visual Studio veya C# destekleyen herhangi bir IDE olabilir. Aspose.Cells kütüphanesini şuradan indirin ve yükleyin:[indirme sayfası](https://releases.aspose.com/cells/net/).
 
 ### Örnek Excel Dosyası
 
@@ -95,7 +95,7 @@ Chart ch = ws.Charts[0];
 
 Tekrar ediyorum, bu çalışma sayfasındaki ilk grafiğe erişim sağlar; çalışma sayfanızın yapısının bu yaklaşıma uygun olduğundan emin olun.
 
-## Adım 5: İstenilen Sayfa Boyutuna Sahip PDF Oluşturun
+## Adım 5: İstenilen Sayfa Boyutunda PDF Oluşturun
 
 Son olarak, belirtilen sayfa boyutuyla grafikten PDF oluşturma zamanı. İşte her şeyi yapan sihirli kod satırı:
 
@@ -129,7 +129,7 @@ Tebrikler! Excel dosyasında bulunan bir grafikten PDF oluşturmak için Aspose.
 Aspose.Cells for .NET, .NET uygulamalarında Excel belgelerini programlı olarak oluşturmak, düzenlemek ve dönüştürmek için kullanılır.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet, Aspose.Cells bir[ücretsiz deneme](https://releases.aspose.com/) değerlendirme amaçlı.
+ Evet, Aspose.Cells bir[ücretsiz deneme](https://releases.aspose.com/) Değerlendirme amaçlı.
 
 ### Deneme süremi başlangıç süresinin ötesine uzatmanın bir yolu var mı?  
  Başvuruda bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş testler için.

@@ -22,7 +22,7 @@ Sekarang, mari kita masuk ke proses langkah demi langkah. Aspose.Cells for .NET 
     Gunakan`.Style` properti untuk menerapkan pengaturan perataan horizontal atau vertikal. Aspose.Cells memberi Anda opsi seperti`TextAlignmentType.Center`, `TextAlignmentType.Left` , atau`TextAlignmentType.Right` untuk penyelarasan horizontal dan pilihan serupa untuk penyelarasan vertikal.
 
 3. Pertahankan Formatnya:
-    Hal yang hebat tentang Aspose.Cells adalah ketika Anda mengubah perataan menggunakan`.Style` objek, elemen pemformatan lainnya seperti batas, font, dan warna tetap utuh. Tidak perlu khawatir kehilangan gaya kustom tersebut!
+    Hal yang hebat tentang Aspose.Cells adalah ketika Anda mengubah perataan menggunakan`.Style` objek, elemen pemformatan lain seperti batas, font, dan warna tetap utuh. Tidak perlu khawatir kehilangan gaya kustom tersebut!
 
  Baca lebih lanjut tentang cara[Mengubah Perataan Sel Excel Tanpa Kehilangan Pemformatan](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 

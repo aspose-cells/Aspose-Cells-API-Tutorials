@@ -84,7 +84,7 @@ chart.ChartObject.Width = 400;
 chart.ChartObject.Height = 300;
 ```
 
- Saatnya mengubah dimensi grafik! Di sini, kita mengatur lebarnya menjadi`400` piksel dan tingginya ke`300` piksel. Menyesuaikan ukuran sama halnya dengan memilih bingkai yang sempurna untuk karya seni Anda—terlalu besar atau terlalu kecil, dan bingkai tersebut tidak akan pas dengan ruangan.
+ Saatnya mengubah dimensi grafik! Di sini, kita mengatur lebarnya menjadi`400` piksel dan tingginya`300` piksel. Menyesuaikan ukuran sama halnya dengan memilih bingkai yang sempurna untuk karya seni Anda—terlalu besar atau terlalu kecil, dan bingkai tersebut tidak akan pas dengan ruangan.
 
 ## Langkah 6: Ubah Posisi Bagan
 

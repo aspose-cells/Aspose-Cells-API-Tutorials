@@ -2,7 +2,7 @@
 title: 在 Excel 中合并命名范围内的单元格
 linktitle: 在 Excel 中合并命名范围内的单元格
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 在本分步教程中学习如何使用 Aspose.Cells for .NET 合并指定范围内的单元格。了解如何格式化、设置样式和自动化 Excel 报告。
+description: 在本分步教程中学习如何使用 Aspose.Cells for .NET 合并命名范围内的单元格。了解如何格式化、设置样式和自动化 Excel 报告。
 type: docs
 weight: 11
 url: /zh/net/excel-advanced-named-ranges/merge-cells-in-named-range/
@@ -13,7 +13,7 @@ url: /zh/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 
 ## 先决条件
 
-在开始之前，请确保您已准备好以下内容：
+在开始之前，请确保您已准备好以下物品：
 
 -  Aspose.Cells for .NET：您可以从[Aspose.Cells 发布页面](https://releases.aspose.com/cells/net/).
 - 您的机器上安装了 .NET Framework。
@@ -99,7 +99,7 @@ Range range1 = wb1.Worksheets.GetRangeByName("TestRange");
 
 通过名称检索范围允许我们执行进一步的操作，例如添加样式或输入数据。
 
-## 步骤 7：定义合并单元格的样式
+## 步骤 7：为合并单元格定义样式
 
 如果合并后的单元格看起来不够美观，那还有什么用呢？让我们创建一个样式对象来对齐文本并应用背景颜色。
 

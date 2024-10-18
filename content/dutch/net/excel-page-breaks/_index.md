@@ -14,12 +14,12 @@ Pagina-einden zijn essentieel bij het afdrukken van Excel-bestanden. Ze helpen d
 Wist u dat u pagina-einden programmatisch kunt toevoegen, waardoor u veel handmatig werk bespaart? Dit kan de manier waarop u uw spreadsheets voorbereidt om te delen of af te drukken, volledig transformeren. Het is alsof u een toverstaf hebt die chaotische gegevens omzet in prachtig gerangschikte pagina's!
 
 ## Stap-voor-stap handleidingen
- Onze verzameling tutorials splitst complexe processen op in hapklare, makkelijk te begrijpen lessen. Bijvoorbeeld in de tutorial over[Excel Pagina-einden toevoegen](./excel-add-page-breaks/), we begeleiden u door elke stap met duidelijke instructies. U leest niet alleen vakjargon; u volgt daadwerkelijk mee en past wat u leert direct toe op uw eigen projecten. 
+ Onze verzameling tutorials splitst complexe processen op in hapklare, makkelijk te begrijpen lessen. Bijvoorbeeld in de tutorial over[Excel Pagina-einden toevoegen](./excel-add-page-breaks/)we begeleiden u door elke stap met duidelijke instructies. U leest niet alleen vakjargon; u volgt daadwerkelijk mee en past wat u leert direct toe op uw eigen projecten. 
 
  Moet u alle pagina-einden wissen? Geen probleem! Bekijk onze gids op[Excel Alle pagina-einden wissen](./excel-clear-all-page-breaks/), die een eenvoudig en effectief proces biedt dat iedereen kan beheersen. Het draait allemaal om het soepeler en sneller maken van uw workflow.
 
 ## Personalisatie binnen handbereik
-Wat als u alleen bepaalde pagina-einden wilt verwijderen? Dat is waar onze tutorial over[Excel Specifieke pagina-einde verwijderen](./excel-remove-specific-page-break/) komt in het spel. Het is op maat gemaakt voor die momenten waarop u nauwkeurige controle over uw documentlay-out nodig hebt. Met Aspose.Cells voor .NET hebt u de macht om uw spreadsheets precies aan te passen zoals u dat wilt. 
+ Wat als u alleen bepaalde pagina-einden wilt verwijderen? Dat is waar onze tutorial over[Excel Specifieke pagina-einde verwijderen](./excel-remove-specific-page-break/) komt in het spel. Het is op maat gemaakt voor die momenten waarop u nauwkeurige controle over uw documentlay-out nodig hebt. Met Aspose.Cells voor .NET hebt u de macht om uw spreadsheets precies aan te passen zoals u dat wilt. 
 
 ## Zelfstudies 
 | Titel | Beschrijving |

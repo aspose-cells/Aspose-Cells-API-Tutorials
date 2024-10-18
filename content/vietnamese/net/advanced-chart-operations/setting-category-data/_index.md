@@ -134,7 +134,7 @@ Dòng này chỉ định rằng biểu đồ sẽ lấy dữ liệu từ phạm 
 
 ## Bước 10: Thiết lập Dữ liệu Danh mục
 
-Đây là phần quan trọng nhất—xác định dữ liệu danh mục của chúng ta. Đây là phần gắn nhãn các điểm dữ liệu của chúng ta trên trục x.
+Đây là phần quan trọng—xác định dữ liệu danh mục của chúng ta. Đây là phần gắn nhãn các điểm dữ liệu của chúng ta trên trục x.
 
 ```csharp
 chart.NSeries.CategoryData = "C1:C4";

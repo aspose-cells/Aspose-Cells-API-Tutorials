@@ -9,14 +9,14 @@ url: /nl/net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 ---
 ## Invoering
 
-In de snelle zakenwereld van vandaag is het van het grootste belang om gegevens effectief en veilig te beheren. Gezien hoe vaak Excel-sheets worden gebruikt, is het cruciaal om gevoelige informatie erin te beschermen. Soms hebt u echter toegang nodig tot een beveiligd werkblad, of u nu het wachtwoord bent vergeten of de gegevens gewoon wilt wijzigen. In deze handleiding laten we u zien hoe u een beveiligd Excel-blad kunt ontgrendelen met behulp van de krachtige Aspose.Cells voor .NET-bibliotheek. Aan het einde van deze tutorial bent u goed toegerust om deze taak met gemak en vertrouwen aan te pakken!
+In de snelle zakenwereld van vandaag is het effectief en veilig beheren van gegevens van het grootste belang. Gezien hoe vaak Excel-sheets worden gebruikt, is het cruciaal om gevoelige informatie erin te beschermen. Soms hebt u echter toegang nodig tot een beveiligd werkblad, of u nu het wachtwoord bent vergeten of u de gegevens gewoon wilt wijzigen. In deze handleiding laten we u zien hoe u een beveiligd Excel-blad kunt ontgrendelen met behulp van de krachtige Aspose.Cells voor .NET-bibliotheek. Aan het einde van deze tutorial bent u goed toegerust om deze taak met gemak en vertrouwen aan te pakken!
 
 ## Vereisten
 
 Voordat u aan de slag gaat met de code, is het belangrijk dat u alles goed hebt ingesteld voor een soepele ervaring met Aspose.Cells voor .NET:
 
 1.  Visual Studio: U moet Visual Studio op uw machine geïnstalleerd hebben. Als u het niet hebt, download dan de nieuwste versie van de[Visual Studio-website](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells Library: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van de[Aspose-website](https://releases.aspose.com/cells/net/)kunt het ook rechtstreeks via NuGet in Visual Studio installeren.
+2.  Aspose.Cells Library: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van de[Aspose-website](https://releases.aspose.com/cells/net/)U kunt het ook rechtstreeks via NuGet in Visual Studio installeren.
 3. Basiskennis van C#: Omdat we C#-code gaan schrijven, is een basiskennis van de taal handig. Als u nieuw bent in C#, zijn er genoeg bronnen beschikbaar om u op weg te helpen.
 4. Een Excel-bestand: Zorg dat u een Excel-werkmap gereed hebt die u wilt ontgrendelen. In dit voorbeeld noemen we dit "book1.xls."
 
@@ -28,7 +28,7 @@ Open Visual Studio en maak een nieuw project. U kunt kiezen uit een Console Appl
 
 ### Verwijzing naar Aspose.Cells toevoegen
 
-U moet het Aspose.Cells-pakket toevoegen aan uw project. Klik met de rechtermuisknop op uw project in de Solution Explorer, selecteer 'Manage NuGet Packages' en zoek naar 'Aspose.Cells'. Installeer de nieuwste versie.
+moet het Aspose.Cells-pakket toevoegen aan uw project. Klik met de rechtermuisknop op uw project in de Solution Explorer, selecteer 'Manage NuGet Packages' en zoek naar 'Aspose.Cells'. Installeer de nieuwste versie.
 
 Nu we alles hebben ingesteld, gaan we aan de slag met de daadwerkelijke code!
 
@@ -46,7 +46,7 @@ Als het aankomt op het ontgrendelen van een beschermd Excel-blad met Aspose.Cell
 
 ## Stap 1: Stel uw bestandspad in
 
-Allereerst moet u de directory instellen waar uw Excel-bestand zich bevindt. Dit is cruciaal omdat de code moet weten waar te zoeken naar “book1.xls”.
+Allereerst moet u de directory instellen waar uw Excel-bestand zich bevindt. Dit is cruciaal omdat de code moet weten waar het moet zoeken naar “book1.xls”.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Stap 2: Laad de werkmap
 
- Vervolgens moeten we een instantie van de maken`Workbook` class en laad het Excel-bestand. Dit is waar Aspose.Cells schittert, waardoor we Excel-werkmappen eenvoudig kunnen manipuleren.
+ Vervolgens moeten we een instantie van de maken`Workbook` class en laad het Excel-bestand. Dit is waar Aspose.Cells schittert: het stelt ons in staat om Excel-werkmappen eenvoudig te manipuleren.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -69,7 +69,7 @@ Nu de werkmap is geladen, wilt u toegang tot het werkblad dat u wilt ontgrendele
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Door te specificeren`[0]`vertelt u het systeem dat u het eerste blad wilt. Als uw blad niet het eerste is, wijzigt u deze index eenvoudigweg naar het juiste nummer.
+ Door te specificeren`[0]`, vertelt u het systeem dat u het eerste blad wilt. Als uw blad niet het eerste is, wijzigt u deze index eenvoudigweg naar het juiste nummer.
 
 ## Stap 4: De beveiliging van het werkblad opheffen
 
@@ -87,7 +87,7 @@ Zodra het werkblad niet meer beschermd is, moet u de wijzigingen die u hebt aang
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Hier sla je de wijzigingen op in een nieuw bestand met de naam "output.out.xls" in dezelfde directory. Je kunt het hernoemen zoals je wilt, maar zorg ervoor dat je de`.xls` extensie zodat het herkenbaar blijft als een Excel-bestand.
+ Hier sla je de wijzigingen op in een nieuw bestand met de naam "output.out.xls" in dezelfde directory. Je kunt het hernoemen zoals je wilt, maar zorg ervoor dat je de`.xls`extensie zodat het herkenbaar blijft als een Excel-bestand.
 
 ## Stap 6: Foutafhandeling
 
@@ -116,7 +116,7 @@ En daar heb je het! Het ontgrendelen van een beschermd Excel-blad met Aspose.Cel
 Jazeker! U kunt elk blad in de werkmap doorlopen en de beveiliging ervan op dezelfde manier opheffen.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells biedt een gratis proefperiode, maar voor productiegebruik is een licentie vereist. Bekijk hun[aankoop](https://purchase.aspose.com/buy)pagina voor meer informatie.
+Aspose.Cells biedt een gratis proefperiode, maar voor productiegebruik is een licentie vereist. Bekijk hun[aankoop](https://purchase.aspose.com/buy) pagina voor meer informatie.
 
 ### Wat als ik het wachtwoord niet weet?
 Als een werkblad met een wachtwoord is beveiligd en u beschikt niet over het wachtwoord, kan de bibliotheek u niet helpen de beperkingen te omzeilen, omdat dit in strijd is met het ethische beleid.

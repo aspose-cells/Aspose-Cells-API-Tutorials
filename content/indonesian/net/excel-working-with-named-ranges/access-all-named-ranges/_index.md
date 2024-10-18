@@ -10,7 +10,7 @@ url: /id/net/excel-working-with-named-ranges/access-all-named-ranges/
 ## Perkenalan
 Dalam dunia manajemen data, Excel tetap menjadi andalan dalam hal spreadsheet. Namun, pernahkah Anda merasa terjerat dalam jaringan rentang bernama? Jika Anda mengangguk, Anda akan dimanjakan! Dalam panduan ini, saya akan memandu Anda melalui proses mengakses semua rentang bernama dalam file Excel menggunakan Aspose.Cells for .NET. Baik Anda mengerjakan proyek sederhana atau tugas analisis data yang rumit, memahami cara mengakses rentang bernama secara efisien dapat membuat hidup Anda jauh lebih mudah.
 ## Prasyarat
-Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda perlukan untuk mengikuti panduan ini. Berikut ini adalah hal-hal yang harus Anda miliki:
+Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan untuk mengikuti panduan ini. Berikut ini adalah hal-hal yang harus Anda miliki:
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio (versi terbaru apa pun seharusnya berfungsi).
 2.  Aspose.Cells untuk .NET: Anda harus mengintegrasikan Aspose.Cells ke dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Jika Anda familier dengan C#, Anda akan mudah mengikuti tutorial ini.

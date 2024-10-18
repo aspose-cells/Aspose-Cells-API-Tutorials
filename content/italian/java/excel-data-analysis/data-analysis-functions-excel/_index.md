@@ -2,7 +2,7 @@
 title: Funzioni di analisi dei dati Excel
 linktitle: Funzioni di analisi dei dati Excel
 second_title: API di elaborazione Excel Java Aspose.Cells
-description: Sblocca la potenza dell'analisi dei dati in Excel con Aspose.Cells per Java. Scopri come ordinare, filtrare, calcolare e creare tabelle pivot.
+description: Sblocca la potenza dell'analisi dei dati in Excel con Aspose.Cells per Java. Impara a ordinare, filtrare, calcolare e creare tabelle pivot.
 type: docs
 weight: 10
 url: /it/java/excel-data-analysis/data-analysis-functions-excel/
@@ -76,7 +76,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 3);
 ```
 
 ## Conclusione
-Aspose.Cells per Java fornisce un'ampia gamma di funzionalità per l'analisi dei dati in Excel. In questa guida, abbiamo trattato le basi dell'ordinamento, del filtraggio, del calcolo delle statistiche e della creazione di tabelle pivot. Ora puoi sfruttare la potenza di Aspose.Cells per automatizzare e semplificare le tue attività di analisi dei dati in Excel.
+Aspose.Cells per Java offre un'ampia gamma di funzionalità per l'analisi dei dati in Excel. In questa guida, abbiamo trattato le basi dell'ordinamento, del filtraggio, del calcolo delle statistiche e della creazione di tabelle pivot. Ora puoi sfruttare la potenza di Aspose.Cells per automatizzare e semplificare le tue attività di analisi dei dati in Excel.
 
 ## Domande frequenti
 

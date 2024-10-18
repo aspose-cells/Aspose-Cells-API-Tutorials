@@ -8,7 +8,7 @@ weight: 17
 url: /pl/java/excel-import-export/export-excel-to-json/
 ---
 
-W tym samouczku przeprowadzimy Cię przez proces eksportowania danych Excel do formatu JSON przy użyciu biblioteki Aspose.Cells for Java. Ten przewodnik krok po kroku dostarczy Ci przykładów kodu źródłowego, które pomogą Ci bezproblemowo przekonwertować pliki Excel na dane JSON.
+W tym samouczku przeprowadzimy Cię przez proces eksportowania danych Excela do formatu JSON przy użyciu biblioteki Aspose.Cells for Java. Ten przewodnik krok po kroku dostarczy Ci przykładów kodu źródłowego, które pomogą Ci bezproblemowo przekonwertować pliki Excela na dane JSON.
 
 ## Wymagania wstępne
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:

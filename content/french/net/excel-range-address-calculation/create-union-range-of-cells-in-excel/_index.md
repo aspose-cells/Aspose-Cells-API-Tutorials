@@ -29,13 +29,13 @@ using System;
 Cette commande inclut l'espace de noms Aspose.Cells, qui contient toutes les classes, méthodes et propriétés dont vous aurez besoin pour travailler avec des fichiers Excel.
 
 Maintenant que nous avons tout configuré, décomposons le processus de création d’une plage d’union en étapes gérables.
-## Étape 1 : instancier un objet classeur
+## Étape 1 : instancier un objet de classeur
 La première étape de notre code consiste à créer une instance de l'objet Workbook. Considérez le Workbook comme une toile vierge sur laquelle nous peindrons notre chef-d'œuvre.
 ```csharp
 // Répertoire de sortie
 string outputDir = "Your Document Directory"();
 
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 Cette ligne de code indique à notre programme de créer un nouveau classeur. Elle est essentielle puisque vous allez ajouter des plages et des valeurs à ce classeur.
@@ -67,7 +67,7 @@ Console.WriteLine("CreateUnionRange executed successfully.");
 ```
 Et voilà ! Vous avez réussi à créer une plage d'union de cellules dans un fichier Excel à l'aide d'Aspose.Cells pour .NET.
 ## Conclusion
-Créer une plage de cellules dans Excel ne doit pas forcément ressembler à une navigation dans un labyrinthe ! Avec Aspose.Cells pour .NET, vous pouvez y parvenir avec seulement quelques lignes de code. Non seulement cette compétence améliorera votre boîte à outils de programmation, mais elle ouvrira également la porte à de nombreuses autres manipulations Excel robustes. 
+Créer une plage de cellules dans Excel ne doit pas forcément ressembler à une navigation dans un labyrinthe ! Avec Aspose.Cells pour .NET, vous pouvez y parvenir avec seulement quelques lignes de code. Non seulement cette compétence améliorera votre boîte à outils de programmation, mais elle ouvrira également la porte à de nombreuses manipulations Excel plus robustes. 
 
 ## FAQ
 ### Qu'est-ce qu'une plage d'union dans Excel ?

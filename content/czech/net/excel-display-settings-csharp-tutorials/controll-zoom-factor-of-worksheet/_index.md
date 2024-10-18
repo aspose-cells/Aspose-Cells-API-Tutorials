@@ -32,7 +32,7 @@ Otevřete Visual Studio a vytvořte nový projekt aplikace konzoly. Můžete jej
 
 Nyní je čas přidat odkaz na knihovnu Aspose.Cells. Můžete buď:
 
--  Stáhněte si DLL z[zde](https://releases.aspose.com/cells/net/) a přidejte jej do projektu ručně.
+-  Stáhněte si DLL z[zde](https://releases.aspose.com/cells/net/) přidejte jej do projektu ručně.
 - Nebo použijte NuGet Package Manager a spusťte následující příkaz v konzole Package Manager:
 
 ```bash
@@ -81,7 +81,7 @@ Tento řádek kódu připraví váš soubor Excel pro úpravy.
  The`Workbook` objekt je srdcem vaší funkce Aspose.Cells. Představuje váš excelový soubor přehledným způsobem.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 // Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Se sešitem nyní v paměti je čas otevřít konkrétní list, který chcete upravit. Ve většině případů to bude první list (index 0).
 
 ```csharp
-//Přístup k prvnímu listu v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

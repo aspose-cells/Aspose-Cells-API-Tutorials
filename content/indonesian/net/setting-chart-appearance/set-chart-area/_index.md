@@ -17,7 +17,7 @@ Sebelum kita menyelami seluk-beluk pembuatan bagan, mari pastikan Anda memiliki 
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Visual Studio sangat penting untuk menulis dan menjalankan kode .NET.
 2. .NET Framework: Panduan ini paling cocok dengan .NET Framework atau .NET Core. Pastikan Anda telah menginstal versi yang diperlukan (4.5 atau yang lebih baru).
-3. Aspose.Cells: Anda memerlukan pustaka Aspose.Cells. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Anda memerlukan pustaka Aspose.Cells. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
 4. Pengetahuan Dasar C#: Pemahaman dasar tentang pemrograman C# akan membantu Anda memahami langkah-langkahnya dengan lebih baik. Jangan khawatir jika Anda bukan seorang profesional—saya akan menjelaskan semuanya!
 
 ## Paket Impor
@@ -119,7 +119,7 @@ Ini mengarahkan grafik ke sel A1 hingga B3 sebagai rentang data. Mudah dan prakt
 
 ## Langkah 7: Sesuaikan Area Bagan
 
-Di sinilah semuanya menjadi lebih hidup! Menyesuaikan area bagan membuat representasi visual Anda menonjol.
+Di sinilah semuanya menjadi lebih hidup! Menyesuaikan area bagan akan membuat tampilan visual Anda menonjol.
 
 ### Mengatur Warna untuk Area Bagan
 
@@ -171,7 +171,7 @@ Ya! Aspose.Cells memiliki pustaka untuk berbagai platform, termasuk Java, Python
  Tentu saja! Anda dapat menjelajahi Aspose.Cells dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose.Cells?
- Anda dapat mencari bantuan dan dukungan dari komunitas Aspose.Cells dan forum yang tersedia[Di Sini](https://forum.aspose.com/c/cells/9).
+ Anda dapat mencari bantuan dan dukungan dari komunitas dan forum Aspose.Cells yang tersedia[Di Sini](https://forum.aspose.com/c/cells/9).
 
 ### Bagaimana saya dapat membeli lisensi?
-Anda dapat membeli lisensi langsung dari situs web Aspose[Di Sini](https://purchase.aspose.com/buy).
+ Anda dapat membeli lisensi langsung dari situs web Aspose[Di Sini](https://purchase.aspose.com/buy).

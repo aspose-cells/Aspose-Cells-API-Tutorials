@@ -25,7 +25,7 @@ Pastikan Anda telah menginstal pustaka Aspose.Cells di lingkungan .NET Anda. And
 Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio, tempat Anda dapat menulis dan mengeksekusi kode C# Anda.
 
 ### Contoh File Excel
-Ambil contoh file Excel yang berisi beberapa sel yang digabungkan—Anda akan menggunakan file ini untuk berlatih memisahkan penggabungan.
+Ambil contoh file Excel yang berisi beberapa sel yang digabungkan—Anda akan menggunakan file ini untuk berlatih memisahkan sel.
 
 Setelah semua prasyarat ini terpenuhi, sekarang kita dapat masuk ke bagian yang menarik—mengkodekan solusi kita!
 
@@ -67,7 +67,7 @@ Setelah Anda menetapkan direktori, saatnya membuat objek Workbook. Objek ini aka
 Workbook wbk = new Aspose.Cells.Workbook(sourceDir + "sampleUnMergingtheMergedCells.xlsx");
 ```
 
-Baris kode ini membaca contoh berkas Excel Anda dan mempersiapkannya untuk diproses. 
+Baris kode ini membaca contoh file Excel Anda dan mempersiapkannya untuk diproses. 
 
 ## Langkah 3: Akses Lembar Kerja
 
@@ -89,7 +89,7 @@ Selanjutnya, Anda perlu mendapatkan referensi ke sel-sel di lembar kerja Anda. I
 Cells cells = worksheet.Cells;
 ```
 
-Dengan baris ini, Anda sekarang memiliki akses ke semua sel pada lembar kerja, memungkinkan Anda memanipulasinya sesuai kebutuhan.
+Dengan baris ini, Anda sekarang memiliki akses ke semua sel pada lembar kerja, memungkinkan Anda untuk memanipulasinya sesuai kebutuhan.
 
 ## Langkah 5: Pisahkan Sel
 

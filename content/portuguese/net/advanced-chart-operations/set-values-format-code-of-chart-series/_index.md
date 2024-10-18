@@ -1,7 +1,7 @@
 ---
 title: Definir valores Código de formato da série do gráfico
 linktitle: Definir valores Código de formato da série do gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como definir o código de formato de valores de séries de gráficos no Aspose.Cells para .NET com este tutorial detalhado passo a passo. Perfeito para iniciantes.
 type: docs
 weight: 17

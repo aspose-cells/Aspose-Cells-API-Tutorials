@@ -2,7 +2,7 @@
 title: Cambiar la alineación de celdas de Excel sin perder el formato
 linktitle: Cambiar la alineación de celdas de Excel sin perder el formato
 second_title: API de procesamiento de Excel Aspose.Cells .NET
-description: Aprenda a cambiar la alineación de las celdas de Excel sin perder el formato con Aspose.Cells para .NET. Siga nuestra guía completa paso a paso para un control perfecto.
+description: Aprenda a cambiar la alineación de las celdas de Excel sin perder el formato con Aspose.Cells para .NET. Siga nuestra completa guía paso a paso para un control perfecto.
 type: docs
 weight: 10
 url: /es/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/
@@ -18,7 +18,7 @@ Antes de comenzar con la codificación, es fundamental asegurarse de que todo es
 1. Visual Studio: asegúrese de tener Visual Studio (cualquier versión que admita .NET) instalado en su computadora.
 2.  Aspose.Cells para .NET: Descargue e instale la biblioteca Aspose.Cells desde[El sitio de Aspose](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: Un poco de familiaridad con la programación en C# será útil ya que trabajaremos dentro de un contexto de C#.
-4. Archivo Excel de muestra: para demostración, tenga preparado un archivo Excel de muestra (por ejemplo,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) que contiene algún formato de celda inicial.
+4.  Archivo Excel de muestra: para demostración, tenga preparado un archivo Excel de muestra (por ejemplo,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) que contiene algún formato de celda inicial.
 
 ## Importar paquetes
 
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Al configurar el`Alignments` propiedad de StyleFlag a`true`, le indica a Aspose.Cells que aplique los estilos de alineación correctamente.
+ Al configurar el`Alignments`propiedad de StyleFlag a`true`, le indica a Aspose.Cells que aplique los estilos de alineación correctamente.
 
 ## Paso 7: Aplicar el estilo al rango de celdas
 

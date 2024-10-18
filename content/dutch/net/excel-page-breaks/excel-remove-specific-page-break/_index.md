@@ -53,18 +53,18 @@ Allereerst moet u opgeven waar uw Excel-documenten zijn opgeslagen. Dit helpt de
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Uitleg: Vervangen`YOUR DOCUMENT DIRECTORY`met het daadwerkelijke pad naar uw bestanden. Dit is waar u uw Excel-bestand laadt en uw gewijzigde Excel-bestand later opslaat.
+ Uitleg: Vervangen`YOUR DOCUMENT DIRECTORY` met het daadwerkelijke pad naar uw bestanden. Dit is waar u uw Excel-bestand laadt en uw gewijzigde Excel-bestand later opslaat.
 
 ## Stap 2: Instantieer het werkmapobject
 
 Vervolgens moeten we onze werkmap laden. Simpel gezegd, zie een werkmap als uw Excel-bestand.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Uitleg: Deze regel maakt een nieuw exemplaar van een`Workbook` , waarmee u het door u opgegeven Excel-bestand laadt (in dit voorbeeld heet het`PageBreaks.xls`). 
+Uitleg: Deze regel maakt een nieuw exemplaar van een`Workbook` , waarmee u het door u opgegeven Excel-bestand laadt (in dit voorbeeld heet het`PageBreaks.xls`). 
 
 ## Stap 3: Verwijder de horizontale pagina-einde
 
@@ -108,7 +108,7 @@ En daar heb je het! Het verwijderen van specifieke pagina-einden uit een Excel-b
  Ja, dat kan! Loop gewoon door de`HorizontalPageBreaks` En`VerticalPageBreaks` collecties en gebruik de`RemoveAt` methode.
 
 ### Hoe weet ik welke index ik moet gebruiken voor pagina-einden?  
-kunt door de pagina-einden lopen met behulp van een lus om de indexen af te drukken of ze te inspecteren via de debugger.
+U kunt door de pagina-einden lopen met behulp van een lus om de indexen af te drukken of ze te inspecteren via de debugger.
 
 ### Is er een manier om verwijderde pagina-einden opnieuw toe te voegen?  
  Helaas, zodra een pagina-einde is verwijderd met behulp van de`RemoveAt` methode, kan het niet binnen die sessie worden hersteld. U zult het handmatig opnieuw moeten maken.
@@ -117,4 +117,4 @@ kunt door de pagina-einden lopen met behulp van een lus om de indexen af te druk
  Absoluut! Verander gewoon het indexnummer in`workbook.Worksheets[index]` om het gewenste werkblad te selecteren.
 
 ### Is Aspose.Cells een gratis tool?  
- Aspose.Cells biedt een gratis proefperiode, maar voor volledige functionaliteit moet u een licentie kopen. U kunt het bekijken[hier](https://purchase.aspose.com/buy).
+ Aspose.Cells biedt een gratis proefperiode, maar voor volledige functionaliteit moet u een licentie aanschaffen. U kunt het bekijken[hier](https://purchase.aspose.com/buy).

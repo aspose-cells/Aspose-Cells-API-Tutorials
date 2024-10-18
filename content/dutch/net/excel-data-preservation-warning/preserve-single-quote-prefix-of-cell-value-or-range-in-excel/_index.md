@@ -163,7 +163,7 @@ rng.ApplyStyle(st, flag);
 
  In deze ronde stellen we in`flag.QuotePrefix = true`, wat betekent dat we het aanhalingsteken-voorvoegsel van de cel willen bijwerken.
 
-## Stap 9: Laatste controle van het offertevoorvoegsel
+## Stap 9: Laatste controle van het voorvoegsel van de offerte
 
 Laten we afronden door te kijken hoe het aanhalingsteken er nu uitziet:
 
@@ -187,7 +187,7 @@ En daar heb je het! Door deze stappen te volgen, heb je geleerd hoe je het enkel
 Door het enkele aanhalingsteken als voorvoegsel te gebruiken, weet Excel dat de waarde als tekst moet worden behandeld. Zo wordt voorkomen dat de waarde als een getal of formule wordt geïnterpreteerd.
 
 ### Kan ik Aspose.Cells gebruiken in webapplicaties?  
-Ja! Aspose.Cells voor .NET werkt goed met zowel desktop- als webtoepassingen.
+Jazeker! Aspose.Cells voor .NET werkt goed met zowel desktop- als webtoepassingen.
 
 ### Zijn er prestatieoverwegingen bij het gebruik van Aspose.Cells?  
 Over het algemeen is Aspose.Cells geoptimaliseerd voor prestaties, maar bij zeer grote datasets is het altijd verstandig om het geheugen en de snelheid te testen.

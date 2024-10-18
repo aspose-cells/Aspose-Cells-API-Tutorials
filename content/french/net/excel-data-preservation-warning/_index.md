@@ -2,16 +2,16 @@
 title: Conservation des données Excel et avertissement
 linktitle: Conservation des données Excel et avertissement
 second_title: API de traitement Excel Aspose.Cells .NET
-description: Apprenez à utiliser Aspose.Cells pour .NET pour les techniques avancées de conservation des données Excel, telles que la conservation des préfixes entre guillemets simples dans les cellules et la spécification des avertissements de tri pendant le tri.
+description: Apprenez à utiliser Aspose.Cells pour .NET pour les techniques avancées de préservation des données Excel, telles que la préservation des préfixes entre guillemets simples dans les cellules et la spécification des avertissements de tri pendant le tri.
 type: docs
 weight: 40
 url: /fr/net/excel-data-preservation-warning/
 ---
 ## Introduction
 
-Aspose.Cells pour .NET est un outil puissant pour gérer les feuilles de calcul Excel dans les applications .NET. Que vous travailliez sur la préservation de formats de cellules spécifiques ou sur la gestion des avertissements de tri des données, Aspose.Cells est là pour vous ! Examinons de plus près quelques tutoriels qui vous aideront à améliorer vos compétences en matière de gestion d'Excel.
+Aspose.Cells pour .NET est un outil puissant pour gérer les feuilles de calcul Excel dans les applications .NET. Que vous travailliez sur la préservation de formats de cellules spécifiques ou sur la gestion des avertissements de tri des données, Aspose.Cells est là pour vous aider ! Examinons de plus près quelques tutoriels qui vous aideront à améliorer vos compétences en matière de gestion d'Excel.
 
-## Conserver le préfixe de guillemets simples de la valeur ou de la plage de cellules dans Excel
+## Conserver le préfixe entre guillemets simples de la valeur ou de la plage de cellules dans Excel
 
 Vous êtes-vous déjà retrouvé confronté à ces guillemets simples gênants dans Excel qui ne veulent pas disparaître ? Peut-être travaillez-vous avec des données importées et chaque fois que vous essayez de les manipuler, ces guillemets vous gênent. Et bien, devinez quoi ? Aspose.Cells pour .NET vous permet de conserver ou de supprimer facilement ces préfixes de guillemets simples.
 
@@ -28,7 +28,7 @@ Ce didacticiel vous guide tout au long du processus de spécification des averti
 [En savoir plus](./specify-sort-warning-while-sorting-data-in-excel/)
 
 ## Tutoriels sur la conservation et les avertissements des données Excel
-### [Conserver le préfixe de guillemets simples de la valeur ou de la plage de cellules dans Excel](./preserve-single-quote-prefix-of-cell-value-or-range-in-excel/)
+### [Conserver le préfixe entre guillemets simples de la valeur ou de la plage de cellules dans Excel](./preserve-single-quote-prefix-of-cell-value-or-range-in-excel/)
 Apprenez à conserver les préfixes de guillemets simples dans les cellules Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple étape par étape.
 ### [Spécifier un avertissement de tri lors du tri des données dans Excel](./specify-sort-warning-while-sorting-data-in-excel/)
 Triez facilement les données Excel à l'aide d'Aspose.Cells pour .NET. Découvrez des stratégies étape par étape pour gérer efficacement les données Excel dans ce didacticiel complet.

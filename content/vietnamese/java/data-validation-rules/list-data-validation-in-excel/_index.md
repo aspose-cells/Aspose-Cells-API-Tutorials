@@ -28,7 +28,7 @@ Xác thực dữ liệu là một quy trình kiểm tra tính chính xác và đ
 
 Xác thực dữ liệu rất cần thiết vì nó giúp:
 
-- Ngăn ngừa nhập dữ liệu không hợp lệ: Người dùng được hướng dẫn chỉ nhập dữ liệu hợp lệ, giảm nguy cơ sai sót.
+- Ngăn chặn nhập dữ liệu không hợp lệ: Người dùng được hướng dẫn chỉ nhập dữ liệu hợp lệ, giảm nguy cơ sai sót.
 - Đảm bảo tính toàn vẹn của dữ liệu: Giúp duy trì tính toàn vẹn và độ tin cậy của dữ liệu Excel của bạn.
 - Tối ưu hóa quá trình xử lý dữ liệu: Dữ liệu đã xác thực có thể được xử lý hiệu quả hơn, tiết kiệm thời gian và công sức.
 
@@ -40,7 +40,7 @@ Aspose.Cells for Java là một thư viện Java mạnh mẽ cho phép các nhà
 
 Sau đây là hướng dẫn từng bước về cách triển khai xác thực dữ liệu trong Excel bằng Aspose.Cells cho Java:
 
-### Bước 1: Thiết lập Môi trường Phát triển của Bạn
+### Bước 1: Thiết lập môi trường phát triển của bạn
 
 Trước khi bạn có thể bắt đầu sử dụng Aspose.Cells for Java, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo rằng bạn đã cài đặt Java và tải xuống thư viện Aspose.Cells for Java từ trang web.
 
@@ -77,7 +77,7 @@ validation.setFormula2("100");
 
 ### Bước 4: Thiết lập thông báo lỗi tùy chỉnh
 
-Bạn cũng có thể thiết lập thông báo lỗi tùy chỉnh sẽ được hiển thị khi người dùng nhập dữ liệu không hợp lệ. Điều này giúp cung cấp hướng dẫn rõ ràng cho người dùng:
+Bạn cũng có thể thiết lập thông báo lỗi tùy chỉnh sẽ hiển thị khi người dùng nhập dữ liệu không hợp lệ. Điều này giúp cung cấp hướng dẫn rõ ràng cho người dùng:
 
 ```java
 validation.setErrorMessage("Please enter a whole number between 1 and 100.");
@@ -117,7 +117,7 @@ Cài đặt Aspose.Cells for Java rất đơn giản. Bạn có thể tải xu�
 
 Có, bạn có thể áp dụng xác thực dữ liệu cho nhiều ô trong một bảng tính bằng cách lặp qua các ô và áp dụng các quy tắc xác thực khi cần.
 
-### Aspose.Cells for Java hỗ trợ những tiêu chí xác thực dữ liệu nào?
+### Aspose.Cells for Java hỗ trợ những loại tiêu chí xác thực dữ liệu nào?
 
 Aspose.Cells for Java hỗ trợ nhiều tiêu chí xác thực dữ liệu khác nhau, bao gồm số nguyên, số thập phân, độ dài văn bản, phạm vi ngày và công thức tùy chỉnh. Bạn có thể chọn tiêu chí phù hợp nhất với nhu cầu của mình.
 

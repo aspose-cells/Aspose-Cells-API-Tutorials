@@ -14,7 +14,7 @@ Ontdek de kracht van Aspose.Cells voor Java in onze Spreadsheet Automation Tutor
 
 ### Aan de slag met Aspose.Cells
 
-Krijg een voorsprong door Aspose.Cells voor Java te downloaden van de bron. Onze tutorial begeleidt u door de integratie, waardoor het eenvoudig wordt om uw Java-spreadsheettaken te automatiseren.
+Krijg een voorsprong door Aspose.Cells voor Java te downloaden van de bron. Onze tutorial begeleidt u door de integratie, waardoor u uw Java-spreadsheettaken eenvoudig kunt automatiseren.
 
 ### Gegevensmanipulatie eenvoudig gemaakt
 

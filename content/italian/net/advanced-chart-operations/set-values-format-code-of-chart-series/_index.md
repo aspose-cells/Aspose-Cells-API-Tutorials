@@ -76,7 +76,7 @@ Worksheet worksheet = wb.Worksheets[0];
 
 ## Passaggio 4: accedi al grafico
 
-Ora dobbiamo accedere al grafico di cui vogliamo modificare il formato della serie.
+Ora dobbiamo accedere al grafico in cui desideriamo modificare il formato della serie.
 
 Immagina il grafico come una tela su cui è dipinto il tuo capolavoro di visualizzazione dei dati. Accedendoci, possiamo sfruttarne la potenza!
 
@@ -123,7 +123,7 @@ wb.Save(outputDir + "outputSeries_ValuesFormatCode.xlsx");
 
 Per concludere, possiamo stampare un messaggio di successo.
 
-Proprio come ricevere un applauso alla fine di un'esibizione, questa conferma ti dà quella calda e piacevole sensazione di realizzazione.
+Proprio come ricevere un applauso alla fine di un'esibizione, questa conferma ti dà quella calda e rassicurante sensazione di realizzazione.
 
 ```csharp
 Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");

@@ -50,7 +50,7 @@ worksheet.getCells().get("A4").putValue(40);
 
 ## AVERAGE関数の使用
 
-Excel の AVERAGE 関数は、数値の範囲の平均を計算します。Aspose.Cells for Java を使用すると、これをプログラムで簡単に実現できます。
+Excel の AVERAGE 関数は、数値の範囲の平均を計算します。Aspose.Cells for Java を使用すると、プログラムで簡単にこれを実現できます。
 
 ```java
 // Aspose.Cells を使用して平均を計算する Java コード
@@ -93,7 +93,7 @@ Excel ファイルで作業する場合、エラーを適切に処理するこ�
 ```java
 //エラー処理用のJavaコード
 try {
-    //ここにあなたのコード
+    //ここにあなたのコードを入力してください
 } catch (Exception e) {
     e.printStackTrace();
 }
@@ -115,9 +115,9 @@ Aspose.Cells for Java は、この記事で紹介した以外にも幅広い機�
 
  Aspose.Cells for Javaをインストールするには、次のWebサイトにアクセスしてください。[ここ](https://reference.aspose.com/cells/java/)インストール手順に従ってください。
 
-### Excel ブックを PDF 以外の形式でエクスポートできますか?
+### Excel ワークブックを PDF 以外の形式でエクスポートできますか?
 
-はい、Aspose.Cells for Java を使用すると、Excel ワークブックを CSV、XLSX、HTML などのさまざまな形式でエクスポートできます。
+はい、Aspose.Cells for Java を使用すると、Excel ブックを CSV、XLSX、HTML などのさまざまな形式でエクスポートできます。
 
 ### 手動の Excel 操作よりも Aspose.Cells for Java を使用する利点は何ですか?
 

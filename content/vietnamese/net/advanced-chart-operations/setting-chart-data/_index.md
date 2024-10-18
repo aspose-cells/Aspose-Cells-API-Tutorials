@@ -92,7 +92,7 @@ Bước này thêm dữ liệu danh mục vào cột 'C', giúp đối tượng 
 
 ## Bước 6: Thêm biểu đồ vào bảng tính
 
-Bây giờ là lúc thêm biểu đồ vào.
+Bây giờ là lúc thêm biểu đồ.
 
 ```csharp
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);

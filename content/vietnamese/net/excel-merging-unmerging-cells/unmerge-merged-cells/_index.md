@@ -13,7 +13,7 @@ Bạn có thấy mệt mỏi khi phải xử lý các ô đã hợp nhất trong
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt tay vào thực hiện, bạn cần chuẩn bị một số vật dụng thiết yếu sau:
+Trước khi bắt tay vào thực hiện, bạn cần chuẩn bị một số điều cần thiết sau:
 
 ### Kiến thức cơ bản về C# và .NET Framework
 Nếu bạn quen thuộc với lập trình C# và có hiểu biết cơ bản về .NET framework, bạn đã có một khởi đầu tuyệt vời. Nếu không, đừng lo lắng! Hướng dẫn này được thiết kế đơn giản, vì vậy bạn sẽ học được các khái niệm cần thiết trong quá trình học.
@@ -100,7 +100,7 @@ Với dòng này, giờ bạn có thể truy cập vào tất cả các ô trên
 cells.UnMerge(5, 2, 2, 3);
 ```
 
- Trong ví dụ này,`UnMerge` phương pháp này có bốn tham số: chỉ số hàng bắt đầu (5), chỉ số cột bắt đầu (2), số hàng cần hủy hợp nhất (2) và số cột cần hủy hợp nhất (3). Điều chỉnh các tham số này để khớp với các ô đã hợp nhất cụ thể trong tệp Excel của bạn.
+ Trong ví dụ này,`UnMerge` phương pháp này sử dụng bốn tham số: chỉ số hàng bắt đầu (5), chỉ số cột bắt đầu (2), số hàng cần hủy hợp nhất (2) và số cột cần hủy hợp nhất (3). Điều chỉnh các tham số này để khớp với các ô đã hợp nhất cụ thể trong tệp Excel của bạn.
 
 ## Bước 6: Lưu sổ làm việc
 
@@ -125,7 +125,7 @@ Và bạn đã hoàn thành! Bạn đã hủy hợp nhất các ô trong tệp E
 
 ## Phần kết luận
 
-Việc hủy hợp nhất các ô có vẻ tẻ nhạt, đặc biệt là nếu bạn đang xử lý các bảng tính lớn, nhưng với Aspose.Cells cho .NET, việc này thật dễ dàng! Hướng dẫn này hướng dẫn bạn mọi thứ từ thiết lập môi trường của bạn đến thực thi mã cần thiết để hủy hợp nhất các ô một cách hiệu quả. Tính linh hoạt mà thư viện Aspose.Cells cung cấp cho phép bạn xử lý các bảng tính một cách hiệu quả, khiến nó trở thành lựa chọn lý tưởng cho các nhà phát triển làm việc với các tệp Excel. Vì vậy, hãy bắt đầu và bắt đầu tận hưởng các bảng tính sạch hơn, dễ quản lý hơn.
+Việc hủy hợp nhất các ô có vẻ tẻ nhạt, đặc biệt là nếu bạn đang xử lý các bảng tính lớn, nhưng với Aspose.Cells cho .NET, việc này thật dễ dàng! Hướng dẫn này hướng dẫn bạn mọi thứ từ thiết lập môi trường của bạn đến thực thi mã cần thiết để hủy hợp nhất các ô một cách hiệu quả. Tính linh hoạt mà thư viện Aspose.Cells cung cấp cho phép bạn xử lý các bảng tính một cách hiệu quả, khiến nó trở thành lựa chọn lý tưởng cho các nhà phát triển làm việc với các tệp Excel. Vì vậy, hãy bắt đầu và tận hưởng các bảng tính sạch hơn, dễ quản lý hơn.
 
 ## Câu hỏi thường gặp
 
@@ -136,7 +136,7 @@ Aspose.Cells là một thư viện mạnh mẽ để tạo, xử lý và chuyể
  Trong khi Aspose.Cells cung cấp bản dùng thử miễn phí, bạn cần có giấy phép để sử dụng đầy đủ. Bạn có thể nhận được[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể hủy nhập các ô trong nhiều trang tính cùng một lúc không?  
-Có, bạn có thể lặp qua nhiều trang tính trong một bảng tính và hủy nhập các ô khi cần.
+Có, bạn có thể lặp qua nhiều trang tính trong một bảng tính và hủy hợp nhất các ô khi cần.
 
 ### Aspose.Cells có tương thích với .NET Core không?  
 Có, Aspose.Cells tương thích với .NET Core, khiến nó trở nên linh hoạt cho nhiều ứng dụng .NET khác nhau.

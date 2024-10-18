@@ -9,7 +9,7 @@ url: /fr/net/excel-page-setup/get-page-dimensions/
 ---
 ## Introduction
 
-Lorsqu'il s'agit de gérer des feuilles de calcul dans des applications .NET, la bibliothèque Aspose.Cells se distingue par sa robustesse et permet aux développeurs de manipuler facilement des fichiers Excel. Mais comment obtenir les dimensions de page pour différents formats de papier avec cette puissante bibliothèque ? Dans ce didacticiel, nous allons parcourir le processus étape par étape, en veillant à ce que vous ayez non seulement un aperçu du fonctionnement d'Aspose.Cells, mais aussi à ce que vous deveniez un expert de son utilisation dans vos projets. 
+Lorsqu'il s'agit de gérer des feuilles de calcul dans des applications .NET, la bibliothèque Aspose.Cells se distingue par sa robustesse et permet aux développeurs de manipuler facilement des fichiers Excel. Mais comment obtenir les dimensions de page pour différents formats de papier avec cette puissante bibliothèque ? Dans ce didacticiel, nous allons parcourir le processus étape par étape, en veillant à ce que vous ayez non seulement un aperçu du fonctionnement d'Aspose.Cells, mais aussi à ce que vous deveniez expert dans son utilisation dans vos projets. 
 
 ## Prérequis 
 

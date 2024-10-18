@@ -66,7 +66,7 @@ Personalizar los estilos de las tablas dinámicas en Aspose.Cells para la API de
 ## Preguntas frecuentes
 
 ### ¿Puedo personalizar el tamaño de fuente de los datos de la tabla dinámica?
-   Sí, puede ajustar el tamaño de fuente y otras propiedades de formato según sus preferencias.
+   Sí, puedes ajustar el tamaño de fuente y otras propiedades de formato según tus preferencias.
 
 ### ¿Hay estilos predefinidos disponibles para las tablas dinámicas?
    Sí, Aspose.Cells para Java proporciona varios estilos integrados para elegir.

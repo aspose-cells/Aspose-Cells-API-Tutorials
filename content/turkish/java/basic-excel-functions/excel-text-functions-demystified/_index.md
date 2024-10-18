@@ -121,7 +121,7 @@ cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 workbook.calculateFormula();
 ```
 
-B5 hücresi "9" (için) ifadesini içerecek ve C5 hücresi "Benimle ara" ifadesini içerecektir.
+B5 hücresi "9"u ("for"un konumu) içerecek ve C5 hücresi "Benimle ara"yı içerecektir.
 
 ## Çözüm
 

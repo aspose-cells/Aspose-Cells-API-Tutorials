@@ -9,7 +9,7 @@ url: /zh-hant/net/excel-page-setup/manage-excel-paper-size/
 ---
 ## 介紹
 
-Excel 電子表格已成為管理資料不可或缺的工具，尤其是在商業和教育環境中。準備 Excel 文件的關鍵方面是確保在列印之前對其進行適當的格式設置，包括設定正確的紙張尺寸。在本指南中，我們將探討如何使用 Aspose.Cells for .NET 管理 Excel 電子表格的紙張大小，這是一個功能強大的庫，可以有效地簡化這些任務。
+Excel 電子表格已成為管理資料不可或缺的工具，尤其是在商業和教育環境中。準備 Excel 文件的關鍵方面是確保在列印之前對其進行適當的格式化，包括設定正確的紙張尺寸。在本指南中，我們將探討如何使用 Aspose.Cells for .NET 管理 Excel 電子表格的紙張大小，這是一個功能強大的庫，可以有效地簡化這些任務。
 
 ## 先決條件
 
@@ -17,7 +17,7 @@ Excel 電子表格已成為管理資料不可或缺的工具，尤其是在商�
 
 1. 對 C# 的基本了解：熟悉 C# 程式設計將大大簡化將 Aspose.Cells 整合到專案中的流程。
 2. 安裝了 Visual Studio：確保您的電腦上安裝了 Visual Studio 以編寫和執行 C# 程式碼。
-3.  Aspose.Cells for .NET Library：您需要取得Aspose.Cells。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET Library：您需要取得Aspose.Cells。你可以[在這裡下載](https://releases.aspose.com/cells/net/).
 4. NuGet 套件管理器：確保您有權存取 NuGet 套件管理器，因為您可以使用它輕鬆安裝 Aspose.Cells。
 
 記住這些先決條件，讓我們開始吧！

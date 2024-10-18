@@ -47,7 +47,7 @@ Dans cette étape, nous allons instancier un nouveau classeur.
 ```csharp
 //Répertoire de sortie
 static string outputDir = "Your Document Directory";
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -156,7 +156,7 @@ Pour nous assurer que notre titre se démarque, ajustons sa couleur de police.
 chart.Title.Font.Color = Color.Blue;
 ```
 
-Le choix d'une couleur distincte met en valeur votre titre et attire immédiatement l'attention sur lui. Vous pouvez considérer cela comme une façon d'habiller votre titre pour une présentation.
+Le choix d'une couleur distincte met en valeur votre titre et attire immédiatement l'attention sur lui. Vous pouvez considérer cela comme un habillage de votre titre pour une présentation.
 
 ## Étape 10 : Définir les titres des axes de catégorie et de valeur
 
@@ -170,7 +170,7 @@ chart.CategoryAxis.Title.Text = "Categories";
 chart.ValueAxis.Title.Text = "Values";
 ```
 
-Considérez les axes comme les panneaux de signalisation sur une route : ils guident votre public sur ce à quoi il doit s’attendre lorsqu’il consulte le graphique.
+Considérez les axes comme les panneaux de signalisation sur une route : ils guident votre public sur ce à quoi s’attendre lorsqu’il consulte le graphique.
 
 ## Étape 11 : Enregistrer le classeur
 
@@ -202,7 +202,7 @@ Créer un graphique bien structuré et visuellement attrayant dans Excel à l'ai
 ### Qu'est-ce qu'Aspose.Cells ?
 Aspose.Cells est une bibliothèque puissante qui vous permet de créer et de manipuler des feuilles de calcul Excel dans des applications .NET.
 
-### Puis-je créer différents types de graphiques à l’aide d’Aspose.Cells ?
+### Puis-je créer différents types de graphiques à l'aide d'Aspose.Cells ?
 Oui ! Aspose.Cells prend en charge différents types de graphiques, notamment les graphiques à colonnes, à barres, en courbes, à secteurs, etc.
 
 ### Existe-t-il une version gratuite d'Aspose.Cells ?

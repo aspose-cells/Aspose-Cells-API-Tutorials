@@ -63,7 +63,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);  // Waarden toevoegen
 U kunt het uiterlijk en het gedrag van de draaitabel naar wens aanpassen.
 
 ```java
-//Pas de draaitabel aan
+//De draaitabel aanpassen
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
@@ -81,7 +81,7 @@ In deze tutorial hebben we het proces van het maken van draaitabellen met behulp
 
 ## Veelgestelde vragen
 ### Wat is een draaitabel?
-   Een draaitabel is een hulpmiddel voor gegevensverwerking waarmee u gegevens uit verschillende bronnen kunt samenvatten, analyseren en visualiseren.
+   Een draaitabel is een gegevensverwerkingshulpmiddel waarmee u gegevens uit verschillende bronnen kunt samenvatten, analyseren en visualiseren.
 
 ### Kan ik meerdere draaitabellen aan één werkblad toevoegen?
    Ja, u kunt indien nodig meerdere draaitabellen aan hetzelfde werkblad toevoegen.

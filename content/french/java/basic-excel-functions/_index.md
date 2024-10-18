@@ -23,7 +23,7 @@ Ces titres et paragraphes fournissent une introduction claire et attrayante au s
 
 ## Tutoriels sur les fonctions de base d'Excel
 ### [Guide de la formule SUM d'Excel](./excel-sum-formula-guide/)
-Libérez la puissance de la formule Excel SUM avec Aspose.Cells pour Java - Votre guide complet de l'automatisation Excel.
+Libérez la puissance de la formule Excel SUM avec Aspose.Cells pour Java - Votre guide complet pour l'automatisation Excel.
 ### [Comment utiliser la fonction IF d'Excel](./how-to-use-excel-if-function/)
 Exploitez la puissance de la fonction IF d'Excel avec Aspose.Cells pour Java. Apprenez à implémenter la logique conditionnelle de manière transparente.
 ### [Tutoriel sur la fonction RECHERCHEV dans Excel](./excel-vlookup-tutorial/)
@@ -38,7 +38,7 @@ Découvrez comment utiliser la fonction MOYENNE dans Excel avec Aspose.Cells pou
 Découvrez comment utiliser la fonction Excel MAX avec Aspose.Cells pour Java. Découvrez des instructions étape par étape, des exemples de code et des FAQ dans ce didacticiel complet.
 ### [Fonction MIN expliquée dans Excel](./min-function-in-excel-explained/)
 Découvrez la puissance de la fonction MIN dans Excel avec Aspose.Cells pour Java. Apprenez à trouver les valeurs minimales sans effort.
-### [Les fonctions de texte d'Excel démystifiées](./excel-text-functions-demystified/)
+### [Fonctions de texte Excel démystifiées](./excel-text-functions-demystified/)
 Découvrez les secrets des fonctions de texte d'Excel avec Aspose.Cells pour Java. Apprenez à manipuler, extraire et transformer du texte dans Excel sans effort.
 ### [Tutoriel sur les fonctions de date d'Excel](./excel-date-functions-tutorial/)
 Apprenez les fonctions de date d'Excel à l'aide d'Aspose.Cells pour Java. Explorez des didacticiels étape par étape avec le code source.

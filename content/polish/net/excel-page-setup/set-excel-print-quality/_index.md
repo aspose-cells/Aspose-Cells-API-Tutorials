@@ -25,7 +25,7 @@ Zanim przejdziemy do szczegółów kodowania, upewnijmy się, że wszystko jest 
 
 Aby użyć Aspose.Cells w swoim projekcie, musisz zaimportować niezbędne przestrzenie nazw. Oto, jak możesz to zrobić:
 
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Przejdź do pliku kodu, w którym chcesz zaimplementować funkcjonalność programu Excel.
 3. Dodaj następujące dyrektywy using na początku pliku:
 
@@ -41,7 +41,7 @@ Teraz, gdy mamy już uporządkowane nasze wymagania wstępne, rozbijmy kroki ust
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
-Pierwszym krokiem w naszej podróży jest określenie ścieżki, w której będą przechowywane Twoje pliki Excela. 
+Pierwszym krokiem w naszej podróży jest określenie ścieżki, w której będą przechowywane Twoje pliki Excel. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -77,7 +77,7 @@ Tutaj dzieje się magia! Możemy ustawić jakość wydruku arkusza kalkulacyjneg
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Wyjaśnienie:`PrintQuality` właściwość może być ustawiona na dowolną wartość, zazwyczaj między 75 a 600 dpi (punktów na cal). W tym przypadku ustawiamy ją na 180 dpi, co jest świetne dla dobrego balansu między jakością a rozmiarem pliku.
+Wyjaśnienie:`PrintQuality` właściwość może być ustawiona na dowolną wartość, zazwyczaj między 75 a 600 dpi (punktów na cal). W tym przypadku ustawiamy ją na 180 dpi, co jest świetne dla dobrego balansu między jakością a rozmiarem pliku.
 
 ## Krok 5: Zapisywanie skoroszytu
 

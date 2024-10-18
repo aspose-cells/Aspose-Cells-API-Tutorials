@@ -9,14 +9,14 @@ url: /de/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 ---
 ## Einführung
 
-Wenn Sie mit Excel-Dateien in .NET arbeiten, ist Aspose.Cells eine der leistungsstärksten Bibliotheken, die Ihnen zur Verfügung steht. Damit können Sie Tabellen mühelos bearbeiten, egal ob Sie Daten lesen, Diagramme erstellen oder komplexe Berechnungen durchführen. In diesem Tutorial tauchen wir in eine bestimmte Funktion ein: das Lesen von Achsenbeschriftungen aus einem Diagramm nach der Berechnung. Wenn Sie sich schon einmal gefragt haben, wie Sie diese Beschriftungen programmgesteuert extrahieren können, sind Sie hier richtig! Wir werden es Schritt für Schritt aufschlüsseln und dabei alle notwendigen Details bereitstellen.
+Wenn Sie mit Excel-Dateien in .NET arbeiten, ist Aspose.Cells eine der leistungsstärksten Bibliotheken, die Ihnen zur Verfügung stehen. Damit können Sie Tabellen mühelos bearbeiten, egal ob Sie Daten lesen, Diagramme erstellen oder komplexe Berechnungen durchführen. In diesem Tutorial tauchen wir in eine bestimmte Funktion ein: das Lesen von Achsenbeschriftungen aus einem Diagramm nach der Berechnung. Wenn Sie sich schon einmal gefragt haben, wie Sie diese Beschriftungen programmgesteuert extrahieren können, sind Sie hier richtig! Wir werden es Schritt für Schritt aufschlüsseln und dabei alle notwendigen Details bereitstellen.
 
 ## Voraussetzungen
 
 Bevor wir uns in die Einzelheiten des Codes vertiefen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg benötigen:
 
-1. Visual Studio: Sie sollten Visual Studio auf Ihrem Computer installiert haben. Wenn Sie es noch nicht haben, können Sie es von der[Microsoft-Website](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells-Bibliothek: Diese Anleitung setzt voraus, dass Sie die Aspose.Cells-Bibliothek haben. Sie können sie einfach herunterladen von[Asposes Release-Seite](https://releases.aspose.com/cells/net/) Wenn Sie nicht sicher sind, wo Sie anfangen sollen,[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) kann dein bester Freund sein!
+1.  Visual Studio: Sie sollten Visual Studio auf Ihrem Computer installiert haben. Wenn Sie es noch nicht haben, können Sie es von der[Microsoft-Website](https://visualstudio.microsoft.com/).
+2.  Aspose.Cells-Bibliothek: Diese Anleitung setzt voraus, dass Sie die Aspose.Cells-Bibliothek haben. Sie können sie einfach herunterladen von[Asposes Release-Seite](https://releases.aspose.com/cells/net/)Wenn Sie nicht sicher sind, wo Sie anfangen sollen,[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) kann dein bester Freund sein!
 3. Grundkenntnisse in C#: Wenn Sie mit der Programmiersprache C# vertraut sind, können Sie die Beispiele besser verstehen und ihnen problemlos folgen.
 4.  Excel-Datei: Stellen Sie sicher, dass Sie eine Excel-Datei mit Diagrammen für dieses Tutorial haben. Sie können eine Beispiel-Excel-Datei mit dem Namen`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` zu Testzwecken.
 5. .NET-Umgebung: Überprüfen Sie, ob Ihre .NET-Umgebung richtig eingerichtet ist. Dieses Tutorial zielt auf das .NET-Framework ab, also stellen Sie sicher, dass Sie startklar sind!
@@ -51,7 +51,7 @@ Richten Sie zunächst den Verzeichnispfad ein, in dem Ihre Excel-Datei gespeiche
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad, in dem sich Ihre Excel-Datei befindet (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) gespeichert ist. Dadurch weiß das Programm, wo die Datei zu finden ist.
+ Ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad, in dem sich Ihre Excel-Datei (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) gespeichert ist. Dadurch weiß das Programm, wo die Datei zu finden ist.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- Der`Workbook`Klasse ist Ihr Gateway zur Excel-Datei. Indem wir den vollständigen Pfad angeben, erstellen wir eine neue Arbeitsmappeninstanz, die unsere Excel-Daten enthält.
+ Der`Workbook` Klasse ist Ihr Gateway zur Excel-Datei. Indem wir den vollständigen Pfad angeben, erstellen wir eine neue Arbeitsmappeninstanz, die unsere Excel-Daten enthält.
 
 ## Schritt 3: Zugriff auf das erste Arbeitsblatt
 
@@ -98,7 +98,7 @@ Lesen wir nun die Achsenbeschriftungen aus der Kategorieachse.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Hier ziehen wir die Beschriftungen von der Kategorieachse und speichern sie in einem`ArrayList`. Diese Liste ist für das Durchlaufen und Anzeigen Ihrer Beschriftungen von entscheidender Bedeutung.
+ Hier ziehen wir die Beschriftungen von der Kategorieachse und speichern sie in einem`ArrayList`. Diese Liste ist für das Durchlaufen und Anzeigen Ihrer Beschriftungen von entscheidender Bedeutung.
 
 ## Schritt 7: Drucken Sie die Achsenbeschriftungen in die Konsole
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Dieses Snippet gibt zunächst einen Titel und eine Trennzeile aus. Dann durchlaufen wir jedes Label im`lstLabels` ArrayList und drucken Sie es auf der Konsole aus. Wenn es zehn Beschriftungen gibt, sehen Sie jede davon direkt dort!
+Dieses Snippet gibt zunächst einen Titel und eine Trennzeile aus. Dann durchlaufen wir jedes Label im`lstLabels` ArrayList und drucken Sie es auf der Konsole aus. Wenn es zehn Beschriftungen gibt, sehen Sie jede davon direkt dort!
 
 ## Schritt 8: Letzte Nachricht
 
@@ -141,7 +141,7 @@ Aspose.Cells ist eine leistungsstarke Bibliothek zum Bearbeiten von Excel-Dateie
  Sie können eine Lizenz für Aspose.Cells erwerben über deren[Kaufseite](https://purchase.aspose.com/buy).
 
 ### Wo finde ich Unterstützung für Aspose.Cells?
- Sie können das Aspose-Forum für Support besuchen[Hier](https://forum.aspose.com/c/cells/9).
+Sie können das Aspose-Forum für Unterstützung besuchen[Hier](https://forum.aspose.com/c/cells/9).
 
 ### Kann ich eine vorläufige Lizenz erhalten?
  Ja! Aspose bietet eine temporäre Lizenz an, die Sie bei[dieser Link](https://purchase.aspose.com/temporary-license/).

@@ -16,7 +16,7 @@ Jeśli chodzi o manipulację arkuszami kalkulacyjnymi, importowanie danych do pr
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto krótka lista kontrolna wymagań wstępnych, które zapewnią Ci sukces:
 
 1. .NET Framework: Upewnij się, że .NET Framework jest zainstalowany na Twoim komputerze. Aspose.Cells działa bezproblemowo z różnymi wersjami .NET.
-2.  Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z[link do pobrania](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z[link do pobrania](https://releases.aspose.com/cells/net/).
 3. Zintegrowane środowisko programistyczne (IDE): Użyj środowiska IDE, takiego jak Visual Studio, w którym możesz pisać i wykonywać kod C#.
 4. Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# pomoże Ci stosować praktyki kodowania, które będziemy stosować w tym przewodniku.
 
@@ -28,7 +28,7 @@ Aby efektywnie pracować z Aspose.Cells, musisz zaimportować wymagane przestrze
 
 ### Utwórz swój plik C#
 
- Otwórz swoje IDE (zalecane jest Visual Studio) i utwórz nowy projekt C#. Nazwij go w odpowiedni sposób, np.`ExcelDataImport`.
+ Otwórz IDE (zalecane jest Visual Studio) i utwórz nowy projekt C#. Nazwij go w odpowiedni sposób, np.`ExcelDataImport`.
 
 ### Odwołanie Aspose.Cells
 
@@ -45,7 +45,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-Ta prosta linia jest Twoją bramą do wszystkich funkcji, jakie oferuje Aspose.Cells. 
+Ta prosta linia jest bramą do wszystkich funkcji, jakie oferuje Aspose.Cells. 
 
 Teraz, gdy spełniliśmy wszystkie wymagania wstępne i zaimportowaliśmy niezbędne pakiety, zagłębmy się w proces krok po kroku importowania danych do programu Excel i stosowania niestandardowego formatowania wzorca DB Num. Podejdziemy do tego metodycznie, aby zapewnić przejrzystość i zrozumienie.
 
@@ -67,9 +67,9 @@ Następnie utworzysz nowy skoroszyt, który w zasadzie jest plikiem programu Exc
 Workbook wb = new Workbook();
 ```
 
-Tutaj tworzymy nową instancję`Workbook` obiekt. To jest twoje puste płótno!
+ Tutaj tworzymy nową instancję`Workbook` obiekt. To jest twoje puste płótno!
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Każdy skoroszyt zawiera wiele arkuszy. Będziesz chciał uzyskać dostęp do pierwszego arkusza, aby rozpocząć wprowadzanie danych.
 
@@ -108,7 +108,7 @@ Tutaj dzieje się magia. Możesz określić niestandardowy wzorzec formatu, uży
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Ten wiersz informuje program Excel o sformatowaniu liczby`123` zgodnie ze wzorem DBNum odpowiadającym językowi chińskiemu. Całkiem niezłe, prawda?
+ Ten wiersz informuje program Excel o sformatowaniu liczby`123` zgodnie ze wzorem DBNum odpowiadającym językowi chińskiemu. Całkiem niezłe, prawda?
 
 ## Krok 7: Ustaw zaktualizowany styl komórki
 
@@ -149,7 +149,7 @@ Niezależnie od tego, czy przygotowujesz raporty danych, czy tworzysz sprawozdan
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?  
-Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
+Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excela w sposób programowy.
 
 ### Czy mogę formatować inne typy komórek?  
 Tak! Możesz stosować różne style, formaty, a nawet formuły do dowolnej komórki w arkuszach kalkulacyjnych.

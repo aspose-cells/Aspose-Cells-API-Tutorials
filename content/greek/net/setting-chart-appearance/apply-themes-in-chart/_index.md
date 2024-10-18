@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Βεβαιωθείτε ότι`sampleApplyingThemesInChart.xlsx` υπάρχει στον κατάλογο πηγής σας.
+ Βεβαιωθείτε ότι`sampleApplyingThemesInChart.xlsx`υπάρχει στον κατάλογο πηγής σας.
 
 ## Βήμα 3: Πρόσβαση στο φύλλο εργασίας
 
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Με το φύλλο εργασίας στο χέρι, μπορούμε πλέον να έχουμε πρόσβαση στο γράφημα που σκοπεύουμε να διαμορφώσουμε.
 
 ```csharp
-//Πάρτε το πρώτο γράφημα στο φύλλο
+// Πάρτε το πρώτο γράφημα στο φύλλο
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 ## Βήμα 6: Διαμορφώστε το χρώμα
 
- Τώρα που η σειρά μας είναι έτοιμη, πρέπει να τροποποιήσουμε το χρώμα της. Αυτό περιλαμβάνει τη δημιουργία ενός`CellsColor` αντικείμενο και προσδιορίζοντας ένα χρώμα θέματος. Θα επιλέξουμε ένα στυλ προφοράς για αυτό το παράδειγμα.
+ Τώρα που η σειρά μας είναι έτοιμη, πρέπει να τροποποιήσουμε το χρώμα της. Αυτό περιλαμβάνει τη δημιουργία ενός`CellsColor`αντικείμενο και προσδιορίζοντας ένα χρώμα θέματος. Θα επιλέξουμε ένα στυλ προφοράς για αυτό το παράδειγμα.
 
 ```csharp
 // Αποκτήστε το CellsColor του SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Δημιουργήστε ένα θέμα σε στυλ Accent
+// Δημιουργήστε ένα θέμα σε στυλ Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

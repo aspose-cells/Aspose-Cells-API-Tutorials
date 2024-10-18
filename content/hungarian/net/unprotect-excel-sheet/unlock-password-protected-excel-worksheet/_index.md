@@ -70,7 +70,7 @@ Először is be kell állítanunk az Excel dokumentumunk elérési útját. Itt 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tipp: Cserélje ki`"YOUR DOCUMENT DIRECTORY"` az Excel-fájl tényleges elérési útjával (nevezzük`book1.xls`) található. 
+ Tipp: Cserélje ki`"YOUR DOCUMENT DIRECTORY"`az Excel-fájl tényleges elérési útjával (nevezzük`book1.xls`) található. 
 
 ## 2. lépés: Példányosítson egy munkafüzet-objektumot
 
@@ -100,7 +100,7 @@ Ez a varázslatos rész!
 worksheet.Unprotect("");
 ```
 
- Ha a munkalapja jelszóval védett, és ismeri a jelszót, akkor az üres karakterláncot le kell cserélnie`""` tényleges jelszóval. Ha nem ismeri, hagyja üresen, és futtassa, hogy ellenőrizze, működik-e.
+ Ha a munkalapja jelszóval védett, és ismeri a jelszót, akkor az üres karakterláncot le kell cserélnie`""` a tényleges jelszóval. Ha nem ismeri, hagyja üresen, és futtassa, hogy ellenőrizze, működik-e.
 
 ## 5. lépés: Mentse el a munkafüzetet
 
@@ -128,7 +128,7 @@ Ez a fogási blokk megjeleníti az esetlegesen felmerülő hibákat, így könny
 
 ## Következtetés
 
-És megvan! Sikeresen feloldott egy jelszóval védett Excel-munkalapot az Aspose.Cells for .NET segítségével. Csak néhány sornyi kóddal újra hozzáférhet létfontosságú adataihoz. Az erő és a rugalmasság kéznél van ezzel a nagyszerű könyvtárral. Az Aspose.Cells nemcsak egy hatékony eszköz, hanem elengedhetetlen eszköz, amely tökéletes azoknak a fejlesztőknek, akik szeretnék egyszerűsíteni a Microsoft Excel-interakciót.
+És megvan! Sikeresen feloldott egy jelszóval védett Excel-munkalapot az Aspose.Cells for .NET segítségével. Csak néhány sornyi kóddal újra hozzáférhet létfontosságú adataihoz. Az erő és a rugalmasság kéznél van ezzel a nagyszerű könyvtárral. Az Aspose.Cells nem csupán egy hatékony eszköz, hanem elengedhetetlen eszköz a Microsoft Excel interakcióját egyszerűsíteni kívánó fejlesztők számára.
 
 ## GYIK
 

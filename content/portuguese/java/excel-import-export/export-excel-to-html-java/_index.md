@@ -27,7 +27,7 @@ Comece criando um novo projeto Java no seu Ambiente de Desenvolvimento Integrado
 
 ## Etapa 2: Adicionar a biblioteca Aspose.Cells
 
- Adicione a biblioteca Aspose.Cells for Java ao classpath do seu projeto. Se você estiver usando Maven, inclua a biblioteca em seu`pom.xml` arquivo.
+ Adicione a biblioteca Aspose.Cells for Java ao classpath do seu projeto. Se estiver usando Maven, inclua a biblioteca no seu`pom.xml` arquivo.
 
 ## Etapa 3: Carregar arquivo Excel
 
@@ -40,7 +40,7 @@ Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 
 ## Etapa 4: converter para HTML
 
-Agora, vamos converter o arquivo Excel para o formato HTML. O Aspose.Cells fornece um método simples para isso:
+Agora, vamos converter o arquivo Excel para o formato HTML. Aspose.Cells fornece um método simples para isso:
 
 ```java
 // Salvar a pasta de trabalho como HTML

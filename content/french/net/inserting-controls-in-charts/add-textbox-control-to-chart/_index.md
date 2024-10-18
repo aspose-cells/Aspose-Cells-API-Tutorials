@@ -15,8 +15,8 @@ Créer des graphiques dynamiques et visuellement attrayants dans Excel est un mo
 
 Avant de passer au codage, il y a quelques éléments que vous devez mettre en place :
 
-- Compréhension de base de C# : une compréhension fondamentale de la programmation C# sera utile. Ne vous inquiétez pas ; vous n'avez pas besoin d'être un expert, il vous suffit de savoir naviguer dans la syntaxe.
--  Bibliothèque Aspose.Cells installée : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/) si vous ne l'avez pas déjà fait.
+- Compréhension de base de C# : une compréhension fondamentale de la programmation C# sera utile. Ne vous inquiétez pas, vous n'avez pas besoin d'être un expert, il vous suffit de savoir naviguer dans la syntaxe.
+- Bibliothèque Aspose.Cells installée : assurez-vous que la bibliothèque Aspose.Cells pour .NET est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/) si vous ne l'avez pas déjà fait.
 - Visual Studio : une connaissance de Visual Studio ou de tout IDE que vous préférez utiliser pour le framework .NET est essentielle.
 - Un fichier Excel existant : pour cet exemple, nous allons travailler avec un fichier Excel existant nommé « sampleAddingTextBoxControlInChart.xls ». Vous pouvez en créer un ou télécharger un exemple.
 
@@ -78,7 +78,7 @@ Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100
 ```
 Dans cette commande, les paramètres définissent l'emplacement (x, y) et la taille (largeur, hauteur) de la zone de texte dans le graphique. Ajustez ces valeurs en fonction de vos besoins de mise en page spécifiques.
 
-## Étape 5 : définir le texte de la zone de texte
+## Étape 5 : Définir le texte de la zone de texte
 
 Une fois la zone de texte en place, il est temps de la remplir avec du contenu. Vous pouvez ajouter tout texte que vous jugez nécessaire pour votre graphique.
 
@@ -130,13 +130,13 @@ Ces options vous permettent de définir le remplissage d'arrière-plan de la zon
 
 ## Étape 8 : Enregistrer le fichier Excel modifié
 
-La dernière étape consiste à enregistrer les modifications apportées à un nouveau fichier Excel. Cela permettra de garantir que votre fichier d'origine reste intact.
+La dernière étape consiste à enregistrer les modifications apportées dans un nouveau fichier Excel. Cela permettra de garantir que votre fichier d'origine reste intact.
 
 ```csharp
 // Enregistrez le fichier Excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Remplacer`"outputAddingTextBoxControlInChart.xls"` avec le nom de fichier que vous préférez.
+ Remplacer`"outputAddingTextBoxControlInChart.xls"`avec le nom de fichier que vous préférez.
 
 ## Conclusion
 

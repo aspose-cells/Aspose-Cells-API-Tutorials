@@ -38,7 +38,7 @@ Kodlamaya başlamadan önce geliştirme ortamınızı doğru bir şekilde kurman
 1.  Yeni Bir Proje Oluşturun: Visual Studio'yu açın, yeni bir Konsol Uygulaması projesi oluşturun ve buna açıklayıcı bir ad verin, örneğin:`HideExcelTabs`.
 2. Aspose.Cells Referansını Ekleme: NuGet Paket Yöneticisine gidin ve “Aspose.Cells for .NET” ifadesini arayın. Bunu projenize yükleyin.
  Alternatif olarak, çevrimdışı çalışıyorsanız şunları yapabilirsiniz:[.NET için Aspose.Cells'i indirin](https://releases.aspose.com/cells/net/) ve DLL dosyasını proje referanslarınıza manuel olarak ekleyin.
-3. Excel Dosyasını Hazırlayın: Değiştirmek istediğiniz Excel dosyasını yerleştirin (örneğin,`book1.xls`) proje dizininizde. Dosya yolunu bildiğinizden emin olun.
+3. Excel Dosyasını Hazırlayın: Değiştirmek istediğiniz Excel dosyasını yerleştirin (örn.`book1.xls`) proje dizininizde. Dosya yolunu bildiğinizden emin olun.
 
 ## Adım 2: Excel Dosyasını Açın
 
@@ -110,7 +110,7 @@ Kaydetme çok önemlidir. Bu adım olmadan, çalışma kitabında yapılan tüm 
 ### Sekmeleri gizlemek çalışma kitabının verilerini veya işlevselliğini etkiler mi?  
 Hayır, sekmeleri gizlemek yalnızca görsel görünümü değiştirir. Çalışma kitabındaki veriler ve işlevler etkilenmez.
 
-### CSV veya PDF gibi diğer dosya formatlarındaki sekmeleri gizleyebilir miyim?  
+### CSV veya PDF gibi diğer dosya formatlarında sekmeleri gizleyebilir miyim?  
  Hayır, sekmeleri gizlemek Excel dosya biçimlerine özgüdür.`.xls` Ve`.xlsx`CSV ve PDF gibi dosya formatları zaten sekmeleri desteklemiyor.
 
 ### Aspose.Cells Excel dosyalarını program aracılığıyla düzenlemek için en iyi araç mıdır?  

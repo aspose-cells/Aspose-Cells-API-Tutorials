@@ -13,7 +13,7 @@ Bạn đã bao giờ thấy mình bị khóa ngoài một bảng tính Excel, nh
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào chi tiết để mở khóa bảng tính đó, bạn cần chuẩn bị một số thứ sau:
+Trước khi đi sâu vào chi tiết để mở khóa bảng tính này, bạn cần chuẩn bị một số thứ sau:
 
 ### Môi trường .NET
 
@@ -64,13 +64,13 @@ Bây giờ, chúng ta hãy đi sâu vào trọng tâm của hướng dẫn này.
 
 ## Bước 1: Xác định Đường dẫn Tài liệu
 
-Trước tiên, chúng ta cần thiết lập đường dẫn đến tài liệu Excel của mình. Đây là nơi bạn sẽ chỉ định vị trí tệp Excel của mình. 
+Trước tiên, chúng ta cần thiết lập đường dẫn đến tài liệu Excel. Đây là nơi bạn sẽ chỉ định vị trí tệp Excel của mình. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mẹo: Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn (hãy gọi nó là`book1.xls`) nằm ở đâu. 
+ Mẹo: Thay thế`"YOUR DOCUMENT DIRECTORY"`với đường dẫn thực tế nơi tệp Excel của bạn (hãy gọi nó là`book1.xls`) nằm ở đâu. 
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -100,7 +100,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Unprotect("");
 ```
 
- Nếu bảng tính của bạn được bảo vệ bằng mật khẩu và bạn biết mật khẩu, bạn sẽ thay thế chuỗi rỗng`""`bằng mật khẩu thực tế. Nếu bạn không biết, hãy để trống và chạy để xem nó có hoạt động không.
+ Nếu bảng tính của bạn được bảo vệ bằng mật khẩu và bạn biết mật khẩu, bạn sẽ thay thế chuỗi rỗng`""` bằng mật khẩu thực tế. Nếu bạn không biết, hãy để trống và chạy để xem nó có hoạt động không.
 
 ## Bước 5: Lưu sổ làm việc
 

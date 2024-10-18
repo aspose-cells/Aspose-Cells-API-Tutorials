@@ -1,6 +1,6 @@
 ---
-title: Cellen in een benoemd bereik samenvoegen in Excel
-linktitle: Cellen in een benoemd bereik samenvoegen in Excel
+title: Cellen in benoemd bereik samenvoegen in Excel
+linktitle: Cellen in benoemd bereik samenvoegen in Excel
 second_title: Aspose.Cells .NET Excel-verwerkings-API
 description: Leer hoe u cellen in een benoemd bereik samenvoegt met Aspose.Cells voor .NET in deze stapsgewijze tutorial. Ontdek hoe u Excel-rapporten opmaakt, stileert en automatiseert.
 type: docs
@@ -31,7 +31,7 @@ using Aspose.Cells;
 
 Nu we de vereisten en pakketten hebben besproken, kunnen we beginnen met het leukste gedeelte: coderen!
 
-Hieronder ziet u hoe u cellen in een benoemd bereik in een Excel-werkblad kunt samenvoegen met Aspose.Cells voor .NET.
+Hieronder leest u hoe u cellen in een benoemd bereik in een Excel-werkblad kunt samenvoegen met Aspose.Cells voor .NET.
 
 ## Stap 1: Maak een nieuwe werkmap
 
@@ -46,7 +46,7 @@ Door een nieuwe werkmap te initialiseren, hebben we nu een leeg Excel-bestand da
 
 ## Stap 2: Toegang tot het eerste werkblad
 
-Elke werkmap bevat werkbladen, en in dit geval willen we met de eerste werken. Laten we die pakken!
+Elke werkmap bevat werkbladen, en in dit geval willen we met de eerste werken. Laten we hem pakken!
 
 ```csharp
 // Pak het eerste werkblad uit de werkmap.
@@ -133,7 +133,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- De`StyleFlag`vertelt Aspose.Cells welke stijlkenmerken moeten worden toegepast: uitlijning, arcering, enz. Dit geeft u gedetailleerde controle over hoe de stijl wordt toegepast.
+ De`StyleFlag`vertelt Aspose.Cells welke stijleigenschappen moeten worden toegepast: uitlijning, arcering, enz. Dit geeft u gedetailleerde controle over hoe de stijl wordt toegepast.
 
 ## Stap 9: Gegevens invoeren in het samengevoegde bereik
 
@@ -148,14 +148,14 @@ Hiermee wordt de tekst "Welcome to Aspose APIs" in de eerste cel van ons samenge
 
 ## Stap 10: Sla het Excel-bestand op
 
-Tot slot slaan we de werkmap op als Excel-bestand.
+Laten we tot slot de werkmap opslaan als Excel-bestand.
 
 ```csharp
 // Sla het Excel-bestand op.
 wb1.Save(dataDir + "outputMergeCellsInNamedRange.xlsx");
 ```
 
-Hier wordt de werkmap opgeslagen onder de naam 'outputMergeCellsInNamedRange.xlsx' in de door u opgegeven map.
+Hier wordt de werkmap opgeslagen met de naam 'outputMergeCellsInNamedRange.xlsx' in de door u opgegeven map.
 
 ## Conclusie
 

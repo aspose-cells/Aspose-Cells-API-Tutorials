@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Biztosítsd ezt`sampleApplyingThemesInChart.xlsx` létezik a forráskönyvtárban.
+ Biztosítsd ezt`sampleApplyingThemesInChart.xlsx`létezik a forráskönyvtárban.
 
 ## 3. lépés: Nyissa meg a munkalapot
 
@@ -77,7 +77,7 @@ Ebben az esetben egyszerűen megragadjuk az első munkalapot, ami ehhez a péld�
 A munkalappal a kezünkben most már hozzáférhetünk a stílusozni kívánt diagramhoz.
 
 ```csharp
-//Szerezd meg a lap első diagramját
+// Szerezd meg a lap első diagramját
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Ez a kódsor biztosítja, hogy a diagram első sorozata tömör kitöltést hasz
 
 ## 6. lépés: Állítsa be a színt
 
- Most, hogy a sorozatunk elkészült, módosítanunk kell a színét. Ez magában foglalja a létrehozását a`CellsColor` objektumot, és megadja a téma színét. Ehhez a példához egy hangsúlyos stílust választunk.
+ Most, hogy a sorozatunk elkészült, módosítanunk kell a színét. Ez magában foglalja a létrehozását a`CellsColor`objektumot, és megadja a téma színét. Ehhez a példához egy hangsúlyos stílust választunk.
 
 ```csharp
 // Szerezze be a SolidFill CellsColor-ját
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Hozzon létre egy témát hangsúlyos stílusban
+// Hozzon létre egy témát hangsúlyos stílusban
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -158,7 +158,7 @@ Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejleszt
 Az Aspose.Cells különféle témaszíneket támogat, beleértve az Accent stílusokat és másokat.
 
 ### Lehetséges témákat több diagramra alkalmazni?
- Teljesen! Át lehet hurkolni`worksheet.Charts` és szükség szerint alkalmazza a témákat.
+ Teljesen! Át lehet hurkolni`worksheet.Charts` és igény szerint alkalmazza a témákat.
 
 ### Hol kaphatok támogatást az Aspose.Cells-hez?
  Támogatást kaphat, és kapcsolatba léphet a felhasználók közösségével[itt](https://forum.aspose.com/c/cells/9).

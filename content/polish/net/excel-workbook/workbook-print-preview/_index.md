@@ -9,7 +9,7 @@ url: /pl/net/excel-workbook/workbook-print-preview/
 ---
 ## Wstęp
 
-Jeśli chodzi o zarządzanie plikami Excela i manipulowanie nimi, Aspose.Cells dla .NET to potężna biblioteka, która się wyróżnia. Jeśli kiedykolwiek próbowałeś zobaczyć, jak będzie wyglądał Twój skoroszyt po wydrukowaniu, wiesz, że czasami potrzebujesz odrobiny pomocy, aby wszystko było w porządku. Właśnie tutaj pojawiają się podglądy wydruku! W tym samouczku zagłębimy się w dziedzinę podglądów wydruku przy użyciu Aspose.Cells dla .NET. Przeanalizujemy, jak możesz użyć tej biblioteki, aby uzyskać dokładne reprezentacje plików Excela przed wysłaniem ich do drukarki. Nie martw się, jeśli jesteś w tym nowy; przeprowadzę Cię przez każdy szczegół krok po kroku. Więc weź swój ulubiony napój i zacznijmy tę ekscytującą podróż!
+Jeśli chodzi o zarządzanie plikami Excela i manipulowanie nimi, Aspose.Cells for .NET to potężna biblioteka, która się wyróżnia. Jeśli kiedykolwiek próbowałeś zobaczyć, jak będzie wyglądał Twój skoroszyt po wydrukowaniu, wiesz, że czasami potrzebujesz odrobiny pomocy, aby wszystko było w porządku. Właśnie tutaj pojawiają się podglądy wydruku! W tym samouczku zagłębimy się w dziedzinę podglądów wydruku przy użyciu Aspose.Cells for .NET. Przeanalizujemy, jak możesz użyć tej biblioteki, aby uzyskać dokładne reprezentacje plików Excela przed wysłaniem ich do drukarki. Nie martw się, jeśli jesteś w tym nowy; przeprowadzę Cię przez każdy szczegół krok po kroku. Więc weź swój ulubiony napój i zacznijmy tę ekscytującą podróż!
 
 ## Wymagania wstępne
 
@@ -140,4 +140,4 @@ Tak, Aspose.Cells jest przeznaczony do współpracy z dowolną aplikacją .NET, 
  Możesz zapoznać się z obszerną dokumentacją pod adresem[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose.Cells?
- Jeśli napotkasz jakiekolwiek problemy lub będziesz mieć pytania, możesz zwrócić się o pomoc na forum Aspose:[Wsparcie Aspose](https://forum.aspose.com/c/cells/9).
+ Jeśli napotkasz jakiekolwiek problemy lub będziesz mieć pytania, możesz szukać pomocy na forum Aspose:[Wsparcie Aspose](https://forum.aspose.com/c/cells/9).

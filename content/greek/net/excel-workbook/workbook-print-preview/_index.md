@@ -113,7 +113,7 @@ Console.WriteLine("Worksheet page count: " + preview2.EvaluatedPageCount);
 
 ## Βήμα 7: Μήνυμα επιτυχίας
 
-Είναι πάντα ωραίο να ολοκληρώνουμε τα πράγματα με ένα φιλικό μήνυμα για να επιβεβαιώσουμε ότι όλα πήγαν ομαλά:
+Είναι πάντα ωραίο να ολοκληρώνετε τα πράγματα με ένα φιλικό μήνυμα για να επιβεβαιώσετε ότι όλα πήγαν ομαλά:
 
 ```csharp
 Console.WriteLine("PrintPreview executed successfully.");

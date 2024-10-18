@@ -2,7 +2,7 @@
 title: Validación de datos de importación de Excel
 linktitle: Validación de datos de importación de Excel
 second_title: API de procesamiento de Excel en Java Aspose.Cells
-description: Aprenda a implementar la validación de datos de importación de Excel con Aspose.Cells para Java con esta guía completa paso a paso. Garantice la precisión de los datos y mejore la experiencia del usuario.
+description: Aprenda a implementar la validación de datos de importación de Excel con Aspose.Cells para Java con esta completa guía paso a paso. Garantice la precisión de los datos y mejore la experiencia del usuario.
 type: docs
 weight: 18
 url: /es/java/excel-import-export/excel-import-data-validation/

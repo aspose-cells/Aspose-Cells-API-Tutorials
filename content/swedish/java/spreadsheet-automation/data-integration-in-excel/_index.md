@@ -10,7 +10,7 @@ url: /sv/java/spreadsheet-automation/data-integration-in-excel/
 
 Dataintegration är en avgörande aspekt av att arbeta med Excel, vilket gör att du kan samla information från olika källor, analysera den och fatta välgrundade beslut. I den här guiden går vi igenom processen för dataintegrering i Excel med Aspose.Cells för Java. Du hittar steg-för-steg-instruktioner och källkodsexempel för att effektivisera ditt arbetsflöde.
 
-## 1. Inledning
+## 1. Introduktion
 
 Excel är ett mångsidigt verktyg för datamanipulation, men att integrera data från olika källor kan vara utmanande. Aspose.Cells för Java förenklar denna process genom att tillhandahålla ett robust bibliotek för att arbeta med Excel-filer programmatiskt.
 

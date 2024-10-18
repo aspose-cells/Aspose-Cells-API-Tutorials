@@ -21,7 +21,7 @@ Ingin menambahkan konteks tambahan ke bagan Excel Anda? Label dapat membuat perb
 
 Gambar bernilai seribu kata, bukan? Hal ini juga berlaku untuk bagan Excel. Dengan Aspose.Cells for .NET, menambahkan gambar ke bagan Anda semudah memasukkan klip seni ke dalam dokumen Word. Gambar dapat membantu membuat bagan Anda lebih menarik secara visual, mendorong keterlibatan dengan data yang Anda sajikan. Baik Anda menyajikan data keuangan atau angka penjualan, menambahkan gambar yang relevan membantu menghubungkan data dengan narasi.
 
-Penasaran bagaimana cara kerjanya? Lihat[Tambahkan Gambar ke Bagan](./add-picture-to-chart/) tutorial.
+ Penasaran bagaimana cara kerjanya? Lihat[Tambahkan Gambar ke Bagan](./add-picture-to-chart/) tutorial.
 
 ## Memasukkan Kotak Teks dan Kotak Centang
 
@@ -31,7 +31,7 @@ Kotak Teks dan Kotak Centang menawarkan cara praktis untuk memberi anotasi atau 
 
 Dengan mengikuti tutorial ini, Anda dapat meningkatkan keterampilan presentasi data Anda secara signifikan menggunakan Aspose.Cells for .NET.
 
-## Tutorial Memasukkan Kontrol dalam Bagan
+## Memasukkan Kontrol dalam Tutorial Bagan
 ### [Tambahkan Kontrol Label ke Bagan](./add-label-control-to-chart/)
 Pelajari cara menambahkan kontrol label ke bagan Anda di Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan visualisasi data Anda.
 ### [Tambahkan Gambar ke Bagan](./add-picture-to-chart/)

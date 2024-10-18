@@ -88,7 +88,7 @@ book.Save(dataDir + "output.xls");
 
 ## Kesimpulan
 
-Nah, itu dia! Anda baru saja mempelajari cara membagi panel dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tidak ada lagi pengguliran tanpa henti atau kehilangan jejak data Anda. Metode ini membuat penanganan file Excel yang besar jauh lebih mudah dan jauh lebih efisien. Dengan kemampuan untuk membagi panel, kini Anda dapat melacak titik data penting saat bekerja dengan lembar kerja yang rumit.
+Nah, itu dia! Anda baru saja mempelajari cara membagi panel dalam lembar kerja Excel menggunakan Aspose.Cells for .NET. Tidak ada lagi pengguliran tanpa henti atau kehilangan jejak data Anda. Metode ini membuat penanganan file Excel yang besar jauh lebih mudah dan jauh lebih efisien. Dengan kemampuan untuk membagi panel, kini Anda dapat melacak titik data penting saat bekerja dengan lembar kerja yang rumit.
 
 ## Pertanyaan yang Sering Diajukan
 

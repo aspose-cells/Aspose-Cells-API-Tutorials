@@ -47,7 +47,7 @@ In diesem Schritt instanziieren wir eine neue Arbeitsmappe.
 ```csharp
 //Ausgabeverzeichnis
 static string outputDir = "Your Document Directory";
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -58,11 +58,11 @@ Diese Codezeile erstellt eine neue Arbeitsmappeninstanz, die wir für unsere Ope
 Als Nächstes müssen wir auf das Arbeitsblatt zugreifen, in das wir unsere Daten eingeben und das Diagramm erstellen.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Durch die Verwendung des Indexes`0`greifen wir auf das erste verfügbare Arbeitsblatt in unserer Arbeitsmappe zu.
+ Durch die Verwendung des Index`0`greifen wir auf das erste verfügbare Arbeitsblatt in unserer Arbeitsmappe zu.
 
 ## Schritt 3: Beispieldaten hinzufügen
 

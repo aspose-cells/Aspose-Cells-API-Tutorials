@@ -72,7 +72,7 @@ Ta linia kodu tworzy nowy obiekt skoroszytu z określonego pliku. To jak otwiera
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
-Następnie chcesz uzyskać dostęp do arkusza zawierającego wykres. Zazwyczaj wykres znajduje się na pierwszym arkuszu, więc go przechwyćmy.
+Następnie chcesz uzyskać dostęp do arkusza kalkulacyjnego zawierającego wykres. Zazwyczaj wykres znajduje się na pierwszym arkuszu kalkulacyjnym, więc go przechwyćmy.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];

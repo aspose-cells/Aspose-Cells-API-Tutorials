@@ -39,7 +39,7 @@ Ora che abbiamo impostato la scena, vediamo i passaggi necessari per creare la c
 
 ## Passaggio 1: imposta la directory dei documenti
 
-Prima di poter salvare qualsiasi file, è necessario assicurarsi che la directory dei documenti sia impostata correttamente:
+Prima di poter salvare qualsiasi file, devi assicurarti che la directory dei documenti sia impostata correttamente:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -167,7 +167,7 @@ area.StartColumn = 0;
 area.EndColumn = 0;
 ```
 
-In questa configurazione, stiamo dicendo che la convalida si applica dalla cella A1 alla cella A10.
+In questa configurazione, diciamo che la convalida si applica dalla cella A1 alla cella A10.
 
 ## Passaggio 13: aggiungere l'area di convalida
 
@@ -203,7 +203,7 @@ La convalida dei dati in Excel è una funzionalità che limita il tipo di dati c
 Sì! Puoi fornire messaggi di errore personalizzati per guidare gli utenti quando vengono immessi dati errati.
 
 ### Aspose.Cells è gratuito?
- Aspose.Cells offre una prova gratuita, ma avrai bisogno di una licenza per un utilizzo a lungo termine. Puoi trovare maggiori informazioni sull'acquisizione di una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells offre una prova gratuita, ma avrai bisogno di una licenza per un utilizzo a lungo termine. Puoi trovare maggiori informazioni sull'acquisizione di una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Quali tipi di dati posso convalidare in Excel?
 Con Aspose.Cells puoi convalidare vari tipi di dati, tra cui numeri interi, decimali, date, elenchi e formule personalizzate.

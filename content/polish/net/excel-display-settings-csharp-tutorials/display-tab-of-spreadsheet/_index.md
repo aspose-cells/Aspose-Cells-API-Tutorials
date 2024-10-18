@@ -61,7 +61,7 @@ W programie Excel zakładki na dole (Arkusz1, Arkusz2 itd.) mogą być ukryte lu
 workbook.Settings.ShowTabs = true;
 ```
 
- Ustawienie`ShowTabs` Do`true`zapewni, że karty będą widoczne po otwarciu pliku Excel.
+ Ustawienie`ShowTabs` Do`true` zapewni, że karty będą widoczne po otwarciu pliku Excel.
 
 ## Krok 4: Zapisz zmodyfikowany plik Excela
 
@@ -75,17 +75,17 @@ workbook.Save(dataDir + "output.xls");
 
 ## Wniosek
 
-I masz to! Udało Ci się wyświetlić zakładki w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. To proste zadanie, ale jest również niezwykle przydatne, gdy automatyzujesz operacje w Excelu. Aspose.Cells daje Ci pełną kontrolę nad plikami Excela bez konieczności instalowania pakietu Microsoft Office. Od kontrolowania widoczności zakładek po obsługę złożonych zadań, takich jak formatowanie i formuły, Aspose.Cells umożliwia to wszystko w zaledwie kilku linijkach kodu.
+masz to! Udało Ci się wyświetlić zakładki w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. To proste zadanie, ale jest również niezwykle przydatne, gdy automatyzujesz operacje w Excelu. Aspose.Cells daje Ci pełną kontrolę nad plikami Excela bez konieczności instalowania pakietu Microsoft Office. Od kontrolowania widoczności zakładek po obsługę złożonych zadań, takich jak formatowanie i formuły, Aspose.Cells umożliwia to wszystko w zaledwie kilku linijkach kodu.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę ukryć karty w programie Excel, używając Aspose.Cells dla platformy .NET?
- Absolutnie! Po prostu ustaw`workbook.Settings.ShowTabs = false;` zapisz plik. Spowoduje to ukrycie kart po otwarciu skoroszytu.
+ Absolutnie! Po prostu ustaw`workbook.Settings.ShowTabs = false;` i zapisz plik. Spowoduje to ukrycie kart po otwarciu skoroszytu.
 
 ### Czy Aspose.Cells obsługuje inne funkcje programu Excel, takie jak wykresy i tabele przestawne?
 Tak, Aspose.Cells to kompleksowa biblioteka obsługująca niemal wszystkie funkcje programu Excel, w tym wykresy, tabele przestawne, formuły i wiele innych.
 
-### Czy muszę mieć zainstalowany program Microsoft Excel, aby korzystać z Aspose.Cells?
+### Czy aby korzystać z Aspose.Cells, na moim komputerze musi być zainstalowany program Microsoft Excel?
 Nie, Aspose.Cells nie wymaga Microsoft Excel ani żadnego innego oprogramowania. Działa niezależnie, co jest jedną z jego największych zalet.
 
 ### Czy mogę konwertować pliki Excel do innych formatów za pomocą Aspose.Cells?

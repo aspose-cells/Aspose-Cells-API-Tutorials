@@ -1,6 +1,6 @@
 ---
-title: Pobierz ukryte indeksy wierszy po odświeżeniu filtra automatycznego w programie Excel
-linktitle: Pobierz ukryte indeksy wierszy po odświeżeniu filtra automatycznego w programie Excel
+title: Pobierz ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel
+linktitle: Pobierz ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
 description: Dowiedz się, jak odzyskać ukryte indeksy wierszy po odświeżeniu Auto Filter w programie Excel przy użyciu Aspose.Cells dla .NET. Uprość zarządzanie danymi.
 type: docs
@@ -9,7 +9,7 @@ url: /pl/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-in
 ---
 ## Wstęp
 
-Podczas pracy z plikami Excela, zwłaszcza dużymi zestawami danych, filtrowanie może być zbawienne. Pomaga nam skupić się na określonych punktach danych, ale co się stanie, gdy po zastosowaniu filtra zechcesz zidentyfikować ukryte wiersze? Jeśli kiedykolwiek byłeś ciekawy, jak wyciągnąć te ukryte szczegóły, jesteś we właściwym miejscu! W tym przewodniku zbadamy, jak uzyskać ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, proces ten okaże się prosty i angażujący. Zanurzmy się!
+Podczas pracy z plikami Excela, zwłaszcza dużymi zestawami danych, filtrowanie może być zbawienne. Pomaga nam skupić się na określonych punktach danych, ale co się stanie, gdy po zastosowaniu filtra zechcesz zidentyfikować ukryte wiersze? Jeśli kiedykolwiek byłeś ciekawy, jak wyciągnąć te ukryte szczegóły, jesteś we właściwym miejscu! W tym przewodniku zbadamy, jak uzyskać ukryte indeksy wierszy po odświeżeniu automatycznego filtra w Excelu przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, proces ten okaże się prosty i angażujący. Zanurzmy się!
 
 ## Wymagania wstępne
 
@@ -17,7 +17,7 @@ Zanim zaczniesz pisać kod, musisz pamiętać o kilku wymaganiach wstępnych:
 
 ### Zrozumienie Aspose.Cells dla .NET
 
-Aby śledzić ten samouczek, musisz dobrze rozumieć, czym jest Aspose.Cells. Zasadniczo jest to potężna biblioteka dla .NET, która umożliwia tworzenie, manipulowanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel. Jest to narzędzie, które może bezproblemowo obsługiwać wszystko, od prostego wprowadzania danych po złożoną analizę danych.
+Aby śledzić ten samouczek, musisz mieć solidne zrozumienie tego, czym jest Aspose.Cells. Zasadniczo jest to potężna biblioteka dla .NET, która umożliwia tworzenie, manipulowanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel. Jest to narzędzie, które może bezproblemowo obsługiwać wszystko, od prostego wprowadzania danych po złożoną analizę danych.
 
 ### Konfigurowanie środowiska programistycznego
 
@@ -70,7 +70,7 @@ Workbook wb = new Workbook(sourceDir + "sampleGetAllHiddenRowsIndicesAfterRefres
 
 ## Krok 3: Uzyskaj dostęp do żądanego arkusza kalkulacyjnego
 
-Teraz będziemy pracować z pierwszym arkuszem kalkulacyjnym skoroszytu. Ten krok izoluje arkusz zawierający dane, które chcemy filtrować.
+Teraz będziemy pracować z pierwszym arkuszem skoroszytu. Ten krok izoluje arkusz zawierający dane, które chcemy filtrować.
 
 ```csharp
 Worksheet ws = wb.Worksheets[0]; // Dostęp do pierwszego arkusza kalkulacyjnego
@@ -78,7 +78,7 @@ Worksheet ws = wb.Worksheets[0]; // Dostęp do pierwszego arkusza kalkulacyjnego
 
 ## Krok 4: Zastosuj filtr automatyczny
 
-Zastosowanie Auto Filter to początek magii! Określimy, którą kolumnę chcemy filtrować i ustawimy nasze kryteria. Tutaj filtrujemy dla „Orange”. 
+Zastosowanie filtra automatycznego to początek magii! Określimy, którą kolumnę chcemy filtrować i ustawimy nasze kryteria. Tutaj filtrujemy dla „Orange”. 
 
 ```csharp
 ws.AutoFilter.AddFilter(0, "Orange"); // Zastosuj autofiltr dla pierwszej kolumny
@@ -112,7 +112,7 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 
 ## Wniosek
 
-masz! Udało Ci się pobrać indeksy ukrytych wierszy po odświeżeniu Auto Filter w Excelu przy użyciu Aspose.Cells dla .NET. Całkiem niezłe, prawda? Ta możliwość może znacznie usprawnić Twoje projekty analizy danych, czyniąc Twój przepływ pracy płynniejszym i bardziej wydajnym.
+masz! Udało Ci się pobrać indeksy ukrytych wierszy po odświeżeniu Auto Filter w programie Excel przy użyciu Aspose.Cells dla .NET. Całkiem niezłe, prawda? Ta możliwość może znacznie usprawnić Twoje projekty analizy danych, czyniąc Twój przepływ pracy płynniejszym i bardziej wydajnym.
 
 ## Najczęściej zadawane pytania
 

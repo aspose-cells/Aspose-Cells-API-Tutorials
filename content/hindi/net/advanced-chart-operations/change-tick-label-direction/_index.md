@@ -130,7 +130,7 @@ Console.WriteLine("ChangeTickLabelDirection executed successfully.");
 हां, आप Aspose.Cells द्वारा समर्थित किसी भी चार्ट पर समान विधियां लागू कर सकते हैं।
 
 ### Aspose.Cells किस फ़ाइल स्वरूपों का समर्थन करता है?  
-Aspose.Cells XLSX, XLS, CSV, और अधिक जैसे विभिन्न प्रारूपों का समर्थन करता है!
+Aspose.Cells XLSX, XLS, CSV, आदि जैसे विभिन्न प्रारूपों का समर्थन करता है!
 
 ### क्या इसका कोई परीक्षण संस्करण उपलब्ध है?  
  बिलकुल! आप निशुल्क परीक्षण पा सकते हैं[यहाँ](https://releases.aspose.com/).

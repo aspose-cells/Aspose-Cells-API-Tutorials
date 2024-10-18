@@ -17,7 +17,7 @@ Avant de nous plonger dans les détails de la mise en œuvre, il est essentiel d
 
 1. Visual Studio : vous avez besoin d'une installation fonctionnelle de Visual Studio. C'est ici que vous écrirez et compilerez votre code .NET.
 2. .NET Framework : assurez-vous que .NET Framework est installé. Aspose.Cells prend en charge plusieurs versions, choisissez donc celle qui convient à votre application.
-3.  Bibliothèque Aspose.Cells : vous devez disposer de la bibliothèque Aspose.Cells. Vous pouvez l'obtenir à partir de[page de téléchargement officielle](https://releases.aspose.com/cells/net/).
+3.  Bibliothèque Aspose.Cells : vous devez disposer de la bibliothèque Aspose.Cells. Vous pouvez l'obtenir à partir du[page de téléchargement officielle](https://releases.aspose.com/cells/net/).
 4. Compréhension de base de C# : la familiarité avec C# vous aidera à naviguer sans effort dans le processus de codage.
 
 ## Paquets d'importation
@@ -31,7 +31,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Cette directive vous permettra d'accéder aux classes et méthodes incluses dans la bibliothèque Aspose.Cells. Maintenant que nos packages sont importés, passons à la partie amusante : écrire le code !
+Cette directive vous permettra d'accéder aux classes et méthodes incluses dans la bibliothèque Aspose.Cells. Maintenant que nous avons importé nos packages, passons à la partie amusante : écrire le code !
 
 ## Étape 1 : Configurez vos répertoires
 
@@ -56,7 +56,7 @@ Maintenant que nos répertoires sont configurés, l'étape suivante consiste à 
 Workbook wb = new Workbook();
 ```
 
-Tout comme un artiste commence avec une toile vierge, vous commencez avec un classeur vide dans lequel vous pouvez ensuite inclure des données ou un formatage.
+Tout comme un artiste commence avec une toile vierge, vous commencez avec un classeur vide dans lequel vous pouvez ultérieurement inclure des données ou un formatage.
 
 ## Étape 3 : Protégez le classeur contre l'écriture
 
@@ -107,7 +107,7 @@ Et voilà ! Vous avez appris à créer un classeur Excel, à définir une protec
  Vous pouvez acheter Aspose.Cells via leur[page d'achat](https://purchase.aspose.com/buy).
 
 ### Puis-je utiliser cette approche dans les applications Web ?  
-Absolument ! Aspose.Cells fonctionne parfaitement dans les applications de bureau et Web utilisant .NET.
+Absolument ! Aspose.Cells fonctionne parfaitement dans les applications de bureau et Web utilisant .NET.
 
 ### Que dois-je faire si j’ai besoin d’aide ?  
 Pour les questions et le dépannage, la communauté Aspose est très utile. Vous pouvez visiter leur[Forum de soutien](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide.

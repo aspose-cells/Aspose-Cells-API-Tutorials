@@ -1,6 +1,6 @@
 ---
-title: グラフ内の主グリッド線を変更する
-linktitle: グラフ内の主グリッド線を変更する
+title: グラフの主グリッド線を変更する
+linktitle: グラフの主グリッド線を変更する
 second_title: Aspose.Cells .NET Excel 処理 API
 description: 詳細なステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel グラフの主要なグリッド線を変更する方法を学習します。
 type: docs
@@ -102,7 +102,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-## ステップ7: グラフにデータ系列を追加する
+## ステップ 7: グラフにデータ系列を追加する
 
 次に、データをグラフにバインドする必要があります。これには、グラフのデータ ソースとしてセルを指定することが含まれます。
 
@@ -127,7 +127,7 @@ chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 //第1シリーズコレクションエリアの前景色の設定
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 
-//第1シリーズコレクションポイントの領域のフォアグラウンドカラーの設定
+//第1シリーズコレクションポイントの領域の前景色の設定
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 
 //2番目のシリーズコレクションの領域をグラデーションで塗りつぶす
@@ -173,7 +173,7 @@ Console.WriteLine("Changing Major Gridlines in Chart executed successfully.");
 
 ## 結論
 
-これで完了です。Aspose.Cells for .NET を使用してグラフの主要なグリッド線を変更する方法を学習しました。このステップ バイ ステップ ガイドに従うことで、Excel ファイルをプログラムで操作できるだけでなく、色のカスタマイズによって視覚的な魅力を高めることもできます。Aspose.Cells をさらに自由に試して、データ プレゼンテーション スキルを深め、グラフをさらにダイナミックにしましょう。
+これで完了です。Aspose.Cells for .NET を使用してグラフの主グリッド線を変更する方法を学習できました。このステップ バイ ステップ ガイドに従うことで、Excel ファイルをプログラムで操作できるだけでなく、色のカスタマイズによって視覚的な魅力を高めることもできます。Aspose.Cells をさらに自由に試して、データ プレゼンテーション スキルを深め、グラフをさらにダイナミックにしましょう。
 
 ## よくある質問
 

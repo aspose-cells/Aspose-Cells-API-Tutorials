@@ -203,7 +203,7 @@ Validasi data di Excel adalah fitur yang membatasi jenis data yang dapat dimasuk
 Ya! Anda dapat memberikan pesan kesalahan khusus untuk memandu pengguna saat entri data yang salah dibuat.
 
 ### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan jangka panjang. Anda dapat menemukan informasi lebih lanjut tentang cara memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan jangka panjang. Anda dapat menemukan informasi lebih lanjut tentang cara memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Tipe data apa yang dapat saya validasi di Excel?
 Dengan Aspose.Cells, Anda dapat memvalidasi berbagai tipe data termasuk bilangan bulat, desimal, tanggal, daftar, dan rumus khusus.

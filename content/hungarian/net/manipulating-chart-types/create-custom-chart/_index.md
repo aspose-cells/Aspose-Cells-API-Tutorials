@@ -52,7 +52,7 @@ A „Kimeneti könyvtár” helyett megadhat egy tényleges elérési utat, ahov
  Most érdemes elindítani a dolgokat egy új példány létrehozásával`Workbook` osztály. Ez az Aspose.Cells használatával végzett Excel-műveletek alapvető építőköve.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 

@@ -54,7 +54,7 @@ Com isso resolvido, estamos prontos para definir nossas opções de impressão!
 
 Agora, vamos sujar as mãos e mergulhar no código! Vamos percorrer a configuração de várias opções de impressão passo a passo.
 
-## Etapa 1: Defina o diretório de documentos
+## Etapa 1: Defina o diretório do documento
 
 O primeiro passo envolve designar onde seu arquivo Excel ficará. Em vez de codificar caminhos em todo o seu código, vamos mantê-lo limpo e arrumado.
 
@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Em seguida, precisaremos criar um`Workbook` objeto. Este objeto atua como um contêiner para os dados da sua planilha.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

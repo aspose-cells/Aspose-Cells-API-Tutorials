@@ -9,7 +9,7 @@ url: /vi/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
 ---
 ## Giới thiệu
 
-Tệp Excel là thành phần chính trong quản lý dữ liệu cá nhân và doanh nghiệp, cho phép người dùng sắp xếp và phân tích thông tin của họ một cách hiệu quả. Tuy nhiên, đôi khi chúng ta gặp phải một trang tính Excel bị khóa, khiến chúng ta phải đau đầu — đặc biệt là khi chúng ta quên mật khẩu. Rất may, thư viện Aspose.Cells dành cho .NET cung cấp một giải pháp tuyệt vời để dễ dàng bỏ bảo vệ các trang tính Excel đơn giản. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước cần thiết để bỏ bảo vệ một trang tính Excel, lưu công việc của bạn và tiếp tục xử lý dữ liệu của bạn một cách trơn tru. Vì vậy, nếu bạn đã sẵn sàng lấy lại quyền kiểm soát các bảng tính của mình, hãy bắt đầu thôi!
+Tệp Excel là thành phần chính trong quản lý dữ liệu cá nhân và doanh nghiệp, cho phép người dùng sắp xếp và phân tích thông tin của họ một cách hiệu quả. Tuy nhiên, đôi khi chúng ta gặp phải một trang tính Excel bị khóa, khiến chúng ta bối rối — đặc biệt là khi chúng ta quên mật khẩu. Rất may, thư viện Aspose.Cells dành cho .NET cung cấp một giải pháp tuyệt vời để bỏ bảo vệ các trang tính Excel đơn giản một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước cần thiết để bỏ bảo vệ một trang tính Excel, lưu công việc của bạn và tiếp tục xử lý dữ liệu của bạn một cách trơn tru. Vì vậy, nếu bạn đã sẵn sàng lấy lại quyền kiểm soát các bảng tính của mình, hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
@@ -78,7 +78,7 @@ Bây giờ, hãy truy cập vào trang tính bạn muốn bỏ bảo vệ. Nói 
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Trong dòng này, chúng ta đang nhắm đến trang tính đầu tiên. Nếu bạn cần bỏ bảo vệ một trang tính khác, chỉ cần thay đổi số chỉ mục cho phù hợp.
+Ở dòng này, chúng ta nhắm đến trang tính đầu tiên. Nếu bạn cần bỏ bảo vệ một trang tính khác, chỉ cần thay đổi số chỉ mục cho phù hợp.
 
 ## Bước 4: Bỏ bảo vệ trang tính
 

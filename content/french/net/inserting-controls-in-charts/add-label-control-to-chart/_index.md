@@ -16,7 +16,7 @@ Les graphiques sont un moyen efficace de visualiser les données, et parfois, l'
 Avant de plonger dans le vif du sujet, voyons ce dont vous avez besoin pour commencer :
 
 - Connaissances de base de C# : il est essentiel de comprendre les bases de la programmation C#. Si vous êtes débutant, ne vous inquiétez pas, les étapes seront claires et concises.
-- Bibliothèque Aspose.Cells : assurez-vous que la bibliothèque Aspose.Cells est installée. Vous pouvez le faire via le gestionnaire de packages NuGet dans Visual Studio. Si vous ne l'avez pas déjà fait, consultez le[lien de téléchargement](https://releases.aspose.com/cells/net/) pour la bibliothèque.
+-  Bibliothèque Aspose.Cells : assurez-vous que la bibliothèque Aspose.Cells est installée. Vous pouvez le faire via le gestionnaire de packages NuGet dans Visual Studio. Si vous ne l'avez pas déjà fait, consultez le[lien de téléchargement](https://releases.aspose.com/cells/net/) pour la bibliothèque.
 - Visual Studio : vous aurez besoin d’un environnement de développement intégré (IDE) comme Visual Studio pour écrire et exécuter votre code.
 
 ## Paquets d'importation
@@ -62,7 +62,7 @@ Ensuite, nous allons charger le fichier Excel qui contient le graphique auquel n
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Ici, nous utilisons le`Workbook` classe d'Aspose.Cells pour ouvrir notre fichier Excel. C'est comme déverrouiller la porte pour laisser libre cours à la créativité !
+ Ici, nous utilisons le`Workbook`classe d'Aspose.Cells pour ouvrir notre fichier Excel. C'est comme déverrouiller la porte pour laisser libre cours à la créativité !
 
 ## Étape 3 : Accéder à la feuille de travail
 
@@ -73,7 +73,7 @@ Maintenant que nous avons notre classeur, accédons à la feuille de calcul cont
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Cette étape consiste à se déplacer dans le bâtiment. Vous avez la clé (le classeur), mais vous devez maintenant trouver votre pièce (la feuille de travail).
+Cette étape consiste à naviguer dans le bâtiment. Vous avez la clé (le classeur), mais vous devez maintenant trouver votre pièce (la feuille de travail).
 
 ## Étape 4 : Obtenir le graphique
 
@@ -94,7 +94,7 @@ Vient maintenant la partie intéressante : ajouter l'étiquette au graphique. No
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Ici,`AddLabelInChart` s'occupe de créer une étiquette en fonction des coordonnées et des dimensions que vous spécifiez. C'est comme fixer un beau cadre autour de votre œuvre d'art !
+ Ici,`AddLabelInChart`s'occupe de créer une étiquette en fonction des coordonnées et des dimensions que vous spécifiez. C'est comme fixer un beau cadre autour de votre œuvre d'art !
 
 ## Étape 6 : Définir le texte de l’étiquette
 
@@ -149,7 +149,7 @@ Et voilà ! Vous avez ajouté avec succès un contrôle d'étiquette à un grap
 Oui ! Vous pouvez modifier la police, la couleur, la taille et d'autres propriétés de l'étiquette en fonction de vos besoins.
 
 ### L'utilisation d'Aspose.Cells est-elle gratuite ?
- Aspose.Cells est un produit payant ; cependant, vous pouvez commencer avec un[essai gratuit](https://releases.aspose.com/)pour explorer ses fonctionnalités.
+ Aspose.Cells est un produit payant ; cependant, vous pouvez commencer avec un[essai gratuit](https://releases.aspose.com/) pour explorer ses fonctionnalités.
 
 ### Que faire si je souhaite ajouter plusieurs étiquettes ?
 Vous pouvez répéter les étapes d'ajout d'étiquettes autant de fois que nécessaire, chacune avec des positions et des textes différents.

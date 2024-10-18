@@ -11,14 +11,14 @@ url: /de/net/excel-subtotal-calculation/create-subtotals-in-excel/
 Sind Sie bereit, Ihre Excel-Kenntnisse zu verbessern und Ihre Tabellen dynamischer zu gestalten? Das Erstellen von Zwischensummen in Excel kann Ihnen dabei helfen, Daten effektiv zu kategorisieren und zusammenzufassen, was eine bessere Dateninterpretation und -berichterstattung ermöglicht. Wenn Sie jemand sind, der oft mit Unmengen von Zahlen zu kämpfen hat, ist das Erstellen strukturierter Zusammenfassungen unerlässlich. Heute werden wir uns damit befassen, wie Sie mühelos Zwischensummen mit Aspose.Cells für .NET erstellen können, einer leistungsstarken Bibliothek, die für die Handhabung aller Ihrer Excel-Dateimanipulationen entwickelt wurde.
 ## Voraussetzungen
 Bevor wir uns mit den Einzelheiten der Erstellung von Zwischensummen in Excel befassen, sollten einige Voraussetzungen erfüllt sein:
-1. Aspose.Cells für .NET installiert: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek in Ihrer Entwicklungsumgebung eingerichtet haben. Wenn Sie dies noch nicht getan haben, können Sie dies ganz einfach tun.[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells für .NET installiert: Stellen Sie sicher, dass Sie die Aspose.Cells-Bibliothek in Ihrer Entwicklungsumgebung eingerichtet haben. Wenn Sie dies noch nicht getan haben, können Sie dies ganz einfach tun.[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 2. .NET-Umgebung: Sie sollten über eine funktionierende .NET-Umgebung verfügen, in der wir mit der Bibliothek arbeiten können. Unabhängig davon, ob es sich um Visual Studio oder eine andere IDE handelt, stellen Sie sicher, dass Sie mit der Codierung in C# vertraut sind.
 3. Grundkenntnisse in C#: Kenntnisse in C# sind von Vorteil. Die Beispiele, die wir bereitstellen, sind in C#-Syntax geschrieben. Wenn Sie sich also damit auskennen, wird Ihnen das dabei helfen, den Prozess zu verstehen.
 4.  Excel-Arbeitsblatt: Eine Beispiel-Excel-Datei zum Üben. Wir verwenden eine Datei namens`book1.xls` in unserem Tutorial.
 5.  Zugriff auf Online-Dokumentation und Support: Machen Sie sich mit der[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/) kann unglaublich hilfreich sein, wenn Sie mit der Nutzung der Bibliothek fortschreiten.
 Nachdem wir nun die Grundlagen gelegt haben, stürzen wir uns auf den technischen Teil!
 ## Pakete importieren
-Bevor wir mit dem eigentlichen Code beginnen, müssen wir sicherstellen, dass wir alle erforderlichen Pakete haben. Nachfolgend erfahren Sie, wie Sie den erforderlichen Namespace in Ihr Projekt importieren können:
+Bevor wir mit dem eigentlichen Code beginnen, müssen wir sicherstellen, dass wir alle erforderlichen Pakete haben. Im Folgenden erfahren Sie, wie Sie den erforderlichen Namespace in Ihr Projekt importieren können:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -29,13 +29,13 @@ Zu Beginn müssen wir definieren, wo sich unsere Excel-Datei befindet. Hier teil
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, auf dem Ihr`book1.xls` gespeichert ist. Dadurch wird dem Programm mitgeteilt, wo die zu bearbeitende Excel-Datei zu finden ist.
+ Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad, auf dem Ihr`book1.xls`gespeichert ist. Dadurch wird dem Programm mitgeteilt, wo die zu bearbeitende Excel-Datei zu finden ist.
 ## Schritt 2: Instanziieren einer neuen Arbeitsmappe
 Als Nächstes erstellen wir eine neue Instanz des Workbook-Objekts. Dadurch können wir unsere Excel-Datei öffnen und bearbeiten.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
- Hier erstellen wir ein Objekt von`Workbook` und laden Sie es mit unseren spezifizierten`book1.xls` Datei. Dieses Arbeitsmappenobjekt enthält nun alle Informationen aus der Excel-Datei und ermöglicht es uns, diese zu ändern.
+ Hier erstellen wir ein Objekt von`Workbook` und laden Sie es mit unseren angegebenen`book1.xls` Datei. Dieses Arbeitsmappenobjekt enthält nun alle Informationen aus der Excel-Datei und ermöglicht es uns, diese zu ändern.
 ## Schritt 3: Zugriff auf die Zellensammlung
 Um mit dem Inhalt des Excel-Arbeitsblatts zu arbeiten, müssen wir auf die Sammlung „Zellen“ zugreifen.
 ```csharp
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // 19. Jahrhundert
 ca.EndColumn = 2;
 ```
- Hier definieren wir eine`CellArea` das gibt den Bereich an, der uns interessiert. In diesem Fall haben wir den Bereich von B3 (Zeile 2, Spalte 1) bis C19 (Zeile 18, Spalte 2) gewählt. Hier berechnen wir unsere Zwischensummen.
+ Hier definieren wir eine`CellArea`das gibt den Bereich an, der uns interessiert. In diesem Fall haben wir den Bereich von B3 (Zeile 2, Spalte 1) bis C19 (Zeile 18, Spalte 2) gewählt. Hier berechnen wir unsere Zwischensummen.
 ## Schritt 5: Zwischensummen anwenden
 Dies ist der Kern unserer Operation – das Anwenden des Zwischenergebnisses auf den definierten Zellbereich.
 ```csharp
@@ -59,8 +59,8 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 ```
  In dieser Zeile nennen wir die`Subtotal` Methode. Die definierten Parameter sind:
 - `ca`: Der Zellbereich, den wir zuvor definiert haben.
-- `0`: Dieser Index verweist auf die Spalte, die die Werte enthält, deren Zwischensumme berechnet werden soll. 
-- `ConsolidationFunction.Sum`Dies gibt an, dass wir die Werte summieren möchten.
+- `0`: Dieser Index verweist auf die Spalte, die die zu subtrahierenden Werte enthält. 
+- `ConsolidationFunction.Sum`: Dies gibt an, dass wir die Werte summieren möchten.
 - `new int[] { 1 }`: Dies zeigt an, dass wir die Werte aus der zweiten Spalte (Spalte C) summieren.
 ## Schritt 6: Speichern Sie die geänderte Excel-Datei
 Schließlich müssen wir unsere Änderungen in einer neuen Excel-Datei speichern. 

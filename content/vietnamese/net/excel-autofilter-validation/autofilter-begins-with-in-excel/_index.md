@@ -62,16 +62,16 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 
  Giải thích: Dòng này khởi tạo một phiên bản Workbook mới bằng cách sử dụng đường dẫn tệp được chỉ định.`Workbook` lớp này rất cơ bản vì nó đại diện cho toàn bộ tệp Excel.
 
-## Bước 3: Truy cập vào trang tính đầu tiên
+## Bước 3: Truy cập trang tính đầu tiên
 
 Bây giờ, chúng ta cần truy cập vào bảng tính cụ thể mà chúng ta muốn làm việc:
 
 ```csharp
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Giải thích:`Worksheets` bộ sưu tập cho phép chúng ta truy cập vào từng trang tính. Sử dụng`[0]` tham chiếu đến bảng tính đầu tiên trong tệp Excel của bạn, đây thường là thông lệ phổ biến khi làm việc với tệp một trang tính.
+Giải thích:`Worksheets` bộ sưu tập cho phép chúng ta truy cập vào từng trang tính. Sử dụng`[0]` tham chiếu đến bảng tính đầu tiên trong tệp Excel của bạn, đây thường là thông lệ phổ biến khi làm việc với tệp chỉ có một trang tính.
 
 ## Bước 4: Thiết lập Bộ lọc tự động
 
@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Giải thích:`AutoFilter.Range` thuộc tính cho phép bạn chỉ định những hàng nào cần lọc. Trong trường hợp này, chúng tôi đang lọc các hàng trong phạm vi A1 đến A18, được cho là chứa dữ liệu của chúng tôi.
+Giải thích:`AutoFilter.Range` thuộc tính cho phép bạn chỉ định những hàng nào cần lọc. Trong trường hợp này, chúng tôi đang lọc các hàng trong phạm vi A1 đến A18, được cho là chứa dữ liệu của chúng tôi.
 
 ## Bước 5: Áp dụng điều kiện lọc
 
@@ -93,7 +93,7 @@ Bước tiếp theo là xác định điều kiện lọc. Chúng tôi muốn ch
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Giải thích:`Custom` phương pháp xác định logic lọc của chúng tôi. Đối số đầu tiên (`0` ) cho biết chúng tôi đang lọc dựa trên cột đầu tiên (A) và`FilterOperatorType.BeginsWith`chỉ rõ điều kiện của chúng tôi là tìm kiếm các hàng bắt đầu bằng "Ba".
+Giải thích:`Custom` phương pháp xác định logic lọc của chúng tôi. Đối số đầu tiên (`0` ) cho biết chúng tôi đang lọc dựa trên cột đầu tiên (A) và`FilterOperatorType.BeginsWith`chỉ rõ điều kiện của chúng tôi là tìm kiếm các hàng bắt đầu bằng "Ba".
 
 ## Bước 6: Làm mới bộ lọc
 
@@ -115,7 +115,7 @@ Bây giờ là lúc lưu những thay đổi chúng ta đã thực hiện:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Giải thích:`Save` phương pháp ghi lại Sổ làm việc đã sửa đổi vào đường dẫn đầu ra đã chỉ định. Điều này nằm trong việc ghi các bộ lọc đã xác định của bạn vào một tệp mới để dữ liệu gốc của bạn vẫn còn nguyên vẹn.
+Giải thích:`Save` phương pháp ghi lại Sổ làm việc đã sửa đổi vào đường dẫn đầu ra đã chỉ định. Điều này nằm trong việc ghi các bộ lọc đã xác định của bạn vào một tệp mới để dữ liệu gốc của bạn vẫn còn nguyên vẹn.
 
 ## Bước 8: Xác nhận đầu ra
 
@@ -140,7 +140,7 @@ Tính năng Lọc tự động cho phép người dùng nhanh chóng sắp xếp
 Có, Aspose.Cells hỗ trợ các tùy chọn lọc nâng cao cho phép bạn đặt nhiều tiêu chí.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?  
-Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng cần phải có giấy phép để sử dụng đầy đủ chức năng và xóa bỏ mọi hạn chế dùng thử.
+Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng bạn vẫn cần phải có giấy phép để sử dụng đầy đủ chức năng và xóa bỏ mọi hạn chế dùng thử.
 
 ### Tôi có thể thực hiện những loại lọc nào khi sử dụng Aspose.Cells?  
 Bạn có thể lọc dữ liệu theo giá trị, điều kiện (như bắt đầu bằng hoặc kết thúc bằng) và lọc tùy chỉnh để đáp ứng các yêu cầu cụ thể của bạn.

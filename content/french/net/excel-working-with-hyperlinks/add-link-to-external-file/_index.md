@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Étape 2 : Créer un objet classeur
 Ensuite, nous allons créer un nouveau classeur Excel. Il s'agit de votre toile vierge sur laquelle vous pouvez commencer à ajouter des fonctionnalités.
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
  Pensez à la`Workbook` comme un nouveau carnet où tu peux écrire tout ce dont tu as besoin. Il est vide pour le moment, prêt à recevoir tes commentaires !
@@ -68,7 +68,7 @@ workbook.Save(outputDir + "SomeExcelFile.xlsx");
 ```
 Ici, vous créez un deuxième classeur qui servira de cible à votre lien hypertexte. Sans cette étape, cliquer sur le lien ne mènerait à rien, comme verrouiller une porte sans clé !
 ## Étape 7 : Message de confirmation
-Enfin, imprimons un message de confirmation une fois que tout est fait avec succès.
+Enfin, imprimons un message de confirmation une fois que tout est effectué avec succès.
 ```csharp
 Console.WriteLine("AddingLinkToExternalFile executed successfully.");
 ```

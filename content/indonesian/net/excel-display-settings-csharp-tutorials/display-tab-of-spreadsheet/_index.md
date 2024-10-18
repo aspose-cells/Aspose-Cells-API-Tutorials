@@ -18,7 +18,7 @@ Sebelum kita masuk ke kode yang sebenarnya, mari kita pastikan Anda telah menyia
 1.  Aspose.Cells untuk Pustaka .NET – Pastikan Anda telah menginstalnya. Anda dapat[unduh perpustakaan di sini](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Pastikan Anda menjalankan versi .NET Framework yang kompatibel. Aspose.Cells for .NET mendukung versi .NET Framework mulai dari 2.0.
 3. Lingkungan Pengembangan – Visual Studio atau IDE C# lainnya sangat cocok untuk tugas ini.
-4. Pengetahuan Dasar C# – Anda tidak perlu menjadi seorang ahli, tetapi memahami sintaksis dasar akan membantu.
+4. Pengetahuan Dasar C# – Anda tidak perlu menjadi ahli, tetapi memahami sintaksis dasar akan membantu.
 
 Setelah Anda menyiapkan prasyarat ini, Anda akan siap mengikuti tutorial ini dengan lancar.
 
@@ -61,7 +61,7 @@ Di Excel, tab di bagian bawah (Sheet1, Sheet2, dst.) dapat disembunyikan atau di
 workbook.Settings.ShowTabs = true;
 ```
 
- Pengaturan`ShowTabs` ke`true`akan memastikan bahwa tab terlihat saat Anda membuka file Excel.
+ Pengaturan`ShowTabs` ke`true` akan memastikan bahwa tab terlihat saat Anda membuka file Excel.
 
 ## Langkah 4: Simpan File Excel yang Dimodifikasi
 
@@ -80,7 +80,7 @@ Nah, itu dia! Anda telah berhasil menampilkan tab dalam lembar kerja Excel mengg
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyembunyikan tab di Excel menggunakan Aspose.Cells untuk .NET?
- Tentu saja! Cukup atur`workbook.Settings.ShowTabs = false;`dan simpan berkasnya. Ini akan menyembunyikan tab saat buku kerja dibuka.
+ Tentu saja! Cukup atur`workbook.Settings.ShowTabs = false;` dan simpan berkasnya. Ini akan menyembunyikan tab saat buku kerja dibuka.
 
 ### Apakah Aspose.Cells mendukung fitur Excel lainnya seperti bagan dan tabel pivot?
 Ya, Aspose.Cells adalah pustaka komprehensif yang mendukung hampir semua fitur Excel, termasuk bagan, tabel pivot, rumus, dan banyak lagi.

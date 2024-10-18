@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Jetzt erstellen Sie eine Instanz der Workbook-Klasse, die eine Excel-Datei darstellt.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Als Nächstes müssen Sie auf das Arbeitsblatt zugreifen, für das Sie die Ausrichtung festlegen möchten. Da jede Arbeitsmappe mehrere Arbeitsblätter enthalten kann, sollten Sie explizit angeben, mit welchem Sie arbeiten.
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -89,7 +89,7 @@ Diese Codezeile speichert Ihre Datei im angegebenen Verzeichnis, so als ob Sie d
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben die Seitenausrichtung einer Excel-Datei erfolgreich mit Aspose.Cells für .NET konfiguriert. Es ist wie das Erlernen einer neuen Sprache; sobald Sie die Grundlagen verstanden haben, können Sie Ihre Fähigkeiten erweitern und echte Magie erschaffen. Bei den sich wiederholenden Aufgaben, die sich früher in die Länge zogen, werden Sie feststellen, dass Ihnen das Programmieren mit Aspose viel Zeit und Mühe erspart.
+Und da haben Sie es! Sie haben die Seitenausrichtung einer Excel-Datei erfolgreich mit Aspose.Cells für .NET konfiguriert. Es ist wie das Erlernen einer neuen Sprache; sobald Sie die Grundlagen verstanden haben, können Sie Ihre Fähigkeiten erweitern und echte Magie erzeugen. Bei den sich wiederholenden Aufgaben, die sich früher in die Länge zogen, werden Sie feststellen, dass Ihnen das Programmieren mit Aspose viel Zeit und Mühe erspart.
 
 ## Häufig gestellte Fragen
 

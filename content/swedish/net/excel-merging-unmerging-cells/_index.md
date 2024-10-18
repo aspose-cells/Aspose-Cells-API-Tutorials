@@ -15,7 +15,7 @@ Låt oss börja med grunderna för att slå samman och ta bort celler i Excel. I
 
 Nu kanske du undrar hur Aspose.Cells förenklar denna process. Aspose.Cells för .NET är ett kraftfullt API som låter utvecklare interagera med Excel-filer sömlöst. Föreställ dig att ha en schweizisk armékniv för Excel-operationer; det är i huvudsak vad det här verktyget är. Det låter dig slå samman eller ta bort celler med bara några rader kod! Dessutom kan du manipulera en arbetsbok programmatiskt – som en maestro som dirigerar en orkester med data. 
 
- I vår handledning om[ta bort sammanslagna celler i Excel](./unmerge-merged-cells/), bryter vi ner processen i smältbara steg. Vi visar hur man identifierar sammanslagna celler med Aspose.Cells, och vi leder dig genom koden som krävs för att ta bort dem. Detta är oerhört användbart när du behöver utföra storskaliga datajusteringar eller när du bara rensar upp i ditt kalkylblad. 
+ I vår handledning om[ta bort sammanslagna celler i Excel](./unmerge-merged-cells/), bryter vi ner processen i smältbara steg. Vi visar hur man identifierar sammanslagna celler med Aspose.Cells, och vi leder dig genom koden som krävs för att ta bort dem. Detta är otroligt användbart när du behöver utföra storskaliga datajusteringar eller när du helt enkelt rensar upp i ditt kalkylblad. 
 
 ## Sammanfoga och ta bort celler i självstudier för Excel
 ### [Ta bort sammanslagna celler i Excel](./unmerge-merged-cells/)

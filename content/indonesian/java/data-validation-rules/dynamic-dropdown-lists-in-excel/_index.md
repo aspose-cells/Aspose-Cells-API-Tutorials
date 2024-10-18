@@ -10,7 +10,7 @@ url: /id/java/data-validation-rules/dynamic-dropdown-lists-in-excel/
 
 ## Pengenalan Daftar Dropdown Dinamis di Excel
 
-Microsoft Excel adalah alat serbaguna yang melampaui sekadar entri data dan kalkulasi sederhana. Salah satu fitur hebatnya adalah kemampuan untuk membuat daftar dropdown dinamis, yang dapat sangat meningkatkan kegunaan dan interaktivitas spreadsheet Anda. Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara membuat daftar dropdown dinamis di Excel menggunakan Aspose.Cells untuk Java. API ini menyediakan fungsionalitas yang tangguh untuk bekerja dengan file Excel secara terprogram, menjadikannya pilihan yang sangat baik untuk mengotomatiskan tugas-tugas seperti ini.
+Microsoft Excel adalah alat serbaguna yang tidak hanya sekadar entri data dan kalkulasi sederhana. Salah satu fitur hebatnya adalah kemampuan untuk membuat daftar dropdown dinamis, yang dapat sangat meningkatkan kegunaan dan interaktivitas spreadsheet Anda. Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara membuat daftar dropdown dinamis di Excel menggunakan Aspose.Cells untuk Java. API ini menyediakan fungsionalitas yang tangguh untuk bekerja dengan file Excel secara terprogram, menjadikannya pilihan yang sangat baik untuk mengotomatiskan tugas-tugas seperti ini.
 
 ## Prasyarat
 
@@ -100,7 +100,7 @@ Ya, Anda dapat membuat daftar dropdown bertingkat di Excel menggunakan Aspose.Ce
 
 ### Bisakah saya melindungi lembar kerja dengan daftar dropdown dinamis?
 
-Ya, Anda dapat melindungi lembar kerja sambil tetap memperbolehkan pengguna berinteraksi dengan daftar dropdown dinamis. Gunakan fitur perlindungan lembar Excel untuk mengontrol sel mana yang dapat diedit dan mana yang dilindungi.
+Ya, Anda dapat melindungi lembar kerja sambil tetap mengizinkan pengguna berinteraksi dengan daftar dropdown dinamis. Gunakan fitur perlindungan lembar Excel untuk mengontrol sel mana yang dapat diedit dan mana yang dilindungi.
 
 ### Apakah ada batasan jumlah item pada daftar dropdown?
 

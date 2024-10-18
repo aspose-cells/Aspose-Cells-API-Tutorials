@@ -17,7 +17,7 @@ Antes de sumergirse, es esencial tener algunas cosas resueltas para garantizar u
 
 1. Visual Studio: asegúrate de tener Visual Studio instalado en tu equipo. Aquí es donde escribirás el código.
 2.  Aspose.Cells para .NET: Necesita tener la biblioteca Aspose.Cells para .NET. Puede[Descárgalo aquí](https://releases.aspose.com/cells/net/) Si aún no lo has hecho.
-3. Conocimientos básicos de C#: estar familiarizado con el lenguaje de programación C# es muy beneficioso ya que este tutorial está escrito en C#.
+3. Conocimientos básicos de C#: la familiaridad con el lenguaje de programación C# es muy beneficiosa ya que este tutorial está escrito en C#.
 4. Un espacio de trabajo: Ten listo un entorno de codificación y un directorio para guardar tus documentos, ¡porque lo necesitarás!
 
 ## Importar paquetes
@@ -30,7 +30,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Ahora, analicemos el proceso de ajuste de la orientación de la página en Excel. Será una aventura práctica, paso a paso, así que ¡abróchese el cinturón!
+Ahora, analicemos el proceso de ajuste de la orientación de la página en Excel. Será una aventura práctica, paso a paso, ¡así que abróchese el cinturón!
 
 ## Paso 1: Defina su directorio de documentos
 
@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Ahora, creará una instancia de la clase Workbook, que representa un archivo Excel.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 A continuación, deberá acceder a la hoja de cálculo en la que desea establecer la orientación. Dado que cada libro de trabajo puede tener varias hojas de cálculo, debe indicar explícitamente con cuál está trabajando.
 
 ```csharp
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -10,7 +10,7 @@ url: /de/java/basic-excel-functions/excel-vlookup-tutorial/
 
 ## Einführung
 
-In diesem umfassenden Tutorial tauchen wir mithilfe der leistungsstarken Aspose.Cells für Java-API in die Welt von Excel SVERWEIS ein. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, dieser Leitfaden führt Sie durch die Schritte, um das Potenzial von Aspose.Cells für Java zu nutzen und mühelos SVERWEIS-Operationen durchzuführen.
+In diesem umfassenden Tutorial tauchen wir mithilfe der leistungsstarken Aspose.Cells für Java-API in die Welt von Excel SVERWEIS ein. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, dieser Leitfaden führt Sie Schritt für Schritt durch die Nutzung des Potenzials von Aspose.Cells für Java, um mühelos SVERWEIS-Operationen durchzuführen.
 
 ## Voraussetzungen
 
@@ -77,7 +77,7 @@ if (cell != null) {
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie SVERWEIS-Operationen mit Aspose.Cells für Java durchführen. Diese leistungsstarke API vereinfacht komplexe Excel-Aufgaben und macht Ihre Entwicklungsarbeit reibungsloser.
+Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie SVERWEIS-Operationen mit Aspose.Cells für Java durchführen. Diese leistungsstarke API vereinfacht komplexe Excel-Aufgaben und macht Ihren Entwicklungsweg reibungsloser.
 
 Entdecken Sie jetzt die endlosen Möglichkeiten von Aspose.Cells für Java in Ihren Excel-Projekten!
 

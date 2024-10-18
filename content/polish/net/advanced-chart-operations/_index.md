@@ -40,7 +40,7 @@ Dostosowanie kształtu etykiet danych może sprawić, że wykresy będą bardzie
 
  Organizowanie i wyświetlanie danych kategorii wykresu w sposób efektywny może być trudne. Aspose.Cells dla .NET oferuje bezproblemowe rozwiązania do ustawiania danych kategorii i danych wykresu, zapewniając, że wizualizacje są zarówno dokładne, jak i atrakcyjne. Jest to szczególnie przydatne podczas obsługi dużych zestawów danych lub tworzenia dynamicznych wykresów, które aktualizują się na podstawie danych wprowadzanych przez użytkownika. Zapoznaj się z tymi samouczkami, aby opanować ustawianie[kategoria danych](./setting-category-data/) I[dane wykresu](./setting-chart-data/) w plikach Excel.
 
-## Ustaw wartości Format Kodu Serii Wykresów
+## Ustaw kod formatu wartości serii wykresów
 
 Czasami musisz dostosować sposób formatowania liczb w serii wykresów, aby uzyskać lepszą przejrzystość. Aspose.Cells dla .NET umożliwia ustawienie kodów formatu wartości, aby pasowały do preferowanego formatu wyświetlania. Niezależnie od tego, czy chodzi o walutę, procent, czy niestandardowe formatowanie liczb, ta funkcja daje Ci pełną kontrolę nad sposobem prezentacji danych.[Dowiedz się jak](./set-values-format-code-of-chart-series/) aby łatwo ustawić kody formatów.
 
@@ -63,7 +63,7 @@ Ulepsz swoje wykresy Excela za pomocą niestandardowych kształtów etykiet dany
 Dowiedz się, jak ustawić dane kategorii na wykresach Excela za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby ułatwić implementację.
 ### [Ustawianie danych wykresu](./setting-chart-data/)
 Dowiedz się, jak ustawiać dane wykresu za pomocą Aspose.Cells dla .NET, korzystając ze szczegółowego przewodnika krok po kroku, który doskonale nadaje się do ulepszania wizualizacji danych.
-### [Ustaw wartości Format Kodu Serii Wykresów](./set-values-format-code-of-chart-series/)
+### [Ustaw kod formatu wartości serii wykresów](./set-values-format-code-of-chart-series/)
 Dowiedz się, jak ustawić kod formatu wartości serii wykresów w Aspose.Cells dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne dla początkujących.
 ### [Korzystanie z wykresów Sparkline](./using-sparklines/)
 Dowiedz się, jak skutecznie używać wykresów sparkline w programie Excel z Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku dla płynnego działania.

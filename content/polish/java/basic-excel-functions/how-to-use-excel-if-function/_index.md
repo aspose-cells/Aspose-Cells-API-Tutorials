@@ -10,7 +10,7 @@ url: /pl/java/basic-excel-functions/how-to-use-excel-if-function/
 
 ## Wstęp
 
-W świecie manipulacji danymi funkcja IF programu Excel jest potężnym narzędziem, które umożliwia wykonywanie operacji warunkowych. Jeśli pracujesz z Aspose.Cells for Java, możesz wykorzystać możliwości funkcji IF, aby uczynić swoje aplikacje arkuszy kalkulacyjnych inteligentniejszymi i bardziej dynamicznymi. W tym przewodniku krok po kroku zbadamy, jak używać funkcji IF programu Excel przy użyciu Aspose.Cells for Java. Zanurzymy się w kodzie i przykładach, aby pomóc Ci zrozumieć jego implementację.
+W świecie manipulacji danymi funkcja IF programu Excel jest potężnym narzędziem, które umożliwia wykonywanie operacji warunkowych. Jeśli pracujesz z Aspose.Cells for Java, możesz wykorzystać możliwości funkcji IF, aby uczynić swoje aplikacje arkuszy kalkulacyjnych inteligentniejszymi i bardziej dynamicznymi. W tym przewodniku krok po kroku zbadamy, jak używać funkcji IF programu Excel przy użyciu Aspose.Cells for Java. Zanurzymy się w kodzie i przykładach, aby pomóc Ci zrozumieć jej implementację.
 
 ## Wymagania wstępne
 
@@ -101,4 +101,4 @@ Oczywiście! Możesz zastosować funkcję IF programu Excel do zakresu komórek,
 
 ### Czy Aspose.Cells for Java nadaje się do zastosowań korporacyjnych?
 
-Tak, Aspose.Cells for Java to solidna biblioteka odpowiednia zarówno dla aplikacji na małą skalę, jak i dla przedsiębiorstw. Zapewnia rozbudowane funkcje do pracy z plikami Excel, co czyni ją cennym narzędziem w różnych scenariuszach biznesowych.
+Tak, Aspose.Cells for Java to solidna biblioteka odpowiednia zarówno do aplikacji na małą skalę, jak i na poziomie przedsiębiorstwa. Zapewnia rozbudowane funkcje do pracy z plikami Excel, co czyni ją cennym narzędziem w różnych scenariuszach biznesowych.

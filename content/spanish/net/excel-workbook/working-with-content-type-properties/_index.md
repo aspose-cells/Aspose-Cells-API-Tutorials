@@ -9,7 +9,7 @@ url: /es/net/excel-workbook/working-with-content-type-properties/
 ---
 ## Introducción
 
-Si se está adentrando en el mundo de la manipulación de archivos de Excel con Aspose.Cells para .NET, es posible que desee explorar las propiedades de tipo de contenido. Estas propiedades le permiten definir metadatos personalizados para sus libros de trabajo, lo que puede resultar extremadamente útil al trabajar con varios tipos y formatos de archivos. Ya sea que esté creando aplicaciones que requieran una gestión de datos detallada o simplemente buscando agregar información adicional a sus archivos de Excel, comprender las propiedades de tipo de contenido es una habilidad vital.
+Si se está adentrando en el mundo de la manipulación de archivos de Excel con Aspose.Cells para .NET, es posible que desee explorar las propiedades de tipo de contenido. Estas propiedades le permiten definir metadatos personalizados para sus libros de trabajo, lo que puede resultar extremadamente útil al trabajar con varios tipos y formatos de archivos. Ya sea que esté creando aplicaciones que requieran una gestión de datos detallada o simplemente esté buscando agregar información adicional a sus archivos de Excel, comprender las propiedades de tipo de contenido es una habilidad vital.
 
 ## Prerrequisitos
 
@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Paso 2: Crear un nuevo libro de trabajo
 
- Ahora que tenemos nuestro directorio de salida, creemos un nuevo libro de trabajo.`Workbook` La clase es el punto de partida para trabajar con archivos de Excel.
+ Ahora que tenemos nuestro directorio de salida, vamos a crear un nuevo libro de trabajo.`Workbook` La clase es el punto de partida para trabajar con archivos de Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);

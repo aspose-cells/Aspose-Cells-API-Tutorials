@@ -2,7 +2,7 @@
 title: 사용자가 Excel 워크시트에서 범위를 편집하도록 허용
 linktitle: 사용자가 Excel 워크시트에서 범위를 편집하도록 허용
 second_title: .NET API 참조를 위한 Aspose.Cells
-description: Aspose.Cells for .NET을 사용하여 사용자가 Excel 스프레드시트에서 특정 범위를 편집할 수 있도록 합니다. C# 소스 코드가 포함된 단계별 가이드.
+description: Aspose.Cells for .NET을 사용하여 사용자가 Excel 스프레드시트에서 특정 범위를 편집할 수 있도록 합니다. C# 소스 코드가 포함된 단계별 가이드입니다.
 type: docs
 weight: 10
 url: /ko/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
@@ -41,7 +41,7 @@ using Aspose.Cells;
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// 디렉토리가 없으면 새로 만듭니다.
+//디렉토리가 없으면 디렉토리를 생성합니다.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -51,7 +51,7 @@ if (!IsExists)
 
 ## 2단계: 새 통합 문서 인스턴스화
 
-작업 디렉토리가 준비되었으니 이제 Excel 통합 문서를 만들 차례입니다. 
+작업 디렉토리가 준비되었으니, 이제 Excel 통합 문서를 만들 차례입니다. 
 
 ```csharp
 // 새 통합 문서 인스턴스화
@@ -62,14 +62,14 @@ Workbook book = new Workbook();
 
 ## 3단계: 기본 워크시트에 액세스
 
-새로 만든 모든 워크북에는 최소한 하나의 워크시트가 들어 있습니다. 그걸 액세스해 봅시다.
+새로 만든 모든 워크북에는 최소한 하나의 워크시트가 들어 있습니다. 그걸 살펴보죠.
 
 ```csharp
 // 첫 번째(기본) 워크시트 가져오기
 Worksheet sheet = book.Worksheets[0];
 ```
 
-이 코드 조각에서는 통합 문서의 첫 번째 워크시트에 액세스합니다. 이후 단계에서 이를 조작하게 됩니다.
+이 코드 조각에서는 통합 문서의 첫 번째 워크시트에 액세스합니다. 이 워크시트는 이후 단계에서 조작하게 됩니다.
 
 ## 4단계: 편집 허용 범위 가져오기
 
@@ -116,7 +116,7 @@ sheet.Protect(ProtectionType.All);
 통합 문서를 저장하여 변경 사항이 Excel 파일에 반영된 것을 확인해 보겠습니다.
 
 ```csharp
-// Excel 파일을 저장합니다
+// Excel 파일을 저장하세요
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
@@ -124,7 +124,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## 결론
 
-이제 알겠습니다! 지정된 범위로만 편집을 제한하고 나머지 시트는 보호하는 Excel 워크시트를 성공적으로 만들었습니다. Aspose.Cells for .NET을 사용하면 이런 종류의 작업을 훨씬 더 간단하고 효율적으로 관리할 수 있습니다. 복잡한 애플리케이션을 개발하든 데이터를 안전하게 관리해야 하든, 이러한 기능은 워크플로를 크게 향상시킬 수 있습니다.
+이제 알겠습니다! 나머지 시트를 보호하면서 지정된 범위로 편집을 제한하는 Excel 워크시트를 성공적으로 만들었습니다. Aspose.Cells for .NET을 사용하면 이러한 종류의 작업을 훨씬 더 간단하고 효율적으로 관리할 수 있습니다. 복잡한 애플리케이션을 개발하든 데이터를 안전하게 관리해야 하든 이러한 기능은 워크플로를 크게 향상시킬 수 있습니다.
 
 ## 자주 묻는 질문
 

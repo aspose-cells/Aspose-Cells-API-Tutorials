@@ -82,7 +82,7 @@ Range range = worksheet.Cells.CreateRange("B4", "G14");
 
 ## 步骤 5：设置命名范围的名称
 
-定义好范围后，我们可以为其指定一个名称。这样您以后就可以在公式和函数中引用此范围了。
+定义好范围后，我们可以给它指定一个名称。这样以后在公式和函数中就可以引用这个范围了。
 
 ```csharp
 //设置命名范围的名称
@@ -117,7 +117,7 @@ workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 
 ## 步骤 8：验证操作是否成功
 
-最后，确认您的任务已成功执行始终是很好的做法。您可以通过一条简单的消息来做到这一点。
+最后，确认您的任务已成功执行始终是一个好习惯。您可以通过一条简单的消息来做到这一点。
 
 ```csharp
 Console.WriteLine("CreateNamedRangeofCells executed successfully.");
@@ -138,7 +138,7 @@ Console.WriteLine("CreateNamedRangeofCells executed successfully.");
 是的，您可以在同一工作表或整个工作簿中创建任意数量的命名范围。
 
 ### 我需要购买 Aspose.Cells 才能使用它吗？
-Aspose.Cells 提供免费试用，让您探索其功能。但是，若要长期使用，则需要购买许可证。
+Aspose.Cells 提供免费试用，供您探索其功能。但是，若要长期使用，则需要购买许可证。
 
 ### Aspose.Cells 支持哪些编程语言?
 Aspose.Cells 主要支持 .NET 语言，如 C#、VB.NET 等。

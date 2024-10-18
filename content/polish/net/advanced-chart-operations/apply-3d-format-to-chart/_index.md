@@ -119,7 +119,7 @@ chart.ChartArea.Area.ForegroundColor = Color.White;
 chart.ShowLegend = false;
 ```
 
-Czyste, białe tło często sprawia, że kolory danych wyróżniają się, zwiększając ich widoczność.
+Czyste, białe tło często uwydatnia kolory danych, zwiększając ich widoczność.
 
 ## Krok 7: Dodaj serię danych do wykresu
 
@@ -142,7 +142,7 @@ ShapePropertyCollection spPr = ser.ShapeProperties;
 Format3D fmt3d = spPr.Format3D;
 ```
 
-Przygotowujemy się do dodania naszemu daniu odrobiny finezji – pomyśl o tym jak o przyprawie, która podkreśla ogólny smak.
+Przygotowujemy się do dodania naszemu daniu odrobiny smaku – pomyśl o tym jak o przyprawie, która podkreśla ogólny smak.
 
 ## Krok 9: Zastosuj efekty fazowania 3D
 
@@ -194,7 +194,7 @@ Zapisywanie swojej pracy jest jak wystawianie jej w galerii; to chwila, którą 
 
 ## Wniosek
 
-Gratulacje! Udało Ci się stworzyć atrakcyjny wizualnie wykres 3D przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tymi krokami, masz teraz potężne narzędzie do ulepszania prezentacji danych, dzięki czemu będą nie tylko informacyjne, ale także wizualnie wciągające. Podczas udoskonalania wykresów pamiętaj, że każda wizualizacja to historia — spraw, aby była angażująca, przejrzysta i wywierała wpływ!
+Gratulacje! Udało Ci się stworzyć atrakcyjny wizualnie wykres 3D przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tymi krokami, masz teraz potężne narzędzie do ulepszania prezentacji danych, dzięki czemu będą one nie tylko informacyjne, ale także wizualnie wciągające. Podczas udoskonalania wykresów pamiętaj, że każda wizualizacja to historia — spraw, aby była angażująca, przejrzysta i wywierała wpływ!
 
 ## Najczęściej zadawane pytania
 
@@ -211,4 +211,4 @@ Tak! Aspose.Cells obsługuje różne typy wykresów, takie jak kolumnowy, liniow
 Tak, możesz stosować różne efekty, takie jak cienie, gradienty i różne style, aby wzbogacić swoje wykresy o elementy wykraczające poza 3D.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania pomocy i wsparcia społecznego.
+ Aby uzyskać pomoc, możesz odwiedzić stronę[Forum Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania pomocy i wsparcia ze strony społeczności.

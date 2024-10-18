@@ -15,7 +15,7 @@ Membuat bagan yang menarik secara visual dan informatif sangat penting untuk pen
 
 Sebelum kita masuk ke tutorial, pastikan Anda sudah menyiapkan semuanya:
 
--  Aspose.Cells untuk .NET: Pastikan Anda telah mengunduh dan merujuk pustaka Aspose.Cells ke dalam proyek Anda. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/cells/net/).
+- Aspose.Cells untuk .NET: Pastikan Anda telah mengunduh dan merujuk pustaka Aspose.Cells ke dalam proyek Anda. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/cells/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan .NET apa pun dapat digunakan, tetapi Visual Studio sangat direkomendasikan karena dukungan dan alatnya yang tangguh.
 - Pemahaman Dasar C#: Kemampuan memahami dasar-dasar pemrograman C# akan sangat membantu saat kita menulis beberapa kode.
 
@@ -141,7 +141,7 @@ Akhirnya, tibalah waktunya untuk menyelamatkan karya agung kita!
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-Baris ini akan menyimpan pekerjaan Anda sebagai file Excel di direktori yang ditentukan. Anggap saja seperti mengklik "simpan" pada karya seni Anda, memastikan karya seni tersebut dapat dikagumi orang lain (atau Anda dapat melihatnya kembali!).
+Baris ini akan menyimpan pekerjaan Anda sebagai file Excel di direktori yang ditentukan. Anggap saja seperti mengklik "simpan" pada karya seni Anda, memastikan karya seni tersebut ada untuk dikagumi orang lain (atau untuk Anda lihat kembali!).
 
 ## Kesimpulan
 

@@ -33,10 +33,10 @@ Install-Package Aspose.Cells
 
 - [Mua giấy phép](https://purchase.aspose.com/buy) hoặc[Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
-Sử dụng thư viện mà không có giấy phép sẽ áp dụng hình mờ vào tệp đầu ra của bạn, vì vậy hãy đảm bảo bạn đã có giấy phép!
+Sử dụng thư viện mà không có giấy phép sẽ áp dụng hình mờ vào tệp đầu ra của bạn, vì vậy hãy đảm bảo bạn đã chuẩn bị sẵn giấy phép!
 
 ### Thiết lập môi trường phát triển của bạn
-Đảm bảo bạn đã cài đặt những thứ sau:
+Đảm bảo bạn đã cài đặt những mục sau:
 - Visual Studio (hoặc bất kỳ IDE nào tương thích với .NET)
 - .NET Framework hoặc .NET Core
 
@@ -52,7 +52,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Bây giờ chúng ta đã hoàn tất công việc dọn dẹp, hãy cùng bắt tay vào công việc thực sự—sao chép bảng tính vào sổ làm việc Excel.
+Bây giờ chúng ta đã hoàn tất công việc quản lý, hãy cùng bắt tay vào công việc thực sự—sao chép bảng tính vào sổ làm việc Excel.
 
 ## Bước 1: Xác định đường dẫn thư mục của bạn
 Điều đầu tiên bạn cần là chỉ định thư mục chứa các tệp Excel của bạn. Đây là chìa khóa để tải tệp vào dự án của bạn và lưu sổ làm việc đã sửa đổi.
@@ -83,7 +83,7 @@ Mỗi sổ làm việc có nhiều trang tính (hãy nghĩ đến chúng như c�
 WorksheetCollection sheets = wb.Worksheets;
 ```
 
-- `WorksheetCollection` về cơ bản là danh sách tất cả các trang tính trong sổ làm việc. Đây là những gì chúng ta sẽ làm việc để sao chép trang tính của mình.
+- `WorksheetCollection` về cơ bản là danh sách tất cả các trang tính trong sổ làm việc. Đây là những gì chúng ta sẽ sử dụng để sao chép trang tính của mình.
 
 ## Bước 4: Sao chép một bảng tính hiện có
 Bây giờ đến phần thú vị—sao chép bảng tính! Ở đây, chúng ta sẽ sao chép nội dung của "Sheet1" vào một trang tính mới.

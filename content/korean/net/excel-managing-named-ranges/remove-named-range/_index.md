@@ -59,7 +59,7 @@ string outputDir = "Your Document Directory Here\\";
 새로운 슬레이트로 어떻게 시작할까요? 물론, 새로운 워크북을 만드는 것입니다! 이 워크북은 우리의 빈 캔버스 역할을 할 것입니다.
 
 ```csharp
-// 새로운 통합 문서를 인스턴스화합니다.
+// 새 통합 문서를 인스턴스화합니다.
 Workbook workbook = new Workbook();
 ```
 
@@ -99,7 +99,7 @@ Range range1 = worksheet.Cells.CreateRange("E12", "I12");
 range1.Name = "FirstRange";
 ```
 
-여기서 우리는 셀 E12에서 I12까지의 범위를 정의하고 이를 "FirstRange"라고 명명합니다.
+여기서는 셀 E12에서 I12까지의 범위를 정의하고 "FirstRange"라고 이름을 지정합니다.
 
 ## 6단계: 명명된 범위 서식 지정
 

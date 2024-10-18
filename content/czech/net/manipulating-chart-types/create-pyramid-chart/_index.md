@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Dále vytvoříme novou instanci sešitu. Představte si sešit jako prázdné plátno, kde můžete malovat svá data.
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 

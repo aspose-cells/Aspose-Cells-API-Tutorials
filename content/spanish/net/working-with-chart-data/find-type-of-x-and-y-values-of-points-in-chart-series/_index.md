@@ -13,13 +13,13 @@ La creación de gráficos significativos y representaciones visuales de datos es
 
 ## Prerrequisitos
 
-Antes de sumergirte en los pasos, asegúrate de tener algunas cosas listas:
+Antes de comenzar con los pasos, asegúrese de tener algunas cosas listas:
 
 1. Entorno .NET: Debe tener configurado un entorno de desarrollo .NET. Puede ser Visual Studio, Visual Studio Code o cualquier otro IDE compatible.
    
 2.  Aspose.Cells para .NET: Necesitará tener instalado Aspose.Cells para .NET. Puede descargarlo desde[aquí](https://releases.aspose.com/cells/net/).
 
-3. Archivo de Excel de muestra: obtenga un archivo de Excel de muestra que contenga gráficos. Para este tutorial, usaremos un archivo llamado`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Asegúrese de que esté en el directorio de su proyecto.
+3.  Archivo de Excel de muestra: obtenga un archivo de Excel de muestra que contenga gráficos. Para este tutorial, usaremos un archivo llamado`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Asegúrese de que esté en el directorio de su proyecto.
 
 4. Conocimientos básicos de programación: la familiaridad con la programación en C# le ayudará a seguir el proceso fácilmente.
 
@@ -56,11 +56,11 @@ En primer lugar, debe definir el directorio en el que se encuentra su archivo de
 string sourceDir = "Your Document Directory";
 ```
 
- Reemplazar`"Your Document Directory"`con la ruta donde está guardado su archivo de Excel.
+ Reemplazar`"Your Document Directory"` con la ruta donde está guardado su archivo de Excel.
 
 ## Paso 2: Cargue el libro de trabajo
 
- A continuación, cargue el archivo Excel en un`Workbook` objeto. Esto le permite acceder a todo el contenido del archivo.
+ A continuación, cargue el archivo Excel en un`Workbook`objeto. Esto le permite acceder a todo el contenido del archivo.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

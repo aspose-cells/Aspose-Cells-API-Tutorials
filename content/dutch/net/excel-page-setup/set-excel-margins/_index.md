@@ -32,7 +32,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Nu u over de benodigde importgegevens beschikt, kunnen we overgaan tot de implementatie.
+Nu u over de benodigde imports beschikt, kunnen we overgaan tot de implementatie.
 
 ## Stap 1: De documentenmap instellen
 
@@ -132,7 +132,7 @@ Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars programmatisch Excel-
 U kunt een gratis proefversie gebruiken, maar voor uitgebreid gebruik of geavanceerde functies hebt u een licentie nodig.
 
 ### Waar kan ik meer documentatie vinden?
- U kunt de Aspose.Cells-documentatie bekijken[hier](https://reference.aspose.com/cells/net/).
+ U kunt de Aspose.Cells-documentatie raadplegen[hier](https://reference.aspose.com/cells/net/).
 
 ### Kan ik marges alleen voor specifieke pagina's instellen?
 Helaas zijn de marge-instellingen doorgaans van toepassing op het gehele werkblad en niet op afzonderlijke pagina's.

@@ -9,7 +9,7 @@ url: /tr/net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 ## giriiş
 
-Excel dosyalarıyla programatik olarak çalışırken karşılaşabileceğiniz yaygın görevlerden biri, adlandırılmış bir aralıktaki hücreleri birleştirmektir. İster rapor oluşturmayı otomatikleştirin, ister panolar oluşturun veya yalnızca büyük veri kümelerini yönetin, hücreleri birleştirmek temel bir tekniktir. Bu eğitimde, geliştiricilerin Microsoft Excel'in yüklenmesine gerek kalmadan Excel dosyalarını düzenlemelerine olanak tanıyan güçlü bir kitaplık olan .NET için Aspose.Cells kullanarak adlandırılmış bir aralıktaki hücreleri nasıl birleştireceğinizi inceleyeceğiz.
+Excel dosyalarıyla programatik olarak çalışırken karşılaşabileceğiniz yaygın görevlerden biri, adlandırılmış bir aralıktaki hücreleri birleştirmektir. İster rapor oluşturmayı otomatikleştirin, ister panolar oluşturun veya yalnızca büyük veri kümelerini yönetin, hücreleri birleştirmek temel bir tekniktir. Bu eğitimde, geliştiricilerin Microsoft Excel'in yüklenmesine gerek kalmadan Excel dosyalarını düzenlemelerine olanak tanıyan güçlü bir kitaplık olan Aspose.Cells for .NET kullanarak adlandırılmış bir aralıktaki hücreleri nasıl birleştireceğinizi inceleyeceğiz.
 
 ## Ön koşullar
 
@@ -29,7 +29,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ön koşullar ve paketler tamam olduğuna göre, şimdi eğlenceli kısma geçelim: Kodlama!
+Ön koşullar ve paketler tamam olduğuna göre, eğlenceli kısma geçelim: Kodlama!
 
 Aspose.Cells for .NET kullanarak Excel çalışma sayfasında adlandırılmış aralıktaki hücreleri nasıl birleştirebileceğiniz aşağıda açıklanmıştır.
 
@@ -49,7 +49,7 @@ Yeni bir çalışma kitabı başlatarak, artık üzerinde işlem yapmaya hazır 
 Her çalışma kitabı çalışma sayfaları içerir ve bu durumda ilkiyle çalışmak istiyoruz. Hadi onu alalım!
 
 ```csharp
-// Çalışma kitabındaki ilk çalışma kağıdını alın.
+// Çalışma kitabındaki ilk çalışma kağıdını al.
 Worksheet worksheet1 = wb1.Worksheets[0];
 ```
 

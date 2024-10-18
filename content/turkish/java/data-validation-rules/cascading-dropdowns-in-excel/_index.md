@@ -16,7 +16,7 @@ Elektronik tablo düzenleme dünyasında, Java için Aspose.Cells, geliştiricil
 
 Bu yolculuğa çıkmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Java için Aspose.Cells: İndirin ve yükleyin[Burada](https://releases.aspose.com/cells/java/).
+-  Java için Aspose.Cells: İndirin ve kurun[Burada](https://releases.aspose.com/cells/java/).
 - Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olması gerekir.
 - Excel'in Temel Anlayışı: Excel'e ve temel kavramlarına aşinalık faydalı olacaktır.
 
@@ -97,7 +97,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ## Çözüm
 
-Bu kapsamlı kılavuzda, Aspose.Cells for Java kullanarak Excel'de basamaklı açılır listelerin nasıl oluşturulacağını inceledik. Ön koşulları ayarlayarak, Excel çalışma kitabını oluşturarak, verileri doldurarak başladık ve ardından açılır listeler oluşturmanın ve dinamik basamaklı davranışı uygulamanın inceliklerine daldık. Bir geliştirici olarak, artık Excel dosyalarınızı etkileşimli açılır listelerle zenginleştirmek ve sorunsuz bir kullanıcı deneyimi sağlamak için gereken bilgi ve araçlara sahipsiniz.
+Bu kapsamlı kılavuzda, Aspose.Cells for Java kullanarak Excel'de basamaklı açılır listelerin nasıl oluşturulacağını inceledik. Ön koşulları ayarlayarak, Excel çalışma kitabını oluşturarak, verileri doldurarak başladık ve ardından açılır listeler oluşturmanın ve dinamik basamaklı davranışı uygulamanın inceliklerine daldık. Bir geliştirici olarak artık Excel dosyalarınızı etkileşimli açılır listelerle zenginleştirmek ve sorunsuz bir kullanıcı deneyimi sağlamak için gereken bilgi ve araçlara sahipsiniz.
 
 ## SSS
 

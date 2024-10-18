@@ -14,7 +14,7 @@ Az Aspose.Cells for Java egy hatékony Java API az Excel fájlokkal való munkav
 
 ## Mik azok a 3D diagramok?
 
-A 3D diagramok egyfajta adatvizualizáció, amely mélységet ad a hagyományos 2D diagramokhoz. Magával ragadóbb módot biztosítanak az adatok bemutatására, megkönnyítve az adatkészleteken belüli összetett kapcsolatok megértését. A 3D diagramok különösen hasznosak lehetnek többdimenziós adatok kezelésekor.
+3D diagramok egyfajta adatvizualizáció, amely mélységet ad a hagyományos 2D diagramokhoz. Magával ragadóbb módot biztosítanak az adatok bemutatására, megkönnyítve az adatkészleteken belüli összetett kapcsolatok megértését. A 3D diagramok különösen hasznosak lehetnek többdimenziós adatok kezelésekor.
 
 ## Miért használja az Aspose.Cells for Java programot 3D diagramok készítéséhez?
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // A diagram adattartományának beállítása
 chart.getNSeries().add("A2:B4", true);
 
-// Diagram attribútumok testreszabása
+//Diagram attribútumok testreszabása
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

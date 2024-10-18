@@ -1,6 +1,6 @@
 ---
-title: Tạo đường thẳng với biểu đồ đánh dấu dữ liệu
-linktitle: Tạo đường thẳng với biểu đồ đánh dấu dữ liệu
+title: Tạo biểu đồ đường thẳng với dữ liệu đánh dấu
+linktitle: Tạo biểu đồ đường thẳng với dữ liệu đánh dấu
 second_title: API xử lý Excel Aspose.Cells .NET
 description: Tìm hiểu cách tạo biểu đồ Line with Data Markers trong Excel bằng Aspose.Cells for .NET. Thực hiện theo hướng dẫn từng bước này để dễ dàng tạo và tùy chỉnh biểu đồ.
 type: docs
@@ -20,7 +20,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị mọi thứ
 3. IDE (Môi trường phát triển tích hợp) – Khuyến khích sử dụng Visual Studio.
 4.  Giấy phép Aspose.Cells hợp lệ – Nếu bạn không có, bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)hoặc kiểm tra của họ[dùng thử miễn phí](https://releases.aspose.com/).
 
-Bạn đã sẵn sàng chưa? Hãy cùng phân tích nhé!
+Bạn đã sẵn sàng chưa? Chúng ta hãy cùng phân tích nhé!
 
 ## Nhập các gói cần thiết
 
@@ -165,7 +165,7 @@ chart.NSeries[s3_idx].Values = "B22: B41";
 
 Các giá trị dựa trên dữ liệu chúng tôi đã điền ở bước 2.
 
-## Bước 8: Lưu sổ làm việc
+## Bước 8: Lưu Workbook
 
 Bây giờ mọi thứ đã sẵn sàng, hãy lưu bảng tính để có thể xem biểu đồ hoạt động.
 

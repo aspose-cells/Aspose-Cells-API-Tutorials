@@ -9,7 +9,7 @@ url: /vi/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 ---
 ## Giới thiệu
 
-Khi nói đến việc tạo và quản lý bảng tính Excel theo chương trình, Aspose.Cells for .NET là một thư viện mạnh mẽ giúp công việc của chúng ta dễ dàng hơn rất nhiều. Cho dù bạn cần tạo báo cáo, thao tác dữ liệu hay định dạng biểu đồ, Aspose.Cells đều hỗ trợ bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một tính năng cụ thể: kiểm soát hệ số thu phóng của bảng tính. Bạn đã bao giờ thấy mình nheo mắt nhìn một ô nhỏ hoặc bực bội với mức thu phóng không phù hợp với dữ liệu của mình chưa? Vâng, tất cả chúng ta đều đã từng trải qua điều đó! Vì vậy, chúng tôi sẽ giúp bạn quản lý các mức thu phóng trong bảng tính Excel và nâng cao trải nghiệm người dùng của bạn.
+Khi nói đến việc tạo và quản lý bảng tính Excel theo chương trình, Aspose.Cells for .NET là một thư viện mạnh mẽ giúp công việc của chúng ta dễ dàng hơn rất nhiều. Cho dù bạn cần tạo báo cáo, thao tác dữ liệu hay định dạng biểu đồ, Aspose.Cells đều hỗ trợ bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một tính năng cụ thể: kiểm soát hệ số thu phóng của bảng tính. Bạn đã bao giờ thấy mình nheo mắt nhìn một ô nhỏ hoặc bực bội với mức thu phóng không phù hợp với dữ liệu của mình chưa? Vâng, tất cả chúng ta đều đã từng trải qua điều đó! Vì vậy, chúng tôi sẽ giúp bạn quản lý các mức thu phóng trong bảng tính Excel của mình và nâng cao trải nghiệm người dùng của bạn.
 
 ## Điều kiện tiên quyết
 
@@ -32,7 +32,7 @@ Mở Visual Studio và tạo một dự án Console Application mới. Bạn có
 
 Bây giờ, đã đến lúc thêm tham chiếu thư viện Aspose.Cells. Bạn có thể:
 
--  Tải xuống DLL từ[đây](https://releases.aspose.com/cells/net/) và thêm nó vào dự án của bạn theo cách thủ công.
+-  Tải xuống DLL từ[đây](https://releases.aspose.com/cells/net/)và thêm nó vào dự án của bạn theo cách thủ công.
 - Hoặc sử dụng NuGet Package Manager và chạy lệnh sau trong Package Manager Console:
 
 ```bash
@@ -63,7 +63,7 @@ Sau đây là cách bạn định nghĩa điều đó trong mã của mình:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Nó có thể là thứ gì đó như`"C:\\ExcelFiles\\"`.
+ Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Nó có thể là thứ gì đó giống như`"C:\\ExcelFiles\\"`.
 
 ## Bước 2: Tạo luồng tệp cho tệp Excel
 
@@ -81,7 +81,7 @@ Dòng mã này sẽ chuẩn bị tệp Excel của bạn để chỉnh sửa.
  Các`Workbook` Đối tượng là cốt lõi của chức năng Aspose.Cells của bạn. Nó thể hiện tệp Excel của bạn theo cách dễ quản lý.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,11 +93,11 @@ Workbook workbook = new Workbook(fstream);
 Với sổ làm việc hiện đang trong bộ nhớ, đã đến lúc truy cập vào trang tính cụ thể mà bạn muốn sửa đổi. Trong hầu hết các trường hợp, đây sẽ là trang tính đầu tiên (chỉ mục 0).
 
 ```csharp
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Giống như việc mở một cuốn sách đến một trang cụ thể để ghi chú vậy!
+Giống như việc mở một cuốn sách tới một trang cụ thể để ghi chú vậy!
 
 ## Bước 5: Điều chỉnh Hệ số Thu phóng
 

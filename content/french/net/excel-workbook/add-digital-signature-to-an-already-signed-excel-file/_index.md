@@ -9,7 +9,7 @@ url: /fr/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 ---
 ## Introduction
 
-Dans le monde numérique d'aujourd'hui, la sécurisation des documents est plus importante que jamais. Les signatures numériques permettent de garantir l'authenticité et l'intégrité de vos fichiers, en particulier lorsqu'il s'agit d'informations sensibles. Si vous travaillez avec des fichiers Excel et que vous souhaitez ajouter une nouvelle signature numérique à un classeur déjà signé, vous êtes au bon endroit ! Dans ce guide, nous vous expliquerons le processus d'ajout d'une signature numérique à un fichier Excel déjà signé à l'aide d'Aspose.Cells pour .NET. Alors, allons-y !
+Dans le monde numérique d'aujourd'hui, la sécurisation des documents est plus importante que jamais. Les signatures numériques permettent de garantir l'authenticité et l'intégrité de vos fichiers, en particulier lorsqu'il s'agit d'informations sensibles. Si vous travaillez avec des fichiers Excel et que vous souhaitez ajouter une nouvelle signature numérique à un classeur déjà signé, vous êtes au bon endroit ! Dans ce guide, nous vous expliquerons le processus d'ajout d'une signature numérique à un fichier Excel déjà signé à l'aide d'Aspose.Cells pour .NET. Alors, allons-y !
 
 ## Prérequis
 
@@ -88,7 +88,7 @@ System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new
 
 ## Étape 5 : Créer la signature numérique
 
-Une fois le certificat en main, vous pouvez désormais créer une signature numérique. Vous devrez également fournir une raison pour la signature ainsi que la date et l'heure actuelles.
+Une fois le certificat en main, vous pouvez créer une signature numérique. Vous devrez également fournir la raison de la signature ainsi que la date et l'heure actuelles.
 
 ```csharp
 // Créez une nouvelle signature numérique et ajoutez-la à la collection de signatures numériques

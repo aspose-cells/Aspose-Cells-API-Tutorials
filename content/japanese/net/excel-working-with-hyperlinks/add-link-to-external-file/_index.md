@@ -11,7 +11,7 @@ url: /ja/net/excel-working-with-hyperlinks/add-link-to-external-file/
 Excel ファイルをプログラムで操作する場合、ファイルをインタラクティブにして他のリソースに接続することが重要です。そのような機能の 1 つに、外部ファイルにリンクするハイパーリンクの追加があります。企業のダッシュボード、プロジェクト レポート、または個人のスプレッドシートのいずれで作業する場合でも、これらの接続を作成する方法を知っておくと、生産性と組織化が向上します。このガイドでは、Aspose.Cells for .NET を使用してハイパーリンクをスプレッドシートにシームレスに統合する方法について詳しく説明します。
 ## 前提条件
 コーディング作業に入る前に、環境が正しく設定されていることを確認する必要があります。必要なものは次のとおりです。
-1. C# の基礎知識: 例は C# でコーディングされているため、C# に精通していると有利です。
+1. C# の基礎知識: 例は C# でコーディングされているため、C# に精通していると役立ちます。
 2. .NET Framework: .NET Framework がインストールされていることを確認してください。
 3.  Aspose.Cells for .NET: ダウンロードはこちらから[ここ](https://releases.aspose.com/cells/net/)インストール手順に従ってください。
 4. IDE (統合開発環境): コードを記述および実行するための Visual Studio または同様の IDE。
@@ -47,7 +47,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 ここでは、「最初のシートに取り組みたい」と言っています。これは、ノートブックの特定のページを開くようなものです。
 ## ステップ4: ハイパーリンクを追加する
-さて、楽しい部分、ハイパーリンクの追加です。これにより、別の Excel ドキュメントなどの外部ファイルにリンクできるようになります。
+さて、楽しい部分、ハイパーリンクの追加です。これにより、別の Excel ドキュメントなどの外部ファイルにリンクできます。
 ```csharp
 worksheet.Hyperlinks.Add("A5", 1, 1, outputDir + "SomeExcelFile.xlsx");
 worksheet.Hyperlinks[0].TextToDisplay = "Link To External File";
@@ -81,7 +81,7 @@ Aspose.Cells は、Excel ファイルをプログラムで作成および操作�
 ### Aspose.Cells を無料で使用できますか?
 はい、Asposeはダウンロード可能な無料試用版を提供しています。[ここ](https://releases.aspose.com/).
 ### Aspose.Cells の一時ライセンスを取得するにはどうすればよいですか?
-一時免許を申請することができます[ここ](https://purchase.aspose.com/temporary-license/).
+一時ライセンスを申請することができます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Cells の使用例をもっと知りたい場合はどこに行けばいいですか?
 包括的なガイドと例についてはドキュメントを参照してください。[ここ](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells ユーザー向けのテクニカル サポートは提供されますか?

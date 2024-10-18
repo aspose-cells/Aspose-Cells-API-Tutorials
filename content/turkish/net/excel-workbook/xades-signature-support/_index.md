@@ -17,7 +17,7 @@ Başlamadan önce, yerinde olması gereken birkaç şey var:
 
 1.  .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan kolayca indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
 2. Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz çalışan bir .NET geliştirme ortamı (örneğin Visual Studio).
-3. Dijital Sertifika: Şifresiyle birlikte geçerli bir dijital sertifikaya (PFX dosyası) ihtiyacınız var. Bu sertifika dijital imzayı oluşturmak için gereklidir.
+3. Dijital Sertifika: Şifresiyle birlikte geçerli bir dijital sertifikaya (PFX dosyası) ihtiyacınız var. Bu sertifika, dijital imzayı oluşturmak için gereklidir.
 4. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 
 Bu ön koşulları yerine getirdikten sonra, Excel dosyalarınızda Xades imzalarını uygulamaya başlamaya hazırsınız!
@@ -70,7 +70,7 @@ string pfx = "pfxFile"; // PFX dosyanızın yolunu kullanarak değiştirin
 
 ## Adım 4: Dijital İmzayı Oluşturun
 
- Şimdi, dijital imzayı kullanarak oluşturalım`DigitalSignature` sınıf. Sihir burada gerçekleşiyor!
+ Şimdi, dijital imzayı kullanarak oluşturalım`DigitalSignature` sınıf. İşte sihir burada gerçekleşiyor!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
@@ -104,7 +104,7 @@ Console.WriteLine("XAdESSignatureSupport executed successfully.");
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Cells for .NET kullanarak Excel dosyanıza bir Xades imzası başarıyla eklediniz. Bu işlem yalnızca belgelerinizin güvenliğini artırmakla kalmaz, aynı zamanda dosyalarınızın gerçekliğini garanti ederek kullanıcılarınızla güven oluşturur. 
+Ve işte oldu! Aspose.Cells for .NET kullanarak Excel dosyanıza bir Xades imzası başarıyla eklediniz. Bu işlem yalnızca belgelerinizin güvenliğini artırmakla kalmaz, aynı zamanda dosyalarınızın gerçekliğini garanti altına alarak kullanıcılarınızla güven oluşturur. 
 Dijital imzalar, modern belge yönetiminin vazgeçilmez bir parçasıdır ve Aspose.Cells'in gücüyle bunları uygulamalarınızda kolayca uygulayabilirsiniz.
 
 ## SSS

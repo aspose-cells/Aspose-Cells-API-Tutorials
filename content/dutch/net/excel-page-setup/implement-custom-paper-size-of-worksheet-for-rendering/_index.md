@@ -2,7 +2,7 @@
 title: Implementeer aangepast papierformaat van werkblad voor rendering
 linktitle: Implementeer aangepast papierformaat van werkblad voor rendering
 second_title: Aspose.Cells voor .NET API-referentie
-description: Leer hoe u aangepaste papierformaten in Excel instelt met Aspose.Cells voor .NET. Stapsgewijze handleiding voor naadloze werkbladweergave.
+description: Leer hoe u aangepaste papierformaten in Excel instelt met Aspose.Cells voor .NET. Stapsgewijze handleiding voor naadloze weergave van werkbladen.
 type: docs
 weight: 50
 url: /nl/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
@@ -18,11 +18,11 @@ Voordat we in de code duiken, moeten we ervoor zorgen dat je goed bent ingesteld
 1. Visual Studio of een .NET IDE: Zorg dat u een werkende IDE hebt zoals Visual Studio. Dit is uw speeltuin waar alle codeermagie plaatsvindt.
 2.  Aspose.Cells voor .NET-pakket: Als u dat nog niet hebt gedaan, moet u de Aspose.Cells-bibliotheek downloaden en installeren. U kunt de nieuwste versie vinden op de[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Hoewel we u door de code leiden, kunt u met een basiskennis van C# de nuances beter begrijpen.
-4. Toegang tot .NET Framework: zorg ervoor dat uw project is ingesteld voor een compatibele versie van .NET Framework.
+4. Toegang tot .NET Framework: zorg ervoor dat uw project is ingesteld op een compatibele versie van .NET Framework.
 
 ## Pakketten importeren
 
-Zodra je alles hebt geïnstalleerd, is het tijd om de benodigde pakketten te importeren. Dit is waar je Aspose.Cells naar je project brengt. Dit is hoe:
+Zodra je alles hebt geïnstalleerd, is het tijd om de benodigde pakketten te importeren. Dit is waar je Aspose.Cells naar je project brengt. Dit is hoe je dat doet:
 
 ### Open uw IDE
 
@@ -89,7 +89,7 @@ In dit scenario specificeren we de maat in inches. Zie het als het op maat maken
 
 ## Stap 5: Toegang tot een cel
 
-Vervolgens moeten we toegang krijgen tot een specifieke cel waar we een bericht gaan plaatsen. 
+Vervolgens moeten we toegang krijgen tot een specifieke cel waar we een bericht plaatsen. 
 
 ```csharp
 Cell b4 = ws.Cells["B4"];
@@ -109,7 +109,7 @@ Dit is uw kans om aan de eindgebruiker te communiceren wat de aangepaste grootte
 
 ## Stap 7: Sla de werkmap op in PDF-formaat
 
-Ten slotte is het tijd om al uw harde werk op te slaan als een PDF-bestand.
+Ten slotte is het tijd om al uw harde werk op te slaan als PDF-bestand.
 
 ```csharp
 wb.Save(outputDir + "outputCustomPaperSize.pdf");

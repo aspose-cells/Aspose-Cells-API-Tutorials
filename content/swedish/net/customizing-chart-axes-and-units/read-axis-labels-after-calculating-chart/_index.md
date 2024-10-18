@@ -15,8 +15,8 @@ När du arbetar med Excel-filer i .NET är ett av de mest kraftfulla biblioteken
 
 Innan vi dyker in i kodens snålhet, låt oss se till att du har allt du behöver för att komma igång:
 
-1. Visual Studio: Du bör ha Visual Studio installerat på din dator. Om du inte har det ännu kan du ladda ner det från[Microsofts webbplats](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells Library: Den här guiden förutsätter att du har Aspose.Cells-biblioteket. Du kan enkelt ladda ner den från[Asposes releasesida](https://releases.aspose.com/cells/net/) . Om du är osäker på var du ska börja,[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) kan vara din bästa vän!
+1.  Visual Studio: Du bör ha Visual Studio installerat på din dator. Om du inte har det ännu kan du ladda ner det från[Microsofts webbplats](https://visualstudio.microsoft.com/).
+2.  Aspose.Cells Library: Den här guiden förutsätter att du har Aspose.Cells-biblioteket. Du kan enkelt ladda ner den från[Asposes releasesida](https://releases.aspose.com/cells/net/) Om du är osäker på var du ska börja,[Aspose.Cells dokumentation](https://reference.aspose.com/cells/net/) kan vara din bästa vän!
 3. Grundläggande kunskaper i C#: Bekantskap med programmeringsspråket C# hjälper dig att förstå exemplen och följa med utan problem.
 4.  Excel-fil: Se till att du har en Excel-fil som innehåller diagram för denna handledning. Du kan skapa ett exempel på en Excel-fil med namnet`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` för teständamål.
 5. .NET-miljö: Kontrollera att din .NET-miljö är korrekt inställd. Denna handledning riktar sig till .NET-ramverket, så se till att du är igång!
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- De`Workbook`klass är din inkörsport till Excel-filen. Genom att tillhandahålla den fullständiga sökvägen skapar vi en ny arbetsboksinstans som innehåller våra Excel-data.
+ De`Workbook` klass är din inkörsport till Excel-filen. Genom att tillhandahålla den fullständiga sökvägen skapar vi en ny arbetsboksinstans som innehåller våra Excel-data.
 
 ## Steg 3: Öppna det första arbetsbladet
 
@@ -98,7 +98,7 @@ Låt oss nu läsa axeletiketterna från kategoriaxeln.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-Här drar vi etiketterna från kategoriaxeln och lagrar dem i en`ArrayList`. Den här listan är viktig för att iterera igenom och visa dina etiketter.
+ Här drar vi etiketterna från kategoriaxeln och lagrar dem i en`ArrayList`. Den här listan är viktig för att iterera igenom och visa dina etiketter.
 
 ## Steg 7: Skriv ut axeletiketterna till konsolen
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Detta utdrag matar först ut en titel och en separatorrad. Sedan går vi igenom varje etikett i`lstLabels` ArrayList och skriv ut den till konsolen. Om det finns tio etiketter ser du var och en av dem där!
+Detta utdrag matar först ut en titel och en separatorrad. Sedan går vi igenom varje etikett i`lstLabels` ArrayList och skriv ut den till konsolen. Om det finns tio etiketter ser du var och en av dem där!
 
 ## Steg 8: Slutmeddelande
 
@@ -141,7 +141,7 @@ Aspose.Cells är ett kraftfullt bibliotek för att manipulera Excel-filer i .NET
  Du kan köpa en licens för Aspose.Cells genom deras[köpsidan](https://purchase.aspose.com/buy).
 
 ### Var kan jag hitta support för Aspose.Cells?
- Du kan besöka Aspose-forumet för support[här](https://forum.aspose.com/c/cells/9).
+Du kan besöka Aspose-forumet för support[här](https://forum.aspose.com/c/cells/9).
 
 ### Kan jag få en tillfällig licens?
  Ja! Aspose erbjuder en tillfällig licens som du kan begära från[denna länk](https://purchase.aspose.com/temporary-license/).

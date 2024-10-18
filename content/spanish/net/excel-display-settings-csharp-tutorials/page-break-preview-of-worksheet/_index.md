@@ -41,7 +41,7 @@ using Aspose.Cells;
 Abra Visual Studio o IDE y cree un nuevo archivo C# si aún no lo ha hecho. Aquí es donde escribiremos nuestro código de implementación.
 
 
-Ahora, analicemos el código para habilitar la vista previa de salto de página en archivos Excel paso a paso.
+Ahora, analicemos el código para habilitar la vista previa de salto de página en archivos de Excel paso a paso.
 
 ## Paso 1: Establezca la ruta del directorio
 
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Paso 3: Crear una instancia del libro de trabajo
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 // Abrir el archivo Excel a través del flujo de archivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Paso 4: Acceda a la hoja de trabajo
 
 ```csharp
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -114,7 +114,7 @@ Por último, es una buena costumbre limpiar los recursos. Al cerrar el flujo de 
 ## Preguntas frecuentes
 
 ### ¿Qué es Aspose.Cells?
-Aspose.Cells es una API .NET que permite a los desarrolladores crear, manipular y convertir archivos Excel sin necesidad de tener instalado Microsoft Excel.
+Aspose.Cells es una API .NET que permite a los desarrolladores crear, manipular y convertir archivos de Excel sin necesidad de tener instalado Microsoft Excel.
 
 ### ¿Puedo utilizar Aspose.Cells gratis?
  Sí, Aspose ofrece una versión de prueba gratuita para fines de prueba. Puede[Obtenga una prueba gratuita aquí](https://releases.aspose.com/).

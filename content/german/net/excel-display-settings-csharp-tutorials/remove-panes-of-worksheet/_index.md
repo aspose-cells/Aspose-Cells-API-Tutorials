@@ -13,7 +13,7 @@ Haben Sie schon einmal mit Tabellenkalkulationen zu kämpfen gehabt, die diese l
 
 ## Voraussetzungen
 
-Bevor wir uns Hals über Kopf ins Programmieren stürzen, sollten wir sicherstellen, dass Sie alles richtig eingerichtet haben. Folgendes benötigen Sie:
+Bevor wir uns Hals über Kopf ins Programmieren stürzen, sollten wir sicherstellen, dass alles richtig eingerichtet ist. Folgendes benötigen Sie:
 
 1. Visual Studio: Durch die Installation von Visual Studio erhalten Sie eine zuverlässige Entwicklungsumgebung zum Erstellen Ihrer .NET-Anwendungen.
 2.  Aspose.Cells-Bibliothek: Natürlich geht das nicht ohne die Aspose.Cells-Bibliothek. Keine Sorge, Sie können sie ganz einfach herunterladen von[Hier](https://releases.aspose.com/cells/net/) und sie bieten sogar eine[Kostenlose Testversion](https://releases.aspose.com/).
@@ -31,7 +31,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Diese einzelne Zeile kann Wunder bewirken und Ihnen Zugriff auf Klassen, Methoden und Eigenschaften gewähren, die für die Bearbeitung von Excel-Dateien entwickelt wurden. Ganz einfach, oder?
+Diese einzelne Zeile kann wahre Wunder bewirken und Ihnen Zugriff auf Klassen, Methoden und Eigenschaften gewähren, die für die Bearbeitung von Excel-Dateien entwickelt wurden. Ganz einfach, oder?
 
 Jetzt kommt der spannende Teil: das Schreiben unseres Codes zum Entfernen der Bereiche aus einem Arbeitsblatt! Hier ist eine schrittweise Aufschlüsselung:
 

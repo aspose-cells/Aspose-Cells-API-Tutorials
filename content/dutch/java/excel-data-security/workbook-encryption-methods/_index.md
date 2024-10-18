@@ -10,7 +10,7 @@ url: /nl/java/excel-data-security/workbook-encryption-methods/
 
 ## Inleiding tot werkboekversleutelingsmethoden
 
-In het digitale tijdperk van vandaag is gegevensbeveiliging van het grootste belang. Wanneer het aankomt op het verwerken van gevoelige informatie in Excel-werkmappen, wordt encryptie een cruciaal onderdeel. Aspose.Cells for Java, een krachtige Java API voor het werken met Excel-bestanden, biedt verschillende methoden om uw werkmappen te beveiligen via encryptie. In deze uitgebreide gids verkennen we de verschillende werkmap-encryptiemethoden die Aspose.Cells for Java biedt en laten we zien hoe u deze implementeert in uw Java-toepassingen.
+In het digitale tijdperk van vandaag is gegevensbeveiliging van het grootste belang. Wanneer het aankomt op het verwerken van gevoelige informatie in Excel-werkmappen, wordt encryptie een cruciaal onderdeel. Aspose.Cells for Java, een krachtige Java API voor het werken met Excel-bestanden, biedt verschillende methoden om uw werkmappen te beveiligen via encryptie. In deze uitgebreide gids verkennen we de verschillende methoden voor het versleutelen van werkmappen die Aspose.Cells for Java biedt en laten we zien hoe u deze implementeert in uw Java-toepassingen.
 
 ## Werkboekversleuteling begrijpen
 

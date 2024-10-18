@@ -19,9 +19,9 @@ Haben Sie sich beim Durchforsten von Datenbergen in Excel schon einmal überford
 
 ## Sicherstellung der Datengenauigkeit durch Dezimalvalidierung
 
-Lassen Sie uns nun über etwas sprechen, das oft übersehen wird: die Datenvalidierung. Nichts ist frustrierender, als nach stundenlanger harter Arbeit festzustellen, dass ein einziger fehlerhafter Eintrag Ihre Berechnungen durcheinander gebracht hat! Um diesen Albtraum zu vermeiden, können Sie mit Aspose.Cells eine dezimale Datenvalidierung implementieren. 
+Lassen Sie uns nun über etwas sprechen, das oft übersehen wird: die Datenvalidierung. Nichts ist frustrierender, als nach stundenlanger harter Arbeit festzustellen, dass ein einziger fehlerhafter Eintrag Ihre Berechnungen durcheinandergebracht hat! Um diesen Albtraum zu vermeiden, können Sie mit Aspose.Cells eine dezimale Datenvalidierung implementieren. 
 
- Unser Tutorial zu[Dezimaldatenüberprüfung in Excel](./decimal-data-validation-in-excel/)ist Ihre Anlaufstelle hierfür. Es führt Sie durch den Prozess der Verwaltung von Dezimalwerten und stellt sicher, dass Ihre Daten zuverlässig und sauber bleiben. Sie erfahren, wie Sie Validierungsregeln einrichten, die Eingaben einschränken und nur bestimmte Formate oder Bereiche zulassen. Es ist, als würden Sie Ihre Tabelle mit einem Türsteher ausstatten, der nur die richtigen Daten eingibt!
+ Unser Tutorial zu[Dezimaldatenüberprüfung in Excel](./decimal-data-validation-in-excel/) ist Ihre Anlaufstelle hierfür. Es führt Sie durch den Prozess der Verwaltung von Dezimalwerten und stellt sicher, dass Ihre Daten zuverlässig und sauber bleiben. Sie erfahren, wie Sie Validierungsregeln einrichten, die Eingaben einschränken und nur bestimmte Formate oder Bereiche zulassen. Es ist, als würden Sie Ihre Tabelle mit einem Türsteher ausstatten, der nur die richtigen Daten eingibt!
 
 ## Tutorials zu Excel-Autofilter und -Validierung
 ### [Autofilter beginnt mit in Excel](./autofilter-begins-with-in-excel/)

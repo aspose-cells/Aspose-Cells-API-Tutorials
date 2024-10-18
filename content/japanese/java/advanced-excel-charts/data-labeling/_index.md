@@ -99,7 +99,7 @@ cell.setFormula("=SUM(B2:B5)");
 
 ```java
 try {
-    //ここにあなたのコード
+    //ここにあなたのコードを入力してください
 } catch (Exception e) {
     System.out.println("An error occurred: " + e.getMessage());
 }
@@ -116,7 +116,7 @@ workbook.save("labeled_data.xlsx");
 
 ## 結論
 
-データのラベル付けは、スプレッドシートのデータにアクセスしやすく理解しやすくするための重要なステップです。Aspose.Cells for Java を使用すると、データ管理と分析のタスクを強化する強力なツールを利用できます。
+データのラベル付けは、スプレッドシートのデータにアクセスしやすく理解しやすくするための重要なステップです。Aspose.Cells for Java を使用すると、データ管理と分析のタスクを強化する強力なツールを自由に使用できます。
 
 ## よくある質問
 

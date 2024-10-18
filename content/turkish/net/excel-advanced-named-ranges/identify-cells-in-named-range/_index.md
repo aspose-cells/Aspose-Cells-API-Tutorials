@@ -23,7 +23,7 @@ Uzman olmanıza gerek yok, ancak C# hakkında temel bir anlayışa sahip olmak �
 
 Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells çeşitli sürümlerle uyumludur, ancak her zaman en son sürüm tercih edilir.
 
-### Aspose.Cells .NET Kütüphanesi
+### Aspose.Cells for .NET Kütüphanesi
 
  Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/)Eğer karar vermeden önce suları test etmek isterseniz, ücretsiz deneme imkanı sunuyorlar.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 19
 url: /vi/java/excel-import-export/export-excel-to-html-java/
 ---
-Trong hướng dẫn hôm nay, chúng ta sẽ đi sâu vào quá trình xuất tệp Excel sang định dạng HTML bằng API Aspose.Cells for Java. Hướng dẫn từng bước này sẽ hướng dẫn bạn toàn bộ quá trình, từ thiết lập môi trường phát triển đến viết mã và tạo tệp HTML từ bảng tính Excel. Vậy, hãy cùng bắt đầu ngay nhé!
+Trong hướng dẫn hôm nay, chúng ta sẽ đi sâu vào quá trình xuất tệp Excel sang định dạng HTML bằng API Aspose.Cells for Java. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện toàn bộ quá trình, từ thiết lập môi trường phát triển đến viết mã và tạo tệp HTML từ bảng tính Excel. Vậy, hãy cùng bắt đầu ngay nhé!
 
 ## Điều kiện tiên quyết
 
@@ -73,4 +73,4 @@ Xin chúc mừng! Bạn đã xuất thành công tệp Excel sang HTML bằng As
    - A: Có, bạn có thể xuất các trang tính cụ thể bằng cách chỉ định tên trang tính hoặc chỉ mục trong mã của bạn.
 
 ### H: Tôi có thể tìm thêm ví dụ và tài nguyên về Aspose.Cells cho Java ở đâu?
-   - A: Truy cập tài liệu và diễn đàn Aspose.Cells để xem nhiều ví dụ, hướng dẫn và hỗ trợ.
+   - A: Truy cập tài liệu và diễn đàn Aspose.Cells để biết thêm nhiều ví dụ, hướng dẫn và hỗ trợ.

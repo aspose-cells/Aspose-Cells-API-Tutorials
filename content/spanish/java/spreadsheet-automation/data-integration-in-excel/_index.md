@@ -98,7 +98,7 @@ El tamaño de los datos integrados depende de la memoria del sistema y de las li
 
 ¡Por supuesto! Aspose.Cells para Java ofrece una potente API para la automatización, que le permite crear secuencias de comandos para procesos complejos de integración de datos.
 
-### Q5: ¿Existen bibliotecas alternativas para la integración de datos de Excel?
+### P5: ¿Existen bibliotecas alternativas para la integración de datos de Excel?
 
 Si bien Aspose.Cells para Java es una opción sólida, alternativas como Apache POI también ofrecen capacidades de integración con Excel.
 

@@ -42,7 +42,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Langkah 3: Ulangi Melalui Baris dan Kolom
 
-Sekarang setelah Anda memiliki akses ke lembar kerja, Anda dapat mengulangi baris dan kolomnya untuk mengambil data. Berikut cara melakukannya:
+Sekarang setelah Anda memiliki akses ke lembar kerja, Anda dapat menelusuri baris dan kolomnya untuk mengambil data. Berikut cara melakukannya:
 
 ```java
 // Dapatkan jumlah baris dan kolom maksimum di lembar kerja
@@ -62,7 +62,7 @@ for (int row = 0; row < maxRows; row++) {
 }
 ```
 
-## Langkah 4: Pengolahan Data
+## Langkah 4: Pemrosesan Data
 
 Pada titik ini, Anda memiliki akses ke data dari file Excel, dan Anda dapat melakukan pemrosesan data yang diperlukan, seperti validasi, transformasi, atau penyimpanan.
 

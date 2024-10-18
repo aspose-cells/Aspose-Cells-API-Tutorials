@@ -1,7 +1,7 @@
 ---
 title: Validação e filtro de dados do Excel
 linktitle: Validação e filtro de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra os tutoriais do Aspose.Cells para .NET sobre validação de dados e filtros do Excel — guias simples para aumentar sua produtividade.
 type: docs
 weight: 35
@@ -21,6 +21,6 @@ O Excel é uma potência quando se trata de gerenciamento de dados, mas às veze
 
 ## Tutoriais de validação e filtro de dados do Excel
 ### [Aplicar filtro avançado do Microsoft Excel em C#](./apply-advanced-filter-of-microsoft-excel-in-csharp/)
-Aprenda a aplicar filtros avançados no Excel usando C# e Aspose.Cells. Guia passo a passo incluso para fácil implementação.
+Aprenda como aplicar filtros avançados no Excel usando C# e Aspose.Cells. Guia passo a passo incluso para fácil implementação.
 ### [Adicionar área de validação às células no Excel](./add-validation-area-to-cells-in-excel/)
 Aprenda a adicionar áreas de validação no Excel usando Aspose.Cells para .NET com nosso guia passo a passo. Melhore a integridade dos seus dados.

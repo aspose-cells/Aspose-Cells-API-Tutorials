@@ -101,7 +101,7 @@ Und da haben Sie es! Sie haben gelernt, wie Sie eine Excel-Arbeitsmappe erstelle
  Ja, Sie können das Passwort nach Ihren Wünschen anpassen. Ersetzen Sie einfach`YOUR_PASSWORD` mit Ihrem gewünschten Passwort.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?  
- Aspose.Cells ist eine kostenpflichtige Bibliothek, aber Sie können sie mit einer zeitlich begrenzten Testversion kostenlos testen. Besuchen Sie die[Link zur kostenlosen Testversion](https://releases.aspose.com/) um loszulegen.
+ Aspose.Cells ist eine kostenpflichtige Bibliothek, die Sie jedoch mit einer zeitlich begrenzten Testversion kostenlos testen können. Besuchen Sie die[Link zur kostenlosen Testversion](https://releases.aspose.com/) um loszulegen.
 
 ### Wie kaufe ich die Aspose.Cells-Bibliothek?  
  Sie können Aspose.Cells über deren[Kaufen-Seite](https://purchase.aspose.com/buy).

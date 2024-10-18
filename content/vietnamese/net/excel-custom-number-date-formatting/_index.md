@@ -21,7 +21,7 @@ Trong hướng dẫn của chúng tôi, bạn sẽ học cách triển khai mộ
 
 Bây giờ, chúng ta hãy nói về việc nhập dữ liệu. Việc di chuyển dữ liệu vào Excel đôi khi có thể giống như cố gắng giải một câu đố mà một số mảnh ghép bị thiếu. Đừng lo lắng! Với Aspose.Cells, việc nhập dữ liệu trong khi chỉ định các trường công thức trở nên dễ dàng.
 
-Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập dữ liệu của mình trong khi vẫn duy trì tính toàn vẹn của các trường công thức. Hãy hình dung thế này: bạn có các dự báo tài chính trong tệp CSV và bạn cần nhập nó vào Excel mà không làm mất các công thức quan trọng đó. Chúng tôi chỉ cho bạn cách thực hiện điều đó bằng các ví dụ rõ ràng và các phương pháp hay nhất đảm bảo dữ liệu của bạn được truyền đi nguyên vẹn và có thể sử dụng được.[Đọc thêm](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
+Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập dữ liệu của mình trong khi vẫn duy trì tính toàn vẹn của các trường công thức. Hãy hình dung thế này: bạn có các dự báo tài chính trong tệp CSV và bạn cần nhập nó vào Excel mà không làm mất các công thức quan trọng đó. Chúng tôi chỉ cho bạn cách thực hiện điều đó bằng các ví dụ rõ ràng và các phương pháp hay nhất đảm bảo dữ liệu của bạn được chuyển đến nguyên vẹn và có thể sử dụng được.[Đọc thêm](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
 ## Hướng dẫn định dạng số và ngày tùy chỉnh trong Excel
 ### [Kiểm tra xem Giá trị ô có ở Định dạng số tùy chỉnh cụ thể không](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)

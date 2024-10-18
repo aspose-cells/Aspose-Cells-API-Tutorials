@@ -18,7 +18,7 @@ Aspose.Cells for Java هي مكتبة Java غنية بالميزات تتيح ل
 
 ## تثبيت Aspose.Cells لـ Java
 
-قبل أن نتعمق في استخدام الدالة COUNTIF، نحتاج إلى إعداد Aspose.Cells للغة Java في مشروعنا. اتبع الخطوات التالية للبدء:
+قبل أن نتعمق في استخدام دالة COUNTIF، نحتاج إلى إعداد Aspose.Cells للغة Java في مشروعنا. اتبع الخطوات التالية للبدء:
 
 1. تنزيل مكتبة Aspose.Cells for Java: يمكنك الحصول على المكتبة من موقع Aspose على الويب. قم بزيارة[هنا](https://releases.aspose.com/cells/java/) لتنزيل الإصدار الأحدث.
 
@@ -50,7 +50,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-2. إضافة البيانات إلى ملف Excel: قم بملء ملف Excel بالبيانات التي تريد تحليلها باستخدام الدالة COUNTIF.
+2. إضافة البيانات إلى ملف Excel: املأ ملف Excel بالبيانات التي تريد تحليلها باستخدام الدالة COUNTIF.
 
 ```java
 // إضافة البيانات إلى ملف Excel

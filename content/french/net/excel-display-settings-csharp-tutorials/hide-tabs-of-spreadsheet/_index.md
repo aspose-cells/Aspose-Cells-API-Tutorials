@@ -35,7 +35,7 @@ Maintenant, décomposons chaque partie du processus étape par étape.
 
 Avant de commencer tout codage, il est essentiel de configurer correctement votre environnement de développement.
 
-1.  Créer un nouveau projet : ouvrez Visual Studio, créez un nouveau projet d’application console et nommez-le de manière descriptive, comme`HideExcelTabs`.
+1.  Créer un nouveau projet : ouvrez Visual Studio, créez un nouveau projet d’application console et nommez-le avec un nom descriptif, comme`HideExcelTabs`.
 2. Ajoutez la référence Aspose.Cells : accédez au gestionnaire de packages NuGet et recherchez « Aspose.Cells pour .NET ». Installez-le dans votre projet.
  Alternativement, si vous travaillez hors ligne, vous pouvez[télécharger Aspose.Cells pour .NET](https://releases.aspose.com/cells/net/) et ajoutez manuellement le fichier DLL à vos références de projet.
 3. Préparez le fichier Excel : Placez le fichier Excel que vous souhaitez modifier (par exemple,`book1.xls`) dans votre répertoire de projet. Assurez-vous de connaître le chemin du fichier.

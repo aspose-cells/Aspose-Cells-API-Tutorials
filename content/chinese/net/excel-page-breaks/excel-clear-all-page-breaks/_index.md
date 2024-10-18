@@ -95,7 +95,7 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 Aspose.Cells for .NET 是一个功能强大的库，允许您在.NET 应用程序中无缝管理和操作 Excel 文件。
 
 ### 我可以免费使用 Aspose.Cells 吗？
-是的！Aspose 提供免费试用，您可以试用该库。您可以开始[这里](https://releases.aspose.com/).
+是的！Aspose 提供免费试用，您可以试用该库。您可以开始使用[这里](https://releases.aspose.com/).
 
 ### 我可以在哪里获得 Aspose.Cells 的支持？
 如果您遇到问题或有疑问，可以在 Aspose 支持论坛寻求帮助[这里](https://forum.aspose.com/c/cells/9).

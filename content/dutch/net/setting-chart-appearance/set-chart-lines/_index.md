@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Nu gaan we een werkmapobject maken, dat als container voor uw spreadsheet dient.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 

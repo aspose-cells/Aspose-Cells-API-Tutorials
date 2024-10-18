@@ -53,7 +53,7 @@ worksheet.getCells().get("C2").setFormula("=B2*1.1"); // Calcule une augmentatio
 
 ## Étape 5 : Application des styles et du formatage
 
-Pour rendre votre rapport visuellement attrayant, vous pouvez appliquer des styles et des mises en forme aux cellules, aux lignes et aux colonnes. Par exemple, vous pouvez modifier la couleur d'arrière-plan des cellules ou définir des polices :
+Pour rendre votre rapport visuellement attrayant, vous pouvez appliquer des styles et des mises en forme aux cellules, aux lignes et aux colonnes. Par exemple, vous pouvez modifier la couleur d'arrière-plan des cellules ou définir les polices :
 
 ```java
 // Appliquer des styles et des formats

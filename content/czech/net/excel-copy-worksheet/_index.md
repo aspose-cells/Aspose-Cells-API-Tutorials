@@ -17,7 +17,7 @@ Pokud jde o správu souborů Excel pomocí .NET, Aspose.Cells vyniká jako výko
 
 ## Zefektivněte svou správu Excelu
 
-Dále nabízíme pokyny ke splnění složitějších požadavků, jako je kopírování více listů. Pokud jste někdy museli spravovat několik sešitů současně, víte, jak únavné to může být. Naštěstí náš tutoriál na[Kopírování listů aplikace Excel mezi sešity](./excel-copy-worksheets-between-workbooks/) ukazuje, jak zefektivnit správu tabulek. Díky snadno pochopitelným příkladům objevíte tipy a triky, díky nimž vám tyto úkoly usnadní práci.
+ Dále nabízíme pokyny ke splnění složitějších požadavků, jako je kopírování více listů. Pokud jste někdy museli spravovat několik sešitů současně, víte, jak únavné to může být. Naštěstí náš tutoriál na[Kopírování listů aplikace Excel mezi sešity](./excel-copy-worksheets-between-workbooks/)ukazuje, jak zefektivnit správu tabulek. Díky snadno pochopitelným příkladům objevíte tipy a triky, díky nimž vám tyto úkoly usnadní práci.
 
 ## Zvládnutí pohybu v pracovním listu
 

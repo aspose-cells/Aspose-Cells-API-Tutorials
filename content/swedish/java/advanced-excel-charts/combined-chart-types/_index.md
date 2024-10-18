@@ -10,7 +10,7 @@ url: /sv/java/advanced-excel-charts/combined-chart-types/
 
 ## Introduktion till kombinerade diagramtyper med Aspose.Cells för Java
 
-en värld av datavisualisering spelar diagram en avgörande roll för att hjälpa oss att förstå komplexa datamängder. Aspose.Cells för Java är ett kraftfullt Java API som låter dig skapa, manipulera och anpassa olika typer av diagram, inklusive kombinerade diagramtyper. I den här artikeln kommer vi att utforska hur man skapar kombinerade diagramtyper med Aspose.Cells för Java.
+I en värld av datavisualisering spelar diagram en avgörande roll för att hjälpa oss att förstå komplexa datamängder. Aspose.Cells för Java är ett kraftfullt Java API som låter dig skapa, manipulera och anpassa olika typer av diagram, inklusive kombinerade diagramtyper. I den här artikeln kommer vi att utforska hur man skapar kombinerade diagramtyper med Aspose.Cells för Java.
 
 ## Förstå Aspose.Cells för Java
 
@@ -104,7 +104,7 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Slutsats
 
-I den här artikeln har vi utforskat hur man skapar kombinerade diagramtyper med Aspose.Cells för Java. Vi började med att förstå vad Aspose.Cells för Java är och fortsatte sedan med steg-för-steg-instruktioner för att skapa ett kombinerat diagram, lägga till data till det, anpassa dess utseende och spara/exportera det. Med Aspose.Cells för Java kan du släppa lös kraften i datavisualisering i dina Java-applikationer.
+den här artikeln har vi utforskat hur man skapar kombinerade diagramtyper med Aspose.Cells för Java. Vi började med att förstå vad Aspose.Cells för Java är och fortsatte sedan med steg-för-steg-instruktioner för att skapa ett kombinerat diagram, lägga till data till det, anpassa dess utseende och spara/exportera det. Med Aspose.Cells för Java kan du släppa lös kraften i datavisualisering i dina Java-applikationer.
 
 ## FAQ's
 

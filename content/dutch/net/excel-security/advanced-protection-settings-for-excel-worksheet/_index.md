@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Nu we een bestandsstroom hebben, kunnen we een`Workbook` voorwerp.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 // Het Excel-bestand openen via de bestandsstroom
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Voor onze doeleinden gaan we gewoon met het eerste werkblad werken. Laten we het openen.
 
 ```csharp
-//Toegang krijgen tot het eerste werkblad in het Excel-bestand
+// Toegang krijgen tot het eerste werkblad in het Excel-bestand
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Werkbladen worden geïndexeerd vanaf nul, dus`Worksheets[0]` verwijst naar het eerste werkblad in het Excel-bestand. Nu kunnen we onze beveiligingsinstellingen op dit specifieke werkblad toepassen.

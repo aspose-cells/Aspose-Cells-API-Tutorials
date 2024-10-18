@@ -16,7 +16,7 @@ Het maken van dynamische en visueel aantrekkelijke grafieken in Excel is een fan
 Voordat we beginnen met coderen, zijn er een paar dingen die je moet regelen:
 
 - Basiskennis van C#: Een fundamenteel begrip van C#-programmering is handig. Maak je geen zorgen; je hoeft geen expert te zijn, als je maar comfortabel bent met de syntaxis.
--  Geïnstalleerde Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells voor .NET-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
+- Geïnstalleerde Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells voor .NET-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
 - Visual Studio: Kennis van Visual Studio of een andere IDE die u voor het .NET Framework gebruikt, is essentieel.
 - Een bestaand Excel-bestand: Voor dit voorbeeld werken we met een bestaand Excel-bestand met de naam "sampleAddingTextBoxControlInChart.xls". U kunt er zelf een maken of een voorbeeld downloaden.
 
@@ -70,7 +70,7 @@ Door de indexwaarde te wijzigen, kunt u verschillende werkbladen of grafieken se
 
 ## Stap 4: Voeg een nieuw tekstvak toe aan de grafiek
 
-Nu zijn we klaar om onze TextBox toe te voegen. We zullen de positie en grootte ervan specificeren wanneer we deze aanmaken.
+Nu zijn we klaar om onze TextBox toe te voegen. We zullen de positie en grootte ervan specificeren wanneer we het maken.
 
 ```csharp
 // Voeg een nieuw tekstvak toe aan de grafiek.
@@ -86,7 +86,7 @@ Zodra de TextBox op zijn plaats staat, is het tijd om deze te vullen met content
 // Vul de tekst in.
 textbox0.Text = "Sales By Region";
 ```
-U kunt 'Verkoop per regio' vervangen door tekst die relevant is voor uw gegevens.
+U kunt "Verkoop per regio" vervangen door tekst die relevant is voor uw gegevens.
 
 ## Stap 6: Pas de eigenschappen van het tekstvak aan
 
@@ -130,13 +130,13 @@ Met deze opties kunt u de achtergrondvulling van het tekstvak instellen en de ra
 
 ## Stap 8: Sla het gewijzigde Excel-bestand op
 
-De laatste stap is om de wijzigingen die u hebt aangebracht op te slaan in een nieuw Excel-bestand. Dit zorgt ervoor dat uw originele bestand onaangeroerd blijft.
+De laatste stap is om de wijzigingen die u hebt aangebracht op te slaan in een nieuw Excel-bestand. Dit zorgt ervoor dat uw originele bestand onaangetast blijft.
 
 ```csharp
 // Sla het Excel-bestand op.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Vervangen`"outputAddingTextBoxControlInChart.xls"` met de bestandsnaam die u verkiest.
+ Vervangen`"outputAddingTextBoxControlInChart.xls"`met de bestandsnaam die u verkiest.
 
 ## Conclusie
 

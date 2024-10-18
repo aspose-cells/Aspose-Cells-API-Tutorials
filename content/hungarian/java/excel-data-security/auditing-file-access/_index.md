@@ -126,4 +126,4 @@ Az auditnapló lekéréséhez egyszerűen elolvashatja a napló tartalmát`file_
 
 ### Milyen egyéb műveleteket tudok bejelentkezni a fájlok megnyitásán és mentésén kívül?
 
- Meghosszabbíthatja a`ExcelFileManager` osztály egyéb műveletek naplózásához, például fájlok szerkesztéséhez, törléséhez vagy megosztásához, az alkalmazás követelményeitől függően.
+ Meghosszabbíthatja a`ExcelFileManager` osztályt egyéb műveletek naplózásához, például fájlok szerkesztéséhez, törléséhez vagy megosztásához, az alkalmazás követelményeitől függően.

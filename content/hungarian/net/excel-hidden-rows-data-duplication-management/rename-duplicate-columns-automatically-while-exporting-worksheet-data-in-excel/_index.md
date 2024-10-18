@@ -61,7 +61,7 @@ ws.Cells["B2"].PutValue("Data");
 ws.Cells["C2"].PutValue("Data");
 ```
 Itt minden oszlophoz kitöltjük a 2. sort az „Adatok” mezővel. Képzeld el úgy, mintha minden edénybe ugyanazt a tartalmat tennéd.
-## 5. lépés: Az ExportTableOptions létrehozása
+## 5. lépés: Hozzon létre ExportTableOptions
  An`ExportTableOptions`objektum lehetővé teszi számunkra, hogy meghatározzuk, hogyan kezeljük az exportálási folyamatot. Itt határozzuk meg azt a szándékunkat, hogy az ismétlődő oszlopneveket automatikusan kezeljük.
 ```csharp
 ExportTableOptions opts = new ExportTableOptions();

@@ -26,7 +26,7 @@ Nosso objetivo é criar uma planilha do Excel com menus suspensos em cascata. Im
 
 ## Etapa 1: Criando a pasta de trabalho do Excel
 
-Primeiro, vamos criar uma planilha do Excel usando Aspose.Cells para Java. Adicionaremos duas planilhas: uma para a lista de países e outra para a lista de cidades.
+Primeiro, vamos criar uma pasta de trabalho do Excel usando Aspose.Cells para Java. Adicionaremos duas planilhas: uma para a lista de países e outra para a lista de cidades.
 
 ```java
 // Código Java para criar uma pasta de trabalho do Excel

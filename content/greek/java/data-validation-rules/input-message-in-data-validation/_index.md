@@ -105,7 +105,7 @@ validation.setInputMessage("Please enter a decimal number.");
 validation.setErrorMessage("Invalid input. Please enter a valid decimal number.");
 ```
 
-## Επικύρωση καταχωρήσεων ημερομηνίας
+## Επικύρωση εγγραφών ημερομηνίας
 
 Η επικύρωση δεδομένων μπορεί επίσης να χρησιμοποιηθεί για να διασφαλιστεί ότι οι καταχωρίσεις ημερομηνιών βρίσκονται εντός συγκεκριμένου εύρους ή μορφής.
 

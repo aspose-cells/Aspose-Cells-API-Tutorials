@@ -10,7 +10,7 @@ url: /id/java/data-validation-rules/cascading-dropdowns-in-excel/
 
 ## Pengenalan Dropdown Berjenjang di Excel
 
-Dalam dunia manipulasi spreadsheet, Aspose.Cells for Java merupakan perangkat canggih yang memberdayakan pengembang untuk bekerja dengan file Excel secara efisien. Salah satu fitur menarik yang ditawarkannya adalah kemampuan untuk membuat dropdown bertingkat di Excel, yang memungkinkan pengguna untuk memilih opsi secara dinamis berdasarkan pilihan sebelumnya. Dalam panduan langkah demi langkah ini, kita akan menyelami proses penerapan dropdown bertingkat menggunakan Aspose.Cells for Java. Jadi, mari kita mulai!
+Dalam dunia manipulasi spreadsheet, Aspose.Cells for Java merupakan perangkat canggih yang memberdayakan pengembang untuk bekerja dengan file Excel secara efisien. Salah satu fitur menarik yang ditawarkannya adalah kemampuan untuk membuat dropdown berjenjang di Excel, yang memungkinkan pengguna untuk memilih opsi secara dinamis berdasarkan pilihan sebelumnya. Dalam panduan langkah demi langkah ini, kita akan menyelami proses penerapan dropdown berjenjang menggunakan Aspose.Cells for Java. Jadi, mari kita mulai!
 
 ## Prasyarat
 
@@ -51,7 +51,7 @@ countrySheet.getCells().get("A4").putValue("UK");
 
 ## Langkah 3: Membuat Dropdown
 
-Selanjutnya, kita akan membuat daftar dropdown untuk kolom negara dan kota. Dropdown ini akan ditautkan sedemikian rupa sehingga saat negara dipilih, dropdown kota akan diperbarui sesuai dengan pilihan.
+Selanjutnya, kita akan membuat daftar dropdown untuk kolom negara dan kota. Dropdown ini akan ditautkan sedemikian rupa sehingga saat suatu negara dipilih, dropdown kota akan diperbarui sebagaimana mestinya.
 
 ```java
 // Kode Java untuk membuat daftar dropdown
@@ -97,7 +97,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 
 ## Kesimpulan
 
-Dalam panduan komprehensif ini, kami mengeksplorasi cara membuat dropdown bertingkat di Excel menggunakan Aspose.Cells untuk Java. Kami mulai dengan menyiapkan prasyarat, membuat buku kerja Excel, mengisi data, lalu mempelajari seluk-beluk pembuatan dropdown dan penerapan perilaku bertingkat yang dinamis. Sebagai pengembang, kini Anda memiliki pengetahuan dan alat untuk menyempurnakan file Excel Anda dengan dropdown interaktif, yang memberikan pengalaman pengguna yang lancar.
+Dalam panduan lengkap ini, kami menjajaki cara membuat dropdown bertingkat di Excel menggunakan Aspose.Cells untuk Java. Kami mulai dengan menyiapkan prasyarat, membuat buku kerja Excel, mengisi data, lalu mendalami seluk-beluk pembuatan dropdown dan penerapan perilaku bertingkat yang dinamis. Sebagai pengembang, kini Anda memiliki pengetahuan dan alat untuk menyempurnakan file Excel Anda dengan dropdown interaktif, yang memberikan pengalaman pengguna yang lancar.
 
 ## Pertanyaan yang Sering Diajukan
 

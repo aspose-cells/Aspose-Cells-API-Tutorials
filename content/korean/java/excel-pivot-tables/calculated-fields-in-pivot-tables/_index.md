@@ -2,7 +2,7 @@
 title: 피벗 테이블의 계산 필드
 linktitle: 피벗 테이블의 계산 필드
 second_title: Aspose.Cells Java Excel 처리 API
-description: Aspose.Cells for Java를 사용하여 피벗 테이블에서 계산된 필드를 만드는 방법을 알아보세요. Excel에서 사용자 정의 계산으로 데이터 분석을 강화하세요.
+description: Aspose.Cells for Java를 사용하여 피벗 테이블에서 계산된 필드를 만드는 방법을 알아보세요. Excel에서 사용자 지정 계산으로 데이터 분석을 강화하세요.
 type: docs
 weight: 15
 url: /ko/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
@@ -72,8 +72,8 @@ pivotTable.calculateData();
 ### Aspose.Cells for Java는 대규모 데이터 세트에 적합합니까?
    네, Aspose.Cells for Java는 대용량 Excel 파일과 데이터 세트를 효율적으로 처리하도록 설계되었습니다.
 
-### 피벗 테이블의 계산된 필드에는 제한이 있나요?
+### 피벗 테이블의 계산된 필드에는 제한이 있습니까?
    계산된 필드에는 특정 유형의 계산을 지원하지 않는 것과 같은 몇 가지 제한이 있습니다. 자세한 내용은 설명서를 확인하세요.
 
 ### Java용 Aspose.Cells에 대한 추가 리소스는 어디에서 찾을 수 있나요?
-    API 설명서는 다음에서 살펴볼 수 있습니다.[Java 설명서용 Aspose.Cells](https://reference.aspose.com/cells/java/).
+    API 문서는 다음에서 살펴볼 수 있습니다.[Java 설명서용 Aspose.Cells](https://reference.aspose.com/cells/java/).

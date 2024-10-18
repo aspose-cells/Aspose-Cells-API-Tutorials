@@ -78,7 +78,7 @@ Et voilà ! Vous avez réussi à retracer des précédents dans Excel à l'aide
 ## FAQ
 ### Qu'est-ce qu'Aspose.Cells ?  
 Aspose.Cells est une bibliothèque .NET utilisée pour créer, manipuler et convertir des feuilles de calcul Excel sans Microsoft Excel.
-### Comment puis-je obtenir un essai gratuit d'Aspose.Cells ?  
+### Comment obtenir un essai gratuit d'Aspose.Cells ?  
  Vous pouvez télécharger la version d'essai gratuite à partir du[Page de sortie d'Aspose](https://releases.aspose.com/).
 ### Puis-je retracer des précédents sur plusieurs feuilles ?  
  Oui, vous pouvez ; parcourez simplement le`ReferredAreaCollection` pour accéder aux feuilles.

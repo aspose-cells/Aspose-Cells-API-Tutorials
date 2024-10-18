@@ -18,7 +18,7 @@ url: /zh-hant/net/excel-worksheet-csharp-tutorials/get-excel-worksheet-by-name-c
 1. .NET 開發環境：確保您有一個可以使用的 .NET 開發環境。您可以使用 Visual Studio 或您選擇的任何其他 IDE。
 2.  Aspose.Cells 函式庫：您也應該安裝 Aspose.Cells 函式庫。如果您還沒有這樣做，別擔心！你可以下載它[這裡](https://releases.aspose.com/cells/net/).
 3. 對 C# 的基本了解：了解 C# 程式設計的基礎知識將幫助您順利進行操作。
-4.  Excel 檔案：準備好您想要使用的 Excel 檔案。對於我們的範例，我們將使用一個名為的簡單文件`book1.xlsx`至少有一個名為「Sheet1」的工作表。
+4. Excel 檔案：準備好您想要使用的 Excel 檔案。對於我們的範例，我們將使用一個名為的簡單文件`book1.xlsx`至少有一個名為「Sheet1」的工作表。
 
 現在一切都準備好了，讓我們開始吧！
 
@@ -42,7 +42,7 @@ using Aspose.Cells;
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; //指定您的文件目錄
-string InputPath = Path.Combine(dataDir, "book1.xlsx"); //組合起來形成完整路徑
+string InputPath = Path.Combine(dataDir, "book1.xlsx"); //組合形成完整路徑
 ```
 
 在這裡，替換`"YOUR DOCUMENT DIRECTORY"`與系統上的實際路徑一起`book1.xlsx`被儲存。利用`Path.Combine`很簡潔，因為它確保在不同作業系統上正確建立路徑。

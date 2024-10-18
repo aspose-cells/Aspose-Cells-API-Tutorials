@@ -1,6 +1,6 @@
 ---
-title: Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem
-linktitle: Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem
+title: Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem
+linktitle: Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem
 second_title: Aspose.Cells dla .NET API Reference
 description: Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń.
 type: docs
@@ -15,7 +15,7 @@ W dzisiejszym cyfrowym miejscu pracy udostępnianie dokumentów jest powszechnym
 
 Zanim zagłębimy się w kod, upewnij się, że masz przygotowane następujące elementy:
 
-- Podstawowa znajomość języka C#: Nie musisz być ekspertem od kodowania, ale powinieneś dobrze znać składnię i pojęcia języka C#.
+- Podstawowa znajomość języka C#: Nie musisz być ekspertem od kodowania, ale powinieneś czuć się komfortowo ze składnią i koncepcjami języka C#.
 -  Aspose.Cells dla .NET: Upewnij się, że biblioteka jest zainstalowana w Twoim projekcie. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 - .NET SDK: Upewnij się, że masz zainstalowany .NET SDK do uruchomienia aplikacji.
 - Visual Studio lub dowolne środowisko IDE: Skonfiguruj preferowane środowisko kodowania, aby pisać i wykonywać kod.
@@ -100,7 +100,7 @@ Dzięki temu będziesz mieć pewność, że kod został wykonany zgodnie z oczek
 
 ## Wniosek
 
-tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu za pomocą Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, a jednocześnie umożliwić współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
+tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, jednocześnie umożliwiając współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
 
 ## Najczęściej zadawane pytania
 

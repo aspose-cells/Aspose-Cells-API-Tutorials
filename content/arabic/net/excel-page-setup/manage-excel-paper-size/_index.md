@@ -17,8 +17,8 @@ url: /ar/net/excel-page-setup/manage-excel-paper-size/
 
 1. الفهم الأساسي لـ C#: إن الإلمام ببرمجة C# سوف يسهل بشكل كبير عملية دمج Aspose.Cells في مشاريعك.
 2. تم تثبيت Visual Studio: تأكد من تثبيت Visual Studio على جهازك لكتابة وتنفيذ كود C#.
-3.  Aspose.Cells لمكتبة .NET: ستحتاج إلى الحصول على Aspose.Cells. يمكنك[تحميله هنا](https://releases.aspose.com/cells/net/).
-4. مدير الحزم NuGet: تأكد من أن لديك إمكانية الوصول إلى مدير الحزم NuGet لأنه يمكنك بسهولة تثبيت Aspose.Cells باستخدامها.
+3. Aspose.Cells لمكتبة .NET: ستحتاج إلى الحصول على Aspose.Cells. يمكنك[تحميله هنا](https://releases.aspose.com/cells/net/).
+4. مدير حزمة NuGet: تأكد من أن لديك إمكانية الوصول إلى مدير حزمة NuGet حيث يمكنك بسهولة تثبيت Aspose.Cells باستخدامها.
 
 مع وضع هذه المتطلبات الأساسية في الاعتبار، دعونا نبدأ!
 
@@ -38,7 +38,7 @@ url: /ar/net/excel-page-setup/manage-excel-paper-size/
 
 ### استيراد المساحات المطلوبة
 
-في الجزء العلوي من ملف C#، قم باستيراد المساحات التالية:
+في أعلى ملف C#، قم باستيراد المساحات التالية:
 
 ```csharp
 using System.IO;

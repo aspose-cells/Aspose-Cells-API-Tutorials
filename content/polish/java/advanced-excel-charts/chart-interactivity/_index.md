@@ -10,13 +10,13 @@ url: /pl/java/advanced-excel-charts/chart-interactivity/
 
 ## Wstęp
 
-Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając użytkownikom lepiej eksplorować i rozumieć dane. W tym samouczku pokażemy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells for Java. Dowiesz się, jak dodawać funkcje, takie jak podpowiedzi, etykiety danych i funkcje przechodzenia do szczegółów, do wykresów, dzięki czemu prezentacje danych będą bardziej angażujące.
+Interaktywne wykresy dodają nowy wymiar do wizualizacji danych, pozwalając użytkownikom lepiej eksplorować i rozumieć dane. W tym samouczku pokażemy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells dla Java. Dowiesz się, jak dodawać funkcje, takie jak podpowiedzi, etykiety danych i funkcje przechodzenia do szczegółów, do wykresów, dzięki czemu prezentacje danych będą bardziej angażujące.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 - Środowisko programistyczne Java
-- Biblioteka Aspose.Cells dla Java (do pobrania z[Tutaj](https://releases.aspose.com/cells/java/)
+-  Biblioteka Aspose.Cells dla Java (do pobrania z[Tutaj](https://releases.aspose.com/cells/java/)
 
 ## Krok 1: Konfigurowanie projektu Java
 
@@ -25,7 +25,7 @@ Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 ## Krok 2: Ładowanie danych
 
-Aby tworzyć interaktywne wykresy, potrzebujesz danych. Zacznijmy od załadowania przykładowych danych z pliku Excel za pomocą Aspose.Cells.
+Aby utworzyć interaktywne wykresy, potrzebujesz danych. Zacznijmy od załadowania przykładowych danych z pliku Excel za pomocą Aspose.Cells.
 
 ```java
 // Załaduj plik Excel
@@ -68,7 +68,7 @@ Aby wdrożyć funkcjonalność przechodzenia w dół, możesz użyć hiperłącz
 
 ```java
 // Dodaj hiperłącze do punktu danych
-String url = "https://example.com/data-details";
+String url = "https://example.com/szczegóły-danych";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 

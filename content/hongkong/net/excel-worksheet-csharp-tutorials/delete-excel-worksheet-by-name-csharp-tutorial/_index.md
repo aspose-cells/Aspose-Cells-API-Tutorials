@@ -15,7 +15,7 @@ url: /zh-hant/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-nam
 
 在我們開始之前，您需要確保做好準備：
 
-1. Aspose.Cells for .NET Library：這是讓操作 Excel 檔案成為可能的核心元件。如果您還沒有安裝，您可以[從這裡下載](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells for .NET Library：這是讓操作 Excel 檔案成為可能的核心元件。如果您還沒有安裝，您可以[從這裡下載](https://releases.aspose.com/cells/net/).
 2. 開發環境：您應該設定一個開發環境，最好是 Visual Studio，您可以在其中編寫和執行 C# 程式碼。
 3. 對 C# 的基本了解：雖然我將解釋每個步驟，但對 C# 的基本了解將幫助您更好地進行操作。
 4. Excel 檔案：您應該製作一個 Excel 檔案（我們將在本教學中引用「book1.xls」）。為此，您可以建立一個包含幾個工作表的簡單檔案。
@@ -89,14 +89,14 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## 結論
 
-現在你就擁有了！您已成功學習如何使用 Aspose.Cells for .NET 按名稱刪除 Excel 工作表。這個功能強大的程式庫可讓您輕鬆操作 Excel 文件，並且利用這些知識，您可以進一步探索編輯和管理各種應用程式的 Excel 文件。
+現在你就得到它了！您已成功學習如何使用 Aspose.Cells for .NET 按名稱刪除 Excel 工作表。這個強大的程式庫使您可以輕鬆地操作 Excel 文件，並且有了這些知識，您可以進一步探索編輯和管理各種應用程式的 Excel 文件。
 
 您可以隨意嘗試 Aspose.Cells 庫的其他功能，並在您感到熟悉後毫不猶豫地嘗試更複雜的操作。
 
 ## 常見問題解答
 
 ### Aspose.Cells 可以免費使用嗎？
-Aspose.Cells 提供免費試用，但您需要購買授權才能繼續使用。您可以獲得免費試用[這裡](https://releases.aspose.com/).
+ Aspose.Cells 提供免費試用，但您需要購買授權才能繼續使用。您可以獲得免費試用[這裡](https://releases.aspose.com/).
 
 ### 我可以一次刪除多個工作表嗎？
 您可以迭代工作表集合併使用循環刪除多個工作表。只要確保正確管理索引即可。

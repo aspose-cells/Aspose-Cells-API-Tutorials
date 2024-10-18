@@ -80,4 +80,4 @@ Das Anpassen von Pivot-Tabellenstilen in Aspose.Cells für Java API ist unkompli
 ### Wo finde ich weitere Dokumentation zur Pivot-Tabellenanpassung?
     Die API-Dokumentation finden Sie unter[Aspose.Cells für Java API-Referenzen](https://reference.aspose.com/cells/java/) für detaillierte Informationen.
 
-Jetzt verfügen Sie über das Wissen, um Pivot-Tabellenstile in Aspose.Cells für Java zu erstellen und anzupassen. Erkunden Sie die Seite weiter und machen Sie Ihre Datenpräsentationen wirklich außergewöhnlich!
+Jetzt verfügen Sie über das Wissen, Pivot-Tabellenstile in Aspose.Cells für Java zu erstellen und anzupassen. Erkunden Sie die Möglichkeiten weiter und machen Sie Ihre Datenpräsentationen wirklich außergewöhnlich!

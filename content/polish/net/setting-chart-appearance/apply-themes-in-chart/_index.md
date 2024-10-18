@@ -13,7 +13,7 @@ Tworzenie atrakcyjnych wizualnie wykresów w programie Excel jest kluczowe dla s
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do sekcji kodowania, musisz spełnić kilka warunków wstępnych.
+Zanim przejdziemy do sekcji dotyczącej kodowania, musisz spełnić kilka warunków wstępnych.
 
 ### Wymagane oprogramowanie
 
@@ -50,7 +50,7 @@ string sourceDir = "Your Document Directory";
 
  Tutaj zamień`Your Output Directory` I`Your Document Directory` ze swoimi konkretnymi ścieżkami. Jasne zdefiniowanie tych katalogów usprawni Twój przepływ pracy i uniknie wszelkich niejasności w przyszłości.
 
-## Krok 2: Utwórz instancję skoroszytu
+## Krok 2: Utwórz skoroszyt
 
  Następnie czas otworzyć plik Excel zawierający wykres, który chcesz zmodyfikować. Robimy to, tworząc wystąpienie`Workbook` klasy i wczytania pliku źródłowego.
 
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Upewnij się, że`sampleApplyingThemesInChart.xlsx` istnieje w katalogu źródłowym.
+ Upewnij się, że`sampleApplyingThemesInChart.xlsx`znajduje się w katalogu źródłowym.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -77,7 +77,7 @@ W tym przypadku po prostu pobieramy pierwszy arkusz, co jest wystarczające dla 
 Mając już arkusz kalkulacyjny, możemy uzyskać dostęp do wykresu, który chcemy stylizować.
 
 ```csharp
-//Pobierz pierwszy wykres w arkuszu
+// Pobierz pierwszy wykres w arkuszu
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Ta linijka kodu sprawia, że pierwsza seria na wykresie ma ustawione wypełnieni
 
 ## Krok 6: Skonfiguruj kolor
 
- Teraz, gdy nasza seria jest gotowa, musimy zmodyfikować jej kolor. Wiąże się to z utworzeniem`CellsColor` obiekt i określenie koloru motywu. Wybierzemy styl akcentu dla tego przykładu.
+ Teraz, gdy nasza seria jest gotowa, musimy zmodyfikować jej kolor. Wiąże się to z utworzeniem`CellsColor`obiekt i określenie koloru motywu. Wybierzemy styl akcentu dla tego przykładu.
 
 ```csharp
 // Pobierz kolor komórek SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Utwórz motyw w stylu Accent
+// Utwórz motyw w stylu Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -112,7 +112,7 @@ Oto co się dzieje:
 
 ## Krok 7: Zastosuj motyw do serii
 
-Po skonfigurowaniu koloru czas zastosować nowy motyw w naszej serii. 
+Po skonfigurowaniu koloru czas zastosować nowy motyw do naszej serii. 
 
 ```csharp
 // Zastosuj motyw do serii
@@ -154,7 +154,7 @@ Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca progr
 ### Czy mogę wypróbować Aspose.Cells przed zakupem?
  Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
-### Jakie rodzaje motywów wykresów mogę stosować?
+### Jakie rodzaje motywów wykresów mogę zastosować?
 Aspose.Cells obsługuje różne kolory motywu, w tym style akcentujące i inne.
 
 ### Czy można stosować motywy do wielu wykresów?

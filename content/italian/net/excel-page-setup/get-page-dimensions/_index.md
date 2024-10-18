@@ -9,7 +9,7 @@ url: /it/net/excel-page-setup/get-page-dimensions/
 ---
 ## Introduzione
 
-Quando si tratta di gestire fogli di calcolo in applicazioni .NET, la libreria Aspose.Cells si distingue come uno strumento robusto che consente agli sviluppatori di manipolare facilmente i file Excel. Ma come si ottengono le dimensioni di pagina per vari formati di carta con questa potente libreria? In questo tutorial, ti guideremo passo dopo passo nel processo, assicurandoti non solo di ottenere informazioni sul funzionamento di Aspose.Cells, ma anche di diventare esperto nel suo utilizzo nei tuoi progetti. 
+Quando si tratta di gestire fogli di calcolo in applicazioni .NET, la libreria Aspose.Cells si distingue come uno strumento robusto che consente agli sviluppatori di manipolare facilmente i file Excel. Ma come si ottengono le dimensioni di pagina per vari formati di carta con questa potente libreria? In questo tutorial, ti guideremo passo dopo passo nel processo, assicurandoti non solo di ottenere informazioni sul funzionamento di Aspose.Cells, ma anche di diventare esperto nell'utilizzarlo nei tuoi progetti. 
 
 ## Prerequisiti 
 
@@ -115,7 +115,7 @@ Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.Pag
 
 ## Fase 5: Conclusione dell'output
 
-Infine, vorrai confermare che l'intera operazione sia stata completata con successo. Puoi semplicemente registrare questo stato nella console:
+Infine, vorrai confermare che l'intera operazione sia stata completata con successo. Puoi semplicemente registrare questo stato sulla console:
 
 ```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");

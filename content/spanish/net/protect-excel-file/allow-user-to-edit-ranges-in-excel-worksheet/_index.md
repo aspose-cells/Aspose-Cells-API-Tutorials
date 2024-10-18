@@ -15,7 +15,7 @@ Cuando se trata de trabajar con hojas de cálculo de Excel, la flexibilidad suel
 
 Antes de entrar en materia, asegurémonos de que tienes todo lo que necesitas para comenzar:
 
-1. Entorno de desarrollo .NET: debe tener configurado un entorno de desarrollo .NET en funcionamiento (puede ser Visual Studio o cualquier otro IDE de su elección).
+1. Entorno de desarrollo .NET: debe tener configurado un entorno de desarrollo .NET funcional (puede ser Visual Studio o cualquier otro IDE de su elección).
 2.  Biblioteca Aspose.Cells para .NET: Descargue e instale la biblioteca Aspose.Cells. Puede encontrarla[aquí](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: la familiaridad con la programación en C# le ayudará a navegar por los ejemplos de código fácilmente.
 4. Comprender los conceptos básicos de Excel: saber cómo funciona Excel proporcionará una base para las funcionalidades que analizaremos.
@@ -41,7 +41,7 @@ Para cualquier operación con archivos, es fundamental tener una ubicación defi
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Crear directorio si aún no está presente.
+//Crear directorio si aún no está presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

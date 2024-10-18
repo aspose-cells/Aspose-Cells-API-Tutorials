@@ -41,7 +41,7 @@ Você sabia que o Excel pode conter arquivos incorporados? Se você já precisou
 
 ## Atualizando itens do Power Query
 
- O Power Queries pode ser um verdadeiro divisor de águas na manipulação de dados, permitindo que você simplifique como as informações são importadas para seus arquivos do Excel. Se você está se perguntando como atualizar itens de fórmula do Power Query no Excel usando Aspose.Cells para .NET, nosso tutorial sobre[Atualizar item de fórmula do Power Query](./update-power-query-formula-item/)é a solução. Ele fornece uma abordagem simples, passo a passo, para modificar esses itens de fórmula, permitindo que você mantenha seus dados atualizados e refletidos com precisão em suas pastas de trabalho.
+ O Power Queries pode ser um verdadeiro divisor de águas na manipulação de dados, permitindo que você agilize a forma como as informações são importadas para seus arquivos do Excel. Se você está se perguntando como atualizar itens de fórmula do Power Query no Excel usando o Aspose.Cells para .NET, nosso tutorial sobre[Atualizar item de fórmula do Power Query](./update-power-query-formula-item/)é a solução. Ele fornece uma abordagem simples, passo a passo, para modificar esses itens de fórmula, permitindo que você mantenha seus dados atualizados e refletidos com precisão em suas pastas de trabalho.
 
 ## Gerenciando visualizações de impressão
 
@@ -63,12 +63,12 @@ Então por que não aproveitar esta chance de aprimorar suas habilidades no Exce
 | --- | --- |
 | [Acessar informações de extensão da Web](./access-web-extension-information/) | Aprenda como acessar informações da extensão Web em arquivos do Excel usando o Aspose.Cells para .NET com nosso guia passo a passo. |  
 | [Adicionar assinatura digital a um arquivo Excel já assinado](./add-digital-signature-to-an-already-signed-excel-file/) | Aprenda como adicionar uma assinatura digital a um arquivo Excel já assinado usando o Aspose.Cells para .NET com este guia passo a passo detalhado. |  
-| [Adicionar extensão da Web](./add-web-extension/) | Aprenda como adicionar extensões da Web a arquivos do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo completo que aprimora as funcionalidades da sua planilha. |  
-| [Ajustar nível de compressão](./adjust-compression-level/) | Aprenda como ajustar os níveis de compactação para arquivos do Excel usando o Aspose.Cells para .NET. Otimize os tamanhos dos seus arquivos de forma eficiente com este guia passo a passo. |  
-| [Permitir apóstrofo inicial](./allow-leading-apostrophe/) | Gerencie apóstrofos iniciais sem esforço no Excel com Aspose.Cells para .NET. Este tutorial abrangente o guia passo a passo pelo processo. |  
-| [Criar pasta de trabalho compartilhada](./create-shared-workbook/) | Aprenda a criar uma pasta de trabalho compartilhada usando Aspose.Cells para .NET com este guia passo a passo simples. Perfeito para melhorar a colaboração em equipe. |  
+| [Adicionar extensão da Web](./add-web-extension/) | Aprenda como adicionar extensões da web a arquivos do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo completo que aprimora as funcionalidades da sua planilha. |  
+| [Ajustar nível de compressão](./adjust-compression-level/) | Aprenda como ajustar os níveis de compactação para arquivos do Excel usando o Aspose.Cells for .NET. Otimize os tamanhos dos seus arquivos de forma eficiente com este guia passo a passo. |  
+| [Permitir Apóstrofo Inicial](./allow-leading-apostrophe/) | Gerencie apóstrofos iniciais sem esforço no Excel com Aspose.Cells para .NET. Este tutorial abrangente o guia passo a passo pelo processo. |  
+| [Criar pasta de trabalho compartilhada](./create-shared-workbook/) | Aprenda a criar uma pasta de trabalho compartilhada usando Aspose.Cells for .NET com este guia passo a passo simples. Perfeito para melhorar a colaboração em equipe. |  
 | [Detectar tipos de links](./detect-link-types/) | Aprenda como detectar tipos de hiperlink no Excel usando Aspose.Cells para .NET. Etapas fáceis e exemplos de código incluídos. |  
-| [Extrair arquivo Mol incorporado](./extract-embedded-mol-file/) | Aprenda como extrair facilmente arquivos MOL incorporados de uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. |  
+| [Extrair arquivo Mol incorporado](./extract-embedded-mol-file/) | Aprenda a extrair facilmente arquivos MOL incorporados de uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. |  
 | [Filtrar nomes definidos ao carregar a pasta de trabalho](./filter-defined-names-while-loading-workbook/) | Aprenda como filtrar nomes definidos ao carregar uma pasta de trabalho com o Aspose.Cells para .NET neste guia abrangente. |  
 | [Obter detalhes do Odata](./get-odata-details/) | Descubra como extrair detalhes do OData do Excel usando o Aspose.Cells para .NET neste tutorial detalhado passo a passo. |  
 | [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) | Proteja seus arquivos compartilhados do Excel usando o Aspose.Cells para .NET com nosso guia fácil sobre proteção por senha e técnicas de desproteção. |  

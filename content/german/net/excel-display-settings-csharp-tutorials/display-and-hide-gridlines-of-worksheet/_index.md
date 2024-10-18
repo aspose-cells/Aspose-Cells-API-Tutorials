@@ -46,7 +46,7 @@ Bevor Sie eine Excel-Datei bearbeiten können, müssen Sie den Speicherort Ihrer
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- In diesem Schritt weisen Sie den Speicherort Ihrer Excel-Datei dem`dataDir` Zeichenfolge. Ersetzen`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, auf dem Ihr`.xls` die Datei befindet.
+ In diesem Schritt weisen Sie den Speicherort Ihrer Excel-Datei dem`dataDir` Zeichenfolge. Ersetzen`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad, auf dem Ihr`.xls`die Datei befindet.
 
 ## Schritt 2: Erstellen eines Dateistreams
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Excel-Dateien enthalten normalerweise mehrere Arbeitsblätter. Für dieses Tutorial greifen wir auf das erste Arbeitsblatt in der Arbeitsmappe zu.
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Jetzt kommt der spaßige Teil – das Ausblenden der Gitternetzlinien! Mit nur einer Codezeile können Sie die Sichtbarkeit der Gitternetzlinien umschalten.
 
 ```csharp
-//Ausblenden der Gitternetzlinien des ersten Arbeitsblatts der Excel-Datei
+// Ausblenden der Gitternetzlinien des ersten Arbeitsblatts der Excel-Datei
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Das Schließen des Dateistreams ist wichtig, da dadurch sichergestellt wird, das
 
 ## Abschluss
 
-Und das war’s! Sie haben gerade gelernt, wie Sie mit Aspose.Cells für .NET Gitternetzlinien in einem Excel-Arbeitsblatt ein- und ausblenden. Egal, ob Sie einen Bericht aufpolieren oder Daten in einem besser lesbaren Format präsentieren, diese einfache Technik kann das Aussehen Ihrer Tabellen erheblich beeinflussen. Und das Beste daran? Es sind nur ein paar Zeilen Code erforderlich, um große Änderungen vorzunehmen. Wenn Sie bereit sind, dies auszuprobieren, vergessen Sie nicht, sich einen[Kostenlose Testversion](https://releases.aspose.com/) und fangen Sie an zu programmieren!
+ Und das war’s! Sie haben gerade gelernt, wie Sie mit Aspose.Cells für .NET Gitternetzlinien in einem Excel-Arbeitsblatt ein- und ausblenden. Egal, ob Sie einen Bericht aufpolieren oder Daten in einem besser lesbaren Format präsentieren, diese einfache Technik kann das Aussehen Ihrer Tabellen erheblich beeinflussen. Und das Beste daran? Es sind nur ein paar Zeilen Code erforderlich, um große Änderungen vorzunehmen. Wenn Sie bereit sind, dies auszuprobieren, vergessen Sie nicht, sich einen[Kostenlose Testversion](https://releases.aspose.com/) und fangen Sie an zu programmieren!
 
 ## Häufig gestellte Fragen
 
@@ -124,7 +124,7 @@ Und das war’s! Sie haben gerade gelernt, wie Sie mit Aspose.Cells für .NET Gi
  Sie können festlegen`worksheet.IsGridlinesVisible = true;` um die Gitternetzlinien wieder sichtbar zu machen.
 
 ### Kann ich Gitternetzlinien nur für bestimmte Bereiche oder Zellen ausblenden?  
- Nein, die`IsGridlinesVisible` -Eigenschaft gilt für das gesamte Arbeitsblatt, nicht für bestimmte Zellen.
+ Nein, die`IsGridlinesVisible`-Eigenschaft gilt für das gesamte Arbeitsblatt, nicht für bestimmte Zellen.
 
 ### Kann ich mehrere Arbeitsblätter auf einmal bearbeiten?  
  Ja! Sie können die`Worksheets` Sammlung und wenden Sie die Änderungen auf jedes Blatt an.

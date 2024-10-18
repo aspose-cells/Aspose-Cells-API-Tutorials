@@ -45,7 +45,7 @@ V tomto kroku vytvoříme nový sešit. Sešit je v podstatě celý soubor Excel
 Workbook wb = new Workbook();
 ```
 Tento řádek kódu inicializuje novou instanci sešitu, což nám poskytuje čistý štít, se kterým můžeme pracovat.
-## Krok 2: Otevřete první pracovní list
+## Krok 2: Otevřete první list
 Dále musíme získat konkrétní pracovní list v sešitu. Ve výchozím nastavení nám Excel poskytuje jeden list – uhodli jste – první!
 ```csharp
 // Přístup k prvnímu listu.
@@ -82,7 +82,7 @@ Console.WriteLine("Creating Range A1\n");
 rng = ws.Cells.CreateRange("A1");
 ```
 Tím se vytvoří nový rozsah, který se skládá pouze z buňky A1.
-## Krok 7: Načtení a tisk ofsetu
+## Krok 7: Vyhledejte a vytiskněte ofset
 Pojďme prozkoumat některé skvělé funkce řady. Například můžeme určit posun od A1 k jiné buňce.
 ```csharp
 // Posun rozsahu tisku, celý sloupec a celý řádek.

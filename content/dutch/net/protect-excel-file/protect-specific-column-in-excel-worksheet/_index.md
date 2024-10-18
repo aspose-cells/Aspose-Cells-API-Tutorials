@@ -48,7 +48,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Het codefragment maakt een map aan op het opgegeven pad, als deze nog niet bestaat. Zo weet u zeker dat u een veilige locatie hebt voor uw uitvoerbestand.
+Het codefragment maakt een map aan op het opgegeven pad (als deze nog niet bestaat). Zo weet u zeker dat uw uitvoerbestand veilig is opgeslagen.
 
 ## Stap 2: Maak een nieuwe werkmap
 

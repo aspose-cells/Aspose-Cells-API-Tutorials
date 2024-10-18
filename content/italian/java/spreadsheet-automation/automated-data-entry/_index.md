@@ -8,7 +8,7 @@ weight: 11
 url: /it/java/spreadsheet-automation/automated-data-entry/
 ---
 
-Nel mondo odierno basato sui dati, l'immissione dati efficiente è fondamentale per le aziende. L'immissione manuale dei dati non solo consuma tempo, ma aumenta anche il rischio di errori. Per superare queste sfide, esploreremo come automatizzare l'immissione dati utilizzando Aspose.Cells per Java, una potente API Java per lavorare con file Excel.
+Nel mondo odierno guidato dai dati, l'immissione dati efficiente è fondamentale per le aziende. L'immissione manuale dei dati non solo consuma tempo, ma aumenta anche il rischio di errori. Per superare queste sfide, esploreremo come automatizzare l'immissione dati utilizzando Aspose.Cells per Java, una potente API Java per lavorare con file Excel.
 
 ## Perché automatizzare l'immissione dei dati?
 

@@ -89,15 +89,15 @@ Console.WriteLine("AddingLinkToOtherSheetCell executed successfully.");
 ```
 就这样！您已经创建了一个基本的 C# 程序，该程序使用 Aspose.Cells for .NET 将内部超链接添加到 Excel 工作簿。
 ## 结论
-在本教程中，我们介绍了使用 Aspose.Cells for .NET 在 Excel 工作簿中添加指向另一张工作表的超链接所需的步骤。电子表格中的链接可以充当数据海洋中的地标，使导航变得轻而易举。想象一下，如果正确链接电子表格，您的工作流程会变得多么高效！现在您已经掌握了这个强大的工具，请随意尝试使用 Aspose.Cells 功能来提高您的工作效率。
+在本教程中，我们介绍了使用 Aspose.Cells for .NET 在 Excel 工作簿中添加指向另一张工作表的超链接所需的步骤。电子表格中的链接可以充当数据海洋中的地标，使导航变得轻而易举。想象一下，如果正确链接电子表格，您的工作流程会变得多么高效！现在您已经拥有了这个强大的工具，请随意尝试使用 Aspose.Cells 功能来提高您的工作效率。
 ## 常见问题解答
 ### 什么是 Aspose.Cells？  
 Aspose.Cells 是一个功能强大的.NET 库，无需使用 Microsoft Excel 即可创建和操作 Excel 文件。
 ### 我可以免费使用 Aspose.Cells 吗？  
-是的！您可以从[这里](https://releases.aspose.com/).
+是的！你可以从[这里](https://releases.aspose.com/).
 ### 我需要安装 Microsoft Excel 才能使用 Aspose.Cells 吗？  
 不是，Aspose.Cells 独立于 Microsoft Excel 运行。
 ### 是否可以链接到多张工作表？  
-当然可以！您可以使用相同的方法创建指向不同工作表的多个超链接。
+当然可以！您可以使用相同方法创建指向不同工作表的多个超链接。
 ### 我可以在哪里获得 Aspose.Cells 的支持？  
 您可以联系 Aspose 社区寻求支持[这里](https://forum.aspose.com/c/cells/9).

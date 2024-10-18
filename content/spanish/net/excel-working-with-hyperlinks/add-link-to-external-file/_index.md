@@ -8,7 +8,7 @@ weight: 10
 url: /es/net/excel-working-with-hyperlinks/add-link-to-external-file/
 ---
 ## Introducción
-Cuando se trata de trabajar con archivos de Excel de forma programada, es fundamental que sean interactivos y estén conectados a otros recursos. Una de esas funciones es agregar hipervínculos que vinculen a archivos externos. Ya sea que esté trabajando en un panel corporativo, un informe de proyecto o simplemente en hojas de cálculo personales, saber cómo crear estas conexiones puede aumentar su productividad y su organización. En esta guía, analizaremos en profundidad cómo integrar hipervínculos sin problemas en sus hojas de cálculo mediante Aspose.Cells para .NET.
+Cuando se trata de trabajar con archivos de Excel de forma programada, es fundamental que sean interactivos y estén conectados a otros recursos. Una de esas funciones es agregar hipervínculos que vinculen a archivos externos. Ya sea que esté trabajando en un panel corporativo, un informe de proyecto o simplemente en hojas de cálculo personales, saber cómo crear estas conexiones puede aumentar su productividad y su organización. En esta guía, analizaremos en profundidad cómo integrar hipervínculos sin problemas en sus hojas de cálculo utilizando Aspose.Cells para .NET.
 ## Prerrequisitos
 Antes de comenzar con la parte de codificación, debes asegurarte de que tu entorno esté configurado correctamente. Esto es lo que necesitarás:
 1. Conocimientos básicos de C#: Estar familiarizado con C# sería beneficioso ya que los ejemplos están codificados en este lenguaje.
@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Paso 2: Crear un objeto de libro de trabajo
 A continuación, crearemos un nuevo libro de Excel. Este será el lienzo en blanco donde podrá comenzar a agregar funcionalidades.
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
  Piensa en el`Workbook` Como un nuevo cuaderno donde puedes anotar todo lo que necesites. ¡Ahora está vacío, listo para que lo escribas!
@@ -56,7 +56,7 @@ worksheet.Hyperlinks[0].TextToDisplay = "Link To External File";
 ## Paso 5: Guardar el libro de trabajo
 Después de crear tu obra maestra, es hora de guardarla. Esto creará tu archivo de Excel con el hipervínculo recién agregado.
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(outputDir + "outputAddingLinkToExternalFile.xlsx");
 ```
 Aquí puedes ponerle nombre a tu nuevo documento. ¡Piensa que es como cerrar tu cuaderno después de tomar notas importantes!
@@ -79,7 +79,7 @@ Esta línea mostrará un mensaje que confirma el éxito de la operación en tu c
 ### ¿Qué es Aspose.Cells?
 Aspose.Cells es una biblioteca .NET utilizada para crear y manipular archivos Excel mediante programación.
 ### ¿Puedo utilizar Aspose.Cells gratis?
- Sí, Aspose ofrece una versión de prueba gratuita disponible para descargar.[aquí](https://releases.aspose.com/).
+ Sí, Aspose ofrece una versión de prueba gratuita disponible para descargar[aquí](https://releases.aspose.com/).
 ### ¿Cómo obtengo una licencia temporal para Aspose.Cells?
  Puede solicitar una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar más ejemplos del uso de Aspose.Cells?

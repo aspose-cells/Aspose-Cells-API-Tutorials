@@ -1,6 +1,6 @@
 ---
-title: Validación de fechas en hojas de cálculo
-linktitle: Validación de fechas en hojas de cálculo
+title: Validación de fecha en hojas de cálculo
+linktitle: Validación de fecha en hojas de cálculo
 second_title: API de procesamiento de Excel en Java Aspose.Cells
 description: Aprenda a realizar la validación de fechas en hojas de cálculo de Excel con Aspose.Cells para Java. Garantice la precisión e integridad de los datos con nuestra guía paso a paso. Explore potentes técnicas de manipulación de Excel.
 type: docs

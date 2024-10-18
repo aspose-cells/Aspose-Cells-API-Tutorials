@@ -47,7 +47,7 @@ using System;
 
 这样，您就可以开始编码了！
 
-现在我们将逐步介绍使用 Aspose.Cells 在 Excel 文件中添加分页符的过程。
+现在我们将逐步介绍使用 Aspose.Cells 向 Excel 文件添加分页符的过程。
 
 ## 步骤 1：设置环境
 

@@ -83,7 +83,7 @@ pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // Automatische Zwis
 
 ## Daten analysieren
 
-Nachdem wir unsere Pivot-Tabelle erstellt und angepasst haben, ist es nun an der Zeit, die Daten zu analysieren. Mithilfe der Pivot-Tabelle können Sie Erkenntnisse gewinnen, Trends erkennen und fundierte Entscheidungen treffen.
+Nachdem wir nun unsere Pivot-Tabelle erstellt und angepasst haben, ist es an der Zeit, die Daten zu analysieren. Sie können die Pivot-Tabelle verwenden, um Erkenntnisse zu gewinnen, Trends zu erkennen und fundierte Entscheidungen zu treffen.
 
 ## Abschluss
 

@@ -55,7 +55,7 @@ public class FileAccessLogger {
 
 ## 第三步：使用Aspose.Cells執行檔案操作
 
-現在，讓我們將 Aspose.Cells 整合到我們的專案中以執行檔案操作和日誌存取活動。我們將建立一個名為`ExcelFileManager.java`:
+現在，讓我們將 Aspose.Cells 整合到我們的專案中以執行檔案操作和日誌存取活動。我們將建立一個名為`ExcelFileManager.java`：
 
 ```java
 import com.aspose.cells.Workbook;

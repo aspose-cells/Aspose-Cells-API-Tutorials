@@ -20,7 +20,7 @@ Bevor wir uns mit den Einzelheiten der Randeinstellung in Excel-Tabellen befasse
 3. IDE-Setup: Stellen Sie sicher, dass Sie eine Entwicklungsumgebung eingerichtet haben. IDEs wie Visual Studio eignen sich hervorragend für die C#-Entwicklung.
 4.  Lizenzschlüssel (optional): Sie können zwar eine Testversion verwenden, aber mit einer temporären oder Volllizenz können Sie alle Funktionen freischalten. Weitere Informationen zur Lizenzierung finden Sie hier[Hier](https://purchase.aspose.com/temporary-license/).
 
-Nachdem wir nun unsere Voraussetzungen erfüllt haben, stürzen wir uns direkt in den Code und sehen uns Schritt für Schritt an, wie wir Excel-Ränder manipulieren können.
+Nachdem wir nun unsere Voraussetzungen erfüllt haben, stürzen wir uns direkt in den Code und sehen uns Schritt für Schritt an, wie wir Excel-Ränder bearbeiten können.
 
 ## Pakete importieren
 

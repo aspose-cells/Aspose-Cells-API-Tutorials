@@ -8,7 +8,7 @@ weight: 15
 url: /fr/java/excel-pivot-tables/calculated-fields-in-pivot-tables/
 ---
 ## Introduction
-Les tableaux croisés dynamiques sont un outil puissant pour analyser et résumer les données dans Excel. Cependant, vous devez parfois effectuer des calculs personnalisés sur vos données dans le tableau croisé dynamique. Dans ce didacticiel, nous vous montrerons comment créer des champs calculés dans des tableaux croisés dynamiques à l'aide d'Aspose.Cells pour Java, ce qui vous permettra de faire passer votre analyse de données à un niveau supérieur.
+Les tableaux croisés dynamiques sont un outil puissant pour analyser et résumer les données dans Excel. Cependant, vous devez parfois effectuer des calculs personnalisés sur vos données dans le tableau croisé dynamique. Dans ce didacticiel, nous vous montrerons comment créer des champs calculés dans les tableaux croisés dynamiques à l'aide d'Aspose.Cells pour Java, ce qui vous permettra de faire passer votre analyse de données à un niveau supérieur.
 
 ### Prérequis
 Avant de commencer, assurez-vous de disposer des éléments suivants :

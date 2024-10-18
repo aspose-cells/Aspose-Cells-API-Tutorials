@@ -9,7 +9,7 @@ url: /de/net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 ---
 ## Einführung
 
-In der heutigen schnelllebigen Geschäftswelt ist die effektive und sichere Verwaltung von Daten von größter Bedeutung. Angesichts der Häufigkeit der Verwendung von Excel-Tabellen ist der Schutz vertraulicher Informationen in ihnen von entscheidender Bedeutung. Manchmal benötigen Sie jedoch möglicherweise Zugriff auf eine geschützte Tabelle – sei es, weil Sie das Kennwort vergessen haben oder einfach nur die Daten ändern müssen. In dieser Anleitung zeigen wir Ihnen, wie Sie eine geschützte Excel-Tabelle mithilfe der leistungsstarken Aspose.Cells-Bibliothek für .NET entsperren. Am Ende dieses Tutorials sind Sie gut gerüstet, um diese Aufgabe mit Leichtigkeit und Selbstvertrauen anzugehen!
+In der heutigen schnelllebigen Geschäftswelt ist die effektive und sichere Verwaltung von Daten von größter Bedeutung. Angesichts der Häufigkeit der Verwendung von Excel-Tabellen ist der Schutz vertraulicher Informationen in ihnen von entscheidender Bedeutung. Manchmal benötigen Sie jedoch möglicherweise Zugriff auf eine geschützte Tabelle – sei es, weil Sie das Kennwort vergessen haben oder einfach die Daten ändern müssen. In dieser Anleitung zeigen wir Ihnen, wie Sie eine geschützte Excel-Tabelle mithilfe der leistungsstarken Aspose.Cells-Bibliothek für .NET entsperren. Am Ende dieses Tutorials sind Sie gut gerüstet, um diese Aufgabe mit Leichtigkeit und Selbstvertrauen anzugehen!
 
 ## Voraussetzungen
 
@@ -73,12 +73,12 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Schritt 4: Schutz des Arbeitsblatts aufheben
 
-Jetzt kommt der kritische Teil – das Aufheben des Arbeitsblattschutzes. Wenn Sie ein Kennwort haben, können Sie es hier eingeben. Andernfalls lassen Sie das Feld für ein ungeschütztes Blatt leer.
+Jetzt kommt der kritische Teil – das Aufheben des Schutzes des Arbeitsblatts. Wenn Sie ein Kennwort haben, können Sie es hier eingeben. Andernfalls lassen Sie das Feld für ein ungeschütztes Blatt leer.
 
 ```csharp
 worksheet.Unprotect("");
 ```
-Wenn das Blatt mit einem Passwort geschützt ist, geben Sie das Passwort dort ein, wo die leere Zeichenfolge steht. Wenn es kein Passwort hat, lassen Sie es einfach wie angezeigt.
+Wenn das Blatt mit einem Passwort geschützt ist, geben Sie das Passwort dort ein, wo die leere Zeichenfolge steht. Wenn kein Passwort angegeben ist, lassen Sie es einfach wie angezeigt.
 
 ## Schritt 5: Speichern der Arbeitsmappe
 
@@ -87,7 +87,7 @@ Sobald der Schutz des Arbeitsblatts aufgehoben ist, müssen Sie die vorgenommene
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Hier speichern Sie die Änderungen in einer neuen Datei namens „output.out.xls“ im selben Verzeichnis. Sie können sie nach Belieben umbenennen, achten Sie jedoch darauf, dass die`.xls` Erweiterung, damit es weiterhin als Excel-Datei erkennbar bleibt.
+ Hier speichern Sie die Änderungen in einer neuen Datei namens „output.out.xls“ im selben Verzeichnis. Sie können sie nach Belieben umbenennen, achten Sie jedoch darauf, dass die`.xls`Erweiterung, damit es weiterhin als Excel-Datei erkennbar bleibt.
 
 ## Schritt 6: Fehlerbehandlung
 
@@ -116,7 +116,7 @@ Und da haben Sie es! Das Entsperren einer geschützten Excel-Tabelle mit Aspose.
 Ja! Sie können jedes Blatt in der Arbeitsmappe durchlaufen und die Schutze auf die gleiche Weise aufheben.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
- Aspose.Cells bietet eine kostenlose Testversion an, für den produktiven Einsatz ist jedoch eine Lizenz erforderlich. Überprüfen Sie deren[kaufen](https://purchase.aspose.com/buy)Seite für weitere Informationen.
+Aspose.Cells bietet eine kostenlose Testversion an, für den produktiven Einsatz ist jedoch eine Lizenz erforderlich. Überprüfen Sie deren[kaufen](https://purchase.aspose.com/buy) Seite für weitere Informationen.
 
 ### Was ist, wenn ich das Passwort nicht kenne?
 Wenn ein Blatt kennwortgeschützt ist und Sie das Kennwort nicht kennen, hilft Ihnen die Bibliothek nicht dabei, die Beschränkungen zu umgehen, da dies gegen ethische Richtlinien verstößt.

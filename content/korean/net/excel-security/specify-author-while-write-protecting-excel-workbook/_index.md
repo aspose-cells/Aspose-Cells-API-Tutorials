@@ -9,7 +9,7 @@ url: /ko/net/excel-security/specify-author-while-write-protecting-excel-workbook
 ---
 ## 소개
 
-.NET 애플리케이션에서 Excel 파일을 작업할 때 Aspose.Cells는 많은 개발자에게 꼭 필요한 솔루션입니다. 풍부한 기능 세트를 사용하면 Excel 파일을 쉽게 생성, 조작 및 보호할 수 있습니다. 개발자가 직면하는 일반적인 요구 사항 중 하나는 무단 편집으로부터 보호하면서 Excel 통합 문서에 쓰는 것입니다. 또한 작성자를 지정하면 문서를 공유할 때 추적 목적으로 매우 유용할 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 통합 문서를 쓰기 보호하면서 작성자를 지정하는 방법에 대해 자세히 알아보겠습니다.
+.NET 애플리케이션에서 Excel 파일을 작업할 때 Aspose.Cells는 많은 개발자에게 꼭 필요한 솔루션입니다. 풍부한 기능 세트를 통해 Excel 파일을 쉽게 생성, 조작 및 보호할 수 있습니다. 개발자가 직면하는 일반적인 요구 사항 중 하나는 무단 편집으로부터 보호하면서 Excel 통합 문서에 쓰는 것입니다. 또한 작성자를 지정하면 문서를 공유할 때 추적 목적으로 매우 유용할 수 있습니다. 이 가이드에서는 Aspose.Cells for .NET을 사용하여 Excel 통합 문서를 쓰기 보호하면서 작성자를 지정하는 방법에 대해 자세히 알아보겠습니다.
 
 ## 필수 조건
 
@@ -56,7 +56,7 @@ string outputDir = "YOUR OUTPUT DIRECTORY";
 Workbook wb = new Workbook();
 ```
 
-예술가가 빈 캔버스에서 시작하는 것처럼, 나중에 데이터나 서식을 추가할 수 있는 빈 통합 문서에서 시작하는 것입니다.
+예술가가 빈 캔버스에서 작업을 시작하는 것처럼, 나중에 데이터나 서식을 추가할 수 있는 빈 통합 문서에서 작업을 시작하는 것입니다.
 
 ## 3단계: 통합 문서 쓰기 보호
 
@@ -74,7 +74,7 @@ wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 이제 통합 문서의 작성자를 지정하겠습니다. 이는 특히 책임을 묻는 데 유용하며 다른 사람들이 파일을 만든 사람이나 수정한 사람을 볼 수 있게 해줍니다.
 
 ```csharp
-// 통합 문서를 쓰기 보호하는 동안 작성자를 지정하세요.
+// 통합 문서를 쓰기 보호하면서 작성자를 지정하세요.
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 

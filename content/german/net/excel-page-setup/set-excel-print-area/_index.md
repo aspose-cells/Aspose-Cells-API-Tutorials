@@ -69,13 +69,13 @@ Holen Sie sich das PageSetup-Objekt des ersten Arbeitsblatts.
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
-Dieser Schritt ist vergleichbar mit dem Öffnen Ihrer Palette und dem Auswählen der Farben, mit denen Sie arbeiten möchten. Mit dem PageSetup in der Hand können Sie bestimmen, wie sich Ihr Arbeitsblatt beim Drucken verhält.
+Dieser Schritt ist vergleichbar mit dem Öffnen Ihrer Palette und der Auswahl der Farben, mit denen Sie arbeiten möchten. Mit dem PageSetup in der Hand können Sie bestimmen, wie sich Ihr Arbeitsblatt beim Drucken verhält.
 
 ## Schritt 4: Druckbereich festlegen
 
 Legen Sie den Druckbereich mithilfe eines Zellbereichs fest.
 
-Nun kommen wir zum Kern der Sache: Sie legen fest, welcher Teil Ihres Blatts gedruckt werden soll. Angenommen, Sie möchten alles von Zelle A1 bis T35 drucken. Sie richten dies folgendermaßen ein:
+Jetzt kommen wir zum Kern der Sache: Sie legen fest, welcher Teil Ihres Blatts gedruckt werden soll. Angenommen, Sie möchten alles von Zelle A1 bis T35 drucken. Sie richten dies folgendermaßen ein:
 
 ```csharp
 pageSetup.PrintArea = "A1:T35";

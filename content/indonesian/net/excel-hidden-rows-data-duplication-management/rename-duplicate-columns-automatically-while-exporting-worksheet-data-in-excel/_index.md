@@ -17,7 +17,7 @@ Sebelum kita masuk ke detail teknis, mari pastikan Anda memiliki semua yang perl
 4. .NET Framework: Anda harus sudah menginstal .NET Framework. Tutorial ini berlaku untuk proyek .NET Framework.
 Setelah Anda menyiapkan prasyarat ini, kita siap untuk masuk ke kodenya!
 ## Paket Impor
-Sekarang setelah Anda memiliki semua alat yang diperlukan, mari kita mulai dengan mengimpor paket yang dibutuhkan untuk Aspose.Cells. Ini adalah langkah penting karena mengimpor namespace yang tepat memungkinkan kita untuk mengakses fungsionalitas pustaka dengan lancar.
+Sekarang setelah Anda memiliki semua alat yang diperlukan, mari kita mulai dengan mengimpor paket yang dibutuhkan untuk Aspose.Cells. Ini adalah langkah penting karena mengimpor namespace yang tepat memungkinkan kita mengakses fungsionalitas pustaka dengan lancar.
 ### Buka Proyek Anda
 Buka proyek Visual Studio Anda (atau buat yang baru) di mana Anda ingin menerapkan fitur ekspor excel ini. 
 ### Tambahkan Referensi
@@ -52,7 +52,7 @@ ws.Cells["A1"].PutValue(columnName);
 ws.Cells["B1"].PutValue(columnName);
 ws.Cells["C1"].PutValue(columnName);
 ```
- Kami membuat sebuah variabel`columnName` untuk menyimpan nama kita dan kemudian menetapkannya ke sel A1, B1, dan C1. Ini seperti menempatkan tiga label identik pada tiga stoples yang berbeda.
+ Kami membuat sebuah variabel`columnName` untuk menyimpan nama kita dan kemudian menetapkannya ke sel A1, B1, dan C1. Ini seperti menempatkan tiga label yang identik pada tiga stoples yang berbeda.
 ## Langkah 4: Masukkan Data ke Kolom
 Selanjutnya, kita akan mengisi kolom-kolom ini dengan beberapa data. Meskipun nilainya mungkin tidak unik, namun data tersebut berfungsi untuk menggambarkan bagaimana duplikasi akan terlihat saat diekspor.
 ```csharp
@@ -74,7 +74,7 @@ opts.RenameStrategy = RenameStrategy.Letter;
 ```csharp
 System.Data.DataTable dataTable = ws.Cells.ExportDataTable(0, 0, 4, 3, opts);
 ```
- Baris ini mengekspor rentang yang ditentukan (dari baris 0, kolom 0, hingga baris 4, kolom 3) ke dalam`DataTable`. Itulah saatnya kita mengekstrak data ke dalam format yang lebih mudah dimanipulasi – seperti mengumpulkan stoples berlabel tersebut di rak.
+ Baris ini mengekspor rentang yang ditentukan (dari baris 0, kolom 0, hingga baris 4, kolom 3) ke dalam`DataTable`. Itulah saatnya kita mengekstrak data ke dalam format yang lebih mudah dimanipulasi – seperti mengumpulkan stoples-stoples berlabel tersebut di rak.
 ## Langkah 7: Cetak Nama Kolom DataTable
 Terakhir, kita akan mencetak nama kolom kita untuk melihat bagaimana Aspose menangani duplikat:
 ```csharp

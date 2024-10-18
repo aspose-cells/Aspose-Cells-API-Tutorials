@@ -25,7 +25,7 @@ url: /zh/java/excel-data-analysis/data-analysis-excel-pivot/
 让我们首先使用 Aspose.Cells for Java 创建一个新的 Excel 工作簿。这将作为我们数据分析的基础。
 
 ```java
-//用于创建新 Excel 工作簿的 Java 代码
+// Java 代码用于创建新的 Excel 工作簿
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
@@ -105,7 +105,7 @@ pivotTable.getField(1).setDisplayAutomaticSubtotals(false); //禁用自动小计
 
 ### 我可以使用 Aspose.Cells for Java 自动执行数据分析任务吗？
 
-当然可以！Aspose.Cells for Java 允许您通过编写 Java 代码来操作 Excel 文件，从而自动执行数据分析任务。您可以安排这些任务或将其集成到您的应用程序中，实现无缝自动化。
+当然！Aspose.Cells for Java 允许您通过编写 Java 代码来操作 Excel 文件，从而自动执行数据分析任务。您可以安排这些任务或将其集成到您的应用程序中，实现无缝自动化。
 
 ### Aspose.Cells for Java 有任何许可要求吗？
 

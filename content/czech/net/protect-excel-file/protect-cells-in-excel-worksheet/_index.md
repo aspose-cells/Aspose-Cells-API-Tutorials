@@ -52,7 +52,7 @@ Nejprve musíte určit, kam uložit soubor Excel. Můžete to určit takto:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zde zadejte cestu k adresáři
-// Vytvořte adresář, pokud ještě není přítomen.
+//Vytvořte adresář, pokud ještě není přítomen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -153,7 +153,7 @@ Absolutně! Opakováním kroků uzamčení buněk pro každou požadovanou buňk
  Aspose.Cells nabízí bezplatnou zkušební verzi, ale další používání vyžaduje licenci. Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu dokumentaci?
-Dokumentaci lze nalézt[zde](https://reference.aspose.com/cells/net/).
+ Dokumentaci lze nalézt[zde](https://reference.aspose.com/cells/net/).
 
 ### V jakých formátech souborů mohu ukládat soubory Excel?
 Aspose.Cells podporuje více formátů včetně XLSX, XLS, CSV a dalších.

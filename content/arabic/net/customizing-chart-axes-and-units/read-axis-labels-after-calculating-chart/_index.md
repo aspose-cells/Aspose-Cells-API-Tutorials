@@ -15,8 +15,8 @@ url: /ar/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 
 قبل أن نتعمق في التفاصيل الدقيقة للكود، دعنا نتأكد من أن لديك كل ما تحتاجه للبدء:
 
-1. Visual Studio: يجب أن يكون لديك Visual Studio مثبتًا على جهازك. إذا لم يكن مثبتًا لديك بعد، فيمكنك تنزيله من[موقع مايكروسوفت](https://visualstudio.microsoft.com/).
-2.  مكتبة Aspose.Cells: يفترض هذا الدليل أن لديك مكتبة Aspose.Cells. يمكنك تنزيلها بسهولة من[صفحة إصدار Aspose](https://releases.aspose.com/cells/net/) إذا كنت غير متأكد من أين تبدأ،[توثيق Aspose.Cells](https://reference.aspose.com/cells/net/) يمكن أن يكون أفضل صديق لك!
+1.  Visual Studio: يجب أن يكون لديك Visual Studio مثبتًا على جهازك. إذا لم يكن مثبتًا لديك بعد، فيمكنك تنزيله من[موقع مايكروسوفت](https://visualstudio.microsoft.com/).
+2.  مكتبة Aspose.Cells: يفترض هذا الدليل أن لديك مكتبة Aspose.Cells. يمكنك تنزيلها بسهولة من[صفحة إصدار Aspose](https://releases.aspose.com/cells/net/)إذا كنت غير متأكد من أين تبدأ،[توثيق Aspose.Cells](https://reference.aspose.com/cells/net/) يمكن أن يكون أفضل صديق لك!
 3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة بلغة البرمجة C# على فهم الأمثلة ومتابعتها دون أي عوائق.
 4.  ملف Excel: تأكد من أن لديك ملف Excel يحتوي على مخططات لهذا البرنامج التعليمي. يمكنك إنشاء ملف Excel نموذجي باسم`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` لأغراض الاختبار.
 5. بيئة .NET: تأكد من إعداد بيئة .NET الخاصة بك بشكل صحيح. يستهدف هذا البرنامج التعليمي إطار عمل .NET، لذا تأكد من أنك جاهز للبدء!
@@ -60,11 +60,11 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- ال`Workbook`الفصل هو بوابة الدخول إلى ملف Excel. من خلال توفير المسار الكامل، نقوم بإنشاء مثيل جديد للمصنف يحتوي على بيانات Excel الخاصة بنا.
+ ال`Workbook` الفصل هو بوابة الدخول إلى ملف Excel. من خلال توفير المسار الكامل، نقوم بإنشاء مثيل جديد للمصنف يحتوي على بيانات Excel الخاصة بنا.
 
 ## الخطوة 3: الوصول إلى ورقة العمل الأولى
 
-بعد ذلك، قد ترغب في الوصول إلى ورقة العمل الأولى في المصنف.
+بعد ذلك، ستحتاج إلى الوصول إلى ورقة العمل الأولى في المصنف.
 
 ```csharp
 Worksheet ws = wb.Worksheets[0];
@@ -98,7 +98,7 @@ ch.Calculate();
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
-هنا، نقوم بسحب العلامات من محور الفئة وتخزينها في`ArrayList`تُعد هذه القائمة ضرورية لتكرار عرض العلامات الخاصة بك.
+ هنا، نقوم بسحب العلامات من محور الفئة وتخزينها في`ArrayList`تُعد هذه القائمة ضرورية لتكرار عرض العلامات الخاصة بك.
 
 ## الخطوة 7: طباعة تسميات المحور على وحدة التحكم
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- يقوم هذا المقطع أولاً بإخراج عنوان وسطر فاصل. ثم ننتقل عبر كل تسمية في`lstLabels` ArrayList وطباعته في وحدة التحكم. إذا كان هناك عشرة تسميات، فسترى كل واحدة منها هناك!
+يقوم هذا المقطع أولاً بإخراج عنوان وسطر فاصل. ثم ننتقل عبر كل تسمية في`lstLabels` ArrayList وطباعته في وحدة التحكم. إذا كان هناك عشرة تسميات، فسترى كل واحدة منها هناك!
 
 ## الخطوة 8: الرسالة النهائية
 
@@ -141,7 +141,7 @@ Aspose.Cells هي مكتبة قوية للتعامل مع ملفات Excel في 
  يمكنك شراء ترخيص لـ Aspose.Cells من خلال[صفحة الشراء](https://purchase.aspose.com/buy).
 
 ### أين يمكنني العثور على الدعم لـ Aspose.Cells؟
- يمكنك زيارة منتدى Aspose للحصول على الدعم[هنا](https://forum.aspose.com/c/cells/9).
+يمكنك زيارة منتدى Aspose للحصول على الدعم[هنا](https://forum.aspose.com/c/cells/9).
 
-### هل يمكنني الحصول على ترخيص مؤقت؟
+### هل يمكنني الحصول على رخصة مؤقتة؟
  نعم! تقدم Aspose ترخيصًا مؤقتًا يمكنك طلبه من[هذا الرابط](https://purchase.aspose.com/temporary-license/).

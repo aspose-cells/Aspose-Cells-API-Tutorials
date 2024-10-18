@@ -52,7 +52,7 @@ string sourceDir = "Your Document Directory";
 
  Pamiętaj o wymianie`"Your Output Directory"` I`"Your Document Directory"` z rzeczywistymi ścieżkami na Twoim komputerze.
 
-## Krok 2: Utwórz instancję skoroszytu
+## Krok 2: Utwórz skoroszyt
 
  Następnie musisz utworzyć instancję`Workbook` klasa, która działa jako serce naszego zarządzania plikami Excela. To jak otwieranie drzwi do twoich danych.
 
@@ -61,7 +61,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleMicrosoftThemeColorInChartSeries.xlsx");
 ```
 
-Za pomocą tego wiersza ładujemy istniejący plik Excela do aplikacji.
+Za pomocą tego wiersza ładujemy istniejący plik Excel do aplikacji.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -79,11 +79,11 @@ Podobnie jak przechodzenie do konkretnej strony w książce, krok ten wskazuje n
 Teraz czas znaleźć wykres, który chcemy zmodyfikować. To tutaj zaczyna się prawdziwa magia!
 
 ```csharp
-//Pobierz pierwszy wykres w arkuszu
+// Pobierz pierwszy wykres w arkuszu
 Chart chart = worksheet.Charts[0];
 ```
 
-W tym kroku wyciągamy pierwszy wykres z naszego arkusza kalkulacyjnego. Jeśli pracujesz z wieloma wykresami, możesz chcieć odpowiednio dostosować indeks.
+tym kroku wyciągamy pierwszy wykres z naszego arkusza kalkulacyjnego. Jeśli pracujesz z wieloma wykresami, możesz chcieć odpowiednio dostosować indeks.
 
 ## Krok 5: Ustaw format wypełnienia dla serii wykresów
 
@@ -112,11 +112,11 @@ Tutaj pobieramy ustawienia kolorów dla serii wykresów.
  Teraz zastosujmy kolor motywu Microsoft. Wybierzemy`Accent` styl, bo kto nie lubi odrobiny koloru?
 
 ```csharp
-//Utwórz motyw w stylu Accent
+// Utwórz motyw w stylu Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
-Za pomocą zaledwie kilku linijek tekstu określiłeś, że seria wykresów powinna odzwierciedlać konkretny kolor motywu, dodając elegancji i wyrazu Twojej marce.
+Za pomocą zaledwie kilku linijek tekstu określiłeś, że seria wykresów powinna odzwierciedlać konkretny kolor przewodni, dodając elegancji i wyrazu Twojej marce.
 
 ## Krok 8: Ustaw kolor komórek
 
@@ -131,7 +131,7 @@ W tym momencie wyobrażony kolor jest oficjalnie w twojej serii. Jak to jest eks
 
 ## Krok 9: Zapisz skoroszyt
 
-W końcu wykonałeś całą robotę i teraz musisz zapisać swoją pracę. Pomyśl o tym jak o cofnięciu się i podziwianiu swojego pięknie udekorowanego pokoju.
+W końcu wykonałeś całą robotę i teraz musisz zapisać swoją pracę. Pomyśl o tym jak o cofnięciu się i podziwianiu pięknie udekorowanego pokoju.
 
 ```csharp
 // Zapisz plik Excela
@@ -155,7 +155,7 @@ Dostosowywanie wykresów za pomocą Aspose.Cells dla .NET jest proste i wydajne.
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to potężna biblioteka służąca do manipulowania plikami Excel w aplikacjach .NET, umożliwiająca użytkownikom tworzenie, modyfikowanie i konwertowanie dokumentów Excel.
+Aspose.Cells to potężna biblioteka służąca do manipulowania plikami Excela w aplikacjach .NET, umożliwiająca użytkownikom tworzenie, modyfikowanie i konwertowanie dokumentów Excela.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
  Tak, chociaż dostępna jest bezpłatna wersja próbna, licencja jest wymagana do ciągłego użytku komercyjnego. Możesz zapoznać się z opcjami licencjonowania[Tutaj](https://purchase.aspose.com/buy).

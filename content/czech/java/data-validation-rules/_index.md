@@ -21,7 +21,7 @@ Sledováním našich komplexních výukových programů o pravidlech ověřován
 ### [Vytváření vlastních ověřování dat](./creating-custom-data-validation/)
 Naučte se vytvářet vlastní ověřování dat pomocí Aspose.Cells for Java. Průvodce krok za krokem se zdrojovým kódem.
 ### [Dynamické rozevírací seznamy v Excelu](./dynamic-dropdown-lists-in-excel/)
-Objevte sílu dynamických rozevíracích seznamů v Excelu. Průvodce krok za krokem pomocí Aspose.Cells pro Javu. Vylepšete své tabulky interaktivním výběrem dat.
+Objevte sílu dynamických rozevíracích seznamů v Excelu. Podrobný průvodce pomocí Aspose.Cells pro Javu. Vylepšete své tabulky interaktivním výběrem dat.
 ### [Chybové zprávy ověření dat](./data-validation-error-messages/)
 Optimalizujte své chybové zprávy ověřování dat pomocí Aspose.Cells for Java. Naučte se vytvářet, přizpůsobovat a zlepšovat uživatelské prostředí.
 ### [Kaskádové rozevírací seznamy v Excelu](./cascading-dropdowns-in-excel/)

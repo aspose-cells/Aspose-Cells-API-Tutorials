@@ -59,7 +59,7 @@ Az első dolog, amit meg kell tennünk, hogy meg kell adnunk, hogy az Excel-doku
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Csak cseréld ki`"YOUR DOCUMENT DIRECTORY"` azzal az elérési úttal, ahová menteni szeretné az Excel-fájlt. Például használhatod`@"C:\Reports\"`.
+ Csak cseréld ki`"YOUR DOCUMENT DIRECTORY"` azzal az elérési úttal, ahová menteni szeretné az Excel-fájlt. Például használhatja`@"C:\Reports\"`.
 
 ## 2. lépés: Példányosítson egy munkafüzet-objektumot
 

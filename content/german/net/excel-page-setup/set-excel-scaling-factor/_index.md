@@ -17,7 +17,7 @@ Bevor wir in die praktischen Schritte eintauchen, müssen einige Voraussetzungen
 
 1. Visual Studio installiert: Stellen Sie sicher, dass Sie Visual Studio auf Ihrem Computer eingerichtet haben, da wir unseren Code in dieser Umgebung schreiben werden.
 2.  Aspose.Cells für .NET-Bibliothek: Besorgen Sie sich eine Kopie der Aspose.Cells-Bibliothek. Sie können sie herunterladen von der[Aspose-Releases-Seite](https://releases.aspose.com/cells/net/) Wenn Sie unsicher sind, können Sie mit einem[Kostenlose Testversion](https://releases.aspose.com/).
-3. Grundkenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind von Vorteil, insbesondere wenn Sie noch nicht viel Erfahrung mit der Arbeit mit Bibliotheken haben.
+3. Grundkenntnisse in C#: Grundlegende Kenntnisse der C#-Programmierung sind von Vorteil, insbesondere wenn Sie noch nicht so viel Erfahrung mit der Arbeit mit Bibliotheken haben.
 4. .NET Framework: Stellen Sie sicher, dass Ihr Projekt auf eine kompatible Version des .NET Frameworks für die Bibliothek abzielt.
 
 Nachdem wir nun festgestellt haben, was Sie benötigen, beginnen wir mit dem Importieren der erforderlichen Pakete.
@@ -58,14 +58,14 @@ Zunächst müssen Sie festlegen, wo Sie Ihre Excel-Ausgabedatei speichern möcht
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Stellen Sie sicher, dass Sie`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad auf Ihrem Computer, in dem die Excel-Datei gespeichert werden soll.
+Stellen Sie sicher, dass Sie`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad auf Ihrem Computer, in dem die Excel-Datei gespeichert werden soll.
 
 ## Schritt 2: Erstellen Sie ein neues Arbeitsmappenobjekt
 
 Jetzt ist es an der Zeit, eine neue Arbeitsmappe zu erstellen. Hier werden im Wesentlichen alle Ihre Daten und Einstellungen gespeichert.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -76,7 +76,7 @@ Workbook workbook = new Workbook();
 Excel-Dateien können mehrere Arbeitsblätter enthalten. Wir greifen auf das erste Arbeitsblatt zu, um unseren Skalierungsfaktor anzuwenden.
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -102,7 +102,7 @@ Sie haben die notwendigen Anpassungen vorgenommen. Jetzt ist es Zeit, Ihre Ände
 workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
- Dadurch wird Ihre Excel-Datei mit dem angewendeten Skalierungsfaktor gespeichert. Achten Sie darauf, einen gültigen Dateinamen an Ihre`dataDir`.
+ Dadurch wird Ihre Excel-Datei mit dem angewendeten Skalierungsfaktor gespeichert. Stellen Sie sicher, dass Sie einen gültigen Dateinamen an Ihre`dataDir`.
 
 ## Abschluss
 
@@ -122,7 +122,7 @@ Ja! Aspose.Cells können sowohl in Desktop- als auch in Webanwendungen verwendet
  Auf jeden Fall! Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### Wo finde ich Dokumentation für Aspose.Cells?  
-Die Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
+ Die Dokumentation finden Sie[Hier](https://reference.aspose.com/cells/net/).
 
 ### Wie erhalte ich technischen Support für Aspose.Cells?  
  Sie erreichen uns über das[Aspose-Forum](https://forum.aspose.com/c/cells/9).

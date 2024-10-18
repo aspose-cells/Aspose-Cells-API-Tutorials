@@ -102,7 +102,7 @@ Als Nächstes gehen wir auf die Details jedes Arbeitsblatts ein, um auf die Seit
 ```csharp
 //Einrichten der Access-Arbeitsblattseite
 PageSetup ps = ws.PageSetup;
-//Überprüfen Sie, ob Druckereinstellungen für dieses Arbeitsblatt vorhanden sind
+//Prüfen Sie, ob Druckereinstellungen für dieses Arbeitsblatt vorhanden sind
 if (ps.PrinterSettings != null)
 {
     //Drucken Sie die folgende Nachricht
@@ -154,7 +154,7 @@ Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Funktionen erk
 ### Muss ich Microsoft Excel installieren, um Aspose.Cells zu verwenden?  
 Nein, Aspose.Cells arbeitet unabhängig von Microsoft Excel. Sie müssen Excel nicht auf Ihrem Computer installiert haben.
 
-### Wie kann ich Unterstützung erhalten, wenn ich auf Probleme stoße?  
+### Wie erhalte ich Unterstützung, wenn Probleme auftreten?  
  Besuchen Sie die[Aspose-Forum](https://forum.aspose.com/c/cells/9) für Community-Unterstützung und Ressourcen.
 
 ### Ist eine temporäre Lizenz verfügbar?  

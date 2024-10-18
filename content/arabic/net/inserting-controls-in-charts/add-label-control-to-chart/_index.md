@@ -2,7 +2,7 @@
 title: إضافة عنصر التحكم بالتسمية إلى الرسم البياني
 linktitle: إضافة عنصر التحكم بالتسمية إلى الرسم البياني
 second_title: واجهة برمجة تطبيقات معالجة Excel الخاصة بـ Aspose.Cells .NET
-description: تعرف على كيفية إضافة عنصر تحكم تسمية إلى مخططاتك في Aspose.Cells for .NET باستخدام هذا الدليل التفصيلي. قم بتحسين تصور البيانات لديك.
+description: تعرف على كيفية إضافة عنصر تحكم تسمية إلى مخططاتك في Aspose.Cells for .NET باستخدام هذا الدليل خطوة بخطوة. قم بتحسين تصور البيانات لديك.
 type: docs
 weight: 10
 url: /ar/net/inserting-controls-in-charts/add-label-control-to-chart/
@@ -16,7 +16,7 @@ url: /ar/net/inserting-controls-in-charts/add-label-control-to-chart/
 قبل أن نتعمق في التفاصيل، دعنا نغطي ما تحتاجه للبدء:
 
 - المعرفة الأساسية بلغة C#: من الضروري فهم أساسيات برمجة C#. إذا كنت مبتدئًا، فلا تقلق - ستكون الخطوات واضحة وموجزة.
-- مكتبة Aspose.Cells: تأكد من تثبيت مكتبة Aspose.Cells. يمكنك القيام بذلك عبر NuGet Package Manager في Visual Studio. إذا لم تكن قد قمت بذلك بالفعل، فراجع[رابط التحميل](https://releases.aspose.com/cells/net/) للمكتبة.
+-  مكتبة Aspose.Cells: تأكد من تثبيت مكتبة Aspose.Cells. يمكنك القيام بذلك عبر NuGet Package Manager في Visual Studio. إذا لم تكن قد قمت بذلك بالفعل، فراجع[رابط التحميل](https://releases.aspose.com/cells/net/) للمكتبة.
 - Visual Studio: ستحتاج إلى بيئة تطوير متكاملة (IDE) مثل Visual Studio لكتابة التعليمات البرمجية الخاصة بك وتنفيذها.
 
 ## استيراد الحزم
@@ -62,11 +62,11 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- هنا، نحن نستخدم`Workbook` من Aspose.Cells لفتح ملف Excel الخاص بنا. الأمر أشبه بفتح الباب للسماح للإبداع بالتدفق!
+ هنا، نحن نستخدم`Workbook`من Aspose.Cells لفتح ملف Excel الخاص بنا. الأمر أشبه بفتح الباب للسماح للإبداع بالتدفق!
 
 ## الخطوة 3: الوصول إلى ورقة العمل
 
-الآن بعد أن أصبح لدينا المصنف، فلننتقل إلى ورقة العمل التي تحتوي على الرسم البياني. سنفترض أن الرسم البياني موجود في ورقة العمل الأولى.
+الآن بعد أن أصبح لدينا المصنف، فلننتقل إلى ورقة العمل التي تحتوي على المخطط. سنفترض أن المخطط موجود في ورقة العمل الأولى.
 
 ```csharp
 // احصل على مخطط المصمم في الورقة الأولى.
@@ -94,14 +94,14 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- هنا،`AddLabelInChart` يتولى إنشاء ملصق بناءً على الإحداثيات والأبعاد التي تحددها. الأمر أشبه بإلصاق إطار جميل حول عملك الفني!
+ هنا،`AddLabelInChart`يتولى إنشاء ملصق بناءً على الإحداثيات والأبعاد التي تحددها. الأمر أشبه بإلصاق إطار جميل حول عملك الفني!
 
 ## الخطوة 6: تعيين نص الملصق
 
 بعد ذلك، ستحتاج إلى تعيين نص الملصق الذي قمت بإنشائه حديثًا. 
 
 ```csharp
-// تعيين عنوان الملصق.
+// تعيين تسمية توضيحية للتسمية.
 label.Text = "A Label In Chart";
 ```
 
@@ -149,7 +149,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 نعم! يمكنك تغيير الخط واللون والحجم والخصائص الأخرى للملصق لتناسب احتياجاتك.
 
 ### هل استخدام Aspose.Cells مجاني؟
- Aspose.Cells هو منتج مدفوع؛ ومع ذلك، يمكنك البدء بـ[نسخة تجريبية مجانية](https://releases.aspose.com/)لاستكشاف ميزاته.
+ Aspose.Cells هو منتج مدفوع؛ ومع ذلك، يمكنك البدء بـ[نسخة تجريبية مجانية](https://releases.aspose.com/) لاستكشاف ميزاته.
 
 ### ماذا لو أردت إضافة عدة تسميات؟
 يمكنك تكرار خطوات إضافة الملصقات عدة مرات حسب الحاجة، كل مرة بمواضع ونصوص مختلفة.

@@ -27,7 +27,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
-Tento kód vám umožní přístup k základním třídám, jako je např`Workbook`, `Worksheet` a`Range`, který budete potřebovat pro manipulaci se soubory Excel.
+Tento kód vám umožní přístup k základním třídám, jako je např`Workbook`, `Worksheet`a`Range`, který budete potřebovat pro manipulaci se soubory Excel.
 
 Nyní, když máme naše předpoklady roztříděné, pojďme si tento proces rozdělit do snadno srozumitelných kroků.
 ## Krok 1: Nastavte svůj výstupní adresář

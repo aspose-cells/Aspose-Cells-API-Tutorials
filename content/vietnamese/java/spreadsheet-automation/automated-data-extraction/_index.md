@@ -24,7 +24,7 @@ Tự động trích xuất dữ liệu mang lại một số lợi thế:
 
 ## Bắt đầu
 
-### 1. Thiết lập Môi trường
+### 1. Thiết lập môi trường
 
  Trước tiên, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 
@@ -104,4 +104,4 @@ Tự động trích xuất dữ liệu với Aspose.Cells for Java giúp đơn g
 ### 5. Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
     Khám phá tài liệu API tại[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
 
-Hãy bắt đầu tự động hóa các tác vụ trích xuất dữ liệu của bạn ngay hôm nay với Aspose.Cells for Java và hợp lý hóa quy trình truy xuất dữ liệu.
+Hãy bắt đầu tự động hóa các tác vụ trích xuất dữ liệu của bạn ngay hôm nay với Aspose.Cells for Java và hợp lý hóa quy trình truy xuất dữ liệu của bạn.

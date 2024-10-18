@@ -32,7 +32,7 @@ Abra la aplicación de consola recién creada en Visual Studio.
 
 ### Administrador de paquetes NuGet
 
-Necesitará usar NuGet para agregar la biblioteca Aspose.Cells. Haga clic derecho en su proyecto en el Explorador de soluciones y seleccione "Administrar paquetes NuGet".
+Necesitará usar NuGet para agregar la biblioteca Aspose.Cells. Haga clic con el botón derecho en su proyecto en el Explorador de soluciones y seleccione "Administrar paquetes NuGet".
 
 ### Importar espacios de nombres necesarios
 
@@ -42,7 +42,7 @@ using Aspose.Cells;
 ```
 
 -  El`Aspose.Cells` El espacio de nombres nos da acceso a la funcionalidad de Aspose.Cells y a las clases necesarias para manejar archivos de Excel.
--  El`System.IO` El espacio de nombres es esencial para las operaciones de manejo de archivos, como leer y escribir archivos.
+-  El`System.IO` El espacio de nombres es esencial para operaciones de manejo de archivos, como leer y escribir archivos.
 
 Dividamos la implementación en pasos manejables. Crearemos un archivo Excel simple, aplicaremos configuraciones de protección y guardaremos los cambios.
 
@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Ahora que tenemos un flujo de archivos, podemos crear un`Workbook` objeto.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 // Abrir el archivo Excel a través del flujo de archivos
 Workbook excel = new Workbook(fstream);
 ```
@@ -71,10 +71,10 @@ Workbook excel = new Workbook(fstream);
 
 ## Paso 3: Acceda a la hoja de trabajo deseada
 
-Para nuestros propósitos, solo trabajaremos con la primera hoja de cálculo. Accedamos a ella.
+Para nuestros propósitos, trabajaremos únicamente con la primera hoja de cálculo. Accedamos a ella.
 
 ```csharp
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Las hojas de trabajo se indexan a partir de cero, por lo que`Worksheets[0]` Se refiere a la primera hoja de cálculo del archivo Excel. Ahora, podemos aplicar nuestra configuración de protección a esta hoja específica.
@@ -140,7 +140,7 @@ Este paso es fundamental para gestionar los recursos de forma eficaz. Si no se c
 
 ## Conclusión
 
-¡Y ya está! Ha implementado correctamente la configuración de protección avanzada para una hoja de cálculo de Excel con Aspose.Cells para .NET. Al controlar los permisos de usuario, puede mantener la integridad de sus datos y, al mismo tiempo, permitir la flexibilidad necesaria. Este proceso no solo protege su información, sino que también permite la colaboración sin riesgo de pérdida de datos. 
+¡Y ya está! Ha implementado correctamente la configuración de protección avanzada para una hoja de cálculo de Excel con Aspose.Cells para .NET. Al controlar los permisos de los usuarios, puede mantener la integridad de sus datos y, al mismo tiempo, permitir la flexibilidad necesaria. Este proceso no solo protege su información, sino que también permite la colaboración sin riesgo de pérdida de datos. 
 
 ## Preguntas frecuentes
 

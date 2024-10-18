@@ -16,7 +16,7 @@ Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .N
 Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van. 
 
 1. Visual Studio vagy bármely .NET integrált fejlesztői környezet (IDE): Győződjön meg arról, hogy rendelkezik megfelelő IDE-vel a C# kód írásához és futtatásához.
-2. Aspose.Cells for .NET: Le kell töltenie és hivatkoznia kell az Aspose.Cells könyvtárra a projektben. Letöltheti a[Az Aspose kiadja](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells for .NET: Le kell töltenie és hivatkoznia kell az Aspose.Cells könyvtárra a projektben. Letöltheti a[Az Aspose kiadja](https://releases.aspose.com/cells/net/).
 3. Alapvető C# ismeretek: A C# és az objektumorientált programozási fogalmak ismerete segít a példák jobb megértésében.
 4. .NET-keretrendszer: Ez az oktatóanyag feltételezi, hogy a .NET-keretrendszer 4.5-ös vagy újabb verzióját használja.
 
@@ -168,7 +168,7 @@ Ez azonnali visszajelzést ad arról, hogy a kód minden probléma nélkül műk
 Az Aspose.Cells egy .NET-könyvtár, amelyet Excel-fájlok létrehozására, kezelésére és programozott konvertálására terveztek.
 
 ### Hogyan telepíthetem az Aspose.Cells for .NET fájlt?
- Letöltheti a[Az Aspose kiadja](https://releases.aspose.com/cells/net/)és hivatkozzon rá a projektjében.
+ Letöltheti a[Az Aspose kiadja](https://releases.aspose.com/cells/net/) és hivatkozzon rá a projektjében.
 
 ### Használhatom ingyenesen az Aspose.Cells-t?
  Igen, az Aspose ingyenes próbaverziót kínál a címen[ezt a linket](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Az Aspose.Cells egy .NET-könyvtár, amelyet Excel-fájlok létrehozására, kez
  További példák és dokumentációk találhatók a[Aspose dokumentációs oldal](https://reference.aspose.com/cells/net/).
 
 ### Mi a teendő, ha problémákat tapasztalok az Aspose használata közben?
- Kérhet segítséget az Aspose támogatási fórumától[itt](https://forum.aspose.com/c/cells/9).
+Kérhet segítséget az Aspose támogatási fórumától[itt](https://forum.aspose.com/c/cells/9).
  

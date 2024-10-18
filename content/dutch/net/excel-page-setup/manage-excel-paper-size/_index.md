@@ -17,7 +17,7 @@ Voordat u in de technische details van het beheer van Excel-papierformaten duikt
 
 1. Basiskennis van C#: Kennis van C#-programmering vereenvoudigt het proces van het integreren van Aspose.Cells in uw projecten aanzienlijk.
 2. Visual Studio geïnstalleerd: zorg ervoor dat u Visual Studio op uw computer hebt geïnstalleerd om C#-code te kunnen schrijven en uitvoeren.
-3.  Aspose.Cells voor .NET-bibliotheek: U moet Aspose.Cells verkrijgen. U kunt[download het hier](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells voor .NET-bibliotheek: U moet Aspose.Cells verkrijgen. U kunt[download het hier](https://releases.aspose.com/cells/net/).
 4. NuGet Package Manager: Zorg ervoor dat u toegang hebt tot NuGet Package Manager, aangezien u Aspose.Cells hiermee eenvoudig kunt installeren.
 
 Laten we aan de slag gaan met deze vereisten in gedachten!
@@ -68,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- Deze regel maakt een nieuwe werkmap in het geheugen. Als u met een bestaand bestand werkt, kunt u het bestandspad doorgeven aan de`Workbook` bouwer.
+ Deze regel maakt een nieuwe werkmap in het geheugen. Als u met een bestaand bestand werkt, kunt u het bestandspad doorgeven aan de`Workbook` constructeur.
 
 ## Stap 3: Toegang tot het eerste werkblad
 

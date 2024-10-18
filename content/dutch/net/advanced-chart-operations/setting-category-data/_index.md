@@ -9,7 +9,7 @@ url: /nl/net/advanced-chart-operations/setting-category-data/
 ---
 ## Invoering
 
-Als het gaat om het programmatisch beheren en manipuleren van Excel-bestanden, kan het hebben van de juiste tools het verschil maken. Aspose.Cells voor .NET springt eruit als een dergelijke tool, waarmee ontwikkelaars moeiteloos Excel-bestanden kunnen maken, bewerken en converteren. Of u nu een complexe data-analysetoepassing bouwt of gewoon de generatie van rapporten wilt automatiseren, Aspose.Cells heeft alles wat u nodig hebt. 
+Als het gaat om het programmatisch beheren en manipuleren van Excel-bestanden, kan het hebben van de juiste tools het verschil maken. Aspose.Cells voor .NET springt eruit als een dergelijke tool, waarmee ontwikkelaars moeiteloos Excel-bestanden kunnen maken, bewerken en converteren. Of u nu een complexe data-analysetoepassing bouwt of gewoon de generatie van rapporten wilt automatiseren, Aspose.Cells heeft u gedekt. 
 
 ## Vereisten 
 
@@ -17,7 +17,7 @@ Voordat we in de details duiken, willen we er zeker van zijn dat u alles heeft w
 
 1. Ontwikkelomgeving: Zorg ervoor dat u een .NET-ontwikkelomgeving hebt ingesteld. Visual Studio wordt aanbevolen.
 2.  Aspose.Cells voor .NET-bibliotheek: Download de nieuwste versie van de bibliotheek van de[Aspose.Cells Downloadpagina](https://releases.aspose.com/cells/net/).
-3. Basiskennis van C#: Kennis van C# en Excel-concepten helpt u de inhoud gemakkelijker te begrijpen.
+3. Basiskennis van C#: Kennis van C# en Excel-concepten helpt u de inhoud beter te begrijpen.
 4.  Toegang tot documentatie: toegang hebben tot[Aspose.Cells-documentatie](https://reference.aspose.com/cells/net/) kan extra inzicht geven als je ergens vastloopt. 
 
 Nu alles op zijn plek staat, gaan we stap voor stap de magie van Excel-manipulatie ontdekken.
@@ -66,7 +66,7 @@ U moet met het eerste werkblad in de werkmap werken. Toegang tot het werkblad is
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- De index`0` wijst naar het eerste werkblad. In Excel kunt u dit zien als het openen van het eerste tabblad in uw werkmap.
+ De index`0` verwijst naar het eerste werkblad. In Excel kunt u dit zien als het openen van het eerste tabblad in uw werkmap.
 
 ## Stap 5: Voorbeeldwaarden toevoegen aan cellen
 

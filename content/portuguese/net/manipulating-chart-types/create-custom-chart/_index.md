@@ -1,7 +1,7 @@
 ---
 title: Criar gráfico personalizado
 linktitle: Criar gráfico personalizado
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a criar gráficos personalizados no Excel com o Aspose.Cells para .NET. Guia passo a passo para aprimorar suas habilidades de visualização de dados.
 type: docs
 weight: 10
@@ -52,7 +52,7 @@ No lugar de "Your Output Directory", você pode especificar um caminho real onde
  Agora, você vai querer começar criando uma nova instância do`Workbook` classe. Este é o bloco de construção fundamental para qualquer operação do Excel usando Aspose.Cells.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 

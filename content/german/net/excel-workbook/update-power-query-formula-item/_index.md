@@ -62,7 +62,7 @@ Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 
 ## Schritt 3: Zugriff auf das Daten-Mashup
 
-Als Nächstes greifen wir auf die im Data Mashup der Arbeitsmappe gespeicherten Power Query-Formeln zu.
+Als Nächstes greifen wir auf die Power Query-Formeln zu, die im Data Mashup der Arbeitsmappe gespeichert sind.
 
 ```csharp
 DataMashup mashupData = workbook.DataMashup;

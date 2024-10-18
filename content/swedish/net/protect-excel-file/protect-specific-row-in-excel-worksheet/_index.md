@@ -49,7 +49,7 @@ Först måste vi definiera en katalog där vi ska lagra vår Excel-fil. Så här
 // Sökvägen till dokumentkatalogen.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // ändra till önskad väg.
 
-// Skapa katalog om den inte redan finns.
+//Skapa katalog om den inte redan finns.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -143,7 +143,7 @@ Ja, du kan upprepa låsningsprocessen för alla andra rader på samma sätt som 
 Du kan välja celler individuellt och använda låsstilar, liknande hur du låste en rad.
 
 ### Är Aspose.Cells gratis att använda?  
-Aspose.Cells är en kommersiell produkt, men du kan prova den med en gratis testversion tillgänglig[här](https://releases.aspose.com/).
+ Aspose.Cells är en kommersiell produkt, men du kan prova den med en gratis testversion tillgänglig[här](https://releases.aspose.com/).
 
 ### Behöver jag en internetanslutning för att använda Aspose.Cells?  
 Nej, Aspose.Cells är ett .NET-bibliotek och kan fungera offline när du väl har installerat det.

@@ -18,9 +18,9 @@ Innan vi hoppar in i det saftiga, låt oss se till att du är redo för framgån
 1. .NET-utvecklingsmiljö: Se till att du har en .NET-utvecklingsmiljö redo att användas. Du kan använda Visual Studio eller vilken annan IDE du väljer.
 2.  Aspose.Cells Library: Du bör också ha Aspose.Cells-biblioteket installerat. Om du inte har gjort detta ännu, oroa dig inte! Du kan ladda ner den[här](https://releases.aspose.com/cells/net/).
 3. Grundläggande förståelse för C#: Att känna till grunderna i C#-programmering hjälper dig att följa med smidigt.
-4.  En Excel-fil: Ha en Excel-fil redo som du vill arbeta med. För vårt exempel använder vi en enkel fil med namnet`book1.xlsx` med minst ett kalkylblad som heter "Sheet1".
+4. En Excel-fil: Ha en Excel-fil redo som du vill arbeta med. För vårt exempel använder vi en enkel fil med namnet`book1.xlsx` med minst ett kalkylblad som heter "Sheet1".
 
-Nu när du är klar, låt oss gräva in!
+Nu när du är redo, låt oss gräva in!
 
 ## Importera paket
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Ange din dokumentkatalog
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Kombinera för att bilda hela vägen
 ```
 
- Här, byt ut`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen på ditt system var`book1.xlsx` lagras. Använder`Path.Combine` är snyggt eftersom det säkerställer att sökvägen är korrekt konstruerad över olika operativsystem.
+ Här, byt ut`"YOUR DOCUMENT DIRECTORY"`med den faktiska sökvägen på ditt system var`book1.xlsx` lagras. Använder`Path.Combine` är snyggt eftersom det säkerställer att sökvägen är korrekt konstruerad över olika operativsystem.
 
 ## Steg 2: Skapa en filström
 
@@ -115,7 +115,7 @@ Aspose.Cells är ett kraftfullt .NET-bibliotek som låter utvecklare skapa, modi
 Aspose.Cells stöder olika format, inklusive XLS, XLSX, CSV och andra.
 
 ### Behöver jag en licens för att använda Aspose.Cells?
- Medan det finns en[gratis provperiod](https://releases.aspose.com/)tillgänglig måste du så småningom köpa en licens för att använda den utan begränsningar.
+ Medan det finns en[gratis provperiod](https://releases.aspose.com/) tillgänglig måste du så småningom köpa en licens för att använda den utan begränsningar.
 
 ### Var kan jag hitta support för Aspose.Cells?
- Du kan få stöd genom deras[supportforum](https://forum.aspose.com/c/cells/9).
+Du kan få stöd genom deras[supportforum](https://forum.aspose.com/c/cells/9).

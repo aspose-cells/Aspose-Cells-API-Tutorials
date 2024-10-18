@@ -9,14 +9,14 @@ url: /hu/net/inserting-controls-in-charts/add-label-control-to-chart/
 ---
 ## Bevezetés
 
-A diagramok hatékony módszert jelentenek az adatok megjelenítésére, és néha egy címke hozzáadásával még jobban áttekinthető. Ha az Aspose.Cells for .NET programmal dolgozik, könnyen hozzáadhat egy címkét a diagramokhoz, hogy további kontextust biztosítson. Ebben az oktatóanyagban lépésről lépésre végigvezetjük, hogyan kell ezt megtenni, így biztosítva, hogy megfelelő felkészültséggel rendelkezzen a saját projektekben való megvalósításához.
+diagramok hatékony módszert jelentenek az adatok megjelenítésére, és néha egy címke hozzáadásával még jobban áttekinthető. Ha az Aspose.Cells for .NET programmal dolgozik, könnyen hozzáadhat egy címkét a diagramokhoz, hogy további kontextust biztosítson. Ebben az oktatóanyagban lépésről lépésre végigvezetjük, hogyan kell ezt megtenni, így biztosítva, hogy megfelelő felkészültséggel rendelkezzen a saját projektekben való megvalósításához.
 
 ## Előfeltételek
 
 Mielőtt belemerülnénk az apróságokba, nézzük meg, mire van szüksége az induláshoz:
 
 - Alapvető C# ismerete: Kulcsfontosságú a C# programozás alapjainak megértése. Ha Ön kezdő, ne aggódjon – a lépések világosak és tömörek lesznek.
-- Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ezt a Visual Studio NuGet Package Manager segítségével teheti meg. Ha még nem tette meg, nézze meg a[letöltési link](https://releases.aspose.com/cells/net/) a könyvtár számára.
+-  Aspose.Cells Library: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ezt a Visual Studio NuGet Package Manager segítségével teheti meg. Ha még nem tette meg, nézze meg a[letöltési link](https://releases.aspose.com/cells/net/) a könyvtár számára.
 - Visual Studio: A kód írásához és végrehajtásához integrált fejlesztői környezetre (IDE) lesz szüksége, mint például a Visual Studio.
 
 ## Csomagok importálása
@@ -62,7 +62,7 @@ Ezután betöltjük azt az Excel fájlt, amely azt a diagramot tartalmazza, amel
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Itt a`Workbook` osztályt az Aspose.Cells-ből az Excel fájl megnyitásához. Olyan ez, mint kinyitni az ajtót, hogy a kreativitás áradjon!
+ Itt a`Workbook`osztályt az Aspose.Cells-ből az Excel fájl megnyitásához. Olyan ez, mint kinyitni az ajtót, hogy a kreativitás áradjon!
 
 ## 3. lépés: Nyissa meg a munkalapot
 
@@ -94,7 +94,7 @@ Most jön az izgalmas rész – a címke hozzáadása a diagramhoz. Meghatározz
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Itt,`AddLabelInChart` gondoskodik a címke létrehozásáról az Ön által megadott koordináták és méretek alapján. Ez olyan, mintha egy gyönyörű keretet rögzítene a műalkotásai köré!
+ Itt,`AddLabelInChart`gondoskodik a címke létrehozásáról az Ön által megadott koordináták és méretek alapján. Ez olyan, mintha egy gyönyörű keretet rögzítene a műalkotásai köré!
 
 ## 6. lépés: Állítsa be a címke szövegét
 
@@ -149,7 +149,7 @@ Ez olyan, mintha a kész terméket felfedné a világ előtt, tapsra készen!
 Igen! Igényeinek megfelelően módosíthatja a címke betűtípusát, színét, méretét és egyéb tulajdonságait.
 
 ### Az Aspose.Cells ingyenesen használható?
- Az Aspose.Cells fizetős termék; kezdheti azonban a[ingyenes próbaverzió](https://releases.aspose.com/)jellemzőinek feltárására.
+ Az Aspose.Cells fizetős termék; kezdheti azonban a[ingyenes próbaverzió](https://releases.aspose.com/) jellemzőinek feltárására.
 
 ### Mi a teendő, ha több címkét szeretnék hozzáadni?
 A címke hozzáadása lépéseit annyiszor ismételheti meg, ahányszor szükséges, mindegyik más-más pozícióval és szöveggel.

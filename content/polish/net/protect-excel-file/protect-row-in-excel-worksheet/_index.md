@@ -13,7 +13,7 @@ Podczas pracy z arkuszami Excela często konieczne jest zabezpieczenie określon
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do części praktycznej, upewnijmy się, że wszystko jest gotowe. Oto kilka wymagań wstępnych:
+Zanim przejdziemy do części praktycznej, upewnijmy się, że wszystko jest skonfigurowane. Oto kilka wymagań wstępnych:
 
 1.  Aspose.Cells dla .NET: Pobierz bibliotekę ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Upewnij się, że masz najnowszą wersję, aby korzystać ze wszystkich nowych funkcji i poprawek błędów.
 2. Visual Studio: Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio (Community, Professional lub Enterprise), pomoże Ci efektywnie kompilować i uruchamiać kod w języku C#.
@@ -94,7 +94,7 @@ flag = new StyleFlag();
 flag.Locked = true; // Ustaw flagę blokady
 sheet.Cells.ApplyRowStyle(0, style, flag); // Zastosuj styl do pierwszego wiersza
 ```
-Tutaj pobieramy styl dla pierwszego wiersza, oznaczamy go jako zablokowany i stosujemy styl blokowania. Jest to analogiczne do zakładania blokady na ważną szufladę — niezbędne do zabezpieczenia poufnych informacji!
+Tutaj pobieramy styl dla pierwszego wiersza, oznaczamy go jako zablokowany i stosujemy styl blokowania. Jest to analogiczne do zakładania zamka na ważną szufladę — niezbędne do zabezpieczenia poufnych informacji!
 
 ## Krok 6: Ochrona arkusza
 
@@ -116,12 +116,12 @@ Upewnij się, że nazwa i format zapisanego pliku odpowiadają Twoim wymaganiom.
 
 ## Wniosek
 
-I masz to! Udało Ci się skutecznie nauczyć, jak chronić konkretny wiersz w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu nie tylko utworzyłeś skoroszyt, ale także zabezpieczyłeś poufne informacje, zapewniając, że Twoje pliki programu Excel pozostaną nienaruszone i wiarygodne. Niezależnie od tego, czy jest to raport finansowy, arkusz obecności czy plan projektu współpracy, ochrona kluczowych danych jest niezbędna. 
+I masz to! Udało Ci się skutecznie nauczyć, jak chronić konkretny wiersz w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu nie tylko utworzyłeś skoroszyt, ale także zabezpieczyłeś poufne informacje, zapewniając, że Twoje pliki programu Excel pozostaną nienaruszone i wiarygodne. Niezależnie od tego, czy jest to raport finansowy, lista obecności czy plan projektu współpracy, ochrona kluczowych danych jest niezbędna. 
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca użytkownikom programowe tworzenie, edytowanie i konwertowanie plików Excel.
+Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca użytkownikom programowe tworzenie, edytowanie i konwertowanie plików programu Excel.
 
 ### Czy mogę chronić wiele wierszy jednocześnie za pomocą Aspose.Cells?
 Tak, możesz rozszerzyć technikę blokowania, powtarzając wiele wierszy i stosując podobne zmiany stylu w każdym z nich.

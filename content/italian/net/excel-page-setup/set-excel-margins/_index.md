@@ -9,16 +9,16 @@ url: /it/net/excel-page-setup/set-excel-margins/
 ---
 ## Introduzione
 
-Quando si tratta di gestire i documenti Excel in modo programmatico, Aspose.Cells per .NET si distingue come una libreria robusta che semplifica le attività, dalla manipolazione di dati di base alle operazioni avanzate sui fogli di calcolo. Un requisito comune che molti di noi incontrano è l'impostazione dei margini per i nostri fogli di calcolo Excel. I margini appropriati non solo rendono i tuoi fogli di calcolo esteticamente gradevoli, ma migliorano anche la leggibilità quando vengono stampati. In questa guida completa, esploreremo come impostare i margini di Excel utilizzando Aspose.Cells per .NET, suddividendolo in passaggi facili da seguire.
+Quando si tratta di gestire i documenti Excel a livello di programmazione, Aspose.Cells per .NET si distingue come una libreria solida che semplifica le attività, dalla manipolazione di dati di base alle operazioni avanzate sui fogli di calcolo. Un requisito comune che molti di noi incontrano è l'impostazione dei margini per i nostri fogli di calcolo Excel. I margini appropriati non solo rendono i tuoi fogli di calcolo esteticamente gradevoli, ma migliorano anche la leggibilità quando vengono stampati. In questa guida completa, esploreremo come impostare i margini di Excel utilizzando Aspose.Cells per .NET, suddividendolo in passaggi facili da seguire.
 
 ## Prerequisiti
 
 Prima di addentrarci nei dettagli dell'impostazione dei margini nei fogli Excel, è necessario soddisfare alcuni prerequisiti:
 
 1. Nozioni di base di C#: la familiarità con C# ti aiuterà a comprendere e implementare efficacemente i frammenti di codice.
-2. Aspose.Cells per la libreria .NET: devi avere la libreria Aspose.Cells. Se non l'hai ancora fatto, puoi scaricarla da[Pagina di download di Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Libreria Aspose.Cells per .NET: devi avere la libreria Aspose.Cells. Se non l'hai ancora fatto, puoi scaricarla da[Pagina di download di Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Configurazione IDE: assicurati di aver configurato un ambiente di sviluppo. IDE come Visual Studio sono ottimi per lo sviluppo in C#.
-4.  Chiave di licenza (opzionale): sebbene tu possa usare una versione di prova, avere una licenza temporanea o completa può aiutarti a sbloccare tutte le funzionalità. Puoi saperne di più sulle licenze[Qui](https://purchase.aspose.com/temporary-license/).
+4.  Chiave di licenza (facoltativo): sebbene tu possa usare una versione di prova, avere una licenza temporanea o completa può aiutarti a sbloccare tutte le funzionalità. Puoi saperne di più sulle licenze[Qui](https://purchase.aspose.com/temporary-license/).
 
 Ora che abbiamo soddisfatto i prerequisiti, passiamo direttamente al codice e vediamo come possiamo manipolare i margini di Excel passo dopo passo.
 
@@ -48,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Passaggio 2: creare un oggetto cartella di lavoro
 
-Successivamente, dobbiamo creare un nuovo oggetto workbook. Questo oggetto funge da contenitore per tutti i tuoi dati e fogli di lavoro.
+Poi, dobbiamo creare un nuovo oggetto workbook. Questo oggetto funge da contenitore per tutti i tuoi dati e fogli di lavoro.
 
  Crea un'istanza di un nuovo`Workbook` oggetto come segue:
 

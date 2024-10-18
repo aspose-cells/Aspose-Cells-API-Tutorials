@@ -9,7 +9,7 @@ url: /pt/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rende
 ---
 ## Introdução
 
-Criar e personalizar documentos do Excel programaticamente pode tornar seu trabalho mais eficiente, especialmente se você lida com vários relatórios ou entradas de dados. Com o Aspose.Cells para .NET, você pode facilmente definir tamanhos de papel personalizados para renderizar planilhas. Neste tutorial, dividiremos o processo em etapas fáceis de seguir, garantindo que você possa implementar essa funcionalidade perfeitamente. Seja você um desenvolvedor experiente ou apenas dando os primeiros passos no mundo do .NET,
+Criar e personalizar documentos do Excel programaticamente pode tornar seu trabalho mais eficiente, especialmente se você lida com vários relatórios ou entradas de dados. Com o Aspose.Cells para .NET, você pode facilmente definir tamanhos de papel personalizados para renderizar planilhas. Neste tutorial, dividiremos o processo em etapas fáceis de seguir, garantindo que você possa implementar essa funcionalidade perfeitamente. Seja você um desenvolvedor experiente ou apenas um novato no mundo do .NET,
 
 ## Pré-requisitos
 

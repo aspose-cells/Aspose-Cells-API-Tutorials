@@ -17,7 +17,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Phiên bản cộng đồng hoạt động hoàn hảo.
 2.  Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
-3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ rất có ích.
+3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp ích rất nhiều.
 4. Thiết lập dự án: Tạo ứng dụng bảng điều khiển C# mới trong Visual Studio.
 
 Hoàn hảo—bạn đã hoàn tất! Bây giờ, chúng ta hãy đi sâu vào bản chất của mã.
@@ -41,7 +41,7 @@ Chúng ta hãy trình bày mã để tạo thư mục (nếu thư mục chưa t�
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo thư mục nếu thư mục đó chưa có.
+//Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -117,7 +117,7 @@ Bây giờ chúng ta đã xác định được phạm vi có thể chỉnh sử
 sheet.Protect(ProtectionType.All);
 ```
 
-Bằng cách gọi phương pháp này, về cơ bản bạn đang khóa toàn bộ bảng tính. Chỉ có thể thay đổi các phạm vi được xác định để chỉnh sửa.
+Bằng cách sử dụng phương pháp này, về cơ bản bạn đang khóa toàn bộ bảng tính. Chỉ có thể thay đổi các phạm vi được xác định để chỉnh sửa.
 
 ## Bước 8: Lưu tệp Excel
 
@@ -132,7 +132,7 @@ book.Save(dataDir + "protectedrange.out.xls");
 
 ## Phần kết luận
 
-Và thế là xong! Bạn đã tạo thành công một bảng tính Excel bằng Aspose.Cells cho .NET, xác định phạm vi có thể chỉnh sửa, đặt mật khẩu và bảo vệ bảng tính—tất cả chỉ trong vài bước đơn giản. Bây giờ bạn có thể chia sẻ sổ làm việc của mình với đồng nghiệp, tăng cường sự cộng tác trong khi vẫn giữ an toàn cho dữ liệu quan trọng.
+Và bạn đã có nó! Bạn đã tạo thành công một bảng tính Excel bằng Aspose.Cells cho .NET, xác định phạm vi có thể chỉnh sửa, đặt mật khẩu và bảo vệ bảng tính—tất cả chỉ trong vài bước đơn giản. Bây giờ bạn có thể chia sẻ sổ làm việc của mình với đồng nghiệp, tăng cường sự cộng tác trong khi vẫn giữ an toàn cho dữ liệu quan trọng.
 
 ## Câu hỏi thường gặp
 

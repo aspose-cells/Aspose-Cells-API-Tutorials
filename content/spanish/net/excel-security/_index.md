@@ -25,7 +25,7 @@ Su libro de trabajo puede contener información confidencial y es perfectamente 
 
 ## Conclusión 
 
-En conclusión, mis queridos entusiastas de Excel, el mundo de Aspose.Cells para .NET está lleno de potencial que espera ser descubierto. Nuestros tutoriales cuidadosamente elaborados son la clave para dominar estas herramientas. ¡Feliz aprendizaje y no olvides consultar los enlaces para obtener instrucciones más detalladas!
+En conclusión, mis queridos entusiastas de Excel, el mundo de Aspose.Cells para .NET está lleno de potencial que espera ser descubierto. Nuestros tutoriales cuidadosamente elaborados son la clave para dominar estas herramientas. ¡Que disfruten aprendiendo y no olviden consultar los enlaces para obtener instrucciones más detalladas!
 
 
 ## Tutoriales 
@@ -33,4 +33,4 @@ En conclusión, mis queridos entusiastas de Excel, el mundo de Aspose.Cells para
 | --- | --- |
 | [Configuración de protección avanzada para hojas de cálculo de Excel](./advanced-protection-settings-for-excel-worksheet/) | Proteja sus datos de Excel con configuraciones de protección avanzadas usando Aspose.Cells para .NET. Aprenda a implementar controles paso a paso en este tutorial completo. |  
 | [Bloquear celda en una hoja de cálculo de Excel](./lock-cell-in-excel-worksheet/) | Aprenda a bloquear celdas en hojas de cálculo de Excel con Aspose.Cells para .NET. Tutorial sencillo paso a paso para la gestión segura de datos. |  
-| [Especificar autor al proteger contra escritura un libro de Excel](./specify-author-while-write-protecting-excel-workbook/) | Aprenda cómo proteger contra escritura su libro de Excel mientras especifica un autor usando Aspose.Cells para .NET en esta guía paso a paso. |  
+| [Especificar autor al proteger contra escritura un libro de Excel](./specify-author-while-write-protecting-excel-workbook/) | Aprenda a proteger contra escritura su libro de Excel mientras especifica un autor usando Aspose.Cells para .NET en esta guía paso a paso. |  

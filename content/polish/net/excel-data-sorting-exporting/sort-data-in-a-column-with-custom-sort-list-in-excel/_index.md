@@ -61,13 +61,13 @@ string outputDir = "Your Document Directory\\";
 
 ## Krok 2: Załaduj plik źródłowy Excel
 
- Następnie załadujemy plik Excel zawierający dane, które chcesz posortować. Można to zrobić, tworząc wystąpienie`Workbook` klasę i przekazując ścieżkę do pliku źródłowego.
+Następnie załadujemy plik Excel zawierający dane, które chcesz posortować. Można to zrobić, tworząc wystąpienie`Workbook` klasę i przekazując ścieżkę do pliku źródłowego.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
 ```
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego 
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego 
 
 Po załadowaniu pliku musimy uzyskać dostęp do konkretnego arkusza roboczego, który zawiera dane, które zamierzamy posortować. W tym przypadku celujemy w pierwszy arkusz roboczy.
 

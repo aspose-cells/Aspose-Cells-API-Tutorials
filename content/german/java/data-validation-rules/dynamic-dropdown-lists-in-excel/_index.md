@@ -16,7 +16,7 @@ Microsoft Excel ist ein vielseitiges Tool, das über die einfache Dateneingabe u
 
 Bevor wir mit der Erstellung dynamischer Dropdown-Listen beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Java-Entwicklungsumgebung: Sie sollten Java und eine geeignete integrierte Entwicklungsumgebung (IDE) auf Ihrem System installiert haben.
+- Java-Entwicklungsumgebung: Auf Ihrem System sollten Java und eine geeignete integrierte Entwicklungsumgebung (IDE) installiert sein.
 
 -  Aspose.Cells für Java-Bibliothek: Laden Sie die Aspose.Cells für Java-Bibliothek herunter von[Hier](https://releases.aspose.com/cells/java/) und fügen Sie es in Ihr Java-Projekt ein.
 
@@ -88,11 +88,11 @@ Das Erstellen dynamischer Dropdown-Listen in Excel mit Aspose.Cells für Java is
 
 ### Wie kann ich die Quelle der Dropdown-Liste anpassen?
 
- Um die Quelle der Dropdown-Liste anzupassen, ändern Sie einfach das Wertearray in dem Schritt, in dem Sie die Quelle definieren. Sie können beispielsweise Elemente hinzufügen oder daraus entfernen`fruits` Array, um die Optionen in der Dropdown-Liste zu ändern.
+ Um die Quelle der Dropdown-Liste anzupassen, ändern Sie einfach das Wertearray in dem Schritt, in dem Sie die Quelle definieren. Sie können beispielsweise Elemente aus der Dropdown-Liste hinzufügen oder entfernen.`fruits` Array, um die Optionen in der Dropdown-Liste zu ändern.
 
-### Kann ich mit dynamischen Dropdown-Listen eine bedingte Formatierung auf Zellen anwenden?
+### Kann ich mit dynamischen Dropdown-Listen eine bedingte Formatierung auf die Zellen anwenden?
 
-Ja, Sie können bedingte Formatierung auf Zellen mit dynamischen Dropdown-Listen anwenden. Aspose.Cells für Java bietet umfassende Formatierungsoptionen, mit denen Sie Zellen basierend auf bestimmten Bedingungen hervorheben können.
+Ja, Sie können Zellen mit dynamischen Dropdown-Listen bedingte Formatierungen zuweisen. Aspose.Cells für Java bietet umfassende Formatierungsoptionen, mit denen Sie Zellen basierend auf bestimmten Bedingungen hervorheben können.
 
 ### Ist es möglich, kaskadierende Dropdown-Listen zu erstellen?
 

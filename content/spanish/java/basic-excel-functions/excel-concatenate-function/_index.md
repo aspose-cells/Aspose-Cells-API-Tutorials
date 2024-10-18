@@ -10,7 +10,7 @@ url: /es/java/basic-excel-functions/excel-concatenate-function/
 
 ## Introducción a la función CONCATENAR de Excel mediante Aspose.Cells para Java
 
-En este tutorial, exploraremos cómo utilizar la función CONCATENAR en Excel con Aspose.Cells para Java. CONCATENAR es una práctica función de Excel que permite combinar o concatenar varias cadenas de texto en una sola. Con Aspose.Cells para Java, puede lograr la misma funcionalidad mediante programación en sus aplicaciones Java.
+En este tutorial, exploraremos cómo utilizar la función CONCATENAR en Excel con Aspose.Cells para Java. CONCATENAR es una práctica función de Excel que le permite combinar o concatenar varias cadenas de texto en una sola. Con Aspose.Cells para Java, puede lograr la misma funcionalidad mediante programación en sus aplicaciones Java.
 
 ## Prerrequisitos
 
@@ -34,7 +34,7 @@ import com.aspose.cells.*;
 
 ## Paso 3: Inicializar un libro de trabajo
 
-Cree un nuevo objeto Workbook para representar su archivo de Excel. Puede crear un nuevo archivo de Excel o abrir uno existente. Aquí crearemos un nuevo archivo de Excel:
+Cree un nuevo objeto Workbook para representar su archivo de Excel. Puede crear un nuevo archivo de Excel o abrir uno existente. Aquí, crearemos un nuevo archivo de Excel:
 
 ```java
 Workbook workbook = new Workbook();

@@ -1,7 +1,7 @@
 ---
 title: Criar intervalo nomeado de células no Excel
 linktitle: Criar intervalo nomeado de células no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a criar facilmente um intervalo nomeado de células no Excel usando Aspose.Cells para .NET com este guia passo a passo. Simplifique seu gerenciamento de dados.
 type: docs
 weight: 10
@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory";
 
  Apenas substitua`"Your Document Directory"` com o caminho real onde você deseja salvar seu arquivo Excel. Pode ser algo como`@"C:\Users\YourName\Documents\"`.
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, criaremos uma nova pasta de trabalho. Uma pasta de trabalho é essencialmente seu arquivo Excel. O Aspose.Cells torna isso incrivelmente fácil.
 
@@ -63,7 +63,7 @@ Esta linha inicializa um novo objeto de pasta de trabalho que iremos modificar.
 Cada pasta de trabalho pode ter várias planilhas e, para nosso propósito, acessaremos a primeira. Pense nisso como abrir uma aba em um arquivo Excel.
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Agora temos acesso à primeira planilha onde criaremos nosso intervalo nomeado.
 Agora, é hora de criar o intervalo nomeado. Um intervalo nomeado permite que você defina um conjunto específico de células na sua planilha.
 
 ```csharp
-//Criando um intervalo nomeado
+// Criando um intervalo nomeado
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Após fazer todas essas alterações, o próximo passo é salvar a pasta de trab
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Esta linha salva suas alterações em um arquivo chamado`outputCreateNamedRangeofCells.xlsx`. Certifique-se de que o caminho especificado esteja correto; caso contrário, o programa gerará um erro!
+ Esta linha salva suas alterações em um arquivo chamado`outputCreateNamedRangeofCells.xlsx`. Certifique-se de que o caminho especificado esteja correto; caso contrário, o programa gerará um erro!
 
 ## Etapa 8: Verifique o sucesso da operação
 
@@ -141,7 +141,7 @@ Sim, você pode criar quantos intervalos nomeados quiser na mesma planilha ou em
 O Aspose.Cells oferece um teste gratuito para você explorar seus recursos. No entanto, para uso a longo prazo, você precisará comprar uma licença.
 
 ### Quais linguagens de programação o Aspose.Cells suporta?
-O Aspose.Cells oferece suporte principalmente a linguagens .NET como C#, VB.NET e outras.
+Aspose.Cells oferece suporte principalmente a linguagens .NET como C#, VB.NET e outras.
 
 ### Onde posso encontrar documentação adicional para Aspose.Cells?
  Você pode encontrar ampla documentação e exemplos sobre[Página de documentação do Aspose.Cells](https://reference.aspose.com/cells/net/).

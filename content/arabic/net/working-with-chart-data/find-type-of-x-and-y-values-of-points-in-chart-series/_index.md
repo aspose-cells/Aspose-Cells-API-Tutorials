@@ -15,17 +15,17 @@ url: /ar/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 قبل البدء في الخطوات، تأكد من أن لديك بعض الأشياء جاهزة:
 
-1. بيئة .NET: يجب أن يكون لديك بيئة تطوير .NET مُجهزة. يمكن أن تكون هذه البيئة Visual Studio أو Visual Studio Code أو أي بيئة تطوير متكاملة أخرى متوافقة.
+1. بيئة .NET: يجب أن يكون لديك بيئة تطوير .NET مُجهزة. يمكن أن تكون هذه البيئة Visual Studio أو Visual Studio Code أو أي بيئة تطوير متكاملة متوافقة أخرى.
    
 2.  Aspose.Cells for .NET: ستحتاج إلى تثبيت Aspose.Cells for .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/cells/net/).
 
-3. ملف Excel نموذجي: احصل على ملف Excel نموذجي يحتوي على مخططات بيانية. في هذا البرنامج التعليمي، سنستخدم ملفًا باسم`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`تأكد من وجوده في دليل المشروع الخاص بك.
+3.  ملف Excel نموذجي: احصل على ملف Excel نموذجي يحتوي على مخططات بيانية. في هذا البرنامج التعليمي، سنستخدم ملفًا باسم`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`تأكد من وجوده في دليل المشروع الخاص بك.
 
 4. معرفة البرمجة الأساسية: ستساعدك المعرفة ببرمجة C# على المتابعة بسهولة.
 
 ## استيراد الحزم
 
-للتفاعل مع بيانات Excel والرسوم البيانية، تحتاج إلى استيراد الحزم ذات الصلة من Aspose.Cells. وإليك كيفية القيام بذلك:
+للتفاعل مع بيانات Excel والرسوم البيانية، تحتاج إلى استيراد الحزم ذات الصلة من Aspose.Cells. إليك كيفية القيام بذلك:
 
 ### إعداد مشروعك
 
@@ -56,11 +56,11 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
- يستبدل`"Your Document Directory"`مع المسار الذي تم حفظ ملف Excel الخاص بك فيه.
+ يستبدل`"Your Document Directory"` مع المسار الذي تم حفظ ملف Excel الخاص بك فيه.
 
 ## الخطوة 2: تحميل المصنف
 
- بعد ذلك، قم بتحميل ملف Excel إلى`Workbook` الكائن. يسمح لك هذا بالوصول إلى كافة محتويات الملف.
+ بعد ذلك، قم بتحميل ملف Excel إلى`Workbook`الكائن. يسمح لك هذا بالوصول إلى كافة محتويات الملف.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

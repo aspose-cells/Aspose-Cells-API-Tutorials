@@ -130,7 +130,7 @@ chart.NSeries.Add("DataSheet!B1:B3", true);
 chart.NSeries.CategoryData = "DataSheet!A1:A3";
 ```
 
-Je to obdoba, jako když kuchař připravuje pokrm ze specifických surovin. Každý datový bod je důležitý!
+To je obdoba kuchaře připravujícího pokrm ze specifických surovin. Na každém datovém bodu záleží!
 
 ## Krok 8: Přístup k datové řadě a její formátování
 

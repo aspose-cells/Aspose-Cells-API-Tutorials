@@ -1,7 +1,7 @@
 ---
 title: Criar linha com gráfico de marcadores de dados
 linktitle: Criar linha com gráfico de marcadores de dados
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a criar um gráfico de Linha com Marcadores de Dados no Excel usando Aspose.Cells para .NET. Siga este guia passo a passo para gerar e personalizar gráficos facilmente.
 type: docs
 weight: 10
@@ -62,7 +62,7 @@ Agora que temos nossa planilha, vamos preenchê-la com alguns dados. Estamos cri
 worksheet.Cells[0, 0].Value = "X";
 worksheet.Cells[0, 1].Value = "Y";
 
-// Dados aleatórios para geração do gráfico
+// Dados aleatórios para gerar o gráfico
 Random R = new Random();
 
 // Crie dados aleatórios e salve nas células

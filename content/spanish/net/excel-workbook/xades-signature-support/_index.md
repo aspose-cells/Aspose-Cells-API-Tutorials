@@ -9,7 +9,7 @@ url: /es/net/excel-workbook/xades-signature-support/
 ---
 ## Introducción
 
-En el mundo digital actual, proteger los documentos es más crucial que nunca. Ya sea que esté tratando con información comercial confidencial o datos personales, garantizar la integridad y autenticidad de sus archivos es primordial. Una forma de lograrlo es mediante firmas digitales y, específicamente, firmas Xades. Si es un desarrollador .NET que busca implementar la compatibilidad con firmas Xades en sus aplicaciones, ¡está en el lugar correcto! En esta guía, lo guiaremos a través del proceso de agregar firmas Xades a archivos de Excel usando Aspose.Cells para .NET. ¡Así que, vamos a sumergirnos en el tema!
+En el mundo digital actual, proteger los documentos es más crucial que nunca. Ya sea que esté tratando con información comercial confidencial o datos personales, garantizar la integridad y autenticidad de sus archivos es primordial. Una forma de lograrlo es mediante firmas digitales y, específicamente, firmas Xades. Si es un desarrollador .NET que busca implementar la compatibilidad con firmas Xades en sus aplicaciones, ¡está en el lugar correcto! En esta guía, lo guiaremos a través del proceso de agregar firmas Xades a archivos de Excel usando Aspose.Cells para .NET. ¡Así que, vamos directo al grano!
 
 ## Prerrequisitos
 
@@ -55,7 +55,7 @@ continuación, carguemos el libro de Excel que queremos firmar. Aquí es donde c
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
 
- Aquí, creamos una nueva instancia de la`Workbook` Clase, que pasa la ruta del archivo de origen de Excel. Asegúrese de que el nombre del archivo coincida con el que tiene en el directorio de origen.
+ Aquí, creamos una nueva instancia de la`Workbook` Clase, pasando la ruta del archivo de origen de Excel. Asegúrese de que el nombre del archivo coincida con el que tiene en el directorio de origen.
 
 ## Paso 3: Prepare su certificado digital
 
@@ -77,7 +77,7 @@ DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), passwo
 signature.XAdESType = XAdESType.XAdES;
 ```
 
- En este fragmento, leemos el archivo PFX en una matriz de bytes y creamos uno nuevo`DigitalSignature` objeto. También configuramos el`XAdESType` a`XAdES`, lo cual es esencial para nuestra firma.
+ En este fragmento, leemos el archivo PFX en una matriz de bytes y creamos uno nuevo.`DigitalSignature` objeto. También configuramos el`XAdESType` a`XAdES`, lo cual es esencial para nuestra firma.
 
 ## Paso 5: Agregar la firma al libro de trabajo
 

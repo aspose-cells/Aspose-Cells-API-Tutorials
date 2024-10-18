@@ -2,7 +2,7 @@
 title: Az Excel szövegfüggvényei demisztifikálva
 linktitle: Az Excel szövegfüggvényei demisztifikálva
 second_title: Aspose.Cells Java Excel Processing API
-description: Fedezze fel az Excel szöveges függvényeinek titkait az Aspose.Cells for Java segítségével. Tanuljon meg könnyedén kezelni, kibontani és átalakítani a szöveget Excelben.
+description: Fedezze fel az Excel szöveges függvényeinek titkait az Aspose.Cells for Java segítségével. Tanuljon meg könnyedén kezelni, kivonatolni és átalakítani a szöveget Excelben.
 type: docs
 weight: 18
 url: /hu/java/basic-excel-functions/excel-text-functions-demystified/
@@ -121,7 +121,7 @@ cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 workbook.calculateFormula();
 ```
 
-A B5 cellában a "9" lesz (a "for" pozíciója), a C5 cellában pedig a "Keressen velem".
+A B5 cellában a „9” lesz (a „for”) helye, a C5 cellában pedig a „Keressen velem”.
 
 ## Következtetés
 

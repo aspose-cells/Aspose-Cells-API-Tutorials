@@ -91,7 +91,7 @@ Console.WriteLine("StoreName: " + taskPane.WebExtension.Reference.StoreName);
 Console.WriteLine("StoreType: " + taskPane.WebExtension.Reference.StoreType);
 Console.WriteLine("WebExtension.Id: " + taskPane.WebExtension.Id);
 ```
-Mỗi thuộc tính này cung cấp thông tin chi tiết về cách ngăn tác vụ hoạt động trong bối cảnh sổ làm việc Excel của bạn.
+Mỗi thuộc tính này cung cấp cái nhìn sâu sắc về cách ngăn tác vụ hoạt động trong bối cảnh sổ làm việc Excel của bạn.
 
 ## Bước 6: Kết thúc
 

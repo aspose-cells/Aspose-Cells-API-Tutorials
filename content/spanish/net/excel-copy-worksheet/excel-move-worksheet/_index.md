@@ -55,7 +55,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Explicación: 
 
- Esta línea asigna una variable de cadena`dataDir` para guardar la ruta al directorio de sus documentos. Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se almacena el archivo de Excel. Es como darle instrucciones a alguien; debes indicarle a tu código exactamente dónde buscar los archivos.
+Esta línea asigna una variable de cadena`dataDir` para guardar la ruta al directorio de sus documentos. Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde se almacena el archivo de Excel. Es como darle instrucciones a alguien; debes indicarle a tu código exactamente dónde buscar los archivos.
 
 ## Paso 2: Cargue el libro de trabajo
 
@@ -86,7 +86,7 @@ Worksheet worksheet = sheets[0];
 
 Explicación:  
 
-Esta línea recupera la primera hoja de cálculo de la colección. La indexación en programación suele empezar desde cero, por eso usamos`[0]`Considere esto como seleccionar el primer capítulo de su libro, listo para ser modificado.
+ Esta línea recupera la primera hoja de cálculo de la colección. La indexación en programación suele empezar desde cero, por eso usamos`[0]`Considere esto como seleccionar el primer capítulo de su libro, listo para ser modificado.
 
 ## Paso 5: Mueva la hoja de trabajo
 

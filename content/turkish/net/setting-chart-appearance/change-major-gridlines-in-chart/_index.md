@@ -2,7 +2,7 @@
 title: Grafikteki Ana Kılavuz Çizgilerini Değiştir
 linktitle: Grafikteki Ana Kılavuz Çizgilerini Değiştir
 second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel grafiklerindeki ana kılavuz çizgilerini nasıl değiştireceğinizi öğrenin.
+description: Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET'i kullanarak Excel grafiklerindeki ana kılavuz çizgilerini nasıl değiştireceğinizi öğrenin.
 type: docs
 weight: 11
 url: /tr/net/setting-chart-appearance/change-major-gridlines-in-chart/
@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // İstediğiniz yolla güncelleyin
  Daha sonra, yeni bir örnek oluşturmanız gerekir`Workbook` sınıf. Bu nesne Excel dosyanızı temsil edecek ve içeriğini düzenlemenize olanak tanıyacaktır.
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Bu kodda, grafiğin türünü (bu durumda sütun grafiği) ve onu yerleştirmek 
 
 ## Adım 6: Grafik Örneğine Erişim
 
- Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır:`Charts`koleksiyon.
+Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır:`Charts`koleksiyon.
 
 ```csharp
 // Yeni eklenen grafiğin örneğine erişim
@@ -184,7 +184,7 @@ Aspose.Cells, Excel dosyalarını program aracılığıyla oluşturmak, düzenle
  Evet, ücretsiz denemeye kaydolabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells kullanarak bir grafikteki diğer öğeleri nasıl değiştirebilirim?  
- Benzer şekilde, grafik öğelerine şu şekilde erişerek çeşitli grafik özelliklerini özelleştirebilirsiniz:`Chart` başlıklar, açıklamalar ve veri etiketleri gibi sınıflar.
+ Benzer şekilde, grafik öğelerine erişerek çeşitli grafik özelliklerini özelleştirebilirsiniz.`Chart` başlıklar, açıklamalar ve veri etiketleri gibi sınıflar.
 
 ### Aspose.Cells hangi dosya formatlarını destekler?  
 Aspose.Cells, XLSX, XLS, CSV ve diğerleri de dahil olmak üzere birden fazla dosya formatını destekler.

@@ -2,7 +2,7 @@
 title: Szerezze be az Odata részleteit
 linktitle: Szerezze be az Odata részleteit
 second_title: Aspose.Cells for .NET API Reference
-description: Fedezze fel, hogyan bonthatja ki az OData részleteit az Excelből az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre mutató oktatóanyagban.
+description: Fedezze fel, hogyan bonthatja ki az OData részleteit az Excelből az Aspose.Cells for .NET használatával ebben a részletes, lépésről lépésre mutató oktatóanyagban.
 type: docs
 weight: 110
 url: /hu/net/excel-workbook/get-odata-details/
@@ -109,7 +109,7 @@ Miután hozzáadta, futtassa a projektet. A konzolon egyértelműen kinyomtatva 
 
 ## Következtetés
 
-És megvan! Néhány egyszerű lépésben kihasználta az Aspose.Cells for .NET erejét, hogy OData-részleteket kinyerhessen egy Excel-fájlból. Elképesztő, hogy a megfelelő eszközökkel és utasításokkal mennyire egyszerű belemerülni az összetett adatkezelési feladatokba. Az Aspose.Cells használatával nem csak a munkáját könnyíti meg; az adatkezelés lehetőségeinek teljesen új birodalmát nyitja meg. Most, hogy megértette az alapokat, menjen tovább, és fedezze fel a képességeit – ez egy játékváltó!
+És megvan! Néhány egyszerű lépésben kihasználta az Aspose.Cells for .NET erejét, hogy OData-részleteket kinyerhessen egy Excel-fájlból. Elképesztő, hogy a megfelelő eszközökkel és utasításokkal mennyire egyszerű belemerülni az összetett adatkezelési feladatokba. Az Aspose.Cells használatával nem csak a munkáját könnyíti meg; az adatkezelés lehetőségeinek teljesen új birodalmát nyitja meg. Most, hogy megértette az alapokat, menjen tovább, és fedezze fel a képességeit – ez egy játékváltoztató!
 
 ## GYIK
 

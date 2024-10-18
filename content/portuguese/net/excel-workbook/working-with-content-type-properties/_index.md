@@ -40,7 +40,7 @@ Primeiro, vamos configurar o diretório de saída onde salvaremos nosso novo arq
 string outputDir = "Your Document Directory";
 ```
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
  Agora que temos nosso diretório de saída, vamos criar uma nova pasta de trabalho. O`Workbook` A classe é o ponto de partida para lidar com arquivos do Excel.
 

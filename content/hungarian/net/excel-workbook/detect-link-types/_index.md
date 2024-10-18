@@ -63,11 +63,11 @@ Ez a sor az Excel fájlt tartalmazó könyvtárra mutat. Ügyeljen arra, hogy az
 Ezután betöltjük a munkafüzetünket. Ez olyan, mintha megnyitná az Excel-fájlt a háttérben, lehetővé téve számunkra, hogy elolvassuk és kezeljük a tartalmát.
 
 ```csharp
-//Töltse be a munkafüzetet
+// Töltse be a munkafüzetet
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Ez történik: létrehozunk egy példányt a`Workbook` osztályt, és átadjuk az Excel fájlunk elérési útját. Ha minden gördülékenyen megy, a munkafüzeted már nyitva áll!
+Ez történik: létrehozunk egy példányt a`Workbook` osztályt, és átadjuk az Excel fájlunk elérési útját. Ha minden gördülékenyen megy, a munkafüzeted már nyitva áll!
 
 ## 3. lépés: Nyissa meg a munkalapot
 
@@ -96,7 +96,7 @@ Ezzel a tartománnyal könnyen lekérhetjük a hiperhivatkozásokat ezeken a cel
 Jön az izgalmas rész: a hiperhivatkozások kihúzása! Kivonjuk a hiperhivatkozásokat a meghatározott tartományunkból.
 
 ```csharp
-// A hiperhivatkozások hatótávolsága
+// hiperhivatkozások hatótávolsága
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

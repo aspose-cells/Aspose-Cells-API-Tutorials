@@ -1,6 +1,6 @@
 ---
-title: Excel 데이터 분석
-linktitle: Excel 데이터 분석
+title: 엑셀 데이터 분석
+linktitle: 엑셀 데이터 분석
 second_title: Aspose.Cells Java Excel 처리 API
 description: Aspose.Cells for Java로 강력한 Excel 데이터 분석을 잠금 해제하세요. Java 개발자를 위한 단계별 튜토리얼을 살펴보세요. 오늘 데이터 통찰력을 마스터하세요.
 type: docs

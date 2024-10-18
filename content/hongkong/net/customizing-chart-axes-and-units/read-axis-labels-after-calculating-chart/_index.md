@@ -15,7 +15,7 @@ url: /zh-hant/net/customizing-chart-axes-and-units/read-axis-labels-after-calcul
 
 在我們深入了解程式碼的細節之前，讓我們確保您已具備開始使用所需的一切：
 
-1. Visual Studio：您的電腦上應該安裝有 Visual Studio。如果您還沒有，您可以從以下位置下載[微軟網站](https://visualstudio.microsoft.com/).
+1.  Visual Studio：您的電腦上應該安裝有 Visual Studio。如果您還沒有，您可以從以下位置下載[微軟網站](https://visualstudio.microsoft.com/).
 2. Aspose.Cells 函式庫：本指南假設您擁有 Aspose.Cells 函式庫。您可以輕鬆地從以下位置下載它[Aspose的發布頁面](https://releases.aspose.com/cells/net/)。如果您不確定從哪裡開始，[Aspose.Cells 文檔](https://reference.aspose.com/cells/net/)可以成為你最好的朋友！
 3. C# 基礎知識：熟悉 C# 程式語言將幫助您理解範例並順利進行操作。
 4.  Excel 檔案：確保您有一個包含本教學圖表的 Excel 檔案。您可以建立一個名為的範例 Excel 文件`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`用於測試目的。

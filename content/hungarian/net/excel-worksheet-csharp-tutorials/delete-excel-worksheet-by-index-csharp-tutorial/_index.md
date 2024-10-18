@@ -55,7 +55,7 @@ Először is meg kell határoznia az Excel-fájl helyét. Itt utasíthatja a pro
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Csak cseréld ki`"YOUR DOCUMENT DIRECTORY"` a tényleges útvonallal, ahol az Ön`book1.xls`fájl található. Tekintsd ezt úgy, mintha útbaigazítás előtt megadnád a GPS-nek a helyes címet!
+ Csak cseréld ki`"YOUR DOCUMENT DIRECTORY"` a tényleges útvonallal, ahol az Ön`book1.xls` fájl található. Tekintsd ezt úgy, mintha útbaigazítás előtt megadnád a GPS-nek a helyes címet!
 
 ## 4. lépés: Nyissa meg az Excel fájlt egy FileStream segítségével
 
@@ -95,7 +95,7 @@ A munkalap törlése után el kell mentenie a változtatásokat. Így írja viss
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- A módosítással új néven mentheti el`"output.out.xls"` amire csak szeretnéd. Képzelje el, hogy megnyomja a „Mentés” gombot egy Word-dokumentumban – szeretné megtartani a módosításokat.
+ módosítással új néven mentheti el`"output.out.xls"` amire csak szeretnéd. Képzelje el, hogy megnyomja a „Mentés” gombot egy Word-dokumentumban – szeretné megtartani a módosításokat.
 
 ## 8. lépés: Zárja be a Fájlfolyamot
 
@@ -105,7 +105,7 @@ Végül érdemes bezárni a fájlfolyamot, miután végzett. Ez a lépés felsza
 fstream.Close();
 ```
 
-Olyan ez, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga után!
+Ez olyan, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga után!
 
 ## Következtetés
 
@@ -117,7 +117,7 @@ Olyan ez, mintha kifelé menet bezárná az ajtót, hogy ne hagyjon nyomot maga 
 Az Aspose.Cells egy .NET-könyvtár, amely kiterjedt lehetőségeket biztosít a fejlesztőknek az Excel-fájlok kezeléséhez. Az Excel fájlok létrehozásától és szerkesztésétől kezdve az átalakításig ez egy hatékony eszköz!
 
 ### Szükségem van engedélyre az Aspose.Cells használatához?
- Igen, az Aspose.Cells egy fizetős könyvtár, de elkezdheti egy ingyenes próbaverzióval[itt](https://releases.aspose.com/). Vásárlás előtt felfedezheti a funkciókat.
+ Igen, az Aspose.Cells egy fizetős könyvtár, de elkezdheti egy ingyenes próbaverzióval[itt](https://releases.aspose.com/)Vásárlás előtt felfedezheti a funkciókat.
 
 ### Törölhetek egyszerre több munkalapot?
 Igen, végigpörgetheti a munkalapokat, és törölheti őket a megfelelő indexek használatával. Ne felejtse el ennek megfelelően módosítani az indexet a munkalapok eltávolításakor.

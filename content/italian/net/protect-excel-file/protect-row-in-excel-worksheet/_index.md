@@ -126,7 +126,7 @@ Aspose.Cells è una potente libreria per .NET che consente agli utenti di creare
 ### Posso proteggere più righe contemporaneamente con Aspose.Cells?
 Sì, è possibile estendere la tecnica di blocco iterando su più righe e applicando modifiche di stile simili a ciascuna.
 
-### Esiste un modo per sbloccare le righe dopo la protezione?
+### C'è un modo per sbloccare le righe dopo la protezione?
  Sì, puoi prima rimuovere la protezione dal foglio e poi regolare il`IsLocked` proprietà delle righe desiderate, riapplicando successivamente la protezione.
 
 ### Aspose.Cells supporta altri formati oltre a Excel?

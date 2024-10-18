@@ -16,7 +16,7 @@ url: /zh/net/excel-workbook/adjust-compression-level/
 在深入探讨压缩级别之前，让我们先确保您已准备好开始所需的一切：
 
 1. C# 基础知识：对 C# 编程的基本了解必不可少。如果您熟悉变量、循环和基本文件操作，那么一切就绪了！
-2. Aspose.Cells for .NET 库：确保您已安装 Aspose.Cells 库。您可以从[网站](https://releases.aspose.com/cells/net/)。如果您刚刚开始，请考虑免费试用[这里](https://releases.aspose.com/).
+2. Aspose.Cells for .NET 库：确保已安装 Aspose.Cells 库。您可以从[网站](https://releases.aspose.com/cells/net/)。如果您刚刚开始，请考虑免费试用[这里](https://releases.aspose.com/).
 3. 开发环境：设置您的开发环境，最好是 Visual Studio，以编写和执行您的 C# 代码。 
 4. 示例 Excel 文件：准备一个大型 Excel 文件以供测试。您可以创建一个或使用任何现有文件，但请确保其大小足够大以查看压缩效果。
 

@@ -13,10 +13,10 @@ Wilt u uw Excel-bestandsverwerkingsvaardigheden verbeteren met Aspose.Cells voor
 
 ### Gegevens ophalen uit cellen in Excel
 
-De eerste stop op onze reis is het leren hoe je data uit Excel-cellen haalt. Aspose.Cells maakt dit supermakkelijk! Met slechts een paar regels code kun je data uit elke cel in je spreadsheet halen. Stel je voor dat je specifieke waarden uit grote datasets kunt halen, snel en nauwkeurig. Het gaat niet alleen om het lezen van de data, je krijgt volledige controle over je Excel-bestanden.
+De eerste stop op onze reis is het leren hoe je data uit Excel-cellen haalt. Aspose.Cells maakt dit supergemakkelijk! Met slechts een paar regels code kun je data uit elke cel in je spreadsheet halen. Stel je voor dat je specifieke waarden uit grote datasets kunt halen, snel en nauwkeurig. Het gaat niet alleen om het lezen van de data, je krijgt volledige controle over je Excel-bestanden.
 
 Wil je weten hoe je dit moet doen? Bekijk deze handige gids op[Gegevens ophalen uit cellen in Excel](./retrieve-data-from-cells-in-excel/) en begin met het beheren van uw Excel-gegevens als een professional!
 
 ## Zelfstudies voor het exporteren en ophalen van Excel-gegevens
 ### [Gegevens ophalen uit cellen in Excel](./retrieve-data-from-cells-in-excel/)
-Leer hoe u gegevens uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze stapsgewijze zelfstudie, perfect voor zowel beginners als ervaren ontwikkelaars.
+Leer hoe u gegevens uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze stapsgewijze zelfstudie, die perfect is voor zowel beginners als ervaren ontwikkelaars.

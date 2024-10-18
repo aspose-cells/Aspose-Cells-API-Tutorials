@@ -64,7 +64,7 @@ Khám phá hướng dẫn toàn diện về quản lý các phạm vi được �
 Khám phá hướng dẫn từng bước để xuất và truy xuất dữ liệu Excel bằng Aspose.Cells cho .NET, hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng.
 ### [Excel Tự động lọc và Xác thực](./excel-autofilter-validation/)
 Mở khóa quản lý dữ liệu Excel với Aspose.Cells cho hướng dẫn .NET. Tìm hiểu về lọc tự động và xác thực thập phân để cải thiện bảng tính của bạn.
-### [Tổng phụ và phép tính Excel](./excel-subtotal-calculation/)
+### [Tổng phụ và tính toán của Excel](./excel-subtotal-calculation/)
 Khám phá cách tạo tổng phụ Excel và theo dõi tiền lệ bằng Aspose.Cells cho .NET. Thực hiện theo các hướng dẫn này để nâng cao kỹ năng bảng tính của bạn một cách dễ dàng.
 ### [Phụ thuộc dữ liệu Excel và tính toán](./excel-data-dependency-calculation/)
 Khám phá hướng dẫn về Aspose.Cells for .NET bao gồm các phép tính và phụ thuộc dữ liệu Excel, bao gồm theo dõi các ô phụ thuộc, để nâng cao kỹ năng tự động hóa Excel của bạn.
@@ -84,3 +84,39 @@ Học cách sử dụng Aspose.Cells cho .NET để áp dụng các kỹ thuật
 Khám phá các hướng dẫn cần thiết về Aspose.Cells cho .NET, bao gồm cách tạo phạm vi Excel, tính toán địa chỉ và các thao tác nâng cao một cách dễ dàng.
 ### [Quản lý hàng ẩn và dữ liệu trùng lặp trong Excel](./excel-hidden-rows-data-duplication-management/)
 Mở khóa tiềm năng của Excel với hướng dẫn Aspose.Cells dành cho .NET, cung cấp thông tin chi tiết về cách quản lý các hàng ẩn và sao chép dữ liệu dễ dàng.
+### [Bình luận và chú thích Excel](./excel-comment-annotation/)
+Nâng cao kỹ năng Excel của bạn với hướng dẫn về chú thích và bình luận trong Aspose.Cells dành cho .NET, có hướng dẫn từng bước để làm phong phú thêm bảng tính của bạn.
+### [Hình dạng và điều khiển Excel](./excel-shapes-controls/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells for .NET về cách thêm hình dạng và điều khiển Excel. Tìm hiểu các phương pháp từng bước để cải thiện bảng tính Excel của bạn theo chương trình.
+### [Excel OLE và Đối tượng hình ảnh](./excel-ole-picture-objects/)
+Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Làm chủ các đối tượng OLE và xử lý hình ảnh thông qua các hướng dẫn dễ làm theo của chúng tôi.
+### [Truy cập hình dạng và nhãn Excel](./excel-shape-label-access/)
+Mở khóa sức mạnh của Aspose.Cells cho .NET với hướng dẫn toàn diện của chúng tôi, bao gồm nhãn đối tượng OLE và nhận dạng hình dạng Smart Art trong Excel.
+### [Sửa đổi hình dạng và văn bản trong Excel](./excel-shape-text-modifications/)
+Học cách thao tác hình dạng và văn bản Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo và ví dụ mã thực tế.
+### [Xử lý tệp Excel](./excel-file-handling/)
+Mở khóa tiềm năng Excel của bạn với Aspose.Cells cho hướng dẫn .NET. Xuất thuộc tính, quản lý các hàng trống và tải các trang tính có thể nhìn thấy dễ dàng.
+### [Xử lý tệp CSV](./csv-file-handling/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET về cách xử lý tệp CSV, bao gồm mở, phân tích và thao tác dữ liệu một cách dễ dàng và hiệu quả.
+### [Tải và phân tích tệp](./data-loading-and-parsing/)
+Mở khóa dữ liệu Excel của bạn một cách dễ dàng với hướng dẫn Aspose.Cells dành cho .NET. Học cách mở các tệp được mã hóa, chỉ dữ liệu, FODS và SXC.
+### [Lưu các tập tin ở các định dạng khác nhau](./saving-files-in-different-formats/)
+Khám phá hướng dẫn toàn diện về cách lưu tệp Excel ở nhiều định dạng khác nhau bằng Aspose.Cells cho .NET. Nâng cao kỹ năng Excel của bạn.
+### [Xử lý tập tin](./file-handling/)
+Khám phá hướng dẫn chi tiết về cách xử lý tệp trong Aspose.Cells cho .NET, bao gồm lưu vào nhiều định dạng, vị trí và dấu phân cách tùy chỉnh khác nhau.
+### [Thuộc tính tài liệu](./document-properties/)
+Mở khóa khả năng của Aspose.Cells cho .NET với hướng dẫn toàn diện của chúng tôi về thuộc tính tài liệu để nâng cao kỹ năng quản lý tệp Excel của bạn.
+### [Chuyển đổi và Kết xuất](./conversion-and-rendering/)
+Khám phá hướng dẫn về Aspose.Cells for .NET, có hướng dẫn nâng cao về cách chuyển đổi và hiển thị các tệp Excel sang các định dạng khác nhau một cách liền mạch.
+### [Bảo mật và mã hóa](./security-and-encryption/)
+Mở khóa sức mạnh của Aspose.Cells cho .NET với hướng dẫn của chúng tôi về bảo mật và mã hóa. Học cách phát hiện và mã hóa tệp dễ dàng.
+### [Hoạt động của bảng tính](./worksheet-operations/)
+Mở khóa toàn bộ tiềm năng của Aspose.Cells cho .NET với các hướng dẫn thực tế bao gồm các thao tác trên bảng tính và cải thiện các tệp Excel của bạn.
+### [Chuyển đổi sang PDF](./conversion-to-pdf/)
+Chuyển đổi các tệp Excel và biểu đồ của bạn thành các tệp PDF liền mạch với hướng dẫn Aspose.Cells cho .NET dễ làm theo của chúng tôi.
+### [Hoạt động hình ảnh và biểu đồ](./image-and-chart-operations/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho hướng dẫn .NET. Tìm hiểu về các hoạt động hình ảnh và biểu đồ để nâng cao năng suất của bạn.
+### [Hoạt động XPS và PDF](./xps-and-pdf-operations/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET về thao tác XPS và PDF để đơn giản hóa quá trình chuyển đổi tệp của bạn.
+### [Hoạt động liên kết và cấu hình](./link-and-configuration-operations/)
+Khám phá hướng dẫn toàn diện về Aspose.Cells cho .NET, bao gồm cấu hình liên kết và nhiều hơn nữa. Hoàn hảo cho các nhà phát triển muốn cải thiện ứng dụng Excel của họ.

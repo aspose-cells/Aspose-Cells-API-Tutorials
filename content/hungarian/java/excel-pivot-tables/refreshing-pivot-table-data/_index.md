@@ -75,7 +75,7 @@ A Pivot Table adatok frissítése az Aspose.Cells for Java programban egy egysze
    - Igen, az Aspose.Cells for Java segítségével automatizálhatja a kimutatástáblázatok frissítését több munkafüzethez. Hozzon létre egy szkriptet vagy programot a fájlok áthaladásához, és alkalmazza a frissítési lépéseket.
 
 ### Az Aspose.Cells kompatibilis a különböző adatforrásokkal?
-   - Az Aspose.Cells for Java különféle adatforrásokat támogat, beleértve az adatbázisokat, CSV-fájlokat és egyebeket. A dinamikus frissítések érdekében a kimutatástáblázatot ezekhez a forrásokhoz csatlakoztathatja.
+   - Az Aspose.Cells for Java különféle adatforrásokat támogat, beleértve az adatbázisokat, CSV-fájlokat és egyebeket. A dinamikus frissítésekhez csatlakoztathatja a kimutatástáblázatot ezekhez a forrásokhoz.
 
 ### Vannak korlátozások a frissíthető kimutatások számára vonatkozóan?
    - A frissíthető pivot táblák száma a rendszer memóriájától és a feldolgozási teljesítménytől függ. Az Aspose.Cells for Java nagy adatkészletek hatékony kezelésére készült.

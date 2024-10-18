@@ -2,7 +2,7 @@
 title: Excel-Anzeigeeinstellungen
 linktitle: Excel-Anzeigeeinstellungen
 second_title: Aspose.Cells für .NET API-Referenz
-description: Sehen Sie sich die C#-Tutorials von Aspose.Cells an, um die Excel-Anzeige anzupassen. Ändern Sie Schriftarten, Farben, Formate und erstellen Sie attraktive Berichte.
+description: Sehen Sie sich die Aspose.Cells C#-Tutorials an, um die Excel-Anzeige anzupassen. Ändern Sie Schriftarten, Farben, Formate und erstellen Sie attraktive Berichte.
 type: docs
 weight: 11
 url: /de/net/excel-display-settings-csharp-tutorials/
@@ -31,7 +31,7 @@ Beim Thema Ästhetik ist die Kontrolle der Sichtbarkeit von Zeilen- und Spalten�
 
 Eine der nützlichsten Funktionen in jedem Excel-Arbeitsblatt ist die Möglichkeit, Bereiche zu fixieren. Denken Sie einmal darüber nach: Haben Sie beim Scrollen durch eine riesige Tabelle schon einmal die Überschriftenzeile aus den Augen verloren? Das ist unglaublich frustrierend! Unser Tutorial zum Fixieren von Bereichen führt Sie durch den Vorgang, damit Sie beim Navigieren durch große Datensätze wichtige Informationen im Blick behalten. Stellen Sie sich vor, Sie hätten gerade eine lange Analyse abgeschlossen und müssten jedes Mal nach oben scrollen, um sich an die Überschriften zu erinnern. Damit ist jetzt Schluss![Mehr lesen](./freeze-panes-of-worksheet/).
 
- Aber was, wenn Sie durch bestimmte Abschnitte der Tabelle navigieren? Hier kann das Aufteilen von Bereichen wirklich hilfreich sein. Sie können damit verschiedene Bereiche Ihres Arbeitsblatts gleichzeitig anzeigen, was das Vergleichen von Daten oder das Verfolgen von Änderungen in verschiedenen Teilen des Blatts erleichtert. Dieses Tutorial vereinfacht das Aufteilen von Bereichen in ein paar einfache Schritte, die Sie im Handumdrehen beherrschen.[Mehr lesen](./split-panes-of-worksheet/).
+ Aber was, wenn Sie durch bestimmte Abschnitte der Tabelle navigieren? Hier kann das Aufteilen von Fenstern wirklich hilfreich sein. Sie können damit verschiedene Bereiche Ihres Arbeitsblatts gleichzeitig anzeigen, was das Vergleichen von Daten oder das Verfolgen von Änderungen in verschiedenen Teilen des Blatts erleichtert. Dieses Tutorial vereinfacht das Aufteilen von Fenstern in ein paar einfache Schritte, die Sie im Handumdrehen beherrschen.[Mehr lesen](./split-panes-of-worksheet/).
 
 ## Blattnavigation verwalten
 
@@ -48,14 +48,14 @@ Indem Sie diese aufschlussreichen Tutorials zu Aspose.Cells für .NET erkunden, 
 ## Anleitungen 
 | Titel | Beschreibung |
 | --- | --- |
-| [Breite der Registerkartenleiste des Tabellenblatts steuern](./control-tab-bar-width-of-spreadsheet/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie die Breite der Blattregisterkartenleiste in Excel mit Aspose.Cells für .NET steuern. Passen Sie Ihre Excel-Dateien effizient an. |  
+| [Breite der Registerkartenleiste des Arbeitsblatts steuern](./control-tab-bar-width-of-spreadsheet/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie die Breite der Blattregisterkartenleiste in Excel mit Aspose.Cells für .NET steuern. Passen Sie Ihre Excel-Dateien effizient an. |  
 | [Zoomfaktor des Arbeitsblatts steuern](./controll-zoom-factor-of-worksheet/) | Erfahren Sie, wie Sie den Zoomfaktor von Excel-Arbeitsblättern mit Aspose.Cells für .NET in einfachen Schritten steuern. Verbessern Sie die Lesbarkeit Ihrer Tabellen. |  
 | [Anzeigen und Ausblenden von Gitternetzlinien im Arbeitsblatt](./display-and-hide-gridlines-of-worksheet/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET Gitternetzlinien in Excel-Arbeitsblättern ein- und ausblenden. Schritt-für-Schritt-Anleitung mit Codebeispielen und Erklärungen. |  
 | [Anzeigen und Ausblenden von Zeilen- und Spaltenüberschriften des Arbeitsblatts](./display-and-hide-row-column-headers-of-worksheet/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Zeilen- und Spaltenüberschriften in Excel ausblenden. |  
 | [Bildlaufleisten im Arbeitsblatt anzeigen und ausblenden](./display-and-hide-scroll-bars-of-worksheet/) | Zeigen Sie mit Aspose.Cells für .NET Bildlaufleisten in Excel-Arbeitsblättern an oder verbergen Sie sie. |  
-| [Registerkarte „Anzeige“ der Tabelle](./display-tab-of-spreadsheet/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie die Registerkarte einer Tabelle mit Aspose.Cells für .NET anzeigen. Meistern Sie die Excel-Automatisierung mit Leichtigkeit in C#. |  
-| [Arbeitsblattbereiche fixieren](./freeze-panes-of-worksheet/) | Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET Bereiche in Excel einfrieren, komplett mit Schritt-für-Schritt-Anleitungen und wichtigen Tipps. |  
-| [Papierbreite und -höhe des Arbeitsblatts ermitteln](./get-paper-width-and-height-of-worksheet/) | Erfahren Sie mit einer einfachen Schritt-für-Schritt-Anleitung, wie Sie die Papierbreite und -höhe von Arbeitsblättern in Aspose.Cells für .NET erhalten. |  
+| [Registerkarte „Anzeige“ der Tabelle](./display-tab-of-spreadsheet/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET die Registerkarte einer Tabelle anzeigen. Meistern Sie die Excel-Automatisierung mit Leichtigkeit in C#. |  
+| [Arbeitsblattbereiche fixieren](./freeze-panes-of-worksheet/) | Erfahren Sie in diesem umfassenden Tutorial mit Schritt-für-Schritt-Anleitungen und wichtigen Tipps, wie Sie mit Aspose.Cells für .NET Bereiche in Excel einfrieren. |  
+| [Papierbreite und -höhe des Arbeitsblatts ermitteln](./get-paper-width-and-height-of-worksheet/) | Erfahren Sie mit einer einfachen Schritt-für-Schritt-Anleitung, wie Sie die Papierbreite und -höhe von Arbeitsblättern in Aspose.Cells für .NET ermitteln. |  
 | [Arbeitsblatt ausblenden und einblenden](./hide-and-unhide-worksheet/) | Meistern Sie die Bearbeitung von Excel-Arbeitsblättern mit dieser vollständigen Anleitung zum Ausblenden und Einblenden von Blättern mit Aspose.Cells für .NET. Optimieren Sie Ihre Datenverwaltung. |  
 | [Registerkarten der Tabelle ausblenden](./hide-tabs-of-spreadsheet/) | Blenden Sie Registerkarten in einer Excel-Tabelle mit Aspose.Cells für .NET aus. Erfahren Sie, wie Sie in nur wenigen einfachen Schritten Tabellenregisterkarten programmgesteuert ausblenden und anzeigen. |  
 | [Seitenumbruchvorschau des Arbeitsblatts](./page-break-preview-of-worksheet/) | Erfahren Sie anhand eines einfachen Schritt-für-Schritt-Tutorials, wie Sie mit Aspose.Cells für .NET Seitenumbruchvorschauen in Excel-Arbeitsblättern aktivieren. |  

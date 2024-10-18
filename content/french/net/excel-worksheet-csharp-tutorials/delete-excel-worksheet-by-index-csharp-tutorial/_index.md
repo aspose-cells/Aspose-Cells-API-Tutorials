@@ -32,7 +32,7 @@ Pour commencer, vous devez ajouter la bibliothèque Aspose.Cells à votre projet
 2. Sélectionnez « Gérer les packages NuGet ».
 3.  Rechercher`Aspose.Cells` et cliquez sur « Installer ».
 
-Cette étape de configuration revient à jeter les bases de votre fonctionnement Excel !
+Cette étape de configuration revient à jeter les bases de votre opération Excel !
 
 ## Étape 2 : Utilisation des instructions
 
@@ -55,7 +55,7 @@ Vous devez d'abord définir l'emplacement de votre fichier Excel. C'est ici que 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Il suffit de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`book1.xls`le fichier réside. Considérez cela comme donner à votre GPS la bonne adresse avant de commencer un voyage en voiture !
+ Il suffit de remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`book1.xls` le fichier réside. Considérez cela comme donner à votre GPS la bonne adresse avant de commencer un voyage en voiture !
 
 ## Étape 4 : Ouvrir le fichier Excel avec un FileStream
 
@@ -95,7 +95,7 @@ Après avoir supprimé la feuille de calcul, vous devez enregistrer vos modifica
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Vous pouvez choisir de l'enregistrer sous un nouveau nom en modifiant`"output.out.xls"` comme vous le souhaitez. Imaginez que vous appuyez sur le bouton « Enregistrer » dans un document Word : vous souhaitez conserver vos modifications.
+Vous pouvez choisir de l'enregistrer sous un nouveau nom en modifiant`"output.out.xls"` comme vous le souhaitez. Imaginez que vous appuyez sur le bouton « Enregistrer » dans un document Word : vous souhaitez conserver vos modifications.
 
 ## Étape 8 : Fermer le flux de fichiers
 
@@ -105,7 +105,7 @@ Enfin, il est recommandé de fermer le flux de fichiers une fois que vous avez t
 fstream.Close();
 ```
 
-C'est comme fermer la porte en sortant, pour être sûr de ne laisser aucune trace derrière vous !
+C'est comme fermer la porte en sortant, en s'assurant de ne laisser aucune trace derrière soi !
 
 ## Conclusion
 

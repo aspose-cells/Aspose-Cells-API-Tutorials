@@ -30,7 +30,7 @@ Herhangi bir kod yazmadan önce yeni bir C# projesi oluşturmamız gerekiyor.
 1. Visual Studio’yu açın.
 2. Yeni bir C# Konsol Uygulaması projesi oluşturun. 
 3. Projenize "ExcelLinkDemo" gibi açıklayıcı bir isim verin.
-4. Aspose.Cells.dll'e bir başvuru ekleyin. Bunu Çözüm Gezgini'ndeki "Başvurular"a sağ tıklayarak, "Başvuru Ekle"yi seçerek ve Aspose.Cells'i yüklediğiniz yere giderek yapabilirsiniz.
+4. Aspose.Cells.dll'e bir başvuru ekleyin. Bunu Solution Explorer'da "Referanslar"a sağ tıklayarak, "Başvuru Ekle"yi seçerek ve Aspose.Cells'i yüklediğiniz yere giderek yapabilirsiniz.
 ## Adım 2: Çıktı Dizininizi Tanımlayın
 Sonra, çıktı Excel dosyanızı nereye kaydetmek istediğinizi belirtmeniz gerekir. İşte bunu kodunuzda nasıl tanımlayabileceğiniz:
 ```csharp
@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Dizininizle değiştirin
 ## Adım 3: Çalışma Kitabı Nesnesini Örneklendirin
 Artık Excel çalışma kitabınızı oluşturmaya hazırsınız! Tüm sayfalarınız ve verileriniz burada bulunacaktır.
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 Bu satır bellekte yeni bir çalışma kitabı başlatır ve üzerinde çalışmanız için size boş bir alan sağlar.
@@ -49,7 +49,7 @@ Bu satır bellekte yeni bir çalışma kitabı başlatır ve üzerinde çalışm
 Excel'de her çalışma kitabı birden fazla sayfa içerebilir. Çalışma kitabımıza bir tane ekleyelim.
 ```csharp
 // Çalışma Kitabı nesnesine yeni bir çalışma sayfası ekleme
-workbook.Worksheets.Add(); //Varsayılan olarak yeni bir boş çalışma sayfası ekler
+workbook.Worksheets.Add(); // Varsayılan olarak yeni bir boş çalışma sayfası ekler
 ```
 Bu komut yeni bir çalışma sayfası ekler ve artık çalışma kitabınız üzerinde değişiklik yapabileceğiniz en az bir sayfa içerir.
 ## Adım 5: İlk Çalışma Sayfasına Erişim
@@ -89,7 +89,7 @@ Console.WriteLine("AddingLinkToOtherSheetCell executed successfully.");
 ```
 Ve işte karşınızda! Aspose.Cells for .NET kullanarak bir Excel çalışma kitabına dahili bir köprü ekleyen temel bir C# programı oluşturdunuz.
 ## Çözüm
-Bu eğitimde, .NET için Aspose.Cells ile bir Excel çalışma kitabındaki başka bir sayfaya köprü eklemek için gereken adımları inceledik. E-tablolarınızdaki bağlantılar, bir veri denizinde dönüm noktası görevi görebilir ve gezinmeyi kolaylaştırır. Doğru şekilde bağlanmış e-tablolarla iş akışınızın ne kadar daha verimli olabileceğini hayal edin! Artık bu güçlü araca parmaklarınızın ucunda sahip olduğunuza göre, üretkenliğinizi artırmak için Aspose.Cells yeteneklerini daha fazla denemekten çekinmeyin.
+Bu eğitimde, .NET için Aspose.Cells ile bir Excel çalışma kitabındaki başka bir sayfaya köprü eklemek için gereken adımları inceledik. E-tablolarınızdaki bağlantılar, bir veri denizinde dönüm noktası görevi görebilir ve gezinmeyi kolaylaştırır. Doğru şekilde bağlanmış e-tablolarla iş akışınızın ne kadar daha verimli olabileceğini hayal edin! Artık bu güçlü araç parmaklarınızın ucunda olduğuna göre, üretkenliğinizi artırmak için Aspose.Cells yeteneklerini daha fazla denemekten çekinmeyin.
 ## SSS
 ### Aspose.Cells Nedir?  
 Aspose.Cells, Microsoft Excel kullanmadan Excel dosyaları oluşturmak ve düzenlemek için güçlü bir .NET kütüphanesidir.

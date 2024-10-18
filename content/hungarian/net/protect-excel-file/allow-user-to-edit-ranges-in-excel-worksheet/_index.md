@@ -41,7 +41,7 @@ Bármilyen fájlművelethez elengedhetetlen, hogy legyen egy meghatározott hely
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Hozzon létre könyvtárat, ha még nincs jelen.
+//Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -135,7 +135,7 @@ Az Aspose.Cells egy hatékony .NET-könyvtár Excel-fájlok kezelésére, és ol
  Teljesen! Felhívhatja a`Add` módszer a`allowRanges` többszöri gyűjtemény több szerkeszthető tartomány megadásához.
 
 ### Mi történik, ha elfelejtem a jelszót?
-Sajnos, ha elfelejti egy szerkeszthető tartomány jelszavát, el kell távolítania a védelmet, vagy előre meghatározott módon kell hozzáférnie a fájlhoz, amelyhez hitelesítő adatok is szükségesek.
+Sajnos, ha elfelejti egy szerkeszthető tartomány jelszavát, akkor el kell távolítania a védelmet, vagy előre meghatározott módon kell hozzáférnie a fájlhoz, amelyhez hitelesítő adatok is szükségesek.
 
 ### Létezik az Aspose.Cells ingyenes verziója?
 Igen, az Aspose ingyenes próbaverziót biztosít, amellyel a vásárlás előtt felfedezheti a funkciókat.

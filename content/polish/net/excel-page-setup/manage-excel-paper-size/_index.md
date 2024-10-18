@@ -17,7 +17,7 @@ Zanim zagłębisz się w szczegóły techniczne zarządzania rozmiarami papieru 
 
 1. Podstawowa znajomość języka C#: Znajomość programowania w języku C# znacznie ułatwi proces integrowania Aspose.Cells z projektami.
 2. Zainstalowany program Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio, aby móc pisać i wykonywać kod w języku C#.
-3.  Aspose.Cells dla biblioteki .NET: Musisz uzyskać Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells dla biblioteki .NET: Musisz uzyskać Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
 4. Menedżer pakietów NuGet: Upewnij się, że masz dostęp do Menedżera pakietów NuGet, ponieważ za jego pomocą możesz łatwo zainstalować Aspose.Cells.
 
 Mając te wymagania na uwadze, możemy zaczynać!
@@ -70,7 +70,7 @@ Workbook workbook = new Workbook();
 
  Ten wiersz tworzy nowy skoroszyt w pamięci. Jeśli pracujesz z istniejącym plikiem, możesz przekazać ścieżkę do pliku`Workbook` konstruktor.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po utworzeniu skoroszytu będziesz chciał uzyskać dostęp do konkretnego arkusza, który chcesz zmodyfikować. W tym przykładzie będziemy pracować nad pierwszym arkuszem.
 
@@ -113,7 +113,7 @@ Zarządzanie rozmiarami papieru w arkuszach Excela staje się dziecinnie proste 
 Tak, możesz uzyskać dostęp do wielu arkuszy kalkulacyjnych naraz i zastosować do każdego z nich te same ustawienia rozmiaru papieru.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells jest biblioteką komercyjną; oferuje jednak bezpłatną wersję próbną. Możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić wszystkie jego funkcje.
+ Aspose.Cells jest komercyjną biblioteką, jednak oferuje bezpłatną wersję próbną. Możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić wszystkie jego funkcje.
 
 ### Jak radzić sobie z wyjątkami podczas pracy z Aspose.Cells?
 Możesz umieścić swój kod w bloku try-catch, aby obsłużyć wszelkie wyjątki, które mogą wystąpić podczas edycji skoroszytu.

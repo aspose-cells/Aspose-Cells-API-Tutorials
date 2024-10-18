@@ -1,6 +1,6 @@
 ---
-title: Változtassa meg a diagram méretét és pozícióját
-linktitle: Változtassa meg a diagram méretét és pozícióját
+title: A diagram méretének és pozíciójának módosítása
+linktitle: A diagram méretének és pozíciójának módosítása
 second_title: Aspose.Cells .NET Excel Processing API
 description: Ebből a könnyen követhető útmutatóból megtudhatja, hogyan módosíthatja a diagramok méretét és pozícióját az Excelben az Aspose.Cells for .NET segítségével.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/advanced-chart-operations/change-chart-size-and-position/
 ---
 ## Bevezetés
 
-Amikor a táblázatok programozott kezeléséről van szó, nehéz figyelmen kívül hagyni az Aspose.Cells for .NET sokoldalúságát és erejét. Előfordult már, hogy nehézségekkel küzd az Excel-fájlok diagramjainak átméretezésével vagy áthelyezésével? Ha igen, akkor jó lesz! Ez az útmutató végigvezeti Önt az Aspose.Cells segítségével a táblázatok méretének és helyzetének megváltoztatásán. Kapcsold be, mert mélyre merülünk ebben a témában!
+Amikor a táblázatok programozott kezeléséről van szó, nehéz figyelmen kívül hagyni az Aspose.Cells for .NET sokoldalúságát és erejét. Előfordult már, hogy nehézségekkel küzd az Excel-fájlok diagramjainak átméretezésével vagy áthelyezésével? Ha igen, akkor egy csemege! Ez az útmutató végigvezeti Önt az Aspose.Cells segítségével a táblázatok méretének és helyzetének megváltoztatásán. Kapcsold be, mert mélyre merülünk ebben a témában!
 
 ## Előfeltételek
 

@@ -35,7 +35,7 @@ Apa yang terjadi jika Anda tidak memiliki rentang bernama yang telah ditetapkan 
 
 ## Paket Impor
 
-Sebelum kita mulai membuat kode, mari kita pastikan kita telah mengimpor semua paket yang diperlukan. Berikut cara melakukannya:
+Sebelum kita mulai membuat kode, pastikan kita telah mengimpor semua paket yang diperlukan. Berikut cara melakukannya:
 
 ## Impor Namespace Aspose.Cells
 
@@ -105,7 +105,7 @@ Terakhir, kami ingin mengonfirmasi bahwa kode kami berhasil dieksekusi.
 ```csharp
 Console.WriteLine("IdentifyCellsInNamedRange executed successfully.");
 ```
-Ini hanyalah jaminan dari program Anda untuk memberi tahu Anda bahwa semuanya berjalan sesuai rencana. Sedikit tepukan di punggung tidak ada salahnya!
+Ini hanyalah jaminan dari program Anda untuk memberi tahu Anda bahwa semuanya berjalan sesuai rencana. Tepukan kecil di punggung tidak ada salahnya!
 
 ## Kesimpulan
 

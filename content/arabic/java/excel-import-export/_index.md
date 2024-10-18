@@ -23,14 +23,14 @@ url: /ar/java/excel-import-export/
 ## دروس الاستيراد والتصدير في برنامج Excel
 ### [استيراد البيانات المجمعة إلى Excel](./bulk-data-import-excel/)
 تعرف على كيفية إجراء استيراد بيانات مجمعة من Excel باستخدام واجهة برمجة تطبيقات Aspose.Cells لـ Java. قم بتبسيط معالجة البيانات لديك باستخدام هذا الدليل المفصل.
-### [طرق تصدير البيانات في Excel](./excel-data-export-methods/)
+### [طرق تصدير البيانات إلى Excel](./excel-data-export-methods/)
 استخدم Aspose.Cells لـ Java لاستغلال إمكانات طرق تصدير بيانات Excel. تعلّم من خلال أمثلة عملية لأكواد المصدر في هذا الدليل الشامل. حسّن مهاراتك في إدارة البيانات اليوم.
 ### [تصدير كود جافا بصيغة CSV](./csv-export-java-code/)
 تعرف على كيفية تصدير البيانات بتنسيق CSV باستخدام Aspose.Cells for Java. دليل خطوة بخطوة مع الكود المصدر لتصدير CSV بسلاسة.
 ### [تصدير Excel إلى PDF](./exporting-excel-to-pdf/)
 تعرف على كيفية تصدير ملفات Excel إلى PDF بسهولة باستخدام Aspose.Cells for Java. يبسط دليلنا خطوة بخطوة العملية. ابدأ التحويل اليوم!
 ### [تصدير Excel إلى XML Java](./export-excel-to-xml-java/)
-تعرف على كيفية تصدير Excel إلى XML في Java باستخدام Aspose.Cells for Java. دليل خطوة بخطوة مع الكود المصدري لتحويل البيانات بسلاسة.
+تعرف على كيفية تصدير Excel إلى XML في Java باستخدام Aspose.Cells for Java. دليل خطوة بخطوة مع الكود المصدر لتحويل البيانات بسلاسة.
 ### [استيراد البيانات من Excel](./data-import-from-excel/)
 تعرف على كيفية استيراد البيانات من Excel باستخدام Aspose.Cells for Java. دليل شامل مع الكود المصدر لاسترجاع البيانات بسلاسة.
 ### [تصدير Excel إلى JSON](./export-excel-to-json/)

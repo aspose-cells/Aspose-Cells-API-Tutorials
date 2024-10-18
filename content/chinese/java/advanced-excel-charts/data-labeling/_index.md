@@ -29,7 +29,7 @@ url: /zh/java/advanced-excel-charts/data-labeling/
 在本节中，我们将学习如何使用 Aspose.Cells for Java 加载现有电子表格或创建新电子表格。
 
 ```java
-//加载现有电子表格的 Java 代码
+//用于加载现有电子表格的 Java 代码
 Workbook workbook = new Workbook("example.xlsx");
 
 //用于创建新电子表格的 Java 代码
@@ -128,7 +128,7 @@ workbook.save("labeled_data.xlsx");
 
 是的，您可以使用 Aspose.Cells for Java 更改字体、颜色和其他格式选项来定制标签。
 
-### 我可以以什么格式保存我的标签电子表格？
+### 我可以用什么格式保存标记电子表格？
 
 Aspose.Cells for Java 支持多种格式保存标记电子表格，包括 Excel 格式。
 

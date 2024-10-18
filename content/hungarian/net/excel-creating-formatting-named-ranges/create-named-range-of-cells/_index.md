@@ -63,7 +63,7 @@ Ez a sor inicializál egy új munkafüzet objektumot, amelyet módosítani fogun
 Minden munkafüzetnek több munkalapja is lehet, és a célunk érdekében az elsőt fogjuk elérni. Képzelje el úgy, mintha megnyitna egy lapot egy Excel-fájlban.
 
 ```csharp
-//Az Excel fájl első munkalapjának elérése
+// Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Most hozzáférünk az első munkalaphoz, ahol létrehozzuk az elnevezett tartom
 Most itt az ideje létrehozni a megnevezett tartományt. Egy elnevezett tartomány lehetővé teszi, hogy meghatározzon egy adott cellakészletet a munkalapon.
 
 ```csharp
-//Elnevezett tartomány létrehozása
+// Elnevezett tartomány létrehozása
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Mindezen változtatások elvégzése után a következő lépés a munkafüzet m
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Ez a sor elmenti a változtatásokat egy nevű fájlba`outputCreateNamedRangeofCells.xlsx`. Győződjön meg arról, hogy a megadott útvonal helyes; ellenkező esetben a program hibát dob!
+ Ez a sor elmenti a változtatásokat egy nevű fájlba`outputCreateNamedRangeofCells.xlsx`. Győződjön meg arról, hogy a megadott útvonal helyes; ellenkező esetben a program hibát dob!
 
 ## 8. lépés: Ellenőrizze a művelet sikerességét
 

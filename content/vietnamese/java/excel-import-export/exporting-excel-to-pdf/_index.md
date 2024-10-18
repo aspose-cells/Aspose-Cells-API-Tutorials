@@ -59,7 +59,7 @@ public class ExcelToPdfConverter {
 
 ## Bước 3: Chuyển đổi Excel sang PDF
 
-Sau khi tải xong tệp Excel, chúng ta có thể tiến hành chuyển đổi sang định dạng PDF. Aspose.Cells đơn giản hóa quá trình này đáng kể:
+Với tệp Excel đã tải, giờ chúng ta có thể tiến hành chuyển đổi sang định dạng PDF. Aspose.Cells đơn giản hóa quá trình này đáng kể:
 
 ```java
 // Lưu bảng tính Excel dưới dạng tệp PDF
@@ -67,7 +67,7 @@ String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```
 
- Thay thế`"path/to/output/pdf/file.pdf"` với đường dẫn đầu ra và tên tệp bạn muốn cho tài liệu PDF kết quả.
+ Thay thế`"path/to/output/pdf/file.pdf"` với đường dẫn đầu ra và tên tệp ưa thích của bạn cho tài liệu PDF kết quả.
 
 ## Bước 4: Nâng cao ứng dụng Java của bạn
 

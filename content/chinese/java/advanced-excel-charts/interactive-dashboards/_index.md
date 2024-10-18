@@ -116,6 +116,6 @@ workbook.save("InteractiveDashboard.xlsx");
 
 是的，Aspose.Cells for Java 可以将您的交互式仪表板导出为各种格式，包括 PDF 和 HTML，从而使更广泛的受众可以访问它。
 
-### Aspose.Cells for Java 适合大规模数据可视化项目吗？
+### Aspose.Cells for Java 是否适合大型数据可视化项目？
 
 是的，Aspose.Cells for Java 非常适合小型和大型数据可视化项目。它的灵活性和广泛的功能集使其成为满足各种需求的强大选择。

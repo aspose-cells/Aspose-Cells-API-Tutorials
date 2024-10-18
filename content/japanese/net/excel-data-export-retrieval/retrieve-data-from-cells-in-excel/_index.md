@@ -56,7 +56,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-ここでは、`Workbook`Excel ファイルの完全なパスを渡してオブジェクトを取得します。この手順により、ブックが初期化され、データ取得の準備が整います。
+ここでは、`Workbook` Excel ファイルの完全なパスを渡すことで、オブジェクトを取得します。この手順により、ブックが初期化され、データ取得の準備が整います。
 
 ## ステップ3: 最初のワークシートにアクセスする
 
@@ -143,7 +143,7 @@ Aspose.Cells for .NET を使用して Excel セルからデータを取得する
 Aspose.Cells は、開発者が Microsoft Excel をインストールしなくても Excel ファイルを作成、操作、変換できるようにする .NET ライブラリです。
 
 ### Aspose.Cells を無料で使用できますか?  
-はい、Aspose.Cellsは機能をテストするために使用できる無料トライアルを提供しています。ダウンロードできます。[ここ](https://releases.aspose.com/).
+はい、Aspose.Cellsには機能を試すための無料トライアルがあります。ダウンロードして[ここ](https://releases.aspose.com/).
 
 ### Excel セルから取得できるデータの種類は何ですか?  
 文字列、数値、ブール値、日付/時刻値など、さまざまなデータ型を取得できます。

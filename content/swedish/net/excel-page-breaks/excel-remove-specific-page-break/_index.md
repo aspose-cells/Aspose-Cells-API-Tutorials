@@ -53,18 +53,18 @@ Först och främst måste du ange var dina Excel-dokument lagras. Detta hjälper
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Förklaring: Byt ut`YOUR DOCUMENT DIRECTORY`med den faktiska sökvägen till dina filer. Det är här du laddar din Excel-fil från och sparar din modifierade Excel-fil senare.
+ Förklaring: Byt ut`YOUR DOCUMENT DIRECTORY` med den faktiska sökvägen till dina filer. Det är här du laddar din Excel-fil från och sparar din modifierade Excel-fil senare.
 
 ## Steg 2: Instantiera arbetsboksobjektet
 
 Nästa steg måste vi ladda vår arbetsbok. I enklare termer, tänk på en arbetsbok som din Excel-fil.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Förklaring: Den här raden skapar en ny instans av en`Workbook` , som laddar din angivna Excel-fil (i det här exemplet heter den`PageBreaks.xls`). 
+Förklaring: Den här raden skapar en ny instans av en`Workbook` , som laddar din angivna Excel-fil (i det här exemplet heter den`PageBreaks.xls`). 
 
 ## Steg 3: Ta bort den horisontella sidbrytningen
 

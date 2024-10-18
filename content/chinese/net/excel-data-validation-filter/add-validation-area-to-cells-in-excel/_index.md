@@ -88,7 +88,7 @@ validation.AddArea(cellArea, false, false);
 
 ## 步骤 6：保存工作簿
 
-经过所有这些努力，我们需要确保更改已保存。具体操作如下：
+经过所有这些艰苦的工作，我们需要确保我们的更改得到保存。我们的操作如下：
 
 ```csharp
 workbook.Save(outputDir + "ValidationsSample_out.xlsx");

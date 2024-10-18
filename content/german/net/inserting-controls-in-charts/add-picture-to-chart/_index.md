@@ -16,12 +16,12 @@ Haben Sie genug von langweiligen Diagrammen ohne persönliche Note? Möchten Sie
 Bevor wir uns in die Einzelheiten der Codierung stürzen, müssen Sie einige Voraussetzungen erfüllen, damit Sie reibungslos mitmachen können:
 
 - Visual Studio: Hier schreiben und führen Sie Ihren .NET-Code aus. Stellen Sie sicher, dass Sie es installiert haben.
--  Aspose.Cells für .NET: Sie benötigen diese Bibliothek für die Arbeit mit Excel-Dateien. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
+- Aspose.Cells für .NET: Sie benötigen diese Bibliothek für die Arbeit mit Excel-Dateien. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 - Grundlegende Kenntnisse in C#: Ich führe Sie zwar durch den Code, aber wenn Sie sich mit den Grundlagen von C# auskennen, wird alles klarer.
 
 ### Installationsschritte
 
-1. Installieren Sie Aspose.Cells: Sie können Aspose.Cells über den NuGet-Paketmanager zu Ihrem Visual Studio-Projekt hinzufügen. Navigieren Sie dazu zu Tools > NuGet-Paketmanager > NuGet-Pakete für Lösung verwalten und suchen Sie nach „Aspose.Cells“. Klicken Sie auf Installieren.
+1. Installieren Sie Aspose.Cells: Sie können Aspose.Cells über den NuGet Package Manager zu Ihrem Visual Studio-Projekt hinzufügen. Navigieren Sie dazu zu Tools > NuGet Package Manager > NuGet-Pakete für Lösung verwalten und suchen Sie nach „Aspose.Cells“. Klicken Sie auf Installieren.
 2. Einrichten Ihres Projekts: Erstellen Sie in Visual Studio ein neues C#-Konsolenanwendungsprojekt.
 
 ## Pakete importieren
@@ -45,7 +45,7 @@ Nachdem wir nun die Voraussetzungen geschaffen haben, können wir den Prozess in
 
 ## Schritt 1: Definieren Sie Ihre Verzeichnisse
 
-Als Erstes müssen wir die Pfade für unsere Eingabe- und Ausgabedateien einrichten. Dieser Schritt ist entscheidend, da wir wissen müssen, wo sich unsere vorhandene Excel-Datei befindet und wo die geänderte Datei gespeichert werden soll.
+Als Erstes müssen wir die Pfade für unsere Eingabe- und Ausgabedateien einrichten. Dieser Schritt ist entscheidend, da wir wissen müssen, wo unsere vorhandene Excel-Datei zu finden ist und wo die geänderte Datei gespeichert werden soll.
 
 ```csharp
 //Quellverzeichnis
@@ -84,7 +84,7 @@ Stellen Sie sicher, dass Sie das Bild im angegebenen Verzeichnis gespeichert hab
 Geben wir nun an, zu welchem Diagramm wir unser Bild hinzufügen möchten. In diesem Beispiel wählen wir das erste Diagramm auf dem ersten Arbeitsblatt aus.
 
 ```csharp
-// Holen Sie sich das Designerdiagramm auf dem zweiten Blatt.
+//Holen Sie sich das Designerdiagramm auf dem zweiten Blatt.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -151,7 +151,7 @@ In diesem Tutorial haben wir untersucht, wie Sie Ihren Excel-Diagrammen durch da
 Aspose.Cells unterstützt eine Vielzahl von Bildformaten, darunter PNG, JPEG, BMP und GIF.
 
 ### Kann ich die Position des Bildes anpassen?
-Sicher! Die X- und Y-Koordinaten im`AddPictureInChart` Methode ermöglicht eine präzise Positionierung.
+ Sicher! Die X- und Y-Koordinaten im`AddPictureInChart` Methode ermöglicht eine präzise Positionierung.
 
 ### Ist die Nutzung von Aspose.Cells kostenlos?
  Aspose.Cells bietet eine kostenlose Testversion an, für den vollen Funktionsumfang ist jedoch eine Lizenz erforderlich. Die Preise finden Sie[Hier](https://purchase.aspose.com/buy).

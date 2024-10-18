@@ -22,7 +22,7 @@ Než se pustíme do používání funkce MAX s Aspose.Cells for Java, měli byst
 
 ## Přidání Aspose.Cells do vašeho projektu
 
-Chcete-li začít, musíte do projektu přidat knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z webu Aspose a zahrnout jej do závislostí vašeho projektu.
+Chcete-li začít, musíte do svého projektu přidat knihovnu Aspose.Cells for Java. Můžete si jej stáhnout z webu Aspose a zahrnout jej do závislostí vašeho projektu.
 
 ## Načítání souboru Excel
 

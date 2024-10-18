@@ -9,14 +9,14 @@ url: /pl/java/excel-data-security/
 ---
 
 ## Wstęp
-czasach, w których dane są królem, zapewnienie bezpieczeństwa arkuszy kalkulacyjnych programu Excel jest najważniejsze. Niezależnie od tego, czy masz do czynienia z poufnymi danymi finansowymi, poufnymi raportami biznesowymi czy innymi ważnymi informacjami, ochrona plików programu Excel przed nieautoryzowanym dostępem i manipulacją jest kluczowa. Aspose.Cells for Java zapewnia potężne narzędzia do wzmocnienia bezpieczeństwa danych programu Excel, a w tym samouczku przeprowadzimy Cię przez niezbędne kroki w celu ochrony cennych danych.
+W czasach, w których dane są królem, zapewnienie bezpieczeństwa arkuszy kalkulacyjnych programu Excel jest najważniejsze. Niezależnie od tego, czy masz do czynienia z poufnymi danymi finansowymi, poufnymi raportami biznesowymi czy innymi ważnymi informacjami, ochrona plików programu Excel przed nieautoryzowanym dostępem i manipulacją jest kluczowa. Aspose.Cells for Java zapewnia potężne narzędzia do wzmocnienia bezpieczeństwa danych programu Excel, a w tym samouczku przeprowadzimy Cię przez niezbędne kroki w celu ochrony cennych danych.
 
 
 ## Ochrona hasłem
 Ochrona hasłem to Twoja pierwsza linia obrony. Dzięki Aspose.Cells for Java możesz ustawić zarówno hasło do otwierania, jak i hasło do modyfikowania plików Excel. Ta podwójna warstwa ochrony zapewnia, że tylko upoważnione osoby mogą uzyskać dostęp do Twoich arkuszy kalkulacyjnych i wprowadzać w nich zmiany. Udostępnimy Ci przykłady kodu, aby bezproblemowo wdrożyć tę metodę bezpieczeństwa.
 
 ## Szyfrowanie plików
-dzisiejszym połączonym świecie szyfrowanie plików jest koniecznością. Aspose.Cells for Java pozwala szyfrować pliki Excela przy użyciu standardowych algorytmów szyfrowania. Poprowadzimy Cię przez proces szyfrowania plików i ich odszyfrowywania, gdy będzie to potrzebne.
+W dzisiejszym połączonym świecie szyfrowanie plików jest koniecznością. Aspose.Cells for Java pozwala szyfrować pliki Excela przy użyciu standardowych algorytmów szyfrowania. Poprowadzimy Cię przez proces szyfrowania plików i ich odszyfrowywania, gdy będzie to potrzebne.
 
 ## Walidacja danych
 Zapewnienie integralności danych jest kluczowe. Przyjrzymy się, jak używać reguł walidacji danych, aby zapobiec błędnemu wprowadzaniu danych. Dzięki Aspose.Cells for Java możesz skonfigurować reguły walidacji danych, które ograniczają wprowadzanie danych do określonych kryteriów, zapewniając, że Twoje arkusze Excela pozostaną dokładne i wolne od błędów.

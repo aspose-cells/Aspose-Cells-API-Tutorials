@@ -16,7 +16,7 @@ Az interaktív diagramok új dimenziót adnak az adatvizualizációhoz, lehetőv
 
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 - Java fejlesztői környezet
-- Aspose.Cells for Java Library (Letöltés innen:[itt](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells for Java Library (Letöltés innen:[itt](https://releases.aspose.com/cells/java/)
 
 ## 1. lépés: A Java projekt beállítása
 
@@ -64,7 +64,7 @@ chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(
 ```
 
 ### 4.3. Drill-Down megvalósítása
-részletező funkciók megvalósításához használhat hiperhivatkozásokat vagy egyéni műveleteket hozhat létre. Íme egy példa hiperhivatkozás adatponthoz való hozzáadására:
+A részletező funkciók megvalósításához használhat hiperhivatkozásokat vagy egyéni műveleteket hozhat létre. Íme egy példa hiperhivatkozás adatponthoz való hozzáadására:
 
 ```java
 // Hiperhivatkozás hozzáadása egy adatponthoz
@@ -96,7 +96,7 @@ Igen, személyre szabhatja az eszköztipp megjelenését a tulajdonságok, péld
 
 ### Hogyan kezelhetem a felhasználói interakciókat egy webalkalmazásban?
 
-A felhasználói interakciók kezeléséhez használhatja a JavaScriptet a webalkalmazásával együtt, hogy rögzítse a diagramon végrehajtott interakciók, például kattintások vagy lebegtetési műveletek által kiváltott eseményeket.
+felhasználói interakciók kezeléséhez használhatja a JavaScriptet a webalkalmazásával együtt, hogy rögzítse a diagramon végrehajtott interakciók, például kattintások vagy lebegtetési műveletek által kiváltott eseményeket.
 
 ### Hol találok további példákat és dokumentációt?
 

@@ -77,7 +77,7 @@ Und jetzt geschieht die Magie! Wir können die Druckqualität für das Arbeitsbl
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Erläuterung: Die`PrintQuality` Die Eigenschaft kann auf einen beliebigen Wert eingestellt werden, normalerweise zwischen 75 und 600 dpi (Punkte pro Zoll). In diesem Fall stellen wir sie auf 180 dpi ein, was für ein gutes Gleichgewicht zwischen Qualität und Dateigröße hervorragend ist.
+Erläuterung: Die`PrintQuality` Die Eigenschaft kann auf einen beliebigen Wert eingestellt werden, normalerweise zwischen 75 und 600 dpi (Punkte pro Zoll). In diesem Fall stellen wir sie auf 180 dpi ein, was für ein gutes Gleichgewicht zwischen Qualität und Dateigröße hervorragend ist.
 
 ## Schritt 5: Speichern der Arbeitsmappe
 

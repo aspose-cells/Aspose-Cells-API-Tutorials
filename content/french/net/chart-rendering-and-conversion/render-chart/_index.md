@@ -175,7 +175,7 @@ Oui, Aspose.Cells permet une personnalisation étendue, y compris les couleurs, 
 Absolument ! Vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 
 ### Où puis-je obtenir de l'aide pour Aspose.Cells ?
- Vous pouvez trouver du soutien et des ressources communautaires sur le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
+ Vous pouvez trouver du soutien et des ressources communautaires sur le site[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells ?
  Oui, une licence est requise pour une utilisation continue au-delà de la période d'essai, mais vous pouvez demander une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

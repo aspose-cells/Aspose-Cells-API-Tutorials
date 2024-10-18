@@ -1,7 +1,7 @@
 ---
 title: รับรายละเอียด Odata
 linktitle: รับรายละเอียด Odata
-second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
+second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
 description: ค้นพบวิธีดึงรายละเอียด OData จาก Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
 type: docs
 weight: 110
@@ -40,7 +40,7 @@ url: /th/net/excel-workbook/get-odata-details/
 1. คลิกขวาที่โครงการของคุณใน Solution Explorer
 2. เลือก "จัดการแพ็คเกจ NuGet"
 3. ในแท็บ "เรียกดู" ค้นหา "Aspose.Cells"
-4. คลิก “ติดตั้ง” เพื่อเพิ่มแพ็คเกจลงในโครงการของคุณ
+4. คลิก “ติดตั้ง” เพื่อเพิ่มแพ็กเกจลงในโครงการของคุณ
 
 ### รวมเนมสเปซที่จำเป็น
 

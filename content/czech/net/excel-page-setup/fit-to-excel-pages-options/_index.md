@@ -54,9 +54,9 @@ Nejprve inicializujte náš sešit a získejte přístup k požadovanému listu.
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
-//Přístup k prvnímu listu v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

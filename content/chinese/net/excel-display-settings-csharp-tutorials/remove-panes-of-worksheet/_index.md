@@ -13,7 +13,7 @@ url: /zh/net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/
 
 ## 先决条件
 
-在开始编码之前，让我们确保一切设置正确。以下是您需要的内容：
+在开始编码之前，让我们确保你已正确设置了所有内容。以下是你需要的内容：
 
 1. Visual Studio：安装 Visual Studio 将为您提供一个可靠的开发环境来创建 .NET 应用程序。
 2.  Aspose.Cells 库：显然，没有 Aspose.Cells 库，您无法做到这一点。不用担心；您可以从以下网址轻松下载[这里](https://releases.aspose.com/cells/net/)，他们甚至还提供[免费试用](https://releases.aspose.com/).

@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Chỉ định thư mục tài l
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- Trong bước này, chúng ta khai báo một biến`sourceDir` trỏ đến vị trí tệp Excel của bạn. Sau đó, chúng tôi tạo một phiên bản mới của`Workbook`lớp để tải tệp đó. Điều này giống như mở cuốn sách chúng ta muốn đọc!
+ Trong bước này, chúng ta khai báo một biến`sourceDir` trỏ đến vị trí tệp Excel của bạn. Sau đó, chúng tôi tạo một phiên bản mới của`Workbook` lớp để tải tệp đó. Điều này giống như mở cuốn sách chúng ta muốn đọc!
 
 ## Bước 2: Truy cập vào Bảng tính đầu tiên
 
@@ -58,7 +58,7 @@ Sau khi tải xong bảng tính, bước tiếp theo là truy cập vào bảng 
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Ở đây, chúng ta đang khai thác vào`Worksheets` thu thập sổ làm việc của chúng tôi và truy cập vào trang tính đầu tiên (thường là chỉ mục 0). Bước này rất quan trọng vì tất cả các hành động lọc của chúng tôi sẽ được thực hiện trên trang tính này.
+ Ở đây, chúng ta đang khai thác vào`Worksheets`thu thập sổ làm việc của chúng tôi và truy cập vào trang tính đầu tiên (thường là chỉ mục 0). Bước này rất quan trọng vì tất cả các hành động lọc của chúng tôi sẽ được thực hiện trên trang tính này.
 
 ## Bước 3: Xác định các tham số bộ lọc
 
@@ -69,7 +69,7 @@ string rangeToFilter = "A5:D19"; // Phạm vi dữ liệu cần lọc
 string criteriaRange = "A1:D2"; // Phạm vi tiêu chí để lọc
 ```
 
-Trong bước này, chúng ta định nghĩa hai chuỗi: 
+Trong bước này, chúng ta xác định hai chuỗi: 
 - `rangeToFilter` biểu thị phạm vi dữ liệu mà chúng ta sẽ áp dụng bộ lọc.
 - `criteriaRange` đại diện cho các ô chứa tiêu chí lọc của chúng tôi. Các tiêu chí này sẽ quyết định cách chúng tôi sắp xếp dữ liệu của mình.
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Chỉ định thư mục đầu
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Cuối cùng, chúng tôi chỉ định nơi chúng tôi muốn lưu sổ làm việc đã lọc bằng cách sử dụng`Save` phương pháp. Bạn có thể đặt cho nó một tên mới (trong trường hợp này,`outputAdvancedFilter.xlsx`) để giữ nguyên bản gốc.
+ Cuối cùng, chúng tôi chỉ định nơi chúng tôi muốn lưu sổ làm việc đã lọc bằng cách sử dụng`Save` phương pháp. Bạn có thể đặt cho nó một tên mới (trong trường hợp này,`outputAdvancedFilter.xlsx`) để giữ nguyên bản gốc.
 
 ## Phần kết luận
 
@@ -100,7 +100,7 @@ Không, Aspose.Cells hoạt động độc lập và không yêu cầu phải c�
  Có, bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử từ[đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ nếu gặp vấn đề không?
-Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ của cộng đồng trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+ Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ của cộng đồng trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
  Bạn có thể yêu cầu giấy phép tạm thời từ trang mua hàng của họ[đây](https://purchase.aspose.com/temporary-license/). 

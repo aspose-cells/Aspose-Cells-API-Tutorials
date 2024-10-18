@@ -64,7 +64,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 بمجرد تحميل المصنف، يمكنك الوصول إلى اتصالاته الخارجية. في حالتنا، سنسترد اتصال قاعدة البيانات الأول.
 
 ```csharp
-// اقرأ أول اتصال خارجي وهو في الواقع اتصال DB
+// اقرأ أول اتصال خارجي وهو في الواقع اتصال قاعدة بيانات
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
@@ -122,7 +122,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 ## الأسئلة الشائعة
 
 ### ما هو ملف XLSB؟  
-ملف XLSB هو تنسيق ملف Excel ثنائي يخزن بيانات جدول البيانات بتنسيق ثنائي، مما يجعله أكثر إحكاما وأسرع في الفتح.
+ملف XLSB هو تنسيق ملف Excel ثنائي يخزن بيانات جدول بيانات بتنسيق ثنائي، مما يجعله أكثر إحكاما وأسرع في الفتح.
 
 ### كيف أقوم بتثبيت Aspose.Cells لـ .NET؟  
  يمكنك تنزيله بسهولة من موقع Aspose[هنا](https://releases.aspose.com/cells/net/).

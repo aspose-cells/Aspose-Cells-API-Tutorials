@@ -83,7 +83,7 @@ workbook.save("CustomDataValidation.xlsx");
 
 ## Conclusão
 
-Neste tutorial, exploramos como criar regras de validação de dados personalizadas usando Aspose.Cells para Java. Ao seguir essas etapas, você pode garantir que seus dados do Excel aderem a critérios específicos, aprimorando a integridade e a precisão dos dados.
+Neste tutorial, exploramos como criar regras de validação de dados personalizadas usando Aspose.Cells para Java. Seguindo essas etapas, você pode garantir que seus dados do Excel aderem a critérios específicos, aprimorando a integridade e a precisão dos dados.
 
 ## Perguntas frequentes
 

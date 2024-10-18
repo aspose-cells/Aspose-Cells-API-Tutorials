@@ -18,7 +18,7 @@ Antes de pularmos para as coisas suculentas, vamos garantir que você esteja pre
 1. Ambiente de desenvolvimento .NET: Certifique-se de ter um ambiente de desenvolvimento .NET pronto para uso. Você pode usar o Visual Studio ou qualquer outro IDE de sua escolha.
 2.  Biblioteca Aspose.Cells: Você também deve ter a biblioteca Aspose.Cells instalada. Se você ainda não fez isso, não se preocupe! Você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
 3. Noções básicas de C#: Conhecer os conceitos básicos de programação em C# ajudará você a seguir em frente sem problemas.
-4.  Um arquivo Excel: Tenha um arquivo Excel pronto com o qual você gostaria de trabalhar. Para nosso exemplo, usaremos um arquivo simples chamado`book1.xlsx` com pelo menos uma planilha chamada "Planilha1".
+4. Um arquivo Excel: Tenha um arquivo Excel pronto com o qual você gostaria de trabalhar. Para nosso exemplo, usaremos um arquivo simples chamado`book1.xlsx` com pelo menos uma planilha chamada "Planilha1".
 
 Agora que você está pronto, vamos começar!
 
@@ -45,9 +45,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Especifique seu diretório de doc
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Combine para formar o caminho completo
 ```
 
- Aqui, substitua`"YOUR DOCUMENT DIRECTORY"` com o caminho real em seu sistema onde`book1.xlsx` é armazenado. Utilizando`Path.Combine` é interessante porque garante que o caminho seja construído corretamente em diferentes sistemas operacionais.
+ Aqui, substitua`"YOUR DOCUMENT DIRECTORY"`com o caminho real em seu sistema onde`book1.xlsx` é armazenado. Utilizando`Path.Combine` é interessante porque garante que o caminho seja construído corretamente em diferentes sistemas operacionais.
 
-## Etapa 2: Criar um fluxo de arquivos
+## Etapa 2: Crie um fluxo de arquivos
 
 Em seguida, precisaremos criar um fluxo de arquivo. Esse fluxo nos permitirá ler o arquivo Excel. Pense nisso como abrir o livro para poder ler seu conteúdo.
 
@@ -115,7 +115,7 @@ Aspose.Cells é uma poderosa biblioteca .NET que permite aos desenvolvedores cri
 O Aspose.Cells suporta vários formatos, incluindo XLS, XLSX, CSV e outros.
 
 ### Preciso de uma licença para usar o Aspose.Cells?
- Embora haja um[teste gratuito](https://releases.aspose.com/)disponível, eventualmente você precisará comprar uma licença para usá-lo sem limitações.
+ Embora haja um[teste gratuito](https://releases.aspose.com/) disponível, eventualmente você precisará comprar uma licença para usá-lo sem limitações.
 
 ### Onde posso encontrar suporte para o Aspose.Cells?
- Você pode obter suporte através deles[fórum de suporte](https://forum.aspose.com/c/cells/9).
+Você pode obter suporte através deles[fórum de suporte](https://forum.aspose.com/c/cells/9).

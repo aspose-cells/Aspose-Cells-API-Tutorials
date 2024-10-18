@@ -43,7 +43,7 @@ Allereerst moet u een variabele maken waarin het pad wordt vastgelegd waar u uw 
 string dataDir = "Your Document Directory"; // Geef hier uw directory op
 ```
 
-Uitleg: Deze regel initialiseert een`dataDir` variabel. Je zou moeten vervangen`"Your Document Directory"` met het daadwerkelijke pad op uw machine waar u het Excel-bestand wilt opslaan. Zie dit als het instellen van de locatie waar uw meesterwerk zal worden weergegeven!
+ Uitleg: Deze regel initialiseert een`dataDir` variabel. Je zou moeten vervangen`"Your Document Directory"` met het daadwerkelijke pad op uw machine waar u het Excel-bestand wilt opslaan. Zie dit als het instellen van de locatie waar uw meesterwerk zal worden weergegeven!
 
 ## Stap 2: Een nieuwe werkmap instantiëren
 
@@ -53,7 +53,7 @@ Vervolgens maken we een instantie van de werkmap. Dit is alsof je een nieuw leeg
 Workbook workbook = new Workbook();
 ```
 
- Uitleg: De`Workbook` class vertegenwoordigt een Excel-bestand. Door het te instantiëren, maakt u in feite een nieuw Excel-document dat u kunt bewerken.
+Uitleg: De`Workbook` class vertegenwoordigt een Excel-bestand. Door het te instantiëren, maakt u in feite een nieuw Excel-document dat u kunt bewerken.
 
 ## Stap 3: Toegang tot het eerste werkblad
 
@@ -73,7 +73,7 @@ Het is tijd om een bereik van cellen te maken die we willen formatteren. In deze
 Aspose.Cells.Range range = WS.Cells.CreateRange(1, 1, 5, 5); // Maakt een bereik van rij 1, kolom 1 over 5 rijen en 5 kolommen
 ```
 
-Uitleg: Deze methode maakt een bereik beginnend bij rij 1, kolom 1 (wat in Excel-termen B2 is, als we rijen/kolommen tellen beginnend bij 0). We specificeren dat we een blok van 5 rijen en 5 kolommen willen, wat eindigt met een net klein vierkantje.
+Uitleg: Deze methode creëert een bereik beginnend bij rij 1, kolom 1 (wat in Excel-termen B2 is, als we rijen/kolommen tellen beginnend bij 0). We specificeren dat we een blok van 5 rijen en 5 kolommen willen, eindigend met een net klein vierkantje.
 
 ## Stap 5: Geef het bereik een naam
 
@@ -102,7 +102,7 @@ Vervolgens specificeren we de lettertype-eigenschappen voor onze cellen.
 
 ```csharp
 stl.Font.Name = "Arial"; // Stel lettertype in op Arial
-stl.Font.IsBold = true; //Maak lettertype vet
+stl.Font.IsBold = true; // Maak lettertype vet
 ```
 
 Uitleg: Hier definiëren we dat we "Arial" als lettertype willen gebruiken en het vetgedrukt willen maken. Zie het als het geven van wat kracht aan uw tekst!
@@ -134,11 +134,11 @@ Uitleg: We vullen het bereik met een felgeel! Een solide patroon zorgt ervoor da
 
 ```csharp
 StyleFlag flg = new StyleFlag();
-flg.Font = true; //Lettertypekenmerken inschakelen
+flg.Font = true; // Lettertypekenmerken inschakelen
 flg.CellShading = true; // Celschaduw inschakelen
 ```
 
- Uitleg: De`StyleFlag` object vertelt de bibliotheek welke stijlkenmerken we willen toepassen, net als het afvinken van vakjes op een takenlijst!
+Uitleg: De`StyleFlag` object vertelt de bibliotheek welke stijlkenmerken we willen toepassen, net als het afvinken van vakjes op een takenlijst!
 
 ## Stap 11: Pas de stijl toe op het bereik
 
@@ -172,9 +172,9 @@ Uitleg: Deze regel print een bericht naar de console dat aangeeft dat ons progra
 
 ## Conclusie
 
-In deze tutorial hebben we de stappen doorlopen voor het opmaken van bereiken in Excel met Aspose.Cells voor .NET. Of u nu wilt dat uw gegevens vette tekst, felle kleuren of essentiële structurering binnen bereiken hebben, deze bibliotheek heeft het voor u. Zo kunt u uw gegevens transformeren van saai naar groots met een paar regels code!
+In deze tutorial hebben we de stappen doorlopen voor het opmaken van bereiken in Excel met Aspose.Cells voor .NET. Of u nu wilt dat uw gegevens vette tekst, felle kleuren of essentiële structurering binnen bereiken hebben, deze bibliotheek heeft het voor u. Zo kunt u uw gegevens van saai naar groots transformeren met een paar regels code!
 
- Terwijl u uw programmeerreis voortzet, aarzel dan niet om meer functies van Aspose.Cells te verkennen, aangezien het een overvloed aan functionaliteiten biedt om met Excel-bestanden te werken. Bekijk voor meer informatie de[documentatie](https://reference.aspose.com/cells/net/) om nieuw potentieel in uw ontwikkelingsprojecten te ontsluiten!
+Terwijl u uw programmeerreis voortzet, aarzel dan niet om meer functies van Aspose.Cells te verkennen, aangezien het een overvloed aan functionaliteiten biedt om met Excel-bestanden te werken. Bekijk voor meer informatie de[documentatie](https://reference.aspose.com/cells/net/) om nieuw potentieel in uw ontwikkelingsprojecten te ontsluiten!
 
 ## Veelgestelde vragen
 
@@ -182,7 +182,7 @@ In deze tutorial hebben we de stappen doorlopen voor het opmaken van bereiken in
 Aspose.Cells is een krachtige bibliotheek voor .NET waarmee ontwikkelaars naadloos met Excel-bestanden kunnen werken. Ideaal voor het programmatisch maken en bewerken van spreadsheets.
 
 ### Kan ik Aspose.Cells gratis gebruiken?
-Ja! Aspose biedt een gratis proefversie. U kunt aan de slag met de bibliotheek en de functies ervan testen voordat u een aankoop doet. Bekijk de[gratis proefperiode](https://releases.aspose.com/).
+ Ja! Aspose biedt een gratis proefversie. U kunt aan de slag met de bibliotheek en de functies ervan testen voordat u een aankoop doet. Bekijk de[gratis proefperiode](https://releases.aspose.com/).
 
 ### Hoe pas ik meerdere stijlen toe op een bereik in Excel?
  U kunt meerdere maken`Style` objecten en pas ze elk toe met behulp van de`ApplyStyle` methode met hun respectievelijke`StyleFlag`.

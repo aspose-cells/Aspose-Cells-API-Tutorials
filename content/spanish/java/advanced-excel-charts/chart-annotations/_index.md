@@ -26,7 +26,7 @@ Antes de profundizar en la implementación, asegúrese de tener los siguientes r
 
 ## Creación de un libro de trabajo de Excel
 
-Comencemos por crear un nuevo libro de Excel con Aspose.Cells para Java. Este libro de Excel servirá como lienzo para agregar un gráfico con anotaciones.
+Comencemos por crear un nuevo libro de Excel con Aspose.Cells para Java. Este libro de Excel nos servirá como lienzo para agregar un gráfico con anotaciones.
 
 ```java
 // Código Java para crear un nuevo libro de Excel

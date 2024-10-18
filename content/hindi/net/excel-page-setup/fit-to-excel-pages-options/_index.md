@@ -54,9 +54,9 @@ using System;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//वर्कबुक ऑब्जेक्ट को इंस्टैंशिएट करना
+// वर्कबुक ऑब्जेक्ट को इंस्टैंशिएट करना
 Workbook workbook = new Workbook();
-//एक्सेल फ़ाइल में पहली वर्कशीट तक पहुँचना
+// एक्सेल फ़ाइल में पहली वर्कशीट तक पहुँचना
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -69,7 +69,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```csharp
 // कार्यपत्रक की लंबाई तक फैले पृष्ठों की संख्या निर्धारित करना
 worksheet.PageSetup.FitToPagesTall = 1;
-// वर्कशीट की चौड़ाई को किन पृष्ठों तक फैलाया जाएगा, इसकी संख्या निर्धारित करना
+// वर्कशीट की चौड़ाई में फैले पृष्ठों की संख्या निर्धारित करना
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 

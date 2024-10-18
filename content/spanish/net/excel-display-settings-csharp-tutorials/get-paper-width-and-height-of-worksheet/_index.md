@@ -9,7 +9,7 @@ url: /es/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-
 ---
 ## Introducción
 
-¿Alguna vez has intentado imprimir una hoja de Excel y has tenido que lidiar con las confusas dimensiones de los distintos tamaños de papel? Si eres como yo, sabrás que nada puede arruinarte el día tanto como un diseño que no sale como esperabas. Ya sea que estés imprimiendo informes, facturas o simplemente una lista simple, comprender cómo ajustar las dimensiones del papel mediante programación puede ahorrarte muchos problemas. Hoy, nos sumergiremos en el mundo de Aspose.Cells para .NET para examinar cómo recuperar y configurar los tamaños de papel directamente en tu aplicación. ¡Pongámonos manos a la obra y entremos en los detalles de la gestión de las dimensiones del papel!
+¿Alguna vez has intentado imprimir una hoja de Excel y has tenido que lidiar con las confusas dimensiones de los distintos tamaños de papel? Si eres como yo, sabrás que no hay nada que te arruine el día tanto como un diseño que no sale como esperabas. Tanto si vas a imprimir informes, facturas o simplemente una lista sencilla, comprender cómo ajustar las dimensiones del papel mediante programación puede ahorrarte muchos problemas. Hoy, nos adentraremos en el mundo de Aspose.Cells para .NET para examinar cómo recuperar y configurar los tamaños de papel directamente en tu aplicación. ¡Pongámonos manos a la obra y adentrémonos en los detalles de la gestión de las dimensiones del papel!
 
 ## Prerrequisitos 
 
@@ -18,7 +18,7 @@ Antes de adentrarnos en la magia de la codificación, recopilemos lo que necesit
 1. Conocimientos básicos de C#: Debes tener conocimientos básicos de C#. Si eres nuevo en programación, ¡no te preocupes! Te lo explicaremos de forma sencilla.
 2.  Biblioteca Aspose.Cells: asegúrese de tener instalada en su equipo la biblioteca Aspose.Cells para .NET. Puede descargarla desde[Este enlace](https://releases.aspose.com/cells/net/).
 3. Entorno de desarrollo .NET: configure Visual Studio o cualquier IDE de su elección para escribir y ejecutar su código C#. Si no está seguro de por dónde empezar, Visual Studio Community Edition es una opción sólida.
-4.  Referencias y documentación: familiarícese con la documentación de Aspose.Cells para obtener más información. Puede encontrarla en[aquí](https://reference.aspose.com/cells/net/).
+4.  Referencias y documentación: familiarícese con la documentación de Aspose.Cells para obtener más información. Puede encontrarla[aquí](https://reference.aspose.com/cells/net/).
 5. Conocimientos básicos de archivos de Excel: comprender cómo se estructuran los archivos de Excel (hojas de cálculo, filas y columnas) será de gran ayuda.
 
 ¡Genial! Ahora que hemos comprobado los aspectos esenciales, pasemos directamente a importar los paquetes necesarios.
@@ -66,7 +66,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- En este bloque, establecemos el tamaño del papel en A2 y luego recuperamos su ancho y alto.`PaperWidth` y`PaperHeight` Las propiedades proporcionan las dimensiones en pulgadas. Es como comprobar el tamaño de un marco antes de colocar una imagen en él.
+ En este bloque, establecemos el tamaño del papel en A2 y luego recuperamos su ancho y alto.`PaperWidth` y`PaperHeight` Las propiedades proporcionan las dimensiones en pulgadas. Es como comprobar el tamaño de un marco antes de colocar un cuadro en él.
 
 ## Paso 4: Repita el procedimiento para otros tamaños de papel
 
@@ -102,7 +102,7 @@ Aspose.Cells es una biblioteca .NET diseñada para procesar archivos Excel sin n
  Aspose.Cells proporciona opciones para configurar tamaños de papel personalizados utilizando el`PageSetup` clase.
 
 ### ¿Es necesario tener conocimientos de codificación para utilizar Aspose.Cells?
-Los conocimientos básicos de codificación ayudan, pero puedes seguir tutoriales para una comprensión más sencilla.
+Los conocimientos básicos de codificación ayudan, pero puedes seguir tutoriales para una comprensión más fácil.
 
 ### ¿Dónde puedo encontrar más ejemplos?
  El[Documentación de Aspose.Cells](https://reference.aspose.com/cells/net/) Ofrece una gran cantidad de ejemplos y tutoriales.

@@ -102,7 +102,7 @@ Nachdem Sie das Arbeitsblatt kopiert haben, müssen Sie die aktualisierte Excel-
 wb.Save(dataDir + "CopyWithinWorkbook_out.xls");
 ```
 
--  Der`Save` Methode schreibt die aktualisierte Arbeitsmappe in eine neue Datei (`CopyWithinWorkbook_out.xls` ). Sie können für die Ausgabedatei einen beliebigen Namen wählen, aber denken Sie daran, sie im richtigen Format zu speichern (z. B.`.xls`, `.xlsx`).
+-  Der`Save` Methode schreibt die aktualisierte Arbeitsmappe in eine neue Datei (`CopyWithinWorkbook_out.xls` ). Sie können für die Ausgabedatei einen beliebigen Namen wählen, aber denken Sie daran, sie im entsprechenden Format zu speichern (z. B.`.xls`, `.xlsx`).
 
 Das war‘s! Sie haben erfolgreich ein Arbeitsblatt in einer Excel-Datei dupliziert.
 

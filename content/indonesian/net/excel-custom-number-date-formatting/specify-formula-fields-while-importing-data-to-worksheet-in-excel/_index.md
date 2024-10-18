@@ -16,7 +16,7 @@ Jika berbicara tentang penanganan berkas Excel secara terprogram, Aspose.Cells f
 Sebelum masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan. 
 
 1. Visual Studio atau lingkungan pengembangan terpadu (IDE) .NET apa pun: Pastikan Anda memiliki IDE yang sesuai untuk menulis dan menjalankan kode C# Anda.
-2. Aspose.Cells untuk .NET: Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Anda dapat mengunduhnya dari[Aspose merilis](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Anda dapat mengunduhnya dari[Aspose merilis](https://releases.aspose.com/cells/net/).
 3. Pengetahuan dasar C#: Keakraban dengan C# dan konsep pemrograman berorientasi objek akan membantu Anda memahami contoh-contoh dengan lebih baik.
 4. .NET Framework: Tutorial ini mengasumsikan Anda menggunakan .NET Framework 4.5 atau yang lebih tinggi.
 
@@ -34,7 +34,7 @@ using System.Collections.Generic;
 
 Hal ini memungkinkan Anda untuk menggunakan kelas dan metode yang disediakan oleh pustaka Aspose.Cells tanpa perlu menambahkan awalan namespace setiap saat.
 
-Mari kita uraikan seluruh proses menjadi langkah-langkah yang dapat dikelola:
+Mari kita uraikan keseluruhan proses menjadi langkah-langkah yang dapat dikelola:
 
 ## Langkah 1: Tentukan Direktori Output
 
@@ -120,7 +120,7 @@ Baris ini secara efektif mengimpor data yang dimulai pada sel A1.
 
 ## Langkah 8: Hitung Rumus
 
-Karena kita telah mengimpor beberapa rumus, penting untuk menghitungnya.
+Karena kami telah mengimpor beberapa rumus, penting untuk menghitungnya.
 
 ```csharp
 wb.CalculateFormula();
@@ -168,7 +168,7 @@ Nah, itu dia! Anda telah berhasil mengimpor data ke dalam lembar Excel menggunak
 Aspose.Cells adalah pustaka .NET yang dirancang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.Cells untuk .NET?
- Anda dapat mengunduhnya dari[Aspose merilis](https://releases.aspose.com/cells/net/)dan merujuknya dalam proyek Anda.
+ Anda dapat mengunduhnya dari[Aspose merilis](https://releases.aspose.com/cells/net/) dan merujuknya dalam proyek Anda.
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?
  Ya, Aspose menawarkan uji coba gratis yang tersedia di[tautan ini](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Aspose.Cells adalah pustaka .NET yang dirancang untuk membuat, memanipulasi, dan
  Contoh dan dokumentasi tambahan dapat ditemukan di[Halaman dokumentasi Aspose](https://reference.aspose.com/cells/net/).
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose?
- Anda dapat mencari bantuan dari forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+Anda dapat mencari bantuan dari forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
  

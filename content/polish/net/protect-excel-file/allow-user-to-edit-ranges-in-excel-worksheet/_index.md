@@ -41,7 +41,7 @@ W przypadku wszelkich operacji na plikach kluczowe jest określenie lokalizacji,
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Utwórz katalog, jeśli jeszcze go nie ma.
+//Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -129,7 +129,7 @@ Oto i masz! Udało Ci się utworzyć arkusz kalkulacyjny programu Excel, który 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to zaawansowana biblioteka .NET do obsługi plików Excel, oferująca takie funkcje, jak programowe tworzenie, edytowanie i konwertowanie arkuszy kalkulacyjnych.
+Aspose.Cells to potężna biblioteka .NET do obsługi plików Excel, oferująca takie funkcje, jak programowe tworzenie, edytowanie i konwertowanie arkuszy kalkulacyjnych.
 
 ### Czy mogę zastosować wiele zakresów edytowalnych?
  Oczywiście! Możesz zadzwonić`Add` metoda na`allowRanges` kolekcję można powtarzać wielokrotnie, aby określić wiele edytowalnych zakresów.

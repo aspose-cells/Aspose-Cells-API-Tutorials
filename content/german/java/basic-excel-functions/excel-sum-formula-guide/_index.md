@@ -105,7 +105,7 @@ workbook.calculateFormula();
 workbook.save("sample.xlsx");
 ```
 
-In diesem Beispiel summieren wir die Werte in den Zellen A1 bis A10, schließen aber nur Zahlen größer als 5 ein.
+In diesem Beispiel summieren wir die Werte in den Zellen A1 bis A10, berücksichtigen dabei aber nur Zahlen größer als 5.
 
 ## Umgang mit Fehlern und Randfällen
 

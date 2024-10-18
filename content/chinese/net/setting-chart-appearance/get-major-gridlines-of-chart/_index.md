@@ -15,7 +15,7 @@ url: /zh/net/setting-chart-appearance/get-major-gridlines-of-chart/
 
 在深入学习本教程之前，请确保您已准备好一切：
 
--  Aspose.Cells for .NET：确保您已下载 Aspose.Cells 库并在项目中引用。您可以获取它[这里](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET：请确保您已下载 Aspose.Cells 库并在项目中引用。您可以获取它[这里](https://releases.aspose.com/cells/net/).
 - 开发环境：任何 .NET 开发环境都可以，但强烈推荐 Visual Studio，因为它有强大的支持和工具。
 - 对 C# 的基本了解：熟悉 C# 编程基础知识将会很有帮助，因为我们将编写一些代码。
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
-在这里，我们在单元格中输入一些随机值`A1`到`B3`。这些数据将作为我们图表的数据源。拥有有意义的数据进行可视化至关重要；否则，图表将只是没有上下文的漂亮线条！
+在这里，我们在单元格中输入一些随机值`A1`到`B3`。这些数据将作为我们图表的数据源。拥有有意义的数据进行可视化至关重要；否则，图表将只是没有背景的漂亮线条！
 
 ## 步骤 5：向工作表添加图表
 
@@ -120,7 +120,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-使用这些线条，我们可以为图表的各个部分增添色彩。如果您能让观众眼花缭乱，为什么要选择平淡无奇呢？
+通过这些线条，我们为图表的各个部分增添了一抹亮色。如果您能让观众眼花缭乱，何必满足于平淡无奇呢？
 
 ## 步骤 9：显示主要网格线
 
@@ -141,7 +141,7 @@ chart.ValueAxis.MajorGridLines.IsVisible = true;
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-此行将把您的作品保存为指定目录中的 Excel 文件。 将其视为在您的艺术作品上单击“保存”，确保它在那里供其他人欣赏（或供您再次查看！）。
+此行将把您的作品保存为指定目录中的 Excel 文件。 将其视为单击您的艺术作品上的“保存”，确保它在那里供其他人欣赏（或供您再次查看！）。
 
 ## 结论
 

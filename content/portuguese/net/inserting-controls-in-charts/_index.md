@@ -1,7 +1,7 @@
 ---
 title: Inserindo controles em gráficos
 linktitle: Inserindo controles em gráficos
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra os tutoriais do Aspose.Cells para .NET sobre como inserir controles em gráficos, incluindo adição de rótulos, imagens, caixas de texto e caixas de seleção para aprimorar a visualização de dados.
 type: docs
 weight: 20
@@ -21,7 +21,7 @@ Quer adicionar contexto extra aos seus gráficos do Excel? Os rótulos podem faz
 
 Uma imagem vale mais que mil palavras, certo? Isso se aplica também aos gráficos do Excel. Com o Aspose.Cells para .NET, adicionar imagens aos seus gráficos é tão fácil quanto inserir clipart em um documento do Word. As imagens podem ajudar a tornar seus gráficos mais atraentes visualmente, gerando engajamento com os dados que você está apresentando. Não importa se você está apresentando dados financeiros ou números de vendas, adicionar imagens relevantes ajuda a conectar os dados à narrativa.
 
-Curioso sobre como isso funciona? Confira o[Adicionar imagem ao gráfico](./add-picture-to-chart/) tutorial.
+ Curioso sobre como isso funciona? Confira o[Adicionar imagem ao gráfico](./add-picture-to-chart/) tutorial.
 
 ## Inserindo caixas de texto e caixas de seleção
 

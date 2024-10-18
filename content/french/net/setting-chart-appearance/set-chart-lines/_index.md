@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Nous allons maintenant créer un objet classeur, qui sert de conteneur pour votre feuille de calcul.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 

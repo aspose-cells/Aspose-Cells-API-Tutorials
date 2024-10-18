@@ -43,7 +43,7 @@ Na początek musisz utworzyć wystąpienie skoroszytu. To podstawa naszego pliku
 Workbook wb = new Workbook();
 ```
 
- Poprzez inicjalizację`Workbook`utworzyliśmy w pamięci nowy plik Excela, gotowy do edycji.
+ Poprzez inicjalizację`Workbook`, utworzyliśmy w pamięci nowy plik Excela, gotowy do edycji.
 
 ## Krok 2: Skonfiguruj ustawienia skoroszytu
 
@@ -56,7 +56,7 @@ wb.Settings.CheckCustomNumberFormat = true;
 
  Ustawienie`CheckCustomNumberFormat` Do`true` instruuje Aspose.Cells, aby zgłaszał wyjątki za każdym razem, gdy zastosowany zostanie nieprawidłowy format, co pozwala na lepszą obsługę błędów.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Po skonfigurowaniu skoroszytu możesz uzyskać dostęp do pierwszego arkusza, w którym będą przechowywane Twoje dane.
 
@@ -107,7 +107,7 @@ catch (Exception ex)
 }
 ```
 
-W tym bloku kodu próbujemy ustawić nieprawidłowy niestandardowy format liczb. Ponieważ włączyliśmy rzucanie wyjątków w ustawieniach skoroszytu, spowoduje to wychwycenie wszelkich problemów i wydrukowanie komunikatu o błędzie.
+tym bloku kodu próbujemy ustawić nieprawidłowy niestandardowy format liczb. Ponieważ włączyliśmy rzucanie wyjątków w ustawieniach skoroszytu, spowoduje to wychwycenie wszelkich problemów i wydrukowanie komunikatu o błędzie.
 
 ## Krok 7: Sprawdź poprawność wykonania
 
@@ -121,7 +121,7 @@ Dzięki temu możesz sprawdzić, czy sprawdzenie zostało wykonane, niezależnie
 
 ## Wniosek
 
-Eksploracja możliwości Aspose.Cells dla .NET zapewnia wszechstronny zestaw narzędzi do programowego zarządzania plikami Excel. W tym samouczku przeszliśmy przez praktyczną metodę sprawdzania wartości komórek względem określonych niestandardowych formatów liczb, w tym obsługi błędów. Funkcje Aspose.Cells nie tylko upraszczają manipulacje w Excelu, ale także zwiększają produktywność dzięki solidnemu zarządzaniu błędami.
+Eksploracja możliwości Aspose.Cells dla .NET zapewnia wszechstronny zestaw narzędzi do zarządzania plikami Excel programowo. W tym samouczku przeszliśmy przez praktyczną metodę sprawdzania wartości komórek względem określonych niestandardowych formatów liczb, w tym obsługi błędów. Funkcje Aspose.Cells nie tylko upraszczają manipulacje w Excelu, ale także zwiększają produktywność dzięki solidnemu zarządzaniu błędami.
 
 ## Najczęściej zadawane pytania
 

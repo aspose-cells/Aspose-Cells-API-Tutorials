@@ -88,12 +88,12 @@ book.Save(dataDir + "output.xls");
 
 ## Çözüm
 
-İşte oldu! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında bölmeleri nasıl böleceğinizi öğrendiniz. Artık sonsuz kaydırma veya verilerinizin izini kaybetme yok. Bu yöntem, büyük Excel dosyalarını işlemeyi çok daha az bunaltıcı ve çok daha verimli hale getiriyor. Bölmeleri bölme yeteneğiyle, artık karmaşık elektronik tablolarla çalışırken kritik veri noktalarını takip edebilirsiniz.
+İşte karşınızda! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında bölmeleri nasıl böleceğinizi öğrendiniz. Artık sonsuz kaydırma veya verilerinizin izini kaybetme yok. Bu yöntem, büyük Excel dosyalarını işlemeyi çok daha az bunaltıcı ve çok daha verimli hale getiriyor. Bölmeleri bölme yeteneğiyle, artık karmaşık elektronik tablolarla çalışırken kritik veri noktalarını takip edebilirsiniz.
 
 ## SSS
 
 ### İkiden fazla camı bölebilir miyim?  
- Evet, farklı etkin hücreleri belirterek ve`Split()` Yöntem.
+ Evet, farklı etkin hücreleri belirterek ve`Split()` yöntem.
 
 ### Camları bölmek ile dondurmak arasındaki fark nedir?  
 Bölmeleri bölmek, her iki bölmede de bağımsız olarak kaydırma yapmanızı sağlar. Bölmeleri dondurmak, kaydırma sırasında görünür kalmaları için başlıkları veya belirli satırları/sütunları kilitler.

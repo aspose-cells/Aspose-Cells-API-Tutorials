@@ -16,7 +16,7 @@ Excel est un outil polyvalent pour la manipulation de données, mais l'intégrat
 
 ## 2. Configuration d'Aspose.Cells pour Java
 
- Avant de vous lancer dans l'intégration des données, vous devez configurer Aspose.Cells pour Java. Vous pouvez télécharger la bibliothèque à partir de[ici](https://releases.aspose.com/cells/java/)Suivez les instructions d'installation pour commencer.
+ Avant de vous lancer dans l'intégration des données, vous devez configurer Aspose.Cells pour Java. Vous pouvez télécharger la bibliothèque à partir de[ici](https://releases.aspose.com/cells/java/)Suivez les instructions d’installation pour commencer.
 
 ## 3. Chargement des données dans Excel
 

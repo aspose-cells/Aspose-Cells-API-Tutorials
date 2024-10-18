@@ -63,11 +63,11 @@ Dòng này trỏ đến thư mục chứa tệp Excel. Hãy đảm bảo điều
 Tiếp theo, chúng ta sẽ tải sổ làm việc của mình. Điều này giống như mở tệp Excel của bạn ở chế độ nền, cho phép chúng ta đọc và thao tác nội dung của tệp.
 
 ```csharp
-//Tải sổ làm việc
+// Tải sổ làm việc
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
- Đây là những gì đang xảy ra: chúng tôi đang tạo một phiên bản của`Workbook` lớp và chuyển đường dẫn đến tệp Excel của chúng tôi. Nếu mọi thứ diễn ra suôn sẻ, sổ làm việc của bạn hiện đã mở để kinh doanh!
+Đây là những gì đang xảy ra: chúng tôi đang tạo một phiên bản của`Workbook` lớp và chuyển đường dẫn đến tệp Excel của chúng tôi. Nếu mọi thứ diễn ra suôn sẻ, sổ làm việc của bạn hiện đã mở để kinh doanh!
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Bước 4: Tạo một phạm vi
 
- Bây giờ, chúng ta sẽ định nghĩa một phạm vi trong bảng tính. Một phạm vi cho phép chúng ta nhắm mục tiêu vào các ô cụ thể cho các hoạt động của mình. Trong trường hợp này, chúng ta sẽ tạo một phạm vi từ`A1` ĐẾN`A7`, chứa các siêu liên kết của chúng tôi.
+ Bây giờ, chúng ta sẽ định nghĩa một phạm vi trong bảng tính. Một phạm vi cho phép chúng ta nhắm mục tiêu vào các ô cụ thể cho các hoạt động của mình. Trong trường hợp này, chúng ta sẽ tạo một phạm vi từ`A1` ĐẾN`A7`, trong đó có chứa các siêu liên kết của chúng tôi.
 
 ```csharp
 // Tạo một phạm vi A1:B3
@@ -96,7 +96,7 @@ Với phạm vi này, chúng ta có thể dễ dàng lấy các siêu liên kế
 Đây là phần thú vị: trích xuất các siêu liên kết! Chúng ta sẽ trích xuất các siêu liên kết từ phạm vi đã xác định.
 
 ```csharp
-// Nhận siêu liên kết trong phạm vi
+//Nhận siêu liên kết trong phạm vi
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 

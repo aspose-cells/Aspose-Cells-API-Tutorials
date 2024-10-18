@@ -16,7 +16,7 @@ url: /hi/java/advanced-excel-charts/chart-interactivity/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 - जावा विकास पर्यावरण
-- Aspose.Cells for Java लाइब्रेरी (डाउनलोड करें[यहाँ](https://releases.aspose.com/cells/java/)
+-  Aspose.Cells for Java लाइब्रेरी (डाउनलोड करें[यहाँ](https://releases.aspose.com/cells/java/)
 
 ## चरण 1: अपना जावा प्रोजेक्ट सेट अप करना
 

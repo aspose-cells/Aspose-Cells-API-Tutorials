@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## Passaggio 2: creare un oggetto cartella di lavoro
 Successivamente, creeremo una nuova cartella di lavoro Excel. Questa è la tua tela bianca su cui puoi iniziare ad aggiungere funzionalità.
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
  Pensa al`Workbook` come un nuovo quaderno dove puoi scrivere tutto ciò di cui hai bisogno. È vuoto adesso, pronto per il tuo contributo!

@@ -65,7 +65,7 @@ public class ExcelFileManager {
     public static void openExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook(filename);
-            // Führen Sie nach Bedarf Vorgänge an der Arbeitsmappe aus
+            // Führen Sie nach Bedarf Vorgänge an der Arbeitsmappe durch
             FileAccessLogger.logAccess(username, filename, "opened");
         } catch (Exception e) {
             e.printStackTrace();
@@ -75,7 +75,7 @@ public class ExcelFileManager {
     public static void saveExcelFile(String filename, String username) {
         try {
             Workbook workbook = new Workbook();
-            // Führen Sie nach Bedarf Vorgänge an der Arbeitsmappe aus
+            // Führen Sie nach Bedarf Vorgänge an der Arbeitsmappe durch
             workbook.save(filename, FileFormatType.XLSX);
             FileAccessLogger.logAccess(username, filename, "saved");
         } catch (Exception e) {

@@ -35,7 +35,7 @@ string outputDir = "Your Document Directory";
 ## 2. lépés: Hozzon létre egy munkafüzet-objektumot
 Ezután létrehozunk egy új Excel-munkafüzetet. Ez az üres vászon, ahol megkezdheti a funkciók hozzáadását.
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
  Gondolj a`Workbook` mint egy új jegyzetfüzet, ahová mindent leírhat, amire szüksége van. Jelenleg üres, készen áll a bevitelre!

@@ -10,11 +10,11 @@ url: /es/java/excel-data-analysis/
 
 ## Introducción al análisis de datos de Excel con Aspose.Cells para Java
 
-En el ámbito del análisis de datos, Excel sigue siendo una herramienta fundamental para profesionales de diversas industrias. Con las sólidas capacidades de Aspose.Cells para Java, los desarrolladores de Java pueden llevar su análisis de datos a nuevas alturas. Este conjunto de API con numerosas funciones le permite procesar, manipular y extraer información de las hojas de cálculo de Excel con facilidad.
+En el ámbito del análisis de datos, Excel sigue siendo una herramienta fundamental para los profesionales de diversas industrias. Con las sólidas capacidades de Aspose.Cells para Java, los desarrolladores de Java pueden llevar su análisis de datos a nuevas alturas. Este conjunto de API con numerosas funciones le permite procesar, manipular y extraer información de las hojas de cálculo de Excel con facilidad.
 
 ## Tutoriales paso a paso para desarrolladores de Java
 
-Nuestros tutoriales completos lo llevan a un viaje por el mundo del análisis de datos de Excel con Aspose.Cells para Java. Ya sea que sea un desarrollador de Java experimentado o recién esté comenzando, nuestras guías paso a paso le asegurarán que comprenda los conceptos básicos. Desde la extracción y transformación de datos hasta los cálculos y la visualización avanzados, encontrará tutoriales que se adaptan a todos los niveles de experiencia.
+Nuestros tutoriales completos lo llevan a un viaje por el mundo del análisis de datos de Excel con Aspose.Cells para Java. Ya sea que sea un desarrollador de Java experimentado o que recién esté comenzando, nuestras guías paso a paso le asegurarán que comprenda los conceptos básicos. Desde la extracción y transformación de datos hasta los cálculos y la visualización avanzados, encontrará tutoriales que se adaptan a todos los niveles de experiencia.
 
 ## Dominar el conocimiento de los datos hoy
 
@@ -24,7 +24,7 @@ Si domina el análisis de datos de Excel con Aspose.Cells para Java, obtendrá u
 ### [Funciones de análisis de datos de Excel](./data-analysis-functions-excel/)
 Descubra el poder del análisis de datos en Excel con Aspose.Cells para Java. Aprenda a ordenar, filtrar, realizar cálculos y crear tablas dinámicas.
 ### [Análisis avanzado de datos en Excel](./advanced-data-analysis-excel/)
-Domine el análisis avanzado de datos en Excel con Aspose.Cells para Java. Aprenda paso a paso con ejemplos de código fuente.
+Domine el análisis de datos avanzado en Excel con Aspose.Cells para Java. Aprenda paso a paso con ejemplos de código fuente.
 ### [Análisis de datos en Excel](./data-analysis-excel-pivot/)
 Aprenda el análisis de datos en Excel con Aspose.Cells para Java: guía paso a paso para un uso eficaz de la tabla dinámica.
 ### [Gráficos de Excel para análisis de datos](./data-analysis-excel-charts/)

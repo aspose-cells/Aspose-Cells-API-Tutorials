@@ -2,7 +2,7 @@
 title: Excel'de Köprülerle Çalışma
 linktitle: Excel'de Köprülerle Çalışma
 second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET ile Excel'deki köprü metinlerinin büyüsünü açığa çıkarın. E-tablolarınızı etkili bir şekilde geliştirmenin ne kadar basit olduğunu keşfedin.
+description: Aspose.Cells for .NET ile Excel'deki hiper bağlantıların büyüsünü açığa çıkarın. Elektronik tablolarınızı etkili bir şekilde geliştirmenin ne kadar basit olduğunu keşfedin.
 type: docs
 weight: 20
 url: /tr/net/excel-working-with-hyperlinks/

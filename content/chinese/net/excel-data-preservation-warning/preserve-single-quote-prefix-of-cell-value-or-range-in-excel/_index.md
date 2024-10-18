@@ -125,7 +125,7 @@ flag.QuotePrefix = false;
 //创建由单个单元格 A1 组成的区域
 Range rng = ws.Cells.CreateRange("A1");
 
-//将样式应用于范围
+//将样式应用到范围
 rng.ApplyStyle(st, flag);
 ```
 
@@ -157,7 +157,7 @@ st = wb.CreateStyle();
 flag = new StyleFlag();
 flag.QuotePrefix = true;
 
-//将样式应用于范围
+//将样式应用到范围
 rng.ApplyStyle(st, flag);
 ```
 
@@ -179,7 +179,7 @@ Console.WriteLine("Quote Prefix of Cell A1: " + st.QuotePrefix);
 
 ## 结论
 
-就这样！通过以下步骤，您学会了如何在使用 Aspose.Cells for .NET 时保留单元格值中的单引号前缀。虽然这看起来像是一个小细节，但在许多应用程序中，维护 Excel 中数据的完整性至关重要，尤其是在处理标识符或格式化字符串时。 
+就这样！通过遵循这些步骤，您学会了如何在使用 Aspose.Cells for .NET 时保留单元格值中的单引号前缀。虽然这看起来像是一个小细节，但在许多应用程序中，维护 Excel 中数据的完整性至关重要，尤其是在处理标识符或格式化字符串时。 
 
 ## 常见问题解答
 

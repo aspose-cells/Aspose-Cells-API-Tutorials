@@ -53,7 +53,7 @@ Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 
 ## Krok 3: Pobierz panele zadań rozszerzeń internetowych
 
- Po załadowaniu skoroszytu możesz teraz uzyskać dostęp do`WebExtensionTaskPanes` kolekcja. Daje ci to niezbędny dostęp do rozszerzeń internetowych osadzonych w skoroszycie.
+ Po załadowaniu skoroszytu możesz uzyskać dostęp do`WebExtensionTaskPanes` kolekcja. Daje ci to niezbędny dostęp do rozszerzeń internetowych osadzonych w skoroszycie.
 
 ```csharp
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
@@ -62,7 +62,7 @@ Tutaj pobieramy wszystkie panele zadań powiązane z rozszerzeniami internetowym
 
 ## Krok 4: Przejrzyj panele zadań
 
- Gdy masz już kolekcję, następnym logicznym krokiem jest przejście przez każdy panel zadań i pobranie jego właściwości. Używając`foreach` pętla to doskonały sposób na płynne poruszanie się po każdym panelu zadań.
+ Gdy masz już kolekcję, następnym logicznym krokiem jest przejście przez każdy panel zadań i pobranie jego właściwości. Używając`foreach` Pętla to doskonały sposób na płynne poruszanie się po każdym panelu zadań.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
@@ -105,7 +105,7 @@ Console.WriteLine("AccessWebExtensionInformation executed successfully.");
 
 Udało Ci się! Udało Ci się uzyskać dostęp i wyświetlić informacje o rozszerzeniach internetowych w skoroszycie programu Excel przy użyciu Aspose.Cells dla .NET. Nie tylko nauczyłeś się poruszać po panelach zadań, ale także wyposażyłeś się w wiedzę, aby dalej manipulować tymi rozszerzeniami. 
 
-Pamiętaj, że to tylko wierzchołek góry lodowej, jeśli chodzi o funkcjonalności Aspose.Cells. Biblioteka jest ogromna i pozwala na o wiele więcej niż tylko dostęp do rozszerzeń internetowych. 
+Pamiętaj, że to tylko czubek góry lodowej, jeśli chodzi o funkcjonalności Aspose.Cells. Biblioteka jest ogromna i pozwala na o wiele więcej niż tylko dostęp do rozszerzeń internetowych. 
 
 ## Najczęściej zadawane pytania
 

@@ -51,7 +51,7 @@ Gefeliciteerd! U hebt succesvol toegang gekregen tot een specifiek benoemd berei
 ## Veelgestelde vragen
 ### Wat is Aspose.Cells voor .NET?  
 Aspose.Cells voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en converteren zonder dat ze Microsoft Excel nodig hebben.
-### Hoe kan ik Aspose.Cells gratis uitproberen?  
+### Hoe kan ik een gratis proefversie van Aspose.Cells krijgen?  
  kunt een gratis proefversie van Aspose.Cells downloaden van de website[hier](https://releases.aspose.com/).
 ### Kan ik toegang krijgen tot meerdere benoemde bereiken?  
  Ja, u kunt toegang krijgen tot meerdere benoemde bereiken door`GetRangeByName` meerdere keren, telkens met een andere bereiknaam.

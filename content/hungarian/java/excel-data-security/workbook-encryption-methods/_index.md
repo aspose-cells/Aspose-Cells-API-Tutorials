@@ -79,7 +79,7 @@ Az Excel-munkafüzetek titkosítással történő védelme kulcsfontosságú lé
 
 ### Mennyire biztonságos a munkafüzet titkosítása az Aspose.Cells for Java programban?
 
-Az Aspose.Cells for Java erős titkosítási algoritmusokat, például az AES-128-at használ a munkafüzetek védelmére, magas szintű biztonságot garantálva.
+Az Aspose.Cells for Java erős titkosítási algoritmusokat, például az AES-128-at használ a munkafüzetek védelmére, ezzel biztosítva a magas szintű biztonságot.
 
 ### Módosíthatom a titkosítási módszert a munkafüzet titkosítása után?
 

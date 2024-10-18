@@ -35,7 +35,7 @@ Så här gör du:
 
 ### Grundläggande Excel-fil för testning
 
-Du behöver ett exempel på Excel-fil att arbeta med. Du kan skapa en enkel Excel-fil med slumpmässiga landsnamn och deras koder.
+Du behöver ett exempel på en Excel-fil att arbeta med. Du kan skapa en enkel Excel-fil med slumpmässiga landsnamn och deras koder.
 
 ## Importera paket
 
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Steg 2: Ladda källfilen för Excel
 
- Därefter laddar vi Excel-filen som innehåller de data du vill sortera. Detta görs genom att skapa en instans av`Workbook` klass och skickar sökvägen till din källfil.
+Därefter laddar vi Excel-filen som innehåller de data du vill sortera. Detta görs genom att skapa en instans av`Workbook` klass och skickar sökvägen till din källfil.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");

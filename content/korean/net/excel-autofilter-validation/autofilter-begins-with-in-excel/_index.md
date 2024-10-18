@@ -18,7 +18,7 @@ url: /ko/net/excel-autofilter-validation/autofilter-begins-with-in-excel/
 1. 개발 환경: .NET 개발 환경에 익숙해지세요. 이는 Visual Studio 또는 원하는 다른 IDE일 수 있습니다.
 2.  Aspose.Cells for .NET: Aspose.Cells for .NET을 설치해야 합니다. 아직 설치하지 않았다면 편리하게 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본 지식: C#에 대한 기본적인 이해와 .NET 라이브러리를 사용하는 방법을 이해하면 원활하게 따라갈 수 있습니다.
-4.  샘플 데이터: Excel 파일이 있어야 하며, 이름이 다음과 같아야 합니다.`sourseSampleCountryNames.xlsx`, 지정된 소스 디렉토리에 있습니다. 이 파일에는 필터링할 데이터가 포함됩니다.
+4.  샘플 데이터: Excel 파일이 있어야 하며, 다음과 같은 이름이 지정되어야 합니다.`sourseSampleCountryNames.xlsx`, 지정된 소스 디렉토리에 있습니다. 이 파일에는 필터링할 데이터가 포함됩니다.
 5.  라이센스: 전체 기능을 사용하려면 이 라이센스를 취득하는 것을 고려하세요.[링크](https://purchase.aspose.com/buy) . 기능을 테스트하려면 요청할 수 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/).
 
 다 준비됐어? 가자!
@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 이제 작업하려는 특정 워크시트에 액세스해야 합니다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- 설명:`Worksheets` 컬렉션을 사용하면 개별 시트에 액세스할 수 있습니다. 사용`[0]` 일반적으로 단일 시트 파일로 작업할 때 사용되는 관행인 Excel 파일의 첫 번째 워크시트를 참조합니다.
+설명:`Worksheets` 컬렉션을 사용하면 개별 시트에 액세스할 수 있습니다. 사용`[0]` 일반적으로 단일 시트 파일로 작업할 때 사용되는 일반적인 관행인 Excel 파일의 첫 번째 워크시트를 참조합니다.
 
 ## 4단계: 자동 필터 설정
 
@@ -82,7 +82,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- 설명:`AutoFilter.Range` 속성을 사용하면 필터링할 행을 지정할 수 있습니다. 이 경우, 데이터를 보관하는 것으로 가정되는 A1~A18 범위 내의 행을 필터링합니다.
+설명:`AutoFilter.Range` 속성을 사용하면 필터링할 행을 지정할 수 있습니다. 이 경우, 데이터를 보관하는 것으로 가정되는 A1~A18 범위 내의 행을 필터링합니다.
 
 ## 5단계: 필터 조건 적용
 
@@ -93,7 +93,7 @@ worksheet.AutoFilter.Range = "A1:A18";
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- 설명:`Custom` 메서드는 필터링 로직을 정의합니다. 첫 번째 인수(`0` )는 첫 번째 열(A)을 기준으로 필터링하고 있음을 나타냅니다.`FilterOperatorType.BeginsWith`"Ba"로 시작하는 행을 찾기 위한 조건을 지정합니다.
+설명:`Custom` 메서드는 필터링 로직을 정의합니다. 첫 번째 인수(`0` )는 첫 번째 열(A)을 기준으로 필터링하고 있음을 나타냅니다.`FilterOperatorType.BeginsWith`"Ba"로 시작하는 행을 찾기 위한 조건을 지정합니다.
 
 ## 6단계: 필터 새로 고침
 
@@ -115,7 +115,7 @@ worksheet.AutoFilter.Refresh();
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- 설명:`Save` 방법은 수정된 Workbook을 지정된 출력 경로에 다시 씁니다. 이는 정의된 필터를 새 파일에 쓰는 것에 속하므로 원래 데이터는 그대로 유지됩니다.
+설명:`Save` 방법은 수정된 Workbook을 지정된 출력 경로에 다시 씁니다. 이는 정의된 필터를 새 파일에 쓰는 것에 속하므로 원래 데이터는 그대로 유지됩니다.
 
 ## 8단계: 출력 확인
 

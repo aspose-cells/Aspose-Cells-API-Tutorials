@@ -81,9 +81,9 @@ for (int i = 21; i < 41; i++)
 
 Ici, nous utilisons des nombres aléatoires pour simuler des données, mais dans les applications réelles, vous pouvez les remplir avec des valeurs réelles de votre ensemble de données.
 
-## Étape 3 : ajouter le graphique à la feuille de calcul
+## Étape 3 : Ajoutez le graphique à la feuille de calcul
 
-Ensuite, nous ajoutons le graphique à la feuille de calcul et choisissons le type – dans ce cas, un graphique linéaire avec des marqueurs de données.
+Ensuite, nous ajoutons le graphique à la feuille de calcul et choisissons le type – dans ce cas, un graphique en ligne avec des marqueurs de données.
 
 ```csharp
 // Ajouter un graphique à la feuille de calcul

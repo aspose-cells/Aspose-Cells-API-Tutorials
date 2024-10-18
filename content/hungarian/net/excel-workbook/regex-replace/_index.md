@@ -16,7 +16,7 @@ Belefáradt abba, hogy órákat tölt az Excel-táblázatok manuális apróléko
 Mielőtt belevágnánk a kódolási folyamatba, győződjünk meg arról, hogy jól felkészültünk az előttünk álló utazásra.
 
 1. .NET-keretrendszer: Győződjön meg arról, hogy be van állítva .NET-környezet. Legyen szó .NET Core-ról vagy .NET-keretrendszerről, jónak kell lennie.
-2.  Aspose.Cells Library: Ez a könyvtár kulcsa a hatékony táblázatkezelési műveletek feloldásához. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells Library: Ez a könyvtár kulcsa a hatékony táblázatkezelési műveletek feloldásához. Megteheti[töltse le itt](https://releases.aspose.com/cells/net/).
 3. Egy IDE: Használja kedvenc integrált fejlesztőkörnyezetét (IDE), például a Visual Studio-t, amely sokkal gördülékenyebbé teszi a kódolási élményt.
 4. Alapvető programozási ismeretek: A C# és a reguláris kifejezések ismerete előnyt jelent.
 

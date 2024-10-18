@@ -35,7 +35,7 @@ Nu we de basis hebben besproken, kunnen we verder met het spannende gedeelte: he
 
  De eerste stap in dit proces is het creëren van een`Workbook` object, dat het Excel-bestand vertegenwoordigt dat u wilt wijzigen. In dit geval laden we een bestand uit een directory. Dit is uw canvas, het Excel-blad waarop u uw magie zult uitvoeren.
 
-Voordat we panelen kunnen splitsen, hebben we een werkmap nodig om mee te werken! Deze stap is net zo essentieel als het openen van een boek voordat je begint met lezen.
+Voordat we panelen kunnen splitsen, hebben we een werkboek nodig om mee te werken! Deze stap is net zo essentieel als het openen van een boek voordat je begint met lezen.
 
 ```csharp
 // Het pad naar de documentenmap
@@ -99,9 +99,9 @@ En daar heb je het! Je hebt net geleerd hoe je panelen in een Excel-werkblad kun
 Door panelen te splitsen kunt u onafhankelijk van elkaar in beide panelen scrollen. Door panelen te bevriezen worden de headers of specifieke rijen/kolommen vergrendeld, zodat ze zichtbaar blijven tijdens het scrollen.
 
 ### Kan ik de scheur verwijderen nadat ik het heb aangebracht?  
-Ja, u kunt de splitsing ongedaan maken door de werkmap te sluiten en opnieuw te openen, of door deze programmatisch te resetten.
+Ja, u kunt de splitsing ongedaan maken door de werkmap te sluiten en opnieuw te openen, of door deze programmatisch opnieuw in te stellen.
 
-### Werkt het splitsen van deelvensters hetzelfde voor verschillende Excel-bestandsindelingen (XLS, XLSX)?  
+### Werkt het splitsen van deelvensters hetzelfde voor verschillende Excel-bestandsformaten (XLS, XLSX)?  
  Ja, de`Split()` Deze methode werkt voor zowel XLS- als XLSX-formaten.
 
 ### Kan ik Aspose.Cells gebruiken zonder licentie?  

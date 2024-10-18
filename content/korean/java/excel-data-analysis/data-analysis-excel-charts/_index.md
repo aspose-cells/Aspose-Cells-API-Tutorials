@@ -48,7 +48,7 @@ QueryTable queryTable = workbook.getWorksheets().get(0).getQueryTables().addQuer
 
 ## 데이터 조작
 
-데이터가 로드되면 Aspose.Cells for Java를 사용하여 조작할 수 있습니다. 정렬, 필터링, 데이터 변환과 같은 작업을 수행하여 분석을 위해 데이터를 준비합니다.
+데이터가 로드되면 Java용 Aspose.Cells를 사용하여 조작할 수 있습니다. 정렬, 필터링, 데이터 변환과 같은 작업을 수행하여 분석을 위해 데이터를 준비합니다.
 
 ```java
 // 특정 열로 데이터 정렬
@@ -104,7 +104,7 @@ workbook.save("data_analysis_report.xlsx", SaveFormat.XLSX);
 
 ### Java에서 Aspose.Cells를 사용하는 데 라이선스 요구 사항이 있습니까?
 
-네, Aspose.Cells for Java는 상업적 사용을 위해 유효한 라이선스가 필요합니다. Aspose 웹사이트에서 라이선스를 얻을 수 있습니다.
+네, Aspose.Cells for Java는 상업적 사용에 유효한 라이선스가 필요합니다. Aspose 웹사이트에서 라이선스를 얻을 수 있습니다.
 
 ### Aspose.Cells for Java를 사용하여 어떤 유형의 Excel 차트를 만들 수 있나요?
 
@@ -112,4 +112,4 @@ Aspose.Cells for Java는 막대형 차트, 선형 차트, 원형 차트 등 다�
 
 ### Aspose.Cells for Java에 대한 추가 리소스와 튜토리얼은 어디에서 찾을 수 있나요?
 
- Java용 Aspose.Cells에 대한 추가 리소스 및 튜토리얼은 다음 설명서를 참조하세요.[여기](https://reference.aspose.com/cells/java/).
+ Java용 Aspose.Cells에 대한 추가 리소스 및 자습서는 다음 설명서를 참조하세요.[여기](https://reference.aspose.com/cells/java/).

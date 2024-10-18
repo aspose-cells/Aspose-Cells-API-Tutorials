@@ -2,7 +2,7 @@
 title: Crea grafico a linee
 linktitle: Crea grafico a linee
 second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Crea grafici lineari sbalorditivi usando Aspose.Cells per .NET. Segui la nostra guida passo passo per visualizzare i tuoi dati in modo efficace.
+description: Crea grafici a linee sbalorditivi usando Aspose.Cells per .NET. Segui la nostra guida passo passo per visualizzare i tuoi dati in modo efficace.
 type: docs
 weight: 11
 url: /it/net/manipulating-chart-types/create-line-chart/
@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Poi, dobbiamo creare una nuova istanza di cartella di lavoro. Pensa alla cartella di lavoro come alla tela su cui fluirà la tua creatività. 
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 Questa riga inizializza una nuova cartella di lavoro che conterrà tutti i dati e gli elementi visivi.
@@ -95,7 +95,7 @@ Ora, introdurremo il nostro grafico a linee nel foglio di lavoro. È qui che i t
 // Aggiungere un grafico al foglio di lavoro
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Line, 5, 0, 25, 10);
 ```
-Qui aggiungiamo un grafico a linee nella posizione specificata. I parametri (5, 0, 25, 10) definiscono la posizione e la dimensione del grafico all'interno del foglio di lavoro.
+Qui, aggiungiamo un grafico a linee nella posizione specificata. I parametri (5, 0, 25, 10) definiscono la posizione e la dimensione del grafico all'interno del foglio di lavoro.
 
 ## Passaggio 6: accedere alla nuova istanza del grafico
 

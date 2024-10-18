@@ -15,7 +15,7 @@ Mari kita mulai dengan dasar-dasar penggabungan dan pemisahan sel di Excel. Terk
 
 Sekarang, Anda mungkin bertanya-tanya bagaimana Aspose.Cells menyederhanakan proses ini. Aspose.Cells untuk .NET adalah API canggih yang memungkinkan pengembang berinteraksi dengan file Excel dengan lancar. Bayangkan memiliki pisau lipat untuk operasi Excel; pada dasarnya itulah fungsi alat ini. Alat ini memungkinkan Anda menggabungkan atau memisahkan sel hanya dengan beberapa baris kode! Selain itu, Anda dapat memanipulasi buku kerja secara terprogram—seperti seorang maestro yang memimpin orkestra data. 
 
- Dalam tutorial kami tentang[memisahkan sel yang digabungkan di Excel](./unmerge-merged-cells/), kami uraikan prosesnya menjadi beberapa langkah yang mudah dipahami. Kami tunjukkan cara mengidentifikasi sel yang digabungkan menggunakan Aspose.Cells, dan kami memandu Anda melalui kode yang diperlukan untuk memisahkannya. Ini sangat berguna saat Anda perlu melakukan penyesuaian data berskala besar atau saat Anda hanya membersihkan spreadsheet Anda. 
+ Dalam tutorial kami tentang[memisahkan sel yang digabungkan di Excel](./unmerge-merged-cells/), kami uraikan prosesnya menjadi beberapa langkah yang mudah dipahami. Kami tunjukkan cara mengidentifikasi sel yang digabungkan menggunakan Aspose.Cells, dan kami memandu Anda melalui kode yang diperlukan untuk memisahkannya. Ini sangat berguna saat Anda perlu melakukan penyesuaian data berskala besar atau saat Anda hanya membersihkan spreadsheet. 
 
 ## Menggabungkan dan Memisahkan Sel dalam Tutorial Excel
 ### [Memisahkan Sel yang Digabung di Excel](./unmerge-merged-cells/)

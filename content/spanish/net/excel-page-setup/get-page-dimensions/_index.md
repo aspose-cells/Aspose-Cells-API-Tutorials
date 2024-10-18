@@ -69,7 +69,7 @@ Aquí, simplemente creamos un nuevo libro de trabajo que contendrá los datos y 
 
 ## Paso 2: Acceda a la primera hoja de trabajo
 
-Después de crear una instancia del libro de trabajo, querrá acceder a la primera hoja de trabajo. Cada libro de trabajo puede contener varias hojas de trabajo, pero para esta demostración, nos ceñiremos a la primera.
+Después de crear una instancia del libro de trabajo, querrá acceder a la primera hoja de trabajo. Cada libro de trabajo puede contener varias hojas de trabajo, pero para esta demostración, nos limitaremos a la primera.
 
 ```csharp
 Worksheet sheet = book.Worksheets[0];
@@ -123,7 +123,7 @@ Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 
 ## Conclusión
 
-¡Felicitaciones! Ya aprendió a recuperar las dimensiones de página para distintos tamaños de papel con Aspose.Cells para .NET. Ya sea que esté desarrollando herramientas de generación de informes, hojas de cálculo automatizadas o funciones de análisis de datos, poder obtener las dimensiones de página para distintos formatos puede resultar muy útil. 
+¡Felicitaciones! Ya aprendió a recuperar las dimensiones de página para distintos tamaños de papel con Aspose.Cells para .NET. Ya sea que esté desarrollando herramientas de informes, hojas de cálculo automatizadas o funciones de análisis de datos, poder obtener las dimensiones de página para distintos formatos puede resultar muy útil. 
 
 ## Preguntas frecuentes
 

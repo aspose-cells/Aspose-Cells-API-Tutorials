@@ -10,7 +10,7 @@ url: /ko/java/basic-excel-functions/excel-text-functions-demystified/
 
 # Java용 Aspose.Cells를 사용하여 Excel 텍스트 함수의 비밀 해제
 
-이 튜토리얼에서는 Aspose.Cells for Java API를 사용하여 Excel에서 텍스트 조작의 세계를 탐구합니다. 숙련된 Excel 사용자이든 방금 시작하든 텍스트 함수를 이해하면 스프레드시트 기술이 크게 향상될 수 있습니다. 다양한 텍스트 함수를 살펴보고 실제 예를 들어 사용법을 설명합니다.
+이 튜토리얼에서는 Aspose.Cells for Java API를 사용하여 Excel에서 텍스트 조작의 세계를 탐구합니다. 숙련된 Excel 사용자이든 방금 시작하든, 텍스트 함수를 이해하면 스프레드시트 기술이 크게 향상될 수 있습니다. 다양한 텍스트 함수를 살펴보고 실제 예를 들어 사용법을 설명합니다.
 
 ## 시작하기
 

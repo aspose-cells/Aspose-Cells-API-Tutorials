@@ -17,7 +17,7 @@ Antes de nos aprofundarmos nas funções do Excel, vamos começar configurando s
 
 ## Explorando funções básicas do Excel:
 
-Nossos tutoriais abrangentes o guiarão pelas funções essenciais do Excel, de SUM e AVERAGE a instruções IF e classificação de dados. Cada tópico é explicado passo a passo, com exemplos práticos e trechos de código usando Aspose.Cells para Java. Seja você um iniciante ou esteja procurando atualizar suas habilidades, nossos tutoriais fornecem o conhecimento necessário para se destacar na manipulação de planilhas.
+Nossos tutoriais abrangentes o guiarão pelas funções essenciais do Excel, de SOMA e MÉDIA a instruções SE e classificação de dados. Cada tópico é explicado passo a passo, com exemplos práticos e trechos de código usando Aspose.Cells para Java. Seja você um iniciante ou esteja procurando atualizar suas habilidades, nossos tutoriais fornecem o conhecimento necessário para se destacar na manipulação de planilhas.
 
 Esses títulos e parágrafos fornecem uma introdução clara e envolvente ao tópico de funções básicas do Excel usando o Aspose.Cells para Java, convidando os leitores a explorar os tutoriais e melhorar suas habilidades de manipulação de planilhas.
 

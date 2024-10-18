@@ -1,7 +1,7 @@
 ---
 title: Acessar intervalo nomeado específico no Excel
 linktitle: Acessar intervalo nomeado específico no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como acessar intervalos nomeados específicos no Excel usando o Aspose.Cells para .NET com este tutorial abrangente passo a passo e código de exemplo.
 type: docs
 weight: 11

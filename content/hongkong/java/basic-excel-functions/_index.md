@@ -25,7 +25,7 @@ url: /zh-hant/java/basic-excel-functions/
 ### [Excel SUM 公式指南](./excel-sum-formula-guide/)
 使用 Aspose.Cells for Java 解鎖 Excel SUM 公式的強大功能 - Excel 自動化綜合指南。
 ### [如何使用Excel IF函數](./how-to-use-excel-if-function/)
-使用 Aspose.Cells for Java 解鎖 Excel IF 函數的強大功能。學習無縫實施條件邏輯。
+使用 Aspose.Cells for Java 解鎖 Excel IF 函數的強大功能。學習無縫實現條件邏輯。
 ### [Excel VLOOKUP 教學課程](./excel-vlookup-tutorial/)
 使用 Aspose.Cells for Java 釋放 Excel VLOOKUP 的強大功能 - 輕鬆資料擷取的終極指南。
 ### [Excel CONCATENATE 函數](./excel-concatenate-function/)

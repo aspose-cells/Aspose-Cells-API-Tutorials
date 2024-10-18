@@ -51,7 +51,7 @@ Maintenant que tout est en place, plongeons dans le processus étape par étape 
 
 ## Étape 1 : Définir le répertoire source
 
-Pour commencer notre aventure dans les aperçus avant impression, nous devons définir où se trouve notre fichier Excel source. Il s'agit de votre point d'entrée, alors configurons-le :
+Pour commencer notre aventure dans les aperçus avant impression, nous devons définir où se trouve notre fichier Excel source. C'est votre point d'entrée, alors configurons-le :
 
 ```csharp
 // Répertoire des sources
@@ -88,7 +88,7 @@ Il est maintenant temps de passer à la vraie magie ! Nous allons générer l'ap
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
 ```
 
-En ce moment, nous créons un aperçu de l'ensemble de notre classeur. Considérez cela comme un aperçu des pages de votre livre avant de commencer à lire ; vous obtenez un aperçu de ce qui vous attend.
+À ce moment-là, nous créons un aperçu de l'ensemble de notre classeur. Considérez cela comme un aperçu des pages de votre livre avant de commencer à le lire ; vous obtenez un aperçu de ce qui vous attend.
 
 ## Étape 5 : Évaluer le nombre de pages
 

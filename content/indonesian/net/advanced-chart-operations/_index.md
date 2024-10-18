@@ -22,7 +22,7 @@ Ingin membuat grafik Excel Anda menonjol? Menerapkan format 3D adalah pengubah p
 ## Menggunakan Sparklines untuk Wawasan Cepat
 
  Sparklines adalah bagan kecil dan ringan yang menyediakan ringkasan visual cepat dari tren data. Aspose.Cells for .NET memudahkan integrasi ini ke dalam buku kerja Excel Anda. Sempurna bagi siapa saja yang ingin menambahkan visualisasi data yang mendalam tanpa mengacaukan lembar kerja.[Lihat tutorialnya](./using-sparklines/) untuk petunjuk langkah demi langkah.
-Tentu! Mari kita lanjutkan pembahasan tentang operasi grafik tingkat lanjut yang dapat Anda lakukan menggunakan Aspose.Cells for .NET.
+Tentu! Mari kita lanjutkan pembahasan tentang operasi grafik yang lebih canggih yang dapat Anda lakukan menggunakan Aspose.Cells for .NET.
 
 ## Ubah Arah Label Centang
 
@@ -66,4 +66,4 @@ Pelajari cara mengatur data bagan menggunakan Aspose.Cells untuk .NET melalui pa
 ### [Atur Format Nilai Kode Seri Bagan](./set-values-format-code-of-chart-series/)
 Pelajari cara mengatur kode format nilai rangkaian bagan di Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang terperinci ini. Sempurna untuk pemula.
 ### [Menggunakan Sparklines](./using-sparklines/)
-Pelajari cara menggunakan grafik mini secara efektif di Excel dengan Aspose.Cells untuk .NET. Panduan langkah demi langkah disertakan untuk pengalaman yang lancar.
+Pelajari cara menggunakan grafik mini secara efektif di Excel dengan Aspose.Cells for .NET. Panduan langkah demi langkah disertakan untuk pengalaman yang lancar.

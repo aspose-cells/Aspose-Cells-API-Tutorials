@@ -41,7 +41,7 @@ Crea un nuevo libro de trabajo y agrégale una hoja de cálculo. Usaremos esta h
 
 ## Paso 3: Ingresar datos
 
-Ahora, vamos a llenar la hoja de cálculo con los datos que queremos representar en el gráfico de cascada.
+Ahora, vamos a llenar la hoja de trabajo con los datos que queremos representar en el gráfico de cascada.
 
 ```java
 Cells cells = worksheet.getCells();
@@ -99,7 +99,7 @@ Sí, puede crear varios gráficos de cascada en la misma hoja de cálculo siguie
 
 ### ¿Aspose.Cells es compatible con diferentes entornos de desarrollo Java?
 
-Sí, Aspose.Cells para Java es compatible con varios entornos de desarrollo Java, incluidos Eclipse, IntelliJ IDEA y NetBeans.
+Sí, Aspose.Cells para Java es compatible con varios entornos de desarrollo de Java, incluidos Eclipse, IntelliJ IDEA y NetBeans.
 
 ### ¿Puedo agregar series de datos adicionales a mi gráfico de cascada?
 

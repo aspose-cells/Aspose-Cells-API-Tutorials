@@ -1,6 +1,6 @@
 ---
-title: Configurações avançadas de proteção para planilha do Excel
-linktitle: Configurações avançadas de proteção para planilha do Excel
+title: Configurações de proteção avançadas para planilha do Excel
+linktitle: Configurações de proteção avançadas para planilha do Excel
 second_title: Referência da API Aspose.Cells para .NET
 description: Proteja seus dados do Excel com configurações de proteção avançadas usando Aspose.Cells para .NET! Aprenda a implementar controles passo a passo neste tutorial abrangente.
 type: docs
@@ -24,7 +24,7 @@ Agora que você tem tudo pronto, vamos para a parte emocionante!
 
 ## Pacotes de importação
 
-Vamos colocar as bibliotecas necessárias em nosso projeto. Siga estas etapas para importar os pacotes necessários:
+Vamos colocar as bibliotecas necessárias em nosso projeto. Siga estes passos para importar os pacotes necessários:
 
 ### Abra seu projeto
 
@@ -60,10 +60,10 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Etapa 2: Instanciar um objeto de pasta de trabalho
 
- Agora que temos um fluxo de arquivo, podemos criar um`Workbook` objeto.
+ Agora que temos um fluxo de arquivos, podemos criar um`Workbook` objeto.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 // Abrindo o arquivo Excel através do fluxo de arquivos
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Para nossos propósitos, vamos trabalhar apenas com a primeira planilha. Vamos acessá-la.
 
 ```csharp
-//Acessando a primeira planilha no arquivo Excel
+// Acessando a primeira planilha no arquivo Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
  As planilhas são indexadas a partir do zero, então`Worksheets[0]` refere-se à primeira planilha no arquivo Excel. Agora, podemos aplicar nossas configurações de proteção a essa planilha específica.

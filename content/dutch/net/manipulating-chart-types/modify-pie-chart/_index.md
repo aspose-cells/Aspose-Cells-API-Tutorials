@@ -13,7 +13,7 @@ Heb je je ooit afgevraagd hoe je die cirkeldiagrammen in je Excel-sheets kunt op
 
 ## Vereisten
 
-Voordat we dieper ingaan op het aanpassen van cirkeldiagrammen, zijn er een paar voorwaarden waaraan u moet voldoen:
+Voordat we dieper ingaan op het aanpassen van cirkeldiagrammen, moet u aan een aantal voorwaarden voldoen:
 
 - Basiskennis van C#: Een fundamenteel begrip van C#-programmering helpt u de cursus gemakkelijk te volgen.
 - Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek geïnstalleerd hebben. Of u nu besluit de volledige versie te gebruiken of kiest voor een gratis proefversie, zorg ervoor dat deze klaar is voor gebruik.
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Laten we nu eens duiken in het specifieke blad dat het cirkeldiagram bevat. We gaan ervan uit dat het cirkeldiagram op het tweede werkblad staat (index 1):
 
 ```csharp
-// Haal het ontwerpersdiagram op het tweede blad.
+//Haal het ontwerpersdiagram op het tweede blad.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
@@ -132,7 +132,7 @@ Vervolgens is het tijd om te veranderen wat dat label zegt. Voor ons voorbeeld g
 datalabels.Text = "United Kingdom, 400K";
 ```
 
-Zo, we hebben het etiket meteen geüpdatet! 
+Zo, we hebben het etiket bijgewerkt! 
 
 ## Stap 7: Sla de werkmap op
 
@@ -147,7 +147,7 @@ Met deze regel wordt de werkmap opgeslagen in de opgegeven uitvoermap.
 
 ## Stap 8: Bevestig de uitvoering
 
-Tot slot sturen we een bevestigingsbericht om er zeker van te zijn dat alles soepel is verlopen:
+Tot slot sturen we een bevestigingsbericht om te controleren of alles soepel is verlopen:
 
 ```csharp
 Console.WriteLine("ModifyPieChart executed successfully.");

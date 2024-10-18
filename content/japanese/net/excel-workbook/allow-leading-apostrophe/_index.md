@@ -16,7 +16,7 @@ Aspose.Cells for .NET を使用してスプレッドシートをシームレス�
 コードに進む前に、満たす必要のある前提条件がいくつかあります。
 
 1. .NET の基礎知識: .NET フレームワークに精通していることが必須です。すでに C# または VB.NET を少し使用したことがあるなら、準備はできていると考えてください。
-2. Aspose.Cells for .NET ライブラリ: Aspose.Cells をインストールする必要があります。これは NuGet パッケージ マネージャーから簡単に実行できます。または、[Aspose サイト](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET ライブラリ: Aspose.Cells をインストールする必要があります。NuGet パッケージ マネージャーを使用して簡単にインストールするか、[Aspose サイト](https://releases.aspose.com/cells/net/).
 3. IDE のセットアップ: コーディング用に Visual Studio などの統合開発環境 (IDE) の準備ができていることを確認します。
 4. サンプル Excel ファイル: コード内で使用するサンプル ファイル (「AllowLeadingApostropheSample.xlsx」) を使用できます。
 
@@ -144,7 +144,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells は、複数の形式の Excel ファイルをプログラムで作成、操作、変換するための強力な .NET ライブラリです。
 
 ### Aspose.Cells を無料で使用できますか?
-はい、無料トライアルにサインアップすればAspose.Cellsを使用することができます。[ここ](https://releases.aspose.com/).
+はい、無料トライアルにサインアップすればAspose.Cellsを利用できます。[ここ](https://releases.aspose.com/).
 
 ### Aspose.Cells のサポートを受けるにはどうすればよいですか?
 サポートや質問については、[Aspose サポート フォーラム](https://forum.aspose.com/c/cells/9).

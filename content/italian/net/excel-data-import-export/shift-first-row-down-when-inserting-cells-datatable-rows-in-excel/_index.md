@@ -9,7 +9,7 @@ url: /it/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-
 ---
 ## Introduzione
 
-Sei stanco di spostare manualmente le righe quando inserisci nuovi dati nei tuoi fogli di calcolo Excel? Bene, sei fortunato! In questo articolo, ci immergeremo in come automatizzare questo processo usando Aspose.Cells per .NET. Alla fine di questo tutorial, non solo imparerai come lavorare con le tabelle dati in Excel, ma anche come personalizzare le opzioni di importazione per adattarle meglio alle tue esigenze. Fidati di me; questo può farti risparmiare un sacco di tempo e seccature! Quindi, prendi una tazza di caffè e iniziamo!
+Sei stanco di spostare manualmente le righe quando inserisci nuovi dati nei tuoi fogli di calcolo Excel? Bene, sei fortunato! In questo articolo, ci immergeremo in come automatizzare questo processo usando Aspose.Cells per .NET. Entro la fine di questo tutorial, non solo imparerai come lavorare con le tabelle dati in Excel, ma anche come personalizzare le opzioni di importazione per adattarle meglio alle tue esigenze. Fidati di me; questo può farti risparmiare un sacco di tempo e seccature! Quindi, prendi una tazza di caffè e iniziamo!
 
 ## Prerequisiti
 
@@ -38,7 +38,7 @@ Questi pacchetti sono essenziali per lavorare con la cartella di lavoro, il fogl
 
 ### Crea un nuovo progetto C#
 
-Inizia creando una nuova applicazione console C# in Visual Studio. Dai al tuo progetto un nome adatto, come "ExcelDataImport".
+Inizia creando una nuova applicazione console C# in Visual Studio. Dai al tuo progetto un nome appropriato, come "ExcelDataImport".
 
 ### Aggiungi il pacchetto NuGet Aspose.Cells
 

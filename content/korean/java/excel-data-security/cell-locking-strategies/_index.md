@@ -47,7 +47,7 @@ worksheet.protect(ProtectionType.ALL);
 
 ## 고급 셀 잠금
 
-Aspose.Cells for Java는 기본 셀 잠금을 넘어섭니다. 특정 사용자나 역할이 특정 셀을 편집할 수 있도록 허용하면서 다른 사용자나 역할은 액세스를 제한하는 등 고급 잠금 규칙을 정의할 수 있습니다. 복잡한 재무 모델이나 협업 보고서를 작성할 때 이러한 수준의 세부성은 매우 중요합니다.
+Aspose.Cells for Java는 기본 셀 잠금을 넘어섭니다. 특정 사용자나 역할이 특정 셀을 편집할 수 있도록 허용하고 다른 사용자나 역할은 액세스를 제한하는 등 고급 잠금 규칙을 정의할 수 있습니다. 복잡한 재무 모델이나 협업 보고서를 작성할 때 이러한 수준의 세부성은 매우 중요합니다.
 
 고급 셀 잠금을 구현하려면 사용자 권한을 정의하고 이를 특정 셀이나 범위에 적용해야 합니다.
 
@@ -56,7 +56,7 @@ Aspose.Cells for Java는 기본 셀 잠금을 넘어섭니다. 특정 사용자�
 WorksheetProtection worksheetProtection = worksheet.getProtection();
 worksheetProtection.setAllowEditingContent(true);  // 콘텐츠 편집 허용
 worksheetProtection.setAllowEditingObject(true);   // 객체 편집 허용
-worksheetProtection.setAllowEditingScenario(true); // 시나리오 편집 허용
+worksheetProtection.setAllowEditingScenario(true); // 편집 시나리오 허용
 
 // 범위에 권한 적용
 CellArea cellArea = new CellArea();
@@ -72,7 +72,7 @@ worksheetProtection.setAllowEditingRange(cellArea, true); // 정의된 범위 �
 
 ## 조건 셀 잠금
 
-조건부 셀 잠금을 사용하면 특정 조건에 따라 셀을 잠그거나 잠금 해제할 수 있습니다. 예를 들어, 수식이 포함된 셀을 잠그고 다른 셀에는 데이터 입력을 허용할 수 있습니다. Aspose.Cells for Java는 조건부 서식 규칙을 통해 이를 달성할 수 있는 유연성을 제공합니다.
+조건부 셀 잠금을 사용하면 특정 조건에 따라 셀을 잠그거나 잠금 해제할 수 있습니다. 예를 들어, 다른 셀에 데이터 입력을 허용하는 동안 수식이 포함된 셀을 잠글 수 있습니다. Aspose.Cells for Java는 조건부 서식 규칙을 통해 이를 달성할 수 있는 유연성을 제공합니다.
 
 ```java
 // 서식 규칙 만들기
@@ -109,7 +109,7 @@ worksheet.protect(ProtectionType.ALL);
 
 ## 결론
 
-이 글에서는 Aspose.Cells for Java를 사용하여 셀 잠금의 필수적인 측면을 살펴보았습니다. 여기에서 논의된 전략을 구현하면 Excel 파일의 보안과 무결성을 강화하여 데이터가 정확하고 기밀로 유지되도록 할 수 있습니다.
+이 글에서는 Aspose.Cells for Java를 사용하여 셀 잠금의 필수적인 측면을 살펴보았습니다. 여기서 논의된 전략을 구현하면 Excel 파일의 보안과 무결성을 강화하여 데이터가 정확하고 기밀로 유지되도록 할 수 있습니다.
 
 ## 자주 묻는 질문
 

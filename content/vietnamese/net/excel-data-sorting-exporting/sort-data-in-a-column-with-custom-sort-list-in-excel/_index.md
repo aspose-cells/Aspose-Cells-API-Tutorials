@@ -25,7 +25,7 @@ Mặc dù hướng dẫn này được thiết kế để hướng dẫn bạn t
 
 ### Aspose.Cells cho gói NuGet .NET
 
-Bạn cần thư viện Aspose.Cells cho .NET được cài đặt trong dự án của bạn. Bạn có thể dễ dàng thêm nó thông qua NuGet Package Manager. 
+Bạn cần cài đặt thư viện Aspose.Cells cho .NET trong dự án của mình. Bạn có thể dễ dàng thêm nó thông qua NuGet Package Manager. 
 
 Sau đây là cách thực hiện:
 
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Bước 2: Tải tệp Excel nguồn
 
- Tiếp theo, chúng ta sẽ tải tệp Excel chứa dữ liệu bạn muốn sắp xếp. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và truyền đường dẫn đến tệp nguồn của bạn.
+Tiếp theo, chúng ta sẽ tải tệp Excel chứa dữ liệu bạn muốn sắp xếp. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và truyền đường dẫn đến tệp nguồn của bạn.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -132,7 +132,7 @@ Có! Bạn có thể thêm các khóa bổ sung để sắp xếp theo nhiều c
 Mặc dù hữu ích, bạn có thể làm theo hướng dẫn này và học trong quá trình học! Có một số hiểu biết cơ bản về C# sẽ nâng cao trải nghiệm học tập của bạn.
 
 ### Có thể sử dụng giấy phép tạm thời cho Aspose.Cells không?
-Chắc chắn rồi! Bạn có thể mua giấy phép tạm thời nếu muốn dùng thử toàn bộ tính năng của thư viện mà không bị hạn chế.
+Chắc chắn rồi! Bạn có thể mua giấy phép tạm thời nếu muốn kiểm tra đầy đủ các tính năng của thư viện mà không bị hạn chế.
 
 ### Tôi có thể tải xuống ví dụ hoặc tài liệu về Aspose.Cells không?
  Có! Aspose cung cấp tài liệu mở rộng và các dự án mẫu có thể hỗ trợ bạn rất nhiều. Hãy xem[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).

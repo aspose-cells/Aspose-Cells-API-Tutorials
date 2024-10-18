@@ -32,7 +32,7 @@ String filePath = "path_to_your_workbook.xlsx";
 Workbook workbook = new Workbook(filePath);
 ```
 
-## 3단계: 피벗 테이블에 액세스
+## 3단계: 피벗 테이블 액세스
 
 통합 문서에서 피벗 테이블을 찾습니다. 시트와 이름을 지정하여 이를 수행할 수 있습니다.
 

@@ -1,7 +1,7 @@
 ---
 title: Classificação e exportação de dados do Excel
 linktitle: Classificação e exportação de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra como classificar dados e exportar valores HTML no Excel com o Aspose.Cells para .NET por meio destes tutoriais fáceis de seguir.
 type: docs
 weight: 38
@@ -21,7 +21,7 @@ Classificar dados pode parecer brincadeira de criança, mas quando você adicion
 
 Agora, vamos mudar de assunto para exportar valores de string HTML. Digamos que você criou uma tabela impressionante no Excel com formatação HTML avançada e agora quer utilizar esses dados em um aplicativo da web. Como você faz isso? É aí que entra nosso segundo tutorial. 
 
- Com o[Tutorial de exportação de valores de string HTML de células para DataTable no Excel](./export-html-string-value-of-cells-to-datatable-in-excel/), você aprenderá a extrair essas células lindamente formatadas e convertê-las em uma DataTable usando Aspose.Cells para .NET. É como transferir uma receita deliciosa de um livro velho e empoeirado para seu aplicativo de culinária digital favorito — conveniente e eficiente!
+ Com o[Tutorial de exportação de valores de string HTML de células para DataTable no Excel](./export-html-string-value-of-cells-to-datatable-in-excel/), você aprenderá a extrair essas células lindamente formatadas e convertê-las em um DataTable usando Aspose.Cells para .NET. É como transferir uma receita deliciosa de um livro velho e empoeirado para seu aplicativo de culinária digital favorito — conveniente e eficiente!
 
 ## Tutoriais de classificação e exportação de dados do Excel
 ### [Classificar dados em uma coluna com lista de classificação personalizada no Excel](./sort-data-in-a-column-with-custom-sort-list-in-excel/)

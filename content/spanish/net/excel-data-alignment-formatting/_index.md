@@ -28,4 +28,4 @@ Ahora, veamos el proceso paso a paso. Aspose.Cells para .NET le permite interact
 
 ## Tutoriales de alineación y formato de datos en Excel
 ### [Cambiar la alineación de celdas de Excel sin perder el formato](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
-Aprenda a cambiar la alineación de las celdas de Excel sin perder el formato con Aspose.Cells para .NET. Siga nuestra guía completa paso a paso para un control perfecto.
+Aprenda a cambiar la alineación de las celdas de Excel sin perder el formato con Aspose.Cells para .NET. Siga nuestra completa guía paso a paso para un control perfecto.

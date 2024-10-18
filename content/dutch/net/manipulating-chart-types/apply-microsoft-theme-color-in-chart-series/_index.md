@@ -79,7 +79,7 @@ Net als bij het omslaan van een specifieke pagina in een boek, leidt deze stap o
 Nu is het tijd om de grafiek te vinden die we willen aanpassen. Dit is waar de magie echt begint!
 
 ```csharp
-//Haal de eerste grafiek in het blad
+// Haal de eerste grafiek in het blad
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -98,7 +98,7 @@ Dit is te vergelijken met het bepalen van de uitstraling van een kamer voordat u
 
 ## Stap 6: Een Cells Color-object maken
 
-Vervolgens moeten we de kleur voor het vulgebied van de grafiek definiëren. Zo brengen we onze gekozen kleur tot leven.
+Vervolgens moeten we de kleur voor het opvulgebied van de grafiek definiëren. Zo brengen we onze gekozen kleur tot leven.
 
 ```csharp
 // Haal de CellsColor van SolidFill op
@@ -112,7 +112,7 @@ Hier pakken we de kleurinstelling voor de grafiekserie.
  Laten we nu een Microsoft-themakleur toepassen. We kiezen een`Accent` stijl, want wie houdt er nou niet van een vleugje kleur?
 
 ```csharp
-//Maak een thema in Accent-stijl
+// Maak een thema in Accent-stijl
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -164,7 +164,7 @@ Aspose.Cells is een krachtige bibliotheek waarmee u Excel-bestanden in .NET-toep
 Absoluut! Aspose.Cells biedt uitgebreide aanpassingsmogelijkheden voor kleuren, waaronder RGB-waarden, standaardkleuren en meer.
 
 ### Waar kan ik aanvullende documentatie vinden?
- U kunt de Aspose.Cells-documentatie bekijken[hier](https://reference.aspose.com/cells/net/) voor meer gedetailleerde handleidingen en functies.
+ U kunt de Aspose.Cells-documentatie raadplegen[hier](https://reference.aspose.com/cells/net/) voor meer gedetailleerde handleidingen en functies.
 
 ### Is er ondersteuning beschikbaar als ik problemen ondervind?
  Ja! U kunt het Aspose forum bezoeken[hier](https://forum.aspose.com/c/cells/9) voor ondersteuning vanuit de community en om hulp te krijgen bij uw vragen.

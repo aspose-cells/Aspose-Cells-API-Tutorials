@@ -1,7 +1,7 @@
 ---
 title: Converter gráfico em PDF
 linktitle: Converter gráfico em PDF
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a converter gráficos do Excel para PDF usando o Aspose.Cells para .NET com este guia passo a passo fácil. Explore dicas essenciais e exemplos de codificação.
 type: docs
 weight: 11
@@ -157,7 +157,7 @@ aí está! Ao aproveitar o Aspose.Cells para .NET, converter gráficos do Excel 
  Sim, você pode percorrer o`worksheet.Charts` coleção para converter cada gráfico individualmente.
 
 ### O Aspose.Cells é adequado para arquivos grandes do Excel?
-Absolutamente! O Aspose.Cells é otimizado para desempenho e pode manipular arquivos grandes do Excel de forma eficiente.
+Absolutamente! Aspose.Cells é otimizado para desempenho e pode lidar eficientemente com grandes arquivos Excel.
 
 ### Quais versões do .NET o Aspose.Cells suporta?
 O Aspose.Cells oferece suporte a várias versões do .NET, incluindo .NET Framework e .NET Core.

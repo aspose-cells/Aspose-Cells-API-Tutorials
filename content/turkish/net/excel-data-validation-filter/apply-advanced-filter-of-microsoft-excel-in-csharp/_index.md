@@ -19,7 +19,7 @@ Bu kodlama macerasına atılmadan önce, tam donanımlı olduğumuzdan emin olal
 2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. Eğer henüz yapmadıysanız,[buradan indirin](https://releases.aspose.com/cells/net/).
 3. .NET Framework: .NET Framework ile çalışacak şekilde yapılandırıldığınızdan emin olun (4.0 veya üzeri sürüm önerilir).
 4. Temel C# Bilgisi: C#'a aşina olmak, konuyu çok daha kolay takip etmenize yardımcı olacaktır.
-5. Örnek Excel Dosyası: Bizimle çalışabilmeniz için hazır bir örnek Excel dosyanız olsun. Eğer yoksa, örnek verilerle basit bir dosya oluşturabilirsiniz.
+5. Örnek Excel Dosyası: Bizimle çalışmanız için hazır bir örnek Excel dosyanız olsun. Eğer yoksa, örnek verilerle basit bir dosya oluşturabilirsiniz.
 
 ## Paketleri İçe Aktar
 
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Belge dizininizi belirtin
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- Bu adımda bir değişken bildiriyoruz`sourceDir` Excel dosyanızın konumunu gösterir. Ardından, yeni bir örnek oluştururuz`Workbook`class dosyasını yüklemek için. Bu okumak istediğimiz kitabı açmak gibidir!
+ Bu adımda bir değişken bildiriyoruz`sourceDir` Excel dosyanızın konumunu gösterir. Ardından, yeni bir örnek oluştururuz`Workbook` class dosyasını yüklemek için. Bu okumak istediğimiz kitabı açmak gibidir!
 
 ## Adım 2: İlk Çalışma Sayfasına Erişim
 
@@ -58,7 +58,7 @@ Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Burada, şu noktaya değiniyoruz:`Worksheets` çalışma kitabımızın koleksiyonu ve ilk çalışma sayfasına erişim (genellikle indeks 0'dır). Bu adım çok önemlidir çünkü tüm filtreleme eylemlerimiz bu sayfada gerçekleştirilecektir.
+ Burada, şu noktaya değiniyoruz:`Worksheets`çalışma kitabımızın koleksiyonu ve ilk çalışma sayfasına erişim (genellikle indeks 0'dır). Bu adım çok önemlidir çünkü tüm filtreleme eylemlerimiz bu sayfada gerçekleştirilecektir.
 
 ## Adım 3: Filtre Parametrelerini Tanımlayın
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Çıktı dizininizi belirtin
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Son olarak, filtrelenmiş çalışma kitabının nereye kaydedilmesini istediğimizi belirtiyoruz`Save` yöntem. Buna yeni bir ad verebilirsiniz (bu durumda,`outputAdvancedFilter.xlsx`) orijinalini olduğu gibi korumak için.
+ Son olarak, filtrelenmiş çalışma kitabının nereye kaydedilmesini istediğimizi belirtiyoruz`Save` yöntem. Buna yeni bir ad verebilirsiniz (bu durumda,`outputAdvancedFilter.xlsx`) orijinalini olduğu gibi korumak için.
 
 ## Çözüm
 
@@ -93,14 +93,14 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak bir Excel sayfasına ge
 ### Aspose.Cells Nedir?
 Aspose.Cells, .NET uygulamalarında Excel dosyalarıyla çalışmak için güçlü bir kütüphanedir ve kullanıcıların elektronik tabloları programlı bir şekilde oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanır.
 
-### Aspose.Cells'i kullanmak için makinemde Excel'in yüklü olması gerekir mi?
+### Aspose.Cells'i kullanabilmek için makinemde Excel'in yüklü olması gerekir mi?
 Hayır, Aspose.Cells bağımsız olarak çalışır ve bilgisayarınıza Microsoft Excel'in kurulu olmasını gerektirmez.
 
 ### Ücretsiz deneme imkanı var mı?
  Evet, deneme sürümünü şu adresten indirerek Aspose.Cells'i ücretsiz deneyebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### Sorun yaşarsam destek alabilir miyim?
-Kesinlikle! Topluluk desteği alabilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9).
+ Kesinlikle! Topluluk desteği alabilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
  Satın alma sayfalarından geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/). 

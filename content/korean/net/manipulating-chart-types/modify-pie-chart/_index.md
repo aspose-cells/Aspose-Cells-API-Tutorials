@@ -31,7 +31,7 @@ Excel 시트의 원형 차트를 어떻게 멋지게 만들 수 있을지 생각
 시작하려면 C# IDE를 열고(Visual Studio를 적극 권장합니다) 새 프로젝트를 만드세요.
 
 1. Visual Studio를 엽니다.
-2. "새 프로젝트 만들기"를 선택하세요.
+2. "새로운 프로젝트 만들기"를 선택하세요.
 3. C# 콘솔 애플리케이션을 선택하세요.
 4.  프로젝트 이름을 지정하세요(예:`ModifyPieChartDemo`).
 5. 만들기를 클릭합니다.
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 이제 파이 차트가 들어 있는 특정 시트를 살펴보겠습니다. 파이 차트가 두 번째 워크시트(인덱스 1)에 있다고 가정하겠습니다.
 
 ```csharp
-// 두 번째 시트에서 디자이너 차트를 받으세요.
+//두 번째 시트에서 디자이너 차트를 받으세요.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

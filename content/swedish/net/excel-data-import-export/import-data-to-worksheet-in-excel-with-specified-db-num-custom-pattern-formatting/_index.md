@@ -16,7 +16,7 @@ När det kommer till kalkylarksmanipulation kan import av data till Excel och ko
 Innan vi hoppar in i det nitty-gritty, låt oss se till att du har allt du behöver. Här är en snabb checklista med förutsättningar för att du ska lyckas:
 
 1. .NET Framework: Se till att du har .NET Framework installerat på din dator. Aspose.Cells fungerar sömlöst med olika .NET-versioner.
-2.  Aspose.Cells för .NET: Du måste ladda ner och installera Aspose.Cells-biblioteket. Du kan ta den från[nedladdningslänk](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells för .NET: Du måste ladda ner och installera Aspose.Cells-biblioteket. Du kan ta den från[nedladdningslänk](https://releases.aspose.com/cells/net/).
 3. Integrated Development Environment (IDE): Använd en IDE som Visual Studio där du kan skriva och köra din C#-kod.
 4. Grundläggande kunskaper om C#: Att ha en grundläggande förståelse för C# kommer att hjälpa dig att följa de kodningsrutiner som vi kommer att använda i den här guiden.
 
@@ -67,7 +67,7 @@ Därefter skapar du en ny arbetsbok, som i huvudsak är din Excel-fil.
 Workbook wb = new Workbook();
 ```
 
-Här instansierar vi en ny`Workbook` objekt. Detta är din tomma duk!
+ Här instansierar vi en ny`Workbook` objekt. Detta är din tomma duk!
 
 ## Steg 3: Öppna det första arbetsbladet
 
@@ -81,7 +81,7 @@ Precis som när du öppnar en bok till första sidan, kommer du åt det första 
 
 ## Steg 4: Mata in data i en cell
 
- Nu, låt oss fylla en cell med lite data. För det här exemplet anger vi värdet`123` in i cell A1.
+ Låt oss nu fylla en cell med lite data. För det här exemplet anger vi värdet`123` in i cell A1.
 
 ```csharp
 Cell cell = ws.Cells["A1"];
@@ -102,13 +102,13 @@ Genom att ta tag i cellens stil förbereder du dig för att lägga till din unik
 
 ## Steg 6: Ange DBNum Custom Pattern Formatting
 
-Här händer magin. Du kan ange ett anpassat formatmönster med formateringsstilen DBNum.
+Det är här magin händer. Du kan ange ett anpassat formatmönster med formateringsstilen DBNum.
 
 ```csharp
 st.Custom = "[DBNum2][$-804]General";
 ```
 
-Den här raden talar om för Excel att formatera numret`123` enligt DBNum-mönstret som motsvarar det kinesiska språket. Ganska snyggt, eller hur?
+ Den här raden talar om för Excel att formatera numret`123` enligt DBNum-mönstret som motsvarar det kinesiska språket. Ganska snyggt, eller hur?
 
 ## Steg 7: Ställ in den uppdaterade cellstilen
 

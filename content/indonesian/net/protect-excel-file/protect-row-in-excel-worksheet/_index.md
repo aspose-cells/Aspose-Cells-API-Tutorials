@@ -2,18 +2,18 @@
 title: Lindungi Baris Dalam Lembar Kerja Excel
 linktitle: Lindungi Baris Dalam Lembar Kerja Excel
 second_title: Referensi API Aspose.Cells untuk .NET
-description: Temukan dalam tutorial ini cara melindungi baris-baris lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah dalam C#.
+description: Temukan dalam tutorial ini cara melindungi baris-baris lembar kerja Excel menggunakan Aspose.Cells for .NET. Tutorial langkah demi langkah dalam C#.
 type: docs
 weight: 60
 url: /id/net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
 ## Perkenalan
 
-Saat bekerja dengan lembar Excel, sering kali perlu melindungi baris tertentu untuk menjaga integritas data. Baik Anda mengelola proyek tim, mengawasi laporan keuangan, atau berbagi dokumentasi, membatasi akses ke baris tertentu dapat mencegah perubahan yang tidak diinginkan. Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan Aspose.Cells for .NET untuk melindungi baris tertentu dalam lembar kerja Excel. Jadi, ambil topi pengodean Anda, dan mari selami dunia manipulasi Excel yang menarik dengan C#!
+Saat bekerja dengan lembar Excel, sering kali perlu melindungi baris tertentu untuk menjaga integritas data. Baik Anda mengelola proyek tim, mengawasi laporan keuangan, atau berbagi dokumentasi, membatasi akses ke baris tertentu dapat mencegah perubahan yang tidak diinginkan. Dalam tutorial ini, kita akan membahas cara memanfaatkan Aspose.Cells for .NET untuk melindungi baris tertentu dalam lembar kerja Excel. Jadi, ambil topi koding Anda, dan mari selami dunia manipulasi Excel yang menarik dengan C#!
 
 ## Prasyarat
 
-Sebelum kita mulai praktiknya, pastikan Anda sudah menyiapkan semuanya. Berikut ini beberapa prasyaratnya:
+Sebelum kita mulai praktiknya, mari pastikan Anda telah menyiapkan semuanya. Berikut ini beberapa prasyaratnya:
 
 1.  Aspose.Cells untuk .NET: Unduh pustaka dari[Situs web Aspose](https://releases.aspose.com/cells/net/)Pastikan Anda memiliki versi terbaru untuk semua fitur baru dan perbaikan bug.
 2. Visual Studio: Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio (Komunitas, Profesional, atau Perusahaan) akan membantu Anda mengompilasi dan menjalankan kode C# secara efektif.

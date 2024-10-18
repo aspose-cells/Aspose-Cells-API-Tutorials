@@ -9,7 +9,7 @@ url: /fr/net/excel-workbook/add-web-extension/
 ---
 ## Introduction
 
-Dans ce guide, nous vous expliquerons le processus d'ajout d'extensions Web à un classeur Excel avec Aspose.Cells pour .NET. Que vous souhaitiez créer un tableau de bord de données puissant ou automatiser des tâches de création de rapports, ce didacticiel vous fournira les informations dont vous avez besoin pour enrichir vos applications Excel.
+Dans ce guide, nous vous expliquerons comment ajouter des extensions Web à un classeur Excel avec Aspose.Cells pour .NET. Que vous souhaitiez créer un tableau de bord de données puissant ou automatiser des tâches de création de rapports, ce didacticiel vous fournira les informations dont vous avez besoin pour enrichir vos applications Excel.
 
 ## Prérequis
 

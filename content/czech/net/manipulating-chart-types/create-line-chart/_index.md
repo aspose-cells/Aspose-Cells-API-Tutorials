@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Dále musíme vytvořit novou instanci sešitu. Přemýšlejte o sešitu jako o plátně, kde bude proudit vaše kreativita. 
 
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 Tento řádek inicializuje nový sešit, který bude obsahovat všechna vaše data a vizuály.
@@ -151,7 +151,7 @@ Ano, Aspose.Cells poskytuje rozsáhlou podporu pro různé typy grafů, včetně
 ### Mohu používat Aspose.Cells zdarma?  
 Ano, můžete si stáhnout bezplatnou zkušební verzi a prozkoumat její funkce. Pro dlouhodobé používání zvažte zakoupení licence.
 
-### Existuje nějaké fórum pro podporu?  
+### Existuje fórum pro podporu?  
  Absolutně! Odpovědi a dotazy můžete najít na[Fórum Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 ### Jak si koupím licenci?  

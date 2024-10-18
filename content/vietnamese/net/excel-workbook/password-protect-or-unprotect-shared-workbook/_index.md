@@ -9,7 +9,7 @@ url: /vi/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
 ---
 ## Giới thiệu
 
-Trong không gian làm việc kỹ thuật số ngày nay, việc chia sẻ tài liệu là một tình huống phổ biến đòi hỏi phải cân nhắc cẩn thận về vấn đề bảo mật. Khi làm việc với các tệp Excel, đặc biệt là sổ làm việc được chia sẻ, việc bảo vệ thông tin nhạy cảm trở nên tối quan trọng. Trong hướng dẫn này, tôi sẽ hướng dẫn bạn các bước bảo vệ bằng mật khẩu và bỏ bảo vệ sổ làm việc được chia sẻ bằng Aspose.Cells cho .NET. Cuối cùng, bạn sẽ cảm thấy tự tin khi quản lý bảo mật Excel như một chuyên gia!
+Trong không gian làm việc kỹ thuật số ngày nay, việc chia sẻ tài liệu là một tình huống phổ biến đòi hỏi phải cân nhắc cẩn thận về vấn đề bảo mật. Khi làm việc với các tệp Excel, đặc biệt là sổ làm việc được chia sẻ, việc bảo vệ thông tin nhạy cảm trở nên tối quan trọng. Trong hướng dẫn này, tôi sẽ hướng dẫn bạn các bước bảo vệ bằng mật khẩu và bỏ bảo vệ sổ làm việc được chia sẻ bằng Aspose.Cells cho .NET. Cuối cùng, bạn sẽ cảm thấy tự tin trong việc quản lý bảo mật Excel như một chuyên gia!
 
 ## Điều kiện tiên quyết
 

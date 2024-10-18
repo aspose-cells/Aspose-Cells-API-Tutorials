@@ -10,7 +10,7 @@ url: /zh/java/data-validation-rules/input-message-in-data-validation/
 
 ## 数据验证简介
 
-数据验证是 Excel 中的一项功能，它通过限制可输入到单元格中的数据类型来帮助保持数据的准确性和一致性。它确保用户输入有效的信息，从而减少错误并提高数据质量。
+数据验证是 Excel 中的一项功能，它通过限制可输入到单元格中的数据类型来帮助保持数据的准确性和一致性。它确保用户输入有效的信息，减少错误并提高数据质量。
 
 ## 什么是 Aspose.Cells for Java？
 
@@ -18,7 +18,7 @@ Aspose.Cells for Java 是一个基于 Java 的 API，它使开发人员无需 Mi
 
 ## 设置你的开发环境
 
-开始之前，请确保您的系统上已设置 Java 开发环境。您可以使用自己喜欢的 IDE（例如 Eclipse 或 IntelliJ IDEA）来创建新的 Java 项目。
+开始之前，请确保您的系统上已设置 Java 开发环境。您可以使用您喜欢的 IDE（例如 Eclipse 或 IntelliJ IDEA）来创建新的 Java 项目。
 
 ## 创建新的 Java 项目
 

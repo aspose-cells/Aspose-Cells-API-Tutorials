@@ -9,7 +9,7 @@ url: /id/net/excel-data-export-retrieval/retrieve-data-from-cells-in-excel/
 ---
 ## Perkenalan
 
-Dalam hal mengelola data di Excel, kemampuan untuk membaca dan mengambil informasi dari sel sangatlah penting. Aspose.Cells untuk .NET adalah pustaka canggih yang memungkinkan pengembang untuk memanipulasi file Excel dengan mudah. Dalam tutorial ini, kita akan membahas cara mengambil data dari sel dalam buku kerja Excel menggunakan Aspose.Cells. Baik Anda pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui proses ini langkah demi langkah.
+Dalam hal mengelola data di Excel, kemampuan untuk membaca dan mengambil informasi dari sel sangatlah penting. Aspose.Cells untuk .NET adalah pustaka canggih yang memungkinkan pengembang untuk memanipulasi file Excel dengan mudah. Dalam tutorial ini, kita akan membahas cara mengambil data dari sel dalam buku kerja Excel menggunakan Aspose.Cells. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui proses ini langkah demi langkah.
 
 ## Prasyarat
 
@@ -56,7 +56,7 @@ Sekarang setelah Anda menyiapkan direktori dokumen, langkah berikutnya adalah me
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Di sini, kita membuat`Workbook`objek dengan meneruskan jalur lengkap file Excel. Langkah ini menginisialisasi buku kerja dan membuatnya siap untuk pengambilan data.
+ Di sini, kita membuat`Workbook` objek dengan meneruskan jalur lengkap file Excel. Langkah ini menginisialisasi buku kerja dan membuatnya siap untuk pengambilan data.
 
 ## Langkah 3: Akses Lembar Kerja Pertama
 
@@ -68,7 +68,7 @@ Setelah membuka buku kerja, Anda akan ingin mengakses lembar kerja tertentu temp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Itu`Worksheets` koleksi memungkinkan Anda mengakses lembar yang berbeda dalam buku kerja. Indeks`[0]` merujuk ke lembar kerja pertama. Jika Anda ingin mengakses lembar kerja berikutnya, Anda dapat mengubah indeksnya.
+ Itu`Worksheets` koleksi memungkinkan Anda mengakses lembar yang berbeda dalam buku kerja. Indeks`[0]`merujuk ke lembar kerja pertama. Jika Anda ingin mengakses lembar kerja berikutnya, Anda dapat mengubah indeksnya.
 
 ## Langkah 4: Melakukan Looping Melalui Sel
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Mengevaluasi tipe data data sel untuk nilai tanggal/waktu
+        // Mengevaluasi tipe data data sel untuk nilai tanggal/waktu
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Pada langkah ini, kita melakukan pengulangan pada setiap sel di lembar kerja. Untuk setiap sel, kita memeriksa tipe datanya menggunakan`switch` pernyataan. Bergantung pada jenisnya, kami mengambil nilai dan mencetaknya ke konsol. Berikut ini rincian kasusnya:
+ Pada langkah ini, kita melakukan pengulangan pada setiap sel di lembar kerja. Untuk setiap sel, kita memeriksa tipe datanya menggunakan`switch`pernyataan. Bergantung pada jenisnya, kami mengambil nilai dan mencetaknya ke konsol. Berikut ini rincian kasusnya:
 
 -  IsString: Jika sel berisi string, kami mengambilnya menggunakan`StringValue`.
 -  IsNumeric: Untuk nilai numerik, kami menggunakan`DoubleValue`.
@@ -143,7 +143,7 @@ Mengambil data dari sel Excel menggunakan Aspose.Cells untuk .NET merupakan pros
 Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel tanpa perlu menginstal Microsoft Excel.
 
 ### Bisakah saya menggunakan Aspose.Cells secara gratis?  
- Ya, Aspose.Cells menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji fitur-fiturnya. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
+Ya, Aspose.Cells menawarkan uji coba gratis yang dapat Anda gunakan untuk menguji fitur-fiturnya. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/).
 
 ### Jenis data apa yang dapat saya ambil dari sel Excel?  
 Anda dapat mengambil berbagai tipe data, termasuk string, angka, boolean, dan nilai tanggal/waktu.

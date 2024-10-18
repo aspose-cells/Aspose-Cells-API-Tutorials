@@ -13,13 +13,13 @@ Le interruzioni di pagina sono essenziali quando si tratta di stampare file Exce
 
 Sapevi che puoi aggiungere interruzioni di pagina in modo programmatico, risparmiandoti così un sacco di lavoro manuale? Questo può trasformare completamente il modo in cui prepari i tuoi fogli di calcolo per la condivisione o la stampa. È come avere una bacchetta magica che trasforma dati caotici in pagine splendidamente organizzate!
 
-## Guide passo passo
- La nostra raccolta di tutorial suddivide i processi complessi in lezioni brevi e facili da capire. Ad esempio, nel tutorial su[Excel Aggiungi interruzioni di pagina](./excel-add-page-breaks/), ti guidiamo attraverso ogni passaggio con istruzioni chiare. Non ti limiterai a leggere il gergo tecnico; seguirai effettivamente e applicherai ciò che impari immediatamente ai tuoi progetti. 
+## Guide passo dopo passo
+ La nostra raccolta di tutorial suddivide i processi complessi in lezioni brevi e facili da capire. Ad esempio, nel tutorial su[Excel Aggiungi interruzioni di pagina](./excel-add-page-breaks/)ti guidiamo attraverso ogni passaggio con istruzioni chiare. Non ti limiterai a leggere il gergo tecnico; seguirai effettivamente e applicherai immediatamente ciò che impari ai tuoi progetti. 
 
  Hai bisogno di cancellare tutte le interruzioni di pagina? Nessun problema! Dai un'occhiata alla nostra guida su[Excel Cancella tutte le interruzioni di pagina](./excel-clear-all-page-breaks/), che offre un processo semplice ed efficace che chiunque può padroneggiare. Si tratta di rendere il tuo flusso di lavoro più fluido e veloce.
 
 ## Personalizzazione a portata di mano
- se volessi rimuovere solo alcune interruzioni di pagina? Ecco dove entra in gioco il nostro tutorial su[Excel Rimuovi interruzione di pagina specifica](./excel-remove-specific-page-break/) entra in gioco. È pensato per quei momenti in cui hai bisogno di un controllo preciso sul layout del tuo documento. Con Aspose.Cells per .NET, avrai la possibilità di personalizzare i tuoi fogli di calcolo esattamente come li desideri. 
+ E se volessi rimuovere solo alcune interruzioni di pagina? Ecco dove entra in gioco il nostro tutorial su[Excel Rimuovi interruzione di pagina specifica](./excel-remove-specific-page-break/) entra in gioco. È pensato per quei momenti in cui hai bisogno di un controllo preciso sul layout del tuo documento. Con Aspose.Cells per .NET, avrai la possibilità di personalizzare i tuoi fogli di calcolo esattamente come li desideri. 
 
 ## Esercitazioni 
 | Titolo | Descrizione |

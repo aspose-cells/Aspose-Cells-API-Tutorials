@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Ora, immergiamoci nel foglio specifico che contiene il grafico a torta. Supponiamo che il grafico a torta sia sul secondo foglio di lavoro (indice 1):
 
 ```csharp
-// Prendi la tabella del designer nel secondo foglio.
+//Prendi la tabella del designer nel secondo foglio.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
@@ -121,7 +121,7 @@ Ora arriva la parte emozionante: modificare le etichette dati sul grafico a tort
 Aspose.Cells.Charts.DataLabels datalabels = chart.NSeries[0].Points[2].DataLabels;
 ```
 
-Con questa linea miriamo alle etichette dei dati specificatamente per il terzo punto della nostra serie di dati. 
+Con questa linea miriamo alle etichette dei dati specificamente per il terzo punto della nostra serie di dati. 
 
 ## Passaggio 6: modificare il testo dell'etichetta
 
@@ -174,4 +174,4 @@ Sì! Aspose offre una versione di prova gratuita che ti consente di testare la l
 Puoi trovare supporto nei forum di Aspose, dove i membri della community e lo staff di Aspose possono aiutarti.
 
 ### Per utilizzare Aspose.Cells è necessario avere installato Microsoft Excel?  
-No, Aspose.Cells funziona indipendentemente da Microsoft Excel. Non è necessario installarlo sul sistema.
+No, Aspose.Cells funziona indipendentemente da Microsoft Excel. Non è necessario installarlo sul tuo sistema.

@@ -79,7 +79,7 @@ Worksheet sheet = book.Worksheets[0];
 
 ## ステップ3: 用紙サイズをA2に設定し、寸法を取得する
 
-次は、用紙サイズを設定して寸法を取得します。まず、A2 用紙サイズから始めます。
+次は、用紙サイズを設定して寸法を取得します。まずは A2 用紙サイズから始めます。
 
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;

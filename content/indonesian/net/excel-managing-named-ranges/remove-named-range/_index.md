@@ -32,7 +32,7 @@ Pastikan Anda memiliki berkas Excel untuk bereksperimen. Jika tidak, Anda dapat 
 
 ## Paket Impor
 
-Setelah prasyarat terpenuhi, mari impor paket yang akan dibutuhkan dalam proyek. Buka Visual Studio dan buat aplikasi konsol baru. Lalu, sertakan namespace berikut dalam program Anda:
+Setelah prasyarat terpenuhi, mari impor paket yang akan dibutuhkan dalam proyek kita. Buka Visual Studio dan buat aplikasi konsol baru. Lalu, sertakan namespace berikut dalam program Anda:
 
 ```csharp
 using System;
@@ -106,7 +106,7 @@ Di sini, kita mendefinisikan rentang dari sel E12 hingga I12 dan menamainya “F
 Untuk menunjukkan betapa serbagunanya Aspose.Cells, mari tambahkan beberapa pemformatan ke rentang bernama kita.
 
 ```csharp
-// Tetapkan batas garis pada rentang.
+// Tetapkan batas garis luar ke rentang.
 range1.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 range1.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 range1.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
@@ -139,7 +139,7 @@ Range range2 = worksheet.Cells.CreateRange("B3", "F3");
 range2.Name = "SecondRange";
 ```
 
-Sekarang kami memiliki rentang bernama lain "SecondRange" yang tersedia untuk digunakan.
+Sekarang kami memiliki rentang bernama lain yang disebut "SecondRange" yang tersedia untuk digunakan.
 
 ## Langkah 9: Menyalin Rentang Pertama ke Rentang Kedua
 

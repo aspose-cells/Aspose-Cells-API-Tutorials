@@ -86,7 +86,7 @@ De laatste hand is het opslaan van uw werkmap. Dit is waar uw harde werk wordt o
 wb.Save(outputDir + "outputProtectSharedWorkbook.xlsx");
 ```
 
-Met deze regel wordt uw beveiligde werkmap opgeslagen in de aangewezen uitvoermap met de naam 'outputProtectSharedWorkbook.xlsx'. 
+Met deze regel wordt uw beveiligde werkmap opgeslagen in de aangewezen uitvoermap met de naam "outputProtectSharedWorkbook.xlsx". 
 
 ## Stap 6: Controleer de uitvoering
 

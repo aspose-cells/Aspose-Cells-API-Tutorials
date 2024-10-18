@@ -81,7 +81,7 @@ public class ExcelPasswordProtection {
             // Çalışma kitabı için bir parola belirleyin
             workbook.getSettings().getPassword().setPassword("MySecretPassword");
 
-            // Çalışma kitabını koru
+            // Çalışma kitabını koruyun
             workbook.getSettings().getPassword().setPassword("MySecretPassword");
             Protection protection = workbook.getSettings().getProtection();
             protection.setWorkbookProtection(WorkbookProtectionType.ALL);

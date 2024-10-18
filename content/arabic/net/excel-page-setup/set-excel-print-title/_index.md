@@ -61,7 +61,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  فقط استبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الذي تريد حفظ ملف Excel فيه. على سبيل المثال، يمكنك استخدام`@"C:\Reports\"`.
 
-## الخطوة 2: إنشاء كائن مصنف
+## الخطوة 2: إنشاء مثيل لكائن مصنف
 
  بعد ذلك، نقوم بإنشاء مثيل لـ`Workbook`الفئة التي تمثل ملف Excel.
 
@@ -73,7 +73,7 @@ Workbook workbook = new Workbook();
 
 ## الخطوة 3: الحصول على مرجع PageSetup
 
- الآن دعنا نصل إلى ورقة العمل`PageSetup` هذه هي المنطقة التي سيتم فيها تكوين معظم إعدادات الطباعة لدينا.
+ الآن دعنا ننتقل إلى ورقة العمل`PageSetup` هذه هي المنطقة التي سيتم فيها تكوين معظم إعدادات الطباعة لدينا.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;

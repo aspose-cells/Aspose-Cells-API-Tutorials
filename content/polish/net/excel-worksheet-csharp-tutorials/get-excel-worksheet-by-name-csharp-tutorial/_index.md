@@ -18,7 +18,7 @@ Zanim przejdziemy do soczystych rzeczy, upewnijmy się, że jesteś przygotowany
 1. Środowisko programistyczne .NET: Upewnij się, że masz gotowe środowisko programistyczne .NET. Możesz użyć Visual Studio lub dowolnego innego wybranego przez siebie środowiska IDE.
 2.  Biblioteka Aspose.Cells: Powinieneś mieć również zainstalowaną bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, nie martw się! Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość podstaw programowania w języku C# pomoże Ci płynnie uczyć się języka.
-4.  Plik Excela: Przygotuj plik Excela, z którym chcesz pracować. W naszym przykładzie użyjemy prostego pliku o nazwie`book1.xlsx` z co najmniej jednym arkuszem o nazwie „Arkusz1”.
+4. Plik Excela: Przygotuj plik Excela, z którym chcesz pracować. W naszym przykładzie użyjemy prostego pliku o nazwie`book1.xlsx` z co najmniej jednym arkuszem o nazwie „Arkusz1”.
 
 Teraz, gdy już wszystko jest gotowe, możemy przystąpić do działania!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Określ katalog dokumentów
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Połącz, aby utworzyć pełną ścieżkę
 ```
 
- Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie, gdzie`book1.xlsx` jest przechowywany. Wykorzystując`Path.Combine` jest przydatny, ponieważ zapewnia, że ścieżka zostanie poprawnie skonstruowana w różnych systemach operacyjnych.
+ Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką w Twoim systemie, gdzie`book1.xlsx` jest przechowywany. Wykorzystując`Path.Combine` jest przydatny, ponieważ zapewnia, że ścieżka zostanie poprawnie skonstruowana w różnych systemach operacyjnych.
 
 ## Krok 2: Utwórz strumień plików
 
@@ -96,7 +96,7 @@ Na koniec, dobrym zwyczajem jest zamknięcie strumienia plików, gdy skończymy.
 fstream.Close();
 ```
 
-To prosty krok, ale kluczowy. Nieoczyszczenie zasobów może prowadzić do wycieków pamięci lub problemów z dostępem do plików w przyszłości.
+To prosty, ale kluczowy krok. Nieoczyszczenie zasobów może prowadzić do wycieków pamięci lub problemów z dostępem do plików w przyszłości.
 
 ## Wniosek
 
@@ -115,7 +115,7 @@ Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom progra
 Aspose.Cells obsługuje różne formaty, w tym XLS, XLSX, CSV i inne.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Chociaż jest[bezpłatny okres próbny](https://releases.aspose.com/)Jeśli jest dostępny, będziesz musiał kupić licencję, aby móc z niego korzystać bez ograniczeń.
+ Chociaż jest[bezpłatny okres próbny](https://releases.aspose.com/) Jeśli jest dostępny, będziesz musiał kupić licencję, aby móc z niego korzystać bez ograniczeń.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Możesz uzyskać wsparcie za ich pośrednictwem[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie za ich pośrednictwem[forum wsparcia](https://forum.aspose.com/c/cells/9).

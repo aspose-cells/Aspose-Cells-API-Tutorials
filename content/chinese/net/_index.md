@@ -57,7 +57,7 @@ xplore Aspose.Cells for .NET 教程，了解如何设置图表外观。通过简
 ### [在 Excel 中创建和格式化命名区域](./excel-creating-formatting-named-ranges/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中创建和格式化命名范围。轻松增强数据管理和视觉呈现。
 ### [Excel 中命名区域的高级操作](./excel-advanced-named-ranges/)
-通过有关命名范围、单元格识别和合并动态报告单元格等高级操作教程释放 Aspose.Cells for .NET 的潜力。
+通过有关高级操作（如命名范围、单元格识别和合并动态报告的单元格）的教程释放 Aspose.Cells for .NET 的潜力。
 ### [在 Excel 中管理命名范围](./excel-managing-named-ranges/)
 探索使用 Aspose.Cells for .NET 管理 Excel 中命名范围的全面教程。非常适合初学者和高级用户。
 ### [Excel 数据导出和检索](./excel-data-export-retrieval/)
@@ -81,6 +81,42 @@ xplore Aspose.Cells for .NET 教程，了解如何设置图表外观。通过简
 ### [Excel 数据保存与警告](./excel-data-preservation-warning/)
 学习使用 Aspose.Cells for .NET 进行高级 Excel 数据保存技术，例如在单元格中保留单引号前缀和在排序期间指定排序警告。
 ### [Excel 范围和地址计算](./excel-range-address-calculation/)
-探索有关 Aspose.Cells for .NET 的重要教程，轻松涵盖 Excel 范围创建、地址计算和高级操作。
+发现有关 Aspose.Cells for .NET 的重要教程，轻松涵盖 Excel 范围创建、地址计算和高级操作。
 ### [Excel 隐藏行和数据重复管理](./excel-hidden-rows-data-duplication-management/)
 使用 Aspose.Cells for .NET 教程释放 Excel 的潜力，提供有关管理隐藏行和轻松复制数据的见解。
+### [Excel 注释和注解](./excel-comment-annotation/)
+使用 Aspose.Cells for .NET 教程中的评论和注解来提高您的 Excel 技能，该教程提供分步指南来丰富您的电子表格。
+### [Excel 形状和控件](./excel-shapes-controls/)
+探索有关添加 Excel 形状和控件的全面 Aspose.Cells for .NET 教程。学习分步方法以编程方式增强您的 Excel 工作表。
+### [Excel OLE 和图片对象](./excel-ole-picture-objects/)
+使用 Aspose.Cells for .NET 释放 Excel 的强大功能。通过我们简单易懂的教程掌握 OLE 对象和图片处理。
+### [Excel 形状和标签访问](./excel-shape-label-access/)
+通过我们全面的教程释放 Aspose.Cells for .NET 的强大功能，涵盖 Excel 中的 OLE 对象标签和 Smart Art 形状识别。
+### [Excel 形状和文本修改](./excel-shape-text-modifications/)
+通过易于理解的教程和实用的代码示例学习使用 Aspose.Cells for .NET 操作 Excel 形状和文本。
+### [Excel 文件处理](./excel-file-handling/)
+使用 Aspose.Cells for .NET 教程释放您的 Excel 潜力。轻松导出属性、管理空白行和加载可见工作表。
+### [CSV 文件处理](./csv-file-handling/)
+探索有关处理 CSV 文件的全面 Aspose.Cells for .NET 教程，包括轻松高效地打开、解析和操作数据。
+### [文件加载和解析](./data-loading-and-parsing/)
+使用 Aspose.Cells for .NET 教程轻松解锁您的 Excel 数据。学习打开加密、仅数据、FODS 和 SXC 文件。
+### [以不同格式保存文件](./saving-files-in-different-formats/)
+发现使用 Aspose.Cells for .NET 以各种格式保存 Excel 文件的全面教程。提高您的 Excel 技能。
+### [文件处理](./file-handling/)
+了解在 Aspose.Cells for .NET 中处理文件的详细教程，包括保存为各种格式、位置和自定义分隔符。
+### [文档属性](./document-properties/)
+通过我们关于文档属性的全面教程解锁 Aspose.Cells for .NET 的功能，以提高您的 Excel 文件管理技能。
+### [转换和渲染](./conversion-and-rendering/)
+探索 Aspose.Cells for .NET 教程，其中包含有关如何无缝转换和呈现 Excel 文件为不同格式的高级指南。
+### [安全和加密](./security-and-encryption/)
+通过我们的安全和加密教程解锁 Aspose.Cells for .NET 的强大功能。学习如何轻松检测和加密文件。
+### [工作表操作](./worksheet-operations/)
+通过这些涵盖工作表操作和增强 Excel 文件的实用教程，释放 Aspose.Cells for .NET 的全部潜力。
+### [转换为 PDF](./conversion-to-pdf/)
+通过我们易于遵循的 Aspose.Cells for .NET 教程将您的 Excel 文件和图表转换为无缝 PDF。
+### [图像和图表操作](./image-and-chart-operations/)
+探索 Aspose.Cells for .NET 教程的综合指南。了解图像和图表操作以提高您的工作效率。
+### [XPS 和 PDF 操作](./xps-and-pdf-operations/)
+了解有关 XPS 和 PDF 操作的全面 Aspose.Cells for .NET 教程，以简化您的文件转换。
+### [链接和配置操作](./link-and-configuration-operations/)
+了解有关 Aspose.Cells for .NET 的全面教程，包括链接配置等。非常适合希望增强其 Excel 应用程序的开发人员。

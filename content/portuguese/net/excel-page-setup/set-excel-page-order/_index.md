@@ -49,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string dataDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
 ```
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 
 Em seguida, precisamos criar um novo objeto workbook. Esse objeto servirá como sua tela para trabalhar.

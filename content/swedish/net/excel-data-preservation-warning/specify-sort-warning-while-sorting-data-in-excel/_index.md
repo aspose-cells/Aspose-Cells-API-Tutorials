@@ -36,7 +36,7 @@ Nu när vi har allt i ordning, låt oss gå igenom sorteringsprocessen steg för
 
 ## Steg 1: Konfigurera din dokumentkatalog
 
- Först måste du ange sökvägen till din dokumentkatalog. Det är här din`sampleSortAsNumber.xlsx` filen kommer att hittas. Ersätta`"Your Document Directory"` med den faktiska sökvägen där din Excel-fil finns.
+ Först måste du ange sökvägen till din dokumentkatalog. Det är här din`sampleSortAsNumber.xlsx` filen kommer att hittas. Ersätta`"Your Document Directory"`med den faktiska sökvägen där din Excel-fil finns.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -123,7 +123,7 @@ Slutligen måste du spara din sorterade arbetsbok. Om du vill behålla originalf
 workbook.Save(dataDir + "outputSortAsNumber.xlsx");
 ```
 
-Och det är det! Din sorterade data sparas nu i en ny fil!
+Och det är det! Din sorterade data är nu sparad i en ny fil!
 
 ## Slutsats
 

@@ -1,6 +1,6 @@
 ---
-title: Získejte hlavní mřížky grafu
-linktitle: Získejte hlavní mřížky grafu
+title: Získejte hlavní mřížku grafu
+linktitle: Získejte hlavní mřížku grafu
 second_title: Aspose.Cells .NET Excel Processing API
 description: Naučte se, jak získat hlavní mřížky na grafech pomocí Aspose.Cells for .NET s tímto podrobným návodem krok za krokem. Vylepšete své dovednosti při vytváření sestav v Excelu.
 type: docs
@@ -15,7 +15,7 @@ Vytváření vizuálně přitažlivých a informativních grafů je nezbytné pr
 
 Než se vrhneme na tutoriál, ujistěte se, že máte vše připraveno:
 
--  Aspose.Cells for .NET: Ujistěte se, že máte knihovnu Aspose.Cells staženou a odkazovanou ve vašem projektu. Můžete to získat[zde](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Ujistěte se, že máte knihovnu Aspose.Cells staženou a odkazovanou ve vašem projektu. Můžete to získat[zde](https://releases.aspose.com/cells/net/).
 - Vývojové prostředí: Bude fungovat jakékoli vývojové prostředí .NET, ale Visual Studio je vysoce doporučeno pro jeho robustní podporu a nástroje.
 - Základní porozumění C#: Když budeme psát nějaký kód, pomůže nám znalost základů programování v C#.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Zde zadáváme do buněk nějaké náhodné hodnoty`A1` na`B3`. Tato data budou sloužit jako zdroj dat pro náš graf. Je nezbytné mít smysluplná data k vizualizaci; v opačném případě by byl graf jen pěknými čarami bez kontextu!
+ Zde zadáváme do buněk nějaké náhodné hodnoty`A1` na`B3`Tato data budou sloužit jako zdroj dat pro náš graf. Je nezbytné mít smysluplná data k vizualizaci; v opačném případě by byl graf jen pěknými čarami bez kontextu!
 
 ## Krok 5: Přidejte graf do listu
 
@@ -145,7 +145,7 @@ Tento řádek uloží vaši práci jako soubor aplikace Excel do určeného adre
 
 ## Závěr
 
-A voilà! Pomocí Aspose.Cells for .NET jste úspěšně vytvořili excelovou tabulku obsahující graf s hlavními mřížkami. Nejen, že jste se dozvěděli o grafech, ale také jste získali dovednosti v manipulaci se snadno vizuálně podmanivými prvky. Tato metoda může být opravdu užitečná v obchodních zprávách, akademických prezentacích nebo v jakémkoli scénáři, kde je vizualizace dat klíčem k předání vašeho sdělení.
+voilà! Pomocí Aspose.Cells for .NET jste úspěšně vytvořili excelovou tabulku obsahující graf s hlavními mřížkami. Nejen, že jste se dozvěděli o grafech, ale také jste získali dovednosti v manipulaci se snadno vizuálně podmanivými prvky. Tato metoda může být opravdu užitečná v obchodních zprávách, akademických prezentacích nebo v jakémkoli scénáři, kde je vizualizace dat klíčem k předání vašeho sdělení.
 
 Zvládnutím těchto technik jste na dobré cestě k vytváření dynamických sestav, díky kterým budou vaše data pop!
 

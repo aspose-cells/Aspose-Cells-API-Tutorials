@@ -76,7 +76,7 @@ pivotTable.calculateData();
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come creare tabelle pivot dinamiche utilizzando l'API Aspose.Cells per Java. Le tabelle pivot sono uno strumento prezioso per l'analisi dei dati e con Aspose.Cells, puoi automatizzarne la creazione e la manipolazione nelle tue applicazioni Java.
+In questo tutorial, abbiamo imparato come creare tabelle pivot dinamiche utilizzando l'API Aspose.Cells per Java. Le tabelle pivot sono uno strumento prezioso per l'analisi dei dati e, con Aspose.Cells, puoi automatizzarne la creazione e la manipolazione nelle tue applicazioni Java.
 
 Se hai domande o hai bisogno di ulteriore assistenza, non esitare a contattarci. Buona programmazione!
 
@@ -88,7 +88,7 @@ Sì, puoi applicare calcoli personalizzati ai campi dati implementando la tua lo
 
 ### D2: Come posso modificare la formattazione della tabella pivot?
 
-È possibile modificare la formattazione della tabella pivot accedendo alle sue proprietà di stile e applicando la formattazione desiderata.
+È possibile modificare la formattazione della tabella pivot accedendo alle proprietà di stile e applicando la formattazione desiderata.
 
 ### D3: È possibile creare più tabelle pivot nello stesso foglio di lavoro?
 

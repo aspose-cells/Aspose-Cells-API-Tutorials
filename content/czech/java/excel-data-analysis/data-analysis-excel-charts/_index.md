@@ -106,7 +106,7 @@ Ano, můžete integrovat Aspose.Cells for Java s jinými knihovnami Java, abyste
 
 Ano, Aspose.Cells for Java vyžaduje platnou licenci pro komerční použití. Licenci můžete získat z webu Aspose.
 
-### Jaké typy grafů Excel mohu vytvořit pomocí Aspose.Cells for Java?
+### Jaké typy grafů Excel mohu vytvořit pomocí Aspose.Cells pro Java?
 
 Aspose.Cells for Java podporuje širokou škálu typů grafů, včetně sloupcových grafů, spojnicových grafů, koláčových grafů a dalších. Úplný seznam podporovaných typů grafů a možností přizpůsobení naleznete v dokumentaci.
 

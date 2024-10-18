@@ -18,7 +18,7 @@ Bây giờ, chúng ta hãy cùng tìm hiểu từng bước. Aspose.Cells for .N
 1. Chọn ô hoặc phạm vi:
    Bắt đầu bằng cách chỉ định các ô hoặc phạm vi bạn muốn điều chỉnh. Đây có thể là một ô riêng lẻ hoặc toàn bộ bảng tùy thuộc vào nhu cầu của bạn.
 
-2. Áp dụng Căn chỉnh mong muốn:
+2. Áp dụng căn chỉnh mong muốn:
     Sử dụng`.Style` thuộc tính để áp dụng các thiết lập căn chỉnh theo chiều ngang hoặc chiều dọc. Aspose.Cells cung cấp cho bạn các tùy chọn như`TextAlignmentType.Center`, `TextAlignmentType.Left` , hoặc`TextAlignmentType.Right` để căn chỉnh theo chiều ngang và các tùy chọn tương tự để căn chỉnh theo chiều dọc.
 
 3. Giữ nguyên định dạng:

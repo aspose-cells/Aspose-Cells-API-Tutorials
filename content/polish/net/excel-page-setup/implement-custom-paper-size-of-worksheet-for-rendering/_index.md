@@ -2,14 +2,14 @@
 title: Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania
 linktitle: Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania
 second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się ustawiać niestandardowe rozmiary papieru w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący płynnego renderowania arkusza kalkulacyjnego.
+description: Dowiedz się, jak ustawić niestandardowe rozmiary papieru w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący płynnego renderowania arkusza kalkulacyjnego.
 type: docs
 weight: 50
 url: /pl/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
 ## Wstęp
 
-Tworzenie i dostosowywanie dokumentów Excela programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce u stóp w świecie .NET,
+Tworzenie i dostosowywanie dokumentów Excel programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce u stóp w świecie .NET,
 
 ## Wymagania wstępne
 
@@ -67,7 +67,7 @@ Teraz utwórzmy instancję skoroszytu. Jest to podobne do tworzenia pustego pł�
 Workbook wb = new Workbook();
 ```
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Ponieważ nowy skoroszyt ma domyślny arkusz, uzyskajmy do niego dostęp! 
 
@@ -127,7 +127,7 @@ Wdrożenie niestandardowego rozmiaru papieru dla arkuszy kalkulacyjnych programu
 Tak, możesz wypróbować bezpłatną wersję próbną Aspose.Cells dla .NET, dostępną[Tutaj](https://releases.aspose.com/).
 
 ### Co się stanie, jeśli przekroczę limity licencji tymczasowej?
- Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby uzyskać nieprzerwaną usługę. Możesz znaleźć opcje[Tutaj](https://purchase.aspose.com/buy).
+ Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby zapewnić nieprzerwaną usługę. Możesz znaleźć opcje[Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy Aspose.Cells jest kompatybilny z .NET Core?
 Tak, Aspose.Cells dla .NET obsługuje .NET Core. Możesz bezproblemowo zintegrować go ze swoimi nowoczesnymi aplikacjami.

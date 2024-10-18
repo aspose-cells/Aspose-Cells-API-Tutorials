@@ -2,7 +2,7 @@
 title: Actualizar elemento de fórmula de Power Query
 linktitle: Actualizar elemento de fórmula de Power Query
 second_title: Referencia de API de Aspose.Cells para .NET
-description: Actualice fácilmente los elementos de fórmula de Power Query en Excel con Aspose.Cells para .NET. Guía paso a paso para optimizar sus procesos de manipulación de datos.
+description: Actualice fácilmente los elementos de fórmulas de Power Query en Excel con Aspose.Cells para .NET. Guía paso a paso para optimizar sus procesos de manipulación de datos.
 type: docs
 weight: 160
 url: /es/net/excel-workbook/update-power-query-formula-item/
@@ -62,7 +62,7 @@ Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 
 ## Paso 3: Acceda al Mashup de datos
 
-continuación, accederemos a las fórmulas de Power Query almacenadas en el Data Mashup del libro de trabajo.
+continuación, accederemos a las fórmulas de Power Query almacenadas en el Mashup de datos del libro de trabajo.
 
 ```csharp
 DataMashup mashupData = workbook.DataMashup;

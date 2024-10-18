@@ -88,7 +88,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleChartToPdf.xlsx");
 ```
 
-이 코드는 새 통합 문서 개체를 초기화하고 지정된 Excel 파일을 로드합니다. 파일 이름이 소스 디렉터리에 있는 파일 이름과 일치하는지 확인하세요.
+이 코드는 새 통합 문서 개체를 초기화하고 지정된 Excel 파일을 로드합니다. 파일 이름이 소스 디렉토리에 있는 파일 이름과 일치하는지 확인하세요.
 
 ## 3단계: 워크시트에 액세스
 
@@ -162,7 +162,7 @@ Console.WriteLine("ChartToPdf executed successfully.");
 ### Aspose.Cells는 어떤 버전의 .NET을 지원하나요?
 Aspose.Cells는 .NET Framework와 .NET Core를 포함한 다양한 버전의 .NET을 지원합니다.
 
-### 자세한 문서는 어디에서 볼 수 있나요?
+### 자세한 문서는 어디서 볼 수 있나요?
  방문하세요[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 자세한 정보와 예를 보려면 여기를 클릭하세요.
 
 ### 무료 체험판이 있나요?

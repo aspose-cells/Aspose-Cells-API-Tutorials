@@ -16,7 +16,7 @@ Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz, aby to z
 3. Podstawowa wiedza o języku C#: Jeśli znasz język C#, bez problemu poradzisz sobie z tym samouczkiem.
 ## Importuj pakiety
 Po pierwsze, musisz zaimportować niezbędne pakiety, aby uzyskać dostęp do funkcjonalności Aspose.Cells. Oto, jak to zrobić:
-1. Otwórz projekt programu Visual Studio.
+1. Otwórz projekt Visual Studio.
 2. Dodaj odwołanie do Aspose.Cells DLL. Jeśli zainstalowałeś go za pomocą NuGet, powinien być już uwzględniony.
 3. Na górze pliku C# dodaj następującą dyrektywę:
 ```csharp

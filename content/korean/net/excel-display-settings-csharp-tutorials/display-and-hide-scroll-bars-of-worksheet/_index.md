@@ -20,7 +20,7 @@ Excel 파일을 프로그래밍 방식으로 관리하는 것은 종종 마법�
 3. IDE 설정: Visual Studio와 같은 통합 개발 환경(IDE)이나 C# 코드를 작성하고 실행하기 위한 코드 편집기 설정.
 4.  Excel 파일: 샘플 Excel 파일(예:`book1.xls`)을 편집하고 테스트할 수 있습니다.
 
-이러한 전제 조건을 충족하면 코드를 살펴볼 수 있습니다.
+이러한 전제 조건을 충족하면 코드를 자세히 살펴볼 수 있습니다.
 
 ## 필요한 패키지 가져오기
 
@@ -45,7 +45,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- 바꾸다`YOUR DOCUMENT DIRECTORY`Excel 파일이 저장된 실제 경로와 함께. 이를 통해 프로그램은 조작할 필요한 파일을 찾을 수 있습니다.
+ 바꾸다`YOUR DOCUMENT DIRECTORY` Excel 파일이 저장된 실제 경로와 함께. 이를 통해 프로그램은 조작할 필요한 파일을 찾을 수 있습니다.
 
 ## 2단계: 파일 스트림 만들기
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- 이것`Workbook` 이제 객체는 Excel 파일의 모든 데이터와 설정을 보관하므로 나중에 프로세스에서 조작이 가능합니다.
+ 이것`Workbook`이제 객체는 Excel 파일의 모든 데이터와 설정을 보관하므로 나중에 프로세스에서 조작이 가능합니다.
 
 ## 4단계: 수직 스크롤 막대 숨기기
 
@@ -123,13 +123,13 @@ fstream.Close();
  네! 설정만 하면 됩니다.`IsVScrollBarVisible` 그리고`IsHScrollBarVisible` 뒤로 돌아가기`true`.
 
 ### Aspose.Cells는 무료로 사용할 수 있나요?  
-Aspose.Cells는 완전히 무료는 아니지만 제한된 기간 동안 무료로 사용해볼 수 있으며 구매를 고려할 수도 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells는 완전히 무료는 아니지만 제한된 기간 동안 무료로 사용해볼 수 있으며 구매를 고려할 수도 있습니다.[임시 면허](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells로 어떤 유형의 Excel 파일을 조작할 수 있나요?  
 .xls, .xlsx, .xlsm, .xlsb 등 다양한 Excel 형식으로 작업할 수 있습니다.
 
 ### 더 많은 예를 어디서 볼 수 있나요?  
- 확인하세요[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 추가 예제와 튜토리얼을 확인하세요.
+ 확인하세요[Aspose.Cells 설명서](https://reference.aspose.com/cells/net/) 추가 예제와 튜토리얼을 보려면 여기를 클릭하세요.
 
 ### Aspose.Cells를 사용하는 동안 문제가 발생하면 어떻게 해야 하나요?  
  Aspose 지원 포럼에서 도움을 요청하거나 문제를 보고할 수 있습니다.[여기](https://forum.aspose.com/c/cells/9).

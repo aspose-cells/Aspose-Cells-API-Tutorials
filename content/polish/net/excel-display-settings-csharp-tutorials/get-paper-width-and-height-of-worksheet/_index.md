@@ -1,6 +1,6 @@
 ---
-title: Uzyskaj szerokość papieru i wysokość arkusza kalkulacyjnego
-linktitle: Uzyskaj szerokość papieru i wysokość arkusza kalkulacyjnego
+title: Pobierz szerokość papieru i wysokość arkusza kalkulacyjnego
+linktitle: Pobierz szerokość papieru i wysokość arkusza kalkulacyjnego
 second_title: Aspose.Cells dla .NET API Reference
 description: Dowiedz się, jak uzyskać szerokość i wysokość papieru arkuszy kalkulacyjnych w Aspose.Cells dla platformy .NET, korzystając z prostego przewodnika krok po kroku.
 type: docs
@@ -16,7 +16,7 @@ Czy kiedykolwiek próbowałeś wydrukować arkusz Excela i musiałeś radzić so
 Zanim zagłębimy się w magię kodowania, zbierzmy wszystko, czego potrzebujesz, żeby zacząć:
 
 1. Podstawowa znajomość języka C#: Powinieneś mieć podstawową znajomość języka C#. Jeśli dopiero zaczynasz programować, nie martw się! Będziemy trzymać się prostoty.
-2.  Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET na swoim komputerze. Możesz ją pobrać z[ten link](https://releases.aspose.com/cells/net/).
+2.  Biblioteka Aspose.Cells: Upewnij się, że na Twoim komputerze jest zainstalowana biblioteka Aspose.Cells dla .NET. Możesz ją pobrać z[ten link](https://releases.aspose.com/cells/net/).
 3. Środowisko programistyczne .NET: Skonfiguruj Visual Studio lub dowolne wybrane przez siebie środowisko IDE, aby pisać i wykonywać kod C#. Jeśli nie wiesz, od czego zacząć, Visual Studio Community Edition jest solidnym wyborem.
 4.  Odniesienia i dokumentacja: Zapoznaj się z dokumentacją Aspose.Cells, aby uzyskać głębsze informacje. Możesz ją znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
 5. Podstawowa wiedza na temat plików programu Excel: Zrozumienie struktury plików programu Excel (arkusze kalkulacyjne, wiersze i kolumny) okaże się bardzo przydatne.
@@ -32,7 +32,7 @@ using System;
 using System.IO;
 ```
 
-Ten wiersz umożliwia nam dostęp do wszystkich klas i metod w bibliotece Aspose.Cells, ułatwiając manipulowanie plikami Excela. Teraz przejdźmy do naszego przewodnika krok po kroku dotyczącego pobierania szerokości i wysokości papieru dla różnych rozmiarów papieru.
+Ten wiersz umożliwia nam dostęp do wszystkich klas i metod w bibliotece Aspose.Cells, ułatwiając manipulowanie plikami Excela. Teraz przejdźmy do naszego przewodnika krok po kroku, jak pobrać szerokość i wysokość papieru dla różnych rozmiarów papieru.
 
 ## Krok 1: Utwórz nowy skoroszyt
 
@@ -45,7 +45,7 @@ Workbook wb = new Workbook();
 
 Ten wiersz tworzy nowy obiekt skoroszytu, gotowy do manipulowania. Na razie nic nie zobaczysz, ale nasze płótno jest ustawione!
 
-## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 2: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Teraz, gdy mamy nasz skoroszyt, musimy uzyskać dostęp do określonego arkusza w nim zawartego. Arkusz jest jak pojedyncza strona w skoroszycie i to tam dzieje się cała akcja.
 
@@ -54,7 +54,7 @@ Teraz, gdy mamy nasz skoroszyt, musimy uzyskać dostęp do określonego arkusza 
 Worksheet ws = wb.Worksheets[0];
 ```
 
-Tutaj pobieramy pierwszy arkusz (indeks 0) z naszego skoroszytu. Można to sobie wyobrazić jako przewracanie pierwszej strony książki. 
+Tutaj pobieramy pierwszy arkusz (indeks 0) z naszego skoroszytu. Można to sobie wyobrazić jak przewracanie pierwszej strony książki. 
 
 ## Krok 3: Ustaw rozmiar papieru i uzyskaj wymiary
 

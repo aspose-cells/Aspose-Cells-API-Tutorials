@@ -84,7 +84,7 @@ workbook.save("updated_excel_file.xlsx");
 
 ## Conclusione
 
-In questa guida, abbiamo imparato come eseguire la convalida delle date nei fogli di calcolo usando Aspose.Cells per Java. Garantire l'accuratezza dei dati delle date è fondamentale in varie applicazioni e con Aspose.Cells, hai a disposizione un potente strumento per raggiungere questo obiettivo.
+In questa guida, abbiamo imparato come eseguire la convalida delle date nei fogli di calcolo usando Aspose.Cells per Java. Garantire l'accuratezza dei dati delle date è fondamentale in varie applicazioni e con Aspose.Cells hai a disposizione un potente strumento per riuscirci.
 
 ## Domande frequenti
 

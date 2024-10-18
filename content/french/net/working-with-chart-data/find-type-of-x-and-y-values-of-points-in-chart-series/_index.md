@@ -19,7 +19,7 @@ Avant de passer aux étapes suivantes, assurez-vous d’avoir quelques élément
    
 2.  Aspose.Cells pour .NET : vous devez avoir installé Aspose.Cells pour .NET. Vous pouvez le télécharger à partir de[ici](https://releases.aspose.com/cells/net/).
 
-3. Exemple de fichier Excel : obtenez un exemple de fichier Excel contenant des graphiques. Pour ce didacticiel, nous utiliserons un fichier nommé`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Assurez-vous qu'il se trouve dans votre répertoire de projet.
+3.  Exemple de fichier Excel : obtenez un exemple de fichier Excel contenant des graphiques. Pour ce didacticiel, nous utiliserons un fichier nommé`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Assurez-vous qu'il se trouve dans le répertoire de votre projet.
 
 4. Connaissances de base en programmation : la familiarité avec la programmation C# vous aidera à suivre facilement.
 
@@ -56,11 +56,11 @@ Tout d'abord, vous devez définir le répertoire dans lequel se trouve votre fic
 string sourceDir = "Your Document Directory";
 ```
 
- Remplacer`"Your Document Directory"`avec le chemin où votre fichier Excel est enregistré.
+ Remplacer`"Your Document Directory"` avec le chemin où votre fichier Excel est enregistré.
 
 ## Étape 2 : charger le classeur
 
- Ensuite, chargez le fichier Excel dans un`Workbook` objet. Cela vous permet d'accéder à tout le contenu du fichier.
+ Ensuite, chargez le fichier Excel dans un`Workbook`objet. Cela vous permet d'accéder à tout le contenu du fichier.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -128,7 +128,7 @@ Aspose.Cells est une bibliothèque .NET qui permet aux développeurs de gérer e
 Oui, Aspose propose un essai gratuit pendant lequel vous pouvez explorer les fonctionnalités d'Aspose.Cells.
 
 ### Quels types de graphiques puis-je créer avec Aspose.Cells ?
-Aspose.Cells prend en charge différents types de graphiques, notamment les graphiques à colonnes, à barres, en lignes, à secteurs, etc.
+Aspose.Cells prend en charge différents types de graphiques, notamment à colonnes, à barres, en lignes, à secteurs, etc.
 
 ### Comment puis-je obtenir de l'aide pour Aspose.Cells ?
  Vous pouvez accéder au support via le[Forum Aspose](https://forum.aspose.com/c/cells/9).

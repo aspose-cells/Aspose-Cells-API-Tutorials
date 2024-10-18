@@ -48,7 +48,7 @@ Nu we alles op orde hebben, kunnen we het opsplitsen in eenvoudige, duidelijke s
 
 ## Stap 1: Stel de bron- en uitvoermap in
 
-Laten we eerst onze bron- en uitvoerdirectory definiëren. Deze directory's bevatten ons invoerbestand (waar we de grafiek uit lezen) en het uitvoerbestand (waar de aangepaste grafiek wordt opgeslagen).
+Laten we eerst onze bron- en uitvoerdirectory definiëren. Deze directory's bevatten ons invoerbestand (waar we de grafiek uit zullen lezen) en het uitvoerbestand (waar de aangepaste grafiek zal worden opgeslagen).
 
 ```csharp
 // Bron directory

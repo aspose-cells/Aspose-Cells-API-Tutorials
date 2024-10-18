@@ -2,7 +2,7 @@
 title: 在 Excel 中添加外部文件的链接
 linktitle: 在 Excel 中添加外部文件的链接
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 通过本分步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中添加外部文件链接。增强您的电子表格。
+description: 通过本分步指南学习如何使用 Aspose.Cells for .NET 在 Excel 中添加外部文件链接。增强您的电子表格。
 type: docs
 weight: 10
 url: /zh/net/excel-working-with-hyperlinks/add-link-to-external-file/

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells 教程
 additionalTitle: Aspose API 参考
-description: Aspose.Cells 产品系列的教程和代码片段。它包括 Aspose.Cells 使用的初级和高级教程。
+description: Aspose.Cells 产品系列的教程和代码片段。其中包括 Aspose.Cells 使用的初级和高级教程。
 type: docs
 weight: 11
 url: /zh/

@@ -11,7 +11,7 @@ url: /it/net/excel-subtotal-calculation/create-subtotals-in-excel/
 Siete pronti a migliorare le vostre competenze in Excel e a rendere i vostri fogli di calcolo più dinamici? Creare subtotali in Excel può aiutarvi a categorizzare e riassumere i dati in modo efficace, consentendo una migliore interpretazione e reporting dei dati. Se siete una persona che spesso si ritrova a lottare con montagne di numeri, generare riepiloghi strutturati è essenziale. Oggi, ci immergeremo in come creare subtotali senza sforzo utilizzando Aspose.Cells per .NET, una potente libreria progettata per gestire tutte le manipolazioni dei file Excel.
 ## Prerequisiti
 Prima di addentrarci nei dettagli della creazione di subtotali in Excel, ecco alcuni prerequisiti che dovresti avere:
-1. Aspose.Cells per .NET installato: assicurati di aver configurato la libreria Aspose.Cells nel tuo ambiente di sviluppo. Se non l'hai ancora fatto, puoi facilmente[scaricalo qui](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells per .NET installato: assicurati di aver configurato la libreria Aspose.Cells nel tuo ambiente di sviluppo. Se non l'hai ancora fatto, puoi facilmente[scaricalo qui](https://releases.aspose.com/cells/net/).
 2. Ambiente .NET: dovresti avere un ambiente .NET funzionante in cui possiamo lavorare con la libreria. Che si tratti di Visual Studio o di qualsiasi altro IDE, assicurati di essere a tuo agio con la codifica in C#.
 3. Conoscenza di base di C#: la familiarità con C# sarà utile. Gli esempi che forniremo sono in sintassi C#, quindi essere a proprio agio con essa ti aiuterà a comprendere il processo.
 4.  Foglio di lavoro Excel: un file Excel di esempio su cui esercitarsi. Utilizzeremo un file chiamato`book1.xls` nel nostro tutorial.
@@ -29,14 +29,14 @@ Per iniziare, dobbiamo definire dove si trova il nostro file Excel. È qui che c
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Sostituire`"Your Document Directory"` con il percorso effettivo in cui ti trovi`book1.xls` viene memorizzato. Questo indica al programma dove trovare il file Excel che manipoleremo.
+ Sostituire`"Your Document Directory"` con il percorso effettivo in cui ti trovi`book1.xls`viene memorizzato. Questo indica al programma dove trovare il file Excel che manipoleremo.
 ## Passaggio 2: creare una nuova cartella di lavoro
 Successivamente, creeremo una nuova istanza dell'oggetto Workbook. Questo ci consentirà di aprire e modificare il nostro file Excel.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
  Qui stiamo creando un oggetto di`Workbook` e caricandolo con il nostro specificato`book1.xls` file. Questo oggetto cartella di lavoro ora contiene tutte le informazioni del file Excel e ci consente di modificarlo.
-## Passaggio 3: accedi alla raccolta di celle
+## Passaggio 3: accedere alla raccolta di celle
 Per operare sul contenuto del foglio di lavoro Excel, dobbiamo accedere alla raccolta “Celle”.
 ```csharp
 Cells cells = workbook.Worksheets[0].Cells;
@@ -51,16 +51,16 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Qui definiamo un`CellArea` che specifica l'intervallo che ci interessa. In questo caso, abbiamo scelto l'area da B3 (Riga 2, Colonna 1) a C19 (Riga 18, Colonna 2). È qui che calcoleremo i nostri subtotali.
+ Qui definiamo un`CellArea`che specifica l'intervallo che ci interessa. In questo caso, abbiamo scelto l'area da B3 (Riga 2, Colonna 1) a C19 (Riga 18, Colonna 2). È qui che calcoleremo i nostri subtotali.
 ## Passaggio 5: applicare i subtotali
 Questo è il cuore della nostra operazione: applicare il subtotale all'area della cella definita.
 ```csharp
 cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 ```
  In questa linea, chiamiamo il`Subtotal` metodo. I parametri definiti sono:
-- `ca`: L'intervallo di celle definito in precedenza.
+- `ca`: L'intervallo di celle che abbiamo definito in precedenza.
 - `0`: Questo indice si riferisce alla colonna che contiene i valori da subtotare. 
-- `ConsolidationFunction.Sum`Questo specifica che vogliamo sommare i valori.
+- `ConsolidationFunction.Sum`: Questo specifica che vogliamo sommare i valori.
 - `new int[] { 1 }`: Ciò indica che stiamo sommando i valori della seconda colonna (colonna C).
 ## Passaggio 6: salvare il file Excel modificato
 Infine, dobbiamo salvare le modifiche in un nuovo file Excel. 

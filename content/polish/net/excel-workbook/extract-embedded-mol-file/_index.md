@@ -17,7 +17,7 @@ Zanim przejdziemy do procesu ekstrakcji, upewnijmy się, że jesteś w pełni pr
 
 - Podstawowa wiedza o C#: Niewielka znajomość C# bardzo się przyda. Nawet jeśli dopiero zaczynasz, powinieneś być w stanie nadążyć.
 - Visual Studio: Zainstalowany Visual Studio w systemie. Jest on niezbędny do pisania i wykonywania kodu C#.
--  Aspose.Cells dla .NET: Jeśli jeszcze nie pobrałeś, przejdź do[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/) i pobierz najnowszą wersję.
+- Aspose.Cells dla .NET: Jeśli jeszcze nie pobrałeś, przejdź do[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/) i pobierz najnowszą wersję.
 - .NET Framework: Upewnij się, że masz zainstalowaną zgodną wersję .NET Framework.
 -  Plik Excela z osadzonymi obiektami MOL: W naszym przykładzie użyjemy`EmbeddedMolSample.xlsx`. Upewnij się, że masz ten plik gotowy do wyodrębnienia.
 
@@ -62,7 +62,7 @@ string outputDir = "Your Document Directory";
 Spowoduje to zainicjowanie skoroszytu przy użyciu pliku Excel zawierającego osadzone pliki MOL.
 
 
-Przedstawimy proces ekstrakcji na łatwe do wykonania kroki.
+Podzielmy proces ekstrakcji na łatwe do wykonania kroki.
 
 ## Krok 2: Załaduj skoroszyt
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- W tym fragmencie kodu używamy`foreach` pętla, aby przejść przez każdy arkusz w naszym skoroszycie. Uzyskując dostęp do`OleObjects`kolekcji, możemy uzyskać dostęp do wszystkich osadzonych obiektów na danym arkuszu. 
+ W tym fragmencie kodu używamy`foreach` pętla, aby przejść przez każdy arkusz w naszym skoroszycie. Uzyskując dostęp do`OleObjects` kolekcji, możemy uzyskać dostęp do wszystkich osadzonych obiektów na danym arkuszu. 
 
 ## Krok 4: Wyodrębnij obiekty OLE
 
@@ -111,7 +111,7 @@ W tym podejściu:
 
 ## Krok 5: Potwierdź wykonanie
 
-Po zakończeniu procesu ekstrakcji warto potwierdzić jego prawidłowe wykonanie:
+Po zakończeniu operacji ekstrakcji warto potwierdzić pomyślne przeprowadzenie procesu ekstrakcji:
 
 ```csharp
 Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
@@ -121,7 +121,7 @@ Ta prosta linia wysyła komunikat do konsoli, gdy cała operacja ekstrakcji prze
 
 ## Wniosek
 
-masz! Udało Ci się wyodrębnić osadzone pliki MOL z pliku Excel przy użyciu Aspose.Cells dla .NET. Teraz możesz wykorzystać swoje nowo nabyte umiejętności i zastosować je w innych scenariuszach, w których musisz wyodrębnić pliki obiektów z arkuszy Excel. Ta metoda jest nie tylko skuteczna, ale także otwiera drzwi do obsługi różnych operacji związanych z Excelem bez wysiłku.
+I masz to! Udało Ci się wyodrębnić osadzone pliki MOL z pliku Excel przy użyciu Aspose.Cells dla .NET. Teraz możesz wykorzystać swoje nowo nabyte umiejętności i zastosować je w innych scenariuszach, w których musisz wyodrębnić pliki obiektów z arkuszy Excel. Ta metoda jest nie tylko skuteczna, ale także otwiera drzwi do obsługi różnych operacji związanych z Excelem bez wysiłku.
 
 ## Najczęściej zadawane pytania
 

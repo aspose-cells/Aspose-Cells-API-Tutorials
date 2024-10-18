@@ -9,7 +9,7 @@ url: /zh/net/excel-subtotal-calculation/
 ---
 ## 介绍
 
-处理 Excel 文件可能很繁琐，尤其是在计算总数和执行详细操作时。幸运的是，Aspose.Cells for .NET 可以轻松自动执行这些任务。想要向海量数据集添加小计？或者跟踪工作表中的单元格依赖关系？您来对地方了。
+处理 Excel 文件可能很繁琐，尤其是在计算总数和执行详细操作时。幸运的是，Aspose.Cells for .NET 可以轻松实现这些任务的自动化。想要向海量数据集添加小计？或者想要跟踪工作表中的单元格依赖关系？您来对地方了。
 
 ## [在 Excel 中创建小计](./create-subtotals-in-excel/)
 

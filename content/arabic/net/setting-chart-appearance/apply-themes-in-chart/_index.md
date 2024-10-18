@@ -2,14 +2,14 @@
 title: تطبيق السمات في الرسم البياني
 linktitle: تطبيق السمات في الرسم البياني
 second_title: واجهة برمجة تطبيقات معالجة Excel الخاصة بـ Aspose.Cells .NET
-description: تعرف على كيفية تطبيق السمات على المخططات البيانية في Excel باستخدام Aspose.Cells for .NET من خلال دليلنا السهل المتابعة خطوة بخطوة. قم بتحسين عرض البيانات.
+description: تعرف على كيفية تطبيق السمات على المخططات البيانية في Excel باستخدام Aspose.Cells for .NET من خلال دليلنا السهل المتابعة خطوة بخطوة. قم بتحسين عرض البيانات لديك.
 type: docs
 weight: 10
 url: /ar/net/setting-chart-appearance/apply-themes-in-chart/
 ---
 ## مقدمة
 
-إن إنشاء مخططات جذابة بصريًا في Excel أمر بالغ الأهمية للتواصل الفعّال مع بياناتك. ومن خلال تطبيق السمات، يمكنك تحسين جماليات مخططاتك، مما يجعل المعلومات ليس فقط في متناول اليد، بل وجذابة أيضًا. في هذا الدليل، سنستكشف كيفية تطبيق السمات باستخدام Aspose.Cells for .NET. لذا، تناول وجبتك الخفيفة المفضلة، ولنغوص في عالم المخططات الإبداعي!
+إن إنشاء مخططات جذابة بصريًا في Excel أمر بالغ الأهمية للتواصل الفعّال مع بياناتك. من خلال تطبيق السمات، يمكنك تحسين جماليات مخططاتك، مما يجعل المعلومات ليس فقط في متناول اليد، بل وجذابة أيضًا. في هذا الدليل، سنستكشف كيفية تطبيق السمات باستخدام Aspose.Cells for .NET. لذا، تناول وجبتك الخفيفة المفضلة، ولنغوص في عالم المخططات الإبداعي!
 
 ## المتطلبات الأساسية
 
@@ -17,7 +17,7 @@ url: /ar/net/setting-chart-appearance/apply-themes-in-chart/
 
 ### البرامج المطلوبة
 
-1. Visual Studio: تأكد من تثبيت Visual Studio على جهازك. فهو يوفر بيئة مناسبة لتطوير تطبيقات .NET.
+1. Visual Studio: تأكد من تثبيت Visual Studio على جهازك. فهو يوفر بيئة سهلة لتطوير تطبيقات .NET.
 2. .NET Framework أو .NET Core: اعتمادًا على تفضيلاتك، يجب أن يكون لديك إما .NET Framework أو .NET Core مُهيأً للمتابعة مع الكود الخاص بنا.
 3.  Aspose.Cells for .NET: لا يمكنك تفويت هذا! قم بتنزيل Aspose.Cells for .NET للبدء. يمكنك العثور على ملفات DLL[هنا](https://releases.aspose.com/cells/net/).
 4. المعرفة الأساسية بلغة C#: على الرغم من أننا سنقوم بإرشادك خلال التعليمات البرمجية خطوة بخطوة، إلا أن بعض المعرفة الأساسية بلغة C# ستساعدك بالتأكيد.
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- تأكد من ذلك`sampleApplyingThemesInChart.xlsx` موجود في دليل المصدر الخاص بك.
+ تأكد من ذلك`sampleApplyingThemesInChart.xlsx`موجود في دليل المصدر الخاص بك.
 
 ## الخطوة 3: الوصول إلى ورقة العمل
 
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 مع وجود ورقة العمل في متناول أيدينا، يمكننا الآن الوصول إلى الرسم البياني الذي نعتزم تصميمه.
 
 ```csharp
-//احصل على الرسم البياني الأول في الورقة
+// احصل على الرسم البياني الأول في الورقة
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 
 ## الخطوة 6: تكوين اللون
 
- الآن بعد أن أصبحت سلسلتنا جاهزة، نحتاج إلى تعديل لونها. يتضمن هذا إنشاء`CellsColor` الكائن وتحديد لون السمة. سنختار نمطًا مميزًا لهذا المثال.
+ الآن بعد أن أصبحت سلسلتنا جاهزة، نحتاج إلى تعديل لونها. يتضمن هذا إنشاء`CellsColor`الكائن وتحديد لون السمة. سنختار نمطًا مميزًا لهذا المثال.
 
 ```csharp
 // احصل على لون الخلايا من SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//إنشاء موضوع بأسلوب Accent
+// إنشاء موضوع بأسلوب Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

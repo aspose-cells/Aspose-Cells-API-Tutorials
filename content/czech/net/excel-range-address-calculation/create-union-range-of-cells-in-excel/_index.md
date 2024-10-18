@@ -35,7 +35,7 @@ První krok v našem kódu zahrnuje vytvoření instance objektu Workbook. Před
 // Výstupní adresář
 string outputDir = "Your Document Directory"();
 
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 Tento řádek kódu říká našemu programu, aby vytvořil nový sešit. Je to nezbytné, protože do tohoto sešitu budete přidávat rozsahy a hodnoty.

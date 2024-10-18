@@ -53,11 +53,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- 여기서 우리는 열려고 한다는 것을 지정합니다.`book1.xls` 지정된 디렉토리에 위치합니다.`FileMode.Open` 매개변수는 기존 파일을 여는 것을 나타냅니다. 파일 이름이 항상 가지고 있는 파일과 일치하는지 확인하세요.
+여기서 우리는 열려고 한다는 것을 지정합니다.`book1.xls` 지정된 디렉토리에 위치합니다.`FileMode.Open` 매개변수는 기존 파일을 여는 것을 나타냅니다. 파일 이름이 항상 가지고 있는 파일 이름과 일치하는지 확인하세요.
 
 ## 3단계: 통합 문서 개체 인스턴스화
 
- 이제 통합 문서 자체를 작업할 시간입니다. 우리는 다음을 만들 것입니다.`Workbook` 물체.
+ 이제 통합 문서 자체로 작업할 시간입니다. 우리는 다음을 만들 것입니다.`Workbook` 물체.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -83,7 +83,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- 환경`IsRowColumnHeadersVisible` 에게`false` 행과 열의 머리글을 효과적으로 숨겨서 데이터를 더욱 깔끔하게 표현할 수 있습니다.
+ 환경`IsRowColumnHeadersVisible` 에게`false`행과 열의 머리글을 효과적으로 숨겨서 데이터를 더욱 깔끔하게 표현할 수 있습니다.
 
 ## 6단계: 수정된 Excel 파일 저장
 
@@ -103,7 +103,7 @@ workbook.Save(dataDir + "output.xls");
 fstream.Close();
 ```
 
- 닫기`fstream`이는 애플리케이션에서 메모리 누수나 파일 잠금이 열려 있는 상태가 아닌지 확인하는 데 매우 중요합니다.
+ 닫기`fstream` 이는 애플리케이션에서 메모리 누수나 파일 잠금이 열려 있는 상태가 아닌지 확인하는 데 매우 중요합니다.
 
 ## 결론
 
@@ -121,7 +121,7 @@ Aspose.Cells는 Excel 스프레드시트를 관리하기 위한 강력한 .NET �
  무료 체험판을 사용할 수 있지만, 지속적인 상업적 사용을 위해서는 라이선스가 필요합니다. 구매 옵션을 찾을 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells에 대한 지원이 있나요?  
-예, Aspose는 귀하가 액세스할 수 있는 포럼을 통해 지원을 제공합니다.[여기](https://forum.aspose.com/c/cells/9).
+ 예, Aspose는 귀하가 액세스할 수 있는 포럼을 통해 지원을 제공합니다.[여기](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells에 대한 임시 라이센스를 어떻게 받을 수 있나요?  
  평가 목적으로 임시 라이센스를 신청할 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).

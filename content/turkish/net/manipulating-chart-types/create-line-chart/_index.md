@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Sonra, yeni bir çalışma kitabı örneği oluşturmamız gerekiyor. Çalışma Kitabını yaratıcılığınızın akacağı tuval olarak düşünün. 
 
 ```csharp
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 Bu satır tüm verilerinizi ve görsellerinizi tutacak yeni bir çalışma kitabı başlatır.
@@ -99,7 +99,7 @@ Burada, belirtilen konuma bir çizgi grafiği ekliyoruz. Parametreler (5, 0, 25,
 
 ## Adım 6: Yeni Grafik Örneğine Erişim
 
-Grafiğimizi ekledikten sonra, yeni oluşturulan grafik nesnesine el atmanın zamanı geldi. 
+Grafiğimizi ekledikten sonra, yeni oluşturulan grafik nesnesine el atmamızın zamanı geldi. 
 
 ```csharp
 // Yeni eklenen grafiğin örneğine erişim

@@ -43,7 +43,7 @@ Untuk memulai, Anda perlu membuat contoh buku kerja. Ini adalah fondasi berkas E
 Workbook wb = new Workbook();
 ```
 
- Dengan menginisialisasi`Workbook`kami menyiapkan file Excel baru dalam memori, siap untuk dimanipulasi.
+ Dengan menginisialisasi`Workbook`, kami menyiapkan file Excel baru dalam memori, siap untuk dimanipulasi.
 
 ## Langkah 2: Siapkan Pengaturan Buku Kerja
 
@@ -54,7 +54,7 @@ Selanjutnya, kita perlu mengonfigurasi pengaturan untuk buku kerja kita. Ini pen
 wb.Settings.CheckCustomNumberFormat = true;
 ```
 
- Pengaturan`CheckCustomNumberFormat` ke`true` memerintahkan Aspose.Cells untuk mengeluarkan pengecualian setiap kali format yang tidak valid diterapkan, memungkinkan penanganan kesalahan yang lebih baik.
+ Pengaturan`CheckCustomNumberFormat` ke`true` memerintahkan Aspose.Cells untuk memunculkan pengecualian setiap kali format yang tidak valid diterapkan, sehingga memungkinkan penanganan kesalahan yang lebih baik.
 
 ## Langkah 3: Akses Lembar Kerja Pertama
 
@@ -107,7 +107,7 @@ catch (Exception ex)
 }
 ```
 
-Dalam blok kode ini, kami mencoba menetapkan format angka kustom yang tidak valid. Karena kami telah mengaktifkan pengecualian dalam pengaturan buku kerja, ini akan menangkap masalah apa pun dan mencetak pesan kesalahan.
+Dalam blok kode ini, kami mencoba menetapkan format angka kustom yang tidak valid. Karena kami telah mengaktifkan pengecualian dalam pengaturan buku kerja kami, ini akan mendeteksi masalah apa pun dan mencetak pesan kesalahan.
 
 ## Langkah 7: Validasi Eksekusi Sukses
 

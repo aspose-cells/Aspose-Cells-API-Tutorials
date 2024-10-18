@@ -15,9 +15,9 @@ Avez-vous déjà eu besoin d'extraire des fichiers intégrés, en particulier de
 
 Avant de nous plonger dans le processus d'extraction, assurons-nous que vous êtes parfaitement équipé pour le suivre. Voici ce dont vous avez besoin :
 
-- Connaissances de base de C# : une petite connaissance de C# vous sera d'une grande aide. Même si vous débutez, vous devriez être capable de suivre le rythme.
+- Connaissances de base de C# : une connaissance minimale de C# vous sera d'une grande aide. Même si vous débutez, vous devriez être capable de suivre le rythme.
 - Visual Studio : installez Visual Studio sur votre système. Il est nécessaire pour écrire et exécuter votre code C#.
--  Aspose.Cells pour .NET : si vous ne l'avez pas encore téléchargé, rendez-vous sur le[Page de téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/) et récupérez la dernière version.
+- Aspose.Cells pour .NET : si vous ne l'avez pas encore téléchargé, rendez-vous sur le[Page de téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/) et récupérez la dernière version.
 - .NET Framework : assurez-vous que vous disposez d’une version compatible de .NET Framework installée.
 -  Un fichier Excel avec des objets MOL intégrés : pour notre exemple, nous utiliserons`EmbeddedMolSample.xlsx`Assurez-vous que ce fichier est prêt pour l'extraction.
 
@@ -33,7 +33,7 @@ Ouvrez Visual Studio et choisissez de créer une nouvelle application console C#
 
 Dans votre projet nouvellement créé, vous devrez ajouter le package Aspose.Cells. Vous pouvez le faire via le gestionnaire de packages NuGet :
 
-1. Cliquez avec le bouton droit sur votre projet dans l’Explorateur de solutions.
+1. Faites un clic droit sur votre projet dans l’Explorateur de solutions.
 2. Sélectionnez « Gérer les packages NuGet ».
 3. Recherchez « Aspose.Cells » et cliquez sur « Installer ».
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Avec cet extrait, nous utilisons un`foreach` boucle pour parcourir chaque feuille de notre classeur. En accédant à la`OleObjects`collection, nous pouvons accéder à tous les objets intégrés sur cette feuille particulière. 
+ Avec cet extrait, nous utilisons un`foreach` boucle pour parcourir chaque feuille de notre classeur. En accédant à la`OleObjects` collection, nous pouvons accéder à tous les objets intégrés sur cette feuille particulière. 
 
 ## Étape 4 : Extraire les objets OLE
 
@@ -132,7 +132,7 @@ Aspose.Cells pour .NET est une bibliothèque puissante conçue pour manipuler et
 Absolument ! Aspose.Cells vous permet d'extraire divers formats de fichiers intégrés tels que des PDF, des images et bien plus encore, pas seulement des fichiers MOL.
 
 ### Dois-je acheter Aspose.Cells pour l'utiliser ?  
- Bien qu'un essai gratuit soit disponible, une licence est nécessaire pour bénéficier de toutes les fonctionnalités. Vous pouvez[achetez-le ici](https://purchase.aspose.com/buy).
+ Bien qu'une version d'essai gratuite soit disponible, une licence est nécessaire pour bénéficier de toutes les fonctionnalités. Vous pouvez[achetez-le ici](https://purchase.aspose.com/buy).
 
 ### Est-il nécessaire d’avoir Visual Studio pour ce processus ?  
 Bien que nous ayons démontré l’utilisation de Visual Studio, vous pouvez utiliser n’importe quel IDE compatible C# pour exécuter votre projet.

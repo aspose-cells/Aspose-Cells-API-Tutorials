@@ -1,6 +1,6 @@
 ---
-title: A beágyazott Mol fájl kibontása
-linktitle: A beágyazott Mol fájl kibontása
+title: beágyazott Mol fájl kibontása
+linktitle: beágyazott Mol fájl kibontása
 second_title: Aspose.Cells for .NET API Reference
 description: Ismerje meg, hogyan bonthat ki egyszerűen beágyazott MOL-fájlokat egy Excel-munkafüzetből az Aspose.Cells for .NET segítségével.
 type: docs
@@ -17,7 +17,7 @@ Mielőtt belevetnénk magunkat a kitermelési folyamatba, győződjünk meg arr�
 
 - Alapvető C# ismerete: Egy kis C# ismerete sokat segíthet. Még akkor is, ha még csak most kezdi, képesnek kell lennie lépést tartani.
 - Visual Studio: A Visual Studio telepítve legyen a rendszerére. A C# kód írásához és végrehajtásához szükséges.
--  Aspose.Cells for .NET: Ha még nem töltötte le, lépjen a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/) és szerezd be a legújabb verziót.
+- Aspose.Cells for .NET: Ha még nem töltötte le, lépjen a[Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/) és szerezd be a legújabb verziót.
 - .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a .NET-keretrendszer kompatibilis verziója.
 -  Egy Excel-fájl beágyazott MOL-objektumokkal: Példánkban ezt fogjuk használni`EmbeddedMolSample.xlsx`. Győződjön meg arról, hogy ez a fájl készen áll a kibontásra.
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Ezzel a kódrészlettel a`foreach` hurkot, hogy végigmenjen a munkafüzetünk minden lapján. A hozzáféréssel a`OleObjects`gyűjtemény, az adott lapon lévő összes beágyazott objektumhoz hozzáférhetünk. 
+ Ezzel a kódrészlettel a`foreach` hurkot, hogy végigmenjen a munkafüzetünk minden lapján. A hozzáféréssel a`OleObjects` gyűjtemény, az adott lapon lévő összes beágyazott objektumhoz hozzáférhetünk. 
 
 ## 4. lépés: OLE objektumok kibontása
 
@@ -132,7 +132,7 @@ Az Aspose.Cells for .NET egy hatékony könyvtár, amelyet a .NET-alkalmazásoko
 Teljesen! Az Aspose.Cells lehetővé teszi a különböző beágyazott fájlformátumok, például PDF-ek, képek és egyebek kibontását, nem csak MOL-fájlokat.
 
 ### Meg kell vásárolnom az Aspose.Cells-t a használatához?  
- Bár ingyenes próbaverzió áll rendelkezésre, a teljes funkciókhoz licencre van szükség. Tudod[vásárolja meg itt](https://purchase.aspose.com/buy).
+ Bár ingyenes próbaverzió áll rendelkezésre, a teljes funkciókhoz licencre van szükség. Megteheti[vásárolja meg itt](https://purchase.aspose.com/buy).
 
 ### Szükséges-e Visual Studio ehhez a folyamathoz?  
 Miközben bemutattuk a Visual Studio használatát, bármilyen C#-kompatibilis IDE-t használhat a projekt futtatásához.

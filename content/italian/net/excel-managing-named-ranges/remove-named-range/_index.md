@@ -204,7 +204,7 @@ Seguendo questa guida, hai imparato a manipolare intervalli denominati in Excel 
 Aspose.Cells è una libreria .NET progettata per la manipolazione programmatica di file Excel.
 
 ### Posso rimuovere più intervalli denominati contemporaneamente?
-Sì, è possibile scorrere la raccolta di intervalli denominati e rimuoverli in base alle proprie esigenze.
+Sì, è possibile scorrere la raccolta di intervalli denominati e rimuoverli in base alle esigenze.
 
 ### È disponibile una versione di prova?
  Sì, puoi scaricare una versione di prova gratuita di Aspose.Cells[Qui](https://releases.aspose.com/).

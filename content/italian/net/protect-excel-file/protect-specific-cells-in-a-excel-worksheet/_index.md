@@ -41,7 +41,7 @@ La prima cosa che vogliamo fare è definire dove andranno i tuoi file. Questo pa
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Creare la directory se non è già presente.
+//Creare la directory se non è già presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -128,7 +128,7 @@ Infine, salviamo il nostro lavoro in un file Excel.
 // Salvare il file Excel.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
-Questo comando salva la cartella di lavoro nella directory specificata con un nome file di "output.out.xls". Puoi accedere a questo file in qualsiasi momento per vedere le tue celle protette in azione.
+Questo comando salva la cartella di lavoro nella directory specificata con un nome file "output.out.xls". Puoi accedere a questo file in qualsiasi momento per vedere le tue celle protette in azione.
 
 ## Conclusione
 

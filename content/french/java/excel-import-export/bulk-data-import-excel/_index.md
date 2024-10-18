@@ -90,6 +90,6 @@ Absolument ! Aspose.Cells pour Java prend en charge l'importation et l'exportat
 
 ### 5. Existe-t-il des exigences de licence pour utiliser Aspose.Cells pour Java ?
 
-Oui, veuillez consulter les informations de licence sur le site Web d'Aspose pour plus de détails sur les licences et les tarifs.
+Oui, veuillez consulter les informations de licence sur le site Web d'Aspose pour plus de détails sur les licences et les prix.
 
 N'hésitez pas à explorer davantage et à adapter les exemples de code pour répondre à vos besoins spécifiques. Bon codage !

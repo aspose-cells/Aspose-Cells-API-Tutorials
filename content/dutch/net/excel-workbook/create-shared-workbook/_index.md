@@ -18,7 +18,7 @@ Voordat we dieper ingaan op het maken van een gedeelde werkmap, moeten we eerst 
 1. Visual Studio: Zorg ervoor dat Visual Studio op uw machine is geïnstalleerd. Het is een ontwikkelomgeving waarin u uw code kunt schrijven en uitvoeren.
 2.  Aspose.Cells voor .NET: U hebt de Aspose.Cells-bibliotheek nodig. U kunt deze downloaden van[Aspose.Cellen Downloads](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Zorg ervoor dat u het .NET Framework hebt geïnstalleerd. Dit voorbeeld werkt met .NET Core of .NET Framework 4.x.
-4. Basiskennis van C#: Een beetje vertrouwdheid met C#-programmering is al heel wat. Als je basiscode kunt schrijven, moet je goed bezig zijn!
+4. Basiskennis van C#: Een beetje vertrouwdheid met C#-programmering is al heel wat. Als je basiscode kunt schrijven, dan moet je goed bezig zijn!
 
 Zodra u aan deze vereisten voldoet, kunt u beginnen met het maken van uw gedeelde werkmap.
 
@@ -32,7 +32,7 @@ Nu we onze omgeving gereed hebben, importeren we de benodigde pakketten zodat we
 3. Geef uw project een naam, bijvoorbeeld 'SharedWorkbookExample'.
 
 ### Aspose.Cells installeren
-1. Klik met de rechtermuisknop op uw project in Solution Explorer en selecteer “NuGet-pakketten beheren”.
+1. Klik met de rechtermuisknop op uw project in de Solution Explorer en selecteer “NuGet-pakketten beheren”.
 2. Zoek naar "Aspose.Cells" en installeer het. Dit zal de benodigde referenties aan uw project toevoegen.
 
 ### Voeg richtlijnen toe
@@ -47,7 +47,7 @@ using System.Text;
 
 En zo heb je jezelf klaargestoomd voor succes! Laten we de stappen doorlopen om een gedeelde werkmap te maken.
 
-Nu komen we bij het sappige gedeelte! Hier is hoe je een gedeelde werkmap maakt met Aspose.Cells voor .NET, opgesplitst in eenvoudig te volgen stappen.
+Nu komen we bij het sappige gedeelte! Hier ziet u hoe u een gedeelde werkmap maakt met Aspose.Cells voor .NET, opgesplitst in eenvoudig te volgen stappen.
 
 ## Stap 1: Stel de uitvoermap in
 
@@ -70,7 +70,7 @@ Workbook wb = new Workbook();
 
 ## Stap 3: Deel het werkboek
 
-Het is tijd om van uw werkboek een collaboratief meesterwerk te maken! Door het te delen, kunnen meerdere gebruikers er tegelijkertijd toegang toe hebben.
+Het is tijd om van uw werkboek een collaboratief meesterwerk te maken! Door het te delen kunnen meerdere gebruikers er tegelijkertijd toegang toe krijgen.
 
 ```csharp
 //Deel het werkboek
@@ -78,7 +78,7 @@ wb.Settings.Shared = true;
 ```
  Instelling`wb.Settings.Shared` naar`true`geeft aan dat deze werkmap door meerdere gebruikers tegelijk kan worden geopend. Het is alsof je de sleutels van je huis aan vrienden geeft — ze kunnen komen en gaan wanneer ze willen!
 
-## Stap 4: De gedeelde werkmap opslaan
+## Stap 4: Sla de gedeelde werkmap op
 
 Nu uw werkboek helemaal klaar is om te delen, is het tijd om de wijzigingen op te slaan. Dit is het moment van de waarheid!
 

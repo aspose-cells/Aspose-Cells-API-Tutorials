@@ -9,7 +9,7 @@ url: /pl/net/excel-page-setup/set-excel-print-options/
 ---
 ## Wstęp
 
-Czy masz dość prezentowania arkuszy Excela, które wyglądają niedbale po wydrukowaniu? Cóż, jesteś we właściwym miejscu! Dzisiaj zanurzamy się w świat Aspose.Cells dla .NET, solidnej biblioteki, która pozwala programistom na łatwe tworzenie, manipulowanie i drukowanie arkuszy kalkulacyjnych Excela. W tym samouczku skupimy się na ustawianiu opcji drukowania w dokumencie Excela. Wyobraź sobie: stworzyłeś idealny arkusz kalkulacyjny wypełniony cennymi danymi, wykresami i spostrzeżeniami, ale gdy przychodzi do drukowania, wygląda on nijako i nieprofesjonalnie. Wyeliminujmy ten problem i dowiedzmy się, jak bez wysiłku przygotować dokumenty do druku! 
+Czy jesteś zmęczony prezentowaniem arkuszy Excela, które wyglądają niedbale po wydrukowaniu? Cóż, jesteś we właściwym miejscu! Dzisiaj zanurzamy się w świat Aspose.Cells dla .NET, solidnej biblioteki, która pozwala programistom na łatwe tworzenie, manipulowanie i drukowanie arkuszy kalkulacyjnych Excela. W tym samouczku skupimy się na ustawianiu opcji drukowania w dokumencie Excela. Wyobraź sobie: stworzyłeś idealny arkusz kalkulacyjny wypełniony cennymi danymi, wykresami i spostrzeżeniami, ale gdy przychodzi do drukowania, wygląda on nijako i nieprofesjonalnie. Wyeliminujmy ten problem i dowiedzmy się, jak bez wysiłku przygotować dokumenty do druku! 
 
 ## Wymagania wstępne
 
@@ -28,7 +28,7 @@ Aby rozpocząć korzystanie z Aspose.Cells w projekcie, musisz zaimportować odp
 
 ### Otwórz swoje IDE
 
-Najpierw uruchom Visual Studio lub preferowane IDE .NET. Przygotujmy grunt, importując i przygotowując właściwy pakiet do uruchomienia.
+Najpierw uruchom Visual Studio lub preferowane IDE .NET. Przygotujmy grunt, importując właściwy pakiet i przygotowując go do uruchomienia.
 
 ### Dodaj odniesienie do Aspose.Cells
 
@@ -38,7 +38,7 @@ Musisz dodać odwołanie do biblioteki Aspose.Cells w swoim projekcie. Oto jak t
 - Kliknij „Zarządzaj pakietami NuGet”.
 - Wyszukaj „Aspose.Cells” i kliknij „Zainstaluj”. 
 
-W ten sposób masz pewność, że wszystkie niezbędne funkcje Aspose.Cells masz na wyciągnięcie ręki.
+ten sposób masz pewność, że wszystkie niezbędne funkcje Aspose.Cells masz na wyciągnięcie ręki.
 
 ### Korzystanie z przestrzeni nazw
 
@@ -56,7 +56,7 @@ Teraz zabierzmy się do roboty i zanurzmy się w kodzie! Przejdziemy przez ustaw
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
-Pierwszy krok polega na określeniu, gdzie będzie się znajdował plik Excel. Zamiast zakodować ścieżki na stałe w całym kodzie, zachowajmy porządek i ład.
+Pierwszy krok polega na określeniu, gdzie będzie się znajdował plik Excel. Zamiast kodować ścieżki na stałe w całym kodzie, zachowajmy porządek i ład.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -65,12 +65,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać plik Excela. Pomyśl o tym jak o ustawieniu przestrzeni roboczej przed rozpoczęciem projektu!
 
-## Krok 2: Utwórz instancję skoroszytu
+## Krok 2: Utwórz wystąpienie skoroszytu
 
  Następnie musimy utworzyć`Workbook` obiekt. Ten obiekt działa jako kontener dla danych arkusza kalkulacyjnego.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 

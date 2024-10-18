@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Następnie musimy utworzyć instancję klasy Workbook, która będzie zawierać nasz plik Excela.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 // Otwieranie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Tworząc wystąpienie skoroszytu z naszego strumienia plików, możemy teraz man
 
 ## Krok 4: Dodaj nowy arkusz kalkulacyjny
 
-Oto ekscytująca część! Dodajmy nowy arkusz do naszego skoroszytu. Robimy to za pomocą`Add()` metoda z`Worksheets`kolekcja.
+ Oto ekscytująca część! Dodajmy nowy arkusz do naszego skoroszytu. Można to zrobić za pomocą`Add()` metoda z`Worksheets`kolekcja.
 
 ```csharp
 // Dodawanie nowego arkusza do obiektu Skoroszyt
 int i = workbook.Worksheets.Add();
 ```
 
- Za pomocą tej linijki kodu dodajemy nowy arkusz, a indeks tego nowego arkusza jest przechwytywany w zmiennej`i`.
+Za pomocą tej linijki kodu dodajemy nowy arkusz, a indeks tego nowego arkusza jest przechwytywany w zmiennej`i`.
 
 ## Krok 5: Uzyskaj odniesienie do nowo dodanego arkusza kalkulacyjnego
 
@@ -109,7 +109,7 @@ Po zakończeniu modyfikacji nadszedł czas na zapisanie skoroszytu. Ten krok zat
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Tutaj zapisujemy nasz skoroszyt jako`output.out.xls`. Możesz nazwać ten plik jak chcesz; upewnij się tylko, że jest zapisany w odpowiednim katalogu.
+ Tutaj zapisujemy nasz skoroszyt jako`output.out.xls`Możesz nazwać ten plik jak chcesz; upewnij się tylko, że jest zapisany w odpowiednim katalogu.
 
 ## Krok 8: Zamknij strumień plików
 

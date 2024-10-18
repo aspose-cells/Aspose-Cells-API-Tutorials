@@ -63,7 +63,7 @@ Den här raden initierar ett nytt arbetsboksobjekt som vi kommer att ändra.
 Varje arbetsbok kan ha flera kalkylblad, och för vårt syfte kommer vi åt det första. Tänk på det som att öppna en flik i en Excel-fil.
 
 ```csharp
-//Åtkomst till det första kalkylbladet i Excel-filen
+// Åtkomst till det första kalkylbladet i Excel-filen
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Nu har vi tillgång till det första arbetsbladet där vi kommer att skapa vårt
 Nu är det dags att skapa det namngivna intervallet. Ett namngivet område låter dig definiera en specifik uppsättning celler i ditt kalkylblad.
 
 ```csharp
-//Skapa ett namngivet intervall
+// Skapa ett namngivet intervall
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ När du har gjort alla dessa ändringar är nästa steg att spara arbetsboken. D
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Den här raden sparar dina ändringar i en fil med namnet`outputCreateNamedRangeofCells.xlsx`. Se till att den angivna sökvägen är korrekt; annars kommer programmet att ge ett fel!
+ Den här raden sparar dina ändringar i en fil med namnet`outputCreateNamedRangeofCells.xlsx`. Se till att den angivna sökvägen är korrekt; annars kommer programmet att ge ett fel!
 
 ## Steg 8: Verifiera att operationen lyckades
 

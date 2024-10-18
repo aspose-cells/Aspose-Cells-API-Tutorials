@@ -1,7 +1,7 @@
 ---
 title: Exportar valor de string HTML de células para DataTable no Excel
 linktitle: Exportar valor de string HTML de células para DataTable no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como exportar valores de string HTML de células do Excel para um DataTable usando o Aspose.Cells para .NET em um tutorial simples passo a passo.
 type: docs
 weight: 11
@@ -60,7 +60,7 @@ Você começará definindo o diretório onde seu arquivo Excel de exemplo está 
 string sourceDir = "Your Document Directory";
 ```
 
- Certifique-se de substituir`"Your Document Directory"` com o caminho real para o seu arquivo Excel.
+ Certifique-se de substituir`"Your Document Directory"` com o caminho real para seu arquivo Excel.
 
 ## Etapa 2: Carregue o arquivo Excel de amostra
 
@@ -82,7 +82,7 @@ Worksheet ws = wb.Worksheets[0];
 
 Aqui, estamos trabalhando com a primeira planilha (índice 0). Certifique-se de que seus dados estejam na planilha correta.
 
-## Etapa 4: Especifique as opções de exportação da tabela
+## Etapa 4: especifique as opções de exportação da tabela
 
 Para controlar como os dados são exportados, você precisa configurar`ExportTableOptions`. Neste caso, você quer garantir que os nomes das colunas não sejam exportados e quer que os dados das células sejam exportados como strings HTML:
 

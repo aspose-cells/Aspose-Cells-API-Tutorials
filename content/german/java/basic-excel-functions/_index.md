@@ -9,7 +9,7 @@ url: /de/java/basic-excel-functions/
 ---
 ## Einführung in grundlegende Excel-Funktionen
 
-In der Welt der Tabellenkalkulationsmanipulation ist das Verständnis grundlegender Excel-Funktionen die Grundlage für eine effektive Datenverarbeitung. Mit Aspose.Cells für Java können Sie in dieses grundlegende Wissen eintauchen. In dieser Tutorial-Reihe führen wir Sie durch grundlegende Excel-Funktionen und vermitteln Ihnen die Fähigkeiten, die Sie benötigen, um effizient mit Tabellenkalkulationen zu arbeiten.
+In der Welt der Tabellenkalkulationsbearbeitung ist das Verständnis grundlegender Excel-Funktionen die Grundlage für eine effektive Datenverarbeitung. Mit Aspose.Cells für Java können Sie in dieses grundlegende Wissen eintauchen. In dieser Tutorial-Reihe führen wir Sie durch grundlegende Excel-Funktionen und vermitteln Ihnen die Fähigkeiten, die Sie benötigen, um effizient mit Tabellenkalkulationen zu arbeiten.
 
 ## Erste Schritte mit Aspose.Cells für Java:
 

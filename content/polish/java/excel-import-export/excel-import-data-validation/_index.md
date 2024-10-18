@@ -2,7 +2,7 @@
 title: Walidacja danych importu Excela
 linktitle: Walidacja danych importu Excela
 second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak wdrożyć walidację importu danych Excela przy użyciu Aspose.Cells for Java dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij dokładność danych i popraw wrażenia użytkownika.
+description: Dowiedz się, jak wdrożyć walidację importu danych Excela przy użyciu Aspose.Cells dla Java dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij dokładność danych i popraw wrażenia użytkownika.
 type: docs
 weight: 18
 url: /pl/java/excel-import-export/excel-import-data-validation/
@@ -21,7 +21,7 @@ Aby rozpocząć naszą podróż, najpierw musimy skonfigurować środowisko prog
 
 2.  Pobierz Aspose.Cells: Odwiedź[Strona pobierania Aspose.Cells dla Java](https://releases.aspose.com/cells/java/) aby pobrać bibliotekę. Postępuj zgodnie z podanymi instrukcjami instalacji.
 
-3. Utwórz projekt Java: Skonfiguruj nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
+3. Utwórz projekt Java: Utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
 
 4. Dodaj Aspose.Cells do swojego projektu: Dodaj bibliotekę Aspose.Cells do swojego projektu jako zależność.
 
@@ -67,7 +67,7 @@ Tak, możesz dostosować reguły walidacji danych, aby odpowiadały konkretnym w
 ### Jakie typy walidacji danych są obsługiwane?
 Aspose.Cells for Java obsługuje różne typy walidacji danych, w tym liczby całkowite, liczby dziesiętne, daty, długości tekstu i inne.
 
-### Czy Aspose.Cells dla Java nadaje się do złożonej walidacji danych?
+### Czy Aspose.Cells for Java nadaje się do złożonej walidacji danych?
 Tak, Aspose.Cells for Java nadaje się do obsługi złożonych scenariuszy walidacji danych, co czyni go potężnym narzędziem do przetwarzania danych.
 
 ## Wniosek

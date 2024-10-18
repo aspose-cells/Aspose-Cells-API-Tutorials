@@ -28,7 +28,7 @@ Seçtiğiniz IDE'de yeni bir Java projesi oluşturarak başlayın. Buna "DataVal
 
 Projenizde Aspose.Cells for Java'yı kullanmak için Aspose.Cells kütüphanesini eklemeniz gerekir. Kütüphaneyi web sitesinden indirebilir ve projenizin sınıf yoluna ekleyebilirsiniz.
 
-## Çalışma Sayfasına Veri Doğrulaması Ekleme
+## Bir Çalışma Sayfasına Veri Doğrulaması Ekleme
 
 Artık projenizi kurduğunuza göre, bir çalışma sayfasına veri doğrulaması eklemeye başlayalım. İlk olarak, yeni bir Excel çalışma kitabı ve bir çalışma sayfası oluşturun.
 

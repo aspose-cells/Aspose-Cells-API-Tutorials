@@ -19,7 +19,7 @@ url: /ko/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
    
 2.  Aspose.Cells for .NET: Aspose.Cells for .NET을 설치해야 합니다. 여기에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 
-3. 샘플 Excel 파일: 차트가 포함된 샘플 Excel 파일을 가져옵니다. 이 튜토리얼에서는 다음 이름의 파일을 사용합니다.`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`프로젝트 디렉토리에 있는지 확인하세요.
+3.  샘플 Excel 파일: 차트가 포함된 샘플 Excel 파일을 가져옵니다. 이 튜토리얼에서는 다음 이름의 파일을 사용합니다.`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`프로젝트 디렉토리에 있는지 확인하세요.
 
 4. 기본 프로그래밍 지식: C# 프로그래밍에 익숙하다면 쉽게 따라갈 수 있습니다.
 
@@ -56,11 +56,11 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
- 바꾸다`"Your Document Directory"`Excel 파일이 저장된 경로를 사용합니다.
+ 바꾸다`"Your Document Directory"` Excel 파일이 저장된 경로를 사용합니다.
 
 ## 2단계: 통합 문서 로드
 
- 다음으로 Excel 파일을 로드합니다.`Workbook` 객체. 이를 통해 파일의 모든 내용에 액세스할 수 있습니다.
+ 다음으로 Excel 파일을 로드합니다.`Workbook`객체. 이를 통해 파일의 모든 내용에 액세스할 수 있습니다.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -117,7 +117,7 @@ Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfu
 
 ## 결론
 
-이 가이드를 사용하면 Aspose.Cells for .NET을 사용하여 차트 시리즈에서 X 및 Y 값의 유형을 성공적으로 검색하고 식별할 수 있어야 합니다. 데이터를 기반으로 결정을 내리든 시각적으로 표현해야 하든 이러한 값을 이해하는 것이 중요합니다. 따라서 계속해서 더 탐구하고 데이터 프레젠테이션을 더 의미 있게 만들어 보세요!
+이 가이드를 사용하면 Aspose.Cells for .NET을 사용하여 차트 시리즈에서 X 및 Y 값의 유형을 성공적으로 검색하고 식별할 수 있어야 합니다. 데이터에 따라 결정을 내리든 시각적으로 표현해야 하든 이러한 값을 이해하는 것이 중요합니다. 따라서 계속해서 더 탐구하고 데이터 프레젠테이션을 더 의미 있게 만들어 보세요!
 
 ## 자주 묻는 질문
 

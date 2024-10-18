@@ -18,11 +18,11 @@ Kodlama ve grafik düzenlemenin inceliklerine dalmadan önce, birkaç ön koşul
 ### C# Temel Bilgisi
 - C# programlama diline aşinalık şarttır. C# sözdiziminde gezinebiliyorsanız, zaten bir adım öndesiniz!
 
-### Aspose.Cells .NET Kütüphanesi
+### Aspose.Cells for .NET Kütüphanesi
 -  Aspose.Cells kütüphanesinin yüklü olması gerekir. Eğer henüz yüklü değilse, endişelenmeyin! Bunu şu adresten kolayca indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
 
 ### Geliştirme Ortamı
-- C# kodunuzu sorunsuz bir şekilde yazabileceğiniz ve çalıştırabileceğiniz geliştirme ortamınızı (örneğin Visual Studio) kurun.
+- C# kodunuzu sorunsuz bir şekilde yazıp çalıştırabileceğiniz geliştirme ortamınızı (örneğin Visual Studio) kurun.
 
 ### Grafikli Excel Dosyası
 - Bu eğitim için kullanabileceğimiz en azından bir grafiğin bulunduğu bir Excel dosyasına sahip olmak faydalı olacaktır.
@@ -31,7 +31,7 @@ Listenizdeki bu ön koşulları tamamladığınızda, grafik boyutunu ve konumun
 
 ## Paketleri İçe Aktar
 
-Artık her şey ayarlandığına göre, gerekli paketleri içe aktaralım. Bu adım çok önemlidir çünkü Excel dosyalarını işlemek için gereken Aspose.Cells sınıflarına ve yöntemlerine erişmemizi sağlar.
+Artık her şey ayarlandığına göre, gerekli paketleri içe aktaralım. Bu adım önemlidir çünkü Excel dosyalarını işlemek için gereken Aspose.Cells sınıflarına ve yöntemlerine erişmemizi sağlar.
 
 ```csharp
 using System;
@@ -93,7 +93,7 @@ chart.ChartObject.X = 250;
 chart.ChartObject.Y = 150;
 ```
 
- Artık doğru boyuta sahip olduğumuza göre, grafiği hareket ettirelim!`X` Ve`Y` özellikleri, aslında çalışma sayfasındaki tabloyu yeniden konumlandırıyoruz. Bunu, çerçeveli resminizi güzelliğini daha iyi sergilemek için duvardaki yeni bir noktaya sürüklemek gibi düşünün!
+ Artık doğru boyuta sahip olduğumuza göre, grafiği hareket ettirelim!`X` Ve`Y` özellikleri, aslında çalışma sayfasındaki tabloyu yeniden konumlandırıyoruz. Bunu, çerçeveli resminizi güzelliğini daha iyi sergilemek için duvardaki yeni bir noktaya sürüklemek olarak düşünün!
 
 ## Adım 7: Çalışma Kitabını Kaydedin
 

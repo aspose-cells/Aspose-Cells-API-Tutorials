@@ -2,7 +2,7 @@
 title: Eksportuj Excela do HTML Java
 linktitle: Eksportuj Excela do HTML Java
 second_title: Aspose.Cells Java Excel Processing API
-description: Dowiedz się, jak eksportować Excel do HTML w Javie przy użyciu Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
+description: Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
 type: docs
 weight: 19
 url: /pl/java/excel-import-export/export-excel-to-html-java/

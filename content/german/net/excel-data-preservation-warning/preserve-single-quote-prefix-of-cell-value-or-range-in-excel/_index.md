@@ -1,6 +1,6 @@
 ---
-title: Behalten Sie das einfache Anführungszeichen als Präfix eines Zellenwerts oder -bereichs in Excel bei
-linktitle: Behalten Sie das einfache Anführungszeichen als Präfix eines Zellenwerts oder -bereichs in Excel bei
+title: Beibehalten des einfachen Anführungszeichenpräfixes des Zellenwerts oder -bereichs in Excel
+linktitle: Beibehalten des einfachen Anführungszeichenpräfixes des Zellenwerts oder -bereichs in Excel
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
 description: Erfahren Sie in diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET einfache Anführungszeichen in Excel-Zellen beibehalten.
 type: docs
@@ -129,7 +129,7 @@ Range rng = ws.Cells.CreateRange("A1");
 rng.ApplyStyle(st, flag);
 ```
 
- Hier ist der Haken! Durch die Angabe`flag.QuotePrefix = false`sagen wir dem Programm: „Hey, rühr das bestehende Präfix nicht an.“ Was passiert also?
+ Hier ist der Haken! Durch die Angabe`flag.QuotePrefix = false`sagen wir dem Programm: „Hey, rühr das vorhandene Präfix nicht an.“ Was passiert also?
 
 ## Schritt 7: Überprüfen Sie das Zitatpräfix erneut
 
@@ -183,17 +183,17 @@ Und da haben Sie es! Indem Sie diese Schritte befolgen, haben Sie gelernt, wie S
 
 ## Häufig gestellte Fragen
 
-### Was ist der Zweck des einfachen Anführungszeichens als Präfix in Excel?  
+### Was ist der Zweck des einfachen Anführungszeichenpräfixes in Excel?  
 Das Präfix mit einfachen Anführungszeichen weist Excel an, den Wert als Text zu behandeln. Dadurch wird sichergestellt, dass er nicht als Zahl oder Formel interpretiert wird.
 
 ### Kann ich Aspose.Cells in Webanwendungen verwenden?  
 Ja! Aspose.Cells für .NET funktioniert gut sowohl mit Desktop- als auch mit Webanwendungen.
 
-### Gibt es Leistungsaspekte bei der Verwendung von Aspose.Cells?  
+### Gibt es bei der Verwendung von Aspose.Cells Leistungsaspekte?  
 Im Allgemeinen ist Aspose.Cells auf Leistung optimiert, bei sehr großen Datensätzen ist es jedoch immer gut, Speicher und Geschwindigkeit zu testen.
 
 ### Wie kann ich Hilfe erhalten, wenn ich auf Probleme stoße?  
  Besuchen Sie die[Support-Forum](https://forum.aspose.com/c/cells/9) für Unterstützung durch die Community und das Aspose-Personal.
 
 ### Kann ich Aspose.Cells ohne Kauf ausprobieren?  
- Auf jeden Fall! Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+ Auf jeden Fall! Sie können eine kostenlose Testversion nutzen[Hier](https://releases.aspose.com/).

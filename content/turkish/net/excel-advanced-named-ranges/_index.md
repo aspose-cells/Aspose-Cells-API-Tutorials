@@ -15,13 +15,13 @@ Gelişmiş Excel işlevlerine daldığınızda, adlandırılmış aralıklar ön
 
 Aspose.Cells for .NET kullanarak adlandırılmış bir aralıktaki hücreleri zahmetsizce nasıl tanımlayacağınızla başlayalım. İşlem sorunsuz! Öncelikle Excel dosyanızda adlandırılmış bir aralık tanımlayacaksınız. Aspose bunu inanılmaz derecede kullanıcı dostu hale getiriyor. Tek ihtiyacınız olan, verilerinize erişmek ve bunları düzenlemek için birkaç satır kod. Adlandırılmış bir aralıktaki belirli hücreleri tanımlayabildiğinizde, iş akışınızı önemli ölçüde kolaylaştırabilirsiniz. 
 
-Şunu düşünün: Adlandırılmış aralıklarla işaretlenmiş farklı bölgelere sahip bir satış raporunuz var. Bilgiyi çıkarmak istediğiniz her seferinde filtrelemek yerine, doğrudan ad üzerinden erişebilirsiniz. Bu yalnızca zamandan tasarruf sağlamakla kalmaz, aynı zamanda hataları da en aza indirir. Bunu ayrıntılı olarak incelemek istiyorsanız, şu eğitimimize göz atın:[Adlandırılmış Aralıktaki Hücreleri Tanımlama](./identify-cells-in-named-range/). 
+ Şunu düşünün: Adlandırılmış aralıklarla işaretlenmiş farklı bölgelere sahip bir satış raporunuz var. Bilgiyi çıkarmak istediğiniz her seferinde filtrelemek yerine, doğrudan ad üzerinden erişebilirsiniz. Bu yalnızca zamandan tasarruf sağlamakla kalmaz, aynı zamanda hataları da en aza indirir. Bunu ayrıntılı olarak incelemek istiyorsanız, şu eğitimimize göz atın:[Adlandırılmış Aralıktaki Hücreleri Tanımlama](./identify-cells-in-named-range/). 
 
 ## Excel'de Adlandırılmış Aralıktaki Hücreleri Birleştirme
 
 Sırada görsel olarak en çekici ancak pratik işlemlerden biri var: Adlandırılmış bir aralıktaki hücreleri birleştirmek. E-tablolarınızı daha düzenli hale getirmek mi istiyorsunuz? Hücreleri birleştirmek, birden fazla sütun veya satıra yayılan başlıklar oluşturmanıza yardımcı olarak raporunuza temiz ve profesyonel bir görünüm kazandırır. .NET için Aspose.Cells'i kullanarak hücreleri birleştirmek bundan daha basit olamazdı. 
 
-Bu işlevselliğin güzelliği kullanım kolaylığında yatar. Hücreleri programatik olarak birleştirebilirsiniz, bu da biçimlendirmenizin otomatikleştirilebileceği anlamına gelir. Her seferinde başlığın otomatik olarak birleştirildiği haftalık raporlar oluşturmayı hayal edin. Aspose ile bu görev yalnızca birkaç tıklama ve kod satırı alır. Bunu nasıl yapacağınızı merak ediyor musunuz? Kılavuzumuza gidin[Adlandırılmış Aralıktaki Hücreleri Birleştirme](./merge-cells-in-named-range/).
+ Bu işlevselliğin güzelliği kullanım kolaylığında yatar. Hücreleri programatik olarak birleştirebilirsiniz, bu da biçimlendirmenizin otomatikleştirilebileceği anlamına gelir. Her seferinde başlığın otomatik olarak birleştirildiği haftalık raporlar oluşturmayı hayal edin. Aspose ile bu görev yalnızca birkaç tıklama ve kod satırı alır. Bunu nasıl yapacağınızı merak ediyor musunuz? Kılavuzumuza gidin[Adlandırılmış Aralıktaki Hücreleri Birleştirme](./merge-cells-in-named-range/).
 
 ## Excel Eğitimlerinde Adlandırılmış Aralıklarla Gelişmiş İşlemler
 ### [Excel'de Adlandırılmış Aralıktaki Hücreleri Tanımlama](./identify-cells-in-named-range/)

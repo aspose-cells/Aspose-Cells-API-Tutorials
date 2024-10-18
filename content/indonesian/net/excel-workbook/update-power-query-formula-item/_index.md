@@ -9,7 +9,7 @@ url: /id/net/excel-workbook/update-power-query-formula-item/
 ---
 ## Perkenalan
 
-Jika Anda pernah bekerja dengan Excel, Anda tahu betapa hebatnya Excel—terutama saat Anda mulai mendalami Power Query. Ini adalah resep rahasia yang memungkinkan Anda mengubah, membersihkan, dan menganalisis data dengan mudah. Salah satu cara praktis untuk memanipulasi rumus Power Query di Excel adalah melalui Aspose.Cells untuk .NET. Hari ini, kami akan memandu Anda memperbarui item rumus Power Query langkah demi langkah. Jadi, ambil topi koding Anda, dan mari kita mulai!
+Jika Anda pernah bekerja dengan Excel, Anda tahu betapa hebatnya Excel—terutama saat Anda mulai mendalami Power Query. Ini adalah rahasia yang memungkinkan Anda mengubah, membersihkan, dan menganalisis data dengan mudah. Salah satu cara praktis untuk memanipulasi rumus Power Query di Excel adalah melalui Aspose.Cells for .NET. Hari ini, kami akan memandu Anda memperbarui item rumus Power Query langkah demi langkah. Jadi, ambil topi koding Anda, dan mari kita mulai!
 
 ## Prasyarat
 
@@ -24,7 +24,7 @@ Sebelum Anda masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
 5. .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang kompatibel.
 
-Sekarang perlengkapan kita sudah siap, kita dapat melanjutkan ke bagian yang menyenangkan: menulis kode!
+Sekarang perlengkapan kita sudah siap, kita dapat lanjut ke bagian yang menyenangkan: menulis kode!
 
 ## Paket Impor
 
@@ -112,10 +112,10 @@ Selamat! Anda telah berhasil memperbarui item rumus Power Query menggunakan Aspo
 ### Apa itu Aspose.Cells?
 Aspose.Cells adalah pustaka yang hebat untuk memanipulasi file Excel dalam aplikasi .NET tanpa perlu menginstal Microsoft Excel.
 
-### Apakah saya perlu Microsoft Excel untuk menjalankan Aspose.Cells?
+### Apakah saya memerlukan Microsoft Excel untuk menjalankan Aspose.Cells?
 Tidak, Aspose.Cells memungkinkan Anda membuat dan mengedit file Excel secara terprogram tanpa memerlukan Excel di server atau mesin pengembangan Anda.
 
-### Jenis file Excel apa yang dapat saya gunakan menggunakan Aspose.Cells?
+### Jenis berkas Excel apa yang dapat saya gunakan menggunakan Aspose.Cells?
 Anda dapat bekerja dengan .xlsx, .xls, .xlsm, dan beberapa format Excel lainnya menggunakan Aspose.Cells.
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Cells?

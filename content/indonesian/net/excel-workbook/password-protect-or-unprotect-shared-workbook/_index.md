@@ -9,7 +9,7 @@ url: /id/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
 ---
 ## Perkenalan
 
-Dalam ruang kerja digital saat ini, berbagi dokumen merupakan skenario umum yang memerlukan pertimbangan keamanan yang cermat. Saat bekerja dengan file Excel, terutama buku kerja bersama, melindungi informasi sensitif menjadi sangat penting. Dalam panduan ini, saya akan memandu Anda melalui langkah-langkah untuk melindungi dan membuka proteksi kata sandi buku kerja bersama menggunakan Aspose.Cells for .NET. Pada akhirnya, Anda akan merasa yakin dalam mengelola keamanan Excel seperti seorang profesional!
+Dalam ruang kerja digital saat ini, berbagi dokumen merupakan skenario umum yang memerlukan pertimbangan keamanan yang cermat. Saat bekerja dengan file Excel, terutama buku kerja bersama, melindungi informasi sensitif menjadi sangat penting. Dalam panduan ini, saya akan memandu Anda melalui langkah-langkah untuk melindungi kata sandi dan membuka perlindungan buku kerja bersama menggunakan Aspose.Cells for .NET. Pada akhirnya, Anda akan merasa yakin dalam mengelola keamanan Excel seperti seorang profesional!
 
 ## Prasyarat
 
@@ -64,7 +64,7 @@ Sekarang tibalah bagian yang menarik – melindungi buku kerja kita. Dengan mene
 wb.ProtectSharedWorkbook("1234");
 ```
 
-Dalam kasus ini, "1234" adalah kata sandi kita. Anda dapat mengubahnya sesuai keinginan Anda. Perintah ini mengunci buku kerja, mencegah penyuntingan yang tidak sah.
+Dalam kasus ini, "1234" adalah kata sandi kami. Anda dapat mengubahnya sesuai keinginan Anda. Perintah ini mengunci buku kerja, mencegah penyuntingan yang tidak sah.
 
 ## Langkah 4: (Opsional) Buka Proteksi Buku Kerja
 

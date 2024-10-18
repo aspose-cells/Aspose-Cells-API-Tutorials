@@ -11,7 +11,7 @@ url: /zh/net/excel-copy-worksheet/excel-copy-worksheet/
 
 在数据处理领域，电子表格无处不在——从管理销售数据到组织项目数据。但是当自动化成为必需时，您如何管理这些文件？好吧，如果您使用 .NET，Aspose.Cells 是一款出色的以编程方式操作 Excel 文件的工具。在本文中，我们将指导您使用 Aspose.Cells for .NET 在 Excel 文件中复制工作表。当您需要在新工作表中复制数据而无需从头开始时，这是一项常见任务。
 
-所以，系好安全带吧！我们将深入探讨这一过程，但方式简单、对话式且清晰。
+所以，系好安全带吧！我们将深入探讨这个过程，但方式简单、对话式且清晰。
 
 ## 先决条件
 
@@ -40,7 +40,7 @@ Install-Package Aspose.Cells
 - Visual Studio（或任何与 .NET 兼容的 IDE）
 - .NET Framework 或 .NET Core
 
-所有东西安装并设置完毕后，我们就可以开始编码了！
+所有东西安装并设置完毕后，我们就开始编码吧！
 
 ## 导入包
 
@@ -122,7 +122,7 @@ wb.Save(dataDir + "CopyWithinWorkbook_out.xls");
 Aspose.Cells 支持多种 Excel 格式，包括`.xls`, `.xlsx`, `.csv`, `.html`等等。
 
 ### 我需要许可证才能使用 Aspose.Cells for .NET 吗？
-是的，为了避免水印并充分发挥图书馆的潜力，您需要有效的许可证。但是，您可以申请[免费临时驾照](https://purchase.aspose.com/temporary-license)购买前先试用一下。
+是的，为了避免水印并充分发挥图书馆的潜力，您需要有效的许可证。但是，您可以申请[免费临时执照](https://purchase.aspose.com/temporary-license)购买前先试用一下。
 
 ### 我可以在.NET Core 上运行 Aspose.Cells 吗？
 是的，Aspose.Cells 与 .NET Framework 和 .NET Core 完全兼容，使其适用于跨平台应用程序。

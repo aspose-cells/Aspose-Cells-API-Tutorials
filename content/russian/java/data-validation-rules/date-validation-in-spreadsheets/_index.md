@@ -2,7 +2,7 @@
 title: Проверка дат в электронных таблицах
 linktitle: Проверка дат в электронных таблицах
 second_title: API обработки Java Excel Aspose.Cells
-description: Узнайте, как выполнять проверку дат в таблицах Excel с помощью Aspose.Cells для Java. Обеспечьте точность и целостность данных с помощью нашего пошагового руководства. Изучите мощные методы обработки Excel.
+description: Узнайте, как выполнять проверку даты в таблицах Excel с помощью Aspose.Cells для Java. Обеспечьте точность и целостность данных с помощью нашего пошагового руководства. Изучите мощные методы обработки Excel.
 type: docs
 weight: 14
 url: /ru/java/data-validation-rules/date-validation-in-spreadsheets/

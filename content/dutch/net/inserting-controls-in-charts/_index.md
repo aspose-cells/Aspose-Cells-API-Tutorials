@@ -15,13 +15,13 @@ Aspose.Cells voor .NET is een krachtige bibliotheek waarmee ontwikkelaars moeite
 
 Wilt u extra context toevoegen aan uw Excel-grafieken? Labels kunnen een groot verschil maken bij het markeren van belangrijke punten en het begrijpelijker maken van de gegevens. Met Aspose.Cells voor .NET kunt u eenvoudig labelbesturingselementen toevoegen aan uw grafieken. Beschouw labels als naamlabels: ze geven uw grafiekelementen duidelijkheid. Door een stapsgewijze handleiding te volgen, weet u precies waar u ze moet plaatsen en hoe ze het begrip van de gegevens verbeteren.
 
-[Labelbesturingselement toevoegen aan grafiek](./add-label-control-to-chart/) voor een gedetailleerde tutorial en til uw diagrammen naar een hoger niveau!
+[Labelbesturingselement toevoegen aan grafiek](./add-label-control-to-chart/) voor een gedetailleerde tutorial en til uw grafiekbeelden naar een hoger niveau!
 
 ## Afbeeldingen toevoegen aan grafieken
 
-Een afbeelding zegt meer dan duizend woorden, toch? Dit geldt ook voor Excel-grafieken. Met Aspose.Cells voor .NET is het toevoegen van afbeeldingen aan uw grafieken net zo eenvoudig als het invoegen van clipart in een Word-document. Afbeeldingen kunnen helpen om uw grafieken visueel aantrekkelijker te maken en de betrokkenheid bij de gegevens die u presenteert te vergroten. Of u nu financiële gegevens of verkoopcijfers presenteert, het toevoegen van relevante afbeeldingen helpt de gegevens met het verhaal te verbinden.
+Een afbeelding zegt meer dan duizend woorden, toch? Dit geldt ook voor Excel-grafieken. Met Aspose.Cells voor .NET is het toevoegen van afbeeldingen aan uw grafieken net zo eenvoudig als het invoegen van clipart in een Word-document. Afbeeldingen kunnen helpen om uw grafieken visueel aantrekkelijker te maken en de betrokkenheid bij de gegevens die u presenteert te vergroten. Of u nu financiële gegevens of verkoopcijfers presenteert, het toevoegen van relevante afbeeldingen helpt de gegevens te verbinden met het verhaal.
 
-Benieuwd hoe dit werkt? Bekijk de[Afbeelding toevoegen aan grafiek](./add-picture-to-chart/) handleiding.
+ Benieuwd hoe dit werkt? Bekijk de[Afbeelding toevoegen aan grafiek](./add-picture-to-chart/) handleiding.
 
 ## Tekstvakken en selectievakjes invoegen
 

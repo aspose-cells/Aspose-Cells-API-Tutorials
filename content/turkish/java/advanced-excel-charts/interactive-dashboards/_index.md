@@ -10,7 +10,7 @@ url: /tr/java/advanced-excel-charts/interactive-dashboards/
 
 ## giriiş
 
-Veri odaklı karar alma süreçlerinin hızlı dünyasında, etkileşimli gösterge panelleri önemli bir rol oynar. Verileri görselleştirmek için dinamik ve sezgisel bir yol sunarak işletmelerin içgörüler elde etmesini ve bilinçli seçimler yapmasını kolaylaştırır. Aspose.Cells for Java, ham verileri anlamlı ve etkileşimli görselleştirmelere dönüştürebilen etkileşimli gösterge panelleri oluşturmak için güçlü bir araç seti sunar. Bu adım adım kılavuzda, sıfırdan etkileşimli gösterge panelleri oluşturmak için Aspose.Cells for Java'yı nasıl kullanacağınızı keşfedeceğiz.
+Veri odaklı karar alma süreçlerinin hızlı dünyasında, etkileşimli gösterge panelleri önemli bir rol oynar. Verileri görselleştirmek için dinamik ve sezgisel bir yol sunarak işletmelerin içgörüler elde etmesini ve bilinçli seçimler yapmasını kolaylaştırır. Aspose.Cells for Java, ham verileri anlamlı ve etkileşimli görselleştirmelere dönüştürebilen etkileşimli gösterge panelleri oluşturmak için güçlü bir araç seti sunar. Bu adım adım kılavuzda, sıfırdan etkileşimli gösterge panelleri oluşturmak için Aspose.Cells for Java'yı nasıl kullanacağımızı keşfedeceğiz.
 
 ## Ön koşullar
 
@@ -78,7 +78,7 @@ Düğmeler panomuzda eylemleri tetikleyebilir. Tıklandığında grafik verileri
 worksheet.getShapes().addShape(MsoDrawingType.BUTTON, 1, 1, 3, 1);
 Button button = (Button) worksheet.getShapes().get(0);
 
-//Düğme görünümünü ve davranışını özelleştirin
+//Düğmenin görünümünü ve davranışını özelleştirin
 button.setText("Update Chart");
 button.setActionType(MsoButtonActionType.HYPERLINK);
 button.setHyperlink("Sheet1!A2");

@@ -82,7 +82,7 @@ Pada baris ini, kita menargetkan lembar kerja pertama. Jika Anda perlu membuka p
 
 ## Langkah 4: Membuka Proteksi Lembar Kerja
 
-Berikut bagian yang penting — membuka proteksi lembar kerja! Jika tidak ada kata sandi yang ditetapkan, ini adalah satu kalimat sederhana:
+Berikut bagian yang penting — membuka proteksi lembar kerja! Jika tidak ada kata sandi yang ditetapkan, cukup dengan satu kalimat sederhana:
 
 ```csharp
 worksheet.Unprotect();

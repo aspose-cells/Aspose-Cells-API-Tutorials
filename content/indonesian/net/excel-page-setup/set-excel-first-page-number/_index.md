@@ -99,7 +99,7 @@ workbook.Save(dataDir + "SetFirstPageNumber_out.xls");
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil mengatur nomor halaman pertama lembar kerja Excel menggunakan Aspose.Cells for .NET. Fitur kecil ini dapat membuat perbedaan besar, terutama di lingkungan profesional atau akademis yang mana presentasi dokumen penting.
+Nah, itu dia! Anda telah berhasil mengatur nomor halaman pertama lembar kerja Excel menggunakan Aspose.Cells for .NET. Fitur kecil ini dapat membuat perbedaan besar, terutama di lingkungan profesional atau akademis yang mengutamakan presentasi dokumen.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -8,7 +8,7 @@ weight: 12
 url: /vi/net/excel-working-with-hyperlinks/add-link-to-url/
 ---
 ## Giới thiệu
-Bạn có muốn cải thiện bảng tính Excel của mình bằng cách thêm siêu liên kết không? Có thể bạn muốn liên kết đến một trang web hoặc một tài liệu khác – dù bằng cách nào, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng tôi sẽ giải quyết cách thêm liên kết đến URL trong tệp Excel bằng Aspose.Cells cho .NET. Cho dù bạn là người chuyên nghiệp hay người mới bắt đầu, tôi sẽ chia nhỏ thành các bước đơn giản, hấp dẫn giúp bạn tạo bảng tính như một phù thủy. Vậy nên, hãy lấy đồ uống yêu thích của bạn, ngồi vào chỗ và bắt đầu thôi!
+Bạn có muốn cải thiện bảng tính Excel của mình bằng cách thêm siêu liên kết không? Có thể bạn muốn liên kết đến một trang web hoặc một tài liệu khác – dù bằng cách nào, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng tôi sẽ giải quyết cách thêm liên kết đến URL trong tệp Excel bằng Aspose.Cells cho .NET. Cho dù bạn là người chuyên nghiệp hay người mới bắt đầu, tôi sẽ chia nhỏ thành các bước đơn giản, hấp dẫn giúp bạn tạo bảng tính như một phù thủy. Vì vậy, hãy lấy đồ uống yêu thích của bạn, ngồi vào chỗ và bắt đầu thôi!
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào các chi tiết cơ bản để thêm siêu liên kết vào Excel bằng Aspose.Cells, bạn cần phải đáp ứng một số điều kiện tiên quyết sau:
 1. .NET Framework: Đảm bảo bạn đã thiết lập môi trường .NET cần thiết. Aspose.Cells tương thích với nhiều phiên bản .NET khác nhau, vì vậy hãy chọn phiên bản phù hợp nhất với dự án của bạn.
@@ -26,7 +26,7 @@ Bắt đầu bằng cách tạo một dự án C# mới trong IDE của bạn. C
 3. Duyệt đến vị trí bạn đã tải xuống Aspose.Cells và chọn vị trí đó.
 4. Nhấp vào "OK" để thêm tài liệu tham khảo.
 ### Thêm Sử dụng Chỉ thị
-Ở đầu tệp mã, bạn cần đưa vào lệnh sau để có thể dễ dàng truy cập không gian tên Aspose.Cells.
+Ở đầu tệp mã, bạn cần đưa vào lệnh sau để có thể dễ dàng truy cập vào không gian tên Aspose.Cells.
 ```csharp
 using System;
 using System.IO;
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Thay đổi theo con đường
 ## Bước 2: Tạo một đối tượng Workbook
  Ở đây, chúng ta sẽ tạo một phiên bản của`Workbook` lớp. Hãy nghĩ về sổ làm việc như một trang giấy trắng cho bảng tính của bạn.
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 Ở giai đoạn này, về cơ bản bạn đã nói: "Này Aspose, chúng ta hãy tạo một tệp Excel mới!"

@@ -10,7 +10,7 @@ url: /de/java/advanced-excel-charts/custom-chart-templates/
 
 ## Benutzerdefinierte Diagrammvorlage
 
-In der sich ständig weiterentwickelnden Welt der Datenvisualisierung ist das Erstellen benutzerdefinierter Diagrammvorlagen unerlässlich, um die Geschichte Ihrer Daten effektiv zu vermitteln. Aspose.Cells für Java bietet einen leistungsstarken Werkzeugsatz zum Generieren dynamischer und benutzerdefinierter Diagramme in Java-Anwendungen. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie die Funktionen von Aspose.Cells für Java nutzen können, um beeindruckende benutzerdefinierte Diagrammvorlagen zu erstellen. Tauchen Sie ein!
+In der sich ständig weiterentwickelnden Welt der Datenvisualisierung ist das Erstellen benutzerdefinierter Diagrammvorlagen unerlässlich, um die Geschichte Ihrer Daten effektiv zu vermitteln. Aspose.Cells für Java bietet ein leistungsstarkes Toolset zum Generieren dynamischer und benutzerdefinierter Diagramme in Java-Anwendungen. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie die Funktionen von Aspose.Cells für Java nutzen können, um beeindruckende benutzerdefinierte Diagrammvorlagen zu erstellen. Tauchen Sie ein!
 
 ## Aspose.Cells für Java verstehen
 
@@ -51,7 +51,7 @@ public class ChartTemplateExample {
 
 ### Schritt 3: Daten hinzufügen
 
-Bevor Sie ein Diagramm erstellen, benötigen Sie Daten. Sie können Daten entweder aus einer vorhandenen Quelle importieren oder programmgesteuert generieren. Für dieses Beispiel generieren wir Beispieldaten:
+Bevor Sie ein Diagramm erstellen können, benötigen Sie Daten. Sie können Daten entweder aus einer vorhandenen Quelle importieren oder programmgesteuert generieren. Für dieses Beispiel generieren wir Beispieldaten:
 
 ```java
 // Hinzufügen von Daten zu einem Arbeitsblatt
@@ -75,7 +75,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 
 ### Schritt 5: Anwenden benutzerdefinierter Vorlagen
 
-Mit Aspose.Cells für Java können Sie benutzerdefinierte Vorlagen auf Ihre Diagramme anwenden. Sie können das Erscheinungsbild, die Farben, die Beschriftungen und vieles mehr des Diagramms definieren. Hier ist ein Beispiel für die Anwendung einer benutzerdefinierten Vorlage:
+Mit Aspose.Cells für Java können Sie benutzerdefinierte Vorlagen auf Ihre Diagramme anwenden. Sie können das Erscheinungsbild, die Farben, Beschriftungen und mehr des Diagramms definieren. Hier ist ein Beispiel für die Anwendung einer benutzerdefinierten Vorlage:
 
 ```java
 // Laden einer benutzerdefinierten Diagrammvorlage
@@ -104,7 +104,7 @@ Durch das Erstellen benutzerdefinierter Diagrammvorlagen mit Aspose.Cells für J
 
 ### Welche Arten von Diagrammen kann ich mit Aspose.Cells für Java erstellen?
 
-Aspose.Cells für Java unterstützt eine Vielzahl von Diagrammtypen, darunter Balkendiagramme, Liniendiagramme, Streudiagramme, Kreisdiagramme und mehr. Sie können diese Diagramme an Ihre Anforderungen zur Datenvisualisierung anpassen.
+Aspose.Cells für Java unterstützt eine breite Palette von Diagrammtypen, darunter Balkendiagramme, Liniendiagramme, Streudiagramme, Kreisdiagramme und mehr. Sie können diese Diagramme an Ihre Anforderungen zur Datenvisualisierung anpassen.
 
 ### Kann ich meinen Diagrammen benutzerdefinierte Designs hinzufügen?
 

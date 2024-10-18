@@ -46,7 +46,7 @@ Avant de pouvoir manipuler un fichier Excel, vous devez spécifier l'emplacement
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Dans cette étape, vous attribuerez l'emplacement de votre fichier Excel à l'`dataDir` chaîne. Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`.xls` le fichier est localisé.
+ Dans cette étape, vous attribuerez l'emplacement de votre fichier Excel à l'`dataDir` chaîne. Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre`.xls`le fichier est localisé.
 
 ## Étape 2 : Créer un flux de fichiers
 
@@ -61,7 +61,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Étape 3 : instancier l'objet classeur
 
-Pour travailler avec le fichier Excel, nous devons le charger dans un objet Workbook. Cet objet nous permettra d'accéder aux feuilles de calcul individuelles et d'y apporter des modifications.
+Pour travailler avec le fichier Excel, nous devons le charger dans un objet Workbook. Cet objet nous permettra d'accéder aux feuilles de calcul individuelles et d'effectuer des modifications.
 
 ```csharp
 // Instanciation d'un objet Workbook et ouverture du fichier Excel via le flux de fichiers
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Les fichiers Excel contiennent généralement plusieurs feuilles de calcul. Pour ce didacticiel, nous accédons à la première feuille de calcul du classeur.
 
 ```csharp
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,11 +86,11 @@ Worksheet worksheet = workbook.Worksheets[0];
 Vient maintenant la partie amusante : masquer les lignes de la grille ! Avec une seule ligne de code, vous pouvez activer ou désactiver la visibilité des lignes de la grille.
 
 ```csharp
-//Masquer les lignes de la grille de la première feuille de calcul du fichier Excel
+// Masquer les lignes de la grille de la première feuille de calcul du fichier Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
- En définissant le`IsGridlinesVisible` propriété à`false`, nous indiquons à la feuille de calcul de ne pas afficher les lignes de quadrillage lorsqu'elle est visualisée dans Excel. Cela donne à la feuille un aspect plus propre et prêt à être présenté.
+ En définissant le`IsGridlinesVisible` propriété à`false`, nous indiquons à la feuille de calcul de ne pas afficher les lignes de quadrillage lorsqu'elle est affichée dans Excel. Cela donne à la feuille un aspect plus propre et prêt à être présenté.
 
 ## Étape 6 : Enregistrer le fichier Excel modifié
 
@@ -116,7 +116,7 @@ La fermeture du flux de fichiers est cruciale car elle garantit que toutes les r
 
 ## Conclusion
 
-Et voilà ! Vous venez d'apprendre à afficher et à masquer des lignes de quadrillage dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Que vous souhaitiez peaufiner un rapport ou présenter des données dans un format plus lisible, cette technique simple peut avoir un impact significatif sur l'apparence de vos feuilles de calcul. Le meilleur dans tout ça ? Il suffit de quelques lignes de code pour apporter de gros changements. Si vous êtes prêt à essayer, n'oubliez pas de vous procurer un[essai gratuit](https://releases.aspose.com/) et commencez à coder !
+ Et voilà ! Vous venez d'apprendre à afficher et à masquer des lignes de quadrillage dans une feuille de calcul Excel à l'aide d'Aspose.Cells pour .NET. Que vous souhaitiez peaufiner un rapport ou présenter des données dans un format plus lisible, cette technique simple peut avoir un impact significatif sur l'apparence de vos feuilles de calcul. Le meilleur dans tout ça ? Il suffit de quelques lignes de code pour effectuer de gros changements. Si vous êtes prêt à essayer, n'oubliez pas de vous procurer un[essai gratuit](https://releases.aspose.com/) et commencez à coder !
 
 ## FAQ
 
@@ -124,7 +124,7 @@ Et voilà ! Vous venez d'apprendre à afficher et à masquer des lignes de quadr
  Vous pouvez définir`worksheet.IsGridlinesVisible = true;` pour rendre les lignes de la grille à nouveau visibles.
 
 ### Puis-je masquer les lignes de quadrillage uniquement pour des plages ou des cellules spécifiques ?  
- Non, le`IsGridlinesVisible` la propriété s'applique à la feuille de calcul entière, pas à des cellules spécifiques.
+ Non, le`IsGridlinesVisible`la propriété s'applique à la feuille de calcul entière, pas à des cellules spécifiques.
 
 ### Puis-je manipuler plusieurs feuilles de calcul en une seule fois ?  
  Oui ! Vous pouvez parcourir la boucle`Worksheets` collectez et appliquez les modifications à chaque feuille.

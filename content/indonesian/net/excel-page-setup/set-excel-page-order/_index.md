@@ -43,7 +43,7 @@ Anda akan menetapkan variabel yang menunjuk ke direktori dokumen Anda seperti in
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pada baris ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan berkas. Misalnya, jika Anda ingin menyimpan berkas dalam folder bernama "ExcelFiles" di Desktop, tampilannya mungkin seperti ini:
+ Pada baris ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan berkas. Misalnya, jika Anda ingin menyimpan berkas dalam folder bernama "ExcelFiles" di Desktop, mungkin akan terlihat seperti ini:
 
 ```csharp
 string dataDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
@@ -103,7 +103,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ## Kesimpulan
 
-Selamat! Anda baru saja mempelajari cara mengatur urutan halaman di Excel menggunakan Aspose.Cells untuk .NET. Hanya dengan beberapa baris kode, Anda memiliki kemampuan untuk menyesuaikan cara dokumen Excel dicetak, membuatnya mudah diikuti dan menarik secara visual. Fungsionalitas ini sangat berguna, terutama saat menangani kumpulan data besar di mana urutan halaman dapat memengaruhi keterbacaan secara signifikan. 
+Selamat! Anda baru saja mempelajari cara mengatur urutan halaman di Excel menggunakan Aspose.Cells untuk .NET. Hanya dengan beberapa baris kode, Anda memiliki kemampuan untuk menyesuaikan cara dokumen Excel dicetak, membuatnya mudah diikuti dan menarik secara visual. Fungsionalitas ini berguna, terutama saat menangani kumpulan data besar di mana urutan halaman dapat memengaruhi keterbacaan secara signifikan. 
 
 ## Pertanyaan yang Sering Diajukan
 

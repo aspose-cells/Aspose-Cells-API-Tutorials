@@ -1,6 +1,6 @@
 ---
-title: Laat een leidende apostrof toe
-linktitle: Laat een leidende apostrof toe
+title: Laat leidende apostrof toe
+linktitle: Laat leidende apostrof toe
 second_title: Aspose.Cells voor .NET API-referentie
 description: Beheer moeiteloos leidende apostrofs in Excel met Aspose.Cells voor .NET. Deze uitgebreide tutorial leidt u stap voor stap door het proces.
 type: docs
@@ -76,7 +76,7 @@ Controleer nu of de werkmapinstellingen zo zijn geconfigureerd dat voorloopapost
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Door het instellen`QuotePrefixToStyle` Als u de waarde false instelt, instrueren we Aspose.Cells om leidende apostrofs als gewone tekens te behandelen, zodat we ze nauwkeurig kunnen verwerken in onze uitvoer.
+ Door het instellen`QuotePrefixToStyle` naar false, geven we Aspose.Cells de opdracht om leidende apostrofs als gewone tekens te behandelen, zodat we ze nauwkeurig kunnen verwerken in onze uitvoer.
 
 ## Stap 5: Gegevens laden voor slimme markeringen
 

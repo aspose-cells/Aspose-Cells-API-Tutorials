@@ -49,7 +49,7 @@ Először is meg kell határoznunk egy könyvtárat, ahol az Excel fájlunkat t�
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // váltson a kívánt útvonalra.
 
-// Hozzon létre könyvtárat, ha még nincs jelen.
+//Hozzon létre könyvtárat, ha még nincs jelen.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -143,7 +143,7 @@ Igen, megismételheti a zárolási folyamatot bármely más sornál ugyanúgy, m
 Egyedileg jelölheti ki a cellákat, és alkalmazhat zárolási stílusokat, hasonlóan ahhoz, ahogyan egy sort zárolt.
 
 ### Az Aspose.Cells ingyenesen használható?  
-Az Aspose.Cells kereskedelmi termék, de ingyenes próbaverzióval kipróbálhatja[itt](https://releases.aspose.com/).
+ Az Aspose.Cells kereskedelmi termék, de ingyenes próbaverzióval kipróbálhatja[itt](https://releases.aspose.com/).
 
 ### Szükségem van internetkapcsolatra az Aspose.Cells használatához?  
 Nem, az Aspose.Cells egy .NET-könyvtár, és a telepítés után offline is működik.

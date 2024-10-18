@@ -52,7 +52,7 @@ string outDir = "Your Document Directory";
 ```csharp
 Workbook workbook = new Workbook();
 ```
-此行初始化一個新工作簿。將工作簿視為空白畫布，您可以在其中新增 Web 擴充功能和其他功能。
+該行初始化一個新工作簿。將工作簿視為空白畫布，您可以在其中新增 Web 擴充功能和其他功能。
 
 ## 步驟 3：存取 Web 擴充功能和任務窗格集合
 

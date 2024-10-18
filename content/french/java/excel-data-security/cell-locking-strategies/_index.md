@@ -1,6 +1,6 @@
 ---
-title: Stratégies de verrouillage des cellules
-linktitle: Stratégies de verrouillage des cellules
+title: Stratégies de verrouillage cellulaire
+linktitle: Stratégies de verrouillage cellulaire
 second_title: API de traitement Java Excel Aspose.Cells
 description: Apprenez des stratégies efficaces de verrouillage de cellules à l'aide d'Aspose.Cells pour Java. Améliorez la sécurité et l'intégrité des données dans les fichiers Excel grâce à des instructions étape par étape.
 type: docs
@@ -121,7 +121,7 @@ Le verrouillage des cellules est une technique utilisée pour empêcher les modi
 
  Vous pouvez protéger une feuille de calcul Excel entière à l'aide d'Aspose.Cells pour Java en appelant la fonction`protect` méthode sur l'objet de feuille de calcul avec le`ProtectionType.ALL` paramètre.
 
-### Puis-je définir des règles de verrouillage de cellule personnalisées ?
+### Puis-je définir des règles de verrouillage de cellule personnalisées ?
 
 Oui, Aspose.Cells pour Java vous permet de définir des règles de verrouillage de cellules personnalisées pour répondre aux exigences spécifiques de votre projet. Vous pouvez mettre en œuvre des stratégies de verrouillage avancées adaptées à vos besoins.
 

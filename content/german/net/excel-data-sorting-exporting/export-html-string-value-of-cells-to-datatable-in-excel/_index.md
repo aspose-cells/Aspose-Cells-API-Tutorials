@@ -25,7 +25,7 @@ Nachdem diese Voraussetzungen erfüllt sind, können wir mit dem Programmieren b
 
 ## Pakete importieren
 
-Bevor wir mit Aspose.Cells arbeiten können, müssen wir die erforderlichen Pakete importieren. Dazu müssen Sie normalerweise das NuGet-Paket Aspose.Cells zu Ihrem Projekt hinzufügen. So geht's:
+Bevor wir mit der Arbeit mit Aspose.Cells beginnen können, müssen wir die erforderlichen Pakete importieren. Dazu müssen Sie normalerweise das NuGet-Paket Aspose.Cells zu Ihrem Projekt hinzufügen. So geht's:
 
 ### Öffnen Sie den NuGet-Paket-Manager
 
@@ -84,7 +84,7 @@ Hier arbeiten wir mit dem ersten Arbeitsblatt (Index 0). Stellen Sie sicher, das
 
 ## Schritt 4: Optionen für den Tabellenexport festlegen
 
-Um zu steuern, wie die Daten exportiert werden, müssen Sie Folgendes einrichten:`ExportTableOptions`. In diesem Fall möchten Sie sicherstellen, dass die Spaltennamen nicht exportiert werden und die Zellendaten als HTML-Strings exportiert werden:
+Um zu steuern, wie die Daten exportiert werden, müssen Sie Folgendes einrichten:`ExportTableOptions`In diesem Fall möchten Sie sicherstellen, dass die Spaltennamen nicht exportiert werden und die Zellendaten als HTML-Strings exportiert werden:
 
 ```csharp
 ExportTableOptions opts = new ExportTableOptions();

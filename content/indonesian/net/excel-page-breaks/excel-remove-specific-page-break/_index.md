@@ -9,11 +9,11 @@ url: /id/net/excel-page-breaks/excel-remove-specific-page-break/
 ---
 ## Perkenalan
 
-Saat bekerja dengan file Excel, mengelola pemisah halaman bisa jadi sedikit rumit, terutama jika Anda ingin mempertahankan tata letak yang sempurna untuk pencetakan. Pernahkah Anda menemukan diri Anda dalam situasi di mana Anda perlu menghapus pemisah halaman yang mengganggu dari dokumen Anda? Jika demikian, Anda beruntung! Dalam panduan ini, kita akan membahas cara menghapus pemisah halaman tertentu di Excel menggunakan pustaka Aspose.Cells untuk .NET. 
+Saat bekerja dengan file Excel, mengelola pemisah halaman bisa jadi agak rumit, terutama jika Anda ingin mempertahankan tata letak yang sempurna untuk pencetakan. Pernahkah Anda menemukan diri Anda dalam situasi di mana Anda perlu menghapus pemisah halaman yang mengganggu dari dokumen Anda? Jika demikian, Anda beruntung! Dalam panduan ini, kita akan membahas cara menghapus pemisah halaman tertentu di Excel menggunakan pustaka Aspose.Cells untuk .NET. 
 
 ## Prasyarat 
 
-Sebelum kita menyelami seluk-beluk kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini daftar periksa prasyarat singkat:
+Sebelum kita menyelami seluk-beluk kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini daftar periksa prasyaratnya:
 
 1. Visual Studio: Anda memerlukan instalasi Visual Studio yang berfungsi untuk membuat dan menjalankan aplikasi .NET Anda.
 2.  Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Jika Anda belum melakukannya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
@@ -42,7 +42,7 @@ using System;
 
 Jika sudah selesai, mari kita mulai menulis beberapa kode!
 
-Sekarang pengaturan kita sudah siap, kita akan mulai dengan memecah proses menghilangkan hentian halaman tertentu pada berkas Excel menjadi beberapa langkah yang lebih mudah dikelola.
+Sekarang pengaturan kita sudah siap, kita akan mulai dengan membagi proses penghapusan hentian halaman tertentu pada berkas Excel ke dalam langkah-langkah yang lebih mudah dikelola.
 
 ## Langkah 1: Tentukan Direktori Dokumen
 
@@ -53,18 +53,18 @@ Pertama-tama, Anda perlu menentukan di mana dokumen Excel Anda disimpan. Ini mem
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Penjelasan: Ganti`YOUR DOCUMENT DIRECTORY`dengan jalur sebenarnya ke berkas Anda. Di sinilah Anda akan memuat berkas Excel dan menyimpan berkas Excel yang dimodifikasi nanti.
+ Penjelasan: Ganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya ke berkas Anda. Di sinilah Anda akan memuat berkas Excel dan menyimpan berkas Excel yang dimodifikasi nanti.
 
 ## Langkah 2: Membuat Instansiasi Objek Buku Kerja
 
 Berikutnya, kita perlu memuat buku kerja kita. Dalam istilah yang lebih sederhana, anggaplah buku kerja sebagai berkas Excel Anda.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Penjelasan: Baris ini membuat instance baru dari`Workbook` , yang memuat file Excel yang Anda tentukan (dalam contoh ini, namanya`PageBreaks.xls`). 
+Penjelasan: Baris ini membuat instance baru dari`Workbook` , yang memuat file Excel yang Anda tentukan (dalam contoh ini, namanya`PageBreaks.xls`). 
 
 ## Langkah 3: Hapus Pemisah Halaman Horizontal
 
@@ -89,7 +89,7 @@ Penjelasan: Mirip dengan pemisah halaman horizontal, baris ini menghapus pemisah
 
 ## Langkah 5: Simpan Buku Kerja yang Dimodifikasi
 
-Akhirnya, tibalah waktunya untuk menyimpan berkas Excel Anda yang telah diperbarui sehingga semua kerja keras Anda tidak sia-sia!
+Akhirnya, waktunya menyimpan berkas Excel Anda yang telah diperbarui sehingga semua kerja keras Anda tidak sia-sia!
 
 ```csharp
 // Simpan berkas Excel.
@@ -100,7 +100,7 @@ Penjelasan: Di sini kita menyimpan buku kerja dengan nama baru (`RemoveSpecificP
 
 ## Kesimpulan
 
-Nah, itu dia! Menghapus pemisah halaman tertentu dari file Excel menggunakan Aspose.Cells for .NET semudah mengikuti langkah-langkah di atas. Dengan panduan ini, Anda dapat memastikan dokumen Excel Anda diformat dengan sempurna untuk dicetak tanpa pemisah halaman yang mengganggu.
+Nah, itu dia! Menghapus pemisah halaman tertentu dari file Excel menggunakan Aspose.Cells untuk .NET semudah mengikuti langkah-langkah di atas. Dengan panduan ini, Anda dapat memastikan dokumen Excel Anda diformat dengan sempurna untuk dicetak tanpa pemisah halaman yang mengganggu.
 
 ## Pertanyaan yang Sering Diajukan
 

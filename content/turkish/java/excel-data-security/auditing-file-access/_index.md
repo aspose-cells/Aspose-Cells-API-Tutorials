@@ -23,7 +23,7 @@ Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 1. Tercih ettiğiniz entegre geliştirme ortamında (IDE) yeni bir Java projesi oluşturun.
 
-2. Daha önce indirdiğiniz JAR dosyasını ekleyerek Aspose.Cells for Java kütüphanesini projenize ekleyin.
+2. Daha önce indirdiğiniz JAR dosyasını projenize ekleyerek Aspose.Cells for Java kütüphanesini ekleyin.
 
 ## Adım 2: Denetim Günlüğünü Oluşturma
 
@@ -87,7 +87,7 @@ public class ExcelFileManager {
 
 ## Adım 4: Uygulamanızda Denetim Kaydedicisini Kullanma
 
- Artık bizim`FileAccessLogger` Ve`ExcelFileManager` sınıfları, uygulamanızda aşağıdaki şekilde kullanabilirsiniz:
+ Artık bizim de`FileAccessLogger` Ve`ExcelFileManager` sınıfları, uygulamanızda aşağıdaki şekilde kullanabilirsiniz:
 
 ```java
 public class Main {
@@ -118,12 +118,12 @@ Denetim günlüğünü almak için, günlüğün içeriğini okuyabilirsiniz.`fi
 
 ### Günlük formatını veya hedefi özelleştirebilir miyim?
 
- Evet, günlük biçimini ve hedefi değiştirerek özelleştirebilirsiniz.`FileAccessLogger` sınıf. Günlük dosyası yolunu, günlük girişi biçimini değiştirebilir veya hatta Log4j gibi farklı bir günlükleme kitaplığı kullanabilirsiniz.
+ Evet, günlük biçimini ve hedefi değiştirerek özelleştirebilirsiniz.`FileAccessLogger` sınıf. Günlük dosyası yolunu, günlük girişi biçimini değiştirebilir veya hatta Log4j gibi farklı bir günlükleme kitaplığı bile kullanabilirsiniz.
 
 ### Günlük girişlerini kullanıcıya veya dosyaya göre filtrelemenin bir yolu var mı?
 
  Filtreleme mantığını şurada uygulayabilirsiniz:`FileAccessLogger` sınıf. Günlük dosyasına yazmadan önce kullanıcı veya dosya ölçütlerine göre günlük girişlerine koşullar ekleyin.
 
-### Dosyaları açıp kaydetmenin dışında hangi eylemleri günlüğe kaydedebilirim?
+### Dosyaları açıp kaydetmenin dışında başka hangi eylemleri günlüğe kaydedebilirim?
 
  Uzatabilirsiniz`ExcelFileManager` Uygulamanızın gereksinimlerine bağlı olarak dosyaları düzenleme, silme veya paylaşma gibi diğer eylemleri günlüğe kaydetmek için kullanılan sınıf.

@@ -18,7 +18,7 @@ url: /ko/java/advanced-excel-charts/interactive-dashboards/
 
 -  Java용 Aspose.Cells: Java용 Aspose.Cells 라이브러리를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/cells/java/).
 
-## 프로젝트 설정하기
+## 프로젝트 설정
 
 시작하려면 원하는 통합 개발 환경(IDE)에서 새 Java 프로젝트를 만들고 Java 라이브러리용 Aspose.Cells를 프로젝트의 클래스 경로에 추가합니다.
 

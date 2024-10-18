@@ -19,7 +19,7 @@ Antes de começarmos a codificar, vamos garantir que você tenha tudo o que prec
 2.  Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells para .NET. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 3. .NET Framework: certifique-se de que seu projeto esteja configurado para uma versão compatível do .NET Framework (normalmente o .NET Framework 4.0 ou superior funciona bem).
 4. Conhecimento básico de C#: familiaridade com C# e programação orientada a objetos ajudará você a entender melhor o código.
-5. Um editor de texto ou IDE: você precisará disso para escrever seu código C#. O Visual Studio é uma ótima opção.
+5. Um editor de texto ou IDE: você precisará dele para escrever seu código C#. O Visual Studio é uma ótima opção.
 
 ## Pacotes de importação
 
@@ -49,7 +49,7 @@ Para começar, você vai querer garantir que tem um lugar seguro para armazenar 
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crie um diretório se ele ainda não estiver presente.
+//Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ No código acima, estamos declarando o caminho onde nosso arquivo Excel residir�
 Em seguida, criaremos uma instância da classe Workbook. Essa classe é a espinha dorsal de qualquer operação relacionada ao Excel que você executará.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -73,11 +73,11 @@ Workbook workbook = new Workbook();
 Agora que nossa pasta de trabalho está pronta, vamos adicionar a nova planilha!
 
 ```csharp
-// Adicionando uma nova planilha ao objeto Workbook
+// Adicionar uma nova planilha ao objeto Workbook
 int i = workbook.Worksheets.Add();
 ```
 
- Aqui, estamos usando o`Add()` método do`Worksheets` coleção presente dentro do`Workbook` classe. O método retorna um índice (`i`da folha recém-adicionada. É como adicionar uma página ao seu caderno - simples e eficiente!
+ Aqui, estamos usando o`Add()` método do`Worksheets` coleção presente dentro do`Workbook` classe. O método retorna um índice (`i`) da folha recém-adicionada. É como adicionar uma página ao seu caderno - simples e eficiente!
 
 ## Etapa 4: Nomeando sua nova planilha
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Você obtém uma referência à planilha recém-criada usando seu índice`i`. Então, simplesmente definimos seu nome como "Minha Planilha". Nomear suas planilhas dessa forma é uma boa prática, especialmente ao trabalhar com arquivos Excel maiores, onde o contexto é essencial.
+ Você obtém uma referência à planilha recém-criada usando seu índice`i`Então, simplesmente definimos seu nome como "Minha Planilha". Nomear suas planilhas dessa forma é uma boa prática, especialmente ao trabalhar com arquivos Excel maiores, onde o contexto é essencial.
 
 ## Etapa 5: salvando o arquivo Excel
 
@@ -106,7 +106,7 @@ Com apenas uma linha de código, salvamos nossa pasta de trabalho no diretório 
 
 ## Conclusão
 
-aí está! Em apenas algumas etapas simples, abordamos como adicionar uma nova planilha a um arquivo Excel usando C# e Aspose.Cells. Não importa se você está apenas mexendo com código ou trabalhando em um projeto mais extenso, esse recurso pode melhorar muito seu fluxo de trabalho de gerenciamento de dados. 
+E aí está! Em apenas algumas etapas simples, abordamos como adicionar uma nova planilha a um arquivo Excel usando C# e Aspose.Cells. Não importa se você está apenas mexendo com código ou trabalhando em um projeto mais extenso, esse recurso pode melhorar muito seu fluxo de trabalho de gerenciamento de dados. 
 
 Com o Aspose.Cells, as possibilidades são infinitas. Você pode manipular dados de inúmeras maneiras — editando, formatando ou até mesmo criando fórmulas! Então vá em frente e explore mais; seus arquivos do Excel agradecerão por isso.
 

@@ -19,7 +19,7 @@ Antes de sumergirse en el código, asegúrese de tener lo siguiente configurado:
 2. Entorno de desarrollo .NET: asegúrese de que su proyecto esté configurado para usar .NET Framework o .NET Core.
 3. Conocimientos básicos de C#: Debe sentirse cómodo con la programación en C#, especialmente con la programación orientada a objetos (OOP).
 
-Para usuarios avanzados, se puede solicitar una licencia temporal para desbloquear todas las funciones de Aspose.Cells. Puede solicitarla en[aquí](https://purchase.aspose.com/temporary-license/).
+Para usuarios avanzados, se puede solicitar una licencia temporal para desbloquear todas las funciones de Aspose.Cells. Puede solicitar una en[aquí](https://purchase.aspose.com/temporary-license/).
 
 ## Importar paquetes
 

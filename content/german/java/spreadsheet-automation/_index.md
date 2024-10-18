@@ -29,7 +29,7 @@ Optimieren Sie Ihre Tabellenkalkulationsaufgaben mit Aspose.Cells für Java. Leg
 ### [Stapelverarbeitung in Excel](./batch-excel-processing/)
 Entdecken Sie, wie Sie mit Aspose.Cells für Java Stapelverarbeitungsaufgaben in Excel optimieren. Automatisieren Sie die Datenverarbeitung, -konvertierung und -manipulation mit Quellcodebeispielen.
 ### [Automatisierte Dateneingabe](./automated-data-entry/)
-Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Dateneingabe mithilfe von Aspose.Cells für Java effizient automatisieren. Steigern Sie Produktivität und Genauigkeit bei der Datenverarbeitung.
+Erfahren Sie, wie Sie die Dateneingabe mithilfe von Quellcodebeispielen mit Aspose.Cells für Java effizient automatisieren. Steigern Sie Produktivität und Genauigkeit bei der Datenverarbeitung.
 ### [Dynamische Excel-Berichte](./dynamic-excel-reports/)
 Erstellen Sie mit Aspose.Cells für Java ganz einfach dynamische Excel-Berichte. Automatisieren Sie Datenaktualisierungen, wenden Sie Formatierungen an und sparen Sie Zeit.
 ### [Automatisierte Datenextraktion](./automated-data-extraction/)

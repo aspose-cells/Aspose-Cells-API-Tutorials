@@ -134,7 +134,7 @@ Használhat ingyenes próbaverziót, de hosszabb használathoz vagy speciális f
 ### Hol találok további dokumentációt?
  Megtekintheti az Aspose.Cells dokumentációját[itt](https://reference.aspose.com/cells/net/).
 
-### Beállíthatok margókat csak bizonyos oldalakhoz?
+### Csak bizonyos oldalakhoz állíthatok be margót?
 Sajnos a margóbeállítások általában a teljes munkalapra vonatkoznak, nem pedig az egyes oldalakra.
 
 ### Milyen formátumokba menthetem az Excel fájlomat?

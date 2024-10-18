@@ -51,7 +51,7 @@ Vervolgens moet u een nieuwe werkmap maken waaraan u uw afbeelding toevoegt.
 Workbook workbook = new Workbook();
 ```
 
- Deze regel code initialiseert een nieuw exemplaar van de`Workbook` klasse, waarmee u Excel-spreadsheets kunt bewerken.
+ Deze coderegel initialiseert een nieuw exemplaar van de`Workbook` klasse, waarmee u Excel-spreadsheets kunt bewerken.
 
 ## Stap 3: Het pad van de afbeelding definiëren
 
@@ -95,7 +95,7 @@ Nu we de binaire gegevens van de afbeelding bij de hand hebben, kunnen we deze i
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Deze regel plaatst de afbeelding in het centrale gedeelte van de header. De parameter`1`specificeert de headersectie.
+ Deze regel plaatst de afbeelding in het centrale gedeelte van de header. De parameter`1` specificeert de headersectie.
 
 ## Stap 7: De headerinhoud instellen
 
@@ -106,7 +106,7 @@ pageSetup.SetHeader(1, "&G"); // Voegt de afbeelding in
 pageSetup.SetHeader(2, "&A"); // Voegt de bladnaam in
 ```
 
-- De eerste regel voegt de tijdelijke aanduiding voor de afbeelding in (`&G`).
+- De eerste regel voegt de afbeeldingsplaatsaanduiding in (`&G`).
 - De tweede regel voegt de bladnaam toe aan het rechtergedeelte van de koptekst, met behulp van de tijdelijke aanduiding (`&A`).
 
 ## Stap 8: De werkmap opslaan
@@ -142,10 +142,10 @@ Aspose.Cells ondersteunt verschillende formaten, waaronder JPEG, PNG, BMP, GIF e
 Ja, u kunt afzonderlijke afbeeldingen in verschillende secties van de kop- of voettekst invoegen door verschillende tijdelijke aanduidingen te gebruiken.
 
 ### Is Aspose.Cells gratis?
- Aspose.Cells biedt een gratis proefperiode, maar er is een gelicentieerde versie beschikbaar voor volledige toegang en extra functies. U kunt een[tijdelijke licentie hier](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells biedt een gratis proefversie, maar er is een gelicentieerde versie beschikbaar voor volledige toegang en extra functies. U kunt een[tijdelijke licentie hier](https://purchase.aspose.com/temporary-license/).
 
 ### Hoe kan ik problemen oplossen met afbeeldingen die niet worden weergegeven?
 Zorg ervoor dat het pad van de afbeelding correct is en dat het bestand bestaat. Controleer ook de compatibiliteit van de afbeeldingsindeling.
 
 ### Waar kan ik aanvullende documentatie voor Aspose.Cells vinden?
-Gedetailleerde documentatie vindt u hier[hier](https://reference.aspose.com/cells/net/).
+ Gedetailleerde documentatie vindt u hier[hier](https://reference.aspose.com/cells/net/).

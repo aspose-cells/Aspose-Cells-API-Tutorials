@@ -9,7 +9,7 @@ url: /hu/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 ## Bevezetés
 
-mai digitális világban az adatok biztonságos kezelése táblázatokban fontosabb, mint valaha. Akár érzékeny információkat kezel, akár egyszerűen csak azt szeretné, hogy a formázás sértetlen maradjon, az Excel-munkalap egyes celláinak védelme megváltoztathatja a helyzetet. Szerencsére, ha .NET-et használ, az Aspose.Cells ezt a folyamatot egyszerűvé teszi. Ebben a cikkben egy egyszerű, lépésenkénti útmutatót mutatunk be az Excel-munkalap celláinak védelméhez, így biztosítva, hogy adatai biztonságban maradjanak.
+mai digitális világban az adatok biztonságos kezelése táblázatokban fontosabb, mint valaha. Akár érzékeny információkat kezel, akár egyszerűen csak azt szeretné, hogy a formázás sértetlen maradjon, az Excel-munkalap egyes celláinak védelme megváltoztathatja a helyzetet. Szerencsére, ha .NET-et használ, az Aspose.Cells ezt a folyamatot egyszerűvé teszi. Ebben a cikkben egy egyszerű, lépésről lépésre bemutatunk útmutatót az Excel-munkalap celláinak védelméhez, így biztosítva, hogy adatai biztonságban maradjanak.
 
 ## Előfeltételek
 
@@ -52,7 +52,7 @@ Először meg kell határoznia, hová mentse az Excel fájlt. Ezt a következők
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Itt adja meg a könyvtár elérési útját
-// Hozzon létre könyvtárat, ha még nincs jelen.
+//Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -153,7 +153,7 @@ Teljesen! Annyi cellát zárolhat, amennyit csak akar, ha megismétli a cellazá
  Az Aspose.Cells ingyenes próbaverziót kínál, de a további használathoz licenc szükséges. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 
 ### Hol találom a dokumentációt?
- dokumentáció megtalálható[itt](https://reference.aspose.com/cells/net/).
+ A dokumentáció megtalálható[itt](https://reference.aspose.com/cells/net/).
 
 ### Milyen fájlformátumokba menthetem az Excel fájlokat?
 Az Aspose.Cells többféle formátumot támogat, beleértve az XLSX, XLS, CSV és még sok más formátumot.

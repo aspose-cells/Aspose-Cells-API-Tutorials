@@ -30,7 +30,7 @@ Dans votre code Java, importez les classes nécessaires depuis la bibliothèque 
 import com.aspose.cells.*;
 ```
 
-## Étape 3 : Créer un classeur Excel
+## Étape 3 : Création d’un classeur Excel
 
 Créons maintenant un nouveau classeur Excel et une feuille de calcul avec laquelle travailler. Nous ajouterons également quelques exemples de données à la feuille de calcul.
 
@@ -68,7 +68,7 @@ worksheet.getCells().copyRow(worksheet.getCells().getRows().get("2"), worksheet.
 worksheet.getCells().copyRow(worksheet.getCells().getRows().get("2"), worksheet.getCells().getRows().get("4"), new CopyOptions());
 ```
 
-## Étape 6 : enregistrement du fichier Excel
+## Étape 6 : enregistrement du fichier Excel
 
 Enfin, enregistrez le classeur Excel dans un fichier ou un flux.
 
@@ -93,7 +93,7 @@ Oui, vous pouvez imbriquer plusieurs fonctions IF pour créer des conditions com
 
 ### Existe-t-il des exigences de licence pour Aspose.Cells pour Java ?
 
-Oui, Aspose.Cells for Java est une bibliothèque commerciale et vous devrez peut-être obtenir une licence pour l'utiliser dans vos applications. Visitez le site Web d'Aspose pour obtenir des informations sur les licences.
+Oui, Aspose.Cells for Java est une bibliothèque commerciale et vous devrez peut-être obtenir une licence pour l'utiliser dans vos applications. Visitez le site Web d'Aspose pour plus d'informations sur les licences.
 
 ### Puis-je appliquer la fonction SI à une plage de cellules dans Excel ?
 

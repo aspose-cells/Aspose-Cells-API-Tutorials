@@ -43,7 +43,7 @@ Başlamak için bir çalışma kitabı örneği oluşturmanız gerekir. Bu, tüm
 Workbook wb = new Workbook();
 ```
 
- Başlatarak`Workbook`hafızaya yeni bir Excel dosyası yerleştirdik, işleme hazır hale getirdik.
+ Başlatarak`Workbook`, hafızaya yeni bir Excel dosyası kuruyoruz, işleme hazır hale getiriyoruz.
 
 ## Adım 2: Çalışma Kitabı Ayarlarını Yapın
 

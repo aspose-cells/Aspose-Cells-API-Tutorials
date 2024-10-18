@@ -24,7 +24,7 @@ Antes de adentrarnos en los detalles de la creación de un gráfico de líneas, 
 
 ## Importar paquetes
 
-Ahora que hemos configurado nuestro entorno, necesitamos importar los paquetes necesarios en nuestro código C#. Al igual que cuando se reúnen las herramientas antes de comenzar un proyecto, la importación de paquetes es esencial para garantizar que se cuenta con todo lo necesario.
+Ahora que hemos configurado nuestro entorno, necesitamos importar los paquetes necesarios en nuestro código C#. Al igual que cuando se reúnen las herramientas antes de comenzar un proyecto, la importación de paquetes es esencial para garantizar que se tenga todo lo que se necesita.
 
 Aquí te explicamos cómo hacerlo:
 
@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 A continuación, debemos crear una nueva instancia de libro de trabajo. Piense en el libro de trabajo como el lienzo donde fluirá su creatividad. 
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Esta línea inicializa un nuevo libro de trabajo que contendrá todos sus datos y elementos visuales.
@@ -122,14 +122,14 @@ En este ejemplo, le indicamos al gráfico que utilice los valores de las celdas 
 ¡El gran final! Después de todo el trabajo duro, es hora de guardar el archivo de Excel y ver el gráfico de líneas en acción.
 
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(outputDir + "outputHowToCreateLineChart.xlsx");
 ```
  Esta línea guarda su libro de trabajo en el directorio de salida especificado con el nombre`outputHowToCreateLineChart.xlsx`.
 
 ## Paso 9: Ejecutar y verificar
 
-¡Finalmente, ahora puedes ejecutar tu código y verificar que el gráfico de líneas se haya creado correctamente en tu directorio de salida! 
+¡Por fin puedes ejecutar tu código y verificar que el gráfico de líneas se haya creado correctamente en tu directorio de salida! 
 
 ```csharp
 Console.WriteLine("HowToCreateLineChart executed successfully.");

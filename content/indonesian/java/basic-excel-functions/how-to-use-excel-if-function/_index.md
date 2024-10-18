@@ -14,7 +14,7 @@ Dalam dunia manipulasi data, fungsi IF Excel merupakan alat yang hebat yang memu
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 -  Aspose.Cells untuk Java: Anda harus memasang API Aspose.Cells untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
 
@@ -95,7 +95,7 @@ Ya, Anda dapat menumpuk beberapa fungsi IF untuk membuat kondisi yang rumit di E
 
 Ya, Aspose.Cells untuk Java adalah pustaka komersial, dan Anda mungkin perlu memperoleh lisensi untuk menggunakannya dalam aplikasi Anda. Kunjungi situs web Aspose untuk mengetahui detail lisensi.
 
-### Bisakah saya menerapkan fungsi IF ke serangkaian sel di Excel?
+### Dapatkah saya menerapkan fungsi IF ke serangkaian sel di Excel?
 
 Tentu saja! Anda dapat menerapkan fungsi IF Excel ke suatu rentang sel dengan menggunakan referensi sel relatif dalam rumus. Hal ini memungkinkan Anda untuk melakukan operasi bersyarat pada beberapa titik data secara bersamaan.
 

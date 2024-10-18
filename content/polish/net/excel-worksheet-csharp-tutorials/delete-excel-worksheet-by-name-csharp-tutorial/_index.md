@@ -15,9 +15,9 @@ Podczas pracy z plikami Excel programowo, czy to w celu raportowania, analizy da
 
 Zanim zaczniemy, musisz mieć pewność, że masz przygotowane kilka rzeczy:
 
-1. Aspose.Cells for .NET Library: To jest główny komponent, który umożliwia manipulowanie plikami Excel. Jeśli jeszcze go nie zainstalowałeś, możesz[pobierz stąd](https://releases.aspose.com/cells/net/).
-2. Środowisko programistyczne: Powinieneś mieć przygotowane środowisko programistyczne, najlepiej Visual Studio, w którym będziesz mógł pisać i uruchamiać kod C#.
-3. Podstawowa znajomość języka C#: Chociaż dokładnie wyjaśnię każdy krok, podstawowa znajomość języka C# pomoże Ci lepiej nadążać.
+1.  Aspose.Cells for .NET Library: To jest główny komponent, który umożliwia manipulowanie plikami Excel. Jeśli jeszcze go nie zainstalowałeś, możesz[pobierz stąd](https://releases.aspose.com/cells/net/).
+2. Środowisko programistyczne: Powinieneś mieć przygotowane środowisko programistyczne, najlepiej Visual Studio, w którym będziesz mógł pisać i uruchamiać kod w języku C#.
+3. Podstawowa znajomość języka C#: Choć dokładnie wyjaśnię każdy krok, podstawowa znajomość języka C# pomoże Ci lepiej nadążać.
 4. Plik Excel: Powinieneś mieć utworzony plik Excel (w tym samouczku będziemy się odwoływać do „book1.xls”). W tym celu możesz utworzyć prosty plik z kilkoma arkuszami kalkulacyjnymi.
 
 Gdy już spełnisz te wymagania wstępne, będziesz gotowy, aby zająć się kodowaniem!
@@ -58,7 +58,7 @@ Tutaj otwieramy „book1.xls”. Ważne jest, aby ten plik znajdował się w pod
  Następnie musisz utworzyć`Workbook` obiekt. Ten obiekt reprezentuje plik Excel i pozwala manipulować jego zawartością.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 // Otwieranie pliku Excel za pomocą strumienia plików
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Przejdźmy teraz do sedna sprawy — usuwania arkusza kalkulacyjnego po nazwie.
 workbook.Worksheets.RemoveAt("Sheet1");
 ```
 
-tym przykładzie próbujemy usunąć arkusz o nazwie „Arkusz1”. Jeśli ten arkusz istnieje, zostanie pomyślnie usunięty. Jeśli nie istnieje, napotkasz wyjątek, więc upewnij się, że nazwa dokładnie pasuje.
+W tym przykładzie próbujemy usunąć arkusz o nazwie „Arkusz1”. Jeśli ten arkusz istnieje, zostanie pomyślnie usunięty. Jeśli nie istnieje, napotkasz wyjątek, więc upewnij się, że nazwa dokładnie pasuje.
 
 ## Krok 5: Zapisywanie skoroszytu
 
@@ -89,14 +89,14 @@ Możesz zmienić nazwę pliku wyjściowego lub nadpisać oryginalny plik, jeśli
 
 ## Wniosek
 
-I masz to! Udało Ci się pomyślnie nauczyć, jak usunąć arkusz kalkulacyjny Excela według nazwy, używając Aspose.Cells dla .NET. Ta potężna biblioteka pozwala na bezproblemową manipulację plikami Excela, a dzięki tej wiedzy możesz dalej odkrywać edycję i zarządzanie dokumentami Excela dla różnych aplikacji.
+I masz to! Udało Ci się nauczyć, jak usunąć arkusz kalkulacyjny Excela według nazwy, używając Aspose.Cells dla .NET. Ta potężna biblioteka pozwala Ci bez wysiłku manipulować plikami Excela, a dzięki tej wiedzy możesz dalej odkrywać edycję i zarządzanie dokumentami Excela dla różnych aplikacji.
 
 Zachęcamy do eksperymentowania z innymi funkcjami biblioteki Aspose.Cells i nie wahaj się eksperymentować z bardziej złożonymi manipulacjami, gdy już nabierzesz wprawy.
 
 ## Najczęściej zadawane pytania
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje bezpłatną wersję próbną, ale musisz kupić licencję, aby móc dalej korzystać z usługi. Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ Aspose.Cells oferuje bezpłatną wersję próbną, ale musisz kupić licencję, aby móc dalej korzystać z usługi. Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę usunąć wiele arkuszy kalkulacyjnych jednocześnie?
 Możesz iterować kolekcję arkuszy i usuwać wiele arkuszy za pomocą pętli. Upewnij się tylko, że prawidłowo zarządzasz indeksami.

@@ -47,7 +47,7 @@ El primer paso de nuestro viaje es definir la ruta donde se almacenarán sus arc
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Explicación: Reemplazar`YOUR DOCUMENT DIRECTORY`con la ruta actual en su sistema donde desea guardar los archivos de Excel. Este directorio se utilizará más adelante cuando guardemos nuestro libro de trabajo.
+ Explicación: Reemplazar`YOUR DOCUMENT DIRECTORY`con la ruta real en su sistema donde desea guardar los archivos de Excel. Este directorio se utilizará más adelante cuando guardemos nuestro libro de trabajo.
 
 ## Paso 2: Crear una instancia de un objeto de libro de trabajo
 
@@ -77,7 +77,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Explicación: El`PrintQuality` La propiedad se puede configurar con cualquier valor, normalmente entre 75 y 600 ppp (puntos por pulgada). En este caso, la configuramos en 180 ppp, lo cual es ideal para lograr un buen equilibrio entre calidad y tamaño de archivo.
+Explicación: El`PrintQuality` La propiedad se puede configurar con cualquier valor, normalmente entre 75 y 600 ppp (puntos por pulgada). En este caso, la configuramos en 180 ppp, lo cual es ideal para lograr un buen equilibrio entre calidad y tamaño de archivo.
 
 ## Paso 5: Guardar el libro de trabajo
 
@@ -91,12 +91,12 @@ workbook.Save(dataDir + "SetPrintQuality_out.xls");
 
 ## Conclusión
 
-Configurar la calidad de impresión en un archivo de Excel con Aspose.Cells para .NET es muy fácil. Ya sea que esté preparando informes de alta calidad o simplemente garantizando la legibilidad, controlar la calidad de impresión garantiza que sus hojas de cálculo se vean lo mejor posible al imprimirlas. Si sigue esta guía, ahora tendrá los conocimientos necesarios para ajustar la configuración de impresión sin problemas.
+Configurar la calidad de impresión en un archivo Excel con Aspose.Cells para .NET es muy fácil. Ya sea que esté preparando informes de alta calidad o simplemente garantizando la legibilidad, controlar la calidad de impresión garantiza que sus hojas de cálculo se vean lo mejor posible al imprimirlas. Si sigue esta guía, ahora tendrá los conocimientos necesarios para ajustar la configuración de impresión sin problemas.
 
 ## Preguntas frecuentes
 
 ### ¿Cuál es la calidad máxima de impresión que puedo configurar?  
-La máxima calidad de impresión que puede configurar es 600 dpi.
+La máxima calidad de impresión que puede configurar es 600 ppp.
 
 ### ¿Puedo configurar una calidad de impresión diferente para diferentes hojas de trabajo?  
 ¡Sí! Puedes acceder a cada hoja de trabajo por separado y configurar sus calidades de impresión individualmente.

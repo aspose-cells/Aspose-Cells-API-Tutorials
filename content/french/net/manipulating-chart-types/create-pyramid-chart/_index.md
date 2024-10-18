@@ -27,11 +27,11 @@ Une installation fonctionnelle de Visual Studio est recommandée pour coder notr
 ### Licence (facultatif)
  Bien que vous puissiez expérimenter avec l'essai gratuit disponible via le[Lien d'essai gratuit](https://releases.aspose.com/) , pour une utilisation en production, pensez à visiter le[Lien d'achat](https://purchase.aspose.com/buy) ou optez pour une licence temporaire auprès du[Lien vers la licence temporaire](https://purchase.aspose.com/temporary-license/).
 
-Maintenant que tout est prêt, mettons-nous au travail !
+Maintenant que tout est prêt, mettons les mains à la pâte !
 
 ## Paquets d'importation
 
-Avant de commencer à coder, importons les espaces de noms nécessaires. Cette étape est essentielle car elle nous permet d'utiliser les classes et méthodes fournies par la bibliothèque Aspose.Cells.
+Avant de commencer à coder, importons les espaces de noms nécessaires. Cette étape est essentielle car elle nous permet d'utiliser les classes et les méthodes fournies par la bibliothèque Aspose.Cells.
 
 ```csharp
 using System;
@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Ensuite, créons une nouvelle instance d'un classeur. Considérez un classeur comme une toile vierge sur laquelle vous pouvez peindre vos données.
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -163,7 +163,7 @@ Aspose.Cells est une API puissante pour manipuler des fichiers et des graphiques
 Oui, Aspose.Cells propose un essai gratuit vous permettant d'explorer ses fonctionnalités. Cependant, pour une utilisation continue, pensez à acheter une licence.
 
 ### Quels types de graphiques puis-je créer avec Aspose.Cells ?
-Vous pouvez créer différents types de graphiques, notamment des graphiques à barres, à courbes, à secteurs, à aires et pyramidaux, pour n'en citer que quelques-uns.
+Vous pouvez créer différents types de graphiques, notamment des graphiques à barres, à courbes, à secteurs, à aires et en pyramide, pour n'en citer que quelques-uns.
 
 ### Dois-je installer autre chose que la bibliothèque Aspose.Cells ?
 Assurez-vous que des outils de développement .NET tels que Visual Studio sont configurés sur votre ordinateur pour fonctionner de manière transparente avec Aspose.Cells.

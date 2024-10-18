@@ -53,7 +53,7 @@ Dále musíme definovat, jaká data chceme při načítání sešitu odfiltrovat
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-vlnovka (~) operátor označuje, že chceme vyloučit definovaná jména z procesu načítání. To je zásadní, chcete-li si udržet nízkou zátěž a vyhnout se zbytečným datům, která mohou zkomplikovat vaše zpracování.
+vlnovka (~operátor označuje, že chceme vyloučit definovaná jména z procesu načítání. To je zásadní, chcete-li si udržet nízkou zátěž a vyhnout se zbytečným datům, která mohou zkomplikovat vaše zpracování.
 
 ## Krok 3: Načtěte sešit
 

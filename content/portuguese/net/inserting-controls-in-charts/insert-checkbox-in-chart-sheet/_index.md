@@ -1,7 +1,7 @@
 ---
 title: Inserir caixa de seleção na planilha de gráfico
 linktitle: Inserir caixa de seleção na planilha de gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como inserir facilmente uma caixa de seleção em uma planilha de gráfico do Excel usando o Aspose.Cells para .NET com este tutorial passo a passo.
 type: docs
 weight: 13
@@ -25,7 +25,7 @@ Antes de mergulhar no tutorial, vamos garantir que você tenha tudo configurado.
 - Já que escreveremos algum código, um entendimento básico de C# será benéfico. Não se preocupe; explicarei as coisas conforme formos avançando!
 
 ### Diretório de saída
-- Você precisará de um diretório onde seus arquivos Excel de saída serão salvos. Certifique-se de tê-lo à mão.
+- Você precisará de um diretório onde seus arquivos de saída do Excel serão salvos. Certifique-se de tê-lo à mão.
 
 Com esses pré-requisitos verificados em sua lista, estamos prontos para entrar em ação!
 
@@ -91,7 +91,7 @@ Neste código, você está:
 
 Considere esta etapa como a seleção do tipo de moldura que você deseja antes de colocar sua obra de arte dentro dela.
 
-## Etapa 4: Adicionando séries de dados ao seu gráfico
+## Etapa 4: Adicionar séries de dados ao seu gráfico
 
 Neste ponto, vamos preencher o gráfico com algumas séries de dados. Para adicionar dados de amostra:
 ```csharp

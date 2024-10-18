@@ -2,7 +2,7 @@
 title: 从 Excel 单元格中检索数据
 linktitle: 从 Excel 单元格中检索数据
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 本分步教程非常适合初学者和经验丰富的开发人员，学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据。
+description: 本分步教程将帮助您学习如何使用 Aspose.Cells for .NET 从 Excel 单元格中检索数据，非常适合初学者和经验丰富的开发人员。
 type: docs
 weight: 10
 url: /zh/net/excel-data-export-retrieval/retrieve-data-from-cells-in-excel/
@@ -56,7 +56,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-在这里，我们创建一个`Workbook`通过传递 Excel 文件的完整路径来获取工作簿。此步骤初始化工作簿并使其准备好进行数据检索。
+在这里，我们创建一个`Workbook`通过传递 Excel 文件的完整路径来获取工作簿。此步骤将初始化工作簿并使其准备好进行数据检索。
 
 ## 步骤 3：访问第一个工作表
 
@@ -126,7 +126,7 @@ foreach (Cell cell1 in worksheet.Cells)
 
 在此步骤中，我们循环遍历工作表中的每个单元格。对于每个单元格，我们使用`switch`语句。根据类型，我们检索值并将其打印到控制台。以下是案例的细分：
 
--  IsString：如果单元格包含字符串，则使用以下方法检索它`StringValue`.
+-  IsString：如果单元格包含字符串，我们使用以下方法检索它`StringValue`.
 - IsNumeric：对于数值，我们使用`DoubleValue`.
 - IsBool：如果单元格包含布尔值，则我们使用以下方法访问它`BoolValue`.
 - IsDateTime：对于日期和时间值，我们使用`DateTimeValue`.

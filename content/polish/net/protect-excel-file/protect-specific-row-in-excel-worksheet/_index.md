@@ -23,7 +23,7 @@ Gdy już wszystko jest na swoim miejscu, możemy zabrać się do pracy!
 
 ## Importuj pakiety
 
-Przed napisaniem kodu musimy zaimportować niezbędne przestrzenie nazw Aspose.Cells. Przygotowuje to naszą aplikację do korzystania z klas i metod dostarczonych przez bibliotekę Aspose.Cells. Oto, co musisz zrobić:
+Przed napisaniem kodu musimy zaimportować niezbędne przestrzenie nazw Aspose.Cells. To przygotowuje naszą aplikację do korzystania z klas i metod dostarczonych przez bibliotekę Aspose.Cells. Oto, co musisz zrobić:
 
 ### Skonfiguruj swój projekt
 
@@ -39,7 +39,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Teraz, gdy wszystko jest już skonfigurowane, chrońmy konkretny wiersz w naszym arkuszu kalkulacyjnym Excel krok po kroku. Przykład, którego użyjemy, blokuje pierwszy wiersz, ale możesz go dostosować do dowolnego wiersza, jaki chcesz.
+Teraz, gdy wszystko jest już skonfigurowane, chrońmy krok po kroku konkretny wiersz w naszym arkuszu kalkulacyjnym Excel. Przykład, którego użyjemy, blokuje pierwszy wiersz, ale możesz go dostosować do dowolnego wiersza, jaki chcesz.
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
@@ -49,7 +49,7 @@ Najpierw musimy zdefiniować katalog, w którym będziemy przechowywać nasz pli
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // zmień ścieżkę na wybraną przez siebie.
 
-// Utwórz katalog, jeśli jeszcze go nie ma.
+//Utwórz katalog, jeśli jeszcze go nie ma.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -84,7 +84,7 @@ Zanim zablokujemy jakikolwiek wiersz, musimy upewnić się, że wszystkie kolumn
 Style style;
 // Zdefiniuj obiekt styleflag.
 StyleFlag flag;
-// Przejdź przez wszystkie kolumny arkusza kalkulacyjnego i odblokuj je.
+// Przejdź przez wszystkie kolumny arkusza i odblokuj je.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -143,7 +143,7 @@ Tak, możesz powtórzyć proces blokowania dla dowolnego innego rzędu w taki sa
 Możesz wybierać poszczególne komórki i stosować style blokowania, podobnie jak blokujesz wiersz.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
-Aspose.Cells to produkt komercyjny, ale możesz wypróbować go dzięki bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+ Aspose.Cells to produkt komercyjny, ale możesz wypróbować go dzięki bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### Czy do korzystania z Aspose.Cells potrzebuję połączenia internetowego?  
 Nie, Aspose.Cells to biblioteka .NET i po zainstalowaniu może działać w trybie offline.

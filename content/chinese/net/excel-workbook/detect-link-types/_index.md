@@ -43,7 +43,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
-有了这些导入，我们就可以开始像专业人士一样操作我们的 Excel 文件了！
+有了这些导入，我们就可以像专业人士一样开始操作我们的 Excel 文件了！
 
 现在，乐趣就从这里开始！我们将把您提供的代码片段分解为分步指南。每一步都会清晰简洁地解释我们正在做的事情。
 
@@ -144,4 +144,4 @@ Aspose.Cells for .NET 是一个功能强大的库，使开发人员无需安装 
 您可以使用内部、外部、电子邮件，甚至将类型链接到 Excel 文件中的其他文档。
 
 ### 我可以在哪里获得 Aspose.Cells 的支持？  
-如需支持，请访问 Aspose 论坛[这里](https://forum.aspose.com/c/cells/9).
+如需支持，请查看 Aspose 论坛[这里](https://forum.aspose.com/c/cells/9).

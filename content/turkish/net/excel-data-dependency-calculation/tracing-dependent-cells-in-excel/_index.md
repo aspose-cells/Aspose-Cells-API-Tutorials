@@ -9,7 +9,7 @@ url: /tr/net/excel-data-dependency-calculation/tracing-dependent-cells-in-excel/
 ---
 ## giriiş
 
-Excel elektronik tabloları, bir hücreyi değiştirmenin diğer birçok hücreye dalgalar gönderebildiği, birbirine bağlı verilerden oluşan bir ağ gibidir. Peki bu bağlantıları nasıl takip edersiniz? .NET için Aspose.Cells kullanarak Excel'de bağımlı hücreleri izleme dünyasına dalalım! Bu kılavuzda, bağımlı hücreleri nasıl tanımlayacağımızı ve listeleyeceğimizi keşfedeceğiz. 
+Excel elektronik tabloları, bir hücreyi değiştirmenin diğer birçok hücreye dalgalar gönderebildiği, birbirine bağlı verilerden oluşan bir ağ gibidir. Peki bu bağlantıları nasıl takip edersiniz? Aspose.Cells for .NET kullanarak Excel'de bağımlı hücreleri izleme dünyasına dalalım! Bu kılavuzda, bağımlı hücreleri nasıl tanımlayacağımızı ve listeleyeceğimizi keşfedeceğiz. 
 
 ## Ön koşullar
 
@@ -37,7 +37,7 @@ Visual Studio'nuzu açın ve yeni bir C# projesi oluşturun. Bir Konsol Uygulama
    - “NuGet Paketlerini Yönet” seçeneğini seçin.
    - "Aspose.Cells" ifadesini arayın ve paketi yükleyin.
 
-2. Manuel Referans Ekleme (tercih ederseniz): 
+2. Referansı Manuel Olarak Ekleme (tercih ederseniz): 
    -  Aspose.Cells DLL'sini şuradan indirin:[İndirme bağlantısı](https://releases.aspose.com/cells/net/).
    - Projenizde “Referanslar”a sağ tıklayın ve “Referans Ekle”ye tıklayın.
    - İndirdiğiniz DLL dosyasını bulup ekleyin.
@@ -84,7 +84,7 @@ Artık çalışma kitabını açtığımıza göre, tek tek hücrelere elimizi u
 Cells cells = workbook.Worksheets[0].Cells;
 ```
 
- Açıklama: Yukarıdaki kod, çalışma kitabımızdaki ilk çalışma sayfasını (indeks 0) hedefler ve`Cells` Bağımlıları izlemek için üzerinde çalışacağımız koleksiyon.
+Açıklama: Yukarıdaki kod, çalışma kitabımızdaki ilk çalışma sayfasını (indeks 0) hedefler ve`Cells` Bağımlıları izlemek için üzerinde çalışacağımız koleksiyon.
 
 ## Adım 4: Hücreyi seçin
 
@@ -98,7 +98,7 @@ Cell cell = cells["B2"];
 
 ## Adım 5: Bağımlı Hücreleri Alın
 
- Şimdi eğlenceli kısma geliyoruz: Bu bağımlıları izlemek! Bunları kullanarak yakalayacağız`GetDependents` Yöntem.
+ Şimdi eğlenceli kısma geliyoruz: o bağımlıları izlemek! Bunları kullanarak yakalayacağız`GetDependents` yöntem.
 
 ```csharp
 Cell[] ret = cell.GetDependents(true);
@@ -118,7 +118,7 @@ foreach (Cell c in cell.GetDependents(true))
 Console.ReadKey();
 ```
 
- Açıklama: Bu döngü dizimizdeki her bağımlı hücreyi dolaşır ve adını yazdırır—oldukça basit!`Console.ReadKey()` konsol penceresinin bir tuşa basana kadar açık kalmasını sağlar ve böylece çıktıyı okumanız için size zaman tanır.
+Açıklama: Bu döngü dizimizdeki her bağımlı hücreyi dolaşır ve adını yazdırır—oldukça basit!`Console.ReadKey()` konsol penceresinin bir tuşa basana kadar açık kalmasını sağlar ve böylece çıktıyı okumanız için size zaman tanır.
 
 ## Çözüm
 
@@ -133,7 +133,7 @@ Aspose.Cells, .NET uygulamalarında Excel dosyalarını işlemek için güçlü 
  Evet! Aspose bir teklif sunuyor[ücretsiz deneme](https://releases.aspose.com/) Yazılımlarının özelliklerini satın almadan önce keşfetmenize olanak tanır.
 
 ### Aspose.Cells için desteği nasıl alabilirim?
-Destek almak için şuraya başvurabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9)Kullanıcı ve uzmanlardan oluşan bir topluluğun size yardımcı olabileceği yer. 
+ Destek almak için şuraya başvurabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9)Kullanıcı ve uzmanlardan oluşan bir topluluğun size yardımcı olabileceği bir yer. 
 
 ### Aspose.Cells büyük Excel dosyaları için uygun mudur?
 Kesinlikle! Aspose.Cells, büyük Excel dosyalarıyla etkili bir şekilde çalışmak üzere tasarlanmıştır ve sağlam kullanım ve performans sağlar.

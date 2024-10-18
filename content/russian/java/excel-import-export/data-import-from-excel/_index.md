@@ -26,7 +26,7 @@ url: /ru/java/excel-import-export/data-import-from-excel/
 
 Чтобы добавить Aspose.Cells для Java в свой проект, выполните следующие действия:
 
-1.  Загрузите библиотеку Aspose.Cells для Java с веб-сайта[здесь](https://releases.aspose.com/cells/java/).
+1.  Загрузите библиотеку Aspose.Cells для Java с сайта[здесь](https://releases.aspose.com/cells/java/).
 2. Включите загруженный JAR-файл в classpath вашего проекта.
 
 ## Чтение данных из Excel

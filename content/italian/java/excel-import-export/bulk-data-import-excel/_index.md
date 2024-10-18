@@ -8,7 +8,7 @@ weight: 10
 url: /it/java/excel-import-export/bulk-data-import-excel/
 ---
 
-In questa guida completa, ti guideremo attraverso il processo di esecuzione dell'importazione di dati in blocco da Excel utilizzando la potente API Aspose.Cells for Java. Che tu stia gestendo un set di dati di grandi dimensioni o che tu stia semplicemente cercando di semplificare l'elaborazione dei dati, questo tutorial passo dopo passo con esempi di codice sorgente ti aiuterà a raggiungere i tuoi obiettivi in modo efficiente.
+In questa guida completa, ti guideremo attraverso il processo di esecuzione dell'importazione di dati in blocco da Excel utilizzando la potente API Aspose.Cells for Java. Che tu stia gestendo un ampio set di dati o che tu stia semplicemente cercando di semplificare l'elaborazione dei dati, questo tutorial passo dopo passo con esempi di codice sorgente ti aiuterà a raggiungere i tuoi obiettivi in modo efficiente.
 
 ## Introduzione
 

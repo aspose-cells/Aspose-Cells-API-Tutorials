@@ -42,7 +42,7 @@ Begin met het maken van een nieuwe C# Console Application in Visual Studio. Geef
 
 ### Aspose.Cells NuGet-pakket toevoegen
 
-Om het Aspose.Cells-pakket toe te voegen, klikt u met de rechtermuisknop op uw project in Solution Explorer, selecteert u Manage NuGet Packages en zoekt u naar 'Aspose.Cells'. Installeer het pakket om er zeker van te zijn dat u toegang hebt tot alle functionaliteit die we nodig hebben.
+Om het Aspose.Cells-pakket toe te voegen, klikt u met de rechtermuisknop op uw project in Solution Explorer, selecteert u NuGet-pakketten beheren en zoekt u naar 'Aspose.Cells'. Installeer het pakket om er zeker van te zijn dat u toegang hebt tot alle functionaliteit die we nodig hebben.
 
 ## Stap 2: Definieer de gegevenstabel
 

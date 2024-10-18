@@ -9,7 +9,7 @@ url: /pl/net/advanced-chart-operations/setting-chart-data/
 ---
 ## Wstęp
 
-Jeśli chodzi o wizualizację danych, wykresy i diagramy są niezastąpione. Pomagają opowiedzieć historię za pomocą danych, ułatwiając zrozumienie i interpretację złożonych informacji. Aspose.Cells for .NET to doskonała biblioteka, która umożliwia manipulowanie plikami Excela, w tym tworzenie niesamowitych wykresów. W tym samouczku przeprowadzimy Cię przez proces bezproblemowego ustawiania danych wykresu za pomocą Aspose.Cells for .NET.
+Jeśli chodzi o wizualizację danych, wykresy i diagramy są niezastąpione. Pomagają opowiedzieć historię za pomocą danych, ułatwiając zrozumienie i interpretację złożonych informacji. Aspose.Cells dla .NET to doskonała biblioteka, która umożliwia manipulowanie plikami Excela, w tym tworzenie niesamowitych wykresów. W tym samouczku przeprowadzimy Cię przez proces bezproblemowego ustawiania danych wykresu za pomocą Aspose.Cells dla .NET.
 
 ## Wymagania wstępne
 
@@ -52,7 +52,7 @@ Workbook workbook = new Workbook();
 
  Tutaj tworzysz instancję`Workbook` class, która jest zasadniczo Twoim plikiem Excel. Pomyśl o tym jak o pustym płótnie czekającym na wypełnienie go danymi i wykresami. 
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -126,7 +126,7 @@ Już prawie skończyłeś! Teraz zapiszmy twoją pracę.
 workbook.Save(outputDir + "outputSettingChartsData.xlsx");
 ```
 
-Za pomocą tego wiersza kodu zapisujesz skoroszyt jako plik Excela. Uważaj to za ostatni pociągnięcie pędzla na swoim arcydziele – czas pokazać swoją pracę!
+Za pomocą tego wiersza kodu zapisujesz swój skoroszyt jako plik Excela. Uważaj to za ostatni pociągnięcie pędzla na swoim arcydziele – czas pokazać swoją pracę!
 
 ## Krok 10: Wiadomość potwierdzająca
 

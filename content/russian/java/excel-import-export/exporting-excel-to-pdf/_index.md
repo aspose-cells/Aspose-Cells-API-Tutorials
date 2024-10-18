@@ -42,7 +42,7 @@ public class ExcelToPdfConverter {
 
             // При необходимости здесь можно добавить дополнительный код для обработки данных Excel.
 
-            // Сохраните книгу Excel как файл PDF
+            // Сохраните книгу Excel как файл PDF.
             String pdfFilePath = "path/to/output/pdf/file.pdf";
             workbook.save(pdfFilePath, SaveFormat.PDF);
 
@@ -62,7 +62,7 @@ public class ExcelToPdfConverter {
 Загрузив файл Excel, мы можем теперь преобразовать его в формат PDF. Aspose.Cells значительно упрощает этот процесс:
 
 ```java
-// Сохраните книгу Excel как файл PDF
+// Сохраните книгу Excel как файл PDF.
 String pdfFilePath = "path/to/output/pdf/file.pdf";
 workbook.save(pdfFilePath, SaveFormat.PDF);
 ```

@@ -39,7 +39,7 @@ using Aspose.Cells;
 Une fois que vous avez fait cela, vous êtes prêt à commencer à coder.
 
 
-## Étape 1 : chargez votre classeur source
+## Étape 1 : chargez votre classeur source
 
 Pour commencer, nous devons charger le classeur Excel existant dans lequel vous souhaitez appliquer le filtre.
 
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Spécifiez votre répertoire de
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- Dans cette étape, nous déclarons une variable`sourceDir` qui pointe vers l'emplacement de votre fichier Excel. Ensuite, nous créons une nouvelle instance du`Workbook`classe pour charger ce fichier. C'est comme ouvrir le livre que nous voulons lire !
+ Dans cette étape, nous déclarons une variable`sourceDir` qui pointe vers l'emplacement de votre fichier Excel. Ensuite, nous créons une nouvelle instance du`Workbook` classe pour charger ce fichier. C'est comme ouvrir le livre que nous voulons lire !
 
 ## Étape 2 : Accéder à la première feuille de travail
 
@@ -58,7 +58,7 @@ Une fois notre classeur chargé, l’étape suivante consiste à accéder à la 
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Ici, nous exploitons le`Worksheets` Nous collectons notre classeur et accédons à la première feuille (qui est généralement l'index 0). Cette étape est cruciale car toutes nos actions de filtrage seront effectuées sur cette feuille.
+ Ici, nous exploitons le`Worksheets`Nous collectons notre classeur et accédons à la première feuille (qui est généralement l'index 0). Cette étape est cruciale car toutes nos actions de filtrage seront effectuées sur cette feuille.
 
 ## Étape 3 : Définir les paramètres du filtre
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Spécifiez votre répertoire de
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Enfin, nous spécifions où nous voulons que le classeur filtré soit enregistré à l'aide de la commande`Save` méthode. Vous pouvez lui donner un nouveau nom (dans ce cas,`outputAdvancedFilter.xlsx`) pour conserver l'original intact.
+ Enfin, nous spécifions où nous voulons que le classeur filtré soit enregistré à l'aide de la commande`Save` méthode. Vous pouvez lui donner un nouveau nom (dans ce cas,`outputAdvancedFilter.xlsx`) pour conserver l'original intact.
 
 ## Conclusion
 
@@ -100,7 +100,7 @@ Non, Aspose.Cells fonctionne de manière indépendante et ne nécessite pas l'in
  Oui, vous pouvez essayer Aspose.Cells gratuitement en téléchargeant la version d'essai depuis[ici](https://releases.aspose.com/).
 
 ### Puis-je obtenir de l’aide si je rencontre des problèmes ?
-Absolument ! Vous pouvez obtenir le soutien de la communauté sur le[Forum Aspose](https://forum.aspose.com/c/cells/9).
+ Absolument ! Vous pouvez obtenir le soutien de la communauté sur le[Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Comment obtenir une licence temporaire pour Aspose.Cells ?
  Vous pouvez demander une licence temporaire à partir de leur page d'achat[ici](https://purchase.aspose.com/temporary-license/). 

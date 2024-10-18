@@ -35,7 +35,7 @@ using Aspose.Cells;
 
 ## Paso 1: Configurar la ruta del directorio de documentos
 
-Comencemos por definir dónde se almacenarán nuestros archivos de Excel. Este paso es crucial para hacer referencia a los archivos con los que queremos trabajar más adelante en el proceso.
+Comencemos por definir dónde se almacenarán nuestros archivos de Excel. Este paso es fundamental para hacer referencia a los archivos con los que queremos trabajar más adelante en el proceso.
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 A continuación, necesitamos crear una instancia de la clase Workbook, que contendrá nuestro archivo Excel.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 // Abrir el archivo Excel a través del flujo de archivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Al crear una instancia de libro de trabajo a partir de nuestro flujo de archivos
 
 ## Paso 4: Agregar una nueva hoja de trabajo
 
-¡Ahora viene la parte emocionante! Agreguemos una nueva hoja de trabajo a nuestro libro de trabajo. Esto se hace usando el`Add()` método de la`Worksheets`recopilación.
+ ¡Ahora viene la parte emocionante! Agreguemos una nueva hoja de trabajo a nuestro libro de trabajo. Esto se hace usando el`Add()` método de la`Worksheets`recopilación.
 
 ```csharp
 // Agregar una nueva hoja de cálculo al objeto Libro de trabajo
 int i = workbook.Worksheets.Add();
 ```
 
- Con esta línea de código, agregamos una nueva hoja y el índice de esta nueva hoja se captura en la variable`i`.
+Con esta línea de código, agregamos una nueva hoja y el índice de esta nueva hoja se captura en la variable`i`.
 
 ## Paso 5: Obtenga una referencia a la hoja de trabajo recién agregada
 
@@ -102,10 +102,10 @@ worksheet.Name = "My Worksheet";
 
 ## Paso 7: Guarde el archivo Excel
 
-Una vez que hemos completado las modificaciones, es momento de guardar el libro de trabajo. Este paso confirma todos los cambios y nos permite utilizar la hoja de trabajo recién creada en el futuro.
+Una vez que hemos realizado las modificaciones, es momento de guardar el libro de trabajo. Este paso confirma todos los cambios y nos permite utilizar la hoja de trabajo recién creada en el futuro.
 
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(dataDir + "output.out.xls");
 ```
 
@@ -113,7 +113,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## Paso 8: Cerrar el flujo de archivos
 
-Por último, debemos cerrar el flujo de archivos para liberar recursos. Si no lo hacemos, podrían producirse fugas de memoria o problemas de acceso a archivos en el futuro.
+Por último, debemos cerrar el flujo de archivos para liberar recursos. No hacerlo podría provocar fugas de memoria o problemas de acceso a archivos en el futuro.
 
 ```csharp
 // Cerrar el flujo de archivos para liberar todos los recursos

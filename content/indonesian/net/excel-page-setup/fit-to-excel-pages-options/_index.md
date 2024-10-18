@@ -9,7 +9,7 @@ url: /id/net/excel-page-setup/fit-to-excel-pages-options/
 ---
 ## Perkenalan
 
-Selamat datang di panduan utama tentang cara memanfaatkan pustaka Aspose.Cells for .NET yang hebat! Jika Anda pernah merasa frustrasi tentang cara menyesuaikan lembar kerja Excel agar pas dengan rapi di halaman, Anda tidak sendirian. Dalam dunia manipulasi file Excel yang dinamis, memastikan data Anda disajikan dengan baik bisa menjadi tantangan. Hari ini, kita akan menyelami lebih dalam fitur "Fit to Excel Pages Options". Jadi, ambil laptop Anda, dan mari kita mulai!
+Selamat datang di panduan utama tentang cara memanfaatkan pustaka Aspose.Cells for .NET yang hebat! Jika Anda pernah merasa frustrasi tentang cara menyesuaikan lembar kerja Excel agar pas dengan rapi di halaman, Anda tidak sendirian. Dalam dunia manipulasi file Excel yang dinamis, memastikan data Anda disajikan dengan baik bisa jadi sulit. Hari ini, kita akan menyelami lebih dalam fitur "Fit to Excel Pages Options". Jadi, ambil laptop Anda, dan mari kita mulai!
 
 ## Prasyarat
 
@@ -54,9 +54,9 @@ Pertama, mari kita inisialisasi Workbook kita dan akses lembar kerja yang diingi
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

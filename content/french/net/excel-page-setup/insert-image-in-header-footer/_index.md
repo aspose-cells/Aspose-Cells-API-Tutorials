@@ -74,7 +74,7 @@ long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 ```
 
 -  Le`FileStream` est utilisé pour ouvrir l'image en mode lecture.
--  Ensuite, nous déclarons un tableau d’octets`binaryData` pour contenir les données de l'image.
+-  Ensuite, nous déclarons un tableau d'octets`binaryData` pour contenir les données de l'image.
 -  Enfin, nous lisons les données d’image à partir du`FileStream`.
 
 ## Étape 5 : Accéder à l'objet de configuration de page
@@ -95,7 +95,7 @@ Avec les données binaires de l’image à portée de main, nous pouvons mainten
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Cette ligne place l'image dans la partie centrale de l'en-tête. Le paramètre`1`spécifie la section d'en-tête.
+ Cette ligne place l'image dans la partie centrale de l'en-tête. Le paramètre`1` spécifie la section d'en-tête.
 
 ## Étape 7 : Définition du contenu de l'en-tête
 
@@ -107,7 +107,7 @@ pageSetup.SetHeader(2, "&A"); // Insère le nom de la feuille
 ```
 
 - La première ligne insère l'espace réservé à l'image (`&G`).
-- La deuxième ligne ajoute le nom de la feuille dans la partie droite de l'en-tête, en utilisant l'espace réservé (`&A`).
+- La deuxième ligne ajoute le nom de la feuille dans la section droite de l'en-tête, en utilisant l'espace réservé (`&A`).
 
 ## Étape 8 : Enregistrer le classeur
 
@@ -148,4 +148,4 @@ Oui, vous pouvez insérer des images distinctes dans différentes sections de l'
 Assurez-vous que le chemin d'accès à l'image est correct et que le fichier existe. Vérifiez également la compatibilité du format de l'image.
 
 ### Où puis-je trouver de la documentation supplémentaire pour Aspose.Cells ?
-Vous trouverez une documentation détaillée[ici](https://reference.aspose.com/cells/net/).
+ Vous trouverez une documentation détaillée[ici](https://reference.aspose.com/cells/net/).

@@ -17,7 +17,7 @@ Trước khi tìm hiểu sâu hơn về mã, đây là một số điều kiện
 
 1. Kiến thức cơ bản về .NET: Sự quen thuộc với .NET framework là điều cần thiết. Nếu bạn đã từng làm việc với C# hoặc VB.NET, hãy coi như bạn đã sẵn sàng.
 2. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể dễ dàng thực hiện việc này thông qua trình quản lý gói NuGet hoặc tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
-3. Thiết lập IDE: Đảm bảo bạn có Môi trường phát triển tích hợp (IDE) như Visual Studio để sẵn sàng cho việc mã hóa.
+3. Thiết lập IDE: Đảm bảo bạn có Môi trường phát triển tích hợp (IDE) như Visual Studio để sẵn sàng cho việc viết mã.
 4. Tệp Excel mẫu: Bạn có thể sử dụng tệp mẫu ("AllowLeadingApostropheSample.xlsx") mà chúng ta sẽ làm việc trong mã.
 
 Bây giờ bạn đã kiểm tra các điều kiện tiên quyết, hãy nhập các gói cần thiết và thiết lập dự án của mình.
@@ -76,11 +76,11 @@ Bây giờ, bạn sẽ muốn đảm bảo rằng cài đặt sổ làm việc �
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Bằng cách thiết lập`QuotePrefixToStyle` thành sai, chúng ta đang hướng dẫn Aspose.Cells xử lý các dấu nháy đơn đứng đầu như các ký tự thông thường, cho phép chúng ta xử lý chúng một cách chính xác trong đầu ra.
+ Bằng cách thiết lập`QuotePrefixToStyle` thành sai, chúng ta đang hướng dẫn Aspose.Cells xử lý các dấu nháy đơn ở đầu như các ký tự thông thường, cho phép chúng ta xử lý chúng một cách chính xác trong đầu ra.
 
 ## Bước 5: Tải dữ liệu cho Smart Markers
 
-Đã đến lúc tạo nguồn dữ liệu của chúng ta, nguồn dữ liệu này sẽ thay thế các dấu hiệu thông minh trong mẫu Excel.
+Đã đến lúc tạo nguồn dữ liệu của chúng ta, nguồn dữ liệu này sẽ thay thế các dấu thông minh trong mẫu Excel.
 
 ```csharp
 List<DataObject> list = new List<DataObject>

@@ -20,7 +20,7 @@ Avant de vous lancer tête baissée dans le codage, assurons-nous que tout est c
 3. Connaissances de base de C# : si vous connaissez C#, vous trouverez qu'il est beaucoup plus facile de suivre le cours. Savoir comment travailler avec des classes, des méthodes et des objets sera utile.
 4. Un modèle de fichier Excel : pour vous entraîner, vous aurez également besoin d'un fichier Excel avec lequel travailler. Vous pouvez en créer un simple ou télécharger un exemple.
 
-Maintenant que nous avons nos outils et nos connaissances prêts, passons à l'importation des packages nécessaires.
+Maintenant que nos outils et nos connaissances sont prêts, passons à l'importation des packages nécessaires.
 
 ## Paquets d'importation
 
@@ -113,7 +113,7 @@ Aspose.Cells est une bibliothèque robuste permettant de manipuler des fichiers 
 Oui ! Vous pouvez télécharger une version d'essai gratuite sur le site Web d'Aspose.
 
 ### Des connaissances en programmation sont-elles nécessaires pour utiliser Aspose.Cells ?
-Des connaissances de base en programmation C# sont bénéfiques mais pas strictement requises.
+Des connaissances de base en programmation en C# sont bénéfiques mais pas strictement requises.
 
 ### Où puis-je trouver la documentation ?
  Vous pouvez accéder à la documentation[ici](https://reference.aspose.com/cells/net/).

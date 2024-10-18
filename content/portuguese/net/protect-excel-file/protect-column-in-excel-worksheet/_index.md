@@ -16,8 +16,8 @@ Gerenciar dados em planilhas do Excel pode parecer navegar em um labirinto. Em u
 Antes de embarcarmos nessa jornada de proteção de dados, há algumas coisas que você precisa saber para começar:
 
 1. Visual Studio: Certifique-se de ter o Visual Studio instalado no seu computador. É um ambiente amigável para desenvolvimento .NET.
-2.  Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells para .NET. Se você ainda não a instalou, você pode obtê-la em[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
-3. Conhecimento básico de C#: Ter alguma familiaridade com programação em C# ajudará você a entender melhor o código.
+2.  Biblioteca Aspose.Cells: Você precisará da biblioteca Aspose.Cells para .NET. Se você ainda não a instalou, você pode obtê-la do[Página de download do Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. Conhecimento básico de C#: Ter alguma familiaridade com a programação em C# ajudará você a entender melhor o código.
 4. .NET Framework: Certifique-se de ter o .NET Framework configurado. Esta biblioteca funciona perfeitamente com o .NET Framework e o .NET Core.
 
 Agora que resolvemos tudo, vamos seguir em frente e proteger essa coluna!
@@ -51,7 +51,7 @@ Primeiro as coisas mais importantes — você precisa de um lugar para salvar se
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crie um diretório se ele ainda não estiver presente.
+//Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -59,7 +59,7 @@ if (!IsExists)
 
  Nesta etapa, substitua`"YOUR DOCUMENT DIRECTORY"` com um caminho real onde você quer salvar seus arquivos Excel. Este código garante que o diretório exista antes de prosseguirmos.
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, precisamos criar uma nova pasta de trabalho onde nossa mágica acontecerá. 
 

@@ -93,7 +93,7 @@ range2.Copy(range1);
 ```csharp
 workbook.Save(outputDir + "outputCopyNamedRanges.xlsx");
 ```
-此行将工作簿（嵌入所有更改）保存到名为“outputCopyNamedRanges.xlsx”的文件中。这是您编码工作的最终结局！
+此行将工作簿（嵌入所有更改）保存到名为“outputCopyNamedRanges.xlsx”的文件中。这是您编码工作的最终成果！
 ## 步骤11：确认执行
 您可以向控制台提供反馈以确认一切顺利。
 ```csharp

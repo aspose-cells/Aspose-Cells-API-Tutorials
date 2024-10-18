@@ -99,7 +99,7 @@ try {
 }
 ```
 
-Per gestire le eccezioni in modo efficace, inserisci sempre il codice in un blocco try-catch.
+Per gestire le eccezioni in modo efficace, inserisci sempre il tuo codice in un blocco try-catch.
 
 ## Caratteristiche aggiuntive
 

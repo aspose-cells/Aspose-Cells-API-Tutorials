@@ -26,8 +26,8 @@ Gdy już spełnisz te wymagania, będziesz gotowy wykorzystać pełen potencjał
 
 Aby pracować z Aspose.Cells, musisz najpierw zaimportować niezbędne pakiety. Oto jak to zrobić:
 
-1. Otwórz swój projekt: Zacznij od otwarcia swojego projektu w programie Visual Studio.
-2. Dodaj odniesienie: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz opcję Zarządzaj pakietami NuGet i wyszukaj`Aspose.Cells`Zainstaluj pakiet w swoim projekcie.
+1. Otwórz swój projekt: w programie Visual Studio zacznij od otwarcia swojego projektu.
+2. Dodaj odniesienie: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz opcję Zarządzaj pakietami NuGet i wyszukaj`Aspose.Cells`. Zainstaluj pakiet w swoim projekcie.
 3. Importowanie niezbędnych przestrzeni nazw: Na górze pliku kodu należy dodać następującą dyrektywę using dla przestrzeni nazw Aspose.Cells:
 
 ```csharp
@@ -126,7 +126,7 @@ Zawsze dobrze jest otrzymać opinię. Ta wiadomość potwierdza, że rozszerzeni
 
 ## Wniosek
 
-Dodawanie rozszerzeń internetowych do skoroszytów programu Excel za pomocą Aspose.Cells dla .NET to prosty proces, który może znacznie zwiększyć funkcjonalność i interaktywność arkuszy kalkulacyjnych. Dzięki krokom opisanym w tym przewodniku możesz teraz ustanowić pomost między danymi programu Excel a usługami internetowymi, otwierając drzwi do mnóstwa możliwości. Niezależnie od tego, czy chcesz wdrożyć analizę, połączyć się z interfejsami API, czy po prostu zwiększyć interakcję użytkownika, Aspose.Cells ma dla Ciebie rozwiązanie!
+Dodawanie rozszerzeń internetowych do skoroszytów programu Excel przy użyciu Aspose.Cells dla .NET to prosty proces, który może znacznie zwiększyć funkcjonalność i interaktywność arkuszy kalkulacyjnych. Dzięki krokom opisanym w tym przewodniku możesz teraz ustanowić pomost między danymi programu Excel a usługami internetowymi, otwierając drzwi do mnóstwa możliwości. Niezależnie od tego, czy chcesz wdrożyć analizę, połączyć się z interfejsami API, czy po prostu zwiększyć interakcję użytkownika, Aspose.Cells ma dla Ciebie rozwiązanie!
 
 ## Najczęściej zadawane pytania
 

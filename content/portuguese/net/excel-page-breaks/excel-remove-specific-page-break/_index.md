@@ -44,7 +44,7 @@ Com isso resolvido, vamos começar a escrever algum código!
 
 Agora que nossa configuração está pronta, começaremos dividindo o processo de remoção de uma quebra de página específica em um arquivo do Excel em etapas gerenciáveis.
 
-## Etapa 1: Defina o diretório de documentos
+## Etapa 1: Defina o diretório do documento
 
 Primeiramente, você precisa especificar onde seus documentos do Excel estão armazenados. Isso ajuda a dizer ao código onde procurar seus arquivos.
 
@@ -53,18 +53,18 @@ Primeiramente, você precisa especificar onde seus documentos do Excel estão ar
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Explicação: Substituir`YOUR DOCUMENT DIRECTORY`com o caminho real para seus arquivos. É aqui que você carregará seu arquivo Excel e salvará seu arquivo Excel modificado mais tarde.
+ Explicação: Substituir`YOUR DOCUMENT DIRECTORY` com o caminho real para seus arquivos. É aqui que você carregará seu arquivo Excel e salvará seu arquivo Excel modificado mais tarde.
 
 ## Etapa 2: Instanciar o objeto Workbook
 
 Em seguida, precisamos carregar nossa pasta de trabalho. Em termos mais simples, pense em uma pasta de trabalho como seu arquivo Excel.
 
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Explicação: Esta linha cria uma nova instância de um`Workbook` , que carrega o arquivo Excel especificado (neste exemplo, ele é chamado`PageBreaks.xls`). 
+Explicação: Esta linha cria uma nova instância de um`Workbook` , que carrega o arquivo Excel especificado (neste exemplo, ele é chamado`PageBreaks.xls`). 
 
 ## Etapa 3: Remova a quebra de página horizontal
 
@@ -100,7 +100,7 @@ Explicação: Aqui, salvamos a pasta de trabalho com um novo nome (`RemoveSpecif
 
 ## Conclusão
 
-E aí está! Remover quebras de página específicas de um arquivo Excel usando Aspose.Cells para .NET é tão simples quanto seguir os passos acima. Com este guia, você pode garantir que seus documentos Excel estejam formatados perfeitamente para impressão sem nenhuma quebra de página perdida no caminho.
+E aí está! Remover quebras de página específicas de um arquivo Excel usando o Aspose.Cells para .NET é tão simples quanto seguir os passos acima. Com este guia, você pode garantir que seus documentos Excel estejam formatados perfeitamente para impressão sem nenhuma quebra de página perdida no caminho.
 
 ## Perguntas frequentes
 

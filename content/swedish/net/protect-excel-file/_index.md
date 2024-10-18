@@ -19,7 +19,7 @@ Tänk dig att behöva hantera stora mängder data i Excel. Du kanske tänker, "k
 
 ## Handledningar skräddarsydda för dig
 
- Men det är inte allt! Att skydda dina data är lika viktigt. Du skulle inte lämna din ytterdörr vidöppen, eller hur? På samma sätt erbjuder våra guider dig verktygen för att låsa alla delar av ditt Excel-ark. Kolla in handledningen på[Skyddar specifika celler](./protect-specific-cells-in-a-excel-worksheet/) för att lära dig hur du skyddar din data effektivt. Vi leder dig genom varje steg på vägen, vilket gör det enkelt även för dem som är nyare inom programmering.
+Men det är inte allt! Att skydda dina data är lika viktigt. Du skulle inte lämna din ytterdörr vidöppen, eller hur? På samma sätt erbjuder våra guider dig verktygen för att låsa alla delar av ditt Excel-ark. Kolla in handledningen på[Skyddar specifika celler](./protect-specific-cells-in-a-excel-worksheet/) för att lära dig hur du skyddar din data effektivt. Vi leder dig genom varje steg på vägen, vilket gör det enkelt även för dem som är nyare inom programmering.
 
 Säkert! Låt oss utöka vikten av dessa självstudiekurser i din strävan efter Excel-behärskning och hur de kan passa in i ditt utvecklingsarbetsflöde.
 
@@ -31,7 +31,7 @@ Att använda Aspose.Cells för .NET handlar inte bara om att lära sig några ko
 
 ## Lär dig genom att göra: Praktiska exempel 
 
-Ett av de bästa sätten att förstå all teknik är genom att gräva ner sig och smutsa ner händerna. Var och en av våra handledningar är fullpackade med praktiska exempel och exempelkod som du kan experimentera med. Vill du lära dig hur man skyddar specifika rader? Följ helt enkelt vår guide vidare[Skydda specifika rader](./protect-specific-row-in-excel-worksheet/). Det är som att ha en vänlig handledare vid din sida, som guidar dig steg för steg. 
+Ett av de bästa sätten att förstå all teknik är genom att gräva ner sig och smutsa ner händerna. Var och en av våra handledningar är packade med praktiska exempel och exempelkod som du kan experimentera med. Vill du lära dig hur man skyddar specifika rader? Följ helt enkelt vår guide vidare[Skydda specifika rader](./protect-specific-row-in-excel-worksheet/). Det är som att ha en vänlig handledare vid din sida, som guidar dig steg för steg. 
 
 ## Slutsats
 

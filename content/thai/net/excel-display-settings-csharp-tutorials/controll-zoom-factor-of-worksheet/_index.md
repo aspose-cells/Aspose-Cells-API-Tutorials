@@ -1,7 +1,7 @@
 ---
 title: ปัจจัยการควบคุมการซูมของแผ่นงาน
 linktitle: ปัจจัยการควบคุมการซูมของแผ่นงาน
-second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
+second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
 description: เรียนรู้วิธีการควบคุมปัจจัยการซูมของเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ เพิ่มความสามารถในการอ่านในสเปรดชีตของคุณ
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ url: /th/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 
 1. สภาพแวดล้อมการพัฒนา .NET: คุณควรมีการตั้งค่าสภาพแวดล้อม .NET เช่น Visual Studio
 2.  ไลบรารี Aspose.Cells: คุณต้องติดตั้งไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
-3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยคุณในการเรียนรู้บทช่วยสอนนี้
+3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยคุณในการเรียนรู้บทช่วยสอนนี้ได้เป็นอย่างดี
 4. Microsoft Excel: แม้ว่าเราจะไม่ได้ใช้ Excel โดยตรงในโค้ดของเรา แต่การติดตั้งไว้ก็อาจเป็นประโยชน์สำหรับการทดสอบเอาต์พุตของคุณได้
 
 ## แพ็คเกจนำเข้า
@@ -32,7 +32,7 @@ url: /th/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 
 ตอนนี้ถึงเวลาเพิ่มการอ้างอิงไลบรารี Aspose.Cells แล้ว คุณสามารถทำได้ดังนี้:
 
--  ดาวน์โหลด DLL จาก[ที่นี่](https://releases.aspose.com/cells/net/) และเพิ่มลงในโครงการของคุณด้วยตนเอง
+-  ดาวน์โหลด DLL จาก[ที่นี่](https://releases.aspose.com/cells/net/)และเพิ่มลงในโครงการของคุณด้วยตนเอง
 - หรือใช้ตัวจัดการแพ็กเกจ NuGet และรันคำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็กเกจ:
 
 ```bash
@@ -81,7 +81,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  การ`Workbook` วัตถุเป็นหัวใจของฟังก์ชัน Aspose.Cells ของคุณ โดยจะแสดงไฟล์ Excel ของคุณในรูปแบบที่จัดการได้
 
 ```csharp
-//การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
+// การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 // การเปิดไฟล์ Excel ผ่านทางสตรีมไฟล์
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 เมื่อเวิร์กบุ๊กอยู่ในหน่วยความจำแล้ว ถึงเวลาเข้าถึงเวิร์กชีตเฉพาะที่คุณต้องการแก้ไข ในกรณีส่วนใหญ่ นี่จะเป็นเวิร์กชีตแรก (ดัชนี 0)
 
 ```csharp
-//การเข้าถึงแผ่นงานแรกในไฟล์ Excel
+// การเข้าถึงเวิร์กชีตแรกในไฟล์ Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

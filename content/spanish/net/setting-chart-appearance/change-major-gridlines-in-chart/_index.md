@@ -9,7 +9,7 @@ url: /es/net/setting-chart-appearance/change-major-gridlines-in-chart/
 ---
 ## Introducción
 
-La creación de gráficos visualmente atractivos en Excel es esencial para una presentación eficaz de los datos. Tanto si eres un analista de datos, un director de proyectos o simplemente alguien interesado en la visualización de datos, comprender cómo personalizar los gráficos puede mejorar significativamente tus informes. En este artículo, aprenderemos a cambiar las líneas de cuadrícula principales en un gráfico de Excel mediante la biblioteca Aspose.Cells para .NET.
+Crear gráficos visualmente atractivos en Excel es esencial para una presentación eficaz de los datos. Ya seas un analista de datos, un gerente de proyectos o simplemente alguien interesado en la visualización de datos, comprender cómo personalizar los gráficos puede mejorar significativamente tus informes. En este artículo, aprenderemos a cambiar las líneas de cuadrícula principales en un gráfico de Excel utilizando la biblioteca Aspose.Cells para .NET.
 
 ## Prerrequisitos
 
@@ -33,7 +33,7 @@ using System.Drawing;
 
 Estos paquetes le permiten acceder a las clases y métodos que necesitará para crear y modificar libros de trabajo y gráficos de Excel.
 
-Ahora, desglosaremos el proceso en pasos detallados y fáciles de seguir. Crearemos un gráfico simple con algunos datos y luego cambiaremos el color de las líneas de cuadrícula principales.
+Ahora, desglosemos el proceso en pasos detallados y fáciles de seguir. Crearemos un gráfico simple con algunos datos y luego cambiaremos el color de las líneas de cuadrícula principales.
 
 ## Paso 1: Establezca su directorio de salida
 
@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Actualizar con la ruta deseada
  A continuación, debe crear una nueva instancia del`Workbook` Clase. Este objeto representará su archivo Excel, lo que le permitirá manipular su contenido.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Esta línea de código inicializa un nuevo libro de trabajo, que proporcionará 
 
 ## Paso 3: Acceda a la hoja de trabajo
 
- Después de crear el libro de trabajo, puede acceder a su hoja de trabajo predeterminada. Las hojas de trabajo en Aspose.Cells están indexadas, por lo que si desea la primera hoja de trabajo, puede consultarla por índice.`0`.
+ Después de crear el libro de trabajo, puede acceder a su hoja de trabajo predeterminada. Las hojas de trabajo en Aspose.Cells están indexadas, por lo que si desea la primera hoja de trabajo, puede hacer referencia a ella por índice.`0`.
 
 ```csharp
 // Obtener la referencia de la hoja de trabajo recién agregada pasando su índice de hoja
@@ -91,11 +91,11 @@ Con los datos listos, es hora de crear un gráfico. Agregaremos un gráfico de c
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-En este código especificamos el tipo de gráfico (en este caso, un gráfico de columnas) y la posición donde queremos colocarlo.
+En este código, especificamos el tipo de gráfico (en este caso, un gráfico de columnas) y la posición donde queremos colocarlo.
 
 ## Paso 6: Acceda a la instancia del gráfico
 
- Una vez que creamos el gráfico, necesitamos acceder a su instancia para modificar sus propiedades. Esto se hace recuperándolo a través de la`Charts`recopilación.
+Una vez que creamos el gráfico, necesitamos acceder a su instancia para modificar sus propiedades. Esto se hace recuperándolo a través de la`Charts`recopilación.
 
 ```csharp
 // Acceder a la instancia del gráfico recién agregado
@@ -155,7 +155,7 @@ Estos comandos establecen las líneas de cuadrícula principales de los ejes de 
 Después de realizar todas las modificaciones, es hora de guardar el libro de trabajo. Este es el paso final que da frutos a su esfuerzo.
 
 ```csharp
-// Guardar el archivo Excel
+// Guardando el archivo Excel
 workbook.Save(outputDir + "outputChangingMajorGridlinesInChart.xlsx");
 ```
 

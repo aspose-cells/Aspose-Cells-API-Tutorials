@@ -91,7 +91,7 @@ Excel IF işlevini Aspose.Cells for Java ile kullanmak, koşullu işlemler gerç
 
 Evet, Excel'de standart Excel formüllerinde olduğu gibi karmaşık koşullar oluşturmak için birden fazla IF işlevini iç içe geçirebilirsiniz. Java için Aspose.Cells de bu karmaşık koşulları destekler.
 
-### Aspose.Cells for Java için herhangi bir lisanslama gereksinimi var mı?
+### Java için Aspose.Cells için herhangi bir lisanslama gereksinimi var mı?
 
 Evet, Aspose.Cells for Java ticari bir kütüphanedir ve uygulamalarınızda kullanmak için bir lisans edinmeniz gerekebilir. Lisanslama ayrıntıları için Aspose web sitesini ziyaret edin.
 
@@ -99,6 +99,6 @@ Evet, Aspose.Cells for Java ticari bir kütüphanedir ve uygulamalarınızda kul
 
 Kesinlikle! Formülde bağıl hücre referanslarını kullanarak Excel IF işlevini bir hücre aralığına uygulayabilirsiniz. Bu, birden fazla veri noktasında aynı anda koşullu işlemler gerçekleştirmenize olanak tanır.
 
-### Java için Aspose.Cells kurumsal düzeydeki uygulamalar için uygun mudur?
+### Aspose.Cells for Java kurumsal düzeydeki uygulamalar için uygun mudur?
 
 Evet, Aspose.Cells for Java hem küçük ölçekli hem de kurumsal düzeydeki uygulamalar için uygun sağlam bir kütüphanedir. Excel dosyalarıyla çalışmak için kapsamlı özellikler sunar ve bu da onu çeşitli iş senaryoları için değerli bir araç haline getirir.

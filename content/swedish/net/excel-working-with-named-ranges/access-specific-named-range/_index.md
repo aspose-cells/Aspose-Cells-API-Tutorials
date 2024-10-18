@@ -1,6 +1,6 @@
 ---
-title: Få åtkomst till specifik namngiven intervall i Excel
-linktitle: Få åtkomst till specifik namngiven intervall i Excel
+title: Få åtkomst till specifikt namngivet intervall i Excel
+linktitle: Få åtkomst till specifikt namngivet intervall i Excel
 second_title: Aspose.Cells .NET Excel Processing API
 description: Lär dig hur du får åtkomst till specifika namngivna intervall i Excel med Aspose.Cells för .NET med denna omfattande, steg-för-steg handledning och exempelkod.
 type: docs

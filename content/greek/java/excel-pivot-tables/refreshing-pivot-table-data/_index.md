@@ -38,7 +38,7 @@ Workbook workbook = new Workbook(filePath);
 
 ```java
 String sheetName = "Sheet1"; // Αντικαταστήστε με το όνομα του φύλλου σας
-String pivotTableName = "PivotTable1"; // Αντικαταστήστε το με το όνομα του Συγκεντρωτικού Πίνακα
+String pivotTableName = "PivotTable1"; // Αντικαταστήστε με το όνομα του Συγκεντρωτικού Πίνακα
 
 Worksheet worksheet = workbook.getWorksheets().get(sheetName);
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotTableName);

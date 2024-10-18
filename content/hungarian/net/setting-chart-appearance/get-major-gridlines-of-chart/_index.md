@@ -15,7 +15,7 @@ A látványos és informatív diagramok készítése elengedhetetlen a hatékony
 
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg róla, hogy minden készen áll:
 
--  Aspose.Cells for .NET: Győződjön meg arról, hogy letöltötte az Aspose.Cells könyvtárat, és hivatkozott rá a projektben. Megkaphatod[itt](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Győződjön meg arról, hogy letöltötte az Aspose.Cells könyvtárat, és hivatkozott rá a projektben. Megkaphatod[itt](https://releases.aspose.com/cells/net/).
 - Fejlesztői környezet: Bármely .NET fejlesztői környezet működik, de a Visual Studio erős támogatása és eszközei miatt erősen ajánlott.
 - A C# alapvető ismerete: A C# programozási alapismeretek ismerete hasznos lesz, amikor kódot fogunk írni.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Itt néhány véletlenszerű értéket írunk be a cellákba`A1` hogy`B3`. Ezek az adatok szolgálnak majd adatforrásként diagramunkhoz. Elengedhetetlen, hogy értelmes adatokkal rendelkezzenek a vizualizáláshoz; különben a diagram csak szép vonalak lennének kontextus nélkül!
+ Itt néhány véletlenszerű értéket írunk be a cellákba`A1` hogy`B3`Ezek az adatok szolgálnak majd adatforrásként diagramunkhoz. Elengedhetetlen, hogy értelmes adatokkal rendelkezzenek a vizualizáláshoz; különben a diagram csak szép vonalak lennének kontextus nélkül!
 
 ## 5. lépés: Adjon hozzá egy diagramot a munkalaphoz
 

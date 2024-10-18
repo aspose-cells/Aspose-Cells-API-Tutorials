@@ -49,7 +49,7 @@ Berikutnya, Anda perlu memuat buku kerja Excel Anda. Langkah ini memungkinkan An
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 ```
- Pada baris ini, kita membuat instance baru dari`Workbook` kelas dan mengarahkannya ke file contoh kita. 
+ Pada baris ini, kita membuat instance baru dari`Workbook` kelas dan mengarahkannya ke berkas contoh kita. 
 
 ## Langkah 3: Dapatkan Panel Tugas Ekstensi Web
 

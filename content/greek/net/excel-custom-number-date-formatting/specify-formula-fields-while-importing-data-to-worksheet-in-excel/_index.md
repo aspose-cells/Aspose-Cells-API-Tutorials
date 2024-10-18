@@ -16,7 +16,7 @@ url: /el/net/excel-custom-number-date-formatting/specify-formula-fields-while-im
 Πριν βουτήξετε στον κώδικα, ας βεβαιωθούμε ότι έχετε όλα όσα χρειάζεστε. 
 
 1. Visual Studio ή οποιοδήποτε ενσωματωμένο περιβάλλον ανάπτυξης .NET (IDE): Βεβαιωθείτε ότι έχετε ένα κατάλληλο IDE για να γράψετε και να εκτελέσετε τον κώδικα C#.
-2. Aspose.Cells για .NET: Θα χρειαστεί να πραγματοποιήσετε λήψη και αναφορά στη βιβλιοθήκη Aspose.Cells στο έργο σας. Μπορείτε να το κατεβάσετε από το[Εκδόσεις Aspose](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells για .NET: Θα χρειαστεί να πραγματοποιήσετε λήψη και αναφορά στη βιβλιοθήκη Aspose.Cells στο έργο σας. Μπορείτε να το κατεβάσετε από το[Εκδόσεις Aspose](https://releases.aspose.com/cells/net/).
 3. Βασικές γνώσεις C#: Η εξοικείωση με την C# και τις έννοιες του αντικειμενοστρεφούς προγραμματισμού θα σας βοηθήσει να κατανοήσετε καλύτερα τα παραδείγματα.
 4. .NET Framework: Αυτό το σεμινάριο προϋποθέτει ότι χρησιμοποιείτε .NET Framework 4.5 ή νεότερη έκδοση.
 
@@ -168,7 +168,7 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
 Το Aspose.Cells είναι μια βιβλιοθήκη .NET που έχει σχεδιαστεί για τη δημιουργία, το χειρισμό και τη μετατροπή αρχείων Excel μέσω προγραμματισμού.
 
 ### Πώς μπορώ να εγκαταστήσω το Aspose.Cells για .NET;
- Μπορείτε να το κατεβάσετε από το[Εκδόσεις Aspose](https://releases.aspose.com/cells/net/)και να το αναφέρετε στο έργο σας.
+ Μπορείτε να το κατεβάσετε από το[Εκδόσεις Aspose](https://releases.aspose.com/cells/net/) και να το αναφέρετε στο έργο σας.
 
 ### Μπορώ να χρησιμοποιήσω το Aspose.Cells δωρεάν;
  Ναι, το Aspose προσφέρει μια δωρεάν δοκιμή διαθέσιμη στη διεύθυνση[αυτόν τον σύνδεσμο](https://releases.aspose.com/).
@@ -177,5 +177,5 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
  Πρόσθετα παραδείγματα και τεκμηρίωση μπορείτε να βρείτε στο[Aspose σελίδα τεκμηρίωσης](https://reference.aspose.com/cells/net/).
 
 ### Τι γίνεται αν αντιμετωπίσω προβλήματα κατά τη χρήση του Aspose;
- Μπορείτε να ζητήσετε βοήθεια από το φόρουμ υποστήριξης του Aspose[εδώ](https://forum.aspose.com/c/cells/9).
+Μπορείτε να ζητήσετε βοήθεια από το φόρουμ υποστήριξης του Aspose[εδώ](https://forum.aspose.com/c/cells/9).
  

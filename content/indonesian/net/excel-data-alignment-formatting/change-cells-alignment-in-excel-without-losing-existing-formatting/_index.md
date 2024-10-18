@@ -18,7 +18,7 @@ Sebelum kita mulai membuat kode, penting untuk memastikan bahwa Anda telah menyi
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio (versi apa pun yang mendukung .NET) di komputer Anda.
 2.  Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells dari[Situs Aspose](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sedikit pengetahuan dengan pemrograman C# akan berguna karena kita akan bekerja dalam konteks C#.
-4. Contoh File Excel: Untuk demonstrasi, siapkan contoh file Excel (misalnya,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) yang berisi beberapa format sel awal.
+4.  Contoh File Excel: Untuk demonstrasi, siapkan contoh file Excel (misalnya,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) yang berisi beberapa format sel awal.
 
 ## Paket Impor
 
@@ -36,7 +36,7 @@ Buka Visual Studio dan buat proyek C# baru (aplikasi konsol akan berfungsi denga
 
 ### Impor Namespace yang Diperlukan
 
-Di bagian atas berkas C# Anda, tambahkan perintah penggunaan berikut:
+Di bagian atas file C# Anda, tambahkan perintah penggunaan berikut:
 
 ```csharp
 using Aspose.Cells;
@@ -122,7 +122,7 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Dengan mengatur`Alignments` properti StyleFlag untuk`true`, Anda memberi tahu Aspose.Cells untuk menerapkan gaya perataan dengan benar.
+ Dengan mengatur`Alignments`properti StyleFlag untuk`true`, Anda memberi tahu Aspose.Cells untuk menerapkan gaya perataan dengan benar.
 
 ## Langkah 7: Terapkan Gaya ke Rentang Sel
 
@@ -169,7 +169,7 @@ Tentu saja! Perangkat lunak ini dioptimalkan untuk kinerja dan dapat memproses f
  Ya! Anda dapat mengunduh uji coba gratis dari situs tersebut[Uji coba gratis](https://releases.aspose.com/).
 
 ### Bahasa pemrograman apa yang didukung Aspose.Cells?
-Aspose.Cells terutama mendukung .NET, Java, dan beberapa bahasa lain melalui pustakanya masing-masing.
+Aspose.Cells terutama mendukung .NET, Java, dan beberapa bahasa lain melalui pustaka masing-masing.
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
  Untuk pertanyaan atau masalah terkait dukungan, kunjungi[forum dukungan](https://forum.aspose.com/c/cells/9).

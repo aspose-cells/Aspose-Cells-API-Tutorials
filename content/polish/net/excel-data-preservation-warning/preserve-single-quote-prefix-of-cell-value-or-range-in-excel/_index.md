@@ -33,7 +33,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Ten wiersz daje dostęp do wszystkich klas i metod udostępnianych przez bibliotekę Aspose.Cells, umożliwiając bezproblemową manipulację plikami Excela. 
+Ten wiersz daje dostęp do wszystkich klas i metod udostępnianych przez bibliotekę Aspose.Cells, co pozwala na bezproblemową manipulację plikami Excela. 
 
 Teraz omówimy kroki, aby zachować prefiks pojedynczego cudzysłowu w wartościach komórek.
 
@@ -63,7 +63,7 @@ Następnie bierzemy w ręce pierwszy arkusz roboczy skoroszytu. To tutaj będzie
 Worksheet ws = wb.Worksheets[0];
 ```
 
-W tym przypadku po prostu wybierany jest pierwszy arkusz kalkulacyjny, co zazwyczaj wystarcza w przypadku większości zadań, chyba że potrzebujesz wielu arkuszy.
+W tym przypadku wybierany jest po prostu pierwszy arkusz kalkulacyjny, co zazwyczaj wystarcza w przypadku większości zadań, chyba że potrzebujesz wielu arkuszy.
 
 ## Krok 3: Dostęp i modyfikacja wartości komórki
 
@@ -147,7 +147,7 @@ Po zastosowaniu tego stylu wynik nadal będzie wskazywał wartość „prawda”
 
 ## Krok 8: Zaktualizuj prefiks oferty za pomocą StyleFlag
 
-Ok, zobaczmy co się stanie, gdy zechcemy zaktualizować nasz prefiks.
+Ok, zobaczmy co się stanie, gdy będziemy chcieli zaktualizować nasz prefiks.
 
 ```csharp
 // Utwórz pusty styl
@@ -189,7 +189,7 @@ Prefiks w postaci pojedynczego cudzysłowu informuje program Excel, że wartoś�
 ### Czy mogę używać Aspose.Cells w aplikacjach internetowych?  
 Tak! Aspose.Cells dla .NET działa dobrze zarówno z aplikacjami desktopowymi, jak i internetowymi.
 
-### Czy podczas korzystania z Aspose.Cells występują jakieś kwestie związane z wydajnością?  
+### Czy używanie Aspose.Cells wiąże się z pewnymi problemami związanymi z wydajnością?  
 Ogólnie rzecz biorąc, Aspose.Cells jest zoptymalizowany pod kątem wydajności, ale w przypadku bardzo dużych zbiorów danych zawsze warto przetestować pamięć i szybkość.
 
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?  

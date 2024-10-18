@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Most merüljünk bele az adott lapba, amely a kördiagramot tartalmazza. Feltételezzük, hogy a kördiagram a második munkalapon található (1. index):
 
 ```csharp
-// Szerezze be a tervezői diagramot a második lapon.
+//Szerezze be a tervezői diagramot a második lapon.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

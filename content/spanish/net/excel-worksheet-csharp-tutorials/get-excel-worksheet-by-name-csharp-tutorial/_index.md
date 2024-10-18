@@ -18,7 +18,7 @@ Antes de pasar a lo más jugoso, asegurémonos de que estés preparado para el �
 1. Entorno de desarrollo .NET: asegúrese de tener un entorno de desarrollo .NET listo para usar. Puede utilizar Visual Studio o cualquier otro IDE de su elección.
 2.  Biblioteca Aspose.Cells: También deberías tener instalada la biblioteca Aspose.Cells. Si aún no lo has hecho, ¡no te preocupes! Puedes descargarla[aquí](https://releases.aspose.com/cells/net/).
 3. Comprensión básica de C#: conocer los conceptos básicos de la programación en C# le ayudará a seguir el proceso sin problemas.
-4.  Un archivo de Excel: tenga listo un archivo de Excel con el que le gustaría trabajar. Para nuestro ejemplo, usaremos un archivo simple llamado`book1.xlsx` con al menos una hoja de trabajo denominada "Hoja1".
+4. Un archivo de Excel: tenga listo un archivo de Excel con el que le gustaría trabajar. Para nuestro ejemplo, usaremos un archivo simple llamado`book1.xlsx` con al menos una hoja de trabajo denominada "Hoja1".
 
 ¡Ahora que ya está todo listo, comencemos!
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Especifique el directorio de su d
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Combinar para formar la ruta completa
 ```
 
- Aquí, reemplace`"YOUR DOCUMENT DIRECTORY"` con la ruta actual en su sistema donde`book1.xlsx` se almacena. Utilizando`Path.Combine` Es útil porque garantiza que la ruta se construya correctamente en diferentes sistemas operativos.
+ Aquí, reemplace`"YOUR DOCUMENT DIRECTORY"`con la ruta actual en su sistema donde`book1.xlsx` se almacena. Utilizando`Path.Combine` Es útil porque garantiza que la ruta se construya correctamente en diferentes sistemas operativos.
 
 ## Paso 2: Crear un flujo de archivos
 
@@ -109,13 +109,13 @@ Es un paso simple pero crucial. No limpiar los recursos puede provocar fugas de 
 Aspose.Cells es una potente biblioteca .NET que permite a los desarrolladores crear, modificar y manipular hojas de cálculo de Excel mediante programación.
 
 ### ¿Puedo acceder a varias hojas en un archivo Excel?
- ¡Sí! Puedes acceder a varias hojas usando sus nombres con el`workbook.Worksheets["SheetName"]` método.
+ ¡Sí! Puedes acceder a varias hojas usando sus nombres con el botón`workbook.Worksheets["SheetName"]` método.
 
 ### ¿Qué formatos de archivos Excel admite Aspose.Cells?
 Aspose.Cells admite varios formatos, incluidos XLS, XLSX, CSV y otros.
 
 ### ¿Necesito una licencia para utilizar Aspose.Cells?
- Si bien hay una[prueba gratis](https://releases.aspose.com/)disponible, eventualmente necesitarás comprar una licencia para usarlo sin limitaciones.
+ Si bien hay una[prueba gratis](https://releases.aspose.com/) disponible, eventualmente necesitarás comprar una licencia para usarlo sin limitaciones.
 
 ### ¿Dónde puedo encontrar soporte para Aspose.Cells?
- Puede obtener apoyo a través de ellos[foro de soporte](https://forum.aspose.com/c/cells/9).
+Puede obtener apoyo a través de ellos[foro de soporte](https://forum.aspose.com/c/cells/9).

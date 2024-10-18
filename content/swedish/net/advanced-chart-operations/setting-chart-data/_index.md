@@ -19,7 +19,7 @@ Innan vi sätter igång finns det några saker du behöver för att starta den h
 
 1. Visual Studio: Du bör ha Microsoft Visual Studio installerat på din dator för att skriva och köra .NET-kod.
 2.  Aspose.Cells: Se till att ladda ner och installera Aspose.Cells-biblioteket. Du kan hitta den senaste versionen[här](https://releases.aspose.com/cells/net/).
-3. Grundläggande kunskaper om C#: Bekantskap med C# och .NET framework kommer att vara praktiskt för att förstå kodsnuttarna vi kommer att använda i den här handledningen.
+3. Grundläggande kunskaper om C#: Bekantskap med C# och .NET framework kommer att vara praktiskt för att förstå kodavsnitten vi kommer att använda i den här handledningen.
 
 ## Importera paket
 

@@ -19,13 +19,13 @@ Trước khi thực hiện các bước, hãy đảm bảo bạn đã chuẩn b�
    
 2.  Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 
-3. Tệp Excel mẫu: Nhận tệp Excel mẫu có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Đảm bảo nó nằm trong thư mục dự án của bạn.
+3.  Tệp Excel mẫu: Nhận tệp Excel mẫu có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Đảm bảo nó nằm trong thư mục dự án của bạn.
 
 4. Kiến thức lập trình cơ bản: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 
 ## Nhập gói
 
-Để tương tác với dữ liệu và biểu đồ Excel, bạn cần nhập các gói có liên quan từ Aspose.Cells. Sau đây là cách thực hiện:
+Để tương tác với dữ liệu và biểu đồ Excel, bạn cần nhập các gói liên quan từ Aspose.Cells. Sau đây là cách thực hiện:
 
 ### Thiết lập dự án của bạn
 
@@ -56,11 +56,11 @@ Bây giờ, chúng ta hãy phân tích quy trình xác định loại giá trị
 string sourceDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"`bằng đường dẫn lưu tệp Excel của bạn.
+ Thay thế`"Your Document Directory"` bằng đường dẫn lưu tệp Excel của bạn.
 
 ## Bước 2: Tải Workbook
 
- Tiếp theo, tải tệp Excel vào`Workbook` đối tượng. Điều này cho phép bạn truy cập toàn bộ nội dung của tệp.
+ Tiếp theo, tải tệp Excel vào`Workbook`đối tượng. Điều này cho phép bạn truy cập vào toàn bộ nội dung của tệp.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

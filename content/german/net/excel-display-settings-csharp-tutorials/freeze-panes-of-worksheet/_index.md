@@ -2,7 +2,7 @@
 title: Arbeitsblattbereiche fixieren
 linktitle: Arbeitsblattbereiche fixieren
 second_title: Aspose.Cells für .NET API-Referenz
-description: Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET Bereiche in Excel einfrieren, komplett mit Schritt-für-Schritt-Anleitungen und wichtigen Tipps.
+description: Erfahren Sie in diesem umfassenden Tutorial mit Schritt-für-Schritt-Anleitungen und wichtigen Tipps, wie Sie mit Aspose.Cells für .NET Bereiche in Excel einfrieren.
 type: docs
 weight: 70
 url: /de/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
@@ -16,7 +16,7 @@ Wenn Sie mit großen Excel-Arbeitsblättern arbeiten, kann die Möglichkeit, bes
 Bevor wir mit dem eigentlichen Codierungsteil beginnen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg benötigen:
 
 ### Grundkenntnisse in C#
-- Kenntnisse in der C#-Programmierung sind unbedingt erforderlich, da wir unseren Code in dieser Sprache schreiben werden.
+- Kenntnisse in der C#-Programmierung sind unbedingt erforderlich, da wir diese Sprache zum Schreiben unseres Codes verwenden werden.
 
 ### Aspose.Cells installiert
 -  Stellen Sie sicher, dass Aspose.Cells für .NET in Ihrer Entwicklungsumgebung installiert ist. Wenn Sie es noch nicht installiert haben, gehen Sie zu[Download-Link](https://releases.aspose.com/cells/net/) um loszulegen.
@@ -25,7 +25,7 @@ Bevor wir mit dem eigentlichen Codierungsteil beginnen, stellen wir sicher, dass
 - Sie benötigen eine IDE wie Visual Studio, um Ihre C#-Anwendungen zu erstellen und auszuführen.
 
 ### Eine Beispiel-Excel-Datei
-- Zu Demonstrationszwecken benötigen Sie eine Excel-Datei, die wir`book1.xls`. Sie können mit Microsoft Excel oder einer anderen kompatiblen Anwendung eine einfache Excel-Datei erstellen.
+- Zu Demonstrationszwecken benötigen Sie eine Excel-Datei, die wir`book1.xls`Sie können mit Microsoft Excel oder einer anderen kompatiblen Anwendung eine einfache Excel-Datei erstellen.
 
 Sobald diese Voraussetzungen erfüllt sind, können wir mit dem Codieren beginnen!
 
@@ -56,7 +56,7 @@ Geben Sie das Verzeichnis an, in dem sich Ihre Excel-Datei befindet. Hier ein Be
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Diese Zeile legt den Pfad zu Ihrem Verzeichnis fest. Ersetzen Sie`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem`book1.xls` Datei wird gespeichert. Das ist, als ob Sie Ihrem Code die Adresse Ihres Zuhauses geben, wo die Excel-Datei liegt – er muss wissen, wo sie zu finden ist!
+ Diese Zeile legt den Pfad zu Ihrem Verzeichnis fest. Ersetzen Sie`"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem`book1.xls` Datei wird gespeichert. Das ist, als ob Sie Ihrem Code die Adresse Ihres Zuhauses geben, wo die Excel-Datei liegt – er muss wissen, wo er sie finden kann!
 
 ## Schritt 3: Erstellen eines Dateistreams
 
@@ -106,7 +106,7 @@ Stellen Sie nach dem Vornehmen von Änderungen sicher, dass Sie die Arbeitsmappe
 workbook.Save(dataDir + "output.xls");
 ```
 
- Das Speichern Ihrer Datei ist entscheidend! Diese Zeile stellt sicher, dass alle von Ihnen vorgenommenen Änderungen, einschließlich der fixierten Bereiche, in eine neue Excel-Datei mit dem Namen`output.xls`Stellen Sie es sich so vor, als würden Sie den Umschlag verschließen, nachdem Sie Ihren wichtigen Brief geschrieben haben.
+ Das Speichern Ihrer Datei ist entscheidend! Diese Zeile stellt sicher, dass alle vorgenommenen Änderungen, einschließlich der fixierten Bereiche, in eine neue Excel-Datei mit dem Namen`output.xls`Stellen Sie es sich so vor, als würden Sie den Umschlag verschließen, nachdem Sie einen wichtigen Brief geschrieben haben.
 
 ## Schritt 8: Schließen Sie den Dateistream
 

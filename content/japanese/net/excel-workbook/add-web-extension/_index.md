@@ -92,7 +92,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 ## ステップ 6: タスク ペインを追加して構成する
 
-次に、タスク ウィンドウを追加して、Web 拡張機能をインタラクティブにし、Excel UI で表示できるようにします。
+ここで、タスク ウィンドウを追加して、Web 拡張機能をインタラクティブにし、Excel UI で表示できるようにします。
 
 ```csharp
 int taskPaneIndex = taskPanes.Add();
@@ -126,7 +126,7 @@ Console.WriteLine("AddWebExtension executed successfully.");
 
 ## 結論
 
-Aspose.Cells for .NET を使用して Excel ブックに Web 拡張機能を追加するのは簡単なプロセスですが、スプレッドシートの機能と対話性を大幅に強化できます。このガイドで説明されている手順に従うと、Excel データと Web ベースのサービスの間に橋渡しが確立され、さまざまな可能性が開けます。分析を実装したり、API に接続したり、単にユーザー インタラクションを強化したりする場合でも、Aspose.Cells が対応します。
+Aspose.Cells for .NET を使用して Excel ブックに Web 拡張機能を追加するのは簡単なプロセスですが、スプレッドシートの機能と対話性を大幅に強化できます。このガイドで説明されている手順に従うと、Excel データと Web ベースのサービスの間にブリッジを確立して、さまざまな可能性を実現できます。分析を実装したり、API に接続したり、単にユーザー インタラクションを強化したりする場合でも、Aspose.Cells が役立ちます。
 
 ## よくある質問
 

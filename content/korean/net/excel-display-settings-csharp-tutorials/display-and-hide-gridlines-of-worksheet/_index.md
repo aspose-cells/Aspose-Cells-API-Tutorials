@@ -46,7 +46,7 @@ Excel 파일을 조작하기 전에 먼저 파일의 위치를 지정해야 합�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- 이 단계에서는 Excel 파일의 위치를 지정합니다.`dataDir` 문자열. 바꾸기`"YOUR DOCUMENT DIRECTORY"` 실제 경로와 함께`.xls` 파일이 위치했습니다.
+ 이 단계에서는 Excel 파일의 위치를 지정합니다.`dataDir` 문자열. 바꾸기`"YOUR DOCUMENT DIRECTORY"` 실제 경로와 함께`.xls`파일이 위치했습니다.
 
 ## 2단계: 파일 스트림 만들기
 
@@ -75,7 +75,7 @@ Workbook workbook = new Workbook(fstream);
 Excel 파일에는 일반적으로 여러 워크시트가 들어 있습니다. 이 튜토리얼에서는 통합 문서의 첫 번째 워크시트에 액세스합니다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,11 +86,11 @@ Worksheet worksheet = workbook.Worksheets[0];
 이제 재밌는 부분이 왔습니다. 그리드선을 숨기는 것입니다! 코드 한 줄만 있으면 그리드선의 가시성을 토글할 수 있습니다.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트의 격자선 숨기기
+// Excel 파일의 첫 번째 워크시트의 격자선 숨기기
 worksheet.IsGridlinesVisible = false;
 ```
 
- 설정하여`IsGridlinesVisible` 재산에`false`, 우리는 워크시트에 Excel에서 볼 때 격자선을 표시하지 말라고 말하고 있습니다. 이렇게 하면 시트가 더 깔끔하고 프레젠테이션에 적합한 모양이 됩니다.
+ 설정하여`IsGridlinesVisible` 재산에`false`, Excel에서 볼 때 워크시트에 격자선을 표시하지 말라고 말하고 있습니다. 이렇게 하면 시트가 더 깔끔하고 프레젠테이션에 적합한 모양이 됩니다.
 
 ## 6단계: 수정된 Excel 파일 저장
 
@@ -116,7 +116,7 @@ fstream.Close();
 
 ## 결론
 
-이제 끝입니다! 방금 Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 격자선을 표시하고 숨기는 방법을 배웠습니다. 보고서를 다듬거나 더 읽기 쉬운 형식으로 데이터를 표시하든 이 간단한 기술은 스프레드시트의 모양에 상당한 영향을 미칠 수 있습니다. 가장 좋은 점은? 큰 변경을 하려면 몇 줄의 코드만 있으면 됩니다. 이것을 시도할 준비가 되었다면 잊지 말고[무료 체험](https://releases.aspose.com/) 코딩을 시작하세요!
+ 이제 끝입니다! 방금 Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 격자선을 표시하고 숨기는 방법을 배웠습니다. 보고서를 다듬거나 더 읽기 쉬운 형식으로 데이터를 표시하든 이 간단한 기술은 스프레드시트의 모양에 상당한 영향을 미칠 수 있습니다. 가장 좋은 점은? 큰 변경을 하려면 몇 줄의 코드만 있으면 됩니다. 이것을 시도할 준비가 되었다면 잊지 말고[무료 체험](https://releases.aspose.com/) 코딩을 시작하세요!
 
 ## 자주 묻는 질문
 
@@ -124,9 +124,9 @@ fstream.Close();
  설정할 수 있습니다`worksheet.IsGridlinesVisible = true;` 격자선을 다시 보이게 하려면
 
 ### 특정 범위나 셀의 격자선만 숨길 수 있나요?  
- 아니,`IsGridlinesVisible` 속성은 특정 셀이 아닌 전체 워크시트에 적용됩니다.
+ 아니,`IsGridlinesVisible`속성은 특정 셀이 아닌 전체 워크시트에 적용됩니다.
 
-### 한 번에 여러 개의 워크시트를 조작할 수 있나요?  
+### 한 번에 여러 워크시트를 조작할 수 있나요?  
  네! 루프를 통해 할 수 있습니다.`Worksheets` 변경 사항을 수집하여 각 시트에 적용합니다.
 
 ### Aspose.Cells를 사용하지 않고 프로그래밍 방식으로 격자선을 숨길 수 있나요?  

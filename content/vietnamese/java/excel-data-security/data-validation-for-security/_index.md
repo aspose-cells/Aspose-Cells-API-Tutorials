@@ -14,7 +14,7 @@ Trong thời đại mà dữ liệu là mạch máu của các doanh nghiệp v�
 
 ## Xác thực dữ liệu là gì?
 
-Xác thực dữ liệu là một quy trình đảm bảo dữ liệu được nhập vào hệ thống đáp ứng các tiêu chí nhất định trước khi được chấp nhận. Nó ngăn chặn dữ liệu sai hoặc độc hại làm hỏng cơ sở dữ liệu và ứng dụng.
+Xác thực dữ liệu là một quá trình đảm bảo dữ liệu nhập vào hệ thống đáp ứng các tiêu chí nhất định trước khi được chấp nhận. Nó ngăn chặn dữ liệu sai hoặc độc hại làm hỏng cơ sở dữ liệu và ứng dụng.
 
 ## Tại sao Xác thực dữ liệu lại quan trọng
 
@@ -97,7 +97,7 @@ validationList.setFormula1("List1"); // Xác định nguồn danh sách của b�
 validationList.setShowDropDown(true);
 ```
 
-## Bảo vệ Worksheet và Workbook
+## Bảo vệ các trang tính và sổ làm việc
 
 Để tăng cường bảo mật hơn nữa, hãy bảo vệ các bảng tính và sổ làm việc của bạn. Aspose.Cells for Java cung cấp các cơ chế bảo vệ mạnh mẽ.
 

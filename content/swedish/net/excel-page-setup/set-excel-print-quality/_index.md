@@ -77,7 +77,7 @@ Här händer magin! Vi får ställa in utskriftskvaliteten för arbetsbladet.
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Förklaring: The`PrintQuality` egenskapen kan ställas in på vilket värde som helst, vanligtvis mellan 75 och 600 dpi (punkter per tum). I det här fallet ställer vi in den på 180 dpi, vilket är bra för en bra balans mellan kvalitet och filstorlek.
+Förklaring: The`PrintQuality` egenskapen kan ställas in på vilket värde som helst, vanligtvis mellan 75 och 600 dpi (punkter per tum). I det här fallet ställer vi in den på 180 dpi, vilket är bra för en bra balans mellan kvalitet och filstorlek.
 
 ## Steg 5: Spara arbetsboken
 

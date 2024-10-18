@@ -11,7 +11,7 @@ url: /sv/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-sp
 
 Att arbeta med Excel-filer programmatiskt kan ibland kännas som att jonglera med tusen saker samtidigt, eller hur? Tja, om du någonsin har behövt kontrollera flikfältets bredd i ett Excel-kalkylblad, är du på rätt plats! Med Aspose.Cells för .NET kan du enkelt manipulera olika Excel-filinställningar, som att justera arkets flikfälts bredd, vilket gör ditt kalkylblad mer anpassat och användarvänligt. Idag kommer vi att dela upp hur du kan göra detta med tydliga, lätta att följa steg.
 
-den här handledningen kommer vi att täcka allt du behöver veta om att kontrollera flikfältets bredd med Aspose.Cells för .NET—från förutsättningarna till en detaljerad steg-för-steg-guide. I slutet kommer du att justera Excel-inställningarna som ett proffs. Redo? Låt oss dyka in!
+I den här handledningen kommer vi att täcka allt du behöver veta om att kontrollera flikfältets bredd med Aspose.Cells för .NET—från förutsättningarna till en detaljerad steg-för-steg-guide. I slutet kommer du att justera Excel-inställningarna som ett proffs. Redo? Låt oss dyka in!
 
 ## Förutsättningar
 
@@ -69,7 +69,7 @@ Den här koden ser till att flikarna är synliga i ditt kalkylark. Utan detta ko
 
 ## Steg 3: Justera flikfältets bredd
 
-Nu när vi har sett till att flikarna är synliga är det dags att justera bredden på flikfältet. Här händer magin. Att öka bredden gör att flikarna sprids ut mer, vilket är användbart om du har många ark och behöver mer utrymme för att navigera mellan dem.
+Nu när vi har sett till att flikarna är synliga är det dags att justera bredden på flikfältet. Det är här magin händer. Att öka bredden gör att flikarna sprids ut mer, vilket är användbart om du har många ark och behöver mer utrymme för att navigera mellan dem.
 
 ```csharp
 workbook.Settings.SheetTabBarWidth = 800; // Bredd i pixlar

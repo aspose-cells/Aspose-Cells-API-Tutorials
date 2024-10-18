@@ -53,11 +53,11 @@ Sonra, Excel dosyanızı açmak için bir dosya akışı oluşturmanız gerekir.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Burada açmak istediğimizi belirtiyoruz`book1.xls` belirtilen dizinde yer almaktadır.`FileMode.Open` parametresi mevcut bir dosyayı açtığımızı gösterir. Dosya adının her zaman sahip olduğunuz dosyayla eşleştiğinden emin olun.
+Burada açmak istediğimizi belirtiyoruz`book1.xls` belirtilen dizinde yer almaktadır.`FileMode.Open` parametresi mevcut bir dosyayı açtığımızı gösterir. Dosya adının her zaman sahip olduğunuz dosyayla eşleştiğinden emin olun.
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Şimdi çalışma kitabının kendisiyle çalışma zamanı. Bir tane oluşturacağız`Workbook` nesne.
+ Şimdi çalışma kitabının kendisiyle çalışmanın zamanı geldi. Bir tane oluşturacağız`Workbook` nesne.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -83,11 +83,11 @@ Bu kod parçacığında, çalışma kitabından ilk çalışma sayfasına erişi
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Ayar`IsRowColumnHeadersVisible` ile`false` hem satırlardaki hem de sütunlardaki başlıkları etkili bir şekilde gizleyerek, verilerinizin sunumu için daha temiz bir görünüm oluşturur.
+ Ayar`IsRowColumnHeadersVisible` ile`false`hem satırlardaki hem de sütunlardaki başlıkları etkili bir şekilde gizleyerek, verilerinizin sunumu için daha temiz bir görünüm oluşturur.
 
 ## Adım 6: Değiştirilen Excel Dosyasını Kaydedin
 
-Değişikliklerinizi yaptıktan sonra dosyayı kaydetmeniz gerekir. İşte bunu nasıl yapacağınız:
+Değişikliklerinizi yaptıktan sonra dosyayı kaydetmeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
@@ -103,7 +103,7 @@ Son olarak, tüm kaynakların serbest bırakılması için dosya akışını kap
 fstream.Close();
 ```
 
- Kapatma`fstream`Uygulamanızda bellek sızıntısı veya açık dosya kilidi olmamasını sağladığı için önemlidir.
+ Kapatma`fstream` Uygulamanızda bellek sızıntısı veya açık dosya kilidi olmamasını sağladığı için önemlidir.
 
 ## Çözüm
 
@@ -121,7 +121,7 @@ Aspose.Cells, Excel elektronik tablolarını yönetmek için güçlü bir .NET k
  Ücretsiz deneme sürümünü kullanabilirsiniz ancak devam eden ticari kullanım için lisans gereklidir. Satın alma seçeneklerini bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells için destek mevcut mu?  
-Evet, Aspose, erişebileceğiniz forumları aracılığıyla destek sağlar[Burada](https://forum.aspose.com/c/cells/9).
+ Evet, Aspose, erişebileceğiniz forumları aracılığıyla destek sağlar[Burada](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?  
  Değerlendirme amaçlı geçici lisans başvurusunu şu adresten yapabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).

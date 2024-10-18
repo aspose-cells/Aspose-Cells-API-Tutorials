@@ -13,14 +13,14 @@ Lorsque vous travaillez avec des feuilles de calcul Excel, il est essentiel de g
 
 ## Prérequis
 
-Avant de passer aux étapes suivantes, assurons-nous que tout est en place pour que vous puissiez les suivre en douceur :
+Avant de passer aux étapes suivantes, assurons-nous que tout est en place pour que vous puissiez les suivre sans problème :
 
 1. Visual Studio installé : vous aurez besoin d’une version fonctionnelle de Visual Studio sur votre machine sur laquelle vous pourrez exécuter des applications .NET.
 2.  Aspose.Cells pour .NET : Si vous ne l'avez pas déjà fait, téléchargez Aspose.Cells pour .NET à partir du[site](https://releases.aspose.com/cells/net/). Cette bibliothèque est le cœur de notre opération de gestion programmatique des fichiers Excel.
 3. Connaissances de base en programmation : la familiarité avec la programmation C# vous aidera à comprendre et à modifier les extraits de code fournis.
 4. .NET Framework : assurez-vous que la version correcte de .NET est installée pour assurer la compatibilité avec Aspose.Cells.
 
-Une fois ces conditions préalables réunies, nous pouvons retrousser nos manches et commencer !
+Une fois ces prérequis en place, nous pouvons retrousser nos manches et commencer !
 
 ## Paquets d'importation
 
@@ -49,7 +49,7 @@ using System;
 
 Cela nous permettra d'utiliser toutes les classes et méthodes définies dans la bibliothèque Aspose.Cells sans les qualifier complètement à chaque fois.
 
-Très bien, passons maintenant à la partie amusante : nous allons programmer ! Dans cette section, nous allons parcourir un exemple simple montrant comment définir des titres d'impression pour un classeur Excel.
+Bon, passons maintenant à la partie amusante : nous allons programmer ! Dans cette section, nous allons parcourir un exemple simple montrant comment définir des titres d'impression pour un classeur Excel.
 
 ## Étape 1 : Définissez le chemin d'accès à votre document
 
@@ -71,7 +71,7 @@ Workbook workbook = new Workbook();
 
 Cette ligne initialise un nouveau classeur, le rendant prêt à être manipulé.
 
-## Étape 3 : Obtenir la référence PageSetup
+## Étape 3 : Obtenir la référence de configuration de page
 
  Maintenant, accédons à la feuille de calcul`PageSetup` propriété. C'est ici que la plupart de nos paramètres d'impression seront configurés.
 

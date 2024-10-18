@@ -18,7 +18,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjünk meg arról, hogy minden 
 1. Visual Studio telepítve: A .NET-kód írásához és végrehajtásához olyan IDE-re lesz szüksége, mint a Visual Studio.
 2. .NET-keretrendszer: Ez az oktatóanyag feltételezi, hogy a .NET-keretrendszer 4.0-s vagy újabb verzióját használja. Az Aspose.Cells azonban a .NET Core-al is kompatibilis.
 3.  Aspose.Cells Library: Ha még nem tette meg, töltse le a könyvtárat az Aspose webhelyéről[itt](https://releases.aspose.com/cells/net/) . Kezdheti egy ingyenes próbaverzióval is[itt](https://releases.aspose.com/).
-4.  Minta Excel fájl: A névvel ellátott Excel mintafájlt fogjuk használni`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Győződjön meg arról, hogy ez a fájl készen áll a munkakönyvtárban.
+4. Minta Excel fájl: A névvel ellátott Excel mintafájlt fogjuk használni`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Győződjön meg arról, hogy ez a fájl készen áll a munkakönyvtárban.
 
 ## Csomagok importálása
 
@@ -62,7 +62,7 @@ Most már készen áll az Excel-fájlunk manipulálására!
 Mielőtt betöltenénk az Excel fájlt, állítsuk be a kimeneti és forráskönyvtárakat. Ez lehetővé teszi számunkra, hogy meghatározzuk, hol tároljuk fájljainkat.
 
 ```csharp
-// Kimeneti könyvtár – ahová a PDF mentésre kerül
+//Kimeneti könyvtár – ahová a PDF mentésre kerül
 string outputDir = "Your Output Directory"; // itt adja meg a kimeneti könyvtárát
 
 // Forráskönyvtár – ahol a minta Excel-fájl található
@@ -78,7 +78,7 @@ Az Aspose.Cells használatával egy Excel-fájl betöltése egyszerű. Íme, hog
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Mostanra könnyedén betöltötte a munkafüzetét!
+Mostanra már könnyedén betöltötte a munkafüzetét!
 
 ## A diagram elérése és kezelése
 
@@ -108,7 +108,7 @@ Az Excelben a diagramok egyik kulcsfontosságú funkciója a diagramtengelyek au
 
 ```csharp
 // Állítsa be az Y tengely fő mértékegységét
-ch.AxisY.MajorUnit = 10; // Igény szerint beállíthatja
+ch.AxisY.MajorUnit = 10; //Igény szerint beállíthatja
 ```
 
 Frissítsük most az automata egységeket!
@@ -151,4 +151,4 @@ Csak az Aspose.Cells könyvtár és a gépére telepített .NET-keretrendszer.
 Teljesen! Az Aspose.Cells különféle formátumokat támogat, például XLSX, HTML és képeket.
 
 ### Hol találok támogatást, ha problémákba ütközöm?
-Kérhet segítséget az Aspose közösségtől[itt](https://forum.aspose.com/c/cells/9).
+ Kérhet segítséget az Aspose közösségtől[itt](https://forum.aspose.com/c/cells/9).

@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 接下來，您需要使用工作簿中的特定工作表。我們將獲取第一個工作表。
 
 ```csharp
-//透過傳遞工作表索引來取得新新增的工作表的引用
+//透過傳遞工作表索引來取得新新增工作表的引用
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

@@ -9,16 +9,16 @@ url: /es/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
 ---
 ## Introducción
 
-Los archivos de Excel son omnipresentes en el mundo actual, impulsado por los datos, y sirven como uno de los principales medios para presentar, manipular y analizar datos. Al trabajar con hojas de cálculo, es posible que necesitemos extraer información de los gráficos, como títulos o subtítulos. Si trabaja con archivos ODS específicamente, es posible que se pregunte cómo acceder a esos elementos de gráficos fácilmente. No tema, ya que exploraremos el uso de Aspose.Cells para .NET para obtener el subtítulo del gráfico de un archivo ODS de una manera sencilla y eficiente.
+Los archivos de Excel son omnipresentes en el mundo actual, impulsado por los datos, y sirven como uno de los principales medios para presentar, manipular y analizar datos. Al trabajar con hojas de cálculo, es posible que necesitemos extraer información de los gráficos, como títulos o subtítulos. Si trabaja con archivos ODS específicamente, es posible que se pregunte cómo acceder a esos elementos de gráficos fácilmente. No se preocupe, ya que exploraremos el uso de Aspose.Cells para .NET para obtener el subtítulo del gráfico de un archivo ODS de una manera sencilla y eficiente.
 
 ## Prerrequisitos
 
 Antes de comenzar con el tutorial, deberá asegurarse de haber configurado todo lo necesario para usar Aspose.Cells para .NET de manera eficaz. A continuación, se incluye una lista de verificación que debe seguir:
 
 1. .NET Framework: asegúrese de tener .NET Framework instalado en su máquina. 
-2.  Biblioteca Aspose.Cells: Descargue e instale la biblioteca Aspose.Cells. Puede obtenerla desde[aquí](https://releases.aspose.com/cells/net/).
+2. Biblioteca Aspose.Cells: Descargue e instale la biblioteca Aspose.Cells. Puede obtenerla desde[aquí](https://releases.aspose.com/cells/net/).
 3. IDE: si bien cualquier editor de código servirá, el uso de un IDE como Visual Studio proporciona una plataforma sólida para el desarrollo .NET.
-4.  Un archivo ODS de muestra: Necesitará un archivo ODS que contenga gráficos. Para este tutorial, utilizaremos`SampleChart.ods`.
+4.  Un archivo ODS de muestra: necesitará un archivo ODS que contenga gráficos. Para este tutorial, utilizaremos`SampleChart.ods`.
 5. Conocimientos básicos de C#: la familiaridad con C# le ayudará a comprender los conceptos rápidamente y realizar modificaciones según sea necesario.
 
 ## Importar paquetes
@@ -39,7 +39,7 @@ Ahora, vayamos al meollo del asunto. Siga estas instrucciones paso a paso para e
 Crear un nuevo proyecto de aplicación de consola
 
 - Abra Visual Studio (o su IDE preferido).
--  Cree un nuevo proyecto de aplicación de consola y asígnele un nombre relevante, como`ChartSubtitleExtractor`.
+- Cree un nuevo proyecto de aplicación de consola y asígnele un nombre relevante, como`ChartSubtitleExtractor`.
 
 ## Paso 2: Agregar el paquete NuGet Aspose.Cells
 
@@ -63,7 +63,7 @@ string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
 
 ## Paso 4: Cargue el libro de trabajo
 
-Cargue su libro de trabajo de Excel
+Cargue su libro de Excel
 
  Este paso implica crear una instancia del`Workbook` clase, que representa el archivo ODS. El libro de trabajo contendrá todas las hojas de trabajo y sus respectivos gráficos.
 
@@ -117,7 +117,7 @@ Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
 
 ## Conclusión
 
-¡Y ya está! En unos pocos y sencillos pasos, ha aprendido a extraer el subtítulo de un gráfico de un archivo ODS con Aspose.Cells para .NET. Recuerde que, si bien esta guía se centra en los subtítulos, la biblioteca ofrece una amplia gama de funciones, como trabajar con distintos tipos de gráficos, manipular datos y automatizar tareas. Por lo tanto, tanto si está editando informes como desarrollando aplicaciones basadas en datos, Aspose.Cells puede ser una herramienta útil en su arsenal.
+¡Y ya está! En tan solo unos pocos y sencillos pasos, ha aprendido a extraer el subtítulo de un gráfico de un archivo ODS con Aspose.Cells para .NET. Recuerde que, si bien esta guía se centró en los subtítulos, la biblioteca ofrece una amplia gama de funcionalidades, que incluyen trabajar con diferentes tipos de gráficos, manipular datos y automatizar tareas. Por lo tanto, ya sea que esté editando informes o desarrollando aplicaciones basadas en datos, Aspose.Cells puede ser una herramienta útil en su arsenal.
 
 ## Preguntas frecuentes
 

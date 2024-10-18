@@ -67,7 +67,7 @@ class CellsDataTable : ICellsDataTable
 
 ## Βήμα 3: Εφαρμογή μελών διεπαφής ICEllsDataTable
 
- Μέσα στο`CellsDataTable` τάξη, πρέπει να εφαρμόσετε τα μέλη του`ICellsDataTable` διεπαφή. Ακολουθεί η απαιτούμενη υλοποίηση:
+ Εντός του`CellsDataTable` τάξη, πρέπει να εφαρμόσετε τα μέλη του`ICellsDataTable` διεπαφή. Ακολουθεί η απαιτούμενη υλοποίηση:
 
 ```csharp
 public object this[string columnName]

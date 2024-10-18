@@ -48,7 +48,7 @@ worksheet.getCells().get("A4").putValue(40);
 
 Här fyller vi celler A1 till A4 med numeriska värden.
 
-## Använda MEDEL-funktionen
+## Använda funktionen MEDEL
 
 Funktionen MEDEL i Excel beräknar medelvärdet av ett intervall av tal. Med Aspose.Cells för Java kan du enkelt uppnå detta programmatiskt:
 

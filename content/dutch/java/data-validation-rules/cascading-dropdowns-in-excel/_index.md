@@ -38,7 +38,7 @@ Worksheet citySheet = workbook.getWorksheets().add("Cities");
 
 ## Stap 2: Gegevens vullen
 
-Nu moeten we onze werkbladen vullen met data. In het werkblad "Landen" zullen we de landen vermelden, en in het werkblad "Steden" zullen we het in eerste instantie leeg laten, omdat we het later dynamisch zullen vullen.
+Nu moeten we onze werkbladen vullen met data. In het werkblad "Landen" zullen we de landen opsommen, en in het werkblad "Steden" zullen we het in eerste instantie leeg laten, omdat we het later dynamisch zullen vullen.
 
 ```java
 //Java-code om het werkblad "Landen" in te vullen

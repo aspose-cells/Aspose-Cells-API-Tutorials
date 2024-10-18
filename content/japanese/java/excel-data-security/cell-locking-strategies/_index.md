@@ -18,7 +18,7 @@ url: /ja/java/excel-data-security/cell-locking-strategies/
 
 ## Aspose.Cells for Java を使い始める
 
-セルのロックを始める前に、ツールキットに必要なツールがあることを確認しましょう。まず、Aspose.Cells for Javaをダウンロードしてセットアップする必要があります。ダウンロードリンクは[ここ](https://releases.aspose.com/cells/java/)ライブラリをインストールしたら、基本的な作業に進むことができます。
+セルのロックを始める前に、ツールキットに必要なツールがあることを確認しましょう。まず、Aspose.Cells for Javaをダウンロードしてセットアップする必要があります。ダウンロードリンクは[ここ](https://releases.aspose.com/cells/java/)ライブラリをインストールしたら、基本的な作業に進みます。
 
 ## 基本的なセルロック
 
@@ -119,7 +119,7 @@ worksheet.protect(ProtectionType.ALL);
 
 ### Excel ワークシート全体を保護するにはどうすればよいですか?
 
- Aspose.Cells for Javaを使用してExcelワークシート全体を保護することができます。`protect`メソッドをワークシートオブジェクトに適用し、`ProtectionType.ALL`パラメータ。
+ Aspose.Cells for Javaを使用してExcelワークシート全体を保護することができます。`protect`ワークシートオブジェクトに`ProtectionType.ALL`パラメータ。
 
 ### カスタムセルロックルールを定義できますか?
 

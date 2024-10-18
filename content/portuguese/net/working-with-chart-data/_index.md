@@ -1,7 +1,7 @@
 ---
 title: Trabalhando com dados de gráficos
 linktitle: Trabalhando com dados de gráficos
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra tutoriais abrangentes do Aspose.Cells for .NET focados em trabalhar com dados de gráficos. Aprenda, crie e personalize seus gráficos.
 type: docs
 weight: 25
@@ -9,11 +9,11 @@ url: /pt/net/working-with-chart-data/
 ---
 ## Introdução
 
-Explore uma coleção abrangente de tutoriais focados em trabalhar com dados de gráficos no Aspose.Cells para .NET. Este artigo fornece um guia fácil de seguir sobre como criar, personalizar e extrair dados de gráficos no Excel. Seja você um desenvolvedor novato ou experiente, nossos tutoriais dividem processos complexos em etapas gerenciáveis. Ao mergulhar nesses tutoriais, você desbloqueará o potencial do Aspose.Cells, tornando suas tarefas de gráficos mais simples e eficientes. Junte-se a nós enquanto nos aprofundamos na criação de um gráfico de Linha com Marcadores de Dados, encontrando os tipos de valores X e Y em séries de gráficos e extraindo legendas de gráficos de arquivos ODS. Cada seção oferece explicações detalhadas, dicas e truques, garantindo que você possa aplicar essas técnicas em seus projetos perfeitamente.
+Explore uma coleção abrangente de tutoriais focados em trabalhar com dados de gráficos no Aspose.Cells para .NET. Este artigo fornece um guia fácil de seguir sobre como criar, personalizar e extrair dados de gráficos no Excel. Seja você um novato ou um desenvolvedor experiente, nossos tutoriais dividem processos complexos em etapas gerenciáveis. Ao mergulhar nesses tutoriais, você desbloqueará o potencial do Aspose.Cells, tornando suas tarefas de gráficos mais simples e eficientes. Junte-se a nós enquanto nos aprofundamos na criação de um gráfico de Linha com Marcadores de Dados, encontrando os tipos de valores X e Y em séries de gráficos e extraindo legendas de gráficos de arquivos ODS. Cada seção oferece explicações detalhadas, dicas e truques, garantindo que você possa aplicar essas técnicas em seus projetos perfeitamente.
 
 
 ## Criar linha com gráfico de marcadores de dados
-Criar gráficos no Excel pode parecer, às vezes, tentar resolver um quebra-cabeça sem saber como é a imagem. Mas com o Aspose.Cells para .NET, você pode criar facilmente um gráfico de Linha com Marcadores de Dados que não só exibe seus dados, mas também o faz de uma forma visualmente atraente. Imagine poder mostrar tendências ao longo do tempo com clareza! Este tutorial o guia passo a passo pelo processo, garantindo que você entenda cada parte, desde a inicialização do seu gráfico até a personalização de sua aparência. É como ter um guia pessoal por um labirinto, tornando a jornada muito mais agradável.[Ler mais](./create-line-with-data-marker-chart/).
+Criar gráficos no Excel pode parecer, às vezes, tentar resolver um quebra-cabeça sem saber como é a imagem. Mas com o Aspose.Cells para .NET, você pode criar facilmente um gráfico de Linha com Marcadores de Dados que não apenas exibe seus dados, mas também o faz de uma forma visualmente atraente. Imagine poder mostrar tendências ao longo do tempo com clareza! Este tutorial o guia passo a passo pelo processo, garantindo que você entenda cada parte, desde a inicialização do seu gráfico até a personalização de sua aparência. É como ter um guia pessoal por um labirinto, tornando a jornada muito mais agradável.[Ler mais](./create-line-with-data-marker-chart/).
 
 ## Encontre o tipo de valores X e Y dos pontos na série do gráfico
 Você já se perguntou como encontrar os tipos de valores X e Y em sua série de gráficos? É um pouco como tentar identificar diferentes frutas em uma cesta — cada uma única e importante para sua imagem geral. Em nosso guia detalhado, dividimos o processo em etapas simples e digeríveis. Você aprenderá a navegar pelas propriedades de sua série de gráficos e extrair informações valiosas sem esforço. Ao final deste tutorial, você será capaz de determinar com confiança os tipos de valores que definem seus gráficos, dando a você uma melhor compreensão da história de seus dados.[Ler mais](./find-type-of-x-and-y-values-of-points-in-chart-series/).

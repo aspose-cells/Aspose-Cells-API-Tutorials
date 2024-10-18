@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Därefter måste vi skapa en instans av Workbook-klassen, som kommer att hålla vår Excel-fil.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 // Öppna Excel-filen genom filströmmen
 Workbook workbook = new Workbook(fstream);
 ```
@@ -69,14 +69,14 @@ Genom att skapa en arbetsboksinstans från vår filström kan vi nu manipulera i
 
 ## Steg 4: Lägg till ett nytt arbetsblad
 
-Här kommer den spännande delen! Låt oss lägga till ett nytt arbetsblad i vår arbetsbok. Detta görs genom att använda`Add()` metod från`Worksheets`samling.
+ Här kommer den spännande delen! Låt oss lägga till ett nytt kalkylblad i vår arbetsbok. Detta görs genom att använda`Add()` metod från`Worksheets`samling.
 
 ```csharp
 // Lägga till ett nytt kalkylblad till Workbook-objektet
 int i = workbook.Worksheets.Add();
 ```
 
- Med den här kodraden lägger vi till ett nytt ark, och indexet för det nya arket fångas i variabeln`i`.
+Med den här kodraden lägger vi till ett nytt ark, och indexet för det nya arket fångas i variabeln`i`.
 
 ## Steg 5: Få en referens till det nyligen tillagda arbetsbladet
 
@@ -98,7 +98,7 @@ Vad är ett kalkylblad utan namn, eller hur? Låt oss ge vårt nytillkomna arbet
 worksheet.Name = "My Worksheet";
 ```
 
- Du kan ändra`"My Worksheet"` till vilket namn du än vill. Så här kan du organisera dina Excel-ark mer effektivt.
+ Du kan ändra`"My Worksheet"` till vilket namn du än önskar. Så här kan du organisera dina Excel-ark mer effektivt.
 
 ## Steg 7: Spara Excel-filen
 
@@ -109,7 +109,7 @@ Med våra ändringar genomförda är det dags att spara vår arbetsbok. Detta st
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Här sparar vi vår arbetsbok som`output.out.xls`. Du kan namnge den här filen vad du vill; Se bara till att den sparas i rätt katalog.
+ Här sparar vi vår arbetsbok som`output.out.xls`Du kan namnge den här filen vad du vill; Se bara till att den sparas i rätt katalog.
 
 ## Steg 8: Stäng filströmmen
 

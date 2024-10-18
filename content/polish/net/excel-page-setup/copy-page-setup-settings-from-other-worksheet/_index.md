@@ -13,7 +13,7 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz powielić ustawie
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do kodu, jest kilka niezbędnych elementów, które musisz mieć na miejscu:
+Zanim przejdziemy do kodu, musisz zadbać o kilka niezbędnych rzeczy:
 
 1. Środowisko programistyczne .NET: Upewnij się, że masz skonfigurowane środowisko zgodne z technologią .NET, np. Visual Studio lub inne wybrane przez Ciebie środowisko programistyczne.
 2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
@@ -49,7 +49,7 @@ Ten wiersz inicjuje skoroszyt, w którym będziesz przechowywać swoje arkusze k
 
 ## Krok 2: Dodaj arkusze kalkulacyjne
 
-Dodaj arkusze do skoroszytu:
+Dodaj arkusze kalkulacyjne do skoroszytu:
 Teraz, gdy masz już skoroszyt, czas dodać kilka arkuszy.
 
 ```csharp
@@ -132,7 +132,7 @@ Zapisanie skoroszytu jest niezbędne, aby mieć pewność, że wszystkie zmiany 
 
 ## Wniosek
 
-Używanie Aspose.Cells dla .NET sprawia, że zarządzanie arkuszami kalkulacyjnymi jest dziecinnie proste. Możesz łatwo kopiować ustawienia stron z jednego arkusza kalkulacyjnego do drugiego, co pomaga zachować spójność w dokumentach. Dzięki szczegółowym krokom opisanym w tym przewodniku możesz pewnie manipulować ustawieniami stron skoroszytu i oszczędzać czas na formatowaniu. 
+Używanie Aspose.Cells dla .NET sprawia, że zarządzanie arkuszami kalkulacyjnymi staje się dziecinnie proste. Możesz łatwo kopiować ustawienia stron z jednego arkusza kalkulacyjnego do drugiego, co pomaga zachować spójność w dokumentach. Dzięki szczegółowym krokom opisanym w tym przewodniku możesz pewnie manipulować ustawieniami stron skoroszytu i oszczędzać czas na formatowaniu. 
 
 ## Najczęściej zadawane pytania
 

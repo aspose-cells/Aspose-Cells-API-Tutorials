@@ -13,18 +13,18 @@ url: /zh/net/excel-data-alignment-formatting/
 
 ## 更改 Excel 单元格对齐方式而不丢失格式
 
-现在，让我们开始逐步操作。Aspose.Cells for .NET 允许您与 Excel 工作表中的单个单元格或范围进行交互，这样您就可以轻松自定义其外观（包括对齐设置），而不会干扰其余格式。
+现在，让我们开始逐步操作。Aspose.Cells for .NET 允许您与 Excel 工作表中的单个单元格或范围进行交互，这样您就可以轻松自定义它们的外观，包括对齐设置，而不会干扰其余的格式。
 
 1. 选择单元格或范围：
    首先指定要调整的单元格或范围。根据您的需要，可以是单个单元格或整个表格。
 
-2. 应用所需的对齐：
+2. 应用所需的对齐方式：
    使用`.Style`属性应用水平或垂直对齐设置。Aspose.Cells 为您提供以下选项`TextAlignmentType.Center`, `TextAlignmentType.Left`， 或者`TextAlignmentType.Right`用于水平对齐，以及用于垂直对齐的类似选项。
 
 3. 保留格式：
     Aspose.Cells 的优点在于，当您使用`.Style`对象，其他格式元素（如边框、字体和颜色）保持不变。无需担心丢失自定义样式！
 
-阅读更多关于如何[更改 Excel 单元格对齐方式而不丢失格式](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
+详细了解如何[更改 Excel 单元格对齐方式而不丢失格式](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
 ## Excel 数据对齐和格式化教程
 ### [更改 Excel 单元格对齐方式而不丢失格式](./change-cells-alignment-in-excel-without-losing-existing-formatting/)

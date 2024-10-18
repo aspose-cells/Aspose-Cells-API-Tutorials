@@ -58,12 +58,12 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
  Itu`FileStream` memungkinkan kita membaca berkas Excel yang ditentukan. Pastikan untuk mengubah "DIREKTORI DOKUMEN ANDA" ke jalur sebenarnya tempat berkas Excel Anda berada.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
  Sekarang setelah kita memiliki aliran file, kita dapat membuat`Workbook` obyek.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Untuk keperluan kita, kita akan bekerja dengan lembar kerja pertama saja. Mari kita akses lembar kerja tersebut.
 
 ```csharp
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = excel.Worksheets[0];
 ```
  Lembar kerja diindeks mulai dari nol, jadi`Worksheets[0]` mengacu pada lembar kerja pertama dalam berkas Excel. Sekarang, kita dapat menerapkan pengaturan proteksi pada lembar kerja khusus ini.

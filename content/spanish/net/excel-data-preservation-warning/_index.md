@@ -13,7 +13,7 @@ Aspose.Cells para .NET es una herramienta potente para manejar hojas de cálculo
 
 ## Cómo conservar el prefijo de comillas simples en valores o rangos de celdas en Excel
 
-¿Alguna vez te has encontrado con esas molestas comillas simples en Excel que no desaparecen? Tal vez estés trabajando con datos importados y cada vez que intentas manipularlos, esas comillas se interponen. Bueno, ¿adivina qué? Aspose.Cells para .NET te permite conservar o eliminar esos prefijos de comillas simples con facilidad.
+¿Alguna vez te has encontrado con esas molestas comillas simples en Excel que no desaparecen? Tal vez estés trabajando con datos importados y cada vez que intentas manipularlos, esas comillas se interponen en tu camino. Bueno, ¿adivina qué? Aspose.Cells para .NET te permite conservar o eliminar esos prefijos de comillas simples con facilidad.
 
 En este tutorial, aprenderá a manejar los prefijos de comillas simples en las celdas de Excel. Ya sea que necesite mantenerlos intactos para un formato específico o eliminarlos para simplificar la manipulación de datos, esta guía le mostrará cómo realizar el trabajo con Aspose.Cells.
 
@@ -27,7 +27,7 @@ Este tutorial le muestra el proceso de especificación de advertencias de ordena
 
 [Leer más](./specify-sort-warning-while-sorting-data-in-excel/)
 
-## Tutoriales de conservación y advertencia de datos de Excel
+## Tutoriales de advertencias y conservación de datos de Excel
 ### [Cómo conservar el prefijo de comillas simples en valores o rangos de celdas en Excel](./preserve-single-quote-prefix-of-cell-value-or-range-in-excel/)
 Aprenda a conservar los prefijos de comillas simples en celdas de Excel usando Aspose.Cells para .NET con este sencillo tutorial paso a paso.
 ### [Especificar advertencia de ordenación al ordenar datos en Excel](./specify-sort-warning-while-sorting-data-in-excel/)

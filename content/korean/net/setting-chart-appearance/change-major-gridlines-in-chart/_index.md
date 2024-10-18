@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // 원하는 경로로 업데이트�
  다음으로, 새 인스턴스를 생성해야 합니다.`Workbook` 클래스. 이 객체는 Excel 파일을 나타내며, 이를 통해 해당 파일의 내용을 조작할 수 있습니다.
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
 ```
 
@@ -62,7 +62,7 @@ Workbook workbook = new Workbook();
  통합 문서를 만든 후 기본 워크시트에 액세스할 수 있습니다. Aspose.Cells의 워크시트는 인덱싱되어 있으므로 첫 번째 워크시트를 원하는 경우 인덱스로 참조합니다.`0`.
 
 ```csharp
-// 새로 추가된 워크시트의 시트 인덱스를 전달하여 참조 얻기
+// 새로 추가된 워크시트의 시트 인덱스를 전달하여 해당 워크시트의 참조를 얻습니다.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -91,14 +91,14 @@ worksheet.Cells["B3"].PutValue(50);
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-이 코드에서는 차트 유형(이 경우에는 막대형 차트)과 차트를 배치할 위치를 지정합니다.
+이 코드에서는 차트 유형(이 경우에는 막대형 차트)과 차트를 배치하려는 위치를 지정합니다.
 
 ## 6단계: 차트 인스턴스에 액세스
 
- 차트를 만든 후에는 해당 속성을 수정하기 위해 해당 인스턴스에 액세스해야 합니다. 이는 다음을 통해 검색하여 수행됩니다.`Charts`수집.
+차트를 만든 후에는 해당 속성을 수정하기 위해 해당 인스턴스에 액세스해야 합니다. 이는 다음을 통해 검색하여 수행됩니다.`Charts`수집.
 
 ```csharp
-// 새로 추가된 차트의 인스턴스에 접근하기
+// 새로 추가된 차트의 인스턴스에 액세스하기
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
@@ -152,7 +152,7 @@ chart.ValueAxis.MajorGridLines.Color = Color.Red;
 
 ## 10단계: 통합 문서 저장
 
-모든 수정을 한 후에는 통합 문서를 저장할 때입니다. 이것은 당신의 노력을 결실시키는 마지막 단계입니다.
+모든 수정을 한 후에는 워크북을 저장할 시간입니다. 이것은 당신의 노력을 결실시키는 마지막 단계입니다.
 
 ```csharp
 // Excel 파일 저장하기

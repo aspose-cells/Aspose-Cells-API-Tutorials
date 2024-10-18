@@ -75,7 +75,7 @@ long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 
 -  The`FileStream` Resmi okuma modunda açmak için kullanılır.
 -  Daha sonra bir bayt dizisi bildiriyoruz`binaryData` görüntü verilerini tutmak için.
--  Son olarak, görüntü verilerini şu şekilde okuruz:`FileStream`.
+-  Son olarak, görüntü verilerini şuradan okuruz:`FileStream`.
 
 ## Adım 5: Sayfa Kurulumu Nesnesine Erişim
 
@@ -95,7 +95,7 @@ Resmin ikili verileri elimizde olduğuna göre artık bunu başlığa ekleyebili
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Bu satır, resmi başlığın orta bölümüne yerleştirir. Parametre`1`başlık bölümünü belirtir.
+ Bu satır, resmi başlığın orta bölümüne yerleştirir. Parametre`1` başlık bölümünü belirtir.
 
 ## Adım 7: Başlık İçeriğini Ayarlama
 
@@ -111,7 +111,7 @@ pageSetup.SetHeader(2, "&A"); // Sayfa adını ekler
 
 ## Adım 8: Çalışma Kitabını Kaydetme
 
-Gerekli tüm değişiklikleri yaptıktan sonra çalışma kitabını kaydetme zamanı geldi.
+Gerekli tüm değişiklikleri yaptıktan sonra çalışma kitabını kaydetmenin zamanı geldi.
 
 ```csharp
 workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
@@ -145,7 +145,7 @@ Evet, farklı yer tutucular kullanarak üstbilgi veya altbilginin farklı bölü
  Aspose.Cells ücretsiz deneme sunuyor ancak tam erişim ve ek özellikler için lisanslı bir sürüm de mevcut. Bir tane alabilirsiniz[burada geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Görüntülenmeyen resimlerle ilgili sorunları nasıl giderebilirim?
-Görüntü yolunun doğru olduğundan ve dosyanın mevcut olduğundan emin olun. Görüntü biçimi uyumluluğunu da kontrol edin.
+Görüntü yolunun doğru olduğundan ve dosyanın mevcut olduğundan emin olun. Görüntü formatı uyumluluğunu da kontrol edin.
 
 ### Aspose.Cells için ek belgeleri nerede bulabilirim?
-Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+ Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).

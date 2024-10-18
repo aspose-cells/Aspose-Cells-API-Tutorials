@@ -1,7 +1,7 @@
 ---
 title: Aplicar temas no gráfico
 linktitle: Aplicar temas no gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como aplicar temas a gráficos no Excel usando Aspose.Cells para .NET com nosso guia passo a passo fácil de seguir. Melhore sua apresentação de dados.
 type: docs
 weight: 10
@@ -38,7 +38,7 @@ Agora que cobrimos nossos pré-requisitos, vamos detalhar o processo de aplicaç
 
 ## Etapa 1: configure seus diretórios de saída e origem
 
-primeira coisa que precisamos fazer é estabelecer nosso diretório de saída e diretório de origem. É de lá que você carregará seus arquivos do Excel e onde os arquivos modificados serão salvos.
+A primeira coisa que precisamos fazer é estabelecer nosso diretório de saída e diretório de origem. É de lá que você carregará seus arquivos do Excel e onde os arquivos modificados serão salvos.
 
 ```csharp
 // Diretório de saída
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Garantir que`sampleApplyingThemesInChart.xlsx` existe no seu diretório de origem.
+ Garantir que`sampleApplyingThemesInChart.xlsx`existe no seu diretório de origem.
 
 ## Etapa 3: Acesse a planilha
 
@@ -77,7 +77,7 @@ Neste caso, estamos simplesmente pegando a primeira planilha, o que é suficient
 Com a planilha em mãos, agora podemos acessar o gráfico que pretendemos estilizar.
 
 ```csharp
-//Obtenha o primeiro gráfico na planilha
+// Obtenha o primeiro gráfico na planilha
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Esta linha de código garante que a primeira série no gráfico seja definida pa
 
 ## Etapa 6: Configurar a cor
 
- Agora que nossa série está pronta, precisamos modificar sua cor. Isso envolve criar uma`CellsColor` objeto e especificando uma cor de tema. Vamos escolher um estilo de destaque para este exemplo.
+ Agora que nossa série está pronta, precisamos modificar sua cor. Isso envolve criar uma`CellsColor`objeto e especificando uma cor de tema. Escolheremos um estilo de destaque para este exemplo.
 
 ```csharp
 // Obter o CellsColor do SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Crie um tema no estilo Accent
+// Crie um tema no estilo Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -151,7 +151,7 @@ Aplicar temas aos seus gráficos no Excel usando o Aspose.Cells para .NET pode t
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca poderosa para .NET que permite aos desenvolvedores manipular arquivos do Excel programaticamente.
 
-### Posso testar o Aspose.Cells antes de comprar?
+### Posso experimentar o Aspose.Cells antes de comprar?
  Sim, você pode baixar uma versão de teste gratuita[aqui](https://releases.aspose.com/).
 
 ### Que tipos de temas de gráficos posso aplicar?

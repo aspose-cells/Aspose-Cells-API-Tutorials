@@ -45,7 +45,7 @@ Hier geeft u het pad op naar het Excel-bestand waarmee u wilt werken.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Vervangen`YOUR DOCUMENT DIRECTORY`met het werkelijke pad waar uw Excel-bestand is opgeslagen. Dit stelt uw programma in staat om de benodigde bestanden te vinden die het zal manipuleren.
+ Vervangen`YOUR DOCUMENT DIRECTORY` met het werkelijke pad waar uw Excel-bestand is opgeslagen. Dit stelt uw programma in staat om de benodigde bestanden te vinden die het zal manipuleren.
 
 ## Stap 2: Een bestandsstroom maken
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Dit`Workbook` Het object bevat nu alle gegevens en instellingen van uw Excel-bestand, zodat u deze later in het proces kunt bewerken.
+ Dit`Workbook`Het object bevat nu alle gegevens en instellingen van uw Excel-bestand, zodat u deze later in het proces kunt bewerken.
 
 ## Stap 4: Verberg de verticale schuifbalk
 
@@ -123,7 +123,7 @@ Door deze eenvoudige stappen te volgen, hebt u geleerd hoe u de schuifbalken van
  Ja! Je hoeft alleen maar in te stellen`IsVScrollBarVisible` En`IsHScrollBarVisible` terug naar`true`.
 
 ### Is Aspose.Cells gratis te gebruiken?  
-Aspose.Cells is niet helemaal gratis, maar u kunt het voor een beperkte tijd gratis uitproberen of overwegen om het aan te schaffen[een tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells is niet helemaal gratis, maar u kunt het voor een beperkte tijd gratis uitproberen of overwegen om het aan te schaffen[een tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ### Welke typen Excel-bestanden kan ik bewerken met Aspose.Cells?  
 U kunt met verschillende Excel-formaten werken, waaronder .xls, .xlsx, .xlsm, .xlsb, enz.

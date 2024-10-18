@@ -40,7 +40,7 @@ Excel dosyasını yükledikten sonra, verileri içeren çalışma sayfasına eri
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Adım 3: Satırlar ve Sütunlar Arasında Yineleme
+## Adım 3: Satırlar ve Sütunlar Arasında Yineleme Yapın
 
 Artık çalışma sayfasına erişiminiz olduğuna göre, verileri almak için satırları ve sütunları arasında yineleme yapabilirsiniz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 

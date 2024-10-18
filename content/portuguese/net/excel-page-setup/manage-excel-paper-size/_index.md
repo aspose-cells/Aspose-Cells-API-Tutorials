@@ -1,8 +1,8 @@
 ---
-title: Gerenciar tamanho de papel do Excel
-linktitle: Gerenciar tamanho de papel do Excel
+title: Gerenciar tamanho do papel do Excel
+linktitle: Gerenciar tamanho do papel do Excel
 second_title: Referência da API Aspose.Cells para .NET
-description: Aprenda a gerenciar tamanhos de papel do Excel usando Aspose.Cells for .NET. Este guia oferece instruções passo a passo e exemplos para integração perfeita.
+description: Aprenda a gerenciar tamanhos de papel do Excel usando Aspose.Cells para .NET. Este guia oferece instruções passo a passo e exemplos para integração perfeita.
 type: docs
 weight: 70
 url: /pt/net/excel-page-setup/manage-excel-paper-size/
@@ -15,9 +15,9 @@ As planilhas do Excel se tornaram uma ferramenta indispensável para gerenciar d
 
 Antes de mergulhar nos detalhes técnicos do gerenciamento de tamanhos de papel do Excel, você precisa ter algumas coisas em mente:
 
-1. Noções básicas de C#: A familiaridade com a programação em C# facilitará significativamente o processo de integração do Aspose.Cells aos seus projetos.
+1. Noções básicas de C#: A familiaridade com a programação em C# facilitará significativamente o processo de integração do Aspose.Cells em seus projetos.
 2. Visual Studio instalado: certifique-se de ter o Visual Studio instalado em sua máquina para escrever e executar código C#.
-3.  Biblioteca Aspose.Cells para .NET: Você precisará obter o Aspose.Cells. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
+3. Biblioteca Aspose.Cells para .NET: Você precisará obter o Aspose.Cells. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 4. Gerenciador de Pacotes NuGet: certifique-se de ter acesso ao Gerenciador de Pacotes NuGet, pois você pode instalar facilmente o Aspose.Cells usando-o.
 
 Com esses pré-requisitos em mente, vamos começar!
@@ -68,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- Esta linha cria uma nova pasta de trabalho na memória. Se você estiver trabalhando com um arquivo existente, poderá passar o caminho do arquivo para o`Workbook` construtor.
+ Esta linha cria uma nova pasta de trabalho na memória. Se você estiver trabalhando com um arquivo existente, você pode passar o caminho do arquivo para o`Workbook` construtor.
 
 ## Etapa 3: Acesse a primeira planilha
 
@@ -112,7 +112,7 @@ Gerenciar tamanhos de papel em planilhas do Excel se torna moleza com o Aspose.C
 ### Posso definir o tamanho do papel para várias planilhas de uma só vez?
 Sim, você pode acessar várias planilhas em um loop e aplicar as mesmas configurações de tamanho de papel a cada uma delas.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  Aspose.Cells é uma biblioteca comercial; no entanto, oferece um teste gratuito. Você pode solicitar um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar todos os seus recursos.
 
 ### Como lidar com exceções ao trabalhar com Aspose.Cells?

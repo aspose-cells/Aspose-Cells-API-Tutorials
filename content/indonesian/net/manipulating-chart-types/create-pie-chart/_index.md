@@ -19,7 +19,7 @@ Sebelum menyelami kode, pastikan Anda telah menyiapkan hal berikut:
 2. Lingkungan Pengembangan .NET: Pastikan proyek Anda diatur untuk menggunakan .NET Framework atau .NET Core.
 3. Pengetahuan Dasar C#: Anda harus nyaman dengan pemrograman C#, khususnya pemrograman berorientasi objek (OOP).
 
-Untuk pengguna tingkat lanjut, lisensi sementara dapat diterapkan untuk membuka semua fitur Aspose.Cells. Anda dapat meminta lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Untuk pengguna tingkat lanjut, lisensi sementara dapat diterapkan untuk membuka semua fitur Aspose.Cells. Anda dapat meminta satu dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -55,7 +55,7 @@ sheet.Name = "Data";
 Cells cells = sheet.Cells;
 ```
 
-Sekarang, kita dapat memasukkan beberapa data penjualan tiruan yang mewakili berbagai wilayah:
+Sekarang, kita dapat memasukkan beberapa data penjualan dummy yang mewakili berbagai wilayah:
 
 ```csharp
 cells["A1"].PutValue("Region");
@@ -121,7 +121,7 @@ chart.PlotArea.Area.FillFormat.SetTwoColorGradient(Color.Yellow, Color.White, Gr
 chart.PlotArea.Border.IsVisible = false;
 ```
 
-Kami mengatur isian gradien untuk area plot dan menyembunyikan batas agar terlihat lebih bersih.
+Kami mengatur isian gradien untuk area plot dan menyembunyikan batas agar terlihat lebih rapi.
 
 ## Langkah 6: Tentukan Data Bagan
 

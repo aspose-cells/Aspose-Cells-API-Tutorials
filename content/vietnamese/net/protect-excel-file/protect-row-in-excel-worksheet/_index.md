@@ -107,7 +107,7 @@ Bằng cách áp dụng biện pháp bảo vệ này, người dùng không th�
 
 ## Bước 7: Lưu sổ làm việc
 
-Bước cuối cùng là lưu sổ làm việc. Đây là nơi mọi công sức của chúng ta được đền đáp, và chúng ta có thể thấy bảng tính được bảo vệ tuyệt đẹp của mình trở nên sống động!
+Bước cuối cùng là lưu sổ làm việc. Đây là nơi mọi công sức của chúng ta được đền đáp và chúng ta có thể thấy bảng tính được bảo vệ tuyệt đẹp của mình trở nên sống động!
 
 ```csharp
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);

@@ -19,7 +19,7 @@ Trước khi bắt đầu hướng dẫn, bạn cần đảm bảo rằng bạn 
 Đảm bảo bạn đã cài đặt .NET framework trên máy của mình. Aspose.Cells tương thích với nhiều phiên bản khác nhau nhưng có xu hướng hoạt động tốt nhất với phiên bản mới nhất.
 
 ### Thư viện Aspose.Cells
- Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/). Thư viện đi kèm với API phong phú, bao gồm tất cả các hàm bạn cần để thao tác trên Excel.
+ Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/)Thư viện đi kèm với một API phong phú bao gồm tất cả các hàm bạn cần để thao tác trên Excel.
 
 ### Studio trực quan
 Việc cài đặt Visual Studio là điều cần thiết vì đây là IDE tuyệt vời để viết mã .NET một cách liền mạch.
@@ -141,7 +141,7 @@ Tại đây, bạn lưu tệp PDF vào luồng bộ nhớ, có thể sử dụng
 
 ## Bước 6: Hiển thị thông báo thành công
 
-Cuối cùng, luôn tốt khi chỉ ra rằng thao tác của bạn đã thành công. Bạn chỉ cần in thông báo thành công vào bảng điều khiển:
+Cuối cùng, luôn tốt khi chỉ ra rằng thao tác của bạn đã thành công. Bạn có thể chỉ cần in thông báo thành công vào bảng điều khiển:
 
 ```csharp
 Console.WriteLine("ChartToPdf executed successfully.");

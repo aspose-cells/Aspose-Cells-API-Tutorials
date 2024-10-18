@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Schauen wir uns nun das Blatt an, das das Kreisdiagramm enthält. Wir gehen davon aus, dass sich das Kreisdiagramm auf dem zweiten Arbeitsblatt befindet (Index 1):
 
 ```csharp
-// Holen Sie sich das Designerdiagramm auf dem zweiten Blatt.
+//Holen Sie sich das Designerdiagramm auf dem zweiten Blatt.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

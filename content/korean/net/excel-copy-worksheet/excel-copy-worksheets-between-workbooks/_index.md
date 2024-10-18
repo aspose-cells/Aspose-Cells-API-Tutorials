@@ -1,6 +1,6 @@
 ---
-title: 워크북 간 Excel 복사 워크시트
-linktitle: 워크북 간 Excel 복사 워크시트
+title: Excel에서 워크북 간 워크시트 복사
+linktitle: Excel에서 워크북 간 워크시트 복사
 second_title: .NET API 참조를 위한 Aspose.Cells
 description: Aspose.Cells for .NET을 사용하여 Excel 워크북 간에 워크시트를 복사하는 방법을 알아보세요. 스프레드시트 관리를 간소화하기 위한 코드 예제가 포함된 단계별 가이드입니다.
 type: docs
@@ -15,7 +15,7 @@ Excel 통합 문서 간에 워크시트를 수동으로 복사하는 자신을 �
 
 코드를 살펴보기 전에 시작하는 데 필요한 올바른 도구가 있는지 확인해 보겠습니다.
 
--  .NET용 Aspose.Cells: 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
+- .NET용 Aspose.Cells: 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/).
 - Visual Studio나 .NET 프레임워크를 지원하는 IDE.
 -  유효한 면허증 또는[임시 면허](https://purchase.aspose.com/temporary-license/) Aspose.Cells의 전체 기능을 테스트하고 싶다면
 - C# 및 .NET 프레임워크에 대한 기본적인 이해.
@@ -53,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```csharp
 string InputPath = dataDir + "book1.xls";
 // 워크북을 만드세요.
-// 첫 번째 책의 파일을 엽니다.
+// 첫 번째 책에 있는 파일을 엽니다.
 Workbook excelWorkbook0 = new Workbook(InputPath);
 ```
 
@@ -64,7 +64,7 @@ Workbook excelWorkbook0 = new Workbook(InputPath);
 이제 첫 번째 통합 문서를 열었으니, 복사한 워크시트를 붙여넣을 또 다른 빈 통합 문서를 만들 차례입니다. 데이터를 전송할 새 빈 노트북을 여는 것으로 생각하세요.
 
 ```csharp
-// 다른 통합 문서를 만듭니다.
+//다른 통합 문서를 만듭니다.
 Workbook excelWorkbook1 = new Workbook();
 ```
 
@@ -86,7 +86,7 @@ excelWorkbook1.Worksheets[0].Copy(excelWorkbook0.Worksheets[0]);
 마지막으로, 복사된 워크시트와 함께 두 번째 워크북을 저장합니다. 이것은 컴퓨터의 새 폴더에 새로 쓴 노트를 저장하는 것과 같습니다.
 
 ```csharp
-//파일을 저장합니다.
+// 파일을 저장합니다.
 excelWorkbook1.Save(dataDir + "CopyWorksheetsBetweenWorkbooks_out.xls");
 ```
 

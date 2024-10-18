@@ -15,7 +15,7 @@ url: /zh/net/protect-excel-file/protect-row-in-excel-worksheet/
 
 在开始实际操作之前，请确保您已完成所有设置。以下是一些先决条件：
 
-1.  Aspose.Cells for .NET：从以下网址下载该库[Aspose 网站](https://releases.aspose.com/cells/net/)确保您拥有最新版本的所有新功能和错误修复。
+1.  Aspose.Cells for .NET：从以下网址下载该库[Aspose 网站](https://releases.aspose.com/cells/net/)确保您拥有最新版本以获取所有新功能和错误修复。
 2. Visual Studio：像 Visual Studio（社区版、专业版或企业版）这样的集成开发环境 (IDE) 将帮助您有效地编译和运行 C# 代码。
 3. .NET Framework：您需要兼容的 .NET Framework 版本。Aspose.Cells 支持多个版本，因此请确保您的版本是最新的。 
 4. C# 基础知识：在我们在本指南中编写代码时，对 C# 的基础了解将会很有帮助。
@@ -30,11 +30,11 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-现在我们已经导入了所需的包，让我们逐步介绍创建 Excel 工作簿并保护特定行的步骤。 
+现在我们已经导入了所需的包，让我们逐步介绍如何创建 Excel 工作簿并保护特定行。 
 
 ## 步骤 1：定义目录
 
-在此步骤中，我们将指定保存 Excel 文件的位置。 确保此目录存在非常重要，否则我们将在需要时以编程方式创建它。
+在此步骤中，我们将指定保存 Excel 文件的位置。确保此目录存在非常重要，否则我们将在需要时以编程方式创建它。
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; //替换为您的文档路径
@@ -116,7 +116,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## 结论
 
-就这样！您已成功学会了如何使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定行。只需几行代码，您不仅可以创建工作簿，还可以保护敏感信息，确保您的 Excel 文件保持完整和可信。无论是财务报告、考勤表还是协作项目计划，保护关键数据都至关重要。 
+就这样！您已经成功学会了如何使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定行。只需几行代码，您不仅可以创建工作簿，还可以保护敏感信息，确保您的 Excel 文件保持完整和可信。无论是财务报告、考勤表还是协作项目计划，保护关键数据都至关重要。 
 
 ## 常见问题解答
 
@@ -124,10 +124,10 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 Aspose.Cells 是一个强大的.NET 库，允许用户以编程方式创建、操作和转换 Excel 文件。
 
 ### 我可以使用 Aspose.Cells 同时保护多行吗？
-是的，您可以通过迭代多行并对每行应用类似的样式更改来扩展锁定技术。
+是的，您可以通过遍历多行并对每行应用类似的样式更改来扩展锁定技术。
 
 ### 有没有办法在保护之后解锁行？
-是的，您可以先取消保护工作表，然后调整`IsLocked`所需行的属性，然后重新应用保护。
+是的，你可以先取消保护工作表，然后调整`IsLocked`所需行的属性，然后重新应用保护。
 
 ### Aspose.Cells 除了支持 Excel 之外还支持其他格式吗？
 当然！Aspose.Cells 可以将工作簿转换并保存为各种格式，包括 CSV、PDF 和 HTML。

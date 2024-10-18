@@ -71,17 +71,17 @@ Il est maintenant temps de verrouiller une cellule spécifique de votre feuille 
 worksheet.Cells["A1"].GetStyle().IsLocked = true;
 ```
 
-Cette commande simple empêche quiconque d'apporter des modifications à la cellule « A1 ». C'est un peu comme si vous mettiez un panneau « Ne pas toucher » sur votre dessert préféré !
+Cette commande simple empêche quiconque d'apporter des modifications à la cellule « A1 ». C'est un peu comme si vous mettiez un panneau « Ne pas toucher » sur votre dessert préféré !
 
 ## Étape 5 : Protégez la feuille de calcul
 
-Le verrouillage de la cellule est une étape essentielle, mais elle ne suffit pas à elle seule. Vous devez protéger l'intégralité de la feuille de calcul pour appliquer le verrouillage. Cela ajoute une couche de sécurité, garantissant que les cellules verrouillées restent protégées.
+Le verrouillage de la cellule est une étape essentielle, mais elle ne suffit pas à elle seule ; vous devez protéger l'intégralité de la feuille de calcul pour appliquer le verrouillage. Cela ajoute une couche de sécurité, garantissant que les cellules verrouillées restent protégées.
 
 ```csharp
 worksheet.Protect(ProtectionType.All);
 ```
 
-Avec cette ligne, vous établissez en réalité une barrière de protection, comme un agent de sécurité à l'entrée pour protéger vos données.
+Avec cette ligne, vous installez effectivement une barrière de protection, comme un agent de sécurité à l'entrée pour protéger vos données.
 
 ## Étape 6 : Enregistrez vos modifications
 

@@ -93,7 +93,7 @@ Sau khi áp dụng các biện pháp bảo vệ cần thiết, điều quan tr�
 excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
-Lệnh này sẽ lưu sổ làm việc dưới dạng "output.out.xls" theo định dạng đã chỉ định. Hãy chắc chắn chỉnh sửa tên tệp để giữ cho nó được sắp xếp hợp lý!
+Lệnh này sẽ lưu sổ làm việc dưới dạng "output.out.xls" theo định dạng đã chỉ định. Hãy chắc chắn chỉnh sửa tên tệp để giữ cho nó được sắp xếp!
 
 ## Bước 7: Đóng luồng tập tin
 
@@ -107,7 +107,7 @@ Một bước đơn giản nhưng quan trọng giúp đảm bảo ứng dụng c
 
 ## Phần kết luận
 
-Bảo vệ các bảng tính Excel của bạn bằng Aspose.Cells for .NET là một cách hiệu quả để giữ cho dữ liệu của bạn an toàn khỏi những sửa đổi trái phép. Từ việc xác định thư mục tài liệu đến áp dụng bảo vệ bằng mật khẩu và lưu các thay đổi của bạn, chúng tôi đã đề cập đến tất cả các bước bạn cần để bảo vệ các bảng tính của mình một cách dễ dàng. Cho dù bạn đang quản lý dữ liệu cá nhân hay thông tin kinh doanh nhạy cảm, Aspose.Cells đều cung cấp một giải pháp đơn giản.
+Bảo vệ các bảng tính Excel của bạn bằng Aspose.Cells for .NET là một cách hiệu quả để giữ cho dữ liệu của bạn an toàn khỏi các sửa đổi trái phép. Từ việc xác định thư mục tài liệu đến áp dụng bảo vệ bằng mật khẩu và lưu các thay đổi của bạn, chúng tôi đã đề cập đến tất cả các bước bạn cần để bảo vệ các bảng tính của mình một cách dễ dàng. Cho dù bạn đang quản lý dữ liệu cá nhân hay thông tin kinh doanh nhạy cảm, Aspose.Cells đều cung cấp một giải pháp đơn giản.
 
 ## Câu hỏi thường gặp
 

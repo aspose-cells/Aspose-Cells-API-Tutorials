@@ -9,14 +9,14 @@ url: /de/net/excel-page-setup/set-excel-headers-and-footers/
 ---
 ## Einführung
 
-Beim Verwalten von Tabellenkalkulationsdokumenten spielen Kopf- und Fußzeilen eine entscheidende Rolle bei der Kontextbereitstellung. Stellen Sie sich vor, Sie öffnen eine Excel-Datei und ganz oben sehen Sie den Namen des Arbeitsblatts, das Datum und vielleicht sogar den Dateinamen. Dies verleiht Ihrem Dokument einen professionellen Touch und hilft dabei, wichtige Details auf einen Blick zu vermitteln. Wenn Sie die Professionalität Ihrer Excel-Tabellen mit Aspose.Cells für .NET verbessern möchten, sind Sie hier genau richtig! In dieser Anleitung führen wir Sie durch die Schritte zum mühelosen Festlegen von Kopf- und Fußzeilen in Ihren Excel-Tabellen. 
+Beim Verwalten von Tabellenkalkulationsdokumenten spielen Kopf- und Fußzeilen eine entscheidende Rolle bei der Kontextbereitstellung. Stellen Sie sich vor, Sie öffnen eine Excel-Datei und ganz oben sehen Sie den Namen des Arbeitsblatts, das Datum und vielleicht sogar den Dateinamen. Dies verleiht Ihrem Dokument einen professionellen Touch und hilft, wichtige Details auf einen Blick zu vermitteln. Wenn Sie die Professionalität Ihrer Excel-Tabellen mit Aspose.Cells für .NET verbessern möchten, sind Sie hier genau richtig! In dieser Anleitung führen wir Sie durch die Schritte zum mühelosen Festlegen von Kopf- und Fußzeilen in Ihren Excel-Tabellen. 
 
 ## Voraussetzungen
 
-Bevor wir uns ins Detail stürzen, stellen wir sicher, dass Sie alles haben, was Sie für den Anfang brauchen. Zunächst einmal brauchen Sie:
+Bevor wir ins Detail gehen, stellen wir sicher, dass Sie alles haben, was Sie für den Anfang brauchen. Zunächst einmal brauchen Sie:
 
 1. Visual Studio: Stellen Sie sicher, dass Visual Studio auf Ihrem Computer installiert ist. Hier schreiben und führen Sie Ihren C#-Code aus.
-2.  Aspose.Cells für .NET-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek. Falls noch nicht geschehen, können Sie sie hier herunterladen:[Hier](https://releases.aspose.com/cells/net/).
+2.  Aspose.Cells für .NET-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek. Wenn Sie sie noch nicht haben, können Sie sie hier herunterladen:[Hier](https://releases.aspose.com/cells/net/).
 3. Grundlegende Kenntnisse in C#: Kenntnisse in der C#-Programmierung sind unbedingt erforderlich, da alle Codebeispiele in dieser Sprache verfasst sind.
 4. Ein Projekt-Setup: Erstellen Sie in Visual Studio ein neues C#-Projekt, in dem wir unsere Excel-Kopf-/Fußzeilenlogik implementieren.
 
@@ -46,7 +46,7 @@ using System;
 
 Durch den Import dieses Namespaces können Sie die von der Aspose.Cells-Bibliothek bereitgestellten Funktionen uneingeschränkt nutzen.
 
-Großartig! Nachdem Ihre Umgebung nun eingerichtet und Ihre Pakete importiert sind, können wir den Vorgang zum Festlegen von Kopf- und Fußzeilen in Excel Schritt für Schritt durchgehen.
+Großartig! Nachdem Ihre Umgebung nun eingerichtet und Ihre Pakete importiert sind, wollen wir den Vorgang zum Festlegen von Kopf- und Fußzeilen in Excel Schritt für Schritt durchgehen.
 
 ## Schritt 1: Initialisieren der Arbeitsmappe
 
@@ -77,9 +77,9 @@ Beginnen wir nun mit der Einrichtung der Kopfzeile. Wir beginnen mit dem linken 
 pageSetup.SetHeader(0, "&A");
 ```
 
- Erläuterung: Die`SetHeader` Methode können wir den Inhalt des Headers definieren. Hier`&A` bezeichnet den Namen des Arbeitsblatts, der auf der linken Seite der Kopfzeile angezeigt wird.
+Erläuterung: Die`SetHeader` Methode können wir den Inhalt des Headers definieren. Hier`&A` bezeichnet den Namen des Arbeitsblatts, der auf der linken Seite der Kopfzeile angezeigt wird.
 
-## Schritt 4: Passen Sie die zentrale Kopfzeile an
+## Schritt 4: Anpassen der zentralen Kopfzeile
 
 Als Nächstes passen wir die zentrale Kopfzeile an, um das aktuelle Datum und die Uhrzeit in einer bestimmten Schriftart anzuzeigen.
 
@@ -87,7 +87,7 @@ Als Nächstes passen wir die zentrale Kopfzeile an, um das aktuelle Datum und di
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Erläuterung: Die`&D` Und`&T` Codes werden automatisch durch das aktuelle Datum bzw. die aktuelle Uhrzeit ersetzt. Wir legen außerdem fest, dass die Schriftart für diese Kopfzeile „Times New Roman“ und fett sein soll.
+Erläuterung: Die`&D` Und`&T` Codes werden automatisch durch das aktuelle Datum bzw. die aktuelle Uhrzeit ersetzt. Wir legen außerdem fest, dass die Schriftart für diese Kopfzeile „Times New Roman“ und fett sein soll.
 
 ## Schritt 5: Den richtigen Header festlegen
 
@@ -117,11 +117,11 @@ Als nächstes stellen wir die mittlere Fußzeile so ein, dass die aktuelle Seite
 pageSetup.SetFooter(1, "&P");
 ```
 
- Erläuterung: Die`&P` Der Code fügt die Seitenzahl automatisch in der Mitte der Fußzeile ein – eine praktische Möglichkeit, den Überblick über die Seiten zu behalten.
+Erläuterung: Die`&P` Der Code fügt die Seitenzahl automatisch in der Mitte der Fußzeile ein – eine praktische Möglichkeit, den Überblick über die Seiten zu behalten.
 
 ## Schritt 8: Konfiguration der rechten Fußzeile
 
-Um unsere Fußzeileneinstellungen abzuschließen, legen wir die rechte Fußzeile so fest, dass die Gesamtzahl der Seiten im Dokument angezeigt wird.
+Um unsere Fußzeileneinstellungen abzuschließen, legen wir in der rechten Fußzeile fest, dass die Gesamtzahl der Seiten im Dokument angezeigt wird.
 
 ```csharp
 pageSetup.SetFooter(2, "&N");

@@ -45,7 +45,7 @@ Aquí es donde se especifica la ruta al archivo Excel con el que desea trabajar.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Reemplazar`YOUR DOCUMENT DIRECTORY`con la ruta real donde se almacena el archivo de Excel. Esto permite que el programa encuentre los archivos necesarios que manipulará.
+ Reemplazar`YOUR DOCUMENT DIRECTORY` con la ruta real donde se almacena el archivo de Excel. Esto permite que el programa encuentre los archivos necesarios que manipulará.
 
 ## Paso 2: Crear un flujo de archivos
 
@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
   
- Este`Workbook` El objeto ahora contiene todos los datos y configuraciones de su archivo Excel, lo que permite su manipulación más adelante en el proceso.
+ Este`Workbook`El objeto ahora contiene todos los datos y configuraciones de su archivo Excel, lo que permite su manipulación más adelante en el proceso.
 
 ## Paso 4: Ocultar la barra de desplazamiento vertical
 
@@ -78,7 +78,7 @@ Workbook workbook = new Workbook(fstream);
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- Mediante la configuración`IsVScrollBarVisible` a`false`La barra de desplazamiento vertical está oculta. Esto puede resultar especialmente útil cuando se desea limitar el desplazamiento de una manera sencilla.
+ Mediante la configuración`IsVScrollBarVisible` a`false`La barra de desplazamiento vertical está oculta. Esto puede resultar especialmente útil cuando se desea limitar el desplazamiento de una manera sencilla para el usuario.
 
 ## Paso 5: Ocultar la barra de desplazamiento horizontal
 
@@ -123,7 +123,7 @@ Si sigue estos sencillos pasos, aprenderá a mostrar y ocultar las barras de des
  ¡Sí! Solo tienes que configurarlo`IsVScrollBarVisible` y`IsHScrollBarVisible` volver a`true`.
 
 ### ¿Aspose.Cells es de uso gratuito?  
-Aspose.Cells no es completamente gratuito, pero puedes probarlo gratis por tiempo limitado o considerar comprarlo.[una licencia temporal](https://purchase.aspose.com/temporary-license/).
+ Aspose.Cells no es completamente gratuito, pero puedes probarlo gratis por tiempo limitado o considerar comprarlo.[una licencia temporal](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Qué tipos de archivos de Excel puedo manipular con Aspose.Cells?  
 Puede trabajar con varios formatos de Excel, incluidos .xls, .xlsx, .xlsm, .xlsb, etc.

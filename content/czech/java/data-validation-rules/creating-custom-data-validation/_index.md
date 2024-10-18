@@ -33,7 +33,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Přidání listu
 
-Nyní přidejte do sešitu list, kde použijeme vlastní ověření dat.
+Nyní přidáme do sešitu list, kde použijeme vlastní ověření dat.
 
 ```java
 // Java kód pro přidání listu

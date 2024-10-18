@@ -17,7 +17,7 @@ url: /ko/net/excel-workbook/allow-leading-apostrophe/
 
 1. .NET에 대한 기본 지식: .NET 프레임워크에 대한 지식이 필수적입니다. 이미 C# 또는 VB.NET을 다루고 있다면 준비가 되었다고 생각하세요.
 2. .NET 라이브러리용 Aspose.Cells: Aspose.Cells를 설치해야 합니다. NuGet 패키지 관리자를 통해 쉽게 이 작업을 수행하거나 다음에서 다운로드할 수 있습니다.[Aspose 사이트](https://releases.aspose.com/cells/net/).
-3. IDE 설정: 코딩에 필요한 Visual Studio와 같은 통합 개발 환경(IDE)이 준비되었는지 확인하세요.
+3. IDE 설정: Visual Studio와 같은 통합 개발 환경(IDE)이 코딩에 필요한지 확인하세요.
 4. 샘플 Excel 파일: 코드에서 작업할 샘플 파일("AllowLeadingApostropheSample.xlsx")을 사용할 수 있습니다.
 
 이제 필수 구성 요소를 확인했으니, 필요한 패키지를 가져와서 프로젝트를 설정해 보겠습니다.

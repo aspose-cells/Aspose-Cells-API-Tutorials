@@ -2,7 +2,7 @@
 title: Kontrol Faktor Zoom Lembar Kerja
 linktitle: Kontrol Faktor Zoom Lembar Kerja
 second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara mengontrol faktor zoom lembar kerja Excel menggunakan Aspose.Cells for .NET dalam langkah-langkah sederhana. Tingkatkan keterbacaan di lembar kerja Anda.
+description: Pelajari cara mengontrol faktor zoom lembar kerja Excel menggunakan Aspose.Cells for .NET dalam langkah-langkah mudah. Tingkatkan keterbacaan di lembar kerja Anda.
 type: docs
 weight: 20
 url: /id/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-worksheet/
@@ -32,7 +32,7 @@ Buka Visual Studio dan buat proyek Aplikasi Konsol baru. Anda dapat menamainya a
 
 Sekarang, saatnya menambahkan referensi pustaka Aspose.Cells. Anda dapat:
 
--  Unduh DLL dari[Di Sini](https://releases.aspose.com/cells/net/) dan menambahkannya ke proyek Anda secara manual.
+-  Unduh DLL dari[Di Sini](https://releases.aspose.com/cells/net/)dan menambahkannya ke proyek Anda secara manual.
 - Atau, gunakan NuGet Package Manager dan jalankan perintah berikut di Konsol Package Manager:
 
 ```bash
@@ -81,7 +81,7 @@ Baris kode ini akan mempersiapkan berkas Excel Anda untuk diedit.
  Itu`Workbook` Objek adalah inti dari fungsionalitas Aspose.Cells Anda. Objek ini merepresentasikan berkas Excel Anda dengan cara yang mudah dikelola.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Dengan buku kerja yang sekarang ada di memori, saatnya untuk mengakses lembar kerja tertentu yang ingin Anda ubah. Dalam kebanyakan kasus, ini akan menjadi lembar kerja pertama (indeks 0).
 
 ```csharp
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

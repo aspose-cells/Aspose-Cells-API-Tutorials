@@ -19,7 +19,7 @@ Trước khi bắt đầu, bạn cần lưu ý một số điều để đảm b
 -  Aspose.Cells cho .NET: Bạn có thể tải xuống phiên bản mới nhất của Aspose.Cells từ[trang web](https://releases.aspose.com/cells/net/) . Nếu bạn muốn thử nghiệm trước khi mua, bạn có thể cân nhắc đăng ký[dùng thử miễn phí](https://releases.aspose.com/).
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi các ví dụ trong hướng dẫn này.
 
-Khi bạn đã thiết lập mọi thứ, chúng ta có thể bắt đầu viết mã!
+Khi bạn đã thiết lập mọi thứ, chúng ta có thể bắt đầu viết code!
 
 ## Nhập gói
 
@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Cập nhật theo đường dẫn
  Tiếp theo, bạn cần tạo một phiên bản mới của`Workbook` lớp. Đối tượng này sẽ đại diện cho tệp Excel của bạn, cho phép bạn thao tác nội dung của tệp.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -95,7 +95,7 @@ Trong đoạn mã này, chúng ta chỉ định loại biểu đồ (trong trư�
 
 ## Bước 6: Truy cập vào Chart Instance
 
- Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua`Charts`bộ sưu tập.
+Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua`Charts`bộ sưu tập.
 
 ```csharp
 // Truy cập vào phiên bản biểu đồ mới được thêm vào
@@ -124,7 +124,7 @@ chart.PlotArea.Area.ForegroundColor = Color.Blue;
 // Thiết lập màu nền trước của vùng biểu đồ
 chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 
-// Thiết lập màu nền trước của vùng 1st SeriesCollection
+// Thiết lập màu nền trước của vùng SeriesCollection thứ 1
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 
 // Thiết lập màu nền trước của vùng điểm 1 của SeriesCollection
@@ -152,7 +152,7 @@ Các lệnh này thiết lập các đường lưới chính cho trục danh m�
 
 ## Bước 10: Lưu sổ làm việc
 
-Sau khi thực hiện tất cả các sửa đổi, đã đến lúc lưu sổ làm việc. Đây là bước cuối cùng đưa nỗ lực của bạn thành quả.
+Sau khi thực hiện tất cả các sửa đổi, đã đến lúc lưu sổ làm việc. Đây là bước cuối cùng đưa nỗ lực của bạn đến thành quả.
 
 ```csharp
 // Lưu tệp Excel

@@ -15,7 +15,7 @@ Các phạm vi được đặt tên trong Excel giống như những túi năng 
 
 Hãy tưởng tượng bạn có nhiều phạm vi được đặt tên nằm rải rác trên trang tính Excel của mình và bạn cần truy xuất tất cả chúng để xử lý. Thay vì phải tìm kiếm từng phạm vi riêng lẻ, Aspose.Cells for .NET cung cấp cho bạn một cách hợp lý để truy cập chúng cùng một lúc! Phương pháp này đơn giản hóa quy trình làm việc của bạn và tiết kiệm thời gian.
 
- Bằng cách sử dụng`Workbook.Worksheets.Names`collection, bạn có thể dễ dàng truy cập tất cả các phạm vi được đặt tên. Cho dù bạn đang quản lý các tập dữ liệu lớn hay tự động hóa các tác vụ, tính năng này là một công cụ thay đổi cuộc chơi. Bạn muốn tìm hiểu cách thực hiện từng bước này? Đọc thêm trong[Truy cập tất cả các phạm vi được đặt tên trong Excel](./access-all-named-ranges/) hướng dẫn.
+ Bằng cách sử dụng`Workbook.Worksheets.Names`collection, bạn có thể dễ dàng truy cập vào tất cả các phạm vi được đặt tên. Cho dù bạn đang quản lý các tập dữ liệu lớn hay tự động hóa các tác vụ, tính năng này là một công cụ thay đổi cuộc chơi. Bạn muốn tìm hiểu cách thực hiện từng bước này? Đọc thêm trong[Truy cập tất cả các phạm vi được đặt tên trong Excel](./access-all-named-ranges/) hướng dẫn.
 
 ## Truy cập phạm vi được đặt tên cụ thể trong Excel
 

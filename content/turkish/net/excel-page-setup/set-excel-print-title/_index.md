@@ -115,7 +115,7 @@ Ve işte bu kadar, yazdırma başlıklarınız ayarlandı ve Excel dosyanız yaz
 
 ## Çözüm
 
-Aspose.Cells for .NET kullanarak Excel'de baskı başlıklarını ayarlamak, basılı belgelerinizin okunabilirliğini önemli ölçüde artırabilecek basit bir işlemdir. Bu makalede özetlenen adımları izleyerek, artık raporlarınız boyunca bu önemli başlık satırlarını ve sütunlarını görünür tutma becerisine sahipsiniz. Bu yalnızca profesyonel sunumu geliştirmekle kalmaz, aynı zamanda inceleme sürecinde zamandan da tasarruf sağlar!
+Aspose.Cells for .NET kullanarak Excel'de baskı başlıklarını ayarlamak, basılı belgelerinizin okunabilirliğini önemli ölçüde artırabilen basit bir işlemdir. Bu makalede özetlenen adımları izleyerek, artık raporlarınız boyunca bu önemli başlık satırlarını ve sütunlarını görünür tutma becerisine sahipsiniz. Bu yalnızca profesyonel sunumu geliştirmekle kalmaz, aynı zamanda inceleme sürecinde zamandan da tasarruf sağlar!
 
 ## SSS
 

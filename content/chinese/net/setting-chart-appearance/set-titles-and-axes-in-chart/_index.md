@@ -13,10 +13,10 @@ url: /zh/net/setting-chart-appearance/set-titles-and-axes-in-chart/
 
 ## 先决条件
 
-在开始分步教程之前，我们先确保你已经准备好开始所需的一切。以下是先决条件：
+在我们开始逐步教程之前，让我们确保您已准备好开始所需的一切。以下是先决条件：
 
 1. Visual Studio：确保您的系统上安装了 Visual Studio 以开发 .NET 应用程序。
-2. .NET Framework：确保您使用的是 .NET Framework 4.0 或更高版本。
+2. .NET Framework：确保您使用的是.NET Framework 4.0 或更高版本。
 3.  Aspose.Cells 库：下载并安装 Aspose.Cells 库。您可以在[下载链接](https://releases.aspose.com/cells/net/).
 4. C# 基础知识：熟悉 C# 编程将帮助您更轻松地跟进。
 
@@ -185,7 +185,7 @@ workbook.Save(outputDir + "outputSettingTitlesAxes.xlsx");
 
 ## 步骤12：确认信息
 
-为了把事情圆满解决，让我们确认我们的流程是否成功执行。
+为了把事情圆满解决，让我们确认我们的流程已成功执行。
 
 ```csharp
 Console.WriteLine("SettingTitlesAxes executed successfully.");

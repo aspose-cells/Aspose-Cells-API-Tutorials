@@ -12,9 +12,9 @@ url: /nl/java/basic-excel-functions/excel-date-functions-tutorial/
 
 In deze uitgebreide tutorial verkennen we Excel-datumfuncties en hoe u de kracht van Aspose.Cells voor Java kunt benutten om met datumgerelateerde gegevens te werken. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Aspose.Cells, deze gids helpt u het potentieel van datumfuncties in Excel te benutten. Dus, laten we erin duiken!
 
-## Begrijpen van datumfuncties in Excel
+## Begrijp datumfuncties in Excel
 
-Excel heeft een breed scala aan datumfuncties die complexe datumgerelateerde berekeningen vereenvoudigen. Deze functies zijn ongelooflijk handig voor taken zoals datumberekeningen, het vinden van het verschil tussen datums en meer. Laten we eens kijken naar enkele veelvoorkomende datumfuncties:
+Excel heeft een breed scala aan datumfuncties die complexe datumgerelateerde berekeningen vereenvoudigen. Deze functies zijn ongelooflijk handig voor taken zoals datumrekenkunde, het vinden van het verschil tussen datums en meer. Laten we eens kijken naar enkele veelvoorkomende datumfuncties:
 
 ### DATUM Functie
 
@@ -42,7 +42,7 @@ Voordat we kunnen beginnen met coderen, moeten we Aspose.Cells voor Java instell
 
 1. Download en installeer Aspose.Cells: Bezoek[Aspose.Cells voor Java](https://releases.aspose.com/cells/java/) en download de nieuwste versie.
 
-2. Aspose.Cells toevoegen aan uw project: voeg de Aspose.Cells-bibliotheek toe aan uw Java-project.
+2. Voeg Aspose.Cells toe aan uw project: voeg de Aspose.Cells-bibliotheek toe aan uw Java-project.
 
 3. Licentieconfiguratie: Zorg ervoor dat u een geldige licentie hebt om Aspose.Cells te gebruiken.
 

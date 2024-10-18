@@ -2,7 +2,7 @@
 title: Regex Değiştir
 linktitle: Regex Değiştir
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET ile Excel'de regex değiştirmeyi verimli bir şekilde nasıl kullanacağınızı öğrenin. E-tablo görevlerinizde üretkenliği ve doğruluğu artırın.
+description: Aspose.Cells for .NET ile Excel'de regex değiştirmeyi nasıl verimli bir şekilde kullanacağınızı öğrenin. E-tablo görevlerinizde üretkenliği ve doğruluğu artırın.
 type: docs
 weight: 140
 url: /tr/net/excel-workbook/regex-replace/

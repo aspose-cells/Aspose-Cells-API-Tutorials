@@ -15,7 +15,7 @@ Comencemos con los conceptos básicos de la combinación y descombinación de ce
 
 Ahora, quizás te preguntes cómo Aspose.Cells simplifica este proceso. Aspose.Cells para .NET es una potente API que permite a los desarrolladores interactuar con archivos de Excel sin problemas. Imagina tener una navaja suiza para las operaciones de Excel; eso es básicamente lo que es esta herramienta. Te permite combinar o separar celdas con solo unas pocas líneas de código. Además, puedes manipular un libro de trabajo de manera programática, como un maestro que dirige una orquesta de datos. 
 
- En nuestro tutorial sobre[Cómo deshacer la fusión de celdas fusionadas en Excel](./unmerge-merged-cells/), desglosamos el proceso en pasos fáciles de digerir. Demostramos cómo identificar celdas fusionadas con Aspose.Cells y lo guiamos a través del código necesario para descomponerlas. Esto es increíblemente útil cuando necesita realizar ajustes de datos a gran escala o cuando simplemente está limpiando su hoja de cálculo. 
+ En nuestro tutorial sobre[Cómo deshacer la fusión de celdas fusionadas en Excel](./unmerge-merged-cells/), desglosamos el proceso en pasos fáciles de digerir. Demostramos cómo identificar celdas fusionadas con Aspose.Cells y le mostramos el código necesario para descomponerlas. Esto resulta increíblemente útil cuando necesita realizar ajustes de datos a gran escala o cuando simplemente está limpiando su hoja de cálculo. 
 
 ## Tutoriales sobre cómo combinar y separar celdas en Excel
 ### [Cómo separar celdas fusionadas en Excel](./unmerge-merged-cells/)

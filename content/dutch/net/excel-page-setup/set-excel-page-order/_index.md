@@ -15,7 +15,7 @@ Heb je jezelf ooit betrapt op het navigeren door een wirwar van pagina's in een 
 
 Voordat u in de code duikt, zijn er een paar dingen die u moet regelen:
 
-- .NET-omgeving: Zorg ervoor dat u een .NET-omgeving op uw machine hebt ingesteld. Of het nu .NET Framework of .NET Core is, het zou soepel moeten werken.
+- .NET-omgeving: Zorg ervoor dat u een .NET-omgeving op uw machine hebt ingesteld. Of het nu .NET Framework of .NET Core is, het moet soepel werken.
 -  Aspose.Cells-bibliotheek: U hebt de Aspose.Cells for .NET-bibliotheek nodig. Maak u geen zorgen, het is eenvoudig om te beginnen! U kunt[download het hier](https://releases.aspose.com/cells/net/) of ontvang een gratis proefperiode[hier](https://releases.aspose.com/).
 - Basiskennis programmeren: Een fundamenteel begrip van C#-programmering helpt u de concepten beter te begrijpen.
 
@@ -103,7 +103,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ## Conclusie
 
-Gefeliciteerd! U hebt zojuist geleerd hoe u de paginavolgorde in Excel instelt met Aspose.Cells voor .NET. Met slechts een paar regels code kunt u aanpassen hoe uw Excel-documenten worden afgedrukt, waardoor ze gemakkelijk te volgen en visueel aantrekkelijk zijn. Deze functionaliteit is handig, vooral bij het werken met grote datasets waarbij de paginavolgorde de leesbaarheid aanzienlijk kan beïnvloeden. 
+Gefeliciteerd! U hebt zojuist geleerd hoe u de paginavolgorde in Excel instelt met Aspose.Cells voor .NET. Met slechts een paar regels code kunt u aanpassen hoe uw Excel-documenten worden afgedrukt, waardoor ze gemakkelijk te volgen en visueel aantrekkelijk worden. Deze functionaliteit is handig, vooral bij het werken met grote datasets waarbij de paginavolgorde de leesbaarheid aanzienlijk kan beïnvloeden. 
 
 ## Veelgestelde vragen
 
@@ -114,7 +114,7 @@ Aspose.Cells is een .NET-bibliotheek die functies biedt voor het bewerken van Mi
  U kunt een tijdelijke vergunning aanvragen door naar de website te gaan[Tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) op de website van Aspose.
 
 ### Kan ik de paginavolgorde van meerdere werkbladen wijzigen?
- Ja! U kunt toegang krijgen tot de inhoud van elk werkblad`PageSetup` en de paginavolgorde individueel configureren.
+ Ja! U hebt toegang tot de inhoud van elk werkblad`PageSetup` en de paginavolgorde individueel configureren.
 
 ### Welke opties zijn er voor de volgorde van de afdrukpagina's?
 U kunt kiezen tussen 'Over Then Down' en 'Down Then Over' voor de volgorde van uw paginaafdrukken.

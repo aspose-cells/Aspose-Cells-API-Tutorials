@@ -1,7 +1,7 @@
 ---
 title: Dependência e cálculo de dados do Excel
 linktitle: Dependência e cálculo de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra os tutoriais do Aspose.Cells para .NET que abordam dependências de dados e cálculos do Excel, incluindo rastreamento de células dependentes, para aprimorar suas habilidades de automação do Excel.
 type: docs
 weight: 34
@@ -9,7 +9,7 @@ url: /pt/net/excel-data-dependency-calculation/
 ---
 
 ## Introdução
-Um dos aspectos mais importantes da automação do Excel é entender as dependências de dados — como o valor de uma célula pode ser influenciado por outras. O Aspose.Cells for .NET fornece excelente funcionalidade para lidar com esses cenários. Quer você esteja trabalhando em cálculos simples ou em dependências complexas baseadas em dados, esses tutoriais podem ajudar.
+Um dos aspectos mais importantes da automação do Excel é entender as dependências de dados — como o valor de uma célula pode ser influenciado por outras. O Aspose.Cells para .NET fornece excelente funcionalidade para lidar com esses cenários. Quer você esteja trabalhando em cálculos simples ou em dependências complexas baseadas em dados, esses tutoriais podem ajudar.
 
 ## [Rastreando células dependentes no Excel](./tracing-dependent-cells-in-excel/)
 

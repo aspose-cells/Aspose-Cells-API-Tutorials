@@ -23,7 +23,7 @@ url: /ru/java/spreadsheet-automation/batch-excel-processing/
 
 ### 1. Создание среды
 
- Для начала убедитесь, что у вас установлен Aspose.Cells for Java. Вы можете загрузить его с[здесь](https://releases.aspose.com/cells/java/).
+ Для начала убедитесь, что у вас установлен Aspose.Cells for Java. Его можно скачать здесь[здесь](https://releases.aspose.com/cells/java/).
 
 ### 2. Инициализация Aspose.Cells
 
@@ -76,7 +76,7 @@ String data = fileWorkbook.getWorksheets().get(0).getCells().get("A1").getString
 Если вам необходимо преобразовать файлы Excel в другие форматы, вы можете автоматизировать процесс конвертации:
 
 ```java
-// Сохраните файл Excel как PDF
+// Сохранить файл Excel как PDF
 fileWorkbook.save("output.pdf", SaveFormat.PDF);
 ```
 

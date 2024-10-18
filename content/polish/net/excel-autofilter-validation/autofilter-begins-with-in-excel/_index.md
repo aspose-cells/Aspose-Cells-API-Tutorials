@@ -18,7 +18,7 @@ Zanim zaczniesz, upewnij się, że spełniasz następujące wymagania:
 1. Środowisko programistyczne: Zapoznaj się ze środowiskiem programistycznym .NET. Może to być Visual Studio lub dowolne inne IDE według własnego wyboru.
 2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz go wygodnie pobrać[Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: podstawowa znajomość języka C# i umiejętność pracy z bibliotekami .NET pomogą Ci bezproblemowo uczyć się języka.
-4.  Przykładowe dane: Powinieneś mieć plik Excel, najlepiej o nazwie`sourseSampleCountryNames.xlsx`, znajdującego się w wyznaczonym katalogu źródłowym. Ten plik będzie zawierał dane, które będziemy filtrować.
+4.  Przykładowe dane: Powinieneś mieć plik Excel, najlepiej o nazwie`sourseSampleCountryNames.xlsx`, znajdujące się w wyznaczonym katalogu źródłowym. Ten plik będzie zawierał dane, które będziemy filtrować.
 5.  Licencjonowanie: Aby uzyskać pełną funkcjonalność, rozważ nabycie licencji za pośrednictwem tej strony[połączyć](https://purchase.aspose.com/buy) . Jeśli chcesz przetestować funkcje, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 Wszystko gotowe? No to jedziemy!
@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Teraz musimy uzyskać dostęp do konkretnego arkusza kalkulacyjnego, z którym chcemy pracować:
 
 ```csharp
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Wyjaśnienie:`Worksheets` kolekcja pozwala nam na dostęp do pojedynczych arkuszy. Używanie`[0]` odwołuje się do pierwszego arkusza kalkulacyjnego w pliku Excel, co jest ogólnie przyjętą praktyką w przypadku pracy z plikiem jednoarkuszowym.
+Wyjaśnienie:`Worksheets` kolekcja pozwala nam na dostęp do pojedynczych arkuszy. Używanie`[0]` odwołuje się do pierwszego arkusza kalkulacyjnego w pliku Excel, co jest ogólnie przyjętą praktyką w przypadku pracy z plikiem jednoarkuszowym.
 
 ## Krok 4: Konfigurowanie Autofiltra
 
@@ -82,7 +82,7 @@ Tutaj zaczyna się magia! Utworzymy zakres AutoFiltru dla naszych danych:
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Wyjaśnienie:`AutoFilter.Range` właściwość pozwala określić, które wiersze mają być filtrowane. W tym przypadku filtrujemy wiersze w zakresie od A1 do A18, które, jak się zakłada, zawierają nasze dane.
+Wyjaśnienie:`AutoFilter.Range` właściwość pozwala określić, które wiersze mają być filtrowane. W tym przypadku filtrujemy wiersze w zakresie od A1 do A18, które, jak się zakłada, zawierają nasze dane.
 
 ## Krok 5: Zastosuj warunek filtra
 
@@ -93,7 +93,7 @@ Następnym krokiem jest zdefiniowanie warunku filtru. Chcemy wyświetlić tylko 
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Wyjaśnienie:`Custom` Metoda definiuje naszą logikę filtrowania. Pierwszy argument (`0` ) oznacza, że filtrujemy na podstawie pierwszej kolumny (A), a`FilterOperatorType.BeginsWith`określa nasz warunek wyszukiwania wierszy zaczynających się od „Ba”.
+Wyjaśnienie:`Custom` Metoda definiuje naszą logikę filtrowania. Pierwszy argument (`0` ) oznacza, że filtrujemy na podstawie pierwszej kolumny (A), a`FilterOperatorType.BeginsWith`określa nasz warunek wyszukiwania wierszy zaczynających się od „Ba”.
 
 ## Krok 6: Odśwież filtr
 
@@ -115,7 +115,7 @@ Teraz pora zapisać wprowadzone zmiany:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Wyjaśnienie:`Save` Metoda zapisuje zmodyfikowany skoroszyt z powrotem do określonej ścieżki wyjściowej. Jest to zapisanie zdefiniowanych filtrów do nowego pliku, tak aby oryginalne dane pozostały nienaruszone.
+Wyjaśnienie:`Save` Metoda zapisuje zmodyfikowany skoroszyt z powrotem do określonej ścieżki wyjściowej. Jest to zapisanie zdefiniowanych filtrów do nowego pliku, tak aby oryginalne dane pozostały nienaruszone.
 
 ## Krok 8: Potwierdzenie wyników
 
@@ -136,7 +136,7 @@ W świecie, w którym zarządzanie danymi może wydawać się przytłaczające, 
 ### Jaki jest cel Autofiltru w programie Excel?  
 Funkcja Autofiltr umożliwia użytkownikom szybkie sortowanie i filtrowanie danych w arkuszu kalkulacyjnym, dzięki czemu można łatwo skupić się na określonych zestawach danych.
 
-### Czy w Aspose.Cells mogę filtrować na podstawie wielu kryteriów?  
+### Czy za pomocą Aspose.Cells mogę filtrować na podstawie wielu kryteriów?  
 Tak, Aspose.Cells obsługuje zaawansowane opcje filtrowania, które umożliwiają ustawienie wielu kryteriów.
 
 ### Czy potrzebuję licencji na korzystanie z Aspose.Cells?  

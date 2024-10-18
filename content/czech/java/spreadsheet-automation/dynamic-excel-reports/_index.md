@@ -48,7 +48,7 @@ Dynamické sestavy často zahrnují výpočty a vzorce. Aspose.Cells můžete po
 
 ```java
 // Vytvořte vzorec
-worksheet.getCells().get("C2").setFormula("=B2*1.1"); // Počítá 10% nárůst ceny
+worksheet.getCells().get("C2").setFormula("=B2*1.1"); // Počítá s 10% nárůstem ceny
 ```
 
 ## Krok 5: Použití stylů a formátování

@@ -16,7 +16,7 @@ Excel 檔案在當今資料驅動的世界中無所不在，是呈現、操作�
 在深入學習本教學之前，您需要確保已設定有效使用 Aspose.Cells for .NET 所需的一切。這是一個需要遵循的清單：
 
 1. .NET Framework：請確定您的電腦上安裝了 .NET Framework。 
-2.  Aspose.Cells 庫：下載並安裝 Aspose.Cells 庫。你可以從[這裡](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 庫：下載並安裝 Aspose.Cells 庫。你可以從[這裡](https://releases.aspose.com/cells/net/).
 3. IDE：雖然任何程式碼編輯器都可以，但使用 Visual Studio 等 IDE 可以為 .NET 開發提供強大的平台。
 4. 範例 ODS 檔案：您將需要一個包含圖表的 ODS 檔案。對於本教程，我們將使用`SampleChart.ods`.
 5. C# 基礎知識：熟悉 C# 將幫助您快速掌握概念並根據需要進行修改。
@@ -55,7 +55,7 @@ using Aspose.Cells.Charts;
 
 指定 ODS 檔案的來源目錄
 
-確保更換`"Your Document Directory"`與您的實際路徑`SampleChart.ods`文件駐留。正確設定檔案路徑非常重要，這樣程式就可以毫無問題地載入它。
+確保更換`"Your Document Directory"`與你的實際路徑`SampleChart.ods`文件駐留。正確設定檔案路徑非常重要，這樣程式就可以毫無問題地載入它。
 
 ```csharp
 string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
@@ -117,7 +117,7 @@ Console.WriteLine("GetChartSubTitleForODSFile executed successfully.");
 
 ## 結論
 
-現在你就擁有了！只需幾個簡單的步驟，您就學會如何使用 Aspose.Cells for .NET 從 ODS 檔案中提取圖表副標題。請記住，雖然本指南重點介紹字幕，但該庫提供了廣泛的功能，包括使用不同類型的圖表、操作資料和自動化任務。因此，無論您是在策劃報告還是開發數據驅動的應用程序，Aspose.Cells 都可以成為您的工具庫中的一個方便的工具。
+現在你就得到它了！只需幾個簡單的步驟，您就學會如何使用 Aspose.Cells for .NET 從 ODS 檔案中提取圖表副標題。請記住，雖然本指南重點介紹字幕，但該庫提供了廣泛的功能，包括使用不同類型的圖表、操作資料和自動化任務。因此，無論您是在策劃報告還是開發數據驅動的應用程序，Aspose.Cells 都可以成為您的工具庫中的一個方便的工具。
 
 ## 常見問題解答
 

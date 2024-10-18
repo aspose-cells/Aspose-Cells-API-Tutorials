@@ -2,7 +2,7 @@
 title: Créer une plage de cellules nommée dans Excel
 linktitle: Créer une plage de cellules nommée dans Excel
 second_title: API de traitement Excel Aspose.Cells .NET
-description: Découvrez comment créer facilement une plage de cellules nommée dans Excel à l'aide d'Aspose.Cells pour .NET grâce à ce guide étape par étape. Optimisez la gestion de vos données.
+description: Découvrez comment créer facilement une plage de cellules nommée dans Excel à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape. Optimisez la gestion de vos données.
 type: docs
 weight: 10
 url: /fr/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
@@ -63,7 +63,7 @@ Cette ligne initialise un nouvel objet de classeur que nous allons modifier.
 Chaque classeur peut contenir plusieurs feuilles de calcul et, dans notre cas, nous allons accéder à la première. Considérez cela comme l'ouverture d'un onglet dans un fichier Excel.
 
 ```csharp
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Nous avons maintenant accès à la première feuille de calcul où nous allons c
 Il est maintenant temps de créer la plage nommée. Une plage nommée vous permet de définir un ensemble spécifique de cellules dans votre feuille de calcul.
 
 ```csharp
-//Créer une plage nommée
+// Créer une plage nommée
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Après avoir effectué toutes ces modifications, l'étape suivante consiste à e
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Cette ligne enregistre vos modifications dans un fichier nommé`outputCreateNamedRangeofCells.xlsx`Assurez-vous que le chemin spécifié est correct ; sinon, le programme renverra une erreur !
+ Cette ligne enregistre vos modifications dans un fichier nommé`outputCreateNamedRangeofCells.xlsx`Assurez-vous que le chemin spécifié est correct ; sinon, le programme renverra une erreur !
 
 ## Étape 8 : Vérifier le succès de l'opération
 

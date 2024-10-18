@@ -10,7 +10,7 @@ url: /es/java/advanced-excel-charts/interactive-dashboards/
 
 ## Introducción
 
-En el vertiginoso mundo de la toma de decisiones basada en datos, los paneles interactivos desempeñan un papel fundamental. Proporcionan una forma dinámica e intuitiva de visualizar los datos, lo que facilita a las empresas la recopilación de información y la toma de decisiones informadas. Aspose.Cells para Java ofrece un potente conjunto de herramientas para crear paneles interactivos que pueden transformar datos sin procesar en visualizaciones interactivas y significativas. En esta guía paso a paso, exploraremos cómo aprovechar Aspose.Cells para Java para crear paneles interactivos desde cero.
+En el vertiginoso mundo de la toma de decisiones basada en datos, los paneles interactivos desempeñan un papel fundamental. Proporcionan una forma dinámica e intuitiva de visualizar los datos, lo que facilita a las empresas la obtención de información y la toma de decisiones informadas. Aspose.Cells para Java ofrece un potente conjunto de herramientas para crear paneles interactivos que pueden transformar datos sin procesar en visualizaciones interactivas y significativas. En esta guía paso a paso, exploraremos cómo aprovechar Aspose.Cells para Java para crear paneles interactivos desde cero.
 
 ## Prerrequisitos
 

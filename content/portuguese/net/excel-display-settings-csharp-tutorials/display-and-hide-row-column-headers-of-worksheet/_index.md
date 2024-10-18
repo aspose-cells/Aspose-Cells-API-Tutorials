@@ -35,7 +35,7 @@ using Aspose.Cells;
 
 Agora, vamos detalhar as etapas que você precisa seguir para ocultar os cabeçalhos de linha e coluna na sua planilha do Excel.
 
-## Etapa 1: Defina o diretório de documentos
+## Etapa 1: Defina o diretório do documento
 
 Antes de mais nada, especifique o caminho para o diretório dos seus documentos. É aqui que seus arquivos Excel serão armazenados e acessados.
 
@@ -53,7 +53,7 @@ Em seguida, você precisará criar um fluxo de arquivo para abrir seu arquivo Ex
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Aqui, especificamos que queremos abrir`book1.xls` localizado no diretório especificado. O`FileMode.Open` parâmetro indica que estamos abrindo um arquivo existente. Sempre garanta que o nome do arquivo corresponda ao que você tem.
+Aqui, especificamos que queremos abrir`book1.xls` localizado no diretório especificado. O`FileMode.Open` parâmetro indica que estamos abrindo um arquivo existente. Sempre garanta que o nome do arquivo corresponda ao que você tem.
 
 ## Etapa 3: Instanciar um objeto de pasta de trabalho
 
@@ -83,7 +83,7 @@ Agora, o momento que estávamos esperando! É aqui que realmente escondemos os c
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Contexto`IsRowColumnHeadersVisible` para`false` ocultará efetivamente os cabeçalhos em linhas e colunas, criando uma aparência mais limpa para sua apresentação de dados.
+ Contexto`IsRowColumnHeadersVisible` para`false`ocultará efetivamente os cabeçalhos em linhas e colunas, criando uma aparência mais limpa para sua apresentação de dados.
 
 ## Etapa 6: Salve o arquivo Excel modificado
 
@@ -103,7 +103,7 @@ Por fim, você precisa fechar o fluxo de arquivos para que todos os recursos sej
 fstream.Close();
 ```
 
- Fechando o`fstream`é crucial, pois garante que não haja vazamentos de memória ou bloqueios de arquivo abertos em seu aplicativo.
+ Fechando o`fstream` é crucial, pois garante que não haja vazamentos de memória ou bloqueios de arquivo abertos em seu aplicativo.
 
 ## Conclusão
 
@@ -121,7 +121,7 @@ Aspose.Cells é uma poderosa biblioteca .NET para gerenciar planilhas do Excel, 
  Embora você possa usar uma versão de teste gratuita, uma licença é necessária para uso comercial contínuo. Você pode encontrar as opções de compra[aqui](https://purchase.aspose.com/buy).
 
 ### Há suporte disponível para Aspose.Cells?  
-Sim, a Aspose fornece suporte por meio de seus fóruns, que você pode acessar[aqui](https://forum.aspose.com/c/cells/9).
+ Sim, a Aspose fornece suporte por meio de seus fóruns, que você pode acessar[aqui](https://forum.aspose.com/c/cells/9).
 
 ### Como posso obter uma licença temporária para o Aspose.Cells?  
  Você pode solicitar uma licença temporária para fins de avaliação em[este link](https://purchase.aspose.com/temporary-license/).

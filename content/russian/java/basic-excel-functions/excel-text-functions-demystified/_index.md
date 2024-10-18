@@ -44,7 +44,7 @@ workbook.calculateFormula();
  The`LEFT` и`RIGHT` Функции позволяют извлекать указанное количество символов слева или справа от текстовой строки. Вот как их можно использовать:
 
 ```java
-// Java-код для извлечения текста с помощью Aspose.Cells
+// Код Java для извлечения текста с помощью Aspose.Cells
 Cell cell = worksheet.getCells().get("A2");
 cell.putValue("Excel Rocks!");
 
@@ -131,7 +131,7 @@ workbook.calculateFormula();
 
 ### Как объединить текст из нескольких ячеек?
 
- Чтобы объединить текст из нескольких ячеек, используйте функцию`CONCATENATE` функция. Например:
+ Чтобы объединить текст из нескольких ячеек, используйте`CONCATENATE` функция. Например:
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");

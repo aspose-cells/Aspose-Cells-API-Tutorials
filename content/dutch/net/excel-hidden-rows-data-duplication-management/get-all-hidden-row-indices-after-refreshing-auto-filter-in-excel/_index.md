@@ -21,7 +21,7 @@ Om deze tutorial te kunnen volgen, moet u een gedegen begrip hebben van wat Aspo
 
 ### Uw ontwikkelomgeving instellen
 
-1.  Installeer Visual Studio: Zorg ervoor dat Visual Studio op uw computer is geïnstalleerd. U kunt het downloaden van de[Visual Studio-website](https://visualstudio.microsoft.com/).
+1.  Visual Studio installeren: Zorg ervoor dat Visual Studio op uw computer is geïnstalleerd. U kunt het downloaden van de[Visual Studio-website](https://visualstudio.microsoft.com/).
 
 2. .NET Framework: U hebt een compatibele versie van .NET Framework of .NET Core nodig. Deze bibliotheek werkt goed met beide frameworks.
 

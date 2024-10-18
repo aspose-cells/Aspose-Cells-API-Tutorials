@@ -51,7 +51,7 @@ Trước tiên, bạn cần một nơi để lưu tệp Excel của mình. Sau �
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo thư mục nếu thư mục đó chưa có.
+//Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -140,9 +140,9 @@ Bây giờ chúng ta đã khóa cột, chúng ta cần đảm bảo toàn bộ b
 sheet.Protect(ProtectionType.All);
 ```
 
-Lệnh này khóa trang tính, đảm bảo không ai có thể chỉnh sửa bất kỳ thứ gì trừ khi họ có quyền phù hợp. Giống như việc bạn đặt dữ liệu quý giá của mình sau một tủ kính vậy!
+Lệnh này khóa trang tính, đảm bảo không ai có thể chỉnh sửa bất kỳ thứ gì trừ khi họ có quyền phù hợp. Giống như việc đặt dữ liệu quý giá của bạn sau một tủ kính vậy!
 
-## Bước 8: Lưu sổ làm việc
+## Bước 8: Lưu Workbook
 
 Cuối cùng, chúng ta hãy lưu lại công việc của mình!
 

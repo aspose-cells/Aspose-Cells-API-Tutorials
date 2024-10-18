@@ -178,7 +178,7 @@ Selesai! Anda baru saja membuat diagram garis dengan penanda data menggunakan As
 
 ## Kesimpulan
 
-Membuat bagan secara terprogram di Excel mungkin tampak menakutkan, tetapi dengan Aspose.Cells untuk .NET, semudah mengikuti resep langkah demi langkah. Dari menyiapkan buku kerja hingga menyesuaikan tampilan bagan, pustaka canggih ini menangani semuanya. Baik Anda membuat laporan, dasbor, atau visualisasi data, Aspose.Cells memungkinkan Anda melakukannya dengan mudah.
+Membuat bagan secara terprogram di Excel mungkin tampak sulit, tetapi dengan Aspose.Cells untuk .NET, semudah mengikuti resep langkah demi langkah. Dari menyiapkan buku kerja hingga menyesuaikan tampilan bagan, pustaka canggih ini menangani semuanya. Baik Anda membuat laporan, dasbor, atau visualisasi data, Aspose.Cells memungkinkan Anda melakukannya dengan mudah.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -188,7 +188,7 @@ Tentu saja! Aspose.Cells menawarkan banyak sekali opsi penyesuaian, mulai dari f
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?  
  Ya, lisensi diperlukan untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau mulai dengan[uji coba gratis](https://releases.aspose.com/).
 
-### Bagaimana cara menambahkan lebih banyak rangkaian data?  
+### Bagaimana cara menambahkan lebih banyak seri data?  
  Cukup tambahkan seri tambahan menggunakan`NSeries.Add` metode, menentukan rentang sel untuk data baru.
 
 ### Bisakah saya mengekspor bagan sebagai gambar?  

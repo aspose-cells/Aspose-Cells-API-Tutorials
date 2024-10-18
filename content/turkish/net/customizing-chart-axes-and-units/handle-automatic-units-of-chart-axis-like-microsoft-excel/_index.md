@@ -18,7 +18,7 @@ Eğitime başlamadan önce, takip etmeniz gereken her şeye sahip olduğunuzdan 
 1. Visual Studio Kurulu: .NET kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
 2. .NET Framework: Bu eğitim .NET Framework 4.0 veya üzerini kullandığınızı varsayar. Ancak Aspose.Cells .NET Core ile de uyumludur.
 3.  Aspose.Cells Kütüphanesi: Bunu henüz yapmadıysanız, kütüphaneyi Aspose web sitesinden indirin[Burada](https://releases.aspose.com/cells/net/) Ayrıca ücretsiz deneme sürümüyle de başlayabilirsiniz[Burada](https://releases.aspose.com/).
-4.  Örnek Excel Dosyası: Adında bir örnek Excel dosyası kullanacağız.`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Bu dosyanın çalışma dizininizde hazır olduğundan emin olun.
+4. Örnek Excel Dosyası: Aşağıdaki adlı örnek Excel dosyasını kullanacağız:`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Bu dosyanın çalışma dizininizde hazır olduğundan emin olun.
 
 ## Paketleri İçe Aktar
 
@@ -62,7 +62,7 @@ Artık Excel dosyamızı düzenlemeye başlamaya hazırız!
 Excel dosyasını yüklemeden önce çıktı ve kaynak dizinlerini ayarlayalım. Bu, dosyalarımızın nerede saklanacağını belirtmemize olanak tanır.
 
 ```csharp
-// Çıktı dizini - PDF'nin kaydedileceği yer
+//Çıktı dizini - PDF'nin kaydedileceği yer
 string outputDir = "Your Output Directory"; // çıktı dizininizi burada belirtin
 
 // Kaynak dizini - örnek Excel dosyasının bulunduğu yer
@@ -108,7 +108,7 @@ Excel'de grafiklerdeki temel özelliklerden biri, grafik eksenleri için otomati
 
 ```csharp
 // Y ekseni için ana birimi ayarlayın
-ch.AxisY.MajorUnit = 10; // İhtiyacınıza göre ayarlayabilirsiniz
+ch.AxisY.MajorUnit = 10; //İhtiyacınıza göre ayarlayabilirsiniz
 ```
 
 Otomatik üniteleri şimdi güncelleyelim!
@@ -134,7 +134,7 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 
 ## Çözüm
 
-Aspose.Cells for .NET ile çalışmak yalnızca verimli değil aynı zamanda inanılmaz derecede ödüllendirici. Excel dosyalarını Excel'in kendisinde biçimlendiriyormuş gibi düzenleyebilirsiniz! Bu eğitimde, bir Excel dosyasını başarıyla yükledik, bir grafiğe eriştik ve onu değiştirdik ve tüm bunları grafik ekseninin otomatik birimlerini işlerken PDF'ye dönüştürdük. Umarım Excel otomasyon dünyasına bu yolculuğun tadını çıkarmışsınızdır.
+Aspose.Cells for .NET ile çalışmak yalnızca verimli değil aynı zamanda inanılmaz derecede ödüllendirici. Excel dosyalarını Excel'in kendisinde biçimlendiriyormuş gibi düzenleyebilirsiniz! Bu eğitimde, bir Excel dosyasını başarıyla yükledik, bir grafiğe eriştik ve onu değiştirdik ve tüm bunları grafik ekseninin otomatik birimlerini işlerken PDF'ye dönüştürdük. Excel otomasyon dünyasına bu yolculuğun tadını çıkardığınızı umuyorum.
 
 ## SSS
 
@@ -151,4 +151,4 @@ Sadece Aspose.Cells kütüphanesi ve makinenize kurulu bir .NET Framework yeterl
 Kesinlikle! Aspose.Cells, XLSX, HTML ve resimler gibi çeşitli formatları destekler.
 
 ### Sorun yaşarsam nereden destek alabilirim?
-Aspose topluluğundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+ Aspose topluluğundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).

@@ -9,7 +9,7 @@ url: /zh/net/excel-page-setup/
 ---
 ## 介绍
 
-Aspose.Cells for .NET 是一款功能强大的 Excel 文件开发人员工具。它提供的功能可以改变您在电子表格中管理和呈现数据的方式。但您从哪里开始呢？我们创建了一系列涵盖广泛功能的教程，让您可以深入了解感兴趣的特定领域。
+Aspose.Cells for .NET 是一款功能强大的 Excel 文件处理工具。它提供的功能可以改变您在电子表格中管理和呈现数据的方式。但是您从哪里开始呢？我们创建了一系列涵盖广泛功能的教程，让您可以深入了解感兴趣的特定领域。
 
 ## 复制和管理页面设置  
 您是否曾需要将页面设置从一个工作表复制到另一个工作表？我们的教程[从其他工作表复制页面设置](./copy-page-setup-settings-from-other-worksheet/)引导您无缝完成此过程。通过清晰、简单的步骤，您将学习如何增强电子表格管理，而不会错过任何细节。此外，我们将向您展示如何确定工作表中的自动纸张大小。这种洞察力可以节省您的时间，并有助于确保您的打印结果正是您所设想的。
@@ -30,7 +30,7 @@ Aspose.Cells for .NET 是一款功能强大的 Excel 文件开发人员工具。
 
 ## 最终用页眉和页脚进行修饰 
 
-别忘了页眉和页脚！它们不只是为了美观；它们也很实用。我们的教程[设置 Excel 页眉和页脚](./set-excel-headers-and-footers/)提供将这些基本细节添加到文档中的分步说明。无论是页码、日期还是自定义标题，您都会发现页眉和页脚会为您的 Excel 工作表增添专业感。如果您想更进一步，请参阅[在页眉页脚中插入图像](./insert-image-in-header-footer/)帮助您进一步个性化您的文档。
+别忘了页眉和页脚！它们不仅美观，而且实用。我们的教程[设置 Excel 页眉和页脚](./set-excel-headers-and-footers/)提供将这些基本细节添加到文档的分步说明。无论是页码、日期还是自定义标题，您都会发现页眉和页脚会为您的 Excel 工作表增添专业感。如果您想更进一步，请参阅[在页眉页脚中插入图片](./insert-image-in-header-footer/)帮助您进一步个性化您的文档。
 
 ## 根据独特需求定制纸张尺寸
 
@@ -61,7 +61,7 @@ Aspose.Cells for .NET 是一款功能强大的 Excel 文件开发人员工具。
 | [适合 Excel 页面选项](./fit-to-excel-pages-options/) | 了解如何使用 Aspose.Cells for .NET 的“适合 Excel 页面”选项，并通过简单的分步指南精美地呈现您的数据。 |  
 | [获取页面尺寸](./get-page-dimensions/) | 在本分步指南中了解如何使用 Aspose.Cells for .NET 获取页面尺寸。非常适合使用 Excel 文件的开发人员。 |  
 | [实现工作表的自定义纸张尺寸以进行渲染](./implement-custom-paper-size-of-worksheet-for-rendering/) | 学习使用 Aspose.Cells for .NET 在 Excel 中设置自定义纸张大小。无缝工作表渲染的分步指南。 |  
-| [在页眉页脚中插入图像](./insert-image-in-header-footer/) | 通过本全面的分步指南学习如何使用 Aspose.Cells for .NET 在页眉页脚中插入图像。 |  
+| [在页眉页脚中插入图片](./insert-image-in-header-footer/) | 通过本全面的分步指南学习如何使用 Aspose.Cells for .NET 在页眉页脚中插入图像。 |  
 | [管理 Excel 纸张大小](./manage-excel-paper-size/) | 学习使用 Aspose.Cells for .NET 管理 Excel 纸张大小。本指南提供无缝集成的分步说明和示例。 |  
 | [删除工作表的现有打印机设置](./remove-existing-printer-settings-of-worksheets/) | 找到使用 Aspose.Cells for .NET 从 Excel 工作表中删除打印机设置的分步指南，轻松提高文档的打印质量。 |  
 | [设置 Excel 首页页码](./set-excel-first-page-number/) | 使用 Aspose.Cells for .NET 释放 Excel 的潜力。通过此综合指南学习如何轻松设置工作表中的首页页码。 |  

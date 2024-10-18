@@ -21,7 +21,7 @@ Dans notre tutoriel, vous apprendrez à implémenter un extrait de code simple q
 
 Parlons maintenant des importations de données. Le déplacement de données vers Excel peut parfois ressembler à une tentative de résolution d'un puzzle dans lequel certaines pièces manquent. N'ayez crainte ! Avec Aspose.Cells, l'importation de données tout en spécifiant des champs de formule est un jeu d'enfant.
 
-Ce didacticiel vous permettra d'acquérir les compétences nécessaires pour importer vos ensembles de données tout en préservant l'intégrité des champs de formule. Imaginez ceci : vous avez des projections financières dans un fichier CSV et vous devez l'importer dans Excel sans perdre ces formules si importantes. Nous vous montrons comment procéder avec des exemples clairs et des bonnes pratiques qui garantissent que vos données sont intactes et utilisables.[En savoir plus](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
+Ce didacticiel vous permettra d'acquérir les compétences nécessaires pour importer vos ensembles de données tout en préservant l'intégrité des champs de formule. Imaginez ceci : vous avez des projections financières dans un fichier CSV et vous devez les importer dans Excel sans perdre ces formules si importantes. Nous vous montrons comment procéder avec des exemples clairs et des bonnes pratiques qui garantissent que vos données sont intactes et utilisables.[En savoir plus](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
 ## Tutoriels de formatage de nombres et de dates personnalisés dans Excel
 ### [Vérifiez si une valeur de cellule est dans un format de nombre personnalisé spécifique](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)

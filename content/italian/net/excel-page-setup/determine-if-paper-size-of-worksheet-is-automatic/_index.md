@@ -24,7 +24,7 @@ Sebbene Aspose.Cells semplifichi molti compiti, una conoscenza di base di C# è 
 ### Ambiente di sviluppo
 Dovresti avere un IDE come Visual Studio configurato. Questo ti guida attraverso la gestione e il test del tuo codice in modo efficace.
 
-### File di esempio Excel
+### File Excel di esempio
 Avrai bisogno di file di esempio (`samplePageSetupIsAutomaticPaperSize-False.xlsx` E`samplePageSetupIsAutomaticPaperSize-True.xlsx`) per scopi di test. Assicurati che questi file siano nella directory sorgente.
 
 ## Importa pacchetti

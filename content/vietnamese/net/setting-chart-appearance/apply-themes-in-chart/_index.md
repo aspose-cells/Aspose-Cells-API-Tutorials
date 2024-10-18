@@ -18,7 +18,7 @@ Trước khi đi vào phần viết mã, bạn cần phải có một số đi�
 ### Phần mềm cần thiết
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nó cung cấp một môi trường thân thiện để phát triển các ứng dụng .NET.
-2. .NET Framework hoặc .NET Core: Tùy thuộc vào sở thích của bạn, bạn nên thiết lập .NET Framework hoặc .NET Core để theo dõi mã của chúng tôi.
+2. .NET Framework hoặc .NET Core: Tùy thuộc vào sở thích của bạn, bạn nên thiết lập .NET Framework hoặc .NET Core để tuân theo mã của chúng tôi.
 3.  Aspose.Cells cho .NET: Bạn không thể bỏ lỡ điều này! Tải xuống Aspose.Cells cho .NET để bắt đầu. Bạn có thể tìm thấy các tệp DLL[đây](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ hướng dẫn bạn từng bước viết mã, nhưng một số hiểu biết cơ bản về C# chắc chắn sẽ hữu ích.
 
@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Đảm bảo rằng`sampleApplyingThemesInChart.xlsx` có trong thư mục nguồn của bạn.
+ Đảm bảo rằng`sampleApplyingThemesInChart.xlsx`có trong thư mục nguồn của bạn.
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -77,7 +77,7 @@ Trong trường hợp này, chúng ta chỉ cần lấy worksheet đầu tiên, 
 Với bảng tính trong tay, chúng ta có thể truy cập vào biểu đồ mà chúng ta muốn định dạng.
 
 ```csharp
-//Lấy biểu đồ đầu tiên trong trang tính
+// Lấy biểu đồ đầu tiên trong trang tính
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Dòng mã này đảm bảo rằng chuỗi đầu tiên trong biểu đồ đư�
 
 ## Bước 6: Cấu hình màu
 
- Bây giờ series của chúng ta đã sẵn sàng, chúng ta cần sửa đổi màu sắc của nó. Điều này liên quan đến việc tạo ra một`CellsColor` đối tượng và chỉ định màu chủ đề. Chúng tôi sẽ chọn một kiểu nhấn cho ví dụ này.
+ Bây giờ series của chúng ta đã sẵn sàng, chúng ta cần sửa đổi màu sắc của nó. Điều này liên quan đến việc tạo ra một`CellsColor`đối tượng và chỉ định màu chủ đề. Chúng tôi sẽ chọn một kiểu nhấn cho ví dụ này.
 
 ```csharp
 // Lấy CellsColor của SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Tạo chủ đề theo phong cách Accent
+// Tạo chủ đề theo phong cách Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -121,7 +121,7 @@ chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 
 Dòng này có tác dụng cập nhật màu sắc trong biểu đồ. 
 
-## Bước 8: Lưu sổ làm việc
+## Bước 8: Lưu Workbook
 
 Sau tất cả những công sức bỏ ra, chúng ta cần lưu những thay đổi vào một tệp Excel mới.
 

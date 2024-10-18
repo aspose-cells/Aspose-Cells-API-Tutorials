@@ -15,7 +15,7 @@ Vous en avez assez de déplacer manuellement les lignes lorsque vous insérez de
 
 Avant de passer au codage, assurons-nous que tout est configuré :
 
-1. Visual Studio : assurez-vous que Visual Studio est installé (2017 ou une version ultérieure devrait fonctionner correctement).
+1. Visual Studio : assurez-vous d’avoir installé Visual Studio (2017 ou une version ultérieure devrait fonctionner correctement).
 2.  Aspose.Cells pour .NET : vous devez disposer de la bibliothèque Aspose.Cells. Si vous ne l'avez pas encore fait, vous pouvez la télécharger[ici](https://releases.aspose.com/cells/net/).
 3. Compréhension de base de C# et d'Excel : une compréhension de base de la programmation C# et du fonctionnement d'Excel vous aidera certainement à suivre plus efficacement.
 

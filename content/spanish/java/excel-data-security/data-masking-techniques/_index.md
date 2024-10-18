@@ -110,7 +110,7 @@ Aspose ofrece varias opciones de licencia para Aspose.Cells para Java, incluidas
 
 ### ¿Puedo usar Aspose.Cells para Java con otros lenguajes de programación?
 
-Aspose.Cells se dirige principalmente a Java, pero Aspose también proporciona bibliotecas para otros lenguajes como .NET, C++, y mucho más.
+Aspose.Cells está orientado principalmente a Java, pero Aspose también proporciona bibliotecas para otros lenguajes como .NET, C++, y mucho más.
 
 ### ¿Es reversible el enmascaramiento de datos?
 

@@ -48,7 +48,7 @@ EOMONTH는 주어진 날짜에 대한 해당 월의 마지막 날을 반환합�
 
 ### Aspose.Cells에서 DATE 함수 사용
 
-Java용 Aspose.Cells를 사용하여 Excel에서 DATE 함수를 사용하는 방법에 대한 실제적인 예제부터 시작해 보겠습니다.
+Aspose.Cells for Java를 사용하여 Excel에서 DATE 함수를 사용하는 방법에 대한 실제적인 예제부터 시작해 보겠습니다.
 
 ```java
 // 새 통합 문서 만들기
@@ -88,7 +88,7 @@ String currentDate = worksheet.getCells().get("A1").getStringValue();
 System.out.println("Current Date: " + currentDate);
 ```
 
-### DATEDIF를 사용하여 날짜 차이 계산
+### DATEDIF를 사용한 날짜 차이 계산
 
 Excel의 DATEDIF 함수를 사용하여 날짜 차이를 쉽게 계산할 수 있습니다. Java용 Aspose.Cells를 사용하여 이를 수행하는 방법은 다음과 같습니다.
 
@@ -113,7 +113,7 @@ int daysDifference = worksheet.getCells().get("A3").getIntValue();
 System.out.println("Days Difference: " + daysDifference);
 ```
 
-### 이번 달의 끝을 찾다
+### 이달의 끝을 찾다
 
 Java용 Aspose.Cells를 사용하면 EOMONTH 함수를 사용하여 주어진 날짜의 월말을 쉽게 구할 수 있습니다.
 
@@ -145,7 +145,7 @@ System.out.println("End of Month: " + endOfMonth);
 
 ### Java용 Aspose.Cells에서 날짜를 어떻게 형식화하나요?
 
- Aspose.Cells에서 날짜를 포맷하는 것은 간단합니다. 다음을 사용할 수 있습니다.`Style` 날짜 형식을 정의하고 셀에 적용하는 클래스입니다. 예를 들어, 날짜를 "dd-MM-yyyy" 형식으로 표시하려면 다음과 같이 합니다.
+ Aspose.Cells에서 날짜를 포맷하는 것은 간단합니다. 다음을 사용할 수 있습니다.`Style` 날짜 형식을 정의하고 셀에 적용하는 클래스입니다. 예를 들어, "dd-MM-yyyy" 형식으로 날짜를 표시하려면 다음과 같이 하십시오.
 
 ```java
 // 날짜 스타일 만들기
@@ -170,4 +170,4 @@ Aspose.Cells for Java는 소규모 및 대규모 날짜 처리에 모두 적합�
 
 ### Java용 Aspose.Cells를 시작하려면 어떻게 해야 하나요?
 
- Java용 Aspose.Cells를 시작하려면 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/cells/java/) 설치에 대한 설명서를 참조하십시오.
+ Java용 Aspose.Cells를 시작하려면 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/cells/java/) 설치에 대한 설명서를 참조하세요.

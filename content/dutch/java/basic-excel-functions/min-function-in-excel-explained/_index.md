@@ -66,7 +66,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Stel dat u een reeks getallen in de cellen A1 tot en met A10 hebt en u wilt de minimumwaarde hiertussen vinden. U kunt Aspose.Cells voor Java gebruiken om de MIN-functie als volgt toe te passen:
 
 ```java
-// Pas de MIN-functie toe op het bereik A1:A10 en sla het resultaat op in cel B1
+// Pas de MIN-functie toe op bereik A1:A10 en sla het resultaat op in cel B1
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=MIN(A1:A10)");
 ```
@@ -102,7 +102,7 @@ Om de MIN-functie toe te passen op een dynamisch bereik van cellen, kunt u de in
 
 ### Kan ik de MIN-functie gebruiken met niet-numerieke gegevens?
 
-De MIN-functie in Excel is ontworpen om te werken met numerieke gegevens. Als u probeert deze te gebruiken met niet-numerieke gegevens, zal het een fout retourneren. Zorg ervoor dat uw gegevens in een numerieke indeling staan of gebruik andere functies zoals MINA voor niet-numerieke gegevens.
+De MIN-functie in Excel is ontworpen om te werken met numerieke gegevens. Als u deze probeert te gebruiken met niet-numerieke gegevens, wordt er een fout geretourneerd. Zorg ervoor dat uw gegevens in een numerieke indeling staan of gebruik andere functies zoals MINA voor niet-numerieke gegevens.
 
 ### Wat is het verschil tussen de functies MIN en MINA?
 

@@ -34,7 +34,7 @@ Khi đã đáp ứng được những điều kiện tiên quyết này, bạn �
 using Aspose.Cells;
 ```
 
-Bây giờ bạn đã thiết lập xong môi trường, hãy chuyển sang phần viết mã!
+Bây giờ bạn đã thiết lập môi trường, hãy chuyển sang phần viết mã!
 
 Bây giờ chúng ta đã sẵn sàng để thêm Web Extension vào bảng tính Excel. Thực hiện theo các bước sau một cách chặt chẽ:
 
@@ -92,7 +92,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 ## Bước 6: Thêm và cấu hình ngăn tác vụ
 
-Bây giờ, chúng ta hãy thêm một Ngăn tác vụ để tiện ích mở rộng web của chúng ta có tính tương tác và hiển thị trong Giao diện người dùng Excel.
+Bây giờ, hãy thêm một Ngăn tác vụ để tiện ích mở rộng web của chúng ta có tính tương tác và hiển thị trong Giao diện người dùng Excel.
 
 ```csharp
 int taskPaneIndex = taskPanes.Add();
@@ -108,7 +108,7 @@ taskPane.WebExtension = extension;
 
 ## Bước 7: Lưu sổ làm việc
 
-Bước cuối cùng là lưu sổ làm việc, trong đó hiện đã bao gồm tiện ích mở rộng web của chúng ta.
+Bước cuối cùng là lưu bảng tính, trong đó hiện đã bao gồm tiện ích mở rộng web của chúng ta.
 
 ```csharp
 workbook.Save(outDir + "AddWebExtension_Out.xlsx");

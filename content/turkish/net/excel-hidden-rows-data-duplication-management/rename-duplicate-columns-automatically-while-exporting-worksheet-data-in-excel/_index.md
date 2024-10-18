@@ -8,7 +8,7 @@ weight: 11
 url: /tr/net/excel-hidden-rows-data-duplication-management/rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/
 ---
 ## giriiş
-Excel verileriyle çalışırken, geliştiricilerin karşılaştığı en yaygın baş ağrılarından biri yinelenen sütun adlarıyla uğraşmaktır. Veri dışa aktardığınızı ve "Kişiler" etiketli sütunlarınızın yinelendiğini gördüğünüzü hayal edin. Kendinize, "Bu yinelenenleri manuel müdahale olmadan otomatik olarak nasıl halledebilirim?" diye sorabilirsiniz. Peki, artık endişelenmeyin! Bu eğitimde, Excel verilerini dışa aktarırken bu sinir bozucu yinelenen sütunları otomatik olarak yeniden adlandırmak için Aspose.Cells for .NET'i derinlemesine inceleyeceğiz ve daha sorunsuz bir iş akışı ve daha düzenli bir veri yapısı sağlayacağız. Başlayalım!
+Excel verileriyle çalışırken, geliştiricilerin karşılaştığı en yaygın baş ağrılarından biri yinelenen sütun adlarıyla uğraşmaktır. Verilerinizi dışa aktardığınızı ve "Kişiler" etiketli sütunlarınızın yinelendiğini gördüğünüzü hayal edin. Kendinize, "Bu yinelenenleri manuel müdahale olmadan otomatik olarak nasıl halledebilirim?" diye sorabilirsiniz. Endişelenmeyin artık! Bu eğitimde, Excel verilerini dışa aktarırken bu sinir bozucu yinelenen sütunları otomatik olarak yeniden adlandırmak için Aspose.Cells for .NET'i derinlemesine inceleyeceğiz ve daha sorunsuz bir iş akışı ve daha düzenli bir veri yapısı sağlayacağız. Başlayalım!
 ## Ön koşullar
 Teknik detaylara geçmeden önce, takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım:
 1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için başvurulacak IDE'dir.
@@ -19,7 +19,7 @@ Bu ön koşulları sağladıktan sonra koda dalmaya hazırız!
 ## Paketleri İçe Aktar
 Artık gerekli tüm araçlara sahip olduğunuza göre, Aspose.Cells için gereken paketleri içe aktararak başlayalım. Bu önemli bir adımdır çünkü doğru ad alanlarını içe aktarmak, kütüphanenin işlevlerine sorunsuz bir şekilde erişmemizi sağlar.
 ### Projenizi Açın
-Bu Excel dışa aktarma özelliğini uygulamak istediğiniz Visual Studio projenizi açın (veya yeni bir proje oluşturun). 
+Bu Excel dışa aktarma özelliğini uygulamak istediğiniz Visual Studio projenizi açın (veya yeni bir tane oluşturun). 
 ### Referans Ekle
 Solution Explorer'a gidin, References'a sağ tıklayın ve Add Reference'ı seçin. Yüklediğiniz Aspose.Cells kütüphanesini bulun ve projenize ekleyin. 
 ### Ad Alanını İçe Aktar
@@ -52,7 +52,7 @@ ws.Cells["A1"].PutValue(columnName);
 ws.Cells["B1"].PutValue(columnName);
 ws.Cells["C1"].PutValue(columnName);
 ```
- Bir değişken yaratıyoruz`columnName` ismimizi tutmak ve sonra onu A1, B1 ve C1 hücrelerine atamak. Bu, üç farklı kavanoza üç özdeş etiket yerleştirmek gibidir.
+ Bir değişken yaratıyoruz`columnName` ismimizi tutmak ve sonra onu A1, B1 ve C1 hücrelerine atamak. Bu, üç farklı kavanoza üç özdeş etiket yapıştırmak gibidir.
 ## Adım 4: Sütunlara Veri Ekleme
 Sonra, bu sütunları bazı verilerle dolduracağız. Değerler benzersiz olmasa da, dışa aktarırken çoğaltmanın nasıl görünebileceğini göstermeye yararlar.
 ```csharp

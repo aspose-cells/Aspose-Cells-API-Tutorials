@@ -67,11 +67,11 @@ Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 Sekarang, kita perlu mengakses lembar kerja spesifik yang ingin kita kerjakan:
 
 ```csharp
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Penjelasan:`Worksheets` koleksi memungkinkan kita untuk mengakses lembar-lembar individual. Menggunakan`[0]` merujuk pada lembar kerja pertama dalam berkas Excel Anda, yang umumnya merupakan praktik umum saat bekerja dengan berkas satu lembar.
+Penjelasan:`Worksheets` koleksi memungkinkan kita untuk mengakses lembar-lembar individual. Menggunakan`[0]` merujuk pada lembar kerja pertama dalam berkas Excel Anda, yang umumnya merupakan praktik umum saat bekerja dengan berkas satu lembar.
 
 ## Langkah 4: Menyiapkan AutoFilter
 
@@ -82,7 +82,7 @@ Di sinilah keajaiban dimulai! Kita akan membuat rentang AutoFilter untuk data ki
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Penjelasan:`AutoFilter.Range` Properti ini memungkinkan Anda menentukan baris mana yang akan difilter. Dalam kasus ini, kami memfilter baris dalam rentang A1 hingga A18, yang diasumsikan berisi data kami.
+Penjelasan:`AutoFilter.Range` Properti ini memungkinkan Anda menentukan baris mana yang akan difilter. Dalam kasus ini, kami memfilter baris dalam rentang A1 hingga A18, yang diasumsikan berisi data kami.
 
 ## Langkah 5: Terapkan Kondisi Filter
 
@@ -93,7 +93,7 @@ Langkah selanjutnya adalah menentukan kondisi filter. Kami ingin menampilkan han
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Penjelasan:`Custom` metode mendefinisikan logika penyaringan kami. Argumen pertama (`0` ) menunjukkan bahwa kita memfilter berdasarkan kolom pertama (A), dan`FilterOperatorType.BeginsWith`menentukan kondisi kita untuk mencari baris yang dimulai dengan "Ba".
+Penjelasan:`Custom` metode mendefinisikan logika penyaringan kami. Argumen pertama (`0` ) menunjukkan bahwa kita memfilter berdasarkan kolom pertama (A), dan`FilterOperatorType.BeginsWith`menentukan kondisi kita untuk mencari baris yang dimulai dengan "Ba".
 
 ## Langkah 6: Segarkan Filter
 
@@ -115,7 +115,7 @@ Sekarang saatnya untuk menyimpan perubahan yang telah kita buat:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Penjelasan:`Save` metode menulis kembali Buku Kerja yang dimodifikasi ke jalur keluaran yang ditentukan. Ini termasuk dalam penulisan filter yang Anda tentukan ke dalam file baru sehingga data asli Anda tetap utuh.
+Penjelasan:`Save` metode menulis kembali Buku Kerja yang dimodifikasi ke jalur keluaran yang ditentukan. Ini termasuk dalam penulisan filter yang Anda tentukan ke dalam file baru sehingga data asli Anda tetap utuh.
 
 ## Langkah 8: Konfirmasi Output
 
@@ -129,7 +129,7 @@ Penjelasan: Baris sederhana ini menampilkan pesan konfirmasi ke konsol, yang mem
 
 ## Kesimpulan
 
-Di dunia di mana manajemen data terasa sangat sulit, menguasai fitur seperti AutoFilter di Excel melalui Aspose.Cells for .NET memberdayakan Anda untuk memanipulasi data secara efisien dan efektif. Anda telah mempelajari cara memfilter baris Excel yang dimulai dengan "Ba," dengan menerapkan metode ini langkah demi langkah. Dengan latihan, Anda akan dapat mengadaptasi metode ini untuk berbagai kebutuhan pemfilteran data dalam proyek Anda yang sedang berjalan.
+Di dunia di mana manajemen data dapat terasa memberatkan, menguasai fitur seperti AutoFilter di Excel melalui Aspose.Cells untuk .NET memberdayakan Anda untuk memanipulasi data secara efisien dan efektif. Anda telah mempelajari cara memfilter baris Excel yang dimulai dengan "Ba," dengan menerapkan metode ini langkah demi langkah. Dengan latihan, Anda akan dapat mengadaptasi metode ini untuk berbagai kebutuhan pemfilteran data dalam proyek Anda yang sedang berjalan.
 
 ## Pertanyaan yang Sering Diajukan
 

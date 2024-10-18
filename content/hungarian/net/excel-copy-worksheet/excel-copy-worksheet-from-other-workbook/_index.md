@@ -57,7 +57,7 @@ Ezután hozzuk létre az első munkafüzetünket, és adjunk hozzá néhány min
 ```csharp
 // Hozzon létre egy új munkafüzetet
 Workbook excelWorkbook0 = new Workbook();
-// Szerezd meg a könyv első munkalapját
+// Szerezd meg a könyv első feladatlapját
 Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
 // Helyezzen el néhány adatot a fejlécsorokba (A1:A4)
@@ -93,7 +93,7 @@ Most létre kell hoznunk egy másik munkafüzetet, ahová az első munkalapot m�
 ```csharp
 // Hozzon létre egy másik munkafüzetet
 Workbook excelWorkbook1 = new Workbook();
-// Szerezd meg a könyv első munkalapját
+// Szerezd meg a könyv első feladatlapját
 Worksheet ws1 = excelWorkbook1.Worksheets[0];
 // Nevezze el a munkalapot
 ws1.Name = "MySheet";
@@ -137,7 +137,7 @@ Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők szám�
  Ideiglenes engedélyt kérhet a következő címen[ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 ### Hol találok további dokumentációt az Aspose.Cells-ről?  
-Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
+ Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
 
 ### Elérhető támogatás az Aspose.Cells felhasználók számára?  
  Teljesen! A támogatást a[Aspose fórum](https://forum.aspose.com/c/cells/9).

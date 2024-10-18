@@ -14,7 +14,7 @@ url: /ar/java/data-validation-rules/advanced-data-validation-techniques/
 
 ## إعداد Aspose.Cells لـ Java
 
- قبل أن نتعمق في التقنيات المتقدمة، دعنا نبدأ باستخدام Aspose.Cells لـ Java. يمكنك تنزيل المكتبة من[رابط تحميل Aspose.Cells لـ Java](https://releases.aspose.com/cells/java/) تأكد من اتباع تعليمات التثبيت الواردة في الوثائق الموجودة على[مراجع API لـ Aspose.Cells لـ Java](https://reference.aspose.com/cells/java/).
+ قبل أن نتعمق في التقنيات المتقدمة، دعنا نبدأ بـ Aspose.Cells for Java. يمكنك تنزيل المكتبة من[رابط تحميل Aspose.Cells لـ Java](https://releases.aspose.com/cells/java/) تأكد من اتباع تعليمات التثبيت الواردة في الوثائق الموجودة على[مراجع API لـ Aspose.Cells لـ Java](https://reference.aspose.com/cells/java/).
 
 ## التحقق من صحة البيانات الأساسية
 

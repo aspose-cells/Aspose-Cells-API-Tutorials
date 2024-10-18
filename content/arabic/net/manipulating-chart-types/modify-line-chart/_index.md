@@ -2,7 +2,7 @@
 title: تعديل مخطط الخط
 linktitle: تعديل مخطط الخط
 second_title: واجهة برمجة تطبيقات معالجة Excel الخاصة بـ Aspose.Cells .NET
-description: تعرف على كيفية تعديل المخططات الخطية في Excel باستخدام Aspose.Cells لـ .NET باستخدام هذا الدليل المفصل خطوة بخطوة.
+description: تعرف على كيفية تعديل المخططات الخطية في Excel باستخدام Aspose.Cells لـ .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
 type: docs
 weight: 15
 url: /ar/net/manipulating-chart-types/modify-line-chart/
@@ -22,7 +22,7 @@ url: /ar/net/manipulating-chart-types/modify-line-chart/
  لاستخدام Aspose.Cells، تحتاج إلى المكتبة. يمكنك بسهولة تنزيل أحدث إصدار من[هذا الرابط](https://releases.aspose.com/cells/net/).
 
 ### المعرفة الأساسية بلغة C#
-على الرغم من أننا سنشرح كل شيء خطوة بخطوة، فإن الفهم الأساسي لـ C# سيساعدك على التنقل عبر هذا البرنامج التعليمي بسلاسة.
+على الرغم من أننا سنشرح كل شيء خطوة بخطوة، إلا أن الفهم الأساسي لـ C# سيساعدك على التنقل عبر هذا البرنامج التعليمي بسلاسة.
 
 ### ملف Excel موجود
  تأكد من أن لديك ملف Excel جاهزًا يحتوي على مخطط خطي. سنعمل مع ملف باسم`sampleModifyLineChart.xlsx`لذا احتفظ بهذا في متناول يدك أيضًا. 
@@ -67,7 +67,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyLineChart.xlsx");
 
 ## الخطوة 3: الوصول إلى الرسم البياني
 
-بمجرد فتح المصنف، نحتاج إلى الانتقال إلى ورقة العمل الأولى والحصول على الرسم البياني الخطي.
+بمجرد فتح المصنف، نحتاج إلى الانتقال إلى ورقة العمل الأولى والحصول على مخطط الخط.
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = workbook.Worksheets[0].Charts[0];

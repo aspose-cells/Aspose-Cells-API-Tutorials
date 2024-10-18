@@ -1,6 +1,6 @@
 ---
-title: Ustaw wartości Format Kodu Serii Wykresów
-linktitle: Ustaw wartości Format Kodu Serii Wykresów
+title: Ustaw kod formatu wartości serii wykresów
+linktitle: Ustaw kod formatu wartości serii wykresów
 second_title: Aspose.Cells .NET API przetwarzania programu Excel
 description: Dowiedz się, jak ustawić kod formatu wartości serii wykresów w Aspose.Cells dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne dla początkujących.
 type: docs
@@ -76,7 +76,7 @@ Worksheet worksheet = wb.Worksheets[0];
 
 ## Krok 4: Uzyskaj dostęp do wykresu
 
-Następnie musimy uzyskać dostęp do wykresu, w którym chcemy zmodyfikować format serii.
+Następnie musimy uzyskać dostęp do wykresu, w którym chcemy zmienić format serii.
 
 Wyobraź sobie wykres jako płótno, na którym malujesz swoje arcydzieło wizualizacji danych. Dostęp do niego pozwala nam wykorzystać jego moc!
 
@@ -123,7 +123,7 @@ wb.Save(outputDir + "outputSeries_ValuesFormatCode.xlsx");
 
 Na zakończenie możemy wydrukować komunikat o powodzeniu.
 
-Podobnie jak oklaski na zakończenie występu, tak i potwierdzenie tego daje ciepłe, przyjemne poczucie spełnienia.
+Podobnie jak oklaski na zakończenie występu, tak i to potwierdzenie daje ciepłe, przyjemne poczucie spełnienia.
 
 ```csharp
 Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");

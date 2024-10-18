@@ -70,9 +70,9 @@ Pertama-tama, kita perlu mengatur jalur dokumen Excel kita. Di sinilah Anda akan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tip: Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda (sebut saja`book1.xls`) berada. 
+ Tip: Ganti`"YOUR DOCUMENT DIRECTORY"`dengan jalur sebenarnya tempat file Excel Anda (sebut saja`book1.xls`) berada. 
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Selanjutnya, kita perlu membuat contoh kelas Workbook. Objek ini mewakili berkas Excel dalam kode Anda.
 
@@ -100,7 +100,7 @@ Inilah bagian ajaibnya!
 worksheet.Unprotect("");
 ```
 
- Jika lembar kerja Anda dilindungi dengan kata sandi dan Anda mengetahui kata sandinya, Anda akan mengganti string kosong`""`dengan kata sandi yang sebenarnya. Jika Anda tidak mengetahuinya, biarkan saja kosong dan jalankan untuk melihat apakah berhasil.
+ Jika lembar kerja Anda dilindungi dengan kata sandi dan Anda mengetahui kata sandinya, Anda akan mengganti string kosong`""` dengan kata sandi yang sebenarnya. Jika Anda tidak mengetahuinya, biarkan saja kosong dan jalankan untuk melihat apakah berhasil.
 
 ## Langkah 5: Simpan Buku Kerja
 
@@ -128,7 +128,7 @@ Blok tangkapan ini akan menampilkan kesalahan apa pun yang mungkin Anda temui, s
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil membuka lembar kerja Excel yang dilindungi kata sandi menggunakan Aspose.Cells untuk .NET. Hanya dengan beberapa baris kode, Anda dapat memperoleh kembali akses ke data penting Anda. Kekuatan dan fleksibilitas ada di ujung jari Anda dengan pustaka hebat ini. Sempurna bagi pengembang yang ingin menyederhanakan interaksi Microsoft Excel mereka, Aspose.Cells bukan sekadar alat yang efisien — tetapi juga alat yang penting.
+Dan itu dia! Anda telah berhasil membuka lembar kerja Excel yang dilindungi kata sandi menggunakan Aspose.Cells untuk .NET. Hanya dengan beberapa baris kode, Anda dapat memperoleh kembali akses ke data penting Anda. Kekuatan dan fleksibilitas ada di ujung jari Anda dengan pustaka hebat ini. Sempurna bagi pengembang yang ingin menyederhanakan interaksi Microsoft Excel mereka, Aspose.Cells bukan hanya alat yang efisien — tetapi juga alat yang penting.
 
 ## Pertanyaan yang Sering Diajukan
 

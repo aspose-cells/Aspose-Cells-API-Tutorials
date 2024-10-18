@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Mengatur rentang data untuk bagan
 chart.getNSeries().add("A2:B4", true);
 
-// Menyesuaikan atribut bagan
+//Menyesuaikan atribut bagan
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -160,4 +160,4 @@ Ya, Anda dapat mengotomatiskan proses pembaruan data dalam bagan 3D dengan mengi
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Cells untuk Java?
 
- Anda dapat menemukan dokumentasi dan sumber daya yang lengkap untuk Aspose.Cells untuk Java di situs web:[Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
+ Anda dapat menemukan dokumentasi dan sumber daya lengkap untuk Aspose.Cells untuk Java di situs web:[Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).

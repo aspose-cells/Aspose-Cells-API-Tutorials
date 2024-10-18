@@ -1,7 +1,7 @@
 ---
 title: Adicionar link para URL no Excel
 linktitle: Adicionar link para URL no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Descubra como adicionar facilmente um hiperlink de URL no Excel usando Aspose.Cells para .NET com este tutorial detalhado. Simplifique suas planilhas.
 type: docs
 weight: 12
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Mude seu caminho
 ## Etapa 2: Criar um objeto de pasta de trabalho
  Aqui, criaremos uma instância do`Workbook` classe. Pense em uma pasta de trabalho como uma tela em branco para sua planilha.
 ```csharp
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Nesse estágio, você basicamente disse: "Ei, Aspose, vamos criar um novo arquivo do Excel!"

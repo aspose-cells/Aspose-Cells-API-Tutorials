@@ -41,7 +41,7 @@ string outputDir = "Your Document Directory"; // Remplacez par votre répertoire
 ## Étape 3 : instancier l'objet classeur
 Vous êtes maintenant prêt à créer votre classeur Excel ! C'est là que se trouveront toutes vos feuilles et données.
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 Workbook workbook = new Workbook();
 ```
 Cette ligne initialise un nouveau classeur en mémoire, vous donnant une toile vierge sur laquelle travailler.
@@ -49,7 +49,7 @@ Cette ligne initialise un nouveau classeur en mémoire, vous donnant une toile v
 Dans Excel, chaque classeur peut contenir plusieurs feuilles. Ajoutons-en une à notre classeur.
 ```csharp
 // Ajout d'une nouvelle feuille de calcul à l'objet Workbook
-workbook.Worksheets.Add(); //Ajoute une nouvelle feuille de calcul vierge par défaut
+workbook.Worksheets.Add(); // Ajoute une nouvelle feuille de calcul vierge par défaut
 ```
 Cette commande ajoute une nouvelle feuille de calcul et votre classeur contient désormais au moins une feuille que vous pouvez manipuler.
 ## Étape 5 : Accéder à la première feuille de calcul

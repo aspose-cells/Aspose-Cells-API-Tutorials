@@ -57,7 +57,7 @@ Ora è il momento di caricare il tuo file Excel in un oggetto Workbook. Questo t
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
 
- Assicurati solo che il tuo file XLSB si trovi nella posizione specificata`sourceDir`Se il percorso è corretto, la tua cartella di lavoro sarà pronta per la manipolazione!
+ Assicurati solo che il tuo file XLSB si trovi nella posizione specificata`sourceDir`Se il percorso è corretto, la tua cartella di lavoro sarà pronta per essere manipolata!
 
 ## Passaggio 3: accedere alle connessioni esterne
 

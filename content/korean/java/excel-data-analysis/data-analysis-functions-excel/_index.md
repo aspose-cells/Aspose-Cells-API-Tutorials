@@ -80,7 +80,7 @@ Aspose.Cells for Java는 Excel에서 데이터 분석을 위한 광범위한 기
 
 ## 자주 묻는 질문
 
-### 여러 개의 정렬 기준을 어떻게 적용하나요?
+### 여러 개의 정렬 기준을 적용하려면 어떻게 해야 하나요?
 
 정렬 옵션에서 여러 열을 지정하여 여러 정렬 기준을 적용할 수 있습니다. 예를 들어, 열 A를 오름차순으로 정렬한 다음 열 B를 내림차순으로 정렬하려면 정렬 코드를 다음과 같이 수정합니다.
 
@@ -106,4 +106,4 @@ worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 
 ### 더욱 진보된 예제와 리소스는 어디에서 찾을 수 있나요?
 
- Aspose.Cells for Java에 대한 보다 고급 예제, 튜토리얼 및 리소스를 보려면 다음을 방문하세요.[Java 설명서용 Aspose.Cells](https://reference.aspose.com/cells/java/)Aspose.Cells를 사용하면 Excel 데이터 분석을 완벽하게 수행하는 데 도움이 되는 풍부한 정보를 찾을 수 있습니다.
+ Aspose.Cells for Java에 대한 보다 고급 예제, 튜토리얼 및 리소스를 보려면 다음을 방문하세요.[Java 설명서용 Aspose.Cells](https://reference.aspose.com/cells/java/)Aspose.Cells를 사용하여 Excel 데이터 분석을 완벽하게 수행하는 데 도움이 되는 풍부한 정보를 찾을 수 있습니다.

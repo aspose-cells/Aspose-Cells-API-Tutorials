@@ -55,11 +55,11 @@ string outputDir = "Your Output Directory";
 In deze stap laadt u het Excel-bestand dat de grafieken bevat. Aspose.Cells maakt dit eenvoudig met de`Workbook` klas.
 
 ```csharp
-// Bronbestand van Excel laden met Excel 2016-grafieken
+// Bronbestand van Excel laden met grafieken van Excel 2016
 Workbook wb = new Workbook(sourceDir + "sampleReadManipulateExcel2016Charts.xlsx");
 ```
 
-Zorg ervoor dat het Excel-bestand waarnaar u verwijst, bestaat in het opgegeven pad. Anders loopt u mogelijk tegen een foutmelding aan dat het bestand niet is gevonden.
+Controleer of het Excel-bestand waarnaar u verwijst, bestaat in het opgegeven pad. Anders loopt u mogelijk tegen een foutmelding aan dat het bestand niet is gevonden.
 
 ## Stap 3: Toegang tot het werkblad
 

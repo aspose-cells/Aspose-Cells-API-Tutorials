@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Successivamente, dovremo creare un`Workbook` oggetto. Questo oggetto funge da contenitore per i dati del tuo foglio di calcolo.
 
 ```csharp
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
 ```
 
@@ -92,10 +92,10 @@ In questa riga, stiamo ottenendo l'impostazione di pagina per il primo foglio di
 Ora arriva la parte divertente! Possiamo personalizzare varie impostazioni di stampa per far sì che il nostro Excel stampato abbia un aspetto professionale.
 
 ```csharp
-// Consentire la stampa delle linee della griglia
+// Consentire di stampare le linee della griglia
 pageSetup.PrintGridlines = true;
 
-// Consentire la stampa delle intestazioni di riga/colonna
+// Consentire di stampare le intestazioni di riga/colonna
 pageSetup.PrintHeadings = true;
 
 // Consentire la stampa del foglio di lavoro in modalità bianco e nero

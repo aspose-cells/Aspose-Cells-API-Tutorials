@@ -21,7 +21,7 @@ url: /zh/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 
 ### 用于.NET的Aspose.Cells
 
-您需要安装 Aspose.Cells for .NET。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/)。请务必熟悉文档，这些文档可在[这里](https://reference.aspose.com/cells/net/).
+您需要有 Aspose.Cells for .NET。您可以从以下网址下载[这里](https://releases.aspose.com/cells/net/)。请务必熟悉文档，这些文档可在[这里](https://reference.aspose.com/cells/net/).
 
 ### 基本编码知识
 
@@ -40,7 +40,7 @@ url: /zh/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 3. 根据您的喜好选择“类库”或“控制台应用程序”。
 4. 设置必要的项目详细信息，然后单击“创建”。
 
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 
 现在，我们需要在我们的项目中引用 Aspose.Cells。
 
@@ -128,7 +128,7 @@ catch (Exception ex)
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Cells for .NET 解锁了受密码保护的 Excel 工作表。只需几行代码，您就可以重新访问您的重要数据。这个出色的库让您轻松获得强大功能和灵活性。对于希望简化 Microsoft Excel 交互的开发人员来说，Aspose.Cells 不仅是一种高效的工具，而且是必不可少的工具。
+就这样！您已成功使用 Aspose.Cells for .NET 解锁了受密码保护的 Excel 工作表。只需几行代码，您就可以重新访问您的重要数据。这个出色的库让您轻松获得强大功能和灵活性。对于想要简化 Microsoft Excel 交互的开发人员来说，Aspose.Cells 不仅是一种高效的工具，还是必不可少。
 
 ## 常见问题解答
 

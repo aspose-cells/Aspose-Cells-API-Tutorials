@@ -9,7 +9,7 @@ url: /pl/net/protect-excel-file/protect-excel-worksheet/
 ---
 ## Wstęp
 
-W dzisiejszej erze cyfrowej skuteczne zarządzanie danymi jest kluczowe, zwłaszcza podczas współpracy z innymi. Arkusze kalkulacyjne programu Excel często zawierają poufne informacje, do których możesz chcieć ograniczyć dostęp. Jeśli jesteś programistą .NET, na pewno słyszałeś o Aspose.Cells, potężnej bibliotece, która sprawia, że manipulowanie plikami programu Excel jest dziecinnie proste. W tym artykule zagłębimy się w to, jak chronić arkusz kalkulacyjny programu Excel za pomocą Aspose.Cells dla .NET, zapewniając bezpieczeństwo danych.
+W dzisiejszej erze cyfrowej skuteczne zarządzanie danymi jest kluczowe, zwłaszcza podczas współpracy z innymi. Arkusze kalkulacyjne programu Excel często zawierają poufne informacje, do których możesz chcieć ograniczyć dostęp. Jeśli jesteś programistą .NET, na pewno słyszałeś o Aspose.Cells, potężnej bibliotece, która sprawia, że manipulowanie plikami programu Excel staje się dziecinnie proste. W tym artykule zagłębimy się w to, jak chronić arkusz kalkulacyjny programu Excel za pomocą Aspose.Cells dla .NET, zapewniając bezpieczeństwo danych.
 
 ## Wymagania wstępne
 

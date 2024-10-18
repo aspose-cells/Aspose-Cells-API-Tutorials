@@ -44,7 +44,7 @@ Ces instructions permettent au compilateur de savoir que nous utiliserons les cl
 
 Décomposons maintenant le processus en étapes faciles à gérer. Nous procéderons étape par étape, en veillant à ce que tout soit parfaitement clair.
 
-## Étape 1 : Définir les répertoires source et de sortie
+## Étape 1 : définir les répertoires source et de sortie
 
 ```csharp
 string sourceDir = "Your Document Directory";
@@ -75,7 +75,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Chart chart = worksheet.Charts[0];
 ```
 
-Avec la feuille de calcul récupérée, nous passons directement à l'accès au graphique ! Nous récupérons le premier graphique (encore une fois, l'index`[0]`). C'est comme sélectionner l'œuvre d'art que vous souhaitez embellir. Assurez-vous que votre graphique existe dans cette feuille de calcul, sinon vous vous gratterez la tête !
+Avec la feuille de travail récupérée, nous passons directement à l'accès au graphique ! Nous récupérons le premier graphique (encore une fois, l'index`[0]`). C'est comme sélectionner l'œuvre d'art que vous souhaitez embellir. Assurez-vous que votre graphique existe dans cette feuille de calcul, sinon vous vous gratterez la tête !
 
 ## Étape 5 : redimensionner le graphique
 

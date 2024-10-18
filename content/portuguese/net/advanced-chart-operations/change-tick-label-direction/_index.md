@@ -1,7 +1,7 @@
 ---
 title: Alterar direção do rótulo de marcação
 linktitle: Alterar direção do rótulo de marcação
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Altere a direção dos rótulos de marcação em gráficos do Excel rapidamente com o Aspose.Cells para .NET. Siga este guia para uma implementação perfeita.
 type: docs
 weight: 12
@@ -108,7 +108,7 @@ Agora que fizemos as alterações, vamos salvar a pasta de trabalho com um novo 
 workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
 ```
 
-Aqui, especificamos o diretório de saída junto com o novo nome de arquivo. Voilá! Suas alterações foram salvas.
+Aqui, especificamos o diretório de saída junto com o novo nome de arquivo. Voilá! Suas alterações estão salvas.
 
 ## Etapa 7: Confirme a execução
 

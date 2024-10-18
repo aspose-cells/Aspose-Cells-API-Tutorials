@@ -1,7 +1,7 @@
 ---
 title: Classificar dados em uma coluna com lista de classificação personalizada no Excel
 linktitle: Classificar dados em uma coluna com lista de classificação personalizada no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a classificar dados no Excel usando uma lista de classificação personalizada com o Aspose.Cells para .NET neste tutorial abrangente.
 type: docs
 weight: 10
@@ -52,7 +52,7 @@ Com os pacotes importados, estamos prontos para seguir em frente.
 
 ## Etapa 1: Defina os diretórios de origem e saída 
 
-primeiro passo é definir onde seu arquivo de entrada está localizado e onde você quer que a saída (arquivo classificado) seja salva. Você precisa especificar dois caminhos: um para o arquivo Excel de origem e outro para salvar a saída após a classificação.
+O primeiro passo é definir onde seu arquivo de entrada está localizado e onde você quer que a saída (arquivo classificado) seja salva. Você precisa especificar dois caminhos: um para o arquivo Excel de origem e outro para salvar a saída após a classificação.
 
 ```csharp
 string sourceDir = "Your Document Directory\\";
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Etapa 2: Carregue o arquivo de origem do Excel
 
- Em seguida, carregaremos o arquivo Excel que contém os dados que você deseja classificar. Isso é feito criando uma instância do`Workbook` classe e passando o caminho do seu arquivo de origem.
+Em seguida, carregaremos o arquivo Excel que contém os dados que você deseja classificar. Isso é feito criando uma instância do`Workbook` classe e passando o caminho do seu arquivo de origem.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -135,4 +135,4 @@ Embora seja útil, você pode acompanhar este tutorial e aprender conforme avan�
 Claro! Você pode adquirir uma licença temporária se quiser testar todos os recursos da biblioteca sem restrições.
 
 ### Posso baixar exemplos ou documentação para Aspose.Cells?
- Sim! Aspose fornece documentação extensa e projetos de amostra que podem ajudar muito você. Confira o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/).
+ Sim! O Aspose fornece documentação extensa e projetos de amostra que podem ajudar muito você. Confira o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/).

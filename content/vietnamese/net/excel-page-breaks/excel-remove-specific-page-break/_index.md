@@ -53,18 +53,18 @@ Trước tiên, bạn cần chỉ định nơi lưu trữ tài liệu Excel củ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Giải thích: Thay thế`YOUR DOCUMENT DIRECTORY`với đường dẫn thực tế đến các tệp của bạn. Đây là nơi bạn sẽ tải tệp Excel của mình và lưu tệp Excel đã sửa đổi sau.
+ Giải thích: Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế đến các tệp của bạn. Đây là nơi bạn sẽ tải tệp Excel của mình và lưu tệp Excel đã sửa đổi sau.
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 
 Tiếp theo, chúng ta cần tải sổ làm việc của mình. Nói một cách đơn giản hơn, hãy nghĩ về sổ làm việc như tệp Excel của bạn.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Giải thích: Dòng này tạo ra một phiên bản mới của`Workbook` , tải tệp Excel bạn chỉ định (trong ví dụ này, nó được đặt tên là`PageBreaks.xls`). 
+Giải thích: Dòng này tạo ra một phiên bản mới của`Workbook` , tải tệp Excel bạn chỉ định (trong ví dụ này, nó được đặt tên là`PageBreaks.xls`). 
 
 ## Bước 3: Xóa ngắt trang ngang
 
@@ -100,7 +100,7 @@ Giải thích: Ở đây, chúng ta lưu sổ làm việc với tên mới (`Rem
 
 ## Phần kết luận
 
-Và bạn đã có nó! Xóa các ngắt trang cụ thể khỏi tệp Excel bằng Aspose.Cells cho .NET cũng đơn giản như làm theo các bước trên. Với hướng dẫn này, bạn có thể đảm bảo các tài liệu Excel của mình được định dạng hoàn hảo để in mà không có bất kỳ ngắt trang nào cản trở.
+Và bạn đã có nó! Xóa các ngắt trang cụ thể khỏi tệp Excel bằng Aspose.Cells cho .NET cũng đơn giản như làm theo các bước trên. Với hướng dẫn này, bạn có thể đảm bảo các tài liệu Excel của mình được định dạng hoàn hảo để in mà không có bất kỳ ngắt trang lạc nào cản trở.
 
 ## Câu hỏi thường gặp
 
@@ -117,4 +117,4 @@ Bạn có thể lặp lại các ngắt trang bằng cách sử dụng vòng l�
  Chắc chắn rồi! Chỉ cần thay đổi số chỉ mục trong`workbook.Worksheets[index]` để nhắm tới bảng tính mong muốn.
 
 ### Aspose.Cells có phải là công cụ miễn phí không?  
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Bạn có thể kiểm tra[đây](https://purchase.aspose.com/buy).
+ Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần phải mua giấy phép. Bạn có thể kiểm tra[đây](https://purchase.aspose.com/buy).

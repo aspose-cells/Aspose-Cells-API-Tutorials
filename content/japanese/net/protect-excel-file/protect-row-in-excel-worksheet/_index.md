@@ -44,7 +44,7 @@ if (!IsExists)
     Directory.CreateDirectory(dataDir);
 }
 ```
-このコードでは、`YOUR DOCUMENT DIRECTORY` Excel ファイルを保存する実際のパスを入力します。
+このコードでは、`YOUR DOCUMENT DIRECTORY`Excel ファイルを保存する実際のパスを入力します。
 
 ## ステップ2: 新しいワークブックを作成する
 

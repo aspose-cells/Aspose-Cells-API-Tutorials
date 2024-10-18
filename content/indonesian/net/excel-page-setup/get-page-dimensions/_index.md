@@ -23,7 +23,7 @@ Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Anda bisa 
 -  Tautan Unduhan:[Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/)
 
 ### Pengetahuan Dasar C#
-Akan sangat bermanfaat jika Anda memiliki pemahaman dasar tentang C#. Tutorial ini akan menggunakan konsep pemrograman dasar yang mudah diikuti.
+Akan sangat bermanfaat jika Anda memiliki pemahaman dasar tentang C#. Tutorial ini akan menggunakan konsep-konsep pemrograman dasar yang mudah diikuti.
 
 Siap untuk memulai? Mari kita mulai!
 

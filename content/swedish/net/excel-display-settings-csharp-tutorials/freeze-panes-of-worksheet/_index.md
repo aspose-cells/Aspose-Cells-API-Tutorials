@@ -40,7 +40,7 @@ using Aspose.Cells;
 
 Genom att importera dessa paket får vi tillgång till de kraftfulla funktionerna som tillhandahålls av Aspose.Cells.
 
-Låt oss dela upp processen att frysa rutor i hanterbara steg. Vi kommer att använda C# och Aspose.Cells för att uppnå denna uppgift.
+Låt oss bryta ner processen med att frysa rutor i hanterbara steg. Vi kommer att använda C# och Aspose.Cells för att uppnå denna uppgift.
 
 ## Steg 1: Ställ in din miljö
 

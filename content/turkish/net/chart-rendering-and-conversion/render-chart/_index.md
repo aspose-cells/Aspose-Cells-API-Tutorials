@@ -15,7 +15,7 @@ Grafikler, veri sunumu ve analizinde temel bir unsurdur ve karmaşık bilgileri 
 
 Koda geçmeden önce her şeyin hazır olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 
-1. .NET Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Visual Studio veya .NET'i destekleyen başka bir IDE kullanabilirsiniz.
+1. .NET Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Visual Studio veya .NET'i destekleyen herhangi bir IDE kullanabilirsiniz.
 2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olması gerekir. Buradan indirebilirsiniz[Aspose'un yayın sayfası](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık, örnekleri daha iyi anlamanıza yardımcı olacaktır, ancak yeniyseniz endişelenmeyin; bu kılavuz her şeyi adım adım açıklayacaktır!
 
@@ -95,7 +95,7 @@ Burada, düzenini tanımlayarak belirtilen konuma bir grafik ekliyoruz: ilk say�
 
 ## Adım 6: Grafiğe Veri Serileri Ekleme
 
-Oluşturulan tabloya göre, şimdi bunu önceki adımlarda girdiğimiz verilerle ilişkilendirmemiz gerekiyor.
+Oluşturulan tabloya göre şimdi bunu önceki adımlarda girdiğimiz verilerle ilişkilendirmemiz gerekiyor.
 
 ```csharp
 chart.NSeries.Add("A1:B3", true);

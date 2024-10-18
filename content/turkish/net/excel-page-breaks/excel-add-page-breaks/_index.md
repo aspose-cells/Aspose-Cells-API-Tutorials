@@ -96,7 +96,7 @@ workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 
 ## Çözüm
 
-Aspose.Cells for .NET kullanarak Excel'de sayfa sonları eklemek, elektronik tablolarınızın sunumunu önemli ölçüde iyileştirebilir. İster raporlar, ister çıktılar hazırlıyor olun veya sadece düzeni temizliyor olun, Excel dosyalarınızı programlı olarak nasıl yöneteceğinizi anlamak oyunun kurallarını değiştirir. Paketleri içe aktarmaktan çalışma kitabını kaydetmeye kadar temel konuları ele aldık. Artık sayfa sonları eklemek ve Excel projelerinizi geliştirmek için donanımlısınız!
+Aspose.Cells for .NET kullanarak Excel'de sayfa sonları eklemek, elektronik tablolarınızın sunumunu önemli ölçüde iyileştirebilir. İster raporlar, ister çıktılar hazırlıyor olun veya sadece düzeni temizliyor olun, Excel dosyalarınızı programatik olarak nasıl yöneteceğinizi anlamak oyunun kurallarını değiştirir. Paketleri içe aktarmaktan çalışma kitabını kaydetmeye kadar temel konuları ele aldık. Artık sayfa sonları eklemek ve Excel projelerinizi geliştirmek için donanımlısınız!
 
 ## SSS
 

@@ -1,6 +1,6 @@
 ---
-title: Erstellen Sie benannte Zellbereiche in Excel
-linktitle: Erstellen Sie benannte Zellbereiche in Excel
+title: Erstellen Sie einen benannten Zellbereich in Excel
+linktitle: Erstellen Sie einen benannten Zellbereich in Excel
 second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
 description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET ganz einfach einen benannten Zellbereich in Excel erstellen. Optimieren Sie Ihre Datenverwaltung.
 type: docs
@@ -63,7 +63,7 @@ Diese Zeile initialisiert ein neues Arbeitsmappenobjekt, das wir ändern werden.
 Jede Arbeitsmappe kann mehrere Arbeitsblätter enthalten. Für unseren Zweck greifen wir auf das erste zu. Stellen Sie es sich so vor, als würden Sie eine Registerkarte in einer Excel-Datei öffnen.
 
 ```csharp
-//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+// Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Jetzt haben wir Zugriff auf das erste Arbeitsblatt, in dem wir unseren benannten
 Jetzt ist es an der Zeit, den benannten Bereich zu erstellen. Mit einem benannten Bereich können Sie einen bestimmten Satz von Zellen in Ihrem Arbeitsblatt definieren.
 
 ```csharp
-//Erstellen eines benannten Bereichs
+// Erstellen eines benannten Bereichs
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Nachdem Sie alle Änderungen vorgenommen haben, besteht der nächste Schritt dar
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Diese Zeile speichert Ihre Änderungen in einer Datei namens`outputCreateNamedRangeofCells.xlsx`. Stellen Sie sicher, dass der angegebene Pfad korrekt ist, sonst gibt das Programm einen Fehler aus!
+ Diese Zeile speichert Ihre Änderungen in einer Datei namens`outputCreateNamedRangeofCells.xlsx`. Stellen Sie sicher, dass der angegebene Pfad korrekt ist, sonst gibt das Programm einen Fehler aus!
 
 ## Schritt 8: Überprüfen Sie den Erfolg des Vorgangs
 
@@ -127,7 +127,7 @@ Jetzt können Sie Ihr Programm ausführen. Wenn alles richtig eingerichtet ist, 
 
 ## Abschluss
 
-Das Erstellen benannter Bereiche in Excel kann Ihre Datenverwaltung erheblich rationalisieren und Ihre Formeln leichter verständlich machen. Mit Aspose.Cells für .NET ist dies eine unkomplizierte Aufgabe, die die Funktionalität Ihrer Excel-Dateien verbessern kann. Mit den beschriebenen Schritten sollten Sie nun in der Lage sein, einen benannten Bereich zu erstellen und Stile darauf anzuwenden, sodass Ihre Daten nicht nur funktional, sondern auch visuell verwaltbar sind.
+Das Erstellen benannter Bereiche in Excel kann Ihre Datenverwaltung erheblich rationalisieren und Ihre Formeln leichter verständlich machen. Mit Aspose.Cells für .NET ist dies eine einfache Aufgabe, die die Funktionalität Ihrer Excel-Dateien verbessern kann. Mit den beschriebenen Schritten sollten Sie nun in der Lage sein, einen benannten Bereich zu erstellen und Stile darauf anzuwenden, sodass Ihre Daten nicht nur funktional, sondern auch visuell verwaltbar sind.
 
 ## Häufig gestellte Fragen
 
@@ -144,4 +144,4 @@ Aspose.Cells bietet eine kostenlose Testversion an, mit der Sie die Funktionen e
 Aspose.Cells unterstützt hauptsächlich .NET-Sprachen wie C#, VB.NET und mehr.
 
 ### Wo finde ich zusätzliche Dokumentation für Aspose.Cells?
- Ausführliche Dokumentationen und Beispiele finden Sie auf der[Aspose.Cells-Dokumentationsseite](https://reference.aspose.com/cells/net/).
+ Ausführliche Dokumentationen und Beispiele finden Sie auf der[Aspose.Cells Dokumentationsseite](https://reference.aspose.com/cells/net/).

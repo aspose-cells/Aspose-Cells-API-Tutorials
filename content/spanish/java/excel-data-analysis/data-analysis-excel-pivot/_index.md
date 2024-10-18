@@ -32,7 +32,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Importación de datos a Excel
 
-Ahora que tenemos un libro de trabajo en blanco, podemos importar nuestros datos. Puedes leer datos de varias fuentes, como bases de datos, archivos CSV o incluso ingresar datos manualmente.
+Ahora que tenemos un libro de trabajo en blanco, podemos importar nuestros datos en él. Puedes leer datos de varias fuentes, como bases de datos, archivos CSV o incluso ingresar datos manualmente.
 
 ```java
 // Código Java para importar datos a Excel
@@ -42,7 +42,7 @@ cells.importData(yourDataArray, 0, 0, importOptions);
 
 ## Creación de tablas dinámicas
 
-Las tablas dinámicas son una forma eficaz de resumir y analizar datos en Excel. Creemos una tabla dinámica en nuestro libro de trabajo para facilitar el análisis de datos.
+Las tablas dinámicas son una forma eficaz de resumir y analizar datos en Excel. Vamos a crear una tabla dinámica en nuestro libro de trabajo para facilitar el análisis de datos.
 
 ```java
 // Código Java para crear una tabla dinámica

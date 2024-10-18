@@ -47,7 +47,7 @@ using System.Drawing;
 ```csharp
 //Κατάλογος εξόδου
 static string outputDir = "Your Document Directory";
-//Δημιουργία αντικειμένου βιβλίου εργασίας
+// Δημιουργία αντικειμένου βιβλίου εργασίας
 Workbook workbook = new Workbook();
 ```
 

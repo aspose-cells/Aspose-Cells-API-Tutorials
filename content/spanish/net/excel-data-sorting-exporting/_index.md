@@ -9,7 +9,7 @@ url: /es/net/excel-data-sorting-exporting/
 ---
 ## Introducción
 
-¿Estás listo para mejorar tu rendimiento en Excel? Si buscas ordenar datos y exportar valores HTML sin problemas con Aspose.Cells para .NET, ¡has llegado al lugar correcto! En este artículo, profundizaremos en dos fantásticos tutoriales: cómo ordenar datos con una lista de ordenación personalizada en Excel y cómo exportar valores de cadena HTML desde celdas a una DataTable. ¡Comencemos!
+¿Estás listo para mejorar tu nivel de Excel? Si buscas ordenar datos y exportar valores HTML sin problemas usando Aspose.Cells para .NET, ¡has llegado al lugar correcto! En este artículo, profundizaremos en dos fantásticos tutoriales: cómo ordenar datos con una lista de ordenación personalizada en Excel y cómo exportar valores de cadena HTML desde celdas a una DataTable. ¡Comencemos!
 
 ## Ordenar datos en Excel: lista de ordenación personalizada simplificada
 

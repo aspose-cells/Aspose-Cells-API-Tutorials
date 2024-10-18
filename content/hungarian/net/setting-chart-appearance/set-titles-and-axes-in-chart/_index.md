@@ -47,7 +47,7 @@ Ebben a lépésben egy új munkafüzetet fogunk példányosítani.
 ```csharp
 //Kimeneti könyvtár
 static string outputDir = "Your Document Directory";
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
@@ -138,7 +138,7 @@ A telekterület és a sorozatszínek testreszabásával javítjuk diagramunk esz
 
 ## 8. lépés: Állítsa be a diagram címét
 
-A diagram nem teljes cím nélkül! Adjunk hozzá egyet, hogy tükrözze, mit ábrázol a diagramunk.
+diagram nem teljes cím nélkül! Adjunk hozzá egyet, hogy tükrözze, mit ábrázol a diagramunk.
 
 ```csharp
 // Diagram címének beállítása

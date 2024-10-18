@@ -22,7 +22,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 
 ## Étape 1 : Créer un nouveau projet Java
 
-Commençons par créer un nouveau projet Java dans votre IDE préféré. Assurez-vous de configurer votre projet pour inclure la bibliothèque Aspose.Cells pour Java dans le classpath.
+Tout d'abord, créons un nouveau projet Java dans votre IDE préféré. Assurez-vous de configurer votre projet pour inclure la bibliothèque Aspose.Cells pour Java dans le classpath.
 
 ## Étape 2 : Importer la bibliothèque Aspose.Cells
 

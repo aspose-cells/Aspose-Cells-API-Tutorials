@@ -9,11 +9,11 @@ url: /id/net/excel-workbook/filter-defined-names-while-loading-workbook/
 ---
 ## Perkenalan
 
-Jika Anda ingin mendalami manipulasi file Excel dengan Aspose.Cells for .NET, Anda telah membuka halaman yang tepat! Dalam artikel ini, kita akan membahas cara memfilter nama yang ditentukan saat memuat buku kerja—salah satu dari sekian banyak fitur hebat dari API yang fantastis ini. Baik Anda ingin menangani data tingkat lanjut atau sekadar membutuhkan cara mudah untuk mengelola dokumen Excel secara terprogram, panduan ini akan membantu Anda.
+Jika Anda ingin mencoba manipulasi file Excel dengan Aspose.Cells for .NET, Anda telah menemukan halaman yang tepat! Dalam artikel ini, kita akan membahas cara memfilter nama yang ditentukan saat memuat buku kerja—salah satu dari sekian banyak fitur hebat dari API yang fantastis ini. Baik Anda ingin melakukan penanganan data tingkat lanjut atau sekadar membutuhkan cara mudah untuk mengelola dokumen Excel secara terprogram, panduan ini akan membantu Anda.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki semua peralatan yang diperlukan. Berikut ini yang Anda butuhkan:
+Sebelum kita mulai, pastikan Anda memiliki semua alat yang diperlukan. Berikut ini yang Anda butuhkan:
 
 - Pengetahuan dasar pemrograman C#: Anda harus terbiasa dengan sintaksis dan konsep pemrograman.
 -  Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah menginstalnya dan siap digunakan. Anda dapat mengunduh pustaka dari sini[link](https://releases.aspose.com/cells/net/).
@@ -31,13 +31,13 @@ using System.Linq;
 using System.Text;
 ```
 
-Ruang nama ini memungkinkan Anda memanfaatkan sepenuhnya pustaka Aspose.Cells untuk memanipulasi file Excel secara efektif.
+Ruang nama ini memungkinkan Anda memanfaatkan sepenuhnya kekuatan pustaka Aspose.Cells untuk memanipulasi file Excel secara efektif.
 
 Mari kita uraikan proses pemfilteran nama yang ditentukan saat memuat buku kerja ke dalam langkah-langkah yang jelas dan mudah dikelola.
 
 ## Langkah 1: Tentukan Opsi Muatan
 
- Hal pertama yang akan kita lakukan adalah membuat instance dari`LoadOptions` Kelas ini akan membantu kita menentukan bagaimana kita ingin memuat berkas Excel kita.
+ Hal pertama yang akan kita lakukan adalah membuat sebuah instance dari`LoadOptions` Kelas ini akan membantu kita menentukan bagaimana kita ingin memuat berkas Excel kita.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
@@ -53,7 +53,7 @@ Selanjutnya, kita perlu menentukan data apa yang ingin kita saring saat memuat b
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Tilde (~) operator menunjukkan bahwa kita ingin mengecualikan nama yang ditentukan dari proses pemuatan. Ini penting jika Anda ingin menjaga beban kerja tetap ringan dan menghindari data yang tidak perlu yang dapat mempersulit pemrosesan Anda.
+Tilde (~operator menunjukkan bahwa kita ingin mengecualikan nama yang ditentukan dari proses pemuatan. Ini penting jika Anda ingin beban kerja tetap ringan dan menghindari data yang tidak perlu yang dapat mempersulit pemrosesan.
 
 ## Langkah 3: Muat Buku Kerja
 
@@ -63,7 +63,7 @@ Sekarang setelah opsi pemuatan kita ditentukan, saatnya memuat buku kerja itu se
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Pada baris ini, Anda membuat instance baru dari`Workbook` class, yang meneruskan jalur ke contoh berkas Excel dan opsi pemuatan. Ini memuat buku kerja Anda dengan nama yang ditentukan yang difilter sebagaimana ditentukan.
+ Pada baris ini, Anda membuat instance baru dari`Workbook` class, yang meneruskan jalur ke contoh berkas Excel Anda dan opsi pemuatan. Ini akan memuat buku kerja Anda dengan nama yang ditentukan yang difilter sebagaimana ditentukan.
 
 ## Langkah 4: Simpan File Output
 
@@ -106,4 +106,4 @@ Memfilter nama yang ditentukan dapat menyebabkan rumus rusak jika merujuk ke nam
  Ya, Anda bisa mendapatkan uji coba Aspose.Cells gratis untuk menguji kemampuannya sebelum membeli. Lihat saja[Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
-Anda dapat menemukan dokumentasi lengkap dan contoh lebih lanjut di halaman referensi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi lengkap dan lebih banyak contoh di halaman referensi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).

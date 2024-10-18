@@ -18,7 +18,7 @@ Gráficos 3D são um tipo de visualização de dados que adiciona profundidade a
 
 ## Por que usar o Aspose.Cells para Java para criar gráficos 3D?
 
-Aspose.Cells para Java oferece um conjunto abrangente de recursos e ferramentas para trabalhar com arquivos e gráficos do Excel. Ele fornece uma interface amigável para criar, personalizar e manipular gráficos, incluindo gráficos 3D. Além disso, o Aspose.Cells para Java garante que os gráficos gerados sejam compatíveis com uma ampla gama de versões do Excel, tornando-o uma escolha confiável para a criação de gráficos.
+O Aspose.Cells para Java oferece um conjunto abrangente de recursos e ferramentas para trabalhar com arquivos e gráficos do Excel. Ele fornece uma interface amigável para criar, personalizar e manipular gráficos, incluindo gráficos 3D. Além disso, o Aspose.Cells para Java garante que os gráficos gerados sejam compatíveis com uma ampla variedade de versões do Excel, tornando-o uma escolha confiável para a criação de gráficos.
 
 ## Configurando Aspose.Cells para Java
 
@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Definindo o intervalo de dados para o gráfico
 chart.getNSeries().add("A2:B4", true);
 
-// Personalizando atributos de gráfico
+//Personalizando atributos de gráfico
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```
@@ -152,7 +152,7 @@ Sim, você pode exportar gráficos 3D criados com Aspose.Cells para Java para v�
 
 ### É possível criar gráficos 3D interativos com o Aspose.Cells para Java?
 
-Aspose.Cells para Java foca principalmente na criação de gráficos 3D estáticos para arquivos Excel. Para gráficos interativos com interatividade avançada, você pode considerar usar outras bibliotecas ou ferramentas de visualização em combinação com seus arquivos Excel.
+O Aspose.Cells para Java foca principalmente na criação de gráficos 3D estáticos para arquivos Excel. Para gráficos interativos com interatividade avançada, você pode considerar usar outras bibliotecas ou ferramentas de visualização em combinação com seus arquivos Excel.
 
 ### Posso automatizar o processo de atualização de dados nos meus gráficos 3D?
 

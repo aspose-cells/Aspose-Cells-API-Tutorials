@@ -56,7 +56,7 @@ Excel dosyanızın bulunduğu dizini belirtin. İşte bir örnek:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satır dizininize giden yolu ayarlar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`book1.xls` dosya kaydedilir. Bu, kodunuza Excel dosyasının bulunduğu evinizin adresini vermek gibidir; nerede bulacağını bilmesi gerekir!
+ Bu satır dizininize giden yolu ayarlar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`book1.xls` dosya kaydedilir. Bu, kodunuza Excel dosyasının bulunduğu evinizin adresini vermek gibidir; onu nerede bulacağını bilmesi gerekir!
 
 ## Adım 3: Bir Dosya Akışı Oluşturun
 
@@ -76,7 +76,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- The`Workbook` nesnesi, hafızadaki tüm Excel dosyanızı temsil eder. Bunu, tüm dosyayı çalışma alanınıza getirip değişiklikler yapmaya başlayabileceğiniz bir şey olarak düşünün.
+ The`Workbook` nesnesi, hafızadaki tüm Excel dosyanızı temsil eder. Bunu, tüm dosyayı çalışma alanınıza getirmek ve değişiklikler yapmaya başlamak olarak düşünün.
 
 ## Adım 5: Çalışma Sayfasına Erişim
 
@@ -128,12 +128,12 @@ Tebrikler! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki b
 Bölmeleri dondurmak, büyük veri kümeleri arasında gezinirken belirli satırları veya sütunları görünür tutmanıza olanak tanır.
 
 ### Birden fazla satırı ve sütunu aynı anda dondurabilir miyim?
- Evet, konumlarını belirterek istediğiniz sayıda satır ve sütunu dondurabilirsiniz.`FreezePanes` Yöntem.
+ Evet, konumlarını belirterek istediğiniz sayıda satır ve sütunu dondurabilirsiniz.`FreezePanes` yöntem.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
-Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisans satın almanız gerekiyor.[satın alma sayfası](https://purchase.aspose.com/buy) Ayrıntılar için.
+Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisans satın almanız gerekecek.[satın alma sayfası](https://purchase.aspose.com/buy) Ayrıntılar için.
 
-### Aspose.Cells için desteği nereden bulabilirim?
+### Aspose.Cells için desteği nerede bulabilirim?
  Destek almak için:[Aspose forumu](https://forum.aspose.com/c/cells/9)Sorularınızı sorabileceğiniz ve topluluğa çözümler bulabileceğiniz bir yer.
 
 ### Aspose.Cells'i farklı platformlarda kullanabilir miyim?

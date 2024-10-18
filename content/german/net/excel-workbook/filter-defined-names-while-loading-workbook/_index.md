@@ -16,7 +16,7 @@ Wenn Sie sich mit der Excel-Dateibearbeitung mit Aspose.Cells für .NET beschäf
 Bevor wir loslegen, stellen wir sicher, dass Sie über alle erforderlichen Tools verfügen. Folgendes benötigen Sie:
 
 - Grundkenntnisse der C#-Programmierung: Sie sollten mit der Syntax und den Programmierkonzepten vertraut sein.
--  Aspose.Cells für .NET-Bibliothek: Stellen Sie sicher, dass Sie sie installiert und einsatzbereit haben. Sie können die Bibliothek hier herunterladen[Link](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells für .NET-Bibliothek: Stellen Sie sicher, dass Sie sie installiert und einsatzbereit haben. Sie können die Bibliothek hier herunterladen.[Link](https://releases.aspose.com/cells/net/).
 - Visual Studio oder jede C#-IDE: Eine Entwicklungsumgebung ist zum Schreiben und Testen Ihres Codes von entscheidender Bedeutung.
 -  Beispiel einer Excel-Datei: Wir verwenden eine Excel-Datei mit dem Namen`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`. Sie können diese Datei manuell erstellen oder bei Bedarf herunterladen.
 
@@ -77,7 +77,7 @@ Diese Zeile speichert Ihre neue Arbeitsmappe in einem angegebenen Ausgabeverzeic
 
 ## Schritt 5: Ausführung bestätigen
 
-Abschließend können wir bestätigen, dass unser Vorgang erfolgreich war. Es empfiehlt sich, Feedback in Ihrer Konsole zu geben, um sicherzustellen, dass alles reibungslos verlief.
+Abschließend können wir bestätigen, dass unser Vorgang erfolgreich war. Es empfiehlt sich, Feedback in Ihrer Konsole bereitzustellen, um sicherzustellen, dass alles reibungslos verlief.
 
 ```csharp
 Console.WriteLine("FilterDefinedNamesWhileLoadingWorkbook executed successfully.");

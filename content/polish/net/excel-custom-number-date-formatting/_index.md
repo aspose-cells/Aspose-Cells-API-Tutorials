@@ -19,12 +19,12 @@ Czy kiedykolwiek zastanawiałeś się, czy wartość komórki pasuje do określo
 
 ## Określ pola formuły podczas importowania danych do arkusza programu Excel
 
-Porozmawiajmy teraz o importach danych. Przenoszenie danych do Excela może czasami przypominać próbę rozwiązania zagadki, w której brakuje niektórych elementów. Nie obawiaj się! Dzięki Aspose.Cells importowanie danych przy jednoczesnym określaniu pól formuły jest dziecinnie proste.
+Porozmawiajmy teraz o importach danych. Przenoszenie danych do Excela może czasami przypominać próbę rozwiązania zagadki, w której brakuje niektórych elementów. Nie martw się! Dzięki Aspose.Cells importowanie danych przy jednoczesnym określaniu pól formuły jest dziecinnie proste.
 
 Ten samouczek wyposaży Cię w umiejętności importowania zestawów danych przy jednoczesnym zachowaniu integralności pól formuł. Wyobraź sobie: masz prognozy finansowe w pliku CSV i musisz je zaimportować do programu Excel, nie tracąc tych wszystkich ważnych formuł. Pokażemy Ci, jak to zrobić, podając jasne przykłady i najlepsze praktyki, które zapewnią, że Twoje dane zostaną przekazane w nienaruszonym stanie i będą użyteczne.[Przeczytaj więcej](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
-## Samouczki dotyczące formatowania niestandardowych liczb i dat w programie Excel
+## Samouczki dotyczące niestandardowego formatowania liczb i dat w programie Excel
 ### [Sprawdź, czy wartość komórki ma określony niestandardowy format liczbowy](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczb za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
 ### [Określ pola formuły podczas importowania danych do arkusza programu Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
-W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET.
+W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuł, korzystając z Aspose.Cells for .NET.

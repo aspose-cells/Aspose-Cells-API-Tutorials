@@ -9,7 +9,7 @@ url: /pl/net/manipulating-chart-types/create-custom-chart/
 ---
 ## Wstęp
 
-Tworzenie niestandardowych wykresów w programie Excel przy użyciu biblioteki Aspose.Cells dla platformy .NET nie jest po prostu proste, ale jest fantastycznym sposobem na skuteczną wizualizację danych. Wykresy mogą przekształcić zwykłe dane w fascynujące historie, ułatwiając analitykom i decydentom wyciąganie wniosków. W tym samouczku zagłębiamy się w to, jak możesz tworzyć niestandardowe wykresy w swoich aplikacjach. Jeśli więc chcesz ulepszyć swoje raporty lub po prostu dodać polotu do prezentacji danych, jesteś we właściwym miejscu!
+Tworzenie niestandardowych wykresów w programie Excel przy użyciu biblioteki Aspose.Cells dla platformy .NET nie jest po prostu proste, ale jest fantastycznym sposobem na skuteczną wizualizację danych. Wykresy mogą przekształcić zwykłe dane w przekonujące historie, ułatwiając analitykom i decydentom wyciąganie wniosków. W tym samouczku zagłębiamy się w to, jak możesz tworzyć niestandardowe wykresy w swoich aplikacjach. Więc jeśli chcesz ulepszyć swoje raporty lub po prostu dodać polotu do prezentacji danych, jesteś we właściwym miejscu!
 
 ## Wymagania wstępne
 
@@ -52,7 +52,7 @@ Zamiast „Twojego katalogu wyjściowego” możesz określić rzeczywistą ści
  Teraz należy rozpocząć od utworzenia nowego wystąpienia`Workbook` Klasa. Jest to podstawowy element składowy wszelkich operacji Excela przy użyciu Aspose.Cells.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 

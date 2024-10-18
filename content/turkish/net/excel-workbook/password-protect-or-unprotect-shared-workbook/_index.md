@@ -75,7 +75,7 @@ Fikrinizi değiştirirseniz veya daha sonra çalışma kitabını düzenlemeniz 
 // wb.UnprotectPaylaşılanÇalışmaKitabı("1234");
 ```
 
-Tekrar düzenleme yapmaya hazır olduğunuzda, bu metodu doğru parola ile çağırmanız yeterlidir.
+Tekrar düzenleme yapmaya hazır olduğunuzda, bu metodu doğru parolayla çağırmanız yeterlidir.
 
 ## Adım 5: Çıktı Excel Dosyasını Kaydedin
 

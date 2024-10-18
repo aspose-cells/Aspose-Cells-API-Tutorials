@@ -20,7 +20,7 @@ Koda geçmeden önce, yerine getirmeniz gereken birkaç ön koşul var:
 3. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4.  Excel Dosyası: Bir Excel dosyası hazır bulundurun (örneğin,`book1.xls`) bu eğitimde kullanacağınız.
 
-Bu ön koşulları yerine getirdikten sonra, Excel hücrelerinden veri alma işlemini keşfetmeye başlayabiliriz.
+Bu ön koşulları yerine getirdikten sonra, Excel hücrelerinden veri almanın yollarını keşfetmeye başlayabiliriz.
 
 ## Paketleri İçe Aktar
 
@@ -56,7 +56,7 @@ Artık belge dizinini ayarladığınıza göre, bir sonraki adım çalışmak is
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Burada bir tane yaratıyoruz`Workbook`Excel dosyasının tam yolunu geçirerek nesne. Bu adım çalışma kitabını başlatır ve veri almaya hazır hale getirir.
+ Burada bir tane yaratıyoruz`Workbook` Excel dosyasının tam yolunu geçirerek nesne. Bu adım çalışma kitabını başlatır ve veri almaya hazır hale getirir.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -68,7 +68,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- The`Worksheets` koleksiyon, çalışma kitabındaki farklı sayfalara erişmenizi sağlar. Dizin`[0]` ilk çalışma sayfasına atıfta bulunur. Sonraki sayfalara erişmek istiyorsanız, dizini buna göre değiştirebilirsiniz.
+ The`Worksheets` koleksiyon, çalışma kitabındaki farklı sayfalara erişmenizi sağlar. Dizin`[0]`ilk çalışma sayfasına atıfta bulunur. Sonraki sayfalara erişmek istiyorsanız, dizini buna göre değiştirebilirsiniz.
 
 ## Adım 4: Hücreler Arasında Döngü
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Hücre verilerinin veri türünün tarih/saat değeri açısından değerlendirilmesi
+        // Tarih/saat değeri için hücre verilerinin veri türünün değerlendirilmesi
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Bu adımda, çalışma sayfasındaki her hücrede döngü kurarız. Her hücre için, bir`switch` ifadesi. Türe bağlı olarak değeri alırız ve konsola yazdırırız. İşte durumların bir dökümü:
+ Bu adımda, çalışma sayfasındaki her hücrede döngü kurarız. Her hücre için, bir`switch`ifadesi. Türe bağlı olarak değeri alırız ve konsola yazdırırız. İşte durumların bir dökümü:
 
 -  IsString: Hücre bir dize içeriyorsa, bunu kullanarak alırız`StringValue`.
 -  IsNumeric: Sayısal değerler için şunu kullanırız:`DoubleValue`.
@@ -143,7 +143,7 @@ Aspose.Cells for .NET kullanarak Excel hücrelerinden veri almak basit bir işle
 Aspose.Cells, geliştiricilerin Microsoft Excel'in kurulu olmasına gerek kalmadan Excel dosyaları oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet, Aspose.Cells özelliklerini test etmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.Cells özelliklerini test etmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### Excel hücrelerinden hangi tür verileri alabilirim?  
 Dizeler, sayılar, Boole değerleri ve tarih/saat değerleri dahil olmak üzere çeşitli veri türlerini alabilirsiniz.

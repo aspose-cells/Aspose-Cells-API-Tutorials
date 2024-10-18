@@ -2,7 +2,7 @@
 title: خيارات ملائمة صفحات Excel
 linktitle: خيارات ملائمة صفحات Excel
 second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
-description: تعرف على كيفية استخدام خيارات Fit to Excel Pages مع Aspose.Cells لـ .NET وعرض بياناتك بشكل جميل في دليل سهل خطوة بخطوة.
+description: تعرف على كيفية استخدام خيارات Fit to Excel Pages مع Aspose.Cells لـ .NET وعرض بياناتك بشكل جميل في دليل خطوة بخطوة سهل.
 type: docs
 weight: 30
 url: /ar/net/excel-page-setup/fit-to-excel-pages-options/
@@ -17,10 +17,10 @@ url: /ar/net/excel-page-setup/fit-to-excel-pages-options/
 
 1. Visual Studio: تأكد من تثبيت Visual Studio على جهازك. فهو المركز الرئيسي لجميع أعمال التطوير.
 2. Aspose.Cells لـ .NET: يجب تنزيل مكتبة Aspose.Cells وإضافتها إلى مشروعك. يمكنك الحصول عليها بسهولة من[موقع اسبوس](https://releases.aspose.com/cells/net/).
-3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة لغة C# بشكل كبير. إذا كنت تستطيع التعامل مع المتغيرات والحلقات وعمليات الإدخال والإخراج الأساسية للملفات، فسوف تكون مرتاحًا تمامًا.
+3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة لغة C# بشكل كبير. إذا كنت تستطيع التعامل مع المتغيرات والحلقات وعمليات الإدخال والإخراج الأساسية للملفات، فسوف تشعر بالراحة التامة.
 4. .NET Framework: تأكد من إعداد مشروعك باستخدام إصدار .NET Framework المناسب، حيث تم تصميم المكتبة للتوافق داخل هذا النظام البيئي.
 
-هل جهزت كل شيء؟ رائع، فلننتقل إلى الجزء الممتع!
+هل جهزت كل شيء؟ رائع، دعنا ننتقل إلى الجزء الممتع!
 
 ## استيراد الحزم
 
@@ -54,9 +54,9 @@ using System;
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//إنشاء كائن مصنف
+// إنشاء كائن مصنف
 Workbook workbook = new Workbook();
-//الوصول إلى ورقة العمل الأولى في ملف Excel
+// الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  

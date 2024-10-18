@@ -83,7 +83,7 @@ Teraz masz podstawy do tworzenia dynamicznych raportów dostosowanych do Twoich 
 
 ## Często zadawane pytania
 
-### 1. Jaka jest zaleta stosowania Aspose.Cells dla Java?
+### 1. Jaka jest zaleta używania Aspose.Cells dla Java?
 
 Aspose.Cells for Java zapewnia kompleksowy zestaw funkcji do pracy z plikami Excel programowo. Umożliwia łatwe tworzenie, edytowanie i manipulowanie plikami Excel, co czyni go cennym narzędziem do dynamicznych raportów.
 

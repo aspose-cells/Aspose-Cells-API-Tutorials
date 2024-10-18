@@ -141,7 +141,7 @@ Và đó là hướng dẫn đơn giản để cải thiện nhãn dữ liệu t
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?  
-Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Excel theo cách lập trình.
+Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát triển thao tác các tệp Excel theo cách lập trình.
 
 ### Tôi có thể thay đổi các khía cạnh khác nhau của biểu đồ Excel bằng Aspose không?  
 Chắc chắn rồi! Aspose.Cells cung cấp nhiều chức năng mở rộng để chỉnh sửa biểu đồ, bao gồm chuỗi dữ liệu, nhãn, kiểu và nhiều hơn nữa.

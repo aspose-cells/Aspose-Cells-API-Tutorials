@@ -13,7 +13,7 @@ Al trabajar con hojas de cálculo de Excel, a menudo es necesario proteger filas
 
 ## Prerrequisitos
 
-Antes de pasar a la parte práctica, asegurémonos de que todo esté configurado. Estos son algunos requisitos previos:
+Antes de pasar a la parte práctica, asegurémonos de que tienes todo configurado. Estos son algunos requisitos previos:
 
 1.  Aspose.Cells para .NET: Descargue la biblioteca desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/)Asegúrese de tener la última versión para todas las nuevas funciones y correcciones de errores.
 2. Visual Studio: un entorno de desarrollo integrado (IDE) como Visual Studio (Community, Professional o Enterprise) le ayudará a compilar y ejecutar su código C# de manera eficaz.
@@ -81,7 +81,7 @@ for (int i = 0; i <= 255; i++)
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
 }
 ```
-Este bucle recorre las primeras 256 columnas, desbloqueando cada una para garantizar los permisos de edición predeterminados.
+Este bucle itera a través de las primeras 256 columnas, desbloqueando cada una para garantizar los permisos de edición predeterminados.
 
 ## Paso 5: Bloquear la fila específica
 
@@ -116,7 +116,7 @@ Asegúrese de que el nombre y el formato del archivo guardado coincidan con sus 
 
 ## Conclusión
 
-¡Y ya está! Aprendió a proteger una fila específica en una hoja de cálculo de Excel con Aspose.Cells para .NET. Con solo unas pocas líneas de código, no solo creó un libro de trabajo, sino que también logró proteger información confidencial, lo que garantiza que sus archivos de Excel permanezcan intactos y confiables. Ya sea un informe financiero, una hoja de asistencia o un plan de proyecto colaborativo, proteger datos cruciales es esencial. 
+¡Y ya está! Aprendió a proteger una fila específica en una hoja de cálculo de Excel con Aspose.Cells para .NET. Con solo unas pocas líneas de código, no solo creó un libro de trabajo, sino que también logró proteger información confidencial, lo que garantiza que sus archivos de Excel permanezcan intactos y confiables. Ya sea un informe financiero, una hoja de asistencia o un plan de proyecto colaborativo, proteger los datos cruciales es esencial. 
 
 ## Preguntas frecuentes
 

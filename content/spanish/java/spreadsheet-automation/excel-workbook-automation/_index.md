@@ -98,7 +98,7 @@ A continuación se presentan algunas preguntas comunes relacionadas con la autom
    Sí, Aspose.Cells admite varios formatos de archivos de Excel, incluidos XLS, XLSX, XLSM y más.
 
 ### ¿Puedo realizar operaciones avanzadas como creación de gráficos o manipulación de tablas dinámicas con Aspose.Cells?
-   ¡Por supuesto! Aspose.Cells ofrece un amplio soporte para funciones avanzadas de Excel, como creación de gráficos, manipulación de tablas dinámicas y más.
+   ¡Por supuesto! Aspose.Cells ofrece un amplio soporte para funciones avanzadas de Excel, como la creación de gráficos, la manipulación de tablas dinámicas y más.
 
 ### ¿Dónde puedo encontrar más documentación y recursos para Aspose.Cells para Java?
     Puede consultar la documentación de la API en[https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) para obtener información detallada y ejemplos de código.

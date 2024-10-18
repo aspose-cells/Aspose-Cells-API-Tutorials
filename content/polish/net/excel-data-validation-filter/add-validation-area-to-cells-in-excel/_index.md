@@ -46,7 +46,7 @@ Workbook workbook = new Workbook(SourceDir + "ValidationsSample.xlsx");
 
 W tym kroku otwierasz istniejący plik Excel. Upewnij się, że ścieżka do pliku jest poprawna. Jeśli wszystko jest ustawione, będziesz mieć obiekt skoroszytu zawierający dane z określonego pliku Excel.
 
-## Krok 2: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 2: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Teraz, gdy mamy już nasz skoroszyt, czas uzyskać dostęp do konkretnego arkusza, do którego chcemy dodać walidację:
 
@@ -125,4 +125,4 @@ Walidacja danych to funkcja, która ogranicza typ danych wprowadzanych do komór
 Aspose oferuje biblioteki dla różnych języków programowania, w tym C#, Java, Python i innych.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Możesz szukać pomocy za ich pośrednictwem[forum wsparcia](https://forum.aspose.com/c/cells/9).
+ Możesz szukać pomocy u nich[forum wsparcia](https://forum.aspose.com/c/cells/9).

@@ -16,7 +16,7 @@ url: /el/java/data-validation-rules/advanced-data-validation-techniques/
 
  Πριν βουτήξουμε στις προηγμένες τεχνικές, ας ξεκινήσουμε με το Aspose.Cells για Java. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από το[Σύνδεσμος λήψης Aspose.Cells για Java](https://releases.aspose.com/cells/java/) . Φροντίστε να ακολουθήσετε τις οδηγίες εγκατάστασης που παρέχονται στην τεκμηρίωση στη διεύθυνση[Aspose.Cells for Java API References](https://reference.aspose.com/cells/java/).
 
-## Επικύρωση βασικών δεδομένων
+## Βασική επικύρωση δεδομένων
 
 ### Βήμα 1: Δημιουργία βιβλίου εργασίας
 

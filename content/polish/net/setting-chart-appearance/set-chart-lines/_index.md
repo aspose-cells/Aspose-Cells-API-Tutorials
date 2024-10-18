@@ -13,7 +13,7 @@ Tworzenie atrakcyjnych wizualnie i informacyjnych wykresów jest niezbędne w re
 
 ## Wymagania wstępne
 
-Zanim przejdziesz do części poświęconej kodowaniu, upewnij się, że dysponujesz następującymi informacjami:
+Zanim zagłębisz się w kodowanie, upewnij się, że dysponujesz następującymi informacjami:
 
 - Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio. Zdecydowanie zaleca się korzystanie z najnowszej wersji, aby wykorzystać wszystkie funkcje.
 - .NET Framework: Twój projekt powinien bazować na .NET Framework (lub .NET Core), w którym zaimplementujesz Aspose.Cells.
@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Teraz utworzymy obiekt skoroszytu, który będzie służył jako kontener dla arkusza kalkulacyjnego.
 
 ```csharp
-//Tworzenie instancji obiektu skoroszytu
+// Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 
@@ -135,11 +135,11 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Wyjaśnienie: Tutaj dostosowujesz kolory różnych komponentów wykresu, aby uczynić go wizualnie uderzającym. Każda linia dotyczy różnych obszarów wykresu.
+Wyjaśnienie: Tutaj dostosowujesz kolory różnych komponentów wykresu, aby był wizualnie uderzający. Każda linia dotyczy różnych obszarów wykresu.
 
 ## Krok 9: Zastosuj style linii
 
-Następnie możesz zmodyfikować style linii dla serii danych, aby Twój wykres był nie tylko ładny, ale i profesjonalny.
+Następnie możesz zmienić style linii dla serii danych, aby Twój wykres był nie tylko ładny, ale i profesjonalny.
 
 ```csharp
 // Stosowanie stylu linii przerywanej do linii SeriesCollection

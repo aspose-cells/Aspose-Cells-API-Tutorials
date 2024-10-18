@@ -2,7 +2,7 @@
 title: पिवट टेबल बनाना
 linktitle: पिवट टेबल बनाना
 second_title: Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई
-description: उन्नत डेटा विश्लेषण और विज़ुअलाइज़ेशन के लिए Aspose.Cells के साथ जावा में शक्तिशाली पिवट टेबल्स बनाने का तरीका जानें।
+description: उन्नत डेटा विश्लेषण और विज़ुअलाइज़ेशन के लिए Aspose.Cells के साथ Java में शक्तिशाली पिवट टेबल बनाना सीखें।
 type: docs
 weight: 10
 url: /hi/java/excel-pivot-tables/creating-pivot-tables/
@@ -35,7 +35,7 @@ workbook.open("data.xlsx");
 
 ```java
 // पिवट तालिका के लिए डेटा श्रेणी निर्दिष्ट करें
-String sourceData = "Sheet1!A1:D100"; // इसे अपनी डेटा श्रेणी में बदलें
+String sourceData = "Sheet1!A1:D100"; // इसे अपनी डेटा रेंज में बदलें
 ```
 
 ## चरण 4: पिवट तालिका बनाएं

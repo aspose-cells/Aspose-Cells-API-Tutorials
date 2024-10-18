@@ -17,7 +17,7 @@ Zanim rozpoczniemy podróż mającą na celu kontrolowanie Twoich arkuszy kalkul
 
 1. Podstawowa znajomość języka C#: Znajomość języka C# jest niezbędna, ponieważ będziemy pisać kod w tym języku.
 2.  Aspose.Cells dla .NET: Upewnij się, że masz zainstalowany Aspose.Cells. Możesz go pobrać[Tutaj](https://releases.aspose.com/cells/net/).
-3. Środowisko programistyczne: środowisko IDE, takie jak Visual Studio 2022, w którym można kompilować i uruchamiać kod C#.
+3. Środowisko programistyczne: IDE, takie jak Visual Studio 2022, w którym można kompilować i uruchamiać kod C#.
 4.  Plik Excela: Przygotuj plik Excela do manipulacji. Na potrzeby tego samouczka utwórzmy przykładowy plik o nazwie`book1.xls`.
 5. .NET Framework: Co najmniej .NET Framework 4.5 lub nowszy.
 
@@ -25,7 +25,7 @@ Gdy już sprawdzisz te wymagania, możesz zaczynać!
 
 ## Importuj pakiety
 
-Zanim przejdziesz do kodu, musisz zaimportować niezbędny pakiet Aspose.Cells. Dzięki temu będziesz mógł wykorzystać wszystkie niesamowite funkcje oferowane przez bibliotekę. Po prostu uruchom plik C# następującymi dyrektywami:
+Zanim przejdziesz do kodu, musisz zaimportować niezbędny pakiet Aspose.Cells. Dzięki temu będziesz mógł wykorzystać wszystkie niesamowite funkcje oferowane przez bibliotekę. Po prostu uruchom plik C# za pomocą następujących dyrektyw:
 
 ```csharp
 using System.IO;
@@ -72,7 +72,7 @@ Ten krok to jak powiedzenie „Witaj!” swojemu skoroszytowi, dzięki czemu wie
 Mając w ręku skoroszyt, czas uzyskać dostęp do konkretnego arkusza, który chcesz ukryć. Zaczniemy od pierwszego arkusza.
 
 ```csharp
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -94,7 +94,7 @@ To jak spuszczenie zasłon. Dane nadal tam są, ale nie są już widoczne gołym
 Po ukryciu arkusza kalkulacyjnego, będziesz chciał zapisać zmiany, które wprowadziłeś do pliku. Jest to kluczowe, w przeciwnym razie zmiany te rozpłyną się w powietrzu!
 
 ```csharp
-// Zapisywanie zmodyfikowanego pliku Excel w domyślnym formacie (czyli Excel 2003)
+// Zapisywanie zmodyfikowanego pliku Excel w formacie domyślnym (czyli Excel 2003)
 workbook.Save(dataDir + "output.out.xls");
 ```
 

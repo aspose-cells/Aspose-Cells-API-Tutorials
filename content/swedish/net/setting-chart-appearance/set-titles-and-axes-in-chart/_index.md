@@ -47,7 +47,7 @@ I det här steget kommer vi att instansiera en ny arbetsbok.
 ```csharp
 //Utdatakatalog
 static string outputDir = "Your Document Directory";
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 

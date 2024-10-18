@@ -9,7 +9,7 @@ url: /vi/net/excel-workbook/extract-embedded-mol-file/
 ---
 ## Giới thiệu
 
-Bạn đã bao giờ thấy mình cần phải trích xuất các tệp nhúng, cụ thể là các tệp MOL, từ một bảng tính Excel chưa? Đây là một công việc khó khăn, phải không? Nhưng đừng lo lắng! Với sự trợ giúp của Aspose.Cells cho .NET, chúng ta có thể biến nhiệm vụ có vẻ phức tạp này thành một công việc dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước về cách trích xuất các tệp MOL từ một tệp Excel bằng thư viện Aspose.Cells mạnh mẽ.
+Bạn đã bao giờ thấy mình cần trích xuất các tệp nhúng, cụ thể là các tệp MOL, từ một bảng tính Excel chưa? Đây là một công việc khó khăn, phải không? Nhưng đừng lo lắng! Với sự trợ giúp của Aspose.Cells cho .NET, chúng ta có thể biến nhiệm vụ có vẻ phức tạp này thành một công việc dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước về cách trích xuất các tệp MOL từ một tệp Excel bằng thư viện Aspose.Cells mạnh mẽ.
 
 ## Điều kiện tiên quyết
 
@@ -17,7 +17,7 @@ Trước khi đi sâu vào quá trình trích xuất, hãy đảm bảo rằng b
 
 - Kiến thức cơ bản về C#: Một chút quen thuộc với C# sẽ giúp ích rất nhiều. Ngay cả khi bạn mới bắt đầu, bạn vẫn có thể theo kịp.
 - Visual Studio: Cài đặt Visual Studio trên hệ thống của bạn. Nó cần thiết để viết và thực thi mã C# của bạn.
--  Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy truy cập[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
+- Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy truy cập[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
 - .NET Framework: Đảm bảo rằng bạn đã cài đặt phiên bản .NET Framework tương thích.
 -  Một tệp Excel có các đối tượng MOL nhúng: Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng`EmbeddedMolSample.xlsx`. Hãy đảm bảo bạn đã chuẩn bị sẵn tệp này để giải nén.
 
@@ -86,7 +86,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Với đoạn trích này, chúng tôi đang sử dụng một`foreach` vòng lặp để duyệt qua mọi trang tính trong sổ làm việc của chúng tôi. Bằng cách truy cập`OleObjects`bộ sưu tập, chúng ta có thể truy cập vào tất cả các đối tượng nhúng trên trang tính cụ thể đó. 
+ Với đoạn trích này, chúng tôi đang sử dụng một`foreach` vòng lặp để duyệt qua mọi trang tính trong sổ làm việc của chúng tôi. Bằng cách truy cập`OleObjects` bộ sưu tập, chúng ta có thể truy cập vào tất cả các đối tượng nhúng trên trang tính cụ thể đó. 
 
 ## Bước 4: Trích xuất các đối tượng OLE
 
@@ -111,7 +111,7 @@ Trong cách tiếp cận này:
 
 ## Bước 5: Xác nhận thực hiện
 
-Sau khi hoàn tất quá trình trích xuất logic, bạn nên xác nhận quá trình trích xuất của mình đã thành công:
+Sau khi quá trình trích xuất logic của bạn hoàn tất, bạn nên xác nhận quá trình trích xuất của mình đã thành công:
 
 ```csharp
 Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");

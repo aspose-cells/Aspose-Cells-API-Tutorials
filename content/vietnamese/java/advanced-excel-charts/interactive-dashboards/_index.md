@@ -110,7 +110,7 @@ Có, Aspose.Cells for Java cho phép bạn nhập dữ liệu từ nhiều ngu�
 
 ### Có giới hạn nào về số lượng thành phần tương tác mà tôi có thể thêm không?
 
-Số lượng thành phần tương tác bạn có thể thêm vào bảng điều khiển bị giới hạn bởi bộ nhớ và tài nguyên hệ thống có sẵn. Hãy lưu ý đến các cân nhắc về hiệu suất khi bạn thiết kế bảng điều khiển.
+Số lượng thành phần tương tác bạn có thể thêm vào bảng điều khiển bị giới hạn bởi bộ nhớ khả dụng và tài nguyên hệ thống. Hãy lưu ý đến các cân nhắc về hiệu suất khi bạn thiết kế bảng điều khiển.
 
 ### Tôi có thể xuất bảng điều khiển tương tác của mình sang các định dạng khác như PDF hoặc HTML không?
 
@@ -118,4 +118,4 @@ Có, Aspose.Cells for Java cung cấp khả năng xuất bảng thông tin tươ
 
 ### Aspose.Cells for Java có phù hợp cho các dự án trực quan hóa dữ liệu quy mô lớn không?
 
-Có, Aspose.Cells for Java rất phù hợp cho cả các dự án trực quan hóa dữ liệu quy mô nhỏ và lớn. Tính linh hoạt và bộ tính năng mở rộng của nó khiến nó trở thành lựa chọn mạnh mẽ cho các yêu cầu đa dạng.
+Có, Aspose.Cells for Java phù hợp cho cả các dự án trực quan hóa dữ liệu quy mô nhỏ và lớn. Tính linh hoạt và bộ tính năng mở rộng của nó khiến nó trở thành lựa chọn mạnh mẽ cho các yêu cầu đa dạng.

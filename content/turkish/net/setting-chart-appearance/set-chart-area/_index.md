@@ -17,7 +17,7 @@ Grafik oluşturmanın inceliklerine dalmadan önce, ihtiyacınız olan her şeye
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunu yazmak ve çalıştırmak için gereklidir.
 2. .NET Framework: Bu kılavuz .NET Framework veya .NET Core ile en iyi şekilde çalışır. Gerekli sürümün (4.5 veya üzeri) yüklü olduğundan emin olun.
-3. Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+3.  Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
 4. Temel C# Bilgisi: C# programlamanın temellerini anlamak, adımları daha iyi kavramanıza yardımcı olacaktır. Profesyonel değilseniz endişelenmeyin—her şeyi açıklayacağım!
 
 ## Paketleri İçe Aktar
@@ -68,7 +68,7 @@ Artık ilk çalışma kağıdınız harekete geçmeye hazır!
 
 Her grafiğin görselleştirilecek verilere ihtiyacı vardır. Çalışma sayfamızı bazı örnek değerlerle dolduralım.
 
-Şimdi, belirli hücrelere bazı değerler ekleyeceğiz. İşte çalışma sayfası hücrelerine veri girme yöntemi:
+Şimdi, belirli hücrelere bazı değerler ekleyeceğiz. Çalışma sayfası hücrelerine veri girişi şu şekildedir:
 
 ```csharp
 worksheet.Cells["A1"].PutValue(50);
@@ -91,7 +91,7 @@ Verilerimiz hazır olduğuna göre, bu bilgileri görsel olarak gösterecek bir 
 int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 ```
 
-Burada, 5. satır, 0. sütundan başlayıp sırasıyla 25. ve 10. satırlara kadar uzanan bir sütun grafiği ekledik. Hepsi göz kamaştırmaya hazır!
+Burada, 5. satırdan, 0. sütundan başlayıp sırasıyla 25. ve 10. satırlara kadar uzanan bir sütun grafiği ekledik. Hepsi göz kamaştırmaya hazır!
 
 ## Adım 5: Grafik Örneğine Erişim
 
@@ -103,7 +103,7 @@ Yeni grafiğinizle çalışmak için, endeksini kullanarak erişin:
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Artık grafiğinizi doğrudan düzenleme ve geliştirme olanağına sahipsiniz!
+Artık grafiğinizi doğrudan değiştirme ve geliştirme olanağına sahipsiniz!
 
 ## Adım 6: Verileri Grafiğe Bağlayın
 
@@ -174,4 +174,4 @@ Evet! Aspose.Cells, Java, Python ve Cloud gibi farklı platformlar için kütüp
  Aspose.Cells topluluğundan ve forumlarından yardım ve destek alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
 
 ### Lisansı nasıl satın alabilirim?
-Lisansı doğrudan Aspose web sitesinden satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ Lisansı doğrudan Aspose web sitesinden satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

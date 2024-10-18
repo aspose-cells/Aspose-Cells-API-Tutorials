@@ -33,7 +33,7 @@ Bây giờ chúng ta đã nắm được những điều cần thiết, hãy chu
 
 ## Bước 1: Khởi tạo một Workbook
 
- Bước đầu tiên trong quá trình này là tạo ra một`Workbook` đối tượng, sẽ đại diện cho tệp Excel mà bạn muốn sửa đổi. Trong trường hợp này, chúng ta sẽ tải tệp từ một thư mục. Đây là canvas của bạn, bảng tính Excel mà bạn sẽ thực hiện phép thuật của mình.
+ Bước đầu tiên trong quá trình này là tạo ra một`Workbook` đối tượng, sẽ đại diện cho tệp Excel mà bạn muốn sửa đổi. Trong trường hợp này, chúng ta sẽ tải tệp từ một thư mục. Đây là canvas của bạn, trang tính Excel mà bạn sẽ thực hiện phép thuật của mình.
 
 Trước khi chúng ta có thể chia khung, chúng ta cần một sổ làm việc để làm việc! Bước này cũng quan trọng như việc mở một cuốn sách trước khi bạn bắt đầu đọc nó.
 
@@ -45,7 +45,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Trong đoạn mã trên, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được đặt.`Workbook`lớp tải tệp Excel vào bộ nhớ.
+ Trong đoạn mã trên, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được lưu trữ.`Workbook`lớp tải tệp Excel vào bộ nhớ.
 
 ## Bước 2: Thiết lập ô đang hoạt động
 
@@ -60,7 +60,7 @@ book.Worksheets[0].ActiveCell = "A20";
 
  Đoạn mã này làm cho`A20` ô đang hoạt động. Điều này quan trọng vì quá trình phân tách diễn ra xung quanh điểm này, giống như cách điều hướng trong Excel thường tập trung vào một ô cụ thể.
 
-## Bước 3: Chia nhỏ trang tính
+## Bước 3: Chia nhỏ bảng tính
 
 Bây giờ ô đang hoạt động đã được thiết lập, hãy chuyển sang phần thú vị—chia trang tính! Đây là bước mà phép thuật xảy ra. Bạn sẽ có thể chia trang tính thành nhiều ngăn để xem và điều hướng dễ dàng hơn.
 
@@ -102,7 +102,7 @@ Tách ngăn cho phép bạn cuộn trong cả hai ngăn một cách độc lập
 Có, bạn có thể xóa phần chia tách bằng cách đóng và mở lại sổ làm việc hoặc thiết lập lại sổ làm việc theo chương trình.
 
 ### Tính năng chia khung có hoạt động giống nhau đối với các định dạng tệp Excel khác nhau (XLS, XLSX) không?  
- Vâng,`Split()` Phương pháp này áp dụng cho cả định dạng XLS và XLSX.
+ Vâng,`Split()` Phương pháp này áp dụng được cho cả định dạng XLS và XLSX.
 
 ### Tôi có thể sử dụng Aspose.Cells mà không cần giấy phép không?  
  Có, nhưng nó đi kèm với những hạn chế. Để có trải nghiệm đầy đủ, tốt nhất là sử dụng[tạm thời](https://purchase.aspose.com/temporary-license/) hoặc[giấy phép trả phí](https://purchase.aspose.com/buy).

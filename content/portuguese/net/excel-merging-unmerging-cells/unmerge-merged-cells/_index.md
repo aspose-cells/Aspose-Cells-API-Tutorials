@@ -1,7 +1,7 @@
 ---
 title: Desfazer mesclagem de células mescladas no Excel
 linktitle: Desfazer mesclagem de células mescladas no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Desfaça facilmente a mesclagem de células mescladas no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo para criar planilhas melhores.
 type: docs
 weight: 10
@@ -121,7 +121,7 @@ Por fim, é uma boa ideia confirmar se tudo ocorreu bem. Você pode imprimir uma
 Console.WriteLine("UnMerging the Cells executed successfully.");
 ```
 
-E aí está! Você desmesclou células com sucesso em um arquivo Excel usando Aspose.Cells for .NET.
+E aí está! Você desmesclou células com sucesso em um arquivo Excel usando Aspose.Cells para .NET.
 
 ## Conclusão
 

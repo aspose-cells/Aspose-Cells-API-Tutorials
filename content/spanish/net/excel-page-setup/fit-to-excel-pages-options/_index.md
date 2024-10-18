@@ -9,7 +9,7 @@ url: /es/net/excel-page-setup/fit-to-excel-pages-options/
 ---
 ## Introducción
 
-¡Bienvenido a la guía definitiva sobre cómo utilizar la potente biblioteca Aspose.Cells para .NET! Si alguna vez se ha sentido frustrado por no saber cómo ajustar sus hojas de cálculo de Excel para que quepan perfectamente en las páginas, no está solo. En el dinámico mundo de la manipulación de archivos de Excel, garantizar que sus datos estén bien presentados puede ser un desafío. Hoy, profundizaremos en la función "Opciones de ajuste a páginas de Excel". ¡Así que tome su computadora portátil y comencemos!
+¡Bienvenido a la guía definitiva sobre cómo utilizar la potente biblioteca Aspose.Cells para .NET! Si alguna vez se ha sentido frustrado por no saber cómo ajustar sus hojas de cálculo de Excel para que se ajusten perfectamente a las páginas, no está solo. En el dinámico mundo de la manipulación de archivos de Excel, garantizar que sus datos estén bien presentados puede ser un desafío. Hoy, profundizaremos en la función "Opciones de ajuste a páginas de Excel". ¡Así que tome su computadora portátil y comencemos!
 
 ## Prerrequisitos
 
@@ -17,7 +17,7 @@ Antes de comenzar a codificar, asegurémonos de que tienes todo lo que necesitas
 
 1. Visual Studio: Asegúrate de tener Visual Studio instalado en tu equipo. Este es el centro principal para todo el trabajo de desarrollo.
 2. Aspose.Cells para .NET: Debe tener la biblioteca Aspose.Cells descargada y agregada a su proyecto. Puede obtenerla fácilmente desde[Sitio web de Aspose](https://releases.aspose.com/cells/net/).
-3. Conocimientos básicos de C#: conocer la programación en C# será de gran ayuda. Si sabe manejar variables, bucles y operaciones básicas de entrada y salida de archivos, se sentirá como en casa.
+3. Conocimientos básicos de C#: la familiaridad con la programación en C# será de gran ayuda. Si puede manejar variables, bucles y operaciones básicas de E/S de archivos, se sentirá como en casa.
 4. .NET Framework: asegúrese de que su proyecto esté configurado con la versión adecuada de .NET Framework, ya que la biblioteca está diseñada para ser compatible con este ecosistema.
 
 ¿Ya tienes todo listo? ¡Genial! ¡Pasemos a la parte divertida!
@@ -54,9 +54,9 @@ En primer lugar, inicialicemos nuestro Workbook y accedamos a la hoja de cálcul
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
-//Acceder a la primera hoja de cálculo del archivo Excel
+// Acceder a la primera hoja de cálculo del archivo Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## Conclusión
 
-¡Y ya está! Aprendió a utilizar las opciones de Ajustar a páginas de Excel en Aspose.Cells para .NET para garantizar que sus hojas de cálculo se vean impecables al imprimirlas o compartirlas. Dominar estas técnicas puede optimizar sus presentaciones de datos y mejorar su eficiencia general al trabajar con documentos de Excel. Recuerde que el poder de Aspose.Cells le permite ampliar los límites de lo que es posible en la automatización de Excel. 
+¡Y ya está! Aprendió a utilizar las opciones de Ajustar a páginas de Excel en Aspose.Cells para .NET para garantizar que sus hojas de cálculo se vean impecables al imprimirlas o compartirlas. Dominar estas técnicas puede optimizar sus presentaciones de datos y mejorar su eficiencia general al trabajar con documentos de Excel. Recuerde, el poder de Aspose.Cells le permite ampliar los límites de lo que es posible en la automatización de Excel. 
 
 ## Preguntas frecuentes
 

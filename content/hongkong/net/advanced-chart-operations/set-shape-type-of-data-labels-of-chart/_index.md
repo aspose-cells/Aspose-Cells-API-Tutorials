@@ -132,7 +132,7 @@ wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
 ```
 
-看到該訊息後，請前往輸出目錄以檢查新的 Excel 檔案。打開它並使用新形狀的數據標籤釋放您的創造力！
+看到該訊息後，請前往輸出目錄以檢查新的 Excel 檔案。打開它，用新形狀的數據標籤釋放您的創造力！
 
 ## 結論
 

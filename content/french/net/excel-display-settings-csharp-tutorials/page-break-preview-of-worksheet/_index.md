@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Étape 3 : instancier le classeur
 
 ```csharp
-//Instanciation d'un objet Workbook
+// Instanciation d'un objet Workbook
 // Ouverture du fichier Excel via le flux de fichiers
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Étape 4 : Accéder à la feuille de travail
 
 ```csharp
-//Accéder à la première feuille de calcul du fichier Excel
+// Accéder à la première feuille de calcul du fichier Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -87,7 +87,7 @@ Ici, nous accédons à la première feuille de calcul de votre classeur à l'aid
 worksheet.IsPageBreakPreview = true;
 ```
 
-Cette étape cruciale permet d'activer le mode d'aperçu des sauts de page pour la feuille de calcul. Vous verrez comment cela affecte la mise en page et le formatage d'impression lorsque vous ouvrirez le fichier ultérieurement.
+Cette étape cruciale active le mode d'aperçu des sauts de page pour la feuille de calcul. Vous verrez comment cela affecte la mise en page et le formatage d'impression lorsque vous ouvrirez le fichier ultérieurement.
 
 ## Étape 6 : Enregistrer le classeur
 

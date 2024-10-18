@@ -43,7 +43,7 @@ Przede wszystkim musisz utworzyć zmienną, która będzie zawierać ścieżkę 
 string dataDir = "Your Document Directory"; // Podaj tutaj swój katalog
 ```
 
-Wyjaśnienie: Ta linia inicjuje`dataDir` zmienna. Powinieneś zastąpić`"Your Document Directory"` z rzeczywistą ścieżką na twoim komputerze, gdzie chcesz zapisać plik Excela. Pomyśl o tym jako o ustawieniu sceny, na której twoje arcydzieło będzie wyświetlane!
+ Wyjaśnienie: Ta linia inicjuje`dataDir` zmienna. Powinieneś zastąpić`"Your Document Directory"` z rzeczywistą ścieżką na twoim komputerze, gdzie chcesz zapisać plik Excela. Pomyśl o tym jako o ustawieniu sceny, na której twoje arcydzieło będzie wyświetlane!
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -53,9 +53,9 @@ Następnie utworzymy wystąpienie skoroszytu. To tak, jakby otworzyć nowe puste
 Workbook workbook = new Workbook();
 ```
 
- Wyjaśnienie:`Workbook` Klasa reprezentuje plik Excel. Tworząc go, zasadniczo tworzysz nowy dokument Excel, którym możesz manipulować.
+Wyjaśnienie:`Workbook` Klasa reprezentuje plik Excel. Tworząc go, zasadniczo tworzysz nowy dokument Excel, którym możesz manipulować.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Przejdźmy teraz do pierwszego arkusza w skoroszycie. Zazwyczaj pracujemy z arkuszami, aby sformatować nasze zakresy.
 
@@ -77,10 +77,10 @@ Wyjaśnienie: Ta metoda tworzy zakres zaczynający się od wiersza 1, kolumny 1 
 
 ## Krok 5: Nadaj nazwę zakresowi
 
-Choć nie jest to konieczne, nadanie nazwy zakresowi może ułatwić późniejsze odwołanie się do niego, zwłaszcza gdy arkusz kalkulacyjny staje się skomplikowany.
+Choć nie jest to konieczne, nadanie nazwy zakresowi ułatwi późniejsze odwołanie się do niego, zwłaszcza gdy arkusz kalkulacyjny staje się skomplikowany.
 
 ```csharp
-range.Name = "MyRange"; // Nadaj zakresowi nazwę
+range.Name = "MyRange"; // Przypisz nazwę do zakresu
 ```
 
 Wyjaśnienie: Nadanie nazwy asortymentowi jest jak naklejenie etykiety na słoik — dzięki temu łatwiej zapamiętasz, co jest w środku!
@@ -102,7 +102,7 @@ Następnie określimy właściwości czcionki dla naszych komórek.
 
 ```csharp
 stl.Font.Name = "Arial"; // Ustaw czcionkę na Arial
-stl.Font.IsBold = true; //Pogrub czcionkę
+stl.Font.IsBold = true; // Pogrub czcionkę
 ```
 
 Wyjaśnienie: Tutaj definiujemy, że chcemy użyć „Arial” jako czcionki i pogrubić ją. Pomyśl o tym jako o nadaniu tekstowi siły!
@@ -119,7 +119,7 @@ Wyjaśnienie: Ta linia ustawia kolor czcionki tekstu w naszym zdefiniowanym zakr
 
 ## Krok 9: Ustaw kolor wypełnienia dla zakresu
 
-Następnie dodamy do naszego zakresu wypełnienie tłem, aby jeszcze bardziej go wyróżnić.
+Następnie dodamy tło do naszego zakresu, aby jeszcze bardziej go wyróżnić.
 
 ```csharp
 stl.ForegroundColor = Color.Yellow; // Ustaw kolor wypełnienia
@@ -134,11 +134,11 @@ Wyjaśnienie: Wypełniamy zakres jaskrawożółtym kolorem! Solidny wzór zapewn
 
 ```csharp
 StyleFlag flg = new StyleFlag();
-flg.Font = true; //Włącz atrybuty czcionek
+flg.Font = true; // Włącz atrybuty czcionek
 flg.CellShading = true; // Włącz cieniowanie komórek
 ```
 
- Wyjaśnienie:`StyleFlag` obiekt informuje bibliotekę, jakie właściwości stylu chcemy zastosować — trochę jak odznaczanie pól na liście rzeczy do zrobienia!
+Wyjaśnienie:`StyleFlag` obiekt informuje bibliotekę, jakie właściwości stylu chcemy zastosować — trochę jak odznaczanie pól na liście rzeczy do zrobienia!
 
 ## Krok 11: Zastosuj styl do zakresu
 
@@ -152,7 +152,7 @@ Wyjaśnienie: Ta linia przyjmuje nasz zdefiniowany styl i stosuje go do określo
 
 ## Krok 12: Zapisz plik Excel
 
-Na koniec, co nie mniej ważne, chcemy zapisać naszą pracę. 
+Na koniec chcemy zapisać naszą pracę. 
 
 ```csharp
 workbook.Save(dataDir + "outputFormatRanges1.xlsx"); // Zapisz skoroszyt w określonym katalogu
@@ -172,17 +172,17 @@ Wyjaśnienie: Ten wiersz drukuje wiadomość na konsoli, wskazując, że nasz pr
 
 ## Wniosek
 
-W tym samouczku przeprowadziliśmy przez kroki formatowania zakresów w programie Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy chcesz, aby Twoje dane miały pogrubiony tekst, żywe kolory lub podstawową strukturę w zakresach, ta biblioteka Ci to zapewni. Po prostu możesz przekształcić swoje dane z nudnych w wspaniałe za pomocą kilku linijek kodu!
+W tym samouczku przeprowadziliśmy przez kroki formatowania zakresów w programie Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy chcesz, aby Twoje dane miały pogrubiony tekst, żywe kolory lub podstawową strukturę w zakresach, ta biblioteka ma wszystko, czego potrzebujesz. Po prostu możesz przekształcić swoje dane z nudnych w wspaniałe za pomocą kilku linijek kodu!
 
- Kontynuując swoją podróż programistyczną, nie wahaj się odkrywać więcej funkcji Aspose.Cells, ponieważ oferuje on mnóstwo funkcjonalności do pracy z plikami Excel. Aby dowiedzieć się więcej, sprawdź[dokumentacja](https://reference.aspose.com/cells/net/) aby odblokować nowy potencjał w Twoich projektach rozwojowych!
+Kontynuując swoją podróż programistyczną, nie wahaj się odkrywać więcej funkcji Aspose.Cells, ponieważ oferuje on mnóstwo funkcjonalności do pracy z plikami Excel. Aby dowiedzieć się więcej, sprawdź[dokumentacja](https://reference.aspose.com/cells/net/) aby odblokować nowy potencjał w Twoich projektach rozwojowych!
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to zaawansowana biblioteka dla platformy .NET, która umożliwia programistom bezproblemowe manipulowanie plikami Excel — idealna do programowego tworzenia i edytowania arkuszy kalkulacyjnych.
+Aspose.Cells to zaawansowana biblioteka dla platformy .NET, która umożliwia programistom bezproblemowe manipulowanie plikami programu Excel — idealna do programowego tworzenia i edytowania arkuszy kalkulacyjnych.
 
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak! Aspose oferuje bezpłatną wersję próbną. Możesz zacząć korzystać z biblioteki i przetestować jej funkcje przed dokonaniem zakupu. Sprawdź[bezpłatny okres próbny](https://releases.aspose.com/).
+ Tak! Aspose oferuje bezpłatną wersję próbną. Możesz zacząć korzystać z biblioteki i przetestować jej funkcje przed dokonaniem zakupu. Sprawdź[bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Jak zastosować wiele stylów do zakresu w programie Excel?
  Możesz utworzyć wiele`Style` obiekty i zastosuj każdy z nich za pomocą`ApplyStyle` metoda z ich odpowiednimi`StyleFlag`.

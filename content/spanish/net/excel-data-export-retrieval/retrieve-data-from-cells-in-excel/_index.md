@@ -36,7 +36,7 @@ Una vez que hayas importado estos espacios de nombres, ya estás listo para come
 
 ## Paso 1: Configurar el directorio de documentos
 
-El primer paso es definir la ruta al directorio de documentos donde se encuentra el archivo de Excel. Esto es crucial porque le indica a la aplicación dónde encontrar el archivo con el que desea trabajar.
+El primer paso es definir la ruta al directorio de documentos donde se encuentra el archivo de Excel. Esto es fundamental porque le indica a la aplicación dónde encontrar el archivo con el que desea trabajar.
 
 
 ```csharp
@@ -56,7 +56,7 @@ Ahora que tiene configurado el directorio de documentos, el siguiente paso es ab
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Aquí creamos un`Workbook`objeto pasando la ruta completa del archivo de Excel. Este paso inicializa el libro de trabajo y lo prepara para la recuperación de datos.
+ Aquí creamos un`Workbook` objeto pasando la ruta completa del archivo de Excel. Este paso inicializa el libro de trabajo y lo prepara para la recuperación de datos.
 
 ## Paso 3: Acceda a la primera hoja de trabajo
 
@@ -68,7 +68,7 @@ Después de abrir el libro de trabajo, deberá acceder a la hoja de trabajo espe
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- El`Worksheets` La colección le permite acceder a diferentes hojas del libro de trabajo. El índice`[0]` Se refiere a la primera hoja de cálculo. Si desea acceder a las hojas subsiguientes, puede cambiar el índice en consecuencia.
+ El`Worksheets` La colección le permite acceder a diferentes hojas del libro de trabajo. El índice`[0]`Se refiere a la primera hoja de cálculo. Si desea acceder a las hojas subsiguientes, puede cambiar el índice en consecuencia.
 
 ## Paso 4: Recorrer las celdas
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Evaluación del tipo de datos de la celda para el valor de fecha/hora
+        // Evaluación del tipo de datos de la celda para el valor de fecha/hora
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- En este paso, recorremos cada celda de la hoja de cálculo. Para cada celda, verificamos su tipo de datos utilizando un`switch` Declaración. Según el tipo, recuperamos el valor y lo imprimimos en la consola. A continuación, se muestra un desglose de los casos:
+ En este paso, recorremos cada celda de la hoja de cálculo. Para cada celda, verificamos su tipo de datos utilizando un`switch`Declaración. Según el tipo, recuperamos el valor y lo imprimimos en la consola. A continuación, se muestra un desglose de los casos:
 
 -  IsString: Si la celda contiene una cadena, la recuperamos usando`StringValue`.
 -  IsNumeric: Para valores numéricos, utilizamos`DoubleValue`.
@@ -140,10 +140,10 @@ Recuperar datos de celdas de Excel con Aspose.Cells para .NET es un proceso senc
 ## Preguntas frecuentes
 
 ### ¿Qué es Aspose.Cells?  
-Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, manipular y convertir archivos Excel sin necesidad de tener instalado Microsoft Excel.
+Aspose.Cells es una biblioteca .NET que permite a los desarrolladores crear, manipular y convertir archivos de Excel sin necesidad de tener instalado Microsoft Excel.
 
 ### ¿Puedo utilizar Aspose.Cells gratis?  
- Sí, Aspose.Cells ofrece una versión de prueba gratuita que puedes usar para probar sus funciones. Puedes descargarla[aquí](https://releases.aspose.com/).
+Sí, Aspose.Cells ofrece una versión de prueba gratuita que puedes usar para probar sus funciones. Puedes descargarla[aquí](https://releases.aspose.com/).
 
 ### ¿Qué tipos de datos puedo recuperar de las celdas de Excel?  
 Puede recuperar varios tipos de datos, incluidas cadenas, números, valores booleanos y valores de fecha y hora.

@@ -9,7 +9,7 @@ url: /vi/net/manipulating-chart-types/create-line-chart/
 ---
 ## Giới thiệu
 
-Bạn đã sẵn sàng để trực quan hóa dữ liệu của mình một cách rõ nét chưa? Biểu đồ đường là một cách tuyệt vời để hiển thị xu hướng theo thời gian hoặc mối quan hệ giữa hai biến. Cho dù bạn đang quản lý dữ liệu cho một dự án kinh doanh hay phân tích số liệu cá nhân, khả năng tạo biểu đồ đường theo chương trình có thể giúp bạn tiết kiệm thời gian và cho phép linh hoạt hơn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước tạo biểu đồ đường bằng Aspose.Cells cho .NET. Bạn đã sẵn sàng để bắt đầu chưa? Hãy bắt đầu thôi!
+Bạn đã sẵn sàng để trực quan hóa dữ liệu của mình một cách rõ nét chưa? Biểu đồ đường là một cách tuyệt vời để hiển thị xu hướng theo thời gian hoặc mối quan hệ giữa hai biến. Cho dù bạn đang quản lý dữ liệu cho một dự án kinh doanh hay phân tích số liệu cá nhân, khả năng tạo biểu đồ đường theo chương trình có thể giúp bạn tiết kiệm thời gian và cho phép linh hoạt hơn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước tạo biểu đồ đường bằng Aspose.Cells cho .NET. Bạn đã sẵn sàng chưa? Hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
@@ -18,7 +18,7 @@ Trước khi đi sâu vào cách tạo biểu đồ đường, hãy đảm bảo
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình vì đây là một trong những IDE phổ biến nhất để phát triển .NET.
 2.  Thư viện Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn hiểu các ví dụ và đoạn mã tốt hơn.
-4. .NET Framework hoặc .NET Core: Thiết lập cơ bản của một trong hai nền tảng vì đây sẽ là nền tảng cho các ứng dụng của chúng ta.
+4. .NET Framework hoặc .NET Core: Thiết lập cơ bản của một trong hai nền tảng này vì đây sẽ là nền tảng cho các ứng dụng của chúng ta.
 
 Khi đã chuẩn bị xong những điều kiện tiên quyết này, bạn đã sẵn sàng để tạo biểu đồ!
 
@@ -57,7 +57,7 @@ string outputDir = "Your Output Directory";
 Tiếp theo, chúng ta cần tạo một phiên bản sổ làm việc mới. Hãy nghĩ về Sổ làm việc như một bức tranh nơi sự sáng tạo của bạn sẽ tuôn chảy. 
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 Dòng này khởi tạo một bảng tính mới sẽ lưu trữ toàn bộ dữ liệu và hình ảnh của bạn.

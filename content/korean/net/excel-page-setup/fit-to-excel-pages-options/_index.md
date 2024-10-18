@@ -9,7 +9,7 @@ url: /ko/net/excel-page-setup/fit-to-excel-pages-options/
 ---
 ## 소개
 
-강력한 Aspose.Cells for .NET 라이브러리를 활용하는 방법에 대한 완벽한 가이드에 오신 것을 환영합니다! Excel 워크시트를 페이지에 깔끔하게 맞추는 방법에 좌절한 적이 있다면, 당신만 그런 것은 아닙니다. Excel 파일 조작의 역동적인 세계에서 데이터를 잘 표현하는 것은 어려울 수 있습니다. 오늘은 "Excel 페이지 옵션에 맞춤" 기능에 대해 자세히 알아보겠습니다. 그러니 노트북을 들고 시작해 봅시다!
+강력한 Aspose.Cells for .NET 라이브러리를 활용하는 방법에 대한 완벽한 가이드에 오신 것을 환영합니다! Excel 워크시트를 페이지에 깔끔하게 맞추는 방법에 좌절한 적이 있다면, 당신만 그런 것은 아닙니다. Excel 파일 조작의 역동적인 세계에서 데이터를 잘 표현하는 것은 어려울 수 있습니다. 오늘은 "Excel 페이지에 맞춤 옵션" 기능에 대해 자세히 알아보겠습니다. 그러니 노트북을 들고 시작해 봅시다!
 
 ## 필수 조건
 
@@ -20,7 +20,7 @@ url: /ko/net/excel-page-setup/fit-to-excel-pages-options/
 3. 기본 C# 지식: C# 프로그래밍에 대한 지식이 엄청나게 도움이 될 것입니다. 변수, 루프, 기본 파일 I/O를 처리할 수 있다면, 바로 집에 있는 것과 같을 것입니다.
 4. .NET Framework: 라이브러리는 이 생태계 내에서의 호환성을 위해 설계되었으므로 프로젝트가 적절한 .NET Framework 버전으로 설정되었는지 확인하세요.
 
-다 준비하셨나요? 좋아요, 재밌는 부분으로 넘어가죠!
+다 준비됐어? 대단해, 재밌는 부분으로 넘어가자!
 
 ## 패키지 가져오기
 
@@ -54,9 +54,9 @@ Excel 페이지를 포맷할 준비가 되셨나요? 프로세스를 단계별�
 ```csharp
 // 문서 디렉토리의 경로입니다.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 Workbook workbook = new Workbook();
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -69,7 +69,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```csharp
 // 워크시트의 길이가 차지하는 페이지 수 설정
 worksheet.PageSetup.FitToPagesTall = 1;
-// 워크시트의 너비가 확장되는 페이지 수 설정
+// 워크시트의 너비가 차지하는 페이지 수 설정
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
@@ -78,7 +78,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 
 ## 3단계: 통합 문서 저장
 
-모든 것을 원하는 대로 설정한 후에는 통합 문서를 저장할 시간입니다.
+모든 것을 원하는 대로 설정했으면 이제 통합 문서를 저장할 시간입니다.
 
 ```csharp
 // 통합 문서를 저장합니다.
@@ -106,4 +106,4 @@ Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 관리하기 위한
  Aspose는 다른 사용자와 지원을 받고 문제를 논의할 수 있는 포럼을 제공합니다. 확인해 보세요[여기](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells에 대한 임시 라이센스를 얻을 수 있나요?
- 예, Aspose에서는 임시 라이선스에 대한 옵션을 제공하며 이를 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ 예, Aspose에서는 임시 라이선스 옵션을 제공하며 이를 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

@@ -13,7 +13,7 @@ Khi nói đến việc xử lý bảng tính trong các ứng dụng .NET, thư 
 
 ## Điều kiện tiên quyết 
 
-Trước khi đi sâu vào phần mã hóa, bạn cần chuẩn bị một số điều sau để có thể thực hiện hiệu quả:
+Trước khi đi sâu vào phần mã hóa, bạn cần chuẩn bị một số điều để có thể thực hiện hiệu quả:
 
 ### Studio trực quan
 Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và thực thi mã .NET của mình.

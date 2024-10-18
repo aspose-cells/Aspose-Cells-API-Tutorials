@@ -1,7 +1,7 @@
 ---
 title: อนุญาตให้ผู้ใช้แก้ไขช่วงในเวิร์กชีต Excel
 linktitle: อนุญาตให้ผู้ใช้แก้ไขช่วงในเวิร์กชีต Excel
-second_title: เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET
+second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
 description: อนุญาตให้ผู้ใช้แก้ไขช่วงเฉพาะในสเปรดชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับใน C#
 type: docs
 weight: 10
@@ -41,7 +41,7 @@ using Aspose.Cells;
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// สร้างไดเร็กทอรีหากยังไม่มีอยู่
+//สร้างไดเร็กทอรีหากยังไม่มีอยู่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);

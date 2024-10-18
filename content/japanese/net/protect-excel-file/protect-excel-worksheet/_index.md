@@ -2,7 +2,7 @@
 title: Excel ワークシートを保護する
 linktitle: Excel ワークシートを保護する
 second_title: Aspose.Cells for .NET API リファレンス
-description: Aspose.Cells for .NET を使用して Excel ワークシートを保護する方法をステップバイステップ ガイドで学習します。データが安全かつ簡単に管理できる状態を維持できるようにします。
+description: Aspose.Cells for .NET を使用して Excel ワークシートを保護する方法をステップバイステップ ガイドで学習します。データが安全かつ簡単に管理できるようにします。
 type: docs
 weight: 50
 url: /ja/net/protect-excel-file/protect-excel-worksheet/
@@ -97,7 +97,7 @@ excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## ステップ7: ファイルストリームを閉じる
 
-最後のステップは、見落とされがちなファイル ストリームを閉じることです。このアクションにより、アプリケーションが使用していたリソースが解放されます。
+最後のステップは、見落とされがちな、ファイル ストリームを閉じることです。このアクションにより、アプリケーションが使用していたリソースが解放されます。
 
 ```csharp
 fstream.Close();

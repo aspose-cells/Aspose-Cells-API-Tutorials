@@ -13,11 +13,11 @@ Als u met Excel-bestanden in .NET werkt, bent u wellicht situaties tegengekomen 
 
 ## Wachtwoordbeveiligde Excel-werkbladen ontgrendelen 
 
- Een van de meest voorkomende taken is het ontgrendelen van wachtwoordbeveiligde Excel-werkbladen. Met Aspose.Cells voor .NET kunt u dit naadloos bereiken. Het proces omvat een eenvoudige methode waarmee u het wachtwoord kunt opgeven (als u dat hebt) en het werkblad kunt ontgrendelen voor bewerking. Onze tutorial over[een met een wachtwoord beveiligd Excel-werkblad ontgrendelen](./unlock-password-protected-excel-worksheet/) verdeelt deze stappen, zodat zelfs beginners ze kunnen volgen. Aan het eind kunt u weer toegang krijgen tot uw essentiële gegevens zonder dat u er moeite voor hoeft te doen.
+ Een van de meest voorkomende taken is het ontgrendelen van wachtwoordbeveiligde Excel-werkbladen. Met Aspose.Cells voor .NET kunt u dit naadloos bereiken. Het proces omvat een eenvoudige methode waarmee u het wachtwoord kunt opgeven (als u dat hebt) en het werkblad kunt ontgrendelen voor bewerking. Onze tutorial over[een met een wachtwoord beveiligd Excel-werkblad ontgrendelen](./unlock-password-protected-excel-worksheet/) verdeelt deze stappen, zodat zelfs beginners ze kunnen volgen. Aan het eind kunt u weer toegang krijgen tot uw essentiële gegevens zonder dat u zich hoeft in te spannen.
 
-## Maak Excel-sheets eenvoudig vrij 
+## Maak Excel-bladen eenvoudig vrij 
 
- Als u werkt met Excel-sheets die alleen beveiligd zijn (zonder wachtwoord), kan het verwijderen van die beveiliging ook eenvoudig zijn. De gids over[beveiligde Excel-sheets ontgrendelen](./unlock-protected-excel-sheet/) begeleidt u stap voor stap door het proces. Zie het als een magische sleutel die de deur naar uw data opent. Zodra u dit onder de knie hebt, zult u zich afvragen hoe u ooit zonder hebt gewerkt!
+ Als u werkt met Excel-sheets die alleen beveiligd zijn (zonder wachtwoord), kan het verwijderen van die beveiliging ook eenvoudig zijn. De gids over[beveiligde Excel-sheets ontgrendelen](./unlock-protected-excel-sheet/) begeleidt u stap voor stap door het proces. Zie het als een magische sleutel die de deur naar uw data opent. Zodra u dit onder de knie hebt, vraagt u zich af hoe u ooit zonder hebt gewerkt!
 
 ## Krijg weer toegang tot uw gegevens 
 
@@ -29,6 +29,6 @@ Met deze tutorials leert u niet alleen hoe u Excel-sheets kunt ontgrendelen en d
 ## Zelfstudies 
 | Titel | Beschrijving |
 | --- | --- |
-| [Ontgrendel wachtwoordbeveiligd Excel-werkblad](./unlock-password-protected-excel-worksheet/) | Leer hoe u een wachtwoordbeveiligd Excel-spreadsheet ontgrendelt met Aspose.Cells voor .NET. Stapsgewijze tutorial in C#. |  
+| [Ontgrendel wachtwoordbeveiligd Excel-werkblad](./unlock-password-protected-excel-worksheet/) | Leer hoe u een met een wachtwoord beveiligd Excel-spreadsheet ontgrendelt met Aspose.Cells voor .NET. Stapsgewijze tutorial in C#. |  
 | [Ontgrendel een beveiligd Excel-blad](./unlock-protected-excel-sheet/) | Leer hoe u beveiligde Excel-bladen kunt ontgrendelen met Aspose.Cells voor .NET in deze beginnersvriendelijke, stapsgewijze zelfstudie.  |  
 | [Eenvoudige Excel-sheet beveiligen](./unprotect-simple-excel-sheet/) | Leer hoe u eenvoudig de beveiliging van Excel-sheets opheft met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Krijg in no time weer toegang tot uw gegevens. |  

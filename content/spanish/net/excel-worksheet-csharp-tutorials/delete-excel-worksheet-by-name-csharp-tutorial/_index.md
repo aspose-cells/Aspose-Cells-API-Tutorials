@@ -15,9 +15,9 @@ Al trabajar con archivos de Excel de forma programada, ya sea para generar infor
 
 Antes de comenzar, hay algunas cosas que deberá asegurarse de tener listas:
 
-1. Biblioteca Aspose.Cells para .NET: este es el componente principal que permite manipular archivos de Excel. Si aún no lo ha instalado, puede[Descárgalo desde aquí](https://releases.aspose.com/cells/net/).
+1.  Biblioteca Aspose.Cells para .NET: este es el componente principal que permite manipular archivos de Excel. Si aún no lo ha instalado, puede[Descárgalo desde aquí](https://releases.aspose.com/cells/net/).
 2. Entorno de desarrollo: debe tener configurado un entorno de desarrollo, preferiblemente Visual Studio, donde pueda escribir y ejecutar código C#.
-3. Comprensión básica de C#: si bien explicaré cada paso, tener una comprensión básica de C# te ayudará a seguir mejor.
+3. Comprensión básica de C#: si bien explicaré cada paso, tener una comprensión básica de C# lo ayudará a seguir mejor.
 4. Archivo de Excel: Debes tener un archivo de Excel creado (en este tutorial haremos referencia a "book1.xls"). Puedes crear un archivo simple con un par de hojas de cálculo para este propósito.
 
 ¡Una vez que tengas estos requisitos previos establecidos, estarás listo para comenzar con la codificación real!
@@ -33,7 +33,7 @@ using Aspose.Cells;
 
 ## Paso 1: Configuración del entorno
 
-Para comenzar, deberá configurar un flujo de archivos que permitirá al programa leer el archivo Excel.
+Para comenzar, deberá configurar un flujo de archivos que permitirá que el programa lea el archivo Excel.
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -58,7 +58,7 @@ Aquí, abrimos "book1.xls". Es fundamental que este archivo exista en el directo
  A continuación, deberá crear un`Workbook` objeto. Este objeto representa su archivo Excel y le permite manipular su contenido.
 
 ```csharp
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 // Abrir el archivo Excel a través del flujo de archivos
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Ahora, vayamos al meollo del asunto: eliminar una hoja de cálculo por su nombre
 workbook.Worksheets.RemoveAt("Sheet1");
 ```
 
-En este ejemplo, intentamos eliminar una hoja de cálculo denominada "Hoja1". Si esta hoja existe, se eliminará correctamente. Si no existe, se producirá una excepción, por lo que debe asegurarse de que el nombre coincida exactamente.
+En este ejemplo, intentamos eliminar una hoja de cálculo llamada "Hoja1". Si esta hoja existe, se eliminará correctamente. Si no existe, se producirá una excepción, por lo que debe asegurarse de que el nombre coincida exactamente.
 
 ## Paso 5: Guardar el libro de trabajo
 
@@ -96,7 +96,7 @@ Siéntase libre de jugar con otras características de la biblioteca Aspose.Cell
 ## Preguntas frecuentes
 
 ### ¿Aspose.Cells es de uso gratuito?
-Aspose.Cells ofrece una prueba gratuita, pero deberá comprar una licencia para continuar usándola. Puede obtener su prueba gratuita[aquí](https://releases.aspose.com/).
+ Aspose.Cells ofrece una prueba gratuita, pero deberá comprar una licencia para continuar usándola. Puede obtener su prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### ¿Puedo eliminar varias hojas de trabajo a la vez?
 Puede recorrer la colección de hojas de cálculo y eliminar varias hojas mediante un bucle. Solo asegúrese de administrar los índices correctamente.

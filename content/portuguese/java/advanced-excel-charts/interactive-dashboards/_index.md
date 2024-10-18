@@ -20,7 +20,7 @@ Antes de nos aprofundarmos nos detalhes, certifique-se de ter os seguintes pré-
 
 ## Configurando seu projeto
 
-Para começar, crie um novo projeto Java no seu Ambiente de Desenvolvimento Integrado (IDE) preferido e adicione a biblioteca Aspose.Cells para Java ao classpath do seu projeto.
+Para começar, crie um novo projeto Java no seu Ambiente de Desenvolvimento Integrado (IDE) preferido e adicione a biblioteca Aspose.Cells for Java ao classpath do seu projeto.
 
 ## Criando uma pasta de trabalho em branco
 
@@ -96,7 +96,7 @@ workbook.save("InteractiveDashboard.xlsx");
 
 ## Conclusão
 
-Parabéns! Você aprendeu a criar dashboards interativos usando Aspose.Cells para Java. Esta biblioteca poderosa permite que você crie visualizações de dados dinâmicas e envolventes, aprimorando seus processos de tomada de decisão. Experimente vários tipos de gráficos, opções de interatividade e elementos de design para criar dashboards personalizados para suas necessidades específicas.
+Parabéns! Você aprendeu a criar painéis interativos usando Aspose.Cells para Java. Esta biblioteca poderosa permite que você crie visualizações de dados dinâmicas e envolventes, aprimorando seus processos de tomada de decisão. Experimente vários tipos de gráficos, opções de interatividade e elementos de design para criar painéis personalizados para suas necessidades específicas.
 
 ## Perguntas frequentes
 
@@ -114,7 +114,7 @@ O número de elementos interativos que você pode adicionar ao seu painel é lim
 
 ### Posso exportar meu painel interativo para outros formatos, como PDF ou HTML?
 
-Sim, o Aspose.Cells para Java oferece a capacidade de exportar seu painel interativo para vários formatos, incluindo PDF e HTML, tornando-o acessível a um público maior.
+Sim, o Aspose.Cells para Java oferece a capacidade de exportar seu painel interativo para vários formatos, incluindo PDF e HTML, tornando-o acessível a um público mais amplo.
 
 ### O Aspose.Cells para Java é adequado para projetos de visualização de dados em larga escala?
 

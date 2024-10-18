@@ -18,7 +18,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte vše, co je po
 1. Nainstalované Visual Studio: K psaní a spouštění kódu .NET budete potřebovat IDE, jako je Visual Studio.
 2. .NET Framework: Tento kurz předpokládá, že používáte rozhraní .NET Framework 4.0 nebo novější. Aspose.Cells je však kompatibilní také s .NET Core.
 3.  Knihovna Aspose.Cells: Pokud jste to ještě neudělali, stáhněte si knihovnu z webu Aspose[zde](https://releases.aspose.com/cells/net/) . Můžete také začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
-4.  Vzorový soubor Excel: Budeme používat vzorový soubor Excel s názvem`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Ujistěte se, že máte tento soubor připravený ve svém pracovním adresáři.
+4. Vzorový soubor Excel: Budeme používat vzorový soubor Excel s názvem`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Ujistěte se, že máte tento soubor připravený ve svém pracovním adresáři.
 
 ## Importujte balíčky
 
@@ -62,7 +62,7 @@ Nyní jste připraveni začít manipulovat s naším souborem Excel!
 Než načteme soubor Excel, nastavíme výstupní a zdrojový adresář. To nám umožní určit, kde jsou naše soubory uloženy.
 
 ```csharp
-// Výstupní adresář – kam se uloží PDF
+//Výstupní adresář – kam se uloží PDF
 string outputDir = "Your Output Directory"; // zde zadejte svůj výstupní adresář
 
 // Zdrojový adresář – kde se nachází vzorový soubor Excel
@@ -108,7 +108,7 @@ V Excelu je jednou z klíčových funkcí grafů zpracování automatických jed
 
 ```csharp
 // Nastavte hlavní jednotku pro osu Y
-ch.AxisY.MajorUnit = 10; // Můžete nastavit podle vašeho požadavku
+ch.AxisY.MajorUnit = 10; //Můžete nastavit podle vašeho požadavku
 ```
 
 Pojďme nyní aktualizovat automatické jednotky!
@@ -151,4 +151,4 @@ Jen knihovna Aspose.Cells a .NET Framework nainstalované na vašem počítači.
 Absolutně! Aspose.Cells podporuje různé formáty, jako je XLSX, HTML a obrázky.
 
 ### Kde najdu podporu, pokud narazím na problémy?
-Můžete požádat o pomoc komunitu Aspose[zde](https://forum.aspose.com/c/cells/9).
+ Můžete požádat o pomoc komunitu Aspose[zde](https://forum.aspose.com/c/cells/9).

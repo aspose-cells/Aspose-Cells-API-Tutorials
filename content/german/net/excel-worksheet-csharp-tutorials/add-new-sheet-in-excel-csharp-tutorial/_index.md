@@ -15,7 +15,7 @@ Mussten Sie schon einmal programmgesteuert ein neues Blatt zu einer Excel-Datei 
 
 Bevor wir mit der Codierung beginnen, stellen wir sicher, dass Sie alles haben, was Sie für dieses Projekt benötigen:
 
-1.  Visual Studio: Stellen Sie sicher, dass Sie Visual Studio installiert haben. Wenn Sie es noch nicht haben, können Sie es von der[Microsoft-Website](https://visualstudio.microsoft.com/).
+1.  Visual Studio: Stellen Sie sicher, dass Visual Studio installiert ist. Wenn Sie es noch nicht haben, können Sie es von der[Microsoft-Website](https://visualstudio.microsoft.com/).
 2.  Aspose.Cells-Bibliothek: Sie benötigen die Aspose.Cells-Bibliothek für .NET. Sie können[Laden Sie es hier herunter](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Stellen Sie sicher, dass Ihr Projekt für eine kompatible Version des .NET Frameworks eingerichtet ist (normalerweise funktioniert .NET Framework 4.0 oder höher gut).
 4. Grundlegende C#-Kenntnisse: Vertrautheit mit C# und objektorientierter Programmierung hilft Ihnen, den Code besser zu verstehen.
@@ -49,7 +49,7 @@ Zunächst müssen Sie sicherstellen, dass Sie einen sicheren Ort zum Speichern I
 ```csharp
 // Der Pfad zum Dokumentverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
+//Erstellen Sie ein Verzeichnis, falls es noch nicht vorhanden ist.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,7 +62,7 @@ Im obigen Code deklarieren wir den Pfad, in dem unsere Excel-Datei gespeichert w
 Als Nächstes erstellen wir eine Instanz der Klasse Workbook. Diese Klasse ist das Rückgrat aller Excel-bezogenen Vorgänge, die Sie ausführen.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -77,21 +77,21 @@ Jetzt, da unsere Arbeitsmappe fertig ist, fügen wir das neue Blatt hinzu!
 int i = workbook.Worksheets.Add();
 ```
 
- Hier verwenden wir die`Add()` Methode der`Worksheets` Sammlung vorhanden innerhalb der`Workbook` Klasse. Die Methode gibt einen Index zurück (`i`des neu hinzugefügten Blattes. Es ist, als würden Sie Ihrem Notizbuch eine Seite hinzufügen – einfach und effizient!
+ Hier verwenden wir die`Add()` Methode der`Worksheets` Sammlung vorhanden innerhalb der`Workbook` Klasse. Die Methode gibt einen Index zurück (`i`) des neu hinzugefügten Blattes. Es ist, als würden Sie Ihrem Notizbuch eine Seite hinzufügen – einfach und effizient!
 
 ## Schritt 4: Benennen Sie Ihr neues Arbeitsblatt
 
 Was ist ein Blatt ohne Namen? Geben wir unserem neu erstellten Arbeitsblatt einen Namen zur einfachen Identifizierung.
 
 ```csharp
-// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindexes
+// Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
 Worksheet worksheet = workbook.Worksheets[i];
 
 // Festlegen des Namens des neu hinzugefügten Arbeitsblatts
 worksheet.Name = "My Worksheet";
 ```
 
- Sie erhalten einen Verweis auf das neu erstellte Blatt über dessen Index`i`. Dann setzen wir den Namen einfach auf „Mein Arbeitsblatt“. Es ist eine gute Praxis, Ihre Blätter auf diese Weise zu benennen, insbesondere wenn Sie mit größeren Excel-Dateien arbeiten, bei denen der Kontext entscheidend ist.
+ Einen Verweis auf das neu erstellte Blatt erhalten Sie über den Index`i`Dann setzen wir den Namen einfach auf „Mein Arbeitsblatt“. Es ist eine gute Praxis, Ihre Blätter auf diese Weise zu benennen, insbesondere wenn Sie mit größeren Excel-Dateien arbeiten, bei denen der Kontext entscheidend ist.
 
 ## Schritt 5: Speichern der Excel-Datei
 

@@ -23,7 +23,7 @@ Voordat we in de code duiken, moeten we ervoor zorgen dat je alles hebt wat je n
 
 ## Pakketten importeren
 
-Om te beginnen met werken met Aspose.Cells, moet u de benodigde namespaces importeren in uw C#-bestand. Dit geeft uw programma toegang tot de klassen en methoden die door de bibliotheek worden geleverd. Dit is hoe u dat doet:
+Om te beginnen met Aspose.Cells, moet u de benodigde namespaces importeren in uw C#-bestand. Dit geeft uw programma toegang tot de klassen en methoden die door de bibliotheek worden geleverd. Dit is hoe u dat doet:
 
 ```csharp
 using Aspose.Cells.WebExtensions;
@@ -42,7 +42,7 @@ string outputDir = "Your Document Directory";
 
 ## Stap 2: Maak een nieuwe werkmap
 
- Nu we onze output directory hebben, gaan we een nieuwe werkmap maken. De`Workbook` klasse is het startpunt voor het werken met Excel-bestanden.
+ Nu we onze output directory hebben, gaan we een nieuwe werkmap maken.`Workbook` klasse is het startpunt voor het werken met Excel-bestanden.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -79,7 +79,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
-In dit fragment maken we een eigenschap met de naam "MK32" met de huidige datum en tijd geformatteerd volgens ISO 8601. We hebben deze eigenschap nullable gemaakt door in te stellen`IsNillable` naar`true`.
+In dit fragment maken we een eigenschap met de naam "MK32" met de huidige datum en tijd, geformatteerd volgens ISO 8601. We hebben deze eigenschap nullable gemaakt door in te stellen`IsNillable` naar`true`.
 
 ## Stap 4: Sla de werkmap op
 

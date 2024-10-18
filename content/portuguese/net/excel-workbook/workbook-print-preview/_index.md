@@ -45,7 +45,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
-É como abrir a porta para um mundo totalmente novo de funcionalidades, onde você pode manipular arquivos do Excel sem esforço.
+Isso é como abrir a porta para um mundo totalmente novo de funcionalidades, onde você pode manipular arquivos do Excel sem esforço.
 
 Agora que temos tudo pronto, vamos mergulhar no processo passo a passo para criar uma visualização de impressão da pasta de trabalho usando o Aspose.Cells.
 
@@ -82,7 +82,7 @@ ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 
 ## Etapa 4: Crie a visualização de impressão da pasta de trabalho
 
-Agora é hora da mágica de verdade! Vamos gerar a pré-visualização de impressão da pasta de trabalho. Veja como:
+Agora é hora da verdadeira mágica! Vamos gerar a pré-visualização de impressão da pasta de trabalho. Veja como:
 
 ```csharp
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
@@ -109,7 +109,7 @@ SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0],
 Console.WriteLine("Worksheet page count: " + preview2.EvaluatedPageCount);
 ```
 
-Neste snippet, estamos buscando a primeira planilha e gerando sua visualização de impressão, semelhante a focar em um capítulo específico do seu livro. Isso nos dá o número de páginas para apenas aquela planilha.
+Neste snippet, estamos buscando a primeira planilha e gerando sua visualização de impressão, semelhante a focar em um capítulo específico do seu livro. Isso nos dá o número de páginas apenas para aquela planilha.
 
 ## Etapa 7: Mensagem de sucesso
 

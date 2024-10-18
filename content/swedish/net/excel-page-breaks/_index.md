@@ -14,12 +14,12 @@ Sidbrytningar är viktiga när det gäller att skriva ut Excel-filer. De hjälpe
 Visste du att du kan lägga till sidbrytningar programmatiskt och på så sätt spara massor av manuellt arbete? Detta kan helt förändra hur du förbereder dina kalkylblad för delning eller utskrift. Det är som att ha en trollstav som förvandlar kaotiska data till vackert arrangerade sidor!
 
 ## Steg-för-steg-guider
- Vår samling av handledningar bryter ner komplexa processer i små, lättförståeliga lektioner. Till exempel i handledningen om[Excel Lägg till sidbrytningar](./excel-add-page-breaks/), guidar vi dig genom varje steg med tydliga instruktioner. Du kommer inte bara att läsa teknisk jargong; du kommer faktiskt att följa med och tillämpa det du lär dig direkt i dina egna projekt. 
+ Vår samling av handledningar bryter ner komplexa processer i små, lättförståeliga lektioner. Till exempel i handledningen om[Excel Lägg till sidbrytningar](./excel-add-page-breaks/)guidar vi dig genom varje steg med tydliga instruktioner. Du kommer inte bara att läsa teknisk jargong; du kommer faktiskt att följa med och tillämpa det du lär dig direkt i dina egna projekt. 
 
  Behöver du rensa alla sidbrytningar? Inga problem! Kolla in vår guide på[Excel Rensa alla sidbrytningar](./excel-clear-all-page-breaks/), som erbjuder en enkel och effektiv process som alla kan bemästra. Allt handlar om att göra ditt arbetsflöde smidigare och snabbare.
 
 ## Anpassning till hands
-Vad händer om du bara vill ta bort vissa sidbrytningar? Det är där vår handledning om[Excel Ta bort specifik sidbrytning](./excel-remove-specific-page-break/) spelar in. Den är skräddarsydd för de ögonblick då du behöver exakt kontroll över din dokumentlayout. Med Aspose.Cells för .NET har du kraften att anpassa dina kalkylblad precis som du vill ha dem. 
+ Vad händer om du bara vill ta bort vissa sidbrytningar? Det är där vår handledning om[Excel Ta bort specifik sidbrytning](./excel-remove-specific-page-break/) spelar in. Den är skräddarsydd för de ögonblick då du behöver exakt kontroll över din dokumentlayout. Med Aspose.Cells för .NET har du kraften att anpassa dina kalkylblad precis som du vill ha dem. 
 
 ## Handledningar 
 | Titel | Beskrivning |

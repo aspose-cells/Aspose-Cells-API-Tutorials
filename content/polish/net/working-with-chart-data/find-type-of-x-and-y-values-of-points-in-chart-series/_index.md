@@ -19,7 +19,7 @@ Zanim przejdziesz do dalszych kroków, upewnij się, że masz przygotowane kilka
    
 2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
 
-3. Przykładowy plik Excela: Pobierz przykładowy plik Excela zawierający wykresy. W tym samouczku użyjemy pliku o nazwie`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Upewnij się, że znajduje się on w katalogu Twojego projektu.
+3.  Przykładowy plik Excela: Pobierz przykładowy plik Excela zawierający wykresy. W tym samouczku użyjemy pliku o nazwie`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Upewnij się, że znajduje się on w katalogu Twojego projektu.
 
 4. Podstawowa wiedza programistyczna: Znajomość programowania w języku C# pomoże Ci z łatwością nadążać za nauką.
 
@@ -56,11 +56,11 @@ Najpierw musisz zdefiniować katalog, w którym znajduje się plik Excel. Ustaw 
 string sourceDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"`ze ścieżką, pod którą zapisany jest plik Excel.
+ Zastępować`"Your Document Directory"` ze ścieżką, pod którą zapisany jest plik Excel.
 
 ## Krok 2: Załaduj skoroszyt
 
- Następnie załaduj plik Excel do`Workbook` obiekt. Pozwala to na dostęp do całej zawartości pliku.
+ Następnie załaduj plik Excel do`Workbook`obiekt. Pozwala to na dostęp do całej zawartości pliku.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -125,7 +125,7 @@ Dzięki temu przewodnikowi powinieneś być w stanie pomyślnie pobrać i zident
 Aspose.Cells to biblioteka .NET umożliwiająca programistom zarządzanie i manipulowanie plikami programu Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, Aspose oferuje bezpłatny okres próbny, podczas którego można zapoznać się z funkcjami Aspose.Cells.
+Tak, Aspose oferuje bezpłatny okres próbny, podczas którego możesz zapoznać się z funkcjami Aspose.Cells.
 
 ### Jakie typy wykresów mogę tworzyć za pomocą Aspose.Cells?
 Aspose.Cells obsługuje różne typy wykresów, w tym kolumnowe, słupkowe, liniowe, kołowe i inne.

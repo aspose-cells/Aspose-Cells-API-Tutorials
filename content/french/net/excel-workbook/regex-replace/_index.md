@@ -15,7 +15,7 @@ Vous en avez assez de passer des heures à apporter des modifications minutieuse
 
 Avant de passer aux détails du codage, assurons-nous que vous êtes bien équipé pour le voyage à venir.
 
-1. .NET Framework : assurez-vous de disposer d'un environnement .NET configuré. Qu'il s'agisse de .NET Core ou de .NET Framework, vous devriez pouvoir vous lancer.
+1. .NET Framework : assurez-vous de disposer d'un environnement .NET configuré. Qu'il s'agisse de .NET Core ou de .NET Framework, vous devriez être prêt à utiliser l'application.
 2.  Bibliothèque Aspose.Cells : cette bibliothèque est votre clé pour accéder à de puissantes manipulations de feuilles de calcul. Vous pouvez[téléchargez-le ici](https://releases.aspose.com/cells/net/).
 3. Un IDE : utilisez votre environnement de développement intégré (IDE) préféré comme Visual Studio, ce qui rendra votre expérience de codage beaucoup plus fluide.
 4. Connaissances de base en programmation : une connaissance de C# et des concepts d'expressions régulières sera bénéfique.
@@ -63,7 +63,7 @@ Maintenant que nous savons où se trouvent nos fichiers, chargeons le classeur (
 Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ```
 
- Ce que nous faisons ici est de créer une nouvelle instance du`Workbook` classe, en passant le chemin du fichier source au constructeur. Cela charge votre fichier Excel et le rend prêt à être édité !
+ Ce que nous faisons ici est de créer une nouvelle instance de`Workbook` classe, en passant le chemin du fichier source au constructeur. Cela charge votre fichier Excel et le rend prêt à être édité !
 
 ## Étape 3 : Configuration des options de remplacement
 
@@ -101,7 +101,7 @@ Vous avez réussi ! Il est maintenant temps d'enregistrer le classeur modifié 
 workbook.Save(outputDir + "RegexReplace_out.xlsx");
 ```
 
-Cette ligne enregistre votre classeur mis à jour dans le répertoire de sortie spécifié. C'est une conclusion satisfaisante au processus de manipulation !
+Cette ligne enregistre votre classeur mis à jour dans le répertoire de sortie spécifié. C'est une conclusion satisfaisante au processus de manipulation !
 
 ## Étape 6 : Confirmation de l'exécution
 
@@ -115,7 +115,7 @@ Avec cette dernière ligne, vous obtiendrez une confirmation sur votre console. 
 
 ## Conclusion
 
-Et voilà ! Vous avez appris avec succès à utiliser Aspose.Cells pour .NET pour effectuer des remplacements d'expressions régulières dans des fichiers Excel. En utilisant la puissance des expressions régulières, vous pouvez effectuer des modifications en masse sur vos feuilles de calcul de manière efficace et précise, ce qui vous laisse plus de temps pour vous concentrer sur les éléments importants. Alors, allez-y, essayez-le et transformez votre expérience Excel !
+Et voilà ! Vous avez appris avec succès à utiliser Aspose.Cells pour .NET pour effectuer des remplacements d'expressions régulières dans des fichiers Excel. En utilisant la puissance des expressions régulières, vous pouvez effectuer des modifications en masse sur vos feuilles de calcul de manière efficace et précise, ce qui vous laisse plus de temps pour vous concentrer sur les éléments importants. Alors, allez-y, essayez-le et transformez votre expérience Excel !
 
 ## FAQ 
 

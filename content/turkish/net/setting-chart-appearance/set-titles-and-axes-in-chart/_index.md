@@ -20,7 +20,7 @@ Adım adım eğitime dalmadan önce, başlamak için ihtiyacınız olan her şey
 3.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin ve kurun. Bunu şu adreste bulabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
 4. Temel C# Bilgisi: C# programlamaya aşina olmanız, konuyu daha rahat takip etmenize yardımcı olacaktır.
 
-Tüm bunları tamamladıktan sonra gerekli paketleri içe aktararak ilk Excel grafiğimizi oluşturmaya başlayalım!
+Tüm bunları tamamladıktan sonra, gerekli paketleri içe aktararak ilk Excel grafiğimizi oluşturmaya başlayalım!
 
 ## Paketleri İçe Aktar
 
@@ -36,7 +36,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-Bu ad alanlarını içe aktararak artık Aspose.Cells tarafından sağlanan sınıfları ve yöntemleri Excel dosyaları ve grafikleriyle çalışmak için kullanabiliriz.
+Bu ad alanlarını içe aktararak artık Aspose.Cells tarafından sağlanan sınıfları ve metotları Excel dosyaları ve grafikleriyle çalışmak için kullanabiliriz.
 
 Artık her şeyi ayarladığımıza göre, süreci yönetilebilir adımlara bölelim.
 
@@ -47,7 +47,7 @@ Bu adımda yeni bir çalışma kitabı örneği oluşturacağız.
 ```csharp
 //Çıktı dizini
 static string outputDir = "Your Document Directory";
-//Bir Çalışma Kitabı nesnesini örnekleme
+// Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 
@@ -111,7 +111,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Bu satır, grafiği örnek verilerimize bağlar, böylece bilgiyi nereden çekeceğini bilir. Grafiğin doğru bir şekilde işlenmesi için çok önemlidir.
+Bu satır, grafiği örnek verilerimizle ilişkilendirir, böylece bilgiyi nereden çekeceğini bilir. Grafiğin doğru bir şekilde işlenmesi için çok önemlidir.
 
 ## Adım 7: Grafik Renklerini Özelleştirin
 

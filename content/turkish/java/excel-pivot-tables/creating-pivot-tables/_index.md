@@ -15,7 +15,7 @@ Başlamadan önce, Aspose.Cells for Java kütüphanesinin yüklü olduğundan em
 
 ## Adım 1: Bir Çalışma Kitabı Oluşturun
 ```java
-// Gerekli sınıfları içe aktar
+// Gerekli sınıfları içe aktarın
 import com.aspose.cells.Workbook;
 
 // Yeni bir Çalışma Kitabı Oluştur
@@ -50,7 +50,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
 ```
 
 ## Adım 5: Pivot Tablosunu Yapılandırın
-Pivot Tabloyu satırlar, sütunlar ve değerler ekleyerek, filtreler ayarlayarak vb. yapılandırabilirsiniz.
+Pivot Tabloyu satırlar, sütunlar ve değerler ekleyerek, filtreler ayarlayarak ve daha fazlasını yaparak yapılandırabilirsiniz.
 
 ```java
 // Pivot Tablosunu Yapılandırın
@@ -69,7 +69,7 @@ pivotTable.calculateData();
 ```
 
 ## Adım 7: Çalışma Kitabını Kaydedin
-Son olarak Pivot Table ile çalışma kitabını kaydedin.
+Son olarak Pivot Tablo ile çalışma kitabını kaydedin.
 
 ```java
 // Çalışma kitabını kaydet

@@ -9,7 +9,7 @@ url: /hu/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 ---
 ## Bevezetés
 
-Sziasztok, Excel rajongók! Készen állsz, hogy belemerülj az XLSB fájlok és külső kapcsolatok lenyűgöző világába? Ha valaha is dolgozott Excellel, tudja, milyen hatékony és sokoldalú lehet, de néha megvannak a maga furcsaságai – különösen, ha külső adatbázisokhoz való kapcsolódásról van szó. Itt jön a segítség az Aspose.Cells for .NET! Ez a remek könyvtár lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben a cikkben lépésről lépésre végigvezetjük Önt egy XLSB-fájlban lévő külső kapcsolatok olvasásához és írásához.
+Sziasztok, Excel-rajongók! Készen állsz, hogy belemerülj az XLSB fájlok és külső kapcsolatok lenyűgöző világába? Ha valaha is dolgozott Excellel, tudja, milyen hatékony és sokoldalú lehet, de néha megvannak a maga furcsaságai – különösen, ha külső adatbázisokhoz való kapcsolódásról van szó. Itt jön a segítség az Aspose.Cells for .NET! Ez a remek könyvtár lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben a cikkben lépésről lépésre végigvezetjük Önt egy XLSB-fájlban lévő külső kapcsolatok olvasásához és írásához.
 
 ## Előfeltételek
 
@@ -24,7 +24,7 @@ Ha mindezen előfeltételek adottak, készen állunk, hogy belevágjunk a kódba
 
 ## Csomagok importálása
 
-Először is importáljuk a szükséges csomagokat a projektünkbe. Győződjön meg arról, hogy hozzáadott egy hivatkozást az Aspose.Cells-re a projektben. Ezt a következőképpen teheti meg C#-ban:
+Kezdésként importáljuk a szükséges csomagokat a projektünkbe. Győződjön meg arról, hogy hozzáadott egy hivatkozást az Aspose.Cells-re a projektben. Ezt a következőképpen teheti meg C#-ban:
 
 ```csharp
 using System;

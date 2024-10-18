@@ -1,7 +1,7 @@
 ---
 title: Adicionar imagem ao gráfico
 linktitle: Adicionar imagem ao gráfico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como adicionar facilmente imagens a gráficos do Excel usando o Aspose.Cells para .NET. Aprimore seus gráficos e apresentações em apenas algumas etapas simples.
 type: docs
 weight: 11
@@ -16,7 +16,7 @@ Você está cansado de gráficos chatos que não têm um toque pessoal? Quer apr
 Antes de começarmos a trabalhar nos detalhes da codificação, existem alguns pré-requisitos que você precisa ter para seguir adiante sem problemas:
 
 - Visual Studio: É aqui que você vai escrever e executar seu código .NET. Certifique-se de tê-lo instalado.
--  Aspose.Cells para .NET: Você precisará desta biblioteca para trabalhar com arquivos Excel. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
+- Aspose.Cells para .NET: Você precisará desta biblioteca para trabalhar com arquivos Excel. Você pode[baixe aqui](https://releases.aspose.com/cells/net/).
 - Noções básicas de C#: embora eu o oriente pelo código, entender os conceitos básicos de C# deixará as coisas mais claras.
 
 ### Etapas de instalação
@@ -81,10 +81,10 @@ Certifique-se de que a imagem foi salva no diretório especificado.
 
 ## Etapa 4: Direcione o gráfico
 
-Agora, vamos especificar em qual gráfico adicionaremos nossa imagem. Neste exemplo, vamos mirar no primeiro gráfico da primeira planilha.
+Agora, vamos especificar a qual gráfico adicionaremos nossa imagem. Neste exemplo, miraremos no primeiro gráfico da primeira planilha.
 
 ```csharp
-// Pegue o gráfico do designer na segunda folha.
+//Pegue o gráfico do designer na segunda folha.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
@@ -100,9 +100,9 @@ Com o gráfico selecionado, é hora de adicionar a imagem!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Aqui,`50` e`50` são as coordenadas X e Y onde a imagem será colocada, e`200` é a largura e a altura da imagem.
+ Aqui,`50` e`50` são as coordenadas X e Y onde a imagem será colocada e`200` é a largura e a altura da imagem.
 
-## Etapa 6: personalize o formato de linha da imagem
+## Etapa 6: personalize o formato da linha da imagem
 
 Quer dar um toque especial à sua imagem? Você pode personalizar a borda! Veja como fazer:
 
@@ -151,9 +151,9 @@ Neste tutorial, exploramos como injetar um pouco de personalidade em seus gráfi
 O Aspose.Cells suporta uma variedade de formatos de imagem, incluindo PNG, JPEG, BMP e GIF.
 
 ### Posso personalizar a posição da imagem?
-Certamente! As coordenadas X e Y no`AddPictureInChart` método permite posicionamento preciso.
+ Certamente! As coordenadas X e Y no`AddPictureInChart` método permite posicionamento preciso.
 
-### Aspose.Cells é gratuito?
+### O Aspose.Cells é gratuito?
  O Aspose.Cells oferece um teste gratuito, mas para recursos completos, é necessária uma licença. Você pode encontrar o preço[aqui](https://purchase.aspose.com/buy).
 
 ### Onde posso encontrar mais exemplos?

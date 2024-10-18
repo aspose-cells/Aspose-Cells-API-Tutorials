@@ -17,7 +17,7 @@ Hiç kendinizi bir Excel çalışma sayfasından kilitlenmiş, düzenlenemeyen v
 
 ### .NET Ortamı
 
-Çalışan bir .NET ortamına ihtiyacınız var. Henüz hazır değilseniz, Visual Studio'yu veya tercih ettiğiniz başka bir .NET IDE'yi yüklemeyi düşünün. 
+Çalışan bir .NET ortamına ihtiyacınız var. Henüz hazır değilseniz, Visual Studio'yu veya tercih ettiğiniz herhangi bir .NET IDE'yi yüklemeyi düşünün. 
 
 ### .NET için Aspose.Cells
 
@@ -25,7 +25,7 @@ Hiç kendinizi bir Excel çalışma sayfasından kilitlenmiş, düzenlenemeyen v
 
 ### Temel Kodlama Bilgisi
 
-C# veya VB.NET'te biraz temel programlama bilgisi çok işe yarayacaktır. Bunu başardıysanız, her şey tamamdır!
+C# veya VB.NET'te biraz temel programlama bilgisi çok işe yarayacaktır. Eğer bunu başardıysanız, her şey tamamdır!
 
 ## Paketleri İçe Aktar
 
@@ -70,7 +70,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- İpucu: Değiştir`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın (adını koyalım) bulunduğu gerçek yol ile`book1.xls`) yer almaktadır. 
+ İpucu: Değiştir`"YOUR DOCUMENT DIRECTORY"`Excel dosyanızın (adını koyalım) bulunduğu gerçek yol ile`book1.xls`) yer almaktadır. 
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -100,7 +100,7 @@ Burada, çalışma kitabımızdaki ilk çalışma sayfasına erişiyoruz. Çalı
 worksheet.Unprotect("");
 ```
 
- Çalışma sayfanız bir parola ile korunuyorsa ve parolayı biliyorsanız, boş dizeyi değiştirirsiniz`""`gerçek şifre ile. Eğer bilmiyorsanız, boş bırakın ve çalışıp çalışmadığını görmek için çalıştırın.
+ Çalışma sayfanız bir parola ile korunuyorsa ve parolayı biliyorsanız, boş dizeyi değiştirirsiniz`""` gerçek şifre ile. Eğer bilmiyorsanız, boş bırakın ve çalışıp çalışmadığını görmek için çalıştırın.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 
@@ -138,7 +138,7 @@ Evet, şifre alanını boş bırakarak şifreyi bilmeden korumalı bir sayfanın
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
  Aspose.Cells ücretsiz deneme sunuyor, ancak uzun süreli kullanım için bir lisans satın almanız gerekecek. Kontrol edin[Sayfayı satın al](https://purchase.aspose.com/buy).
 
-### Aspose.Cells hangi formatları destekler?  
+### Aspose.Cells hangi formatları destekliyor?  
 Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli Excel formatlarını destekler.
 
 ### Aspose.Cells'i nasıl kurarım?  

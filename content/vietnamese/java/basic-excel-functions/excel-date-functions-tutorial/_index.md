@@ -162,7 +162,7 @@ Có, bạn có thể thực hiện các phép tính ngày nâng cao với Aspose
 
 ### Aspose.Cells có phù hợp để xử lý dữ liệu quy mô lớn không?
 
-Aspose.Cells for Java phù hợp cho cả xử lý ngày tháng quy mô nhỏ và quy mô lớn. Nó cung cấp hiệu suất và độ tin cậy cao, khiến nó trở thành lựa chọn tuyệt vời để xử lý dữ liệu liên quan đến ngày tháng trong nhiều ứng dụng khác nhau.
+Aspose.Cells for Java phù hợp cho cả xử lý ngày quy mô nhỏ và lớn. Nó cung cấp hiệu suất và độ tin cậy cao, khiến nó trở thành lựa chọn tuyệt vời để xử lý dữ liệu liên quan đến ngày trong nhiều ứng dụng khác nhau.
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
 

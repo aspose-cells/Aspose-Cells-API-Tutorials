@@ -17,7 +17,7 @@ Innan du dyker in i koden, se till att du har allt förberett för en smidig seg
 
 1. Visual Studio: Ladda ner och installera Visual Studio om du inte redan har gjort det. Det är den perfekta miljön för att utveckla .NET-applikationer.
 2.  Aspose.Cells för .NET: Du måste lägga till Aspose.Cells-biblioteket i ditt projekt. Du kan ladda ner den via[denna länk](https://releases.aspose.com/cells/net/).
-3. Grundläggande kunskaper om C#: Även om vi kommer att förklara allt steg-för-steg, kommer en grundläggande förståelse av C#-programmering att ge dig ett bättre grepp om begreppen.
+3. Grundläggande kunskaper om C#: Även om vi kommer att förklara allt steg för steg, kommer en grundläggande förståelse av C#-programmering att ge dig ett bättre grepp om begreppen.
 4. .NET Framework: Se till att du har det nödvändiga .NET Framework installerat som är kompatibelt med Aspose.Cells.
 5. Bibliotek: Referera till Aspose.Cells-biblioteket i ditt projekt för att undvika kompileringsfel.
 
@@ -203,7 +203,7 @@ Datavalidering i Excel är en funktion som begränsar vilken typ av data som kan
 Ja! Du kan tillhandahålla anpassade felmeddelanden för att vägleda användare när felaktiga datainmatningar görs.
 
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells erbjuder en gratis provperiod, men du behöver en licens för långvarig användning. Du kan hitta mer information om hur du skaffar en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells erbjuder en gratis provperiod, men du behöver en licens för långvarig användning. Du kan hitta mer information om hur du skaffar en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### Vilka datatyper kan jag validera i Excel?
 Med Aspose.Cells kan du validera olika datatyper inklusive heltal, decimaler, datum, listor och anpassade formler.

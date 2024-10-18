@@ -116,7 +116,7 @@ ws1.Copy(ws0);
 Terakhir, mari simpan buku kerja yang baru kita buat:
 
 ```csharp
-// Simpan file excelnya
+// Simpan file excel
 excelWorkbook1.Save(dataDir + "CopyWorksheetFromWorkbookToOther_out.xls");
 ```
 Baris ini akan menyimpan buku kerja kedua Anda di jalur yang ditentukan. Jangan lupa untuk memeriksa apakah semuanya terlihat baik setelah Anda menjalankan kode Anda!
@@ -137,7 +137,7 @@ Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, mem
  Anda dapat meminta lisensi sementara dengan mengunjungi[tautan ini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells?  
-Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
+ Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
 
 ### Apakah ada dukungan yang tersedia untuk pengguna Aspose.Cells?  
  Tentu saja! Anda bisa mendapatkan dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).

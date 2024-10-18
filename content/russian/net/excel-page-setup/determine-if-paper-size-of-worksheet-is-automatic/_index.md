@@ -19,13 +19,13 @@ url: /ru/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 Хотя Aspose.Cells упрощает многие задачи, базовое понимание C# имеет решающее значение. Вы должны уметь читать и писать базовый код C#.
 
 ### Aspose.Cells для .NET
- Убедитесь, что в вашем проекте установлен Aspose.Cells. Вы можете загрузить его с[веб-сайт](https://releases.aspose.com/cells/net/) если вы еще этого не сделали.
+ Убедитесь, что в вашем проекте установлен Aspose.Cells. Его можно загрузить с[веб-сайт](https://releases.aspose.com/cells/net/) если вы еще этого не сделали.
 
 ### Среда разработки
 У вас должна быть настроена IDE, например Visual Studio. Это поможет вам эффективно обрабатывать и тестировать ваш код.
 
 ### Образцы файлов Excel
-Вам понадобятся образцы файлов (`samplePageSetupIsAutomaticPaperSize-False.xlsx` и`samplePageSetupIsAutomaticPaperSize-True.xlsx`) для целей тестирования. Убедитесь, что эти файлы находятся в исходном каталоге.
+Вам понадобятся файлы примеров (`samplePageSetupIsAutomaticPaperSize-False.xlsx` и`samplePageSetupIsAutomaticPaperSize-True.xlsx`) для целей тестирования. Убедитесь, что эти файлы находятся в исходном каталоге.
 
 ## Импортные пакеты
 
@@ -61,7 +61,7 @@ Workbook wb1 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-Fal
 Workbook wb2 = new Workbook(sourceDir + "samplePageSetupIsAutomaticPaperSize-True.xlsx");
 ```
 
-## Шаг 3: Доступ к первому рабочему листу
+## Шаг 3: Получите доступ к первому рабочему листу
 
 После загрузки рабочих книг пришло время получить доступ к первому листу каждой рабочей книги. Прелесть Aspose.Cells в том, что это до смешного просто:
 
@@ -74,7 +74,7 @@ Worksheet ws12 = wb2.Worksheets[0];
 
 ## Шаг 4: Проверьте настройку размера бумаги
 
- Теперь начинается самое интересное! Вам нужно проверить, является ли настройка размера бумаги автоматической для каждого рабочего листа. Это делается путем проверки`IsAutomaticPaperSize` собственность`PageSetup` класс. Используйте следующий фрагмент кода:
+ Теперь самое интересное! Вам нужно будет проверить, является ли настройка размера бумаги автоматической для каждого рабочего листа. Это делается путем проверки`IsAutomaticPaperSize` собственность`PageSetup` класс. Используйте следующий фрагмент кода:
 
 ```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
@@ -85,7 +85,7 @@ Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " 
 
 ## Шаг 5: Завершение
 
-Наконец, хорошей привычкой будет предоставление обратной связи о том, что ваш код выполнен успешно. Добавьте простое сообщение в конце вашего основного метода:
+Наконец, хорошей привычкой будет давать обратную связь о том, что ваш код выполнен успешно. Добавьте простое сообщение в конце вашего основного метода:
 
 ```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");

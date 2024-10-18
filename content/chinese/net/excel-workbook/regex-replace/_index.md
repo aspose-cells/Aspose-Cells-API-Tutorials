@@ -40,7 +40,7 @@ using Aspose.Cells;
 
 这些包允许我们访问 Aspose.Cells 提供的类和方法，从而使我们能够有效地操作 Excel 文件。
 
-让我们将事情分解成易于管理的步骤。我们将指导您完成使用正则表达式替换 Excel 中的文本的过程，特别是如何将出现的单词“KIM”替换为“TIM”。
+让我们将事情分解成易于管理的步骤。我们将指导您完成使用正则表达式替换 Excel 中的文本的过程，特别是如何将单词“KIM”替换为“TIM”。
 
 ## 步骤 1：设置源和输出目录
 
@@ -111,7 +111,7 @@ workbook.Save(outputDir + "RegexReplace_out.xlsx");
 Console.WriteLine("RegexReplace executed successfully.");
 ```
 
-看到最后这行字样，你会在控制台上收到确认信息。确保一切都按计划进行始终是一个好习惯！
+看到最后这行字，你会在控制台上收到确认信息。确保一切都按计划进行始终是一个好习惯！
 
 ## 结论
 

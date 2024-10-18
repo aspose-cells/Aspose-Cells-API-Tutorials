@@ -13,7 +13,7 @@ Jika berbicara tentang mengelola berkas Excel secara terprogram, Aspose.Cells un
 
 ## Prasyarat
 
-Sebelum memulai, penting untuk menyiapkan beberapa hal guna memastikan pengalaman yang lancar:
+Sebelum memulai, ada beberapa hal penting yang harus dipersiapkan untuk memastikan pengalaman yang lancar:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis kode.
 2.  Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
@@ -43,12 +43,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
  Di sini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di sistem Anda. Anggap saja sebagai tujuan perjalanan darat Anda.
 
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
+## Langkah 2: Membuat Instansi Objek Buku Kerja
 
 Sekarang, Anda akan membuat contoh kelas Workbook, yang merepresentasikan berkas Excel.
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 Workbook workbook = new Workbook();
 ```
 
@@ -59,7 +59,7 @@ Workbook workbook = new Workbook();
 Selanjutnya, Anda perlu mengakses lembar kerja yang ingin Anda atur orientasinya. Karena setiap buku kerja dapat memiliki beberapa lembar kerja, Anda harus secara eksplisit menyatakan lembar kerja mana yang sedang Anda kerjakan.
 
 ```csharp
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -85,7 +85,7 @@ Akhirnya, saatnya menyimpan pekerjaan Anda. Anda ingin memastikan bahwa semua pe
 workbook.Save(dataDir + "PageOrientation_out.xls");
 ```
 
-Seperti meletakkan halaman yang sudah selesai di rak, baris kode ini akan menyimpan berkas Anda di direktori yang ditentukan. Jika semuanya berjalan lancar, Anda akan memiliki berkas Excel baru yang siap Anda gunakan!
+Seperti meletakkan halaman yang sudah selesai kembali ke rak, baris kode ini akan menyimpan berkas Anda di direktori yang ditentukan. Jika semuanya berjalan lancar, Anda akan memiliki berkas Excel baru yang siap Anda gunakan!
 
 ## Kesimpulan
 

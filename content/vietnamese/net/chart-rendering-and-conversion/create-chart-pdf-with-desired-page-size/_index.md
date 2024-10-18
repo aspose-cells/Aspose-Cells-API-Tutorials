@@ -9,7 +9,7 @@ url: /vi/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-s
 ---
 ## Giới thiệu
 
-Tạo biểu đồ hấp dẫn trực quan và nhiều thông tin là điều cần thiết để biểu diễn dữ liệu trong nhiều lĩnh vực. Cho dù bạn đang xử lý dữ liệu bán hàng, số liệu hiệu suất hay bất kỳ loại thông tin nào khác, khả năng tạo biểu đồ chất lượng cao sẽ giúp các phát hiện của bạn có chiều sâu và rõ ràng. Nếu bạn đang làm việc với các ứng dụng .NET, Aspose.Cells là một thư viện mạnh mẽ giúp xử lý các tài liệu Excel và tạo biểu đồ trở nên dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tệp PDF của biểu đồ từ tệp Excel có kích thước trang mong muốn.
+Tạo biểu đồ hấp dẫn trực quan và nhiều thông tin là điều cần thiết để biểu diễn dữ liệu trong nhiều lĩnh vực. Cho dù bạn đang xử lý dữ liệu bán hàng, số liệu hiệu suất hay bất kỳ loại thông tin nào khác, khả năng tạo biểu đồ chất lượng cao sẽ giúp bạn có được chiều sâu và sự rõ ràng cho các phát hiện của mình. Nếu bạn đang làm việc với các ứng dụng .NET, Aspose.Cells là một thư viện mạnh mẽ giúp xử lý các tài liệu Excel và tạo biểu đồ trở nên dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tệp PDF của biểu đồ từ tệp Excel có kích thước trang mong muốn.
 
 ## Điều kiện tiên quyết
 
@@ -121,7 +121,7 @@ Thông báo này sẽ xuất hiện trong cửa sổ bảng điều khiển sau 
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn vừa học được cách tận dụng Aspose.Cells cho .NET để tạo PDF từ biểu đồ có trong tệp Excel. Thư viện mạnh mẽ này hợp lý hóa quy trình thao tác tài liệu Excel và tạo biểu diễn trực quan của dữ liệu, giúp bạn tiết kiệm nhiều giờ định dạng thủ công. Hãy chắc chắn khám phá vô số tính năng khác mà Aspose.Cells cung cấp ngoài việc tạo PDF—bạn không bao giờ biết điều gì có thể cải thiện dự án của bạn hơn nữa!
+Xin chúc mừng! Bạn vừa học được cách tận dụng Aspose.Cells cho .NET để tạo PDF từ biểu đồ có trong tệp Excel. Thư viện mạnh mẽ này hợp lý hóa quy trình thao tác tài liệu Excel và tạo biểu diễn trực quan của dữ liệu, giúp bạn tiết kiệm nhiều giờ định dạng thủ công. Hãy chắc chắn khám phá vô số tính năng khác mà Aspose.Cells cung cấp ngoài việc tạo PDF—bạn không bao giờ biết điều gì có thể cải thiện dự án của mình hơn nữa!
 
 ## Câu hỏi thường gặp
 

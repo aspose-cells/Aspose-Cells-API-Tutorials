@@ -18,7 +18,7 @@ Hãy tưởng tượng bạn có thể liên kết các tài liệu liên quan t
  Việc điều hướng các sổ làm việc lớn đôi khi có thể giống như việc tìm kim trong đống cỏ khô. Đó là lý do tại sao hướng dẫn của chúng tôi về[thêm liên kết nội bộ vào ô Excel](./add-link-to-other-sheet-cell/) là điều cần thiết! Ở đây, chúng tôi sẽ chỉ cho bạn cách tạo liên kết cho phép bạn nhảy thẳng đến các ô cụ thể trong các trang tính khác. Tính năng này không chỉ tiết kiệm thời gian mà còn giúp tổ chức dữ liệu của bạn gọn gàng và ngăn nắp. Hãy nghĩ về nó như việc có một thư viện được tổ chức tốt—mọi thứ có thể truy cập chỉ bằng một cú nhấp chuột!
 
 ## Thêm liên kết vào URL trong Excel
-Cuối cùng, trong hướng dẫn của chúng tôi về[thêm siêu liên kết URL trong Excel](./add-link-to-url/), bạn sẽ khám phá ra cách kết nối bảng tính của mình với web đơn giản như thế nào. Cho dù bạn cần tham khảo trang web để biết thêm thông tin hay liên kết đến video hướng dẫn, tính năng này đều có thể thực hiện được. Hãy tưởng tượng việc liên kết trực tiếp đến nguồn bổ sung cho dữ liệu của bạn—người đọc sẽ cảm ơn bạn vì điều đó!
+Cuối cùng, trong hướng dẫn của chúng tôi về[thêm siêu liên kết URL trong Excel](./add-link-to-url/), bạn sẽ khám phá ra cách kết nối bảng tính của mình với web đơn giản như thế nào. Cho dù bạn cần tham khảo trang web để biết thêm thông tin hay liên kết đến video hướng dẫn, tính năng này đều có thể thực hiện được. Hãy tưởng tượng liên kết trực tiếp đến nguồn bổ sung cho dữ liệu của bạn—người đọc sẽ cảm ơn bạn vì điều đó!
 
 ## Hướng dẫn làm việc với siêu liên kết trong Excel
 ### [Thêm liên kết đến tệp bên ngoài trong Excel](./add-link-to-external-file/)

@@ -46,7 +46,7 @@ Birleştirmeyi kaldırma sürecini yönetilebilir adımlara bölelim. Her adım 
 
 ## Adım 1: Dizinleri Tanımlayın
 
-İlk adım, giriş Excel dosyanızın (birleştirilmiş hücrelere sahip olan) ve çıkış dosyanızın (birleştirilmemiş verilerin kaydedileceği) bulunduğu dizinleri tanımlamaktır. Bunu nasıl ayarlayacağınız aşağıda açıklanmıştır:
+İlk adım, giriş Excel dosyanızın (birleştirilmiş hücrelere sahip olan) ve çıkış dosyanızın (birleştirilmemiş verilerin kaydedileceği olan) bulunduğu dizinleri tanımlamaktır. Bunu nasıl ayarlayacağınız aşağıda açıklanmıştır:
 
 ```csharp
 // Kaynak dizini
@@ -91,7 +91,7 @@ Cells cells = worksheet.Cells;
 
 Bu satırla artık çalışma sayfanızdaki tüm hücrelere erişebilir, gerektiğinde bunları düzenleyebilirsiniz.
 
-## Adım 5: Hücreleri Birleştir
+## Adım 5: Hücreleri ayırın
 
 İşte kritik adım geldi: Hücreleri birleştirmeyi kaldırma! Birleştirmeyi kaldırmak istediğiniz birleştirilmiş hücrelerin aralığını belirtmek isteyeceksiniz. Aşağıdaki kodu kullanın:
 
@@ -115,7 +115,7 @@ Bu satır birleştirilmemiş verilerinizi belirtilen çıktı dizinine kaydeder.
 
 ## Adım 7: İşlemi Onaylayın
 
-Son olarak, her şeyin sorunsuz gittiğini teyit etmek iyi bir fikirdir. İşlemin başarıyla yürütüldüğünü bildirmek için konsola bir mesaj yazdırabilirsiniz:
+Son olarak, her şeyin sorunsuz gittiğini onaylamak iyi bir fikirdir. İşlemin başarıyla yürütüldüğünü bildirmek için konsola bir mesaj yazdırabilirsiniz:
 
 ```csharp
 Console.WriteLine("UnMerging the Cells executed successfully.");
@@ -125,7 +125,7 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasındaki hücrele
 
 ## Çözüm
 
-Hücreleri ayırmak sıkıcı görünebilir, özellikle de büyük elektronik tablolarla uğraşıyorsanız, ancak .NET için Aspose.Cells ile bu çok kolay! Bu eğitim, ortamınızı kurmaktan hücreleri etkili bir şekilde ayırmak için gereken kodu çalıştırmaya kadar her şeyi adım adım anlattı. Aspose.Cells kitaplığının sunduğu esneklik, elektronik tabloları verimli bir şekilde işlemenize olanak tanır ve bu da onu Excel dosyalarıyla çalışan geliştiriciler için ideal bir seçim haline getirir. O halde, işe koyulun ve daha temiz, daha yönetilebilir elektronik tabloların keyfini çıkarmaya başlayın.
+Hücreleri ayırmak sıkıcı görünebilir, özellikle de büyük elektronik tablolarla uğraşıyorsanız, ancak .NET için Aspose.Cells ile bu çok kolay! Bu eğitim, ortamınızı kurmaktan hücreleri etkili bir şekilde ayırmak için gereken kodu çalıştırmaya kadar her şeyi adım adım anlattı. Aspose.Cells kitaplığının sunduğu esneklik, elektronik tabloları verimli bir şekilde işlemenize olanak tanır ve bu da onu Excel dosyalarıyla çalışan geliştiriciler için ideal bir seçim haline getirir. O halde, dalın ve daha temiz, daha yönetilebilir elektronik tabloların keyfini çıkarmaya başlayın.
 
 ## SSS
 
@@ -142,4 +142,4 @@ Evet, bir çalışma kitabındaki birden fazla çalışma sayfası arasında ge�
 Evet, Aspose.Cells .NET Core ile uyumludur ve bu sayede çeşitli .NET uygulamaları için çok yönlüdür.
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?  
- Tam belgeleri şu adreste inceleyebilirsiniz:[Aspose.Cells Referans Sayfası](https://reference.aspose.com/cells/net/).
+ Tam dokümantasyonu şu adreste inceleyebilirsiniz:[Aspose.Cells Referans Sayfası](https://reference.aspose.com/cells/net/).

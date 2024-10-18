@@ -76,7 +76,7 @@ Bu satır Excel dosyasını açacak ve değişikliklere hazırlayacaktır.
 Artık çalışma kitabımız hazır, şimdi kaç tane çalışma sayfası içerdiğini bulalım:
 
 ```csharp
-//Çalışma kitabının sayfa sayısını alın
+//Çalışma kitabının sayfa sayılarını alın
 int sheetCount = wb.Worksheets.Count;
 ```
 
@@ -97,7 +97,7 @@ Bu döngüde her çalışma sayfasına tek tek erişiyoruz.
 
 ## Adım 5: Yazıcı Ayarlarına Erişin ve Kontrol Edin
 
-Daha sonra, her çalışma sayfasının ayrıntılarını inceleyerek sayfa düzenine erişecek ve yazıcı ayarlarını inceleyeceğiz.
+Daha sonra, her çalışma sayfasının ayrıntılarını inceleyerek sayfa düzenine erişeceğiz ve yazıcı ayarlarını inceleyeceğiz.
 
 ```csharp
 //Erişim çalışma sayfası sayfa düzeni
@@ -105,7 +105,7 @@ PageSetup ps = ws.PageSetup;
 //Bu çalışma sayfası için yazıcı ayarlarının mevcut olup olmadığını kontrol edin
 if (ps.PrinterSettings != null)
 {
-    //Aşağıdaki mesajı yazdırın
+    //Aşağıdaki mesajı yazdır
     Console.WriteLine("PrinterSettings of this worksheet exist.");
     //Sayfa adını ve kağıt boyutunu yazdır
     Console.WriteLine("Sheet Name: " + ws.Name);

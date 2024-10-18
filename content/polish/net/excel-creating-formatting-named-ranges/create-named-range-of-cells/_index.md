@@ -45,7 +45,7 @@ Najpierw musisz określić lokalizację, w której zostanie zapisany plik Excel.
 string dataDir = "Your Document Directory";
 ```
 
- Po prostu zamień`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać plik Excela. Może to być coś takiego`@"C:\Users\YourName\Documents\"`.
+ Po prostu zamień`"Your Document Directory"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik Excela. Może to być coś takiego`@"C:\Users\YourName\Documents\"`.
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -58,12 +58,12 @@ Workbook workbook = new Workbook();
 
 Ten wiersz inicjuje nowy obiekt skoroszytu, który będziemy modyfikować.
 
-## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
 Każdy skoroszyt może mieć wiele arkuszy, a dla naszego celu skorzystamy z pierwszego. Pomyśl o tym jak o otwarciu karty w pliku Excel.
 
 ```csharp
-//Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
+// Dostęp do pierwszego arkusza kalkulacyjnego w pliku Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,7 +74,7 @@ Teraz mamy dostęp do pierwszego arkusza kalkulacyjnego, w którym utworzymy nas
 Teraz czas na utworzenie nazwanego zakresu. Nazwany zakres pozwala zdefiniować konkretny zestaw komórek w arkuszu kalkulacyjnym.
 
 ```csharp
-//Tworzenie zakresu nazwanego
+// Tworzenie zakresu nazwanego
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
@@ -113,7 +113,7 @@ Po wprowadzeniu wszystkich tych zmian, następnym krokiem jest zapisanie skorosz
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-Ten wiersz zapisuje zmiany w pliku o nazwie`outputCreateNamedRangeofCells.xlsx`. Upewnij się, że określona ścieżka jest poprawna; w przeciwnym razie program zgłosi błąd!
+ Ten wiersz zapisuje zmiany w pliku o nazwie`outputCreateNamedRangeofCells.xlsx`. Upewnij się, że określona ścieżka jest poprawna; w przeciwnym razie program zgłosi błąd!
 
 ## Krok 8: Sprawdź powodzenie operacji
 

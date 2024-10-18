@@ -15,7 +15,7 @@ Dalam tutorial ini, kita akan menjelajahi cara mengotomatiskan operasi buku kerj
  Sebelum kita mulai, pastikan Anda telah menambahkan pustaka Aspose.Cells for Java ke proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Buat Buku Kerja Excel Baru
-Mari kita mulai dengan membuat buku kerja Excel baru menggunakan Aspose.Cells. Berikut adalah contoh cara melakukannya:
+Mari kita mulai dengan membuat buku kerja Excel baru menggunakan Aspose.Cells. Berikut ini adalah contoh cara melakukannya:
 
 ```java
 import com.aspose.cells.*;

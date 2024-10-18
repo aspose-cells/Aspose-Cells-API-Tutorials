@@ -9,18 +9,18 @@ url: /vi/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 ---
 ## Giới thiệu
 
-Tạo biểu đồ động và hấp dẫn trực quan trong Excel là một cách tuyệt vời để biểu diễn dữ liệu hiệu quả. Một tính năng tiện lợi mà bạn có thể sử dụng là thêm TextBox vào biểu đồ. Với Aspose.Cells for .NET, nhiệm vụ này trở nên dễ dàng và thú vị! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình tích hợp TextBox vào biểu đồ của mình. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ cung cấp cho bạn tất cả các công cụ bạn cần để cải thiện biểu đồ Excel của mình. Vậy, bạn đã sẵn sàng để bắt đầu chưa?
+Tạo biểu đồ động và hấp dẫn trực quan trong Excel là một cách tuyệt vời để biểu diễn dữ liệu hiệu quả. Một tính năng tiện lợi mà bạn có thể sử dụng là thêm TextBox vào biểu đồ. Với Aspose.Cells cho .NET, nhiệm vụ này trở nên dễ dàng và thú vị! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình tích hợp TextBox vào biểu đồ của mình. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ cung cấp cho bạn tất cả các công cụ bạn cần để cải thiện biểu đồ Excel của mình. Vậy, bạn đã sẵn sàng để bắt đầu chưa?
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu viết mã, bạn cần chuẩn bị một số điều sau:
 
 - Hiểu biết cơ bản về C#: Nắm vững cơ bản về lập trình C# sẽ hữu ích. Đừng lo lắng; bạn không cần phải là chuyên gia, chỉ cần thoải mái điều hướng cú pháp.
--  Thư viện Aspose.Cells đã cài đặt: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+- Thư viện Aspose.Cells đã cài đặt: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 - Visual Studio: Điều cần thiết là phải quen thuộc với Visual Studio hoặc bất kỳ IDE nào mà bạn muốn sử dụng cho .NET framework.
 - Tệp Excel hiện có: Đối với ví dụ này, chúng ta sẽ làm việc với tệp Excel hiện có có tên "sampleAddingTextBoxControlInChart.xls". Bạn có thể tạo một tệp hoặc tải xuống mẫu.
 
-Bây giờ chúng ta đã có mọi thứ, hãy chuyển sang phần viết mã!
+Bây giờ chúng ta đã có mọi thứ, hãy bắt đầu phần viết mã!
 
 ## Nhập gói
 
@@ -78,7 +78,7 @@ Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100
 ```
 Trong lệnh này, các tham số xác định vị trí (x, y) và kích thước (chiều rộng, chiều cao) của TextBox trong biểu đồ. Điều chỉnh các giá trị này dựa trên nhu cầu bố cục cụ thể của bạn.
 
-## Bước 5: Thiết lập Văn bản cho Hộp Văn bản
+## Bước 5: Thiết lập Văn bản cho Hộp văn bản
 
 Khi TextBox đã vào đúng vị trí, đã đến lúc điền nội dung vào đó. Bạn có thể thêm bất kỳ văn bản nào mà bạn cho là cần thiết cho biểu đồ của mình.
 
@@ -108,7 +108,7 @@ textbox0.Font.IsItalic = true;
 
 Mỗi dòng này sẽ thay đổi giao diện của văn bản bên trong TextBox của bạn, tăng khả năng hiển thị và hấp dẫn.
 
-## Bước 7: Định dạng Giao diện Hộp văn bản
+## Bước 7: Định dạng giao diện hộp văn bản
 
 Việc định dạng nền và đường viền của TextBox cũng rất quan trọng. Điều này làm cho nó nổi bật trên biểu đồ.
 
@@ -122,7 +122,7 @@ Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;
 // Thiết lập độ dày của đường.
 lineformat.Weight = 2;
 
-// Đặt kiểu gạch ngang thành dạng đặc.
+// Đặt kiểu gạch ngang thành dạng liền.
 lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 ```
 
@@ -136,7 +136,7 @@ Bước cuối cùng là lưu các thay đổi bạn đã thực hiện vào m�
 // Lưu tệp excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Thay thế`"outputAddingTextBoxControlInChart.xls"` với bất kỳ tên tệp nào bạn thích.
+ Thay thế`"outputAddingTextBoxControlInChart.xls"`với bất kỳ tên tệp nào bạn thích.
 
 ## Phần kết luận
 

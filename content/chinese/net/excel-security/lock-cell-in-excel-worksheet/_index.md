@@ -9,7 +9,7 @@ url: /zh/net/excel-security/lock-cell-in-excel-worksheet/
 ---
 ## 介绍
 
-在当今快节奏的世界里，安全地管理数据对于企业和个人都至关重要。Excel 是一种常用的数据管理工具，但如何确保敏感信息保持完整，同时仍允许其他人查看电子表格？锁定 Excel 工作表中的单元格是保护数据免遭不必要更改的有效方法之一。在本指南中，我们将深入研究如何使用 Aspose.Cells for .NET 锁定 Excel 工作表中的单元格 - 这是一个功能强大的库，可简化以编程方式读取、写入和操作 Excel 文件的过程。
+在当今快节奏的世界，安全地管理数据对于企业和个人都至关重要。Excel 是一种常用的数据管理工具，但如何确保敏感信息保持完整，同时仍允许其他人查看电子表格？锁定 Excel 工作表中的单元格是保护数据免遭不必要更改的有效方法之一。在本指南中，我们将深入研究如何使用 Aspose.Cells for .NET 锁定 Excel 工作表中的单元格 - 这是一个功能强大的库，可简化以编程方式读取、写入和操作 Excel 文件的过程。
 
 ## 先决条件
 
@@ -51,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
-在此示例中，我们正在加载一个名为“Book1.xlsx”的文件。请确保此文件存在于指定目录中！
+在此示例中，我们正在加载一个名为“Book1.xlsx”的文件。请确保此文件存在于指定的目录中！
 
 ## 步骤 3：访问工作表
 

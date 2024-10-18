@@ -48,7 +48,7 @@ string outputDir = "Your Output Directory";
 Nu skapar vi ett arbetsboksobjekt som fungerar som en behållare för ditt kalkylblad.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 

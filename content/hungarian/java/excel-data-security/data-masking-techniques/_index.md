@@ -18,7 +18,7 @@ Mielőtt belemerülnénk az Aspose.Cells for Java segítségével történő ada
 
 - Java Development Kit (JDK) telepítve
 - Aspose.Cells for Java API könyvtár
-- Java programozás alapvető ismerete
+- A Java programozás alapvető ismerete
 
 ## Az adatmaszkolás megértése
 
@@ -122,4 +122,4 @@ Az adatmaszkolás teljesítményre gyakorolt hatása nagymértékben függ az ad
 
 ### Hogyan tudhatok meg többet az adatmaszkolás bevált módszereiről?
 
-Az adatmaszkolás és az adatbiztonság bevált gyakorlatainak feltárásához fontolja meg az iparág-specifikus irányelvek tanulmányozását, és konzultáljon adatbiztonsági szakértőkkel.
+Az adatmaszkolás és az adatbiztonság bevált gyakorlatainak feltárásához vegye fontolóra az iparág-specifikus irányelveket, és konzultáljon adatbiztonsági szakértőkkel.

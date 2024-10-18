@@ -131,7 +131,7 @@ Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");
 
 ## Conclusie
 
-In deze tutorial hebben we het proces doorlopen van het instellen van de waardenformaatcode van een grafiekserie met Aspose.Cells voor .NET. Van het laden van ons Excel-bestand tot het opslaan van het eindproduct, elke stap brengt ons dichter bij het effectief visualiseren van gegevens op een manier die zowel zinvol als impactvol is. Nu kunt u deze vaardigheden gebruiken en toepassen op uw lopende projecten.
+In deze tutorial hebben we het proces doorlopen van het instellen van de waardenopmaakcode van een grafiekserie met Aspose.Cells voor .NET. Van het laden van ons Excel-bestand tot het opslaan van het eindproduct, elke stap brengt ons dichter bij het effectief visualiseren van gegevens op een manier die zowel zinvol als impactvol is. Nu kunt u deze vaardigheden gebruiken en toepassen op uw lopende projecten.
 
 ## Veelgestelde vragen
 

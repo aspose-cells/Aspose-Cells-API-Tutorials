@@ -70,7 +70,7 @@ Questa riga di codice avvia una nuova cartella di lavoro. Immagina di aprire un 
 
 ## Passaggio 3: aggiunta di interruzioni di pagina
 
-Ecco dove le cose si fanno interessanti! Aggiungerai interruzioni di pagina sia orizzontali che verticali. Vediamo come fare:
+Ecco dove le cose si fanno interessanti! Aggiungerai interruzioni di pagina sia orizzontali che verticali. Vediamo come farlo:
 
 ```csharp
 // Aggiungere un'interruzione di pagina nella cella Y30
@@ -106,7 +106,7 @@ Aspose.Cells è una potente libreria per creare, manipolare e convertire file Ex
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells?
 
-Sebbene Aspose.Cells offra una prova gratuita, l'utilizzo continuato richiede l'acquisto o una licenza temporanea per progetti più lunghi.
+Sebbene Aspose.Cells offra una prova gratuita, per continuare a utilizzarlo è necessario acquistare una licenza temporanea o acquistarla per progetti più lunghi.
 
 ### Posso aggiungere più interruzioni di pagina?
 

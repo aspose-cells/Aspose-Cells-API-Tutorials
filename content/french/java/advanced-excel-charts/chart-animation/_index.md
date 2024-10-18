@@ -16,7 +16,7 @@ Dans ce didacticiel, nous allons découvrir comment créer des animations de gra
 
 Avant de nous lancer dans la création d’animations graphiques, assurez-vous de disposer des conditions préalables suivantes :
 
-1.  Aspose.Cells pour Java : assurez-vous que la bibliothèque Aspose.Cells pour Java est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells pour Java : assurez-vous que la bibliothèque Aspose.Cells pour Java est installée. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/java/).
 
 2. Environnement de développement Java : vous devez disposer d’un environnement de développement Java configuré sur votre système.
 
@@ -49,7 +49,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Étape 3 : Accéder au graphique
 
-Pour créer une animation graphique, vous devez accéder au graphique que vous souhaitez animer. Pour ce faire, vous devez spécifier la feuille de calcul et l'index du graphique :
+Pour créer une animation de graphique, vous devez accéder au graphique que vous souhaitez animer. Pour ce faire, vous pouvez spécifier la feuille de calcul et l'index du graphique :
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -82,7 +82,7 @@ Dans ce didacticiel, nous avons appris à créer des animations de graphiques à
 
 ### Comment puis-je changer le type d'animation ?
 
- Pour changer le type d'animation, utilisez le`setAnimationType` méthode sur l'objet graphique. Vous pouvez choisir parmi différents types comme`SLIDE`, `FADE` , et`GROW_SHRINK`.
+ Pour changer le type d'animation, utilisez le`setAnimationType` méthode sur l'objet graphique. Vous pouvez choisir parmi différents types comme`SLIDE`, `FADE` et`GROW_SHRINK`.
 
 ### Puis-je personnaliser la durée de l'animation ?
 
@@ -90,4 +90,4 @@ Dans ce didacticiel, nous avons appris à créer des animations de graphiques à
 
 ### Quel est le but du délai d'animation ?
 
- Le délai d'animation détermine l'intervalle de temps avant le début de l'animation du graphique. Utilisez le`setAnimationDelay`méthode pour définir le délai en millisecondes.
+ Le délai d'animation détermine l'intervalle de temps avant le début de l'animation du graphique. Utilisez le`setAnimationDelay` méthode pour définir le délai en millisecondes.

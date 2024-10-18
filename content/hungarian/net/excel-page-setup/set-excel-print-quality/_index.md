@@ -77,7 +77,7 @@ Itt történik a varázslat! Beállíthatjuk a munkalap nyomtatási minőségét
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Magyarázat: A`PrintQuality` A tulajdonság bármilyen értékre állítható, jellemzően 75 és 600 dpi (pont per hüvelyk) között. Ebben az esetben 180 dpi-re állítjuk, ami nagyszerű a minőség és a fájlméret közötti jó egyensúlyhoz.
+Magyarázat: A`PrintQuality` A tulajdonság bármilyen értékre állítható, jellemzően 75 és 600 dpi (pont per hüvelyk) között. Ebben az esetben 180 dpi-re állítjuk, ami nagyszerű a minőség és a fájlméret közötti jó egyensúlyhoz.
 
 ## 5. lépés: A munkafüzet mentése
 

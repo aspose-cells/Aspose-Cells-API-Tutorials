@@ -15,15 +15,15 @@ Podczas zagłębiania się w zaawansowane funkcje programu Excel, zakresy nazwan
 
 Zacznijmy od tego, jak bez wysiłku identyfikować komórki w nazwanym zakresie za pomocą Aspose.Cells dla .NET. Proces jest bezproblemowy! Najpierw zdefiniujesz nazwany zakres w pliku Excel. Aspose sprawia, że jest to niezwykle przyjazne dla użytkownika. Wszystko, czego potrzebujesz, to kilka linijek kodu, aby uzyskać dostęp do danych i manipulować nimi. Dzięki możliwości identyfikowania określonych komórek w nazwanym zakresie możesz znacznie usprawnić swój przepływ pracy. 
 
-Rozważ to: masz raport sprzedaży z różnymi regionami oznaczonymi nazwanymi zakresami. Zamiast filtrować za każdym razem, gdy chcesz wyodrębnić informacje, możesz uzyskać do nich bezpośredni dostęp poprzez nazwę. To nie tylko oszczędza czas, ale także minimalizuje błędy. Jeśli chcesz to dokładniej zbadać, sprawdź nasz samouczek na[Identyfikowanie komórek w nazwanym zakresie](./identify-cells-in-named-range/). 
+ Rozważ to: masz raport sprzedaży z różnymi regionami oznaczonymi nazwanymi zakresami. Zamiast filtrować za każdym razem, gdy chcesz wyodrębnić informacje, możesz uzyskać do nich bezpośredni dostęp poprzez nazwę. To nie tylko oszczędza czas, ale także minimalizuje błędy. Jeśli chcesz to dokładniej zbadać, sprawdź nasz samouczek na[Identyfikowanie komórek w nazwanym zakresie](./identify-cells-in-named-range/). 
 
 ## Scalanie komórek w nazwanym zakresie w programie Excel
 
 Następna jest jedna z najbardziej atrakcyjnych wizualnie, a jednocześnie praktycznych operacji — scalanie komórek w nazwanym zakresie. Chcesz, aby Twoje arkusze kalkulacyjne były bardziej zorganizowane? Scalanie komórek może pomóc Ci tworzyć nagłówki obejmujące wiele kolumn lub wierszy, nadając raportowi czysty, profesjonalny wygląd. Używając Aspose.Cells dla .NET, scalanie komórek nie mogłoby być prostsze. 
 
-Piękno tej funkcjonalności tkwi w łatwości użytkowania. Komórki można scalać programowo, co oznacza, że formatowanie można zautomatyzować. Wyobraź sobie tworzenie cotygodniowych raportów, w których nagłówek jest automatycznie scalany za każdym razem. Dzięki Aspose to zadanie wymaga tylko kilku kliknięć i linijek kodu. Ciekawi Cię, jak to zrobić? Przejdź do naszego przewodnika na temat[Łączenie komórek w nazwanym zakresie](./merge-cells-in-named-range/).
+ Piękno tej funkcjonalności tkwi w łatwości użytkowania. Komórki można scalać programowo, co oznacza, że formatowanie można zautomatyzować. Wyobraź sobie tworzenie cotygodniowych raportów, w których nagłówek jest automatycznie scalany za każdym razem. Dzięki Aspose to zadanie wymaga tylko kilku kliknięć i linijek kodu. Ciekawi Cię, jak to zrobić? Przejdź do naszego przewodnika na temat[Łączenie komórek w nazwanym zakresie](./merge-cells-in-named-range/).
 
-## Zaawansowane operacje z nazwanymi zakresami w samouczkach programu Excel
+## Zaawansowane operacje na zakresach nazwanych w samouczkach programu Excel
 ### [Identyfikuj komórki w nazwanym zakresie w programie Excel](./identify-cells-in-named-range/)
 Bez trudu zidentyfikujesz komórki w nazwanym zakresie w programie Excel, korzystając z Aspose.Cells dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku.
 ### [Scalanie komórek w nazwanym zakresie w programie Excel](./merge-cells-in-named-range/)

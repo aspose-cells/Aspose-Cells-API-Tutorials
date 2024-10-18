@@ -29,7 +29,7 @@ url: /zh/java/advanced-excel-charts/chart-annotations/
 首先，使用 Aspose.Cells for Java 创建一个新的 Excel 工作簿。此工作簿将作为我们添加带注释图表的画布。
 
 ```java
-//用于创建新 Excel 工作簿的 Java 代码
+// Java 代码用于创建新的 Excel 工作簿
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```

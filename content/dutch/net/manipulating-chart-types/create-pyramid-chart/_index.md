@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Laten we nu een nieuw exemplaar van een werkmap maken. Beschouw een werkmap als een leeg canvas waarop u uw gegevens kunt schilderen.
 
 ```csharp
-//Een werkmapobject instantiëren
+// Een werkmapobject instantiëren
 Workbook workbook = new Workbook();
 ```
 
@@ -116,7 +116,7 @@ Nadat u de grafiek hebt toegevoegd, moeten we deze openen om deze in te stellen.
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Met deze regel zorgen we ervoor dat we met het juiste grafiekexemplaar werken dat we zojuist hebben gemaakt.
+Deze regel zorgt ervoor dat we met het juiste grafiekexemplaar werken dat we zojuist hebben gemaakt.
 
 ## Stap 7: Gegevensreeksen toevoegen aan de grafiek
 

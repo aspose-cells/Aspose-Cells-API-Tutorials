@@ -8,7 +8,7 @@ weight: 11
 url: /es/net/excel-range-address-calculation/get-address-cell-count-and-offset-for-entire-excel-range/
 ---
 ## Introducción
-¿Alguna vez te has encontrado haciendo malabarismos con datos en Excel, necesitando acceder rápidamente a ciertos rangos o averiguando con cuántas celdas estás trabajando? ¡Pues estás de suerte! Hoy nos adentraremos en el mundo de Aspose.Cells para .NET, una fantástica biblioteca que te permite manipular archivos de Excel sin esfuerzo. Al final de esta guía, sabrás cómo obtener la dirección, contar las celdas y determinar los desplazamientos de un rango completo. ¡Piensa en esto como tu hoja de ruta para convertirte en un experto en Excel usando C#!
+¿Alguna vez ha tenido que hacer malabarismos con datos en Excel, necesitando acceder rápidamente a ciertos rangos o calculando con cuántas celdas está trabajando? ¡Pues está de suerte! Hoy nos adentraremos en el mundo de Aspose.Cells para .NET, una fantástica biblioteca que le permite manipular archivos de Excel sin esfuerzo. Al final de esta guía, sabrá cómo obtener la dirección, contar las celdas y determinar los desplazamientos de un rango completo. ¡Piense en esto como su hoja de ruta para convertirse en un experto en Excel usando C#!
 Así que, siéntate, toma tu bebida favorita y ¡comencemos!
 ## Prerrequisitos
 Antes de ponernos manos a la obra con el código, hay algunas cosas que debes tener en cuenta. ¡Pero no te preocupes! Es bastante sencillo.
@@ -68,7 +68,7 @@ Console.WriteLine("Range Address: " + rng.Address);
 ```
 Con esta línea mostramos la dirección del rango, que debe mostrar “A1:B3”.
 ## Paso 5: Imprima un separador
-Mantener limpia la salida de nuestra consola es fundamental, por eso, añadimos un pequeño separador.
+Mantener limpia la salida de nuestra consola es fundamental, por eso agregamos un pequeño separador.
 ```csharp
 // Formateo de la salida de la consola.
 Console.WriteLine("----------------------");
@@ -81,7 +81,7 @@ Ahora es el momento de profundizar en la gama A1. Así es como lo hacemos:
 Console.WriteLine("Creating Range A1\n");
 rng = ws.Cells.CreateRange("A1");
 ```
-Esto crea un nuevo rango que consta solo de la celda A1.
+Esto crea un nuevo rango que consta únicamente de la celda A1.
 ## Paso 7: Recuperar e imprimir el offset
 Exploremos algunas características interesantes del rango. Por ejemplo, podemos determinar el desplazamiento desde A1 hasta otra celda.
 ```csharp
@@ -108,7 +108,7 @@ Por último, vamos a terminar. Agregaremos un mensaje simple para indicar que nu
 ```csharp
 Console.WriteLine("GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange executed successfully.");
 ```
-¡Y eso es todo! Acabas de crear una herramienta sencilla pero potente para recuperar información esencial de los rangos de Excel mediante Aspose.Cells para .NET.
+¡Y eso es todo! Acabas de crear una herramienta sencilla pero potente para recuperar información esencial de rangos de Excel utilizando Aspose.Cells para .NET.
 ## Conclusión
 ¡Felicitaciones por completar este tutorial! Aprendió a crear un libro de trabajo, acceder a rangos y recuperar información valiosa mediante Aspose.Cells para .NET. Con estas nuevas habilidades, ahora está preparado para manejar archivos de Excel como un profesional. Ya sea que esté creando informes, analizando datos o simplemente incursionando en la manipulación de datos, esta biblioteca es una herramienta valiosa en su arsenal.
 ## Preguntas frecuentes

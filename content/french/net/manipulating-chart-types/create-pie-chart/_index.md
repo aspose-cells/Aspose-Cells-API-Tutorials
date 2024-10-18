@@ -45,7 +45,7 @@ Workbook workbook = new Workbook();
 
 Cela initialise un nouveau classeur Excel. Mais où vont les données ? Nous nous en occuperons à l'étape suivante.
 
-## Étape 2 : ajouter des données à la feuille de calcul
+## Étape 2 : Ajouter des données à la feuille de calcul
 
 Une fois le classeur créé, nous devons accéder à la première feuille de calcul et lui donner un nom. C'est ici que nous allons saisir les données nécessaires au graphique à secteurs.
 

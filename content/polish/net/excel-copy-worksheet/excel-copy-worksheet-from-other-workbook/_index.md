@@ -9,7 +9,7 @@ url: /pl/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
 ---
 ## Wstęp
 
-Czy kiedykolwiek zmagałeś się z wieloma skoroszytami programu Excel, próbując utrzymać swoje dane w porządku i łatwo dostępne? Jeśli tak, nie jesteś sam! Wielu z nas żongluje różnymi plikami, czy to w pracy, czy w projektach osobistych. Dobra wiadomość jest taka, że możesz ułatwić sobie życie z niewielką pomocą Aspose.Cells dla .NET. Ta potężna biblioteka pozwala na bezproblemowe manipulowanie plikami programu Excel, w tym kopiowanie arkuszy kalkulacyjnych z jednego skoroszytu do drugiego. W tym przewodniku przeprowadzimy Cię przez kroki, aby to zrobić, zapewniając, że możesz usprawnić swój przepływ pracy i zwiększyć produktywność.
+Czy kiedykolwiek zmagałeś się z wieloma skoroszytami programu Excel, próbując utrzymać swoje dane uporządkowane i łatwo dostępne? Jeśli tak, nie jesteś sam! Wielu z nas żongluje różnymi plikami, czy to w pracy, czy w projektach osobistych. Dobra wiadomość jest taka, że możesz ułatwić sobie życie z niewielką pomocą Aspose.Cells dla .NET. Ta potężna biblioteka pozwala na bezproblemowe manipulowanie plikami programu Excel, w tym kopiowanie arkuszy kalkulacyjnych z jednego skoroszytu do drugiego. W tym przewodniku przeprowadzimy Cię przez kroki, aby to zrobić, zapewniając, że możesz usprawnić swój przepływ pracy i zwiększyć produktywność.
 
 ## Wymagania wstępne
 
@@ -17,7 +17,7 @@ Zanim przejdziemy do kodowania, przygotujmy wszystko, czego potrzebujesz. Nie ma
 
 1. Visual Studio (lub dowolne środowisko IDE .NET): Na swoim komputerze powinieneś mieć skonfigurowane środowisko programistyczne .NET.
 2.  Aspose.Cells dla .NET: Musisz pobrać i zainstalować Aspose.Cells. Jeśli jeszcze go nie masz, możesz go pobrać[Tutaj](https://releases.aspose.com/cells/net/).
-3. Podstawowa znajomość języka C#: Niewielka znajomość programowania w języku C# ułatwi Ci naukę, ale nie martw się, jeśli dopiero zaczynasz!
+3. Podstawowa znajomość języka C#: Niewielka znajomość programowania w języku C# ułatwi Ci tę przygodę, ale nie martw się, jeśli dopiero zaczynasz!
 4. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na zgodną wersję .NET Framework.
 5. Konfiguracja systemu: upewnij się, że możesz uruchamiać i testować swoje aplikacje bez żadnych ograniczeń.
 
@@ -84,7 +84,7 @@ PageSetup pagesetup = ws0.PageSetup;
 // Pierwsze pięć rzędów powtarza się na każdej stronie
 pagesetup.PrintTitleRows = "$1:$5";
 ```
- Ta część definiuje sposób drukowania dokumentu. Poprzez ustawienie`PrintTitleRows`, dbamy o to, aby pierwsze pięć wierszy pojawiło się na każdej wydrukowanej stronie, co jest niezwykle przydatne ze względu na czytelność.
+ Ta część definiuje sposób drukowania dokumentu. Poprzez ustawienie`PrintTitleRows`, dbamy o to, aby pierwsze pięć wierszy pojawiło się na każdej wydrukowanej stronie, co jest niezwykle przydatne pod względem czytelności.
 
 ## Krok 4: Utwórz drugi skoroszyt
 
@@ -106,7 +106,7 @@ Skopiujmy zawartość arkusza pierwszego skoroszytu do drugiego skoroszytu:
 
 ```csharp
 // Skopiuj dane z pierwszego arkusza kalkulacyjnego pierwszego skoroszytu do
-// pierwszy arkusz drugiego skoroszytu
+// pierwszy arkusz drugiego zeszytu ćwiczeń
 ws1.Copy(ws0);
 ```
  Ten`Copy` Metoda pobiera całą zawartość ze źródłowego arkusza kalkulacyjnego (`ws0`i duplikuje go w arkuszu docelowym (`ws1`). Tak proste, prawda?
@@ -137,7 +137,7 @@ Aspose.Cells to biblioteka .NET umożliwiająca programistom tworzenie, przetwar
  Możesz poprosić o tymczasową licencję, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?  
-Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+ Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Czy istnieje jakiekolwiek wsparcie dla użytkowników Aspose.Cells?  
  Oczywiście! Możesz uzyskać wsparcie poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9).

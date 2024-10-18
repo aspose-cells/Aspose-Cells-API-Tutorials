@@ -52,7 +52,7 @@ I stället för "Din utdatakatalog" kan du ange en faktisk sökväg där du vill
  Nu vill du börja med att skapa en ny instans av`Workbook` klass. Detta är den grundläggande byggstenen för alla Excel-operationer som använder Aspose.Cells.
 
 ```csharp
-//Instantiera ett arbetsboksobjekt
+// Instantiera ett arbetsboksobjekt
 Workbook workbook = new Workbook();
 ```
 

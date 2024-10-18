@@ -2,7 +2,7 @@
 title: 전체 Excel 범위에 대한 주소, 셀 수 및 오프셋 가져오기
 linktitle: 전체 Excel 범위에 대한 주소, 셀 수 및 오프셋 가져오기
 second_title: Aspose.Cells .NET Excel 처리 API
-description: Aspose.Cells for .NET을 사용하여 Excel 범위를 조작하는 방법을 알아보세요. 간편한 튜토리얼로 주소, 오프셋 등에 대한 통찰력을 얻으세요.
+description: Aspose.Cells for .NET을 사용하여 Excel 범위를 조작하는 방법을 알아보세요. 쉬운 튜토리얼로 주소, 오프셋 등에 대한 통찰력을 얻으세요.
 type: docs
 weight: 11
 url: /ko/net/excel-range-address-calculation/get-address-cell-count-and-offset-for-entire-excel-range/
@@ -15,7 +15,7 @@ Excel에서 데이터를 저글링하거나, 특정 범위에 빠르게 액세�
 ### 필요한 것:
 1. Visual Studio: 컴퓨터에 Visual Studio가 설치되어 있는지 확인하세요. C# 개발을 위한 우리의 기본 IDE입니다.
 2. .NET Framework: 이 튜토리얼은 .NET 애플리케이션에 초점을 맞추므로 .NET Framework 4.0 이상이 있는지 확인하세요.
-3. Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리가 필요합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/) . 새로운 사용자의 경우 다음으로 시작하는 것을 고려하십시오.[무료 체험](https://releases.aspose.com/).
+3. Aspose.Cells 라이브러리: .NET용 Aspose.Cells 라이브러리가 필요합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cells/net/) . 새로운 사용자의 경우 다음부터 시작하는 것을 고려하세요.[무료 체험](https://releases.aspose.com/).
 4. C#에 대한 기본 지식: C#에 대한 약간의 지식이 이 여정을 더 순조롭게 만들어 줄 것입니다. 초보자라도 걱정하지 마세요. 단계별로 안내해 드리겠습니다!
 그러니 이제 소매를 걷어붙이고 일을 시작할 때입니다!
 ## 패키지 가져오기
@@ -88,7 +88,7 @@ rng = ws.Cells.CreateRange("A1");
 // 인쇄 범위 오프셋, 전체 열 및 전체 행.
 Console.WriteLine("Offset: " + rng.GetOffset(2, 2).Address);
 ```
- 그만큼`GetOffset`이 방법을 사용하면 시작 위치에서 몇 개의 행과 열을 이동할지 지정할 수 있습니다. 이 경우, 2개의 행을 아래로, 2개의 열을 가로질러 이동하면 C3에 도달합니다.
+ 그만큼`GetOffset`이 방법을 사용하면 시작 위치에서 몇 개의 행과 열을 이동할지 지정할 수 있습니다. 이 경우, 2개의 행을 아래로 이동하고 2개의 열을 가로질러 이동하면 C3에 도달합니다.
 ## 8단계: 전체 열과 행 인쇄
 이제 A1이 어느 열과 행에 속하는지 알아보겠습니다.
 ```csharp
@@ -115,7 +115,7 @@ Console.WriteLine("GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange e
 ### .NET용 Aspose.Cells란 무엇인가요?  
 Aspose.Cells for .NET은 .NET 애플리케이션에서 Excel 파일을 관리하기 위한 강력한 라이브러리입니다. 개발자는 이를 통해 Excel 문서를 프로그래밍 방식으로 만들고, 조작하고, 변환할 수 있습니다.
 ### Aspose.Cells를 사용하려면 라이선스가 필요한가요?  
- 무료 평가판으로 시작할 수 있지만 전체 기능을 사용하려면 유료 라이선스가 필요합니다.[임시 면허](https://purchase.aspose.com/temporary-license/) 평가를 위해.
+ 무료 평가판으로 시작할 수 있지만 전체 기능을 사용하려면 유료 라이선스가 필요합니다.[임시 면허](https://purchase.aspose.com/temporary-license/) 평가를 위해서.
 ### Aspose.Cells를 사용하지 않고도 Excel 파일을 조작할 수 있나요?  
 네, EPPlus와 ClosedXML과 같은 대체 라이브러리도 있지만 Aspose.Cells는 더 광범위한 기능과 지원을 제공합니다.
 ### Aspose.Cells에 대한 추가 문서는 어디에서 찾을 수 있나요?  

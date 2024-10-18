@@ -2,7 +2,7 @@
 title: Excel 范围和地址计算
 linktitle: Excel 范围和地址计算
 second_title: Aspose.Cells .NET Excel 处理 API
-description: 探索有关 Aspose.Cells for .NET 的重要教程，轻松涵盖 Excel 范围创建、地址计算和高级操作。
+description: 发现有关 Aspose.Cells for .NET 的重要教程，轻松涵盖 Excel 范围创建、地址计算和高级操作。
 type: docs
 weight: 41
 url: /zh/net/excel-range-address-calculation/
@@ -17,7 +17,7 @@ url: /zh/net/excel-range-address-calculation/
 
 ## 获取整个 Excel 范围的地址、单元格计数和偏移量
 
-接下来，我们来谈谈范围操作的基本知识！你是否曾迷失在数据海洋中，苦苦寻找事物所在？本教程[获取整个 Excel 范围的地址、单元格计数和偏移量](./get-address-cell-count-and-offset-for-entire-excel-range/)旨在帮助您重新掌握 Excel。我们将分解如何检索范围的地址、计算其包含的单元格数量以及快速准确地计算偏移量。可以将其想象为为您的数据配备 GPS — 无需再猜测所有东西的位置。在本指南结束时，您不仅会了解理论，还会通过实际示例展示实际应用。
+接下来，我们来谈谈范围操作的基本知识！你是否曾迷失在数据海洋中，苦苦寻找事物所在？本教程[获取整个 Excel 范围的地址、单元格计数和偏移量](./get-address-cell-count-and-offset-for-entire-excel-range/)旨在帮助您重新掌握 Excel。我们将分解如何检索范围的地址、计算其包含的单元格数量以及快速准确地计算偏移量。可以将其想象为数据的 GPS — 不再需要猜测所有东西的位置。在本指南结束时，您不仅会理解理论，还会通过实际示例展示实际应用。
 
 
 ## Excel 范围和地址计算教程

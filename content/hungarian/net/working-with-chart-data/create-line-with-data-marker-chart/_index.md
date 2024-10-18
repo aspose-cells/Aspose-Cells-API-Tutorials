@@ -9,7 +9,7 @@ url: /hu/net/working-with-chart-data/create-line-with-data-marker-chart/
 ---
 ## Bevezetés
 
-Gondolkozott már azon, hogyan hozhat létre lenyűgöző diagramokat az Excelben programozottan? Nos, kösd be, mert ma belemerülünk egy vonal adatjelölő diagram létrehozásába az Aspose.Cells for .NET használatával. Ez az oktatóanyag végigvezeti Önt az egyes lépéseken, biztosítva, hogy határozottan megértse a diagramgenerálást, még akkor is, ha még csak most kezdi használni az Aspose.Cells-t.
+Gondolkozott már azon, hogyan hozhat létre lenyűgöző diagramokat az Excelben programozottan? Nos, kösd be, mert ma belemerülünk egy vonal adatjelölő diagram létrehozásába az Aspose.Cells for .NET használatával. Ez az oktatóanyag végigvezeti Önt az egyes lépéseken, biztosítva, hogy határozottan megértse a diagramkészítést, még akkor is, ha még csak most kezdi használni az Aspose.Cells-t.
 
 ## Előfeltételek
 

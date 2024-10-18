@@ -16,7 +16,7 @@ Veri işleme dünyasında, elektronik tablolar vazgeçilmez araçlardır ve Java
 
 Tarih doğrulama işlemine geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
 - Java geliştirme ortamı kuruldu.
--  Java kütüphanesi için Aspose.Cells indirildi[Burada](https://releases.aspose.com/cells/java/).
+-  Java için Aspose.Cells kütüphanesi şu adresten indirildi:[Burada](https://releases.aspose.com/cells/java/).
 - Java'da Excel dosyalarıyla çalışmaya ilişkin temel bilgiler.
 
 ## Java için Aspose.Cells Kurulumu

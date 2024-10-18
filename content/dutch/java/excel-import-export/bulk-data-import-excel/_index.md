@@ -64,7 +64,7 @@ for (int row = 0; row < maxRows; row++) {
 
 ## Stap 4: Gegevensverwerking
 
-U hebt nu toegang tot de gegevens uit het Excel-bestand en kunt de benodigde gegevensverwerking uitvoeren, zoals validatie, transformatie of opslag.
+Op dit punt hebt u toegang tot de gegevens uit het Excel-bestand en kunt u de benodigde gegevensverwerking uitvoeren, zoals validatie, transformatie of opslag.
 
 ## Conclusie
 
@@ -82,7 +82,7 @@ Aspose.Cells voor Java biedt uitgebreide opmaakopties en tools voor het verwerke
 
 ### 3. Is Aspose.Cells voor Java geschikt voor batchverwerking van Excel-bestanden?
 
-Ja, Aspose.Cells voor Java is uitermate geschikt voor batchverwerkingstaken, waardoor u eenvoudig gegevensimport en -manipulatie kunt automatiseren.
+Ja, Aspose.Cells voor Java is zeer geschikt voor batchverwerkingstaken, waardoor u eenvoudig gegevensimport en -manipulatie kunt automatiseren.
 
 ### 4. Kan ik gegevens exporteren naar Excel met dezelfde bibliotheek?
 

@@ -13,7 +13,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để làm đẹp các biểu đ
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào việc sửa đổi biểu đồ hình tròn, bạn cần có một số điều kiện tiên quyết sau:
+Trước khi đi sâu vào chi tiết về việc sửa đổi biểu đồ hình tròn, bạn cần có một số điều kiện tiên quyết sau:
 
 - Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 - Aspose.Cells cho .NET: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Cho dù bạn quyết định sử dụng phiên bản đầy đủ hay chọn dùng thử miễn phí, hãy đảm bảo rằng nó đã sẵn sàng.
@@ -96,7 +96,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 Bây giờ, chúng ta hãy đi sâu vào trang tính cụ thể có chứa biểu đồ hình tròn. Chúng ta sẽ giả sử biểu đồ hình tròn nằm trên trang tính thứ hai (chỉ mục 1):
 
 ```csharp
-// Lấy biểu đồ thiết kế ở trang thứ hai.
+//Lấy biểu đồ thiết kế ở trang thứ hai.
 Worksheet sheet = workbook.Worksheets[1];
 ```
 

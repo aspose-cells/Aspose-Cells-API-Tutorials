@@ -88,7 +88,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Définition de la plage de données pour le graphique
 chart.getNSeries().add("A2:B4", true);
 
-// Personnalisation des attributs du graphique
+//Personnalisation des attributs du graphique
 chart.getChartArea().getBorder().setVisible(false);
 chart.getChartTitle().setText("3D Bar Chart");
 ```

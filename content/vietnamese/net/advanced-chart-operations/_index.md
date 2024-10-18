@@ -13,11 +13,11 @@ Aspose.Cells for .NET là công cụ bạn cần để quản lý, thao tác và
 
 ## Áp dụng định dạng 3D cho biểu đồ
 
-Bạn muốn làm cho biểu đồ Excel của mình nổi bật? Áp dụng định dạng 3D là một bước ngoặt! Với Aspose.Cells for .NET, bạn có thể dễ dàng chuyển đổi biểu đồ chuẩn thành hình ảnh 3D ấn tượng. Điều này không chỉ tăng cường tính thẩm mỹ mà còn tăng thêm chiều sâu cho biểu diễn dữ liệu.[Tìm hiểu thêm](./apply-3d-format-to-chart/).
+Bạn muốn làm cho biểu đồ Excel của mình nổi bật? Áp dụng định dạng 3D là một bước ngoặt! Với Aspose.Cells for .NET, bạn có thể dễ dàng chuyển đổi biểu đồ chuẩn thành hình ảnh 3D ấn tượng. Điều này không chỉ tăng tính thẩm mỹ mà còn tăng thêm chiều sâu cho biểu diễn dữ liệu.[Tìm hiểu thêm](./apply-3d-format-to-chart/).
 
 ## Thay đổi kích thước và vị trí biểu đồ
 
- Bạn đã bao giờ gặp khó khăn khi điều chỉnh biểu đồ để vừa vặn hoàn hảo trong bảng tính Excel của mình chưa? Với Aspose.Cells for .NET, bạn có thể dễ dàng sửa đổi kích thước và vị trí của biểu đồ để phù hợp với nhu cầu của mình. Chỉ cần một vài dòng mã là xong.[Đọc hướng dẫn](./change-chart-size-and-position/) để học các bước đơn giản.
+ Bạn đã bao giờ gặp khó khăn khi điều chỉnh biểu đồ để vừa vặn hoàn hảo trong bảng tính Excel của mình chưa? Với Aspose.Cells for .NET, bạn có thể dễ dàng thay đổi kích thước và vị trí của biểu đồ để phù hợp với nhu cầu của mình. Chỉ cần một vài dòng mã là xong.[Đọc hướng dẫn](./change-chart-size-and-position/) để học các bước đơn giản.
 
 ## Sử dụng Sparklines để có thông tin chi tiết nhanh
 
@@ -26,7 +26,7 @@ Chắc chắn rồi! Chúng ta hãy tiếp tục mở rộng thêm các thao tá
 
 ## Thay đổi hướng nhãn đánh dấu
 
- Nhãn tích trên biểu đồ của bạn rất cần thiết để dữ liệu có thể đọc được, nhưng đôi khi hướng mặc định của chúng có thể không phù hợp với thiết kế của bạn. Với Aspose.Cells cho .NET, bạn có thể dễ dàng thay đổi hướng nhãn tích để đảm bảo biểu đồ của bạn trông chính xác theo cách bạn muốn. Điều này đặc biệt hữu ích khi xử lý các trục lộn xộn hoặc nhãn chồng chéo.[Khám phá cách thực hiện ở đây](./change-tick-label-direction/).
+ Nhãn tích trên biểu đồ của bạn rất cần thiết để dữ liệu dễ đọc, nhưng đôi khi hướng mặc định của chúng có thể không phù hợp với thiết kế của bạn. Với Aspose.Cells cho .NET, bạn có thể dễ dàng thay đổi hướng nhãn tích để đảm bảo biểu đồ của bạn trông chính xác theo cách bạn muốn. Điều này đặc biệt hữu ích khi xử lý các trục lộn xộn hoặc nhãn chồng chéo.[Khám phá cách thực hiện ở đây](./change-tick-label-direction/).
 
 ## Đọc và thao tác biểu đồ Excel 2016
 
@@ -38,7 +38,7 @@ Tùy chỉnh hình dạng nhãn dữ liệu của bạn có thể làm cho biể
 
 ## Thiết lập Dữ liệu danh mục và Dữ liệu biểu đồ
 
- Việc sắp xếp và hiển thị dữ liệu danh mục của biểu đồ của bạn một cách hiệu quả có thể rất khó khăn. Aspose.Cells for .NET cung cấp các giải pháp liền mạch để thiết lập dữ liệu danh mục và dữ liệu biểu đồ, đảm bảo rằng hình ảnh của bạn vừa chính xác vừa hấp dẫn. Điều này đặc biệt hữu ích khi xử lý các tập dữ liệu lớn hoặc tạo biểu đồ động cập nhật dựa trên thông tin đầu vào của người dùng. Hãy xem các hướng dẫn này để nắm vững cách thiết lập[dữ liệu danh mục](./setting-category-data/) Và[dữ liệu biểu đồ](./setting-chart-data/) trong tệp Excel của bạn.
+ Việc sắp xếp và hiển thị dữ liệu danh mục của biểu đồ một cách hiệu quả có thể rất khó khăn. Aspose.Cells for .NET cung cấp các giải pháp liền mạch để thiết lập dữ liệu danh mục và dữ liệu biểu đồ, đảm bảo rằng hình ảnh của bạn vừa chính xác vừa hấp dẫn. Điều này đặc biệt hữu ích khi xử lý các tập dữ liệu lớn hoặc tạo biểu đồ động cập nhật dựa trên thông tin đầu vào của người dùng. Hãy xem các hướng dẫn này để nắm vững cách thiết lập[dữ liệu danh mục](./setting-category-data/) Và[dữ liệu biểu đồ](./setting-chart-data/) trong tệp Excel của bạn.
 
 ## Đặt giá trị định dạng mã của chuỗi biểu đồ
 

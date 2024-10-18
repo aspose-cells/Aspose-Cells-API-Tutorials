@@ -9,7 +9,7 @@ url: /it/net/advanced-chart-operations/change-chart-size-and-position/
 ---
 ## Introduzione
 
-Quando si tratta di manipolare fogli di calcolo a livello di programmazione, è difficile ignorare la versatilità e la potenza di Aspose.Cells per .NET. Ti sei mai trovato in difficoltà nel ridimensionare o riposizionare grafici nei tuoi file Excel? Se è così, ti aspetta una sorpresa! Questa guida ti guiderà attraverso i passaggi incredibilmente semplici per modificare le dimensioni e la posizione dei grafici nei tuoi fogli di calcolo utilizzando Aspose.Cells. Allacciati le cinture, perché ci stiamo tuffando in questo argomento!
+Quando si tratta di manipolare fogli di calcolo in modo programmatico, è difficile ignorare la versatilità e la potenza di Aspose.Cells per .NET. Ti sei mai trovato in difficoltà nel ridimensionare o riposizionare grafici nei tuoi file Excel? Se è così, ti aspetta una sorpresa! Questa guida ti guiderà attraverso i passaggi incredibilmente semplici per modificare le dimensioni e la posizione dei grafici nei tuoi fogli di calcolo utilizzando Aspose.Cells. Allacciati le cinture, perché ci stiamo tuffando in questo argomento!
 
 ## Prerequisiti
 
@@ -51,7 +51,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-Prima di tutto, dobbiamo definire dove si trova il nostro file sorgente e dove vogliamo che venga salvato il file di output. Sostituisci "Your Document Directory" e "Your Output Directory" con i percorsi effettivi delle tue cartelle. Pensa a queste directory come alla tua base di partenza e al launchpad dove risiedono i tuoi file.
+Per prima cosa, dobbiamo definire dove si trova il nostro file sorgente e dove vogliamo che venga salvato il file di output. Sostituisci "Your Document Directory" e "Your Output Directory" con i percorsi effettivi delle tue cartelle. Pensa a queste directory come alla tua base di partenza e al launchpad dove risiedono i tuoi file.
 
 ## Passaggio 2: caricare la cartella di lavoro
 

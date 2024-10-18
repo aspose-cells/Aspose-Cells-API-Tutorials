@@ -27,7 +27,7 @@ Avant de commencer le tutoriel, assurez-vous que tout est configuré. Voici ce d
 ### Répertoire de sortie
 - Vous aurez besoin d'un répertoire dans lequel vos fichiers Excel de sortie seront enregistrés. Assurez-vous de l'avoir à portée de main.
 
-Une fois ces prérequis cochés sur votre liste, nous sommes prêts à passer à l'action !
+Une fois ces prérequis cochés sur votre liste, nous sommes prêts à passer à l’action !
 
 ## Paquets d'importation
 
@@ -113,7 +113,7 @@ Dans ce code :
 
 Ajouter une case à cocher, c'est comme mettre une cerise sur votre coupe glacée ; cela améliore toute la présentation !
 
-## Étape 6 : enregistrement du fichier Excel
+## Étape 6 : enregistrement du fichier Excel
 
 Enfin, sauvegardons notre travail. Voici la dernière pièce du puzzle :
 ```csharp

@@ -13,20 +13,20 @@ Aspose.Cells für .NET ist Ihr bevorzugtes Tool zum Verwalten, Bearbeiten und An
 
 ## 3D-Format auf Diagramm anwenden
 
-Möchten Sie, dass Ihre Excel-Diagramme hervorstechen? Die Anwendung eines 3D-Formats ist ein echter Game-Changer! Mit Aspose.Cells für .NET können Sie Standarddiagramme ganz einfach in beeindruckende 3D-Grafiken umwandeln. Dies verbessert nicht nur die Ästhetik, sondern verleiht der Datendarstellung auch Tiefe.[Mehr erfahren](./apply-3d-format-to-chart/).
+Möchten Sie, dass Ihre Excel-Diagramme hervorstechen? Die Anwendung eines 3D-Formats ist ein echter Wendepunkt! Mit Aspose.Cells für .NET können Sie Standarddiagramme ganz einfach in beeindruckende 3D-Grafiken umwandeln. Dies verbessert nicht nur die Ästhetik, sondern verleiht der Datendarstellung auch Tiefe.[Mehr erfahren](./apply-3d-format-to-chart/).
 
 ## Diagrammgröße und -position ändern
 
- Hatten Sie schon einmal Probleme, Ihr Diagramm so anzupassen, dass es perfekt in Ihr Excel-Arbeitsblatt passt? Mit Aspose.Cells für .NET können Sie die Größe und Position Ihrer Diagramme ganz einfach an Ihre Bedürfnisse anpassen. Ein paar Zeilen Code und schon sind Sie fertig.[Lesen Sie das Tutorial](./change-chart-size-and-position/) um die einfachen Schritte zu lernen.
+ Hatten Sie schon einmal Probleme, Ihr Diagramm so anzupassen, dass es perfekt in Ihr Excel-Arbeitsblatt passt? Mit Aspose.Cells für .NET können Sie die Größe und Position Ihrer Diagramme ganz einfach an Ihre Bedürfnisse anpassen. Ein paar Zeilen Code und schon sind Sie fertig.[Tutorial lesen](./change-chart-size-and-position/) um die einfachen Schritte zu lernen.
 
 ## Verwenden von Sparklines für schnelle Einblicke
 
- Sparklines sind kleine, einfache Diagramme, die eine schnelle visuelle Zusammenfassung von Datentrends bieten. Aspose.Cells für .NET erleichtert die Integration dieser Diagramme in Ihre Excel-Arbeitsmappen. Perfekt für alle, die aufschlussreiche Datenvisualisierungen hinzufügen möchten, ohne das Blatt zu überladen.[Schauen Sie sich das Tutorial an](./using-sparklines/) für schrittweise Anleitungen.
+ Sparklines sind kleine, leichtgewichtige Diagramme, die eine schnelle visuelle Zusammenfassung von Datentrends bieten. Aspose.Cells für .NET erleichtert die Integration dieser Diagramme in Ihre Excel-Arbeitsmappen. Perfekt für alle, die aufschlussreiche Datenvisualisierungen hinzufügen möchten, ohne das Blatt zu überladen.[Schauen Sie sich das Tutorial an](./using-sparklines/) für schrittweise Anleitungen.
 Sicher! Lassen Sie uns weiter auf erweiterte Diagrammoperationen eingehen, die Sie mit Aspose.Cells für .NET durchführen können.
 
 ## Richtung der Teilstrichbeschriftung ändern
 
- Teilstrichbeschriftungen in Ihren Diagrammen sind für die Lesbarkeit der Daten unerlässlich, aber manchmal passt ihre Standardrichtung möglicherweise nicht zu Ihrem Design. Mit Aspose.Cells für .NET können Sie die Richtung der Teilstrichbeschriftungen einfach ändern, um sicherzustellen, dass Ihr Diagramm genau so aussieht, wie Sie es möchten. Dies ist besonders hilfreich, wenn Sie mit überladenen Achsen oder überlappenden Beschriftungen arbeiten.[Hier erfahren Sie, wie es geht](./change-tick-label-direction/).
+ Teilstrichbeschriftungen in Ihren Diagrammen sind für die Lesbarkeit der Daten unerlässlich, aber manchmal passt ihre Standardrichtung möglicherweise nicht zu Ihrem Design. Mit Aspose.Cells für .NET können Sie die Richtung der Teilstrichbeschriftungen einfach ändern, um sicherzustellen, dass Ihr Diagramm genau so aussieht, wie Sie es möchten. Dies ist besonders hilfreich, wenn Sie mit überladenen Achsen oder überlappenden Beschriftungen arbeiten.[Hier erfahren Sie, wie das geht](./change-tick-label-direction/).
 
 ## Lesen und Bearbeiten von Excel 2016-Diagrammen
 

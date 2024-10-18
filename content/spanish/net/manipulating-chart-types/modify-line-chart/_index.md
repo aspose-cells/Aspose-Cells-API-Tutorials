@@ -9,7 +9,7 @@ url: /es/net/manipulating-chart-types/modify-line-chart/
 ---
 ## Introducción
 
-La creación de gráficos visualmente atractivos e informativos es esencial para una representación eficaz de los datos, especialmente en entornos empresariales y académicos. Pero, ¿cómo mejorar los gráficos de líneas para transmitir la historia detrás de los números? Aquí es donde Aspose.Cells para .NET entra en juego. En este artículo, analizaremos en profundidad el uso de Aspose.Cells para modificar un gráfico de líneas existente sin esfuerzo. Cubriremos todo, desde los requisitos previos hasta las instrucciones paso a paso, para ayudarle a aprovechar al máximo sus esfuerzos de visualización de datos. 
+La creación de gráficos visualmente atractivos e informativos es esencial para una representación eficaz de los datos, especialmente en entornos empresariales y académicos. Pero, ¿cómo mejorar los gráficos de líneas para transmitir la historia detrás de los números? Aquí es donde entra en juego Aspose.Cells para .NET. En este artículo, analizaremos en profundidad el uso de Aspose.Cells para modificar un gráfico de líneas existente sin esfuerzo. Cubriremos todo, desde los requisitos previos hasta las instrucciones paso a paso, para ayudarle a aprovechar al máximo sus esfuerzos de visualización de datos. 
 
 ## Prerrequisitos 
 

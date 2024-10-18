@@ -99,7 +99,7 @@ På samma sätt vill du också ställa in vilka rader som ska visas som titlar.
 pageSetup.PrintTitleRows = "$1:$2";
 ```
 
-Genom att göra detta markeras raderna 1 och 2 som titelrader. Så om du har lite rubrikinformation där, kommer den att förbli synlig på flera utskrivna sidor.
+Genom att göra detta markeras raderna 1 och 2 som titelrader. Så om du har lite rubrikinformation där, kommer den att vara synlig på flera utskrivna sidor.
 
 ## Steg 6: Spara arbetsboken
 

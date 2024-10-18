@@ -38,7 +38,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Pakiety te umożliwiają nam dostęp do klas i metod udostępnianych przez Aspose.Cells, co pozwala nam na efektywną pracę z plikami Excel.
+Pakiety te umożliwiają nam dostęp do klas i metod udostępnianych przez Aspose.Cells, co pozwala nam na efektywne przetwarzanie plików Excel.
 
 Podzielmy to na łatwe do opanowania kroki. Poprowadzimy Cię przez proces zastępowania tekstu w programie Excel za pomocą wyrażeń regularnych, skupiając się szczególnie na tym, jak zastępować wystąpienia słowa „KIM” słowem „TIM”.
 
@@ -90,12 +90,12 @@ workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 ```
 
 W tym wierszu:
-- `\\b` oznacza granicę słowa w wyrażeniu regularnym, zapewniając, że „KIM” zastępujemy tylko wtedy, gdy pojawia się jako całe słowo, a nie jako część innego słowa.
+- `\\b` oznacza granicę słowa w wyrażeniu regularnym, zapewniając, że zamieniamy „KIM” tylko wtedy, gdy pojawia się jako całe słowo, a nie jako część innego słowa.
 - Zastępujemy to „^^^TIM^^^„ (zauważ trzy daszki). To pokazuje, jak proste mogą być zamienniki oparte na wyrażeniach regularnych!
 
 ## Krok 5: Zapisywanie skoroszytu
 
-Udało się! Teraz czas zapisać zmodyfikowany skoroszyt, aby zmiany zostały wprowadzone.
+Udało się! Teraz czas zapisać zmodyfikowany skoroszyt, aby zmiany zostały zastosowane.
 
 ```csharp
 workbook.Save(outputDir + "RegexReplace_out.xlsx");

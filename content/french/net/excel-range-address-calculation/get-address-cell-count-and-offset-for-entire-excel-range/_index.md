@@ -16,7 +16,7 @@ Avant de nous salir les mains avec le code, il y a quelques éléments que vous 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre ordinateur. Il s'agit de notre IDE de référence pour le développement en C#.
 2. .NET Framework : ce didacticiel se concentre sur les applications .NET, assurez-vous donc de disposer de .NET Framework 4.0 ou supérieur.
 3. Bibliothèque Aspose.Cells : vous aurez besoin de la bibliothèque Aspose.Cells pour .NET. Vous pouvez la télécharger à partir de[ici](https://releases.aspose.com/cells/net/) Pour les nouveaux utilisateurs, pensez à commencer par le[essai gratuit](https://releases.aspose.com/).
-4. Connaissances de base de C# : une petite connaissance de C# facilitera ce parcours. Ne vous inquiétez pas si vous êtes novice, je vous guiderai étape par étape !
+4. Connaissances de base de C# : une petite connaissance de C# facilitera ce parcours. Ne vous inquiétez pas si vous êtes novice, je vous guiderai étape par étape !
 Ceci étant dit, il est temps de retrousser nos manches et de nous mettre au travail !
 ## Paquets d'importation
 Pour commencer, nous devons importer quelques packages essentiels. Il s'agit des éléments de base qui nous aideront à interagir avec les fichiers Excel dans .NET. Voici comment procéder :
@@ -24,7 +24,7 @@ Pour commencer, nous devons importer quelques packages essentiels. Il s'agit des
 Ouvrez Visual Studio et créez un nouveau projet C#. Choisissez une application console, car nous exécuterons notre code à partir de la console.
 ### Ajouter un package NuGet
 Avant de commencer à coder, ajoutons le package Aspose.Cells. Voici comment procéder :
-1. Cliquez avec le bouton droit sur votre projet dans l’Explorateur de solutions.
+1. Faites un clic droit sur votre projet dans l’Explorateur de solutions.
 2. Sélectionnez « Gérer les packages NuGet ».
 3. Dans le gestionnaire de packages NuGet, recherchez « Aspose.Cells ».
 4. Cliquez sur « Installer » pour ajouter le package à votre projet.

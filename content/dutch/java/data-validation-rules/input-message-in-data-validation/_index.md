@@ -91,7 +91,7 @@ validation.addArea(area);
 Met Aspose.Cells voor Java kunt u met verschillende gegevenstypen werken voor gegevensvalidatie, waaronder gehele getallen, decimale getallen, datums en tekst.
 
 ```java
-// Stel het type gegevensvalidatie in op decimaal
+// Stel het gegevensvalidatietype in op decimaal
 validation.setType(DataValidationType.DECIMAL);
 ```
 

@@ -2,7 +2,7 @@
 title: ウォーターフォールチャート
 linktitle: ウォーターフォールチャート
 second_title: Aspose.Cells Java Excel 処理 API
-description: Aspose.Cells for Java を使用して魅力的なウォーターフォール チャートを作成する方法を学びます。効果的なデータ視覚化のためのソース コード付きのステップ バイ ステップ ガイド。
+description: Aspose.Cells for Java を使用して魅力的なウォーターフォール チャートを作成する方法を学びます。効果的なデータ視覚化のためのソース コード付きのステップ バイ ステップ ガイドです。
 type: docs
 weight: 18
 url: /ja/java/advanced-excel-charts/waterfall-charts/
@@ -41,7 +41,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## ステップ3: データを入力する
 
-ここで、ウォーターフォール チャートで表したいデータをワークシートに入力してみましょう。
+ここで、ウォーターフォール チャートで表現するデータをワークシートに入力しましょう。
 
 ```java
 Cells cells = worksheet.getCells();

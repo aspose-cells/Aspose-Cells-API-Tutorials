@@ -1,7 +1,7 @@
 ---
 title: Trabalhando com intervalos nomeados no Excel
 linktitle: Trabalhando com intervalos nomeados no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Explore os tutoriais do Aspose.Cells for .NET para trabalhar com intervalos nomeados no Excel. Aprenda como acessar todos os intervalos nomeados ou intervalos nomeados específicos com guias passo a passo.
 type: docs
 weight: 21

@@ -9,7 +9,7 @@ url: /es/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
 ## Introducción
 
-¿Está listo para dividir los paneles de una hoja de cálculo de Excel con Aspose.Cells para .NET? Imagínese lo siguiente: tiene una hoja de cálculo de Excel gigantesca y está cansado de tener que desplazarse constantemente hacia atrás hasta los encabezados solo para recordar con qué columna está trabajando. Ingrese "Dividir paneles". Esta característica práctica le permite congelar una parte de su hoja de cálculo, lo que hace que sea mucho más fácil navegar. Ya sea que esté trabajando con datos financieros, administración de inventario o conjuntos de datos masivos, dividir paneles puede mejorar su productividad diez veces. 
+¿Está listo para dividir los paneles de una hoja de cálculo de Excel con Aspose.Cells para .NET? Imagínese lo siguiente: tiene una hoja de cálculo de Excel gigantesca y está cansado de tener que desplazarse constantemente hacia atrás hasta los encabezados solo para recordar con qué columna está trabajando. Ingrese "Paneles divididos". Esta característica práctica le permite congelar una parte de su hoja de cálculo, lo que hace que sea mucho más fácil navegar. Ya sea que esté trabajando con datos financieros, administración de inventario o conjuntos de datos masivos, dividir paneles puede mejorar su productividad diez veces. 
 
 ## Prerrequisitos
 
@@ -29,7 +29,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ahora que cubrimos lo esencial, pasemos a la parte emocionante: ¡dividir paneles!
+Ahora que cubrimos lo esencial, ¡pasemos a la parte emocionante: dividir paneles!
 
 ## Paso 1: Crear una instancia de un libro de trabajo
 
@@ -75,7 +75,7 @@ book.Worksheets[0].Split();
 
 ## Paso 4: Guardar el libro de trabajo
 
-Después de dividir los paneles, solo queda guardar el trabajo. Este último paso garantizará que los cambios se guarden en el archivo de salida especificado.
+Después de dividir los paneles, solo queda guardar el trabajo. Este paso final garantizará que los cambios se guarden en el archivo de salida especificado.
 
 ¿De qué sirve todo el trabajo duro si no lo guardas? Guardarlo garantiza que tus hermosos paneles divididos se mantengan intactos para su uso futuro.
 
@@ -96,7 +96,7 @@ book.Save(dataDir + "output.xls");
  Sí, puede dividir la hoja de cálculo en varios paneles especificando diferentes celdas activas y llamando al`Split()` método.
 
 ### ¿Cuál es la diferencia entre dividir paneles y congelarlos?  
-La división de paneles le permite desplazarse por ambos paneles de forma independiente. La congelación de paneles bloquea los encabezados o filas o columnas específicas para que permanezcan visibles al desplazarse.
+Dividir los paneles le permite desplazarse por ambos paneles de forma independiente. Congelar los paneles bloquea los encabezados o filas o columnas específicas para que permanezcan visibles al desplazarse.
 
 ### ¿Puedo eliminar la división después de aplicarlo?  
 Sí, puede eliminar la división cerrando y volviendo a abrir el libro de trabajo o restableciéndolo mediante programación.

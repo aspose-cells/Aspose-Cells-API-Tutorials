@@ -20,7 +20,7 @@ url: /hi/java/excel-data-analysis/data-analysis-excel-pivot/
 -  Aspose.Cells for Java: Aspose.Cells for Java लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में शामिल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/cells/java/).
 - नमूना डेटा: वह Excel डेटा तैयार करें जिसका आप विश्लेषण करना चाहते हैं.
 
-## नई एक्सेल वर्कबुक बनाना
+## एक नई एक्सेल वर्कबुक बनाना
 
 आइए Aspose.Cells for Java का उपयोग करके एक नई Excel वर्कबुक बनाकर शुरुआत करें। यह हमारे डेटा विश्लेषण के लिए आधार का काम करेगा।
 

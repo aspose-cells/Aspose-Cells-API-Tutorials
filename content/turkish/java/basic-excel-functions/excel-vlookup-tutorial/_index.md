@@ -10,7 +10,7 @@ url: /tr/java/basic-excel-functions/excel-vlookup-tutorial/
 
 ## giriiş
 
-Bu kapsamlı eğitimde, güçlü Aspose.Cells for Java API'sini kullanarak Excel VLOOKUP dünyasına dalacağız. İster yeni başlayan ister deneyimli bir geliştirici olun, bu kılavuz, VLOOKUP işlemlerini zahmetsizce gerçekleştirmek için Aspose.Cells for Java'nın potansiyelinden yararlanma adımlarında size yol gösterecektir.
+Bu kapsamlı eğitimde, güçlü Aspose.Cells for Java API'sini kullanarak Excel VLOOKUP dünyasına dalacağız. İster yeni başlayan ister deneyimli bir geliştirici olun, bu kılavuz, VLOOKUP işlemlerini zahmetsizce gerçekleştirmek için Aspose.Cells for Java'nın potansiyelinden yararlanma adımlarında size yol gösterecek.
 
 ## Ön koşullar
 

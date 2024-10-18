@@ -104,4 +104,4 @@ String[][] extractedData = worksheet.getCells().exportArray(cellArea);
 ### 5. أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Cells لـ Java؟
     استكشف وثائق واجهة برمجة التطبيقات على[https://reference.aspose.com/cells/Java/](https://reference.aspose.com/cells/java/) للحصول على معلومات وأمثلة متعمقة.
 
-ابدأ في أتمتة مهام استخراج البيانات الخاصة بك اليوم باستخدام Aspose.Cells for Java وقم بتبسيط عمليات استرجاع البيانات الخاصة بك.
+ابدأ في أتمتة مهام استخراج البيانات الخاصة بك اليوم باستخدام Aspose.Cells for Java وقم بتبسيط عمليات استرداد البيانات الخاصة بك.

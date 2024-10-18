@@ -14,7 +14,7 @@ Trong thời đại kỹ thuật số này, bảng tính Excel đóng vai trò l
 
 ## Tại sao khóa tế bào lại quan trọng
 
-Độ chính xác và tính bảo mật của dữ liệu là điều không thể thương lượng trong hầu hết các ngành. Khóa ô cung cấp thêm một lớp bảo vệ cho bảng tính của bạn, ngăn chặn các thay đổi trái phép trong khi vẫn cho phép người dùng hợp pháp tương tác với dữ liệu khi cần. Bài viết này sẽ hướng dẫn bạn quy trình triển khai các chiến lược khóa ô phù hợp với các yêu cầu cụ thể của bạn.
+Độ chính xác và tính bảo mật của dữ liệu là điều không thể thương lượng trong hầu hết các ngành. Khóa ô cung cấp thêm một lớp bảo vệ cho bảng tính của bạn, ngăn chặn các thay đổi trái phép trong khi vẫn cho phép người dùng hợp pháp tương tác với dữ liệu khi cần. Bài viết này sẽ hướng dẫn bạn thực hiện quy trình triển khai các chiến lược khóa ô phù hợp với các yêu cầu cụ thể của bạn.
 
 ## Bắt đầu với Aspose.Cells cho Java
 

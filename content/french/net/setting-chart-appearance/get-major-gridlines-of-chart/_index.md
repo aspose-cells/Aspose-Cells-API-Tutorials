@@ -15,7 +15,7 @@ Créer des graphiques visuellement attrayants et informatifs est essentiel pour 
 
 Avant de plonger dans le didacticiel, assurez-vous que tout est prêt :
 
--  Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est téléchargée et référencée dans votre projet. Vous pouvez l'obtenir[ici](https://releases.aspose.com/cells/net/).
+- Aspose.Cells pour .NET : assurez-vous que la bibliothèque Aspose.Cells est téléchargée et référencée dans votre projet. Vous pouvez l'obtenir[ici](https://releases.aspose.com/cells/net/).
 - Environnement de développement : tout environnement de développement .NET fonctionnera, mais Visual Studio est fortement recommandé pour son support et ses outils robustes.
 - Compréhension de base de C# : une connaissance des bases de la programmation C# sera utile car nous allons écrire du code.
 
@@ -76,7 +76,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Ici, nous entrons des valeurs aléatoires dans des cellules`A1` à`B3`. Ces données serviront de source de données pour notre graphique. Il est essentiel d'avoir des données significatives à visualiser, sinon le graphique ne serait que de jolies lignes sans contexte !
+ Ici, nous entrons des valeurs aléatoires dans des cellules`A1` à`B3`Ces données serviront de source de données pour notre graphique. Il est essentiel d'avoir des données significatives à visualiser, sinon le graphique ne serait que de jolies lignes sans contexte !
 
 ## Étape 5 : Ajouter un graphique à la feuille de calcul
 
@@ -131,7 +131,7 @@ chart.CategoryAxis.MajorGridLines.IsVisible = true;
 chart.ValueAxis.MajorGridLines.IsVisible = true;
 ```
 
-Ces deux lignes permettront aux utilisateurs de lire et d’interpréter facilement les données en offrant des indications visuelles sur la manière dont les valeurs s’alignent. 
+Ces deux lignes permettront aux utilisateurs de lire et d’interpréter facilement les données en offrant des conseils visuels sur la manière dont les valeurs s’alignent. 
 
 ## Étape 10 : Enregistrer le classeur
 
@@ -145,9 +145,9 @@ Cette ligne enregistrera votre travail sous forme de fichier Excel dans le répe
 
 ## Conclusion
 
-Et voilà ! Vous avez réussi à créer une feuille de calcul Excel contenant un graphique avec les principales lignes de quadrillage à l'aide d'Aspose.Cells pour .NET. Non seulement vous avez appris à utiliser des graphiques, mais vous avez également acquis des compétences pour manipuler facilement des éléments visuellement captivants. Cette méthode peut être très utile dans les rapports commerciaux, les présentations académiques ou tout scénario où la visualisation des données est essentielle pour transmettre votre message.
+Et voilà ! Vous avez réussi à créer une feuille de calcul Excel contenant un graphique avec des lignes de grille principales à l'aide d'Aspose.Cells pour .NET. Non seulement vous avez appris à utiliser des graphiques, mais vous avez également acquis des compétences pour manipuler facilement des éléments visuellement captivants. Cette méthode peut être très utile dans les rapports commerciaux, les présentations académiques ou tout scénario où la visualisation des données est essentielle pour transmettre votre message.
 
-En maîtrisant ces techniques, vous serez sur la bonne voie pour créer des rapports dynamiques qui feront ressortir vos données !
+En maîtrisant ces techniques, vous êtes sur la bonne voie pour créer des rapports dynamiques qui font ressortir vos données !
 
 ## FAQ
 
@@ -158,7 +158,7 @@ Aspose.Cells pour .NET est une API puissante pour manipuler des feuilles de calc
  Vous pouvez obtenir une licence temporaire en visitant[ce lien](https://purchase.aspose.com/temporary-license/).
 
 ### Puis-je personnaliser l'apparence du graphique au-delà des couleurs ?
-Oui ! Aspose.Cells permet une personnalisation étendue, notamment des polices, des styles et des formats pour les éléments de graphique.
+Oui ! Aspose.Cells permet une personnalisation étendue, y compris les polices, les styles et les formats des éléments de graphique.
 
 ### Où puis-je trouver plus de documentation ?
  Vous trouverez une documentation complète sur[Page de référence d'Aspose](https://reference.aspose.com/cells/net/).

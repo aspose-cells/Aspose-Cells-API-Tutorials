@@ -16,7 +16,7 @@ Microsoft Excel is een veelzijdige tool die verder gaat dan eenvoudige gegevensi
 
 Voordat we beginnen met het maken van dynamische vervolgkeuzelijsten, moet u ervoor zorgen dat aan de volgende vereisten is voldaan:
 
-- Java-ontwikkelomgeving: Java en een geschikte Integrated Development Environment (IDE) moeten op uw systeem geïnstalleerd zijn.
+- Java-ontwikkelomgeving: Java en een geschikte Integrated Development Environment (IDE) dienen op uw systeem geïnstalleerd te zijn.
 
 -  Aspose.Cells voor Java-bibliotheek: download de Aspose.Cells voor Java-bibliotheek van[hier](https://releases.aspose.com/cells/java/) en neem het op in uw Java-project.
 

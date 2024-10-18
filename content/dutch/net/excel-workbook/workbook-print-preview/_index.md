@@ -72,7 +72,7 @@ Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 
 ## Stap 3: Afdrukopties instellen
 
-Voordat we de afdrukvoorbeeld genereren, moeten we de opties instellen voor hoe het wordt weergegeven. Dit is alsof je het juiste recept kiest voordat je je maaltijd kookt:
+Voordat we het afdrukvoorbeeld genereren, moeten we de opties instellen voor hoe het wordt weergegeven. Dit is alsof je het juiste recept kiest voordat je je maaltijd kookt:
 
 ```csharp
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
@@ -119,11 +119,11 @@ Het is altijd fijn om af te sluiten met een vriendelijk berichtje om te bevestig
 Console.WriteLine("PrintPreview executed successfully.");
 ```
 
-Deze regel is als de finishing touch na het afronden van een project: altijd handig om te weten dat je goed werk hebt geleverd!
+Deze regel is als het ware de finishing touch na het afronden van een project: het is altijd handig om te weten dat je goed werk hebt geleverd!
 
 ## Conclusie
 
-En daar heb je het! Je hebt met succes een afdrukvoorbeeld ingesteld voor je Excel-werkmap met Aspose.Cells voor .NET. We hebben alles behandeld, van het importeren van pakketten tot het evalueren van paginatellingen voor zowel de hele werkmap als afzonderlijke werkbladen. Het is verbazingwekkend hoe gemakkelijk het kan zijn om te visualiseren hoe je werkmap eruit zal zien wanneer deze wordt afgedrukt, toch? Door Aspose.Cells te gebruiken, krijg je krachtige tools tot je beschikking. Of je nu een ervaren ontwikkelaar bent of iemand die net begint, deze bibliotheek biedt de flexibiliteit en functionaliteit die je nodig hebt om je Excel-bestandsbeheer naar een hoger niveau te tillen.
+En daar heb je het! Je hebt met succes een afdrukvoorbeeld ingesteld voor je Excel-werkmap met Aspose.Cells voor .NET. We hebben alles behandeld, van het importeren van pakketten tot het evalueren van paginatellingen voor zowel de hele werkmap als afzonderlijke werkbladen. Het is verbazingwekkend hoe gemakkelijk het kan zijn om te visualiseren hoe je werkmap eruit zal zien als deze wordt afgedrukt, toch? Door Aspose.Cells te gebruiken, krijg je krachtige tools tot je beschikking. Of je nu een ervaren ontwikkelaar bent of iemand die net begint, deze bibliotheek biedt de flexibiliteit en functionaliteit die je nodig hebt om je Excel-bestandsbeheer naar een hoger niveau te tillen.
 
 ## Veelgestelde vragen
 

@@ -17,7 +17,7 @@ Parfois, vous pouvez avoir besoin de dupliquer des plages nommées pour diverses
 
 ## Suppression des plages nommées dans Excel
 
- Il arrive que des plages nommées deviennent obsolètes ou encombrent simplement votre classeur. Heureusement, Aspose.Cells pour .NET rend la suppression de ces plages aussi simple que leur copie. Pour supprimer une plage nommée, vous identifiez celle que vous souhaitez supprimer et appelez la méthode appropriée dans la bibliothèque. Ce processus de nettoyage est essentiel pour garder votre classeur organisé et efficace. Après tout, une feuille de calcul bien rangée est une feuille de calcul heureuse ![Lire la suite ici !](./remove-named-range/)
+ Il arrive que des plages nommées deviennent obsolètes ou encombrent simplement votre classeur. Heureusement, Aspose.Cells for .NET rend la suppression de ces plages aussi simple que leur copie. Pour supprimer une plage nommée, vous identifiez celle que vous souhaitez supprimer et appelez la méthode appropriée dans la bibliothèque. Ce processus de nettoyage est essentiel pour garder votre classeur organisé et efficace. Après tout, une feuille de calcul bien rangée est une feuille de calcul heureuse ![Lire la suite ici !](./remove-named-range/)
 
 ## Tutoriels sur la gestion des plages nommées dans Excel
 ### [Copier des plages nommées dans Excel](./copy-named-ranges/)

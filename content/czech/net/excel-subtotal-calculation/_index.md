@@ -1,6 +1,6 @@
 ---
-title: Mezisoučet a výpočet v Excelu
-linktitle: Mezisoučet a výpočet v Excelu
+title: Mezisoučet a výpočet Excelu
+linktitle: Mezisoučet a výpočet Excelu
 second_title: Aspose.Cells .NET Excel Processing API
 description: Zjistěte, jak pomocí Aspose.Cells for .NET vytvářet mezisoučty a precedenty Excelu. Postupujte podle těchto výukových programů a bez námahy vylepšete své dovednosti s tabulkovým procesorem.
 type: docs

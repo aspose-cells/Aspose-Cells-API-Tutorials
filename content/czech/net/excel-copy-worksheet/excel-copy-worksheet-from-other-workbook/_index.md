@@ -46,7 +46,7 @@ Nyní, když máme vše připraveno, pojďme se pustit do vzrušující části 
 Nejprve musíme určit, kde budou naše soubory Excel uloženy. Definujte cestu k adresáři dokumentů:
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte to do svého skutečného adresáře
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // Aktualizujte toto na váš skutečný adresář
 ```
  The`dataDir` proměnná uloží cestu, kam uložíte konečný soubor Excel. Ujistěte se, že jste nahradili "VÁŠ ADRESÁŘ DOKUMENTŮ" skutečnou cestou ve vašem systému.
 
@@ -137,7 +137,7 @@ Aspose.Cells je knihovna .NET, která umožňuje vývojářům vytvářet, manip
  O dočasnou licenci můžete požádat návštěvou[tento odkaz](https://purchase.aspose.com/temporary-license/).
 
 ### Kde najdu další dokumentaci na Aspose.Cells?  
-Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
+ Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/cells/net/).
 
 ### Je k dispozici nějaká podpora pro uživatele Aspose.Cells?  
  Absolutně! Podporu můžete získat prostřednictvím[Aspose fórum](https://forum.aspose.com/c/cells/9).

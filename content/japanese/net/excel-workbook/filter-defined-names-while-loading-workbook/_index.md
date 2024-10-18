@@ -53,7 +53,7 @@ LoadOptions opts = new LoadOptions();
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-チルダ（〜) 演算子は、定義された名前を読み込みプロセスから除外することを示します。これは、ワークロードを軽く保ち、処理を複雑にする可能性のある不要なデータを回避する場合に重要です。
+チルダ（〜演算子は、定義された名前を読み込みプロセスから除外することを示します。これは、ワークロードを軽く保ち、処理を複雑にする可能性のある不要なデータを回避する場合に重要です。
 
 ## ステップ3: ワークブックを読み込む
 
@@ -63,7 +63,7 @@ opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
-この行では、`Workbook`クラスに、サンプル Excel ファイルへのパスと読み込みオプションを渡します。これにより、定義済みの名前が指定どおりにフィルター処理されたブックが読み込まれます。
+この行では、`Workbook`クラスに、サンプル Excel ファイルへのパスと読み込みオプションを渡します。これにより、定義済みの名前が指定どおりにフィルター処理されたワークブックが読み込まれます。
 
 ## ステップ4: 出力ファイルを保存する
 

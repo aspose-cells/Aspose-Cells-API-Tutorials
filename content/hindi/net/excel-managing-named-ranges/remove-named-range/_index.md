@@ -99,14 +99,14 @@ Range range1 = worksheet.Cells.CreateRange("E12", "I12");
 range1.Name = "FirstRange";
 ```
 
-यहाँ, हम कक्ष E12 से I12 तक की एक श्रेणी परिभाषित करते हैं और इसे “FirstRange” नाम देते हैं।
+यहाँ, हम कक्ष E12 से I12 तक की श्रेणी निर्धारित करते हैं और इसे “FirstRange” नाम देते हैं।
 
 ## चरण 6: नामित श्रेणी का प्रारूपण
 
 यह प्रदर्शित करने के लिए कि Aspose.Cells कितना बहुमुखी हो सकता है, आइए हमारे नामित श्रेणी में कुछ स्वरूपण जोड़ें।
 
 ```csharp
-// बाह्यरेखा सीमा को सीमा पर सेट करें.
+// बाह्यरेखा बॉर्डर को रेंज पर सेट करें.
 range1.SetOutlineBorder(BorderType.TopBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 range1.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
 range1.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Medium, Color.FromArgb(0, 0, 128));
@@ -143,7 +143,7 @@ range2.Name = "SecondRange";
 
 ## चरण 9: पहली रेंज को दूसरी रेंज में कॉपी करना
 
-आइए हम पहली श्रेणी से डेटा कॉपी करके दूसरी श्रेणी का उपयोग कैसे करें, यह प्रदर्शित करें।
+आइए हम पहली श्रेणी से डेटा कॉपी करके दूसरी श्रेणी का उपयोग करने का तरीका प्रदर्शित करें।
 
 ```csharp
 // पहली श्रेणी को दूसरी श्रेणी में कॉपी करें।

@@ -94,11 +94,11 @@ MAX işlevi bir aralıktaki maksimum sayısal değeri bulurken, MAXA işlevi hem
 
 Evet yapabilirsiniz. MAX fonksiyonunu IF gibi mantıksal fonksiyonlarla birleştirerek belirli koşullara göre maksimum değeri bulabilirsiniz.
 
-### Aspose.Cells'de MAX fonksiyonunu kullanırken oluşan hataları nasıl hallederim?
+### Aspose.Cells'de MAX fonksiyonunu kullanırken oluşan hataları nasıl ele alabilirim?
 
 MAX işlevini kullanırken ortaya çıkabilecek istisnaları işlemek için try-catch bloklarını kullanabilirsiniz. Hataları önlemek için işlevi uygulamadan önce aralıkta sayısal olmayan veri olup olmadığını kontrol edin.
 
-### Aspose.Cells for Java büyük Excel dosyalarıyla çalışmaya uygun mudur?
+### Java için Aspose.Cells büyük Excel dosyalarıyla çalışmaya uygun mudur?
 
 Evet, Java için Aspose.Cells büyük Excel dosyalarını verimli bir şekilde işlemek için tasarlanmıştır. Çeşitli boyutlardaki Excel dosyalarını okumak, yazmak ve düzenlemek için özellikler sağlar.
 

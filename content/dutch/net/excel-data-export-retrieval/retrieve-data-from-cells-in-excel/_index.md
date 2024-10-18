@@ -2,7 +2,7 @@
 title: Gegevens ophalen uit cellen in Excel
 linktitle: Gegevens ophalen uit cellen in Excel
 second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u gegevens uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze stapsgewijze zelfstudie, perfect voor zowel beginners als ervaren ontwikkelaars.
+description: Leer hoe u gegevens uit Excel-cellen kunt ophalen met Aspose.Cells voor .NET in deze stapsgewijze zelfstudie, die perfect is voor zowel beginners als ervaren ontwikkelaars.
 type: docs
 weight: 10
 url: /nl/net/excel-data-export-retrieval/retrieve-data-from-cells-in-excel/
@@ -56,7 +56,7 @@ Nu u de documentenmap hebt ingesteld, opent u de werkmap (Excel-bestand) waarmee
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Hier creëren we een`Workbook`object door het volledige pad van het Excel-bestand door te geven. Deze stap initialiseert de werkmap en maakt deze gereed voor het ophalen van gegevens.
+ Hier creëren we een`Workbook` object door het volledige pad van het Excel-bestand door te geven. Deze stap initialiseert de werkmap en maakt deze gereed voor het ophalen van gegevens.
 
 ## Stap 3: Toegang tot het eerste werkblad
 
@@ -68,7 +68,7 @@ Nadat u de werkmap hebt geopend, wilt u toegang tot het specifieke werkblad waar
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- De`Worksheets` collectie geeft u toegang tot verschillende bladen in de werkmap. De index`[0]` verwijst naar het eerste werkblad. Als u toegang wilt tot volgende werkbladen, kunt u de index dienovereenkomstig wijzigen.
+ De`Worksheets` collectie geeft u toegang tot verschillende bladen in de werkmap. De index`[0]`verwijst naar het eerste werkblad. Als u toegang wilt tot volgende werkbladen, kunt u de index dienovereenkomstig wijzigen.
 
 ## Stap 4: Loop door cellen
 
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Het gegevenstype van de celgegevens voor de datum-/tijdwaarde evalueren
+        // Het gegevenstype van de celgegevens voor de datum-/tijdwaarde evalueren
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- In deze stap doorlopen we elke cel in het werkblad. Voor elke cel controleren we het gegevenstype met behulp van een`switch` statement. Afhankelijk van het type halen we de waarde op en printen deze naar de console. Hier is een overzicht van de gevallen:
+ In deze stap doorlopen we elke cel in het werkblad. Voor elke cel controleren we het gegevenstype met behulp van een`switch`statement. Afhankelijk van het type halen we de waarde op en printen deze naar de console. Hier is een overzicht van de gevallen:
 
 -  IsString: Als de cel een string bevat, halen we deze op met behulp van`StringValue`.
 -  IsNumeric: Voor numerieke waarden gebruiken we`DoubleValue`.
@@ -143,7 +143,7 @@ Gegevens ophalen uit Excel-cellen met Aspose.Cells voor .NET is een eenvoudig pr
 Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars Excel-bestanden kunnen maken, bewerken en converteren zonder dat Microsoft Excel geïnstalleerd hoeft te zijn.
 
 ### Kan ik Aspose.Cells gratis gebruiken?  
- Ja, Aspose.Cells biedt een gratis proefversie die u kunt gebruiken om de functies te testen. U kunt het downloaden[hier](https://releases.aspose.com/).
+Ja, Aspose.Cells biedt een gratis proefversie die u kunt gebruiken om de functies te testen. U kunt het downloaden[hier](https://releases.aspose.com/).
 
 ### Welke soorten gegevens kan ik uit Excel-cellen ophalen?  
 U kunt verschillende gegevenstypen ophalen, waaronder tekenreeksen, getallen, Booleaanse waarden en datum-/tijdwaarden.

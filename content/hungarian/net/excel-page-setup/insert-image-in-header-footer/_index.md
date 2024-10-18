@@ -95,7 +95,7 @@ A kép bináris adataival most már beilleszthetjük a fejlécbe.
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Ez a sor a képet a fejléc középső részébe helyezi. A paraméter`1` fejléc szakaszt határozza meg.
+ Ez a sor a képet a fejléc középső részébe helyezi. A paraméter`1` a fejléc szakaszt határozza meg.
 
 ## 7. lépés: A fejléc tartalmának beállítása
 
@@ -148,4 +148,4 @@ Igen, különböző helyőrzők használatával külön képeket illeszthet be a
 Győződjön meg arról, hogy a kép elérési útja helyes, és a fájl létezik. Ellenőrizze a képformátum-kompatibilitást is.
 
 ### Hol találhatok további dokumentációt az Aspose.Cells-hez?
-Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).
+ Részletes dokumentációt találhat[itt](https://reference.aspose.com/cells/net/).

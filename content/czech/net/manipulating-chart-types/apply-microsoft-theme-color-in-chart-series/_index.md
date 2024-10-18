@@ -79,7 +79,7 @@ Stejně jako otočení na konkrétní stránku v knize nás tento krok nasměruj
 Nyní je čas najít graf, který chceme upravit. Tady to kouzlo opravdu začíná!
 
 ```csharp
-//Získejte první graf v listu
+// Získejte první graf v listu
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -112,7 +112,7 @@ Zde si vezmeme nastavení barev pro řadu grafů.
  Nyní použijeme barvu motivu Microsoft. Vybereme a`Accent` styl, protože kdo nemá rád pop barvy?
 
 ```csharp
-//Vytvořte motiv ve stylu Accent
+// Vytvořte motiv ve stylu Accent
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 

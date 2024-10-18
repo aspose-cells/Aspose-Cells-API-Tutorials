@@ -27,7 +27,7 @@ Excel 文件是企业和个人数据管理中必不可少的文件，可让用�
 
 ### 设置你的项目
 
-打开 Visual Studio 并创建一个新的 C# 项目。在`Solution Explorer`，右键单击您的项目并选择“添加新项目...”。选择“C# 类”并为其命名（例如，`ExcelUnprotector.cs`）。
+打开 Visual Studio 并创建一个新的 C# 项目。在`Solution Explorer`，右键单击您的项目并选择添加新项目...。选择 C# 类并为其命名（例如，`ExcelUnprotector.cs`）。
 
 ### 安装 Aspose.Cells
 
@@ -68,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; //将其更改为您的实际路径
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-通过提供 Excel 文件的路径 (`book1.xls`)，您正在将文档加载到内存中，以便您可以对其进行操作。
+通过提供 Excel 文件的路径 (`book1.xls`)，您正在将文档加载到内存中，以便可以对其进行操作。
 
 ## 步骤 3：访问工作表
 

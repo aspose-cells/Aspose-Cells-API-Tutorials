@@ -27,7 +27,7 @@ url: /zh/net/excel-workbook/add-web-extension/
 要使用 Aspose.Cells，首先需要导入必要的包。操作方法如下：
 
 1. 打开您的项目：在 Visual Studio 中，首先打开您的项目。
-2. 添加引用：在解决方案资源管理器中右键单击您的项目，选择管理 NuGet 包，然后搜索`Aspose.Cells`将包安装到你的项目中。
+2. 添加引用：在解决方案资源管理器中右键单击您的项目，选择“管理 NuGet 包”，然后搜索`Aspose.Cells`将包安装到你的项目中。
 3. 导入必要的命名空间：在代码文件的顶部，您需要为 Aspose.Cells 命名空间添加以下使用指令：
 
 ```csharp

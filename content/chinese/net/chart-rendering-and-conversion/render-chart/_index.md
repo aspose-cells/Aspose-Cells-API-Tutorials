@@ -17,7 +17,7 @@ url: /zh/net/chart-rendering-and-conversion/render-chart/
 
 1. .NET 环境：确保您已设置 .NET 开发环境。您可以使用 Visual Studio 或任何其他支持 .NET 的 IDE。
 2.  Aspose.Cells for .NET：您需要安装 Aspose.Cells 库。您可以从以下网址下载[Aspose 的发布页面](https://releases.aspose.com/cells/net/).
-3. 基本 C# 知识：熟悉 C# 编程将帮助您更好地理解示例，但如果您是新手，请不要担心 - 本指南将逐步解释所有内容！
+3. 基本 C# 知识：熟悉 C# 编程将帮助您更好地理解示例，但如果您是新手，请不要担心 - 本指南将逐步解释一切！
 
 ## 导入包
 

@@ -25,7 +25,7 @@ Innan vi dyker in i handledningen, låt oss se till att du har allt inställt. H
 - Eftersom vi kommer att skriva lite kod kommer en grundläggande förståelse av C# att vara fördelaktig. Oroa dig inte; Jag ska förklara saker allt eftersom!
 
 ### Utdatakatalog
-- Du behöver en katalog där dina utdata Excel-filer kommer att sparas. Se till att du har detta till hands.
+- Du behöver en katalog där dina utdata Excel-filer kommer att sparas. Se till att du har det här till hands.
 
 Med dessa förutsättningar avkryssade på din lista är vi redo att hoppa in i handlingen!
 

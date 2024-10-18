@@ -56,7 +56,7 @@ Setelah direktori kita disiapkan, langkah selanjutnya adalah membuat buku kerja 
 Workbook wb = new Workbook();
 ```
 
-Sama seperti seniman yang memulai dengan kanvas kosong, Anda memulai dengan buku kerja kosong yang nantinya dapat Anda masukkan data atau pemformatan.
+Sama seperti seorang seniman yang memulai dengan kanvas kosong, Anda memulai dengan buku kerja kosong yang nantinya dapat Anda masukkan data atau pemformatan.
 
 ## Langkah 3: Lindungi Buku Kerja dari Penulisan
 
@@ -93,7 +93,7 @@ wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah mempelajari cara membuat buku kerja Excel, mengatur proteksi penulisan dengan kata sandi, menentukan penulis, dan menyimpannya dengan lancar menggunakan Aspose.Cells for .NET. Kombinasi fungsi ini tidak hanya akan mengamankan data Anda, tetapi juga menjaga integritasnya dan memberikan atribusi yang tepat.
+Nah, itu dia! Anda telah mempelajari cara membuat buku kerja Excel, mengatur proteksi penulisan dengan kata sandi, menentukan penulis, dan menyimpannya dengan mudah menggunakan Aspose.Cells for .NET. Kombinasi fungsi ini tidak hanya akan mengamankan data Anda, tetapi juga menjaga integritasnya dan memberikan atribusi yang tepat.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -25,7 +25,7 @@ Aspose.Cells は多くのタスクを簡素化しますが、C# の基礎的な�
 Visual Studio のような IDE をセットアップしておく必要があります。これにより、コードを効果的に処理およびテストできるようになります。
 
 ### サンプル Excel ファイル
-サンプルファイル（`samplePageSetupIsAutomaticPaperSize-False.xlsx`そして`samplePageSetupIsAutomaticPaperSize-True.xlsx`) をテスト目的でインストールします。これらのファイルがソース ディレクトリにあることを確認してください。
+サンプルファイル（`samplePageSetupIsAutomaticPaperSize-False.xlsx`そして`samplePageSetupIsAutomaticPaperSize-True.xlsx`) をテスト目的で使用します。これらのファイルがソース ディレクトリにあることを確認してください。
 
 ## パッケージのインポート
 
@@ -39,7 +39,7 @@ using Aspose.Cells;
 
 これは、基本機能に Aspose.Cells ライブラリと System 名前空間を使用することをコンパイラに伝えます。
 
-わかりやすく段階的なチュートリアルに分解して、簡単に実行できるようにしましょう。準備はいいですか? さあ、始めましょう!
+わかりやすく段階的なチュートリアルに分解して、簡単に理解できるようにしましょう。準備はいいですか? さあ、始めましょう!
 
 ## ステップ1: ソースディレクトリと出力ディレクトリを設定する
 
@@ -85,7 +85,7 @@ Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " 
 
 ## ステップ5: まとめる
 
-最後に、コードが正常に実行されたことを示すフィードバックを提供するのは良い習慣です。メイン メソッドの最後に簡単なメッセージを追加します。
+最後に、コードが正常に実行されたというフィードバックを提供するのは良い習慣です。メイン メソッドの最後に簡単なメッセージを追加します。
 
 ```csharp
 Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfully.\r\n");

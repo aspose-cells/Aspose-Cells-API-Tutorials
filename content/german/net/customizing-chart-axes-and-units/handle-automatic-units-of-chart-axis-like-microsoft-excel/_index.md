@@ -18,7 +18,7 @@ Bevor wir mit dem Tutorial beginnen, stellen wir sicher, dass Sie alles haben, w
 1. Visual Studio installiert: Sie benötigen eine IDE wie Visual Studio, um Ihren .NET-Code zu schreiben und auszuführen.
 2. .NET Framework: Dieses Tutorial setzt voraus, dass Sie .NET Framework 4.0 oder höher verwenden. Aspose.Cells ist jedoch auch mit .NET Core kompatibel.
 3.  Aspose.Cells-Bibliothek: Wenn Sie dies noch nicht getan haben, laden Sie die Bibliothek von der Aspose-Website herunter[Hier](https://releases.aspose.com/cells/net/) Sie können auch mit einer kostenlosen Testversion beginnen, die verfügbar ist[Hier](https://releases.aspose.com/).
-4.  Beispiel-Excel-Datei: Wir verwenden eine Beispiel-Excel-Datei mit dem Namen`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Stellen Sie sicher, dass Sie diese Datei in Ihrem Arbeitsverzeichnis bereit haben.
+4. Beispiel-Excel-Datei: Wir verwenden eine Beispiel-Excel-Datei mit dem Namen`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Stellen Sie sicher, dass Sie diese Datei in Ihrem Arbeitsverzeichnis bereit haben.
 
 ## Pakete importieren
 
@@ -62,7 +62,7 @@ Jetzt können Sie mit der Bearbeitung unserer Excel-Datei beginnen!
 Bevor wir die Excel-Datei laden, richten wir die Ausgabe- und Quellverzeichnisse ein. Dadurch können wir angeben, wo unsere Dateien gespeichert werden.
 
 ```csharp
-// Ausgabeverzeichnis - wo das PDF gespeichert wird
+//Ausgabeverzeichnis - wo das PDF gespeichert wird
 string outputDir = "Your Output Directory"; // Geben Sie hier Ihr Ausgabeverzeichnis an
 
 // Quellverzeichnis - wo sich die Excel-Beispieldatei befindet
@@ -96,7 +96,7 @@ Worksheet ws = wb.Worksheets[0];
 Jetzt ist es an der Zeit, mit dieser einfachen Codezeile auf das erste Diagramm in Ihrem Arbeitsblatt zuzugreifen:
 
 ```csharp
-// Zugriff auf das erste Diagramm
+// Greifen Sie auf das erste Diagramm zu
 Chart ch = ws.Charts[0];
 ```
 
@@ -108,7 +108,7 @@ Eine der wichtigsten Funktionen von Diagrammen in Excel ist die Handhabung autom
 
 ```csharp
 // Haupteinheit für die Y-Achse festlegen
-ch.AxisY.MajorUnit = 10; // Sie können entsprechend Ihren Anforderungen einstellen
+ch.AxisY.MajorUnit = 10; //Sie können entsprechend Ihren Anforderungen einstellen
 ```
 
 Lassen Sie uns jetzt die automatischen Einheiten aktualisieren!
@@ -151,4 +151,4 @@ Auf Ihrem Computer müssen nur die Aspose.Cells-Bibliothek und ein .NET Framewor
 Absolut! Aspose.Cells unterstützt verschiedene Formate wie XLSX, HTML und Bilder.
 
 ### Wo finde ich Unterstützung, wenn ich auf Probleme stoße?
-Sie können Hilfe von der Aspose-Community suchen[Hier](https://forum.aspose.com/c/cells/9).
+ Sie können Hilfe von der Aspose-Community suchen[Hier](https://forum.aspose.com/c/cells/9).

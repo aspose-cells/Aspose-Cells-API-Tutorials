@@ -15,13 +15,13 @@ När du dyker in i avancerade Excel-funktioner sticker namngivna intervall ut. D
 
 Låt oss börja med hur man enkelt identifierar celler inom ett namngivet intervall med Aspose.Cells för .NET. Processen är sömlös! Först definierar du ett namngivet intervall i din Excel-fil. Aspose gör detta otroligt användarvänligt. Allt du behöver är några rader kod för att komma åt och manipulera dina data. Genom att kunna identifiera specifika celler i ett namngivet intervall kan du effektivisera ditt arbetsflöde avsevärt. 
 
-Tänk på detta: du har en försäljningsrapport med olika regioner markerade med namngivna intervall. Istället för att filtrera varje gång du vill extrahera information kan du komma åt den direkt via namnet. Detta sparar inte bara tid utan minimerar också fel. Om du vill utforska detta i detalj, kolla in vår handledning om[Identifiera celler i namngivet intervall](./identify-cells-in-named-range/). 
+ Tänk på detta: du har en försäljningsrapport med olika regioner markerade med namngivna intervall. Istället för att filtrera varje gång du vill extrahera information kan du komma åt den direkt via namnet. Detta sparar inte bara tid utan minimerar också fel. Om du vill utforska detta i detalj, kolla in vår handledning om[Identifiera celler i namngivet intervall](./identify-cells-in-named-range/). 
 
 ## Slå samman celler i namngivet intervall i Excel
 
 Nästa steg är en av de mest visuellt tilltalande men ändå praktiska operationerna – sammanslagning av celler i ett namngivet område. Vill du göra dina kalkylblad mer organiserade? Genom att slå samman celler kan du skapa rubriker som spänner över flera kolumner eller rader, vilket ger din rapport ett rent, professionellt utseende. Genom att använda Aspose.Cells för .NET kunde sammanslagningen av celler inte vara enklare. 
 
-Det fina med denna funktion ligger i dess användarvänlighet. Du kan slå samman celler programmatiskt, vilket innebär att din formatering kan automatiseras. Föreställ dig att skapa veckorapporter där rubriken automatiskt slås samman varje gång. Med Aspose tar denna uppgift bara några få klick och rader kod. Nyfiken på hur man gör? Gå över till vår guide på[Slår ihop celler i namngivet intervall](./merge-cells-in-named-range/).
+ Det fina med denna funktion ligger i dess användarvänlighet. Du kan slå samman celler programmatiskt, vilket innebär att din formatering kan automatiseras. Föreställ dig att skapa veckorapporter där rubriken automatiskt slås samman varje gång. Med Aspose tar denna uppgift bara några få klick och rader kod. Nyfiken på hur man gör? Gå över till vår guide på[Slår ihop celler i namngivet intervall](./merge-cells-in-named-range/).
 
 ## Avancerade operationer med namngivna intervall i Excel självstudier
 ### [Identifiera celler i namngivna intervall i Excel](./identify-cells-in-named-range/)

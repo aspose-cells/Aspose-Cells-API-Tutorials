@@ -57,7 +57,7 @@ wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-这里我们添加了两个工作表，分别名为“TestSheet1”和“TestSheet2”。这就像在工作簿中创建两个不同的页面，您可以独立管理其中的内容。
+这里我们添加了两个工作表，分别名为“TestSheet1”和“TestSheet2”。这就像在工作簿中创建两个不同的页面，您可以在其中独立管理内容。
 
 ## 步骤 3：访问工作表
 

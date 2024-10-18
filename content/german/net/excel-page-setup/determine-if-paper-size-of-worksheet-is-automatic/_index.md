@@ -9,7 +9,7 @@ url: /de/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
 ## Einführung
 
-Wenn Sie mit Aspose.Cells für .NET in die Welt der Tabellenkalkulationsbearbeitung eintauchen, haben Sie eine fantastische Wahl getroffen. Die Möglichkeit, Excel-Dateien programmgesteuert anzupassen und zu verwalten, kann zahlreiche Aufgaben vereinfachen und Ihre Arbeit effizienter machen. In diesem Handbuch konzentrieren wir uns auf eine bestimmte Aufgabe: Bestimmen, ob die Papiergrößeneinstellungen eines Arbeitsblatts automatisch erfolgen. Also schnappen Sie sich Ihren Programmierhut und legen Sie los!
+Wenn Sie mit Aspose.Cells für .NET in die Welt der Tabellenkalkulationsmanipulation eintauchen, haben Sie eine fantastische Wahl getroffen. Die Möglichkeit, Excel-Dateien programmgesteuert anzupassen und zu verwalten, kann zahlreiche Aufgaben vereinfachen und Ihre Arbeit effizienter machen. In diesem Handbuch konzentrieren wir uns auf eine bestimmte Aufgabe: Bestimmen, ob die Papiergrößeneinstellungen eines Arbeitsblatts automatisch erfolgen. Also schnappen Sie sich Ihren Programmierhut und legen Sie los!
 
 ## Voraussetzungen
 
@@ -19,7 +19,7 @@ Bevor wir uns in den Code stürzen, stellen wir sicher, dass Sie alles haben, wa
 Obwohl Aspose.Cells viele Aufgaben vereinfacht, sind grundlegende Kenntnisse in C# unerlässlich. Sie sollten mit dem Lesen und Schreiben von grundlegendem C#-Code vertraut sein.
 
 ### Aspose.Cells für .NET
- Stellen Sie sicher, dass Aspose.Cells in Ihrem Projekt installiert ist. Sie können es herunterladen von der[Webseite](https://releases.aspose.com/cells/net/) falls Sie das nicht bereits getan haben.
+ Stellen Sie sicher, dass Aspose.Cells in Ihrem Projekt installiert ist. Sie können es von der[Webseite](https://releases.aspose.com/cells/net/) falls Sie das nicht bereits getan haben.
 
 ### Entwicklungsumgebung
 Sie sollten eine IDE wie Visual Studio eingerichtet haben. Diese führt Sie effektiv durch die Handhabung und das Testen Ihres Codes.
@@ -43,7 +43,7 @@ Wir unterteilen es in ein klares, schrittweises Tutorial, damit Sie es problemlo
 
 ## Schritt 1: Richten Sie Ihre Quell- und Ausgabeverzeichnisse ein
 
-Als Erstes müssen Sie Ihre Quell- und Ausgabeverzeichnisse definieren. Diese Verzeichnisse enthalten Ihre Eingabedateien und den Speicherort für alle Ausgaben. So gehen Sie dabei vor:
+Als Erstes müssen Sie Ihre Quell- und Ausgabeverzeichnisse definieren. Diese Verzeichnisse enthalten Ihre Eingabedateien und den Speicherort für alle Ausgaben. So gehen Sie vor:
 
 ```csharp
 string sourceDir = "YOUR_SOURCE_DIRECTORY";
@@ -104,7 +104,7 @@ Aspose.Cells ist eine .NET-Bibliothek für die programmgesteuerte Verwaltung von
 Ja! Aspose.Cells unterstützt plattformübergreifende Entwicklung, sodass Sie in verschiedenen Umgebungen arbeiten können, in denen .NET verfügbar ist.
 
 ### Benötige ich eine Lizenz für Aspose.Cells?
- Sie können zwar mit einer kostenlosen Testversion beginnen, für die weitere Nutzung ist jedoch eine kostenpflichtige Lizenz erforderlich. Weitere Einzelheiten finden Sie hier[Hier](https://purchase.aspose.com/buy).
+ Sie können mit einer kostenlosen Testversion beginnen, für die weitere Nutzung ist jedoch eine kostenpflichtige Lizenz erforderlich. Weitere Einzelheiten finden Sie hier[Hier](https://purchase.aspose.com/buy).
 
 ### Wie kann ich in C# überprüfen, ob die Papiergröße eines Arbeitsblatts automatisch ist?
 Wie im Handbuch gezeigt, können Sie die`IsAutomaticPaperSize` Eigentum der`PageSetup` Klasse.

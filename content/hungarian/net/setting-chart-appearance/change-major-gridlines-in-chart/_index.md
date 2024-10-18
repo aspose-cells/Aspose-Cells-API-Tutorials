@@ -9,7 +9,7 @@ url: /hu/net/setting-chart-appearance/change-major-gridlines-in-chart/
 ---
 ## Bevezetés
 
-A vizuálisan tetszetős diagramok elkészítése az Excelben elengedhetetlen a hatékony adatmegjelenítéshez. Legyen szó adatelemzőről, projektmenedzserről vagy egyszerűen az adatok vizualizálása iránt érdeklődő személyről, a diagramok testreszabásának megértése jelentősen javíthatja jelentéseit. Ebből a cikkből megtudhatja, hogyan módosíthatja az Excel-diagram főbb rácsvonalait a .NET Aspose.Cells könyvtárával.
+vizuálisan tetszetős diagramok elkészítése az Excelben elengedhetetlen a hatékony adatmegjelenítéshez. Legyen szó adatelemzőről, projektmenedzserről vagy egyszerűen az adatok vizualizálása iránt érdeklődő személyről, a diagramok testreszabásának megértése jelentősen javíthatja jelentéseit. Ebből a cikkből megtudhatja, hogyan módosíthatja az Excel-diagram főbb rácsvonalait a .NET Aspose.Cells könyvtárával.
 
 ## Előfeltételek
 
@@ -51,7 +51,7 @@ string outputDir = "Your Output Directory"; // Frissítse a kívánt útvonalat
  Ezután létre kell hoznia egy új példányt a`Workbook` osztály. Ez az objektum az Excel-fájlt fogja képviselni, lehetővé téve annak tartalmának kezelését.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
@@ -84,18 +84,18 @@ Itt több numerikus értéket írunk be bizonyos cellákba. Az „A” és „B�
 
 ## 5. lépés: Adjon hozzá egy diagramot a munkalaphoz
 
-Ha adataink a helyükön vannak, ideje diagramot készíteni. Hozzáadunk egy oszlopdiagramot, amely megjeleníti az adatkészletünket.
+Ha adataink a helyükön vannak, ideje diagramot készíteni. Hozzáadunk egy oszlopdiagramot, amely megjeleníti adatkészletünket.
 
 ```csharp
 // Diagram hozzáadása a munkalaphoz
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-Ebben a kódban megadjuk a diagram típusát (jelen esetben oszlopdiagramot) és azt a pozíciót, ahová el szeretnénk helyezni.
+Ebben a kódban adjuk meg a diagram típusát (jelen esetben oszlopdiagramot) és azt a pozíciót, ahová el szeretnénk helyezni.
 
 ## 6. lépés: Nyissa meg a diagrampéldányt
 
- Miután elkészítettük a diagramot, hozzá kell férnünk a példányához, hogy módosítsuk tulajdonságait. Ez úgy történik, hogy a`Charts`gyűjtemény.
+Miután elkészítettük a diagramot, hozzá kell férnünk a példányához, hogy módosítsuk tulajdonságait. Ez úgy történik, hogy a`Charts`gyűjtemény.
 
 ```csharp
 // Az újonnan hozzáadott diagram példányának elérése

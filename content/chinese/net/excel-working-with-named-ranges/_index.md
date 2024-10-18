@@ -23,7 +23,7 @@ Excel 中的命名范围就像是小小的能量袋。通过为单元格或单�
 
 此方法非常适合有针对性的数据管理，可让您精确地完成 Excel 任务。想看看这种方法是如何运作的吗？我们的[在 Excel 中访问特定命名范围](./access-specific-named-range/)教程将引导您完成每个步骤，提供示例代码和详细解释。
 
-## Excel 教程中使用命名区域
+## 在 Excel 教程中使用命名区域
 ### [访问 Excel 中的所有命名区域](./access-all-named-ranges/)
 通过使用我们的简易指南使用 Aspose.Cells for .NET 访问命名范围来解锁 Excel 的强大功能。非常适合数据管理。
 ### [在 Excel 中访问特定命名范围](./access-specific-named-range/)

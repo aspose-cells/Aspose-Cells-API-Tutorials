@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Langkah 3: Buat Instansiasi Buku Kerja
 
 ```csharp
-//Membuat instance objek Buku Kerja
+// Membuat instance objek Buku Kerja
 // Membuka file Excel melalui aliran file
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## Langkah 4: Akses Lembar Kerja
 
 ```csharp
-//Mengakses lembar kerja pertama dalam file Excel
+// Mengakses lembar kerja pertama dalam file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

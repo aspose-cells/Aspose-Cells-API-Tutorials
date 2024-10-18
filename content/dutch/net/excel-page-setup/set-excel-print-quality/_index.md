@@ -9,7 +9,7 @@ url: /nl/net/excel-page-setup/set-excel-print-quality/
 ---
 ## Invoering
 
-Als het gaat om het genereren en manipuleren van Excel-bestanden, kan controle over afdrukinstellingen een groot verschil maken, vooral als u documenten voorbereidt voor presentatie. In deze gids duiken we diep in hoe u moeiteloos de afdrukkwaliteit van uw Excel-sheets kunt instellen met Aspose.Cells voor .NET. Laten we nu de mouwen opstropen en aan de slag gaan!
+Als het gaat om het genereren en manipuleren van Excel-bestanden, kan controle over afdrukinstellingen een groot verschil maken, vooral als u documenten voorbereidt voor presentatie. In deze handleiding duiken we diep in hoe u moeiteloos de afdrukkwaliteit van uw Excel-sheets kunt instellen met Aspose.Cells voor .NET. Laten we nu de mouwen opstropen en aan de slag gaan!
 
 ## Vereisten
 
@@ -77,7 +77,7 @@ Hier gebeurt de magie! We kunnen de afdrukkwaliteit voor het werkblad instellen.
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Uitleg: De`PrintQuality` eigenschap kan worden ingesteld op elke waarde, meestal tussen 75 en 600 dpi (dots per inch). In dit geval stellen we het in op 180 dpi, wat geweldig is voor een goede balans tussen kwaliteit en bestandsgrootte.
+Uitleg: De`PrintQuality` eigenschap kan worden ingesteld op elke waarde, meestal tussen 75 en 600 dpi (dots per inch). In dit geval stellen we het in op 180 dpi, wat geweldig is voor een goede balans tussen kwaliteit en bestandsgrootte.
 
 ## Stap 5: De werkmap opslaan
 

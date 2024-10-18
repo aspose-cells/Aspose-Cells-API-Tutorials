@@ -9,11 +9,11 @@ url: /id/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
 ## Perkenalan
 
-Dalam hal bekerja dengan lembar kerja Excel, fleksibilitas sering kali menjadi kunci—terutama ketika beberapa pengguna memerlukan akses untuk mengedit area tertentu tanpa mengorbankan integritas data seluruh lembar. Di sinilah Aspose.Cells for .NET bersinar! Dalam tutorial ini, kita akan membahas cara mengizinkan pengguna mengedit rentang tertentu dalam lembar kerja Excel sambil melindungi bagian dokumen lainnya. Di akhir artikel ini, Anda tidak hanya akan memahami konsepnya tetapi juga memiliki contoh nyata untuk dikerjakan. 
+Dalam hal bekerja dengan lembar kerja Excel, fleksibilitas sering kali menjadi kunci—terutama ketika banyak pengguna memerlukan akses untuk mengedit area tertentu tanpa mengorbankan integritas data seluruh lembar. Di sinilah Aspose.Cells for .NET bersinar! Dalam tutorial ini, kita akan membahas cara mengizinkan pengguna mengedit rentang tertentu dalam lembar kerja Excel sambil melindungi bagian dokumen lainnya. Di akhir artikel ini, Anda tidak hanya akan memahami konsepnya tetapi juga memiliki contoh nyata untuk dikerjakan. 
 
 ## Prasyarat
 
-Sebelum kita masuk ke inti pembahasan, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
+Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
 1. Lingkungan Pengembangan .NET: Anda harus menyiapkan lingkungan pengembangan .NET yang berfungsi (ini bisa berupa Visual Studio atau IDE lain pilihan Anda).
 2.  Pustaka Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells. Anda dapat menemukannya[Di Sini](https://releases.aspose.com/cells/net/).
@@ -31,7 +31,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Sekarang setelah kita mengimpor apa yang kita perlukan, mari kita mulai tutorial kita langkah demi langkah.
+Sekarang setelah kita mengimpor apa yang kita perlukan, mari kita masuk ke tutorial kita langkah demi langkah.
 
 ## Langkah 1: Siapkan Direktori Dokumen
 
@@ -41,7 +41,7 @@ Untuk semua operasi berkas, sangat penting untuk memiliki lokasi yang ditentukan
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Buat direktori jika belum ada.
+//Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -124,7 +124,7 @@ Pastikan untuk menyesuaikan nama berkas sesuai kebutuhan. Ini akan membuat berka
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil membuat lembar kerja Excel yang membatasi penyuntingan ke rentang tertentu sekaligus melindungi bagian lembar lainnya. Menggunakan Aspose.Cells for .NET membuat pengelolaan tugas semacam ini jauh lebih mudah dan efisien. Baik Anda sedang mengembangkan aplikasi yang rumit atau hanya perlu mengelola data dengan aman, kemampuan ini dapat meningkatkan alur kerja Anda secara signifikan.
+Nah, itu dia! Anda telah berhasil membuat lembar kerja Excel yang membatasi penyuntingan ke rentang tertentu sekaligus melindungi bagian lembar lainnya. Menggunakan Aspose.Cells untuk .NET membuat pengelolaan tugas semacam ini jauh lebih mudah dan efisien. Baik Anda sedang mengembangkan aplikasi yang rumit atau hanya perlu mengelola data dengan aman, kemampuan ini dapat meningkatkan alur kerja Anda secara signifikan.
 
 ## Pertanyaan yang Sering Diajukan
 

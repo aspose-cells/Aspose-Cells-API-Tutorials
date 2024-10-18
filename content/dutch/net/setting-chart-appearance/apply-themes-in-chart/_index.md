@@ -59,7 +59,7 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Zorg ervoor dat`sampleApplyingThemesInChart.xlsx` bestaat in uw bronmap.
+ Zorg ervoor dat`sampleApplyingThemesInChart.xlsx`bestaat in uw bronmap.
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -77,7 +77,7 @@ In dit geval pakken we gewoon het eerste werkblad, wat voor dit voorbeeld voldoe
 Nu we het werkblad in handen hebben, hebben we toegang tot de grafiek die we willen opmaken.
 
 ```csharp
-//Haal de eerste grafiek in het blad
+// Haal de eerste grafiek in het blad
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -96,13 +96,13 @@ Deze coderegel zorgt ervoor dat de eerste reeks in het diagram wordt ingesteld o
 
 ## Stap 6: Configureer de kleur
 
- Nu onze serie klaar is, moeten we de kleur aanpassen. Dit houdt in dat we een`CellsColor` object en specificeren van een themakleur. We kiezen een accentstijl voor dit voorbeeld.
+ Nu onze serie klaar is, moeten we de kleur aanpassen. Dit houdt in dat we een`CellsColor`object en specificeren van een themakleur. We kiezen een accentstijl voor dit voorbeeld.
 
 ```csharp
 // Haal de CellsColor van SolidFill op
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
-//Maak een thema in Accent-stijl
+// Maak een thema in Accent-stijl
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -119,7 +119,7 @@ Nadat u de kleur hebt geconfigureerd, is het tijd om het nieuwe thema op onze se
 chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 ```
 
-Met deze regel worden de kleuren in de grafiek bijgewerkt. 
+Met deze regel worden de kleuren in het diagram bijgewerkt. 
 
 ## Stap 8: Sla de werkmap op
 

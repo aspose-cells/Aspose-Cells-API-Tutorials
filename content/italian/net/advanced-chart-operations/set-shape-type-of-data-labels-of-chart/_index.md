@@ -13,7 +13,7 @@ Nel mondo della visualizzazione dei dati, i grafici sono un metodo di riferiment
 
 ## Prerequisiti
 
-Prima di buttarci nella codifica, assicuriamoci di aver impostato tutto correttamente. Ecco cosa ti servirà:
+Prima di buttarci nella codifica, assicuriamoci che tutto sia impostato correttamente. Ecco cosa ti servirà:
 
 1.  Aspose.Cells per .NET: se non lo hai ancora fatto, scaricalo da[Sito web di Aspose](https://releases.aspose.com/cells/net/)Questa libreria consente tutti i tipi di manipolazioni con i documenti Excel.
 2. Visual Studio: dovresti averlo installato sul tuo sistema per scrivere ed eseguire applicazioni .NET. Assicurati che sia la versione che supporta .NET Framework o .NET Core in base alle esigenze del tuo progetto.
@@ -40,7 +40,7 @@ using Aspose.Cells.Charts;
 using Aspose.Cells.Drawing;
 ```
 
-Questi namespace ti consentiranno di creare e manipolare facilmente cartelle di lavoro, fogli di lavoro e grafici.
+Questi spazi dei nomi ti consentiranno di creare e manipolare facilmente cartelle di lavoro, fogli di lavoro e grafici.
 
 Ora che siamo tutti pronti, tuffiamoci nella parte di codifica! La scomporremo passo dopo passo per chiarezza.
 

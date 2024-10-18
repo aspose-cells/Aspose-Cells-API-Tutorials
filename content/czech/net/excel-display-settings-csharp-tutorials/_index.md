@@ -31,7 +31,7 @@ Pokud jde o estetiku, další důležitou funkcí je ovládání viditelnosti z�
 
 Jednou z nejužitečnějších funkcí v jakémkoli listu aplikace Excel je možnost zmrazení podoken. Přemýšlejte o tom: ztratili jste někdy přehled o řádku záhlaví, když procházíte dolů obrovskou tabulkou? Je to neuvěřitelně frustrující! Náš výukový program o zmrazení podoken vás provede celým procesem, abyste mohli mít důležité informace na očích při procházení velkých datových sad. Představte si, že jste právě dokončili zdlouhavou analýzu, jen abyste se pokaždé museli posunout nahoru, abyste si připomněli záhlaví. Už ne![Přečtěte si více](./freeze-panes-of-worksheet/).
 
- Co když ale procházíte konkrétními sekcemi tabulky? Tady mohou štípací tabule opravdu zazářit. Umožňuje vám zobrazit různé oblasti listu současně, což usnadňuje porovnávání dat nebo sledování změn v různých částech listu. Tento výukový program zjednodušuje úkol rozdělení panelů do několika jednoduchých kroků, které zvládnete během okamžiku.[Přečtěte si více](./split-panes-of-worksheet/).
+ Co když ale procházíte konkrétními sekcemi tabulky? Tady mohou štípací tabule opravdu zazářit. Umožňuje zobrazit různé oblasti listu současně, což usnadňuje porovnávání dat nebo sledování změn v různých částech listu. Tento výukový program zjednodušuje úkol rozdělení panelů do několika jednoduchých kroků, které zvládnete během okamžiku.[Přečtěte si více](./split-panes-of-worksheet/).
 
 ## Správa navigace v listu
 

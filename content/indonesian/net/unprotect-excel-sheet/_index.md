@@ -13,7 +13,7 @@ Jika Anda bekerja dengan file Excel di .NET, Anda mungkin pernah mengalami situa
 
 ## Membuka Kunci Lembar Kerja Excel yang Dilindungi Kata Sandi 
 
- Salah satu tugas yang paling umum adalah membuka kunci lembar kerja Excel yang dilindungi kata sandi. Dengan Aspose.Cells untuk .NET, Anda dapat melakukannya dengan mudah. Proses ini melibatkan metode sederhana yang memungkinkan Anda menentukan kata sandi (jika Anda memilikinya) dan membuka kunci lembar untuk diedit. Tutorial kami tentang[membuka kunci lembar kerja Excel yang dilindungi kata sandi](./unlock-password-protected-excel-worksheet/) menguraikan langkah-langkah ini, memastikan bahkan pemula pun dapat mengikutinya. Pada akhirnya, Anda akan dapat memulihkan akses ke data penting Anda tanpa kesulitan.
+ Salah satu tugas yang paling umum adalah membuka kunci lembar kerja Excel yang dilindungi kata sandi. Dengan Aspose.Cells for .NET, Anda dapat melakukannya dengan mudah. Proses ini melibatkan metode sederhana yang memungkinkan Anda menentukan kata sandi (jika Anda memilikinya) dan membuka kunci lembar untuk diedit. Tutorial kami tentang[membuka kunci lembar kerja Excel yang dilindungi kata sandi](./unlock-password-protected-excel-worksheet/) menguraikan langkah-langkah ini, memastikan bahkan pemula pun dapat mengikutinya. Pada akhirnya, Anda akan dapat memulihkan akses ke data penting Anda tanpa kesulitan.
 
 ## Buka Proteksi Lembar Excel dengan Mudah 
 

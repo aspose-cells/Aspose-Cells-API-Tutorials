@@ -18,7 +18,7 @@ Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 
 1. Java-Entwicklungsumgebung: Auf Ihrem System sollte Java zusammen mit einer geeigneten integrierten Entwicklungsumgebung (IDE) wie Eclipse oder IntelliJ IDEA installiert sein.
 
-2. Aspose.Cells für Java: Sie müssen die Bibliothek Aspose.Cells für Java installiert haben. Sie können sie herunterladen von[Hier](https://releases.aspose.com/cells/java/).
+2. Aspose.Cells für Java: Sie müssen die Bibliothek Aspose.Cells für Java installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/cells/java/).
 
 ## Schritt 1: Erstellen Sie ein neues Java-Projekt
 

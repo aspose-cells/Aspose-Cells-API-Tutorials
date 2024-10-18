@@ -16,7 +16,7 @@ url: /ko/net/excel-display-settings-csharp-tutorials/page-break-preview-of-works
 시작하기 전에 꼭 갖춰야 할 몇 가지 전제 조건이 있습니다.
 
 1. C#에 대한 기본 지식: C#와 .NET 프레임워크에 대한 기본적인 이해는 튜토리얼을 탐색하는 데 확실히 도움이 될 것입니다.
-2.  Aspose.Cells for .NET 설치: Aspose.Cells for .NET 라이브러리가 필요합니다.[여기에서 다운로드하세요](https://releases.aspose.com/cells/net/).
+2.  .NET용 Aspose.Cells 설치: .NET용 Aspose.Cells 라이브러리가 필요합니다.[여기에서 다운로드하세요](https://releases.aspose.com/cells/net/).
 3. Visual Studio 또는 유사한 IDE: 코드를 작성하고 실행하려면 Visual Studio와 같은 통합 개발 환경(IDE)이 필요합니다.
 4. Excel 파일: Excel 파일이 있어야 합니다(예:`book1.xls`)을 문서 디렉토리에서 조작할 수 있습니다.
 5. 네임스페이스: 특히 파일과 Aspose.Cells 라이브러리를 처리할 때 필요한 네임스페이스가 코드에 포함되어 있는지 확인하세요.
@@ -36,7 +36,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-### 새로운 C# 파일 만들기
+### 새 C# 파일 만들기
 
 Visual Studio나 IDE를 열고 아직 만들지 않았다면 새 C# 파일을 만드세요. 여기에 구현 코드를 쓸 것입니다.
 
@@ -59,12 +59,12 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- 여기서 우리는 다음을 생성합니다.`FileStream` 지정된 Excel 파일을 가리키는 객체(`book1.xls`). 이를 통해 애플리케이션이 파일을 열고 조작할 수 있습니다.
+ 여기서 우리는 다음을 생성합니다.`FileStream` 지정된 Excel 파일을 가리키는 개체(`book1.xls`). 이를 통해 응용 프로그램이 파일을 열고 조작할 수 있습니다.
 
 ## 3단계: 통합 문서 인스턴스화
 
 ```csharp
-//Workbook 개체 인스턴스화
+// Workbook 개체 인스턴스화
 // 파일 스트림을 통해 Excel 파일 열기
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook workbook = new Workbook(fstream);
 ## 4단계: 워크시트에 액세스
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -109,7 +109,7 @@ fstream.Close();
 
 ## 결론
 
-이제 아시겠죠! Aspose.Cells for .NET을 사용하여 워크시트의 페이지 나누기 미리 보기를 성공적으로 활성화했습니다. 이 기능은 인쇄 레이아웃을 관리하는 능력을 크게 향상시켜 데이터를 체계적으로 제시하기 쉽게 만들어줍니다. 보고서를 생성하든 인쇄를 위해 데이터를 준비하든 Aspose.Cells는 창의성과 생산성을 발휘하는 데 필요한 도구를 제공합니다. 그럼, 무엇을 기다리고 계신가요? Aspose.Cells로 다음 Excel 프로젝트에 뛰어들어 워크플로를 어떻게 바꿔 놓는지 살펴보세요!
+이제 아시겠죠! Aspose.Cells for .NET을 사용하여 워크시트의 페이지 나누기 미리 보기를 성공적으로 활성화했습니다. 이 기능은 인쇄 레이아웃을 관리하는 능력을 크게 향상시켜 데이터를 체계적으로 제시하기 쉽게 만들어줍니다. 보고서를 생성하든 인쇄를 위해 데이터를 준비하든 Aspose.Cells는 창의성과 생산성을 발휘하는 데 필요한 도구를 제공합니다. 그럼, 무엇을 기다리고 계신가요? Aspose.Cells로 다음 Excel 프로젝트에 뛰어들어 워크플로를 어떻게 바꿔놓는지 살펴보세요!
 
 ## 자주 묻는 질문
 

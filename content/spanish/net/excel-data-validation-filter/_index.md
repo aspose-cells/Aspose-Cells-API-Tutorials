@@ -17,7 +17,7 @@ Excel es una herramienta muy útil para la gestión de datos, pero a veces solo 
 
 ## Agregar un área de validación a las celdas en Excel
 
- Ahora, profundicemos en la validación de datos. Si alguna vez se enfrentó al dolor de cabeza de las entradas de datos incorrectas, sabrá que puede arruinar las mejores hojas de cálculo. Pero no se preocupe, ¡lo tenemos cubierto! En nuestra guía sobre[Agregar un área de validación a las celdas en Excel]()Le mostraremos cómo implementar áreas de validación con Aspose.Cells para .NET. Establezca límites sobre los datos que se pueden ingresar en sus celdas con solo unas pocas líneas de código. Es como tener un portero amigable en la puerta de sus datos: ¡solo se permiten las entradas correctas! Esto garantiza que sus datos sigan siendo precisos y confiables, lo cual es vital para cualquier proyecto o análisis.
+ Ahora, profundicemos en la validación de datos. Si alguna vez se enfrentó al dolor de cabeza de las entradas de datos incorrectas, sabrá que puede arruinar las mejores hojas de cálculo. Pero no se preocupe, ¡lo tenemos cubierto! En nuestra guía sobre[Agregar un área de validación a las celdas en Excel]()Le mostraremos cómo implementar áreas de validación con Aspose.Cells para .NET. Establezca límites sobre qué datos se pueden ingresar en sus celdas con solo unas pocas líneas de código. Es como tener un portero amigable en la puerta de sus datos: ¡solo se permiten las entradas correctas! Esto garantiza que sus datos sigan siendo precisos y confiables, lo cual es vital para cualquier proyecto o análisis.
 
 ## Tutoriales de filtrado y validación de datos de Excel
 ### [Aplicar el filtro avanzado de Microsoft Excel en C#](./apply-advanced-filter-of-microsoft-excel-in-csharp/)

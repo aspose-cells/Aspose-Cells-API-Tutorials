@@ -16,7 +16,7 @@ Các tệp Excel rất phổ biến trong thế giới dữ liệu ngày nay, đ
 Trước khi đi sâu vào hướng dẫn, bạn sẽ muốn đảm bảo rằng mình đã thiết lập mọi thứ cần thiết để sử dụng Aspose.Cells cho .NET một cách hiệu quả. Sau đây là danh sách kiểm tra cần tuân theo:
 
 1. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình. 
-2.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/cells/net/).
 3. IDE: Mặc dù bất kỳ trình soạn thảo mã nào cũng được, nhưng sử dụng IDE như Visual Studio sẽ cung cấp nền tảng mạnh mẽ cho việc phát triển .NET.
 4.  Tệp ODS mẫu: Bạn sẽ cần một tệp ODS có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng`SampleChart.ods`.
 5. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn nắm bắt các khái niệm một cách nhanh chóng và thực hiện các sửa đổi khi cần thiết.
@@ -39,7 +39,7 @@ Bây giờ, chúng ta hãy đi vào chi tiết. Thực hiện theo các hướng
 Tạo một Dự án Ứng dụng Console mới
 
 - Mở Visual Studio (hoặc IDE mà bạn thích).
--  Tạo một dự án Ứng dụng bảng điều khiển mới và đặt cho nó một tên có liên quan, chẳng hạn như`ChartSubtitleExtractor`.
+- Tạo một dự án Ứng dụng bảng điều khiển mới và đặt cho nó một tên có liên quan, chẳng hạn như`ChartSubtitleExtractor`.
 
 ## Bước 2: Thêm gói NuGet Aspose.Cells
 
@@ -65,7 +65,7 @@ string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
 
 Tải bảng tính Excel của bạn
 
- Bước này bao gồm việc tạo ra một phiên bản của`Workbook` lớp, biểu thị tệp ODS của bạn. Sổ làm việc sẽ chứa tất cả các bảng tính và biểu đồ tương ứng của chúng.
+ Bước này bao gồm việc tạo ra một phiên bản của`Workbook` lớp, đại diện cho tệp ODS của bạn. Sổ làm việc sẽ chứa tất cả các bảng tính và biểu đồ tương ứng của chúng.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");

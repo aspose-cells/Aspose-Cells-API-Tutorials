@@ -51,7 +51,7 @@ Hal pertama yang harus dilakukan—Anda memerlukan tempat untuk menyimpan berkas
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat direktori jika belum ada.
+//Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -110,7 +110,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
-Lingkaran ini melewati setiap kolom (dari 0 hingga 255) dan membukanya. Anggap ini sebagai persiapan lahan untuk penanaman—Anda membersihkan tanah sehingga hanya satu tanaman tertentu yang dapat tumbuh subur nantinya.
+Lingkaran ini melewati setiap kolom (dari 0 hingga 255) dan membukanya. Anggap ini sebagai persiapan lahan untuk ditanami—Anda membersihkan tanah sehingga hanya satu tanaman tertentu yang dapat tumbuh subur nantinya.
 
 ## Langkah 6: Kunci Kolom yang Diinginkan
 

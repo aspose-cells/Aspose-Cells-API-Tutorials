@@ -58,11 +58,11 @@ string outputDir = "Your Output Directory";
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- 그만큼`Workbook` 클래스는 Excel 파일에 대한 진입점입니다. 소스 파일의 경로를 전달함으로써, 우리는 그것을 조작할 수 있는 인스턴스를 만들고 있습니다. 책을 여는 것과 같다고 상상할 수 있습니다. 즉, 내용을 읽거나(또는 편집할) 준비를 하는 것입니다.
+ 그만큼`Workbook` 클래스는 Excel 파일에 대한 진입점입니다. 소스 파일의 경로를 전달함으로써, 우리는 그것을 조작할 수 있는 인스턴스를 만들고 있습니다. 책을 여는 것과 같다고 상상할 수 있습니다. 즉, 내용을 읽거나(또는 편집)할 준비를 하는 것입니다.
 
 ## 3단계: 데이터 매시업에 액세스
 
-다음으로, 통합 문서의 데이터 매시업에 저장된 Power Query 수식에 액세스합니다.
+다음으로, 통합 문서의 데이터 매시업에 저장된 Power Query 수식에 액세스하겠습니다.
 
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
@@ -118,7 +118,7 @@ Aspose.Cells는 Microsoft Excel을 설치하지 않고도 .NET 애플리케이�
 ### Aspose.Cells를 사용하여 어떤 유형의 Excel 파일을 작업할 수 있습니까?
 Aspose.Cells를 사용하면 .xlsx, .xls, .xlsm 및 기타 여러 Excel 형식으로 작업할 수 있습니다.
 
-### Aspose.Cells의 체험판이 있나요?
+### Aspose.Cells의 평가판이 있나요?
  네, 무료 평가판을 다운로드할 수 있습니다.[Aspose Cells 릴리스 페이지](https://releases.aspose.com/).
 
 ### Aspose.Cells에 대한 지원은 어떻게 받을 수 있나요?

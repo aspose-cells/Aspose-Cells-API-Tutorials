@@ -1,8 +1,8 @@
 ---
 title: Aplicar filtro avançado do Microsoft Excel em C#
 linktitle: Aplicar filtro avançado do Microsoft Excel em C#
-second_title: API de processamento do Excel Aspose.Cells .NET
-description: Aprenda a aplicar filtros avançados no Excel usando C# e Aspose.Cells. Guia passo a passo incluso para fácil implementação.
+second_title: API de processamento do Aspose.Cells .NET Excel
+description: Aprenda como aplicar filtros avançados no Excel usando C# e Aspose.Cells. Guia passo a passo incluso para fácil implementação.
 type: docs
 weight: 10
 url: /pt/net/excel-data-validation-filter/apply-advanced-filter-of-microsoft-excel-in-csharp/
@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Especifique seu diretório de d
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- Nesta etapa, declaramos uma variável`sourceDir` que aponta para a localização do seu arquivo Excel. Em seguida, criamos uma nova instância do`Workbook`class para carregar esse arquivo. Isso é como abrir o livro que queremos ler!
+ Nesta etapa, declaramos uma variável`sourceDir` que aponta para a localização do seu arquivo Excel. Em seguida, criamos uma nova instância do`Workbook` class para carregar esse arquivo. Isso é como abrir o livro que queremos ler!
 
 ## Etapa 2: Acesse a primeira planilha
 
@@ -58,7 +58,7 @@ Com nossa pasta de trabalho carregada, o próximo passo é acessar a primeira pl
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Aqui, estamos explorando o`Worksheets` coleção de nossa pasta de trabalho e acessando a primeira planilha (que geralmente é índice 0). Este passo é crucial porque todas as nossas ações de filtragem serão realizadas nesta planilha.
+ Aqui, estamos explorando o`Worksheets`coleção de nossa pasta de trabalho e acessando a primeira planilha (que geralmente é índice 0). Este passo é crucial porque todas as nossas ações de filtragem serão realizadas nesta planilha.
 
 ## Etapa 3: Defina os parâmetros do filtro
 
@@ -82,11 +82,11 @@ string outputDir = "Your Document Directory"; // Especifique seu diretório de s
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Por fim, especificamos onde queremos que a pasta de trabalho filtrada seja salva usando o`Save` método. Você pode dar a ele um novo nome (neste caso,`outputAdvancedFilter.xlsx`) para manter o original intacto.
+ Por fim, especificamos onde queremos que a pasta de trabalho filtrada seja salva usando o`Save` método. Você pode dar a ele um novo nome (neste caso,`outputAdvancedFilter.xlsx`) para manter o original intacto.
 
 ## Conclusão
 
-E aí está! Você aplicou com sucesso um filtro avançado a uma planilha do Excel usando o Aspose.Cells para .NET. Este guia passo a passo forneceu a estrutura necessária para aproveitar o poder da manipulação de dados em seus próprios aplicativos. Assim como aquele mágico, agora você sabe como fazer os dados irrelevantes desaparecerem.
+aí está! Você aplicou com sucesso um filtro avançado a uma planilha do Excel usando o Aspose.Cells para .NET. Este guia passo a passo forneceu a estrutura necessária para aproveitar o poder da manipulação de dados em seus próprios aplicativos. Assim como aquele mágico, agora você sabe como fazer os dados irrelevantes desaparecerem.
 
 ## Perguntas frequentes
 
@@ -100,7 +100,7 @@ Não, o Aspose.Cells opera de forma independente e não requer que o Microsoft E
  Sim, você pode experimentar o Aspose.Cells gratuitamente baixando a versão de teste em[aqui](https://releases.aspose.com/).
 
 ### Posso obter suporte se tiver problemas?
-Com certeza! Você pode obter suporte da comunidade no[Fórum Aspose](https://forum.aspose.com/c/cells/9).
+ Absolutamente! Você pode obter suporte da comunidade no[Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Como obtenho uma licença temporária para o Aspose.Cells?
  Você pode solicitar uma licença temporária na página de compra[aqui](https://purchase.aspose.com/temporary-license/). 

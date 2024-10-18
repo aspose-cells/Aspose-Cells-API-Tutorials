@@ -1,7 +1,7 @@
 ---
 title: Preservação e aviso de dados do Excel
 linktitle: Preservação e aviso de dados do Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a usar o Aspose.Cells para .NET para técnicas avançadas de preservação de dados do Excel, como preservar prefixos de aspas simples em células e especificar avisos de classificação durante a classificação.
 type: docs
 weight: 40

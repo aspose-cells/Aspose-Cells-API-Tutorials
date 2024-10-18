@@ -2,7 +2,7 @@
 title: Grafik Serisinde Microsoft Tema Rengini Uygula
 linktitle: Grafik Serisinde Microsoft Tema Rengini Uygula
 second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak grafik serilerinde Microsoft tema renklerini uygulamayı öğrenin. Veri görselleştirme geliştirme için adım adım bir eğitim.
+description: .NET için Aspose.Cells kullanarak grafik serilerinde Microsoft tema renklerini uygulamayı öğrenin. Veri görselleştirme geliştirme için adım adım bir eğitim.
 type: docs
 weight: 14
 url: /tr/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-series/
@@ -15,12 +15,12 @@ Günümüzün görsel odaklı dünyasında, verileri sunma şeklimiz büyük ön
 
 Pratik adımlara dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. Bu rehberin yeni başlayanlara uygun olması amaçlanmış olsa da, programlama ve .NET kavramları hakkında temel bir anlayışa sahip olmak faydalı olacaktır. İşte ihtiyacınız olanlar:
 
-1. .NET Framework: Makinenizde .NET framework'ün yüklü olduğundan emin olun. Aspose.Cells, .NET uygulamalarıyla sorunsuz bir şekilde çalışır, bu nedenle uyumlu bir sürüme ihtiyacınız olacak.
+1. .NET Framework: Bilgisayarınızda .NET framework'ün yüklü olduğundan emin olun. Aspose.Cells, .NET uygulamalarıyla sorunsuz bir şekilde çalışır, bu nedenle uyumlu bir sürüme ihtiyacınız olacak.
 2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin en son sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Visual Studio gibi hazır bir geliştirme ortamı hayatınızı kolaylaştırabilir. Kodunuzu yazmak ve yürütmek için kurulu olduğundan emin olun.
 4.  Örnek Excel Dosyası: Örnek bir Excel dosyanız olmalıdır (örneğin`sampleMicrosoftThemeColorInChartSeries.xlsx`) en azından pratik yapmak için bir grafik içeren.
 
-Şimdi bunları hallettiğimize göre, grafiklerimizi özelleştirme yolculuğumuza başlamak için gerekli paketleri içe aktaralım.
+Artık bunları hallettiğimize göre, grafiklerimizi özelleştirme yolculuğumuza başlamak için gerekli paketleri içe aktaralım.
 
 ## Paketleri İçe Aktar
 
@@ -79,7 +79,7 @@ Tıpkı bir kitapta belirli bir sayfaya dönmek gibi, bu adım bizi değişiklik
 Şimdi değiştirmek istediğimiz grafiği bulma zamanı. Sihir gerçekten burada başlıyor!
 
 ```csharp
-//Sayfadaki ilk çizelgeyi alın
+// Sayfadaki ilk çizelgeyi alın
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -90,7 +90,7 @@ Bu adımla, çalışma sayfamızdan ilk grafiği çekiyoruz. Birden fazla grafik
 Grafiğin serisinin nasıl doldurulacağını belirtmemiz gerekiyor. Bunu, bir tema rengi uygulamamıza izin verecek olan katı bir dolgu türüne ayarlayacağız.
 
 ```csharp
-// FillFormat'ın türünü ilk serinin Katı Dolgusu olarak belirtin
+// FillFormat'ın türünü ilk serinin Solid Fill'i olarak belirtin
 chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 ```
 
@@ -112,7 +112,7 @@ Burada grafik serisinin renk ayarını alıyoruz.
  Şimdi bir Microsoft tema rengi uygulayalım. Bir tane seçeceğiz`Accent` Çünkü kim biraz renk katmayı sevmez ki?
 
 ```csharp
-//Accent stilinde bir tema oluşturun
+// Accent stilinde bir tema oluşturun
 cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 ```
 
@@ -167,4 +167,4 @@ Kesinlikle! Aspose.Cells, RGB değerleri, standart renkler ve daha fazlası dahi
  Aspose.Cells belgelerini inceleyebilirsiniz[Burada](https://reference.aspose.com/cells/net/) Daha detaylı kılavuzlar ve özellikler için.
 
 ### Sorunla karşılaşırsam destek alabileceğim bir yer var mı?
- Evet! Aspose forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9) Topluluk desteği ve sorularınıza yardım almak için.
+ Evet! Aspose forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9) Topluluk desteği almak ve sorularınıza yanıt almak için.

@@ -9,7 +9,7 @@ url: /es/net/unprotect-excel-sheet/
 ---
 ## Introducción
 
-Si trabaja con archivos de Excel en .NET, es posible que se haya encontrado con situaciones en las que necesita acceder a hojas bloqueadas. La buena noticia es que Aspose.Cells para .NET ofrece una forma sólida de gestionar estos desafíos. Imagine que está sentado en su escritorio, mirando un libro de Excel, y se da cuenta de que no puede acceder a los datos porque están bloqueados. Frustrante, ¿verdad? Veamos cómo esta potente biblioteca puede hacer que esos días queden atrás.
+Si trabaja con archivos de Excel en .NET, es posible que se haya encontrado con situaciones en las que necesita acceder a hojas bloqueadas. La buena noticia es que Aspose.Cells para .NET ofrece una forma sólida de gestionar estos desafíos. Imagine que está sentado en su escritorio, mirando un libro de Excel, y se da cuenta de que no puede acceder a los datos porque están bloqueados. Es frustrante, ¿verdad? Veamos cómo esta potente biblioteca puede hacer que esos días queden atrás.
 
 ## Cómo desbloquear hojas de cálculo de Excel protegidas con contraseña 
 

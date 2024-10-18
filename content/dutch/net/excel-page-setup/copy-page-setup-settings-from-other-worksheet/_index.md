@@ -34,7 +34,7 @@ using System;
 
 Met deze ene regel krijgt u toegang tot alle krachtige componenten van de Aspose.Cells-bibliotheek.
 
-Laten we het hele proces opsplitsen in beheersbare stappen om ervoor te zorgen dat u elk onderdeel volledig begrijpt. We maken een werkboek, voegen twee werkbladen toe, wijzigen de pagina-instelling van een werkblad en kopiëren die instellingen vervolgens naar een ander werkblad.
+Laten we het hele proces opsplitsen in beheersbare stappen om ervoor te zorgen dat u elk onderdeel volledig begrijpt. We maken een werkboek, voegen twee werkbladen toe, wijzigen de pagina-instelling van één werkblad en kopiëren die instellingen vervolgens naar een ander werkblad.
 
 ## Stap 1: Maak een werkmap
 
@@ -94,7 +94,7 @@ Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
 
 Dit zal de huidige pagina-instellingen voor beide werkbladen naar de console sturen. Het is altijd goed om te controleren wat je hebt voordat je wijzigingen aanbrengt, toch?
 
-## Stap 6: Kopieer pagina-instelling van TestSheet1 naar TestSheet2
+## Stap 6: Kopieer pagina-instellingen van TestSheet1 naar TestSheet2
 
 Kopieer de pagina-instellingen:
 Hier komt het spannende gedeelte! U kunt alle pagina-instellingen kopiëren van "TestSheet1" naar "TestSheet2".
@@ -103,7 +103,7 @@ Hier komt het spannende gedeelte! U kunt alle pagina-instellingen kopiëren van 
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
 ```
 
-Deze regel code neemt in principe alle opmaak van "TestSheet1" en past het toe op "TestSheet2". Het is alsof je een momentopname van één pagina maakt en deze op een andere plakt!
+Deze regel code neemt in feite alle opmaak van "TestSheet1" en past het toe op "TestSheet2". Het is alsof je een momentopname van één pagina maakt en deze op een andere plakt!
 
 ## Stap 7: Afdrukken van bijgewerkte papierformaten
 

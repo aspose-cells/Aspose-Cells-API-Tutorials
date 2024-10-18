@@ -9,7 +9,7 @@ url: /pt/net/excel-page-breaks/excel-add-page-breaks/
 ---
 ## Introdução
 
-Você está cansado de adicionar quebras de página manualmente em suas planilhas do Excel? Talvez você tenha uma planilha longa que não imprime bem porque tudo simplesmente se mistura. Bem, você está com sorte! Neste guia, vamos nos aprofundar em como usar o Aspose.Cells para .NET para automatizar o processo de adicionar quebras de página. Imagine ser capaz de organizar suas planilhas de forma eficiente, tornando-as limpas e apresentáveis sem suar as pequenas coisas. Vamos dividir isso passo a passo e tornar seu jogo do Excel mais forte!
+Você está cansado de adicionar quebras de página manualmente em suas planilhas do Excel? Talvez você tenha uma planilha longa que não imprime bem porque tudo simplesmente se mistura. Bem, você está com sorte! Neste guia, vamos mergulhar em como usar o Aspose.Cells para .NET para automatizar o processo de adicionar quebras de página. Imagine ser capaz de organizar suas planilhas de forma eficiente, tornando-as limpas e apresentáveis sem suar as pequenas coisas. Vamos dividir isso passo a passo e tornar seu jogo do Excel mais forte!
 
 ## Pré-requisitos
 
@@ -92,7 +92,7 @@ Depois de adicionar as quebras de página, o próximo passo é salvar sua pasta 
 ```csharp
 workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 ```
- Aqui, você está salvando a pasta de trabalho no diretório especificado com um novo nome de arquivo. Certifique-se de fornecer uma extensão válida como`.xls` ou`.xlsx` com base em suas necessidades. É como clicar em “Salvar” para seu documento, garantindo que nenhum trabalho seu seja perdido!
+ Aqui, você está salvando a pasta de trabalho no diretório especificado com um novo nome de arquivo. Certifique-se de fornecer uma extensão válida como`.xls` ou`.xlsx` com base em suas necessidades. É como clicar em “Salvar” para seu documento, garantindo que nada do seu trabalho seja perdido!
 
 ## Conclusão
 

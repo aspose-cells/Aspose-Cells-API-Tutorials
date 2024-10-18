@@ -25,7 +25,7 @@ url: /zh/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 ## 导入包
 
-要与 Excel 数据和图表交互，您需要从 Aspose.Cells 导入相关包。操作方法如下：
+要与 Excel 数据和图表进行交互，您需要从 Aspose.Cells 导入相关包。操作方法如下：
 
 ### 设置你的项目
 

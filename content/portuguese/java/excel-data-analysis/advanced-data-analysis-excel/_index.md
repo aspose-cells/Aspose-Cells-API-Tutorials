@@ -23,7 +23,7 @@ Antes de mergulharmos no mundo da análise avançada de dados com o Aspose.Cells
 
 ## Configurando Aspose.Cells para Java
 
-Vamos começar configurando o Aspose.Cells para Java no seu projeto. Siga estas etapas para deixar tudo pronto:
+Vamos começar configurando o Aspose.Cells para Java no seu projeto. Siga estes passos para deixar tudo pronto:
 
 1. Baixe a biblioteca Aspose.Cells para Java no link fornecido.
 2. Adicione a biblioteca ao seu projeto Java.
@@ -93,7 +93,7 @@ double result = cell.getDoubleValue();
 
 ## Criando gráficos personalizados
 
-Visualizar dados é crucial na análise de dados. O Aspose.Cells para Java permite que você crie gráficos e tabelas personalizados diretamente dos seus dados.
+Visualizar dados é crucial na análise de dados. Aspose.Cells para Java permite que você crie gráficos e tabelas personalizados diretamente dos seus dados.
 
 ```java
 // Criar um gráfico
@@ -187,7 +187,7 @@ Para instalar o Aspose.Cells para Java, siga estas etapas:
 
 ### Posso criar gráficos personalizados com o Aspose.Cells para Java?
 
-Sim, você pode criar gráficos e tabelas personalizados com Aspose.Cells para Java. A API fornece opções de personalização de gráficos extensivas.
+Sim, você pode criar gráficos e tabelas personalizados com o Aspose.Cells para Java. A API fornece opções de personalização de gráficos extensivas.
 
 ### O Aspose.Cells para Java é adequado para grandes conjuntos de dados?
 

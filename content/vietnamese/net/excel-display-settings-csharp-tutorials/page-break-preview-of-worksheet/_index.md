@@ -2,7 +2,7 @@
 title: Xem trước ngắt trang của bảng tính
 linktitle: Xem trước ngắt trang của bảng tính
 second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Học cách sử dụng Aspose.Cells cho .NET để bật chế độ xem trước ngắt trang trong bảng tính Excel thông qua hướng dẫn từng bước đơn giản.
+description: Tìm hiểu cách sử dụng Aspose.Cells cho .NET để bật chế độ xem trước ngắt trang trong bảng tính Excel thông qua hướng dẫn từng bước đơn giản.
 type: docs
 weight: 110
 url: /vi/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/
@@ -13,7 +13,7 @@ Việc tạo và quản lý các tệp Excel theo chương trình có thể khá
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, bạn cần đáp ứng một số điều kiện tiên quyết sau:
+Trước khi bắt đầu, bạn cần có một số điều kiện tiên quyết sau:
 
 1. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# và .NET framework chắc chắn sẽ giúp bạn hiểu rõ hơn về hướng dẫn này.
 2.  Aspose.Cells cho .NET đã cài đặt: Bạn cần có thư viện Aspose.Cells cho .NET. Bạn có thể[tải xuống từ đây](https://releases.aspose.com/cells/net/).
@@ -64,7 +64,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ## Bước 3: Khởi tạo Workbook
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -74,11 +74,11 @@ Workbook workbook = new Workbook(fstream);
 ## Bước 4: Truy cập vào Bảng tính
 
 ```csharp
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Ở đây, chúng ta truy cập trang tính đầu tiên trong sổ làm việc của bạn bằng cách sử dụng chỉ mục của nó (bắt đầu từ số không). Nếu bạn có nhiều trang tính, bạn có thể truy cập các trang tính khác bằng cách thay đổi chỉ mục.
+Tại đây, chúng ta truy cập trang tính đầu tiên trong sổ làm việc của bạn bằng cách sử dụng chỉ mục của nó (bắt đầu từ số không). Nếu bạn có nhiều trang tính, bạn có thể truy cập các trang tính khác bằng cách thay đổi chỉ mục.
 
 ## Bước 5: Bật chế độ xem trước ngắt trang
 

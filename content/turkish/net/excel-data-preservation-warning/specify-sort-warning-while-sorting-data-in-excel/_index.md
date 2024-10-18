@@ -9,7 +9,7 @@ url: /tr/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-
 ---
 ## giriiş
 
-Excel'de verileri sıralamayı hiç denediniz mi, ancak beklenmedik sonuçlarla kafanız karıştı mı? Metin olarak depolanan sayıları sıralamak, özellikle beklediğiniz gibi davranmadıklarında kafa karışıklığına yol açabilir. Bu eğitimde, .NET için Aspose.Cells kullanarak Excel'de verileri sıralarken sıralama uyarılarının nasıl belirtileceğini ele alacağız. Aspose.Cells, geliştiricilerin Microsoft Excel'i yüklemelerine gerek kalmadan Excel dosyalarını düzenlemelerine olanak tanıyan güçlü bir API'dir. Yani, deneyimli bir geliştirici olun veya yeni yeni başlıyor olun, buralarda olun! Excel'de sıralamayı bir profesyonel gibi öğrenmenize yardımcı olacak adım adım bir kılavuzumuz var.
+Excel'de verileri sıralamayı hiç denediniz mi, sadece beklenmedik sonuçlarla mı şaşırdınız? Metin olarak depolanan sayıları sıralamak, özellikle beklediğiniz gibi davranmadıklarında kafa karışıklığına yol açabilir. Bu eğitimde, .NET için Aspose.Cells kullanarak Excel'de verileri sıralarken sıralama uyarılarının nasıl belirtileceğini ele alacağız. Aspose.Cells, geliştiricilerin Microsoft Excel'i yüklemeye gerek kalmadan Excel dosyalarını düzenlemelerine olanak tanıyan güçlü bir API'dir. Yani, deneyimli bir geliştirici olun veya yeni yeni başlıyor olun, buralarda olun! Excel'de sıralamayı bir profesyonel gibi öğrenmenize yardımcı olacak adım adım bir kılavuzumuz var.
 
 ## Ön koşullar
 
@@ -18,7 +18,7 @@ Verileri sıralama konusunda ayrıntılara girmeden önce, yerine getirmeniz ger
 1. Visual Studio: Bir IDE veya kod düzenleyicisine ihtiyacınız olacak ve Visual Studio, .NET geliştirme için en iyi seçeneklerden biridir.
 2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olduğunuzdan emin olun. Bunu şuradan alabilirsiniz:[İndirme bağlantısı](https://releases.aspose.com/cells/net/) veya ile başla[Ücretsiz deneme](https://releases.aspose.com/).
 3. C#'ın Temel Anlayışı: C# ile biraz aşinalık çok işe yarayacaktır. Daha önce C# ile uğraştıysanız, hazırsınız!
-4.  Örnek Excel Dosyası: Adlı bir örnek Excel dosyası oluşturabilirsiniz.`sampleSortAsNumber.xlsx` Sıralamak istediğiniz A sütunundaki verilerle.
+4.  Örnek Excel Dosyası: Adında bir örnek Excel dosyası oluşturabilirsiniz.`sampleSortAsNumber.xlsx` Sıralamak istediğiniz A sütunundaki verilerle.
 
 Bu ön koşulları yerine getirdikten sonra, hemen koda geçebiliriz!
 
@@ -36,7 +36,7 @@ Artık her şeyi yoluna koyduğumuza göre, sıralama sürecini adım adım ince
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
- İlk olarak, belge dizininize giden yolu belirtmeniz gerekir. Bu, belgenizin bulunduğu yerdir.`sampleSortAsNumber.xlsx` dosya bulunacaktır. Değiştir`"Your Document Directory"` Excel dosyanızın bulunduğu gerçek yol ile.
+ İlk olarak, belge dizininize giden yolu belirtmeniz gerekir. Bu, belgenizin bulunduğu yerdir.`sampleSortAsNumber.xlsx` dosya bulunacaktır. Değiştir`"Your Document Directory"`Excel dosyanızın bulunduğu gerçek yol ile.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Adım 2: Bir Çalışma Kitabı Örneği Oluşturun
 
- Daha sonra, bir örnek oluşturacaksınız`Workbook`az önce tanımladığınız yolu kullanarak sınıf. Bir çalışma kitabını, elektronik tablolarınız için fiziksel bir klasörün dijital versiyonu olarak düşünün.
+ Daha sonra, bir örnek oluşturacaksınız`Workbook`Az önce tanımladığınız yolu kullanarak sınıf. Bir çalışma kitabını, elektronik tablolarınız için fiziksel bir klasörün dijital versiyonu olarak düşünün.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sampleSortAsNumber.xlsx");
@@ -97,7 +97,7 @@ sorter.AddKey(idx, SortOrder.Ascending);
 
 ## Adım 7: Sıralamayı Sayı Olarak Belirleyin
 
- Metin olarak saklanan sayıları sıralamanın yaygın sorununu önlemek için,`SortAsNumber` mülkiyeti doğruya.
+ Metin olarak saklanan sayıları sıralamanın yaygın sorununu önlemek için,`SortAsNumber` mülkiyetin doğruya çevrilmesi.
 
 ```csharp
 sorter.SortAsNumber = true;
@@ -123,7 +123,7 @@ Son olarak, sıralanmış çalışma kitabınızı kaydetmeniz gerekir. Orijinal
 workbook.Save(dataDir + "outputSortAsNumber.xlsx");
 ```
 
-Ve işte bu kadar! Sıralanmış verileriniz artık yeni bir dosyaya kaydedildi!
+Ve işte bu kadar! Sıralanmış verileriniz artık yeni bir dosyada kaydedildi!
 
 ## Çözüm
 
@@ -132,7 +132,7 @@ Bu eğitimde, .NET için Aspose.Cells kullanarak Excel'de verileri sıralama ad�
 ## SSS
 
 ### Aspose.Cells Nedir?  
-Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmasını, düzenlemesini ve dönüştürmesini sağlayan bir .NET kütüphanesidir.
+Aspose.Cells, geliştiricilerin Excel dosyalarını programlı bir şekilde oluşturmasını, düzenlemesini ve dönüştürmesini sağlayan bir .NET kütüphanesidir.
 
 ### Aspose.Cells olmadan Excel'de verileri sıralayabilir miyim?  
 Evet, Excel yerleşik sıralama seçenekleri sunar, ancak Aspose.Cells'i kullanmak otomatikleştirilebilen programlı manipülasyona olanak tanır.

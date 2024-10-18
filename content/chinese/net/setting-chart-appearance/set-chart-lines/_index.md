@@ -9,7 +9,7 @@ url: /zh/net/setting-chart-appearance/set-chart-lines/
 ---
 ## 介绍
 
-创建具有视觉吸引力和信息量的图表对于数据表示至关重要。无论您是数据分析师、业务经理还是喜欢组织数据的人，图表都可以显著增强您呈现信息的方式。本教程将引导您完成使用 Aspose.Cells for .NET（一个用于处理 Excel 文件的强大库）设置图表线条的过程。最后，您将了解如何创建包含自定义项的精美图表，让您的 Excel 数据脱颖而出！
+在数据表示中，创建具有视觉吸引力和信息量的图表至关重要。无论您是数据分析师、业务经理还是喜欢组织数据的人，图表都可以显著增强您呈现信息的方式。本教程将引导您完成使用 Aspose.Cells for .NET（一个用于处理 Excel 文件的强大库）设置图表线条的过程。最后，您将了解如何创建包含自定义项的精美图表，让您的 Excel 数据脱颖而出！
 
 ## 先决条件
 
@@ -79,7 +79,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
-说明：我们在这里用一些数值填充单元格“A1”至“A3”和“B1”至“B3”。这些稍后将绘制在我们的图表中。
+说明：我们在这里用一些数值填充单元格“A1”至“A3”和“B1”至“B3”。这些将在稍后绘制在我们的图表中。
 
 ## 步骤 5：向工作表添加图表
 
@@ -135,7 +135,7 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-说明：在这里，您可以自定义图表各个组件的颜色，使其具有视觉冲击力。每条线针对图表的不同区域。
+说明：在这里，您可以自定义图表各个部分的颜色，使其具有视觉冲击力。每条线针对图表的不同区域。
 
 ## 步骤 9：应用线条样式
 

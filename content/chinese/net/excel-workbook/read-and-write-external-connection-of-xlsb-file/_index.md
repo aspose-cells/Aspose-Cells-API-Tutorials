@@ -17,7 +17,7 @@ url: /zh/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 
 1. C# 基础知识：了解 C# 编程语言将大有帮助。如果您能熟练编写 C# 代码，那就大功告成了！
 2.  Aspose.Cells for .NET：您需要在开发环境中安装此库。如果您尚未安装，您可以轻松下载[这里](https://releases.aspose.com/cells/net/). 
-3. IDE：您需要一个代码编辑器或集成开发环境 (IDE)，例如 Visual Studio。 
+3. IDE：您需要一个代码编辑器或集成开发环境（IDE），例如 Visual Studio。 
 4. 示例 XLSB 文件：我们将使用包含外部连接的示例 XLSB 文件。您可以创建自己的示例或在线下载示例。 
 
 一旦满足了所有这些先决条件，我们就可以开始编写代码了！

@@ -9,11 +9,11 @@ url: /pl/net/excel-workbook/
 ---
 ## Wstęp
 
-Czy jesteś zmęczony zmaganiem się z zarządzaniem plikami Excela? Jeśli kiedykolwiek stanąłeś przed wyzwaniem dodawania podpisów lub wyodrębniania danych ze złożonych plików, jesteś we właściwym miejscu. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia programistom manipulowanie plikami Excela programowo. Mamy listę przydatnych samouczków, które w przejrzysty i angażujący sposób dzielą różne zadania.
+Czy masz dość zmagań z zarządzaniem plikami Excel? Jeśli kiedykolwiek stanąłeś przed wyzwaniem dodawania podpisów lub wyodrębniania danych ze złożonych plików, jesteś we właściwym miejscu. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia programistom manipulowanie plikami Excel programowo. Mamy listę przydatnych samouczków, które w przejrzysty i angażujący sposób dzielą różne zadania.
 
 ## Dostęp do informacji o rozszerzeniu sieci Web
 
-Zrozumienie, jak uzyskać dostęp do informacji o rozszerzeniach sieci Web, może otworzyć nowe możliwości w arkuszach kalkulacyjnych programu Excel. Umożliwia to lepszą interaktywność w plikach. Nasz samouczek na temat[Informacje o rozszerzeniu dostępu do sieci Web](./access-web-extension-information/) zawiera opis przejścia krok po kroku, dzięki któremu proces ten stanie się łatwy nawet dla tych, którzy dopiero zaczynają przygodę z Aspose.Cells.
+Zrozumienie, jak uzyskać dostęp do informacji o rozszerzeniach internetowych, może otworzyć nowe możliwości w arkuszach kalkulacyjnych programu Excel. Umożliwia to lepszą interaktywność w plikach. Nasz samouczek na temat[Informacje o rozszerzeniu dostępu do sieci Web](./access-web-extension-information/) zawiera opis przejścia krok po kroku, dzięki któremu proces ten stanie się łatwy nawet dla tych, którzy dopiero zaczynają przygodę z Aspose.Cells.
 
 ## Dodawanie podpisów cyfrowych
 
@@ -21,7 +21,7 @@ Zrozumienie, jak uzyskać dostęp do informacji o rozszerzeniach sieci Web, moż
 
 ## Tworzenie udostępnionych skoroszytów
 
- Współpraca jest kluczowa w dzisiejszym miejscu pracy, a nasz poradnik na ten temat[Utwórz współdzielony skoroszyt](./create-shared-workbook/) pozwala na łatwe skonfigurowanie współdzielonych skoroszytów. Jest to idealne rozwiązanie dla zespołów, które muszą wspólnie pracować nad analizą danych lub zarządzaniem projektami w programie Excel. 
+ Współpraca jest kluczowa w dzisiejszym miejscu pracy, a nasz poradnik na ten temat[Utwórz współdzielony skoroszyt](./create-shared-workbook/) umożliwia bezproblemowe skonfigurowanie współdzielonych skoroszytów. Jest to idealne rozwiązanie dla zespołów, które muszą wspólnie pracować nad analizą danych lub zarządzaniem projektami w programie Excel. 
 
 ## Wyodrębnianie osadzonych plików
 
@@ -33,7 +33,7 @@ Czy wiesz, że Excel może zawierać osadzone pliki? Jeśli kiedykolwiek musiał
 
 ## Zwiększanie bezpieczeństwa dzięki ochronie hasłem
 
- Bezpieczeństwo jest niezbędne, szczególnie w przypadku współdzielonych skoroszytów zawierających poufne informacje. Nasz samouczek na temat[Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem](./password-protect-or-unprotect-shared-workbook/)szczegółowo opisuje kroki blokowania skoroszytów, aby tylko odpowiednie osoby mogły do nich uzyskać dostęp. Będziesz czuć się pewniej udostępniając pliki, gdy będziesz wiedzieć, że są bezpieczne.
+ Bezpieczeństwo jest niezbędne, szczególnie w przypadku współdzielonych skoroszytów zawierających poufne informacje. Nasz samouczek na temat[Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem](./password-protect-or-unprotect-shared-workbook/)szczegółowo opisuje kroki blokowania skoroszytów, aby tylko odpowiednie osoby mogły mieć do nich dostęp. Będziesz czuć się pewniej udostępniając pliki, gdy będziesz wiedzieć, że są bezpieczne.
 
 ## Zwiększanie produktywności za pomocą wyrażeń regularnych
 
@@ -41,7 +41,7 @@ Czy wiesz, że Excel może zawierać osadzone pliki? Jeśli kiedykolwiek musiał
 
 ## Aktualizowanie elementów Power Query
 
- Power Querys może być prawdziwym przełomem w manipulacji danymi, umożliwiając usprawnienie importowania informacji do plików Excel. Jeśli zastanawiasz się, jak aktualizować elementy formuły Power Query w programie Excel przy użyciu Aspose.Cells dla .NET, nasz samouczek na temat[Aktualizuj element formuły Power Query](./update-power-query-formula-item/)jest właśnie tym, czego szukasz. Zapewnia proste, krok po kroku podejście do modyfikowania tych elementów formuły, pozwalając zachować świeżość danych i dokładne odzwierciedlenie w skoroszytach.
+ Power Query może być prawdziwym przełomem w manipulacji danymi, umożliwiając usprawnienie importowania informacji do plików Excel. Jeśli zastanawiasz się, jak aktualizować elementy formuły Power Query w programie Excel przy użyciu Aspose.Cells dla .NET, nasz samouczek na temat[Aktualizuj element formuły Power Query](./update-power-query-formula-item/)jest właśnie tym, czego szukasz. Zapewnia proste, krok po kroku podejście do modyfikowania tych elementów formuły, pozwalając zachować świeżość danych i dokładne odzwierciedlenie w skoroszytach.
 
 ## Zarządzanie podglądami wydruku
 
@@ -71,7 +71,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Wyodrębnij osadzony plik Mol](./extract-embedded-mol-file/) | Dowiedz się, jak łatwo wyodrębnić osadzone pliki MOL ze skoroszytu programu Excel przy użyciu Aspose.Cells dla platformy .NET. |  
 | [Filtruj zdefiniowane nazwy podczas ładowania skoroszytu](./filter-defined-names-while-loading-workbook/) | tym kompleksowym przewodniku dowiesz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla platformy .NET. |  
 | [Uzyskaj szczegóły Odata](./get-odata-details/) | Dowiedz się, jak wyodrębnić szczegóły OData z programu Excel za pomocą Aspose.Cells dla .NET, korzystając z tego szczegółowego samouczka krok po kroku. |  
-| [Zabezpieczanie lub usuwanie zabezpieczenia udostępnionego skoroszytu hasłem](./password-protect-or-unprotect-shared-workbook/) | Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń. |  
+| [Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem](./password-protect-or-unprotect-shared-workbook/) | Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń. |  
 | [Odczyt i zapis połączenia zewnętrznego pliku XLSB](./read-and-write-external-connection-of-xlsb-file/) | W tym kompleksowym samouczku dowiesz się, jak zarządzać połączeniami zewnętrznymi w plikach XLSB przy użyciu Aspose.Cells dla platformy .NET. |  
 | [Zamień wyrażenie regularne](./regex-replace/) | Dowiedz się, jak efektywnie używać funkcji zastępowania wyrażeń regularnych w programie Excel za pomocą Aspose.Cells dla platformy .NET. Zwiększ produktywność i dokładność zadań wykonywanych w arkuszach kalkulacyjnych. |  
 | [Aktualizuj element formuły Power Query](./update-power-query-formula-item/) | Łatwa aktualizacja elementów formuły Power Query w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku, który usprawni procesy manipulacji danymi. |  

@@ -9,13 +9,13 @@ url: /ja/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 ---
 ## 導入
 
-.NET で Excel ファイルを操作する場合、最も強力なライブラリの 1 つが Aspose.Cells です。これを使用すると、データの読み取り、グラフの作成、複雑な計算の実行など、スプレッドシートを簡単に操作できます。このチュートリアルでは、計算後にグラフから軸ラベルを読み取るという特定の機能について詳しく説明します。これらのラベルをプログラムで抽出する方法を知りたいと思ったことがあるなら、ここが最適な場所です。必要な詳細をすべて提供しながら、ステップごとに詳しく説明します。
+.NET で Excel ファイルを操作する場合、最も強力なライブラリの 1 つが Aspose.Cells です。データの読み取り、グラフの作成、複雑な計算の実行など、スプレッドシートを簡単に操作できます。このチュートリアルでは、計算後にグラフから軸ラベルを読み取るという特定の機能について詳しく説明します。これらのラベルをプログラムで抽出する方法を知りたいと思ったことがあるなら、ここが最適な場所です。必要な詳細をすべて提供しながら、ステップごとに詳しく説明します。
 
 ## 前提条件
 
 コードの細部に入る前に、始めるのに必要なものがすべて揃っていることを確認しましょう。
 
-1. Visual Studio: お使いのマシンにVisual Studioがインストールされている必要があります。まだインストールされていない場合は、[マイクロソフトのウェブサイト](https://visualstudio.microsoft.com/).
+1.  Visual Studio: お使いのマシンにVisual Studioがインストールされている必要があります。まだインストールしていない場合は、[マイクロソフトのウェブサイト](https://visualstudio.microsoft.com/).
 2. Aspose.Cellsライブラリ: このガイドでは、Aspose.Cellsライブラリをお持ちであることを前提としています。[Aspose のリリースページ](https://releases.aspose.com/cells/net/)どこから始めればよいかわからない場合は、[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/)あなたの親友になれます！
 3. C# の基礎知識: C# プログラミング言語に精通していると、例を理解し、スムーズに進めることができます。
 4.  Excelファイル: このチュートリアル用のグラフを含むExcelファイルがあることを確認してください。サンプルのExcelファイルを作成できます。`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`テスト目的のため。
@@ -60,7 +60,7 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
-の`Workbook`クラスは Excel ファイルへのゲートウェイです。フルパスを指定することで、Excel データを保持する新しいワークブック インスタンスが作成されます。
+の`Workbook`クラスは Excel ファイルへのゲートウェイです。フルパスを指定することで、Excel データを保持する新しいワークブック インスタンスを作成します。
 
 ## ステップ3: 最初のワークシートにアクセスする
 
@@ -114,7 +114,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
-このスニペットは最初にタイトルと区切り線を出力します。次に、各ラベルをループして`lstLabels`ArrayList を作成し、コンソールに出力します。ラベルが 10 個ある場合は、それぞれがそこに表示されます。
+このスニペットは最初にタイトルと区切り線を出力します。次に、各ラベルをループして`lstLabels`ArrayList を作成してコンソールに出力します。ラベルが 10 個ある場合は、それぞれがそこに表示されます。
 
 ## ステップ8: 最終メッセージ
 
@@ -127,7 +127,7 @@ Console.WriteLine("ReadAxisLabelsAfterCalculatingTheChart executed successfully.
 
 ## 結論
 
-これで、.NET 用の Aspose.Cells ライブラリを使用して Excel ファイルのグラフからカテゴリ軸ラベルを読み取る方法の完全なガイドが完成しました。とても簡単ですよね? わずか数行のコードで、スプレッドシートから重要な情報を抽出し、アプリケーションにシームレスに統合できます。
+これで、.NET 用の Aspose.Cells ライブラリを使用して Excel ファイル内のグラフからカテゴリ軸ラベルを読み取る方法の完全なガイドが完成しました。とても簡単ですよね? わずか数行のコードで、スプレッドシートから重要な情報を抽出し、アプリケーションにシームレスに統合できます。
 
 ## よくある質問
 

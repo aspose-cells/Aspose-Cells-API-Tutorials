@@ -34,7 +34,7 @@ Install-Package Aspose.Cells
 
 ## Importar paquetes
 
-Para embarcarse en este viaje de programación, deberá importar los espacios de nombres necesarios. Este es un paso vital, ya que permite el uso de las funcionalidades de Aspose.Cells en su proyecto.
+Para embarcarse en este viaje de programación, deberá importar los espacios de nombres necesarios. Este es un paso fundamental, ya que permite el uso de las funcionalidades de Aspose.Cells en su proyecto.
 
 1. Abra su proyecto en Visual Studio.
 2. En su archivo de código, en la parte superior, agregue las siguientes directivas using:
@@ -112,7 +112,7 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 
 ## Conclusión
 
-¡Y ya lo tienes! Has obtenido con éxito los índices de las filas ocultas después de actualizar un filtro automático en Excel con Aspose.Cells para .NET. Muy interesante, ¿verdad? Esta capacidad puede mejorar drásticamente tus proyectos de análisis de datos, haciendo que tu flujo de trabajo sea más fluido y eficiente.
+¡Y ya está! Ha obtenido con éxito los índices de las filas ocultas después de actualizar un filtro automático en Excel con Aspose.Cells para .NET. Muy interesante, ¿verdad? Esta capacidad puede mejorar drásticamente sus proyectos de análisis de datos, haciendo que su flujo de trabajo sea más fluido y eficiente.
 
 ## Preguntas frecuentes
 

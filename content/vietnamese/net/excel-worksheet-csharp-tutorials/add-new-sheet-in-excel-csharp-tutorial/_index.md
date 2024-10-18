@@ -1,8 +1,8 @@
 ---
-title: Thêm trang tính mới vào Excel Hướng dẫn C#
+title: Thêm trang tính mới vào Excel C# Hướng dẫn
 linktitle: Thêm trang tính mới vào Excel
 second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thêm trang tính mới vào Excel bằng C# với Aspose.Cells. Hướng dẫn này chia nhỏ quy trình thành các bước đơn giản, dễ thực hiện.
+description: Tìm hiểu cách thêm trang tính mới trong Excel bằng C# với Aspose.Cells. Hướng dẫn này chia nhỏ quy trình thành các bước đơn giản, dễ thực hiện.
 type: docs
 weight: 20
 url: /vi/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tutorial/
@@ -49,7 +49,7 @@ Chúng ta hãy chia nhỏ quy trình thêm một trang tính mới thành các b
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Tạo thư mục nếu thư mục đó chưa có.
+//Tạo thư mục nếu thư mục đó chưa có.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -62,11 +62,11 @@ Trong đoạn mã trên, chúng ta đang khai báo đường dẫn nơi tệp Ex
 Tiếp theo, chúng ta sẽ tạo một phiên bản của lớp Workbook. Lớp này là xương sống của bất kỳ hoạt động nào liên quan đến Excel mà bạn sẽ thực hiện.
 
 ```csharp
-//Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
- Khi bạn tạo một phiên bản mới của`Workbook` lớp học, về cơ bản bạn đang bắt đầu một trang giấy trắng—sẵn sàng hành động. Hãy nghĩ về việc mở một cuốn sổ tay trống, nơi bạn có thể ghi lại mọi thứ bạn cần.
+ Khi bạn tạo một phiên bản mới của`Workbook` lớp học, về cơ bản bạn đang bắt đầu một trang giấy trắng—sẵn sàng hành động. Hãy nghĩ về điều đó như việc mở một cuốn sổ tay trống, nơi bạn có thể ghi lại mọi thứ bạn cần.
 
 ## Bước 3: Thêm một bảng tính mới
 
@@ -77,7 +77,7 @@ Bây giờ bảng tính của chúng ta đã sẵn sàng, hãy thêm trang tính
 int i = workbook.Worksheets.Add();
 ```
 
- Ở đây, chúng tôi đang sử dụng`Add()` phương pháp của`Worksheets` bộ sưu tập hiện diện trong`Workbook` lớp. Phương pháp trả về một chỉ mục (`i`của trang tính mới được thêm vào. Giống như việc thêm một trang vào sổ tay của bạn - đơn giản và hiệu quả!
+ Ở đây, chúng tôi đang sử dụng`Add()` phương pháp của`Worksheets` bộ sưu tập hiện diện trong`Workbook` lớp. Phương pháp trả về một chỉ mục (`i`) của trang tính mới được thêm vào. Giống như việc thêm một trang vào sổ tay của bạn - đơn giản và hiệu quả!
 
 ## Bước 4: Đặt tên cho trang tính mới của bạn
 
@@ -91,7 +91,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Bạn có thể tham chiếu đến trang tính mới được tạo bằng cách sử dụng chỉ mục của nó`i`. Sau đó, chúng ta chỉ cần đặt tên cho nó là "My Worksheet". Đặt tên cho các trang tính của bạn như thế này là một cách làm tốt, đặc biệt là khi làm việc với các tệp Excel lớn hơn, trong đó ngữ cảnh là chìa khóa.
+ Bạn có thể tham chiếu đến trang tính mới được tạo bằng cách sử dụng chỉ mục của nó`i`Sau đó, chúng ta chỉ cần đặt tên cho nó là "My Worksheet". Đặt tên cho các trang tính của bạn như thế này là một cách làm tốt, đặc biệt là khi làm việc với các tệp Excel lớn hơn, trong đó ngữ cảnh là chìa khóa.
 
 ## Bước 5: Lưu tệp Excel
 

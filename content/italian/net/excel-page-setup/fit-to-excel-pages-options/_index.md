@@ -1,8 +1,8 @@
 ---
-title: Opzioni di Adattamento alle Pagine Excel
-linktitle: Opzioni di Adattamento alle Pagine Excel
+title: Opzioni di adattamento alle pagine di Excel
+linktitle: Opzioni di adattamento alle pagine di Excel
 second_title: Riferimento API Aspose.Cells per .NET
-description: Scopri come utilizzare le opzioni Adatta alle pagine di Excel con Aspose.Cells per .NET e come presentare i tuoi dati in modo impeccabile con una semplice guida passo passo.
+description: Scopri come utilizzare le opzioni Adatta alle pagine di Excel con Aspose.Cells per .NET e presentare i tuoi dati in modo impeccabile con una semplice guida passo passo.
 type: docs
 weight: 30
 url: /it/net/excel-page-setup/fit-to-excel-pages-options/
@@ -54,9 +54,9 @@ Per prima cosa, inizializziamo il nostro Workbook e accediamo al foglio di lavor
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-//Creazione di un'istanza di un oggetto Workbook
+// Creazione di un'istanza di un oggetto Workbook
 Workbook workbook = new Workbook();
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
@@ -78,7 +78,7 @@ worksheet.PageSetup.FitToPagesWide = 1;
 
 ## Passaggio 3: salva la tua cartella di lavoro
 
-Una volta che tutto è impostato come preferisci, è il momento di salvare la cartella di lavoro.
+Una volta impostato tutto come preferisci, è il momento di salvare la cartella di lavoro.
 
 ```csharp
 // Salvare la cartella di lavoro.
@@ -89,7 +89,7 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 
 ## Conclusione
 
-Ed ecco fatto! Hai imparato a utilizzare le opzioni Adatta a pagine Excel in Aspose.Cells per .NET per garantire che i tuoi fogli di calcolo sembrino immacolati quando vengono stampati o condivisi. Padroneggiare queste tecniche può semplificare le tue presentazioni di dati e migliorare la tua efficienza complessiva quando lavori con documenti Excel. Ricorda, la potenza di Aspose.Cells ti consente di superare i limiti di ciò che è possibile nell'automazione di Excel. 
+Ed ecco fatto! Hai imparato a utilizzare le opzioni Adatta a pagine Excel in Aspose.Cells per .NET per garantire che i tuoi fogli di calcolo siano impeccabili quando vengono stampati o condivisi. Padroneggiare queste tecniche può semplificare le tue presentazioni di dati e migliorare la tua efficienza complessiva quando lavori con documenti Excel. Ricorda, la potenza di Aspose.Cells ti consente di superare i limiti di ciò che è possibile nell'automazione di Excel. 
 
 ## Domande frequenti
 

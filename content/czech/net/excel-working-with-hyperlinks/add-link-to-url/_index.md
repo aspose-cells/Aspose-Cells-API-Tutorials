@@ -25,7 +25,7 @@ Začněte vytvořením nového projektu C# ve vašem IDE. Vyberte si pro tento v
 2. Vyberte „Přidat“ a poté klikněte na „Odkaz“.
 3. Přejděte do umístění, kam jste stáhli Aspose.Cells, a vyberte jej.
 4. Klikněte na "OK" pro přidání reference.
-### Přidat Směrnici použití
+### Add Using Direktiva
 horní části souboru kódu musíte zahrnout následující direktivu, abyste měli snadný přístup k oboru názvů Aspose.Cells.
 ```csharp
 using System;
@@ -45,7 +45,7 @@ string outputDir = "Your Document Directory/"; // Změňte svou cestu
 ## Krok 2: Vytvořte objekt sešitu
  Zde vytvoříme instanci`Workbook` třída. Představte si sešit jako prázdné plátno pro vaši tabulku.
 ```csharp
-//Vytvoření instance objektu sešitu
+// Vytvoření instance objektu sešitu
 Workbook workbook = new Workbook();
 ```
 V této fázi jste v podstatě řekli: "Ahoj, Aspose, pojďme vytvořit nový soubor Excel!"
@@ -71,7 +71,7 @@ Abych to rozebral:
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Aspose - File Format APIs";
 ```
-Tento řádek říká Excelu, aby místo zobrazení nezpracované adresy URL zobrazil „Aspose – File Format APIs“. Je to mnohem čistší, že?
+Tento řádek říká Excelu, aby místo zobrazení nezpracované adresy URL zobrazil „Aspose – File Format APIs“. Je mnohem čistší, že?
 ## Krok 6: Uložte sešit
 Nakonec si uložíme náš nově vytvořený excelový sešit. Tady se všechna vaše dřina vyplatí!
 ```csharp
@@ -97,5 +97,5 @@ Ano! Opakováním kroků přidání hypertextového odkazu pro různé buňky m�
 Aspose.Cells nabízí robustní sadu funkcí pro vytváření, manipulaci a konverzi souborů Excel, díky čemuž je oblíbenou volbou pro vývojáře.
 ### Mohu upravit vzhled textu hypertextového odkazu?  
 Absolutně! Pomocí knihovny Aspose.Cells můžete nastavit vlastnosti formátování buněk pro změnu písma, barvy nebo stylů.
-### Existuje komunitní podpora pro Aspose.Cells?  
+### Existuje podpora komunity pro Aspose.Cells?  
  Ano! Podívejte se na jejich[fórum podpory](https://forum.aspose.com/c/cells/9) za pomoc a rady komunity.

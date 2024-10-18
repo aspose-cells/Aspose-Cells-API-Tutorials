@@ -101,7 +101,7 @@ Ja, Aspose.Cells voor Java ondersteunt verschillende typen gegevensvalidatie, wa
 
 ### Hoe kan ik de foutmelding aanpassen die wordt weergegeven wanneer gegevensvalidatie mislukt?
 
- U kunt het foutbericht aanpassen door de`setErrorMessage` methode in stap 4, waarin u de validatiecriteria definieert.
+ U kunt het foutbericht aanpassen door de`setErrorMessage` methode in stap 4, waar u de validatiecriteria definieert.
 
 ### Werkt Aspose.Cells voor Java met Excel-bestanden in verschillende formaten?
 

@@ -30,7 +30,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ez a névtér tartalmazza az összes osztályt és metódust, amely az Excel-fájlokkal való munkavégzéshez és a szükséges funkciók megvalósításához szükséges.
+Ez a névtér tartalmazza az összes osztályt és metódust, amely az Excel fájlokkal való munkához és a szükséges funkciók megvalósításához szükséges.
 
 Fejtsük fel az egyes cellák védelmének folyamatát egy Excel-munkalapon az Aspose.Cells for .NET segítségével. A kódot több emészthető lépésre bontjuk:
 
@@ -41,12 +41,12 @@ Az első dolog, amit meg akarunk tenni, az az, hogy meghatározzuk, hová kerül
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Hozzon létre könyvtárat, ha még nincs jelen.
+//Hozzon létre könyvtárat, ha még nincs jelen.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Itt definiálunk egy karakterlánc-változót`dataDir` amely a kívánt dokumentumkönyvtárra mutat. Ellenőrizzük, hogy létezik-e ez a könyvtár. Ha nem, akkor létrehozzuk. Ez biztosítja, hogy az Excel-fájl későbbi mentése során ne ütközzenek problémákba.
+ Itt definiálunk egy karakterlánc-változót`dataDir` amely a kívánt dokumentumkönyvtárra mutat. Ellenőrizzük, hogy létezik-e ez a könyvtár. Ha nem, akkor létrehozzuk. Ez biztosítja, hogy az Excel-fájl későbbi mentése során semmilyen problémába ne ütközzen.
 
 ## 2. lépés: Hozzon létre egy új munkafüzetet
 
@@ -132,7 +132,7 @@ Ez a parancs a munkafüzetet a megadott könyvtárba menti "output.out.xls" fáj
 
 ## Következtetés
 
-És megvan! Sikeresen védett bizonyos cellákat egy Excel-munkalapon az Aspose.Cells for .NET használatával. Az alábbi lépések végrehajtásával megtanulta, hogyan állíthatja be a környezetet, hogyan hozhat létre Excel-munkafüzetet, és hogyan zárhatja feltételesen a cellákat az adatok integritásának megőrzése érdekében. Ezért ha legközelebb arra gondol, hogy megengedje másoknak a táblázatok szerkesztését, emlékezzen az egyszerű technikákra, amelyekkel megvédheti fontos adatait!
+És megvan! Sikeresen védett bizonyos cellákat egy Excel-munkalapon az Aspose.Cells for .NET használatával. Az alábbi lépések végrehajtásával megtanulta, hogyan állíthatja be a környezetet, hogyan hozhat létre Excel-munkafüzetet, és feltételesen zárolhatja a cellákat az adatok integritásának megőrzése érdekében. Ezért ha legközelebb arra gondol, hogy megengedje másoknak a táblázatok szerkesztését, emlékezzen az egyszerű technikákra, amelyekkel megvédheti fontos adatait!
 
 ## GYIK
 

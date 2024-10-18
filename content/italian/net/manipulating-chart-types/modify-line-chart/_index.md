@@ -73,7 +73,7 @@ Una volta aperta la cartella di lavoro, dobbiamo passare al primo foglio di lavo
 Aspose.Cells.Charts.Chart chart = workbook.Worksheets[0].Charts[0];
 ```
 
-## Passaggio 4: aggiungere una nuova serie di dati
+## Passaggio 4: aggiungere nuove serie di dati
 
 Ora arriva la parte divertente! Possiamo aggiungere nuove serie di dati al nostro grafico per renderlo più informativo.
 
@@ -132,7 +132,7 @@ workbook.Save(outputDir + "outputModifyLineChart.xlsx");
 
 ## Passaggio 9: eseguire il programma
 
-Infine, per vedere tutto in azione, esegui la tua applicazione console. Dovresti vedere il messaggio che indica che la modifica è stata eseguita correttamente!
+Infine, per vedere tutto in azione, esegui la tua applicazione console. Dovresti vedere il messaggio che indica che la modifica è riuscita!
 
 ```csharp
 Console.WriteLine("ModifyLineChart executed successfully.");
@@ -145,7 +145,7 @@ Modificare i grafici a linee usando Aspose.Cells per .NET non deve essere un com
 ## Domande frequenti
 
 ### Posso usare Aspose.Cells per altri tipi di grafici?
-Sì, puoi modificare diversi tipi di grafici (ad esempio grafici a barre, a torta, ecc.) utilizzando metodi simili.
+Sì, puoi modificare diversi tipi di grafici (ad esempio a barre, a torta, ecc.) utilizzando metodi simili.
 
 ### È disponibile una versione di prova di Aspose.Cells?
  Assolutamente! Puoi provarlo gratuitamente[Qui](https://releases.aspose.com/).

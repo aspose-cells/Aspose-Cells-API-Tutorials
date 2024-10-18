@@ -117,7 +117,7 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 
 ## 結論
 
-現在你就擁有了！您已成功學習如何使用 Aspose.Cells for .NET 在 XLSB 檔案中讀取和寫入外部連線。透過執行這些步驟，您可以有效地管理 Excel 資料連接，讓您的 Excel 工作更加簡化、更少令人沮喪。請記住，無論您是處理大量資料集還是只是組織訊息，Aspose.Cells 都能提供您所需的工具。
+現在你就得到它了！您已成功學習如何使用 Aspose.Cells for .NET 在 XLSB 檔案中讀取和寫入外部連線。透過執行這些步驟，您可以有效地管理 Excel 資料連接，讓您的 Excel 工作更加簡化、更少令人沮喪。請記住，無論您是處理大量資料集還是只是組織訊息，Aspose.Cells 都能提供您所需的工具。
 
 ## 常見問題解答
 

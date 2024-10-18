@@ -14,14 +14,14 @@ Trong thế giới dữ liệu ngày nay, việc nhập dữ liệu hiệu quả
 
 Trước khi đi sâu vào các chi tiết kỹ thuật, chúng ta hãy cùng tìm hiểu tại sao việc tự động nhập dữ liệu lại quan trọng:
 
-1. Độ chính xác: Tự động hóa giúp giảm nguy cơ lỗi của con người, đảm bảo tính toàn vẹn của dữ liệu.
+1. Độ chính xác: Tự động hóa giúp giảm nguy cơ sai sót của con người, đảm bảo tính toàn vẹn của dữ liệu.
 2. Hiệu quả: Tiết kiệm thời gian và tài nguyên bằng cách loại bỏ việc nhập dữ liệu thủ công.
 3. Tính nhất quán: Các quy trình tự động duy trì định dạng dữ liệu thống nhất.
 4. Khả năng mở rộng: Dễ dàng xử lý khối lượng dữ liệu lớn bằng tự động hóa.
 
 ## Bắt đầu
 
-### 1. Thiết lập Môi trường
+### 1. Thiết lập môi trường
 
  Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Cells for Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/java/).
 
@@ -89,7 +89,7 @@ validation.setFormula2("100");
 
 ## Phần kết luận
 
-Tự động nhập dữ liệu với Aspose.Cells for Java hợp lý hóa quy trình quản lý dữ liệu của bạn, giảm lỗi và tăng năng suất. Với các ví dụ mã nguồn được cung cấp, bạn có thể bắt đầu triển khai tự động hóa trong các ứng dụng Java của mình ngay hôm nay.
+Tự động nhập dữ liệu với Aspose.Cells for Java hợp lý hóa quy trình quản lý dữ liệu của bạn, giảm lỗi và tăng năng suất. Với các ví dụ về mã nguồn được cung cấp, bạn có thể bắt đầu triển khai tự động hóa trong các ứng dụng Java của mình ngay hôm nay.
 
 ## Câu hỏi thường gặp
 

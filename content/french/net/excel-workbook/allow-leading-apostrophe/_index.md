@@ -16,7 +16,7 @@ Bienvenue dans ce guide étape par étape sur la façon d'utiliser Aspose.Cells 
 Avant de plonger dans le code, voici quelques prérequis que vous devez respecter :
 
 1. Connaissances de base de .NET : une connaissance du framework .NET est essentielle. Si vous maîtrisez déjà C# ou VB.NET, vous êtes prêt.
-2. Bibliothèque Aspose.Cells pour .NET : vous devez avoir installé Aspose.Cells. Vous pouvez facilement le faire via le gestionnaire de packages NuGet ou le télécharger à partir du[Site Aspose](https://releases.aspose.com/cells/net/).
+2. Bibliothèque Aspose.Cells pour .NET : vous devez avoir installé Aspose.Cells. Vous pouvez facilement le faire via le gestionnaire de packages NuGet ou le télécharger à partir du[Site d'Aspose](https://releases.aspose.com/cells/net/).
 3. Configuration de l'IDE : assurez-vous que vous disposez d'un environnement de développement intégré (IDE) comme Visual Studio prêt pour le codage.
 4. Exemple de fichier Excel : vous pouvez utiliser le fichier exemple (« AllowLeadingApostropheSample.xlsx ») avec lequel nous travaillerons dans le code.
 

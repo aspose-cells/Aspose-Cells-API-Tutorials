@@ -10,7 +10,7 @@ url: /es/java/basic-excel-functions/understanding-excel-max-function/
 
 ## Introducción
 
-La función MAX de Excel es una herramienta valiosa para el análisis de datos. Le permite encontrar rápidamente el valor más grande dentro de un rango específico de celdas. Ya sea que trabaje con datos financieros, cifras de ventas o cualquier otro tipo de datos numéricos, la función MAX puede ayudarlo a identificar el valor más alto con facilidad.
+La función MAX de Excel es una herramienta valiosa para el análisis de datos. Le permite encontrar rápidamente el valor más alto dentro de un rango específico de celdas. Ya sea que trabaje con datos financieros, cifras de ventas o cualquier otro tipo de datos numéricos, la función MAX puede ayudarlo a identificar el valor más alto con facilidad.
 
 ## Prerrequisitos
 

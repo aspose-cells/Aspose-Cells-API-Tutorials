@@ -56,7 +56,7 @@ Bây giờ bạn đã thiết lập xong thư mục tài liệu, bước tiếp 
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Ở đây, chúng tôi tạo ra một`Workbook`đối tượng bằng cách truyền đường dẫn đầy đủ của tệp Excel. Bước này khởi tạo sổ làm việc và chuẩn bị cho việc truy xuất dữ liệu.
+ Ở đây, chúng tôi tạo ra một`Workbook` đối tượng bằng cách truyền đường dẫn đầy đủ của tệp Excel. Bước này khởi tạo sổ làm việc và chuẩn bị cho việc truy xuất dữ liệu.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -68,7 +68,7 @@ Sau khi mở sổ làm việc, bạn sẽ muốn truy cập vào trang tính c�
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Các`Worksheets` bộ sưu tập cho phép bạn truy cập vào các trang tính khác nhau trong sổ làm việc. Chỉ mục`[0]` tham chiếu đến trang tính đầu tiên. Nếu bạn muốn truy cập các trang tính tiếp theo, bạn có thể thay đổi chỉ mục cho phù hợp.
+ Các`Worksheets` bộ sưu tập cho phép bạn truy cập vào các trang tính khác nhau trong sổ làm việc. Mục lục`[0]`tham chiếu đến trang tính đầu tiên. Nếu bạn muốn truy cập các trang tính tiếp theo, bạn có thể thay đổi chỉ mục cho phù hợp.
 
 ## Bước 4: Lặp qua các ô
 
@@ -93,7 +93,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("String Value: " + stringValue);
             break;
 
-        // Đánh giá kiểu dữ liệu của dữ liệu ô cho giá trị kép
+        // Đánh giá kiểu dữ liệu của dữ liệu ô cho giá trị double
         case CellValueType.IsNumeric:
             doubleValue = cell1.DoubleValue;
             Console.WriteLine("Double Value: " + doubleValue);
@@ -105,7 +105,7 @@ foreach (Cell cell1 in worksheet.Cells)
             Console.WriteLine("Bool Value: " + boolValue);
             break;
 
-        //Đánh giá kiểu dữ liệu của dữ liệu ô cho giá trị ngày/giờ
+        // Đánh giá kiểu dữ liệu của dữ liệu ô cho giá trị ngày/giờ
         case CellValueType.IsDateTime:
             dateTimeValue = cell1.DateTimeValue;
             Console.WriteLine("DateTime Value: " + dateTimeValue);
@@ -124,7 +124,7 @@ foreach (Cell cell1 in worksheet.Cells)
 }
 ```
 
- Trong bước này, chúng ta lặp qua từng ô trong bảng tính. Đối với mỗi ô, chúng ta kiểm tra kiểu dữ liệu của nó bằng cách sử dụng`switch` statement. Tùy thuộc vào loại, chúng tôi sẽ lấy giá trị và in nó ra bảng điều khiển. Sau đây là phân tích các trường hợp:
+ Trong bước này, chúng ta lặp qua từng ô trong bảng tính. Đối với mỗi ô, chúng ta kiểm tra kiểu dữ liệu của nó bằng cách sử dụng`switch`statement. Tùy thuộc vào loại, chúng tôi sẽ lấy giá trị và in nó ra bảng điều khiển. Sau đây là phân tích các trường hợp:
 
 -  IsString: Nếu ô chứa một chuỗi, chúng ta sẽ lấy nó bằng cách sử dụng`StringValue`.
 -  IsNumeric: Đối với các giá trị số, chúng tôi sử dụng`DoubleValue`.
@@ -143,9 +143,9 @@ Truy xuất dữ liệu từ các ô Excel bằng Aspose.Cells cho .NET là mộ
 Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra các tính năng của nó. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để kiểm tra các tính năng của nó. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
 
-### Tôi có thể lấy những loại dữ liệu nào từ ô Excel?  
+### Tôi có thể lấy những loại dữ liệu nào từ các ô trong Excel?  
 Bạn có thể lấy nhiều kiểu dữ liệu khác nhau, bao gồm chuỗi, số, boolean và giá trị ngày/giờ.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?  

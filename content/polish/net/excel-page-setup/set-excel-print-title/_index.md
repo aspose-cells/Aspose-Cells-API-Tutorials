@@ -20,7 +20,7 @@ Zanim przejdziemy do szczegółów, upewnijmy się, że wszystko jest skonfiguro
 3. Podstawowa wiedza programistyczna: Znajomość programowania w języku C# pomoże Ci zrozumieć i modyfikować udostępnione fragmenty kodu.
 4. .NET Framework: Upewnij się, że masz zainstalowaną właściwą wersję .NET w celu zapewnienia zgodności z Aspose.Cells.
 
-Gdy już spełnisz te wymagania, możemy zakasać rękawy i zacząć działać!
+Gdy już spełnisz te wymagania wstępne, możemy zakasać rękawy i zacząć działać!
 
 ## Importuj pakiety
 
@@ -109,7 +109,7 @@ Ostatnim krokiem naszego procesu jest zapisanie skoroszytu ze wszystkimi zastoso
 workbook.Save(dataDir + "SetPrintTitle_out.xls");
 ```
 
-Upewnij się, czy katalog dokumentów jest poprawnie określony, dzięki czemu będziesz mógł łatwo odnaleźć nowo utworzony plik Excela. 
+Upewnij się, czy katalog dokumentów jest poprawnie określony, dzięki czemu będziesz mógł łatwo odnaleźć nowo utworzony plik programu Excel. 
 
 I tak po prostu, tytuły do wydrukowania są gotowe, a plik Excel jest gotowy do wydrukowania!
 

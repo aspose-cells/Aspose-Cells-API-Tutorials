@@ -2,7 +2,7 @@
 title: Ordinare i dati in una colonna con l'elenco di ordinamento personalizzato in Excel
 linktitle: Ordinare i dati in una colonna con l'elenco di ordinamento personalizzato in Excel
 second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Scopri come ordinare i dati in Excel utilizzando un elenco di ordinamento personalizzato con Aspose.Cells per .NET in questo tutorial completo.
+description: In questo tutorial completo scoprirai come ordinare i dati in Excel utilizzando un elenco di ordinamento personalizzato con Aspose.Cells per .NET.
 type: docs
 weight: 10
 url: /it/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/
@@ -61,7 +61,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Passaggio 2: caricare il file Excel di origine
 
- Successivamente, caricheremo il file Excel che contiene i dati che vuoi ordinare. Questo viene fatto creando un'istanza di`Workbook` classe e passando il percorso del file sorgente.
+Successivamente, caricheremo il file Excel che contiene i dati che vuoi ordinare. Questo viene fatto creando un'istanza di`Workbook` classe e passando il percorso del file sorgente.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -108,7 +108,7 @@ Una volta completato l'ordinamento, l'ultimo passaggio è salvare le modifiche i
 wb.Save(outputDir + "outputSortData_CustomSortList.xlsx");
 ```
 
-## Passaggio 8: confermare l'esecuzione corretta
+## Passaggio 8: Confermare l'esecuzione corretta
 
 Per assicurarti che tutto abbia funzionato senza problemi, puoi stampare un messaggio di conferma sulla console. Questo aiuta nel debug e ti dà la soddisfazione che l'operazione è andata a buon fine.
 
@@ -118,7 +118,7 @@ Console.WriteLine("SortDataInColumnWithCustomSortList executed successfully.\r\n
 
 ## Conclusione
 
-Ed ecco fatto! Hai ordinato con successo i dati in una colonna di Excel usando un elenco di ordinamento personalizzato con Aspose.Cells per .NET. L'ordinamento aiuta a dare struttura e chiarezza ai tuoi dati, rendendoli più facili da analizzare e interpretare. Spero che questa guida porti le tue competenze a un livello superiore e ti aiuti a realizzare quanto potente può essere Aspose.Cells per le tue attività correlate a Excel.
+Ed ecco fatto! Hai ordinato con successo i dati in una colonna di Excel usando un elenco di ordinamento personalizzato con Aspose.Cells per .NET. L'ordinamento aiuta a dare struttura e chiarezza ai tuoi dati, rendendoli più facili da analizzare e interpretare. Spero che questa guida porti le tue competenze a un livello superiore e ti aiuti a realizzare quanto Aspose.Cells possa essere potente per le tue attività correlate a Excel.
 
 ## Domande frequenti
 

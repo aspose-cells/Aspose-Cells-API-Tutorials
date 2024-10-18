@@ -84,7 +84,7 @@ workbook.save("output.xlsx");
 
 ### トレンドラインの種類を変更するにはどうすればよいですか?
 
-トレンドラインの種類を変更するには、`TrendlineType`トレンドラインを追加するときに列挙を使用します。たとえば、`TrendlineType.POLYNOMIAL`多項式トレンドラインの場合。
+トレンドラインの種類を変更するには、`TrendlineType`トレンドラインを追加するときに列挙体を使用します。たとえば、`TrendlineType.POLYNOMIAL`多項式トレンドラインの場合。
 
 ### トレンドラインの外観をカスタマイズできますか?
 

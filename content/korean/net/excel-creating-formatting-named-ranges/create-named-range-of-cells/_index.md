@@ -60,10 +60,10 @@ Workbook workbook = new Workbook();
 
 ## 3단계: 첫 번째 워크시트에 액세스
 
-각 통합 문서에는 여러 워크시트가 있을 수 있으며, 우리의 목적상 첫 번째 워크시트에 액세스하겠습니다. Excel 파일에서 탭을 여는 것과 같다고 생각하세요.
+각 워크북에는 여러 워크시트가 있을 수 있으며, 우리의 목적상 첫 번째 워크시트에 액세스하겠습니다. Excel 파일에서 탭을 여는 것과 같다고 생각하세요.
 
 ```csharp
-//Excel 파일의 첫 번째 워크시트에 액세스하기
+// Excel 파일의 첫 번째 워크시트에 액세스하기
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -74,11 +74,11 @@ Worksheet worksheet = workbook.Worksheets[0];
 이제 명명된 범위를 만들 차례입니다. 명명된 범위를 사용하면 워크시트에서 특정 셀 집합을 정의할 수 있습니다.
 
 ```csharp
-//명명된 범위 만들기
+// 명명된 범위 만들기
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 ```
 
-여기서 우리는 셀 B4에서 G14까지 직사각형 영역을 지정했습니다. 이것이 우리가 이름을 지을 범위입니다.
+여기서 우리는 셀 B4에서 G14까지 직사각형 영역을 지정했습니다. 이것이 우리가 명명할 범위입니다.
 
 ## 5단계: 명명된 범위의 이름 설정
 
@@ -113,7 +113,7 @@ range.SetStyle(st);
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
-이 줄은 변경 사항을 다음 이름의 파일에 저장합니다.`outputCreateNamedRangeofCells.xlsx`. 지정된 경로가 올바른지 확인하세요. 그렇지 않으면 프로그램에서 오류가 발생합니다!
+ 이 줄은 변경 사항을 다음 이름의 파일에 저장합니다.`outputCreateNamedRangeofCells.xlsx`. 지정된 경로가 올바른지 확인하세요. 그렇지 않으면 프로그램에서 오류가 발생합니다!
 
 ## 8단계: 작업 성공 확인
 

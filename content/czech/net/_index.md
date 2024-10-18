@@ -74,13 +74,49 @@ Objevte výukové programy Aspose.Cells for .NET o ověřování dat v Excelu a 
 Zjistěte, jak změnit zarovnání buněk aplikace Excel bez ztráty formátování v Aspose.Cells pro .NET. Naučte se krok za krokem tutoriál pro bezproblémové formátování dat v Excelu.
 ### [Vlastní formátování čísel a data aplikace Excel](./excel-custom-number-date-formatting/)
 Naučte se používat Aspose.Cells pro .NET pomocí našich komplexních výukových programů pro vlastní formátování čísel a data. Optimalizujte své znalosti Excelu.
-### [Excel Třídění a export dat](./excel-data-sorting-exporting/)
+### [Třídění a export dat v Excelu](./excel-data-sorting-exporting/)
 Zjistěte, jak třídit data a exportovat hodnoty HTML v Excelu pomocí Aspose.Cells pro .NET prostřednictvím těchto snadno srozumitelných výukových programů.
 ### [Import a export dat aplikace Excel](./excel-data-import-export/)
 Odemkněte sílu Aspose.Cells pro .NET. Prozkoumejte naše výukové programy, jak snadno a efektivně importovat a exportovat data aplikace Excel.
 ### [Ochrana dat a varování v Excelu](./excel-data-preservation-warning/)
 Naučte se používat Aspose.Cells for .NET pro pokročilé techniky uchovávání dat aplikace Excel, jako je zachování jednoduchých uvozovek v buňkách a určení upozornění na řazení během třídění.
 ### [Excel Výpočet rozsahu a adresy](./excel-range-address-calculation/)
-Objevte základní výukové programy na Aspose.Cells pro .NET, které pokrývají snadnou tvorbu rozsahu Excelu, výpočet adres a pokročilé manipulace.
+Objevte základní návody na Aspose.Cells pro .NET, které snadno pokrývají vytváření rozsahů Excelu, výpočet adres a pokročilé manipulace.
 ### [Správa skrytých řádků a duplikací dat v Excelu](./excel-hidden-rows-data-duplication-management/)
 Odemkněte potenciál Excelu pomocí výukových programů Aspose.Cells for .NET, které poskytují přehled o správě skrytých řádků a duplikování dat bez námahy.
+### [Komentář a anotace v Excelu](./excel-comment-annotation/)
+Vylepšete své dovednosti v Excelu pomocí výukových programů Aspose.Cells for .NET o komentářích a anotacích, které obsahují podrobné průvodce pro obohacení vašich tabulek.
+### [Excelové tvary a ovládací prvky](./excel-shapes-controls/)
+Prozkoumejte komplexní výukové programy Aspose.Cells for .NET o přidávání tvarů a ovládacích prvků aplikace Excel. Naučte se krok za krokem metody, jak vylepšit své excelové listy programově.
+### [Excel OLE a obrázkové objekty](./excel-ole-picture-objects/)
+Odemkněte sílu Excelu s Aspose.Cells pro .NET. Osvojte si OLE objekty a manipulaci s obrázky prostřednictvím našich snadno srozumitelných výukových programů.
+### [Přístup k tvarům a štítkům aplikace Excel](./excel-shape-label-access/)
+Odemkněte sílu Aspose.Cells pro .NET pomocí našich komplexních výukových programů, které pokrývají štítky objektů OLE a identifikaci tvaru Smart Art v aplikaci Excel.
+### [Úpravy tvaru a textu aplikace Excel](./excel-shape-text-modifications/)
+Naučte se manipulovat s tvary a textem aplikace Excel pomocí Aspose.Cells for .NET pomocí snadno srozumitelných výukových programů a praktických příkladů kódu.
+### [Práce se soubory Excel](./excel-file-handling/)
+Odemkněte svůj potenciál Excelu pomocí výukových programů Aspose.Cells for .NET. Exportujte vlastnosti, spravujte prázdné řádky a snadno načtěte viditelné listy.
+### [Manipulace se soubory CSV](./csv-file-handling/)
+Prozkoumejte komplexní výukové programy Aspose.Cells for .NET o práci se soubory CSV, včetně otevírání, analýzy a manipulace s daty snadno a efektivně.
+### [Načítání a analýza souborů](./data-loading-and-parsing/)
+Odemkněte svá data aplikace Excel bez námahy pomocí výukových programů Aspose.Cells for .NET. Naučte se otevírat šifrované soubory pouze pro data, FODS a SXC.
+### [Ukládání souborů v různých formátech](./saving-files-in-different-formats/)
+Objevte komplexní návody na ukládání souborů aplikace Excel v různých formátech pomocí Aspose.Cells pro .NET. Vylepšete své znalosti Excelu.
+### [Manipulace se soubory](./file-handling/)
+Objevte podrobné návody pro manipulaci se soubory v Aspose.Cells pro .NET, včetně ukládání do různých formátů, umístění a vlastních oddělovačů.
+### [Vlastnosti dokumentu](./document-properties/)
+Odemkněte možnosti Aspose.Cells pro .NET pomocí našich komplexních výukových programů o vlastnostech dokumentu, které vám pomohou zlepšit vaše dovednosti v oblasti správy souborů Excel.
+### [Konverze a vykreslování](./conversion-and-rendering/)
+Prozkoumejte výukové programy Aspose.Cells for .NET, které obsahují pokročilé průvodce převodem a bezproblémovým vykreslováním souborů aplikace Excel do různých formátů.
+### [Zabezpečení a šifrování](./security-and-encryption/)
+Odemkněte sílu Aspose.Cells pro .NET pomocí našich výukových programů o zabezpečení a šifrování. Naučte se snadno detekovat a šifrovat soubory.
+### [Operace s pracovními listy](./worksheet-operations/)
+Odemkněte plný potenciál Aspose.Cells pro .NET pomocí těchto praktických výukových programů, které pokrývají operace s listy a vylepšují vaše soubory Excel.
+### [Převod do PDF](./conversion-to-pdf/)
+Transformujte své excelové soubory a grafy na bezproblémové PDF pomocí našich snadno sledovatelných výukových programů Aspose.Cells for .NET.
+### [Operace s obrázky a grafy](./image-and-chart-operations/)
+Prozkoumejte komplexního průvodce výukovými programy Aspose.Cells for .NET. Seznamte se s operacemi s obrázky a grafy, abyste zvýšili svou produktivitu.
+### [Operace XPS a PDF](./xps-and-pdf-operations/)
+Objevte komplexní výukové programy Aspose.Cells for .NET o operacích XPS a PDF, které zefektivní převod vašich souborů.
+### [Operace propojení a konfigurace](./link-and-configuration-operations/)
+Objevte komplexní výukové programy na Aspose.Cells pro .NET, včetně konfigurace propojení a dalších. Ideální pro vývojáře, kteří chtějí vylepšit své aplikace Excel.

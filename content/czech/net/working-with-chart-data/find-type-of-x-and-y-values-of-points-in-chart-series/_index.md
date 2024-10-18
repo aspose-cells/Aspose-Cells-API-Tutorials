@@ -19,7 +19,7 @@ Než se pustíte do kroků, ujistěte se, že máte připraveno několik věcí:
    
 2.  Aspose.Cells for .NET: Budete muset mít nainstalovaný Aspose.Cells for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/cells/net/).
 
-3. Ukázkový soubor aplikace Excel: Získejte ukázkový soubor aplikace Excel, který obsahuje grafy. V tomto tutoriálu budeme používat soubor s názvem`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Ujistěte se, že je v adresáři vašeho projektu.
+3.  Ukázkový soubor aplikace Excel: Získejte ukázkový soubor aplikace Excel, který obsahuje grafy. V tomto tutoriálu budeme používat soubor s názvem`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Ujistěte se, že je v adresáři vašeho projektu.
 
 4. Základní znalosti programování: Znalost programování v C# vám pomůže snadno pokračovat.
 
@@ -56,11 +56,11 @@ Nejprve musíte definovat adresář, kde se nachází váš soubor Excel. Nastav
 string sourceDir = "Your Document Directory";
 ```
 
- Nahradit`"Your Document Directory"` cestou, kde je uložen váš soubor Excel.
+ Nahradit`"Your Document Directory"` s cestou, kde je uložen váš soubor Excel.
 
 ## Krok 2: Načtěte sešit
 
- Dále načtěte soubor Excel do a`Workbook` objekt. To vám umožní přístup k veškerému obsahu souboru.
+ Dále načtěte soubor Excel do a`Workbook`objekt. To vám umožní přístup k veškerému obsahu souboru.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");

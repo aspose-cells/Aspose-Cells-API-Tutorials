@@ -41,14 +41,14 @@ A primeira coisa que queremos fazer é definir para onde seus arquivos irão. Es
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Crie um diretório se ele ainda não estiver presente.
+//Crie um diretório se ele ainda não estiver presente.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
  Aqui, definimos uma variável de string`dataDir` que aponta para o diretório do documento desejado. Verificamos se esse diretório existe. Se não existir, nós o criamos. Isso garante que você não terá problemas ao salvar seu arquivo Excel mais tarde.
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, vamos criar uma nova pasta de trabalho com a qual trabalharemos.
 

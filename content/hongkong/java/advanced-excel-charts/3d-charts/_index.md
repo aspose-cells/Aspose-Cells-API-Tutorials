@@ -26,7 +26,7 @@ Aspose.Cells for Java 提供了一套全面的功能和工具來處理 Excel 檔
 
 ### 下載與安裝
 
-您可以從網站下載 Aspose.Cells for Java 程式庫。下載後，請依照安裝說明在 Java 專案中設定該庫。
+您可以從網站下載 Aspose.Cells for Java 程式庫。下載後，請按照安裝說明在您的 Java 專案中設定該庫。
 
 ### 許可證初始化
 

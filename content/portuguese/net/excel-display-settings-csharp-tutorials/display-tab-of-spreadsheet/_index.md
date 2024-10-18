@@ -16,7 +16,7 @@ Você está trabalhando com planilhas e procurando uma maneira eficiente de gere
 Antes de entrarmos no código real, vamos garantir que você tenha tudo alinhado. Aqui está o que você precisa:
 
 1.  Aspose.Cells para biblioteca .NET – Certifique-se de tê-lo instalado. Você pode[baixe a biblioteca aqui](https://releases.aspose.com/cells/net/).
-2. .NET Framework – Certifique-se de que você esteja executando uma versão compatível do .NET Framework. O Aspose.Cells para .NET suporta versões do .NET Framework a partir da 2.0.
+2. .NET Framework – Certifique-se de que você esteja executando uma versão compatível do .NET Framework. O Aspose.Cells para .NET oferece suporte a versões do .NET Framework a partir da 2.0.
 3. Ambiente de desenvolvimento – Visual Studio ou qualquer outro IDE C# é perfeito para esta tarefa.
 4. Conhecimento básico de C# – Você não precisa ser um gênio, mas entender a sintaxe básica ajudará.
 
@@ -61,7 +61,7 @@ No Excel, as guias na parte inferior (Planilha1, Planilha2, etc.) podem ser ocul
 workbook.Settings.ShowTabs = true;
 ```
 
- Contexto`ShowTabs` para`true`garantirá que as guias fiquem visíveis quando você abrir o arquivo Excel.
+ Contexto`ShowTabs` para`true` garantirá que as guias fiquem visíveis quando você abrir o arquivo Excel.
 
 ## Etapa 4: Salve o arquivo Excel modificado
 
@@ -75,12 +75,12 @@ workbook.Save(dataDir + "output.xls");
 
 ## Conclusão
 
-E aí está! Você exibiu com sucesso as guias em uma planilha do Excel usando o Aspose.Cells para .NET. É uma tarefa simples, mas também é incrivelmente útil quando você está automatizando operações do Excel. O Aspose.Cells oferece controle total sobre arquivos do Excel sem precisar instalar o Microsoft Office. Do controle da visibilidade das guias ao manuseio de tarefas complexas como formatação e fórmulas, o Aspose.Cells torna tudo isso possível em apenas algumas linhas de código.
+aí está! Você exibiu com sucesso as guias em uma planilha do Excel usando o Aspose.Cells para .NET. É uma tarefa simples, mas também é incrivelmente útil quando você está automatizando operações do Excel. O Aspose.Cells oferece controle total sobre os arquivos do Excel sem precisar instalar o Microsoft Office. Do controle da visibilidade das guias ao manuseio de tarefas complexas como formatação e fórmulas, o Aspose.Cells torna tudo isso possível em apenas algumas linhas de código.
 
 ## Perguntas frequentes
 
 ### Posso ocultar as guias no Excel usando o Aspose.Cells para .NET?
- Absolutamente! Basta definir`workbook.Settings.ShowTabs = false;` salve o arquivo. Isso ocultará as guias quando a pasta de trabalho for aberta.
+ Absolutamente! Basta definir`workbook.Settings.ShowTabs = false;` e salve o arquivo. Isso ocultará as guias quando a pasta de trabalho for aberta.
 
 ### O Aspose.Cells oferece suporte a outros recursos do Excel, como gráficos e tabelas dinâmicas?
 Sim, o Aspose.Cells é uma biblioteca abrangente que oferece suporte a quase todos os recursos do Excel, incluindo gráficos, tabelas dinâmicas, fórmulas e muito mais.

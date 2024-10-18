@@ -15,7 +15,7 @@ Ekstrakcja danych z plików Excela jest powszechnym zadaniem w różnych aplikac
 
 ## Dlaczego warto automatyzować ekstrakcję danych?
 
-Automatyzacja ekstrakcji danych oferuje szereg korzyści:
+Automatyzacja ekstrakcji danych zapewnia szereg korzyści:
 
 1. Wydajność: eliminuje konieczność ręcznego wyodrębniania danych, oszczędzając czas i wysiłek.
 2. Dokładność: Zmniejsz ryzyko wystąpienia błędów podczas pobierania danych.

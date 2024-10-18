@@ -63,7 +63,7 @@ string outputDir = "Your Output Directory";
 Ezután hozzunk létre egy munkafüzet új példányát. Gondoljon a munkafüzetre úgy, mint egy üres vászonra, ahol megfestheti adatait.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 

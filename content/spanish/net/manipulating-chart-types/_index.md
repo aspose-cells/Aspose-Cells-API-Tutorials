@@ -15,22 +15,22 @@ url: /es/net/manipulating-chart-types/
  ¿Necesita un gráfico que refleje sus necesidades de datos únicas?[Crear gráfico personalizado](./create-custom-chart/) con Aspose.Cells para .NET y dé rienda suelta a su creatividad. Esta guía le guiará a través del proceso y le ayudará a crear gráficos adaptados a sus especificaciones. Es como pintar, pero en lugar de un lienzo, ¡usará datos de Excel!
 
 ## Crear gráfico de líneas
- ¿Visualizar tendencias con un gráfico de líneas? Te encantará lo fácil que es.[Crear gráfico de líneas](./create-line-chart/) Uso de Aspose.Cells para .NET. Esta guía paso a paso le muestra cómo resaltar patrones y tendencias importantes en sus datos. Piense en ello como si estuviera dibujando un mapa que lo guiara a través de la información de sus datos.
+ ¿Visualizar tendencias con un gráfico de líneas? Te encantará lo fácil que es[Crear gráfico de líneas](./create-line-chart/) Uso de Aspose.Cells para .NET. Esta guía paso a paso le muestra cómo resaltar patrones y tendencias importantes en sus datos. Piense en ello como si estuviera dibujando un mapa que lo guiara a través de la información de sus datos.
 
 ## Crear gráfico circular
  ¿Necesitas comparar proporciones a simple vista?[Crear gráfico circular](./create-pie-chart/) Este tutorial le enseña a convertir sus datos de Excel en un elemento visual simple y eficaz. Los gráficos circulares son perfectos para mostrar cómo las distintas partes forman el todo, ¡como si se tratara de cortar una pizza!
 
 ## Crear un gráfico piramidal
- ¿Alguna vez pensaste en visualizar datos en una pirámide?[Crear un gráfico piramidal](./create-pyramid-chart/)Este tutorial le enseñará a crear este gráfico distintivo con Aspose.Cells para .NET. Los gráficos piramidales son perfectos para datos jerárquicos o datos que se distribuyen naturalmente hacia abajo. Piense en ello como si estuviera construyendo una pirámide con bloques de datos apilados uno sobre el otro: simple pero poderoso para presentaciones.
+ ¿Alguna vez pensaste en visualizar datos en una pirámide?[Crear un gráfico piramidal](./create-pyramid-chart/) Este tutorial le enseñará a crear este gráfico distintivo con Aspose.Cells para .NET. Los gráficos piramidales son perfectos para datos jerárquicos o datos que se distribuyen naturalmente hacia abajo. Piense en ello como si estuviera construyendo una pirámide con bloques de datos apilados uno sobre el otro: simple pero poderoso para presentaciones.
 
 ## Modificar gráfico de líneas
- Entonces, ha creado su gráfico de líneas, pero ahora es momento de ajustarlo a la perfección.[Modificar gráfico de líneas](./modify-line-chart/) Este tutorial le muestra cómo modificar sus gráficos de líneas existentes. Ya sea que se trate de cambiar colores, ajustar ejes o modificar las series de datos, esta guía lo ayudará. Piense en ello como si estuviera editando una foto: ya tiene la base, ¡ahora se trata de hacerla brillar!
+ Entonces, ha creado su gráfico de líneas, pero ahora es momento de ajustarlo a la perfección.[Modificar gráfico de líneas](./modify-line-chart/)Este tutorial le muestra cómo modificar sus gráficos de líneas existentes. Ya sea que se trate de cambiar colores, ajustar ejes o modificar las series de datos, esta guía lo ayudará. Piense en ello como si estuviera editando una foto: ya tiene la base, ¡ahora se trata de hacerla brillar!
 
 ### Modificar gráfico circular
- Los gráficos circulares pueden ser geniales, pero a veces es necesario realizar algunos cambios para representar mejor los datos.[Modificar gráfico circular](./modify-pie-chart/)En este tutorial aprenderá a modificar sus gráficos circulares para que coincidan con sus datos de manera precisa. Tal vez necesite ajustar las porciones, cambiar colores o incluso ampliar una porción para enfatizarla. ¡Esta guía le mostrará cómo!
+ Los gráficos circulares pueden ser geniales, pero a veces es necesario realizar algunos cambios para representar mejor los datos.[Modificar gráfico circular](./modify-pie-chart/) En este tutorial aprenderá a modificar sus gráficos circulares para que coincidan con sus datos de manera precisa. Tal vez necesite ajustar las porciones, cambiar colores o incluso ampliar una porción para enfatizarla. ¡Esta guía le mostrará cómo!
 
 ### Aplicar el color del tema de Microsoft en la serie de gráficos
- ¿Quieres que tus gráficos estén en línea con la imagen corporativa de tu empresa? Aprende cómo[Aplicar el color del tema de Microsoft en la serie de gráficos](./apply-microsoft-theme-color-in-chart-series/) Uso de Aspose.Cells para .NET. Este tutorial le muestra cómo combinar el esquema de colores de su gráfico con los colores del tema de Microsoft, lo que garantiza una apariencia profesional y cohesiva en todas sus presentaciones. ¡Es como vestir sus datos con un traje perfecto y a juego!
+ ¿Quieres que tus gráficos estén en línea con la imagen corporativa de tu empresa? Aprende cómo[Aplicar el color del tema de Microsoft en la serie de gráficos](./apply-microsoft-theme-color-in-chart-series/)Uso de Aspose.Cells para .NET. Este tutorial le muestra cómo combinar el esquema de colores de su gráfico con los colores del tema de Microsoft, lo que garantiza una apariencia profesional y cohesiva en todas sus presentaciones. ¡Es como vestir sus datos con un traje perfecto y a juego!
 
 ## Tutoriales sobre manipulación de tipos de gráficos
 ### [Crear gráfico personalizado](./create-custom-chart/)

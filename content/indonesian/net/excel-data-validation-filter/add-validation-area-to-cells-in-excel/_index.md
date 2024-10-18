@@ -9,7 +9,7 @@ url: /id/net/excel-data-validation-filter/add-validation-area-to-cells-in-excel/
 ---
 ## Perkenalan
 
-Pernahkah Anda merasa kewalahan dengan banyaknya data di lembar Excel Anda? Mungkin Anda mencoba menerapkan beberapa batasan pada masukan pengguna, memastikan masukan tersebut sesuai dengan yang valid. Baik Anda benar-benar mendalami analisis data, membuat laporan, atau sekadar mencoba menjaga kerapian, kebutuhan akan validasi sangatlah penting. Untungnya, dengan kekuatan Aspose.Cells untuk .NET, Anda dapat menerapkan aturan validasi yang menghemat waktu dan meminimalkan kesalahan. Mari kita mulai perjalanan yang mengasyikkan ini untuk menambahkan area validasi ke sel dalam file Excel.
+Pernahkah Anda merasa kewalahan dengan banyaknya data di lembar Excel Anda? Mungkin Anda mencoba menerapkan beberapa batasan pada masukan pengguna, memastikan mereka mematuhi apa yang valid. Apakah Anda benar-benar terlibat dalam analisis data, membuat laporan, atau hanya mencoba menjaga kerapian, kebutuhan akan validasi sangatlah penting. Untungnya, dengan kekuatan Aspose.Cells untuk .NET, Anda dapat menerapkan aturan validasi yang menghemat waktu dan meminimalkan kesalahan. Mari kita mulai perjalanan yang mengasyikkan ini untuk menambahkan area validasi ke sel dalam file Excel.
 
 ## Prasyarat
 
@@ -84,11 +84,11 @@ Sekarang, mari tambahkan area sel yang telah ditentukan ke objek validasi kita. 
 validation.AddArea(cellArea, false, false);
 ```
 
-Baris ini tidak hanya menunjukkan kepada Aspose di mana harus memberlakukan validasi tetapi juga memungkinkan pemahaman tentang apakah akan mengesampingkan validasi yang ada. Sebuah langkah kecil namun penting yang membantu mempertahankan kontrol atas integritas data.
+Baris ini tidak hanya menunjukkan kepada Aspose di mana harus memberlakukan validasi tetapi juga memungkinkan pemahaman tentang apakah akan mengganti validasi yang ada. Sebuah langkah kecil namun penting yang membantu mempertahankan kontrol atas integritas data.
 
 ## Langkah 6: Simpan Buku Kerja Anda
 
-Setelah semua kerja keras itu, kita perlu memastikan perubahan kita tersimpan. Begini cara melakukannya:
+Setelah semua kerja keras itu, kita perlu memastikan perubahan kita tersimpan. Begini cara kita melakukannya:
 
 ```csharp
 workbook.Save(outputDir + "ValidationsSample_out.xlsx");

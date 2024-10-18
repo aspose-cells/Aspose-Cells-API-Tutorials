@@ -28,7 +28,7 @@ url: /zh/net/protect-excel-file/protect-cells-in-excel-worksheet/
 - 打开 Visual Studio 并创建一个新的控制台应用程序（.NET Framework）项目。
 - 给您的项目起一个有意义的名字（例如“ProtectCellsExample”）。
 
-### 添加 Aspose.Cells 参考
+### 添加 Aspose.Cells 引用
 
 - 在解决方案资源管理器中，右键单击您的项目并选择“管理 NuGet 包”。
 - 搜索“Aspose.Cells”并点击安装。该库将为您提供保护细胞所需的所有方法。
@@ -78,7 +78,7 @@ Workbook wb = new Workbook();
 Worksheet sheet = wb.Worksheets[0]; //访问第一个工作表
 ```
 
-非常简单！现在您有了对要锁定单元格的第一张工作表的引用。
+非常简单！现在您有了对将要锁定单元格的第一张工作表的引用。
 
 ## 步骤 4：解锁所有列
 
@@ -139,12 +139,12 @@ wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 
 ## 结论
 
-就这样！您已成功学会使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定单元格。只需几行代码，您就可以保护您的数据，确保只有合适的人才有权编辑关键信息。请记住，单元格保护只是 Aspose.Cells 提供的众多功能之一，可帮助高效管理和操作 Excel 文件。
+就这样！您已成功学会使用 Aspose.Cells for .NET 保护 Excel 工作表中的特定单元格。只需几行代码，您就可以保护数据，确保只有合适的人才有权编辑关键信息。请记住，单元格保护只是 Aspose.Cells 提供的众多功能之一，可帮助高效管理和操作 Excel 文件。
 
 ## 常见问题解答
 
 ### 什么是 Aspose.Cells？
-Aspose.Cells 是一个功能强大的库，可使用.NET 语言操作不同格式的 Excel 文件。
+Aspose.Cells 是一个功能强大的库，可使用.NET 语言处理不同格式的 Excel 文件。
 
 ### 我可以锁上三间以上的牢房吗？
 当然可以！您可以对每个所需单元格重复单元格锁定步骤，从而锁定任意数量的单元格。

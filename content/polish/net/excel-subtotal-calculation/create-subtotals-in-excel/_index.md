@@ -11,7 +11,7 @@ url: /pl/net/excel-subtotal-calculation/create-subtotals-in-excel/
 Czy jesteś gotowy, aby podnieść swoje umiejętności w programie Excel i uczynić swoje arkusze kalkulacyjne bardziej dynamicznymi? Tworzenie sum częściowych w programie Excel może pomóc Ci skutecznie kategoryzować i podsumowywać dane, umożliwiając lepszą interpretację danych i raportowanie. Jeśli często zmagasz się z mnóstwem liczb, generowanie uporządkowanych podsumowań jest niezbędne. Dzisiaj zagłębimy się w to, jak bez wysiłku tworzyć sumy częściowe przy użyciu Aspose.Cells dla .NET, potężnej biblioteki zaprojektowanej do obsługi wszystkich manipulacji plikami Excel.
 ## Wymagania wstępne
 Zanim zagłębimy się w szczegóły tworzenia sum częściowych w programie Excel, należy spełnić kilka warunków wstępnych:
-1. Aspose.Cells dla .NET zainstalowane: Upewnij się, że biblioteka Aspose.Cells jest skonfigurowana w Twoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz to łatwo zrobić[pobierz tutaj](https://releases.aspose.com/cells/net/).
+1.  Aspose.Cells dla .NET zainstalowane: Upewnij się, że biblioteka Aspose.Cells jest skonfigurowana w Twoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz to łatwo zrobić[pobierz tutaj](https://releases.aspose.com/cells/net/).
 2. Środowisko .NET: Powinieneś mieć działające środowisko .NET, w którym możemy pracować z biblioteką. Niezależnie od tego, czy jest to Visual Studio, czy inne IDE, upewnij się, że czujesz się komfortowo, kodując w C#.
 3. Podstawowa znajomość języka C#: Znajomość języka C# będzie korzystna. Przykłady, które podamy, są w składni języka C#, więc znajomość go pomoże Ci zrozumieć proces.
 4.  Arkusz kalkulacyjny programu Excel: przykładowy plik programu Excel do ćwiczeń. Użyjemy pliku o nazwie`book1.xls` w naszym poradniku.
@@ -23,13 +23,13 @@ Zanim zaczniemy od właściwego kodu, musimy się upewnić, że mamy wszystkie w
 using System.IO;
 using Aspose.Cells;
 ```
-Importuje to wszystko, czego potrzebujemy z biblioteki Aspose do manipulowania plikami Excel. Teraz rozłóżmy kod krok po kroku, aby utworzyć sumy częściowe w arkuszu kalkulacyjnym Excel.
+Importuje wszystko, czego potrzebujemy z biblioteki Aspose do manipulowania plikami Excel. Teraz rozłóżmy kod krok po kroku, aby utworzyć sumy częściowe w arkuszu kalkulacyjnym Excel.
 ## Krok 1: Ustaw ścieżkę pliku
 Na początek musimy zdefiniować, gdzie znajduje się nasz plik Excel. Tutaj informujemy program o katalogu naszego dokumentu.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls` jest przechowywany. Informuje program, gdzie znaleźć plik Excel, którym będziemy manipulować.
+ Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`book1.xls`jest przechowywany. Informuje program, gdzie znaleźć plik Excel, którym będziemy manipulować.
 ## Krok 2: Utwórz nowy skoroszyt
 Następnie utworzymy nową instancję obiektu Workbook. Pozwoli nam to otworzyć i edytować nasz plik Excel.
 ```csharp
@@ -37,7 +37,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
  Tutaj tworzymy obiekt`Workbook` i ładowanie go za pomocą naszego określonego`book1.xls` plik. Ten obiekt skoroszytu zawiera teraz wszystkie informacje z pliku Excel i pozwala nam je modyfikować.
 ## Krok 3: Uzyskaj dostęp do kolekcji komórek
-Aby wykonać operacje na zawartości arkusza kalkulacyjnego programu Excel, musimy uzyskać dostęp do kolekcji „Komórki”.
+Aby wykonać operacje na zawartości arkusza kalkulacyjnego Excel, musimy uzyskać dostęp do kolekcji „Komórki”.
 ```csharp
 Cells cells = workbook.Worksheets[0].Cells;
 ```
@@ -51,7 +51,7 @@ ca.StartColumn = 1;
 ca.EndRow = 18; // C19
 ca.EndColumn = 2;
 ```
- Tutaj definiujemy`CellArea` który określa zakres, który nas interesuje. W tym przypadku wybraliśmy obszar od B3 (wiersz 2, kolumna 1) do C19 (wiersz 18, kolumna 2). Tutaj obliczymy nasze sumy częściowe.
+ Tutaj definiujemy`CellArea`który określa zakres, który nas interesuje. W tym przypadku wybraliśmy obszar od B3 (wiersz 2, kolumna 1) do C19 (wiersz 18, kolumna 2). Tutaj obliczymy nasze sumy częściowe.
 ## Krok 5: Zastosuj sumy częściowe
 To jest sedno naszej operacji – zastosowanie sumy częściowej do zdefiniowanego obszaru komórki.
 ```csharp
@@ -67,7 +67,7 @@ Na koniec musimy zapisać zmiany w nowym pliku Excela.
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Ten`Save` Metoda zapisuje zmiany do nowego pliku o nazwie`output.out.xls`Możesz określić dowolną nazwę pliku wyjściowego zgodnie ze swoimi wymaganiami.
+ Ten`Save` Metoda zapisuje zmiany do nowego pliku o nazwie`output.out.xls`. Możesz określić dowolną nazwę pliku wyjściowego zgodnie ze swoimi wymaganiami.
 ## Wniosek
 Dzięki tym prostym krokom udało Ci się utworzyć sumy częściowe w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells dla .NET! Od tworzenia skoroszytu po stosowanie sum częściowych i zapisywanie wyników — omówiliśmy wszystkie podstawy. Ta biblioteka nie tylko upraszcza manipulacje w programie Excel, ale także umożliwia bardziej efektywne zarządzanie danymi.
 Teraz, śmiało, spróbuj! Będziesz zaskoczony, jak dużo łatwiejsze staje się zarządzanie danymi w arkuszach kalkulacyjnych, gdy wiesz, jak używać odpowiednich narzędzi. 

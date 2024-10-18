@@ -51,7 +51,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-Allereerst moeten we definiëren waar ons bronbestand zich bevindt en waar we het uitvoerbestand willen opslaan. Vervang "Uw documentmap" en "Uw uitvoermap" door uw werkelijke mappaden. Beschouw deze mappen als uw thuisbasis en startpunt waar uw bestanden zich bevinden.
+Allereerst moeten we definiëren waar ons bronbestand zich bevindt en waar we het uitvoerbestand willen opslaan. Vervang "Your Document Directory" en "Your Output Directory" door uw werkelijke mappaden. Beschouw deze mappen als uw thuisbasis en startpunt waar uw bestanden zich bevinden.
 
 ## Stap 2: Laad de werkmap
 
@@ -59,7 +59,7 @@ Allereerst moeten we definiëren waar ons bronbestand zich bevindt en waar we he
 Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
 ```
 
- Hier maken we een nieuw exemplaar van de`Workbook` class en laad ons Excel-bestand erin. Stel je de werkmap voor als een digitaal notitieboek met al je bladen en grafieken. De parameter die we doorgeven is het volledige pad naar ons Excel-bestand, dus zorg ervoor dat de bestandsnaam erin zit!
+ Hier maken we een nieuw exemplaar van de`Workbook` class en laad ons Excel-bestand erin. Stel je de werkmap voor als een digitaal notitieboek met al je bladen en grafieken. De parameter die we doorgeven is het volledige pad naar ons Excel-bestand, dus zorg ervoor dat het de bestandsnaam bevat!
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -75,7 +75,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Chart chart = worksheet.Charts[0];
 ```
 
-Met het werkblad opgehaald, duiken we direct in het benaderen van de grafiek! We pakken de eerste grafiek (opnieuw, index`[0]`). Dit is hetzelfde als het selecteren van het kunstwerk dat je wilt opknappen. Zorg ervoor dat je grafiek in dat werkblad staat, anders blijf je met je hoofd zitten!
+Met het werkblad opgehaald, duiken we direct in het benaderen van de grafiek! We pakken de eerste grafiek (opnieuw, index`[0]`). Dit is net zoiets als het selecteren van het kunstwerk dat je wilt opknappen. Zorg ervoor dat je grafiek in dat werkblad staat, anders blijf je met je hoofd krabben!
 
 ## Stap 5: Wijzig de grootte van de grafiek
 
@@ -113,7 +113,7 @@ Om alles netjes af te ronden, geven we feedback over of de operatie succesvol is
 
 ## Conclusie
 
-Gefeliciteerd! U hebt zojuist geleerd hoe u de grootte en positie van grafieken in Excel kunt wijzigen met Aspose.Cells voor .NET. Met deze stappen kunt u uw grafieken er niet alleen beter uit laten zien, maar ook perfect laten passen in uw spreadsheets, wat resulteert in een professionelere presentatie van uw gegevens. Waarom probeert u het niet en begint u vandaag nog met het manipuleren van uw grafieken? 
+Gefeliciteerd! U hebt zojuist geleerd hoe u de grootte en positie van grafieken in Excel kunt wijzigen met Aspose.Cells voor .NET. Met deze stappen kunt u uw grafieken er niet alleen beter uit laten zien, maar ook perfect laten passen in uw spreadsheets, wat resulteert in een professionelere presentatie van uw gegevens. Waarom probeert u het niet eens en begint u vandaag nog met het manipuleren van uw grafieken? 
 
 ## Veelgestelde vragen
 

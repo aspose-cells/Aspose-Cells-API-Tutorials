@@ -8,7 +8,7 @@ weight: 14
 url: /vi/java/excel-pivot-tables/grouping-data-in-pivot-tables/
 ---
 
-Pivot table là công cụ mạnh mẽ để phân tích và tóm tắt dữ liệu trong bảng tính. Chúng cho phép bạn nhóm và phân loại dữ liệu để có được những hiểu biết có giá trị. Trong bài viết này, chúng ta sẽ khám phá cách nhóm dữ liệu hiệu quả trong pivot table bằng Aspose.Cells for Java, cùng với các ví dụ về mã nguồn.
+Pivot table là một công cụ mạnh mẽ để phân tích và tóm tắt dữ liệu trong bảng tính. Chúng cho phép bạn nhóm và phân loại dữ liệu để có được những hiểu biết có giá trị. Trong bài viết này, chúng ta sẽ khám phá cách nhóm dữ liệu hiệu quả trong pivot table bằng Aspose.Cells for Java, cùng với các ví dụ về mã nguồn.
 
 ## Giới thiệu
 
@@ -16,7 +16,7 @@ Bảng Pivot cung cấp một cách linh hoạt để sắp xếp và tóm tắt
 
 ## Bước 1: Tạo Bảng Pivot
 
-Hãy bắt đầu bằng cách tạo một bảng trục bằng Aspose.Cells for Java. Dưới đây là ví dụ về cách tạo một bảng trục từ một tệp Excel mẫu.
+Chúng ta hãy bắt đầu bằng cách tạo một bảng trục bằng Aspose.Cells for Java. Dưới đây là ví dụ về cách tạo một bảng trục từ một tệp Excel mẫu.
 
 ```java
 // Tải tệp Excel

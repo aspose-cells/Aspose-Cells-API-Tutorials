@@ -13,7 +13,7 @@ Khi nói đến quản lý dữ liệu, Microsoft Excel là một công cụ m�
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu hành trình kiểm soát bảng tính Excel của bạn, có một số điều kiện tiên quyết để đảm bảo chuyến đi diễn ra suôn sẻ:
+Trước khi bắt đầu hành trình kiểm soát bảng tính Excel, bạn cần lưu ý một số điều kiện tiên quyết để đảm bảo chuyến đi diễn ra suôn sẻ:
 
 1. Kiến thức cơ bản về C#: Sự quen thuộc với C# là điều cần thiết vì chúng ta sẽ viết mã bằng ngôn ngữ này.
 2.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
@@ -21,7 +21,7 @@ Trước khi bắt đầu hành trình kiểm soát bảng tính Excel của b�
 4.  Tệp Excel: Chuẩn bị một tệp Excel để thao tác. Đối với hướng dẫn này, chúng ta hãy tạo một tệp mẫu có tên`book1.xls`.
 5. .NET Framework: Ít nhất .NET Framework 4.5 trở lên.
 
-Sau khi đã đáp ứng các yêu cầu này, bạn đã sẵn sàng rồi!
+Sau khi đáp ứng được những yêu cầu này, bạn đã sẵn sàng rồi!
 
 ## Nhập gói
 
@@ -43,7 +43,7 @@ Trong bước này, bạn sẽ thiết lập đường dẫn tệp nơi tệp Ex
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Điều này giống như việc đặt nền móng trước khi xây nhà - bạn cần phải có một nền tảng vững chắc trước khi có thể xây dựng một cái gì đó tuyệt vời!
+Điều này giống như việc đặt nền móng trước khi xây nhà - bạn cần phải có một nền tảng vững chắc trước khi có thể xây dựng một ngôi nhà tuyệt vời!
 
 ## Bước 2: Mở tệp Excel
 
@@ -72,11 +72,11 @@ Bước này giống như nói “Xin chào!” với sổ làm việc của b�
 Với sổ làm việc trong tay, đã đến lúc truy cập vào trang tính cụ thể mà bạn muốn ẩn. Chúng ta sẽ bắt đầu với trang tính đầu tiên.
 
 ```csharp
-//Truy cập vào trang tính đầu tiên trong tệp Excel
+// Truy cập vào trang tính đầu tiên trong tệp Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Ở đây, bạn đang trỏ đến một trang cụ thể, giống như việc chọn một cuốn sách từ trên giá sách. "Đây là cuốn tôi muốn làm!"
+Ở đây, bạn đang trỏ đến một trang tính cụ thể, giống như việc chọn một cuốn sách từ trên giá sách. "Đây là cuốn tôi muốn làm!"
 
 ## Bước 5: Ẩn bảng tính
 

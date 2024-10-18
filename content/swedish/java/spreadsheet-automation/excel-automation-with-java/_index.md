@@ -11,7 +11,7 @@ url: /sv/java/spreadsheet-automation/excel-automation-with-java/
 Excel-automatisering i Java blir enkel med Aspose.Cells, ett mångsidigt bibliotek som låter dig manipulera Excel-filer programmatiskt. I den här guiden kommer vi att täcka olika Excel-automatiseringsuppgifter med källkodsexempel.
 
 
-## 1. Inledning
+## 1. Introduktion
 
 Excel-automatisering involverar uppgifter som att läsa, skriva och manipulera Excel-filer. Aspose.Cells förenklar dessa uppgifter med sitt Java API.
 

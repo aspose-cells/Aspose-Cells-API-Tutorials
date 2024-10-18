@@ -2,14 +2,14 @@
 title: Önde Kesme İşaretine İzin Ver
 linktitle: Önde Kesme İşaretine İzin Ver
 second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET ile Excel'de öndeki kesme işaretlerini zahmetsizce yönetin. Bu kapsamlı eğitim, sizi adım adım süreç boyunca yönlendirir.
+description: Aspose.Cells for .NET ile Excel'de önde gelen kesme işaretlerini zahmetsizce yönetin. Bu kapsamlı eğitim, sizi adım adım süreç boyunca yönlendirir.
 type: docs
 weight: 60
 url: /tr/net/excel-workbook/allow-leading-apostrophe/
 ---
 ## giriiş
 
-Aspose.Cells for .NET'i kullanarak elektronik tabloları sorunsuz bir şekilde yönetmeye yönelik bu adım adım kılavuza hoş geldiniz, özellikle hücre değerlerindeki önde gelen kesme işaretlerini ele almaya odaklanıyoruz. Verileri etkili bir şekilde yönetme yeteneği, günümüzün veri merkezli dünyasında hayati öneme sahiptir. Excel'in bazen kesme işaretiyle başlayan metin değerlerini nasıl farklı şekilde ele aldığını hiç fark ettiniz mi? Excel görevlerini .NET koduyla otomatikleştiriyorsanız bu beklenmedik sonuçlara yol açabilir. Korkmayın! Bu eğitim, bu konuda size yardımcı olacaktır. 
+Aspose.Cells for .NET'i kullanarak elektronik tabloları sorunsuz bir şekilde yönetmeye yönelik bu adım adım kılavuza hoş geldiniz, özellikle hücre değerlerinde önde gelen kesme işaretlerini ele almaya odaklanıyoruz. Verileri etkili bir şekilde yönetme yeteneği, günümüzün veri merkezli dünyasında hayati öneme sahiptir. Excel'in bazen kesme işaretiyle başlayan metin değerlerini nasıl farklı şekilde ele aldığını hiç fark ettiniz mi? Excel görevlerini .NET koduyla otomatikleştiriyorsanız bu beklenmedik sonuçlara yol açabilir. Korkmayın! Bu eğitim, bu konuda size yardımcı olacaktır. 
 
 ## Ön koşullar
 
@@ -20,7 +20,7 @@ Koda dalmadan önce, karşılamanız gereken birkaç ön koşul şunlardır:
 3. IDE Kurulumu: Kodlama için Visual Studio gibi Entegre Geliştirme Ortamınızın (IDE) hazır olduğundan emin olun.
 4. Örnek Excel Dosyası: Kodda çalışacağımız örnek dosyayı ("AllowLeadingApostropheSample.xlsx") kullanabilirsiniz.
 
-Artık ön koşulları tamamladığımıza göre gerekli paketleri içe aktaralım ve projemizi kuralım.
+Artık ön koşulları tamamladığımıza göre gerekli paketleri içe aktarıp projemizi kuralım.
 
 ## Paketleri İçe Aktar
 
@@ -33,7 +33,7 @@ using System;
 using System.Collections.Generic;
 ```
 
-Projenizde Aspose.Cells'e referanslar eklediğinizden emin olun. Visual Studio kullanıyorsanız, bunu NuGet Paket Yöneticisi altında "Aspose.Cells"i arayarak yapabilirsiniz.
+Projenize Aspose.Cells'e referanslar eklediğinizden emin olun. Visual Studio kullanıyorsanız, bunu NuGet Paket Yöneticisi altında "Aspose.Cells"i arayarak yapabilirsiniz.
 
 Netliği sağlamak için görevlerimizi yönetilebilir adımlara böleceğiz.
 
@@ -66,7 +66,7 @@ Daha sonra akıllı işaretleyicilerimizi içeren mevcut çalışma kitabını y
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
 ```
 
-Buradaki örnek Excel dosyasının bu özelliğin yararlı olması için akıllı işaretçiler içermesi gerekir. Bu şekilde işaretçileri özel verilerimizle değiştirebiliriz.
+Buradaki örnek Excel dosyasının bu özelliğin yararlı olması için akıllı işaretçiler içermesi gerekir. Bu şekilde işaretçileri kendi özel verilerimizle değiştirebiliriz.
 
 ## Adım 4: Çalışma Kitabı Ayarlarını Yapılandırın
 

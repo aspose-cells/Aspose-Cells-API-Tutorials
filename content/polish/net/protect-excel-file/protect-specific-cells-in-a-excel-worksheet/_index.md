@@ -41,7 +41,7 @@ Pierwszą rzeczą, którą chcemy zrobić, jest zdefiniowanie, gdzie będą prze
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Utwórz katalog, jeśli jeszcze go nie ma.
+//Utwórz katalog, jeśli jeszcze go nie ma.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -56,7 +56,7 @@ Następnie utwórzmy nowy skoroszyt, z którym będziemy pracować.
 // Utwórz nowy skoroszyt.
 Workbook wb = new Workbook();
 ```
- Utworzyliśmy nową instancję`Workbook` obiekt. Pomyśl o tym jak o pustym płótnie, na którym będziesz malować swoje dane.
+ Utworzyliśmy nową instancję`Workbook` obiekt. Pomyśl o tym jako o pustym płótnie, na którym będziesz malować swoje dane.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -78,7 +78,7 @@ Style style;
 // Zdefiniuj obiekt styleflag.
 StyleFlag styleflag;
 
-// Przejdź przez wszystkie kolumny arkusza kalkulacyjnego i odblokuj je.
+// Przejdź przez wszystkie kolumny arkusza i odblokuj je.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -118,7 +118,7 @@ Nasza lista kontrolna jest prawie gotowa! Ostatnim krokiem, który musisz wykona
 // Na koniec zabezpiecz arkusz.
 sheet.Protect(ProtectionType.All);
 ```
- Dzwoniąc do`Protect` metodą na arkuszu kalkulacyjnym, stosujemy nasze ustawienia ochrony. Z`ProtectionType.All`, określamy, że wszystkie aspekty arkusza będą chronione.
+ Dzwoniąc do`Protect` metodą na arkuszu kalkulacyjnym, stosujemy nasze ustawienia ochrony. Za pomocą`ProtectionType.All`, określamy, że wszystkie aspekty arkusza będą chronione.
 
 ## Krok 7: Zapisz plik Excel
 

@@ -46,7 +46,7 @@ Prima di poter manipolare un file Excel, devi specificare la posizione del tuo f
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- In questo passaggio assegnerai la posizione del tuo file Excel a`dataDir` stringa. Sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui ti trovi`.xls` il file si trova.
+ In questo passaggio assegnerai la posizione del tuo file Excel a`dataDir` stringa. Sostituisci`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui ti trovi`.xls`il file si trova.
 
 ## Passaggio 2: creare un flusso di file
 
@@ -72,10 +72,10 @@ Workbook workbook = new Workbook(fstream);
 
 ## Passaggio 4: accedi al primo foglio di lavoro
 
-I file Excel contengono solitamente più fogli di lavoro. Per questo tutorial, accediamo al primo foglio di lavoro nella cartella di lavoro.
+file Excel contengono solitamente più fogli di lavoro. Per questo tutorial, accediamo al primo foglio di lavoro nella cartella di lavoro.
 
 ```csharp
-//Accesso al primo foglio di lavoro nel file Excel
+// Accesso al primo foglio di lavoro nel file Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
@@ -86,7 +86,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Ora arriva la parte divertente: nascondere le linee della griglia! Con una sola riga di codice, puoi attivare o disattivare la visibilità delle linee della griglia.
 
 ```csharp
-//Nascondere le linee della griglia del primo foglio di lavoro del file Excel
+// Nascondere le linee della griglia del primo foglio di lavoro del file Excel
 worksheet.IsGridlinesVisible = false;
 ```
 
@@ -116,7 +116,7 @@ Chiudere il flusso di file è fondamentale perché assicura che tutte le risorse
 
 ## Conclusione
 
- questo è tutto! Hai appena imparato come visualizzare e nascondere le linee della griglia in un foglio di lavoro Excel usando Aspose.Cells per .NET. Che tu stia rifinendo un report o presentando dati in un formato più leggibile, questa semplice tecnica può avere un impatto significativo sull'aspetto dei tuoi fogli di calcolo. La parte migliore? Bastano poche righe di codice per apportare grandi cambiamenti. Se sei pronto a provarlo, non dimenticare di prendere un[prova gratuita](https://releases.aspose.com/) e inizia a programmare!
+ E questo è tutto! Hai appena imparato come visualizzare e nascondere le linee della griglia in un foglio di lavoro Excel usando Aspose.Cells per .NET. Che tu stia rifinendo un report o presentando dati in un formato più leggibile, questa semplice tecnica può avere un impatto significativo sull'aspetto dei tuoi fogli di calcolo. La parte migliore? Bastano poche righe di codice per apportare grandi cambiamenti. Se sei pronto a provarlo, non dimenticare di prendere un[prova gratuita](https://releases.aspose.com/) e inizia a programmare!
 
 ## Domande frequenti
 
@@ -124,7 +124,7 @@ Chiudere il flusso di file è fondamentale perché assicura che tutte le risorse
  Puoi impostare`worksheet.IsGridlinesVisible = true;` per rendere nuovamente visibili le linee della griglia.
 
 ### Posso nascondere le linee della griglia solo per intervalli o celle specifici?  
- No, il`IsGridlinesVisible` la proprietà si applica all'intero foglio di lavoro, non a celle specifiche.
+ No, il`IsGridlinesVisible`la proprietà si applica all'intero foglio di lavoro, non a celle specifiche.
 
 ### Posso manipolare più fogli di lavoro contemporaneamente?  
  Sì! Puoi scorrere il`Worksheets` raccolta e applica le modifiche a ciascun foglio.

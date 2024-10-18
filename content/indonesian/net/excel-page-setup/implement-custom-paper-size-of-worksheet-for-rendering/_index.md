@@ -79,7 +79,7 @@ Di sini, Anda memberi tahu kode Anda, “Hei, saya ingin bekerja dengan lembar k
 
 ## Langkah 4: Atur Ukuran Kertas Kustom
 
-Sekarang kita masuk ke bagian yang menarik. Mari kita atur ukuran kertas khusus untuk lembar kerja kita.
+Sekarang kita sampai pada bagian yang menarik. Mari kita atur ukuran kertas khusus untuk lembar kerja kita.
 
 ```csharp
 ws.PageSetup.CustomPaperSize(6, 4);

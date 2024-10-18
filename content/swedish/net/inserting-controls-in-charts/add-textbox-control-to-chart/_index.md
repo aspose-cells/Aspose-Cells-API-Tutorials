@@ -16,7 +16,7 @@ Att skapa dynamiska och visuellt tilltalande diagram i Excel är ett fantastiskt
 Innan vi går in på kodning finns det några saker du bör ha på plats:
 
 - Grundläggande förståelse för C#: En grundläggande förståelse för C#-programmering kommer att vara till hjälp. Oroa dig inte; du behöver inte vara expert, bara bekväm att navigera i syntaxen.
--  Installerat Aspose.Cells-bibliotek: Se till att du har Aspose.Cells for .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/) om du inte redan har gjort det.
+- Installerat Aspose.Cells-bibliotek: Se till att du har Aspose.Cells for .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cells/net/) om du inte redan har gjort det.
 - Visual Studio: Bekantskap med Visual Studio eller någon IDE som du föredrar att använda för .NET-ramverket är viktigt.
 - En befintlig Excel-fil: I det här exemplet kommer vi att arbeta med en befintlig Excel-fil som heter "sampleAddingTextBoxControlInChart.xls". Du kan skapa en eller ladda ner ett prov.
 
@@ -76,7 +76,7 @@ Nu är vi redo att lägga till vår TextBox. Vi anger dess position och storlek 
 // Lägg till en ny textruta i diagrammet.
 Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100, 350, 2550);
 ```
-det här kommandot definierar parametrarna platsen (x, y) och storleken (bredd, höjd) för textrutan i diagrammet. Justera dessa värden baserat på dina specifika layoutbehov.
+I det här kommandot definierar parametrarna platsen (x, y) och storleken (bredd, höjd) för textrutan i diagrammet. Justera dessa värden baserat på dina specifika layoutbehov.
 
 ## Steg 5: Ställ in texten för textrutan
 
@@ -136,7 +136,7 @@ Det sista steget är att spara ändringarna du har gjort i en ny Excel-fil. Dett
 // Spara excel-filen.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Ersätta`"outputAddingTextBoxControlInChart.xls"` med vilket filnamn du föredrar.
+ Ersätta`"outputAddingTextBoxControlInChart.xls"`med vilket filnamn du föredrar.
 
 ## Slutsats
 

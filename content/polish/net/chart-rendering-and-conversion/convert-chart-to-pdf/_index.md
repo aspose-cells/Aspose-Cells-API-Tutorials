@@ -92,7 +92,7 @@ Ten kod inicjuje nowy obiekt skoroszytu i ładuje określony plik Excela. Upewni
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
-Następnie musisz uzyskać dostęp do arkusza zawierającego wykres, który chcesz przekonwertować. Oto jak to zrobić:
+Następnie musisz uzyskać dostęp do arkusza kalkulacyjnego zawierającego wykres, który chcesz przekonwertować. Oto jak to zrobić:
 
 ```csharp
 // Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego

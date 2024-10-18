@@ -1,7 +1,7 @@
 ---
 title: Verifique se um valor de célula está em um formato numérico personalizado específico
 linktitle: Verifique se um valor de célula está em um formato numérico personalizado específico
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda como verificar valores de células do Excel em relação a formatos numéricos personalizados usando o Aspose.Cells para .NET com este tutorial passo a passo.
 type: docs
 weight: 10
@@ -36,14 +36,14 @@ Agora que temos tudo pronto, vamos dividir o processo em etapas fáceis de segui
 
 ## Etapa 1: Crie uma pasta de trabalho
 
-Para começar, você precisa criar uma instância de uma pasta de trabalho. Esta é a base do nosso arquivo Excel onde todos os dados e estilos residirão.
+Para começar, você precisa criar uma instância de uma pasta de trabalho. Esta é a base do nosso arquivo Excel, onde todos os dados e estilos residirão.
 
 ```csharp
 // Criar uma pasta de trabalho
 Workbook wb = new Workbook();
 ```
 
- Ao inicializar`Workbook`configuramos um novo arquivo Excel na memória, pronto para manipulação.
+ Ao inicializar`Workbook`, configuramos um novo arquivo Excel na memória, pronto para manipulação.
 
 ## Etapa 2: Configurar as configurações da pasta de trabalho
 

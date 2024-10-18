@@ -32,7 +32,7 @@ url: /el/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 
 Τώρα, ήρθε η ώρα να προσθέσετε την αναφορά βιβλιοθήκης Aspose.Cells. Μπορείτε είτε:
 
--  Κατεβάστε το DLL από[εδώ](https://releases.aspose.com/cells/net/) και προσθέστε το στο έργο σας με μη αυτόματο τρόπο.
+-  Κατεβάστε το DLL από[εδώ](https://releases.aspose.com/cells/net/)και προσθέστε το στο έργο σας με μη αυτόματο τρόπο.
 - Ή χρησιμοποιήστε το NuGet Package Manager και εκτελέστε την ακόλουθη εντολή στην Κονσόλα Package Manager:
 
 ```bash
@@ -81,7 +81,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Ο`Workbook` αντικείμενο είναι η καρδιά της λειτουργικότητας Aspose.Cells. Αντιπροσωπεύει το αρχείο σας Excel με διαχειρίσιμο τρόπο.
 
 ```csharp
-//Δημιουργία αντικειμένου βιβλίου εργασίας
+// Δημιουργία αντικειμένου βιβλίου εργασίας
 // Άνοιγμα του αρχείου Excel μέσω της ροής αρχείων
 Workbook workbook = new Workbook(fstream);
 ```
@@ -93,7 +93,7 @@ Workbook workbook = new Workbook(fstream);
 Με το βιβλίο εργασίας τώρα στη μνήμη, ήρθε η ώρα να αποκτήσετε πρόσβαση στο συγκεκριμένο φύλλο εργασίας που θέλετε να τροποποιήσετε. Στις περισσότερες περιπτώσεις, αυτό θα είναι το πρώτο φύλλο εργασίας (ευρετήριο 0).
 
 ```csharp
-//Πρόσβαση στο πρώτο φύλλο εργασίας στο αρχείο Excel
+// Πρόσβαση στο πρώτο φύλλο εργασίας στο αρχείο Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 

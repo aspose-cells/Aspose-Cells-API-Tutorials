@@ -16,7 +16,7 @@ url: /es/net/excel-merging-unmerging-cells/unmerge-merged-cells/
 Antes de ponernos manos a la obra, hay algunos elementos esenciales que necesitarás tener en cuenta:
 
 ### Conocimientos básicos de C# y .NET Framework
-Si está familiarizado con la programación en C# y tiene conocimientos básicos del marco .NET, ya está en el buen camino. Si no es así, ¡no se preocupe! Este tutorial está diseñado para ser sencillo, por lo que aprenderá los conceptos necesarios a medida que avanza.
+Si está familiarizado con la programación en C# y tiene conocimientos básicos del marco .NET, ya está en el buen camino. Si no es así, ¡no se preocupe! Este tutorial está diseñado para ser sencillo, de modo que aprenderá los conceptos necesarios a medida que avanza.
 
 ### Biblioteca Aspose.Cells
 Asegúrese de tener la biblioteca Aspose.Cells instalada en su entorno .NET. Puede obtenerla fácilmente visitando el sitio web[Página de descarga de Aspose.Cells](https://releases.aspose.com/cells/net/).
@@ -91,7 +91,7 @@ Cells cells = worksheet.Cells;
 
 Con esta línea, ahora tiene acceso a todas las celdas de la hoja de cálculo, lo que le permite manipularlas según sea necesario.
 
-## Paso 5: Separar las celdas
+## Paso 5: Descomponer las celdas
 
 Ahora viene el paso crucial: ¡separar las celdas! Deberá especificar el rango de celdas que desea separar. Utilice el siguiente código:
 

@@ -107,7 +107,7 @@ if (ps.PrinterSettings != null)
 {
     //Распечатать следующее сообщение
     Console.WriteLine("PrinterSettings of this worksheet exist.");
-    //Имя листа печати и размер бумаги
+    //Название листа печати и размер бумаги
     Console.WriteLine("Sheet Name: " + ws.Name);
     Console.WriteLine("Paper Size: " + ps.PaperSize);
 ```

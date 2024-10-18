@@ -46,7 +46,7 @@ if (!IsExists)
 ```
  Neste código, substitua`YOUR DOCUMENT DIRECTORY` com o caminho real onde você gostaria de salvar seu arquivo Excel.
 
-## Etapa 2: Criar uma nova pasta de trabalho
+## Etapa 2: Crie uma nova pasta de trabalho
 
 Em seguida, criaremos uma nova pasta de trabalho onde toda a manipulação ocorrerá. Este é um passo fundamental, como estabelecer a fundação antes de construir a casa dos seus sonhos.
 
@@ -98,7 +98,7 @@ Aqui, recuperamos o estilo para a primeira linha, marcamos como bloqueada e apli
 
 ## Etapa 6: Protegendo a Folha
 
- Com nossa linha bloqueada, vamos dar aquele passo extra e proteger totalmente a planilha. Isso aplicará o bloqueio em todas as funcionalidades definidas no`ProtectionType`.
+ Com nossa linha bloqueada, vamos dar esse passo extra e proteger totalmente a planilha. Isso aplicará o bloqueio em todas as funcionalidades definidas no`ProtectionType`.
 
 ```csharp
 sheet.Protect(ProtectionType.All); // Proteja a folha com todos os recursos
@@ -130,7 +130,7 @@ Sim, você pode estender a técnica de bloqueio iterando por várias linhas e ap
  Sim, você pode desproteger a folha primeiro e depois ajustar a`IsLocked` propriedade das linhas desejadas, reaplicando posteriormente a proteção.
 
 ### O Aspose.Cells suporta outros formatos além do Excel?
-Absolutamente! O Aspose.Cells pode converter e salvar pastas de trabalho em vários formatos, incluindo CSV, PDF e HTML.
+Com certeza! O Aspose.Cells pode converter e salvar pastas de trabalho em vários formatos, incluindo CSV, PDF e HTML.
 
 ### Onde posso obter suporte para o Aspose.Cells?
  Você pode visitar o[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9) para assistência e orientação comunitária.

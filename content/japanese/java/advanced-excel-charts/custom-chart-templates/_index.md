@@ -20,7 +20,7 @@ url: /ja/java/advanced-excel-charts/custom-chart-templates/
 
 このチュートリアルを実行するには、次の前提条件を満たしていることを確認してください。
 
-- Java Development Kit (JDK) がシステムにインストールされています。
+- システムに Java 開発キット (JDK) がインストールされています。
 -  Aspose.Cells for Javaライブラリ。ここからダウンロードできます。[ここ](https://releases.aspose.com/cells/java/).
 
 ## カスタムチャートテンプレートの作成
@@ -41,7 +41,7 @@ public class ChartTemplateExample {
         // Excelワークブックを読み込む
         Workbook workbook = new Workbook();
 
-        //ここにあなたのコード
+        //ここにあなたのコードを入力してください
 
         //ワークブックを保存する
         workbook.save("CustomChartTemplate.xlsx");

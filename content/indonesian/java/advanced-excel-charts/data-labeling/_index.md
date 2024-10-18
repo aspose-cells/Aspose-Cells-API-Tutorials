@@ -2,7 +2,7 @@
 title: Pelabelan Data
 linktitle: Pelabelan Data
 second_title: API Pemrosesan Java Excel Aspose.Cells
-description: Buka Potensi Pelabelan Data dengan Aspose.Cells untuk Java. Pelajari Teknik Langkah demi Langkah.
+description: Manfaatkan Potensi Pelabelan Data dengan Aspose.Cells untuk Java. Pelajari Teknik Langkah demi Langkah.
 type: docs
 weight: 14
 url: /id/java/advanced-excel-charts/data-labeling/
@@ -38,7 +38,7 @@ Workbook workbook = new Workbook();
 
 ## Menambahkan Label ke Data
 
-Sekarang, mari kita bahas cara menambahkan label ke data Anda. Label dapat ditambahkan ke sel, baris, atau kolom.
+Sekarang, mari kita pelajari cara menambahkan label ke data Anda. Label dapat ditambahkan ke sel, baris, atau kolom.
 
 ```java
 // Tambahkan label ke sel

@@ -15,7 +15,7 @@ url: /sv/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 
 Innan vi börjar dela upp rutor som en kalkylbladsguide, låt oss göra rätt inställningar. Här är vad du behöver:
 
--  Aspose.Cells för .NET: Se till att du har laddat ner och installerat det. Om du inte har gjort det ännu, ta den[här](https://releases.aspose.com/cells/net/).
+-  Aspose.Cells för .NET: Se till att du har laddat ner och installerat det. Om du inte har det ännu, ta den[här](https://releases.aspose.com/cells/net/).
 - .NET Framework: Den här guiden förutsätter att du arbetar i en .NET-miljö.
 - En Excel-arbetsbok: Vi använder ett exempel på en Excel-fil för att visa hur den här funktionen fungerar.
 -  En tillfällig eller fullständig licens: Aspose.Cells kräver en licens. Om du bara provar det, skaffa en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license/) för att undvika utvärderingsbegränsningar.
@@ -98,7 +98,7 @@ Och där har du det! Du har precis lärt dig hur du delar upp rutor i ett Excel-
 ### Vad är skillnaden mellan att dela rutor och frysa rutor?  
 Med delade rutor kan du rulla i båda rutor oberoende av varandra. Frysande rutor låser rubrikerna eller specifika rader/kolumner så att de förblir synliga när du rullar.
 
-### Kan jag ta bort splitten efter att ha applicerat den?  
+### Kan jag ta bort splittringen efter att ha applicerat den?  
 Ja, du kan ta bort uppdelningen genom att antingen stänga och öppna arbetsboken igen eller genom att programmera återställa den.
 
 ### Fungerar delningsrutor på samma sätt för olika Excel-filformat (XLS, XLSX)?  

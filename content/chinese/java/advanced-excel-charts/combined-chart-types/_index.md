@@ -10,7 +10,7 @@ url: /zh/java/advanced-excel-charts/combined-chart-types/
 
 ## 使用 Aspose.Cells for Java 组合图表类型简介
 
-在数据可视化领域，图表在帮助我们理解复杂数据集方面发挥着至关重要的作用。Aspose.Cells for Java 是一个功能强大的 Java API，它允许您创建、操作和自定义各种类型的图表，包括组合图表类型。在本文中，我们将探讨如何使用 Aspose.Cells for Java 创建组合图表类型。
+在数据可视化领域，图表在帮助我们理解复杂数据集方面起着至关重要的作用。Aspose.Cells for Java 是一个功能强大的 Java API，它允许您创建、操作和自定义各种类型的图表，包括组合图表类型。在本文中，我们将探讨如何使用 Aspose.Cells for Java 创建组合图表类型。
 
 ## 了解 Aspose.Cells for Java
 

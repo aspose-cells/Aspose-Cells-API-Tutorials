@@ -1,6 +1,6 @@
 ---
-title: Crear un rango de unión de celdas en Excel
-linktitle: Crear un rango de unión de celdas en Excel
+title: Crear una unión de rangos de celdas en Excel
+linktitle: Crear una unión de rangos de celdas en Excel
 second_title: API de procesamiento de Excel Aspose.Cells .NET
 description: Aprenda a crear un rango de unión de celdas en Excel con Aspose.Cells para .NET en sencillos pasos. Mejore sus habilidades en Excel mediante programación.
 type: docs
@@ -18,11 +18,11 @@ Antes de pasar a los detalles prácticos de la creación de un rango de unión d
 - Excel instalado: si bien no es estrictamente necesario, tener Excel instalado puede ayudarle a inspeccionar visualmente los resultados.
 ¿Ya tienes todo listo? ¡Genial! Vamos a ponernos manos a la obra importando los paquetes necesarios.
 ## Importar paquetes
-Antes de comenzar a crear nuestro rango de unión, debemos importar los paquetes Aspose necesarios. A continuación, se muestra cómo hacerlo de forma ordenada.
+Antes de comenzar a crear nuestro rango de unión, debemos importar los paquetes Aspose necesarios. Aquí te mostramos cómo hacerlo de forma ordenada.
 ### Configura tu proyecto
 En primer lugar, asegúrese de crear un nuevo proyecto en su IDE. Seleccione el tipo de proyecto adecuado para las aplicaciones .NET.
 ### Añadir referencia de Aspose.Cells
-A continuación, haga clic derecho en “Referencias” en su explorador de soluciones, seleccione “Agregar referencia” y busque la DLL Aspose.Cells que descargó. 
+continuación, haga clic derecho en “Referencias” en su explorador de soluciones, seleccione “Agregar referencia” y busque la DLL Aspose.Cells que descargó. 
 ```csharp
 using System;
 ```
@@ -35,7 +35,7 @@ El primer paso de nuestro código implica crear una instancia del objeto Workboo
 // Directorio de salida
 string outputDir = "Your Document Directory"();
 
-//Creación de una instancia de un objeto Workbook
+// Creación de una instancia de un objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Esta línea de código le indica a nuestro programa que cree un nuevo libro de trabajo. Es esencial, ya que agregará rangos y valores a este libro de trabajo.
@@ -65,7 +65,7 @@ Por último, agrega una declaración de impresión para confirmar que tu código
 ```csharp
 Console.WriteLine("CreateUnionRange executed successfully.");
 ```
-¡Y ya está! Has creado con éxito una unión de rangos de celdas en un archivo de Excel utilizando Aspose.Cells para .NET.
+¡Y ya lo tienes! Has creado con éxito una unión de rangos de celdas en un archivo Excel utilizando Aspose.Cells para .NET.
 ## Conclusión
 ¡Crear un rango de unión de celdas en Excel no tiene por qué ser como navegar por un laberinto! Con Aspose.Cells para .NET, puede lograrlo con solo unas pocas líneas de código. Esta habilidad no solo mejorará su conjunto de herramientas de programación, sino que también le abrirá la puerta a muchas más manipulaciones sólidas de Excel. 
 
@@ -77,6 +77,6 @@ Un rango de unión en Excel le permite combinar rangos de celdas no contiguos, l
 ### ¿Cómo puedo obtener soporte para Aspose.Cells?
  Para obtener ayuda, puede visitar el sitio[Foro de Aspose](https://forum.aspose.com/c/cells/9) Donde podrás hacer preguntas y obtener respuestas de la comunidad.
 ### ¿Puedo utilizar Aspose.Cells con otros lenguajes de programación?
-¡Sí! Aspose.Cells está disponible para varios lenguajes, incluidos Java, Python y más. Puede encontrar soporte para el lenguaje que elija en la documentación de Aspose.
+¡Sí! Aspose.Cells está disponible para varios lenguajes, incluidos Java, Python y más. Puedes encontrar soporte para el lenguaje que elijas en la documentación de Aspose.
 ### ¿Hay alguna forma de obtener una licencia temporal para Aspose.Cells?
  Sí, puedes obtener una[licencia temporal](https://purchase.aspose.com/temporary-license/) para fines de evaluación.

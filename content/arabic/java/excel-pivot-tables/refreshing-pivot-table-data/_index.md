@@ -55,7 +55,7 @@ pivotTable.calculateData();
 
 ## الخطوة 5: احفظ المصنف المحدث
 
-بعد تحديث جدول Pivot، احفظ المصنف الخاص بك بالبيانات المحدثة.
+بعد تحديث جدول المحور، احفظ المصنف الخاص بك بالبيانات المحدثة.
 
 ```java
 String outputFilePath = "path_to_updated_workbook.xlsx";

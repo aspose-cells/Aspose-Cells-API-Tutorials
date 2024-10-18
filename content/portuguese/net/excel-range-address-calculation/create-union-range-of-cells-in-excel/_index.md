@@ -1,7 +1,7 @@
 ---
 title: Criar intervalo de união de células no Excel
 linktitle: Criar intervalo de união de células no Excel
-second_title: API de processamento do Excel Aspose.Cells .NET
+second_title: API de processamento do Aspose.Cells .NET Excel
 description: Aprenda a criar um intervalo de união de células no Excel usando Aspose.Cells para .NET em etapas fáceis. Melhore suas habilidades em Excel programaticamente.
 type: docs
 weight: 10
@@ -35,7 +35,7 @@ O primeiro passo no nosso código envolve criar uma instância do objeto Workboo
 // Diretório de saída
 string outputDir = "Your Document Directory"();
 
-//Instanciando um objeto Workbook
+// Instanciando um objeto Workbook
 Workbook workbook = new Workbook();
 ```
 Esta linha de código diz ao nosso programa para criar uma nova pasta de trabalho. É essencial, pois você adicionará intervalos e valores a esta pasta de trabalho.

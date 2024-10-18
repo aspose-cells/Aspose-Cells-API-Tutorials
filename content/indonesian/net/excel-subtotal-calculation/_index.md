@@ -13,7 +13,7 @@ Menangani file Excel bisa jadi membosankan, terutama saat menghitung total dan m
 
 ## [Membuat Subtotal di Excel](./create-subtotals-in-excel/)
 
-Bayangkan Anda memiliki spreadsheet besar dengan ratusan baris. Menghitung subtotal secara manual terdengar menakutkan, bukan? Namun dengan Aspose.Cells for .NET, hal itu semudah membalikkan telapak tangan. Tutorial ini memandu Anda membuat subtotal di Excel secara terprogram. Mengapa menghabiskan waktu untuk tugas berulang jika beberapa baris kode dapat melakukannya untuk Anda? Di akhir panduan ini, Anda akan dapat mengatur subtotal dalam waktu singkat.  
+Bayangkan Anda memiliki lembar kerja besar dengan ratusan baris. Menghitung subtotal secara manual terdengar menakutkan, bukan? Namun dengan Aspose.Cells for .NET, hal itu semudah membalikkan telapak tangan. Tutorial ini memandu Anda membuat subtotal di Excel secara terprogram. Mengapa menghabiskan waktu untuk tugas berulang jika beberapa baris kode dapat melakukannya untuk Anda? Di akhir panduan ini, Anda akan dapat mengatur subtotal dalam waktu singkat.  
 [Membuat Subtotal di Excel](./create-subtotals-in-excel/)
 
 ## [Menelusuri Preseden di Excel](./tracing-precedents-in-excel/)

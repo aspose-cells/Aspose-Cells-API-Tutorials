@@ -13,13 +13,13 @@ Pliki Excela są podstawą w zarządzaniu danymi biznesowymi i osobistymi, umoż
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do właściwego procesu usuwania zabezpieczenia, jest kilka rzeczy, które musisz mieć na miejscu:
+Zanim przejdziemy do samego procesu usuwania zabezpieczenia, musisz zadbać o kilka rzeczy:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio do tworzenia oprogramowania .NET. To środowisko ułatwia bezproblemową pracę z bibliotekami Aspose.Cells.
 2.  Biblioteka Aspose.Cells: Musisz zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# pomoże Ci zrozumieć, w jaki sposób kod współpracuje z biblioteką Aspose.Cells.
 4. Przykładowy plik programu Excel: Przygotuj prosty plik programu Excel, zabezpieczony hasłem lub nie, aby przetestować proces usuwania zabezpieczenia.
-5. Microsoft Excel (opcjonalnie): Zawsze warto mieć pod ręką program Excel, aby sprawdzić, czy zmiany wprowadzone przez Aspose.Cells są prawidłowe.
+5. Microsoft Excel (opcjonalnie): Zawsze warto mieć pod ręką program Excel, aby sprawdzić, czy zmiany wprowadzone w pliku Aspose.Cells są prawidłowe.
 
 ## Importuj pakiety
 
@@ -27,7 +27,7 @@ Teraz, gdy wszystko jest już gotowe, szybko skonfigurujmy nasze środowisko. Ab
 
 ### Konfigurowanie projektu
 
- Otwórz Visual Studio i utwórz nowy projekt C#. W`Solution Explorer` , kliknij prawym przyciskiem myszy na swoim projekcie i wybierz Dodaj nowy element.... Wybierz klasę C# i nadaj jej odpowiednią nazwę (na przykład,`ExcelUnprotector.cs`).
+ Otwórz Visual Studio i utwórz nowy projekt C#. W`Solution Explorer` , kliknij prawym przyciskiem myszy na swój projekt i wybierz Dodaj nowy element.... Wybierz klasę C# i nadaj jej odpowiednią nazwę (na przykład,`ExcelUnprotector.cs`).
 
 ### Instalowanie Aspose.Cells
 
@@ -62,7 +62,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zmień to na swoją rzeczywistą 
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
- Następnie musisz utworzyć instancję`Workbook` aby otworzyć plik Excel.
+ Następnie musisz utworzyć instancję`Workbook` klasa, aby otworzyć plik Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -78,7 +78,7 @@ Teraz uzyskajmy dostęp do arkusza, który chcesz odbezpieczyć. Zazwyczaj, jeś
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-tym wierszu celujemy w pierwszy arkusz. Jeśli chcesz usunąć ochronę innego arkusza, po prostu zmień odpowiednio numer indeksu.
+W tym wierszu celujemy w pierwszy arkusz. Jeśli chcesz usunąć ochronę innego arkusza, po prostu zmień odpowiednio numer indeksu.
 
 ## Krok 4: Odblokowywanie arkusza kalkulacyjnego
 

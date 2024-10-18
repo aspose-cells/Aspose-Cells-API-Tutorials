@@ -63,7 +63,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
  Most, hogy van egy fájlfolyamunk, létrehozhatunk a`Workbook` objektum.
 
 ```csharp
-//Munkafüzet objektum példányosítása
+// Munkafüzet objektum példányosítása
 // Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook excel = new Workbook(fstream);
 ```
@@ -74,7 +74,7 @@ Workbook excel = new Workbook(fstream);
 Céljainkra csak az első munkalappal fogunk dolgozni. Hozzáférjünk.
 
 ```csharp
-//Az Excel fájl első munkalapjának elérése
+// Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = excel.Worksheets[0];
 ```
  A munkalapokat nullától kezdve indexeljük, tehát`Worksheets[0]` az Excel fájl első munkalapjára vonatkozik. Most alkalmazhatjuk védelmi beállításainkat erre a konkrét lapra.

@@ -54,7 +54,7 @@ Nachdem das erledigt ist, können wir unsere Druckoptionen festlegen!
 
 Jetzt legen wir los und tauchen in den Code ein! Wir werden Schritt für Schritt durch das Einstellen verschiedener Druckoptionen gehen.
 
-## Schritt 1: Dokumentverzeichnis definieren
+## Schritt 1: Definieren Sie das Dokumentverzeichnis
 
 Der erste Schritt besteht darin, festzulegen, wo Ihre Excel-Datei gespeichert wird. Anstatt Pfade überall in Ihrem Code fest zu codieren, sollten wir ihn sauber und ordentlich halten.
 
@@ -70,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
  Als nächstes müssen wir ein`Workbook` Objekt. Dieses Objekt fungiert als Container für Ihre Tabellendaten.
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
+// Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
 ```
 
@@ -127,7 +127,7 @@ Jede Zeile hier stellt eine Option dar, die das Erscheinungsbild Ihres Dokuments
 
 ## Schritt 5: Speichern der Arbeitsmappe
 
-Wenn Sie alles nach Ihren Wünschen eingerichtet haben, ist es endlich an der Zeit, Ihre Arbeitsmappe zu speichern.
+Wenn Sie alles nach Ihren Wünschen eingerichtet haben, können Sie Ihre Arbeitsmappe endlich speichern.
 
 ```csharp
 // Speichern Sie die Arbeitsmappe.

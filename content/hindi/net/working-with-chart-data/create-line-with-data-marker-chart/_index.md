@@ -13,7 +13,7 @@ url: /hi/net/working-with-chart-data/create-line-with-data-marker-chart/
 
 ## आवश्यक शर्तें
 
-आरंभ करने से पहले, सुनिश्चित करें कि आपके पास सुचारू रूप से अनुसरण करने के लिए सभी चीजें मौजूद हैं।
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास सुचारू रूप से अनुसरण करने के लिए सभी चीजें मौजूद हैं।
 
 1.  Aspose.Cells for .NET Library – आपको इसे इंस्टॉल करना होगा। आप इसे प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
 2. .NET फ्रेमवर्क - सुनिश्चित करें कि आपका विकास वातावरण .NET के नवीनतम संस्करण के साथ स्थापित है।
@@ -142,7 +142,7 @@ int s3_idx = chart.NSeries.Add("A22: A41", true);
 chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow;
 chart.NSeries[s2_idx].Marker.Border.IsVisible = false;
 
-// दूसरी श्रृंखला अनुकूलित करें
+// दूसरी श्रृंखला को अनुकूलित करें
 chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green;
 chart.NSeries[s3_idx].Marker.Border.IsVisible = false;
 ```

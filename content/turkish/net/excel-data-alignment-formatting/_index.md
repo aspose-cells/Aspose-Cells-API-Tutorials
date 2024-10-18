@@ -13,7 +13,7 @@ url: /tr/net/excel-data-alignment-formatting/
 
 ## Biçimlendirmeyi Kaybetmeden Excel Hücrelerinin Hizalamasını Değiştirme
 
-Şimdi adım adım sürece geçelim. .NET için Aspose.Cells, Excel çalışma sayfasındaki tek tek hücreler veya aralıklarla etkileşim kurmanıza olanak tanır, böylece hizalama ayarları da dahil olmak üzere görünümlerini, biçimlendirmenin geri kalanını bozmadan kolayca özelleştirebilirsiniz.
+Şimdi adım adım sürece geçelim. .NET için Aspose.Cells, Excel çalışma sayfasındaki tek tek hücrelerle veya aralıklarla etkileşim kurmanıza olanak tanır, böylece hizalama ayarları da dahil olmak üzere görünümlerini, biçimlendirmenin geri kalanını bozmadan kolayca özelleştirebilirsiniz.
 
 1. Hücreleri veya Aralığı Seçin:
    Ayarlamak istediğiniz hücreleri veya aralığı belirterek başlayın. Bu, ihtiyaçlarınıza bağlı olarak tek bir hücre veya tüm bir tablo olabilir.

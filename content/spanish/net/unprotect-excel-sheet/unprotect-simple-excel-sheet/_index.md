@@ -102,7 +102,7 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Conclusión
 
-En un mundo dominado por los datos, es fundamental saber cómo manipular y administrar las hojas de cálculo de Excel. El uso de Aspose.Cells para .NET ofrece una forma sólida de manejar las operaciones de archivos de Excel, incluida la desprotección de las hojas. Con solo unas pocas líneas de código, ha recuperado el acceso a su contenido protegido y puede continuar con su trabajo sin problemas. De esta forma, la próxima vez que se encuentre con una hoja de cálculo de Excel bloqueada, sabrá exactamente qué hacer.
+En un mundo dominado por los datos, es fundamental saber cómo manipular y administrar las hojas de cálculo de Excel. El uso de Aspose.Cells para .NET ofrece una forma sólida de manejar las operaciones con archivos de Excel, incluida la desprotección de las hojas. Con solo unas pocas líneas de código, ha recuperado el acceso a su contenido protegido y puede continuar con su trabajo sin problemas. De esta forma, la próxima vez que se encuentre con una hoja de cálculo de Excel bloqueada, sabrá exactamente qué hacer.
 
 ## Preguntas frecuentes
 
@@ -112,7 +112,7 @@ No, el método proporcionado solo funciona sin contraseña. Si se establece una 
 ### ¿Hay alguna forma de cambiar la contraseña de una hoja de Excel usando Aspose.Cells?
 Sí, puedes proteger y establecer una nueva contraseña en una hoja de Excel utilizando los métodos de la biblioteca.
 
-### ¿Aspose.Cells admite formatos más nuevos de Excel?
+### ¿Aspose.Cells admite los formatos más nuevos de Excel?
 ¡Por supuesto! La biblioteca admite formatos de Excel tanto antiguos como nuevos (.xls y .xlsx).
 
 ### ¿Puedo utilizar Aspose.Cells gratis?

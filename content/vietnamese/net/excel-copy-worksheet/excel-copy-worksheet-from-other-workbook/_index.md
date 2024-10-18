@@ -9,7 +9,7 @@ url: /vi/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
 ---
 ## Giới thiệu
 
-Bạn đã bao giờ thấy mình vật lộn với nhiều sổ làm việc Excel, cố gắng sắp xếp dữ liệu của mình sao cho có tổ chức và dễ truy cập chưa? Nếu vậy, bạn không phải là người duy nhất! Nhiều người trong chúng ta phải xử lý nhiều tệp khác nhau, cho dù là cho công việc hay các dự án cá nhân. Tin tốt là bạn có thể làm cho cuộc sống của mình dễ dàng hơn với một chút trợ giúp từ Aspose.Cells for .NET. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp Excel một cách dễ dàng, bao gồm cả việc sao chép các bảng tính từ sổ làm việc này sang sổ làm việc khác. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để thực hiện điều đó, đảm bảo bạn có thể hợp lý hóa quy trình làm việc của mình và tăng năng suất.
+Bạn đã bao giờ thấy mình vật lộn với nhiều sổ làm việc Excel, cố gắng sắp xếp dữ liệu của mình và dễ truy cập chưa? Nếu vậy, bạn không đơn độc! Nhiều người trong chúng ta phải xử lý nhiều tệp khác nhau, cho dù là cho công việc hay các dự án cá nhân. Tin tốt là bạn có thể làm cho cuộc sống của mình dễ dàng hơn với một chút trợ giúp từ Aspose.Cells cho .NET. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp Excel một cách dễ dàng, bao gồm cả việc sao chép các bảng tính từ sổ làm việc này sang sổ làm việc khác. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để thực hiện điều đó, đảm bảo bạn có thể hợp lý hóa quy trình làm việc của mình và tăng năng suất.
 
 ## Điều kiện tiên quyết
 
@@ -137,7 +137,7 @@ Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, chỉ
  Bạn có thể yêu cầu giấy phép tạm thời bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?  
-Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/cells/net/).
+ Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/cells/net/).
 
 ### Có hỗ trợ nào dành cho người dùng Aspose.Cells không?  
  Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).

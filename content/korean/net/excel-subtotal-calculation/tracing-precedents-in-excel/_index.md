@@ -39,7 +39,7 @@ using System;
 ## 1단계: 워크북 설정
 이 단계에서는 통합 문서를 만들고 Excel 파일을 로드합니다.
 ```csharp
-string dataDir = "Your Document Directory"; // 실제 디렉토리로 대체하세요
+string dataDir = "Your Document Directory"; // 실제 디렉토리로 바꾸세요
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
  이 코드 조각에서는 다음을 바꾸는 것을 잊지 마세요.`"Your Document Directory"` Excel 파일이 있는 경로와 함께. 이 줄은 기본적으로 작업할 통합 문서를 엽니다.
@@ -54,7 +54,7 @@ Cells cells = workbook.Worksheets[0].Cells;
 ```csharp
 Cell cell = cells["B4"];
 ```
-이 라인은 셀 B4를 직접 타겟으로 합니다. 다른 셀을 추적하고 싶다면 참조를 변경하기만 하면 됩니다. 간단하죠?
+이 라인은 셀 B4를 직접 타겟으로 합니다. 다른 셀을 추적하고 싶다면 참조만 바꾸면 됩니다. 간단하죠?
 ## 4단계: 선례를 얻으세요
 선택한 셀에 대한 선례를 가져오겠습니다. 이 단계에서 마법이 일어납니다!
 ```csharp
@@ -74,7 +74,7 @@ foreach (ReferredArea area in ret)
  이 스니펫에서는 간단한 것을 활용하고 있습니다.`foreach` B4에 공급되는 셀의 시트 이름과 셀 참조를 인쇄하기 위한 루프입니다.`CellsHelper.CellIndexToName`이 함수는 행과 열 인덱스를 "A1", "B2" 등과 같은 읽을 수 있는 셀 참조로 변환합니다. 
 
 ## 결론
-이제 Aspose.Cells for .NET을 사용하여 Excel에서 선례를 성공적으로 추적했습니다. 셀 종속성을 이해하면 스프레드시트 관리 기술을 향상시키고 데이터 기반 의사 결정에 명확성을 제공할 수 있습니다. 마치 퍼즐을 풀고 데이터가 어디에서 나오는지 조각하는 것과 같습니다. 이제 직접 데이터에서 이것을 시도하고 Aspose.Cells의 힘을 발휘하세요!
+이제 아시겠죠! Aspose.Cells for .NET을 사용하여 Excel에서 성공적으로 선례를 추적했습니다. 셀 종속성을 이해하면 스프레드시트 관리 기술을 향상시키고 데이터 기반 의사 결정에 명확성을 제공할 수 있습니다. 마치 퍼즐을 풀고 데이터가 어디에서 나오는지 조각 맞추는 것과 같습니다. 이제 직접 데이터에서 이것을 시도하고 Aspose.Cells의 힘을 발휘하세요!
 ## 자주 묻는 질문
 ### Aspose.Cells란 무엇인가요?  
 Aspose.Cells는 Microsoft Excel을 사용하지 않고도 Excel 스프레드시트를 만들고, 조작하고, 변환하는 데 사용되는 .NET 라이브러리입니다.

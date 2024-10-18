@@ -9,7 +9,7 @@ url: /tr/net/excel-security/lock-cell-in-excel-worksheet/
 ---
 ## giriiş
 
-Günümüzün hızlı dünyasında, verileri güvenli bir şekilde yönetmek hem işletmeler hem de bireyler için hayati önem taşır. Excel, veri yönetimi için yaygın bir araçtır, ancak hassas bilgilerin bozulmadan kalmasını ve başkalarının elektronik tabloyu görüntülemesine izin vermeyi nasıl sağlarsınız? Bir Excel çalışma sayfasındaki hücreleri kilitlemek, verilerinizi istenmeyen değişikliklerden korumak için etkili bir yoldur. Bu kılavuzda, Excel dosyalarını programlı olarak okumayı, yazmayı ve düzenlemeyi basitleştiren güçlü bir kitaplık olan Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki hücreleri nasıl kilitleyeceğinizi inceleyeceğiz.
+Günümüzün hızlı dünyasında, verileri güvenli bir şekilde yönetmek hem işletmeler hem de bireyler için hayati önem taşır. Excel, veri yönetimi için yaygın bir araçtır, ancak hassas bilgilerin bozulmadan kalmasını ve başkalarının elektronik tabloyu görüntülemesine izin vermeyi nasıl sağlarsınız? Excel çalışma sayfasındaki hücreleri kilitlemek, verilerinizi istenmeyen değişikliklerden korumak için etkili bir yoldur. Bu kılavuzda, Excel dosyalarını programatik olarak okumayı, yazmayı ve düzenlemeyi basitleştiren güçlü bir kitaplık olan Aspose.Cells for .NET kullanarak Excel çalışma sayfasındaki hücreleri nasıl kilitleyeceğinizi inceleyeceğiz.
 
 ## Ön koşullar
 
@@ -41,7 +41,7 @@ Bu, Aspose.Cells kütüphanesinin sağladığı tüm gerekli sınıflara ve yön
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` bilgisayarınızdaki gerçek yol ile. Şöyle bir şey olabilir`@"C:\MyExcelFiles\"`.
+ Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Bilgisayarınızdaki gerçek yol ile. Şöyle bir şey olabilir`@"C:\MyExcelFiles\"`.
 
 ## Adım 2: Çalışma Kitabınızı Yükleyin
 
@@ -109,7 +109,7 @@ Hayır, hücre kilitlemenin kendisi bir parola gerektirmez; ancak güvenliği ar
 Şifrenizi unutursanız çalışma sayfanızın korumasını kaldıramazsınız, bu yüzden onu güvende tutmanız çok önemlidir.
 
 ### Hücreler kilitlendikten sonra kilidini açabilir miyim?
- Kesinlikle! Hücrelerin kilidini, şu şekilde ayarlayarak açabilirsiniz:`IsLocked` mülk`false` ve korumayı kaldırmak.
+ Kesinlikle! Hücrelerin kilidini, şu ayarı yaparak açabilirsiniz:`IsLocked` mülk`false` ve korumayı kaldırmak.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
 Aspose.Cells, kullanıcılar için ücretsiz deneme sunar. Ancak, sürekli kullanım için bir lisans satın almanız gerekir. Ziyaret edin[Aspose satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.

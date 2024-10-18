@@ -15,8 +15,8 @@ Membuat bagan yang dinamis dan menarik secara visual di Excel adalah cara yang f
 
 Sebelum kita mulai membuat kode, ada beberapa hal yang harus Anda siapkan:
 
-- Pemahaman Dasar tentang C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu. Jangan khawatir; Anda tidak perlu menjadi seorang ahli, cukup pahami sintaksnya.
--  Pustaka Aspose.Cells Terpasang: Pastikan Anda telah memasang pustaka Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
+- Pemahaman Dasar tentang C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu. Jangan khawatir; Anda tidak perlu menjadi seorang ahli, cukup pahami sintaksisnya.
+- Pustaka Aspose.Cells Terpasang: Pastikan Anda telah memasang pustaka Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
 - Visual Studio: Keakraban dengan Visual Studio atau IDE apa pun yang ingin Anda gunakan untuk kerangka kerja .NET sangatlah penting.
 - File Excel yang Ada: Untuk contoh ini, kita akan menggunakan file Excel yang sudah ada bernama "sampleAddingTextBoxControlInChart.xls". Anda dapat membuat file tersebut atau mengunduh contohnya.
 
@@ -36,7 +36,7 @@ using System.Drawing;
 
 ## Langkah 1: Tentukan Direktori Sumber dan Output Anda
 
-Sebelum kita mulai bekerja dengan berkas Excel, penting untuk menentukan di mana berkas masukan Anda berada dan di mana Anda ingin menyimpan berkas keluaran. Ini membantu menjaga proyek Anda tetap teratur.
+Sebelum kita mulai bekerja dengan berkas Excel, penting untuk menentukan di mana berkas masukan Anda berada dan di mana Anda ingin menyimpan berkas keluaran. Ini membantu menjaga proyek Anda tetap terorganisasi.
 
 ```csharp
 // Direktori sumber
@@ -106,7 +106,7 @@ textbox0.Font.Size = 14;
 textbox0.Font.IsItalic = true;
 ```
 
-Masing-masing baris ini mengubah tampilan teks di dalam Kotak Teks Anda, meningkatkan visibilitas dan daya tarik.
+Masing-masing baris ini mengubah tampilan teks di dalam TextBox Anda, meningkatkan visibilitas dan daya tarik.
 
 ## Langkah 7: Format Tampilan Kotak Teks
 
@@ -128,7 +128,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 
 Pilihan ini memungkinkan Anda untuk mengatur isian latar belakang TextBox dan menyesuaikan batasnya.
 
-## Langkah 8: Simpan File Excel yang Telah Dimodifikasi
+## Langkah 8: Simpan File Excel yang Dimodifikasi
 
 Langkah terakhir adalah menyimpan perubahan yang telah Anda buat pada file Excel baru. Ini akan memastikan bahwa file asli Anda tetap utuh.
 
@@ -136,7 +136,7 @@ Langkah terakhir adalah menyimpan perubahan yang telah Anda buat pada file Excel
 // Simpan berkas excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Mengganti`"outputAddingTextBoxControlInChart.xls"` dengan nama berkas apa pun yang Anda sukai.
+ Mengganti`"outputAddingTextBoxControlInChart.xls"`dengan nama berkas apa pun yang Anda sukai.
 
 ## Kesimpulan
 

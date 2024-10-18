@@ -16,7 +16,7 @@ Koşullu veri doğrulamasının ayrıntılarına dalmadan önce, Java için Aspo
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Development Kit (JDK) yüklü.
+- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
 -  Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Yeni bir Java Projesi Oluşturun

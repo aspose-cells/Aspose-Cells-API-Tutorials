@@ -48,7 +48,7 @@ string sourceDir = "Your Document Directory"; // Geef uw documentdirectory op
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- In deze stap declareren we een variabele`sourceDir` die naar de locatie van uw Excel-bestand verwijst. Vervolgens maken we een nieuw exemplaar van de`Workbook`klasse om dat bestand te laden. Dit is alsof we het boek openen dat we willen lezen!
+ In deze stap declareren we een variabele`sourceDir` die naar de locatie van uw Excel-bestand verwijst. Vervolgens maken we een nieuw exemplaar van de`Workbook` klasse om dat bestand te laden. Dit is alsof we het boek openen dat we willen lezen!
 
 ## Stap 2: Toegang tot het eerste werkblad
 
@@ -58,7 +58,7 @@ Nadat de werkmap is geladen, is de volgende stap het openen van het eerste werkb
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Hier maken we gebruik van de`Worksheets` verzameling van onze werkmap en toegang tot het eerste werkblad (dat meestal index 0 is). Deze stap is cruciaal omdat al onze filteracties op dit werkblad worden uitgevoerd.
+ Hier maken we gebruik van de`Worksheets`verzameling van onze werkmap en toegang tot het eerste werkblad (dat meestal index 0 is). Deze stap is cruciaal omdat al onze filteracties op dit werkblad worden uitgevoerd.
 
 ## Stap 3: Definieer de filterparameters
 
@@ -82,7 +82,7 @@ string outputDir = "Your Document Directory"; // Geef uw uitvoermap op
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
-Ten slotte geven we aan waar we de gefilterde werkmap willen opslaan met behulp van de`Save` methode. U kunt het een nieuwe naam geven (in dit geval,`outputAdvancedFilter.xlsx`) om het origineel intact te houden.
+ Ten slotte geven we aan waar we de gefilterde werkmap willen opslaan met behulp van de`Save` methode. U kunt het een nieuwe naam geven (in dit geval,`outputAdvancedFilter.xlsx`) om het origineel intact te houden.
 
 ## Conclusie
 
@@ -100,7 +100,7 @@ Nee, Aspose.Cells werkt onafhankelijk en vereist niet dat Microsoft Excel op uw 
  Ja, u kunt Aspose.Cells gratis uitproberen door de proefversie te downloaden van[hier](https://releases.aspose.com/).
 
 ### Kan ik ondersteuning krijgen als ik problemen ondervind?
-Absoluut! Je kunt community support krijgen op de[Aspose-forum](https://forum.aspose.com/c/cells/9).
+ Absoluut! Je kunt community support krijgen op de[Aspose-forum](https://forum.aspose.com/c/cells/9).
 
 ### Hoe verkrijg ik een tijdelijke licentie voor Aspose.Cells?
  U kunt een tijdelijke licentie aanvragen via hun aankooppagina[hier](https://purchase.aspose.com/temporary-license/). 
