@@ -19,10 +19,10 @@ namespace Aspose.Cells.Examples.CSharp.LoadingSavingConvertingAndManaging
         public static void Run()
         {
             //Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             //Output directory
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string outputDir = "Your Document Directory";
 
             // ExStart:1
             // Open the template file

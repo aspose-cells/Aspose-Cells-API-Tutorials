@@ -20,7 +20,7 @@ namespace Aspose.Cells.Examples.CSharp.LoadingSavingConvertingAndManaging
     class SaveWorkbookToStrictOpenXMLSpreadsheetFormat 
     {
         //Output directory
-        static string outputDir = RunExamples.Get_OutputDirectory();
+        static string outputDir = "Your Document Directory";
 
         public static void Main()
         {

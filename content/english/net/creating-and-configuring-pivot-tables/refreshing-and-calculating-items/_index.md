@@ -23,7 +23,7 @@ namespace Aspose.Cells.Examples.CSharp.PivotTableExamples
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
 
             // Load source excel file containing a pivot table having calculated items
             Workbook wb = new Workbook(dataDir + "sample.xlsx");

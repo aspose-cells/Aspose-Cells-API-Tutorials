@@ -37,7 +37,7 @@ namespace Aspose.Cells.Examples.CSharp.LoadingSavingConvertingAndManaging
         {
             // ExStart:GetWarningsWhileLoadingExcelFile
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
 
 
             //Create load options and set the WarningCallback property 

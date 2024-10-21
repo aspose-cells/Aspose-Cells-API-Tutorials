@@ -26,8 +26,8 @@ namespace Aspose.Cells.Examples.CSharp.PivotTables
         {
             // ExStart:1
             //Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string sourceDir = "Your Document Directory";
+            string outputDir = "Your Document Directory";
 
             Workbook wb = new Workbook(sourceDir + "SamplePivotSort.xlsx");
 

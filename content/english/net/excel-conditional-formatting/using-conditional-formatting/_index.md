@@ -25,7 +25,7 @@ namespace Aspose.Cells.Examples.CSharp.Formatting
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
             ConditionalFormatting obj = new ConditionalFormatting();
             obj.DoTest();
         }
@@ -33,7 +33,7 @@ namespace Aspose.Cells.Examples.CSharp.Formatting
         public void DoTest()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
             // Instantiate a workbook object
             Workbook book = new Workbook();
             // Create a worksheet object and get the first worksheet

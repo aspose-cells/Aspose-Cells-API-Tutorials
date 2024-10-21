@@ -20,10 +20,10 @@ namespace Aspose.Cells.Examples.CSharp.HTML
         {
             // ExStart:1
             // Input directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             // Output directory
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string outputDir = "Your Document Directory";
             // ExStart:1
 
             //Load sample source file

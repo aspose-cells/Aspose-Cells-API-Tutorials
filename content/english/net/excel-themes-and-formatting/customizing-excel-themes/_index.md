@@ -23,7 +23,7 @@ namespace Aspose.Cells.Examples.CSharp.Formatting.Excel2007Themes
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
             
             // Define Color array (of 12 colors) for Theme.
             Color[] carr = new Color[12];

@@ -22,7 +22,7 @@ namespace Aspose.Cells.Examples.CSharp.LoadingSavingConvertingAndManaging
         {
             // ExStart:1
             //Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             LoadOptions loadOptions = new LoadOptions(LoadFormat.Csv);
             // Load csv file

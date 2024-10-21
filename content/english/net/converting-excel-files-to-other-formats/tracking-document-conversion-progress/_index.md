@@ -24,10 +24,10 @@ namespace Aspose.Cells.Examples.CSharp.LoadingSavingConvertingAndManaging
         {
             // ExStart:1
             //Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             //Output directory
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string outputDir = "Your Document Directory";
 
             Workbook workbook = new Workbook(sourceDir + "PagesBook1.xlsx");
 

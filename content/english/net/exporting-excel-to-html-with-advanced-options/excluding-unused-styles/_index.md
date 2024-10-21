@@ -22,7 +22,7 @@ namespace Aspose.Cells.Examples.CSharp.HTML
         public static void Run()
         {
             //Output directory
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string outputDir = "Your Document Directory";
 
             //Create workbook
             Workbook wb = new Workbook();

@@ -25,7 +25,7 @@ namespace Aspose.Cells.Examples.CSharp.PivotTables
         public static void Run()
         {
             //Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             //Load sample Excel file
             Workbook wb = new Workbook(sourceDir + "sampleFindAndRefreshNestedOrChildrenPivotTables.xlsx");

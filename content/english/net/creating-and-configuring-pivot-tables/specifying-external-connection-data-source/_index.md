@@ -21,7 +21,7 @@ namespace Aspose.Cells.Examples.CSharp.PivotTables
         {
             // ExStart:1
             // Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             // Load sample file
             Workbook workbook = new Workbook(sourceDir + "SamplePivotTableExternalConnection.xlsx");

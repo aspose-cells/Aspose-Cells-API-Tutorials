@@ -23,7 +23,7 @@ namespace Aspose.Cells.Examples.CSharp.Formatting
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
 
             // Creating a file stream containing the Excel file to be opened
             FileStream fstream = new FileStream(dataDir + "Book1.xlsx", FileMode.Open);

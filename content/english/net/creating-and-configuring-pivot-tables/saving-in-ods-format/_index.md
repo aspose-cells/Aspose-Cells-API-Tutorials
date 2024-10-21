@@ -20,7 +20,7 @@ namespace Aspose.Cells.Examples.CSharp.PivotTables
         public static void Run()
         {
             // ExStart:1
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string outputDir = "Your Document Directory";
 
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

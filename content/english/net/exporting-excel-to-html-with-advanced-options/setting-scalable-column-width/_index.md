@@ -22,10 +22,10 @@ namespace Aspose.Cells.Examples.CSharp.HTML
         public static void Main()
         {
             // Input directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             // Output directory
-            string outputDir = RunExamples.Get_OutputDirectory();
+            string outputDir = "Your Document Directory";
             // ExStart:1
             // Load sample source file
             Workbook wb = new Workbook(sourceDir + "sampleForScalableColumns.xlsx");

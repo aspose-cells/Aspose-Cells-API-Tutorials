@@ -21,7 +21,7 @@ namespace Aspose.Cells.Examples.CSharp.Formulas
     class DetectCircularReference
     {
         // Input directory
-        static string sourceDir = RunExamples.Get_SourceDirectory();
+        static string sourceDir = "Your Document Directory";
 
         public static void Main()
         {

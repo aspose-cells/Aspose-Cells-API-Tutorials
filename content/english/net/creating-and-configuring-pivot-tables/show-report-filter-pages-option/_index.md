@@ -22,10 +22,10 @@ namespace Aspose.Cells.Examples.CSharp.PivotTableExamples
     public class ShowReportFilterPagesOption
     {
         //Source directory
-        static string sourceDir = RunExamples.Get_SourceDirectory();
+        static string sourceDir = "Your Document Directory";
 
         //Output directory
-        static string outputDir = RunExamples.Get_OutputDirectory();
+        static string outputDir = "Your Document Directory";
 
         public static void Main()
         {

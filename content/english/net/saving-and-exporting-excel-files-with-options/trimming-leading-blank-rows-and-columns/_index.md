@@ -24,7 +24,7 @@ namespace Aspose.Cells.Examples.CSharp.LoadingSavingConvertingAndManaging
         {
             // ExStart:TrimLeadingBlankRowsAndColumnsWhileExportingSpreadsheetsToCSVFormat
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
 
             //Load source worbook
             Workbook wb = new Workbook(dataDir + "sampleTrimBlankColumns.xlsx");

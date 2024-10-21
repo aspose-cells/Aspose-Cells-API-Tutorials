@@ -121,7 +121,7 @@ namespace Aspose.Cells.Examples.CSharp.PivotTableExamples
         public static void Run()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            string dataDir = "Your Document Directory";
                         
             //Load your excel file
             Workbook wb = new Workbook(dataDir + "samplePivotTableGlobalizationSettings.xlsx");

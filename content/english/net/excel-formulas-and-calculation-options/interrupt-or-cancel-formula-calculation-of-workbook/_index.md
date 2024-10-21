@@ -43,7 +43,7 @@ namespace Aspose.Cells.Examples.CSharp.Formulas
         public static void Run()
         {
             //Source directory
-            string sourceDir = RunExamples.Get_SourceDirectory();
+            string sourceDir = "Your Document Directory";
 
             //Load the sample Excel file
             Workbook wb = new Workbook(sourceDir + "sampleCalculationMonitor.xlsx");
