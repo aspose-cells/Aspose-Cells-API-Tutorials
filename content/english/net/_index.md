@@ -120,3 +120,38 @@ Explore the comprehensive guide on Aspose.Cells for .NET tutorials. Learn about 
 Discover comprehensive Aspose.Cells for .NET tutorials on XPS and PDF operations to streamline your file conversions.
 ### [Link and Configuration Operations](./link-and-configuration-operations/)
 Discover comprehensive tutorials on Aspose.Cells for .NET, including link configuration and more. Perfect for developers looking to enhance their Excel applications.
+### [Working with Fonts in Spreadsheets](./working-with-fonts-in-spreadsheets/)
+
+### [Excel Formatting and Styling](./excel-formatting-and-styling/)
+
+### [Working with Fonts in Excel](./working-with-fonts-in-excel/)
+
+### [Excel Themes and Formatting](./excel-themes-and-formatting/)
+
+### [Formatting Rows and Columns in Excel](./formatting-rows-and-columns-in-excel/)
+
+### [Number and Display Formats in Excel](./number-and-display-formats-in-excel/)
+
+### [Excel Colors and Background Settings](./excel-colors-and-background-settings/)
+
+### [Color Settings and Customization in Excel](./color-settings-and-customization-in-excel/)
+
+### [Excel Conditional Formatting](./excel-conditional-formatting/)
+
+### [Excel Character and Cell Formatting](./excel-character-and-cell-formatting/)
+
+### [Excel Borders and Formatting Options](./excel-borders-and-formatting-options/)
+
+### [Excel Formatting Methods and Options](./excel-formatting-methods-and-options/)
+
+### [Excel Formulas and Calculation Options](./excel-formulas-and-calculation-options/)
+
+### [Exporting Excel to HTML with Advanced Options](./exporting-excel-to-html-with-advanced-options/)
+
+### [Loading and Saving Excel Files with Options](./loading-and-saving-excel-files-with-options/)
+
+### [Converting Excel Files to Other Formats](./converting-excel-files-to-other-formats/)
+
+### [Saving and Exporting Excel Files with Options](./saving-and-exporting-excel-files-with-options/)
+
+### [Creating and Configuring Pivot Tables](./creating-and-configuring-pivot-tables/)
