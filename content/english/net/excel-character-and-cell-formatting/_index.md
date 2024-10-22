@@ -10,4 +10,6 @@ url: /net/excel-character-and-cell-formatting/
 
 ## Excel Character and Cell Formatting Tutorials
 ### [Formatting Selected Characters in Excel](./formatting-selected-characters/)
+Learn how to format selected characters in Excel using Aspose.Cells for .NET with our step-by-step tutorial.
 ### [Making a Cell Active Programmatically in Excel](./making-a-cell-active/)
+Learn how to programmatically set an active cell in Excel using Aspose.Cells for .NET with this comprehensive guide.
