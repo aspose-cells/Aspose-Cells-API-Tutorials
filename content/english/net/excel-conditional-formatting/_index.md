@@ -9,5 +9,5 @@ url: /net/excel-conditional-formatting/
 ---
 
 ## Excel Conditional Formatting Tutorials
-### [Using Conditional Formatting in Excel Programmatically](./using-conditional-formatting/)
 ### [Applying Conditional Formatting at Runtime in Excel](./applying-conditional-formatting-at-runtime/)
+Learn how to apply conditional formatting at runtime in Excel with Aspose.Cells for .NET in this comprehensive, step-by-step guide.
