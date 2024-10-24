@@ -10,3 +10,4 @@ url: /net/excel-formatting-methods-and-options/
 
 ## Excel Formatting Methods and Options Tutorials
 ### [Using Copy Method Programmatically in Excel](./using-copy-method/)
+Learn how to use the copy method in Aspose.Cells for .NET to manipulate Excel files efficiently. Step-by-step guide included.
